@@ -1,0 +1,17 @@
+# P-0373: Gustaf Tobias Lundkvist
+
+## Identitet
+
+Alva Viktoria Eliassons make i 1930 års Smuleberghushåll.
+
+## Påståenden
+
+| ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
+|---|---|---|---|---|---|
+| A-2144 | År 1930 var han slaktare i Smuleberg, född 1898 i Ransberg, gift med Alva Viktoria Eliasson och far i hushållet till Lars Olof. | TRANSCRIBED | hög | [C-0417](../citations/C-0417-folkrakning-1930-augusta-alva-smuleberg.md) | Registerpost och fulloriginal; exakt födelsedatum och vigselnotis återstår. |
+
+## Relationer
+
+Maka: [P-0027 Alva Viktoria Eliasson](P-0027-alma-viktoria-eliasson.md).
+Son: [P-0374 Lars Olof Lundkvist](P-0374-lars-olof-lundkvist.md).
+

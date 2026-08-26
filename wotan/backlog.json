@@ -1,0 +1,142 @@
+{
+  "version": "2.1.0",
+  "next_id": 18,
+  "tasks": [
+    {
+      "id": "T-0001",
+      "status": "DONE",
+      "size": "M",
+      "summary": "Initialize provenance-first genealogy workspace"
+    },
+    {
+      "id": "T-0002",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0001"
+      ],
+      "summary": "Verify Oskar Alfred Zingmark and Ebba Alfrida Andersson"
+    },
+    {
+      "id": "T-0003",
+      "status": "DONE",
+      "size": "M",
+      "summary": "Verify Arne Godvig Jansson and his wife"
+    },
+    {
+      "id": "T-0004",
+      "status": "DONE",
+      "size": "S",
+      "summary": "Establish the root pedigree and iterative-deepening frontier"
+    },
+    {
+      "id": "T-0005",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0001"
+      ],
+      "summary": "Backfill dossiers for all already-discovered relatives"
+    },
+    {
+      "id": "T-0006",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0002",
+        "T-0003",
+        "T-0005"
+      ],
+      "summary": "Close depth 2 and establish the verified depth-3 frontier"
+    },
+    {
+      "id": "T-0007",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0006"
+      ],
+      "summary": "Research the complete depth-3 ancestral wave and all encountered kin"
+    },
+    {
+      "id": "T-0008",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0007"
+      ],
+      "summary": "Restore pedigree audit integrity and close the depth-5 wave"
+    },
+    {
+      "id": "T-0009",
+      "status": "IDEA",
+      "size": "M",
+      "summary": "Export verified genealogy to GEDCOM and machine-readable indexes"
+    },
+    {
+      "id": "T-0010",
+      "status": "IDEA",
+      "size": "M",
+      "after": [
+        "T-0003"
+      ],
+      "summary": "Seek contemporary evidence for Bernhard's paternity of Arne"
+    },
+    {
+      "id": "T-0011",
+      "status": "DONE",
+      "size": "M",
+      "summary": "Revalidate authenticated archive access and map source-family coverage"
+    },
+    {
+      "id": "T-0012",
+      "status": "READY",
+      "size": "L",
+      "after": [
+        "T-0011"
+      ],
+      "summary": "Complete and enrich the next shared edition cohort breadth-first"
+    },
+    {
+      "id": "T-0013",
+      "status": "BLOCKED",
+      "size": "L",
+      "after": [
+        "T-0012"
+      ],
+      "blocker": "Waiting for T-0012 to complete the balanced next-edition cohort and for the owner's mandatory pre-PDF editorial checkpoint; deeper research must not outrun that gate",
+      "summary": "Complete the depth-6 central-spine wave and register the next frontier"
+    },
+    {
+      "id": "T-0014",
+      "status": "DONE",
+      "size": "L",
+      "summary": "Establish the wife's proband and initial source-broad ancestral wave"
+    },
+    {
+      "id": "T-0015",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0014"
+      ],
+      "summary": "Complete the balanced depth-4 family-edition cohort for Adam and Axel"
+    },
+    {
+      "id": "T-0016",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0015"
+      ],
+      "summary": "Design, render and verify the first Adam-and-Axel family PDF"
+    },
+    {
+      "id": "T-0017",
+      "status": "ONGOING",
+      "size": "M",
+      "phase": "VERIFYING",
+      "summary": "Preserve the genealogy workspace in a private GitHub repository"
+    }
+  ]
+}
