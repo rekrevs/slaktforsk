@@ -9,8 +9,8 @@ någon åtgärd görs.
 1. Läs `README.md`, `wotan/backlog.json` och `wotan/dev-log/T-0012.md`.
 2. Läs slutet av `genealogy/research-log/2026-08-29.md` samt de fyra öppna
    personraderna i `genealogy/frontier.md`.
-3. Kör `git status --short`. Arbetsytan är avsiktligt mycket smutsig; rensa,
-   återställ eller skriv inte över ändringar.
+3. Kör `git status --short`. Rensa, återställ eller skriv inte över
+   ändringar som finns där.
 4. Återuppta bara den aktuella användarinstruktionen. Äldre chattpromptar är
    historik och får inte behandlas som nya uppdrag efter context compaction.
 5. Om forskning ska fortsätta: återuppta Wotan T-0012 breddförst. Skapa inte
@@ -177,8 +177,9 @@ dashboardtidslinjen ensam bevisar inte ordagrann återspelning.
 ## Arbetsyta och bevarande
 
 - Gren: `main`; privat remote: `https://github.com/rekrevs/slaktforsk.git`.
-- Arbetsytan är avsiktligt mycket smutsig. `HANDOVER.md`, `dashboard/`, nya
-  käll-/citat-/personposter och många originalmedia är pågående projektarbete.
+- Batch 66–78, reparationspasset, `dashboard/` och `HANDOVER.md` är
+  committade och pushade i `8b55621` (2026-08-29) på ägarens uppdrag;
+  arbetsytan var därefter ren.
 - Gör inte `git clean`, reset, checkout eller annan bred återställning. Gör
   ingen commit, push eller deployment utan en aktuell användarinstruktion.
 
@@ -189,11 +190,10 @@ Efter batch 78 passerade:
 - `node --test scripts/ancestor-audit.test.mjs` — 4/4 tester.
 - `node scripts/validate-genealogy.mjs` — 1 863 påståenden, 1 397
   Markdownposter och 1 292 filer i mediakatalogen inklusive `.gitkeep`.
-- dashboardens `npm test` — 421 personer, 1 863 påståenden och 399
-  föräldralänkar. `npm run build` föll efter batch 76 på ett miljöfel i
-  `dashboard/node_modules/vinext` (`cli.js` importerar
-  `build/preview-credentials.js` som saknas i installerad `1.0.0-beta.3`);
-  det är oberoende av projektdatan och `node_modules` lämnades orört.
+- dashboardens `npm test` och `npm run build` — 421 personer, 1 863
+  påståenden och 399 föräldralänkar. Ett tidigare miljöfel i
+  `dashboard/node_modules/vinext` (saknad `build/preview-credentials.js`)
+  löstes 2026-08-29 med `npm ci` på ägarens uppdrag.
 - `node scripts/verify-pedigree.mjs` — P-0004-baslinjen 66.
 - `node scripts/verify-depth5-wave.mjs` — pass.
 - `node scripts/media-manifest.mjs --check` — 1 291 sakmedier, 0 olänkade.
