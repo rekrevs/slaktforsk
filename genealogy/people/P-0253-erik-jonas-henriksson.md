@@ -23,6 +23,7 @@
 | [P-0338 Henrik Henriksson](P-0338-henrik-henriksson-lagfors.md) | far | TRANSCRIBED | C-0330 |
 | [P-0339 Margareta Charlotta Sjödin/Sjölin](P-0339-margareta-charlotta-sjodin.md) | mor | TRANSCRIBED | C-0330 |
 | [P-0366 Nils Andreas Henriksson](P-0366-nils-andreas-henriksson.md) | bror | CORROBORATED | C-0330, C-0374 |
+| [P-0394 Märtha Brita Henriksson](P-0394-martha-brita-henriksson.md) | syster | CORROBORATED | C-0469, C-0470 |
 
 ## Forskningsstatus
 

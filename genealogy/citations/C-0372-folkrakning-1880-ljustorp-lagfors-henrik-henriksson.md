@@ -22,7 +22,7 @@ hämtas från husförhörslängden, inte från folkräkningens årtalsindex.
 
 | Bild-id och fil | Dimensioner | SHA-256 |
 |---|---:|---|
-| [`Folk_822018-028`](../media/C-0372-riksarkivet-folkrakning-1880-ljustorp-lagfors-henriksson-sjolin.jpg) | 800 × 1 340 | `003ab6f0f3b446d0d600fb3df2ea26ec87c6f34dacae4ca5f729a65051aa26fd` |
+| [`Folk_822018-028`](../media/C-0273-riksarkivet-folkrakning-1880-ljustorp-lagfors-erik-jonas.jpg) | 800 × 1 340 | `003ab6f0f3b446d0d600fb3df2ea26ec87c6f34dacae4ca5f729a65051aa26fd` |
 
 ## Stödda påståenden
 

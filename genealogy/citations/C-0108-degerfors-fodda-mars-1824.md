@@ -52,11 +52,17 @@ Posten den **9 mars 1824** är ändå en stark kandidat:
 - året och församlingen stämmer,
 - avvikelsen gäller bara dagen, 9 mot 19, vilket är en vanlig avskriftsglidning.
 
-Kandidaturen är dock inte belagd. Den bör prövas mot Degerfors
-husförhörslängder, som är digitaliserade i sin helhet: familjen vid **Bergvall**
-i `A I/4` (1836–1842) eller `A I/5a`–`A I/5b` (1843–1847) bör visa om en son
-Johannes född 1824 fanns där och när han flyttade till Sävar. Föräldrarna
-registreras därför som kandidater med LEAD-status i P-0146 och P-0147.
+Kandidaturen är dock inte belagd. Senare kontroller visade att A I/4:s
+Bergvallssida är tom, att A I/3 har en annan familj och att A I/5a:s möjliga
+1847-hänvisningar saknar en säker Johan-rad. År 2026-08-29 återfanns däremot
+det äldre kandidatparet i det överstrukna Bergvallshushållet A I/2 sida 169;
+Brita Gretas separata födelsenotis 1821 bekräftar paret och byn. Se
+[C-0506](C-0506-degerfors-AI2-bergvall-och-brita-greta-1821.md).
+
+Det nya hushållsankaret innehåller ingen säkert läsbar Johannes född 1824
+och ingen destination. Föräldrarna står därför fortsatt som kandidater med
+`LEAD`-status i P-0146 och P-0147; 9/19-konflikten och den positiva
+framåtlänken är olösta.
 
 ## Lokal källbild
 

@@ -12,6 +12,7 @@ posten bevaras eftersom han tillhör målhushållet.
 | A-0563 | Namnet var Sven Arvid Eriksson. | TRANSCRIBED | hög | [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) | Namnkolumnen. |
 | A-0564 | Han var född 1898-07-07 i Flen. | TRANSCRIBED | hög | [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) | Exakt datum och födelseort. |
 | A-0565 | Han var fosterson i hushållet. | TRANSCRIBED | hög | [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) | Familjeställningen anges som `fosters.`. |
+| A-2290 | Folkräkningen 1910 har i Erik och Matildas hushåll formen `Sven Arne`, född 1898 i Flen; identiteten med Sven Arvid är sannolik men namnformen är konfliktförd. | CONFLICT | medel | [C-0500](../citations/C-0500-folkrakning-1910-erik-karlsson-vilhelmsro.md), [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) | Samma födelseår, födelseort och fosterhushåll, men olika andranamn. |
 
 ## Relationer
 
@@ -21,4 +22,6 @@ posten bevaras eftersom han tillhör målhushållet.
 
 ## Forskningsfrågor
 
-- Ingen prioriterad; posten hålls som hushållskontext utan påstådd släktskap.
+- Ingen prioriterad släktlinje; posten hålls som hushållskontext utan påstådd
+  släktskap. Om identiteten behöver säkras, följ 1910-raden `Sven Arne`
+  tillbaka till Flens födelsebok och jämför med Sven Arvids fulla datum.

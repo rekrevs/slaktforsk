@@ -48,6 +48,11 @@ födelseboken 1824, men var obebott eller oregistrerat 1836–1842. Familjen Peh
 Ersson hade därmed lämnat platsen, och kandidaturen för P-0058 kan inte prövas
 här.
 
+Den sista avgränsningen gäller fortsatt just A I/4. En äldre positiv väg
+återfanns 2026-08-29 i A I/2 sida 169 och Brita Gretas födelsenotis 1821;
+se C-0506. Den löser kandidatfamiljens tidigare Bergvallankare men inte
+flytten framåt eller relationen till P-0058.
+
 ## Rättelse av ett tidigare påstående
 
 Påstående A-0609 hos P-0065 sade att Buberget inte fanns som uppslag i

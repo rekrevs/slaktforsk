@@ -18,6 +18,10 @@ rad 3 för Anders Ivar.
 > d. Anna Mathilda — icke döpt — 80 23/12 — d:o  
 > Anders Ivar — 03 13/5 — förs.
 
+På Anna Gretas rad anger vigselkolumnen `80 27/2` och änkekolumnen
+`11 16/11`. Båda siffrorna är tydliga i fulloriginalet och överensstämmer
+med den föregående församlingsboken C-0460 samt den egna vigselposten C-0461.
+
 `d:o` upprepar födelseorten Hälsingtuna. `förs.` på Anders Ivars rad avser
 församlingen, alltså Hudiksvall. Hans namnrad och flera senare noteringar är
 överstrukna när personen förts vidare; datumkolumnen är tydlig.
@@ -30,6 +34,10 @@ och kompletterar därför 1910-/1930-kedjan med exakt födelsedatum. Sidan
 namnger ingen far i den lästa kärnan. Den sekundära Fredberg-uppgiften i
 C-0259 måste prövas i andra källor.
 
+Sidan visar dessutom att Anna Greta gifte sig 1880-02-27 och blev änka
+1911-11-16. Änkedatumet korresponderar med Anders Gustafs dödskolumn i den
+föregående boken på sida 484.
+
 ## Lokal källbild
 
 [Hudiksvall A II a/3 b, sida 593](../media/C-0260-riksarkivet-hudiksvall-AIIa3b-sida-593-ivar-hook.jpg),
@@ -38,4 +46,4 @@ C-0259 måste prövas i andra källor.
 
 ## Stödda påståenden
 
-- A-1623–A-1625
+- A-1623–A-1625, A-2113, A-2123, A-2213 och A-2214.

@@ -15,6 +15,7 @@ födelsenotis och folkräkningarna 1880–1890 använder Carolina/Karolina.
 | A-2037 | Carolina/Charlotta dog 1891-04-11 i Gäddestad, Östra Husby. | CORROBORATED | mycket hög | [C-0360](../citations/C-0360-folkrakning-1890-ostra-husby-gaddestad-karlsson.md), [C-0406](../citations/C-0406-ostra-husby-AI24-gaddestad-sida-81.md), [C-0408](../citations/C-0408-ostra-husby-C8-charlotta-dod-1891.md) | Husförhörslängdens `91 11/4` bekräftas av egen dödpost. |
 | A-2106 | Charlotta begravdes 1891-04-16, 41 år, 11 månader och 29 dagar gammal; dödsorsaksfältet lämnades tomt. | TRANSCRIBED | mycket hög | [C-0408](../citations/C-0408-ostra-husby-C8-charlotta-dod-1891.md) | Egen död- och begravningspost; ingen dödsorsak infereras. |
 | A-2107 | A I/24 samlar Carolina med Anders Magnus och barnen Elin, Ida Carolina, Carl Gottfrid och Ester Elisabet i Gäddestad och uppger makarnas äktenskapsår som 1870. | TRANSCRIBED | hög | [C-0406](../citations/C-0406-ostra-husby-AI24-gaddestad-sida-81.md) | Exakt vigselpost återstår. |
+| A-2382 | Jonsberg C I/5:s vigselavsnitt oktober 1868–1872 och Östra Husby C/7:s vigselavsnitt 1869–1872 saknar någon lysning eller vigsel för Carolina Larsdotter och Anders Magnus Carlsson. | NEGATIVE | hög | [C-0537](../citations/C-0537-jonsberg-och-ostra-husby-vigselkontroll-1868-1872-negativ.md), [C-0406](../citations/C-0406-ostra-husby-AI24-gaddestad-sida-81.md) | Både födelse- och bostadsförsamlingen är uteslutna för 1869–1872; nästa säkra väg är hennes utflyttning i Jonsberg B och inflyttningsattesten till Östra Husby. |
 
 ## Relationer
 

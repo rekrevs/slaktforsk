@@ -9,7 +9,7 @@
 | A-0326 | ~~Husförhörslängden anger hans födelsedatum till 1839-11-04.~~ | REJECTED | låg | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Avvisad 2026-08-20. Bråket i husförhörslängden läses vid detaljzoom `16/4`, inte `4/11`, och vigselboken 1867 skriver `14/4`. Båda samtida källorna anger april 1839. |
 | A-0327 | Åren 1867–1876 var han bonde i Buberget med hustrun Lotta Sofia och barnen Ida Sofia, Maria Augusta, Jonas Edvard, tvillingarna Anders och Carl samt Anders född 1876. | CORROBORATED | hög | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0066](../citations/C-0066-ida-sofia-folkrakning-1870.md) | Födelsebok, husförhörslängd och folkräkning. |
 | A-0328 | År 1870 anges han som jordägare i Buberget. | TRANSCRIBED | hög | [C-0066](../citations/C-0066-ida-sofia-folkrakning-1870.md) | Databaspost. |
-| A-0599 | Han var född i april 1839; dagen anges som 16 i husförhörslängden och som 14 i vigselboken. | CONFLICT | hög | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Två samtida källor som skiljer sig på dagen. Ingen av läsningarna väljs bort. |
+| A-0599 | Han var född i april 1839; dagen anges som 16 i husförhörs-, församlings- och dödböckerna men som 14 i vigselboken. | CONFLICT | hög | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0483](../citations/C-0483-vindeln-AIIa3-anders-jonsson-buberget-1900-1909.md), [C-0484](../citations/C-0484-degerfors-F3-anders-jonsson-dod-1909.md) | Två källgrenar skiljer sig på dagen. De sena samstämmiga 16 april-uppgifterna gör inte vigselbokens 14 april oskriven. |
 | A-0600 | Han var hemmansägare i Buberget vid vigseln 1867. | TRANSCRIBED | hög | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Ståndsbeteckningen i lysningsposten. |
 | A-0601 | Han lyste 1867-01-06 och vigdes 1867-01-28 med Lotta Sofia Andersdotter. | TRANSCRIBED | hög | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Lysningsnummer 1 för året. |
 | A-0602 | Hans uppslag i husförhörslängden var folio 85. | TRANSCRIBED | hög | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Foliokolumnen; motsvarar Bubergetsuppslaget i A I/9c. |
@@ -19,6 +19,10 @@
 | A-0674 | Buberget beboddes 1836–1842 av bonden Gustaf Fredrik Tjernbergs familj. | TRANSCRIBED | hög | [C-0115](../citations/C-0115-buberget-och-bergvall-1836-1842.md) | Elva barn födda 1817–1847; ingen Anders född 1839 och ingen far vid namn Jon eller Jonas. |
 | A-0675 | Buberget var därmed inte hans barndomshem; han övertog hemmanet före vigseln 1867. | TRANSCRIBED | hög | [C-0115](../citations/C-0115-buberget-och-bergvall-1836-1842.md) | Ersätter den felaktiga slutsatsen i A-0609. |
 | A-2095 | År 1900 var han bonde och änkling i Buberget med barnen Jonas Edvard, Anders, Hildur Charlotta, Karl Magnus, Hanna Matilda och Oskar Rudolf i hushållet. | CORROBORATED | hög | [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md), [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | Husförhör, dödbok och folkräkning binder övergången efter Lottas död 1898. |
+| A-2264 | Församlingsboken följer honom som änkling och bonde i Buberget 1900–1909 med samma sex hemmavarande barn och markerar död 1909-10-21. | CORROBORATED | hög | [C-0483](../citations/C-0483-vindeln-AIIa3-anders-jonsson-buberget-1900-1909.md), [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md) | Kontinuerlig övergång från folkräkningen till församlingsboken. |
+| A-2265 | Han dog 1909-10-21 i Buberget, begravdes 4 november och dödsorsaken skrevs `ålderdomsbräcklighet`. | CORROBORATED | hög | [C-0483](../citations/C-0483-vindeln-AIIa3-anders-jonsson-buberget-1900-1909.md), [C-0484](../citations/C-0484-degerfors-F3-anders-jonsson-dod-1909.md) | Historisk källterm utan modern medicinsk omtolkning. |
+| A-2267 | Hans bouppteckning registrerades 1910 under namnformen Anders Jansson, hemmansägare i Buberget, som Degerfors tingslag F II/7 nr 55. | TRANSCRIBED | hög | [C-0486](../citations/C-0486-degerfors-anders-jansson-bouppteckningsregister-1910.md) | Originalvolymen är läsesalsbunden; innehållet har inte infererats. |
+| A-2268 | Tre avgränsade sökningar i folkräkningen 1910 gav ingen Anders Jonsson född 1839 med de prövade Degerfors-/Västerbottensvillkoren. | TRANSCRIBED | hög | [C-0487](../citations/C-0487-folkrakning-1910-anders-jonsson-noll.md) | Registerfrågebundet noll, inte eget dödsbelägg. |
 
 ## Forskningsfrågor
 
@@ -29,9 +33,9 @@
   eftersom han övertog hemmanet där.
 - Klarlägg varför födelseboken saknar en matchande post trots att båda samtida
   källorna anger Degerfors som födelseförsamling.
-- Hans senare liv är nu följt som bonde i Buberget till änklingshushållet
-  1900. Egen död och eventuell bouppteckning återstår, men prioriteras efter
-  övriga kohortpersoners centrala källryggrad.
+- Hans senare liv är nu följt som bonde och änkling i Buberget till döden
+  1909-10-21. Bouppteckningen är lokaliserad till `F II/7 nr 55`, men
+  originalet kräver kopiebeställning eller läsesalsbesök.
 
 ## Slutstatus
 
@@ -43,12 +47,15 @@
   uppslag, på både födelsedatum och dopnamn; husförhörslängden `A I/4`
   (1836–1842) sida 308 Buberget via volymens byregister; samtliga byrubriker i
   `A I/8a` och `A I/8b` (1861–1865); vigselboken `E I/2` 1867, som ger
-  födelsedatumet `14/4 1839`; husförhörslängden `A I/9c` som ger `16/4`.
+  födelsedatumet `14/4 1839`; husförhörslängden `A I/9c`, församlingsboken
+  `A II a/3` sida 1088 och dödboken `F/3` sida 174 som ger `16/4`.
 - Negativ kontroll: [C-0107](../citations/C-0107-degerfors-1839-negativ-kontroll.md) och [C-0115](../citations/C-0115-buberget-och-bergvall-1836-1842.md)
 - Kvarstående motsägelse: två samtida källor anger april 1839, men årets fyra
   pojkar med dopnamnet Anders har fäderna Lars Andersson, Hans Andersson,
   Anders Eliasson och Anders Nilsson. Ingen ger patronymikonet Jonsson. Hans
   barndomsby är okänd, så husförhörslängderna kan inte slås upp riktat.
-- Sen livskedja: Buberget A I/11c sida 241 och folkräkningen 1900 visar honom
-  som bonde; Lottas död 1898 förklarar änklingsstatusen. Detta löser inte hans
-  egen födelseidentitet.
+- Sen livskedja: Buberget A I/11c sida 241, folkräkningen 1900 och A II a/3
+  sida 1088 följer honom som bonde och änkling till döden 1909-10-21. F/3
+  sida 174 ger begravning och dödsorsak. Bouppteckningen är positivt
+  registrerad som `Jansson, Anders`, `F II/7 nr 55`, men originalet är
+  läsesalsbundet. Detta löser inte hans egen födelseidentitet.

@@ -15,8 +15,9 @@ döpt den 8 juli. Föräldrafältet läses:
 Hemvistfältet läses `Jernvägsportvakten`. Moderns ålder anges till `27 år`.
 En klammernotering vid föräldrarna läses försiktigt `1:a b. i g. 1877`; den
 tycks ange första barnet och ett äktenskapsår 1877, men den är inte en
-vigselpost och används inte som exakt vigseldatum. Dopvittnenas fulla namn har
-inte transkriberats säkert.
+vigselpost och används inte som exakt vigseldatum. Den senare originalvigseln
+C-0477 bekräftar året och anger 1877-09-20. Dopvittnenas fulla namn har inte
+transkriberats säkert.
 
 ## Tolkning
 

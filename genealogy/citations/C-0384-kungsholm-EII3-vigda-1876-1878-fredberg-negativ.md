@@ -19,7 +19,8 @@ C-0371 med en kontroll av originalbokens tre relevanta år.
 
 Resultatet motsäger inte C-0382:s försiktigt lästa äktenskapsår 1877. Det är
 ett Kungsholmsnoll, inte ett allmänt vigselnoll; paret kan ha vigts eller lysts
-i en annan församling.
+i en annan församling. C-0477 har senare löst frågan genom parets egen vigsel
+i Hemsjö 1877-09-20; Kungsholmsnollet kvarstår som korrekt avgränsad kontroll.
 
 ## Stött påstående
 

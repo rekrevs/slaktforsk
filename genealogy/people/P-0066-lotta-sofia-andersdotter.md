@@ -24,6 +24,7 @@
 | A-2096 | Lotta Sofia föddes 1843-03-30 i Rödå, döptes 4 april och var dotter till nämndemannen Anders Olofsson och Sofia Magdalena Jonsdotter. | CORROBORATED | hög | [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Egen födelsenotis och barndomshushåll. |
 | A-2097 | Hon dog 1898-05-25 i Buberget, begravdes 5 juni och dödsorsaken skrevs `lungsot`. | CORROBORATED | hög | [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md), [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | Historisk källterm utan modern medicinsk omtolkning. |
 | A-2098 | Åren 1890–1898 levde hon som bondhustru i Buberget med Anders Jonsson och barnen Maria Augusta, Jonas Edvard, Anders, Hildur Charlotta, Karl Magnus, Hanna Mathilda och Oskar Rudolf. | CORROBORATED | hög | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | Folkräkning och löpande hushållskälla. |
+| A-2266 | Bouppteckningen förrättades 1898-08-20 och namnger maken Anders Jansson samt deras åtta barn Ida Sofia, Maria Augusta, Jonas Edvard, Anders, Carl Magnus, Oskar Rudolf, Hilda Charlotta och Hanna Matilda. | CORROBORATED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | `Hilda` är aktens variant av senare `Hildur`; första aktsidan har lästs, inte hela tillgångsinventeringen. |
 
 ## Relationer
 
@@ -36,10 +37,10 @@
 
 ## Forskningsfrågor
 
-- Den centrala livskedjan är nu sluten från egen födelsenotis via
-  barndomshushåll, vigsel och familjehushåll till egen död. Eventuell
-  bouppteckning är en senare berikningskälla efter kohortens centrala
-  källryggrad.
+- Den centrala livskedjan är sluten från egen födelsenotis via
+  barndomshushåll, vigsel och familjehushåll till egen död. Bouppteckningens
+  första sida säkrar förrättningsdatum och arvingekrets; resten av akten kan
+  läsas senare för hushållsekonomi och full värdering.
 - Fadderspalten i födelsenotisen är delvis svårläst. Nya personidentiteter ska
   inte skapas ur den utan jämförelsematerial.
 
@@ -56,4 +57,6 @@
   barndomshushåll och dödpost. `17/10` och `20/10` bevaras som senare
   avskriftsvarianter, inte som öppna likvärdiga datum.
 - Livsslut: [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md),
-  död 1898-05-25 i Buberget och begravd 5 juni.
+  död 1898-05-25 i Buberget och begravd 5 juni. Bouppteckningens första sida
+  ([C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md))
+  namnger maken och samtliga åtta barn.

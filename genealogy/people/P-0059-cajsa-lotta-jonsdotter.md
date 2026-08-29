@@ -38,6 +38,13 @@ namnet till Lotta Jonsdotter.
 | A-2057 | År 1870 var hon gift hustru i familj 1 i Östanträsk med Johan Pehrsson, landtbonde, och barnen Jonas Peter, Emma Maria, Johan August, Carl Eric, Albert och Charlotta. | TRANSCRIBED | hög | [C-0377](../citations/C-0377-folkrakning-1870-savar-ostantrask-cajsa-lotta.md) | Riksarkivets registerpost saknar synlig originalbild men hushållets sammansatta identitet överensstämmer med kyrkobokskedjan. |
 | A-2058 | Sävar A I/8b sida 460 anger att hon flyttade från Gunnismark till Alnö 1889-05-21. | TRANSCRIBED | hög | [C-0378](../citations/C-0378-savar-AI8b-cajsa-lotta-till-alno-1889.md) | Exakt namn, datum, födelseort och tidigare familjehushåll säkrar raden; ingen fortsatt Alnöadress eller dödsort infereras. |
 | A-2059 | Alnö B/3:s kompletta inflyttningsår 1889, sidorna 25–30 och posterna 1–159, saknar en säker reciprok post för henne. | TRANSCRIBED | hög | [C-0379](../citations/C-0379-alno-B3-inflyttade-1889-negativ-kontroll.md) | Avgränsat helårsnoll i inflyttningsdelen; Sävars positiva utflyttningsnotis står fast och inget Alnö- eller personnoll påstås. |
+| A-2270 | År 1880 bodde hon med maken Johan Persson och barnen Albert och Charlotta i Gunnismark. | CORROBORATED | hög | [C-0218](../citations/C-0218-savar-AI7b-AI8b-johan-gunnismark-1880-1885.md), [C-0488](../citations/C-0488-folkrakning-1880-johan-persson-kajsa-lotta-gunnismark.md) | Folkräkningsoriginalet bekräftar det sena Sävarhushållet. |
+| A-2271 | År 1890 var hon änka och mor i sonen Jonas Peter Johanssons hushåll vid Strand ångsåg och lastageplats i Alnö. | CORROBORATED | hög | [C-0489](../citations/C-0489-folkrakning-1890-kajsa-charlotta-jonas-peter-alno.md), [C-0492](../citations/C-0492-alno-AIIa10-sida-2739-jonas-petter-kajsa-charlotta.md) | Exakt födelseår/-församling, änkestånd och sonens identitet överbryggar Alnö B/3:s avgränsade noll. |
+| A-2272 | År 1900 stod hon som arbetaränka i ett eget hushåll vid Strands ångsåg i Alnö under namnformen Kajsa Charlotta Persson, född Jonsdotter. | TRANSCRIBED | hög | [C-0490](../citations/C-0490-folkrakning-1900-kajsa-charlotta-strands-angsag.md) | Namnformen och platsen hör till den säkra sena kedjan. |
+| A-2273 | År 1910 var hon änka i familj 2 på Alviks sågverk, på samma adress som sonen Jonas Petter Johansson och hans familj. | CORROBORATED | hög | [C-0491](../citations/C-0491-folkrakning-1910-kajsa-charlotta-jonas-petter-alno.md), [C-0492](../citations/C-0492-alno-AIIa10-sida-2739-jonas-petter-kajsa-charlotta.md) | Folkräkning och församlingsbok överensstämmer om adress och familj. |
+| A-2274 | Alnö A II a/10 sida 2739 anger henne som Kajsa Charlotta Persson, född Jonsdotter, född 1825-10-20 i Umeå landsförsamling, änka sedan 1885-11-17 och död 1912-04-25. | CORROBORATED | hög | [C-0492](../citations/C-0492-alno-AIIa10-sida-2739-jonas-petter-kajsa-charlotta.md), [C-0493](../citations/C-0493-alno-F4-kajsa-charlotta-dod-1912.md) | Den sena födelseuppgiften löser inte C-0146:s frånvarande samtida födelsepost men identiteten och livsslutet är säkra. |
+| A-2275 | Hon dog 1912-04-25 i Alvik av hög ålder och begravdes 1912-05-05 i Alnö. | CORROBORATED | mycket hög | [C-0492](../citations/C-0492-alno-AIIa10-sida-2739-jonas-petter-kajsa-charlotta.md), [C-0493](../citations/C-0493-alno-F4-kajsa-charlotta-dod-1912.md) | Församlingsbok och död- och begravningsbok överensstämmer om personen och dödsdagen. |
+| A-2276 | Bouppteckningsregistret gav ingen träff på Kajsa Charlotta Persson/Alvik/Alnö eller på en ortbred Alvikfråga 1912–1913. | TRANSCRIBED | hög | [C-0494](../citations/C-0494-alvik-bouppteckningsregister-1912-1913-negativ.md) | Registerbundet noll; registret är ofullständigt och ingen frånvaro av bouppteckning infereras. |
 
 ## Relationer
 
@@ -46,9 +53,9 @@ Barn: [P-0238 Johanna Charlotta](P-0238-johanna-charlotta-johansdotter.md),
 P-0060, P-0061, [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md),
 P-0062–P-0064.
 
-## Återöppnad forskningsfront 2026-08-21
+## Forskningsfront uppdaterad 2026-08-28
 
-- Status: `ÖPPEN — LIVSKEDJA TILL ALNÖ 1889, URSPRUNG OLÖST`
+- Status: `VIDAREFÖRD — LIVSKEDJA OCH DÖD SÄKRADE, URSPRUNG OLÖST`
 - Källingång: den säkra kedjan Sävar–Degerfors s. 327–396–339–336–361–362,
   gamla bokens sida 206 samt de reciproka flyttposterna Umeå 1843-11-02 och
   Degerfors 1843-11-17 i C-0205–C-0207 och C-0222–C-0223.
@@ -59,14 +66,16 @@ P-0062–P-0064.
   preliminär träff i inflyttningspost 30 avvisades som Cajsa Lotta Ersdotter,
   och A I/15e s. 1020–1036 saknar den rätta personen. Senare visar
   folkräkningen 1870 hennes landtbondehushåll med sex barn i Östanträsk.
-  Sävar A I/8b för henne från Gunnismark till Alnö 1889-05-21, men Alnö
-  B/3:s hela inflyttningsår saknar en reciprok post.
+  Sävar A I/8b för henne från Gunnismark till Alnö 1889-05-21. Alnö B/3:s
+  hela inflyttningsår saknar fortfarande en reciprok post, men senare
+  folkräkningar följer henne via Strand/Strands ångsåg till Alviks sågverk.
+  A II a/10 sida 2739 och F/4 post 32 säkrar döden 1912-04-25.
 - Nästa: kringgå folio 1028 genom en ny positiv hänvisning, tidigare flyttled,
   mantals-/kommunionmaterial eller annan parentbärande Umeåkälla; den
   särskilda konfirmationsserien börjar först 1844, efter hennes utflyttning.
   Den negativa originalkontrollen av födelsedagen består och den namnlika
-  flickan får inte identitetskopplas. Det sena Alnöspåret återtas endast med
-  en ny adress-, hushålls-, döds- eller exakt sidhänvisning.
+  flickan får inte identitetskopplas. Livsslutet är nu stängt; nästa
+  prioriterade väg är endast en ny positiv parentbärande Umeåkälla.
 - Åtkomstbelägg: [källtäckningsrevisionen](../source-coverage.md).
 
 ## Tidigare slutstatus — supersederad 2026-08-21

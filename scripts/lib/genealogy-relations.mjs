@@ -7,7 +7,7 @@ const EXCLUDE = /styv|husbonde|uppgiven|tidigare antagen|sannolik|möjlig|ej bel
 
 // A prose label ends the preceding relationship block. JavaScript's `\w`
 // does not include Swedish letters, so keep the supported alphabet explicit.
-const LABEL = String.raw`[A-Za-zÅÄÖåäö]+\s*:`;
+const LABEL = String.raw`[A-Za-zÅÄÖåäö][A-Za-zÅÄÖåäö0-9]*(?:\s+[A-Za-zÅÄÖåäö0-9]+)*\s*:`;
 const proseBlock = (labels) =>
   new RegExp(String.raw`(${labels})\s*:\s*([^\n]*(?:\n(?!${LABEL})[^\n]*)*)`, "g");
 

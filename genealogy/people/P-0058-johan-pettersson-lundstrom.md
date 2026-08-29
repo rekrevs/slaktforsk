@@ -46,6 +46,10 @@ framträder i husförhörslängden; i födelsenotisen står Johan Pettersson.
 | A-1444 | De plats- och årsriktiga mantalsvolymerna för Bjurholm 1847, Vännäs 1848, Degerfors 1847/1854 och Sävar 1885 är katalogiserade men `Läsesal`-bundna utan digital bildlänk. | TRANSCRIBED | hög | [C-0221](../citations/C-0221-johan-mantalslangder-katalog-och-atkomst.md) | FamilySearch har en möjlig mikrofilmsväg till och med 1860, men exakt filmåtkomst kräver inloggad kontroll; inget personresultat infereras. |
 | A-1888 | Degerfors B/1:s interna hänvisning i utflyttningspost 33 är källskadad och kan inte säkert skiljas mellan sida `63` och en `36x`-form; A I/5a s. 62–68 och 360–368 innehåller ingen säker rad som förenar Johan Pehrsson med 1824-03-19. | CONFLICT | hög | [C-0313](../citations/C-0313-degerfors-AI5a-skadad-sidhansvisning-johan-pehrsson.md) | Sidbunden kontroll. Den reciproka flyttkedjan 1847 står fast, men ingen husförhörslänk bakåt eller föräldrarelation skapas. |
 | A-2060 | År 1870 var han gift landtbonde i Östanträsk med Cajsa Lotta och sex barn i familj 1. | TRANSCRIBED | hög | [C-0377](../citations/C-0377-folkrakning-1870-savar-ostantrask-cajsa-lotta.md) | Registerpostens sammansatta hushållsidentitet överensstämmer med kyrkoböckerna; ingen originalbild erbjöds i postvyn. |
+| A-2269 | År 1880 står han som gift inhysesman i Gunnismark under namnformen Johan Persson, med Cajsa Lotta och barnen Albert och Charlotta. | CORROBORATED | hög | [C-0218](../citations/C-0218-savar-AI7b-AI8b-johan-gunnismark-1880-1885.md), [C-0488](../citations/C-0488-folkrakning-1880-johan-persson-kajsa-lotta-gunnismark.md) | Folkräkningsoriginal och husförhörskedja förenas av ort, familj, födelseår och födelseförsamling; `Persson` är en belagd namnvariant. |
+| A-2306 | Pehr Ersson–Brita Lena Isaksdotter har nu ett positivt hushållsankare i Bergvall före 1825 och en separat dotterpost 1821, vilket stärker miljön kring 9-marskandidaten men inte identifierar den kandidaten som Johan. | LEAD | medel | [C-0108](../citations/C-0108-degerfors-fodda-mars-1824.md), [C-0506](../citations/C-0506-degerfors-AI2-bergvall-och-brita-greta-1821.md) | A I/2 saknar en säkert läsbar Johannesrad och destination; 9/19-konflikten och framåtlänken kvarstår. |
+| A-2307 | Degerfors B/1:s fulla utgående årgångar 1823–1826 saknar en säker rad för Pehr Ersson, Brita Lena/Malena Isaksdotter eller deras gemensamma Bergvallshushåll. | TRANSCRIBED | hög | [C-0507](../citations/C-0507-degerfors-B1-utflyttade-1823-1826-negativ.md) | Avgränsat registernoll; intern eller utelämnad flytt och andra år är öppna. |
+| A-2308 | Degerfors C/2:s fulla död- och begravningsårgångar 1824–1825 saknar en säker Johannes/Johan, son till Pehr Ersson i Bergvall. | TRANSCRIBED | hög | [C-0508](../citations/C-0508-degerfors-C2-doda-1824-1825-johannes-negativ.md) | Tvåårigt församlingsnoll; inget överlevnads-, flytt- eller identitetsbelägg. |
 
 ## Relationer
 
@@ -54,6 +58,9 @@ Tidigare hustru: identitet ännu okänd, men änklingsstatusen är belagd i
 C-0205 och C-0207. Barn med Cajsa Lotta: [P-0238 Johanna
 Charlotta](P-0238-johanna-charlotta-johansdotter.md), P-0060, P-0061,
 [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), P-0062–P-0064.
+Möjliga, inte fastställda föräldrar är [P-0146 Pehr Ersson](P-0146-pehr-ersson-bergvall.md)
+och [P-0147 Brita Malena/Lena Isaksdotter](P-0147-brita-malena-isaksdotter.md);
+relationen förblir `LEAD` trots det nu återfunna Bergvallshushållet.
 
 ## Forskningsfrågor
 
@@ -66,10 +73,13 @@ Charlotta](P-0238-johanna-charlotta-johansdotter.md), P-0060, P-0061,
   1848–1853 samt Degerfors och Vännäs döda genom 1854 är komplett
   kontrollerade utan säker träff; nästa väg är Vännäs hushåll, vigsel före
   1848 eller en positiv flyttkälla i annan församling.
-- Följ Johan bakåt till 1840-talets hushåll innan kandidatföräldrarna i
-  C-0108 omprövas; namnlikhet och 9/19-konflikten räcker inte. B/1:s
-  skadade hänvisning är nu prövad mot A I/5a s. 62–68 och 360–368 utan
-  säker rad, så nästa bakåtled måste komma från en ny positiv källa.
+- Kandidatföräldrarna i C-0108 är nu förankrade i A I/2 sida 169 och genom
+  dottern Brita Gretas födelsenotis 1821. Det löser inte relationen till
+  Johan: namnlikhet och 9/19-konflikten räcker inte, A I/2 saknar en säker
+  Johannesrad/destination, B/1 1823–1826 ger inget flyttled och döda
+  1824–1825 inget dödsled. B/1:s skadade 1847-hänvisning är dessutom prövad
+  mot A I/5a s. 62–68 och 360–368 utan säker rad. Nästa bakåtled måste vara
+  en ny positiv hushålls-, flytt-, mantals- eller bouppteckningskälla.
 - Sävars H II/2 börjar först 1893. Pröva därför Degerfors utgående handlingar,
   andra bilageserier och hushållsregistren i stället för att vänta på en
   katalogiserad Sävarattest från 1856.
@@ -98,6 +108,19 @@ Charlotta](P-0238-johanna-charlotta-johansdotter.md), P-0060, P-0061,
   vara en positiv mellanlänk från 1854 eller en kompletterande namngivande
   källa, inte ännu en namnlikhetsinferens.
 
+## Precisering 2026-08-29 — kandidatfamiljen återfunnen, relationen fortsatt öppen
+
+- Degerfors A I/2:s register leder till Bergvall sida 169, där Pehr Ersson,
+  Brita Lena Isaksdotter och dottern Brita Greta står i ett överstruket
+  hushåll. C/2 bekräftar Brita Greta född 1821-04-21 i Bergvall till samma
+  föräldrapar.
+- Det äldre påståendet att kandidatfamiljen inte kunde prövas på distans är
+  därmed supersederat i just denna del. A I/2 ger ett hushållsankare men
+  ingen säker Johannesrad eller destination. B/1:s utgående register
+  1823–1826 och C/2:s döda 1824–1825 ger avgränsade nollresultat.
+- P-0146–P-0147 förblir möjliga föräldrar med `LEAD`; P-0402 Brita Greta är
+  deras säkra dotter men görs inte till säker syster åt Johan.
+
 ## Tidigare slutstatus — supersederad 2026-08-21
 
 - Status: `IDENTITET OLÖST`
@@ -113,5 +136,6 @@ Charlotta](P-0238-johanna-charlotta-johansdotter.md), P-0060, P-0061,
 - Negativ kontroll: [C-0108](../citations/C-0108-degerfors-fodda-mars-1824.md) och [C-0115](../citations/C-0115-buberget-och-bergvall-1836-1842.md)
 - Kvarstående motsägelse: den enda posten i årgången med dopnamnet Johannes och
   en far vid namn Pehr är född **9 mars**, inte den 19:e. Kandidatföräldrarna
-  P-0146 och P-0147 står kvar som LEAD, och Bergvalls uppslag i nästa
-  husförhörslängd är tomt, så kandidaturen kan inte prövas vidare på distans.
+  P-0146 och P-0147 står kvar som LEAD. Den sista distansslutsatsen är
+  supersederad av 2026-08-29 års kontroll av A I/2 sida 169; den positiva
+  framåtlänken saknas fortfarande.

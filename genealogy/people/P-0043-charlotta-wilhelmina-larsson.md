@@ -22,10 +22,14 @@ Larsson förekommer i källorna.
 | A-2151 | Hon dog på det ospecificerade `Sjukhemmet` av ändtarmscancer (`Canc. recti`). | TRANSCRIBED | hög | [C-0422](../citations/C-0422-flen-F3-charlotta-wilhelmina-jansson-dod-1940.md) | Institutionen preciseras inte ytterligare utan nytt belägg. |
 | A-2152 | Hon begravdes 1940-08-03. | TRANSCRIBED | hög | [C-0422](../citations/C-0422-flen-F3-charlotta-wilhelmina-jansson-dod-1940.md) | Dödbokens begravningskolumn. |
 | A-2153 | Församlingsbokens marginaldatum ska läsas `40 25/7`, inte `40 25/2`. | CORROBORATED | hög | [C-0032](../citations/C-0032-arne-forsamlingsbok-sida-1084.md), [C-0422](../citations/C-0422-flen-F3-charlotta-wilhelmina-jansson-dod-1940.md), [C-0423](../citations/C-0423-flen-F3-datumkontroll-charlotta-1940.md) | Felläsningen avvisades före beständig sakregistrering. |
+| A-2376 | Charlotta Wilhelmina Larsson vigdes 1886-04-26 i Lerbo med Carl Fredrik Jansson; första giftet för båda. | CORROBORATED | mycket hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md), [C-0016](../citations/C-0016-ada-wilhelmina-originalfodelse-1886.md), [C-0098](../citations/C-0098-charlotta-wilhelmina-fodelse-1867.md) | Vigselpostens födelsedatum 1867-05-26 är identiskt med den egna födelsenotisen; Adas födelsenotis kallar henne hustru. |
+| A-2377 | Vid lysningen i april 1886 var hon piga från Spånga, 18 år, och modern `Enkan Brita Katrina Andersd:r i Erikslund` gav skriftligt samtycke till äktenskapet. | TRANSCRIBED | hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Moderns patronymikon avviker från C-0098:s Pehrsdotter och hålls som konflikt hos P-0126; änkestatusen ger P-0125 ett dödsintervall före april 1886. |
+| A-2378 | Lerbo E I/3 1883–1885 saknar någon lysning eller vigsel för paret. | NEGATIVE | hög | [C-0536](../citations/C-0536-lerbo-EI3-vigselkontroll-1883-1885-negativ.md) | Sonen Sven Edvin (1884) föddes alltså före föräldrarnas vigsel. |
 
 ## Relationer
 
-Make: [P-0042 Karl Fredrik Jansson](P-0042-karl-fredrik-jansson.md). Barn:
+Make: [P-0042 Karl Fredrik Jansson](P-0042-karl-fredrik-jansson.md), vigda
+1886-04-26 i Lerbo (C-0535). Barn:
 P-0044–P-0047 samt [P-0009 Ada Wilhelmina](P-0009-ada-wilhelmina-jansson.md).
 Föräldrar: [P-0125 Lars Andersson](P-0125-lars-andersson-anderslund.md) och
 [P-0126 Brita Kajsa Pehrsdotter](P-0126-brita-kajsa-pehrsdotter.md). Bröder i

@@ -14,13 +14,14 @@ Höks hushåll i Håsta och Hudiksvall.
 | A-1598 | År 1900 bodde hon med maken och nio namngivna barn i Hudiksvall. | CORROBORATED | hög | [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | Den tidigare räkningen tio rättas: församlingsboken redovisar nio levande barn samt ett separat barn som dog 1895. |
 | A-1611 | År 1930 var hon brädgårdsarbetaränka och gårdsägaränka i Fridhem i Hudiksvall. | TRANSCRIBED | hög | [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Samtida församlingsbokutdrag. |
 | A-1612 | Hon bodde då med dottern Anna Matilda och dottersonen Anders Ivar, som anges vara missionär. | TRANSCRIBED | hög | [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Källan knyter samman tre generationer från 1910 års hushåll. |
-| A-1997 | År 1880 bodde hon i Hudiksvall med maken Anders Gustaf Hök och dottern Anna Matilda. | CORROBORATED | hög | [C-0352](../citations/C-0352-folkrakning-1880-hudiksvall-hok-hillberg.md), [C-0353](../citations/C-0353-folkrakning-1890-halsingtuna-hasta-hok-hillberg.md) | Tidigaste kända gemensamma folkräkningshushållet. |
+| A-1997 | År 1880 bodde hon i Hudiksvall med maken Anders Gustaf Hök och dottern Anna Matilda. | CORROBORATED | hög | [C-0352](../citations/C-0352-folkrakning-1880-hudiksvall-hok-hillberg.md), [C-0353](../citations/C-0353-folkrakning-1890-halsingtuna-hasta-hok-hillberg.md), [C-0461](../citations/C-0461-hudiksvall-EI2-hok-hillberg-vigsel-1880.md) | Folkräkningen och den egna vigselposten binder paret samma år. |
 | A-2000 | År 1890 bodde hon i Håsta, Hälsingtuna, med maken och sex namngivna barn. | CORROBORATED | hög | [C-0353](../citations/C-0353-folkrakning-1890-halsingtuna-hasta-hok-hillberg.md), [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md) | Mellanbild som följer fem av barnen vidare till 1900. |
 | A-2006 | Anna Greta föddes 1857-06-09 och döptes 10 juni i Hälsingtuna; senare församlingsbok upprepar födelsedatumet och socknen. | CORROBORATED | hög | [C-0354](../citations/C-0354-halsingtuna-C5-anna-greta-cajsa-mina-fodda-1857.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen samtida födelsenotis plus senare exakt kyrkoboksuppgift. |
 | A-2007 | Hon var dotter till bruksarbetaren Per Hillberg och Greta Björkqvist vid Håsta Udde och tvillingsyster till Cajsa Mina. | TRANSCRIBED | hög | [C-0354](../citations/C-0354-halsingtuna-C5-anna-greta-cajsa-mina-fodda-1857.md) | Båda barnen står under samma föräldraklammer med samma datum. |
-| A-2123 | Anna Greta Hillberg och Anders Gustaf Hök gifte sig 1880-04-27. | CORROBORATED | mycket hög | [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | Samma exakta datum på två sammanlänkade församlingsbokssidor; egen vigselpost återstår. |
+| A-2123 | Anna Greta Hillberg och Anders Gustaf Hök gifte sig 1880-02-27. | CORROBORATED | mycket hög | [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md), [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0461](../citations/C-0461-hudiksvall-EI2-hok-hillberg-vigsel-1880.md) | Egen vigselpost och tre senare hushållssidor visar 27/2; den tidigare aprilavskriften var en felläsning. |
 | A-2124 | Familjen följdes från sida 780 till sida 285 den 1899-11-20; sida 780 hänvisar bakåt till en skanningslucka på sida 785 den 1897-11-15. | CORROBORATED | hög | [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | Framåtlänken är obruten; sida 785 saknas mellan de fotograferade sidorna 782 och 790. |
 | A-2125 | Församlingsboken ger exakta datum för familjens nio barn som levde vid 1900 års folkräkning och markerar dem återkommande som `icke döpt`; dessutom redovisas den avlidna Augusta Elisabet separat. | CORROBORATED | mycket hög | [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md), [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | Folkräkningens nio levande barn och församlingsbokens tio födelser hålls isär. |
+| A-2214 | Anna Greta Hillberg blev änka 1911-11-16 när Anders Gustaf Hök dog och fördes vidare till sida 593. | CORROBORATED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Samma datum i änkekolumnen på båda sammanlänkade församlingsbokssidorna. |
 
 ## Relationer
 
@@ -47,7 +48,8 @@ Höks hushåll i Håsta och Hudiksvall.
 
 Egen födelse, dop, föräldrar, tvillingsyster och faderns bruksarbete vid Håsta
 Udde är originalbelagda. Folkräkningarna följer henne med familjen 1880,
-1890, 1900 och 1910 samt som änka med dotter och dotterson 1930. Hudiksvalls
-församlingsbok säkrar vigseluppgiften 1880-04-27, familjens exakta barnadatum
-och kedjan 1897–1900, med en skanningslucka på sida 785. Egen vigselpost,
-kedjan före luckan och död återstår.
+1890, 1900 och 1910 samt som änka med dotter och dotterson 1930. Den egna
+vigselposten rättar vigseldatumet till 1880-02-27. Församlingsböckerna säkrar
+familjens exakta barnadatum, kedjan 1897–1913 och att hon blev änka
+1911-11-16. Skanningsluckan på sida 785 kvarstår i den äldre delen. Hennes
+egen död återstår.

@@ -23,6 +23,8 @@
 Församlingsboken är den lokala, löpande kyrkobok som ligger närmast bakom
 1930 års SCB-utdrag. Indexets hänvisning till sida 593 ledde direkt till rätt
 hushåll. Sidan ger Anders Ivars exakta födelsedatum, som folkräkningarna bara
-återger med år, och samma mor–son-hushåll som de senare utdragen. Den är
-överstruken och rik på flytt- och ändringsnoteringar; bara säkert lästa
-kärnuppgifter transkriberas här. Ingen fader har identifierats på sidan.
+återger med år, och samma mor–son-hushåll som de senare utdragen. Anna Gretas
+rad ger även vigseldatum och datumet då hon blev änka; båda korresponderar med
+den föregående boken och den egna vigselposten. Sidan är överstruken och rik
+på flytt- och ändringsnoteringar; bara säkert lästa kärnuppgifter
+transkriberas. Ingen fader har identifierats på sidan.

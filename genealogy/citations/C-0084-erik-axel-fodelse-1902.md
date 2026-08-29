@@ -2,7 +2,7 @@
 
 ## Källa
 
-[S-0068](../sources/S-0068-flen-C8-fodelsebok-1895-1915.md)
+[S-0008](../sources/S-0008-flen-C8-fodelsebok-1895-1915.md)
 
 ## Exakt lokalisering
 

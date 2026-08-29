@@ -1,9 +1,10 @@
-# P-0271: Nils Petter Pehrsson
+# P-0271: Nils Petter Pehrsson/Höglund
 
 ## Identitet
 
-Torpare i Högsjö, Indal, och far till Ingrid Christina Vidusina enligt hennes
-egen födelsenotis och det parentbärande hushållet.
+Torpare i Högsjö, Indal, först förd som Pehrsson/Persson och senast 1892–1900
+som Höglund. Far till Ingrid Christina Vidusina och Gustaf Julius Elof enligt
+barnens egna födelsekällor och de parentbärande hushållen.
 
 ## Påståenden
 
@@ -18,12 +19,16 @@ egen födelsenotis och det parentbärande hushållet.
 | A-1971 | Han är 1880 indexerad som Nils Petter Persson, född 1834 i Indal, torpare och `Far/man` i familj 1 i Högsjö. | CORROBORATED | hög | [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md), [C-0348](../citations/C-0348-folkrakning-1880-indal-hogsjo-nils-petter.md) | Namn, år, ort, hustru och äldre barn binder patronymikonvarianten till samma person. |
 | A-1981 | Indal A I/10a sida 127 visar honom fortsatt som torpare i Högsjö med Anna Stina och nio yngre hushållspersoner 1872–1881. | CORROBORATED | hög | [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md), [C-0348](../citations/C-0348-folkrakning-1880-indal-hogsjo-nils-petter.md), [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | Två husförhör och folkräkningen bildar en sammanhängande vuxenkedja. |
 | A-1992 | A I/10a markerar Anna Erika Lydia, Erik Nikolaus Biljard, Lars Gustaf Emanuel, Brita Josefina och Jonas Alfred Conrad som odöpta. | TRANSCRIBED | hög | [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | En källbelagd gemensam familjeegenskap; orsaken tolkas inte utan ytterligare material. |
+| A-2205 | Indal A I/11 visar honom fortsatt som torpare i Högsjö med Anna Stina 1882–1891 och upprepar födelsen 1834-03-08 samt vigseln 1863-10-02. | CORROBORATED | hög | [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md), [C-0456](../citations/C-0456-indal-AI11-hogsjo-sida-130.md) | Sammanhängande sida- och familjekedja. |
+| A-2206 | Indal A I/12 för honom som `Höglund, Nils Petter (Persson)`, torpare i Högsjö 1892–1900. | CORROBORATED | hög | [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md), [C-0458](../citations/C-0458-folkrakning-1900-indal-hogsjo-hoglund.md) | Förhörsbok och folkräkningsbild bekräftar namnövergången. |
+| A-2208 | År 1900 levde Nils Petter och Anna Stina i Högsjö med sönerna Erik Nikolaus Biljard, Jonas Alfred Konrad och Gustaf Julius Elof. | CORROBORATED | hög | [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md), [C-0458](../citations/C-0458-folkrakning-1900-indal-hogsjo-hoglund.md) | Samstämmig hushållslängd, registerpost och länkad originalbild. |
+| A-2212 | SCB-utdraget för sonen Gustaf skriver 1888 `Ej vigda` om Nils Petter och Anna Stina, i konflikt med parets egen vigselpost 1863-10-02. | CONFLICT | hög | [C-0347](../citations/C-0347-indal-EI2-vigslar-1862-1866-negativ-kontroll.md), [C-0459](../citations/C-0459-scb-indal-gustaf-julius-elof-fodd-1888.md) | Den tydliga, namngivna vigselposten avvisas inte av den senare SCB-anmärkningen. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0272 Anna Stina Strandlund](P-0272-anna-stina-stromlund.md) | hustru | CORROBORATED | C-0253, C-0254 |
+| [P-0272 Anna Stina Strandlund](P-0272-anna-stina-stromlund.md) | hustru | CORROBORATED | C-0253, C-0254, C-0347, C-0456–C-0458 |
 | [P-0255 Ingrid Kristina Vidusina Höglund](P-0255-ingrid-kristina-vidusina-hoglund.md) | dotter | CORROBORATED | C-0253, C-0254 |
 | [P-0273 Johan Petter](P-0273-johan-petter-hogsjo.md) | person i hushållet | TRANSCRIBED | C-0254 |
 | [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | moderns dotter och person i hushållet; biologiskt faderskap ej belagt | TRANSCRIBED | C-0349, C-0350 |
@@ -32,14 +37,17 @@ egen födelsenotis och det parentbärande hushållet.
 | [P-0347 Lars Gustaf Emanuel](P-0347-lars-gustaf-emnuel-hogsjo.md) | person i familjehushållet | CORROBORATED | C-0348, C-0349 |
 | [P-0348 Brita Josefina](P-0348-brita-josefina-hogsjo.md) | person i familjehushållet | TRANSCRIBED | C-0348 |
 | [P-0349 Jonas Alfred Conrad](P-0349-jonas-alfred-konrad-hogsjo.md) | person i familjehushållet | CORROBORATED | C-0348, C-0349 |
+| [P-0385 Gustaf Julius Elof Höglund](P-0385-gustaf-julius-elof-hoglund.md) | son | CORROBORATED | C-0456–C-0459 |
 | [P-0341 Pehr Ersson](P-0341-pehr-ersson-hogsjo.md) | far | TRANSCRIBED | C-0342 |
 | [P-0342 Ingeborg Nilsdotter](P-0342-ingeborg-nilsdotter-hogsjo.md) | mor | TRANSCRIBED | C-0342 |
 
 ## Forskningsstatus
 
-Egen födelsenotis, föräldrar och vigseln 1863-10-02 är säkrade. A I/9,
-A I/10a och folkräkningen 1880 ger en sammanhängande Högsjökedja, yrket
-torpare, ett niobarnshushåll och fem anteckningar om odöpta barn. Död och
-senare vuxenkedja återstår som breddberikning. Anna Erika Lydias biologiska
-far är inte namngiven i hennes egen födelsepost och får inte antas vara Nils
-Petter. Föräldrarnas anor drivs inte vidare före kohortens övriga luckor.
+Egen födelsenotis, föräldrar och vigseln 1863-10-02 är säkrade. A I/9–A I/12
+och folkräkningarna 1880/1900 ger en sammanhängande Högsjökedja till 1900 och
+visar övergången Pehrsson/Persson → Höglund. SCB:s `Ej vigda` 1888 bevaras
+som konflikt mot den tydliga vigselposten. Död och kedjan efter 1900 återstår;
+de exakta 1910-sökningarna gav inget döds- eller flyttbelägg. Anna Erika
+Lydias biologiska far är inte namngiven i hennes egen födelsepost och får
+inte antas vara Nils Petter. Föräldrarnas anor drivs inte vidare före
+kohortens övriga luckor.

@@ -23,12 +23,14 @@ Anderslund, namngiven i dotterns födelsenotis 1867.
 | A-0797 | Säfstugans hushåll i A I/9 till och med 1828 innehåller varken Anna Lisa Jansdotter eller Brita Kajsa och saknar fadersanteckning. | TRANSCRIBED | hög | [C-0138](../citations/C-0138-skoldinge-AI9-safstugan-negativ-kontroll.md) | Närliggande negativ boställeskontroll; uppslaget slutar före födelsen. |
 | A-0798 | Säfstugans hushåll i A I/10 1830–1834 innehåller varken Anna Lisa Jansdotter eller Brita Kajsa och saknar fadersanteckning. | TRANSCRIBED | hög | [C-0137](../citations/C-0137-skoldinge-AI10-safstugan-negativ-kontroll.md) | Negativ kontroll av det förväntade senare hushållsuppslaget. |
 | A-0799 | Sköldinge B/1:s fulla in- och utflyttningsföljder 1829–1830 saknar Anna Lisa Jansdotter och Brita Kajsa. | TRANSCRIBED | hög | [C-0139](../citations/C-0139-skoldinge-B1-flyttning-1829-1830-negativ-kontroll.md) | Nollresultatet gäller de lästa årsförteckningarna. |
+| A-2379 | I dotterns lysningsnotis 1886 kallas hon `Enkan Brita Katrina Andersd:r i Erikslund` och gav skriftligt samtycke till äktenskapet. | CONFLICT | medel | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md), [C-0098](../citations/C-0098-charlotta-wilhelmina-fodelse-1867.md) | Modersrelationen är uttrycklig, men patronymikonet Andersdotter motsäger Pehrsdotter i C-0098/C-0126; kan vara prästens förväxling med makens namn. Ingen rättelse görs utan ytterligare original. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0043 Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md) | dotter | TRANSCRIBED | C-0098 |
+| [P-0043 Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md) | dotter | CORROBORATED | C-0098, C-0535 |
+| [P-0042 Karl Fredrik Jansson](P-0042-karl-fredrik-jansson.md) | måg, vigd med dottern 1886-04-26 | TRANSCRIBED | C-0535 |
 | [P-0125 Lars Andersson i Anderslund](P-0125-lars-andersson-anderslund.md) | make | TRANSCRIBED | C-0098 |
 | [P-0164 Anna Lisa Jansdotter](P-0164-anna-lisa-jansdotter-skoldinge.md) | mor | TRANSCRIBED | C-0126 |
 | [P-0167 Carl August Andersson](P-0167-carl-august-andersson.md) | son i hushållet | TRANSCRIBED | C-0127 |

@@ -20,6 +20,11 @@
 | [P-0246 Emma Petronella Eugenia](P-0246-emma-petronella-eugenia-henriksson.md) | dotter | CORROBORATED | C-0242, C-0243, C-0246, C-0247 |
 | [P-0315 Lars Petter Nilsson](P-0315-lars-petter-nilsson.md) | far | CORROBORATED | C-0274, C-0388–C-0389 |
 | [P-0316 Cajsa Märta Andersdotter/Dahlsten/Dalsten](P-0316-cajsa-marta-andersdotter.md) | mor | CORROBORATED | C-0274, C-0388–C-0389 |
+| [P-0406 Lisa Cajsa Larsdotter](P-0406-lisa-cajsa-larsdotter.md) | syster | CORROBORATED | C-0274, C-0510 |
+| [P-0407 Nils Petter Larsson](P-0407-nils-petter-larsson.md) | bror | CORROBORATED | C-0388, C-0512 |
+| [P-0408 Lars Olof Larsson](P-0408-lars-olof-larsson.md) | bror | CORROBORATED | C-0388, C-0512 |
+| [P-0410 Erik Emanuel Larsson](P-0410-erik-emanuel-larsson.md) | bror | CORROBORATED | C-0390, C-0512 |
+| [P-0409 Katarina Petronella Larsdotter](P-0409-katarina-petronella-larsdotter.md) | syster | CORROBORATED | C-0388, C-0512 |
 
 ## Forskningsstatus
 
@@ -28,4 +33,6 @@ dopnamnen Anders Niklas; den senare formen Larsson redovisas som förenligt
 patronymikon efter fadern Lars, inte som ordagrann text i födelsenotisen.
 Folkräkningarna 1880 och 1890 fyller nu mellanrummet fram till den tidigare
 belagda Storbrännafamiljen: först son i föräldrahushållet, sedan make och far
-i en egen familjeenhet på samma Högsjösida.
+i en egen familjeenhet på samma Högsjösida. Föräldrarnas A I/8- och
+A I/12-hushåll ger honom fem namngivna syskon utöver den egna födelsepostens
+föräldrakoppling.

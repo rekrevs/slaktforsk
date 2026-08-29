@@ -8,7 +8,7 @@
 - Arkivbildare: Sverige, Länsstyrelsen i Västerbotten
 - Format: 36 rullar 35 mm mikrofilm
 - Filmning/publicering: Genealogical Society of Utah, 1954 och 1962
-- Kontrollerat: 2026-08-21
+- Kontrollerat: 2026-08-21 och 2026-08-29
 
 Katalogbeskrivningen anger att materialet omfattar bland annat socknarna
 Bjurholm, Degerfors och Sävar. Det är därför en möjlig alternativ
@@ -27,6 +27,12 @@ FamilySearchs katalogtext säger att mikrofilmerna har digitaliserats men att
 bildåtkomst kan kräva inloggning, ett FamilySearch-center eller vara
 begränsad genom avtal. Det är därför ännu inte belagt att just 1847- och
 1854-filmerna kan läsas hemifrån.
+
+En ny kontrollerad Chrome-flik 2026-08-29 omdirigerades åter till
+FamilySearchs inloggningssida. Den aktuella sessionen var alltså fortfarande
+inte autentiserad, och filmradernas exakta kameraåtkomst kunde inte prövas.
+Detta bekräftar åtkomstläget men är fortfarande inte ett person- eller
+källnoll.
 
 ## Slutsats och återaktivering
 

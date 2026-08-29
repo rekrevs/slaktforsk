@@ -9,7 +9,7 @@
 - Tidsomfång: 1822–1856
 - Bildbatch: `C0034074`
 - Bildvisare: <https://sok.riksarkivet.se/bildvisning/C0034074_00053>
-- Läst: 2026-08-21 i autentiserad Riksarkivet-session
+- Läst: 2026-08-21 och 2026-08-29 i autentiserad Riksarkivet-session
 
 ## Källkritik
 
@@ -44,3 +44,12 @@ registrerades som inflyttad den 17 november 1843. Umeå landsförsamlings B I/2
 har den reciproka utflyttningen den 2 november till Degerfors; se C-0223.
 Degerfors H II-serie börjar först 1851, så någon flyttattest från 1843 kan inte
 återvinnas ur den katalogiserade bilageserien.
+
+## Tidig utflyttningskontroll 2026-08-29
+
+De utgående årgångarna 1823–1826 lästes i sin helhet på bilderna
+`C0034074_00030`–`_00031` för kandidatfamiljen Pehr Ersson–Brita
+Lena/Malena Isaksdotter i Bergvall. Ingen säker rad återfanns. C-0507
+avgränsar detta till de fyra registren; resultatet säger inget om intern
+flytt, utelämnad notering eller år utanför intervallet. Bildvisare och
+helbildsnedladdning fungerade fortfarande trots direktmanifestets 403.

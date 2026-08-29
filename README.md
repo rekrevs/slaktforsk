@@ -3,6 +3,9 @@
 Detta är ett källstyrt släktforskningsprojekt. Wotan håller reda på arbetet;
 forskningsresultaten ligger under `genealogy/`.
 
+En ny arbetssession börjar med [HANDOVER.md](HANDOVER.md), som pekar ut det
+aktuella beständiga läget och skyddar mot att avslutade promptar körs om.
+
 ## Grundregel
 
 En uppgift om en person blir inte ett fastställt faktum därför att den står i
@@ -23,3 +26,9 @@ Repository and source-artifact preservation are documented in
 [`MEDIA-PRESERVATION.md`](MEDIA-PRESERVATION.md). The private GitHub repository
 uses Git LFS for retained source media and keeps an exact, generated SHA-256
 inventory in `genealogy/media-manifest.json`.
+
+## Dashboard
+
+Den lokala, skrivskyddade [forskningsdashboarden](dashboard/README.md) visar
+progress, släktträd, personberättelser och senaste fynd direkt från projektets
+befintliga filer.

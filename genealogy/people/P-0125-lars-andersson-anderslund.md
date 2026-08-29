@@ -19,6 +19,7 @@ Arne Godvig Janssons morfars far.
 | A-0722 | Han var far till Carl August, född 1848-10-06 i Stora Malm. | CORROBORATED | hög | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md), [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md) | Födelsenotis och senare familjehushåll binder samma far och son. |
 | A-0723 | Västra Vingåkers födelsebok saknar en Lars på den uppgivna födelsedagen 1820-08-21. | TRANSCRIBED | hög | [C-0132](../citations/C-0132-vastra-vingaker-negativ-lars-1820.md) | Dagens post avser Brita; ingen Lars finns på uppslaget. Uppgiften är därför olöst, inte motbevisad. |
 | A-0767 | Hushållslängden anger honom som far till Anders Gustaf, född 1852-11-11 i Bettna. | TRANSCRIBED | medel | [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md) | Familjeraden är bevarad; någon motsvarande födelsenotis återfanns inte i den genomgångna delen av Bettna C/5. |
+| A-2380 | Hustrun kallas änka vid dotterns lysning i april 1886; Lars Andersson var alltså död före 1886-04-04. | TRANSCRIBED | medel | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Indirekt dödsintervall via änkestatus; egen dödpost i Lerbo F 1867–1886 återstår som exakt återstart. |
 
 ## Relationer
 

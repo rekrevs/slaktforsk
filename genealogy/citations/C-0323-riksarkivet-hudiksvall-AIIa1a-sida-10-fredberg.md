@@ -6,8 +6,9 @@
 
 ## Exakt lokalisering och avskrift
 
-Sidan har rubriken `1sta Qvartalet N:o 5a`. Under Johan August Fredberg
-Fredriksson, hans hustru Anna Lovisa Andersdotter och deras barn står en rad
+Sidan har rubriken `1sta Qvartalet N:o 5a`. Johan August Fredberg
+Fredrikssons födelsekolumner anger `49 5/7` och `Lundby, Elfsborgs län`.
+Under honom, hustrun Anna Lovisa Andersdotter och deras barn står en rad
 med relationsbeteckningen `Brorson` och namnet `Fredberg Johannes Ivar
 (Fredriksson)`. Födelsekolumnerna anger `80 24/6` och `Stockholm Kungsholm`.
 
@@ -26,4 +27,5 @@ senare marginalnoteringar har inte gjorts till egna påståenden i denna batch.
 
 ## Stödda påståenden
 
-A-1613–A-1615, A-1924–A-1926 och A-1928–A-1929.
+A-1613–A-1615, A-1924–A-1926, A-1928–A-1929, A-2335, A-2338 och
+A-2341–A-2342.

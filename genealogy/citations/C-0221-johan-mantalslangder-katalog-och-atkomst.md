@@ -25,6 +25,10 @@ mantalslängder 1641–1860 och namnger Bjurholm, Degerfors och Sävar i
 omfånget. Den aktuella webbläsarsessionen omdirigerades till inloggning innan
 de exakta 1847-/1854-filmernas DGS- och kameraåtkomst kunde verifieras.
 
+Åtkomsten prövades på nytt 2026-08-29 i en ny styrd Chrome-flik och ledde
+åter till inloggningssidan. Ingen filmrad eller bild räknades som läst;
+återaktiveringsvägen nedan är därför oförändrad.
+
 ## Slutsats
 
 Mantalskällfamiljen är kartlagd men inte personläst. Ingen förekomst eller

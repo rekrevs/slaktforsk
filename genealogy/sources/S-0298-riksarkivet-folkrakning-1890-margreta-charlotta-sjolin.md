@@ -19,5 +19,7 @@ Posten och den samtida originalbilden har lästs. Exakt namnform, födelseår,
 födelseort och Lagfors knyter posten till det tidigare hushållet och A I/9.
 Att Nils Andreas står på samma sida men i ett annat familjenummer bevaras;
 folkräkningen används inte för att konstruera ett gemensamt hushåll 1890.
-Sökningen på exakt namn och Ljustorp gav ingen senare träff, men detta
-registerfrågenoll är inte ett döds- eller flyttbelägg.
+Den tidigare sökningen på exakt efternamn Sjölin och Ljustorp gav ingen senare
+träff. Den slutsatsen är nu uttryckligen **överspelad som sökstrategi**:
+S-0351 återfinner henne 1900 under det gifta efternamnet Henriksson. Den äldre
+frågan var för snäv och får inte återanvändas som ett personnoll.

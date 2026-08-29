@@ -36,6 +36,11 @@ Anders Alfred Anderssons mor och Ebba Alfrida Anderssons farmor. Namnformen
 | A-2127 | Robertsfors A II/2 a:s fulla Jomarkavsnitt, sidorna 1126–1134, saknar både henne och dottern Catharina Johanna. | TRANSCRIBED | hög | [C-0414](../citations/C-0414-robertsfors-AII2a-jomark-1126-1134-negativ-barbro.md) | Avgränsat sektionsnoll, inte ett volym- eller livsslutsresultat. |
 | A-2128 | Robertsfors F/1:s kompletta årgångar 1910–1917 saknar en säker dödpost för henne. | TRANSCRIBED | hög | [C-0415](../citations/C-0415-robertsfors-F1-1910-1917-negativ-barbro.md) | Åttaårigt källnoll utan slutsats om dödsort eller överlevnad efter 1917. |
 | A-2129 | Bygdeå F/2:s kompletta årgångar 1910–1911 saknar en säker dödpost för henne. | TRANSCRIBED | hög | [C-0416](../citations/C-0416-bygdea-F2-1910-1911-negativ-barbro.md) | Tvåårigt källnoll; resten av volymen är inte prövad. |
+| A-2283 | År 1910 levde hon som änka i Jomark, familj 2, tillsammans med dottern Catharina Johanna och i samma registerblock som sonen Anders Alfreds familj. | TRANSCRIBED | hög | [C-0072](../citations/C-0072-anna-fredrika-folkrakning-1910.md) | Registerformen är Barbro Kristina; originalbilden är sedan tidigare bevarad. |
+| A-2284 | Robertsfors F/1:s kompletta årgångar 1918–1925 saknar en säker dödpost för henne; tillsammans med den äldre kontrollen täcks nu 1910–1925. | TRANSCRIBED | hög | [C-0415](../citations/C-0415-robertsfors-F1-1910-1917-negativ-barbro.md), [C-0495](../citations/C-0495-robertsfors-F1-1918-1925-negativ-barbro.md) | Helvolymsnoll i Robertsfors för perioden, utan slutsats om dödsort eller överlevnad. |
+| A-2285 | Bouppteckningsregistrets exakta, namn- och ortbreddade frågor 1910–1937 ger ingen säker post för henne. | TRANSCRIBED | hög | [C-0496](../citations/C-0496-bouppteckningsregister-barbro-jomark-negativ.md) | Registret är ofullständigt; resultatet visar bara att ingen akt lokaliserades genom frågorna. |
+| A-2286 | Fyra prövade namn-, födelseårs- och födelseortsfrågor i enbart 1930 års folkräkning ger ingen säker träff. | TRANSCRIBED | hög | [C-0497](../citations/C-0497-folkrakning-1930-barbro-negativ.md) | Frågebundet noll; det är inte ett dödsbelägg. |
+| A-2287 | Bygdeå A II a/5 är inte den alternativa Jomarkfortsättningen: ortsregistret saknar Jomark och dess sida 1130 är tom. | TRANSCRIBED | hög | [C-0498](../citations/C-0498-bygdea-AIIa5-sida-1130-fel-volym.md) | Källvägen korrigeras tillbaka till Robertsfors A II/2 a; inget personnoll påstås. |
 
 ## Relationer
 
@@ -71,9 +76,17 @@ Barn: [P-0057 Margareta Euphrosyne](P-0057-margareta-euphrosyne-andersdotter.md)
   Barbro saknas både på sida 1130 och i hela Jomarkavsnittet 1126–1134.
   Robertsfors F/1 1910–1917 och Bygdeå F/2 1910–1911 saknar också säker
   dödpost. C-0414–C-0416 avgränsar dessa nollresultat utan dödsinferens.
+- Resultat 2026-08-28: folkräkningen 1910 placerar Barbro som änka i Jomark
+  hos dottern Catharina Johanna och intill sonens familj. Robertsfors F/1 är
+  nu fullständigt läst 1910–1925 utan säker dödpost, och 1930 års
+  folkräkning samt bouppteckningsregistret ger endast frågebundna noll.
+  Bygdeå A II a/5:s ortsregister saknar Jomark och dess sida 1130 är tom;
+  den kan inte ersätta den redan prövade Robertsforsvolymen. C-0495–C-0498.
 - Nästa: sök vidare genom hela namn-/datumkombinationen i Bygdeå och Lövånger
   när en ny konkret hänvisning finns. Sen livstid återtas först från en ny
-  sida, adress, dotterkedja eller dödsankare; fortsätt tills dess breddförst
+  sida, adress, dotterkedja eller dödsankare. Nästa konkreta sena väg är
+  Bygdeå F/2 1912–1937 eller dottern Catharina Johannas positiva senare
+  hushållskedja; fortsätt tills dess breddförst
   till nästa öppna spets. Inget släktskap med Pehr Isaksson skapas utan
   uttryckligt belägg.
 - Åtkomstbelägg: [källtäckningsrevisionen](../source-coverage.md).

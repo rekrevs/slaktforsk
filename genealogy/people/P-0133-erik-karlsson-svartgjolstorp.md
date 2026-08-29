@@ -30,6 +30,12 @@ Brosätter i Flen. Namnet skrivs `Carlsson Erik` i födelseboken 1881 och
 | A-1920 | De personrelevanta 1875-vägarna i mantals- och beväringsmaterialet är identifierade men inte distansläsbara: Vingåkers fögderis äldre mantalsvolym är inte itemiserad i nätkatalogen och Södermanlands regementes D14/10 är `Läsesal`-bunden. | TRANSCRIBED | hög | [C-0319](../citations/C-0319-erik-karlsson-mantal-bevaring-1875-atkomst.md) | Katalog- och åtkomstresultat, inte personnegativ. |
 | A-2093 | År 1890 var Erik torpare och änkling i Svartgjölstorp med fem barn födda 1877–1885. | CORROBORATED | mycket hög | [C-0401](../citations/C-0401-folkrakning-1890-forsa-svartgjolstorp-karlsson.md), [C-0398](../citations/C-0398-forssa-AI17-svartgjolstorp-sida-83.md), [C-0400](../citations/C-0400-forssa-C7-albertina-anna-christina-doda-1887.md) | Folkräkning och husförhör sammanfaller; änklingsstatusen förklaras av Annas död. |
 | A-2094 | A I/17 utökar familjen med sjätte barnet Albertina och markerar både hennes och Anna Christinas död 1887. | CORROBORATED | hög | [C-0398](../citations/C-0398-forssa-AI17-svartgjolstorp-sida-83.md), [C-0399](../citations/C-0399-forssa-C7-albertina-fodd-1887.md), [C-0400](../citations/C-0400-forssa-C7-albertina-anna-christina-doda-1887.md), [C-0401](../citations/C-0401-folkrakning-1890-forsa-svartgjolstorp-karlsson.md) | 1890 års registerform `Svartsjötorp` och kortformen `Maria Sofia` bevaras utan att ersätta originalformerna. |
+| A-2288 | År 1900 var Erik torpare och gift i Bergatorp i Flen med Matilda Charlotta, Axel Edvard, Karl Oskar och Sven Arvid i hushållet. | CORROBORATED | hög | [C-0499](../citations/C-0499-folkrakning-1900-erik-karlsson-bergatorp.md), [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) | Folkräkning och församlingsbok ger samma familjekärna; registerbilden förvränger Axels födelseort enligt den redan utredda överföringskonflikten. |
+| A-2289 | År 1910 var Erik fortfarande gift med Matilda Charlotta och bodde i Vilhelmsro i Helgesta. | TRANSCRIBED | hög | [C-0500](../citations/C-0500-folkrakning-1910-erik-karlsson-vilhelmsro.md) | Folkräkningsposten anger sida 26 rad 44. |
+| A-2291 | År 1930 var Erik understödstagare och änkling vid Helgesta ålderdomshem; registret anger upplösningsår 1920 och inflyttning från Flen. | CORROBORATED | hög | [C-0501](../citations/C-0501-folkrakning-1930-erik-karlsson-helgesta-alderdomshem.md), [C-0502](../citations/C-0502-helgesta-AIIa6-AIIa7-erik-karlsson-1927-1935.md) | Folkräkningen hänvisar till församlingsbokens sida 160, som är återfunnen. |
+| A-2292 | Helgesta A II a/6 för honom från sida 203 till ålderdomshemmets sida 160 den 25 februari 1930 och vidare till A II a/7 sida 177; civilståndsraden anger änkling sedan 1920-04-03. | CORROBORATED | hög | [C-0502](../citations/C-0502-helgesta-AIIa6-AIIa7-erik-karlsson-1927-1935.md) | Tre sammanhängande originaluppslag; änkedatumet är indirekt för hustruns död. |
+| A-2293 | Erik dog 1935-03-20 på långtidsvårdhem i Katrineholm och begravdes 24 mars; dödsorsaken skrevs `Marasmus senilis`. | CORROBORATED | mycket hög | [C-0502](../citations/C-0502-helgesta-AIIa6-AIIa7-erik-karlsson-1927-1935.md), [C-0503](../citations/C-0503-helgesta-F2-erik-karlsson-dod-1935.md) | Församlingsbok och egen dödspost sammanfaller. Den historiska termen moderniseras inte. |
+| A-2297 | Helgesta A II a/3:s ortsregister hänvisar Vilhelmsro till sida 346, men den bevarade sidan reproducerar inte säkert Eriks hushåll från folkräkningen 1910. | TRANSCRIBED | hög | [C-0505](../citations/C-0505-helgesta-AIIa3-vilhelmsro-sida-346.md) | Sidvägsnoll, inte helvolyms-, flytt- eller dödsnoll. Folkräkningens sida 26 är en annan paginering. |
 
 ## Relationer
 
@@ -51,7 +57,17 @@ Brosätter i Flen. Namnet skrivs `Carlsson Erik` i födelseboken 1881 och
   distansläsbara; återaktivera C-0319 genom äldre arkivförteckning och
   beställning/läsesal. Pröva under tiden endast en ny positiv väg till en
   korrigerad födelseidentitet innan föräldrar antas.
-- Sök vigseln med Matilda Charlotta Sjöberg 1895-12-28.
+- Sök originalvigseln med Matilda Charlotta Sjöberg 1895-12-28. Den senare
+  livskedjan och Eriks egen död är nu sluten till 1935.
+
+## Sen livskedja 2026-08-28
+
+- Folkräkningarna följer Erik och Matilda från Bergatorp i Flen 1900 till
+  Vilhelmsro i Helgesta 1910. År 1930 är Erik änkling vid Helgesta
+  ålderdomshem.
+- Helgesta A II a/6–7 binder registerposten till döden 1935-03-20; Helgesta
+  F/2 bekräftar datum, dödsort, begravning och dödsorsak.
+- Eriks födelseidentitet före 1876 och originalvigseln 1895 förblir öppna.
 
 ## Återöppnad forskningsfront 2026-08-21
 
@@ -75,6 +91,9 @@ Brosätter i Flen. Namnet skrivs `Carlsson Erik` i födelseboken 1881 och
 - Nästa: beställ de lokaliserade 1875-källorna eller invänta digitalisering.
   Utan sådan åtkomst krävs en ny positiv mellanlänk till en korrigerad
   födelseidentitet före ett föräldrapåstående.
+- Resultat 2026-08-28: C-0499–C-0503 följer honom genom Flen och Helgesta
+  1900–1935 och fastställer döden 1935-03-20. Den sena livsfrågan är löst;
+  ursprungsfrågan och originalvigseln 1895 återstår.
 - Åtkomstbelägg: [källtäckningsrevisionen](../source-coverage.md).
 
 ## Tidigare slutstatus — supersederad 2026-08-21

@@ -2,7 +2,7 @@
 
 ## Källa
 
-[S-0198](../sources/S-0198-riksarkivet-bettna-fodelse-och-dopbok-c5.md)
+[S-0116](../sources/S-0116-bettna-C5-fodelsebok-1840-1861.md)
 
 ## Exakt lokalisering
 

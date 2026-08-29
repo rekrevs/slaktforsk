@@ -19,12 +19,13 @@ egen födelsenotis och det parentbärande hushållet.
 | A-1993 | Anna Stina Strandlund och Nils Petter Pehrsson i Högsjö vigdes i Indal 1863-10-02 efter lysning 13/9. | CORROBORATED | hög | [C-0347](../citations/C-0347-indal-EI2-vigslar-1862-1866-negativ-kontroll.md), [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | Den riktade omläsningen säkrar båda namnen, Högsjö och datumet. |
 | A-1982 | Indal A I/10a sida 127 visar henne fortsatt i Högsjö med Nils Petter och nio yngre hushållspersoner 1872–1881. | CORROBORATED | hög | [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md), [C-0348](../citations/C-0348-folkrakning-1880-indal-hogsjo-nils-petter.md), [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | Senare längden upprepar 1844-12-07; rätt datum är fortfarande 1844-12-04 enligt C/4 och A I/7. |
 | A-1994 | Anna Stina Strandlund namnges som mor till den oäkta Anna Erika Lydia, född 1868-12-20 i Högsjö. | CORROBORATED | hög | [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md), [C-0350](../citations/C-0350-indal-C5-anna-erika-lydia-fodd-1868.md) | Barnets egen födelsepost namnger bara modern; makens biologiska faderskap antas inte. |
+| A-2207 | A I/11 ger Anna Stinas födelsedag som 1844-12-04, medan A I/12 åter ger 1844-12-07; 4 december behålls som faktisk födelsedag. | CORROBORATED | hög | [C-0343](../citations/C-0343-indal-C4-anna-stina-fodd-1844.md), [C-0346](../citations/C-0346-indal-AI7-hogsjo-strandlund-hushall.md), [C-0456](../citations/C-0456-indal-AI11-hogsjo-sida-130.md), [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md) | Egen födelsenotis, barndomshushåll och A I/11 väger tyngre än de två längder som skriver 7 december. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0271 Nils Petter Pehrsson](P-0271-nils-petter-pehrsson.md) | make | CORROBORATED | C-0253, C-0254 |
+| [P-0271 Nils Petter Pehrsson/Höglund](P-0271-nils-petter-pehrsson.md) | make | CORROBORATED | C-0253, C-0254, C-0347, C-0456–C-0458 |
 | [P-0255 Ingrid Kristina Vidusina Höglund](P-0255-ingrid-kristina-vidusina-hoglund.md) | dotter | CORROBORATED | C-0253, C-0254 |
 | [P-0273 Johan Petter](P-0273-johan-petter-hogsjo.md) | person i hushållet | TRANSCRIBED | C-0254 |
 | [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | dotter | CORROBORATED | C-0349, C-0350 |
@@ -33,13 +34,15 @@ egen födelsenotis och det parentbärande hushållet.
 | [P-0347 Lars Gustaf Emanuel](P-0347-lars-gustaf-emnuel-hogsjo.md) | person i familjehushållet | CORROBORATED | C-0348, C-0349 |
 | [P-0348 Brita Josefina](P-0348-brita-josefina-hogsjo.md) | person i familjehushållet | TRANSCRIBED | C-0348 |
 | [P-0349 Jonas Alfred Conrad](P-0349-jonas-alfred-konrad-hogsjo.md) | person i familjehushållet | CORROBORATED | C-0348, C-0349 |
+| [P-0385 Gustaf Julius Elof Höglund](P-0385-gustaf-julius-elof-hoglund.md) | son | CORROBORATED | C-0456–C-0459 |
 | [P-0343 Johan Gustaf Strandlund](P-0343-johan-gustaf-strandlund.md) | far | CORROBORATED | C-0343, C-0346 |
 | [P-0344 Stina Cajsa Larsdotter](P-0344-stina-cajsa-larsdotter.md) | mor | CORROBORATED | C-0343, C-0346 |
 
 ## Forskningsstatus
 
 Egen födelsenotis, barndomshushåll, rätt namnform, föräldrar och vigseln
-1863-10-02 är säkrade. A I/9, A I/10a och folkräkningen 1880 ger en
-sammanhängande Högsjökedja och ett niobarnshushåll. Dottern Anna Erika Lydia
-är född oäkta och hennes far är inte namngiven. Död och senare vuxenkedja
-återstår. Datumkonflikten 4/7 december ska redovisas i nästa utgåva.
+1863-10-02 är säkrade. A I/9–A I/12 och folkräkningarna 1880/1900 ger en
+sammanhängande Högsjökedja till 1900. Dottern Anna Erika Lydia är född oäkta
+och hennes far är inte namngiven; sonen Gustafs egen SCB-post namnger däremot
+båda föräldrarna. Död och kedjan efter 1900 återstår. Datumkonflikten 4/7
+december samt SCB-postens oförenliga `Ej vigda` ska redovisas i nästa utgåva.

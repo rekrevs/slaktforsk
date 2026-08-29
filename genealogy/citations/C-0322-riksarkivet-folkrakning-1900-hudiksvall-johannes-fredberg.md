@@ -14,9 +14,10 @@ familj 2 på Hudiksvalls sida 32, rad 17, med hemorten `1:a kv. 5 a`.
 Familj 1 på samma sida bestod av slaktaren Johan August Fredberg Fredriksson,
 född 1849 i Stora Lundby, hans hustru Anna Lovisa Andersdotter, född 1845 i
 Fågelvik, och barnen Augusta Fredrika, Hugo, Karl, Esther samt Gertrud
-Elisabet. Johannes ställning som brorson betyder att Johan August eller hans
-hustru var syskon till en av Johannes föräldrar; A II a/1a använder samma
-relation och 1880 års hushåll identifierar Johannes far som Olaus Fredberg.
+Elisabet. Johannes ställning som `Brorson` under familjeföreståndaren Johan
+August, A II a/1a:s samma relationsord och 1880 års identifiering av Olaus
+som Johannes far gör Johan August till Johannes farbror och därmed till
+Olaus bror. Källorna avgör ännu inte om männen var hel- eller halvbröder.
 
 ## Lokal originalbild
 
@@ -26,4 +27,4 @@ relation och 1880 års hushåll identifierar Johannes far som Olaus Fredberg.
 
 ## Stödda påståenden
 
-A-1614–A-1616 och A-1924–A-1927.
+A-1614–A-1616, A-1924–A-1927, A-2335, A-2338 och A-2341–A-2342.

@@ -2,7 +2,7 @@
 
 ## Källa
 
-[S-0068](../sources/S-0068-flen-C8-fodelsebok-1895-1915.md)
+[S-0008](../sources/S-0008-flen-C8-fodelsebok-1895-1915.md)
 
 ## Exakt lokalisering
 
@@ -22,7 +22,7 @@
 > Moder: h.h. Charlotta Cecilia Elisab. Gustafsson | 83 14/1
 
 Födelsedata skrivs som årtal följt av ett bråk med dagen som täljare och
-månaden som nämnare; se källkritiken i S-0068. `h.h.` betyder hans hustru.
+månaden som nämnare; se källkritiken i S-0008. `h.h.` betyder hans hustru.
 
 ## Normaliserad tolkning
 

@@ -22,10 +22,14 @@ mellan Carl/Karl och Janson/Jansson; `Jarnsson` är en registervariant 1900.
 | A-2147 | Dödsorsakerna var kronisk myokardit och kronisk bronkit (`Myocard. chron.; Bronchitis chr.`). | TRANSCRIBED | hög | [C-0421](../citations/C-0421-flen-F3-karl-fredrik-jansson-dod-1937.md) | Källförkortningarna är bevarade i citatposten. |
 | A-2148 | Han begravdes 1937-12-31. | TRANSCRIBED | hög | [C-0421](../citations/C-0421-flen-F3-karl-fredrik-jansson-dod-1937.md) | Dödbokens begravningskolumn. |
 | A-2149 | Dödboken hänvisar honom till samma församlingsbokssida 1084 som det sena familjehushållet. | CORROBORATED | hög | [C-0032](../citations/C-0032-arne-forsamlingsbok-sida-1084.md), [C-0421](../citations/C-0421-flen-F3-karl-fredrik-jansson-dod-1937.md) | Stark intern identitetslänk. |
+| A-2373 | Carl Fredrik Jansson vigdes 1886-04-26 i Lerbo med Charlotta Wilhelmina Larsson; första giftet för båda. | CORROBORATED | mycket hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md), [C-0016](../citations/C-0016-ada-wilhelmina-originalfodelse-1886.md), [C-0099](../citations/C-0099-karl-fredrik-jansson-fodelse-1861.md) | Vigselpostens födelsedatum 1861-09-24 är identiskt med den egna födelsenotisen; Adas födelsenotis fyra månader senare kallar paret gifta. |
+| A-2374 | Vid lysningen 4, 11 och 18 april 1886 var han dräng från Spånga i Lerbo och närvarande själv. | TRANSCRIBED | hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Hemvisten Spånga är ett uppslag mot C-0016:s läsning `Gånga` som bör omprövas. Sonen Sven Edvin (1884) föddes före vigseln. |
+| A-2375 | Lerbo E I/3 1883–1885 saknar någon lysning eller vigsel för paret. | NEGATIVE | hög | [C-0536](../citations/C-0536-lerbo-EI3-vigselkontroll-1883-1885-negativ.md) | Avgränsat noll som löses av vigseln 1886. |
 
 ## Relationer
 
-Maka: [P-0043 Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md).
+Maka: [P-0043 Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md),
+vigda 1886-04-26 i Lerbo (C-0535).
 Barn: P-0044–P-0047 samt [P-0009 Ada Wilhelmina](P-0009-ada-wilhelmina-jansson.md).
 Dotterson: [P-0003 Arne Godvig](P-0003-arne-godvig-jansson.md).
 Föräldrar enligt den genom C-0421 identitetssäkrade födelsenotisen C-0099:

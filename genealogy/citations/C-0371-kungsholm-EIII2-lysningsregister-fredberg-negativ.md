@@ -1,21 +1,22 @@
-# C-0371: Kungsholms lysningsregister saknar Fredberg 1849–1915
+# C-0371: Kungsholms lysningsregister hänvisar Olaus Fredberg till sida 172 år 1888
 
 ## Källa
 
 [S-0296](../sources/S-0296-riksarkivet-kungsholm-EIII2-lysningsregister-F.md)
 
-## Exakt kontroll
+## Exakt kontroll och rättelse
 
-Kungsholm E III/2:s sammanhängande F-avsnitt lästes från 1849 till 1915.
-Bilderna `00026740_00041`–`_00045` innehåller F-posterna för hela perioden
-men ingen Fredberg-post. Volymen registrerar enligt arkivförteckningen både
-män och kvinnor.
+På den bevarade originalbilden för 1880–1894 står under år 1888:
+`Fredberg, Olaus Fredriksson`, med hänvisning till lysningsbokens sida 172.
+C-0371 beskrev från början F-avsnittet 1849–1915 som ett negativt resultat.
+Det var ett transkriptionsfel, rättat 2026-08-28. Hänvisningen har följts till
+den positiva originalakten i C-0474.
 
 ## Tolkning
 
-Detta är ett avgränsat efternamnsnoll i Kungsholms eget lysningsregister.
-Det är inte ett allmänt vigselnoll för Olaus och Brita Stina, och det ger
-varken Brita Stinas födelsenamn eller en annan vigselförsamling.
+Registerposten gäller Olaus andra vigsel, inte hans första äktenskap med
+Brita Stina Svensdotter. Kungsholm E II/3:s separata negativa kontroll för
+åren 1876–1878 kvarstår därför oförändrad i C-0384.
 
 ## Lokala originalbilder
 

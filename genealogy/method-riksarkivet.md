@@ -5,6 +5,31 @@ utan manuellt bläddrande, så att varje citatpost går att kontrollera i
 efterhand. Metoden verifierades 2026-08-20 genom att en tidigare sparad bild
 (C-0067) laddades ned på nytt och gav identisk SHA-256-kontrollsumma.
 
+## Verifierad Chrome-metod 2026-08-28
+
+Den tidigare fungerande Chrome-metoden har nu reproducerats i en helt ny
+browser-runtime med den installerade pluginversionen **26.820.60940**:
+
+1. ladda pluginens `browser-client.mjs` och anslut med
+   `agent.browsers.get("chrome")`;
+2. namnge sessionen och skapa alltid en ny styrd flik med
+   `chrome.tabs.new()`;
+3. navigera direkt till en katalog- eller bildvisar-URL;
+4. kontrollera DOM-texten `Inloggad som: ...` innan källarbete börjar;
+5. om Riksarkivets ALTCHA-ruta visas, klicka den synliga
+   `Jag är inte en robot`-kontrollen semantiskt och fortsätt först när sidan
+   själv godkänt kontrollen;
+6. använd bildvisarens semantiska kontroller, bland annat `Nästa bild`,
+   sidväljaren och `Ladda ner`;
+7. välj `Hela bilden …px (jpg)`, kontrollera filen i `~/Downloads`, kopiera
+   den till `genealogy/media/` och registrera dimensioner och SHA-256.
+
+Testet gav tre nya fulloriginal i 5 712–6 256 bildpunkters bredd och en
+inloggad DOM-session. Ingen AppleScript-styrning, kakextraktion,
+profilkopiering, sandboxflykt eller övertagning av en gammal flik användes.
+När en browser-bindning väl finns ska den återanvändas; ett nytt
+`get("chrome")` görs bara efter ett uttryckligt frånkopplingsfel.
+
 ## Åtkomstlägen
 
 - **Fritt** utan inloggning: kyrkoböcker digitaliserade i Riksarkivets äldre

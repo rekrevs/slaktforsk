@@ -13,8 +13,8 @@
 
 Volymen är ett omskrivet register som enligt arkivförteckningen omfattar
 både män och kvinnor. F-avsnittet är ordnat årsvis och hänvisar vidare till
-lysningsbokens sida. Den sammanhängande bildföljden från F-flikens början
-till nästa bokstav täcker 1849–1915 men innehåller ingen Fredberg-post.
-Avsaknaden gäller endast Kungsholms lysningsregister och detta efternamn; den
-visar inte var paret vigdes, om lysningen skedde i en annan församling eller
-vilket namn Brita Stina bar före vigseln.
+lysningsbokens sida. Under 1888 finns posten `Fredberg, Olaus Fredriksson`
+med hänvisning till sida 172. En tidigare genomgång den 2026-08-23 beskrev
+felaktigt hela F-avsnittet som negativt; den bevarade originalbilden för
+1880–1894 visar tydligt posten. Felet rättades 2026-08-28 genom ny läsning
+och kontroll mot lysningsbokens originalpost E I/9 sida 172.

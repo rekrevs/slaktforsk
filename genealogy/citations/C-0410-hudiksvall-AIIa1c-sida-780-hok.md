@@ -9,7 +9,9 @@
 Hudiksvall A II a/1c, sida 780, bild `00198666_00177`, redovisar arbetaren
 **Anders Gustaf Hök**, född **1853-08-21 i Hällefors, Örebro län**, och
 hustrun **Anna Greta Hillberg**, född **1857-06-09 i Hälsingtuna**. Parentesen
-i vigselkolumnen anger **1880-04-27**.
+i vigselkolumnen anger **1880-02-27**. Månadsiffran är 2; den tidigare
+avskriften 27 april rättas av den egna vigselposten C-0461 och en förstorad
+omläsning av denna fullbild.
 
 Barnraderna ger Anna Matilda 1880-12-23, Gustaf 1882-11-22, Anders Emanuel
 1885-02-22, Karl Petrus 1886-11-19, Johan Erik 1888-08-26 och Maria Karolina
