@@ -8,8 +8,10 @@
 
 I F-avsnittet 1876 står under den 14 juni `Fredberg, Olaus Fredriksson`,
 yrkes-/ståndsangivelsen `f.d. Gardist` och födelseuppgiften `Lundby 52 24/5`,
-normaliserad till Lundby 1852-05-24. Hemvistfältet ser ut att ange
-`15 Upplandsgat.`; denna adress används inte ensam för identitetsbindning.
+normaliserad till Lundby 1852-05-24. Hemvistfältet anger
+`15 Kungsholmsgatan`; den tidigare försiktiga läsningen `15 Upplandsgat.` är
+rättad genom maximalbilden i C-0649. Adressen används inte ensam för
+identitetsbindning.
 Kolumnen `Förut tillhört` innehåller en mycket kort notering som närmast ser
 ut som `M:a`. Den prövas i C-0443–C-0444 som möjlig Maria
 Magdalena-förkortning men är inte tillräckligt tydlig för att ensam fastställa
@@ -29,4 +31,4 @@ familjens första kända barn gör posten till en stark vuxennära träff. Datum
 
 ## Stödda påståenden
 
-A-2069–A-2070.
+A-2069–A-2070 och A-2624.

@@ -25,13 +25,14 @@ Anderslund, namngiven i dotterns födelsenotis 1867.
 | A-0799 | Sköldinge B/1:s fulla in- och utflyttningsföljder 1829–1830 saknar Anna Lisa Jansdotter och Brita Kajsa. | TRANSCRIBED | hög | [C-0139](../citations/C-0139-skoldinge-B1-flyttning-1829-1830-negativ-kontroll.md) | Nollresultatet gäller de lästa årsförteckningarna. |
 | A-2379 | I dotterns lysningsnotis 1886 kallas hon `Enkan Brita Katrina Andersd:r i Erikslund` och gav skriftligt samtycke till äktenskapet. | CONFLICT | medel | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md), [C-0098](../citations/C-0098-charlotta-wilhelmina-fodelse-1867.md) | Modersrelationen är uttrycklig, men patronymikonet Andersdotter motsäger Pehrsdotter i C-0098/C-0126; kan vara prästens förväxling med makens namn. Ingen rättelse görs utan ytterligare original. |
 
+| A-2400 | Hon blev änka 1874-02-05 när Lars Andersson dog i Anderslund; dödboken anger honom som gift. | CORROBORATED | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md), [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Änkestatusen 1886 får därmed ett exakt startdatum. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
 | [P-0043 Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md) | dotter | CORROBORATED | C-0098, C-0535 |
 | [P-0042 Karl Fredrik Jansson](P-0042-karl-fredrik-jansson.md) | måg, vigd med dottern 1886-04-26 | TRANSCRIBED | C-0535 |
-| [P-0125 Lars Andersson i Anderslund](P-0125-lars-andersson-anderslund.md) | make | TRANSCRIBED | C-0098 |
+| [P-0125 Lars Andersson i Anderslund](P-0125-lars-andersson-anderslund.md) | make; död 1874-02-05 | CORROBORATED | C-0098, C-0127, C-0541 |
 | [P-0164 Anna Lisa Jansdotter](P-0164-anna-lisa-jansdotter-skoldinge.md) | mor | TRANSCRIBED | C-0126 |
 | [P-0167 Carl August Andersson](P-0167-carl-august-andersson.md) | son i hushållet | TRANSCRIBED | C-0127 |
 | [P-0168 Anders Gustaf Andersson](P-0168-anders-gustaf-andersson.md) | son i hushållet | TRANSCRIBED | C-0127 |

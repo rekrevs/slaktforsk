@@ -8,7 +8,10 @@ till åbon Sven Olofsson och Catharina Andersdotter. En sammanhängande
 Hemsjökedja följer henne från husförhörssidan genom vigseln 1877-09-20 och
 utflyttningen till Stockholm åtta dagar senare. Sonen Roberts egen
 födelsenotis och 1880 års Kungsholmshushåll fortsätter identiteten i den
-vuxna familjen.
+vuxna familjen. Kungsholm F I/9 sluter livslinjen med hennes egen dödspost:
+hon dog 1886-10-01 av lungsot och begravdes 7 oktober. Rotemansposten
+1885–1886 binder originalets korta hemvistform till familjens samtida
+fastighets- och adresskontext.
 
 ## Påståenden
 
@@ -28,11 +31,15 @@ vuxna familjen.
 | A-2188 | Modern uppgavs vara 36 år i Britta Stinas födelsepost. | TRANSCRIBED | hög | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md) | Förenligt med A I/4:s födelseuppgift 1815-01-28. |
 | A-2189 | Hemsjö A I/4 samlar Britta Stina med föräldrarna och fem namngivna syskon i Västra Bodarne. | TRANSCRIBED | hög | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Syskonen bevaras som hushållskontext utan egna personposter i denna batch. |
 | A-2192 | Hemsjö A I/5:s registerförda Västra Bodarne-avsnitt, sidorna 322–330, gav ingen säker fortsättning för samma familj. | TRANSCRIBED | hög | [C-0447](../citations/C-0447-hemsjo-AI5-vastra-bodarne-negativ.md), [C-0479](../citations/C-0479-hemsjo-AI5-britta-stina-sida-138.md) | Avgränsat familje- och sidintervallsnoll; den senare positiva personraden ligger på sida 138. |
-| A-2248 | Olaus lysningsakt för omgifte namnger Brita Stina Svensdotter som hans första hustru och anger att han varit änkling sedan 1886-10-01. | CORROBORATED | mycket hög | [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md), [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) | Dödens datum stöds av både kyrkoboksakt och rotemansregister; själva dödboksposten återstår. |
+| A-2248 | Olaus lysningsakt för omgifte namnger Brita Stina Svensdotter som hans första hustru och anger att han varit änkling sedan 1886-10-01. | CORROBORATED | mycket hög | [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md), [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md), [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md) | Datumet är nu säkrat även i hennes egen död- och begravningspost. |
 | A-2257 | Hemsjö A I/5 sida 138 för `Andra Roten`, Västerbodarne, har raden `P. Britta Stina`, född 1851-05-09 i Hemsjö. | CORROBORATED | mycket hög | [C-0479](../citations/C-0479-hemsjo-AI5-britta-stina-sida-138.md), [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md), [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md) | Exakt datum och de två samtidiga foliohänvisningarna binder den patronymikonlösa raden till P-0337. |
 | A-2258 | Som `Svensdotter Brita Stina, hust.` flyttade hon 1877-09-28 från Västerbodarne till Stockholm; flyttlängden hänvisar till folio 138. | TRANSCRIBED | mycket hög | [C-0478](../citations/C-0478-hemsjo-B1-britta-stina-utflyttning-stockholm-1877.md), [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md), [C-0479](../citations/C-0479-hemsjo-AI5-britta-stina-sida-138.md) | Datumet ligger åtta dagar efter vigseln och destinationen ansluter till Kungsholmsfamiljen. |
 | A-2259 | Olaus Fredberg Fredriksson och Britta Stina Svensdotter vigdes 1877-09-20 i Hemsjö efter lysningar 19 och 26 augusti samt 2 september. | TRANSCRIBED | mycket hög | [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md) | Samtida namngiven vigselpost; löser det tidigare försiktiga äktenskapsåret 1877. |
 | A-2260 | Vid vigseln kallades Olaus stationskarl från Stockholm Kungsholm, född 1852, och Britta Stina hemmadotter från Västerbodarne, född 1851. | CORROBORATED | mycket hög | [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md), [C-0383](../citations/C-0383-kungsholm-BI16-olaus-fredberg-1876.md), [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md) | Vigselpostens två identitetsblock sammanfaller med respektive tidigare originalkedja. |
+| A-2632 | Kungsholm F I/9 sida 179 post 365 namnger `Hustrun Fredberg, Brit Stina` och anger att hon dog 1886-10-01, 35 år gammal. | CORROBORATED | mycket hög | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md), [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md), [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md) | Egen originalpost, samma datum i två oberoende senare register-/aktkedjor och förenlig ålder. |
+| A-2633 | Dödsorsaken var `Lungsot` och hon begravdes 1886-10-07. | TRANSCRIBED | mycket hög | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md) | Samtida död- och begravningsbok. |
+| A-2634 | Dödpostens hemvist står i den korta formen `37 D`; dödsortsfältet är tomt. | TRANSCRIBED | hög | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md) | Ingen gata eller dödsort fylls ut genom inferens i kyrkobokspåståendet. |
+| A-2635 | Rotemansposten 1885–1886 placerar henne med make och fyra barn i fastigheten Jordgubben 1–5, littera D 1, med bland annat Fleminggatan 35–37 som adressfält, och avslutar henne som död 1886-10-01. | CORROBORATED | hög | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md), [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) | De parallella gatunamnen i posten är inte separata flyttar; avskriften ger kontext till originalets `37 D`. |
 
 ## Relationer
 
@@ -48,4 +55,7 @@ vuxna familjen.
 
 ## Forskningsfrågor
 
-- Sök hennes dödbokspost 1886-10-01 och följ hushållet mellan 1884 och döden.
+- Den centrala livskedjan är nu sluten genom hennes egen dödbokspost och
+  rotemanshushållet 1885–1886. F III/1:s tidigare Fredberg-noll är rättat.
+  Dödortsfältet är tomt; sök inte fram en särskild dödsplats utan ny
+  sjukhus-, boupptecknings- eller begravningsnyckel. Rotera breddförst.

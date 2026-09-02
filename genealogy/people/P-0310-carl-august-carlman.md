@@ -4,8 +4,8 @@
 
 Kronolänsman och far till Johan Fredrik Villehad Carlman. Född 1825-10-02 i
 Målilla som son till gästgivaren Carl Fredric Andersson och Anna Greta
-Danielsdotter. Han följs från Gasa-hushållet 1861–1880 till Hagaby 1890 och
-1900.
+Danielsdotter. Han följs från Gasa-hushållet 1861–1880 till Hagaby 1890–1901; gift andra
+gången 1882 i Kalmar och död 1901-11-21 enligt församlingsboken.
 
 ## Påståenden
 
@@ -23,7 +23,13 @@ Danielsdotter. Han följs från Gasa-hushållet 1861–1880 till Hagaby 1890 och
 | A-2218 | Hans föräldrar var gästgivaren Carl Fredric Andersson och Anna Greta Danielsdotter i Målilla. | TRANSCRIBED | mycket hög | [C-0465](../citations/C-0465-malilla-C4-carl-august-fodd-1825.md) | Båda namnges i barnets samtida födelsenotis; föräldrarnas egna ursprung återstår. |
 | A-2366 | Carl August Carlman vigdes 1862-09-26 i Källa prästgård med Christina Gustafva Ringberg; det var första giftet för båda. | CORROBORATED | mycket hög | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md), [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md) | Samtida vigselpost i brudens hemförsamling; Högby A I/8 visar samma par som makar med första barnet fött sex månader senare. |
 | A-2367 | Vid lysningen 7 september 1862 tituleras han kronolänsman och förrättande landsfiskal med hemvist Vedby, född 1825. | TRANSCRIBED | hög | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Ett ord före `förrättande` är överstruket och oläsligt; Vedby ligger i Högby socken. |
-| A-2371 | Högby E I/2 1861–februari 1864 och Bäckebo C/6:s vigselavsnitt 1861–1863 saknar någon Carlman–Ringberg-post. | NEGATIVE | hög | [C-0534](../citations/C-0534-hogby-EI2-och-backebo-C6-vigselkontroll-1861-1864-negativ.md) | Avgränsat noll som förklaras av vigseln i Källa; Högby 1864–1894 är oläst. |
+| A-2371 | Högby E I/2 1861–februari 1864 och Bäckebo C/6:s vigselavsnitt 1861–1863 saknar någon Carlman–Ringberg-post. | NEGATIVE | hög | [C-0534](../citations/C-0534-hogby-EI2-och-backebo-C6-vigselkontroll-1861-1864-negativ.md) | Avgränsat noll som förklaras av vigseln i Källa; 1879–1890 är nu läst, se A-2386. |
+| A-2383 | Församlingsboken Högby A II a/1 s. 140 (Hagaby nr 6) för honom som före detta kronolänsman, född 1825-10-02 i Målilla, gift 1882-03-28 och död 1901-11-21. | TRANSCRIBED | hög | [C-0538](../citations/C-0538-hogby-AIIa1-hagaby-6-sida-140-carlman.md) | Dödsdatumet är församlingsboksburet; dödboken F/2 är oläst bakom `401`, så dödsorsak och begravning saknas. |
+| A-2384 | Andra vigseln skedde 1882-03-28 i Kalmar med änkefrun Mathilda Sofia Svensson efter lysning nr 8 den 4 mars 1882; det var andra giftet för båda. | CORROBORATED | mycket hög | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md), [C-0538](../citations/C-0538-hogby-AIIa1-hagaby-6-sida-140-carlman.md) | Samtida vigselpost i brudens hemförsamling; församlingsboken upprepar exakt samma datum. |
+| A-2385 | Vid lysningen i Kalmar tituleras han kronolänsman från Högby församling, född `-25 Okt. 2`, och uppvisade bouppteckning och arvskifte. | TRANSCRIBED | hög | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Bouppteckningen avser första hustrun Christina Gustafva; ingen egen sida i Kalmars husförhörsbok anges. |
+| A-2386 | Högby E I/2 1879–1890 (bilderna 25–44, 178 lysningar) saknar varje Carlman- eller Svensson-lysning. | NEGATIVE | hög | [C-0540](../citations/C-0540-hogby-EI2-1879-1890-negativ-och-F2-atkomst-401.md) | Avgränsat noll som förklaras av lysningen i Kalmar 1882; upprepa inte samma bildföljd. |
+| A-2387 | Högby F/2 1895–1925 (batch `80003338`) svarade `401` på bildnivå 2026-08-29; dödposten för 1901-11-21 är oläst. | TRANSCRIBED | hög | [C-0540](../citations/C-0540-hogby-EI2-1879-1890-negativ-och-F2-atkomst-401.md) | Åtkomstincident, inte nollresultat; återaktivera i inloggad session. |
+| A-2455 | Carl August Carlman dog 1901-11-21 i Högby av hjärtlidande och begravdes 27 november, 76 år, 1 månad och 19 dagar gammal. | CORROBORATED | mycket hög | [C-0560](../citations/C-0560-hogby-F2-carl-august-carlman-dod-1901.md), [C-0538](../citations/C-0538-hogby-AIIa1-hagaby-6-sida-140-carlman.md) | Egen dödpost verifierar församlingsbokens datum och anger f.d. kronolänsman, Hagaby nr 6, gift. |
 
 ## Relationer
 
@@ -35,7 +41,7 @@ Danielsdotter. Han följs från Gasa-hushållet 1861–1880 till Hagaby 1890 och
 | [P-0354 Gustaf Adolf Viktor Carlman](P-0354-gustaf-adolf-viktor-carlman.md) | son i hushållet | TRANSCRIBED | C-0355 |
 | [P-0355 Axel Leonard Emil Carlman](P-0355-axel-leonard-emil-carlman.md) | son i hushållet | TRANSCRIBED | C-0355 |
 | [P-0356 Anna Victoria Almida Carlman](P-0356-anna-victoria-almida-carlman.md) | dotter i hushållet | TRANSCRIBED | C-0355 |
-| [P-0357 Matilda Sofia Svensson](P-0357-matilda-sofia-svensson-carlman.md) | hustru 1890–1900 | CORROBORATED | C-0356, C-0357 |
+| [P-0357 Matilda Sofia Svensson](P-0357-matilda-sofia-svensson-carlman.md) | hustru, vigda 1882-03-28 i Kalmar; änka 1901-11-21 | CORROBORATED | C-0539, C-0538, C-0356, C-0357 |
 | [P-0368 Oskar Mauritz Adelbert Carlman](P-0368-oskar-mauritz-adelbert-carlman.md) | son | TRANSCRIBED | C-0394 |
 | [P-0386 Carl Fredric Andersson](P-0386-carl-fredric-andersson.md) | far | TRANSCRIBED | C-0465 |
 | [P-0387 Anna Greta Danielsdotter](P-0387-anna-greta-danielsdotter.md) | mor | TRANSCRIBED | C-0465 |
@@ -44,10 +50,13 @@ Danielsdotter. Han följs från Gasa-hushållet 1861–1880 till Hagaby 1890 och
 ## Forskningsstatus
 
 Egen födelsenotis säkrar datum, dop och föräldrar; yrkes-/familjekedjan
-sträcker sig från Gasa 1861–1880 till Hagaby 1900. Christinas död förklarar
-änklingstatusen 1880, och sida 139 är avgränsad som en oreproducerad
-hänvisning. Första vigseln är säkrad i Källa 1862-09-26 (C-0533). Andra
-vigseln med Matilda Sofia Svensson (1874–1890) och Karl Augusts egen död
-återstår; Högby E I/2 1864–1894 och F/2 1895–1925 är publikt serverade
-återstarter. Föräldrarna är gränspersoner och följs inte djupare före
-kohortens breddmål.
+sträcker sig från Gasa 1861–1880 till Hagaby nr 6 1895–1901. Christinas död
+förklarar änklingstatusen 1880, och sida 139 är avgränsad som en
+oreproducerad hänvisning. Första vigseln är säkrad i Källa 1862-09-26
+(C-0533) och andra vigseln i Kalmar 1882-03-28 med änkefrun Mathilda Sofia
+Svensson (C-0539); Högby E I/2 1879–1890 är negativt avgränsad (C-0540).
+Församlingsboken anger död 1901-11-21 (C-0538); direkt-IIIF till dödboken
+F/2 är spärrad med `401`, men den inloggade reservvisaren gav senare egen
+dödpost C-0560: hjärtlidande och begravning 27 november. Eventuell
+bouppteckning återstår. Föräldrarna är gränspersoner och följs inte djupare
+före kohortens breddmål.

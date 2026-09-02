@@ -1,0 +1,54 @@
+{
+  "schema": "slaktforsk-reading-observation/v1",
+  "observed_at": "2026-09-01",
+  "scope": [
+    "P-0133",
+    "P-0474",
+    "P-0475"
+  ],
+  "provider": "Riksarkivet",
+  "access": {
+    "public_iiif": {
+      "used_for_metadata_and_images": true,
+      "authenticated_session_required": false,
+      "note": "Det redan bevarade IIIF-manifestet gav exakt register- och sidrouting. Maxoriginal och Image API-info hämtades med vanlig webbläsaridentifikation och Riksarkivet som referer, utan sessionsdata."
+    },
+    "authenticated_chrome": {
+      "signed_in_session_already_available": true,
+      "route": "https://sok.riksarkivet.se/grill",
+      "prepared_query": {
+        "Ort": "Hagby",
+        "Socken": "Bettna"
+      },
+      "result_loaded": false,
+      "captcha_encountered": true,
+      "captcha_interacted_with": false,
+      "session_data_read_or_preserved": false,
+      "reactivation": "Ägaren löser den nya synliga ALTCHA-rutan i den bevarade Chrome-fliken. Därefter skickas samma exakta fråga och ett eventuellt resultat läses för ort, nummer, kompani och regemente."
+    }
+  },
+  "observations": [
+    {
+      "source": "Bettna kyrkoarkiv, Husförhörslängder, SE/ULA/10110/A I/14 b (1856-1860)",
+      "permanent_id": "T5X7hjX9rH6cxG02H087k3",
+      "reproduction": "C0005861",
+      "canvas_count": 211,
+      "index_canvas": "C0005861_00010",
+      "index_reading": "Hagby, sida 12; nästa indragna rad D:o Soldattorp, sida 184.",
+      "target_canvas": "C0005861_00199",
+      "target_page": 184,
+      "page_heading": "Kyrko-Roten; Hagby Sold. Torp",
+      "visual_result": "Den kompletta sidan saknar Carl/Carl Eric/Carl Fredric Grill/Drill, Johanna Jansdotter/Jonsdotter och den kända Grillfamiljens sammanhållna profil.",
+      "inference_limit": "Exakt volym-, registerroute-, sida-, platsrubrik-, namnforms- och familjeprofilbundet noll. Det gäller inte Hagby i övrigt, andra soldattorp, Bettna A I/14 a, hela A I/14 b, personernas vistelse eller om det senare Östra Soldattorp N:o 38 avser samma boställe."
+    },
+    {
+      "source": "Bettna kyrkoarkiv, Husförhörslängder, SE/ULA/10110/A I/14 a-b (1856-1860)",
+      "screening": {
+        "method": "Reducerad OCR/Apple Vision endast för kandidatnavigation",
+        "known_quality_control": "Metoden hade tidigare missat en känd positiv Grill-rad i A I/13 a."
+      },
+      "result": "Ingen ytterligare säker Grill-/Erik-rad nominerades.",
+      "inference_limit": "Screeningen har inget negativt bevisvärde. Endast den separat visuellt slutlästa A I/14 b-sidan 184 bär ett nollresultat."
+    }
+  ]
+}

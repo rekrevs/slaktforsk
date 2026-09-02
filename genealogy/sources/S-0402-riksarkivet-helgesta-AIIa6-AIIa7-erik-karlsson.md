@@ -19,6 +19,6 @@ De tre originaluppslagen bildar en intern sidkedja. A II a/6 sida 203 för
 Erik till ålderdomshemmets sida 160 den 25 februari 1930; sida 160 hänvisar
 vidare till nästa bok, sida 177. A II a/7 sida 177 upprepar identiteten och
 markerar döden 20 mars 1935. Änkedatumet 3 april 1920 är makens
-civilståndsnotis och därmed ett starkt men indirekt belägg för Matildas död;
-hennes egen dödspost återstår.
-
+civilståndsnotis. Matildas senare återfunna egna SCB-lasarettspost anger
+död 1920-01-31; 3 april bevaras därför som källkonflikt och används inte som
+hennes dödsdag, se [S-0599](S-0599-riksarkivet-scb-flens-lanslasarett-doda-1920.md).

@@ -1,0 +1,116 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/RA/870001/3/22/34",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#instantiation_01"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#instantiation_02"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/MePDaLWbSaI30Fi0eyZcT0"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#isPartOf"
+      },
+      "skos:note": "Ljustorp tingslags häradsrätt. Personregister till enstaka bouppteckningar. Ber-Per.",
+      "rico:descriptiveNote": "Ljustorp tingslags häradsrätt. Personregister till enstaka bouppteckningar. Ber-Per.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/RA/870001/3/22/34"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#instantiation_02",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/MePDaLWbSaI30Fi0eyZcT0"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/lFQZNVkFI4Qf40UHFunZO0#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1800-tal",
+      "rico:textualValue": [
+        "1800-tal",
+        ""
+      ],
+      "schema:endDate": ""
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

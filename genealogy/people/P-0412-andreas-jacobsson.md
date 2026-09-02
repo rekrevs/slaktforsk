@@ -1,24 +1,20 @@
-# P-0412: Andreas Jacobsson
+# P-0412: Andreas Jacobsson — avvisad felläsning
 
 ## Identitet
 
-Far till Johan August, född 1849-07-05 i Stora Lundby. Födelsenotisens
-källtrogna namnform läses `Andris Jacobson`; normaliseringen är försiktig.
+Historisk arbetsidentitet som skapades ur en felläsning av Johan Augusts
+födelsenotis. Förstorad omläsning visar `Ole`/`Olo` **Andersson**, inte
+`Andris Jacobson`. Posten bevaras för full provenans men representerar inte
+längre en belagd person i familjen.
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-2343 | Andreas Jacobsson namnges som far till Johan August i födelsenotisen 1849. | TRANSCRIBED | hög | [C-0521](../citations/C-0521-stora-lundby-C4-johan-august-fodd-1849.md) | Originalformen läses `Andris Jacobson`; titel och gårdsförkortning är delvis svårlästa. |
-
-## Relationer
-
-| Person | Relation | Status | Belägg |
-|---|---|---|---|
-| [P-0413 Anna Brita Olofsdotter](P-0413-britta-olofsdotter-hjallsnas.md) | hustru | TRANSCRIBED | C-0521 |
-| [P-0411 Johan August Fredberg Fredriksson](P-0411-johan-august-fredberg-fredriksson.md) | son | TRANSCRIBED | C-0521 |
+| A-2343 | Den tidigare läsningen `Andris Jacobson` som Johan Augusts far var fel. | REJECTED | hög | [C-0521](../citations/C-0521-stora-lundby-C4-johan-august-fodd-1849.md) | Förstorad omläsning visar `Ole`/`Olo Andersson`; rätt personpost är P-0453. |
 
 ## Forskningsstatus
 
-Endast barnets födelsenotis är säker. Han får inte kopplas som far till Olaus
-förrän en egen Olaus-post eller ett gemensamt hushåll gör det möjligt.
+Ingen levande relation ska kopplas till denna historiska post. Den får inte
+användas som person-, make- eller föräldrabellägg; se P-0453 för den rättade
+fadersläsningen.

@@ -14,12 +14,19 @@ hemmadotter från Westerbodarne. Olaus uppges vara född 1852 och Britta Stina
 Lysningarna antecknades den 19 och 26 augusti samt 2 september. Vigselkolumnen
 anger post 6 och datumet **1877-09-20**.
 
+Kolumnen för hinderslöshet med mera anger också att ett `Prestbet. från
+Kungsholmen lämnades för mannen` och slutar `Ingen attest`. Den fullare
+avskriften och Hemsjö H V-seriens katalogläge behandlas i
+[C-0697](C-0697-hemsjo-HV-prastbetyg-olaus-fredberg.md).
+
 ## Källkritisk betydelse
 
 Posten löser C-0382:s försiktigt lästa äktenskapsår och förklarar samtidigt
 C-0384:s Kungsholmsnoll: paret vigdes i Hemsjö, inte i Kungsholm. Namn,
 yrke, födelseår och de två hemvisterna binder akten till samma par som i
 Kungsholms- och Hemsjökällorna.
+Prästbetygsnoteringen dokumenterar ett använt underlag men återger inte dess
+innehåll och får inte göras till ett födelse- eller föräldrapåstående.
 
 ## Lokal originalbild
 
@@ -29,4 +36,4 @@ Kungsholms- och Hemsjökällorna.
 
 ## Stödda påståenden
 
-A-2255–A-2256 och A-2259–A-2260.
+A-2255–A-2256, A-2259–A-2260 och A-2738.

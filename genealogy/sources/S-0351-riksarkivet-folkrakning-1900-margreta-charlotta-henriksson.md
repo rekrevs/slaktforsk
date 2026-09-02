@@ -26,6 +26,12 @@ Stockholms län. Ingen av dem gav den samlade Ljustorp/Lagfors-,
 Henriksson/Sjölin- och änkeidentiteten. Detta är ett frågebundet nollresultat,
 inte bevis för att personen var död eller för att alla namnvarianter saknas.
 
+Efter datumrättelsen 2026-08-29 prövades även den fullare förnamnsformen
+`Margareta Charlotta`, född 1825 i Stockholm, mot 1910. Den direkta,
+inloggade fråge-URL:en omdirigerades till Riksarkivets ALTCHA-sida innan
+resultat kunde läsas. Rutan lämnades orörd. C-0598 bevarar fråga,
+omdirigering och skärmbild som åtkomsthinder; det är inte ett nytt noll.
+
 ## Källkritik
 
 Personpostens namn, år, födelseort, hemort och civilstånd bildar en stark

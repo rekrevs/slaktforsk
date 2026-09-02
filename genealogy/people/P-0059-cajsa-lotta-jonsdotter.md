@@ -46,11 +46,12 @@ namnet till Lotta Jonsdotter.
 | A-2275 | Hon dog 1912-04-25 i Alvik av hög ålder och begravdes 1912-05-05 i Alnö. | CORROBORATED | mycket hög | [C-0492](../citations/C-0492-alno-AIIa10-sida-2739-jonas-petter-kajsa-charlotta.md), [C-0493](../citations/C-0493-alno-F4-kajsa-charlotta-dod-1912.md) | Församlingsbok och död- och begravningsbok överensstämmer om personen och dödsdagen. |
 | A-2276 | Bouppteckningsregistret gav ingen träff på Kajsa Charlotta Persson/Alvik/Alnö eller på en ortbred Alvikfråga 1912–1913. | TRANSCRIBED | hög | [C-0494](../citations/C-0494-alvik-bouppteckningsregister-1912-1913-negativ.md) | Registerbundet noll; registret är ofullständigt och ingen frånvaro av bouppteckning infereras. |
 
+| A-2425 | Sonen Johan August, född maj 1861, är P-0424 Johan August Johansson; den tidigare identifieringen av honom med P-0028 Johan Oskar Zingmark (född 1861-05-28 i Botsmark) är avvisad, så denna familj är inte längre anor till P-0004. | CORROBORATED | mycket hög | [C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md), [C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md), [C-0547](../citations/C-0547-savar-B3-1880-johan-oskar-zingmark-till-degerfors.md) | Familjens egen forskning kvarstår oförändrad som sidogren. |
 ## Relationer
 
 Make: [P-0058 Johan Pettersson Lundström](P-0058-johan-pettersson-lundstrom.md).
 Barn: [P-0238 Johanna Charlotta](P-0238-johanna-charlotta-johansdotter.md),
-P-0060, P-0061, [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md),
+P-0060, P-0061, [P-0424 Johan August Johansson](P-0424-johan-august-johansson.md),
 P-0062–P-0064.
 
 ## Forskningsfront uppdaterad 2026-08-28

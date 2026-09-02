@@ -1,0 +1,97 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:RecordSet"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Series"
+      },
+      "rico:hasRecordSetType": {
+        "@id": "ric-rst:Series"
+      },
+      "schema:identifier": "SE/GLA/13505/H III",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3#instantiation_physical"
+      },
+      "schema:name": "Bilagor till födelseboken",
+      "rico:name": "Bilagor till födelseboken",
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/FDKw3gHtrH6cyG018W43t3"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3#isPartOf"
+      },
+      "rico:thingIsSourceOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3#hasParts"
+      },
+      "schema:hasPart": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/XyW2iQITVg1B180euI9K27"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/DElla9qadqYIddGr8W2Xw1"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/UnXzLQWiWYN2acnjwyMfc3"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/GLA/13505/H III"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/FDKw3gHtrH6cyG018W43t3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3#hasParts",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/vpeLivyxweZJUG018W43t3"
+      },
+      "rico:wholePartRelationHasTarget": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/XyW2iQITVg1B180euI9K27"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/DElla9qadqYIddGr8W2Xw1"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/UnXzLQWiWYN2acnjwyMfc3"
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "ric-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#"
+  }
+}

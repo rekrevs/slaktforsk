@@ -1,0 +1,84 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:RecordSet"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Series"
+      },
+      "rico:hasRecordSetType": {
+        "@id": "ric-rst:Series"
+      },
+      "schema:identifier": "SE/ULA/10257/H V",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3#instantiation_physical"
+      },
+      "schema:name": "Bilagor till lysnings- och vigselböckerna t o m 1967",
+      "rico:name": "Bilagor till lysnings- och vigselböckerna t o m 1967",
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/2Bn6bDX9rH6cxG02H087k3"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3#isPartOf"
+      },
+      "rico:thingIsSourceOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3#hasParts"
+      },
+      "schema:hasPart": {
+        "@id": "http://data.riksarkivet.se/archive/syDzRBOITKHfkq00aG21xB"
+      },
+      "skos:note": "Vissa bilagor fr o m 1916 har gallrats med stöd av Riksarkivets gallringsbeslut 1970:254.\r\n\r\nFortsättning i serierna H VII a-b.",
+      "rico:descriptiveNote": "Vissa bilagor fr o m 1916 har gallrats med stöd av Riksarkivets gallringsbeslut 1970:254.\r\n\r\nFortsättning i serierna H VII a-b."
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/ULA/10257/H V"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/2Bn6bDX9rH6cxG02H087k3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3#hasParts",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/nbpe2TT9rH6cxG02H087k3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/syDzRBOITKHfkq00aG21xB"
+      }
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "ric-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#"
+  }
+}

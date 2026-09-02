@@ -1,0 +1,88 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/KrA/0101/A/012:Ö/D II/1",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#instantiation_physical"
+      },
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/NQXcUfNwO4QJFiff2Xap71"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#isPartOf"
+      },
+      "skos:note": "Bt. 1842, 1866. Kapitulationsrullor.         \r\n\r\n1847 - 1880. Stamrulla.",
+      "rico:descriptiveNote": "Bt. 1842, 1866. Kapitulationsrullor.         \r\n\r\n1847 - 1880. Stamrulla.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/KrA/0101/A/012:Ö/D II/1"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/NQXcUfNwO4QJFiff2Xap71"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/ayRUzTOtl13eeQAPpXmQzA#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1842",
+      "rico:textualValue": [
+        "1842",
+        "1880"
+      ],
+      "schema:endDate": "1880"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

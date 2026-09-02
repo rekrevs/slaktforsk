@@ -19,8 +19,10 @@
 
 Ortregistret placerar Lagfors på sida 353 och nästa registerförda ort börjar
 på sida 365. Hela intervallet sidorna 353–364 lästes sammanhängande. Ingen
-säker rad gäller Margreta Charlotta Henriksson/Sjölin/Sjödin, född
-1825-05-12 i Stockholm.
+säker rad gäller Margreta Charlotta Henriksson/Sjölin/Sjödin, då sökt med
+det senare avvisade datumankaret 1825-05-12 i Stockholm. Det aktuella
+datumankaret är 1825-08-12/13; den historiska sökprofilen bevaras för full
+provenans.
 
 ## Källkritik
 

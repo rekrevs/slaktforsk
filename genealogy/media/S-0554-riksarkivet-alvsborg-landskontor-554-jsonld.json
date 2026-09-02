@@ -1,0 +1,86 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/GLA/19190/554",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#instantiation_physical"
+      },
+      "schema:name": "Uppgifter till mantalsskrivningen",
+      "rico:name": "Uppgifter till mantalsskrivningen",
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/bfyxrKyJ117hV83rCcril5"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#isPartOf"
+      },
+      "skos:note": "Se även volymerna 585 - 597 och 1322 - 1324",
+      "rico:descriptiveNote": "Se även volymerna 585 - 597 och 1322 - 1324",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/GLA/19190/554"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/bfyxrKyJ117hV83rCcril5"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/m5KJHeX0j4cUOOdPhwAeZ0#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1853",
+      "rico:textualValue": "1853"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

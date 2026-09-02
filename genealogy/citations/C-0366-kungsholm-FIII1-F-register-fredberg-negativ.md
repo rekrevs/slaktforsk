@@ -1,21 +1,21 @@
-# C-0366: Kungsholms dödregister saknar Fredberg efter 1880
+# C-0366: Kungsholms dödregister — tidigare Fredberg-felläsning rättad
 
 ## Källa
 
 [S-0291](../sources/S-0291-riksarkivet-kungsholm-FIII1-register-F.md)
 
-## Exakt kontroll
+## Historisk kontroll och rättelse 2026-08-30
 
-Kungsholm F III/1:s sammanhängande F-avsnitt lästes från de år som följer
-efter 1880 till registrets slut 1939. Bilderna `00026774_00044`–`_00047`
-innehåller F-posterna för perioden men ingen Fredberg- eller Olaus
-Fredberg-post.
+Kungsholm F III/1:s sammanhängande F-avsnitt lästes ursprungligen från åren
+efter 1880 till registrets slut 1939. Då antecknades felaktigt att ingen
+Fredberg-post fanns. Den bevarade bilden har i själva verket under år 1886
+den tydliga raden `Fredberg, B. S.` med hänvisning till sida 179.
 
-## Tolkning
-
-Detta är ett efternamnsnoll i Kungsholms eget dödregister. Det är inte ett
-allmänt dödsnoll för Olaus: familjen kan ha flyttat och en död i annan
-församling skulle inte behöva stå här.
+[C-0651](C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md) läser både
+registerraden och Kungsholm F I/9 sida 179, där Brita Stina Fredberg står som
+post 365. Det tidigare efternamnsnollet är därmed ogiltigt och bevaras här
+endast som rättad metodhistorik. Kontrollen säger fortsatt inget negativt om
+Olaus egen död; den positiva registerraden gäller hans första hustru.
 
 ## Lokala originalbilder
 

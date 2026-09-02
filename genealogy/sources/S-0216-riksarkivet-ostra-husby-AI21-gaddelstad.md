@@ -21,5 +21,7 @@
 
 Husförhörslängden är en löpande hushållskälla. Den binder Elin till samma
 föräldrar som födelsenotisen, utvecklar faderns namnform och visar en yngre
-syster. Hushållssammanföringen stödjer relationerna, men är inte ensam grund
-för att anta fler barn än de faktiskt namngivna raderna.
+syster. Carolinas flyttkolumn anger dessutom Häradshammar 1870, attest 58,
+och äktenskapskolumnen datumet 1870-10-14. Hushållssammanföringen stödjer
+relationerna, men är inte ensam grund för att anta fler barn än de faktiskt
+namngivna raderna; vigseldatumet är självständigt kontrollerat i C-0557.

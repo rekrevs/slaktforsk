@@ -1,0 +1,92 @@
+{
+  "schema": "slaktforsk-riksarkivet-observation/v1",
+  "checked_at": "2026-09-02",
+  "scope": "P-0336 Olaus Fredberg; previously untried SCB parish-book extract inside the 1915-1925 household gap",
+  "catalog": {
+    "archive": "Statistiska Centralbyrån (SCB) - samlingspost",
+    "series": "Församlingsboksutdrag",
+    "reference_code": "SE/RA/420401/10/H 1 AA/13",
+    "date": "1920",
+    "remark": "Stockholms län. Församling 73-96.",
+    "permanent_id": "oteW3OgRrH6d0G02H087k3",
+    "institution": "Riksarkivet"
+  },
+  "access": {
+    "chrome": {
+      "signed_in": true,
+      "challenge_visible": false,
+      "search_result_and_viewer_opened": true,
+      "full_image_download_used": true,
+      "session_storage_inspected": false,
+      "reading_room_or_copy_order_created": false
+    },
+    "api": {
+      "records_query_result": "Riksarkivet WAF HTML rather than records JSON",
+      "jsonld_result": "HTTP 403 from the advertised data.riksarkivet.se representation",
+      "iiif_presentation_result": "both official Presentation 3 manifests downloaded successfully"
+    },
+    "iiif": {
+      "A0056304": {
+        "manifest_url": "https://lbiiif.riksarkivet.se/arkis!A0056304/manifest",
+        "canvas_count": 489,
+        "sollentuna_range_start": "A0056304_00294",
+        "lovo_range_start": "A0056304_00340"
+      },
+      "C0301345": {
+        "manifest_url": "https://lbiiif.riksarkivet.se/arkis!C0301345/manifest",
+        "canvas_count": 977,
+        "sollentuna_range_start": "C0301345_00589",
+        "lovo_range_start": "C0301345_00681"
+      }
+    }
+  },
+  "sollentuna_extent": {
+    "screened_reproduction": "A0056304",
+    "first_image": "A0056304_00294",
+    "first_page": 1,
+    "last_image": "A0056304_00339",
+    "last_page": 90,
+    "source_image_count": 46,
+    "boundary_observation": "A0056304_00340 begins Lovö page 1 and carries physical marker 83"
+  },
+  "screening": {
+    "downloaded_full_originals": 46,
+    "ocr_engine": "Apple Vision on Apple M4 Max arm64",
+    "ocr_passes": [
+      "general full-spread target-name OCR",
+      "six-field crop OCR per image: left/right name and occupation columns in three vertical bands"
+    ],
+    "ocr_role": "candidate navigation only",
+    "visually_read_full_originals": [
+      "A0056304_00294",
+      "A0056304_00300",
+      "A0056304_00311",
+      "A0056304_00313",
+      "A0056304_00317",
+      "A0056304_00334",
+      "A0056304_00339",
+      "A0056304_00340"
+    ],
+    "broad_pass_nominations_rejected": [
+      "A0056304_00300: Olof/Olaf-like fragment without Fredberg or the 1852 target profile",
+      "A0056304_00317: Olof Alfred Edvard Johansson, born 1880, bagagemästare"
+    ],
+    "field_pass_nominations_rejected": [
+      "A0056304_00311: OCR-only Olaus-like compound; no target row in the full original",
+      "A0056304_00313: other Olaus-bearing rows with non-target names and birth profiles",
+      "A0056304_00334: Nicolaus-like compound, not Olaus Fredberg"
+    ],
+    "result": "No visually checked OCR nomination is Olaus Fredberg; neither OCR pass nominated Fredberg, birth year 1852, or the bangardsmastare target occupation in combination with Olaus."
+  },
+  "project_preservation": {
+    "all_screened_full_originals": 46,
+    "repository_path_pattern": "genealogy/media/C-0809-riksarkivet-scb1920-sollentuna-A0056304_00294.jpg through _00339.jpg",
+    "individual_checksums": "genealogy/media-manifest.json"
+  },
+  "limitations": [
+    "Handwriting OCR can miss names, occupations, and digits.",
+    "The 90 source pages were not read name by name in full originals.",
+    "The result is not a person, residence, parish, year, or whole-reproduction null.",
+    "The result does not prove that Olaus was absent from Sollentuna in 1920 or that he was not yet resident in Tureberg."
+  ]
+}

@@ -14,12 +14,19 @@
 Födelsenotisen är en samtida primärpost för barnet och föräldrauppgifterna.
 Den vuxne Johan August Fredberg Fredriksson binds till posten genom samma
 förnamn, exakt datum `1849-07-05` och Lundby/Stora Lundby i två senare
-originalkällor. Fadersnamnet läses `Andris Jacobson` och normaliseras
-försiktigt till Andreas Jacobsson; moderns namn `Anna Brita Olofsdotter` och
-åldern 25 är tydliga. Gårdsförkortningen efter Hjällsnäs är svårläst och
-normaliseras därför inte.
+originalkällor. En förstorad omläsning 2026-08-30 visar fadersnamnet som
+`Ole`/`Olo Andersson`, försiktigt normaliserat till Olof Andersson. Den
+tidigare transkriptionen `Andris Jacobson` är avvisad men bevarad i
+P-0412/A-2343. Moderns namn `Anna Brita Olofsdotter` och åldern 25 är
+tydliga. En ny maximal omläsning med C-0672:s oberoende Hjällsnäsnycklar
+läser platsen som `Hjällsnäs Såg`.
 
-Posten belägger Johan Augusts föräldrar. Den belägger däremot inte i sig
-Olaus Fredbergs föräldrar, även om andra källor gör Johan August till hans
-bror. Full- eller halvbrödraskap och den gemensamma föräldern måste lösas i
-ett hushåll eller en egen föräldrapost för Olaus.
+Posten namnger Johan Augusts uppgivna föräldrar. C-0672:s samtidiga
+vigsel-/husförhörskedja gör emellertid Fredric Jacobson till Anna Britas
+dokumenterade make före födelsen och skapar en källkonflikt mot frasen
+`dess hustru`. Olo Andersson behålls som fadersuppgift; konflikten får inte
+jämnas ut till säkert biologiskt eller juridiskt föräldraskap.
+
+Posten belägger inte Olaus Fredbergs föräldrar, även om andra källor gör
+Johan August till hans bror. Full- eller halvbrödraskap och den gemensamma
+föräldern måste lösas i ett hushåll eller en egen föräldrapost för Olaus.

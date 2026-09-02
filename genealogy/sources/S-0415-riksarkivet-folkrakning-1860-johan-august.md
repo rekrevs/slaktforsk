@@ -17,9 +17,14 @@ Formuläret kunde fyllas och sökningen startas, men Riksarkivet visade
 någon resultatlista blev synlig. Verifieringen automatiserades inte. Försöket
 gav därför varken en positiv post eller ett negativt registerresultat.
 
-## Återaktivering
+## Täckningsrättelse 2026-08-31
 
-Slutför människeverifieringen manuellt i den namngivna Chrome-sessionen och
-kör exakt samma fältkombination. En positiv 1860-post kan ge ett hushåll med
-föräldrar och eventuellt Olaus; den måste följas till folkräkningsoriginal
-eller husförhörslängd innan relationerna ändras.
+Riksarkivets egen beskrivning av registreringsläget anger att 1860 års
+personregister bara omfattar Jämtlands län. Stora Lundby i Älvsborgs län
+ingår alltså inte, och frågan kan inte ge ett täckande personregisterresultat
+även om ALTCHA passeras. Den tidigare återaktiveringsinstruktionen dras
+därför tillbaka; incidenten bevaras endast som historisk åtkomstdokumentation.
+
+SCB:s skannade primärmaterial är däremot åtkomligt för Stora Lundby genom
+Riksarkivets records-API, OAI och IIIF. Den vägen och den kompletta visuella
+kontrollen av 1860-utdraget redovisas i S-0539/C-0703.

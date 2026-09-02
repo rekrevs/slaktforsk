@@ -19,4 +19,7 @@ Bonde och far till Carolina Larsdotter i hennes egen födelsenotis 1849.
 
 ## Forskningsstatus
 
-Gränsperson utanför den fasta breddkohorten; anorna följs inte nu.
+Gränsperson utanför den fasta breddkohorten; anorna följs inte nu. Dotterns
+lysningsnotis 1870 kallar Maja Lena änka (C-0557), men detta används inte
+ensamt som dödsbelägg för Lars eftersom ett senare äktenskap ännu inte är
+uteslutet.

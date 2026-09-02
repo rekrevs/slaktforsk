@@ -56,6 +56,6 @@ verifierade i Riksarkivets original eller samtida utdrag.
 | [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) | far | CORROBORATED | C-0002, C-0004 |
 | [P-0029 Ida Sofia Andersdotter](P-0029-ida-sofia-andersdotter.md) | mor | CORROBORATED | C-0002, C-0004 |
 | P-0030–P-0034 | syskon i 1900-hushållet | CORROBORATED | C-0004 |
-| P-0035–P-0038 | yngre syskon | LEAD | C-0001 |
+| P-0035–P-0038 | yngre syskon | CORROBORATED | C-0574 |
 | [P-0002 Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md) | hustru | CORROBORATED | C-0001, C-0040 |
 | P-0039, P-0040, [P-0006 Hillevi](P-0006-hillevi-zingmark.md), P-0041 | barn | LEAD | C-0001 |

@@ -26,4 +26,6 @@ hemvist, yrke och födelseår. Den binder Olaus vuxna Stockholmsidentitet till
 Britta Stinas Hemsjöidentitet genom kombinationen fullständiga namn,
 `Stockholm Kungsholm`, `Westerbodarne` och hänvisningen till
 husförhörslängdens sida 138. Svårlästa intygsanteckningar har inte gjorts
-till egna påståenden.
+till egna påståenden i denna äldre källpost. C-0697 avgränsar nu den säkra
+kärnan `Prestbet. från Kungsholmen lämnades för mannen. Ingen attest` och
+visar samtidigt att H V-serien saknar katalogiserad volym och bildlänk.

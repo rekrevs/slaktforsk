@@ -10,6 +10,7 @@
 - E/3:s permanenta post: <https://sok.riksarkivet.se/arkiv/Ih2w2A5trH6cyG018W43t3>
 - Södra Lundbys arkivpost: <https://sok.riksarkivet.se/arkiv/LygT1r8xweZJUG018W43t3>
 - Katalog och bildföljd kontrollerade i styrd Chrome-session: 2026-08-27
+- E/3:s permanenta post omkontrollerad inloggat: 2026-09-01
 
 ## Källrouting och faktisk lucka
 
@@ -25,6 +26,13 @@ Larv E/3 är den exakta kvarvarande källan. Volymbeskrivningen anger bland
 annat födelsebokskladdar för **Längjum, Tråvad och Södra Lundby 1852**.
 Posten är inte sekretessbelagd men är märkt `Läsesal` och saknar `Bild`-länk.
 
+Efter att ägaren själv hade loggat in och besvarat CAPTCHA:n öppnades den
+permanenta E/3-posten åter i användarens Chrome utanför sandboxen. Ingen ny
+utmaning visades, men posten stod oförändrat kvar som `Läsesal` utan
+digital bild. `Läsesal`-åtgärden användes inte eftersom den lägger material
+i en beställning; ingen beställning skapades eller skickades. Agenten
+hanterade ingen CAPTCHA och läste eller bevarade inga sessionsdata.
+
 ## Slutsats och återaktivering
 
 Södra Lundby 1852 är källstyrt lokaliserat men inte personläst. Ingen
@@ -32,3 +40,7 @@ förekomst eller frånvaro för Olaus får infereras. Återaktivera genom
 beställning eller läsesalskontroll av Larv E/3 vid Riksarkivet i Göteborg och
 läs Södra Lundbys 1852-del, särskilt kring den 24 maj, eller om en digital
 `Bild`-länk publiceras senare.
+
+## Stött påstående
+
+A-2183 och A-2996.

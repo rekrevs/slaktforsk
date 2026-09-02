@@ -1,0 +1,91 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:RecordSet"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Series"
+      },
+      "rico:hasRecordSetType": {
+        "@id": "ric-rst:Series"
+      },
+      "schema:identifier": "SE/KrA/0108/A/021:Ö/D 2",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1#instantiation_physical"
+      },
+      "schema:name": "Rekryteringsrullor och soldatkontrakt",
+      "rico:name": "Rekryteringsrullor och soldatkontrakt",
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/JytYQQAXs21VBE8KDUCTy1"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1#isPartOf"
+      },
+      "rico:thingIsSourceOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1#hasParts"
+      },
+      "schema:hasPart": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/Ym9bUtGLjKwRF8BkTyytxD"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/KHpUEN03RKQyL5EpE71Yh4"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/KrA/0108/A/021:Ö/D 2"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/JytYQQAXs21VBE8KDUCTy1"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1#hasParts",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/r3WPSjlS24MJJXO5TIpYh1"
+      },
+      "rico:wholePartRelationHasTarget": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/Ym9bUtGLjKwRF8BkTyytxD"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/KHpUEN03RKQyL5EpE71Yh4"
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "ric-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#"
+  }
+}

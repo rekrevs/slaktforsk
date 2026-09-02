@@ -15,13 +15,16 @@ födelsenotis och folkräkningarna 1880–1890 använder Carolina/Karolina.
 | A-2037 | Carolina/Charlotta dog 1891-04-11 i Gäddestad, Östra Husby. | CORROBORATED | mycket hög | [C-0360](../citations/C-0360-folkrakning-1890-ostra-husby-gaddestad-karlsson.md), [C-0406](../citations/C-0406-ostra-husby-AI24-gaddestad-sida-81.md), [C-0408](../citations/C-0408-ostra-husby-C8-charlotta-dod-1891.md) | Husförhörslängdens `91 11/4` bekräftas av egen dödpost. |
 | A-2106 | Charlotta begravdes 1891-04-16, 41 år, 11 månader och 29 dagar gammal; dödsorsaksfältet lämnades tomt. | TRANSCRIBED | mycket hög | [C-0408](../citations/C-0408-ostra-husby-C8-charlotta-dod-1891.md) | Egen död- och begravningspost; ingen dödsorsak infereras. |
 | A-2107 | A I/24 samlar Carolina med Anders Magnus och barnen Elin, Ida Carolina, Carl Gottfrid och Ester Elisabet i Gäddestad och uppger makarnas äktenskapsår som 1870. | TRANSCRIBED | hög | [C-0406](../citations/C-0406-ostra-husby-AI24-gaddestad-sida-81.md) | Exakt vigselpost återstår. |
-| A-2382 | Jonsberg C I/5:s vigselavsnitt oktober 1868–1872 och Östra Husby C/7:s vigselavsnitt 1869–1872 saknar någon lysning eller vigsel för Carolina Larsdotter och Anders Magnus Carlsson. | NEGATIVE | hög | [C-0537](../citations/C-0537-jonsberg-och-ostra-husby-vigselkontroll-1868-1872-negativ.md), [C-0406](../citations/C-0406-ostra-husby-AI24-gaddestad-sida-81.md) | Både födelse- och bostadsförsamlingen är uteslutna för 1869–1872; nästa säkra väg är hennes utflyttning i Jonsberg B och inflyttningsattesten till Östra Husby. |
+| A-2382 | Jonsberg C I/5:s vigselavsnitt oktober 1868–1872 och Östra Husby C/7:s vigselavsnitt 1869–1872 saknar någon lysning eller vigsel för Carolina Larsdotter och Anders Magnus Carlsson. | NEGATIVE | hög | [C-0537](../citations/C-0537-jonsberg-och-ostra-husby-vigselkontroll-1868-1872-negativ.md), [C-0406](../citations/C-0406-ostra-husby-AI24-gaddestad-sida-81.md) | Avgränsat noll i två fel församlingar; vigseln är senare löst i Häradshammar genom C-0557. |
+| A-2449 | Östra Husby A I/21 anger att Carolina kom från Häradshammar 1870 under attest 58 och för makarna datumet 1870-10-14 i äktenskapskolumnen. | TRANSCRIBED | hög | [C-0271](../citations/C-0271-elin-barndomshushall-gaddelstad.md) | Flyttnotisen gav den positiva vigselroutingen; datumet verifieras av C-0557. |
+| A-2450 | Jonsberg B I/3:s utflyttningsföljd 1868–1872 saknar en säker Carolina Larsdotter. | NEGATIVE | hög | [C-0556](../citations/C-0556-jonsberg-BI3-carolina-larsdotter-utflyttning-1868-1872-negativ.md) | Bara detta årsintervall är avgränsat; en tidigare avresa från Jonsberg förnekas inte. |
+| A-2452 | Carolina Larsdotter lystes med Anders Magnus Carlsson i Häradshammar 1870-08-28 och vigdes där 1870-10-14. | CORROBORATED | mycket hög | [C-0557](../citations/C-0557-haradshammar-C7-carlsson-larsdotter-vigsel-1870.md), [C-0271](../citations/C-0271-elin-barndomshushall-gaddelstad.md) | Samtida vigselbok anger rätt namn och bådas exakta födelsedatum; hushållslängden upprepar datum och utflyttningsförsamling. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0312 Anders Magnus Carlsson](P-0312-anders-magnus-carlsson.md) | make | CORROBORATED | C-0270, C-0271, C-0359–C-0360, C-0406–C-0408 |
+| [P-0312 Anders Magnus Carlsson](P-0312-anders-magnus-carlsson.md) | make | CORROBORATED | C-0270, C-0271, C-0359–C-0360, C-0406–C-0408, C-0557 |
 | [P-0243 Elin Andersson](P-0243-elin-andersson.md) | dotter | CORROBORATED | C-0270, C-0271, C-0406–C-0407 |
 | [P-0314 Ida Carolina Carlsson](P-0314-ida-carolina-carlsson.md) | dotter | CORROBORATED | C-0271, C-0359–C-0360, C-0406–C-0407 |
 | [P-0358 Karl Gottfrid](P-0358-karl-gottfrid-gaddestad.md) | son | CORROBORATED | C-0359–C-0360, C-0406–C-0407 |
@@ -31,7 +34,7 @@ födelsenotis och folkräkningarna 1880–1890 använder Carolina/Karolina.
 
 ## Forskningsstatus
 
-Egen födelse, namnvarianten och döden är lösta. Två folkräkningar och två
-husförhörslängder ger familje- och gårdskontinuitet före och efter hennes död.
-Äktenskapsåret 1870 är känt retrospektivt men exakt vigselpost återstår.
-Föräldrarna är gränspersoner och följs inte djupare nu.
+Egen födelse, namnvarianten, vigseln 1870-10-14 i Häradshammar och döden är
+lösta. Två folkräkningar och två husförhörslängder ger familje- och
+gårdskontinuitet före och efter hennes död. Föräldrarna är gränspersoner och
+följs inte djupare nu.

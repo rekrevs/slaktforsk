@@ -1,0 +1,103 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/ULA/11457/B/1",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#instantiation_01"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/KuvJaymaweZJTe018W43t3"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#isPartOf"
+      },
+      "skos:note": "Sista bladet skadat.",
+      "rico:descriptiveNote": "Sista bladet skadat.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/ULA/11457/B/1"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/KuvJaymaweZJTe018W43t3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/agAerDX9rH6cxG02H087k3#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1838",
+      "rico:textualValue": [
+        "1838",
+        "1852"
+      ],
+      "schema:endDate": "1852"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

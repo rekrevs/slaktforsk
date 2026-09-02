@@ -16,12 +16,17 @@ sida 71, bild-id `C0015023_00073`, raderna 1–4.
 > Dotter Elin — 1873 13/1 — Ö. Husby  
 > [dotter] Ida Carolina — 1875 5/8 — d:o
 
+Äktenskapskolumnen anger `70 14/10`. Carolinas flyttkolumn anger
+`Häradshm:r 70 58`, det vill säga inflyttad från Häradshammar 1870 under
+attest nr 58.
+
 ## Tolkning
 
 Hushållet bekräftar Anders Magnus Carlsson och Charlotta Larsdotter som Elins
 föräldrar och visar den yngre systern Ida Carolina. `d:o` på systerns rad
 upprepar Östra Husby. Föräldrarnas födelsedata bevaras här som transkription,
-inte som ännu kontrollerade egna födelsenotiser.
+inte som ännu kontrollerade egna födelsenotiser. Flyttnotisen ger den positiva
+vigselroutingen till Häradshammar; datumet verifieras självständigt av C-0557.
 
 ## Lokal källbild
 
@@ -31,4 +36,4 @@ inte som ännu kontrollerade egna födelsenotiser.
 
 ## Stödda påståenden
 
-- A-1734–A-1738
+- A-1734–A-1738, A-2449

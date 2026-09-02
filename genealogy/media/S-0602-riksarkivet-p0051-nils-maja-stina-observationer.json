@@ -1,0 +1,70 @@
+{
+  "schema": "slaktforsk-reading-observation/v1",
+  "observed_at": "2026-09-02",
+  "scope": [
+    "P-0051"
+  ],
+  "provider": "Riksarkivet",
+  "access": {
+    "authenticated_chrome": {
+      "signed_in_session_already_available": true,
+      "captcha_previously_answered_by_owner": true,
+      "exact_nad_page_reloaded": "https://sok.riksarkivet.se/nad/?postid=Arkis%20a58feb22-80c0-4274-bc62-03196c180f45",
+      "captcha_interacted_with_by_agent": false,
+      "session_data_read_or_preserved": false,
+      "result": "Den exakta Umeå landsförsamling C/5-sidan visade en ny synlig CAPTCHA trots aktiv inloggning. Kontrollrutan lämnades orörd."
+    },
+    "public_riksarkivet_routes": {
+      "used_for_metadata_and_images": true,
+      "note": "Records-API, OAI-EAD och det publika arkivträdet gav volymidentitet, äldre Arkis-UUID och reproduktion C0034535; Riksarkivets IIIF-manifest och bild-API gav originalen utan att någon sessionsdata användes."
+    }
+  },
+  "observations": [
+    {
+      "source": "Bygdeå kyrkoarkiv, SE/HLA/1010025/A I/6, Överklinten sidorna 69–80",
+      "reproduction": "C0034014",
+      "register_canvases": "C0034014_00009–C0034014_00013",
+      "section_canvases": "C0034014_00082–C0034014_00093",
+      "boundary_canvases": "C0034014_00081 och C0034014_00094",
+      "positive_canvas": "C0034014_00093",
+      "visual_reading": "På sida 80, hushåll nummer 12, står Nils Jonsson/Jönsson född 1775, hustru Maja Stina född 1779 samt döttrarna Anna Cajsa född 1800 och Maja Stina född 1802.",
+      "candidate_identity": "Namn, åldersläge, Överklinten och barnens födelseår gör hushållet till en stark kandidat för vigselparet Nils Jonsson från Umeå och Maja Stina Pehrsdotter i Överklinten 1799.",
+      "inference_limit": "Hustruns patronymikon saknas, marginalanteckningen är inte säkert läst och ingen fortsatt hushållskedja är funnen. Kandidaten slås inte samman med vigselparet eller med änkan i 1810 års vigsel."
+    },
+    {
+      "source": "Bygdeå kyrkoarkiv, SE/HLA/1010025/A I/7a, hela registrerade Överklintensavsnittet sidorna 114–131",
+      "reproduction": "C0034015",
+      "register_canvases": "C0034015_00009–C0034015_00011",
+      "section_canvases": "C0034015_00131–C0034015_00148",
+      "boundary_canvas": "C0034015_00149, Åkullsjön sida 132",
+      "visual_result": "Avsnittet saknar ett säkert fortsatt hushåll med Nils Jonsson och Maja Stina samt döttrarna Anna Cajsa och Maja Stina.",
+      "inference_limit": "Endast det registrerade Överklintensavsnittet är negativt. Resultatet är inte ett person-, vistelse-, flytt- eller helvolymsnoll."
+    },
+    {
+      "source": "Bygdeå kyrkoarkiv, SE/HLA/1010025/C/3, födda 1800 och 1802",
+      "reproduction": "C0034039",
+      "year_1800_canvases": "C0034039_00105–C0034039_00109",
+      "year_1802_canvases": "C0034039_00116–C0034039_00120",
+      "visual_result": "De manifestavgränsade födelseföljderna saknar en säker Anna Cajsa respektive Maja Stina med föräldrarna Nils Jonsson och Maja Stina.",
+      "inference_limit": "Volymen är katalogmärkt Defekt. Resultatet gäller bara dessa två årsföljder och utesluter inte födelse i annan församling, lucka eller sekundärt årtal i husförhörslängden."
+    },
+    {
+      "source": "Bygdeå kyrkoarkiv, SE/HLA/1010025/C/3, döda och begravda 1799–1810",
+      "reproduction": "C0034039",
+      "sequence_canvases": "C0034039_00323–C0034039_00344",
+      "visual_result": "Den manifestavgränsade följden saknar en säkert identifierbar vuxen Nils Jonsson som förklarar ett omgifte för Maja Stina Pehrsdotter 1810.",
+      "inference_limit": "Volymen är katalogmärkt Defekt och följden är delvis gles. Resultatet bevisar varken död i annan församling, vigselkvinnornas identitet eller att kandidaten överlevde till en viss tidpunkt."
+    },
+    {
+      "source": "Umeå landsförsamlings kyrkoarkiv, SE/HLA/1010219/C/5, födda 1800 och 1802",
+      "permanent_record_id": "8kkFfS20T4AyCG6CjWm7e5",
+      "arkis_uuid": "a58feb22-80c0-4274-bc62-03196c180f45",
+      "reproduction": "C0034535",
+      "manifest_canvases": 394,
+      "year_1800_canvases": "C0034535_00046–C0034535_00062",
+      "year_1802_canvases": "C0034535_00086–C0034535_00106",
+      "visual_result": "Alla 38 bildytor i de två manifestavgränsade årsföljderna lästes visuellt. Ingen säker Anna Cajsa/Anna Catharina 1800 eller Maja Stina/Maria Christina 1802 med föräldrarna Nils Jonsson och Maja Stina återfanns.",
+      "inference_limit": "Resultatet gäller endast Umeå landsförsamlings C/5 och de två fulla födelseårsföljderna. Det är inget person-, hela Umeå-, vistelse- eller föräldranoll."
+    }
+  ]
+}

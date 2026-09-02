@@ -17,7 +17,13 @@ barn: Amalia Wilhelmina Bernhardina Larsson, Frans Christian Sundeli,
 Augusta Charlotta Salén/Sahlin och Otto Theodor Landby. Träffarna har
 kontrollerats som andra identiteter och har inte gjorts till släktingar.
 
-## Avgränsning
+## Rättelse och avgränsning
+
+Kontrollen utfördes med det då fellästa datumankaret **1825-05-12**.
+Omläsningen i C-0374/C-0593/C-0594 visar i stället 1825-08-12/13. De lokala
+registerfilerna och det historiska majnollresultatet bevaras, men kontrollen
+prövar inte de korrekta augustidatumen och får inte längre räknas som ett
+personnoll för P-0339.
 
 Detta är ett fil-, register- och församlingsbundet nollresultat. Databasen
 saknar födelseregister som täcker 1825 för flera stora Stockholmsförsamlingar
@@ -39,6 +45,6 @@ födelseförsamling och föräldrar är därför fortsatt öppna.
 | Skeppsholmen, K199 | [PDF](../media/C-0525-stadsarkivet-fodelseregister-skeppsholm-K199.pdf) | 436 | `043045f17a3f24c717ded324310cc3045c59a6568618155f60a36293c6163887` |
 | Svea artilleri, K204 | [PDF](../media/C-0525-stadsarkivet-fodelseregister-svea-artilleri-K204.pdf) | 465 | `7f8b53c5e62d062dfc5a0894fb600dd9c8b5c36e700f7176704335e5db050fe7` |
 
-## Stött påstående
+## Berört påstående
 
-A-2347.
+A-2347, nu `REJECTED` som personkontroll.

@@ -24,6 +24,7 @@
 | A-2267 | Hans bouppteckning registrerades 1910 under namnformen Anders Jansson, hemmansägare i Buberget, som Degerfors tingslag F II/7 nr 55. | TRANSCRIBED | hög | [C-0486](../citations/C-0486-degerfors-anders-jansson-bouppteckningsregister-1910.md) | Originalvolymen är läsesalsbunden; innehållet har inte infererats. |
 | A-2268 | Tre avgränsade sökningar i folkräkningen 1910 gav ingen Anders Jonsson född 1839 med de prövade Degerfors-/Västerbottensvillkoren. | TRANSCRIBED | hög | [C-0487](../citations/C-0487-folkrakning-1910-anders-jonsson-noll.md) | Registerfrågebundet noll, inte eget dödsbelägg. |
 
+| A-2427 | Degerfors A I/10c s. 207 anger vigseln med Lotta Sofia till 1867-01-28 och listar mågen Johan Oskar Zingmark med hustru och dotter från 1888. | TRANSCRIBED | hög | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md) | Kompletterar C-0106; barnens exakta datum finns på samma sida. |
 ## Forskningsfrågor
 
 - Föräldrarna är ännu inte funna. Nästa steg är att söka honom som barn i

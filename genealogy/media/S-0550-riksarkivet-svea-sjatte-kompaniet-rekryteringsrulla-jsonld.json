@@ -1,0 +1,88 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/KrA/0101/A/017:Ö/D III/1",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#instantiation_physical"
+      },
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/CxTzSzlfG51Wub7YUChI19"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#isPartOf"
+      },
+      "skos:note": "Bx. 1809, 1812, 1838. \r\nAvlevereringsrullor.\r\n\r\n1864-1894. Rekryteringsrullor.\r\n\r\n1891-1907. Namnrullor över värnpliktiga.",
+      "rico:descriptiveNote": "Bx. 1809, 1812, 1838. \r\nAvlevereringsrullor.\r\n\r\n1864-1894. Rekryteringsrullor.\r\n\r\n1891-1907. Namnrullor över värnpliktiga.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/KrA/0101/A/017:Ö/D III/1"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/CxTzSzlfG51Wub7YUChI19"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/y4uX4qhnXwPIPF1m20QvV4#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1809",
+      "rico:textualValue": [
+        "1809",
+        "1907"
+      ],
+      "schema:endDate": "1907"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

@@ -41,3 +41,7 @@ tidigare arbetsavskriften av sonens födelsenotis var en felläsning.
 
 A-0160–A-0163, A-0165–A-0167, A-0254–A-0255, A-0278–A-0279 och
 A-0282–A-0283, A-0285.
+
+## Rättelse 2026-08-29
+
+Brudgummens födelse lyder `28/5 61` och hemorten `Petisträsk` med folio `163/2` (Degerfors A I/10b s. 163, C-0548). Den tidigare läsningen `19/5` och `[Utansjö?]` var fel. Se C-0550.

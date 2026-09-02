@@ -7,9 +7,11 @@
 ## Exakt avskrift och läsning
 
 På högersidan under månadsrubriken `Juli` står födelsedag **5** och dopdag
-**8**. Barnets namn är **Johan August**. Fadersraden läses källtrogen som
-`Andris Jacobson i Hjällsnäs [svårläst gårdsförkortning]`; normaliserad
-namnform är **Andreas Jacobsson**. Modersraden skriver tydligt `dess hustru
+**8**. Barnets namn är **Johan August**. En förstorad omläsning visar att
+fadersraden börjar `Fadr: Ole/Olo Andersson i Hjällsnäs Såg`; förnamnet
+normaliseras försiktigt till **Olof**, medan efternamnet **Andersson** är
+tydligt. Den tidigare läsningen `Andris Jacobson` var fel och bevaras endast
+som avvisad transkriptionshistorik. Modersraden skriver tydligt `dess hustru
 Anna Brita Olofsdotter`, **25** år.
 
 Hudiksvall A II a/1a sida 10 skriver den vuxne **Johan August Fredberg
@@ -20,10 +22,18 @@ tidigare arbetsläsningen `5/9` var fel; originalkolumnen visar `5/7`.
 
 ## Relationsavgränsning
 
-Posten gör Andreas Jacobsson och Anna Brita Olofsdotter till Johan Augusts
-föräldrar. Den får inte ensam användas för att ge samma föräldrar åt Olaus:
-källkedjan visar att männen var bröder men avgör ännu inte om de var hel- eller
-halvbröder eller vilken förälder de delade.
+Posten gör Olof Andersson och Anna Brita Olofsdotter till Johan Augusts
+uppgivna föräldrar. C-0672 visar samtidigt att Anna Brita vigdes med Fredric
+Jacobson 1849-04-15 och står med honom på A I/10 sida 94, medan Johan August
+står med henne på sida 115. Födelsenotisens `dess hustru` och vigselkedjan
+är därför en verklig faders-/civilståndskonflikt. Olo behålls som den far
+posten faktiskt namnger, men görs inte konfliktfritt till biologisk far och
+Fredric ersätter honom inte utan en egen relationspost.
+
+Materialet får inte användas för att ge någon av männen eller Anna Brita
+som förälder åt Olaus: källkedjan visar att Johan och Olaus var bröder men
+avgör ännu inte om de var hel- eller halvbröder eller vilken förälder de
+delade.
 
 ## Lokal originalbild
 
@@ -33,4 +43,4 @@ halvbröder eller vilken förälder de delade.
 
 ## Stödda påståenden
 
-A-2335–A-2337 och A-2343–A-2344.
+A-2335–A-2337, A-2343–A-2344, A-2553 och A-2671–A-2672.

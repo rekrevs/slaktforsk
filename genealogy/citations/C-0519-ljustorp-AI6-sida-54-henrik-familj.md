@@ -8,10 +8,10 @@
 
 Ljustorp A I/6 sida 54, bild `C0033126_00071`, visar **arbetaren Henrik
 Henriksson**, född **1829-08-10** med ortsformen `Rundb.`, och hustrun
-**Margreta Charl. Sjölin**, född **1825-05-12**. Vigselkolumnen anger
+**Margreta Charl. Sjölin**, född **1825-08-12**. Vigselkolumnen anger
 **1854-07-16**.
 
-Under makarna står sönerna **Henrik Peter**, född **1857-07-24**, och
+Under makarna står sönerna **Henrik Peter**, född **1857-04-20**, och
 **Erik Jonas**, född **1860-01-23**. Vid Henriks rad står hänvisningen
 `116`; sida 116 hänvisar i sin tur tillbaka till sida 54.
 
@@ -20,6 +20,8 @@ Under makarna står sönerna **Henrik Peter**, född **1857-07-24**, och
 Den reciproka sidhänvisningen och samma namn, datum, maka och barn binder
 sida 54 direkt till det redan belagda hushållet på sida 116. Sidan
 korroborerar familjekedjan och Rundbacken-formen men namnger inga föräldrar.
+De tidigare läsningarna 1825-05-12 och 1857-07-24 är korrigerade genom
+förstorad omläsning och de länkade Familia-raderna i C-0593.
 
 ## Lokal originalbild
 

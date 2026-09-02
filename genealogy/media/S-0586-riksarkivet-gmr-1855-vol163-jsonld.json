@@ -1,0 +1,102 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/KrA/0023/0/163",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#instantiation_01"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/OWIKk8ib5KzEr9dTt23JR2"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#isPartOf"
+      },
+      "skos:note": "Södermanlands regemente. 1 st.",
+      "rico:descriptiveNote": "Södermanlands regemente. 1 st.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#date_01"
+      },
+      "schema:image": {
+        "@id": "https://lbiiif.riksarkivet.se/arkis!A0028137/manifest"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/KrA/0023/0/163"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/OWIKk8ib5KzEr9dTt23JR2"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/jq4liuc5TqUTmb1vMS3jC3#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1855",
+      "rico:textualValue": "1855"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

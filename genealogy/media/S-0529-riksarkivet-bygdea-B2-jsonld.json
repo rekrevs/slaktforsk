@@ -1,0 +1,124 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/HLA/1010025/B/2",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#instantiation_01"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#instantiation_02"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/boDHJ9vhd4oxr1fR9BW5U0"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#isPartOf"
+      },
+      "skos:note": "T.o.m. mars 1889 (uppgifterna för 1889 finns även i volym 3).\r\nIn- och utflyttning.",
+      "rico:descriptiveNote": "T.o.m. mars 1889 (uppgifterna för 1889 finns även i volym 3).\r\nIn- och utflyttning.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#date_01"
+      },
+      "schema:image": [
+        {
+          "@id": "https://lbiiif.riksarkivet.se/arkis!A0013573/manifest"
+        },
+        {
+          "@id": "https://lbiiif.riksarkivet.se/arkis!C0034036/manifest"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/HLA/1010025/B/2"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#instantiation_02",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/boDHJ9vhd4oxr1fR9BW5U0"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PT8vBawuBKIyxfE93H8A01#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1839",
+      "rico:textualValue": [
+        "1839",
+        "1889"
+      ],
+      "schema:endDate": "1889"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

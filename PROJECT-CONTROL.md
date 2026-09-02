@@ -296,3 +296,25 @@
   - T-0012 har granskat de 28 kända personerna och de fyra öppna positionerna
   - Forskningsberedskapen för nästa jämna utgåva kan diskuteras konkret
   - Omedelbart innan någon ny PDF-uppgift skapas
+
+## PCD-2026-08-29-001
+
+- Record type: decision
+- Date: 2026-08-29
+- Decides review: ingen formell PCR; ägarsvar på T-0012:s granskning av
+  identitetsbryggor (forskningsloggen 2026-08-29)
+- Owner: Sverker Adam Janson
+- Decision: Johannes Ivar Fredbergs (P-0287) faderskap till Anders Ivar Höök
+  (P-0239) är fastställd projektinformation enligt ägarens säkra
+  familjekunskap (`#1 är 100% säker.`) och kräver inga ytterligare belägg.
+  Fredbergsgrenen behöver inte frysas.
+- Disposition: approved
+- Supersedes decision: none; kompletterar `PCD-2026-08-20-001` med en andra
+  ägarfastställd relation
+- Resulting Wotan tasks: none; T-0012 fortsätter. Övriga bryggor (2–9) i
+  granskningen väntar på ägarbeslut eller oberoende belägg; brygga 6 är
+  kedjebelagd i batch 81.
+- Portfolio signal: Projektet är aktivt.
+- Revisit when:
+  - En samtida faderskapshandling eller DNA-stöd påträffas (bokförs, ändrar
+    inte beslutet)

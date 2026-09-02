@@ -29,11 +29,12 @@ Johannes egen samtida kedja är nu säkrad från föräldrahushållet på Kungsh
 | A-1932 | Kungsholm C I/14 s. 25–27 saknar en Johannes-/Fredberg-post kring 1880-06-24; den enda posten på datumet gäller en flicka. | CONFLICT | hög | [C-0327](../citations/C-0327-riksarkivet-kungsholm-CI14-juni-1880-negativ-kontroll.md) | Avgränsad konflikt mot senare exakta källor, inte grund för att avvisa datum eller identitet. |
 | A-1933 | Kungsholm B II/16:s hela F-avsnitt för 1895 saknar en säker utflyttningsrad för honom. | TRANSCRIBED | hög | [C-0324](../citations/C-0324-riksarkivet-kungsholm-BII16-utflyttade-F-1895-negativ.md) | Avgränsat källnoll; Hudiksvalls inflyttning är positivt belagd. |
 
+| A-2413 | Faderskapet till Ivar Höök är fastställt enligt ägarens säkra familjekunskap 2026-08-29 (`PCD-2026-08-29-001`). | CORROBORATED | mycket hög | [C-0545](../citations/C-0545-agarens-uppgift-johannes-ivar-fredberg-ar-ivars-far.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md), [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md) | Ersätter kravet på separat faderskapshandling som forskningsvillkor. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0239 Anders Ivar Höök](P-0239-ivar-hook.md) | son | CORROBORATED | C-0259, C-0320 |
+| [P-0239 Anders Ivar Höök](P-0239-ivar-hook.md) | son, fastställd enligt ägaren | CORROBORATED | C-0545, C-0259, C-0320 |
 | [P-0275 Anna Matilda](P-0275-anna-matilda-hudiksvall.md) | medförälder till P-0239 | CORROBORATED | C-0259, C-0320 |
 | [P-0336 Olaus Fredberg](P-0336-olaus-fredberg.md) | far | CORROBORATED | C-0326, C-0382 |
 | [P-0337 Brita Stina Svensdotter](P-0337-brita-stina.md) | mor | CORROBORATED | C-0326, C-0382 |

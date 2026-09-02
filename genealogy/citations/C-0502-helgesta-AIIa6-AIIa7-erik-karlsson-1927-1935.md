@@ -15,9 +15,11 @@ Helgesta A II a/7 sida 177 har samma Erik på första raden, hänvisad från
 gamla bokens sida 160, och markerar honom död **20 mars 1935**. Kedjan ger
 ett direkt sidspår mellan 1930 års folkräkning och dödboken.
 
-Änkedatumet är indirekt belägg för andra hustruns död. Matilda Charlotta
-Sjöbergs egen dödspost är ännu inte funnen och datumet förs därför inte som
-en självständig originaldödspost för henne.
+Änkedatumet är en direkt transkription av makens senare civilståndsrad men
+inte längre ett hållbart indirekt dödsdatum för hustrun. Matilda Charlotta
+Sjöbergs egen samtida lasarettspost har senare återfunnits och anger
+1920-01-31; se [C-0773](C-0773-scb-flens-lanslasarett-matilda-karlsson-dod-1920.md).
+Datumen bevaras som källkonflikt.
 
 ## Lokala originalbilder
 
@@ -30,4 +32,3 @@ en självständig originaldödspost för henne.
 ## Stödda påståenden
 
 A-2292 och A-2294.
-

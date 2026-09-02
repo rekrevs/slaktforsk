@@ -37,4 +37,6 @@ avslutad forskningsvåg.
 
 Bernhard Natanael Eliassons faderskap till Arne Godvig Jansson är fastställd
 projektinformation enligt ägarens säkra familjekunskap. Projektet kräver inte
-ytterligare belägg för den relationen.
+ytterligare belägg för den relationen. Detsamma gäller sedan 2026-08-29
+Johannes Ivar Fredbergs faderskap till Anders Ivar Höök
+(`PCD-2026-08-29-001`).

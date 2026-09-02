@@ -12,7 +12,10 @@ Ljustorp C/3, bild `C0033134_00055`, anger **Märtha Brita**, född
 inhysesmannen **Henrik Henriksson** och hustrun **Margaretha Charlotta
 Sjölin**, 30 år. Bland dopvittnena finns drängen Jonas Henriksson i Bredsjö
 och pigan Cecilia Henriksdotter där; de bevaras som ledtrådar, inte som
-fastställda släktingar.
+fastställda släktingar. C-0593–C-0594 identifierar dem senare som Jonas
+Henriksson/Höglin, född 1835-01-01, och Cecilia Henriksdotter, född
+1836-02-14, och följer deras hushållskedjor mot Rundbacken. Identiteterna är
+därmed lösta men släktskapet med Henrik är fortfarande öppet.
 
 Ljustorp C/2:s död- och begravningsdel, bild `C0033133_00149`, anger att
 inhysesmannen Henrik Henrikssons i Sjöberg dotter **Märtha** dog
@@ -29,4 +32,3 @@ inhysesmannen Henrik Henrikssons i Sjöberg dotter **Märtha** dog
 ## Stödda påståenden
 
 A-2234–A-2236.
-

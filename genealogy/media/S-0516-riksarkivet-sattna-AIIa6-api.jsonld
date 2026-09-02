@@ -1,0 +1,116 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/HLA/1010198/A II a/6",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#instantiation_01"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#instantiation_02"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/hShTpkk1oqkhkrJC11P7y4"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#isPartOf"
+      },
+      "skos:note": "Nordansjö-Överkovland,  På församlingen skrivna",
+      "rico:descriptiveNote": "Nordansjö-Överkovland,  På församlingen skrivna",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/HLA/1010198/A II a/6"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#instantiation_02",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/hShTpkk1oqkhkrJC11P7y4"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/nOqysjU59gJBK6JBLHP5X5#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1927",
+      "rico:textualValue": [
+        "1927",
+        "1943"
+      ],
+      "schema:endDate": "1943"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

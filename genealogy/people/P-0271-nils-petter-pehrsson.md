@@ -23,6 +23,9 @@ barnens egna födelsekällor och de parentbärande hushållen.
 | A-2206 | Indal A I/12 för honom som `Höglund, Nils Petter (Persson)`, torpare i Högsjö 1892–1900. | CORROBORATED | hög | [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md), [C-0458](../citations/C-0458-folkrakning-1900-indal-hogsjo-hoglund.md) | Förhörsbok och folkräkningsbild bekräftar namnövergången. |
 | A-2208 | År 1900 levde Nils Petter och Anna Stina i Högsjö med sönerna Erik Nikolaus Biljard, Jonas Alfred Konrad och Gustaf Julius Elof. | CORROBORATED | hög | [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md), [C-0458](../citations/C-0458-folkrakning-1900-indal-hogsjo-hoglund.md) | Samstämmig hushållslängd, registerpost och länkad originalbild. |
 | A-2212 | SCB-utdraget för sonen Gustaf skriver 1888 `Ej vigda` om Nils Petter och Anna Stina, i konflikt med parets egen vigselpost 1863-10-02. | CONFLICT | hög | [C-0347](../citations/C-0347-indal-EI2-vigslar-1862-1866-negativ-kontroll.md), [C-0459](../citations/C-0459-scb-indal-gustaf-julius-elof-fodd-1888.md) | Den tydliga, namngivna vigselposten avvisas inte av den senare SCB-anmärkningen. |
+| A-2639 | Indal A II a/1 följer Nils Petter Höglund som torpare i Högsjö efter 1900 och anger död 1906-01-19. | CORROBORATED | hög | [C-0654](../citations/C-0654-indal-AIIa1-hogsjo-sida-129.md), [C-0656](../citations/C-0656-scb-indal-nils-petter-dod-1906.md) | Församlingsbok och fullständigt SCB-dödavsnitt ger samma datum, födelsedag, namn och hemvist. |
+| A-2640 | Nils Petter Höglund dog 1906-01-19. | CORROBORATED | hög | [C-0654](../citations/C-0654-indal-AIIa1-hogsjo-sida-129.md), [C-0656](../citations/C-0656-scb-indal-nils-petter-dod-1906.md) | Dödsortsfältet i SCB-utdraget är tomt och fylls inte inferentiellt. |
+| A-2641 | Hans dödsorsak anges som kräfta. | TRANSCRIBED | hög | [C-0656](../citations/C-0656-scb-indal-nils-petter-dod-1906.md) | Samtida SCB-utdrag, post 5. |
 
 ## Relationer
 
@@ -33,21 +36,24 @@ barnens egna födelsekällor och de parentbärande hushållen.
 | [P-0273 Johan Petter](P-0273-johan-petter-hogsjo.md) | person i hushållet | TRANSCRIBED | C-0254 |
 | [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | moderns dotter och person i hushållet; biologiskt faderskap ej belagt | TRANSCRIBED | C-0349, C-0350 |
 | [P-0345 Katharina Amanda](P-0345-katharina-amanda-hogsjo.md) | person i familjehushållet | TRANSCRIBED | C-0348 |
-| [P-0346 Erik Nikolaus Biljard](P-0346-erik-nikolaus-biljard-hogsjo.md) | person i familjehushållet | TRANSCRIBED | C-0348 |
+| [P-0346 Erik Nikolaus Biljard](P-0346-erik-nikolaus-biljard-hogsjo.md) | son | CORROBORATED | C-0348–C-0349, C-0654, C-0660 |
 | [P-0347 Lars Gustaf Emanuel](P-0347-lars-gustaf-emnuel-hogsjo.md) | person i familjehushållet | CORROBORATED | C-0348, C-0349 |
 | [P-0348 Brita Josefina](P-0348-brita-josefina-hogsjo.md) | person i familjehushållet | TRANSCRIBED | C-0348 |
-| [P-0349 Jonas Alfred Conrad](P-0349-jonas-alfred-konrad-hogsjo.md) | person i familjehushållet | CORROBORATED | C-0348, C-0349 |
+| [P-0349 Jonas Alfred Conrad](P-0349-jonas-alfred-konrad-hogsjo.md) | son | CORROBORATED | C-0348–C-0349, C-0658–C-0659 |
 | [P-0385 Gustaf Julius Elof Höglund](P-0385-gustaf-julius-elof-hoglund.md) | son | CORROBORATED | C-0456–C-0459 |
 | [P-0341 Pehr Ersson](P-0341-pehr-ersson-hogsjo.md) | far | TRANSCRIBED | C-0342 |
 | [P-0342 Ingeborg Nilsdotter](P-0342-ingeborg-nilsdotter-hogsjo.md) | mor | TRANSCRIBED | C-0342 |
 
 ## Forskningsstatus
 
-Egen födelsenotis, föräldrar och vigseln 1863-10-02 är säkrade. A I/9–A I/12
-och folkräkningarna 1880/1900 ger en sammanhängande Högsjökedja till 1900 och
-visar övergången Pehrsson/Persson → Höglund. SCB:s `Ej vigda` 1888 bevaras
-som konflikt mot den tydliga vigselposten. Död och kedjan efter 1900 återstår;
-de exakta 1910-sökningarna gav inget döds- eller flyttbelägg. Anna Erika
+Egen födelsenotis, föräldrar och vigseln 1863-10-02 är säkrade. A I/9–A II a/1
+och folkräkningarna 1880/1900 ger en sammanhängande Högsjökedja till döden
+1906-01-19 och visar övergången Pehrsson/Persson → Höglund. SCB:s `Ej vigda`
+1888 bevaras som konflikt mot den tydliga vigselposten; SCB 1906 anger
+dödsorsaken kräfta. Anna Erika
 Lydias biologiska far är inte namngiven i hennes egen födelsepost och får
 inte antas vara Nils Petter. Föräldrarnas anor drivs inte vidare före
-kohortens övriga luckor.
+kohortens övriga luckor. Sönerna Erik Nikolaus och Jonas Alfred har nu egna
+parentbärande födelseposter; Gustafs utflyttning till Nordamerika 1906 är
+församlingsbokstranskriberad men Indal B/2:s årsoriginal kräver behörig
+Riksarkivet-åtkomst enligt C-0661.

@@ -1,0 +1,63 @@
+{
+  "source": "Riksarkivet",
+  "checked_at": "2026-09-01",
+  "birth_register_queries": [
+    {
+      "scope": "first_name=Jonas Oscar; place=Piteå; 1853-1858",
+      "totalHits": 0
+    },
+    {
+      "scope": "first_name=Maria Lovisa; place=Piteå; 1853-1858",
+      "totalHits": 0
+    },
+    {
+      "scope": "fathers_name=Olof Pehrsson; place=Piteå; 1850-1860",
+      "totalHits": 0
+    },
+    {
+      "scope": "mothers_name=Anna Lovisa Brännberg; place=Piteå; 1850-1860",
+      "totalHits": 0
+    },
+    {
+      "scope": "place=Piteå; 1853-1858; no name",
+      "totalHits": 0,
+      "role": "coverage control"
+    }
+  ],
+  "register_interpretation": "Because the name-free Piteå control is also empty, all four name-query zeros are treated as a register coverage gap, not as negatives for a person or family.",
+  "original_route": {
+    "archive": "Piteå landsförsamlings kyrkoarkiv",
+    "reference_code": "SE/HLA/1010154/C I/12",
+    "permanent_id": "MLioBNum1KAbDIyu8RCGp1",
+    "reproduction": "C0035059",
+    "years": "1852-1860",
+    "canvases": 221,
+    "manifest_boundaries": {
+      "1853": "C0035059_00026",
+      "1854": "C0035059_00048",
+      "1855": "C0035059_00072",
+      "1856": "C0035059_00096",
+      "1857": "C0035059_00125"
+    }
+  },
+  "screening": {
+    "range": "C0035059_00026-C0035059_00124",
+    "years": "1853-1856",
+    "method": "Two local Apple Vision OCR passes at different work resolutions nominated names; visual rereading was performed on the exact-name candidates used below.",
+    "representative_rejections": [
+      {
+        "image_id": "C0035059_00073",
+        "child": "Jonas Oscar",
+        "place": "Böle",
+        "reason": "the recorded parents are not Olof Pehrsson and Anna Lovisa Brännberg"
+      },
+      {
+        "image_id": "C0035059_00085",
+        "child": "Maria Lovisa",
+        "place": "Lillpiteå",
+        "reason": "the recorded parents are not Olof Pehrsson and Anna Lovisa Brännberg"
+      }
+    ],
+    "restriction": "This is candidate screening, not a complete child, family, parish or whole-volume negative; OCR can miss handwriting."
+  }
+}

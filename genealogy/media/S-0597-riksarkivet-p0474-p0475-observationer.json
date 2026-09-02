@@ -1,0 +1,79 @@
+{
+  "schema": "slaktforsk-reading-observation/v1",
+  "observed_at": "2026-09-01",
+  "scope": [
+    "P-0474",
+    "P-0475"
+  ],
+  "provider": "Riksarkivet",
+  "access": {
+    "authenticated_chrome": {
+      "used_for_catalog_routing": true,
+      "signed_in_session_already_available": true,
+      "captcha_encountered": false,
+      "captcha_interacted_with": false,
+      "session_data_read_or_preserved": false
+    },
+    "public_api_and_iiif": {
+      "used_for_metadata_and_images": true,
+      "note": "Efter att reproduktionskoderna hade routats kunde manifest, Image API-info och originalbilder hämtas utan sessionsdata."
+    }
+  },
+  "observations": [
+    {
+      "source": "Generalmönsterrullor, Södermanlands regemente, SE/KrA/0023/0/164 (1859)",
+      "permanent_id": "04imr5ToMKY7S0vf4KJ640",
+      "reproduction": "A0028138",
+      "canvas_count": 419,
+      "target_canvas": "A0028138_00050",
+      "scope_note": "Livkompaniets nummer 36, Glippsta",
+      "visual_reading": "Lars Petter Landin; antagen den 26 Aug. 1854; approberas.",
+      "inference_limit": "Efterträdarens antagningsdatum sätter en senast-gräns för Carl Fredric Grill/Drills innehav av samma rote. Ingen avgångsorsak eller personlig avskedsdag för Grill infereras."
+    },
+    {
+      "source": "Bettna kyrkoarkiv, SE/ULA/10110/A I/13 a, sida 37",
+      "permanent_id": "SLX7hjX9rH6cxG02H087k3",
+      "reproduction": "C0005858",
+      "target_canvas": "C0005858_00049",
+      "preserved_original": "C-0702-riksarkivet-bettna-AI13a-sida-37-glippsta-grill-erik.jpg",
+      "visual_reading": "52 Östra R.",
+      "supersedes": "Den äldre preliminära läsningen 52 W:a V.",
+      "inference_limit": "Notisen routas till Östra roten i Bettna; exakt gård, sida och efterföljande hushåll är fortfarande öppna."
+    },
+    {
+      "source": "Bettna kyrkoarkiv, In- och utflyttningslängder, SE/ULA/10110/B/2 (1843-1861)",
+      "permanent_id": "grX7hjX9rH6cxG02H087k3",
+      "arkis_uuid": "ae4758ab-49d8-11d5-a6ed-0002440207bb",
+      "reproduction": "C0005877",
+      "canvas_count": 52,
+      "year_canvas": "C0005877_00028",
+      "visual_result": "1852 års in- och utflyttningsuppslag saknar en säker Grill/Drill-Jansdotter-familj.",
+      "inference_limit": "Ett käll-, år- och namnformsbundet resultat; den rättade interna rotehänvisningen gör frånvaron väntad och resultatet är inte ett person-, vistelse- eller flyttnoll."
+    },
+    {
+      "source": "Västra Vingåkers kyrkoarkiv, Inflyttningslängder, SE/ULA/11076/B I/3 (1845-1862)",
+      "permanent_id": "Tf93pTX9rH6cxG02H087k3",
+      "arkis_uuid": "cd439276-49d8-11d5-a6ed-0002440207bb",
+      "reproduction": "C0008346",
+      "canvas_count": 93,
+      "year_canvases": [
+        "C0008346_00030",
+        "C0008346_00031"
+      ],
+      "visual_result": "Hela 1852 års inflyttningsföljd saknar en säker Carl/Carl Eric/Carl Fredric Grill/Drill, Johanna Jansdotter/Jonsdotter eller motsvarande familjeprofil från Bettna/Glippsta.",
+      "inference_limit": "Exakt serie-, församling-, år-, namnforms- och familjeprofilbundet noll. Det är inte ett person-, vistelse- eller generellt flyttnoll."
+    },
+    {
+      "source": "Bettna kyrkoarkiv, SE/ULA/10110/A I/13 a (1851-1855)",
+      "screening": {
+        "canvases": 179,
+        "working_width_px": 1200,
+        "method": "Apple Vision-OCR used only for candidate navigation",
+        "observed_device": "Apple M4 Max, arm64"
+      },
+      "result": "Den enda regelnära nomineringen på bild 179 avvisades visuellt som ett annat hushåll på sida 168.",
+      "quality_control": "Den redan kända positiva Grill-raden på sida 37 missades av samma OCR-pass.",
+      "inference_limit": "Screeningen har därför inget negativt bevisvärde och används inte som helvolyms-, person- eller vistelsenoll."
+    }
+  ]
+}

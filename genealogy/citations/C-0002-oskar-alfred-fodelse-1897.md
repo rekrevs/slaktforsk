@@ -59,3 +59,7 @@ tillförlitlighet.
 ## Stödda påståenden
 
 A-0001, A-0002 och A-0012–A-0019.
+
+## Rättelse 2026-08-29
+
+Faderns födelsetid lyder `61 28/5` i originalet. Både den första läsningen 25/5 och den senare rättelsen till 19/5 (ovan) var fel; 28/5 är Johan Oskar Zingmarks egen födelsedag enligt Sävar C/3 1861 nr 54 (C-0546). Se C-0550.

@@ -1,0 +1,124 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/HLA/1010028/A II a/3",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#instantiation_01"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#instantiation_02"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/1frRxySngg1PAwttZ2Nsq6"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#isPartOf"
+      },
+      "skos:note": "Fol 786-1165",
+      "rico:descriptiveNote": "Fol 786-1165",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#date_01"
+      },
+      "schema:image": [
+        {
+          "@id": "https://lbiiif.riksarkivet.se/arkis!F0013102/manifest"
+        },
+        {
+          "@id": "https://lbiiif.riksarkivet.se/arkis!00206816/manifest"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/HLA/1010028/A II a/3"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#instantiation_02",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/1frRxySngg1PAwttZ2Nsq6"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/t1PSkddOX4IDrn1D8bGdV3#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1900",
+      "rico:textualValue": [
+        "1900",
+        "1909"
+      ],
+      "schema:endDate": "1909"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

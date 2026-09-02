@@ -1,0 +1,88 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/KrA/0102/A/001:Ö/0/198",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#instantiation_physical"
+      },
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/KyME54UqP297eUBvkzF7yV"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#isPartOf"
+      },
+      "skos:note": "D. Rullor och liggare.\r\nI. Stamrullor.\r\nb) Över manskap.\r\n2 st. 1914 - 1925. Ubef i reserven.\r\n1874 - 1927. Namnregister till stamrullan.",
+      "rico:descriptiveNote": "D. Rullor och liggare.\r\nI. Stamrullor.\r\nb) Över manskap.\r\n2 st. 1914 - 1925. Ubef i reserven.\r\n1874 - 1927. Namnregister till stamrullan.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/KrA/0102/A/001:Ö/0/198"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/KyME54UqP297eUBvkzF7yV"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PCa4xje5Xak79xN0pDNIy7#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1874",
+      "rico:textualValue": [
+        "1874",
+        "1927"
+      ],
+      "schema:endDate": "1927"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

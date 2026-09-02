@@ -1,0 +1,81 @@
+{
+  "source_id": "S-0577",
+  "citation_id": "C-0744",
+  "checked_at": "2026-09-01",
+  "external_provider": "Riksarkivet",
+  "catalog_routes": {
+    "SE/HLA/1010118/A I/6": {
+      "date_range": "1810-1817",
+      "permanent_id": "OKR8b0QODaE0oFa01Bzma4",
+      "arkis_uuid": "94c84661-9806-4336-80c8-f90004bfe124",
+      "reproduction": "C0034136",
+      "canvases": 187
+    },
+    "SE/HLA/1010118/A I/7": {
+      "date_range": "1817-1828",
+      "permanent_id": "fia6FyUUuQPH3Kjsac2Wk2",
+      "arkis_uuid": "3f06c9a6-3dcf-4cc3-a21a-96ed24c14172",
+      "reproduction": "C0034137",
+      "canvases": 242
+    },
+    "SE/HLA/1010118/C/2": {
+      "date_range": "1778-1813",
+      "permanent_id": "gN6FEww6hKYywO7yuLaSa8",
+      "arkis_uuid": "3b8f71a9-86ae-48ad-bdd3-03fb85647248",
+      "reproduction": "C0034150",
+      "canvases": 196
+    }
+  },
+  "browser_access": {
+    "kind": "connected Chrome outside the filesystem sandbox",
+    "result": "Each permanent catalog route redirected to a Riksarkivet CAPTCHA page whose returnUrl exposed the older Arkis UUID.",
+    "captcha_interaction": false,
+    "session_data_preserved": false
+  },
+  "public_tree_and_iiif": {
+    "tree_result": "The three public Tree/SubTree responses exposed C0034136, C0034137, and C0034150 respectively.",
+    "manifest_result": "All three official IIIF Presentation 3 manifests returned HTTP 200 without session data.",
+    "full_image_result": "Maximal IIIF images returned HTTP 200 with a Riksarkivet image-viewer Referer."
+  },
+  "ai7_navigation": {
+    "scope": "C0034137_00017 through C0034137_00242, 226 substantive canvases after the register/front matter",
+    "method": "Two Apple Vision accurate-OCR passes: full 1800-pixel reduced canvas and enlarged left 55-percent person-column crop",
+    "observed_hardware": "Apple M4 Max (arm64)",
+    "role": "Candidate nomination only; OCR is neither transcription nor negative evidence.",
+    "positive_candidate": {
+      "image_id": "C0034137_00164",
+      "page": 126,
+      "place": "Åskilje",
+      "visual_reading": "Rein[hold] Pehrsson, born 1798",
+      "identity_assessment": "The rare Reinhold Pehrsson name profile, matching birth year, and Degerfors A I/2's explicit move to Lycksele with certificate jointly identify the row as Petter Reinhold Pehrsson with high confidence. The Lycksele row does not write the given name Petter in full and names no parents."
+    }
+  },
+  "c2_1798": {
+    "content_images": [
+      "C0034150_00111",
+      "C0034150_00112"
+    ],
+    "next_year_boundary": "C0034150_00113 begins 1799",
+    "visual_review": "The complete 1798 birth and baptism sequence was read visually in maximal originals.",
+    "name_forms_checked": [
+      "Petter Reinhold",
+      "Peter Reinhold",
+      "Petrio Reinhold"
+    ],
+    "result": "No matching birth entry was found.",
+    "rejected_near_entry": {
+      "image_id": "C0034150_00111",
+      "birth_date": "1798-07-06",
+      "child": "Petrio",
+      "parents": "Olof Ersson i Wargträsk and Elisabeth Abrahamsdotter",
+      "rejection": "The father Olof makes the child's patronymic Olofsson rather than Pehrsson, and no Reinhold name is recorded."
+    }
+  },
+  "migration_series": {
+    "reference_code": "SE/HLA/1010118/B I/1",
+    "permanent_id": "Exfq5YVySYTEkV27UGdfw0",
+    "date_range": "1834-1842",
+    "boundary": "The cataloged bound migration series begins after the relevant 1817-1828 household period; this is a source gap, not a migration or residence null."
+  },
+  "evidence_boundary": "A I/7 page 126 is a positive, cross-source identity result. The C/2 result is only volume-, parish-, year-, and name-form-bounded. A I/6 was routed but not person-screened. No source here establishes Petter Reinhold's exact birth date, birth place, or parents, and the AI7 OCR screen must not be represented as a whole-volume null."
+}

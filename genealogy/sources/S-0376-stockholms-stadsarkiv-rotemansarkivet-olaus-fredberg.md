@@ -8,6 +8,8 @@
 - Sökning: efternamnet `Fredberg`, därefter databasens funktion `Samma individ`
 - Kontrollerad personkedja: sju poster 1878–1915
 - Läst: 2026-08-28 i ny styrd Chrome-flik
+- Kompletterande namnsökning på `Fredberg` + `Brita Stina` och visuell
+  postkontroll: 2026-08-30
 
 ## Identifierare
 
@@ -21,6 +23,17 @@
 | 1897–1907 | `434870120010` |
 | 1911–1915 | `030080030190` |
 
+## Brita Stinas sista post 1885–1886
+
+Den kompletterande sökningen gav fyra sammanlänkade Brita Stina-poster.
+Den sista är `434800120110`, häfte 43480 (1885–1891), sida/rad 012-11. Den
+anger henne som hustru, gift och sammanboende med barn, född 1851-05-09 i
+Hemsjö. Adressfälten omfattar Kungsholmsgatan 22–24, Fleminggatan 35–37 och
+de parallella formerna Stora Kungsholmsgatan 22–24/Reparebansgatan 35–37;
+fastigheten är Jordgubben 1–5, littera D 1, rote 17. Posten avslutas som död
+1886-10-01 med internkommentaren `Enl Db`. Hushållet binder henne till
+Olaus och de fyra redan kända barnen.
+
 ## Källkritik
 
 Databasen är en strukturerad avskrift av rotemännens mantalshäften. De sju
@@ -29,4 +42,6 @@ inte originalbilder och kan bära registrerings- eller avskriftsfel. Det gäller
 särskilt födelsedatumet 1852-09-04, som upprepas i alla poster men motsägs av
 tre kyrkoboksnära original med 1852-05-24. Hushåll, yrke, civilståndsdatum och
 flyttningar används som en rik livskedja och kontrolleras där det går mot
-kyrkoböcker.
+kyrkoböcker. De flera gatunamnen i Brita Stinas sista post är parallella
+registerfält och får inte utan ytterligare original göras till separata
+flyttar.

@@ -1,0 +1,106 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:RecordSet"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Series"
+      },
+      "rico:hasRecordSetType": {
+        "@id": "ric-rst:Series"
+      },
+      "schema:identifier": "SE/HLA/1010025/H III",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1#instantiation_physical"
+      },
+      "schema:name": "Bilagor till födelse- och dopboken",
+      "rico:name": "Bilagor till födelse- och dopboken",
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/InxM0xkBp4YOTwYx2zZ2v0"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1#isPartOf"
+      },
+      "rico:thingIsSourceOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1#hasParts"
+      },
+      "schema:hasPart": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/0tBNJdQ30a6ZHNae7GoD00"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/iTzyxBkkzyJwwsWtO8ntF3"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/wHcSkGBHqaUB8RPbZgsGP0"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/Tnml0Sz3pIV5fdMJMr9bM6"
+        }
+      ],
+      "skos:note": "Fr.o.m. 1968, se serier H VII a och H VII u.",
+      "rico:descriptiveNote": "Fr.o.m. 1968, se serier H VII a och H VII u."
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/HLA/1010025/H III"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/InxM0xkBp4YOTwYx2zZ2v0"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1#hasParts",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/PHaoVkTqjac14EpL4GDiG1"
+      },
+      "rico:wholePartRelationHasTarget": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/0tBNJdQ30a6ZHNae7GoD00"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/iTzyxBkkzyJwwsWtO8ntF3"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/wHcSkGBHqaUB8RPbZgsGP0"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/Tnml0Sz3pIV5fdMJMr9bM6"
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "ric-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#"
+  }
+}

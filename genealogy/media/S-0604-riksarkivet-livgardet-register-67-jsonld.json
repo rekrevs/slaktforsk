@@ -1,0 +1,103 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/RA/870001/2/1/67",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#instantiation_01"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/HXzmy1finrAcAmZnctkod3"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#isPartOf"
+      },
+      "skos:note": "Livgardet till häst. Personregister till husförhörslängder 1832-1927, till församlingsbok 1898-1927, över in- och utflyttade 1832-1927. A-K.",
+      "rico:descriptiveNote": "Livgardet till häst. Personregister till husförhörslängder 1832-1927, till församlingsbok 1898-1927, över in- och utflyttade 1832-1927. A-K.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/RA/870001/2/1/67"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/HXzmy1finrAcAmZnctkod3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/Jkk1gman3qYTpk40069xm3#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1832",
+      "rico:textualValue": [
+        "1832",
+        "1927"
+      ],
+      "schema:endDate": "1927"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

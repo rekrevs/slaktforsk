@@ -4,7 +4,8 @@
 
 Mor till Anders Niklas Larsson, namngiven som Cajsa Märta Andersdotter i
 sonens födelsenotis i Sättna. I folkräkningarna skrivs hennes senare
-familjenamn `Dahlsten` 1880 och `Dalsten` 1890–1900.
+familjenamn `Dahlsten` 1880 och `Dalsten` 1890–1900. Hon dog 1901-03-05 i
+Högsjö, Indal.
 
 ## Påståenden
 
@@ -22,12 +23,14 @@ familjenamn `Dahlsten` 1880 och `Dalsten` 1890–1900.
 | A-2173 | Hennes belagda syskonskara i föräldrahemmet omfattar Nils Peter, Carl Johan, Anna Helena, två olika söner Anders Olof samt Erik. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md)–[C-0440](../citations/C-0440-indal-C4-erik-dahlsten-fodd-1847.md) | Dödsposterna skiljer Anders Olof 1842–1843 från den nye Anders Olof född 1844. |
 | A-2315 | Cajsa Märta och Lars Petter Nilsson hade registrerat äktenskapsdatum 1858-02-21. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0511](../citations/C-0511-indal-EI1-lysning-lars-petter-cajsa-marta-1858.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Lysningsnotis och två äktenskapskolumner överensstämmer. |
 | A-2316 | Hon följs som hustru och mor i Högsjö från dottern Lisa Cajsas rad 1858 till familjen med fyra hemmavarande eller överstrukna barn 1892–1900. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Exakt eget datum och makens datum binder hushållen. |
+| A-2667 | Indal A II a/1 sida 130 fortsätter `Dalsten, Kajsa Märta h.` i Lars Petter Nilssons Högsjöhushåll efter 1900 och anger död 1901-03-05. | TRANSCRIBED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md) | Exakt födelsedatum, vigseldatum och hushåll binder raden till P-0316. |
+| A-2668 | SCB:s dödboksutdrag, Indal post 10, korsbekräftar att Cajsa Märta Dahlsten dog 1901-03-05, född 1834-03-21 och hustru till torparen Lars Petter Nilsson i Högsjö; dödsorsak och dödsort är tomma. | CORROBORATED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | SCB-utdraget är en samtidig avskrift men ger full identitetskedja. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0315 Lars Petter Nilsson](P-0315-lars-petter-nilsson.md) | make | CORROBORATED | C-0274, C-0388–C-0390 |
+| [P-0315 Lars Petter Nilsson](P-0315-lars-petter-nilsson.md) | make | CORROBORATED | C-0274, C-0388–C-0390, C-0668–C-0670 |
 | [P-0254 Anders Niklas Larsson](P-0254-anders-niklas-larsson.md) | son | CORROBORATED | C-0274, C-0388–C-0389 |
 | [P-0375 Anders Dahlsten](P-0375-anders-dahlsten.md) | far | CORROBORATED | C-0434, C-0274, C-0388–C-0390 |
 | [P-0376 Anna Cajsa Larsdotter](P-0376-anna-cajsa-larsdotter.md) | mor | CORROBORATED | C-0434, C-0274, C-0388–C-0390 |
@@ -45,10 +48,15 @@ familjenamn `Dahlsten` 1880 och `Dalsten` 1890–1900.
 
 ## Forskningsstatus
 
-Egen födelse, båda föräldrarna, namnövergången, barndomshushållet och
-äktenskapsdatumet är nu lösta. Indal A I/6 sida 185 och A I/7 sida 193 följer
+Den centrala livslinjen är nu sluten från egen födelse till död
+1901-03-05. Indal A I/6 sida 185 och A I/7 sida 193 följer
 henne med föräldrar och sex namngivna syskon i Säter genom 1836–1854; E I/1
 namnger henne som bondedotter i Säter vid lysningen 1858. A I/8 och A I/12
 förlänger hennes egen familj och tillför fem barn utöver Anders Niklas.
-Sättna A I/9a sida 35 saknas fortfarande, och den prövade Indal A I/10a
-sida 128 var inte rätt hushållssida. Full flyttkedja och senare död återstår.
+A II a/1 och SCB:s post 10 korsbekräftar dödsdagen, exakt födelsedatum,
+maken och Högsjö; dödsorsak och dödsort är inte registrerade. Indal F/2 är
+exakt identifierad men saknar publik bildpekare och katalogsidan stannar vid
+orörd människeverifiering enligt C-0671. Sättna A I/9a sida 35 saknas
+fortfarande, och den prövade Indal A I/10a sida 128 var inte rätt
+hushållssida. Den fulla flyttkedjan är sekundär biografisk berikning;
+rotera breddfronten.

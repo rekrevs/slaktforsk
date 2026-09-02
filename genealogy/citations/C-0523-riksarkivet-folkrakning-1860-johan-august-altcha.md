@@ -12,9 +12,16 @@ födelseförsamling `Stora Lundby` och enbart året 1860. När `Sök` aktiverade
 visade tjänsten `Verifiera att du är människa` och ALTCHA-rutan `Jag är inte
 en robot` före resultatlistan. Verifieringen automatiserades inte.
 
-Detta är ett åtkomsthinder, inte ett nollresultat. Frågan kan återaktiveras
-oförändrad efter manuell verifiering; ett funnet hushåll kan pröva både
-föräldrarna och den föreslagna brodern Olaus.
+Detta var ett åtkomsthinder, inte ett nollresultat. En senare kontroll av
+Riksarkivets officiella registreringsbeskrivning visar emellertid att 1860 års
+personregister bara omfattar Jämtlands län. Frågan på Stora Lundby i
+Älvsborgs län ska därför inte återaktiveras: även en passerad ALTCHA skulle
+sakna relevant registertäckning.
+
+S-0539/C-0703 ersätter återstarten med records-API, OAI-EAD och den publika
+IIIF-reproduktionen av SCB:s faktiska Stora Lundby-utdrag 1860. Det ändrar
+inte att den här åtkomstincidenten verkligen inträffade och att verifieringen
+lämnades orörd.
 
 ## Lokalt material
 

@@ -1,0 +1,106 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/HLA/1010002/A I/9b",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#instantiation_01"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/fCKQn8gpcKgQBbFQaaD583"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#isPartOf"
+      },
+      "skos:note": "Personregister\r\nLev 153/1973\r\nTill husförhörslängderna 1874-1883, 1884-1894",
+      "rico:descriptiveNote": "Personregister\r\nLev 153/1973\r\nTill husförhörslängderna 1874-1883, 1884-1894",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#date_01"
+      },
+      "schema:image": {
+        "@id": "https://lbiiif.riksarkivet.se/arkis!A0014093/manifest"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/HLA/1010002/A I/9b"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/fCKQn8gpcKgQBbFQaaD583"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/FxFNzILyxyZIN5lFj5XiL4#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1874",
+      "rico:textualValue": [
+        "1874",
+        "1894"
+      ],
+      "schema:endDate": "1894"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

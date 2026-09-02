@@ -27,8 +27,8 @@ namn Zingmark.
 ## Relationer
 
 Make: [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md). Barn i
-1900-hushållet: P-0030–P-0034 samt P-0001; ytterligare barn P-0035–P-0038
-anges i sekundärträdet.
+1900-hushållet: P-0030–P-0034 samt P-0001; de yngre barnen P-0035–P-0038 är
+nu också primärbelagda i C-0574.
 
 Föräldrar: [P-0065 Anders Jonsson](P-0065-anders-jonsson.md) och
 [P-0066 Lotta Sofia Andersdotter](P-0066-lotta-sofia-andersdotter.md).

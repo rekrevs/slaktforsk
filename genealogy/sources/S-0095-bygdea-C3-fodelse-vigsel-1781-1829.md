@@ -18,13 +18,19 @@ och vigselnotiser. Maria Jacobsdotters födelsenotis anger föräldrarna direkt.
 Vigselnotisen identifierar samma Maria i Ultervattnet och Anders/Andreas
 Olofsson i Häggnäs.
 
+Bild `C0034039_00147` har dessutom Carl Erics födelse- och dopnotis 1806
+med föräldrar och ort. Den läsningen redovisas separat i
+[C-0707](../citations/C-0707-bygdea-lundberg-lugnet-overklinten.md).
+
 ## Åtkomstnotering
 
-Den vanliga inloggade bildvisaren var läsbar. Det direkta IIIF-manifestet
-`https://lbiiif.riksarkivet.se/arkis!C0034039/manifest` svarade däremot HTTP
-403 den 2026-08-20 omkring 22:03 CEST. Bildvisarens fullbildsknapp utlöste
-ingen nedladdning och ett försök att paketera redan visade bildplattor gav
-`Failed to fetch` för samtliga 40 resurser. Detta är en åtkomstbegränsning,
-inte ett negativt källresultat. Lokala läsvyer har därför sparats med
-kontrollsummor; originalbilderna kan fortfarande läsas i den vanliga
-Riksarkivet-visaren.
+Den vanliga inloggade bildvisaren var läsbar 2026-08-20, medan ett direkt
+IIIF-anrop utan rätt anropskontext då gav HTTP 403. Vid omprov 2026-08-31
+fungerade både manifest och fulloriginal utan sessionskaka när
+Riksarkivets bildvisarsida angavs som `Referer`. Det tidigare felet var
+alltså ett bild-API-/referensproblem, inte bristande digitalisering.
+
+Det fullständiga IIIF-manifestet är lokalt bevarat som
+[metadataoriginal](../media/S-0095-riksarkivet-bygdea-C3-IIIF-manifest.json),
+SHA-256
+`712bdf87802479c6c2d7b8335b9880c2f5f2e148dbc7f513bffa6eaaf24864b7`.

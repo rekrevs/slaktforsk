@@ -22,8 +22,10 @@
 
 Innehållsträdets årsankare användes och samtliga numrerade utflyttningsposter
 under 1900, 1901 och 1902 lästes i ordning. Ingen säker post gäller Margreta
-Charlotta Henriksson, Sjölin eller Sjödin, född 1825-05-12 i Stockholm och
-registrerad i Lagfors vid folkräkningen 1900.
+Charlotta Henriksson, Sjölin eller Sjödin, då sökt med den senare avvisade
+datumavskriften 1825-05-12 i Stockholm och registrerad i Lagfors vid
+folkräkningen 1900. Det aktuella datumankaret är 1825-08-12/13; den äldre
+sökprofilen bevaras uttryckligen.
 
 ## Källkritik
 
@@ -31,4 +33,3 @@ Resultatet gäller exakt den förda utflyttningslistan i Ljustorps B I/4 under
 de tre kalenderåren. Det bevisar inte att hon stannade i församlingen: en
 flytt kan ha utelämnats, ha förts under en okänd namnform eller ha skett efter
 1902. Samtliga sex årssidor är bevarade som checksummade fulloriginal.
-

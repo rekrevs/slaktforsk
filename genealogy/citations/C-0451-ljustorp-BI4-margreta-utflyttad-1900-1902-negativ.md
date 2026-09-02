@@ -10,8 +10,11 @@ Ljustorp B I/4:s hela utflyttningsföljd för 1900, sidorna 14–15 och bilderna
 `00201560_00017`–`_00018`, hela 1901, sidorna 16–17 och bilderna
 `00201560_00019`–`_00020`, samt hela 1902, sidorna 18–19 och bilderna
 `00201560_00021`–`_00022`, lästes kronologiskt. Ingen säker post gäller
-Margreta Charlotta Henriksson, Sjölin eller Sjödin, född 1825-05-12 i
-Stockholm.
+Margreta Charlotta Henriksson, Sjölin eller Sjödin, då sökt med den nu
+avvisade avskriften 1825-05-12 i Stockholm. Aktuellt datumankare är
+1825-08-12/13; sökningen omfattade fortfarande namnformerna och hela
+årsintervallet men en exakt augustidatumkontroll återstår om ny
+destinationssignal framkommer.
 
 Listorna innehåller andra personer med namnformen Sjödin, men ingen rad har
 Margreta Charlottas kombination av förnamn, kön och identitetsankare. Ingen
@@ -45,4 +48,3 @@ om en okänd namnform eller en senare händelse.
 ## Stött påstående
 
 A-2198.
-

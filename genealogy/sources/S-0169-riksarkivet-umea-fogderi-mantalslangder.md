@@ -10,6 +10,15 @@
 - Rubrikpost: <https://sok.riksarkivet.se/arkiv/mTja9v8KAKQQV8sV8qkom3>
 - Kontrollerat: 2026-08-21
 
+## Rättelse 2026-08-31
+
+Den äldre tabellen nedan var avgränsad till P-0058:s då kända orter och år
+och var inte en fullständig Sävarinventering. Fondens kompletta OAI-EAD
+identifierar även `SE/HLA/1100016/Vol/150`, 1849–1858, med anmärkningen
+`för Sävars socken.` Den är den relevanta före-1855-routen för P-0423 och
+redovisas med exakt API-/OAI-proveniens i S-0542/C-0706. Volymen är endast
+analog och ännu inte personläst.
+
 Arkivbeskrivningen säger att Umeå fögderi omfattade Bjurholm, Degerfors,
 Sävar och Vännäs under de för P-0058 relevanta delarna av 1800-talet. Den
 varnar samtidigt för att delar av det äldre arkivet sannolikt förstördes vid

@@ -1,0 +1,164 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:RecordSet"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Fonds"
+      },
+      "rico:hasRecordSetType": {
+        "@id": "ric-rst:Fonds"
+      },
+      "schema:identifier": "SE/HLA/1040118",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#instantiation_physical"
+      },
+      "schema:name": "Nysätra tingslags häradsrätts arkiv",
+      "rico:name": "Nysätra tingslags häradsrätts arkiv",
+      "rico:thingIsSourceOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#hasParts"
+      },
+      "schema:hasPart": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/1t3eCL5vrn61t03Gjpu0Y3"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/BsxeCL5vrn61t03Gjpu0Y3"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/g6zq6AYyTSHWTm0qBSz04B"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/hs8zfvYIFwJJVkW09ErJN2"
+        }
+      ],
+      "rico:recordResourceOrInstantiationIsSourceOfProvenanceRelation": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#provenance_01"
+      },
+      "schema:creator": {
+        "@id": "http://data.riksarkivet.se/agent/bQEcMv0Brn61rW3GjpvwY3"
+      },
+      "rico:recordResourceOrInstantiationIsTargetOfRecordResourceHoldingRelation": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#archivalInstitution"
+      },
+      "schema:holdingArchive": {
+        "@id": "http://data.riksarkivet.se/agent/GvpwAjcWqn6ULG2G9x3yT1"
+      },
+      "dct:coverage": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#date_01"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#date_02"
+        }
+      ],
+      "rico:isAssociatedWithDate": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#date_01"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#date_02"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/HLA/1040118"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#hasParts",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3"
+      },
+      "rico:wholePartRelationHasTarget": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/1t3eCL5vrn61t03Gjpu0Y3"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/BsxeCL5vrn61t03Gjpu0Y3"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/g6zq6AYyTSHWTm0qBSz04B"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/hs8zfvYIFwJJVkW09ErJN2"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#provenance_01",
+      "@type": "rico:ProvenanceRelation",
+      "rico:provenanceRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3"
+      },
+      "rico:provenanceRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/agent/bQEcMv0Brn61rW3GjpvwY3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#archivalInstitution",
+      "@type": "rico:RecordResourceHoldingRelation",
+      "rico:recordResourceHoldingRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3"
+      },
+      "rico:recordResourceHoldingRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/agent/GvpwAjcWqn6ULG2G9x3yT1"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1823",
+      "rico:textualValue": [
+        "1823",
+        "1952"
+      ],
+      "schema:endDate": "1952"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/3yCM633czrFaYNNCIgPkl3#date_02",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:SingleDate"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/PrimaryTime"
+      },
+      "schema:endDate": "1947",
+      "rico:textualValue": "1947"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "ric-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

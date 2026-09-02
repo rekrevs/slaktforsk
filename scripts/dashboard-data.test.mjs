@@ -24,8 +24,8 @@ assert.equal(data.stats.sources, markdownCount(join(genealogy, "sources")));
 assert.equal(data.stats.citations, markdownCount(join(genealogy, "citations")));
 assert.equal(new Set(data.people.map((person) => person.id)).size, data.people.length, "person-id ska vara unika");
 assert.ok(data.activeWork?.id, "en aktiv forskningsuppgift ska visas");
-assert.equal(data.progress.find((branch) => branch.id === "P-0004")?.knownAncestors, 66);
-assert.equal(data.progress.find((branch) => branch.id === "P-0210")?.knownAncestors, 56);
+assert.equal(data.progress.find((branch) => branch.id === "P-0004")?.knownAncestors, 77);
+assert.equal(data.progress.find((branch) => branch.id === "P-0210")?.knownAncestors, 61);
 
 const people = new Set(data.people.map((person) => person.id));
 const directedEdges = new Set();

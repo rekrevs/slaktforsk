@@ -1,0 +1,88 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/KrA/0101/A/013:Ö/D III/1",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#instantiation_physical"
+      },
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/mcHNx14SE4z7e45fGpJdZ7"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#isPartOf"
+      },
+      "skos:note": "Bt.",
+      "rico:descriptiveNote": "Bt.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/KrA/0101/A/013:Ö/D III/1"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/mcHNx14SE4z7e45fGpJdZ7"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/8X0CBHT2o4U9NkD7zl49o2#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1865",
+      "rico:textualValue": [
+        "1865",
+        "1880"
+      ],
+      "schema:endDate": "1880"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

@@ -37,6 +37,11 @@ P-0004 Sverker Adam Janson (proband; född 1963-11-27)
 │   └── mor: P-0007 Maj Amalia Ekholm
 │       ├── far: P-0015 Axel Edvard Eriksson
 │       │   ├── far: P-0133 Erik Karlsson
+│       │   │   ├── far: P-0474 Carl Fredrik (Carl Eric/Fredric) Grill
+│       │   │   │   └── mor: P-0500 Ella Ersdotter
+│       │   │   └── mor: P-0475 Johanna Jansdotter/Jonsdotter, 1819-05-30–1883-02-24
+│       │   │       ├── far: P-0476 Jan Ericson i Walla
+│       │   │       └── mor: P-0477 Lena Jonsdotter i Walla
 │       │   └── mor: P-0134 Anna Christina Larsdotter, uppgiven 1852-03-21–1887-10-27
 │       │       ├── far: P-0214 Lars Erik Jansson
 │       │       └── mor: P-0215 Brita Christina Ersdotter
@@ -56,8 +61,14 @@ P-0004 Sverker Adam Janson (proband; född 1963-11-27)
 └── mor: P-0006 Hillevi, född Zingmark
     ├── far: P-0001 Oskar Alfred Zingmark
     │   ├── far: P-0028 Johan Oskar Zingmark
-    │   │   ├── far: P-0058 Johan Pettersson Lundström
-    │   │   └── mor: P-0059 Cajsa Lotta Jonsdotter
+    │   │   ├── far: P-0422 Johan Peter Zingmark
+    │   │   │   ├── far: P-0470 Carl Jonas Zingmark
+    │   │   │   └── mor: P-0471 Anna Sophia Holmström
+    │   │   └── mor: P-0423 Sara Sophia Pehrsdotter
+    │   │       ├── far: P-0472 Petter Reinhold Pehrsson
+    │   │       └── mor: P-0473 Beata Jonsdotter
+    │   │           ├── far: P-0478 Jan Larsson i Ånäset
+    │   │           └── mor: P-0479 Sara Lisa Jonsdotter i Ånäset
     │   └── mor: P-0029 Ida Sofia Andersdotter
     │       ├── far: P-0065 Anders Jonsson
     │       └── mor: P-0066 Lotta Sofia Andersdotter
@@ -107,6 +118,43 @@ Anna Fredrika Jakobsdotter är verifierade i födelse- och församlingsbok.
 Ida Sofia är nu följd från egen födelsenotis 1867-12-15 genom barndomshushållet
 i Buberget och 1870 års folkräkning till de redan kända vuxenkällorna. Därmed
 är Anders Jonsson och Lotta Sofia Andersdotter verifierade som hennes föräldrar.
+På Axel Edvards fars sida är Erik Karlssons andra vigsel med Matilda Charlotta
+Sjöberg nu säkrad i Flens officiella SCB-utdrag 1895. Den ingifta sidogrenen
+har öppnats med Matildas föräldrar P-0444 Gustaf Sjöberg och P-0445 Stina
+Lotta samt hennes utomäktenskaplige son P-0446 Karl August. De förs inte in
+som Sverkers anor; de dokumenteras här eftersom de förklarar Bergatorps-
+hushållet och hindrar att styvfadern felaktigt blir biologisk far.
+Matildas egen död är nu också säkrad i SCB-volymens separata utdrag för
+Flens länslasarett: 1920-01-31, med `Bronchopneumonia` som dödsorsak. Makens
+senare civilståndsrad anger 1920-04-03 och bevaras som källkonflikt, inte som
+hennes dödsdag.
+Eriks födelseidentitet och föräldrar före 1876 är nu säkrade: Bettna C/5,
+A I/13 a och A I/16 b ger exakt 1851-01-30 Bettna och placerar honom som
+son till P-0474 Carl Fredrik Grill och P-0475 Johanna Jansdotter. SCB:s
+Bettna-utdrag 1860 visar dessutom samma familjeprofil med sonen E. född
+1851 och fyller samtidsglappet mellan 1852 och 1866–1867; utdraget anger
+inte dag eller månad. Den
+samtidiga 1875-kontrollen av Årdalas inflyttade, Forssas utflyttade och
+Långvikssidan i Årdala A I/13 saknar däremot fortfarande en motsvarande
+Erik-rad till notisen `från Forssa 75`. Det är en saknad flyttningspost,
+inte längre en osäker vistelse-, födelse- eller föräldraidentitet. Grillparet
+följs nu vid Östra Soldattorp nr 38 genom 1878, i Gatstugan Backstuga 1880
+och i Götstugan 1881–1885; Johanna dog där 1883-02-24. A I/20 a:s
+ortregister+sida 47 och SCB 1890 placerar Carl i Hagbystugan 1886–1890,
+medan gratialistregistrets Götstugan står kvar som intern ortkonflikt.
+Indelningsverket och generalmönsterrullorna 1848/1851 löser dessutom
+Glippsta nr 36 till Livkompaniet vid Södermanlands regemente och visar
+`Carl Fredric Drill`; 1855 års rad visar den överstrukne Grill och
+efterträdaren Lars Petter Landin (C-0750/C-0752). Riksarkivets
+bouppteckningsregister ger nu tre exakta men analoga aktvägar i familjen:
+Anna Christina Larsdotter till Villåttinge F II:26 nr 342, Johanna
+Jansdotter till Oppunda F II:63 nr 171 och `Drill, Karl Fredrik` till
+Oppunda F II:69 nr 557. Själva akterna är inte lästa och inga arvingar har
+infererats (C-0758–C-0760). Hennes föräldrar P-0476 Jan Ericson och P-0477 Lena
+Jonsdotter är säkrade genom C/6 och Walla-hushållet. Jans uppgivna
+1791-05-09 Björkvik motsägs av den kompletta C/4-årgången. Lenas uppgivna
+1785-10-31 Stora Malm har en stark Helena-kandidat samma dag i Walla, men
+föräldrarna på den raden är ännu inte kopplade till henne.
 
 ## Kristina Elisabeth Petronella Hööks antavla
 
@@ -128,7 +176,7 @@ P-0210 Kristina Elisabeth Petronella Höök (proband; gift Janson)
 │   │       ├── far: P-0276 Anders Gustaf Hök, född 1853-08-21 i Hällefors
 │   │       │   ├── far: P-0371 C. J.[?] Jansson Hök, torpare i Hällefors
 │   │       │   └── mor: P-0372 Carolina Magnust:r/Magnusdotter
-│   │       └── mor: P-0277 Anna Greta Hillberg, född 1857-06-09
+│   │       └── mor: P-0277 Anna Greta Hillberg, 1857-06-09–1937-06-14
 │   │           ├── far: P-0350 Per Hillberg, bruksarbetare vid Håsta Udde
 │   │           └── mor: P-0351 Greta Björkqvist
 │   └── mor: P-0240 Anna Elisabeth Carlman, gift Höök
@@ -144,9 +192,14 @@ P-0210 Kristina Elisabeth Petronella Höök (proband; gift Janson)
     ├── far: P-0241 Axel Edvin Henriksson, född 1901-01-31 i Sättna
     │   ├── far: P-0253 Erik Jonas Henriksson, född 1860-01-23 i Lagfors, Ljustorp
     │   │   ├── far: P-0338 Henrik Henriksson, 1829-08-10–1884-03-13, Rundbacken/Lagfors (ortskonflikt)
-    │   │   └── mor: P-0339 Margareta Charlotta Sjödin/Sjölin, född 1825-05-12
+    │   │   │   ├── far: P-0451 Hindric Henriksson/Vinroth, född 1796-11-02
+    │   │   │   └── mor: P-0452 Brita Flinkberg, född 1795-12-06/08
+    │   │   └── mor: P-0339 Margareta Charlotta Sjödin/Sjölin, född 1825-08-12/13
+    │   │       └── far: P-0454 James Schölin, fabriksarbetare i Stockholm 1831
     │   └── mor: P-0247 Gertrud Kristina Jönsson, senare Henriksson, född 1874-02-23 i Sättna
     │       ├── far: P-0250 Abraham Jönsson, 1840-02-22–uppgiven 1922-07-16
+    │       │   ├── far: P-0447 Jöns Abrahamsson, född 1805-08-22
+    │       │   └── mor: P-0448 Brita Jonsdotter, född 1812-07-28
     │       └── mor: P-0251 Stina Kajsa Nordlund, född 1844-02-13/19, död 1915-12-02
     │           ├── far: P-0415 Jonas Nordlund, född 1816-10-09 i Holm
     │           └── mor: P-0416 Gertrud Olofsdotter, född 1812-01-23 i Stöde
@@ -202,15 +255,35 @@ Fredriksson Fredberg** och hans födelseuppgift 1852-05-24. Hemsjö C/6 och
 A I/4 för nu Brita Stina tillbaka till födelsen 1851-05-09 i Västra
 Bodarne och föräldrarna P-0383 Sven Olofsson och P-0384 Catharina
 Andersdotter. De är gränspersoner och följs inte djupare före breddmålet.
-Kungsholms inflyttningslängd 1876 upprepar Olaus fullnamn och datum.
+Östra Fågelviks och Alnös flyttningslängder för honom från Lundby i
+Älvsborgs län via Björknäs till Rökland 1873. Alnö A I/8 sida 167 och
+A I/9a sida 193 anger båda födelsedatumet 1852-09-04; den senare ger
+frejdebetyg till Stockholm 1876-01-15. Kungsholms inflyttningslängd tar emot
+honom 1876-06-14, upprepar fullnamnet men anger i stället 1852-05-24 och
+kallar honom före detta gardist.
+Samma original anger hemvisten 15 Kungsholmsgatan; den äldre preliminära
+läsningen 15 Upplandsgatan är rättad. Kungsholms A I a-serie slutar 1870,
+så adressen kan inte följas i en vanlig husförhörslängd för 1876.
+Stockholms mantalsregister ger inget resultat 1876 för fyra exakta
+Olaus/Olof- och Fredberg/Fredriksson-kombinationer, men återfinner honom
+1877 som stationskarl i Kungsholmen, mantalsskrivningsnummer 1217. Detta är
+ett registerankare; 1876 års noll visar inte att han saknades i Stockholm.
+Stadsarkivets exakta originalväg är att beställa 1877 års mantalsuppgift
+med nummer 1217 till läsesalen och pröva dess fastighets-/hushållsnycklar.
 Rotemansarkivet följer honom 1878–1915 från stationskarl till
 stationskarlsförman; lysningsakten 1888 namnger Brita Stina som hans avlidna
 första hustru och räknar upp barnen Robert Nicolaus, Johannes Ivar, P-0395
 Frida Elisabeth och P-0396 Ruth Fredrika. Samma akt säkrar omgiftet med
-P-0397 Johanna Charlotta Jansson 1888-12-08. Sollentunas dödbok belägger
+P-0397 Johanna Charlotta Jansson 1888-12-08. Folkräkningens länkade
+mantalsutdrag 1910 följer det andra giftet i Gösen nr 4, 15 i Klara rote 3
+och namnger fem barn: P-0489 Augusta Gärda Charlotta, P-0490 Ester Olivia
+Johanna, P-0491 Edit Maria Justina, P-0492 Oskar Fredrik och P-0493 Elvira
+Fredina Gully. De står uttryckligen som dotter/son och `Barn`; efternamn
+står inte utskrivet och konstrueras inte. Sollentunas dödbok belägger
 hans död 1925-08-06 som före detta bangårdsmästare, och en samtida notis
-preciserar Tureberg. Rotemansarkivets avvikande 1852-09-04 ersätter inte
-uppgiften 1852-05-24 i fyra kyrkoboksnära original. Därmed är den tidigare
+preciserar Tureberg. Rotemansarkivets och Alnö-husförhörens 1852-09-04
+ersätter inte uppgiften 1852-05-24 i fyra senare kyrkoboksnära original;
+datumkonflikten är stärkt på båda sidor. Därmed är den tidigare
 Brattås-identiteten 1854-01-12 och föräldrarna P-0364–P-0365 återkallade som
 säker ankoppling; de bevaras som en motsagd kandidatfamilj. Hela 1852 i både
 Stora Lundby C/4 och Lundby C/6 saknar den väntade Olaus-posten, så hans egna
@@ -257,7 +330,11 @@ och visar systern P-0314 Ida Carolina. Folkräkningarna 1880–1910 samt Östra
 Husby A I/24–A I/25 följer Anders Magnus som hemmansägare i Gäddestad och
 visar syskonen P-0358 Karl Gottfrid och P-0359 Ester Elisabet. C/8 säkrar att
 Carolina/Charlotta dog 1891-04-11 och begravdes 16 april; dödsorsaksfältet är
-tomt. Elins flytthänvisning leder till Ljungby i Kalmar län 1897 och binder
+tomt. A II a/1–A II a/3 fortsätter Anders Magnus som hemmansägare och
+änkling i Gäddestad 1900–1920. A II a/3 och SCB:s dödboksutdrag post 26
+korsbekräftar död 1920-09-10; SCB anger `Kräfta`, medan dödsortsfältet är
+tomt och `Lasarettsläkaren i Norrköping` inte görs till dödsort. Elins
+flytthänvisning leder till Ljungby i Kalmar län 1897 och binder
 föräldrahemmet till hennes senare Carlman-hushåll. Carolinas egen
 födelsenotis ger P-0362 Lars Svensson och P-0363 Maja Lena Jonsdotter. Anders
 Magnus födelseböcker rättar 1844-10-28 till
@@ -281,7 +358,14 @@ födelsemånad till december. E I/1 och två hushållslängders äktenskapskolum
 säkrar Lars Petters och Cajsa Märtas registrerade äktenskapsdatum
 1858-02-21. A I/8 tillför dottern P-0406 Lisa Cajsa och A I/12 barnen P-0407
 Nils Petter, P-0408 Lars Olof, P-0409 Katarina Petronella och P-0410 Erik
-Emanuel. Den första negativa läsningen av Indal C/4 år 1836 var fel och är
+Emanuel. Indal A II a/1 sida 130 fortsätter paret i Högsjö och anger Cajsa
+Märta död 1901-03-05 samt Lars Petter död 1904-09-25. SCB:s Indalsposter 10
+år 1901 och 36 år 1904 korsbekräftar båda dödsdatumen, deras exakta
+födelsedatum och hushållsidentitet; Lars står som före detta torpare och
+änkling. Dödsorsaks- och dödsortsfälten är tomma. Indal F/2 1895–1920 är
+API-identifierad men saknar publik bildpekare och katalogsidan stannar vid
+orörd människeverifiering; det är ett åtkomsthinder, inte dödboksnoll. Den
+första negativa läsningen av Indal C/4 år 1836 var fel och är
 bevarad som en uttryckligen tillbakadragen slutsats i C-0435; den positiva
 posten finns på bild 137 i C-0509. A I/7:s Högsjöavsnitt 1847–1854 saknar
 den målidentifierade familjen, och A I/12:s `G.B. 131` leder inte till dem i
@@ -292,12 +376,34 @@ datumankare till 1860-01-23, och hans egen notis i C/3 fastställer P-0338
 Henrik Henriksson och P-0339 Margareta Charlotta Sjödin som föräldrar. A I/9,
 folkräkningarna 1880/1890 och Henriks dödnotis för nu paret vidare: Henrik
 föddes 1829-08-10 i Lagfors och dog där 1884-03-13 av lungsot; Margreta
-Charlotta föddes 1825-05-12 i Stockholm och stod som änka i Lagfors 1890.
+Charlotta anges född 1825-08-12/13 i Stockholm och stod som änka i Lagfors
+1890. Den tidigare avskriften 1825-05-12 är avvisad. Parets vigsel
+1854-07-16 är nu primärbelagd i Ljustorp E I/1 sida 17; den äldre
+sida-18-kontrollen var en fellokalisering. Jonas Henriksson och Cecilia
+Henriksdotter, dopvittnen 1856, är identifierade och följda mot Rundbacken.
+Helge Nybergs familj 99 namnger Hindric Henriksson/Vinroth och Brita
+Flinkberg tillsammans med barnet Henrik 1829 samt Jonas 1835 och Cecilia
+1836. De två senare är redan identifierade i kyrkobokskedjan och som
+dopvittnen 1856. Föräldraparet förs därför in som korroborerade anor.
+Nybergs hänvisning vidare till familj 98 öppnade P-0461 Henrik Henriksson
+d.ä. och P-0462 Anna Greta som registerkandidater. C-0678 visar nu att
+familjens barnår 1796, 1801 och 1804, vigseldatumet 1819-10-31, dödsåret
+1833 och de bevarade Laxsjönshushållen inte bär konstruktionen; 1797 ligger
+i ett defekt födelseintervall. P-0461–P-0462 bevaras som konfliktspår men är
+inte längre anor i trädet. P-0451:s födelseort och äldre föräldrar är öppna.
 Riksarkivets 1900-register och den förstorade originalbilden återfinner henne
 som änka och inhyseshjon på samma ort under **Henriksson**. Den tidigare
 uppfattningen att originalbilden inte motsvarade registerhushållet var en
 felläsning och är uttryckligen tillbakadragen i C-0515. Hennes namnform
 **Sjödin** i sonens födelsenotis bevaras
+jämsides med Schölin/Sjölin. Ljustorp A I/4 sida 86 och Allmänna barnhusets
+rulla 2532 identifierar henne som barnhusflicka, född 1825-08-13, och
+namnger fabriksarbetaren P-0454 James Schölin som far. Fosterbonden P-0455
+Nils Larsson i Löfberg bevaras som relation men får ingen biologisk
+föräldrakant. Rullans mor saknas; de hänvisade E 5-handlingarna är
+läsesalsbundna. A I/10 sida 264 antecknar död 1901-04-19, i konflikt med
+F/2:s fulla personnoll 1901–1902; begravning, orsak och eventuell
+bouppteckning är fortsatt öppna.
 bredvid de senare källornas **Sjölin** och **Henriksson**. Ljustorps dödbok
 1901–1902 och församlingsbokens Lagforsavsnitt från 1902 saknar en säker
 fortsättning. Även hela utflyttningsföljden 1900–1902 saknar henne under de
@@ -314,8 +420,13 @@ Abraham–Stina Kajsa-familjen från inflyttningen från Stöde 1873 till
 Gårdtjern. Där finns även Gertruds bror P-0340 Jöns Petter, född 1872-04-28 i
 Stöde, och systern Kajsa Olivia. Stöde A I/12 sida 203 och B/1 post 24 binder
 familjen till Hullsjö och utflyttningen 1873. Abrahams egen födelsenotis finns
-i C/2: född 1840-02-22 i Hullsjö och döpt den 26 februari. Den första
-arbetsläsningen 22/10 är rättad mot tre fulloriginal. Sättna A II a/2 sida
+i C/2: född 1840-02-22 i Hullsjö och döpt den 26 februari. Stöde A I/8 sida
+88 förenar honom med föräldrarna P-0447 Jöns Abrahamsson, född 1805-08-22,
+och P-0448 Brita Jonsdotter, född 1812-07-28. Samma hushåll tillför
+systrarna P-0449 Brita och P-0450 Magdalena; ett överstruket äldre barnnamn
+har inte normaliserats. A I/9:s hela Hullsjöavsnitt sidorna 92–93 saknar
+familjen utan att visa destination. Den första arbetsläsningen 22/10 är
+rättad mot fulloriginalen. Sättna A II a/2 sida
 388 och A II a/4 sida 384 fortsätter paret som före detta hemmansägarhushåll i
 Storbränna/Gårdtjern. Stina Kajsas egen dödpost säkrar döden 1915-12-02,
 begravningen 12 december och dödsorsaken ålderdomssvaghet. Hennes exakta
@@ -394,15 +505,22 @@ fortsatt öppna.
   Gertruds syskon P-0252 och P-0340, Emmas systrar P-0256–P-0257 och de fem
   integritetsminimerade familjeuppgifterna P-0258–P-0262. De två
   gårdshushållens äldre generationer ligger i P-0250–P-0255. Ingrids
-  Högsjöhushåll har P-0271–P-0274, P-0345–P-0349 och den nyregistrerade
-  P-0385 Gustaf Julius Elof. Folkräkningen 1880 och A I/10a visar nio barn i
-  familj 1; A I/11–A I/12 och 1900 års originalbild följer den senare
-  familjekärnan och namnövergången Persson/Höglund till 1900. Ingrids
+  Högsjöhushåll har P-0271–P-0274, P-0345–P-0349, P-0385 Gustaf Julius Elof
+  och den källutlösta P-0465 Anna Kristina Nyberg. Folkräkningen 1880 och
+  A I/10a visar nio barn i familj 1; A I/11–A II a/1 och 1900 års
+  originalbild följer den senare familjekärnan och namnövergången
+  Persson/Höglund till parets dödsår. Nils Petter dog 1906-01-19 av kräfta
+  och Anna Stina 1904-11-15; dödsortsfälten är tomma. Ingrids
   relation är säkrad och Anna Erika Lydia är säkert Anna Stinas dotter, men
   hennes biologiska far är okänd. SCB-utdraget 1888 namnger däremot båda
-  föräldrarna till Gustaf och gör hans relation säker. Johan Petters uppgivna
-  datum 1864-08-18 saknar motsvarande post i Indal C/5. Jonas Alfred Konrads
-  12/22 november och Anna Stinas 4/7 december är kvarstående konflikter.
+  föräldrarna till Gustaf och gör hans relation säker. Erik Nikolaus och
+  Jonas Alfred har nu egna parentbärande födelseposter; Jonas faktiska datum
+  är 1880-11-12, medan två senare 22-novembernoteringar bevaras som
+  källkonflikt. Erik gifte sig 1906-07-14 med Anna Kristina Nyberg och Gustaf
+  fördes till Nordamerika 1906-08-24. Den underliggande B/2-bilden kräver
+  Riksarkivet-inloggning. Johan Petters uppgivna datum 1864-08-18 saknar
+  motsvarande post i Indal C/5. Anna Stinas 4/7 december är fortsatt
+  källkonflikt men 4 december stärks av A II a/1 och dödsutdraget.
 
 - Erik Jonas Henrikssons föräldrahushåll i Lagfors omfattar också brodern
   P-0366 Nils Andreas Henriksson, född 1867-02-27. Han står med föräldrarna i
@@ -416,21 +534,59 @@ fortsatt öppna.
   sidobiografier i den första utgåvan.
 
 - Oskar Alfreds föräldrar har akterna P-0028–P-0029. Samtliga nio namngivna
-  syskon i 1900-hushållet eller Geni-utdraget har akterna P-0030–P-0038.
+  syskon i 1900-hushållet eller det tidigare Geni-utdraget har akterna
+  P-0030–P-0038; A II a/3 s. 963 har nu primärbelagt hela barnföljden och
+  exakta födelsedagar 1888–1909 (C-0574).
   Barnen Alfred Torgny, Jan Oskar och Frithiof Urban har P-0039–P-0041;
   dottern Hillevi återanvänder P-0006 och har inte dubblerats.
-- Johan Oskar har följts bakåt genom namnformerna Johan Oskar Zingmark,
-  Johan August Johansson och Johan August. Hans föräldrar har P-0058–P-0059,
-  den nyfunna äldre systern P-0238 Johanna Charlotta, syskonen P-0060–P-0064
-  och två delvis lästa dopvittnen P-0080–P-0081. P-0238 föddes 1854 i
-  Kryckeltjärn och följde föräldrarna till deras flyttnotering mot Sävar;
-  hennes fortsatta öde är öppet efter ett avgränsat dödboksnoll 1856.
-  För P-0058:s ursprung är kandidatparet P-0146 Pehr Ersson och P-0147
-  Brita Lena/Malena Isaksdotter nu positivt återfunnet i Bergvall A I/2 sida
-  169. Dottern P-0402 Brita Greta är säkrad genom egen födelsenotis
-  1821-04-21. Ingen föräldrarelation eller syskonrelation till P-0058 läggs
-  in: kandidatsonen föddes 9 mars 1824, medan den senare Johan konsekvent
-  uppges född 19 mars och en positiv framåtlänk fortfarande saknas.
+- Johan Oskar är nu originalkedjad som Johan Oscar Zingmark, född
+  1861-05-28 i Botsmark, och inte som Johan August Johansson. Föräldrarna är
+  P-0422 Johan Peter Zingmark och P-0423 Sara Sophia Pehrsdotter; C-0546–C-0568
+  följer familjen genom födelsen, utflyttningen, vigseln och hushållen till
+  Johan Peters flytt till Degerfors 1898. A I/7b s. 672 och fyra
+  födelseoriginal öppnar helsyskonen P-0435 Carl Reinhold, P-0436
+  Christina Wilhelmina, P-0437 Maria Elina, P-0438 Sara Rebecka, P-0439
+  Axel och P-0440 Sophia Beata. Tillsammans med P-0426–P-0428 omfattar den
+  belagda första barnkullen minst tio barn; A I/7b:s sju synliga rader var
+  ofullständiga. Degerfors B/3, F/3, folkräkningen 1900 och A II a/3 följer
+  halvsyskonen Nikanor och Olof Konrad till Rosinedahl. Nikanor gifte sig
+  med P-0441 Hilda Charlotta Andersson och sönerna P-0442–P-0443 har egna
+  akter (C-0571–C-0574). Johan Peters egen kedja slutar nu i Ekträsk:
+  A II a/2 s. 601 och F/3 post 87 identifierar honom som före detta
+  sågverksarbetare, död 1903-07-24 och begravd 2 augusti (C-0584–C-0585).
+  Den återaktiverade folkräkningen 1900 visar honom där som änkling och
+  `svärfar` i dottern Maria Elinas hushåll. Sidorna 77–78 öppnar maken
+  P-0480 Erik August Lindberg och de åtta namngivna barnen P-0481–P-0488;
+  barnens efternamn konstrueras inte när originalet utelämnar dem (C-0751).
+  Sävar C/1 s. 91 och A I/1 s. 157 säkrar nu hans egen födelse
+  1825-02-01 och föräldrarna P-0470 Carl Jonas Zingmark, född 1785, och
+  P-0471 Anna Sophia Holmström, född 1792 (C-0681). De är nya djup-5-
+  spetsar; exakt egen födelseort och födelsedag återstår för båda.
+  Degerfors A I/5a s. 335 och A I/6b s. 399 löser nu Sara Sophias äldre
+  identitet: hon står med födelsen 1829-05-21 som dotter till P-0472 Petter
+  Reinhold Pehrsson och P-0473 Beata Jonsdotter i Ånäset. Den senare sidan
+  anger Sävar 1850-11-24, samma giftårsdag som två Sävarlängder, och
+  föräldraparets vigsel 1826 finns i C/2 (C-0727). C/2:s bevarade skannade
+  födelseföljd slutar dock i augusti 1828 före döddelen, så Saras egen
+  födelsenotis för 1829 kan inte läsas. Lycksele C/3:s datumfönsternoll och
+  den avvikande Ruselekandidaten visar att Sävarlängdens senare ort
+  `Lycksele` är en konflikt, inte ett alternativt föräldrahem (C-0682,
+  C-0695). Både Sävars och Lyckseles kompletta vigselår 1850 saknar paret;
+  dagen är korroborerad som hushållsuppgift men registerpost och
+  vigselförsamling återstår (C-0684–C-0685, C-0727).
+  Degerfors A I/2 s. 179 placerar nu Beata, född 1809, uttryckligen under
+  `döttr. o. barn` till P-0478 Jan Larsson och P-0479 Sara Lisa Jonsdotter,
+  båda uppgivna födda 1777. A I/3 s. 221 och A I/4 s. 262 följer samma
+  Beata med Petter Reinhold och barnen i Ånäset; föräldralänken är därför
+  korroborerad (C-0733). Petter står separat som dräng i A I/2 med
+  Lyckseleanteckning och får inga konstruerade föräldrar. Degerfors C/1:s
+  hela 1798-år och C/2:s hela 1809-år saknar deras egna födelseposter.
+  Lycksele A I/6–A I/7 och C/2 är exakt katalogidentifierade men utan
+  användbar bildadress; Beatas dödsår 1852 ligger i ett dokumenterat gap
+  mellan C/3:s döddel och F/2 (C-0734).
+  P-0058–P-0059 och deras tidigare
+  familjekrets finns kvar som källbevarad, avlänkad sidogren bakom P-0424;
+  deras forskning får inte längre presenteras som Adams antavla.
   Idas verifierade föräldrar och syskon i de följda Buberget-hushållen har
   P-0065–P-0073 och P-0086–P-0087. Kontextpersonerna i 1870 års hushållsvy har
   P-0082–P-0085; dopvittnena i Idas födelsenotis har P-0088–P-0093 och hålls
@@ -480,6 +636,16 @@ fortsatt öppna.
   Paret saknas även i hela Bygdeås vigselår 1861 och 1862 trots senare
   årsanteckningar om båda åren; inga relationer har därför uppgraderats från
   denna konflikt.
+  För P-0051 har Piteå tingslags A II/34:s register och bouppteckning nummer
+  8 prövats mot Piteå land A I/6a sida 526. Olof Pehrsson i Hortlax var
+  född 1760 och avvisas därför som Olaus Pehrsson från Överklinten, född
+  1784-02-07. En bredare inloggad bouppteckningsscreen avvisar dessutom
+  Olof-männen i Selsborg, Svensbyn och Hemlunda genom originalens
+  födelsetider/ålder. Porsnäsmannen död 1858 med änkan Anna Lovisa
+  Brännberg och två små barn förblir olöst efter en exakt dödboks- och
+  husförhörskontroll; ingen föräldra- eller annan släktrelation skapas från
+  namnlikheten. Bygdeå H I/1, H III/1 och L III/1 öppnas nu inloggat utan
+  CAPTCHA men visar fortsatt endast `Läsesal`, utan digital bild/order.
 - Hans Nilssons födelsenotis öppnar P-0165 Nils Nathanaelsson och P-0166 Lisa
   Caisa Abrahamsdotter på djup 6. Anna Stinas vigsel binder henne till
   Degerfors, men hennes sekundärt uppgivna födelseår 1794 ligger i en fysisk

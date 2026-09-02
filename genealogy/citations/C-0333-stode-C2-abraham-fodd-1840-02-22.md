@@ -8,16 +8,19 @@
 
 Stöde C/2, bild `C0033561_00164`, högersidan under februari 1840, upptar
 **Abraham i Hullsjön**, född den **22 februari** och döpt den **26 februari**.
-Föräldrakolumnen anger fadern **Jöns** och modern **Brita Jonsdotter**, 28 år.
-Faderns efternamn är inte säkert läst och förs därför inte in som faktum.
+Föräldrakolumnen lyder i sak `Jöns Abram[sson], H:u Brita Jonsd:r, 28 år`.
+Den följande vittneskolumnens första namn är **Jöns Pehrsson**; det är alltså
+inte faderns patronymikon. Stöde A I/8 sida 88 skriver fadern tydligt `Jöns
+Abramsson`, vilket gör normaliseringen **Jöns Abrahamsson** säker.
 
 ## Tolkning och rättelse
 
-Egen födelsenotis, samma ort och den sammanhängande hushålls- och
-flyttningskedjan C-0334–C-0335 gör identifikationen säker. Sättna A I/10a:s
-dag/månad är `22/2`, inte `22/10`. Den tidigare oktoberkontrollen byggde på
-den felläsningen och är avvisad inom samma batch; kontrollbilden bevaras bara
-som revisionsspår och ska inte citeras som ett personligt nollresultat.
+Egen födelsenotis, föräldrahushållet i C-0590, samma ort och den
+sammanhängande hushålls- och flyttningskedjan C-0334–C-0335 gör
+identifikationen säker. Sättna A I/10a:s dag/månad är `22/2`, inte `22/10`.
+Den tidigare oktoberkontrollen byggde på den felläsningen och är avvisad inom
+samma batch; kontrollbilden bevaras bara som revisionsspår och ska inte
+citeras som ett personligt nollresultat.
 
 ## Lokala originalbilder
 
@@ -30,4 +33,4 @@ som revisionsspår och ska inte citeras som ett personligt nollresultat.
 
 ## Stödda påståenden
 
-A-1951–A-1952.
+A-1951–A-1952, A-2525–A-2526.

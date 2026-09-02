@@ -10,7 +10,10 @@ A II a/1b:s ortregister, bild `00201547_00005`, hänvisar Lagfors till sida
 353. Hela Lagforsavsnittet sidorna 353–364, bilderna
 `00201547_00009`–`_00020`, lästes sammanhängande fram till nästa
 registerförda ort på sida 365. Ingen säker rad gäller Margreta Charlotta
-Henriksson/Sjölin/Sjödin, född 1825-05-12 i Stockholm.
+Henriksson/Sjölin/Sjödin, då sökt med den nu avvisade avskriften
+1825-05-12 i Stockholm. Det aktuella datumankaret är 1825-08-12/13;
+namn-, år-, ort- och sidavgränsningen bevaras men datumet får inte användas
+som positiv identifikator.
 
 Kontrollen bevisar inte en flyttning. Ljustorps utflyttningslängd 1900–1902
 har senare prövats negativt i C-0451; sökningen måste därför utvidgas först

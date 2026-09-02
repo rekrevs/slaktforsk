@@ -24,9 +24,11 @@
 ## Källkritik
 
 Bild `C0033561_00164` innehåller Abrahams egen post i rätt kronologiska läge:
-född 22 februari och döpt 26 februari 1840 i Hullsjön. Modern skrivs Brita
-Jonsdotter och anges vara 28 år. Fadern heter Jöns; hans efternamn lämnas
-otolkat eftersom handstilen inte är tillräckligt säker.
+född 22 februari och döpt 26 februari 1840 i Hullsjön. Föräldrakolumnen kan
+efter jämförelse med Stöde A I/8 sida 88 läsas som Jöns Abram[sson] och
+hustrun Brita Jonsdotter, 28 år. Namnet Jöns Pehrsson står i den följande
+vittneskolumnen och får inte förväxlas med fadern. Husförhörslängdens tydliga
+`Jöns Abramsson` normaliseras i personakten till Abrahamsson.
 
 Den första arbetsläsningen av Sättna A I/10a tog datumet som 22/10 och ledde
 till en negativ kontroll av bild `C0033561_00167`. Kontrollbilden bevaras som

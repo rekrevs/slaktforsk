@@ -1,0 +1,1012 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Riksarkivet Sök-API",
+    "description": "REST-API för fritextsökning med facetterad filtrering.",
+    "contact": {
+      "name": "Riksarkivet API",
+      "url": "https://github.com/Riksarkivet/dataplattform/wiki/S%C3%B6k-API",
+      "email": "api@riksarkivet.se"
+    },
+    "license": {
+      "name": "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/version": {
+      "get": {
+        "tags": [
+          "admin"
+        ],
+        "summary": "Get current API version",
+        "operationId": "getVersion",
+        "responses": {
+          "200": {
+            "description": "API version",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiVersion"
+                },
+                "example": {
+                  "apiName": "Riksarkivet Sök-API",
+                  "apiVersion": "1.0.0.1",
+                  "apiReleased": "2024-01-01",
+                  "apiDocumentation": "https://github.com/Riksarkivet/dataplattform/wiki/S%C3%B6k-API",
+                  "apiStatus": "active"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/records/birthrecords": {
+      "get": {
+        "tags": [
+          "public"
+        ],
+        "summary": "List birth records",
+        "description": "List birth records matching a set of conditions",
+        "operationId": "listBirthRecords",
+        "parameters": [
+          {
+            "name": "first_name",
+            "in": "query",
+            "description": "First name to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "place",
+            "in": "query",
+            "description": "Place to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "fathers_name",
+            "in": "query",
+            "description": "Father's name to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "mothers_name",
+            "in": "query",
+            "description": "Mother's name to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "baptismal_witness",
+            "in": "query",
+            "description": "Baptismal witness to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "gender",
+            "in": "query",
+            "description": "Gender to query",
+            "schema": {
+              "enum": [
+                "Kvinna",
+                "Man",
+                "Okänt"
+              ],
+              "type": "string"
+            }
+          },
+          {
+            "name": "year_min",
+            "in": "query",
+            "description": "Date to query (year)",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "year_max",
+            "in": "query",
+            "description": "Date to query (year, should be equal to or greater than year_from if both are present)",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Sort order",
+            "schema": {
+              "enum": [
+                "first_name",
+                "date"
+              ],
+              "type": "string",
+              "default": "first_name"
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Pagination offset",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Max number of records per page",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Incorrect parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ErrorResult"
+                  }
+                },
+                "example": {
+                  "code": "InvalidParameter",
+                  "message": "string"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Wrapped list of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Result"
+                  }
+                },
+                "example": {
+                  "totalHits": 5,
+                  "hits": 1,
+                  "offset": 0,
+                  "items": [
+                    {
+                      "type": "IndexOfTitleDeedsRecord",
+                      "metadata": {
+                        "parish": "string",
+                        "propertyName": "string",
+                        "taxUnit": "string",
+                        "year": "string",
+                        "districtCourtSessions": "string"
+                      },
+                      "id": "B1HtLX4z1g1HmweyFEyN8C",
+                      "objectType": "Register",
+                      "caption": "string",
+                      "_links": {
+                        "self": "https://data.riksarkivet.se/register/J65dPc5oT5yPd9gOd1"
+                      }
+                    }
+                  ],
+                  "_links": {
+                    "self": "https://data.riksarkivet.se/api/records?text=havdhem&offset=1&limit=2",
+                    "next": "https://data.riksarkivet.se/api/records?text=havdhem&offset=3&limit=2",
+                    "previous": "https://data.riksarkivet.se/api/records?text=havdhem&offset=0&limit=2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/records/indexoftitledeeds": {
+      "get": {
+        "tags": [
+          "public"
+        ],
+        "summary": "List index of title deeds records",
+        "description": "List index of title deeds records matching a set of conditions",
+        "operationId": "listIndexOfTitleDeedsRecord",
+        "parameters": [
+          {
+            "name": "parish",
+            "in": "query",
+            "description": "Parish to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "property_name",
+            "in": "query",
+            "description": "Property name to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tax_unit",
+            "in": "query",
+            "description": "Tax unit to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "district_court_sessions",
+            "in": "query",
+            "description": "District court sessions to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "administrative_unit",
+            "in": "query",
+            "description": "Administrative unit to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "property_designation_2025",
+            "in": "query",
+            "description": "Property designation 2025 to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "year_min",
+            "in": "query",
+            "description": "Date to query (year)",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "year_max",
+            "in": "query",
+            "description": "Date to query (year, should be equal to or greater than year_from if both are present)",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Sort order",
+            "schema": {
+              "enum": [
+                "parish",
+                "year"
+              ],
+              "type": "string",
+              "default": "parish"
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Pagination offset",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Max number of records per page",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Incorrect parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ErrorResult"
+                  }
+                },
+                "example": {
+                  "code": "InvalidParameter",
+                  "message": "string"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Wrapped list of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Result"
+                  }
+                },
+                "example": {
+                  "totalHits": 5,
+                  "hits": 1,
+                  "offset": 0,
+                  "items": [
+                    {
+                      "type": "IndexOfTitleDeedsRecord",
+                      "metadata": {
+                        "parish": "string",
+                        "propertyName": "string",
+                        "taxUnit": "string",
+                        "year": "string",
+                        "districtCourtSessions": "string"
+                      },
+                      "id": "B1HtLX4z1g1HmweyFEyN8C",
+                      "objectType": "Register",
+                      "caption": "string",
+                      "_links": {
+                        "self": "https://data.riksarkivet.se/register/J65dPc5oT5yPd9gOd1"
+                      }
+                    }
+                  ],
+                  "_links": {
+                    "self": "https://data.riksarkivet.se/api/records?text=havdhem&offset=1&limit=2",
+                    "next": "https://data.riksarkivet.se/api/records?text=havdhem&offset=3&limit=2",
+                    "previous": "https://data.riksarkivet.se/api/records?text=havdhem&offset=0&limit=2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/records/marriagerecords": {
+      "get": {
+        "tags": [
+          "public"
+        ],
+        "summary": "List marriage records",
+        "description": "List marriage records matching a set of conditions",
+        "operationId": "listMarriageRecords",
+        "parameters": [
+          {
+            "name": "grooms_name",
+            "in": "query",
+            "description": "Groom's name to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "brides_name",
+            "in": "query",
+            "description": "Bride's name to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "grooms_home_place",
+            "in": "query",
+            "description": "Groom's home place to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "brides_home_place",
+            "in": "query",
+            "description": "Bride's home place to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "parish",
+            "in": "query",
+            "description": "Parish to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "county",
+            "in": "query",
+            "description": "County to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "year_min",
+            "in": "query",
+            "description": "Date to query (year)",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "year_max",
+            "in": "query",
+            "description": "Date to query (year, should be equal to or greater than year_from if both are present)",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Sort order",
+            "schema": {
+              "enum": [
+                "grooms_name",
+                "brides_name",
+                "date"
+              ],
+              "type": "string",
+              "default": "grooms_name"
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Pagination offset",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Max number of records per page",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Incorrect parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ErrorResult"
+                  }
+                },
+                "example": {
+                  "code": "InvalidParameter",
+                  "message": "string"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Wrapped list of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Result"
+                  }
+                },
+                "example": {
+                  "totalHits": 5,
+                  "hits": 1,
+                  "offset": 0,
+                  "items": [
+                    {
+                      "type": "IndexOfTitleDeedsRecord",
+                      "metadata": {
+                        "parish": "string",
+                        "propertyName": "string",
+                        "taxUnit": "string",
+                        "year": "string",
+                        "districtCourtSessions": "string"
+                      },
+                      "id": "B1HtLX4z1g1HmweyFEyN8C",
+                      "objectType": "Register",
+                      "caption": "string",
+                      "_links": {
+                        "self": "https://data.riksarkivet.se/register/J65dPc5oT5yPd9gOd1"
+                      }
+                    }
+                  ],
+                  "_links": {
+                    "self": "https://data.riksarkivet.se/api/records?text=havdhem&offset=1&limit=2",
+                    "next": "https://data.riksarkivet.se/api/records?text=havdhem&offset=3&limit=2",
+                    "previous": "https://data.riksarkivet.se/api/records?text=havdhem&offset=0&limit=2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/status": {
+      "get": {
+        "tags": [
+          "admin"
+        ],
+        "summary": "Get operational status",
+        "operationId": "getStatus",
+        "responses": {
+          "200": {
+            "description": "Operational status",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OperationalStatus"
+                },
+                "example": {
+                  "operationalStatus": "ok"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/records": {
+      "get": {
+        "tags": [
+          "public"
+        ],
+        "summary": "List records",
+        "description": "List records matching a set of conditions",
+        "operationId": "listRecord",
+        "parameters": [
+          {
+            "name": "text",
+            "in": "query",
+            "description": "Text query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "description": "Name to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "place",
+            "in": "query",
+            "description": "Place to query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "transcribed_text",
+            "in": "query",
+            "description": "Transcribed text to query must be combined with only_digitised_materials=true.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "year_min",
+            "in": "query",
+            "description": "Date from query (year)",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "year_max",
+            "in": "query",
+            "description": "Date to query (year, should be equal to or greater than year_from if both are present)",
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "only_digitised_materials",
+            "in": "query",
+            "description": "Only digitised materials to query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          {
+            "name": "facet",
+            "in": "query",
+            "description": "Facet queries, format {facet name}:{value}[;{facet name}:{value}]...",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Sort order",
+            "schema": {
+              "enum": [
+                "relevance",
+                "alphaAsc",
+                "alphaDesc",
+                "timeAsc",
+                "timeDesc"
+              ],
+              "type": "string",
+              "default": "relevance"
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Pagination offset",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Max number of records per page",
+            "schema": {
+              "type": "integer",
+              "default": 100
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Incorrect parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ErrorResult"
+                  }
+                },
+                "example": {
+                  "code": "InvalidParameter",
+                  "message": "string"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Wrapped list of records",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Result"
+                  }
+                },
+                "example": {
+                  "totalHits": 5,
+                  "hits": 3,
+                  "offset": 0,
+                  "items": [
+                    {
+                      "type": "Fonds",
+                      "metadata": {
+                        "referenceCode": "string",
+                        "hierarchy": [
+                          {
+                            "caption": "string",
+                            "uri": "http://data.riksarkivet.se/archive/B1HtLX4z1g1HmweyFEyN8C"
+                          }
+                        ],
+                        "partOf": [
+                          {
+                            "caption": "string",
+                            "uri": "http://data.riksarkivet.se/tora/12345",
+                            "date": "string"
+                          }
+                        ],
+                        "provenance": [
+                          {
+                            "caption": "string",
+                            "uri": "http://data.riksarkivet.se/agent/B1HtLX4z1g1HmweyFEyN8C",
+                            "date": "string"
+                          }
+                        ],
+                        "archivalInstitution": [
+                          {
+                            "caption": "string",
+                            "uri": "http://data.riksarkivet.se/agent/B1HtLX4z1g1HmweyFEyN8C",
+                            "date": "string"
+                          }
+                        ],
+                        "date": "1586 – 1999",
+                        "note": "string",
+                        "onlyDigitisedMaterials": true
+                      },
+                      "id": "B1HtLX4z1g1HmweyFEyN8C",
+                      "objectType": "RecordSet",
+                      "caption": "string",
+                      "_links": {
+                        "self": "http://data.riksarkivet.se/archive/B1HtLX4z1g1HmweyFEyN8C",
+                        "html": "https://sok.riksarkivet.se/arkiv/B1HtLX4z1g1HmweyFEyN8C",
+                        "rdf/xml": "http://data.riksarkivet.se/archive/B1HtLX4z1g1HmweyFEyN8C.rdfxml",
+                        "json-ld": "http://data.riksarkivet.se/archive/B1HtLX4z1g1HmweyFEyN8C.jsonld",
+                        "ead/ra": "https://oai-pmh.riksarkivet.se/OAI/?verb=GetRecord&identifier=SE/ABC/12345&metadataPrefix=oai_ra_ead",
+                        "ead/ape": "https://oai-pmh.riksarkivet.se/OAI/?verb=GetRecord&identifier=SE/ABC/12345&metadataPrefix=oai_ra_ead",
+                        "image": [
+                          "https://lbiiif.riksarkivet.se/000000/manifest",
+                          "https://lbiiif.riksarkivet.se/A00000/manifest"
+                        ]
+                      }
+                    }
+                  ],
+                  "_links": {
+                    "self": "https://data.riksarkivet.se/api/records?text=getkant&offset=1&limit=2",
+                    "next": "https://data.riksarkivet.se/api/records?text=getkant&offset=3&limit=2",
+                    "previous": "https://data.riksarkivet.se/api/records?text=getkant&offset=0&limit=2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ApiVersion": {
+        "type": "object",
+        "properties": {
+          "apiName": {
+            "type": "string"
+          },
+          "apiVersion": {
+            "type": "string"
+          },
+          "apiReleased": {
+            "type": "string"
+          },
+          "apiDocumentation": {
+            "type": "string"
+          },
+          "apiStatus": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ErrorResult": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "enum": [
+              "InvalidParameter"
+            ],
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Facet": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "enum": [
+              "ObjectType",
+              "Type",
+              "Provenance",
+              "ArchivalInstitution",
+              "Register",
+              "Place",
+              "PartOfArchive"
+            ],
+            "type": "string"
+          },
+          "values": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FacetValue"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "FacetValue": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string"
+          },
+          "hits": {
+            "type": "integer"
+          },
+          "url": {
+            "type": "string",
+            "description": "URL to run refined search",
+            "format": "url"
+          },
+          "subFacets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Facet"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "ItemLinks": {
+        "type": "object",
+        "properties": {
+          "self": {
+            "type": "string",
+            "format": "url"
+          },
+          "html": {
+            "type": "string",
+            "format": "url"
+          },
+          "rdf/xml": {
+            "type": "string",
+            "format": "url"
+          },
+          "json-ld": {
+            "type": "string",
+            "format": "url"
+          },
+          "ead/ra": {
+            "type": "string",
+            "format": "url"
+          },
+          "ead/ape": {
+            "type": "string",
+            "format": "url"
+          },
+          "image": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "format": "url"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OperationalStatus": {
+        "type": "object",
+        "properties": {
+          "operationalStatus": {
+            "enum": [
+              "ok",
+              "maintenance",
+              "unknown"
+            ],
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Result": {
+        "type": "object",
+        "properties": {
+          "totalHits": {
+            "type": "integer",
+            "format": ""
+          },
+          "hits": {
+            "type": "integer",
+            "format": ""
+          },
+          "offset": {
+            "type": "integer",
+            "format": ""
+          },
+          "facets": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Facet"
+            },
+            "nullable": true
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ResultItemBase"
+            }
+          },
+          "_links": {
+            "$ref": "#/components/schemas/ResultLinks"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResultItemBase": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "objectType": {
+            "enum": [
+              "RecordSet",
+              "Record",
+              "Agent",
+              "Topography",
+              "Register"
+            ],
+            "type": "string"
+          },
+          "caption": {
+            "type": "string"
+          },
+          "_links": {
+            "$ref": "#/components/schemas/ItemLinks"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ResultLinks": {
+        "required": [
+          "Description"
+        ],
+        "type": "object",
+        "properties": {
+          "self": {
+            "type": "string",
+            "format": "url"
+          },
+          "next": {
+            "type": "string",
+            "format": "url"
+          },
+          "previous": {
+            "type": "string",
+            "format": "url"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "public",
+      "description": "Public calls"
+    },
+    {
+      "name": "admin",
+      "description": "Administrative calls"
+    }
+  ]
+}

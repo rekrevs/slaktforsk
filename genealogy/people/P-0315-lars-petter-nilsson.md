@@ -4,7 +4,8 @@
 
 Född 1836-12-27 i Indal som son till torparen Nils Pehrsson och Lisa Stina
 Larsdotter. Han gifte sig 1858-02-21 med Cajsa Märta Dahlsten och följs som
-arbetare och senare torpare från Sättna till Högsjö, Indal.
+arbetare och senare torpare från Sättna till Högsjö, Indal. Han dog
+1904-09-25 som före detta torpare och änkling i Högsjö.
 
 ## Påståenden
 
@@ -23,12 +24,14 @@ arbetare och senare torpare från Sättna till Högsjö, Indal.
 | A-2312 | Han återfinns som son i Nils Pehrssons Högsjöhushåll 1855–1861 och som torpare med egen familj i Högsjö 1892–1900. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Exakt datum och familjerelation håller ihop den långa hushållskedjan. |
 | A-2313 | Lars Petter och Cajsa Märta Dahlsten hade registrerat äktenskapsdatum 1858-02-21. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0511](../citations/C-0511-indal-EI1-lysning-lars-petter-cajsa-marta-1858.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Samtida lysningsnotis och två äktenskapskolumner överensstämmer. |
 | A-2314 | A I/12:s bakåthänvisning `G.B. 131` återför inte familjen till sida 131 eller övriga Högsjösidor 129–138 i A I/11. | NEGATIVE | hög | [C-0513](../citations/C-0513-indal-AI11-hogsjo-gb131-negativ.md) | Exakt överföringshänvisnings- och avsnittsnoll, inte personfrånvaro i volymen. |
+| A-2665 | Indal A II a/1 sida 130 följer Lars Petter som torpare i Högsjö efter 1900 och anger död 1904-09-25. | TRANSCRIBED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md) | Exakt namn, födelsedatum, vigseldatum och hushåll knyter raden till den äldre kedjan. |
+| A-2666 | SCB:s dödboksutdrag, Indal post 36, korsbekräftar att före detta torparen Lars Petter Nilsson i Högsjö dog 1904-09-25, född 1836-12-27 och änkling; dödsorsak och dödsort är tomma. | CORROBORATED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0670](../citations/C-0670-scb-indal-lars-petter-dod-1904.md) | SCB-utdraget är en samtidig avskrift; en överstruken ortsfras transkriberas inte. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0316 Cajsa Märta Andersdotter/Dahlsten/Dalsten](P-0316-cajsa-marta-andersdotter.md) | hustru | CORROBORATED | C-0274, C-0388–C-0390 |
+| [P-0316 Cajsa Märta Andersdotter/Dahlsten/Dalsten](P-0316-cajsa-marta-andersdotter.md) | hustru | CORROBORATED | C-0274, C-0388–C-0390, C-0668–C-0670 |
 | [P-0254 Anders Niklas Larsson](P-0254-anders-niklas-larsson.md) | son | CORROBORATED | C-0274, C-0388–C-0389 |
 | [P-0403 Nils Pehrsson](P-0403-nils-pehrsson.md) | far | CORROBORATED | C-0509–C-0510 |
 | [P-0404 Lisa Stina Larsdotter](P-0404-lisa-stina-larsdotter.md) | mor | TRANSCRIBED | C-0509 |
@@ -41,11 +44,16 @@ arbetare och senare torpare från Sättna till Högsjö, Indal.
 
 ## Forskningsstatus
 
-Egen födelse, båda föräldrarna och äktenskapsdatumet är nu lösta. A I/8
+Den centrala livslinjen är nu sluten från egen födelse till död
+1904-09-25. A I/8
 binder honom till fadern i Högsjö och visar att faderns dåvarande andra hustru
 Christina Jonsdotter var hans styvmor; modern Lisa Stina Larsdotter kommer ur
 den egna födelseposten. Den tidigare 1836-konflikten var en felläsning och är
 uttryckligen tillbakadragen. A I/7:s hela Högsjöavsnitt 1847–1854 saknar
 målgruppen, så familjens boställe där före A I/8 återstår. A I/12:s `G.B.
-131` leder inte till familjen i A I/11:s Högsjöavsnitt. Sättna AI:9a sida 35
-saknas fortfarande; full flyttkedja och senare död återstår.
+131` leder inte till familjen i A I/11:s Högsjöavsnitt. A II a/1 och SCB:s
+post 36 korsbekräftar dödsdagen, Högsjö, födelsedatumet och änklingsstatus;
+dödsorsak och dödsort är inte registrerade. Indal F/2 är exakt identifierad
+men saknar publik bildpekare och katalogsidan stannar vid orörd
+människeverifiering enligt C-0671. Sättna AI:9a sida 35 och full flyttkedja
+är sekundär biografisk berikning; rotera breddfronten.

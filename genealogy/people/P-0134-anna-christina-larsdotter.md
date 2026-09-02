@@ -26,6 +26,9 @@ dottern Albertina.
 | A-0827 | Hon var dotter till torparen Lars Erik Jansson och Brita Christina Ersdotter i Carlberg. | CORROBORATED | hög | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md), [C-0154](../citations/C-0154-erik-anna-ardala-C7-vigsel-1876.md) | Hushållet namnger båda föräldrarna; vigselnotisen bekräftar fadern. |
 | A-2090 | Anna Christina Larsdotter dog 1887-10-27 i Svartgjölstorp och begravdes 30 oktober, 35 år 7 månader och 6 dagar gammal; dödsorsaken skrevs `Lunginflammation`. | CORROBORATED | mycket hög | [C-0400](../citations/C-0400-forssa-C7-albertina-anna-christina-doda-1887.md), [C-0398](../citations/C-0398-forssa-AI17-svartgjolstorp-sida-83.md) | Dödbokens exakta post och husförhörslängdens årsmarkering sammanfaller. |
 | A-2091 | Hon födde och nöddöpte dottern Albertina 1887-10-14; barnet dog samma dag och Anna Christina dog tretton dagar senare. | CORROBORATED | mycket hög | [C-0399](../citations/C-0399-forssa-C7-albertina-fodd-1887.md), [C-0400](../citations/C-0400-forssa-C7-albertina-anna-christina-doda-1887.md), [C-0398](../citations/C-0398-forssa-AI17-svartgjolstorp-sida-83.md) | Tidsföljden är belagd; inget medicinskt orsakssamband infereras. |
+| A-2956 | Riksarkivets bouppteckningsregister har en exakt post för Anna Christina Larsdotter, hustru i Svartsjötorp, Forssa, år 1887, med torparen `Carlson, Erik` som make och hänvisning till Villåttinge F II:26 nr 342. | CORROBORATED | mycket hög | [C-0758](../citations/C-0758-anna-christina-larsdotter-bouppteckningsregister-1887.md) | Namn, år, församling, hemort, civilstånd och make sammanfaller med kyrkobokskedjan; registerformen bevaras källtrogen. |
+| A-2957 | Villåttinge `SE/ULA/11693/F II/26`, 1886–1889, har permanent id `jFAZNmAm74QURzcN4NUm12` och endast analog instansiering; akt 342 är inte digitalt läst. | LEAD | mycket hög | [C-0758](../citations/C-0758-anna-christina-larsdotter-bouppteckningsregister-1887.md) | Exakt läsesals-/beställningsroute. Inga arvingar, tillgångar eller skulder infereras från den olästa akten. |
+| A-2984 | Anna Christina Larsdotter namnges som mor i de samtida födelsenotiserna för Erik Arvid 1879, Maria Sofia 1883 och Carl Oskar 1885. | CORROBORATED | mycket hög | [C-0767](../citations/C-0767-forssa-C6-erik-arvid-fodd-1879.md), [C-0768](../citations/C-0768-forssa-C6-maria-sofia-fodd-1883.md), [C-0769](../citations/C-0769-forssa-C6-carl-oskar-fodd-1885.md) | Tre originalposter över sex år korroborerar moderskapet och föräldraparet. |
 
 ## Relationer
 
@@ -33,9 +36,10 @@ dottern Albertina.
 |---|---|---|---|
 | [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) | son | TRANSCRIBED | C-0104 |
 | [P-0133 Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md) | make | TRANSCRIBED | C-0104 |
+| [P-0136 Karl Oskar Eriksson](P-0136-karl-oskar-eriksson.md) | son | CORROBORATED | C-0149, C-0769 |
 | [P-0142 Anna Erika Eriksson](P-0142-anna-erika-eriksson.md) | dotter | TRANSCRIBED | C-0105 |
-| [P-0143 Erik Arvid Eriksson](P-0143-erik-arvid-eriksson.md) | son | TRANSCRIBED | C-0105 |
-| [P-0213 Elli Maria Sofia Eriksdotter](P-0213-elli-maria-sofia-eriksdotter.md) | dotter | TRANSCRIBED | C-0149 |
+| [P-0143 Erik Arvid Eriksson](P-0143-erik-arvid-eriksson.md) | son | CORROBORATED | C-0105, C-0767 |
+| [P-0213 Elli Maria Sofia Eriksdotter](P-0213-elli-maria-sofia-eriksdotter.md) | dotter | CORROBORATED | C-0149, C-0768 |
 | [P-0214 Lars Erik Jansson](P-0214-lars-erik-jansson-carlberg.md) | far | CORROBORATED | C-0157, C-0154 |
 | [P-0215 Brita Christina Ersdotter](P-0215-brita-christina-ersdotter-carlberg.md) | mor | TRANSCRIBED | C-0157 |
 | [P-0216 Maria Mathilda Jansdotter](P-0216-maria-mathilda-jansdotter-carlberg.md) | syster | TRANSCRIBED | C-0157 |
@@ -51,6 +55,10 @@ dottern Albertina.
   Ersdotter vidare bakåt; pröva deras födelse- och vigseluppgifter i original.
 - Behåll 1852-03-21 som en öppen födelsebokskonflikt; döden 1887 är nu
   säkrad och ska inte längre sökas i intervallet 1885–1895.
+- Bouppteckningsregistret är nu positivt och hänvisar exakt till Villåttinge
+  F II:26 nr 342. Läs/beställ den analoga akten endast som kompletterande
+  arvinge-, hushålls- och egendomskälla; registerposten ensam räcker inte för
+  sådana uppgifter.
 
 ## Återöppnad forskningsfront 2026-08-21
 

@@ -1,0 +1,88 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/KrA/0101/A/019:Ö/D I/2",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#instantiation_physical"
+      },
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/gY3xMzp8s2V4tzZ5oOYWHC"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#isPartOf"
+      },
+      "skos:note": "Bt. Innehåller 11 häften.",
+      "rico:descriptiveNote": "Bt. Innehåller 11 häften.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#date_01"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/KrA/0101/A/019:Ö/D I/2"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/gY3xMzp8s2V4tzZ5oOYWHC"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/oqHzDlVtq23MzCjFc1KhO3#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1865",
+      "rico:textualValue": [
+        "1865",
+        "1884"
+      ],
+      "schema:endDate": "1884"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

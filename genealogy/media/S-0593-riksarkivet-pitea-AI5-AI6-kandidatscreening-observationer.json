@@ -1,0 +1,73 @@
+{
+  "source": "Riksarkivet",
+  "checked_at": "2026-09-01",
+  "archive": "Piteå landsförsamlings kyrkoarkiv",
+  "reference_codes": [
+    "SE/HLA/1010154/A I/5a",
+    "SE/HLA/1010154/A I/5b",
+    "SE/HLA/1010154/A I/5c",
+    "SE/HLA/1010154/A I/5d",
+    "SE/HLA/1010154/A I/5e",
+    "SE/HLA/1010154/A I/6a",
+    "SE/HLA/1010154/A I/6b"
+  ],
+  "reproductions": {
+    "C0035010": 238,
+    "C0035011": 233,
+    "C0035012": 249,
+    "C0035013": 225,
+    "C0035014": 122,
+    "C0035015": 558,
+    "C0035016": 509
+  },
+  "total_canvases": 2134,
+  "structures": false,
+  "method": {
+    "navigation": "Two local Apple Vision OCR passes: full work images and locally cropped left name/year columns.",
+    "evidence_reading": "Every nominated exact or near name/year candidate used in the conclusion was reread visually; cited examples were downloaded unchanged from Riksarkivet at IIIF max size.",
+    "restriction": "OCR can miss handwriting. The result is candidate screening, not a person, residence, village, parish or whole-volume negative."
+  },
+  "target": {
+    "name_forms": [
+      "Olaus Pehrsson",
+      "Olof Pehrsson",
+      "Olaus Persson",
+      "Olof Persson"
+    ],
+    "birth_date": "1784-02-07",
+    "birth_place": "Överklinten, Bygdeå"
+  },
+  "representative_rejections": [
+    {
+      "image_id": "C0035010_00164",
+      "reading": "Olof Åström, born 1789",
+      "reason": "different surname and birth year"
+    },
+    {
+      "image_id": "C0035012_00087",
+      "reading": "Nils Eriksson, born 1784",
+      "reason": "different given name and patronymic"
+    },
+    {
+      "image_id": "C0035013_00093",
+      "reading": "Brita Johansdotter, born 1799",
+      "reason": "OCR false positive; visual rereading shows neither target given name nor gender"
+    },
+    {
+      "image_id": "C0035014_00024",
+      "reading": "Olof Pehrsson, born in the 1750s",
+      "reason": "different birth generation"
+    },
+    {
+      "image_id": "C0035014_00111",
+      "reading": "Olaus, born 1810",
+      "reason": "different birth generation"
+    },
+    {
+      "image_id": "C0035016_00400",
+      "reading": "Olof Pehrsson, born 1753",
+      "reason": "different birth year"
+    }
+  ],
+  "result": "No visually accepted nominated candidate combines the target name identity with birth in 1784."
+}

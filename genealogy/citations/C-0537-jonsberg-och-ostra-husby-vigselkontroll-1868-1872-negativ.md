@@ -21,11 +21,15 @@ Husförhörslängdens äktenskapsår 1870 (C-0406) är retrospektivt. Elins
 födelsenotis 1873-01-13 (C-0270) kallar Charlotta `hans hustru`, så vigseln
 ägde rum före januari 1873, men varken brudens födelseförsamling Jonsberg
 eller brudgummens hemförsamling Östra Husby har någon lysning eller
-attestvigsel 1869–1872. Vigseln skedde därför sannolikt i en tredje
-församling där Carolina tjänade som piga. Nästa säkra väg är Carolinas
-utflyttning i Jonsberg B och hennes inflyttningsattest till Östra Husby
-A I 1866–1875 (Gäddestad), som bör namnge vigselförsamlingen; upprepa inte
-samma årgångar i dessa två volymer utan ny ledtråd.
+attestvigsel 1869–1872. Nollresultatet pekade därför korrekt mot en tredje
+församling och ska stå kvar som avgränsad sökhistorik.
+
+## Senare lösning
+
+Omläsning av Östra Husby A I/21 visade att Carolina kom från Häradshammar
+1870 under attest 58 (C-0271). Häradshammar C/7 återfinner lysningen
+1870-08-28 och vigseln 1870-10-14 (C-0557). Samma Jonsberg- och Östra
+Husby-årgångar ska inte sökas igen.
 
 ## Stödda påståenden
 

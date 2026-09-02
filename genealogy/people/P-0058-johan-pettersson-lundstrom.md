@@ -51,13 +51,14 @@ framträder i husförhörslängden; i födelsenotisen står Johan Pettersson.
 | A-2307 | Degerfors B/1:s fulla utgående årgångar 1823–1826 saknar en säker rad för Pehr Ersson, Brita Lena/Malena Isaksdotter eller deras gemensamma Bergvallshushåll. | TRANSCRIBED | hög | [C-0507](../citations/C-0507-degerfors-B1-utflyttade-1823-1826-negativ.md) | Avgränsat registernoll; intern eller utelämnad flytt och andra år är öppna. |
 | A-2308 | Degerfors C/2:s fulla död- och begravningsårgångar 1824–1825 saknar en säker Johannes/Johan, son till Pehr Ersson i Bergvall. | TRANSCRIBED | hög | [C-0508](../citations/C-0508-degerfors-C2-doda-1824-1825-johannes-negativ.md) | Tvåårigt församlingsnoll; inget överlevnads-, flytt- eller identitetsbelägg. |
 
+| A-2424 | Sonen Johan August, född maj 1861, är P-0424 Johan August Johansson; den tidigare identifieringen av honom med P-0028 Johan Oskar Zingmark (född 1861-05-28 i Botsmark) är avvisad, så denna familj är inte längre anor till P-0004. | CORROBORATED | mycket hög | [C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md), [C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md), [C-0547](../citations/C-0547-savar-B3-1880-johan-oskar-zingmark-till-degerfors.md) | Familjens egen forskning kvarstår oförändrad som sidogren. |
 ## Relationer
 
 Maka: [P-0059 Cajsa Lotta Jonsdotter](P-0059-cajsa-lotta-jonsdotter.md).
 Tidigare hustru: identitet ännu okänd, men änklingsstatusen är belagd i
 C-0205 och C-0207. Barn med Cajsa Lotta: [P-0238 Johanna
 Charlotta](P-0238-johanna-charlotta-johansdotter.md), P-0060, P-0061,
-[P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), P-0062–P-0064.
+[P-0424 Johan August Johansson](P-0424-johan-august-johansson.md), P-0062–P-0064.
 Möjliga, inte fastställda föräldrar är [P-0146 Pehr Ersson](P-0146-pehr-ersson-bergvall.md)
 och [P-0147 Brita Malena/Lena Isaksdotter](P-0147-brita-malena-isaksdotter.md);
 relationen förblir `LEAD` trots det nu återfunna Bergvallshushållet.

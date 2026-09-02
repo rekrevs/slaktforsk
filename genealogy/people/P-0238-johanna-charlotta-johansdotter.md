@@ -20,7 +20,7 @@ skriver `Johanna Charlotta`.
 |---|---|---|---|
 | [P-0058 Johan Pettersson Lundström](P-0058-johan-pettersson-lundstrom.md) | far | CORROBORATED | C-0207–C-0208 |
 | [P-0059 Cajsa Lotta Jonsdotter](P-0059-cajsa-lotta-jonsdotter.md) | mor | CORROBORATED | C-0207–C-0208 |
-| [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) | bror | CORROBORATED | C-0207–C-0208 samt hans föräldrakällor |
+| [P-0424 Johan August Johansson](P-0424-johan-august-johansson.md) | bror | CORROBORATED | C-0207–C-0208, C-0550 |
 
 ## Forskningsstatus
 

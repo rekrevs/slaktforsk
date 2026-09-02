@@ -1,0 +1,88 @@
+{
+  "source_id": "S-0578",
+  "citation_id": "C-0745",
+  "checked_at": "2026-09-01",
+  "external_provider": "Riksarkivet",
+  "catalog_api": {
+    "preserved_response": "S-0552-riksarkivet-pitea-stad-faceted-api.json",
+    "volumes": {
+      "SE/HLA/1010155/A I/1a": {
+        "date_range": "1812-1822",
+        "permanent_id": "qOTXwDefsKUH5DToYdVu91",
+        "catalog_digitised_flag": true,
+        "arkis_uuid": "e86187d1-29da-47d9-9114-d7728a77f825",
+        "reproduction": "C0035078",
+        "canvases": 190
+      },
+      "SE/HLA/1010155/A I/1b": {
+        "date_range": "1812-1822",
+        "permanent_id": "63e75yOoznFfp7Wb9RLhL4",
+        "catalog_digitised_flag": false,
+        "arkis_uuid": "17073a18-65cc-4ffc-a731-e09496d5ad54",
+        "catalog_note": "Häfte. Personregister till d:o. Ofullständigt."
+      },
+      "SE/HLA/1010155/A I/2a": {
+        "date_range": "1823-1831",
+        "permanent_id": "kzTuAkyl8H8jAnfGny8zLr",
+        "catalog_digitised_flag": true,
+        "arkis_uuid": "55f0eebb-bcde-4884-b4ac-69431f11f575",
+        "reproduction": "C0035079",
+        "canvases": 424
+      },
+      "SE/HLA/1010155/A I/2b": {
+        "date_range": "1823-1831",
+        "permanent_id": "KW5IjBubTq6RM54FPxojp2",
+        "catalog_digitised_flag": false,
+        "arkis_uuid": "b4520152-25be-4177-9b58-510f67bcadce",
+        "catalog_note": "Häfte. Personregister till d:o."
+      }
+    }
+  },
+  "browser_access": {
+    "kind": "connected Chrome outside the filesystem sandbox",
+    "catalog_result": "Each exact permanent catalog route redirected to Riksarkivet's CAPTCHA page; the returnUrl exposed the older Arkis UUID.",
+    "captcha_interaction": false,
+    "session_data_preserved": false,
+    "jsonld_retry": "Direct JSON-LD requests outside the network sandbox returned a WAF HTML page rather than JSON; those mislabeled temporary responses were not preserved as source JSON."
+  },
+  "public_tree": {
+    "SE/HLA/1010155/A I/1a": "Tree/SubTree exposed reproduction C0035078.",
+    "SE/HLA/1010155/A I/2a": "Tree/SubTree exposed reproduction C0035079.",
+    "SE/HLA/1010155/A I/1b": "Tree/SubTree returned an empty body and no reproduction child.",
+    "SE/HLA/1010155/A I/2b": "Tree/SubTree returned an empty body and no reproduction child."
+  },
+  "iiif": {
+    "C0035078": {
+      "manifest_result": "HTTP 200 without session data",
+      "canvases": 190,
+      "structures": 0,
+      "embedded_p_to_r_register_image": "C0035078_00028"
+    },
+    "C0035079": {
+      "manifest_result": "HTTP 200 without session data",
+      "canvases": 424,
+      "structures": 0,
+      "embedded_p_to_r_register_image": "C0035079_00033"
+    },
+    "full_image_result": "Maximal IIIF images returned HTTP 200 with a Riksarkivet image-viewer Referer."
+  },
+  "register_review": {
+    "AI1a_P_to_R": {
+      "image_id": "C0035078_00028",
+      "result": "No index entry reads Olaus/Olof Pehrsson or Persson.",
+      "boundary": "The catalog explicitly calls the separate A I/1b person register incomplete. This is only an exact P-R register-page result, not a whole-volume, residence, or person null."
+    },
+    "AI2a_P_to_R": {
+      "image_id": "C0035079_00033",
+      "result": "The index has Persson, Olof with page reference 192.",
+      "candidate_page": {
+        "image_id": "C0035079_00250",
+        "page": 192,
+        "visual_reading": "Drängen Olof Pehrsson, born 1804-04-21",
+        "assessment": "Rejected as the Överklinten candidate Olaus Pehrsson, born 1784-02-07."
+      },
+      "boundary": "The concrete candidate is rejected. The result is not a whole-volume, residence, or person null and does not establish Barbro Olofsdotter's father."
+    }
+  },
+  "evidence_boundary": "The route adds a source-led city-parish register check. It rejects one named Olof Persson/Pehrsson candidate and records one incomplete-register page null. It neither proves nor disproves that Olaus Pehrsson lived elsewhere in Pitea, survived the periods, or fathered Barbro."
+}

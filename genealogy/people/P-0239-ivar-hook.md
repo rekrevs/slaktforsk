@@ -27,6 +27,7 @@ missionärsläkare i Centralasien och Indien.
 | A-1624 | Församlingsbokssida 593 placerar honom med Anna Matilda och Anna Greta under perioden 1913–1931. | TRANSCRIBED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Samma sidnummer som 1930 års index anger. |
 | A-1726 | Han och Anna Elisabeth Carlman var föräldrar till helsyskonen Gunnar, Marianne, Astrid Margareta och Anders Gustav Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; Gunnar är dessutom oberoende stödd som deras son, men syskonskaran är ännu inte arkivkontrollerad. |
 
+| A-2412 | Johannes Ivar Fredberg är Ivars far enligt ägarens säkra familjekunskap (`#1 är 100% säker`, 2026-08-29); relationen är fastställd projektinformation enligt `PCD-2026-08-29-001`. | CORROBORATED | mycket hög | [C-0545](../citations/C-0545-agarens-uppgift-johannes-ivar-fredberg-ar-ivars-far.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md), [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md) | Ägaruppgift plus två familjeuppgifter; samtida arkivbelägg krävs inte längre men bokförs om det påträffas. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -37,7 +38,7 @@ missionärsläkare i Centralasien och Indien.
 | [P-0308 Astrid Margareta Höök Wennfors](P-0308-astrid-margareta-hook-wennfors.md) | dotter | TRANSCRIBED | C-0268 |
 | [P-0309 Anders Gustav Höök](P-0309-anders-gustav-hook.md) | son | TRANSCRIBED | C-0268 |
 | [P-0275 Anna Matilda](P-0275-anna-matilda-hudiksvall.md) | mor | CORROBORATED | C-0255, C-0256, C-0258 |
-| [P-0287 Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md) | far | CORROBORATED | C-0259, C-0320 |
+| [P-0287 Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md) | far, fastställd enligt ägaren | CORROBORATED | C-0545, C-0259, C-0320 |
 
 ## Forskningsstatus
 

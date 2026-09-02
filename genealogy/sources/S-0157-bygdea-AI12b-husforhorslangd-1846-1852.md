@@ -9,7 +9,7 @@
 - Tidsomfång: 1846–1852
 - Bildbatch: `C0034024`
 - Bildvisare: <https://sok.riksarkivet.se/bildvisning/C0034024_00095>
-- Läst: 2026-08-21 i autentiserad Riksarkivet-session
+- Läst: 2026-08-21 och 2026-08-31
 
 ## Källkritik
 
@@ -18,3 +18,10 @@ tidiga namnform och senare uppgivna födelsedatum samt anteckningen `oäkta`.
 Den bleka interna hänvisningen i kolumnen `Hvarifrån` har inte låsts till en
 folio- eller volymtolkning utan positiv motsvarighet.
 
+Sida 330 följer separat Carl E. Lundbergs hushåll i Lugnet. Det
+fullständiga IIIF-manifestet är lokalt bevarat som
+[metadataoriginal](../media/S-0157-riksarkivet-bygdea-AI12b-IIIF-manifest.json),
+SHA-256
+`80770f46a5870c55958f7aafa6790569fc7187e3b3a8eb22e374966230b07698`.
+Målbilden och personläsningen redovisas i
+[C-0707](../citations/C-0707-bygdea-lundberg-lugnet-overklinten.md).

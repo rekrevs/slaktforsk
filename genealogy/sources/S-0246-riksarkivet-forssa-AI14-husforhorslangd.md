@@ -9,8 +9,8 @@
 - Bildbatch: `C0006404`
 - Fotograferat hushållsspann: bild 10–135, sidorna 1–143 med volymens
   dokumenterade hopp i sidnumreringen
-- Positivt uppslag: Stafsjoen till Malstanäs, sida 87, bild-id
-  `C0006404_00086`
+- Positiva uppslag: Sjöstugan, sida 99, bild-id `C0006404_00098`, och
+  Stafsjoen till Malstanäs, sida 87, bild-id `C0006404_00086`
 - Bildvisare: <https://sok.riksarkivet.se/bildvisning/C0006404_00086>
 - Läst: 2026-08-23 i autentiserad Riksarkivet-session
 
@@ -24,8 +24,10 @@ ytterligare sammanhängande hushållssidor.
 
 Alla bilder 10–135 granskades visuellt i mindre batcher. Rutor som först
 visades svarta eller laddande lästes om innan täckning tillskrevs dem. Den
-enda exakta Erik Karlsson/Carlsson med 1851-01-30 Bettna är den redan kända
-raden på sida 87. Den är införd från Årdala 1876 och kan därför inte fylla
-luckan före den uppgivna Forssa-ankomsten 1875. Avsaknaden av en ytterligare
-rad är ett avgränsat volymresultat, inte bevis för att Erik aldrig vistades i
-Forssa eller att hans födelseuppgift är riktig.
+första granskningen sökte dock bara efternamnsformerna Karlsson/Carlsson och
+rapporterade därför felaktigt sida 87 som enda exakta rad.
+
+Korrigeringen 2026-09-01 i C-0741 visar att sida 99, rad 23, innehåller
+`Dräng Erik Grill`, född exakt 1851-01-30 i Bettna, med den ärvda
+inflyttningsuppgiften `Bettna 1868 25`. Det tidigare volymnollresultatet är
+därmed avvisat; den historiska kontrollen behålls i C-0318 för spårbarhet.

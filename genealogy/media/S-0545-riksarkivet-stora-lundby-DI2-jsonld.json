@@ -1,0 +1,106 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/GLA/13505/D I/2",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#instantiation_01"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/tpeLivyxweZJUG018W43t3"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#isPartOf"
+      },
+      "skos:note": "Omfattar Stora Lundby 1839-1879, lucka 1861-1864, Skallsjö 1839-1879, lucka 1868, Lerum 1839-1879 samt Angered och Bergum 1839-1863.",
+      "rico:descriptiveNote": "Omfattar Stora Lundby 1839-1879, lucka 1861-1864, Skallsjö 1839-1879, lucka 1868, Lerum 1839-1879 samt Angered och Bergum 1839-1863.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#date_01"
+      },
+      "schema:image": {
+        "@id": "https://lbiiif.riksarkivet.se/arkis!00079197/manifest"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/GLA/13505/D I/2"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/tpeLivyxweZJUG018W43t3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/v6ta5A5trH6cyG018W43t3#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1839",
+      "rico:textualValue": [
+        "1839",
+        "1879"
+      ],
+      "schema:endDate": "1879"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}

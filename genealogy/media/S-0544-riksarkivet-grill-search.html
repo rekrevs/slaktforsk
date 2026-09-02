@@ -1,0 +1,3810 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <link rel="Shortcut Icon" sizes="16x16 24x24 32x32 64x64" href="/Content/images/janus.ico" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Riksarkivet bevarar samh&#228;llets arkivinformation och ser till att den kan anv&#228;ndas. S&#246;k i arkiv fr&#229;n statlig f&#246;rvaltning, privata f&#246;retag, f&#246;reningar och personer." />
+    <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+    <meta name="DC.Identifier" content="http://purl.org/dc/terms/identifier" scheme="URL" />
+    <meta name="DC.Title" content="Riksarkivet - Sök i arkiven" />
+    <meta name="DC.Publisher" content="Riksarkivet" />
+    <meta name="DC.Creator" content="Riksarkivet" />
+    <meta name="DC.Description" content="Riksarkivet bevarar samh&#228;llets arkivinformation och ser till att den kan anv&#228;ndas. S&#246;k i arkiv fr&#229;n statlig f&#246;rvaltning, privata f&#246;retag, f&#246;reningar och personer." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>Indelningsverket – Grill - Riksarkivet - S&#246;k i arkiven</title>
+
+    <link href="/css/jquery-treeview?v=644zM4jdnDhq7jKznw6J2bPLaaJQ_qLUmt0G-QQF5ak1" rel="stylesheet"/>
+
+    <link href="/css/jquery-ui?v=zPiFf4UMuyv-hO2QGs7JpF3IzYTGyq5IouNsoHwhLuk1" rel="stylesheet"/>
+
+    <link href="/css/bootstrap?v=AsWrfsZqv6AmAhFLb02PbY-WQtOd6gZ2z2_oF1b4Yq01" rel="stylesheet"/>
+
+
+<link href="/css/main-extern?v=ATni-V7RRviorzjN_bw1pyA6xATmGuKxrKTRAQ3doMc1" rel="stylesheet"/>
+
+    <link href="/css/captcha?v=h8C0BIZ4ZIjJYpRgMxfQ768-IW1RkwTI0dgdsAUa6BM1" rel="stylesheet"/>
+
+
+    <link href="/css/print?v=lGAohVUePBkmxN4FJj4wp1koppj2BSDYOiAKy_kEFqY1" rel="stylesheet" type="text/css" media="print" />
+
+
+    
+
+    <script src="/bundles/jquerytools?v=WbK4OvS0aWFLh4boiuI_lq8OVVz5crcu-QtgII8825A1"></script>
+
+    <script src="/bundles/bootstrap?v=8Wq1CneZdFcGhjyygPQaLtRLjSXkOW102Lu53MlPr3g1"></script>
+
+    <script src="/bundles/othertools?v=kltq_hCXCsymODGXgf8qBsiCqFaMj-g2F6BJknVoVlg1"></script>
+
+
+    <script src="/Scripts/utokningSok.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+         $(function () {
+             $("#clearSearch").on('click', function () {
+                 $("input[type=text]").val('');
+                 $("#Socken").val('');
+                 $("#Harad").val('');
+                 $("#Lan").val('');
+                 $("#Kompani").val('');
+                 $("#Regemente").val('');
+                 $("#Rusthall").trigger('focus');
+                 $("#location").val('top');
+                 $("#SokKnappLeft").trigger('click');
+             })
+
+             $("select#Lan,select#Socken,select#Harad,select#Kompani,select#Regemente").on('change', function () {
+                if ('' == '')
+                {
+                    $("#SearchBlocked").val('True');
+                    $("#location").val('top');
+                }
+                else
+                {
+                    $("#SearchBlocked").val('False');
+                }
+                $("#SokKnappLeft").trigger('click');
+             });
+         });
+
+         $(document).ready(function () {
+             $("#StartItem").removeClass("active");
+             $('#DfItem').addClass('active');
+             $("#SearchBlocked").val('False');
+             if ("False" == 'True')
+                $("#historik").trigger('click');
+         });
+    </script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            $("#tab-specialsok").addClass("active");
+            $("#tab-specialsokMobil").addClass("active");
+            $("#nojsSubmit").hide();
+            $("#Registertyp").removeClass('nojs');
+            $("#Registertyp").on('change', function () {
+                if (this.selectedIndex != 0) {
+                    if(parseInt($(this).val()) != 59){
+                        $(this).parents('form').trigger('submit');
+                }
+            }});
+        });
+    </script><script type='text/javascript'>
+        $(document).ready(function () {
+             if (location.href.indexOf("#") > -1) {
+                 return;
+             }
+             else if (scrollIntoView() && $("#tabheader")[0].innerHTML.trim().length > 0 && location.search != "?Sok=true" && location.search.indexOf("utm_source") == -1 && location.search.indexOf("location=top") == -1) {
+                 $("#tabheader")[0].scrollIntoView();
+             }
+             else
+                 $("form:not('#form-special-sok')").find('input[type=text],textarea,select').filter(':visible:first').trigger('focus');
+         });
+
+         function scrollIntoView() {
+             const segments = window.location.pathname.split('/').filter(segment => segment.length > 0);
+             return segments.length > 1 || window.location.search;
+         }
+    </script>
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+        <!-- Matomo Tag Manager -->
+        <script type="text/plain" data-cookiecategory="analytics">
+            var _mtm = window._mtm = window._mtm || [];
+            _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+            (function() {
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src='https://matomo.riksarkivet.se/js/container_d6Ktc4gC.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <!-- End Matomo Tag Manager -->
+    <noscript>
+        <div id="noscript-warning" class="alert hidden-print" style="margin-bottom: 0px;">
+            <div class="container-fluid">
+                Riksarkivets söktjänst fungerar bäst med javaskript påslaget i din webbläsare.
+            </div>
+        </div>
+    </noscript>
+
+    <div id="compatibility_box" class="alert hidden-print" style="margin-bottom:0px;display:none;">
+        <div class="container-fluid">
+            Riksarkivets söktjänst fungerar bäst med kompatibilitetsvy avslagen i din webbläsare.
+        </div>
+    </div>
+
+    
+
+<header class="header">
+    <div class="container-fluid">
+        <div class="header-inner row-fluid">
+            <div class="pull-left span4">
+                <div>
+                    <a accesskey="1" href="/" class="riksarkiveturl">
+                        <img src="/Administration/Images/Layout/logo2.png" />
+                    </a>
+                </div>
+                <div>
+                    <span class="mellanrum-left-stort"><font color="black">S&#246;k i arkiven</font></span>
+                </div>
+            </div>
+            <div id="mobile-panel" class="pull-left visible-phone hidden-print mellanrum-left-tjugo noscript">
+                <script>
+                    $('#mobile-panel').removeClass("noscript");
+                </script>
+                <a id="btn-shortcuts" class="toggle" href="#nav-shortcuts" data-toggle="collapse">Genv&#228;gar <i id="IkonPlusMinus" class="icon-plus icon-white"></i></a>
+                <a id="btn-menu" class="btn btn-primary toggle" href="#nav-collapse" data-toggle="collapse">
+                    MENY
+                    <button id="menyknapp" class="btn btn-navbar" type="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </a>
+
+                <a href="https://lasesalsbestallning.riksarkivet.se/" target="riksarkivet-digital-bestallning" class="kundvagn-mobil hidden">
+                    <img src="/Content/images/kundvagn/kundvagn.png" alt="Kundkorg till l&#228;sesal" />
+                    <span class="badge" id="laneorder-antal-mobil">0</span>
+                </a>
+
+                <!--<div class="kundvagn kundvagn-mobil hidden">
+                    <img src="~/Content/images/kundvagn/kundvagn.png" alt="Kundkorg till l&#228;sesal" />
+                    <span class="badge" id="laneorder-antal-mobil">0</span>
+                </div>-->
+
+            </div>
+            <noscript class="visible-phone">
+                <nav>
+                    <div class="span8">
+                        <ul class="nav nav-pills">
+                            <li id="StartItem" class="active navHasNoChildren clickMenu">
+                                <span class="hide">Visas:</span>
+                                <a href="/" title="Till startsidan"><span class="mellanrum-left-tjugo mellanrum-right-tjugo">Start</span></a>
+                            </li>
+
+                            <li id="DfItem" class="navHasNoChildren clickMenu">
+                                <a href="/digitala-forskarsalen" title="Digitala forskarsalen">Digitala forskarsalen</a>
+                            </li>
+
+                            <li id="NadItem" class="navHasNoChildren clickMenu">
+                                <a href="/nad/" title="Nationell Arkivdatabas">Nationell Arkivdatabas</a>
+                            </li>
+                            <li class="menylankar" href="/om-soktjansten/">Om s&#246;ktj&#228;nsten</li>
+                            <li id="OmItems">
+                                
+                            </li>
+                            <li><a href="http://riksarkivet.se" target="_blank" title="Till Riksarkivets hemsida">Riksarkivet</a></li>
+                            <li><a href="http://webbutik.riksarkivet.se" target="_blank" title="Till Riksarkivets webbutik">Webbutiken</a></li>
+                            <ul class="nav nav-pills">
+                                <li><a href="/?Sprak=Engelska">English</a></li>
+                                <li><a href="/?Sprak=Svenska">Svenska</a></li>
+                            </ul>
+                            <li class="visible-phone"><a href="http://riksarkivet.se" target="_blank" title="Till Riksarkivets hemsida">Riksarkivet</a></li>
+                            <li class="visible-phone"><a href="http://webbutik.riksarkivet.se" target="_blank" title="Till Riksarkivets webbutik">Webbutiken</a></li>
+                            
+        <li>
+            <a href="/sv/login?returnUrl=%2Fgrill&amp;avanceradSok=False" id="LogIn">Logga in</a>
+        </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </noscript>
+
+            <nav class="span8">
+                <div class="row hidden-print hidden-phone">
+                    <div id="nav-webbutik" class="nav-collapse collapse pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a href="http://riksarkivet.se" target="_blank" title="Till Riksarkivets hemsida">Riksarkivet</a></li>
+                            <li><a href="http://webbutik.riksarkivet.se" target="_blank" title="Till Riksarkivets webbutik">Webbutiken</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row hidden-print upp">
+                    <div id="nav-shortcuts" class="nav-collapse collapse">
+                        <hr />
+                        <noscript>
+                            <ul class="nav nav-pills">
+                                <li><a href="/?Sprak=Engelska">English</a></li>
+                                <li><a href="/?Sprak=Svenska">Svenska</a></li>
+                            </ul>
+                        </noscript>
+                        <ul class="nav nav-pills">
+                            
+        <li>
+            <a href="/sv/login?returnUrl=%2Fgrill&amp;avanceradSok=False" id="LogIn">Logga in</a>
+        </li>
+
+                            <li id="otherLanguagesDropBox" class="dropdown hide">
+                                <a class="dropdown-toggle" id="dLabel" role="link" data-toggle="dropdown" data-target="#language" href="/page.html">Other languages<i class="icon-caret-down"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                        <li class="active"><span class="selected-language">Svenska <i class="icon-ok"></i></span></li>
+
+                                        <li><a href="/?Sprak=Engelska&amp;returnUrl=https%3A%2F%2Fsok.riksarkivet.se%2Fen%2Fgrill">English</a></li>
+
+                                </ul>
+
+                                
+                            </li>                          
+                            <li class="visible-phone"><a href="http://riksarkivet.se" target="_blank" title="Till Riksarkivets hemsida">Riksarkivet</a></li>
+                            <li class="visible-phone"><a href="http://webbutik.riksarkivet.se" target="_blank" title="Till Riksarkivets webbutik">Webbutiken</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div id="laneordrar" class="pull-right hidden">
+                        <ul class="nav nav-pills">
+                            <li>
+
+                                <a href="https://lasesalsbestallning.riksarkivet.se/" target="riksarkivet-digital-bestallning" style="text-decoration: none">
+                                    <div>
+                                        <img src="/Content/images/kundvagn/kundvagn.png" alt="Kundkorg till l&#228;sesal" />
+                                        <span class="badge sokhjalpIkon" title="L&#228;sesal | Klicka p&#229; kundvagnen f&#246;r att best&#228;lla objekt till l&#228;sesal" id="laneorder-antal">0</span>
+                                    </div>
+                                    <span id="lasesaltext">Till l&#228;sesal</span>
+                                </a>
+
+                                <!--<div class="kundvagn" style="text-decoration: none">
+                                    <div>
+                                        <img src="~/Content/images/kundvagn/kundvagn.png" alt="Kundkorg till l&#228;sesal" />
+                                        <span class="badge sokhjalpIkon" title="L&#228;sesal | Klicka p&#229; kundvagnen f&#246;r att best&#228;lla objekt till l&#228;sesal" id="laneorder-antal">0</span>
+                                    </div>
+                                    <span id="lasesaltext">Till l&#228;sesal</span>
+                                </div>-->
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="colorbar hidden-print"></div>
+
+    <!--<div id="kundvagn-dialog" style="display:none;padding:0;overflow-y:hidden">
+        
+        <iframe id="kundvagn-frame" src="https://lasesalsbestallning.riksarkivet.se/" style="height:100%;width:100%;border:none"></iframe>
+    </div>-->
+
+    <nav class="navbar navbar-top hidden-print" data-target=".nav-collapse" data-toggle="collapse">
+        <div class="container-fluid navbar-inner">
+            <div id="nav-collapse" class="nav-collapse collapse">
+                <ul class="nav" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                    <li class="divider-vertical" />
+                    <li id="StartItem" class="active navHasNoChildren clickMenu">
+                        <span class="hide">Visas:</span>
+                        <a href="/" title="Till startsidan"><span class="mellanrum-left-tjugo mellanrum-right-tjugo">Start</span></a>
+                    </li>
+                    <li class="divider-vertical" />
+                    <li id="DfItem" class="navHasNoChildren clickMenu">
+                        <a href="/digitala-forskarsalen" title="Digitala forskarsalen">Digitala forskarsalen</a>
+                    </li>
+                    <li class="divider-vertical" />
+                    <li id="NadItem" class="navHasNoChildren clickMenu">
+                        <a href="/nad/" title="Nationell Arkivdatabas">Nationell Arkivdatabas</a>
+                    </li>
+                    <li class="divider-vertical" />
+                    <li id="OmItem" class="navHasNoChildren clickMenu hidden-phone">
+                        <a href="/om-soktjansten/" title="Om s&#246;ktj&#228;nsten">Om s&#246;ktj&#228;nsten</a>
+                    </li>
+                    <li id="OmItem" class="navHasChildren clickMenu span12 visible-phone">
+                        <span>
+                            <a class="menylankar omSoktjansten" href="/om-soktjansten/">Om s&#246;ktj&#228;nsten</a>
+                            <i id="OmMenyPlusMinus" class="icon-plus icon-white"></i>
+                        </span>
+                        <div id="OmItems" class="hidden-phone">
+                            
+                        </div>
+                    </li>
+                    <li class="divider-vertical" />
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<script type="text/javascript">
+    window.onload = function () {
+        document.getElementById("otherLanguagesDropBox").className = "dropdown";
+    }
+    $(function () {
+        $("#btn-shortcuts").on('click', function (e) {
+            changePlusMinusIcon("#IkonPlusMinus");
+        });
+
+        $("#kundvagn-dialog").dialog({
+            // TODO: fix x on close button
+            title: 'Beställning till läsesal',
+            autoOpen: false,
+            modal: true,
+            height: '800',
+            width: '1000',
+            maxWidth: 'auto',
+            position: { my: 'top', at: 'top', of: $('#nav-collapse') },
+        });
+
+        $('.kundvagn').on('click', function () {
+            // TODO: would be nice to make height dynamic according to iframe height
+            $('#kundvagn-dialog').dialog('open');
+        });
+
+        $('.clickMenu').on('click', function (e) {
+            e.stopPropagation();
+        });
+
+        $("#OmItem").on('click', function (e) {
+            $("#omLankar").removeClass('hidden-phone').addClass('visible-phone');
+            $("#nav-shortcuts").closest('div').addClass('hidden-phone');
+            e.stopPropagation();
+        });
+
+        $("#OmMenyPlusMinus").on('click', function (e) {
+            showHideSubMenu("#OmItems")
+            changePlusMinusIcon("#OmMenyPlusMinus");
+        });
+
+        $("#NadMenyPlusMinus").on('click', function (e) {
+            showHideSubMenu("#NadItems")
+            changePlusMinusIcon("#NadMenyPlusMinus");
+        });
+
+        $("#ForskarsalMenyPlusMinus").on('click', function (e) {
+            showHideSubMenu("#ForskarsalItems");
+            changePlusMinusIcon("#ForskarsalMenyPlusMinus");
+        });
+
+        var showHideSubMenu = function (subMenuId) {
+            if ($(subMenuId).hasClass("hidden-phone")) {
+                $(subMenuId).removeClass('hidden-phone').addClass('visible-phone');
+            }
+            else {
+                $(subMenuId).addClass("hidden-phone")
+            }
+        }
+
+        var changePlusMinusIcon = function (dropdownElement) {
+
+            if ($(dropdownElement).hasClass('icon-plus')) {
+                $(dropdownElement).removeClass("icon-plus");
+                $(dropdownElement).addClass('icon-minus');
+            }
+            else {
+                $(dropdownElement).removeClass('icon-minus');
+                $(dropdownElement).addClass("icon-plus");
+            };
+        }
+
+
+    });
+</script>
+    <main id="homeContainer" class="content container-fluid ">
+        <br />
+        <section class="hidden-print">
+    <div>
+            <div id="information" class="content row-fluid">
+                <div id="info" class="span12">
+                    <span class="hidden-phone"><ul class="nav nav-tabs">
+    <li id="tab-digitalaforskarsalen">
+        <a title="Digitala forskarsalen" href="/digitala-forskarsalen">Digitala forskarsalen</a>
+    </li>
+    <li id="tab-amnesomrade">
+        <a title="&#196;mnesomr&#229;de" href="/amnesomrade/">&#196;mnesomr&#229;de</a>
+    </li>
+    <li id="tab-specialsok">
+        <a title="Specials&#246;k" href="/specialsok/">Specials&#246;k</a>
+    </li>
+    <li id="tab-alfabetiskt">
+        <a title="A–&#214;" href="/a-o">A–&#214;</a>
+    </li>
+    <li id="tab-valfriaord">
+        <a title="Fritext" href="/fritext/">Fritext</a>
+    </li>
+    <li id="tab-digitalaarkiv">
+        <a title="Arkiv" href="/digitala-arkiv/">Arkiv</a>
+    </li>
+    <li id="tab-bildid">
+        <a title="Bildid" href="/bildid/">Bildid</a>
+    </li>
+</ul>
+</span>
+                    <span class="visible-phone">
+<ul class="nav nav-tabs">
+    <li id="tab-digitalaforskarsalenMobil" class="fullbredd">
+        <a title="Digitala forskarsalen" href="/digitala-forskarsalen">Digitala forskarsalen</a>
+    </li>
+    <li id="tab-amnesomradeMobil" class="halvbredd">
+        <a title="&#196;mnesomr&#229;de" href="/amnesomrade">&#196;mnesomr&#229;de</a>
+    </li>
+    <li id="tab-specialsokMobil" class="halvbredd">
+        <a title="Specials&#246;k" href="/specialsok">Specials&#246;k</a>
+    </li>
+    <li id="tab-alfabetisktMobil" class="halvbredd">
+        <a title="A–&#214;" href="/a-o">A–&#214;</a>
+    </li>
+    <li id="tab-valfriaordMobil" class="halvbredd">
+        <a title="Fritext" href="/fritext">Fritext</a>
+    </li>
+    <li id="tab-digitalaarkivMobil" class="halvbredd">
+        <a title="Arkiv" href="/digitala-arkiv">Arkiv</a>
+    </li>
+    <li id="tab-bildidMobil" class="halvbredd">
+        <a title="Bildid" href="/bildid">Bildid</a>
+    </li>
+</ul></span>
+                </div>
+            </div>
+
+        <div id="wide_search" class="registerSok clearfix alert alert-info control-panel">
+                <div class="content row-fluid">
+                    <form action="/specialsokning" id="form-special-sok" method="post">        <div>
+            <select id="Specialsokning" name="specialsokning" class="input-xlarge">
+                <option selected="selected" value="">V&#228;lj specials&#246;k</option>
+                <optgroup label="SKANNAT"></optgroup>
+                <option value="armens-rullor">Arm&#233;ns rullor</option>
+                <option value="domstolsarkiv">Domstolsarkiv</option>
+                <option value="ericsbergsarkivets-autografsamling">Ericsbergsarkivets autografsamling</option>
+                <option value="flottans-arkiv">Flottans arkiv</option>
+                <option value="forsamlingsutdrag">F&#246;rsamlingsutdrag 1860–1940</option>
+                <option value="generalmonsterrullor">Generalm&#246;nsterrullor</option>
+                <option value="jordebocker">Jordeb&#246;cker ca 1630–1750</option>
+                <option value="krigsarkivets-kartsamlingar">Krigsarkivets kart- och ritningssamlingar</option>
+                <option value="kyrkoarkiv">Kyrkoarkiv</option>
+                <option value="lagfartsbocker">Lagfartsb&#246;cker 1875–1933</option>
+                <option value="landskapshandlingar">Landskapshandlingar 1530–1630</option>
+                <option value="landskontor-landskansli">Landskontor och landskansli</option>
+                <option value="lokalundersokningar">Lokalunders&#246;kningar  (jordbruk)</option>
+                <option value="mantalslangder-stockholms-stad">Mantals- och kronotaxeringsl&#228;ngder Stockholms stad</option>
+                <option value="mantalslangder">Mantalsl&#228;ngder 1642–1820</option>
+                <option value="ockupationsarkivet-novgorod">Ockupationsarkivet fr&#229;n Novgorod</option>
+                <option value="roterings-utskrivningslangder">Roterings- och utskrivningsl&#228;ngder</option>
+                <option value="scb-fodda-vigda-doda">SCB f&#246;dda, vigda, d&#246;da 1860–1949</option>
+                <option value="summariska-folkmangdsredogorelser">Summariska folkm&#228;ngdsredog&#246;relser</option>
+                <option value="http://riksarkivet.se/geometriska">Sveriges &#228;ldsta storskaliga kartor</option>
+                <option value="trolldom">Trolldom</option>
+                <option value="alvsborgs-losen">&#196;lvsborgs l&#246;sen 1571 och 1613</option>
+                <optgroup label="DATABASER MED AVSKRIVET MATERIAL"></optgroup>
+                <option value="aktiebolag">Aktiebolag 1901–1935</option>
+                <option value="Oxenstierna">Axel Oxenstiernas skrifter och brev</option>
+                <option value="bouppteckningar">Bouppteckningar</option>
+                <option value="brevsamlingar">Brevsamlingar och korrespondens</option>
+                <option value="by-och-gardsnamn">By- och g&#229;rdsnamn</option>
+                <option value="domboksregister">Domboksregister, V&#228;stra h&#228;rad, J&#246;nk&#246;pings l&#228;n</option>
+                <option value="dodregister">D&#246;dregister</option>
+                <option value="estonia">Estoniasamlingen</option>
+                <option value="folkrakningar">Folkr&#228;kningar (Sveriges befolkning)</option>
+                <option value="https://riksarkivet.x-ref.se/">Fornsvensk bibliografi och Svensk runbibliografi</option>
+                <option value="frigivna-straffarbetsfangar">Frigivna straffarbetsf&#229;ngar</option>
+                <option value="fodelseregister">F&#246;delseregister</option>
+                <option value="garpenbergs-bruk">Garpenbergs bruk 1854–1874</option>
+                <option value="heraldisktregister">Heraldiskt register</option>
+                <option value="grill">Indelningsverket (Grill)</option>
+                <option value="konseljarenden">Konselj&#228;renden 1840–1920</option>
+                <option value="krigsarkivets-portrattsamlingar">Krigsarkivets portr&#228;ttsamlingar</option>
+                <option value="kungliga-patriotiska-sallskapets-medaljer">Kungliga Patriotiska S&#228;llskapets medaljer</option>
+                <option value="Lagfartsregister">Lagfartsregister</option>
+                <option value="MPO">Medeltida pergamentomslag</option>
+                <option value="medicinalstyrelsen">Medicinalstyrelsen 1876–1915</option>
+                <option value="topografier">Orter, Sveriges indelning genom tiderna (NAD)</option>
+                <option value="personregister-skrivelser-kungl-majt">Personregister &#246;ver skrivelser till Kungl. Maj:t</option>
+                <option value="rosenberg">Rosenbergs geografiska lexikon</option>
+                <option value="sdhk">SDHK (Medeltidsbrev)</option>
+                <option value="sjomanshus">Sj&#246;manshus (sj&#246;folk)</option>
+                <option value="smolensk">Smolenskarkivet 1604–1611</option>
+                <option value="sockenstamma">Sockenst&#228;mma J&#228;mtlands l&#228;n</option>
+                <option value="http://sok.riksarkivet.se/SBL">Svenskt biografiskt lexikon</option>
+                <option value="http://riksarkivet.se/tora">Topografiskt register p&#229; Riksarkivet (TORA)</option>
+                <option value="torparforsvar">Torparf&#246;rsvar V&#228;sternorrlands och J&#228;mtlands l&#228;n</option>
+                <option value="vigselregister">Vigselregister</option>
+                <optgroup label="&#214;VRIGT"></optgroup>
+                <option value="nytt-material">Nyskannade volymer</option>
+            </select><input class="nojsSubmit" value="Välj" type="submit" />
+        </div>
+</form>
+                    <fieldset class="mellanrum-top-tio">
+                        <legend>
+                            Indelningsverket (Grill)
+         
+    <label class="pull-right">
+            <a href="#" class="sokhjalpIkon hidden-phone" style="font-family: Verdana,Arial,Helvetica;font-size: small;" title="S&#246;ktips|&lt;b&gt;Enkel s&#246;kning&lt;/b&gt;&lt;p&gt;Skriv in ett eller flera s&#246;kord. Alla ord m&#229;ste finnas med i posten f&#246;r att ge tr&#228;ff.&lt;/p&gt;&lt;b&gt;Trunkering&lt;/b&gt;&lt;p&gt;Anv&#228;nd asterisk (*) f&#246;r att hitta ord med varierande &#228;ndelse eller f&#246;rled. En s&#246;kning p&#229; t.ex. teater* ger tr&#228;ff p&#229; teater, teaterdirekt&#246;r, teaterf&#246;rlag etc. En s&#246;kning p&#229; *resa ger tr&#228;ff p&#229; studieresa och hemresa etc.&lt;/p&gt;&lt;b&gt;Frass&#246;kning&lt;/b&gt;&lt;p&gt;Anv&#228;nd citattecken (&#39;&#39; &#39;&#39;) f&#246;r att s&#246;ka p&#229; exakta fraser. En s&#246;kning p&#229; t.ex. &#39;&#39;svenska kungar&#39;&#39; ger tr&#228;ffar d&#229; orden f&#246;rekommer tillsammans och i angiven ordning.&lt;/p&gt;&lt;b&gt;Maskering&lt;/b&gt;&lt;p&gt;Anv&#228;nd fr&#229;getecken (?) f&#246;r att f&#229; tr&#228;ff p&#229; stavningsvarianter av ett ord. Varje fr&#229;getecken svarar mot ett tecken. En s&#246;kning p&#229; t.ex. G??le ger tr&#228;ff p&#229; b&#229;de G&#228;vle, Gefle och G&#228;fle.&lt;/p&gt;&lt;b&gt;Uteslut ett ord&lt;/b&gt;&lt;p&gt;Anv&#228;nd minustecken (-) f&#246;r att utesluta ett s&#246;kord. En s&#246;kning p&#229; t.ex. Uppsala -slott ger tr&#228;ff p&#229; alla poster som inneh&#229;ller ordet Uppsala men inte de poster som samtidigt inneh&#229;ller ordet slott.&lt;/p&gt;">S&#246;ktips</a>
+    </label>
+                        </legend>
+                    </fieldset>
+                </div>
+            
+<form action="/grill/" class="grill" method="get">        <div id="simpleSearch" class="clearfix">
+            <div id="simpleSearchRow1" class="content row-fluid">
+                <div class="span3">
+    <label for="Fritext">
+        <span>
+        
+                        <strong>Ort</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpFritext" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoFritext" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Grill","LabelFor":"Fritext","Label":"Ort","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <input class="input-span6" id="Rusthall" name="Rusthall" tabindex="1" type="text" value="" />
+                </div>
+                <div class="span3">
+    <label for="Socken">
+        <span>
+        
+                        <strong>Socken</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpSocken" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoSocken" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Grill","LabelFor":"Socken","Label":"Socken","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <select id="Socken" name="Socken" tabindex="2" title="Välj socken"><option value="">Alla</option>
+<option value="Abild">Abild</option>
+<option value="Acklinga">Acklinga</option>
+<option value="Adelöv">Adel&#246;v</option>
+<option value="Agnetorp">Agnetorp</option>
+<option value="Agunnaryd">Agunnaryd</option>
+<option value="Akebäck">Akeb&#228;ck</option>
+<option value="Ala">Ala</option>
+<option value="Alboga">Alboga</option>
+<option value="Alböke">Alb&#246;ke</option>
+<option value="Ale-Skövde">Ale-Sk&#246;vde</option>
+<option value="Alfshög">Alfsh&#246;g</option>
+<option value="Alfta">Alfta</option>
+<option value="Algutsboda">Algutsboda</option>
+<option value="Algutsrum">Algutsrum</option>
+<option value="Algutstorp">Algutstorp</option>
+<option value="Alingsås landsförs">Alings&#229;s landsf&#246;rs</option>
+<option value="Allerum">Allerum</option>
+<option value="Allhelgona">Allhelgona</option>
+<option value="Almby">Almby</option>
+<option value="Almesåkra">Almes&#229;kra</option>
+<option value="Almundsryd">Almundsryd</option>
+<option value="Almunge">Almunge</option>
+<option value="Alnö">Aln&#246;</option>
+<option value="Alseda">Alseda</option>
+<option value="Alsen">Alsen</option>
+<option value="Alsike">Alsike</option>
+<option value="Alskog">Alskog</option>
+<option value="Alstad">Alstad</option>
+<option value="Alster">Alster</option>
+<option value="Altuna">Altuna</option>
+<option value="Alunda">Alunda</option>
+<option value="Alva">Alva</option>
+<option value="Alvesta">Alvesta</option>
+<option value="Ambjörnarp">Ambj&#246;rnarp</option>
+<option value="Amnehärad">Amneh&#228;rad</option>
+<option value="Anderslöv">Andersl&#246;v</option>
+<option value="Anderstorp">Anderstorp</option>
+<option value="Andrarum">Andrarum</option>
+<option value="Aneboda">Aneboda</option>
+<option value="Anga">Anga</option>
+<option value="Angarn">Angarn</option>
+<option value="Angelstad">Angelstad</option>
+<option value="Angerdshestra">Angerdshestra</option>
+<option value="Angered">Angered</option>
+<option value="Annelöv">Annel&#246;v</option>
+<option value="Annerstad">Annerstad</option>
+<option value="Anundsjö">Anundsj&#246;</option>
+<option value="Appuna">Appuna</option>
+<option value="Arboga landsförs">Arboga landsf&#246;rs</option>
+<option value="Arbrå">Arbr&#229;</option>
+<option value="Arby">Arby</option>
+<option value="Ardre">Ardre</option>
+<option value="Arnäs">Arn&#228;s</option>
+<option value="Arnö">Arn&#246;</option>
+<option value="Arrie">Arrie</option>
+<option value="Arvika">Arvika</option>
+<option value="Asa">Asa</option>
+<option value="Asarum">Asarum</option>
+<option value="Asby">Asby</option>
+<option value="Asige">Asige</option>
+<option value="Ask">Ask</option>
+<option value="Askeby">Askeby</option>
+<option value="Asker">Asker</option>
+<option value="Askersund">Askersund</option>
+<option value="Askeryd">Askeryd</option>
+<option value="Askim">Askim</option>
+<option value="Asklanda">Asklanda</option>
+<option value="Askome">Askome</option>
+<option value="Askum">Askum</option>
+<option value="Asmundtorp">Asmundtorp</option>
+<option value="Aspås">Asp&#229;s</option>
+<option value="Aspö">Asp&#246;</option>
+<option value="Atlingbo">Atlingbo</option>
+<option value="Attmar">Attmar</option>
+<option value="Augerum">Augerum</option>
+<option value="Ausås">Aus&#229;s</option>
+<option value="Backa">Backa</option>
+<option value="Backaryd">Backaryd</option>
+<option value="Baldringe">Baldringe</option>
+<option value="Balingsta">Balingsta</option>
+<option value="Balkåkra">Balk&#229;kra</option>
+<option value="Baltak">Baltak</option>
+<option value="Bankekind">Bankekind</option>
+<option value="Bankeryd">Bankeryd</option>
+<option value="Bara">Bara</option>
+<option value="Barkeryd">Barkeryd</option>
+<option value="Barkåkra">Bark&#229;kra</option>
+<option value="Barlingbo">Barlingbo</option>
+<option value="Barnarp">Barnarp</option>
+<option value="Barne-Åsaka">Barne-&#197;saka</option>
+<option value="Barsebäck">Barseb&#228;ck</option>
+<option value="Barva">Barva</option>
+<option value="Beateberg">Beateberg</option>
+<option value="Bellö">Bell&#246;</option>
+<option value="Benestad">Benestad</option>
+<option value="Berg">Berg</option>
+<option value="Berga">Berga</option>
+<option value="Berghem">Berghem</option>
+<option value="Bergshammar">Bergshammar</option>
+<option value="Bergsjö">Bergsj&#246;</option>
+<option value="Bergstena">Bergstena</option>
+<option value="Bergum">Bergum</option>
+<option value="Bergunda">Bergunda</option>
+<option value="Bettna">Bettna</option>
+<option value="Billeberga">Billeberga</option>
+<option value="Billinge">Billinge</option>
+<option value="Binneberg">Binneberg</option>
+<option value="Biskopskulla">Biskopskulla</option>
+<option value="Bitterna">Bitterna</option>
+<option value="Bjurbäck">Bjurb&#228;ck</option>
+<option value="Bjurholm">Bjurholm</option>
+<option value="Bjursås">Bjurs&#229;s</option>
+<option value="Bjurum">Bjurum</option>
+<option value="Bjuråker">Bjur&#229;ker</option>
+<option value="Bjuv">Bjuv</option>
+<option value="Bjälbo">Bj&#228;lbo</option>
+<option value="Bjällerup">Bj&#228;llerup</option>
+<option value="Bjärby">Bj&#228;rby</option>
+<option value="Bjäresjö">Bj&#228;resj&#246;</option>
+<option value="Bjärke">Bj&#228;rke</option>
+<option value="Bjärklunda">Bj&#228;rklunda</option>
+<option value="Bjärshög">Bj&#228;rsh&#246;g</option>
+<option value="Bjärtrå">Bj&#228;rtr&#229;</option>
+<option value="Björke">Bj&#246;rke</option>
+<option value="Björkeberg">Bj&#246;rkeberg</option>
+<option value="Björketorp">Bj&#246;rketorp</option>
+<option value="Björklinge">Bj&#246;rklinge</option>
+<option value="Björksta">Bj&#246;rksta</option>
+<option value="Björkvik">Bj&#246;rkvik</option>
+<option value="Björkö">Bj&#246;rk&#246;</option>
+<option value="Björlanda">Bj&#246;rlanda</option>
+<option value="Björna">Bj&#246;rna</option>
+<option value="Björnekulla">Bj&#246;rnekulla</option>
+<option value="Björnlunda">Bj&#246;rnlunda</option>
+<option value="Björskog">Bj&#246;rskog</option>
+<option value="Björsäter">Bj&#246;rs&#228;ter</option>
+<option value="Blacksta">Blacksta</option>
+<option value="Blackstad">Blackstad</option>
+<option value="Bladåker">Blad&#229;ker</option>
+<option value="Blentarp">Blentarp</option>
+<option value="Blidsberg">Blidsberg</option>
+<option value="Blidö">Blid&#246;</option>
+<option value="Blomskog">Blomskog</option>
+<option value="Blädinge">Bl&#228;dinge</option>
+<option value="Bo">Bo</option>
+<option value="Boda">Boda</option>
+<option value="Bodarp">Bodarp</option>
+<option value="Bodsjö">Bodsj&#246;</option>
+<option value="Bodum">Bodum</option>
+<option value="Boge">Boge</option>
+<option value="Boglösa">Bogl&#246;sa</option>
+<option value="Bogsta">Bogsta</option>
+<option value="Bokenäs">Boken&#228;s</option>
+<option value="Bollebygd">Bollebygd</option>
+<option value="Bollerup">Bollerup</option>
+<option value="Bollnäs">Bolln&#228;s</option>
+<option value="Bolmsö">Bolms&#246;</option>
+<option value="Bolshög">Bolsh&#246;g</option>
+<option value="Bolstad">Bolstad</option>
+<option value="Bolum">Bolum</option>
+<option value="Bonderup">Bonderup</option>
+<option value="Bondstorp">Bondstorp</option>
+<option value="Boo">Boo</option>
+<option value="Borg">Borg</option>
+<option value="Borgeby">Borgeby</option>
+<option value="Borgsjö">Borgsj&#246;</option>
+<option value="Borgstena">Borgstena</option>
+<option value="Borgunda">Borgunda</option>
+<option value="Borgvik">Borgvik</option>
+<option value="Borlunda">Borlunda</option>
+<option value="Borrby">Borrby</option>
+<option value="Borrie">Borrie</option>
+<option value="Bosarp">Bosarp</option>
+<option value="Bosebo">Bosebo</option>
+<option value="Bosjökloster">Bosj&#246;kloster</option>
+<option value="Boteå">Bote&#229;</option>
+<option value="Botilsäter">Botils&#228;ter</option>
+<option value="Botkyrka">Botkyrka</option>
+<option value="Bottna">Bottna</option>
+<option value="Bottnaryd">Bottnaryd</option>
+<option value="Brandstad">Brandstad</option>
+<option value="Brandstorp">Brandstorp</option>
+<option value="Brastad">Brastad</option>
+<option value="Breared">Breared</option>
+<option value="Bred">Bred</option>
+<option value="Bredared">Bredared</option>
+<option value="Bredaryd">Bredaryd</option>
+<option value="Bredestad">Bredestad</option>
+<option value="Bredsäter">Breds&#228;ter</option>
+<option value="Bredsätra">Breds&#228;tra</option>
+<option value="Brevik">Brevik</option>
+<option value="Bringetofta">Bringetofta</option>
+<option value="Brismene">Brismene</option>
+<option value="Bro">Bro</option>
+<option value="Broby">Broby</option>
+<option value="Broddarp">Broddarp</option>
+<option value="Broddetorp">Broddetorp</option>
+<option value="Bromma">Bromma</option>
+<option value="Brunflo">Brunflo</option>
+<option value="Brunn">Brunn</option>
+<option value="Brunnby">Brunnby</option>
+<option value="Brunneby">Brunneby</option>
+<option value="Brunnhem">Brunnhem</option>
+<option value="Brunskog">Brunskog</option>
+<option value="Brålanda">Br&#229;landa</option>
+<option value="Bråttensby">Br&#229;ttensby</option>
+<option value="Bräcke">Br&#228;cke</option>
+<option value="Bräkne-Hoby">Br&#228;kne-Hoby</option>
+<option value="Brämhult">Br&#228;mhult</option>
+<option value="Brännkyrka">Br&#228;nnkyrka</option>
+<option value="Brönnestad">Br&#246;nnestad</option>
+<option value="Brösarp">Br&#246;sarp</option>
+<option value="Bunge">Bunge</option>
+<option value="Bunkeflo">Bunkeflo</option>
+<option value="Burlöv">Burl&#246;v</option>
+<option value="Burs">Burs</option>
+<option value="Burseryd">Burseryd</option>
+<option value="Burträsk">Burtr&#228;sk</option>
+<option value="Buttle">Buttle</option>
+<option value="By">By</option>
+<option value="Byarum">Byarum</option>
+<option value="Bygdeå">Bygde&#229;</option>
+<option value="Bårslöv">B&#229;rsl&#246;v</option>
+<option value="Bäck">B&#228;ck</option>
+<option value="Bäckaby">B&#228;ckaby</option>
+<option value="Bäcke">B&#228;cke</option>
+<option value="Bäckebo">B&#228;ckebo</option>
+<option value="Bäckseda">B&#228;ckseda</option>
+<option value="Bäl">B&#228;l</option>
+<option value="Bälaryd">B&#228;laryd</option>
+<option value="Bälinge">B&#228;linge</option>
+<option value="Bällefors">B&#228;llefors</option>
+<option value="Bärbo">B&#228;rbo</option>
+<option value="Bäreberg">B&#228;reberg</option>
+<option value="Bärfendal">B&#228;rfendal</option>
+<option value="Bäve">B&#228;ve</option>
+<option value="Böda">B&#246;da</option>
+<option value="Böja">B&#246;ja</option>
+<option value="Böne">B&#246;ne</option>
+<option value="Börje">B&#246;rje</option>
+<option value="Börringe">B&#246;rringe</option>
+<option value="Börrum">B&#246;rrum</option>
+<option value="Börstig">B&#246;rstig</option>
+<option value="Börstil">B&#246;rstil</option>
+<option value="Bösarp">B&#246;sarp</option>
+<option value="Dagsberg">Dagsberg</option>
+<option value="Dagstorp">Dagstorp</option>
+<option value="Dal">Dal</option>
+<option value="Dala">Dala</option>
+<option value="Dalarö">Dalar&#246;</option>
+<option value="Dalby">Dalby</option>
+<option value="Dalhem">Dalhem</option>
+<option value="Dalköpinge">Dalk&#246;pinge</option>
+<option value="Dals-Ed">Dals-Ed</option>
+<option value="Dalskog">Dalskog</option>
+<option value="Dalstorp">Dalstorp</option>
+<option value="Dalum">Dalum</option>
+<option value="Danderyd">Danderyd</option>
+<option value="Danmark">Danmark</option>
+<option value="Dannemora">Dannemora</option>
+<option value="Dannike">Dannike</option>
+<option value="Dannäs">Dann&#228;s</option>
+<option value="Daretorp">Daretorp</option>
+<option value="Degeberga">Degeberga</option>
+<option value="Delsbo">Delsbo</option>
+<option value="Dillnäs">Dilln&#228;s</option>
+<option value="Dimbo">Dimbo</option>
+<option value="Dingtuna">Dingtuna</option>
+<option value="Djurröd">Djurr&#246;d</option>
+<option value="Djursdala">Djursdala</option>
+<option value="Djurö">Djur&#246;</option>
+<option value="Dragsmark">Dragsmark</option>
+<option value="Drev">Drev</option>
+<option value="Drothem">Drothem</option>
+<option value="Drängsered">Dr&#228;ngsered</option>
+<option value="Dunker">Dunker</option>
+<option value="Dädesjö">D&#228;desj&#246;</option>
+<option value="Dänningelanda">D&#228;nningelanda</option>
+<option value="Döderhult">D&#246;derhult</option>
+<option value="Dörarp">D&#246;rarp</option>
+<option value="Dörby">D&#246;rby</option>
+<option value="Ed">Ed</option>
+<option value="Eda">Eda</option>
+<option value="Edebo">Edebo</option>
+<option value="Edestad">Edestad</option>
+<option value="Edsberg">Edsberg</option>
+<option value="Edsbro">Edsbro</option>
+<option value="Edsele">Edsele</option>
+<option value="Edshult">Edshult</option>
+<option value="Edsleskog">Edsleskog</option>
+<option value="Edsvära">Edsv&#228;ra</option>
+<option value="Edåsa">Ed&#229;sa</option>
+<option value="Eftra">Eftra</option>
+<option value="Egby">Egby</option>
+<option value="Eggby">Eggby</option>
+<option value="Eggvena">Eggvena</option>
+<option value="Ek">Ek</option>
+<option value="Ekby">Ekby</option>
+<option value="Eke">Eke</option>
+<option value="Ekeberga">Ekeberga</option>
+<option value="Ekeby">Ekeby</option>
+<option value="Ekebyborna">Ekebyborna</option>
+<option value="Eker">Eker</option>
+<option value="Ekeskog">Ekeskog</option>
+<option value="Ekshärad">Eksh&#228;rad</option>
+<option value="Eksjö">Eksj&#246;</option>
+<option value="Eksta">Eksta</option>
+<option value="Eling">Eling</option>
+<option value="Eljaröd">Eljar&#246;d</option>
+<option value="Elleholm">Elleholm</option>
+<option value="Emmislöv">Emmisl&#246;v</option>
+<option value="Endre">Endre</option>
+<option value="Enköping">Enk&#246;ping</option>
+<option value="Enköpings-Näs">Enk&#246;pings-N&#228;s</option>
+<option value="Enslöv">Ensl&#246;v</option>
+<option value="Enåker">En&#229;ker</option>
+<option value="Enånger">En&#229;nger</option>
+<option value="Enåsa">En&#229;sa</option>
+<option value="Eriksberg">Eriksberg</option>
+<option value="Erikstad">Erikstad</option>
+<option value="Eringsboda">Eringsboda</option>
+<option value="Erska">Erska</option>
+<option value="Erstavik">Erstavik</option>
+<option value="Ervalla">Ervalla</option>
+<option value="Esarp">Esarp</option>
+<option value="Eskelhem">Eskelhem</option>
+<option value="Eskilstorp">Eskilstorp</option>
+<option value="Eskilstuna Fors">Eskilstuna Fors</option>
+<option value="Eskilstuna Kloster">Eskilstuna Kloster</option>
+<option value="Eskilsäter">Eskils&#228;ter</option>
+<option value="Eslöv">Esl&#246;v</option>
+<option value="Essunga">Essunga</option>
+<option value="Estuna">Estuna</option>
+<option value="Etelhem">Etelhem</option>
+<option value="Everlöv">Everl&#246;v</option>
+<option value="Everöd">Ever&#246;d</option>
+<option value="Fagered">Fagered</option>
+<option value="Fagerhult">Fagerhult</option>
+<option value="Falköping">Falk&#246;ping</option>
+<option value="Fardhem">Fardhem</option>
+<option value="Farhult">Farhult</option>
+<option value="Faringe">Faringe</option>
+<option value="Farstorp">Farstorp</option>
+<option value="Fasterna">Fasterna</option>
+<option value="Felestad">Felestad</option>
+<option value="Fellingsbro">Fellingsbro</option>
+<option value="Femsjö">Femsj&#246;</option>
+<option value="Fide">Fide</option>
+<option value="Film">Film</option>
+<option value="Finja">Finja</option>
+<option value="Finnekumla">Finnekumla</option>
+<option value="Finnerödja">Finner&#246;dja</option>
+<option value="Fittja">Fittja</option>
+<option value="Fivelstad">Fivelstad</option>
+<option value="Fivlered">Fivlered</option>
+<option value="Fjelie">Fjelie</option>
+<option value="Fjälkestad">Fj&#228;lkestad</option>
+<option value="Fjälkinge">Fj&#228;lkinge</option>
+<option value="Fjällsjö">Fj&#228;llsj&#246;</option>
+<option value="Fjärestad">Fj&#228;restad</option>
+<option value="Fjärås">Fj&#228;r&#229;s</option>
+<option value="Flackarp">Flackarp</option>
+<option value="Flakeberg">Flakeberg</option>
+<option value="Flen">Flen</option>
+<option value="Fleninge">Fleninge</option>
+<option value="Fleringe">Fleringe</option>
+<option value="Flisby">Flisby</option>
+<option value="Fliseryd">Fliseryd</option>
+<option value="Flistad">Flistad</option>
+<option value="Flittorp">Flittorp</option>
+<option value="Flo">Flo</option>
+<option value="Floby">Floby</option>
+<option value="Floda">Floda</option>
+<option value="Fläckebo">Fl&#228;ckebo</option>
+<option value="Flädie">Fl&#228;die</option>
+<option value="Fogdö">Fogd&#246;</option>
+<option value="Fole">Fole</option>
+<option value="Folkärna">Folk&#228;rna</option>
+<option value="Follingbo">Follingbo</option>
+<option value="Fornåsa">Forn&#229;sa</option>
+<option value="Fors">Fors</option>
+<option value="Forsa">Forsa</option>
+<option value="Forsby">Forsby</option>
+<option value="Forserum">Forserum</option>
+<option value="Forsheda">Forsheda</option>
+<option value="Forshem">Forshem</option>
+<option value="Forshälla">Forsh&#228;lla</option>
+<option value="Forsmark">Forsmark</option>
+<option value="Forssa">Forssa</option>
+<option value="Fosie">Fosie</option>
+<option value="Foss">Foss</option>
+<option value="Fotskäl">Fotsk&#228;l</option>
+<option value="Fredsberg">Fredsberg</option>
+<option value="Fresta">Fresta</option>
+<option value="Fridene">Fridene</option>
+<option value="Fridlevstad">Fridlevstad</option>
+<option value="Friel">Friel</option>
+<option value="Friggeråker">Frigger&#229;ker</option>
+<option value="Frillestad">Frillestad</option>
+<option value="Frillesås">Frilles&#229;s</option>
+<option value="Frinnaryd">Frinnaryd</option>
+<option value="Fristad">Fristad</option>
+<option value="Fritsla">Fritsla</option>
+<option value="Fru Alstad">Fru Alstad</option>
+<option value="Frustuna">Frustuna</option>
+<option value="Frustuna-Kattnäs">Frustuna-Kattn&#228;s</option>
+<option value="Fryele">Fryele</option>
+<option value="Frykerud">Frykerud</option>
+<option value="Fryksände">Fryks&#228;nde</option>
+<option value="Främmestad">Fr&#228;mmestad</option>
+<option value="Frändefors">Fr&#228;ndefors</option>
+<option value="Fränninge">Fr&#228;nninge</option>
+<option value="Fröderyd">Fr&#246;deryd</option>
+<option value="Frödinge">Fr&#246;dinge</option>
+<option value="Fröjel">Fr&#246;jel</option>
+<option value="Fröjered">Fr&#246;jered</option>
+<option value="Fröskog">Fr&#246;skog</option>
+<option value="Fröslunda">Fr&#246;slunda</option>
+<option value="Frösthult">Fr&#246;sthult</option>
+<option value="Frösunda">Fr&#246;sunda</option>
+<option value="Frösve">Fr&#246;sve</option>
+<option value="Frösö">Fr&#246;s&#246;</option>
+<option value="Frötuna">Fr&#246;tuna</option>
+<option value="Fuglie">Fuglie</option>
+<option value="Fullestad">Fullestad</option>
+<option value="Fulltofta">Fulltofta</option>
+<option value="Fullösa">Full&#246;sa</option>
+<option value="Funbo">Funbo</option>
+<option value="Furingstad">Furingstad</option>
+<option value="Furuby">Furuby</option>
+<option value="Fuxerna">Fuxerna</option>
+<option value="Fyrunga">Fyrunga</option>
+<option value="Fågeltofta">F&#229;geltofta</option>
+<option value="Fåglum">F&#229;glum</option>
+<option value="Fårö">F&#229;r&#246;</option>
+<option value="Fägre">F&#228;gre</option>
+<option value="Fänneslunda">F&#228;nneslunda</option>
+<option value="Färed">F&#228;red</option>
+<option value="Färgaryd">F&#228;rgaryd</option>
+<option value="Färgelanda">F&#228;rgelanda</option>
+<option value="Färila">F&#228;rila</option>
+<option value="Färingtofta">F&#228;ringtofta</option>
+<option value="Färlöv">F&#228;rl&#246;v</option>
+<option value="Fässberg">F&#228;ssberg</option>
+<option value="Fölene">F&#246;lene</option>
+<option value="Föllinge">F&#246;llinge</option>
+<option value="Föra">F&#246;ra</option>
+<option value="Förkärla">F&#246;rk&#228;rla</option>
+<option value="Förlanda">F&#246;rlanda</option>
+<option value="Förlösa">F&#246;rl&#246;sa</option>
+<option value="Förslöv">F&#246;rsl&#246;v</option>
+<option value="Gagnef">Gagnef</option>
+<option value="Gamla Uppsala">Gamla Uppsala</option>
+<option value="Gamleby">Gamleby</option>
+<option value="Gammalkil">Gammalkil</option>
+<option value="Gammalstorp">Gammalstorp</option>
+<option value="Gammelgarn">Gammelgarn</option>
+<option value="Ganthem">Ganthem</option>
+<option value="Garde">Garde</option>
+<option value="Genarp">Genarp</option>
+<option value="Genneved">Genneved</option>
+<option value="Gerum">Gerum</option>
+<option value="Gessie">Gessie</option>
+<option value="Gestad">Gestad</option>
+<option value="Gesäter">Ges&#228;ter</option>
+<option value="Getinge">Getinge</option>
+<option value="Gideå">Gide&#229;</option>
+<option value="Gillberga">Gillberga</option>
+<option value="Gillstad">Gillstad</option>
+<option value="Gingri">Gingri</option>
+<option value="Giresta">Giresta</option>
+<option value="Gislaved">Gislaved</option>
+<option value="Gislöv">Gisl&#246;v</option>
+<option value="Gistad">Gistad</option>
+<option value="Gladhammar">Gladhammar</option>
+<option value="Gladsax">Gladsax</option>
+<option value="Glanshammar">Glanshammar</option>
+<option value="Glava">Glava</option>
+<option value="Glemminge">Glemminge</option>
+<option value="Glimåkra">Glim&#229;kra</option>
+<option value="Glostorp">Glostorp</option>
+<option value="Glumslöv">Glumsl&#246;v</option>
+<option value="Glömminge">Gl&#246;mminge</option>
+<option value="Gnarp">Gnarp</option>
+<option value="Gnosjö">Gnosj&#246;</option>
+<option value="Godegård">Godeg&#229;rd</option>
+<option value="Gothem">Gothem</option>
+<option value="Gottröra">Gottr&#246;ra</option>
+<option value="Grangärde">Grang&#228;rde</option>
+<option value="Granhult">Granhult</option>
+<option value="Grava">Grava</option>
+<option value="Grebo">Grebo</option>
+<option value="Grevbäck">Grevb&#228;ck</option>
+<option value="Grevie">Grevie</option>
+<option value="Grimeton">Grimeton</option>
+<option value="Grimmared">Grimmared</option>
+<option value="Grinneröd">Grinner&#246;d</option>
+<option value="Grinstad">Grinstad</option>
+<option value="Grolanda">Grolanda</option>
+<option value="Grovare">Grovare</option>
+<option value="Grude">Grude</option>
+<option value="Grums">Grums</option>
+<option value="Grundsunda">Grundsunda</option>
+<option value="Gryt">Gryt</option>
+<option value="Gryta">Gryta</option>
+<option value="Gryteryd">Gryteryd</option>
+<option value="Grytnäs">Grytn&#228;s</option>
+<option value="Gränna">Gr&#228;nna</option>
+<option value="Gräsgård">Gr&#228;sg&#229;rd</option>
+<option value="Gräsmark">Gr&#228;smark</option>
+<option value="Gräsö">Gr&#228;s&#246;</option>
+<option value="Gräve">Gr&#228;ve</option>
+<option value="Grödinge">Gr&#246;dinge</option>
+<option value="Grönahög">Gr&#246;nah&#246;g</option>
+<option value="Grönby">Gr&#246;nby</option>
+<option value="Grötlingbo">Gr&#246;tlingbo</option>
+<option value="Gualöv">Gual&#246;v</option>
+<option value="Gudhem">Gudhem</option>
+<option value="Gudmundrå">Gudmundr&#229;</option>
+<option value="Gudmuntorp">Gudmuntorp</option>
+<option value="Guldrupe">Guldrupe</option>
+<option value="Gullabo">Gullabo</option>
+<option value="Gullarp">Gullarp</option>
+<option value="Gullered">Gullered</option>
+<option value="Gumlösa">Guml&#246;sa</option>
+<option value="Gunnarp">Gunnarp</option>
+<option value="Gunnarsjö">Gunnarsj&#246;</option>
+<option value="Gunnarsnäs">Gunnarsn&#228;s</option>
+<option value="Gunnilbo">Gunnilbo</option>
+<option value="Gustafs">Gustafs</option>
+<option value="Gustav Adolf">Gustav Adolf</option>
+<option value="Gylle">Gylle</option>
+<option value="Gårdby">G&#229;rdby</option>
+<option value="Gårdeby">G&#229;rdeby</option>
+<option value="Gårdsby">G&#229;rdsby</option>
+<option value="Gårdstånga">G&#229;rdst&#229;nga</option>
+<option value="Gårdveda">G&#229;rdveda</option>
+<option value="Gåsinge">G&#229;singe</option>
+<option value="Gällared">G&#228;llared</option>
+<option value="Gällaryd">G&#228;llaryd</option>
+<option value="Gällersta">G&#228;llersta</option>
+<option value="Gällinge">G&#228;llinge</option>
+<option value="Gällstad">G&#228;llstad</option>
+<option value="Gärdhem">G&#228;rdhem</option>
+<option value="Gärdserum">G&#228;rdserum</option>
+<option value="Gärdslösa">G&#228;rdsl&#246;sa</option>
+<option value="Gärdslöv">G&#228;rdsl&#246;v</option>
+<option value="Gödelöv">G&#246;del&#246;v</option>
+<option value="Gödestad">G&#246;destad</option>
+<option value="Gökhem">G&#246;khem</option>
+<option value="Görslöv">G&#246;rsl&#246;v</option>
+<option value="Gösslunda">G&#246;sslunda</option>
+<option value="Götene">G&#246;tene</option>
+<option value="Göteryd">G&#246;teryd</option>
+<option value="Göteve">G&#246;teve</option>
+<option value="Götlunda">G&#246;tlunda</option>
+<option value="Hablingbo">Hablingbo</option>
+<option value="Habo">Habo</option>
+<option value="Hacksta">Hacksta</option>
+<option value="Hackvad">Hackvad</option>
+<option value="Hackås">Hack&#229;s</option>
+<option value="Haga">Haga</option>
+<option value="Hagby">Hagby</option>
+<option value="Hagebyhöga">Hagebyh&#246;ga</option>
+<option value="Hagelberg">Hagelberg</option>
+<option value="Hagshult">Hagshult</option>
+<option value="Hajom">Hajom</option>
+<option value="Hajum">Hajum</option>
+<option value="Hakarp">Hakarp</option>
+<option value="Hall">Hall</option>
+<option value="Halla">Halla</option>
+<option value="Hallaryd">Hallaryd</option>
+<option value="Hallaröd">Hallar&#246;d</option>
+<option value="Hallen">Hallen</option>
+<option value="Hallingeberg">Hallingeberg</option>
+<option value="Hallsberg">Hallsberg</option>
+<option value="Hallstahammar">Hallstahammar</option>
+<option value="Halltorp">Halltorp</option>
+<option value="Halmstad">Halmstad</option>
+<option value="Halna">Halna</option>
+<option value="Halvås">Halv&#229;s</option>
+<option value="Hammar">Hammar</option>
+<option value="Hammarby">Hammarby</option>
+<option value="Hammarlunda">Hammarlunda</option>
+<option value="Hammarlöv">Hammarl&#246;v</option>
+<option value="Hammarö">Hammar&#246;</option>
+<option value="Hammenhög">Hammenh&#246;g</option>
+<option value="Hammerdal">Hammerdal</option>
+<option value="Hamneda">Hamneda</option>
+<option value="Hamra">Hamra</option>
+<option value="Hamrånge">Hamr&#229;nge</option>
+<option value="Hanebo">Hanebo</option>
+<option value="Hangelösa">Hangel&#246;sa</option>
+<option value="Hangvar">Hangvar</option>
+<option value="Hanhals">Hanhals</option>
+<option value="Hannas">Hannas</option>
+<option value="Hannäs">Hann&#228;s</option>
+<option value="Haraker">Haraker</option>
+<option value="Harbo">Harbo</option>
+<option value="Hardeberga">Hardeberga</option>
+<option value="Hardemo">Hardemo</option>
+<option value="Harestad">Harestad</option>
+<option value="Harg">Harg</option>
+<option value="Harlösa">Harl&#246;sa</option>
+<option value="Harmånger">Harm&#229;nger</option>
+<option value="Harplinge">Harplinge</option>
+<option value="Harstad">Harstad</option>
+<option value="Hassela">Hassela</option>
+<option value="Hassle">Hassle</option>
+<option value="Hassle-Bösarp">Hassle-B&#246;sarp</option>
+<option value="Hasslösa">Hassl&#246;sa</option>
+<option value="Hasslöv">Hassl&#246;v</option>
+<option value="Haurida">Haurida</option>
+<option value="Havdhem">Havdhem</option>
+<option value="Haverö">Haver&#246;</option>
+<option value="Hed">Hed</option>
+<option value="Heda">Heda</option>
+<option value="Hedared">Hedared</option>
+<option value="Hede">Hede</option>
+<option value="Hedemora">Hedemora</option>
+<option value="Hedeskoga">Hedeskoga</option>
+<option value="Hedesunda">Hedesunda</option>
+<option value="Hejde">Hejde</option>
+<option value="Hejdeby">Hejdeby</option>
+<option value="Hejnum">Hejnum</option>
+<option value="Helga Trefaldighet">Helga Trefaldighet</option>
+<option value="Helgarö">Helgar&#246;</option>
+<option value="Helgesta">Helgesta</option>
+<option value="Helgona">Helgona</option>
+<option value="Helgum">Helgum</option>
+<option value="Hellvi">Hellvi</option>
+<option value="Helsingborg">Helsingborg</option>
+<option value="Hemmesdynge">Hemmesdynge</option>
+<option value="Hemmesjö">Hemmesj&#246;</option>
+<option value="Hemse">Hemse</option>
+<option value="Hemsjö">Hemsj&#246;</option>
+<option value="Herrberga">Herrberga</option>
+<option value="Herrestad">Herrestad</option>
+<option value="Herrljunga">Herrljunga</option>
+<option value="Herråkra">Herr&#229;kra</option>
+<option value="Hidinge">Hidinge</option>
+<option value="Hietaniemi">Hietaniemi</option>
+<option value="Hillared">Hillared</option>
+<option value="Hille">Hille</option>
+<option value="Himmeta">Himmeta</option>
+<option value="Hinneryd">Hinneryd</option>
+<option value="Hjo">Hjo</option>
+<option value="Hjorted">Hjorted</option>
+<option value="Hjortsberga">Hjortsberga</option>
+<option value="Hjälmseryd">Hj&#228;lmseryd</option>
+<option value="Hjälsta">Hj&#228;lsta</option>
+<option value="Hjälstad">Hj&#228;lstad</option>
+<option value="Hjärnarp">Hj&#228;rnarp</option>
+<option value="Hjärsås">Hj&#228;rs&#229;s</option>
+<option value="Hjärtlanda">Hj&#228;rtlanda</option>
+<option value="Hjärtum">Hj&#228;rtum</option>
+<option value="Hofterup">Hofterup</option>
+<option value="Hogdal">Hogdal</option>
+<option value="Hogrän">Hogr&#228;n</option>
+<option value="Hogstad">Hogstad</option>
+<option value="Hol">Hol</option>
+<option value="Holm">Holm</option>
+<option value="Holmby">Holmby</option>
+<option value="Holmedal">Holmedal</option>
+<option value="Holmestad">Holmestad</option>
+<option value="Holsljunga">Holsljunga</option>
+<option value="Horla">Horla</option>
+<option value="Horn">Horn</option>
+<option value="Hornaryd">Hornaryd</option>
+<option value="Hornborga">Hornborga</option>
+<option value="Horred">Horred</option>
+<option value="Hossmo">Hossmo</option>
+<option value="Hov">Hov</option>
+<option value="Hova">Hova</option>
+<option value="Hovby">Hovby</option>
+<option value="Hovmantorp">Hovmantorp</option>
+<option value="Hovsta">Hovsta</option>
+<option value="Huaröd">Huar&#246;d</option>
+<option value="Hubbo">Hubbo</option>
+<option value="Huddinge">Huddinge</option>
+<option value="Huddunge">Huddunge</option>
+<option value="Hudene">Hudene</option>
+<option value="Huggenäs">Huggen&#228;s</option>
+<option value="Hulared">Hulared</option>
+<option value="Hult">Hult</option>
+<option value="Hulterstad">Hulterstad</option>
+<option value="Hultsjö">Hultsj&#246;</option>
+<option value="Humla">Humla</option>
+<option value="Hunnestad">Hunnestad</option>
+<option value="Hurva">Hurva</option>
+<option value="Husaby">Husaby</option>
+<option value="Husby">Husby</option>
+<option value="Husby-Långhundra">Husby-L&#229;nghundra</option>
+<option value="Husby-Oppunda">Husby-Oppunda</option>
+<option value="Husby-Rekarne">Husby-Rekarne</option>
+<option value="Husby-Sjuhundra">Husby-Sjuhundra</option>
+<option value="Husby-Sjutolft">Husby-Sjutolft</option>
+<option value="Husby-Ärlinghundra">Husby-&#196;rlinghundra</option>
+<option value="Husie">Husie</option>
+<option value="Hyby">Hyby</option>
+<option value="Hycklinge">Hycklinge</option>
+<option value="Hylletofta">Hylletofta</option>
+<option value="Hyllie">Hyllie</option>
+<option value="Hyltinge">Hyltinge</option>
+<option value="Hyringa">Hyringa</option>
+<option value="Hyssna">Hyssna</option>
+<option value="Håbol">H&#229;bol</option>
+<option value="Håbo-Tibble">H&#229;bo-Tibble</option>
+<option value="Håby">H&#229;by</option>
+<option value="Håcksvik">H&#229;cksvik</option>
+<option value="Håkantorp">H&#229;kantorp</option>
+<option value="Hålanda">H&#229;landa</option>
+<option value="Håle">H&#229;le</option>
+<option value="Hållnäs">H&#229;lln&#228;s</option>
+<option value="Hålta">H&#229;lta</option>
+<option value="Hånger">H&#229;nger</option>
+<option value="Hångsdala">H&#229;ngsdala</option>
+<option value="Håsjö">H&#229;sj&#246;</option>
+<option value="Håslöv">H&#229;sl&#246;v</option>
+<option value="Håstad">H&#229;stad</option>
+<option value="Håtuna">H&#229;tuna</option>
+<option value="Hägerstad">H&#228;gerstad</option>
+<option value="Häggdånger">H&#228;ggd&#229;nger</option>
+<option value="Häggeby">H&#228;ggeby</option>
+<option value="Häggenås">H&#228;ggen&#229;s</option>
+<option value="Häggesled">H&#228;ggesled</option>
+<option value="Häggum">H&#228;ggum</option>
+<option value="Häglinge">H&#228;glinge</option>
+<option value="Hällaryd">H&#228;llaryd</option>
+<option value="Hälleberga">H&#228;lleberga</option>
+<option value="Hällesjö">H&#228;llesj&#246;</option>
+<option value="Hällestad">H&#228;llestad</option>
+<option value="Hällstad">H&#228;llstad</option>
+<option value="Hällum">H&#228;llum</option>
+<option value="Hälsingtuna">H&#228;lsingtuna</option>
+<option value="Händene">H&#228;ndene</option>
+<option value="Härad">H&#228;rad</option>
+<option value="Häradshammar">H&#228;radshammar</option>
+<option value="Härja">H&#228;rja</option>
+<option value="Härjevad">H&#228;rjevad</option>
+<option value="Härkeberga">H&#228;rkeberga</option>
+<option value="Härlunda">H&#228;rlunda</option>
+<option value="Härlöv">H&#228;rl&#246;v</option>
+<option value="Härna">H&#228;rna</option>
+<option value="Härnevi">H&#228;rnevi</option>
+<option value="Härnö">H&#228;rn&#246;</option>
+<option value="Härryda">H&#228;rryda</option>
+<option value="Härslöv">H&#228;rsl&#246;v</option>
+<option value="Hässjö">H&#228;ssj&#246;</option>
+<option value="Hässleby">H&#228;ssleby</option>
+<option value="Hässlunda">H&#228;sslunda</option>
+<option value="Hästveda">H&#228;stveda</option>
+<option value="Häverö">H&#228;ver&#246;</option>
+<option value="Hög">H&#246;g</option>
+<option value="Högby">H&#246;gby</option>
+<option value="Högerud">H&#246;gerud</option>
+<option value="Högestad">H&#246;gestad</option>
+<option value="Högsby">H&#246;gsby</option>
+<option value="Högseröd">H&#246;gser&#246;d</option>
+<option value="Högsjö">H&#246;gsj&#246;</option>
+<option value="Högsrum">H&#246;gsrum</option>
+<option value="Högstena">H&#246;gstena</option>
+<option value="Högsäter">H&#246;gs&#228;ter</option>
+<option value="Högås">H&#246;g&#229;s</option>
+<option value="Höja">H&#246;ja</option>
+<option value="Hökhuvud">H&#246;khuvud</option>
+<option value="Hököpinge">H&#246;k&#246;pinge</option>
+<option value="Hölö">H&#246;l&#246;</option>
+<option value="Hömb">H&#246;mb</option>
+<option value="Hörby">H&#246;rby</option>
+<option value="Höreda">H&#246;reda</option>
+<option value="Hörja">H&#246;rja</option>
+<option value="Hörröd">H&#246;rr&#246;d</option>
+<option value="Hörsne med Bara">H&#246;rsne med Bara</option>
+<option value="Hörup">H&#246;rup</option>
+<option value="Hössna">H&#246;ssna</option>
+<option value="Höör">H&#246;&#246;r</option>
+<option value="Idala">Idala</option>
+<option value="Idenor">Idenor</option>
+<option value="Igelösa">Igel&#246;sa</option>
+<option value="Ignaberga">Ignaberga</option>
+<option value="Ilsbo">Ilsbo</option>
+<option value="Ilstorp">Ilstorp</option>
+<option value="Indal">Indal</option>
+<option value="Ingarö">Ingar&#246;</option>
+<option value="Ingatorp">Ingatorp</option>
+<option value="Ingelstorp">Ingelstorp</option>
+<option value="Irsta">Irsta</option>
+<option value="Istorp">Istorp</option>
+<option value="Istrum">Istrum</option>
+<option value="Ivetofta">Ivetofta</option>
+<option value="Ivö">Iv&#246;</option>
+<option value="Jonsberg">Jonsberg</option>
+<option value="Jonstorp">Jonstorp</option>
+<option value="Julita">Julita</option>
+<option value="Jumkil">Jumkil</option>
+<option value="Jung">Jung</option>
+<option value="Junsele">Junsele</option>
+<option value="Jäder">J&#228;der</option>
+<option value="Jäla">J&#228;la</option>
+<option value="Jällby">J&#228;llby</option>
+<option value="Jälluntofta">J&#228;lluntofta</option>
+<option value="Jämjö">J&#228;mj&#246;</option>
+<option value="Jämshög">J&#228;msh&#246;g</option>
+<option value="Järbo">J&#228;rbo</option>
+<option value="Järeda">J&#228;reda</option>
+<option value="Järfälla">J&#228;rf&#228;lla</option>
+<option value="Järlåsa">J&#228;rl&#229;sa</option>
+<option value="Järn">J&#228;rn</option>
+<option value="Järna">J&#228;rna</option>
+<option value="Järnskog">J&#228;rnskog</option>
+<option value="Järpås">J&#228;rp&#229;s</option>
+<option value="Järrestad">J&#228;rrestad</option>
+<option value="Järsnäs">J&#228;rsn&#228;s</option>
+<option value="Järstad">J&#228;rstad</option>
+<option value="Järstorp">J&#228;rstorp</option>
+<option value="Järvsö">J&#228;rvs&#246;</option>
+<option value="Jät">J&#228;t</option>
+<option value="Jättendal">J&#228;ttendal</option>
+<option value="Jörlanda">J&#246;rlanda</option>
+<option value="Kaga">Kaga</option>
+<option value="Kall">Kall</option>
+<option value="Kalmar">Kalmar</option>
+<option value="Kalv">Kalv</option>
+<option value="Kalvsvik">Kalvsvik</option>
+<option value="Karaby">Karaby</option>
+<option value="Karbenning">Karbenning</option>
+<option value="Kareby">Kareby</option>
+<option value="Karl Gustav">Karl Gustav</option>
+<option value="Karlanda">Karlanda</option>
+<option value="Karleby">Karleby</option>
+<option value="Karlstad">Karlstad</option>
+<option value="Karlstorp">Karlstorp</option>
+<option value="Kastlösa">Kastl&#246;sa</option>
+<option value="Katslösa">Katsl&#246;sa</option>
+<option value="Kattarp">Kattarp</option>
+<option value="Kattnäs">Kattn&#228;s</option>
+<option value="Kattunga">Kattunga</option>
+<option value="Kestad">Kestad</option>
+<option value="Kiaby">Kiaby</option>
+<option value="Kil">Kil</option>
+<option value="Kila">Kila</option>
+<option value="Kilanda">Kilanda</option>
+<option value="Kimstad">Kimstad</option>
+<option value="Kinna">Kinna</option>
+<option value="Kinnarumma">Kinnarumma</option>
+<option value="Kinne-Kleva">Kinne-Kleva</option>
+<option value="Kinneved">Kinneved</option>
+<option value="Kinne-Vedum">Kinne-Vedum</option>
+<option value="Kisa">Kisa</option>
+<option value="Kjula">Kjula</option>
+<option value="Klinte">Klinte</option>
+<option value="Klippan">Klippan</option>
+<option value="Klockrike">Klockrike</option>
+<option value="Kläckeberga">Kl&#228;ckeberga</option>
+<option value="Klövedal">Kl&#246;vedal</option>
+<option value="Klövsjö">Kl&#246;vsj&#246;</option>
+<option value="Knislinge">Knislinge</option>
+<option value="Knista">Knista</option>
+<option value="Knivsta">Knivsta</option>
+<option value="Knutby">Knutby</option>
+<option value="Knäred">Kn&#228;red</option>
+<option value="Knästorp">Kn&#228;storp</option>
+<option value="Knätte">Kn&#228;tte</option>
+<option value="Kolbäck">Kolb&#228;ck</option>
+<option value="Konga">Konga</option>
+<option value="Konungsund">Konungsund</option>
+<option value="Korsberga">Korsberga</option>
+<option value="Kristberg">Kristberg</option>
+<option value="Kristdala">Kristdala</option>
+<option value="Kristianopel">Kristianopel</option>
+<option value="Kristvalla">Kristvalla</option>
+<option value="Krogsered">Krogsered</option>
+<option value="Krokek">Krokek</option>
+<option value="Krokstad">Krokstad</option>
+<option value="Kropp">Kropp</option>
+<option value="Kråkshult">Kr&#229;kshult</option>
+<option value="Kråksmåla">Kr&#229;ksm&#229;la</option>
+<option value="Kräcklinge">Kr&#228;cklinge</option>
+<option value="Kräklingbo">Kr&#228;klingbo</option>
+<option value="Kuddby">Kuddby</option>
+<option value="Kulla">Kulla</option>
+<option value="Kullerstad">Kullerstad</option>
+<option value="Kullings-Skövde">Kullings-Sk&#246;vde</option>
+<option value="Kulltorp">Kulltorp</option>
+<option value="Kumla">Kumla</option>
+<option value="Kung Karl">Kung Karl</option>
+<option value="Kungs-Barkarö">Kungs-Barkar&#246;</option>
+<option value="Kungs-Husby">Kungs-Husby</option>
+<option value="Kungslena">Kungslena</option>
+<option value="Kungsåra">Kungs&#229;ra</option>
+<option value="Kungsängen">Kungs&#228;ngen</option>
+<option value="Kungsäter">Kungs&#228;ter</option>
+<option value="Kvarsebo">Kvarsebo</option>
+<option value="Kvenneberga">Kvenneberga</option>
+<option value="Kverrestad">Kverrestad</option>
+<option value="Kvibille">Kvibille</option>
+<option value="Kvidinge">Kvidinge</option>
+<option value="Kviinge">Kviinge</option>
+<option value="Kville">Kville</option>
+<option value="Kvillinge">Kvillinge</option>
+<option value="Kvinnestad">Kvinnestad</option>
+<option value="Kvistbro">Kvistbro</option>
+<option value="Kvistofta">Kvistofta</option>
+<option value="Kvänum">Kv&#228;num</option>
+<option value="Kymbo">Kymbo</option>
+<option value="Kyrkheddinge">Kyrkheddinge</option>
+<option value="Kyrkoköpinge">Kyrkok&#246;pinge</option>
+<option value="Kyrkås">Kyrk&#229;s</option>
+<option value="Kågeröd">K&#229;ger&#246;d</option>
+<option value="Kållands-Åsaka">K&#229;llands-&#197;saka</option>
+<option value="Kållered">K&#229;llered</option>
+<option value="Kållerstad">K&#229;llerstad</option>
+<option value="Kånna">K&#229;nna</option>
+<option value="Kårsta">K&#229;rsta</option>
+<option value="Källa">K&#228;lla</option>
+<option value="Källby">K&#228;llby</option>
+<option value="Källeryd">K&#228;lleryd</option>
+<option value="Källna">K&#228;llna</option>
+<option value="Källsjö">K&#228;llsj&#246;</option>
+<option value="Källs-Nöbbelöv">K&#228;lls-N&#246;bbel&#246;v</option>
+<option value="Källstad">K&#228;llstad</option>
+<option value="Källstorp">K&#228;llstorp</option>
+<option value="Källunga">K&#228;llunga</option>
+<option value="Källunge">K&#228;llunge</option>
+<option value="Kälvene">K&#228;lvene</option>
+<option value="Kärda">K&#228;rda</option>
+<option value="Kärna">K&#228;rna</option>
+<option value="Kärnbo">K&#228;rnbo</option>
+<option value="Kärrbo">K&#228;rrbo</option>
+<option value="Kärråkra">K&#228;rr&#229;kra</option>
+<option value="Kättilstad">K&#228;ttilstad</option>
+<option value="Kävlinge">K&#228;vlinge</option>
+<option value="Kävsjö">K&#228;vsj&#246;</option>
+<option value="Köinge">K&#246;inge</option>
+<option value="Köla">K&#246;la</option>
+<option value="Kölaby">K&#246;laby</option>
+<option value="Kölingared">K&#246;lingared</option>
+<option value="Köping">K&#246;ping</option>
+<option value="Köpinge">K&#246;pinge</option>
+<option value="Lackalänga">Lackal&#228;nga</option>
+<option value="Lagga">Lagga</option>
+<option value="Lagmansered">Lagmansered</option>
+<option value="Laholm">Laholm</option>
+<option value="Landa">Landa</option>
+<option value="Landeryd">Landeryd</option>
+<option value="Landvetter">Landvetter</option>
+<option value="Lane-Ryr">Lane-Ryr</option>
+<option value="Lannaskede">Lannaskede</option>
+<option value="Larv">Larv</option>
+<option value="Laske-Vedum">Laske-Vedum</option>
+<option value="Lau">Lau</option>
+<option value="Lavad">Lavad</option>
+<option value="Laxarby">Laxarby</option>
+<option value="Ledberg">Ledberg</option>
+<option value="Ledsjö">Ledsj&#246;</option>
+<option value="Lekaryd">Lekaryd</option>
+<option value="Lekeryd">Lekeryd</option>
+<option value="Leksand">Leksand</option>
+<option value="Leksberg">Leksberg</option>
+<option value="Lekåsa">Lek&#229;sa</option>
+<option value="Lemnhult">Lemnhult</option>
+<option value="Lena">Lena</option>
+<option value="Lenhovda">Lenhovda</option>
+<option value="Lerbo">Lerbo</option>
+<option value="Lerdal">Lerdal</option>
+<option value="Lerdala">Lerdala</option>
+<option value="Lerum">Lerum</option>
+<option value="Levene">Levene</option>
+<option value="Levide">Levide</option>
+<option value="Liared">Liared</option>
+<option value="Lid">Lid</option>
+<option value="Liden">Liden</option>
+<option value="Lidhult">Lidhult</option>
+<option value="Lidingö">Liding&#246;</option>
+<option value="Lilla Beddinge">Lilla Beddinge</option>
+<option value="Lilla Harrie">Lilla Harrie</option>
+<option value="Lilla Isie">Lilla Isie</option>
+<option value="Lilla Malma">Lilla Malma</option>
+<option value="Lilla Slågarp">Lilla Sl&#229;garp</option>
+<option value="Lillhärad">Lillh&#228;rad</option>
+<option value="Lillkyrka">Lillkyrka</option>
+<option value="Lima">Lima</option>
+<option value="Lindberg">Lindberg</option>
+<option value="Linde">Linde</option>
+<option value="Linderås">Linder&#229;s</option>
+<option value="Linderöd">Linder&#246;d</option>
+<option value="Lindome">Lindome</option>
+<option value="Lindärva">Lind&#228;rva</option>
+<option value="Linköpings S:t Lars">Link&#246;pings S:t Lars</option>
+<option value="Linneryd">Linneryd</option>
+<option value="Lista">Lista</option>
+<option value="Listerby">Listerby</option>
+<option value="Lit">Lit</option>
+<option value="Litslena">Litslena</option>
+<option value="Ljuder">Ljuder</option>
+<option value="Ljung">Ljung</option>
+<option value="Ljungarum">Ljungarum</option>
+<option value="Ljungby">Ljungby</option>
+<option value="Ljunghem">Ljunghem</option>
+<option value="Ljungsarp">Ljungsarp</option>
+<option value="Ljur">Ljur</option>
+<option value="Ljusdal">Ljusdal</option>
+<option value="Ljushult">Ljushult</option>
+<option value="Ljusterö">Ljuster&#246;</option>
+<option value="Ljustorp">Ljustorp</option>
+<option value="Lockarp">Lockarp</option>
+<option value="Locketorp">Locketorp</option>
+<option value="Lockne">Lockne</option>
+<option value="Locknevi">Locknevi</option>
+<option value="Lofta">Lofta</option>
+<option value="Loftahammar">Loftahammar</option>
+<option value="Lohärad">Loh&#228;rad</option>
+<option value="Lojsta">Lojsta</option>
+<option value="Lokrume">Lokrume</option>
+<option value="Lomma">Lomma</option>
+<option value="Lommaryd">Lommaryd</option>
+<option value="Lommeland">Lommeland</option>
+<option value="Long">Long</option>
+<option value="Los">Los</option>
+<option value="Loshult">Loshult</option>
+<option value="Ludgo">Ludgo</option>
+<option value="Lugnås">Lugn&#229;s</option>
+<option value="Lummelunda">Lummelunda</option>
+<option value="Lunda">Lunda</option>
+<option value="Lundby">Lundby</option>
+<option value="Lunds landsförs">Lunds landsf&#246;rs</option>
+<option value="Lur">Lur</option>
+<option value="Luttra">Luttra</option>
+<option value="Lyby">Lyby</option>
+<option value="Lycke">Lycke</option>
+<option value="Lyckeby">Lyckeby</option>
+<option value="Lye">Lye</option>
+<option value="Lyngby">Lyngby</option>
+<option value="Lyngsjö">Lyngsj&#246;</option>
+<option value="Lyrestad">Lyrestad</option>
+<option value="Lyse">Lyse</option>
+<option value="Lysvik">Lysvik</option>
+<option value="Långared">L&#229;ngared</option>
+<option value="Långaryd">L&#229;ngaryd</option>
+<option value="Långaröd">L&#229;ngar&#246;d</option>
+<option value="Långasjö">L&#229;ngasj&#246;</option>
+<option value="Långelanda">L&#229;ngelanda</option>
+<option value="Långemåla">L&#229;ngem&#229;la</option>
+<option value="Långlöt">L&#229;ngl&#246;t</option>
+<option value="Långsele">L&#229;ngsele</option>
+<option value="Långserud">L&#229;ngserud</option>
+<option value="Långtora">L&#229;ngtora</option>
+<option value="Låssa">L&#229;ssa</option>
+<option value="Låstad">L&#229;stad</option>
+<option value="Läby">L&#228;by</option>
+<option value="Längbro">L&#228;ngbro</option>
+<option value="Länghem">L&#228;nghem</option>
+<option value="Längjum">L&#228;ngjum</option>
+<option value="Längnum">L&#228;ngnum</option>
+<option value="Länna">L&#228;nna</option>
+<option value="Lännäs">L&#228;nn&#228;s</option>
+<option value="Lärbro">L&#228;rbro</option>
+<option value="Lästringe">L&#228;stringe</option>
+<option value="Löddeköpinge">L&#246;ddek&#246;pinge</option>
+<option value="Löderup">L&#246;derup</option>
+<option value="Lönneberga">L&#246;nneberga</option>
+<option value="Lönsås">L&#246;ns&#229;s</option>
+<option value="Lösen">L&#246;sen</option>
+<option value="Löt">L&#246;t</option>
+<option value="Lövestad">L&#246;vestad</option>
+<option value="Lövånger">L&#246;v&#229;nger</option>
+<option value="Madesjö">Madesj&#246;</option>
+<option value="Maglarp">Maglarp</option>
+<option value="Maglehem">Maglehem</option>
+<option value="Magra">Magra</option>
+<option value="Malexander">Malexander</option>
+<option value="Malma">Malma</option>
+<option value="Malmbäck">Malmb&#228;ck</option>
+<option value="Malsta">Malsta</option>
+<option value="Malung">Malung</option>
+<option value="Mangskog">Mangskog</option>
+<option value="Marby">Marby</option>
+<option value="Marbäck">Marb&#228;ck</option>
+<option value="Marieby">Marieby</option>
+<option value="Marka">Marka</option>
+<option value="Markaryd">Markaryd</option>
+<option value="Markim">Markim</option>
+<option value="Martebo">Martebo</option>
+<option value="Marum">Marum</option>
+<option value="Matteröd">Matter&#246;d</option>
+<option value="Mattmar">Mattmar</option>
+<option value="Medelplana">Medelplana</option>
+<option value="Medåker">Med&#229;ker</option>
+<option value="Mellan-Grevie">Mellan-Grevie</option>
+<option value="Mellby">Mellby</option>
+<option value="Mellösa">Mell&#246;sa</option>
+<option value="Millesvik">Millesvik</option>
+<option value="Mistelås">Mistel&#229;s</option>
+<option value="Misterhult">Misterhult</option>
+<option value="Mjäldrunga">Mj&#228;ldrunga</option>
+<option value="Mjällby">Mj&#228;llby</option>
+<option value="Mjöbäck">Mj&#246;b&#228;ck</option>
+<option value="Mjölby">Mj&#246;lby</option>
+<option value="Mo">Mo</option>
+<option value="Mofalla">Mofalla</option>
+<option value="Mogata">Mogata</option>
+<option value="Moheda">Moheda</option>
+<option value="Molla">Molla</option>
+<option value="Mora">Mora</option>
+<option value="Morkarla">Morkarla</option>
+<option value="Morlanda">Morlanda</option>
+<option value="Mortorp">Mortorp</option>
+<option value="Morup">Morup</option>
+<option value="Mosjö">Mosj&#246;</option>
+<option value="Mossebo">Mossebo</option>
+<option value="Motala">Motala</option>
+<option value="Mularp">Mularp</option>
+<option value="Mulseryd">Mulseryd</option>
+<option value="Multrå">Multr&#229;</option>
+<option value="Munka-Ljungby">Munka-Ljungby</option>
+<option value="Munkarp">Munkarp</option>
+<option value="Munktorp">Munktorp</option>
+<option value="Murum">Murum</option>
+<option value="Muskö">Musk&#246;</option>
+<option value="Myckleby">Myckleby</option>
+<option value="Myresjö">Myresj&#246;</option>
+<option value="Myssjö">Myssj&#246;</option>
+<option value="Målilla">M&#229;lilla</option>
+<option value="Månstad">M&#229;nstad</option>
+<option value="Mårdaklev">M&#229;rdaklev</option>
+<option value="Mästerby">M&#228;sterby</option>
+<option value="Möja">M&#246;ja</option>
+<option value="Möklinta">M&#246;klinta</option>
+<option value="Mölleberga">M&#246;lleberga</option>
+<option value="Mölltorp">M&#246;lltorp</option>
+<option value="Möne">M&#246;ne</option>
+<option value="Mönsterås">M&#246;nster&#229;s</option>
+<option value="Mörarp">M&#246;rarp</option>
+<option value="Mörbylånga">M&#246;rbyl&#229;nga</option>
+<option value="Mörkö">M&#246;rk&#246;</option>
+<option value="Mörlunda">M&#246;rlunda</option>
+<option value="Mörrum">M&#246;rrum</option>
+<option value="Mörsil">M&#246;rsil</option>
+<option value="Naglum">Naglum</option>
+<option value="Naum">Naum</option>
+<option value="Naverstad">Naverstad</option>
+<option value="Nederkalix">Nederkalix</option>
+<option value="Nederluleå">Nederlule&#229;</option>
+<option value="Nedertorneå">Nedertorne&#229;</option>
+<option value="Nedre Ullerud">Nedre Ullerud</option>
+<option value="Nevishög">Nevish&#246;g</option>
+<option value="Nittorp">Nittorp</option>
+<option value="Njurunda">Njurunda</option>
+<option value="Njutånger">Njut&#229;nger</option>
+<option value="Nor">Nor</option>
+<option value="Nora">Nora</option>
+<option value="Norberg">Norberg</option>
+<option value="Norderö">Norder&#246;</option>
+<option value="Nordingrå">Nordingr&#229;</option>
+<option value="Nordmaling">Nordmaling</option>
+<option value="Normlösa">Norml&#246;sa</option>
+<option value="Norra Björke">Norra Bj&#246;rke</option>
+<option value="Norra Fågelås">Norra F&#229;gel&#229;s</option>
+<option value="Norra Hestra">Norra Hestra</option>
+<option value="Norra Härene">Norra H&#228;rene</option>
+<option value="Norra Kedum">Norra Kedum</option>
+<option value="Norra Kyrketorp">Norra Kyrketorp</option>
+<option value="Norra Lundby">Norra Lundby</option>
+<option value="Norra Mellby">Norra Mellby</option>
+<option value="Norra Möckleby">Norra M&#246;ckleby</option>
+<option value="Norra Ny">Norra Ny</option>
+<option value="Norra Nöbbelöv">Norra N&#246;bbel&#246;v</option>
+<option value="Norra Rottne">Norra Rottne</option>
+<option value="Norra Råda">Norra R&#229;da</option>
+<option value="Norra Rörum">Norra R&#246;rum</option>
+<option value="Norra Sandby">Norra Sandby</option>
+<option value="Norra Sandsjö">Norra Sandsj&#246;</option>
+<option value="Norra Solberga">Norra Solberga</option>
+<option value="Norra Strö">Norra Str&#246;</option>
+<option value="Norra Säm">Norra S&#228;m</option>
+<option value="Norra Unnaryd">Norra Unnaryd</option>
+<option value="Norra Vi">Norra Vi</option>
+<option value="Norra Ving">Norra Ving</option>
+<option value="Norra Vram">Norra Vram</option>
+<option value="Norra Vånga">Norra V&#229;nga</option>
+<option value="Norra Åkarp">Norra &#197;karp</option>
+<option value="Norra Åsarp">Norra &#197;sarp</option>
+<option value="Norra Åsum">Norra &#197;sum</option>
+<option value="Norrahammar">Norrahammar</option>
+<option value="Norrala">Norrala</option>
+<option value="Norrbo">Norrbo</option>
+<option value="Norrby">Norrby</option>
+<option value="Norrbyås">Norrby&#229;s</option>
+<option value="Norrbärke">Norrb&#228;rke</option>
+<option value="Norrköpings S:t Joh.">Norrk&#246;pings S:t Joh.</option>
+<option value="Norrköpings Ö. Eneby">Norrk&#246;pings &#214;. Eneby</option>
+<option value="Norrlanda">Norrlanda</option>
+<option value="Norrsunda">Norrsunda</option>
+<option value="Norrvidinge">Norrvidinge</option>
+<option value="Norsjö">Norsj&#246;</option>
+<option value="Norum">Norum</option>
+<option value="Nosaby">Nosaby</option>
+<option value="Nottebäck">Notteb&#228;ck</option>
+<option value="Ny">Ny</option>
+<option value="Nydala">Nydala</option>
+<option value="Nye">Nye</option>
+<option value="Ny-Huggenäs">Ny-Huggen&#228;s</option>
+<option value="Nykil">Nykil</option>
+<option value="Nykyrka">Nykyrka</option>
+<option value="Nyköpings Helgona">Nyk&#246;pings Helgona</option>
+<option value="Nyköpings Nikolai">Nyk&#246;pings Nikolai</option>
+<option value="Nymö">Nym&#246;</option>
+<option value="Nysund">Nysund</option>
+<option value="Nysätra">Nys&#228;tra</option>
+<option value="Nårunga">N&#229;runga</option>
+<option value="Nås">N&#229;s</option>
+<option value="Nämdö">N&#228;md&#246;</option>
+<option value="När">N&#228;r</option>
+<option value="Närtuna">N&#228;rtuna</option>
+<option value="Näs">N&#228;s</option>
+<option value="Näsby">N&#228;sby</option>
+<option value="Näshult">N&#228;shult</option>
+<option value="Näshulta">N&#228;shulta</option>
+<option value="Näsinge">N&#228;singe</option>
+<option value="Näskott">N&#228;skott</option>
+<option value="Nässja">N&#228;ssja</option>
+<option value="Nässjö">N&#228;ssj&#246;</option>
+<option value="Näsum">N&#228;sum</option>
+<option value="Nätra">N&#228;tra</option>
+<option value="Nättraby">N&#228;ttraby</option>
+<option value="Nävelsjö">N&#228;velsj&#246;</option>
+<option value="Nävlinge">N&#228;vlinge</option>
+<option value="Nöbbele">N&#246;bbele</option>
+<option value="Nödinge">N&#246;dinge</option>
+<option value="Nössemark">N&#246;ssemark</option>
+<option value="Nöttja">N&#246;ttja</option>
+<option value="Ockelbo">Ockelbo</option>
+<option value="Od">Od</option>
+<option value="Odarslöv">Odarsl&#246;v</option>
+<option value="Odensala">Odensala</option>
+<option value="Odensjö">Odensj&#246;</option>
+<option value="Odensvi">Odensvi</option>
+<option value="Odensåker">Odens&#229;ker</option>
+<option value="Oderljunga">Oderljunga</option>
+<option value="Offerdal">Offerdal</option>
+<option value="Okome">Okome</option>
+<option value="Onsala">Onsala</option>
+<option value="Onslunda">Onslunda</option>
+<option value="Oppeby">Oppeby</option>
+<option value="Oppmanna">Oppmanna</option>
+<option value="Ore">Ore</option>
+<option value="Orkesta">Orkesta</option>
+<option value="Orlunda">Orlunda</option>
+<option value="Ormesberga">Ormesberga</option>
+<option value="Ornunga">Ornunga</option>
+<option value="Ornö">Orn&#246;</option>
+<option value="Orsa">Orsa</option>
+<option value="Osby">Osby</option>
+<option value="Oskar">Oskar</option>
+<option value="Othem">Othem</option>
+<option value="Ottarp">Ottarp</option>
+<option value="Otterstad">Otterstad</option>
+<option value="Ottravad">Ottravad</option>
+<option value="Ovansjö">Ovansj&#246;</option>
+<option value="Ovanåker">Ovan&#229;ker</option>
+<option value="Oviken">Oviken</option>
+<option value="Oxie">Oxie</option>
+<option value="Pajala">Pajala</option>
+<option value="Partille">Partille</option>
+<option value="Pelarne">Pelarne</option>
+<option value="Persnäs">Persn&#228;s</option>
+<option value="Perstorp">Perstorp</option>
+<option value="Piteå landsförs">Pite&#229; landsf&#246;rs</option>
+<option value="Pjätteryd">Pj&#228;tteryd</option>
+<option value="Rackeby">Rackeby</option>
+<option value="Ragunda">Ragunda</option>
+<option value="Rakered">Rakered</option>
+<option value="Ramdala">Ramdala</option>
+<option value="Ramkvilla">Ramkvilla</option>
+<option value="Ramnäs">Ramn&#228;s</option>
+<option value="Ramsele">Ramsele</option>
+<option value="Ramsta">Ramsta</option>
+<option value="Ramsåsa">Rams&#229;sa</option>
+<option value="Ransberg">Ransberg</option>
+<option value="Ransäter">Rans&#228;ter</option>
+<option value="Rappestad">Rappestad</option>
+<option value="Rasbo">Rasbo</option>
+<option value="Rasbokil">Rasbokil</option>
+<option value="Raus">Raus</option>
+<option value="Ravlunda">Ravlunda</option>
+<option value="Rebbelberga">Rebbelberga</option>
+<option value="Redslared">Redslared</option>
+<option value="Reftele">Reftele</option>
+<option value="Regna">Regna</option>
+<option value="Remmarlöv">Remmarl&#246;v</option>
+<option value="Remmene">Remmene</option>
+<option value="Rengsjö">Rengsj&#246;</option>
+<option value="Resele">Resele</option>
+<option value="Reslöv">Resl&#246;v</option>
+<option value="Resmo">Resmo</option>
+<option value="Resteröd">Rester&#246;d</option>
+<option value="Revesjö">Revesj&#246;</option>
+<option value="Revinge">Revinge</option>
+<option value="Revsund">Revsund</option>
+<option value="Riala">Riala</option>
+<option value="Rimbo">Rimbo</option>
+<option value="Ringarum">Ringarum</option>
+<option value="Rinkaby">Rinkaby</option>
+<option value="Rinna">Rinna</option>
+<option value="Ripsa">Ripsa</option>
+<option value="Riseberga">Riseberga</option>
+<option value="Risekatslösa">Risekatsl&#246;sa</option>
+<option value="Risinge">Risinge</option>
+<option value="Roasjö">Roasj&#246;</option>
+<option value="Rogberga">Rogberga</option>
+<option value="Rogslösa">Rogsl&#246;sa</option>
+<option value="Rogsta">Rogsta</option>
+<option value="Rolfstorp">Rolfstorp</option>
+<option value="Roma">Roma</option>
+<option value="Romelanda">Romelanda</option>
+<option value="Romfartuna">Romfartuna</option>
+<option value="Rommele">Rommele</option>
+<option value="Rone">Rone</option>
+<option value="Ronneby">Ronneby</option>
+<option value="Roslags-Bro">Roslags-Bro</option>
+<option value="Roslags-Kulla">Roslags-Kulla</option>
+<option value="Rudskoga">Rudskoga</option>
+<option value="Rumskulla">Rumskulla</option>
+<option value="Runsten">Runsten</option>
+<option value="Runtuna">Runtuna</option>
+<option value="Rute">Rute</option>
+<option value="Rya">Rya</option>
+<option value="Ryd">Ryd</option>
+<option value="Ryda">Ryda</option>
+<option value="Rydaholm">Rydaholm</option>
+<option value="Ryssby">Ryssby</option>
+<option value="Rystad">Rystad</option>
+<option value="Rytterne">Rytterne</option>
+<option value="Råbelöv">R&#229;bel&#246;v</option>
+<option value="Råby-Rekarne">R&#229;by-Rekarne</option>
+<option value="Råby-Rönö">R&#229;by-R&#246;n&#246;</option>
+<option value="Råda">R&#229;da</option>
+<option value="Rådene">R&#229;dene</option>
+<option value="Rådmansö">R&#229;dmans&#246;</option>
+<option value="Råggärd">R&#229;gg&#228;rd</option>
+<option value="Råneå">R&#229;ne&#229;</option>
+<option value="Rångedala">R&#229;ngedala</option>
+<option value="Räng">R&#228;ng</option>
+<option value="Rännelanda">R&#228;nnelanda</option>
+<option value="Ränneslöv">R&#228;nnesl&#246;v</option>
+<option value="Räpplinge">R&#228;pplinge</option>
+<option value="Rätan">R&#228;tan</option>
+<option value="Rättvik">R&#228;ttvik</option>
+<option value="Rävinge">R&#228;vinge</option>
+<option value="Rö">R&#246;</option>
+<option value="Rödbo">R&#246;dbo</option>
+<option value="Röddinge">R&#246;ddinge</option>
+<option value="Rödeby">R&#246;deby</option>
+<option value="Rödene">R&#246;dene</option>
+<option value="Rödön">R&#246;d&#246;n</option>
+<option value="Rök">R&#246;k</option>
+<option value="Röke">R&#246;ke</option>
+<option value="Rölanda">R&#246;landa</option>
+<option value="Rönö">R&#246;n&#246;</option>
+<option value="Röra">R&#246;ra</option>
+<option value="Rörum">R&#246;rum</option>
+<option value="Röstånga">R&#246;st&#229;nga</option>
+<option value="Sal">Sal</option>
+<option value="Sala">Sala</option>
+<option value="Saleby">Saleby</option>
+<option value="Salem">Salem</option>
+<option value="Sanda">Sanda</option>
+<option value="Sandby">Sandby</option>
+<option value="Sandhem">Sandhem</option>
+<option value="Sandhult">Sandhult</option>
+<option value="Sandvik">Sandvik</option>
+<option value="Sankt Anna">Sankt Anna</option>
+<option value="Sankt Ibb">Sankt Ibb</option>
+<option value="Sankt Ilian">Sankt Ilian</option>
+<option value="Sankt Olof">Sankt Olof</option>
+<option value="Sankt Peder">Sankt Peder</option>
+<option value="Sankt Per">Sankt Per</option>
+<option value="Sankt Peters kloster">Sankt Peters kloster</option>
+<option value="Sankt Sigfrid">Sankt Sigfrid</option>
+<option value="Sanne">Sanne</option>
+<option value="Saxtorp">Saxtorp</option>
+<option value="Segersta">Segersta</option>
+<option value="Segerstad">Segerstad</option>
+<option value="Seglora">Seglora</option>
+<option value="Selånger">Sel&#229;nger</option>
+<option value="Senäte">Sen&#228;te</option>
+<option value="Sevalla">Sevalla</option>
+<option value="Sexdrega">Sexdrega</option>
+<option value="Sibbarp">Sibbarp</option>
+<option value="Sidensjö">Sidensj&#246;</option>
+<option value="Siene">Siene</option>
+<option value="Sil">Sil</option>
+<option value="Silbodal">Silbodal</option>
+<option value="Sillerud">Sillerud</option>
+<option value="Sillhövda">Sillh&#246;vda</option>
+<option value="Silte">Silte</option>
+<option value="Silvåkra">Silv&#229;kra</option>
+<option value="Simlinge">Simlinge</option>
+<option value="Simonstorp">Simonstorp</option>
+<option value="Simris">Simris</option>
+<option value="Simtuna">Simtuna</option>
+<option value="Singö">Sing&#246;</option>
+<option value="Sireköpinge">Sirek&#246;pinge</option>
+<option value="Sjogerstad">Sjogerstad</option>
+<option value="Sjonhem">Sjonhem</option>
+<option value="Själevad">Sj&#228;levad</option>
+<option value="Sjögestad">Sj&#246;gestad</option>
+<option value="Sjörup">Sj&#246;rup</option>
+<option value="Sjösås">Sj&#246;s&#229;s</option>
+<option value="Sjötofta">Sj&#246;tofta</option>
+<option value="Skabersjö">Skabersj&#246;</option>
+<option value="Skagershult">Skagershult</option>
+<option value="Skallmeja">Skallmeja</option>
+<option value="Skallsjö">Skallsj&#246;</option>
+<option value="Skalunda">Skalunda</option>
+<option value="Skara">Skara</option>
+<option value="Skarhult">Skarhult</option>
+<option value="Skarstad">Skarstad</option>
+<option value="Skatelöv">Skatel&#246;v</option>
+<option value="Skeby">Skeby</option>
+<option value="Skeda">Skeda</option>
+<option value="Skede">Skede</option>
+<option value="Skederid">Skederid</option>
+<option value="Skedevi">Skedevi</option>
+<option value="Skee">Skee</option>
+<option value="Skeglinge">Skeglinge</option>
+<option value="Skegrie">Skegrie</option>
+<option value="Skellefteå">Skellefte&#229;</option>
+<option value="Skephult">Skephult</option>
+<option value="Skepparslöv">Skepparsl&#246;v</option>
+<option value="Skepperstad">Skepperstad</option>
+<option value="Skepplanda">Skepplanda</option>
+<option value="Skeppsås">Skepps&#229;s</option>
+<option value="Skepptuna">Skepptuna</option>
+<option value="Skillingmark">Skillingmark</option>
+<option value="Skinnskatteberg">Skinnskatteberg</option>
+<option value="Skirö">Skir&#246;</option>
+<option value="Skivarp">Skivarp</option>
+<option value="Skog">Skog</option>
+<option value="Skogsbygden">Skogsbygden</option>
+<option value="Skogs-Tibble">Skogs-Tibble</option>
+<option value="Skokloster">Skokloster</option>
+<option value="Skorped">Skorped</option>
+<option value="Skrea">Skrea</option>
+<option value="Skredsvik">Skredsvik</option>
+<option value="Skrävlinge">Skr&#228;vlinge</option>
+<option value="Skultuna">Skultuna</option>
+<option value="Skurup">Skurup</option>
+<option value="Skuttunge">Skuttunge</option>
+<option value="Skållerud">Sk&#229;llerud</option>
+<option value="Skånela">Sk&#229;nela</option>
+<option value="Skånes-Fagerhult">Sk&#229;nes-Fagerhult</option>
+<option value="Skånings-Åsaka">Sk&#229;nings-&#197;saka</option>
+<option value="Skårby">Sk&#229;rby</option>
+<option value="Skäderö">Sk&#228;der&#246;</option>
+<option value="Skäfthammar">Sk&#228;fthammar</option>
+<option value="Skällinge">Sk&#228;llinge</option>
+<option value="Skällvik">Sk&#228;llvik</option>
+<option value="Skälvum">Sk&#228;lvum</option>
+<option value="Skärkind">Sk&#228;rkind</option>
+<option value="Skärstad">Sk&#228;rstad</option>
+<option value="Skärv">Sk&#228;rv</option>
+<option value="Sköldinge">Sk&#246;ldinge</option>
+<option value="Sköllersta">Sk&#246;llersta</option>
+<option value="Skölvene">Sk&#246;lvene</option>
+<option value="Skön">Sk&#246;n</option>
+<option value="Skönberga">Sk&#246;nberga</option>
+<option value="Skörstorp">Sk&#246;rstorp</option>
+<option value="Skövde landsförs">Sk&#246;vde landsf&#246;rs</option>
+<option value="Slaka">Slaka</option>
+<option value="Slimminge">Slimminge</option>
+<option value="Slädene">Sl&#228;dene</option>
+<option value="Släp">Sl&#228;p</option>
+<option value="Slätthög">Sl&#228;tth&#246;g</option>
+<option value="Slättåkra">Sl&#228;tt&#229;kra</option>
+<option value="Slöinge">Sl&#246;inge</option>
+<option value="Slöta">Sl&#246;ta</option>
+<option value="Smedby">Smedby</option>
+<option value="Smedstorp">Smedstorp</option>
+<option value="Smula">Smula</option>
+<option value="Snavlunda">Snavlunda</option>
+<option value="Snårestad">Sn&#229;restad</option>
+<option value="Solberga">Solberga</option>
+<option value="Sollefteå">Sollefte&#229;</option>
+<option value="Sollentuna">Sollentuna</option>
+<option value="Sollerön">Soller&#246;n</option>
+<option value="Solna">Solna</option>
+<option value="Sorunda">Sorunda</option>
+<option value="Spannarp">Spannarp</option>
+<option value="Sparlösa">Sparl&#246;sa</option>
+<option value="Sparrsätra">Sparrs&#228;tra</option>
+<option value="Spekeröd">Speker&#246;d</option>
+<option value="Spelvik">Spelvik</option>
+<option value="Spjutstorp">Spjutstorp</option>
+<option value="Sproge">Sproge</option>
+<option value="Spånga">Sp&#229;nga</option>
+<option value="Staffanstorp">Staffanstorp</option>
+<option value="Stafsinge">Stafsinge</option>
+<option value="Stala">Stala</option>
+<option value="Stamnared">Stamnared</option>
+<option value="Starby">Starby</option>
+<option value="Starrkärr">Starrk&#228;rr</option>
+<option value="Stavby">Stavby</option>
+<option value="Stavnäs">Stavn&#228;s</option>
+<option value="Stehag">Stehag</option>
+<option value="Sten">Sten</option>
+<option value="Stenberga">Stenberga</option>
+<option value="Stenbrohult">Stenbrohult</option>
+<option value="Steneby">Steneby</option>
+<option value="Stenestad">Stenestad</option>
+<option value="Stengårdshult">Steng&#229;rdshult</option>
+<option value="Steninge">Steninge</option>
+<option value="Stenkumla">Stenkumla</option>
+<option value="Stenkvista">Stenkvista</option>
+<option value="Stenkyrka">Stenkyrka</option>
+<option value="Stenstorp">Stenstorp</option>
+<option value="Stenum">Stenum</option>
+<option value="Stenåsa">Sten&#229;sa</option>
+<option value="Stiby">Stiby</option>
+<option value="Stigsjö">Stigsj&#246;</option>
+<option value="Stigtomta">Stigtomta</option>
+<option value="Stjärnorp">Stj&#228;rnorp</option>
+<option value="Stoby">Stoby</option>
+<option value="Stockaryd">Stockaryd</option>
+<option value="Stora Hammar">Stora Hammar</option>
+<option value="Stora Harrie">Stora Harrie</option>
+<option value="Stora Herrestad">Stora Herrestad</option>
+<option value="Stora Kil">Stora Kil</option>
+<option value="Stora Köpinge">Stora K&#246;pinge</option>
+<option value="Stora Lundby">Stora Lundby</option>
+<option value="Stora Malm">Stora Malm</option>
+<option value="Stora Mellby">Stora Mellby</option>
+<option value="Stora Mellösa">Stora Mell&#246;sa</option>
+<option value="Stora Råby">Stora R&#229;by</option>
+<option value="Stora Skedvi">Stora Skedvi</option>
+<option value="Stora Slågarp">Stora Sl&#229;garp</option>
+<option value="Stora Tuna">Stora Tuna</option>
+<option value="Stora Åby">Stora &#197;by</option>
+<option value="Strå">Str&#229;</option>
+<option value="Stråvalla">Str&#229;valla</option>
+<option value="Strängnäs landsförs">Str&#228;ngn&#228;s landsf&#246;rs</option>
+<option value="Strängsered">Str&#228;ngsered</option>
+<option value="Strö">Str&#246;</option>
+<option value="Ström">Str&#246;m</option>
+<option value="Strövelstorp">Str&#246;velstorp</option>
+<option value="Stugun">Stugun</option>
+<option value="Sturkö">Sturk&#246;</option>
+<option value="Styra">Styra</option>
+<option value="Styrnäs">Styrn&#228;s</option>
+<option value="Styrstad">Styrstad</option>
+<option value="Styrsö">Styrs&#246;</option>
+<option value="Stånga">St&#229;nga</option>
+<option value="Stångby">St&#229;ngby</option>
+<option value="Stävie">St&#228;vie</option>
+<option value="Stöde">St&#246;de</option>
+<option value="Sund">Sund</option>
+<option value="Sundals-Ryr">Sundals-Ryr</option>
+<option value="Sundborn">Sundborn</option>
+<option value="Sundby">Sundby</option>
+<option value="Sundre">Sundre</option>
+<option value="Sundsjö">Sundsj&#246;</option>
+<option value="Sunne">Sunne</option>
+<option value="Sunnemo">Sunnemo</option>
+<option value="Sunnersberg">Sunnersberg</option>
+<option value="Suntak">Suntak</option>
+<option value="Suntetorp">Suntetorp</option>
+<option value="Sura">Sura</option>
+<option value="Surteby">Surteby</option>
+<option value="Svalöv">Sval&#246;v</option>
+<option value="Svanshals">Svanshals</option>
+<option value="Svanskog">Svanskog</option>
+<option value="Svarteborg">Svarteborg</option>
+<option value="Svartrå">Svartr&#229;</option>
+<option value="Svarttorp">Svarttorp</option>
+<option value="Svedala">Svedala</option>
+<option value="Svenarum">Svenarum</option>
+<option value="Sveneby">Sveneby</option>
+<option value="Svenljunga">Svenljunga</option>
+<option value="Svenneby">Svenneby</option>
+<option value="Svennevad">Svennevad</option>
+<option value="Svensköp">Svensk&#246;p</option>
+<option value="Svenstorp">Svenstorp</option>
+<option value="Sventorp">Sventorp</option>
+<option value="Svinhult">Svinhult</option>
+<option value="Svinnegarn">Svinnegarn</option>
+<option value="Svärdsjö">Sv&#228;rdsj&#246;</option>
+<option value="Svärta">Sv&#228;rta</option>
+<option value="Sya">Sya</option>
+<option value="Synnerby">Synnerby</option>
+<option value="Sånga">S&#229;nga</option>
+<option value="Säbrå">S&#228;br&#229;</option>
+<option value="Säby">S&#228;by</option>
+<option value="Säfsnäs">S&#228;fsn&#228;s</option>
+<option value="Sällstorp">S&#228;llstorp</option>
+<option value="Särestad">S&#228;restad</option>
+<option value="Särna">S&#228;rna</option>
+<option value="Särslöv">S&#228;rsl&#246;v</option>
+<option value="Säter">S&#228;ter</option>
+<option value="Säterbo">S&#228;terbo</option>
+<option value="Sätila">S&#228;tila</option>
+<option value="Sättersta">S&#228;ttersta</option>
+<option value="Sättna">S&#228;ttna</option>
+<option value="Sätuna">S&#228;tuna</option>
+<option value="Sävar">S&#228;var</option>
+<option value="Sävare">S&#228;vare</option>
+<option value="Säve">S&#228;ve</option>
+<option value="Sävsjö">S&#228;vsj&#246;</option>
+<option value="Söderala">S&#246;derala</option>
+<option value="Söderby-Karl">S&#246;derby-Karl</option>
+<option value="Söderbärke">S&#246;derb&#228;rke</option>
+<option value="Söderfors">S&#246;derfors</option>
+<option value="Södertälje">S&#246;dert&#228;lje</option>
+<option value="Södervidinge">S&#246;dervidinge</option>
+<option value="Söderåkra">S&#246;der&#229;kra</option>
+<option value="Södra Björke">S&#246;dra Bj&#246;rke</option>
+<option value="Södra Fågelås">S&#246;dra F&#229;gel&#229;s</option>
+<option value="Södra Hestra">S&#246;dra Hestra</option>
+<option value="Södra Härene">S&#246;dra H&#228;rene</option>
+<option value="Södra Kedum">S&#246;dra Kedum</option>
+<option value="Södra Kyrketorp">S&#246;dra Kyrketorp</option>
+<option value="Södra Ljunga">S&#246;dra Ljunga</option>
+<option value="Södra Lundby">S&#246;dra Lundby</option>
+<option value="Södra Mellby">S&#246;dra Mellby</option>
+<option value="Södra Möckleby">S&#246;dra M&#246;ckleby</option>
+<option value="Södra Råda">S&#246;dra R&#229;da</option>
+<option value="Södra Rörum">S&#246;dra R&#246;rum</option>
+<option value="Södra Sallerup">S&#246;dra Sallerup</option>
+<option value="Södra Sandby">S&#246;dra Sandby</option>
+<option value="Södra Sandsjö">S&#246;dra Sandsj&#246;</option>
+<option value="Södra Solberga">S&#246;dra Solberga</option>
+<option value="Södra Säm">S&#246;dra S&#228;m</option>
+<option value="Södra Unnaryd">S&#246;dra Unnaryd</option>
+<option value="Södra Vi">S&#246;dra Vi</option>
+<option value="Södra Ving">S&#246;dra Ving</option>
+<option value="Södra Vånga">S&#246;dra V&#229;nga</option>
+<option value="Södra Åby">S&#246;dra &#197;by</option>
+<option value="Södra Åkarp">S&#246;dra &#197;karp</option>
+<option value="Södra Åsarp">S&#246;dra &#197;sarp</option>
+<option value="Södra Åsum">S&#246;dra &#197;sum</option>
+<option value="Sölvesborg">S&#246;lvesborg</option>
+<option value="Söndrum">S&#246;ndrum</option>
+<option value="Söne">S&#246;ne</option>
+<option value="Söraby">S&#246;raby</option>
+<option value="Sörby">S&#246;rby</option>
+<option value="Sövde">S&#246;vde</option>
+<option value="Sövestad">S&#246;vestad</option>
+<option value="Tannåker">Tann&#229;ker</option>
+<option value="Tanum">Tanum</option>
+<option value="Tarsled">Tarsled</option>
+<option value="Taxinge">Taxinge</option>
+<option value="Teda">Teda</option>
+<option value="Tegelsmora">Tegelsmora</option>
+<option value="Tegnaby">Tegnaby</option>
+<option value="Tegneby">Tegneby</option>
+<option value="Tengene">Tengene</option>
+<option value="Tensta">Tensta</option>
+<option value="Tiberg">Tiberg</option>
+<option value="Tibro">Tibro</option>
+<option value="Tidavad">Tidavad</option>
+<option value="Tidersrum">Tidersrum</option>
+<option value="Tierp">Tierp</option>
+<option value="Tillberga">Tillberga</option>
+<option value="Tillinge">Tillinge</option>
+<option value="Timmele">Timmele</option>
+<option value="Timmersdala">Timmersdala</option>
+<option value="Timrå">Timr&#229;</option>
+<option value="Tingstad">Tingstad</option>
+<option value="Tingstäde">Tingst&#228;de</option>
+<option value="Tingsås">Tings&#229;s</option>
+<option value="Tirup">Tirup</option>
+<option value="Tisselskog">Tisselskog</option>
+<option value="Tjureda">Tjureda</option>
+<option value="Tjällmo">Tj&#228;llmo</option>
+<option value="Tjärnö">Tj&#228;rn&#246;</option>
+<option value="Tjärstad">Tj&#228;rstad</option>
+<option value="Tjörnarp">Tj&#246;rnarp</option>
+<option value="Toarp">Toarp</option>
+<option value="Tofta">Tofta</option>
+<option value="Tofteryd">Tofteryd</option>
+<option value="Tolfta">Tolfta</option>
+<option value="Tolg">Tolg</option>
+<option value="Tolånga">Tol&#229;nga</option>
+<option value="Torbjörntorp">Torbj&#246;rntorp</option>
+<option value="Torekov">Torekov</option>
+<option value="Torestorp">Torestorp</option>
+<option value="Toresund">Toresund</option>
+<option value="Torhamn">Torhamn</option>
+<option value="Torneå">Torne&#229;</option>
+<option value="Torp">Torp</option>
+<option value="Torpa">Torpa</option>
+<option value="Torrlösa">Torrl&#246;sa</option>
+<option value="Torrskog">Torrskog</option>
+<option value="Torsby">Torsby</option>
+<option value="Torshälla">Torsh&#228;lla</option>
+<option value="Torskinge">Torskinge</option>
+<option value="Torslanda">Torslanda</option>
+<option value="Torslunda">Torslunda</option>
+<option value="Torstuna">Torstuna</option>
+<option value="Torsvi">Torsvi</option>
+<option value="Torsåker">Tors&#229;ker</option>
+<option value="Torsång">Tors&#229;ng</option>
+<option value="Torsås">Tors&#229;s</option>
+<option value="Torsö">Tors&#246;</option>
+<option value="Tortuna">Tortuna</option>
+<option value="Torup">Torup</option>
+<option value="Torö">Tor&#246;</option>
+<option value="Tossene">Tossene</option>
+<option value="Tostared">Tostared</option>
+<option value="Tosterup">Tosterup</option>
+<option value="Tottarp">Tottarp</option>
+<option value="Tranemo">Tranemo</option>
+<option value="Trankil">Trankil</option>
+<option value="Tranum">Tranum</option>
+<option value="Tranås">Tran&#229;s</option>
+<option value="Traryd">Traryd</option>
+<option value="Trehörna">Treh&#246;rna</option>
+<option value="Trelleborg">Trelleborg</option>
+<option value="Trolle-Ljungby">Trolle-Ljungby</option>
+<option value="Trollenäs">Trollen&#228;s</option>
+<option value="Trosa">Trosa</option>
+<option value="Tryde">Tryde</option>
+<option value="Tryserum">Tryserum</option>
+<option value="Tråvad">Tr&#229;vad</option>
+<option value="Träkumla">Tr&#228;kumla</option>
+<option value="Träne">Tr&#228;ne</option>
+<option value="Träslöv">Tr&#228;sl&#246;v</option>
+<option value="Trässberg">Tr&#228;ssberg</option>
+<option value="Trästena">Tr&#228;stena</option>
+<option value="Trävattna">Tr&#228;vattna</option>
+<option value="Trökörna">Tr&#246;k&#246;rna</option>
+<option value="Trönninge">Tr&#246;nninge</option>
+<option value="Trönö">Tr&#246;n&#246;</option>
+<option value="Tullstorp">Tullstorp</option>
+<option value="Tumberg">Tumberg</option>
+<option value="Tumbo">Tumbo</option>
+<option value="Tun">Tun</option>
+<option value="Tuna">Tuna</option>
+<option value="Tunaberg">Tunaberg</option>
+<option value="Tunge">Tunge</option>
+<option value="Turinge">Turinge</option>
+<option value="Tutaryd">Tutaryd</option>
+<option value="Tuve">Tuve</option>
+<option value="Tveta">Tveta</option>
+<option value="Tving">Tving</option>
+<option value="Tvååker">Tv&#229;&#229;ker</option>
+<option value="Tvärred">Tv&#228;rred</option>
+<option value="Tydje">Tydje</option>
+<option value="Tygelsjö">Tygelsj&#246;</option>
+<option value="Tyresö">Tyres&#246;</option>
+<option value="Tysslinge">Tysslinge</option>
+<option value="Tystberga">Tystberga</option>
+<option value="Tåby">T&#229;by</option>
+<option value="Tådene">T&#229;dene</option>
+<option value="Tångeråsa">T&#229;nger&#229;sa</option>
+<option value="Tånnö">T&#229;nn&#246;</option>
+<option value="Tåsjö">T&#229;sj&#246;</option>
+<option value="Tåssjö">T&#229;ssj&#246;</option>
+<option value="Tåstarp">T&#229;starp</option>
+<option value="Täby">T&#228;by</option>
+<option value="Tämta">T&#228;mta</option>
+<option value="Täng">T&#228;ng</option>
+<option value="Tärby">T&#228;rby</option>
+<option value="Tärna">T&#228;rna</option>
+<option value="Tävelsås">T&#228;vels&#229;s</option>
+<option value="Töcksmark">T&#246;cksmark</option>
+<option value="Töftedal">T&#246;ftedal</option>
+<option value="Töllsjö">T&#246;llsj&#246;</option>
+<option value="Tölö">T&#246;l&#246;</option>
+<option value="Tönnersjö">T&#246;nnersj&#246;</option>
+<option value="Töreboda">T&#246;reboda</option>
+<option value="Törnevalla">T&#246;rnevalla</option>
+<option value="Törnsfall">T&#246;rnsfall</option>
+<option value="Törringe">T&#246;rringe</option>
+<option value="Tösse">T&#246;sse</option>
+<option value="Ucklum">Ucklum</option>
+<option value="Ugglum">Ugglum</option>
+<option value="Ukna">Ukna</option>
+<option value="Ullared">Ullared</option>
+<option value="Ullasjö">Ullasj&#246;</option>
+<option value="Ullene">Ullene</option>
+<option value="Ullervad">Ullervad</option>
+<option value="Ullstorp">Ullstorp</option>
+<option value="Ullånger">Ull&#229;nger</option>
+<option value="Ulrika">Ulrika</option>
+<option value="Umeå landsförs">Ume&#229; landsf&#246;rs</option>
+<option value="Undenäs">Unden&#228;s</option>
+<option value="Undersvik">Undersvik</option>
+<option value="Undersåker">Unders&#229;ker</option>
+<option value="Ununge">Ununge</option>
+<option value="Upphärad">Upph&#228;rad</option>
+<option value="Uppsala-Näs">Uppsala-N&#228;s</option>
+<option value="Uppåkra">Upp&#229;kra</option>
+<option value="Urshult">Urshult</option>
+<option value="Uråsa">Ur&#229;sa</option>
+<option value="Utby">Utby</option>
+<option value="Utvängstorp">Utv&#228;ngstorp</option>
+<option value="Utö">Ut&#246;</option>
+<option value="Uvered">Uvered</option>
+<option value="Vad">Vad</option>
+<option value="Vada">Vada</option>
+<option value="Vadensjö">Vadensj&#246;</option>
+<option value="Vadsbro">Vadsbro</option>
+<option value="Vagnhärad">Vagnh&#228;rad</option>
+<option value="Vaksala">Vaksala</option>
+<option value="Valbo">Valbo</option>
+<option value="Valbo-Ryr">Valbo-Ryr</option>
+<option value="Valdshult">Valdshult</option>
+<option value="Valinge">Valinge</option>
+<option value="Vall">Vall</option>
+<option value="Valla">Valla</option>
+<option value="Vallby">Vallby</option>
+<option value="Vallda">Vallda</option>
+<option value="Valleberga">Valleberga</option>
+<option value="Vallentuna">Vallentuna</option>
+<option value="Vallerstad">Vallerstad</option>
+<option value="Vallkärra">Vallk&#228;rra</option>
+<option value="Vallsjö">Vallsj&#246;</option>
+<option value="Vallstena">Vallstena</option>
+<option value="Valstad">Valstad</option>
+<option value="Valtorp">Valtorp</option>
+<option value="Valö">Val&#246;</option>
+<option value="Vamlingbo">Vamlingbo</option>
+<option value="Vankiva">Vankiva</option>
+<option value="Vanstad">Vanstad</option>
+<option value="Vansö">Vans&#246;</option>
+<option value="Vara">Vara</option>
+<option value="Varnhem">Varnhem</option>
+<option value="Varnum">Varnum</option>
+<option value="Varola">Varola</option>
+<option value="Vartofta-Åsaka">Vartofta-&#197;saka</option>
+<option value="Varv">Varv</option>
+<option value="Vassunda">Vassunda</option>
+<option value="Vassända">Vass&#228;nda</option>
+<option value="Veberöd">Veber&#246;d</option>
+<option value="Veckholm">Veckholm</option>
+<option value="Vedby">Vedby</option>
+<option value="Veddige">Veddige</option>
+<option value="Vederslöv">Vedersl&#246;v</option>
+<option value="Veinge">Veinge</option>
+<option value="Velinga">Velinga</option>
+<option value="Vellinge">Vellinge</option>
+<option value="Vena">Vena</option>
+<option value="Vendel">Vendel</option>
+<option value="Venjan">Venjan</option>
+<option value="Ventlinge">Ventlinge</option>
+<option value="Verum">Verum</option>
+<option value="Vesene">Vesene</option>
+<option value="Vessige">Vessige</option>
+<option value="Veta">Veta</option>
+<option value="Vetlanda">Vetlanda</option>
+<option value="Viby">Viby</option>
+<option value="Vibyggerå">Vibygger&#229;</option>
+<option value="Vickleby">Vickleby</option>
+<option value="Vidbo">Vidbo</option>
+<option value="Vika">Vika</option>
+<option value="Viken">Viken</option>
+<option value="Vikingstad">Vikingstad</option>
+<option value="Viklau">Viklau</option>
+<option value="Viksta">Viksta</option>
+<option value="Villberga">Villberga</option>
+<option value="Villie">Villie</option>
+<option value="Villstad">Villstad</option>
+<option value="Vilske-Kleva">Vilske-Kleva</option>
+<option value="Vimmerby">Vimmerby</option>
+<option value="Vinberg">Vinberg</option>
+<option value="Vindeln">Vindeln</option>
+<option value="Vinköl">Vink&#246;l</option>
+<option value="Vinnerstad">Vinnerstad</option>
+<option value="Vinslöv">Vinsl&#246;v</option>
+<option value="Vintrosa">Vintrosa</option>
+<option value="Vireda">Vireda</option>
+<option value="Virestad">Virestad</option>
+<option value="Virke">Virke</option>
+<option value="Virserum">Virserum</option>
+<option value="Vislanda">Vislanda</option>
+<option value="Visnum">Visnum</option>
+<option value="Visnums-Kil">Visnums-Kil</option>
+<option value="Vissefjärda">Vissefj&#228;rda</option>
+<option value="Visseltofta">Visseltofta</option>
+<option value="Vist">Vist</option>
+<option value="Vistorp">Vistorp</option>
+<option value="Vitaby">Vitaby</option>
+<option value="Vitsand">Vitsand</option>
+<option value="Vittaryd">Vittaryd</option>
+<option value="Vittinge">Vittinge</option>
+<option value="Vittsjö">Vittsj&#246;</option>
+<option value="Vittskövle">Vittsk&#246;vle</option>
+<option value="Vollsjö">Vollsj&#246;</option>
+<option value="Vomb">Vomb</option>
+<option value="Voxtorp">Voxtorp</option>
+<option value="Vrena">Vrena</option>
+<option value="Vreta kloster">Vreta kloster</option>
+<option value="Vrigstad">Vrigstad</option>
+<option value="Vrå">Vr&#229;</option>
+<option value="Våmb">V&#229;mb</option>
+<option value="Vånga">V&#229;nga</option>
+<option value="Vårdinge">V&#229;rdinge</option>
+<option value="Vårdnäs">V&#229;rdn&#228;s</option>
+<option value="Vårdsberg">V&#229;rdsberg</option>
+<option value="Vårfrukyrka">V&#229;rfrukyrka</option>
+<option value="Vårkumla">V&#229;rkumla</option>
+<option value="Vårvik">V&#229;rvik</option>
+<option value="Våthult">V&#229;thult</option>
+<option value="Våxtorp">V&#229;xtorp</option>
+<option value="Vä">V&#228;</option>
+<option value="Väckelsång">V&#228;ckels&#229;ng</option>
+<option value="Väddö">V&#228;dd&#246;</option>
+<option value="Väderstad">V&#228;derstad</option>
+<option value="Väla">V&#228;la</option>
+<option value="Välinge">V&#228;linge</option>
+<option value="Välluv">V&#228;lluv</option>
+<option value="Vänersnäs">V&#228;nersn&#228;s</option>
+<option value="Väne-Ryr">V&#228;ne-Ryr</option>
+<option value="Väne-Åsaka">V&#228;ne-&#197;saka</option>
+<option value="Vänga">V&#228;nga</option>
+<option value="Vänge">V&#228;nge</option>
+<option value="Vännäs">V&#228;nn&#228;s</option>
+<option value="Väring">V&#228;ring</option>
+<option value="Värmdö">V&#228;rmd&#246;</option>
+<option value="Värmskog">V&#228;rmskog</option>
+<option value="Värna">V&#228;rna</option>
+<option value="Värnamo">V&#228;rnamo</option>
+<option value="Värsås">V&#228;rs&#229;s</option>
+<option value="Värö">V&#228;r&#246;</option>
+<option value="Väsby">V&#228;sby</option>
+<option value="Väse">V&#228;se</option>
+<option value="Väskinde">V&#228;skinde</option>
+<option value="Vässby">V&#228;ssby</option>
+<option value="Västanfors">V&#228;stanfors</option>
+<option value="Västerbitterna">V&#228;sterbitterna</option>
+<option value="Västerfärnebo">V&#228;sterf&#228;rnebo</option>
+<option value="Västergarn">V&#228;stergarn</option>
+<option value="Västerhaninge">V&#228;sterhaninge</option>
+<option value="Västerhejde">V&#228;sterhejde</option>
+<option value="Västerlanda">V&#228;sterlanda</option>
+<option value="Västerljung">V&#228;sterljung</option>
+<option value="Västerlösa">V&#228;sterl&#246;sa</option>
+<option value="Västerlövsta">V&#228;sterl&#246;vsta</option>
+<option value="Västermo">V&#228;stermo</option>
+<option value="Västerplana">V&#228;sterplana</option>
+<option value="Västerstad">V&#228;sterstad</option>
+<option value="Västervik">V&#228;stervik</option>
+<option value="Västervåla">V&#228;sterv&#229;la</option>
+<option value="Västeråker">V&#228;ster&#229;ker</option>
+<option value="Västerås Badelunda">V&#228;ster&#229;s Badelunda</option>
+<option value="Västerås Lundby">V&#228;ster&#229;s Lundby</option>
+<option value="Västerås Skerike">V&#228;ster&#229;s Skerike</option>
+<option value="Västerås-Barkarö">V&#228;ster&#229;s-Barkar&#246;</option>
+<option value="Västland">V&#228;stland</option>
+<option value="Västra Broby">V&#228;stra Broby</option>
+<option value="Västra Ed">V&#228;stra Ed</option>
+<option value="Västra Eneby">V&#228;stra Eneby</option>
+<option value="Västra Frölunda">V&#228;stra Fr&#246;lunda</option>
+<option value="Västra Fågelvik">V&#228;stra F&#229;gelvik</option>
+<option value="Västra Gerum">V&#228;stra Gerum</option>
+<option value="Västra Harg">V&#228;stra Harg</option>
+<option value="Västra Hoby">V&#228;stra Hoby</option>
+<option value="Västra Husby">V&#228;stra Husby</option>
+<option value="Västra Ingelstad">V&#228;stra Ingelstad</option>
+<option value="Västra Karaby">V&#228;stra Karaby</option>
+<option value="Västra Karup">V&#228;stra Karup</option>
+<option value="Västra Klagstorp">V&#228;stra Klagstorp</option>
+<option value="Västra Kärrstorp">V&#228;stra K&#228;rrstorp</option>
+<option value="Västra Ny">V&#228;stra Ny</option>
+<option value="Västra Nöbbelöv">V&#228;stra N&#246;bbel&#246;v</option>
+<option value="Västra Ryd">V&#228;stra Ryd</option>
+<option value="Västra Skedvi">V&#228;stra Skedvi</option>
+<option value="Västra Skrukeby">V&#228;stra Skrukeby</option>
+<option value="Västra Skrävlinge">V&#228;stra Skr&#228;vlinge</option>
+<option value="Västra Stenby">V&#228;stra Stenby</option>
+<option value="Västra Strö">V&#228;stra Str&#246;</option>
+<option value="Västra Sönnarslöv">V&#228;stra S&#246;nnarsl&#246;v</option>
+<option value="Västra Tollstad">V&#228;stra Tollstad</option>
+<option value="Västra Tommarp">V&#228;stra Tommarp</option>
+<option value="Västra Torsås">V&#228;stra Tors&#229;s</option>
+<option value="Västra Torup">V&#228;stra Torup</option>
+<option value="Västra Tunhem">V&#228;stra Tunhem</option>
+<option value="Västra Vemmenhög">V&#228;stra Vemmenh&#246;g</option>
+<option value="Västra Vemmerlöv">V&#228;stra Vemmerl&#246;v</option>
+<option value="Västra Vingåker">V&#228;stra Ving&#229;ker</option>
+<option value="Västra Vram">V&#228;stra Vram</option>
+<option value="Västra Ämtervik">V&#228;stra &#196;mtervik</option>
+<option value="Västrum">V&#228;strum</option>
+<option value="Väte">V&#228;te</option>
+<option value="Vättak">V&#228;ttak</option>
+<option value="Vättlösa">V&#228;ttl&#246;sa</option>
+<option value="Vätö">V&#228;t&#246;</option>
+<option value="Väversunda">V&#228;versunda</option>
+<option value="Växjö">V&#228;xj&#246;</option>
+<option value="Yllestad">Yllestad</option>
+<option value="Ysane">Ysane</option>
+<option value="Ysby">Ysby</option>
+<option value="Ytterby">Ytterby</option>
+<option value="Ytterenhörna">Ytterenh&#246;rna</option>
+<option value="Yttergran">Yttergran</option>
+<option value="Ytterhogdal">Ytterhogdal</option>
+<option value="Ytterjärna">Ytterj&#228;rna</option>
+<option value="Ytterlännäs">Ytterl&#228;nn&#228;s</option>
+<option value="Ytterselö">Yttersel&#246;</option>
+<option value="Yxnerum">Yxnerum</option>
+<option value="Å">&#197;</option>
+<option value="Åby">&#197;by</option>
+<option value="Ådals-Liden">&#197;dals-Liden</option>
+<option value="Åhus">&#197;hus</option>
+<option value="Åker">&#197;ker</option>
+<option value="Åkerby">&#197;kerby</option>
+<option value="Ål">&#197;l</option>
+<option value="Åland">&#197;land</option>
+<option value="Ålem">&#197;lem</option>
+<option value="Åmål">&#197;m&#229;l</option>
+<option value="Ånimskog">&#197;nimskog</option>
+<option value="Ånsta">&#197;nsta</option>
+<option value="Årdala">&#197;rdala</option>
+<option value="Åre">&#197;re</option>
+<option value="Årstad">&#197;rstad</option>
+<option value="Årsunda">&#197;rsunda</option>
+<option value="Åryd">&#197;ryd</option>
+<option value="Ås">&#197;s</option>
+<option value="Åsbo">&#197;sbo</option>
+<option value="Åsbräcka">&#197;sbr&#228;cka</option>
+<option value="Åseda">&#197;seda</option>
+<option value="Åsenhöga">&#197;senh&#246;ga</option>
+<option value="Åsle">&#197;sle</option>
+<option value="Åtvid">&#197;tvid</option>
+<option value="Älekulla">&#196;lekulla</option>
+<option value="Älgarås">&#196;lgar&#229;s</option>
+<option value="Älghult">&#196;lghult</option>
+<option value="Älgå">&#196;lg&#229;</option>
+<option value="Älmeboda">&#196;lmeboda</option>
+<option value="Älvdalen">&#196;lvdalen</option>
+<option value="Älvestad">&#196;lvestad</option>
+<option value="Älvkarleby">&#196;lvkarleby</option>
+<option value="Älvsby">&#196;lvsby</option>
+<option value="Älvsered">&#196;lvsered</option>
+<option value="Älvsåker">&#196;lvs&#229;ker</option>
+<option value="Ängsö">&#196;ngs&#246;</option>
+<option value="Äppelbo">&#196;ppelbo</option>
+<option value="Ärentuna">&#196;rentuna</option>
+<option value="Ärja">&#196;rja</option>
+<option value="Ärla">&#196;rla</option>
+<option value="Ärtemark">&#196;rtemark</option>
+<option value="Äspered">&#196;spered</option>
+<option value="Äsphult">&#196;sphult</option>
+<option value="Äspinge">&#196;spinge</option>
+<option value="Äspö">&#196;sp&#246;</option>
+<option value="Öckerö">&#214;cker&#246;</option>
+<option value="Ödeborg">&#214;deborg</option>
+<option value="Ödeby">&#214;deby</option>
+<option value="Ödenäs">&#214;den&#228;s</option>
+<option value="Ödeshög">&#214;desh&#246;g</option>
+<option value="Ödestugu">&#214;destugu</option>
+<option value="Ödskölt">&#214;dsk&#246;lt</option>
+<option value="Ödsmål">&#214;dsm&#229;l</option>
+<option value="Öggestorp">&#214;ggestorp</option>
+<option value="Öglunda">&#214;glunda</option>
+<option value="Öja">&#214;ja</option>
+<option value="Öjaby">&#214;jaby</option>
+<option value="Ökna">&#214;kna</option>
+<option value="Öljehult">&#214;ljehult</option>
+<option value="Ölme">&#214;lme</option>
+<option value="Ölmevalla">&#214;lmevalla</option>
+<option value="Ölmstad">&#214;lmstad</option>
+<option value="Ölserud">&#214;lserud</option>
+<option value="Ölsremma">&#214;lsremma</option>
+<option value="Önnarp">&#214;nnarp</option>
+<option value="Önnestad">&#214;nnestad</option>
+<option value="Önum">&#214;num</option>
+<option value="Ör">&#214;r</option>
+<option value="Öra">&#214;ra</option>
+<option value="Örberga">&#214;rberga</option>
+<option value="Örby">&#214;rby</option>
+<option value="Öreryd">&#214;reryd</option>
+<option value="Örgryte">&#214;rgryte</option>
+<option value="Örja">&#214;rja</option>
+<option value="Örkelljunga">&#214;rkelljunga</option>
+<option value="Örkened">&#214;rkened</option>
+<option value="Örsjö">&#214;rsj&#246;</option>
+<option value="Örslösa">&#214;rsl&#246;sa</option>
+<option value="Örsås">&#214;rs&#229;s</option>
+<option value="Örtofta">&#214;rtofta</option>
+<option value="Örtomta">&#214;rtomta</option>
+<option value="Ösmo">&#214;smo</option>
+<option value="Össeby-Garn">&#214;sseby-Garn</option>
+<option value="Össjö">&#214;ssj&#246;</option>
+<option value="Östad">&#214;stad</option>
+<option value="Österbitterna">&#214;sterbitterna</option>
+<option value="Österfärnebo">&#214;sterf&#228;rnebo</option>
+<option value="Östergarn">&#214;stergarn</option>
+<option value="Österhaninge">&#214;sterhaninge</option>
+<option value="Österlövsta">&#214;sterl&#246;vsta</option>
+<option value="Österplana">&#214;sterplana</option>
+<option value="Österslöv">&#214;stersl&#246;v</option>
+<option value="Östertälje">&#214;stert&#228;lje</option>
+<option value="Österunda">&#214;sterunda</option>
+<option value="Östervallskog">&#214;stervallskog</option>
+<option value="Östervåla">&#214;sterv&#229;la</option>
+<option value="Österåker">&#214;ster&#229;ker</option>
+<option value="Östmark">&#214;stmark</option>
+<option value="Östra Broby">&#214;stra Broby</option>
+<option value="Östra Ed">&#214;stra Ed</option>
+<option value="Östra Frölunda">&#214;stra Fr&#246;lunda</option>
+<option value="Östra Fågelvik">&#214;stra F&#229;gelvik</option>
+<option value="Östra Gerum">&#214;stra Gerum</option>
+<option value="Östra Grevie">&#214;stra Grevie</option>
+<option value="Östra Harg">&#214;stra Harg</option>
+<option value="Östra Herrestad">&#214;stra Herrestad</option>
+<option value="Östra Hoby">&#214;stra Hoby</option>
+<option value="Östra Husby">&#214;stra Husby</option>
+<option value="Östra Ingelstad">&#214;stra Ingelstad</option>
+<option value="Östra Karaby">&#214;stra Karaby</option>
+<option value="Östra Karup">&#214;stra Karup</option>
+<option value="Östra Klagstorp">&#214;stra Klagstorp</option>
+<option value="Östra Kärrstorp">&#214;stra K&#228;rrstorp</option>
+<option value="Östra Ljungby">&#214;stra Ljungby</option>
+<option value="Östra Ny">&#214;stra Ny</option>
+<option value="Östra Nöbbelöv">&#214;stra N&#246;bbel&#246;v</option>
+<option value="Östra Ryd">&#214;stra Ryd</option>
+<option value="Östra Sallerup">&#214;stra Sallerup</option>
+<option value="Östra Skrukeby">&#214;stra Skrukeby</option>
+<option value="Östra Stenby">&#214;stra Stenby</option>
+<option value="Östra Strö">&#214;stra Str&#246;</option>
+<option value="Östra Sönnarslöv">&#214;stra S&#246;nnarsl&#246;v</option>
+<option value="Östra Tollstad">&#214;stra Tollstad</option>
+<option value="Östra Tommarp">&#214;stra Tommarp</option>
+<option value="Östra Torp">&#214;stra Torp</option>
+<option value="Östra Torsås">&#214;stra Tors&#229;s</option>
+<option value="Östra Tunhem">&#214;stra Tunhem</option>
+<option value="Östra Vemmenhög">&#214;stra Vemmenh&#246;g</option>
+<option value="Östra Vemmerlöv">&#214;stra Vemmerl&#246;v</option>
+<option value="Östra Vingåker">&#214;stra Ving&#229;ker</option>
+<option value="Östra Vram">&#214;stra Vram</option>
+<option value="Östra Ämtervik">&#214;stra &#196;mtervik</option>
+<option value="Östraby">&#214;straby</option>
+<option value="Östuna">&#214;stuna</option>
+<option value="Öttum">&#214;ttum</option>
+<option value="Öved">&#214;ved</option>
+<option value="Överenhörna">&#214;verenh&#246;rna</option>
+<option value="Övergran">&#214;vergran</option>
+<option value="Överjärna">&#214;verj&#228;rna</option>
+<option value="Överkalix">&#214;verkalix</option>
+<option value="Överluleå">&#214;verlule&#229;</option>
+<option value="Överlännäs">&#214;verl&#228;nn&#228;s</option>
+<option value="Överselö">&#214;versel&#246;</option>
+<option value="Övertorneå">&#214;vertorne&#229;</option>
+<option value="Övraby">&#214;vraby</option>
+<option value="Övre Ullerud">&#214;vre Ullerud</option>
+<option value="Öxabäck">&#214;xab&#228;ck</option>
+<option value="Öxnevalla">&#214;xnevalla</option>
+</select>
+                </div>
+                <div class="span3">
+    <label for="Harad">
+        <span>
+        
+                        <strong>H&#228;rad</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpHarad" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoHarad" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Grill","LabelFor":"Harad","Label":"Härad","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <select id="Harad" name="Harad" tabindex="3" title="Välj härad"><option value="">Alla</option>
+<option value="Albo">Albo</option>
+<option value="Ale">Ale</option>
+<option value="Allbo">Allbo</option>
+<option value="Aska">Aska</option>
+<option value="Asker">Asker</option>
+<option value="Askim">Askim</option>
+<option value="Aspeland">Aspeland</option>
+<option value="Bankekind">Bankekind</option>
+<option value="Bara">Bara</option>
+<option value="Barne">Barne</option>
+<option value="Bjäre">Bj&#228;re</option>
+<option value="Bjärke">Bj&#228;rke</option>
+<option value="Björkekind">Bj&#246;rkekind</option>
+<option value="Boberg">Boberg</option>
+<option value="Bollebygd">Bollebygd</option>
+<option value="Bro">Bro</option>
+<option value="Bro skplg">Bro skplg</option>
+<option value="Bråbo">Br&#229;bo</option>
+<option value="Bräkne">Br&#228;kne</option>
+<option value="Bullaren">Bullaren</option>
+<option value="Bälinge">B&#228;linge</option>
+<option value="Daga">Daga</option>
+<option value="Dal">Dal</option>
+<option value="Danderyds skplg">Danderyds skplg</option>
+<option value="Edsberg">Edsberg</option>
+<option value="Faurås">Faur&#229;s</option>
+<option value="Fellingsbro">Fellingsbro</option>
+<option value="Finspångalän">Finsp&#229;ngal&#228;n</option>
+<option value="Fjäre">Fj&#228;re</option>
+<option value="Flundre">Flundre</option>
+<option value="Frosta">Frosta</option>
+<option value="Frökind">Fr&#246;kind</option>
+<option value="Frösåker">Fr&#246;s&#229;ker</option>
+<option value="Frötuna skplg">Fr&#246;tuna skplg</option>
+<option value="Färs">F&#228;rs</option>
+<option value="Gamla Norbergs blg">Gamla Norbergs blg</option>
+<option value="Gillberg">Gillberg</option>
+<option value="Glanshammar">Glanshammar</option>
+<option value="Gotlands norra hd">Gotlands norra hd</option>
+<option value="Gotlands södra hd">Gotlands s&#246;dra hd</option>
+<option value="Grimsten">Grimsten</option>
+<option value="Grums">Grums</option>
+<option value="Gudhem">Gudhem</option>
+<option value="Gullberg">Gullberg</option>
+<option value="Gärd">G&#228;rd</option>
+<option value="Gäsene">G&#228;sene</option>
+<option value="Gästriklands fögd">G&#228;striklands f&#246;gd</option>
+<option value="Göstring">G&#246;string</option>
+<option value="Hagunda">Hagunda</option>
+<option value="Halmstad">Halmstad</option>
+<option value="Hammarkind">Hammarkind</option>
+<option value="Handbörd">Handb&#246;rd</option>
+<option value="Hanekind">Hanekind</option>
+<option value="Hardemo">Hardemo</option>
+<option value="Harjager">Harjager</option>
+<option value="Herrestad">Herrestad</option>
+<option value="Himle">Himle</option>
+<option value="Håbo">H&#229;bo</option>
+<option value="Hälsinglands norra fögd">H&#228;lsinglands norra f&#246;gd</option>
+<option value="Hälsinglands södra fögd">H&#228;lsinglands s&#246;dra f&#246;gd</option>
+<option value="Häverö">H&#228;ver&#246;</option>
+<option value="Hök">H&#246;k</option>
+<option value="Hölebo">H&#246;lebo</option>
+<option value="Ingelstad">Ingelstad</option>
+<option value="Inlands Fräkne">Inlands Fr&#228;kne</option>
+<option value="Inlands norra">Inlands norra</option>
+<option value="Inlands södra">Inlands s&#246;dra</option>
+<option value="Inlands Torpe">Inlands Torpe</option>
+<option value="Jämtlands norra fögd">J&#228;mtlands norra f&#246;gd</option>
+<option value="Jämtlands södra fögd">J&#228;mtlands s&#246;dra f&#246;gd</option>
+<option value="Järrestad">J&#228;rrestad</option>
+<option value="Jönåker">J&#246;n&#229;ker</option>
+<option value="Jösse">J&#246;sse</option>
+<option value="Karlstad">Karlstad</option>
+<option value="Kil">Kil</option>
+<option value="Kind">Kind</option>
+<option value="Kinda">Kinda</option>
+<option value="Kinne">Kinne</option>
+<option value="Kinnefjärding">Kinnefj&#228;rding</option>
+<option value="Kinnevald">Kinnevald</option>
+<option value="Konga">Konga</option>
+<option value="Kopparbergs fögd">Kopparbergs f&#246;gd</option>
+<option value="Kulling">Kulling</option>
+<option value="Kumla">Kumla</option>
+<option value="Kville">Kville</option>
+<option value="Kåkind">K&#229;kind</option>
+<option value="Kålland">K&#229;lland</option>
+<option value="Lagunda">Lagunda</option>
+<option value="Lane">Lane</option>
+<option value="Laske">Laske</option>
+<option value="Lister">Lister</option>
+<option value="Ljunits">Ljunits</option>
+<option value="Luggude">Luggude</option>
+<option value="Luleå fögd">Lule&#229; f&#246;gd</option>
+<option value="Lyhundra">Lyhundra</option>
+<option value="Lysing">Lysing</option>
+<option value="Långhundra">L&#229;nghundra</option>
+<option value="Lösing">L&#246;sing</option>
+<option value="Mark">Mark</option>
+<option value="Medelpads fögd">Medelpads f&#246;gd</option>
+<option value="Medelstad">Medelstad</option>
+<option value="Memming">Memming</option>
+<option value="Mo">Mo</option>
+<option value="Nedansiljans fögd">Nedansiljans f&#246;gd</option>
+<option value="Nedre Fryksdal">Nedre Fryksdal</option>
+<option value="Norberg">Norberg</option>
+<option value="Nordal">Nordal</option>
+<option value="Nordmark">Nordmark</option>
+<option value="Norra Möre">Norra M&#246;re</option>
+<option value="Norra Tjust">Norra Tjust</option>
+<option value="Norra Vedbo">Norra Vedbo</option>
+<option value="Norra Ångermanl. fögd">Norra &#197;ngermanl. f&#246;gd</option>
+<option value="Norra Åsbo">Norra &#197;sbo</option>
+<option value="Norrbo">Norrbo</option>
+<option value="Norrvidinge">Norrvidinge</option>
+<option value="Norunda">Norunda</option>
+<option value="Närdinghundra">N&#228;rdinghundra</option>
+<option value="Näs">N&#228;s</option>
+<option value="Näsgårds fögd">N&#228;sg&#229;rds f&#246;gd</option>
+<option value="Oland">Oland</option>
+<option value="Onsjö">Onsj&#246;</option>
+<option value="Oppunda">Oppunda</option>
+<option value="Orust">Orust</option>
+<option value="Ovansiljans fögd">Ovansiljans f&#246;gd</option>
+<option value="Oxie">Oxie</option>
+<option value="Rasbo">Rasbo</option>
+<option value="Redväg">Redv&#228;g</option>
+<option value="Råneå fögd">R&#229;ne&#229; f&#246;gd</option>
+<option value="Rönneberg">R&#246;nneberg</option>
+<option value="Rönö">R&#246;n&#246;</option>
+<option value="Selebo">Selebo</option>
+<option value="Seminghundra">Seminghundra</option>
+<option value="Sevede">Sevede</option>
+<option value="Siende">Siende</option>
+<option value="Simtuna">Simtuna</option>
+<option value="Sjuhundra">Sjuhundra</option>
+<option value="Skinnskatteberg">Skinnskatteberg</option>
+<option value="Skytt">Skytt</option>
+<option value="Skåning">Sk&#229;ning</option>
+<option value="Skärkind">Sk&#228;rkind</option>
+<option value="Sköllersta">Sk&#246;llersta</option>
+<option value="Snevringe">Snevringe</option>
+<option value="Sollentuna">Sollentuna</option>
+<option value="Sotenäs">Soten&#228;s</option>
+<option value="Sotholm">Sotholm</option>
+<option value="Stranda">Stranda</option>
+<option value="Stångenäs">St&#229;ngen&#228;s</option>
+<option value="Sundal">Sundal</option>
+<option value="Sundbo">Sundbo</option>
+<option value="Sunnerbo">Sunnerbo</option>
+<option value="Svartlösa">Svartl&#246;sa</option>
+<option value="Säters fögd">S&#228;ters f&#246;gd</option>
+<option value="Sävedal">S&#228;vedal</option>
+<option value="Södra Möre">S&#246;dra M&#246;re</option>
+<option value="Södra Tjust">S&#246;dra Tjust</option>
+<option value="Södra Vedbo">S&#246;dra Vedbo</option>
+<option value="Södra Ångermanl. fögd">S&#246;dra &#197;ngermanl. f&#246;gd</option>
+<option value="Södra Åsbo">S&#246;dra &#197;sbo</option>
+<option value="Sörbygden">S&#246;rbygden</option>
+<option value="Tanum">Tanum</option>
+<option value="Tjörn">Tj&#246;rn</option>
+<option value="Torna">Torna</option>
+<option value="Torneå fögd">Torne&#229; f&#246;gd</option>
+<option value="Torstuna">Torstuna</option>
+<option value="Trögd">Tr&#246;gd</option>
+<option value="Tuhundra">Tuhundra</option>
+<option value="Tunalän">Tunal&#228;n</option>
+<option value="Tunge">Tunge</option>
+<option value="Tveta">Tveta</option>
+<option value="Tönnersjö">T&#246;nnersj&#246;</option>
+<option value="Tössbo">T&#246;ssbo</option>
+<option value="Ulleråker">Uller&#229;ker</option>
+<option value="Umeå första fögd">Ume&#229; f&#246;rsta f&#246;gd</option>
+<option value="Uppvidinge">Uppvidinge</option>
+<option value="Vadsbo">Vadsbo</option>
+<option value="Vagnsbro">Vagnsbro</option>
+<option value="Vaksala">Vaksala</option>
+<option value="Valbo">Valbo</option>
+<option value="Valkebo">Valkebo</option>
+<option value="Valle">Valle</option>
+<option value="Vallentuna">Vallentuna</option>
+<option value="Vartofta">Vartofta</option>
+<option value="Vedbo">Vedbo</option>
+<option value="Veden">Veden</option>
+<option value="Vemmenhög">Vemmenh&#246;g</option>
+<option value="Vette">Vette</option>
+<option value="Vifolka">Vifolka</option>
+<option value="Villand">Villand</option>
+<option value="Villåttinge">Vill&#229;ttinge</option>
+<option value="Vilske">Vilske</option>
+<option value="Viske">Viske</option>
+<option value="Visnum">Visnum</option>
+<option value="Vista">Vista</option>
+<option value="Viste">Viste</option>
+<option value="Våla">V&#229;la</option>
+<option value="Väddö">V&#228;dd&#246;</option>
+<option value="Väne">V&#228;ne</option>
+<option value="Värmdö skplg">V&#228;rmd&#246; skplg</option>
+<option value="Väse">V&#228;se</option>
+<option value="Västbo">V&#228;stbo</option>
+<option value="Västerbergslagen">V&#228;sterbergslagen</option>
+<option value="Västerbott. andra fögd">V&#228;sterbott. andra f&#246;gd</option>
+<option value="Västerbott. första fögd">V&#228;sterbott. f&#246;rsta f&#246;gd</option>
+<option value="Västerdals fögderi">V&#228;sterdals f&#246;gderi</option>
+<option value="Västerrekarne">V&#228;sterrekarne</option>
+<option value="Västra">V&#228;stra</option>
+<option value="Västra Göinge">V&#228;stra G&#246;inge</option>
+<option value="Västra Hising">V&#228;stra Hising</option>
+<option value="Vättle">V&#228;ttle</option>
+<option value="Vätö skplg">V&#228;t&#246; skplg</option>
+<option value="Ydre">Ydre</option>
+<option value="Yttertjurbo">Yttertjurbo</option>
+<option value="Åker">&#197;ker</option>
+<option value="Åkerbo">&#197;kerbo</option>
+<option value="Åkers skplg">&#197;kers skplg</option>
+<option value="Årstad">&#197;rstad</option>
+<option value="Ås">&#197;s</option>
+<option value="Åse">&#197;se</option>
+<option value="Åsunda">&#197;sunda</option>
+<option value="Älvdal">&#196;lvdal</option>
+<option value="Ärlinghundra">&#196;rlinghundra</option>
+<option value="Öknebo">&#214;knebo</option>
+<option value="Ölands norra mot">&#214;lands norra mot</option>
+<option value="Ölands södra mot">&#214;lands s&#246;dra mot</option>
+<option value="Ölme">&#214;lme</option>
+<option value="Örbyhus">&#214;rbyhus</option>
+<option value="Örebro">&#214;rebro</option>
+<option value="Östbo">&#214;stbo</option>
+<option value="Österrekarne">&#214;sterrekarne</option>
+<option value="Östkind">&#214;stkind</option>
+<option value="Östra">&#214;stra</option>
+<option value="Östra Göinge">&#214;stra G&#246;inge</option>
+<option value="Östra Hising">&#214;stra Hising</option>
+<option value="Övertjurbo">&#214;vertjurbo</option>
+<option value="Övre Fryksdal">&#214;vre Fryksdal</option>
+</select>
+                </div>
+                <div class="span3">
+    <label for="Lan">
+        <span>
+        
+                        <strong>L&#228;n</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpLan" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoLan" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Grill","LabelFor":"Lan","Label":"Län","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <select id="Lan" name="Lan" tabindex="4" title="Välj län"><option value="">Alla</option>
+<option value="Blekinge">Blekinge</option>
+<option value="Finland">Finland</option>
+<option value="Gotlands">Gotlands</option>
+<option value="Gävleborgs">G&#228;vleborgs</option>
+<option value="Göteborgs och Bohus">G&#246;teborgs och Bohus</option>
+<option value="Hallands">Hallands</option>
+<option value="Jämtlands">J&#228;mtlands</option>
+<option value="Jönköpings">J&#246;nk&#246;pings</option>
+<option value="Kalmar">Kalmar</option>
+<option value="Kopparbergs">Kopparbergs</option>
+<option value="Kristianstads">Kristianstads</option>
+<option value="Kronobergs">Kronobergs</option>
+<option value="Malmöhus">Malm&#246;hus</option>
+<option value="Norrbottens">Norrbottens</option>
+<option value="Skaraborgs">Skaraborgs</option>
+<option value="Stockholms">Stockholms</option>
+<option value="Södermanlands">S&#246;dermanlands</option>
+<option value="Uppsala">Uppsala</option>
+<option value="Värmlands">V&#228;rmlands</option>
+<option value="Västerbottens">V&#228;sterbottens</option>
+<option value="Västernorrlands">V&#228;sternorrlands</option>
+<option value="Västmanlands">V&#228;stmanlands</option>
+<option value="Älvsborgs">&#196;lvsborgs</option>
+<option value="Örebro">&#214;rebro</option>
+<option value="Östergötlands">&#214;sterg&#246;tlands</option>
+</select>
+                </div>
+            </div>
+            <div id="simpleSearchRow2" class="content row-fluid">
+                <div class="span3">
+    <label for="Kompani">
+        <span>
+        
+                        <strong>Kompani</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpKompani" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoKompani" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Grill","LabelFor":"Kompani","Label":"Kompani","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <select id="Kompani" name="Kompani" tabindex="5" title="Välj kompani"><option value="">Alla</option>
+<option value="4:e eller Kungsbacka kompani">4:e eller Kungsbacka kompani</option>
+<option value="6:e eller Fjärås kompani">6:e eller Fj&#228;r&#229;s kompani</option>
+<option value="8:e eller Falkenbergs kompani">8:e eller Falkenbergs kompani</option>
+<option value="Göteborgs Stadsvaktskomp.">G&#246;teborgs Stadsvaktskomp.</option>
+<option value="N:o 1. Livkomp. (f d Bara komp.)">N:o 1. Livkomp. (f d Bara komp.)</option>
+<option value="N:o 1. Livkomp. (f d Villands komp.)">N:o 1. Livkomp. (f d Villands komp.)</option>
+<option value="N:o 1. Livkompaniet">N:o 1. Livkompaniet</option>
+<option value="N:o 1. Livskvadronen">N:o 1. Livskvadronen</option>
+<option value="N:o 10. Arrie skvadron">N:o 10. Arrie skvadron</option>
+<option value="N:o 10. Simrishamns skvadron">N:o 10. Simrishamns skvadron</option>
+<option value="N:o 2. Alsens skvadron">N:o 2. Alsens skvadron</option>
+<option value="N:o 2. Askersunds kompani">N:o 2. Askersunds kompani</option>
+<option value="N:o 2. Folkare kompani">N:o 2. Folkare kompani</option>
+<option value="N:o 2. Forssa kompani">N:o 2. Forssa kompani</option>
+<option value="N:o 2. Frosta kompani">N:o 2. Frosta kompani</option>
+<option value="N:o 2. Hammerdals kompani">N:o 2. Hammerdals kompani</option>
+<option value="N:o 2. Höjentorps kompani">N:o 2. H&#246;jentorps kompani</option>
+<option value="N:o 2. Kils kompani">N:o 2. Kils kompani</option>
+<option value="N:o 2. Lane kompani">N:o 2. Lane kompani</option>
+<option value="N:o 2. Laske kompani">N:o 2. Laske kompani</option>
+<option value="N:o 2. Leksands kompani">N:o 2. Leksands kompani</option>
+<option value="N:o 2. Livkompaniet">N:o 2. Livkompaniet</option>
+<option value="N:o 2. Marks kompani">N:o 2. Marks kompani</option>
+<option value="N:o 2. Norra Vedbo kompani">N:o 2. Norra Vedbo kompani</option>
+<option value="N:o 2. Piteå kompani">N:o 2. Pite&#229; kompani</option>
+<option value="N:o 2. Rasbo kompani">N:o 2. Rasbo kompani</option>
+<option value="N:o 2. Sandby skvadron">N:o 2. Sandby skvadron</option>
+<option value="N:o 2. Sigtuna skvadron">N:o 2. Sigtuna skvadron</option>
+<option value="N:o 2. Skatelövs kompani">N:o 2. Skatel&#246;vs kompani</option>
+<option value="N:o 2. Skellefteå kompani">N:o 2. Skellefte&#229; kompani</option>
+<option value="N:o 2. Stångebro kompani">N:o 2. St&#229;ngebro kompani</option>
+<option value="N:o 2. Södra Vedbo skvadron">N:o 2. S&#246;dra Vedbo skvadron</option>
+<option value="N:o 2. Tjusts kompani">N:o 2. Tjusts kompani</option>
+<option value="N:o 2. Torna kompani">N:o 2. Torna kompani</option>
+<option value="N:o 2. Vedbo kompani">N:o 2. Vedbo kompani</option>
+<option value="N:o 2. Vingåkers kompani">N:o 2. Ving&#229;kers kompani</option>
+<option value="N:o 2. Väne kompani">N:o 2. V&#228;ne kompani</option>
+<option value="N:o 2. Örebro skvadron">N:o 2. &#214;rebro skvadron</option>
+<option value="N:o 2. Östra Göinge skvadron">N:o 2. &#214;stra G&#246;inge skvadron</option>
+<option value="N:o 2. Östra härads kompani">N:o 2. &#214;stra h&#228;rads kompani</option>
+<option value="N:o 2. Östra Västmanl. kompani">N:o 2. &#214;stra V&#228;stmanl. kompani</option>
+<option value="N:o 2. Överstelöjtnantens komp.">N:o 2. &#214;verstel&#246;jtnantens komp.</option>
+<option value="N:o 3. Aspelands kompani">N:o 3. Aspelands kompani</option>
+<option value="N:o 3. Bygdeå kompani">N:o 3. Bygde&#229; kompani</option>
+<option value="N:o 3. Gagnefs kompani">N:o 3. Gagnefs kompani</option>
+<option value="N:o 3. Järvsö kompani">N:o 3. J&#228;rvs&#246; kompani</option>
+<option value="N:o 3. Jösse kompani">N:o 3. J&#246;sse kompani</option>
+<option value="N:o 3. Kalix kompani">N:o 3. Kalix kompani</option>
+<option value="N:o 3. Kinds kompani">N:o 3. Kinds kompani</option>
+<option value="N:o 3. Kinnevalds kompani">N:o 3. Kinnevalds kompani</option>
+<option value="N:o 3. Kolleberga skvadron">N:o 3. Kolleberga skvadron</option>
+<option value="N:o 3. Kristianstads skvadron">N:o 3. Kristianstads skvadron</option>
+<option value="N:o 3. Kållands kompani">N:o 3. K&#229;llands kompani</option>
+<option value="N:o 3. Linköpings kompani">N:o 3. Link&#246;pings kompani</option>
+<option value="N:o 3. Nyköpings kompani">N:o 3. Nyk&#246;pings kompani</option>
+<option value="N:o 3. Olands kompani">N:o 3. Olands kompani</option>
+<option value="N:o 3. Revsunds kompani">N:o 3. Revsunds kompani</option>
+<option value="N:o 3. Roslags skvadron">N:o 3. Roslags skvadron</option>
+<option value="N:o 3. Skytts kompani">N:o 3. Skytts kompani</option>
+<option value="N:o 3. Sunnerbo kompani">N:o 3. Sunnerbo kompani</option>
+<option value="N:o 3. Södermanlands kompani">N:o 3. S&#246;dermanlands kompani</option>
+<option value="N:o 3. Södra Kinds kompani">N:o 3. S&#246;dra Kinds kompani</option>
+<option value="N:o 3. Södra kompani">N:o 3. S&#246;dra kompani</option>
+<option value="N:o 3. Vartofta kompani">N:o 3. Vartofta kompani</option>
+<option value="N:o 3. Vetlanda skvadron">N:o 3. Vetlanda skvadron</option>
+<option value="N:o 3. Väsby kompani">N:o 3. V&#228;sby kompani</option>
+<option value="N:o 3. Västra Göinge kompani">N:o 3. V&#228;stra G&#246;inge kompani</option>
+<option value="N:o 3. Västra Härads kompani">N:o 3. V&#228;stra H&#228;rads kompani</option>
+<option value="N:o 3. Älvsborgs kompani">N:o 3. &#196;lvsborgs kompani</option>
+<option value="N:o 3. Örebro kompani">N:o 3. &#214;rebro kompani</option>
+<option value="N:o 3. Östra Närkes skvadron">N:o 3. &#214;stra N&#228;rkes skvadron</option>
+<option value="N:o 4. Barne kompani">N:o 4. Barne kompani</option>
+<option value="N:o 4. Bergs kompani">N:o 4. Bergs kompani</option>
+<option value="N:o 4. Delsbo kompani">N:o 4. Delsbo kompani</option>
+<option value="N:o 4. Fräkne kompani">N:o 4. Fr&#228;kne kompani</option>
+<option value="N:o 4. Gustafs kompani">N:o 4. Gustafs kompani</option>
+<option value="N:o 4. Gärds kompani">N:o 4. G&#228;rds kompani</option>
+<option value="N:o 4. Ingelsta skvadron">N:o 4. Ingelsta skvadron</option>
+<option value="N:o 4. Jönköpings kompani">N:o 4. J&#246;nk&#246;pings kompani</option>
+<option value="N:o 4. Kullings kompani">N:o 4. Kullings kompani</option>
+<option value="N:o 4. Kumla kompani">N:o 4. Kumla kompani</option>
+<option value="N:o 4. Kungsörs kompani">N:o 4. Kungs&#246;rs kompani</option>
+<option value="N:o 4. Lövångers kompani">N:o 4. L&#246;v&#229;ngers kompani</option>
+<option value="N:o 4. Norra Upplands skvadron">N:o 4. Norra Upplands skvadron</option>
+<option value="N:o 4. Norrvidinge kompani">N:o 4. Norrvidinge kompani</option>
+<option value="N:o 4. Oppunda kompani">N:o 4. Oppunda kompani</option>
+<option value="N:o 4. Råneå kompani">N:o 4. R&#229;ne&#229; kompani</option>
+<option value="N:o 4. Salbergs kompani">N:o 4. Salbergs kompani</option>
+<option value="N:o 4. Sallerups skvadron">N:o 4. Sallerups skvadron</option>
+<option value="N:o 4. Silvåkra skvadron">N:o 4. Silv&#229;kra skvadron</option>
+<option value="N:o 4. Uppsala kompani">N:o 4. Uppsala kompani</option>
+<option value="N:o 4. Vemmenhögs kompani">N:o 4. Vemmenh&#246;gs kompani</option>
+<option value="N:o 4. Vilska kompani">N:o 4. Vilska kompani</option>
+<option value="N:o 4. Vista kompani">N:o 4. Vista kompani</option>
+<option value="N:o 4. Västanstångs kompani">N:o 4. V&#228;stanst&#229;ngs kompani</option>
+<option value="N:o 4. Västra Närkes skvadron">N:o 4. V&#228;stra N&#228;rkes skvadron</option>
+<option value="N:o 4. Ås kompani">N:o 4. &#197;s kompani</option>
+<option value="N:o 4. Älvdals kompani">N:o 4. &#196;lvdals kompani</option>
+<option value="N:o 4. Östanstångs kompani">N:o 4. &#214;stanst&#229;ngs kompani</option>
+<option value="N:o 4. Östra Härads kompani">N:o 4. &#214;stra H&#228;rads kompani</option>
+<option value="N:o 5. Alsters kompani">N:o 5. Alsters kompani</option>
+<option value="N:o 5. Bergslags kompani">N:o 5. Bergslags kompani</option>
+<option value="N:o 5. Bjäre härads skvadron">N:o 5. Bj&#228;re h&#228;rads skvadron</option>
+<option value="N:o 5. Färnebo kompani">N:o 5. F&#228;rnebo kompani</option>
+<option value="N:o 5. Grums kompani">N:o 5. Grums kompani</option>
+<option value="N:o 5. Herresta kompani">N:o 5. Herresta kompani</option>
+<option value="N:o 5. Hundra härads kompani">N:o 5. Hundra h&#228;rads kompani</option>
+<option value="N:o 5. Kåkinds kompani">N:o 5. K&#229;kinds kompani</option>
+<option value="N:o 5. Ljungby kompani">N:o 5. Ljungby kompani</option>
+<option value="N:o 5. Mo Härads kompani">N:o 5. Mo H&#228;rads kompani</option>
+<option value="N:o 5. Norra Åsbo kompani">N:o 5. Norra &#197;sbo kompani</option>
+<option value="N:o 5. Ombergs kompani">N:o 5. Ombergs kompani</option>
+<option value="N:o 5. Sevede kompani">N:o 5. Sevede kompani</option>
+<option value="N:o 5. Sevedes kompani">N:o 5. Sevedes kompani</option>
+<option value="N:o 5. Staby skvadron">N:o 5. Staby skvadron</option>
+<option value="N:o 5. Strängnäs kompani">N:o 5. Str&#228;ngn&#228;s kompani</option>
+<option value="N:o 5. Stångenäs kompani">N:o 5. St&#229;ngen&#228;s kompani</option>
+<option value="N:o 5. Södra Vadsbo kompani">N:o 5. S&#246;dra Vadsbo kompani</option>
+<option value="N:o 5. Torna skvadron">N:o 5. Torna skvadron</option>
+<option value="N:o 5. Uppsala skvadron">N:o 5. Uppsala skvadron</option>
+<option value="N:o 5. Vadsbo skvadron">N:o 5. Vadsbo skvadron</option>
+<option value="N:o 5. Valbo kompani">N:o 5. Valbo kompani</option>
+<option value="N:o 5. Vedens kompani">N:o 5. Vedens kompani</option>
+<option value="N:o 5. Västerdals kompani">N:o 5. V&#228;sterdals kompani</option>
+<option value="N:o 5. Västerås kompani">N:o 5. V&#228;ster&#229;s kompani</option>
+<option value="N:o 6. Arbrå kompani">N:o 6. Arbr&#229; kompani</option>
+<option value="N:o 6. Bullarens kompani">N:o 6. Bullarens kompani</option>
+<option value="N:o 6. Edsbergs kompani">N:o 6. Edsbergs kompani</option>
+<option value="N:o 6. Fleninge skvadron">N:o 6. Fleninge skvadron</option>
+<option value="N:o 6. Färs kompani">N:o 6. F&#228;rs kompani</option>
+<option value="N:o 6. Malmö skvadron">N:o 6. Malm&#246; skvadron</option>
+<option value="N:o 6. Nordmarks kompani">N:o 6. Nordmarks kompani</option>
+<option value="N:o 6. Norra Kinds kompani">N:o 6. Norra Kinds kompani</option>
+<option value="N:o 6. Norra Vadsbo kompani">N:o 6. Norra Vadsbo kompani</option>
+<option value="N:o 6. Norra Västbo kompani">N:o 6. Norra V&#228;stbo kompani</option>
+<option value="N:o 6. Orsa kompani">N:o 6. Orsa kompani</option>
+<option value="N:o 6. Rönnebergs kompani">N:o 6. R&#246;nnebergs kompani</option>
+<option value="N:o 6. Sigtuna kompani">N:o 6. Sigtuna kompani</option>
+<option value="N:o 6. Strömsholms kompani">N:o 6. Str&#246;msholms kompani</option>
+<option value="N:o 6. Södra Sunnerbo kompani">N:o 6. S&#246;dra Sunnerbo kompani</option>
+<option value="N:o 6. Uppvidinge kompani">N:o 6. Uppvidinge kompani</option>
+<option value="N:o 6. Vadsbo kompani">N:o 6. Vadsbo kompani</option>
+<option value="N:o 6. Vedbo kompani">N:o 6. Vedbo kompani</option>
+<option value="N:o 6. Vifolka kompani">N:o 6. Vifolka kompani</option>
+<option value="N:o 6. Vreta Klosters kompani">N:o 6. Vreta Klosters kompani</option>
+<option value="N:o 6. Österrekarne kompani">N:o 6. &#214;sterrekarne kompani</option>
+<option value="N:o 7. Alfta kompani">N:o 7. Alfta kompani</option>
+<option value="N:o 7. Allbo kompani">N:o 7. Allbo kompani</option>
+<option value="N:o 7. Bergs kompani">N:o 7. Bergs kompani</option>
+<option value="N:o 7. Fjerresta skvadron">N:o 7. Fjerresta skvadron</option>
+<option value="N:o 7. Fjärestads skvadron">N:o 7. Fj&#228;restads skvadron</option>
+<option value="N:o 7. Gudhems kompani">N:o 7. Gudhems kompani</option>
+<option value="N:o 7. Gäsene kompani">N:o 7. G&#228;sene kompani</option>
+<option value="N:o 7. Haglösa skvadron">N:o 7. Hagl&#246;sa skvadron</option>
+<option value="N:o 7. Hagunda kompani">N:o 7. Hagunda kompani</option>
+<option value="N:o 7. Ingelsta kompani">N:o 7. Ingelsta kompani</option>
+<option value="N:o 7. Kåkinds kompani">N:o 7. K&#229;kinds kompani</option>
+<option value="N:o 7. Luggude kompani">N:o 7. Luggude kompani</option>
+<option value="N:o 7. Mora kompani">N:o 7. Mora kompani</option>
+<option value="N:o 7. Motala kompani">N:o 7. Motala kompani</option>
+<option value="N:o 7. Näs kompani">N:o 7. N&#228;s kompani</option>
+<option value="N:o 7. Skänninge kompani">N:o 7. Sk&#228;nninge kompani</option>
+<option value="N:o 7. Tanums kompani">N:o 7. Tanums kompani</option>
+<option value="N:o 7. Tössbo kompani">N:o 7. T&#246;ssbo kompani</option>
+<option value="N:o 7. Västerrekarne kompani">N:o 7. V&#228;sterrekarne kompani</option>
+<option value="N:o 7. Västra Härads kompani">N:o 7. V&#228;stra H&#228;rads kompani</option>
+<option value="N:o 7. Ölme kompani">N:o 7. &#214;lme kompani</option>
+<option value="N:o 7. Östbo kompani">N:o 7. &#214;stbo kompani</option>
+<option value="N:o 8. Albo kompani">N:o 8. Albo kompani</option>
+<option value="N:o 8. Enköpings kompani">N:o 8. Enk&#246;pings kompani</option>
+<option value="N:o 8. Gillbergs kompani">N:o 8. Gillbergs kompani</option>
+<option value="N:o 8. Gripsholms kompani">N:o 8. Gripsholms kompani</option>
+<option value="N:o 8. Konga kompani">N:o 8. Konga kompani</option>
+<option value="N:o 8. Kungsörs kompani">N:o 8. Kungs&#246;rs kompani</option>
+<option value="N:o 8. Landskrona skvadron">N:o 8. Landskrona skvadron</option>
+<option value="N:o 8. Norra Sunnerbo kompani">N:o 8. Norra Sunnerbo kompani</option>
+<option value="N:o 8. Onsjö kompani">N:o 8. Onsj&#246; kompani</option>
+<option value="N:o 8. Ovansjö kompani">N:o 8. Ovansj&#246; kompani</option>
+<option value="N:o 8. Redvägs kompani">N:o 8. Redv&#228;gs kompani</option>
+<option value="N:o 8. Rättviks kompani">N:o 8. R&#228;ttviks kompani</option>
+<option value="N:o 8. Skånings kompani">N:o 8. Sk&#229;nings kompani</option>
+<option value="N:o 8. Sotenäs kompani">N:o 8. Soten&#228;s kompani</option>
+<option value="N:o 8. Sundals kompani">N:o 8. Sundals kompani</option>
+<option value="N:o 8. Södra Västbo kompani">N:o 8. S&#246;dra V&#228;stbo kompani</option>
+<option value="N:o 8. Vadstena kompani">N:o 8. Vadstena kompani</option>
+<option value="N:o 8. Vartofta kompani">N:o 8. Vartofta kompani</option>
+<option value="N:o 8. Vemmenhögs skvadron">N:o 8. Vemmenh&#246;gs skvadron</option>
+<option value="N:o 8. Visnums kompani">N:o 8. Visnums kompani</option>
+<option value="N:o 8. Ydre kompani">N:o 8. Ydre kompani</option>
+<option value="N:o 9. Borrby skvadron">N:o 9. Borrby skvadron</option>
+<option value="N:o 9. Hoby skvadron">N:o 9. Hoby skvadron</option>
+<option value="Staben">Staben</option>
+<option value="Vakanta kompaniet">Vakanta kompaniet</option>
+</select>
+                </div>
+                <div class="span3">
+    <label for="Regemente">
+        <span>
+        
+                        <strong>Regemente</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpRegemente" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoRegemente" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Grill","LabelFor":"Regemente","Label":"Regemente","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <select id="Regemente" name="Regemente" tabindex="6" title="Välj regemente"><option value="">Alla</option>
+<option value="Adelsfanan (kav)">Adelsfanan (kav)</option>
+<option value="Andra Livgrenadjärregem. (kav)">Andra Livgrenadj&#228;rregem. (kav)</option>
+<option value="Blekinge 1:a indelta båtsm-komp.">Blekinge 1:a indelta b&#229;tsm-komp.</option>
+<option value="Blekinge 2:a indelta båtsm-komp.">Blekinge 2:a indelta b&#229;tsm-komp.</option>
+<option value="Blekinge 3:e indelta båtsm-komp.">Blekinge 3:e indelta b&#229;tsm-komp.</option>
+<option value="Blekinge 4:e indelta båtsm-komp.">Blekinge 4:e indelta b&#229;tsm-komp.</option>
+<option value="Blekinge 5:e indelta båtsm-komp.">Blekinge 5:e indelta b&#229;tsm-komp.</option>
+<option value="Blekinge 6:e indelta båtsm-komp.">Blekinge 6:e indelta b&#229;tsm-komp.</option>
+<option value="Bohusläns 1:a båtsm-komp.">Bohusl&#228;ns 1:a b&#229;tsm-komp.</option>
+<option value="Bohusläns 2:a båtsm-komp.">Bohusl&#228;ns 2:a b&#229;tsm-komp.</option>
+<option value="Bohusläns regemente (kav)">Bohusl&#228;ns regemente (kav)</option>
+<option value="Dal-regementet (inf)">Dal-regementet (inf)</option>
+<option value="Första Livgrenadjärregem. (inf)">F&#246;rsta Livgrenadj&#228;rregem. (inf)</option>
+<option value="Gotlands 1:a båtsmanskompani">Gotlands 1:a b&#229;tsmanskompani</option>
+<option value="Gotlands 2:a båtsmanskompani">Gotlands 2:a b&#229;tsmanskompani</option>
+<option value="Göteborgs Stadsvaktskompani">G&#246;teborgs Stadsvaktskompani</option>
+<option value="Hälsinge regemente (inf)">H&#228;lsinge regemente (inf)</option>
+<option value="Indelta el. berustade båtmanshåll.">Indelta el. berustade b&#229;tmansh&#229;ll.</option>
+<option value="Jämtlands fältjägarekår (inf)">J&#228;mtlands f&#228;ltj&#228;garek&#229;r (inf)</option>
+<option value="Jämtlands hästjägarekår (kav)">J&#228;mtlands h&#228;stj&#228;garek&#229;r (kav)</option>
+<option value="Jönköpings regemente (inf)">J&#246;nk&#246;pings regemente (inf)</option>
+<option value="Kalmar regemente (inf)">Kalmar regemente (inf)</option>
+<option value="Kronobergs regemente (inf)">Kronobergs regemente (inf)</option>
+<option value="Livregementets dragonkår (kav)">Livregementets dragonk&#229;r (kav)</option>
+<option value="Livregementets grenadjärkår (kav)">Livregementets grenadj&#228;rk&#229;r (kav)</option>
+<option value="Livregementets husarkår (kav)">Livregementets husark&#229;r (kav)</option>
+<option value="Norra Hallands båtsm-komp.">Norra Hallands b&#229;tsm-komp.</option>
+<option value="Norra Roslags 1:a båtsm-komp.">Norra Roslags 1:a b&#229;tsm-komp.</option>
+<option value="Norra Roslags 2:a båtsm-komp.">Norra Roslags 2:a b&#229;tsm-komp.</option>
+<option value="Norra skånska regementet (inf)">Norra sk&#229;nska regementet (inf)</option>
+<option value="Norrbottens fältjägarekår (inf)">Norrbottens f&#228;ltj&#228;garek&#229;r (inf)</option>
+<option value="Norrlands 1:a 1:adels båtsm-komp.">Norrlands 1:a 1:adels b&#229;tsm-komp.</option>
+<option value="Norrlands 1:a 2:adels båtsm-komp.">Norrlands 1:a 2:adels b&#229;tsm-komp.</option>
+<option value="Norrlands 2:a 1:adels båtsm-komp.">Norrlands 2:a 1:adels b&#229;tsm-komp.</option>
+<option value="Norrlands 2:a 2:adels båtsm-komp.">Norrlands 2:a 2:adels b&#229;tsm-komp.</option>
+<option value="Närkes regemente (inf)">N&#228;rkes regemente (inf)</option>
+<option value="Skaraborgs regemente (inf)">Skaraborgs regemente (inf)</option>
+<option value="Skånska dragon-regementet (kav)">Sk&#229;nska dragon-regementet (kav)</option>
+<option value="Skånska husar-regementet (kav)">Sk&#229;nska husar-regementet (kav)</option>
+<option value="Smålands båtsm-komp.">Sm&#229;lands b&#229;tsm-komp.</option>
+<option value="Smålands grenadjärbataljon (kav)">Sm&#229;lands grenadj&#228;rbataljon (kav)</option>
+<option value="Smålands husarregemente (kav)">Sm&#229;lands husarregemente (kav)</option>
+<option value="Södermanlands 1:a båtsm-komp.">S&#246;dermanlands 1:a b&#229;tsm-komp.</option>
+<option value="Södermanlands 2:a båtsm-komp.">S&#246;dermanlands 2:a b&#229;tsm-komp.</option>
+<option value="Södermanlands regemente (inf)">S&#246;dermanlands regemente (inf)</option>
+<option value="Södra Hallands båtsm-komp.">S&#246;dra Hallands b&#229;tsm-komp.</option>
+<option value="Södra Möre 1:a indelta båtsm-komp.">S&#246;dra M&#246;re 1:a indelta b&#229;tsm-komp.</option>
+<option value="Södra Möre 2:a indelta båtsm-komp.">S&#246;dra M&#246;re 2:a indelta b&#229;tsm-komp.</option>
+<option value="Södra Möre 3:e indelta båtsm-komp.">S&#246;dra M&#246;re 3:e indelta b&#229;tsm-komp.</option>
+<option value="Södra Roslags 1:a båtsm-komp.">S&#246;dra Roslags 1:a b&#229;tsm-komp.</option>
+<option value="Södra Roslags 2:a båtsm-komp.">S&#246;dra Roslags 2:a b&#229;tsm-komp.</option>
+<option value="Södra skånska regementet (inf)">S&#246;dra sk&#229;nska regementet (inf)</option>
+<option value="Tjusts båtsm-komp.">Tjusts b&#229;tsm-komp.</option>
+<option value="Upplands regemente (inf)">Upplands regemente (inf)</option>
+<option value="Värmlands regemente (inf)">V&#228;rmlands regemente (inf)</option>
+<option value="Västerbottens fältjägarekår (inf)">V&#228;sterbottens f&#228;ltj&#228;garek&#229;r (inf)</option>
+<option value="Västergötlands båtsm-komp.">V&#228;sterg&#246;tlands b&#229;tsm-komp.</option>
+<option value="Västgöta regemente (kav)">V&#228;stg&#246;ta regemente (kav)</option>
+<option value="Västgöta-Dals regemente (inf)">V&#228;stg&#246;ta-Dals regemente (inf)</option>
+<option value="Västmanlands regemente (inf)">V&#228;stmanlands regemente (inf)</option>
+<option value="Älvsborgs regemente (inf)">&#196;lvsborgs regemente (inf)</option>
+<option value="Ölands 1:a båtsmanskompani">&#214;lands 1:a b&#229;tsmanskompani</option>
+<option value="Ölands 2:a båtsmanskompani">&#214;lands 2:a b&#229;tsmanskompani</option>
+<option value="Östergötlands båtsmanskompani">&#214;sterg&#246;tlands b&#229;tsmanskompani</option>
+</select>
+                </div>
+                <div class="span3">
+    <label for="Nummer">
+        <span>
+        
+                        <strong>Nummer</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpNummer" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoNummer" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Grill","LabelFor":"Nummer","Label":"Nummer","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <input class="input-span6" id="Nummer" name="Nummer" tabindex="7" type="text" value="" />
+                </div>
+            </div>
+                       <div id="buttonholder" class="padding-top-medium row-fluid">
+                <div class="span9">
+                    <div id="searchButtons">
+                        <button id="SokKnappLeft" class="btn btn-primary" type="submit" title="S&#246;k" tabindex = "50">S&#246;k<i class="icon-search mellanrum-left"></i></button>
+                        <button id="clearSearch" class="btn " type="reset" title="Rensa s&#246;kformul&#228;r" tabindex = "51">Rensa<i class="icon-remove mellanrum-left"></i></button>
+                        <span>
+    <span>
+            <a id="sokhjalpIkonS&#246;ktipsFacetter" href="#" class="visible-phone pull-right">S&#246;ktips</a>
+    </span>
+
+<div id="sokhjalpS&#246;ktipsFacetter" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoS&#246;ktipsFacetter" class="close">&times;</div>
+    <p><b>Enkel sökning:</b> Skriv in ett eller flera sökord. Alla ord måste finnas med i posten för att ge träff.</p>
+<p><b>Trunkering: </b>Använd asterisk (*) för att hitta ord med varierande ändelse eller förled. En sökning på t.ex. teater* ger träff på teater, teaterdirektör, teaterförlag etc. En sökning på *resa ger träff på studieresa och hemresa etc.</p>
+<p><b>Frassökning: </b>Använd citattecken ('' '') för att söka på exakta fraser. En sökning på t.ex. ''svenska kungar'' ger träffar då orden förekommer tillsammans och i angiven ordning.</p>
+<p><b>Maskering: </b>Använd frågetecken (?) för att få träff på stavningsvarianter av ett ord. Varje frågetecken svarar mot ett tecken. En sökning på t.ex. G??le ger träff på både Gävle, Gefle och Gäfle.</p>
+<p><b>Uteslut ett ord: </b>Använd minustecken (-) för att utesluta ett sökord. En sökning på t.ex. Uppsala -slott ger träff på alla poster som innehåller ordet Uppsala men inte de poster som samtidigt innehåller ordet slott.</p>
+
+ 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"SöktipsFacetter","Label":"Söktips","IsRubrik":false,"NoLabels":true,"Hjalptext":"\u003cp\u003e\u003cb\u003eEnkel sökning:\u003c/b\u003e Skriv in ett eller flera sökord. Alla ord måste finnas med i posten för att ge träff.\u003c/p\u003e\r\n\u003cp\u003e\u003cb\u003eTrunkering: \u003c/b\u003eAnvänd asterisk (*) för att hitta ord med varierande ändelse eller förled. En sökning på t.ex. teater* ger träff på teater, teaterdirektör, teaterförlag etc. En sökning på *resa ger träff på studieresa och hemresa etc.\u003c/p\u003e\r\n\u003cp\u003e\u003cb\u003eFrassökning: \u003c/b\u003eAnvänd citattecken (\u0027\u0027 \u0027\u0027) för att söka på exakta fraser. En sökning på t.ex. \u0027\u0027svenska kungar\u0027\u0027 ger träffar då orden förekommer tillsammans och i angiven ordning.\u003c/p\u003e\r\n\u003cp\u003e\u003cb\u003eMaskering: \u003c/b\u003eAnvänd frågetecken (?) för att få träff på stavningsvarianter av ett ord. Varje frågetecken svarar mot ett tecken. En sökning på t.ex. G??le ger träff på både Gävle, Gefle och Gäfle.\u003c/p\u003e\r\n\u003cp\u003e\u003cb\u003eUteslut ett ord: \u003c/b\u003eAnvänd minustecken (-) för att utesluta ett sökord. En sökning på t.ex. Uppsala -slott ger träff på alla poster som innehåller ordet Uppsala men inte de poster som samtidigt innehåller ordet slott.\u003c/p\u003e\r\n\r\n"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+                        </span>
+                    </div>
+                </div>
+            </div> 
+
+
+            <input data-val="true" data-val-required="The SearchBlocked field is required." id="SearchBlocked" name="SearchBlocked" type="hidden" value="False" />
+            <input id="location" name="location" type="hidden" value="" />
+        </div>
+</form>
+        </div>
+    </div>
+</section>
+        <nav id="tabheader" class="row-fluid hidden-print">
+            
+    
+    
+
+
+        </nav>
+        <div id="content">
+            <div id="body-content" class="content row-fluid">
+                
+
+
+    <div id="rubrik" class="content row-fluid">
+    </div>
+    <div id="information" class="content row-fluid">
+            <div id="info" class="span12 padding-left-medium">
+                <div class="span9">
+    <h2>Vilka uppgifter kan du hitta?</h2>
+    <p>I detta register som innehåller uppgifter om boställen, rusthåll, rotar och mycket annat kan du till exempel få fram i vilket kompani och regemente samt rote en soldat verkade.</p>
+    <h2>Vilken är källan?</h2>
+    <p>Källan till registret är "Statistiskt sammandrag af Svenska indelningsverket", ett bokverk som gavs ut 1855–1858 av Claes Lorentz Grill.</p>
+    <p>Texten är bokstavstroget avskriven från det tryckta verket. Vid sammanställandet av registret har dock vissa sökbegrepp normaliserats och emellanåt även rättats från originalet.</p>
+    <p>Där felaktigheter i originaltexten upptäckts, exempelvis att en socken förts till fel härad eller ett boställe till fel socken, har felaktigheterna rättats utan vidare kommentar.</p>
+    <p><a href="/grill/om-grill">Om Claes Lorentz Grill</a></p>
+    <h3>Registret upprättat av</h3>
+    <p>Samarbete mellan Riksarkivet och Sveriges Släktforskarförbund.</p>
+    <p>Registrering av materialet har bedrivits vid Riksarkivet. Kvalitetsgranskning och normalisering av registret har genomförts huvudsakligen av Sveriges Släktforskarförbund.</p>
+</div>
+    <div class="span3">
+        <div class="alert">
+            <h4>Ämnesområde</h4>
+            <p><a href="/amnesomrade/militaria">Militaria</a></p>
+        </div>
+    </div>
+            </div>
+
+    </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+<footer id="pnlFooter" class="footer hidden-print">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span4">
+                <p>
+                    <strong>Riksarkivet</strong><br />
+                    Box 7223<br />
+                    187 13 Täby<br />
+                </p>
+            </div>
+            <div class="span4">
+                    <p>
+                        <strong>Kontakt</strong><br />
+                        Tel 010-476 70 00&nbsp;<i class="icon-phone"></i><br />
+                        kundtjanst[snabel-a]riksarkivet.se<br />
+                        <a href="/kontakta-oss/">Kontaktformul&#228;r</a>
+                    </p>
+            </div>
+            <div class="span4">
+                <p class="lank-lista">
+                    <strong>Om söktjänsten</strong> <br />
+    <a href="/om-soktjansten/om-bildvisningen">Om bildvisningen</a><br />
+    <a href="/om-soktjansten/fragor-och-svar">Frågor och svar</a><br />
+    <a href="https://riksarkivet.se/om-riksarkivet/om-webbplatsen/kakor">Kakor (Cookies) <i class="icon-external-link"></i></a><br />
+    <a href="https://riksarkivet.se/om-riksarkivet/kontakta-oss/behandling-av-personuppgifter">Behandling av personuppgifter <i class="icon-external-link"></i></a><br />
+    <a href="/om-soktjansten/tillganglighet">Tillgänglighetsredogörelse </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<link href="/css/cookieconsent?v=GMQVUEYzuJ6fVMv5wldPgq2c-EVeDtnyoQIpK42QmUc1" rel="stylesheet"/>
+<script src="/bundles/cookieconsent?v=a9cJy4GKjmLGwXZdi5MU791EOM1kEhzqw-KTU6lVVrY1"></script>
+
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            $(document).on("click", "span.paramTag>img", function () {
+                $(this).parent().remove();
+            });
+
+            $(document).on("click", "input[type='reset'], button[type='reset']", function () {
+                $("span.paramTag").remove();
+            });
+            if ((navigator.userAgent.indexOf("Trident/4") > -1 || navigator.userAgent.indexOf("Trident/5") > -1 || navigator.userAgent.indexOf("Trident/6") > -1 || navigator.userAgent.indexOf("Trident/7") > -1) && navigator.userAgent.indexOf("MSIE 7.0") > -1) {
+                $("#compatibility_box").show();
+            }
+        });
+    </script>
+
+<script type="module" src="/Scripts/altcha.min.js"></script>
+<script>
+    var CaptchaHandler = (function ($) {
+        'use strict';
+
+        const CAPTCHA_API = 'https://altcha.riksarkivet.se/api/captcha';
+
+        function hasCaptchaCookie() {
+            return document.cookie.includes('altcha_verified=');
+        }
+
+        function getCaptchaStrings() {
+            return {
+                label: 'Jag &#228;r inte en robot',
+                verifying: 'Verifierar...',
+                verified: 'Verifierad',
+                error: 'Verifieringen misslyckades'
+            };
+        }
+
+        function createAltchaWidget() {
+            var altcha = document.createElement('altcha-widget');
+            altcha.setAttribute('challengeurl', CAPTCHA_API + '/challenge');
+            altcha.setAttribute('hidelogo', 'true');
+            altcha.setAttribute('strings', JSON.stringify(getCaptchaStrings()));
+            return altcha;
+        }
+
+        function verifyCaptcha(payload, onSuccess, onError) {
+            $.ajax({
+                url: CAPTCHA_API + '/verify',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ payload: payload }),
+                xhrFields: { withCredentials: true },
+                success: function (response) {
+                    if (response.success) {
+                        if (onSuccess) onSuccess();
+                    } else {
+                        if (onError) onError('Verifiering misslyckades. V&#228;nligen f&#246;rs&#246;k igen.');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    if (onError) onError('Verifieringen misslyckades');
+                }
+            });
+        }
+
+        function showCaptchaModal($form) {
+            var $dialog = $('<dialog>', {
+                'class': 'captcha-dialog',
+                html: '<article>' +
+                    '<header>' +
+                    '<h2>Verifiera att du &#228;r m&#228;nniska</h2>' +
+                    '</header>' +
+                    '<section>' +
+                    '<p>V&#228;nligen kryssa f&#246;r rutan nedan f&#246;r att forts&#228;tta.</p>' +
+                    '<div class="captcha-container"></div>' +
+                    '</section>' +
+                    '</article>'
+            });
+
+            $('body').append($dialog);
+
+            var altcha = createAltchaWidget();
+            $dialog.find('.captcha-container').append(altcha);
+            $dialog[0].showModal();
+
+            altcha.addEventListener('statechange', function (ev) {
+                if (ev.detail.state === 'verified') {
+                    verifyCaptcha(ev.detail.payload,
+                        function() {
+                            $dialog[0].close();
+                            $dialog.remove();
+                            $form.submit();
+                        },
+                        function(errorMsg) {
+                            alert(errorMsg);
+                            $dialog[0].close();
+                            $dialog.remove();
+                        }
+                    );
+                }
+            });
+        }
+
+        function initFormInterceptor() {
+            $('form:not(.no-captcha)').on('submit', function (e) {
+                var $form = $(this);
+
+                if (hasCaptchaCookie()) {
+                    return true;
+                }
+
+                e.preventDefault();
+                showCaptchaModal($form);
+                return false;
+            });
+        }
+
+        function initStandaloneCaptcha(containerId, returnUrl) {
+            var container = document.getElementById(containerId);
+            if (!container) return;
+
+            var altcha = createAltchaWidget();
+            container.appendChild(altcha);
+
+            altcha.addEventListener('statechange', function (ev) {
+                if (ev.detail.state === 'verified') {
+                    verifyCaptcha(ev.detail.payload,
+                        function() {
+                            window.location.href = returnUrl || '/';
+                        },
+                        function(errorMsg) {
+                            alert(errorMsg);
+                        }
+                    );
+                }
+            });
+        }
+
+        return {
+            hasCaptchaCookie: hasCaptchaCookie,
+            showModal: showCaptchaModal,
+            initFormInterceptor: initFormInterceptor,
+            initStandalone: initStandaloneCaptcha
+        };
+
+    })(jQuery);
+
+    $(document).ready(function () {
+        CaptchaHandler.initFormInterceptor();
+    });
+</script>
+</body>
+</html>

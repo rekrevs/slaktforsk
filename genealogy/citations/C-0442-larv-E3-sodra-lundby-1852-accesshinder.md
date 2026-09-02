@@ -16,6 +16,14 @@ Katalogposten för Larv E/3, `SE/GLA/13316/E/3`, anger uttryckligen
 födelsebokskladdar för Längjum, Tråvad och **Södra Lundby 1852**. Volymen är
 `Läsesal`, saknar digital bildlänk och är inte sekretessbelagd.
 
+Den 2026-09-01 öppnades den permanenta posten på nytt i ägarens redan
+inloggade Chrome efter att ägaren själv hade besvarat CAPTCHA:n. Ingen ny
+kontroll visades, men posten hade fortsatt endast `Läsesal` och ingen
+`Bild`-länk. Knappen användes inte eftersom gränssnittet anger att material
+då läggs i en läsesalsbeställning. Ingen beställning skapades eller
+skickades, agenten hanterade ingen CAPTCHA och inga sessionsdata lästes
+eller bevarades.
+
 ## Slutsats
 
 Den exakta Södra Lundby-källan finns men kunde inte personläsas på distans.
@@ -29,4 +37,4 @@ provenansen.
 
 ## Stött påstående
 
-A-2183.
+A-2183 och A-2996.

@@ -1,0 +1,32 @@
+{
+  "observed_at": "2026-09-01",
+  "source_restriction": "riksarkivet.se only",
+  "browser_context": {
+    "application": "connected Chrome outside the filesystem sandbox",
+    "authenticated": true,
+    "session_data_saved": false,
+    "captcha_interacted_with": false
+  },
+  "checks": [
+    {
+      "target": "Forssa kyrkoarkiv H II/1, 1851-1890",
+      "permanent_url": "https://sok.riksarkivet.se/arkiv/iDJysMmaweZJTe018W43t3",
+      "observed_final_url": "https://sok.riksarkivet.se/captcha?returnUrl=%2Fnad%2F%3Fpostid%3DArkis%2520b2fdd4b0-49d8-11d5-a6ed-0002440207bb",
+      "visible_challenge": "ALTCHA with the text Verifiera att du är människa and Jag är inte en robot",
+      "result_type": "access blocker, not a source or person result"
+    },
+    {
+      "target": "Forssa kyrkoarkiv A I/13, 1866-1870",
+      "permanent_url": "https://sok.riksarkivet.se/arkiv/VjJysMmaweZJTe018W43t3",
+      "arkis_uuid_exposed_by_redirect": "b2fdd47e-49d8-11d5-a6ed-0002440207bb",
+      "visible_challenge": "ALTCHA",
+      "result_type": "access blocker on the permanent page, not a source or person result"
+    }
+  ],
+  "public_fallback": {
+    "tree_url": "https://sok.riksarkivet.se/Tree/SubTree/?postid=Arkis+b2fdd47e-49d8-11d5-a6ed-0002440207bb&s=Balder&prependUrl=&id=b2fdd47e-49d8-11d5-a6ed-0002440207bb&vol=n",
+    "observed_reproduction": "SE/RA/83005/04/2006/C0006403",
+    "iiif_manifest": "https://lbiiif.riksarkivet.se/arkis!C0006403/manifest",
+    "result": "public Tree and IIIF exposed the volume and images without interacting with ALTCHA"
+  }
+}

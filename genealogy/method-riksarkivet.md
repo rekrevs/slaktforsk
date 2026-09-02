@@ -5,7 +5,23 @@ utan manuellt bläddrande, så att varje citatpost går att kontrollera i
 efterhand. Metoden verifierades 2026-08-20 genom att en tidigare sparad bild
 (C-0067) laddades ned på nytt och gav identisk SHA-256-kontrollsumma.
 
-## Verifierad Chrome-metod 2026-08-28
+## Ägarregel 2026-08-29: API före Chrome
+
+Riksarkivets API-lager ska alltid prövas före Chrome där det är möjligt:
+
+1. sök-API för arkiv, serie och volym;
+2. JSON-LD och `schema:hasPart` för hierarkin;
+3. IIIF-manifest, `info.json` och Image API för innehåll och fulloriginal;
+4. först därefter inloggad katalog/bildvisare om bildlänk saknas eller om
+   IIIF ger ett dokumenterat `401`/`403`.
+
+Chrome ska då användas så snävt som möjligt, exempelvis för att lösa ett
+reproduktions-id som API/JSON-LD utelämnar eller för att hämta en bild som
+direkt-IIIF spärrar. Varje övergång ska journalföra vad API-lagret gav, exakt
+åtkomstfel och en återaktiveringsväg. ALTCHA/CAPTCHA löses inte utan ägarens
+uttryckliga bekräftelse.
+
+## Verifierad Chrome-reservmetod 2026-08-28
 
 Den tidigare fungerande Chrome-metoden har nu reproducerats i en helt ny
 browser-runtime med den installerade pluginversionen **26.820.60940**:
@@ -16,9 +32,8 @@ browser-runtime med den installerade pluginversionen **26.820.60940**:
    `chrome.tabs.new()`;
 3. navigera direkt till en katalog- eller bildvisar-URL;
 4. kontrollera DOM-texten `Inloggad som: ...` innan källarbete börjar;
-5. om Riksarkivets ALTCHA-ruta visas, klicka den synliga
-   `Jag är inte en robot`-kontrollen semantiskt och fortsätt först när sidan
-   själv godkänt kontrollen;
+5. om Riksarkivets ALTCHA-ruta visas, stanna och begär ägarens uttryckliga
+   bekräftelse innan någon `Jag är inte en robot`-kontroll används;
 6. använd bildvisarens semantiska kontroller, bland annat `Nästa bild`,
    sidväljaren och `Ladda ner`;
 7. välj `Hela bilden …px (jpg)`, kontrollera filen i `~/Downloads`, kopiera
@@ -58,10 +73,79 @@ https://data.riksarkivet.se/api/records?text=<fritext>&limit=<n>
   är digitaliserade, ett IIIF-manifest under `_links.image`.
 - Teckenkodning: skicka söksträngen URL-kodad, exempelvis med
   `curl -G --data-urlencode`. Rå `ö` i en URL ger noll träffar.
+- JSON-LD-slutpunkten kan ge ett missvisande `403` utan innehållsförhandling.
+  Skicka både en vanlig webbläsar-`User-Agent` och
+  `Accept: application/ld+json`; omprovet gav `200` för Sättna A II a/6,
+  A II a/8 och A II a/10 den 2026-08-30.
 - Det finns även indexerade personposter för en del församlingar:
   `/api/records/birthrecords` med `first_name`, `place`, `year_min`, `year_max`
   med flera. Täckningen är ojämn och tyngdpunkten ligger i södra Sverige, så
   noll träffar där säger ingenting om huruvida posten finns.
+
+Ett katalogiserat `rico:hasRepresentationType` = `Image` i JSON-LD är inte
+ensamt en bildpekare. Sättna A II a/10 visar ett viktigt mellanläge:
+sök-API:t saknar `_links.image`, JSON-LD:s bildrepresentation saknar URI och
+OAI-EAD anger sekretess utan digital länk. Den inloggade katalogposten kan då
+fortfarande kräva människoverifiering. Klassificera detta som **saknat
+publikt reproduktions-id före IIIF**, inte som `401` mot en känd bild och
+inte som bevis för att volymen är odigitaliserad. Gissa inte att luckor i en
+närliggande batchnummerserie är giltiga bild-id:n; de kan ge `Not Found`.
+
+I IIIF Presentation API 3 ligger canvasföljden under manifestets `items`,
+medan en församlings- eller handlingsrange kan ange endast sin första canvas
+under `structures`. Avgränsa då ett intervall från den aktuella rangens start
+till bilden omedelbart före nästa start av samma handlingstyp. Sävars
+dödboksutdrag 1868 verifierades på detta sätt som `_00206`–`_00214`, eftersom
+nästa dödrange, Holmön, börjar på `_00215`. Kontrollera alltid att nästa range
+är semantiskt jämförbar; en annan handlingstyp får inte användas som gräns.
+
+### Äldre Arkis-UUID och publikt trädsvar
+
+Ett verifierat reservspår finns när en exakt JSON-LD-post anger
+bildrepresentation men utelämnar reproduktions-id. Riksarkivets egen
+katalog kan i sin omdirigeringsadress till människoverifieringen exponera
+postens äldre Arkis-UUID. Läs endast adressen; aktivera inte ALTCHA utan
+uttrycklig bekräftelse. Den exakta UUID:n kan prövas mot Riksarkivets
+publika, läsande trädslutpunkt:
+
+```
+https://sok.riksarkivet.se/Tree/SubTree/?postid=Arkis+<uuid>&s=Balder&prependUrl=&id=<uuid>&vol=n
+```
+
+Ett bildfilsbarn i svaret kan bära den officiella reproduktionskoden. Denna
+kedja verifierades 2026-08-30 för Sävar C/1 (`C0034441`), Sävar A I/1
+(`C0034426`) och Lycksele C/3 (`C0034151`). Gissa aldrig UUID eller
+reproduktionskod och behandla inte en CAPTCHA-omdirigering som tillstånd att
+lösa kontrollen.
+
+### Arkis-UUID till reproduktionsbatch
+
+För en registerpost kan den äldre Arkis-UUID:n även användas mot
+Riksarkivets publika, läsande batchsida:
+
+```
+https://sok.riksarkivet.se/bildvisning/batchar/<uuid>?referenskod=<referenskod>
+```
+
+Den kedjan verifierades 2026-08-31 för registerposten
+`SE/RA/870001/3/22/34`. Records-API:t hittade posten och JSON-LD angav två
+bildinstansieringar men saknade deras URI:er. Katalogens orörda
+ALTCHA-omdirigering exponerade UUID:n
+`5da3f6bc-8ffb-4648-a910-07913f8c6360`; batchsidan returnerade därefter de
+officiella reproduktionerna `A0043220` och `C0103777`. IIIF-manifesten och
+bilderna kunde sedan läsas utan sessionsdata. Chrome användes alltså bara
+för att läsa omdirigeringsadressen och diagnostisera den saknade
+API-kopplingen; ALTCHA aktiverades inte. Bevara batchsvaret och verifiera
+referenskoden mot API-metadata i stället för att gissa någon identifierare.
+
+För dessa äldre `C...`-batcher gav nakna manifest- och bildanrop `403`.
+Omprovet 2026-08-31 visar att samma publika resurser kan svara `200` utan
+sessionskaka när den egna sidan
+`https://sok.riksarkivet.se/bildvisning/<bild-id>` skickas som `Referer`.
+Pröva därför hänvisningshuvudet före inloggad bildvisare. En faktisk `401`
+från `/v2/` är en annan åtkomstklass och kan fortfarande vara
+sessionsbunden. Dokumentera alltid vilket anrop och vilket HTTP-svar som
+observerades; läs eller bevara aldrig sessionsdata.
 
 ## Volymens innehåll
 
@@ -90,7 +174,10 @@ https://lbiiif.riksarkivet.se/arkis!<bildid>/info.json                   # nativ
 - Regionen anges i bildpunkter; `pct:`-syntax stöds inte och ger `501`.
 - Storleken får inte överstiga regionens bredd; annars svarar servern `400`.
   Använd `max` för detaljutsnitt.
-- Skicka en vanlig webbläsar-`User-Agent`; utan den svarar tjänsten `403`.
+- För en batch som ger `403`, skicka dess egen Riksarkivet-sida
+  `https://sok.riksarkivet.se/bildvisning/<bild-id>` som `Referer`. Detta gav
+  `200` utan sessionskaka för de prövade `C0…`-batcherna. En vanlig
+  `User-Agent` ensam ska inte antas lösa felet.
 - Spara alltid fullupplösningsbilden i `media/` och för in dimensioner och
   SHA-256 i citatposten.
 
@@ -104,6 +191,26 @@ https://lbiiif.riksarkivet.se/folk!<volymkod>-<sida>/full/max/0/default.jpg
 Bild-id i bildvisaren skrivs `Folk_904045-012`, medan IIIF-identifieraren är
 `folk!904045-012`. Folkräkningsbilderna är fotograferade utdrag i låg
 upplösning, omkring 800 × 1380 bildpunkter, men är läsbara.
+
+### Personregister och SCB:s församlingsutdrag är skilda lager
+
+Riksarkivets officiella registreringsbeskrivning anger att
+personregistret för 1860 bara omfattar Jämtlands län och att 1870 bara
+omfattar Västerbottens och Norrbottens län. Ett sökformulär som erbjuder år
+och ort är alltså inte i sig bevis för att kombinationen är registrerad. Läs
+täckningsbeskrivningen före varje nollslutsats; en CAPTCHA före
+resultatlistan ska varken lösas automatiskt eller behandlas som den verkliga
+forskningsfronten när målområdet saknar täckning.
+
+Det skannade primärmaterialet under *Församlingsutdrag 1860–1940* kan ha
+betydligt bredare geografisk täckning. För Stora Lundby 1860 gav
+records-API:t den exakta volymen `SE/RA/420401/03/H 1 A/69` och ett vanligt
+`arkis!A0056074`-manifest, inte `folk!`-prefixet. Manifestets
+församlingsranges anger bara startcanvas. Ett komplett intervall fås genom
+att läsa från målrange-starten fram till canvasen omedelbart före nästa
+församlingsrange; här `_00027`–`_00044`, eftersom Skallsjö börjar på
+`_00045`. Dokumentera båda range-etiketterna och bevara hela intervallet
+innan resultatet kallas ett komplett församlingsutdragsnoll.
 
 ## Textlager
 
@@ -136,13 +243,59 @@ koder, och de betyder olika saker:
 |---|---|
 | `200` | volymen serveras publikt |
 | `401` | volymen finns digitalt men kräver inloggning |
-| `403` | volymen är digitaliserad men serveras inte publikt via IIIF |
+| `403` | det direkta anropet avvisas; pröva korrekt bildvisar-`Referer` innan åtkomsten klassas |
 
-`403` gäller det direkta IIIF-anropet. Det är **inte** längre tillräckligt för
-slutsatsen att volymen inte kan nås på distans: den inloggade webbkatalogen och
-bildvisaren kan fortfarande ge åtkomst.
+`403` gäller det prövade direkta IIIF-anropet. Det är **inte** tillräckligt för
+slutsatsen att volymen inte kan nås publikt eller på distans. Samma URI kan
+svara `200` med sin egen bildvisarsida som `Referer`; först därefter är
+inloggad webbkatalog eller bildvisare en relevant reserv.
 
-Skillnaden mellan 401 och 403 följer batchprefixet. Prövat 2026-08-20:
+### Bildtjänstens `/v2/` och sessionsbunden 401
+
+En styrd kontroll i en inloggad Riksarkivet-session 2026-08-30 visar den
+aktuella bildkedjan mer exakt. Bildvisaren för reproduktion `00198658`
+använder det publika manifestet
+`https://lbiiif.riksarkivet.se/arkis!00198658/manifest`, men själva
+bildtjänsten ligger under `/v2/`, exempelvis
+`https://lbiiif.riksarkivet.se/v2/arkis!00198658_00057/info.json` och
+`.../full/max/0/default.jpg`.
+
+Oautentiserade anrop till den korrekta `/v2/`-bildvägen svarar `401` med
+Riksarkivets besked att inloggning krävs. Samma bild öppnas i den inloggade
+bildvisaren. Referer och vanlig webbläsaridentitet räcker inte; åtkomsten är
+knuten till Riksarkivets autentiserade session. Katalog-API och publikt
+manifest ska därför fortsatt användas för volym- och årsrouting, medan
+inloggad bildvisare får användas för den visuella originalkontrollen när
+bildsvaret är `401`. Sessionsuppgifter, kakor och kontodata får aldrig
+kopieras till projektet.
+
+### Reproduktionsmanifest som kräver bildvisaren som Referer
+
+En ytterligare variant verifierades 2026-08-30 för Ljustorps äldre
+reproduktioner `C0033121`, `C0033122`, `C0033123` och `C0033133`.
+Bildvisarsidans HTML bäddar in manifestet
+`https://lbiiif.riksarkivet.se/arkis!<reproduktion>/manifest`. Ett direkt
+anrop till manifestet gav `403`, men exakt samma URI gav `200` när HTTP-
+huvudet `Referer` sattes till en motsvarande sida på
+`https://sok.riksarkivet.se/bildvisning/<bild-id>`. Manifestets
+`full/max/0/default.jpg` fungerade därefter på samma sätt. Inga kakor eller
+sessionsdata behövdes eller exporterades.
+
+Detta är skilt från `/v2/`-bildens autentiseringsbundna `401` ovan. Vid ett
+`C0…`-manifest-`403` ska ordningen därför vara:
+
+1. läs bildvisarsidans HTML och verifiera den inbäddade manifest-URI:n,
+2. upprepa manifestanropet med den egna Riksarkivet-bildvisarsidan som
+   `Referer`,
+3. använd inloggad Chrome endast om anropet fortfarande är spärrat eller om
+   exakt bild-id måste återfinnas visuellt.
+
+Det bevarade försöket och de framgångsrika manifesten finns i
+[S-0517](sources/S-0517-riksarkivet-ljustorp-C1-C2-AI1-AI3-henrik-konflikt.md).
+
+Skillnaden mellan `401`, naket `403` och publikt `200` följer inte
+batchprefixet tillräckligt säkert för en åtkomstslutsats. Följande var de
+nakna svar som observerades 2026-08-20:
 
 | Batch | Volym | Svar |
 |---|---|---|
@@ -152,9 +305,9 @@ Skillnaden mellan 401 och 403 följer batchprefixet. Prövat 2026-08-20:
 | `C0042580` | Sävar A I/6b | **403** |
 | `C0034028` | Bygdeå A I/14b | **403** |
 
-Båda `C0…`-batcherna avser volymer som projektet redan har lokala bilder från,
-hämtade i en tidigare session. De är alltså digitaliserade, men nås inte
-publikt via IIIF nu.
+Båda `C0…`-batcherna avser digitaliserade volymer. Tabellen bevarar det nakna
+testets svar; den visar inte att rätt bildvisar-`Referer` har prövats och får
+inte längre citeras som bevis för att bilderna är icke-publika.
 
 ## Viktig varning om sök-API:ets bildlänkar
 

@@ -1,5 +1,15 @@
 # C-0318: Forssa A I/14 — helvolymkontroll för Erik Karlsson
 
+## Korrigering 2026-09-01
+
+Det negativa resultatet nedan är avvisat av
+[C-0741](C-0741-bettna-forssa-erik-grill-1867-1875.md). Sida 99, rad 23,
+bild `C0006404_00098`, innehåller den exakta personen som `Dräng Erik
+Grill`, född 1851-01-30 i Bettna, med hänvisningen `Bettna 1868 25`.
+Kontrollen sökte Karlsson/Carlsson och missade ungdomens soldatnamn Grill.
+A-1919 är därför `REJECTED`; texten nedan bevaras som metodproveniens, inte
+som fortsatt volymnoll.
+
 ## Källa
 
 - [S-0246](../sources/S-0246-riksarkivet-forssa-AI14-husforhorslangd.md)
@@ -10,21 +20,22 @@
   bild `C0006404_00010`–`C0006404_00135`, sidorna 1–143 med volymens egna
   hopp i sidnumreringen.
 - Kontrollperson: Erik Karlsson/Carlsson, uppgiven född 1851-01-30 i Bettna.
-- Enda exakta namn-/datum-/ortträffen: Stafsjoen till Malstanäs, sida 87,
-  rad 11, bild-id `C0006404_00086`.
+- Först rapporterad exakt namn-/datum-/ortträff: Stafsjoen till Malstanäs,
+  sida 87, rad 11, bild-id `C0006404_00086`.
+- Missad och senare återfunnen träff: Sjöstugan, sida 99, rad 23,
+  bild-id `C0006404_00098`.
 - Läst 2026-08-23 i autentiserad Riksarkivet-session.
 
 ## Läsning och avgränsat resultat
 
-På sida 87 står den redan kända raden i arbetsavskrift:
+Den historiska läsningen rapporterade bara sida 87:
 
 > Erik Carlsson | 1851 30/1 | Bettna | [inflyttad] Årdala 1876 30/4
 
 Raden är en efterhandsinförd 1876-ankomst och motsvarar det reciproka
-Årdala–Forssa-led som redan är säkrat i flyttningslängderna. Ingen annan
-säker Erik Karlsson/Carlsson med födelsedatum 1851-01-30 och födelseort
-Bettna återfanns på bilderna 10–135. I synnerhet återfanns ingen tidigare
-hushållsrad som kan förklara Årdala A I/14:s senare uppgift `från Forssa 75`.
+Årdala–Forssa-led som redan är säkrat i flyttningslängderna. Slutsatsen att
+ingen annan säker rad fanns på bilderna 10–135 var fel: sida 99 har samma
+person under namnet Grill. Se korrigeringen ovan.
 
 Granskningen gjordes i skärmbildsbatcher. Bilder som först blev svarta eller
 stannade på laddningssymbol lästes om tills originalbilden syntes; de
@@ -32,9 +43,9 @@ räknades inte som källnoll. Bilderna 1–9 och 136–141 ligger utanför den
 sammanhängande hushållsdelen och har kontrollerats endast för att fastställa
 volymgränsen.
 
-Resultatet avgränsar just denna husförhörslängd. Det utesluter inte en
-felplacerad attest, ett mantals-/beväringsspår eller en korrigerad
-födelseidentitet.
+Den historiska kontrollen avgränsar inte längre husförhörslängden som ett
+negativt resultat. C-0741:s positiva Grill-rad ersätter slutsatsen men
+ändrar inte vilka bildytor som granskades.
 
 ## Lokala originalbilder
 

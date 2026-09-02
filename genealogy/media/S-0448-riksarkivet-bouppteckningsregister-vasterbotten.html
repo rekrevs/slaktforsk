@@ -1,0 +1,1382 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <link rel="Shortcut Icon" sizes="16x16 24x24 32x32 64x64" href="/Content/images/janus.ico" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="description" content="Riksarkivet bevarar samh&#228;llets arkivinformation och ser till att den kan anv&#228;ndas. S&#246;k i arkiv fr&#229;n statlig f&#246;rvaltning, privata f&#246;retag, f&#246;reningar och personer." />
+    <link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+    <meta name="DC.Identifier" content="http://purl.org/dc/terms/identifier" scheme="URL" />
+    <meta name="DC.Title" content="Riksarkivet - Sök i arkiven" />
+    <meta name="DC.Publisher" content="Riksarkivet" />
+    <meta name="DC.Creator" content="Riksarkivet" />
+    <meta name="DC.Description" content="Riksarkivet bevarar samh&#228;llets arkivinformation och ser till att den kan anv&#228;ndas. S&#246;k i arkiv fr&#229;n statlig f&#246;rvaltning, privata f&#246;retag, f&#246;reningar och personer." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>V&#228;sterbottens l&#228;n – Bouppteckningar - Riksarkivet - S&#246;k i arkiven</title>
+
+    <link href="/css/jquery-treeview?v=644zM4jdnDhq7jKznw6J2bPLaaJQ_qLUmt0G-QQF5ak1" rel="stylesheet"/>
+
+    <link href="/css/jquery-ui?v=zPiFf4UMuyv-hO2QGs7JpF3IzYTGyq5IouNsoHwhLuk1" rel="stylesheet"/>
+
+    <link href="/css/bootstrap?v=AsWrfsZqv6AmAhFLb02PbY-WQtOd6gZ2z2_oF1b4Yq01" rel="stylesheet"/>
+
+
+<link href="/css/main-extern?v=ATni-V7RRviorzjN_bw1pyA6xATmGuKxrKTRAQ3doMc1" rel="stylesheet"/>
+
+    <link href="/css/captcha?v=h8C0BIZ4ZIjJYpRgMxfQ768-IW1RkwTI0dgdsAUa6BM1" rel="stylesheet"/>
+
+
+    <link href="/css/print?v=lGAohVUePBkmxN4FJj4wp1koppj2BSDYOiAKy_kEFqY1" rel="stylesheet" type="text/css" media="print" />
+
+
+    
+
+    <script src="/bundles/jquerytools?v=WbK4OvS0aWFLh4boiuI_lq8OVVz5crcu-QtgII8825A1"></script>
+
+    <script src="/bundles/bootstrap?v=8Wq1CneZdFcGhjyygPQaLtRLjSXkOW102Lu53MlPr3g1"></script>
+
+    <script src="/bundles/othertools?v=kltq_hCXCsymODGXgf8qBsiCqFaMj-g2F6BJknVoVlg1"></script>
+
+
+    <script src="/Scripts/datumValidering.js" type="text/javascript"></script>
+<script src="/Scripts/utokningSok.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+         $(function () {
+             var simpleClear;
+             $("#advancedSearchHolder").utokningSok({
+                 datumValidering: true,
+                 dateRange: {
+                    min: 1,
+                    max: 9999,
+                },
+                values: [1, 9999],
+                onInputEnter: function () {
+                    $("#SokKnappLeft").trigger('click');
+                },
+                 onShowMore: function () {
+                     simpleClear = $('#simpleClear').hide('slow').detach();
+                 },
+                 onShowLess: function () {
+                     $("#SokKnappLeft").after(simpleClear);
+                     simpleClear.show('slow');
+                     $("#Fornamn").trigger('focus');
+                     $("#Lan").val('Alla');
+                 }
+             });
+
+             $("#advancedClear, #simpleClearLeft").off('click').on('click', function (e) {
+                 e.preventDefault();
+
+                 $("#advancedSearchHolder").utokningSok('reset');
+                 $("input[type=text]").val('');
+                 $("#Lan").val('Alla');
+                 $("#Fornamn").trigger('focus');
+             });
+
+             $("#clearSearch").on('click', function () {
+                 $("input[type=text]").val('');
+                 $("#Lan").val('Alla');
+                 $("#Fornamn").trigger('focus');
+
+                 return false;
+             })
+         });
+         $(document).ready(function () {
+             $("#StartItem").removeClass("active");
+             $('#DfItem').addClass('active');
+         });
+    </script>
+<script type="text/javascript">
+        $(document).ready(function () {
+            $("#tab-specialsok").addClass("active");
+            $("#tab-specialsokMobil").addClass("active");
+            $("#nojsSubmit").hide();
+            $("#Registertyp").removeClass('nojs');
+            $("#Registertyp").on('change', function () {
+                if (this.selectedIndex != 0) {
+                    if(parseInt($(this).val()) != 2){
+                        $(this).parents('form').trigger('submit');
+                }
+            }});
+        });
+    </script><script type='text/javascript'>
+        $(document).ready(function () {
+             if (location.href.indexOf("#") > -1) {
+                 return;
+             }
+             else if (scrollIntoView() && $("#tabheader")[0].innerHTML.trim().length > 0 && location.search != "?Sok=true" && location.search.indexOf("utm_source") == -1 && location.search.indexOf("location=top") == -1) {
+                 $("#tabheader")[0].scrollIntoView();
+             }
+             else
+                 $("form:not('#form-special-sok')").find('input[type=text],textarea,select').filter(':visible:first').trigger('focus');
+         });
+
+         function scrollIntoView() {
+             const segments = window.location.pathname.split('/').filter(segment => segment.length > 0);
+             return segments.length > 1 || window.location.search;
+         }
+    </script>
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+        <!-- Matomo Tag Manager -->
+        <script type="text/plain" data-cookiecategory="analytics">
+            var _mtm = window._mtm = window._mtm || [];
+            _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+            (function() {
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src='https://matomo.riksarkivet.se/js/container_d6Ktc4gC.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <!-- End Matomo Tag Manager -->
+    <noscript>
+        <div id="noscript-warning" class="alert hidden-print" style="margin-bottom: 0px;">
+            <div class="container-fluid">
+                Riksarkivets söktjänst fungerar bäst med javaskript påslaget i din webbläsare.
+            </div>
+        </div>
+    </noscript>
+
+    <div id="compatibility_box" class="alert hidden-print" style="margin-bottom:0px;display:none;">
+        <div class="container-fluid">
+            Riksarkivets söktjänst fungerar bäst med kompatibilitetsvy avslagen i din webbläsare.
+        </div>
+    </div>
+
+    
+
+<header class="header">
+    <div class="container-fluid">
+        <div class="header-inner row-fluid">
+            <div class="pull-left span4">
+                <div>
+                    <a accesskey="1" href="/" class="riksarkiveturl">
+                        <img src="/Administration/Images/Layout/logo2.png" />
+                    </a>
+                </div>
+                <div>
+                    <span class="mellanrum-left-stort"><font color="black">S&#246;k i arkiven</font></span>
+                </div>
+            </div>
+            <div id="mobile-panel" class="pull-left visible-phone hidden-print mellanrum-left-tjugo noscript">
+                <script>
+                    $('#mobile-panel').removeClass("noscript");
+                </script>
+                <a id="btn-shortcuts" class="toggle" href="#nav-shortcuts" data-toggle="collapse">Genv&#228;gar <i id="IkonPlusMinus" class="icon-plus icon-white"></i></a>
+                <a id="btn-menu" class="btn btn-primary toggle" href="#nav-collapse" data-toggle="collapse">
+                    MENY
+                    <button id="menyknapp" class="btn btn-navbar" type="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </a>
+
+                <a href="https://lasesalsbestallning.riksarkivet.se/" target="riksarkivet-digital-bestallning" class="kundvagn-mobil hidden">
+                    <img src="/Content/images/kundvagn/kundvagn.png" alt="Kundkorg till l&#228;sesal" />
+                    <span class="badge" id="laneorder-antal-mobil">0</span>
+                </a>
+
+                <!--<div class="kundvagn kundvagn-mobil hidden">
+                    <img src="~/Content/images/kundvagn/kundvagn.png" alt="Kundkorg till l&#228;sesal" />
+                    <span class="badge" id="laneorder-antal-mobil">0</span>
+                </div>-->
+
+            </div>
+            <noscript class="visible-phone">
+                <nav>
+                    <div class="span8">
+                        <ul class="nav nav-pills">
+                            <li id="StartItem" class="active navHasNoChildren clickMenu">
+                                <span class="hide">Visas:</span>
+                                <a href="/" title="Till startsidan"><span class="mellanrum-left-tjugo mellanrum-right-tjugo">Start</span></a>
+                            </li>
+
+                            <li id="DfItem" class="navHasNoChildren clickMenu">
+                                <a href="/digitala-forskarsalen" title="Digitala forskarsalen">Digitala forskarsalen</a>
+                            </li>
+
+                            <li id="NadItem" class="navHasNoChildren clickMenu">
+                                <a href="/nad/vasterbottens-lan" title="Nationell Arkivdatabas">Nationell Arkivdatabas</a>
+                            </li>
+                            <li class="menylankar" href="/om-soktjansten/vasterbottens-lan">Om s&#246;ktj&#228;nsten</li>
+                            <li id="OmItems">
+                                
+                            </li>
+                            <li><a href="http://riksarkivet.se" target="_blank" title="Till Riksarkivets hemsida">Riksarkivet</a></li>
+                            <li><a href="http://webbutik.riksarkivet.se" target="_blank" title="Till Riksarkivets webbutik">Webbutiken</a></li>
+                            <ul class="nav nav-pills">
+                                <li><a href="/?Sprak=Engelska">English</a></li>
+                                <li><a href="/?Sprak=Svenska">Svenska</a></li>
+                            </ul>
+                            <li class="visible-phone"><a href="http://riksarkivet.se" target="_blank" title="Till Riksarkivets hemsida">Riksarkivet</a></li>
+                            <li class="visible-phone"><a href="http://webbutik.riksarkivet.se" target="_blank" title="Till Riksarkivets webbutik">Webbutiken</a></li>
+                            
+        <li>
+            <a href="/sv/login?returnUrl=%2Fbouppteckningar%2Fvasterbottens-lan&amp;avanceradSok=False" id="LogIn">Logga in</a>
+        </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </noscript>
+
+            <nav class="span8">
+                <div class="row hidden-print hidden-phone">
+                    <div id="nav-webbutik" class="nav-collapse collapse pull-right">
+                        <ul class="nav nav-pills">
+                            <li><a href="http://riksarkivet.se" target="_blank" title="Till Riksarkivets hemsida">Riksarkivet</a></li>
+                            <li><a href="http://webbutik.riksarkivet.se" target="_blank" title="Till Riksarkivets webbutik">Webbutiken</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row hidden-print upp">
+                    <div id="nav-shortcuts" class="nav-collapse collapse">
+                        <hr />
+                        <noscript>
+                            <ul class="nav nav-pills">
+                                <li><a href="/?Sprak=Engelska">English</a></li>
+                                <li><a href="/?Sprak=Svenska">Svenska</a></li>
+                            </ul>
+                        </noscript>
+                        <ul class="nav nav-pills">
+                            
+        <li>
+            <a href="/sv/login?returnUrl=%2Fbouppteckningar%2Fvasterbottens-lan&amp;avanceradSok=False" id="LogIn">Logga in</a>
+        </li>
+
+                            <li id="otherLanguagesDropBox" class="dropdown hide">
+                                <a class="dropdown-toggle" id="dLabel" role="link" data-toggle="dropdown" data-target="#language" href="/page.html">Other languages<i class="icon-caret-down"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                        <li class="active"><span class="selected-language">Svenska <i class="icon-ok"></i></span></li>
+
+                                        <li><a href="/?Sprak=Engelska&amp;returnUrl=https%3A%2F%2Fsok.riksarkivet.se%2Fen%2Fbouppteckningar%2Fvasterbottens-lan">English</a></li>
+
+                                </ul>
+
+                                
+                            </li>                          
+                            <li class="visible-phone"><a href="http://riksarkivet.se" target="_blank" title="Till Riksarkivets hemsida">Riksarkivet</a></li>
+                            <li class="visible-phone"><a href="http://webbutik.riksarkivet.se" target="_blank" title="Till Riksarkivets webbutik">Webbutiken</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div id="laneordrar" class="pull-right hidden">
+                        <ul class="nav nav-pills">
+                            <li>
+
+                                <a href="https://lasesalsbestallning.riksarkivet.se/" target="riksarkivet-digital-bestallning" style="text-decoration: none">
+                                    <div>
+                                        <img src="/Content/images/kundvagn/kundvagn.png" alt="Kundkorg till l&#228;sesal" />
+                                        <span class="badge sokhjalpIkon" title="L&#228;sesal | Klicka p&#229; kundvagnen f&#246;r att best&#228;lla objekt till l&#228;sesal" id="laneorder-antal">0</span>
+                                    </div>
+                                    <span id="lasesaltext">Till l&#228;sesal</span>
+                                </a>
+
+                                <!--<div class="kundvagn" style="text-decoration: none">
+                                    <div>
+                                        <img src="~/Content/images/kundvagn/kundvagn.png" alt="Kundkorg till l&#228;sesal" />
+                                        <span class="badge sokhjalpIkon" title="L&#228;sesal | Klicka p&#229; kundvagnen f&#246;r att best&#228;lla objekt till l&#228;sesal" id="laneorder-antal">0</span>
+                                    </div>
+                                    <span id="lasesaltext">Till l&#228;sesal</span>
+                                </div>-->
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="colorbar hidden-print"></div>
+
+    <!--<div id="kundvagn-dialog" style="display:none;padding:0;overflow-y:hidden">
+        
+        <iframe id="kundvagn-frame" src="https://lasesalsbestallning.riksarkivet.se/" style="height:100%;width:100%;border:none"></iframe>
+    </div>-->
+
+    <nav class="navbar navbar-top hidden-print" data-target=".nav-collapse" data-toggle="collapse">
+        <div class="container-fluid navbar-inner">
+            <div id="nav-collapse" class="nav-collapse collapse">
+                <ul class="nav" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+                    <li class="divider-vertical" />
+                    <li id="StartItem" class="active navHasNoChildren clickMenu">
+                        <span class="hide">Visas:</span>
+                        <a href="/" title="Till startsidan"><span class="mellanrum-left-tjugo mellanrum-right-tjugo">Start</span></a>
+                    </li>
+                    <li class="divider-vertical" />
+                    <li id="DfItem" class="navHasNoChildren clickMenu">
+                        <a href="/digitala-forskarsalen" title="Digitala forskarsalen">Digitala forskarsalen</a>
+                    </li>
+                    <li class="divider-vertical" />
+                    <li id="NadItem" class="navHasNoChildren clickMenu">
+                        <a href="/nad/" title="Nationell Arkivdatabas">Nationell Arkivdatabas</a>
+                    </li>
+                    <li class="divider-vertical" />
+                    <li id="OmItem" class="navHasNoChildren clickMenu hidden-phone">
+                        <a href="/om-soktjansten/" title="Om s&#246;ktj&#228;nsten">Om s&#246;ktj&#228;nsten</a>
+                    </li>
+                    <li id="OmItem" class="navHasChildren clickMenu span12 visible-phone">
+                        <span>
+                            <a class="menylankar omSoktjansten" href="/om-soktjansten/vasterbottens-lan">Om s&#246;ktj&#228;nsten</a>
+                            <i id="OmMenyPlusMinus" class="icon-plus icon-white"></i>
+                        </span>
+                        <div id="OmItems" class="hidden-phone">
+                            
+                        </div>
+                    </li>
+                    <li class="divider-vertical" />
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<script type="text/javascript">
+    window.onload = function () {
+        document.getElementById("otherLanguagesDropBox").className = "dropdown";
+    }
+    $(function () {
+        $("#btn-shortcuts").on('click', function (e) {
+            changePlusMinusIcon("#IkonPlusMinus");
+        });
+
+        $("#kundvagn-dialog").dialog({
+            // TODO: fix x on close button
+            title: 'Beställning till läsesal',
+            autoOpen: false,
+            modal: true,
+            height: '800',
+            width: '1000',
+            maxWidth: 'auto',
+            position: { my: 'top', at: 'top', of: $('#nav-collapse') },
+        });
+
+        $('.kundvagn').on('click', function () {
+            // TODO: would be nice to make height dynamic according to iframe height
+            $('#kundvagn-dialog').dialog('open');
+        });
+
+        $('.clickMenu').on('click', function (e) {
+            e.stopPropagation();
+        });
+
+        $("#OmItem").on('click', function (e) {
+            $("#omLankar").removeClass('hidden-phone').addClass('visible-phone');
+            $("#nav-shortcuts").closest('div').addClass('hidden-phone');
+            e.stopPropagation();
+        });
+
+        $("#OmMenyPlusMinus").on('click', function (e) {
+            showHideSubMenu("#OmItems")
+            changePlusMinusIcon("#OmMenyPlusMinus");
+        });
+
+        $("#NadMenyPlusMinus").on('click', function (e) {
+            showHideSubMenu("#NadItems")
+            changePlusMinusIcon("#NadMenyPlusMinus");
+        });
+
+        $("#ForskarsalMenyPlusMinus").on('click', function (e) {
+            showHideSubMenu("#ForskarsalItems");
+            changePlusMinusIcon("#ForskarsalMenyPlusMinus");
+        });
+
+        var showHideSubMenu = function (subMenuId) {
+            if ($(subMenuId).hasClass("hidden-phone")) {
+                $(subMenuId).removeClass('hidden-phone').addClass('visible-phone');
+            }
+            else {
+                $(subMenuId).addClass("hidden-phone")
+            }
+        }
+
+        var changePlusMinusIcon = function (dropdownElement) {
+
+            if ($(dropdownElement).hasClass('icon-plus')) {
+                $(dropdownElement).removeClass("icon-plus");
+                $(dropdownElement).addClass('icon-minus');
+            }
+            else {
+                $(dropdownElement).removeClass('icon-minus');
+                $(dropdownElement).addClass("icon-plus");
+            };
+        }
+
+
+    });
+</script>
+    <main id="homeContainer" class="content container-fluid ">
+        <br />
+        <section class="hidden-print">
+    <div>
+            <div id="information" class="content row-fluid">
+                <div id="info" class="span12">
+                    <span class="hidden-phone"><ul class="nav nav-tabs">
+    <li id="tab-digitalaforskarsalen">
+        <a title="Digitala forskarsalen" href="/digitala-forskarsalen">Digitala forskarsalen</a>
+    </li>
+    <li id="tab-amnesomrade">
+        <a title="&#196;mnesomr&#229;de" href="/amnesomrade/">&#196;mnesomr&#229;de</a>
+    </li>
+    <li id="tab-specialsok">
+        <a title="Specials&#246;k" href="/specialsok/">Specials&#246;k</a>
+    </li>
+    <li id="tab-alfabetiskt">
+        <a title="A–&#214;" href="/a-o">A–&#214;</a>
+    </li>
+    <li id="tab-valfriaord">
+        <a title="Fritext" href="/fritext/">Fritext</a>
+    </li>
+    <li id="tab-digitalaarkiv">
+        <a title="Arkiv" href="/digitala-arkiv/">Arkiv</a>
+    </li>
+    <li id="tab-bildid">
+        <a title="Bildid" href="/bildid/">Bildid</a>
+    </li>
+</ul>
+</span>
+                    <span class="visible-phone">
+<ul class="nav nav-tabs">
+    <li id="tab-digitalaforskarsalenMobil" class="fullbredd">
+        <a title="Digitala forskarsalen" href="/digitala-forskarsalen">Digitala forskarsalen</a>
+    </li>
+    <li id="tab-amnesomradeMobil" class="halvbredd">
+        <a title="&#196;mnesomr&#229;de" href="/amnesomrade">&#196;mnesomr&#229;de</a>
+    </li>
+    <li id="tab-specialsokMobil" class="halvbredd">
+        <a title="Specials&#246;k" href="/specialsok">Specials&#246;k</a>
+    </li>
+    <li id="tab-alfabetisktMobil" class="halvbredd">
+        <a title="A–&#214;" href="/a-o">A–&#214;</a>
+    </li>
+    <li id="tab-valfriaordMobil" class="halvbredd">
+        <a title="Fritext" href="/fritext">Fritext</a>
+    </li>
+    <li id="tab-digitalaarkivMobil" class="halvbredd">
+        <a title="Arkiv" href="/digitala-arkiv">Arkiv</a>
+    </li>
+    <li id="tab-bildidMobil" class="halvbredd">
+        <a title="Bildid" href="/bildid">Bildid</a>
+    </li>
+</ul></span>
+                </div>
+            </div>
+
+        <div id="wide_search" class="registerSok clearfix alert alert-info control-panel">
+                <div class="content row-fluid">
+                    <form action="/specialsokning" id="form-special-sok" method="post">        <div>
+            <select id="Specialsokning" name="specialsokning" class="input-xlarge">
+                <option selected="selected" value="">V&#228;lj specials&#246;k</option>
+                <optgroup label="SKANNAT"></optgroup>
+                <option value="armens-rullor">Arm&#233;ns rullor</option>
+                <option value="domstolsarkiv">Domstolsarkiv</option>
+                <option value="ericsbergsarkivets-autografsamling">Ericsbergsarkivets autografsamling</option>
+                <option value="flottans-arkiv">Flottans arkiv</option>
+                <option value="forsamlingsutdrag">F&#246;rsamlingsutdrag 1860–1940</option>
+                <option value="generalmonsterrullor">Generalm&#246;nsterrullor</option>
+                <option value="jordebocker">Jordeb&#246;cker ca 1630–1750</option>
+                <option value="krigsarkivets-kartsamlingar">Krigsarkivets kart- och ritningssamlingar</option>
+                <option value="kyrkoarkiv">Kyrkoarkiv</option>
+                <option value="lagfartsbocker">Lagfartsb&#246;cker 1875–1933</option>
+                <option value="landskapshandlingar">Landskapshandlingar 1530–1630</option>
+                <option value="landskontor-landskansli">Landskontor och landskansli</option>
+                <option value="lokalundersokningar">Lokalunders&#246;kningar  (jordbruk)</option>
+                <option value="mantalslangder-stockholms-stad">Mantals- och kronotaxeringsl&#228;ngder Stockholms stad</option>
+                <option value="mantalslangder">Mantalsl&#228;ngder 1642–1820</option>
+                <option value="ockupationsarkivet-novgorod">Ockupationsarkivet fr&#229;n Novgorod</option>
+                <option value="roterings-utskrivningslangder">Roterings- och utskrivningsl&#228;ngder</option>
+                <option value="scb-fodda-vigda-doda">SCB f&#246;dda, vigda, d&#246;da 1860–1949</option>
+                <option value="summariska-folkmangdsredogorelser">Summariska folkm&#228;ngdsredog&#246;relser</option>
+                <option value="http://riksarkivet.se/geometriska">Sveriges &#228;ldsta storskaliga kartor</option>
+                <option value="trolldom">Trolldom</option>
+                <option value="alvsborgs-losen">&#196;lvsborgs l&#246;sen 1571 och 1613</option>
+                <optgroup label="DATABASER MED AVSKRIVET MATERIAL"></optgroup>
+                <option value="aktiebolag">Aktiebolag 1901–1935</option>
+                <option value="Oxenstierna">Axel Oxenstiernas skrifter och brev</option>
+                <option value="bouppteckningar">Bouppteckningar</option>
+                <option value="brevsamlingar">Brevsamlingar och korrespondens</option>
+                <option value="by-och-gardsnamn">By- och g&#229;rdsnamn</option>
+                <option value="domboksregister">Domboksregister, V&#228;stra h&#228;rad, J&#246;nk&#246;pings l&#228;n</option>
+                <option value="dodregister">D&#246;dregister</option>
+                <option value="estonia">Estoniasamlingen</option>
+                <option value="folkrakningar">Folkr&#228;kningar (Sveriges befolkning)</option>
+                <option value="https://riksarkivet.x-ref.se/">Fornsvensk bibliografi och Svensk runbibliografi</option>
+                <option value="frigivna-straffarbetsfangar">Frigivna straffarbetsf&#229;ngar</option>
+                <option value="fodelseregister">F&#246;delseregister</option>
+                <option value="garpenbergs-bruk">Garpenbergs bruk 1854–1874</option>
+                <option value="heraldisktregister">Heraldiskt register</option>
+                <option value="grill">Indelningsverket (Grill)</option>
+                <option value="konseljarenden">Konselj&#228;renden 1840–1920</option>
+                <option value="krigsarkivets-portrattsamlingar">Krigsarkivets portr&#228;ttsamlingar</option>
+                <option value="kungliga-patriotiska-sallskapets-medaljer">Kungliga Patriotiska S&#228;llskapets medaljer</option>
+                <option value="Lagfartsregister">Lagfartsregister</option>
+                <option value="MPO">Medeltida pergamentomslag</option>
+                <option value="medicinalstyrelsen">Medicinalstyrelsen 1876–1915</option>
+                <option value="topografier">Orter, Sveriges indelning genom tiderna (NAD)</option>
+                <option value="personregister-skrivelser-kungl-majt">Personregister &#246;ver skrivelser till Kungl. Maj:t</option>
+                <option value="rosenberg">Rosenbergs geografiska lexikon</option>
+                <option value="sdhk">SDHK (Medeltidsbrev)</option>
+                <option value="sjomanshus">Sj&#246;manshus (sj&#246;folk)</option>
+                <option value="smolensk">Smolenskarkivet 1604–1611</option>
+                <option value="sockenstamma">Sockenst&#228;mma J&#228;mtlands l&#228;n</option>
+                <option value="http://sok.riksarkivet.se/SBL">Svenskt biografiskt lexikon</option>
+                <option value="http://riksarkivet.se/tora">Topografiskt register p&#229; Riksarkivet (TORA)</option>
+                <option value="torparforsvar">Torparf&#246;rsvar V&#228;sternorrlands och J&#228;mtlands l&#228;n</option>
+                <option value="vigselregister">Vigselregister</option>
+                <optgroup label="&#214;VRIGT"></optgroup>
+                <option value="nytt-material">Nyskannade volymer</option>
+            </select><input class="nojsSubmit" value="Välj" type="submit" />
+        </div>
+</form>
+                    <fieldset class="mellanrum-top-tio">
+                        <legend>
+                            Bouppteckningar
+         
+    <label class="pull-right">
+            <a href="#" class="sokhjalpIkon hidden-phone" style="font-family: Verdana,Arial,Helvetica;font-size: small;" title="S&#246;ktips|&lt;b&gt;Enkel s&#246;kning&lt;/b&gt;&lt;p&gt;Skriv in ett eller flera s&#246;kord. Alla ord m&#229;ste finnas med i posten f&#246;r att ge tr&#228;ff.&lt;/p&gt;&lt;b&gt;Trunkering&lt;/b&gt;&lt;p&gt;Anv&#228;nd asterisk (*) f&#246;r att hitta ord med varierande &#228;ndelse eller f&#246;rled. En s&#246;kning p&#229; t.ex. teater* ger tr&#228;ff p&#229; teater, teaterdirekt&#246;r, teaterf&#246;rlag etc. En s&#246;kning p&#229; *resa ger tr&#228;ff p&#229; studieresa och hemresa etc.&lt;/p&gt;&lt;b&gt;Frass&#246;kning&lt;/b&gt;&lt;p&gt;Anv&#228;nd citattecken (&#39;&#39; &#39;&#39;) f&#246;r att s&#246;ka p&#229; exakta fraser. En s&#246;kning p&#229; t.ex. &#39;&#39;svenska kungar&#39;&#39; ger tr&#228;ffar d&#229; orden f&#246;rekommer tillsammans och i angiven ordning.&lt;/p&gt;&lt;b&gt;Maskering&lt;/b&gt;&lt;p&gt;Anv&#228;nd fr&#229;getecken (?) f&#246;r att f&#229; tr&#228;ff p&#229; stavningsvarianter av ett ord. Varje fr&#229;getecken svarar mot ett tecken. En s&#246;kning p&#229; t.ex. G??le ger tr&#228;ff p&#229; b&#229;de G&#228;vle, Gefle och G&#228;fle.&lt;/p&gt;&lt;b&gt;Uteslut ett ord&lt;/b&gt;&lt;p&gt;Anv&#228;nd minustecken (-) f&#246;r att utesluta ett s&#246;kord. En s&#246;kning p&#229; t.ex. Uppsala -slott ger tr&#228;ff p&#229; alla poster som inneh&#229;ller ordet Uppsala men inte de poster som samtidigt inneh&#229;ller ordet slott.&lt;/p&gt;">S&#246;ktips</a>
+    </label>
+                        </legend>
+                    </fieldset>
+                </div>
+            
+<form action="/bouppteckningar/vasterbottens-lan" class="bouppteckningar" method="get">        <div id="simpleSearch" class="clearfix">
+            <div id="simpleSearchRow1" class="content row-fluid">
+                <div class="span3">
+    <label for="Fornamn">
+        <span>
+        
+                        <strong>F&#246;rnamn</strong>
+
+                <img id="sokhjalpIkonFornamn" class="visible-phone" src="/Content/images/info.png" alt="Info" />
+                <img class="sokhjalpIkon hidden-phone" title="F&#246;rnamn|&lt;p&gt;
+Ange samtliga eller n&#229;got av personens f&#246;rnamn. Fullst&#228;ndigt namn ger en mer exakt s&#246;kning.
+T&#228;nk p&#229; att olika typer av stavning kan f&#246;rekomma, ex P&#228;r, Pehr.
+&lt;/p&gt;" src="/Content/images/info.png" alt="Info" />
+        </span>
+    </label>
+
+<div id="sokhjalpFornamn" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoFornamn" class="close">&times;</div>
+    <p>
+Ange samtliga eller något av personens förnamn. Fullständigt namn ger en mer exakt sökning.
+Tänk på att olika typer av stavning kan förekomma, ex Pär, Pehr.
+</p> 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"Fornamn","Label":"Förnamn","IsRubrik":false,"NoLabels":false,"Hjalptext":"\u003cp\u003e\r\nAnge samtliga eller något av personens förnamn. Fullständigt namn ger en mer exakt sökning.\r\nTänk på att olika typer av stavning kan förekomma, ex Pär, Pehr.\r\n\u003c/p\u003e"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <input id="Fornamn" name="Fornamn" type="text" value="" />
+                </div>
+                <div class="span3">
+    <label for="Efternamn">
+        <span>
+        
+                        <strong>Efternamn</strong>
+
+                <img id="sokhjalpIkonEfternamn" class="visible-phone" src="/Content/images/info.png" alt="Info" />
+                <img class="sokhjalpIkon hidden-phone" title="Efternamn|&lt;p&gt;
+Ange personens efternamn.
+T&#228;nk p&#229; att olika typer av stavning kan f&#246;rekomma, ex. P&#228;rsson, Pehrson.
+&lt;/p&gt;" src="/Content/images/info.png" alt="Info" />
+        </span>
+    </label>
+
+<div id="sokhjalpEfternamn" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoEfternamn" class="close">&times;</div>
+    <p>
+Ange personens efternamn.
+Tänk på att olika typer av stavning kan förekomma, ex. Pärsson, Pehrson.
+</p> 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"Efternamn","Label":"Efternamn","IsRubrik":false,"NoLabels":false,"Hjalptext":"\u003cp\u003e\r\nAnge personens efternamn.\r\nTänk på att olika typer av stavning kan förekomma, ex. Pärsson, Pehrson.\r\n\u003c/p\u003e"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <input id="Efternamn" name="Efternamn" type="text" value="" />
+                </div>
+                <div class="span3">
+    <label for="Hemort">
+        <span>
+        
+                        <strong>Hemort</strong>
+
+                <img id="sokhjalpIkonHemort" class="visible-phone" src="/Content/images/info.png" alt="Info" />
+                <img class="sokhjalpIkon hidden-phone" title="Hemort|&lt;p&gt;
+Ange namn p&#229; by, g&#229;rd eller kvarter i f&#246;rsamlingen.
+&lt;/p&gt;" src="/Content/images/info.png" alt="Info" />
+        </span>
+    </label>
+
+<div id="sokhjalpHemort" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoHemort" class="close">&times;</div>
+    <p>
+Ange namn på by, gård eller kvarter i församlingen.
+</p> 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"Hemort","Label":"Hemort","IsRubrik":false,"NoLabels":false,"Hjalptext":"\u003cp\u003e\r\nAnge namn på by, gård eller kvarter i församlingen.\r\n\u003c/p\u003e"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <input id="Hemort" name="Hemort" type="text" value="" />
+                </div>
+                <div class="span3">
+    <label for="Hemforsamling">
+        <span>
+        
+                        <strong>Hemf&#246;rsamling</strong>
+
+                <img id="sokhjalpIkonHemforsamling" class="visible-phone" src="/Content/images/info.png" alt="Info" />
+                <img class="sokhjalpIkon hidden-phone" title="Hemf&#246;rsamling|&lt;p&gt;
+Ange boendeort, d.v.s. f&#246;rsamlingen d&#228;r personen &#228;r skriven. 
+&lt;/p&gt;" src="/Content/images/info.png" alt="Info" />
+        </span>
+    </label>
+
+<div id="sokhjalpHemforsamling" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoHemforsamling" class="close">&times;</div>
+    <p>
+Ange boendeort, d.v.s. församlingen där personen är skriven. 
+</p> 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"Hemforsamling","Label":"Hemförsamling","IsRubrik":false,"NoLabels":false,"Hjalptext":"\u003cp\u003e\r\nAnge boendeort, d.v.s. församlingen där personen är skriven. \r\n\u003c/p\u003e"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <input id="Hemforsamling" name="Hemforsamling" type="text" value="" />
+                </div>
+            </div>
+            <div id="simpleSearchRow2" class="content row-fluid">
+                <div class="span3 dates">
+    <label for="DatumFran">
+        <span>
+        
+                        <strong>&#197;rtal</strong>
+
+                <img id="sokhjalpIkonDatumFran" class="visible-phone" src="/Content/images/info.png" alt="Info" />
+                <img class="sokhjalpIkon hidden-phone" title="&#197;rtal|&lt;p&gt;
+Du kan s&#246;ka mellan tv&#229; &#229;rtal, ex 1875 till 1890, du f&#229;r d&#229; de uppgifter som f&#246;rekommer
+mellan dessa &#229;r, du kan &#228;ven v&#228;lja att s&#246;ka i endast ett av &#229;rtalsf&#228;lten. 
+&lt;/p&gt;" src="/Content/images/info.png" alt="Info" />
+        </span>
+    </label>
+
+<div id="sokhjalpDatumFran" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoDatumFran" class="close">&times;</div>
+    <p>
+Du kan söka mellan två årtal, ex 1875 till 1890, du får då de uppgifter som förekommer
+mellan dessa år, du kan även välja att söka i endast ett av årtalsfälten. 
+</p> 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"DatumFran","Label":"Årtal","IsRubrik":false,"NoLabels":false,"Hjalptext":"\u003cp\u003e\r\nDu kan söka mellan två årtal, ex 1875 till 1890, du får då de uppgifter som förekommer\r\nmellan dessa år, du kan även välja att söka i endast ett av årtalsfälten. \r\n\u003c/p\u003e"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                    <div>
+                        <input class="lfloat input-date" id="DatumFran" maxlength="4" name="DatumFran" type="text" value="" />
+                        <span class="lfloat" style="margin-top:7px;">-</span>
+                        <input class="lfloat input-date" id="DatumTill" maxlength="4" name="DatumTill" type="text" value="" />
+                    </div>
+                </div>                 
+            </div>
+            <div id="advancedSearchHolder" style="display:none;">
+                <div id="advancedSearchTop" class="content row-fluid">
+                    <div class="span3">
+    <label for="Yrke">
+        <span>
+        
+                        <strong>Yrke</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpYrke" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoYrke" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Bouppteckningar","LabelFor":"Yrke","Label":"Yrke","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                        <input id="Yrke" name="Yrke" type="text" value="" />
+                    </div>
+                    <div class="span3">
+    <label for="AnhorigFornamn">
+        <span>
+        
+                        <strong>Anh&#246;rigs f&#246;rnamn</strong>
+
+                <img id="sokhjalpIkonAnhorigFornamn" class="visible-phone" src="/Content/images/info.png" alt="Info" />
+                <img class="sokhjalpIkon hidden-phone" title="Anh&#246;rigs f&#246;rnamn|&lt;p&gt;
+Ange samtliga eller n&#229;got av personens f&#246;rnamn. Fullst&#228;ndigt namn ger en mer exakt s&#246;kning.
+T&#228;nk p&#229; att olika typer av stavning kan f&#246;rekomma, ex P&#228;r, Pehr.
+&lt;/p&gt;" src="/Content/images/info.png" alt="Info" />
+        </span>
+    </label>
+
+<div id="sokhjalpAnhorigFornamn" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoAnhorigFornamn" class="close">&times;</div>
+    <p>
+Ange samtliga eller något av personens förnamn. Fullständigt namn ger en mer exakt sökning.
+Tänk på att olika typer av stavning kan förekomma, ex Pär, Pehr.
+</p> 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"AnhorigFornamn","Label":"Anhörigs förnamn","IsRubrik":false,"NoLabels":false,"Hjalptext":"\u003cp\u003e\r\nAnge samtliga eller något av personens förnamn. Fullständigt namn ger en mer exakt sökning.\r\nTänk på att olika typer av stavning kan förekomma, ex Pär, Pehr.\r\n\u003c/p\u003e"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                        <input id="AnhorigFornamn" name="AnhorigFornamn" type="text" value="" />
+                    </div>
+                    <div class="span3">
+    <label for="AnhorigEfternamn">
+        <span>
+        
+                        <strong>Anh&#246;rigs efternamn</strong>
+
+                <img id="sokhjalpIkonAnhorigEfternamn" class="visible-phone" src="/Content/images/info.png" alt="Info" />
+                <img class="sokhjalpIkon hidden-phone" title="Anh&#246;rigs efternamn|&lt;p&gt;
+Ange personens efternamn.
+T&#228;nk p&#229; att olika typer av stavning kan f&#246;rekomma, ex. P&#228;rsson, Pehrson.
+&lt;/p&gt;" src="/Content/images/info.png" alt="Info" />
+        </span>
+    </label>
+
+<div id="sokhjalpAnhorigEfternamn" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoAnhorigEfternamn" class="close">&times;</div>
+    <p>
+Ange personens efternamn.
+Tänk på att olika typer av stavning kan förekomma, ex. Pärsson, Pehrson.
+</p> 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"AnhorigEfternamn","Label":"Anhörigs efternamn","IsRubrik":false,"NoLabels":false,"Hjalptext":"\u003cp\u003e\r\nAnge personens efternamn.\r\nTänk på att olika typer av stavning kan förekomma, ex. Pärsson, Pehrson.\r\n\u003c/p\u003e"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                        <input id="AnhorigEfternamn" name="AnhorigEfternamn" type="text" value="" />
+                    </div>
+                    <div class="span3" >
+    <label for="Lan">
+        <span>
+        
+                        <strong>L&#228;n</strong>
+
+        </span>
+    </label>
+
+<div id="sokhjalpLan" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoLan" class="close">&times;</div>
+     
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Bouppteckningar","LabelFor":"Lan","Label":"Län","IsRubrik":false,"NoLabels":false,"Hjalptext":""};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+
+                        <select id="Lan" name="Lan" title="Välj län"><option value="Alla">Alla</option>
+<option value="Okänd">Ok&#228;nd</option>
+<option value="Blekinge län">Blekinge l&#228;n</option>
+<option value="Gotlands län">Gotlands l&#228;n</option>
+<option value="Gävleborgs län">G&#228;vleborgs l&#228;n</option>
+<option value="Göteborg och Bohus län">G&#246;teborg och Bohus l&#228;n</option>
+<option value="Hallands län">Hallands l&#228;n</option>
+<option value="Jämtlands län">J&#228;mtlands l&#228;n</option>
+<option value="Jönköpings län">J&#246;nk&#246;pings l&#228;n</option>
+<option value="Kalmar län">Kalmar l&#228;n</option>
+<option value="Kopparbergs län">Kopparbergs l&#228;n</option>
+<option value="Kristianstads län">Kristianstads l&#228;n</option>
+<option value="Kronobergs län">Kronobergs l&#228;n</option>
+<option value="Malmöhus län">Malm&#246;hus l&#228;n</option>
+<option value="Norrbottens län">Norrbottens l&#228;n</option>
+<option value="Skaraborgs län">Skaraborgs l&#228;n</option>
+<option value="Stockholms län">Stockholms l&#228;n</option>
+<option value="Stockholms stad">Stockholms stad</option>
+<option value="Södermanlands län">S&#246;dermanlands l&#228;n</option>
+<option value="Uppsala län">Uppsala l&#228;n</option>
+<option value="Värmlands län">V&#228;rmlands l&#228;n</option>
+<option value="Västerbottens län">V&#228;sterbottens l&#228;n</option>
+<option value="Västernorrlands län">V&#228;sternorrlands l&#228;n</option>
+<option value="Västmanlands län">V&#228;stmanlands l&#228;n</option>
+<option value="Älvsborgs län">&#196;lvsborgs l&#228;n</option>
+<option value="Örebro län">&#214;rebro l&#228;n</option>
+<option value="Östergötlands län">&#214;sterg&#246;tlands l&#228;n</option>
+</select>
+                    </div>
+                </div>
+            </div>
+                       <div id="buttonholder" class="padding-top-medium row-fluid">
+                <div class="span9">
+                    <div id="searchButtons">
+                        <button id="SokKnappLeft" class="btn btn-primary" type="submit" title="S&#246;k" tabindex = "50">S&#246;k<i class="icon-search mellanrum-left"></i></button>
+                        <button id="clearSearch" class="btn " type="reset" title="Rensa s&#246;kformul&#228;r" tabindex = "51">Rensa<i class="icon-remove mellanrum-left"></i></button>
+                        <span>
+    <span>
+            <a id="sokhjalpIkonS&#246;ktipsFacetter" href="#" class="visible-phone pull-right">S&#246;ktips</a>
+    </span>
+
+<div id="sokhjalpS&#246;ktipsFacetter" class="alert-block alert content" style="display: none">    
+    <div id="closeInfoS&#246;ktipsFacetter" class="close">&times;</div>
+    <p><b>Enkel sökning:</b> Skriv in ett eller flera sökord. Alla ord måste finnas med i posten för att ge träff.</p>
+<p><b>Trunkering: </b>Använd asterisk (*) för att hitta ord med varierande ändelse eller förled. En sökning på t.ex. teater* ger träff på teater, teaterdirektör, teaterförlag etc. En sökning på *resa ger träff på studieresa och hemresa etc.</p>
+<p><b>Frassökning: </b>Använd citattecken ('' '') för att söka på exakta fraser. En sökning på t.ex. ''svenska kungar'' ger träffar då orden förekommer tillsammans och i angiven ordning.</p>
+<p><b>Maskering: </b>Använd frågetecken (?) för att få träff på stavningsvarianter av ett ord. Varje frågetecken svarar mot ett tecken. En sökning på t.ex. G??le ger träff på både Gävle, Gefle och Gäfle.</p>
+<p><b>Uteslut ett ord: </b>Använd minustecken (-) för att utesluta ett sökord. En sökning på t.ex. Uppsala -slott ger träff på alla poster som innehåller ordet Uppsala men inte de poster som samtidigt innehåller ordet slott.</p>
+
+ 
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {            
+            var model = {"Formular":"Gemensam","LabelFor":"SöktipsFacetter","Label":"Söktips","IsRubrik":false,"NoLabels":true,"Hjalptext":"\u003cp\u003e\u003cb\u003eEnkel sökning:\u003c/b\u003e Skriv in ett eller flera sökord. Alla ord måste finnas med i posten för att ge träff.\u003c/p\u003e\r\n\u003cp\u003e\u003cb\u003eTrunkering: \u003c/b\u003eAnvänd asterisk (*) för att hitta ord med varierande ändelse eller förled. En sökning på t.ex. teater* ger träff på teater, teaterdirektör, teaterförlag etc. En sökning på *resa ger träff på studieresa och hemresa etc.\u003c/p\u003e\r\n\u003cp\u003e\u003cb\u003eFrassökning: \u003c/b\u003eAnvänd citattecken (\u0027\u0027 \u0027\u0027) för att söka på exakta fraser. En sökning på t.ex. \u0027\u0027svenska kungar\u0027\u0027 ger träffar då orden förekommer tillsammans och i angiven ordning.\u003c/p\u003e\r\n\u003cp\u003e\u003cb\u003eMaskering: \u003c/b\u003eAnvänd frågetecken (?) för att få träff på stavningsvarianter av ett ord. Varje frågetecken svarar mot ett tecken. En sökning på t.ex. G??le ger träff på både Gävle, Gefle och Gäfle.\u003c/p\u003e\r\n\u003cp\u003e\u003cb\u003eUteslut ett ord: \u003c/b\u003eAnvänd minustecken (-) för att utesluta ett sökord. En sökning på t.ex. Uppsala -slott ger träff på alla poster som innehåller ordet Uppsala men inte de poster som samtidigt innehåller ordet slott.\u003c/p\u003e\r\n\r\n"};
+            var sokhjalpIkon = "#sokhjalpIkon" + model.LabelFor;
+            var toggleElement = "#sokhjalp" + model.LabelFor;
+            var closeInfo = "#closeInfo" + model.LabelFor;
+    
+            $(sokhjalpIkon).on('click', function () {
+                if (model.Label == 'Söktips' || model.Label == 'Search tips')
+                {
+                    $(toggleElement).addClass('alert-margin');
+                }
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+
+            $(closeInfo).on('click', function (e) {
+                $(toggleElement).slideToggle(300);
+                return false;
+            });
+        });
+
+
+    });
+</script>
+                        </span>
+                    </div>
+                        <div id="advancedSearchController_" class="pull-left">
+                                <br /><a id="advancedShowMore" title="Visa fler s&#246;kalternativ" href="/bouppteckningar/vasterbottens-lan?AvanceradSok=True" class="">Fler s&#246;kalternativ&nbsp;<i class="icon-arrow-down"></i></a>
+                            <a id="advancedShowLess" title="Visa f&#228;rre s&#246;kalternativ" href="/bouppteckningar/vasterbottens-lan?AvanceradSok=False" class="hidden">Minimera&nbsp;<i class="icon-arrow-up"></i></a>
+                        </div>
+                </div>
+            </div> 
+
+
+            <input data-val="true" data-val-required="The Boolean field is required." id="AvanceradSok" name="AvanceradSok" type="hidden" value="False" />
+        </div>        
+</form>
+        </div>
+    </div>
+</section>
+        <nav id="tabheader" class="row-fluid hidden-print">
+            
+    
+        
+
+
+        </nav>
+        <div id="content">
+            <div id="body-content" class="content row-fluid">
+                
+
+
+    <div id="mainContentPad" class="bouppteckingar">
+    <div id="rubrik" class="content row-fluid">
+    </div>
+    <div id="information" class="content row-fluid">
+            <div id="info" class="span12 padding-left-medium">
+                <div class="span9">
+    <h2>Västerbottens län</h2>
+    <h3>Registernamn</h3>
+    <p>Bouppteckningsregister – Västerbottens län.</p>
+    <h3>Registret upprättat av</h3>
+    <p>Riksarkivet i Härnösand.</p>
+    <h3>Innehåll</h3>
+<table class="table table-bordered table-condensed" summary="Tabellen visar vilka härads- och rådhusrätter samt för vilken tidsperiod i Västerbottens län som det finns uppgifter om bouppteckningar"><caption style="font-size: 1em;margin-bottom: 7px;font-family: Open Sans, Helvetica, sans-serif">Innehåller uppgifter om bouppteckningar för härads- och rådhusrätter inom Västerbottens län.</caption>
+        <thead>
+            <tr>
+                <th scope="col">Geografisk omfattning</th>
+                <th scope="col">Tid</th>
+            </tr>
+  </thead>
+ <tbody>
+            <tr>
+                <td>Burträsks tingslags häradsrätt</td>
+                <td>1768–1910</td>
+            </tr>
+            <tr>
+                <td>Bygdeå tingslags häradsrätt</td>
+                <td>1737–1901</td>
+            </tr>
+            <tr>
+                <td>Degerfors tingslags häradsrätt</td>
+                <td>1817–1910</td>
+            </tr>
+            <tr>
+                <td>Lycksele tingslags häradsrätt</td>
+                <td>1769–1910</td>
+            </tr>
+            <tr>
+                <td>Lövånger tingslags häradsrätt</td>
+                <td>1726–1910</td>
+            </tr>
+            <tr>
+                <td>Malå och Norsjö tingslags häradsrätt</td>
+                <td>1877–1912</td>
+            </tr>
+            <tr>
+                <td>Nordmalings och Bjurholms tingslags häradsrätt</td>
+                <td>1752–1910</td>
+            </tr>
+            <tr>
+                <td>Nysätra tingslags häradsrätt</td>
+                <td>1834–1910</td>
+            </tr>
+            <tr>
+                <td>Skellefteå stad. Rådhusrätten och magistraten</td>
+                <td>1879–1910</td>
+            </tr>
+            <tr>
+                <td>Skellefteå tingslags häradsrätt</td>
+                <td>1763–1851, 1856–1912</td>
+            </tr>
+            <tr>
+                <td>Umeå stad. Rådhusrätten och magistraten</td>
+                <td>1706–1919</td>
+            </tr>
+            <tr>
+                <td>Umeå domsagas häradsrätt</td>
+                <td>1675–1910</td>
+            </tr>
+            <tr>
+                <td>Åsele tingslags häradsrätt</td>
+                <td>1750–1910</td>
+            </tr>
+        </tbody>
+    </table>
+<p style="margin-top:40px"><a title="Tillbaka" href="/bouppteckningar">Tillbaka</a></p>
+</div>
+            </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+<footer id="pnlFooter" class="footer hidden-print">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span4">
+                <p>
+                    <strong>Riksarkivet</strong><br />
+                    Box 7223<br />
+                    187 13 Täby<br />
+                </p>
+            </div>
+            <div class="span4">
+                    <p>
+                        <strong>Kontakt</strong><br />
+                        Tel 010-476 70 00&nbsp;<i class="icon-phone"></i><br />
+                        kundtjanst[snabel-a]riksarkivet.se<br />
+                        <a href="/kontakta-oss/">Kontaktformul&#228;r</a>
+                    </p>
+            </div>
+            <div class="span4">
+                <p class="lank-lista">
+                    <strong>Om söktjänsten</strong> <br />
+    <a href="/om-soktjansten/om-bildvisningen">Om bildvisningen</a><br />
+    <a href="/om-soktjansten/fragor-och-svar">Frågor och svar</a><br />
+    <a href="https://riksarkivet.se/om-riksarkivet/om-webbplatsen/kakor">Kakor (Cookies) <i class="icon-external-link"></i></a><br />
+    <a href="https://riksarkivet.se/om-riksarkivet/kontakta-oss/behandling-av-personuppgifter">Behandling av personuppgifter <i class="icon-external-link"></i></a><br />
+    <a href="/om-soktjansten/tillganglighet">Tillgänglighetsredogörelse </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<link href="/css/cookieconsent?v=GMQVUEYzuJ6fVMv5wldPgq2c-EVeDtnyoQIpK42QmUc1" rel="stylesheet"/>
+<script src="/bundles/cookieconsent?v=a9cJy4GKjmLGwXZdi5MU791EOM1kEhzqw-KTU6lVVrY1"></script>
+
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            $(document).on("click", "span.paramTag>img", function () {
+                $(this).parent().remove();
+            });
+
+            $(document).on("click", "input[type='reset'], button[type='reset']", function () {
+                $("span.paramTag").remove();
+            });
+            if ((navigator.userAgent.indexOf("Trident/4") > -1 || navigator.userAgent.indexOf("Trident/5") > -1 || navigator.userAgent.indexOf("Trident/6") > -1 || navigator.userAgent.indexOf("Trident/7") > -1) && navigator.userAgent.indexOf("MSIE 7.0") > -1) {
+                $("#compatibility_box").show();
+            }
+        });
+    </script>
+
+<script type="module" src="/Scripts/altcha.min.js"></script>
+<script>
+    var CaptchaHandler = (function ($) {
+        'use strict';
+
+        const CAPTCHA_API = 'https://altcha.riksarkivet.se/api/captcha';
+
+        function hasCaptchaCookie() {
+            return document.cookie.includes('altcha_verified=');
+        }
+
+        function getCaptchaStrings() {
+            return {
+                label: 'Jag &#228;r inte en robot',
+                verifying: 'Verifierar...',
+                verified: 'Verifierad',
+                error: 'Verifieringen misslyckades'
+            };
+        }
+
+        function createAltchaWidget() {
+            var altcha = document.createElement('altcha-widget');
+            altcha.setAttribute('challengeurl', CAPTCHA_API + '/challenge');
+            altcha.setAttribute('hidelogo', 'true');
+            altcha.setAttribute('strings', JSON.stringify(getCaptchaStrings()));
+            return altcha;
+        }
+
+        function verifyCaptcha(payload, onSuccess, onError) {
+            $.ajax({
+                url: CAPTCHA_API + '/verify',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ payload: payload }),
+                xhrFields: { withCredentials: true },
+                success: function (response) {
+                    if (response.success) {
+                        if (onSuccess) onSuccess();
+                    } else {
+                        if (onError) onError('Verifiering misslyckades. V&#228;nligen f&#246;rs&#246;k igen.');
+                    }
+                },
+                error: function (xhr, status, error) {
+                    if (onError) onError('Verifieringen misslyckades');
+                }
+            });
+        }
+
+        function showCaptchaModal($form) {
+            var $dialog = $('<dialog>', {
+                'class': 'captcha-dialog',
+                html: '<article>' +
+                    '<header>' +
+                    '<h2>Verifiera att du &#228;r m&#228;nniska</h2>' +
+                    '</header>' +
+                    '<section>' +
+                    '<p>V&#228;nligen kryssa f&#246;r rutan nedan f&#246;r att forts&#228;tta.</p>' +
+                    '<div class="captcha-container"></div>' +
+                    '</section>' +
+                    '</article>'
+            });
+
+            $('body').append($dialog);
+
+            var altcha = createAltchaWidget();
+            $dialog.find('.captcha-container').append(altcha);
+            $dialog[0].showModal();
+
+            altcha.addEventListener('statechange', function (ev) {
+                if (ev.detail.state === 'verified') {
+                    verifyCaptcha(ev.detail.payload,
+                        function() {
+                            $dialog[0].close();
+                            $dialog.remove();
+                            $form.submit();
+                        },
+                        function(errorMsg) {
+                            alert(errorMsg);
+                            $dialog[0].close();
+                            $dialog.remove();
+                        }
+                    );
+                }
+            });
+        }
+
+        function initFormInterceptor() {
+            $('form:not(.no-captcha)').on('submit', function (e) {
+                var $form = $(this);
+
+                if (hasCaptchaCookie()) {
+                    return true;
+                }
+
+                e.preventDefault();
+                showCaptchaModal($form);
+                return false;
+            });
+        }
+
+        function initStandaloneCaptcha(containerId, returnUrl) {
+            var container = document.getElementById(containerId);
+            if (!container) return;
+
+            var altcha = createAltchaWidget();
+            container.appendChild(altcha);
+
+            altcha.addEventListener('statechange', function (ev) {
+                if (ev.detail.state === 'verified') {
+                    verifyCaptcha(ev.detail.payload,
+                        function() {
+                            window.location.href = returnUrl || '/';
+                        },
+                        function(errorMsg) {
+                            alert(errorMsg);
+                        }
+                    );
+                }
+            });
+        }
+
+        return {
+            hasCaptchaCookie: hasCaptchaCookie,
+            showModal: showCaptchaModal,
+            initFormInterceptor: initFormInterceptor,
+            initStandalone: initStandaloneCaptcha
+        };
+
+    })(jQuery);
+
+    $(document).ready(function () {
+        CaptchaHandler.initFormInterceptor();
+    });
+</script>
+</body>
+</html>

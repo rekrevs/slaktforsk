@@ -8,6 +8,10 @@
 
 Sidan har rubriken `1sta Qvartalet N:o 5a`. Johan August Fredberg
 Fredrikssons födelsekolumner anger `49 5/7` och `Lundby, Elfsborgs län`.
+Hustrun Anna Lovisa Andersdotters rad anger `45 8/10` och Fågelvik i
+Värmlands län. Vigselkolumnen anger `74 12/12`. Dottern Augusta Fredrika
+står född 1875-09-20 i Alnö, Västernorrlands län. Dessa senare uppgifter
+sammanfaller med den positiva vigselposten i Skön E I/2.
 Under honom, hustrun Anna Lovisa Andersdotter och deras barn står en rad
 med relationsbeteckningen `Brorson` och namnet `Fredberg Johannes Ivar
 (Fredriksson)`. Födelsekolumnerna anger `80 24/6` och `Stockholm Kungsholm`.
@@ -28,4 +32,4 @@ senare marginalnoteringar har inte gjorts till egna påståenden i denna batch.
 ## Stödda påståenden
 
 A-1613–A-1615, A-1924–A-1926, A-1928–A-1929, A-2335, A-2338 och
-A-2341–A-2342.
+A-2341–A-2342, A-2345, A-2548 och A-2550.

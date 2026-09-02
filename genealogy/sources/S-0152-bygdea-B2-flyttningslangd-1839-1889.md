@@ -9,12 +9,14 @@
 - Tidsomfång: 1839–1889
 - Bildbatch: `C0034036`
 - Bildvisare: <https://sok.riksarkivet.se/bildvisning/C0034036_00071>
-- Läst: 2026-08-21 och 2026-08-23 i autentiserad Riksarkivet-session
+- Läst: 2026-08-21, 2026-08-23 och 2026-08-30
 
 ## Källkritik
 
 Samtida in- och utflyttningslängd. Negativa resultat är avgränsade till de
 fullständigt lästa sidorna för inflyttade 1845–1850 respektive 1860 och
-innebär inte att personen inte flyttade, att interna flyttar registrerades
-eller att en attest aldrig upprättades. År 1845 omfattar posterna 1–63 över
-två bilduppslag.
+utflyttade 1870. De innebär inte att personen inte flyttade, att interna
+flyttar registrerades eller att en attest aldrig upprättades. År 1845
+omfattar posterna 1–63 över två bilduppslag. År 1870 omfattar den lästa
+utflyttningsföljden posterna 1–52 på sidorna 67–68; den territoriella
+överföringen av Lugnet till Burträsk behandlas inte som en vanlig flytt.

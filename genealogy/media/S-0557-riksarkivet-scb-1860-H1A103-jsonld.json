@@ -1,0 +1,133 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:Record"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "rico:hasContentOfType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Volume"
+      },
+      "schema:identifier": "SE/RA/420401/03/H 1 A/103",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#referenceCode"
+      },
+      "rico:hasInstantiation": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#instantiation_physical"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#instantiation_01"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#instantiation_02"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#instantiation_03"
+        }
+      ],
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/jqL2J8cRrH6d0G02H087k3"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#isPartOf"
+      },
+      "skos:note": "Västerbottens län: 1-12 Nordmaling-Burträsk.",
+      "rico:descriptiveNote": "Västerbottens län: 1-12 Nordmaling-Burträsk.",
+      "dct:coverage": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#date_01"
+      },
+      "rico:isAssociatedWithDate": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#date_01"
+      },
+      "schema:image": [
+        {
+          "@id": "https://lbiiif.riksarkivet.se/arkis!A0056108/manifest"
+        },
+        {
+          "@id": "https://lbiiif.riksarkivet.se/arkis!C0301953/manifest"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/RA/420401/03/H 1 A/103"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#instantiation_01",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#instantiation_02",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Image"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#instantiation_03",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Microfilm"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/jqL2J8cRrH6d0G02H087k3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/tNSW3OgRrH6d0G02H087k3#date_01",
+      "@type": [
+        "dct:PeriodOfTime",
+        "rico:DateRange"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/DateType/Timespan"
+      },
+      "schema:startDate": "1860",
+      "rico:textualValue": "1860"
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "dct": "http://purl.org/dc/terms/"
+  }
+}
