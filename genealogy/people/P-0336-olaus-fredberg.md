@@ -272,6 +272,17 @@ OCR-frasnoll. Stadsarkivets tomtregisterfråga på Kungsholmsgatan gav tolv
 historiska tomt-/adressrader men ingen med gatunummer 15; registret bygger på
 1729/1810 års tomtnummer och kan inte belägga Olaus fastighet 1876.
 
+Riksarkivets MCP ger nu en separat täckningskontroll. DDS Födelse gav noll
+för Olaus/Olof i Stora Lundby 1852 och för den originallästa brodern Johan
+August 1849; DDS Vigsel och Döda missade också Olaus säkra händelser i
+Hemsjö 1877 och Sollentuna 1925. Länskontroller gav noll men nationella
+tjänstekontroller var positiva. De två källburna datumen gav ingen
+nationell kandidat förenlig med Älvsborg–Fågelvik–Alnö-kedjan.
+Metadatasökningen missade både fullnamn och fem redan katalogbelagda
+referenskoder trots positiva breda kontroller. C-0812 är därför bara ett
+DDS-/metadatatäckningsresultat; det upphäver varken original- eller
+katalogbelägg och lämnar födelsedatum och föräldrar olösta.
+
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
@@ -422,6 +433,11 @@ historiska tomt-/adressrader men ingen med gatunummer 15; registret bygger på
 
 | A-3094 | Riksarkivets två IIIF-manifest för SCB:s församlingsboksutdrag `SE/RA/420401/10/H 1 AA/13` placerar Sollentuna 1920 på `A0056304_00294`–`_00339`, sida 1–90, före Lovö på `_00340`; den alternativa reproduktionen börjar Sollentuna på `C0301345_00589` och Lovö på `_00681`. | TRANSCRIBED | mycket hög | [C-0809](../citations/C-0809-scb1920-sollentuna-olaus-kandidatscreening.md) | Exakt arkiv-, år-, reproduktions-, församlings- och bildavgränsning; inte personinnehåll. |
 | A-3095 | Alla 46 fulloriginal i Sollentunas SCB-utdrag 1920 screenades i två Apple Vision-pass; fem Olaus-, Fredberg- eller yrkesliknande nomineringar lästes i original och avvisades utan säker Olaus Fredberg-rad. | TRANSCRIBED | medel | [C-0809](../citations/C-0809-scb1920-sollentuna-olaus-kandidatscreening.md) | Maskinassisterad kandidatscreening, inte visuell namn-för-namn-läsning. Handskrifts-OCR kan missa målraden; utfallet är inte person-, vistelse-, församlings-, årgångs- eller helreproduktionsnoll. |
+| A-3098 | Riksarkivets MCP gav noll i DDS för Olaus/Olof i Stora Lundby 1852, den originallästa brodern Johan August 1849 samt Olaus säkra vigsel och död, medan nationella kontroller gav 25 födelse-, 238 vigsel- och fyra dödposter. Metadatasökningen gav noll för fullnamn och fem redan katalogbelagda referenskoder trots positiva breda kontroller. | TRANSCRIBED | hög | [C-0812](../citations/C-0812-riksarkivet-mcp-dds-metadata-olaus-tackning.md) | Sök- och täckningsresultat, inte person-, födelse-, vigsel-, döds-, vistelse-, föräldra-, katalog- eller volymnoll. Ingen exakt-datumkandidat var förenlig med den säkra Älvsborg–Fågelvik–Alnö-kedjan; tidigare belägg och konflikter står kvar. |
+| A-3106 | Rosenberg 46452 beskriver Rökland som en by på Alnöns västra strand med Bergviks lastningsplats samt Rocklands ångsåg och lastningsplats; 44642 beskriver Rockland som ångsåg och lastningsplats på samma kust. | CORROBORATED | hög | [C-0815](../citations/C-0815-riksarkivet-mcp-rosenberg-olaus-fredberg.md), [C-0601](../citations/C-0601-alno-B2-HII1-olaus-fredriksson-1873.md), [C-0643](../citations/C-0643-alno-AI8-sida-167-olaus-fredriksson.md) | Personkällorna placerar arbetaren Olaus i Rökland; lexikonet ger miljökontext men belägger inte arbetsgivare eller såg-/lastplatsarbete. |
+| A-3107 | Rosenberg 59192 beskriver Tureberg som hållplats på Norra stambanan mellan Järva och Rotebro, med Edsviken och ångbåtsstation öster om järnvägen samt egendomen Tureberg med kvarn väster om den. | CORROBORATED | hög | [C-0815](../citations/C-0815-riksarkivet-mcp-rosenberg-olaus-fredberg.md), [C-0620](../citations/C-0620-dagens-nyheter-olaus-fredberg-dodsannons-1925.md), [C-0475](../citations/C-0475-sollentuna-FI7-olaus-fredberg-dod-1925.md) | Dödsannonsen och dödboken bär person-/dödskedjan; lexikonet ger miljökontext men inget stations- eller kvarnarbete i Tureberg. |
+| A-3108 | Rosenberg 34922 hänvisar Lundby i Älvsborgs län och Vättle härad till Stora Lundby. | TRANSCRIBED | hög | [C-0815](../citations/C-0815-riksarkivet-mcp-rosenberg-olaus-fredberg.md), [C-0635](../citations/C-0635-ostra-fagelvik-B5-olaus-inflyttad-1873.md) | Endast geografisk arkivrouting i linje med den starkaste församlingshypotesen; ingen födelseidentitet eller förälder fastställs. |
+| A-3109 | Exakta Rosenbergfrågor gav ingen målpost för Björknäs i Östra Fågelvik eller Kungsholmen i Kungsholms församling. | TRANSCRIBED | hög | [C-0815](../citations/C-0815-riksarkivet-mcp-rosenberg-olaus-fredberg.md) | Lexikon-, stavnings-, församlingsfilter- och frågefältsbundna noll, inte ort-, person- eller vistelsenoll. |
 
 ## Relationer
 
@@ -441,6 +457,21 @@ historiska tomt-/adressrader men ingen med gatunummer 15; registret bygger på
 | [P-0364 Eric Pettersson](P-0364-eric-pettersson-brattas.md) | tidigare farkandidat | CONFLICT | C-0367, C-0368, C-0382, C-0383 |
 | [P-0365 Anna Stina Ericsdotter](P-0365-anna-stina-ericsdotter-brattas.md) | tidigare morskandidat | CONFLICT | C-0367, C-0368, C-0382, C-0383 |
 | [P-0411 Johan August Fredberg Fredriksson](P-0411-johan-august-fredberg-fredriksson.md) | bror; hel- eller halvbror olöst | CORROBORATED | C-0322, C-0323, C-0326, C-0474 |
+
+## Historisk ortskontext 2026-09-03
+
+- C-0815 sätter Olaus första säkra arbetsort i en västkustmiljö på Alnön
+  med ångsåg och lastningsplatser och hans sista pressbelagda ort vid en
+  hållplats på Norra stambanan. Det ger ett försiktigt miljöspann kring
+  den separat belagda utvecklingen från arbetare till järnvägsman och
+  pensionerad bangårdsmästare.
+- Ortslexikonet namnger inte Olaus. Det får inte bli belägg för arbete vid
+  Rocklands såg/lastningsplats eller Turebergs station/kvarn. Lundby-
+  hänvisningen är bara routing och lämnar födelsedatum, egen födelsenotis
+  och föräldrar olösta.
+- Björknäs- och Kungsholmsfrågorna gav inga målposter. Återta dem endast
+  med ny stavnings-, kart-, jordregister- eller arkivnyckel; nollen är inte
+  vistelsenoll.
 
 ## Forskningsfrågor
 

@@ -1,27 +1,55 @@
 # North star
 
-Bygg och underhåll ett beständigt, källstyrt släktarkiv för Sverker Adam
-Janson och hans hustru som kartlägger deras direkta anor och dokumenterade
-släktnät så långt relevanta, lagligen åtkomliga källor på internet medger.
+## Deklarativt mål
 
-Forskningen ska arbeta breddförst inom varje antavla och balanserat mellan
-makarnas släkter, så att svåra grenar eller den ena familjen inte lämnas efter
-för att andra är lättare. Alla namngivna släktingar och relationsbärande
-personer i relevanta poster och hushåll ska bevaras opportunistiskt, utan att
-orelaterade personer på samma sida dras in.
+Projektets mål är att skapa och underhålla en så fullständig, balanserad och
+källförankrad släkthistoria som det bevarade och lagligen åtkomliga
+arkivmaterialet på internet medger för Adam Jan Gunnar och Axel Ivar Malte,
+på både Sverker Adam Jansons och Kristina Elisabeth Petronella Hööks sida.
+
+Samtliga direkta anlinjer ska föras bakåt generation för generation,
+breddförst och balanserat mellan föräldrarnas släkter, till varje linjes
+dokumenterade arkivfront. Arkivfronten är den tidigaste generation där
+föräldrarelationen antingen kan beläggas eller där källornas bevarande,
+digitalisering, åtkomst eller innehåll sätter en exakt redovisad gräns. Målet
+har inget fast maximalt antal generationer. Generationerna räknas från Adam
+och Axel; projektets gemensamma djup är den djupaste generation vars då
+nåbara kohort har behandlats i sin helhet, medan varje grens individuella
+arkivfront redovisas separat.
+
+För varje identifierad person ska arkivet innehålla en så rik och
+sammanhängande livsbild som källorna medger. Den omfattar, när det är sakligt
+relevant, identitet och namnformer, ursprung och relationer, födelse och död,
+boställen och flyttningar, äktenskap och barn, arbete och samhällsställning,
+egendom och ekonomi, militär-, sjömans-, rättslig, social och annan erfarenhet
+samt bevarade bilder, texter, underskrifter, vittnen och sociala nätverk.
+
+## Tolkning och kvalitetskrav
+
+Fullständighet betyder att en seriös och källkritisk ansträngning har gjorts i
+de källfamiljer som är tillämpliga på personens liv. Det betyder inte att alla
+personer ska ha lika många uppgifter eller källor, att varje obetydligt
+omnämnande måste återfinnas eller att frånvaro får göras till fakta.
 
 Varje relation och biografisk uppgift ska kunna spåras till exakt källa,
 källställe och evidensbedömning. Relevanta originalbilder, avskrifter,
 konflikter, nollresultat och kontrollsummor ska bevaras reproducerbart. En gren
-får kallas online-utredd först när relevanta källtyper, kataloger och
-identifierade nätleverantörer har prövats — inte bara när den första
+får kallas online-utredd först när de relevanta källtyperna, katalogerna och
+identifierade nätleverantörerna har prövats — inte bara när den första
 arkivtjänsten tar slut.
 
-Åtkomsthinder, odigitaliserade volymer och olösta identiteter ska anges exakt
-tillsammans med vad som krävs för att återuppta grenen. Arkivet ska därför
-aldrig betraktas som slutgiltigt avslutat, utan som en verifierad
+Varje arkivfront ska skilja mellan förstört eller saknat material,
+odigitaliserat material, åtkomsthinder, uttömda relevanta källor och olöst
+identitet samt ange vad som krävs för att grenen ska kunna återupptas. Arkivet
+ska därför aldrig betraktas som slutgiltigt avslutat, utan som en verifierad
 forskningsfront som kan flyttas när nya källor digitaliseras eller blir
-åtkomliga. Uppgifter om levande personer minimeras.
+åtkomliga.
+
+Alla namngivna släktingar och relationsbärande personer i relevanta poster och
+hushåll ska bevaras opportunistiskt när de bidrar till identifikation,
+sammanhang eller en sannare livsbild. Sidogrenar får inte tränga undan den
+balanserade framdriften i de direkta anlinjerna, och orelaterade personer på
+samma sida ska inte dras in. Uppgifter om levande personer minimeras.
 
 Presenterbara familjeutgåvor ska växa en jämn generation i taget. Inför varje
 ny utgåva prioriteras hela den kommande utgåvekohorten breddförst framför

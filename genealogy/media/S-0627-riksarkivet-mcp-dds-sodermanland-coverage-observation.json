@@ -1,0 +1,134 @@
+{
+  "schema": "slaktforsk-riksarkivet-mcp-observation/v1",
+  "checked_at": "2026-09-03T08:10:00+02:00",
+  "source_id": "S-0627",
+  "citation_id": "C-0811",
+  "provider": "Riksarkivet",
+  "access_path": "globally configured Riksarkivet MCP server",
+  "scope": "P-0133 Erik Karlsson/Grill: DDS index coverage for six exact, already source-proven family events in Bettna, Ardala, Forssa, Flen and Helgesta, 1851-1935",
+  "research_context": "T-0012 P-0133: use Riksarkivet MCP DDS to test exact known life events for Erik Karlsson/Grill and his spouses, assess local index coverage, and look for additional source pointers without replacing original church-book evidence.",
+  "tools": [
+    "dds:search_fodelse",
+    "dds:search_doda",
+    "dds:search_vigsel"
+  ],
+  "known_positive_target_controls": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Erik",
+      "parish": "Bettna",
+      "date_from": "1851-01-30",
+      "date_to": "1851-01-30",
+      "known_original_event": "Erik born in Bettna on 1851-01-30",
+      "result": "No Fodelse results found for 'Erik'."
+    },
+    {
+      "dataset": "DDS Doda",
+      "keyword": "Erik Karlsson",
+      "parish": "Helgesta",
+      "date_from": "1935-03-20",
+      "date_to": "1935-03-20",
+      "known_original_event": "Erik Karlsson died in Helgesta on 1935-03-20",
+      "result": "No Doda results found for 'Erik Karlsson'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Erik Karlsson",
+      "parish": "Flen",
+      "date_from": "1895-01-01",
+      "date_to": "1895-12-31",
+      "known_original_event": "Erik Karlsson married Matilda Charlotta in Flen on 1895-12-28",
+      "result": "No Vigsel results found for 'Erik Karlsson'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Erik Karlsson",
+      "parish": "Ardala",
+      "date_from": "1876-01-01",
+      "date_to": "1876-12-31",
+      "known_original_event": "Erik Karlsson married Anna Christina Larsdotter in Ardala on 1876-09-17",
+      "result": "No Vigsel results found for 'Erik Karlsson'."
+    },
+    {
+      "dataset": "DDS Doda",
+      "keyword": "Anna Christina Larsdotter",
+      "parish": "Forssa",
+      "date_from": "1887-01-01",
+      "date_to": "1887-12-31",
+      "known_original_event": "Anna Christina Larsdotter died in Forssa on 1887-10-27",
+      "result": "No Doda results found for 'Anna Christina Larsdotter'."
+    },
+    {
+      "dataset": "DDS Doda",
+      "keyword": "Matilda Charlotta",
+      "parish": "Flen",
+      "date_from": "1920-01-01",
+      "date_to": "1920-12-31",
+      "known_original_event": "Matilda Charlotta died at Flens lanslasarett on 1920-01-31",
+      "result": "No Doda results found for 'Matilda Charlotta'."
+    }
+  ],
+  "county_controls": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Anna",
+      "county": "Sodermanland",
+      "date_from": "1851-01-01",
+      "date_to": "1851-12-31",
+      "result": "No Fodelse results found for 'Anna'."
+    },
+    {
+      "dataset": "DDS Doda",
+      "keyword": "Anna",
+      "county": "Sodermanland",
+      "date_from": "1887-01-01",
+      "date_to": "1887-12-31",
+      "result": "No Doda results found for 'Anna'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Anders",
+      "county": "Sodermanland",
+      "date_from": "1895-01-01",
+      "date_to": "1895-12-31",
+      "result": "No Vigsel results found for 'Anders'."
+    }
+  ],
+  "service_controls": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Erik",
+      "date_from": "1851-01-01",
+      "date_to": "1851-12-31",
+      "result_count": 156,
+      "page_size": 25,
+      "first_visible_record": "Fodelse 529471, Erik Olof, 1851-09-26, Fors, SE/ÖLA/11048"
+    },
+    {
+      "dataset": "DDS Doda",
+      "keyword": "Erik",
+      "date_from": "1935-01-01",
+      "date_to": "1935-12-31",
+      "result_count": 1,
+      "page_size": 25,
+      "visible_record": "Doda 1075978, Matilda Fogelstrom f. Olsson, 1935-03-03, Viken, SE/LLA/13451; Erik occurs in the note as physician Erik Nystrom"
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Anders",
+      "date_from": "1895-01-01",
+      "date_to": "1895-12-31",
+      "result_count": 32,
+      "page_size": 25,
+      "first_visible_record": "Vigsel 34914, 1895-06-16, Gudmundra, SE/HLA/1010049"
+    }
+  ],
+  "interpretation": "The DDS endpoints were operational, but six exact known-positive target-family events and all three county-wide Sodermanland controls returned zero. The results therefore document a DDS coverage gap for the target area and periods, not absence from original sources and not a person, event, residence, relationship or life-course null.",
+  "limitations": [
+    "DDS is an index dataset and does not replace original church-book images.",
+    "The MCP response did not expose a parish-by-parish coverage manifest.",
+    "The death full-text service control matched Erik in a note rather than as the deceased person's name, demonstrating that keyword semantics are broader than person-name matching.",
+    "No original page was opened through DDS because none of the target or county controls returned a target-area record.",
+    "Previously read original evidence and conflicts remain unchanged."
+  ]
+}

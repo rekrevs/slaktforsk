@@ -98,6 +98,80 @@ saknar hans förväntade post på datumet. De återstående livsberikningsvägar
 | P-0338 Henrik Henriksson | 4 | `VIDAREFÖRD — FÖRÄLDRAR LÖSTA; PATERNELL GENERATION 1790-TALET ÅTER ÖPPEN` | C-0623 läser Helge Nybergs familj 99: Henrik Henriksson d.y. och Brita Flinkberg listas uttryckligen med barnet Henrik 1829 samt Jonas 1835 och Cecilia 1836. De två senare är redan kyrkoboks-/Familiaidentifierade dopvittnen åt Henriks dotter, så P-0451–P-0452 är korroborerade föräldrar och P-0463–P-0464 syskon. C-0624 läser Ljustorp A I/3 s. 43 i original och korroborerar paret, Hindrics 1796-11-02 och döttrarna Anna Greta 1819, Cajsa Brita 1824 och Maria Sofia 1826. C-0678 kontrollerar däremot Nybergs vidare familj 98 mot kompletta originalföljder: barnåren 1796/1801/1804, vigseldatumet 1819-10-31, dödsåret 1833 och de bevarade Laxsjönssidorna bär inte konstruktionen; 1797 är defekt. P-0461–P-0462 är därför konfliktspår, inte verifierade föräldrar, och P-0451:s äldre generation är åter öppen. C-0625 bekräftar novemberflytten 1850 Lagfors bruk → Lagforsby; C-0626:s senare sidnoll motsäger inte familj 99. Egen födelsenotis för P-0338 saknas fortfarande genom Lagfors källucka. C-0704 läser hela det selektiva bouppteckningsregistret Ber–Per utan Henrik och visar att huvudvolymerna börjar 1888, fyra år efter hans död; återta den vägen endast med en ny fragment-/protokollsnyckel. Samma källa öppnar brodern Jonas Höglins `P. 2 nr 7` år 1874 bara som sidolead. Återstarta P-0451 endast från en positiv originalrad som uttryckligen binder honom till föräldrar; upprepa inte C-0678:s kompletta årsföljder utan ny källnyckel |
 | P-0339 Margareta Charlotta Sjödin/Sjölin/Henriksson | 4 | `VIDAREFÖRD — FADER OCH BARNHUSKEDJA ORIGINALBELAGDA; MODER OCH DÖDBOKSKONFLIKT ÖPPNA` | C-0606 förenar Ljustorp A I/4 s. 86 med Allmänna barnhusets rulla 2532: barnhusflickan född 1825-08-13 var dotter till fabriksarbetaren P-0454 James Schölin och uppfostrades hos fosterbonden P-0455 Nils Larsson i Löfberg. Modern saknas; E 5-intagningshandlingarna kräver beställning och läsning på plats med nr 2532/`N:o 90`. C-0607 läser A I/10 s. 264:s dödskolumn som 1901-04-19, i verklig konflikt med C-0449:s fulla F/2-noll 1901–1902. C-0652 ger ett strikt avgränsat noll i det uttryckligen ofullständiga bouppteckningsregistret: båda förnamnsformerna och Henriksson/Sjölin/Sjödin saknas i Ljustorp 1901, medan den namnfria frågan ger tolv poster och Märta Kristina Vigg i Lagfors positivt routas till F II/5 nr 53. Exakt årsvolym `SE/HLA/1040061/F/F II/5` 1901–1905 är läsesalsbunden i Härnösand och kan innehålla oregistrerade akter. Nästa säkra vägar är E 5 för modern samt läsning av F II/5:s 1901-avsnitt för livsslutet; upprepa inte samma registerfrågor utan ny digitalisering eller namn-/ortsnyckel. Den orörda 1910-CAPTCHA:n C-0598 är sekundär åtkomsthistorik |
 
+Batch 228 återtar P-0133 genom TORA i Riksarkivets MCP. Ofiltrerade
+namnfrågor ger koordinat- och kartrutter för Glippsta och Malstanäs samt en
+källspecifik Väsby-kandidat. Socken-/länsfiltren missade kända positiva
+kontroller, och Bergatorp-/Brosätterträffar i andra församlingar förenades
+inte med Eriks Flenbelägg. Direkt IIIF bevarade båda `info.json` och
+Glippstas 1634-karta. Malstanäs 1685-bild gav publik `401`; inloggad Chrome
+visade rätt bild men gav ingen reproducerbar lokal binär. Kartorna är endast
+ortskontext, C-0817/S-0633. Nästa breddrotation är P-0336.
+
+Batch 227 återtar P-0051 genom Rosenbergs geografiska lexikon i
+Riksarkivets MCP. Jomark beskrivs som en by i Bygdeå nära Robertsfors
+bruk, vars separata post konkretiserar en bred industriell miljö vid
+Rickleån. Denna närhet belägger inget bruksarbete eller
+egendomsförhållande för Barbro eller familjen. Den historiska stavningen
+`Öfverklinten` ger en post om byn vid Rickleån, medan moderna
+`Överklinten` och Lugnet gav noll. Posten ger endast miljö åt den tidigare
+avgränsade Lundberg/Olaus-ledtråden och skapar ingen vistelse eller
+föräldrarelation, C-0816/S-0632. Nästa breddrotation är P-0133.
+
+Batch 226 återtar P-0336 genom Rosenbergs geografiska lexikon i
+Riksarkivets MCP. Rökland/Rockland beskrivs som by-, ångsågs- och
+lastplatsmiljö på västra Alnön; Tureberg som hållplats på Norra stambanan
+mellan Järva och Rotebro. Lundby i Älvsborg/Vättle hänvisas till Stora
+Lundby. Personens vistelser, järnvägsliv och död bärs av separata
+personkällor: lexikonet ger bara miljö och fastställer varken
+såg-/lastplatsarbete, Turebergsarbete, födelseidentitet eller föräldrar.
+Björknäs- och Kungsholmsfrågorna är lexikonbundna noll, C-0815/S-0631.
+Nästa breddrotation är P-0051.
+
+Batch 225 återtar P-0133 genom Rosenbergs geografiska lexikon i
+Riksarkivets MCP. Tre exakta poster ger historisk miljökontext åt redan
+originalbelagda bostadsled: Glippsta som by nära Oxelösunds järnväg,
+Malstanäs som herrgård vid Uren med kvarn och såg samt Väsby som gård vid
+Båven nära Västra stambanan och under Mälby i Helgesta. Lexikonet belägger
+inte personen och verksamhetsflaggorna blir inte yrken. Exakta frågor på
+mindre bostadsnamn och kombinerade person-/ortmetadata gav endast
+frågefältsbundna noll, inte ort-, person- eller vistelsenoll, C-0814/S-0630.
+Nästa breddrotation är P-0336.
+
+Batch 224 återtar P-0051 genom en ny Riksarkivet-MCP-källfamilj:
+sjömanshusens Matrikel och Liggare. Piteåfiltrerad Matrikel gav ingen
+användbar synlig täckning. Liggare gav regionala kontrollposter men ingen
+huvudperson med Olaus/Olof Pehrsson/Persson i de fyra fulla målfrågorna;
+fulltexten kombinerar flera fält. Två närträffar 1843, `Olof Jung` och `Ol.
+Jung`, anges födda/hemma i Piteå och kopplas inte till kandidaten.
+Härnösands D I a/1 och D I b/1 är analoga/mikrokort. Inget person-,
+vistelse-, Piteå- eller sjömansnoll, C-0813/S-0629. Nästa breddrotation är
+P-0133.
+
+Batch 223 återtar P-0336 genom Riksarkivets MCP. DDS missade Olaus/Olof i
+Stora Lundby 1852, den originallästa brodern Johan August 1849 och Olaus
+säkra vigsel/död; länskontroller gav också noll medan nationella kontroller
+gav 25 födelse-, 238 vigsel- och fyra dödposter. De två källburna datumen
+gav ingen kompatibel kandidat. Metadatasökningen missade fullnamn och fem
+redan katalogbelagda referenskoder trots positiva breda kontroller. Utfallet
+är sök-/täckningshinder, inte person-, händelse-, föräldra-, katalog- eller
+volymnoll, C-0812/S-0628. Nästa breddrotation är P-0051.
+
+Batch 222 återtar P-0133 genom Riksarkivets MCP och DDS-indexen. Sex
+exakta, redan originallästa händelser i Bettna, Årdala, Forssa, Flen och
+Helgesta samt tre länsvida Södermanlandskontroller gav noll, medan
+nationella tjänstekontroller gav 156 födelseposter, 32 vigselposter och en
+dödfulltextträff. Utfallet är ett DDS-täckningshinder och ändrar inga
+originalbelägg eller konflikter, C-0811/S-0627. Nästa breddrotation är
+P-0336.
+
+Batch 221 återtar P-0051 genom Riksarkivets MCP och DDS-indexen.
+Målfrågorna för Barbro/Cajsa i Bygdeå/Lövånger 1830 och Olof Pehrsson–Maja
+Stina Pehrsdotter i Bygdeå 1810 gav noll. Kända positiva lokala kontroller,
+vanliga namn och länsvida Västerbottenkontroller gav också noll, medan
+nationella tjänstekontroller gav 1 151 födelseposter och 130 vigselposter.
+Utfallet är ett DDS-täckningshinder, inte personnoll, C-0810/S-0626. Nästa
+breddrotation är P-0133.
+
 Batch 219 återtar P-0133 genom SCB:s tidigare oprövade
 församlingsboksutdrag för Helgesta 1920. IIIF-manifestets ranges och två
 visuellt lästa gränsoriginal avgränsar Helgesta sida 1–31 till

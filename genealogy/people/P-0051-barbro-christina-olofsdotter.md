@@ -130,6 +130,14 @@ Anders Alfred Anderssons mor och Ebba Alfrida Anderssons farmor. Namnformen
 | A-3089 | Bygdeå kyrkoarkiv K I/2, katalogdaterad 1835–1844, är exakt routad till reproduktion `A0017300` med 393 IIIF-bilder utan interna strukturer. | TRANSCRIBED | hög | [C-0807](../citations/C-0807-bygdea-KI2-fattigbarn-kandidatscreening.md) | Records-API och OAI gav WAF/HTTP 403. Inloggad katalog öppnade volymen utan ny utmaning och publik IIIF gav manifest och original; ingen sessionsdata eller beställning rördes. |
 | A-3090 | K I/2:s visuellt lästa fattigbarnsförteckningar för 1838–1843 och 1845–1847 saknar en uttrycklig Barbro/Barbru Cajsa Olofsdotter eller en entydig rad med målprofilen 1830-02-24. | NEGATIVE | hög | [C-0807](../citations/C-0807-bygdea-KI2-fattigbarn-kandidatscreening.md) | Exakt list-, namnkolumns- och profilbundet noll. Någon exponerad lista för 1844 identifierades inte, och indirekt namngivna barn utesluts inte; inget person-, vistelse-, understöds-, föräldra- eller helvolymsnoll. |
 | A-3091 | En Apple Vision-OCR-screen av K I/2:s 393 navigationsbilder nominerade fyra ytterligare Cajsa-/Christina-liknande sidor, men maximaloriginalen kombinerar inte Barbros namn, födelseprofil och identitet. | NEGATIVE | medel | [C-0807](../citations/C-0807-bygdea-KI2-fattigbarn-kandidatscreening.md) | OCR användes endast för navigation och kan missa handskrift. De fyra konkreta nomineringarna är avvisade, men resultatet är inte en visuell fullvolymsläsning eller ett person-/understödsnoll. |
+| A-3096 | Riksarkivets MCP-verktyg för DDS Födelse och DDS Vigsel gav noll för målfrågorna i Bygdeå/Lövånger men också för kända positiva lokala kontroller och länsvida Västerbottenkontroller, medan nationella kontrollfrågor gav 1 151 respektive 130 poster. | TRANSCRIBED | hög | [C-0810](../citations/C-0810-riksarkivet-mcp-dds-vasterbotten-tackning.md) | Täckningsresultat för DDS-indexet, inte ett person-, födelse-, vigsel-, vistelse- eller föräldranoll. Tidigare originallästa belägg och konflikter ändras inte. |
+| A-3099 | Riksarkivets MCP Matrikel gav noll för Piteåfiltrerade frågor på Olaus/Olof Pehrsson/Persson, målprofilens datum och orter samt kontrollnamnet Anders, medan den nationella kontrollen `1784` gav sju poster. | TRANSCRIBED | hög | [C-0813](../citations/C-0813-riksarkivet-mcp-sjomanshus-pitea-olaus.md) | Synligt Matrikel-täckningsresultat, inte person-, Piteå- eller sjömansnoll. |
+| A-3100 | Piteåfiltrerad Liggare gav 11, 47, 15 och 52 fulltextposter för de fyra Olaus/Olof Pehrsson/Persson-frågorna, men ingen huvudperson bar en målform; regionala kontroller gav 15 Bygdeåposter och 40 `Anders`-poster. | TRANSCRIBED | hög | [C-0813](../citations/C-0813-riksarkivet-mcp-sjomanshus-pitea-olaus.md) | Alla `Name`-fält i de fyra fulla träffmängderna kontrollerades. Sökorden kan komma från fartyg, redare, befäl, seglationsdata och andra personer; inget komplett register- eller personnoll. |
+| A-3101 | Liggare 441994–441995 beskriver `Olof Jung`/`Ol. Jung`, född och hemmahörande i Piteå på två resor 1843; originalvägarna Härnösands sjömanshus D I a/1 och D I b/1 är odigitaliserade/otranskriberade och tillgängliga på mikrokort. | TRANSCRIBED | hög | [C-0813](../citations/C-0813-riksarkivet-mcp-sjomanshus-pitea-olaus.md) | Registerraderna är endast närträffar: de kopplas inte till Olaus Pehrsson i Överklinten och slås inte ihop med varandra. Ingen originalsida lästes och ingen beställning skapades. |
+| A-3110 | Rosenberg 26909 beskriver Jomark som en by i Bygdeå socken och tingslag, nära Robertsfors bruk. | CORROBORATED | hög | [C-0816](../citations/C-0816-riksarkivet-mcp-rosenberg-barbro-olofsdotter.md), [C-0200](../citations/C-0200-bygdea-AI12b-barbro-cajsa-jomark-1846-1852.md), [C-0193](../citations/C-0193-bygdea-AI13b-barbro-och-paret-jomark-1860.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md), [C-0569](../citations/C-0569-bygdea-F2-barbro-kristina-olofsdotter-dod-1913.md) | Personkällorna bär Barbros långa Jomarkkedja; lexikonet tillför endast historisk ortsmiljö. |
+| A-3111 | Rosenberg 44631 beskriver Robertsfors som en bruksegendom vid Rickleån med järnbruk, mekanisk verkstad och bland annat kvarn-, såg-, skeppsvarvs- och lastplatsanknuten verksamhet. | TRANSCRIBED | hög | [C-0816](../citations/C-0816-riksarkivet-mcp-rosenberg-barbro-olofsdotter.md) | Jomarks närhet till bruket belägger inte att Barbro eller hennes familj arbetade där eller tillhörde egendomen; deras hemmansägarbeteckningar kommer från personkällor. |
+| A-3112 | Rosenberg 66344 beskriver `Öfverklinten` som en by i Bygdeå vid Rickleån och anger en kvarn. | TRANSCRIBED | hög | [C-0816](../citations/C-0816-riksarkivet-mcp-rosenberg-barbro-olofsdotter.md), [C-0707](../citations/C-0707-bygdea-lundberg-lugnet-overklinten.md), [C-0716](../citations/C-0716-bygdea-olaus-fodelse-och-pitea-marginal.md) | Endast miljökontext för den avgränsade Lundberg/Olaus-ledtråden. Posten placerar inte Barbro i Överklinten och bevisar inte Olaus som hennes far. |
+| A-3113 | Exakta Rosenbergfrågor gav noll för Lugnet i Bygdeå och för den moderna stavningen `Överklinten`, medan den historiska stavningen `Öfverklinten` gav en målpost under samma filter. | TRANSCRIBED | hög | [C-0816](../citations/C-0816-riksarkivet-mcp-rosenberg-barbro-olofsdotter.md) | Visar stavnings- och lexikonkänslighet; inget ort-, person-, vistelse-, släktskaps- eller föräldranoll skapas. |
 
 ## Relationer
 
@@ -138,6 +146,21 @@ Barn: [P-0057 Margareta Euphrosyne](P-0057-margareta-euphrosyne-andersdotter.md)
 [P-0052 Catharina Johanna](P-0052-catharina-johanna-andersdotter.md),
 [P-0048 Anders Alfred](P-0048-anders-alfred-andersson.md) och
 [P-0053 Anna Albertina](P-0053-anna-albertina-andersdotter.md).
+
+## Historisk ortskontext 2026-09-03
+
+- C-0816 beskriver Jomark som by nära Robertsfors bruk och gör därmed den
+  separat personbelagda livsmiljön 1846–1913 konkret. Robertsforspostens
+  järn-, verkstads-, kvarn-, såg-, varvs- och lastplatsmiljö får inte bli
+  belägg för att Barbro eller hennes familj arbetade vid eller tillhörde
+  bruket. Personkällornas hemmansägarbeteckningar står för sig.
+- Rosenbergposten för `Öfverklinten` ger bara miljökontext åt den befintliga
+  Lundberg/Olaus-ledtråden. Den placerar inte Barbro där och bevisar inte
+  Olaus Pehrsson som hennes far.
+- Lugnet och den moderna stavningen `Överklinten` gav inga målposter, medan
+  den historiska stavningen `Öfverklinten` gjorde det. Återta bara med ny
+  stavnings-, kart-, jordregister- eller arkivnyckel; nollen är inte
+  person-, vistelse- eller släktskapsnoll.
 
 ## Återöppnad forskningsfront 2026-08-21
 
@@ -421,6 +444,17 @@ Barn: [P-0057 Margareta Euphrosyne](P-0057-margareta-euphrosyne-andersdotter.md)
   beställning, person eller relation rördes. Upprepa inte blind OCR av
   `A0017300`; återta K I/2 endast med ny person-, hushålls-, ärende-, datum-
   eller sidnyckel. C-0807/S-0623.
+- Resultat 2026-09-03: Riksarkivets MCP prövade sjömanshusens Matrikel och
+  Liggare som en ny källfamilj för Olaus/Olof Pehrsson född 1784-02-07 i
+  Överklinten, med `Piteå` som positiv flyttnyckel. Matrikel gav ingen
+  användbar Piteåtäckning. Liggare gav regionala kontrollposter men ingen
+  huvudperson med någon av de fyra målformerna i de kompletta
+  Piteåfiltrerade frågorna; fulltexten kombinerar även fartygs-, redar-,
+  befäls- och seglationsfält. Två äldre närträffar, `Olof Jung` och `Ol.
+  Jung` 1843, anges födda och hemmahörande i Piteå och kopplas inte till
+  kandidaten. Metadata och MCP-läsprov identifierar D I a/1 1837–1856 och
+  D I b/1 1842–1851 som endast analoga/mikrokort. Ingen originalsida,
+  person eller relation skapades. C-0813/S-0629.
 - Nästa: livsslutet är säkrat. Återta ursprung och föräldrar endast från en ny
   positiv sida-, flytt-, förmynderskaps- eller socialkälla; födelsebokens
   noll på båda nu kända februaridagar får inte fyllas med en namnlik kandidat.

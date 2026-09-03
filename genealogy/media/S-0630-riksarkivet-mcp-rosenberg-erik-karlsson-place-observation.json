@@ -1,0 +1,151 @@
+{
+  "schema": "slaktforsk-riksarkivet-mcp-observation/v1",
+  "checked_at": "2026-09-03T08:33:11+02:00",
+  "source_id": "S-0630",
+  "citation_id": "C-0814",
+  "provider": "Riksarkivet",
+  "access_path": "globally configured Riksarkivet MCP server",
+  "scope": "P-0133 life-history enrichment: historical geographical context for already source-proven residences in Bettna, Forssa, Flen and Helgesta",
+  "research_context": "T-0012 batch 225: enrich P-0133 Erik Karlsson/Grill with source-anchored historical place context from Rosenberg; place records are not evidence of personal residence or occupation.",
+  "tools": [
+    "rosenberg:search_rosenberg",
+    "search_metadata"
+  ],
+  "positive_place_records": [
+    {
+      "record_id": 16202,
+      "place": "Glippsta",
+      "parish": "Bettna",
+      "hundred": "Oppunda",
+      "county": "Södermanlands län",
+      "description": "By i Bettna socken nära Oxelösunds järnväg.",
+      "feature_flags": [
+        "railway"
+      ],
+      "query": {
+        "keyword": "Glippsta",
+        "forsamling": "Bettna",
+        "lan": "Södermanlands"
+      },
+      "result_count": 1
+    },
+    {
+      "record_id": 36781,
+      "place": "Malstanäs",
+      "parish": "Forssa",
+      "hundred": "Villåttinge",
+      "county": "Södermanlands län",
+      "description": "Herrgård i Forsa socken vid sjön Uren; 2 mantal med Malsta 2 samt kvarn och såg i värderingen.",
+      "feature_flags": [
+        "saw",
+        "mill"
+      ],
+      "query": {
+        "keyword": "Malstanäs",
+        "forsamling": "Forssa",
+        "lan": "Södermanlands"
+      },
+      "result_count": 3
+    },
+    {
+      "record_id": 63857,
+      "place": "Väsby",
+      "parish": "Flen",
+      "hundred": "Villåttinge",
+      "county": "Södermanlands län",
+      "description": "Gård vid sjön Båven nära Västra stambanan, lydande under Mälby i Helgesta socken.",
+      "feature_flags": [
+        "main_line railway"
+      ],
+      "query": {
+        "keyword": "Väsby",
+        "forsamling": "Flen",
+        "lan": "Södermanlands"
+      },
+      "result_count": 2
+    }
+  ],
+  "exact_smaller_place_queries_without_target_parish_record": [
+    {
+      "keywords": [
+        "Svartgjölstorp",
+        "Svartgölstorp",
+        "Svartgjötorp",
+        "Svartsjötorp"
+      ],
+      "forsamling": "Forssa",
+      "result_count_each": 0
+    },
+    {
+      "keyword": "Stafsjön",
+      "forsamling": "Forssa",
+      "result_count": 0,
+      "unfiltered_result_count": 9,
+      "interpretation": "The unfiltered homonyms belonged to other parishes or described a lake name; none was a Forssa place record."
+    },
+    {
+      "keyword": "Sjöstugan",
+      "forsamling": "Forssa",
+      "result_count": 0
+    },
+    {
+      "keyword": "Bergatorp",
+      "forsamling": "Flen",
+      "result_count": 0,
+      "unfiltered_result_count": 4,
+      "interpretation": "The named place records belonged to Berga, Vrena or Gillberga, not Flen."
+    },
+    {
+      "keyword": "Brosätter",
+      "forsamling": "Flen",
+      "result_count": 0
+    },
+    {
+      "keyword": "Vilhelmsro",
+      "forsamling": "Helgesta",
+      "result_count": 0
+    }
+  ],
+  "metadata_name_discovery": {
+    "combined_exact_field_queries": [
+      {
+        "name": "Erik Karlsson",
+        "place": "Helgesta",
+        "year_range": "1909-1936",
+        "result_count": 0
+      },
+      {
+        "name": "Erik Karlsson",
+        "place": "Flen",
+        "year_range": "1895-1921",
+        "result_count": 0
+      },
+      {
+        "name": "Erik Grill",
+        "place": "Forssa",
+        "year_range": "1868-1876",
+        "result_count": 0
+      },
+      {
+        "name": "Erik Grill",
+        "place": "Bettna",
+        "year_range": "1851-1868",
+        "result_count": 0
+      }
+    ],
+    "broad_keyword_controls": {
+      "Erik Karlsson": "50+ results dominated by unrelated church-register records and an Osterund firm archive",
+      "Erik Grill": "13 results dominated by unrelated archives and the surname word in other contexts"
+    },
+    "interpretation": "The sparse dedicated name/place fields and noisy broad keyword search did not expose a new person-indexed route. These observations are query-visibility results, not person or archive nulls."
+  },
+  "interpretation": "Rosenberg supplies historical context for three places already independently tied to P-0133: Glippsta, the Malstanas estate context for Svartgjolstorp, and Vasby. The place descriptions do not establish Erik's residence and cannot assign him work on a railway, mill, saw or manor. The smaller-place query absences are spelling-, parish-filter- and dataset-bounded only.",
+  "limitations": [
+    "Residence is established only by the existing church-book and census citations, not by Rosenberg.",
+    "The Malstanas record describes the wider manor named in the 1880 source context; it does not itself name Svartgjolstorp or Erik.",
+    "Industry flags describe places and cannot be converted into occupations for Erik or his household.",
+    "No result for a smaller residence is not evidence that the place did not exist, was absent from the parish or was spelled consistently.",
+    "Homonymous unfiltered results were not merged with the target places.",
+    "No person, relationship or new residence event was created from the geographical lexicon."
+  ]
+}

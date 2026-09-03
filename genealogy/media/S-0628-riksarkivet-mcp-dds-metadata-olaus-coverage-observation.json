@@ -1,0 +1,215 @@
+{
+  "schema": "slaktforsk-riksarkivet-mcp-observation/v1",
+  "checked_at": "2026-09-03T08:15:07+02:00",
+  "source_id": "S-0628",
+  "citation_id": "C-0812",
+  "provider": "Riksarkivet",
+  "access_path": "globally configured Riksarkivet MCP server",
+  "scope": "P-0336 Olaus Fredberg: DDS and metadata coverage for the unresolved 1852 birth/parentage question, two known-positive adult events and five already catalogued archival routes",
+  "research_context": "T-0012 P-0336: use Riksarkivet MCP first to test the two source-borne birth dates, known original events and existing direct archival routes without replacing original evidence or turning index absence into person absence.",
+  "tools": [
+    "dds:search_fodelse",
+    "dds:search_doda",
+    "dds:search_vigsel",
+    "search_metadata"
+  ],
+  "dds_target_and_local_controls": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Olaus",
+      "parish": "Stora Lundby",
+      "county": "Alvsborg",
+      "date_from": "1852-01-01",
+      "date_to": "1852-12-31",
+      "result": "No Fodelse results found for 'Olaus'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Olof",
+      "parish": "Stora Lundby",
+      "county": "Alvsborg",
+      "date_from": "1852-01-01",
+      "date_to": "1852-12-31",
+      "result": "No Fodelse results found for 'Olof'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Johan August",
+      "parish": "Stora Lundby",
+      "county": "Alvsborg",
+      "date_from": "1849-01-01",
+      "date_to": "1849-12-31",
+      "known_original_event": "Olaus's source-proven brother Johan August was born in Stora Lundby on 1849-07-05",
+      "result": "No Fodelse results found for 'Johan August'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Anna",
+      "parish": "Stora Lundby",
+      "county": "Alvsborg",
+      "date_from": "1852-01-01",
+      "date_to": "1852-12-31",
+      "result": "No Fodelse results found for 'Anna'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Olaus",
+      "parish": "Hemsjo",
+      "county": "Alvsborg",
+      "date_from": "1877-01-01",
+      "date_to": "1877-12-31",
+      "known_original_event": "Olaus Fredberg married Britta Stina Svensdotter in Hemsjo in 1877",
+      "result": "No Vigsel results found for 'Olaus'."
+    },
+    {
+      "dataset": "DDS Doda",
+      "keyword": "Olaus Fredberg",
+      "parish": "Sollentuna",
+      "county": "Stockholm",
+      "date_from": "1925-01-01",
+      "date_to": "1925-12-31",
+      "known_original_event": "Olaus Fredberg died in Sollentuna in 1925",
+      "result": "No Doda results found for 'Olaus Fredberg'."
+    }
+  ],
+  "dds_county_controls": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Olaus",
+      "county": "Alvsborg",
+      "date_from": "1852-01-01",
+      "date_to": "1852-12-31",
+      "result": "No Fodelse results found for 'Olaus'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Anna",
+      "county": "Alvsborg",
+      "date_from": "1877-01-01",
+      "date_to": "1877-12-31",
+      "result": "No Vigsel results found for 'Anna'."
+    },
+    {
+      "dataset": "DDS Doda",
+      "keyword": "Anna",
+      "county": "Stockholm",
+      "date_from": "1925-01-01",
+      "date_to": "1925-12-31",
+      "result": "No Doda results found for 'Anna'."
+    }
+  ],
+  "dds_service_controls": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Olaus",
+      "date_from": "1852-01-01",
+      "date_to": "1852-12-31",
+      "result_count": 25,
+      "page_size": 25,
+      "first_visible_record": "Fodelse 1120982, Olaus, 1852-02-13, Fjarestad, SE/LLA/13087, Bild ID C0064692"
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Anders",
+      "date_from": "1877-01-01",
+      "date_to": "1877-12-31",
+      "result_count": 238,
+      "page_size": 5,
+      "first_visible_record": "Vigsel 300768, 1877-04-29, Bjaresjo, SE/LLA/13027, Bild ID A0026049"
+    },
+    {
+      "dataset": "DDS Doda",
+      "keyword": "Anders",
+      "date_from": "1925-01-01",
+      "date_to": "1925-12-31",
+      "result_count": 4,
+      "page_size": 5,
+      "first_visible_record": "Doda 980641, Botilla Persson f. Olsson, 1925-01-01, Ivetofta, SE/LLA/13191; Anders occurs in the note"
+    }
+  ],
+  "exact_date_candidate_checks": [
+    {
+      "keyword": "Olaus",
+      "date": "1852-05-24",
+      "result_count": 0
+    },
+    {
+      "keyword": "Olaus",
+      "date": "1852-09-04",
+      "result_count": 0
+    },
+    {
+      "keyword": "Olof",
+      "date": "1852-05-24",
+      "result_count": 3,
+      "named_child_candidate": "Fodelse 1638088, Olof, Helsingborg Stad, Malmohus, father Anders Lundberg, mother Johanna Jonsdotter, SE/LLA/13171, Bild ID C0073729",
+      "interpretation": "Wrong county and parish against the source-proven Lundby in Alvsborg migration chain; the other two hits contain Olof only as a father."
+    },
+    {
+      "keyword": "Olof",
+      "date": "1852-09-04",
+      "result_count": 3,
+      "named_child_candidate": "Fodelse 1638145, Carl Olof, Helsingborg Stad, Malmohus, father Per Ohlsson, mother Bengta Jonsdotter, SE/LLA/13171, Bild ID C0073729",
+      "interpretation": "Wrong county and parish against the source-proven Lundby in Alvsborg migration chain; the other two hits contain Olof only as a father."
+    }
+  ],
+  "metadata_target_queries": [
+    {
+      "query": "keyword Fredberg plus name Olaus, 1840-1930",
+      "result": "No results found for 'Fredberg'."
+    },
+    {
+      "query": "keyword Fredriksson plus name Olaus, 1840-1930",
+      "result": "No results found for 'Fredriksson'."
+    },
+    {
+      "query": "keyword Fredberg plus name Olof, 1840-1930",
+      "result": "No results found for 'Fredberg'."
+    },
+    {
+      "query": "full-text keyword Olaus Fredberg, 1840-1930",
+      "result": "No results found for 'Olaus Fredberg'."
+    },
+    {
+      "query": "exact reference code SE/VA/13687/H II/5",
+      "result": "No results found for the exact quoted reference code."
+    },
+    {
+      "query": "exact reference code SE/GLA/13505/H V/1",
+      "result": "No results found for the exact quoted reference code."
+    },
+    {
+      "query": "exact reference code SE/GLA/13505/H V/2",
+      "result": "No results found for the exact quoted reference code."
+    },
+    {
+      "query": "exact reference code SE/GLA/16066/F 1 A/4",
+      "result": "No results found for the exact quoted reference code."
+    },
+    {
+      "query": "exact reference code SE/RA/420334/057/D/D 4/D 4 A/1",
+      "result": "No results found for the exact quoted reference code."
+    }
+  ],
+  "metadata_service_controls": [
+    {
+      "query": "keyword Sollentuna plus place Sollentuna",
+      "result": "10+ volumes",
+      "first_visible_record": "SE/SVAR/SSA.-133010141, Sollentuna, Agent / FormerGovernmentAuthority"
+    },
+    {
+      "query": "keyword Nobel plus name Nobel",
+      "result": "10+ volumes",
+      "first_visible_record": "SE/SPF/220, Nobel, Peter, Agent / Person"
+    }
+  ],
+  "interpretation": "The MCP endpoints were operational. DDS did not expose usable target-area coverage for P-0336's original-proven controls, while nationwide controls returned records. No national exact-date hit supplied a candidate compatible with the source-proven Alvsborg migration chain. Metadata search did not retrieve P-0336 or five already catalogued exact routes, although broad service controls returned records; these metadata zeros describe query visibility and must not be interpreted as catalog or volume absence.",
+  "limitations": [
+    "DDS is an index dataset and does not replace original church-book images.",
+    "DDS keyword search includes names in parent and note fields, not only the principal person's name.",
+    "The MCP response did not expose a parish-by-parish coverage manifest.",
+    "The exact-reference metadata syntax did not retrieve known catalogued routes, so those results cannot revoke earlier source-proven metadata.",
+    "No original page was opened through DDS because no compatible target candidate was returned.",
+    "Olaus Fredberg's birth date and parents remain unresolved; earlier original evidence and conflicts are unchanged."
+  ]
+}

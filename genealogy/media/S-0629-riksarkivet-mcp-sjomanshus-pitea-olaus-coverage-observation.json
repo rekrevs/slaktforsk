@@ -1,0 +1,171 @@
+{
+  "schema": "slaktforsk-riksarkivet-mcp-observation/v1",
+  "checked_at": "2026-09-03T08:24:46+02:00",
+  "source_id": "S-0629",
+  "citation_id": "C-0813",
+  "provider": "Riksarkivet",
+  "access_path": "globally configured Riksarkivet MCP server",
+  "scope": "P-0051 parentage lead: seamen's-house coverage for Olaus/Olof Pehrsson or Persson, born 1784-02-07 in Overklinten, with Pitea as the only positive outbound place key",
+  "research_context": "T-0012 P-0051: test the Riksarkivet seamen's-house indexes as a new source family for Olaus/Olof Pehrsson born 1784-02-07 in Overklinten; all candidates require original verification and no index absence may become a person null.",
+  "tools": [
+    "sjomanshus:search_matrikel",
+    "sjomanshus:search_liggare",
+    "search_metadata",
+    "browse_document"
+  ],
+  "matrikel_pitea_queries": [
+    {
+      "keyword": "Olaus Pehrsson",
+      "result_count": 0
+    },
+    {
+      "keyword": "Olof Pehrsson",
+      "result_count": 0
+    },
+    {
+      "keyword": "Olaus Persson",
+      "result_count": 0
+    },
+    {
+      "keyword": "Olof Persson",
+      "result_count": 0
+    },
+    {
+      "keyword": "1784",
+      "result_count": 0
+    },
+    {
+      "keyword": "1784-02-07",
+      "result_count": 0
+    },
+    {
+      "keyword": "Overklinten",
+      "result_count": 0
+    },
+    {
+      "keyword": "Bygdea",
+      "result_count": 0
+    },
+    {
+      "keyword": "Anders",
+      "result_count": 0
+    }
+  ],
+  "matrikel_service_control": {
+    "keyword": "1784",
+    "filter": "none",
+    "result_count": 7,
+    "page_size": 5,
+    "first_visible_record": "Matrikel 16939, Per Kialberg Person, Kallunge, Visby seamen's house 1777-1797, SE/ViLA/20246, D I a/3 p. 41",
+    "interpretation": "The endpoint was operational, but no usable Pitea matrikel segment was visible through the tested terms."
+  },
+  "liggare_pitea_name_queries": [
+    {
+      "keyword": "Olaus Pehrsson",
+      "result_count": 11,
+      "principal_name_exact_matches": 0
+    },
+    {
+      "keyword": "Olof Pehrsson",
+      "result_count": 47,
+      "principal_name_exact_matches": 0
+    },
+    {
+      "keyword": "Olaus Persson",
+      "result_count": 15,
+      "principal_name_exact_matches": 0
+    },
+    {
+      "keyword": "Olof Persson",
+      "result_count": 52,
+      "principal_name_exact_matches": 0
+    }
+  ],
+  "liggare_profile_queries": [
+    {
+      "keyword": "1784",
+      "result_count": 0
+    },
+    {
+      "keyword": "1784-02-07",
+      "result_count": 1,
+      "visible_record": "Liggare 561464, C.E. Mattsson, born 1864 in Forsmark, E III/36",
+      "interpretation": "Unrelated full-text match; the visible record does not carry the target birth profile."
+    },
+    {
+      "keyword": "Overklinten",
+      "result_count": 0
+    },
+    {
+      "keyword": "Bygdea",
+      "result_count": 15,
+      "page_size": 10,
+      "first_visible_record": "Liggare 278514, W. Holmstrom, born 1841 in Bygdea, Pitea no. 121, Gävle seamen's house D I aa/29 p. 42"
+    },
+    {
+      "keyword": "Anders",
+      "result_count": 40,
+      "page_size": 5,
+      "first_visible_record": "Liggare 471390, Anders Petter Nordin, born 1843-10-07 in Vato, Pitea, Harnosand seamen's house D I a/5 p. 25"
+    }
+  ],
+  "liggare_national_service_control": {
+    "keyword": "1784",
+    "result_count": 25,
+    "page_size": 10,
+    "first_visible_record": "Liggare 109001, Carl Glamstrom, voyage from Visby 1784-05-03, SE/ViLA/20246, D III/5 p. 487",
+    "interpretation": "The keyword can match voyage years and other fields; it is not a dedicated birth-year filter."
+  },
+  "near_hits": [
+    {
+      "record_id": 441994,
+      "name": "Olof Jung",
+      "rank": "Lattmatros",
+      "born": "Pitea",
+      "home": "Pitea",
+      "ship": "Delphin",
+      "voyage": "1843-05-02 to 1843-07-26",
+      "destination": "Vastersjon",
+      "archive": "SE/HLA/1170004",
+      "volume": "D I a/1"
+    },
+    {
+      "record_id": 441995,
+      "name": "Ol. Jung",
+      "rank": "Timmerman",
+      "born": "Pitea",
+      "home": "Pitea",
+      "ship": "Anna Elisabeth",
+      "voyage_start": "1843-08-07",
+      "destination": "Vastersjon",
+      "archive": "SE/HLA/1170004",
+      "volume": "D I a/1"
+    }
+  ],
+  "near_hit_interpretation": "The two 1843 rows do not identify the target: the principal name is Jung rather than Pehrsson/Persson and both birth and home fields say Pitea rather than Overklinten/Bygdea. They are retained only as register-level near hits. No claim that they are one person or that either is unrelated can be final without the originals.",
+  "archival_routes": [
+    {
+      "reference_code": "SE/HLA/1170004/D I a/1",
+      "date_range": "1837-1856",
+      "series": "Monstringsliggare",
+      "permanent_id": "EndREyl0XIVNZFLt2s8wB1",
+      "access": "not digitised or transcribed; metadata only; also available on microcards"
+    },
+    {
+      "reference_code": "SE/HLA/1170004/D I b/1",
+      "date_range": "1842-1851",
+      "series": "Forteckning over sjofolk (inskrivningsregister)",
+      "permanent_id": "ULtodNncf4IWI7T6g7igN1",
+      "access": "not digitised or transcribed; metadata only; also available on microcards"
+    }
+  ],
+  "interpretation": "The seamen's-house indexes form a newly tested source family for the Pitea lead. The Pitea-filtered matrikel queries exposed no usable coverage, while the liggare endpoint was operational and returned Pitea- and Bygdea-linked records. After inspecting every principal Name field in the four complete Pitea-filtered name-result sets, none was Olaus/Olof Pehrsson/Persson. No exact birth-profile candidate was found. This is an index-, filter-, name-form- and visible-field-bounded result, not proof that the target never entered maritime service or never lived in Pitea.",
+  "limitations": [
+    "The seamen's-house keyword search spans multiple fields; apparent two-term and date hits can come from ship, owner, voyage or note fields rather than the principal seaman's name or birth date.",
+    "The Pitea-filtered matrikel controls returned zero even for Anders, so no complete Pitea matrikel coverage can be inferred.",
+    "The liggare results establish that some Pitea- and Bygdea-linked records are visible, but they do not constitute a complete historical roster.",
+    "The exact D I a/1 and D I b/1 originals are not digitised or transcribed through MCP; no page was read.",
+    "The two Olof/Ol. Jung rows remain register-level near hits and are not merged, rejected as persons, or linked to P-0051.",
+    "Olaus Pehrsson remains an unproven father candidate for Barbro Christina Olofsdotter."
+  ]
+}

@@ -5,6 +5,68 @@ utan manuellt bläddrande, så att varje citatpost går att kontrollera i
 efterhand. Metoden verifierades 2026-08-20 genom att en tidigare sparad bild
 (C-0067) laddades ned på nytt och gav identisk SHA-256-kontrollsumma.
 
+## Ägarregel 2026-09-03: Riksarkivets MCP först där den täcker behovet
+
+När en ny Codex-session har tillgång till den globalt konfigurerade
+MCP-servern `riksarkivet` ska dess verktyg användas som första lämpliga ingång
+för upptäckt, sökning, registerrouting och snabb interaktiv inspektion. Det
+gäller bland annat strukturerad person- och registersökning, arkivmetadata,
+transkriberat material, guider, manifest och dokumentvisning. När en exakt
+reproduktions- eller bildnyckel väl är känd följer arbetet lagerreglerna nedan;
+MCP-viewern är då inte ett obligatoriskt mellanled. Riksarkivet och dess
+arkivposter, volymer och reproduktioner är fortfarande de källor som ska
+citeras.
+
+Ett MCP-svar ska därför så långt möjligt följas till och dokumenteras med
+arkivbildare, referenskod, serie, volym, sida eller bild, beständigt id och
+originalbild enligt projektets vanliga provenanskrav. Ett negativt MCP-resultat
+är endast ett avgränsat sökresultat inom verktygets angivna täckning, inte ett
+bevis för att personen eller handlingen saknas i arkivet.
+
+Om MCP-servern inte är tillgänglig i sessionen, saknar ett relevant verktyg
+eller inte exponerar tillräcklig metadata eller bildåtkomst, fortsätter arbetet
+med den reproducerbara API-/JSON-LD-/IIIF-ordningen nedan. Chrome förblir den
+snäva sista reserven. Ingen onödig information om levande personer ska skickas
+till MCP-servern, och reglerna om inloggning och ALTCHA/CAPTCHA ändras inte.
+
+### Operativ lager- och bevismodell
+
+`MCP först` är en regel om första lämpliga ingång, inte ett krav att all senare
+läsning eller bildhantering ska gå genom MCP. Arbetet skiljer på följande lager:
+
+| Lager | Huvuduppgift | Vad lagret kan belägga | Normal övergång |
+|---|---|---|---|
+| MCP-sökning och specialverktyg | upptäckt, bred sökning, stavningsprövning, registerträffar och routing till ort, arkiv, serie eller volym | de fält som en namngiven register-, transkriptions- eller ortspost faktiskt återger; annars endast en kandidat eller sökobservation | följ positiva träffar till beständigt id, referenskod och när möjligt original |
+| API, JSON-LD, OAI och IIIF-manifest | hierarki, metadata, reproduktions-id, canvasföljd samt avgränsning av år, församling eller handling | källans identitet och det dokumenterade undersökningsomfånget, men inte att en viss person står på en sida | gå till de exakta bildytorna och bevara avgränsningens start- och slutkontroller |
+| Transkription eller originalbild | läsning och sakbelägg | en MCP-/registertranskription bär bara sina uttryckliga fält; för kyrkoboks- och andra sidbundna personpåståenden är den visuellt lästa originalbilden normal bevisgrund | skapa källpost, citat, påstående och uttrycklig evidensbedömning |
+| Inloggad katalog eller Chrome-visare | snäv åtkomstreserv när publikt reproduktions-id saknas, direktbild ger `401`/`403` eller katalogen ensam exponerar nästa nyckel | endast det som faktiskt läses i katalogen eller originalbilden; åtkomstläget i sig är inget källnoll | återgå om möjligt till beständig metadata eller lokal, checksummad originalkopia |
+
+MCP-burna Rosenberg-, TORA-, sjömanshus- och andra registerposter kan alltså
+vara källor för avgränsade orts- eller registerpåståenden. De får inte utan egen
+personbärande information omvandlas till bostad, arbete, identitet eller
+släktskap. Ett IIIF-manifest belägger på motsvarande sätt volymens struktur och
+ett sveps omfattning, medan den lästa bilden bär sidans personuppgifter.
+
+### Negativa MCP-resultat och kontrollfrågor
+
+Innan ett MCP-noll bevaras ska verktygets uppgivna täckning granskas och, när
+det är möjligt, minst en känd positiv kontroll köras i samma dataset och nära
+målfrågans geografi, tid och posttyp. Om även kontrollen ger noll klassificeras
+utfallet som ett täcknings- eller frågesynlighetsresultat, inte som frånvaro av
+personen eller handlingen. Ett filtrerat noll ska vid behov prövas mot en
+ofilterad namnfråga och relevanta historiska stavningar; filterfälten kan vara
+snävare eller ha annan normalisering än fritexten. Alla sådana omprov ska
+redovisa exakt fråga och får inte sammanföra homonyma träffar.
+
+### MCP-viewer eller direkt IIIF
+
+MCP:s viewer får användas för snabb orientering, enstaka bildkontroll eller när
+den exponerar en annars saknad länk. När reproduktions-, manifest- eller
+bild-id redan är känt föredras den direkta IIIF-pipelinen för systematiska
+svep, deterministisk år→bild-avgränsning, fullupplösta original, beskärningar,
+rotationer, kompositer och lokal kontrollsummering. Detta är nästa lager efter
+MCP-upptäckten och strider därför inte mot `MCP först`.
+
 ## Ägarregel 2026-08-29: API före Chrome
 
 Riksarkivets API-lager ska alltid prövas före Chrome där det är möjligt:

@@ -318,3 +318,70 @@
 - Revisit when:
   - En samtida faderskapshandling eller DNA-stöd påträffas (bokförs, ändrar
     inte beslutet)
+
+## PCR-2026-09-03-001
+
+- Record type: review
+- Date: 2026-09-03
+- Mode: direction-review
+- Trigger: Ägaren bad att det kontinuerliga forskningsmålet skulle göras
+  deklarativt och uttryckas genom största möjliga generationsdjup,
+  breddförst balans och en seriös strävan efter all biografiskt relevant
+  information per person. Den nya Riksarkivet-MCP:n behöver samtidigt bli en
+  beständig del av projektets åtkomstordning inför en ren session.
+- Control judgement: continue, redirect, preserve, wait
+- Current gate: Den tidigare north star-texten har rätt skyddsräcken men gör
+  inte generationsmåttet, den individuella arkivfronten eller innebörden av
+  personmässig fullständighet tillräckligt tydliga. MCP-servern är globalt
+  aktiverad och dess verktyg är synliga, men den nämns inte i projektets
+  beständiga instruktioner.
+- Recommendation: Ersätt north stars inledande mål med ett deklarativt mål för
+  Adam och Axel, utan fast slutgeneration, där gemensamt djup och varje grens
+  arkivfront redovisas separat. Behåll projektets tidigare evidens-,
+  integritets-, sidogrens- och utgåvegrindar. Använd Riksarkivets MCP först där
+  den har ett passande verktyg, men behandla den som åtkomstväg och bevara
+  Riksarkivets egna källidentifierare och original enligt befintlig metod.
+- Owner decision required: Godkänn den vässade målformuleringen och
+  MCP-först-regeln inför nästa rena session.
+- Evidence:
+  - Ägarens instruktion och godkännande 2026-09-03
+  - `NORTH-STAR.md`
+  - `README.md`
+  - `HANDOVER.md`
+  - `genealogy/method-riksarkivet.md`
+  - `PCD-2026-08-23-001`
+  - `codex mcp get riksarkivet`
+- Revisit when:
+  - En full generationskohort når sin våggranskning
+  - MCP-serverns täckning eller åtkomstläge förändras väsentligt
+  - Projektets godkända åtkomstformer ska utvidgas bortom nätmaterial
+
+## PCD-2026-09-03-001
+
+- Record type: decision
+- Date: 2026-09-03
+- Decides review: `PCR-2026-09-03-001`
+- Owner: Sverker Adam Janson
+- Decision: Godkänn det deklarativa målet att föra Adam och Axels samtliga
+  direkta anlinjer breddförst och balanserat till varje grens dokumenterade
+  arkivfront, utan ett fast maximalt generationsantal, och att göra en seriös,
+  relevansstyrd ansträngning efter en rik och källförankrad livsbild för varje
+  person. Behåll de tidigare kvalitets- och integritetskraven. Använd
+  Riksarkivets MCP först där dess verktyg täcker behovet och de befintliga
+  API-/JSON-LD-/IIIF- och Chrome-vägarna som dokumenterade kompletteringar och
+  reserver.
+- Disposition: approved
+- Supersedes decision: `PCD-2026-08-20-001` och `PCD-2026-08-21-001` endast i
+  formuleringen av det övergripande målet och Riksarkivets åtkomstordning;
+  deras provenansprinciper, ägarfastställda relationer och ändliga Wotan-vågor
+  består.
+- Related records: `PCD-2026-08-23-001`, `PCD-2026-08-29-001`,
+  `NORTH-STAR.md`, `genealogy/method-riksarkivet.md`
+- Resulting Wotan tasks: none; den pågående forskningen förblir pausad tills
+  ägaren uttryckligen startar ett nytt kontinuerligt mål
+- Portfolio signal: Projektet är förberett för en ren kontinuerlig session men
+  begär ingen forskningsaktivitet före ägarens uttryckliga start.
+- Revisit when:
+  - En full generationskohort når sin våggranskning
+  - MCP-serverns täckning eller åtkomstläge förändras väsentligt
+  - Projektets godkända åtkomstformer ska utvidgas bortom nätmaterial

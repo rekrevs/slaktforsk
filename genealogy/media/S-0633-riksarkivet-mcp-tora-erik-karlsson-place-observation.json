@@ -1,0 +1,127 @@
+{
+  "schema": "slaktforsk-riksarkivet-mcp-observation/v1",
+  "checked_at": "2026-09-03T10:59:23+02:00",
+  "source_id": "S-0633",
+  "citation_id": "C-0817",
+  "provider": "Riksarkivet",
+  "access_paths": [
+    "globally configured Riksarkivet MCP server",
+    "public IIIF info.json and image API",
+    "owner-authenticated Chrome image viewer"
+  ],
+  "scope": "T-0012 batch 228: persist TORA place routing for P-0133's independently source-proven life, test parish/county filter behaviour, and follow linked geometrical-map identifiers through direct IIIF with Chrome only for the remaining protected image",
+  "tool": "tora:search_tora",
+  "positive_place_records": [
+    {
+      "tora_id": 2443,
+      "place": "Glippsta",
+      "coordinates_wgs84": [58.9216, 16.5932],
+      "accuracy": "high",
+      "parish": "Bettna",
+      "municipality": "Flens kommun",
+      "county": "Södermanlands län",
+      "map": {"reference": "C2:414-415", "year": 1634, "bild_id": "R0000152_00212"}
+    },
+    {
+      "tora_id": 24720,
+      "place": "Malstanäs",
+      "coordinates_wgs84": [59.0038, 16.6823],
+      "accuracy": "high",
+      "parish": "Forssa",
+      "municipality": "Flens kommun",
+      "county": "Södermanlands län",
+      "map": {"reference": "C5b:24", "year": 1685, "bild_id": "R0002568_00037"}
+    },
+    {
+      "tora_id": 14996,
+      "place": "Väsby",
+      "coordinates_wgs84": [59.0557, 16.6805],
+      "accuracy": "high",
+      "parish": "Helgesta",
+      "municipality": "Flens kommun",
+      "county": "Södermanlands län",
+      "interpretation": "A historical place candidate and routing aid only. Rosenberg 63857 describes Wäsby in Flen under Mälby in Helgesta, while P-0133's person-bearing sources carry his Wäsby-to-Helgesta chain. Administrative or temporal assignment remains source-specific."
+    },
+    {
+      "tora_id": 2355,
+      "place": "Brosätter",
+      "coordinates_wgs84": [58.9966, 16.7809],
+      "accuracy": "high",
+      "parish": "Årdala",
+      "municipality": "Flens kommun",
+      "county": "Södermanlands län",
+      "map": {"reference": "C4:22-23", "year": 1636, "bild_id": "R0000154_00017"},
+      "interpretation": "The parish differs from P-0133's person-bearing Flen source and therefore remains an unmerged homonym, not a residence match."
+    },
+    {
+      "tora_id": 18954,
+      "place": "Bergatorp",
+      "coordinates_wgs84": [58.8778, 16.7135],
+      "accuracy": "high",
+      "parish": "Vrena",
+      "municipality": "Nyköpings kommun",
+      "county": "Södermanlands län",
+      "interpretation": "The parish and municipality differ from P-0133's person-bearing Flen source and therefore remain an unmerged homonym, not a residence match."
+    }
+  ],
+  "no_result_unfiltered_names": [
+    "Svartgjölstorp",
+    "Svartgölstorp",
+    "Svartgjötorp",
+    "Svartsjötorp",
+    "Stafsjön",
+    "Sjöstugan",
+    "Segerslund",
+    "Vilhelmsro",
+    "Wäsby"
+  ],
+  "filter_controls": [
+    {
+      "name": "Glippsta",
+      "parish": "Bettna",
+      "county": "Södermanlands",
+      "filtered_result_count": 0,
+      "unfiltered_result_count": 2,
+      "target": "TORA 2443"
+    },
+    {
+      "name": "Malstanäs",
+      "parish": "Forssa",
+      "county": "Södermanlands",
+      "filtered_result_count": 0,
+      "unfiltered_result_count": 1,
+      "target": "TORA 24720"
+    },
+    {
+      "name": "Väsby",
+      "parish": "Flen",
+      "county": "Södermanlands",
+      "filtered_result_count": 0,
+      "unfiltered_result_count": 20,
+      "target_candidate": "TORA 14996"
+    }
+  ],
+  "iiif_followup": [
+    {
+      "bild_id": "R0000152_00212",
+      "info_json": "publicly fetched; 8496 x 5787; IIIF v3 level1",
+      "image": "publicly fetched as a 2000-pixel derivative and visually inspected",
+      "visual_scope": "A geometrical map sheet with cultivated parcels, settlement symbols and explanatory text; no person or nineteenth-century property inference was made."
+    },
+    {
+      "bild_id": "R0002568_00037",
+      "info_json": "publicly fetched; 5452 x 7105; IIIF v3 level1",
+      "public_image_request": "401 for v2 and v3 derivatives, also with viewer Referer",
+      "chrome": "Owner-authenticated Riksarkivet viewer opened the correct volume and selected image 37. The fitted map was visible. Page assets exposed session-protected IIIF v2 derivatives, but download and bundling did not yield a persistable local image.",
+      "interpretation": "Chrome resolved visual access but did not make the protected binary independently reproducible; the public info.json and exact viewer URL are preserved."
+    }
+  ],
+  "limitations": [
+    "TORA records describe and geocode places; they do not name P-0133 or prove residence, occupation, ownership or kinship.",
+    "The linked maps predate P-0133 by more than two centuries and are historical settlement context only.",
+    "Filtered no-results are unreliable for these exact controls because unfiltered searches found the known targets.",
+    "Unfiltered homonyms are not merged when parish or municipality conflicts with the person-bearing source.",
+    "The smaller-name no-results are query- and coverage-bounded, not place, residence or person nulls.",
+    "No browser cookies, session storage or credentials were read or persisted."
+  ]
+}

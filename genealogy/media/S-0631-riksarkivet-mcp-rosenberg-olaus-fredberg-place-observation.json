@@ -1,0 +1,103 @@
+{
+  "schema": "slaktforsk-riksarkivet-mcp-observation/v1",
+  "checked_at": "2026-09-03T08:47:46+02:00",
+  "source_id": "S-0631",
+  "citation_id": "C-0815",
+  "provider": "Riksarkivet",
+  "access_path": "globally configured Riksarkivet MCP server",
+  "scope": "P-0336 life-history enrichment: historical geographical context for the independently source-proven Rökland/Alnö and Tureberg/Sollentuna endpoints, plus a bounded Lundby routing check",
+  "research_context": "T-0012 batch 226: historical place-context enrichment for P-0336 Olaus Fredberg's independently source-proven life route; place records must not establish identity, residence, parentage or occupation.",
+  "tool": "rosenberg:search_rosenberg",
+  "positive_place_records": [
+    {
+      "record_id": 46452,
+      "place": "Rökland",
+      "parish": "Alnö",
+      "hundred": "Skön",
+      "county": "Västernorrlands län",
+      "description": "By på Alnöns västra strand, med Bergviks lastningsplats samt Rocklands ångsåg och lastningsplats.",
+      "feature_flags": [
+        "såg"
+      ],
+      "query": {
+        "keyword": "Rökland",
+        "forsamling": "Alnö",
+        "lan": "Västernorrlands"
+      },
+      "result_count": 1
+    },
+    {
+      "record_id": 44642,
+      "place": "Rockland",
+      "parish": "Alnö",
+      "hundred": "Skön",
+      "county": "Västernorrlands län",
+      "description": "Ångsåg och lastningsplats på Alnöns västra strand; vardera taxerad till 7 500 kronor.",
+      "feature_flags": [
+        "såg"
+      ],
+      "query": {
+        "keyword": "Rockland",
+        "forsamling": "Alnö",
+        "lan": "Västernorrlands"
+      },
+      "result_count": 2
+    },
+    {
+      "record_id": 59192,
+      "place": "Tureberg",
+      "parish": "Sollentuna",
+      "hundred": "Sollentuna",
+      "county": "Stockholms län",
+      "description": "Hållplats på Norra stambanan mellan Järva och Rotebro; Edsviken och Nytorps ångbåtsstation låg öster om järnvägen och egendomen Tureberg med kvarn väster om den.",
+      "feature_flags": [
+        "stambana",
+        "järnväg",
+        "kvarn"
+      ],
+      "query": {
+        "keyword": "Tureberg",
+        "forsamling": "Sollentuna",
+        "lan": "Stockholms"
+      },
+      "result_count": 3
+    },
+    {
+      "record_id": 34922,
+      "place": "Lundby",
+      "county": "Älvsborgs län",
+      "hundred": "Vättle",
+      "description": "Sockenhänvisning: se Stora Lundby.",
+      "query": {
+        "keyword": "Lundby",
+        "lan": "Älvsborgs"
+      },
+      "result_count": 57,
+      "interpretation": "A routing cross-reference only; it does not identify P-0336's birth parish or parents."
+    }
+  ],
+  "exact_place_queries_without_target_record": [
+    {
+      "keyword": "Björknäs",
+      "forsamling": "Östra Fågelvik",
+      "lan": "Värmlands",
+      "result_count": 0
+    },
+    {
+      "keyword": "Kungsholmen",
+      "forsamling": "Kungsholmen",
+      "lan": "Stockholms",
+      "result_count": 0
+    }
+  ],
+  "interpretation": "Rosenberg supplies historical environmental context for Rökland and Tureberg, whose connection to P-0336 is established by separate church-book, census and press citations. The Rökland and Rockland entries show a west-Alnö sawmill and loading-place environment but do not prove Olaus worked for either facility. Tureberg's rail setting is contextually relevant to a retired railway worker but does not prove his residence or death there. The Lundby cross-reference only supports archival routing toward Stora Lundby and leaves the birth identity and parentage unresolved.",
+  "limitations": [
+    "The geographical lexicon does not name Olaus Fredberg.",
+    "Residence, migration, occupation and death are established only by the existing person-bearing citations.",
+    "No employment at Rockland's steam saw, either loading place, Tureberg station or Tureberg mill is inferred.",
+    "The Tureberg record cannot replace the family death notice or Sollentuna death book.",
+    "The Lundby cross-reference does not resolve the conflicting 1852 dates, the precise birth parish or either parent.",
+    "No-result place queries are spelling-, parish-filter- and dataset-bounded, not place or residence nulls.",
+    "No person, relationship, birth identity, parent or new residence event was created from these records."
+  ]
+}

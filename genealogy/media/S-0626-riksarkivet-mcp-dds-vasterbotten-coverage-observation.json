@@ -1,0 +1,160 @@
+{
+  "schema": "slaktforsk-riksarkivet-mcp-observation/v1",
+  "checked_at": "2026-09-03T07:55:35+02:00",
+  "source_id": "S-0626",
+  "citation_id": "C-0810",
+  "provider": "Riksarkivet",
+  "access_path": "globally configured Riksarkivet MCP server",
+  "scope": "P-0051 Barbro Christina/Cajsa Olofsdotter: DDS index coverage for reported Bygdea/Lovanger birth in 1830 and the candidate Olof Pehrsson-Maja Stina Pehrsdotter marriage in Bygdea in 1810",
+  "research_context": "T-0012 P-0051: test the unresolved birth identity of Barbro Christina/Cajsa Olofsdotter and the candidate Olof Pehrsson-Maja Stina Pehrsdotter marriage; distinguish index coverage from original-source evidence.",
+  "tools": [
+    "dds:search_fodelse",
+    "dds:search_vigsel"
+  ],
+  "target_queries": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Barbro",
+      "parish": "Bygdea",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "result": "No Fodelse results found for 'Barbro'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Cajsa",
+      "parish": "Bygdea",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "result": "No Fodelse results found for 'Cajsa'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Barbro",
+      "parish": "Lovanger",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "result": "No Fodelse results found for 'Barbro'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Cajsa",
+      "parish": "Lovanger",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "result": "No Fodelse results found for 'Cajsa'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Olof Pehrsson",
+      "parish": "Bygdea",
+      "date_from": "1810-01-01",
+      "date_to": "1810-12-31",
+      "result": "No Vigsel results found for 'Olof Pehrsson'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Maja Stina Pehrsdotter",
+      "parish": "Bygdea",
+      "date_from": "1810-01-01",
+      "date_to": "1810-12-31",
+      "result": "No Vigsel results found for 'Maja Stina Pehrsdotter'."
+    }
+  ],
+  "local_coverage_controls": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Carl Eric",
+      "parish": "Bygdea",
+      "date_from": "1806-01-01",
+      "date_to": "1806-12-31",
+      "known_original_control": "Bygdea C/3 contains Carl Eric born 1806-10-14 in Overklinten",
+      "result": "No Fodelse results found for 'Carl Eric'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Olof",
+      "parish": "Bygdea",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "result": "No Fodelse results found for 'Olof'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Anna",
+      "parish": "Bygdea",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "result": "No Fodelse results found for 'Anna'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Stina",
+      "parish": "Lovanger",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "known_original_control": "Lovanger C/5 contains a different Stina Cajsa entry in the target year",
+      "result": "No Fodelse results found for 'Stina'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Nils Jonsson",
+      "parish": "Bygdea",
+      "date_from": "1799-01-01",
+      "date_to": "1799-12-31",
+      "known_original_control": "Bygdea C/3 contains Nils Jonsson's marriage on 1799-09-29",
+      "result": "No Vigsel results found for 'Nils Jonsson'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Anders",
+      "parish": "Bygdea",
+      "date_from": "1810-01-01",
+      "date_to": "1810-12-31",
+      "result": "No Vigsel results found for 'Anders'."
+    },
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Anna",
+      "county": "Vasterbotten",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "result": "No Fodelse results found for 'Anna'."
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Anders",
+      "county": "Vasterbotten",
+      "date_from": "1810-01-01",
+      "date_to": "1810-12-31",
+      "result": "No Vigsel results found for 'Anders'."
+    }
+  ],
+  "service_controls": [
+    {
+      "dataset": "DDS Fodelse",
+      "keyword": "Anna",
+      "date_from": "1830-01-01",
+      "date_to": "1830-12-31",
+      "result_count": 1151,
+      "page_size": 25,
+      "first_visible_record": "Fodelse 1568464, Anna, 1830-11-03, Ronneby, SE/LLA/13316, C0058560_00001"
+    },
+    {
+      "dataset": "DDS Vigsel",
+      "keyword": "Anders",
+      "date_from": "1810-01-01",
+      "date_to": "1810-12-31",
+      "result_count": 130,
+      "page_size": 25,
+      "first_visible_record": "Vigsel 394079, 1810-11-24, Risekatslosa, SE/LLA/13314, C0068602_00062"
+    }
+  ],
+  "interpretation": "The DDS MCP endpoints were operational, but the target-parish queries, known-positive parish controls, common-name parish controls, and county-wide Vasterbotten controls all returned zero. The target-name zeros therefore document an index coverage gap, not absence from the original church records and not a person, birth, marriage, residence, or parentage null.",
+  "limitations": [
+    "DDS is an index dataset and does not replace original church-book images.",
+    "The MCP response did not expose a parish-by-parish coverage manifest.",
+    "No original page was opened through DDS in this batch because none of the target or local-control queries returned a record.",
+    "Previously read original evidence and conflicts remain unchanged."
+  ]
+}

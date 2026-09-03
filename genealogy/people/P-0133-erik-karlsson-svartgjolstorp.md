@@ -111,6 +111,15 @@ födelseboken 1881 och `Erik Karlsson` i Flens församlingsbok.
 | A-3084 | De tretton exakta målposterna Forssa G 4/1–2, Helgesta D 2:1 och G 4 B/2–11 saknade synlig `Bild`- och `Läsesal`-länk; API-, OAI- och JSON-LD-omproven gav 403 medan den inloggade katalogen öppnade utan ny CAPTCHA. | TRANSCRIBED | mycket hög | [C-0805](../citations/C-0805-riksarkivet-forssa-helgesta-kommunalskatt.md) | Åtkomstprovenans, inte person-, material-, mantals-, skatte- eller understödsnoll. Ingen kontroll, sessionsdata eller beställning rördes. |
 | A-3092 | SCB:s församlingsboksutdrag 1920 har en exakt Helgestaföljd om 31 sidor på `A0056311_00782`–`_00812`; nästa bild börjar Hyltinge sida 1. | TRANSCRIBED | mycket hög | [C-0808](../citations/C-0808-scb1920-helgesta-kandidatscreening.md) | IIIF-range och visuellt lästa gränsoriginal sammanfaller. Bild 813 är endast gränsbelägg, inte Helgestamaterial. |
 | A-3093 | Tre Apple Vision-OCR-pass över de 31 Helgesta-bilderna nominerade fem konkreta namn-/årtalsytor; fulloriginalen gav andra hushåll eller anteckningsformer och ingen säker Erik Karlsson/Carlsson eller Erik Grill född 1851. | TRANSCRIBED | medel | [C-0808](../citations/C-0808-scb1920-helgesta-kandidatscreening.md) | Maskinassisterad kandidatscreening med visuell kontroll av nomineringarna, inte namn-för-namn-läsning. Handskrifts-OCR kan missa text; inget person-, vistelse-, församlings-, årgångs- eller helreproduktionsnoll. |
+| A-3097 | Riksarkivets MCP-verktyg för DDS Födelse, DDS Döda och DDS Vigsel gav noll för sex redan originallästa händelser i Erik Karlsson/Grills familj och för tre länsvida Södermanlandskontroller, medan nationella kontroller gav 156 födelseposter, 32 vigselposter och en dödfulltextträff. | TRANSCRIBED | hög | [C-0811](../citations/C-0811-riksarkivet-mcp-dds-sodermanland-tackning.md) | DDS-täckningsresultat, inte person-, händelse-, vistelse-, relations- eller levnadsbanenoll. Tidigare originalbelägg och konflikter ändras inte. |
+| A-3102 | Rosenberg 16202 beskriver Glippsta som en by i Bettna socken och Oppunda härad, nära Oxelösunds järnväg. | TRANSCRIBED | hög | [C-0814](../citations/C-0814-riksarkivet-mcp-rosenberg-erik-karlsson.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md) | Ortslexikonet ger miljökontext; Eriks bostad beläggs separat av hushållskällan och ingen järnvägssyssla infereras. |
+| A-3103 | Rosenberg 36781 beskriver Malstanäs som en herrgård i Forssa vid sjön Uren, med kvarn och såg i värderingen. | CORROBORATED | hög | [C-0814](../citations/C-0814-riksarkivet-mcp-rosenberg-erik-karlsson.md), [C-0105](../citations/C-0105-erik-carlsson-svartgjotorp-1880.md) | Folkräkningen placerar Eriks torp under Malstanäs; lexikonet namnger inte torpet eller Erik och belägger inget arbete i verksamheterna. |
+| A-3104 | Rosenberg 63857 beskriver Väsby i Flens socken som en gård vid Båven nära Västra stambanan, lydande under Mälby i Helgesta socken. | CORROBORATED | hög | [C-0814](../citations/C-0814-riksarkivet-mcp-rosenberg-erik-karlsson.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md), [C-0799](../citations/C-0799-helgesta-B4-erik-karlsson-januari-1909.md) | Församlingsbok och flyttlängd bär personkedjan Wäsby→Helgesta; lexikonet ger endast ortskontext och ingen järnvägssyssla. |
+| A-3105 | Rosenberg gav inga målposter för fyra Svartgjölstorp-varianter, Stafsjön och Sjöstugan i Forssa, Bergatorp och Brosätter i Flen eller Vilhelmsro i Helgesta; kombinerade metadatafält för Erik Karlsson/Grill och de kända orterna gav också noll. | TRANSCRIBED | hög | [C-0814](../citations/C-0814-riksarkivet-mcp-rosenberg-erik-karlsson.md) | Lexikon-, stavnings-, församlingsfilter- och frågefältsbundet resultat. Homonymer finns; inget ort-, person-, vistelse- eller beståndsnoll skapas. |
+| A-3114 | TORA identifierar Glippsta som post 2443 i Bettna på 58.9216, 16.5932 och Malstanäs som post 24720 i Forssa på 59.0038, 16.6823. | CORROBORATED | hög | [C-0817](../citations/C-0817-riksarkivet-mcp-tora-erik-karlsson.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md), [C-0105](../citations/C-0105-erik-carlsson-svartgjotorp-1880.md) | Personkällorna bär Eriks Glippsta- och Malstanäsanknytning; TORA tillför endast ortsidentitet och geografisk routing. |
+| A-3115 | TORA länkar Glippsta till geometriska kartan C2:414–415 från 1634, bild `R0000152_00212`, och Malstanäs till C5b:24 från 1685, bild `R0002568_00037`. | TRANSCRIBED | hög | [C-0817](../citations/C-0817-riksarkivet-mcp-tora-erik-karlsson.md) | Kartorna är mer än två sekler äldre än Erik och belägger inte hans vistelse, ägande eller arbete. |
+| A-3116 | TORA:s Väsby-kandidat 14996 ligger i Helgesta, medan Rosenberg beskriver Wäsby i Flen under Mälby i Helgesta och personkällorna för Eriks kedja mellan Flen och Helgesta. | CONFLICT | medel | [C-0817](../citations/C-0817-riksarkivet-mcp-tora-erik-karlsson.md), [C-0814](../citations/C-0814-riksarkivet-mcp-rosenberg-erik-karlsson.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md), [C-0799](../citations/C-0799-helgesta-B4-erik-karlsson-januari-1909.md) | Administrativ eller tidsmässig ortstillhörighet hålls källspecifik; TORA-posten ensam identifierar inte Eriks Wäsby. |
+| A-3117 | TORA:s socken-/länsfilter gav noll även för de ofiltrerat positiva kontrollorterna Glippsta och Malstanäs; mindre orters noll och homonymerna Bergatorp/Brosätter är därför inte ort-, person- eller vistelsenoll. | TRANSCRIBED | hög | [C-0817](../citations/C-0817-riksarkivet-mcp-tora-erik-karlsson.md) | Ofiltrerad namnkontroll och församling/kommunjämförelse krävs innan en träff eller ett nollresultat får användas. |
 
 ## Relationer
 
@@ -200,6 +209,30 @@ födelseboken 1881 och `Erik Karlsson` i Flens församlingsbok.
   C-0737 ger båda volymerna exakta äldre Arkis-UUID:er men inga bildbarn.
   Inget bouppteckningsinnehåll eller personnoll får infereras från
   katalogposterna eller åtkomstomprovet.
+
+## Historisk ortskontext 2026-09-03
+
+- Rosenbergs geografiska lexikon ger miljökontext åt tre redan
+  källbundna led. Barndomens Glippsta beskrivs som en by i Bettna nära
+  Oxelösunds järnväg. Malstanäs, som folkräkningen 1880 anger över
+  Svartgjötorp, beskrivs som en herrgård vid Uren med kvarn och såg.
+  Wäsby i Flen beskrivs som en gård vid Båven nära Västra stambanan och
+  lydande under Mälby i Helgesta.
+- Personens bostäder beläggs av C-0702, C-0105, C-0796 och C-0799.
+  C-0814 används bara för orternas historiska karaktär. Järnvägs-, kvarn-,
+  såg- eller herrgårdsarbete får inte läggas till som Eriks yrke.
+- De mindre bostadsnamnen saknar exakta målposter i de prövade
+  Rosenbergfrågorna. Det är ett stavnings- och lexikontäckningsresultat,
+  inte ett ort- eller vistelsenoll. Återta endast med en ny stavnings-,
+  kart-, jordregister- eller arkivnyckel.
+- TORA ger nu beständiga koordinat- och kartrutter för Glippsta och
+  Malstanäs, C-0817. Glippstas 1634-karta och båda IIIF-tjänsternas
+  `info.json` är lokalt bevarade. Malstanäsbilden gav `401` i direkt IIIF;
+  inloggad Chrome visade rätt volym och bild 37 men gav ingen reproducerbar
+  lokal binär. Detta är ett åtkomstresultat, inte ett käll- eller ortsnoll.
+- TORA-filtren missade kända positiva kontroller. Kör därför ofiltrerat namn
+  och kontrollera socken/kommun innan orter förenas. Bergatorp i Vrena och
+  Brosätter i Årdala förenas inte med Eriks Flenbelägg.
 
 ## Kommunal ekonomisk route 2026-09-02
 

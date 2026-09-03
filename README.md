@@ -19,7 +19,12 @@ anlinjer, [källtäckningsmatrisen](genealogy/source-coverage.md) för prövade 
 prioriterade källfamiljer och [genealogy/README.md](genealogy/README.md) för struktur,
 källmodell och citeringsregler samt
 [genealogy/method-riksarkivet.md](genealogy/method-riksarkivet.md) för hur
-källbilderna hämtas reproducerbart. Det långsiktiga ägarbeslutet finns i
+källbilderna hämtas reproducerbart. Riksarkivets MCP används först där den har
+ett passande sök- eller specialverktyg. API/JSON-LD/OAI och IIIF-manifest
+avgränsar därefter källan och bildföljden; visuellt lästa original bär normalt
+kyrkobokens personpåståenden. Direkt IIIF föredras för systematiska svep och
+lokalt bevarande när bild-id är känt, medan Chrome används sist som snäv
+åtkomstreserv. Det långsiktiga ägarbeslutet finns i
 [PROJECT-CONTROL.md](PROJECT-CONTROL.md); all körbar forskning ligger i Wotan.
 
 Repository and source-artifact preservation are documented in

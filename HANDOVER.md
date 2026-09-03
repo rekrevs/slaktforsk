@@ -1,16 +1,60 @@
-# Handover 2026-09-02 (batch 220, verifierad)
+# Handover 2026-09-03 (batch 228, verifierad)
 
 Detta är den korta ingången för en ny Codex-session. Chattens historik är
 inte källa för projektläget. Läs filerna och kontrollera arbetsytan innan
 någon åtgärd görs.
 
-Detta är aktuell handover efter batch 220 och ersätter den förbrukade
-batch-219-ingången.
+Sedan ägarbeslutet 2026-09-03 finns projektets deklarativa mål i
+`NORTH-STAR.md`. En ny session ska använda Riksarkivets globalt konfigurerade
+MCP först för lämplig upptäckt, sökning och registerrouting och därefter följa
+lager- och bevismodellen i `genealogy/method-riksarkivet.md`. API, JSON-LD,
+OAI och IIIF-manifest avgränsar källan; originalbilden bär normalt sidbundna
+personpåståenden. När bild-id redan är känt föredras direkt IIIF för
+systematiska svep och lokalt bevarande. MCP-viewern är en orienteringsväg och
+Chrome en snäv sista åtkomstreserv, inte obligatoriska mellanled. Om
+MCP-verktygen inte syns är det ett åtkomst- eller sessionsläge, inte ett
+källnoll.
+
+Detta är aktuell handover efter batch 228 och ersätter den förbrukade
+batch-227-ingången.
 
 ## Startordning i en ny session
 
-1. Läs `README.md`, `wotan/backlog.json` och `wotan/dev-log/T-0012.md`.
-2. Läs `genealogy/research-log/2026-09-02.md`, därefter S-0625, C-0809 och
+1. Läs `README.md`, `NORTH-STAR.md`, `genealogy/method-riksarkivet.md`,
+   `wotan/backlog.json` och `wotan/dev-log/T-0012.md`.
+2. Läs `genealogy/research-log/2026-09-03.md`, därefter S-0633, C-0817 och
+   P-0133. Batch 228 ger TORA-koordinater och kartrouting för Glippsta och
+   Malstanäs, visar att socken-/länsfiltren missar kända positiva kontroller
+   och bevarar ett verkligt IIIF/Chrome-åtkomstfall. Glippstas kartbild och
+   båda `info.json` finns lokalt; Malstanäsbilden gav publik `401` och kunde
+   ses men inte reproducerbart bevaras via inloggad Chrome. Inga sessionsdata
+   lästes. Läs därefter S-0632, C-0816 och P-0051. Batch 227 ger Rosenberg-baserad miljökontext åt Jomark nära
+   Robertsfors bruk och åt den avgränsade Öfverklinten-ledtråden. Lexikonet
+   belägger inget bruksarbete, ingen ny vistelse och inget föräldraskap;
+   moderna `Överklinten` och Lugnet gav endast stavnings-/lexikonbundna
+   noll. Läs därefter S-0631, C-0815 och P-0336. Batch 226 ger
+   Rosenberg-baserad miljökontext åt Rökland/Rockland
+   och Tureberg samt en Lundby→Stora Lundby-hänvisning utan att lösa
+   födelseidentiteten eller föräldrarna. Läs därefter S-0630, C-0814 och
+   P-0133. Batch 225 ger Rosenberg-baserad ortskontext åt Glippsta,
+   Malstanäs och Väsby utan att göra lexikonet till person- eller yrkeskälla.
+   Läs därefter S-0629, C-0813 och P-0051. Batch 224 avgränsar sjömanshusens Matrikel/Liggare som en ny
+   Piteå-källfamilj utan exakt Olaus/Olof Pehrsson/Persson-träff; två
+   Olof/Ol. Jung-närträffar 1843 förblir orelaterade och originalen i
+   Härnösands D I a/1 samt D I b/1 är analoga/mikrokort. Läs därefter
+   S-0628, C-0812 och P-0336. Batch 223 visar att DDS mål-, lokal- och länstäckning inte ger en
+   kompatibel Olaus-kandidat, medan nationella tjänstekontroller fungerar.
+   Metadatanoll på fullnamn och fem redan katalogbelagda referenskoder är
+   frågesynlighet, inte katalog- eller volymnoll. Läs därefter S-0627,
+   C-0811 och P-0133. Batch 222 visar genom sex kända positiva målhändelser, tre
+   länskontroller och positiva nationella tjänstekontroller att DDS saknar
+   användbar synlig täckning för Södermanlands målområde; resultatet är
+   inte ett person-, händelse-, vistelse-, relations- eller levnadsbanenoll.
+   Läs därefter S-0626, C-0810 och P-0051. Batch 221 visar genom målfrågor, kända positiva lokala
+   kontroller, länskontroller och positiva nationella tjänstekontroller att
+   DDS saknar användbar synlig täckning för målområdet; resultatet är inte
+   ett person-, födelse-, vigsel-, vistelse- eller föräldranoll. Läs därefter
+   `genealogy/research-log/2026-09-02.md`, S-0625, C-0809 och
    P-0336. Batch 220 avgränsar SCB:s hela Sollentunautdrag 1920 till
    `A0056304_00294`–`_00339`, bevarar alla 46 fulloriginal och avvisar fem
    OCR-nomineringar i original; resultatet är endast en maskinassisterad
@@ -51,7 +95,35 @@ batch-219-ingången.
 4. Återuppta bara den aktuella användarinstruktionen. Äldre chattpromptar är
    historik och får inte behandlas som nya uppdrag efter context compaction.
 5. Om forskning ska fortsätta: rotera breddförst inom Wotan T-0012 från
-   batch 220:s beständiga läge till P-0051. Upprepa inte blind OCR av
+   batch 228:s beständiga läge till P-0336. Upprepa inte C-0817:s exakta
+   TORA-frågor utan ny stavnings-, kart-, jordregister- eller arkivnyckel.
+   Kör ofiltrerad kontroll när TORA-filter ger noll; förena inte homonymer
+   med avvikande socken/kommun. Kartorna från 1634/1685 belägger inte Erik.
+   Malstanäsbildens publika `401` är ett åtkomstresultat; Chrome-reserven
+   löste visning men inte beständig binär. Upprepa inte C-0816:s exakta
+   Rosenbergfrågor utan ny stavnings-, kart-, jordregister-, arkiv- eller
+   täckningsnyckel. Jomarks närhet till Robertsfors belägger inte arbete
+   eller egendomsförhållande, och Öfverklintenposten belägger inte Barbros
+   vistelse eller Olaus som far. Upprepa inte C-0815:s exakta
+   Rosenbergfrågor utan ny stavnings-, kart-, jordregister-, arkiv- eller
+   täckningsnyckel. Ortsmaterialet belägger inte personen, yrket,
+   födelseidentiteten eller föräldrarna. Upprepa inte C-0814:s exakta
+   Rosenbergfrågor eller namn-/ortmetadata utan ny stavnings-, kart-,
+   jordregister-, arkiv- eller täckningsnyckel. Ortsposterna belägger inte
+   personen och deras verksamhetsflaggor är inte Eriks yrken. Upprepa inte C-0813:s
+   Piteåfiltrerade sjömanshusfrågor utan ändrad täckning eller en ny namn-,
+   nummer-, fartygs-, original- eller hushållsnyckel; fulltextträffarna är
+   inte personnoll. Upprepa inte DDS-frågorna för
+   Stora Lundby/Hemsjö/Sollentuna eller Älvsborg/Stockholm och upprepa inte
+   C-0812:s metadatanoll utan en dokumenterad täcknings- eller sökförändring;
+   resultaten är inte person-, födelse-, föräldra-, katalog- eller
+   volymnoll. Upprepa inte DDS-frågorna för
+   Bettna/Årdala/Forssa/Flen/Helgesta eller Södermanland utan en
+   dokumenterad täckningsförändring; C-0811 är ett registertäckningsresultat
+   och får inte bli personnoll. Upprepa inte heller DDS-frågorna för
+   Bygdeå/Lövånger/Västerbotten utan en dokumenterad täckningsförändring;
+   C-0810 är ett registertäckningsresultat och får inte bli personnoll.
+   Upprepa inte blind OCR av
    SCB:s Sollentunautdrag 1920 `A0056304_00294`–`_00339` utan en ny
    adress-, gårds-, sido-, familjemedlems- eller yrkesnyckel. Alla 46
    fulloriginal finns beständigt i `genealogy/media/` med C-0809-prefix;
@@ -84,9 +156,218 @@ batch-219-ingången.
    eller flyttnyckel; Östra Fågelvik H II/5 post 4 den 1873-04-25 är
    fortsatt direkt Olaus-återstart. Om en ny CAPTCHA visas: rör inte
    kontrollen. Gör ingen läsesals- eller
-   kopiebeställning. Använd endast Riksarkivet och API/IIIF där möjligt.
+   kopiebeställning. Använd endast Riksarkivet; använd MCP först där den
+   täcker behovet och API/JSON-LD/IIIF som komplettering eller reserv.
    Skapa inte en ny dashboard, starta inte T-0013 och påbörja ingen ny
    utgåve-PDF.
+
+## Sessionscheckpoint 2026-09-03 — batch 228
+
+- TORA via MCP gav beständiga koordinat- och kartrutter för Glippsta och
+  Malstanäs samt en källspecifik Väsby-kandidat. Filtren missade kända
+  positiva kontroller; Bergatorp/Brosätter-homonymer förenades inte.
+- Direkt IIIF bevarade två `info.json` och Glippstas karta. Malstanäs
+  bildderivat gav `401`; inloggad Chrome visade rätt volym/bild 37 men
+  kunde inte ge en reproducerbar lokal binär. Inga sessionsdata lästes.
+- S-0633, C-0817, A-3114–A-3117 och fyra mediaartefakter bevarar hela
+  utfallet. T-0012 är fortsatt `ONGOING`/`DOING`; nästa rotation är P-0336.
+- Verifiering: 500 personer, 2 598 påståenden, 525 föräldralänkar, 1 968
+  Markdownposter och 4 332 mediafiler inklusive `.gitkeep`; manifest 4 331
+  (2 528 exakt, 1 775 käll-, 28 citationsavgränsade, 0 olänkade).
+
+## Sessionscheckpoint 2026-09-03 — batch 227
+
+- Rosenbergs geografiska lexikon prövades via Riksarkivets MCP för
+  P-0051:s redan personbelagda Jomarkliv och den avgränsade
+  Lundberg/Olaus-ledtråden.
+- Jomark beskrivs som en by i Bygdeå nära Robertsfors bruk. Robertsfors
+  egen post konkretiserar en järn-, verkstads-, kvarn-, såg-, varvs- och
+  lastplatsmiljö vid Rickleån, men belägger inte att Barbro eller hennes
+  familj arbetade där eller tillhörde egendomen.
+- Historiska `Öfverklinten` beskrivs som en by vid Rickleån med kvarn.
+  Moderna `Överklinten` och Lugnet gav noll. Det är stavnings- och
+  lexikonkänslighet, inte vistelse- eller släktskapsnoll; Olaus förblir en
+  obevisad faderskandidat.
+- S-0632, C-0816, A-3110–A-3113 och en checksummad observation bevarar
+  poster och inferensgränser. T-0012 förblir `ONGOING`/`DOING`; nästa
+  breddrotation är P-0133. Ingen person, relation, födelseidentitet,
+  förälder, ny bostads- eller yrkeshändelse, beställning, webbläsarsession,
+  PDF, deployment, commit eller push skapades.
+- Verifiering: 500 personer, 2 594 påståenden, 525 föräldralänkar, 1 966
+  Markdownposter och 4 328 mediafiler inklusive `.gitkeep`. Manifestet har
+  4 327 poster: 2 528 exakt, 1 771 källavgränsade, 28 citationsavgränsade
+  och 0 olänkade. Parser-/datatester 5/5, pedigree 77, djup-5-paket,
+  utgåvemanifest, projekt-/Wotan-/manifest-/observations-/dashboard-JSON,
+  dashboardtest, produktionsbygge, observationens SHA-256, oförändrad
+  PDF-yta och `git diff --check` passerade. De väntat icke-nollande
+  auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup 5 med
+  P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom
+  P-0210:s djup 4.
+
+## Sessionscheckpoint 2026-09-03 — batch 226
+
+- Rosenbergs geografiska lexikon prövades via Riksarkivets MCP för
+  P-0336:s redan personbelagda livskedja.
+- Rökland/Rockland beskrivs som by-, ångsågs- och lastplatsmiljö på västra
+  Alnön och Tureberg som hållplats på Norra stambanan mellan Järva och
+  Rotebro. Lundby i Älvsborg/Vättle hänvisas till Stora Lundby.
+- Personens vistelser, järnvägsyrken och död bärs av separata källor.
+  Lexikonet belägger inget såg-/lastplats- eller Turebergsarbete och löser
+  inte födelseidentiteten eller föräldrarna. Björknäs-/Kungsholmsnollen är
+  endast lexikonbundna.
+- S-0631, C-0815, A-3106–A-3109 och en checksummad observation bevarar
+  poster och inferensgränser. T-0012 förblir `ONGOING`/`DOING`; nästa
+  breddrotation är P-0051. Ingen person, relation, födelseidentitet,
+  förälder, ny bostadshändelse, beställning, webbläsarsession, PDF,
+  deployment, commit eller push skapades.
+- Verifiering: 500 personer, 2 590 påståenden, 525 föräldralänkar, 1 964
+  Markdownposter och 4 327 mediafiler inklusive `.gitkeep`. Manifestet har
+  4 326 poster: 2 527 exakt, 1 771 källavgränsade, 28 citationsavgränsade
+  och 0 olänkade. Parser-/datatester 5/5, pedigree 77, djup-5-paket,
+  utgåvemanifest, projekt-/Wotan-/manifest-/observations-/dashboard-JSON,
+  dashboardtest, produktionsbygge, observationens SHA-256, oförändrad
+  PDF-yta och `git diff --check` passerade. De väntat icke-nollande
+  auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup 5 med
+  P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom
+  P-0210:s djup 4.
+
+## Sessionscheckpoint 2026-09-03 — batch 225
+
+- Rosenbergs geografiska lexikon prövades via Riksarkivets MCP som ny
+  berikningskälla för P-0133:s redan källbundna livslopp.
+- Rosenberg 16202 beskriver Glippsta som en by nära Oxelösunds järnväg,
+  36781 Malstanäs som en herrgård vid Uren med kvarn och såg och 63857
+  Väsby i Flen som en gård vid Båven nära Västra stambanan, under Mälby i
+  Helgesta.
+- Personkopplingen bärs fortsatt av kyrkoböcker och folkräkningar.
+  Lexikonet namnger inte Erik och verksamhetsflaggorna blir inte yrken.
+  Mindre orters och namn-/ortmetadatans noll är endast stavnings-,
+  lexikon- och frågefältsbundna.
+- S-0630, C-0814, A-3102–A-3105 och en checksummad observation bevarar
+  posterna och inferensgränserna. T-0012 förblir `ONGOING`/`DOING`;
+  nästa breddrotation är P-0336. Ingen person, relation, ny bostadshändelse,
+  beställning, webbläsarsession, PDF, deployment, commit eller push
+  skapades.
+- Verifiering: 500 personer, 2 586 påståenden, 525 föräldralänkar, 1 962
+  Markdownposter och 4 326 mediafiler inklusive `.gitkeep`. Manifestet har
+  4 325 poster: 2 526 exakt, 1 771 källavgränsade, 28 citationsavgränsade
+  och 0 olänkade. Parser-/datatester 5/5, pedigree 77, djup-5-paket,
+  utgåvemanifest, projekt-/Wotan-/manifest-/observations-/dashboard-JSON,
+  dashboardtest, produktionsbygge, observationens SHA-256, oförändrad
+  PDF-yta och `git diff --check` passerade. De väntat icke-nollande
+  auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup 5 med
+  P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom
+  P-0210:s djup 4.
+
+## Sessionscheckpoint 2026-09-03 — batch 224
+
+- Riksarkivets MCP prövade sjömanshusens Matrikel och Liggare som ny
+  källfamilj för Olaus/Olof Pehrsson född 1784-02-07 i Överklinten, med
+  `Piteå` som positiv flyttnyckel.
+- Piteåfiltrerad Matrikel visade ingen användbar täckning. Liggare gav
+  regionala kontrollposter men ingen huvudperson med någon av de fyra
+  Olaus/Olof Pehrsson/Persson-formerna i de kompletta målfrågorna.
+- `Olof Jung` och `Ol. Jung` 1843 anges födda och hemma i Piteå och är bara
+  närträffar. Härnösands sjömanshus D I a/1 och D I b/1 är enligt MCP
+  odigitaliserade/otranskriberade och tillgängliga på mikrokort; ingen sida
+  lästes och ingen person eller relation skapades.
+- S-0629, C-0813, A-3099–A-3101 och en checksummad observation bevarar
+  frågor, söksemantik, närträffar, originalrutter och tolkningsgräns. Olaus
+  förblir obevisad faderskandidat. T-0012 förblir `ONGOING`/`DOING`; nästa
+  breddrotation är P-0133. Ingen beställning, webbläsarsession, PDF,
+  deployment, commit eller push skapades.
+- Verifiering: 500 personer, 2 582 påståenden, 525 föräldralänkar, 1 960
+  Markdownposter och 4 325 mediafiler inklusive `.gitkeep`. Manifestet har
+  4 324 poster: 2 525 exakt, 1 771 källavgränsade, 28
+  citationsavgränsade och 0 olänkade. Parser-/datatester 5/5, pedigree 77,
+  djup-5-paket, utgåvemanifest, projekt-/Wotan-/manifest-/observations-/
+  dashboard-JSON, dashboardtest, produktionsbygge, observationens SHA-256,
+  oförändrad PDF-yta och `git diff --check` passerade. De väntat
+  icke-nollande auditerna visar tio ogiltiga slutstatusar genom P-0004:s
+  djup 5 med P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen
+  genom P-0210:s djup 4.
+
+## Sessionscheckpoint 2026-09-03 — batch 223
+
+- Riksarkivets MCP användes först på P-0336:s olösta födelse- och
+  föräldrafråga. DDS missade Olaus/Olof i Stora Lundby 1852, den
+  originallästa brodern Johan August 1849 och Olaus säkra vigsel/död samt
+  tre länskontroller.
+- Nationella tjänstekontroller gav 25 födelse-, 238 vigsel- och fyra
+  dödposter. Exakt-datumfrågorna gav ingen kandidat förenlig med den säkra
+  Älvsborg–Fågelvik–Alnö-kedjan.
+- Metadatasökningen missade fullnamn och fem redan katalogbelagda
+  referenskoder trots positiva breda kontroller. Det upphäver inte tidigare
+  katalogbelägg. S-0628, C-0812, A-3098 och en checksummad strukturerad
+  observation bevarar frågor och tolkningsgräns.
+- Olaus födelsedatum och föräldrar förblir olösta. T-0012 förblir
+  `ONGOING`/`DOING`; nästa breddrotation är P-0051. Ingen person, relation,
+  beställning, webbläsarsession, PDF, deployment, commit eller push skapades.
+- Verifiering: 500 personer, 2 579 påståenden, 525 föräldralänkar, 1 958
+  Markdownposter och 4 324 mediafiler inklusive `.gitkeep`. Manifestet har
+  4 323 poster: 2 524 exakt, 1 771 källavgränsade, 28
+  citationsavgränsade och 0 olänkade. Parser-/datatester 5/5, pedigree 77,
+  djup-5-paket, utgåvemanifest, projekt-/Wotan-/manifest-/observations-/
+  dashboard-JSON, dashboardtest, produktionsbygge, observationens SHA-256,
+  oförändrad PDF-yta och `git diff --check` passerade. De väntat
+  icke-nollande auditerna visar tio ogiltiga slutstatusar genom P-0004:s
+  djup 5 med P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen
+  genom P-0210:s djup 4.
+
+## Sessionscheckpoint 2026-09-03 — batch 222
+
+- Riksarkivets MCP användes först för sex exakta, originallästa händelser i
+  P-0133:s familj: födelsen i Bettna 1851, vigslarna i Årdala 1876 och Flen
+  1895, dödsfallen i Forssa 1887, Flen 1920 och Helgesta 1935. Alla sex
+  gav noll i DDS Födelse/Döda/Vigsel.
+- Tre länsvida Södermanlandskontroller gav också noll, medan nationella
+  tjänstekontroller gav 156 födelseposter, 32 vigselposter och en
+  dödfulltextträff. Utfallet är ett DDS-täckningshinder och ändrar inte
+  originalbeläggen.
+- S-0627, C-0811, A-3097 och en checksummad strukturerad MCP-observation
+  bevarar frågor, kontrollresultat och tolkningsgräns.
+- T-0012 förblir `ONGOING`/`DOING`; nästa breddrotation är P-0336. Ingen
+  person, relation, läsesals-/kopiebeställning, webbläsarsession, PDF,
+  deployment, commit eller push skapades.
+- Verifiering: 500 personer, 2 578 påståenden, 525 föräldralänkar, 1 956
+  Markdownposter och 4 323 mediafiler inklusive `.gitkeep`. Manifestet har
+  4 322 poster: 2 523 exakt, 1 771 källavgränsade, 28
+  citationsavgränsade och 0 olänkade. Parser-/datatester 5/5, pedigree 77,
+  djup-5-paket, utgåvemanifest, projekt-/Wotan-/manifest-/observations-/
+  dashboard-JSON, dashboardtest, produktionsbygge, ny hel- och
+  detaljrendering av den oförändrade 20-sidiga A4-utgåvan, metadata-, text-
+  och teckengränskontroller, observationens SHA-256 och `git diff --check`
+  passerade. De väntat icke-nollande auditerna visar tio ogiltiga
+  slutstatusar genom P-0004:s djup 5 med P-0051 som nästa tillåtna
+  arbetsdjup och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## Sessionscheckpoint 2026-09-03 — batch 221
+
+- Riksarkivets globalt konfigurerade MCP användes först för P-0051:s
+  olösta födelse- och föräldrafråga. DDS Födelse gav noll för Barbro/Cajsa
+  i Bygdeå och Lövånger 1830; DDS Vigsel gav noll för Olof Pehrsson och
+  Maja Stina Pehrsdotter i Bygdeå 1810.
+- Kända positiva lokala kontroller, vanliga namn och länsvida
+  Västerbottenkontroller gav också noll, medan samtidiga nationella
+  tjänstekontroller gav 1 151 födelseposter och 130 vigselposter. Utfallet
+  är därför ett DDS-täckningshinder, inte ett nytt person-, födelse-,
+  vigsel-, vistelse- eller föräldranoll.
+- S-0626, C-0810, A-3096 och en checksummad strukturerad MCP-observation
+  bevarar frågor, kontrollresultat och tolkningsgräns. Tidigare
+  originallästa belägg och konflikter står oförändrade.
+- T-0012 förblir `ONGOING`/`DOING`; nästa breddrotation är P-0133. Ingen
+  person, relation, läsesals-/kopiebeställning, webbläsarsession, PDF,
+  deployment, commit eller push skapades.
+- Verifiering: 500 personer, 2 577 påståenden, 525 föräldralänkar, 1 954
+  Markdownposter och 4 322 mediafiler inklusive `.gitkeep`. Manifestet har
+  4 321 poster: 2 522 exakt, 1 771 källavgränsade, 28
+  citationsavgränsade och 0 olänkade. Parser-/datatester 5/5, pedigree 77,
+  djup-5-paket, utgåvemanifest, projekt-/Wotan-/manifest-/observations-/
+  dashboard-JSON, dashboardtest, produktionsbygge, oförändrad 20-sidig
+  utgåva, observationens SHA-256 och `git diff --check` passerade. De
+  väntat icke-nollande auditerna visar tio ogiltiga slutstatusar genom
+  P-0004:s djup 5 med P-0051 som nästa tillåtna arbetsdjup och exakt
+  P-0336 öppen genom P-0210:s djup 4.
 
 ## Sessionscheckpoint 2026-09-02 — batch 220
 
@@ -3096,10 +3377,13 @@ När arbetet senare når djup 5 är P-0415 en exakt återstart för att lösa
 fadersnamnskonflikten genom äldre Holm-hushåll och flyttkedjan. Upprepa inte
 bara samma födelsenotis eller CEDAR-biografi.
 
-## Riksarkivet: API först, Chrome som reserv
+## Riksarkivet: MCP-upptäckt, direkt data/IIIF och Chrome-reserv
 
-Ägarregeln från 2026-08-29 är bindande: pröva sök-API, JSON-LD och IIIF före
-Chrome där det är möjligt. Dokumentera exakt varför övergången behövs. I
+Den aktuella regeln är bindande: använd MCP först för lämplig upptäckt och
+registerrouting, gå därefter direkt via API/JSON-LD/OAI/IIIF för avgränsning,
+original och systematiska svep, och använd Chrome endast när åtkomst eller
+interaktiv visning faktiskt kräver den inloggade ytan. Dokumentera exakt
+varför övergången behövs. I
 batch 86 saknade API/JSON-LD bildlänk för två digitaliserade volymer och
 direkt-IIIF gav `403`; först då användes den inloggade katalogen/bildvisaren.
 ALTCHA/CAPTCHA får inte lösas utan uttrycklig ägarbekräftelse.
@@ -3166,30 +3450,30 @@ dashboardtidslinjen ensam bevisar inte ordagrann återspelning.
 
 ## Senast verifierat
 
-Efter batch 219 passerade:
+Efter batch 228 passerade:
 
 - `node --test scripts/*.test.mjs` — 5/5 tester.
-- `node scripts/validate-genealogy.mjs` — 2 574 påståenden, 1 949
-  Markdownposter och 4 263 filer i mediakatalogen inklusive `.gitkeep`;
+- `node scripts/validate-genealogy.mjs` — 2 598 påståenden, 1 968
+  Markdownposter och 4 332 filer i mediakatalogen inklusive `.gitkeep`;
   Wotan-JSON giltig.
-- dashboardens datatest och `npm run build` — 500 personer, 2 574
+- dashboardens datatest och `npm run build` — 500 personer, 2 598
   påståenden och 525 föräldralänkar.
 - `node scripts/verify-pedigree.mjs` — P-0004-baslinjen 77.
 - `node scripts/verify-depth5-wave.mjs` och
   `node scripts/validate-edition-manifest.mjs` — pass.
-- `node scripts/media-manifest.mjs --check` — 4 262 sakmedier (2 508
-  exakt, 1 726 käll- och 28 citationsavgränsade), 0 olänkade.
+- `node scripts/media-manifest.mjs --check` — 4 331 sakmedier (2 528
+  exakt, 1 775 käll- och 28 citationsavgränsade), 0 olänkade.
 - projekt-, Wotan-, mediamanifest-, observations-, utgåve- och
-  dashboard-JSON är giltiga; samtliga tio nya mediekontrollsummor och
-  `git diff --check` passerar.
-- den befintliga utgåvan är oförändrad och verifieras som 20 A4-sidor med
-  giltiga gränser, metadata och obligatorisk text.
+  dashboard-JSON är giltiga; den nya observationskontrollsumman,
+  den oförändrade utgåvan och `git diff --check` passerar.
+- den befintliga utgåvan är oförändrad; ingen PDF skapades eller ändrades i
+  batchen.
 
 P-0210-auditen till och med djup 4 ger avsiktligt icke-noll och räknar
 exakt P-0336 som öppen spets. P-0004 har 77 kända anor; auditen ger
 avsiktligt status 1 med tio ogiltiga slutstatusar genom djup 5 och anger
 P-0051 som fortsatt nästa tillåtna djup-4-front. Wotans källstyrda
-breddrotation fortsätter från batch 219 till P-0336. Ingen PDF skapades
+breddrotation fortsätter från batch 228 till P-0336. Ingen PDF skapades
 eller ändrades i batchen.
 
 Kör en proportionerlig verifiering efter nästa ändring och skriv resultatet i

@@ -1,0 +1,111 @@
+{
+  "schema": "slaktforsk-riksarkivet-mcp-observation/v1",
+  "checked_at": "2026-09-03T09:35:51+02:00",
+  "source_id": "S-0632",
+  "citation_id": "C-0816",
+  "provider": "Riksarkivet",
+  "access_path": "globally configured Riksarkivet MCP server",
+  "scope": "P-0051 life-history enrichment: historical geographical context for the independently source-proven Jomark/Bygdea life and the carefully delimited Lugnet/Overklinten kin lead",
+  "research_context": "T-0012 batch 227: historical place-context enrichment for P-0051 Barbro Christina Olofsdotter's independently source-proven Jomark/Bygdea life and the carefully delimited Lugnet/Overklinten kin lead; place records must not establish identity, residence or parentage.",
+  "tool": "rosenberg:search_rosenberg",
+  "positive_place_records": [
+    {
+      "record_id": 26909,
+      "place": "Jomark",
+      "parish": "Bygdeå",
+      "hundred": "Bygdeå",
+      "county": "Västerbottens län",
+      "description": "By i Bygdeå socken och tingslag, nära Robertsfors bruk.",
+      "query": {
+        "keyword": "Jomark",
+        "forsamling": "Bygdeå",
+        "lan": "Västerbottens"
+      },
+      "result_count": 1
+    },
+    {
+      "record_id": 44631,
+      "place": "Robertsfors",
+      "parish": "Bygdeå",
+      "hundred": "Bygdeå",
+      "county": "Västerbottens län",
+      "description": "Bruksegendom i Bygdeå vid Rickleån med järnbruk, mekanisk verkstad och bland annat kvarn-, såg-, skeppsvarvs- och lastplatsanknuten verksamhet i den beskrivna egendomen.",
+      "feature_flags": [
+        "såg",
+        "kvarn"
+      ],
+      "query": {
+        "keyword": "Robertsfors",
+        "forsamling": "Bygdeå",
+        "lan": "Västerbottens"
+      },
+      "result_count": 9,
+      "interpretation": "Regional context only. Proximity between Jomark and the works does not establish employment, property affiliation or residence at Robertsfors for P-0051 or her household."
+    },
+    {
+      "record_id": 66344,
+      "place": "Öfverklinten",
+      "parish": "Bygdeå",
+      "hundred": "Bygdeå",
+      "county": "Västerbottens län",
+      "description": "By i Bygdeå socken och tingslag vid Rickleån; en kvarn anges med taxeringsvärde 3 000 kronor.",
+      "feature_flags": [
+        "kvarn"
+      ],
+      "query": {
+        "keyword": "Öfverklinten",
+        "forsamling": "Bygdeå",
+        "lan": "Västerbottens"
+      },
+      "result_count": 1,
+      "interpretation": "Historical-place context only for the already delimited Carl Eric Lundberg/Olaus Pehrsson kin lead. It does not place P-0051 in Öfverklinten or prove her parentage."
+    }
+  ],
+  "spelling_sensitive_queries": [
+    {
+      "keyword": "Överklinten",
+      "forsamling": "Bygdeå",
+      "lan": "Västerbottens",
+      "result_count": 0,
+      "comparison": "The historical spelling Öfverklinten returned Rosenberg 66344 under the same parish and county filters."
+    },
+    {
+      "keyword": "Lugnet",
+      "forsamling": "Bygdeå",
+      "lan": "Västerbottens",
+      "result_count": 0
+    }
+  ],
+  "context_records": [
+    {
+      "record_id": 7822,
+      "place": "Bygdeå",
+      "parish": "Bygdeå",
+      "hundred": "Bygdeå",
+      "county": "Västerbottens län",
+      "description": "Socken och tingslag vid Bottniska viken kring Rickleån och Dalkarlsån; posten har såg- och kvarnflaggor.",
+      "feature_flags": [
+        "såg",
+        "kvarn"
+      ],
+      "query": {
+        "keyword": "Robertsfors",
+        "forsamling": "Bygdeå",
+        "lan": "Västerbottens"
+      },
+      "result_count": 9,
+      "interpretation": "Parish-scale context only; the result does not attach P-0051 to any listed facility or activity."
+    }
+  ],
+  "interpretation": "Rosenberg supplies historical environmental context for Jomark, whose connection to P-0051 between 1846 and 1913 is established by separate person-bearing church-book and census citations. The Jomark and Robertsfors entries place that proven life in a nearby industrial landscape but do not establish employment, property affiliation or residence at the works. The historical-spelling Öfverklinten entry contextualises only the already source-delimited Lundberg/Olaus lead; it does not connect P-0051 to the village or make Olaus Pehrsson her father.",
+  "limitations": [
+    "The geographical lexicon does not name Barbro Christina Olofsdotter or any member of her household.",
+    "P-0051's residence and long life in Jomark are established only by the existing person-bearing citations.",
+    "Proximity to Robertsfors does not establish that P-0051 or her relatives worked for, lived at or held property under the works.",
+    "Robertsfors industry flags must not replace the household sources' descriptions of P-0051 as a farm-owner's daughter or of her husband as a former farm owner.",
+    "The Öfverklinten record supplies context for a kin lead only and does not establish P-0051's birthplace, residence or parentage.",
+    "Olaus Pehrsson remains an unproven father candidate; no biological relation is created.",
+    "The Lugnet and modern-spelling Överklinten no-results are lexicon-, spelling-, parish-filter- and query-field-bounded, not place, residence, person or relationship nulls.",
+    "No person, relationship, birth identity, parent, occupation or new residence event was created from these records."
+  ]
+}
