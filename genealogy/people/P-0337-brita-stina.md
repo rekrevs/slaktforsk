@@ -59,3 +59,7 @@ fastighets- och adresskontext.
   rotemanshushållet 1885–1886. F III/1:s tidigare Fredberg-noll är rättat.
   Dödortsfältet är tomt; sök inte fram en särskild dödsplats utan ny
   sjukhus-, boupptecknings- eller begravningsnyckel. Rotera breddförst.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

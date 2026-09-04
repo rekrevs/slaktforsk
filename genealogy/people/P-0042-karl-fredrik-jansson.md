@@ -35,3 +35,7 @@ Dotterson: [P-0003 Arne Godvig](P-0003-arne-godvig-jansson.md).
 Föräldrar enligt den genom C-0421 identitetssäkrade födelsenotisen C-0099:
 [P-0131 Adolf Fredrik Jansson](P-0131-adolf-fredrik-jansson.md) och
 [P-0132 Eva Lotta Jonsdotter](P-0132-eva-lotta-jonsdotter.md).
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

@@ -31,3 +31,7 @@ Exakt födelsedatum och plats är säkrade i två församlingsbokssidor. Egen
 födelsenotis saknas även i SCB:s kompletta Hudiksvallsutdrag 1896; orsaken är
 öppen. Senare livslopp återstår. Namnformen Augusta Elisabet får inte blandas
 ihop med den separat dokumenterade systern som dog 1895.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)

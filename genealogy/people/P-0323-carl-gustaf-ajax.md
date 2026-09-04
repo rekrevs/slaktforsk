@@ -33,3 +33,7 @@ korroborerad; det är förnamnsformen, inte personen, som förblir öppen.
 - Följ utflyttningen till Linköping 1840 i andra Linköpingsförsamlingar eller
   senare original för att avgöra vilken förnamnsform han använde. Upprepa inte
   domkyrkoförsamlingens kompletta B I/3-år 1840 utan ny sido-/attestnyckel.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)

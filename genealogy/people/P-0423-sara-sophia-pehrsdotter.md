@@ -107,3 +107,7 @@ P-0028 rättades 2026-08-29; föräldrarna är nya spetsar på djup 5.
   är också kontrollerat för den exakta sjuradersprofilen utan träff.
   Upprepa inte intervallet eller gör kombinationsnollresultatet till ett
   personnoll eller en konstruerad flytt.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

@@ -9,6 +9,9 @@
 - `identity-review-YYYY-MM-DD.md` — tvärgående konsolideringsrevisioner av
   namnformer, personidentiteter, felaktiga sammanslagningar och skyddade
   kandidatgränser.
+- `## Arbetsläge` i en personakt — maskinläsbart arbetsläge som
+  `scripts/goal-state.mjs` läser (se nedan). Det är arbetsläge, inte fakta
+  om personen.
 - `media/` — hämtade bilder; filnamn börjar med citationens id och åtföljs av
   kontrollsumma i citationsakten.
 - `exports/` — härledda utbyten, exempelvis GEDCOM. Exporter är inte
@@ -28,8 +31,34 @@ Projektet skiljer fyra lager som inte får blandas ihop:
    bedömning av identitet, händelser, relationer, konflikter och luckor.
 3. **Härledda slutsatser:** den verifierade antavlan, rapporter, index och
    exporter som byggs från personmodellen.
-4. **Arbetsläge:** Wotan, handover, forskningsfront och täckningsmatris som
-   anger vad som ska göras eller granskas, inte vad som är sant om en person.
+4. **Arbetsläge:** Wotan, handover, forskningsfront, täckningsmatris och
+   personakternas `## Arbetsläge` som anger vad som ska göras eller
+   granskas, inte vad som är sant om en person. Läget mot north star räknas
+   ut med `node scripts/goal-state.mjs`; se `NORTH-STAR.md`, avsnittet Mått.
+
+### Avsnittet `## Arbetsläge`
+
+Varje personakt får bära ett avsnitt `## Arbetsläge` med följande rader:
+
+```markdown
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)
+- Källbredd: `INTEGRITETSMINIMERAD`
+```
+
+- `Konsolidering` är `GRANSKAD` med datum och hänvisning när identitets- och
+  konsolideringspasset i forskningsprogrammet har gjorts och akten bedöms
+  avse en enda verklig person, annars `EJ GRANSKAD`. Saknat avsnitt betyder
+  `EJ GRANSKAD`. Om identiteten senare revideras sätts raden tillbaka till
+  `EJ GRANSKAD` tills passet har gjorts om.
+- `Källbredd` är valfri och används bara när källtäckningsmatrisen inte har
+  en rad för personen: `INTEGRITETSMINIMERAD` för sannolikt levande personer
+  och `KLAR` med motivering i akten när ingen relevant källfamilj återstår.
+  Annars avgör matrisraden: klar när ingen cell står som oprövad
+  högprioriterad (`1`).
+- Anspetsar och personer med bara en känd förälder bär dessutom
+  `## Slutstatus` enligt reglerna i `scripts/lib/terminal-status.mjs`.
 
 Evidenshistoriken är append-only. När en bevarad observation visar sig vara
 felavläst, felkopplad eller ofullständig ska den ligga kvar och en ny

@@ -60,3 +60,7 @@
   död 1898-05-25 i Buberget och begravd 5 juni. Bouppteckningens första sida
   ([C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md))
   namnger maken och samtliga åtta barn.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

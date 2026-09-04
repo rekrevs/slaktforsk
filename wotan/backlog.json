@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 18,
+  "next_id": 30,
   "tasks": [
     {
       "id": "T-0001",
@@ -90,9 +90,8 @@
     },
     {
       "id": "T-0012",
-      "status": "ONGOING",
+      "status": "DONE",
       "size": "L",
-      "phase": "DOING",
       "after": [
         "T-0011"
       ],
@@ -103,9 +102,12 @@
       "status": "BLOCKED",
       "size": "L",
       "after": [
-        "T-0012"
+        "T-0024",
+        "T-0025",
+        "T-0028",
+        "T-0029"
       ],
-      "blocker": "Waiting for T-0012 to complete and quality-consolidate the balanced next-edition cohort and for the owner's mandatory pre-PDF editorial checkpoint; deeper research must not outrun that gate",
+      "blocker": "Depth 5 from Adam and Axel must be treated per goal-state (T-0024–T-0029) and the owner must hold the mandatory pre-PDF editorial checkpoint (PCD-2026-08-23-001) before deeper research",
       "summary": "Complete the depth-6 central-spine wave and register the next frontier"
     },
     {
@@ -137,6 +139,104 @@
       "status": "DONE",
       "size": "M",
       "summary": "Preserve the genealogy workspace in a private GitHub repository"
+    },
+    {
+      "id": "T-0018",
+      "status": "DONE",
+      "size": "M",
+      "summary": "Steering layer: north-star measure and rule, repo-local Wotan convention, CLAUDE.md, agent-neutral routing"
+    },
+    {
+      "id": "T-0019",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0018"
+      ],
+      "summary": "Goal-state script counted from Adam and Axel with per-dossier work state and next-slice proposal"
+    },
+    {
+      "id": "T-0020",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0018"
+      ],
+      "summary": "Rewrite HANDOVER as a short state page and move per-person state out of the research plan"
+    },
+    {
+      "id": "T-0021",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0019",
+        "T-0020"
+      ],
+      "summary": "Close T-0012 at the consolidation gate and cut the remaining cohort work into finite tasks"
+    },
+    {
+      "id": "T-0022",
+      "status": "READY",
+      "size": "M",
+      "summary": "Treat depths 1–4 on Sverker's side: consolidation pass, Arbetsläge and coverage disposition for 15 people"
+    },
+    {
+      "id": "T-0023",
+      "status": "READY",
+      "size": "M",
+      "summary": "Treat depths 1–4 on Kristina's side: consolidation pass, Arbetsläge and coverage disposition for 15 people"
+    },
+    {
+      "id": "T-0024",
+      "status": "READY",
+      "size": "M",
+      "summary": "Archive front for P-0051 Barbro Christina Olofsdotter: parents or a valid Slutstatus"
+    },
+    {
+      "id": "T-0025",
+      "status": "READY",
+      "size": "M",
+      "summary": "Archive fronts for P-0336 Olaus Fredberg and P-0339 Margareta Charlotta Sjödin: parents or valid Slutstatus"
+    },
+    {
+      "id": "T-0026",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0022"
+      ],
+      "summary": "Consolidation pass over the 16 depth-5 dossiers on Sverker's side",
+      "blocker": "Waits for its predecessor in `after`; the Styrregel orders archive front, then consolidation, then source breadth"
+    },
+    {
+      "id": "T-0027",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0023"
+      ],
+      "summary": "Consolidation pass over the 16 depth-5 dossiers on Kristina's side",
+      "blocker": "Waits for its predecessor in `after`; the Styrregel orders archive front, then consolidation, then source breadth"
+    },
+    {
+      "id": "T-0028",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0026"
+      ],
+      "summary": "Close priority-1 source-family cells for the 16 depth-5 people on Sverker's side",
+      "blocker": "Waits for its predecessor in `after`; the Styrregel orders archive front, then consolidation, then source breadth"
+    },
+    {
+      "id": "T-0029",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0027"
+      ],
+      "summary": "Close priority-1 source-family cells for the 16 depth-5 people on Kristina's side",
+      "blocker": "Waits for its predecessor in `after`; the Styrregel orders archive front, then consolidation, then source breadth"
     }
   ]
 }

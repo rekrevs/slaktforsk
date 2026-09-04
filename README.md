@@ -3,10 +3,10 @@
 Detta är ett källstyrt släktforskningsprojekt. Wotan håller reda på arbetet;
 forskningsresultaten ligger under `genealogy/`.
 
-Codex läser först projektets [AGENTS.md](AGENTS.md), som routar vidare till de
-kanoniska styrdokumenten. En ny arbetssession fortsätter sedan med
-[HANDOVER.md](HANDOVER.md), som pekar ut det aktuella beständiga läget och
-skyddar mot att avslutade promptar körs om.
+Varje agent läser först projektets [AGENTS.md](AGENTS.md), som routar vidare
+till de kanoniska styrdokumenten. En ny arbetssession fortsätter sedan med
+[HANDOVER.md](HANDOVER.md), som är en kort lägessida, och kör
+`node scripts/goal-state.mjs` för läget mot målet.
 
 ## Grundregel
 
@@ -20,14 +20,11 @@ Se projektets [north star](NORTH-STAR.md) för den långsiktiga riktningen,
 anlinjer, [källtäckningsmatrisen](genealogy/source-coverage.md) för prövade och
 prioriterade källfamiljer och [genealogy/README.md](genealogy/README.md) för struktur,
 källmodell och citeringsregler samt
-[genealogy/method-riksarkivet.md](genealogy/method-riksarkivet.md) för hur
-källbilderna hämtas reproducerbart. Riksarkivets MCP används först där den har
-ett passande sök- eller specialverktyg. API/JSON-LD/OAI och IIIF-manifest
-avgränsar därefter källan och bildföljden; visuellt lästa original bär normalt
-kyrkobokens personpåståenden. Direkt IIIF föredras för systematiska svep och
-lokalt bevarande när bild-id är känt, medan Chrome används sist som snäv
-åtkomstreserv. Det långsiktiga ägarbeslutet finns i
-[PROJECT-CONTROL.md](PROJECT-CONTROL.md); all körbar forskning ligger i Wotan.
+[genealogy/method-riksarkivet.md](genealogy/method-riksarkivet.md) för
+Riksarkivets åtkomstordning och hur källbilderna hämtas reproducerbart.
+Det långsiktiga ägarbeslutet finns i
+[PROJECT-CONTROL.md](PROJECT-CONTROL.md); all körbar forskning ligger i Wotan
+enligt konventionen i [wotan/README.md](wotan/README.md).
 
 Repository and source-artifact preservation are documented in
 [`MEDIA-PRESERVATION.md`](MEDIA-PRESERVATION.md). The private GitHub repository

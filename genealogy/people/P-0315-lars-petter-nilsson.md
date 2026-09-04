@@ -57,3 +57,7 @@ dödsorsak och dödsort är inte registrerade. Indal F/2 är exakt identifierad
 men saknar publik bildpekare och katalogsidan stannar vid orörd
 människeverifiering enligt C-0671. Sättna AI:9a sida 35 och full flyttkedja
 är sekundär biografisk berikning; rotera breddfronten.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

@@ -45,3 +45,7 @@ i Häradshammar är löst. Egen död 1920-09-10 och dödsorsaken `Kräfta` är
 korsbekräftade; särskild dödsort är inte belagd. Centralryggraden är därmed
 sluten och eventuell bouppteckning är sekundär biografisk berikning.
 Föräldrarna är gränspersoner och följs inte djupare före breddkohorten.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

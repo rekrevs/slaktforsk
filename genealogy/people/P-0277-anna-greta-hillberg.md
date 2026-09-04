@@ -60,3 +60,7 @@ matchning; 1937 års bok sluter livslinjen med död 14 juni och dödsorsakerna
 den äldre delen. En fortsatt församlingsbokskedja 1931–1937 och eventuell
 bouppteckning är sekundära biografiska vägar; någon särskild dödsort eller
 begravningsdag är inte säkert avläst.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

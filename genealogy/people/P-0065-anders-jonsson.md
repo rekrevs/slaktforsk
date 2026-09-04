@@ -60,3 +60,7 @@
   sida 174 ger begravning och dödsorsak. Bouppteckningen är positivt
   registrerad som `Jansson, Anders`, `F II/7 nr 55`, men originalet är
   läsesalsbundet. Detta löser inte hans egen födelseidentitet.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

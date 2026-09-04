@@ -163,7 +163,14 @@ const logEntries = markdownFiles(join(genealogy, "research-log")).flatMap((file)
 logEntries.sort((a, b) => a.date === b.date ? b.batch - a.batch : b.date.localeCompare(a.date));
 
 const backlog = JSON.parse(readFileSync(join(root, "wotan", "backlog.json"), "utf8"));
-const activeTask = backlog.tasks.find((task) => task.status === "ONGOING") ?? null;
+// Wotan är en ändlig kö: mellan två uppgifter finns ingen ONGOING. Visa då
+// nästa READY-uppgift vars beroenden är DONE, så att dashboarden alltid pekar
+// på det pågående eller nästa arbetet.
+const isDone = (id) => backlog.tasks.find((task) => task.id === id)?.status === "DONE";
+const activeTask =
+  backlog.tasks.find((task) => task.status === "ONGOING") ??
+  backlog.tasks.find((task) => task.status === "READY" && (task.after ?? []).every(isDone)) ??
+  null;
 const assertionStatuses = people.flatMap((person) => person.claims).reduce((counts, claim) => {
   counts[claim.status] = (counts[claim.status] ?? 0) + 1;
   return counts;

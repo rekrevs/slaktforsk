@@ -50,3 +50,7 @@ båda föräldrarna. Datumkonflikten 4/7 december samt SCB-postens oförenliga
 `Ej vigda` ska redovisas i nästa utgåva; A II a/1 och dödsutdraget stärker
 4 december. Sönerna Erik Nikolaus och Jonas Alfred har nu egna
 parentbärande födelseposter.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

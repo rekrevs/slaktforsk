@@ -6,10 +6,11 @@ auktoritativa för enskilda påståenden; fronten visar bara vilka anlinjer som 
 
 ## Aktiv utgåvefront 2026-08-23
 
-T-0012 arbetar nu mot nästa gemensamma Adam/Axel-utgåva, en generation
+Nästa gemensamma Adam/Axel-utgåva ligger en generation
 djupare än v1. Den fasta kohorten består av 32 namngivna och verifierat
-anslutna positioner på sönernas djup 4: 16 på P-0004:s sida och 16 på
-P-0210:s sida. P-0006 Hillevis relationer till P-0001 Oskar Alfred och
+anslutna positioner på sönernas djup 5, det vill säga djup 4 räknat från
+P-0004 och P-0210: 16 på P-0004:s sida och 16 på P-0210:s sida. Läget mot
+målet räknas ut med `node scripts/goal-state.mjs`. P-0006 Hillevis relationer till P-0001 Oskar Alfred och
 P-0002 Ebba Alfrida är `OWNER_CONFIRMED` genom ägarens uttryckliga
 100-procentiga bekräftelse i `PCD-2026-09-03-003`; avsaknad av ytterligare
 arkivbelägg gör dem inte osäkra. P-0253 Erik Jonas Henrikssons tidigare öppna
@@ -28,6 +29,23 @@ P-0123:s Motala-spår är parkerade tills kohorten är jämnt forskningsklar.
 När den är klar ska arbetet stanna för en rejäl ägardiskussion om nästa PDF:s
 innehåll, berättelse, källredovisning och visuella form; ingen PDF skapas
 automatiskt.
+
+## Sammanfattning per djup från P-0004 (flyttad från forskningsprogrammet 2026-09-04)
+
+Tabellen räknar djup från P-0004 och P-0210; `goal-state` räknar från Adam
+och Axel, ett steg djupare. Den är en handskriven sammanfattning från
+T-0012 och ersätts successivt av måttet.
+
+| Djup | Personer | Läge | Nästa krav |
+|---|---|---|---|
+| 0 | P-0004 Sverker Adam Janson | preliminärt etablerad | bekräfta önskad namnform när det blir relevant |
+| 1–3 | 2, 4 och 8 anor | kompletta som generationsvågor; P-0006:s relation till P-0001/P-0002 är `OWNER_CONFIRMED` enligt PCD-2026-09-03-003 | fortsatt konsolidering och biografi sker breddförst |
+| 4 | 16 verifierat anslutna anor | P-0050:s Risvattnetkedja, P-0051:s Jomarkkedja, P-0133:s 1860- och 1867–1875-led samt P-0110:s Löta–Gålundkedja är bevarade; P-0006-bryggan bärs av säker ägarkunskap och ska inte återöppnas som osäker | återuppta avgränsade personvägar endast enligt `frontier.md`; konsolidera kohorten utan att kräva arkivbevis för OWNER_CONFIRMED-relationer |
+| 5 | 18 kända anor | P-0215 är vidareförd till P-0221–P-0222; P-0230–P-0231 är vidareförda till fyra föräldrar genom originalfödelserna 1797–1798; P-0329–P-0330 är identifierade i Helgesta A I/15; P-0214:s Bettna-datum är fortsatt konflikt | följ Carl Fredrik Ålund och Maja Catharina Carlsdotter bakåt i Helgesta A I/14 och flytten från Gryt 1857; återuppta P-0214 från A I/8 sida 118 genom alternativa hushålls-, vigsel- och mantalsvägar; följ övriga djup-5-spetsar breddförst |
+| 6 | P-0149, P-0160–P-0166, P-0221–P-0222 och P-0232–P-0235 | fjorton registrerade personer; fyra nya Risvattnet/Nysätra-anor är öppnade, Eriks Gryt-födelse har digital åtkomstlucka och P-0222 är redan vidareförd till djup 7 | fortsätt den breddförsta återhämtningsvågen på djup 4–5; bevara djup-6-personerna som nästa kontrollerade front och använd vigsel, död, mantal och bouppteckning när identitetsankaret medger det |
+| Hustruns antavla | Kristina Elisabeth Petronella Höök, gift Janson, är andra proband; P-0211 Evy och P-0212 Gunnar utgör separat djup-1-front | Gunnar är vidareförd till P-0239 Anders Ivar och P-0240 Anna Elisabeth Carlman. Elisabeth är vidareförd till P-0242–P-0243. Evys Sättna-utdrag identifierar P-0241 Axel Edvin och P-0246 Emma Petronella; deras föräldrar är säkrade. Ivars far P-0287 Johannes Ivar Fredberg är familjedokumenterad genom dottern Margaretas uttryckliga farfarsuppgift; hans egen 1880–1900-kedja och föräldrarna P-0336–P-0337 är Riksarkivbelagda. Olaus centralryggrad är nu sluten Lundby–Östra Fågelvik–Alnö–Stockholm 1873–1876, men föräldrarna och födelsedatumskonflikten är öppna. Ingrids egen Indal-notis och Högsjöhushåll öppnar P-0271–P-0272 | Nästa utgåvekohort är sönernas jämna djup 5. Arbeta breddförst med de fjorton kända djup-4-personerna på Kristinas sida och pröva de två öppna positionerna bakom P-0253, parallellt med de sexton kända på Sverkers sida. Stoppa för ägardiskussion innan ny PDF-produktion |
+
+För P-0336 har batch 134 gjort de två SJ-beställningsvägarna exakta med
 
 ## Hustrusidans avgränsade front
 

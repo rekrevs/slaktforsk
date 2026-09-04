@@ -39,3 +39,7 @@ Relationsavsnittet saknades tidigare i akten.
   anlinje drivs inte djupare innan den fasta breddkohorten är jämnt behandlad.
 - Vigseln saknas i Bygdeås hela 1861 och 1862 trots senare anteckningar om
   båda åren. Återta frågan först med ny positiv ort- eller flyttnyckel.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

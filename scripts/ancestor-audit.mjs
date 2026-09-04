@@ -5,6 +5,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { buildParentMap, deriveDepths } from "./lib/genealogy-relations.mjs";
+import { readTerminalStatus } from "./lib/terminal-status.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const peopleDir = join(root, "genealogy", "people");
@@ -44,49 +45,12 @@ for (const id of ancestors) {
 }
 
 // --- Slutstatus -------------------------------------------------------------
-// Varje anspets måste bära exakt en slutstatus. Alla utom VERIFIERAD kräver
-// dessutom förväntad källa, vad som genomsöktes och en bevarad negativ
-// kontroll. Saknas någon del är statusen ogiltig och anspetsen räknas som
-// osökt.
-
-const STATUSES = new Set([
-  "VERIFIERAD",
-  "IDENTITET OLÖST",
-  "ÅTKOMSTSPÄRR",
-  "EJ DIGITALISERAD",
-  "ARKIVLUCKA",
-  "KÄLLOR SLUT",
-]);
+// Parsern delas med scripts/goal-state.mjs; se scripts/lib/terminal-status.mjs.
 
 const citationsDir = join(root, "genealogy", "citations");
 const citationFiles = readdirSync(citationsDir);
-
-function readStatus(id) {
-  const section = people.get(id).text.split("## Slutstatus")[1];
-  if (!section) return { ok: false, why: "saknar avsnittet ## Slutstatus" };
-  const body = section.split(/\n## /)[0];
-
-  const status = body.match(/^-\s*Status:\s*`([^`]+)`/m)?.[1]?.trim();
-  if (!status) return { ok: false, why: "ingen Status-rad" };
-  if (!STATUSES.has(status)) return { ok: false, why: `okänd status ${status}` };
-  if (status === "VERIFIERAD") return { ok: true, status };
-
-  const missing = [];
-  if (!/^-\s*Förväntad källa:\s*\S/m.test(body)) missing.push("förväntad källa");
-  if (!/^-\s*Genomsökt:\s*\S/m.test(body)) missing.push("genomsökt");
-
-  const controls = [...body.matchAll(/^-\s*Negativ kontroll:.*$/gm)]
-    .flatMap((line) => [...line[0].matchAll(/\((?:\.\.\/citations\/)?(C-\d{4})[^)]*\)/g)])
-    .map((m) => m[1]);
-  const resolved = controls.filter((cid) =>
-    citationFiles.some((name) => name.startsWith(`${cid}-`)),
-  );
-  if (!resolved.length) missing.push("negativ kontroll med giltig C-referens");
-
-  return missing.length
-    ? { ok: false, status, why: `saknar ${missing.join(", ")}` }
-    : { ok: true, status };
-}
+const citationExists = (cid) => citationFiles.some((name) => name.startsWith(`${cid}-`));
+const readStatus = (id) => readTerminalStatus(people.get(id).text, citationExists);
 
 const verdicts = new Map(auditedTips.map((id) => [id, readStatus(id)]));
 const unresolved = auditedTips.filter((id) => !verdicts.get(id).ok);

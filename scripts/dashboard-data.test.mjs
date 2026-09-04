@@ -23,7 +23,8 @@ assert.equal(data.stats.assertions, assertionCount, "alla påståenderader ska t
 assert.equal(data.stats.sources, markdownCount(join(genealogy, "sources")));
 assert.equal(data.stats.citations, markdownCount(join(genealogy, "citations")));
 assert.equal(new Set(data.people.map((person) => person.id)).size, data.people.length, "person-id ska vara unika");
-assert.ok(data.activeWork?.id, "en aktiv forskningsuppgift ska visas");
+assert.ok(data.activeWork?.id, "en aktiv eller nästa forskningsuppgift ska visas");
+assert.ok(["ONGOING", "READY"].includes(data.activeWork.status), "aktivt arbete är pågående eller nästa READY");
 assert.equal(data.progress.find((branch) => branch.id === "P-0004")?.knownAncestors, 79);
 assert.equal(data.progress.find((branch) => branch.id === "P-0210")?.knownAncestors, 61);
 

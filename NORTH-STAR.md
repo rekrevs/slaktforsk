@@ -86,10 +86,55 @@ personbild och materiella motsägelser eller osäkerheter har lösts eller tydli
 dokumenterats. En exakt klassificerad arkivfront kan avsluta en position men
 får inte göras till en påhittad person eller relation.
 
-När inget mer specifikt delsteg styr inom en aktiv och godkänd Wotan-uppgift
-ska arbetet välja det steg som bäst ökar den kvalitetsgranskade bredden i den
-närmaste ofullständiga generationen eller kohorten. Det har företräde framför
-att driva enstaka grenar längre bakåt eller samla mer material om redan väl
-dokumenterade personer. North star auktoriserar inte arbete utanför en sådan
-uppgift; konkreta prioriteringar, ägarbeslut och metodundantag hör till Wotan,
-Project Control respektive styrdokumenten.
+## Mått
+
+Läget mot målet beräknas, inte berättas. Generationerna räknas från Adam
+och Axel: djup 1 är föräldrarna Sverker och Kristina, och djup d har 2^d
+anpositioner. `node scripts/goal-state.mjs` räknar läget ur personakterna,
+slutstatusarna och källtäckningsmatrisen och skriver ut det gemensamma
+djupet, balansen mellan sidorna och nästa skiva. Måttet har fem delar per
+anposition:
+
+- **Person.** Positionen är känd när en personakt bär den genom en
+  propagerande föräldrarelation. En relation märkt `LEAD`, `CONFLICT`,
+  `REJECTED` eller `UNKNOWN` bär ingen position. En position är stängd när
+  närmaste kända ana är en anspets med giltig arkivfront. Övriga positioner
+  är öppna.
+- **Konsolidering.** Varje personakt anger i avsnittet `## Arbetsläge` om
+  akten är `GRANSKAD`, med datum och hänvisning till granskningen, eller
+  `EJ GRANSKAD`. Saknat avsnitt betyder `EJ GRANSKAD`. Granskad betyder att
+  identitets- och konsolideringspasset i forskningsprogrammet har gjorts
+  och att akten bedöms avse en enda verklig person.
+- **Arkivfront.** Varje anspets utan kända föräldrar bär i `## Slutstatus`
+  exakt en av `VERIFIERAD`, `IDENTITET OLÖST`, `ÅTKOMSTSPÄRR`,
+  `EJ DIGITALISERAD`, `ARKIVLUCKA` eller `KÄLLOR SLUT`, med förväntad
+  källa, genomsökt omfång, bevarad negativ kontroll och återaktiveringsvillkor.
+  En anspets utan giltig slutstatus är osökt, inte stängd.
+- **Källbredd.** Personens rad i källtäckningsmatrisen. Positionen är
+  källbredd-klar när ingen relevant källfamilj längre står som oprövad
+  högprioriterad (`1`); varje övrig cell är använd, negativt avgränsad,
+  åtkomstspärrad, villkorlig eller sakligt irrelevant.
+- **Sida.** Om positionen nås genom Sverker eller Kristina, så att
+  balansen mellan föräldrarnas släkter kan mätas.
+
+En generation är **behandlad** när varje känd person i den är granskad och
+källbredd-klar och varje anspets på samma eller närmare djup bär en giltig
+arkivfront. Projektets **gemensamma djup** är det största d där varje
+generation till och med d är behandlad. Varje grens **individuella
+arkivfront** är dess anspets med giltig slutstatus. Antalet personer, källor
+eller observationer ingår inte i måttet.
+
+## Styrregel
+
+Nästa skiva är alltid det arbete som gör den närmaste obehandlade
+generationen behandlad, fördelat så att ingen sida ligger mer än en skiva
+före den andra. Inom generationen prioriteras i ordning: anspetsar utan
+giltig arkivfront, personer som inte är granskade, personer som inte är
+källbredd-klara. Det har företräde framför att driva enstaka grenar längre
+bakåt eller samla mer material om redan väl dokumenterade personer.
+
+Wotan-uppgifter skärs ur måttets nästa skiva enligt konventionen i
+`wotan/README.md` och avslutas när skivans mått har ändrats som utlovat.
+North star auktoriserar inte arbete utanför en sådan aktiv och godkänd
+uppgift; ägarbeslut, metodundantag och utgåvegrindar hör till Project
+Control respektive styrdokumenten.

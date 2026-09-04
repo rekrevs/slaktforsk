@@ -60,3 +60,7 @@ F/2 är spärrad med `401`, men den inloggade reservvisaren gav senare egen
 dödpost C-0560: hjärtlidande och begravning 27 november. Eventuell
 bouppteckning återstår. Föräldrarna är gränspersoner och följs inte djupare
 före kohortens breddmål.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

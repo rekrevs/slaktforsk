@@ -51,3 +51,7 @@ Johansdotter; folkräkningarna använder Johansson.
 > `EJ DIGITALISERAD`, eftersom båda kandidatförsamlingarnas födelseböcker
 > faktiskt har gåtts igenom. Problemet är att posten motsägs, inte att den är
 > oåtkomlig.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

@@ -94,3 +94,7 @@ dottern Albertina.
 > och att sök-API:et saknar bildlänk även för dem. Slutsatsen "inte
 > digitaliserad" är därför inte belagd; det som är belagt är att volymen inte
 > är fjärråtkomlig. Se `genealogy/method-riksarkivet.md`.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

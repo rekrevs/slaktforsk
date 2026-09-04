@@ -88,3 +88,7 @@ Källorna växlar mellan `Per Wilhelm`/`Per Vilhelm` och
 > A I/7 sida 159 ger det positiva föräldrahushållet. Den kvarstående spärren
 > för H0003 får därför inte längre användas som skäl att stänga
 > föräldrafrågan.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

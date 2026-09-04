@@ -80,3 +80,7 @@ sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
   Degerfors A I/10b s. 163 och 171
   ger nu en positiv fortsättning för Maria Elina 1856; Johanna Paulina 1864
   och Per Alexander 1866 hålls fortfarande isär utan föräldraantagande.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

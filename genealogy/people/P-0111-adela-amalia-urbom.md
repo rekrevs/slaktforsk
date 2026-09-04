@@ -65,3 +65,7 @@ Hyltinge 1890.
   [C-0074](../citations/C-0074-karolina-wilhelmina-lundqvist-lugnet.md). Karolina
   Wilhelmina Lundqvist, född Urbom 1842, och Adela Amalia, född 1849 vid Spånga
   bruk, ligger nära i tid och landskap, men något samband är inte belagt.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

@@ -63,3 +63,7 @@ ortshänvisning. Föräldrarna återtas bakåt från A I/8 sida 88 mot Stöde C/
 1805-08-22 respektive 1812-07-28 och föregående husförhör, utan att välja
 namnlikheter. Bouppteckningen återtas efter manuell verifiering eller behörig
 inloggning, och döden via en ny positiv död- eller begravningskälla.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

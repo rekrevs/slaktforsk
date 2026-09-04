@@ -60,3 +60,7 @@ den utgör inte en separat personidentitet.
   sockenstämmans/fattigvårdens samt häradsrättens handlingar om underhåll eller
   faderskap. En sådan träff måste sedan bindas tillbaka till barnet med
   samtida originaluppgift.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)

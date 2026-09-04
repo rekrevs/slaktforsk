@@ -7,7 +7,7 @@ efterhand. Metoden verifierades 2026-08-20 genom att en tidigare sparad bild
 
 ## Ägarregel 2026-09-03: Riksarkivets MCP först där den täcker behovet
 
-När en ny Codex-session har tillgång till den globalt konfigurerade
+När en ny agentsession har tillgång till den globalt konfigurerade
 MCP-servern `riksarkivet` ska dess verktyg användas som första lämpliga ingång
 för upptäckt, sökning, registerrouting och snabb interaktiv inspektion. Det
 gäller bland annat strukturerad person- och registersökning, arkivmetadata,

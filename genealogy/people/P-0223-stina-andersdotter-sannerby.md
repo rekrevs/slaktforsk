@@ -30,3 +30,7 @@ födelse och föräldrar är inte originalprövade; A I/4 och dödsåldern pekar
 cirka juli 1775. Årdala C/2:s vigslar 1797–1809 gav ingen säker vigsel med
 Erik, så en annan församling eller ett styvföräldraförhållande för Anna Stina
 måste prövas.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)

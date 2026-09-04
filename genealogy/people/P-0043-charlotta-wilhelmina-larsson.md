@@ -35,3 +35,7 @@ Föräldrar: [P-0125 Lars Andersson](P-0125-lars-andersson-anderslund.md) och
 [P-0126 Brita Kajsa Pehrsdotter](P-0126-brita-kajsa-pehrsdotter.md). Bröder i
 Anderslundhushållet: [P-0167 Carl August](P-0167-carl-august-andersson.md) och
 [P-0168 Anders Gustaf](P-0168-anders-gustaf-andersson.md), belagda i C-0127.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

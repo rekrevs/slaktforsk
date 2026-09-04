@@ -50,3 +50,7 @@ bröder. Dödboken visar att hon dog av den historiska källorsaken `Nervfeber`
 Källa 1862-09-26 med faderns egenhändiga samtycke (C-0533). Eventuell
 bouppteckning återstår. Föräldrarna är gränspersoner och följs inte djupare
 före kohortens breddmål.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

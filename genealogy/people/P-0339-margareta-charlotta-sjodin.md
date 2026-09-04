@@ -88,3 +88,7 @@ Riksarkivets register och originalbild under det gifta efternamnet
   Sida 18-nollet är avvisat; Stockholmsregistrens frånvaro är inte längre en
   öppen vigselfråga.
 - Följ inte hennes föräldrar före kohortens övriga centrala luckor.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

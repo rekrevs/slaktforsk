@@ -57,3 +57,7 @@ kohortens övriga luckor. Sönerna Erik Nikolaus och Jonas Alfred har nu egna
 parentbärande födelseposter; Gustafs utflyttning till Nordamerika 1906 är
 församlingsbokstranskriberad men Indal B/2:s årsoriginal kräver behörig
 Riksarkivet-åtkomst enligt C-0661.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

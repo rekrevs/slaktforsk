@@ -54,3 +54,7 @@ förlänger familjens kyrkobokskedja till 1911 och anger död 1911-11-16; sida
 länssjukhusets hela årsutdrag saknar honom, så dödsort, orsak och begravning
 förblir öppna. Sida 785 saknas fortfarande i den äldre digitala följden;
 följ inte de nya gränspersonernas anor före breddkohorten.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

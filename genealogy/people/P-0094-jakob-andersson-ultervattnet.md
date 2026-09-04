@@ -30,3 +30,7 @@ i A-0367. Det gjorde att revisionsskriptet inte kunde följa grenen.
   datum-, sida- eller flyttankare; rotera nu breddförst.
 - Vigseln med Maria Christina saknas i hela Bygdeås vigselår 1861 och 1862
   trots motstridiga senare årsanteckningar. Exakt år och församling återstår.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

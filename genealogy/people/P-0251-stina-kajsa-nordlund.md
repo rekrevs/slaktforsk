@@ -55,3 +55,7 @@ på namn och Holm nådde inte resultatlistan på grund av ALTCHA och är därfö
 inget register­noll. Nästa ursprungskontroll gäller Jonas Nordlunds
 föräldrakonflikt i Holm och Gertruds föräldrahushåll i Hullsjö; välj inte den
 närliggande Stina Brita-posten som Stina Kajsa.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

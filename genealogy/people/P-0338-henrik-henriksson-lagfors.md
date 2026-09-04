@@ -108,3 +108,7 @@ samlingen är ett Edén-arkiv snarare än ett fullständigt Ljustorpsarkiv.
   taxeringslängderna och volym 4:s kommunalstämmomaterial 1884 endast med
   intern år-/saknyckel. Ingen av volymerna har digital bildinstansiering;
   frånvaro får bara avgränsas till faktiskt bevarade och lästa årgångar.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

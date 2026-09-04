@@ -627,3 +627,7 @@ katalogbelägg och lämnar födelsedatum och föräldrar olösta.
   först om Riksarkivets metadata får en volym/reproduktionskod eller genom en
   analog förtecknings-/beställningskontroll i Göteborg med post 6 år 1877
   som ankare.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

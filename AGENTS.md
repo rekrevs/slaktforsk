@@ -8,12 +8,18 @@ Read the project's durable context before doing work:
 4. `genealogy/research-plan.md`, `genealogy/frontier.md` and
    `genealogy/source-coverage.md` for workflow and current research gates.
 5. `PROJECT-CONTROL.md` for approved owner decisions and exceptions.
-6. `wotan/backlog.json` and the active `wotan/dev-log/` record for task work.
+6. `wotan/README.md` for the repository's Wotan convention, then
+   `wotan/backlog.json` and the active `wotan/dev-log/` record for task work.
+
+Run `node scripts/goal-state.mjs` to see the project's state against the
+north star; do not reconstruct it from handover prose or chat history.
 
 Use Wotan for task or backlog work and Project Control for strategic steering.
-Do not start research outside the active, approved Wotan task. Within that
-scope, prefer the nearest incompletely quality-reviewed generation or cohort
-before deeper or already well-documented branches.
+Do not start research outside the active, approved Wotan task. Tasks are cut
+from the goal-state next slice as described in `wotan/README.md`: the nearest
+untreated generation, balanced between both sides, before deeper or already
+well-documented branches. Log each research batch once, in
+`genealogy/research-log/`.
 
 Treat the evidence ledger as append-only and the canonical person model as
 revisable. One person record must represent one real person. Keep competing
@@ -28,7 +34,8 @@ model and as a Project Control Decision. Do not demote owner-confirmed knowledge
 merely because an archival original is absent; preserve any later conflict and
 bring it back to the owner instead of silently overriding the decision.
 
-Follow the repository's provenance and Riksarkivet access rules. Run the
+Follow the repository's provenance rules and the Riksarkivet access order in
+`genealogy/method-riksarkivet.md`. Run the
 relevant validators and regression tests after changes. Preserve unrelated user
 changes. Do not order archival material, publish or deploy, create a PDF, or
 commit and push unless the user has authorized that action.

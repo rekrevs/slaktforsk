@@ -38,3 +38,7 @@ Egen födelse, namnvarianten, vigseln 1870-10-14 i Häradshammar och döden är
 lösta. Två folkräkningar och två husförhörslängder ger familje- och
 gårdskontinuitet före och efter hennes död. Föräldrarna är gränspersoner och
 följs inte djupare nu.
+
+## Arbetsläge
+
+- Konsolidering: `EJ GRANSKAD`

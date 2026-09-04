@@ -548,3 +548,79 @@
   - Ägaren själv rättar eller återkallar någon av familjeuppgifterna
   - Senare material skapar en uttrycklig konflikt som behöver redovisas för
     ägaren; konflikten får inte tyst skriva över detta beslut
+
+## PCR-2026-09-04-001
+
+- Record type: review
+- Date: 2026-09-04
+- Mode: direction-review
+- Trigger: Ägaren bad om en ordentlig genomgång av projektets setup: varför i
+  north star, hur i styrfilerna och vad/var i Wotan och Project Control, med
+  kravet att varför ska vara deklarativt och kunna användas som mål för
+  kontinuerligt arbete.
+- Control judgement: continue, redirect, operate, preserve
+- Current gate: North star är deklarativt men saknar ett definierat mått;
+  "behandlad" finns bara som prosa och generationerna räknas från Adam och
+  Axel i north star men från P-0004/P-0210 i skript, front och Project
+  Control. Projektet saknar ett kompakt, härledbart läge: varje batch skrivs
+  tre gånger (forskningslogg, T-0012-logg, HANDOVER), forskningsprogrammet
+  bär cirka 840 rader personspecifikt läge, HANDOVER är 3 565 rader och
+  T-0012 har varit `ONGOING` sedan 2026-08-21 med 231 batchar och ett av tio
+  acceptanskriterier uppfyllt. Nästa steg berättas i prosa i stället för att
+  härledas ur målet.
+- Recommendation: Ge north star ett beräkningsbart mått per anposition
+  räknad från Adam och Axel och lyft urvalsregeln till egen styrregel.
+  Inför ett maskinläsbart arbetsläge i personakterna och ett skript som
+  räknar ut läget mot north star och föreslår nästa skiva. Skriv varje batch
+  en gång i forskningsloggen; dev-loggen bär beslut, hinder och verifiering;
+  HANDOVER blir en kort lägessida som skrivs om. Flytta läget ur
+  forskningsprogrammet. Stäng T-0012 vid konsolideringsgrinden och driv
+  programmet som ändliga M-uppgifter skurna ur måttets utdata. Lägg
+  Wotan-konventionen i en repo-lokal fil som `AGENTS.md` routar till, och
+  lägg till `CLAUDE.md` som importerar `AGENTS.md`.
+- Owner decision required: Godkänn måttet, dokumentfördelningen,
+  loggningsregeln och omskärningen av T-0012 till ändliga uppgifter.
+- Evidence:
+  - `NORTH-STAR.md`, `AGENTS.md`, `README.md`, `HANDOVER.md`
+  - `genealogy/README.md`, `genealogy/research-plan.md`,
+    `genealogy/frontier.md`, `genealogy/source-coverage.md`
+  - `wotan/backlog.json`, `wotan/dev-log/T-0012.md`
+  - `PROBAND=P-0004 node scripts/ancestor-audit.mjs --through-depth=5`
+  - `PROBAND=P-0210 node scripts/ancestor-audit.mjs --through-depth=4`
+  - Wotan- och Project Control-skillarnas kontrakt om repo-lokala
+    konventioner och läsbara uppgiftsfiler
+- Revisit when:
+  - Mållägesskriptet ger ett gemensamt djup och en nästa skiva utan manuell
+    omtolkning
+  - Den första ändliga kohortuppgiften har nått `DONE`
+  - En ny session kan starta från HANDOVER utan att läsa batchhistorik
+
+## PCD-2026-09-04-001
+
+- Record type: decision
+- Date: 2026-09-04
+- Decides review: `PCR-2026-09-04-001`
+- Owner: Sverker Adam Janson
+- Decision: Genomför rekommendationen i sin helhet ("vi kör på detta").
+  North star får ett definierat mått räknat från Adam och Axel och en egen
+  styrregel för kontinuerligt arbete. Wotan används som ändlig kö: uppgifter
+  skärs ur mållägets utdata, en batch loggas en gång i forskningsloggen,
+  dev-loggen bär beslut, hinder och verifiering, och HANDOVER är en kort
+  lägessida. Konventionen ligger repo-lokalt i `wotan/README.md` och nås via
+  `AGENTS.md` och `CLAUDE.md`. T-0012 stängs vid konsolideringsgrinden och
+  återstående omfång fördelas på ändliga uppgifter.
+- Disposition: approved
+- Supersedes decision: `PCD-2026-09-03-002` endast i fråga om att T-0012
+  ska vara den enda behållaren för kohortarbetet; kvalitetskontraktet,
+  utgåvegrinden i `PCD-2026-08-23-001` och alla ägarfastställda familjefakta
+  består oförändrade
+- Related records: `PCD-2026-09-03-001`, `PCD-2026-09-03-002`,
+  `NORTH-STAR.md`, `AGENTS.md`, `wotan/README.md`
+- Resulting Wotan tasks: `T-0018`, `T-0019`, `T-0020`, `T-0021`
+- Portfolio signal: Projektet är aktivt. Forskningsbatchar pausas tills
+  styrlagret, måttet och omskärningen är på plats; därefter fortsätter
+  kohortarbetet i ändliga uppgifter.
+- Revisit when:
+  - `T-0021` har omskurit T-0012 och den första kohortskivan är skapad
+  - Måttet visar sig sakna en dimension som north star kräver
+  - Nästa utgåvegrind eller generationsvåg ska öppnas
