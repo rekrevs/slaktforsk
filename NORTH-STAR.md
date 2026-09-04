@@ -38,6 +38,34 @@ får kallas online-utredd först när de relevanta källtyperna, katalogerna och
 identifierade nätleverantörerna har prövats — inte bara när den första
 arkivtjänsten tar slut.
 
+Projektet ska bevara en oföränderlig, append-only evidenshistorik. Varje
+observation lagras med exakt provenans och får inte skrivas över eller raderas
+av senare tolkningar. Rättelser, omläsningar och motsägande belägg tillförs som
+nya, länkade poster så att forskningshistoriken förblir reproducerbar och
+granskningsbar. Ovanpå denna historik underhålls en konsoliderad och reviderbar
+kunskapsbild som skiljer källornas observationer från projektets slutsatser.
+
+Varje personakt ska representera en och samma verkliga person. Uppgifter från
+olika källor får sammanföras först när identiteten bärs av uttrycklig evidens
+och en rimligt sammanhängande kronologi, geografi, familjestruktur och
+livshistoria. Namnlikhet, ungefärlig ålder eller gemensam socken räcker inte.
+När identiteten inte kan avgöras ska kandidater och alternativa tolkningar
+hållas åtskilda och osäkerheten redovisas.
+
+Ingen direkt anlinje får föras vidare som etablerad genom en personidentitet
+eller föräldrarelation som fortfarande är materiellt osäker. Kandidater får
+undersökas, men deras vidare anor ska förbli hypotetiska tills den bärande
+identiteten och relationen är tillräckligt belagda. Om senare evidens försvagar
+en tidigare identifikation eller relation ska alla beroende personer,
+relationer och slutsatser identifieras och återprövas, medan den underliggande
+evidenshistoriken lämnas intakt.
+
+När projektägaren uttryckligen anger att en familjeuppgift är säker ska den
+godtas som sann projektinformation, märkas `OWNER_CONFIRMED` och bevaras som ett
+Project Control Decision. Avsaknad av arkivhandling får inte i sig nedgradera
+sådan kunskap. Senare motstridigt material ska bevaras och lyftas till ägaren
+för nytt beslut, inte tyst skriva över eller ogiltigförklara uppgiften.
+
 Varje arkivfront ska skilja mellan förstört eller saknat material,
 odigitaliserat material, åtkomsthinder, uttömda relevanta källor och olöst
 identitet samt ange vad som krävs för att grenen ska kunna återupptas. Arkivet
@@ -51,20 +79,17 @@ sammanhang eller en sannare livsbild. Sidogrenar får inte tränga undan den
 balanserade framdriften i de direkta anlinjerna, och orelaterade personer på
 samma sida ska inte dras in. Uppgifter om levande personer minimeras.
 
-Presenterbara familjeutgåvor ska växa en jämn generation i taget. Inför varje
-ny utgåva prioriteras hela den kommande utgåvekohorten breddförst framför
-djupare forskning i enstaka lätta grenar. Varje känd person ska få en rik men
-källstyrd livsbild genom relevanta Riksarkivskällor — bland annat
-folkräkningar, husförhörs- och församlingsböcker, flyttlängder, födelse,
-vigsel, död och relevanta kompletterande källfamiljer — och kvarvarande
-positioner ska ha exakta källslut. När forskningsunderlaget är moget ska
-projektet stanna före varje ny PDF för en uttrycklig ägardiskussion om
-innehåll, berättargrepp, urval, visuell form och vad den nya utgåvan ska göra
-bättre än den föregående. Ingen PDF-produktion startas automatiskt ur en
-avslutad forskningsvåg.
+Ackumulation av observationer är inte i sig framsteg. En person eller position
+får betraktas som behandlad först när identiteten och de bärande relationerna
+har prövats, relevanta observationer har konsoliderats till en sammanhängande
+personbild och materiella motsägelser eller osäkerheter har lösts eller tydligt
+dokumenterats. En exakt klassificerad arkivfront kan avsluta en position men
+får inte göras till en påhittad person eller relation.
 
-Bernhard Natanael Eliassons faderskap till Arne Godvig Jansson är fastställd
-projektinformation enligt ägarens säkra familjekunskap. Projektet kräver inte
-ytterligare belägg för den relationen. Detsamma gäller sedan 2026-08-29
-Johannes Ivar Fredbergs faderskap till Anders Ivar Höök
-(`PCD-2026-08-29-001`).
+När inget mer specifikt delsteg styr inom en aktiv och godkänd Wotan-uppgift
+ska arbetet välja det steg som bäst ökar den kvalitetsgranskade bredden i den
+närmaste ofullständiga generationen eller kohorten. Det har företräde framför
+att driva enstaka grenar längre bakåt eller samla mer material om redan väl
+dokumenterade personer. North star auktoriserar inte arbete utanför en sådan
+uppgift; konkreta prioriteringar, ägarbeslut och metodundantag hör till Wotan,
+Project Control respektive styrdokumenten.

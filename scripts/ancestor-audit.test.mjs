@@ -57,6 +57,10 @@ test("table relations include parents and exclude grandparents and uncertain lin
     ["P-0001", person("# parent")],
     ["P-0002", person("# grandparent")],
     ["P-0003", person("# possible parent")],
+    ["P-0005", person("# conflicted parent")],
+    ["P-0006", person("# rejected parent")],
+    ["P-0007", person("# unverified parent")],
+    ["P-0008", person("# owner-confirmed parent")],
     ["P-0004", person(`# child
 
 ## Relationer
@@ -66,11 +70,15 @@ test("table relations include parents and exclude grandparents and uncertain lin
 | [P-0001 Parent](P-0001-parent.md) | far | CORROBORATED |
 | [P-0002 Grandparent](P-0002-grandparent.md) | morfar | CORROBORATED |
 | [P-0003 Possible](P-0003-possible.md) | möjlig mor | LEAD |
+| [P-0005 Conflicted](P-0005-conflicted.md) | mor | CONFLICT |
+| [P-0006 Rejected](P-0006-rejected.md) | far | REJECTED |
+| [P-0007 Unverified](P-0007-unverified.md) | far | LEAD |
+| [P-0008 Owner confirmed](P-0008-owner-confirmed.md) | mor | OWNER_CONFIRMED |
 `)],
   ]);
 
   const parents = buildParentMap(people);
-  assert.deepEqual([...parents.get("P-0004")], ["P-0001"]);
+  assert.deepEqual([...parents.get("P-0004")], ["P-0001", "P-0008"]);
 });
 
 test("derived depths follow the corrected direction", () => {

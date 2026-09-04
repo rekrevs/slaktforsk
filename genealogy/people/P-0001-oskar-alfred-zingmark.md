@@ -58,4 +58,7 @@ verifierade i Riksarkivets original eller samtida utdrag.
 | P-0030–P-0034 | syskon i 1900-hushållet | CORROBORATED | C-0004 |
 | P-0035–P-0038 | yngre syskon | CORROBORATED | C-0574 |
 | [P-0002 Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md) | hustru | CORROBORATED | C-0001, C-0040 |
-| P-0039, P-0040, [P-0006 Hillevi](P-0006-hillevi-zingmark.md), P-0041 | barn | LEAD | C-0001 |
+| [P-0006 Hillevi](P-0006-hillevi-zingmark.md) | dotter | OWNER_CONFIRMED | PCD-2026-09-03-003, C-0001 |
+| [P-0039 Alfred Torgny Zingmark](P-0039-alfred-torgny-zingmark.md) | son | OWNER_CONFIRMED | PCD-2026-09-03-004, C-0818 |
+| [P-0040 Jan Oskar Zingmark](P-0040-jan-oskar-zingmark.md) | son | OWNER_CONFIRMED | PCD-2026-09-03-004, C-0818 |
+| [P-0041 Frithiof Urban Zingmark](P-0041-frithiof-urban-zingmark.md) | son | OWNER_CONFIRMED | PCD-2026-09-03-004, C-0818 |

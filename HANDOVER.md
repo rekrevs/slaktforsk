@@ -1,11 +1,13 @@
-# Handover 2026-09-03 (batch 228, verifierad)
+# Handover 2026-09-04 (batch 231, verifierad)
 
 Detta är den korta ingången för en ny Codex-session. Chattens historik är
 inte källa för projektläget. Läs filerna och kontrollera arbetsytan innan
 någon åtgärd görs.
 
-Sedan ägarbeslutet 2026-09-03 finns projektets deklarativa mål i
-`NORTH-STAR.md`. En ny session ska använda Riksarkivets globalt konfigurerade
+Sedan ägarbeslutet 2026-09-03 finns projektets deklarativa mål och
+kvalitetskontrakt i `NORTH-STAR.md`. Projektets lokala `AGENTS.md` är Codex
+automatiska ingång och routar till mål, kunskapsmodell, arbetsregler,
+Project Control och Wotan. En ny session ska använda Riksarkivets globalt konfigurerade
 MCP först för lämplig upptäckt, sökning och registerrouting och därefter följa
 lager- och bevismodellen i `genealogy/method-riksarkivet.md`. API, JSON-LD,
 OAI och IIIF-manifest avgränsar källan; originalbilden bär normalt sidbundna
@@ -15,14 +17,30 @@ Chrome en snäv sista åtkomstreserv, inte obligatoriska mellanled. Om
 MCP-verktygen inte syns är det ett åtkomst- eller sessionsläge, inte ett
 källnoll.
 
-Detta är aktuell handover efter batch 228 och ersätter den förbrukade
-batch-227-ingången.
+Detta är aktuell handover efter batch 231 och ersätter den förbrukade
+batch-230-ingången.
 
 ## Startordning i en ny session
 
-1. Läs `README.md`, `NORTH-STAR.md`, `genealogy/method-riksarkivet.md`,
+1. Följ `AGENTS.md`: läs `README.md`, `NORTH-STAR.md`,
+   `genealogy/README.md`, `genealogy/research-plan.md`,
+   `genealogy/method-riksarkivet.md`, `PROJECT-CONTROL.md`,
    `wotan/backlog.json` och `wotan/dev-log/T-0012.md`.
-2. Läs `genealogy/research-log/2026-09-03.md`, därefter S-0633, C-0817 och
+2. Läs först `genealogy/research-log/2026-09-04.md` och
+   `genealogy/identity-review-2026-09-04.md`. Batch 231 är den första
+   tvärgående identitetsrevisionen under det nya kvalitetskontraktet. Ingen ny
+   felaktig sammanslagning hittades; P-0323, P-0051, P-0280, P-0223 och
+   P-0126 är säkra personer med olösta namnfält. P-0028:s A-0162/A-0284
+   rättades från P-0424:s C-0059 till den egna C-0547–C-0549-kedjan utan att
+   ledgerposter raderades. S-0637/C-0821 avgränsar hela Linköping Domkyrka
+   B I/3 1840; S-0638/C-0822 avgränsar hela SCB Hudiksvall födda 1896.
+   Resultaten är källnoll, inte person-/identitetsnoll. Läs därefter
+   `genealogy/research-log/2026-09-03.md`, S-0636, C-0820,
+   P-0020 och P-0289–P-0290. Batch 230 visar att inloggad katalog öppnar
+   Värsås A I/7–A I/8 trots API:ets saknade bildlänk. A I/7 sida 159 säkrar
+   Gabriel Eliasson och Stina Larsdotter som Petter/Per Wilhelms föräldrar;
+   H0003:s kvarstående spärr gäller bara födelsenotisen. Den äldre
+   Stina→Lars Månsson-relationen är fortfarande `LEAD`. Läs därefter S-0633, C-0817 och
    P-0133. Batch 228 ger TORA-koordinater och kartrouting för Glippsta och
    Malstanäs, visar att socken-/länsfiltren missar kända positiva kontroller
    och bevarar ett verkligt IIIF/Chrome-åtkomstfall. Glippstas kartbild och
@@ -94,8 +112,23 @@ batch-227-ingången.
    ändringar som finns där.
 4. Återuppta bara den aktuella användarinstruktionen. Äldre chattpromptar är
    historik och får inte behandlas som nya uppdrag efter context compaction.
-5. Om forskning ska fortsätta: rotera breddförst inom Wotan T-0012 från
-   batch 228:s beständiga läge till P-0336. Upprepa inte C-0817:s exakta
+5. Innan ny källinsamling fortsätter: gör en identitets- och
+   konsolideringsgranskning av T-0012:s aktuella utgåvekohort enligt
+   `genealogy/research-plan.md`. Kontrollera särskilt att varje personakt
+   avser en person, att observationer och slutsatser är åtskilda och att
+   ingen explicit osäker föräldrarelation når den verifierade antavlan.
+   P-0006:s relationer till P-0001 och P-0002 är inte osäkra: ägaren har
+   bekräftat dem som 100 procent kända och de är `OWNER_CONFIRMED` genom
+   `PCD-2026-09-03-003`. Kräv inte ytterligare arkivbelägg för dem.
+   Detsamma gäller P-0039, P-0040 och P-0041 som söner till P-0001/P-0002
+   och bröder till P-0006 genom `PCD-2026-09-03-004`; deras levnadsår från
+   sekundärträdet är däremot fortsatt `LEAD`.
+   P-0012 Lucy Gudrun, P-0013 Ann-Catherine och P-0014 Maj-Grete är på
+   motsvarande sätt `OWNER_CONFIRMED` som Bernhards tre döttrar genom
+   `PCD-2026-09-03-005`. Ann-Catherines befintliga akt innehåller
+   födelsedatumet 1938-07-19 och bostadsorten Visby utan adress.
+   Forskningen kan därefter rotera breddförst från batch 228:s beständiga
+   läge till P-0336. Upprepa inte C-0817:s exakta
    TORA-frågor utan ny stavnings-, kart-, jordregister- eller arkivnyckel.
    Kör ofiltrerad kontroll när TORA-filter ger noll; förena inte homonymer
    med avvikande socken/kommun. Kartorna från 1634/1685 belägger inte Erik.
@@ -160,6 +193,55 @@ batch-227-ingången.
    täcker behovet och API/JSON-LD/IIIF som komplettering eller reserv.
    Skapa inte en ny dashboard, starta inte T-0013 och påbörja ingen ny
    utgåve-PDF.
+
+## Sessionscheckpoint 2026-09-03 — batch 230
+
+- Inloggad Riksarkivet-katalog exponerar nu `Bild` för Värsås A I/7–A I/8.
+  A I/7 sida 159, `C0053458_00169`, visar Gabriel Eliasson och Stina
+  Larsdotter med sonen Petter Wilhelm född exakt 1850-03-18 och dottern
+  Margaretha Sofia.
+- C-0418:s exakta senare födelsetid och C-0262:s samma föräldrapar och
+  särpräglade syster gör P-0020:s relationer till P-0290/P-0289
+  `CORROBORATED`. P-0501 bevarar systern. Stina→P-0288 Lars Månsson är
+  fortfarande `LEAD` och får inte propageras.
+- H0003 saknar fortsatt `Bild`, men detta är nu endast en spärr för den egna
+  födelsenotisen. A I/8 sida 157 visar andra boende på Djursätra
+  Västergården och är bara ett sidbundet kontrollresultat.
+- S-0636/C-0820, A-3124–A-3130 och åtta checksummade medier gör fyndet
+  reproducerbart. Inga autentiseringsvärden bevarades. T-0012 förblir
+  `ONGOING`/`DOING`; ingen PDF, deployment, commit eller push skapades.
+- Verifiering: 501 personer, 2 611 påståenden, 528 föräldralänkar, 79
+  härledda anor för P-0004 och 4 339 manifestposter utan olänkade medier.
+  Alla ordinarie kontroller passerade. P-0004-auditen har tolv öppna
+  slutstatusar genom djup 5, nu även P-0289/P-0290; P-0210 har fortsatt
+  exakt P-0336 öppen genom djup 4.
+
+## Sessionscheckpoint 2026-09-03 — batch 229
+
+- `AGENTS.md` är nu den automatiska lokala upptäcktsvägen för Codex och
+  länkar till mål, kunskapsmodell, arbetsregler, Project Control och Wotan.
+- `NORTH-STAR.md` innehåller det permanenta kvalitetskontraktet:
+  append-only evidenshistorik, reviderbar konsoliderad personmodell,
+  en-verklig-person-per-akt, beroendegranskning och förbud mot att propagera
+  materiellt osäkra anled.
+- `genealogy/README.md` definierar kunskapslagren och reglerna för rättelse,
+  sammanföring och delning. `genealogy/research-plan.md` innehåller den
+  operativa identitets- och konsolideringspassagen samt den skärpta
+  färdigdefinitionen.
+- T-0012 är fortsatt `ONGOING`/`DOING`, men nästa steg är kohortens
+  identitets- och konsolideringsgranskning före mer källinsamling. Ägarens
+  omedelbara rättelse fastställer P-0006:s P-0001/P-0002-relationer som
+  `OWNER_CONFIRMED`; hela grenen är åter verifierat ansluten och är ingen
+  blockerare. Ägaren har dessutom fastställt P-0039, P-0040 och P-0041 som
+  söner till samma föräldrar och bröder till P-0006. S-0634/C-0818,
+  A-3118–A-3120 och PCD-2026-09-03-004 bevarar beslutet utan att uppgradera
+  sekundärträdets levnadsår. T-0013 förblir blockerad. Verkligt osäkra
+  relationsstatusar filtreras fortsatt ur härledd antavla.
+- P-0012 Lucy Gudrun, P-0013 Ann-Catherine och P-0014 Maj-Grete är dessutom
+  konsoliderade som Bernhards tre `OWNER_CONFIRMED` döttrar genom
+  S-0635/C-0819, A-3121–A-3123 och PCD-2026-09-03-005. Ann-Catherines redan
+  lagrade 1938-07-19 och Visby återbekräftades utan att någon adress eller ny
+  personpost skapades. Maj-Gretes separata födelseårskonflikt är oförändrad.
 
 ## Sessionscheckpoint 2026-09-03 — batch 228
 
@@ -3450,15 +3532,19 @@ dashboardtidslinjen ensam bevisar inte ordagrann återspelning.
 
 ## Senast verifierat
 
-Efter batch 228 passerade:
+Efter batch 229 passerade:
 
 - `node --test scripts/*.test.mjs` — 5/5 tester.
-- `node scripts/validate-genealogy.mjs` — 2 598 påståenden, 1 968
+- `node scripts/validate-genealogy.mjs` — 2 604 påståenden, 1 972
   Markdownposter och 4 332 filer i mediakatalogen inklusive `.gitkeep`;
   Wotan-JSON giltig.
-- dashboardens datatest och `npm run build` — 500 personer, 2 598
-  påståenden och 525 föräldralänkar.
-- `node scripts/verify-pedigree.mjs` — P-0004-baslinjen 77.
+- dashboardens datatest och produktionsbygge — 500 personer, 2 604
+  påståenden och 524 kvalitetsgrindade föräldralänkar. Hillevis och hennes tre
+  bröders åtta `OWNER_CONFIRMED`-länkar ingår; fyra andra unika `LEAD`-länkar
+  filtreras fortsatt.
+- `node scripts/verify-pedigree.mjs` — P-0004:s kvalitetsgrindade baslinje
+  har 77 verifierat härledda anor; P-0006:s föräldrar bär status
+  `OWNER_CONFIRMED` och PCD-2026-09-03-003.
 - `node scripts/verify-depth5-wave.mjs` och
   `node scripts/validate-edition-manifest.mjs` — pass.
 - `node scripts/media-manifest.mjs --check` — 4 331 sakmedier (2 528
@@ -3470,11 +3556,10 @@ Efter batch 228 passerade:
   batchen.
 
 P-0210-auditen till och med djup 4 ger avsiktligt icke-noll och räknar
-exakt P-0336 som öppen spets. P-0004 har 77 kända anor; auditen ger
-avsiktligt status 1 med tio ogiltiga slutstatusar genom djup 5 och anger
-P-0051 som fortsatt nästa tillåtna djup-4-front. Wotans källstyrda
-breddrotation fortsätter från batch 228 till P-0336. Ingen PDF skapades
-eller ändrades i batchen.
+exakt P-0336 som öppen spets. P-0004-auditen ger avsiktligt status 1 med
+77 verifierat anslutna anor och de tidigare öppna spetsarna; P-0006 är inte
+en blockerare. T-0012 ska fortsätta kohortens kvalitetsgranskning före nästa
+källrotation. Ingen PDF skapades eller ändrades i batchen.
 
 Kör en proportionerlig verifiering efter nästa ändring och skriv resultatet i
 T-0012-loggen och dagsloggen.

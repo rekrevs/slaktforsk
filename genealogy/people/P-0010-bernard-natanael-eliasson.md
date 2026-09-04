@@ -47,9 +47,9 @@ evidenslinjerna hålls åtskilda.
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
 | [P-0011 KATY Leonie Nilssoon](P-0011-katy-leonie-nilssoon.md) | hustru | LEAD | C-0018 |
-| [P-0012 Lucy Gudrun Eliaesson](P-0012-lucy-gudrun-eliaesson.md) | dotter | LEAD | C-0018 |
-| [P-0013 Anki Jonasson](P-0013-privat-dotter-eliaesson.md) | dotter | CORROBORATED | C-0018, C-0261 |
-| [P-0014 Maj-Grete Karlsson](P-0014-maj-grete-karlsson.md) | dotter | LEAD | C-0018 |
+| [P-0012 Lucy Gudrun Eliaesson](P-0012-lucy-gudrun-eliaesson.md) | dotter | OWNER_CONFIRMED | PCD-2026-09-03-005, C-0819 |
+| [P-0013 Ann-Catherine (Anki) Jonasson](P-0013-privat-dotter-eliaesson.md) | dotter | OWNER_CONFIRMED | PCD-2026-09-03-005, C-0819, C-0263 |
+| [P-0014 Maj-Grete Karlsson](P-0014-maj-grete-karlsson.md) | dotter | OWNER_CONFIRMED | PCD-2026-09-03-005, C-0819 |
 | [P-0020 Per Wilhelm Eliasson](P-0020-per-wilhelm-eliasson.md) | far | CORROBORATED | C-0023–C-0026 |
 | [P-0021 Augusta Viktoria Johansson](P-0021-augusta-viktoria-johansson.md) | mor | CORROBORATED | C-0023–C-0026 |
 | [P-0003 Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) | son utom äktenskapet | CORROBORATED | C-0086, C-0029 |

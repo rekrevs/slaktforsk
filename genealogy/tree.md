@@ -24,8 +24,10 @@ P-0004 Sverker Adam Janson (proband; född 1963-11-27)
 ├── far: P-0005 Jan-Christer Janson
 │   ├── far: P-0003 Arne Godvig Jansson
 │   │   ├── far: P-0010 Bernhard Natanael Eliasson
-│   │   │        (fastställd projektinformation enligt familjeuppgift;
-│   │   │         inget ytterligare faderskapsbelägg krävs)
+│   │   │   ├── far: P-0020 Per Wilhelm Eliasson
+│   │   │   │   ├── far: P-0290 Gabriel Eliasson
+│   │   │   │   └── mor: P-0289 Stina Larsdotter
+│   │   │   └── mor: P-0021 Augusta Viktoria Johansson
 │   │   └── mor: P-0009 Ada Wilhelmina Jansson
 │   │       ├── far: P-0042 Karl Fredrik Jansson
 │   │       │   ├── far: P-0131 Adolf Fredrik Jansson
@@ -695,15 +697,19 @@ fortsatt öppna.
   Lundkvist och sonen P-0374 Lars Olof. P-0295 är endast den bevarade
   historiska kandidatposten och används inte som en åttonde dotter.
 - Bernhards verifierade vuxna hushåll omfattar hustrun P-0011 Katy Leonie
-  Nilsson och döttrarna P-0012 Lucy Gudrun och P-0014 Maj-Grete. Ägaren har
-  nu identifierat den tidigare privatmarkerade P-0013 som Ann-Catherine
-  (Anki) Jonasson, född Eliaesson, och bekräftat henne som Bernhards dotter
-  och Arnes halvsyster. Familjeuppgifterna och 1944 års gruppbild finns i
+  Nilsson. Ägaren har fastställt P-0012 Lucy Gudrun, P-0013 Ann-Catherine
+  (Anki) Jonasson, född Eliaesson, och P-0014 Maj-Grete som Bernhards tre
+  döttrar. Ann-Catherine är född 1938-07-19 och uppges bo i Visby; ingen
+  adress lagras. Hon är Arnes halvsyster på fädernet. Ägarbeslutet finns i
+  PCD-2026-09-03-005; familjeuppgifterna och 1944 års gruppbild finns i
   C-0263–C-0264; de används privat och utan nutida adress. Ulla Göthbergs
-  längre PDF skriver nu ut den föreslagna kedjan från P-0288 Lars Månsson via
-  P-0289 Stina Larsdotter och P-0290 Gabriel Eliaeson till P-0020 Per Wilhelm.
-  Denna sekundära DNA-/släktkrönikeledtråd ligger utanför den verifierade
-  antavlan tills varje äldre led och DNA-underlaget har granskats.
+  längre PDF skriver ut kedjan från P-0288 Lars Månsson via P-0289 Stina
+  Larsdotter och P-0290 Gabriel Eliaeson till P-0020 Per Wilhelm. Värsås
+  A I/7 sida 159 säkrar nu Gabriel och Stina som föräldrar till Petter/Per
+  Wilhelm med exakt 1850-03-18; detta led ingår därför i den verifierade
+  antavlan. Den äldre relationen P-0288→P-0289 och den senare
+  Gabrielsson-kedjan förblir sekundära ledtrådar tills deras egna mellanled
+  har verifierats.
 - Jan-Christers daterade släktkrönika C-0266 registrerar Arnes syskonkontext,
   yrkesväg och familjefotografier. Den bekräftar som familjekälla barnen
   Jan-Christer, Anita och Ann-Christine (Tine), samt Adas dotter Maj-Britt.

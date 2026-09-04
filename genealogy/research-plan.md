@@ -52,8 +52,10 @@ släktmässigt irrelevant sidokartläggning.
 ## Arbetssätt: generationsvågor
 
 Forskningen utgår från probanden och arbetar lager för lager. Ett nytt djup
-öppnas först när identiteterna och relationerna i föregående lager har fått
-minst ett dokumenterat belägg eller en uttryckligt markerad forskningslucka.
+öppnas först när identiteterna och de bärande föräldrarelationerna i föregående
+lager är tillräckligt belagda och konsoliderade. En uttryckligt markerad
+forskningslucka kan stänga en position i våggranskningen men får inte öppna en
+hypotetisk anlinje som etablerad.
 
 1. **Djup 0 – proband:** identifiera forskningspersonen och dokumentera
    förstahandsuppgifter.
@@ -63,10 +65,10 @@ minst ett dokumenterat belägg eller en uttryckligt markerad forskningslucka.
 4. **Djup 3 och vidare:** arbeta igenom samtliga öppna anlinjer i samma
    generationsvåg. En lätt gren får inte drivas flera generationer förbi en
    närmare olöst identitet utan att detta är motiverat och noterat.
-5. **Våggranskning:** avsluta varje djup med en provenans-, person- och
-   täckningsgranskning. Skapa därefter Wotan-uppgifter för nästa våg utifrån
-   den faktiskt verifierade fronten; förhandsallokera inte ett oändligt antal
-   generationsuppgifter.
+5. **Våggranskning:** avsluta varje djup med en provenans-, identitets-,
+   konsoliderings-, beroende- och täckningsgranskning. Skapa därefter
+   Wotan-uppgifter för nästa våg utifrån den faktiskt verifierade fronten;
+   förhandsallokera inte ett oändligt antal generationsuppgifter.
 6. **Källbreddning:** före nästa djup ska närmare blockerade grenar få en
    relevansstyrd kompletterande källpassage. Nya personer och biografiska fakta
    från dessa källor bevaras under samma evidensregler som antavlan.
@@ -81,6 +83,26 @@ död/begravning och därefter bredare biografi. Folkräkningar,
 husförhörs-/församlingsböcker och flyttlängder används för att binda samman
 händelser och skilja personer med liknande namn.
 
+## Identitets- och konsolideringspass
+
+Efter varje materiellt fynd och före en våg stängs ska den berörda personakten
+granskas som helhet:
+
+1. skilj källobservationer från normaliseringar och slutsatser;
+2. pröva att alla observationer avser samma person genom kronologi, geografi,
+   hushåll, relationer, namnformer och andra identifierande drag;
+3. identifiera dubbletter, konflikter, orimliga överlapp och konkurrerande
+   identiteter;
+4. lös dem där evidensen medger det, annars håll kandidater åtskilda och
+   markera vad som saknas;
+5. kontrollera att varje bärande relation har evidensstatus och att en
+   materiellt osäker relation inte används i den verifierade antavlan;
+   `OWNER_CONFIRMED` räknas som etablerad enligt sitt Project Control Decision;
+6. när en identitet eller relation ändras, inventera och återpröva alla
+   beroende personer, relationer, djupmått, rapporter och exporter;
+7. lämna personakt, frontier, source coverage och Wotan-logg i samstämmigt
+   läge.
+
 ## Färdigdefinition för en undersökt person
 
 En person är inte "färdig" i absolut mening, men en forskningspassage kan
@@ -94,6 +116,10 @@ stängas när följande har dokumenterats eller fått en uttrycklig lucka:
 - alla personer i målposten/hushållet med egna P-id:n;
 - atomära påståenden med källa, citatpost, evidensstatus och konfliktnotering;
 - relevanta originalbilder lokalt, med stabilt filnamn och kontrollsumma.
+- en konsoliderad personakt där observationer och slutsatser är åtskilda,
+  dubbletter och materiella motsägelser är hanterade och akten bedöms avse en
+  enda person;
+- en beroendekontroll om identitet eller bärande relation har reviderats.
 
 Om källkedjan upphör markeras linjen som exempelvis `ARKIVLUCKA`,
 `ÅTKOMSTSPÄRR`, `IDENTITET OLÖST` eller `KÄLLOR SLUT`, tillsammans med vad som
@@ -103,17 +129,17 @@ sökts. Avsaknad av belägg omvandlas aldrig till ett positivt påstående.
 
 Den första gemensamma PDF-utgåvan omfattar ett jämnt djup 4 från Adam och
 Axel. Nästa forskningsmål är ett jämnt djup 5: detta motsvarar djup 4 från
-P-0004 och P-0210. Vid den senaste checkpointen 2026-08-23 består kohorten av
-16 kända personer på Sverkers sida och 14 kända personer på Kristinas sida,
-plus två öppna föräldrapositioner bakom Erik Jonas Henriksson. Johannes Ivar
-Fredberg är familjedokumenterad som Ivars far; hans egna föräldrar har nu
-identifierats som Olaus Fredberg och Brita Stina i 1880 års folkräkning.
+P-0004 och P-0210. Forskningskohorten har 32 namngivna och verifierat
+anslutna positioner. P-0006:s relationer till P-0001 och P-0002 är
+`OWNER_CONFIRMED` genom `PCD-2026-09-03-003` och kräver inget ytterligare
+arkivbelägg för projektets fastställande. Johannes Ivar Fredberg är
+familjedokumenterad som Ivars far; hans egna föräldrar har identifierats som
+Olaus Fredberg och Brita Stina i 1880 års folkräkning.
 
-För de 30 kända personerna ska T-0012 gå breddförst genom den centrala
-källryggraden och alla sakligt utlösta kompletterande Riksarkivskällor. De två
-kvarvarande öppna positionerna ska få föräldrar eller exakt dokumenterade
-källslut. När
-detta underlag är redo ska forskningen stanna. Innan manifest, disposition,
+T-0012 ska granska hela 32-personerskohorten breddförst genom den centrala
+källryggraden och alla sakligt utlösta kompletterande Riksarkivskällor. När
+detta underlag är identitetsprövat, konsoliderat och redo ska forskningen
+stanna. Innan manifest, disposition,
 formgivning eller rendering för nästa PDF påbörjas ska ägaren och agenten ha
 en rejäl diskussion om innehåll, berättarstruktur, bildurval, kartor,
 tidslinjer, källpedagogik och vilka kvalitativa steg som krävs bortom version
@@ -124,8 +150,8 @@ tidslinjer, källpedagogik och vilka kvalitativa steg som krävs bortom version
 | Djup | Personer | Läge | Nästa krav |
 |---|---|---|---|
 | 0 | P-0004 Sverker Adam Janson | preliminärt etablerad | bekräfta önskad namnform när det blir relevant |
-| 1–3 | 2, 4 och 8 anor | kompletta som generationsvågor | fortsatt biografi sker opportunistiskt |
-| 4 | 16 anor | P-0050 är vidareförd genom flytt- och hushållskedjan till Risvattnets föräldrahem; P-0051 är följd till Jomark 1846–1852 med exakt datum och `oäkta` men utan föräldrar, medan vigselraden nu säkert namnger farbrodern C. E. Lundberg i Lugnet utan belagd biologisk koppling; P-0058 är följd genom Degerfors–Bjurholm till Bastuträsk 1847 och Vännäs 1848, hela Vännäs A I/6a–b är avgränsad utan säker träff och en separat senare kedja säkrar Gunnismark s. 410→460 samt döden 1885-11-17; P-0059 är följd genom Rödå, gamla bokens sida 206 och reciproka flyttposter tillbaka till Umeå 1843 samt senare genom Gunnismark; P-0134 är följd till Carlberg; P-0110 är vidareförd genom Löta–Gålund till föräldrarna P-0329–P-0330 | återuppta de avgränsade P-0051/P-0058/P-0059-vägarna endast vid ny konkret hänvisning; för P-0051 är Olof Pehrsson–Maja Stina Pehrsdotter 1810 en ny familjenyckel men kräver fortsatt hushålls-/födelsedatumbrygga eller uttrycklig L III/1-/bilagetext innan relation skapas; P-0133:s 1860- och 1867–1875-led är säkrade och 1875 års flyttpost återtas bara med ny nyckel; fortsätt därefter djup 5 med P-0474–P-0475 enligt frontier.md |
+| 1–3 | 2, 4 och 8 anor | kompletta som generationsvågor; P-0006:s relation till P-0001/P-0002 är `OWNER_CONFIRMED` enligt PCD-2026-09-03-003 | fortsatt konsolidering och biografi sker breddförst |
+| 4 | 16 verifierat anslutna anor | P-0050:s Risvattnetkedja, P-0051:s Jomarkkedja, P-0133:s 1860- och 1867–1875-led samt P-0110:s Löta–Gålundkedja är bevarade; P-0006-bryggan bärs av säker ägarkunskap och ska inte återöppnas som osäker | återuppta avgränsade personvägar endast enligt `frontier.md`; konsolidera kohorten utan att kräva arkivbevis för OWNER_CONFIRMED-relationer |
 | 5 | 18 kända anor | P-0215 är vidareförd till P-0221–P-0222; P-0230–P-0231 är vidareförda till fyra föräldrar genom originalfödelserna 1797–1798; P-0329–P-0330 är identifierade i Helgesta A I/15; P-0214:s Bettna-datum är fortsatt konflikt | följ Carl Fredrik Ålund och Maja Catharina Carlsdotter bakåt i Helgesta A I/14 och flytten från Gryt 1857; återuppta P-0214 från A I/8 sida 118 genom alternativa hushålls-, vigsel- och mantalsvägar; följ övriga djup-5-spetsar breddförst |
 | 6 | P-0149, P-0160–P-0166, P-0221–P-0222 och P-0232–P-0235 | fjorton registrerade personer; fyra nya Risvattnet/Nysätra-anor är öppnade, Eriks Gryt-födelse har digital åtkomstlucka och P-0222 är redan vidareförd till djup 7 | fortsätt den breddförsta återhämtningsvågen på djup 4–5; bevara djup-6-personerna som nästa kontrollerade front och använd vigsel, död, mantal och bouppteckning när identitetsankaret medger det |
 | Hustruns antavla | Kristina Elisabeth Petronella Höök, gift Janson, är andra proband; P-0211 Evy och P-0212 Gunnar utgör separat djup-1-front | Gunnar är vidareförd till P-0239 Anders Ivar och P-0240 Anna Elisabeth Carlman. Elisabeth är vidareförd till P-0242–P-0243. Evys Sättna-utdrag identifierar P-0241 Axel Edvin och P-0246 Emma Petronella; deras föräldrar är säkrade. Ivars far P-0287 Johannes Ivar Fredberg är familjedokumenterad genom dottern Margaretas uttryckliga farfarsuppgift; hans egen 1880–1900-kedja och föräldrarna P-0336–P-0337 är Riksarkivbelagda. Olaus centralryggrad är nu sluten Lundby–Östra Fågelvik–Alnö–Stockholm 1873–1876, men föräldrarna och födelsedatumskonflikten är öppna. Ingrids egen Indal-notis och Högsjöhushåll öppnar P-0271–P-0272 | Nästa utgåvekohort är sönernas jämna djup 5. Arbeta breddförst med de fjorton kända djup-4-personerna på Kristinas sida och pröva de två öppna positionerna bakom P-0253, parallellt med de sexton kända på Sverkers sida. Stoppa för ägardiskussion innan ny PDF-produktion |

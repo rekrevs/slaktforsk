@@ -6,6 +6,9 @@
 - `sources/S-NNNN-*.md` — bibliografisk beskrivning av en källa eller volym.
 - `citations/C-NNNN-*.md` — exakt ställe i en källa och relevant avskrift.
 - `research-log/YYYY-MM-DD.md` — kronologisk söklogg, även negativa resultat.
+- `identity-review-YYYY-MM-DD.md` — tvärgående konsolideringsrevisioner av
+  namnformer, personidentiteter, felaktiga sammanslagningar och skyddade
+  kandidatgränser.
 - `media/` — hämtade bilder; filnamn börjar med citationens id och åtföljs av
   kontrollsumma i citationsakten.
 - `exports/` — härledda utbyten, exempelvis GEDCOM. Exporter är inte
@@ -14,11 +17,63 @@
 Identifierare återanvänds aldrig. En personakt kan innehålla flera motstridiga
 påståenden; källorna avgör vilket som senare bedöms som bäst styrkt.
 
+## Kunskapslager
+
+Projektet skiljer fyra lager som inte får blandas ihop:
+
+1. **Evidenshistorik:** källakter, citationsakter, forskningsloggar,
+   strukturerade observationer och bevarade original med provenans och
+   kontrollsummor.
+2. **Konsoliderad personmodell:** personakterna med projektets aktuella bästa
+   bedömning av identitet, händelser, relationer, konflikter och luckor.
+3. **Härledda slutsatser:** den verifierade antavlan, rapporter, index och
+   exporter som byggs från personmodellen.
+4. **Arbetsläge:** Wotan, handover, forskningsfront och täckningsmatris som
+   anger vad som ska göras eller granskas, inte vad som är sant om en person.
+
+Evidenshistoriken är append-only. När en bevarad observation visar sig vara
+felavläst, felkopplad eller ofullständig ska den ligga kvar och en ny
+korrigerande observation skapas med länk till det den ersätter eller motsäger.
+En senare slutsats får inte tyst ändra källans tidigare ordalydelse eller
+provenans. Rent tekniska rättelser som inte ändrar observationens innebörd kan
+göras i filen, men semantiska rättelser ska lämna en synlig historik.
+
+Personmodellen är däremot reviderbar och ska hållas konsoliderad. Nya belägg
+ska vägas mot tidigare uppgifter, dubbletter ska förenas utan att evidens
+försvinner och konflikter ska lösas eller lämnas uttryckligt öppna. Rapporter
+och exporter får aldrig behandlas som fristående evidens när underliggande
+personmodell har ändrats.
+
+## Identitetsintegritet
+
+En personakt motsvarar en verklig person, inte ett namn eller en sökträff.
+Sammanföring kräver en dokumenterad bedömning av namnformer, datum och ålder,
+geografi och flyttkedja, hushåll och familjerelationer samt yrke eller andra
+identifierande omständigheter. Likhet i enstaka fält räcker inte.
+
+Om uppgifter kan avse olika personer hålls kandidaterna i separata personakter
+eller som tydligt åtskilda hypoteser tills identiteten är avgjord. Om en
+sammanblandning upptäcks ska akten delas, varje observation knytas om med
+synlig historik och alla beroende relationer och slutsatser granskas på nytt.
+En möjlig sammanslagning får inte genomföras bara för att göra antavlan
+komplett.
+
+Relationer med status `LEAD`, `CONFLICT` eller `REJECTED` får inte ingå i den
+verifierade antavlan. `TRANSCRIBED` beskriver vad en källa säger men räcker
+inte ensamt när själva identiteten eller relationskopplingen är materiellt
+osäker. `OWNER_CONFIRMED` är däremot fastställd projektinformation när ägaren
+uttryckligen har sagt att uppgiften är säker. Den behöver inget ytterligare
+arkivbelägg för att användas, men måste länkas till ett Project Control Decision
+och förbli spårbar som ägarkunskap.
+
 ## Evidensstatus
 
 - `LEAD` — ledtråd som ännu inte verifierats i oberoende källa.
-- `TRANSCRIBED` — avläst ur angiven källa men ännu inte identitetsprövad.
+- `TRANSCRIBED` — avläst ur angiven källa; identitetsbedömningen redovisas
+  separat och får inte antas enbart av denna status.
 - `CORROBORATED` — stöds av minst två självständiga eller kompletterande belägg.
+- `OWNER_CONFIRMED` — uttryckligen säker familjekunskap från projektägaren,
+  bevarad i ett Project Control Decision; sann i projektets kanoniska modell.
 - `CONFLICT` — motsägs av annan uppgift och kräver analys.
 - `REJECTED` — prövad och bedömd felaktig; behålls för spårbarhet.
 
@@ -111,7 +166,12 @@ volymkoderna för folkräkningen beskrivs i
 4. Transkribera det som faktiskt står; normalisera först i ett separat fält.
 5. Kontrollera identiteten i hushålls-, flyttnings- eller annan kompletterande
    källa innan personer med samma namn slås samman.
-6. Exportera endast härledda, verifierade data till GEDCOM.
+6. Konsolidera nya observationer mot personens hela akt: hitta dubbletter,
+   pröva kronologi och geografi, väga konflikter och uppdatera den aktuella
+   slutsatsen utan att skriva om evidenshistoriken.
+7. Om identiteten eller en bärande relation ändras, identifiera och återpröva
+   antavla, personer och andra slutsatser som beror på den.
+8. Exportera endast härledda, verifierade data till GEDCOM.
 
 ## Utgåvegrind för T-0012
 
@@ -122,6 +182,13 @@ alla sakligt relevanta Riksarkivet-källfamiljer ska användas eller få ett exa
 dokumenterat hinder innan en lätt gren drivs djupare. Folkräkningar,
 husförhör/församlingsböcker, flyttning, vigsel, död, bouppteckning, mantal och
 yrkesutlösta serier används för biografiska helheter, inte bara ankoppling.
+
+Kohorten är inte forskningsklar bara för att observationer har samlats in.
+Varje person ska också ha genomgått en identitets- och konsolideringsgranskning:
+akten ska avse en person, bärande relationer ska vara prövade, observationer
+och slutsatser ska gå att skilja åt, och materiella konflikter eller luckor ska
+vara lösta eller uttryckligt redovisade. Ingen osäker relation får öppna nästa
+anled som etablerad.
 
 När kohorten är forskningsklar ska arbetet stanna. Ingen ny PDF, inget manifest
 och ingen layout får påbörjas innan ägaren och forskningsarbetet har haft en

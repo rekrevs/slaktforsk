@@ -4,6 +4,7 @@ const GRANDPARENT_WORD = /\b(morfar|mormor|farfar|farmor)\b/i;
 const PARENT_WORD = /\b(far|fader|mor|moder)\b/i;
 const CHILD_WORD = /\b(son|dotter|barn)\b/i;
 const EXCLUDE = /styv|husbonde|uppgiven|tidigare antagen|sannolik|möjlig|ej belagt/i;
+const NON_PROPAGATING_STATUS = new Set(["LEAD", "CONFLICT", "REJECTED", "UNKNOWN"]);
 
 // A prose label ends the preceding relationship block. JavaScript's `\w`
 // does not include Swedish letters, so keep the supported alphabet explicit.
@@ -24,9 +25,14 @@ export function buildParentMap(people) {
     if (!section) continue;
     const body = section.split(/\n## /)[0];
 
-    for (const row of body.matchAll(/^\|\s*\[[^\]]+\]\((P-\d{4})[^)]*\)\s*\|\s*([^|]+)\|/gm)) {
-      const [, target, rawRelation] = row;
+    for (const row of body.matchAll(/^\|\s*\[[^\]]+\]\((P-\d{4})[^)]*\)\s*\|\s*([^|]+)\|([^\n]*)$/gm)) {
+      const [, target, rawRelation, remainingCells] = row;
       const relation = rawRelation.trim();
+      const status = remainingCells
+        .split("|")
+        .map((cell) => cell.trim().toUpperCase())
+        .find((cell) => NON_PROPAGATING_STATUS.has(cell));
+      if (status) continue;
       if (EXCLUDE.test(relation) || GRANDPARENT_WORD.test(relation)) continue;
       if (PARENT_WORD.test(relation)) link(id, target);
       else if (CHILD_WORD.test(relation)) link(target, id);

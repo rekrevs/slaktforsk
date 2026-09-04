@@ -3,7 +3,9 @@
 ## Identitet
 
 Dotter i Hök–Hillberg-hushållet i Hudiksvall. Församlingsboken kallar henne
-Augusta Märta; folkräkningarna återger namnformen Augusta Elisabet.
+Augusta Märta; folkräkningarna återger namnformen Augusta Elisabet. Exakt
+datum, föräldrar och syskon gör 1896-barnets identitet säker, samtidigt som
+hon hålls strikt skild från den äldre systern med samma senare namnform.
 
 ## Påståenden
 
@@ -12,6 +14,7 @@ Augusta Märta; folkräkningarna återger namnformen Augusta Elisabet.
 | A-1589 | Folkräkningarna kallar den 1896 födda Hudiksvallsdottern Augusta Elisabet, medan församlingsboken kallar henne Augusta Märta och ger datumet 1896-10-05. | CONFLICT | hög | [C-0255](../citations/C-0255-anders-ivar-hudiksvall-1910-index.md), [C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md), [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md), [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | Datum, familj och ordningsföljd binder samma barn; namnkonflikten bevaras. |
 | A-1590 | Hon var syster till Anna Matilda i det registrerade föräldrahushållet. | TRANSCRIBED | hög | [C-0255](../citations/C-0255-anders-ivar-hudiksvall-1910-index.md), [C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md) | Härlett direkt ur de gemensamma föräldrarelationerna i samma hushåll. |
 | A-2117 | Augusta Märta, född 1896-10-05, var ett annat barn än den Augusta Elisabet som föddes och dog 1895. | CORROBORATED | mycket hög | [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | Sida 285 redovisar barnen på var sin rad; sida 780 har den rättade 1896-raden. |
+| A-3136 | SCB:s hela Hudiksvallsutdrag för födda 1896 saknar 1896-10-05 och en Hök–Hillberg-dotter, men avsnittsnollet upphäver inte församlingsböckernas säkra identitet och får inte förena 1896-barnet med systern född 1895. | CORROBORATED | mycket hög | [C-0822](../citations/C-0822-scb-hudiksvall-fodda-1896-augusta-negativ.md), [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | SCB-nollet är källbundet; orsaken fastställs inte från anteckningen `icke döpt` ensam. |
 
 ## Relationer
 
@@ -24,6 +27,7 @@ Augusta Märta; folkräkningarna återger namnformen Augusta Elisabet.
 
 ## Forskningsstatus
 
-Exakt födelsedatum och plats är säkrade i församlingsboken. Egen födelsenotis
-och senare livslopp återstår. Namnformen Augusta Elisabet får inte blandas ihop
-med den separat dokumenterade systern som dog 1895.
+Exakt födelsedatum och plats är säkrade i två församlingsbokssidor. Egen
+födelsenotis saknas även i SCB:s kompletta Hudiksvallsutdrag 1896; orsaken är
+öppen. Senare livslopp återstår. Namnformen Augusta Elisabet får inte blandas
+ihop med den separat dokumenterade systern som dog 1895.

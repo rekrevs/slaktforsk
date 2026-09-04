@@ -3,8 +3,10 @@
 Detta är ett källstyrt släktforskningsprojekt. Wotan håller reda på arbetet;
 forskningsresultaten ligger under `genealogy/`.
 
-En ny arbetssession börjar med [HANDOVER.md](HANDOVER.md), som pekar ut det
-aktuella beständiga läget och skyddar mot att avslutade promptar körs om.
+Codex läser först projektets [AGENTS.md](AGENTS.md), som routar vidare till de
+kanoniska styrdokumenten. En ny arbetssession fortsätter sedan med
+[HANDOVER.md](HANDOVER.md), som pekar ut det aktuella beständiga läget och
+skyddar mot att avslutade promptar körs om.
 
 ## Grundregel
 

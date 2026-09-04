@@ -5,7 +5,7 @@ och de kompletterande källfamiljerna. Den visar forskningsläge och prioritet,
 inte positiva släktpåståenden. Personakterna och citatposterna är fortfarande
 auktoritativa för vad en källa faktiskt säger.
 
-Senast uppdaterad: **2026-09-02**, inom T-0012.
+Senast uppdaterad: **2026-09-04**, inom T-0012.
 
 ## Nästa utgåvas fasta breddkohort
 
@@ -65,7 +65,8 @@ mot manifestet.
 
 | Person(er) | Exakt volym | Katalogpost | `Bild` | Bildvisare | Direkt IIIF | Aktuell disposition |
 |---|---|---:|---:|---:|---:|---|
-| P-0020 | Värsås `SE/GLA/13639/C/- [H0003]` 1824–1853 | [ja](https://sok.riksarkivet.se/arkiv/LiubxfyxweZJUG018W43t3) | nej | nej | inget batch-id | `ÅTKOMSTSPÄRR`; födelsespåret förblir stängt |
+| P-0020, P-0289–P-0290, P-0501 | Värsås `SE/GLA/13639/A I/7` 1850–1861 och `A I/8` 1861–1865 | [ja](https://sok.riksarkivet.se/arkiv/ceVa5A5trH6cyG018W43t3) | ja efter inloggning | `C0053458_00169`, sida 159; A I/8 register och `C0053459_00161`, sida 157 | två fulla manifest, JSON-LD, IIIF-info och tre fulloriginal fungerar | A I/7 säkrar Gabriel Eliasson och Stina Larsdotter som föräldrar till Petter/Per Wilhelm född 1850-03-18 samt systern Margaretha Sofia. A I/8:s sida 157 visar andra boende på Djursätra Västergården och är bara ett adressbundet efterkontrollresultat, C-0820 |
+| P-0020 | Värsås `SE/GLA/13639/C/- [H0003]` 1824–1853 | [ja](https://sok.riksarkivet.se/arkiv/LiubxfyxweZJUG018W43t3) | nej | nej | inget batch-id | `ÅTKOMSTSPÄRR` gäller endast den egna födelsenotisen; föräldrafrågan är löst via A I/7, C-0820 |
 | P-0020–P-0021 | Värsås `SE/GLA/13639/A II a/2` och `A II a/3`, Djursätra Västergårdens registrerade startsidor | ja | ja | `00073285_00003`, `_00137`; `00073286_00003`, `_00140`–`_00141` | autentiserad bildvisare och fem fulloriginal fungerar | ortregistren leder till s. 130; A II a/2 s. 130 och A II a/3 s. 130–131 saknar paret. Sidbundet lokaliseringsnoll, inte ort- eller volymnoll, C-0419 |
 | P-0020–P-0021 | Värsås `SE/GLA/13639/E/1`, vigslar 1885–1886 | ja | ja | `00192941_00019`–`_00021` | autentiserad bildvisare och tre fulloriginal fungerar | båda hela årgångarna saknar paret. Den äldre slutsatsen att Värsås vigselbok före 1970 inte var fjärråtkomlig är avvisad, C-0420 |
 | P-0020 | Värsås `SE/GLA/13639/E/2`, död- och begravningsbok 1929 s. 74 post 11 | ja | ja | `00073303_00109` | autentiserad bildvisare och fulloriginal fungerar | Per Vilhelm född 1850-03-18, död 1929-09-05 i Skövde, begravd 15/9, `Paralysis cordis`; ägde 1/8 mantal Djursätra Västergården, C-0418 |
@@ -688,3 +689,25 @@ patronymikon-, marginal-, barn-, flytt- eller hushållsnyckel.
 
 En `2`-markerad källa blir `1` när en tidigare källa ger den plats, tid,
 befattning eller rättsliga händelse som behövs för en riktad sökning.
+
+## Identitetsrevision 2026-09-04
+
+Den tvärgående [namnvariantrevisionen](identity-review-2026-09-04.md) skannade
+samtliga personakter och detaljgranskade de identifierade samma-person- och
+namnkonfliktfallen. Ingen ny felaktig sammanslagning upptäcktes. Fem
+huvudfall — P-0051, P-0126, P-0223, P-0280 och P-0323 — är konsoliderade som
+säkra personer med uttryckligt olösta namnfält, inte som osäkra identiteter.
+
+Riksarkivets nya avgränsningar är:
+
+- Linköpings domkyrkoförsamling B I/3, hela 1840 på
+  `C0016897_00050`–`_00063`, utan säker Carl/Anders Gustaf Ajax. MCP:s
+  manifestviewer kunde inte läsa kyrkoboksmanifestet; records-API,
+  inloggad katalog och direkt IIIF gav hierarki, batch och avgränsning.
+  Resultatet är ett församlings-/årsnoll och får inte upprepas utan ny nyckel
+  (S-0637/C-0821).
+- SCB Hudiksvall födda 1896, hela avsnittet och posterna 1–142 på
+  `A0036673_00546`–`_00553`, utan 1896-10-05 eller Hök–Hillberg-dottern.
+  OAI/JSON-LD/API routade källan och den inloggade bildvisaren gav de
+  autentiserade IIIF-bilderna. Resultatet är ett utdragsnoll och upphäver
+  inte de två positiva församlingsbokssidorna (S-0638/C-0822).

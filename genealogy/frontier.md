@@ -7,14 +7,19 @@ auktoritativa för enskilda påståenden; fronten visar bara vilka anlinjer som 
 ## Aktiv utgåvefront 2026-08-23
 
 T-0012 arbetar nu mot nästa gemensamma Adam/Axel-utgåva, en generation
-djupare än v1. Den fasta kohorten består av 32 teoretiska positioner på
-sönernas djup 4: alla 16 är namngivna på P-0004:s sida och alla 16 på
-P-0210:s sida. P-0253 Erik Jonas Henrikssons tidigare öppna positioner är nu
+djupare än v1. Den fasta kohorten består av 32 namngivna och verifierat
+anslutna positioner på sönernas djup 4: 16 på P-0004:s sida och 16 på
+P-0210:s sida. P-0006 Hillevis relationer till P-0001 Oskar Alfred och
+P-0002 Ebba Alfrida är `OWNER_CONFIRMED` genom ägarens uttryckliga
+100-procentiga bekräftelse i `PCD-2026-09-03-003`; avsaknad av ytterligare
+arkivbelägg gör dem inte osäkra. P-0253 Erik Jonas Henrikssons tidigare öppna
+positioner är nu
 P-0338 Henrik Henriksson och P-0339 Margareta Charlotta Sjödin/Sjölin. P-0287
 Johannes Ivar Fredbergs tidigare öppna positioner är P-0336 Olaus
 Fredriksson Fredberg och P-0337 Brita Stina Svensdotter.
 
-Arbetet går breddförst över de 32 namngivna personerna. Var och en ska få en
+Arbetet konsoliderar kohorten person för person. De 32 namngivna personerna
+ska bevaras och granskas. Var och en ska få en
 sammanhängande central källryggrad och alla sakligt relevanta källfamiljer hos
 Riksarkivet — bland annat folkräkningar, husförhör/församlingsböcker,
 flyttning, vigsel, död, bouppteckning, mantal och yrkesutlösta serier — ska
@@ -783,7 +788,7 @@ bevarar både kvarstående terminaler och de autentiserat återöppnade grenarna
 
 | Ana | Djup | Slutstatus | Blockerande källa eller motsägelse |
 |---|---|---|---|
-| P-0020 Per Wilhelm Eliasson | 4 | `ÅTKOMSTSPÄRR — LIVSSLUT SÄKRAT` | Värsås `C/- [H0003]` finns i inloggad katalog men saknar `Bild`, så föräldrafrågan är stängd. C-0418 ger däremot född 1850-03-18, död i Skövde 1929-09-05, begravd 15/9, `Paralysis cordis` och ägande av 1/8 mantal Djursätra Västergården. A II a/2–3 är öppna men ortdelarnas startsidor gav bara lokaliseringsnoll. E/1 är också öppnad; 1885–1886 saknar paret. Återta vigseln med tidigare år eller annan ort och föräldrarna först vid ny bildåtkomst, C-0418–C-0420 |
+| P-0020 Per Wilhelm Eliasson | 4 | `VIDAREFÖRD — FÖRÄLDRAR SÄKRADE; FÖDELSEPOST SPÄRRAD` | Efter ny inloggning öppnade Värsås A I/7. Sida 159, `C0053458_00169`, visar Gabriel Eliasson och Stina Larsdotter med sonen Petter Wilhelm född exakt 1850-03-18 och systern Margaretha Sofia. Tillsammans med C-0418:s exakta senare födelsetid och C-0262:s familjekedja är P-0290/P-0289 nu korroborerade föräldrar. H0003 saknar fortsatt `Bild`, men spärren gäller bara födelsenotisen och får inte stänga föräldrafrågan. A I/8 sida 157 har andra boende på Djursätra Västergården; familjens fortsättning är öppen och den äldre länken Stina→Lars Månsson förblir `LEAD`, C-0820 |
 | P-0021 Augusta Viktoria Johansson | 4 | `IDENTITET OLÖST — SEN TIBROKEDJA SÄKRAD` | Kyrkefalla och Mofalla genomsökta 1863–64; enda födelsenamnträffen har fel far. C-0417 visar henne 1930 som änka i Smuleberg, Kyrkefalla med Tibro m:e, inflyttad från Värsås samma år, född i Kyrkefalla och `h. m.` hos Alva Viktoria. Det stärker Kyrkefalla men löser inte födelsebokskonflikten. E/1 1885–1886 saknar paret; sök tidigare år/annan vigselort eller en bakåtlänk före födelsekandidaterna, C-0114, C-0417, C-0420 |
 | P-0042 Karl Fredrik Jansson | 4 | `VIDAREFÖRD — FÖDELSEIDENTITET, VIGSEL OCH LIVSSLUT SÄKRADE` | C-0421 ger exakt 1861-09-24 och binder därmed Lilla Mellösa C/4:s Carl Fredrik säkert till den senare Flen-kedjan och P-0131–P-0132. C-0535 säkrar vigseln 1886-04-26 i Lerbo som dräng från Spånga, med samma födelsedatum; C-0536 avgränsar Lerbo 1883–1885 negativt. Han var före detta maskinarbetare i Tulefors, dog 1937-12-29 av kronisk myokardit och kronisk bronkit och begravdes 31/12. Folkräkningar 1890–1930 och församlingsböcker följer hushållet; eventuell bouppteckning och Varia-arbetskälla är nästa breddberikning, C-0011–C-0013, C-0030–C-0032, C-0035, C-0099, C-0421, C-0535 |
 | P-0043 Charlotta Wilhelmina Larsson | 4 | `VIDAREFÖRD — FÖDELSE, FÖRÄLDRAR, VIGSEL OCH LIVSSLUT SÄKRADE` | C-0098 och Anderslundhushållet säkrar P-0125–P-0126. C-0535 säkrar vigseln 1886-04-26 i Lerbo som 18-årig piga från Spånga med moderns skriftliga samtycke; modern kallas då änka, vilket ger P-0125 ett dödsintervall före april 1886, och hennes patronymikon `Andersd:r` hålls som konflikt. Den sammanhängande senare familjekedjan slutar med C-0422: änka i Tulefors, död 1940-07-25 på `Sjukhemmet` av ändtarmscancer och begravd 3/8. C-0423 bevarar rättelsen av marginaldatumet 25/2 → 25/7. Eventuell bouppteckning återstår som breddberikning, C-0011–C-0013, C-0030–C-0032, C-0035, C-0098, C-0422–C-0423, C-0535 |

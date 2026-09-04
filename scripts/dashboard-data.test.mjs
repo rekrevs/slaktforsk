@@ -24,7 +24,7 @@ assert.equal(data.stats.sources, markdownCount(join(genealogy, "sources")));
 assert.equal(data.stats.citations, markdownCount(join(genealogy, "citations")));
 assert.equal(new Set(data.people.map((person) => person.id)).size, data.people.length, "person-id ska vara unika");
 assert.ok(data.activeWork?.id, "en aktiv forskningsuppgift ska visas");
-assert.equal(data.progress.find((branch) => branch.id === "P-0004")?.knownAncestors, 77);
+assert.equal(data.progress.find((branch) => branch.id === "P-0004")?.knownAncestors, 79);
 assert.equal(data.progress.find((branch) => branch.id === "P-0210")?.knownAncestors, 61);
 
 const people = new Set(data.people.map((person) => person.id));
@@ -41,6 +41,32 @@ for (const edge of data.parentEdges) {
   parentCounts.set(edge.child, (parentCounts.get(edge.child) ?? 0) + 1);
   if (!parentsByChild.has(edge.child)) parentsByChild.set(edge.child, []);
   parentsByChild.get(edge.child).push(edge.parent);
+}
+
+assert.ok(
+  ["P-0001", "P-0002"].every((parent) =>
+    data.parentEdges.some((edge) => edge.child === "P-0006" && edge.parent === parent),
+  ),
+  "P-0006:s OWNER_CONFIRMED-föräldrar ska visas som verifierade länkar",
+);
+
+for (const child of ["P-0039", "P-0040", "P-0041"]) {
+  assert.ok(
+    ["P-0001", "P-0002"].every((parent) =>
+      data.parentEdges.some((edge) => edge.child === child && edge.parent === parent),
+    ),
+    `${child}:s OWNER_CONFIRMED-föräldrar ska visas som verifierade länkar`,
+  );
+}
+
+for (const child of ["P-0012", "P-0013", "P-0014"]) {
+  const person = data.people.find((entry) => entry.id === child);
+  assert.ok(
+    person?.relations.some(
+      (relation) => relation.target === "P-0010" && relation.status === "OWNER_CONFIRMED",
+    ),
+    `${child}:s relation till P-0010 ska vara OWNER_CONFIRMED`,
+  );
 }
 
 for (const edge of data.parentEdges) {

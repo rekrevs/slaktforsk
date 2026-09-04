@@ -20,12 +20,13 @@ i det privata familjeprojektet och ingen adress lagras.
 | A-1643 | Malmö har föreslagits som möjlig födelseort. | LEAD | låg | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Uppgiftslämnaren markerar uttryckligen orten som en gissning. |
 | A-1644 | Hon uppges nu bo i Visby på Gotland. | TRANSCRIBED | hög | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Privat familjeuppgift; ingen adress lagras. |
 | A-1645 | Hon uppges vara gift med Birger, som är konstnär. | TRANSCRIBED | medel | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Endast förnamn och yrke är angivna. |
+| A-3123 | Ann-Catherine Jonasson, född Eliaesson, är Bernhard Natanael Eliaessons tredje namngivna dotter. | OWNER_CONFIRMED | hög | [C-0819](../citations/C-0819-agarens-bekraftelse-bernards-dottrar.md), [PCD-2026-09-03-005](../../PROJECT-CONTROL.md#pcd-2026-09-03-005) | Ägaren återbekräftar relationen; födelsedatum och Visby finns separat i A-1642 och A-1644. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0010 Bernhard Natanael Eliaesson](P-0010-bernard-natanael-eliasson.md) | far | CORROBORATED | C-0018, C-0261, C-0263 |
+| [P-0010 Bernhard Natanael Eliaesson](P-0010-bernard-natanael-eliasson.md) | far | OWNER_CONFIRMED | PCD-2026-09-03-005, C-0819, C-0263 |
 | [P-0011 KATY Leonie Nilssoon](P-0011-katy-leonie-nilssoon.md) | mor | CORROBORATED | C-0018, C-0264 |
 | [P-0003 Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) | halvbror på fädernet | CORROBORATED | C-0261, C-0262 |
 | [P-0012 Lucy Gudrun Eliaesson](P-0012-lucy-gudrun-eliaesson.md) | syster | CORROBORATED | C-0027, C-0263, C-0264 |

@@ -15,6 +15,7 @@ const errors = [];
 const allowedStatuses = new Set([
   "CORROBORATED",
   "TRANSCRIBED",
+  "OWNER_CONFIRMED",
   "LEAD",
   "CONFLICT",
   "UNKNOWN",
@@ -58,6 +59,10 @@ if (!existsSync(manifestPath)) {
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
 const personIds = idsIn(join(root, "genealogy", "people"), "P");
 const citationIds = idsIn(join(root, "genealogy", "citations"), "C");
+const decisionIds = new Set(
+  [...readFileSync(join(root, "PROJECT-CONTROL.md"), "utf8").matchAll(/^## (PCD-[0-9-]+)$/gm)]
+    .map((match) => match[1]),
+);
 
 if (manifest.schema !== "slaktforsk.family-edition.v1") {
   errors.push(`unsupported schema: ${manifest.schema}`);
@@ -105,6 +110,9 @@ for (const [index, link] of links.entries()) {
   if (!link.parent && link.status !== "UNKNOWN") errors.push(`${context}: null parent must be UNKNOWN`);
   if (link.status === "LEAD" && !link.display_warning) {
     errors.push(`${context}: LEAD must carry a display warning`);
+  }
+  if (link.status === "OWNER_CONFIRMED" && !decisionIds.has(link.decision)) {
+    errors.push(`${context}: OWNER_CONFIRMED must carry a valid Project Control decision`);
   }
   checkStatus(link.status, context);
   checkCitations(link.citations, context);

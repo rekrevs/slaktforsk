@@ -3,7 +3,9 @@
 ## Identitet
 
 Charlotta Wilhelmina Larssons mor, hustru till torparen Lars Andersson i
-Anderslund, namngiven i dotterns födelsenotis 1867.
+Anderslund, namngiven i dotterns födelsenotis 1867. Lysningsnotisens isolerade
+form `Brita Katrina Andersd:r` bevaras som namnkonflikt men avser samma mor;
+den utgör inte en separat personidentitet.
 
 ## Påståenden
 
@@ -26,6 +28,7 @@ Anderslund, namngiven i dotterns födelsenotis 1867.
 | A-2379 | I dotterns lysningsnotis 1886 kallas hon `Enkan Brita Katrina Andersd:r i Erikslund` och gav skriftligt samtycke till äktenskapet. | CONFLICT | medel | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md), [C-0098](../citations/C-0098-charlotta-wilhelmina-fodelse-1867.md) | Modersrelationen är uttrycklig, men patronymikonet Andersdotter motsäger Pehrsdotter i C-0098/C-0126; kan vara prästens förväxling med makens namn. Ingen rättelse görs utan ytterligare original. |
 
 | A-2400 | Hon blev änka 1874-02-05 när Lars Andersson dog i Anderslund; dödboken anger honom som gift. | CORROBORATED | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md), [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Änkestatusen 1886 får därmed ett exakt startdatum. |
+| A-3135 | Brita Kajsa Pehrsdotter och lysningsnotisens änka Brita Katrina Andersdotter är samma mor till Charlotta Wilhelmina; den avvikande patronymikonformen ändrar inte personidentiteten. | CORROBORATED | mycket hög | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md), [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md), [C-0098](../citations/C-0098-charlotta-wilhelmina-fodelse-1867.md), [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md), [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md) | Eget datum/socken, make, Anderslund/Erikslund, dotter och dokumenterad änkestatus bildar en sammanhängande kedja; den okände fadern får fortfarande inte skapas från patronymikonet. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |

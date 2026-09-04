@@ -385,3 +385,166 @@
   - En full generationskohort når sin våggranskning
   - MCP-serverns täckning eller åtkomstläge förändras väsentligt
   - Projektets godkända åtkomstformer ska utvidgas bortom nätmaterial
+
+## PCR-2026-09-03-002
+
+- Record type: review
+- Date: 2026-09-03
+- Mode: direction-review
+- Trigger: Ägaren vill göra det kontinuerliga målet till ett deklarativt
+  kvalitetskontrakt och motverka att flera arbetspass ackumulerar
+  okonsoliderad information, sammanblandade identiteter eller vidare anor
+  ovanpå en osäker person eller föräldrarelation.
+- Control judgement: continue, redirect, preserve, evaluate
+- Current gate: Projektet har stark provenans, beständiga observationer och
+  evidensstatusar men saknar ett uttryckligt kontrakt mellan append-only
+  evidens och reviderbar kanonisk kunskap. Personernas konsolidering är inte en
+  fullständig färdiggrind. Reporoten saknar dessutom `AGENTS.md`, så Codex får
+  projektets styrning endast indirekt via README och handover. Den gemensamma
+  anparsern kan föra in en tabellrelation märkt `LEAD` eller `CONFLICT` om
+  osäkerheten inte också står i relationsordet.
+- Recommendation: Lägg de beständiga kvalitetsinvarianterna i north star,
+  kunskapslagren och reglerna för rättelse/sammanföring/delning i
+  `genealogy/README.md`, den upprepningsbara identitets- och
+  konsolideringspassagen i forskningsprogrammet och aktuellt arbete i T-0012.
+  Skapa en kort lokal `AGENTS.md` som routar Codex till dessa kanoniska filer.
+  Filtrera uttryckligt osäkra relationsstatusar ur härledd antavla och täck
+  beteendet med regressionstest.
+- Owner decision required: Godkänn kvalitetskontraktet, dokumentfördelningen
+  och att T-0012:s kohort måste identitets- och konsolideringsgranskas innan
+  uppgiften eller nästa djup kan stängas.
+- Evidence:
+  - Ägarens analys, förtydligande och uttryckliga instruktion att implementera
+    2026-09-03
+  - `NORTH-STAR.md`
+  - `genealogy/README.md`
+  - `genealogy/research-plan.md`
+  - `scripts/lib/genealogy-relations.mjs`
+  - `wotan/backlog.json`
+  - global `~/.codex/AGENTS.md` och avsaknaden av lokal `AGENTS.md`
+- Revisit when:
+  - T-0012:s utgåvekohort har genomgått första fulla konsolideringsgranskningen
+  - En personakt behöver delas eller två kandidatakter sammanföras
+  - Maskinella identitets- eller ledgerkontroller kan införas utan falsk
+    säkerhet eller förlust av historik
+
+## PCD-2026-09-03-002
+
+- Record type: decision
+- Date: 2026-09-03
+- Decides review: `PCR-2026-09-03-002`
+- Owner: Sverker Adam Janson
+- Decision: Godkänn north star som projektets permanenta deklarativa
+  kvalitetskontrakt: evidenshistoriken är append-only, den konsoliderade
+  personmodellen är reviderbar, varje personakt ska avse en verklig person och
+  materiellt osäkra identiteter eller föräldrarelationer får inte propageras
+  som etablerade anled. Ackumulerade observationer räknas inte som framsteg
+  förrän de har identitetsprövats, konsoliderats och evidensbedömts. Fördela
+  implementeringen mellan north star, kunskapsmodell, forskningsprogram,
+  maskinella spärrar och Wotan, med en lokal `AGENTS.md` som automatisk
+  upptäcktsväg.
+- Disposition: approved
+- Supersedes decision: none; skärper kvalitetsinnebörden i
+  `PCD-2026-09-03-001` och lämnar tidigare ägarfastställda familjefakta i
+  Project Control i stället för i north star
+- Related records: `PCD-2026-08-20-001`, `PCD-2026-08-29-001`,
+  `PCD-2026-09-03-001`, `NORTH-STAR.md`, `AGENTS.md`,
+  `genealogy/README.md`, `genealogy/research-plan.md`
+- Resulting Wotan tasks: T-0012 är omformulerad så att kohorten ska
+  konsolideras och identitetsgranskas före avslut; inget parallellt task
+  skapas och T-0013 förblir blockerad
+- Portfolio signal: Projektet är aktivt inom T-0012 men nästa arbetssteg är
+  kvalitetsgranskning av den aktuella kohorten, inte ytterligare okontrollerad
+  ackumulation eller ett nytt djup. Den första konkreta grinden är P-0006:s
+  uttryckligt `LEAD`-märkta relationer till P-0001 och P-0002; den djupare
+  bevarade grenen är inte verifierat ansluten förrän bryggan konsoliderats eller
+  ägaren fattat ett uttryckligt beslut.
+- Revisit when:
+  - T-0012:s utgåvekohort har genomgått första fulla konsolideringsgranskningen
+  - En bärande identitet eller relation försvagas
+  - En ny utgåva eller nästa generationsvåg ska öppnas
+
+## PCD-2026-09-03-003
+
+- Record type: decision
+- Date: 2026-09-03
+- Decides review: direkt ägarrättelse under implementeringen av
+  `PCD-2026-09-03-002`; ingen separat PCR
+- Owner: Sverker Adam Janson
+- Decision: Hillevi Zingmark (P-0006) är med 100 procents säkerhet dotter till
+  Oskar Alfred Zingmark (P-0001) och Ebba Alfrida Andersson (P-0002).
+  Relationerna ska tas som sanna projektfakta och märkas `OWNER_CONFIRMED`;
+  de kräver inte ytterligare arkivbelägg. När ägaren uttryckligen anger att en
+  familjeuppgift är säker ska Codex på motsvarande sätt godta den som sann
+  projektinformation och bevara beslutet spårbart, inte nedgradera det därför
+  att en originalhandling saknas.
+- Disposition: approved
+- Supersedes decision: `PCD-2026-09-03-002` endast i dess tillfälliga
+  klassificering av P-0006:s föräldrabrygga som blockerande; det generella
+  kvalitetskontraktet och spärren mot verkligt osäkra relationer består
+- Related records: `PCD-2026-09-03-002`, `P-0006`, `A-0027`, `C-0001`
+- Resulting Wotan tasks: ingen ny uppgift; T-0012 fortsätter med alla 32
+  kohortpositioner verifierat anslutna och med normal konsolideringsgranskning
+  före mer källinsamling
+- Portfolio signal: P-0006 är inte en kvalitetsblockerare. Den fulla
+  P-0004-baslinjen och dashboardens härledda relationer ska återställas, medan
+  `LEAD`, `CONFLICT`, `REJECTED` och `UNKNOWN` fortsatt inte får propageras.
+- Revisit when:
+  - Ägaren själv rättar eller återkallar familjeuppgiften
+  - Senare material skapar en uttrycklig konflikt som behöver redovisas för
+    ägaren; konflikten får inte tyst skriva över detta beslut
+
+## PCD-2026-09-03-004
+
+- Record type: decision
+- Date: 2026-09-03
+- Decides review: direkt ägarbekräftelse under T-0012:s
+  konsolideringsgranskning; ingen separat PCR
+- Owner: Sverker Adam Janson
+- Decision: Alfred Torgny Zingmark (P-0039), Jan Oskar Zingmark (P-0040) och
+  Frithiof Urban Zingmark (P-0041) är med 100 procents säkerhet söner till
+  Oskar Alfred Zingmark (P-0001) och Ebba Alfrida Andersson (P-0002), och
+  därmed bröder till Hillevi Zingmark (P-0006). Relationerna ska märkas
+  `OWNER_CONFIRMED` och kräver inte ytterligare arkivbelägg. Beslutet gäller
+  relationerna, inte sekundärträdets födelse- eller dödsår.
+- Disposition: approved
+- Supersedes decision: tidigare `LEAD`-klassificering av just dessa
+  relationer i P-0001, P-0002, P-0039, P-0040 och P-0041; den bevarade
+  sekundärträdsobservationen C-0001 och dess obekräftade årtal ändras inte
+- Related records: `PCD-2026-09-03-003`, `S-0634`, `C-0818`, `A-3118`–`A-3120`
+- Resulting Wotan tasks: ingen ny uppgift; beslutet konsolideras inom T-0012
+- Portfolio signal: de tre syskonrelationerna är inte kvalitetsblockerare och
+  får ingå i härledda familjerelationer; övriga uttryckliga `LEAD`-relationer
+  förblir filtrerade
+- Revisit when:
+  - Ägaren själv rättar eller återkallar någon av familjeuppgifterna
+  - Senare material skapar en uttrycklig konflikt som behöver redovisas för
+    ägaren; konflikten får inte tyst skriva över detta beslut
+
+## PCD-2026-09-03-005
+
+- Record type: decision
+- Date: 2026-09-03
+- Decides review: direkt ägarbekräftelse under T-0012:s
+  konsolideringsgranskning; ingen separat PCR
+- Owner: Sverker Adam Janson
+- Decision: Lucy Gudrun Eliaesson (P-0012), Ann-Catherine Jonasson född
+  Eliaesson (P-0013) och Maj-Grete Karlsson född Eliaesson (P-0014) är
+  Bernhard Natanael Eliaessons (P-0010) tre döttrar. Lucy Gudruns och
+  Maj-Gretes relationer anges uttryckligen som helt säkra; Ann-Catherines
+  redan bevarade relation återbekräftas tillsammans med födelsedatumet
+  1938-07-19 och den nutida bostadsorten Visby. Fadersrelationerna ska märkas
+  `OWNER_CONFIRMED` och kräver inte ytterligare arkivbelägg.
+- Disposition: approved
+- Supersedes decision: tidigare `LEAD`-rad från P-0010 till P-0012/P-0014
+  och `CORROBORATED`-klassificering av de tre fadersrelationerna; källornas
+  tidigare observationer och Maj-Gretes födelseårskonflikt förblir intakta
+- Related records: `S-0635`, `C-0819`, `C-0027`, `C-0263`,
+  `A-3121`–`A-3123`
+- Resulting Wotan tasks: ingen ny uppgift; beslutet konsolideras inom T-0012
+- Portfolio signal: inga av Bernhards tre dotterrelationer är blockerare;
+  uppgifter om levande P-0013 hålls fortsatt integritetsminimerade
+- Revisit when:
+  - Ägaren själv rättar eller återkallar någon av familjeuppgifterna
+  - Senare material skapar en uttrycklig konflikt som behöver redovisas för
+    ägaren; konflikten får inte tyst skriva över detta beslut

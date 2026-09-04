@@ -3,7 +3,10 @@
 ## Identitet
 
 Anders Alfred Anderssons mor och Ebba Alfrida Anderssons farmor. Namnformen
-`Barbru Kristina` förekommer i 1900 års register.
+`Barbru Kristina` förekommer i 1900 års register. Cajsa, Catharina och
+Christina är konkurrerande namnformer inom en obruten vuxen livskedja; de
+innebär inte att flera kvinnor har sammanförts. Hennes eget ursprung och
+ursprungliga dopnamn är däremot fortfarande olösta.
 
 ## Påståenden
 
@@ -52,6 +55,7 @@ Anders Alfred Anderssons mor och Ebba Alfrida Anderssons farmor. Namnformen
 | A-2723 | Vigselnotisens giftomanskolumn namnger `Farbrodern B:n C. E. Lundberg i Lugnet` som den som lämnat skriftligt medgivande. | TRANSCRIBED | hög | [C-0184](../citations/C-0184-bygdea-C4-anders-barbro-vigsel-1860.md), [C-0692](../citations/C-0692-bygdea-lugnet-ce-lundberg-1860-1870.md) | Texten står i Barbros vigselrad men identifierar inte självständigt vilken kontrahent som var brorsbarnet; ingen biologisk relation eller ny personidentitet skapas. |
 | A-2724 | Riksarkivets arkivhistorik placerar Lugnet i Bygdeå före överföringen till Burträsk 1870; Burträskposten anger uttryckligen att Lugnet upptas i Bygdeå A I:6 och framåt. | TRANSCRIBED | hög | [C-0692](../citations/C-0692-bygdea-lugnet-ce-lundberg-1860-1870.md) | Säkrar ortsläsningen och rätt församlingsrouting men identifierar inte Lundbergs hushåll. |
 | A-2725 | Bygdeå E I/1:s hela död- och begravningsföljd 1865–1870, B/2:s hela inflyttningsår 1860 och hela utflyttningsår 1870 saknar en säker C. E. Lundberg. | NEGATIVE | hög | [C-0692](../citations/C-0692-bygdea-lugnet-ce-lundberg-1860-1870.md) | Avdelnings- och tidsbundet noll; det utesluter inte intern flytt, andra år/församlingar eller vistelse i Lugnet. |
+| A-3133 | Barbro Cajsa/Catharina/Christina Olofsdotter i Jomarkkällorna är en och samma vuxna person; namnformerna och 14/24 februari är fältkonflikter, inte belägg för flera identiteter. | CORROBORATED | mycket hög | [C-0200](../citations/C-0200-bygdea-AI12b-barbro-cajsa-jomark-1846-1852.md), [C-0193](../citations/C-0193-bygdea-AI13b-barbro-och-paret-jomark-1860.md), [C-0184](../citations/C-0184-bygdea-C4-anders-barbro-vigsel-1860.md), [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md), [C-0569](../citations/C-0569-bygdea-F2-barbro-kristina-olofsdotter-dod-1913.md) | Samma datumprofil, Jomark, make, barn och änke-/dödskontext bildar en sammanhängande kedja; egen födelse och föräldrar förblir öppna. |
 | A-2735 | Bygdeå H V/1:s detaljerade innehåll är spridda år 1807–1839, 1890–1893 och 1900 och saknar därför täckning för vigselåret 1860. | TRANSCRIBED | hög | [C-0696](../citations/C-0696-bygdea-HI1-vigselmedgivande-lundberg.md) | Katalogbundet periodnoll för denna volym, inte bevis att medgivandet aldrig funnits. |
 | A-2736 | Bygdeåfondens H V-serie hänvisar enstaka 1800-talsvigselbilagor till H I/1, en volym 1802–1891 med spridda bilagor till bland annat lysnings- och vigselboken. | TRANSCRIBED | hög | [C-0696](../citations/C-0696-bygdea-HI1-vigselmedgivande-lundberg.md) | Exakt kvarstående beställningsroute för det skriftliga medgivandet, inte personträff eller relationsbelägg. |
 | A-2737 | Ingen digital reproduktionskod för H I/1 har kunnat etableras: OAI saknar bildlänk, records-API gav WAF och den inloggade katalogen stannade på orörd ALTCHA. | TRANSCRIBED | hög | [C-0696](../citations/C-0696-bygdea-HI1-vigselmedgivande-lundberg.md) | D II/1, H II/1 och L I/1:s närliggande IIIF-koder har verifierats och får inte felroutas till H I/1. |

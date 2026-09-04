@@ -39,6 +39,11 @@
         "meaning": "Uppgiften återges från den angivna källan men är inte alltid oberoende identitetsprövad."
       },
       {
+        "status": "OWNER_CONFIRMED",
+        "reader_label": "säker familjekunskap",
+        "meaning": "Projektägaren har uttryckligen fastställt uppgiften; beslutet redovisas separat från arkivbelägg."
+      },
+      {
         "status": "LEAD",
         "reader_label": "ledtråd",
         "meaning": "Uppgiften är användbar för fortsatt sökning men får inte presenteras som fastställd."
@@ -56,6 +61,7 @@
     ],
     "hard_rules": [
       "LEAD får aldrig omvandlas till släktlänk i utgåvan.",
+      "OWNER_CONFIRMED är fastställd projektinformation och ska hänvisa till ett Project Control Decision.",
       "Ett dokumenterat okänt föräldrafält räknas som en ärlig terminal anposition.",
       "Historiska termer som oäkta och utom äktenskapet förklaras och används aldrig som modern värdering.",
       "Senare namnformer ersätter inte ett dopnamn utan att konflikten redovisas."
@@ -108,8 +114,8 @@
       {"child": "P-0210", "parent": "P-0211", "role": "mor", "status": "TRANSCRIBED", "citations": ["C-0140"]},
       {"child": "P-0005", "parent": "P-0003", "role": "far", "status": "TRANSCRIBED", "citations": ["C-0001", "C-0005"]},
       {"child": "P-0005", "parent": "P-0007", "role": "mor", "status": "TRANSCRIBED", "citations": ["C-0005", "C-0047"]},
-      {"child": "P-0006", "parent": "P-0001", "role": "far", "status": "LEAD", "citations": ["C-0001", "C-0005"], "display_warning": "Familje-/sekundäruppgift; ännu inte primärverifierad i Hillevis egen post."},
-      {"child": "P-0006", "parent": "P-0002", "role": "mor", "status": "LEAD", "citations": ["C-0001", "C-0005"], "display_warning": "Familje-/sekundäruppgift; ännu inte primärverifierad i Hillevis egen post."},
+      {"child": "P-0006", "parent": "P-0001", "role": "far", "status": "OWNER_CONFIRMED", "citations": ["C-0001", "C-0005"], "decision": "PCD-2026-09-03-003", "display_warning": "Fastställd genom projektägarens säkra familjekunskap; inte betecknad som arkivkorroborerad."},
+      {"child": "P-0006", "parent": "P-0002", "role": "mor", "status": "OWNER_CONFIRMED", "citations": ["C-0001", "C-0005"], "decision": "PCD-2026-09-03-003", "display_warning": "Fastställd genom projektägarens säkra familjekunskap; inte betecknad som arkivkorroborerad."},
       {"child": "P-0212", "parent": "P-0239", "role": "far", "status": "CORROBORATED", "citations": ["C-0225", "C-0236"]},
       {"child": "P-0212", "parent": "P-0240", "role": "mor", "status": "CORROBORATED", "citations": ["C-0225", "C-0236"]},
       {"child": "P-0211", "parent": "P-0241", "role": "far", "status": "CORROBORATED", "citations": ["C-0225", "C-0240"]},
