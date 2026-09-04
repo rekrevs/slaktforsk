@@ -32,6 +32,8 @@ församlingsboken för Jomark.
 | A-2165 | Bygdeå F/1:s kronologiska gräns 17–22 juni 1899 saknar en dödpost för Anders Andersson; posten den 22 juni gäller Jonas Peter Danielsson i Djäkneboda. | TRANSCRIBED | hög | [C-0433](../citations/C-0433-bygdea-F1-1899-06-22-negativ-anders-andersson.md) | Avgränsat källnoll; ingen senare livstid eller alternativ dödsort infereras. |
 | A-2480 | Hustrun Barbros dödpost 1913 beskriver henne som änka efter förre hemmansägaren Anders Andersson i Jomark. | CORROBORATED | hög | [C-0569](../citations/C-0569-bygdea-F2-barbro-kristina-olofsdotter-dod-1913.md) | Bekräftar att han avlidit före henne och hans tidigare hemmansägarställning, men inte hans exakta dödsdag eller begravning. |
 
+| A-3144 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/41–47 över Anders kända vuxenperiod 1860–1899, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
+
 ## Relationer
 
 Maka: [P-0051 Barbro Christina Olofsdotter](P-0051-barbro-christina-olofsdotter.md).
@@ -83,4 +85,22 @@ Barn: [P-0057 Margareta Euphrosyne](P-0057-margareta-euphrosyne-andersdotter.md)
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: yrkesutlöst jord/lagfart `2`. Återtas först om den
+  analoga mantalsrouten ger gårds-, fastighets- eller skattenhetsnyckel
+  (C-0826; research-log Batch 249).
+- Källbredd 2026-09-04: skatt/mantal `S`. Bygdeå Vol/41–47 är en exakt
+  analog route över den kända vuxenperioden, med katalogglapp 1873–1882.
+  Ingen personförd rad har lästs (C-0825; research-log Batch 248).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-237--t-0026-konsolidering-av-p-0050p-0066)
+- Källbredd 2026-09-04: bouppteckning `2`. Hustruns dödpost visar bara att
+  han avlidit före 1913, medan den väntade Bygdeåposten 1899 saknas. En
+  riktad bouppteckningskontroll väntar därför på säker dödstid eller ny
+  jurisdiktionsnyckel (research-log Batch 245).
+- Källbredd 2026-09-04: flytt `✓`. Nysätra B/1 nr 1 och det hänvisade
+  föräldrahushållet säkrar Anders Anderssons flytt till Bygdeå 1860
+  (C-0195–C-0196); Bygdeå B/2:s fulla årgångsnoll är en bevarad konflikt,
+  inte motbevis (research-log Batch 247).

@@ -30,6 +30,8 @@ dottern Albertina.
 | A-2957 | Villåttinge `SE/ULA/11693/F II/26`, 1886–1889, har permanent id `jFAZNmAm74QURzcN4NUm12` och endast analog instansiering; akt 342 är inte digitalt läst. | LEAD | mycket hög | [C-0758](../citations/C-0758-anna-christina-larsdotter-bouppteckningsregister-1887.md) | Exakt läsesals-/beställningsroute. Inga arvingar, tillgångar eller skulder infereras från den olästa akten. |
 | A-2984 | Anna Christina Larsdotter namnges som mor i de samtida födelsenotiserna för Erik Arvid 1879, Maria Sofia 1883 och Carl Oskar 1885. | CORROBORATED | mycket hög | [C-0767](../citations/C-0767-forssa-C6-erik-arvid-fodd-1879.md), [C-0768](../citations/C-0768-forssa-C6-maria-sofia-fodd-1883.md), [C-0769](../citations/C-0769-forssa-C6-carl-oskar-fodd-1885.md) | Tre originalposter över sex år korroborerar moderskapet och föräldraparet. |
 
+| A-3152 | Forssa kommunalnämnds G 4/1, 1863–1893, är en exakt analog debiterings- och uppbördsväg över Anna Christinas säkra Forssaperiod 1876–1887. | TRANSCRIBED | hög | [C-0805](../citations/C-0805-riksarkivet-forssa-helgesta-kommunalskatt.md), [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Ingen personförd originalrad, skatt, inkomst eller närvaro är läst. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -97,4 +99,16 @@ dottern Albertina.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: skatt/uppbörd `S`. Forssa G 4/1 är en exakt analog
+  route över hennes säkra Forssaperiod 1876–1887. Ingen personförd rad har
+  lästs (C-0805/C-0825; research-log Batch 248).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-239--t-0026-konsolidering-av-p-0133p-0423)
+- Källbredd 2026-09-04: bouppteckning `✓`. Riksarkivets registerpost
+  identifierar Anna Christina genom namn, år, Forssa/Svartsjötorp och maken
+  Erik Carlson samt ger Villåttinge F II:26 nr 342. Akten är analog och
+  oläst; registerposten bär inga arvinge- eller egendomsinferenser
+  (C-0758; research-log Batch 244).

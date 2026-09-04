@@ -1,6 +1,6 @@
 # Media preservation
 
-The private GitHub repository preserves the complete durable genealogy
+The public GitHub repository preserves the complete durable genealogy
 workspace. Binary source artifacts under `genealogy/media/` and retained final
 PDF editions use Git LFS. Transient downloads, authenticated-session state,
 crops, and rendered review pages under `tmp/` and generated output directories
@@ -39,6 +39,8 @@ node scripts/media-manifest.mjs --check
 node scripts/validate-genealogy.mjs
 ```
 
-The repository is private because its research memory includes minimized
-information about living people and family-supplied evidence even though most
-archival images come from openly accessible public records.
+The repository was changed from private to public by the owner on 2026-09-04
+(`PCD-2026-09-04-007`). Its history therefore exposes the retained research
+memory, including minimized information about living people and family-supplied
+evidence. Continue to minimize living-person data and never retain credentials,
+authenticated-session state or unrestricted private source material.

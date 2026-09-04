@@ -24,6 +24,8 @@ osäkra läsningen `Wingberg[?]` i sonens födelsenotis är löst av flera tydli
 | A-2372 | Bäckebo C/6:s vigselavsnitt 1861–1863 och Högby E I/2 1861–februari 1864 saknar någon Carlman–Ringberg-post. | NEGATIVE | hög | [C-0534](../citations/C-0534-hogby-EI2-och-backebo-C6-vigselkontroll-1861-1864-negativ.md) | Avgränsat noll; vigseln skedde i Källa dit familjen flyttat med faderns kyrkoherdetjänst. |
 
 | A-2396 | Vid Karl Augusts omgifte i Kalmar 1882 antecknades `Bouppteckning och arfskifte uppvisadt`, så en bouppteckning efter henne upprättades mellan 1874 och 1882. | LEAD | hög | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Bouppteckningen är inte läst; sök i Ölands norra mots häradsrätt (Högby) 1874–1882. |
+| A-3163 | Ölands norra mots häradsrätt F II/75, 1872–1875, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Förenas med vigselkällans positiva uppgift att bouppteckning och arvskifte uppvisats; själva akten är oläst. |
+| A-3177 | Häradsskrivarens i Ölands norra mots fögderi fond `SE/VALA/01959`, 1655–1917, är den analoga skatte-/mantalsvägen för Christina Gustafvas säkra Högbyperiod. | LEAD | medel | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Tre riktade frågor exponerade ingen årsvolym; ingen personrad är läst. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -53,4 +55,13 @@ före kohortens breddmål.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-241--t-0027-konsolidering-av-p-0276p-0311)
+- Källbredd 2026-09-04: bouppteckning `B = S` via Ölands norra mots
+  häradsrätt F II/75, 1872–1875; vigselkällan visar att handlingen fanns men
+  akten är oläst (C-0539/C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = 2`. Bäckebo, vigselorten Källa och
+  Gasa/Högby är säkra ändpunkter, men ingen egen flyttnotis eller attest är
+  läst; återstart kräver en positiv år-, folio- eller destinationsnyckel
+  (C-0466–C-0467/C-0533/C-0355; Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via den exakta analoga fonden för Ölands norra mots fögderi; ingen årsvolym eller personrad är läst (C-0828; Batch 254).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

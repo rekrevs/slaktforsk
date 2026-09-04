@@ -22,12 +22,12 @@ missionärsläkare i Centralasien och Indien.
 | A-1607 | År 1930 bodde Anders Ivar i Fridhem i Hudiksvall med modern Anna Matilda och mormodern Anna Greta. | TRANSCRIBED | hög | [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Samtida församlingsbokutdrag och Riksarkivets index. |
 | A-1608 | Han anges 1930 vara född 1903 i Hudiksvall, ogift och missionär. | TRANSCRIBED | hög | [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Yrkesuppgiften är den avgörande senare identitetslänken. |
 | A-1609 | Församlingsbokutdraget markerar honom fortsatt som Anna Matildas son utom äktenskapet. | TRANSCRIBED | hög | [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Originalets `h. s. u. ä.`; ingen far anges. |
-| A-1626 | Johannes Ivar Fredberg var hans biologiske far enligt familjens dokumentation. | CORROBORATED | hög | [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md) | Ivars dotter Margareta benämner Johannes uttryckligen `farfar` och kopplar namnet Ivar till honom; de lästa kyrkokällorna namnger fortfarande ingen far. |
+| A-1626 | Johannes Ivar Fredberg var hans biologiske far enligt familjens dokumentation. | OWNER_CONFIRMED | hög | [PCD-2026-08-29-001](../../PROJECT-CONTROL.md#pcd-2026-08-29-001), [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md) | Projektägaren har fastställt faderskapet som sann projektinformation; de lästa kyrkokällorna namnger fortfarande ingen far. |
 | A-1623 | Anders Ivar föddes 1903-05-13 i Hudiksvall. | CORROBORATED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md), [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Församlingsboken ger exakt datum; folkräkningen bekräftar år och församling. |
 | A-1624 | Församlingsbokssida 593 placerar honom med Anna Matilda och Anna Greta under perioden 1913–1931. | TRANSCRIBED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Samma sidnummer som 1930 års index anger. |
 | A-1726 | Han och Anna Elisabeth Carlman var föräldrar till helsyskonen Gunnar, Marianne, Astrid Margareta och Anders Gustav Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; Gunnar är dessutom oberoende stödd som deras son, men syskonskaran är ännu inte arkivkontrollerad. |
 
-| A-2412 | Johannes Ivar Fredberg är Ivars far enligt ägarens säkra familjekunskap (`#1 är 100% säker`, 2026-08-29); relationen är fastställd projektinformation enligt `PCD-2026-08-29-001`. | CORROBORATED | mycket hög | [C-0545](../citations/C-0545-agarens-uppgift-johannes-ivar-fredberg-ar-ivars-far.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md), [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md) | Ägaruppgift plus två familjeuppgifter; samtida arkivbelägg krävs inte längre men bokförs om det påträffas. |
+| A-2412 | Johannes Ivar Fredberg är Ivars far enligt ägarens säkra familjekunskap (`#1 är 100% säker`, 2026-08-29); relationen är fastställd projektinformation enligt `PCD-2026-08-29-001`. | OWNER_CONFIRMED | mycket hög | [PCD-2026-08-29-001](../../PROJECT-CONTROL.md#pcd-2026-08-29-001), [C-0545](../citations/C-0545-agarens-uppgift-johannes-ivar-fredberg-ar-ivars-far.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md), [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md) | Ägaruppgift plus två familjeuppgifter; samtida arkivbelägg krävs inte längre men bokförs om det påträffas. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -38,7 +38,7 @@ missionärsläkare i Centralasien och Indien.
 | [P-0308 Astrid Margareta Höök Wennfors](P-0308-astrid-margareta-hook-wennfors.md) | dotter | TRANSCRIBED | C-0268 |
 | [P-0309 Anders Gustav Höök](P-0309-anders-gustav-hook.md) | son | TRANSCRIBED | C-0268 |
 | [P-0275 Anna Matilda](P-0275-anna-matilda-hudiksvall.md) | mor | CORROBORATED | C-0255, C-0256, C-0258 |
-| [P-0287 Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md) | far, fastställd enligt ägaren | CORROBORATED | C-0545, C-0259, C-0320 |
+| [P-0287 Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md) | far, fastställd enligt ägaren | OWNER_CONFIRMED | PCD-2026-08-29-001, C-0545, C-0259, C-0320 |
 
 ## Forskningsstatus
 
@@ -52,6 +52,11 @@ indexet. Egen födelsenotis återstår; en senare församlingsbok har gett
 födelsedatumet 1903-05-13 och registreras i C-0260. De lästa hushållskällorna
 anger ingen far. Familjens dokumentation namnger däremot Johannes Ivar
 Fredberg: Ivars dotter Margareta benämner honom sin farfar och förklarar
-namnet Ivar genom honom. Han ska därför redovisas som familjedokumenterad far,
-medan den separata originalverifieringen av hans identitet och livskedja
-fortsätter.
+namnet Ivar genom honom. Projektägaren har fastställt faderskapet i
+PCD-2026-08-29-001; den separata originalverifieringen av Johannes identitet
+och livskedja fortsätter utan att relationen demoteras.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — identitetskedjan 1910–1930, modern, yrket, missionsfamiljen och det ägarfastställda faderskapet är konsoliderade; egen födelsenotis och exakta dödsomständigheter är dokumenterade villkorliga kompletteringsspår.

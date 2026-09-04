@@ -37,3 +37,8 @@ behövs för den privata familjeutgåvan sparas.
 
 Födelsedatumet och de två sönerna sparas på ägarens uttryckliga begäran för en
 privat familjeutgåva. Inga andra nutida personuppgifter infereras.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `INTEGRITETSMINIMERAD` — den ägaruppgivna identiteten och de relationer som krävs för att hålla ihop den privata antavlan är konsoliderade; inga ytterligare nutida personuppgifter behövs för denna generationsskiva.

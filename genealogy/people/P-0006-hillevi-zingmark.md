@@ -44,3 +44,8 @@ identitetsledtråd. Personen kan vara nu levande.
 
 Detaljer om en sannolikt levande person publiceras eller kompletteras inte utan
 ett tydligt forskningsbehov.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `INTEGRITETSMINIMERAD` — sannolikt levande person; ägarfastställda föräldrarelationer bär antavlan medan full namnform och födelseår från sekundärträdet förblir separata `LEAD`.

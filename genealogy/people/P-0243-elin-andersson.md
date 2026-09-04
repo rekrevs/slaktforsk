@@ -37,3 +37,8 @@ Egen födelsenotis och tre Gäddestadshushåll är lästa. Båda föräldrarna �
 vidareförda. Folkräkningarna 1880–1890 och A I/24–A I/25 följer
 föräldrahemmet, visar syskonen och för Elin vidare till Ljungby 1897 utan att
 sidogrenarna byggs ut.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — egen födelse, båda föräldrarna, tre barndoms-/ungdomshushåll, flyttankaret 1897, make och barn är konsoliderade; vigseloriginal och död är villkorliga kompletteringsspår.

@@ -425,4 +425,12 @@ födelseboken 1881 och `Erik Karlsson` i Flens församlingsbok.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-239--t-0026-konsolidering-av-p-0133p-0423)
+- Källbredd 2026-09-04: bouppteckning `S`. Villåttinge C II b/5 →
+  F II/59 är en exakt tvåstegsväg men båda originalvolymerna är endast
+  läsesalsåtkomliga; registerfrågornas täckningsgap får inte göras till ett
+  person- eller aktsnoll (C-0694, C-0757; research-log Batch 244).

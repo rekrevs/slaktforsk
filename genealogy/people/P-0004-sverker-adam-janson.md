@@ -37,3 +37,8 @@ familjen är användarens förstahandsuppgifter.
 
 Födelsedatumet och de två sönerna sparas på ägarens uttryckliga begäran för en
 privat familjeutgåva. Ingen ytterligare nutida personinformation infereras.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `INTEGRITETSMINIMERAD` — nu levande proband; endast ägarens nödvändiga identitets- och relationsuppgifter används.

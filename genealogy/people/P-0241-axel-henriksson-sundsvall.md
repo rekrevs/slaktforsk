@@ -44,3 +44,8 @@ P-0253 Erik Jonas Henriksson och P-0247 Gertrud Kristina Jönsson på djup 3.
 Nästa bakåtlänkar är deras egna födelsenotiser i Ljustorp 1860 respektive
 Sättna 1874. Gertruds motsägelsefulla civilstånd 1900/1910 kräver fortfarande
 en vigsel-, död- eller församlingsbokskedja.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — egen födelse/dop, båda föräldrarna, barndomshushåll, dotter och gravuppgifter är konsoliderade; partnerns exakta civilstånd och ytterligare vuxenbiografi är dokumenterade villkorliga spår.

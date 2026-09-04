@@ -26,6 +26,9 @@ arbetare och senare torpare från Sättna till Högsjö, Indal. Han dog
 | A-2314 | A I/12:s bakåthänvisning `G.B. 131` återför inte familjen till sida 131 eller övriga Högsjösidor 129–138 i A I/11. | NEGATIVE | hög | [C-0513](../citations/C-0513-indal-AI11-hogsjo-gb131-negativ.md) | Exakt överföringshänvisnings- och avsnittsnoll, inte personfrånvaro i volymen. |
 | A-2665 | Indal A II a/1 sida 130 följer Lars Petter som torpare i Högsjö efter 1900 och anger död 1904-09-25. | TRANSCRIBED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md) | Exakt namn, födelsedatum, vigseldatum och hushåll knyter raden till den äldre kedjan. |
 | A-2666 | SCB:s dödboksutdrag, Indal post 36, korsbekräftar att före detta torparen Lars Petter Nilsson i Högsjö dog 1904-09-25, född 1836-12-27 och änkling; dödsorsak och dödsort är tomma. | CORROBORATED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0670](../citations/C-0670-scb-indal-lars-petter-dod-1904.md) | SCB-utdraget är en samtidig avskrift; en överstruken ortsfras transkriberas inte. |
+| A-3166 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hans dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
+| A-3180 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Lars Petters säkra Indalsperiod genom dödsåret 1904. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
+| A-3190 | Lars Petters arbetsgivar-/torparspår blir avslutande först om Indals exakta skatterutt ger en torp-, fastighets-, jordägar- eller arbetsgivarnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, arbetsgivar-, arkiv- eller personnoll. |
 
 ## Relationer
 
@@ -60,4 +63,13 @@ människeverifiering enligt C-0671. Sättna AI:9a sida 35 och full flyttkedja
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-242--t-0027-konsolidering-av-p-0312p-0316)
+- Källbredd 2026-09-04: bouppteckning `B = S` via Indals tingslag F II/5,
+  1901–1905; endast katalogmetadata är läst (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = N`. Övergången Sättna/Byn till
+  Indal/Högsjö kan inte slutas eftersom den hänvisade sidan 35 saknas
+  fysiskt i A I/9a och gränssidorna saknar målprofilen. Utfallet är
+  sid-/övergångsbundet, inte personnoll (C-0358/C-0510; Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Medelpads östra fögderis analoga taxeringsvolymer över Indalsperioden (C-0828; Batch 254).
+- Källbredd 2026-09-04: yrkesutlöst arbetsgivar-/torparspår `O = 2`, villkorat av torp-, fastighets-, jordägar- eller arbetsgivarnyckel (C-0829; Batch 255).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

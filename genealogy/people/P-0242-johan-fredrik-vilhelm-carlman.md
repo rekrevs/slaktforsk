@@ -22,7 +22,7 @@ en avvikande namnform.
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0243 Elin Andersson](P-0243-elin-andersson.md) | hustru | TRANSCRIBED | C-0234 |
+| [P-0243 Elin Andersson](P-0243-elin-andersson.md) | hustru | CORROBORATED | C-0232, C-0234 |
 | [P-0244 Naëmi Gustafva Carlman](P-0244-naemi-gustafva-carlman.md) | dotter | TRANSCRIBED | C-0234 |
 | [P-0245 Karl Emanuel Carlman](P-0245-karl-emanuel-carlman.md) | son | TRANSCRIBED | C-0234 |
 | [P-0240 Anna Elisabeth Carlman, gift Höök](P-0240-anna-elisabeth-hook.md) | dotter | CORROBORATED | C-0232, C-0234 |
@@ -40,3 +40,8 @@ Egen födelsenotis och barndomshushållet är lästa. Den balanserade utgåvan
 använder **Villehad**; `Vilhelm` redovisas endast som en senare avvikande
 namnform. Moderns efternamn är nu löst till Ringberg och fem syskon är
 bevarade som sidorelationer.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — dopnamnskonflikten Willehad/Villehad mot Vilhelm, egen födelse, föräldrar, barndomshushåll, maka och barn är konsoliderade; senare liv och död är villkorlig berikning.

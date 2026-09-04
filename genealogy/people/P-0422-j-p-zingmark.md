@@ -37,6 +37,11 @@ sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
 | A-2696 | Sävar C/1 s. 91 anger att Johan Petter föddes 1825-02-01 i Botsmark, döptes 15 februari och var son till bonden Carl Jonas Zingmark och Anna Sophia Holmström. | TRANSCRIBED | mycket hög | [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Egen samtida födelse- och dopnotis med båda föräldrarna namngivna. |
 | A-2697 | Sävar A I/1 s. 157 visar Carl Jon. Zingmark, född 1785, Anna Sophia Holmström, född 1792, och sonen Johan Petter, född `1825 1/2`, i samma Botsmarkshushåll. | CORROBORATED | mycket hög | [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Oberoende hushållsbelägg som bekräftar födelsenotisens barn och föräldrapar. |
 | A-2927 | Folkräkningen 1900 visar Johan Petter Zingmark i Ekträsk som änkling och `svärfar` i anslutning till dottern Maria Elina Zingmark, hennes make Erik August Lindberg och deras åtta barn. | CORROBORATED | mycket hög | [C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md), [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) | Originalet är delat över sidorna 77–78; personposten anger familj 3, sida 78 rad 6. A II a/2 korsbelägger Ekträsk, änkestatus och livsslut. |
+| A-3137 | Bouppteckningsregistret gav noll för Johan Peter Zingmark i Ekträsk/Degerfors 1903–1904 och för efternamnet Zingmark utan ort, medan den namnblanka Degerforskontrollen gav 75 poster. | NEGATIVE | hög | [C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md) | Strikt namn-/församlings-/års-/frågebundet registernoll; inte belägg för att ingen akt upprättades eller bevarades. |
+| A-3153 | Umeå fögderis fondförteckning identifierar Sävars mantalsvolymer Vol/150–155 över Johan Peters säkra Botsmarkperiod 1850–1898, med katalogglapp 1873–1882 och 1894. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, ägarpost, närvaro eller frånvaro är läst. |
+
+| A-3156 | Riksarkivets metadatafrågor `Ekträsk sågverk`, `Ekträsk såg` och `Ekträsks sågverk` 1880–1910 gav ingen relevant arbetsgivar- eller sågverksroute. | NEGATIVE | hög | [C-0826](../citations/C-0826-riksarkivet-yrkesrutter-sverker-djup5.md) | Katalogbundet noll; kyrkoböckernas positiva sågverksarbetartitel står kvar och ingen arkivfrånvaro infereras. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -83,4 +88,20 @@ sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: yrkesutlöst sågverksspår `N`. Tre
+  Ekträsk-sågverksfrågor gav ingen relevant arbetsgivar-/arkivroute.
+  Kyrkoböckernas positiva yrkestitel står kvar; katalognollet säger inte att
+  arkiv saknas (C-0826; research-log Batch 249).
+- Källbredd 2026-09-04: skatt/mantal `S`. Sävar Vol/150–155 är en exakt
+  analog route över Botsmarkperioden 1850–1898, med katalogglapp 1873–1882
+  och 1894. Ingen personförd rad eller ägarpost har lästs (C-0825;
+  research-log Batch 248).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-239--t-0026-konsolidering-av-p-0133p-0423)
+- Källbredd 2026-09-04: bouppteckning `N`, avgränsat till Johan Peter
+  Zingmark/Zingmark, Degerfors och 1903–1904 mot en positiv namnblank
+  täckningskontroll. Det är inte ett akt- eller personnoll (C-0823;
+  research-log Batch 245).

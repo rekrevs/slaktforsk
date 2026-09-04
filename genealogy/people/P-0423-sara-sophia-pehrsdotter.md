@@ -110,4 +110,14 @@ P-0028 rättades 2026-08-29; föräldrarna är nya spetsar på djup 5.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-239--t-0026-konsolidering-av-p-0133p-0423)
+- Källbredd 2026-09-04: bouppteckning `N`, strikt avgränsat. Det
+  frågebundna registernollet och F II a/13:s kompletta följande
+  protokollsekvens 1868-08-20–sista akt 119 år 1869 saknar målpersonen.
+  Resultatet gäller endast om den konfliktsatta dödsdagen 1868-08-14 är
+  riktig och är inte ett helt volym-, akt- eller personnoll (C-0699,
+  C-0753; research-log Batch 244).

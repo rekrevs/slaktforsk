@@ -3,7 +3,8 @@
 ## Identitet
 
 Karl Fredrik Janssons mor, hustru till statdrängen Adolf Fredrik Jansson vid
-Nytorp i Lilla Mellösa.
+Nytorp i Lilla Mellösa. Mellösa A I/17 anger henne född 1832-03-05 i
+Mellösa och inflyttad från Bettna 1856 med familjen.
 
 ## Påståenden
 
@@ -12,8 +13,9 @@ Nytorp i Lilla Mellösa.
 | A-0538 | Namnet var Eva Lotta Jonsdotter. | TRANSCRIBED | hög | [C-0099](../citations/C-0099-karl-fredrik-jansson-fodelse-1861.md) | Föräldrakolumnen. |
 | A-0539 | Hon uppgavs vara 29 år 1861 och var alltså född omkring 1832. | TRANSCRIBED | medel | [C-0099](../citations/C-0099-karl-fredrik-jansson-fodelse-1861.md) | Åldersuppgift i moderskolumnen; exakt födelsedatum återstår. |
 | A-0691 | Hon var född omkring 1832 enligt åldersuppgiften i sonens födelsenotis 1861. | TRANSCRIBED | medel | [C-0099](../citations/C-0099-karl-fredrik-jansson-fodelse-1861.md) | Moderns ålder anges till 29 år. |
-| A-0692 | Den volym som skulle innehålla hennes födelsenotis, Mellösa `C/3` (1802–1836), kan inte nås på distans. | TRANSCRIBED | hög | [C-0117](../citations/C-0117-mellosa-atkomstlage-fore-1861.md) | Ingen bildlänk i sök-API:et. |
-| A-0693 | Hennes födelseförsamling är inte belagd; endast sonens födelsenotis kopplar henne till Lilla Mellösa. | TRANSCRIBED | medel | [C-0117](../citations/C-0117-mellosa-atkomstlage-fore-1861.md) | Hon kan vara född i en annan församling. |
+| A-0692 | Vid API-kontrollen 2026-08-20 saknade Mellösa `C/3` direkt bildlänk. | TRANSCRIBED | hög | [C-0117](../citations/C-0117-mellosa-atkomstlage-fore-1861.md) | Historiskt åtkomstutfall, supersederat av den fungerande originalåtkomsten i C-0835. |
+| A-0693 | Sonens födelsenotis ensam belägger inte hennes födelseförsamling; A I/17 anger senare Mellösa men måldatumet saknas i C/3. | CONFLICT | medel | [C-0117](../citations/C-0117-mellosa-atkomstlage-fore-1861.md), [C-0834](../citations/C-0834-mellosa-AI17-jansson-jonsdotter-nytorp.md), [C-0835](../citations/C-0835-mellosa-C3-datumkontroller-1832-1833.md) | Mellösa är en källuppgift men kan avse fel socken eller ett kopierat datum; föräldrar registreras inte. |
+| A-3203 | Eva Lotta Jonsdotter anges född 1832-03-05 i Mellösa och inflyttad från Bettna 1856. | CORROBORATED | hög | [C-0834](../citations/C-0834-mellosa-AI17-jansson-jonsdotter-nytorp.md), [C-0099](../citations/C-0099-karl-fredrik-jansson-fodelse-1861.md) | Hushållsprofil, make och Nytorp binder henne till modern i sonens födelsenotis. |
 
 ## Relationer
 
@@ -24,17 +26,24 @@ Nytorp i Lilla Mellösa.
 
 ## Forskningsfrågor
 
-- Sök hennes födelsenotis omkring 1832; patronymikonet pekar på en far vid
-  namn Jon eller Jonas.
+- Följ inflyttningen från Bettna 1856 till ett tidigare hushåll och sök
+  därefter hennes egen födelsenotis och föräldrar. Patronymikonet räcker inte
+  för att skapa en far.
 
-## Återöppnad forskningsfront 2026-08-21
+## Slutstatus
 
-- Status: `ÖPPEN`
-- Källingång: Mellösa `SE/ULA/10835/C/3` och `C/4` har `Bild` i inloggad
-  katalog; bildvisarna öppnar batcherna `C0007229` och `C0007230`.
-- Nästa: sök födelsen omkring 1832 och identifiera föräldrarna; använd vigsel
-  eller hushåll för identitetskontroll. Direkt IIIF ger 403.
-- Åtkomstbelägg: [källtäckningsrevisionen](../source-coverage.md).
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: Bettna husförhör eller utflyttningslängd före flytten
+  1856, alternativt parets vigselnotis, som kan ge tidigare hemvist och leda
+  till rätt födelseförsamling och föräldrahushåll.
+- Genomsökt: Mellösa A I/17, Nytorp sida 102, som ger 1832-03-05, Mellösa
+  och flytten från Bettna; Mellösa C/3:s kronologiska bilder från 27 februari
+  till 4 april 1832.
+- Negativ kontroll: [C-0835](../citations/C-0835-mellosa-C3-datumkontroller-1832-1833.md)
+- Återaktivering: följ den positiva Bettna-nyckeln 1856 till ett tidigare
+  personbundet hushåll eller en flytt-/vigselpost. Den Eva Lotta som föddes
+  1832-01-20 i Norrkärr är en separat kandidat tills en sådan källa binder
+  henne till målpersonen.
 
 ## Tidigare slutstatus — supersederad 2026-08-21
 
@@ -53,3 +62,9 @@ Nytorp i Lilla Mellösa.
 > odigitaliserad volym från digitaliserad men inte publikt serverad. Det som är
 > belagt är att volymerna inte kan nås på distans. Se
 > `genealogy/method-riksarkivet.md`.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0013)
+- Källbredd: `KLAR` — exakt datum, ort, familjehushåll och återstartväg är
+  dokumenterade; föräldrarna är inte identifierade.

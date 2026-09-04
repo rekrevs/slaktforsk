@@ -1,0 +1,86 @@
+{
+  "observed_at": "2026-09-04",
+  "service": "Riksarkivet MCP search_metadata",
+  "research_context": "T-0029 exact probate routing for the 16 depth-5 persons on Kristina's side",
+  "routes": [
+    {
+      "persons": ["P-0251"],
+      "death_context": "Sättna 1915",
+      "reference_code": "SE/HLA/1040237/F/F II/F II a/2",
+      "date": "1915",
+      "title_context": "Medelpads västra domsagas häradsrätt, Bouppteckningar"
+    },
+    {
+      "persons": ["P-0272", "P-0315", "P-0316"],
+      "death_context": "Indal/Högsjö 1901 or 1904",
+      "reference_code": "SE/HLA/1040059/F/F II/5",
+      "date": "1901-1905",
+      "title_context": "Indals tingslags häradsrätt, Bouppteckningar"
+    },
+    {
+      "persons": ["P-0271"],
+      "death_context": "Indal/Högsjö 1906",
+      "reference_code": "SE/HLA/1040059/F/F II/6",
+      "date": "1906-1909",
+      "title_context": "Indals tingslags häradsrätt, Bouppteckningar"
+    },
+    {
+      "persons": ["P-0277"],
+      "death_context": "Hudiksvall 1937",
+      "reference_code": "SE/HLA/1050009/F II/27",
+      "date": "1936-1940",
+      "title_context": "Hudiksvalls stad, Rådhusrätten och magistraten, Bouppteckningar och arvskiften"
+    },
+    {
+      "persons": ["P-0310"],
+      "death_context": "Högby 1901",
+      "reference_code": "SE/VALA/01647/F II",
+      "date": "series",
+      "title_context": "Ölands norra mots häradsrätt, Bouppteckningar och arvskiften",
+      "limitation": "The MCP catalogue exposed the exact series but no year-level volume for 1901; the public OAI endpoint returned HTTP 403."
+    },
+    {
+      "persons": ["P-0311"],
+      "death_context": "Högby 1874; later marriage source says probate and distribution were produced",
+      "reference_code": "SE/VALA/01647/F II/75",
+      "date": "1872-1875",
+      "title_context": "Ölands norra mots häradsrätt, Bouppteckningar och arvskiften"
+    },
+    {
+      "persons": ["P-0313"],
+      "death_context": "Östra Husby 1891",
+      "reference_code": "SE/VALA/01523/F III a/5",
+      "date": "1889-1891",
+      "title_context": "Björkekinds och Östkinds domsaga, Bouppteckningar"
+    },
+    {
+      "persons": ["P-0336"],
+      "death_context": "Sollentuna 1925",
+      "reference_code": "SE/SSA/2215/01/C 2 b/1",
+      "date": "1916-1932",
+      "title_context": "Sollentuna och Färentuna domsaga, Förteckningar över bouppteckningar",
+      "companion_series": "SE/SSA/2215/01/F 2 a, Bouppteckningar"
+    }
+  ],
+  "bounded_results": [
+    {
+      "persons": ["P-0276"],
+      "result": "conditional",
+      "reason": "The asserted death date 1911-11-16 lacks a verified death place; Hudiksvall F I/3, ordinary SCB, and the county hospital SCB sequence are already bounded negative. A probate jurisdiction cannot be selected safely."
+    },
+    {
+      "persons": ["P-0312"],
+      "result": "catalogue-bound negative",
+      "queries": ["Östkinds 1891-1920", "Björkekinds Östkinds 1918-1921", "Östra Husby 1891-1920"],
+      "reason": "The identified SE/VALA/01523 F III a probate volumes exposed by the catalogue end with 1899-1903. No successor probate series or volume for the 1920 death was identified."
+    },
+    {
+      "persons": ["P-0337"],
+      "result": "catalogue-bound negative",
+      "queries": ["Stockholms rådhusrätt first division probate 1886", "Stockholms rådhusrätt probate register 1886", "Kungsholm probate register 1886"],
+      "reason": "No relevant Stockholm city probate series or volume was identified by these metadata queries."
+    }
+  ],
+  "access_note": "All positive routes are metadata-only and were not read as acts. A direct OAI fallback for SE/HLA/1040059, SE/VALA/01647 and SE/VALA/01523 returned HTTP 403 after MCP-first routing. No browser session, CAPTCHA, order, or archival original was used.",
+  "scope_note": "Routes and catalogue results do not establish that a probate existed, did not exist, named a person, or contained any family or economic fact."
+}

@@ -39,3 +39,8 @@ djup 3 genom egen födelsenotis och officiellt årsutdrag. Egen födelsenotis
 anger inte efternamn på barnet; namnformen Larsson förblir en källstödd
 härledning från fadern och folkräkningshushållet. Nästa bakåtlänkar är
 föräldrarnas egna födelsenotiser i Sättna 1862 och Indal 1866.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — egen födelse, namnformen, dopvägran, båda föräldrarna, barndomshushåll, dotter och gravuppgifter är konsoliderade; exakt partnerskapsform och ytterligare vuxenbiografi är villkorliga spår.

@@ -17,6 +17,9 @@
 - Läst och hämtad: 2026-08-23 och 2026-08-27; hela Högsjöavsnittet omläst
   och kompletterat 2026-08-29 i en ny styrd Chrome-flik med fungerande
   fulloriginal.
+- Senare kontrolläsning: 2026-09-04 kunde samma fulloriginal säkert läsa
+  Stina Cajsa 1813-09-17 i Sättna, Johan Gustaf 1815 i Stockholm och
+  vigselåret 1839; se C-0831.
 
 ## Källkritik
 

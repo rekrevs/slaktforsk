@@ -22,6 +22,8 @@
 
 | A-2428 | Kolardottern Stina Cajsa Nordlund flyttade från Stormyran i Sättna till Stöde med attest 1871-11-11; posten binder dottern i kolaren Jonas Nordlunds hushåll (s. 255) till den vuxna Stina Cajsa i Hullsjö genom en samtida flyttpost. | CORROBORATED | mycket hög | [C-0551](../citations/C-0551-sattna-B2-stina-cajsa-nordlund-utflyttad-1867-och-1871.md), [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md), [C-0529](../citations/C-0529-scb-stode-jons-peter-fodd-1872.md) | Sluter identitetsbryggan till P-0415/P-0416; folio 427 (A I/9) och Stödes inflyttning november 1871 är olästa. |
 | A-2429 | Som piga flyttade hon 1867-11-11 från Övre Kovland (folio 325) till Timrå. | TRANSCRIBED | hög | [C-0551](../citations/C-0551-sattna-B2-stina-cajsa-nordlund-utflyttad-1867-och-1871.md) | Samma namn; återflytten till Sättna 1868–1871 är oläst och identiteten med 1871 års post är sannolik men inte kedjebelagd. |
+| A-3157 | Medelpads västra domsagas F II a/2 är den exakta analoga bouppteckningsvolymen för 1915. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Katalogroute för Stina Kajsas dödsår; ingen akt eller personrad är läst. |
+| A-3171 | Medelpads västra fögderis mantals- och taxeringsvolymer ger exakta analoga vägar över Stina Kajsas säkra vuxenperiod i Sättna; mantalsvolym `/3/41` gäller 1915. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Ingen personrad eller ekonomisk uppgift är läst. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -58,4 +60,8 @@ närliggande Stina Brita-posten som Stina Kajsa.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-240--t-0027-konsolidering-av-p-0250p-0272)
+- Källbredd 2026-09-04: bouppteckning `B = S` via den exakta analoga
+  årsvolymen F II a/2, utan person- eller aktläsning (C-0827; Batch 252).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Medelpads västra fögderis exakta analoga Sättnavolymer, inklusive mantal 1915 (C-0828; Batch 254).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

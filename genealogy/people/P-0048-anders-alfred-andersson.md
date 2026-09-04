@@ -31,3 +31,8 @@ Systrar: [P-0057 Margareta Euphrosyne Andersdotter](P-0057-margareta-euphrosyne-
 [P-0052 Catharina Johanna Andersdotter](P-0052-catharina-johanna-andersdotter.md)
 och [P-0053 Anna Albertina Andersdotter](P-0053-anna-albertina-andersdotter.md).
 Dotter: [P-0002 Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md).
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — egen födelse, föräldrar, Jomarks barndoms- och vuxenhushåll, vigsel och faderskap är konsoliderade; moderns Catharina/Christina-variant förblir synlig utan identitetsdelning.

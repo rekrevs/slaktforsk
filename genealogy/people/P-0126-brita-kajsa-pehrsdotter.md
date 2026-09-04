@@ -46,15 +46,19 @@ den utgör inte en separat personidentitet.
   notisen saknas i de fem hittills prövade församlingarna.
 - Ingen far registreras enbart från patronymikonet Pehrsdotter.
 
-## Slutstatus för den okända fadersgrenen
+## Slutstatus
 
-- Status: `IDENTITET OLÖST`.
-- Förväntade källor: den egna födelsenotisen, moderns och barnets hushåll vid
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: den egna födelsenotisen, moderns och barnets hushåll vid
   det uppgivna Säfstugan, en senare marginalanteckning eller flyttningspost.
 - Genomsökt: C-0126; Säfstugan sida 209 i A I/9 och A I/10 (C-0138, C-0137);
   samtliga in- och utflyttningsrader 1829–1830 i B/1 (C-0139).
-- Negativ kontroll: ingen far namnges i födelsenotisen; mor och barn saknas på
-  de förväntade hushållsuppslagen och i de lästa flyttningsåren.
+- Negativ kontroll: [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md),
+  [C-0137](../citations/C-0137-skoldinge-AI10-safstugan-negativ-kontroll.md),
+  [C-0138](../citations/C-0138-skoldinge-AI9-safstugan-negativ-kontroll.md)
+  och [C-0139](../citations/C-0139-skoldinge-B1-flyttning-1829-1830-negativ-kontroll.md)
+  visar att ingen far namnges och att mor/barn saknas på de förväntade
+  hushålls- och flyttytorna.
 - Återaktivering: följ Anna Lisa Jansdotter i 1831 och senare års
   flyttningslängder, sök henne i mantalslängd eller personregister, och pröva
   sockenstämmans/fattigvårdens samt häradsrättens handlingar om underhåll eller
@@ -64,3 +68,5 @@ den utgör inte en separat personidentitet.
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)
+- Källbredd: `KLAR` — modern är säkrad; den okända fadersgrenen har en
+  giltig, källänkad återstartfront.

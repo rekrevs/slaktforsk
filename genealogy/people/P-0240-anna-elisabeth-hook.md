@@ -49,3 +49,8 @@ originalnära Riksarkivet-utdrag; MyHeritage-året 1901 är avvisat. Personen ä
 vidareförd till föräldrarna P-0242 och P-0243 på djup 3. Hennes rörelse mellan
 Gustav Vasa, Danderyd och senare missionsarbete kan följas i nästa biografiska
 våg.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — födelse, föräldrar, yrke, missionsidentitet, make, barn och död bildar en sammanhängande personbild; senare rörelse- och missionsdetaljer är villkorlig biografisk berikning.

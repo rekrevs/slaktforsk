@@ -41,3 +41,8 @@ minsta nödvändiga identitetsuppgifter lagras.
   föregående generation.
 - Sök oberoende familje- eller folkbokföringsbelägg för båda föräldralänkarna
   endast när integritetsreglerna medger det.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `INTEGRITETSMINIMERAD` — sannolikt levande person; familjeuppgifterna hålls till minsta nödvändiga identitets- och relationsnivå och DNA-ledtråden propageras inte.

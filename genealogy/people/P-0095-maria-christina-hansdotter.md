@@ -18,6 +18,9 @@ i folkräkningarna 1890 och 1900.
 | A-2156 | Församlingsbokens sida 824 bekräftar hennes exakta födelsetid, make, fem namngivna barn och dödsmarkeringen 1903-08-26. | CORROBORATED | hög | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0426](../citations/C-0426-bygdea-F1-maria-christina-hansdotter-dod-1903.md) | Sen familje- och identitetslänk. |
 | A-2157 | Robertsfors F/1 saknar en dödpost 1903-08-26; den positiva posten finns i Bygdeå F/1. | TRANSCRIBED | hög | [C-0428](../citations/C-0428-robertsfors-1903-kontroll-maria-christina.md), [C-0426](../citations/C-0426-bygdea-F1-maria-christina-hansdotter-dod-1903.md) | Korrigerar den privata källans administrativa placering utan att göra personregistret till ett uttömmande noll. |
 | A-2158 | Den senare årsanteckningen `61` löser inte vigseln: hela Bygdeås vigselår 1861 saknar paret, liksom det redan kontrollerade året 1862. | CONFLICT | hög | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0429](../citations/C-0429-bygdea-C4-vigslar-1861-negativ-kontroll.md), [C-0122](../citations/C-0122-bygdea-vigslar-1862-negativ-kontroll.md) | Exakt vigselår och församling är öppna men ska inte driva grenen djupare före nästa breddrotation. |
+| A-3140 | Bouppteckningsregistret gav noll för Maria Christina Hansdotter i Ultervattnet/Bygdeå 1903–1904 och för efternamnet Hansdotter i samma församlings- och årsrymd, medan den namnblanka kontrollen gav 80 poster. | NEGATIVE | hög | [C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md) | Strikt namn-/församlings-/års-/frågebundet registernoll; inte belägg för att ingen akt upprättades eller bevarades. |
+
+| A-3149 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/41–48 över Maria Christinas kända vuxenperiod, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog hushållsroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
 
 ## Relationer
 
@@ -42,4 +45,18 @@ Relationsavsnittet saknades tidigare i akten.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: skatt/mantal `S`. Bygdeå Vol/41–48 är en exakt
+  analog hushållsroute över den kända vuxenperioden, med katalogglapp
+  1873–1882. Ingen personförd rad har lästs (C-0825; research-log Batch 248).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-238--t-0026-konsolidering-av-p-0094p-0111)
+- Källbredd 2026-09-04: bouppteckning `N`, avgränsat till Maria Christina
+  Hansdotter/Hansdotter, Bygdeå och 1903–1904 mot en positiv namnblank
+  täckningskontroll. Det är inte ett akt- eller personnoll (C-0823;
+  research-log Batch 245).
+- Källbredd 2026-09-04: flytt `—`. Den belagda kedjan Åkullsjön–Ultervattnet
+  ligger inom Bygdeå och ger ingen separat intersockenflytt att söka
+  (research-log Batch 247).

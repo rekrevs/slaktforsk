@@ -36,3 +36,8 @@ belagda Storbrännafamiljen: först son i föräldrahushållet, sedan make och f
 i en egen familjeenhet på samma Högsjösida. Föräldrarnas A I/8- och
 A I/12-hushåll ger honom fem namngivna syskon utöver den egna födelsepostens
 föräldrakoppling.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — egen födelse, båda föräldrarna, ungdomshushåll, familjebildning, maka och barn är konsoliderade; senare död och ytterligare biografi är villkorlig berikning.

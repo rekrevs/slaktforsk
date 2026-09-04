@@ -25,6 +25,7 @@ Larsson förekommer i källorna.
 | A-2376 | Charlotta Wilhelmina Larsson vigdes 1886-04-26 i Lerbo med Carl Fredrik Jansson; första giftet för båda. | CORROBORATED | mycket hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md), [C-0016](../citations/C-0016-ada-wilhelmina-originalfodelse-1886.md), [C-0098](../citations/C-0098-charlotta-wilhelmina-fodelse-1867.md) | Vigselpostens födelsedatum 1867-05-26 är identiskt med den egna födelsenotisen; Adas födelsenotis kallar henne hustru. |
 | A-2377 | Vid lysningen i april 1886 var hon piga från Spånga, 18 år, och modern `Enkan Brita Katrina Andersd:r i Erikslund` gav skriftligt samtycke till äktenskapet. | TRANSCRIBED | hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Moderns patronymikon avviker från C-0098:s Pehrsdotter och hålls som konflikt hos P-0126; änkestatusen ger P-0125 ett dödsintervall före april 1886. |
 | A-2378 | Lerbo E I/3 1883–1885 saknar någon lysning eller vigsel för paret. | NEGATIVE | hög | [C-0536](../citations/C-0536-lerbo-EI3-vigselkontroll-1883-1885-negativ.md) | Sonen Sven Edvin (1884) föddes alltså före föräldrarnas vigsel. |
+| A-3139 | Bouppteckningsregistrets Charlotta Wilhelmina Larsson-/Flenfråga 1940–1941 gav noll, men även den namnblanka Flenkontrollen gav noll; Villåttinge F II/61 är den exakta analoga originalvolymen för 1939–1940. | TRANSCRIBED | hög | [C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md) | Registertäckningsgap och fjärråtkomstspärr, inte person- eller aktsnoll. Ingen bouppteckning lästes. |
 
 ## Relationer
 
@@ -38,4 +39,11 @@ Anderslundhushållet: [P-0167 Carl August](P-0167-carl-august-andersson.md) och
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-236--t-0026-konsolidering-av-p-0020p-0043)
+- Källbredd 2026-09-04: bouppteckning `S`. Registertäckningen för Flen
+  1940–1941 saknas, medan Villåttinge F II/61 är den exakta analoga
+  läsesalsvägen för dödsåret 1940 (C-0823; research-log Batch 245).

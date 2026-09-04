@@ -27,7 +27,7 @@ Det långsiktiga ägarbeslutet finns i
 enligt konventionen i [wotan/README.md](wotan/README.md).
 
 Repository and source-artifact preservation are documented in
-[`MEDIA-PRESERVATION.md`](MEDIA-PRESERVATION.md). The private GitHub repository
+[`MEDIA-PRESERVATION.md`](MEDIA-PRESERVATION.md). The public GitHub repository
 uses Git LFS for retained source media and keeps an exact, generated SHA-256
 inventory in `genealogy/media-manifest.json`.
 

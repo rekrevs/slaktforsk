@@ -19,6 +19,8 @@ födelsenotis och folkräkningarna 1880–1890 använder Carolina/Karolina.
 | A-2449 | Östra Husby A I/21 anger att Carolina kom från Häradshammar 1870 under attest 58 och för makarna datumet 1870-10-14 i äktenskapskolumnen. | TRANSCRIBED | hög | [C-0271](../citations/C-0271-elin-barndomshushall-gaddelstad.md) | Flyttnotisen gav den positiva vigselroutingen; datumet verifieras av C-0557. |
 | A-2450 | Jonsberg B I/3:s utflyttningsföljd 1868–1872 saknar en säker Carolina Larsdotter. | NEGATIVE | hög | [C-0556](../citations/C-0556-jonsberg-BI3-carolina-larsdotter-utflyttning-1868-1872-negativ.md) | Bara detta årsintervall är avgränsat; en tidigare avresa från Jonsberg förnekas inte. |
 | A-2452 | Carolina Larsdotter lystes med Anders Magnus Carlsson i Häradshammar 1870-08-28 och vigdes där 1870-10-14. | CORROBORATED | mycket hög | [C-0557](../citations/C-0557-haradshammar-C7-carlsson-larsdotter-vigsel-1870.md), [C-0271](../citations/C-0271-elin-barndomshushall-gaddelstad.md) | Samtida vigselbok anger rätt namn och bådas exakta födelsedatum; hushållslängden upprepar datum och utflyttningsförsamling. |
+| A-3165 | Björkekinds och Östkinds domsagas F III a/5, 1889–1891, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
+| A-3179 | Östkinds fögderis mantalsvolymer E VII a/10–12 täcker 1861–1899 och därmed Carolinas säkra Östra Husbyperiod genom dödsåret 1891. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller ekonomisk uppgift är läst. |
 
 ## Relationer
 
@@ -41,4 +43,13 @@ följs inte djupare nu.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-242--t-0027-konsolidering-av-p-0312p-0316)
+- Källbredd 2026-09-04: bouppteckning `B = S` via Björkekinds och
+  Östkinds domsaga F III a/5, 1889–1891; endast katalogmetadata är läst
+  (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = ✓`. Östra Husby A I/21 anger uttryckligen
+  att Carolina kom från Häradshammar 1870 under attest 58; den negativa
+  Jonsberg B I/3-kontrollen ändrar inte den positiva inflyttningsnotisen
+  (C-0271/C-0556; Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Östkinds fögderis exakta mantalsvolymer E VII a/10–12 (C-0828; Batch 254).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

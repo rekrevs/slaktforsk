@@ -20,6 +20,7 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-2138 | År 1930 var hon änka i Smuleberg, skriven `Eliasson Johansson`, född 1863 i Kyrkefalla och inflyttad samma år från Värsås; civilståndets upplösningsår var 1929. | CORROBORATED | hög | [C-0024](../citations/C-0024-bernhard-folkrakning-1890.md), [C-0026](../citations/C-0026-bernhard-folkrakning-1910.md), [C-0417](../citations/C-0417-folkrakning-1930-augusta-alva-smuleberg.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md) | Kyrkefalla stärks ytterligare men den saknade födelsenotisen och Mofalla-namnträffen gör ursprungsidentiteten fortsatt olöst. |
 | A-2139 | Folkräkningen 1930 redovisar skolbildningskod 3 och inkomsten 500 för henne. | TRANSCRIBED | hög | [C-0417](../citations/C-0417-folkrakning-1930-augusta-alva-smuleberg.md) | Källans utbildnings- och inkomstfält. |
 | A-2140 | Hon står som hustruns mor hos Alva Viktoria Eliasson, född 1904 i Värsås. | CORROBORATED | hög | [C-0026](../citations/C-0026-bernhard-folkrakning-1910.md), [C-0417](../citations/C-0417-folkrakning-1930-augusta-alva-smuleberg.md) | Binder den vuxna Alva till föräldrahushållets yngsta dotter. |
+| A-3142 | DDS Döda gav ingen identifierbar målperson bland 17 träffar på `Augusta Viktoria Eliasson` och 57 fullständigt paginerade träffar på `Augusta Viktoria Johansson` 1930–1951; Kyrkefalla-frågorna gav ingen användbar lokal täckning. | NEGATIVE | hög | [C-0824](../citations/C-0824-dds-doda-augusta-viktoria.md) | Strikt register-/fråge-/tidsbundet resultat; ingen dödsdag, dödsort eller överlevnad infereras. |
 
 ## Relationer
 
@@ -54,4 +55,15 @@ Johansdotter; folkräkningarna använder Johansson.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-236--t-0026-konsolidering-av-p-0020p-0043)
+- Källbredd 2026-09-04: bouppteckning `2`. Hon levde som änka 1930 men
+  egen dödstid och dödsort är ännu okända; bouppteckningssökning aktiveras
+  först när dödskällan ger år och jurisdiktion (research-log Batch 245).
+- Källbredd 2026-09-04: död `N`. DDS Döda gav inget identifierbart mål bland
+  74 namnträffar och exponerade ingen användbar Kyrkefalla-täckning
+  1930–1951. Utfallet är registerbundet; återstart kräver positiv senare
+  ort-, församlings- eller datum-/årnyckel (research-log Batch 246).

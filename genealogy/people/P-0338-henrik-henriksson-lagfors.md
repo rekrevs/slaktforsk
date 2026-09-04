@@ -56,6 +56,8 @@ samlingen är ett Edén-arkiv snarare än ett fullständigt Ljustorpsarkiv.
 | A-2773 | C:394 volym 3:s bouppteckningar slutar 1883, året före Henriks död, medan dess arvskiften/testamenten till 1887, auktionsprotokoll till 1888 och fyrktalslängder till 1887 sträcker sig över dödsåret 1884. | LEAD | hög | [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md) | Den särskilda bouppteckningsdelen täcker inte 1884; övriga materialslag är spridda år och ännu personolästa. |
 | A-2774 | Fondens och volym 3:s JSON-LD visar endast analog instansiering utan bildlänk, och OAI-posterna för volym 2–4 saknar `dao`. | TRANSCRIBED | mycket hög | [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md) | Åtkomsthindret ligger före bild-API:t; inget personinnehåll har lästs och Chrome behövde inte användas. |
 | A-2933 | Den återaktiverade bouppteckningsfrågan för Henrik Henriksson i Lagfors/Ljustorp 1884 gav 0 träffar. | NEGATIVE | medel | [C-0753](../citations/C-0753-riksarkivet-captcha-reaktiverade-fragor.md), [C-0704](../citations/C-0704-ljustorp-bouppteckningsregister-henrik-noll-jonas-hoglin.md) | Frågebundet registernoll inom redan känd fragmentarisk täckning; inte bevis för att ingen akt fanns. |
+| A-3183 | C:394 volym 2:s spridda mantals-/skatte-/taxeringslängder 1846–1878/1862–1876 är en exakt analog rutt över Henriks säkra torparperiod i Lagfors. | LEAD | hög | [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md), [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Selektiv samling; ingen Henrik-rad eller ekonomisk uppgift är läst. |
+| A-3191 | Samma selektiva C:394 volym 2 är en exakt analog yrkesutlöst jord-/ekonomirutt för Henriks belagda torparperiod i Lagfors. | LEAD | hög | [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md), [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Ingen Henrik-rad, jorduppgift eller ekonomisk uppgift är läst. |
 
 ## Relationer
 
@@ -111,4 +113,13 @@ samlingen är ett Edén-arkiv snarare än ett fullständigt Ljustorpsarkiv.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-243--t-0027-konsolidering-av-p-0336p-0339)
+- Källbredd 2026-09-04: bouppteckning `B = N`. Det selektiva
+  Ljustorp-registret Ber–Per är fullständigt läst utan Henrik, F II-serien
+  börjar först 1888 och Edén-samlingen C:394 volym 3:s bouppteckningsdel
+  slutar 1883. Nollutfallet är bundet till dessa bevarade serier och är
+  inte bevis för att dödsbo saknades (C-0704/C-0710/C-0753;
+  research-log/2026-09-04.md#batch-251--t-0029-bouppteckningspass-inlett).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via C:394 volym 2:s exakta analoga, selektiva rutt över torparperioden; ingen personrad är läst (C-0710/C-0828; Batch 254).
+- Källbredd 2026-09-04: yrkesutlöst källa `O = S` via C:394 volym 2:s exakta analoga och selektiva jord-/ekonomirutt; ingen personrad är läst (C-0829; Batch 255).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

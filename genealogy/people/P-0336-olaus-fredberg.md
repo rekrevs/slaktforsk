@@ -438,6 +438,7 @@ katalogbelägg och lämnar födelsedatum och föräldrar olösta.
 | A-3107 | Rosenberg 59192 beskriver Tureberg som hållplats på Norra stambanan mellan Järva och Rotebro, med Edsviken och ångbåtsstation öster om järnvägen samt egendomen Tureberg med kvarn väster om den. | CORROBORATED | hög | [C-0815](../citations/C-0815-riksarkivet-mcp-rosenberg-olaus-fredberg.md), [C-0620](../citations/C-0620-dagens-nyheter-olaus-fredberg-dodsannons-1925.md), [C-0475](../citations/C-0475-sollentuna-FI7-olaus-fredberg-dod-1925.md) | Dödsannonsen och dödboken bär person-/dödskedjan; lexikonet ger miljökontext men inget stations- eller kvarnarbete i Tureberg. |
 | A-3108 | Rosenberg 34922 hänvisar Lundby i Älvsborgs län och Vättle härad till Stora Lundby. | TRANSCRIBED | hög | [C-0815](../citations/C-0815-riksarkivet-mcp-rosenberg-olaus-fredberg.md), [C-0635](../citations/C-0635-ostra-fagelvik-B5-olaus-inflyttad-1873.md) | Endast geografisk arkivrouting i linje med den starkaste församlingshypotesen; ingen födelseidentitet eller förälder fastställs. |
 | A-3109 | Exakta Rosenbergfrågor gav ingen målpost för Björknäs i Östra Fågelvik eller Kungsholmen i Kungsholms församling. | TRANSCRIBED | hög | [C-0815](../citations/C-0815-riksarkivet-mcp-rosenberg-olaus-fredberg.md) | Lexikon-, stavnings-, församlingsfilter- och frågefältsbundna noll, inte ort-, person- eller vistelsenoll. |
+| A-3168 | Sollentuna och Färentuna domsagas C 2 b/1 är en exakt bouppteckningsförteckning 1916–1932, med F 2 a som tillhörande bouppteckningsserie. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Exakt analog registerroute för dödsåret 1925; ingen Olaus-post eller akt är läst. |
 
 ## Relationer
 
@@ -628,6 +629,19 @@ katalogbelägg och lämnar födelsedatum och föräldrar olösta.
   analog förtecknings-/beställningskontroll i Göteborg med post 6 år 1877
   som ankare.
 
+## Slutstatus
+
+- Status: `ÅTKOMSTSPÄRR`
+- Förväntad källa: Östra Fågelviks kyrkoarkiv `SE/VA/13687/H II/5`, attester 1866–1887, är den närmaste bevarade originalvägen till Olaus före Björknäs och kan ge en äldre Lundby-, gårds- eller hushållsnyckel; beställningsankaret är B/5:s inflyttade nr 4 den 1873-04-25. Därefter följer Stora Lundby H V/1–2 kring Fredric Jacobsons och Anna Britta Olsdotters lysning 1849, Älvsborgs läns landskontors mantalsvolymer 551–554 samt de exakta militära och SJ-relaterade vägar som räknas upp i akten. De är endast analoga eller läsesalsbundna och ingen målrad har lästs.
+- Genomsökt: Olaus säkra Lundby–Östra Fågelvik–Alnö–Stockholm–Sollentuna-kedja 1873–1925; hela 1852 års födelseföljder i Stora Lundby, Lundby på Hisingen, Norra Lundby och Torhamn samt Södra Lundbys åtkomstläge; Stora Lundbys utflyttnings-, husförhörs-, SCB-, konfirmations- och bilagekontroller; Fredric–Anna Britta-hypotesens 1849–1853-källor, personregister och Bjärke F II a/9:s hela 1853-del; avgränsade Fågelviks-, Stockholms-, gardes-, mantals- och registervägar enligt aktens resultatlista och source coverage. De analoga H II/5-, H V/1–2-, mantals-, militär- och SJ-originalen har inte lästs och får inte behandlas som nollresultat.
+- Negativ kontroll: [C-0386](../citations/C-0386-stora-lundby-C4-fodda-1852-olaus-negativ.md), [C-0632](../citations/C-0632-ostra-fagelvik-B5-olaus-utflyttad-1873.md), [C-0770](../citations/C-0770-bjarke-FIIa9-1853-fredric-anna-negativ.md), [C-0803](../citations/C-0803-karlskrona-sjoman-torhamn-olaus-avvisad.md)
+- Kandidatgräns: Anna Brita Olofsdotter och hennes dokumenterade make Fredric Jacobson är endast en riktad `LEAD`-hypotes. Johan Augusts samtidiga födelsenotis namnger i stället Olo Andersson som far, och inget läst belägg visar om Johan August och Olaus var hel- eller halvbröder; ingen av de tre får därför föras över som Olaus förälder.
+- Återaktivera när: H II/5, H V/1–2, landskontorets volymer 551–554 eller någon av de exakt routade militär-/SJ-volymerna får läsbar fjärrbild eller annan laglig distansåtkomst; när ägaren uttryckligen godkänner beställning eller läsesalsåtgärd; eller när en ny positiv attest-, gårds-, sida-, hushålls-, flytt-, förbands- eller personalaktsnyckel framkommer som inte redan är avgränsad i akten.
+
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-243--t-0027-konsolidering-av-p-0336p-0339)
+- Källbredd 2026-09-04: bouppteckning `B = S` via den exakta analoga
+  förteckningen C 2 b/1, 1916–1932, och serien F 2 a (C-0827; Batch 252).
+- Källbredd 2026-09-04: skatt/mantal `T = ✓` genom den redan bevarade positiva mantalsregisterposten 1877, Kungsholmen nr 1217; Sollentunas analoga följd är en separat framtida rutt (C-0648/C-0828; Batch 254).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

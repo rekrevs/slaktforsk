@@ -36,6 +36,8 @@ hushållsföreståndare i Hyltinge 1890.
 | A-2160 | Hyltinge F/1:s hela årgångar 1911–1934 saknar en säker dödpost för honom. | TRANSCRIBED | hög | [C-0431](../citations/C-0431-hyltinge-F1-doda-1911-1934-negativ-alund-urbom.md) | Avgränsat församlingsnoll; dödstid och dödsort är fortsatt okända. |
 | A-2162 | Hyltinge B/4:s samtliga utflyttningsposter 1910–1914 saknar en säker rad för Ålund-hushållet. | TRANSCRIBED | hög | [C-0432](../citations/C-0432-hyltinge-B4-utflyttade-1910-1914-negativ-alund.md) | År 1915 är inte färdigläst och ingår inte i resultatet. |
 
+| A-3150 | Riksarkivets avgränsade metadatafrågor på Hyltinge och mantals-/taxeringslängder 1900–1935 gav ingen relevant serie; enda träffen var en karta för Stora Kofva i Lilla Malma. | NEGATIVE | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Katalogbundet noll, inte belägg för att skattehandlingar eller personposter saknas. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -123,4 +125,20 @@ hushållsföreståndare i Hyltinge 1890.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: yrkesutlöst rättare-/torparspår `2`. Återtas först
+  när ett arbetsgivande gods, en arbetsgivare eller en fastighet
+  identifieras (C-0826; research-log Batch 249).
+- Källbredd 2026-09-04: skatt/mantal `N`. Tre avgränsade
+  Riksarkivet-frågor för Hyltinge 1900–1935 gav ingen relevant serie.
+  Katalognollet säger inte att handlingar saknas; återstart kräver en
+  positiv arkivbildar-, serie- eller volymnyckel (C-0825; research-log
+  Batch 248).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-238--t-0026-konsolidering-av-p-0094p-0111)
+- Källbredd 2026-09-04: bouppteckning `2`. Hyltinges dödbok 1911–1934 och
+  utflyttning 1910–1914 saknar honom, så dödstid och jurisdiktion är ännu
+  okända. Bouppteckning aktiveras av en ny positiv sen ort- eller dödsnyckel
+  (research-log Batch 245).

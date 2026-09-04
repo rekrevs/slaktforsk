@@ -57,3 +57,8 @@ publikt reproduktions-id och katalogposten kräver orörd människoverifiering.
 Sättnas dödböcker saknar henne 1927–1943 och 1952–1955; från 1956 visar
 visaren restriktionsblad. Återstarta vid A II a/10 s. 304 när Riksarkivet
 exponerar bild-id eller åtkomsten kan ske utan att röra verifieringen.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — identitet, föräldrar, son, två äktenskap och kedjan till änkestånd efter 1951 är konsoliderade med födelsenotisens frånvaro och 1910-indexfelet synliga som konflikter; döden efter 1955 har ett exakt åtkomstvillkor.

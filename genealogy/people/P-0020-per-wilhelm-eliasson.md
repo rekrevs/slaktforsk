@@ -29,6 +29,10 @@ Källorna växlar mellan `Per Wilhelm`/`Per Vilhelm` och
 | A-3127 | Hushållets Petter Wilhelm är samma person som P-0020. | CORROBORATED | hög | [C-0820](../citations/C-0820-varsas-AI7-sida159-eliassonfamilj.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md), [C-0262](../citations/C-0262-lars-mansson-till-eliaeson-janson-kedja.md) | Exakt födelsetid, Värsås, båda föräldrarna och den särpräglade systern sammanfaller. |
 | A-3128 | Gabriel Eliasson och Stina Larsdotter var hans föräldrar. | CORROBORATED | hög | [C-0820](../citations/C-0820-varsas-AI7-sida159-eliassonfamilj.md), [C-0262](../citations/C-0262-lars-mansson-till-eliaeson-janson-kedja.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md) | Samtida hushåll, sekundär explicit kedja och senare exakt födelsetid bildar en sammanhängande identitetsbrygga. |
 
+| A-3143 | Riksarkivets avgränsade metadatafrågor på Värsås och mantals-/taxeringslängder 1880–1930 gav ingen relevant serie. | NEGATIVE | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Katalogbundet noll, inte belägg för att skattehandlingar eller personposter saknas; återstart kräver arkivbildar-, serie- eller volymnyckel. |
+
+| A-3154 | Riksarkivets metadatafrågor `Djursätra lagfart`, `Djursätra jordregister` och `Djursätra Västergården` 1880–1930 gav ingen relevant yrkes-/fastighetsroute. | NEGATIVE | hög | [C-0826](../citations/C-0826-riksarkivet-yrkesrutter-sverker-djup5.md) | Katalogbundet noll; dödbokens positiva ägaruppgift står kvar och ingen handlingsfrånvaro infereras. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -91,4 +95,21 @@ Källorna växlar mellan `Per Wilhelm`/`Per Vilhelm` och
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: yrkesutlöst jord/lagfart `N`. Tre exakta
+  Djursätra-frågor gav ingen relevant katalogroute. Dödbokens positiva
+  ägaruppgift står kvar; katalognollet säger inte att handlingar saknas
+  (C-0826; research-log Batch 249).
+- Källbredd 2026-09-04: skatt/mantal `N`. Tre avgränsade
+  Riksarkivet-frågor för Värsås 1880–1930 gav ingen relevant serie.
+  Katalognollet säger inte att handlingar saknas; återstart kräver en
+  positiv arkivbildar-, serie- eller volymnyckel (C-0825; research-log
+  Batch 248).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-236--t-0026-konsolidering-av-p-0020p-0043)
+- Källbredd 2026-09-04: bouppteckning `N` som fysisk registerlucka.
+  Riksarkivets specialsök uppger att Västra Götalands län helt saknas i
+  databasen; utfallet är inte ett person- eller aktsnoll. Återta först med
+  exakt domstols-/volymnyckel för hemvisten vid döden (research-log Batch 245).

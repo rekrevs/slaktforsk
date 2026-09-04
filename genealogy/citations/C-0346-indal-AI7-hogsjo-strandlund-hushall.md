@@ -23,6 +23,14 @@ namn, exakta dag, föräldrapar, socken och Högsjö. Det bekräftar både
 födelsebokens 4 december och efternamnet Strandlund, i konflikt med A I/9:s
 senare 7 december och den tidigare arbetsläsningen `Strömlund`.
 
+## Senare rättelse
+
+En ny kontrolläsning av samma fulloriginal 2026-09-04 kunde säkert läsa
+Stina Cajsas födelsedata och delar av Johan Gustafs. Den append-only-bevarade
+äldre försiktighetsnoteringen ovan ersätts i sak av
+[C-0831](C-0831-indal-AI7-strandlund-foraldradata-rattelse.md): Stina Cajsa
+1813-09-17 i Sättna; Johan Gustaf 1815 i Stockholm; vigselår 1839.
+
 ## Lokalt original
 
 [Full sida](../media/C-0346-riksarkivet-indal-AI7-hogsjo-sida-94-strandlund.jpg),

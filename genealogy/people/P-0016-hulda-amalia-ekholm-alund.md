@@ -44,3 +44,8 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
   han uppges 1930 ha varit lokomotiveldare. Sök vigsel och dödsnotis i
   Hyltinge, Helgesta och Flen.
 - Fastställ om fler syskon föddes efter 1890.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — födelse, föräldrar, barndom, flytt och moderskap är sammanhållna; den namnlöse Ekholm-maken och senare syskon-/livsspår saknar ännu identifieringsnyckel och är uttryckligt villkorliga.

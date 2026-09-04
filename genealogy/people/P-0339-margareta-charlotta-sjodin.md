@@ -50,6 +50,7 @@ Riksarkivets register och originalbild under det gifta efternamnet
 | A-2930 | Den återaktiverade 1910-frågan efter Margareta Charlotta, född 1825 i Stockholm, gav 0 träffar. | NEGATIVE | medel | [C-0753](../citations/C-0753-riksarkivet-captcha-reaktiverade-fragor.md) | Frågebundet registerresultat, förenligt med A I/10:s dödsanteckning 1901-04-19 men inte ett självständigt döds- eller vistelsebelägg. |
 | A-2637 | Den namnfria Ljustorp-frågan gav exakt tolv poster 1901; en positiv Lagfors-kontroll för Märta Kristina Vigg hänvisar till Ljustorps tingslags häradsrätt F II/5 nr 53, men ingen av posterna förenar Margreta Charlottas identitet. | TRANSCRIBED | hög | [C-0652](../citations/C-0652-ljustorp-bouppteckningsregister-1901-och-FII5.md) | Kontrollposten bekräftar arkiv- och volymrutten, inte målpersonens förekomst. |
 | A-2638 | Den exakta årsvolymen `SE/HLA/1040061/F/F II/5`, bouppteckningar 1901–1905, är läsesalsbunden hos Riksarkivet i Härnösand; ingen akttext för Margreta Charlotta har lästs. | LEAD | hög | [C-0652](../citations/C-0652-ljustorp-bouppteckningsregister-1901-och-FII5.md) | Beställ volymen och läs 1901-avsnittet kring akter efter 1901-04-19; oregistrerade akter är möjliga. |
+| A-3184 | C:394 volym 2:s spridda mantals-/skatte-/taxeringslängder 1846–1878/1862–1876 är en exakt analog hushållsrutt över Margareta Charlottas säkra Lagforsperiod. | LEAD | hög | [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md), [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Selektiv samling; ingen personrad eller ekonomisk uppgift är läst. |
 
 ## Relationer
 
@@ -89,6 +90,28 @@ Riksarkivets register och originalbild under det gifta efternamnet
   öppen vigselfråga.
 - Följ inte hennes föräldrar före kohortens övriga centrala luckor.
 
+## Slutstatus
+
+- Status: `ÅTKOMSTSPÄRR`
+- Förväntad källa: Allmänna barnhusets intagningshandlingar i E 5-serierna, identifierade genom barnhusnummer 2532, inskrivningsåret 1831 och rullans hänvisning `N:o 90`, är den närmaste originalvägen till modern och den exakta födelseförsamlingen. Stockholms stadsarkiv anger att handlingarna måste beställas fram och läsas på plats i Kungsklippans läsesal; den åtkomliga rullan namnger bara fadern James Schölin.
+- Genomsökt: Allmänna barnhusets rulla 2532 och Ljustorp A I/4; de tio bevarade Stockholms födelseregister som täcker 1825 på 12–13 augusti; Margretas säkra Löfberg–Ljustorp–Lagfors-kedja 1831–1901; Ljustorps inflyttnings-, utflyttnings-, husförhörs-, födelse-, vigsel-, död- och bouppteckningsregistervägar enligt aktens resultatlista och source coverage. De analoga E 5-intagningshandlingarna har inte lästs och får inte behandlas som ett modernoll; flera stora Stockholmsförsamlingar saknar registertäckning.
+- Negativ kontroll: [C-0597](../citations/C-0597-stockholms-fodelseregister-margareta-augusti-1825-negativ.md), [C-0652](../citations/C-0652-ljustorp-bouppteckningsregister-1901-och-FII5.md)
+- Kandidatgräns: Ingen mor är belagd eller upphöjd som kandidat. Nils Larsson är uttryckligen fosterfar och får ingen biologisk föräldrarelation; den verifierade antavlan propagerar endast genom den originalnamngivne fadern James Schölin.
+- Återaktivera när: E 5-intagningshandlingen med barnhusnummer 2532 och `N:o 90` får läsbar fjärrbild eller annan laglig distansåtkomst; när ägaren uttryckligen godkänner beställning eller läsesalsåtgärd; eller när en ny positiv mor-, födelseförsamlings-, barnhus- eller hushållsnyckel framkommer som inte redan är avgränsad i akten.
+
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-243--t-0027-konsolidering-av-p-0336p-0339)
+- Källbredd 2026-09-04: flytt `M = ✓`. Ljustorp B I/2 post 176 år 1855
+  för Henrik Henriksson med hustru från Lagfors till Sjöberg förenas med
+  det namngivna Sjöbergshushållet; Margreta behöver därför ingen separat
+  egen namnrad för att flytten ska vara positiv (C-0471/C-0469/C-0527;
+  Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via C:394 volym 2:s exakta analoga, selektiva hushållsrutt över Lagforsperioden; ingen personrad är läst (C-0710/C-0828; Batch 254).
+- Källbredd 2026-09-04: födelse/dop `F = S`. Barnhusrulla 2532 och
+  Ljustorp A I/4 identifierar henne och fadern James Schölin; den exakta
+  närkällan är E 5-intagningshandling nr 90, som kräver läsesalsåtkomst.
+  Tioregisterkontrollen för 12–13 augusti har stora dokumenterade
+  församlingsluckor och är inte ett stadsövergripande personnoll
+  (C-0597/C-0606; Batch 256).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

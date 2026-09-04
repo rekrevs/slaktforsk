@@ -37,7 +37,7 @@ stavning från det sekundära Ancestry-trädet.
 |---|---|---|---|---|
 | [P-0003 Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) | make | 1938-05-15, Flen | CORROBORATED | C-0032, C-0033, C-0034 |
 | [P-0005 Jan-Christer Janson](P-0005-jan-christer-janson.md) | son enligt familjeuppgift | ej angivet | TRANSCRIBED | C-0005, C-0047 |
-| [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) | far | 1920, Hyltinge | TRANSCRIBED | C-0020 |
+| [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) | far | 1920, Hyltinge | CORROBORATED | C-0020, C-0028, C-0033 |
 | [P-0016 Hulda Amalia Ekholm](P-0016-hulda-amalia-ekholm-alund.md) | mor | 1920 och 1930 | CORROBORATED | C-0020, C-0019 |
 | [P-0017 Hulda Margareta](P-0017-hulda-margareta.md) | syster eller halvsyster | 1930 | LEAD | C-0015 |
 | [P-0303 Anita Bratt](P-0303-anita-bratt.md) | dotter | 1940 enligt familjekrönika | TRANSCRIBED | C-0266 |
@@ -47,3 +47,8 @@ stavning från det sekundära Ancestry-trädet.
 
 - Fastställ namnbruket Eriksson/Ekholm genom barndom och giftermål.
 - Verifiera barnrelationerna med hänsyn till integriteten för sannolikt levande personer.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — identitet, födelse, barndomshushåll, föräldrar och vigsel är original- eller utdragsbelagda och den bevarade namnvarianten är avgränsad; fortsatt namnbruk och integritetskänsliga barnbelägg är villkorliga spår.

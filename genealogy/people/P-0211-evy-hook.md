@@ -54,3 +54,8 @@ Tuna-graven för Axel född 1867 är fortsatt avvisad.
 ## Integritetsnot
 
 Spara endast det som behövs för att fastställa nästa historiska generation.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `INTEGRITETSMINIMERAD` — identitet, födelse och båda föräldraleden är säkrade med familjeuppgift och samtida utdrag; ytterligare uppgifter om ett möjligt nu levande liv samlas inte in.

@@ -22,6 +22,9 @@ brädgårdsarbetare och gårdsägare i Hudiksvall.
 | A-2213 | Anders Gustaf Hök dog 1911-11-16; dödsort, dödsorsak och begravning är inte fastställda. | CORROBORATED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen dödskolumn på sida 484 och hustruns änkedatum på två sammanlänkade sidor. |
 | A-2215 | Hudiksvall F I/3:s sammanhängande sena årsföljd och SCB:s ordinarie novemberutdrag saknar en post för Anders Gustaf Hök eller den 16 november 1911. | CONFLICT | hög | [C-0462](../citations/C-0462-hudiksvall-FI3-anders-gustaf-hok-negativ-1911.md), [C-0463](../citations/C-0463-scb-hudiksvall-anders-gustaf-hok-negativ-1911.md) | Exakt bok- och periodnoll mot församlingsbokens positiva datum; SCB-utdraget är beroende av originalrapporteringen. |
 | A-2216 | Hudiksvalls länssjukhus hela separata SCB-dödsutdrag 1911 saknar en säker Anders Gustaf Hök. | TRANSCRIBED | hög | [C-0464](../citations/C-0464-scb-hudiksvalls-lanssjukhus-anders-hok-negativ-1911.md) | Utesluter bara sjukhusets rapporteringsserie, inte annan dödsort. |
+| A-3160 | En bouppteckningsjurisdiktion kan inte väljas säkert förrän hans dödsort 1911 har fått en positiv källnyckel. | LEAD | hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md), [C-0462](../citations/C-0462-hudiksvall-FI3-anders-gustaf-hok-negativ-1911.md)–[C-0464](../citations/C-0464-scb-hudiksvalls-lanssjukhus-anders-hok-negativ-1911.md) | Villkor, inte ett boupptecknings- eller personnoll. |
+| A-3174 | Gävleborgs landskontors E IV b/EE VI-serier är en regional analog skatte- och taxeringsväg för Anders Gustafs säkra Hudiksvallsperiod före 1918. | LEAD | medel | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Ingen årsvolym eller personrad har lästs; dödsorten 1911 förblir olöst. |
+| A-3187 | Anders Gustafs arbetsgivar-/fastighetsspår blir avslutande först med en konkret brädgårds-, arbetsgivar-, fastighets- eller skattenhetsnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor; de redan belagda yrkestitlarna står kvar och ingen arkivfrånvaro infereras. |
 
 ## Relationer
 
@@ -57,4 +60,13 @@ följ inte de nya gränspersonernas anor före breddkohorten.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-241--t-0027-konsolidering-av-p-0276p-0311)
+- Källbredd 2026-09-04: bouppteckning `B = 2`, villkorad av en positiv
+  dödsorts- eller jurisdiktionsnyckel (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = 2`. Födelse i Hällefors och senare
+  Hudiksvallsliv är säkra ändpunkter, men ingen personbunden övergång eller
+  tidigare flyttvolym är ännu routad; återstart kräver en positiv
+  mellanorts-, års- eller sidnyckel (C-0380/C-0410–C-0411; Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Gävleborgs landskontors regionala analoga taxeringsserier för Hudiksvallsperioden; ingen års- eller personrad är läst (C-0828; Batch 254).
+- Källbredd 2026-09-04: yrkesutlöst arbetsgivar-/fastighetsspår `O = 2`, villkorat av konkret brädgårds-, arbetsgivar-, fastighets- eller skattenhetsnyckel (C-0829; Batch 255).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

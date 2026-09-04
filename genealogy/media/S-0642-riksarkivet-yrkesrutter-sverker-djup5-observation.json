@@ -1,0 +1,45 @@
+{
+  "observed_at": "2026-09-04",
+  "service": "Riksarkivet MCP metadata catalogue",
+  "queries": [
+    {
+      "person": "P-0020 Per Wilhelm Eliasson",
+      "years": "1880-1930",
+      "keywords": ["Djursätra lagfart", "Djursätra jordregister", "Djursätra Västergården"],
+      "relevant_hits": 0
+    },
+    {
+      "person": "P-0042 Karl Fredrik Jansson",
+      "years": "1880-1940",
+      "keywords": ["Varia Flen", "Möbelfabriken Varia", "Varia personal"],
+      "relevant_context_hits": [
+        {
+          "reference_code": "SE/KrA/0202/044:H/K 1 a/K 1ab/F 0051",
+          "date": "1920-1939",
+          "title": "Möbelfabriken Varia, Flen, Södermanlands län",
+          "type": "Photography",
+          "url": "https://sok.riksarkivet.se/arkiv/2lJVkfWPeaoSdxzxxTzSv1"
+        }
+      ],
+      "personnel_or_employment_archive_hits": 0,
+      "false_hits": ["SE/RA/420144/05/F 1 A/438, Kontrollstyrelsen, no Varia title or personnel context"]
+    },
+    {
+      "person": "P-0422 Johan Peter Zingmark",
+      "years": "1880-1910",
+      "keywords": ["Ekträsk sågverk", "Ekträsk såg", "Ekträsks sågverk"],
+      "relevant_hits": 0
+    }
+  ],
+  "conditional_routes": [
+    {
+      "persons": ["P-0050", "P-0065", "P-0094"],
+      "condition": "Read the exact analog mantal/tax route first and resume land/title sources only if it yields a farm, parcel, tax-unit, or title identifier."
+    },
+    {
+      "persons": ["P-0110"],
+      "condition": "Resume occupation-specific sources only after a source identifies the employing estate, employer, or property for the rightare/torpare period."
+    }
+  ],
+  "scope_note": "Catalogue zeroes are query-bounded and do not prove that archives or records never existed. The Varia photograph is contextual and does not identify P-0042 or any employee."
+}

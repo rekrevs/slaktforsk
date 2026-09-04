@@ -30,6 +30,9 @@ gången 1882 i Kalmar och död 1901-11-21 enligt församlingsboken.
 | A-2386 | Högby E I/2 1879–1890 (bilderna 25–44, 178 lysningar) saknar varje Carlman- eller Svensson-lysning. | NEGATIVE | hög | [C-0540](../citations/C-0540-hogby-EI2-1879-1890-negativ-och-F2-atkomst-401.md) | Avgränsat noll som förklaras av lysningen i Kalmar 1882; upprepa inte samma bildföljd. |
 | A-2387 | Högby F/2 1895–1925 (batch `80003338`) svarade `401` på bildnivå 2026-08-29; dödposten för 1901-11-21 är oläst. | TRANSCRIBED | hög | [C-0540](../citations/C-0540-hogby-EI2-1879-1890-negativ-och-F2-atkomst-401.md) | Åtkomstincident, inte nollresultat; återaktivera i inloggad session. |
 | A-2455 | Carl August Carlman dog 1901-11-21 i Högby av hjärtlidande och begravdes 27 november, 76 år, 1 månad och 19 dagar gammal. | CORROBORATED | mycket hög | [C-0560](../citations/C-0560-hogby-F2-carl-august-carlman-dod-1901.md), [C-0538](../citations/C-0538-hogby-AIIa1-hagaby-6-sida-140-carlman.md) | Egen dödpost verifierar församlingsbokens datum och anger f.d. kronolänsman, Hagaby nr 6, gift. |
+| A-3162 | Ölands norra mots häradsrätt F II är den exakta analoga bouppteckningsserien för Högby, men katalogen exponerade ingen årsvolym för 1901. | LEAD | hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Serie- och åtkomstresultat; ingen akt eller personrad är läst. |
+| A-3176 | Häradsskrivarens i Ölands norra mots fögderi fond `SE/VALA/01959`, 1655–1917, är den analoga skatte-/mantalsvägen för Karl Augusts säkra Högbyperiod. | LEAD | medel | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Tre riktade frågor exponerade ingen årsvolym; ingen personrad är läst. |
+| A-3188 | `SE/VALA/02632`, Kronolänsmannens i Ölands norra mots norra distrikt arkiv, 1869–1917, är en exakt analog yrkesroute med periodrelevanta diarier och handlingar. | LEAD | mycket hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Fonden motsvarar yrke, distrikt och period; ingen Carlman-rad, handling eller namnteckning är läst. |
 
 ## Relationer
 
@@ -63,4 +66,14 @@ före kohortens breddmål.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-241--t-0027-konsolidering-av-p-0276p-0311)
+- Källbredd 2026-09-04: bouppteckning `B = S` via Ölands norra mots
+  häradsrätt F II; årsnivån är katalogspärrad och ingen akt har lästs
+  (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = 2`. Egen födelse i Målilla och
+  Gasa–Hagaby-livet i Högby är positiva ändpunkter, men ingen personbunden
+  flyttkälla mellan dem har identifierats; ny mellanort eller årnyckel
+  krävs (C-0465/C-0355/C-0538; Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via den exakta analoga fonden för Ölands norra mots fögderi; ingen årsvolym eller personrad är läst (C-0828; Batch 254).
+- Källbredd 2026-09-04: yrkesutlöst källa `O = S` via den exakta analoga fonden för Kronolänsmannen i Ölands norra mots norra distrikt; ingen Carlman-rad eller handling är läst (C-0829; Batch 255).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

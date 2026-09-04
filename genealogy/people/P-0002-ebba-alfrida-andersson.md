@@ -34,3 +34,8 @@ verifierade i Riksarkivets original eller samtida utdrag.
 | [P-0040 Jan Oskar Zingmark](P-0040-jan-oskar-zingmark.md) | son | OWNER_CONFIRMED | PCD-2026-09-03-004, C-0818 |
 | [P-0006 Hillevi Zingmark](P-0006-hillevi-zingmark.md) | dotter | OWNER_CONFIRMED | PCD-2026-09-03-003, C-0001 |
 | [P-0041 Frithiof Urban Zingmark](P-0041-frithiof-urban-zingmark.md) | son | OWNER_CONFIRMED | PCD-2026-09-03-004, C-0818 |
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — födelse, föräldrar, barndomshushåll, utbildnings-/yrkespost och vigsel är konsoliderade och barnrelationerna följer ägarbeslut; exakt död är ett dokumenterat villkorligt spår.

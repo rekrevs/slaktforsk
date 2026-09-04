@@ -22,6 +22,8 @@ egen födelsenotis och det parentbärande hushållet.
 | A-2207 | A I/11 ger Anna Stinas födelsedag som 1844-12-04, medan A I/12 åter ger 1844-12-07; 4 december behålls som faktisk födelsedag. | CORROBORATED | hög | [C-0343](../citations/C-0343-indal-C4-anna-stina-fodd-1844.md), [C-0346](../citations/C-0346-indal-AI7-hogsjo-strandlund-hushall.md), [C-0456](../citations/C-0456-indal-AI11-hogsjo-sida-130.md), [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md) | Egen födelsenotis, barndomshushåll och A I/11 väger tyngre än de två längder som skriver 7 december. |
 | A-2642 | Indal A II a/1 följer Anna Stina Strandlund i Högsjö efter 1900, återger födelsen 1844-12-04 och anger död 1904-11-15. | CORROBORATED | hög | [C-0654](../citations/C-0654-indal-AIIa1-hogsjo-sida-129.md), [C-0655](../citations/C-0655-scb-indal-anna-stina-dod-1904.md) | Församlingsbok och fullständigt SCB-dödavsnitt är samstämmiga. |
 | A-2643 | Anna Stina Strandlund dog 1904-11-15. | CORROBORATED | hög | [C-0654](../citations/C-0654-indal-AIIa1-hogsjo-sida-129.md), [C-0655](../citations/C-0655-scb-indal-anna-stina-dod-1904.md) | SCB-raden kallar henne hustru till torparen Nils Peter Höglund i Högsjö; dödsorsak och dödsort är tomma. |
+| A-3159 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
+| A-3173 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Anna Stinas säkra Indalsperiod genom dödsåret 1904. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
 
 ## Relationer
 
@@ -53,4 +55,12 @@ parentbärande födelseposter.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-240--t-0027-konsolidering-av-p-0250p-0272)
+- Källbredd 2026-09-04: bouppteckning `B = S` via Indals tingslag F II/5,
+  1901–1905; endast katalogmetadata är läst (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = —`. Hennes belagda födelse-, vigsel-,
+  hushålls- och dödskedja ligger inom Indal/Högsjö och innehåller ingen
+  separat intersockenflytt (C-0343/C-0346–C-0349/C-0654–C-0655;
+  Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Medelpads östra fögderis analoga taxeringsvolymer över Indalsperioden (C-0828; Batch 254).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

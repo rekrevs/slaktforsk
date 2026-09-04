@@ -19,24 +19,32 @@ och `node scripts/goal-state.mjs` är det. Historiska handovers finns i
 
 ## Aktuellt läge 2026-09-04
 
-- Senaste ägarbeslut: `PCD-2026-09-04-001`. North star har fått ett
-  beräkningsbart mått och en styrregel; Wotan används som ändlig kö skuren
-  ur måttets nästa skiva; en batch loggas en gång i dagsloggen.
-- T-0012 är stängd vid konsolideringsgrinden (T-0021). Den återstående
-  kohorten är skuren i ändliga uppgifter T-0022–T-0029, två per steg och
-  sida enligt styrregeln: djup 1–4 (T-0022 S, T-0023 K), arkivfronter på
-  djup 5 (T-0024 S, T-0025 K), konsolidering djup 5 (T-0026, T-0027) och
-  källbredd djup 5 (T-0028, T-0029). T-0013 väntar bakom dem och
-  utgåvegrinden. Nästa `READY` är T-0022; ingen uppgift är `ONGOING`.
-- Mätt läge: gemensamt djup 0 under det nya kontraktet. Djup 1–4 från Adam
-  och Axel saknar konsolideringspass och källbreddsdisposition; djup 5
-  (kohorten om 32) har tre anspetsar utan giltig arkivfront, P-0051, P-0336
-  och P-0339, samt oprövade prioritet-1-källfamiljer på alla 32.
+- Senaste styrbeslut: `PCD-2026-09-04-006`. Efter att T-0013 verifierat den
+  första djup-6-skivan ska T-0033 behandla den andra balanserade skivan:
+  P-0145, P-0214, P-0289 och P-0290 på Sverkers sida samt P-0350, P-0351,
+  P-0360 och P-0361 på Kristinas sida. Nya djup-7-föräldrar registreras men
+  deras anor forskas inte vidare i uppgiften.
+- T-0032 är `DONE`. Den visuellt och strukturellt verifierade version 4 finns
+  i `output/pdf/adam-och-axel-janson-fem-generationer-v4.pdf`: 43 sidor,
+  varav två sammanhängande 31-personers träd och 31 katalogsidor för 62 unika
+  personer. Träden visar namn, kända levnadsår och ort utan interna koder;
+  katalogen visar ID, namngivna familjerelationer, kända livsuppgifter och
+  C-referenser. Version 1–3 är bytebevarade. V4:s SHA-256 är
+  `5d9dfabda85c7c4c3e1c4171068961931a4f3caa9b8dfa6933f48faf75a47259`.
+- T-0013 är `DONE`: alla åtta mål har giltig front eller verifierade
+  föräldrar. P-0123 fick P-0264 Lorentz Urbom och P-0265 Anna Maja
+  Eriksdotter som korroborerade föräldrar; P-0344 fick P-0502 Lars Larsson
+  och P-0503 Anna Jonsdotter. Övriga sex fick reproducerbara terminala
+  fronter. Batch 258 är uppgiftens enda forskningsloggpost.
+- Mätt läge: gemensamt djup 5. Djup 6 har 55 kända och nio stängda
+  positioner, åtta granskade och källbreddsklara personer samt 31 ogiltiga
+  fronter till och med djupet. T-0033 är nästa `READY` M-uppgift.
 - Kvalitetsgrinden: inga `LEAD`-, `CONFLICT`-, `REJECTED`- eller
   `UNKNOWN`-relationer propagerar. Ägarfastställda relationer
   (`OWNER_CONFIRMED`, PCD-2026-08-20-001, -08-29-001, -09-03-003/-004/-005)
-  kräver inga arkivbelägg. Utgåvegrinden i `PCD-2026-08-23-001` gäller:
-  ingen ny PDF utan ägardiskussion.
+  kräver inga arkivbelägg. Utgåvegrinden i `PCD-2026-08-23-001` är uppfylld
+  genom `PCD-2026-09-04-002`; den aktuella bruksversionen styrs av
+  `PCD-2026-09-04-005` och den verifierade version 4-utgåvan.
 - Bevarade nollresultat och exakta återstartvillkor står i personakter,
   citationer och `genealogy/source-coverage.md`. Upprepa inte en dokumenterad
   sökning utan ny nyckel.
@@ -55,7 +63,7 @@ och `node scripts/goal-state.mjs` är det. Historiska handovers finns i
   `appgprj_6a91bf98d5788191bbd3f09db81e4541`). Skapa ingen ny dashboard. Den
   bygger `public/data/project.json` från projektfilerna; kör `npm test` och
   `npm run build` där. Publicerad data kan ligga efter arbetsytan.
-- Gren `main`; privat remote `https://github.com/rekrevs/slaktforsk.git`
+- Gren `main`; publik remote `https://github.com/rekrevs/slaktforsk.git`
   med Git LFS för media, se `MEDIA-PRESERVATION.md`.
 
 ## Verifiering efter varje batch

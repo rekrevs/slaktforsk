@@ -26,6 +26,9 @@ barnens egna födelsekällor och de parentbärande hushållen.
 | A-2639 | Indal A II a/1 följer Nils Petter Höglund som torpare i Högsjö efter 1900 och anger död 1906-01-19. | CORROBORATED | hög | [C-0654](../citations/C-0654-indal-AIIa1-hogsjo-sida-129.md), [C-0656](../citations/C-0656-scb-indal-nils-petter-dod-1906.md) | Församlingsbok och fullständigt SCB-dödavsnitt ger samma datum, födelsedag, namn och hemvist. |
 | A-2640 | Nils Petter Höglund dog 1906-01-19. | CORROBORATED | hög | [C-0654](../citations/C-0654-indal-AIIa1-hogsjo-sida-129.md), [C-0656](../citations/C-0656-scb-indal-nils-petter-dod-1906.md) | Dödsortsfältet i SCB-utdraget är tomt och fylls inte inferentiellt. |
 | A-2641 | Hans dödsorsak anges som kräfta. | TRANSCRIBED | hög | [C-0656](../citations/C-0656-scb-indal-nils-petter-dod-1906.md) | Samtida SCB-utdrag, post 5. |
+| A-3158 | Indals tingslags F II/6, 1906–1909, är den exakta analoga bouppteckningsvolymen för hans dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
+| A-3172 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Nils Petters säkra Indalsperiod genom dödsåret 1906. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
+| A-3186 | Nils Petters torparspår blir avslutande först om Indals exakta skatterutt ger en torp-, fastighets- eller jordägarnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, arkiv- eller personnoll. |
 
 ## Relationer
 
@@ -60,4 +63,13 @@ Riksarkivet-åtkomst enligt C-0661.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-240--t-0027-konsolidering-av-p-0250p-0272)
+- Källbredd 2026-09-04: bouppteckning `B = S` via Indals tingslag F II/6,
+  1906–1909; endast katalogmetadata är läst (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = —`. Den belagda livskedjan från egen
+  födelse till död ligger i Indal/Högsjö och ger ingen separat
+  intersockenflytt att pröva (C-0349/C-0456–C-0458/C-0654–C-0656;
+  Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Medelpads östra fögderis analoga taxeringsvolymer över Indalsperioden (C-0828; Batch 254).
+- Källbredd 2026-09-04: yrkesutlöst torparspår `O = 2`, villkorat av torp-, fastighets- eller jordägarnyckel från skatterutten (C-0829; Batch 255).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

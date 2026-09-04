@@ -25,6 +25,8 @@ Högsjö, Indal.
 | A-2316 | Hon följs som hustru och mor i Högsjö från dottern Lisa Cajsas rad 1858 till familjen med fyra hemmavarande eller överstrukna barn 1892–1900. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Exakt eget datum och makens datum binder hushållen. |
 | A-2667 | Indal A II a/1 sida 130 fortsätter `Dalsten, Kajsa Märta h.` i Lars Petter Nilssons Högsjöhushåll efter 1900 och anger död 1901-03-05. | TRANSCRIBED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md) | Exakt födelsedatum, vigseldatum och hushåll binder raden till P-0316. |
 | A-2668 | SCB:s dödboksutdrag, Indal post 10, korsbekräftar att Cajsa Märta Dahlsten dog 1901-03-05, född 1834-03-21 och hustru till torparen Lars Petter Nilsson i Högsjö; dödsorsak och dödsort är tomma. | CORROBORATED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | SCB-utdraget är en samtidig avskrift men ger full identitetskedja. |
+| A-3167 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
+| A-3181 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Cajsa Märtas säkra Indalsperiod genom dödsåret 1901. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
 
 ## Relationer
 
@@ -63,4 +65,12 @@ rotera breddfronten.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-242--t-0027-konsolidering-av-p-0312p-0316)
+- Källbredd 2026-09-04: bouppteckning `B = S` via Indals tingslag F II/5,
+  1901–1905; endast katalogmetadata är läst (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = N`. Säter–Byn–Högsjö-kedjan bryts vid
+  den fysiskt saknade Sättna A I/9a sida 35; lästa gränssidor ger ingen
+  säker målrad. Nollutfallet gäller bara denna sida/övergång
+  (C-0358/C-0510; Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Medelpads östra fögderis analoga taxeringsvolymer över Indalsperioden (C-0828; Batch 254).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

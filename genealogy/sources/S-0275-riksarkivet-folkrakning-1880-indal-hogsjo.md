@@ -9,6 +9,8 @@
 - Bild-id: `Folk_822015-018`
 - Bild-URL: <https://sok.riksarkivet.se/bildvisning/Folk_822015-018>
 - Läst och hämtad: 2026-08-23 i autentiserad Riksarkivet-session
+- Separat registerpost på samma sida: `Folk_115491432`, raderna 26–27,
+  Johan Gustaf Strandlund och Stina Cajsa Larsdotter; omläst 2026-09-04.
 
 ## Källkritik
 

@@ -23,6 +23,9 @@ folkräkningar och fem kyrkoboksled följer hans vuxna hushåll 1880–1920.
 | A-2662 | Östra Husby A II a/3 följer Anders Magnus som hemmansägare i Gäddestad 1915–1920 och anger dödskolumnen 1920-09-10. | TRANSCRIBED | mycket hög | [C-0666](../citations/C-0666-ostra-husby-AIIa3-anders-magnus-dod-1920.md) | Den överstrukna raden binds av fullständigt namn, födelsedatum, yrke och gård. |
 | A-2663 | Anders Magnus Karlsson, hemmansägare och änkling från Gäddestad 1, dog 1920-09-10; födelsedatumet 1844-08-28 upprepas. | CORROBORATED | mycket hög | [C-0666](../citations/C-0666-ostra-husby-AIIa3-anders-magnus-dod-1920.md), [C-0667](../citations/C-0667-scb-ostra-husby-anders-magnus-dod-1920.md) | Församlingsbok och SCB-utdrag ger samma dödsdag. |
 | A-2664 | SCB-utdraget anger dödsorsaken `Kräfta`; dödsortsfältet är tomt och notisen `Lasarettsläkaren i Norrköping` belägger därför inte Norrköping som dödsort. | TRANSCRIBED | mycket hög | [C-0667](../citations/C-0667-scb-ostra-husby-anders-magnus-dod-1920.md) | Läkarens svårlästa initialer görs inte till påstående. |
+| A-3164 | De riktade katalogfrågorna för Östkinds/Östra Husbys bouppteckningar nådde bara Björkekinds och Östkinds F III a-volymer till 1903 och identifierade ingen efterträdarserie för dödsåret 1920. | NEGATIVE | hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Katalog- och frågebundet noll; ingen aktfrånvaro infereras. |
+| A-3178 | Östkinds fögderi med efterträdare ger sammanhängande exakta mantalsvolymer 1886–1925 över Anders Magnus säkra Gäddestadperiod. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | E VII a/12, F I a/14–15 och F I aa/25 är metadata-/analogrutter; ingen personrad är läst. |
+| A-3189 | Anders Magnus jord-/fastighetsspår blir avslutande först om den exakta mantalsrouten löser gården eller fastighetsenheten bortom byadressen Gäddestad 1. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, lagfarts-, arkiv- eller personnoll. |
 
 ## Relationer
 
@@ -48,4 +51,14 @@ Föräldrarna är gränspersoner och följs inte djupare före breddkohorten.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-242--t-0027-konsolidering-av-p-0312p-0316)
+- Källbredd 2026-09-04: bouppteckning `B = N`. Det dokumenterade utfallet
+  är ett katalogbundet efterträdarglapp för 1920, inte ett personnoll
+  (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = —`. Han föddes och följdes till döden i
+  Gäddestad, Östra Husby; vigseln i Häradshammar anger honom fortfarande
+  från Gäddestad och utgör ingen egen flytt (C-0364–C-0365/C-0557/
+  C-0664–C-0667; Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Östkinds fögderi och efterträdarnas exakta mantalsvolymer 1886–1925 (C-0828; Batch 254).
+- Källbredd 2026-09-04: yrkesutlöst jord-/fastighetsspår `O = 2`, villkorat av att mantalsrouten löser gården eller fastighetsenheten bortom Gäddestad 1 (C-0829; Batch 255).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

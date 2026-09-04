@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 30,
+  "next_id": 34,
   "tasks": [
     {
       "id": "T-0001",
@@ -99,16 +99,16 @@
     },
     {
       "id": "T-0013",
-      "status": "BLOCKED",
-      "size": "L",
+      "status": "DONE",
+      "size": "M",
       "after": [
         "T-0024",
         "T-0025",
         "T-0028",
-        "T-0029"
+        "T-0029",
+        "T-0030"
       ],
-      "blocker": "Depth 5 from Adam and Axel must be treated per goal-state (T-0024–T-0029) and the owner must hold the mandatory pre-PDF editorial checkpoint (PCD-2026-08-23-001) before deeper research",
-      "summary": "Complete the depth-6 central-spine wave and register the next frontier"
+      "summary": "Treat the first balanced depth-6 archive-front slice for eight people"
     },
     {
       "id": "T-0014",
@@ -176,67 +176,101 @@
     },
     {
       "id": "T-0022",
-      "status": "READY",
+      "status": "DONE",
       "size": "M",
       "summary": "Treat depths 1–4 on Sverker's side: consolidation pass, Arbetsläge and coverage disposition for 15 people"
     },
     {
       "id": "T-0023",
-      "status": "READY",
+      "status": "DONE",
       "size": "M",
       "summary": "Treat depths 1–4 on Kristina's side: consolidation pass, Arbetsläge and coverage disposition for 15 people"
     },
     {
       "id": "T-0024",
-      "status": "READY",
+      "status": "DONE",
       "size": "M",
       "summary": "Archive front for P-0051 Barbro Christina Olofsdotter: parents or a valid Slutstatus"
     },
     {
       "id": "T-0025",
-      "status": "READY",
+      "status": "DONE",
       "size": "M",
       "summary": "Archive fronts for P-0336 Olaus Fredberg and P-0339 Margareta Charlotta Sjödin: parents or valid Slutstatus"
     },
     {
       "id": "T-0026",
-      "status": "BLOCKED",
+      "status": "DONE",
       "size": "M",
       "after": [
         "T-0022"
       ],
-      "summary": "Consolidation pass over the 16 depth-5 dossiers on Sverker's side",
-      "blocker": "Waits for its predecessor in `after`; the Styrregel orders archive front, then consolidation, then source breadth"
+      "summary": "Consolidation pass over the 16 depth-5 dossiers on Sverker's side"
     },
     {
       "id": "T-0027",
-      "status": "BLOCKED",
+      "status": "DONE",
       "size": "M",
       "after": [
         "T-0023"
       ],
-      "summary": "Consolidation pass over the 16 depth-5 dossiers on Kristina's side",
-      "blocker": "Waits for its predecessor in `after`; the Styrregel orders archive front, then consolidation, then source breadth"
+      "summary": "Consolidation pass over the 16 depth-5 dossiers on Kristina's side"
     },
     {
       "id": "T-0028",
-      "status": "BLOCKED",
+      "status": "DONE",
       "size": "M",
       "after": [
         "T-0026"
       ],
-      "summary": "Close priority-1 source-family cells for the 16 depth-5 people on Sverker's side",
-      "blocker": "Waits for its predecessor in `after`; the Styrregel orders archive front, then consolidation, then source breadth"
+      "summary": "Close priority-1 source-family cells for the 16 depth-5 people on Sverker's side"
     },
     {
       "id": "T-0029",
-      "status": "BLOCKED",
+      "status": "DONE",
       "size": "M",
       "after": [
         "T-0027"
       ],
-      "summary": "Close priority-1 source-family cells for the 16 depth-5 people on Kristina's side",
-      "blocker": "Waits for its predecessor in `after`; the Styrregel orders archive front, then consolidation, then source breadth"
+      "summary": "Close priority-1 source-family cells for the 16 depth-5 people on Kristina's side"
+    },
+    {
+      "id": "T-0030",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0028",
+        "T-0029"
+      ],
+      "summary": "Design, render and verify the separate depth-5 family edition for Adam and Axel"
+    },
+    {
+      "id": "T-0031",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0030"
+      ],
+      "summary": "Redesign the depth-5 family edition for efficient paper use and clearer pedigree trees"
+    },
+    {
+      "id": "T-0032",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0031"
+      ],
+      "summary": "Add life years and places to the pedigree trees and a complete person catalogue"
+    },
+    {
+      "id": "T-0033",
+      "status": "ONGOING",
+      "size": "M",
+      "phase": "PLANNING",
+      "after": [
+        "T-0013"
+      ],
+      "summary": "Treat the second balanced depth-6 archive-front slice for eight people"
     }
   ]
 }

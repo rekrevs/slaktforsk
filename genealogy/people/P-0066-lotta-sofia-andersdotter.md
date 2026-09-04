@@ -26,6 +26,8 @@
 | A-2098 | Åren 1890–1898 levde hon som bondhustru i Buberget med Anders Jonsson och barnen Maria Augusta, Jonas Edvard, Anders, Hildur Charlotta, Karl Magnus, Hanna Mathilda och Oskar Rudolf. | CORROBORATED | hög | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | Folkräkning och löpande hushållskälla. |
 | A-2266 | Bouppteckningen förrättades 1898-08-20 och namnger maken Anders Jansson samt deras åtta barn Ida Sofia, Maria Augusta, Jonas Edvard, Anders, Carl Magnus, Oskar Rudolf, Hilda Charlotta och Hanna Matilda. | CORROBORATED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | `Hilda` är aktens variant av senare `Hildur`; första aktsidan har lästs, inte hela tillgångsinventeringen. |
 
+| A-3147 | Umeå fögderis fondförteckning identifierar Degerfors mantalsvolymer Vol/58–62 över Lotta Sofias kända vuxenperiod 1867–1898, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog hushållsroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -63,4 +65,14 @@
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: skatt/mantal `S`. Degerfors Vol/58–62 är en exakt
+  analog hushållsroute över den kända vuxenperioden, med katalogglapp
+  1873–1882. Ingen personförd rad har lästs (C-0825; research-log Batch 248).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-237--t-0026-konsolidering-av-p-0050p-0066)
+- Källbredd 2026-09-04: flytt `—`. Den belagda livskedjan går från Rödå
+  till Buberget inom Degerfors och innehåller ingen separat intersockenflytt
+  som motiverar en egen flyttkällesökning (research-log Batch 247).

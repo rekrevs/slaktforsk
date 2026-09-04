@@ -25,6 +25,8 @@
 | A-2268 | Tre avgränsade sökningar i folkräkningen 1910 gav ingen Anders Jonsson född 1839 med de prövade Degerfors-/Västerbottensvillkoren. | TRANSCRIBED | hög | [C-0487](../citations/C-0487-folkrakning-1910-anders-jonsson-noll.md) | Registerfrågebundet noll, inte eget dödsbelägg. |
 
 | A-2427 | Degerfors A I/10c s. 207 anger vigseln med Lotta Sofia till 1867-01-28 och listar mågen Johan Oskar Zingmark med hustru och dotter från 1888. | TRANSCRIBED | hög | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md) | Kompletterar C-0106; barnens exakta datum finns på samma sida. |
+| A-3146 | Umeå fögderis fondförteckning identifierar Degerfors mantalsvolymer Vol/58–66 över Anders kända vuxenperiod 1867–1909, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
+
 ## Forskningsfrågor
 
 - Föräldrarna är ännu inte funna. Nästa steg är att söka honom som barn i
@@ -63,4 +65,18 @@
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: yrkesutlöst jord/lagfart `2`. Återtas först om den
+  analoga mantalsrouten ger gårds-, fastighets- eller skattenhetsnyckel
+  (C-0826; research-log Batch 249).
+- Källbredd 2026-09-04: skatt/mantal `S`. Degerfors Vol/58–66 är en exakt
+  analog route över den kända vuxenperioden, med katalogglapp 1873–1882.
+  Ingen personförd rad har lästs (C-0825; research-log Batch 248).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-237--t-0026-konsolidering-av-p-0050p-0066)
+- Källbredd 2026-09-04: flytt `2`. Barndomsbyn är okänd och den vuxna
+  Bubergetkedjan ger ingen riktad tidigare flyttpost. Återstart kräver en
+  positiv by-, sida-, hushålls- eller destinationsnyckel (research-log
+  Batch 247).

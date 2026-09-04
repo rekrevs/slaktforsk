@@ -143,6 +143,8 @@ ursprungliga dopnamn är däremot fortfarande olösta.
 | A-3112 | Rosenberg 66344 beskriver `Öfverklinten` som en by i Bygdeå vid Rickleån och anger en kvarn. | TRANSCRIBED | hög | [C-0816](../citations/C-0816-riksarkivet-mcp-rosenberg-barbro-olofsdotter.md), [C-0707](../citations/C-0707-bygdea-lundberg-lugnet-overklinten.md), [C-0716](../citations/C-0716-bygdea-olaus-fodelse-och-pitea-marginal.md) | Endast miljökontext för den avgränsade Lundberg/Olaus-ledtråden. Posten placerar inte Barbro i Överklinten och bevisar inte Olaus som hennes far. |
 | A-3113 | Exakta Rosenbergfrågor gav noll för Lugnet i Bygdeå och för den moderna stavningen `Överklinten`, medan den historiska stavningen `Öfverklinten` gav en målpost under samma filter. | TRANSCRIBED | hög | [C-0816](../citations/C-0816-riksarkivet-mcp-rosenberg-barbro-olofsdotter.md) | Visar stavnings- och lexikonkänslighet; inget ort-, person-, vistelse-, släktskaps- eller föräldranoll skapas. |
 
+| A-3145 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/38–51 över Barbros möjliga och säkra livsperiod 1830–1913, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0801](../citations/C-0801-riksarkivet-bygdea-mantal-1830-1850.md), [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
+
 ## Relationer
 
 Make: [P-0050 Anders Andersson](P-0050-anders-andersson.md).
@@ -515,6 +517,15 @@ Barn: [P-0057 Margareta Euphrosyne](P-0057-margareta-euphrosyne-andersdotter.md)
   belägg. Upprepa inte de slutna Bygdeå-intervallen 1860 och 1865–1870.
 - Åtkomstbelägg: [källtäckningsrevisionen](../source-coverage.md).
 
+## Slutstatus
+
+- Status: `ÅTKOMSTSPÄRR`
+- Förväntad källa: Bygdeå kyrkoarkiv H III/1, födelse- och dopbilagor 1829–1831, är den närmaste originalvägen till Barbros motstridiga födelsedagar och kan namnge mor eller förmyndare. Därefter följer H I/1:s möjliga skriftliga vigselmedgivande från C. E. Lundberg vid vigsel nr 19 den 1860-07-05 och L III/1:s strödda sociala handlingar 1832–1852. Samtliga tre är exakt katalogiserade men visas endast som `Läsesal` utan bild eller fjärrbeställning.
+- Genomsökt: Lövånger C/5 kring både 14 och 24 februari 1830; Bygdeå C/4:s motsvarande kronologiska februariföljd; Barbros säkra Jomarkkedja 1846–1913; Bygdeå B/2, K I/1–2 och L I/2 samt L I/4; de digitalt åtkomliga Lundberg-/Olaus-, Överklinten-, Piteå- och bouppteckningsspåren; relevanta födelse-, vigsel-, död-, hushålls-, flytt-, social- och registerkontroller enligt aktens resultatlista och source coverage. De analoga H III/1-, H I/1-, L III/1-, mantals- och domstolsoriginalen har inte lästs och får inte behandlas som nollresultat.
+- Negativ kontroll: [C-0145](../citations/C-0145-lovanger-1830-negativ-kontroll-barbro.md), [C-0306](../citations/C-0306-bygdea-C4-fodda-1830-02-24-negativ-kontroll.md), [C-0807](../citations/C-0807-bygdea-KI2-fattigbarn-kandidatscreening.md)
+- Kandidatgräns: Olaus/Olof Pehrsson, född 1784-02-07 i Överklinten, är endast `LEAD`. Lundberg-ledet, patronymikonet och Piteå-/Maja Stina-nycklarna bevisar inte att han var Barbros far; ingen föräldrarelation propageras.
+- Återaktivera när: H III/1, H I/1 eller L III/1 får en läsbar fjärrbild eller annan laglig distansåtkomst; när ägaren uttryckligen godkänner beställning/läsesalsåtgärd; eller när en ny positiv sida-, flytt-, hushålls-, förmynderskaps-, social- eller rättskällenyckel framkommer som inte redan är avgränsad i akten.
+
 ## Tidigare slutstatus — supersederad 2026-08-21
 
 - Status: `EJ DIGITALISERAD`
@@ -539,4 +550,17 @@ Barn: [P-0057 Margareta Euphrosyne](P-0057-margareta-euphrosyne-andersdotter.md)
 
 ## Arbetsläge
 
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: skatt/mantal `S`. Bygdeå Vol/38–51 är en exakt
+  analog route över möjlig och säker livsperiod, med katalogglapp
+  1873–1882. Ingen personförd rad har lästs (C-0801/C-0825; research-log
+  Batch 248).
 - Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)
+- Källbredd 2026-09-04: flytt `N`. Bygdeå B/2 saknar en säker Barbro i det
+  möjliga målåret 1849 och H II/1:s fotograferade bunt hoppar fysiskt från
+  1832 till 1866 (C-0201/C-0309). Utfallet är seriebundet och återtas först
+  med ny positiv flytt-, by-, sida- eller hushållsnyckel (research-log
+  Batch 247).

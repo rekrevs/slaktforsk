@@ -25,6 +25,9 @@ mellan Carl/Karl och Janson/Jansson; `Jarnsson` är en registervariant 1900.
 | A-2373 | Carl Fredrik Jansson vigdes 1886-04-26 i Lerbo med Charlotta Wilhelmina Larsson; första giftet för båda. | CORROBORATED | mycket hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md), [C-0016](../citations/C-0016-ada-wilhelmina-originalfodelse-1886.md), [C-0099](../citations/C-0099-karl-fredrik-jansson-fodelse-1861.md) | Vigselpostens födelsedatum 1861-09-24 är identiskt med den egna födelsenotisen; Adas födelsenotis fyra månader senare kallar paret gifta. |
 | A-2374 | Vid lysningen 4, 11 och 18 april 1886 var han dräng från Spånga i Lerbo och närvarande själv. | TRANSCRIBED | hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Hemvisten Spånga är ett uppslag mot C-0016:s läsning `Gånga` som bör omprövas. Sonen Sven Edvin (1884) föddes före vigseln. |
 | A-2375 | Lerbo E I/3 1883–1885 saknar någon lysning eller vigsel för paret. | NEGATIVE | hög | [C-0536](../citations/C-0536-lerbo-EI3-vigselkontroll-1883-1885-negativ.md) | Avgränsat noll som löses av vigseln 1886. |
+| A-3138 | Bouppteckningsregistrets Karl Fredrik Jansson-/Flenfråga 1937–1938 gav noll, men även den namnblanka Flenkontrollen gav noll; Villåttinge F II/60 är den exakta analoga originalvolymen. | TRANSCRIBED | hög | [C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md) | Registertäckningsgap och fjärråtkomstspärr, inte person- eller aktsnoll. Ingen bouppteckning lästes. |
+
+| A-3155 | Riksarkivets katalog identifierar fotografiposten `SE/KrA/0202/044:H/K 1 a/K 1ab/F 0051`, 1920–1939, med titeln `Möbelfabriken Varia, Flen`, men ingen relevant personal- eller anställningsserie i de prövade Varia-frågorna. | TRANSCRIBED | hög | [C-0826](../citations/C-0826-riksarkivet-yrkesrutter-sverker-djup5.md) | Fotografiet är endast fabrikskontext och identifierar inte Karl Fredrik eller någon anställd. |
 
 ## Relationer
 
@@ -38,4 +41,15 @@ Föräldrar enligt den genom C-0421 identitetssäkrade födelsenotisen C-0099:
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+  uttryckligen irrelevant disposition i source-coverage-matrisen
+  (research-log Batch 250; T-0028).
+- Källbredd 2026-09-04: yrkesutlöst Varia-spår `N`. Riksarkivet
+  katalogiserar ett fabriksfoto 1920–1939 men ingen relevant personal- eller
+  anställningsserie i de prövade frågorna. Fotot identifierar inte Karl
+  Fredrik (C-0826; research-log Batch 249).
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-236--t-0026-konsolidering-av-p-0020p-0043)
+- Källbredd 2026-09-04: bouppteckning `S`. Registertäckningen för Flen
+  1937–1938 saknas, medan Villåttinge F II/60 är en exakt analog
+  läsesalsväg utan digital bildinstansiering (C-0823; research-log Batch 245).

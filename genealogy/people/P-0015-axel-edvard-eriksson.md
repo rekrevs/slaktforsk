@@ -44,7 +44,7 @@ som hon 1930.
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0007 Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) | dotter | TRANSCRIBED | C-0020 |
+| [P-0007 Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) | dotter | CORROBORATED | C-0020, C-0028, C-0033 |
 | [P-0018 Birgit Cecilia Eriksson](P-0018-birgit-cecilia-eriksson.md) | dotter | TRANSCRIBED | C-0019 |
 | [P-0019 Gunborg Elisabet Eriksson](P-0019-gunborg-elisabet-eriksson.md) | dotter | TRANSCRIBED | C-0019 |
 | [P-0117 Charlotta Cecilia Elisabet Gustafsson](P-0117-charlotta-cecilia-elisabet-gustafsson.md) | hustru | CORROBORATED | C-0083, C-0082 |
@@ -76,3 +76,8 @@ som hon 1930.
   hushållskedjan i [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md)
 - Löst konflikt: den tidigare uppgiften Björkvik var styvmoderns
   födelseförsamling; se A-0439.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — födelseidentitet, föräldrar, flyttkedja, yrke, första äktenskap och det erkända faderskapet till Maj är konsoliderade; andra äktenskapet och närfamiljens livsslut är uttryckliga villkorliga spår.

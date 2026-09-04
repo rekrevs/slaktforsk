@@ -33,3 +33,8 @@ nu också primärbelagda i C-0574.
 Föräldrar: [P-0065 Anders Jonsson](P-0065-anders-jonsson.md) och
 [P-0066 Lotta Sofia Andersdotter](P-0066-lotta-sofia-andersdotter.md).
 Verifierade syskon i följda hushåll: P-0067–P-0073 samt tvillingarna P-0086–P-0087.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — egen födelse, barndomshushåll, föräldrar, vigsel och vuxenhushåll bildar en sammanhängande identitetskedja; sekundär död är ett dokumenterat villkorligt spår.

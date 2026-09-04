@@ -20,7 +20,7 @@ faderskapsbelägg krävs inte.
 | A-0043 | Ingen far namnges i Arnes födelsenotis. | TRANSCRIBED | hög | [C-0008](../citations/C-0008-arne-godvig-fodelse-1915.md) | Gäller endast denna post; faderskap kan finnas i annan handling. |
 | A-0044 | Modern var Ada Wilhelmina Jansson. | CORROBORATED | hög | [C-0008](../citations/C-0008-arne-godvig-fodelse-1915.md), [C-0011](../citations/C-0011-ada-wilhelmina-folkrakning-1910.md), [C-0014](../citations/C-0014-ada-wilhelmina-fodelse-1886.md) | Namnet och familjesambandet bekräftas av födelsenotis, moderns födelseutdrag och 1910/1930 års hushåll. |
 | A-0045 | Modern föddes 1886-08-19 i Lerbo. | CORROBORATED | hög | [C-0011](../citations/C-0011-ada-wilhelmina-folkrakning-1910.md), [C-0014](../citations/C-0014-ada-wilhelmina-fodelse-1886.md), [C-0016](../citations/C-0016-ada-wilhelmina-originalfodelse-1886.md) | Originalbok och SCB-utdrag visar datumet 19 augusti; den första avläsningen 8 augusti i C-0008 var fel. |
-| A-0150 | Hans far var Bernhard Natanael Eliasson. | CORROBORATED | hög | [C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md), [C-0029](../citations/C-0029-anvandarens-uppgift-bernhard-far.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md) | Namngiven familjeuppgift från probanden med tre grunder: privat erkännande, ekonomiskt understöd i vuxen ålder och fotografisk likhet. Födelsenotisen 1915 har tomt fadersfält, vilket var normalt när faderskapet inte fastställdes inför pastor; se A-0471 hos P-0010. |
+| A-0150 | Hans far var Bernhard Natanael Eliasson. | OWNER_CONFIRMED | hög | [PCD-2026-08-20-001](../../PROJECT-CONTROL.md#pcd-2026-08-20-001), [C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md), [C-0029](../citations/C-0029-anvandarens-uppgift-bernhard-far.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md) | Projektägaren har fastställt faderskapet som sann projektinformation; födelsenotisens tomma fadersfält och de skilda familjegrunderna bevaras. |
 | A-0046 | Arne bodde 1930 på Björkhem n:o 1 i Flen. | CORROBORATED | hög | [C-0007](../citations/C-0007-arne-godvig-folkrakning-1930.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md) | Folkräkning och församlingsbok överensstämmer. |
 | A-0047 | Arne var polerare och ogift 1930. | TRANSCRIBED | hög | [C-0007](../citations/C-0007-arne-godvig-folkrakning-1930.md) | Databaspost. |
 | A-0048 | Hans skolbildning anges som småskola och folkskola, och inkomsten som 900. | TRANSCRIBED | medel | [C-0007](../citations/C-0007-arne-godvig-folkrakning-1930.md) | Beloppets enhet och period ska kontrolleras på bilden. |
@@ -60,7 +60,7 @@ faderskapsbelägg krävs inte.
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
 | [P-0009 Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md) | mor | CORROBORATED | C-0008 |
-| [P-0010 Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md) | far | CORROBORATED | C-0086, C-0029 |
+| [P-0010 Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md) | far | OWNER_CONFIRMED | PCD-2026-08-20-001, C-0086, C-0029 |
 | [P-0042 Karl Fredrik Jansson](P-0042-karl-fredrik-jansson.md) | morfar | CORROBORATED | C-0007, C-0030 |
 | [P-0043 Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md) | mormor | CORROBORATED | C-0007, C-0030 |
 | [P-0007 Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) | hustru | CORROBORATED | C-0032–C-0034 |
@@ -69,3 +69,8 @@ faderskapsbelägg krävs inte.
 | [P-0005 Jan-Christer Janson](P-0005-jan-christer-janson.md) | son | TRANSCRIBED | C-0001, C-0005, C-0266 |
 | [P-0303 Anita Bratt](P-0303-anita-bratt.md) | dotter | TRANSCRIBED | C-0266 |
 | [P-0304 Ann-Christine O'Donnell](P-0304-ann-christine-tine-odonnell.md) | dotter | TRANSCRIBED | C-0266 |
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — identitet, båda föräldraled, födelse, morföräldrahushåll, vigsel och yrkes-/familjeliv har prövats i den tidigare utgåvepassagen; öppna döds- och biografispår är dokumenterad villkorlig berikning, inte oprövad prioritet 1 i denna närmare skiva.

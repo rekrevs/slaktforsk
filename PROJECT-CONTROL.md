@@ -624,3 +624,325 @@
   - `T-0021` har omskurit T-0012 och den första kohortskivan är skapad
   - Måttet visar sig sakna en dimension som north star kräver
   - Nästa utgåvegrind eller generationsvåg ska öppnas
+
+## PCR-2026-09-04-002
+
+- Record type: review
+- Date: 2026-09-04
+- Mode: checkpoint
+- Trigger: Djup-5-kohorten för Adam och Axel är färdigbehandlad och den
+  obligatoriska redaktionella grinden i `PCD-2026-08-23-001` har nåtts. En
+  visuell och innehållslig revision visar samtidigt att version 1 är välgjord
+  men numera materiellt inaktuell.
+- Control judgement: continue, operate, preserve, wait
+- Current gate: none för en ny djup-5-utgåva; djup-6-forskningen bör däremot
+  vänta tills den nya utgåvan är levererad och verifierad.
+- Recommendation: Bevara version 1 oförändrad som historisk artefakt och skapa
+  en separat, formgiven djup-5-utgåva. Behåll antavla, karta, tidslinje,
+  källförklaring och exakta hänvisningar; lägg till en tydlig redovisning av
+  vad som ändrats sedan version 1. Ge alla 32 personer på djup 5 kompakta
+  porträtt men reservera längre berättelser för ett balanserat urval från
+  båda sidor. Skilj grafiskt och språkligt mellan arkivbelägg,
+  `OWNER_CONFIRMED`, kvarstående konflikter och dokumenterade arkivfronter.
+- Owner decision required: Godkänn den separata djup-5-utgåvan och dess
+  redaktionella principer eller välj att öppna djup 6 först.
+- Evidence:
+  - `PCD-2026-08-23-001`
+  - `NORTH-STAR.md`
+  - `genealogy/source-coverage.md`
+  - `wotan/dev-log/T-0028.md`
+  - `wotan/dev-log/T-0029.md`
+  - `node scripts/goal-state.mjs`
+  - `output/pdf/adam-och-axel-janson-fyra-generationer-v1.pdf`
+- Uncertainty: De 32 kompakta porträtten kräver redaktionell komprimering;
+  full akttext och fullständiga källkedjor ligger fortsatt i projektarkivet.
+- Revisit when:
+  - Den nya PDF-utgåvan har genealogiskt och visuellt verifierats
+  - En uppgift i utgåvan står i konflikt med kanonisk personmodell
+  - Djup-6-vågen ska öppnas
+
+## PCD-2026-09-04-002
+
+- Record type: decision
+- Date: 2026-09-04
+- Decides review: `PCR-2026-09-04-002`
+- Owner: Sverker Adam Janson
+- Decision: Genomför rekommendationen. Bevara version 1 oförändrad och skapa
+  en ny, separat familjeutgåva till jämnt djup 5. Project Control får fatta
+  återstående redaktionella och operativa ägarbeslut inom north star,
+  kvalitetskontraktet, integritetsreglerna och repositoryts uttryckliga
+  handlingsgränser utan ytterligare stoppfrågor.
+- Disposition: approved
+- Supersedes decision: `PCD-2026-08-23-001` endast genom att den obligatoriska
+  redaktionella grinden nu är passerad; beslutets forskningsinriktning,
+  evidenskrav och bevarande av version 1 består.
+- Related records: `PCD-2026-09-04-001`, `PCR-2026-09-04-002`,
+  `genealogy/editions/adam-axel-depth4-v1.json`
+- Resulting Wotan tasks: `T-0030`; `T-0013` väntar på `T-0030`
+- Portfolio signal: Projektet är aktivt i en avgränsad utgåveuppgift; ingen
+  parallell djup-6-forskning ska startas.
+- Revisit when:
+  - `T-0030` har levererat en genealogiskt och visuellt verifierad PDF
+  - En materiell konflikt kräver nytt ägarbeslut
+  - Publicering, arkivbeställning, commit eller push övervägs; dessa åtgärder
+    omfattas inte av detta beslut
+
+## PCR-2026-09-04-003
+
+- Record type: review
+- Date: 2026-09-04
+- Mode: checkpoint
+- Trigger: `T-0030` har levererat och verifierat den godkända djup-5-utgåvan;
+  villkoret för att åter öppna nästa generationsvåg är uppfyllt.
+- Control judgement: continue, redirect, operate, preserve
+- Current gate: Den historiska `T-0013` är en L-behållare för en hel våg och
+  bygger på en äldre djupmodell. Dagens `goal-state` räknar från Adam och Axel
+  och visar på djup 6: 55 kända personer, nio stängda positioner, 39 ogiltiga
+  arkivfronter, en granskad person och noll källbreddsklara personer.
+- Recommendation: Öppna djup 6 men kör inte den äldre monolituppgiften.
+  Skär om `T-0013` till en ändlig M-uppgift för den första balanserade
+  frontskivan: P-0123, P-0126, P-0131 och P-0132 på Sverkers sida samt
+  P-0341, P-0342, P-0343 och P-0344 på Kristinas sida. Låt uppgiften ge var
+  och en verifierade föräldrar eller giltig slutstatus och endast registrera,
+  inte forska vidare på, eventuella nya djup-7-personer. Skär nästa uppgift ur
+  nytt `goal-state` först efter verifiering.
+- Owner decision required: none; detta är ett operativt vägval inom det
+  uttryckligen delegerade mandatet i `PCD-2026-09-04-002`.
+- Evidence:
+  - `PCD-2026-09-04-002`
+  - `wotan/dev-log/T-0030.md`
+  - `wotan/dev-log/T-0013.md`
+  - `wotan/README.md`
+  - `node scripts/goal-state.mjs`
+- Revisit when:
+  - Den omskurna `T-0013` är verifierad
+  - En bärande relation blir materiellt osäker eller motstridig
+  - Måttet eller källåtkomsten kräver ett nytt strategiskt vägval
+
+## PCD-2026-09-04-003
+
+- Record type: decision
+- Date: 2026-09-04
+- Decides review: `PCR-2026-09-04-003`
+- Owner: Sverker Adam Janson; operativt mandat utövat genom Project Control
+  enligt `PCD-2026-09-04-002`
+- Decision: Öppna djup-6-programmet efter den verifierade utgåvan och skär om
+  `T-0013` till den rekommenderade balanserade första frontskivan om åtta
+  personer. Senare skivor skapas först ur det då aktuella målläget.
+- Disposition: approved
+- Supersedes decision: den äldre omfattningen i `T-0013` som en enda full
+  djupvåg; riktningen mot djup 6 i `PCD-2026-08-21-001` består.
+- Related records: `PCD-2026-09-04-002`, `wotan/dev-log/T-0030.md`,
+  `wotan/dev-log/T-0013.md`, `wotan/README.md`
+- Resulting Wotan tasks: `T-0013` omskuren och `READY`
+- Portfolio signal: Projektet har en verifierad utgåva och begär nu
+  forskningsuppmärksamhet för en enda balanserad djup-6-skiva.
+- Revisit when:
+  - `T-0013` är verifierad och nästa skiva ska väljas
+  - En ny ägargrind eller extern åtkomstgräns uppstår
+
+## PCR-2026-09-04-004
+
+- Record type: review
+- Date: 2026-09-04
+- Mode: checkpoint
+- Trigger: Ägarens direkta utvärdering av djup-5-utgåvan visar att kort,
+  färgfält och överstor luft förbrukar papper utan motsvarande läsvärde och
+  att släktträden inte ger tillräcklig överblick.
+- Control judgement: redirect, operate, preserve
+- Current gate: Utgåvans informationsarkitektur och pappersutnyttjande, inte
+  dess genealogiska innehåll eller verifierade djup.
+- Recommendation: Bevara version 1 och 2 oförändrade och skapa version 3 som
+  en avskalad bruksversion: vit sida, svart/grå typografi, tunna funktionella
+  skiljelinjer, inga dekorativa kort eller färgade panelytor och ingen
+  omotiverad luft. Behåll läsbarheten men reducera sidantalet materiellt.
+  Ersätt tabelliknande anlistor med två riktiga, sammanhängande släktträd i
+  liggande format, ett per föräldrasida, med synliga förbindelser mellan fem
+  generationer. Behåll samtliga 32 anor, evidensskillnader, berättelser,
+  karta, tidslinje, källnärbilder och exakta referenser.
+- Owner decision required: none; ägaren har uttryckligen angett både problemet
+  och den önskade riktningen.
+- Evidence:
+  - Ägarens utvärdering 2026-09-04
+  - `output/pdf/adam-och-axel-janson-fem-generationer-v2.pdf`
+  - `genealogy/editions/adam-axel-depth5-v2.json`
+  - `wotan/dev-log/T-0030.md`
+- Uncertainty: Ett betydligt lägre sidantal får inte uppnås genom så liten
+  grad eller så täta träd att familjen tappar faktisk läsbarhet.
+- Revisit when:
+  - Version 3 har renderats och varje sida har jämförts visuellt
+  - Släktträden fortfarande kräver för mycket av läsaren
+  - Något verifierat innehåll inte ryms utan redaktionell förlust
+
+## PCD-2026-09-04-004
+
+- Record type: decision
+- Date: 2026-09-04
+- Decides review: `PCR-2026-09-04-004`
+- Owner: Sverker Adam Janson
+- Decision: Genomför den avskalade version 3 enligt rekommendationen. Ta bort
+  utgåvans dekorativa "bling-bling", använd papperet effektivare utan extrem
+  komprimering och gör släktträden tydligt sammanhängande. Bevara version 1
+  och 2 byte för byte.
+- Disposition: approved
+- Supersedes decision: `PCD-2026-09-04-002` endast beträffande den aktuella
+  utgåvans visuella form; dess innehållsbeslut, provenienskrav och bevarande
+  av version 1 består.
+- Related records: `PCR-2026-09-04-004`, `PCD-2026-09-04-002`,
+  `wotan/dev-log/T-0030.md`
+- Resulting Wotan tasks: `T-0031`; `T-0013` återgår till `READY` tills den
+  ägarbegärda utgåvekorrigeringen är verifierad.
+- Portfolio signal: Version 3 är aktiv revisionsprioritet; djup-6-forskningen
+  väntar utan att dess beslutade skiva ändras.
+- Revisit when:
+  - `T-0031` är visuellt och strukturellt verifierad
+  - En materiell innehållskonflikt upptäcks
+
+## PCR-2026-09-04-005
+
+- Record type: review
+- Date: 2026-09-04
+- Mode: checkpoint
+- Trigger: Ägaren vill ha ett mellanavstamp där de två släktträden visar
+  levnadsår och relevant ort under namnen, utan kryptiska positionskoder och
+  statuskommentarer, samt en komplett och innehållsrik personkatalog för alla
+  personer som förekommer i träden.
+- Control judgement: redirect, operate, preserve
+- Current gate: Version 3:s träd prioriterar endast namn och använder den
+  knappa andra raden till intern positionskod och evidensstatus. Dess
+  persondel omfattar bara de 32 yttersta djup-5-personerna, trots att träden
+  tillsammans visar 62 personer.
+- Recommendation: Bevara version 1–3 byte för byte och skapa version 4. Låt
+  varje trädruta visa namn, kända födelse-/dödsår och en relevant ort; flytta
+  person-ID och evidenskommentarer ur träden. Ersätt den partiella
+  persondelen med en komplett katalog i trädordning över samtliga 62 personer,
+  två per sida, där varje post anger person-ID, trädposition, år, ort, kända
+  föräldrar, partner och barn med namn och person-ID samt en källstyrd
+  sammanställning med läsbara C-referenser. Redovisa okänt som okänt och
+  propagera inga `LEAD`-, `CONFLICT`-, `REJECTED`- eller `UNKNOWN`-relationer.
+- Owner decision required: none; ägaren har uttryckligen angett både innehåll,
+  presentationsprincip och att den längre personkatalogen får ta flera sidor.
+- Evidence:
+  - Ägarens utvärdering och precisering 2026-09-04
+  - `output/pdf/adam-och-axel-janson-fem-generationer-v3.pdf`
+  - `scripts/build-family-edition-v3.py`
+  - `genealogy/editions/adam-axel-depth5-v2.json`
+  - `dashboard/public/data/project.json`
+- Uncertainty: Katalogen måste vara fullständig som presentationslager utan
+  att försöka återge varje rad i de fullständiga personakterna; urvalet per
+  person ska därför täcka identitet, livstid, geografi, familj och de mest
+  relevanta kända livsuppgifterna med spårbara källor.
+- Revisit when:
+  - Version 4 har renderats och alla träd- och katalogsidor har granskats
+  - Ägaren vill ha full akttext snarare än en redaktionellt sammanställd katalog
+  - En materiell genealogisk konflikt upptäcks
+
+## PCD-2026-09-04-005
+
+- Record type: decision
+- Date: 2026-09-04
+- Decides review: `PCR-2026-09-04-005`
+- Owner: Sverker Adam Janson
+- Decision: Genomför version 4 enligt rekommendationen. Träden ska prioritera
+  namn, kända levnadsår och relevant ort framför interna ID:n och
+  statuskommentarer. Lägg till en komplett, välformaterad och källstyrd katalog
+  över alla personer i träden, med person-ID samt namngivna referenser till
+  föräldrar, partner och barn. Katalogen får använda det antal sidor som den
+  intressanta informationen behöver.
+- Disposition: approved
+- Supersedes decision: `PCD-2026-09-04-004` endast beträffande version 3 som
+  aktuell bruksversion; dess avskalade formprincip och kravet att äldre
+  versioner bevaras består.
+- Related records: `PCR-2026-09-04-005`, `PCD-2026-09-04-004`,
+  `wotan/dev-log/T-0031.md`
+- Resulting Wotan tasks: `T-0032`; `T-0013` återgår till `READY` tills
+  mellanavstampets version 4 är verifierad.
+- Portfolio signal: Version 4 är aktiv revisionsprioritet; den pågående
+  djup-6-skivan väntar med sitt redan insamlade källunderlag bevarat.
+- Revisit when:
+  - `T-0032` är visuellt, strukturellt och genealogiskt verifierad
+  - En materiell innehållskonflikt upptäcks
+
+## PCR-2026-09-04-006
+
+- Record type: review
+- Date: 2026-09-04
+- Mode: checkpoint
+- Trigger: `T-0013` har verifierat den första balanserade djup-6-skivan och
+  Wotan-kön är tom; enligt styrregeln ska nästa ändliga skiva väljas ur
+  det nya måttläget.
+- Control judgement: continue, operate, preserve
+- Current gate: Djup 6 är närmaste obehandlade generation. Av 64 positioner
+  är 55 kända och nio stängda, men endast åtta kända personer är
+  granskade och källbreddsklara; 31 anspetsar till och med djup 6 saknar
+  giltig arkivfront.
+- Recommendation: Fortsätt med en andra balanserad M-skiva om fyra
+  frontpersoner per sida. Behandla P-0145, P-0214, P-0289 och P-0290 på
+  Sverkers sida samt P-0350, P-0351, P-0360 och P-0361 på Kristinas sida.
+  Ge varje person verifierade föräldrar eller en reproducerbar giltig
+  slutstatus, konsolidera akterna och stäng berörda källtäckningsceller.
+  Registrera men forska inte vidare på nya djup-7-personer.
+- Owner decision required: none; valet följer den godkända styrregeln och
+  ligger inom Project Controls operativa mandat i `PCD-2026-09-04-002`.
+- Evidence:
+  - `NORTH-STAR.md`
+  - `PCD-2026-09-04-003`
+  - `wotan/dev-log/T-0013.md`
+  - `wotan/README.md`
+  - `node scripts/goal-state.mjs`
+- Uncertainty: En eller flera av de åtta fronterna kan sluta i en exakt
+  klassificerad arkivfront i stället för nya föräldrar; det är ett fullgott
+  utfall om relevanta lagliga nätvägar har prövats och återstartvillkoret är
+  konkret.
+- Revisit when:
+  - Den andra djup-6-skivan är verifierad
+  - En bärande identitet eller relation blir materiellt osäker
+  - En extern åtkomstgräns kräver ett nytt strategiskt vägval
+
+## PCD-2026-09-04-006
+
+- Record type: decision
+- Date: 2026-09-04
+- Decides review: `PCR-2026-09-04-006`
+- Owner: Sverker Adam Janson; operativt mandat utövat genom Project Control
+  enligt `PCD-2026-09-04-002`
+- Decision: Fortsätt djup-6-programmet med den rekommenderade andra
+  balanserade skivan om åtta personer. Skapa en enda ändlig Wotan-uppgift
+  och välj inte därefter följande skiva förrän måttläget har verifierats på
+  nytt.
+- Disposition: approved
+- Supersedes decision: none; verkställer den kontinuerliga riktningen i
+  `PCD-2026-09-04-003` för nästa beräknade skiva.
+- Related records: `PCR-2026-09-04-006`, `wotan/dev-log/T-0013.md`,
+  `wotan/README.md`
+- Resulting Wotan tasks: `T-0033`
+- Portfolio signal: Projektet är aktivt och begär fortsatt
+  forskningsuppmärksamhet för en avgränsad balanserad djup-6-skiva.
+- Revisit when:
+  - `T-0033` är verifierad och nästa skiva ska väljas
+  - En ny ägargrind eller extern åtkomstgräns uppstår
+
+## PCD-2026-09-04-007
+
+- Record type: decision
+- Date: 2026-09-04
+- Decides review: direkt ägarinstruktion; ingen separat PCR
+- Owner: Sverker Adam Janson
+- Decision: Ändra GitHub-repot `rekrevs/slaktforsk` från privat till
+  publikt och publicera det aktuella verifierade arbetsläget genom en
+  mellan-commit och push. Beslutet omfattar Git-historiken, Git LFS-medierna
+  och den integritetsminimerade familjeinformation som redan bevaras i repot.
+- Disposition: approved
+- Supersedes decision: den privata synligheten i T-0017 och dess
+  bakomliggande ägarbeslut; Git LFS-, proveniens- och integritetsreglerna
+  består.
+- Related records: `wotan/dev-log/T-0017.md`, `MEDIA-PRESERVATION.md`,
+  `PCD-2026-09-04-006`
+- Resulting Wotan tasks: none; åtgärden utförs direkt och T-0033 förblir
+  den aktiva forskningsuppgiften.
+- Portfolio signal: Projektets källarkiv och fortsatta arbete är publikt på
+  GitHub och förblir aktivt.
+- Revisit when:
+  - En konkret integritets- eller licenskonflikt upptäcks
+  - Ägaren vill återgå till privat synlighet eller publicera material genom
+    en annan kanal

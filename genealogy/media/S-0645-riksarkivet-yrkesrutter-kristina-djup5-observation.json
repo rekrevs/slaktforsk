@@ -1,0 +1,69 @@
+{
+  "observed_at": "2026-09-04",
+  "service": "Riksarkivet MCP search_metadata plus preserved project sources",
+  "research_context": "T-0029 occupation-triggered source routing for seven depth-5 persons on Kristina's side",
+  "exact_routes": [
+    {
+      "persons": ["P-0310"],
+      "occupation_context": "kronolänsman in Högby and Ölands norra mot",
+      "archive": "SE/VALA/02632 Kronolänsmannens i Ölands norra mots norra distrikt arkiv",
+      "date": "1869-1917",
+      "volumes": [
+        "SE/VALA/02632/C I/1, brevdiarium 1871-1890",
+        "SE/VALA/02632/C I/2, brevdiarium 1890-1901",
+        "SE/VALA/02632/C II/1, dagbok i utsökningsmål 1869-1888",
+        "SE/VALA/02632/C II/2, dagbok i utsökningsmål 1889-1917",
+        "SE/VALA/02632/E I/1, inkomna skrivelser 1887-1892",
+        "SE/VALA/02632/E I/2, inkomna skrivelser 1893-1895",
+        "SE/VALA/02632/E I/3, inkomna skrivelser 1896-1897",
+        "SE/VALA/02632/E I/4, inkomna skrivelser 1899-1901",
+        "SE/VALA/02632/F/1, ämnesordnade handlingar 1878-1916"
+      ],
+      "scope_note": "The office and period match the documented occupation and district, but no Carlman entry or handwriting attribution was read."
+    },
+    {
+      "persons": ["P-0338"],
+      "occupation_context": "torpare in Lagfors",
+      "archive": "SE/HLA/3010533, older designation C:394",
+      "volume": "volume 2, scattered mantal/tax lists 1846-1878 and assessment lists 1862-1876",
+      "preserved_source": "C-0710/S-0546",
+      "scope_note": "Selective private collection with an exact Lagfors route; no Henrik row or landholding fact was read."
+    }
+  ],
+  "conditional_routes": [
+    {
+      "persons": ["P-0250"],
+      "occupation_context": "hemmansägare and former hemmansägare in Gårdtjern/Storbränna",
+      "condition": "Resume land, deed or property sources only if the exact Sättna mantal/tax route identifies a farm, property or tax-unit key."
+    },
+    {
+      "persons": ["P-0271"],
+      "occupation_context": "torpare in Högsjö",
+      "condition": "Resume croft/landholder sources only if the exact Indal tax route identifies the croft, property or landholder."
+    },
+    {
+      "persons": ["P-0276"],
+      "occupation_context": "carpenter, caretaker, lumber-yard worker and property owner in Hudiksvall/Hälsingtuna",
+      "condition": "Resume employer, workplace, deed or property sources only after an exact employer, lumber yard, property or tax-unit key is obtained from the routed tax material or another positive source."
+    },
+    {
+      "persons": ["P-0312"],
+      "occupation_context": "hemmansägare at Gäddestad 1",
+      "condition": "Resume deed/property sources only if the exact Östkind mantal route resolves the farm or property unit beyond the village-level address."
+    },
+    {
+      "persons": ["P-0315"],
+      "occupation_context": "worker and later torpare in Sättna/Högsjö",
+      "condition": "Resume employer/croft sources only if the exact Indal tax route supplies a croft, property, landholder or employer key."
+    }
+  ],
+  "queries": [
+    {
+      "persons": ["P-0310"],
+      "queries": ["kronolänsman Ölands norra mot", "kronolänsmannen Ölands norra", "landsfiskal Högby Öland"],
+      "years": "1860-1901",
+      "result": "The second query exposed SE/VALA/02632 and exact volumes; the first and third returned no results."
+    }
+  ],
+  "scope_note": "Routes and conditions do not add an occupation, employer, property, ownership, income, duty, authorship or person occurrence. No archival original was read or ordered."
+}

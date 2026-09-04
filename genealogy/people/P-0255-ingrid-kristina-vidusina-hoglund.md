@@ -37,3 +37,8 @@ Direkt ana på Kristinas djup 3. Egen födelsenotis och Högsjöhushållet har n
 fastställt föräldrarna och öppnat P-0271–P-0272 på djup 4 från Kristina
 (djup 5 från sönerna). Vittneskolumnen och den svårlästa parentetiska
 namnformen återstår att kontrollera separat.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — egen födelse/dop, namnvarianter, båda föräldrarna, två barndomshushåll, make och barn är konsoliderade; vittneskolumnen och den svårlästa namninskjutningen är avgränsad villkorlig berikning.

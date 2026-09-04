@@ -29,3 +29,8 @@ Dotter: [P-0002 Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md).
 Föräldrar: [P-0094 Jakob Andersson](P-0094-jakob-andersson-ultervattnet.md)
 och [P-0095 Maria Christina Hansdotter](P-0095-maria-christina-hansdotter.md).
 Syskon: P-0096–P-0101.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — egen födelse, föräldrar, barndoms- och vuxenhushåll, vigsel och moderskap är konsoliderade över original och folkräkningar; inga materiella identitetskonflikter återstår i akten.

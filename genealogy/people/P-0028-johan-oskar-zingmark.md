@@ -68,3 +68,8 @@ Rättelse: den tidigare kopplingen (2026-08-29) till Lundström-familjen
 Maria Elina är nu identifierad som helsyster genom C-0561–C-0562. Johanna
 Paulina 1864 och Per Alexander 1866 i Degerfors är noterade i C-0548 men
 hålls isär utan föräldraantagande.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — den avvisade Johan August-sammanslagningen är isolerad som `REJECTED`, den riktiga Botsmark–Degerfors-kedjan och båda föräldrarna är säkrade och syskonkretsen hålls evidensbunden; exakt död är villkorlig berikning.

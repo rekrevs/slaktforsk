@@ -58,3 +58,8 @@ bildlänk och återstår i inloggad session (C-0544).
 - Öppen konflikt: sonens senare födelsekällor anger 1860-02-28. Den tidigare
   datumstyrda negativa kontrollen [C-0272](../citations/C-0272-ljustorp-1860-negativ-fodelsekontroll-erik-jonas.md)
   är rättad genom [C-0330](../citations/C-0330-ljustorp-C3-erik-jonas-fodd-1860-01-23.md).
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Källbredd: `KLAR` — födelse, båda föräldrarna, Lagfors–Holm–Sättna-kedjan, vigsel, barn och dödsdatum är konsoliderade; datumvarianterna samt spärrade vigsel-/dödsoriginal är uttryckligt avgränsade konflikter och åtkomstspår.

@@ -37,7 +37,6 @@ dotterson i samma föräldrapars hushåll 1930.
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
 | [P-0003 Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) | son | 1915, Flen | CORROBORATED | C-0008, C-0007, C-0011 |
-| [P-0010 Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md) | uppgiven far till sonen Arne | ej historiskt verifierat | TRANSCRIBED | C-0029 |
 | [P-0042 Karl Fredrik Jansson](P-0042-karl-fredrik-jansson.md) | far | 1886, Lerbo | CORROBORATED | C-0014, C-0016 |
 | [P-0043 Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md) | mor | 1886, Lerbo | CORROBORATED | C-0014, C-0016 |
 | [P-0044 Sven Edvin Severus Jansson](P-0044-sven-edvin-severus-jansson.md) | bror | 1890/1900 | CORROBORATED | C-0012, C-0013 |
@@ -62,3 +61,8 @@ med båda föräldrarna och tre bröder. Dopvittnena är detaljavlästa och beva
 som P-0108–P-0109. Därmed är T-0007:s grundkontroll för Ada sluten; hennes
 föräldrar P-0042–P-0043 förs vidare som kandidater till nästa generationsvåg,
 medan hennes senare liv ligger kvar som en egen öppen forskningsfråga.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — egen födelse, föräldrar, barndomshushåll, Ökna-kedja och moderskap är sammanhållna; senare äktenskaps-, döds- och yrkesspår förblir uttryckliga villkorliga forskningsfrågor.

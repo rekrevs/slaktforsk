@@ -25,6 +25,8 @@ hustru och senare änka i Anders Gustaf Höks hushåll i Håsta och Hudiksvall.
 | A-2657 | Anna Greta Hök, född Hillberg, dog 1937-06-14. | TRANSCRIBED | hög | [C-0663](../citations/C-0663-hudiksvall-FI5-anna-greta-hok-dod-1937.md) | Hudiksvalls egen död- och begravningsbok, sida 51 post 65. |
 | A-2658 | Dödsorsaken skrevs `Marasmus senilis + Bronchit. ac.` | TRANSCRIBED | hög | [C-0663](../citations/C-0663-hudiksvall-FI5-anna-greta-hok-dod-1937.md) | Källtroget latin; försiktigt normaliserat som ålderdomssvaghet/åldersavmagring och akut bronkit. |
 | A-2659 | Dödboken identifierar henne som änka efter gårdsägaren Anders Gustaf Hök och upprepar födelsedatumet 1857-06-09. | CORROBORATED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md), [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0663](../citations/C-0663-hudiksvall-FI5-anna-greta-hok-dod-1937.md) | Namn, födelsenamn, datum och make binder dödsposten entydigt till samma person. |
+| A-3161 | Hudiksvalls rådhusrätts och magistrats F II/27, 1936–1940, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
+| A-3175 | Hudiksvalls fögderis F I a och F III a är exakta analoga mantals- och inkomsttaxeringsserier över Anna Gretas säkra vuxenperiod 1918–1937. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Ingen personrad, inkomst eller skatt är läst. |
 
 ## Relationer
 
@@ -63,4 +65,11 @@ begravningsdag är inte säkert avläst.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-241--t-0027-konsolidering-av-p-0276p-0311)
+- Källbredd 2026-09-04: bouppteckning `B = S` via Hudiksvalls stads
+  F II/27, 1936–1940; endast katalogmetadata är läst (C-0827; Batch 252).
+- Källbredd 2026-09-04: flytt `M = 2`. Födelse i Hälsingtuna och senare
+  Hudiksvallsliv är säkra, men den personbundna övergången saknar ännu
+  flytt-, år- eller hushållsnyckel (C-0354/C-0410–C-0411; Batch 253).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Hudiksvalls fögderis analoga mantals- och inkomsttaxeringsserier (C-0828; Batch 254).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

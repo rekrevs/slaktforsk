@@ -23,6 +23,8 @@
 | A-2525 | Abraham var son till Jöns Abrahamsson i Hullsjön. | CORROBORATED | hög | [C-0333](../citations/C-0333-stode-C2-abraham-fodd-1840-02-22.md), [C-0590](../citations/C-0590-stode-AI8-hullsjo-abraham-foraldrahushall.md) | Egen födelsenotis och senare föräldrahushåll förenar namn, ort och exakt födelsedag. |
 | A-2526 | Abraham var son till Brita Jonsdotter i Hullsjön. | CORROBORATED | hög | [C-0333](../citations/C-0333-stode-C2-abraham-fodd-1840-02-22.md), [C-0590](../citations/C-0590-stode-AI8-hullsjo-abraham-foraldrahushall.md) | Egen födelsenotis och senare föräldrahushåll förenar namn, ort och exakt födelsedag. |
 | A-2531 | Stöde A I/9:s hela Hullsjöavsnitt, sidorna 92–93, saknar en säker fortsättning för Jöns–Brita–Abraham-familjen. | NEGATIVE | hög | [C-0591](../citations/C-0591-stode-AI9-hullsjo-familj-negativ-kontroll.md) | Orts- och volymintervallsnoll; annan Stödeort eller flyttmål utesluts inte. |
+| A-3170 | Medelpads västra fögderis mantals- och taxeringsvolymer ger exakta analoga vägar över Abrahams säkra vuxenperiod i Sättna. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Ingen personrad, skatt, fastighet, inkomst, närvaro eller frånvaro är läst. |
+| A-3185 | Abrahams jord-/fastighetsspår blir avslutande först om Sättnas exakta mantalsrutt ger en gårds-, fastighets- eller skattenhetsnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, lagfarts-, arkiv- eller personnoll. |
 
 ## Relationer
 
@@ -66,4 +68,12 @@ inloggning, och döden via en ny positiv död- eller begravningskälla.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-240--t-0027-konsolidering-av-p-0250p-0272)
+- Källbredd 2026-09-04: bouppteckning `B = S`. Den exakta analoga rutten
+  Medelpads västra domsaga F II a/9 (1922, AID v510406) är bevarad i
+  C-0528/C-0753, medan den exakta personsökningen gav noll i ett
+  ofullständigt register. Ingen akt har lästs; spärren får inte tolkas som
+  att bouppteckning saknades (research-log/2026-09-04.md#batch-251--t-0029-bouppteckningspass-inlett).
+- Källbredd 2026-09-04: skatt/mantal `T = S` via Medelpads västra fögderis exakta analoga Sättnavolymer (C-0828; Batch 254).
+- Källbredd 2026-09-04: yrkesutlöst jord-/fastighetsspår `O = 2`, villkorat av en gårds-, fastighets- eller skattenhetsnyckel från mantalsrouten (C-0829; Batch 255).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

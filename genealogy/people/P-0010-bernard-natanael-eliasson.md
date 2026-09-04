@@ -14,7 +14,7 @@ evidenslinjerna hålls åtskilda.
 |---|---|---|---|---|---|
 | A-0073 | Namnet var Bernhard Natanael Eliasson; Bernard och Eliaesson förekommer sekundärt. | CORROBORATED | hög | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0024](../citations/C-0024-bernhard-folkrakning-1890.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) | Historiska källor stöder Bernhard och Eliasson. |
 | A-0074 | Han föddes 1886-04-19. | CORROBORATED | hög | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) | Samtida utdrag och sekundärträd överensstämmer. |
-| A-0075 | Han var Arne Godvig Janssons far. | CORROBORATED | hög | [C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md), [C-0029](../citations/C-0029-anvandarens-uppgift-bernhard-far.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md) | Namngiven familjeuppgift med tre angivna grunder: privat erkännande, ekonomiskt understöd i vuxen ålder och fotografisk likhet. Samtida handling som namnger honom saknas fortfarande; se A-0471. |
+| A-0075 | Han var Arne Godvig Janssons far. | OWNER_CONFIRMED | hög | [PCD-2026-08-20-001](../../PROJECT-CONTROL.md#pcd-2026-08-20-001), [C-0086](../citations/C-0086-arne-faderskap-familjeuppgift-2026-08-20.md), [C-0029](../citations/C-0029-anvandarens-uppgift-bernhard-far.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md) | Projektägaren har fastställt faderskapet som sann projektinformation; avsaknaden av samtida namngivande handling bevaras separat i A-0471. |
 | A-0077 | MyHeritage anger namnformen Bernhard Natanael Eliaesson. | CORROBORATED | medel | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) | Förnamnet bekräftas; historiska källor föredrar efternamnet Eliasson. |
 | A-0078 | Han föddes i Värsåsområdet och växte upp på Djursätra Västergården. | CORROBORATED | hög | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md), [C-0024](../citations/C-0024-bernhard-folkrakning-1890.md), [C-0025](../citations/C-0025-bernhard-folkrakning-1900.md) | 1890 anger Kyrkefalla som födelseförsamling; 1900/1910 anger Värsås. |
 | A-0079 | Han uppges ha gift sig 1923-11-11 med Katy Leonie Nilsson. | TRANSCRIBED | medel | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) | Folkräkningen bekräftar maka och vigselår, inte dag och månad. |
@@ -46,13 +46,13 @@ evidenslinjerna hålls åtskilda.
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0011 KATY Leonie Nilssoon](P-0011-katy-leonie-nilssoon.md) | hustru | LEAD | C-0018 |
+| [P-0011 KATY Leonie Nilssoon](P-0011-katy-leonie-nilssoon.md) | hustru | CORROBORATED | C-0027, C-0018 |
 | [P-0012 Lucy Gudrun Eliaesson](P-0012-lucy-gudrun-eliaesson.md) | dotter | OWNER_CONFIRMED | PCD-2026-09-03-005, C-0819 |
 | [P-0013 Ann-Catherine (Anki) Jonasson](P-0013-privat-dotter-eliaesson.md) | dotter | OWNER_CONFIRMED | PCD-2026-09-03-005, C-0819, C-0263 |
 | [P-0014 Maj-Grete Karlsson](P-0014-maj-grete-karlsson.md) | dotter | OWNER_CONFIRMED | PCD-2026-09-03-005, C-0819 |
 | [P-0020 Per Wilhelm Eliasson](P-0020-per-wilhelm-eliasson.md) | far | CORROBORATED | C-0023–C-0026 |
 | [P-0021 Augusta Viktoria Johansson](P-0021-augusta-viktoria-johansson.md) | mor | CORROBORATED | C-0023–C-0026 |
-| [P-0003 Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) | son utom äktenskapet | CORROBORATED | C-0086, C-0029 |
+| [P-0003 Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) | son utom äktenskapet | OWNER_CONFIRMED | PCD-2026-08-20-001, C-0086, C-0029 |
 | [P-0027 Alva Viktoria Eliasson](P-0027-alma-viktoria-eliasson.md) | yngsta syster | CORROBORATED | C-0026, C-0263, C-0417 |
 
 ## Forskningsfrågor
@@ -65,3 +65,8 @@ evidenslinjerna hålls åtskilda.
 - Pröva familjeuppgiftens exakta tjänsteperiod 1911–1916 i Öknas fortsatta
   församlingsbokssidor, flyttlängder och eventuella gårds- eller
   arbetsgivararkiv.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Källbredd: `KLAR` — egen identitet, födelse, föräldrahushåll, vuxenhushåll och ägarfastställt faderskap är åtskilda och konsoliderade; död, Ökna-tjänst och exakt vigsel är dokumenterade villkorliga berikningsspår.

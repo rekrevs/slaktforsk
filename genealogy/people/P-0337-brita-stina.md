@@ -40,6 +40,8 @@ fastighets- och adresskontext.
 | A-2633 | Dödsorsaken var `Lungsot` och hon begravdes 1886-10-07. | TRANSCRIBED | mycket hög | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md) | Samtida död- och begravningsbok. |
 | A-2634 | Dödpostens hemvist står i den korta formen `37 D`; dödsortsfältet är tomt. | TRANSCRIBED | hög | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md) | Ingen gata eller dödsort fylls ut genom inferens i kyrkobokspåståendet. |
 | A-2635 | Rotemansposten 1885–1886 placerar henne med make och fyra barn i fastigheten Jordgubben 1–5, littera D 1, med bland annat Fleminggatan 35–37 som adressfält, och avslutar henne som död 1886-10-01. | CORROBORATED | hög | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md), [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) | De parallella gatunamnen i posten är inte separata flyttar; avskriften ger kontext till originalets `37 D`. |
+| A-3169 | Tre riktade Riksarkivet-frågor för Stockholms rådhusrätts bouppteckningar och Kungsholm 1886 identifierade ingen relevant serie eller volym. | NEGATIVE | hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Katalog- och frågebundet noll; ingen aktfrånvaro infereras. |
+| A-3182 | Brita Stinas skattefamilj är villkorad av läsning av maken Olaus Fredbergs exakta mantalsuppgift 1877, Kungsholmen nr 1217, eftersom det offentliga registret utelämnar kvinnor. | LEAD | hög | [C-0649](../citations/C-0649-kungsholm-15-kungsholmsgatan-och-mantalsvag.md), [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Exakt hushållsväg, inte en positiv Brita Stina-post eller ett registernoll för henne. |
 
 ## Relationer
 
@@ -62,4 +64,9 @@ fastighets- och adresskontext.
 
 ## Arbetsläge
 
-- Konsolidering: `EJ GRANSKAD`
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-243--t-0027-konsolidering-av-p-0336p-0339)
+- Källbredd 2026-09-04: bouppteckning `B = N`; endast de tre dokumenterade
+  Stockholm/Kungsholm-frågorna är avgränsade, inte en möjlig akt
+  (C-0827; Batch 252).
+- Källbredd 2026-09-04: skatt/mantal `T = 2`, villkorad av läsning av makens exakta mantalsuppgift 1877 nr 1217 eftersom det offentliga registret utelämnar kvinnor (C-0649/C-0828; Batch 254).
+- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).
