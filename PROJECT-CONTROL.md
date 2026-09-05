@@ -2477,3 +2477,24 @@ tidigare versioner finns i Git och tidigare bevarad forskningshistorik.
 - Resulting Wotan tasks: none; T-0063 är fortsatt nästa READY.
 - Revisit when: Ny uttrycklig dashboardbeställning; endast ändrat ägarbeslut
   ersätter regeln om att uppdateringar kräver uttrycklig begäran.
+
+## PCD-2026-09-05-015
+
+- Record type: decision
+- Date: 2026-09-05
+- Decides review: direkt ägarinstruktion efter automatisk avvisning av push
+- Owner: Sverker Adam Janson
+- Evidence supplied by owner: ”jag godkänner”, efter uttrycklig information om
+  att granskningen krävde godkännande av hela commiten inklusive minimerade
+  uppgifter om levande personer till det publika GitHub-repot.
+- Decision: Godkänn push av hela det committade projektläget, inklusive
+  minimerade uppgifter om levande personer och källmedier via Git LFS, till
+  publika `rekrevs/slaktforsk`, befintlig origin/main. Innehållscommit c499b54
+  och tillhörande bevarande-/auktorisationsanteckningar omfattas.
+- Disposition: approved
+- Related records: PCD-2026-09-04-007, PCD-2026-09-05-014, T-0062
+- Resulting Wotan tasks: none; slutför den redan beställda versionssäkringen.
+- Preserved constraints: Dashboarden uppdateras fortsatt endast på separat
+  uttrycklig begäran. Ingen dashboard-deploy eller ny forskningskörning beställs.
+- Revisit when: Payload eller destination ändras materiellt eller ägaren
+  ändrar publiceringsbeslutet.
