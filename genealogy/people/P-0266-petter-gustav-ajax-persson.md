@@ -26,6 +26,7 @@ uppgifter.
 | A-1878 | Barnens födelsenotiser skriver honom rumormästare 1823 och 1830. | CORROBORATED | hög | [C-0301](../citations/C-0301-and-gustaf-ajax-fodd-vastra-ny-1823.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Yrket är belagt i både samtidiga födelsenotiser och senare hushållslängd. |
 | A-1879 | Carolinas födelsenotis 1826 skriver honom `BrunnsDräng.` vid Medevi Brunn. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | Samtida yrkesform mellan rumormästarbeläggen. |
 | A-1880 | Anna Josephinas födelsenotis 1828 skriver honom `Skom.` vid Medevi Brunn. | CORROBORATED | hög | [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Skomakaryrket återkommer i A I/8. |
+| A-3255 | Motala C/3:s hela födelseår 1791 innehåller en Peter Magnus, född 12 april till Peter Sandström och Ingrid Carlsdotter i Herrqvarnen, som en förenlig men olöst kandidat till Peter Peterson Ajax. | LEAD | medel | [C-0862](../citations/C-0862-motala-C3-peter-1791-kontroll.md) | Förnamn, patronymisk möjlighet, år och socken är förenliga, men ingen källa binder barnet till Stordalen 1817; kandidatföräldrarna får inte propageras. |
 
 ## Relationer
 
@@ -41,11 +42,21 @@ uppgifter.
 | [P-0327 Carl Johan Ajax](P-0327-carl-johan-petter-ajax.md) | son | CORROBORATED | C-0296, C-0299 |
 | [P-0328 Anna Josephina Ajax](P-0328-anna-josephina-ajax.md) | dotter | CORROBORATED | C-0296, C-0303 |
 
-## Forskningsfrågor
+## Slutstatus
 
-- Säkra exakt födelsedag, vigsel och egna föräldrar. Kedjan Stordalen i
-  Hammar A I/3 b → Medevi Brunn i Västra Ny A I/6 är nu originalbelagd med
-  inflyttningsåret 1822.
-- Pröva den sekundära formen `Petter Gustav Ajax Persson` och levnadsåren
-  1791–1854 endast genom sammanhängande original. Födelseår och Motala är nu
-  originalbelagda, men dödsåret återstår.
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: en personbunden hushålls-, flytt-, vigsel-, yrkes- eller
+  dödskedja från Stordalen bakåt till ett föräldrahem i Motala.
+- Genomsökt: den säkra Stordalen–Medevi-kedjan samt hela Motala C/3:s
+  födelseår 1791, C-0289–C-0297/C-0862.
+- Negativ kontroll: [C-0862](../citations/C-0862-motala-C3-peter-1791-kontroll.md) ger en enda förnamnskandidat, Peter Magnus den
+  12 april, men inget Ajax-led eller någon mellanlänk till den vuxne mannen.
+- Återaktivering: en positiv källa som förenar Stordalenpersonen med
+  Herrqvarnen eller ett annat bestämt föräldrahem. Namn-, år- och
+  patronymikonlikhet räcker inte.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0044)
+- Källbredd: `KLAR` — hela målårgången är prövad och kandidatspåret är
+  explicit spärrat från propagation.

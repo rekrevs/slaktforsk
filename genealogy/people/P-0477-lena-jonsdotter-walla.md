@@ -25,10 +25,20 @@ djup 6.
 | [P-0475 Johanna Jansdotter](P-0475-johanna-jansdotter-grill.md) | dotter | CORROBORATED | C-0721, C-0731 |
 | [P-0476 Jan Ericson](P-0476-jan-ericson-walla.md) | make i Walla-hushållet | CORROBORATED | C-0721, C-0731 |
 
-## Forskningsstatus
+## Slutstatus
 
-- Status: `NY DJUP-6-SPETS — MODERSKAP SÄKRAT; EGEN FÖDELSEPOST SANNOLIK MEN INTE SLUTEN`
-- Nästa väg: följ Lena/Helena genom Walla-hushållen och sök en uttrycklig
-  flytt-, vigsel- eller hushållsbrygga till födelseposten 1785. Skapa inte
-  Jonas Ersson eller Cajsa Persdotter som föräldrar innan identiteten är
-  säkrad.
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: en uttrycklig Walla-hushålls-, vigsel- eller flyttbrygga
+  mellan Lena Jonsdotter och Helena född 1785-10-31.
+- Genomsökt: dotterns födelse, Walla-familjehushållet och den exakta
+  Stora Malm-födelsekandidaten, C-0721/C-0731.
+- Negativ kontroll: [C-0731](../citations/C-0731-stora-malm-bjorkvik-jan-lena-ursprung.md) visar att datum, by och patronymikon sammanfaller men saknar en uttrycklig Helena/Lena-brygga.
+- Återaktivering: en positiv hushålls-, vigsel- eller flyttkälla som förenar
+  de två profilerna. Skapa inte Jonas Ersson och Cajsa Persdotter som
+  föräldrar från kandidatlikheten ensam.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0045)
+- Källbredd: `KLAR` — kandidatposten är exakt bevarad och spärrad från
+  propagation tills en personbrygga finns.

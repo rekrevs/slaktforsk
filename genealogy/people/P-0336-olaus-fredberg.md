@@ -362,6 +362,10 @@ katalogbelägg och lämnar födelsedatum och föräldrar olösta.
 | A-2621 | Stockholms stadsarkivs Hovförsamlingsregister A–K 1835–1890 och Sabbatsbergsregister A–L för husförhör 1789–1868 samt in-/utflyttning 1830–1927 saknar Olaus Fredberg/Fredriksson; Fredberg saknas som uppslagsord och de visuellt lästa Fredriksson-avsnitten innehåller andra personer. | TRANSCRIBED | hög | [C-0647](../citations/C-0647-stockholms-register-hov-sabbatsberg-negativ.md) | Två register-, bok-, period- och namnformsbundna noll; inte vistelse-, församlings- eller Stockholmsnoll. |
 | A-2622 | Stockholms mantalsregister år 1876 ger noll för de fyra exakta namnparen Olaus/Olof × Fredberg/Fredriksson. | TRANSCRIBED | hög | [C-0648](../citations/C-0648-stockholms-mantalsregister-1876-negativ-1877-kontroll.md) | Års-, register- och namnformsbundet noll; inte Stockholm-, vistelse- eller personnoll. |
 | A-2623 | Stockholms mantalsregister år 1877 återfinner Olaus Fredberg som stationskarl i Kungsholmen, mantalsskrivningsnummer 1217. | CORROBORATED | hög | [C-0648](../citations/C-0648-stockholms-mantalsregister-1876-negativ-1877-kontroll.md), [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md), [C-0383](../citations/C-0383-kungsholm-BI16-olaus-fredberg-1876.md) | Positiv närkontroll och nytt yrkes-/församlingsankare; underliggande mantalslängd är inte läst. |
+| A-3259 | Mantalslängden för Kungsholmen 1877 upptar stationskarlen Olaus Fredberg med nummer å mantalsuppgiften 1217, stort löpnummer 3553, och en man i målposten. | TRANSCRIBED | hög | [C-0866](../citations/C-0866-olaus-mantalslangd-1877.md) | Originalet kompletterar registerträffen C-0648; inga ytterligare hushållsmedlemmar upptas i just denna post. |
+| A-3260 | Samma mantalsrad anger födelseåret 53, dvs. 1853. | CONFLICT | hög | [C-0866](../citations/C-0866-olaus-mantalslangd-1877.md) | Avvikelse mot den kyrkoboksbundna 1852-kedjan; mantalsåret ersätter inte den kanoniska födelseuppgiften och utlöser ingen automatisk ny födelsesökning. |
+| A-3261 | Mantalsradens kolumn för uppskattad inkomst av tjänstebefattning eller pension anger 670. | TRANSCRIBED | hög | [C-0866](../citations/C-0866-olaus-mantalslangd-1877.md) | Taxerad inkomstuppgift, inte en full löne- eller anställningshandling. |
+
 | A-2624 | Kungsholm B I/16 anger Olaus hemvist den 14 juni 1876 som 15 Kungsholmsgatan. | TRANSCRIBED | mycket hög | [C-0649](../citations/C-0649-kungsholm-15-kungsholmsgatan-och-mantalsvag.md), [C-0383](../citations/C-0383-kungsholm-BI16-olaus-fredberg-1876.md) | Maximalbildsrättelse av den äldre preliminära läsningen `15 Upplandsgat.`; `M:a` i föregående-församlingsfältet förblir olöst. |
 | A-2625 | Kungsholms katalogiserade A I a-serie slutar 1870 och A I b täcker bara 1785–1787 samt 1806; de ger ingen invånarlängd för adressåret 1876. | TRANSCRIBED | hög | [C-0649](../citations/C-0649-kungsholm-15-kungsholmsgatan-och-mantalsvag.md) | Serie-/periodhinder, inte person-, adress- eller församlingsnoll. |
 | A-2626 | En namnfri fråga på 1877, Kungsholmen och mantalsskrivningsnummer 1217 ger endast Olaus i registret; Stadsarkivets instruktion anger att kvinnor saknas och att numret används för att beställa mantalsuppgiften till läsesalen. | LEAD | hög | [C-0649](../citations/C-0649-kungsholm-15-kungsholmsgatan-och-mantalsvag.md) | Exakt återstart till originalet; varken hushållsnoll eller läst mantalsuppgift. |
@@ -638,10 +642,41 @@ katalogbelägg och lämnar födelsedatum och föräldrar olösta.
 - Kandidatgräns: Anna Brita Olofsdotter och hennes dokumenterade make Fredric Jacobson är endast en riktad `LEAD`-hypotes. Johan Augusts samtidiga födelsenotis namnger i stället Olo Andersson som far, och inget läst belägg visar om Johan August och Olaus var hel- eller halvbröder; ingen av de tre får därför föras över som Olaus förälder.
 - Återaktivera när: H II/5, H V/1–2, landskontorets volymer 551–554 eller någon av de exakt routade militär-/SJ-volymerna får läsbar fjärrbild eller annan laglig distansåtkomst; när ägaren uttryckligen godkänner beställning eller läsesalsåtgärd; eller när en ny positiv attest-, gårds-, sida-, hushålls-, flytt-, förbands- eller personalaktsnyckel framkommer som inte redan är avgränsad i akten.
 
+## Revisionsbedömning 2026-09-05
+
+De specifika analoga attest-, militär- och SJ-hindren består. C-0648 ger emellertid en exakt ännu oläst mantalsuppgift: Kungsholmen 1877 nr 1217. Volym-/bildrouten ska prövas innan den vägen kan avgränsas. C-0770:s Bjärke F II a/9 bilder 209–325 är redan visuellt granskade och ska inte återtas som olästa.
+
+Slutstatusen ovan beskriver kunskapsläge eller de namngivna källvägarnas
+hinder; den utgör inte ett sakligt avslut av hela föräldrafrågan.
+Fortsatt beslutat arbete: [T-0051](../../wotan/dev-log/T-0051.md).
+Motivering, sökomfång, leverantörsgränser och livsbildsluckor finns i
+[batch 272](../research-log/2026-09-05.md#batch-272--t-0048-sakrevision-av-fyra-foraldrafronter-pa-djup-5). Äldre daterade arbetsnoter nedan är historik
+där de kräver att en ny nyckel ska inväntas; denna bedömning gäller före dem.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-243--t-0027-konsolidering-av-p-0336p-0339)
 - Källbredd 2026-09-04: bouppteckning `B = S` via den exakta analoga
   förteckningen C 2 b/1, 1916–1932, och serien F 2 a (C-0827; Batch 252).
 - Källbredd 2026-09-04: skatt/mantal `T = ✓` genom den redan bevarade positiva mantalsregisterposten 1877, Kungsholmen nr 1217; Sollentunas analoga följd är en separat framtida rutt (C-0648/C-0828; Batch 254).
-- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).
+- Källbredd: fortsatt prövning krävs 2026-09-05; se revisionsbedömningen ovan.
+
+## Originalkomplettering 2026-09-05, T-0051
+
+Mantalslängden 1877 är nu läst i original för den exakta målposten,
+A0057750 bild 86, G 1 BA:76/35. Den anger stationskarl, mantalsuppgift
+1217 och uppskattad tjänste-/pensionsinkomst 670. Födelseår 53 tillför
+en källkonflikt mot 1852, utan att lösa något av de två äldre datumen.
+En man är upptagen i posten. Det finns ingen säker avläst förälder,
+födelseort eller flyttbrygga till januari–juni 1876. Rubrik och två
+förkortade noteringar är fortfarande osäkert tydda och ska inte göras
+till en ny fastighets-, militär- eller personalaktsnyckel.
+
+Den separata självdeklarationen är routad till G 1 BB:44/20, Kungsholmen
+1–1336. Riksarkivets metadata anger analog instansiering; den vanliga
+katalogen visar ALTCHA, orörd. Stadsarkivets särskilda bilddatabas anger
+1835, 1845, 1860 och 1870 och ger alltså ingen 1877-originalväg.
+T-0051 förblir ofullbordad tills den separata uppgiften eller en
+verifierad motsvarande kopia kan läsas. C-0866 beskriver säker läsning
+respektive kvarvarande osäkerhet. Äldre text om att mantalslängden är
+oläst avser läget före denna komplettering.

@@ -48,3 +48,7 @@ och [de rensade observationerna](../media/S-0595-riksarkivet-pitea-fodelseregist
 ## Stödda påståenden
 
 A-2977–A-2979.
+
+## Rättelse och positiv uppföljning 2026-09-05
+
+[C-0867](C-0867-porsnas-familj-identifierad.md) identifierar familjen på A I/9a sida213 och båda barnen i födelseboken. Dödsdagen är23 mars, inte30 mars; sidor181–207 var inte hela Porsnäs. Porsnäsmannen avvisas mot Olaus1784 genom dödsåldern. Äldre observationer ovan bevaras som historik.

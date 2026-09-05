@@ -1,5 +1,8 @@
 #!/usr/bin/env node
 
+// Kör endast efter ägarens uttryckliga beställning om dashboarduppdatering
+// (PCD-2026-09-05-014); detta är inte en rutinmässig forsknings-/commitkontroll.
+
 import { mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { buildParentMap, deriveDepths } from "./lib/genealogy-relations.mjs";
@@ -164,8 +167,7 @@ logEntries.sort((a, b) => a.date === b.date ? b.batch - a.batch : b.date.localeC
 
 const backlog = JSON.parse(readFileSync(join(root, "wotan", "backlog.json"), "utf8"));
 // Wotan är en ändlig kö: mellan två uppgifter finns ingen ONGOING. Visa då
-// nästa READY-uppgift vars beroenden är DONE, så att dashboarden alltid pekar
-// på det pågående eller nästa arbetet.
+// nästa READY-uppgift vars beroenden är DONE vid denna beställda uppdatering.
 const isDone = (id) => backlog.tasks.find((task) => task.id === id)?.status === "DONE";
 const activeTask =
   backlog.tasks.find((task) => task.status === "ONGOING") ??

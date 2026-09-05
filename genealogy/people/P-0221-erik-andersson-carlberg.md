@@ -24,11 +24,24 @@ Torpare i Carlberg i Årdala och far till Brita Christina Ersdotter.
 | [P-0224 Anders Eriksson](P-0224-anders-eriksson-sannerby.md) | son | CORROBORATED | C-0168, C-0172 |
 | [P-0225 Anna Stina](P-0225-anna-stina-sannerby.md) | dotter enligt hushåll | TRANSCRIBED | C-0170 |
 
-## Forskningsstatus
+## Slutstatus
 
-Direkt ana på djup 6. Vigseln, Stinas död och två familjebildningar är lösta. Hans
-uppgivna Gryt-födelse 1781-02-23 kräver en alternativ digital källa,
-ArkivDigital/FamilySearch eller arkivbeställning eftersom Gryts C/1–C/4 inte
-är digitaliserade hos Riksarkivet. Årdala C/2:s hela vigselföljd 1797–1809
-gav ingen säker första vigsel (C-0177); annan vigselförsamling och tidigare
-hushåll är fortfarande öppna vägar, inte ett avslutat släktled.
+- Status: `EJ DIGITALISERAD`
+- Förväntad källa: Gryts C/1–C/4 omkring 1781-02-23 eller en alternativ
+  originalreproduktion/personbunden tidigare hushålls- eller flyttkälla som
+  namnger Eriks föräldrar.
+- Genomsökt: Eriks två familjebildningar och sammanhängande Årdalahushåll;
+  Årdala C/2:s hela vigselföljd 1797–1809 för det första äktenskapet.
+- Negativ kontroll: [C-0177](../citations/C-0177-ardala-C2-erik-stina-vigsel-1797-1809-negativ.md)
+  saknar säker första vigsel; [C-0168](../citations/C-0168-ardala-AI6-sannerby-familj.md)
+  ger den exakta Grytprofil vars kyrkoboksvolymer inte är digitaliserade hos
+  Riksarkivet.
+- Återaktivering: laglig tillgång till Gryts C/1–C/4, alternativ
+  originalreproduktion eller ny personbunden föräldrahemsnyckel. Beställ
+  inget arkivmaterial utan aktuellt ägarmandat.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0043)
+- Källbredd: `KLAR` — vuxenidentiteten och exakt förväntad födelsekälla är
+  avgränsade; den närmaste parentbärande originalserien är odigitaliserad.

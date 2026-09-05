@@ -9,24 +9,43 @@ const genealogy = join(root, "genealogy");
 const data = JSON.parse(
   readFileSync(join(root, "dashboard", "public", "data", "project.json"), "utf8"),
 );
-const markdownCount = (dir) =>
-  readdirSync(dir).filter((name) => name.endsWith(".md")).length;
 
-const peopleFiles = readdirSync(join(genealogy, "people")).filter((name) => name.endsWith(".md"));
-const assertionCount = peopleFiles.reduce((sum, file) => {
-  const text = readFileSync(join(genealogy, "people", file), "utf8");
-  return sum + [...text.matchAll(/^\|\s*A-\d{4}\s*\|/gm)].length;
-}, 0);
-
-assert.equal(data.stats.people, peopleFiles.length, "personantalet ska följa personakterna");
-assert.equal(data.stats.assertions, assertionCount, "alla påståenderader ska tas med");
-assert.equal(data.stats.sources, markdownCount(join(genealogy, "sources")));
-assert.equal(data.stats.citations, markdownCount(join(genealogy, "citations")));
+// En beställd ögonblicksbild får ligga kvar medan forskningen fortsätter.
+assert.equal(data.stats.people, data.people.length, "personantalet ska stämma inom ögonblicksbilden");
+assert.equal(data.stats.assertions, data.people.reduce((sum, person) => sum + person.claims.length, 0), "påståenderäkningen ska stämma inom ögonblicksbilden");
 assert.equal(new Set(data.people.map((person) => person.id)).size, data.people.length, "person-id ska vara unika");
-assert.ok(data.activeWork?.id, "en aktiv eller nästa forskningsuppgift ska visas");
-assert.ok(["ONGOING", "READY"].includes(data.activeWork.status), "aktivt arbete är pågående eller nästa READY");
-assert.equal(data.progress.find((branch) => branch.id === "P-0004")?.knownAncestors, 81);
-assert.equal(data.progress.find((branch) => branch.id === "P-0210")?.knownAncestors, 63);
+if (data.activeWork) {
+  assert.ok(["ONGOING", "READY"].includes(data.activeWork.status), "sparat aktivt arbete är pågående eller nästa READY");
+}
+
+// Aktualitet kontrolleras uttryckligen efter en beställd uppdatering.
+if (process.env.GENEALOGY_DASHBOARD_CHECK_CURRENT === "1") {
+  const markdownCount = (dir) =>
+    readdirSync(dir).filter((name) => name.endsWith(".md")).length;
+
+  const peopleFiles = readdirSync(join(genealogy, "people")).filter((name) => name.endsWith(".md"));
+  const assertionCount = peopleFiles.reduce((sum, file) => {
+    const text = readFileSync(join(genealogy, "people", file), "utf8");
+    return sum + [...text.matchAll(/^\|\s*A-\d{4}\s*\|/gm)].length;
+  }, 0);
+
+  assert.equal(data.stats.people, peopleFiles.length, "personantalet ska följa personakterna");
+  assert.equal(data.stats.assertions, assertionCount, "alla påståenderader ska tas med");
+  assert.equal(data.stats.sources, markdownCount(join(genealogy, "sources")));
+  assert.equal(data.stats.citations, markdownCount(join(genealogy, "citations")));
+  const backlog = JSON.parse(readFileSync(join(root, "wotan", "backlog.json"), "utf8"));
+  const isDone = (id) => backlog.tasks.find((task) => task.id === id)?.status === "DONE";
+  const expectedActive =
+    backlog.tasks.find((task) => task.status === "ONGOING") ??
+    backlog.tasks.find((task) => task.status === "READY" && (task.after ?? []).every(isDone)) ??
+    null;
+  if (expectedActive) {
+    assert.equal(data.activeWork?.id, expectedActive.id, "aktiv eller nästa körbar uppgift ska visas");
+    assert.ok(["ONGOING", "READY"].includes(data.activeWork.status), "aktivt arbete är pågående eller nästa READY");
+  } else {
+    assert.equal(data.activeWork, null, "tom körbar kö ska visas som viloläge");
+  }
+}
 
 const people = new Set(data.people.map((person) => person.id));
 const directedEdges = new Set();
@@ -93,6 +112,19 @@ const assertAcyclic = (person) => {
 };
 for (const person of people) assertAcyclic(person);
 
+for (const branch of data.progress) {
+  const ancestors = new Set();
+  const collect = (id) => {
+    for (const parent of parentsByChild.get(id) ?? []) {
+      if (ancestors.has(parent)) continue;
+      ancestors.add(parent);
+      collect(parent);
+    }
+  };
+  collect(branch.id);
+  assert.equal(branch.knownAncestors, ancestors.size, `anantalet ska följa den sparade grafen för ${branch.id}`);
+}
+
 for (const person of data.people) {
   for (const claim of person.claims) {
     assert.ok(claim.id.startsWith("A-"), `ogiltigt påstående-id hos ${person.id}`);
@@ -108,4 +140,6 @@ for (const person of data.people) {
 const changeKeys = data.recentChanges.map((entry) => `${entry.date}-${String(entry.batch).padStart(4, "0")}`);
 assert.deepEqual(changeKeys, [...changeKeys].sort().reverse(), "senaste forskning ska ligga först");
 
-console.log("Dashboarddata verifierad");
+console.log(process.env.GENEALOGY_DASHBOARD_CHECK_CURRENT === "1"
+  ? "Dashboarddata och aktualitet verifierade"
+  : "Dashboardens sparade ögonblicksbild verifierad (ingen uppdatering eller aktualitetskontroll)");

@@ -1,0 +1,68 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:RecordSet"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Series"
+      },
+      "rico:hasRecordSetType": {
+        "@id": "ric-rst:Series"
+      },
+      "schema:identifier": "SE/SSA/1452C/E III",
+      "rico:hasOrHadIdentifier": {
+        "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2#referenceCode"
+      },
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2#instantiation_physical"
+      },
+      "schema:name": "Mantalslängder",
+      "rico:name": "Mantalslängder",
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/1FLSiWrECaQBwqQ7U9VfN3"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2#isPartOf"
+      },
+      "skos:note": "Mantalslängder upphör 1861 och inkomstuppgifter finns istället i följande serier;\r\nTaxeringslängder EIV (1861-1917) och Inkomstlängder EEVIa (1918-1967).",
+      "rico:descriptiveNote": "Mantalslängder upphör 1861 och inkomstuppgifter finns istället i följande serier;\r\nTaxeringslängder EIV (1861-1917) och Inkomstlängder EEVIa (1918-1967)."
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/SSA/1452C/E III"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/1FLSiWrECaQBwqQ7U9VfN3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/YV8Kxj9ra42EJ05NzGOaX2"
+      }
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "ric-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#"
+  }
+}

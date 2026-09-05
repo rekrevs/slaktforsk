@@ -20,6 +20,7 @@ husförhörslängden, där hon står som dotter i hans hushåll.
 | A-0655 | Han hade nio barn födda 1829–1854. | TRANSCRIBED | hög | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Barnkolumnen. |
 | A-0685 | Han kallas hemmanstillträdare vid vigseln 1828. | TRANSCRIBED | hög | [C-0116](../citations/C-0116-anders-olofsson-sofia-magdalena-vigsel-1828.md) | Ståndsbeteckningen. |
 | A-0686 | Hans hemvist vid vigseln läses preliminärt `Granåker[?]`. | TRANSCRIBED | låg | [C-0116](../citations/C-0116-anders-olofsson-sofia-magdalena-vigsel-1828.md) | Orten kan inte säkert kopplas till rätt kontrahent. |
+| A-3206 | Degerfors C/2:s hela födelseår 1806 saknar en Anders-post med den kända modern Anna Catharina Andersdotter. | CONFLICT | hög | [C-0844](../citations/C-0844-degerfors-C2-anders-1806-negativ.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Årsuppgiften står kvar som senare hushållsuppgift; ingen far skapas ur patronymikonet. |
 
 ## Relationer
 
@@ -34,3 +35,21 @@ husförhörslängden, där hon står som dotter i hans hushåll.
 - Faderskapet är bekräftat och hustrun funnen. Nästa led bakåt är hans egen
   födelsenotis i Degerfors 1806 och identifieringen av hans far, som bör ha
   hetat Olof och avlidit före 1861.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett tidigare personbundet Rödå-/barndomshushåll, modern
+  Anna Catharina Andersdotters vigsel eller bouppteckning, alternativt en
+  källa som rättar Anders födelsesocken eller ger exakt dag.
+- Genomsökt: hela födelseåret 1806 i Degerfors C/2, sidorna 60–70,
+  bilderna `A0001455_00035`–`_00040`; senare hushåll C-0111 och vigsel C-0116.
+- Negativ kontroll: [C-0844](../citations/C-0844-degerfors-C2-anders-1806-negativ.md)
+- Återaktivering: följ endast en positiv person-, mor-, gårds- eller
+  datum/sockennyckel; skapa inte fadern enbart ur namnet Olofsson.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0033)
+- Källbredd: `KLAR` — modern är säkrad och den återstående fadersfronten har
+  ett helt, reproducerbart årgångsnoll samt exakt återstartvillkor.

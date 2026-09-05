@@ -20,11 +20,21 @@ kommer fortsatt endast från en sekundär personakt.
 | [P-0265 Anna Maja (Maria) Eriksdotter](P-0265-anna-maja-maria-eriksdotter.md) | hustru i barnets födelsenotis | CORROBORATED | C-0833, C-0248 |
 | [P-0123 Johan Petter Urbom](P-0123-johan-petter-urbom.md) | son | CORROBORATED | C-0833, C-0248 |
 
-## Forskningsstatus
+## Slutstatus
 
-Minimal djup-7-post. Egen födelse, föräldrar och livsslut forskas inte vidare
-i T-0013; de sekundära levnadsåren förblir ledtrådar.
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett personbundet Björsäterhushåll, vigsel-, flytt-,
+  döds- eller bouppteckningsbelägg som ger Lorentz eget datum eller
+  föräldrahem.
+- Genomsökt: sonen Johan Petters samtidiga födelsenotis på Krogen och den
+  privata familjeakten, C-0833/C-0248.
+- Negativ kontroll: [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) säkrar namn, yrke, plats och fadersroll men
+  inte levnadsåren 1782–1846 eller egna föräldrar.
+- Återaktivering: en ny positiv personbunden datum-, orts-, hushålls-,
+  vigsel-, flytt-, döds- eller bouppteckningsnyckel.
 
 ## Arbetsläge
 
-- Konsolidering: `GRANSKAD` 2026-09-04 (T-0013, minimal djup-7-spets)
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0044)
+- Källbredd: `KLAR` — fadersrollen är originalbunden; de sekundära
+  levnadsåren bär inte nästa generation.

@@ -61,3 +61,10 @@ morfars far.
 - Kvarstående motsägelse: Lerbo A I/19 ger ett exakt födelsedatum och en
   församling, men födelsebokens post för dagen avser ett annat barn. Föräldrar
   registreras därför inte.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
+- Källbredd: `KLAR` — födelse-, vigsel-, hushålls- och dödsvägarna är
+  avgränsade; återstart kräver Lerbo A I/20 s. 164 eller en ny positiv
+  flytt-/vigselnyckel.

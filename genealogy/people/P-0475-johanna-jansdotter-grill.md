@@ -78,3 +78,10 @@ uttryckliga hushållsrelationer kvarstår.
   C-0794 har nu skapat egna akter för samtliga sex namngivna historiska
   barn i den säkrade hushållskedjan. Upprepa inte de exakta C/5-fönstren
   för Lovisa, Johanna Mathilda eller Hedda utan en ny saklig nyckel.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0040)
+- Källbredd: `KLAR` — födelse, P-0476–P-0477, moderskap, vuxenliv och död
+  är originalbundna; vigseln och den analoga bouppteckningen är exakt
+  avgränsad berikning.

@@ -2,15 +2,16 @@
 
 ## Identitet
 
-Bonde i Säter, Indal, född där 1800-10-22. Far till Cajsa Märta, född
-1834-03-21.
+Bonde i Säter, Indal, senare uppgiven född 1800-10-22. Far till Cajsa Märta,
+född 1834-03-21.
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2169 | Anders Dahlsten i Säter var far till Cajsa Märta, född 1834-03-21 och döpt 23 mars i Indal. | TRANSCRIBED | hög | [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md) | Dotterns samtida födelse- och doppost. |
-| A-2174 | Anders Dahlsten var bonde i Säter, född 1800-10-22 i Indal, och följs där med hustrun Anna Cajsa Larsdotter och deras barn i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Två successiva hushållslängder; egen födelsenotis återstår. |
+| A-2174 | Anders Dahlsten var bonde i Säter, uppges född 1800-10-22 och följs där med hustrun Anna Cajsa Larsdotter och deras barn i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Två successiva hushållslängder; födelsesocken och egen födelsenotis återstår. |
+| A-3229 | Indal C/3:s fullständiga födelseår 1800 saknar ett barn Anders fött 22 oktober. | CONFLICT | hög | [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md) | Exakt hushållsdatum kan inte förenas med födelseoriginalet; ingen annan post väljs utan mellanlänk. |
 
 ## Relationer
 
@@ -27,7 +28,23 @@ Bonde i Säter, Indal, född där 1800-10-22. Far till Cajsa Märta, född
 
 ## Forskningsstatus
 
-Gränsperson på djup 5. Födelsedatumet, Indal som födelseort, bondetjänsten,
-Säter-hushållet 1836–1854, hustrun och sju namngivna barn är säkrade. Egen
-födelsenotis, vigsel och död återstår. Följ inte hans anor före den fasta
-32-personerskohortens breddmål.
+Säter-hushållet 1836–1854, bondetjänsten, hustrun och sju namngivna barn är
+säkrade. Det senare datumet 1800-10-22 saknas i Indals kompletta
+födelseårgång och används inte för att skapa föräldrar.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett tidigare personbundet Säter-hushåll, parets vigsel
+  eller en flyttkälla som anger Anders föräldrahem eller säker födelsesocken.
+- Genomsökt: Indal C/3:s hela födelseår 1800, bilder
+  `C0033076_00164`–`_00166`, mot A I/6–A I/7:s exakta datum.
+- Negativ kontroll: [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md)
+- Återaktivering: en personbunden sida eller vigsel-/flyttpost som förenar
+  Dahlsten-namnet med ett bestämt föräldrahem; sök inte vidare på datumet
+  ensamt.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
+- Källbredd: `KLAR` — full årgångskontroll och exakt återstartvillkor finns.

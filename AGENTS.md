@@ -2,24 +2,59 @@
 
 Read the project's durable context before doing work:
 
-1. `README.md` and `HANDOVER.md` for orientation and current state.
+1. `README.md` for orientation.
 2. `NORTH-STAR.md` for the permanent objective and quality contract.
 3. `genealogy/README.md` for the evidence and knowledge model.
-4. `genealogy/research-plan.md`, `genealogy/frontier.md` and
-   `genealogy/source-coverage.md` for workflow and current research gates.
+4. `genealogy/research-plan.md`, `genealogy/person-contract.md` and
+   `genealogy/source-strategy.md` for the binding program, PK-01–12 outcome
+   requirements and source selection. Then `genealogy/frontier.md` and
+   `genealogy/source-coverage.md` for current research gates; read the selected
+   persons' dossiers and `genealogy/research-profiles/P-NNNN.md` when working them.
 5. `PROJECT-CONTROL.md` for approved owner decisions and exceptions.
-6. `wotan/README.md` for the repository's Wotan convention, then
-   `wotan/backlog.json` and the active `wotan/dev-log/` record for task work.
+6. For task work, always read `wotan/README.md` before selecting, creating
+   or resuming a task. Then read `wotan/backlog.json` and the selected
+   `wotan/dev-log/T-NNNN.md`, including its latest `Återupptagning` section.
+   Reading the skill alone does not replace this repository-local convention.
 
-Run `node scripts/goal-state.mjs` to see the project's state against the
-north star; do not reconstruct it from handover prose or chat history.
+Run `node scripts/goal-state.mjs` and `node scripts/research-inventory.mjs`
+for the separate pedigree and all-dossier review indicators.
+These do not prove the substantive fulfillment requirements in NORTH-STAR.md.
+Use canonical evidence and decisions, not chat history, to resolve discrepancies.
+
+Update the dashboard (including its data snapshot) only when the owner explicitly
+requests it. Research, task completion, tests, builds, session preservation and
+commit/push do not imply permission to refresh it. Routine checks must accept an
+older, internally consistent dashboard snapshot; use canonical files for current
+project state. See PCD-2026-09-05-014 and `dashboard/README.md`.
+
+Wotan is the sole execution and resumption state. Do not introduce HANDOVER.md
+or a separate session-start task/list. Save partial work, evidence, pending
+verification and the next unperformed step in the current task before a planned
+interruption. Resume ONGOING before READY and reconcile its checkpoint with the
+working tree; rereading instructions does not authorize repeating completed work.
 
 Use Wotan for task or backlog work and Project Control for strategic steering.
-Do not start research outside the active, approved Wotan task. Tasks are cut
-from the goal-state next slice as described in `wotan/README.md`: the nearest
-untreated generation, balanced between both sides, before deeper or already
-well-documented branches. Log each research batch once, in
-`genealogy/research-log/`.
+Do not start research outside an active, approved, bounded Wotan task. Research
+tasks follow the nearest substantively untreated generation, balanced between
+both sides, including disputed closures before deeper or already well-documented
+branches. Give each task explicit scope, exclusions and verifiable outcomes;
+split new work instead of growing an unlimited task. Log each research batch
+once, in `genealogy/research-log/`.
+
+Apply the person contract to new, partial, disordered, disputed, previously
+closed and side-person dossiers. Reuse sufficient existing research; never
+auto-convert legacy GRANSKAD/KLAR to a passed contract review. Every touched
+research dossier gets a profile or an explicit bounded adoption step in the
+current task. Assess all ten life themes, preserve full relevant extraction,
+track source paths by time/place/coverage, and use new search keys to reassess
+dependencies across affected people. Profiles and the derived inventory hold
+knowledge/review state only; Wotan alone schedules and resumes execution.
+Task DONE, accepted ancestry, rich biography and source exhaustion are distinct.
+
+During an explicitly continuous north-star run, an empty or blocked queue calls
+for Project Control to assess remaining requirements and create justified bounded
+work within delegated authority, not automatic completion. Single-task requests
+and session-preparation work remain bounded by the user's current request.
 
 Treat the evidence ledger as append-only and the canonical person model as
 revisable. One person record must represent one real person. Keep competing

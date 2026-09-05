@@ -13,7 +13,7 @@ const rel = (rows) =>
     .join("\n")}\n`;
 const work = (state, extra = "") => `## Arbetsläge\n\n- Konsolidering: \`${state}\` 2026-09-04 (test)\n${extra}`;
 const front = (status) =>
-  `## Slutstatus\n\n- Status: \`${status}\`\n- Förväntad källa: x\n- Genomsökt: y\n- Negativ kontroll: [C-0001](../citations/C-0001-x.md)\n`;
+  `## Slutstatus\n\n- Status: \`${status}\`\n- Förväntad källa: x\n- Genomsökt: y\n- Negativ kontroll: [C-0001](../citations/C-0001-x.md)\n- Återaktivera när: en ny läsbar originalbild finns\n`;
 
 function fixture({ reviewedDepth1 = true, coverageOverride = true, validFront = true } = {}) {
   const people = new Map([
@@ -59,10 +59,52 @@ test("work state defaults to EJ GRANSKAD and reads the coverage override", () =>
   assert.equal(w.coverageOverride, "INTEGRITETSMINIMERAD");
 });
 
-test("terminal status requires a resolvable negative control unless VERIFIERAD", () => {
+test("terminal status requires evidence, including VERIFIERAD", () => {
   assert.equal(readTerminalStatus(front("KÄLLOR SLUT"), () => false).ok, false);
   assert.equal(readTerminalStatus(front("KÄLLOR SLUT"), () => true).ok, true);
-  assert.equal(readTerminalStatus("## Slutstatus\n\n- Status: `VERIFIERAD`\n", () => false).ok, true);
+  assert.equal(readTerminalStatus("## Slutstatus\n\n- Status: `VERIFIERAD`\n", () => false).ok, false);
+  const verified = front("VERIFIERAD").replace("Negativ kontroll:", "Belägg:");
+  assert.equal(readTerminalStatus(verified, () => true).ok, true);
+  assert.equal(readTerminalStatus(verified, () => false).ok, false);
+});
+
+test("terminal fields cannot borrow a following bullet or section as their value", () => {
+  for (const field of ["Förväntad källa", "Genomsökt", "Återaktivera när"]) {
+    const empty = front("KÄLLOR SLUT").replace(new RegExp(`- ${field}:.*`), `- ${field}:`);
+    assert.equal(readTerminalStatus(empty, () => true).ok, false, field);
+  }
+  const absent = front("KÄLLOR SLUT").replace(/- Återaktivera när:.*\n/, "");
+  assert.equal(readTerminalStatus(absent, () => true).ok, false);
+  assert.equal(readTerminalStatus(absent + "## Annat\n- Återaktivera när: senare\n", () => true).ok, false);
+  const multiline = front("KÄLLOR SLUT").replace("Genomsökt: y", "Genomsökt:\n  hela den angivna följden");
+  assert.equal(readTerminalStatus(multiline, () => true).ok, true);
+});
+
+test("a coverage row takes precedence over KLAR and privacy overrides", () => {
+  for (const override of ["KLAR", "INTEGRITETSMINIMERAD"]) {
+    const f = fixture();
+    f.people.get("P-0006").text = work("GRANSKAD", `- Källbredd: \`${override}\` motiverad fallback\n`);
+    const p = computeGoalState(f).persons.find((p) => p.id === "P-0006");
+    assert.equal(p.coverageReady, false);
+    assert.deepEqual(p.coverageOpenCells, ["M"]);
+  }
+});
+
+test("KLAR fallback without a matrix row requires a written justification", () => {
+  for (const [value, expected] of [["`KLAR`", false], ["`KLAR` 2026-09-05.", false], ["`KLAR` Inga tillämpliga källfamiljer återstår enligt aktens granskning.", true], ["`INTEGRITETSMINIMERAD`", true]]) {
+    const f = fixture();
+    f.people.get("P-0004").text = work("GRANSKAD", `- Källbredd: ${value}\n`);
+    assert.equal(computeGoalState(f).persons.find((p) => p.id === "P-0004").coverageReady, expected);
+  }
+});
+
+test("owner-confirmed parent relations require no terminal label or archival original", () => {
+  const f = fixture();
+  f.people.get("P-0004").text = rel([["P-0005", "far", "OWNER_CONFIRMED"], ["P-0006", "mor", "OWNER_CONFIRMED"]]) + work("GRANSKAD", "- Källbredd: `INTEGRITETSMINIMERAD`\n");
+  const p = computeGoalState(f).persons.find((p) => p.id === "P-0004");
+  assert.equal(p.knownParents, 2);
+  assert.equal(p.front, null);
+  assert.equal(p.coverageReady, true);
 });
 
 test("depth 1 is treated when both parents are reviewed and coverage-ready, LEAD does not propagate", () => {

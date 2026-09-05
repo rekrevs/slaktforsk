@@ -4,6 +4,26 @@ Detta är den levande generationsfronten. Personakterna och citatposterna är
 auktoritativa för enskilda påståenden; fronten visar bara vilka anlinjer som är
 öppna, villkorliga eller blockerade.
 
+Anfronten ska läsas tillsammans med [personkontraktet](person-contract.md),
+personernas forskningsprofiler och `node scripts/research-inventory.mjs`.
+En etablerad föräldralänk och en genomgången livsbild är separata resultat.
+Äldre stängda positioner eller utgåvetexter nedan avslutar inte oprövade
+livsteman. Aktiv ordning bestäms i Wotan enligt PCD-2026-09-05-013;
+historiska personspecifika nästa-steg-notiser återstartas inte automatiskt.
+
+## Sakreviderad djup-5-front 2026-09-05
+
+T-0048 bekräftar att de fyra närmaste föräldrafronterna kräver fortsatt
+prövning. Tidigare utgåve- och rotationsinstruktioner nedan är historik;
+Wotan styr dagens arbete. Ingen ny relation är etablerad i revisionen.
+
+- **P-0021:** T-0055/C-0870 binder Kyrkefalla→Skövde1924-06-20 och äldre folio329 till senare768. Födelsetid1863-06-24 och Kyrkefalla upprepas, men Mofallakandidaten är separat. T-0056 prövar senare Smulebergliv; T-0058 följer olästa Kyrkefallafolio623 efter T-0057. Ingen föräldrabrygga eller egen dödstid ännu.
+- **P-0336 / T-0051:** De specifika analoga attest-, militär- och SJ-hindren består. C-0648 ger emellertid en exakt ännu oläst mantalsuppgift: Kungsholmen 1877 nr 1217. Volym-/bildrouten ska prövas innan den vägen kan avgränsas. C-0770:s Bjärke F II a/9 bilder 209–325 är redan visuellt granskade och ska inte återtas som olästa. Uppdatering: längdposten är nu läst i C-0866; födelseår53 är en konflikt. Separata mantalsuppgiften G 1 BB:44/20 är oläst, T-0051 BLOCKED av åtkomst. Ingen ursprungsbrygga belagd.
+- **P-0051 / T-0052:** Porsnäsfamiljen är identifierad via två barn och hushållet på sida213. Dödsåldern avvisar mannen mot Olaus1784 (C-0867). Tidigare dödsdag och ortsavgränsning är rättade. Barbros föräldrar är fortsatt olösta; Överklintenmannen är separat LEAD och de preciserade analoga originalvägarna består.
+- **P-0065 / T-0053:** C-0869/A-3274–A-3275 etablerar föräldrarna P-0082 Jonas Andersson1796 och P-0519 Ulrika Lovisa Jonsdotter1804 genom tre Bubergetshushåll. Åtta syskon är bevarade. Föräldrarna öppnar två nya fronter på djup 6; de är inte arkivslut. Anders födelsenotis och 14/16 april-konflikt följs i T-0057 efter Augustas beslutade passager. Manifestglappet 537 är avgränsat i båda reproduktionerna.
+
+Se [evidensbedömningen i batch 272](research-log/2026-09-05.md#batch-272--t-0048-sakrevision-av-fyra-foraldrafronter-pa-djup-5).
+
 ## Aktiv utgåvefront 2026-08-23
 
 Nästa gemensamma Adam/Axel-utgåva ligger en generation
@@ -807,7 +827,7 @@ bevarar både kvarstående terminaler och de autentiserat återöppnade grenarna
 | Ana | Djup | Slutstatus | Blockerande källa eller motsägelse |
 |---|---|---|---|
 | P-0020 Per Wilhelm Eliasson | 4 | `VIDAREFÖRD — FÖRÄLDRAR SÄKRADE; FÖDELSEPOST SPÄRRAD` | Efter ny inloggning öppnade Värsås A I/7. Sida 159, `C0053458_00169`, visar Gabriel Eliasson och Stina Larsdotter med sonen Petter Wilhelm född exakt 1850-03-18 och systern Margaretha Sofia. Tillsammans med C-0418:s exakta senare födelsetid och C-0262:s familjekedja är P-0290/P-0289 nu korroborerade föräldrar. H0003 saknar fortsatt `Bild`, men spärren gäller bara födelsenotisen och får inte stänga föräldrafrågan. A I/8 sida 157 har andra boende på Djursätra Västergården; familjens fortsättning är öppen och den äldre länken Stina→Lars Månsson förblir `LEAD`, C-0820 |
-| P-0021 Augusta Viktoria Johansson | 4 | `IDENTITET OLÖST — SEN TIBROKEDJA SÄKRAD` | Kyrkefalla och Mofalla genomsökta 1863–64; enda födelsenamnträffen har fel far. C-0417 visar henne 1930 som änka i Smuleberg, Kyrkefalla med Tibro m:e, inflyttad från Värsås samma år, född i Kyrkefalla och `h. m.` hos Alva Viktoria. Det stärker Kyrkefalla men löser inte födelsebokskonflikten. E/1 1885–1886 saknar paret; sök tidigare år/annan vigselort eller en bakåtlänk före födelsekandidaterna, C-0114, C-0417, C-0420 |
+| P-0021 Augusta Viktoria Johansson | 4 | `IDENTITET OLÖST — SKÖVDE–SMULEBERG SÄKRAD` | C-0868 ger födelsetid 1863-06-24, Kyrkefalla, och ömsesidig flytt 1930-12-12. Mofallakandidaten i C-0114 är fortsatt separat. SCB:s Värsåsuppgift avviker; vigsel 1885-06-19 är uppgiven utan socken. Äldre bokhänvisning från Skövde s. 768 följs i T-0055 och senare Smulebergsliv i T-0056. Ingen egen dödstid belagd. |
 | P-0042 Karl Fredrik Jansson | 4 | `VIDAREFÖRD — FÖDELSEIDENTITET, VIGSEL OCH LIVSSLUT SÄKRADE` | C-0421 ger exakt 1861-09-24 och binder därmed Lilla Mellösa C/4:s Carl Fredrik säkert till den senare Flen-kedjan och P-0131–P-0132. C-0535 säkrar vigseln 1886-04-26 i Lerbo som dräng från Spånga, med samma födelsedatum; C-0536 avgränsar Lerbo 1883–1885 negativt. Han var före detta maskinarbetare i Tulefors, dog 1937-12-29 av kronisk myokardit och kronisk bronkit och begravdes 31/12. Folkräkningar 1890–1930 och församlingsböcker följer hushållet; eventuell bouppteckning och Varia-arbetskälla är nästa breddberikning, C-0011–C-0013, C-0030–C-0032, C-0035, C-0099, C-0421, C-0535 |
 | P-0043 Charlotta Wilhelmina Larsson | 4 | `VIDAREFÖRD — FÖDELSE, FÖRÄLDRAR, VIGSEL OCH LIVSSLUT SÄKRADE` | C-0098 och Anderslundhushållet säkrar P-0125–P-0126. C-0535 säkrar vigseln 1886-04-26 i Lerbo som 18-årig piga från Spånga med moderns skriftliga samtycke; modern kallas då änka, vilket ger P-0125 ett dödsintervall före april 1886, och hennes patronymikon `Andersd:r` hålls som konflikt. Den sammanhängande senare familjekedjan slutar med C-0422: änka i Tulefors, död 1940-07-25 på `Sjukhemmet` av ändtarmscancer och begravd 3/8. C-0423 bevarar rättelsen av marginaldatumet 25/2 → 25/7. Eventuell bouppteckning återstår som breddberikning, C-0011–C-0013, C-0030–C-0032, C-0035, C-0098, C-0422–C-0423, C-0535 |
 | P-0050 Anders Andersson | 4 | `VIDAREFÖRD — URSPRUNG SÄKRAT, DÖDBOKSKONFLIKT` | Nysätra B/1 och A I/9a–A I/8a identifierar föräldrarna P-0230–P-0231 i Risvattnet trots att den uppgivna födelsedagen saknas i C/4. Församlingsboken anger död 1899-06-22, men Bygdeå F/1:s exakta kronologiska plats den dagen gäller Jonas Peter Danielsson och saknar Anders. Dödsorsak och begravning återtas bara med ny positiv nyckel; rotera nu, C-0195–C-0197/C-0433 |
@@ -820,13 +840,19 @@ bevarar både kvarstående terminaler och de autentiserat återöppnade grenarna
 | P-0473 Beata Jonsdotter | 5 | `DJUP-5-LED LÖST TILL TVÅ DJUP-6-SPETSAR; EGNA DATUM ÖPPNA` | A I/2 s. 179 placerar Beata, född 1809, under `döttr. o. barn` till Jan Larsson och Sara Lisa Jonsdotter i Ånäset. A I/3–A I/4 sluter kedjan till hustrun i samma by efter vigseln 1826. P-0478–P-0479 är korroborerade föräldrar. C/2:s hela 1809-år saknar henne. Dödsåret 1852 står i A I/6b men C/3:s döddel slutar 1847 och F/2 börjar 1862; inget exakt datum får konstrueras, C-0733–C-0734 |
 | P-0478 Jan Larsson i Ånäset | 6 | `NY DJUP-6-SPETS — FADERSKAP SÄKRAT; EGET URSPRUNG ÖPPET` | A I/2 s. 179 visar bonden Jan Larsson, uppgiven född 1777, med hustrun Sara Lisa och Beata under rubriken för döttrar och barn. Följ bakåt från Ånäset i en kommande balanserad djup-6-våg; årtalet skapar inte dag, ort eller föräldrar, C-0733 |
 | P-0479 Sara Lisa Jonsdotter i Ånäset | 6 | `NY DJUP-6-SPETS — MODERSKAP SÄKRAT; EGET URSPRUNG ÖPPET` | A I/2 s. 179 visar Sara Lisa Jonsdotter, uppgiven född 1777, som hustru i samma hushåll med Beata under rubriken för döttrar och barn. Följ bakåt från Ånäset i en kommande balanserad djup-6-våg; årtalet skapar inte dag, ort eller föräldrar, C-0733 |
-| P-0065 Anders Jonsson | 4 | `IDENTITET OLÖST — LIVSKEDJA TILL DÖDEN SÄKRAD` | Degerfors 1839 saknar en Anders med far Jon. C-0402–C-0405 och C-0483–C-0484 följer honom som bonde och änkling i Buberget till döden 1909-10-21, begravning 4/11 och `ålderdomsbräcklighet`. Bouppteckningen är registrerad under Anders Jansson som `F II/7 nr 55`, men originalet är läsesalsbundet, C-0486. Sök barndomen endast från ny positiv by-/flytthänvisning; beställ bouppteckningen först som senare breddberikning |
+| P-0065 Anders Jonsson | 4 | `VERIFIERADE FÖRÄLDRAR; EGEN FÖDELSEKONFLIKT ÖPPEN` | C-0869 binder föräldrarna P-0082/P-0519 till Anders och det kända vuxenhushållet; 1848–1857 är tidigaste lästa Bubergetbok. Livskedjan till döden 1909-10-21 består. Egen födelsenotis och 14/16 april prövas avgränsat i T-0057. Bouppteckningsoriginal F II/7 nr 55 förblir oläst. |
 | P-0094 Jakob Andersson | 4 | `VIDAREFÖRD — SEN LIVSKEDJA OCH DÖD SÄKRADE, FÖDELSEDATUM I KONFLIKT` | C-0425/C-0427 följer bonden och hemmansägaren i Ultervattnet till döden 1905-10-03 av ålderdomssvaghet. De samstämmiga sena böckerna anger 1830-04-16, men C-0069 har lästs 16/7 och C-0424 saknar en säker egen födelsepost på båda datumen. Föräldrarelationen uppgraderas inte; återta bara med ny positiv datum-, sida- eller flyttnyckel och rotera nu |
 | P-0095 Maria Christina Hansdotter | 4 | `VIDAREFÖRD — FÖDELSE, FÖRÄLDRAR OCH LIVSSLUT SÄKRADE` | C-0121 säkrar 1840-10-17 i Åkullsjön och P-0158–P-0159. C-0425–C-0426 följer henne i Ultervattnet till döden 1903-08-26 och begravningen 11/9; C-0428 rättar den privata Robertsforsplaceringen till Bygdeå. Vigseltiden är fortsatt konflikt: senare `61` och äldre `G 62`, men hela Bygdeå 1861–1862 saknar paret, C-0122/C-0429. Rotera nu |
 | P-0110 Per Albert Ålund | 4 | `VIDAREFÖRD — FÖRÄLDRAR OCH 1868–1910-KEDJA SÄKRADE; LIVSSLUT ÖPPET` | C-0316–C-0317 säkrar föräldrarna och Helgesta–Hyltinge-kedjan; C-0078/C-0088/C-0085 följer familjen Valsund 1890 → Rudstugan 1900 → Valsta 1910. C-0430 bevarar att de väntade Valsta-sidorna inte reproducerar hushållet. Hyltinge F/1 1911–1934 och B/4 1910–1914 saknar säker död- respektive utflyttningspost. Återta bara med ny positiv senare nyckel; rotera nu, C-0431–C-0432 |
 | P-0111 Adela Amalia Urbom | 4 | `VIDAREFÖRD — FÖDELSE, FÖRÄLDRAR OCH VUXENKEDJA SÄKRADE; LIVSSLUT ÖPPET` | C-0087 och C-0275–C-0277 säkrar födelsen, Urbom–Ajax-föräldrarna och ungdomshushållen. Hon följs med maken till Valsta 1910. De registerstyrda församlingsbokssidorna, Hyltinge F/1 1911–1934 och utflyttningsåren 1910–1914 ger endast avgränsade nollresultat. Helgesta A I/17 är åtkomlig men hennes folio 58 återstår; rotera nu, C-0430–C-0432 |
-| P-0329 Carl Fredrik Ålund | 5 | `ÖPPEN — NY SPETS` | Helgesta A I/15 s. 179 anger 1808-09-02 Ludgo, inflyttad från Gryt 1857, och säkrar honom som Pehr Alberts far. Följ familjen bakåt i Helgesta A I/14 och den reciproka Grytflytten; pröva därefter Ludgo-originalet, C-0316–C-0317 |
-| P-0330 Maja Catharina Carlsdotter | 5 | `ÖPPEN — NY SPETS` | Helgesta A I/15 s. 179 anger 1808-12-23 Ludgo och säkrar henne som Pehr Alberts mor i samma Ålund-hushåll. Följ familjen bakåt i Helgesta A I/14 och den reciproka Grytflytten; pröva därefter Ludgo-originalet och vigseln, C-0316–C-0317 |
+| P-0329 Carl Fredrik Ålund | 5 | `VERIFIERAD — EGEN FÖDELSE OCH BÅDA FÖRÄLDRAR SÄKRADE` | Ludgo C/1 återfinner Carl Fredric 1808-09-02 som son till mäskaren P-0509 Anders Åhlund och P-0510 Hedda Morander. Helgesta A I/15:s exakta datum och socken sluter identiteten. De nya djup-7-spetsarna forskas inte vidare i denna våg, C-0317/C-0845 |
+| P-0330 Maja Catharina Carlsdotter | 5 | `VERIFIERAD — EGEN FÖDELSE OCH BÅDA FÖRÄLDRAR SÄKRADE` | Ludgo C/1 återfinner Maja Chaisa 1808-12-23 i Hökstorp som dotter till bonden P-0511 Carl Carlsson och P-0512 Anna Andersdotter. Helgesta A I/15:s exakta datum och socken sluter identiteten. De nya djup-7-spetsarna forskas inte vidare i denna våg, C-0317/C-0845 |
+| P-0362 Lars Svensson i Jonsberg | 5 | `IDENTITET OLÖST — MÖNNERUMSHUSHÅLL OCH ÅRSGÅNGSNOLL` | C-0363 säkrar honom som Carolinas far. Jonsberg A I/7 s. 55 visar en överstruken Lars Svensson med Maja Lena Jonsdotter och Carolina-rad; reservationsvis `1809 1/6` saknas i C I/3:s hela 1809-uppslag. Återta endast från tydlig hushålls-, vigsel- eller flyttnyckel, C-0846 |
+| P-0363 Maja Lena Jonsdotter i Jonsberg | 5 | `IDENTITET OLÖST — MÖNNERUMSHUSHÅLL OCH ÅRSGÅNGSNOLL` | C-0363 och C-0557 säkrar moderskapet och änkestatusen 1870. A I/7 s. 55:s överstrukna kandidatdata `1814 28/3` saknas i C I/3:s hela 1814-uppslag. Återta endast från tydlig hushålls-, vigsel- eller flyttnyckel, C-0846 |
+| P-0371 C. J.[?] Jansson Hök | 5 | `IDENTITET OLÖST — FÖDELSEPOST SAKNAR HUSHÅLLSNYCKEL` | Sonens post 67 säkrar faderskapet men anger bara `fr. S. Försam.`. Hällefors A I/12a–b saknar personregister och ortförteckningarna ger ingen ingång. Återta först med exakt namn, datum, flytt eller hushållsort; ingen blind helvolymsläsning, C-0380 |
+| P-0372 Carolina Magnust:r/Magnusdotter | 5 | `IDENTITET OLÖST — FÖDELSEPOST SAKNAR HUSHÅLLSNYCKEL` | Sonens post 67 säkrar moderskapet men anger bara `fr. S. Försam.`. Hällefors A I/12a–b saknar personregister och ortförteckningarna ger ingen ingång. Återta först med exakt datum, flytt eller hushållsort, C-0380 |
+| P-0470 Carl Jonas Zingmark | 5 | `IDENTITET OLÖST — FÖRSTA SÄVARLÄNGDEN SAKNAR URSPRUNGSNYCKEL` | Sävar A I/1 s. 157 och C/1 s. 91 säkrar familjen men ger endast födelseåret 1785, utan dag, socken eller bakåthänvisning. Återta med exakt vigsel-/flytt-/ursprungsnyckel; sök inte brett på namn och år ensamt, C-0681 |
+| P-0471 Anna Sophia Holmström | 5 | `IDENTITET OLÖST — FÖRSTA SÄVARLÄNGDEN SAKNAR URSPRUNGSNYCKEL` | Sävar A I/1 s. 157 och C/1 s. 91 säkrar familjen men ger endast födelseåret 1792, utan dag, socken eller bakåthänvisning. Återta med exakt vigsel-/flytt-/ursprungsnyckel; sök inte brett på namn och år ensamt, C-0681 |
 | P-0133 Erik Karlsson/Grill | 4 | `VIDAREFÖRD — FÖDELSEIDENTITET, FÖRÄLDRAR, VISTELSE OCH BÅDA MAKARNAS LIVSSLUT SÄKRADE; FLYTTPOST 1875 SAKNAS` | C-0147, C-0702 och C-0729 ger tre exakt daterade Bettna-led där Erik står som son till soldaten Carl Fredrik/Carl Eric Grill och Johanna Jansdotter/Jonsdotter. C-0749 tillför SCB 1860 bild 317 med samma familjeprofil och sonen E. född 1851; samtidsglappet 1852–1866 är därmed överbryggat. C-0741 följer Erik Grill till Forssa/Sjöstugan 1868–1875 och C-0746 återfinner honom i SCB 1870; endast den samtidiga Forssa–Årdala-flyttposten 1875 saknas. C-0767–C-0769 tillför tre samtida födelsenotiser som korroborerar Erik Carlsson som torpare och far. C-0796/C-0799 fyller den sena luckan med Brosätter → Segerslund → Wäsby → Helgesta/Vilhelmsro: utflyttning 1909-01-18 och registrerad ankomst 1909-01-22, fyra dagar senare; A II a/3 sida 346 är bara ett senare sidnoll. C-0773 säkrar andra hustrun Matilda Charlotta Karlsson f. Sjöberg död 1920-01-31 i Flens länslasaretts separata SCB-utdrag, med `Bronchopneumonia`; makens senare änkedatum 1920-04-03 bevaras som konflikt. C-0802 lokaliserar Helgesta fattigvårdsnämnds D 2:1 1923–1936 som första personförda kommunala route över ålderdomshemsperioden, med A 1:1 och G 5:1 som kompletterande analoga volymer; ingen Erik-post är läst. Inloggat omprov C-0757 öppnar Forssa H II/1, D14/10, Flen P I/1 och Villåttinge C II b/5 → F II/59 utan CAPTCHA men fortsatt endast i läsesal. Helgesta B/4:s originalreproduktion `00154377` är nu läst för 1909 post 1. Bouppteckningsregistrets Erik-noll 1935–1936 är ett belagt täckningsgap för Helgesta/Flen/Katrineholm, inte ett aktnoll. Föräldrarna har exakta analoga bouppteckningsakter genom C-0759–C-0760. C-0808 avgränsar SCB:s 31 Helgestasidor 1920 och avvisar fem OCR-nomineringar i fulloriginal; det är inte namn-för-namn-läsning eller ett person-/vistelsenoll. Rotera nu till P-0336 |
 | P-0474 Carl Fredrik Grill | 5 | `VIDAREFÖRD — FÖDELSE, MOR, JERNBOL–ANTAGNING 1841, SENARE VISTELSE OCH DÖD SÄKRADE; APRIL/JULI-KONFLIKT BEVARAD` | C-0798 återfinner den tidigare missade Halla C/2-posten: Carl Fredrik föddes 1822-04-09 och döptes 12/4 i Lilla Wättstugan som pigan P-0500 Ella Ersdotters utomäktenskaplige son. Ingen far namnges eller skapas ur Pehrsson. C-0793 tillför Jernbol-attesterna 14–16 december 1840, tjänst sedan hösten 1837 och den överstrukna husförhörsraden; de senare 1822-07-09-uppgifterna bevaras som konflikt. Rekryteringsrullan visar nr 36 Glippsta, `Carl Fredrik Drill`, lejd av rote 142 Bokulla; GMR- och Bettna-kedjan följer honom vidare. Indelningsverkets omkörda Hagby/Bettna-formfråga gav 0 träffar, men endast inom exakt frågefältsomfång, C-0800. C-0750 placerar honom i Hagbystugan 1890 och C-0743 säkrar död 1895-01-04. Oppunda F II:69 nr 557 är analog och oläst. Återta Ellas tidiga hushåll endast med en ny positiv hushålls-, flytt- eller ortnyckel |
 | P-0500 Ella Ersdotter | 6 | `NY DJUP-6-SPETS — MODERSKAP SÄKRAT; EGEN IDENTITET ÖPPEN` | Halla C/2 namnger pigan Ella Ersdotter, 23 år, som mor till det utomäktenskapliga barnet Carl Fredrik 1822-04-09. A I/4:s registerroute Lilla Linväfvarstugan → s. 119 är tom och A I/5 s. 3 saknar en säker mor/son-rad; ortformen harmoniseras inte med födelsenotisens Lilla Wättstugan. Följ endast från en ny positiv hushålls-, flytt- eller ortnyckel; skapa ingen far ur Pehrsson, C-0798 |
@@ -986,3 +1012,197 @@ följd via gamla bokens sida 206 och reciproka flyttposter tillbaka till Umeå
 | P-0118–P-0122 Erik Axel, Ture Edvard, Astrid Elisabet, Ruth Charlotta och Elsa Cecilia | barn i hushållet 1910 | egna födelsenotiser i Flen 1902 och 1904 samt Hyltinge 1906, 1907 och 1909 |
 | P-0016:s make Ekholm | namnlös; hon blev änka 1913-03-11 och han var lokomotiveldare | sök vigsel före 1913 och dödsnotis 1913 i Hyltinge, Helgesta och Flen |
 | P-0112 Karl Albert Ålund | järnvägsarbetare i Valsta 1910 | egen födelsenotis i Hyltinge 1890 |
+
+## T-0033: andra balanserade djup-6-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0145 Anders Olofsson | `IDENTITET OLÖST` för fadern; modern P-0149 är säker, men hela Degerfors C/2 år 1806 saknar rätt Anders–Anna Catharina-profil, C-0844 | tidigare personbundet Rödå-/barndomshushåll, moderns vigsel/bouppteckning eller rättad dag/socken |
+| P-0214 Lars Erik Jansson | `IDENTITET OLÖST`; säker först från Årdala A I/8 s. 118, Duphagen-kandidaten hålls separat, C-0160–C-0166 | positiv tidigare hushålls-, vigsel-, mantals- eller flyttnyckel |
+| P-0289 Stina Larsdotter | `IDENTITET OLÖST`; Fröjered saknar 1808-02-01 och P-0288 förblir `LEAD`, C-0840 | tidigare personbundet hushåll eller vigsel-/flyttpost som rättar datum/socken eller namnger föräldrar |
+| P-0290 Gabriel Eliaeson | `VERIFIERAD` till P-0506 Elias, efternamn oläst, och P-0507 Greta Gabrielsdotter, C-0841 | nya djup-7-spetsar; forskas inte vidare i T-0033 |
+| P-0350 Per Hillberg | modern P-0508 Brita Hillberg säkrad; fadern `IDENTITET OLÖST`, C-0842 | egen födelsenotis 1826-02-25 Hälsingtuna eller tidigare personbundet Hillberg-hushåll |
+| P-0351 Greta Björkqvist | `ARKIVLUCKA`; Mo C/3 slutar 1817 efter oktober och nästa bild börjar 1818, C-0843 | annan reproduktion/avskrift av november 1817 eller tidigare personbunden källa |
+| P-0360 Carl Månsson | `VERIFIERAD` till P-0504 Måns Håkansson och P-0505 Anna Jonsdotter, C-0837–C-0838 | nya djup-7-spetsar; forskas inte vidare i T-0033 |
+| P-0361 Inga Nilsdotter | `IDENTITET OLÖST`; uppgiven 1814-09-10 saknas i C/4 och Orrevalla s. 397 ger ingen säker rad, C-0839 | tidigare personbundet Orrevalla-hushåll/flyttpost eller rättad dag/socken |
+
+## T-0036: fjärde balanserade djup-6-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0102 Maria Jacobsdotter | `VERIFIERAD` till P-0160 Jakob Isaksson och P-0161 Anna Stina Andersdotter i egen födelsenotis, C-0124 | föräldrarna är redan registrerade djup-7-spetsar; ingen vidare forskning i T-0036 |
+| P-0103 Anders Olofsson | `VERIFIERAD` till P-0162 Olof Larsson och P-0163 Margareta Hansdotter i egen födelsenotis, C-0125 | föräldrarna är redan registrerade djup-7-spetsar; ingen vidare forskning i T-0036 |
+| P-0124 Anna Gustava Ajax | `VERIFIERAD` till P-0266 Peter Ajax och P-0267 Catharina Jonsdotter; födelse, hushållskedja, vigsel och död är källbundna, C-0275–C-0297 | kvarstående namn-/syskonfrågor är berikning och inte en öppen parentfront |
+| P-0125 Lars Andersson | `IDENTITET OLÖST`; död och ålder säkrade men uppgivet datum saknas i födelseboken och vigseln i fem prövade församlingar, C-0132/C-0541 | Lerbo A I/20 s. 164 när bild blir tillgänglig eller ny positiv vigsel-/flyttnyckel |
+| P-0375 Anders Dahlsten | `IDENTITET OLÖST`; Indal C/3:s hela 1800 saknar en Anders på 22 oktober, C-0847 | tidigare personbundet Säter-hushåll, vigsel eller flyttkälla som binder honom till ett bestämt föräldrahem |
+| P-0376 Anna Cajsa Larsdotter | `IDENTITET OLÖST`; Indal 1807-07-12 gäller Anna Brita med oförenligt patronymikon, C-0847 | tidigare personbundet Säter-hushåll, vigsel eller flyttkälla; välj inte datumkandidaten utan mellanlänk |
+| P-0383 Sven Olofsson | `VERIFIERAD` till P-0513 Olof Hansson och P-0514 Britta Andersdotter i Bodarne, C-0848 | nya djup-7-spetsar; forskas inte vidare i T-0036 |
+| P-0384 Catharina Andersdotter | `IDENTITET OLÖST`; Hemsjö C/4 saknar post 1815-01-28 i det kronologiska intervallet, C-0848 | tidigare/senare personbundet hushåll, vigsel eller flyttnotis som anger socken eller föräldrahem |
+
+## T-0037: femte balanserade djup-6-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0148 Sofia Magdalena Jonsdotter | `IDENTITET OLÖST`; tidigare fulla födelseårs-, vigsel- och byregisterkontroller ger ingen säker ursprungsprofil | nytt personbundet hushåll, flytt-, vigsel- eller ortsbelägg; upprepa inte de avgränsade årgångarna |
+| P-0158 Hans Nilsson | `VERIFIERAD` till P-0165 Nils Nathanaelsson och P-0166 Lisa Caisa Abrahamsdotter i egen födelsenotis | föräldrarna är redan registrerade djup-7-spetsar; ingen vidare forskning i T-0037 |
+| P-0159 Anna Stina Jonsdotter | `ARKIVLUCKA`; Degerfors C/1 saknar 1793–1794 genom utrivna blad och tidigare reservkontroller gav ingen personbunden brygga | annan avskrift/reproduktion eller nytt personbundet hushålls-/flyttbelägg |
+| P-0215 Brita Christina Ersdotter | `VERIFIERAD` till P-0221 Erik Andersson och P-0222 Anna Ersdotter genom egen födelsenotis och Sannerby–Carlberg-kedjan | föräldrarna är redan registrerade; ingen ny djupgren i T-0037 |
+| P-0386 Carl Fredric Andersson | `IDENTITET OLÖST`; Målilla A I/5:s registerroute återfinner gästgiverihushållet men namnger inte föräldrarna, C-0852 | tidigare personbundet hushåll, vigsel eller flyttnotis med säker ort/datum/föräldrahem |
+| P-0387 Anna Greta Danielsdotter | `IDENTITET OLÖST`; samma registerstyrda hushåll saknar säker ursprungsnyckel, C-0852 | tidigare personbundet hushåll, vigsel eller flyttnotis med säker ort/datum/föräldrahem |
+| P-0388 Anders Ringberg | `VERIFIERAD` till P-0515 Olof Nilsson och P-0516 Maja Jonsdotter i Rinkaby genom samtida hushåll och nominativ nyckel; födelsebokskontrollen avvisar en annan Anders, C-0849–C-0850 | nya djup-7-spetsar; forskas inte vidare i T-0037 |
+| P-0389 Johanna Christina Bökelund | `VERIFIERAD` till P-0517 Samuel Bökelund och P-0518 Gustava Maria Kylenstjerna i egen födelsenotis, C-0851 | nya djup-7-spetsar; forskas inte vidare i T-0037 |
+
+## T-0038: sjätte balanserade djup-6-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0472 Petter Reinhold Pehrsson | `IDENTITET OLÖST`; den säkra Degerfors–Åskilje-bryggan ger endast 1798 och båda församlingarnas kompletta födelseår saknar förenlig post, C-0733/C-0744 | ny positiv datum-, orts-, hushålls- eller flyttnyckel; A I/6 endast om en källa placerar honom i Lycksele före 1817 |
+| P-0474 Carl Fredrik Grill | `VERIFIERAD` till modern P-0500 Ella Ersdotter i egen Halla-födelsenotis; ingen far namnges, C-0798 | skapa ingen far ur Pehrsson; kvarstående frågor är berikning |
+| P-0403 Nils Pehrsson | `IDENTITET OLÖST`; senare Högsjöhushåll ger 1802-07-19 Indal, men C/3:s hela 1802 saknar posten och A I/7:s Högsjöavsnitt saknar familjeprofilen, C-0510/C-0514/C-0853 | tidigare personbundet hushåll, vigsel eller flyttnotis som ger föräldrahem eller rättar datum/socken |
+| P-0404 Lisa Stina Larsdotter | `IDENTITET OLÖST`; endast säkert namngiven som 25-årig mor 1836, och det svårlästa ordet efter faderns namn saknar korsbelägg, C-0509 | säker läsning av ordet eller ny personbunden vigsel-, hushålls- eller flyttnyckel; ingen bred födelseårssökning på avrundad ålder |
+
+## T-0039: sista ogiltiga djup-6-frontskivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0451 Hindric Henriksson/Vinroth | `IDENTITET OLÖST`; egen familj är säkrad men Nybergs vidare familj 98 motsägs av Ljustorps kompletta originalkontroller, C-0678 | positiv egen födelse-, hushålls-, vigsel- eller flyttrad som uttryckligen binder honom till föräldrar; återför inte P-0461–P-0462 utan mellanlänk |
+| P-0452 Brita Flinkberg | `IDENTITET OLÖST`; fem personruttade husförhörssidor följer henne utan föräldrar och C/1:s hela 1795 saknar dagformerna 6/8 december, C-0854 | ny positiv födelsesocken eller personbunden hushålls-, vigsel- eller flyttnyckel; upprepa inte Ljustorp 1795/1819 |
+| P-0454 James Schölin | `EJ DIGITALISERAD`; barnhusrullan säkrar faderskapet, mantalsfrågan är negativ och två initialkandidater saknar identitetsbrygga, C-0606/C-0608 | läs Allmänna barnhusets E 5-intagningshandling för nr 2532/`N:o 90` på plats eller följ en ny fullständig namn-/ålders-/adress-/familjeprofil |
+
+## T-0040: sista balanserade djup-6-kohorten
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0230 Anders Nilsson | `VERIFIERAD` till P-0232 Nils Nilsson och P-0233 Magdalena Andersdotter genom egen födelsenotis och Risvattnetkedjan, C-0196–C-0198 | föräldrarna är befintliga djup-7-spetsar; senare liv är berikning |
+| P-0231 Magdalena Eriksdotter | `VERIFIERAD` till P-0234 Erik Eriksson och P-0235 Britta Thomsdotter genom egen födelsenotis och Risvattnetkedjan, C-0196–C-0197/C-0199 | föräldrarna är befintliga djup-7-spetsar; lokalisera inte `N:o 63` utan ny ortskälla |
+| P-0473 Beata Jonsdotter | `VERIFIERAD` till P-0478 Jan Larsson och P-0479 Sara Lisa Jonsdotter i Ånäsets föräldrahushåll, C-0733 | egna exakta datum är berikning; upprepa inte födelseåret 1809 och respektera dödboksgapet 1852 |
+| P-0475 Johanna Jansdotter | `VERIFIERAD` till P-0476 Jan Ericson och P-0477 Lena Jonsdotter genom födelse- och Walla-kedjan, C-0721/C-0731 | vigsel och analog bouppteckningsakt är berikning; upprepa inte tre kompletta vigselföljder |
+| P-0415 Jonas Nordlund | `IDENTITET OLÖST`; egen födelse och vuxenhushåll säkrade men Simonsson/Stefansson-konflikten ger ingen föräldrakant, C-0530–C-0531 | äldre personbundet Holm-hushåll eller flyttkedja som uttryckligen binder ett föräldrapar |
+| P-0416 Gertrud Olofsdotter | `VERIFIERAD` till P-0417 Olof Stefansson och P-0418 Sigrid Jonsdotter i egen födelsenotis, C-0532 | befintliga djup-7-spetsar; ingen vidare forskning i T-0040 |
+| P-0447 Jöns Abrahamsson | `IDENTITET OLÖST`; föräldraskap och Hullsjöhushåll säkrade men nästa avsnitt saknar familjen, C-0333/C-0590–C-0591 | egen födelsepost eller ny positiv orts-, hushålls-, vigsel- eller flyttnyckel |
+| P-0448 Brita Jonsdotter | `IDENTITET OLÖST`; moderskap och Hullsjöhushåll säkrade men nästa avsnitt saknar familjen, C-0333/C-0590–C-0591 | egen födelsepost eller ny positiv orts-, hushålls-, vigsel- eller flyttnyckel |
+
+## T-0041: första balanserade djup-7-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0149 Anna Catharina Andersdotter | `IDENTITET OLÖST`; Umeå stadsförsamling C/2:s hela 1783 saknar henne, C-0855 | tidigare personbundet hushåll eller vigsel-, flytt- eller dödsbelägg som rättar datum/socken eller namnger föräldrahem |
+| P-0160 Jakob Isaksson | `IDENTITET OLÖST`; födelsenotisen säkrar far och Ultervattnet, men hela A I/6-avsnittet saknar parets profil, C-0124/C-0856 | ny personbunden hushålls-, vigsel-, flytt- eller dödsnyckel |
+| P-0161 Anna Stina Andersdotter | `IDENTITET OLÖST`; födelsenotisen säkrar mor och Ultervattnet, men hela A I/6-avsnittet saknar parets profil, C-0124/C-0856 | ny personbunden hushålls-, vigsel-, flytt- eller dödsnyckel |
+| P-0162 Olof Larsson | `IDENTITET OLÖST`; födelsenotis och A I/5 sida 160 sluter Storbäckenfamiljen, men inga föräldrar namnges, C-0125/C-0859 | egen födelsepost eller ny exakt vigsel-, flytt- eller föräldrahemsnyckel |
+| P-0417 Olof Stefansson | `IDENTITET OLÖST`; födelsenotis och A I/5 sida 159 sluter Hullsjöfamiljen, men Olofs eget år är svårläst och inga föräldrar namnges, C-0532/C-0857 | egen födelsepost eller ny exakt vigsel-, flytt- eller föräldrahemsnyckel |
+| P-0418 Sigrid Jonsdotter | `IDENTITET OLÖST`; Hullsjöhushållet korroborerar 1776 men namnger inga föräldrar, C-0532/C-0857 | exakt födelsepost eller ny vigsel-, flytt- eller föräldrahemsnyckel |
+| P-0502 Lars Larsson | `IDENTITET OLÖST`; dotterns födelsenotis är positiv men hela Gårdtjärn-avsnittet 1806–1816 saknar säker familjerad, C-0830/C-0858 | ny personbunden hushålls-, vigsel-, flytt- eller dödsnyckel |
+| P-0503 Anna Jonsdotter | `IDENTITET OLÖST`; dotterns födelsenotis ger ålder 27 men hela Gårdtjärn-avsnittet saknar säker familjerad, C-0830/C-0858 | ny personbunden exakt datum-, hushålls-, vigsel-, flytt- eller dödsnyckel |
+
+## T-0042: andra balanserade djup-7-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0163 Margareta Hansdotter | `IDENTITET OLÖST`; födelsenotis och A I/5 sida 160 sluter Storbäckenfamiljen, men inga föräldrar namnges, C-0125/C-0859 | egen födelsepost eller ny exakt vigsel-, flytt- eller föräldrahemsnyckel |
+| P-0164 Anna Lisa Jansdotter | `IDENTITET OLÖST`; födelsenotisen ger ålder 20 och Säfstugan, men A I/9–10 och hela flyttföljden 1829–1830 saknar henne och barnet, C-0126/C-0137–C-0139 | ny personbunden datum-, socken-, hushålls-, flytt-, vigsel- eller dödsnyckel |
+| P-0165 Nils Nathanaelsson | `IDENTITET OLÖST`; Umeå lands C/3:s hela 1764 saknar den privat uppgivna profilen på 15 oktober; P-0195–P-0196 förblir `LEAD`, C-0129/C-0860 | tidigare personbundet Åkullsjön-/Bjännforshushåll, vigsel-, flytt- eller dödsbelägg som rättar datum/ort och namnger föräldrahem |
+| P-0166 Lisa Caisa Abrahamsdotter | `IDENTITET OLÖST`; Umeå lands C/3:s hela 1768 saknar den privat uppgivna Åkullsjönprofilen på 24 september, C-0129/C-0860 | tidigare personbundet Åkullsjön-/Sjöbäckshushåll, vigsel-, flytt- eller dödsbelägg som rättar datum/ort och namnger föräldrahem |
+| P-0504 Måns Håkansson | `IDENTITET OLÖST`; fadersrollen är säkrad men födelsenotisen ger inget eget datum, socken eller föräldrahem, C-0837–C-0838 | ny personbunden vigsel-, hushålls-, flytt- eller dödsnyckel |
+| P-0505 Anna Jonsdotter | `IDENTITET OLÖST`; modersrollen är säkrad men åldern 38 ger inget exakt datum eller föräldrahem, C-0837–C-0838 | ny personbunden vigsel-, hushålls-, flytt- eller dödsnyckel |
+| P-0508 Brita Hillberg | `IDENTITET OLÖST`; datumet 1805-05-13 och modersrollen är säkrade, men födelsesocknen är oläslig och inga föräldrar namnges, C-0842 | personbundet original med läsbar socken, flyttriktning eller föräldrahem |
+| P-0513 Olof Hansson | `IDENTITET OLÖST`; fadersrollen och Bodarne är säkrade men inget eget datum, socken eller föräldrahem finns, C-0446/C-0848 | ny personbunden vigsel-, hushålls-, flytt- eller dödsnyckel |
+
+## T-0043: tredje balanserade djup-7-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0221 Erik Andersson | `EJ DIGITALISERAD`; två familjebildningar och vuxenkedjan är säkrade, men den exakta Grytprofilens C/1–C/4 är odigitaliserade hos Riksarkivet, C-0168/C-0177 | laglig tillgång till Gryts C/1–C/4, alternativ originalreproduktion eller ny personbunden föräldrahemsnyckel |
+| P-0222 Anna Ersdotter | `VERIFIERAD` till P-0226 Erik Larsson och P-0227 Brita Andersdotter genom egen födelsenotis och två barndomshushåll, C-0171/C-0173–C-0174 | föräldrarna är befintliga djup-8-spetsar; 1796-06-06 bevaras som konflikt och styr inte anlinjen |
+| P-0232 Nils Nilsson | `IDENTITET OLÖST`; fadersrollen och Risvattnet är säkrade men inget eget datum, socken eller föräldrahem finns, C-0196–C-0198 | ny personbunden vigsel-, hushålls-, flytt- eller dödsnyckel |
+| P-0233 Magdalena Andersdotter | `IDENTITET OLÖST`; modersrollen och Risvattnet är säkrade men inget eget datum, socken eller föräldrahem finns, C-0196–C-0198 | ny personbunden vigsel-, hushålls-, flytt- eller dödsnyckel |
+| P-0514 Britta Andersdotter | `IDENTITET OLÖST`; modersrollen och Bodarne är säkrade men ålder 33 ger inget exakt eget datum eller föräldrahem, C-0446/C-0848 | ny personbunden vigsel-, hushålls-, flytt- eller dödsnyckel |
+| P-0515 Olof Nilsson | `IDENTITET OLÖST`; fadersrollen, yrket och Rinkaby är säkrade men eget datum och föräldrahem saknas, C-0849 | tidigare personbundet Rinkabyhushåll eller ny vigsel-, flytt- eller dödsnyckel |
+| P-0516 Maja Jonsdotter | `IDENTITET OLÖST`; modersrollen och Rinkaby är säkrade men eget datum och föräldrahem saknas, C-0849 | tidigare personbundet Rinkabyhushåll eller ny vigsel-, flytt- eller dödsnyckel |
+| P-0517 Samuel Bökelund | `IDENTITET OLÖST`; fadersrollen är säkrad men inget eget datum, socken eller föräldrahem finns, C-0467/C-0851 | ny personbunden vigsel-, hushålls-, flytt- eller dödsnyckel |
+
+## T-0044: fjärde balanserade djup-7-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0518 Gustava Maria Kylenstjerna | `IDENTITET OLÖST`; modersrollen är säkrad men inget eget datum, socken eller föräldrahem finns, C-0467/C-0851 | ny personbunden vigsel-, hushålls-, flytt- eller dödsnyckel; efternamnet räcker inte ensamt |
+| P-0234 Erik Eriksson | `IDENTITET OLÖST`; fadersrollen är säkrad men födelsepostens `N:o 63` är inte lokaliserat och egen identitetsnyckel saknas, C-0196–C-0199 | ny positiv orts-, hushålls-, vigsel-, flytt- eller dödsnyckel; tolka inte numret utan stöd |
+| P-0235 Britta Thomsdotter | `IDENTITET OLÖST`; modersrollen är säkrad men födelsepostens `N:o 63` är inte lokaliserat och egen identitetsnyckel saknas, C-0196–C-0199 | ny positiv orts-, hushålls-, vigsel-, flytt- eller dödsnyckel; tolka inte numret utan stöd |
+| P-0264 Lorentz Urbom | `IDENTITET OLÖST`; smedsyrket, Krogen och fadersrollen är säkrade, men de privata levnadsåren och egna föräldrarna saknar originalbrygga, C-0833/C-0248 | personbundet hushålls-, vigsel-, flytt-, döds- eller bouppteckningsbelägg med eget datum/föräldrahem |
+| P-0265 Anna Maja Eriksdotter | `IDENTITET OLÖST`; Krogen och modersrollen är säkrade, men formen Maria, privata levnadsår och egna föräldrar saknar originalbrygga, C-0833/C-0248 | personbundet hushålls-, vigsel-, flytt-, döds- eller bouppteckningsbelägg med eget datum/föräldrahem |
+| P-0266 Peter/Petter Ajax | `IDENTITET OLÖST`; hela Motala C/3 år 1791 ger Peter Magnus i Herrqvarnen som förenlig men obunden kandidat till Peter Peterson Ajax, C-0862 | personbunden kedja från Stordalen bakåt till Herrqvarnen eller annat bestämt föräldrahem; propagera inte kandidatföräldrar |
+| P-0267 Catharina Jonsdotter | `IDENTITET OLÖST`; hela Västra Ny C/2 år 1792 saknar hennes profil på alla tre motstridiga datum, C-0861 | tidigare personbundet hushålls-, vigsel-, flytt- eller dödsbelägg som rättar datum/socken; upprepa inte årgången |
+| P-0476 Jan Ericson | `IDENTITET OLÖST`; Walla-familjen är säker men Björkvik C/4:s hela 1791 saknar 9-majprofilen, C-0721/C-0731 | tidigare personbunden Walla-/Stora Malm-kedja eller ny vigsel-/flyttnyckel; upprepa inte årgången |
+
+## T-0045: sista djup-7-skivan
+
+| Person | Utfall 2026-09-04 | Exakt fortsatt väg |
+|---|---|---|
+| P-0477 Lena Jonsdotter | `IDENTITET OLÖST`; familjen och exakt datum/socken är säkra, men Helena i Walla är en stark obunden födelsekandidat, C-0721/C-0731 | uttrycklig Walla-hushålls-, vigsel- eller flyttbrygga; propagera inte Jonas Ersson–Cajsa Persdotter från kandidatlikhet |
+| P-0478 Jan Larsson | `IDENTITET OLÖST`; Ånäsethushållet säkrar fadersrollen och 1777 men inget eget datum eller föräldrahem, C-0733 | ny personbunden datum-, orts-, hushålls-, vigsel-, flytt- eller dödsnyckel |
+| P-0479 Sara Lisa Jonsdotter | `IDENTITET OLÖST`; Ånäsethushållet säkrar modersrollen och 1777 men inget eget datum eller föräldrahem, C-0733 | ny personbunden datum-, orts-, hushålls-, vigsel-, flytt- eller dödsnyckel |
+| P-0500 Ella Ersdotter | `IDENTITET OLÖST`; sonens födelse säkrar modern, ålder 23 och Lilla Wättstugan, men två sidkontroller ger ingen bakåtbrygga, C-0798 | ny positiv hushålls-, flytt-, vigsel-, döds- eller exakt födelsenyckel; skapa ingen far ur Pehrsson |
+| P-0506 Elias, efternamn oläst | `IDENTITET OLÖST`; fadersrollen är säker men efternamnet kan inte läsas eller rekonstrueras, C-0841/C-0820 | säkrare omläsning eller ny fullständig namn-, datum-, orts- eller hushållsprofil |
+| P-0507 Greta Gabrielsdotter | `IDENTITET OLÖST`; modersrollen är säker men eget datum och föräldrahem saknas, C-0841/C-0820 | ny personbunden hushålls-, vigsel-, flytt-, döds- eller exakt födelsenyckel |
+| P-0509 Anders Åhlund | `IDENTITET OLÖST`; namn, yrke och fadersroll är säkra men eget datum/ursprung saknas, C-0845/C-0317 | ny personbunden Ludgo-hushålls-, vigsel-, flytt-, döds- eller födelsenyckel |
+| P-0510 Hedda Morander | `IDENTITET OLÖST`; namn och modersroll är säkra men eget datum/ursprung saknas, C-0845/C-0317 | ny personbunden Ludgo-hushålls-, vigsel-, flytt-, döds- eller födelsenyckel |
+| P-0511 Carl Carlsson | `IDENTITET OLÖST`; bonde, Hökstorp och fadersroll är säkra men eget datum/föräldrahem saknas, C-0845/C-0317 | ny personbunden Hökstorps-hushålls-, vigsel-, flytt-, döds- eller födelsenyckel |
+| P-0512 Anna Andersdotter | `IDENTITET OLÖST`; Hökstorp och modersroll är säkra men eget datum/föräldrahem saknas, C-0845/C-0317 | ny personbunden Hökstorps-hushålls-, vigsel-, flytt-, döds- eller födelsenyckel |
+
+## Augusta efter T-0056, 2026-09-05
+
+P-0021: C-0871 ger Rosendala, A II a/20 sida86, och utflyttning1941-12-17
+till Vämb, Bergshamra, bekräftad av B/11 sida88 nr272. T-0056:s två
+positiva poster är använda. Ingen egen död eller föräldrabrygga;
+H/D fortsatt1 och bouppteckning2 med beroende egen dödstid/jurisdiktion.
+Äldre623 följs i T-0058; den nya Vämbpassagen återstår att avgränsa
+vid nästa styrbedömning. Äldre noter om oprövad nästa Smulebergsbok
+är historik. Sannolikt levande sidobarn hålls minimala, ingen djupare
+anrelation tillkommer.
+
+## Anders efter T-0057, 2026-09-05
+
+C-0872 identifierar egen födelsepost1839-04-16 och två tidiga hushåll.
+Jon/Jonas Andersson1796 och Ulrica Lovisa1804 är samma redan verifierade
+föräldrapar. C-0107:s negativa aprilavskrift är uttryckligen upphävd;
+14 april i vigselboken bevaras som källavvikelse. F/H positivt behandlade,
+inte längre H1 för tidig barndom. Föräldrarnas egna ursprung fortfarande
+öppna på djup6; ingen djupare föräldrakant. Analoga B/T-hinder och
+villkorliga2-celler består, vilket inte bevisar avslutad hel livsforskning.
+
+## Augusta efter T-0058, 2026-09-05
+
+C-0873 identifierar familjen på Kyrkefalla A II a/12 sida623 med
+utflyttning1924-06-20. Inget explicit äldre inflyttningsankare för
+Augusta; första ortledet i[…]haga förblir osäkert. T-0058 avslutar den
+ändliga passagen utan föräldrabrygga. H/D1 består för separat prövning
+av föregående bok respektive Vämb/Bergshamra1941; bouppteckning2 väntar
+på egen dödstid/jurisdiktion. Inget nytt källslut.
+
+
+## Augusta efter T-0059, 2026-09-05
+
+C-0874 binder Augusta till Våmb/Bergshamra, A II a/4 sida474 rad6,
+inflyttad1941-12-17. Nybokfol95/1949 är en positiv fortsatt nyckel.
+A II a/5 är katalogmarkerad Sekretess: Ja och saknar bildåtkomst hos RA;
+inloggningen fungerar. FamilySearchs hittade katalog gäller äldre år,
+ArkivDigital kräver separat inloggning; dess exakta volymtillgång okänd.
+Folio95 oläst och återstart bevarad i S-0686/T-0059. Ingen egen död eller
+jurisdiktion: H/D1 och villkorlig B2 består. T-0060 prövar den separata,
+redan beslutade äldre Kyrkefallapassagen. Ingen allleverantörsstängning.
+
+
+## Aktuell kvalificering efter T-0061, 2026-09-05
+
+Arne P-0003:s mantal 1951 är en öppen sakfråga med identifierade
+läsesalsvolymer, C-0876/S-0688. Källbredd PÅGÅR ersätter den tidigare
+personövergripande KLAR-bedömningen; accepterade familjerelationer
+berörs inte. Ingen ny exekveringskö skapas här. Pilotens underlag och
+kvarstående steg finns i T-0061; Kyrkefallas pågående punkt i T-0060
+är bevarad inför senare arbete.
+
+Anders P-0065:s 16 april och föräldraidentitet består. C-0877/A-3312
+kvalificerar den tidigare uppgiften om säker 14-avvikelse i vigseln:
+piloten kan inte avgöra sista siffran 14/16 tillräckligt säkert.
+Konflikten ligger därför kvar på avläsningsnivå; ingen belagd
+felskrivning eller ny säker vigselläsning införs.

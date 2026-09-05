@@ -26,6 +26,8 @@ P-0004 Sverker Adam Janson (proband; född 1963-11-27)
 │   │   ├── far: P-0010 Bernhard Natanael Eliasson
 │   │   │   ├── far: P-0020 Per Wilhelm Eliasson
 │   │   │   │   ├── far: P-0290 Gabriel Eliasson
+│   │   │   │   │   ├── far: P-0506 Elias (efternamn oläst)
+│   │   │   │   │   └── mor: P-0507 Greta Gabrielsdotter
 │   │   │   │   └── mor: P-0289 Stina Larsdotter
 │   │   │   └── mor: P-0021 Augusta Viktoria Johansson
 │   │   └── mor: P-0009 Ada Wilhelmina Jansson
@@ -54,7 +56,11 @@ P-0004 Sverker Adam Janson (proband; född 1963-11-27)
 │       └── mor: P-0016 Hulda Amalia Ekholm, född Ålund
 │           ├── far: P-0110 Per Albert Ålund
 │           │   ├── far: P-0329 Carl Fredrik Ålund
+│           │   │   ├── far: P-0509 Anders Åhlund
+│           │   │   └── mor: P-0510 Hedda Morander
 │           │   └── mor: P-0330 Maja Catharina Carlsdotter
+│           │       ├── far: P-0511 Carl Carlsson i Hökstorp
+│           │       └── mor: P-0512 Anna Andersdotter i Hökstorp
 │           └── mor: P-0111 Adela Amalia Urbom
 │               ├── far: P-0123 Johan Petter Urbom
 │               └── mor: P-0124 Anna Gustava Ajax
@@ -173,6 +179,8 @@ P-0210 Kristina Elisabeth Petronella Höök (proband; gift Janson)
 │   │   │   │   └── föräldrar olösta; Brattås-paret P-0364–P-0365 är en motsagd kandidatfamilj
 │   │   │   └── mor: P-0337 Brita Stina Svensdotter, 1851-05-09–1886-10-01
 │   │   │       ├── far: P-0383 Sven Olofsson, född 1815-02-16
+│   │   │       │   ├── far: P-0513 Olof Hansson i Bodarne
+│   │   │       │   └── mor: P-0514 Britta Andersdotter i Bodarne
 │   │   │       └── mor: P-0384 Catharina Andersdotter, född 1815-01-28
 │   │   └── mor: P-0275 Anna Matilda, född 1880 i Hälsingtuna
 │   │       ├── far: P-0276 Anders Gustaf Hök, född 1853-08-21 i Hällefors
@@ -180,6 +188,7 @@ P-0210 Kristina Elisabeth Petronella Höök (proband; gift Janson)
 │   │       │   └── mor: P-0372 Carolina Magnust:r/Magnusdotter
 │   │       └── mor: P-0277 Anna Greta Hillberg, 1857-06-09–1937-06-14
 │   │           ├── far: P-0350 Per Hillberg, bruksarbetare vid Håsta Udde
+│   │           │   └── mor: P-0508 Brita Hillberg, född 1805-05-13
 │   │           └── mor: P-0351 Greta Björkqvist
 │   └── mor: P-0240 Anna Elisabeth Carlman, gift Höök
 │       ├── far: P-0242 Johan Fredrik Villehad Carlman, född 1866 i Högby
@@ -188,7 +197,11 @@ P-0210 Kristina Elisabeth Petronella Höök (proband; gift Janson)
 │       │   │   └── mor: P-0387 Anna Greta Danielsdotter
 │       │   └── mor: P-0311 Christina Gustafva Ringberg, 1843-09-27–1874-03-30
 │       │       ├── far: P-0388 Anders Ringberg, komminister i Bäckebo
-│       │       └── mor: P-0389 Johanna Christina Bökelund
+│       │       │   ├── far: P-0515 Olof Nilsson, hemmansbrukare i Rinkaby
+│       │       │   └── mor: P-0516 Maja Jonsdotter i Rinkaby
+│       │       └── mor: P-0389 Johanna Christina Bökelund, född 1809-07-03 i Mortorp
+│       │           ├── far: P-0517 Samuel Bökelund
+│       │           └── mor: P-0518 Gustava Maria Kylenstjerna
 │       └── mor: P-0243 Elin Andersson, född 1873 i Östra Husby
 └── mor: P-0211 Evy Höök
     ├── far: P-0241 Axel Edvin Henriksson, född 1901-01-31 i Sättna
@@ -256,7 +269,10 @@ namn **Brita Stina Svensdotter**, fadern som stationskarlen **Olaus
 Fredriksson Fredberg** och hans födelseuppgift 1852-05-24. Hemsjö C/6 och
 A I/4 för nu Brita Stina tillbaka till födelsen 1851-05-09 i Västra
 Bodarne och föräldrarna P-0383 Sven Olofsson och P-0384 Catharina
-Andersdotter. De är gränspersoner och följs inte djupare före breddmålet.
+Andersdotter. Hemsjö C/4 säkrar därefter Sven född 1815-02-16 i Bodarne med
+P-0513 Olof Hansson och P-0514 Britta Andersdotter som föräldrar. Catharinas
+senare datum 1815-01-28 saknas i samma födelseboks kronologiska intervall;
+hennes ursprung förblir olöst utan konstruerad relation.
 Östra Fågelviks och Alnös flyttningslängder för honom från Lundby i
 Älvsborgs län via Björknäs till Rökland 1873. Alnö A I/8 sida 167 och
 A I/9a sida 193 anger båda födelsedatumet 1852-09-04; den senare ger
@@ -324,6 +340,13 @@ Carl Augusts egen födelsenotis ger nu föräldrarna P-0386 Carl Fredric
 Andersson och P-0387 Anna Greta Danielsdotter i Målilla. Christina Gustafvas
 egen födelsenotis och komministerhushållet i Bäckebo ger P-0388 Anders
 Ringberg och P-0389 Johanna Christina Bökelund samt fyra registrerade bröder.
+Hossmo A I/3 och Sjöströms nominativa Ringberg-nyckel för Anders vidare till
+P-0515 Olof Nilsson och P-0516 Maja Jonsdotter i Rinkaby; Hossmo C/2:s hela
+1801-följd innehåller endast en annan Anders och får inte användas som
+alternativ identitet. Johanna Christinas egen födelsenotis i Mortorp ger
+P-0517 Samuel Bökelund och P-0518 Gustava Maria Kylenstjerna. Målilla A I/5
+återfinner Carl Fredrics och Anna Gretas hushåll men öppnar ingen säker äldre
+generation.
 Högbykällorna löser efternamnet, följer det sex barn starka Gasa-hushållet och
 visar att Christina dog 1874-03-30 av källorsaken `Nervfeber`; Karl August var
 änkling 1880. Elins egen notis och Gäddelstadshushåll för henne vidare
@@ -341,7 +364,9 @@ föräldrahemmet till hennes senare Carlman-hushåll. Carolinas egen
 födelsenotis ger P-0362 Lars Svensson och P-0363 Maja Lena Jonsdotter. Anders
 Magnus födelseböcker rättar 1844-10-28 till
 1844-08-28 och öppnar P-0360 Carl Månsson och P-0361 Inga Nilsdotter i samma
-Gäddestad. Anders Niklas egen notis för honom vidare till
+Gäddestad. Carls egen födelsenotis 1796-10-28 för honom vidare till P-0504
+Måns Håkansson och P-0505 Anna Jonsdotter; Ingas senare datum saknas däremot
+i födelseboken och hennes föräldrar är inte skapade. Anders Niklas egen notis för honom vidare till
 P-0315 Lars Petter Nilsson och P-0316 Cajsa Märta Andersdotter. Dessa föräldrar
 ligger utanför den visade utgåvans djup. Folkräkningarna 1880–1900 följer dem
 som torparparet i Högsjö, Indal. Indal C/4 och A I/8 säkrar Lars Petter född
@@ -356,7 +381,11 @@ följer henne i föräldrahemmet 1836–1854. Där namnges syskonen P-0377 Nils
 Peter, P-0378 Carl Johan, P-0379 Anna Helena, P-0380 Anders Olof 1842–1843,
 P-0381 den nye Anders Olof född 1844 och P-0382 Erik född 1847. Död- och
 födelseposterna skiljer de två sönerna Anders Olof och rättar Eriks
-födelsemånad till december. E I/1 och två hushållslängders äktenskapskolumner
+födelsemånad till december. Indal C/3:s kompletta årgångar saknar Anders på
+det senare datumet 1800-10-22; posten 1807-07-12 gäller i stället Anna Brita
+Jonsdotter och kan inte vara Anna Cajsa Larsdotter. Inga föräldrar skapas för
+paret utan ett tidigare personbundet hushåll eller vigsel-/flyttnyckel.
+E I/1 och två hushållslängders äktenskapskolumner
 säkrar Lars Petters och Cajsa Märtas registrerade äktenskapsdatum
 1858-02-21. A I/8 tillför dottern P-0406 Lisa Cajsa och A I/12 barnen P-0407
 Nils Petter, P-0408 Lars Olof, P-0409 Katarina Petronella och P-0410 Erik
@@ -562,8 +591,10 @@ fortsatt öppna.
   barnens efternamn konstrueras inte när originalet utelämnar dem (C-0751).
   Sävar C/1 s. 91 och A I/1 s. 157 säkrar nu hans egen födelse
   1825-02-01 och föräldrarna P-0470 Carl Jonas Zingmark, född 1785, och
-  P-0471 Anna Sophia Holmström, född 1792 (C-0681). De är nya djup-5-
-  spetsar; exakt egen födelseort och födelsedag återstår för båda.
+  P-0471 Anna Sophia Holmström, född 1792 (C-0681). A I/1 är Sävars första
+  längd och ger varken dag, födelsesocken eller bakåthänvisning för paret;
+  båda fronterna är därför reproducerbart `IDENTITET OLÖST` tills en
+  vigsel-, flytt- eller annan exakt ursprungsnyckel påträffas.
   Degerfors A I/5a s. 335 och A I/6b s. 399 löser nu Sara Sophias äldre
   identitet: hon står med födelsen 1829-05-21 som dotter till P-0472 Petter
   Reinhold Pehrsson och P-0473 Beata Jonsdotter i Ånäset. Den senare sidan
@@ -720,3 +751,8 @@ fortsatt öppna.
   Andersdotter i Sannerby. Syskonen P-0228 Anders och P-0229 Stina är
   registrerade som sidopersoner. Den senare hushållsuppgiften 1796-06-06 är
   bevarad som konflikt och har inte använts för att skapa föräldrarna.
+- T-0033 för Gabriel Eliasson vidare till P-0506 Elias, vars efternamn är
+  oläsligt, och P-0507 Greta Gabrielsdotter. Per Hillbergs familjehushåll
+  säkrar modern P-0508 Brita Hillberg. Stina Larsdotters, Greta Björkqvists
+  och Inga Nilsdotters föräldrafronter är uttryckligen slutklassificerade;
+  inga sekundära kandidater har fyllt luckorna.

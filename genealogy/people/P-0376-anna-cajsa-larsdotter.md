@@ -2,15 +2,16 @@
 
 ## Identitet
 
-Född 1807-07-12 i Indal, hustru till bonden Anders Dahlsten i Säter och mor
-till Cajsa Märta, född 1834-03-21.
+Senare uppgiven född 1807-07-12, hustru till bonden Anders Dahlsten i Säter,
+Indal, och mor till Cajsa Märta, född 1834-03-21.
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2170 | Anna Cajsa Larsdotter i Säter var mor till Cajsa Märta, född 1834-03-21 och döpt 23 mars i Indal. | TRANSCRIBED | hög | [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md) | Dotterns samtida födelse- och doppost. |
-| A-2175 | Anna Cajsa Larsdotter föddes 1807-07-12 i Indal och följs som Anders Dahlstens hustru och barnens mor i Säter i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Två successiva hushållslängder; egen födelsenotis återstår. |
+| A-2175 | Anna Cajsa Larsdotter uppges född 1807-07-12 och följs som Anders Dahlstens hustru och barnens mor i Säter i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Två successiva hushållslängder; födelsesocken och egen födelsenotis återstår. |
+| A-3230 | Indal C/3:s post 1807-07-12 gäller Anna Brita, dotter till Jon Andersson och Stina Jonsdotter i Högsjö, och är inte förenlig med Anna Cajsa Larsdotter. | CONFLICT | hög | [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md) | Exakt datumträff men oförenligt namn och patronymikon; kandidaten hålls separat. |
 
 ## Relationer
 
@@ -27,7 +28,24 @@ till Cajsa Märta, född 1834-03-21.
 
 ## Forskningsstatus
 
-Gränsperson på djup 5. Födelsedatumet, Indal som födelseort,
-Säter-hushållet 1836–1854, maken och sju namngivna barn är säkrade. Egen
-födelsenotis, vigsel och död återstår. Följ inte hennes anor före den fasta
-32-personerskohortens breddmål.
+Säter-hushållet 1836–1854, maken och sju namngivna barn är säkrade. Den enda
+Indalsposten på det senare datumet 1807-07-12 har ett annat namn och
+patronymikon och får inte göras till hennes födelsepost.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett tidigare personbundet Säter-hushåll, parets vigsel
+  eller en flyttkälla som anger Annas föräldrahem eller säker födelsesocken.
+- Genomsökt: Indal C/3:s hela födelseår 1807, bilder
+  `C0033076_00184`–`_00185`, mot A I/6–A I/7:s exakta datum.
+- Negativ kontroll: [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md)
+- Återaktivering: en personbunden sida eller vigsel-/flyttpost som binder
+  Anna Cajsa Larsdotter till ett bestämt föräldrahem; välj inte Anna Brita
+  enbart på datumlikheten.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
+- Källbredd: `KLAR` — full årgångskontroll, avvisad datumkandidat och exakt
+  återstartvillkor finns.

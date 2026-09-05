@@ -125,3 +125,14 @@ Direkt ana på Adams djup 5 genom den lösta föräldralänken 2026-09-01.
   Följ tidig militär handläggning bara genom en daterad order-,
   kontrakts- eller attestnyckel och behandla Bokulla som lejd rote, inte
   bostad. Rotera nu till P-0475.
+
+## Slutstatus
+
+- Status: `VERIFIERAD`
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0038)
+- Källbredd: `KLAR` — egen födelsenotis säkrar modern P-0500 Ella Ersdotter;
+  tomt fadersfält och den bevarade april/juli-konflikten får inte fyllas med
+  patronymikonet. Övriga öppna frågor är berikning, inte en parentfront.

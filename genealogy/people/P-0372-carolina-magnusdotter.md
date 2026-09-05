@@ -20,6 +20,24 @@ diplomatiska form `Magnust:r` bevaras bredvid normaliseringen Magnusdotter.
 
 ## Forskningsstatus
 
-Gränsperson på djup 5. Föräldrarelationen är säkrad, men egna datum och
-hushåll saknas. Följ inte hennes anor före den fasta 32-personerskohortens
-breddmål.
+Föräldrarelationen är säkrad, men egna datum och hushåll saknas. Sonens
+födelsepost anger endast `fr. S. Försam.` och ger ingen ort eller sida.
+Hällefors A I/12a–b saknar personregister; de lästa ortförteckningarna kan
+därför inte användas utan en ny adressnyckel.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett senare Hök-hushåll, vigsel/flyttnotis eller annan
+  personbunden källa som ger Carolina exakt adress, datum och patronymikon.
+- Genomsökt: Hällefors C/9 post 67 samt A I/12a–b:s ortförteckningar;
+  volymerna saknar personregister och födelseposten saknar ortsnyckel.
+- Negativ kontroll: [C-0380](../citations/C-0380-hallefors-C9-tre-anders-gustaf-1853.md)
+- Återaktivering: exakt datum, flytt eller hushållsort; ingen blind
+  helvolymsgenomgång av A I/12a–b på namnformen ensam.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0035)
+- Källbredd: `KLAR` — den kända originalposten och lagliga indexvägen är
+  uttömda; återstartvillkoret är explicit.

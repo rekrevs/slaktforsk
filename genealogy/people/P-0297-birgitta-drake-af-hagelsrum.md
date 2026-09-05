@@ -12,6 +12,8 @@ adress.
 |---|---|---|---|---|---|
 | A-1661 | Birgitta, kallad Gittan, Drake af Hagelsrum uppges vara lärare och bo i Norrköping. | TRANSCRIBED | medel | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Privat familjeuppgift; ingen adress lagras. |
 
+| A-3303 | Gunilla Birgitta står som dotter i Gustaf Tobias Lundqvists och Alva Viktoria Eliassons hushåll. | CORROBORATED | hög | [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md), [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Samma mor, bror Björn och Tibrofamilj identifierar den befintliga Birgittaakten; senare efternamn och make styrks inte av denna bok. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

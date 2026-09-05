@@ -23,10 +23,21 @@ kompletta födelseföljden där 1791 saknar en motsvarande Jan och uppgiften
 | [P-0475 Johanna Jansdotter](P-0475-johanna-jansdotter-grill.md) | dotter | CORROBORATED | C-0721, C-0731 |
 | [P-0477 Lena Jonsdotter](P-0477-lena-jonsdotter-walla.md) | hustru i Walla-hushållet | CORROBORATED | C-0721, C-0731 |
 
-## Forskningsstatus
+## Slutstatus
 
-- Status: `NY DJUP-6-SPETS — FADERSKAP SÄKRAT; EGEN FÖDELSE I KONFLIKT`
-- Nästa väg: följ Jan bakåt och framåt från Walla i Stora Malms
-  husförhörs- och flyttlängder. Upprepa inte blind läsning av Björkvik C/4
-  år 1791; återta födelsefrågan först med en ny ort-, familje- eller
-  flyttnyckel.
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: en tidigare personbunden Walla-/Stora Malm-kedja,
+  vigsel-, flytt- eller dödsnotis som rättar hans födelseuppgift eller
+  namnger föräldrahem.
+- Genomsökt: dotterns födelse och familjehushållet samt Björkvik C/4:s hela
+  födelseår 1791, C-0721/C-0731.
+- Negativ kontroll: [C-0731](../citations/C-0731-stora-malm-bjorkvik-jan-lena-ursprung.md) visar ingen Jan som motsvarar 1791-05-09 i den något defekta
+  volymens kompletta årsföljd.
+- Återaktivering: ny positiv orts-, familje-, hushålls- eller flyttnyckel.
+  Upprepa inte blind läsning av Björkvik 1791.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0044)
+- Källbredd: `KLAR` — fadersrollen är säkrad och födelsekonflikten har en
+  reproducerbar komplett kontroll.

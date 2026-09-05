@@ -29,3 +29,10 @@ Ny direkt ana på djup 5, vidareförd till P-0234–P-0235. Följ henne
 breddförst genom äldre hushåll, vigsel, död/begravning, mantal och
 bouppteckning. Platsangivelsen `N:o 63` behöver lokaliseras innan den används
 som gårdsidentitet.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0040)
+- Källbredd: `KLAR` — egen födelsenotis säkrar P-0234–P-0235 och två
+  hushållslängder säkrar make, barn och Risvattnet; `N:o 63` lämnas
+  olokaliserat och senare liv är berikning.

@@ -21,10 +21,20 @@ Pehrsson.
 |---|---|---|---|
 | [P-0474 Carl Fredrik Grill](P-0474-carl-fredrik-grill.md) | son | CORROBORATED | C-0798 |
 
-## Forskningsstatus
+## Slutstatus
 
-- Status: `NY DJUP-6-SPETS — MODERSKAP SÄKRAT; EGEN IDENTITET ÖPPEN`
-- Följ Ella endast från en säker hushålls-, flytt- eller ny födelsenyckel.
-  A I/4:s tomma sida 119 och A I/5:s sida 3 är avgränsade sidresultat,
-  inte person- eller vistelsenoll. Skapa ingen far ur patronymikonet
-  Pehrsson utan en uttrycklig samtida faderskapskälla.
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett personbundet Halla-/Lilla Wättstugan-hushåll,
+  flytt-, vigsel- eller dödsbelägg med eget datum eller föräldrahem.
+- Genomsökt: sonens samtidiga födelsenotis samt A I/4 sida 119 och A I/5
+  sida 3 som avgränsade sidkontroller, C-0798.
+- Negativ kontroll: [C-0798](../citations/C-0798-halla-C2-carl-fredrik-ella-ersdotter.md) säkrar moderskap, ålder 23 och plats men hushållssidorna ger ingen personbrygga bakåt.
+- Återaktivering: en ny positiv hushålls-, flytt-, vigsel-, döds- eller exakt
+  födelsenyckel. Skapa ingen far till Carl Fredrik ur patronymikonet
+  Pehrsson.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0045)
+- Källbredd: `KLAR` — modersrollen är säkrad och de befintliga sidresultaten
+  får inte göras till person- eller vistelsenoll.

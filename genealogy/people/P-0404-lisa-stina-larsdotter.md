@@ -23,4 +23,24 @@ Christina Jonsdotter.
 
 Moderskapet är säkrat i sonens födelsepost. Egen födelse, vigsel eller annan
 relation till Nils Pehrsson, boställe och livsslut är öppna. Sökankaret är
-namnet, åldern 25 år 1836 och den svårlästa orten i C-0509.
+namnet, åldern 25 år 1836 och det svårlästa ordet efter faderns namn i
+C-0509; ordet normaliseras inte till ort eller släktnamn utan korsbelägg.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: personbundet hushåll, vigselpost eller flyttnotis som
+  förenar Lisa Stina med en säker födelsedag, socken eller föräldrahem.
+- Genomsökt: sonens samtida födelsepost i Indal C/4 och A I/7:s hela
+  Högsjöavsnitt sidorna 86–95 för den senare målprofilen Nils Pehrsson–Lars
+  Petter; avsnittet saknar familjen.
+- Negativ kontroll: [C-0514](../citations/C-0514-indal-AI7-hogsjo-nilsson-avgransat-negativ.md)
+- Återaktivering: en säker läsning av det svårlästa ordet i C-0509 eller en
+  ny personbunden vigsel-, hushålls- eller flyttnyckel. Sök inte ett helt
+  födelseår omkring 1811 enbart på namn och avrundad mödraålder.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0038)
+- Källbredd: `KLAR` — moderskapet är säkrat men hennes egen identitet saknar
+  unik datum-/ortsnyckel; bred namnsökning skulle inte vara källsäker.

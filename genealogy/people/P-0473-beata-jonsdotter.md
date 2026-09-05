@@ -38,3 +38,10 @@ inte säkrade. Direkt ana på Adams djup 5 genom den lösta föräldralänken
   djup-6-våg. Upprepa inte Degerfors C/2 år 1809 utan en ny orts- eller
   datumnyckel. Dödsåret 1852 får inte ges en exakt dag utan en ny källa som
   överbryggar det katalogiserade dödboksgapet.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0040)
+- Källbredd: `KLAR` — P-0478–P-0479 är säkrade i föräldrahushållet;
+  födelseårsnollet och dödboksgapet är avgränsade och egna exakta datum är
+  berikning.

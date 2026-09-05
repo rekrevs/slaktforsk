@@ -48,6 +48,8 @@ faderskapsbelägg krävs inte.
 | A-1700 | Möbelföretaget i Södertälje låg enligt Jan-Christer på Värdsholmen vid Södertälje Södra. | TRANSCRIBED | hög | [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Mer precis plats än 2011 års krönika; företagsnamn saknas. |
 | A-1707 | Jan-Christer uppger att Varia antändes av en gnista från ett ånglok på den intilliggande järnvägen. | TRANSCRIBED | medel | [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Teknisk brandorsak i senare familjeminne; tidnings- eller brandkårskälla återstår. |
 
+| A-3311 | Det användarförmedlade Svbef1950-utdraget anger Arne med Maj Amalia och de tre kända barnen på Frödingsv 15, Tranbäret 1, med poleraryrke och hänvisning till Mantalslängder 1951, 2828, bild 620/sida 260. | LEAD | medel | [C-0876](../citations/C-0876-arne-mantal-1951-kallprov.md) | Registerobservation; originalhushållet är oläst. Lokala 1951-volymer funna men märkta Läsesal. Inget nytt OWNER_CONFIRMED-beslut. |
+
 ## Öppet
 
 - Länken från paret till sonen Jan-Christer behöver en lämplig familje- eller
@@ -73,4 +75,11 @@ faderskapsbelägg krävs inte.
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `KLAR` — identitet, båda föräldraled, födelse, morföräldrahushåll, vigsel och yrkes-/familjeliv har prövats i den tidigare utgåvepassagen; öppna döds- och biografispår är dokumenterad villkorlig berikning, inte oprövad prioritet 1 i denna närmare skiva.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0061. Den preciserade mantalsfrågan om vuxenhushåll, adress/fastighet och yrke 1951 är öppen, C-0876. Två lokala volymer har konkret läsesalsgräns, men distrikt och alternativa källors räckvidd är ännu inte avgjorda. Ingen fullständig aktuell personmatris har prövats; ett avslutat katalogprov räcker inte för ett personövergripande KLAR.
+
+Tidigare bedömning 2026-09-04 bevarad som historik: identitet, båda
+föräldraled, födelse, morföräldrahushåll, vigsel och yrkes-/familjeliv
+bedömdes prövade för dåvarande utgåva, med döds- och biografispår som
+villkorlig berikning. Pilotens ändring gäller forskningsläge och
+omfattning, inte accepterade familjefakta. Se
+[pilotrapporten](../source-strategy-pilot-2026-09-05.md).

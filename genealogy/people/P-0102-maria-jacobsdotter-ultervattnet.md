@@ -18,3 +18,13 @@
 | [P-0161 Anna Stina Andersdotter](P-0161-anna-stina-andersdotter-ultervattnet.md) | mor | TRANSCRIBED | C-0124 |
 | [P-0103 Anders Olofsson](P-0103-anders-olofsson-ultervattnet.md) | make | CORROBORATED | C-0123, C-0069 |
 | [P-0094 Jakob Andersson](P-0094-jakob-andersson-ultervattnet.md) | son | CORROBORATED | C-0069, C-0070 |
+
+## Slutstatus
+
+- Status: `VERIFIERAD`
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
+- Källbredd: `KLAR` — egen födelsenotis namnger båda föräldrarna och
+  vigsel-/hushållskedjan säkrar den vuxna identiteten.

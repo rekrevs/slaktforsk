@@ -35,3 +35,23 @@ Direkt ana på djup 5. Den exakta Bettna-födelsen är en dokumenterad
 konflikt. Den säkra kedjan börjar tills vidare på A I/8 sida 118. Återuppta
 bakåtspåret genom andra tjänstehushåll, vigseln före 1849 och kompletterande
 mantals-/flyttkällor utan att anta Duphagen-kandidaten.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: en personbunden vigsel-, tjänstehushålls-, mantals- eller
+  flyttpost före Årdala A I/8 sida 118 som binder Lars Erik till rätt
+  födelsefamilj och avgör Bettna-datumet.
+- Genomsökt: Bettna C/4 på och kring 1819-08-07; Duphagen i Bettna A I/5 b
+  sida 16; Årdala A I/8 sidorna 63, 80, 93, 118, 173 och 189; hela Årdala
+  B/1:s inflyttningsårssidor 1844–1847.
+- Negativ kontroll: [C-0166](../citations/C-0166-lars-erik-AI8-B1-avgransad-kontroll.md)
+- Återaktivering: öppna en ny väg först med positiv tidigare gårds-,
+  arbetsgivar-, vigsel-, mantals- eller flyttnyckel; Duphagen-barnet får inte
+  sammanföras utan en obruten kedja.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0033)
+- Källbredd: `KLAR` — den säkra vuxenkedjan, avvisade sidorna och den exakta
+  reaktiveringsnivån är dokumenterade.

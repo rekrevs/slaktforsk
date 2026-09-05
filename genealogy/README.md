@@ -3,6 +3,12 @@
 ## Mappar och identifierare
 
 - `people/P-NNNN-*.md` — personakter med påståenden och evidensbedömning.
+- `research-profiles/P-NNNN.md` — frågor, tio livsteman, söknycklar,
+  källvägar och slutgranskning enligt [personkontraktet](person-contract.md).
+- `source-contexts/` — återanvändbar ort-/tids-/arkivrouting när flera
+  personer delar källor; aldrig personbelägg eller parallell arbetskö.
+- `research-inventory.json` — härledd strukturell inventering av alla P-id:n;
+  byggs med `node scripts/research-inventory.mjs --write`.
 - `sources/S-NNNN-*.md` — bibliografisk beskrivning av en källa eller volym.
 - `citations/C-NNNN-*.md` — exakt ställe i en källa och relevant avskrift.
 - `research-log/YYYY-MM-DD.md` — kronologisk söklogg, även negativa resultat.
@@ -31,10 +37,19 @@ Projektet skiljer fyra lager som inte får blandas ihop:
    bedömning av identitet, händelser, relationer, konflikter och luckor.
 3. **Härledda slutsatser:** den verifierade antavlan, rapporter, index och
    exporter som byggs från personmodellen.
-4. **Arbetsläge:** Wotan, handover, forskningsfront, täckningsmatris och
+4. **Arbetsläge:** Wotan, personprofiler, forskningsfront, täckningsmatris och
    personakternas `## Arbetsläge` som anger vad som ska göras eller
-   granskas, inte vad som är sant om en person. Läget mot north star räknas
-   ut med `node scripts/goal-state.mjs`; se `NORTH-STAR.md`, avsnittet Mått.
+   granskas, inte vad som är sant om en person. Utförbart arbete och
+   återupptagning hör till Wotan enligt [konventionen](../wotan/README.md).
+   Registrerade indikatorer räknas ut med `node scripts/goal-state.mjs`;
+   se `NORTH-STAR.md`, avsnittet Framstegsmått och deras begränsning.
+
+Forskningsprofilernas kunskapsläge är skilt från Wotans utförandestatus.
+De konkretiserar PK-01–12 och ska finnas för berörda akter vid ny forskning.
+Alla akter, också de som ännu saknar profil, visas i `research-inventory`.
+Den maskinella kontrollen prövar struktur, inte beläggens sakliga styrka.
+Äldre GRANSKAD/KLAR tillgodoräknas endast för faktiskt styrkt omfång, inte
+som ett automatiskt godkännande av nya krav. Se [arbetsprogrammet](research-plan.md).
 
 ### Avsnittet `## Arbetsläge`
 
@@ -55,10 +70,36 @@ Varje personakt får bära ett avsnitt `## Arbetsläge` med följande rader:
 - `Källbredd` är valfri och används bara när källtäckningsmatrisen inte har
   en rad för personen: `INTEGRITETSMINIMERAD` för sannolikt levande personer
   och `KLAR` med motivering i akten när ingen relevant källfamilj återstår.
-  Annars avgör matrisraden: klar när ingen cell står som oprövad
-  högprioriterad (`1`).
+  Annars avgör matrisraden den administrativa indikatorn: inga oprövade
+  högprioriterade (`1`) celler. Saklig källbredd kräver även prövning av
+  villkorliga vägar enligt NORTH-STAR.md. Ett KLAR-fält får inte åsidosätta
+  öppna frågor i matrisen; avvikande kod ska rättas, inte legitimera avslut.
 - Anspetsar och personer med bara en känd förälder bär dessutom
   `## Slutstatus` enligt reglerna i `scripts/lib/terminal-status.mjs`.
+
+Slutstatusens strukturkontroll kräver exakt en Status-rad, en förväntad
+källa, genomsökt omfång och ett icke-tomt `Återaktivera när`-fält.
+`VERIFIERAD` kräver dessutom `Belägg` med en giltig länk till en befintlig
+C-post; övriga statusar kräver `Negativ kontroll` med sådan länk.
+Fortsättningsrader i fält ska vara indragna. Tomma värden kan inte ersättas
+av nästa punkt eller ett senare avsnitt. Etiketten ensam räcker aldrig.
+Detta testar struktur och referens, inte om källan faktiskt bär slutsatsen.
+Personer med två etablerade föräldrar behöver ingen slutstatus för den
+föräldrafrågan; `OWNER_CONFIRMED`-relationer består utan nya arkivkrav.
+
+En befintlig källtäckningsrad har alltid företräde framför Källbredd-fältet,
+även för `INTEGRITETSMINIMERAD`. Utan matrisrad får den etiketten användas
+för integritetsminimerad behandling; `KLAR` kräver skriven motivering efter
+etiketten, på samma eller en indragen fortsättningsrad. Ett datum ensamt är
+ingen motivering. Frånvaro av prioritet 1 är endast en registrerad indikator;
+villkorliga 2-celler kan fortfarande dölja materiellt arbete som måste prövas.
+
+Vid en **ny personövergripande avslutsbedömning** krävs dessutom GODKÄND
+kontraktsgranskning enligt PK-01–12. En begränsad källa eller temapassage
+får vara genomgången medan personens övriga frågor består. Äldre KLAR och
+matrisceller får behållas som registrerad historik men är inte en dispens
+från detta krav. Inventeringen redovisar den skillnaden utan att ändra
+etablerade släktrelationer.
 
 Evidenshistoriken är append-only. När en bevarad observation visar sig vara
 felavläst, felkopplad eller ofullständig ska den ligga kvar och en ny
@@ -101,6 +142,8 @@ och förbli spårbar som ägarkunskap.
 - `TRANSCRIBED` — avläst ur angiven källa; identitetsbedömningen redovisas
   separat och får inte antas enbart av denna status.
 - `CORROBORATED` — stöds av minst två självständiga eller kompletterande belägg.
+  Etiketten är inte en fullständig bevisstandard: redovisa beroende per
+  informationsuppgift, relevanta alternativ och konflikter i frågans bedömning.
 - `OWNER_CONFIRMED` — uttryckligen säker familjekunskap från projektägaren,
   bevarad i ett Project Control Decision; sann i projektets kanoniska modell.
 - `CONFLICT` — motsägs av annan uppgift och kräver analys.
@@ -189,6 +232,10 @@ volymkoderna för folkräkningen beskrivs i
 
 ## Arbetsflöde
 
+Detta är evidenshanteringen inom [forskningsprogrammets](research-plan.md)
+person-/hushållscykel. Val av källor och följdsökningar styrs av
+[källstrategin](source-strategy.md); resultatet prövas mot PK-01–12.
+
 1. Registrera inkommande uppgift som `LEAD` med provenans.
 2. Sök närmast primära källa och logga både träffar och relevanta nollresultat.
 3. Skapa källakt och citationsakt innan påståendet uppgraderas.
@@ -202,12 +249,17 @@ volymkoderna för folkräkningen beskrivs i
    antavla, personer och andra slutsatser som beror på den.
 8. Exportera endast härledda, verifierade data till GEDCOM.
 
-## Utgåvegrind för T-0012
+## Utgåvegrind
 
-Nästa gemensamma Adam/Axel-utgåva ska bli jämnt rikare och gå en balanserad
-generation djupare än den första rapporten. Arbetet går därför breddförst över
-den fasta 32-personerskohorten: varje person ska få en central källryggrad och
-alla sakligt relevanta Riksarkivet-källfamiljer ska användas eller få ett exakt
+Utgåvor är separata, uttryckligen beslutade leveranser med fast omfång i
+Wotan. Historisk djup-5-kohort och dess passerade utgåvegrind finns i
+PCD-2026-08-23-001 och PCD-2026-09-04-002 i
+[Project Control](../PROJECT-CONTROL.md). T-0012 är inte en aktuell
+startinstruktion. För kommande utgåvor gäller följande principer.
+
+Arbeta breddförst över utgåvans beslutade kohort: varje person ska få en
+central källryggrad och alla sakligt relevanta Riksarkivet-källfamiljer
+ska användas eller få ett exakt
 dokumenterat hinder innan en lätt gren drivs djupare. Folkräkningar,
 husförhör/församlingsböcker, flyttning, vigsel, död, bouppteckning, mantal och
 yrkesutlösta serier används för biografiska helheter, inte bara ankoppling.
@@ -219,11 +271,10 @@ och slutsatser ska gå att skilja åt, och materiella konflikter eller luckor sk
 vara lösta eller uttryckligt redovisade. Ingen osäker relation får öppna nästa
 anled som etablerad.
 
-När kohorten är forskningsklar ska arbetet stanna. Ingen ny PDF, inget manifest
-och ingen layout får påbörjas innan ägaren och forskningsarbetet har haft en
-rejäl diskussion om innehåll, berättelse, personurval, källredovisning,
-bildanvändning och visuell form. Den diskussionen ska uttryckligen ta nästa
-steg från v1, inte bara upprepa dess mall.
+Ingen ny PDF, inget manifest och ingen layout får påbörjas innan
+innehåll, berättelse, personurval, källredovisning, bildanvändning och visuell
+form har beslutats enligt [forskningsprogrammets utgåvegrind](research-plan.md#utgåvegrind).
+Ett redan dokumenterat beslut ska inte efterfrågas igen utan saklig anledning.
 
 ## Integritet
 

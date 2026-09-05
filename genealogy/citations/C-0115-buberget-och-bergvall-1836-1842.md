@@ -71,3 +71,19 @@ skälet är ett annat än det angivna, och byrubriksgenomgången av `A I/8a` och
 ## Stödda påståenden
 
 A-0674–A-0679.
+
+
+## Rättelse 2026-09-05, T-0053 batch 283
+
+C-0869 visar Anders som son i Buberget i A I/6b (1848–1857) sida 474
+samt A I/8b (1861–1865) sida 536. Slutsatsen ovan att byn inte var hans
+barndomshem, återgiven i A-0675, är därmed avvisad. Tjernbergsidan 308
+avgränsar bara det lästa hushållet och tidsspannet. Inte heller ett
+senare övertagande av hemmanet är belagt av detta noll.
+
+En ny hämtning av bild A0001434_00325 har exakt samma SHA-256 som
+originalet ovan. Filidentiteten är kontrollerad; den äldre avskriftens
+barnår efter volymens slut är däremot opålitliga och får inte användas
+utan rättad läsning. Ingen ny fullständig sidopersonsavskrift görs här.
+Se [C-0869](C-0869-buberget-register-och-hushall.md) för kontrollfil,
+positiva målgrupper och avgränsad identitetsbedömning.

@@ -36,3 +36,12 @@ en äldre Holm-hushållskedja.
 - Genomsökt: exakt födelsepost i Holm C/1 samt CEDAR:s länkade vuxenbiografi.
 - Negativ kontroll: [C-0531](../citations/C-0531-holm-C1-jonas-fodd-1816.md)
   bevarar den olösta Simonsson/Stefansson-konflikten utan skapad relation.
+- Återaktivering: en äldre personbunden Holm-hushålls- eller flyttkedja som
+  förenar Jonas 1816-10-09 med ett uttryckligt föräldrapar och avgör
+  Simonsson/Stefansson utan namnnormalisering.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0040)
+- Källbredd: `KLAR` — egen födelse och vuxenhushåll är säkrade;
+  föräldrakonflikten har ett exakt personbundet återstartvillkor.

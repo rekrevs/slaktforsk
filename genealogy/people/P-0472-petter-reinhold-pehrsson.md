@@ -42,3 +42,23 @@ den lösta föräldralänken 2026-09-01.
   till födelse och föräldrar. Upprepa inte blind A I/7-screening eller
   Lycksele C/2 och Degerfors C/1 år 1798 utan en sådan nyckel. A I/6
   personscreenas först om en ny källa placerar honom i Lycksele före 1817.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: personbundet hushåll, flyttattest eller födelsepost som
+  anger Petter Reinholds exakta födelsedag, födelsesocken eller föräldrar.
+- Genomsökt: Degerfors A I/2–A I/4:s säkra vuxenkedja, Degerfors C/1:s hela
+  födelseår 1798, Lycksele A I/7 sida 126 i Åskilje, Lycksele C/2:s hela
+  födelseår 1798 samt Degerfors B/1:s bevarade flyttningssidor 1822–1826.
+- Negativ kontroll: [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md),
+  [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md)
+- Återaktivering: en ny positiv datum-, orts-, hushålls- eller flyttnyckel.
+  A I/6 personscreenas endast om en sådan källa placerar honom i Lycksele
+  före 1817; upprepa inte de två kompletta födelseåren på namn och år ensamma.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0038)
+- Källbredd: `KLAR` — två kompletta födelseår och den personbundna
+  Degerfors–Åskilje-bryggan är prövade; nästa säkra steg kräver en ny nyckel.

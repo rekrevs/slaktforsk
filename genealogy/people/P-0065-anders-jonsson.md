@@ -1,5 +1,12 @@
 # P-0065: Anders Jonsson
 
+Aktuell bedömning efter T-0061, 2026-09-05: identiteten och födelsedagen
+1839-04-16 består. Den tidigare säkert formulerade vigselavvikelsen
+kvalificeras som olöst avläsning 14/16; se A-3312 och
+[C-0877](../citations/C-0877-anders-kallstrategi-omlasning.md).
+Äldre konfliktformuleringar nedan är evidenshistorik, inte ett slutligt
+avgörande av vigseloriginalets sista siffra.
+
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
@@ -27,56 +34,101 @@
 | A-2427 | Degerfors A I/10c s. 207 anger vigseln med Lotta Sofia till 1867-01-28 och listar mågen Johan Oskar Zingmark med hustru och dotter från 1888. | TRANSCRIBED | hög | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md) | Kompletterar C-0106; barnens exakta datum finns på samma sida. |
 | A-3146 | Umeå fögderis fondförteckning identifierar Degerfors mantalsvolymer Vol/58–66 över Anders kända vuxenperiod 1867–1909, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
 
+| A-3270 | A I/6b 1848–1857 sida 474 upptar ”Sonen Anders”, född 16/4 1839, under Jonas Andersson 1796 och hustrun Ulrika Lovisa Jonsdotter 1804 i Buberget. | TRANSCRIBED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md) | Uttrycklig sonrad; bokperioden är inte ett exakt inflyttningsdatum. |
+| A-3271 | A I/8b 1861–1865 sida 536 upptar Anders 16/4 1839 i samma föräldra- och syskongrupp i Buberget. | TRANSCRIBED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md) | G.B.400 är en ännu oföljd hushållshänvisning. |
+| A-3272 | Den unge Anders i de två äldre Bubergetshushållen är samma person som maken till Lotta Sofia i A I/9c folio 85. | CORROBORATED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Samma föräldra-/syskonkonstellation och datum; på folio 85 både sonrad och eget känt hushåll. Datumkonflikten 14/16 april består. |
+| A-3273 | A-0675:s slutsats att Buberget inte var hans barndomshem kan inte upprätthållas. | CORROBORATED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md) | Positiv barndoms-/ungdomsrad i boken 1848–1857 motsäger det äldre hushållsnollets för stora omfång. A-0610 och A-0675 bevaras som historik; tid för hemmansövertagande är inte belagd. |
+
+| A-3274 | Jonas Andersson, född 1796, var Anders Jonssons far. | CORROBORATED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) | Uttrycklig sonrad 1848–1857, upprepad familjegrupp 1861–1865 och sonens eget hushåll på samma folio 85. |
+| A-3275 | Ulrika Lovisa Jonsdotter, född 1804, var Anders Jonssons mor. | CORROBORATED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) | Hustrun och barnskaran följs i samma tre hushåll; ingen konkurrerande modersuppgift på de lästa raderna. |
+
+| A-3305 | A I/5b sida16 (1843–1847) visar Anders16/4 1839 som barn i Jon Anderssons1796 och Ulrica Lovisas1804 Bubergetshushåll. | CORROBORATED | hög | [C-0872](../citations/C-0872-anders-buberget-fodelse-1839-rattelse.md), [C-0869](../citations/C-0869-buberget-register-och-hushall.md) | Samma föräldra-/syskongrupp som i senare böcker. |
+| A-3306 | A I/4 sida310 (1836–1842) visar Anders16/4 1839 i samma föräldra- och syskonfamilj. | CORROBORATED | hög | [C-0872](../citations/C-0872-anders-buberget-fodelse-1839-rattelse.md) | Samtida tidig familjerad; äldre sida309 var endast routingprov. |
+| A-3307 | Anders föddes1839-04-16 enligt egen födelsenotis i Degerfors C/3 bild44, som anger föräldrarna Jon Andersson och Ulrica Lovisa med boställe Buberget. | CORROBORATED | hög | [C-0872](../citations/C-0872-anders-buberget-fodelse-1839-rattelse.md) | Föräldrar, by, datum och barndomskedja identifierar honom. Egen födelsepost bär datumvalet; vigselbokens14 april bevaras som avvikelse. |
+| A-3308 | C-0107/A-0603:s negativa aprilavskrift är felaktig: originalet anger Jon Andersson och Ulrica Lovisa i Buberget, inte Lars Andersson i Skäckerjord. | CORROBORATED | hög | [C-0872](../citations/C-0872-anders-buberget-fodelse-1839-rattelse.md), [C-0107](../citations/C-0107-degerfors-1839-negativ-kontroll.md) | Samma bevarade44-fil, SHA kontrollerad. Äldre observation och slutsats bevaras som revisionshistorik, men nollet upphävs. |
+
+| A-3312 | Vid pilotens omläsning av C-0106:s vigselbild kan sista siffran i den tidigare avlästa födelsedagen 14/16 april inte avgöras med tillräcklig säkerhet. | CONFLICT | medel | [C-0877](../citations/C-0877-anders-kallstrategi-omlasning.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Kvalificerar A-0599 och senare hänvisningar till säker originalavvikelse. Födelsepostens 16 april och föräldraidentiteten består. Ingen ny säker vigselläsning eller förklaring om skrivfel införs. |
+
+## Relationer
+
+| Person | Relation | Status | Belägg |
+|---|---|---|---|
+| [P-0082 Jonas Andersson](P-0082-jonas-andersson-buberget-kontext.md) | far | CORROBORATED | C-0869, C-0064 |
+| [P-0519 Ulrika Lovisa Jonsdotter](P-0519-ulrika-lovisa-jonsdotter-buberget.md) | mor | CORROBORATED | C-0869, C-0064 |
+
 ## Forskningsfrågor
 
-- Föräldrarna är ännu inte funna. Nästa steg är att söka honom som barn i
-  Degerfors husförhörslängder, som är digitaliserade i sin helhet:
-  `A I/5a`–`A I/5b` (1843–1847), `A I/6a`–`A I/6b` (1848–1857) och
-  `A I/8a`–`A I/8b` (1861–1865). Bubergets uppslag är den naturliga ingången,
-  eftersom han övertog hemmanet där.
-- Klarlägg varför födelseboken saknar en matchande post trots att båda samtida
-  källorna anger Degerfors som födelseförsamling.
+- Föräldrarna är nu knutna till P-0082 och P-0519 genom tre lästa
+  hushåll. Deras egna ursprung och livsbilder är nya öppna fronter.
+- Egen födelsepost identifierad i T-0057; den äldre negativa avskriften
+  är rättad. Vigselbokens avvikelse14 april har okänd tillkomstorsak.
 - Hans senare liv är nu följt som bonde och änkling i Buberget till döden
   1909-10-21. Bouppteckningen är lokaliserad till `F II/7 nr 55`, men
   originalet kräver kopiebeställning eller läsesalsbesök.
 
 ## Slutstatus
 
-- Status: `IDENTITET OLÖST`
-- Förväntad källa: Degerfors födelsebok `SE/HLA/1010028/C/3` (1831–1850),
-  årgången **1839**, uppslaget för hans födelse. Volymen är fritt åtkomlig och
-  genomgången, men innehåller ingen post som kan vara hans.
-- Genomsökt: hela årgången 1839, bilderna 44–47 med båda postblocken per
-  uppslag, på både födelsedatum och dopnamn; husförhörslängden `A I/4`
-  (1836–1842) sida 308 Buberget via volymens byregister; samtliga byrubriker i
-  `A I/8a` och `A I/8b` (1861–1865); vigselboken `E I/2` 1867, som ger
-  födelsedatumet `14/4 1839`; husförhörslängden `A I/9c`, församlingsboken
-  `A II a/3` sida 1088 och dödboken `F/3` sida 174 som ger `16/4`.
-- Negativ kontroll: [C-0107](../citations/C-0107-degerfors-1839-negativ-kontroll.md) och [C-0115](../citations/C-0115-buberget-och-bergvall-1836-1842.md)
-- Kvarstående motsägelse: två samtida källor anger april 1839, men årets fyra
-  pojkar med dopnamnet Anders har fäderna Lars Andersson, Hans Andersson,
-  Anders Eliasson och Anders Nilsson. Ingen ger patronymikonet Jonsson. Hans
-  barndomsby är okänd, så husförhörslängderna kan inte slås upp riktat.
-- Sen livskedja: Buberget A I/11c sida 241, folkräkningen 1900 och A II a/3
-  sida 1088 följer honom som bonde och änkling till döden 1909-10-21. F/3
-  sida 174 ger begravning och dödsorsak. Bouppteckningen är positivt
-  registrerad som `Jansson, Anders`, `F II/7 nr 55`, men originalet är
-  läsesalsbundet. Detta löser inte hans egen födelseidentitet.
+- Status: `VERIFIERAD`
+- Föräldrarelationer: Se relationstabellen och A-3274–A-3275. Sonraden i
+  A I/6b sida 474, samma familj i A I/8b sida 536 och dubbelföringen på
+  A I/9c folio 85 bär kopplingen; [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md).
+- Egen födelsenotis: C-0872 identifierar1839-04-16 i C/3 bild44 med
+  Jon Andersson/Ulrica Lovisa och Buberget. A-3307–A-3308 upphäver
+  C-0107:s felaktiga noll. Vigselbokens14 april kvarstår som dokumenterad
+  källavvikelse, medan egen födelsepost bär kanoniskt datum16 april.
+- Sen livskedja: bonde och änkling i Buberget till döden 1909-10-21,
+  C-0483–C-0484. Bouppteckningsoriginal F II/7 nr 55 är ännu oläst.
+
+## Aktuell bedömning efter batch 284
+
+C-0869/A-3270–A-3275 binder Anders till föräldra- och syskonhushållet
+1848–1857 och 1861–1865 samt hans kända vuxenhushåll på folio 85.
+P-0082 återanvänds efter jämförelse med 1870 års hushållsvy; P-0519 är
+modern. P-0088 dopvittnet hålls separat. Födelseby och 14/16 april är
+fortsatt öppna. Båda reproduktionernas manifest saknar sida 537;
+positiva målgruppen på 536 påverkas inte av det redovisade glappet.
+Äldre arbetsnoter nedan bevaras som historik; dagens föräldrarelationer
+bygger på de nya originalbeläggen.
+
+## Revisionsbedömning 2026-09-05 före batch 283
+
+C-0115 dokumenterar att en äldre byrubriksgenomgång förbisåg Buberget. C-0106/C-0064 ger ett positivt vuxenhushåll 1867 att följa bakåt till A I/8a–b och A I/6a–b. Okänd barndomsby hindrar inte denna riktade kedja. Födelsenollet C-0107 och de separata boupptecknings-/mantalshindren består. Buberget och hemmansägartiteln kan även användas för senare katalogrouting av jord/lagfart; mantal är inte visat som enda möjliga ingång.
+
+Slutstatusen ovan beskriver kunskapsläge eller de namngivna källvägarnas
+hinder; den utgör inte ett sakligt avslut av hela föräldrafrågan.
+Fortsatt beslutat arbete: [T-0053](../../wotan/dev-log/T-0053.md).
+Motivering, sökomfång, leverantörsgränser och livsbildsluckor finns i
+[batch 272](../research-log/2026-09-05.md#batch-272--t-0048-sakrevision-av-fyra-foraldrafronter-pa-djup-5). Äldre daterade arbetsnoter nedan är historik
+där de kräver att en ny nyckel ska inväntas; denna bedömning gäller före dem.
 
 ## Arbetsläge
 
-- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
-  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
-  uttryckligen irrelevant disposition i source-coverage-matrisen
-  (research-log Batch 250; T-0028).
+- Källbredd: fortsatt prövning krävs 2026-09-05; se revisionsbedömningen ovan.
+
 - Källbredd 2026-09-04: yrkesutlöst jord/lagfart `2`. Återtas först om den
   analoga mantalsrouten ger gårds-, fastighets- eller skattenhetsnyckel
   (C-0826; research-log Batch 249).
 - Källbredd 2026-09-04: skatt/mantal `S`. Degerfors Vol/58–66 är en exakt
   analog route över den kända vuxenperioden, med katalogglapp 1873–1882.
   Ingen personförd rad har lästs (C-0825; research-log Batch 248).
-- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-237--t-0026-konsolidering-av-p-0050p-0066)
+- Konsolidering: `GRANSKAD` 2026-09-05 (research-log/2026-09-05.md#batch-284--t-0053-familjekonsolidering-och-manifestglapp)
 - Källbredd 2026-09-04: flytt `2`. Barndomsbyn är okänd och den vuxna
   Bubergetkedjan ger ingen riktad tidigare flyttpost. Återstart kräver en
   positiv by-, sida-, hushålls- eller destinationsnyckel (research-log
   Batch 247).
+
+## Aktuell konsolidering efter T-0057, 2026-09-05
+
+Anders egen födelsenotis är nu identifierad:16 april1839, med föräldrarna
+Jon (senare Jonas) Andersson och Ulrica Lovisa i Buberget. Två hushåll
+1836–1842 och1843–1847 binder honom till redan verifierad senare familj.
+Födelsepostens direkta uppgift avgör datumvalet; vigselbokens14 april
+får stå kvar som avvikelse. De äldre påståendena A-0603/A-0610/A-0675
+är historiska och motsagda enligt A-3273/A-3308. Inget hemmanstillträde
+eller exakt födelsebyggnad är därmed belagt.
+
+F/H är nu positivt behandlade för denna avgränsade födelse-/barndomsfråga.
+Flytt2 har ingen explicit separat flytt för honom i dessa tidiga hushåll;
+en konkret flytthänvisning skulle återaktivera den. Föräldrarnas egna
+ursprung ligger på nästa generations öppna front. Analoga boupptecknings-
+och mantalshinder samt villkorlig jord/lagfartsfråga kvarstår.

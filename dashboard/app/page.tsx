@@ -373,7 +373,8 @@ function PeopleView({ peopleById }: { peopleById: Map<string, Person> }) {
 
 function Overview({ go }: { go: (view: View) => void }) {
   const data = useDashboardData();
-  const latest = data.activeWork?.latest;
+  const latest = data.activeWork?.latest ?? data.recentChanges[0] ?? null;
+  const hasActiveWork = Boolean(data.activeWork);
   return (
     <>
       <section className="hero">
@@ -390,15 +391,15 @@ function Overview({ go }: { go: (view: View) => void }) {
 
       <section className="overview">
         <div className="section-heading">
-          <div><p className="eyebrow">Just nu</p><h2>Forskningen rör sig framåt</h2></div>
-          <span className="status-pill">{data.activeWork?.phase === 'DOING' ? 'Pågår' : 'Aktiv'}</span>
+          <div><p className="eyebrow">Just nu</p><h2>{hasActiveWork ? 'Forskningen rör sig framåt' : 'Ingen aktiv uppgift'}</h2></div>
+          <span className="status-pill">{hasActiveWork ? (data.activeWork?.phase === 'DOING' ? 'Pågår' : 'Aktiv') : 'Väntar'}</span>
         </div>
 
         <div className="focus-grid">
           <article className="focus-card">
-            <div className="card-number">{data.activeWork?.id}</div>
-            <p className="card-label">Aktiv forskningslinje</p>
-            <h3>{data.activeWork?.summary}</h3>
+            <div className="card-number">{data.activeWork?.id ?? '—'}</div>
+            <p className="card-label">{hasActiveWork ? 'Aktiv forskningslinje' : 'Aktuellt projektläge'}</p>
+            <h3>{data.activeWork?.summary ?? 'En tom uppgiftskö visar inte att forskningen är färdig. Projektets dokumenterade källäge avgör vad som återstår.'}</h3>
             {latest && <p className="latest-title">Senast: {latest.title}</p>}
             {latest && <p>{latest.summary}</p>}
             <a href="#recent">Se senaste fynden <span>→</span></a>

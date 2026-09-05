@@ -1,10 +1,10 @@
 // Slutstatus-parser shared by the ancestry audit and the goal-state measure.
 //
 // Varje front-person (en ana med färre än två kända föräldrar) måste bära
-// exakt en slutstatus i avsnittet `## Slutstatus`. Alla utom VERIFIERAD kräver
-// dessutom förväntad källa, vad som genomsöktes och minst en bevarad negativ
-// kontroll med giltig C-referens. Saknas någon del är statusen ogiltig och
-// positionen räknas som osökt, inte stängd.
+// exakt en slutstatus i avsnittet `## Slutstatus`, förväntad källa,
+// genomsökt omfång, återaktivering och en giltig C-referens. VERIFIERAD
+// använder Belägg; övriga statusar använder Negativ kontroll. Detta är en
+// strukturkontroll, inte ett bevis för beläggens sakliga tillräcklighet.
 
 export const TERMINAL_STATUSES = new Set([
   "VERIFIERAD",
@@ -15,25 +15,38 @@ export const TERMINAL_STATUSES = new Set([
   "KÄLLOR SLUT",
 ]);
 
+function sectionBody(text, heading) {
+  return text.split(new RegExp(`^## ${heading}[ \\t]*$`, "m"))[1]?.split(/^## /m)[0];
+}
+
+// Only indented continuation lines belong to a field. In particular, an
+// empty value must not consume the next bullet through a whitespace match.
+function field(body, label) {
+  return body.match(new RegExp(`^- ${label}:[ \\t]*(.*(?:\\n[ \\t]+[^\\n]*)*)`, "m"))?.[1]?.trim() ?? "";
+}
+
 export function readTerminalStatus(text, citationExists) {
-  const section = text.split("## Slutstatus")[1];
+  const section = sectionBody(text, "Slutstatus");
   if (!section) return { ok: false, why: "saknar avsnittet ## Slutstatus" };
-  const body = section.split(/\n## /)[0];
+  const body = section;
 
   const status = body.match(/^-\s*Status:\s*`([^`]+)`/m)?.[1]?.trim();
   if (!status) return { ok: false, why: "ingen Status-rad" };
   if (!TERMINAL_STATUSES.has(status)) return { ok: false, why: `okänd status ${status}` };
-  if (status === "VERIFIERAD") return { ok: true, status };
+  if ([...body.matchAll(/^-\s*Status:/gm)].length !== 1) {
+    return { ok: false, status, why: "kräver exakt en Status-rad" };
+  }
 
   const missing = [];
-  if (!/^-\s*Förväntad källa:\s*\S/m.test(body)) missing.push("förväntad källa");
-  if (!/^-\s*Genomsökt:\s*\S/m.test(body)) missing.push("genomsökt");
+  if (!field(body, "Förväntad källa")) missing.push("förväntad källa");
+  if (!field(body, "Genomsökt")) missing.push("genomsökt");
+  if (!field(body, "Återaktivera när")) missing.push("återaktiveringsvillkor");
 
-  const controls = [...body.matchAll(/^-\s*Negativ kontroll:.*$/gm)]
-    .flatMap((line) => [...line[0].matchAll(/\((?:\.\.\/citations\/)?(C-\d{4})[^)]*\)/g)])
+  const evidenceField = status === "VERIFIERAD" ? "Belägg" : "Negativ kontroll";
+  const controls = [...field(body, evidenceField).matchAll(/\((?:\.\.\/citations\/)?(C-\d{4})[^)]*\)/g)]
     .map((m) => m[1]);
   const resolved = controls.filter((cid) => citationExists(cid));
-  if (!resolved.length) missing.push("negativ kontroll med giltig C-referens");
+  if (!resolved.length) missing.push(`${evidenceField.toLowerCase()} med giltig C-referens`);
 
   return missing.length
     ? { ok: false, status, why: `saknar ${missing.join(", ")}` }
@@ -41,11 +54,10 @@ export function readTerminalStatus(text, citationExists) {
 }
 
 // `## Arbetsläge` bär personaktens konsolideringsläge. Saknat avsnitt betyder
-// EJ GRANSKAD. Ett valfritt Källbredd-fält kan ersätta matrisraden när
-// personen är integritetsminimerad eller när matrisen saknar rad.
+// EJ GRANSKAD. Källbredd-fältet används bara när matrisen saknar rad.
 export function readWorkState(text) {
-  const section = text.split("## Arbetsläge")[1];
-  const result = { reviewed: false, reviewedOn: null, reviewRef: null, coverageOverride: null };
+  const section = sectionBody(text, "Arbetsläge");
+  const result = { reviewed: false, reviewedOn: null, reviewRef: null, coverageOverride: null, coverageJustification: null };
   if (!section) return result;
   const body = section.split(/\n## /)[0];
   const cons = body.match(/^-\s*Konsolidering:\s*`([^`]+)`\s*(\d{4}-\d{2}-\d{2})?\s*(?:\(([^)]*)\))?/m);
@@ -54,7 +66,10 @@ export function readWorkState(text) {
     result.reviewedOn = cons[2] ?? null;
     result.reviewRef = cons[3] ?? null;
   }
-  const cov = body.match(/^-\s*Källbredd:\s*`([^`]+)`/m);
-  if (cov) result.coverageOverride = cov[1].trim();
+  const cov = field(body, "Källbredd").match(/^`([^`]+)`([\s\S]*)$/);
+  if (cov) {
+    result.coverageOverride = cov[1].trim();
+    result.coverageJustification = cov[2].replace(/^\s*\d{4}-\d{2}-\d{2}[.\s]*/, "").trim() || null;
+  }
   return result;
 }

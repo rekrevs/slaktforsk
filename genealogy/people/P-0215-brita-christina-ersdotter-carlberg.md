@@ -35,3 +35,13 @@ Vidareförd direkt ana på djup 5. Originalboken och Carlbergskedjan
 identifierar föräldrarna P-0221–P-0222 och korrigerar födelsen till
 1819-02-22. Fortsätt föräldraparet bakåt från Carlberg/Sannerby och sök
 Brita Christinas vigsel.
+
+## Slutstatus
+
+- Status: `VERIFIERAD`
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0037)
+- Källbredd: `KLAR` — egen födelsenotis och tre hushållssidor säkrar båda
+  föräldrarna; vigseln är avgränsad berikning.

@@ -12,6 +12,7 @@ Albert Ålund.
 | A-1895 | Namnet skrevs `Carl Fredr. Ålund`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Normaliseras till Carl Fredrik Ålund. |
 | A-1896 | Han uppges vara född 1808-09-02 i Ludgo. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Husförhörsuppgift; egen födelsenotis återstår. |
 | A-1897 | Han var far till Pehr Albert Ålund. | CORROBORATED | hög | [C-0316](../citations/C-0316-pehr-albert-alund-helgesta-hyltinge-1868.md), [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | A I/15 markerar Pehr som son i hushållet; B/2 kallar honom son och hänvisar till samma folio. |
+| A-3221 | Carl Fredric föddes 1808-09-02 i Ludgo som son till mäskaren Anders Åhlund och Hedda Morander. | CORROBORATED | mycket hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md), [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Egen födelsenotis och exakt senare datum-/sockenprofil. |
 
 ## Relationer
 
@@ -25,8 +26,20 @@ Albert Ålund.
 | [P-0334 Axel Edvard Ålund](P-0334-axel-edvard-alund.md) | son | TRANSCRIBED | C-0317 |
 | [P-0335 Carl Johan Ålund](P-0335-carl-johan-alund.md) | son | TRANSCRIBED | C-0317 |
 | [P-0113 Fredrik Wilhelm Ålund](P-0113-fredrik-wilhelm-alund.md) | son | CORROBORATED | C-0317 |
+| [P-0509 Anders Åhlund](P-0509-anders-ahlund-ludgo.md) | far | CORROBORATED | C-0845, C-0317 |
+| [P-0510 Hedda Morander](P-0510-hedda-morander-ludgo.md) | mor | CORROBORATED | C-0845, C-0317 |
 
 ## Forskningsfrågor
 
 - Följ hushållet bakåt i Helgesta A I/14 och flytten från Gryt 1857.
-- Sök egen födelsenotis i Ludgo 1808 och vigseln med Maja Catharina.
+- Vigseln med Maja Catharina återstår som livslinjeberikning.
+
+## Slutstatus
+
+- Status: `VERIFIERAD`
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0035)
+- Källbredd: `KLAR` — båda föräldrarna är registrerade från den egna
+  födelsenotisen.

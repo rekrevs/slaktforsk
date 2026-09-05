@@ -32,3 +32,13 @@ redan originalverifierad som dotter genom C-0121.
 
 - Födelsenotisen och båda föräldrarna är funna. Nästa generationsvåg kan
   undersöka P-0165–P-0166 och kontrollera dödsuppgiften 1868 i original.
+
+## Slutstatus
+
+- Status: `VERIFIERAD`
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0037)
+- Källbredd: `KLAR` — egen födelsenotis namnger båda föräldrarna;
+  dödsuppgiften och den sekundära barngruppen är biografisk berikning.

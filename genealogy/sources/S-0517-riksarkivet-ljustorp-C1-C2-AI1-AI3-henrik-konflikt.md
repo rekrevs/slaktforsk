@@ -22,6 +22,14 @@
 
 ## Födelseföljder i C/1
 
+Familias personprofil routar P-0452 Brita Flinkberg till Ljustorp och
+bevarar dagformerna 1795-12-06/08. C/1:s hela 1795-följd lästes därför från
+årsskiftet på `71000675_00229` genom december på `_00231`, med `_00228` som
+föregående kontext och den redan bevarade `_00232` som början av 1796.
+Ingen Brita/Britta föds den 6 eller 8 december. Resultatet är ett exakt
+församlings-/årgångs-/datumnoll och identifierar ingen alternativ
+födelsesocken eller föräldrafamilj, C-0854.
+
 Hela 1796 års följd ligger på bilderna `71000675_00232`–`_00235`.
 Följden går från januari genom december utan någon Hindric/Henrik född
 2 november och utan någon Cajsa vars föräldrar är Henrik Henriksson och

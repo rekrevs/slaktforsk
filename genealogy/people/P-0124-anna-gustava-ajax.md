@@ -109,3 +109,16 @@ Vingåker.
 > odigitaliserad volym från digitaliserad men inte publikt serverad. Det som är
 > belagt är att volymerna inte kan nås på distans. Se
 > `genealogy/method-riksarkivet.md`.
+
+## Slutstatus
+
+- Status: `VERIFIERAD`
+- Den äldre `EJ DIGITALISERAD`-fronten ovan är bevarad som supersederad
+  sökhistorik. Hammar C/2 och de sammanhängande hushålls-, vigsel- och
+  dödkällorna har därefter säkrat födelse, båda föräldrarna och livskedjan.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
+- Källbredd: `KLAR` — parentfronten är löst i egen födelsenotis; kvarstående
+  namn- och syskonfrågor är avgränsad biografisk berikning.

@@ -22,8 +22,24 @@ Adams djup 5 genom den lösta föräldralänken 2026-08-30.
 
 ## Forskningsstatus
 
-- Status: `NY DJUP-5-SPETS — MODERSKAP OCH HUSHÅLL SÄKRADE`
-- Nästa väg: följ Anna Sophia bakåt från Sävar A I/1 s. 157 och sök egen
-  födelse- eller inflyttningsnyckel för 1792. Födelseåret ensamt får inte
-  ge en konstruerad födelseort, födelsemånad eller föräldrarelation.
+Moderskap och familjehushåll är säkrade. Sävar A I/1 är arkivets första
+husförhörslängd och sidan 157 ger endast födelseåret 1792, utan dag,
+födelsesocken eller bakåthänvisning. Födelseåret ensamt får inte ge en
+konstruerad födelseort, födelsemånad eller föräldrarelation.
 
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: vigsel- eller flyttkälla som ger Anna Sophias exakta
+  födelsetid eller födelsesocken före Sävars första längd.
+- Genomsökt: Sävar A I/1, Botsmark sida 157, och sonens födelsepost i C/1
+  sida 91; båda personbinder familjen men saknar hennes dag och födelseort.
+- Negativ kontroll: [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md)
+- Återaktivering: exakt datum, tidigare socken eller en direkt flytt-/vigsel-
+  hänvisning; sök inte brett på enbart namnet och året 1792.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0035)
+- Källbredd: `KLAR` — första längden och den parentbärande födelsenotisen är
+  uttömda för bakåtnycklar; återstartvillkoret är explicit.

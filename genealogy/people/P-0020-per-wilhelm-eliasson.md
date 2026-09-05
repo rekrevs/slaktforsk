@@ -33,6 +33,8 @@ Källorna växlar mellan `Per Wilhelm`/`Per Vilhelm` och
 
 | A-3154 | Riksarkivets metadatafrågor `Djursätra lagfart`, `Djursätra jordregister` och `Djursätra Västergården` 1880–1930 gav ingen relevant yrkes-/fastighetsroute. | NEGATIVE | hög | [C-0826](../citations/C-0826-riksarkivet-yrkesrutter-sverker-djup5.md) | Katalogbundet noll; dödbokens positiva ägaruppgift står kvar och ingen handlingsfrånvaro infereras. |
 
+| A-3298 | Per Vilhelm Eliasson flyttade med hustru från Kyrkefalla till Skövde 1924-06-20, med Alva Viktoria i intilliggande utflyttningspost. | CORROBORATED | hög | [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md) | Nr43–44 på sida65 och mottagande hushåll sida329; hustruns namn ges i mottagarhushållet. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

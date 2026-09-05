@@ -28,10 +28,13 @@ Sannerby 1819 samt senare i Carlberg i Årdala.
 | [P-0228 Anders Eriksson](P-0228-anders-eriksson-sannerby.md) | bror enligt barndomshushållet | TRANSCRIBED | C-0173, C-0174 |
 | [P-0229 Stina Eriksdotter](P-0229-stina-eriksdotter-sannerby.md) | syster enligt hushållet | TRANSCRIBED | C-0173 |
 
-## Forskningsstatus
+## Slutstatus
 
-Direkt ana på djup 6, nu vidareförd till föräldrarna P-0226–P-0227 på djup 7.
-Födelseidentiteten är löst genom originalnotis och två barndomshushåll; den
-senare uppgiften `1796-06-06` kvarstår som dokumenterad avskriftskonflikt.
-Nästa steg är att följa föräldraparet bakåt i A I/3:s äldre upplägg och pröva
-vigsel, födelse och kompletterande källor.
+- Status: `VERIFIERAD`
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0043)
+- Källbredd: `KLAR` — egen födelsenotis och två barndomshushåll säkrar
+  P-0226–P-0227; den senare 6 juni-uppgiften bevaras som konflikt men styr
+  inte anlinjen.

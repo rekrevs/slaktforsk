@@ -1,174 +1,240 @@
-# Forskningsprogram: iterativ kartläggning bakåt
+# Forskningsprogram: balanserat träd och fullständiga livsbilder
 
-## Huvudmål
+Version: `research-program/v1`, beslutad i PCD-2026-09-05-013.
 
-Projektets långsiktiga riktning finns i [`NORTH-STAR.md`](../NORTH-STAR.md) och
-omfattar både Sverker Adam Jansons och hans hustru Kristina Elisabeth
-Petronella Hööks släkter. Detta program beskriver generationsmetoden. P-0004
-och P-0210 är etablerade som två separata probander för balanserad revision;
-familjeutgåvorna utgår gemensamt från deras söner Adam och Axel.
+Programmet genomför [NORTH-STAR.md](../NORTH-STAR.md) för Adam och Axel,
+med Sverker P-0004 och Kristina P-0210 som de två sidorna. Generationer
+räknas från sönerna. Läs också [personkontraktet](person-contract.md) och
+[källstrategin](source-strategy.md): de är normativa delar av programmet.
+Wotan är den enda utförandekön; detta dokument gäller oavsett aktiv uppgift,
+agent, sessionshistorik och hur ordnade personakterna är vid start.
 
-Kartlägg anorna bakåt så långt relevanta, lagligen åtkomliga internetkällor
-medger. Varje led bakåt ska förankras i dokumenterad evidens och varje uppgift
-ska kunna spåras till exakt källa, källställe och, när det är relevant och
-tillåtet, bevarad källbild.
+## Tre nivåer av styrning
 
-## Två samordnade källspår
+1. **Projekt och kohort:** vilka personers identitet, livsbild och källtäckning
+   behöver behandlas närmast, balanserat mellan sidorna?
+2. **Person och hushåll:** vilka livsperioder, teman, nätverk och källvägar
+   behöver undersökas för att uppfylla PK-01–12?
+3. **Fråga och källa:** vilket påstående/hypotes eller upptäcktsbehov ska
+   nästa avgränsade undersökning pröva, med vilka alternativ och belägg?
 
-Forskningsprogrammet arbetar i två spår som ska mötas i varje ändlig våg:
+Enbart frågor om kända luckor missar det vi ännu inte vet att vi kan hitta.
+Varje person ska därför få en systematisk temagenomgång och rimlig
+katalog-/registerupptäckt, följd av preciserade forskningsfrågor. Enbart bred
+namnsökning ger i sin tur ingen säker identitet eller sammanhängande livsbild.
 
-1. **Den centrala ryggraden** driver antavlan bakåt genom födelse- och
-   dopböcker, husförhörslängder och församlingsböcker, flyttningslängder,
-   lysnings- och vigselböcker, död- och begravningsböcker, folkräkningar,
-   församlingsutdrag och SCB-utdrag. Målet är att binda samman varje persons
-   liv och identifiera föregående generation så långt data medger.
-2. **Kompletterande källfamiljer** används både för att lösa stopp och för att
-   göra personerna till mer än namn och datum. Dit hör bouppteckningar,
-   mantals- och skattelängder, domstolsarkiv, sockenstämma och fattigvård samt,
-   när personens yrke, plats eller ställning gör det relevant, militära
-   rullor, jord- och lagfartsmaterial och sjömanshus. Dessa källor ska söka
-   arvingar, makar, barn, förmyndare, hushåll, egendom, ekonomiska villkor,
-   flyttning, faderskapsledtrådar och andra namngivna relationspersoner.
+## Införande och återinträde från vilket utgångsläge som helst
 
-Alla källfamiljer är inte relevanta för varje person. En synlig
-person-för-person-matris ska ange vad som har prövats, vad som återstår och
-varför en källfamilj är relevant eller inte. Ett stopp i den centrala
-ryggraden är därför inte ett gren-slut innan relevanta kompletterande källor
-och identifierade nätleverantörer också har prövats.
+1. Läs aktuellt Wotan-omfång och checkpoint. Stäm av mot arbetsytan.
+2. Använd `node scripts/research-inventory.mjs` tillsammans med goal-state.
+   Inventeringen omfattar alla befintliga P-id:n, även kandidater och
+   sidopersoner. Den visar dokumentations-/bedömningsluckor, inte källslut.
+3. För berörda personer: läs hela aktuella akten, profil om den finns och
+   hänvisade relevanta bedömningar. Inventera vad som redan är belagt,
+   motsagt, oklart, föråldrat eller faktiskt oläst. Återanvänd original och
+   källomfång; gör inte om tillräckliga undersökningar bara för att formatet ändrats.
+4. Välj återställningsväg enligt personkontraktet: ny kandidat, halvfärdig,
+   rörig/sammanblandad, äldre KLAR, blockerad, sidoperson eller levande.
+5. Upprätta/uppdatera personprofilens tio teman, frågor, söknycklar och
+   källvägar. Märk ännu ej bedömda delar ärligt. Planering är inte forskning.
+6. Genomför den sakligt motiverade passagen, konsolidera och lämna utförande,
+   verifiering och nästa ej utförda steg endast i Wotan.
 
-Forskningen är samtidigt opportunistisk. Alla namngivna personer i den
-undersökta målposten, det aktuella hushållet eller en relationsbärande
-anteckning registreras med egen personakt och den grundinformation som källan
-ger. Det gäller bland annat föräldrar, makar, samtliga barn, syskon, faddrar,
-vittnen och andra uttryckligt knutna personer, även när de inte tillhör den
-direkta antavlan.
+Äldre GRANSKAD/KLAR konverteras aldrig automatiskt till godkänt nytt
+kontrakt. Saknade profiler får inte döljas genom att endast räkna dem som
+redan finns. Ingen generell reset av genealogiska fakta görs heller:
+kontraktsinförande är en granskning av täckning och argument, inte ett
+besked att alla tidigare identiteter är fel.
 
-På ett uppslag med flera orelaterade poster innebär detta alla personer i
-målposten och dess relationella sammanhang, inte varje orelaterad person som
-råkar stå på samma bild. Hela den relevanta bilden bevaras ändå. Denna
-avgränsning förhindrar att en enskild flerpostsida skapar en obegränsad och
-släktmässigt irrelevant sidokartläggning.
+## Generationsvågor och balans
 
-## Arbetssätt: generationsvågor
+Arbeta breddförst över den närmaste **sakligt** otillräckligt behandlade
+generationen. En registrerad siffra ersätter inte den bedömningen.
+Ifrågasatta tidigare avslut behandlas på sitt verkliga djup. En ny
+föräldraidentitet öppnar en person på nästa djup, inte ett automatiskt källslut.
 
-Forskningen utgår från probanden och arbetar lager för lager. Ett nytt djup
-öppnas först när identiteterna och de bärande föräldrarelationerna i föregående
-lager är tillräckligt belagda och konsoliderade. En uttryckligt markerad
-forskningslucka kan stänga en position i våggranskningen men får inte öppna en
-hypotetisk anlinje som etablerad.
+Inom en våg väljs ändliga grupper av personer eller hushåll. Gruppera efter
+församling, period, domstol eller delad handling när det sparar läsning.
+En praktisk grupp kan vara 2–4 hushåll, men antal personer/batcher är inte
+färdigkriteriet. Varje grupp har angivna frågor, tids-/källomfång och resultat.
 
-1. **Djup 0 – proband:** identifiera forskningspersonen och dokumentera
-   förstahandsuppgifter.
-2. **Djup 1 – föräldrar:** säkra fullständiga namn och relationen till probanden.
-3. **Djup 2 – mor- och farföräldrar:** säkra de fyra identiteterna, deras
-   relationer och länken till respektive förälder.
-4. **Djup 3 och vidare:** arbeta igenom samtliga öppna anlinjer i samma
-   generationsvåg. En lätt gren får inte drivas flera generationer förbi en
-   närmare olöst identitet utan att detta är motiverat och noterat.
-5. **Våggranskning:** avsluta varje djup med en provenans-, identitets-,
-   konsoliderings-, beroende- och täckningsgranskning. Skapa därefter
-   Wotan-uppgifter för nästa våg utifrån den faktiskt verifierade fronten;
-   förhandsallokera inte ett oändligt antal generationsuppgifter.
-6. **Källbreddning:** före nästa djup ska närmare blockerade grenar få en
-   relevansstyrd kompletterande källpassage. Nya personer och biografiska fakta
-   från dessa källor bevaras under samma evidensregler som antavlan.
-7. **Utgåveprioritet:** när en ny jämn familjeutgåva är beslutad arbetar hela
-   dess personkohort före varje djupare spets. Ingen lätt linje får då drivas
-   in i nästa utgåvas efterföljande generation medan kända personer i den
-   aktuella kohorten saknar sin relevanta Riksarkivet-bredd.
+Båda sidorna bedöms vid varje våggranskning. Ingen sida ska drivas mer än en
+skiva före den andra; en lätt gren får inte ersätta arbete på närmare
+ofullständiga personer. När ett faktiskt hinder stoppar en passage fortsätter
+andra tillgängliga passager. Ett sakligt motiverat undantag eller ändrad
+ordning dokumenteras genom Project Control med berörda kvarstående krav.
 
-Inom varje person prioriteras i ordning: identitet, relationen framåt mot
-probanden, födelse/dop och föräldrar, barndomshushåll, vigsel/partnerskap,
-död/begravning och därefter bredare biografi. Folkräkningar,
-husförhörs-/församlingsböcker och flyttlängder används för att binda samman
-händelser och skilja personer med liknande namn.
+Två leveranser följs inom samma våg:
 
-## Identitets- och konsolideringspass
+- **Träd och identitet:** etablerade relationer, separata kandidater, prövade
+  föräldrafrågor och källgrundade arkivfronter.
+- **Livsbilder och källor:** livslinjer, tio teman, relevanta breda källvägar,
+  konsoliderad berättelse och kvarstående gränser för varje person.
 
-Efter varje materiellt fynd och före en våg stängs ska den berörda personakten
-granskas som helhet:
+Ingen av dem ersätter den andra. Biografisk komplettering ska vara en
+beslutad del av vågen, inte ett eventuellt tillägg efter all framtida
+anexpansion. Kohorten kan först bedömas som genomgången när båda delarna
+är prövade enligt north star. Ett externt hinder redovisas som hinder,
+inte som ett grönt avslut av ett materiellt krav.
 
-1. skilj källobservationer från normaliseringar och slutsatser;
-2. pröva att alla observationer avser samma person genom kronologi, geografi,
-   hushåll, relationer, namnformer och andra identifierande drag;
-3. identifiera dubbletter, konflikter, orimliga överlapp och konkurrerande
-   identiteter;
-4. lös dem där evidensen medger det, annars håll kandidater åtskilda och
-   markera vad som saknas;
-5. kontrollera att varje bärande relation har evidensstatus och att en
-   materiellt osäker relation inte används i den verifierade antavlan;
-   `OWNER_CONFIRMED` räknas som etablerad enligt sitt Project Control Decision;
-6. när en identitet eller relation ändras, inventera och återpröva alla
-   beroende personer, relationer, djupmått, rapporter och exporter;
-7. lämna personakt, frontier, source coverage och Wotan-logg i samstämmigt
-   läge.
+Sidopersoner får egna profiler och återkommer i införande-/täckningsrevisioner.
+Direkta anor prioriteras, men sidopersonernas materiella livsfrågor får inte
+parkeras permanent utan omprövning. Arbete i ett delat hushåll ska förbättra
+samtliga relevanta personakter. Orelaterade personer på samma sida dras inte in.
 
-## Färdigdefinition för en undersökt person
+## Arbetscykel inom person eller hushåll
 
-En person är inte "färdig" i absolut mening, men en forskningspassage kan
-stängas när följande har dokumenterats eller fått en uttrycklig lucka:
+### 1. Befintligt underlag och säker förankring
 
-- identitet och namnvarianter;
-- relationen till föregående generation eller orsaken till att den är osäker;
-- födelse/dop, föräldrar och relevant barndomshushåll;
-- vigsel/partner och barn när källorna medger det;
-- död/begravning när uppgiften är åtkomlig och identifierande;
-- alla personer i målposten/hushållet med egna P-id:n;
-- atomära påståenden med källa, citatpost, evidensstatus och konfliktnotering;
-- relevanta originalbilder lokalt, med stabilt filnamn och kontrollsumma.
-- en konsoliderad personakt där observationer och slutsatser är åtskilda,
-  dubbletter och materiella motsägelser är hanterade och akten bedöms avse en
-  enda person;
-- en beroendekontroll om identitet eller bärande relation har reviderats.
+Utgå från säkert känt sammanhang och relationen framåt, inte en lös
+namnträff. Skilj familjefakta OWNER_CONFIRMED, källavläsningar, slutsatser
+och uppslag. Pröva identiteten genom hushåll, geografi, kronologi, nätverk,
+namnvarianter och tänkbara alternativ. Källor som effektivast skiljer
+alternativen kan behövas före en komplett kyrkobokskedja.
 
-Om källkedjan upphör markeras linjen som exempelvis `ARKIVLUCKA`,
-`ÅTKOMSTSPÄRR`, `IDENTITET OLÖST` eller `KÄLLOR SLUT`, tillsammans med vad som
-sökts. Avsaknad av belägg omvandlas aldrig till ett positivt påstående.
+### 2. Livslinje som ger söknycklar
+
+Följ relevanta hushållsböcker och flyttningar bakåt och framåt. Knyt födelse,
+vigsel och död till rätt person. Extrahera bostadsperioder, anhöriga,
+yrkesförändringar, arbetsgivare, hänvisningar, anmärkningar och nätverk.
+Synliggör materiella luckor mellan kända år; undvik både blind genomläsning
+av alla böcker och hopp över olösta livsperioder.
+
+### 3. Tidig komplettering med stort informationsvärde
+
+Bedöm bouppteckning och relevant mantal/befolkningsmaterial så snart
+söknycklar finns. Arvingar, adresser, förmyndare, egendom och yrke kan
+öppna flera följdsökningar eller lösa identiteten. Dödsintervall + anhörig
++ hemvist kan vara tillräckligt även utan exakt dödsdag. Saknade nycklar
+får uttryckliga anskaffningsvägar och bedömning av om de kan tas fram nu.
+
+### 4. Upptäckt och riktad fördjupning
+
+Bedöm varje livstema och källkatalogens tillämpliga klasser utifrån personens
+hela liv. Pröva även rimliga upptäcktsvägar där ingen särskild händelse ännu
+är känd. Välj sedan konkreta KP-vägar för arbete, jord, militär, sjöfart,
+rättsliga/sociala förhållanden, migration, personligt material med mera.
+Följ det som faktiskt kan ge ny information; lista inte fyrtio databaser
+som en mekanisk checklista.
+
+### 5. Läs, korrelera och konsolidera
+
+Läs hela relevanta posten/akten och hantera dess fortsättningar. Skapa
+observationer med exakt provenans innan ny slutsats dras. Registrera
+relevanta namngivna familje-/relationspersoner opportunistiskt. Bedöm
+oberoende per informationsuppgift, lös eller bevara konflikter och sök
+rimliga motförklaringar. Ett negativt registerutfall är inte negativ
+evidens utan täcknings- och förväntansanalys.
+
+Uppdatera den aktuella personmodellen och berättelsen, och märk äldre
+sammanfattningar som historiska där de annars skulle motsäga den aktuella.
+Append-only observationer består. Ingen osäker identitet eller föräldrakant
+förs vidare i det etablerade trädet. OWNER_CONFIRMED behålls enligt beslutet.
+
+### 6. Aktivera följdvägar och avsluta den ändliga passagen
+
+Nya söknycklar jämförs med alla berörda beroenden, inklusive anhörigas
+profiler och gemensam ort-/arkivkarta. Exempel: ny dödstid öppnar bouppteckning;
+nytt företagsnamn öppnar personal-/företagsarkiv. Fynd får inte bara staplas
+som ny text medan tidigare blockerade sökningar förblir bortglömda.
+
+Genomför om det ryms i avtalat omfång. Annars bevara frågan och ge beslutat
+följdarbete en separat ändlig Wotan-uppgift. Ett arkivbyte, en ny generation
+eller en ny obegränsad livsfråga utökar inte tyst uppgiften. Tillåt samtidigt
+en logisk kedja inom angiven fråga/period; skapa inte en task per klick eller
+per positiv sida. Hårda sid-/tidsgränser skyddar omfånget, bevisar inte uttömning.
+
+## Prioritering mellan möjliga passager
+
+Efter närhet och balans prioriteras:
+
+1. identitets-/relationsrisk som kan förorena flera beroende slutsatser;
+2. källor som sannolikt öppnar flera relevanta frågor/personer;
+3. materiella luckor i livslinjen och svagt behandlade livsteman;
+4. övrig motiverad fördjupning och kontroll av tidigare avgränsningar.
+
+Motivera valet kort i Wotan. Återanvänd gemensam volym-/jurisdiktionsrouting,
+original och sökomfång. Svårare viktiga källor får inte försvinna när billiga
+sökningar tar slut. En dyr passage kan avgränsas med källäge och kunskapsvärde,
+aldrig enbart med antalet försök. Ingen fast formel eller kvot ersätter omdömet.
+
+## Tre skilda avslut
+
+- **Task-DONE:** det utlovade avgränsade resultatet och dess verifiering är
+  klara. Olöst fråga eller konkret söknoll kan vara ett korrekt utfall.
+- **Personens kontraktsgranskning:** PK-01–12 är sakligt prövade och
+  dokumenterade för dagens källäge. Alla teman är bedömda; materiella
+  genomförbara vägar och beroenden är hanterade. Ett katalogprov räcker inte.
+- **Kohort-/projektavslut:** varje ingående person och föräldrafront samt
+  samtliga övriga north-star-krav är föremål för daterad sakrevision.
+
+GODKÄND är en mänskligt/agentiskt motiverad granskningsslutsats med belägg,
+inte en automatisk följd av gröna tester. Saknade profiler och äldre
+KLAR räknas som ännu ej prövade enligt det nya kontraktet. Olösta fakta får
+kvarstå vid sakligt styrkt arkivgräns; de blir aldrig etablerade relationer.
+
+## Våggranskning, ny arbetsmängd och omprövning
+
+Efter en ändlig kohortpassage kontrolleras identitet, beroenden, PK-krav,
+nya söknycklar, källbredd, sidopersoner och balans. Jämför observerade
+förbättringar med frågorna före passagen: löstes identitetsrisker, slöts
+materiella luckor, öppnades användbara källor, återanvändes underlag?
+Antal träffar och dokument är enbart aktivitetsmått.
+
+Gör sakgranskningen som ett särskilt pass mot underlagen, inte genom att
+bara läsa insamlingsrapportens slutsats. Grundläggande identitetsprövning
+gäller varje bärande led; konflikter och rimliga alternativ utlöser utökad
+kontroll med relevanta kompletterande källor. Livsrekonstruktionen fortsätter
+i avgränsade teman utan att mängden biografi får kompensera för osäker identitet.
+
+Project Control väljer nästa avgränsade arbete utifrån kvarvarande
+sakkrav. Förhandsallokera inte oändliga generationer eller en task per
+person/källklass. Alla ännu ej behandlade personer ska dock vara synliga i
+inventeringen, med en beslutad införandepassage eller dokumenterad
+kohortregel som återtar dem. Ingen aktuell forskningsordning lagras här.
+
+Nya belägg, ändrad identitet, tidigare missad uppgift, ändrad åtkomst eller
+ny digitalisering återöppnar berörda delar med hänvisning till utlösaren.
+Identifiera beroende relationer och berättelser. Upprepa bara relevant
+underkänd eller ändrad prövning; intakt tidigare forskning består.
 
 ## Utgåvegrind
 
-Den första gemensamma PDF-utgåvan omfattar ett jämnt djup 4 från Adam och
-Axel. Nästa forskningsmål är ett jämnt djup 5: detta motsvarar djup 4 från
-P-0004 och P-0210. Forskningskohorten har 32 namngivna och verifierat
-anslutna positioner. P-0006:s relationer till P-0001 och P-0002 är
-`OWNER_CONFIRMED` genom `PCD-2026-09-03-003` och kräver inget ytterligare
-arkivbelägg för projektets fastställande. Johannes Ivar Fredberg är
-familjedokumenterad som Ivars far; hans egna föräldrar har identifierats som
-Olaus Fredberg och Brita Stina i 1880 års folkräkning.
 
-T-0012 ska granska hela 32-personerskohorten breddförst genom den centrala
-källryggraden och alla sakligt utlösta kompletterande Riksarkivskällor. När
-detta underlag är identitetsprövat, konsoliderat och redo ska forskningen
-stanna. Innan manifest, disposition,
-formgivning eller rendering för nästa PDF påbörjas ska ägaren och agenten ha
-en rejäl diskussion om innehåll, berättarstruktur, bildurval, kartor,
-tidslinjer, källpedagogik och vilka kvalitativa steg som krävs bortom version
-1. En ny PDF-uppgift skapas först efter det beslutet.
+PDF, manifest och layout är separata leveranser, inte ett automatiskt nästa
+steg när en forskningskohort är behandlad. Före ny produktion ska utgåvans
+omfattning, innehåll, berättarstruktur, person- och bildurval, källredovisning
+och visuell form vara beslutade genom Project Control inom gällande mandat.
+Ägarens befintliga instruktioner och uttryckliga produktionsmedgivande ska
+respekteras; fråga inte om redan avgjorda val utan en konkret ny anledning.
 
-## Aktuell front
+Den första djup-4-utgåvan och de efterföljande djup-5-utgåvorna är historiska
+leveranser. Besluten finns i PCD-2026-08-22-001, PCD-2026-08-23-001 och
+PCD-2026-09-04-002/004/005 i [Project Control](../PROJECT-CONTROL.md), och
+resultaten i respektive Wotan-uppgift. De utgör inte instruktioner att
+återstarta T-0012 eller producera om utgåvorna vid varje session.
+Arbetet väljs ur aktuell backlog enligt [Wotan-konventionen](../wotan/README.md).
 
-Läget mot målet räknas ut med `node scripts/goal-state.mjs`; det ersätter
-handskrivna lägestabeller. Den levande generationsfronten och
-sammanfattningen per djup finns i [`frontier.md`](frontier.md), personernas
-källbredd i [`source-coverage.md`](source-coverage.md) och varje persons
-konsolideringsläge i aktens `## Arbetsläge`. Tidigare personspecifika
-frontnoteringar som stod här är bevarade ordagrant i
-[`research-log/front-notes-archive-2026-09-04.md`](research-log/front-notes-archive-2026-09-04.md).
+## Beständigt läge och verifiering
 
-Den levande, personspecifika fronten finns i
-[`frontier.md`](frontier.md). Wotan är den enda exekveringskön; detta dokument
-anger mål, metod och färdigdefinition.
+[Frontier](frontier.md) visar anlinjer och [source-coverage](source-coverage.md)
+kompakt källtäckning. Personakter och profiler anger aktuellt sakläge.
+Wotan äger uppgiftsspecifik återupptagning enligt [konventionen](../wotan/README.md).
+Ingen HANDOVER eller separat sessionskö används.
 
-## Integritet och levande personer
+Kör `node scripts/goal-state.mjs` och `node scripts/research-inventory.mjs`.
+De visar olika registrerade indikatorer. Inventeringen får inte omtolka
+formellt saknade nya fält till felaktiga släktrelationer, och äldre djupmått
+får inte bevisa fullständig livsbild. Kör validatorer och relevanta tester
+samt uppdatera härledda filer enligt Wotan före avslut.
 
-För sannolikt levande personer sparas bara de identitets- och
-relationsuppgifter som behövs för att hålla samman forskningen. Privatmarkerade
-personer får en minimal akt utan spekulativ identifiering. Historiska
-originalbilder och detaljer om avlidna personer kan dokumenteras utförligare.
+Vid utloggning sparas exakt passage innan annat godkänt arbete fortsätter,
+exempelvis med MCP. När ägaren loggat in återupptas den sparade passagen.
+Följ [Riksarkivet-metoden](method-riksarkivet.md). ArkivDigital är förbjudet
+för agenten. Ingen beställning, kontakt, PDF eller publicering följer
+av forskningsprogrammet utan separat mandat.
 
-## Omprövning
-
-Programmet omprövas när en hel generationsvåg är granskad, när en central
-föräldrarelation falsifieras, när åtkomstregler förändras eller när samtliga
-öppna linjer har nått dokumenterade källslut. Att en enskild gren tar slut
-avslutar inte programmet medan andra verifierade linjer fortfarande är öppna.
+[Tvåfallspiloten](source-strategy-pilot-2026-09-05.md) är historisk
+metodprövning. Ägarens nya implementeringsbeslut gör detta program bindande;
+det påstår inte att piloten visade full källuttömning, tidsvinst eller
+professionell certifiering. Fortsatt utvärdering sker på verkliga kohorter.

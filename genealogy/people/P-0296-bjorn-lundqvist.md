@@ -11,6 +11,8 @@ levande; endast familjens egna identifieringsuppgifter bevaras och ingen adress.
 |---|---|---|---|---|---|
 | A-1660 | Björn Lundqvist uppges vara jägmästare och skogsägare i Tibro med 800 hektar. | TRANSCRIBED | medel | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Privat familjeuppgift; ingen exakt fastighetsbeteckning eller adress lagras. |
 
+| A-3302 | Björn Flemming står som son i Gustaf Tobias Lundqvists och Alva Viktoria Eliassons hushåll. | CORROBORATED | hög | [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md), [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Samma namngivna mor och syskonpar i Tibro binder familjeuppgiftsakten till originalhushållet; senare yrke verifieras inte. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

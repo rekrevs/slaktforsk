@@ -75,9 +75,10 @@ export function computeGoalState({ people, coverageText, citationExists }) {
     const work = readWorkState(text);
     const row = coverage.get(id) ?? null;
     const openCells = row ? COVERAGE_COLUMNS.filter((k) => row[k] === "1") : [];
-    const coverageReady = work.coverageOverride
-      ? ["KLAR", "INTEGRITETSMINIMERAD"].includes(work.coverageOverride)
-      : row !== null && openCells.length === 0;
+    const coverageReady = row !== null
+      ? openCells.length === 0
+      : work.coverageOverride === "INTEGRITETSMINIMERAD" ||
+        (work.coverageOverride === "KLAR" && Boolean(work.coverageJustification));
     persons.set(id, {
       id,
       title: people.get(id).title ?? id,
@@ -180,7 +181,9 @@ function byDepthId(a, b) {
 
 export function formatReport(state, { sliceDepth } = {}) {
   const out = [];
+  out.push("Registrerade indikatorer; formell giltighet och frånvaro av prioritet 1 bevisar inte north stars uppfyllelse. Villkorliga 2-celler kräver sakprövning.");
   out.push(`Proband: Adam och Axel (${SONS.join(", ")}); djup 1 = ${state.root.depth1.join(", ")}`);
+  out.push("Personernas separata kontrakts-/livsbildsläge: node scripts/research-inventory.mjs (äldre KLAR är inte nytt godkännande).");
   for (const n of state.notes) out.push(`VARNING: ${n}`);
   out.push("");
   out.push("djup | positioner | kända | stängda | öppna | granskade | källbredd-klara | osökta fronter ≤ djup | behandlad");
@@ -193,7 +196,7 @@ export function formatReport(state, { sliceDepth } = {}) {
     );
   }
   out.push("");
-  out.push(`Gemensamt djup: ${state.sharedDepth}`);
+  out.push(`Registrerat gemensamt djup: ${state.sharedDepth}`);
   const slice = sliceDepth
     ? recomputeSlice(state, sliceDepth)
     : state.nextSlice;

@@ -18,3 +18,13 @@
 | [P-0163 Margareta Hansdotter](P-0163-margareta-hansdotter-storbacken.md) | mor | TRANSCRIBED | C-0125 |
 | [P-0102 Maria Jacobsdotter](P-0102-maria-jacobsdotter-ultervattnet.md) | hustru | CORROBORATED | C-0123, C-0069 |
 | [P-0094 Jakob Andersson](P-0094-jakob-andersson-ultervattnet.md) | son | TRANSCRIBED | C-0069 |
+
+## Slutstatus
+
+- Status: `VERIFIERAD`
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
+- Källbredd: `KLAR` — egen födelsenotis namnger båda föräldrarna och den
+  källbundna Storbäcken–Häggnäs–Ultervattnet-kedjan säkrar identiteten.

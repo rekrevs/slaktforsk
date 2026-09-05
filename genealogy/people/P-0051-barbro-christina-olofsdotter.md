@@ -103,6 +103,9 @@ ursprungliga dopnamn är däremot fortfarande olösta.
 | A-2950 | Bonden Olof Pehrsson i Hemlunda dog 1848-04-14, 59 år 7 månader 6 dagar gammal, och är inte Olaus född 1784-02-07. | REJECTED | hög | [C-0755](../citations/C-0755-pitea-olof-pehrsson-1837-1848-avvisade.md) | Bouppteckningen namnger änkan Brita Stina Andersdotter och dödsdagen; E I/4 ger åldern. Härledd ungefärlig födelsetid 1788-09-08 hålls skild från källtranskriptionen. |
 | A-2951 | Bouppteckningen 1858 efter bonden Olof Pehrsson i Porsnäs anger död 30 mars, änkan Anna Lovisa Brännberg samt barnen Jonas Oscar, två år, och Maria Lovisa, tre år. | TRANSCRIBED | hög | [C-0756](../citations/C-0756-pitea-porsnas-olof-pehrsson-1858-olost.md) | Akten visar en distinkt familj men anger ingen säker födelsetid för den avlidne och binder honom inte till Barbro eller Överklinten. |
 | A-2952 | E I/5:s exakta marsintervall och A I/9a:s hela Porsnäsavsnitt sidorna 181–207 ger ingen säker födelsetid eller hushållsbrygga som identifierar 1858 års Olof Pehrsson med Överklintenmannen. | NEGATIVE | medel | [C-0756](../citations/C-0756-pitea-porsnas-olof-pehrsson-1858-olost.md) | Bild-/sektionsbundet kandidatutfall. Kandidaten är olöst, inte avvisad; inget person-, vistelse-, dödsfalls- eller helvolymsnoll och ingen relation skapas. |
+| A-3262 | C-0756:s dödsdag rättas till 23 mars 1858; gårdsnyckeln är 1/32 mantal under Porsnäs nr 15 och tidigare sidor 181–207 var inte hela ortsavsnittet. | TRANSCRIBED | hög | [C-0867](../citations/C-0867-porsnas-familj-identifierad.md) | Rättar A-2951–A-2952; historiken bevaras. |
+| A-3263 | Porsnäs sida 213 och födelsenotiserna identifierar Maria Lovisa 1855-01-17 och Jonas Oscar 1857-01-14 med föräldrarna Olof Pehrsson och Anna Lovisa Eriksdotter. | TRANSCRIBED | hög | [C-0867](../citations/C-0867-porsnas-familj-identifierad.md) | Barn, gård, mantalsandel och dödsdag binder familjen till bouppteckningens Anna Lovisa Brännberg. |
+| A-3264 | Porsnäskandidaten Olof Pehrsson död 1858-03-23 avvisas mot Olaus Pehrsson född 1784-02-07: dödboken anger 61 år 10 månader 20 dagar. | REJECTED | hög | [C-0867](../citations/C-0867-porsnas-familj-identifierad.md) | Familjekontroll med två barn och hushåll; ingen föräldrarelation till Barbro eller avvisning av den skilda Överklintenhypotesen. |
 | A-2953 | Ett inloggat omprov av Bygdeå H I/1, H III/1 och L III/1 visade ingen CAPTCHA men fortfarande endast `Läsesal`, utan digital bild- eller beställningskontroll. | TRANSCRIBED | hög | [C-0754](../citations/C-0754-bygdea-analoga-routes-inloggat-lasessalslage.md) | Inloggningen upphäver CAPTCHA-hindret men inte originalåtkomsten; ingen handling eller persontext har lästs. |
 | A-2973 | Piteå landsförsamlings A I/5a–e 1817–1825 och A I/6a–b 1826–1833 är digitaliserade som `C0035010`–`C0035016`; de sju manifesten omfattar sammanlagt 2 134 bildytor utan strukturer. | TRANSCRIBED | hög | [C-0764](../citations/C-0764-pitea-AI5-AI6-olaus-kandidatscreening.md) | Exakt fortsättning på den tidigare A I/3–4-screeningen. A I/6a:s manifest och Hortlaxresultat var redan bevarade i S-0582. |
 | A-2974 | Två OCR-pass över A I/5a–e och A I/6a–b gav ingen visuellt godkänd nominerad rad som kombinerar Olaus/Olof Pehrsson/Persson med födelseår 1784. | NEGATIVE | medel | [C-0764](../citations/C-0764-pitea-AI5-AI6-olaus-kandidatscreening.md) | Endast kandidatscreening. OCR kan missa handskrift; det är inte ett person-, vistelse-, by-, församlings- eller helvolymsnoll. |
@@ -548,12 +551,21 @@ Barn: [P-0057 Margareta Euphrosyne](P-0057-margareta-euphrosyne-andersdotter.md)
 > digitaliserad" är därför inte belagd; det som är belagt är att volymen inte
 > är fjärråtkomlig. Se `genealogy/method-riksarkivet.md`.
 
+## Revisionsbedömning 2026-09-05
+
+De specifika Bygdeåbilagornas läsesalshinder består. Porsnäskandidaten i C-0756 har dock namngiven änka Anna Lovisa Brännberg och barnen Jonas Oscar och Maria Lovisa med åldrar 1858. Barnens födelseposter omkring 1854–1856 kan sökas för en oberoende hushålls-/datumanknytning. Ingen ny exakt födelsetid för fadern behöver inväntas. Kandidaten och Olaus från Överklinten förblir skilda hypoteser utan föräldrakant till Barbro.
+
+Slutstatusen ovan beskriver kunskapsläge eller de namngivna källvägarnas
+hinder; den utgör inte ett sakligt avslut av hela föräldrafrågan.
+Fortsatt beslutat arbete: [T-0052](../../wotan/dev-log/T-0052.md).
+Motivering, sökomfång, leverantörsgränser och livsbildsluckor finns i
+[batch 272](../research-log/2026-09-05.md#batch-272--t-0048-sakrevision-av-fyra-foraldrafronter-pa-djup-5). Äldre daterade arbetsnoter nedan är historik
+där de kräver att en ny nyckel ska inväntas; denna bedömning gäller före dem.
+
 ## Arbetsläge
 
-- Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
-  personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
-  uttryckligen irrelevant disposition i source-coverage-matrisen
-  (research-log Batch 250; T-0028).
+- Källbredd: fortsatt prövning krävs 2026-09-05; se revisionsbedömningen ovan.
+
 - Källbredd 2026-09-04: skatt/mantal `S`. Bygdeå Vol/38–51 är en exakt
   analog route över möjlig och säker livsperiod, med katalogglapp
   1873–1882. Ingen personförd rad har lästs (C-0801/C-0825; research-log
@@ -564,3 +576,13 @@ Barn: [P-0057 Margareta Euphrosyne](P-0057-margareta-euphrosyne-andersdotter.md)
   1832 till 1866 (C-0201/C-0309). Utfallet är seriebundet och återtas först
   med ny positiv flytt-, by-, sida- eller hushållsnyckel (research-log
   Batch 247).
+
+## Uppföljning 2026-09-05 — T-0052
+
+C-0867/A-3262–A-3264 ersätter den äldre bedömningen av Porsnäskandidaten:
+familjen är återfunnen på sida213 och båda barnens födelser är lästa.
+Mannen död23 mars1858 var61 år10 månader20 dagar och avvisas mot Olaus1784.
+Rättelserna gäller både dödsdatum och tidigare felaktigt påstådd
+ortsavgränsning. Denna kandidat ska inte återtas utan konkret motbelägg.
+Överklintenmannen förblir separat LEAD; Barbros föräldrar är fortsatt olösta.
+De preciserade analoga originalvägarna i Slutstatus består.

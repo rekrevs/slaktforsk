@@ -64,3 +64,15 @@ hans barndomsby är därför ännu okänd.
 ## Stödda påståenden
 
 A-0603 och A-0609–A-0610.
+
+## Rättelse 2026-09-05, T-0057 — det äldre nollet är upphävt
+
+[C-0872](C-0872-anders-buberget-fodelse-1839-rattelse.md) återläser samma
+SHA-verifierade bild44 mot föräldrarna identifierade i C-0869 och två
+nya tidiga hushåll. Posten16 april anger Jon Andersson, Ulrica Lovisa
+och Buberget. Den äldre avskriften Lars/Skäckerjord ovan är felaktig;
+slutsatsen att ingen Jon-/Jonasson finns gäller inte. A-3307–A-3308
+bevarar positiv födelseidentifiering och uttrycklig rättelse.
+Bilder45–47 har nu också bevarats i C-0872; endast44 var lokalt länkad
+här tidigare. Avvikelsen14 april i vigselboken består som källobservation.
+Texten ovan behålls som revisionshistorik och får inte styra ny forskning.

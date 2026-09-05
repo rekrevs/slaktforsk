@@ -36,6 +36,7 @@ A clean clone requires Git LFS to materialize the binary evidence archive:
 git lfs install
 git lfs pull
 node scripts/media-manifest.mjs --check
+node scripts/research-inventory.mjs --check
 node scripts/validate-genealogy.mjs
 ```
 

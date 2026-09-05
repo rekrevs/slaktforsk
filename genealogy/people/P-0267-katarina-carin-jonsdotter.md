@@ -21,6 +21,7 @@ och Cajsa; dödsåret 1864 återstår att pröva.
 | A-1844 | Västra Ny A I/6 anger födelsen 1792-03-21 i Västra Ny. | CONFLICT | hög | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Datumet 21/3 motsägs av 21/4 respektive 24/4 i de andra längderna. |
 | A-1845 | Hon kan följas som Peter/Petter Ajax hustru från Stordalen i Hammar A I/3 b till Medevi Brunn i Västra Ny A I/6. | CORROBORATED | hög | [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) | Maken, namnformen, födelseort/år och barnen identifierar samma hushåll över flytten. |
 | A-1881 | Barnens samtidiga födelsenotiser skriver hennes förnamn `Cajsa` 1818, 1821 och 1830 samt `Carin` 1823, 1826 och 1828. | CORROBORATED | hög | [C-0299](../citations/C-0299-carl-johan-ajax-fodd-hammar-1818.md), [C-0300](../citations/C-0300-adolf-fredrik-ajax-fodd-hammar-1821.md), [C-0301](../citations/C-0301-and-gustaf-ajax-fodd-vastra-ny-1823.md), [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | Föräldraparet, platserna och barnkedjan visar att namnformerna avser samma kvinna som tidigare skrivs Catharina. |
+| A-3254 | Västra Ny C/2:s hela födelseår 1792 saknar en Catharina, Carin eller Cajsa med hennes profil på 21 mars, 21 april och 24 april. | NEGATIVE | hög | [C-0861](../citations/C-0861-vastra-ny-C2-catharina-1792-kontroll.md), [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Komplett årgångs-/profilnoll; det rättar inte datum eller socken och namnger inga föräldrar. |
 
 ## Relationer
 
@@ -36,10 +37,20 @@ och Cajsa; dödsåret 1864 återstår att pröva.
 | [P-0327 Carl Johan Ajax](P-0327-carl-johan-petter-ajax.md) | son | CORROBORATED | C-0296, C-0299 |
 | [P-0328 Anna Josephina Ajax](P-0328-anna-josephina-ajax.md) | dotter | CORROBORATED | C-0296, C-0303 |
 
-## Forskningsfrågor
+## Slutstatus
 
-- Kontrollera hennes egen födelsenotis i Västra Ny 1792 kring 21 mars,
-  21 april och 24 april; hushållskedjan är nu säkrad men datumkonflikten har
-  vuxit till tre primäruppgifter.
-- Pröva dödsåret 1864 mot eget original; formerna Catharina, Carin och Cajsa
-  är nu originalbelagda i familjens samtidiga kyrkoboksnotiser.
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett tidigare personbundet hushålls-, vigsel-, flytt- eller
+  dödsbelägg som rättar födelsedatum/socken eller namnger föräldrahem.
+- Genomsökt: den säkra Stordalen–Medevi-kedjan och Västra Ny C/2:s hela
+  födelseår 1792, C-0289–C-0297/C-0861.
+- Negativ kontroll: [C-0861](../citations/C-0861-vastra-ny-C2-catharina-1792-kontroll.md) saknar målprofil på 21 mars, 21 april eller
+  24 april; en annan Cathrina i mars har oförenligt datum och föräldrapar.
+- Återaktivering: en ny positiv personbunden källa som rättar datum eller
+  socken. Upprepa inte blind årgångsläsning av Västra Ny 1792.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0044)
+- Källbredd: `KLAR` — samtliga tre hushållsdatum är prövade i hela
+  originalårgången utan säker födelseidentifikation.

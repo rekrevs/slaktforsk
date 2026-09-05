@@ -21,9 +21,19 @@ på Adams djup 6.
 | [P-0473 Beata Jonsdotter](P-0473-beata-jonsdotter.md) | dotter | CORROBORATED | C-0733 |
 | [P-0478 Jan Larsson](P-0478-jan-larsson-anaset.md) | make i Ånäset-hushållet | TRANSCRIBED | C-0733 |
 
-## Forskningsstatus
+## Slutstatus
 
-- Status: `NY DJUP-6-SPETS — MODERSKAP SÄKRAT; EGET URSPRUNG ÖPPET`
-- Nästa väg: följ Sara Lisa bakåt från Ånäset med hjälp av den äldre
-  hushållskedjan. Födelseåret 1777 får inte ensamt skapa dag, ort eller
-  föräldrar.
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett tidigare personbundet Ånäsethushåll, vigsel-,
+  flytt- eller dödsbelägg med eget datum, socken eller föräldrahem.
+- Genomsökt: Ånäsets familjehushåll och Beatas säkra senare kedja, C-0733.
+- Negativ kontroll: [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) säkrar Jan, Sara Lisa, Beata och året 1777 men ger ingen exakt egen ursprungsnyckel.
+- Återaktivering: en ny positiv personbunden datum-, orts-, hushålls-,
+  vigsel-, flytt- eller dödsnyckel. Året 1777 får inte ensamt styra en bred
+  födelsesökning.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0045)
+- Källbredd: `KLAR` — modersrollen och hushållet är säkrade; nästa
+  generation saknar unik personnyckel.

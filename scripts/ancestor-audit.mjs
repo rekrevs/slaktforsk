@@ -86,12 +86,12 @@ if (nextFrontier.length) {
 if (unresolved.length) {
   const nextDepth = Math.min(...unresolved.map((id) => depth.get(id)));
   const queue = unresolved.filter((id) => depth.get(id) === nextDepth);
-  console.log(`\nNästa tillåtna arbetsdjup: ${nextDepth}`);
+  console.log(`\nNärmaste djup med formellt ofullständig slutstatus: ${nextDepth}`);
   for (const id of queue) console.log(`  ${id}  ${people.get(id).title}`);
 }
 
 console.log(
-  `\nAnspetsar utan giltig slutstatus: ${unresolved.length}` +
-    (unresolved.length ? "" : "  — målets avslutskriterium är uppfyllt"),
+  `\nAnspetsar utan formellt giltig slutstatus: ${unresolved.length}. ` +
+    "Strukturkontrollen prövar inte källuttömning, livsbilder eller north stars uppfyllelse.",
 );
 process.exitCode = unresolved.length ? 1 : 0;

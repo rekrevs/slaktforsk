@@ -9,7 +9,7 @@
 - Tidsomfång: 1800–1830
 - Bildbatch: `A0001455`, 275 bilder; 1824 börjar på bild 217 (sida 414)
 - IIIF-manifest: <https://lbiiif.riksarkivet.se/arkis!A0001455/manifest>
-- Läst: 2026-08-20, 2026-08-29 och 2026-09-01
+- Läst: 2026-08-20, 2026-08-29, 2026-09-01 och 2026-09-04
 
 ## Källkritik
 
@@ -39,6 +39,12 @@ bevarad födelsesida för 1829 finns alltså inte i den skannade födelseföljde
 trots katalogens övergripande datering 1800–1830. Saras egen födelsenotis kan
 därför inte kontrolleras i denna reproduktion; detta är en bildföljdslucka,
 inte belägg för att födelsen inte ägde rum eller aldrig bokfördes.
+
+Den 2026-09-04 lästes hela födelseåret 1806 på sidorna 60–70, bilderna
+`A0001455_00035`–`_00040`. Året slutar uttryckligen efter post 62 på sida 70
+och nästa bild börjar 1807. Ingen post förenar barnet Anders med modern Anna
+Catharina Andersdotter; resultatet är ett årgångs- och profilbundet noll, inte
+ett födelse- eller identitetsnoll för Anders Olofsson.
 
 IIIF-manifestet är lokalt bevarat som
 [A0001455](../media/S-0084-riksarkivet-degerfors-C2-IIIF-A0001455.json),

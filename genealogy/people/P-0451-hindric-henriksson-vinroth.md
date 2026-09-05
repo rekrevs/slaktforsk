@@ -42,3 +42,25 @@ antavlan: födelse-/syskonåren, vigseldatumet, dödsåret och Laxsjönsroutinge
 ger ett samlat konfliktmönster. Återöppna endast från en positiv originalrad
 som uttryckligen binder Hindric till ett äldre föräldrapar; harmonisera inte
 1797 mot 1796-11-02 och anta inte Ljustorp som födelseförsamling.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: egen födelsepost eller ett tidigare personbundet
+  hushålls-, vigsel- eller flyttoriginal som uttryckligen namnger Hindrics
+  föräldrar eller föräldrahem.
+- Genomsökt: Ljustorp C/1:s kompletta födelseår 1796, C/2:s kompletta
+  vigselår 1819 och de bevarade Laxsjönssidorna i A I/1–A I/3. C/1:s
+  1797-följd och A I/2:s sida 15 är fysiskt defekta och bär inget noll.
+- Negativ kontroll: [C-0678](../citations/C-0678-ljustorp-familj-98-originalkonflikter.md)
+- Återaktivering: en positiv originalrad som binder Hindric till ett
+  bestämt föräldrapar eller en ny personbunden ort-/flyttnyckel. Upprepa inte
+  de kompletta årgångarna och återför inte P-0461–P-0462 ur Nybergs familj
+  98 utan sådan mellanlänk.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0039)
+- Källbredd: `KLAR` — den tidigare registerföräldralänken är prövad mot
+  original och avvisad; den enda saknade bärande nyckeln är ett positivt
+  tidigare personoriginal.

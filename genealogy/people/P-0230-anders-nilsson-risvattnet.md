@@ -28,3 +28,9 @@ född 1835.
 Ny direkt ana på djup 5, vidareförd till P-0232–P-0233. Följ honom
 breddförst genom äldre Risvattnethushåll, vigsel, död/begravning, mantal och
 bouppteckning; registrera inte fler föräldrar utan en säker identitetskedja.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0040)
+- Källbredd: `KLAR` — egen födelsenotis säkrar P-0232–P-0233 och två
+  hushållslängder säkrar make, barn och Risvattnet; senare liv är berikning.

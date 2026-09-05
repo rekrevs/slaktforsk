@@ -13,9 +13,10 @@ Hon är därmed Lotta Sofia Andersdotters farmor.
 | A-0632 | Hon var född 1783 i Umeå stadsförsamling. | TRANSCRIBED | hög | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Födelseortskolumnen anger `Ume sfg`. |
 | A-0633 | Hon var änka och redovisas som `Moder` i hushållet. | TRANSCRIBED | hög | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Familjeställningskolumnen. |
 | A-0634 | Hon var mor till Anders Olofsson, född 1806. | TRANSCRIBED | hög | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Följer av familjeställningen `Moder` i hans hushåll. |
-| A-0703 | Den volym som skulle innehålla hennes födelsenotis, Umeå stadsförsamlings `C/2` (1781–1812), kan inte nås på distans. | TRANSCRIBED | hög | [C-0120](../citations/C-0120-umea-stadsforsamling-atkomstlage-1783.md) | Den tidigaste publikt serverade födelseboken för församlingen börjar 1861. |
-| A-0704 | Församlingens husförhörslängder `A I/4` (1773–1790) och `A I/5` (1790–1807), som hade visat henne i föräldrahemmet, kan inte heller nås. | TRANSCRIBED | hög | [C-0120](../citations/C-0120-umea-stadsforsamling-atkomstlage-1783.md) | Samma kontroll. |
+| A-0703 | Umeå stadsförsamlings `C/2` (1781–1812) kunde inte nås vid åtkomstkontrollen 2026-08-20. | TRANSCRIBED | hög | [C-0120](../citations/C-0120-umea-stadsforsamling-atkomstlage-1783.md) | Historisk åtkomstobservation; supersederad av den fungerande IIIF-routen i C-0855. |
+| A-0704 | Församlingens husförhörslängder `A I/4` (1773–1790) och `A I/5` (1790–1807) kunde inte nås vid åtkomstkontrollen 2026-08-20. | TRANSCRIBED | hög | [C-0120](../citations/C-0120-umea-stadsforsamling-atkomstlage-1783.md) | Tidsbunden åtkomstobservation, inte ett påstående om dagens läge. |
 | A-0705 | Degerfors vigselavdelning 1801–1806 gicks igenom utan träff, och formuläret för perioden namnger inte kontrahenternas föräldrar. | TRANSCRIBED | hög | [C-0120](../citations/C-0120-umea-stadsforsamling-atkomstlage-1783.md) | Även en träff hade därför lämnat frågan om hennes föräldrar öppen. |
+| A-3243 | Umeå stadsförsamling C/2:s kompletta födelseföljd 1783 saknar Anna Catharina Andersdotter. | NEGATIVE | hög | [C-0855](../citations/C-0855-umea-stadsforsamling-C2-anna-catharina-1783-kontroll.md) | Strikt volym-, församlings- och årgångsbundet noll; den senare uppgiften `1783 Ume sfg` rättas inte utan mellanlänk. |
 
 ## Relationer
 
@@ -54,3 +55,22 @@ Hon är därmed Lotta Sofia Andersdotters farmor.
 > odigitaliserad volym från digitaliserad men inte publikt serverad. Det som är
 > belagt är att volymerna inte kan nås på distans. Se
 > `genealogy/method-riksarkivet.md`.
+
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: ett tidigare personbundet hushåll, vigsel-, flytt- eller
+  dödsbelägg som ger exakt datum, rätt födelsesocken eller föräldrahem.
+- Genomsökt: Umeå stadsförsamling C/2:s hela födelseår 1783 samt Degerfors
+  C/2:s vigselavdelning 1801–1806; sonens Rödåhushåll ger den senare
+  födelseprofilen.
+- Negativ kontroll: [C-0855](../citations/C-0855-umea-stadsforsamling-C2-anna-catharina-1783-kontroll.md)
+- Återaktivering: en ny personbunden datum-, socken-, hushålls-, vigsel- eller
+  flyttnyckel. Upprepa inte Umeå stadsförsamling 1783 och välj inte en
+  namnlik kandidat utan mellanlänk.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0041)
+- Källbredd: `KLAR` — det uppgivna födelseåret är helt läst; fortsatt säker
+  forskning kräver en ny personbunden nyckel.

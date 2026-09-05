@@ -67,3 +67,13 @@ därför som LEAD i väntan på hennes födelsenotis eller ett barndomshushåll.
 ## Stödda påståenden
 
 A-0596–A-0608.
+
+## Kvalificering efter omläsning 2026-09-05, T-0061
+
+[C-0877](C-0877-anders-kallstrategi-omlasning.md) återläser samma
+bevarade fulloriginal. Sista siffran i Anders födelsedag kan i denna
+pilot inte säkert avgöras mellan 14 och 16. Den äldre 14-avskriften
+ovan bevaras, men får inte längre åberopas som en otvetydig
+originalavvikelse. Detta är en kvarstående avläsningsfråga, inte ett
+belagt skrivfel. Egen födelsepost C-0872 bär fortfarande det accepterade
+datumet 1839-04-16. Brudens uppgifter omfattas inte av pilotens prövning.

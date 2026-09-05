@@ -52,3 +52,10 @@ sidor i samma privata databas och är inte oberoende verifierad.
   men öppnar ingen separat Sävar-volym för 1794; det relevanta äldre Umeå
   landsförsamlingsspåret är redan negativt kontrollerat. Inga föräldrar
   registreras från patronymikonet eller ett privat släktträd.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0037)
+- Källbredd: `KLAR` — fysisk Degerforslucka och två alternativa
+  församlingskontroller är dokumenterade; en ny originalnära hushålls- eller
+  flyttnyckel krävs för återstart.

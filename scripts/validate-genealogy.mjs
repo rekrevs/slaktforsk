@@ -3,6 +3,7 @@
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { dirname, join, relative, resolve } from "node:path";
+import { buildInventory } from "./research-inventory.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const genealogy = join(root, "genealogy");
@@ -82,6 +83,15 @@ const backlogPath = join(root, "wotan", "backlog.json");
 const backlog = JSON.parse(readFileSync(backlogPath, "utf8"));
 const ongoing = backlog.tasks.filter((task) => task.status === "ONGOING");
 if (ongoing.length > 1) errors.push(`multiple ONGOING Wotan tasks: ${ongoing.map((t) => t.id).join(", ")}`);
+
+// Saknade äldre profiler redovisas, aldrig auto-godkänns. Felaktiga nya
+// kontraktsfält, brutna profilreferenser och omöjliga beroenden är strukturfel.
+const researchInventory = buildInventory(root);
+errors.push(...researchInventory.errors);
+const inventoryPath = join(genealogy, "research-inventory.json");
+if (!existsSync(inventoryPath) || readFileSync(inventoryPath, "utf8") !== `${JSON.stringify(researchInventory, null, 2)}\n`) {
+  errors.push("research inventory missing/stale: review changes, then node scripts/research-inventory.mjs --write");
+}
 
 if (errors.length) {
   console.error(errors.join("\n"));

@@ -27,3 +27,9 @@ Hustru till kolaren Jonas Nordlund och mor till Stina Kajsa Nordlund.
 
 Egen födelse, föräldrar och det senare barnhushållet är säkrade. Följ
 föräldraparet i Hullsjö innan deras födelse- och dödsdata utökas.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0040)
+- Källbredd: `KLAR` — egen födelsenotis säkrar P-0417–P-0418 och det senare
+  hushållet säkrar make och barn; fortsatt arbete hör till djup-7-spetsarna.

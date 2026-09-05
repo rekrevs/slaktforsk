@@ -54,3 +54,9 @@ Rödå.
 - Kvarstående motsägelse: två samtida källor ger olika födelseår, 1806 och
   1810, och ingen av årgångarna innehåller en Sofia Magdalena. Hon kan vara
   född i en annan församling, och vilken framgår inte av någon åtkomlig källa.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0037)
+- Källbredd: `KLAR` — fyra födelseår, vigselpost och byregister är avgränsade;
+  återstart kräver en ny personbunden ort-, hushålls- eller flyttnyckel.

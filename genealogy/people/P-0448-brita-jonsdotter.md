@@ -36,3 +36,12 @@ ny ortsledtråd.
   Hullsjöavsnittet.
 - Negativ kontroll: [C-0591](../citations/C-0591-stode-AI9-hullsjo-familj-negativ-kontroll.md)
   bevarar nästa volyms avgränsade Hullsjönoll utan destinationsinferens.
+- Återaktivering: egen födelsepost omkring 1812-07-28 eller en ny positiv
+  orts-, hushålls-, vigsel- eller flyttnyckel som placerar familjen före
+  1833 eller efter 1842. Upprepa inte A I/9:s Hullsjöavsnitt.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-04 (T-0040)
+- Källbredd: `KLAR` — moderskapet är säkrat och nästa Hullsjövolym är
+  avgränsat negativ; eget ursprung saknar personbärande fortsättningsnyckel.
