@@ -26,6 +26,55 @@ osäkra läsningen `Wingberg[?]` i sonens födelsenotis är löst av flera tydli
 | A-2396 | Vid Karl Augusts omgifte i Kalmar 1882 antecknades `Bouppteckning och arfskifte uppvisadt`, så en bouppteckning efter henne upprättades mellan 1874 och 1882. | LEAD | hög | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Bouppteckningen är inte läst; sök i Ölands norra mots häradsrätt (Högby) 1874–1882. |
 | A-3163 | Ölands norra mots häradsrätt F II/75, 1872–1875, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Förenas med vigselkällans positiva uppgift att bouppteckning och arvskifte uppvisats; själva akten är oläst. |
 | A-3177 | Häradsskrivarens i Ölands norra mots fögderi fond `SE/VALA/01959`, 1655–1917, är den analoga skatte-/mantalsvägen för Christina Gustafvas säkra Högbyperiod. | LEAD | medel | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Tre riktade frågor exponerade ingen årsvolym; ingen personrad är läst. |
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1843-09-27 | **Född i Bäckebo**, döpt 6 oktober; dotter till **komminister Anders Ringberg** och **Johanna Christina Bökelund**. | [C-0466](../citations/C-0466-backebo-C4-christina-gustafva-fodd-1843.md) | **Egen födelsenotis.** Faderns initial `A.` löses till Anders genom herdaminnets ort-, ämbets- och tidsmässigt entydiga rad ([C-0468](../citations/C-0468-herdaminne-anders-ringberg.md)). |
+| 1840–1850-talen | Barn i **komministerhushållet i Skåningsmåla**, Bäckebo, med bröderna **Anders Gustaf Emanuel, Frans August, Carl Adolf och Johan Eugen**. | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Alla fyra bröder har egna personposter; deras egna födelsenotiser är inte lästa. |
+| 1862-09-07 | **Lyst i Källa**, dit familjen flyttat med faderns tjänst. Hon skrivs **`Högädla Jungfrun Christina Gustafva Ringberg i Källa`**, och **fadern antecknade själv sitt samtycke**. | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Hon var **19 år**, så giftomannasamtycket är väntat. |
+| 1862-09-26 | **Vigd i Källa prästgård** med kronolänsmannen Carl August Carlman; första giftet för båda. | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Vittnen var **prosten i Högby, lektor P. M. Ehrlandsson[?] med fru och vice häradshövdingen A. Wellin[?]** — namnen är osäkert lästa och ges **inga personposter**. |
+| 1863–1872 | **Sex barn** föds i Gasa; det äldsta sex månader efter vigseln. | [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md), [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md) | |
+| 1866-11-08 | Sonen **Johan Fredrik Villehad** föds i Högby. | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Direkt ana. Notisens osäkra namnform `Wingberg[?]` är löst till **Ringberg** av flera tydliga källor. |
+| 1874-03-30 | **Död i Gasa** av **`Nervfeber`**, 30 år 6 månader och 3 dagar gammal; begravd 5 april. | [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md) | Historisk källterm utan modern medicinsk omtolkning. Datumet står i **både husförhörslängden och dödboken**. |
+| 1874–1882 | **En bouppteckning efter henne upprättades.** | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Vid makens omgifte i Kalmar 1882 antecknades `Bouppteckning och arfskifte uppvisadt` — ett **positivt belägg för att handlingen fanns**. Den exakta volymen är Ölands norra mots häradsrätt **F II/75, 1872–1875**; akten är oläst. |
+
+## Biografisk sammanfattning
+
+Christina Gustafva Ringberg levde bara trettio år, men hon är en av de bäst
+belagda personerna i kohorten — och hon kom från det enda **prästhemmet** i
+hela släktträdet.
+
+Hon föddes den **27 september 1843 i Bäckebo** och döptes nio dagar senare,
+dotter till **komminister Anders Ringberg** och **Johanna Christina
+Bökelund**. Faderns namn stod i källorna bara som initialen `A.`; det löstes
+genom herdaminnets biografiska rad, som är entydig i ort, ämbete och tid. Hon
+växte upp i komministerhushållet i **Skåningsmåla** med fyra bröder.
+
+När hon var nitton flyttade familjen till **Källa**, och där lystes hon den
+7 september 1862 som **`Högädla Jungfrun Christina Gustafva Ringberg`**.
+Fadern skrev själv in sitt samtycke i boken — hon var omyndig. Nitton dagar
+senare vigdes hon i **Källa prästgård** med den trettiosjuårige
+kronolänsmannen **Carl August Carlman**. Vigselnotisen räknar upp vittnena:
+prosten i Högby, en lektor med fru och en vice häradshövding. Det var ett
+bröllop mellan två tjänstemannafamiljer.
+
+I **Gasa i Högby** födde hon **sex barn** på tio år — det äldsta kom sex
+månader efter vigseln, det yngsta 1872. Sonen **Johan Fredrik Villehad**,
+född i november 1866, är den direkta anan.
+
+Den **30 mars 1874** dog hon av `nervfeber`, trettio år, sex månader och tre
+dagar gammal, och begravdes den 5 april. Hennes död förklarar varför maken
+sex år senare står som änkling i folkräkningen — och varför han 1882 gifte om
+sig.
+
+Att det upprättades en bouppteckning efter henne vet vi av en indirekt men
+otvetydig källa: vid makens omgifte i Kalmar antecknade prästen att
+**`Bouppteckning och arfskifte uppvisadt`**. Handlingen fanns alltså. Den
+exakta volymen är identifierad — Ölands norra mots häradsrätt F II/75 för
+1872–1875 — men akten är analog och oläst, och den är det enda dokument som
+skulle säga vad prästdottern och länsmannen ägde.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

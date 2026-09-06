@@ -34,6 +34,64 @@ gången 1882 i Kalmar och död 1901-11-21 enligt församlingsboken.
 | A-3176 | Häradsskrivarens i Ölands norra mots fögderi fond `SE/VALA/01959`, 1655–1917, är den analoga skatte-/mantalsvägen för Karl Augusts säkra Högbyperiod. | LEAD | medel | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Tre riktade frågor exponerade ingen årsvolym; ingen personrad är läst. |
 | A-3188 | `SE/VALA/02632`, Kronolänsmannens i Ölands norra mots norra distrikt arkiv, 1869–1917, är en exakt analog yrkesroute med periodrelevanta diarier och handlingar. | LEAD | mycket hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Fonden motsvarar yrke, distrikt och period; ingen Carlman-rad, handling eller namnteckning är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1825-10-02 | **Född i Målilla**, döpt 7 oktober; son till **gästgivaren Carl Fredric Andersson** och **Anna Greta Danielsdotter**. | [C-0465](../citations/C-0465-malilla-C4-carl-august-fodd-1825.md) | **Egen födelsenotis.** Senare källor normaliserar `Carl` till `Karl`. |
+| 1862-09-07 | **Lyst i Källa.** Han tituleras **kronolänsman och förrättande landsfiskal** med hemvist **Vedby** i Högby socken. | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Ett ord före `förrättande` är överstruket och oläsligt och tolkas inte. |
+| 1862-09-26 | **Vigd i Källa prästgård** med Christina Gustafva Ringberg; **första giftet för båda**. | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Vigseln skedde i **brudens hemförsamling**. Högby E I/2 1861–feb 1864 och Bäckebo C/6 1861–1863 saknar posten — ett avgränsat noll som förklaras av Källa ([C-0534](../citations/C-0534-hogby-EI2-och-backebo-C6-vigselkontroll-1861-1864-negativ.md)). |
+| 1863–1872 | **Sex barn** föds; det äldsta kom sex månader efter vigseln. | [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md), [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md) | Sjätte barnet Oskar Mauritz Adelbert har egen födelsenotis 1872 ([C-0394](../citations/C-0394-hogby-C5-oskar-mauritz-adelbert-fodd-1872.md)). |
+| 1866-11-08 | Sonen **Johan Fredrik Villehad** föds i Högby. | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Direkt ana. |
+| 1861–1880 | **Kronolänsman i Gasa**, Högby; hushållet hänvisas internt från sida 139 år 1865. | [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md) | Den bokstavliga kontrollen av A I/8 sida 139 **återfann inget säkert Carlman-hushåll** och reproducerar inte hänvisningen ([C-0397](../citations/C-0397-hogby-AI8-sida-139-carlman-negativ.md)) — ett exakt sidnoll; annan paginering eller felläst hänvisning förblir möjliga. |
+| 1874-03-30 | **Änkling**: Christina Gustafva dör i Gasa av `Nervfeber`. | [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md) | Förklarar civilståndet i folkräkningen 1880. |
+| 1880 | **Kronolänsman och änkling i Gasa** med sex namngivna barn; **de fyra äldsta sönerna kallas studerande**, och tre pigor står i samma registerblock. | [C-0393](../citations/C-0393-folkrakning-1880-hogby-gasa-carlman.md) | Pigorna behandlas inte som familjerelationer. |
+| 1882-03-04 | **Lyst i Kalmar**, nr 8. Han tituleras kronolänsman från Högby, född `-25 Okt. 2`, och **uppvisade bouppteckning och arvskifte**. | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Bouppteckningen avser första hustrun — ett **positivt belägg för att handlingen fanns**. |
+| 1882-03-28 | **Gift om sig i Kalmar** med änkefrun **Mathilda Sofia Svensson**; andra giftet för båda. | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Församlingsboken upprepar exakt samma datum. Högby E I/2 1879–1890, 178 lysningar, saknar posten — avgränsat noll som förklaras av Kalmar ([C-0540](../citations/C-0540-hogby-EI2-1879-1890-negativ-och-F2-atkomst-401.md)). |
+| 1890 | **Kronolänsman i Hagaby** med Mathilda Sofia och tre barn. | [C-0356](../citations/C-0356-folkrakning-1890-hogby-hagaby-carlman.md) | |
+| 1900 | **Före detta kronolänsman** i Hagaby nr 6. | [C-0357](../citations/C-0357-folkrakning-1900-hogby-hagaby-carlman.md) | Yrkesformen visar pensioneringen. |
+| 1901-11-21 | **Död i Högby av `hjärtlidande`**, 76 år 1 månad och 19 dagar gammal; begravd 27 november. | [C-0560](../citations/C-0560-hogby-F2-carl-august-carlman-dod-1901.md) | **Rättelse av ett åtkomstbesked:** direkt-IIIF till dödboken F/2 svarade `401` 2026-08-29, men den **inloggade reservvisaren** gav senare den egna dödsposten. Åtkomstincidenten var inget nollresultat. |
+
+## Biografisk sammanfattning
+
+Karl August Carlman är den enda **ämbetsmannen** i hela djup 5-kohorten. Han
+föddes den **2 oktober 1825 i Målilla** som son till gästgivaren Carl Fredric
+Andersson och Anna Greta Danielsdotter — och blev **kronolänsman**, en
+statlig polis- och exekutionstjänsteman på landsbygden.
+
+Vid trettiosju års ålder gifte han sig. Lysningen i **Källa** den 7 september
+1862 kallar honom `kronolänsman och förrättande landsfiskal` med hemvist
+Vedby i Högby socken, och den 26 september vigdes han i **Källa prästgård**
+med den nittonåriga **Christina Gustafva Ringberg**, komministerdotter —
+hennes far antecknade själv sitt samtycke i boken. Att paret inte fanns i
+Högbys egen vigselbok var länge ett öppet noll; förklaringen är att vigseln
+skedde i brudens hem.
+
+I **Gasa i Högby** växte familjen till **sex barn**, och 1880 års folkräkning
+ger en ovanligt talande bild: han är änkling — hustrun hade dött i `nervfeber`
+sex år tidigare — de **fyra äldsta sönerna kallas studerande**, och tre pigor
+står i hushållet. Det är en tjänstemannafamilj i ett bondesamhälle, med barn
+på väg till läroverk.
+
+I mars 1882 gifte han om sig i **Kalmar** med änkefrun **Mathilda Sofia
+Svensson**. Lysningsboken noterar att han **uppvisade bouppteckning och
+arvskifte** efter första hustrun — vilket är ett positivt belägg för att den
+handlingen fanns, även om den ännu inte är läst.
+
+Han tjänstgjorde till omkring sekelskiftet. Folkräkningen 1890 visar honom
+som kronolänsman i **Hagaby**, 1900 som före detta kronolänsman i Hagaby
+nr 6. Han dog den **21 november 1901** av `hjärtlidande`, sjuttiosex år
+gammal, och begravdes den 27 november.
+
+Just den dödsposten är ett exempel på ett åtkomstbesked som inte höll:
+direkt-IIIF till Högbys dödbok svarade `401`, men den **inloggade
+reservvisaren** öppnade den och gav både dödsorsak och begravningsdag.
+
+Vad som fattas är hans arbete. **Kronolänsmannens i Ölands norra mots norra
+distrikt arkiv, `SE/VALA/02632`, 1869–1917**, motsvarar exakt hans yrke,
+distrikt och period — med diarier och handlingar som mycket väl kan bära hans
+egen namnteckning. Ingen rad är läst, och fonden är analog.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
