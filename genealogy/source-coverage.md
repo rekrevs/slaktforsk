@@ -1042,3 +1042,89 @@ disposition, inte att liven är uttömda. Öppet står: P-0001 Norsjö 1924–19
 och Umeå 1950–1963; P-0002 utbildningsorten och Umeå 1950–1997; P-0003
 uppslag 638 för 1923–1930, arbetsgivarna och 1951–1993; P-0007 Helgesta
 1921–1929 och yrkeslivet.
+
+## Personmatris: djup 3 på Kristinas sida efter T-0072, 2026-09-06
+
+Raderna upprättas när T-0072 har läst de källvägar som öppnades av den
+inloggade bildåtkomsten och när de fyra kompletterande källfamiljerna har
+fått en dokumenterad disposition i katalogprovet
+[C-0936](citations/C-0936-katalogprov-djup-3-kristinas-sida.md). De ersätter
+det tidigare läget att P-0239, P-0240, P-0241 och P-0246 saknade matrisrad.
+Koderna vilar på lästa poster och på ett katalogprov utan bildläsning, inte
+på antaganden.
+
+| Person | Nuvarande kärnfråga | F | H | M | V | D | R | B | T | J | O |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| P-0239 Anders Ivar Höök | födelse, uppväxt, utresa 1931, vigsel, faderskap och död är belagda; kvar är läkarutbildningen 1913–1930 och missionsårens egna handlingar | `✓` | `✓` | `✓` | `N` | `N` | `✓` | `S` | `—` | `S` | `S` |
+| P-0240 Anna Elisabeth Carlman, gift Höök | födelse, föräldrar, yrke 1930, vigsel, änkestånd, hemkomst 1946 och död är belagda; kvar är 1902–1930 och änketiden 1951–1991 | `✓` | `✓` | `✓` | `N` | `✓` | `✓` | `S` | `—` | `—` | `S` |
+| P-0241 Axel Edvin Henriksson | hela kedjan 1901–1943 är kyrkobokförd i original; kvar är dödsnotisen 1983 och Sättna efter 1943 | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `S` |
+| P-0246 Emma Petronella Eugenia Henriksson, född Larsson | födelse, dopvägran, föräldrahushåll, vigsel, sju barn och hela boendekedjan 1900–1943 är belagda; kvar är dödsnotisen 1963 | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `—` |
+
+### Motivering per kolumn
+
+**P-0239.** `F` egen födelsenotis 1903-05-13 med dop utan faddrar och utan
+namngiven far, C-0880. `H` församlingsboken s. 341 och s. 593 samt Lidingös
+uppslag 1341 (C-0260, C-0903). `M` utflyttningen till Kashgar 1931-07-27,
+C-0886. `V` är `N` och inte `✓`: Danderyd, Lidingö och Gustav Vasa är
+genomsökta med avgränsat noll (C-0887), vigseln 1931-08-08 skedde efter
+utresan och alltså utomlands, och datumet kommer från en församlingsbok
+(C-0903), inte från en vigselbok. `D` är `N` av samma slag: Hudiksvalls
+dödutdrag för hela 1944 saknar honom (C-0887, A-3338) därför att han dog i
+**Poona i Indien** 1944-08-19 (C-0903). `R` folkräkningarna 1910 och 1930,
+C-0255, C-0256, C-0258. `B` en eventuell bouppteckning 1944 skulle ligga i
+Hudiksvalls rådhusrätts `F II`, digitaliserad bara till 1863, C-0936.
+`T` utan trigger: han var skriven hos modern utan egen fastighet, och
+Medelpads och Hälsinglands fögderiserier täcker inte perioden. **`J` är den
+enda verkliga domstolstriggern i kohorten**: han föddes utom äktenskapet
+utan namngiven far, och ett faderskapsmål skulle ha förts vid Hudiksvalls
+rådhusrätt, vars domböcker från 1903–1904 saknar bild (C-0936). Det
+ägarfastställda faderskapet (A-2412, PCD-2026-08-29-001) påverkas inte av
+att den vägen är stängd. `O` Svenska Missionsförbundets arkiv har både
+**Östturkestanmissionen** och **Indienmissionen**, exakt hans två
+verksamhetsfält, men inget personarkiv för honom och ingen digital bild
+(C-0936).
+
+**P-0240.** `F` SCB-utdraget 1902-04-09 från Ljungby, C-0232. `H` Danderyds
+s. 522 och Lidingös uppslag 1341, C-0233, C-0903. `M` inflyttningen från
+**Indien** 1946-09-13, C-0903, och flytten från Gustav Vasa 1930, C-0233.
+`V` är `N` på samma grund som för maken. `D` gravposten Lidingö 1991-09-18,
+C-0226. `R` folkräkningarna 1900 och 1930, C-0234, C-0233. `B`
+bouppteckningen 1991 ligger hos Skatteverket, C-0936. `T` och `J` utan
+trigger: sjuksköterska utan fastighet, hushållet täckt av församlingsböcker.
+`O` missionsarkivet enligt ovan; LIBRIS två biografier om paret är
+bibliotekmaterial, inte arkivkälla, C-0235.
+
+**P-0241.** `F` egen födelsenotis och SCB-utdrag 1901, C-0244, C-0245.
+`H` fem församlingsboksuppslag i obruten följd: Storbränna fol 384 som barn,
+fol 393 som torpare, fol 392 i nya boken, **Sundsvalls Gustav Adolf fol
+2995** och **Storbränna fol 388** efter återflytten (C-0926, C-0925,
+C-0930, C-0933, C-0935). `M` fyra flyttningsposter: 1924 inom Sättna, 1928
+till Sundsvall i båda församlingarnas längder, och 1936 tillbaka i båda
+(C-0925, C-0930, C-0933, C-0935). `V` vigselboken 1924-09-13 med lysning i
+juli, C-0927. `D` gravregistret 1983-04-20 med gravsättning, C-0241;
+dödsnotisen är oläst. `R` folkräkningen 1910, C-0242, och det nationella
+indexnollet 1930, C-0898, som nu är förklarat: hushållet stod i Sundsvall.
+`B` bouppteckningen 1983 ligger hos Skatteverket, C-0936. `T` och `J` utan
+trigger: torpare och sedan chaufför utan egen fastighet, och Medelpads
+fögderiserier slutar 1917. `O` värnpliktsnumret **289 ⁶⁵/₂₁** leder till
+boxlagt inskrivningsmaterial hos Krigsarkivet, C-0936, C-0924.
+
+**P-0246.** `F` egen födelsenotis med anteckningen `Dop vägradt` och
+SCB-utdraget 1900, C-0246, C-0247. `H` samma fem uppslag som maken, plus
+föräldrahushållet på fol 393 fram till 1924 (C-0925, C-0930, C-0933,
+C-0935). `M` hon räknas i samtliga fyra flyttningsposter. `V` C-0927, där
+hon skrivs `torparedotter`. `D` gravregistret 1963-05-22, C-0241. `R`
+folkräkningarna 1900 och 1910, C-0243, C-0242, och indexnollet 1930,
+C-0898. `B` **volym 65 (1963) i Medelpads västra domsagas häradsrätts
+`F II a` är identifierad men saknar bild**, C-0936 — den enskilt mest
+lovande olästa källan för henne. `T`, `J` och `O` utan trigger: hon hade
+inget registrerat yrke utanför hushållet.
+
+### Kvarstående sakfrågor, inte formella brister
+
+Raderna betyder att varje relevant källfamilj har en dokumenterad
+disposition, inte att liven är uttömda. Öppet står: P-0239 läkarutbildningen
+1913–1930, vigselns ort och handling samt ett indiskt dödsbevis; P-0240
+uppväxten och utbildningen 1902–1930 och änketiden 1951–1991; P-0241
+dödsnotisen 1983 och Sättna efter 1943; P-0246 dödsnotisen 1963 och
+bouppteckningen samma år.
