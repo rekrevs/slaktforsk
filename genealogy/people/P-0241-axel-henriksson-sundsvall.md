@@ -33,6 +33,10 @@ folkräkningen 1910 och gravregistret i Sättna.
 | A-3487 | Han **utflyttade med hustru och två barn till Sundsvall, Storgatan 24**, med flyttningsbetyg 1928-09-08; utflyttningslängden anger 1928-09-14 och församlingsboken 1928-09-29. | CORROBORATED | mycket hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Två oberoende poster i samma arkiv; datumskillnaden bevaras. Förklarar varför familjen saknas under Sättnas fastighetsrubriker efter 1928. |
 | A-3488 | Vigseldatumet bekräftas oberoende i församlingsboken som `24 ¹³/₉`, alltså 1924-09-13. | CORROBORATED | mycket hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Slutgiltig rättelse av den preliminära läsningen `24 ¹³/₈` i C-0925. |
 | A-3491 | Han återinflyttade inte formellt till Sättna under 1929–1938; familjen stod kvar som skriven i **Sundsvall** under hela perioden. | TRANSCRIBED | hög | [C-0932](../citations/C-0932-sattna-inflyttningslangd-1929-1938-partiellt.md) | Sättnas inflyttningslängd är genomsökt år för år; endast 1932 är delvis läst. Återflytten ligger efter 1939. |
+| A-3493 | Familjen inflyttade till **Sundsvalls Gustav Adolfs församling den 1928-09-29** från Sättna, till **Storgatan 24**, och skrevs på folio 2995; inflyttningslängdens post 457 anger honom som `arb.` med två personer av vardera könet. | CORROBORATED | mycket hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md), [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Reciprok post mot Sättnas utflyttning; församlingsbokens datum är identiskt i båda församlingarna. |
+| A-3494 | **Han blev chaufför i Sundsvall**; yrkeskolumnen är ändrad från `Arb.` till `Chaufför`. | TRANSCRIBED | hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md) | Första belagda yrkesbytet efter torpartiden i Sättna; rättar den osäkra läsningen `skogsarbetare` 1938 till ett öppet yrke. |
+| A-3495 | **Tre barn föddes i Sundsvall**: sonen Nils Axel Henry 1930-12-09, dottern Solly Kristina 1932-01-19 och dottern Berit Kristina 1933-08-19, samtliga `icke döpt`. Tillsammans med Villy Anders Erik (1922) och Alvy Kristina (1925) ger det de **fem äldre barnen** i familjeuppgiften. | CORROBORATED | mycket hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md), [C-0238](../citations/C-0238-axel-henriksson-barn-willy-elsy-henry-sally-berit-evy.md) | Identifierar A-1490:s Willy, Elsy, Henry, Sally och Berit i samtida kyrkobok; Evy 1938 är det sjätte. Förklarar också nollresultatet i folkräkningsindexet 1930: hushållet stod i Sundsvall. |
+| A-3496 | **Familjen utflyttade åter till Sättna den 1936-04-14** med flyttningsbetyg 897/1936. | TRANSCRIBED | hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md) | Sluter luckan 1928–1938 och placerar familjen i Sättna igen innan Evy föddes 1938-01-12. Sättnas egen inflyttningslängd för 1936 saknar dock motsvarande post mellan post 17 (28/3) och post 18 (18/4) enligt [C-0932](../citations/C-0932-sattna-inflyttningslangd-1929-1938-partiellt.md); avvikelsen är bevarad och 1936 års längd bör läsas om namnkolumn för namnkolumn. |
 
 ## Relationer
 
@@ -44,11 +48,11 @@ folkräkningen 1910 och gravregistret i Sättna.
 | [P-0247 Gertrud Kristina Jönsson, senare Henriksson](P-0247-gertrud-kristina-jonsson-henriksson.md) | mor | CORROBORATED | C-0242, C-0244, C-0245 |
 | [P-0248 Emil Herman](P-0248-emil-herman-sattna.md) | yngre bror i hushållet | TRANSCRIBED | C-0242 |
 | [P-0249 Fridolf](P-0249-fridolf-sattna.md) | yngre bror i hushållet | TRANSCRIBED | C-0242 |
-| [P-0258 Willy](P-0258-willy-henriksson-familjen.md) | barn | TRANSCRIBED | C-0238 |
-| [P-0259 Elsy](P-0259-elsy-henriksson-familjen.md) | barn | TRANSCRIBED | C-0238 |
-| [P-0260 Henry](P-0260-henry-henriksson-familjen.md) | barn | TRANSCRIBED | C-0238 |
-| [P-0261 Sally](P-0261-sally-henriksson-familjen.md) | barn | TRANSCRIBED | C-0238 |
-| [P-0262 Berit](P-0262-berit-henriksson-familjen.md) | barn | TRANSCRIBED | C-0238 |
+| [P-0258 Villy Anders Erik, f. 1922](P-0258-willy-henriksson-familjen.md) | barn | CORROBORATED | C-0238, C-0925, C-0933 |
+| [P-0259 Alvy Kristina, f. 1925](P-0259-elsy-henriksson-familjen.md) | barn | CORROBORATED | C-0238, C-0925, C-0933 |
+| [P-0260 Nils Axel Henry, f. 1930](P-0260-henry-henriksson-familjen.md) | barn | CORROBORATED | C-0238, C-0933 |
+| [P-0261 Solly Kristina, f. 1932](P-0261-sally-henriksson-familjen.md) | barn | CORROBORATED | C-0238, C-0933 |
+| [P-0262 Berit Kristina, f. 1933](P-0262-berit-henriksson-familjen.md) | barn | CORROBORATED | C-0238, C-0933 |
 
 ## Forskningsstatus
 
@@ -74,7 +78,12 @@ en vigsel-, död- eller församlingsbokskedja.
 | 1925-05-19 | Dottern Alvy Kristina född, `icke döpt` | Storbränna | torpare | hustru och barn | C-0925 |
 | 1927-02-23 | Överförd till folio 392, Storbränna, i nya församlingsboken | Sättna | torpare | hustru och två barn | C-0930 |
 | 1928-09 | **Utflyttning till Sundsvall, Storgatan 24**; betyg 8/9, utflyttning 14/9 respektive 29/9 | Sättna → Sundsvall | arbetare | hustru och två barn | C-0930 |
-| 1928–1938 | **Materiell lucka**: Sundsvall och återkomsten till Sättna | Sundsvall | — | — | profil Q-01 |
+| 1928-09-29 | **Inflyttning till Sundsvalls Gustav Adolfs församling**, Storgatan 24, folio 2995 | Sundsvall | arbetare | hustru och två barn | C-0933 |
+| 1928–1936 | Skriven på folio 2995; övergick från arbetare till **chaufför** | Storgatan 24, Sundsvall | chaufför | hustru och växande barnskara | C-0933 |
+| 1930-12-09 | Sonen Nils Axel Henry född, `icke döpt` | Sundsvall | chaufför | — | C-0933 |
+| 1932-01-19 | Dottern Solly Kristina född, `icke döpt` | Sundsvall | chaufför | — | C-0933 |
+| 1933-08-19 | Dottern Berit Kristina född, `icke döpt` | Sundsvall | chaufför | — | C-0933 |
+| 1936-04-14 | **Återflyttning till Sättna**, flyttningsbetyg 897/1936 | Sundsvall → Sättna | chaufför | hustru och fem barn | C-0933 |
 | 1919–1930 | **Materiell lucka**: vigsel inte i Sättna 1919/1920/1922; paret saknas i hela folkräkningsindexet 1930; modern omgift Hallén på Storbränna fol 389 | okänt (utomlands, obefintlig eller annan namnform) | — | — | C-0888, C-0898, profil Q-01 |
 | 1938-01-12 | Dottern Evy född; faderns yrke läses osäkert som skogsarbetare | Storbränna, Sättna | skogsarbetare[?] | Emma Petronella Henriksson | C-0240 |
 | 1938–1983 | **Materiell lucka**: yrke, boende, änklingstid efter 1963 | Sättna | — | — | profil Q-02 |
@@ -86,7 +95,7 @@ Axel Edvin Henriksson föddes 1901-01-31 i Storbränna i Sättna som son till
 Erik Jonas Henriksson och Gertrud Kristina Jönsson och döptes i april samma
 år (C-0244, C-0245). Fadern dog 1910, och samma år står nioårige Axel med
 modern och två yngre bröder i morföräldrarnas hemmansägarhushåll i byn
-(C-0542, C-0242). Därefter är han obelagd i nära trettio år. Enligt familjen
+(C-0542, C-0242). Uppväxten, vigseln 1924 och torpartiden på Storbränna är nu belagda (C-0926, C-0927, C-0925), liksom flytten till Sundsvall 1928 och de åtta åren på Storgatan 24, där han blev chaufför och tre av barnen föddes innan familjen återvände till Sättna 1936 (C-0930, C-0933). Enligt familjen
 fick han med Emma Petronella sex barn, Willy, Elsy, Henry, Sally, Berit och
 Evy (C-0238); när Evy föddes 1938 var han enligt utdraget möjligen
 skogsarbetare (C-0240). Om och när han och Emma gifte sig är inte belagt,
@@ -100,7 +109,9 @@ Henriksson, Sundsvall någonstans` är därmed identifierad till Sättna.
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0072 (batch 302): folkräkningsindexet 1930 saknar paret nationellt och visar modern omgift Hallén (C-0898); tidigare rad: folkräkningsutdraget 1930 och församlingsboken 1927–1943 är lästa för Storbränna med noll, liksom vigselutdragen 1919–1922 (C-0888); hushållets rubrik 1930 och vigselåret är fortfarande okända (profil KP-01–KP-02).
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0072 (batch 322): hela kedjan 1910–1938 är nu belagd i original — uppväxt fol 384, vigsel 1924-09-13, torp fol 393/392, Sundsvall fol 2995 1928–1936 och de fem äldre barnen (C-0925–C-0927, C-0930, C-0933). Kvar: dödsnotis 1983 och Sättna efter 1936.
+
+Tidigare rad 2026-09-05 (T-0072, batch 302), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0072 (batch 302): folkräkningsindexet 1930 saknar paret nationellt och visar modern omgift Hallén (C-0898); tidigare rad: folkräkningsutdraget 1930 och församlingsboken 1927–1943 är lästa för Storbränna med noll, liksom vigselutdragen 1919–1922 (C-0888); hushållets rubrik 1930 och vigselåret är fortfarande okända (profil KP-01–KP-02).
 
 Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: folkräkning 1930, vigsel- och födelseutdrag Sättna och församlingsbok efter 1910 är genomförbara (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
 
