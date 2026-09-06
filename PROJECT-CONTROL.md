@@ -3429,3 +3429,67 @@ ett tillsynes uttömt kunskapsläge.
   identifierats, varav två kan lösa en olöst identitet.
 - Revisit when: `T-0089` eller `T-0090` är utförd, eller när nästa fyra par i
   `T-0070` är granskade och mönstret kan mätas om.
+
+## PCR-2026-09-06-009 — Daterade åtkomstbesked som aldrig omprövats
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: checkpoint
+- Trigger: Kontraktsgranskningen av par 7 i `T-0070` (batch 378) fann ett andra systematiskt mönster, skilt från det datumbundna i PCR-2026-09-06-008.
+- Control judgement: continue — mönstret är namngivet och åtgärdat genom `T-0092`.
+
+### Iakttagelsen
+
+> Ett åtkomstbesked formuleras korrekt vid sin tidpunkt — `saknar bildlänk`,
+> `ej fjärråtkomlig`, `stannade vid orörd ALTCHA` — och blir sedan stående som
+> om det vore permanent, **även när förutsättningarna ändras**.
+
+Beskeden är inte felaktiga. Repots egen metodnot i `genealogy/method-riksarkivet.md`
+säger uttryckligen att avsaknad av bildlänk visar att volymen inte kan nås på
+distans **men inte varför**. Det som saknas är omprövningen.
+
+Att mönstret är verkligt visas av att samma slutsats **redan har rivits upp
+tre gånger** — varje gång utan att någon gick igenom de övriga:
+
+| Person | Volym | Äldre besked | Utfall |
+|---|---|---|---|
+| P-0020 | Värsås A I/7–A I/8 | ej digitaliserad | öppnades inloggat 2026-09-03 |
+| P-0050 | Nysätra C/4, E I/1 | ej digitaliserad | öppnades inloggat 2026-08-21 |
+| P-0253 | Sättna F/1, Holm B/2, Ljustorp E I/3 | `401` på bildnivå | upplösta 2026-09-05 |
+
+En genomgång av samtliga personakter visar **fem kvarvarande besked** av den
+här typen. Ett av dem, Bygdeås bilageserier för P-0051, är omprövat inloggat
+2026-09-05 och står fast som `Läsesal`. De övriga fyra är inte omprövade, och
+**två av dem har uppenbart ändrade förutsättningar**: Gryts C- och E-serier
+för P-0110 daterar sig till 2026-08-20, och Forssa H II/1 för P-0133 blockeras
+uttryckligen av en **ALTCHA som ägaren hävde 2026-09-06**.
+
+### Varför det spelar roll
+
+Gryt-kontrollen kostar en uppslagning och skulle kunna ge **två av P-0110:s
+tre saknade hörnstenar** samtidigt — hans egen födelsenotis 1850 och parets
+vigsel omkring 1876 — samt besvara samma vigselfråga för P-0111.
+
+Mönstret har också en generell konsekvens för hur kön ska prioriteras: en
+**omprövning av ett hinder** kan vara billigare och ge mer än en ny läsning,
+och den bör därför komma före sveparbete.
+
+### Evidens
+
+- `genealogy/research-log/2026-09-06.md`, batch 378
+- `genealogy/research-profiles/P-0110.md`, `P-0111.md`
+- Påståendena A-0489, A-2719, A-2751, A-2737/A-2953 samt de upphävda A-0622,
+  A-0662, A-0663, A-2407
+
+### Aktuell grind
+
+Oförändrad. Iakttagelsen ändrar inte grinden men **prioriteringsordningen i
+kön**: hinderomprövningar först, sedan olästa årgångar, sedan sveparbete.
+
+- Resulting Wotan tasks: `T-0092` (tre daterade åtkomstbesked, READY) och
+  `T-0091` väg 5–7 (Ålundparets ohindrade läsningar).
+- Owner decision required: ingen. Samtliga ligger inom delegerat mandat.
+- Portfolio signal: fjorton av 32 personer i djup 5-kohorten är granskade;
+  **nitton ohindrade forskningsvägar** ligger nu i kön, mot noll när
+  granskningen började.
+- Revisit when: `T-0092` är utförd, eller när nästa fyra par är granskade.

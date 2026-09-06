@@ -32,6 +32,57 @@ Hyltinge 1890.
 
 | A-3151 | Riksarkivets avgränsade metadatafrågor på Hyltinge och mantals-/taxeringslängder 1900–1935 gav ingen relevant serie; enda träffen var en karta för Stora Kofva i Lilla Malma. | NEGATIVE | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Katalogbundet noll, inte belägg för att skattehandlingar eller personposter saknas. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1849-08-03 | **Född vid Spånga bruk i Västra Vingåker**, dotter till **manufaktursmeden Johan Petter Urbom och Anna Gustava Ajax**; döpt 5 augusti. | [C-0087](../citations/C-0087-adela-amalia-urbom-fodelse-1849.md) | **Egen födelsenotis.** Namnformen `Urbom` är otvetydig här och avvisar läsningen `Ulbom` i Gryt 1877. Hon växte upp i en **brukssmedsfamilj**, inte en bondefamilj. |
+| 1851–1860 | Följs i två Bettna-längder i familjen Urbom–Ajax med **sju namngivna syskon**. | [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md), [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md) | Samma exakta födelsedatum som i födelsenotisen. |
+| 1861–1865 | Bor med föräldrar och syskon vid **Hjulfabriken i Husby-Oppunda**; hennes rad hänvisas internt till **Dymmelsta sida 68**. | [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md) | Hänvisningen saknar årtal och är **inte följd**. Familjen rör sig mellan bruk och fabriker, inte mellan gårdar. |
+| omkring 1871–1874 | **Piga vid Bergastugan i Helgesta**, folio 58. | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md) | Folio 58 i Helgesta A I/17 är **ännu inte omläst**, trots att volymen nu är fjärråtkomlig. |
+| 1874 | Flyttar från Bergastugan till **Högtorp i Gryt**. | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md), [C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md) | Samma år som Per Albert flyttar till Jordanstorp i samma socken. |
+| omkring 1876 | **Gift med Per Albert Ålund.** | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | **Vigselnotisen är inte funnen.** Västra Vingåkers hela årgång 1876 är genomläst utan paret ([C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md)); Gryts vigselböcker före 1895 saknade bildlänk vid kontrollen. |
+| 1877-09 | Dottern **Hulda Amalia** föds i Djupnäs i Gryt; hon uppges vara 27 år och fylla 28 under året. | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Direkt ana. Åldern stämmer med 1849. |
+| 1879 | Flyttar med maken och dottern från Gryt till **Hyltinge**. | [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md) | |
+| 1890 | I **Valsund i Hyltinge**, uppgiven ålder 40 år; sonen **Karl Albert** föds. | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | I sonens födelsepost är hennes förnamn **felskrivet som Hulda Amalia** — dotterns namn. |
+| 1900 | I **Rudstugan i Hyltinge**; namnformen skrivs `Adel Amalia`. | [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md) | |
+| 1910 | I **Valsta i Hyltinge**, 61 år. | [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | Sista säkra posten. |
+| efter 1910 | **Spårlös**, tillsammans med maken. | [C-0430](../citations/C-0430-hyltinge-AIIa2-AIIa3-valsta-lokaliseringsnoll.md), [C-0431](../citations/C-0431-hyltinge-F1-doda-1911-1934-negativ-alund-urbom.md), [C-0432](../citations/C-0432-hyltinge-B4-utflyttade-1910-1914-negativ-alund.md) | Samma tre negativa kontroller som för maken, med samma ofärdiga omfång: **B/4:s årgång 1915 är inte läst**. |
+
+## Biografisk sammanfattning
+
+Adela Amalia Urbom föddes den **3 augusti 1849 vid Spånga bruk i Västra
+Vingåker** och döptes två dagar senare. Hennes far var **manufaktursmed**, och
+det säger något om hennes uppväxt som skiljer henne från nästan alla andra i
+den här generationen: hon växte upp i **bruksmiljö, inte i jordbruk**. Två
+Bettna-längder följer familjen Urbom–Ajax med sju namngivna syskon genom
+1850-talet, och på 1860-talet bor de vid **Hjulfabriken i Husby-Oppunda**.
+Hennes egen rad där bär en intern hänvisning till Dymmelsta sida 68 som aldrig
+har följts.
+
+I början av 1870-talet tjänade hon som **piga vid Bergastugan i Helgesta**, och
+1874 flyttade hon därifrån till **Högtorp i Gryt** — samma år som Per Albert
+Ålund flyttade till Jordanstorp i samma socken. Två år senare var de gifta.
+Vigselnotisen har aldrig hittats: Västra Vingåkers hela årgång 1876 är
+genomläst utan dem, och Gryts vigselböcker för åren före 1895 saknade bildlänk
+när saken kontrollerades.
+
+Dottern **Hulda Amalia** föddes i Djupnäs i Gryt i september 1877, och 1879
+flyttade familjen till **Hyltinge**, där de blev kvar. Hon följs där i tre
+folkräkningar — Valsund 1890, Rudstugan 1900, Valsta 1910 — under tre olika
+namnformer: `Adela Amalia`, `Adel Amalia`, och i sonens födelsepost 1890 med
+förnamnet **felskrivet som Hulda Amalia**, alltså dotterns namn.
+
+Sonen Karl Albert föddes när hon var fyrtio. Därefter, efter folkräkningen
+1910, upphör spåret helt — för henne som för maken. Hyltinges dödbok saknar
+henne för hela 1911–1934, församlingsbokens Valsta-sidor återger inte
+hushållet, och utflyttningslängden saknar dem 1910–1914. **Det sista
+resultatet är dock uttryckligen ofärdigt: årgången 1915 är oläst.**
+
+Hennes ursprung är däremot ovanligt väl belagt — egen födelsenotis med båda
+föräldrarna, sju syskon och två bruksmiljöer — och det är hennes livsslut,
+inte hennes början, som fattas.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

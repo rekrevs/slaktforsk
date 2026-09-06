@@ -38,6 +38,64 @@ hushållsföreståndare i Hyltinge 1890.
 
 | A-3150 | Riksarkivets avgränsade metadatafrågor på Hyltinge och mantals-/taxeringslängder 1900–1935 gav ingen relevant serie; enda träffen var en karta för Stora Kofva i Lilla Malma. | NEGATIVE | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Katalogbundet noll, inte belägg för att skattehandlingar eller personposter saknas. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1850-09-06 | **Uppgiven födelsedag i Gryts församling.** | [C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md) | **Egen födelsenotis är inte läst.** Gryts C/1–C/4 (1695–1857) saknade bildlänk vid kontrollen 2026-08-20. Datumet återkommer identiskt i Hyltinges längder och stöds av åldersuppgiften 39 år i juni 1890. |
+| omkring 1857 | Familjen flyttar från Gryt till **Löta i Helgesta**; han är då sju år. | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Son till **Carl Fredrik Ålund och Maja Catharina Carlsdotter**, med sex namngivna syskon. |
+| 1868-10-24 | Flyttar från Löta till **Gålund i Hyltinge** som dräng, 18 år. | [C-0316](../citations/C-0316-pehr-albert-alund-helgesta-hyltinge-1868.md) | Reciprokt belagt i båda församlingarnas flyttlängder och i Hyltinge A I/16 s. 16. |
+| 1871-10-11 | Flyttar från Hyltinge till **Sund i Helgesta**, folio 8. | [C-0181](../citations/C-0181-helgesta-B2-pehr-albert-inflyttad-1871.md), [C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md) | Hyltinge B/2:s hela utflyttningsår 1871 saknar den förväntade reciproka posten. |
+| 1874 | Flyttar från Sund till **Jordanstorp i Gryt**, folio 162; namnformen skrivs `Pehr Albert`. | [C-0096](../citations/C-0096-pehr-albert-utflyttning-helgesta-1874.md), [C-0093](../citations/C-0093-per-albert-alund-inflyttning-gryt-1874.md) | Han återvänder till sin födelseförsamling. Samma folio 162 gäller vid utflyttningen 1879. |
+| 1875 | Åter från Gryt till **Suna i Hyltinge**, dräng. | [C-0315](../citations/C-0315-hyltinge-AI17-pehr-albert-alund-suna-sida-57.md) | Hela A I/17 s. 1–198 är genomgången; detta är enda säkra raden. |
+| omkring 1876 | **Gift med Adela Amalia Urbom.** | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | **Vigselnotisen är inte funnen.** `Gifta 1½ år` i september 1877 och `14 år` i juni 1890 pekar båda på 1876. Västra Vingåkers hela årgång 1876 är genomläst utan paret ([C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md)); Gryts vigselböcker före 1895 saknade bildlänk vid kontrollen. |
+| 1877-09 | Dottern **Hulda Amalia** föds i **Djupnäs i Gryt**; han skrivs dräng. | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Direkt ana. |
+| 1879 | Flyttar från Djupnäs till **Hyltinge** med hustru och en dotter. | [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md) | Gryts folkräkning 1890 saknar familjen, vilket bekräftar flytten. |
+| 1890 | **Rättare i Valsund i Hyltinge**, uppgiven ålder 39 år; sonen **Karl Albert** föds. | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | Rättare är hans högsta kända ställning. |
+| 1900 | **Torpare i Rudstugan i Hyltinge.** | [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md) | |
+| 1910 | **Förre detta torpare i Valsta i Hyltinge**, 60 år. | [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | Sista säkra posten. Ställningen har gått rättare → torpare → f.d. torpare. |
+| efter 1910 | **Spårlös.** | [C-0430](../citations/C-0430-hyltinge-AIIa2-AIIa3-valsta-lokaliseringsnoll.md), [C-0431](../citations/C-0431-hyltinge-F1-doda-1911-1934-negativ-alund-urbom.md), [C-0432](../citations/C-0432-hyltinge-B4-utflyttade-1910-1914-negativ-alund.md) | De registerstyrda Valsta-sidorna i A II a/2–3 återger inte hushållet; F/1:s hela årgångar 1911–1934 saknar dödpost; B/4:s utflyttade 1910–1914 saknar honom — **men 1915 är uttryckligen inte färdigläst**. |
+
+## Biografisk sammanfattning
+
+Per Albert Ålund föddes den **6 september 1850 i Gryt** i Södermanland. Hans
+egen födelsenotis har aldrig kunnat läsas: Gryts födelseböcker för perioden
+saknade bildlänk när saken kontrollerades i augusti 2026. Datumet är ändå
+säkert i den meningen att det står identiskt i Helgestas husförhörslängd, i
+Hyltinges längder och i två folkräkningar.
+
+Han var sju år när familjen lämnade Gryt för **Löta i Helgesta**, där fadern
+Carl Fredrik Ålund och modern Maja Catharina Carlsdotter hade hushåll med sju
+barn. Från arton års ålder följer källorna honom som dräng, och det som
+framträder är en **ovanlig rörlighet**: Löta → Gålund i Hyltinge 1868, tillbaka
+till Sund i Helgesta 1871, vidare till Jordanstorp i Gryt 1874, åter till Suna
+i Hyltinge 1875 — fyra flyttar mellan tre socknar på sju år, varje gång som
+dräng och varje gång med reciproka poster i båda församlingarnas längder.
+
+Sedan återvände han en gång till till sin födelseförsamling. Omkring **1876
+gifte han sig med Adela Amalia Urbom**, en manufaktursmedsdotter från Spånga
+bruk som samma år 1874 hade flyttat från Helgesta till Gryt. Vigselnotisen är
+inte funnen; två oberoende åldersuppgifter — `gifta 1½ år` i september 1877
+och `14 år` i juni 1890 — pekar samstämmigt på 1876, och Västra Vingåkers
+hela årgång är genomläst utan dem. Vigseln bör alltså ligga i **Gryt**, vars
+vigselböcker före 1895 saknade bildlänk vid kontrollen.
+
+I Gryt föddes dottern **Hulda Amalia** i september 1877, i Djupnäs. Två år
+senare lämnade familjen socknen för gott och slog sig ned i **Hyltinge**, där
+de blev kvar i minst trettio år. Där steg han först: 1890 är han **rättare i
+Valsund**, en förmansställning, och samma år föds sonen Karl Albert. Sedan
+sjunker han igen — 1900 är han torpare i Rudstugan, och 1910 **förre detta
+torpare i Valsta**, sextio år gammal.
+
+Där tar spåret slut. Familjen finns inte på de Valsta-sidor som
+församlingsbokens register pekar ut; Hyltinges dödbok saknar honom för hela
+1911–1934; och utflyttningslängden saknar honom 1910–1914. **Men det sista
+resultatet är uttryckligen ofärdigt: årgången 1915 är inte läst.**
+
+Livsbilden har alltså två luckor, och båda ligger i samma sorts källa: en
+**födelse- och en vigselnotis i Gryt** som bedömdes vara otillgängliga, och
+ett **livsslut som ingen läst källa förklarar**.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
