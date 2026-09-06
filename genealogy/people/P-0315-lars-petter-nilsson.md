@@ -30,6 +30,58 @@ arbetare och senare torpare från Sättna till Högsjö, Indal. Han dog
 | A-3180 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Lars Petters säkra Indalsperiod genom dödsåret 1904. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
 | A-3190 | Lars Petters arbetsgivar-/torparspår blir avslutande först om Indals exakta skatterutt ger en torp-, fastighets-, jordägar- eller arbetsgivarnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, arbetsgivar-, arkiv- eller personnoll. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1836-12-27 | **Född i Indal**, döpt 29 december; son till **torparen Nils Pehrsson och Lisa Stina Larsdotter**. | [C-0509](../citations/C-0509-indal-C4-lars-petter-fodd-1836.md) | **Rättelse:** den första läsningen slog fast att Indal C/4:s hela födelseföljd 1836 **saknade** honom. Bild 137 innehåller posten. A-2171 står som `REJECTED` och den negativa slutsatsen är bevarad som metodhistorik. |
+| 1847–1854 | **Lucka.** A I/7:s hela Högsjöavsnitt saknar målgruppen. | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) | Familjens boställe före A I/8 är okänt. |
+| 1855–1861 | Son i **Nils Pehrssons Högsjöhushåll**, A I/8 sida 108; faderns dåvarande hustru **Christina Jonsdotter var hans styvmor**. | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) | Längden kallar honom uttryckligen **Nils Pehrssons son**, vilket binder patronymikonet. |
+| 1858-02-21 | **Gift med Cajsa Märta Dahlsten**; lysningsnotisen finns i Indal E I/1. | [C-0511](../citations/C-0511-indal-EI1-lysning-lars-petter-cajsa-marta-1858.md) | Datumet står i **lysningsnotisen och två äktenskapskolumner**. |
+| 1858 | Dottern **Lisa Cajsa** föds. | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) | |
+| 1862-06-15 | Sonen **Anders Niklas** föds i **Sättna**; han skrivs **arbetare**. | [C-0274](../citations/C-0274-anders-niklas-fodd-1862-sattna.md) | Direkt ana. Familjen bodde alltså en period i Sättna. |
+| omkring 1862–1880 | **Övergången Sättna → Högsjö kan inte slutas.** Hänvisningen `Byn fol. 35` går inte att pröva: Sättna A I/9a:s fotograferade följd går **direkt från sida 34 till 36**. | [C-0358](../citations/C-0358-sattna-AI9a-byn-sida-35-lucka.md) | **Fysisk sidlucka**, inte person- eller volymnoll. Gränssidorna och A I/8 sida 35 saknar honom. |
+| 1880, 1890, 1900 | **Torpare i Högsjö**, Indal, med hustru och barn. | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md), [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | 1880 omfattar hushållet hustrun och barnen Anders Niklas, Nils Petter, Lars Olof och Katharina Petronella. |
+| 1892–1900 | Torpare med egen familj i Högsjö, A I/12 sida 132. | [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Bakåthänvisningen `G.B. 131` **leder inte** till familjen — varken sida 131 eller övriga Högsjösidor 129–138 i A I/11 ([C-0513](../citations/C-0513-indal-AI11-hogsjo-gb131-negativ.md)). |
+| 1901-03-05 | **Änkling**: Cajsa Märta dör i Högsjö. | [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | |
+| 1904-09-25 | **Död som före detta torpare och änkling i Högsjö.** | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0670](../citations/C-0670-scb-indal-lars-petter-dod-1904.md) | Församlingsbok och SCB-utdrag post 36 korsbekräftar dag, födelsedatum och änklingsstatus. **Dödsorsak och dödsort är tomma**, och en överstruken ortsfras transkriberas inte. |
+
+## Biografisk sammanfattning
+
+Lars Petter Nilsson föddes den **27 december 1836 i Indal** och döptes två
+dagar senare, son till torparen Nils Pehrsson och Lisa Stina Larsdotter.
+
+Att den posten alls hittades är en rättelse värd att nämna. En första
+genomgång av Indal C/4:s hela födelseföljd för 1836 slog fast att han
+**saknades** där. Omläsningen fann honom på bild 137. Den negativa slutsatsen
+är uttryckligen tillbakadragen och bevarad som metodhistorik.
+
+Han växte upp i **Högsjö** som son i faderns hushåll — längden kallar honom
+`Nils Pehrssons son`, vilket binder patronymikonet — och där fanns också en
+styvmor, Christina Jonsdotter, faderns dåvarande hustru. Åren 1847–1854 är
+däremot okända: A I/7:s hela Högsjöavsnitt saknar familjen.
+
+Den **21 februari 1858**, tjugoett år gammal, gifte han sig med **Cajsa Märta
+Dahlsten** från Säter. Samma år föddes den första dottern. Familjen flyttade
+sedan en period till **Sättna**, där sonen **Anders Niklas** föddes 1862 och
+där fadern skrivs **arbetare**.
+
+Just den övergången går inte att sluta, av ett skäl som inte har med
+forskningen att göra: hushållet hänvisas till `Byn fol. 35` i Sättna, och
+**sidan 35 saknas fysiskt i den fotograferade följden** — bilderna går direkt
+från 34 till 36. Det är en skanningslucka, inte ett nollresultat.
+
+Från 1880 följer tre folkräkningar och två husförhörslängder honom som
+**torpare i Högsjö** med hustru och sex barn. Hustrun dog i mars 1901, och
+tre och ett halvt år senare, den **25 september 1904**, dog han själv som
+före detta torpare och änkling.
+
+**Vad ingen av dem dog av vet vi inte.** SCB-utdragen har tomma
+dödsorsakskolumner för dem båda — och Indals egen dödbok **F/2**, som skulle
+ha svaret, är exakt identifierad men saknade publik bildpekare, medan
+katalogsidan stannade vid en **orörd människeverifiering**. Det hindret är
+inte längre detsamma.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

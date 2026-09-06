@@ -28,6 +28,52 @@ Högsjö, Indal.
 | A-3167 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
 | A-3181 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Cajsa Märtas säkra Indalsperiod genom dödsåret 1901. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1834-03-21 | **Född i Säter, Indal**, döpt 23 mars; dotter till **Anders Dahlsten och Anna Cajsa Larsdotter**. | [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md) | **Egen födelsenotis.** Den förklarar också namnfrågan: hon skrivs `Andersdotter` i sonens födelsenotis och `Dahlsten`/`Dalsten` i folkräkningarna — **faderns förnamn var Anders och hans släktnamn Dahlsten**. |
+| 1836–1854 | Barn i föräldrahushållet i **Säter**, Indal A I/6 sida 185 och A I/7 sida 193, med **sex namngivna syskon**. | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | **Två bröder hette Anders Olof.** Dödsposterna skiljer dem: den förste levde 1842–1843, den andre föddes 1844. |
+| 1858-02-21 | **Gift med Lars Petter Nilsson**; vid lysningen kallas hon **bondedotter i Säter**. | [C-0511](../citations/C-0511-indal-EI1-lysning-lars-petter-cajsa-marta-1858.md) | Datumet står i lysningsnotisen och två äktenskapskolumner. |
+| 1858 | Dottern **Lisa Cajsa** föds. | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) | |
+| 1862-06-15 | Sonen **Anders Niklas** föds i **Sättna**; hon namnges där som `Cajsa Märta Andersdotter`. | [C-0274](../citations/C-0274-anders-niklas-fodd-1862-sattna.md) | Direkt ana. |
+| omkring 1862–1880 | **Övergången Säter–Byn–Högsjö bryts** vid den fysiskt saknade sidan 35 i Sättna A I/9a. | [C-0358](../citations/C-0358-sattna-AI9a-byn-sida-35-lucka.md) | Skanningslucka; de lästa gränssidorna ger ingen säker målrad. |
+| 1880, 1890, 1900 | Hustru i torparhushållet i **Högsjö**; namnformen skrivs `Dahlsten` 1880 och `Dalsten` 1890–1900. | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md), [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | Familjenamnet är **inte belagt som hennes födelsenamn** — det kommer från fadern. |
+| 1858–1900 | **Sex barn**: Lisa Cajsa, Anders Niklas, Nils Petter, Lars Olof, Katarina Petronella och Erik Emanuel. | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | |
+| 1901-03-05 | **Död i Högsjö** som hustru till torparen Lars Petter Nilsson. | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | Församlingsbok och SCB-utdrag post 10 korsbekräftar dag, exakt födelsedatum, make och ort. **Dödsorsak och dödsort är tomma.** |
+
+## Biografisk sammanfattning
+
+Cajsa Märta föddes den **21 mars 1834 i Säter i Indal** och döptes två dagar
+senare, dotter till **Anders Dahlsten och Anna Cajsa Larsdotter**.
+
+Hennes namn ser i källorna ut som två personers. Sonens födelsenotis kallar
+henne `Cajsa Märta Andersdotter`; folkräkningarna skriver `Dahlsten` 1880 och
+`Dalsten` 1890–1900. Hennes **egen födelsenotis förenar formerna**: fadern
+hette Anders **och** bar släktnamnet Dahlsten, så patronymikonet och
+familjenamnet kommer från samma man. Familjenamnet är alltså inte belagt som
+hennes eget födelsenamn — hon ärvde faderns.
+
+Hon växte upp i **Säter** med sex syskon, följd genom två husförhörslängder
+1836–1854. En detalj i den syskonskaran visar hur noga arbetet gjorts: **två
+av bröderna hette Anders Olof**. Dödsposterna skiljer dem åt — den förste
+levde bara 1842–1843, och den andre föddes 1844 och fick samma namn. De är
+förda som två skilda personer, inte som en.
+
+Den **21 februari 1858**, tjugotre år gammal, gifte hon sig med **Lars Petter
+Nilsson**; vid lysningen kallas hon **bondedotter i Säter**. Samma år föddes
+den första dottern, och 1862 sonen **Anders Niklas** i Sättna.
+
+Var familjen bodde mellan Sättna och Högsjö går inte att avgöra: hushållet
+hänvisas till `Byn fol. 35`, och **den sidan saknas fysiskt i den
+fotograferade följden**. Från 1880 finns de däremot i **Högsjö**, där hon
+levde som torparhustru till sin död.
+
+Hon fick **sex barn** och dog den **5 mars 1901**, sextiosju år gammal.
+Dödsorsakskolumnen i SCB-utdraget är tom — och Indals egen dödbok **F/2**,
+som skulle ha svaret, stoppades av en **orörd människeverifiering** på
+katalogsidan. Det hindret är inte längre detsamma.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
