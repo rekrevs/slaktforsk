@@ -2807,3 +2807,78 @@ tidigare versioner finns i Git och tidigare bevarad forskningshistorik.
 - Portfolio signal: flaskhalsen som blockerade fem uppgifter finns inte
   längre; framtida inloggningsberoende läsningar kan speglas direkt.
 - Revisit when: Riksarkivet ändrar sin CSP eller bildtjänstens åtkomstmodell.
+
+## PCR-2026-09-06-002
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: direction-review
+- Requested by: ägaren ("kör") efter inventeringen av kvarstående arbete
+- Trigger: Speglingsvägen i batch 304 och den inloggade sessionen hävde ett
+  hinder som pausat ett dussin källvägar. Frågan är vad detta bör betyda för
+  riktningen, inte bara för kön.
+
+### Kontrolläge
+
+- Värdet projektet skapar: en balanserad, källförankrad släkthistoria med två
+  samtidiga resultatkrav — antavla och livsbild för varje identifierad person.
+- Vad arbetet nyligen faktiskt fastställde: Södertäljekedjan 1943–1947,
+  Zingmark/Andersson 1910–1950, Ivars utresa till Kashgar 1931, Flen s. 860
+  och uppslag 720, samt Carlman i Kalmar 1930. Fyrtioen fulloriginal är
+  speglade med verifierad SHA-256, vilket stärker uppfyllelsevillkor 5.
+- Antaganden som ändrats: att inloggningsskyddade bilder inte kunde speglas
+  lokalt visade sig falskt (`form-action` saknas i sidans CSP). Att paret
+  Henriksson skulle finnas i folkräkningen 1930 visade sig falskt — nationellt
+  indexnoll. Att Gunnar Hööks födelse rapporterades i en svensk församling
+  1933 är försvagat: fem utdrag är nollprövade och fadern var utrest.
+- Den begränsande grinden: **P-0212 Gunnar Ivar Emanuel Höök.** `goal-state`
+  registrerar gemensamt djup 1; djup 2 kräver att han blir källbredd-klar och
+  han är den enda som saknas. Det nyöppnade dussinet källvägar ligger på djup
+  3–4 och flyttar därför inte djupindikatorn.
+- Missförhållande mellan aktivitet och kunskapsvärde: nej. Sex batcher gav
+  materiella fynd, inte bara fler anteckningar.
+- Ägarägda grindar: P-0212/KP-03 (ägarens familjekunskap om Gunnars liv
+  1933–2017) och T-0051:s ALTCHA-skyddade katalog.
+
+### Bedömning
+
+Riktningen är fortsatt rätt. Två saker bör dock inte behandlas lika: det
+nyöppnade breddarbetet på djup 3–4 tjänar uppfyllelsevillkor 2, medan
+djupindikatorn hänger på en enda person vars avgörande källväg redan ligger i
+T-0072. North star förbjuder uttryckligen att biografiska luckor skjuts undan
+av nya anor, så breddarbetet ska inte köas bakom djup 5 — men det ska heller
+inte tränga undan den enda uppgift som kan flytta djupmåttet.
+
+Alternativ som övervägdes: (a) en enda stor uppgift för hela den nyöppnade
+ytan — avvisad, den blir obegränsad och bryter mot kravet på avgränsat omfång;
+(b) köa allt bakom T-0070 djup 5 — avvisad, strider mot närhetsregeln;
+(c) dela i en djupkritisk väg och två balanserade breddspår plus en
+evidensåtgärd — vald.
+
+## PCD-2026-09-06-002
+
+- Record type: decision
+- Date: 2026-09-06
+- Decides review: PCR-2026-09-06-002
+- Owner: Sverker Adam Janson; uppdrag i chatten att genomföra styrgenomgången,
+  inom det delegerade mandatet enligt det pågående kontinuerliga målet.
+- Decision: Fortsätt, med prioritetsordning. T-0069 avslutas först eftersom
+  den är ONGOING och har nedladdat material oläst. Därefter T-0072, som nu
+  uttryckligen bär djupindikatorn genom P-0212. Därefter T-0075 och T-0076,
+  som delar den nyöppnade ytan i en balanserad passage per sida. T-0077 är
+  en liten evidensåtgärd som kan läggas in när som helst. T-0060 återgår till
+  READY eftersom dess åtkomsthinder är hävt och dess företrädesskäl upphört.
+  T-0051:s blockering omformuleras till en ägarägd grind i stället för ett
+  tekniskt hinder.
+- Related records: PCD-2026-09-05-019, PCD-2026-09-05-021, PCD-2026-09-06-001.
+- Resulting Wotan tasks: T-0075 (Sverkers sida), T-0076 (Kristinas sida),
+  T-0077 (spegling av tretton äldre läsningar); T-0060 READY; T-0072
+  kompletterad med P-0212-kriteriet; T-0051 omformulerad.
+- Owner decision outstanding: P-0212/KP-03 kräver ägarens familjekunskap om
+  Gunnar Hööks liv 1933–2017. Utan den kan hans livsbild inte fullbordas ens
+  om födelseposten hittas, och djup 2 kan då dröja på en grind som inget
+  arkivarbete löser.
+- Portfolio signal: projektet är aktivt och har just fått en materiell
+  kapacitetsökning; kön har fem READY-uppgifter och en ONGOING.
+- Revisit when: T-0072 är DONE och P-0212:s källbreddsläge kan avgöras, eller
+  ägaren lämnar familjekunskapen om Gunnar.
