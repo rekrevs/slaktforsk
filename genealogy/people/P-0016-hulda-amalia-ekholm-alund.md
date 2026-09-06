@@ -43,6 +43,14 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | A-3592 | **Konflikten om makens födelseuppgift är avgjord:** roteregistret anger honom konsekvent som född **1878-02-17 i Åsbo i Östergötlands län**, vilket är exakt dödbokens `78 ¹⁷/₂` och samma födelseort som folkräkningsbladet. | CORROBORATED | mycket hög | [C-0955](../citations/C-0955-ekholm-alund-rotemansarkivet-1899-1913.md), [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md), [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md) | Upplöser A-3583: bladets `81` och registrets `1887` är fel. |
 | A-3593 | **Vigselfönstret är 1900-08-08 till 1906, och vigselförsamlingen är inte Katarina.** Hon lämnade Stockholm ogift 1900-08-08 och det äldsta barnet föddes inom äktenskapet i **Matteus** 1907-03-09; paret saknas helt i Rotemansarkivet före inflyttningen till rote 23 den 1910-10-07. | CORROBORATED | hög | [C-0955](../citations/C-0955-ekholm-alund-rotemansarkivet-1899-1913.md), [C-0956](../citations/C-0956-rotemansarkivet-avgransade-nollor-2026-09-06.md) | **Överspelar A-3577**: Katarina är först makens kyrkobokföringsort från december 1912. Nästa källväg är Matteus församlings egna böcker, eller rote 27 varifrån de kom 1910. |
 | A-3601 | **Vigselvägen via sonens födelsepost är prövad men inte avslutad.** Matteus födelsebok 1907 är läst rad för rad i posterna **129–182** (födelser 1907-01-11–1907-04-08, dop 1907-03-15–1907-04-11) utan någon Ekholm och utan någon gosse född 9 mars. Två oberoende vigselregister saknar dessutom täckning: DDS har inga Stockholmsvigslar 1900–1907, och Stockholms stadsarkiv har inget vigselregister för 1900-talet. | NEGATIVE | hög | [C-0957](../citations/C-0957-matteus-fodelsebok-1907-noll-ekholm.md) | Avgränsat noll. Årgången löper till post ~870 och sent inskrivna födslar hamnar utanför det kronologiska bandet, så posten kan ligga längre fram i volymen. Vigselförsamlingen är fortfarande Matteus eller **Adolf Fredrik** (`SE/SSA/0001`), ur vilken Matteus utbröts 1906. |
+| A-3633 | **Änkeståndet är daterat 1913-03-11 i Flens församlingsbok**, och anteckningskolumnen skriver ut `Änka efter lok. eld. Ax. Vilh. Ekholm`. | CORROBORATED | mycket hög | [C-0972](../citations/C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md), [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Uppgiften upprepas i fyra volymer i följd och binder för första gången i **en enda källa** ihop hennes änkestånd med makens namn, yrke och dödsdag. Överspelar den svaga treuppgiftsindiciens ställning i A-3575. |
+| A-3634 | Hon **inflyttade till Flen från Hyltinge 1933-04-24** och bosatte sig på **Lyckedal**. | TRANSCRIBED | hög | [C-0972](../citations/C-0972-hulda-amalia-lyckedal-1933-1940.md) | Preciserar den tidigare uppgiften `före 1938` och sluter övergången från folkräkningen 1930 på Skarvnäs ägor. |
+| A-3635 | **Boendekedjan i Flen är obruten 1933–1955**: sida 932 (Lyckedal) → folio 744 (Lyckedal, Storgatan 14) → folio 736 (kv. Posthuset 6, samma adress) → folio 497 (kv. Hjärpen 35 C, Hagagatan 8) 1949-01-14 → folio 83 (kv. Hjärpen 2, Hagagatan 7) → nya bokens folio 96 år 1955. | CORROBORATED | hög | [C-0972](../citations/C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md) | Fyra folier i följd, varje uppslag pekar ut nästa. Tjugotvå av de tjugosex tidigare obelagda åren är därmed lästa. |
+| A-3636 | Från **1949-01-14** bodde hon på samma folio som sonen **Axel Ivar Ekholm** med hustru och son, och från **1950-01-03** även dottern **Ingrid Amalia**, gift Johansson, med son. | TRANSCRIBED | hög | [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md) | De två barn som föddes i Matteus 1907 och 1910 och lämnade Stockholm med henne 1913 bodde med henne igen på ålderdomen. |
+| A-3637 | Dottern **Ingrid Amalia** gifte sig **1942-03-02** med handlanden **Allan Gerald Johansson, född 1899-02-10**, och kom från S:t Göran i Stockholm 1950-01-03 med en son född 1940 i Solna. | TRANSCRIBED | hög | [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md) | Sonens namn och födelsedag utelämnas som integritetsminimering; födelseåret bevaras. |
+| A-3638 | Sonen **Axel Ivar Ekholm**, rörarbetare och f.d. sjöman av andra klass, gifte sig efter lysning 1936 med **Ingegärd Regina Lindblom, född 1912-06-26 i Flen**, och fick en son född 1943 i Flen. | TRANSCRIBED | hög | [C-0972](../citations/C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md) | Sonens namn och födelsedag utelämnas som integritetsminimering. |
+| A-3639 | Dottern **Hulda Margareta**, telefonist, står 1940–1942 på moderns folio som **`Jansson, Hulda Margareta f. Ekholm`**, gift 1942, och utflyttade 1942-02-12; faderskapet **Axel Edvard Eriksson, Solliden, Hyltinge**, står utskrivet i församlingsboken. | TRANSCRIBED | hög | [C-0972](../citations/C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md) | Höjer A-0107 från indexuppgift till originalbelägg. Utflyttningsorten är läsosäker. |
+| A-3640 | **Kedjan slutar 1955 av ett namngivet hinder:** Flens församlingsböcker är digitaliserade till och med `A II a/9` (1950–1955), och ingen `A II a/10` finns. Åren mellan överföringen till folio 96 och döden 1964-03-15 saknar digital källa. | NEGATIVE | hög | [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md), [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md) | Avgränsat hinder, inte ett uttömt sökande. |
 
 ## Relationer
 
@@ -88,7 +96,12 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | 1921 | Dottern Hulda Margareta född enligt index | Helgesta | — | — | C-0015 |
 | 1929 | Flytt från Helgesta till Hyltinge | Hyltinge | — | — | C-0019 |
 | 1930 | Folkräkning; familjegrupp 2 | Skarvnäs ägor, Solliden | lokomotiveldareänka, hushållerska | Maj; Axel Edvards grupp 1 på samma boställe | C-0019 |
-| före 1938 | Lyckedal med Maj | Flen, s. 932 | — | Maj | C-0033 |
+| 1933-04-24 | **Inflyttad till Flen från Hyltinge** | Lyckedal, Flen, s. 932 | änka | Maj, Hulda Margareta, tidvis sonen Axel Ivar | C-0972 |
+| 1940–1945 | Församlingsbok fol 744 | Lyckedal, Storgatan 14, Flen | änka | Hulda Margareta till 1942 | C-0973 |
+| 1945–1949 | Församlingsbok fol 736 | Kv. Posthuset 6, Lyckedal, Storgatan 14 | änkefru | ensam | C-0973 |
+| 1949-01-14 | Flyttar till folio 497, in hos sonen Axel Ivars familj | Kv. Hjärpen 35 C, Hagagatan 8, Flen | änkefru | sonen med familj; från 1950 även dottern Ingrid Amalia | C-0973 |
+| 1950–1955 | Församlingsbok fol 83; överförd till nya bokens fol 96 | Kv. Hjärpen 2, Hagagatan 7, Flen | änkefru | sonens och dotterns familjer | C-0973 |
+| 1955–1964 | **Materiellt hinder**: Flens församlingsböcker efter 1955 saknar digital bild | Flen | — | — | C-0973 |
 | 1964-03-15 | **Död**; gravsatt 1964-03-21 på Södra kyrkogården i Flen FS09 0112, hemort Flen | Flen | — | — | C-0923 |
 
 ## Biografisk sammanfattning
@@ -108,8 +121,27 @@ Helgesta (C-0952, C-0954, C-0955). Som änka födde hon 1920 dottern Maj Amalia,
 far, banvakten Axel Edvard Eriksson, erkände faderskapet, och 1921 enligt
 indexet dottern Hulda Margareta i Helgesta (C-0028, C-0033, C-0015). År 1930
 var hon hushållerska på Solliden i Hyltinge, i samma boställe som Axel
-Edvard, och före 1938 bodde hon med Maj på Lyckedal i Flen (C-0019, C-0033).
+Edvard (C-0019).
 
+**Den 24 april 1933 flyttade hon till Flen** och bosatte sig på Lyckedal med
+döttrarna Maj Amalia och Hulda Margareta (C-0972). Där följs hon i fyra
+församlingsboksfolier i följd: Lyckedal vid Storgatan 14 till januari 1949,
+därefter kvarteret Hjärpen vid Hagagatan (C-0973). Församlingsboken skriver i
+varje volym ut vad som tidigare bara var en slutsats — `Änka efter lok. eld.
+Ax. Vilh. Ekholm`, änkestånd från **1913-03-11** — och binder därmed i en
+enda källa ihop hennes änkestånd med makens namn, yrke och dödsdag.
+
+Ålderdomen förde familjen samman igen. Den 14 januari 1949 flyttade hon in på
+samma folio som sonen **Axel Ivar**, rörarbetare, med hustru och son, och den
+3 januari 1950 kom också dottern **Ingrid Amalia**, gift med handlanden Allan
+Gerald Johansson, från S:t Göran i Stockholm med sin son. De två barn som
+föddes i Matteus 1907 och 1910 och som lämnade Stockholm med henne 1913 bodde
+alltså under samma tak som modern igen fyrtio år senare (C-0973). År 1955
+överfördes hela hushållet till nya bokens folio 96.
+
+Där slutar det lästa. Flens församlingsböcker är digitaliserade till och med
+1955, och de nio sista åren fram till hennes död **1964-03-15** saknar
+digital källa (C-0973, C-0923).
 
 Öppna materiella frågor och källvägar finns i
 [forskningsprofilen](../research-profiles/P-0016.md).
