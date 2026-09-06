@@ -65,6 +65,8 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-3720 | **Vigseln mellan `Drängen Johannes Ericsson`, 28 år och `hemmanson fr. Bjerg`, och `Pigan Maria Greta Larsdotter`, 24 år, ägde rum 1848-06-23** och är införd i Kyrkefalla E/1, som även omfattar Mofalla 1807–1850. | CORROBORATED | mycket hög | [C-1001](../citations/C-1001-kyrkefalla-EI1-vigsel-johannes-ericsson-maja-greta-1848.md) | Åldrarna svarar mot 1820-12-25 respektive 1824-03-28. Namnformerna `Maria Greta` och `Maja Greta` bevaras båda. Brudgummen står redan 1848 som hemmanson från **Bjerg**. |
 | A-3721 | **Augusta Victoria föddes femton år in i föräldrarnas äktenskap.** Möjligheten att modern var ogift eller gift med någon annan 1863 är därmed utesluten. | CORROBORATED | mycket hög | [C-1001](../citations/C-1001-kyrkefalla-EI1-vigsel-johannes-ericsson-maja-greta-1848.md) | Första barnet Carl Johan föddes 1850-07-19, två år efter vigseln, och hustrun stryks i A I/4 först vid omgiftet 1870-12-01. |
 | A-3722 | **Födelseposten bär ingen `oäkta`-markering.** Namnkolumnen lyder enbart `Augusta Viktoria`, som grannposterna `Carl Otto`, `Johan` och `Amanda Josephina`. | TRANSCRIBED | hög | [C-1001](../citations/C-1001-kyrkefalla-EI1-vigsel-johannes-ericsson-maja-greta-1848.md) | Skärper konflikten i A-3710 i stället för att lösa den: en gift soldat som inte var moderns make är namngiven som far i en post som i övrigt är förd som vilken som helst. |
+| A-3723 | **Modern `Larsdotter Maria Greta` dog 1868-09-27** och begravdes 6 oktober, `Hustru till Kyrkovärden Johannes Ericson i Bjerg`, **44 år 5 månader 29 dagar**, gift, folio **18**. | CORROBORATED | mycket hög | [C-1002](../citations/C-1002-mofalla-F2-maria-greta-larsdotter-dod-1868.md) | Åldern ger födelse 1824-03-29, inom en dag från A I/4:s 1824-03-28. Förklarar strykningen i A I/4 och omgiftet 1870-12-01, drygt två år senare. Dödsorsakskolumnen är tom. |
+| A-3724 | **Moderskapet är belagt i tre oberoende samtida poster** — födelseboken 1863 (namn, 39 år, folio 18), husförhörslängden A I/4 sida 18 (namn, f. 1824-03-28) och dödboken 1868 (namn, f. 1824-03-29, folio 18, hustru till Johannes Ericson i Bjerg). | CORROBORATED | mycket hög | [C-1002](../citations/C-1002-mofalla-F2-maria-greta-larsdotter-dod-1868.md), [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md), [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md) | **Försvagar starkt läsningen att födelsepostens mor vore en annan Maja Greta Larsdotter.** Moderrelationen är därmed av annan art än fadersrelationen, som är omstridd. Personakt för henne skapas som eget steg med personkontraktets behandling, inte som stubbe. |
 
 ## Relationer
 
@@ -202,25 +204,26 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
   mor, samma folio, samma hushåll. Ett soldatnamn är den närliggande
   förklaringen men är **inte belagd**, och ingen föräldrarelation förs in i
   stamtavlan förrän den är det.
-- Förväntad källa: **Maja Greta Larsdotters dödspost mellan 1863 och 1870**,
-  i Mofallas dödbok som ligger inuti `C/4`. Den skulle ge hennes ålder och
-  civilstånd vid döden och därmed pröva om födelsepostens mor verkligen är
-  Johannes hustru. Därtill **Erik Jansson Roths vidare öden** i Mofalla
-  `A I/4`. Frågan om soldatnamn är **avgjord och utesluten** (A-3716), 1863
-  års hushållstillhörighet är besvarad (A-3718) och **äktenskapets ramar är
-  belagda: vigsel 1848-06-23** (A-3720).
+- Förväntad källa: **Erik Jansson Roths vidare öden** i Mofalla `A I/4` och
+  `F/2`, som skulle visa om hans hushåll och Bjerg har någon förbindelse, samt
+  **generalmönsterrullan för Västgöta regemente n:o 100**. Frågan om
+  soldatnamn är avgjord och utesluten (A-3716), 1863 års
+  hushållstillhörighet är besvarad (A-3718), **äktenskapets ramar är slutna
+  — vigsel 1848-06-23, moderns död 1868-09-27** (A-3720, A-3723) och
+  **moderskapet är belagt i tre oberoende poster** (A-3724). Kvar är enbart
+  fadersuppgiften.
 - Genomsökt: Mofalla `C/4` hela 1863 och 1864; Mofalla `A I/4` sida 18 och
   `A I/5` sida 18; Mofalla `A I/3` soldatförteckningen och sida 306
   (Attelby); Mofalla `E I/1` 1885 samt hela 1862–1864; Kyrkefalla `C/6` hela 1863 och 1864
   samt hela vigselåret 1885 i `E/4`; Värsås `E/1` 1885–1886; Värsås samtliga
   serier via sök-API 2026-08-20.
-- Återaktiveringsvillkor: när Maja Gretas dödspost är läst. **Sakläget just
-  nu:**
+- Återaktiveringsvillkor: när fadersuppgiften kan prövas mot Roths egna
+  källor. **Sakläget just nu:**
   källorna indikerar att Augusta Victoria föddes **inom Johannes Erikssons
   äktenskap** men med **en annan man, den gifte soldaten Erik Jansson Roth,
   utpekad som far i födelseboken** — och posten bär **ingen oäkta-markering**.
-  Äktenskapet ingicks 1848-06-23 och bestod, så barnet föddes femton år in i
-  det. Det är vad källorna säger; ingen tolkning görs, och ingen
+  Äktenskapet ingicks 1848-06-23 och bestod till moderns död 1868-09-27, så
+  barnet föddes mitt i det, och moderskapet är belagt i tre oberoende poster. Det är vad källorna säger; ingen tolkning görs, och ingen
   föräldrarelation förs in i stamtavlan. Fyra läsningar återstår och är
   uppräknade i C-1001; ingen av dem väljs.
 - Upphävt: Kyrkefallauppgiften i hushållsböckerna vilar på en oreflekterad
