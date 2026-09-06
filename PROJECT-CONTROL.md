@@ -2882,3 +2882,51 @@ evidensåtgärd — vald.
   kapacitetsökning; kön har fem READY-uppgifter och en ONGOING.
 - Revisit when: T-0072 är DONE och P-0212:s källbreddsläge kan avgöras, eller
   ägaren lämnar familjekunskapen om Gunnar.
+
+## PCR-2026-09-06-003
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: checkpoint
+- Trigger: Vid T-0075:s tredje passage gav Floda församlingsbok det första
+  arkivbelägget för Bernhard Natanael Eliasson efter 1910, och perioden
+  avviker från en familjeuppgift som ligger nära ett ägarfastställt
+  faderskap.
+- Control judgement: continue; en ägarfråga uppstår men inget arbete stannar.
+- Current gate: En bevarad konflikt mellan familjekrönika och samtida
+  kyrkobok som bara ägaren kan tolka.
+- Evidence:
+  - `genealogy/citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md`
+    — Floda `A II a/11` uppslag 592 rad 12: bokhållare vid Ökna säteri,
+    inflyttad från Värsås **1916-11-22**, utflyttad till Oskarshamns
+    stadsförsamling nr 98 **1917-11-03**.
+  - `genealogy/citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md`
+    — avgränsat noll på Ökna säteris samtliga uppslag 591–611 i
+    `A II a/8` (1910–1914); bokhållaren där var Gustaf Sigfrid Pettersson.
+  - `genealogy/citations/C-0909-ada-och-arne-okna-floda-1915-1918.md`
+    — Ada Wilhelmina var skriven vid Ökna till 1918-10-28.
+  - A-1646 och A-1678 (familjekrönikans `1911–1916` och fotot 1914);
+    A-3430–A-3433.
+- Observation: Bernhard och Ada var samtidigt kyrkobokförda vid Ökna endast
+  **1916-11-22–1917-11-03**, alltså efter sonen Arne Godvigs födelse
+  1915-02-21. Familjens tidsangivelse `1911–1916` motsägs för sin tidiga del.
+- Vad detta **inte** ändrar: faderskapet är fastställd projektinformation
+  enligt PCD-2026-08-20-001 och demoteras inte av att ett arkivoriginal
+  saknas. Konflikten gäller omständigheten, inte relationen.
+- Öppna förklaringar: (a) han vistades vid Ökna som lantbrukselev eller
+  praktikant före november 1916 utan att kyrkobokföras i Floda — vanligt vid
+  tiden och förenligt med både fotot 1914 och krönikan; (b) årtalet 1911 är
+  en minnesförskjutning och paret möttes på annan ort; (c) något annat som
+  bara familjen känner till.
+- Owner decision required: Hur ska familjeuppgiften A-1646 hanteras — kvarstå
+  oförändrad med konflikten bevarad, preciseras av ägaren, eller kompletteras
+  med ägarens kunskap om hur Bernhard och Ada möttes? Ingen ändring görs utan
+  ägarens svar.
+- Recommendation: Bevara konflikten som den är, fortsätt med KP-02
+  (Oskarshamn nr 98, 1917-11-03), och lyft frågan till ägaren utan att röra
+  vare sig faderskapet eller familjeuppgiftens status.
+- Resulting Wotan tasks: none; arbetet fortsätter inom T-0075.
+- Portfolio signal: projektet är aktivt; den nyöppnade bildåtkomsten
+  producerar nu materiella fynd i takt.
+- Revisit when: Ägaren svarar på frågan om Öknatjänsten, eller Oskarshamns
+  församlingsbok 1917–1930 har lästs.

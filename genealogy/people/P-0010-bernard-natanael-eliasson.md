@@ -41,6 +41,10 @@ evidenslinjerna hålls åtskilda.
 | A-1676 | Enligt hörsägen i 2011 års krönika kan Bernhard och Ada ha varit trolovade. | LEAD | låg | [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md) | Krönikan markerar själv att uppgiften inte har kunnat verifieras. |
 | A-1677 | Krönikan uppger att Bernhard flyttade till Oskarshamn 1917. | TRANSCRIBED | medel | [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) | 1930 års källa visar senare inflyttning från Oskarshamn men inte flytten dit 1917. |
 | A-1678 | Ett familjefoto uppges visa Bernhard till vänster vid Ökna säteri 1914. | TRANSCRIBED | hög | [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md) | Positiv familjeprovenans för närvaro; identifikationen i bildtexten är inte oberoende arkivbevis. |
+| A-3430 | Han var bokhållare vid Ökna säteri i Floda och inflyttade dit från Värsås 1916-11-22 med attest nr 171. | TRANSCRIBED | hög | [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md) | Första arkivbelägget efter folkräkningen 1910 och första originalbelägget för Öknatjänsten. |
+| A-3431 | Han utflyttade från Floda till Oskarshamns stadsförsamling 1917-11-03 med flyttningsbetyg 1917-10-27 och mottogs där som nr 98. | TRANSCRIBED | hög | [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md) | Bekräftar krönikans flytt till Oskarshamn 1917 med dag och nummer; exakt ingång för KP-02. |
+| A-3432 | Församlingsboken anger födelsen 1886-04-19 `enl. uppgift fr. Versås` och värnpliktsnummer 239 ⁵⁷/₀₆. | CORROBORATED | hög | [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md) | Oberoende bekräftelse av födelsedatum; värnpliktsnumret är en ny nyckel mot Krigsarkivet. |
+| A-3433 | Kyrkoböckerna visar honom vid Ökna först från 1916-11-22, inte från 1911 som familjekrönikan anger; han saknas på samtliga kontrollerade Öknauppslag 1910–1914, där bokhållaren var Gustaf Sigfrid Pettersson. | TRANSCRIBED | hög | [C-0913](../citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md), [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md), [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | **Bevarad konflikt** mot A-1646 och A-1678. Faderskapet är ägarfastställt (PCD-2026-08-20-001) och berörs inte; det är omständigheten som avviker, eftersom sonen föddes 1915-02-21. Möjlig förklaring: vistelse som lantbrukselev utan kyrkobokföring i Floda. Ska tillbaka till ägaren. |
 
 ## Relationer
 
@@ -72,11 +76,13 @@ evidenslinjerna hålls åtskilda.
 |---|---|---|---|---|---|
 | 1886-04-19 | Född | Värsås/Kyrkefalla, Djursätra Västergården | — | Per Wilhelm Eliasson och Augusta Viktoria Johansdotter | C-0023 |
 | 1890, 1900, 1910 | Folkräkningar | Djursätra Västergården | son; jordbruksarbetare 1910 | föräldrar och syskon | C-0024–C-0026 |
-| 1911–1916 | Bokhållare vid Ökna säteri enligt familjen; foto vid Ökna 1914; porträtt Norrköping 1913 | Floda | bokhållare | — | C-0263, C-0266, C-0264 |
+| 1911–1916 | Bokhållare vid Ökna säteri **enligt familjen**; foto vid Ökna 1914; porträtt Norrköping 1913. Kyrkoboken motsäger perioden före 1916 | Floda | bokhållare | — | C-0263, C-0266, C-0264; motsägs av C-0913 |
+| 1916-11-22 | Inflyttning från Värsås till Ökna säteri, uppslag 592, attest nr 171 | Floda | bokhållare | — | C-0912 |
+| 1917-11-03 | Utflyttning till Oskarshamns stadsförsamling nr 98; flyttningsbetyg 27/10 | Floda → Oskarshamn | bokhållare | — | C-0912 |
 | 1915-02-21 | Sonen Arne född utom äktenskapet; ägarfastställt faderskap | Flen | — | — | C-0008, PCD-2026-08-20-001 |
 | 1917 | Flytt till Oskarshamn enligt krönikan; porträtt 1920 | Oskarshamn | — | — | C-0266, C-0264 |
 | 1923-11-11 | Vigsel med Katy Leonie Nilsson (dag enligt sekundärträd, år enligt 1930) | Oskarshamn? | — | — | C-0018, C-0027 |
-| 1910–1930 | **Materiell lucka**: kyrkobokföring Värsås/Floda/Oskarshamn | — | — | — | profil Q-01, Q-02 |
+| 1910–1916, 1917–1930 | **Materiell lucka**: Värsås 1910–1916 och Oskarshamn 1917–1930 | — | — | — | profil Q-01, Q-02 |
 | 1930 | Folkräkning; inkomst 6 900 | Limhamn | kassör vid kraftverk | hustru, döttrarna Lucy Gudrun och Maj-Grete | C-0027 |
 | 1944 | Familjefoto julen 1944 med hustru och tre döttrar | Malmö | — | — | C-0264 |
 | 1964 | Tre porträtt | Malmö | — | — | C-0264 |
