@@ -3675,3 +3675,80 @@ listorna är felmärkta på samma sätt.
   släkten.
 - Revisit when: `T-0089`–`T-0091` och `T-0093` är utförda, eller när ett nytt
   negativt åtkomstbesked skrivs utan att registrets fem kontroller är gjorda.
+
+## PCR-2026-09-06-012
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: checkpoint
+- Trigger: `T-0089` utförd i sin helhet — samtliga sju läsvägar.
+- Control judgement: continue
+
+### Evidens
+
+Sju arkivläsningar som kontraktsgranskningen funnit **ohindrade men aldrig
+utförda** är nu gjorda. Utfallet fördelar sig i tre slag och är ovanligt
+konkret.
+
+**Tre positiva fynd.**
+
+| Fynd | Betydelse |
+|---|---|
+| Vigseln **1885-06-19** i Mofalla annexförsamling | Folio 18 gav Augusta Viktorias hushåll vid ¼ mtl Bjerg och **en far vid namn Johannes Eriksson** — första källbundna förklaringen till patronymikonet `Johansdotter` |
+| Vigseln **1850-11-24** i Degerfors | **Brudens föräldrar namnges i originalet**: `Bond. Pett. R. Pehrsson o. H:u Beata Jonsd:r ifrån Ånäset`. Starkaste enskilda belägget hittills för Sara Sophia Pehrsdotters äldre identitet — en samtida ministerialpost i stället för en hushållsrad |
+| `SE/GLA/11027/F II/12` och `SE/GLA/13628/C/5` | Två exakta volymer för 1949 där ingen tidigare kunnat pekas ut |
+
+**Tre avgränsade noll med utskrivet omfång:** Sättnas hela 1872, Bygdeås
+1861–1863 och Degerfors hela dödsfönster 1868-02-13 – 1870-07-02.
+
+**En rättelse av tidigare arbete:** Bygdeås vigselår 1861 var **inte
+färdigläst**. Kontrollen hade läst 23 poster; årgången löper till 28, och
+posterna 24–28 låg på nästa bild. Nollet är komplett först nu.
+
+### Två metodresultat värda att behålla
+
+**1. Mönster 2 är prövat sju gånger och gäller inte alltid.** Att söka
+vigseln där brudens familj hörde hemma löste Mofalla, Degerfors och —
+tidigare samma dag — Gryt. Det höll **inte** för Sättna, där tre
+församlingar nu är uttömda. Ett mönster vars gränser är kända är mer värt än
+ett som antas gälla överallt.
+
+**2. `access-register.md` bar frukt omedelbart.** Två av dagens
+seriestrukturfynd — Sättnas `E I` som börjar 1895 och Våmbs `F` som börjar
+1951 — hittades genom registrets kontroll nr 2, skriven samma dag i T-0092.
+Registret är alltså inte dokumentation av gjort arbete utan ett verktyg som
+används.
+
+### Aktuell grind
+
+Oförändrad i sak: den identifierade forskningen är inte utförd. Men kön
+krymper med hög utdelning, och **en `OLÖST` identitet står nu inom räckhåll**
+— P-0021:s ursprung har gått från *vem var hon* till *när föddes Johannes
+Erikssons dotter Augusta Victoria*, med en exakt nästa källa.
+
+### En premiss som behöver ses över
+
+`T-0060` heter `Identifiera Augustas familj i föregående Kyrkefallabok före
+1922`. Batch 392 visar att hon kom från **Mofalla**, inte Kyrkefalla, och att
+hennes hushåll är ¼ mtl Bjerg. Uppgiftens premiss är alltså delvis överspelad
+och bör omformuleras innan den utförs.
+
+### Owner decision required
+
+Ingen. Allt utfört ligger inom delegerat mandat. Det som kräver ägarbeslut är
+identifierat och lämnat oläst: bouppteckningen `SE/GLA/11027/F II/12` och
+dödboken `SE/GLA/13628/C/5`, som saknar exponerad åtkomstväg i katalogen.
+
+### Rekommendation
+
+**Ta `T-0060` härnäst, men omformulera den först** mot Mofalla `A I/4` via
+ortregistret — den väg som kan lösa ursprungsfrågan. Därefter `T-0091`,
+`T-0090` och `T-0093`.
+
+- Resulting Wotan tasks: `T-0089` → DONE. Inga nya uppgifter skapade;
+  `T-0060` bör omformuleras vid start.
+- Portfolio signal: tre positiva originalfynd på en dag, varav två löser
+  frågor som stått öppna sedan augusti, och ett tidigare nollresultat
+  rättat.
+- Revisit when: `T-0060`, `T-0090`, `T-0091` och `T-0093` är utförda, eller
+  när P-0021:s identitet går från `OLÖST` till prövad.
