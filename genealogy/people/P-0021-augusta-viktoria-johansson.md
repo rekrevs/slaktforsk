@@ -40,7 +40,7 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-3684 | Patronymikonet `Johansdotter`/`Johansson` förklaras av att fadern hette **Johannes**. | CORROBORATED | medel | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md), [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md), [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md) | Första gången namnformen får en källbunden förklaring. Tillförlitligheten är `medel` eftersom faderskapet i sig är omstritt, se A-3687. |
 | A-3685 | Kyrkefalla E/4:s hela årgång 1885, lysningarna 1–16 på sidorna 44–45, saknar paret. | NEGATIVE | hög | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md) | Avgränsat årsnoll för **moderförsamlingen**; Mofalla annex förde egen bok, där posten finns. |
 | A-3686 | Kyrkefallas födelsebok 1863 har **ingen födelse alls den 24 juni**; junidagarna är 7, 13, 21, 26 och 27. | NEGATIVE | hög | [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md) | Datumbundet noll, starkare än A-0671:s namnbundna. Hon kan inte ha fötts i Kyrkefalla den dagen. |
-| A-3687 | Johannes Ericsons hustru vid Bjerg 1863 hette **Christina Andersdotter** och födde sonen **Carl Otto 1863-05-29**, vilket utesluter att samma mor födde en dotter 1863-06-24. | CONFLICT | hög | [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md), [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | Hushållsboken gör henne till hans dotter i första äktenskapet; födelseboken gör det omöjligt med det datumet. Konflikten bevaras oförändrad och ingen föräldrarelation förs in i stamtavlan. |
+| A-3687 | Det tidigare påståendet att Johannes Erikssons hustru Christina Andersdotter födde en son 1863-05-29 vilade på fel premiss: **hans första hustru var Maja Greta Larsdotter**, och Mofallas post 9 år 1863 har folio 32 medan post 10 har folio 18 — två skilda hushåll. | REJECTED | hög | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md) | Upphävd samma dag av A I/4 sida 18. Den påstådda omöjligheten fanns aldrig. Bevarat som metodhistorik. |
 | A-3688 | Hushållsbokens födelseortskolumn är oanvändbar som ortsbelägg: `ibm` löper från faderns `K:fla` även för barn födda 1872–1877, när familjen bevisligen satt vid Bjerg i Mofalla. | TRANSCRIBED | hög | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | Källkritisk avgränsning; uppslaget kan varken styrka eller motsäga Kyrkefalla som hennes födelseort. |
 
 | A-3310 | Våmb A II a/4 sida474 rad6 upptar Augusta i Bergshamra, inflyttad från Kyrkefalla1941-12-17, med födelsetiden1863-06-24 och den avlidne maken Per Vilhelm Eliasson namngiven. | CORROBORATED | hög | [C-0874](../citations/C-0874-augusta-vamb-bergshamra-1941.md), [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md) | Mottagarposten anger ny bok folio95 år1949, ännu oläst. Ingen dödsdag på raden. Våmb är katalogens namn; Vämb var tidigare arbetsläsning. |
@@ -51,6 +51,11 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-3705 | Våmbs serie `F`, Död- och begravningsböcker, har en enda volym, `1 (1951–1991)`. Dödboken för hennes dödsår **1949** ligger i stället i `SE/GLA/13628/C/5`, vars anmärkning anger `död- och begravningsbok 1895-1950` trots att volymens egen datering lyder 1895–1925. | TRANSCRIBED | mycket hög | [C-0998](../citations/C-0998-vamb-dodbok-1949-och-bouppteckning-gudhem-kakind.md) | Besvarar frågan om dödboken är en annan serie med annan status: **det finns ingen separat dödbok för 1949**. Åttonde instansen av samma seriestrukturmönster på ett dygn. |
 | A-3706 | `SE/GLA/13628/C/5` saknar **helt** åtkomstmarkering i katalogen, liksom volymerna 6–8, medan volymerna 1–4 visar `Bild`. | TRANSCRIBED | hög | [C-0998](../citations/C-0998-vamb-dodbok-1949-och-bouppteckning-gudhem-kakind.md) | Ett tredje tillstånd, skilt från både `Bild` och `Läsesal` och från `A II a/5`:s uttryckliga sekretessförklaring. Ingen slutsats dras om orsaken. |
 | A-3707 | Våmb ligger i **Kåkinds härad**, och bouppteckningen efter henne ska sökas i `SE/GLA/11027/F II/12`, Gudhems och Kåkinds häradsrätts bouppteckningar för **1949**. | LEAD | hög | [C-0998](../citations/C-0998-vamb-dodbok-1949-och-bouppteckning-gudhem-kakind.md), [C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md) | Serien är inbunden och **årsvis**, så en enda volym räcker; register saknas för 1949 men behövs inte. Om akten registrerades året efter gäller `F II/13`. Ingen akt är läst och åtkomstläget är inte prövat. |
+| A-3708 | Johannes Erikssons **första hustru var `Larsdotter Maja Greta`, född 1824-03-28**, överstruken i Mofalla A I/4 sida 18; han gifte om sig **1870-12-01** med Karin Elisabeth Eriksdotter, hans andra och hennes första gifte. | TRANSCRIBED | mycket hög | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md) | Barnen 1850–1863 tillhör därmed Maja Greta Larsdotter. Hushållets klammer `Mannens barn i 1sta äktenskapet` omfattar raderna 3–7. |
+| A-3709 | **Mofallas födelsebok 1863, post 10, är hennes egen födelsenotis.** Posten anger modern `Larsdotter Maja Greta`, 39 år, och **folio 18** — och folio 18 i den då gällande A I/4 är `1 Roten. Bjerg`, Johannes Erikssons hushåll. | CORROBORATED | mycket hög | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md), [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md) | Moderns ålder stämmer exakt med 1824-03-28 den 24 juni 1863. **Födelsedatumet 1863-06-24 är därmed för första gången belagt i en födelsebok, och födelseförsamlingen är Mofalla.** |
+| A-3710 | Födelsenotisen skriver fadern `Rotte, Eric, Soldat i Atteby` medan hushållsboken skriver `Eriksson Johannes`. Båda uppgifterna avser samma hushåll och samma mor. | CONFLICT | hög | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md), [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md) | Den närliggande förklaringen är ett **soldatnamn** — en soldat skrevs vid sitt soldattorp och under sitt soldatnamn medan familjen stod på gården — men det är **inte belagt** och infereras inte. Konflikten är inte löst, bara exakt formulerad. |
+| A-3711 | En tidigare okänd syster: **`Thilda Augusta, född 1861-10-12`**, överstruken i A I/4 och inte med i A I/5. | TRANSCRIBED | hög | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md) | Saknas i den syskonskara C-0991 kunde redovisa. Ingen egen personakt skapas medan faderskapet är omstritt. |
+| A-3712 | **Tillbakadragen hypotes:** förslaget att `²⁴/₆` vore en avskriftsupprepning faller. A I/4 ger systern Anna Sofias födelsedag som `²/₆ 1857`; upprepningen finns i A I/5, inte i A I/4, och Augusta Victorias datum bekräftas dessutom av födelseboken. | REJECTED | hög | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md) | Egen hypotes prövad och avvisad samma dag som den ställdes. |
 
 ## Relationer
 
@@ -69,9 +74,9 @@ Johansdotter; folkräkningarna använder Johansson.
 
 | Datum | Händelse | Källa | Anmärkning |
 |---|---|---|---|
-| 1863-06-24 | **Uppgiven födelsedag**, ort omstridd. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md), [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md), [C-0873](../citations/C-0873-augusta-kyrkefalla-folio623.md), [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md) | **Ingen födelsenotis är funnen, och datumet bärs av ingen.** Kyrkefallas födelsebok har **ingen födelse alls den 24 juni 1863**, och Mofallas enda Augusta Viktoria den dagen är soldaten Eric Rottes dotter ([C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md)). Datumet står i hushålls- och lysningsböcker, som alla kan ha kopierat framåt. Gravregistret och Djursätrahushållet anger i stället **1863-06-27** (A-3612). |
-| före 1885 | **Bosatt vid ¼ mantal Bjerg i Mofalla**, i nämndeman **Johannes Erikssons** hushåll, förd under klammern `Mannens barn i 1sta äktenskapet`. | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | **Första hushållsraden någonsin för henne före giftermålet.** Hushållets hustru Karin Elisabeth Eriksdotter tillhör andra äktenskapet och är inte hennes mor; modern namnges inte. Faderskapet är **omstritt** ([C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md)) och förs inte in i stamtavlan. |
-| 1863–1885 | Barndomen i övrigt **odokumenterad**. | — | Ingen födelsenotis, ingen inflyttning och ingen moder är känd. Kvarstår som den stora luckan, men luckan är nu avsevärt smalare. |
+| 1863-06-24 | **Född i Mofalla**, dotter till **Maja Greta Larsdotter**. | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md), [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md) | **Egen födelsenotis identifierad 2026-09-06.** Mofallas post 10 år 1863 anger modern `Larsdotter Maja Greta`, 39 år, och folio 18 — Johannes Erikssons hushåll vid Bjerg. Moderns ålder stämmer exakt. **Fadern är dock omstridd:** notisen skriver `Rotte, Eric, Soldat i Atteby`, hushållsboken `Eriksson Johannes` (A-3710). Gravregistret och Djursätrahushållet anger avvikande **1863-06-27**. |
+| 1863–1885 | **Uppvuxen vid ¼ mantal Bjerg i Mofalla**, i **Johannes Erikssons** hushåll, förd under klammern `Mannens barn i 1sta äktenskapet`. Modern **Maja Greta Larsdotter** dog eller lämnade hushållet före 1870, då fadern gifte om sig med Karin Elisabeth Eriksdotter. Syskon och halvsyskon: Carl Johan 1850, Emma Charlotta 1854, Anna Sofia 1857, **Thilda Augusta 1861**, Maria Olivia 1872, Victor Albin 1874 och Carl Jakob 1877. | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | **Första hushållsraden någonsin för henne före giftermålet.** Hushållets hustru Karin Elisabeth Eriksdotter tillhör andra äktenskapet och är inte hennes mor; modern namnges inte. Faderskapet är **omstritt** ([C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md)) och förs inte in i stamtavlan. |
+| 1870-12-01 | **Fadern gifter om sig** med Karin Elisabeth Eriksdotter, hans andra och hennes första gifte. | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md) | Augusta Victoria var då sju år. |
 | 1885-04-26 – 05-10 | **Lysning i Mofalla annexförsamling**, nr 3; hon skrivs `Johansson Augusta Victoria i Bjerg` och **`Fadren Närvarande`**. | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md) | Fadern levde alltså och gav sitt samtycke i egen person. Folio 18 i församlingens husförhörsbok är ingången till hushållet. |
 | 1885-06-19 | **Gift med hemmansägaren Per Wilhelm Eliasson i Mofalla annexförsamling.** | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md), [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md) | **Vigselförsamlingen är nu känd.** Värsås E/1 1885–1886 och Kyrkefallas hela årgång 1885 saknar båda paret — nollen står kvar och är förklarade. Djursätrahushållets avvikande **1885-06-07** kvarstår som källvariant (C-0917). |
 | 1885 | **Flyttar till Värsås** enligt hushållsbokens flyttkolumn vid Bjerg. | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | Raden är överstruken med marginalanteckningen `Lysning`. |
@@ -121,19 +126,36 @@ hans dotter, i en klammer märkt `Mannens barn i 1sta äktenskapet` — och för
 första gången finns det en källbunden förklaring till namnformen: **fadern
 hette Johannes**, alltså Johansdotter.
 
-Men hennes ursprung är inte löst, bara flyttat. Mofallas födelsebok visar att
-Johannes Erikssons dåvarande hustru **Christina Andersdotter** födde en son
-den **29 maj 1863** — en dotter till samma mor 26 dagar senare är omöjlig.
-Och Kyrkefalla har **ingen födelse alls den 24 juni 1863**. Det som ser ut som
-hennes födelsedatum bärs alltså av ingen enda födelsenotis; det står bara i
-hushålls- och lysningsböcker som alla kan ha kopierat framåt från samma
-anteckning — och i samma hushåll bär systern **Anna Sofia också `24/6`**.
-Konflikten står kvar oförändrad, och ingen föräldrarelation har förts in i
-stamtavlan.
+**Och dagen därpå lossnade resten.** Folio 18 ledde vidare till den
+föregående husförhörslängden, `A I/4`, som råkade ha **samma sidnummer** —
+och där står den rad som saknades: Johannes Erikssons **första hustru,
+`Larsdotter Maja Greta`, född 28 mars 1824**, överstruken. Han gifte om sig
+den 1 december 1870.
 
-Frågan är därmed inte längre *vem var hon* utan *när föddes Johannes
-Erikssons dotter Augusta Victoria* — en betydligt smalare fråga, med en
-exakt nästa källa: Mofallas husförhörslängd för 1862–1876.
+Med moderns namn i handen faller allt på plats. Mofallas födelsebok för 1863
+har en post nummer 10 den 24 juni, och den anger modern **`Larsdotter Maja
+Greta`, 39 år** — Maja Greta var 39 år den dagen — **och folio 18**, som är
+just Bjerg. **Det är hennes egen födelsenotis.** Födelsedatumet 24 juni 1863
+är därmed för första gången belagt i en födelsebok, och födelseförsamlingen
+är **Mofalla**, inte Kyrkefalla.
+
+Två saker rättas på köpet, båda mina egna. Den ena är gårdagens invändning
+att Johannes Erikssons hustru fött en son den 29 maj samma år och därför inte
+kunde få en dotter 26 dagar senare: den hustrun hette Christina Andersdotter
+och hörde till **ett annat hushåll**, folio 32. Den andra är förslaget att
+`24/6` kunde vara en avskriftsupprepning efter systern Anna Sofia — A I/4 ger
+Anna Sofias dag som **2 juni**, så någon upprepning finns inte där.
+
+**En sak återstår, och den är inte liten.** Födelsenotisen skriver fadern
+**`Rotte, Eric, Soldat i Atteby`**, medan hushållsboken skriver **`Eriksson
+Johannes`**. Samma mor, samma folio, samma hushåll — två namn på fadern. Den
+närliggande förklaringen är ett soldatnamn: en soldat skrevs vid sitt
+soldattorp och under sitt soldatnamn medan familjen stod skriven på gården.
+Men det är en förklaring, inte ett belägg, och den förs inte in som sådan.
+
+Vad som ändå är vunnet: hon hade en mor, hon har en födelsenotis, hon växte
+upp vid **Bjerg i Mofalla** med sex syskon och halvsyskon — och en av dem,
+**Thilda Augusta född 1861**, var okänd innan i dag.
 
 De följande trettio åren bodde hon på **Djursätra Västergård** i Värsås och
 födde **sju barn mellan 1886 och 1904**. Den äldste var Bernhard Natanael;
@@ -154,27 +176,39 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
 
 ## Slutstatus
 
-- Status: `IDENTITET OLÖST`
-- Förväntad källa: födelseboken i hennes rätta födelseförsamling, årgång 1863
-  eller 1864. De två kandidaterna är Kyrkefalla `SE/GLA/13300/C/6` (1861–1875)
-  och Mofalla `SE/GLA/13373/C/4` (1861–1894), båda fritt åtkomliga och båda
-  genomsökta. Den handling som skulle avgöra vilken församling det är, Värsås
-  tidiga husförhörslängd. Värsås senare församlings- och vigselböcker är nu
-  autentiserat öppna men årgångarna 1885–1886 saknar paret.
-- Genomsökt: Kyrkefalla `C/6` hela 1863 och 1864, bilderna 15–23; Mofalla `C/4`
-  hela 1863 och 1864, bilderna 8–9; sonens födelsenotis 1886 för åldersuppgift;
-  folkräkningarna 1890, 1900 och 1910; Värsås samtliga serier via Riksarkivets
-  sök-API 2026-08-20.
-- Negativ kontroll: [C-0114](../citations/C-0114-augusta-viktoria-negativ-kontroll-1863.md)
-- Kvarstående motsägelse: den enda Augusta Viktoria som föddes i någondera
-  församlingen har fel far, och de tre folkräkningarna anger två olika
-  församlingar. Folkräkningen 1930 ger åter Kyrkefalla men löser inte den
-  negativa födelsebokskontrollen.
+- Status: `IDENTITET OMSTRIDD — FÖDELSENOTIS IDENTIFIERAD`
+- Belagt 2026-09-06: hon föddes **1863-06-24 i Mofalla**, dotter till
+  **Maja Greta Larsdotter** (f. 1824-03-28), och växte upp vid **¼ mantal
+  Bjerg** i Johannes Erikssons hushåll. Födelsenotisen är **Mofalla
+  `C/4`, 1863 års post 10**, identifierad genom moderns namn och ålder samt
+  folio 18 ([C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md)).
+- Kvarstående motsägelse, **en enda**: födelsenotisen skriver fadern
+  `Rotte, Eric, Soldat i Atteby`, hushållsboken `Eriksson Johannes`. Samma
+  mor, samma folio, samma hushåll. Ett soldatnamn är den närliggande
+  förklaringen men är **inte belagd**, och ingen föräldrarelation förs in i
+  stamtavlan förrän den är det.
+- Upphävt: Kyrkefallauppgiften i hushållsböckerna vilar på en oreflekterad
+  `ibm`-kedja och är inte en ortsuppgift (A-3688). A-3687 och dittohypotesen
+  i C-0992 är tillbakadragna.
+- Genomsökt tidigare, står kvar som avgränsade noll: Kyrkefalla `C/6` hela
+  1863 och 1864; Kyrkefalla har **ingen födelse alls den 24 juni 1863**;
+  Värsås samtliga serier 2026-08-20.
+- Negativ kontroll: [C-0114](../citations/C-0114-augusta-viktoria-negativ-kontroll-1863.md),
+  [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md)
+- Nästa steg: pröva soldatnamnshypotesen mot **Atteby soldattorp** i Mofalla
+  A I/4 och mot generalmönsterrullorna. Först då kan faderskapet avgöras.
 
 > **Metodnot 2026-08-20.** Statusen är `IDENTITET OLÖST` och inte
 > `EJ DIGITALISERAD`, eftersom båda kandidatförsamlingarnas födelseböcker
 > faktiskt har gåtts igenom. Problemet är att posten motsägs, inte att den är
 > oåtkomlig.
+
+> **Rättelse 2026-09-06.** Metodnoten hade rätt i sin diagnos men fel i sin
+> slutsats. Båda födelseböckerna var genomlästa — men läsningen söktes på
+> **namn**, och posten stod under moderns namn och ett folionummer. Först när
+> vigselboken gav folio 18 och husförhörslängden gav moderns namn kunde
+> notisen identifieras. Lärdomen är densamma som i C-0992: **läs på det som
+> källan för, inte på det man letar efter.**
 
 - Återaktivera när: T-0055 följer den konkreta äldre bokhänvisningen från Skövde sida 768; T-0056 prövar den närmast följande Smulebergsboken för senare liv/död. Ingen ny extern personuppgift behöver inväntas.
 
