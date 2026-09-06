@@ -332,7 +332,7 @@
         "narrativeHeading": true
       },
       "profile": "genealogy/research-profiles/P-0009.md",
-      "profileSha256": "fdbb8e3d9b45acf9036c6f0d17d011f36757c845a00522eec774f95e6ea8dcc8",
+      "profileSha256": "d67cc7c63154ea71d61d5069d0cbe38e5bb07754591bfe43217a1323e7aa026d",
       "contract": {
         "present": true,
         "identity": "PRÖVAT",
@@ -341,19 +341,28 @@
         "review": "UNDERKÄND",
         "themes": {
           "ID": "GENOMGÅNGET",
-          "REL": "AVGRÄNSAT",
-          "BO": "AVGRÄNSAT",
+          "REL": "GENOMGÅNGET",
+          "BO": "GENOMGÅNGET",
           "ARB": "AVGRÄNSAT",
           "EKO": "AVGRÄNSAT",
           "MIL": "EJ RELEVANT",
           "SAM": "ÖPPET",
           "HAL": "ÖPPET",
           "PER": "GENOMGÅNGET",
-          "SYN": "ÖPPET"
+          "SYN": "AVGRÄNSAT"
         },
         "dependencies": {
           "P-0009/KP-01": [],
-          "P-0009/KP-02": []
+          "P-0009/KP-02": [
+            "P-0009/KP-01"
+          ],
+          "P-0009/KP-03": [
+            "P-0009/KP-01"
+          ],
+          "P-0009/KP-04": [
+            "P-0009/KP-02",
+            "P-0009/KP-03"
+          ]
         },
         "recordedApproval": false,
         "errors": []
@@ -372,7 +381,7 @@
         "narrativeHeading": true
       },
       "profile": "genealogy/research-profiles/P-0010.md",
-      "profileSha256": "7976e29e2c628d1222a5a4b2c32ae3dd1e6da2115becafd2fe6767d56b8585f0",
+      "profileSha256": "0dd209d942a0362ef8cd92f1d7b8c80ca06545dc7e97d88a240bfbb031c3b9ad",
       "contract": {
         "present": true,
         "identity": "PRÖVAT",
@@ -384,18 +393,22 @@
           "REL": "GENOMGÅNGET",
           "BO": "AVGRÄNSAT",
           "ARB": "AVGRÄNSAT",
-          "EKO": "ÖPPET",
+          "EKO": "AVGRÄNSAT",
           "MIL": "AVGRÄNSAT",
           "SAM": "ÖPPET",
           "HAL": "ÖPPET",
           "PER": "GENOMGÅNGET",
-          "SYN": "ÖPPET"
+          "SYN": "AVGRÄNSAT"
         },
         "dependencies": {
           "P-0010/KP-01": [],
           "P-0010/KP-02": [],
-          "P-0010/KP-03": [],
-          "P-0010/KP-04": []
+          "P-0010/KP-03": [
+            "P-0010/KP-02"
+          ],
+          "P-0010/KP-04": [
+            "P-0010/KP-02"
+          ]
         },
         "recordedApproval": false,
         "errors": []
