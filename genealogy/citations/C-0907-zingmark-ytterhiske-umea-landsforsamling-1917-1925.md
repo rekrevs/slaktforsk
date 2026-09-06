@@ -106,8 +106,13 @@ födelsebok 1888 och Umeå landsförsamlings uppslag 2088.
 **Avgränsade nollresultat.** Uppslag 2284 i föregående bok
 (`A II a/15`, 1909–1917, bild `00206287_00164`) och uppslagen 2280–2283 samt
 2285–2328 i `A II a/23` saknar Zingmarkrader; hushållet står enbart på 2284.
-Umeå stadsförsamlings församlingsböcker är digitaliserade endast till 1912,
-så perioden 1925–1935 i staden är inte åtkomlig på bild.
+
+**Rättelse 2026-09-06.** Denna post påstod först att Umeå stadsförsamlings
+församlingsböcker var digitaliserade endast till 1912 och att perioden
+1925–1935 därför inte gick att nå på bild. Det var fel. Fortsättningen är
+läst: uppslag 1839 i `A II a/5 e` (1925–1941) ger hushållet fram till 1941
+och Johan Oskars död 1935-04-09
+([C-0916](C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)).
 
 ## Källbild
 

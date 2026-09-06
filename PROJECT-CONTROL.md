@@ -2928,5 +2928,21 @@ evidensåtgärd — vald.
 - Resulting Wotan tasks: none; arbetet fortsätter inom T-0075.
 - Portfolio signal: projektet är aktivt; den nyöppnade bildåtkomsten
   producerar nu materiella fynd i takt.
-- Revisit when: Ägaren svarar på frågan om Öknatjänsten, eller Oskarshamns
-  församlingsbok 1917–1930 har lästs.
+- Revisit when: Ägaren svarar på frågan om Öknatjänsten.
+
+### Tillägg samma dag: konflikten skärpt av Värsås församlingsbok
+
+Efter att den felaktiga bedömningen att Värsås `A II a` slutade 1907 rättats
+lästes `A II a/2` folio 134
+(`genealogy/citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md`).
+Bernhard var **kyrkobokförd i föräldrahemmet på Djursätra Västergård i Värsås
+hela perioden 1907 till 1916-11-22**, då han utflyttade till Floda samma dag
+som Floda anger för inflyttningen. Två oberoende kyrkoböcker säger nu samma
+sak, och Floda saknar honom före november 1916.
+
+Familjekrönikans `1911–1916` vid Ökna står därmed mot samtida myndighetsposter
+för hela sin tidiga del. Faderskapet är ägarfastställd projektinformation och
+berörs inte. Kvar för ägaren är samma fråga som ovan, nu med starkare
+underlag: vistades han vid Ökna före november 1916 utan att kyrkobokföras där,
+eller möttes han och Ada på annat håll? Oskarshamns församlingsbok är läst och
+tillför inget till just den frågan (C-0914, C-0915).

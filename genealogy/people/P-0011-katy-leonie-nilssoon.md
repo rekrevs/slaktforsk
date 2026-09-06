@@ -13,6 +13,7 @@ Nilsson; MyHeritage-varianten `KATY ... Nilssoon` bevaras som källvariant.
 | A-0082 | Levnadsåren anges som 1898–1977. | LEAD | låg | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) | Exakta datum och orter saknas i utdraget. |
 | A-0083 | Hon uppges ha gift sig med Bernhard 1923-11-11. | TRANSCRIBED | medel | [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md), [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) | 1930 bekräftar vigselåret men inte exakt dag. |
 | A-0123 | Hon var född 1898 i Oskarshamn. | TRANSCRIBED | hög | [C-0027](../citations/C-0027-bernhard-familj-folkrakning-1930.md) | Exakt datum återstår. |
+| A-3437 | Hon föddes 1898-10-17, var kontorsbiträde i Oskarshamn och bodde på N:o 293 vid vigseln med Bernhard Natanael Eliasson 1923-11-11; hennes församlingsbokssida var 115. | TRANSCRIBED | hög | [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md) | Första originalbelägget för hennes födelsedag och yrke; sidnyckeln 115 ligger i A II a/2 (uppslag 1–288). |
 
 ## Relationer
 

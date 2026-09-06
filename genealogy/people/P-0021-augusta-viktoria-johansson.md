@@ -37,6 +37,7 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-3309 | Kyrkefalla A II a/12 sida623 upptar Augusta Viktoria Johansson, född1863-06-24 i Kyrkefalla, med Per Vilhelm, Alva och Sven Assar Elias samt utflyttning till Skövde1924-06-20 för föräldrarna och Alva. | CORROBORATED | hög | [C-0873](../citations/C-0873-augusta-kyrkefalla-folio623.md), [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md) | Samma familj och exakt folio-/flyttbrygga; ingen uppgift om Augustas föräldrar eller äldre inflyttning. |
 
 | A-3310 | Våmb A II a/4 sida474 rad6 upptar Augusta i Bergshamra, inflyttad från Kyrkefalla1941-12-17, med födelsetiden1863-06-24 och den avlidne maken Per Vilhelm Eliasson namngiven. | CORROBORATED | hög | [C-0874](../citations/C-0874-augusta-vamb-bergshamra-1941.md), [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md) | Mottagarposten anger ny bok folio95 år1949, ännu oläst. Ingen dödsdag på raden. Våmb är katalogens namn; Vämb var tidigare arbetsläsning. |
+| A-3450 | Hon var född 1863-06-27 i Kyrkefalla, gift 1885-06-07 med hemmansägaren Per Wilhelm Eliasson, född 1850-08-18 i Värsås, och bodde på Djursätra Västergård till utflyttningen till Kyrkefalla 1916-11-24; sju barn födda 1886–1904. | TRANSCRIBED | hög | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Första originalbelagda hushållsraden för familjen efter 1910. |
 
 ## Relationer
 

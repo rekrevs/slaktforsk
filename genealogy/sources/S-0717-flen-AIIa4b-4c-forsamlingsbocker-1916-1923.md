@@ -19,11 +19,14 @@
   där uppslag 638 saknas i båda reproduktionerna
   ([C-0896](../citations/C-0896-flen-sida-638-saknas-och-inkomstenhet-1930.md)).
   Reproduktions-id: `00153986` = /1 löpande till `00153996` = /5 b.
-- Katalogfynd 2026-09-06: Flens serier `B` (in- och utflyttningslängder),
-  `C` (födelse), `E I` (lysning och vigsel) och `F` (död) är digitaliserade
-  **endast till 1910 respektive 1915**. Inflyttningslängden 1918 och
-  vigselboken efter maj 1915 kan därför inte läsas på bild; det är en
-  konkret åtkomstspärr.
+- **Rättelse 2026-09-06.** Denna källa angav först att Flens serier `B`,
+  `C`, `E I` och `F` var digitaliserade endast till 1910 respektive 1915 och
+  att inflyttningslängden 1918 och vigselboken efter maj 1915 därför var
+  oåtkomliga. Det var fel. NAD visar `Bild` för `B/5 a`–`8 b` (1911–1947)
+  och för `E I/3` (1914–1935). Utflyttningslängden `B/6 b` är läst i
+  [S-0722](S-0722-flen-B6b-utflyttningslangd-1916-1940.md). Felet kom av att
+  IIIF-samlingsändpunkten är ofullständig för flera arkiv; se
+  `genealogy/method-riksarkivet.md`.
 - Åtkomst 2026-09-06: inloggad session krävs; läst i T-0075 via ägarens
   inloggade Claude-in-Chrome-flik, metod i `method-riksarkivet.md`.
 

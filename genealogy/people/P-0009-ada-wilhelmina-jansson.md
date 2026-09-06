@@ -35,6 +35,8 @@ dotterson i samma föräldrapars hushåll 1930.
 | A-3419 | Hon var kvar vid Ökna säteri i Floda 1915–1918, skrevs om till uppslag 608 rad 15 år 1916 och hade sonen Arne Godvig på egen rad i sitt hushåll. | TRANSCRIBED | hög | [C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md) | Första samtida källa som visar mor och son tillsammans. |
 | A-3420 | Hon utflyttade med sonen från Floda till Flen 1918-10-28 med flyttningsbetyg 1918-10-26 och skrevs hemsömmerska i föräldrahushållet på Ljungbacka. | CORROBORATED | mycket hög | [C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md), [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Reciproka poster i Floda och Flen. |
 | A-3421 | Hon utflyttade från Flen **till Norge den 1918-10-29**, dagen efter ankomsten, och lämnade sonen kvar hos sina föräldrar. | TRANSCRIBED | hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Förklarar luckan 1918–1922 och det avgränsade indexnollet i folkräkningen 1930 (C-0900). Norsk destination anges inte. |
+| A-3451 | Utflyttningslängden anger destinationen **östra Aker, Kristiania** i Norge och för henne som **emigrant**, med en anteckning daterad 1921-11-28. | TRANSCRIBED | hög | [C-0918](../citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md) | Preciserar A-3421; ger norsk sökingång (Østre Akers kirkebøker, folketellingen 1920). |
+| A-3452 | Vid utflyttningen 1918-10-29 skrevs hon **barnsköterska**, inte hemsömmerska; flyttningsbetyget utfärdades samma dag. | TRANSCRIBED | hög | [C-0918](../citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md) | Yrkesangivelsen antyder en anställning i Norge. |
 
 ## Relationer
 

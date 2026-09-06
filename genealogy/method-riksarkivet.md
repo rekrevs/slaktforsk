@@ -632,22 +632,60 @@ fliken (`curl` mot samma adresser stoppas av ALTCHA):
 1. **IIIF-samlingar per arkivnod.**
    `https://lbiiif.riksarkivet.se/collection/arkiv/<arkiv-id>` returnerar
    JSON. På arkivnivå listar den serierna med sina egna arkiv-id; på
-   serienivå listar den de **digitaliserade** volymerna med etikett, årtal,
-   reproduktions-id och foliointervall, till exempel
-   `23 (1917-1931) - 00206295 - Fol 2126-2550`. En serie som svarar med noll
-   poster saknar digital bild — ett direkt och citerbart nollresultat.
+   serienivå listar den volymer med etikett, årtal, reproduktions-id och
+   foliointervall, till exempel `23 (1917-1931) - 00206295 - Fol 2126-2550`.
    Arkiv-id:t hämtas ur `search_metadata`-träffens `sok.riksarkivet.se/arkiv/…`.
 
-2. **NAD-sidan för hela förteckningen.**
+   **VARNING, konstaterad 2026-09-06: samlingsändpunkten är ofullständig.**
+   Den listar inte alltid alla digitaliserade volymer. Tre fall samma dag:
+   Umeå stadsförsamlings `A II a` gav 28 poster (t.o.m. 1912) medan NAD visar
+   `Bild` för 1899–1952; Värsås `A II a` gav en enda volym (1895–1907) medan
+   NAD visar fyra t.o.m. 1943; Flens `B` gav volymer t.o.m. 1910 medan NAD
+   visar `Bild` t.o.m. 1947. **Ett tomt eller kort svar från
+   samlingsändpunkten får därför aldrig skrivas som ett nollresultat.**
+   Använd den bara för att snabbt hitta reproduktions-id till volymer den
+   faktiskt listar; avgör tillgänglighet i NAD.
+
+2. **NAD-sidan för hela förteckningen — den auktoritativa källan.**
    `https://sok.riksarkivet.se/arkiv/<arkiv-id>` renderar seriens fullständiga
-   volymlista, inklusive **icke-digitaliserade** volymer, med tidsomfång och
-   anmärkning. Trädet på sidan laddas med javaskript, så sidan måste öppnas i
-   fliken; en `fetch` av samma adress ger bara `Loading …`.
+   volymlista med tidsomfång och anmärkning. Trädet på sidan laddas med
+   javaskript, så sidan måste öppnas i fliken; en `fetch` av samma adress ger
+   bara `Loading …`. **Varje volym som är digitaliserad har en `Bild`-länk**,
+   och avsaknad av `Bild` är det enda giltiga belägget för att en volym inte
+   finns som bild.
+
+   `Bild`-länken är `/bildvisning/<GUID>` och omdirigerar till rätt
+   reproduktion. Hämta länkarna ur DOM:en radvis så att volym och länk hör
+   ihop:
+
+   ```js
+   [...document.querySelectorAll('tr')].map(tr => {
+     const a = [...tr.querySelectorAll('a')]
+       .find(x => x.textContent.trim() === 'Bild');
+     return a ? tr.textContent.replace(/\s+/g,' ').trim().slice(0,40)
+                 + ' >> ' + a.getAttribute('href') : null;
+   }).filter(Boolean)
+   ```
+
+   Navigera sedan till GUID-adressen: den landar antingen direkt på
+   `/bildvisning/<batch>_00001` — då står reproduktions-id i URL:en — eller på
+   `/bildvisning/batchar/<GUID>`, en valsida när volymen är skannad flera
+   gånger (original och mikrofilm). Valsidans tabell ger batchnummer,
+   bildantal och `Skannad från`; välj originalskanningen.
 
 Reproduktions-id:n inom en serie är ofta men inte alltid löpande
-(`00206273` = A II a/1 → `00206295` = A II a/23, med hål). Kontrollera alltid
-en gissning mot `arkis!<id>/manifest`, vars `label` innehåller hela
-referenskoden och vars `items.length` ger bildantalet.
+(`00206273` = A II a/1 → `00206295` = A II a/23, med hål), och för vissa arkiv
+följer de inget mönster alls. Kontrollera alltid en gissning mot
+`arkis!<id>/manifest`, vars `label` innehåller hela referenskoden och vars
+`items.length` ger bildantalet — eller undvik gissningen helt genom att gå via
+NAD-sidans `Bild`-länk.
+
+**Ortregister är den billigaste vägen till rätt uppslag.** Många
+församlingsböcker har ett alfabetiskt ortregister på de första bilderna
+(Flen `A II a/4 b` bild 3–5, Värsås `A II a/2` bild 3–5, Floda i samtliga
+volymer). Ett uppslagsnummer ur registret ersätter en genomsökning av
+hundratals bilder. Vigselbokens och flyttningslängdens kolumn
+`Sida i församlingsboken` gör samma tjänst åt andra hållet.
 
 Foliots bildnummer bestäms sedan med två stickprov: läs två bilder med
 känt avstånd, räkna offset (`uppslag = bild + k`) och verifiera på

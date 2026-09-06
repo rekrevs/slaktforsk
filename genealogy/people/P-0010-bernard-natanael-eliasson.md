@@ -45,6 +45,12 @@ evidenslinjerna hålls åtskilda.
 | A-3431 | Han utflyttade från Floda till Oskarshamns stadsförsamling 1917-11-03 med flyttningsbetyg 1917-10-27 och mottogs där som nr 98. | TRANSCRIBED | hög | [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md) | Bekräftar krönikans flytt till Oskarshamn 1917 med dag och nummer; exakt ingång för KP-02. |
 | A-3432 | Församlingsboken anger födelsen 1886-04-19 `enl. uppgift fr. Versås` och värnpliktsnummer 239 ⁵⁷/₀₆. | CORROBORATED | hög | [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md) | Oberoende bekräftelse av födelsedatum; värnpliktsnumret är en ny nyckel mot Krigsarkivet. |
 | A-3433 | Kyrkoböckerna visar honom vid Ökna först från 1916-11-22, inte från 1911 som familjekrönikan anger; han saknas på samtliga kontrollerade Öknauppslag 1910–1914, där bokhållaren var Gustaf Sigfrid Pettersson. | TRANSCRIBED | hög | [C-0913](../citations/C-0913-okna-sateri-1910-1914-utan-bernhard.md), [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md), [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | **Bevarad konflikt** mot A-1646 och A-1678. Faderskapet är ägarfastställt (PCD-2026-08-20-001) och berörs inte; det är omständigheten som avviker, eftersom sonen föddes 1915-02-21. Möjlig förklaring: vistelse som lantbrukselev utan kyrkobokföring i Floda. Ska tillbaka till ägaren. |
+| A-3434 | Han vigdes med Katy Leonie Nilsson i Oskarshamns stadsförsamling 1923-11-11 efter lysning 16, 23 och 30 september 1923. | CORROBORATED | mycket hög | [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md), [C-0018](../citations/C-0018-myheritage-bernhard-natanael-eliaesson.md) | Originalbelägger sekundärträdets datum (A-0186); båda bodde före vigseln på N:o 293. |
+| A-3435 | Vid vigseln 1923 skrevs han **kassör** och bodde på N:o 293 i Oskarshamn; församlingsbokens sida anges till 1208. | TRANSCRIBED | hög | [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md) | Yrket kassör är belagt sju år före folkräkningen 1930. |
+| A-3436 | Han inflyttade till Oskarshamn från Floda 1917-11-03, bodde på bostads-nr 293, skrevs först bokhållare och sedan kassör, och utflyttade till **Limhamn 1923-11-21** med flyttningsbetyg 1923-11-19. | CORROBORATED | mycket hög | [C-0915](../citations/C-0915-eliasson-oskarshamn-uppslag-1208-1917-1923.md), [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md) | Reciprok med Floda: samma utflyttningsdag. Reducerar luckan 1917–1930 till Limhamnsåren 1923–1930. |
+| A-3447 | Han var kyrkobokförd i föräldrahemmet på Djursätra Västergård i Värsås till 1916-11-22, då han utflyttade till Floda i Södermanlands län — samma dag som Floda anger för inflyttningen. | CORROBORATED | mycket hög | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), [C-0912](../citations/C-0912-bernhard-natanael-bokhallare-okna-1916-1917.md) | Reciproka poster; första kyrkoboksbelägget mellan 1910 och 1916. |
+| A-3448 | Värsås församlingsbok anger födelsedagen `¹⁹/₄ enl. födelseboken` och värnpliktsnummer **239 ³⁷/₀₆**. | CORROBORATED | hög | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Avgör osäkerheten mellan Flodas `239 ⁵⁷/₀₆` och Oskarshamns `229 ³⁷/₀₆`. |
+| A-3449 | Föräldrarna och tre yngre syskon utflyttade till Kyrkefalla 1916-11-24, två dagar efter honom; hela föräldrahemmet bröts upp samtidigt. | TRANSCRIBED | hög | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Förklarar moderns senare hemvist i Kyrkefalla. |
 
 ## Relationer
 
@@ -80,9 +86,11 @@ evidenslinjerna hålls åtskilda.
 | 1916-11-22 | Inflyttning från Värsås till Ökna säteri, uppslag 592, attest nr 171 | Floda | bokhållare | — | C-0912 |
 | 1917-11-03 | Utflyttning till Oskarshamns stadsförsamling nr 98; flyttningsbetyg 27/10 | Floda → Oskarshamn | bokhållare | — | C-0912 |
 | 1915-02-21 | Sonen Arne född utom äktenskapet; ägarfastställt faderskap | Flen | — | — | C-0008, PCD-2026-08-20-001 |
-| 1917 | Flytt till Oskarshamn enligt krönikan; porträtt 1920 | Oskarshamn | — | — | C-0266, C-0264 |
-| 1923-11-11 | Vigsel med Katy Leonie Nilsson (dag enligt sekundärträd, år enligt 1930) | Oskarshamn? | — | — | C-0018, C-0027 |
-| 1910–1916, 1917–1930 | **Materiell lucka**: Värsås 1910–1916 och Oskarshamn 1917–1930 | — | — | — | profil Q-01, Q-02 |
+| 1917-11-03–1923-11-21 | Bostads-nr 293 i Oskarshamn; skriven bokhållare, sedan kassör; porträtt 1920 | Oskarshamn | kassör | — | C-0915, C-0264 |
+| 1923-09-16/23/30 | Lysning nr 35 | Oskarshamn | kassör | — | C-0914 |
+| 1923-11-11 | **Vigsel med Katy Leonie Nilsson** | Oskarshamns stadsförsamling | kassör | — | C-0914 |
+| 1923-11-21 | Utflyttning till Limhamn; flyttningsbetyg 19/11 | Oskarshamn → Limhamn | kassör | hustru | C-0915 |
+| 1910–1916, 1923–1930 | **Materiell lucka**: Värsås 1910–1916 och Limhamn 1923–1930 | — | — | — | profil Q-01, Q-03 |
 | 1930 | Folkräkning; inkomst 6 900 | Limhamn | kassör vid kraftverk | hustru, döttrarna Lucy Gudrun och Maj-Grete | C-0027 |
 | 1944 | Familjefoto julen 1944 med hustru och tre döttrar | Malmö | — | — | C-0264 |
 | 1964 | Tre porträtt | Malmö | — | — | C-0264 |

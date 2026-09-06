@@ -27,6 +27,7 @@ namn Zingmark.
 | A-3367 | Ida Sofia Andersdotter bodde 1930 med maken i Umeå stadsförsamling, uppslag 1839, med sex hemmavarande barn födda 1892–1909. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Delad post med P-0028. |
 | A-3404 | Hon bodde med maken och åtta hemmavarande barn på Ytterhiske N:o 2 i Umeå landsförsamling 1917-11-15 till överföringen till Umeå stad 1925-01-01. | CORROBORATED | mycket hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | Församlingsbok och inflyttningslängd; sluter luckan 1917–1925. |
 | A-3405 | Församlingsboken skriver henne `h. Ida Sofia, f. Andersd.` född 1867-12-15 i Degerfors. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Bekräftar A-0166 och namnformen Andersdotter i en samtida källa 1917. |
+| A-3441 | Hon överlevde maken och fördes 1941-08-23 vidare från uppslag 1839 till uppslag 1704 i Umeå stads församlingsbok, tillsammans med sonen Ludvig Emanuel och sonen Petrus Nikolaus familj. | TRANSCRIBED | hög | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Sekundärträdets dödsår 1944 (A-0168) ska sökas på uppslag 1704. |
 
 ## Relationer
 

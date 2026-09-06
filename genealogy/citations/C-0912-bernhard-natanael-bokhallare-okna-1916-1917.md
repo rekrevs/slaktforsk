@@ -58,7 +58,10 @@ honom vid Ökna 1914 (A-1678). Kyrkoboken visar honom där **först från
 1916-11-22 och till 1917-11-03**. Att anteckningen hämtar hans födelsedatum
 `enl. uppgift fr. Versås` talar för att detta var hans **första** inskrivning
 i Floda; hade han varit kyrkobokförd där tidigare hade uppgiften redan
-funnits. Konflikten är materiell därför att sonen Arne Godvig föddes
+funnits. **Bekräftat 2026-09-06:** Värsås församlingsbok visar honom
+kyrkobokförd i föräldrahemmet till 1916-11-22, samma dag som denna post anger
+för inflyttningen
+([C-0917](C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md)). Konflikten är materiell därför att sonen Arne Godvig föddes
 **1915-02-21** ([C-0008](C-0008-arne-godvig-fodelse-1915.md)) — alltså innan
 den kyrkobokförda tjänsteperioden börjar. Bernhard och Ada Wilhelmina var
 skrivna på Ökna samtidigt endast **1916-11-22–1917-11-03**

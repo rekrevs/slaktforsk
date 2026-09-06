@@ -7,6 +7,7 @@
 | A-0182 | Sekundärträdet anger namnet Gerda Helena Sundström, född Zingmark, och levnadsåren 1909–1995. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Yngre syskon till Oskar Alfred enligt samma källa; historisk källa återstår. |
 | A-2504 | Gerda Helena föddes 1909-07-12 i Degerfors och står som dotter till Johan Oskar Zingmark och Ida Sofia Andersdotter i Rosinedahl. | TRANSCRIBED | hög | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Första historiska originalbelägget; gift namn och dödsår ligger kvar som separat sekundär ledtråd. |
 | A-3416 | Gerda Helena, född 1909 i Degerfors, flyttade med familjen till Umeå landsförsamling 1917-11-15. Umeå anger födelsedagen ¹⁷/₉ mot Degerfors A II a/3:s 1909-07-12. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Konflikten bevaras; födelseboken är oläst. |
+| A-3446 | Hon gifte sig 1934-12-29 med folkskolläraren Hilding Alexander Sundström och utflyttade 1935-11-25. | TRANSCRIBED | hög | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Bekräftar sekundärträdets gifta namn Sundström (A-0182). |
 
 ## Relationer
 

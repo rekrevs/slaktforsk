@@ -16,10 +16,18 @@
   2280–2328, Ytterbafle från 2329. Ytterhiske N:o 1–8 ligger på 2280–2294,
   därefter följer icke-jordbrukande hushåll.
 - Katalogfynd 2026-09-06: `A II b` (lösbladssystem) är 1971–1991, och
-  `A II b`, `A II c`, `A II d` och `G II` saknar digital bild. Umeå
-  **stadsförsamlings** församlingsböcker (`SE/HLA/1010220/A II a`) är
-  digitaliserade endast till och med volym 3d (1908–1912); 1925–1935 års
-  bok, dit hushållet överfördes, är därför inte åtkomlig på bild.
+  `A II b`, `A II c`, `A II d` och `G II` saknar digital bild i IIIF-samlingen.
+- **Rättelse 2026-09-06.** Denna källa angav först att Umeå
+  **stadsförsamlings** församlingsböcker (`SE/HLA/1010220/A II a`) var
+  digitaliserade endast till och med volym 3d (1908–1912) och att
+  1925–1935 års bok därför inte gick att nå. Det var fel: NAD visar `Bild`
+  för samtliga volymer 1a–6j (1899–1952), och uppslag 1839 är läst i
+  [S-0720](S-0720-umea-stadsforsamling-AIIa5e-forsamlingsbok-1925-1941.md)
+  och [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md).
+  Felet kom av att IIIF-samlingsändpunkten är ofullständig för det arkivet;
+  se `genealogy/method-riksarkivet.md`. Uppgifterna ovan om Umeå
+  landsförsamlings egna serier är inte omprövade på samma sätt och ska
+  kontrolleras mot NAD innan de används som nollresultat.
 - Åtkomst 2026-09-06: inloggad session krävs (401 anonymt); läst i T-0075 via
   ägarens inloggade Claude-in-Chrome-flik, metod i `method-riksarkivet.md`.
   Fullupplöst original är speglat lokalt och SHA-256-verifierat.
