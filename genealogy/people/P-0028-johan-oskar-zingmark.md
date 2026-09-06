@@ -114,8 +114,14 @@ landsförsamling, dit hela hushållet kom från Degerfors den 15 november med
 sju män och tre kvinnor (C-0907, C-0908). Där bodde familjen tills fastigheten
 1925-01-01 överfördes till Umeå stad i samband med stadens utvidgning — en
 gränsändring, inte en flytt — vilket förklarar folkräkningens uppgift om
-inflyttning 1925 (C-0899). Om hans sista år vet projektet inget belagt;
-sekundärträdet anger att han dog 1935 (C-0001). Den tidigare
+inflyttning 1925 (C-0899). Vid folkräkningen 1930 hade hushållet en inkomst
+på 2 800 kr och en förmögenhet på 43 000 kr, med sex hemmavarande barn och
+en dräng, och han skrevs alltjämt hemmansägare (C-0899). Han dog
+**1935-04-09**, sjuttiotre år gammal, enligt dödskolumnen på uppslag 1839 i
+Umeå stads församlingsbok (C-0916). Gården gick inte ur släkten: hustrun
+Ida Sofia skrevs därefter `Hem.äg. änka` med jordinnehavet **⅛ mantal nr 2
+och ¹¹/₆₄ mantal nr 1** till sin död 1944, och sonen Ludvig Emanuel stod
+kvar som hemmansägare på samma uppslag (C-0951). Den tidigare
 sammanblandningen med Johan August Johansson är avvisad (C-0550).
 
 Öppna materiella frågor och källvägar finns i

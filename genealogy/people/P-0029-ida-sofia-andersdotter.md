@@ -66,8 +66,20 @@ till bonden Anders Jonsson och Lotta Sofia Andersdotter och växte upp på
 gården med sina syskon (C-0062, C-0064, C-0066). Tjugo år gammal gifte hon
 sig 1888 med drängen Johan Oskar Zingmark, som blev måg på gården; 1890 hade
 de två döttrar och 1909, då familjen bodde i sågverkssamhället Rosinedahl,
-tio barn, bland dem Oskar Alfred född 1897 (C-0061, C-0060, C-0574). Hennes
-senare liv är obelagt; sekundärträdet anger att hon dog 1944 (C-0001).
+tio barn, bland dem Oskar Alfred född 1897 (C-0061, C-0060, C-0574).
+
+Familjen lämnade Rosinedahl 1917-11-15 för **Ytterhiske N:o 2 i Umeå
+landsförsamling**, där maken skrevs hemmansägare redan vid inflyttningen,
+och fastigheten fördes 1925-01-01 över till Umeå stad när staden utvidgades
+(C-0907, C-0899). Vid folkräkningen 1930 hade hushållet en inkomst på
+2 800 kr och en förmögenhet på 43 000 kr. Maken dog 1935-04-09, och Ida
+Sofia **övertog gården i eget namn**: hon skrivs `Hem.äg. änka` med
+jordinnehavet **⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1** på Ytterhiske
+(C-0916, C-0951). År 1941-08-23 fördes hon vidare till uppslag 1704
+tillsammans med sonen Ludvig Emanuel och sonen Petrus Nikolaus familj, och
+där dog hon **1944-07-11**, sjuttiosex år gammal (C-0951). Sonen Ludvig
+Emanuel stod kvar som hemmansägare på samma uppslag och övertog alltså
+gården efter henne.
 
 Öppna materiella frågor och källvägar finns i
 [forskningsprofilen](../research-profiles/P-0029.md).
