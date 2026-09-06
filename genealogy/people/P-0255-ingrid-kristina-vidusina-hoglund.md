@@ -14,6 +14,9 @@
 | A-1984 | Indal A I/10a sida 127 följer henne i föräldrahemmet och bekräftar 1866-03-10 i Indal. | CORROBORATED | hög | [C-0253](../citations/C-0253-ingrid-christina-vidusina-fodd-1866.md), [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md), [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | Egen födelsepost och två husförhörslängder. |
 | A-3372 | Ingrid Kristina Vidusina Höglund, född 1866, saknas i folkräkningsindexet 1930 för Sättna. | CORROBORATED | hög | [C-0900](../citations/C-0900-folkrakningsindex-1930-avgransade-nollor-jansson-larsson-hoglund.md) | Förenligt med död före 1930; dödsdatum obelagt. |
 | A-3479 | Hon dog **1921-12-04** på Storbränna (Gärdtjärn) i Sättna, sex år efter maken. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Nytt dödsdatum. |
+| A-3527 | **Hon dog 1921-12-11 av `Hjärtfel och äggvita`** och begravdes 1921-12-21; dödboken skriver henne `änka efter torparen Anders Niklas Larsson i Storbränna`, sida 393. | CORROBORATED | mycket hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md) | **Bevarad konflikt:** A-3479 läste församlingsbokens marginal som 1921-12-04. Dödboken är den primära källan för dödsdagen; skillnaden på en vecka bevaras. |
+| A-3528 | **Dödboken skriver henne uttryckligen `född Höglund`.** | CORROBORATED | mycket hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md), [C-0246](../citations/C-0246-emma-petronella-eugenia-fodd-1900-07-23.md) | Samtida myndighetspost bekräftar att hon själv bar Höglund som flicknamn. Att fadern skrivs Nils Petter Pehrsson i sina egna poster kvarstår som öppen namnfråga inom personen. |
+| A-3529 | Dödboken anger födelsedagen 1866-03-10, i överensstämmelse med födelsenotisen. | CORROBORATED | hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md), [C-0253](../citations/C-0253-ingrid-christina-vidusina-fodd-1866.md) | Sjätte samstämmiga källan för datumet. |
 
 ## Relationer
 
@@ -50,7 +53,8 @@ namnformen återstår att kontrollera separat.
 | 1890 | Folkräkning; familj nr 2 | Högsjö | hustru | make och dottern Agnes | C-0389 |
 | 1900 | Folkräkning; dottern Emma 1900-07-23 | Storbränna, Sättna | hustru | make, tre döttrar | C-0243, C-0246 |
 | 1910 | Folkräkning | Storbränna | hustru | make, två döttrar | C-0242 |
-| efter 1910 | **Materiell lucka** | Storbränna? | — | — | profil Q-02 |
+| 1915-08-12 | Änka; maken dör av kräfta | Storbränna, Sättna | — | två döttrar | C-0940 |
+| 1921-12-11 | **Död av hjärtfel och äggvita**; begravd 1921-12-21 | Storbränna, Sättna | änka, sida 393 | döttrarna Märta Viktoria och Emma Petronella | C-0940 |
 
 ## Biografisk sammanfattning
 

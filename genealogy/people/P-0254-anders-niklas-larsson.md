@@ -11,6 +11,8 @@
 | A-2082 | Anders Niklas stod som son i föräldrarnas Högsjöhushåll 1880; år 1890 utgjorde han familj nr 2 med Ingrid Kristina och dottern Agnes på samma sida som föräldrarna. | CORROBORATED | hög | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md) | Två folkräkningar binder ungdomshushållet till den egna familjebildningen. |
 | A-3371 | Anders Niklas Larsson, född 1862, saknas i folkräkningsindexet 1930. | CORROBORATED | hög | [C-0900](../citations/C-0900-folkrakningsindex-1930-avgransade-nollor-jansson-larsson-hoglund.md) | Förenligt med död före 1930; dödsdatum obelagt. |
 | A-3478 | Han dog **1915-08-12** på Storbränna (Gärdtjärn) i Sättna, där han var torpare; äktenskapet med Ingrid Kristina 1888-06-25 anges uttryckligen som **civilt**. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Nytt dödsdatum; den civila vigseln förklarar tidigare svårigheter i vigselboken. |
+| A-3525 | **Han dog 1915-08-12 av kräfta** och begravdes 1915-09-03; dödboken skriver honom `torpare i Storbränna` och anger församlingsbokens sida 393 och födelsedagen 1862-06-15. | CORROBORATED | mycket hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md), [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Originalbelägg för dödsdatumet i A-3478, plus dödsorsak och begravningsdag. |
+| A-3526 | Dödboken namnger hustrun indirekt: hennes egen dödsnotis 1921 kallar henne `änka efter torparen Anders Niklas Larsson i Storbränna`. | CORROBORATED | hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md) | Binder paret en gång till i samtida myndighetspost. |
 
 ## Relationer
 
@@ -51,7 +53,7 @@ föräldrakoppling.
 | 1890–1900 | Flytt till Storbränna | Indal → Sättna | — | — | profil Q-01 |
 | 1900 | Folkräkning; dottern Emma född 1900-07-23, `Dop vägradt` | Storbränna, Sättna | torpare | hustru, tre döttrar | C-0243, C-0246 |
 | 1910 | Folkräkning | Storbränna | torpare | hustru, två döttrar | C-0242 |
-| efter 1910 | **Materiell lucka**: torpet, död | Storbränna? | — | — | profil Q-02 |
+| 1915-08-12 | **Död av kräfta**; begravd 1915-09-03 | Storbränna, Sättna | torpare, sida 393 | hustru och tre döttrar | C-0940 |
 
 ## Biografisk sammanfattning
 
