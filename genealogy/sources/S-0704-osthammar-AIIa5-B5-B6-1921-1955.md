@@ -10,7 +10,8 @@
   1930 = bild 52–53, 1935 = bild 70).
 - Åtkomst 2026-09-05: inloggad session krävs; läst i T-0066 via ägarens
   inloggade Claude-in-Chrome-flik (metod i S-0693). SHA-256 för lästa bilder
-  står i C-posterna; lokal spegling återstår.
+  står i C-posterna, och fulloriginalen är speglade 2026-09-06 till
+  genealogy/media/ (metod i method-riksarkivet.md).
 
 ## Bevarat underlag
 

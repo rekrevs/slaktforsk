@@ -51,8 +51,8 @@ sonens dödsregistrering i Umeå 1963 ([C-0878](C-0878-oskar-alfred-zingmark-gra
 ## Källbild
 
 - Original (fjärrverifierat): 5597 × 3985 px, 1 213 808 byte, SHA-256
-  `d0f809c0ce7a40066007ed2ebc1f095510fb5dd327a78b72a614cf8ff9a450e4`; lokal
-  kopia saknas ännu (S-0693).
+  `d0f809c0ce7a40066007ed2ebc1f095510fb5dd327a78b72a614cf8ff9a450e4`; lokal kopia speglad
+  2026-09-06, se Lokal källbild.
 
 ## Bevarat katalogunderlag
 

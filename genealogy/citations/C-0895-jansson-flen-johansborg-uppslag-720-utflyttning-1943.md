@@ -42,8 +42,8 @@ mellanliggande församling.
 ## Källbild
 
 - Original (fjärrverifierat): 5669 × 4070 px, 1 509 373 byte, SHA-256
-  `55df0f249ac63864d6fdbac38a3007bc176dacef6f252b030a74badf2fc7c455`; lokal
-  kopia saknas ännu (S-0693).
+  `55df0f249ac63864d6fdbac38a3007bc176dacef6f252b030a74badf2fc7c455`; lokal kopia speglad
+  2026-09-06, se Lokal källbild.
 
 ## Bevarat katalogunderlag
 

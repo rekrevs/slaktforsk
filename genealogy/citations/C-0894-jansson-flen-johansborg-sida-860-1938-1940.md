@@ -38,8 +38,8 @@ utdraget 1951 ([C-0876](C-0876-arne-mantal-1951-kallprov.md)). Vid bokbytet
 ## Källbild
 
 - Original (fjärrverifierat): 5663 × 4052 px, 1 461 917 byte, SHA-256
-  `eea32bc1d1bd8b4153d7e81aedad2f92643794ff9cfbddf7d5af596a41723bd7`; lokal
-  kopia saknas ännu (S-0693).
+  `eea32bc1d1bd8b4153d7e81aedad2f92643794ff9cfbddf7d5af596a41723bd7`; lokal kopia speglad
+  2026-09-06, se Lokal källbild.
 
 ## Lokal källbild
 
