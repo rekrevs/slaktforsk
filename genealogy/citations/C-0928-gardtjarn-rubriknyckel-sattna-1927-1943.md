@@ -64,4 +64,3 @@ Rubrikfyndet i denna post står kvar som en giltig strukturell iakttagelse om
 seriens ortnamn, och Gärdtjärnfoliernas genomgång står kvar som ett eget
 avgränsat nollresultat, men **slutsatsen att C-0888 missade familjen på
 grund av rubriken gäller inte**.
-
