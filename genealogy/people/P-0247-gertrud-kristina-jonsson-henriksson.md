@@ -31,6 +31,8 @@ egen födelsenotis och parallella SCB-utdrag.
 | A-3485 | I det andra giftet tillkom sönerna **Nils Egnar, född 1915-12-09** — född före vigseln och erkänd av August Hallén — och **Ivar Henning, född 1918-09-28**. | TRANSCRIBED | hög | [C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) | Halvbröder till Axel Edvin, Emil Herman och Fridolf. |
 | A-3490 | Hon och Nils August Hallén flyttade 1931-12-04 till folio 392 på Storbränna och fördes 1943 vidare till nya bokens folio 388; Hallén anges född 1875-01-17 i **Tuna** i Västernorrlands län. | TRANSCRIBED | hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Födelseorten Tuna preciserar den tidigare läsningen Timrå i C-0926. |
 ## Relationer
+| A-3519 | **Hon vigdes med Erik Jonas Henriksson i Sättna den 1900-11-24**, efter lysning den 14, 21 och 28 oktober; hon skrivs `bondedotter i Storbränna` och båda står på församlingsbokens sida 388. | CORROBORATED | mycket hög | [C-0938](../citations/C-0938-erik-jonas-henriksson-vigsel-1900-och-dod-1910.md) | Originalbelägg för vigseldatumet, tidigare känt bara genom församlingsboken. |
+| A-3520 | Vigselboken anger hennes födelsedatum till **1874-02-23**. | CORROBORATED | hög | [C-0938](../citations/C-0938-erik-jonas-henriksson-vigsel-1900-och-dod-1910.md) | Samtida post; preciserar det tidigare kända födelseåret 1874. |
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|

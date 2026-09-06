@@ -21,6 +21,14 @@
 | A-2407 | Sättna F/1, Holm B/2 och Ljustorp E I/3 svarade `401` på bildnivå 2026-08-29 och Sättna E I/1 saknar bildlänk. | TRANSCRIBED | hög | [C-0544](../citations/C-0544-erik-jonas-vigsel-och-dod-negativa-kontroller-och-atkomst.md) | Åtkomstincidenter med återstart i inloggad session; inte nollresultat. |
 | A-2411 | På samma sida 265 står brodern Henrik Petter Henriksson, arbetare, född `1857 20/4`, från `G.B. 222`, med hustru Ingrid Gustafva Byström och tre söner. | CORROBORATED | hög | [C-0543](../citations/C-0543-ljustorp-AI10-sida-265-och-BI3-1894-erik-jonas-till-holm.md), [C-0469](../citations/C-0469-ljustorp-AI6-henrik-familj-sjoberg.md), [C-0519](../citations/C-0519-ljustorp-AI6-sida-54-henrik-familj.md) | Samma gamla-boken-hänvisning, föräldrahushåll och rättade datum 1857-04-20; tidigare 1857-07-24 var en felläsning. Sidogrenen är nu P-0456–P-0460. |
 ## Relationer
+| A-3515 | **Vigseln med Gertrud Kristina Jönsson är originalbelagd till 1900-11-24** i Sättnas vigselbok, post 6, efter lysning den 14, 21 och 28 oktober; vigselförrättare var **J. A. Hammargren**. | CORROBORATED | mycket hög | [C-0938](../citations/C-0938-erik-jonas-henriksson-vigsel-1900-och-dod-1910.md), [C-0542](../citations/C-0542-sattna-AIIa2-sida-388-erik-jonas-henriksson-familj.md) | Löser åtkomstbeskedet i A-2407 för `E I/1`: volymen är läsbar i inloggad session. Vid vigseln skrevs han **arbetare** i Storbränna, sida 388. |
+| A-3516 | Vigselposten anger att `Kontrahenterna samtyckte medels personligt besök på pastorsexpeditionen` och att intet hinder förelåg. | TRANSCRIBED | hög | [C-0938](../citations/C-0938-erik-jonas-henriksson-vigsel-1900-och-dod-1910.md) | Ovanligt utförlig formulering; båda infann sig personligen. |
+| A-3517 | **Han var hemmansägare i Storbränna när han dog**, inte arbetare som vid vigseln 1900. | CORROBORATED | hög | [C-0938](../citations/C-0938-erik-jonas-henriksson-vigsel-1900-och-dod-1910.md) | Dokumenterad social uppflyttning på tio år, rimligen genom giftermålet in i Jönssons hemman. |
+| A-3518 | **Han dog 1910-03-02 av lunginflammation** och begravdes 1910-03-13; dödboken anger födelsedagen 1860-01-23 och församlingsbokens sida 388. | CORROBORATED | mycket hög | [C-0938](../citations/C-0938-erik-jonas-henriksson-vigsel-1900-och-dod-1910.md), [C-0542](../citations/C-0542-sattna-AIIa2-sida-388-erik-jonas-henriksson-familj.md) | Löser åtkomstbeskedet i A-2407 för `F/1`. Dödsorsaken är ny uppgift. |
+| A-3521 | **Holmuppehållet 1895–1900 är slutet.** Han bodde i byn **Östbyn i Holm**, på sida 211 i församlingsboken 1895–1898 och på **folio 224** i boken 1898–1909, med obruten sidhänvisning `G.B. 195 → 211 → 224 → Sättna`. | CORROBORATED | mycket hög | [C-0939](../citations/C-0939-erik-jonas-henriksson-i-holm-1895-1900.md) | Fyller den materiella lucka som C-0543 och C-0544 lämnade öppen. |
+| A-3522 | Han var **arbetare och ogift** under hela Holmtiden och står ensam på raden, utan hustru, barn eller eget hushåll. | TRANSCRIBED | hög | [C-0939](../citations/C-0939-erik-jonas-henriksson-i-holm-1895-1900.md) | Stämmer med att vigseln skedde 1900-11-24, sex veckor efter flytten till Sättna. |
+| A-3523 | **Han utflyttade från Holm den 1900-10-12** från Östbyn, folio 224, till Sättna, med anteckningen `Inskrifven`. | CORROBORATED | mycket hög | [C-0939](../citations/C-0939-erik-jonas-henriksson-i-holm-1895-1900.md), [C-0542](../citations/C-0542-sattna-AIIa2-sida-388-erik-jonas-henriksson-familj.md) | Reciprok mot Sättnas inflyttningsdatum 1900-10-13. |
+| A-3524 | **Rättar A-2407:** Holm `B/2` och Holms församlingsböcker `A II a/1–2` är läsbara i inloggad session; det tidigare `401`-beskedet var ett åtkomstläge, inte ett källhinder. | CORROBORATED | hög | [C-0939](../citations/C-0939-erik-jonas-henriksson-i-holm-1895-1900.md) | Tredje åtkomstbeskedet från 2026-08-29 som är upplöst. |
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
@@ -44,8 +52,11 @@ och Ljustorp A I/9 fastställer nu det ursprungskällestödda datumet
 identitetskedjan Lagfors → Holm 1894 → Sättna 1900 med reciproka
 sidhänvisningar (C-0543, C-0542) och gav vigseln 1900-11-24 samt döden
 1910-03-02 ur församlingsboken; frånvaron 1910 är därmed förklarad. Vigsel-
-och dödsoriginal samt Holm-åren 1894–1900 är spärrade (`401`) eller utan
-bildlänk och återstår i inloggad session (C-0544).
+och dödsoriginalen samt Holmåren är nu lästa i inloggad session: vigseln
+1900-11-24 och döden av lunginflammation 1910-03-02 (C-0938), och hela
+Holmuppehållet i Östbyn 1895–1900 (C-0939). Det äldre åtkomstbeskedet i
+C-0544 är därmed upplöst; kvar bakåt är `G.B. 195`, sidan där ankomsten
+1894-12-01 ska stå.
 
 ## Slutstatus
 
@@ -69,10 +80,14 @@ bildlänk och återstår i inloggad session (C-0544).
 | 1890 | Folkräkning | Lagfors | jordbruksarbetare, ogift | — | C-0328 |
 | 1892–1894 | A I/10 s. 265; värnpliktsanteckning 204/166/81 | Lagfors | arbetare | brodern Henrik Petter på samma sida | C-0543 |
 | 1894-12-01 | Utflyttning nr 35 till Holm | Ljustorp → Holm | — | — | C-0543 |
-| 1894–1900 | **Materiell lucka**: Holm | Holm | — | — | profil Q-01 |
-| 1900-10-13 | Inflyttning från Holm; lysning 14/10; vigsel 1900-11-24 med Gertrud Kristina Jönsson | Storbränna nr 3, Sättna | måg | svärföräldrarna Abraham Jönsson | C-0542, C-0243 |
+| 1895–1898 | Sida 211, rubriken `Östbyn`, ensam och ogift | Östbyn, Holm | arbetare | — | C-0939 |
+| 1898–1900 | Folio 224, `Östbyn N:o 1`, fortsatt ensam och ogift | Östbyn, Holm | arbetare | — | C-0939 |
+| 1900-10-12 | Utflyttning post 14 från Östbyn folio 224 till Sättna, `Inskrifven` | Holm → Sättna | arbetare | — | C-0939 |
+| 1900-10-13 | Inflyttning från Holm | Storbränna nr 3, Sättna | arbetare | svärföräldrarna Abraham Jönsson | C-0542, C-0243 |
+| 1900-10-14/21/28 | Lysning i Sättna | Sättna | arbetare i Storbränna, sida 388 | — | C-0938 |
+| 1900-11-24 | **Vigsel med Gertrud Kristina Jönsson**; förrättare J. A. Hammargren | Sättna | arbetare | — | C-0938 |
 | 1901-01-31 | Sonen Axel Edvin född; Emil Herman 1906, Fridolf 1908 | Storbränna | arbetare | hustru och söner | C-0244, C-0242 |
-| 1910-03-02 | Död (dödbok F/1 spärrad) | Sättna | — | — | C-0542 |
+| 1910-03-02 | **Död av lunginflammation**; begravd 1910-03-13 | Storbränna, Sättna | hemmansägare | hustru och tre söner | C-0938, C-0542 |
 
 ## Biografisk sammanfattning
 
