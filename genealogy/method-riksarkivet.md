@@ -697,3 +697,28 @@ negativt utfall skrivs: i T-0075 stod det sökta hushållet på raderna 12–23,
 medan raderna 1–3 tillhörde föregående hushålls tjänstefolk, och en förhastad
 läsning av bara sidans övre del gav ett felaktigt nollresultat som kostade
 ett fyrtiotal onödiga bilduppslag.
+
+## Tillägg 2026-09-06: läs hela bilden innan du skriver ett noll
+
+Två falska nollresultat samma dag hade samma orsak: **en bild lästes till
+en del och togs för hel.**
+
+1. **Umeå landsförsamling, uppslag 2284.** De tre översta raderna tillhörde
+   föregående hushålls tjänstefolk, och hushållet Zingmark stod på raderna
+   12–23. En läsning som stannade i sidhuvudet gav ett noll.
+2. **Sättna `B/4`, 1936 års inflyttningsbok** (`00205404_00029`). Varje bild
+   i den reproduktionen visar **ett helt uppslag med två fulla årssidor**,
+   och årsrubriken `19NN års Inflyttningsbok för … församling` upprepas
+   överst på båda. Vänstersidan bar posterna 1–25, högersidan 26–40+.
+   Familjen Henriksson stod som post 39 på högersidan; nollet i C-0932 kom
+   av att bara vänstersidan lästes.
+
+**Regel.** Innan ett nollresultat skrivs: rendera bilden i sin helhet i låg
+bredd, räkna kolumnerna och sidorna, och kontrollera att den lästa ytan
+täcker hela den rubrik eller det år som nollet gäller. Ett uppslag kan bära
+två sidor med samma rubrik, och ett uppslag kan bära flera hushåll.
+
+**Namnregister får inte bära ett noll.** Sättnas `A II b/1`
+(`Register 1911–1942`) saknar folio 388 för `Henriksson, Axel Edvin`, som
+ändå står där i församlingsboken. Register är en ingång, inte ett bevis för
+frånvaro.

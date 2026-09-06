@@ -80,3 +80,20 @@ Att båda makarna senare är gravsatta i Sättna
 
 Inga nya personpåståenden; posten bevarar ett partiellt nollresultat med
 exakt omfång.
+
+## Rättelse samma dag (2026-09-06)
+
+**Nollresultatet för 1936 var ofullständigt.** Genomgången läste bara
+**sida 51** i uppslaget `00205404_00029`, alltså posterna 1–25 (7/1–27/8).
+1936 års inflyttningsbok fortsätter på **sida 52** i samma bild med
+posterna 26 och framåt, och **post 39, den 1936-11-14, är familjen
+Henriksson**: `Axel Edvin Henriksson | 01 ³¹/₁ | 3 | 4 | Sundsvall |
+Storbränna | 388`. Se [C-0935](C-0935-henriksson-aterflytt-sattna-1936-folio-388.md).
+
+Slutsatsen i A-3491 att familjen inte återinflyttade under 1929–1938
+**faller därmed**. Den kvarstår för åren 1929–1935 och 1937–1938 så långt
+läsningen räcker, men 1936 är inte längre ett noll.
+
+Felet är av samma slag som det falska nollet för Umeå uppslag 2284: en
+sida lästes till en del och togs för hel. Varje bild i `00205404` bär ett
+helt uppslag med **två fulla årssidor**; högersidan måste läsas separat.

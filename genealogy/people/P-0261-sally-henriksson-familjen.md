@@ -10,7 +10,7 @@ personen säkert.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-1487 | Sally var det fjärde av Axel Henrikssons sex användaruppgivna barn. | TRANSCRIBED | hög | [C-0238](../citations/C-0238-axel-henriksson-barn-willy-elsy-henry-sally-berit-evy.md) | Direkt familjeuppgift. |
-| A-3502 | Hon är identifierad i samtida kyrkobok som **Solly Kristina, född 1932-01-19 i Sundsvalls Gustav Adolfs församling**, `icke döpt`, fjärde barnet; hon flyttade med familjen till Sättna 1936. | CORROBORATED | mycket hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md) | Familjeuppgiftens `Sally` motsvarar kyrkobokens `Solly`; namnformerna bevaras båda. Uppgifter efter 1936 tas inte in av integritetsskäl. |
+| A-3502 | Hon är identifierad i samtida kyrkobok som **Solly Kristina, född 1932-01-19 i Sundsvalls Gustav Adolfs församling**, `icke döpt`, fjärde barnet; hon flyttade med familjen till Sättna 1936-11-14 och skrevs på Storbränna folio 388. | CORROBORATED | mycket hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md), [C-0935](../citations/C-0935-henriksson-aterflytt-sattna-1936-folio-388.md) | Familjeuppgiftens `Sally` motsvarar kyrkobokens `Solly`; namnformerna bevaras båda. Uppgifter efter 1936 tas inte in av integritetsskäl. |
 
 ## Relationer
 

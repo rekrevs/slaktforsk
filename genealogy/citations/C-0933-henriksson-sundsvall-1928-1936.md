@@ -95,3 +95,15 @@ namnkolumn innan avvikelsen tolkas.
 ## Stödda påståenden
 
 A-3493–A-3496 (P-0241), A-3497–A-3498 (P-0246).
+
+## Rättelse samma dag (2026-09-06)
+
+**Utflyttningsdatumet är 1936-11-14, inte 1936-04-14.** Nämnaren i
+`36 ¹⁴/₁₁` lästes först som `4`. Sättnas inflyttningsbok, post 39 den
+`¹⁴/₁₁` 1936, ger samma dag från andra hållet
+([C-0935](C-0935-henriksson-aterflytt-sattna-1936-folio-388.md)).
+
+**Den bevarade avvikelsen mot Sättnas inflyttningslängd upphör.** Den
+berodde inte på en saknad post utan på att bara sida 51 av 1936 års
+uppslag hade lästs; posten står på sida 52. Familjen skrevs i Sättna på
+**Storbränna folio 388**.

@@ -28,7 +28,9 @@ föräldrahushållet; födelsenamnet ska bekräftas i egen födelsenotis.
 | A-3489 | Hon flyttade med maken och barnen till **Sundsvall, Storgatan 24, i september 1928**; hon skrivs fortsatt `icke döpt`. | CORROBORATED | mycket hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Sluter frågan om var familjen stod efter 1927. |
 | A-3492 | Hon var skriven i Sundsvall när dottern Evy föddes 1938-01-12; födelsepostens `Boställe: Storbränna` anger **födelseplatsen**, moderns föräldrahem, inte familjens kyrkobokföring. | TRANSCRIBED | hög | [C-0932](../citations/C-0932-sattna-inflyttningslangd-1929-1938-partiellt.md), [C-0240](../citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md) | Samma mönster som Arne Godvigs födelse i Flen 1915 medan modern var skriven vid Ökna i Floda. |
 | A-3497 | Hon var skriven på **folio 2995 i Sundsvalls Gustav Adolfs församling 1928-09-29–1936-04-14**, fortsatt `icke döpt`, och födde där **Nils Axel Henry 1930-12-09, Solly Kristina 1932-01-19 och Berit Kristina 1933-08-19**, samtliga `icke döpt`. | CORROBORATED | mycket hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md) | Sluter den materiella luckan 1928–1938 och identifierar tre av de sex användaruppgivna barnen. Dopvägran fortsatte alltså i tredje generationen. |
-| A-3498 | Familjen återvände till Sättna 1936-04-14, alltså knappt två år innan Evy föddes på Storbränna 1938-01-12. | TRANSCRIBED | hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md), [C-0240](../citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md) | Nyanserar A-3492: vid Evys födelse var familjen sannolikt åter kyrkobokförd i Sättna. Sättnas inflyttningslängd 1936 saknar posten (C-0932); avvikelsen är bevarad. |
+| A-3498 | Familjen återvände till Sättna **1936-11-14**, alltså drygt ett år innan Evy föddes 1938-01-12. | CORROBORATED | mycket hög | [C-0933](../citations/C-0933-henriksson-sundsvall-1928-1936.md), [C-0935](../citations/C-0935-henriksson-aterflytt-sattna-1936-folio-388.md) | Rättar den preliminära läsningen 1936-04-14. Sättnas inflyttningsbok ger samma dag; avvikelsen mot C-0932 var ett delläsningsfel och upphör. |
+| A-3508 | Hon skrevs med maken och de fem barnen på **Storbränna folio 388** i Sättna från 1936-11-14, fortsatt `icke döpt`, och **födde där dottern Evy Åsa Kristina 1938-01-12**, som förs in på rad 13 med anteckningen `B.`. | CORROBORATED | mycket hög | [C-0935](../citations/C-0935-henriksson-aterflytt-sattna-1936-folio-388.md), [C-0240](../citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md) | Hela hushållet — båda föräldrarna och alla sju barnen — står `icke döpt`. |
+| A-3509 | **Rättar A-3492:** familjen var kyrkobokförd i Sättna när Evy föddes, så `Boställe: Storbränna` i födelseposten anger både bostad och födelseplats. | CORROBORATED | mycket hög | [C-0935](../citations/C-0935-henriksson-aterflytt-sattna-1936-folio-388.md) | Den tidigare tolkningen byggde på ett ofullständigt noll i Sättnas inflyttningslängd. |
 
 ## Relationer
 
@@ -67,7 +69,8 @@ föräldrarnas egna födelsenotiser i Sättna 1862 och Indal 1866.
 | 1930-12-09 | Sonen Nils Axel Henry född, `icke döpt` | Sundsvall | — | — | C-0933 |
 | 1932-01-19 | Dottern Solly Kristina född, `icke döpt` | Sundsvall | — | — | C-0933 |
 | 1933-08-19 | Dottern Berit Kristina född, `icke döpt` | Sundsvall | — | — | C-0933 |
-| 1936-04-14 | **Återflyttning till Sättna**, flyttningsbetyg 897/1936 | Sundsvall → Sättna | hustru | make och fem barn | C-0933 |
+| 1936-11-14 | **Återflyttning till Sättna**, Storbränna folio 388 | Sundsvall → Sättna | hustru | make och fem barn | C-0933, C-0935 |
+| 1938-01-12 | Dottern Evy Åsa Kristina föds in i hushållet på folio 388, `icke döpt` | Storbränna, Sättna | hustru | make och sex barn | C-0935, C-0240 |
 | 1919–1930 | **Materiell lucka**: vigsel inte i Sättna 1919/1920/1922; saknas i folkräkningsindexet 1930 | okänt | — | — | C-0888, C-0898, profil Q-01 |
 | 1938-01-12 | Dottern Evy född; modern skrivs Emma Petronella Henriksson | Storbränna | — | Axel Edvin Henriksson | C-0240 |
 | 1938–1963 | **Materiell lucka**: boende, hälsa | Sättna | — | — | profil Q-01 |
@@ -84,8 +87,8 @@ undersökt. Hon växte upp med systrarna Agnes och Märta i byn. Hon gifte sig 1
 Henriksson (C-0927), fördes till hans rad på samma folio 393 och följde med
 honom till Sundsvall 1928, där hon under åtta år på Storgatan 24 födde
 ytterligare tre barn, alla `icke döpt` (C-0925, C-0930, C-0933). Familjen
-återvände till Sättna 1936, och 1938 föddes dottern Evy på Storbränna
-(C-0240); enligt familjen var Evy det sjätte barnet (C-0238). Hon dog 1963-05-22 och gravsattes på Sättna
+återvände till Sättna i november 1936 och skrevs på Storbränna folio 388,
+där dottern Evy föddes 1938 (C-0935, C-0240); enligt familjen var Evy det sjätte barnet (C-0238). Hon dog 1963-05-22 och gravsattes på Sättna
 kyrkogård i den grav som senare också blev Axels (C-0241).
 
 Öppna materiella frågor och källvägar finns i
@@ -94,7 +97,7 @@ kyrkogård i den grav som senare också blev Axels (C-0241).
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0072 (batch 322): vuxenlivet 1911–1938 är nu sammanhängande belagt (C-0925, C-0927, C-0930, C-0933); dopvägran är belagd i tre generationer. Kvar: dödsnotis 1963 och Sättna efter 1936.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0072 (batch 322): vuxenlivet 1911–1938 är nu sammanhängande belagt (C-0925, C-0927, C-0930, C-0933, C-0935); dopvägran är belagd i tre generationer. Kvar: dödsnotis 1963 och Sättna efter 1936.
 
 Tidigare rad 2026-09-05 (T-0065), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0065: den delade hushålls- och vigselpassagen är prövad med avgränsat noll (C-0888); dopvägrans kontext kvarstår (profil KP-01).
 
