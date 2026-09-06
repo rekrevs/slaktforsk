@@ -56,7 +56,9 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | A-3647 | **Hon återvände till Stockholm 1902-10-30** och var vid lysningen skriven i Adolf Fredriks församling. | TRANSCRIBED | hög | [C-0976](../citations/C-0976-ekholm-alund-vigsel-1903-adolf-fredrik.md) | Sluter tidslinjen mellan återkomsten till Hyltinge 1900-08-08 och äktenskapet. Rotemansarkivets nolla för perioden är därmed en falsk nolla av det slag C-0956 beskriver. |
 | A-3648 | Vid vigseln bodde båda på **Västmannagatan 72** i Stockholm, båda var ogifta, och hon var **sin egen giftoman**. | TRANSCRIBED | hög | [C-0976](../citations/C-0976-ekholm-alund-vigsel-1903-adolf-fredrik.md) | Första kända adressen för paret; den ligger i Adolf Fredrik, det område som 1906 bröts ut till Matteus. |
 | A-3649 | Hennes födelsedata i lysningsboken — **1877-09-25 i Gryt, Södermanlands län** — sammanfaller exakt med födelseboken. | CORROBORATED | mycket hög | [C-0976](../citations/C-0976-ekholm-alund-vigsel-1903-adolf-fredrik.md), [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Sjunde oberoende registret med samma datum. |
-| A-3652 | **Hon står inte bland Hyltinges utflyttade 1902, posterna 51–96**, som löper 24 oktober–30 december. Uppgiften `inflyttade ³⁰/₁₀ 02` i Adolf Fredriks lysningsbok är därför sannolikt en flytt **från en annan Stockholmsförsamling**, inte direkt från Hyltinge. | NEGATIVE | medel | [C-0978](../citations/C-0978-hulda-amalia-1900-1902-avgransade-nollor.md) | Avgränsat noll: posterna 1–50 av 1902 samt åren 1900 och 1901 är olästa, och slutsatsen om en mellanliggande församling är en hypotes, inte ett belägg. |
+| A-3652 | **Hon står inte bland Hyltinges utflyttade 1902, posterna 51–96**, som löper 24 oktober–30 december. | NEGATIVE | hög | [C-0978](../citations/C-0978-hulda-amalia-1900-1902-avgransade-nollor.md) | **Överspelad av A-3654:** posten låg i nr 46, i det då olästa intervallet 1–50. Nollet var korrekt avgränsat; hypotesen att hon kom från en annan Stockholmsförsamling var för djärv och är nu avvisad. |
+| A-3653 | Hon **inflyttade till Hyltinge från Maria församling i Stockholm 1900** och skrevs på **Rudstugan 41**, föräldrahemmet. | CORROBORATED | hög | [C-0979](../citations/C-0979-hulda-amalia-hyltinge-1900-1902.md), [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md), [C-0955](../citations/C-0955-ekholm-alund-rotemansarkivet-1899-1913.md) | Hyltinges inflyttningsbok 1900 nr 15; sammanfaller med utskrivningen ur Stockholm 1900-08-08 och med folkräkningen 1900. |
+| A-3654 | Hon **utflyttade från Rudstugan 41 i Hyltinge den 1902-10-22 till Stockholm, Adolf Fredriks församling**, och skrevs in där 1902-10-30. | CORROBORATED | hög | [C-0979](../citations/C-0979-hulda-amalia-hyltinge-1900-1902.md), [C-0976](../citations/C-0976-ekholm-alund-vigsel-1903-adolf-fredrik.md) | Hyltinges utflyttningsbok 1902 nr 46. **Sluter den sista materiella luckan i hennes livslopp**; datumet bärs av ett dittotecken från rad 42:s ²²/₁₀. Överspelar A-3652. |
 
 ## Relationer
 
@@ -91,7 +93,10 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | 1899-10-24–1900-08-08 | **Första Stockholmsvistelsen**; inneboende hos familjen Uddenberg, in- och utflyttad till Hyltinge | Krukmakaregatan 4, Maria förs., rote 15 | **sömmerska**, ogift | Erik Uddenberg Jansson med familj | C-0955 |
 | 1900 | Folkräkning | Rudstugan, Hyltinge | dotter, ogift, 23 år | föräldrar | C-0088 |
 | 1900-08-08–1906 | **Materiell lucka**: vigseln med Axel Vilhelm Ekholm; **inte i Hyltinge, inte i Katarina**, sannolikt Matteus | Stockholm | — | — | C-0953, C-0955, C-0956 |
-| 1902-10-30 | **Åter till Stockholm**, skriven i Adolf Fredriks församling | Stockholm | — | — | C-0976 |
+| 1900 (aug) | **Inflyttad till Hyltinge från Maria förs., Stockholm** | Rudstugan 41, Hyltinge | dotter i föräldrahemmet | föräldrarna | C-0979, C-0088 |
+| 1900–1902 | Kvar i föräldrahemmet | Rudstugan 41, Hyltinge | ogift | föräldrarna | C-0979, C-0088 |
+| 1902-10-22 | **Utflyttad till Stockholm, Adolf Fredriks församling** | Hyltinge → Stockholm | — | — | C-0979 |
+| 1902-10-30 | Inskriven i Adolf Fredriks församling | Stockholm | — | — | C-0976 |
 | 1903-05-01 | **Vigsel med Axel Vilhelm Ekholm** i Adolf Fredriks församling, av pastor Heüman; lysning 5, 12 och 19 april | Västmannagatan 72, Stockholm | — | maken | C-0976 |
 | 1907-03-09 | Sonen Axel Ivar född | **Matteus förs., Stockholm** | — | maken | C-0955 |
 | 1910 | **Folkräkning; gift, `h.` i familj nr 1** | Kv. Kettingen 36–37, Kungsholm rote 23, Stockholm | — | maken och två barn | C-0954 |
@@ -120,7 +125,10 @@ Hyltinge, där hon bodde ogift hos dem i Valsund 1890 och Rudstugan 1900
 (C-0075, C-0077, C-0078, C-0088). Hösten 1899 flyttade hon
 till Stockholm som sömmerska och bodde inneboende på Krukmakaregatan 4 på
 Södermalm, men återvände till Hyltinge redan i augusti 1900 (C-0955).
-Hösten 1902 återvände hon till Stockholm, och **den 1 maj 1903 vigdes hon i
+Efter Stockholmsvistelsen kom hon i augusti 1900 tillbaka till **Rudstugan 41**
+i Hyltinge, föräldrahemmet, och blev kvar där i drygt två år (C-0979,
+C-0088). Den **22 oktober 1902** skrevs hon ut till Stockholm och åtta dagar
+senare in i Adolf Fredriks församling, och **den 1 maj 1903 vigdes hon där i
 Adolf Fredriks församling** med lokomotiveldaren **Axel Vilhelm Ekholm**,
 född 1878-02-17 i Åsbo. Lysningen skedde de tre söndagarna 5, 12 och 19
 april, båda bodde på Västmannagatan 72 och hon var sin egen giftoman

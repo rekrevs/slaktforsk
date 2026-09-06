@@ -3250,3 +3250,57 @@ här batchen, eftersom de ligger utanför T-0085:s omfång.
   tillbaka.
 - Revisit when: T-0051 och T-0054 prövas om mot den öppna katalogen, eller
   när spärren återkommer.
+
+## PCR-2026-09-06-006 — Villkor 2 rör sig tredje gången på en dag
+
+- Datum: 2026-09-06
+- Utlösare: T-0087 avslutad. Reaktiveringsvillkoret i PCD-2026-09-06-004 var
+  att andelen GODKÄNDA profiler mäts om när T-0085 eller T-0086 avslutas;
+  T-0085 gav upphov till T-0087, som nu är klar.
+- Läge: `research-inventory` ger **10 GODKÄNDA och 22 PÅGÅR** av 32
+  profiler, mot **7 / 25** vid dagens början. `goal-state` ger registrerat
+  gemensamt djup 5, oförändrat.
+
+### Kontrolldom: fortsätt
+
+**Tre avlidna personer har passerat personkontraktet på en dag** — P-0048
+och P-0049 i T-0084, och nu **P-0016 Hulda Amalia Ekholm, född Ålund**, som
+dessutom är **den första på Kristinas sida**. Vid dagens början hade ingen
+avliden person passerat; de sju godkända var alla levande och
+integritetsminimerade. Villkor 2 i NORTH-STAR.md har alltså rört sig från
+noll till tre på det sätt villkoret kräver.
+
+### Evidens
+
+- P-0016: samtliga tolv krav STYRKT, tidslinjen materiellt obruten
+  1877–1955 med belagd slutpunkt 1964. Den sista luckan slöts av Hyltinges
+  flyttningsbok, den näst sista av Adolf Fredriks lysnings- och vigselbok.
+- Dagens fyra avgörande fynd kom alla ur **routing, inte uthållighet**:
+  uppslagshänvisningen `5/I` i Burträsks inflyttningsbok, moderns aldrig
+  utvunna rad på en bild som redan låg speglad i repot, Adolf Fredriks
+  `E IV`-register som NAD visade så snart ALTCHA var hävd, och Hyltinges
+  årskarta.
+- Ett hinder föll (ALTCHA), ett visade sig felbeskrivet
+  (bouppteckningsregistrets täckning) och två nya är namngivna (Flens
+  församlingsböcker efter 1955; kommunala socialakter).
+
+### Aktuell grind
+
+Villkor 2 är fortfarande den bindande grinden, men karaktären har ändrats
+igen: från "tre personer står på tre namngivna läsningar" till **"tjugotvå
+profiler PÅGÅR, varav de flesta på egna, ännu okartlagda återstoder"**. Det
+är inte längre enskilda läsningar utan en arbetsmängd som ska planeras.
+
+### Kvarvarande kö
+
+`T-0086` (READY, L) — Umeås fastighetslängder för P-0028 och P-0029, den
+enda kvarvarande åtgärden för två profiler. `T-0070` (READY, L) —
+livsbildsskivan för djup 5, 32 personer. `T-0083`, `T-0080`, `T-0079`,
+`T-0077`, `T-0069`, `T-0060`, `T-0051` READY; `T-0054` BLOCKED på T-0051.
+
+- Resulting Wotan tasks: `T-0087` → DONE. Inga nya.
+- Portfolio signal: north star villkor 2 har gått från noll till tre
+  godkända avlidna personer på en dag, och båda ättegrenarna är
+  representerade.
+- Revisit when: T-0086 avslutas, eller när andelen GODKÄNDA mäts om nästa
+  gång.
