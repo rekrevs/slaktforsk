@@ -3590,3 +3590,88 @@ hinderbundet och ligger utanför uppgifterna.
   första gången **en kö av konkret, ohindrad forskning** i stället för en kö
   av hinder.
 - Revisit when: `T-0089`–`T-0093` är utförda, eller när djup 6 påbörjas.
+
+## PCR-2026-09-06-011
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: checkpoint
+- Trigger: `T-0092` utförd i sin helhet — fem sakmoment plus förteckningen.
+- Control judgement: continue
+
+### Evidens
+
+`T-0092` var formulerad som en omprövning av **ett** daterat åtkomstbesked,
+efter att rättelsen samma dag hade visat att två av tre redan var omprövade.
+Den växte till fem sakmoment. **Samtliga fem gav positivt utfall — och inget
+av de fem antagna åtkomsthindren var ett åtkomsthinder.**
+
+| Antaget hinder | Vad det verkligen var |
+|---|---|
+| Gryt `C/1–C/4` ej digitaliserade | Bildlänken saknas i **sökträffen**; detaljvyn anger `Reproducerad på: C0006497`, 234 bilder |
+| Gryts vigselböcker före 1895 ej digitaliserade | Serien `E I` **finns inte** före 1895; vigslarna 1861–1894 ligger i `C/5` |
+| Ölands `F II` saknar årsvolym 1901 | `F II` slutar 1881 och hänvisar i egna rader till `A II c/17` |
+| `SE/VALA/01959` exponerar ingen årsvolym | `F I a` har **årliga** mantalslängder 1845–1910 |
+| Ingen efterträdarserie efter 1903 | **Tingslaget upphörde 1903**; Bråbygdens domsaga tog över |
+| Ingen serie för Stockholms bouppteckningar 1886 | Arkivet heter `SE/SSA/0145A` och innehåller inte ordet bouppteckning |
+
+Fem påståenden är satta till `REJECTED` med bevarad historik — A-0489,
+A-3162, A-3176, A-3164, A-3169 — och ett är i stället **bekräftat med nytt
+datum**, A-3163 via A-3679.
+
+### Vad som faktiskt vanns
+
+- **Två hörnstenar.** P-0110:s egen födelsenotis 1850 (Hornet i Gryt, döpt
+  15 september, fadern skriven `Bond.`) och parets vigsel **1876-06-24**.
+- **En fråga avgjord genom att svaret inte finns.** Indals dödbok har tomma
+  dödsorsakskolumner **även i originalet**. HAL går till `GENOMGÅNGET` för
+  P-0315 och P-0316; det är ett avslut, inte ett nollresultat att lämna
+  öppet. Läsningen gav dessutom att båda dog på hemorten och
+  begravningsdagarna.
+- **Mönster 2 i granskningen är belagt, inte längre en hypotes.** Ålundparets
+  vigsel förrättades i **Husby-Oppunda**, brudens familjs gamla socken — inte
+  i Västra Vingåker, hennes födelseförsamling, där en hel årgång en gång
+  lästes utan träff. Nollresultatet står kvar och är nu **förklarat**.
+- **Fyra exakta volymer** där det tidigare stod att ingen kunde identifieras.
+
+### Aktuell grind
+
+Oförändrad i sak: villkor 2, den identifierade forskningen är inte utförd.
+Men **grindens karaktär har skärpts**. `T-0092` visar att en del av det som
+räknats som hinder inte var hinder utan **vår egen läsning av
+arkivförteckningen**. Det betyder att köns återstående "hinderbundna" poster
+inte kan tas för givna.
+
+### Ny varaktig kontroll
+
+`genealogy/access-register.md` är skriven och länkad från
+`method-riksarkivet.md` och `source-coverage.md`. Den samlar alla kända
+åtkomstbesked och kräver att **fem kontroller** är gjorda innan ett nytt
+negativt besked skrivs: detaljvyns `Reproducerad på:`, detaljvyns
+`Innehåller även:`, serieförteckningens `Se:`-rader, myndighetspostens
+verksamhetstid, och att arkivbildarens namn inte behöver motsvara
+handlingstypen. Upphävda besked raderas inte utan flyttas med sitt datum
+bevarat.
+
+### Owner decision required
+
+Ingen. Allt utfört ligger inom delegerat mandat: inga beställningar, ingen
+läsesal, ingen publicering, inget löst captcha. Det som **skulle** kräva
+ägarbeslut — `A II c/17`, `F II/75`, `SE/VALA/01529/F II/10` och
+`SE/SSA/0145A/F 1 A/700–703` — är genomgående lämnat som identifierat men
+oläst.
+
+### Rekommendation
+
+**Fortsätt med `T-0089`–`T-0091` och `T-0093`, men tillämpa
+`access-register.md`:s fem kontroller på varje väg som är märkt hinderbunden
+innan den avfärdas.** `T-0092` gör det sannolikt att fler poster i de
+listorna är felmärkta på samma sätt.
+
+- Resulting Wotan tasks: `T-0092` → DONE. Inga nya uppgifter skapade.
+- Portfolio signal: projektet har för första gången ett **stående
+  åtkomstregister**, och en dags arbete visade att fem av fem antagna hinder
+  var läsfel. Det är ett kunskapstillskott om **metoden**, inte bara om
+  släkten.
+- Revisit when: `T-0089`–`T-0091` och `T-0093` är utförda, eller när ett nytt
+  negativt åtkomstbesked skrivs utan att registrets fem kontroller är gjorda.
