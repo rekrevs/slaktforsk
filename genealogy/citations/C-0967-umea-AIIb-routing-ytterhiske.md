@@ -98,3 +98,50 @@ efter uppslag 90.
 Nästa åtgärd är att läsa rubrikerna för uppslagen **91–130** med samma
 teknik, och därefter `A II b/12`:s senare del, innan ett volymnoll får
 bokföras.
+
+## Tillägg 2026-09-06, andra passagen: Ytterhiskeblockets nummerintervall
+
+Rubrikerna för uppslagen **91–96** är lästa med samma teknik och fortsätter
+Ytterhiskeavdelningen: **1289** (91), **1292** (92), **1347** (93),
+**1353** (94) och **1354** (95).
+
+Därmed är hela Ytterhiskeblockets nummerintervall känt. De tjugoen lästa
+rubrikerna i uppslagen 69–96 ger:
+
+- under `Sandaktern` och `Östermalm`: **1251 A, 1251 B, 1251 6, 1252, 1252 d,
+  1254** och egnahemsområdets **12516**;
+- under `Ytterhiske`: **1265, 1270, 1274, 1276, 1282, 1289, 1292, 1304,
+  1307, 1333, 1338, 1347, 1353, 1354**.
+
+**Stadsäga 1258 saknas i hela detta intervall**, och den ligger dessutom i
+gapet mellan Sandakterns 1254 och Ytterhiskeblockets lägsta nummer 1265.
+Nollan är därmed **skärpt men fortfarande avgränsad**: den gäller uppslagen
+69–96 i `A II b/13`, båda sidorna, och säger ingenting om volymens övriga
+310 uppslag eller om de tretton andra volymerna.
+
+### Fortsatt svepning och en avgörande omläsning av nyckeln
+
+Rubrikerna för uppslagen **96–101** är också lästa och fortsätter uppåt:
+`Ytterhiske` **1357** (96, gårdsäg. J. H. Öhman), **1360 B** (97, K. E.
+Lindgren), **1363** (98 och 99, Karlsson-Holmgren, Ängsvägen 18) och
+**1364** (100, Olsson). **Ingen gårdsägare Zingmark** förekommer bland de
+tjugosju lästa rubrikerna i uppslagen 69–101, och numren stiger
+monotont bort från 1258 efter uppslag 91.
+
+**Nyckeln själv måste omprövas.** Församlingsbokens anteckning lyder
+`Stad äg. 1258 **m.m.**`
+([C-0916](C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)) — alltså
+*stadsäga 1258 med mera*. Gården bestod av flera stadsägor, precis som
+uppslag 77 visar med sitt sammansatta huvud `Stadsäg. 1265 + 1206 + 1422 +
+1485`. Fastighetslängdens uppslag för gården kan därför vara rubricerat
+med **vilket som helst** av dess nummer, inte nödvändigtvis 1258.
+
+Det ändrar sökstrategin: **sök gårdsägarnamnet, inte numret.**
+Gårdsägarfältet står i samma förtryckta huvud som numret och läses i samma
+rubrikmontage, så en svepning av `A II b/12` och `A II b/13` efter namnet
+**Zingmark** är lika billig som en numerisk sökning och tål att gården har
+flera nummer.
+
+Nollan omfattar därmed uppslagen **69–101** i `A II b/13`, båda sidorna:
+varken stadsäga 1258 eller en gårdsägare Zingmark. Volymens övriga 305
+uppslag och de tretton andra volymerna är oprövade.
