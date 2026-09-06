@@ -59,6 +59,67 @@ samlingen är ett Edén-arkiv snarare än ett fullständigt Ljustorpsarkiv.
 | A-3183 | C:394 volym 2:s spridda mantals-/skatte-/taxeringslängder 1846–1878/1862–1876 är en exakt analog rutt över Henriks säkra torparperiod i Lagfors. | LEAD | hög | [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md), [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Selektiv samling; ingen Henrik-rad eller ekonomisk uppgift är läst. |
 | A-3191 | Samma selektiva C:394 volym 2 är en exakt analog yrkesutlöst jord-/ekonomirutt för Henriks belagda torparperiod i Lagfors. | LEAD | hög | [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md), [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Ingen Henrik-rad, jorduppgift eller ekonomisk uppgift är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1829-08-10 | **Född** — men **födelseorten är konfliktförd**: A I/6 skriver `Rundb.`/**Rundbacken**, medan A I/9 och folkräkningen 1880 anger **Lagfors/Lagfors bruk**. | [C-0469](../citations/C-0469-ljustorp-AI6-henrik-familj-sjoberg.md), [C-0374](../citations/C-0374-ljustorp-AI9-lagfors-henrik-henriksson-sjolin.md) | Datumet är säkert: två husförhörslängder ger det, och **dödbokens exakta ålder korroborerar**. **Ingen födelsenotis är funnen** — Ljustorp C/2 saknar honom på datumet, och Lagfors egna bevarade födelseböcker börjar senare. |
+| 1850-11 | Drängen `Henric Henrichsson` förs i **Ljustorp B I/1** med `d:o` för Lagfors Bruk och Lagforsby. | [C-0605](../citations/C-0605-familia-henrik-1850-och-rundbacken-34-36.md) | Hans tidigaste egna post. |
+| 1854 | Flyttad från **Lagfors bruk till Lagfors by**. | [C-0374](../citations/C-0374-ljustorp-AI9-lagfors-henrik-henriksson-sjolin.md) | |
+| 1854-07-16 | **Vigd** med Margaretha Charlotta Sjölin; **Ljustorp E I/1 sida 17 rad 8** namnger drängen Henrik Henriksson i Lagfors och pigan där. | [C-0592](../citations/C-0592-ljustorp-EI1-vigsel-henrik-sjolin-1854.md) | **Rättelse:** den äldre slutsatsen att E I/1 saknade paret 1854 byggde på **fel uppslag, sida 18**. A-2050 står som `REJECTED`. |
+| 1855 | Flyttar med hushåll till **Lagfors bruksförsamling** och samma år därifrån. | [C-0374](../citations/C-0374-ljustorp-AI9-lagfors-henrik-henriksson-sjolin.md) | Ljustorp B I/2:s inflyttningspost 176 år 1855 anger `Henrik Henriksson med d:o`, alltså med hustru. |
+| 1856-02-20 | Dottern **Märtha Brita** föds i **Sjöberg**. | [C-0470](../citations/C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md) | |
+| 1856-03-02 | **Märtha Brita dör**, tio dagar gammal. | [C-0470](../citations/C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md) | Dopvittnena Jonas Henriksson och Cecilia Henriksdotter i Bredsjö är identifierade som personer födda 1835 respektive tidigare. |
+| 1860-01-23 | Sonen **Erik Jonas** föds i Lagfors; födelsenotisen skriver fadern med förkortningen `Henr.` och kallar honom **torpare**. | [C-0330](../citations/C-0330-ljustorp-C3-erik-jonas-fodd-1860-01-23.md) | Direkt ana. |
+| 1850-talet–1880 | **Torpare i Lagfors.** Ljustorp A I/6 sidorna 54 och 116 hänvisar **reciprokt** till varandra och följer samma hushåll. | [C-0469](../citations/C-0469-ljustorp-AI6-henrik-familj-sjoberg.md) | |
+| 1880 | **Gift torpare i Lagfors** med Margreta Charlotta och sonen Nils Andreas. | [C-0372](../citations/C-0372-folkrakning-1880-ljustorp-lagfors-henrik-henriksson.md) | |
+| 1884-03-13 | **Död i Lagfors av `lungsot`** som gift **inhysesman**; begravd 16 mars. | [C-0376](../citations/C-0376-ljustorp-F1-henrik-henriksson-dod-1884-03-13.md) | Ställningen har gått från torpare till inhysesman. Dödbokens ålder korroborerar födelsedatumet. |
+
+## Biografisk sammanfattning
+
+Henrik Henriksson föddes den **10 augusti 1829** — men **var** är omstritt.
+Den äldre husförhörslängden skriver **Rundbacken**, de senare källorna
+**Lagfors bruk**. Ingen födelsenotis finns: Ljustorps ministerialbok saknar
+honom på datumet, och Lagfors egna bevarade födelseböcker börjar för sent.
+Datumet självt är däremot säkert — två husförhörslängder ger det, och
+dödbokens exakta ålder 1884 stämmer.
+
+Hans föräldrar är inte fastställda. En kandidatfamilj finns: **Hindric
+Henriksson/Vinroth och Brita Flinkberg**, vars hushåll flyttade mot Lagfors
+1827, och Helge Nybergs familjeregister listar en son Henrik född 1829 hos
+dem. Men när **Lagfors A I/1 sidorna 34–36 lästes i original** fanns
+Rundbackenmiljön där — utan Henrik född 1829 och utan Brita. Kandidaten
+förblir en `LEAD`, och Nyberg-registrets barnnamn och årtal innehåller
+dessutom flera avvikelser mot originalen.
+
+Som tjugoettåring dyker han upp i egen rätt: i november 1850 förs drängen
+`Henric Henrichsson` i Ljustorps flyttlängd mellan Lagfors bruk och
+Lagforsby.
+
+Den **16 juli 1854** vigdes han med **Margaretha Charlotta Sjölin**, pigan i
+Lagfors — en barnhusflicka från Stockholm som fostrats i socknen. Att den
+vigselposten finns är resultatet av en rättelse: en tidigare genomgång hade
+slagit fast att Ljustorps vigselbok saknade paret, men den hade läst **fel
+uppslag**. Posten står på sida 17, rad 8.
+
+Familjen rörde sig mellan Lagfors by och bruksförsamlingen, och barnen kom.
+Den första, **Märtha Brita**, föddes i Sjöberg i februari 1856 och dog tio
+dagar senare. Sonen **Erik Jonas**, som är den direkta anan, föddes i januari
+1860 — och då kallas fadern **torpare**.
+
+Så förblev han i ett kvartssekel. Men vid döden hade ställningen sjunkit:
+den **13 mars 1884** dog han som gift **inhysesman** i Lagfors, av
+**lungsot**, och begravdes tre dagar senare.
+
+Vad torpet gav vet vi inte. Bouppteckningsregistret ger noll för honom, och
+Ljustorps tingslags egen serie börjar för sent. Det som finns är ett
+**enskilt arkiv**: Riksarkivets fond `SE/HLA/3010533`, äldre beteckning
+**C:394**, ett Edén-arkiv som rör bland annat Lagfors. Dess volym 2 rymmer
+spridda **mantals-, skatte- och taxeringslängder 1846–1878**, volym 3
+**auktionsprotokoll och arvskiften** och volym 4 kommunalstämmomaterial fram
+till just 1884 — hans dödsår. Ingen personrad är läst, allt är analogt, och
+samlingen är ett Edén-arkiv snarare än ett fullständigt Ljustorpsarkiv.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

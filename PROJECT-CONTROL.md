@@ -3515,3 +3515,78 @@ P-0110 och P-0111, daterade 2026-08-20.
 **förteckning över vilka åtkomstbesked som är aktuella och vilka som är
 daterade**, så att en redan gjord kontroll inte upprepas. Just den
 förteckningen är sannolikt uppgiftens mest bestående värde.
+
+## PCR-2026-09-06-010 — Djup 5-kohorten är genomgången; kön har fyllts med utförbar forskning
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: checkpoint
+- Trigger: `T-0070` avslutad. Hela djup 5-kohorten om 32 personer har fått en första kontraktsgranskning i batcherna 372–387.
+- Control judgement: continue — men med **omprioriterad ordning**: utför den kö granskningen skapade innan nästa kohort påbörjas.
+
+### Vad som gjordes
+
+Samtliga **32 personer** i djup 5 har nu tidslinje, biografisk sammanfattning
+och en första kontraktsgranskning mot `person-research/v1`. Projektets
+profiler gick från **32 till 64**.
+
+**Ingen av de 32 blev GODKÄND.** Det är det väntade utfallet av en
+förstagångsgranskning av en tidigare oprövad kohort, och **ingen
+legacy-`KLAR` eller `GRANSKAD` konverterades**.
+
+### Evidens: granskningens verkliga produkt
+
+Värdet ligger inte i bedömningarna utan i att granskningen **hittade
+utförbar forskning som låg dold bakom ett till synes uttömt kunskapsläge** —
+omkring **37 ohindrade vägar**, registrerade som `T-0089`–`T-0093`.
+
+Fem mönster återkom, alla dokumenterade med instanser:
+
+1. **Det datumbundna nollresultatet** (nio instanser). Ytterlighetsfallet:
+   en dödbok kontrollerad i **sex dagar** av fjorton möjliga år.
+2. **Vigseln sökt i fel församlingar** (tre instanser). Metodiskt korrekt i
+   brudgummens och brudens födelseförsamling — men aldrig i den socken där
+   **brudens föräldrar bodde**.
+3. **Det daterade åtkomstbeskedet** (fyra redan upprivna, två kvar).
+4. **Screening som inte är läsning** — OCR-pass och översiktsläsningar
+   korrekt märkta i citaten men utan uppföljning.
+5. **Oförklarade anteckningar som aldrig lagts bredvid varandra** — odöpta
+   barn i **två obesläktade hushåll** i samma anlinje.
+
+Kohorten visade också något om sig själv: **sex personer saknar egen
+födelsenotis** och tre av dem har därför `Identitetsläge: OLÖST`; **tre
+saknar bekräftad dödsdag** trots att en hushållskälla anger en; och det
+finns **en enda konkret väg till PER-temat** i hela kohorten.
+
+### Aktuell grind
+
+Villkor 2 är fortfarande den bindande grinden, men dess karaktär har ändrats
+igen. Det som nu hindrar godkännanden är inte okunskap om vad som fattas —
+**det är att den identifierade forskningen inte är utförd**.
+
+### Owner decision required
+
+Ingen. Samtliga fem uppgifter ligger inom delegerat mandat och kräver varken
+beställning, läsesal eller publicering. Det som **skulle** kräva ägarbeslut —
+bouppteckningar och läsesalsvolymer — är genomgående markerat som
+hinderbundet och ligger utanför uppgifterna.
+
+### Rekommendation
+
+**Utför `T-0089`–`T-0093` före djup 6.** Skälen:
+
+- Flera vägar kan **omedelbart lösa en `OLÖST` identitet** — Kyrkefallas
+  vigselbok 1885 för P-0021, Lövångers grannår för P-0051, Gryts serier för
+  P-0110.
+- Några kostar **en enda uppslagning**: Indal F/2 ger dödsorsakerna för två
+  personer; bouppteckningen `A0033199_00234` ligger redan nedladdad med bara
+  sin första sida läst.
+- Att i stället påbörja djup 6 skulle lägga **64 nya personer** ovanpå en kö
+  som just har fyllts, och upprepa samma mönster en generation längre bak.
+
+- Resulting Wotan tasks: `T-0070` → DONE. `T-0089`–`T-0093` READY, samtliga
+  skapade ur granskningen.
+- Portfolio signal: profilerna fördubblades på en dag, och projektet har för
+  första gången **en kö av konkret, ohindrad forskning** i stället för en kö
+  av hinder.
+- Revisit when: `T-0089`–`T-0093` är utförda, eller när djup 6 påbörjas.

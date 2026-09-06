@@ -52,6 +52,66 @@ Riksarkivets register och originalbild under det gifta efternamnet
 | A-2638 | Den exakta årsvolymen `SE/HLA/1040061/F/F II/5`, bouppteckningar 1901–1905, är läsesalsbunden hos Riksarkivet i Härnösand; ingen akttext för Margreta Charlotta har lästs. | LEAD | hög | [C-0652](../citations/C-0652-ljustorp-bouppteckningsregister-1901-och-FII5.md) | Beställ volymen och läs 1901-avsnittet kring akter efter 1901-04-19; oregistrerade akter är möjliga. |
 | A-3184 | C:394 volym 2:s spridda mantals-/skatte-/taxeringslängder 1846–1878/1862–1876 är en exakt analog hushållsrutt över Margareta Charlottas säkra Lagforsperiod. | LEAD | hög | [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md), [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Selektiv samling; ingen personrad eller ekonomisk uppgift är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1825-08-13 | **Född i Stockholm.** | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | **KONFLIKT om dagen:** den tidiga husförhörskedjan ger 13 augusti, senare källor 12 augusti. **Rättelse:** projektavskriften `1825-05-12` är en **felläsning**, inte en tredje variant — A-2538 står som `REJECTED`. Tio bevarade Stockholmsregister som täcker 1825 saknar en rad som förenar hennes namnformer med någon av dagarna. |
+| 1831-06-15 | **Antagen till underhåll vid Allmänna barnhuset**, rulla **2532**; rullan anger att hon var **ympad**. | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Fadern uppges vara **fabriksarbetaren James Schölin**. |
+| 1831–1841 | **Uppfostrad hos torparen och bonden Nils Larsson i Löfberg**, Ljustorps socken. | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Ljustorp A I/4 sida 86 skriver henne `Barnh. flickan Margreta Charl. Schölin`, född 1825-08-13. |
+| 1854-07-16 | **Vigd i Ljustorp** med drängen Henrik Henriksson i Lagfors; hon är då **piga** där. | [C-0592](../citations/C-0592-ljustorp-EI1-vigsel-henrik-sjolin-1854.md) | **Tolv relevanta Stockholmsregister** som täcker vigselåret saknar paret — ett avgränsat noll, upplöst av att vigseln skedde i Ljustorp. |
+| 1855 | Inflyttar med maken; Ljustorp B I/2:s post 176 anger `Henrik Henriksson med d:o`, alltså **med hustru**, från Lagfors bruksförsamling. | [C-0602](../citations/C-0471-ljustorp-BI2-henrik-flytt-lagfors.md) | **Hela inflyttningsföljden 1851–1860 saknar en självständigt namngiven rad för henne** — ett avgränsat noll som visar hur gifta kvinnor fördes. |
+| 1856-02-20 | Dottern **Märtha Brita** föds i Sjöberg; hon dör 1856-03-02. | [C-0470](../citations/C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md) | |
+| 1860-01-23 | Sonen **Erik Jonas** föds i Lagfors; hon anges vara **34 år** och skrivs **Sjödin**. | [C-0330](../citations/C-0330-ljustorp-C3-erik-jonas-fodd-1860-01-23.md) | Direkt ana. Åldern stämmer med 1825. |
+| 1880 | **Gift** med torparen Henrik Henriksson i Lagfors, med sonen Nils Andreas. | [C-0372](../citations/C-0372-folkrakning-1880-ljustorp-lagfors-henrik-henriksson.md) | Namnformen skrivs här **Sjölin**. |
+| 1884-03-13 | **Änka**: Henrik dör av lungsot. | [C-0376](../citations/C-0376-ljustorp-F1-henrik-henriksson-dod-1884-03-13.md) | |
+| 1890 | **Änka och moder i Lagfors**; sonen Nils Andreas står på samma sida men i ett annat familjenummer. | [C-0373](../citations/C-0373-folkrakning-1890-ljustorp-lagfors-margreta-sjolin.md) | |
+| 1900 | **Inhyseshjon och änka i Lagfors**, skriven `Margreta Charlotta Henriksson`, född 1825 i Stockholm. | [C-0515](../citations/C-0515-folkrakning-1900-margreta-charlotta-originalverifierad.md) | **Rättelse:** den tidigare läsningen att bilden saknade henne var fel — A-2194 står som `REJECTED`. |
+| 1901-04-19 | **Uppgiven dödsdag** i Ljustorp A I/10 sida 264. | [C-0607](../citations/C-0607-ljustorp-AI10-margreta-dod-1901-konflikt.md) | **KONFLIKT.** Ljustorp F/2:s **kronologiskt lästa dödposter för hela 1900, 1901 och 1902** saknar henne under samtliga kända namnformer; A II a/1b:s hela Lagforsavsnitt 1902–1921 och B I/4:s utflyttningar 1900–1902 likaså. Dödsort och dödsorsak är okända. |
+
+## Biografisk sammanfattning
+
+Margareta Charlotta Sjödin är kohortens enda **barnhusbarn**, och hennes liv
+börjar och slutar i osäkerhet.
+
+Hon föddes i **Stockholm 1825** — den 13 augusti enligt den tidiga
+husförhörskedjan, den 12:e enligt senare källor. En tredje variant,
+`1825-05-12`, har visat sig vara en **felläsning i projektets egen avskrift**
+och är tillbakadragen. **Tio bevarade Stockholmsregister som täcker året
+saknar en rad som förenar hennes namnformer med någon av dagarna**; hennes
+födelsenotis är alltså inte funnen.
+
+Det vi vet om hennes ursprung kommer i stället från **Allmänna barnhuset**.
+Rulla **2532** visar att hon antogs till underhåll den **15 juni 1831**, att
+hon var **ympad**, och att fadern uppgavs vara **fabriksarbetaren James
+Schölin**. Hon placerades hos **torparen och bonden Nils Larsson i Löfberg**
+i Ljustorps socken, och där står hon i husförhörslängden med den beteckning
+som var hennes identitet: **`Barnh. flickan Margreta Charl. Schölin`**.
+
+Efternamnet följde henne i tre former — **Schölin** som barn, **Sjölin** i
+husförhören och folkräkningarna, **Sjödin** i sonens födelsenotis.
+
+Den **16 juli 1854**, tjugoåtta år gammal och piga i Lagfors, gifte hon sig
+med drängen **Henrik Henriksson**. Hon blev torparhustru och fick minst fyra
+barn, av vilka **Märtha Brita** dog tio dagar gammal 1856 och **Erik Jonas**,
+född 1860, är den direkta anan.
+
+En detalj i källorna säger något om tidens sätt att föra kvinnor: när paret
+1855 flyttade in i socknen står i flyttlängden bara `Henrik Henriksson **med
+d:o**` — med hustru. **Hela inflyttningsföljden 1851–1860 saknar en
+självständigt namngiven rad för henne.**
+
+Maken dog av lungsot 1884, och hon levde vidare som änka i Lagfors i minst
+sexton år. Folkräkningen 1900 visar henne som **inhyseshjon** — samhällets
+lägsta ställning.
+
+Och slutet är, liksom början, oklart. Husförhörslängden antecknar att hon dog
+den **19 april 1901**. Men Ljustorps dödbok är **kronologiskt genomläst för
+hela 1900, 1901 och 1902** utan henne, under samtliga namnformer; nästa
+församlingsboks hela Lagforsavsnitt 1902–1921 saknar en fortsättning, och
+utflyttningarna 1900–1902 saknar henne också. Fyra kontroller, alla korrekt
+avgränsade — och dödsdagen står ändå obekräftad.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
