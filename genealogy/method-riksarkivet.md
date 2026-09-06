@@ -772,3 +772,30 @@ Två fällor:
 
 Tekniken ersätter inte fullständig läsning. Den lokaliserar målsidan; själva
 posten ska alltid läsas i full upplösning innan något skrivs av.
+
+## Tillägg 2026-09-06: läs ett helt uppslag i ett skärmavtryck
+
+Ett bokuppslag ritat i full bredd blir omkring 1 300 pixlar högt, medan den
+synliga ytan i standardfönstret är omkring 810. Varje uppslag kostar då
+**två** skärmavtryck, och för en svepning över tjugofem uppslag blir det
+femtio. Det behövs inte.
+
+1. Förstora fönstret: `resize_window` till exempel **1520 × 1900**. Den
+   synliga höjden blir så stor operativsystemet tillåter — på testmaskinen
+   941 pixlar.
+2. Rita uppslaget på duk och sätt dukens **CSS-bredd till en procentsats**
+   som gör att höjden precis ryms: `width: 82%` gav 941 pixlar för
+   Stockholms vigselboksuppslag.
+3. Ett skärmavtryck räcker då för hela uppslaget — båda sidorna, alla
+   kolumner, åtta poster — och handstilen är fortfarande läsbar.
+
+Prövat 2026-09-06 på Matteus `E II/1`: **tjugofem uppslag lästes på
+tjugofem skärmavtryck** i stället för femtio. Justera procentsatsen efter
+bokens sidproportion; kontrollera med `document.documentElement.scrollHeight`
+att den blivit lika med `window.innerHeight`.
+
+Tekniken förutsätter att duken ritas från en `ImageBitmap`, inte från en
+`<img src="blob:…">` — sidans CSP blockerar `blob:` som bildkälla, men
+`createImageBitmap(blob)` följt av `drawImage` fungerar. Begär aldrig en
+IIIF-bredd som överstiger `info.json`:s `width`: tjänsten svarar `400` och
+`createImageBitmap` kastar `InvalidStateError`.
