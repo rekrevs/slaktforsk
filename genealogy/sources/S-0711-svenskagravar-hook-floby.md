@@ -31,3 +31,22 @@ Registret redovisar för varje gravsatt namn, födelsedatum, dödsdatum,
 gravsättningsdatum, kyrkogård, kvarter, **hemort** och gravplatsnummer.
 Hemortsfältet anger folkbokföringsorten vid dödsfallet och är därför en
 självständig upplysning, inte en dubblett av kyrkogårdens ort.
+
+## Tillägg 2026-09-06 (T-0081): Malmö pastorat och en positivkontroll
+
+Sökningen `Malmö` visar registrets förvaltningsfördelning och belägger att
+**Malmö pastorat ingår med 231 303 gravsatta** — den överlägset största
+posten i registret, följd av Lunds pastorat (2 161) och Ystad-Sövestads
+församling (426). Också Landskrona (246), Burlöv (240), Höör (263), Eslöv
+(179) och Ronneby (145) finns med. Registret täcker alltså Skåne väl.
+
+**Positivkontroll av frågesyntaxen** gjordes innan ett nollresultat fick
+bokföras: fritextsökningen `Hulda Amalia Ekholm` ger exakt en träff, den
+redan belagda graven i Flen (C-0923). Flera förnamn plus efternamn i fri
+följd fungerar alltså, och ett nollresultat på samma form är ett giltigt
+avgränsat noll.
+
+Kvarstående täckningsförbehåll: registret redovisar **namngivna
+gravsättningar**. Aska i minneslund och gravar vars gravrätt upphört saknas
+i regel, och ett noll utesluter därför inte att personen är begravd inom
+förvaltningen.

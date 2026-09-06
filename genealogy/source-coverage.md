@@ -1264,3 +1264,152 @@ om födelsedagen; P-0247 egen födelsenotis och dödsår; P-0253 bouppteckningen
 1910; P-0254 och P-0255 flytten Indal → Sättna 1890–1894; P-0275 döden efter
 april 1951; P-0287 åren 1900–1949 och avdelningen för på församlingen
 skrivna i Olaus Petri i Örebro.
+
+## Personmatris: djup 4 på Sverkers sida efter T-0081, 2026-09-06
+
+Motsvarigheten till blocket ovan. Raderna upprättas när T-0081:s passager
+337–345 har läst de källvägar som öppnades av den inloggade bildåtkomsten,
+av Stockholms stadsarkivs rotemansregister och av norska Digitalarkivet, och
+när de fyra kompletterande källfamiljerna har fått en dokumenterad
+disposition i katalogprovet
+[C-0961](citations/C-0961-katalogprov-djup-4-sverkers-sida.md). De ersätter
+det tidigare läget att ingen av Sverkers åtta djup-4-positioner hade
+matrisrad. Koderna vilar på lästa poster, avgränsade nollresultat och ett
+katalogprov utan bildläsning.
+
+| Person | Nuvarande kärnfråga | F | H | M | V | D | R | B | T | J | O |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| P-0009 Ada Wilhelmina Jansson | hela livet 1886–1922 är nu sammanhängande i original; kvar är åren efter vigseln i Kristiania och döden 1961 | `✓` | `✓` | `✓` | `✓` | `S` | `✓` | `2` | `—` | `S` | `—` |
+| P-0010 Bernhard Natanael Eliasson | födelse, barndom, Ökna, Oskarshamn och Limhamn är belagda; kvar är Malmöperioden och döden 1978 | `✓` | `✓` | `✓` | `✓` | `S` | `✓` | `N` | `—` | `S` | `N` |
+| P-0015 Axel Edvard Eriksson | hela livet 1881–1969 är belagt; kvar är tjänsten vid järnvägen och moderns död | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `S` |
+| P-0016 Hulda Amalia Ekholm, född Ålund | hela livet 1877–1964 är belagt utom vigseln 1900–1906 i Stockholm | `✓` | `✓` | `✓` | `Ö` | `✓` | `✓` | `S` | `—` | `—` | `—` |
+| P-0028 Johan Oskar Zingmark | hela kedjan 1861–1935 är sluten i original; kvar är bouppteckningen och gårdens handlingar | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `S` | `—` | `—` |
+| P-0029 Ida Sofia Andersdotter | detsamma, plus att hon var hemmansägare i eget namn 1935–1944 | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `S` | `—` | `—` |
+| P-0048 Anders Alfred Andersson | hela livet 1869–1948 är belagt; kvar är dödsnotisen och hemmanets handlingar | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `S` | `—` | `—` |
+| P-0049 Anna Fredrika Jakobsdotter | detsamma; hon ägde inget i eget namn | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `—` |
+
+### Motivering per kolumn
+
+**P-0009.** `F` egen födelsenotis 1886-08-19 i Lerbo, C-0016, med
+SCB-utdraget C-0014. `H` fem hushåll i följd: London i Blacksta, Flens by,
+Mineberg, Ökna säteri uppslag 609 och 608, samt Kristiania 1920 (C-0013,
+C-0012, C-0035, C-0039, C-0909, C-0958). `M` fyra flyttposter: till Floda
+1911-11-10, till Flen 1918-10-28, **till Norge 1918-10-29** och in i
+Kristiania (C-0037, C-0909, C-0910, C-0958). **`V` är `✓`:** vigseln
+**1922-01-05 i Jakobs församling i Kristiania** med Knut Sigfrid Bergersen,
+sida 129 löpnummer 2, med hennes far `carl Fredrik Jansson` namngiven,
+C-0959. **`D` är `S`:** dödsåret 1961 är bara sekundärt (C-0010), och
+svenska dödsuppgifter efter 1949 finns bara i **Sveriges Dödbok**, en
+köpprodukt utanför projektets åtkomst; Riksarkivets dödregister ligger
+dessutom bakom ALTCHA, C-0961. `R` folkräkningarna 1890, 1900 och 1910 samt
+den norska 1920. **`B` är `2`:** bouppteckningsvolymen kan inte lokaliseras
+förrän dödsorten är känd — hon kan ha dött i Norge. `T` utan trigger.
+**`J` är `S`:** sonen Arne föddes 1915 utan namngiven far, vilket pekar mot
+ett barnuppfostringsmål vid tingslagsrätten för Floda eller Flen; den
+rätten är inte lokaliserad och ingen kandidatvolym har bild, C-0961. `O`
+utan trigger.
+
+**P-0010.** `F` egen födelsenotis 1886-04-19, C-0023. `H` Djursätra
+Västergården 1890–1910, Ökna uppslag 592, Oskarshamn bostads-nr 293 och
+Limhamn 1930 (C-0024–C-0026, C-0912, C-0915, C-0027). `M` de reciproka
+flyttposterna Värsås → Floda 1916-11-22, Floda → Oskarshamn 1917-11-03 och
+Oskarshamn → Limhamn 1923-11-21 (C-0912, C-0915). `V` **lysning nr 35 och
+vigsel 1923-11-11** i Oskarshamn, C-0914. **`D` är `S`:** samma hinder som
+för P-0009; dödsuppgiften 1978-09-08 i Malmö S:t Petri är sekundär, C-0018.
+`R` folkräkningarna 1890, 1900, 1910 och 1930. **`B` är `N`:** Riksarkivets
+bouppteckningsregister saknar **helt** Malmö stad enligt tjänstens egen
+täckningsuppgift, C-0961; dessutom saknar SvenskaGravar.se honom och
+hustrun trots att Malmö pastorat ingår med 231 303 gravsatta, C-0960. `T`
+utan trigger — han var anställd i hyrd bostad. **`J` är `S`:** samma
+faderskapsväg som för P-0009. **`O` är `N`:** sökningen `Eliasson Bernhard`
+i aktiebolagsregistret 1901–1935 ger 70 träffar bland 49 000
+styrelseledamöter och ingen är han; han var bokhållare och kassör, alltså
+anställd, C-0961.
+
+**P-0015.** `F` egen födelsenotis 1881-03-20 i Svartgjölstorp, C-0104. `H`
+Bergatorp, Brosätter, Wäsby, banvaktsstugorna nr 71 och nr 70 samt Solliden
+(C-0103, C-0101, C-0082, C-0919, C-0019). `M` utflyttningen till Sköldinge
+1897, återkomsten 1898 och hushållets flytt till Helgesta 1920-10-26
+(C-0783, C-0787, C-0919). `V` vigseln 1902-10-25, C-0102. `D` gravposten
+**1969-12-19**, gravsatt 1970-01-03 på Hyltinge kyrkogård HY15 0008, med
+födelsedatumet som bindning, C-0923; dödboken är oläst. `R`
+folkräkningarna 1910 och 1930. **`B` är `S`:** Oppunda och Villåttinge
+domsagas häradsrätt `F II a`, med namnregistret `C II b`, utan bildlänk;
+registret bakom ALTCHA, C-0961. `T` utan trigger — banvaktstugan var
+tjänstebostad. `J` utan trigger: faderskapet till Maj Amalia **erkändes och
+antecknades i församlingsboken**, C-0919. **`O` är `S`:** han var banvakt
+vid SJ i tjugo år, och JUDA ger järnvägsmarken `HYLTINGE 1:1 DEL AV`, ägd
+av Statens Järnvägar, alltså marken där stugorna 70 och 71 låg; SJ:s
+personalrullor saknar bildlänk, C-0961.
+
+**P-0016.** `F` egen födelsenotis 1877-09-25 i Djupnäs, C-0075. `H` sju
+hushåll i följd: Valsund, Rudstugan, Krukmakaregatan 4 i Maria,
+kv. Kettingen på Kungsholmen, Kocksgatan 42 i Katarina, Solliden och
+Lyckedal (C-0078, C-0088, C-0955, C-0954, C-0019, C-0033). `M`
+rotemansarkivets fem flyttposter 1899–1913, med **utflyttningen till
+Helgesta 1913-09-12**, C-0955. **`V` är `Ö`:** fönstret är avgränsat till
+**1900-08-08 – 1907-03-09**, Hyltinges vigselbok är läst rad för rad utan
+träff (C-0953), Katarina är uteslutet, och vigselförsamlingen är **Matteus
+eller Adolf Fredrik**. Matteus födelsebok 1907 är läst i posterna 129–182
+utan träff (C-0957), och två oberoende vigselregister saknar täckning för
+Stockholm 1900–1907. Källan är alltså öppnad och målet identifierat men
+oläst. `D` gravposten **1964-03-15**, Södra kyrkogården i Flen FS09 0112,
+C-0923. `R` folkräkningarna 1890, 1900, 1910 och 1930. **`B` är `S`:** samma
+serie och samma hinder som för P-0015. `T`, `J` och `O` utan trigger.
+
+**P-0028.** `F` egen födelsenotis 1861-05-28 i Botsmark, C-0561. `H`
+föräldrahushållet i Botsmark, Ekträsk, Petisträsk, Buberget, Rosinedahl och
+Ytterhiske uppslag 2284, 1839 och 1704 (C-0552, C-0574, C-0907, C-0916).
+`M` inflyttningen till Degerfors 1880, till Umeå landsförsamling
+1917-11-15 och överföringen till staden 1925-01-01 (C-0907, C-0908). `V`
+vigseln 1888. `D` **dödskolumnen `35 ⁹/₄` på uppslag 1839**, C-0916;
+dödboken är oläst. `R` folkräkningarna 1900 och 1930, den senare med
+inkomst 2 800 kr och **förmögenhet 43 000 kr**, C-0899. **`B` är `S`:** en
+bouppteckning efter en hemmansägare med den förmögenheten är nära nog
+säker; registret täcker Västerbottens län men ligger bakom ALTCHA, C-0961.
+**`T` är `S`:** jordinnehavet ⅛ mtl nr 2 och ¹¹/₆₄ mtl nr 1 på Ytterhiske
+är en verklig trigger, och handlingarna ligger hos **Umeå stad.
+Inskrivningsdomaren, `SE/HLA/1050067`**, i lagfartsprotokollen `A I` och
+fastighetsböckerna `D I`, utan bildlänk, C-0961. `J` och `O` utan egen
+trigger.
+
+**P-0029.** `F`, `H`, `M`, `V` och `R` som för maken, med hennes egen
+födelsenotis och de gemensamma hushållen. `D` **dödsdagen 1944-07-11** på
+uppslag 1704, C-0951; dödboken är oläst. **`B` är `S`** på samma grund som
+för maken, med den skärpningen att hon skrevs **`Hem.äg. änka`**, alltså
+ägde gården i eget namn. **`T` är `S`** av samma skäl och mot samma arkiv.
+`J` och `O` utan trigger.
+
+**P-0048.** `F` egen födelsenotis 1869-07-24 i Bygdeå. `H` Jomark i fyra
+församlingsbokssidor i följd — 853, 1130, 658 och 750 — och nya bokens fol
+703 (C-0044, C-0413, C-0891, C-0920). `M` utflyttningen till **Burträsk
+1946-11-16**, C-0920. `V` vigseln 1904-03-05, C-0044. `D` gravposten
+**1948-12-21**, gravsatt 1949-01-03 på Burträsks kyrkogård BT 08 13,
+C-0878; Robertsfors `A II/5 c` (1942–1955) saknar digital bild, så
+dödsanteckningen i kyrkoboken är oläst. `R` folkräkningen 1900. **`B` är
+`S`:** registret täcker Västerbotten men ligger bakom ALTCHA. **`T` är
+`S`:** hemmanet **Jomark N:o 2, ⅛ senare ¹⁄₁₆ mantal**, är en verklig
+trigger; fastighetshandlingarna ligger hos motsvarande inskrivningsmyndighet
+utan bild, C-0961. `J` och `O` utan egen trigger.
+
+**P-0049.** `F` egen födelsenotis 1872-02-08, C-0067. `H` Ultervattnet
+s. 567 och därefter Jomark tillsammans med maken (C-0069, C-0044, C-0413,
+C-0891, C-0920). `M` och `V` som för maken. `D` gravposten **1947-06-27**,
+gravsatt 1947-07-06 i samma grav BT 08 13, C-0878. `R` folkräkningen 1900.
+**`B` är `S`** på samma grund. `T` utan trigger — hon ägde inget i eget
+namn; `J` och `O` utan trigger.
+
+### Kvarstående sakfrågor, inte formella brister
+
+Raderna betyder att varje relevant källfamilj har en dokumenterad
+disposition, inte att liven är uttömda. Öppet står: P-0009 åren efter
+vigseln 1922 och döden 1961; P-0010 Malmöperioden 1930–1978 och döden;
+P-0015 tjänsten vid SJ och moderns död före 1895; P-0016 **vigseln
+1900–1906**, som är gruppens enskilt tyngsta olästa fråga; P-0028 och
+P-0029 bouppteckningarna och gårdens handlingar; P-0048 och P-0049
+dödsnotiserna i Robertsfors `A II/5 c` och hemmanets handlingar.
+
+**Ett hinder är gemensamt och ägarhävbart:** Riksarkivets
+bouppteckningsregister och dödregister täcker både Södermanland och
+Västerbotten men ligger bakom **ALTCHA**. Öppnas de faller `B` för sex av de
+åtta personerna samman till en enda arbetspassage.
