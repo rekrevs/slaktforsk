@@ -26,6 +26,9 @@ folkräkningen 1910 och gravregistret i Sättna.
 | A-3473 | Han skrevs **torpare** på Storbränna (Gärdtjärn) folio 393 och inflyttade dit från folio 384 den **1924-10-25**; hans värnpliktsnummer var 289 ⁶⁵/₂₁. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Sluter luckan 1910–1938 för hans del; folio 384 är nästa led. |
 | A-3474 | **Vigseln med Emma Petronella ägde rum 1924**, med anteckningen `Lysning 6/1924`; båda fördes till folio 393 i oktober 1924. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md), [C-0888](../citations/C-0888-henriksson-sattna-1919-1943-noll-storbranna.md) | **Rättar sökningen:** det tidigare nollresultatet gällde 1919, 1920 och 1922 — fel år. Sättnas vigselbok 1924 är nästa steg. |
 | A-3475 | Två av parets äldre barn namnges: sonen **Villy Anders Erik, född 1922-01-17**, och dottern **Alvy Kristina, född 1925-05-19**, båda `icke döpt`. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Sonen föddes två år före vigseln. |
+| A-3480 | **Han vigdes med Emma Petronella Eugenia Larsson i Sättna den 1924-09-13**, efter lysning 13, 20 och 27 juli 1924; vigselförrättare var kyrkoherden V. Wahlberg. | CORROBORATED | mycket hög | [C-0927](../citations/C-0927-henriksson-larsson-vigsel-sattna-1924.md), [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Sluter den enskilt äldsta öppna frågan om paret. Vigseln var kyrklig, till skillnad från Emmas föräldrars civila äktenskap 1888. Den preliminära läsningen `24 ¹³/₈` i församlingsboken rättas till 1924-09-13. |
+| A-3482 | Han växte upp på Storbränna (Gärdtjärn) N:o 3 folio 384 med modern, styvfadern Nils August Hallén och bröderna Emil Herman (f. 1906-07-10) och Fridolf (f. 1908-10-06); han utflyttade till folio 393 den 1924-10-15. | TRANSCRIBED | hög | [C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) | Sluter uppväxten 1911–1924 och bekräftar värnpliktsnumret 289 ⁶⁵/₂₁. |
+| A-3483 | Han fick två halvbröder i moderns andra gifte: **Nils Egnar, född 1915-12-09**, vars faderskap August Hallén i Timrå erkände före vigseln, och **Ivar Henning, född 1918-09-28**. | TRANSCRIBED | hög | [C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) | Nya sidopersoner; erkännandet står i klartext i församlingsboken. |
 
 ## Relationer
 
@@ -58,7 +61,13 @@ en vigsel-, död- eller församlingsbokskedja.
 | 1901-01-31 | Född; döpt 1901-04-24 med föräldrarna som vittnen | Storbränna, Sättna | — | Erik Jonas Henriksson och Gertrud Kristina Jönsson | C-0244, C-0245 |
 | 1910-03-02 | Faderns död | Sättna | — | — | C-0542 |
 | 1910 | Folkräkning; `d.s.` | Storbränna, Sättna | barn | morföräldrarna Abraham Jönsson och Stina Kajsa Nordlund, modern, bröderna Emil Herman och Fridolf | C-0242 |
-| 1910–1938 | **Materiell lucka**: vuxenblivande, vigsel/partnerskap med Emma, fem äldre barn | Storbränna | — | — | profil Q-01 |
+| 1911–1924 | Uppväxt på Storbränna (Gärdtjärn) N:o 3, folio 384, hos modern och styvfadern Nils August Hallén | Storbränna, Sättna | son | modern, styvfadern, bröder och halvbröder | C-0926 |
+| 1918-03-09 | Modern gifter om sig med Nils August Hallén | Sättna | — | — | C-0926 |
+| 1922-01-17 | Sonen Villy Anders Erik född, `icke döpt` | Storbränna | — | — | C-0925 |
+| 1924-07-13/20/27 | Lysning nr 6 | Sättna | arbetare i Storbränna | — | C-0927 |
+| 1924-09-13 | **Vigsel med Emma Petronella Eugenia Larsson**; förrättare V. Wahlberg | Sättna | arbetare | — | C-0927 |
+| 1924-10-15 | Utflyttning från folio 384 till folio 393 | Storbränna, Sättna | torpare | hustru och son | C-0925, C-0926 |
+| 1925-05-19 | Dottern Alvy Kristina född, `icke döpt` | Storbränna | torpare | hustru och barn | C-0925 |
 | 1919–1930 | **Materiell lucka**: vigsel inte i Sättna 1919/1920/1922; paret saknas i hela folkräkningsindexet 1930; modern omgift Hallén på Storbränna fol 389 | okänt (utomlands, obefintlig eller annan namnform) | — | — | C-0888, C-0898, profil Q-01 |
 | 1938-01-12 | Dottern Evy född; faderns yrke läses osäkert som skogsarbetare | Storbränna, Sättna | skogsarbetare[?] | Emma Petronella Henriksson | C-0240 |
 | 1938–1983 | **Materiell lucka**: yrke, boende, änklingstid efter 1963 | Sättna | — | — | profil Q-02 |

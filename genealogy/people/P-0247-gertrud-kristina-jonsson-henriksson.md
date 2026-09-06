@@ -27,6 +27,8 @@ egen födelsenotis och parallella SCB-utdrag.
 | A-2684 | Sättna A II a/6 sida 392 fortsätter familjen och för Nils August och Gertrud Kristina till nya boken sida 388 vid volymskiftet 1943. | TRANSCRIBED | hög | [C-0677](../citations/C-0677-sattna-hallin-fortsattning-1927-1955.md) | Samma exakta namn och födelsedata binder ledet. |
 | A-2685 | Sättna A II a/8 sida 388 anger Nils August död 1951-06-18 och för änkan Gertrud Kristina vidare till nya boken sida 304, identifierad genom API-metadata som A II a/10. | TRANSCRIBED | hög | [C-0677](../citations/C-0677-sattna-hallin-fortsattning-1927-1955.md) | Sida 304 är inte läst; endast volymen och hänvisningen är säkrade. |
 | A-2687 | Sättna F/2:s hela öppet läsbara dödföljder 1952–1955 saknar en säker Gertrud Kristina under Jönsson, Henriksson eller Hallin. | NEGATIVE | hög | [C-0677](../citations/C-0677-sattna-hallin-fortsattning-1927-1955.md) | Nollresultatet slutar före restriktionsbladet för nästa år och gäller inte 1956 eller senare. |
+| A-3484 | Hon blev änka 1910-03-02 och **gifte om sig 1918-03-09 med hemmansägaren Nils August Hallén**, född 1875-01-17 i Timrå, som inflyttade från Timrå 1918-01-04; lysning skedde i två omgångar, nr 13/1917 och nr 3/1918. | TRANSCRIBED | hög | [C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) | Originalbelägger folkräkningsindexets uppgift om omgiftet (C-0898). |
+| A-3485 | I det andra giftet tillkom sönerna **Nils Egnar, född 1915-12-09** — född före vigseln och erkänd av August Hallén — och **Ivar Henning, född 1918-09-28**. | TRANSCRIBED | hög | [C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) | Halvbröder till Axel Edvin, Emil Herman och Fridolf. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
