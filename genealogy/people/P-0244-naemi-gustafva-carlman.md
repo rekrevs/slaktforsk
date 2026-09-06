@@ -10,6 +10,7 @@
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-1476 | Naëmi Gustafva Carlman föddes 1898 i Ljungby, Kalmar län, som dotter till Johan Fredrik Vilhelm Carlman och Elin Andersson. | TRANSCRIBED | hög | [C-0234](../citations/C-0234-carlman-hushallet-lilla-tomteby-1900.md) | Riksarkivets folkräkningspost; egen födelsenotis ännu inte läst. |
+| A-3548 | **Hon föddes 1898-09-21 och dog 1934-01-03**, 35 år gammal, gravsatt 1934-01-11 i familjegraven på Norra kyrkogården i Kalmar; hemorten vid dödsfallet var **Västerhejde på Gotland**. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md) | Exakt födelsedatum är nytt; hittills var bara året 1898 känt. Dödboken 1934 är oläst. |
 
 ## Relationer
 

@@ -47,6 +47,8 @@ den senare Elisabeth Höök som sjuksköterska och missionär.
 | [P-0243 Elin Andersson](P-0243-elin-andersson.md) | mor | CORROBORATED | C-0232, C-0234 |
 | [P-0244 Naëmi Gustafva Carlman](P-0244-naemi-gustafva-carlman.md) | äldre syster | CORROBORATED | C-0232, C-0234 |
 | [P-0245 Karl Emanuel Carlman](P-0245-karl-emanuel-carlman.md) | äldre bror | CORROBORATED | C-0232, C-0234 |
+| [P-0530 Gunnar August Villehard Carlman](P-0530-gunnar-august-villehard-carlman.md) | yngre bror | TRANSCRIBED | C-0944 |
+| [P-0531 Amelie Karolina Carlman](P-0531-amelie-karolina-carlman.md) | yngre syster | TRANSCRIBED | C-0944 |
 
 ## Forskningsstatus
 

@@ -18,11 +18,16 @@ en avvikande namnform.
 | A-1729 | Hans far var kronolänsmannen Carl August Carlman. | TRANSCRIBED | hög | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Namngiven i egen födelsenotis. |
 | A-1730 | Hans mor var Christina Gustafva Ringberg; födelsenotisens svårlästa efternamn är löst genom det samtidiga familjehushållet. | CORROBORATED | hög | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md), [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md) | Födelsenotis och husförhör är kompletterande original. |
 | A-3368 | Johan Fredrik Villehad Carlman var 1930 handlande i Kalmar stadsförsamling, uppslag 4774, inflyttad 1929 från Jönköping, med hustrun Elin, sex hemmavarande barn födda 1904–1916 och en hushållerska; inkomst 7 400 kr och förmögenhet 2 000 kr. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Barnens födelseorter daterar flyttkedjan Ljungby → Jönköping (senast 1907) → Kalmar (1909). |
+| A-3543 | **Han dog 1940-02-12** och gravsattes 1940-05-26 i familjegraven på Norra kyrkogården i Kalmar, kvarter 02, gravplats 0056B; gravregistret anger födelsedagen 1866-11-08 och namnformen **Villehard**. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md), [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Administrativ gravpost; födelsedatumet stämmer exakt med den egna födelsenotisen. Dödboken 1940 är oläst. |
+| A-3544 | Hans hemort vid dödsfallet var **Östra Husby** — hustruns hemförsamling och parets vigselort 1897. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md), [C-0407](../citations/C-0407-ostra-husby-AI25-gaddestad-sida-74.md) | Paret hade alltså lämnat Kalmar och återvänt till hennes hembygd efter 1930. |
+| A-3545 | **Fadern, kronolänsmannen Carl August Carlman, föddes 1825-10-02 och dog 1901-11-21**, gravsatt 1901-11-27 på Högby kyrkogård; **modern Kristina Gustafva föddes 1843-09-27 och dog 1874-03-30**, gravsatt 1874-04-05 i samma grav. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md), [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md) | Moderns dödsdatum bekräftar husförhörslängden. Hon blev 30 år; sonen var sju. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
+| [P-0530 Gunnar August Villehard Carlman](P-0530-gunnar-august-villehard-carlman.md) | son | TRANSCRIBED | C-0944 |
+| [P-0531 Amelie Karolina Carlman](P-0531-amelie-karolina-carlman.md) | dotter | TRANSCRIBED | C-0944 |
 | [P-0243 Elin Andersson](P-0243-elin-andersson.md) | hustru | CORROBORATED | C-0232, C-0234 |
 | [P-0244 Naëmi Gustafva Carlman](P-0244-naemi-gustafva-carlman.md) | dotter | TRANSCRIBED | C-0234 |
 | [P-0245 Karl Emanuel Carlman](P-0245-karl-emanuel-carlman.md) | son | TRANSCRIBED | C-0234 |
@@ -57,7 +62,8 @@ bevarade som sidorelationer.
 | 1909–1916 | Fyra barn födda i Kalmar | Kalmar | handlande | hustru och barn | C-0899 |
 | 1929 | Inflyttning till Kalmar stadsförsamling från Jönköping | Kalmar | handlande | hustru och barn | C-0899 |
 | 1930 | Folkräkning; uppslag 4774, inkomst 7 400 | Kalmar stadsförsamling | specerihandlande | hustru, sex barn, hushållerska | C-0899 |
-| efter 1930 | **Materiell lucka**: död | Kalmar? | — | — | profil Q-02 |
+| efter 1930 | Flytt från Kalmar till **Östra Husby** | Kalmar → Östra Husby | — | hustrun | C-0944 |
+| 1940-02-12 | **Död**; gravsatt 1940-05-26, Norra kyrkogården i Kalmar, gravplats 0056B | Östra Husby | — | — | C-0944 |
 
 ## Biografisk sammanfattning
 

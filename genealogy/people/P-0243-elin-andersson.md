@@ -17,11 +17,15 @@ både i dotterns födelseutdrag 1902 och i 1900 års folkräkning.
 | A-2029 | Elin stod kvar i föräldrahemmet i Gäddestad i folkräkningarna 1880 och 1890. | CORROBORATED | hög | [C-0359](../citations/C-0359-folkrakning-1880-ostra-husby-gaddestad-carlsson.md), [C-0360](../citations/C-0360-folkrakning-1890-ostra-husby-gaddestad-karlsson.md) | Två senare familjeankare före hennes Carlman-hushåll. |
 | A-2109 | Elin stod kvar hos den änkefarne fadern i A I/25 och fördes 1897 till Ljungby i Kalmar län; samma rad hänvisar till lysning nummer 7 det året. | TRANSCRIBED | hög | [C-0407](../citations/C-0407-ostra-husby-AI25-gaddestad-sida-74.md) | Flyttnings- och vigselposterna återstår, men hänvisningen binder vägen till hennes senare Carlman-hushåll. |
 | A-3369 | Elin f. Andersson, född 1873 i Östra Husby, bodde 1930 med maken i Kalmar stadsförsamling, uppslag 4774; vigselåret anges som 1897. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Bekräftar vigselåret 1897 (A-2109) och födelseförsamlingen. |
+| A-3546 | **Hon dog 1962-11-10**, 89 år gammal, och gravsattes 1962-12-01 i familjegraven på Norra kyrkogården i Kalmar; hemorten vid dödsfallet var **Stockholm**. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md) | Hon flyttade alltså till Stockholm som änka, rimligen nära dottern Anna Elisabeth som bodde på Lidingö från 1946. Dödboken 1962 är oläst. |
+| A-3547 | Gravregistret anger hennes födelsedag till **1873-01-15**, medan hennes egen födelsenotis anger **1873-01-13**. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md), [C-0270](../citations/C-0270-elin-fodd-1873-ostra-husby.md) | **Bevarad konflikt.** Födelsenotisen är primär; skillnaden på två dagar skrivs inte över. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
+| [P-0530 Gunnar August Villehard Carlman](P-0530-gunnar-august-villehard-carlman.md) | son | TRANSCRIBED | C-0944 |
+| [P-0531 Amelie Karolina Carlman](P-0531-amelie-karolina-carlman.md) | dotter | TRANSCRIBED | C-0944 |
 | [P-0242 Johan Fredrik Villehad Carlman](P-0242-johan-fredrik-vilhelm-carlman.md) | make | CORROBORATED | C-0234, C-0269 |
 | [P-0244 Naëmi Gustafva Carlman](P-0244-naemi-gustafva-carlman.md) | dotter | TRANSCRIBED | C-0234 |
 | [P-0245 Karl Emanuel Carlman](P-0245-karl-emanuel-carlman.md) | son | TRANSCRIBED | C-0234 |
