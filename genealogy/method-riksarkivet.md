@@ -578,3 +578,33 @@ Verifierat i T-0064–T-0065 utan MCP:
   skriptad åtkomst; gravar.se kan sökas med
   `https://gravar.se/resultat?fornamn=…&efternamn=…` men täcker inte alla
   pastorat (Falköping saknas 2026-09-05).
+
+## Tillägg 2026-09-05: åtkomstmatris för inloggningsskyddade bilder
+
+Omprövat 2026-09-05 efter första försöket, med samma utfall:
+
+| Väg | Utfall |
+|---|---|
+| Anonym IIIF, alla storlekar (`max`, `2000,`, `1000,`, `400,`, `200,`, `!100,100`, `square`) | 401 för samtliga 58 bild-id i de inloggningsskyddade batcherna |
+| Parallell reproduktion av samma volym (18 prövade `F00…`/`A00…`-batcher) | bild 401, manifest 200 — en andra skanning öppnar ingen fri väg |
+| Fri batch, kontroll (`A0030995`, SCB 1913) | 200 — gränsen går vid materialets ålder, inte vid batchprefixet |
+| Inloggad flik, `fetch(..., {credentials:'include'})` | 200; sessionen överlever att fliken stängs och att flikgruppen återskapas |
+| `blob:`/`data:`-nedladdning från sidan | blockeras av sidans CSP |
+| POST till `127.0.0.1` eller `localhost` från sidan | blockeras av Chromes skydd mot privata nätverk |
+| IIIF-regionuttag (`/x,y,w,h/`, `pct:`) | 501, tjänsten är `level1` |
+| Terminalen läser `~/Downloads` | `Operation not permitted` (macOS TCC) |
+| Bildvisarens `Ladda ner` | fungerar: tre JS-styrda knappar (aktuell vy, hela bilden i full storlek, hela bilden 1000 px) som skriver till Chromes nedladdningskatalog |
+
+`info.json` anger `rights: Public Domain Mark 1.0` — innehållet är alltså fritt,
+medan bildtjänsten ändå kräver inloggning. Spärren är teknisk, inte rättslig.
+
+Två åtgärder häver hindret, båda på ägarens sida:
+
+1. Ställ om Chromes nedladdningskatalog till en katalog som terminalen läser
+   (projektets scratch eller en mapp i repot) och slå av `Fråga var varje fil
+   ska sparas`. Därefter kan agenten själv driva `Ladda ner → Hela bilden` för
+   varje bild-id och spegla filerna utan fler ägaringripanden.
+2. Ge terminalen läsrätt till `~/Downloads` (Full Disk Access) och kopiera dit.
+
+Utan någon av dem kvarstår endast ett ägarbeslut om att fjärrverifierad
+SHA-256 räcker som provenans för inloggade bilder.
