@@ -3203,3 +3203,50 @@ kan häva den genom att öppna sidorna i sin egen inloggade Chrome.
 - Resulting Wotan tasks: `T-0084` → DONE; `T-0085` READY; `T-0086` READY.
 - Reaktiveringsvillkor: när T-0085 eller T-0086 avslutas mäts andelen
   GODKÄNDA profiler om.
+
+## PCD-2026-09-06-005 — Ägaren hävde ALTCHA; hindret upphör och en hinderbeskrivning rättas
+
+- Datum: 2026-09-06
+- Trigger: **ägaren löste själv ALTCHA-verifieringen** i sin inloggade
+  Chrome, mitt under T-0085, och meddelade det i sessionen.
+- Beslut och verkställighet: hindret **ALTCHA** utgår som blockerande skäl
+  för denna session. `/nad`, `/arkiv/<id>`, `/bouppteckningar` och
+  `/dodregister` svarar `200`
+  ([C-0977](genealogy/citations/C-0977-altcha-havd-och-bouppteckningsregistrets-tackning.md)).
+
+### Vad hävningen gav omedelbart
+
+**NAD-trädet är den auktoritativa förteckningen, och det visar serier som
+metadatasökningen inte returnerar.** Första användningen gav Adolf Fredriks
+`E IV` Register till lysnings- och vigselböcker, 1903–1943 i en volym, och
+med den löstes **vigselfrågan för P-0016** — den enda materiella lucka som
+stått öppen i hennes livslopp sedan 2026-09-05. Vigseln skedde
+**1903-05-01 i Adolf Fredriks församling**.
+
+### En rättelse som ägaren bör känna till
+
+Fem profiler har beskrivit bouppteckningarna som "blockerade av ALTCHA".
+Med spärren hävd kunde registrets täckning prövas, och den **slutar 1910
+för Burträsk och 1908 för Hyltinge**. De fyra efterfrågade
+bouppteckningarna — 1913, 1947, 1949 och 1964 — låg alltså **utanför
+registrets omfång**. Hindret var felbeskrivet i god tro. Rättelsen är
+införd i P-0016, P-0028, P-0029, P-0048 och P-0049, och den rätta vägen är
+domsagornas egna häradsrättsarkiv.
+
+### Vad som fortfarande gäller
+
+Regeln står fast: **agenten löser aldrig en ALTCHA eller annan
+människoverifiering.** Hävningen gäller den inloggade sessionen; återkommer
+spärren bokförs den som hinder och lämnas till ägaren.
+
+**T-0051 och T-0054**, som stått BLOCKED på ALTCHA sedan 2026-09-05, bör
+prövas om mot den öppna katalogen vid nästa tillfälle. De ändras inte i den
+här batchen, eftersom de ligger utanför T-0085:s omfång.
+
+- Resulting Wotan tasks: `T-0085` → DONE. `T-0051` och `T-0054` kvarstår
+  BLOCKED tills de prövas om.
+- Portfolio signal: det enskilt största externa hindret i projektet är
+  hävt, och den första frågan det öppnade var också den som höll en profil
+  tillbaka.
+- Revisit when: T-0051 och T-0054 prövas om mot den öppna katalogen, eller
+  när spärren återkommer.

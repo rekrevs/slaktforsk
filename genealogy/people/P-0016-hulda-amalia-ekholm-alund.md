@@ -52,6 +52,10 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | A-3639 | Dottern **Hulda Margareta**, telefonist, står 1940–1942 på moderns folio som **`Jansson, Hulda Margareta f. Ekholm`**, gift 1942, och utflyttade 1942-02-12; faderskapet **Axel Edvard Eriksson, Solliden, Hyltinge**, står utskrivet i församlingsboken. | TRANSCRIBED | hög | [C-0972](../citations/C-0972-hulda-amalia-lyckedal-1933-1940.md), [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md) | Höjer A-0107 från indexuppgift till originalbelägg. Utflyttningsorten är läsosäker. |
 | A-3640 | **Kedjan slutar 1955 av ett namngivet hinder:** Flens församlingsböcker är digitaliserade till och med `A II a/9` (1950–1955), och ingen `A II a/10` finns. Åren mellan överföringen till folio 96 och döden 1964-03-15 saknar digital källa. | NEGATIVE | hög | [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md), [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md) | Avgränsat hinder, inte ett uttömt sökande. |
 | A-3645 | **Vigseln skedde inte i Matteus.** Församlingens vigselbok är genomläst uppslag för uppslag från bildandet 1906-05-01 till och med 1907-03-10 — 187 vigslar — utan Ekholm och utan Ålund. | NEGATIVE | hög | [C-0975](../citations/C-0975-matteus-vigselbok-1906-1907-noll-ekholm-alund.md) | Avgränsat noll som täcker hela Matteus existens fram till sonens födelse. Kvarvarande kandidater är Adolf Fredrik och den församling rote 27 tillhörde. |
+| A-3646 | **Hon vigdes med Axel Vilhelm Ekholm den 1 maj 1903 i Adolf Fredriks församling i Stockholm**, av pastor Heüman, efter lysning söndagarna 5, 12 och 19 april 1903. | CORROBORATED | mycket hög | [C-0976](../citations/C-0976-ekholm-alund-vigsel-1903-adolf-fredrik.md) | Belagd i tre led i samma arkiv: registret `E IV/4`, lysningsboken `E I/17` N:o 86 och vigselboken `E II/6` 1903 N:o 96. Stänger vigselfönstret 1900–1906. |
+| A-3647 | **Hon återvände till Stockholm 1902-10-30** och var vid lysningen skriven i Adolf Fredriks församling. | TRANSCRIBED | hög | [C-0976](../citations/C-0976-ekholm-alund-vigsel-1903-adolf-fredrik.md) | Sluter tidslinjen mellan återkomsten till Hyltinge 1900-08-08 och äktenskapet. Rotemansarkivets nolla för perioden är därmed en falsk nolla av det slag C-0956 beskriver. |
+| A-3648 | Vid vigseln bodde båda på **Västmannagatan 72** i Stockholm, båda var ogifta, och hon var **sin egen giftoman**. | TRANSCRIBED | hög | [C-0976](../citations/C-0976-ekholm-alund-vigsel-1903-adolf-fredrik.md) | Första kända adressen för paret; den ligger i Adolf Fredrik, det område som 1906 bröts ut till Matteus. |
+| A-3649 | Hennes födelsedata i lysningsboken — **1877-09-25 i Gryt, Södermanlands län** — sammanfaller exakt med födelseboken. | CORROBORATED | mycket hög | [C-0976](../citations/C-0976-ekholm-alund-vigsel-1903-adolf-fredrik.md), [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Sjunde oberoende registret med samma datum. |
 
 ## Relationer
 
@@ -86,6 +90,8 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | 1899-10-24–1900-08-08 | **Första Stockholmsvistelsen**; inneboende hos familjen Uddenberg, in- och utflyttad till Hyltinge | Krukmakaregatan 4, Maria förs., rote 15 | **sömmerska**, ogift | Erik Uddenberg Jansson med familj | C-0955 |
 | 1900 | Folkräkning | Rudstugan, Hyltinge | dotter, ogift, 23 år | föräldrar | C-0088 |
 | 1900-08-08–1906 | **Materiell lucka**: vigseln med Axel Vilhelm Ekholm; **inte i Hyltinge, inte i Katarina**, sannolikt Matteus | Stockholm | — | — | C-0953, C-0955, C-0956 |
+| 1902-10-30 | **Åter till Stockholm**, skriven i Adolf Fredriks församling | Stockholm | — | — | C-0976 |
+| 1903-05-01 | **Vigsel med Axel Vilhelm Ekholm** i Adolf Fredriks församling, av pastor Heüman; lysning 5, 12 och 19 april | Västmannagatan 72, Stockholm | — | maken | C-0976 |
 | 1907-03-09 | Sonen Axel Ivar född | **Matteus förs., Stockholm** | — | maken | C-0955 |
 | 1910 | **Folkräkning; gift, `h.` i familj nr 1** | Kv. Kettingen 36–37, Kungsholm rote 23, Stockholm | — | maken och två barn | C-0954 |
 | 1910-02-05 | Dottern Ingrid Amalia född | **Matteus förs., Stockholm** | — | maken och barn | C-0955 |
@@ -113,8 +119,12 @@ Hyltinge, där hon bodde ogift hos dem i Valsund 1890 och Rudstugan 1900
 (C-0075, C-0077, C-0078, C-0088). Hösten 1899 flyttade hon
 till Stockholm som sömmerska och bodde inneboende på Krukmakaregatan 4 på
 Södermalm, men återvände till Hyltinge redan i augusti 1900 (C-0955).
-Någon gång mellan 1900 och 1906 gifte hon sig med lokomotiveldaren **Axel
-Vilhelm Ekholm**, född 1878-02-17 i Åsbo; paret bodde i Matteus församling,
+Hösten 1902 återvände hon till Stockholm, och **den 1 maj 1903 vigdes hon i
+Adolf Fredriks församling** med lokomotiveldaren **Axel Vilhelm Ekholm**,
+född 1878-02-17 i Åsbo. Lysningen skedde de tre söndagarna 5, 12 och 19
+april, båda bodde på Västmannagatan 72 och hon var sin egen giftoman
+(C-0976). Paret bodde kvar i samma kvarter, som 1906 bröts ut till Matteus
+församling,
 där sonen Axel Ivar föddes 1907-03-09 och dottern Ingrid Amalia 1910-02-05,
 och flyttade sedan genom fyra rotar till Katarina. Maken dog 1913-03-11, och
 ett halvår senare, 1913-09-12, lämnade hon Stockholm med båda barnen för
