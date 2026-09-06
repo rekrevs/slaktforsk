@@ -177,7 +177,13 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
 
 ## Slutstatus
 
-- Status: `IDENTITET OMSTRIDD — FÖDELSENOTIS IDENTIFIERAD`
+- Status: `IDENTITET OLÖST`
+- **Statusen avser faderns identitet, inte hennes egen.** Hennes egen
+  identitet är belagd sedan 2026-09-06: född 1863-06-24 i Mofalla, dotter
+  till Maja Greta Larsdotter, uppvuxen vid ¼ mantal Bjerg. Anspetsen står
+  kvar därför att **föräldrarelationen inte är avgjord** — födelsenotisen och
+  hushållsboken ger två olika fadersnamn — och north star förbjuder att en
+  anlinje förs vidare på en materiellt osäker föräldrarelation.
 - Belagt 2026-09-06: hon föddes **1863-06-24 i Mofalla**, dotter till
   **Maja Greta Larsdotter** (f. 1824-03-28), och växte upp vid **¼ mantal
   Bjerg** i Johannes Erikssons hushåll. Födelsenotisen är **Mofalla
@@ -188,6 +194,18 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
   mor, samma folio, samma hushåll. Ett soldatnamn är den närliggande
   förklaringen men är **inte belagd**, och ingen föräldrarelation förs in i
   stamtavlan förrän den är det.
+- Förväntad källa: **Mofalla `A I/4`, avsnittet för `Atteby` inom 1 Roten
+  Bjerg**, och därefter generalmönsterrullorna för rotens soldat. Dessa ska
+  avgöra om `Rotte, Eric, Soldat i Atteby` och `Eriksson Johannes` är samma
+  man. I andra hand Mofalla `E`-serien för Maja Greta Larsdotters vigsel
+  eller vigslar.
+- Genomsökt: Mofalla `C/4` hela 1863 och 1864; Mofalla `A I/4` sida 18 och
+  `A I/5` sida 18; Mofalla `E I/1` 1885; Kyrkefalla `C/6` hela 1863 och 1864
+  samt hela vigselåret 1885 i `E/4`; Värsås `E/1` 1885–1886; Värsås samtliga
+  serier via sök-API 2026-08-20.
+- Återaktiveringsvillkor: när Attebyavsnittet eller mönsterrullan visar om
+  soldatnamnet hör till Johannes Eriksson. Först då kan föräldrarelationen
+  prövas och positionen stängas eller öppnas vidare.
 - Upphävt: Kyrkefallauppgiften i hushållsböckerna vilar på en oreflekterad
   `ibm`-kedja och är inte en ortsuppgift (A-3688). A-3687 och dittohypotesen
   i C-0992 är tillbakadragna.

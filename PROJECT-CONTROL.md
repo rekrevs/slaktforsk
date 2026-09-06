@@ -3752,3 +3752,82 @@ ortregistret — den väg som kan lösa ursprungsfrågan. Därefter `T-0091`,
   rättat.
 - Revisit when: `T-0060`, `T-0090`, `T-0091` och `T-0093` är utförda, eller
   när P-0021:s identitet går från `OLÖST` till prövad.
+
+## PCR-2026-09-06-013
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: direction-review
+- Trigger: Uttrycklig prövning mot `NORTH-STAR.md` — är uppfyllelsevillkoren
+  styrkta?
+- Control judgement: continue
+
+### Svaret är nej, och det är inte nära
+
+Detta är en **uppfyllelsebedömning enligt villkor 6**, inte en
+avslutningsrevision. Den visar att **målet inte är uppfyllt** och exakt var
+gapen ligger. Bedömningen gäller källäget 2026-09-06.
+
+Indikatorerna som bär bedömningen kommer ur projektets egna reproducerbara
+mätningar: `node scripts/research-inventory.mjs` och
+`node scripts/goal-state.mjs`.
+
+### Villkor för villkor
+
+| # | Villkor | Läge | Evidens |
+|---|---|---|---|
+| 1 | **Anlinjer** | **Delvis.** Gemensamt djup är **5** — samtliga 32 positioner på djup 5 är kända, granskade, källbredd-klara och bär giltig arkivfront. Djup 6 är **inte** behandlat: av 64 positioner är 57 kända, **6 är inte källbredd-klara** och **44 anspetsar saknar giltig arkivfront**. | `goal-state.mjs` |
+| 2 | **Livsbilder** | **Nej, med bred marginal.** Av **535 personakter** har **65 en profil**; **471 är `EJ BEDÖMT`** mot PK-01–12. Av de 64 registrerade är endast **12 `GODKÄND`**, och de kräver sakrevision vid avslut. `biography: PÅGÅR 52, AVGRÄNSAD 5, INTEGRITETSMINIMERAD 7`. | `research-inventory.mjs` |
+| 3 | **Identiteter och kandidater** | **Delvis.** `identity: PRÖVAT 61, OMSTRITT 1, OLÖST 2, EJ BEDÖMT 471`. De prövade är prövade på riktigt — dagens arbete flyttade P-0021 från `OLÖST` till en enda kvarstående faderskonflikt — men 471 akter är obedömda. | `research-inventory.mjs` |
+| 4 | **Källtäckning** | **Delvis.** `strategy: GENOMGÅNGEN 64, EJ BEDÖMT 471`. Källtäckningsmatrisen har kvarvarande öppna och villkorliga celler, och kön innehåller nio READY-uppgifter med identifierad, genomförbar forskning. | `source-coverage.md`, `backlog.json` |
+| 5 | **Spårbarhet** | **Uppfyllt för det som är gjort.** 3 191 påståenden, 2 390 markdownposter, 4 836 mediefiler; validator, mediemanifest och 29 tester gröna; evidensledet är append-only och dagens fem tillbakadragna påståenden är bevarade som `REJECTED` med historik. Detta villkor gäller kvaliteten på befintligt arbete, inte dess omfattning. | validator, `--test scripts/` |
+| 6 | **Avslutningsrevision** | **Kan inte göras.** Villkor 1–4 är inte styrkta, så en revision som visar att ingen materiell åtgärd återstår vore osann. Nio READY-uppgifter och en ONGOING står i kön, alla med konkret identifierad forskning. | `backlog.json` |
+
+### Det dominerande gapet
+
+**Villkor 2.** 471 av 535 personakter saknar helt en bedömning mot
+personkontraktet. Det är inte ett dokumentationsproblem utan ett
+forskningsproblem: north star kräver en prövad livsbild för **varje
+identifierad person**, och de 471 är i huvudsak sidopersoner och äldre
+akter som aldrig har prövats mot PK-01–12.
+
+Det är också det gap som växer när nya generationer läggs på. Villkor 2:s
+egen formulering — *biografiska luckor får inte skjutas undan på obestämd
+tid av nya anor* — talar direkt mot att gå vidare mot djup 6 innan
+livsbildsskulden har en plan.
+
+### Vad dagens arbete faktiskt flyttade
+
+- **Gemensamt djup 4 → 5.** Djup 5:s sista ogiltiga arkivfront, P-0021, fick
+  en giltig sådan sedan hennes födelsenotis identifierats.
+- **`OLÖST` 3 → 2** i identitetsmåttet.
+- Två personer fick sina första samtida vigselposter, en fick sin
+  födelsenotis, och fem påståenden — inklusive tre av mina egna från samma
+  dygn — upphävdes på ny evidens.
+
+En regression infördes och rättades i samma pass: statusen
+`IDENTITET OMSTRIDD` finns inte i north stars vokabulär och gjorde djup 5
+obehandlat tills den rättades till `IDENTITET OLÖST` med uttrycklig
+förklaring att statusen avser **faderns** identitet, inte hennes egen.
+
+### Owner decision required
+
+Ingen för fortsatt arbete. Men **en riktningsfråga bör lyftas** när
+nuvarande kö är tömd: villkor 2 kräver antingen en systematisk
+livsbildsvåg över de 471 obedömda akterna eller en uttrycklig, motiverad
+avgränsningsregel för sidopersoner. North star tillåter en
+kohort-/omprövningsregel men **förbjuder permanent dispens**. Vilken väg som
+väljs är en styrningsfråga, inte en rutinåtgärd.
+
+### Rekommendation
+
+Fortsätt kön i denna ordning: **`T-0060`:s Attebysteg** (avgör P-0021:s
+faderskap), därefter **`T-0091`**, **`T-0090`** och **`T-0093`**, som alla
+är ohindrade och härrör ur kontraktsgranskningen. Ta upp
+livsbildsfrågan för de 471 när kön är tömd.
+
+- Resulting Wotan tasks: inga nya. `T-0060` fortsätter.
+- Portfolio signal: gemensamt djup ökade för första gången sedan
+  kontraktsgranskningen infördes.
+- Revisit when: kön är tömd, eller när villkor 2:s avgränsningsregel ska
+  beslutas.
