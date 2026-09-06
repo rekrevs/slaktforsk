@@ -52,6 +52,61 @@ Källorna växlar mellan `Per Wilhelm`/`Per Vilhelm` och
 | [P-0290 Gabriel Eliaeson](P-0290-gabriel-eliaeson-varsas.md) | far | CORROBORATED | C-0820, C-0262, C-0418 |
 | [P-0501 Margaretha Sofia Gabrielsdotter](P-0501-margaretha-sofia-gabrielsdotter.md) | syster | CORROBORATED | C-0820, C-0262 |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1850-03-18 | Född i Värsås som son till Gabriel Eliasson och Stina Larsdotter; hushållsraden skriver honom `Petter Wilhelm`. | [C-0820](../citations/C-0820-varsas-AI7-sida159-eliassonfamilj.md) | **Egen födelsenotis är inte åtkomlig:** Värsås `C/- [H0003]` (1824–1853) saknar bildlänk även i inloggad katalog. Datumet är ändå belagt i tre oberoende serier. |
+| 1885-06-19 | Gift med Augusta Viktoria Johansson. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md) | **Vigselförsamlingen är okänd** och posten inte återfunnen; Värsås E/1 1885–1886 är helt genomläst utan paret (C-0420). Djursätrahushållet anger avvikande **1885-06-07** (C-0917). |
+| 1886-12 | Sonen Bernhard Natanael föds; moderns ålder anges till 22 år. | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md) | Direkt ana. |
+| 1890, 1900, 1910 | **Hemmansägare på Djursätra Västergården** i tre folkräkningar. | [C-0024](../citations/C-0024-bernhard-folkrakning-1890.md), [C-0025](../citations/C-0025-bernhard-folkrakning-1900.md), [C-0026](../citations/C-0026-bernhard-folkrakning-1910.md) | 1900 års register anger avvikande födelseåret 1858; konflikten bevaras. |
+| 1886–1904 | **Sju barn** föds i äktenskapet. | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), C-0024–C-0026 | Djursätrahushållet anger hans födelsetid avvikande som `1850-08-18`. |
+| 1916-11-24 | Familjen flyttar från Djursätra Västergård till Kyrkefalla. | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Han behåller ändå ägandet av 1/8 mantal Djursätra Västergården till döden. |
+| 1924-06-20 | Flyttar med hustru och dottern Alva Viktoria från Kyrkefalla till Skövde; utflyttningsbok nr 43–44. | [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md), [C-0873](../citations/C-0873-augusta-kyrkefalla-folio623.md) | Betygsdatum 5 maj; flyttdagen är 20 juni. |
+| 1929-09-05 | **Död i Skövde**, dödsorsak `Paralysis cordis`; kallas lägenhetsägare i kvarteret Rosenberg nr 2 och uppges äga 1/8 mantal Djursätra Västergården. | [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md) | Kvartersläsningen är preliminär; ägaruppgiften är tydlig. |
+| 1929-09-15 | **Gravsatt i familjegraven `04 A 194, 195, 196` på Värsås kyrkogård**, skriven i Skövde församling. | [C-0962](../citations/C-0962-eliasson-familjegrav-varsas.md) | Tredje oberoende belägget för födelsedagen 1850-03-18. Hustrun ligger i samma grav. |
+
+## Biografisk sammanfattning
+
+Per Wilhelm Eliasson föddes den 18 mars 1850 i **Värsås** som son till
+Gabriel Eliasson och Stina Larsdotter. Hans egen födelsenotis har aldrig
+kunnat läsas: den volym som skulle innehålla den, Värsås `C/- [H0003]` för
+1824–1853, saknar bildlänk även i den inloggade katalogen. Att födelsedagen
+ändå står fast beror på att tre helt skilda källor ger exakt samma datum —
+barndomshushållet i A I/7 sida 159, där han skrivs `Petter Wilhelm`,
+dödboken 1929 och gravregistret. Ett fjärde belägg, hushållsraden på
+Djursätra 1907–1916, skriver i stället `1850-08-18`; den avvikelsen står kvar
+som en enskild uppgift mot tre.
+
+Han gifte sig 1885 med **Augusta Viktoria Johansson**, som uppges vara född i
+Kyrkefalla. **Var vigseln ägde rum är inte känt.** Värsås vigselbok är
+genomläst för hela 1885 och 1886 utan paret, och de två källor som anger
+dagen är oense: Skövdes församlingsbok skriver 19 juni 1885, Djursätrahushållet
+7 juni. Vigselförsamlingen är därmed den enda större luckan i hans vuxna liv —
+och samtidigt den handling som sannolikt skulle namnge hustruns far och
+därmed lösa hennes ursprung.
+
+I fyrtio år var han **hemmansägare på Djursätra Västergården** i Värsås. Tre
+folkräkningar 1890, 1900 och 1910 visar honom där med hustru och en växande
+barnaskara som till slut omfattade **sju barn födda 1886–1904**, varav det
+äldsta var Bernhard Natanael. År 1916 lämnade familjen gården för Kyrkefalla,
+och 1924 flyttade han vidare till Skövde stad. Ägandet följde honom hela
+vägen: när han dog kallades han visserligen lägenhetsägare i kvarteret
+Rosenberg, men dödboken antecknar fortfarande att han ägde **1/8 mantal
+Djursätra Västergården**.
+
+Han dog i Skövde den 5 september 1929 av `Paralysis cordis` — hjärtförlamning
+i källans egen term — och gravsattes tio dagar senare i familjegraven på
+**Värsås kyrkogård**, i den socken där han föddes. Hustrun lades i samma grav
+tjugo år senare.
+
+Vad han gjorde utöver att bruka och äga sin gård vet vi inte. Ingen mantals-
+eller taxeringslängd har kunnat knytas till honom, ingen lagfart, ingen
+bouppteckning: Riksarkivets bouppteckningsregister saknar Västra Götalands
+län helt, och tre exakta katalogfrågor på Djursätra gav ingen serie. Det är
+inte belagt att handlingarna saknas — bara att de inte har gått att hitta med
+de nycklar som prövats.
+
 ## Slutstatus
 
 - Status: `VIDAREFÖRD — FÖRÄLDRAR SÄKRADE; FÖDELSEPOST SPÄRRAD`

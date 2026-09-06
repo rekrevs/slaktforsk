@@ -48,6 +48,74 @@ Johansdotter; folkräkningarna använder Johansson.
 |---|---|---|---|
 | [P-0020 Per Wilhelm Eliasson](P-0020-per-wilhelm-eliasson.md) | make | CORROBORATED | C-0023–C-0026 |
 | [P-0010 Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md) | son | CORROBORATED | C-0023–C-0026 |
+| [P-0022 Agnes Maria](P-0022-agnes-maria-eliasson.md) | dotter | CORROBORATED | C-0024–C-0026 |
+| [P-0023 Johan Martin Gabriel](P-0023-johan-martin-gabriel-eliasson.md) | son | CORROBORATED | C-0025, C-0026 |
+| [P-0024 Ragnar Vilhelm](P-0024-ragnar-vilhelm-eliasson.md) | son | CORROBORATED | C-0025, C-0026 |
+| [P-0025 Rut Ingegärd Margareta](P-0025-rut-ingegard-margareta-eliasson.md) | dotter | CORROBORATED | C-0025, C-0026 |
+| [P-0026 Sven Assar Elias](P-0026-sven-assar-elias-eliasson.md) | son | TRANSCRIBED | C-0026 |
+| [P-0027 Alma Viktoria](P-0027-alma-viktoria-eliasson.md) | dotter | TRANSCRIBED | C-0026 |
+
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1863-06-24 | **Uppgiven födelsedag**, Kyrkefalla. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md), [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md), [C-0873](../citations/C-0873-augusta-kyrkefalla-folio623.md) | **Ingen födelsenotis är funnen.** Gravregistret och Djursätrahushållet anger i stället **1863-06-27** (A-3612). Folkräkningen 1900 anger **Mofalla** som födelseort. |
+| 1863–1885 | Barndom och ungdom **helt odokumenterade**. | — | Ingen hushållsrad, ingen inflyttning, inget föräldrapar är känt. Detta är den stora luckan i hennes livsbild. |
+| 1885-06-19 | Gift med hemmansägaren Per Wilhelm Eliasson. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md) | **Vigselförsamlingen anges inte** och posten är inte återfunnen; Värsås E/1 1885–1886 är genomläst utan paret (C-0420). Djursätrahushållet anger avvikande **1885-06-07** (C-0917). |
+| 1886-12 | Sonen Bernhard Natanael föds; hennes ålder anges till 22 år. | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md) | Åldern ger födelseår 1863 eller 1864. |
+| 1886–1904 | **Sju barn** föds på Djursätra Västergård. | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), C-0024–C-0026 | Det yngsta är Alva Viktoria, född 1904 i Värsås. |
+| 1916-11-24 | Familjen flyttar från Djursätra Västergård till Kyrkefalla. | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Åter till den församling hon uppges vara född i. |
+| 1916–1924 | Hushållet i Kyrkefalla A II a/12 folio 623. | [C-0873](../citations/C-0873-augusta-kyrkefalla-folio623.md) | **Hennes inflyttningsfält innehåller ingen äldre hänvisning** — folion för alltså inte tillbaka till en barndom. |
+| 1924-06-20 | Flyttar med maken och dottern Alva till Skövde; landsförsamlingens s. 329, sedan s. 768. | [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md), [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md) | Ömsesidig sidbrygga 329 ↔ 768. |
+| 1929-09-05 | **Änka**; makens dödsdag är införd som civilståndets upplösningsdag. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md) | |
+| 1930-12-12 | Flyttar från Skövde till **Smuleberg i Kyrkefalla**, till dottern Alvas hushåll. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md) | SCB:s folkräkning anger i stället inflyttning från **Värsås**; avvikelsen bevaras (A-3267). |
+| 1930 | Folkräknad i Smuleberg som änka; skolbildningskod 3 och inkomst 500. | [C-0417](../citations/C-0417-folkrakning-1930-augusta-alva-smuleberg.md) | Den enda kända uppgiften om hennes utbildning och egna inkomst. |
+| 1941-12-17 | Flyttar från **Rosendala i Smuleberg** till **Bergshamra i Våmb**. | [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md), [C-0874](../citations/C-0874-augusta-vamb-bergshamra-1941.md) | Två överensstämmande originalposter; mottagarraden namnger den avlidne maken. |
+| 1949 | Våmb A II a/4 s. 474 för henne vidare till **ny bok folio 95**. | [C-0874](../citations/C-0874-augusta-vamb-bergshamra-1941.md) | Den boken, `A II a/5` (1949–1969), är **katalogförklarat sekretessbelagd** och varken digitaliserad eller förbeställningsbar. |
+| 1949-10-27 | **Död**, skriven i Våmbs församling, Skövde. | [C-0962](../citations/C-0962-eliasson-familjegrav-varsas.md) | Dödsåret är exakt det år då församlingsboken förde henne vidare — det sekretessbelagda uppslaget är hennes sista. |
+| 1949-11-06 | **Gravsatt i familjegraven `04 A 194, 195, 196` på Värsås kyrkogård**, tjugo år efter maken. | [C-0962](../citations/C-0962-eliasson-familjegrav-varsas.md) | Samma grav rymmer också Ragnar Wilhelm Eliasson (1893–1930) och Tekla Karolina Eliasson (1898–1969); gravregistret namnger ingen relation. |
+
+## Biografisk sammanfattning
+
+Augusta Viktoria Johansson är i alla hushållskällor en tydligt tecknad kvinna
+— och samtidigt en person **utan barndom**. Från 1885, när hon gifter sig,
+till 1949, när hon begravs, går det att följa henne år för år genom sju
+församlingsböcker, två folkräkningar, tre flyttlängder och ett gravregister.
+Före 1885 finns ingenting alls.
+
+Det är inte för att ingen har letat. Kyrkefalla, som hon själv uppger som
+födelseförsamling i fem skilda källor, har genomsökts för hela 1863 och 1864
+utan en enda flicka med dopnamnet Augusta Viktoria. Mofalla, som 1900 års
+folkräkning anger i stället, innehåller mycket riktigt en Augusta Viktoria
+född **24 juni 1863** — men hennes far är soldaten Erik Rotte, vilket skulle
+ge patronymikonet Eriksdotter, inte Johansdotter. Den kandidaten hålls
+uttryckligen separat och har aldrig kopplats in. Också hennes födelsedag är
+omstridd: tre kyrkoböcker skriver 24 juni, medan gravregistret och
+Djursätrahushållet skriver 27 juni.
+
+Vad vi vet börjar med giftermålet. Hon gifte sig 1885 — den 19 juni enligt
+Skövdes församlingsbok, den 7 juni enligt Djursätrahushållet — med
+hemmansägaren Per Wilhelm Eliasson, som var tretton år äldre. **Var de vigdes
+är okänt**, och det är mer än en formalitet: en vigselnotis skulle namnge
+hennes far och därmed avgöra hela ursprungsfrågan. Värsås är genomsökt för
+åren i fråga; hennes egen hemförsamling Kyrkefalla är det inte.
+
+De följande trettio åren bodde hon på **Djursätra Västergård** i Värsås och
+födde **sju barn mellan 1886 och 1904**. Den äldste var Bernhard Natanael;
+den yngsta Alva Viktoria. 1916 lämnade familjen gården för Kyrkefalla och
+1924 för Skövde stad. När maken dog 1929 var hon 66 år, och året därpå
+flyttade hon in hos dottern Alva i **Smuleberg**. Folkräkningen samma år ger
+den enda glimten av henne som ekonomisk person: skolbildningskod 3 och en
+egen inkomst på 500 kronor.
+
+Hon blev kvar i Kyrkefalla i elva år till, på Rosendala, och flyttade i
+december 1941 — då 78 år gammal — till **Bergshamra i Våmb**. Där tar de
+läsbara källorna slut. Församlingsboken för henne vidare till nästa bok 1949,
+och just den volymen är sekretessbelagd och varken digitaliserad eller
+möjlig att beställa. Att vi ändå vet hur det gick är gravregistrets förtjänst:
+hon dog den **27 oktober 1949** och gravsattes den 6 november i samma grav på
+**Värsås kyrkogård** som maken hade lagts i tjugo år tidigare — i den socken
+där hon aldrig föddes, men där hon levde sitt vuxna liv.
 
 ## Slutstatus
 
