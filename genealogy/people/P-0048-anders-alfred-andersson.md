@@ -59,9 +59,18 @@ bonden Anders Andersson och Barbro Olofsdotter och växte upp med tre systrar
 (C-0048, C-0049). År 1900 var han ogift hemmansägare i byn; 1904 gifte han
 sig med Anna Fredrika Jakobsdotter från Ultervattnet och 1907 föddes dottern
 Ebba Alfrida (C-0046, C-0044, C-0043). Familjen står kvar i Jomark 1910–1917
-(C-0413). Han dog 1948-12-21, alltjämt betecknad hemmansägare, och
-gravsattes 1949-01-03 på Burträsks kyrkogård i den grav som hustrun, dottern
-och svärsonen senare delade (C-0878). Åren 1917–1948 är obelagda.
+(C-0413).
+
+Hemmanet är nu namngivet: **Jomark N:o 2**, ⅛ och senare ¹⁄₁₆ mantal, och
+paret bodde kvar där genom tre församlingsböcker i följd — folio 658 och
+750 fram till 1941, därefter folio 703 i nya boken, redovisat som
+**⁷/₁₆ mantal och tio hektar** (C-0891, C-0920). Dottern Ebba Alfrida
+flyttade ut 1928. Efter fyrtiotvå år på gården **utflyttade paret till
+Burträsk 1946-11-16**, dit dottern och svärsonen Oskar Alfred Zingmark hade
+flyttat 1930 — vilket förklarar den gemensamma gravplatsen (C-0920).
+Han dog 1948-12-21, alltjämt betecknad hemmansägare, och gravsattes
+1949-01-03 på Burträsks kyrkogård i den grav som hustrun, dottern och
+svärsonen delade (C-0878). Endast de två sista åren i Burträsk är olästa.
 
 Öppna materiella frågor och källvägar finns i
 [forskningsprofilen](../research-profiles/P-0048.md).

@@ -54,9 +54,14 @@ dotter till bonden Jakob Andersson och Maria Christina Hansdotter och bodde
 ogift kvar i föräldrahemmet till över trettio års ålder (C-0067,
 C-0069–C-0073). År 1904 gifte hon sig med hemmansägaren Anders Alfred
 Andersson i Jomark, där dottern Ebba Alfrida föddes 1907 och familjen följs
-till 1917 (C-0044, C-0043, C-0413). Hon dog 1947-06-27 och gravsattes på
-Burträsks kyrkogård; maken följde henne dit året därpå (C-0878). Åren
-1917–1947 är obelagda.
+till 1917 (C-0044, C-0043, C-0413).
+
+Hon bodde kvar på **Jomark N:o 2** genom tre församlingsböcker i följd —
+folio 658 och 750 till 1941, därefter folio 703 — och **utflyttade med
+maken till Burträsk 1946-11-16**, dit dottern och svärsonen flyttat 1930
+(C-0891, C-0920). Hon dog 1947-06-27, ett drygt halvår efter flytten, och
+gravsattes 1947-07-06 på Burträsks kyrkogård; maken följde henne dit året
+därpå (C-0878). Endast det sista året i Burträsk är oläst.
 
 Öppna materiella frågor och källvägar finns i
 [forskningsprofilen](../research-profiles/P-0049.md).
