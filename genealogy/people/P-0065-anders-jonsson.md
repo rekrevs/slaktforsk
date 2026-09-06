@@ -49,6 +49,66 @@ avgörande av vigseloriginalets sista siffra.
 
 | A-3312 | Vid pilotens omläsning av C-0106:s vigselbild kan sista siffran i den tidigare avlästa födelsedagen 14/16 april inte avgöras med tillräcklig säkerhet. | CONFLICT | medel | [C-0877](../citations/C-0877-anders-kallstrategi-omlasning.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Kvalificerar A-0599 och senare hänvisningar till säker originalavvikelse. Födelsepostens 16 april och föräldraidentiteten består. Ingen ny säker vigselläsning eller förklaring om skrivfel införs. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1839-04-16 | **Född i Buberget, Degerfors**, son till Jon (senare Jonas) Andersson, född 1796, och Ulrica Lovisa Jonsdotter, född 1804; egen födelsenotis i C/3 bild 44. | [C-0872](../citations/C-0872-anders-buberget-fodelse-1839-rattelse.md) | Notisen **upphäver** det äldre nollresultatet i C-0107, vars aprilavskrift var felaktig. Vigselboken 1867 anger avvikande 14 april; sista siffran kan inte avgöras säkert vid omläsning (A-3312). |
+| 1836–1857 | Barn och yngling i föräldrahushållet i Buberget: A I/4 s. 310, A I/5b s. 16 och A I/6b s. 474, med uttrycklig sonrad. | [C-0872](../citations/C-0872-anders-buberget-fodelse-1839-rattelse.md), [C-0869](../citations/C-0869-buberget-register-och-hushall.md) | |
+| 1861–1865 | Samma föräldra- och syskongrupp i A I/8b s. 536. | [C-0869](../citations/C-0869-buberget-register-och-hushall.md) | Raden bär hushållshänvisningen `G.B.400`, som **ännu inte är följd**. Åren däremellan, 1857–1861, är inte lästa för Buberget. |
+| 1867-01-06 | **Lyst**, lysningsnummer 1 för året; han skrivs **hemmansägare i Buberget**, folio 85. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Han var alltså hemmansägare redan vid vigseln, 27 år gammal; när han övertog hemmanet är inte belagt. |
+| 1867-01-28 | **Vigd** med Lotta Sofia Andersdotter, nämndemansdotter från Rödå. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md) | |
+| 1867 | Dottern **Ida Sofia** föds i Buberget. | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md) | Direkt ana. |
+| 1869–1885 | **Åtta barn** sammanlagt: Ida Sofia, Maria Augusta, Jonas Edvard, Anders, Hildur Charlotta, Carl Magnus, Hanna Matilda och Oskar Rudolf. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) | Bouppteckningen 1898 namnger alla åtta med födelsedatum. Tvillingarna Anders och Carl nämns i den äldre längden. |
+| 1870 | Anges som **jordägare** i Buberget. | [C-0066](../citations/C-0066-ida-sofia-folkrakning-1870.md) | |
+| 1888 | Mågen **Johan Oskar Zingmark** med hustru och dotter förs in på samma hushållssida 207. | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md) | Binder gården till nästa generations dossier [P-0028](P-0028-johan-oskar-zingmark.md). |
+| 1898-05-25 | **Änkling**: Lotta Sofia dör i lungsot. | [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | |
+| 1898-08-20 | **Bouppteckning efter hustrun** förrättas; han skrivs `Anders Jansson`, hemmansägare i Buberget. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Endast aktens första sida är läst; **boets tillgångar, skulder och värde är otranskriberade** trots att akten är fritt åtkomlig. |
+| 1900–1909 | **Bonde och änkling i Buberget** med sex hemmavarande barn. | [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md), [C-0483](../citations/C-0483-vindeln-AIIa3-anders-jonsson-buberget-1900-1909.md) | Sammanhängande övergång folkräkning → församlingsbok. |
+| 1909-10-21 | **Död i Buberget**; dödsorsaken skrivs `ålderdomsbräcklighet`. Begravd 4 november. | [C-0484](../citations/C-0484-degerfors-F3-anders-jonsson-dod-1909.md) | Historisk källterm utan modern omtolkning. |
+| 1910 | Bouppteckningen efter honom registreras under namnformen **Anders Jansson**, hemmansägare i Buberget: **Degerfors tingslag F II/7 nr 55**. | [C-0486](../citations/C-0486-degerfors-anders-jansson-bouppteckningsregister-1910.md) | Originalvolymen är läsesalsbunden; innehållet är inte infererat. |
+
+## Biografisk sammanfattning
+
+Anders Jonsson föddes den **16 april 1839 i Buberget** i Degerfors, som son
+till Jon Andersson och Ulrica Lovisa Jonsdotter. Att den meningen kan skrivas
+alls är resultatet av en rättelse: en tidigare genomgång hade läst årets
+aprilposter fel och dragit slutsatsen att Degerfors födelsebok **saknade** en
+Anders med en far vid namn Jon eller Jonas. Omläsningen av exakt samma bild
+visade att posten stod där hela tiden, med rätt föräldrar och rätt by. Det
+felaktiga nollresultatet är upphävt men bevarat som revisionshistorik — och
+med det föll också den följdslutsats som sagt att Buberget inte var hans
+barndomshem.
+
+Han växte alltså upp där han skulle leva hela sitt liv. Fyra
+husförhörslängder följer honom som son i föräldrahushållet från 1836 till
+1865. **Åren 1857–1861 är dock inte lästa** för Buberget, och en
+hushållshänvisning på 1861 års rad, `G.B.400`, är ännu inte följd.
+
+Vid vigseln den **28 januari 1867** var han redan **hemmansägare**, 27 år
+gammal. Bruden var **Lotta Sofia Andersdotter**, nämndemansdotter från Rödå.
+Under de följande arton åren fick de **åtta barn**, och den äldsta, Ida
+Sofia, gifte sig 1888 med Johan Oskar Zingmark, som fördes in på samma
+hushållssida — det är där denna gren möter den andra.
+
+Hustrun dog i lungsot i maj 1898, och i augusti samma år hölls
+bouppteckningen efter henne. Dess första sida är läst och namnger alla åtta
+barnen; **resten av akten, med gårdens tillgångar och värde, är otranskriberad
+trots att den ligger fritt åtkomlig.** Det är den enskilt största luckan i
+bilden av vad hemmanet i Buberget faktiskt var.
+
+Han levde vidare som änkling och bonde i elva år med sex barn kvar hemma, och
+dog den **21 oktober 1909**, sjuttio år gammal. Dödboken skriver
+`ålderdomsbräcklighet`. Bouppteckningen efter honom är lokaliserad — Degerfors
+tingslag F II/7 nummer 55, registrerad under namnformen Anders Jansson — men
+den volymen kräver läsesal.
+
+En liten sak är fortfarande olöst: vigselboken 1867 skriver hans födelsedag
+som 14 april, inte 16. Vid omläsning av originalet **kan sista siffran inte
+avgöras**. Den egna födelsenotisen bär datumvalet, och avvikelsen står kvar
+som avvikelse — inte som ett andra likvärdigt datum och inte som ett bevisat
+skrivfel.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

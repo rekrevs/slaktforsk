@@ -28,6 +28,54 @@
 
 | A-3147 | Umeå fögderis fondförteckning identifierar Degerfors mantalsvolymer Vol/58–62 över Lotta Sofias kända vuxenperiod 1867–1898, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog hushållsroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1843-03-30 | **Född i Rödå, Degerfors**, dotter till nämndemannen Anders Olofsson och Sofia Magdalena Jonsdotter; **döpt 4 april**. | [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md) | Egen födelsenotis. Fadderspalten är delvis svårläst och används inte för nya personidentiteter. |
+| 1843–1865 | Dotter i **nämndemanshushållet i Rödå, sida 483** i A I/8b, med **åtta syskon födda 1829–1854** och farmodern, änkan Anna Catharina Andersdotter, född 1783 i Umeå stadsförsamling, i hushållet. | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Hushållet bekräftar födelsedagen 30 mars oberoende av födelsenotisen. |
+| 1867-01-06 | **Lyst**, lysningsnummer 1 för året; hon skrivs **nämndemansdotter**, folio 14. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Faderns giftomannaskap stämmer med barndomshushållet. |
+| 1867-01-28 | **Vigd** med hemmansägaren Anders Jonsson i Buberget. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | |
+| 1867 | Dottern **Ida Sofia** föds i Buberget. | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md) | Direkt ana. |
+| 1869–1885 | **Åtta barn** sammanlagt, samtliga namngivna med födelsedatum i bouppteckningen 1898: Ida Sofia, Maria Augusta 1869, Jonas Edvard 1871, Anders 1876, Hilda Charlotta 1878-06-21, Carl Magnus 1880-07-21, Hanna Matilda 1882-08-06 och Oskar Rudolf 1885-04-16. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Aktens namnform `Hilda` mot senare `Hildur`; samma dotter. |
+| 1890–1898 | **Bondhustru i Buberget** med maken och sju hemmavarande barn. | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | |
+| 1898-05-25 | **Död i Buberget**, 55 år gammal; dödsorsaken skrivs **`lungsot`**. Begravd 5 juni. | [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | Historisk källterm utan modern medicinsk omtolkning. |
+| 1898-08-20 | **Bouppteckning** förrättas, Degerfors tingslag A II a/37 nr 20, bild `A0033199_00234`. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Endast **första sidan** är läst; den ger dödsuppgift, maken och alla åtta barn. **Boets tillgångar, skulder och slutvärde är otranskriberade** trots att akten är fritt åtkomlig. |
+
+## Biografisk sammanfattning
+
+Lotta Sofia Andersdotter föddes den **30 mars 1843 i Rödå** och döptes fem
+dagar senare. Hennes far var **nämndeman**, Anders Olofsson, och modern
+Sofia Magdalena Jonsdotter; i hushållet bodde också farmodern, änkan Anna
+Catharina Andersdotter, född 1783 i Umeå stadsförsamling. Hon växte upp med
+**åtta syskon** i ett hem som stod högre än det vanliga bondehemmet —
+nämndemansvärdigheten är den enda statusmarkör som finns i denna del av
+släkten.
+
+Hennes födelsedag har varit omstridd. Två senare avskrifter skriver oktober
+1843, den ena den 17:e och den andra den 20:e, och en tidig kontroll gick
+igenom hela oktober–december utan att hitta henne. Frågan är nu avgjord åt
+andra hållet: **egen födelsenotis, barndomshushållet och dödboken ger alla
+30 mars**, och oktoberformerna bevaras som avskriftsvarianter, inte som
+likvärdiga alternativ.
+
+Den 28 januari 1867, tjugotre år gammal, vigdes hon med **Anders Jonsson**,
+hemmansägare i Buberget; lysningsboken kallar henne nämndemansdotter, och
+fadern var giftoman. Hon flyttade de dryga två milen från Rödå till Buberget
+och blev kvar där resten av livet.
+
+På arton år födde hon **åtta barn**. Vi känner dem alla vid namn och de
+flesta på dagen, och det är bouppteckningen efter henne själv som ger
+listan — den enda handling som samlar hela syskonskaran.
+
+Hon dog den **25 maj 1898**, femtiofem år gammal, i **lungsot**, och
+begravdes den 5 juni. Tre månader senare hölls bouppteckningen. Dess första
+sida är läst och ger dödsuppgiften, maken och arvingekretsen; **resten av
+akten — gårdens djur, redskap, jord, skulder och slutvärde — är aldrig
+transkriberad, trots att bilden ligger fritt åtkomlig hos Riksarkivet.** Det
+är den enda ohindrade läsningen som återstår för henne, och den skulle säga
+mer om hushållets ekonomi än någon annan källa i akten.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
