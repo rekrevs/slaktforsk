@@ -76,3 +76,28 @@ kvarteren `Tyr`, `Haga`, `Uller`, `Urd` och `Utgård`.
 
 Se [C-0971](../citations/C-0971-umea-AIIb13-ytterhiskeblocket-noll.md) för
 det avgränsade nollresultatet över uppslagen 71–108.
+
+## Tillägg 2026-09-06 (T-0086): seriens ordning och `A II b/14`:s verkliga innehåll
+
+**Volymerna 2–12 är alfabetiska efter kvartersnamn.** `A II b/2` börjar med
+`Kvarteret Arbetaren N:r 1 B`, och `A II b/12` löper `Sadelmakaren` →
+`Skenan` → `Snickaren` → `Städet` → `Turkosen` → `Utgård`. Serien går A→U.
+Delar av volymerna är oanvända: `A II b/2` har tomma tryckta formulär på
+uppslagen 170, 340 och 510, så bildantalet motsvarar inte antalet
+fastigheter.
+
+**`A II b/13` är undantaget** och rymmer avdelningen `På församlingen
+skrivna` samt alla fastigheter utanför kvartersindelningen, **ordnade efter
+stigande stadsägonummer**: 317 (uppslag 11), 658 (17), 669 (23), 680 (29),
+728 (35), 1251–1254 (71–76), **Ytterhiske 1255–1371 (77–102)**, 1446 och
+uppåt (102 ff.).
+
+**`A II b/14` är en blandvolym, inte bara ett gatunamnsregister.** Den
+innehåller maskinskrivna kort över gatunamn (bilderna omkring 6 och 60), ett
+**stadsägeregister** med kolumnerna **nummer, kvarter eller ort och ägare**
+(bilderna omkring 260–310) och fastighetsblad med hushåll (bilderna omkring
+360 och 460). **Stadsägeregistret är seriens verkliga ingång**: det ger för
+varje nummer både ort och ägare, och Ytterhiskeavdelningen ligger omkring
+bilderna 300–310. Beskrivningen i
+[C-0971](../citations/C-0971-umea-AIIb13-ytterhiskeblocket-noll.md) var för
+snäv och rättas här.
