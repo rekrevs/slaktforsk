@@ -52,3 +52,27 @@ fastighetsbeteckningar.
 
 - Åtkomst 2026-09-06: inloggad session; samtliga fjorton manifest svarade
   `200` över IIIF medan katalogsidorna omdirigerades till `/captcha`.
+
+## Tillägg 2026-09-06 (T-0084): uppslagens form och seriens saknade register
+
+**Ett uppslag = en fastighet, och rubriken står alltid på högersidan.**
+Vänstersidan är i regel tom eller en fortsättning. Ett rubrikmontage över
+sex uppslag räcker därför för att avgöra sex fastigheter.
+
+**Serien har inget uppslagsregister.** `A II b/14` beskrevs tidigare som
+ett kortregister över gatunamns- och fastighetsbeteckningar. Vid läsning
+2026-09-06 visade det sig vara ett **maskinskrivet gatunamnsregister från
+en betydligt senare period** — korten läser `stg 315 H = Rönnbärsstigen 7`
+och `Hallonet 23 = Rönnbärsstigen 9 B` — utan hänvisning till uppslag i
+`A II b/12`–`/13`. Sökning i serien måste alltså ske genom att läsa
+rubriker, volym för volym.
+
+**Ordningen är inte en enkel nummerföljd.** I `A II b/13` ligger
+Egnahemsområdet och Östermalm på uppslagen 71–76, **Ytterhiske på 77–102**
+och Sandbacka och Midbacken från 103. Inom Ytterhiskeblocket stiger
+stadsägonumren i stort men inte strikt, och sammansatta rubriker
+förekommer (`Stadsäg. 1255 + 1256 + 1422 + 1485`). `A II b/12` slutar med
+kvarteren `Tyr`, `Haga`, `Uller`, `Urd` och `Utgård`.
+
+Se [C-0971](../citations/C-0971-umea-AIIb13-ytterhiskeblocket-noll.md) för
+det avgränsade nollresultatet över uppslagen 71–108.
