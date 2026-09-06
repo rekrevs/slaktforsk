@@ -3124,3 +3124,82 @@ P-0049.
 - Portfolio signal: projektet byter takt så att villkor 2 börjar röra sig
   för första gången för en avliden person.
 - Revisit when: T-0084 är klar och andelen GODKÄNDA profiler har mätts om.
+
+## PCR-2026-09-06-005 — Checkpoint efter T-0084: villkor 2 har rört sig
+
+- Datum: 2026-09-06
+- Utlösare: T-0084 avslutad (batcherna 353–364). Reaktiveringsvillkoret i
+  PCD-2026-09-06-003 var uttryckligen "T-0084 är klar och andelen GODKÄNDA
+  profiler har mätts om".
+- Läge: `research-inventory` ger **9 GODKÄNDA och 23 PÅGÅR** av 32 profiler,
+  mot 7/25 när beslutet fattades. `goal-state` ger registrerat gemensamt
+  djup 5, oförändrat.
+
+### Kontrolldom: fortsätt
+
+Beslutet i PCD-2026-09-06-003 var att låta livsbildsskivan gå parallellt med
+djupforskningen, med motiveringen att villkor 2 växte snabbare än det
+betalades av. **Det har gett utdelning, och den är av rätt slag.**
+**P-0048 Anders Alfred Andersson och P-0049 Anna Fredrika Jakobsdotter är
+projektets första avlidna personer som passerar personkontraktet.** De sju
+tidigare godkända är samtliga levande och integritetsminimerade, alltså
+godkända på ett integritetsminimerat omfång — inte på ett fullgånget
+livslopp. Villkor 2 i NORTH-STAR.md har därmed **för första gången rört sig
+på det sätt villkoret faktiskt kräver**.
+
+### Evidens
+
+- Trettiofyra ej styrkta kontraktskrav i kohorten har blivit nio.
+- Två profiler passerade, och tre av de kvarvarande sex står på **en enda
+  namngiven, genomförbar åtgärd** var (P-0016, P-0028, P-0029).
+- Fyra läsningar i original tillkom: Burträsk 1946–1948, Ytterhiskeblocket i
+  Umeå, Flen 1933–1955 och kartläggningen av Matteus vigselbok.
+- Ett hinder avfärdades och ett tillkom: Umeås fastighetslängder har inget
+  register, och Flens församlingsböcker slutar 1955.
+
+### Aktuell grind
+
+Villkor 2 är fortfarande den bindande grinden, men den har flyttat karaktär:
+från "ingen avliden har passerat" till "tre personer står på tre namngivna
+läsningar". Det är inte längre en strukturell fråga utan en arbetsmängd.
+
+### Verkställighet inom delegerad myndighet
+
+Restposterna är för stora för att hänga kvar som svans på T-0084 och splittas
+enligt AGENTS.md:
+
+- **T-0085 (READY, M)** — vigseln Ekholm–Ålund 1900–1906. Enda kvarvarande
+  materiella åtgärd för P-0016; kostnaden är bestämd i batch 364.
+- **T-0086 (READY, L)** — systematisk rubrikgenomgång av Umeås
+  fastighetslängder `A II b` efter Zingmarks gård. Enda kvarvarande
+  materiella åtgärd för P-0028 och P-0029.
+
+Ingen ny strategisk riktning fattas här; båda uppgifterna ligger inom det
+program PCD-2026-09-06-003 redan godkände.
+
+### Ägarbeslut som fortfarande väntar
+
+**ALTCHA.** Bouppteckningsregistret, `/nad`, `/arkiv/<id>`, `/dodregister`
+och Stockholms mantalslängdssök ligger bakom en captcha som agenten inte får
+lösa. Den spärrar dödsboet efter P-0048 och P-0049, bouppteckningen efter
+P-0016 samt lagfart och inskrivningsprotokoll för P-0028 och P-0029. Ägaren
+kan häva den genom att öppna sidorna i sin egen inloggade Chrome.
+
+- Resulting Wotan tasks: `T-0085` (ny, READY); `T-0086` (ny, READY);
+  `T-0084` → DONE.
+- Portfolio signal: north star villkor 2 har mätbart rört sig för första
+  gången för en avliden person.
+- Revisit when: T-0085 och T-0086 är utförda, eller när ägaren häver ALTCHA.
+
+## PCD-2026-09-06-004 — Splittring av T-0084:s restposter
+
+- Datum: 2026-09-06
+- Beslutsunderlag: PCR-2026-09-06-005
+- Beslut: **godkänd inom delegerad myndighet.** T-0084 avslutas som DONE,
+  och dess två kvarvarande materiella åtgärder skapas som egna avgränsade
+  uppgifter, T-0085 och T-0086, med uttryckligt omfång, uttryckliga
+  uteslutningar och verifierbara utfall. Ingen uppgift tillåts växa vidare
+  utan eget beslut.
+- Resulting Wotan tasks: `T-0084` → DONE; `T-0085` READY; `T-0086` READY.
+- Reaktiveringsvillkor: när T-0085 eller T-0086 avslutas mäts andelen
+  GODKÄNDA profiler om.
