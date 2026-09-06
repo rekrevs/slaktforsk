@@ -3304,3 +3304,59 @@ livsbildsskivan för djup 5, 32 personer. `T-0083`, `T-0080`, `T-0079`,
   representerade.
 - Revisit when: T-0086 avslutas, eller när andelen GODKÄNDA mäts om nästa
   gång.
+
+## PCR-2026-09-06-007 — Fem avlidna har passerat, och djup 4-kohorten är nästan färdig
+
+- Datum: 2026-09-06
+- Utlösare: T-0088 avslutad. Reaktiveringsvillkoret i PCR-2026-09-06-006 var
+  att andelen GODKÄNDA mäts om när T-0086 avslutas; T-0086 gav upphov till
+  T-0088, som nu är klar.
+- Läge: `research-inventory` ger **12 GODKÄNDA och 20 PÅGÅR** av 32
+  profiler, mot **7 / 25** vid dagens början. `goal-state` ger registrerat
+  gemensamt djup 5, oförändrat.
+
+### Kontrolldom: fortsätt
+
+**Fem avlidna personer har passerat personkontraktet under dagen** —
+P-0048, P-0049, P-0016, P-0028 och P-0029 — mot noll vid dess början. Båda
+ättegrenarna är representerade. Av djup 4-kohorten på Sverkers sida
+återstår **P-0009, P-0010 och P-0015**; av Kristinas sida är P-0016 klar.
+
+### Evidens
+
+Dagens sex avgörande fynd kom alla ur **routing eller omprövad
+källbedömning**, inte ur uthållighet:
+
+1. Uppslagshänvisningen `5/I` i Burträsks inflyttningsbok gav paret
+   Anderssons hushållssida.
+2. Moderns aldrig utvunna rad på en bild som legat speglad i repot sedan
+   augusti gav Flenåren och band maken till henne i en enda källa.
+3. Adolf Fredriks `E IV`-register, som NAD visade så snart ägaren hävt
+   ALTCHA, gav vigseln 1903-05-01 på tre läsningar.
+4. Hyltinges årskarta gav luckan 1900–1902.
+5. `A II b/14`, tidigare avfärdad som ett gatunamnsregister, visade sig
+   rymma ett stadsägeregister som gav Zingmarks sju stadsägor **och**
+   rättade söknyckeln 1258 → 1268.
+6. NAD:s fritextsökning avgjorde att sågverket i Rosinedal aldrig lämnat
+   något arkiv.
+
+Två felbeskrivningar rättades i god tro: bouppteckningsregistrets täckning
+och `A II b/14`:s innehåll. Ett hinder föll (ALTCHA), och fem nya är
+namngivna: Flens församlingsböcker efter 1955, Umeå stadsförsamlings
+dödböcker 1930–1950, inskrivningsdomarens fastighetsböcker,
+egnahemsnämndens volym, och de kommunala socialakterna i Flens kommunarkiv.
+
+### Aktuell grind
+
+Villkor 2 är fortfarande den bindande grinden. Karaktären har ändrats igen:
+**tjugo profiler PÅGÅR**, och **503 av 535 personakter saknar profil helt**.
+Det senare är nu den dominerande posten och kräver planering, inte enskilda
+läsningar. `T-0070` — livsbildsskivan för djup 5, 32 personer — är den
+uppgift som svarar mot det.
+
+- Resulting Wotan tasks: `T-0088` → DONE. Inga nya.
+- Portfolio signal: north star villkor 2 har gått från noll till fem
+  godkända avlidna personer på en dag, och djup 4-kohorten är nästan
+  färdigbehandlad.
+- Revisit when: `T-0070` påbörjas eller avslutas, eller när andelen
+  GODKÄNDA mäts om nästa gång.
