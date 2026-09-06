@@ -53,3 +53,15 @@ skulle visa om de lämnade församlingen och kom tillbaka.
 
 Inga nya personpåståenden; posten rättar räckvidden för C-0888 och bevarar
 det partiella nollresultatets exakta omfång.
+
+## Rättelse samma dag: hypotesen föll
+
+[C-0930](C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md)
+visar att familjen Henriksson stod under rubriken **`Storbränna`** i
+`A II a/6`, på **folio 392**. C-0888:s nollresultat var alltså ett
+**foliointervallfel** — den läste folierna 398–402 — och inte ett rubrikfel.
+Rubrikfyndet i denna post står kvar som en giltig strukturell iakttagelse om
+seriens ortnamn, och Gärdtjärnfoliernas genomgång står kvar som ett eget
+avgränsat nollresultat, men **slutsatsen att C-0888 missade familjen på
+grund av rubriken gäller inte**.
+

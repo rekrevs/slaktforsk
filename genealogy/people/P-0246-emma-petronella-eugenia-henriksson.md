@@ -25,6 +25,7 @@ föräldrahushållet; födelsenamnet ska bekräftas i egen födelsenotis.
 | A-3476 | Hon fördes 1924-10-15 från föräldrahushållets rad till makens rad på samma folio 393 som hustru; vigseln skedde 1924. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Sluter luckan 1910–1938. |
 | A-3477 | Hela familjen stod utanför kyrkan: hon, systern Märta Viktoria och båda barnen är antecknade `icke döpt`, och föräldrarnas äktenskap 1888-06-25 är markerat **`civilt`**. | CORROBORATED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md), [C-0247](../citations/C-0247-emma-petronella-eugenia-scb-1900.md) | Förklarar dopvägran 1900 som en genomgående familjeegenskap över två generationer, inte en enstaka händelse. |
 | A-3481 | **Hon vigdes med Axel Edvin Henriksson i Sättna den 1924-09-13**; hon skrivs `torparedotter` och hennes församlingsbokssida anges till 393. | CORROBORATED | mycket hög | [C-0927](../citations/C-0927-henriksson-larsson-vigsel-sattna-1924.md), [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Vigseln var kyrklig, till skillnad från föräldrarnas civila äktenskap 1888-06-25. |
+| A-3489 | Hon flyttade med maken och barnen till **Sundsvall, Storgatan 24, i september 1928**; hon skrivs fortsatt `icke döpt`. | CORROBORATED | mycket hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Sluter frågan om var familjen stod efter 1927. |
 
 ## Relationer
 
@@ -57,6 +58,9 @@ föräldrarnas egna födelsenotiser i Sättna 1862 och Indal 1866.
 | 1924-09-13 | **Vigsel med Axel Edvin Henriksson**; skrivs torparedotter | Sättna | — | — | C-0927 |
 | 1924-10-15 | Förs till makens rad på samma folio 393 | Storbränna, Sättna | hustru | make och son | C-0925 |
 | 1925-05-19 | Dottern Alvy Kristina född, `icke döpt` | Storbränna | — | make och barn | C-0925 |
+| 1927-02-23 | Överförd till folio 392, Storbränna | Sättna | hustru | make och två barn | C-0930 |
+| 1928-09 | **Utflyttning till Sundsvall, Storgatan 24** | Sättna → Sundsvall | — | make och två barn | C-0930 |
+| 1928–1938 | **Materiell lucka**: Sundsvall och återkomsten till Sättna | Sundsvall | — | — | profil Q-01 |
 | 1919–1930 | **Materiell lucka**: vigsel inte i Sättna 1919/1920/1922; saknas i folkräkningsindexet 1930 | okänt | — | — | C-0888, C-0898, profil Q-01 |
 | 1938-01-12 | Dottern Evy född; modern skrivs Emma Petronella Henriksson | Storbränna | — | Axel Edvin Henriksson | C-0240 |
 | 1938–1963 | **Materiell lucka**: boende, hälsa | Sättna | — | — | profil Q-01 |

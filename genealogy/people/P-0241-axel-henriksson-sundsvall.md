@@ -29,6 +29,9 @@ folkräkningen 1910 och gravregistret i Sättna.
 | A-3480 | **Han vigdes med Emma Petronella Eugenia Larsson i Sättna den 1924-09-13**, efter lysning 13, 20 och 27 juli 1924; vigselförrättare var kyrkoherden V. Wahlberg. | CORROBORATED | mycket hög | [C-0927](../citations/C-0927-henriksson-larsson-vigsel-sattna-1924.md), [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Sluter den enskilt äldsta öppna frågan om paret. Vigseln var kyrklig, till skillnad från Emmas föräldrars civila äktenskap 1888. Den preliminära läsningen `24 ¹³/₈` i församlingsboken rättas till 1924-09-13. |
 | A-3482 | Han växte upp på Storbränna (Gärdtjärn) N:o 3 folio 384 med modern, styvfadern Nils August Hallén och bröderna Emil Herman (f. 1906-07-10) och Fridolf (f. 1908-10-06); han utflyttade till folio 393 den 1924-10-15. | TRANSCRIBED | hög | [C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) | Sluter uppväxten 1911–1924 och bekräftar värnpliktsnumret 289 ⁶⁵/₂₁. |
 | A-3483 | Han fick två halvbröder i moderns andra gifte: **Nils Egnar, född 1915-12-09**, vars faderskap August Hallén i Timrå erkände före vigseln, och **Ivar Henning, född 1918-09-28**. | TRANSCRIBED | hög | [C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) | Nya sidopersoner; erkännandet står i klartext i församlingsboken. |
+| A-3486 | Familjen överfördes 1927-02-23 från gamla bokens folio 393 till **folio 392, rubriken `Storbränna`**, i Sättnas församlingsbok 1927–1943, där han skrevs torpare. | TRANSCRIBED | hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Rättar räckvidden för C-0888, som läste Storbränna folierna 398–402 och missade familjen med sex folier. |
+| A-3487 | Han **utflyttade med hustru och två barn till Sundsvall, Storgatan 24**, med flyttningsbetyg 1928-09-08; utflyttningslängden anger 1928-09-14 och församlingsboken 1928-09-29. | CORROBORATED | mycket hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Två oberoende poster i samma arkiv; datumskillnaden bevaras. Förklarar varför familjen saknas under Sättnas fastighetsrubriker efter 1928. |
+| A-3488 | Vigseldatumet bekräftas oberoende i församlingsboken som `24 ¹³/₉`, alltså 1924-09-13. | CORROBORATED | mycket hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Slutgiltig rättelse av den preliminära läsningen `24 ¹³/₈` i C-0925. |
 
 ## Relationer
 
@@ -68,6 +71,9 @@ en vigsel-, död- eller församlingsbokskedja.
 | 1924-09-13 | **Vigsel med Emma Petronella Eugenia Larsson**; förrättare V. Wahlberg | Sättna | arbetare | — | C-0927 |
 | 1924-10-15 | Utflyttning från folio 384 till folio 393 | Storbränna, Sättna | torpare | hustru och son | C-0925, C-0926 |
 | 1925-05-19 | Dottern Alvy Kristina född, `icke döpt` | Storbränna | torpare | hustru och barn | C-0925 |
+| 1927-02-23 | Överförd till folio 392, Storbränna, i nya församlingsboken | Sättna | torpare | hustru och två barn | C-0930 |
+| 1928-09 | **Utflyttning till Sundsvall, Storgatan 24**; betyg 8/9, utflyttning 14/9 respektive 29/9 | Sättna → Sundsvall | arbetare | hustru och två barn | C-0930 |
+| 1928–1938 | **Materiell lucka**: Sundsvall och återkomsten till Sättna | Sundsvall | — | — | profil Q-01 |
 | 1919–1930 | **Materiell lucka**: vigsel inte i Sättna 1919/1920/1922; paret saknas i hela folkräkningsindexet 1930; modern omgift Hallén på Storbränna fol 389 | okänt (utomlands, obefintlig eller annan namnform) | — | — | C-0888, C-0898, profil Q-01 |
 | 1938-01-12 | Dottern Evy född; faderns yrke läses osäkert som skogsarbetare | Storbränna, Sättna | skogsarbetare[?] | Emma Petronella Henriksson | C-0240 |
 | 1938–1983 | **Materiell lucka**: yrke, boende, änklingstid efter 1963 | Sättna | — | — | profil Q-02 |
