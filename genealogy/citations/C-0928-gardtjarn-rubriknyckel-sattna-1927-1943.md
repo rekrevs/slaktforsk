@@ -8,10 +8,8 @@
 
 - Sättna kyrkoarkiv, `SE/HLA/1010198`, `A II a/5` (1927–1943), ortsrubriken
   **`Gärdtjärn`**, folierna 162–180
-- Kontrollerade bilder: `00205393_00160` (fol 162, Gärdtjärn N:o 1),
-  `_00161` (163), `_00164` (166), `_00166` (168, N:o 2), `_00168` (170,
-  N:o 2), `_00170` (172, N:o 3), `_00172` (174), `_00174` (176, N:o 4),
-  `_00176` (178, N:o 4), `_00178` (180, N:o 5)
+- Kontrollerade bilder: `00205393_00160`–`_00184`, som ger folierna
+  **162–186** utom 179; folio 164 är tomt
 - Läst 2026-09-06 (inloggad session, T-0072)
 
 ## Utfall
@@ -28,19 +26,28 @@ familjen Henriksson–Larsson under rubriken `Storbränna` i A II a/6 och i
 folkräkningsutdraget 1930 — **inte kan utesluta dem**. Deras fastighet heter
 Gärdtjärn i denna serie, och Gärdtjärn låg i den andra volymen.
 
-**Partiellt nollresultat.** Tio av Gärdtjärns nitton folier är kontrollerade
-(162, 163, 166, 168, 170, 172, 174, 176, 178, 180) utan Henrikssonrad.
-Hushållen är Eriksson, Tjärnberg, Edström, Nordin, Hagberg, Pålsson,
-Letterberg och Öhlén. **Folierna 164, 165, 167, 169, 171, 173, 175, 177 och
-179 är inte lästa**, och Gärdtjärn fortsätter efter folio 180. Nollresultatet
-är alltså ofullständigt och får inte citeras som ett rubriknoll.
+**Partiellt nollresultat.** Folierna **162–186 utom 179** är kontrollerade
+utan Henrikssonrad; folio 164 är tomt. Hushållen är Eriksson, Tjärnberg,
+Boström, Sellström, Edlund, Edström, Nordin, Hagberg, Sjödin, Andersson,
+Pålsson, Letterberg, Öhlén, Nordin, Lundholm, Lindholm, Strandlund, Antén,
+Åslund, Dahlin och Andersson. **Folio 179 är oläst, och rubriken Gärdtjärn
+fortsätter efter folio 186** (N:o 6 står på 185 och 186). Nollresultatet är
+alltså ofullständigt och får inte citeras som ett rubriknoll.
+
+**Notera fastighetstypen.** Axel Edvin och Emma Petronella skrevs *torpare*
+respektive *torparedotter* (C-0925, C-0927), medan de kontrollerade folierna
+domineras av hemmansägare. Torpet kan därför ha en egen rubrik i denna serie
+i stället för att ligga under `Gärdtjärn N:o X`, och sökningen bör breddas
+till torprubrikerna i A II a/5 och A II a/6.
 
 ## Slutsats för källvägen
 
-Nästa steg är att läsa de återstående Gärdtjärnfolierna i `A II a/5` och
-följa rubriken till dess slut. Dottern Evy föddes på Storbränna 1938-01-12
+Nästa steg är folio 179 och fortsättningen efter folio 186, samt en
+genomgång av torprubrikerna. Dottern Evy föddes på Storbränna 1938-01-12
 ([C-0240](C-0240-evy-asa-kristina-fodd-1938-storbranna.md)), så familjen
-fanns i församlingen — frågan är enbart under vilken folio.
+fanns i församlingen — frågan är enbart under vilken rubrik och folio.
+En kompletterande väg är Sättnas in- och utflyttningslängder 1927–1943, som
+skulle visa om de lämnade församlingen och kom tillbaka.
 
 ## Stödda påståenden
 
