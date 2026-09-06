@@ -32,6 +32,7 @@ folkräkningen 1910 och gravregistret i Sättna.
 | A-3486 | Familjen överfördes 1927-02-23 från gamla bokens folio 393 till **folio 392, rubriken `Storbränna`**, i Sättnas församlingsbok 1927–1943, där han skrevs torpare. | TRANSCRIBED | hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Rättar räckvidden för C-0888, som läste Storbränna folierna 398–402 och missade familjen med sex folier. |
 | A-3487 | Han **utflyttade med hustru och två barn till Sundsvall, Storgatan 24**, med flyttningsbetyg 1928-09-08; utflyttningslängden anger 1928-09-14 och församlingsboken 1928-09-29. | CORROBORATED | mycket hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Två oberoende poster i samma arkiv; datumskillnaden bevaras. Förklarar varför familjen saknas under Sättnas fastighetsrubriker efter 1928. |
 | A-3488 | Vigseldatumet bekräftas oberoende i församlingsboken som `24 ¹³/₉`, alltså 1924-09-13. | CORROBORATED | mycket hög | [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) | Slutgiltig rättelse av den preliminära läsningen `24 ¹³/₈` i C-0925. |
+| A-3491 | Han återinflyttade inte formellt till Sättna under 1929–1938; familjen stod kvar som skriven i **Sundsvall** under hela perioden. | TRANSCRIBED | hög | [C-0932](../citations/C-0932-sattna-inflyttningslangd-1929-1938-partiellt.md) | Sättnas inflyttningslängd är genomsökt år för år; endast 1932 är delvis läst. Återflytten ligger efter 1939. |
 
 ## Relationer
 

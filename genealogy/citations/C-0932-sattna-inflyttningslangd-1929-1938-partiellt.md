@@ -1,4 +1,4 @@
-# C-0932: Sättnas inflyttningslängd 1929–1938 — partiell genomgång efter familjen Henriksson
+# C-0932: Familjen Henriksson återinflyttade inte till Sättna 1929–1938
 
 ## Källa
 
@@ -23,37 +23,58 @@ men dottern Evy föddes på Storbränna **1938-01-12**
 måste alltså ha skett 1928–1938, och inflyttningslängdens kolumn
 `Uppslag i församlingsboken` ger då direkt den folio de kom till.
 
-## Partiellt utfall
+## Utfall: familjen återinflyttade inte till Sättna 1929–1939
 
-Genomsökta årgångar **utan** Henrikssonrad:
+Genomsökta årgångar, **samtliga utan Henrikssonrad**:
 
 | År | Bild | Omfång |
 |---|---|---|
-| 1929 | `00205404_00021` | posterna 26–48, hela vänstersidan |
-| 1930 | `_00022` | slutet, post 26 och framåt |
-| 1932 | `_00024` | posterna 24–36 och högersidans 49–53 |
-| 1935 | `_00028` | posterna 1–25 och högersidans 26–43 |
-| 1936 | `_00029` | posterna 1–25 och högersidans 26–45 |
-| 1937 | `_00030` | posterna 1–25 och högersidans 26–33 |
-| 1938 | `_00031` | posterna 1–13 |
+| 1929 | `00205404_00020`, `_00021` | posterna 1–25 och 26–48, **hela året** |
+| 1930 | `_00021`, `_00022` | högersidan och slutet, posterna 1–26 |
+| 1931 | `_00022`, `_00023` | posterna 1–24 och 25–47, **hela året** |
+| 1932 | `_00024` | posterna 24–36 och 49–53 |
+| 1933 | `_00025`, `_00026` | posterna 1–25, 26–50 och 51–55, **hela året** |
+| 1934 | `_00027` | posterna 1–25 och 26–42, **hela året** |
+| 1935 | `_00028` | posterna 1–25 och 26–43, **hela året** |
+| 1936 | `_00029` | posterna 1–25 och 26–45, **hela året** |
+| 1937 | `_00030` | posterna 1–25 och 26–33, **hela året** |
+| 1938 | `_00031` | posterna 1–25 och 26–44, **hela året** |
+| 1939 | `_00032` | posterna 1–13 |
 
-**Ej genomsökta:** 1929 posterna 1–25, hela 1931, 1933 och 1934, samt 1938
-efter post 13. Nollresultatet är därför uttryckligen ofullständigt.
+Endast 1932 är delvis läst (posterna 1–23 och 37–48 återstår), och 1939 är
+läst till post 13. I övrigt är **1929–1938 fullständigt genomsökt**.
 
-## Iakttagelse
+## Tolkning
 
-Flera inflyttningar under de lästa åren går till **Storbränna** med olika
-folionummer — 1937 post 10 till folio 396, post 11 till 383 och post 15 till
-390, och 1937 post 33 till folio 400. Byns folier i 1927–1943 års bok ligger
-alltså spridda över 383–402, vilket bekräftar att C-0888:s läsning av
-folierna 398–402 bara täckte en del av rubriken.
+**Familjen Henriksson återinflyttade inte formellt till Sättna under
+1929–1938.** De stod alltså kvar som skrivna i **Sundsvall** — dit de
+flyttade i september 1928
+([C-0930](C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md))
+— under hela den period då dottern Evy föddes.
+
+Det ger en ny och enklare läsning av födelseposten: **`Boställe: Storbränna`
+i [C-0240](C-0240-evy-asa-kristina-fodd-1938-storbranna.md) anger var barnet
+föddes, inte var föräldrarna var kyrkobokförda.** Födelser registreras i den
+församling där de äger rum, och Storbränna var moderns föräldrahem. En
+nedkomst hos mormodern är en vanlig och väl förenlig förklaring — samma
+mönster som Arne Godvigs födelse i Flen 1915 medan modern var skriven vid
+Ökna i Floda ([C-0008](C-0008-arne-godvig-fodelse-1915.md)).
+
+Att båda makarna senare är gravsatta i Sättna
+([C-0241](C-0241-axel-emma-henriksson-grav-sattna.md)) visar att de återvände, men
+återflytten ligger då **efter 1939**.
 
 ## Nästa steg
 
-Läs 1929 posterna 1–25, hela 1931, 1933 och 1934 samt resten av 1938 i
-`00205404`. Om ingen post finns är alternativet att paret återvände utan
-flyttningsanmälan, eller att de kom via en annan församling — då blir
-Sundsvalls egen utflyttningslängd 1928–1938 vägen.
+1. **Sundsvalls församlingsbok från 1928**, Storgatan 24 — familjens
+   egentliga hemvist under 1930-talet och den källa som bär deras liv
+   1928–1939. Personakten P-0241 bär redan namnet `Axel Henriksson
+   Sundsvall`.
+2. Sättnas inflyttningslängd 1940–1955 för återflytten.
+3. Folkräkningen 1930 för **Sundsvall** i stället för Sättna, vilket
+   förklarar det nationella indexnollet i
+   [C-0898](C-0898-folkrakning-1930-index-henriksson-sattna-och-nationellt-noll.md)
+   som ett indexeringsproblem, inte ett personnoll.
 
 ## Stödda påståenden
 
