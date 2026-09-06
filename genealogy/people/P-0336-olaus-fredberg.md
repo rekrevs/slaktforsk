@@ -446,6 +446,86 @@ katalogbelägg och lämnar födelsedatum och föräldrar olösta.
 | A-3552 | **Han gravsattes 1925-08-12 på Sollentuna kyrkogård, kvarter 07, gravplats 012** — familjegraven där sex av hans barn och sonen Johannes senare gravsattes. | CORROBORATED | mycket hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md), [C-0475](../citations/C-0475-sollentuna-FI7-olaus-fredberg-dod-1925.md) | Gravregistrets datum stämmer exakt med dödbokens begravningskolumn. Det identifierar gravplatsen och gör den till nyckeln till sonen Johannes gravsättning 1949. |
 | A-3615 | **Mantalsvägen är öppnad.** Hela årgången 1877 av Stockholms mantalslängder, `SE/SSA/0031/06/G 1 BA/G 1 BA:76/1`–`76/42`, är **digitaliserad** i batcherna `A0057718`–`A0057757`, och formulärets kolumn `Nummer å Mantalsuppgiften` motsvarar just det nummer 1217 som registret gav. Kvar är att finna Kungsholmsvolymen: ordningen är efter kvarter och numreringen börjar om i varje volym. | TRANSCRIBED | hög | [C-0963](../citations/C-0963-mantalslangd-1877-digitaliserad.md), [C-0648](../citations/C-0648-stockholms-mantalsregister-1876-negativ-1877-kontroll.md), [C-0649](../citations/C-0649-kungsholm-15-kungsholmsgatan-och-mantalsvag.md) | Överspelar delvis slutsatsen att 1877 års mantalsmaterial kräver läsesal — det gäller mantalsuppgifterna i `G 1 BB`, inte mantalslängden i `G 1 BA`. Lästa kvartersrubriker: 76/1 Träskbacken, 76/4 Sperlingens backe, 76/20 Öfra Jerngrafven; ingen på Kungsholmen. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1852-05-24 | **Uppgiven födelsedag i Lundby, Älvsborgs län.** | [C-0383](../citations/C-0383-kungsholm-BI16-olaus-fredberg-1876.md), [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md) | **Ingen födelsenotis är funnen.** Fyra kyrkoboksnära källor ger 24 maj; Alnö och sju rotemansposter ger i stället **1852-09-04**, och mantalslängden 1877 ger **födelseåret 53**. Tre konkurrerande uppgifter, ingen originalpost. |
+| 1873-04-25 | Drängen **Olaus Fredriksson** inflyttar **från Lundby i Älvsborgs län till Björknäs i Östra Fågelvik**. | [C-0632](../citations/C-0632-ostra-fagelvik-B5-olaus-utflyttad-1873.md) | **Rättelse:** vägen routades först till *Västra* Fågelvik, vars register saknar Björknäs. Orten och båda flyttraderna ligger i **Östra** Fågelvik. |
+| 1873-10-24 | Utflyttar **från Björknäs till Norrland**. | [C-0632](../citations/C-0632-ostra-fagelvik-B5-olaus-utflyttad-1873.md) | Raden sammanfaller med den bevarade attesten och Alnös inflyttningspost. |
+| 1873-12-02 | Inflyttar som **arbetare till Rökland på Alnön**. | [C-0643](../citations/C-0643-alno-AI8-sida-167-olaus-fredriksson.md), [C-0601](../citations/C-0601-alno-B2-HII1-olaus-fredriksson-1873.md) | Alnö A I/8 s. 167 och A I/9a s. 193 ger födelsetiden **1852-09-04** — den konkurrerande formen. |
+| 1876-06-14 | Inflyttar till **Kungsholm i Stockholm**, kallad **före detta gardist**, hemvist **15 Kungsholmsgatan**. | [C-0383](../citations/C-0383-kungsholm-BI16-olaus-fredberg-1876.md) | Gardistuppgiften är **aldrig verifierad**: Svea livgardes och Göta livgardes register och rullor är genomsökta utan honom. |
+| 1876 | **Inträder i ordinarie tjänst vid Statens järnvägar.** | [C-0475](../citations/C-0475-sollentuna-FI7-olaus-fredberg-dod-1925.md) | Enligt dödsrunan 1925. |
+| 1877-08-19, 08-26, 09-02 | **Lyst i Hemsjö** tre söndagar. | [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md) | |
+| 1877-09-20 | **Vigd i Hemsjö** med **Britta Stina Svensdotter**; han kallas **stationskarl från Stockholm Kungsholm**. | [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md) | Kungsholm E II/3:s hela vigselföljd 1876–1878 saknar paret — ett avgränsat noll, **upplöst av posten i brudens församling**. |
+| 1877 | **Mantalsskriven i Kungsholmen**, mantalsuppgift **1217**, uppskattad tjänste-/pensionsinkomst **670**. | [C-0866](../citations/C-0866-olaus-mantalslangd-1877.md) | Samma rad anger **födelseåret 53** — en tredje datumkonflikt. |
+| 1878 | Sonen **Robert Nicolaus** föds; han skrivs `Stationskarlen, Olaus Fredriksson Fredberg`, hemvist `Jernvägsportvakten`. | [C-0382](../citations/C-0382-kungsholm-CI13-robert-nicolaus-fredberg-1878.md) | |
+| 1878–1915 | **Sju rotemansposter** binder honom som samma individ genom hela Stockholmstiden. | [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) | Rotemansarkivets funktion `Samma individ`. |
+| 1883 | **Befordrad till stationskarlsförman.** | [C-0475](../citations/C-0475-sollentuna-FI7-olaus-fredberg-dod-1925.md) | |
+| 1886-10-01 | **Änkling**: Britta Stina dör av lungsot. | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md) | Fyra barn i hushållet. |
+| 1888-12-08 | **Gifter om sig i Kungsholm** med **Johanna Charlotta Jansson**. | [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md) | Lysningsakten upprepar födelsedatumet 1852-05-24 i Lundby och änkestatusen sedan 1886-10-01. |
+| 1890, 1900 | **Stationskarlsförman** i Kungsholm — 1890 på Jordgubben nr 1–5, 1900 i Jordgubben n:o 11 med Johanna och fem barn. | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) | |
+| 1899 | Vald **filialrepresentant** vid ett årsmöte; kallas `stationskarlförman` i tidskriften *Signalen*. | [C-0617](../citations/C-0617-signalen-olaus-fredberg-filial-1899.md) | Facklig förtroendepost. |
+| omkring 1895–1915 | **Praktisk ledare för det yttre arbetet i Centralstationens persontrafik** i omkring tjugo år. | [C-0617](../citations/C-0617-signalen-olaus-fredberg-filial-1899.md) | Enligt *Signalen* 1915. |
+| 1910 | **Bangårdsmästare** i Gösen nr 4, 15, Klara rote 3, med Johanna Charlotta och fem barn. | [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | |
+| 1915-10-01 | **Lämnar Statens järnvägar efter fyrtio års järnvägsarbete.** | [C-0617](../citations/C-0617-signalen-olaus-fredberg-filial-1899.md) | |
+| 1925-08-06 | **Död i Tureberg, Sollentuna**, 72 år gammal, som gift före detta bangårdsmästare. | [C-0475](../citations/C-0475-sollentuna-FI7-olaus-fredberg-dod-1925.md) | Dödsrunan anger ordinarie SJ-tjänst från 1876, befordran 1883 och ansvaret för växlingsarbetet på den då trånga bangården. |
+| 1925-08-12 | **Gravsatt på Sollentuna kyrkogård, kvarter 07, gravplats 012** — familjegraven där **sex av hans barn** och sonen Johannes senare gravsattes. | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Familjens dödsannons preciserar jordfästningen till Sollentuna kyrka klockan 15. Gravregistrets datum stämmer exakt med dödbokens. |
+
+## Biografisk sammanfattning
+
+Olaus Fredberg är den mest genomarbetade personen i hela släktträdet — och
+den som trots det saknar sin egen födelsenotis. Hans akt rymmer **155
+påståenden**, och det är i grunden två historier: en ovanligt rik
+yrkesbiografi och ett olöst ursprung.
+
+**Yrkeslivet** är belagt bättre än någon annans i kohorten, delvis för att
+det syntes i pressen. Han kom till Stockholm i juni 1876, registrerad som
+**före detta gardist**, och gick samma år in i ordinarie tjänst vid **Statens
+järnvägar**. Vid sonens födelse 1878 är han stationskarl och bor i
+`Jernvägsportvakten`. År **1883 befordrades han till stationskarlsförman**,
+1899 valdes han till **filialrepresentant** i fackföreningen, och under
+omkring tjugo år var han enligt tidskriften *Signalen* **praktisk ledare för
+det yttre arbetet i Centralstationens persontrafik**. Folkräkningen 1910
+kallar honom **bangårdsmästare**. Den **1 oktober 1915** slutade han efter
+**fyrtio års järnvägsarbete**.
+
+Han gifte sig två gånger. Den 20 september 1877 vigdes han i **Hemsjö** med
+**Britta Stina Svensdotter** — Kungsholms egen vigselbok saknade paret, och
+posten fanns i brudens församling. Hon dog av lungsot 1886, och två år senare
+gifte han om sig med Johanna Charlotta Jansson. Barnen från båda äktenskapen
+blev många; dödsrunan 1925 nämner att **tre av dem gått in i järnvägstjänst**.
+
+Han dog i **Tureberg i Sollentuna den 6 augusti 1925**, sjuttiotvå år gammal,
+och gravsattes den 12 augusti i **familjegraven på Sollentuna kyrkogård,
+kvarter 07 gravplats 012** — där sex av hans barn och sonen Johannes senare
+lades.
+
+**Ursprunget är däremot olöst, och det är inte för att ingen har letat.** Tre
+olika födelseuppgifter konkurrerar: fyra kyrkoboksnära källor ger
+**1852-05-24**, Alnö och sju rotemansposter ger **1852-09-04**, och
+mantalslängden 1877 ger **födelseåret 53**. Hela födelseåret 1852 är
+genomläst i **Stora Lundby, Lundby på Hisingen, Norra Lundby och Torhamn**
+utan en enda Olaus som passar; Södra Lundbys material är läsesalsbundet. Hans
+flyttkedja är däremot säkrad ända från **Lundby → Björknäs i Östra Fågelvik
+1873 → Alnön → Stockholm 1876** — efter en rättelse, eftersom vägen först
+routades till fel Fågelvik.
+
+Också uppgiften att han var **gardist** är obekräftad: Svea livgardes och
+Göta livgardes register och rullor är genomsökta utan honom.
+
+Det som återstår är nästan uteslutande **analogt eller läsesalsbundet**:
+Östra Fågelviks attester H II/5, Stora Lundbys lysningshandlingar H V/1–2,
+Älvsborgs landskontors mantalsvolymer, de militära rullorna, och SJ:s egen
+**personalakt `SE/GLA/16066/F 1 A/4`** — routad exakt på hans födelseår, namn
+och trafikstationsarbete, men aldrig läst och vars existens inte får
+förutsättas.
+
+En väg har däremot **öppnats**: hela årgången 1877 av Stockholms
+mantalslängder visade sig vara **digitaliserad**, och formulärets kolumn
+`Nummer å Mantalsuppgiften` motsvarar just det nummer **1217** som registret
+gav. Kvar är att hitta Kungsholmsvolymen i följden.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

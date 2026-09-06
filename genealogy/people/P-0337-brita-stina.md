@@ -43,6 +43,51 @@ fastighets- och adresskontext.
 | A-3169 | Tre riktade Riksarkivet-frågor för Stockholms rådhusrätts bouppteckningar och Kungsholm 1886 identifierade ingen relevant serie eller volym. | NEGATIVE | hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Katalog- och frågebundet noll; ingen aktfrånvaro infereras. |
 | A-3182 | Brita Stinas skattefamilj är villkorad av läsning av maken Olaus Fredbergs exakta mantalsuppgift 1877, Kungsholmen nr 1217, eftersom det offentliga registret utelämnar kvinnor. | LEAD | hög | [C-0649](../citations/C-0649-kungsholm-15-kungsholmsgatan-och-mantalsvag.md), [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Exakt hushållsväg, inte en positiv Brita Stina-post eller ett registernoll för henne. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1851-05-09 | **Född i Västra Bodarne, Hemsjö**, döpt 11 maj; dotter till **åbon Sven Olofsson och Catharina Andersdotter**. Modern uppges vara 36 år. | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md) | **Egen födelsenotis**, bekräftad av barndomshushållet. |
+| 1850-talet–1877 | Barn i föräldrahushållet i Västra Bodarne, Hemsjö A I/4 sida 98, med **fem namngivna syskon**. | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Syskonen bevaras som hushållskontext utan egna personposter. |
+| omkring 1870-talet | Egen rad i **Hemsjö A I/5 sida 138**, `Andra Roten`, Västerbodarne: `P. Britta Stina`, född 1851-05-09. | [C-0479](../citations/C-0479-hemsjo-AI5-britta-stina-sida-138.md) | Raden saknar patronymikon; **två samtidiga foliohänvisningar** binder den ändå till henne. A I/5:s registerförda Västra Bodarne-avsnitt s. 322–330 gav ingen fortsättning för familjen — ett avgränsat sidintervallsnoll. |
+| 1877-08-19, 08-26, 09-02 | **Lyst i Hemsjö** tre söndagar. | [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md) | |
+| 1877-09-20 | **Vigd i Hemsjö** med Olaus Fredberg Fredriksson; hon kallas **hemmadotter från Västerbodarne**, han stationskarl från Stockholm Kungsholm. | [C-0477](../citations/C-0477-hemsjo-E1-olaus-fredberg-britta-stina-vigsel-1877.md) | Kungsholm E II/3:s hela vigselföljd 1876–1878 saknar paret — **avgränsat noll, upplöst av posten i hennes egen församling**. Vigselraden anger att ett prästbetyg lämnades för Olaus. |
+| 1877-09-28 | **Utflyttar från Västerbodarne till Stockholm** som `Svensdotter Brita Stina, hust.`; flyttlängden hänvisar till folio 138. | [C-0478](../citations/C-0478-hemsjo-B1-britta-stina-utflyttning-stockholm-1877.md) | **Åtta dagar efter vigseln.** Kungsholm B I/16:s fulla F- och S-namnsektioner 1876–1878 gav ingen säker post för henne — ett namnsektionsnoll, inte ett personnoll. |
+| 1878 | Sonen **Robert Nicolaus** föds; hon uppges vara 27 år, och föräldrarna bor vid `Jernvägsportvakten`. | [C-0382](../citations/C-0382-kungsholm-CI13-robert-nicolaus-fredberg-1878.md) | Åldern stämmer med födelsedatumet 1851-05-09. |
+| 1878–1886 | **Fyra barn**: Robert Nicolaus, **Johannes Ivar**, Frida Elisabeth och Ruth Fredrika. | [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md), [C-0326](../citations/C-0326-riksarkivet-folkrakning-1880-kungsholm-fredbergfamilj.md) | Johannes Ivar är den direkta anan. |
+| 1885–1886 | I fastigheten **Jordgubben 1–5, littera D 1** med make och fyra barn; adressfältet nämner bland annat Fleminggatan 35–37. | [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) | De parallella gatunamnen i rotemansposten är **inte separata flyttar**. |
+| 1886-10-01 | **Död i Kungsholm av `Lungsot`**, 35 år gammal; begravd 7 oktober. | [C-0651](../citations/C-0651-kungsholm-FI9-brita-stina-fredberg-dod-1886.md) | Kungsholm F I/9 sida 179 post 365. Hemvisten står i den korta formen **`37 D`** och **dödsortsfältet är tomt** — ingen gata eller dödsort fylls ut genom inferens. Datumet bekräftas oberoende i makens lysningsakt 1888. |
+
+## Biografisk sammanfattning
+
+Britta Stina Svensdotter föddes den **9 maj 1851 i Västra Bodarne i Hemsjö**
+och döptes två dagar senare, dotter till **åbon Sven Olofsson och Catharina
+Andersdotter**. Hon växte upp där med fem syskon, och som ung kvinna har hon
+en egen rad i husförhörslängden — `P. Britta Stina` i Andra Roten — utan
+utskrivet patronymikon, men bunden till henne av två samtidiga
+foliohänvisningar.
+
+Hennes liv vände hastigt hösten 1877. Den **20 september** vigdes hon i
+Hemsjö med **Olaus Fredberg Fredriksson**, stationskarl i Stockholm; hon
+kallas i vigselboken **hemmadotter från Västerbodarne**. **Åtta dagar
+senare**, den 28 september, är hon utflyttad till Stockholm.
+
+Att just den vigseln hittades krävde att man slutade leta i mannens
+församling: Kungsholms hela vigselföljd för 1876–1878 saknar paret. Posten
+låg i **hennes** församling.
+
+I Stockholm bodde familjen i **Jordgubben på Kungsholmen**, i kvarteret kring
+Fleminggatan, och där föddes **fyra barn** på åtta år — Robert Nicolaus
+1878, **Johannes Ivar**, Frida Elisabeth och Ruth Fredrika.
+
+Den **1 oktober 1886** dog hon av **lungsot**, trettiofem år gammal, och
+begravdes den 7 oktober. Hennes dödspost är kort och sparsam: hemvisten står
+bara som `37 D`, och **dödsortsfältet är tomt** — akten fyller uttryckligen
+inte i vad källan utelämnar. Hon lämnade fyra barn, det yngsta mycket litet.
+
+Två år efter hennes död gifte maken om sig, och det är hans lysningsakt som
+oberoende bekräftar hennes dödsdag: **änkling sedan 1886-10-01**.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
