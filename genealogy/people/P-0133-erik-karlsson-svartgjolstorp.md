@@ -121,6 +121,80 @@ födelseboken 1881 och `Erik Karlsson` i Flens församlingsbok.
 | A-3116 | TORA:s Väsby-kandidat 14996 ligger i Helgesta, medan Rosenberg beskriver Wäsby i Flen under Mälby i Helgesta och personkällorna för Eriks kedja mellan Flen och Helgesta. | CONFLICT | medel | [C-0817](../citations/C-0817-riksarkivet-mcp-tora-erik-karlsson.md), [C-0814](../citations/C-0814-riksarkivet-mcp-rosenberg-erik-karlsson.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md), [C-0799](../citations/C-0799-helgesta-B4-erik-karlsson-januari-1909.md) | Administrativ eller tidsmässig ortstillhörighet hålls källspecifik; TORA-posten ensam identifierar inte Eriks Wäsby. |
 | A-3117 | TORA:s socken-/länsfilter gav noll även för de ofiltrerat positiva kontrollorterna Glippsta och Malstanäs; mindre orters noll och homonymerna Bergatorp/Brosätter är därför inte ort-, person- eller vistelsenoll. | TRANSCRIBED | hög | [C-0817](../citations/C-0817-riksarkivet-mcp-tora-erik-karlsson.md) | Ofiltrerad namnkontroll och församling/kommunjämförelse krävs innan en träff eller ett nollresultat får användas. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1851-01-30 | **Född i Bettna**, son till soldaten **Carl Fredrik Grill** och **Johanna Jansdotter**; egen födelsenotis i Bettna C/5. | [C-0147](../citations/C-0147-bettna-1851-negativ-kontroll-erik-karlsson.md) | **Rättelse:** ett äldre nollresultat sa att posten saknades. Omläsningen 2026-08-31 fann Erik på exakt datum; dopnamnet `Gustaf Oscar` är överstruket före den kvarstående namnformen. A-0809 står som `REJECTED`. |
+| 1851–1867 | Son i soldathushållet vid **Östra Soldattorp nr 38 under Hagby**, Bettna; följt i A I/13a, A I/16b s. 201 och i SCB:s utdrag 1860 och 1870. | [C-0729](../citations/C-0729-bettna-AI16b-sida201-scb1870-grill-erik.md), [C-0749](../citations/C-0749-scb1860-bettna-erik-grill.md) | Namnet **Grill** är faderns soldatnamn. SCB 1860 visar sonen `E.` född 1851 i hushållet. |
+| 1867 | Intern flytt inom Bettna: hushållsraden bär hänvisningen `p. 185`, år `67`, och sida 185 återkopplar till s. 201. | [C-0741](../citations/C-0741-bettna-forssa-erik-grill-1867-1875.md) | Bettna B/3a:s **hela** utflyttningsår 1867, poster 1–73, saknar honom — flytten var intern. |
+| 1868-11-01 | Flyttar som **dräng Erik Grill** från Bettna till **Sjöstugan i Forssa**, folio 100, med attest 47. | [C-0741](../citations/C-0741-bettna-forssa-erik-grill-1867-1875.md) | Reciprokt belagt i Forssa B/3, A I/13 s. 100 och A I/14 s. 99. |
+| 1870 | SCB:s Forssa-utdrag: `Grill, Erik, Dräng`, född 1851 i Bettna, **ogift**. | [C-0746](../citations/C-0746-scb1870-forssa-erik-grill.md) | Radordningen efter samma familj som står överst på A I/13 s. 100 korroborerar vistelsen. |
+| 1876-04-28 | Flyttar från **Långviken i Årdala** till Forssa; registreras i **Stafsjön** 1876-04-30. | [C-0156](../citations/C-0156-erik-anna-ardala-B3-utflyttade-1876.md), [C-0155](../citations/C-0155-erik-carlsson-forssa-B3-inflyttad-1876.md) | Åren 1871–1875 är den svagaste delen av kedjan: Årdala B/3:s hela inflyttningsföljd 1875 och Forssa B/3:s hela utflyttningsföljd 1875 saknar honom. |
+| 1876-09-17 | **Vigd i Årdala** med **Anna Christina Larsdotter**; han torpare i Stafsjön. | [C-0154](../citations/C-0154-erik-anna-ardala-C7-vigsel-1876.md) | Originalvigselnotis; uppgiften återkommer i Forssa A I/15 och A I/16. |
+| 1877–1885 | **Fem barn** föds i Forssa: Anna Erika 1877, Erik Arvid 1879, **Axel Edvard 1881-03-20**, Elli Maria Sofia 1883-07-02 och Karl Oskar 1885-12-08. | [C-0767](../citations/C-0767-forssa-C6-erik-arvid-fodd-1879.md), [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md), [C-0768](../citations/C-0768-forssa-C6-maria-sofia-fodd-1883.md), [C-0769](../citations/C-0769-forssa-C6-carl-oskar-fodd-1885.md) | Axel Edvard är den direkta anan. |
+| 1879–1890 | **Torpare vid Svartgjölstorp under Malstanäs** i Forssa. | [C-0105](../citations/C-0105-erik-carlsson-svartgjotorp-1880.md), [C-0401](../citations/C-0401-folkrakning-1890-forsa-svartgjolstorp-karlsson.md) | Folkräkningen 1880 och husförhörslängderna. |
+| 1887-10-14 | Dottern **Albertina** föds, nöddöps och dör samma dag. | [C-0399](../citations/C-0399-forssa-C7-albertina-fodd-1887.md) | |
+| 1887-10-27 | **Hustrun Anna Christina dör**, tretton dagar senare, i lunginflammation. | [C-0400](../citations/C-0400-forssa-C7-albertina-anna-christina-doda-1887.md) | Han blir änkling med fem barn, det yngsta knappt två år. |
+| 1890 | **Torpare och änkling i Svartgjölstorp** med fem barn födda 1877–1885. | [C-0401](../citations/C-0401-folkrakning-1890-forsa-svartgjolstorp-karlsson.md), [C-0398](../citations/C-0398-forssa-AI17-svartgjolstorp-sida-83.md) | |
+| 1895-12-28 | **Gifter om sig i Flen** med **Matilda Charlotta Sjöberg**; han torpare vid Bergatorp, hon piga i källformen `Karsäter`. | [C-0579](../citations/C-0579-flen-AI26-AIIa1-bergatorp-erik-matilda.md), [C-0499](../citations/C-0499-folkrakning-1900-erik-karlsson-bergatorp.md) | Åtta år som ensam far. |
+| 1900–1901 | Torpare i **Bergatorp**, från 1901-10-10 i **Brosätter** i Flen; hushållet omfattar Matilda Charlotta, Axel Edvard, Karl Oskar och fostersonen Sven Arvid. | [C-0499](../citations/C-0499-folkrakning-1900-erik-karlsson-bergatorp.md), [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) | |
+| 1907-10 → 1909-01-18 | Vidare inom Flen: **Segerslund** (s. 216 → s. 185 → s. 224) och **Wäsby** (s. 255), därefter utflyttning till Helgesta. | [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Fyra hushållssidor i följd med interna hänvisningar. |
+| 1909-01-22 | Tas emot i **Helgesta**, sida 313 → 315; Helgesta B/4 bild 62 visar honom som **arbetare** med hustru och ett barn. | [C-0799](../citations/C-0799-helgesta-B4-erik-karlsson-januari-1909.md) | Ställningen har gått från torpare till arbetare. |
+| 1910 | Bor i **Vilhelmsro i Helgesta**, gift med Matilda Charlotta. | [C-0500](../citations/C-0500-folkrakning-1910-erik-karlsson-vilhelmsro.md) | |
+| 1920 | **Änkling för andra gången**: Matilda Charlotta dör; SCB:s utdrag från Flens länslasarett belägger dödsfallet. | [C-0773](../citations/C-0773-scb-flens-lanslasarett-matilda-karlsson-dod-1920.md), [C-0501](../citations/C-0501-folkrakning-1930-erik-karlsson-helgesta-alderdomshem.md) | SCB:s församlingsboksutdrag 1920 för Helgesta omfattar 31 bilder; **tre OCR-pass nominerade fem ytor, alla avvisade — men ingen fullständig visuell läsning är gjord**. |
+| 1930-02-25 | **Understödstagare vid Helgesta ålderdomshem**; A II a/6 för honom från sida 203 till hemmets sida 160 och vidare till A II a/7 sida 177. | [C-0501](../citations/C-0501-folkrakning-1930-erik-karlsson-helgesta-alderdomshem.md), [C-0502](../citations/C-0502-helgesta-AIIa6-AIIa7-erik-karlsson-1927-1935.md) | Civilståndsuppgiften bär en konflikt (A-2292). |
+| 1935-03-20 | **Död på långtidsvårdhem i Katrineholm**, begravd 24 mars; dödsorsaken skrivs **`Marasmus senilis`**. | [C-0503](../citations/C-0503-helgesta-F2-erik-karlsson-dod-1935.md), [C-0502](../citations/C-0502-helgesta-AIIa6-AIIa7-erik-karlsson-1927-1935.md) | Historisk källterm utan modern omtolkning. Han blev 84 år. |
+
+## Biografisk sammanfattning
+
+Erik Karlsson är den mest fullständigt dokumenterade personen i hela
+djup 5-kohorten, och hans liv spänner över **åttiofyra år och tre
+samhällsformer**: soldattorpet, torparlängden och ålderdomshemmet.
+
+Han föddes den **30 januari 1851 i Bettna** som son till soldaten **Carl
+Fredrik Grill** och Johanna Jansdotter, i Östra Soldattorp nr 38 under Hagby.
+Att detta kan sägas är resultatet av en rättelse: ett tidigare nollresultat
+hade slagit fast att Bettnas födelsebok saknade honom på det uppgivna
+datumet. Omläsningen fann honom där — med dopnamnet `Gustaf Oscar`
+överstruket före den namnform som blev kvar. Som ung bar han faderns
+soldatnamn **Grill**; först som vuxen skrivs han Karlsson eller Carlsson.
+
+Vid sjutton flyttade han hemifrån. I november 1868 gick han som dräng från
+Bettna till **Sjöstugan i Forssa**, och 1870 finns han där som ogift dräng i
+SCB:s utdrag. Åren 1871–1875 är kedjans svagaste led — hela årgångar i två
+församlingars flyttlängder saknar honom — men i april 1876 dyker han upp igen,
+nu från **Långviken i Årdala**, och i september samma år vigdes han där med
+**Anna Christina Larsdotter**.
+
+De elva följande åren var hans bästa. Han blev **torpare vid Svartgjölstorp
+under Malstanäs**, och sex barn föddes — bland dem **Axel Edvard 1881**, som
+är den direkta anan. Sedan kom oktober 1887. Den 14 oktober föddes dottern
+Albertina, nöddöptes och dog samma dag. Tretton dagar senare dog **Anna
+Christina av lunginflammation**, trettiofem år gammal. Han stod ensam med fem
+barn, det yngsta knappt två år.
+
+I åtta år var han änkling och torpare. Först den **28 december 1895** gifte
+han om sig, med **Matilda Charlotta Sjöberg**, och därefter börjar en lång
+nedförsbacke som källorna följer nästan år för år: Bergatorp, Brosätter,
+Segerslund, Wäsby — fyra hushållssidor i Flen på tio år — och 1909 flytten
+till **Helgesta**, där han inte längre skrivs torpare utan **arbetare**.
+Omkring 1920 blev han änkling en andra gång.
+
+Den 25 februari 1930, sjuttionio år gammal, fördes han in på **Helgesta
+ålderdomshem** som understödstagare. Fem år senare, den **20 mars 1935**, dog
+han på ett långtidsvårdhem i Katrineholm. Dödboken skriver `Marasmus
+senilis` — ålderdomsavtyning.
+
+Det som fattas i den här ovanligt täta bilden är därför inte hans liv utan
+**vad det kostade**. Bouppteckningen efter honom är exakt lokaliserad till
+Villåttinge F II/59 men är analog och läsesalsbunden, liksom kortregistret
+C II b/5. Samma sak gäller de kommunala källorna: **Helgesta
+fattigvårdsnämnds D 2:1 för 1923–1936 är den första personförda originalvägen
+till hans understöd och intagning**, och den saknar digital bild. Och åren
+1871–1875 samt hans andra änkeår omkring 1920 är fortfarande obelagda i
+detalj.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

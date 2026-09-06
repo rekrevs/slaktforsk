@@ -32,6 +32,57 @@ dottern Albertina.
 
 | A-3152 | Forssa kommunalnämnds G 4/1, 1863–1893, är en exakt analog debiterings- och uppbördsväg över Anna Christinas säkra Forssaperiod 1876–1887. | TRANSCRIBED | hög | [C-0805](../citations/C-0805-riksarkivet-forssa-helgesta-kommunalskatt.md), [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Ingen personförd originalrad, skatt, inkomst eller närvaro är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1852-03-21 | **Uppgiven födelsedag i Årdala.** | [C-0148](../citations/C-0148-erik-anna-forssa-AI15-sida-116.md), [C-0149](../citations/C-0149-erik-anna-forssa-AI16-sida-83.md) | **KONFLIKT.** Dödboken 1887 anger åldern 35 år 7 månader 6 dagar, vilket ger samma dag. Men **Årdala C/4 och C/5 saknar henne runt datumet** ([C-0151](../citations/C-0151-ardala-1852-negativ-kontroll-anna-christina.md)) — en uttryckligen avgränsad kontroll; hela årgången är inte läst. |
+| 1852–1876 | Dotter till **torparen Lars Erik Jansson och Brita Christina Ersdotter i Carlberg**, Årdala, med **fem syskon**; följd via Missingstorp och Långviken. | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md), [C-0159](../citations/C-0159-anna-christina-ardala-AI13-missingstorp.md), [C-0158](../citations/C-0158-erik-anna-ardala-AI14-sida-190.md) | Föräldrahushållet namnger båda föräldrarna; vigselnotisen bekräftar fadern. |
+| 1876-09-17 | **Vigd i Årdala** med torparen Erik Carlsson. | [C-0154](../citations/C-0154-erik-anna-ardala-C7-vigsel-1876.md) | Originalvigselnotis; uppgiften återkommer i två Forssalängder. |
+| 1876-10-18 | Flyttar som hustru från **Långviken i Årdala till Forssa**. | [C-0156](../citations/C-0156-erik-anna-ardala-B3-utflyttade-1876.md), [C-0158](../citations/C-0158-erik-anna-ardala-AI14-sida-190.md) | Flyttlängd och husförhörslängd överensstämmer. |
+| 1877 | Dottern **Anna Erika** föds i Forssa. | [C-0105](../citations/C-0105-erik-carlsson-svartgjotorp-1880.md) | |
+| 1879 | Sonen **Erik Arvid** föds. | [C-0767](../citations/C-0767-forssa-C6-erik-arvid-fodd-1879.md) | |
+| 1881-03-20 | Sonen **Axel Edvard** föds som parets **tredje** barn; ordningstalet `(3:e)` står vid dopnamnet, och hennes ålder anges till 30 år. | [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) | Direkt ana. |
+| 1883-07-02 | Dottern **Elli Maria Sofia** föds. | [C-0768](../citations/C-0768-forssa-C6-maria-sofia-fodd-1883.md) | |
+| 1885-12-08 | Sonen **Karl Oskar** föds. | [C-0769](../citations/C-0769-forssa-C6-carl-oskar-fodd-1885.md) | |
+| 1876–1887 | **Torparhustru vid Svartgjölstorp under Malstanäs** i Forssa. | [C-0105](../citations/C-0105-erik-carlsson-svartgjotorp-1880.md) | |
+| 1887-10-14 | Föder dottern **Albertina**, som **nöddöps och dör samma dag**. | [C-0399](../citations/C-0399-forssa-C7-albertina-fodd-1887.md) | Sjätte barnet. |
+| 1887-10-27 | **Död i Svartgjölstorp**, 35 år 7 månader och 6 dagar gammal; dödsorsaken skrivs **`Lunginflammation`**. Begravd 30 oktober. | [C-0400](../citations/C-0400-forssa-C7-albertina-anna-christina-doda-1887.md), [C-0398](../citations/C-0398-forssa-AI17-svartgjolstorp-sida-83.md) | **Tretton dagar efter barnet.** Tidsföljden är belagd; inget medicinskt orsakssamband infereras. |
+| 1887 | **Bouppteckning** efter henne registreras: Villåttinge häradsrätt **F II:26 nr 342**. | [C-0758](../citations/C-0758-anna-christina-larsdotter-bouppteckningsregister-1887.md) | Registerposten namnger henne som hustru i Svartsjötorp, Forssa, med torparen `Carlson, Erik` som make. **Akten är analog och oläst.** |
+
+## Biografisk sammanfattning
+
+Anna Christina Larsdotter levde trettiofem år, och de sista elva av dem är
+tätt dokumenterade.
+
+Hon uppges vara född den **21 mars 1852 i Årdala**, dotter till torparen
+**Lars Erik Jansson och Brita Christina Ersdotter i Carlberg**, med fem
+syskon. Föräldrarna är säkra — hushållet namnger dem båda, och vigselnotisen
+1876 bekräftar fadern — men **hennes egen födelsepost har aldrig hittats**.
+Årdalas två parallella födelseböcker är kontrollerade *runt* det uppgivna
+datumet och saknar henne. Kontrollen är uttryckligen avgränsad; hela årgången
+är inte läst, och ingen läsning har gjorts på **föräldranamnen** i stället för
+på dagen. Att dödboken 1887 anger åldern **35 år 7 månader och 6 dagar** —
+vilket räknat bakåt ger exakt 21 mars 1852 — gör datumet troligt men inte
+belagt i original.
+
+Den 17 september 1876 vigdes hon i Årdala med torparen **Erik Carlsson**, och
+en månad senare flyttade hon från Långviken till Forssa. Där, vid
+**Svartgjölstorp under Malstanäs**, levde hon resten av sitt liv och födde
+**sex barn på tio år**: Anna Erika 1877, Erik Arvid 1879, **Axel Edvard 1881**
+— som är den direkta anan och som födelseboken uttryckligen kallar det tredje
+barnet — Elli Maria Sofia 1883, Karl Oskar 1885, och sist Albertina.
+
+Albertina föddes den **14 oktober 1887**, nöddöptes och dog samma dag.
+Tretton dagar senare, den **27 oktober**, dog Anna Christina själv i
+lunginflammation. Hon var trettiofem år, sju månader och sex dagar. Fem barn
+överlevde henne, det yngsta ett år och tio månader.
+
+Bouppteckningen efter henne finns och är exakt lokaliserad — **Villåttinge
+häradsrätt F II:26 nummer 342** — men akten är analog och oläst. Den är det
+enda dokument som skulle säga vad hushållet vid Svartgjölstorp ägde och vilka
+som ärvde henne.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

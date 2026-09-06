@@ -3493,3 +3493,25 @@ kön**: hinderomprövningar först, sedan olästa årgångar, sedan sveparbete.
   **nitton ohindrade forskningsvägar** ligger nu i kön, mot noll när
   granskningen började.
 - Revisit when: `T-0092` är utförd, eller när nästa fyra par är granskade.
+
+### Rättelse 2026-09-06 till PCR-2026-09-06-009
+
+Granskningen av par 8 samma dag visar att **omfattningen ovan var för stor**.
+Två av de tre volymgrupper som beskrevs som oprövade var **redan omprövade**;
+felet var att endast det äldre påståendet i personakten lästes, inte det
+senare som upphäver det:
+
+- **Forssa H II/1** för P-0133 är omprövat inloggat 2026-09-05 tillsammans med
+  Villåttinge C II b/5 och F II/59, Flen P I/1 och D14/10. CAPTCHA-hindret
+  försvann, men samtliga visar fortsatt endast `Läsesal` (A-2954, C-0757).
+- **P-0336:s spärrade rutter** öppnades efter ägarens egen CAPTCHA-lösning;
+  samtliga elva visade `Läsesal` (A-2963, C-0762).
+
+Mönstret i sig kvarstår — det är belagt av tre upphävda besked — men efter
+kontroll återstår **en** oprövad volymgrupp: **Gryts C- och E-serier** för
+P-0110 och P-0111, daterade 2026-08-20.
+
+`T-0092` är rättad i enlighet med detta och har fått ett andra utfall: en
+**förteckning över vilka åtkomstbesked som är aktuella och vilka som är
+daterade**, så att en redan gjord kontroll inte upprepas. Just den
+förteckningen är sannolikt uppgiftens mest bestående värde.
