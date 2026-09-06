@@ -34,6 +34,8 @@ nå hans föräldrar.
 | A-3385 | Hushållet överfördes 1951 till Lidingös nästa församlingsbok, uppslag 1718–1719. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Nästa källväg för 1951–1962. |
 | A-3396 | Han gravsattes 2018-05-11 på Floby kyrkogård, kvarter P, gravplats 330 (FLP 330), med hemorten Falköping. | TRANSCRIBED | hög | [C-0904](../citations/C-0904-svenskagravar-ivar-gunnar-emanuel-hook-floby.md) | Gravregistret bekräftar även födelse- och dödsdatum. |
 | A-3397 | Gravregistret skriver namnet Ivar Gunnar Emanuel Höök, samma ordning som Lidingös församlingsbok 1946. | CORROBORATED | hög | [C-0904](../citations/C-0904-svenskagravar-ivar-gunnar-emanuel-hook-floby.md) | Två oberoende källor mot familjens senare `Gunnar Ivar Emanuel` (A-1721); konflikten bevaras och tilltalsnamnet Gunnar är ostridigt. |
+| A-3398 | Enligt ägaren flyttade familjen till Floby omkring mitten av 1960-talet, efter dotterns födelse. | TRANSCRIBED | hög | [C-0905](../citations/C-0905-anvandarens-uppgift-floby-flytten.md) | Ägarens familjekunskap; preciserar sekvensen mot minnesordens årtal 1967 (A-3377). Dotterns uppgifter minimeras. |
+| A-3399 | De yrkesutlösta källfamiljerna för hans generation är antingen analoga, förvarade utanför Riksarkivets katalog eller avslutade före hans tid: Värnpliktsverkets arkiv börjar 1968, kommunala skolarkiv saknas i NAD, lagfartsböckerna slutar 1933 och ingen lärarmatrikel efter 1889 påträffades. | CORROBORATED | hög | [C-0906](../citations/C-0906-yrkeskallor-for-gunnar-hook-katalogprov.md) | Dokumenterat åtkomstläge, inte personnoll; yrkeslivet är i sak belagt genom C-0901. |
 
 ## Relationer
 
@@ -83,7 +85,7 @@ Spara endast det som behövs för att fastställa nästa historiska generation.
 | 1946–1962 | **Materiell lucka**: skolgång, lärarutbildning, värnplikt | okänt | — | — | profil Q-02 |
 | 1962 | Vigsel; paret möttes på Ibra radio i Stockholm | Stockholm | lärare | — | C-0901 |
 | 1962–1967 | **Materiell lucka**: bostad och tjänst före Floby | okänt | lärare | — | profil Q-02 |
-| 1967 | Flytt till Floby; studierektor på Flobyskolan | Floby | studierektor | hustru och barn | C-0901 |
+| mitten av 1960-talet, enligt minnesorden 1967 | Flytt till Floby efter dotterns födelse; studierektor på Flobyskolan | Stockholmstrakten → Floby | studierektor | hustru och barn | C-0901, C-0905 |
 | efter 1967 | Rektor på Fredriksbergskolan; kulturnämnden i Västra Götalands län; Liberalerna och FN-engagemang | Falköping | rektor | — | C-0901 |
 | 2008 | Karl Staaff-medaljen i silver | — | — | — | C-0901 |
 | 1948 | Tävlar för Lidingö, 15 år, enligt IFK Lidingös statistik | Lidingö | — | — | C-0228 (LEAD) |
@@ -108,7 +110,7 @@ sekundärsidan i Falköping (C-0268, C-0236).
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0072: **födelseposten är funnen och läst** (Engelbrekt 1933 nr 54, C-0902) och hela hushållet är belagt i Lidingös församlingsbok 1946–1951 (C-0903). Q-01 är därmed avgjord. Gravposten är läst (C-0904). Kvar: Lidingö uppslag 1718–1719 (1951–1962) och de yrkes- och föreningsutlösta källorna för lärarbanan, Liberalerna, FN-föreningen, kulturnämnden i Västra Götalands län och Karl Staaff-medaljen 2008.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0072: **födelseposten är funnen och läst** (Engelbrekt 1933 nr 54, C-0902) och hela hushållet är belagt i Lidingös församlingsbok 1946–1951 (C-0903). Q-01 är därmed avgjord. Gravposten är läst (C-0904). Gravposten är läst (C-0904), ägaren har lämnat flyttsekvensen (C-0905) och de yrkesutlösta källfamiljerna är katalogprövade med dokumenterat åtkomstläge (C-0906). Kvar som villkorliga vägar: Lidingö uppslag 1718–1719 (1951–1962), inskrivningsmyndighetens analoga handlingar, Falköpings kommunarkiv och Liberalernas/FN-föreningens föreningsarkiv.
 
 Tidigare rad 2026-09-06, bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-06 med minnesorden (C-0901): födelseorten flyttas till Stockholm mars 1933, återkomsten till Sverige dateras till 1946 och hela vuxenlivet får en sammanhängande linje. Kvar: samtida födelsepost i Stockholm, Lidingös inflyttning 1946 och de nya förenings-/skolvägarna (profil KP-01–KP-03).
 

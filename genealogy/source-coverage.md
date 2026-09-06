@@ -961,11 +961,14 @@ det tidigare läget att P-0212 saknade matrisrad.
 
 | Person | Nuvarande kärnfråga | F | H | M | V | D | R | B | T | J | O |
 |---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| P-0212 Ivar Gunnar Emanuel Höök | födelse, föräldrar, barndom i Indien, återkomst 1946, yrkesbana och död är belagda; kvar är de yrkes- och föreningsutlösta källorna för lärartjänsterna, Liberalerna, FN-föreningen, kulturnämnden i Västra Götalands län och Karl Staaff-medaljen 2008, samt Lidingö uppslag 1718–1719 för 1951–1962 | `✓` | `✓` | `✓` | `I` | `✓` | `✓` | `S` | `—` | `—` | `1` |
+| P-0212 Ivar Gunnar Emanuel Höök | födelse, föräldrar, barndom i Indien, återkomst 1946, yrkesbana och död är belagda; de yrkesutlösta källfamiljerna är katalogprövade 2026-09-06 och visade sig analoga, kommunala eller avslutade före hans tid, C-0906; kvarvarande villkorliga vägar är Lidingö uppslag 1718–1719 för 1951–1962, inskrivningsmyndighetens handlingar, Falköpings kommunarkiv och föreningsarkiven | `✓` | `✓` | `✓` | `I` | `✓` | `✓` | `S` | `—` | `—` | `S` |
 
 `F` Engelbrekt 1933 post 54, C-0902. `H` och `M` Lidingö A II a/29 uppslag
 1341, C-0903. `V` vigsel 1962 med sannolikt levande maka, endast
 minnesordsuppgift, integritetsminimerad. `D` gravpost Floby, C-0904.
 `R` SCB-utdraget 1933, C-0902. `B` bouppteckning 2017 finns hos Skatteverket
 och är inte nätåtkomlig. `T` och `J` saknar saklig trigger för en person född
-1933. `O` är den enda oprövade högprioriterade källfamiljen.
+1933. `O` prövades i T-0078: Värnpliktsverkets arkiv börjar 1968, kommunala
+skolarkiv saknas i NAD, lagfartsböckerna slutar 1933 och ingen lärarmatrikel
+efter 1889 finns; kvarvarande vägar är analoga och delvis sekretessprövade,
+därav `S` i stället för `1`, C-0906.
