@@ -11,6 +11,7 @@ och konstrueras inte.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3002 | Oskar Fredrik var född 1895 i Kungsholm och stod 1900 och 1910 som ogift son/barn till Olaus Fredberg och Johanna Charlotta, först i Jordgubben N:o 11 och därefter i Gösen nr 4, 15. | CORROBORATED | hög | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | Edit står född 1894 år 1900 men 1895 år 1910; inget tvillingpåstående görs. Exakt datum och efternamn återstår. |
+| A-3557 | **Han föddes 1895-10-16 och dog 1966-10-30**, gravsatt 1966-11-19 i familjegraven på Sollentuna kyrkogård; registret skriver namnformen **Oscar**. | TRANSCRIBED | hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Exakt födelsedatum är nytt och bekräftar 1895 mot systern Edits 1894. |
 
 ## Relationer
 

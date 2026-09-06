@@ -11,6 +11,7 @@ inte.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3003 | Elvira Fredina Gully var född 1902 i Kungsholm och stod 1910 som ogift dotter/barn till Olaus Fredberg och Johanna Charlotta i Gösen nr 4, 15. | TRANSCRIBED | hög | [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | Folkräkningsregister och länkat mantalsutdrag; exakt datum och efternamn återstår. |
+| A-3558 | **Hon föddes 1902-11-28 och dog 1988-10-10**, gravsatt 1988-11-24 i familjegraven på Sollentuna kyrkogård, skriven i Sollentuna. | TRANSCRIBED | hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Exakt födelsedatum är nytt; hon var yngst av de gravsatta syskonen. |
 
 ## Relationer
 

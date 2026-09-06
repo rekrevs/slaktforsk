@@ -11,6 +11,7 @@ i originalen och konstrueras inte.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3000 | Ester Olivia Johanna var född 1891 i Kungsholm och stod 1900 och 1910 som ogift dotter/barn till Olaus Fredberg och Johanna Charlotta, först i Jordgubben N:o 11 och därefter i Gösen nr 4, 15. | CORROBORATED | hög | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | Två folkräkningsår med länkade original; exakt datum och efternamn återstår. |
+| A-3555 | **Hon föddes 1891-12-21 och dog 1967-11-09**; hon ligger i familjegraven på Sollentuna kyrkogård, skriven i Sollentuna. | TRANSCRIBED | hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Exakt födelsedatum är nytt; gravsättningsdag saknas i registret. |
 
 ## Relationer
 

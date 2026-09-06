@@ -11,6 +11,7 @@ i originalen och konstrueras inte.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2999 | Augusta Gerda/Gärda Charlotta var född 1890 i Kungsholm och stod 1900 och 1910 som ogift dotter/barn till Olaus Fredberg och Johanna Charlotta, först i Jordgubben N:o 11 och därefter i Gösen nr 4, 15. | CORROBORATED | hög | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | `Gerda` 1900 och `Gärda` 1910 bevaras som namnformer; exakt datum och efternamn återstår. |
+| A-3554 | **Hon föddes 1890-09-05 och dog 1975-05-31**, gravsatt 1975-06-18 i familjegraven på Sollentuna kyrkogård, skriven i Sollentuna. | TRANSCRIBED | hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Exakt födelsedatum är nytt; folkräkningarna gav bara året 1890. |
 
 ## Relationer
 

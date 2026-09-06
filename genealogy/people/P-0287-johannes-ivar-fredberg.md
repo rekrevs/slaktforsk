@@ -31,6 +31,7 @@ Johannes egen samtida kedja är nu säkrad från föräldrahushållet på Kungsh
 
 | A-2413 | Faderskapet till Ivar Höök är fastställt enligt ägarens säkra familjekunskap 2026-08-29 (`PCD-2026-08-29-001`). | OWNER_CONFIRMED | mycket hög | [PCD-2026-08-29-001](../../PROJECT-CONTROL.md#pcd-2026-08-29-001), [C-0545](../citations/C-0545-agarens-uppgift-johannes-ivar-fredberg-ar-ivars-far.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md), [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md) | Ersätter kravet på separat faderskapshandling som forskningsvillkor. |
 ## Relationer
+| A-3551 | **Han gravsattes 1949-02-16 på Sollentuna kyrkogård**, kvarter 07, gravplats 012, i faderns och halvsyskonens familjegrav; döden inträffade alltså kort dessförinnan. | TRANSCRIBED | hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md) | Bekräftar familjens uppgift att graven ligger i Sollentuna. Identifikationen vilar på att sex av Olaus Fredbergs barn, som projektet redan följer, ligger i samma grav med matchande födelseår. Registret saknar hans födelse- och dödsdatum; Sollentunas dödbok är oläst. |
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
@@ -71,7 +72,8 @@ det ägarfastställda faderskapet.
 | 1895-12-31 | Inflyttning från Ulrika Eleonora; s. 10 | Hudiksvall | yngling, icke konfirmerad | farbrodern Johan August Fredberg Fredriksson | C-0323, C-0325 |
 | 1900 | Folkräkning | Första kvarteret nr 5 a, Hudiksvall | slakteribiträde, ogift | farbroderns hushåll | C-0322 |
 | 1903-05-13 | Sonen Anders Ivar född (ägarfastställt faderskap) | Hudiksvall | — | — | PCD-2026-08-29-001 |
-| efter 1900 | **Materiell lucka**: boende, yrke, eventuell familj, död; grav uppgiven i Sollentuna | Tureberg? | — | — | profil Q-01, Q-02 |
+| efter 1900 | **Materiell lucka**: boende, yrke och eventuell familj | Sollentuna? | — | — | profil Q-01 |
+| 1949-02-16 | **Gravsatt i faderns familjegrav**, Sollentuna kyrkogård kvarter 07 gravplats 012; döden kort dessförinnan | Sollentuna | — | — | C-0945 |
 
 ## Biografisk sammanfattning
 

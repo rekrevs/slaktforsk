@@ -14,6 +14,7 @@ Folkräkningen 1900 placerar henne som ogift dotter/barn i faderns hushåll.
 | A-2249 | Frida Elisabeth Fredberg föddes 1883-01-29 i Kungsholm som dotter till Olaus Fredriksson Fredberg och Brita Stina Svensdotter. | CORROBORATED | hög | [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md), [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) | Retrospektiv lysningsakt och sammanlänkade rotemansposter sammanfaller. |
 | A-2250 | Rotemansarkivet följer henne i faderns hushåll från 1883 till 1907. | TRANSCRIBED | hög | [C-0473](../citations/C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) | Databasavskrift; egen kyrkobokskedja återstår. |
 | A-3087 | År 1900 stod den ogifta Frida Elisabeth, uppgiven född 1883 i Kungsholm, som `d.` och `Barn` i Olaus Fredbergs familj nummer 1 i Jordgubben N:o 11. | TRANSCRIBED | hög | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) | Folkräkningsregister och originalbild; källan gör inte styvmodern Johanna Charlotta till biologisk mor. |
+| A-3553 | **Hon dog 1966-02-03** och gravsattes 1966-02-24 i familjegraven på Sollentuna kyrkogård, skriven i **Sollentuna**; gravregistrets födelsedatum 1883-01-29 stämmer på dagen med födelsenotisen. | TRANSCRIBED | hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Administrativ gravpost; Sollentunas dödbok är oläst. |
 
 ## Relationer
 
