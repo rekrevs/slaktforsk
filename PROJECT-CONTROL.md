@@ -3360,3 +3360,72 @@ uppgift som svarar mot det.
   färdigbehandlad.
 - Revisit when: `T-0070` påbörjas eller avslutas, eller när andelen
   GODKÄNDA mäts om nästa gång.
+
+## PCR-2026-09-06-008 — Ett systematiskt metodfel i de negativa kontrollerna
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: checkpoint
+- Trigger: Kontraktsgranskningen av fyra par i `T-0070` (batch 372–375) fann samma metodfel sex gånger, varav fyra i ett enda par.
+- Control judgement: continue — men med en namngiven, återkommande felkälla som nu är dokumenterad och åtgärdad genom två uppgifter.
+
+### Iakttagelsen
+
+Projektets negativa kontroller är genomgående **korrekt avgränsade i
+citatet** och **felaktigt generaliserade i praktiken**. Mönstret är:
+
+> En uppgift ur en hushållslängd — ett födelse- eller dödsdatum — används som
+> söknyckel. Kontrollen utförs troget mot den nyckeln, citatet skriver
+> uttryckligen att omfånget är dagen och dess omedelbara omgivning, och sedan
+> behandlas frågan i praktiken som uttömd. **Hypotesen att nyckeln själv är
+> fel prövas aldrig.**
+
+Sex belagda instanser:
+
+| Person | Fråga | Kontrollerat omfång | Möjligt omfång |
+|---|---|---|---|
+| P-0423 | dödsdag 1868-08-14 | datumfönster i 27 församlingsranger | hela årgångar; brudens hemförsamling |
+| P-0021 | vigsel juni 1885 | **fel församling** — endast brudgummens | brudens församling |
+| P-0050 | födelse 1835-07-19 | 14 juli → 28 augusti 1835 | hela 1834–1836 |
+| P-0050 | död 1899-06-22 | **17–22 juni 1899, sex dagar** | hela 1899–1900 |
+| P-0051 | födelse 1830-02-24 | 23 → 26 februari, Bygdeå C/4 | hela 1830 |
+| P-0051 | födelse 1830-02-14/24 | dagarna kring båda, Lövånger C/5 | hela 1830 |
+
+### Varför det spelar roll
+
+Två av instanserna gäller personer vars **identitet är olöst** — P-0021 och
+P-0051 — och i båda fallen är den ogjorda läsningen den som skulle kunna lösa
+den. För P-0051 är den dessutom den **enda som prövar rätt hypotes**: hon är
+antecknad som `oäkta`, och ett utomäktenskapligt barn kan vara bokfört under
+moderns namn, vilket ingen namn- och datumbunden sökning någonsin kan hitta.
+
+Felet är inte slarv. Varje enskilt citat är metodiskt korrekt skrivet och
+anger sin egen gräns. Felet ligger i **övergången från citat till
+arbetsläge**: en avgränsad negativ kontroll har fått stänga en fråga som den
+inte kan stänga. Personkontraktets krav PK-08 och PK-12 är precis det
+instrument som fångar detta, och det gjorde det — i fyra av åtta granskade
+personer.
+
+### Evidens
+
+- `genealogy/research-log/2026-09-06.md`, batch 372, 373 och 375
+- `genealogy/research-profiles/P-0050.md`, `P-0051.md`, `P-0021.md`, `P-0423.md`
+- `genealogy/citations/C-0433`, `C-0144`, `C-0145`, `C-0306`, `C-0420`
+
+### Aktuell grind
+
+Oförändrad: villkor 2, och inom det de 495 personakter som saknar profil.
+Denna iakttagelse ändrar inte grinden men **höjer värdet av
+kontraktsgranskningen som instrument** — den producerar inte bara bedömningar
+utan hittar konkret, utförbar forskning som annars hade förblivit dold bakom
+ett tillsynes uttömt kunskapsläge.
+
+- Resulting Wotan tasks: `T-0089` (fem ohindrade läsvägar, skapad i batch 373)
+  och `T-0090` (tre datumbundna nollresultat, skapad i batch 375). Båda READY.
+- Owner decision required: ingen. Båda uppgifterna ligger inom delegerad
+  mandat och kräver varken beställning, läsesal eller publicering.
+- Portfolio signal: åtta av 32 personer i djup 5-kohorten är granskade; ingen
+  har blivit GODKÄND, men **åtta konkreta ohindrade läsvägar** har
+  identifierats, varav två kan lösa en olöst identitet.
+- Revisit when: `T-0089` eller `T-0090` är utförd, eller när nästa fyra par i
+  `T-0070` är granskade och mönstret kan mätas om.

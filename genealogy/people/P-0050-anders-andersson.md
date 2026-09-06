@@ -34,6 +34,58 @@ församlingsboken för Jomark.
 
 | A-3144 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/41–47 över Anders kända vuxenperiod 1860–1899, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1835-07-19 | **Uppgiven födelsedag** i Nysätra; två Jomarklängder och husförhörslängden i föräldrahemmet anger samma datum. | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md), [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md) | **KONFLIKT.** Nysätra C/4 går på bild 362 till 14 juli och fortsätter 28 augusti; det finns ingen post den 19 juli. Kontrollen är uttryckligen avgränsad till dagen och dess omedelbara omgivning ([C-0144](../citations/C-0144-nysatra-1835-negativ-kontroll-anders-andersson.md)). |
+| 1835–1860 | Uppväxt i **Risvattnet nr 3 i Nysätra**, son till bonden Anders Nilsson och Magdalena Eriksdotter; syskonen Nils född 1823 och Brita Maria född 1840. | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md), [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Föregående längd har uttrycklig barnrubrik. Brita Marias överstrukna rad förklaras inte. |
+| 1860 | **Utflyttad från Nysätra till Bygdeå**; B/1 hänvisar till hushållssidan 85. | [C-0195](../citations/C-0195-nysatra-B1-anders-andersson-till-bygdea-1860.md) | Bygdeå B/2:s kompletta inflyttningsföljd 1860, posterna 1–59, saknar en säker reciprok post ([C-0194](../citations/C-0194-bygdea-B2-inflyttade-1860-anders-negativ-kontroll.md)) — avgränsat noll, inte motbevis. |
+| 1860-07-05 | **Vigd i Bygdeå** med Barbro Christina Olofsdotter; han beskrivs som **bondson från Nysätra, född 1835**. | [C-0184](../citations/C-0184-bygdea-C4-anders-barbro-vigsel-1860.md) | Originalposten visar 5 juli; den äldre normaliseringen till 7 maj var en dag/månadsvändning. Lövångers och Nysätras hela vigselår 1860 saknar paret (C-0112, C-0185). |
+| 1860 | Hushållet på **Jomark sida 531** i Bygdeå A I/13b, omedelbart efter vigseln. | [C-0193](../citations/C-0193-bygdea-AI13b-barbro-och-paret-jomark-1860.md) | Hustrun kom från grannhushållet sida 530. |
+| 1861–1875 | **Fyra barn**: Margareta Euphrosyne, Catharina Johanna, Anders Alfred och Anna Albertina. | [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Den äldre längden visar alla fyra. |
+| 1860–1899 | **Bonde och hemmansägare i Jomark**, Bygdeå. | C-0049, C-0044, [C-0569](../citations/C-0569-bygdea-F2-barbro-kristina-olofsdotter-dod-1913.md) | Mantalslängderna Vol/41–47 täcker perioden men saknar bildlänk; ingen rad är läst. |
+| 1899-06-22 | **Uppgiven dödsdag**, i församlingsbokens marginal. | [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | **KONFLIKT.** Bygdeå F/1 går från nr 80 den 17 juni till nr 81 den 22 juni, som gäller Jonas Peter Danielsson i Djäkneboda. Kontrollen omfattar **sex dagar** och är uttryckligen avgränsad ([C-0433](../citations/C-0433-bygdea-F1-1899-06-22-negativ-anders-andersson.md)). Dödsorsak och begravningsdag är okända. |
+| före 1913-05-23 | **Död med säkerhet**: hustruns dödpost beskriver henne som **änka efter förre hemmansägaren Anders Andersson i Jomark**. | [C-0569](../citations/C-0569-bygdea-F2-barbro-kristina-olofsdotter-dod-1913.md) | Bekräftar dödsfallet och hans tidigare ställning, men varken dag eller orsak. |
+
+## Biografisk sammanfattning
+
+Anders Andersson växte upp i **Risvattnet nr 3 i Nysätra** som son till
+bonden Anders Nilsson och Magdalena Eriksdotter, med en äldre bror Nils och
+en yngre syster Brita Maria. Husförhörslängden ger hans födelsetid som
+**19 juli 1835** — och just det datumet är den enda skavanken i en annars
+mycket fast identitet. Nysätras födelsebok för 1835 hoppar nämligen från
+14 juli till 28 augusti utan någon Anders däremellan. Den kontrollen är
+uttryckligen avgränsad till dagen och dess närmaste omgivning; hela årgången
+är inte läst.
+
+Att identiteten ändå håller beror på en flerfältskedja som inte är beroende
+av födelseboken: föräldrahushållets sida 85 anger både datumet och flytten
+till Bygdeå 1860, Nysätras utflyttningslängd registrerar samma flytt och
+hänvisar tillbaka till samma sida, och vigselnotisen i Bygdeå kallar honom
+**bondson från Nysätra, född 1835**. Fyra fält — namn, datum, ursprung och
+destination — pekar åt samma håll.
+
+Den **5 juli 1860** vigdes han i Bygdeå med **Barbro Christina Olofsdotter**,
+som tjänade i grannhushållet på Jomark. Redan samma år står paret i
+husförhörslängden på Jomark sida 531; hon kom från sida 530. Där blev de
+kvar. Fyra barn föddes — Margareta Euphrosyne, Catharina Johanna, Anders
+Alfred och Anna Albertina — och Anders blev **hemmansägare i Jomark**, en by
+strax intill Robertsfors bruk.
+
+Hans död är däremot inte klarlagd. Församlingsbokens marginal anger
+**22 juni 1899**, men Bygdeås dödbok går den dagen direkt från en post den
+17 juni till en post om en helt annan man i Djäkneboda. Kontrollen omfattade
+**sex dagar**. Vad vi vet med säkerhet är att han var död 1913, för då
+beskriver hustruns dödpost henne som *änka efter förre hemmansägaren Anders
+Andersson i Jomark*. Dödsorsak och begravningsdag är okända, och
+bouppteckningen har inte kunnat sökas eftersom jurisdiktion och säker dödstid
+saknas.
+
+Kvar står alltså två luckor som **båda har samma form**: en födelsepost och
+en dödspost som har sökts på ett exakt datum och inte funnits där. Ingendera
+volymen är genomläst för hela året.
+
 ## Relationer
 
 Maka: [P-0051 Barbro Christina Olofsdotter](P-0051-barbro-christina-olofsdotter.md).

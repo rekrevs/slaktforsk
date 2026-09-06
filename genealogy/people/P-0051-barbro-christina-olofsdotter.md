@@ -148,6 +148,70 @@ ursprungliga dopnamn är däremot fortfarande olösta.
 
 | A-3145 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/38–51 över Barbros möjliga och säkra livsperiod 1830–1913, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0801](../citations/C-0801-riksarkivet-bygdea-mantal-1830-1850.md), [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1830-02-24 | **Uppgiven födelsedag** i Lövånger enligt tre hushållskällor. | [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md), [C-0046](../citations/C-0046-anders-alfred-jomark-folkrakning-1900.md), [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md) | **KONFLIKT.** Dödboken 1913 skriver `14/2 30`. Ingen egen födelsepost är funnen: Lövånger C/5 kring båda dagarna och Bygdeå C/4:s februariföljd 23→26 februari saknar henne ([C-0145](../citations/C-0145-lovanger-1830-negativ-kontroll-barbro.md), [C-0306](../citations/C-0306-bygdea-C4-fodda-1830-02-24-negativ-kontroll.md)). |
+| 1846–1852 | Står som **`Barbru Cajsa Olsd:r`, född 1830-02-24, på Jomark sida 365** i Bygdeå A I/12b — och antecknas där som **`oäkta`**. | [C-0193](../citations/C-0193-bygdea-AI13b-barbro-och-paret-jomark-1860.md) | Tidigaste säkra egna post. Bygdeå B/2:s inflyttningsföljd 1845–1850 saknar en säker inflyttningspost för henne; hur hon kom till Jomark är okänt. |
+| före 1860 | **Piga i bonden Pehr Isakssons hushåll på Jomark sida 530.** | [C-0193](../citations/C-0193-bygdea-AI13b-barbro-och-paret-jomark-1860.md), [C-0184](../citations/C-0184-bygdea-C4-anders-barbro-vigsel-1860.md) | Pehr namnges som giftoman i vigselnotisen. Inget biologiskt släktskap med honom antas. |
+| 1860-07-05 | **Vigd i Bygdeå** med Anders Andersson; hon beskrivs som `hemmansägaredotter B. C. Olofsdotter i Jomark, född 1830`. | [C-0184](../citations/C-0184-bygdea-C4-anders-barbro-vigsel-1860.md) | Giftomanskolumnen namnger dessutom **`Farbrodern B:n C. E. Lundberg i Lugnet`** som lämnat skriftligt medgivande — texten anger inte vilken av kontrahenterna som var brorsbarnet, och ingen släktrelation skapas. |
+| 1860 | Flyttar till makens hushåll, **Jomark sida 531**. | [C-0193](../citations/C-0193-bygdea-AI13b-barbro-och-paret-jomark-1860.md) | |
+| 1861–1875 | **Fyra barn**: Margareta Euphrosyne, Catharina Johanna, Anders Alfred och Anna Albertina. | [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Sonens födelsenotis 1869 skriver hennes namn `Barbro Cath. Olofsdotter`. |
+| 1899 | **Änka**; maken dör i Jomark. | [C-0569](../citations/C-0569-bygdea-F2-barbro-kristina-olofsdotter-dod-1913.md) | Makens exakta dödsdag är omstridd; se [P-0050](P-0050-anders-andersson.md). |
+| 1900 | Folkräknad i Jomark med barnen Anders Alfred och Catharina Johanna; registret skriver `Barbru Kristina`. | [C-0046](../citations/C-0046-anders-alfred-jomark-folkrakning-1900.md) | |
+| 1910 | Folkräknad som **änka i Jomark, familj 2**, med dottern Catharina Johanna, i samma registerblock som sonen Anders Alfreds familj. | [C-0072](../citations/C-0072-anna-fredrika-folkrakning-1910.md) | Registerformen är `Barbro Kristina`. |
+| 1913-05-23 | **Död i Jomark**; dödboken beskriver henne som **änka efter förre hemmansägaren Anders Andersson**. | [C-0569](../citations/C-0569-bygdea-F2-barbro-kristina-olofsdotter-dod-1913.md) | Dödboken skriver födelsedagen `14/2 30`, i konflikt med Jomarklängdernas `24/2 1830`. Bygdeå F/2:s hela årgång 1912 är genomläst utan henne. |
+| 1913-06-08 | Begravd. | [C-0569](../citations/C-0569-bygdea-F2-barbro-kristina-olofsdotter-dod-1913.md) | |
+
+## Biografisk sammanfattning
+
+Barbro Christina Olofsdotter är projektets tydligaste exempel på en person
+vars **vuxna liv är helt belagt och vars barndom är helt osynlig**.
+
+Från 1846 till 1913 finns hon i källorna utan avbrott: som ung piga på
+Jomark, som brud 1860, som hemmansägarhustru och mor till fyra barn, som änka
+i två folkräkningar, och till slut i dödboken 1913. Namnformerna växlar —
+`Barbru Cajsa`, `Barbro Catharina`, `Barbro Christina`, `Barbru Kristina` —
+men kedjan är obruten och de olika formerna hör bevisligen till samma kvinna.
+
+Före 1846 finns **ingenting**. Hennes egen födelsepost har aldrig hittats.
+Två datum konkurrerar: hushållslängderna säger **24 februari 1830**,
+dödboken **14 februari**. Två församlingar konkurrerar: Lövånger enligt de
+senare hushållskällorna, Bygdeå enligt en tidig Jomarksrad. Båda
+födelseböckerna är kontrollerade — men **kring de uppgivna dagarna**, inte
+för hela årgången.
+
+Den tidigaste posten om henne innehåller den uppgift som troligen förklarar
+tystnaden: Jomarkslängden 1846–1852 antecknar henne som **`oäkta`**. Ett
+utomäktenskapligt barn kunde bokföras med moderns namn, på en annan ort, i en
+sockenstämmas fattigprotokoll eller inte alls i den form man söker efter.
+Just därför har mycket arbete lagts på sidovägar: fattigkasseräkenskaper,
+fattigbarnsförteckningar, kyrkoräkenskaper, flyttningsbetyg och
+sockenstämmohandlingar är genomlästa utan att hon namnges.
+
+Vigselnotisen 1860 innehåller den enda konkreta ledtråden till en släkt.
+Giftomanskolumnen namnger **`Farbrodern B:n C. E. Lundberg i Lugnet`** som
+lämnat skriftligt medgivande. Carl Eric Lundberg är identifierad: född 1806
+i Överklinten, son till Pehr Johansson och Anna Cajsa Olofsdotter — och i
+samma hushåll fanns en äldre bror **Olaus, född 1784**. En farbror vid namn
+Lundberg och ett patronymikon Olofsdotter passar ihop. Men notisen säger inte
+vilken av de två kontrahenterna som var brorsbarnet, och Olaus har inte
+kunnat följas: hans spår leder mot Piteå, där ett omfattande sökarbete i
+vigsel-, död- och husförhörsböcker har avvisat kandidat efter kandidat.
+**Olaus förblir en hypotes, inte en far.**
+
+Det som återstår är fem analoga volymer som Riksarkivet katalogiserar exakt
+men bara visar som `Läsesal`: Bygdeås födelse- och dopbilagor H III/1 för
+1829–1831, som uttryckligen innehåller rapporter från Robertsfors bruk om
+födda 1830; vigselbilagorna H I/1, där Lundbergs skriftliga medgivande kan
+ligga; de strödda sociala handlingarna L III/1; samt mantalslängderna och
+bouppteckningsvolymen. Ingen av dem har digital bild.
+
+Hon dog i Jomark den 23 maj 1913 och begravdes den 8 juni, som änka efter
+förre hemmansägaren Anders Andersson. Hon var då åttiotre år gammal — tio dagar hit eller dit,
+beroende på vilket av de två födelsedatumen som är det riktiga.
+
 ## Relationer
 
 Make: [P-0050 Anders Andersson](P-0050-anders-andersson.md).
