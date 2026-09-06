@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 87,
+  "next_id": 88,
   "tasks": [
     {
       "id": "T-0001",
@@ -420,14 +420,15 @@
     },
     {
       "id": "T-0051",
-      "status": "BLOCKED",
+      "status": "READY",
       "size": "M",
       "after": [
         "T-0048"
       ],
       "summary": "Pröva Olaus exakta mantalsuppgift 1877",
       "phase": "DOING",
-      "blocker": "Delvis hävd 2026-09-06 genom C-0963: hela årgången 1877 av Stockholms mantalslängder (SE/SSA/0031/06/G 1 BA/G 1 BA:76/1–76/42, batcherna A0057718–A0057757) är digitaliserad och nås över det öppna IIIF-API:et utan katalog och utan captcha. Läsesalskravet i C-0649 gäller mantalsuppgifterna i G 1 BB, inte mantalslängden. Kvar är en lokaliseringsfråga inom öppet material: vilken av de 42 volymerna upptar Kungsholmens kvarter. Den vanliga katalogen ligger fortsatt bakom ALTCHA; agenten löser aldrig captcha."
+      "blocker": "Delvis hävd 2026-09-06 genom C-0963: hela årgången 1877 av Stockholms mantalslängder (SE/SSA/0031/06/G 1 BA/G 1 BA:76/1–76/42, batcherna A0057718–A0057757) är digitaliserad och nås över det öppna IIIF-API:et utan katalog och utan captcha. Läsesalskravet i C-0649 gäller mantalsuppgifterna i G 1 BB, inte mantalslängden. Kvar är en lokaliseringsfråga inom öppet material: vilken av de 42 volymerna upptar Kungsholmens kvarter. Den vanliga katalogen ligger fortsatt bakom ALTCHA; agenten löser aldrig captcha.",
+      "note": "Blockeringsskälet ALTCHA upphörde 2026-09-06 när ägaren löste captchan; /nad, /arkiv/<id>, /bouppteckningar och /dodregister svarar 200 (PCD-2026-09-06-005, C-0977). Uppgiften är inte omprövad i sak — den ska prövas om mot den öppna katalogen."
     },
     {
       "id": "T-0052",
@@ -459,7 +460,8 @@
         "T-0053"
       ],
       "blocker": "T-0049, T-0050, T-0052 och T-0053 klara; inväntar endast T-0051:s separata mantalsuppgift enligt befintligt beroende. Lokalt oberoende införandearbete T-0063 kan genomföras.",
-      "summary": "Stäm av 96 strukturbrister och fyra dolda källtäckningsrader"
+      "summary": "Stäm av 96 strukturbrister och fyra dolda källtäckningsrader",
+      "note": "ALTCHA-blockeringen upphörde 2026-09-06 (PCD-2026-09-06-005, C-0977), men uppgiften beror på T-0051 som ännu inte är utförd; den kvarstår därför BLOCKED på beroendet, inte längre på captchan."
     },
     {
       "id": "T-0055",
@@ -765,6 +767,17 @@
       ],
       "summary": "Umeås fastighetslängder A II b: systematisk rubrikgenomgång efter Zingmarks gård Ytterhiske N:o 2",
       "note": "Sista materiella åtgärden för P-0028 och P-0029. Omfång: A II b/13 uppslagen 1–70 och volymerna 2–11, cirka sextio rubrikmontage à sex uppslag; sökt värde är gårdsägarnamnet Zingmark eller rubriken Ytterhiske N:o 2. Uteslutet: A II b/13 uppslagen 71–108, som är genomlästa utan träff (C-0971), och allt bakom ALTCHA. Verifierbart utfall: gårdens uppslag med hushåll och församlingsbokssida, eller ett avgränsat noll över hela serien. Serien saknar register (S-0755)."
+    },
+    {
+      "id": "T-0087",
+      "status": "ONGOING",
+      "size": "M",
+      "phase": "DOING",
+      "after": [
+        "T-0085"
+      ],
+      "summary": "P-0016: de två sista åtgärderna — inflyttningen till Adolf Fredrik 1902 och SAM-temat",
+      "note": "Skapad 2026-09-06 efter T-0085. P-0016 står på ett enda ej styrkt krav, PK-12, och det på två namngivna och ohindrade åtgärder. Omfång: (1) Adolf Fredriks inflyttningslängd B I a för 1902, som ska stänga luckan 1900-08-08–1902-10-30; (2) barnavårds- eller fattigvårdsakter i Helgesta och Hyltinge för de två barn hon fick som änka 1920 och 1921 — temat SAM, som är ÖPPET. Uteslutet: bouppteckningarna, som ligger utanför registrets täckning, och åren 1955–1964, som saknar bild. Verifierbart utfall: båda åtgärderna utförda med träff eller avgränsat noll, varefter kontraktet prövas om — profilen kan då bli projektets tredje godkända avlidna person."
     }
   ]
 }
