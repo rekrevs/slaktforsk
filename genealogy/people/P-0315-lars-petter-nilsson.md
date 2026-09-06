@@ -29,6 +29,9 @@ arbetare och senare torpare från Sättna till Högsjö, Indal. Han dog
 | A-3166 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hans dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
 | A-3180 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Lars Petters säkra Indalsperiod genom dödsåret 1904. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
 | A-3190 | Lars Petters arbetsgivar-/torparspår blir avslutande först om Indals exakta skatterutt ger en torp-, fastighets-, jordägar- eller arbetsgivarnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, arbetsgivar-, arkiv- eller personnoll. |
+| A-3660 | Indal F/2:s originalpost 36 år 1904 har **tom dödsorsakskolumn**; tomheten i SCB-utdraget är alltså originalets egen och ingen avskriftsförlust. | CORROBORATED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md), [C-0670](../citations/C-0670-scb-indal-lars-petter-dod-1904.md) | Kolumnen används i övrigt i volymen, så tomheten är prästens val för ordinära dödsfall. Dödsorsaken finns inte att hämta i Indals dödbok. |
+| A-3661 | Han dog **i hemmet i Högsjö**: kolumnen `Dödsort (om annan än hemorten)` är tom i originalposten. | TRANSCRIBED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Tom rubrikstyrd undantagskolumn är en positiv uppgift, inte frånvaro av uppgift. |
+| A-3662 | Han begravdes **18 december 1904**, nära tre månader efter dödsdagen. | TRANSCRIBED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Ny uppgift; begravningsdatum saknades tidigare helt. Fördröjningen är inte förklarad i källan. |
 
 ## Tidslinje
 
@@ -44,7 +47,8 @@ arbetare och senare torpare från Sättna till Högsjö, Indal. Han dog
 | 1880, 1890, 1900 | **Torpare i Högsjö**, Indal, med hustru och barn. | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md), [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | 1880 omfattar hushållet hustrun och barnen Anders Niklas, Nils Petter, Lars Olof och Katharina Petronella. |
 | 1892–1900 | Torpare med egen familj i Högsjö, A I/12 sida 132. | [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Bakåthänvisningen `G.B. 131` **leder inte** till familjen — varken sida 131 eller övriga Högsjösidor 129–138 i A I/11 ([C-0513](../citations/C-0513-indal-AI11-hogsjo-gb131-negativ.md)). |
 | 1901-03-05 | **Änkling**: Cajsa Märta dör i Högsjö. | [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | |
-| 1904-09-25 | **Död som före detta torpare och änkling i Högsjö.** | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0670](../citations/C-0670-scb-indal-lars-petter-dod-1904.md) | Församlingsbok och SCB-utdrag post 36 korsbekräftar dag, födelsedatum och änklingsstatus. **Dödsorsak och dödsort är tomma**, och en överstruken ortsfras transkriberas inte. |
+| 1904-09-25 | **Död i hemmet i Högsjö** som före detta torpare och änkling. | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0670](../citations/C-0670-scb-indal-lars-petter-dod-1904.md), [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Församlingsbok, SCB-utdrag post 36 och **originalets dödbok F/2** korsbekräftar dag, födelsedatum och änklingsstatus. **Dödsorsaken registrerades aldrig** — kolumnen är tom även i originalet. Att dödsortskolumnen `om annan än hemorten` är tom visar att han dog **på hemorten**. Åldern `(67, 8, 18)` avviker från de 67 år 8 månader 29 dagar datumen ger; avvikelsen är prästens och bevaras. |
+| 1904-12-18 | **Begraven.** | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Nära tre månader efter dödsfallet. Ny uppgift ur originalet. |
 
 ## Biografisk sammanfattning
 
@@ -76,11 +80,22 @@ Från 1880 följer tre folkräkningar och två husförhörslängder honom som
 tre och ett halvt år senare, den **25 september 1904**, dog han själv som
 före detta torpare och änkling.
 
-**Vad ingen av dem dog av vet vi inte.** SCB-utdragen har tomma
-dödsorsakskolumner för dem båda — och Indals egen dödbok **F/2**, som skulle
-ha svaret, är exakt identifierad men saknade publik bildpekare, medan
-katalogsidan stannade vid en **orörd människeverifiering**. Det hindret är
-inte längre detsamma.
+**Vad ingen av dem dog av vet vi fortfarande inte — men nu vet vi varför.**
+SCB-utdragen har tomma dödsorsakskolumner för dem båda, och länge var den
+öppna frågan om tomheten uppstått vid avskriften. Indals egen dödbok **F/2**
+var exakt identifierad men låg bakom en människeverifiering. Den 6 september
+2026 öppnades katalogsidan **utan verifiering**, och båda posterna kunde
+läsas i original. Kolumnen är tom där också. Prästen förde in dödsorsaker på
+andra rader i samma volym — vid en av dem står `Död efter att hafva erhållit
+nöddop` — så tomheten är ett faktiskt val för ordinära dödsfall, inte en
+oanvänd kolumn. Frågan är därmed avgjord: orsakerna finns inte att hämta.
+
+Originalet gav i gengäld två saker avskriften inte hade. Kolumnen `Dödsort
+(om annan än hemorten)` är tom för dem båda, och eftersom rubriken bara ska
+fyllas i vid undantag betyder tomheten att **båda dog hemma i Högsjö**.
+Och begravningsdagarna står där: hustrun jordades den **17 mars 1901**, tolv
+dagar efter dödsfallet — han själv först den **18 december 1904**, nära tre
+månader efter sin egen.
 
 ## Relationer
 
@@ -108,9 +123,11 @@ uttryckligen tillbakadragen. A I/7:s hela Högsjöavsnitt 1847–1854 saknar
 målgruppen, så familjens boställe där före A I/8 återstår. A I/12:s `G.B.
 131` leder inte till familjen i A I/11:s Högsjöavsnitt. A II a/1 och SCB:s
 post 36 korsbekräftar dödsdagen, Högsjö, födelsedatumet och änklingsstatus;
-dödsorsak och dödsort är inte registrerade. Indal F/2 är exakt identifierad
-men saknar publik bildpekare och katalogsidan stannar vid orörd
-människeverifiering enligt C-0671. Sättna AI:9a sida 35 och full flyttkedja
+dödsorsak och dödsort är inte registrerade. Indal F/2 är nu **läst i
+original**: åtkomsthindret i C-0671 fanns inte längre 2026-09-06, och posten
+bekräftar församlingsbokssidan 130, visar att dödsorsakskolumnen är tom även
+i originalet och att han dog på hemorten, samt ger begravningsdagen
+1904-12-18 (C-0984). Dödsorsaksfrågan är därmed avgjord inom källan. Sättna AI:9a sida 35 och full flyttkedja
 är sekundär biografisk berikning; rotera breddfronten.
 
 ## Arbetsläge

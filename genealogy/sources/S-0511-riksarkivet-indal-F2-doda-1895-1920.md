@@ -49,3 +49,16 @@ uttryckliga tillåtelse att genomföra människeverifieringen. Läs då 1901 och
 - [OAI-EAD-svar](../media/S-0511-riksarkivet-indal-F2-oai-ead.xml),
   1 661 byte, SHA-256
   `f590caeef91df0041c7aded8421c350fbf9d2230ccf2633e91339bb143732473`
+
+## Åtkomsthindret upphävt 2026-09-06
+
+Vid förnyad kontroll 2026-09-06 öppnas den beständiga kataloglänken **utan
+människeverifiering**. Ingen verifiering har lösts. Volymsidan visar två
+digitaliserade omgångar: `00199095`, 127 bilder, Original, och `F0014119`,
+140 bilder, Mikrofilm.
+
+Båda målposterna är lästa i original i omgång `00199095`: 1901 års post 10
+på bild `00199095_00032` och 1904 års post 36 på bild `00199095_00050`. Se
+[C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md).
+Avsnittet **Exakt åtkomsthinder** ovan bevaras som daterad historik och
+gäller inte längre.

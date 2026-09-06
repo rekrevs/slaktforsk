@@ -27,6 +27,9 @@ Högsjö, Indal.
 | A-2668 | SCB:s dödboksutdrag, Indal post 10, korsbekräftar att Cajsa Märta Dahlsten dog 1901-03-05, född 1834-03-21 och hustru till torparen Lars Petter Nilsson i Högsjö; dödsorsak och dödsort är tomma. | CORROBORATED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | SCB-utdraget är en samtidig avskrift men ger full identitetskedja. |
 | A-3167 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
 | A-3181 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Cajsa Märtas säkra Indalsperiod genom dödsåret 1901. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
+| A-3663 | Indal F/2:s originalpost 10 år 1901 har **tom dödsorsakskolumn**; tomheten i SCB-utdraget är alltså originalets egen och ingen avskriftsförlust. | CORROBORATED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | Kolumnen används i övrigt i volymen, så tomheten är prästens val för ordinära dödsfall. Dödsorsaken finns inte att hämta i Indals dödbok. |
+| A-3664 | Hon dog **i hemmet i Högsjö**: kolumnen `Dödsort (om annan än hemorten)` är tom i originalposten. | TRANSCRIBED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Tom rubrikstyrd undantagskolumn är en positiv uppgift, inte frånvaro av uppgift. |
+| A-3665 | Hon begravdes **17 mars 1901**, tolv dagar efter dödsdagen. | TRANSCRIBED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Ny uppgift; begravningsdatum saknades tidigare helt. |
 
 ## Tidslinje
 
@@ -40,7 +43,8 @@ Högsjö, Indal.
 | omkring 1862–1880 | **Övergången Säter–Byn–Högsjö bryts** vid den fysiskt saknade sidan 35 i Sättna A I/9a. | [C-0358](../citations/C-0358-sattna-AI9a-byn-sida-35-lucka.md) | Skanningslucka; de lästa gränssidorna ger ingen säker målrad. |
 | 1880, 1890, 1900 | Hustru i torparhushållet i **Högsjö**; namnformen skrivs `Dahlsten` 1880 och `Dalsten` 1890–1900. | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md), [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | Familjenamnet är **inte belagt som hennes födelsenamn** — det kommer från fadern. |
 | 1858–1900 | **Sex barn**: Lisa Cajsa, Anders Niklas, Nils Petter, Lars Olof, Katarina Petronella och Erik Emanuel. | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | |
-| 1901-03-05 | **Död i Högsjö** som hustru till torparen Lars Petter Nilsson. | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | Församlingsbok och SCB-utdrag post 10 korsbekräftar dag, exakt födelsedatum, make och ort. **Dödsorsak och dödsort är tomma.** |
+| 1901-03-05 | **Död i hemmet i Högsjö** som hustru till torparen Lars Petter Nilsson. | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md), [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Församlingsbok, SCB-utdrag post 10 och **originalets dödbok F/2** korsbekräftar dag, exakt födelsedatum, make och ort. **Dödsorsaken registrerades aldrig** — kolumnen är tom även i originalet. Att dödsortskolumnen `om annan än hemorten` är tom visar att hon dog **på hemorten**. |
+| 1901-03-17 | **Begraven.** | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Tolv dagar efter dödsfallet. Ny uppgift ur originalet. |
 
 ## Biografisk sammanfattning
 
@@ -69,10 +73,19 @@ hänvisas till `Byn fol. 35`, och **den sidan saknas fysiskt i den
 fotograferade följden**. Från 1880 finns de däremot i **Högsjö**, där hon
 levde som torparhustru till sin död.
 
-Hon fick **sex barn** och dog den **5 mars 1901**, sextiosju år gammal.
-Dödsorsakskolumnen i SCB-utdraget är tom — och Indals egen dödbok **F/2**,
-som skulle ha svaret, stoppades av en **orörd människeverifiering** på
-katalogsidan. Det hindret är inte längre detsamma.
+Hon fick **sex barn** och dog den **5 mars 1901**, sextiosex år gammal.
+
+Dödsorsakskolumnen i SCB-utdraget är tom, och länge var den öppna frågan om
+uppgiften gått förlorad i avskriften. Indals egen dödbok **F/2** stoppades av
+en människeverifiering på katalogsidan. Den 6 september 2026 öppnade sidan
+**utan verifiering**, och posten kunde läsas i original: kolumnen är tom där
+också. Prästen förde in dödsorsaker på andra rader i samma volym, så tomheten
+är ett faktiskt val för ordinära dödsfall. Orsaken finns inte att hämta.
+
+Originalet gav ändå två nya uppgifter. Kolumnen `Dödsort (om annan än
+hemorten)` är tom, vilket enligt rubriken betyder att hon **dog hemma i
+Högsjö**. Och hon jordades den **17 mars 1901**, tolv dagar efter
+dödsfallet.
 
 ## Relationer
 
@@ -102,9 +115,12 @@ henne med föräldrar och sex namngivna syskon i Säter genom 1836–1854; E I/1
 namnger henne som bondedotter i Säter vid lysningen 1858. A I/8 och A I/12
 förlänger hennes egen familj och tillför fem barn utöver Anders Niklas.
 A II a/1 och SCB:s post 10 korsbekräftar dödsdagen, exakt födelsedatum,
-maken och Högsjö; dödsorsak och dödsort är inte registrerade. Indal F/2 är
-exakt identifierad men saknar publik bildpekare och katalogsidan stannar vid
-orörd människeverifiering enligt C-0671. Sättna A I/9a sida 35 saknas
+maken och Högsjö; dödsorsak och dödsort är inte registrerade. Indal F/2 är nu
+**läst i original**: åtkomsthindret i C-0671 fanns inte längre 2026-09-06,
+och posten bekräftar församlingsbokssidan 130, visar att dödsorsakskolumnen
+är tom även i originalet och att hon dog på hemorten, samt ger
+begravningsdagen 1901-03-17 (C-0984). Dödsorsaksfrågan är därmed avgjord
+inom källan. Sättna A I/9a sida 35 saknas
 fortfarande, och den prövade Indal A I/10a sida 128 var inte rätt
 hushållssida. Den fulla flyttkedjan är sekundär biografisk berikning;
 rotera breddfronten.
