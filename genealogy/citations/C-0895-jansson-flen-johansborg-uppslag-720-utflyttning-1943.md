@@ -51,6 +51,15 @@ mellanliggande församling.
 |---|---|
 | [Manifest 00154003](../media/S-0706-manifest-00154003.json) | `8ea857f5288831355157dad8ec51de195855302e2d2724540741d3b9ded16d8d` |
 
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0895-riksarkivet-00154003_00117.jpg](../media/C-0895-riksarkivet-00154003_00117.jpg) | `00154003_00117` | `55df0f249ac63864d6fdbac38a3007bc176dacef6f252b030a74badf2fc7c455` |
+
 ## Stödda påståenden
 
 A-3358–A-3359 (P-0003), A-3362 (P-0007).

@@ -50,7 +50,16 @@ efternamn.
   `c7932280efd7edbd73cc6158155cb5c0b9fbf46032460ee04f85e88c85650cc6`
   (beräknad i den inloggade webbläsarsessionen på IIIF-svaret
   `/full/6752,/0/default.jpg`; `/full/max/` gav samma bytestorlek vid första
-  hämtningen). Lokal kopia saknas ännu; se S-0693.
+  hämtningen). Lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0882-riksarkivet-00023828_00148.jpg](../media/C-0882-riksarkivet-00023828_00148.jpg) | `00023828_00148` | `c7932280efd7edbd73cc6158155cb5c0b9fbf46032460ee04f85e88c85650cc6` |
 
 ## Stödda påståenden
 

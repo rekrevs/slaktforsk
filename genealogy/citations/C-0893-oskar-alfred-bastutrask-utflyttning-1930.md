@@ -39,7 +39,7 @@ nästa nycklar för åren efter seminariet.
 | `00202980_00073` | 5565 × 4028 | 1 608 059 | `0d7bf4d4061280f197982ee7e94611e8a120af916f5d8d1fa2d252c522dbcf5b` |
 | `00202980_00074` | 5518 × 4027 | 1 633 202 | `a8a678fd7261464523289989eefb5b87f01cd795adea799369f22e82b48770d6` |
 
-SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
+SHA-256 beräknade i webbläsarsessionen; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
@@ -47,6 +47,17 @@ SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
 |---|---|
 | [Manifest 00185563](../media/S-0705-manifest-00185563.json) | `db62b7b9491b8e141c5f83acfedaa721841daac8b787699d7380f2f5d02a7436` |
 | [Manifest 00202980](../media/S-0705-manifest-00202980.json) | `b3cd147e57e0c4a093fc7d4b91c825a64af50ccca4c18d316ee7751a74f9084b` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0893-riksarkivet-00185563_00012.jpg](../media/C-0893-riksarkivet-00185563_00012.jpg) | `00185563_00012` | `f65dde173c0606bcd78ff480d837f2a7b40f1603f36f8b522cb47e5483207851` |
+| [C-0893-riksarkivet-00202980_00073.jpg](../media/C-0893-riksarkivet-00202980_00073.jpg) | `00202980_00073` | `0d7bf4d4061280f197982ee7e94611e8a120af916f5d8d1fa2d252c522dbcf5b` |
+| [C-0893-riksarkivet-00202980_00074.jpg](../media/C-0893-riksarkivet-00202980_00074.jpg) | `00202980_00074` | `a8a678fd7261464523289989eefb5b87f01cd795adea799369f22e82b48770d6` |
 
 ## Stödda påståenden
 

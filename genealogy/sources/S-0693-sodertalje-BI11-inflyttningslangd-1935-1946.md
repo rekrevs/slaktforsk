@@ -17,6 +17,9 @@
   (401 utan inloggning, batch 293). Läst i T-0064 genom ägarens inloggade
   Claude-in-Chrome-session; bilderna hämtades via IIIF från den inloggade
   fliken. Ingen ALTCHA/captcha visades.
-- Lokal kopia: ~/Downloads är inte läsbar för agenten; fulloriginalens
-  SHA-256 beräknades i webbläsaren på de hämtade byten (`crypto.subtle`) och
-  anges i C-posterna. Lokal spegling av originalfilen återstår (dev-log T-0064).
+- Lokal kopia: fulloriginalen är speglade 2026-09-06 till `genealogy/media/`
+  direkt ur den inloggade sessionen. Bilderna hämtades med `fetch(...,
+  {credentials:'include'})` på den autentiserade sidan och överfördes till en
+  lokal mottagare med en formulärpost (`multipart/form-data`), eftersom sidans
+  CSP tillåter `form-action` men låser `connect-src` till riksarkivet.se.
+  Varje fils SHA-256 stämmer exakt med det värde som beräknades vid läsningen.

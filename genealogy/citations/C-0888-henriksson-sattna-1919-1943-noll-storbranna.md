@@ -43,7 +43,7 @@ Sättnas 49 utdragssidor 1930 (`B0001196_00075`–`00123`).
 | `B0001196_00103` | 6618 × 4958 | 3 366 464 | `66b630f1836569e3ec804e2de5a1db1ce9d3ae492ac1865d08ae6de664afe959` |
 | `00205394_00096` | 5678 × 4096 | 1 354 798 | `e3d3302bf02cc823bc9ab55e682e41b0799d2580db594edac20844110d48708f` |
 
-SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
+SHA-256 beräknade i webbläsarsessionen; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
@@ -55,6 +55,18 @@ SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
 | [S-0699-manifest-00205393.json](../media/S-0699-manifest-00205393.json) | `534adda68bbe2890134eb3f9504ed6f7fad3ca5c249100afac424b85c605117c` |
 | [S-0699-manifest-00205394.json](../media/S-0699-manifest-00205394.json) | `457ec54e8c509373cb959c471658288ffe10cadcad1dddcf62e87b85331da7b3` |
 | [S-0700-manifest-B0001196.json](../media/S-0700-manifest-B0001196.json) | `be7f354f2b532b7f1c9470f03a933211a5f22d2064edc87d82ae6a7e55fbe960` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0888-riksarkivet-00205394_00096.jpg](../media/C-0888-riksarkivet-00205394_00096.jpg) | `00205394_00096` | `e3d3302bf02cc823bc9ab55e682e41b0799d2580db594edac20844110d48708f` |
+| [C-0888-riksarkivet-B0001196_00101.jpg](../media/C-0888-riksarkivet-B0001196_00101.jpg) | `B0001196_00101` | `2afd0f8683bbfcf91f99c5243856ebb56b40fd86a7f34588cef29614361c16b6` |
+| [C-0888-riksarkivet-B0001196_00102.jpg](../media/C-0888-riksarkivet-B0001196_00102.jpg) | `B0001196_00102` | `bee9e280e1605c81b28c9bc2de236c34e0e6fc8c080b327d6623e054dcd193d7` |
+| [C-0888-riksarkivet-B0001196_00103.jpg](../media/C-0888-riksarkivet-B0001196_00103.jpg) | `B0001196_00103` | `66b630f1836569e3ec804e2de5a1db1ce9d3ae492ac1865d08ae6de664afe959` |
 
 ## Stödda påståenden
 

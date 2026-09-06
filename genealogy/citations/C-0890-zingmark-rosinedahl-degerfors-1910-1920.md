@@ -60,6 +60,15 @@ sonens dödsregistrering i Umeå 1963 ([C-0878](C-0878-oskar-alfred-zingmark-gra
 |---|---|
 | [Manifest 00206819](../media/S-0702-manifest-00206819.json) | `2ccd8d91d242a6ee0323b32d4b4941744eaffa35d0bdb5484e5542073cf7b640` |
 
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0890-riksarkivet-00206819_00317.jpg](../media/C-0890-riksarkivet-00206819_00317.jpg) | `00206819_00317` | `d0f809c0ce7a40066007ed2ebc1f095510fb5dd327a78b72a614cf8ff9a450e4` |
+
 ## Stödda påståenden
 
 A-3346 (P-0001), A-3353 (P-0028), A-3354 (P-0029).

@@ -86,7 +86,7 @@ svärsonen verkade i.
 | `B0001215_00098` | 5649 × 4216 | 2 313 915 | `c5221516490abece410719d655e45a202cd1c0847bb8b772dee6f635c95990e6` |
 | `B0001095_00300` | 6605 × 4958 | 2 980 775 | `051a1f299d9c420986b1f0262d70d82e0a8a51fa46db5e18959454d1146a5760` |
 
-SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
+SHA-256 beräknade i webbläsarsessionen; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
@@ -94,6 +94,17 @@ SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
 |---|---|
 | [Manifest B0001215](../media/S-0708-manifest-B0001215.json) | `0119732d0d2899f747ec9cb2b3edd73ee733399481b0205a4693f6456ccef7ab` |
 | [Manifest B0001095](../media/S-0708-manifest-B0001095.json) | `d354dc3254bc7a7cd6b4034fdfda1bd7e0e5f89036b2580a2728ca2ec57b0905` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0899-riksarkivet-B0001095_00300.jpg](../media/C-0899-riksarkivet-B0001095_00300.jpg) | `B0001095_00300` | `051a1f299d9c420986b1f0262d70d82e0a8a51fa46db5e18959454d1146a5760` |
+| [C-0899-riksarkivet-B0001215_00097.jpg](../media/C-0899-riksarkivet-B0001215_00097.jpg) | `B0001215_00097` | `6a0b17ac9a1742a77b8a7785dee35340389f1a29a03a04ef80872eafc35fe31d` |
+| [C-0899-riksarkivet-B0001215_00098.jpg](../media/C-0899-riksarkivet-B0001215_00098.jpg) | `B0001215_00098` | `c5221516490abece410719d655e45a202cd1c0847bb8b772dee6f635c95990e6` |
 
 ## Stödda påståenden
 

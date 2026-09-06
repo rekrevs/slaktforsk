@@ -83,7 +83,7 @@ väg 42 ([C-0267](C-0267-jan-christer-minnen-flen-sodertalje.md)).
 | `00024792_00250` | 5881 × 4491 | 1 290 623 | `596f25d2ecd9c668509a0f10504780f2b340626200793df75dc6272eecfcc386` |
 
 SHA-256 beräknade i den inloggade webbläsarsessionen på
-`/full/max/0/default.jpg`; lokal kopia saknas ännu (S-0693).
+`/full/max/0/default.jpg`; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
@@ -91,6 +91,19 @@ SHA-256 beräknade i den inloggade webbläsarsessionen på
 |---|---|
 | [S-0695-manifest-00024786.json](../media/S-0695-manifest-00024786.json) | `1669803b85a39f1fd3d20c3802c49059ed6a8c5dfd2053e76be83e0ca4949b70` |
 | [S-0695-manifest-00024787.json](../media/S-0695-manifest-00024787.json) | `7b5ff5ad18bd46d74313f5f72fff8f6c4fa2a70daa00b852c267ae6d6e7ca19c` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0884-riksarkivet-00024786_00058.jpg](../media/C-0884-riksarkivet-00024786_00058.jpg) | `00024786_00058` | `1f9635b0e74de761c6894b4540bd69cde5fd1606ae2d47a3a0f99aa9e3df572c` |
+| [C-0884-riksarkivet-00024787_00372.jpg](../media/C-0884-riksarkivet-00024787_00372.jpg) | `00024787_00372` | `33feb7a5713a45fbac47a626fe71fe3ac14a830368156d428fa577d74c703f14` |
+| [C-0884-riksarkivet-00024787_00374.jpg](../media/C-0884-riksarkivet-00024787_00374.jpg) | `00024787_00374` | `dbda096dd56768a658378e94fffbbb6a8a03c3b16b157f411cedd534043fecd3` |
+| [C-0884-riksarkivet-00024792_00250.jpg](../media/C-0884-riksarkivet-00024792_00250.jpg) | `00024792_00250` | `596f25d2ecd9c668509a0f10504780f2b340626200793df75dc6272eecfcc386` |
+| [C-0884-riksarkivet-00024793_00265.jpg](../media/C-0884-riksarkivet-00024793_00265.jpg) | `00024793_00265` | `4ae66468bb7db5ad2db5bcbf375fea587443478c307cdd779f143458dc52c84d` |
 
 ## Stödda påståenden
 

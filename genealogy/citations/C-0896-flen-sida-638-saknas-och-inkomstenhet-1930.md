@@ -40,7 +40,7 @@ kronor med förmögenhet i tusental efter strecket, så Arnes `9 –` betyder
 | `F0007028_00232` | 7960 × 5680 | 1 632 738 | `cb5329199d9fb2da84be21fdb4e0c952a7c1b188a67767124e045330c0de561c` |
 | `B0001059_00329` | 6643 × 4958 | 3 393 402 | `e7baf34af9d1da67dff25a5a5c65c1a672396e0bf1cda01c6e0117e0576e6a71` |
 
-SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
+SHA-256 beräknade i webbläsarsessionen; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
@@ -48,6 +48,20 @@ SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
 |---|---|
 | [Manifest 00153996](../media/S-0706-manifest-00153996.json) | `1b6107b024b11c5f0e61bbf586506a37072094bfa2b9c0c55982121db43b742a` |
 | [Manifest F0007028](../media/S-0706-manifest-F0007028.json) | `ac0dc47f3d57a63453038b0ec66e6856750074c828746d9d66c4427b34dea420` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0896-riksarkivet-00153996_00214.jpg](../media/C-0896-riksarkivet-00153996_00214.jpg) | `00153996_00214` | `4c7d292df6c249d5852a0b4cfe97781b7bf8ec49a92d97356bfff832362f431b` |
+| [C-0896-riksarkivet-00153996_00215.jpg](../media/C-0896-riksarkivet-00153996_00215.jpg) | `00153996_00215` | `3b393be2529cdc1a2cc5fa82f037a2e1d7d759cd05d3369f4c55e5e1236cae0a` |
+| [C-0896-riksarkivet-00153996_00216.jpg](../media/C-0896-riksarkivet-00153996_00216.jpg) | `00153996_00216` | `895d601455a515d872076c63c76699bfe55d2529f231f54b9d755aebdd13b822` |
+| [C-0896-riksarkivet-B0001059_00329.jpg](../media/C-0896-riksarkivet-B0001059_00329.jpg) | `B0001059_00329` | `e7baf34af9d1da67dff25a5a5c65c1a672396e0bf1cda01c6e0117e0576e6a71` |
+| [C-0896-riksarkivet-F0007028_00231.jpg](../media/C-0896-riksarkivet-F0007028_00231.jpg) | `F0007028_00231` | `e121d38b034b12ff5f08d4592c39888959fa3b4efd216838af2d8d1d411630a5` |
+| [C-0896-riksarkivet-F0007028_00232.jpg](../media/C-0896-riksarkivet-F0007028_00232.jpg) | `F0007028_00232` | `cb5329199d9fb2da84be21fdb4e0c952a7c1b188a67767124e045330c0de561c` |
 
 ## Stödda påståenden
 

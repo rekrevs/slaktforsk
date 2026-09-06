@@ -41,6 +41,15 @@ utdraget 1951 ([C-0876](C-0876-arne-mantal-1951-kallprov.md)). Vid bokbytet
   `eea32bc1d1bd8b4153d7e81aedad2f92643794ff9cfbddf7d5af596a41723bd7`; lokal
   kopia saknas ännu (S-0693).
 
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0894-riksarkivet-00154000_00066.jpg](../media/C-0894-riksarkivet-00154000_00066.jpg) | `00154000_00066` | `eea32bc1d1bd8b4153d7e81aedad2f92643794ff9cfbddf7d5af596a41723bd7` |
+
 ## Stödda påståenden
 
 A-3357 (P-0003), A-3361 (P-0007).

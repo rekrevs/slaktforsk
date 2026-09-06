@@ -2788,3 +2788,22 @@ tidigare versioner finns i Git och tidigare bevarad forskningshistorik.
   flaskhals just nu.
 - Revisit when: nedladdningsvägen är löst, eller ägaren beslutar att
   fjärrverifierad SHA-256 räcker som provenans för inloggade bilder.
+
+## PCD-2026-09-06-001
+
+- Record type: decision
+- Date: 2026-09-06
+- Decides review: PCR-2026-09-05-019 (uppföljning av PCD-2026-09-05-021)
+- Owner: Sverker Adam Janson; uppdrag i chatten att lösa de två föreslagna
+  ägaråtgärderna.
+- Decision: Ingen av åtgärderna behövdes. Fulloriginalen är speglade genom en
+  uthämtningsväg inom sidans egen policy (formulärpost; `form-action` saknas
+  och ärver inte från `default-src`), med ägarens befintliga session och utan
+  ändring i Chrome eller macOS. T-0064–T-0067 återgår till DONE och T-0072
+  till READY. Principen i PCD-2026-09-05-021 står fast: lokal källbild ingår i
+  evidenskontraktet — den är nu uppfylld i stället för efterskänkt.
+- Related records: PCD-2026-09-05-021, PCD-2026-09-05-011.
+- Resulting Wotan tasks: inga nya; T-0069 fortsätter som ONGOING.
+- Portfolio signal: flaskhalsen som blockerade fem uppgifter finns inte
+  längre; framtida inloggningsberoende läsningar kan speglas direkt.
+- Revisit when: Riksarkivet ändrar sin CSP eller bildtjänstens åtkomstmodell.

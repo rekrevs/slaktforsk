@@ -70,7 +70,7 @@ Värnpliktsnumret 174 med årtal 1917 återkommer i Degerfors 1910–1920
 | `00194364_00311` | 5799 × 4076 | 1 469 149 | `7375f1a6782c20b842a09ea9dadd7910ffd5ef0be1c307a9ecd2f40f1c3443f5` |
 | `00194368_00274` | 5695 × 4077 | 1 142 492 | `226eefa4f9fe4f6ff8139e8ac183081508e2130bd2cea2d96f2b60dbd79a3f4f` |
 
-SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
+SHA-256 beräknade i webbläsarsessionen; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
@@ -78,6 +78,17 @@ SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
 |---|---|
 | [Manifest 00194364](../media/S-0701-manifest-00194364.json) | `0d397413e2a2dec8add22be9c648c9c47246be77fd7794cdcf84c6bffe58042e` |
 | [Manifest 00194368](../media/S-0701-manifest-00194368.json) | `48bd84195c00017319c571eddbc793e2a225ebae99cfb5087be244469e5841f0` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0889-riksarkivet-00194364_00264.jpg](../media/C-0889-riksarkivet-00194364_00264.jpg) | `00194364_00264` | `236f935172df322d8327cbed66f0068695971c899f1546d12bf31d9cab8348cc` |
+| [C-0889-riksarkivet-00194364_00311.jpg](../media/C-0889-riksarkivet-00194364_00311.jpg) | `00194364_00311` | `7375f1a6782c20b842a09ea9dadd7910ffd5ef0be1c307a9ecd2f40f1c3443f5` |
+| [C-0889-riksarkivet-00194368_00274.jpg](../media/C-0889-riksarkivet-00194368_00274.jpg) | `00194368_00274` | `226eefa4f9fe4f6ff8139e8ac183081508e2130bd2cea2d96f2b60dbd79a3f4f` |
 
 ## Stödda påståenden
 

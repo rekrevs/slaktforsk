@@ -49,7 +49,7 @@ folkskollärarinna, tog flyttningsbetyg nr 57/1928 och utflyttade
 | `00203753_00054` | 5702 × 4049 | 1 089 735 | `01d9ebc9f8fa9536938550b295c3e168b1f1c964cdd5562fbc22b4702f20572b` |
 | `00203756_00272` | 5652 × 4062 | 1 176 575 | `10a721877c47204264cbb5a60b82e83cbce33c5acbcd6ce9f10ea019235cee5a` |
 
-SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
+SHA-256 beräknade i webbläsarsessionen; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
@@ -57,6 +57,16 @@ SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
 |---|---|
 | [Manifest 00203753](../media/S-0703-manifest-00203753.json) | `e4aa9fc0880c86dbea0a5496013510b8e469f8b997ac555a649839ff7e1dfcda` |
 | [Manifest 00203756](../media/S-0703-manifest-00203756.json) | `e3975679ba777886cfe942123261f001cd011563594218ff731998088df45a6f` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0891-riksarkivet-00203753_00054.jpg](../media/C-0891-riksarkivet-00203753_00054.jpg) | `00203753_00054` | `01d9ebc9f8fa9536938550b295c3e168b1f1c964cdd5562fbc22b4702f20572b` |
+| [C-0891-riksarkivet-00203756_00272.jpg](../media/C-0891-riksarkivet-00203756_00272.jpg) | `00203756_00272` | `10a721877c47204264cbb5a60b82e83cbce33c5acbcd6ce9f10ea019235cee5a` |
 
 ## Stödda påståenden
 

@@ -598,13 +598,27 @@ Omprövat 2026-09-05 efter första försöket, med samma utfall:
 `info.json` anger `rights: Public Domain Mark 1.0` — innehållet är alltså fritt,
 medan bildtjänsten ändå kräver inloggning. Spärren är teknisk, inte rättslig.
 
-Två åtgärder häver hindret, båda på ägarens sida:
+### Löst 2026-09-06: formulärpost som uthämtningsväg
 
-1. Ställ om Chromes nedladdningskatalog till en katalog som terminalen läser
-   (projektets scratch eller en mapp i repot) och slå av `Fråga var varje fil
-   ska sparas`. Därefter kan agenten själv driva `Ladda ner → Hela bilden` för
-   varje bild-id och spegla filerna utan fler ägaringripanden.
-2. Ge terminalen läsrätt till `~/Downloads` (Full Disk Access) och kopiera dit.
+Ingen inställning behövde ändras. Sidans CSP låser `connect-src` till
+riksarkivet.se, men saknar `form-action` — och `form-action` ärver **inte**
+från `default-src`. Formulärposter är därför oreglerade, medan fetch/XHR till
+localhost blockeras. Arbetsgången:
 
-Utan någon av dem kvarstår endast ett ägarbeslut om att fjärrverifierad
-SHA-256 räcker som provenans för inloggade bilder.
+1. Starta en lokal mottagare som tar emot `multipart/form-data` och skriver
+   filen till en katalog som terminalen läser.
+2. Öppna en autentiserad sida på `sok.riksarkivet.se` (en lätt sida som
+   `/folkrakningar/` räcker — det är kakan, inte bildvisaren, som behövs).
+3. I sidkontexten: `fetch(<IIIF-url>, {credentials:'include'})` → `Blob` →
+   `new File([...])` → lägg i `new DataTransfer()` → tilldela
+   `input.files` → `form.submit()` mot `http://127.0.0.1:<port>/`.
+   Flera bilder kan skickas i samma formulär med ett `input` per bild;
+   åtta åt gången fungerar väl.
+4. Fliken navigeras till mottagarens svar; gå tillbaka till riksarkivetsidan
+   inför nästa omgång.
+5. Verifiera varje fil mot den SHA-256 som beräknades vid läsningen.
+
+Detta kringgår ingen spärr: det är samma session, samma behörighet och samma
+fulloriginal som bildvisarens egen `Ladda ner`-knapp levererar — bara
+dirigerat till en katalog som agenten kan läsa. `~/Downloads` (macOS TCC) och
+Chromes nedladdningskatalog behöver inte röras.

@@ -49,7 +49,18 @@ fastighetsnycklar, inte bevis om vem som bodde där.
 | `00023791_00073` | 3572 × 2721 | 653 949 | `6945976b5682887b27cd6b29bbdb2574843921dc58f1475e98eff3c592f1840e` |
 
 SHA-256 beräknade i den inloggade webbläsarsessionen på
-`/full/max/0/default.jpg`; lokal kopia saknas ännu (S-0693).
+`/full/max/0/default.jpg`; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0885-riksarkivet-00023791_00015.jpg](../media/C-0885-riksarkivet-00023791_00015.jpg) | `00023791_00015` | `5130349a8f9de1c899ea271a9310d643c3aac157bf88701d48825ad109466907` |
+| [C-0885-riksarkivet-00023791_00028.jpg](../media/C-0885-riksarkivet-00023791_00028.jpg) | `00023791_00028` | `64c9f8839f16185a641f6b74d58147dfd2a7d425a186e69de438c686df1f978f` |
+| [C-0885-riksarkivet-00023791_00073.jpg](../media/C-0885-riksarkivet-00023791_00073.jpg) | `00023791_00073` | `6945976b5682887b27cd6b29bbdb2574843921dc58f1475e98eff3c592f1840e` |
 
 ## Stödda påståenden
 

@@ -38,14 +38,22 @@ saknar honom ([C-0887](C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md)).
 
 - Original (fjärrverifierat): 5684 × 4071 px, 1 425 338 byte, SHA-256
   `351c7aaf3d2173b5d0b39edff12b2b893e2a58dd11077f027966403d1f7980ea`
-  (`/full/max/0/default.jpg`, beräknad i webbläsarsessionen); lokal kopia
-  saknas ännu (se S-0693).
+  (`/full/max/0/default.jpg`, beräknad i webbläsarsessionen); lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
 | Fil | SHA-256 |
 |---|---|
 | [S-0697-manifest-00198629.json](../media/S-0697-manifest-00198629.json) | `d6573a762ed1394edff6e1fa71ab24598d37f17be4b5598b68e7a1ec88a8fc98` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0886-riksarkivet-00198629_00029.jpg](../media/C-0886-riksarkivet-00198629_00029.jpg) | `00198629_00029` | `351c7aaf3d2173b5d0b39edff12b2b893e2a58dd11077f027966403d1f7980ea` |
 
 ## Stödda påståenden
 

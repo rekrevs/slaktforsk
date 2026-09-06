@@ -50,7 +50,7 @@ Tjänsten i Östhammar omfattade alltså läsåren 1928/29–1929/30. Seminariet
 | `00151613_00030` | 5719 × 4082 | 1 444 581 | `6e3874ba5e8584811702414cdb9cd6528cac6c81ca1fac85c15b86acfc7281d5` |
 | `00151624_00053` | 5640 × 4226 | 1 495 671 | `cbd4819863b17a6e4facdfaecf934e50110a09c995466784d56c122c3f8e5d2b` |
 
-SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
+SHA-256 beräknade i webbläsarsessionen; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
 
 ## Bevarat katalogunderlag
 
@@ -59,6 +59,17 @@ SHA-256 beräknade i webbläsarsessionen; lokal kopia saknas ännu (S-0693).
 | [Manifest 00151613](../media/S-0704-manifest-00151613.json) | `31faf72c7cb7fcad0356aa15820e05668fd79b5e54f40c79b231cac0d4b4be8b` |
 | [Manifest 00151623](../media/S-0704-manifest-00151623.json) | `e55c1a81c71970b2517182456e91c5858f82b8bf430403adbbf57a8d90de042e` |
 | [Manifest 00151624](../media/S-0704-manifest-00151624.json) | `4a9ce2e1189c2d1bd98aa4e8fdc84c99b60bc6ce5f1e82f457d99918f96ec252` |
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0892-riksarkivet-00151613_00030.jpg](../media/C-0892-riksarkivet-00151613_00030.jpg) | `00151613_00030` | `6e3874ba5e8584811702414cdb9cd6528cac6c81ca1fac85c15b86acfc7281d5` |
+| [C-0892-riksarkivet-00151623_00099.jpg](../media/C-0892-riksarkivet-00151623_00099.jpg) | `00151623_00099` | `409ab3826771c0a5738b0df2090995c632c6d941f858b789bd8416deb98aad33` |
+| [C-0892-riksarkivet-00151624_00053.jpg](../media/C-0892-riksarkivet-00151624_00053.jpg) | `00151624_00053` | `cbd4819863b17a6e4facdfaecf934e50110a09c995466784d56c122c3f8e5d2b` |
 
 ## Stödda påståenden
 

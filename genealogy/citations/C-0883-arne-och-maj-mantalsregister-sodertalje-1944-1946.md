@@ -56,7 +56,19 @@ hushåll enligt [C-0884](C-0884-jansson-kvartersregister-sodertalje-1943-1947.md
 | `00023816_00107` | 4603 × 4225 | 1 642 890 | `554ed6a5d1578592b4e6543f6ae68eb0aef4aabe0ff3638a0600fd67699d3245` |
 
 SHA-256 beräknade i den inloggade webbläsarsessionen på IIIF-svaret
-`/full/max/0/default.jpg`; lokal kopia saknas ännu (S-0693).
+`/full/max/0/default.jpg`; lokala kopior är speglade 2026-09-06 och listas under Lokal källbild.
+
+## Lokal källbild
+
+Speglade 2026-09-06 ur den inloggade sessionen; SHA-256 stämmer exakt med de
+värden som beräknades vid läsningen.
+
+| Fil | Bild-id | SHA-256 |
+|---|---|---|
+| [C-0883-riksarkivet-00023814_00095.jpg](../media/C-0883-riksarkivet-00023814_00095.jpg) | `00023814_00095` | `c9b04bd190671bc703efdba287aeb54c84600e530eb44ceaac5273d8a88ae597` |
+| [C-0883-riksarkivet-00023814_00098.jpg](../media/C-0883-riksarkivet-00023814_00098.jpg) | `00023814_00098` | `5f63f17c3b7010d962a6078ff77eb4eecde0dd7ad77ad5fc7295006eb834410a` |
+| [C-0883-riksarkivet-00023815_00099.jpg](../media/C-0883-riksarkivet-00023815_00099.jpg) | `00023815_00099` | `1a04bd325a51713f42bb171908f10b8946aa43672151c7f0868d7449001d0320` |
+| [C-0883-riksarkivet-00023816_00107.jpg](../media/C-0883-riksarkivet-00023816_00107.jpg) | `00023816_00107` | `554ed6a5d1578592b4e6543f6ae68eb0aef4aabe0ff3638a0600fd67699d3245` |
 
 ## Stödda påståenden
 
