@@ -29,6 +29,8 @@
 | A-3522 | Han var **arbetare och ogift** under hela Holmtiden och står ensam på raden, utan hustru, barn eller eget hushåll. | TRANSCRIBED | hög | [C-0939](../citations/C-0939-erik-jonas-henriksson-i-holm-1895-1900.md) | Stämmer med att vigseln skedde 1900-11-24, sex veckor efter flytten till Sättna. |
 | A-3523 | **Han utflyttade från Holm den 1900-10-12** från Östbyn, folio 224, till Sättna, med anteckningen `Inskrifven`. | CORROBORATED | mycket hög | [C-0939](../citations/C-0939-erik-jonas-henriksson-i-holm-1895-1900.md), [C-0542](../citations/C-0542-sattna-AIIa2-sida-388-erik-jonas-henriksson-familj.md) | Reciprok mot Sättnas inflyttningsdatum 1900-10-13. |
 | A-3524 | **Rättar A-2407:** Holm `B/2` och Holms församlingsböcker `A II a/1–2` är läsbara i inloggad session; det tidigare `401`-beskedet var ett åtkomstläge, inte ett källhinder. | CORROBORATED | hög | [C-0939](../citations/C-0939-erik-jonas-henriksson-i-holm-1895-1900.md) | Tredje åtkomstbeskedet från 2026-08-29 som är upplöst. |
+| A-3541 | **Han inflyttade till Östbyn i Holm den 1894-12-01** och skrevs på husförhörslängdens sida 195, ogift och ensam; sidan för honom vidare till `N.B. 211`. | CORROBORATED | mycket hög | [C-0943](../citations/C-0943-erik-jonas-henriksson-inflyttad-holm-1894.md), [C-0939](../citations/C-0939-erik-jonas-henriksson-i-holm-1895-1900.md), [C-0543](../citations/C-0543-ljustorp-AI10-sida-265-och-BI3-1894-erik-jonas-till-holm.md) | Sluter det sista ledet: `G.B. 195` i C-0939 är denna sida, och datumet är reciprokt mot Ljustorps utflyttningslängd. |
+| A-3542 | Sidan bär anteckningen **`Inskr. som värnpliktig`**. | TRANSCRIBED | hög | [C-0943](../citations/C-0943-erik-jonas-henriksson-inflyttad-holm-1894.md) | Knyter an till värnpliktsnumret 204/166/81 i Ljustorps `A I/10` s. 265. |
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
@@ -55,8 +57,8 @@ sidhänvisningar (C-0543, C-0542) och gav vigseln 1900-11-24 samt döden
 och dödsoriginalen samt Holmåren är nu lästa i inloggad session: vigseln
 1900-11-24 och döden av lunginflammation 1910-03-02 (C-0938), och hela
 Holmuppehållet i Östbyn 1895–1900 (C-0939). Det äldre åtkomstbeskedet i
-C-0544 är därmed upplöst; kvar bakåt är `G.B. 195`, sidan där ankomsten
-1894-12-01 ska stå.
+C-0544 är därmed upplöst; och `G.B. 195` — sidan där ankomsten 1894-12-01 står — är läst i C-0943.
+Hela livskedjan är därmed obruten i original genom nio volymer i fyra arkiv.
 
 ## Slutstatus
 
@@ -80,6 +82,7 @@ C-0544 är därmed upplöst; kvar bakåt är `G.B. 195`, sidan där ankomsten
 | 1890 | Folkräkning | Lagfors | jordbruksarbetare, ogift | — | C-0328 |
 | 1892–1894 | A I/10 s. 265; värnpliktsanteckning 204/166/81 | Lagfors | arbetare | brodern Henrik Petter på samma sida | C-0543 |
 | 1894-12-01 | Utflyttning nr 35 till Holm | Ljustorp → Holm | — | — | C-0543 |
+| 1894-12-01 | **Inflyttning till Östbyn i Holm**, husförhörslängden s. 195; `Inskr. som värnpliktig` | Ljustorp → Holm | ogift | — | C-0943 |
 | 1895–1898 | Sida 211, rubriken `Östbyn`, ensam och ogift | Östbyn, Holm | arbetare | — | C-0939 |
 | 1898–1900 | Folio 224, `Östbyn N:o 1`, fortsatt ensam och ogift | Östbyn, Holm | arbetare | — | C-0939 |
 | 1900-10-12 | Utflyttning post 14 från Östbyn folio 224 till Sättna, `Inskrifven` | Holm → Sättna | arbetare | — | C-0939 |
