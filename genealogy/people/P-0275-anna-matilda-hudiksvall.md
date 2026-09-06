@@ -26,6 +26,7 @@ inte ut automatiskt från fadern.
 | A-3537 | **Hon står `icke döpt` i församlingsboken 1931–1949.** | CORROBORATED | hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md) | Bekräftar profilens antagande och ger sammanhang åt den ovanliga anteckningen vid sonens dop 1903. |
 | A-3538 | **Modern Anna Greta dog 1937-06-14**; hon var änka efter **gårdsägaren** Anders Gustaf Hök och **ägde fastigheten Fridhem**. Systern Augusta Elisabet, f. handelsbiträde, dog 1947-09-12. | CORROBORATED | mycket hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md), [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Fridhem, adressen i folkräkningen 1930, var alltså familjens egen fastighet. |
 | A-3539 | **Hon hade en bror, missionären Knut Bertil Hök**, gift med Sara Kristina Bergqvist och verksam i **Kongo**; deras döttrar Birgit Margareta (f. 1928-07-16 i La Madzia, Kongo) och Märta Elisabet (f. 1931-05-24, samma ort) bodde hos mormodern i Hudiksvall 1935-03-14–1936-08-21, båda `icke döpt`. | CORROBORATED | mycket hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md) | Ny sidogren. Hennes bror missionär i Kongo och hennes son missionär i Öst-Turkestan och Indien — båda fält som Svenska Missionsförbundet drev. |
+| A-3563 | **Hon dog inte i Hudiksvall mellan 1949-06-26 och 1951-04-06.** Dödboken `F I/5` är läst post för post från 1949 års post 51 till volymens sista post 1951-04-06. | NEGATIVE | hög | [C-0947](../citations/C-0947-anna-matilda-hok-avgransat-dodsnoll-1949-1951.md) | Avgränsat noll som stämmer med att hon fördes vidare som levande 1949-07-16. Vägen vidare är dock stängd: församlingsboksserien efter 1949 saknar bild i sin helhet, `F I/6` (1951–1977) saknar register, och varken gravar.se, SvenskaGravar.se eller DDS omfattar Hudiksvall. |
 
 ## Relationer
 
@@ -69,7 +70,8 @@ utan att Anna Matilda och Johannes konstrueras som ett par.
 | 1937-06-14 | Modern Anna Greta dör | Hudiksvall | — | — | C-0942 |
 | 1947-09-12 | Systern Augusta Elisabet dör | Hudiksvall | — | — | C-0942 |
 | 1949-07-16 | Överförd till nästa församlingsbok, `N:o 250`; levde alltså ännu | Hudiksvall | — | — | C-0942 |
-| efter 1949 | **Materiell lucka**: försörjning och död | Hudiksvall? | — | — | profil Q-02 |
+| 1949–1951 | Dog inte i Hudiksvall före 1951-04-06 | Hudiksvall | — | — | C-0947 |
+| efter 1951 | **Materiell lucka**: försörjning och död; effektiva källvägar stängda | Hudiksvall? | — | — | profil Q-02, C-0947 |
 
 ## Biografisk sammanfattning
 
