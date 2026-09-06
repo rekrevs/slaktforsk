@@ -31,6 +31,9 @@ Hyltinge 1890.
 | A-2164 | Hyltinge B/4:s samtliga utflyttningsposter 1910–1914 saknar en säker rad för Ålund-hushållet. | TRANSCRIBED | hög | [C-0432](../citations/C-0432-hyltinge-B4-utflyttade-1910-1914-negativ-alund.md) | År 1915 är inte färdigläst och ingår inte i resultatet. |
 
 | A-3151 | Riksarkivets avgränsade metadatafrågor på Hyltinge och mantals-/taxeringslängder 1900–1935 gav ingen relevant serie; enda träffen var en karta för Stora Kofva i Lilla Malma. | NEGATIVE | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Katalogbundet noll, inte belägg för att skattehandlingar eller personposter saknas. |
+| A-3672 | Vid lysningen i Gryt 1876 skrevs hon `pigan Adela Amalia Urbom i Högtorp` med födelseuppgiften `49 ³/₈`. | CORROBORATED | mycket hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md), [C-0087](../citations/C-0087-adela-amalia-urbom-fodelse-1849.md) | Fjärde oberoende bäraren av 1849-08-03, och bekräftar att hon fortfarande bodde i Högtorp dit hon flyttade 1874. |
+| A-3673 | **Vigseln med Per Albert Ålund ägde rum 1876-06-24 och förrättades i Husby i Oppunda härad**, alltså Husby-Oppunda socken. | TRANSCRIBED | hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Anteckningen står i Gryts vigselbok, N:o 5 år 1876. Fastställer det datum som hittills bara var härlett ur åldersuppgifter. |
+| A-3674 | Vigselorten Husby-Oppunda är samma socken där hennes föräldrahushåll bodde vid Hjulfabriken 1861–1865, vilket förklarar varför årgången 1876 i hennes födelseförsamling Västra Vingåker var negativ. | CORROBORATED | hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md), [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md), [C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md) | Nollresultatet var korrekt avgränsat men letade i fel av brudens två socknar. Husby-Oppundas egen vigselbok 1876 är **inte läst**. |
 
 ## Tidslinje
 
@@ -41,7 +44,8 @@ Hyltinge 1890.
 | 1861–1865 | Bor med föräldrar och syskon vid **Hjulfabriken i Husby-Oppunda**; hennes rad hänvisas internt till **Dymmelsta sida 68**. | [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md) | Hänvisningen saknar årtal och är **inte följd**. Familjen rör sig mellan bruk och fabriker, inte mellan gårdar. |
 | omkring 1871–1874 | **Piga vid Bergastugan i Helgesta**, folio 58. | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md) | Folio 58 i Helgesta A I/17 är **ännu inte omläst**, trots att volymen nu är fjärråtkomlig. |
 | 1874 | Flyttar från Bergastugan till **Högtorp i Gryt**. | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md), [C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md) | Samma år som Per Albert flyttar till Jordanstorp i samma socken. |
-| omkring 1876 | **Gift med Per Albert Ålund.** | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | **Vigselnotisen är inte funnen.** Västra Vingåkers hela årgång 1876 är genomläst utan paret ([C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md)); Gryts vigselböcker före 1895 saknade bildlänk vid kontrollen. |
+| 1876-05-28 – 06-11 | **Lysning i Gryt**, N:o 5; hon skrivs `pigan Adela Amalia Urbom i Högtorp`, han dräng i Suna i Hyltinge. | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Hennes födelseuppgift `49 ³/₈` bekräftar 1849-08-03 en fjärde gång. |
+| 1876-06-24 | **Gift med Per Albert Ålund** — vigseln förrättad i **Husby i Oppunda härad**, inte i Gryt. | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Vigselorten är samma socken där hennes föräldrar bodde vid **Hjulfabriken** 1861–1865 ([C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md)). Det förklarar nollet i Västra Vingåker ([C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md)): man sökte i hennes **födelseförsamling** i stället för i familjens senare hemsocken. |
 | 1877-09 | Dottern **Hulda Amalia** föds i Djupnäs i Gryt; hon uppges vara 27 år och fylla 28 under året. | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Direkt ana. Åldern stämmer med 1849. |
 | 1879 | Flyttar med maken och dottern från Gryt till **Hyltinge**. | [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md) | |
 | 1890 | I **Valsund i Hyltinge**, uppgiven ålder 40 år; sonen **Karl Albert** föds. | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | I sonens födelsepost är hennes förnamn **felskrivet som Hulda Amalia** — dotterns namn. |
@@ -62,10 +66,18 @@ har följts.
 
 I början av 1870-talet tjänade hon som **piga vid Bergastugan i Helgesta**, och
 1874 flyttade hon därifrån till **Högtorp i Gryt** — samma år som Per Albert
-Ålund flyttade till Jordanstorp i samma socken. Två år senare var de gifta.
-Vigselnotisen har aldrig hittats: Västra Vingåkers hela årgång 1876 är
-genomläst utan dem, och Gryts vigselböcker för åren före 1895 saknade bildlänk
-när saken kontrollerades.
+Ålund flyttade till Jordanstorp i samma socken. Två år senare, den **24 juni
+1876**, gifte de sig.
+
+Den vigseln var länge bortsprungen, och när den till slut hittades förklarade
+den också varför. Lysningen togs ut i Gryt — hon `pigan Adela Amalia Urbom i
+Högtorp`, han dräng i Suna i Hyltinge — men **vigseln förrättades inte där**.
+Gryts vigselbok anmärker i klartext: `Vigseln skedde i Husby i Oppunda Härad`.
+Det är **Husby-Oppunda**, socknen där hennes föräldrar hade bott vid
+Hjulfabriken på 1860-talet. Arbetet hade tidigare letat igenom hela årgången
+1876 i Västra Vingåker, hennes **födelseförsamling**, och funnit ingenting.
+Det nollresultatet var korrekt — det letade bara i fel av hennes två socknar.
+Bruden gifte sig där familjen hade sitt fäste, inte där hon råkade vara född.
 
 Dottern **Hulda Amalia** föddes i Djupnäs i Gryt i september 1877, och 1879
 flyttade familjen till **Hyltinge**, där de blev kvar. Hon följs där i tre
@@ -103,11 +115,17 @@ inte hennes början, som fattas.
 
 ## Forskningsfrågor
 
-- Födelsenotisen, föräldrarna och namnformen är nu belagda i original.
+- Födelsenotisen, föräldrarna och namnformen är belagda i original.
   Hennes väg är följd Västra Vingåker 1849 → Bergastugan i Helgesta → Högtorp
   i Gryt 1874. Helgesta husförhörslängd `SE/ULA/10394/A I/17` (1871–1875)
-  är nu fjärråtkomlig, men hennes exakta folio 58 är ännu inte omläst.
-  Återstår också vigseln med Per Albert Ålund omkring 1876 och hennes dödsnotis.
+  är fjärråtkomlig, men hennes exakta folio 58 är ännu inte omläst.
+- **Vigseln löst 2026-09-06:** lysning i Gryt N:o 5 år 1876 och vigsel
+  **1876-06-24**, förrättad i **Husby i Oppunda härad** ([C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md)).
+  Kvar står hennes dödsnotis.
+- **Ny exakt källväg:** Husby-Oppunda kyrkoarkivs lysnings- och vigselbok för
+  1876 är **inte läst**. Den bör ge den fullständiga vigselnotisen med
+  förrättande präst och vittnen, och kan därigenom öppna nya namn i båda
+  familjerna.
 - **Senliv avgränsat 2026-08-24:** folkräkningen 1910 är åter verifierad i
   original och personregister. De väntade Valsta-sidorna i A II a/2–3
   reproducerar ändå inte familjen, F/1 saknar en säker dödpost 1911–1934 och
