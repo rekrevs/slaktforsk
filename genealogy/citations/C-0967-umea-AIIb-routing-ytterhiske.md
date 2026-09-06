@@ -57,3 +57,44 @@ captcha, inloggningsspärr eller beställning.
 
 Källvägen KP-04 i [P-0028](../research-profiles/P-0028.md) och KP-02 i
 [P-0029](../research-profiles/P-0029.md).
+
+## Tillägg 2026-09-06: Ytterhiskes avdelning lokaliserad i `A II b/13`
+
+Efter routingen ovan söktes stadsäga 1258 systematiskt med en
+**rubrikmontage-teknik**: för varje uppslag hämtas bara den översta
+remsan över IIIF:s regionparameter, `0,0,<bredd>,<0,13·höjd>`, och sex
+sådana remsor ritas samman i en canvas. Ett skärmavtryck visar då
+**sex uppslagsrubriker samtidigt**. `pct:`-syntaxen stöds inte av
+servern och ger `501`; absolut region fungerar.
+
+**Ytterhiskes avdelning ligger i `A II b/13`, batch `00178897`, omkring
+uppslagen 77–95.** Lästa rubriker:
+
+| Uppslag | Rubrik |
+|---|---|
+| 69 | `Sandaktern`, stadsägan **1251 A**, gårdsäg. E. A. Reström |
+| 70 | `Sandaktern`, stadsägan **1251 B** |
+| 71 | stadsägan **1251 6**, gårdsäg. F. A. Viberg |
+| 73 | `Östermalm` N:r 1383, stadsäg. **1252 d** |
+| 75 | `Östermalm` N:r 1252, Högatan |
+| 76 | `Sandaktern`, stadsägan **1254**, gårdsäg. Josefina Danielsson |
+| 77 | **`Ytterhiske`**, stadsäg. **1265 + 1206 + 1422 + 1485**, gårdsäg. Joh. och Aro Dahlgren |
+| 78 | **`Ytterhiske`**, stadsäg. **1270**, gårdsäg. E. C. Dahlgren |
+| 79 | **`Ytterhiske`**, stadsägan **1274**, gårdsäg. J. E. Lundgren |
+| 80 | **`Ytterhiske`**, stadsäg. **1282**, gårdsäg. J. T. Westin |
+| 82 | **`Ytterhiske`**, stadsäg. **1304**, gårdsäg. J. Bodén, Holmsund |
+| 84 | **`Ytterhiske`**, stadsäg. **1307**, gårdsäg. Karl Eriksson |
+| 86 | **`Ytterhiske`**, stadsäg. **1333** |
+| 88 | **`Ytterhiske`**, stadsäg. **1338**, gårdsäg. N. L. Hansson |
+| 90 | **`Ytterhiske`**, stadsäg. **1276**, gårdsäg. N. P. Westberg |
+
+**Numreringen är inte strikt stigande** — 1282 kommer före 1276 — och
+Ytterhiskeuppslagen står blandade med kvarteren Sandaktern och Östermalm i
+samma nummerintervall. **Stadsäga 1258 finns inte bland de femton lästa
+rubrikerna.** Det är ett avgränsat noll för just dessa uppslag, inte för
+volymen: `A II b/13` har 406 uppslag, och Ytterhiskeavdelningen fortsätter
+efter uppslag 90.
+
+Nästa åtgärd är att läsa rubrikerna för uppslagen **91–130** med samma
+teknik, och därefter `A II b/12`:s senare del, innan ett volymnoll får
+bokföras.

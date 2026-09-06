@@ -741,3 +741,34 @@ fältkombination en gång på en person, ort eller titel som **redan** är
 belagd i samma register. Passerar kontrollen får nollan bokföras, med
 kombinationen angiven. Passerar den inte, är nollan värdelös och sökvägen
 måste läggas om till fält som fungerar.
+
+## Tillägg 2026-09-06: läs sex uppslagsrubriker i ett skärmavtryck
+
+När man söker ett bestämt uppslag i en tjock volym — en gård i en
+fastighetslängd, ett kvarter i en mantalslängd, ett år i en vigselbok —
+kostar den vanliga metoden ett skärmavtryck per uppslag. Det gör en
+volym på fyrahundra uppslag oöverkomlig.
+
+**Rubrikmontage** löser det. IIIF:s Image API kan leverera en **region** av
+bilden i stället för hela sidan:
+
+```
+https://lbiiif.riksarkivet.se/arkis!<bild-id>/0,0,<bredd>,<höjd·0,13>/1400,/0/default.jpg
+```
+
+Hämta den översta remsan för sex uppslag, rita samman dem i en `<canvas>`
+med bildnumret utskrivet vid varje remsa, och ta **ett** skärmavtryck. Då
+läses sex förtryckta rubriker på en gång — `Kvarteret ___ N:r ___ Gårdsäg.:
+___` eller motsvarande — och sökningen blir sex gånger billigare.
+
+Två fällor:
+
+- **`pct:`-syntaxen stöds inte.** `pct:0,0,100,13` ger `501 Not
+  Implemented`. Använd absoluta pixlar och hämta bildens mått ur
+  `<bild-id>/info.json` först, eftersom sidorna varierar i storlek.
+- **Rubriken sitter inte alltid överst.** Kontrollera andelen mot ett
+  känt uppslag innan en serie läses; 13–15 procent räckte för Umeå
+  stadsförsamlings `A II b`, men en bok med högre marginal kräver mer.
+
+Tekniken ersätter inte fullständig läsning. Den lokaliserar målsidan; själva
+posten ska alltid läsas i full upplösning innan något skrivs av.
