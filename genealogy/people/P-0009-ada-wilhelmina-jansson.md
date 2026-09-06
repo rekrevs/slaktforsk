@@ -38,6 +38,10 @@ dotterson i samma föräldrapars hushåll 1930.
 | A-3451 | Utflyttningslängden anger destinationen **östra Aker, Kristiania** i Norge och för henne som **emigrant**, med en anteckning daterad 1921-11-28. | TRANSCRIBED | hög | [C-0918](../citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md) | Preciserar A-3421; ger norsk sökingång (Østre Akers kirkebøker, folketellingen 1920). |
 | A-3598 | **Hon förekommer inte i Rotemansarkivet 1878–1926.** Tre positivkontrollerade namnsökningar är uttömda: `Ada Wilhelmina` (88 poster, ingen född 1886), `Jansson` + `Ada` (84 poster, ingen född 1886-08-19) och `Bergman` + `Ada` (en post, född 1876). | NEGATIVE | hög | [C-0956](../citations/C-0956-rotemansarkivet-avgransade-nollor-2026-09-06.md) | Roteregistret är den samlade förteckningen över Stockholms hela befolkning under perioden; hon var alltså inte mantalsskriven i staden 1878–1926 under dessa namnformer. Sökningar på födelsedatum utgår som bevis: fältet ger belagt falska nollor (rättelse i C-0956). |
 | A-3599 | **Följd och bevarad konflikt:** en Stockholmsvigsel med Knut Bergman måste därmed ligga **efter 1926**, medan familjeuppgiften placerar dottern Maj-Britts födelse 1922. Den belagda emigrationen till Østre Aker i Kristiania 1918-10-29 gör **Norge** till den mer sannolika platsen för både vigsel och barnafödsel. | CONFLICT | medel | [C-0956](../citations/C-0956-rotemansarkivet-avgransade-nollor-2026-09-06.md), [C-0918](../citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md), [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Konflikten bevaras mot A-1654 och A-1655. Norska källvägar: Østre Akers kirkebøker och folketellingen 1920. |
+| A-3603 | **Hon var ogift tjänsteflicka i Kristiania vid folkräkningen 1920-12-01**, boende Hafrsfjordsgaten 5, lägenhet 02, i manufakturhandlaren Ingar Doblaugs hushåll; posten anger födelsedatum 1886-08-19 och födelseorten `Flen Sverige`. | CORROBORATED | hög | [C-0958](../citations/C-0958-ada-folketelling-1920-kristiania.md), [C-0918](../citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md) | Första arkivbelägget efter 1918 och slutet på den materiella luckan efter Arnes födelse 1915. |
+| A-3604 | **Hon vigdes 1922-01-05 i Jakobs församling i Kristiania med Knut Sigfrid Bergersen, född 1890-12-28.** Vigselboken (sida 129, löpnummer 2) namnger hennes far **carl Fredrik Jansson** och hans far Fredrik Samuel Bergersen; hon var bosatt på **Bygdö**. | CORROBORATED | hög | [C-0959](../citations/C-0959-ada-vigsel-kristiania-1922.md), [C-0958](../citations/C-0958-ada-folketelling-1920-kristiania.md) | Identifieringen vilar på tre exakta sammanfall: hennes födelsedatum, hennes fars namn och brudgummens förnamn Knut. |
+| A-3605 | **Vigseln ägde rum i Norge, inte i Stockholm.** Det bekräftar förutsägelsen i A-3599 och förklarar varför hon saknas i Rotemansarkivet 1878–1926. | CORROBORATED | hög | [C-0959](../citations/C-0959-ada-vigsel-kristiania-1922.md), [C-0956](../citations/C-0956-rotemansarkivet-avgransade-nollor-2026-09-06.md) | Ett avgränsat noll som förutsade var posten skulle finnas, och som infriades. |
+| A-3606 | **Bevarad konflikt om makens efternamn:** familjen minns rörmokaren **Knut Bergman i Stockholm**, vigselboken skriver **Knut Sigfrid Bergersen**. Formerna är närliggande men inte samma namn. | CONFLICT | medel | [C-0959](../citations/C-0959-ada-vigsel-kristiania-1922.md), [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Den arkivbelagde mannen förs som [P-0535](P-0535-knut-sigfrid-bergersen.md); identiteten med P-0299 är sannolik men obekräftad. Brudgummens yrke saknas i avskriften och avgör frågan när originalsidan läses. |
 | A-3452 | Vid utflyttningen 1918-10-29 skrevs hon **barnsköterska**, inte hemsömmerska; flyttningsbetyget utfärdades samma dag. | TRANSCRIBED | hög | [C-0918](../citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md) | Yrkesangivelsen antyder en anställning i Norge. |
 
 ## Relationer
@@ -51,6 +55,7 @@ dotterson i samma föräldrapars hushåll 1930.
 | [P-0045 Torvald Stefanus Jansson](P-0045-torvald-stefanus-jansson.md) | bror | 1890–1910 | CORROBORATED | C-0011–C-0013 |
 | [P-0046 Ture Alexius Jansson](P-0046-ture-alexius-jansson.md) | bror | 1890–1910 | CORROBORATED | C-0011–C-0013 |
 | [P-0047 Astrid Charlotta Jansson](P-0047-astrid-charlotta-jansson.md) | syster | 1900/1910 | CORROBORATED | C-0011, C-0012 |
+| [P-0535 Knut Sigfrid Bergersen](P-0535-knut-sigfrid-bergersen.md) | make | **1922-01-05, Jakobs förs., Kristiania** | TRANSCRIBED | C-0959 |
 | [P-0299 Knut Bergman](P-0299-knut-bergman.md) | uppgiven senare make | Stockholm, tid ej angiven | LEAD | C-0263 |
 | [P-0300 Maj-Britt](P-0300-maj-britt-adas-dotter.md) | uppgiven dotter | tid/plats ej angivna | TRANSCRIBED | C-0263 |
 
@@ -59,7 +64,7 @@ dotterson i samma föräldrapars hushåll 1930.
 - Följ Ada från Ökna efter 1914 fram till Arnes födelse och vidare till Flen.
 - Inget ytterligare faderskapsbelägg för Arnes relation till Bernhard krävs
   enligt PCD-2026-08-20-001.
-- Verifiera den sekundära dödsuppgiften 1961.
+- Verifiera den sekundära dödsuppgiften 1961. Hon bar efter 1922 sannolikt namnet **Bergersen**, vilket är en ny söknyckel i både svenska och norska register.
 
 ## Kontrollpunkt i djup 3
 
@@ -83,9 +88,10 @@ medan hennes senare liv ligger kvar som en egen öppen forskningsfråga.
 | 1915–1918 | Kvar vid Ökna säteri, uppslag 608; sonen Arne på egen rad från 1916 | Ökna, Floda | jungfru | sonen Arne Godvig | C-0909 |
 | 1918-10-28 | Utflyttning till Flen med sonen; flyttningsbetyg 26/10 | Floda → Flen | hemsömmerska | sonen | C-0909, C-0910 |
 | 1918-10-29 | **Utflyttning till Norge**; sonen lämnas hos föräldrarna på Ljungbacka | Flen → Norge | hemsömmerska | — | C-0910 |
-| 1918–1922 | **Materiell lucka**: Norge; vigsel med Knut Bergman | Norge? | — | — | profil Q-01 |
+| 1920-12-01 | **Folkräkning; ogift tjänsteflicka** hos manufakturhandlaren Ingar Doblaug | Hafrsfjordsgaten 5, Kristiania | tjänsteflicka | främmande hushåll | C-0958 |
+| 1922-01-05 | **Vigsel med Knut Sigfrid Bergersen**, sida 129 löpnr 2 | Jakobs förs., Kristiania | brud, bosatt på Bygdö | — | C-0959 |
 | 1915, 1917, omkring 1919 | Familjefoton med Arne | Flen | — | — | C-0266, C-0267 |
-| 1922 | Dottern Maj-Britt född enligt familjen | okänt | — | make Knut Bergman | C-0263 |
+| 1922 | Dottern Maj-Britt född enligt familjen; vigseln i januari samma år placerar födelsen i **Norge** | Kristiania? | — | maken | C-0263, C-0959 |
 | 1922–1961 | **Materiell lucka**: Stockholm? | okänt | — | — | profil Q-01, Q-02 |
 | 1961 | Död enligt sekundärträd | okänt | — | — | C-0010 (LEAD) |
 
@@ -100,7 +106,14 @@ familjen var hon barnjungfru där när hon sommaren 1914 blev med barn med
 bokhållaren Bernhard Eliasson; sonen Arne föddes 1915-02-21 i Flen utan
 namngiven far och växte upp hos hennes föräldrar (C-0008, C-0263,
 PCD-2026-08-20-001). Foton visar henne med Arne 1915 och 1917 (C-0266).
-Enligt familjen gifte hon sig senare med rörmokaren Knut Bergman i Stockholm
+Utflyttningslängden för henne som emigrant till Østre Aker i Kristiania
+1918-10-29, och där återfinns hon: vid folkräkningen 1920-12-01 var hon
+ogift tjänsteflicka hos manufakturhandlaren Ingar Doblaug på
+Hafrsfjordsgaten 5, och den 5 januari 1922 vigdes hon i Jakobs församling i
+Kristiania med **Knut Sigfrid Bergersen**, född 1890-12-28 (C-0958,
+C-0959). Vigselboken namnger hennes far Carl Fredrik Jansson, vilket gör
+identifieringen entydig. Familjen minns maken som rörmokaren Knut Bergman i
+Stockholm
 och fick dottern Maj-Britt 1922 (C-0263, C-0267); sekundärträdet anger att
 hon dog 1961 (C-0010). Livet efter 1915 är obelagt i arkivkällor.
 
