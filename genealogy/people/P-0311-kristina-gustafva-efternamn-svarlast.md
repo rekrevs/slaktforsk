@@ -25,6 +25,7 @@ osäkra läsningen `Wingberg[?]` i sonens födelsenotis är löst av flera tydli
 
 | A-2396 | Vid Karl Augusts omgifte i Kalmar 1882 antecknades `Bouppteckning och arfskifte uppvisadt`, så en bouppteckning efter henne upprättades mellan 1874 och 1882. | LEAD | hög | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Bouppteckningen är inte läst; sök i Ölands norra mots häradsrätt (Högby) 1874–1882. |
 | A-3163 | Ölands norra mots häradsrätt F II/75, 1872–1875, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Förenas med vigselkällans positiva uppgift att bouppteckning och arvskifte uppvisats; själva akten är oläst. |
+| A-3679 | Åtkomstläget för `SE/VALA/01647/F II/75` är förnyat kontrollerat 2026-09-06 och är fortsatt `Läsesal`; F II:s volymer 1–72 till och med 1863 är däremot digitaliserade. | TRANSCRIBED | hög | [C-0987](../citations/C-0987-oland-norra-mot-serieskiften-och-mantalslangder.md) | Beskedet är alltså **bekräftat med nytt datum**, inte upphävt. Gränsen mellan bild och läsesal går vid volym 73, år 1864. |
 | A-3177 | Häradsskrivarens i Ölands norra mots fögderi fond `SE/VALA/01959`, 1655–1917, är den analoga skatte-/mantalsvägen för Christina Gustafvas säkra Högbyperiod. | LEAD | medel | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Tre riktade frågor exponerade ingen årsvolym; ingen personrad är läst. |
 ## Tidslinje
 
