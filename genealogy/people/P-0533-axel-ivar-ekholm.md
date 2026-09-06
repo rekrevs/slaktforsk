@@ -11,6 +11,7 @@ följer familjeraden.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3585 | Axel Ivar föddes 1907 i Stockholm och stod 1910 som son i familj nr 1 på Kungsholm rote 23, kvarteret Kettingen N:o 36 och 37. | TRANSCRIBED | hög | [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md) | Folkräkningspost; exakt födelsedatum och egen födelsenotis återstår. Han var Hulda Amalias äldsta kända barn. |
+| A-3596 | Han föddes **1907-03-09 i Matteus församling** i Stockholm, fördes som `Barn inom äktenskapet`, flyttade med modern **till Helgesta 1913-09-12** och återvände till Stockholm **1924–1926**. | CORROBORATED | hög | [C-0955](../citations/C-0955-ekholm-alund-rotemansarkivet-1899-1913.md), [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md) | Preciserar A-3585 med exakt datum och födelseförsamling. Den sena posten visar att han kom tillbaka som vuxen. |
 
 ## Relationer
 

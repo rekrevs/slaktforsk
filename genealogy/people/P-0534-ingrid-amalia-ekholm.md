@@ -11,6 +11,7 @@ utan följer familjeraden.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3586 | Ingrid Amalia föddes 1910 i Stockholm och stod samma år som dotter i familj nr 1 på Kungsholm rote 23, kvarteret Kettingen N:o 36 och 37. | TRANSCRIBED | hög | [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md) | Folkräkningspost upprättad 1910-12-31; hon var alltså spädbarn. Exakt födelsedatum och egen födelsenotis återstår. |
+| A-3597 | Hon föddes **1910-02-05 i Matteus församling** i Stockholm, fördes som `Barn inom äktenskapet` och flyttade med modern **till Helgesta 1913-09-12**. | CORROBORATED | hög | [C-0955](../citations/C-0955-ekholm-alund-rotemansarkivet-1899-1913.md), [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md) | Preciserar A-3586 med exakt datum och födelseförsamling. |
 
 ## Relationer
 
