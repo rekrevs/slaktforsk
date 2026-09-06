@@ -1133,3 +1133,134 @@ dödsbevis; P-0240 uppväxten och utbildningen 1902–1930, hemmaförsamlingen
 1933–1934 och änketiden 1951–1991; P-0241
 dödsnotisen 1983 och Sättna efter 1943; P-0246 dödsnotisen 1963 och
 bouppteckningen samma år.
+
+## Personmatris: djup 4 på Kristinas sida efter T-0076, 2026-09-06
+
+Raderna upprättas när T-0076:s passager 326–336 har läst de källvägar som
+öppnades av den inloggade bildåtkomsten och när de fyra kompletterande
+källfamiljerna har fått en dokumenterad disposition i katalogprovet
+[C-0950](citations/C-0950-katalogprov-djup-4-kristinas-sida.md). De ersätter
+det tidigare läget att ingen av Kristinas åtta djup-4-positioner hade
+matrisrad. Koderna vilar på lästa poster, avgränsade nollresultat och ett
+katalogprov utan bildläsning.
+
+| Person | Nuvarande kärnfråga | F | H | M | V | D | R | B | T | J | O |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| P-0242 Johan Fredrik Villehad Carlman | hela livet 1866–1940 är belagt utom ungdomen 1880–1897 och Kalmarrörelsen | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `N` |
+| P-0243 Elin Andersson | födelse, barndom, vigsel, hushåll och död är belagda; kvar är änketiden i Stockholm och födelsedagskonflikten | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `—` |
+| P-0247 Gertrud Kristina Jönsson, senare Henriksson och Hallin | hela vuxenlivet 1900–1951 är kyrkobokfört i två giften; egen födelsenotis saknas och dödsåret är okänt | `N` | `✓` | `✓` | `✓` | `N` | `✓` | `2` | `S` | `—` | `—` |
+| P-0253 Erik Jonas Henriksson | hela kedjan 1860–1910 är sluten i original genom nio volymer i fyra arkiv | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `S` | `—` | `S` |
+| P-0254 Anders Niklas Larsson | födelse, hushåll, vigsel och död är belagda; kvar är flytten Indal → Sättna 1890–1894 | `✓` | `✓` | `N` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `—` |
+| P-0255 Ingrid Kristina Vidusina Höglund | detsamma, plus att den borgerliga vigselns skäl nu är belagt | `✓` | `✓` | `N` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `—` |
+| P-0275 Anna Matilda | födelse, hushåll 1880–1949 och sonens födelse är belagda; hon levde 1949 och dödsåret är okänt | `✓` | `✓` | `✓` | `—` | `N` | `✓` | `2` | `—` | `S` | `—` |
+| P-0287 Johannes Ivar Fredberg | födelse, inflyttning 1895, yrke, ogift stånd och död 1949 är belagda; kvar är 1900–1949 | `N` | `✓` | `✓` | `—` | `✓` | `✓` | `S` | `—` | `S` | `—` |
+
+### Motivering per kolumn
+
+**P-0242.** `F` egen födelsenotis 1866-11-08 med dopnamnet Villehad, C-0269.
+`H` Högby A I/8 och A I/10, Ljungby 1900 och Kalmar stadsförsamlings uppslag
+4774 (C-0355, C-0234, C-0899). `M` inflyttningen till Kalmar 1929 från
+Jönköping, C-0899. `V` **vigseln 1897-09-23 i Östra Husby**, C-0948, som
+löser A-2109. `D` gravposten 1940-02-12 med hemorten Östra Husby, C-0944;
+dödboken är oläst. `R` folkräkningarna 1880, 1900 och 1930 (C-0393, C-0234,
+C-0899). `B` Bråbygdens domsaga `F II` **vol 20 (1939–1940)** utan bildlänk,
+C-0950. `T` och `J` utan trigger. **`O` är `N`:** hans specerirörelse i
+Kalmar prövades i aktiebolagsregistret 1901–1935 med **noll träffar** — den
+var en enskild firma, inte ett aktiebolag, C-0950.
+
+**P-0243.** `F` egen födelsenotis 1873, C-0270. `H` Gäddelstad A I/21 och
+A I/25 samt Ljungby och Kalmar (C-0271, C-0407, C-0234, C-0899). `M`
+överföringen till Ljungby 1897 och till Kalmar 1929 (C-0407, C-0899). `V`
+C-0948. `D` gravposten 1962-11-10 med hemorten Stockholm, C-0944. `R`
+folkräkningarna 1880, 1890, 1900 och 1930. `B` Stockholms rådhusrätts
+bouppteckningsenhet 1948–1970 utan bildlänk, C-0950. `T`, `J`, `O` utan
+trigger. **Öppen konflikt:** hennes födelsedag anges 1873-01-13 i
+födelsenotisen men 1873-01-15 i både vigselboken och gravregistret.
+
+**P-0247.** **`F` är `N`:** hela Sättnas födelseföljd 1874 och hela
+Sättnaavsnittet i SCB-utdraget saknar hennes notis, och saknar därtill ett
+barn till Abraham Jönsson och Stina Kajsa Nordlund (C-0674). Datumet
+1874-02-23 vilar i stället på fyra samstämmiga senare original. `H` sex
+församlingsbokssidor i följd: 388, 384, 389, 392 och nya bokens 388 och 304
+(C-0542, C-0926, C-0675, C-0677, C-0930). `M` överföringarna mellan dem,
+bland annat 1931-12-04. `V` **två vigslar**: 1900-11-24 (C-0938) och
+1918-03-09 med Nils August Hallén (C-0926). **`D` är `N`:** Sättnas
+sammanhängande dödföljder 1927–1943 och 1952–1955 saknar henne under
+Jönsson, Henriksson eller Hallin (C-0676, C-0677). `R` folkräkningarna 1900
+och 1910 samt indexet 1930, där hon står omgift på Storbränna fol 389
+(C-0898). **`B` är `2`:** bouppteckningsvolymen kan inte lokaliseras förrän
+dödsåret är känt. **`T` är `S`:** hon var **hemmansägare 1910**, alltså en
+verklig trigger, men Medelpads västra fögderis mantalslängder saknar
+bildlänk och serien slutar 1917, C-0950. `J` och `O` utan trigger.
+
+**P-0253.** `F` egen födelsenotis 1860-01-23, C-0330. `H` **fem
+husförhörs- och församlingsbokssidor i obruten kedja**: Ljustorp A I/9
+s. 221/222 och A I/10 s. 265, Holm A I/9 s. 195, A II a/1 s. 211 och
+A II a/2 fol 224, samt Sättna A II a/2 s. 388 (C-0329, C-0543, C-0943,
+C-0939, C-0542). `M` fyra reciproka flyttposter 1894 och 1900 (C-0543,
+C-0943, C-0939). `V` vigselboken 1900-11-24, C-0938. `D` dödboken
+1910-03-02 med dödsorsaken lunginflammation, C-0938. `R` folkräkningarna
+1880 och 1890. **`B` är `S`:** Sköns tingslags häradsrätt `F II` **vol 10
+(1910–1912)** är `Läsesal` utan bild; han var hemmansägare, så en
+bouppteckning är nära nog säker, och seriens digitala register 1740–1912 i
+SVAR är en oprövad genväg, C-0950. **`T` är `S`** på samma grund som för
+P-0247. `J` utan trigger. **`O` är `S`:** värnpliktsnumret 204/166/81 och
+anteckningen `Inskr. som värnpliktig` leder till boxlagt material hos
+Krigsarkivet, C-0943, C-0950.
+
+**P-0254.** `F` egen födelsenotis 1862, C-0274. `H` Indals Högsjösidor och
+Sättnas fol 393 (C-0388, C-0925). **`M` är `N`:** Indals utflyttningsbok är
+läst rad för rad för 1895–1900 utan träff, vilket smalnar av flytten till
+**1890–1894** och flyttar frågan till den föregående längden `B/1`
+(C-0949). `V` **den borgerliga vigseln 1888-06-25**, C-0941. `D` dödboken
+1915-08-12 med dödsorsaken kräfta, C-0940. `R` folkräkningarna 1880, 1890,
+1900 och 1910 samt indexnollet 1930. `B` Sköns tingslags `F II` **vol 12
+(1915–1916)** utan bild, C-0950. `T`, `J`, `O` utan trigger — han var
+torpare utan egen fastighet.
+
+**P-0255.** Samma rad som maken i `F`, `M`, `R`, `T`, `J` och `O`. `H`
+föräldrahushållet i Högsjö och Sättnas fol 393 (C-0254, C-0349, C-0925).
+`V` C-0941, där **skälet till den borgerliga vigseln står utskrivet:
+`hon okonfirmerad`**. `D` dödboken 1921-12-11 med dödsorsaken hjärtfel och
+äggvita, C-0940, som också bekräftar namnformen `född Höglund`. `B` Sköns
+tingslags `F II` **vol 15 (1921–1922)** utan bild.
+
+**P-0275.** `F` egen födelsenotis 1880-12-23, `icke döpt`, C-0410. `H`
+Hudiksvalls sidor 341, 593 och **591** i följd 1880–1949, C-0260, C-0942.
+`M` överföringen till `N:o 250` 1949-07-16, C-0942. **`V` är `—`:** hon
+gifte sig aldrig; sonen föddes utom äktenskapet och inget vigselspår finns.
+**`D` är `N`:** Hudiksvalls dödbok `F I/5` är läst post för post från
+1949-06-26 till volymens slut 1951-04-06 utan träff, och vägen vidare är
+dokumenterat stängd — församlingsboksserien efter 1949 saknar bild i sin
+helhet, `F I/6` (1951–1977) saknar register, och varken gravar.se,
+SvenskaGravar.se eller DDS omfattar Hudiksvall (C-0947). `R`
+folkräkningarna 1880, 1890, 1900, 1910 och 1930. **`B` är `2`** av samma
+skäl som för P-0247. `T` utan trigger. **`J` är `S`:** hon födde 1903 ett
+barn utom äktenskapet, och ett barnuppfostringsmål skulle ha förts vid
+Hudiksvalls rådhusrätt, digitaliserad bara till 1863, C-0936, C-0950.
+`O` utan trigger.
+
+**P-0287.** **`F` är `N`:** Kungsholms `C I/14` saknar hans födelsenotis
+kring 1880-06-24, och den enda posten på datumet gäller en flicka (C-0327).
+Datumet bärs i stället av folkräkningen 1880, faderns lysningsakt 1888 och
+nu **dödboken 1949** (C-0946). `H` Hudiksvalls sida 10 och första kvarteret
+nr 5 a (C-0323, C-0322). `M` inflyttningen från Ulrika Eleonora 1895-12-31,
+C-0323, C-0325; Kungsholms utflyttningsavsnitt är genomsökt med avgränsat
+noll, C-0324. **`V` är `—`:** dödboken 1949 anger honom uttryckligen
+**ogift**, C-0946. `D` **dödboken 1949-02-10** med dödsorsaken myocarditis
+chronica och jordfästningen i Sollentuna, C-0946, C-0945. `R`
+folkräkningarna 1880 och 1900. `B` Stockholms rådhusrätts
+bouppteckningsenhet 1948–1970 utan bild; han var dock skriven `å förs.` i
+Olaus Petri i Örebro, C-0950. `T` utan trigger. **`J` är `S`** — samma
+faderskapsväg som för P-0275. `O` utan trigger; `f.d. slaktare` utlöser
+ingen egen arkivserie.
+
+### Kvarstående sakfrågor, inte formella brister
+
+Raderna betyder att varje relevant källfamilj har en dokumenterad
+disposition, inte att liven är uttömda. Öppet står: P-0242 ungdomen
+1880–1897 och Kalmarrörelsen; P-0243 änketiden i Stockholm och konflikten
+om födelsedagen; P-0247 egen födelsenotis och dödsår; P-0253 bouppteckningen
+1910; P-0254 och P-0255 flytten Indal → Sättna 1890–1894; P-0275 döden efter
+april 1951; P-0287 åren 1900–1949 och avdelningen för på församlingen
+skrivna i Olaus Petri i Örebro.
