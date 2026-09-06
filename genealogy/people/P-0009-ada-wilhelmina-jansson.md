@@ -32,6 +32,9 @@ dotterson i samma föräldrapars hushåll 1930.
 | A-1679 | Två familjefotografier visar enligt Jan-Christers bildtexter Ada tillsammans med Arne 1915 respektive 1917. | TRANSCRIBED | hög | [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md) | Familjearkivets namngivna bildtexter. |
 | A-1696 | Efter äktenskapet med Knut Bergman bar hon efternamnet Bergman. | TRANSCRIBED | hög | [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Familjeuppgift; vigsel- och namnbyteshandling återstår. |
 | A-3370 | Ada Wilhelmina återfinns inte i folkräkningsindexet 1930 under namnformerna Ada Wilhelmina (f. 1886), Ada* Bergman (f. 1886) eller Ada* född i Lerbo. | CORROBORATED | medel | [C-0900](../citations/C-0900-folkrakningsindex-1930-avgransade-nollor-jansson-larsson-hoglund.md) | Avgränsat indexnoll; hela listan över 26 Lerbofödda 1886 är inte genomgången. |
+| A-3419 | Hon var kvar vid Ökna säteri i Floda 1915–1918, skrevs om till uppslag 608 rad 15 år 1916 och hade sonen Arne Godvig på egen rad i sitt hushåll. | TRANSCRIBED | hög | [C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md) | Första samtida källa som visar mor och son tillsammans. |
+| A-3420 | Hon utflyttade med sonen från Floda till Flen 1918-10-28 med flyttningsbetyg 1918-10-26 och skrevs hemsömmerska i föräldrahushållet på Ljungbacka. | CORROBORATED | mycket hög | [C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md), [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Reciproka poster i Floda och Flen. |
+| A-3421 | Hon utflyttade från Flen **till Norge den 1918-10-29**, dagen efter ankomsten, och lämnade sonen kvar hos sina föräldrar. | TRANSCRIBED | hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Förklarar luckan 1918–1922 och det avgränsade indexnollet i folkräkningen 1930 (C-0900). Norsk destination anges inte. |
 
 ## Relationer
 
@@ -73,7 +76,10 @@ medan hennes senare liv ligger kvar som en egen öppen forskningsfråga.
 | 1910 | Folkräkning; Mineberg s. 420 | Flens municipalsamhälle | dotter, ogift | föräldrar | C-0011, C-0035 |
 | 1911-11-10 | Utflyttning till Floda; inskriven vid Ökna säteri s. 609 | Floda | tjänsteflicka | Ökna | C-0037, C-0038, C-0039 |
 | 1915-02-21 | Sonen Arne Godvig född utom äktenskapet; nedkomst i Flen | Flen | — | — | C-0008 |
-| 1915–1922 | **Materiell lucka**: Ökna/Flen, vigsel med Knut Bergman | okänt | — | — | profil Q-01 |
+| 1915–1918 | Kvar vid Ökna säteri, uppslag 608; sonen Arne på egen rad från 1916 | Ökna, Floda | jungfru | sonen Arne Godvig | C-0909 |
+| 1918-10-28 | Utflyttning till Flen med sonen; flyttningsbetyg 26/10 | Floda → Flen | hemsömmerska | sonen | C-0909, C-0910 |
+| 1918-10-29 | **Utflyttning till Norge**; sonen lämnas hos föräldrarna på Ljungbacka | Flen → Norge | hemsömmerska | — | C-0910 |
+| 1918–1922 | **Materiell lucka**: Norge; vigsel med Knut Bergman | Norge? | — | — | profil Q-01 |
 | 1915, 1917, omkring 1919 | Familjefoton med Arne | Flen | — | — | C-0266, C-0267 |
 | 1922 | Dottern Maj-Britt född enligt familjen | okänt | — | make Knut Bergman | C-0263 |
 | 1922–1961 | **Materiell lucka**: Stockholm? | okänt | — | — | profil Q-01, Q-02 |

@@ -26,6 +26,7 @@ Larsson förekommer i källorna.
 | A-2377 | Vid lysningen i april 1886 var hon piga från Spånga, 18 år, och modern `Enkan Brita Katrina Andersd:r i Erikslund` gav skriftligt samtycke till äktenskapet. | TRANSCRIBED | hög | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Moderns patronymikon avviker från C-0098:s Pehrsdotter och hålls som konflikt hos P-0126; änkestatusen ger P-0125 ett dödsintervall före april 1886. |
 | A-2378 | Lerbo E I/3 1883–1885 saknar någon lysning eller vigsel för paret. | NEGATIVE | hög | [C-0536](../citations/C-0536-lerbo-EI3-vigselkontroll-1883-1885-negativ.md) | Sonen Sven Edvin (1884) föddes alltså före föräldrarnas vigsel. |
 | A-3139 | Bouppteckningsregistrets Charlotta Wilhelmina Larsson-/Flenfråga 1940–1941 gav noll, men även den namnblanka Flenkontrollen gav noll; Villåttinge F II/61 är den exakta analoga originalvolymen för 1939–1940. | TRANSCRIBED | hög | [C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md) | Registertäckningsgap och fjärråtkomstspärr, inte person- eller aktsnoll. Ingen bouppteckning lästes. |
+| A-3426 | Hon bodde med maken på Ljungbacka i Flen från 1914-10-30, adress Turegatan 8, och tog 1918-10-28 emot dottersonen Arne Godvig som fosterbarn när dottern Ada utflyttade till Norge. | CORROBORATED | hög | [C-0911](../citations/C-0911-jansson-ljungbacka-flen-1914-1915.md), [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Två uppslag i följd i Flens församlingsböcker. |
 
 ## Relationer
 

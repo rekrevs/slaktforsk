@@ -28,6 +28,8 @@ mellan Carl/Karl och Janson/Jansson; `Jarnsson` är en registervariant 1900.
 | A-3138 | Bouppteckningsregistrets Karl Fredrik Jansson-/Flenfråga 1937–1938 gav noll, men även den namnblanka Flenkontrollen gav noll; Villåttinge F II/60 är den exakta analoga originalvolymen. | TRANSCRIBED | hög | [C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md) | Registertäckningsgap och fjärråtkomstspärr, inte person- eller aktsnoll. Ingen bouppteckning lästes. |
 
 | A-3155 | Riksarkivets katalog identifierar fotografiposten `SE/KrA/0202/044:H/K 1 a/K 1ab/F 0051`, 1920–1939, med titeln `Möbelfabriken Varia, Flen`, men ingen relevant personal- eller anställningsserie i de prövade Varia-frågorna. | TRANSCRIBED | hög | [C-0826](../citations/C-0826-riksarkivet-yrkesrutter-sverker-djup5.md) | Fotografiet är endast fabrikskontext och identifierar inte Karl Fredrik eller någon anställd. |
+| A-3425 | Hushållet flyttade 1914-10-30 från Mineberg (uppslag 420) till Ljungbacka (uppslag 402) i Flen, med sonen Ture Alexius, dottern Astrid Charlotta och fosterbarnen Karl Harry och Karin Elisabet. | TRANSCRIBED | hög | [C-0911](../citations/C-0911-jansson-ljungbacka-flen-1914-1915.md) | Den saknade länken mellan Mineberg 1910 och Ljungbacka 1916–1923. |
+| A-3429 | På Ljungbacka, Turegatan 8, skrevs han murbruksarbetare och tog 1918 emot dottersonen Arne Godvig som fosterbarn. | TRANSCRIBED | hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Uppslag 914 i A II a/4 c. |
 
 ## Relationer
 

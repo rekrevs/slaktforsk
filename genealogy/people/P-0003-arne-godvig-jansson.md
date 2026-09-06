@@ -59,6 +59,9 @@ faderskapsbelägg krävs inte.
 | A-3358 | Familjen bodde 1940–1943 kvar på Johansborg (kv. Penseln) med två barn födda 1938 och 1940, döpta 1941-11-16. | TRANSCRIBED | hög | [C-0895](../citations/C-0895-jansson-flen-johansborg-uppslag-720-utflyttning-1943.md) | Barnens födelsedagar minimeras. |
 | A-3359 | Familjen utflyttade 1943-11-24 direkt från Flen till Södertälje stadsförsamling med destinationen Mejseln 3 antecknad. | CORROBORATED | hög | [C-0895](../citations/C-0895-jansson-flen-johansborg-uppslag-720-utflyttning-1943.md), [C-0882](../citations/C-0882-arne-godvig-inflyttning-sodertalje-1943.md) | Avsändande och mottagande bok överensstämmer på dag och fastighet. |
 | A-3360 | Barndomshushållet 1923–1930 stod på uppslag 638 i Flen A II a/5 b, som saknas i båda digitala reproduktionerna; inkomstkolumnen 1930 (`9 –`) betyder 900 kr i hundratal, vilket bekräftar A-0048. | CORROBORATED | hög | [C-0896](../citations/C-0896-flen-sida-638-saknas-och-inkomstenhet-1930.md) | Exakt hinder för 1915–1930; gravar.se saknar Södertälje ([C-0897](../citations/C-0897-gravar-sodertalje-tackningsnoll-arne-maj.md)). |
+| A-3422 | Han bodde med modern vid Ökna säteri i Floda till 1918 och står som hennes son på församlingsbokens uppslag 608. | TRANSCRIBED | hög | [C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md) | Första samtida källa för barndomshushållet. |
+| A-3423 | Han inflyttade till Flen 1918-10-28, tre och ett halvt år gammal, och skrevs `fb.` — fosterbarn — hos morföräldrarna Karl Fredrik Jansson och Charlotta Wilhelmina Larsson på Ljungbacka, Turegatan 8. | CORROBORATED | mycket hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md) | Samtida originalbelägg för familjeuppgiften i C-0263; binder kedjan till `dotterson` i folkräkningen 1930. |
+| A-3424 | Församlingsboken antecknar `Moder: tjänarinnan Ada Wilhelmina Jansson från Ökna i Floda` och namnger ingen far. | TRANSCRIBED | hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Bekräftar födelsenotisens tomma fadersfält (C-0008). |
 
 ## Öppet
 
@@ -87,7 +90,10 @@ faderskapsbelägg krävs inte.
 | Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
 |---|---|---|---|---|---|
 | 1915-02-21 | Född `oäkta`, ingen far namngiven; modern hemmahörande vid Ökna, Floda | Flen | — | Ada Wilhelmina Jansson | C-0008, C-0039 |
-| 1915–1930 | **Materiell lucka**: barndomshushåll, Adas flytt; familjen uppger uppväxt hos morföräldrarna; uppslag 638 (1923–1930) saknas i reproduktionerna | Flen | — | morföräldrarna enligt C-0263 | profil Q-03, C-0896 |
+| 1915–1918 | Hos modern vid Ökna säteri, Floda, uppslag 608 | Ökna, Floda | — | modern Ada Wilhelmina | C-0909 |
+| 1918-10-28 | Inflyttning till Flen; skriven **fosterbarn** hos morföräldrarna, Ljungbacka, Turegatan 8, uppslag 914 | Flen | — | Karl Fredrik Jansson och Charlotta Wilhelmina Larsson samt två andra fosterbarn | C-0910 |
+| 1918-10-29 | Modern utflyttar till Norge | Flen | — | morföräldrarna | C-0910 |
+| 1918–1930 | **Materiell lucka**: uppslag 638 (1923–1930) saknas i båda reproduktionerna | Flen | — | morföräldrarna | profil Q-03, C-0896 |
 | omkring 1919 | Familjefoto med Ada och morföräldrarna | Flen | barn | — | C-0266, C-0267 |
 | 1930 | Folkräkning; småskola/folkskola, inkomst 900 | Björkhem n:o 1, Flen, s. 563 | polerare, ogift, dotterson | Karl Fredrik Jansson och Charlotta Vilhelmina Larsson | C-0007, C-0030 |
 | 1930–1938 | Församlingsbok s. 563 → s. 948 → s. 1084 | Flen | polerare | morföräldrarna | C-0030–C-0032 |
