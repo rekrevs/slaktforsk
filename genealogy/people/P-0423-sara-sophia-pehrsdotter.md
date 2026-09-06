@@ -75,6 +75,77 @@ P-0028 rättades 2026-08-29; föräldrarna är nya spetsar på djup 5.
 | [P-0472 Petter Reinhold Pehrsson](P-0472-petter-reinhold-pehrsson.md) | far | CORROBORATED | C-0727 |
 | [P-0473 Beata Jonsdotter](P-0473-beata-jonsdotter.md) | mor | CORROBORATED | C-0727 |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1829-05-21 | Född, enligt tre hushållslängder i Ånäset, Degerfors socken. | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | **Egen födelsenotis saknas i reproduktionen:** Degerfors C/2:s skannade födelseföljd slutar i augusti 1828 (A-2828). |
+| 1829–1850 | Dotter till Petter Reinhold Pehrsson och Beata Jonsdotter i Ånäset; A I/5a s. 335 och A I/6b s. 399. | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Föräldrarnas vigsel finns i Degerfors C/2 1826. |
+| 1850-11-24 | Gift med Johan Peter Zingmark; **flyttar till Sävar samma dag**. | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md), [C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | Giftårsdagen står i tre skilda längder. **Vigselposten är inte återfunnen**; Sävar och Lycksele är helt genomlästa utan träff (C-0684). |
+| 1851-08-01 | Dottern Sophia Beata föds i Botsmark, döpt 11 augusti. | [C-0567](../citations/C-0567-savar-C2-sophia-beata-zingmark-fodd-1851.md) | Faderns ståndsbeteckning är svårläst. |
+| 1853-01-21 | Sonen Carl Reinhold föds, döpt 2 februari. | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md) | Fadern skrivs `Sold. Joh. P. Zingmark`. |
+| 1854-09-27 | Dottern Christina Wilhelmina föds, döpt 29 september. | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md) | Husförhörslängden skriver namnet `Sophia Wilhelmina`; konflikten bevaras. |
+| 1856-07-29 | Dottern Maria Elina föds, döpt 5 augusti. | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md) | |
+| 1858-10-26 | Sonen Pehr August föds, döpt 29 oktober; **moderns ålder anges till 29 år**. | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md) | Åldern stämmer med födelseåret 1829. |
+| 1855–1864 | Hushållet i Botsmark s. 470 med man och sju barn; hänvisning framåt till `Nya bok 603`. | [C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md) | Sidan saknar säker äldre sidnyckel bakåt. |
+| 1861-05-28 | Sonen Johan Oscar föds i Botsmark; **modern anges vara 32 år**. | [C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md) | Direkt ana; åldern korroborerar 1828–1829. |
+| 1864-03-23 och 03-24 | **Tvillingarna Axel och Anders Wilhelm** föds, döpta 12 april. | [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md) | Fadern skrivs nu `landbonden`. De två födelsedagarna får inte normaliseras till ett datum. |
+| 1865-02-18 | **Sonen Axel dör**, 10 månader och 25 dagar gammal; begravd 5 mars. | [C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md) | Dödsorsaken är för svårläst för att normaliseras. |
+| 1868-02-12 och 02-13 | **Tvillingarna Sara Rebecka och Ester Amalia** föds, döpta 16 februari. | [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md) | Hennes sista kända barnsäng, cirka sex månader före den uppgivna dödsdagen. |
+| 1868-08-14 | **Uppgiven dödsdag** i Sävar A I/6b s. 603. | [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | **OMSTRIDD.** Se nedan; ingen dödbok, ingen SCB-avskrift och ingen bouppteckning bekräftar dagen. |
+| 1868 | Sävars dödbok E I/1 och F/1 samt SCB:s kompletta Sävarutdrag saknar henne; den numrerade följden går från 11 till 16 augusti utan post den 14:e. | [C-0555](../citations/C-0555-savar-dodbocker-sara-sophia-1868-1870-negativ.md), [C-0705](../citations/C-0705-scb-savar-doda-1868-sara-sophia-negativ.md) | Avgränsade nollresultat, inte bevis för annan dödsort eller annan dag. |
+| 1868 | Samtliga 27 församlingsranger i SCB:s Västerbottensvolym har ett kontrollerat fönster kring 14 augusti utan träff. | [C-0711](../citations/C-0711-scb-1868-sara-sophia-alternativa-dodsforsamlingar.md), [C-0715](../citations/C-0715-scb-vasterbotten-1868-lanskontroll-sara-sophia.md) | Datumfönster, inte hela församlingsår. |
+| senast 1870-07-02 | **Yttre gräns för hennes död:** maken gifter om sig med Nilsdotter. | [C-0553](../citations/C-0553-savar-EI1-zingmark-nilsdotter-vigsel-1870.md) | Tillsammans med barnafödseln i februari 1868 ger detta det säkra dödsfönstret 1868-02-13 – 1870-07-02. |
+
+## Biografisk sammanfattning
+
+Sara Sophia Pehrsdotter föddes den 21 maj 1829 i **Ånäset i Degerfors
+socken**, som dotter till Petter Reinhold Pehrsson och Beata Jonsdotter.
+Hennes egen födelsenotis går inte att läsa: den bevarade skanningen av
+Degerfors C/2 slutar i augusti 1828 och fortsätter direkt i dödboken, så
+sidan för 1829 finns helt enkelt inte i reproduktionen. Att datumet ändå är
+säkert beror på att två på varandra följande Degerforslängder skriver in
+henne med exakt den dagen bland Petter Reinholds och Beatas barn — och att
+den senare av dem antecknar både giftårsdagen och flytten till Sävar den
+**24 november 1850**, samma dag som två Sävarlängder ger som hennes
+giftårsdag. Det är denna dubbla brygga, inte något register, som löste
+hennes ursprung. En äldre anteckning i Sävar A I/6b som anger `Lycksele` som
+födelseort står kvar som en bevarad konflikt; Lyckseles hela födelseår 1829
+är genomläst utan henne.
+
+Vigseldagen är alltså känd, men **vigselposten är det inte**. Sävars och
+Lyckseles fullständiga vigselårgångar 1850 är lästa utan träff, och den
+församling som återstår att pröva är Nysätra, dit Ånäset hörde. Hon flyttade
+in i Botsmark som gift och blev kvar där hela sitt vuxna liv.
+
+På sjutton år födde hon **minst tio barn**, varav två tvillingpar. Sophia
+Beata kom 1851, Carl Reinhold 1853, Christina Wilhelmina 1854, Maria Elina
+1856 och Pehr August 1858 — i de åren skrivs maken `Sold.` i födelseboken,
+inte bonde. Johan Oscar, som är den direkta anan, föddes den 28 maj 1861,
+och då anges hon vara 32 år. Tvillingarna Axel och Anders Wilhelm föddes den
+23 och 24 mars 1864, och nu kallas fadern `landbonden`; Axel dog knappt elva
+månader gammal i februari 1865. Det sista tvillingparet, Sara Rebecka och
+Ester Amalia, föddes den 12 och 13 februari 1868.
+
+Ett halvår senare tar hennes liv slut, men **exakt hur och var är inte
+klarlagt**. Husförhörslängden skriver dödsdagen 1868-08-14. Sävars dödböcker
+för hela intervallet, SCB:s kompletta samtida avskrift för Sävar — där den
+numrerade följden går från den 11 till den 16 augusti utan någon post den
+14:e — och avgränsade datumfönster i länets övriga 26 församlingsranger
+saknar henne alla. Bouppteckningsprotokollen i Umeå tingslag är systematiskt
+lästa från akt `76 1/2` den 20 augusti 1868 till sista akten 1869 utan
+hennes namn. Det enda som står fast är fönstret: hon levde när tvillingarna
+föddes i februari 1868 och var död när maken gifte om sig den 2 juli 1870.
+Konflikten mellan den positiva hushållsanteckningen och sex oberoende
+negativa kontroller är bevarad som konflikt och inte upplöst åt något håll.
+
+Hennes eget liv utanför barnsängarna är knappt dokumenterat. Ingen källa ger
+henne ett yrke, en anmärkning, en underskrift eller ett fotografi. Det
+tätaste spåret av hennes umgänge är barnens dopvittnen, där ett av dem 1858
+uttryckligen kommer från **Ånäset i Degerfors socken** — hemtrakten hon
+lämnade som brud och som åtta år senare fortfarande skickade folk till hennes
+dopfölje.
+
 ## Forskningsstatus
 
 - Status: `VIDAREFÖRD — ÅNÄSET, FÖRÄLDRAR OCH SÄVARFLYTT SÄKRADE; EGEN FÖDELSEPOST, VIGSELPOST OCH DÖDSDAG ÖPPNA`

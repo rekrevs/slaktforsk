@@ -41,6 +41,7 @@ sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
 | A-3153 | Umeå fögderis fondförteckning identifierar Sävars mantalsvolymer Vol/150–155 över Johan Peters säkra Botsmarkperiod 1850–1898, med katalogglapp 1873–1882 och 1894. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, ägarpost, närvaro eller frånvaro är läst. |
 
 | A-3156 | Riksarkivets metadatafrågor `Ekträsk sågverk`, `Ekträsk såg` och `Ekträsks sågverk` 1880–1910 gav ingen relevant arbetsgivar- eller sågverksroute. | NEGATIVE | hög | [C-0826](../citations/C-0826-riksarkivet-yrkesrutter-sverker-djup5.md) | Katalogbundet noll; kyrkoböckernas positiva sågverksarbetartitel står kvar och ingen arkivfrånvaro infereras. |
+| A-3659 | Fyra samtida födelsenotiser 1851–1858 sätter en militär beteckning framför faderns namn, tre av dem säkert lästa som `Sold.`; från 1864 skriver samma serie `landbonden` och husförhörslängderna `Bonde`. Husförhörslängden A I/5b s. 470 har ingen ifylld ståndsuppgift och dess hushållsrubrik är överstruken och oläsbar. | TRANSCRIBED | hög | [C-0983](../citations/C-0983-johan-peter-zingmark-soldatbeteckning-1853-1858.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md) | Beteckningsföljd, inte tjänstebelägg. Förband, kompani, rote och soldatnummer är okända och får inte infereras; soldatnamnet Zingmark bars redan av fadern. |
 
 ## Relationer
 
@@ -66,6 +67,53 @@ sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
 | [P-0432 Jonas Eugen Zingmark](P-0432-jonas-eugen-zingmark.md) | son (andra giftet) | TRANSCRIBED | C-0552 |
 | [P-0433 Olof Konrad Zingmark](P-0433-olof-konrad-zingmark.md) | son (andra giftet) | TRANSCRIBED | C-0552 |
 | [P-0434 Nanny Olivia Zingmark](P-0434-nanny-olivia-zingmark.md) | dotter (andra giftet) | TRANSCRIBED | C-0552 |
+
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1825-02-01 | Född; döpt 1825-02-15 | Botsmark, Sävar | — | Carl Jonas Zingmark och Anna Sophia Holmström | C-0681 |
+| 1825– | Barndomshushåll A I/1 s. 157 | Botsmark | son | föräldrarna | C-0681 |
+| 1850-11-24 | Giftårsdag med Sara Sophia Pehrsdotter; hon flyttar från Ånäset till Sävar samma dag | Sävar | — | — | C-0563, C-0685, C-0727 |
+| 1851–1868 | Tio barn födda i första giftet | Botsmark N:o 7 | bonde | hustru och barn | C-0561, C-0562, C-0564, C-0565, C-0567 |
+| 1850–1870 | Husförhållslängderna A I/5b s. 470 och A I/6b s. 603 | Botsmark N:o 7 | bonde | hustru och barn | C-0685, C-0563 |
+| 1870-07-02 | Omgifte med Kajsa Greta Nilsdotter, född 1842-09-26 | Sävar | bonde, i andra giftet | — | C-0553 |
+| 1871–1887 | Sex barn i andra giftet | Botsmark N:o 7 | bonde | hustru och barn | C-0552 |
+| 1870–1898 | A I/7b s. 672, A I/8b s. 756 och A I/9b | Botsmark N:o 7 | bonde | hustru och barn | C-0561, C-0552, C-0554 |
+| 1895-07-02 | Blev änkling | Botsmark N:o 7 | bonde | barnen | C-0554, C-0585 |
+| 1898-11-28 | Utflyttad till Degerfors, attest 14 | Sävar → Degerfors | — | — | C-0554 |
+| 1900 | Folkräkning; `svärfar` hos dottern Maria Elina och Erik August Lindberg | Ekträsk, Degerfors | änkling | dotterns familj med åtta barn | C-0751 |
+| 1898–1903 | Degerfors A II a/2 s. 601 | Ekträsk, Degerfors | f.d. sågverksarbetare | dotterns familj | C-0585 |
+| 1903-07-24 | **Död**; begravd 2 augusti | Ekträsk, Degerfors | f.d. sågverksarbetare | — | C-0584, C-0585 |
+
+## Biografisk sammanfattning
+
+Johan Petter Zingmark föddes 1825-02-01 i Botsmark i Sävar som son till
+bonden Carl Jonas Zingmark och Anna Sophia Holmström och döptes den 15
+februari; både födelsenotisen och barndomshushållet namnger föräldrarna
+(C-0681). Han övertog eller tillträdde **Botsmark N:o 7** och står som
+**bonde** där genom fyra husförhörslängder i följd, från s. 470 på
+1850-talet till s. 756 på 1890-talet (C-0685, C-0563, C-0561, C-0552).
+
+Hans giftårsdag med **Sara Sophia Pehrsdotter** anges samstämmigt till
+**1850-11-24** i tre skilda hushållslängder, och Degerfors A I/6b s. 399
+visar att hon flyttade från Ånäset till Sävar samma dag (C-0727). Själva
+vigselposten är däremot inte funnen: varken Sävars eller Lyckseles
+vigselböcker för året har den (C-0684). I det äktenskapet föddes **tio
+barn** mellan 1851 och 1868, tre av dem tvillingpar. Efter Sara Sophias död
+gifte han om sig **1870-07-02** med pigan Kajsa Greta Nilsdotter, född 1842
+i Umeå landsförsamling, och fick sex barn till (C-0553, C-0552).
+
+Han blev änkling en andra gång **1895-07-02** och lämnade Botsmark
+**1898-11-28** för Degerfors. Folkräkningen 1900 finner honom i **Ekträsk**
+som `svärfar` i dottern Maria Elinas hushåll, där hennes make Erik August
+Lindberg och åtta barn bodde (C-0751). Församlingsboken kallar honom där
+**före detta sågverksarbetare** — bonden hade blivit industriarbetare på
+ålderdomen — och han dog **1903-07-24** och begravdes den 2 augusti
+(C-0585, C-0584). Dödbokens orsaks- och dödsortskolumner är tomma.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0422.md).
 
 ## Forskningsstatus
 
