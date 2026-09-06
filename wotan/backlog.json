@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 84,
+  "next_id": 85,
   "tasks": [
     {
       "id": "T-0001",
@@ -609,13 +609,11 @@
     },
     {
       "id": "T-0070",
-      "status": "BLOCKED",
+      "status": "READY",
       "size": "L",
-      "after": [
-        "T-0069"
-      ],
-      "blocker": "Inväntar T-0069 enligt närhetsregeln; T-0064–T-0066 har företräde när bildåtkomst finns.",
-      "summary": "Inför personkontraktet i djup 5-kohorten, 32 personer"
+      "after": [],
+      "summary": "Inför personkontraktet i djup 5-kohorten, 32 personer",
+      "note": "Frigjord 2026-09-06 genom PCD-2026-09-06-003: livsbildsskivan löper parallellt med generationsskivan, så beroendet av T-0069 upphör som blockeringsskäl. Detta är livsbildsskivan för djup 5."
     },
     {
       "id": "T-0071",
@@ -729,14 +727,25 @@
     },
     {
       "id": "T-0083",
-      "status": "ONGOING",
+      "status": "READY",
       "size": "M",
-      "phase": "DOING",
       "after": [
         "T-0082"
       ],
       "summary": "Djup 6 på Sverkers sida: de sex som inte är källbredd-klara (P-0082, P-0123, P-0126, P-0131, P-0132, P-0519)",
-      "note": "Registrerat gemensamt djup står på 5. Djup 6 är helt på Kristinas sida (29 av 29) men sex av Sverkers 28 saknar matrisbeslut. Obalansen ligger alltså på Sverkers sida, och detta är den närmaste substantiellt obehandlade generationen. P-0082 och P-0519 saknar dessutom avsnittet ## Slutstatus i profilen."
+      "note": "Registrerat gemensamt djup står på 5. Djup 6 är helt på Kristinas sida (29 av 29) men sex av Sverkers 28 saknar matrisbeslut. Obalansen ligger alltså på Sverkers sida, och detta är den närmaste substantiellt obehandlade generationen. P-0082 och P-0519 saknar dessutom avsnittet ## Slutstatus i profilen. Pausad 2026-09-06 enligt PCD-2026-09-06-003: livsbildsskivan för samma våg (T-0084) går först. Återupptagningspunkten i dev-loggen är intakt."
+    },
+    {
+      "id": "T-0084",
+      "status": "ONGOING",
+      "size": "M",
+      "phase": "DOING",
+      "after": [
+        "T-0081",
+        "T-0082"
+      ],
+      "summary": "Kontraktsomprövning av djup 4-kohorten på Sverkers sida: P-0009, P-0010, P-0015, P-0016, P-0028, P-0029, P-0048, P-0049",
+      "note": "Skapad genom PCD-2026-09-06-003. Villkor 2 i north star är den bindande grinden, och ingen avliden person har ännu passerat livsbildskravet: av 32 profiler är 7 GODKÄNDA och alla sju INTEGRITETSMINIMERADE. T-0081 besvarade merparten av de frågor som fällde dessa åtta profiler 2026-09-05."
     }
   ]
 }

@@ -3065,3 +3065,62 @@ upptar Kungsholmens kvarter.
   - djup 6 är behandlat, eller
   - ägaren öppnar ALTCHA, eller
   - kontraktsinförandet får en löpande skiva.
+
+## PCD-2026-09-06-003
+
+- Record type: decision
+- Date: 2026-09-06
+- Decides review: `PCR-2026-09-06-004`
+- Owner: Project Control inom delegerat mandat (ägarens stående direktiv
+  delegerar övriga ägarbeslut till Project Control)
+- Decision: **Livsbildsskivan ska löpa parallellt med generationsskivan,
+  inte efter den.** Varje generationsvåg som producerar nytt material ska
+  omedelbart följas av en kontraktsomprövning av de personer vågen
+  berörde, innan arbetet går djupare.
+- Disposition: approved
+
+### Skäl
+
+PCR-2026-09-06-004 visade att villkor 2 är den bindande grinden och att den
+växer snabbare än den betalas av. Inventeringen ger nu skälet i klartext:
+
+> Av de 32 personakter som har en kontraktsprofil är **7 GODKÄNDA — och
+> samtliga sju är `INTEGRITETSMINIMERAD`**, alltså personer där
+> dataminimeringen i sig uppfyller livsbildskravet. Alla **25 övriga har
+> `Livsbildsläge: PÅGÅR` och `Kontraktsgranskning: UNDERKÄND`.**
+> **Ingen avliden person i projektet har ännu passerat
+> livsbildskravet.**
+
+North star är uttrycklig på denna punkt: *"Biografiska luckor får inte
+skjutas undan på obestämd tid av nya anor"* och *"Både träd och livsbilder
+ingår i varje våg"*. Att köra T-0083 vidare mot djup 6 medan de åtta
+personer som T-0081 nyss fyllde med material ligger kvar som UNDERKÄNDA är
+just det som villkoret förbjuder.
+
+### Sakläget som gör omprövningen mogen nu
+
+T-0081 besvarade merparten av de frågor som fällde djup 4-profilerna
+2026-09-05. För P-0016 var granskningen UNDERKÄND på PK-03, PK-04, PK-08,
+PK-10 och PK-12, alla bundna till Q-01 och Q-02. Sedan dess är **maken
+identifierad** (Axel Vilhelm Ekholm, född 1878-02-17 i Åsbo, död
+1913-03-11), **hennes död belagd** (1964-03-15, gravsatt i Flen) och
+**luckan 1900–1913 till stor del sluten** genom Rotemansarkivet. Samma sak
+gäller i olika grad P-0009, P-0010, P-0015, P-0028, P-0029, P-0048 och
+P-0049.
+
+### Verkställighet
+
+- **T-0083 pausas som READY** med sin återupptagningspunkt intakt. Den är
+  inte övergiven; den återupptas när livsbildsskivan för samma våg är
+  gjord.
+- **T-0084 skapas och startas**: kontraktsomprövning av djup 4-kohorten på
+  Sverkers sida, åtta personer, mot det material T-0081 och T-0082 lade
+  till.
+- **T-0070:s beroende av T-0069 upphör** som skäl att hålla den BLOCKED;
+  den blir READY och är livsbildsskivan för djup 5.
+
+- Resulting Wotan tasks: `T-0084` (ny, ONGOING); `T-0083` → READY;
+  `T-0070` → READY.
+- Portfolio signal: projektet byter takt så att villkor 2 börjar röra sig
+  för första gången för en avliden person.
+- Revisit when: T-0084 är klar och andelen GODKÄNDA profiler har mätts om.
