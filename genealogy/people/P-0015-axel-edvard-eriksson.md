@@ -39,6 +39,11 @@ som hon 1930.
 | A-3027 | Sköldinge B/6:s kompletta exponerade inflyttningsföljd 1897, posterna 1–175, saknar Axel Edvard Erikssons namn- och identitetsprofil. | TRANSCRIBED | hög | [C-0785](../citations/C-0785-skoldinge-B6-axel-edvard-1897-negativ.md) | Strikt volym-, år-, postföljd-, namn-, ursprungs- och profilbundet noll; det upphäver inte Flens positiva Sköldingedestination och är inte ett vistelsenoll. |
 | A-3028 | Hyltinge B/4:s kompletta inflyttningsföljd 1897 (poster 1–81) och utflyttningsföljd 1898 (poster 1–75) saknar Axel Edvard Erikssons målprofil. | TRANSCRIBED | hög | [C-0786](../citations/C-0786-hyltinge-B4-axel-edvard-1897-1898-negativ.md) | Två exakta serie-/år-/postföljdsnoll; inget allmänt Hyltinge-, person- eller vistelsenoll. |
 | A-3029 | Flen B/4 inflyttade post 85 visar att sonen Axel Edvard Eriksson kom 1898-11-09 från Hyltinge till Bergatorp, folio 281. | CORROBORATED | mycket hög | [C-0787](../citations/C-0787-flen-B4-axel-edvard-aterkomst-1898.md), [C-0579](../citations/C-0579-flen-AI26-AIIa1-bergatorp-erik-matilda.md) | Samtida flyttpost och hushållsrad korsbelägger namn, datum, ursprung, destination, folio och post-/attestnummer 85. |
+| A-3453 | **Första hustrun Charlotta Cecilia Elisabet Gustafsson dog 1917-05-01**; han skrivs änkling i Hyltinge församlingsbok 1918–1927. | TRANSCRIBED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Sluter luckan 1910–1920 och daterar hans civilstånd tre år före Maj Amalias födelse. |
+| A-3454 | Församlingsboken antecknar honom uttryckligen som `Fader till flickan Maj Amalia`; han bodde i **Banvaktstugan N:o 70**, inte längre nr 71. | CORROBORATED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0028](../citations/C-0028-maj-amalia-originalfodelse-1920.md) | Andra oberoende samtida belägg för faderskapet. |
+| A-3455 | Hushållet utflyttade till **Helgesta 1920-10-26**; sonen Ture Edvard hade dessförinnan flyttat till Floda 1918-11-19 och Erik Axel till Helgesta 1918-10-11. | TRANSCRIBED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Förklarar återflytten till Hyltinge 1929 och dottern Hulda Margaretas födelse i Helgesta 1921. |
+| A-3456 | Åtta barn i första äktenskapet namnges med exakta födelsedagar: Erik Axel 1902-09-27, Ture Edvard 1904-02-04, Astrid Elisabet 1906-01-06, Rut Charlotta 1907-09-10, Elsa Cecilia 1909-08-04, Åke Bertil 1912-03-25 samt **tvillingarna Birgit Cecilia och Gunborg Elisabet, båda 1914-05-10**. | TRANSCRIBED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Tvillingparet är de två döttrar folkräkningen 1930 nämner. |
+| A-3459 | Församlingsboken anger födelseorten **Björkvik**, medan födelsenotisen anger Svartgjölstorp i Forssa. | TRANSCRIBED | medel | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) | **Bevarad konflikt.** Födelsedag och vigseldatum stämmer exakt, så identiteten är inte i fråga; Björkvik och Forssa är grannsocknar. |
 
 ## Relationer
 
@@ -89,7 +94,9 @@ som hon 1930.
 | 1902-10-25 | Vigsel med Charlotta Cecilia Elisabet Gustafsson; Karsätter 1902-10-27 | Flen | — | hustru | C-0102 |
 | 1903–1904 | Wäsby, Västby; sonen Ture Edvard född 1904 | Flen | arbetskarl | hustru och barn | C-0101, C-0100, C-0083 |
 | 1910 | Folkräkning; fem barn | Banvaktsstugan nr 71, Hyltinge | banarbetare | hustru och barn | C-0082 |
-| 1910–1920 | **Materiell lucka**: första hustruns död, vigsel 1917 | Hyltinge | — | — | profil Q-01 |
+| 1917-05-01 | **Hustrun Charlotta Cecilia Elisabet dör**; han skrivs änkling | Hyltinge | järnvägsarbetare | åtta barn | C-0919 |
+| 1918–1920 | Banvaktstugan N:o 70; åldsta sönerna flyttar ut 1918 | Sparreholms municipalsamhälle, Hyltinge | järnvägsarbetare | barnen | C-0919 |
+| 1920-10-26 | Utflyttning med hushållet till Helgesta | Hyltinge → Helgesta | järnvägsarbetare | barnen | C-0919 |
 | 1920-05-11 | Dottern Maj Amalia född utom äktenskapet med Hulda Amalia Ekholm; faderskapet erkänt | Hyltinge | banvakt | — | C-0028, C-0033 |
 | 1930 | Folkräkning; änkling, vigselår 1917; döttrarna Birgit och Gunborg | Skarvnäs ägor, Solliden, Hyltinge | banvakt | döttrar; Hulda och Maj i familjegrupp 2 | C-0019 |
 | efter 1930 | **Materiell lucka**: död | okänt | — | — | profil Q-01 |
