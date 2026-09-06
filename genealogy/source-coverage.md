@@ -1,5 +1,8 @@
 # Källtäckning och åtkomstfront
 
+Kända åtkomstbesked per volym, med datum och utfall, står i
+[`access-register.md`](access-register.md).
+
 Detta är projektets person-för-person-matris över den centrala källryggraden
 och de kompletterande källfamiljerna. Den visar forskningsläge och prioritet,
 inte positiva släktpåståenden. Personakterna och citatposterna är fortfarande

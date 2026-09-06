@@ -799,3 +799,10 @@ Tekniken förutsätter att duken ritas från en `ImageBitmap`, inte från en
 `createImageBitmap(blob)` följt av `drawImage` fungerar. Begär aldrig en
 IIIF-bredd som överstiger `info.json`:s `width`: tjänsten svarar `400` och
 `createImageBitmap` kastar `InvalidStateError`.
+
+## Åtkomstregister
+
+Kända åtkomstbesked per volym, med datum och utfall, står i
+[`access-register.md`](access-register.md). Läs det innan en volym prövas
+om — och innan ett nytt negativt besked skrivs, eftersom registrets avsnitt
+4 listar de fem kontroller som ska vara gjorda först.
