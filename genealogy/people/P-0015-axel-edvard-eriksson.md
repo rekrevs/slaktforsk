@@ -44,6 +44,7 @@ som hon 1930.
 | A-3455 | Hushållet utflyttade till **Helgesta 1920-10-26**; sonen Ture Edvard hade dessförinnan flyttat till Floda 1918-11-19 och Erik Axel till Helgesta 1918-10-11. | TRANSCRIBED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Förklarar återflytten till Hyltinge 1929 och dottern Hulda Margaretas födelse i Helgesta 1921. |
 | A-3456 | Åtta barn i första äktenskapet namnges med exakta födelsedagar: Erik Axel 1902-09-27, Ture Edvard 1904-02-04, Astrid Elisabet 1906-01-06, Rut Charlotta 1907-09-10, Elsa Cecilia 1909-08-04, Åke Bertil 1912-03-25 samt **tvillingarna Birgit Cecilia och Gunborg Elisabet, båda 1914-05-10**. | TRANSCRIBED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Tvillingparet är de två döttrar folkräkningen 1930 nämner. |
 | A-3459 | Församlingsboken anger födelseorten **Björkvik**, medan födelsenotisen anger Svartgjölstorp i Forssa. | TRANSCRIBED | medel | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) | **Bevarad konflikt.** Födelsedag och vigseldatum stämmer exakt, så identiteten är inte i fråga; Björkvik och Forssa är grannsocknar. |
+| A-3471 | Han dog **1969-12-19** och gravsattes 1970-01-03 på **Hyltinge kyrkogård**, Övre kyrkogården kvarter 15, gravplats HY15 0008, med Hyltinge som hemort. | TRANSCRIBED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md) | Sluter den materiella luckan `efter 1930: död`; födelsedatumet 1881-03-20 binder posten till rätt person. |
 
 ## Relationer
 
@@ -99,7 +100,7 @@ som hon 1930.
 | 1920-10-26 | Utflyttning med hushållet till Helgesta | Hyltinge → Helgesta | järnvägsarbetare | barnen | C-0919 |
 | 1920-05-11 | Dottern Maj Amalia född utom äktenskapet med Hulda Amalia Ekholm; faderskapet erkänt | Hyltinge | banvakt | — | C-0028, C-0033 |
 | 1930 | Folkräkning; änkling, vigselår 1917; döttrarna Birgit och Gunborg | Skarvnäs ägor, Solliden, Hyltinge | banvakt | döttrar; Hulda och Maj i familjegrupp 2 | C-0019 |
-| efter 1930 | **Materiell lucka**: död | okänt | — | — | profil Q-01 |
+| 1969-12-19 | **Död**; gravsatt 1970-01-03 på Hyltinge kyrkogård HY15 0008, hemort Hyltinge | Hyltinge | — | — | C-0923 |
 
 ## Biografisk sammanfattning
 

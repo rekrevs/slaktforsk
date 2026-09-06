@@ -24,6 +24,7 @@ barndomshushåll.
 | A-3321 | Hon dog 1947-06-27 och gravsattes 1947-07-06 på Burträsks kyrkogård, BT 08 13. | TRANSCRIBED | hög | [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Gravregister; födelsedatumet 1872-02-08 stämmer med A-0219. |
 | A-3322 | Graven delas med maken, dottern Ebba och svärsonen Oskar Alfred Zingmark. | TRANSCRIBED | hög | [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Delad gravplats, inte relationsbevis i sig. |
 | A-3356 | Anna Fredrika Jakobsdotter, född 1872-02-08, bodde med maken på Jomark No 2 1918–1941 (fol 658 och 750) och överfördes 1942 till nya bokens fol 703. | TRANSCRIBED | hög | [C-0891](../citations/C-0891-andersson-jomark-robertsfors-1918-1941.md) | Delad passage med P-0048. |
+| A-3463 | Hon bodde med maken på Jomark N:o 2 till **1946-11-16**, då paret utflyttade till Burträsk; födelsen 1872-02-08 i Bygdeå bekräftas i samma post. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Sluter luckan 1941–1946 och placerar henne hos dotterns familj efter 1946. |
 
 ## Relationer
 

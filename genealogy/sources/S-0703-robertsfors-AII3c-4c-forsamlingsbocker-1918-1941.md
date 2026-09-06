@@ -6,7 +6,9 @@
   (`00203753`, 135 bilder; Sikeå fol 644–645 = bild 46–47, Jomark fol
   653–661 = bild 49–57, Jodal 664 = bild 59, Tranmyr 669 = bild 61) och
   `A II/4c` Fol 501–850 (`00203756`, 365 bilder; fol 729 = bild 252, 750 =
-  bild 272, 751 = bild 273). `A II/5c` (1942–1955, fol 501–750) saknar bild.
+  bild 272, 751 = bild 273). `A II/5c` (1942–1955, fol 501–750) **har bild** — det tidigare
+  påståendet att volymen saknade bild var fel och är rättat i
+  [S-0724](S-0724-robertsfors-AII5c-forsamlingsbok-1942-1955.md).
 - Ingång: s. 1130 i A II/2 a (C-0413) saknar framåthänvisning; Jomark No 2
   i A II/3c hittades genom rubriksökning.
 - Åtkomst 2026-09-05: inloggad session krävs; läst i T-0066 via ägarens

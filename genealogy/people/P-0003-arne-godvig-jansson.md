@@ -62,6 +62,7 @@ faderskapsbelägg krävs inte.
 | A-3422 | Han bodde med modern vid Ökna säteri i Floda till 1918 och står som hennes son på församlingsbokens uppslag 608. | TRANSCRIBED | hög | [C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md) | Första samtida källa för barndomshushållet. |
 | A-3423 | Han inflyttade till Flen 1918-10-28, tre och ett halvt år gammal, och skrevs `fb.` — fosterbarn — hos morföräldrarna Karl Fredrik Jansson och Charlotta Wilhelmina Larsson på Ljungbacka, Turegatan 8. | CORROBORATED | mycket hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0909](../citations/C-0909-ada-och-arne-okna-floda-1915-1918.md) | Samtida originalbelägg för familjeuppgiften i C-0263; binder kedjan till `dotterson` i folkräkningen 1930. |
 | A-3424 | Församlingsboken antecknar `Moder: tjänarinnan Ada Wilhelmina Jansson från Ökna i Floda` och namnger ingen far. | TRANSCRIBED | hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Bekräftar födelsenotisens tomma fadersfält (C-0008). |
+| A-3468 | Han dog **1993-07-31** och gravsattes 1994-06-06 på Södertälje kyrkogård, kvarter 06, gravplats 106 0238. | CORROBORATED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md), [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Administrativ gravpost som styrker sekundärträdets datum och sonens uppgift om Södertälje. |
 
 ## Öppet
 
@@ -109,7 +110,7 @@ faderskapsbelägg krävs inte.
 | 1948–1951 | Mantalsskriven `Ö omr stg 452` (1948), Tranbäret 1/Frödingsv 15 (1949–1951) enligt registerutdrag; adresskedjan bekräftad av kvartersregistret, mantalsoriginalet 1951 oläst | Södertälje | polerare | hustru och tre barn | C-0876 (LEAD), C-0884 |
 | 1940-talet, 1960-talet | Sommarstugor vid Orrestaö och Båven enligt familjen | Orrestaö; Årdala | — | — | C-0266 |
 | 1951–1993 | **Materiell lucka**: eget företag, Sesam, boende | Södertälje | — | — | profil Q-05 |
-| 1993-07-31 | Död enligt sekundärträd; Södertälje lasarett enligt sonen | Södertälje, Järpstigen 27 | — | — | C-0010 (LEAD), C-0266 |
+| 1993-07-31 | **Död**; gravsatt 1994-06-06, Södertälje kyrkogård 106 0238; lasarettet enligt sonen | Södertälje, Järpstigen 27 | — | — | C-0923, C-0010, C-0266 |
 
 ## Biografisk sammanfattning
 
@@ -150,7 +151,9 @@ fortfarande på familjeminne och registerutdrag, vilket tidslinjen markerar.
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0067: Flen s. 860 och uppslag 720 lästa med utflyttningen 1943-11-24 (C-0894, C-0895); barndomshushållet 1923–1930 ligger på uppslag 638 som saknas i båda reproduktionerna (C-0896); gravar.se saknar Södertälje (C-0897). Kvar: uppslag 638/läsesal, A II a/4, svenskagravar.se, namnärendet, mantal 1951 (profil KP-01–KP-06).
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0075: matrisrad upprättad i source-coverage.md. Barndomshushållet 1915–1923 och dödsposten 1993 är belagda (C-0909, C-0910, C-0923); kvar är uppslag 638 för 1923–1930, arbetsgivarna och 1951–1993.
+
+Tidigare rad 2026-09-05, bevarad som historik: Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0067: Flen s. 860 och uppslag 720 lästa med utflyttningen 1943-11-24 (C-0894, C-0895); barndomshushållet 1923–1930 ligger på uppslag 638 som saknas i båda reproduktionerna (C-0896); gravar.se saknar Södertälje (C-0897). Kvar: uppslag 638/läsesal, A II a/4, svenskagravar.se, namnärendet, mantal 1951 (profil KP-01–KP-06).
 
 Tidigare rad 2026-09-05 (T-0064), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0064: Södertäljes inflyttningslängd, mantalsregister 1944–1946, kvartersregister 1943–1947 och adressförteckning 1945 lästa (C-0882–C-0885); mantalsoriginalet 1951, Flen s. 860, företagsnamn, militärtjänst och livet efter 1947 kvarstår (profil KP-01–KP-06).
 

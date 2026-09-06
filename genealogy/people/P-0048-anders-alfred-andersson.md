@@ -24,6 +24,9 @@ barndomshushåll i Jomark.
 | A-3319 | Han dog 1948-12-21 och gravsattes 1949-01-03 på Burträsks kyrkogård, BT 08 13. | TRANSCRIBED | hög | [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Gravregister; födelsedatumet 1869-07-24 stämmer med A-0213. |
 | A-3320 | Graven delas med hustrun, dottern Ebba och svärsonen Oskar Alfred Zingmark. | TRANSCRIBED | hög | [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Delad gravplats, inte relationsbevis i sig. |
 | A-3355 | Anders Alfred Andersson, hemmansägare på Jomark No 2 (1/8, senare 1/16 mantal), född 1869-07-24 i Bygdeå, bodde med hustrun kvar på hemmanet 1918–1941 (fol 658 och 750) och överfördes 1942 till nya bokens fol 703. | TRANSCRIBED | hög | [C-0891](../citations/C-0891-andersson-jomark-robertsfors-1918-1941.md) | A II/5c (1942–1955) saknar digital bild; dödsfallet 1948 bör stå där. |
+| A-3460 | Han bodde kvar på **Jomark N:o 2, ⁷/₁₆ mantal, 10 hektar**, och fördes 1942 över från gamla bokens folio 750 till A II/5 c folio 703. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Hemmanets storlek är originalbelagd för första gången. |
+| A-3461 | Han och hustrun **utflyttade till Burträsk 1946-11-16**, två år före hans död. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Dottern Ebba Alfrida och svärsonen Oskar Alfred Zingmark bodde i Gammelbyn i Burträsk sedan 1930; det förklarar den gemensamma gravplatsen. |
+| A-3462 | Vigseldatumet 1904-05-03 och födelsen 1869-07-24 i Bygdeå bekräftas oberoende i församlingsboken 1942–1946. | CORROBORATED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Tredje oberoende bekräftelsen. |
 
 ## Relationer
 

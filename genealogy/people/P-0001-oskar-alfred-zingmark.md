@@ -47,6 +47,9 @@ verifierade i Riksarkivets original eller samtida utdrag.
 | A-3406 | Han flyttade med föräldrahushållet till Ytterhiske N:o 2 i Umeå landsförsamling 1917-11-15 och stod där på uppslag 2284 med värnpliktsnummer 174 ⁷⁰/₁₇. | CORROBORATED | mycket hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | Värnpliktsnumret är identiskt med Degerforssidans (A-3346) och binder posterna till samma person. |
 | A-3407 | I Umeå landsförsamling skrevs han **seminarieelev** och tog betyg för inträde i **Luleå seminarium**. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Yrkeskolumn och anteckningskolumn; förklarar vägen till folkskolläraryrket. |
 | A-3408 | Han utflyttade till Norsjö 1924-11-01 med flyttningsbetyg 1924-10-29. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Fyller merparten av luckan 1917–1928 i A-3346 och kopplar till Bastuträsk/Norsjö (A-3347). |
+| A-3464 | Han skrevs in vid **Folkskoleseminariet i Luleå den 1919-06-12** och avlade **folkskollärarexamen där 1923** efter åtta terminer på den fyraåriga linjen. | CORROBORATED | mycket hög | [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Examenslängdens `1897 ²²/₅ Degerfors` binder raden till rätt person; bekräftar och daterar församlingsbokens `Bet. för intr. i Luleå seminarium`. |
+| A-3465 | Examensbetygen var genomgående goda: flera `a` och `AB` samt två `A` i de avslutande kolumnerna. | TRANSCRIBED | hög | [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md) | Kolumnindelningen i den högra halvan är läsosäker; betygsbokstäverna är entydiga. |
+| A-3466 | 1924 års examenslängd för den fyraåriga linjen saknar honom, kontrollerad från `Lind` till `Öhman`. | TRANSCRIBED | hög | [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md) | Avgränsat noll som bekräftar 1923 som examensår. |
 
 ## Forskningsanteckningar
 
@@ -90,7 +93,12 @@ verifierade i Riksarkivets original eller samtida utdrag.
 | 1900 | Folkräkning | Rosinedahl, Degerfors | barn | föräldrar och fem syskon | C-0004 |
 | 1900–1909 | Församlingsbok, folio 963 | Rosinedahl, Degerfors | son | föräldrar och nio syskon | C-0574 |
 | 1910–1917 | Rosinedahl fol 1064; föräldrahushållet till Umeå landsförsamling 1917-11-15; värnpliktsnummer 174 (1917) | Rosinedahl, Degerfors | son | föräldrar och syskon | C-0890 |
-| 1917–1928 | **Materiell lucka**: egen väg efter 1917, seminarium | Umeå landsförsamling eller annan ort | — | — | profil Q-01, C-0890 |
+| 1917-11-15 | Flyttar med föräldrahushållet till Ytterhiske N:o 2, uppslag 2284 | Umeå landsförsamling | seminarieelev | föräldrar och syskon | C-0907, C-0908 |
+| 1919-06-12 | **Inskriven vid Folkskoleseminariet i Luleå** | Luleå | seminarieelev | — | C-0921 |
+| 1923 | **Folkskollärarexamen** efter åtta terminer på fyraåriga linjen | Luleå | folkskollärare | — | C-0921 |
+| 1923–1924 | Kvar skriven i föräldrahemmet efter examen | Ytterhiske, Umeå lfg | folkskollärare | föräldrar och syskon | C-0907 |
+| 1924-11-01 | Utflyttning till Norsjö; flyttningsbetyg 1924-10-29 | Umeå lfg → Norsjö | folkskollärare | — | C-0907 |
+| 1924–1928 | **Materiell lucka**: Norsjö före Bastuträsk | Norsjö | folkskollärare | — | profil Q-01 |
 | 1928–1930 | Lärare i Bastuträsk (Norsjö östra distrikt), uppslag 73; betyg 1930-07-04 till Burträsk | Bastuträsk | lärare | — | C-0893 |
 | 1930-07-07 | Inflyttad från Norsjö Ö. (Bastuträsk) till Gammelbyn, fol 1006; folkräkning 1930 | Gammelbyn, Burträsk, s. 1006 | ordinarie folkskollärare, ogift | eget | C-0889, C-0042 |
 | 1932-06-19 | Vigsel med Ebba Alfrida Andersson; lysning 29/5–12/6; attest åter Burträsk 20/6 | Degerfors (vigsel), Burträsk (bok) | folkskollärare | — | C-0040 |
@@ -128,7 +136,9 @@ utbildningsväg för sågverksarbetarnas söner.
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0066: Degerfors 1910–1917, Bastuträsk 1930, Burträsk 1930–1950 och utflyttningen till Umeå stad 1950 är lästa (C-0889, C-0890, C-0893); 1917–1928 (seminarium), Umeå stad 1950–1963 och dödbok/bouppteckning kvarstår (profil KP-01–KP-04).
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0075: matrisrad upprättad i source-coverage.md. Umeå landsförsamling 1917–1924 och Luleå seminariums examenslängd 1923 är lästa (C-0907, C-0921); kvar är Norsjö 1924–1928, Umeå stad 1950–1963 och dödboken 1963.
+
+Tidigare rad 2026-09-05, bevarad som historik: Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0066: Degerfors 1910–1917, Bastuträsk 1930, Burträsk 1930–1950 och utflyttningen till Umeå stad 1950 är lästa (C-0889, C-0890, C-0893); 1917–1928 (seminarium), Umeå stad 1950–1963 och dödbok/bouppteckning kvarstår (profil KP-01–KP-04).
 
 Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: utbildning, tjänsteorter, familjeliv 1932–1963 och död har genomförbara källvägar (profil KP-01–KP-04). Den äldre bedömningen 2026-09-04 (KLAR för utgåvans centrala ryggrad) bevaras som historik i batch 232.
 

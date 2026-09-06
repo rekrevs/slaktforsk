@@ -28,6 +28,7 @@ verifierade i Riksarkivets original eller samtida utdrag.
 | A-3350 | Hon bodde med maken och fyra barn födda 1933–1942 på Gammelbyn (fol 1006, från 1943 fol 275, Gammelbyn 14) och utflyttade med familjen till Umeå stad 1950-09-02. | TRANSCRIBED | hög | [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md) | Barnuppgifter minimerade. |
 | A-3351 | Hon tog flyttningsbetyg nr 57/1928 från föräldrahemmet Jomark No 2 och utflyttade 1928-12-15 till Östhammar. | TRANSCRIBED | hög | [C-0891](../citations/C-0891-andersson-jomark-robertsfors-1918-1941.md) | Robertsfors A II/3c fol 658. |
 | A-3352 | I Östhammar var hon 1928-12-15–1930-10-22 extra ordinarie folkskollärarinna, skriven på Kyrkokvarteret n:o 13 (uppslag 19), och utflyttade till Gammelbyn i Burträsk. | TRANSCRIBED | hög | [C-0892](../citations/C-0892-ebba-alfrida-osthammar-1928-1930.md) | In-/utflyttningslängd och församlingsbok överensstämmer; utflyttningsdagen 22 eller 23 oktober. |
+| A-3467 | Hennes folkskollärarexamen finns inte i Umeå folkskoleseminariums examenslängder 1928 och 1929 och inte heller i Luleås 1928 års längd, som enbart upptar män; utbildningsorten är därmed ännu inte identifierad. | TRANSCRIBED | hög | [C-0922](../citations/C-0922-ebba-alfrida-seminarieprov-1928-1929.md) | Avgränsat nollresultat över de två närmaste seminarierna. Kvar: annat kvinnligt folkskoleseminarium, ett småskoleseminarium, eller ett annat examensår. |
 
 ## Relationer
 
@@ -81,7 +82,9 @@ Burträsks kyrkogård (C-0879); hemvist vid döden är okänd.
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0066: Jomark 1918–1928, Östhammar 1928–1930 och Burträsk 1930–1950 är lästa (C-0889, C-0891, C-0892); seminariet 1925–1928 och Umeå 1950–1997 kvarstår (profil KP-01–KP-02).
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0075: matrisrad upprättad i source-coverage.md. Seminariernas examenslängder är prövade med avgränsat noll (C-0922); kvar är utbildningsorten och Umeå 1950–1997.
+
+Tidigare rad 2026-09-05, bevarad som historik: Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0066: Jomark 1918–1928, Östhammar 1928–1930 och Burträsk 1930–1950 är lästa (C-0889, C-0891, C-0892); seminariet 1925–1928 och Umeå 1950–1997 kvarstår (profil KP-01–KP-02).
 
 Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: seminarium, Östhammarsåren, familjeliv och död har genomförbara källvägar (profil KP-01 och P-0001/KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
 

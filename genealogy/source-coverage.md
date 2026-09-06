@@ -972,3 +972,73 @@ och är inte nätåtkomlig. `T` och `J` saknar saklig trigger för en person fö
 skolarkiv saknas i NAD, lagfartsböckerna slutar 1933 och ingen lärarmatrikel
 efter 1889 finns; kvarvarande vägar är analoga och delvis sekretessprövade,
 därav `S` i stället för `1`, C-0906.
+
+## Personmatris: djup 3 på Sverkers sida efter T-0075, 2026-09-06
+
+Raderna upprättas när passagerna 1–7 i T-0075 har läst de källvägar som
+öppnades av den inloggade bildåtkomsten. De ersätter det tidigare läget att
+P-0001, P-0002, P-0003 och P-0007 saknade matrisrad. Koderna vilar på lästa
+poster och på ett katalogprov utan bildläsning
+([C-0924](citations/C-0924-katalogprov-yrkeskallor-djup-3-2026-09-06.md)),
+inte på antaganden.
+
+| Person | Nuvarande kärnfråga | F | H | M | V | D | R | B | T | J | O |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| P-0001 Oskar Alfred Zingmark | hela livet 1897–1963 är kyrkobokfört utom åren 1924–1928 i Norsjö och 1950–1963 i Umeå stad; lärarutbildningen är originalbelagd | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `✓` |
+| P-0002 Ebba Alfrida Andersson | barndom, tjänsteorter, vigsel, hushåll och död är belagda; utbildningsorten är den enda öppna sakfrågan | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `—` | `—` | `Ö` |
+| P-0003 Arne Godvig Jansson | födelse, fosterhem, vuxenhushåll, flyttkedja och död är belagda; kvar är uppslag 638 (1923–1930), arbetsgivarna och 1951–1993 | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `✓` | `—` | `S` |
+| P-0007 Maj Amalia Ekholm | födelse, faderskap, barndom, vigsel, hushåll och död är belagda; kvar är Helgesta 1921–1929 och yrkeslivet | `✓` | `✓` | `✓` | `✓` | `✓` | `✓` | `S` | `✓` | `—` | `S` |
+
+### Motivering per kolumn
+
+**P-0001.** `F` Degerfors födelsebok 1897, C-0002. `H` fyra församlingsböcker
+i följd: Degerfors A II a/3 och /6, Umeå landsförsamling uppslag 2284 och
+Burträsk fol 1006/275 (C-0574, C-0890, C-0907, C-0889). `M` inflyttningen
+1917 och utflyttningen till Norsjö 1924 samt Bastuträsk 1930 (C-0908,
+C-0907, C-0893). `V` vigselboken 1932, C-0040. `D` gravregistret ger dag och
+gravsättning, C-0878; dödboken 1963 är oläst. `R` folkräkningen 1930,
+C-0042. `B` bouppteckning 1963 saknar digital bild, C-0924. `T` och `J`
+saknar saklig trigger för en folkskollärare utan fastighet. **`O` är den
+nyhet som gör raden möjlig**: Luleå folkskoleseminariums examenslängd 1923,
+C-0921. Militärvägen (nr 174 ⁷⁰/₁₇) är läsesalsmaterial, C-0924.
+
+**P-0002.** `F` Bygdeå födelsenotis 1907, C-0043. `H` Jomark 1907–1928,
+Östhammar 1928–1930 och Burträsk 1930–1950 (C-0044, C-0413, C-0891, C-0892,
+C-0889). `M` utflyttningsbetyg 57/1928 och flytten till Burträsk 1930
+(C-0891, C-0892). `V` C-0040. `D` gravregistret Burträsk, C-0879. `R`
+folkräkningen 1930, C-0041. `B` bouppteckning 1997 hos Skatteverket,
+C-0924. `T`/`J` utan trigger. `O` är `Ö` och inte `1`: seminariernas
+examenskataloger är öppna och lästa för Umeå 1928 och 1929 samt Luleå 1928,
+men hennes namn saknas i alla tre (C-0922). Källfamiljen är alltså prövad
+och läsbar, men målposten är inte funnen.
+
+**P-0003.** `F` Flens födelsebok 1915, C-0008. `H` Ökna i Floda 1915–1918,
+Ljungbacka i Flen från 1918, Björkhem 1930 och Johansborg 1938–1943 samt
+Södertäljes kvartersregister (C-0909, C-0910, C-0030–C-0032, C-0894, C-0895,
+C-0884). `M` flytten Floda→Flen 1918 och Flen→Södertälje 1943 (C-0909,
+C-0910, C-0895, C-0882). `V` vigseln 1938, C-0034. `D` gravposten Södertälje
+1993, C-0923 — tidigare täckningsnoll hos gravar.se är därmed löst. `R`
+folkräkningen 1930, C-0007. `B` bouppteckning 1993 hos Skatteverket, C-0924.
+`T` mantalsregistret Södertälje 1944–1946, C-0883. `J` utan trigger. `O` är
+`S`: värnpliktsnumret 22-44-35 leder till boxlagt läsesalsmaterial, och
+möbelverkstadens firmanamn har inte gått att fastställa i katalog eller press
+(C-0924, S-0690).
+
+**P-0007.** `F` Hyltinge födelsebok och SCB-utdrag 1920, C-0028, C-0020.
+`H` Solliden 1930, Lyckedal före 1938, Johansborg 1938–1943 och Södertälje
+1943–1947 (C-0019, C-0033, C-0894, C-0895, C-0884). Faderns
+församlingsbokssida antecknar henne uttryckligen 1920, C-0919. `M`
+inflyttningen till Södertälje 1943, C-0882. `V` C-0034. `D` gravposten
+2006-10-04 i makens grav, C-0923, som samtidigt ger namnformen
+**Ekholm-Jansson**. `R` folkräkningen 1930, C-0019. `B` bouppteckning 2006
+hos Skatteverket, C-0924. `T` mantalsregistret 1944–1946, C-0883. `J` utan
+trigger. `O` är `S`: Scania-Vabis saknar företags- och personalarkiv i NAD,
+och vägarna ligger utanför Riksarkivet (C-0924).
+
+### Kvarstående sakfrågor, inte formella brister
+
+Raderna betyder att varje relevant källfamilj har en dokumenterad
+disposition, inte att liven är uttömda. Öppet står: P-0001 Norsjö 1924–1928
+och Umeå 1950–1963; P-0002 utbildningsorten och Umeå 1950–1997; P-0003
+uppslag 638 för 1923–1930, arbetsgivarna och 1951–1993; P-0007 Helgesta
+1921–1929 och yrkeslivet.

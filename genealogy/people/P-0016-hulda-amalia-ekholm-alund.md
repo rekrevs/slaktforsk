@@ -26,6 +26,7 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | A-0440 | Hon blev änka 11 mars 1913. | TRANSCRIBED | hög | [C-0028](../citations/C-0028-maj-amalia-originalfodelse-1920.md) | Moderskolumnen anger `änka 13 11/3`, avläst i samma bråkform som födelsedata. Makens namn och dödsnotis återstår. |
 | A-0486 | Hon var 1900 ogift och bodde kvar i föräldrahemmet i Rudstugan i Hyltinge, 23 år gammal. | TRANSCRIBED | hög | [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md) | Sluter luckan mellan barndomshushållet 1890 och äktenskapet med en Ekholm före 1913. |
 | A-3458 | Hennes egen sida i Hyltinges församlingsbok 1918–1927 är inte lokaliserad: hänvisningen `fol 16` leder till ett tomt uppslag i `A II a/5` och till Parkstugan i `A II a/4`, utan Ekholm eller Ålund. Barnafaderns hushåll flyttade till Helgesta 1920-10-26. | TRANSCRIBED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Avgränsat nollresultat; nästa steg är Helgesta församlingsbok 1913–1929. |
+| A-3472 | Hon dog **1964-03-15** och gravsattes 1964-03-21 på Södra kyrkogården i Flen, kvarter 9, gravplats FS09 0112, med Flen som hemort; registret skriver `Ekholm, Hulda Amalia, ogift Ålund`. | TRANSCRIBED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md) | Sluter luckan `efter 1938: död` och bekräftar att hon blev kvar i Flen. |
 
 ## Relationer
 
@@ -61,7 +62,7 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | 1929 | Flytt från Helgesta till Hyltinge | Hyltinge | — | — | C-0019 |
 | 1930 | Folkräkning; familjegrupp 2 | Skarvnäs ägor, Solliden | lokomotiveldareänka, hushållerska | Maj; Axel Edvards grupp 1 på samma boställe | C-0019 |
 | före 1938 | Lyckedal med Maj | Flen, s. 932 | — | Maj | C-0033 |
-| efter 1938 | **Materiell lucka**: död | okänt | — | — | profil Q-02 |
+| 1964-03-15 | **Död**; gravsatt 1964-03-21 på Södra kyrkogården i Flen FS09 0112, hemort Flen | Flen | — | — | C-0923 |
 
 ## Biografisk sammanfattning
 

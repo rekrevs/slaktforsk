@@ -35,6 +35,8 @@ stavning från det sekundära Ancestry-trädet.
 | A-3361 | Efter vigseln fördes hon som hustru på Johansborg, Storgatan 24, Flen, s. 860, med hänvisning från s. 932; sonen föddes 1938. | TRANSCRIBED | hög | [C-0894](../citations/C-0894-jansson-flen-johansborg-sida-860-1938-1940.md) | Hushållet 1938–1940. |
 | A-3362 | Hon bodde 1940–1943 på Johansborg (uppslag 720) med make och två barn födda 1938 och 1940, döpta 1941-11-16, och utflyttade 1943-11-24 till Södertälje stadsförsamling. | TRANSCRIBED | hög | [C-0895](../citations/C-0895-jansson-flen-johansborg-uppslag-720-utflyttning-1943.md) | Inget yrke antecknat; Konsum Flen enligt sonen fortfarande obelagt. |
 | A-3457 | Faderns församlingsbokssida i Hyltinge 1918–1927 antecknar henne uttryckligen: `Fader till flickan Maj Amalia`; hon föddes medan fadern var änkling sedan 1917-05-01 och bodde i Banvaktstugan N:o 70. | CORROBORATED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0028](../citations/C-0028-maj-amalia-originalfodelse-1920.md) | Andra oberoende samtida belägg för faderskapet vid sidan av födelseboken. |
+| A-3469 | Hon dog **2006-10-04** och gravsattes 2006-12-12 i samma gravplats som maken, Södertälje kyrkogård 106 0238. | CORROBORATED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md) | Sekundärträdets `2006` får dag och månad. |
+| A-3470 | Gravregistret skriver henne **Ekholm-Jansson**, en dokumenterad namnform som förenar flicknamnet med det gifta namnet. | TRANSCRIBED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md) | Stöder familjeuppgiften om namnärendet Janson/Jansson (C-0267). |
 
 ## Relationer
 
@@ -73,7 +75,7 @@ stavning från det sekundära Ancestry-trädet.
 | 1940–1980-talen | Scania-Vabis och Konsum; kvällsstudier; sekreterare åt exportchefen; SIF-ledamot, allt enligt sonen | Södertälje | kontorist, sekreterare | — | C-0267 |
 | 1950-talet | Initiativ till namnregistreringen Janson | Södertälje | — | — | C-0267 |
 | 1951–2006 | **Materiell lucka**: boende, yrkesår, änketid | Södertälje | — | — | profil Q-02, Q-03 |
-| 2006 | Död enligt sekundärträd | okänt | — | — | C-0010 (LEAD) |
+| 2006-10-04 | **Död**; gravsatt 2006-12-12 i makens grav, Södertälje kyrkogård 106 0238, skriven `Ekholm-Jansson` | Södertälje | — | — | C-0923 |
 
 ## Biografisk sammanfattning
 
@@ -102,7 +104,9 @@ skriver Maj.
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0067: Flen s. 860 och uppslag 720 lästa (C-0894, C-0895); gravar.se saknar Södertälje (C-0897); arbetsliv, namnärende och dödsregistrering kvarstår (profil KP-02–KP-03).
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0075: matrisrad upprättad i source-coverage.md. Faderskapsanteckningen 1920 och dödsposten 2006 är belagda (C-0919, C-0923); kvar är Helgesta 1921–1929 och yrkeslivet.
+
+Tidigare rad 2026-09-05, bevarad som historik: Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0067: Flen s. 860 och uppslag 720 lästa (C-0894, C-0895); gravar.se saknar Södertälje (C-0897); arbetsliv, namnärende och dödsregistrering kvarstår (profil KP-02–KP-03).
 
 Tidigare rad 2026-09-05 (T-0064), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0064: Södertäljes register 1943–1947 lästa för hushållet (C-0882–C-0884) utan yrkesuppgift för henne; Flen s. 860, arbetsliv, namnärende och död kvarstår (profil KP-01–KP-03).
 
