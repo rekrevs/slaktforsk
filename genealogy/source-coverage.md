@@ -1066,9 +1066,12 @@ på antaganden.
 namngiven far, C-0880. `H` församlingsboken s. 341 och s. 593 samt Lidingös
 uppslag 1341 (C-0260, C-0903). `M` utflyttningen till Kashgar 1931-07-27,
 C-0886. `V` är `N` och inte `✓`: Danderyd, Lidingö och Gustav Vasa är
-genomsökta med avgränsat noll (C-0887), vigseln 1931-08-08 skedde efter
-utresan och alltså utomlands, och datumet kommer från en församlingsbok
-(C-0903), inte från en vigselbok. `D` är `N` av samma slag: Hudiksvalls
+genomsökta med avgränsat noll (C-0887), och Danderyds egen lysnings- och
+vigselbok för 1931 är därtill läst i posterna 25–44 utan träff (C-0937).
+Datumet 1931-08-08 kommer från en församlingsbok (C-0903), inte från en
+vigselbok. **Rättelse samma dag:** vigseln skedde sannolikt i Sverige, inte
+utomlands — hustrun var kyrkobokförd i Danderyd till 1931-08-13 (C-0937) —
+men orten är ännu inte funnen; Kalmar län är nästa spår. `D` är `N` av samma slag: Hudiksvalls
 dödutdrag för hela 1944 saknar honom (C-0887, A-3338) därför att han dog i
 **Poona i Indien** 1944-08-19 (C-0903). `R` folkräkningarna 1910 och 1930,
 C-0255, C-0256, C-0258. `B` en eventuell bouppteckning 1944 skulle ligga i
@@ -1087,7 +1090,7 @@ verksamhetsfält, men inget personarkiv för honom och ingen digital bild
 **P-0240.** `F` SCB-utdraget 1902-04-09 från Ljungby, C-0232. `H` Danderyds
 s. 522 och Lidingös uppslag 1341, C-0233, C-0903. `M` inflyttningen från
 **Indien** 1946-09-13, C-0903, och flytten från Gustav Vasa 1930, C-0233.
-`V` är `N` på samma grund som för maken. `D` gravposten Lidingö 1991-09-18,
+`V` är `N` på samma grund som för maken; hon skrevs redan `Höök, f. Carlman, fru` när hon lämnade Danderyd 1931-08-13 för **Kaschgar i Öst-Turkestan** (C-0937). `D` gravposten Lidingö 1991-09-18,
 C-0226. `R` folkräkningarna 1900 och 1930, C-0234, C-0233. `B`
 bouppteckningen 1991 ligger hos Skatteverket, C-0936. `T` och `J` utan
 trigger: sjuksköterska utan fastighet, hushållet täckt av församlingsböcker.
@@ -1124,7 +1127,9 @@ inget registrerat yrke utanför hushållet.
 
 Raderna betyder att varje relevant källfamilj har en dokumenterad
 disposition, inte att liven är uttömda. Öppet står: P-0239 läkarutbildningen
-1913–1930, vigselns ort och handling samt ett indiskt dödsbevis; P-0240
-uppväxten och utbildningen 1902–1930 och änketiden 1951–1991; P-0241
+1913–1930, vigselns ort och handling — nu spårad till Kalmar län genom
+utflyttningsbetygets anteckning 1934-06-18 (C-0937) — samt ett indiskt
+dödsbevis; P-0240 uppväxten och utbildningen 1902–1930, hemmaförsamlingen
+1933–1934 och änketiden 1951–1991; P-0241
 dödsnotisen 1983 och Sättna efter 1943; P-0246 dödsnotisen 1963 och
 bouppteckningen samma år.

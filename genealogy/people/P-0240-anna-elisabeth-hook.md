@@ -30,6 +30,9 @@ den senare Elisabeth Höök som sjuksköterska och missionär.
 | A-3340 | Vigseln med Anders Ivar Höök ägde rum efter hans utresa 1931-07-27 och inte 1933 i Danderyd eller Lidingö; sonens födelse 1933 rapporterades inte i Danderyd, Lidingö eller Gustav Vasa (16 mars–30 april). | CORROBORATED | hög | [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md), [C-0887](../citations/C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md) | Avgränsat noll; åren 1930–1932 saknas i SCB-indexet. |
 | A-3391 | Hon vigdes 1931-08-08 med Anders Ivar Höök, blev änka 1944-08-19 och inflyttade 1946-09-13 från Indien till Lidingö, Kyrkovägen 10, med fyra barn. | CORROBORATED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Församlingsbokens egna kolumner för vigsel, änkestånd och inflyttning. |
 | A-3392 | Hon namnges som moder i sonens födelsepost i Engelbrekt 1933 med födelsedatum 1902-04-09 och bostad Öst-Turkestan. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) | Bekräftar hennes födelsedatum (A-1464) i en samtida post. |
+| A-3510 | Hon utflyttade från **Centrallasarettet i Danderyd, uppslag 522, den 1931-08-13** till **Kaschgar i Öst-Turkestan**, med **Indien** i adresskolumnen, och skrevs redan då **`Höök, Anna Elisabet, f. Carlman, fru`**. | CORROBORATED | mycket hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Flyttningsbetyg och utflyttning samma dag. Resvägen gick över Indien. |
+| A-3511 | **Hon var kyrkobokförd i Sverige på vigseldagen 1931-08-08** och lämnade landet först fem dagar senare; slutsatsen att vigseln skedde utomlands faller därmed. | CORROBORATED | mycket hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Rättar A-3340 och A-3387: makens utflyttningsdatum 1931-07-27 är en bokföringsåtgärd, inte en avresedag. Vigselorten är åter okänd men sannolikt svensk. |
+| A-3512 | Danderyds egen lysnings- och vigselbok för 1931 saknar paret i posterna 25–44, som täcker lysningar maj–oktober och vigslar juni–december; utflyttningsbetyget bär dessutom en anteckning om **Kalmar den 1934-06-18**. | CORROBORATED | hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Avgränsat noll för Danderyd. Kalmarnotisen och hennes födelseort Ljungby i Kalmar län gör Kalmar län till nästa ort att pröva. |
 
 ## Relationer
 
@@ -62,7 +65,8 @@ våg.
 | 1902–1930 | **Materiell lucka**: uppväxt, utflyttning, sjuksköterskeutbildning | Ljungby → Stockholm | — | — | profil Q-02 |
 | före 1930 | Bosatt i Gustav Vasa församling | Stockholm | sjuksköterska | — | C-0233 |
 | 1930 | Folkräkning; inflyttad från Gustav Vasa | Centrallasarettet, Danderyd, s. 522 | operationssköterska, ogift | — | C-0233 |
-| 1931-08-08 | Vigsel med Anders Ivar Höök | okänt, sannolikt utomlands | sjuksköterska | — | C-0903 |
+| 1931-08-08 | **Vigsel med Anders Ivar Höök**; hon var då kyrkobokförd i Danderyd | okänd ort, sannolikt i Sverige | sjuksköterska | — | C-0903, C-0937 |
+| 1931-08-13 | **Utflyttning från Centrallasarettet, uppslag 522, till Kaschgar i Öst-Turkestan**, adress Indien | Danderyd → Öst-Turkestan | fru | maken | C-0937 |
 | 1933-03-26 | Sonen född i Engelbrekt, Stockholm; hon kyrkobokförd i Öst-Turkestan | Stockholm | — | maken | C-0902 |
 | 1944-08-19 | Änka; maken död i Poona | Indien | — | fyra barn | C-0903 |
 | 1946-09-13 | Inflyttning från Indien till Lidingö, Kyrkovägen 10 | Indien → Lidingö | änkefru, missionär | fyra barn | C-0903 |
@@ -78,8 +82,9 @@ Anna Elisabeth Carlman föddes 1902-04-09 i Ljungby i Kalmar län som yngsta
 kända barn till Johan Fredrik Villehad Carlman och Elin Andersson i Lilla
 Tomteby (C-0232, C-0234). Vägen från Ljungby till Stockholm är obelagd, men
 1930 var hon operationssköterska vid Danderyds centrallasarett, nyss
-inflyttad från Gustav Vasa församling (C-0233). Hon gifte sig, vid en ännu
-obelagd tidpunkt, med missionärsläkaren Anders Ivar Höök och verkade med
+inflyttad från Gustav Vasa församling (C-0233). Hon gifte sig 1931-08-08 med missionärsläkaren Anders Ivar Höök och
+lämnade Danderyd fem dagar senare för Kashgar i Öst-Turkestan, med
+Indien som resväg (C-0903, C-0937) och verkade med
 honom som missionär och sjuksköterska i Yarkand och Kashgar under 1930-talet
 (C-0227, C-0235). Enligt familjen fick de fyra barn 1933–1944 och maken dog
 1944 i Indien (C-0268, C-0225). LIBRIS knyter henne till biografierna

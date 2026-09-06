@@ -38,7 +38,9 @@ missionärsläkare i Centralasien och Indien.
 | A-3387 | Han vigdes med Anna Elisabeth Carlman 1931-08-08. | CORROBORATED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) | Vigseldatum, tidigare okänt; ligger efter utresan 1931-07-27 (C-0886), så vigselorten låg sannolikt utomlands. |
 | A-3388 | Han avled 1944-08-19 i Poona i Indien. | CORROBORATED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Församlingsbokens änkeanteckning; preciserar familjeuppgiften 1944 (A-1451) med dag och ort. |
 | A-3389 | Sonen Anders Gustav föddes i Poona tolv dagar efter faderns död, 1944-08-31. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Postumt barn. |
-| A-3390 | Familjen var 1933 kyrkobokförd i Öst-Turkestan och barnen föddes växelvis i Stockholm, Kashgar och Poona. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Ger missionsårens rörelsemönster. |
+| A-3390 | Familjen var 1933 kyrkobokförd i Öst-Turkestan och barnen föddes växelvis i Stockholm, Kashgar och Poona. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Ger missionsårens rörelsemönster. || A-3513 | **Vigseln 1931-08-08 skedde sannolikt i Sverige.** Hustrun var kyrkobokförd i Danderyd till 1931-08-13, alltså fem dagar efter vigseldagen; hans egen utflyttning 1931-07-27 var en bokföringsåtgärd och inte nödvändigtvis en avresedag. | CORROBORATED | hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md), [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md) | Rättar A-3387:s antagande att vigselorten låg utomlands. Orten är åter okänd. |
+| A-3514 | Danderyds lysnings- och vigselbok för 1931, posterna 25–44, saknar paret. | CORROBORATED | hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Avgränsat noll som täcker lysningar maj–oktober och vigslar juni–december. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -79,7 +81,7 @@ och livskedja fortsätter utan att relationen demoteras.
 | 1931-07-27 | Utflyttning från Fridhem, Hudiksvall, till Kashgar, Östturkestan; ogift | Hudiksvall → Kashgar | missionär | — | C-0886 |
 | 1931 | Missionärsläkare; utresa till Östturkestan; Kashgar | Kashgar | missionärsläkare | — | C-0227 |
 | 1931-07-27–1933 | **Materiell lucka**: vigsel med Anna Elisabeth Carlman efter utresan; inte i Danderyd/Lidingö 1933 | okänt, sannolikt utomlands | — | — | profil Q-02, C-0887 |
-| 1931-08-08 | Vigsel med Anna Elisabeth Carlman | okänt, sannolikt utomlands | missionär | — | C-0903, C-0902 |
+| 1931-08-08 | **Vigsel med Anna Elisabeth Carlman**; hustrun var då kyrkobokförd i Danderyd | okänd ort, sannolikt i Sverige | missionär | — | C-0903, C-0902, C-0937 |
 | 1933-03-26 | Sonen född i Engelbrekt, Stockholm; familjen kyrkobokförd i Öst-Turkestan | Stockholm / Öst-Turkestan | missionär | hustru | C-0902 |
 | 1936, 1938, 1944 | Barn födda i Kashgar, Engelbrekt (Stockholm) och Poona | Öst-Turkestan, Stockholm, Indien | missionär | hustru och barn | C-0903 |
 | 1930-talet | Missionspar i Östturkestan; Yarkand och Kashgar | Östturkestan | missionärsläkare | — | C-0227, C-0235 |
