@@ -31,3 +31,27 @@
   får tolkas som negativt.
 - Åtkomst 2026-09-06: fri, ingen inloggning och ingen captcha. Ingen lokal
   kopia av sidorna sparas; posterna citeras med sitt post-id.
+
+## Rättelse 2026-09-06: sökformulärets fält är inte likvärdiga
+
+Beskrivningen ovan av `tbBirthday` och av fältkombinationer är prövad och
+delvis felaktig. Två positivkontroller misslyckades:
+
+- `tbBirthday=1877-09-25` **ensamt** ger `NoResult`, trots att fyra kända
+  poster (Hulda Amalia Ålund/Ekholm) bär exakt det födelsedatumet. Samma
+  fält med `1878-02-17` gav 200 rader. Fältet ger alltså **falska nollor**.
+- `tbFirstname=Hulda Amalia` + `tbBirthplace=Gryt` ger `NoResult`, trots att
+  hennes poster har födelseorten `Gryt`. Också `tbFirstname` + `tbBirthday`
+  på samma person ger `NoResult`.
+
+**Endast namnfälten är belagt tillförlitliga.** `tbLastname` och
+`tbFirstname`, var för sig eller tillsammans, ger reproducerbart rätt
+träffar (`Ekholm` + `Axel Wilhelm` → 3 poster; `Ekholm` + `Hulda Amalia` →
+4 poster; `Jansson` + `Ada` → 84 poster). Kombinationen två namnfält +
+`tbTitle` är också positivkontrollerad (`Ekholm` + `Axel Wilhelm` +
+`Lokeldare` → rätt 3 poster).
+
+**Regel för detta projekt:** ett nollresultat från Rotemansarkivet får
+åberopas som avgränsat noll **endast** när sökningen använder namnfält, och
+varje annan fältkombination måste positivkontrolleras på en känd post i
+samma sökning innan dess nolla får bokföras.

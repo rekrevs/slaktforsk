@@ -90,3 +90,45 @@ stället genom **Matteus församlings** egna böcker, eller genom rote 27.
 ## Stödda påståenden
 
 A-3598–A-3599 (P-0009), A-3600 (P-0299), A-3593 (P-0016).
+
+## Rättelse 2026-09-06: två av de tre nollorna vilade delvis på ett fält som ger falska nollor
+
+Efter att posten skrivits prövades sökformuläret med positivkontroller, och
+`tbBirthday` visade sig ge **falska nollor**: `1877-09-25` ensamt ger
+`NoResult` trots att fyra kända poster bär det datumet, och `tbFirstname` +
+`tbBirthday` respektive `tbFirstname` + `tbBirthplace` ger `NoResult` också
+på personer som bevisligen finns. Se rättelsen i
+[S-0746](../sources/S-0746-rotemansarkivet-stockholm.md).
+
+Följande delar av avskriften ovan **utgår som bevis**:
+
+- sökningen `tbBirthday=1878-02-17` (nolla 1) — den fungerade, men eftersom
+  fältet kan ge falska nollor duger den inte som självständigt negativt
+  belägg;
+- sökningen `tbFirstname=Ada`, `tbBirthday=1886-08-19` → `NoResult`
+  (nolla 2) — **ogiltig**, resultatet säger ingenting.
+
+**Nollorna står ändå kvar, men på enbart namnsökningar**, som är
+positivkontrollerade:
+
+1. **Paret Ekholm före 1910.** `tbLastname=Ekholm` + `tbFirstname=Axel
+   Wilhelm` → tre poster (1910–1913); `tbLastname=Ekholm` +
+   `tbFirstname=Hulda Amalia` → fyra poster, den tidigaste `Ålund, Hulda
+   Amalia 1899-1900`. Ingen post för paret före 1910-10-07. Nollan gäller
+   dessa namnformer.
+2. **Ada Wilhelmina Jansson.** `tbFirstname=Ada Wilhelmina` (ensamt) → 88
+   poster, ingen född 1886; `tbLastname=Jansson` + `tbFirstname=Ada` → **84
+   poster**, ingen född 1886-08-19 (närmast `Jansson, Ada Josefina
+   1886-12-03` och `Jansson, Ada Linnéa Viktoria 1886-07-19`);
+   `tbLastname=Bergman` + `tbFirstname=Ada` → en enda post, född 1876.
+   Nollan är alltså **oförändrad i sak** och vilar nu på tre giltiga
+   namnsökningar.
+3. **Knut Bergman, rörmokare.** Kombinationen `tbLastname` + `tbTitle` utan
+   förnamn är **inte** positivkontrollerad; den kontroll som gjordes
+   (`Ekholm` + `Axel Wilhelm` + `Lokeldare`) hade två namnfält. Nollan för
+   `Bergman` + `Rörmokare` **nedgraderas därför till oprövad** och får inte
+   åberopas. Kvar står bara att `Bergman` + `Knut` ger 123 poster som inte
+   går att skilja åt utan yrkesuppgift.
+
+Slutsatsen om P-0009 i tolkningen nedan ändras inte: hon saknas i registret
+under alla prövade namnformer.
