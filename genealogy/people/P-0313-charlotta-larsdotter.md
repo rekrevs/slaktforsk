@@ -22,6 +22,52 @@ födelsenotis och folkräkningarna 1880–1890 använder Carolina/Karolina.
 | A-3165 | Björkekinds och Östkinds domsagas F III a/5, 1889–1891, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
 | A-3179 | Östkinds fögderis mantalsvolymer E VII a/10–12 täcker 1861–1899 och därmed Carolinas säkra Östra Husbyperiod genom dödsåret 1891. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller ekonomisk uppgift är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1849-04-12 | **Född i Jonsberg**, döpt 15 april; dotter till **bonden Lars Svensson och Maja Lena Jonsdotter**. | [C-0363](../citations/C-0363-jonsberg-CI4-carolina-larsdotter-1849.md) | **Egen födelsenotis.** Namnformen där är **Carolina**; de äldre Elin-källorna kallar henne **Charlotta**. |
+| 1868–1872 | Jonsberg B I/3:s utflyttningsföljd saknar en säker Carolina Larsdotter. | [C-0556](../citations/C-0556-jonsberg-BI3-carolina-larsdotter-utflyttning-1868-1872-negativ.md) | **Avgränsat årsintervallsnoll**; en tidigare avresa från Jonsberg förnekas inte. |
+| 1870-08-28 | **Lyst i Häradshammar.** | [C-0557](../citations/C-0557-haradshammar-C7-carlsson-larsdotter-vigsel-1870.md) | Vigselboken anger båda kontrahenternas exakta födelsedatum. |
+| 1870-10-14 | **Vigd i Häradshammar** med Anders Magnus Carlsson från Gäddestad. | [C-0557](../citations/C-0557-haradshammar-C7-carlsson-larsdotter-vigsel-1870.md) | Jonsberg C I/5 okt 1868–1872 och Östra Husby C/7 1869–1872 är genomlästa utan paret — **två avgränsade noll i två fel församlingar**. |
+| 1870 | **Inflyttad till Östra Husby från Häradshammar under attest 58.** | [C-0271](../citations/C-0271-elin-barndomshushall-gaddelstad.md) | **Det var denna flyttnotis som gav den positiva vigselroutingen.** Samma hushållssida upprepar vigseldagen 1870-10-14. |
+| 1873 | Dottern **Elin** föds i Gäddestad. | [C-0270](../citations/C-0270-elin-fodd-1873-ostra-husby.md) | Direkt ana. |
+| 1873–1885 | **Fyra barn**: Elin, Ida Carolina, Carl Gottfrid och Ester Elisabet. | [C-0406](../citations/C-0406-ostra-husby-AI24-gaddestad-sida-81.md) | Husförhörslängden samlar hela familjen och uppger äktenskapsåret 1870. |
+| 1880, 1890 | Folkräknad i Gäddestad som **Carolina/Karolina Larsdotter**. | [C-0359](../citations/C-0359-folkrakning-1880-ostra-husby-gaddestad-carlsson.md), [C-0360](../citations/C-0360-folkrakning-1890-ostra-husby-gaddestad-karlsson.md) | Exakt datum, socken, make, barn och gård binder namnvarianterna till samma person. |
+| 1891-04-11 | **Död i Gäddestad**, 41 år 11 månader och 29 dagar gammal; begravd 16 april. | [C-0408](../citations/C-0408-ostra-husby-C8-charlotta-dod-1891.md) | Husförhörslängdens marginal `91 11/4` bekräftas av egen dödspost. **Dödsorsaksfältet lämnades tomt** — ingen orsak infereras. |
+
+## Biografisk sammanfattning
+
+Carolina Larsdotter — som i familjens egna källor lika ofta kallas
+**Charlotta** — föddes den **12 april 1849 i Jonsberg** och döptes tre dagar
+senare, dotter till bonden Lars Svensson och Maja Lena Jonsdotter.
+
+Namnfrågan är löst och värd att nämna, eftersom den kunde ha blivit två
+personer: dottern Elins födelse- och hushållskällor skriver `Charlotta`,
+medan hennes **egen födelsenotis** och folkräkningarna 1880 och 1890 skriver
+`Carolina` eller `Karolina`. Exakt födelsedatum, socken, make, barn och gård
+sammanfaller — det är en och samma kvinna.
+
+Vid tjugoett års ålder gifte hon sig, den **14 oktober 1870 i
+Häradshammar**, med hemmansägaren **Anders Magnus Carlsson** från Gäddestad.
+Att vigseln hittades är hennes förtjänst i källorna: Östra Husbys
+husförhörslängd antecknar att hon kom **från Häradshammar 1870 under attest
+58**, och det var den notisen som pekade ut rätt församling efter att två
+andra vigselavsnitt lästs igenom förgäves. Var hon bodde mellan Jonsberg och
+Häradshammar är däremot okänt — Jonsbergs utflyttningsföljd för 1868–1872
+saknar henne.
+
+I **Gäddestad** födde hon **fyra barn** på drygt tio år: Elin 1873, som är
+den direkta anan, sedan Ida Carolina, Carl Gottfrid och Ester Elisabet.
+
+Hon dog den **11 april 1891**, dagen före sin fyrtioandra födelsedag — hennes
+ålder anges som 41 år, 11 månader och 29 dagar — och begravdes den 16 april.
+**Dödsorsaksfältet lämnades tomt** i boken, så vad hon dog av går inte att
+veta.
+
+Bouppteckningen efter henne är exakt lokaliserad till Björkekinds och Östkinds
+domsagas volym F III a/5 för 1889–1891, men akten är analog och oläst.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

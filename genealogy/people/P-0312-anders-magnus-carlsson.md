@@ -27,6 +27,58 @@ folkräkningar och fem kyrkoboksled följer hans vuxna hushåll 1880–1920.
 | A-3178 | Östkinds fögderi med efterträdare ger sammanhängande exakta mantalsvolymer 1886–1925 över Anders Magnus säkra Gäddestadperiod. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | E VII a/12, F I a/14–15 och F I aa/25 är metadata-/analogrutter; ingen personrad är läst. |
 | A-3189 | Anders Magnus jord-/fastighetsspår blir avslutande först om den exakta mantalsrouten löser gården eller fastighetsenheten bortom byadressen Gäddestad 1. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, lagfarts-, arkiv- eller personnoll. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1844-08-28 | **Född i Gäddestad, Östra Husby**, döpt 1 september; son till **hemmansägaren Carl Månsson och Inga Nilsdotter**. | [C-0364](../citations/C-0364-ostra-husby-C5-anders-magnus-gaddestad-1844.md), [C-0365](../citations/C-0365-ostra-husby-C6-fodda-1844-datumkontroll.md) | **Rättelse:** hushållsuppgiften `1844-10-28` har **rätt dag men fel månad**. Oktoberföljden saknar honom; augustiposten är positivt identifierad i en **parallell** födelsebok. Ingen annan namne kopplas till honom. |
+| 1870-08-28 | **Lyst i Häradshammar** — varken hans egen eller brudens församling. | [C-0557](../citations/C-0557-haradshammar-C7-carlsson-larsdotter-vigsel-1870.md) | Vigselboken anger rätt namn, hemvist **Gäddestad, Östra Husby** och båda kontrahenternas exakta födelsedatum. |
+| 1870-10-14 | **Vigd i Häradshammar** med Carolina Larsdotter. | [C-0557](../citations/C-0557-haradshammar-C7-carlsson-larsdotter-vigsel-1870.md) | Östra Husby C/7 1869–1872 och Jonsberg C I/5 okt 1868–1872 är genomlästa utan paret — **två avgränsade noll i två fel församlingar**, upplösta av den positiva posten i en tredje ([C-0537](../citations/C-0537-jonsberg-och-ostra-husby-vigselkontroll-1868-1872-negativ.md)). |
+| 1873 | Dottern **Elin** föds i Östra Husby. | [C-0270](../citations/C-0270-elin-fodd-1873-ostra-husby.md) | Direkt ana. |
+| 1873–1885 | **Fyra barn**: Elin, Ida Carolina, Carl Gottfrid och Ester Elisabet. | [C-0359](../citations/C-0359-folkrakning-1880-ostra-husby-gaddestad-carlsson.md), [C-0360](../citations/C-0360-folkrakning-1890-ostra-husby-gaddestad-karlsson.md) | |
+| 1880, 1890 | **Hemmansägare i Gäddestad** med hustru och barn. | [C-0359](../citations/C-0359-folkrakning-1880-ostra-husby-gaddestad-carlsson.md), [C-0360](../citations/C-0360-folkrakning-1890-ostra-husby-gaddestad-karlsson.md) | Samma gård, familj och yrke över tio år. |
+| 1891-04-11 | **Änkling**: Carolina dör i Gäddestad. | [C-0408](../citations/C-0408-ostra-husby-C8-charlotta-dod-1891.md) | Husförhörslängden följer honom därefter som änkling med barnen kvar. |
+| 1900, 1910 | **Änkling och hemmansägare** i Gäddestad. | [C-0361](../citations/C-0361-folkrakning-1900-ostra-husby-gaddestad-karlsson.md), [C-0362](../citations/C-0362-folkrakning-1910-ostra-husby-gaddestad-karlsson.md) | |
+| 1900–1920 | Följd i **tre församlingsböcker i följd**: A II a/1 (1900–1906), A II a/2 (1906–1914) och A II a/3 (1915–1920), samtliga med samma exakta födelsedatum. | [C-0664](../citations/C-0664-ostra-husby-AIIa1-anders-magnus-gaddestad.md), [C-0665](../citations/C-0665-ostra-husby-AIIa2-anders-magnus-gaddestad.md), [C-0666](../citations/C-0666-ostra-husby-AIIa3-anders-magnus-dod-1920.md) | Kyrkoboksleden ersätter rena folkräkningssprång. |
+| 1920-09-10 | **Död** som hemmansägare och änkling från **Gäddestad 1**; dödsorsaken anges som **`Kräfta`**. | [C-0666](../citations/C-0666-ostra-husby-AIIa3-anders-magnus-dod-1920.md), [C-0667](../citations/C-0667-scb-ostra-husby-anders-magnus-dod-1920.md) | **Dödsortsfältet är tomt.** Notisen `Lasarettsläkaren i Norrköping` **belägger inte** Norrköping som dödsort, och läkarens svårlästa initialer görs inte till påstående. |
+
+## Biografisk sammanfattning
+
+Anders Magnus Carlsson föddes den **28 augusti 1844 i Gäddestad i Östra
+Husby** — på samma gård där han sedan levde hela sitt liv och dog
+sjuttiosex år senare. Han var son till hemmansägaren Carl Månsson och Inga
+Nilsdotter, och blev själv hemmansägare på Gäddestad.
+
+Hans födelsedatum bar länge ett fel. Hushållslängden skrev `1844-10-28`, och
+den uppgiften följde med i senare källor. Kontrollen visade att **dagen var
+rätt men månaden fel**: oktoberföljden saknar honom, medan augustiposten är
+positivt identifierad i en parallell och utförlig födelsebok, med gård,
+föräldrar och patronymikon som stämmer.
+
+Den **14 oktober 1870** vigdes han med **Carolina Larsdotter** — men inte i
+sin egen församling och inte i hennes. Vigseln skedde i **Häradshammar**,
+och det tog två genomlästa vigselavsnitt i Östra Husby och Jonsberg innan
+den hittades. Det som ledde rätt var en flyttnotis: hustrun kom till Östra
+Husby **från Häradshammar** 1870 under attest 58.
+
+I Gäddestad föddes **fyra barn** — Elin 1873, som är den direkta anan, samt
+Ida Carolina, Carl Gottfrid och Ester Elisabet. Fyra folkräkningar, två
+husförhörslängder och tre församlingsböcker i följd ger en obruten
+hemmansägarkedja från 1880 till 1920, alltid på samma gård.
+
+Hustrun dog i april 1891, fyrtioett år gammal, och han levde sedan som
+änkling i tjugonio år med barnen kvar i hushållet.
+
+Han dog den **10 september 1920** av **kräfta**. En detalj i dödsposten är
+värd att notera för vad den *inte* säger: dödsortsfältet är tomt, och den
+notis om `Lasarettsläkaren i Norrköping` som står i utdraget **belägger inte**
+att han dog i Norrköping. Var han dog är alltså okänt.
+
+Vad gården var värd vet vi inte heller. Bouppteckningen efter honom har inte
+kunnat lokaliseras: de riktade katalogfrågorna nådde bara Björkekinds och
+Östkinds domsagas volymer **till 1903**, och **ingen efterträdarserie för
+1920 är identifierad**.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
