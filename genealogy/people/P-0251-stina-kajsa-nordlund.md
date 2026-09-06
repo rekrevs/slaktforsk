@@ -24,6 +24,55 @@
 | A-2429 | Som piga flyttade hon 1867-11-11 från Övre Kovland (folio 325) till Timrå. | TRANSCRIBED | hög | [C-0551](../citations/C-0551-sattna-B2-stina-cajsa-nordlund-utflyttad-1867-och-1871.md) | Samma namn; återflytten till Sättna 1868–1871 är oläst och identiteten med 1871 års post är sannolik men inte kedjebelagd. |
 | A-3157 | Medelpads västra domsagas F II a/2 är den exakta analoga bouppteckningsvolymen för 1915. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Katalogroute för Stina Kajsas dödsår; ingen akt eller personrad är läst. |
 | A-3171 | Medelpads västra fögderis mantals- och taxeringsvolymer ger exakta analoga vägar över Stina Kajsas säkra vuxenperiod i Sättna; mantalsvolym `/3/41` gäller 1915. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Ingen personrad eller ekonomisk uppgift är läst. |
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1844-02-13 **eller** 02-19 | **Uppgiven födelsedag i Holm.** | [C-0332](../citations/C-0332-sattna-AI10a-gardtjern-abraham-jonsson.md), [C-0335](../citations/C-0335-stode-AI12-abraham-familj-hullsjo.md), [C-0453](../citations/C-0453-sattna-AIIa4-abraham-stina-sida-384.md) | **KONFLIKT.** Två äldre husförhör anger 19 februari, tre senare Sättna-källställen 13 februari. **Holm C/1:s hela födelseår 1844 saknar namnet Stina Kajsa Nordlund** och har ingen post den 19:e; flickan född den 13:e heter **Stina Brita** och har uttryckligen **inte** antagits vara samma person ([C-0336](../citations/C-0336-holm-C1-stina-kajsa-fodelsekontroll-1844.md)). |
+| 1840–1860-talen | Dotter till **kolaren Jonas Nordlund och Gertrud Olofsdotter**, Sättna A I/8 sida 255, med **tre syskon**. | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) | Originalets uttryckliga relation löser föräldrarna. Datumet `13/2` på sidan är en **överförd** uppgift, inte en födelsepost. |
+| 1867-11-11 | Flyttar som **piga** från Övre Kovland, folio 325, till **Timrå**. | [C-0551](../citations/C-0551-sattna-B2-stina-cajsa-nordlund-utflyttad-1867-och-1871.md) | Samma namn; **återflytten till Sättna 1868–1871 är oläst**, så identiteten med 1871 års post är sannolik men inte kedjebelagd. |
+| 1871-11-11 | Flyttar som **kolardotter** från **Stormyran i Sättna till Stöde** med attest. | [C-0551](../citations/C-0551-sattna-B2-stina-cajsa-nordlund-utflyttad-1867-och-1871.md) | Posten sluter identitetsbryggan mellan dottern i Jonas Nordlunds hushåll och den vuxna Stina Cajsa i Hullsjö. Folio 427 i A I/9 och Stödes inflyttning november 1871 är olästa. |
+| 1872-04-28 | Sonen **Jöns Peter** föds i Hullsjö; hon anges vara **28 år**. | [C-0529](../citations/C-0529-scb-stode-jons-peter-fodd-1872.md) | Åldern stämmer med födelseåret 1844. Barnet föds **före** det uppgivna vigseldatumet. |
+| 1872-07-08 | **Uppgiven vigsel** med Abraham Jönsson. | [C-0335](../citations/C-0335-stode-AI12-abraham-familj-hullsjo.md), [C-0452](../citations/C-0452-sattna-AIIa2-abraham-stina-sida-388.md) | **KONFLIKT.** Paret saknas i Stödes fullständiga SCB-utdrag och i Holms E I/1 för 1872. Stödeoriginalets digitala lucka nr 1–15 överbryggas av SCB-utdraget ([C-0337](../citations/C-0337-stode-vigslar-1872-abraham-stina-negativ-kontroll.md), [C-0338](../citations/C-0338-holm-vigslar-1872-abraham-stina-negativ-kontroll.md)). |
+| 1873-11-06/07 | Flyttar med maken och sonen till **Sättna**, attest 24. | [C-0334](../citations/C-0334-stode-B1-abraham-familj-utflyttad-1873.md) | Tillbaka till den socken hon lämnade två år tidigare. |
+| 1880 | I **Gårdtjern** i Sättna med make och tre barn. | [C-0331](../citations/C-0331-folkrakning-1880-sattna-gardtjern-abram-jonsson.md) | |
+| 1899–1915 | Följd i **A II a/2 sida 388 → A II a/4 sida 384** i Storbränna/Gårdtjern. | [C-0452](../citations/C-0452-sattna-AIIa2-abraham-stina-sida-388.md), [C-0453](../citations/C-0453-sattna-AIIa4-abraham-stina-sida-384.md) | |
+| 1900, 1910 | Folkräknad i **Storbränna** med maken och döttrarna. | [C-0243](../citations/C-0243-storbranna-hushall-1900.md), [C-0242](../citations/C-0242-storbranna-hushall-1910.md) | |
+| 1915-12-02 | **Död i Storbränna** som hustru till den förre hemmansägaren Abraham Jönsson; dödsorsaken skrivs **`ålderdomssvaghet`**. | [C-0454](../citations/C-0454-sattna-F1-stina-kajsa-dod-1915.md) | Församlingsbok och egen dödpost överensstämmer om datum och identitet. |
+| 1915-12-12 | Begravd. | [C-0454](../citations/C-0454-sattna-F1-stina-kajsa-dod-1915.md) | |
+
+## Biografisk sammanfattning
+
+Stina Kajsa Nordlund är ett tydligt exempel på en person vars **föräldrar är
+säkra men vars födelsepost inte finns**.
+
+Hon uppges vara född i **Holm** i februari 1844 — men vilken dag är oavgjort.
+Två äldre husförhörslängder skriver den 19:e, tre senare Sättna-källor den
+13:e. Holms födelsebok är genomläst för **hela året 1844** och innehåller
+varken namnet Stina Kajsa Nordlund eller någon post den 19 februari. Den
+flicka som föddes den 13:e heter **Stina Brita** — och hon har uttryckligen
+inte antagits vara samma person.
+
+Föräldrarna är däremot belagda i original: Sättna A I/8 sida 255 visar henne
+som dotter till **kolaren Jonas Nordlund och Gertrud Olofsdotter**, med tre
+syskon. Familjen var alltså en kolarfamilj i Sättna, inte en bondefamilj —
+och hennes eget liv följer den rörligheten. Som tjugotreåring flyttade hon
+1867 som **piga** från Övre Kovland till Timrå; åren därefter är olästa; och
+i november 1871 flyttade hon som **kolardotter från Stormyran i Sättna till
+Stöde**. Det är den posten som sluter identitetsbryggan mellan barnet i
+föräldrahushållet och den vuxna kvinnan i Hullsjö.
+
+I Hullsjö fick hon sonen **Jöns Peter den 28 april 1872**, och SCB:s samtida
+utdrag anger hennes ålder till 28 år. Vigseln med **Abraham Jönsson** uppges
+ha skett den **8 juli samma år**, alltså efter barnets födelse — men den är
+inte funnen. Stödes fullständiga utdrag och Holms vigselbok saknar båda paret.
+
+Hösten 1873 flyttade familjen tillbaka till **Sättna**, till Gårdtjern och
+sedan Storbränna, där hon levde de återstående fyrtiotvå åren och fick minst
+tre barn till. Hon dog den **2 december 1915** av `ålderdomssvaghet` och
+begravdes tio dagar senare. Hennes död är, till skillnad från makens, belagd
+i både församlingsbok och egen dödpost som överensstämmer.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
