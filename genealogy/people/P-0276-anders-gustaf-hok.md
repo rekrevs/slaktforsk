@@ -26,6 +26,57 @@ brädgårdsarbetare och gårdsägare i Hudiksvall.
 | A-3174 | Gävleborgs landskontors E IV b/EE VI-serier är en regional analog skatte- och taxeringsväg för Anders Gustafs säkra Hudiksvallsperiod före 1918. | LEAD | medel | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Ingen årsvolym eller personrad har lästs; dödsorten 1911 förblir olöst. |
 | A-3187 | Anders Gustafs arbetsgivar-/fastighetsspår blir avslutande först med en konkret brädgårds-, arbetsgivar-, fastighets- eller skattenhetsnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor; de redan belagda yrkestitlarna står kvar och ingen arkivfrånvaro infereras. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1853-08-21 | **Född i Hällefors**, döpt 25 augusti; son till torparen `C. J.[?] Jansson Hök` och `Carolina Magnust:r`. | [C-0380](../citations/C-0380-hallefors-C9-tre-anders-gustaf-1853.md) | **Egen födelsenotis.** Årgången innehåller **tre namnlika Anders Gustaf**; de två andra är uttryckligen avvisade för denna identitet, eftersom Hudiksvalls församlingsböcker två gånger upprepar exakt datum, Hällefors **och** Hök-namnet. |
+| 1880-02-27 | **Vigd i Hudiksvall** med Anna Greta Hillberg. | [C-0461](../citations/C-0461-hudiksvall-EI2-hok-hillberg-vigsel-1880.md) | **Rättelse:** en tidigare avskrift läste april; egen vigselpost och tre senare hushållssidor visar 27 februari. |
+| 1880 | **Snickare** i Hudiksvall, `Far/man` med Anna Greta och dottern Anna Matilda. | [C-0352](../citations/C-0352-folkrakning-1880-hudiksvall-hok-hillberg.md) | |
+| 1879–1895 | **Tio barn** föds. Nio levde vid folkräkningen 1900; **Augusta Elisabet dog 1895** och redovisas separat. | [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | **Församlingsboken markerar barnen återkommande som `icke döpt`.** Folkräkningens nio levande och församlingsbokens tio födda hålls isär. |
+| 1890 | **Vaktmästare i Håsta, Hälsingtuna**, med hustru och sex namngivna barn. | [C-0353](../citations/C-0353-folkrakning-1890-halsingtuna-hasta-hok-hillberg.md) | Håsta är hustruns hemtrakt; hennes far var bruksarbetare vid Håsta Udde. |
+| 1897-11-15 | Hushållet förs till **sida 785 — en skanningslucka**. | [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md) | Sidan saknas mellan de fotograferade sidorna 782 och 790. Framåtlänken är däremot obruten. |
+| 1899-11-20 | Familjen förs från sida 780 till **sida 285**. | [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | |
+| 1900 | **Brädgårdsarbetare** i Hudiksvall med hustru och nio barn. | [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md) | |
+| 1910 | **Gårdsägare** i Hudiksvall. | [C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md) | Yrkesbanan går snickare → vaktmästare → brädgårdsarbetare → gårdsägare. |
+| 1911-11-16 | **Uppgiven dödsdag** i församlingsbokens dödkolumn, sida 484; hustruns änkedatum på sida 593 ger samma dag. | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | **KONFLIKT.** Hudiksvall F I/3:s sammanhängande sena årsföljd, SCB:s ordinarie novemberutdrag **och länssjukhusets hela separata årsutdrag 1911** saknar alla en post för honom ([C-0462](../citations/C-0462-hudiksvall-FI3-anders-gustaf-hok-negativ-1911.md), [C-0463](../citations/C-0463-scb-hudiksvall-anders-gustaf-hok-negativ-1911.md), [C-0464](../citations/C-0464-scb-hudiksvalls-lanssjukhus-anders-hok-negativ-1911.md)). **Dödsort, dödsorsak och begravning är olösta.** |
+
+## Biografisk sammanfattning
+
+Anders Gustaf Hök föddes den **21 augusti 1853 i Hällefors** i Bergslagen,
+son till torparen C. J. Jansson Hök och Carolina Magnusdotter. Att just den
+posten är hans krävde en avgränsning: årgången innehåller **tre namnlika
+Anders Gustaf**, och de två andra är uttryckligen avvisade — Hudiksvalls
+församlingsböcker upprepar två gånger exakt datum, Hällefors **och**
+Hök-namnet.
+
+Hur han kom från Bergslagen till Hälsingland vet vi inte; den flytten har
+ingen känd källa. Men i februari 1880 gifte han sig i **Hudiksvall** med
+**Anna Greta Hillberg** från Hälsingtuna, och därefter följer källorna honom
+utan avbrott i trettioett år.
+
+Hans yrkesbana går uppåt hela vägen: **snickare** 1880, **vaktmästare i
+Håsta** 1890 — hustruns hemtrakt — **brädgårdsarbetare** 1900 och till sist
+**gårdsägare** 1910. Under samma tid föddes **tio barn** mellan 1879 och
+1895; nio levde ännu 1900, medan Augusta Elisabet dog 1895.
+
+Och här står något som församlingsboken upprepar gång på gång utan att
+förklara: **barnen markeras `icke döpt`**. Det är ingen enstaka anteckning
+utan en genomgående notering för hela syskonskaran. Två andra uppgifter pekar
+åt samma håll: dottersonen Anders Ivar döptes 1903 **utan faddrar**, och han
+blev senare **missionär**. Tillsammans tecknar det ett hushåll i frikyrklig
+miljö — men det är en tolkning, och ingen källa säger det rakt ut.
+
+Hans död är inte klarlagd. Församlingsboken anger den **16 november 1911** på
+två sammanlänkade sidor, men **tre oberoende dödskällor saknar honom**:
+Hudiksvalls egen dödbok F I/3, SCB:s ordinarie novemberutdrag och
+länssjukhusets hela separata årsutdrag. Dödsort, dödsorsak och begravning är
+därför okända, och utan dödsort kan inte ens rätt bouppteckningsjurisdiktion
+väljas.
+
+En äldre del av kedjan saknas också: **sida 785 finns inte i skanningen**,
+mellan de fotograferade sidorna 782 och 790.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

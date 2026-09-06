@@ -28,6 +28,51 @@ hustru och senare änka i Anders Gustaf Höks hushåll i Håsta och Hudiksvall.
 | A-3161 | Hudiksvalls rådhusrätts och magistrats F II/27, 1936–1940, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
 | A-3175 | Hudiksvalls fögderis F I a och F III a är exakta analoga mantals- och inkomsttaxeringsserier över Anna Gretas säkra vuxenperiod 1918–1937. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Ingen personrad, inkomst eller skatt är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1857-06-09 | **Född vid Håsta Udde i Hälsingtuna**, döpt 10 juni; dotter till **bruksarbetaren Per Hillberg och Greta Björkqvist** — och **tvillingsyster till Cajsa Mina**. | [C-0354](../citations/C-0354-halsingtuna-C5-anna-greta-cajsa-mina-fodda-1857.md) | **Egen födelsenotis.** Båda barnen står under samma föräldraklammer med samma datum. |
+| 1880-02-27 | **Vigd i Hudiksvall** med Anders Gustaf Hök. | [C-0461](../citations/C-0461-hudiksvall-EI2-hok-hillberg-vigsel-1880.md) | Egen vigselpost; den tidigare aprilavskriften var en felläsning. |
+| 1879–1895 | **Tio barn** föds; nio levde 1900, medan Augusta Elisabet dog 1895. | [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | **Församlingsboken markerar barnen återkommande `icke döpt`.** |
+| 1880 | I Hudiksvall med maken och dottern Anna Matilda. | [C-0352](../citations/C-0352-folkrakning-1880-hudiksvall-hok-hillberg.md) | |
+| 1890 | I **Håsta i Hälsingtuna** — hennes egen hemtrakt — med maken och sex namngivna barn. | [C-0353](../citations/C-0353-folkrakning-1890-halsingtuna-hasta-hok-hillberg.md) | Maken är vaktmästare; hennes far var bruksarbetare vid Håsta Udde. |
+| 1900, 1910 | Åter i Hudiksvall med maken och barnen. | [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md), [C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md) | |
+| 1911-11-16 | **Änka**; hon förs vidare till församlingsbokens sida 593. | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Änkedatumet står på båda de sammanlänkade sidorna. |
+| 1930 | **Brädgårdsarbetaränka och gårdsägaränka i Fridhem**, Hudiksvall, med dottern **Anna Matilda** och dottersonen **Anders Ivar, som anges vara missionär**. | [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Källan knyter samman tre generationer ur 1910 års hushåll. |
+| 1937-06-14 | **Död i Hudiksvall**, sida 51 post 65; dödsorsakerna skrivs **`Marasmus senilis + Bronchit. ac.`** | [C-0663](../citations/C-0663-hudiksvall-FI5-anna-greta-hok-dod-1937.md) | Latinet bevaras källtroget och normaliseras försiktigt som ålderdomsavmagring och akut bronkit. Dödboken kallar henne änka efter **gårdsägaren** Anders Gustaf Hök och upprepar födelsedatumet. Hudiksvalls dödböcker **1931–1936 är fullständigt lästa utan matchning** innan 1937 gav posten. |
+
+## Biografisk sammanfattning
+
+Anna Greta Hillberg föddes den **9 juni 1857 vid Håsta Udde i Hälsingtuna**
+och döptes dagen därpå — **som tvilling**. Hon och systern **Cajsa Mina**
+står under samma föräldraklammer i födelseboken, döttrar till bruksarbetaren
+**Per Hillberg** och **Greta Björkqvist**.
+
+Vid tjugotvå års ålder gifte hon sig, den **27 februari 1880 i Hudiksvall**,
+med **Anders Gustaf Hök** från Hällefors. På sexton år födde hon **tio barn**
+— det sista 1895 — och nio av dem levde ännu vid sekelskiftet. Ett av de mest
+talande dragen i familjen står i församlingsboken utan förklaring: **barnen
+markeras återkommande `icke döpt`**. Att dottersonen Anders Ivar 1903 döptes
+**utan faddrar** och senare blev **missionär** pekar åt samma håll: ett
+hushåll i frikyrklig miljö. Källorna säger det aldrig rakt ut.
+
+Familjen rörde sig mellan stad och landsbygd i takt med makens arbete —
+Hudiksvall 1880, hennes eget **Håsta** 1890 där han var vaktmästare, och åter
+Hudiksvall från 1897, först som brädgårdsarbetarfamilj och till slut som
+gårdsägare.
+
+Hon blev **änka den 16 november 1911** och levde sedan ytterligare tjugosex
+år. Folkräkningen 1930 visar henne i **Fridhem** som brädgårdsarbetaränka och
+gårdsägaränka, i ett hushåll med dottern Anna Matilda och dottersonen
+missionären — tre generationer i samma hem.
+
+Hon dog den **14 juni 1937**, åttio år gammal. Dödboken anger `Marasmus
+senilis` och akut bronkit och kallar henne änka efter gårdsägaren Anders
+Gustaf Hök. Att posten över huvud taget hittades krävde att Hudiksvalls
+dödböcker lästes **fullständigt för åren 1931–1936** utan träff innan 1937
+gav svaret — hennes livslinje är alltså sluten, till skillnad från makens.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
