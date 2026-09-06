@@ -722,3 +722,22 @@ två sidor med samma rubrik, och ett uppslag kan bära flera hushåll.
 (`Register 1911–1942`) saknar folio 388 för `Henriksson, Axel Edvin`, som
 ändå står där i församlingsboken. Register är en ingång, inte ett bevis för
 frånvaro.
+
+## Tillägg 2026-09-06: positivkontrollera en söktjänst innan du bokför dess nolla
+
+Regeln "läs hela bilden innan du skriver ett noll" har en motsvarighet för
+databaser och sökformulär: **kontrollera att sökvägen hittar något du redan
+vet finns, i samma sökning, innan du bokför att den inte hittar något.**
+
+Stockholms stadsarkivs Rotemansarkiv gav lärdomen (S-0746, C-0956). Där ger
+fältet `tbBirthday` **falska nollor** — `1877-09-25` ensamt svarar
+`NoResult` fastän fyra kända poster bär exakt det datumet — och
+kombinationerna förnamn + födelsedatum respektive förnamn + födelseort
+svarar `NoResult` också på personer som bevisligen står i registret. Endast
+namnfälten visade sig tillförlitliga.
+
+Praktiskt: när en söktjänst ska bära ett negativt belägg, kör samma
+fältkombination en gång på en person, ort eller titel som **redan** är
+belagd i samma register. Passerar kontrollen får nollan bokföras, med
+kombinationen angiven. Passerar den inte, är nollan värdelös och sökvägen
+måste läggas om till fält som fungerar.
