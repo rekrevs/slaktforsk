@@ -17,6 +17,9 @@
 | A-3527 | **Hon dog 1921-12-11 av `Hjärtfel och äggvita`** och begravdes 1921-12-21; dödboken skriver henne `änka efter torparen Anders Niklas Larsson i Storbränna`, sida 393. | CORROBORATED | mycket hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md) | **Bevarad konflikt:** A-3479 läste församlingsbokens marginal som 1921-12-04. Dödboken är den primära källan för dödsdagen; skillnaden på en vecka bevaras. |
 | A-3528 | **Dödboken skriver henne uttryckligen `född Höglund`.** | CORROBORATED | mycket hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md), [C-0246](../citations/C-0246-emma-petronella-eugenia-fodd-1900-07-23.md) | Samtida myndighetspost bekräftar att hon själv bar Höglund som flicknamn. Att fadern skrivs Nils Petter Pehrsson i sina egna poster kvarstår som öppen namnfråga inom personen. |
 | A-3529 | Dödboken anger födelsedagen 1866-03-10, i överensstämmelse med födelsenotisen. | CORROBORATED | hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md), [C-0253](../citations/C-0253-ingrid-christina-vidusina-fodd-1866.md) | Sjätte samstämmiga källan för datumet. |
+| A-3533 | **Hon vigdes borgerligt med Anders Niklas Larsson 1888-06-25** efter lysning 1888-05-13; hon skrivs **`Torpardr. Ingrid Kristina Vidusina Höglund`** från Högsjö, husförhörsbokens folio 130. | CORROBORATED | mycket hög | [C-0941](../citations/C-0941-larsson-hoglund-borgerlig-vigsel-indal-1888.md) | Besvarar profilens Q-01 och belägger namnformen Höglund tolv år före dotterns födelsenotis. |
+| A-3534 | **Vigselns särskilda anteckning anger skälet: `Borgerl. äktenskap, hon okonfirmerad`.** Hon var döpt 1866-03-24 men aldrig konfirmerad och kunde därför inte vigas kyrkligt. | CORROBORATED | mycket hög | [C-0941](../citations/C-0941-larsson-hoglund-borgerlig-vigsel-indal-1888.md), [C-0253](../citations/C-0253-ingrid-christina-vidusina-fodd-1866.md) | Ny och avgörande uppgift om hennes förhållande till kyrkan. |
+| A-3535 | **Dopvägran 1900 får därmed en förhistoria.** Att dottern Emma Petronella inte döptes och att hela hushållet står `icke döpt` i tre generationer har ett belagt första led tolv år tidigare: modern stod redan 1888 utanför kyrkans ordning. | CORROBORATED | hög | [C-0941](../citations/C-0941-larsson-hoglund-borgerlig-vigsel-indal-1888.md), [C-0246](../citations/C-0246-emma-petronella-eugenia-fodd-1900-07-23.md), [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Posten säger inte om det uttryckte frikyrklighet, likgiltighet eller något annat; SAM-temat är därmed halvöppet. |
 
 ## Relationer
 
@@ -49,7 +52,9 @@ namnformen återstår att kontrollera separat.
 |---|---|---|---|---|---|
 | 1866-03-10 | Född; döpt 1866-03-24; vittnen olästa | Högsjö, Indal | — | Nils Petter Pehrsson och Anna Stina Strandlund | C-0253 |
 | 1866–1881 | Indal A I/9 och A I/10a s. 127; folkräkning 1880 | Högsjö | dotter | föräldrar och syskon | C-0254, C-0349, C-0348 |
-| 1881–1890 | **Materiell lucka**: vigsel med Anders Niklas Larsson | Indal? | — | — | profil Q-01 |
+| 1881–1888 | **Materiell lucka**: åren mellan föräldrahemmet och vigseln | Indal? | — | — | profil Q-01 |
+| 1888-05-13 | Lysning nr 3 i Indal; skrivs `torpardotter` och `Höglund` | Högsjö, Indal | torpardotter, folio 130 | — | C-0941 |
+| 1888-06-25 | **Borgerlig vigsel** med Anders Niklas Larsson; skälet `hon okonfirmerad` | Indal | — | — | C-0941 |
 | 1890 | Folkräkning; familj nr 2 | Högsjö | hustru | make och dottern Agnes | C-0389 |
 | 1900 | Folkräkning; dottern Emma 1900-07-23 | Storbränna, Sättna | hustru | make, tre döttrar | C-0243, C-0246 |
 | 1910 | Folkräkning | Storbränna | hustru | make, två döttrar | C-0242 |

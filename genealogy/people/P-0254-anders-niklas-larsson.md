@@ -13,6 +13,9 @@
 | A-3478 | Han dog **1915-08-12** på Storbränna (Gärdtjärn) i Sättna, där han var torpare; äktenskapet med Ingrid Kristina 1888-06-25 anges uttryckligen som **civilt**. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Nytt dödsdatum; den civila vigseln förklarar tidigare svårigheter i vigselboken. |
 | A-3525 | **Han dog 1915-08-12 av kräfta** och begravdes 1915-09-03; dödboken skriver honom `torpare i Storbränna` och anger församlingsbokens sida 393 och födelsedagen 1862-06-15. | CORROBORATED | mycket hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md), [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Originalbelägg för dödsdatumet i A-3478, plus dödsorsak och begravningsdag. |
 | A-3526 | Dödboken namnger hustrun indirekt: hennes egen dödsnotis 1921 kallar henne `änka efter torparen Anders Niklas Larsson i Storbränna`. | CORROBORATED | hög | [C-0940](../citations/C-0940-larsson-hoglund-dodsnotiser-1915-och-1921.md) | Binder paret en gång till i samtida myndighetspost. |
+| A-3530 | **Lysning 1888-05-13 och borgerlig vigsel 1888-06-25** i Indal; han skrivs `torpare` och båda kom från **Högsjö**, med husförhörsbokens folier 131 respektive 130. | CORROBORATED | mycket hög | [C-0941](../citations/C-0941-larsson-hoglund-borgerlig-vigsel-indal-1888.md), [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Originalbelägger vigseldatumet i A-3478 och besvarar den delade forskningsfrågan Q-01. |
+| A-3531 | **Skälet till den borgerliga vigseln står utskrivet: `Borgerl. äktenskap, hon okonfirmerad`.** Vigseln förrättades inför en världslig ämbetsman, titeln läses som häradshövding. | CORROBORATED | mycket hög | [C-0941](../citations/C-0941-larsson-hoglund-borgerlig-vigsel-indal-1888.md) | Hustrun var döpt men aldrig konfirmerad och kunde därför inte vigas kyrkligt. |
+| A-3532 | Lysningsattest lämnades 1888-06-16. | TRANSCRIBED | hög | [C-0941](../citations/C-0941-larsson-hoglund-borgerlig-vigsel-indal-1888.md) | Nio dagar före vigseln. |
 
 ## Relationer
 
@@ -49,6 +52,8 @@ föräldrakoppling.
 | 1862–1880 | **Materiell lucka**: flytt Sättna → Indal | — | — | — | profil Q-01 |
 | 1880 | Folkräkning | Högsjö, Indal | son | föräldrar och syskon | C-0388 |
 | omkring 1887–1889 | Vigsel med Ingrid Kristina (oläst) | Indal? | — | — | profil Q-01 |
+| 1888-05-13 | Lysning nr 3 i Indal | Högsjö, Indal | torpare, folio 131 | — | C-0941 |
+| 1888-06-25 | **Borgerlig vigsel** inför världslig ämbetsman; skälet `hon okonfirmerad` | Indal | torpare | — | C-0941 |
 | 1890 | Folkräkning; familj nr 2; dottern Agnes | Högsjö, Indal | — | hustru och dotter | C-0389 |
 | 1890–1900 | Flytt till Storbränna | Indal → Sättna | — | — | profil Q-01 |
 | 1900 | Folkräkning; dottern Emma född 1900-07-23, `Dop vägradt` | Storbränna, Sättna | torpare | hustru, tre döttrar | C-0243, C-0246 |
