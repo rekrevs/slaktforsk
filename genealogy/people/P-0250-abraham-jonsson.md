@@ -25,6 +25,8 @@
 | A-2531 | Stöde A I/9:s hela Hullsjöavsnitt, sidorna 92–93, saknar en säker fortsättning för Jöns–Brita–Abraham-familjen. | NEGATIVE | hög | [C-0591](../citations/C-0591-stode-AI9-hullsjo-familj-negativ-kontroll.md) | Orts- och volymintervallsnoll; annan Stödeort eller flyttmål utesluts inte. |
 | A-3170 | Medelpads västra fögderis mantals- och taxeringsvolymer ger exakta analoga vägar över Abrahams säkra vuxenperiod i Sättna. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Ingen personrad, skatt, fastighet, inkomst, närvaro eller frånvaro är läst. |
 | A-3185 | Abrahams jord-/fastighetsspår blir avslutande först om Sättnas exakta mantalsrutt ger en gårds-, fastighets- eller skattenhetsnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, lagfarts-, arkiv- eller personnoll. |
+| A-3690 | Sättnas hela vigselår 1872, lysningarna 1–18 på sida 109, saknar paret och saknar varje vigsel den 8 juli. | NEGATIVE | hög | [C-0993](../citations/C-0993-sattna-C5-vigslar-1872-negativ.md) | Avgränsat årsnoll. Tre församlingar är nu uttömda för 1872: Stöde (brudgummens hemvist), Holm (brudens födelseförsamling) och Sättna (brudens föräldrahem). |
+| A-3691 | Sättnas serie `E I` börjar 1895 därför att den inte finns tidigare; lysnings- och vigselböckerna 1861–1883 ligger inuti `C/5`, och motsvarande gäller `C/1`–`C/6`. | TRANSCRIBED | mycket hög | [C-0993](../citations/C-0993-sattna-C5-vigslar-1872-negativ.md) | Samma seriestrukturmönster som Gryt och Ölands norra mot. Reproduktionen `A0003851` har varit i bruk i projektet sedan tidigare. |
 
 ## Tidslinje
 
