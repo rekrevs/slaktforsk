@@ -2946,3 +2946,122 @@ berörs inte. Kvar för ägaren är samma fråga som ovan, nu med starkare
 underlag: vistades han vid Ökna före november 1916 utan att kyrkobokföras där,
 eller möttes han och Ada på annat håll? Oskarshamns församlingsbok är läst och
 tillför inget till just den frågan (C-0914, C-0915).
+
+## PCR-2026-09-06-004
+
+- Record type: review
+- Date: 2026-09-06
+- Mode: checkpoint
+- Trigger: Efter T-0081 och T-0082 saknades en redovisning av vad det utförda
+  arbetet betyder för north starens sex uppfyllelsevillkor. Rapporteringen
+  hade beskrivit uppgiftsresultat, inte måluppfyllelse.
+- Control judgement: **continue** — målet är **ofullbordat**, och den
+  bindande grinden är villkor 2, livsbilderna.
+
+### Lägesrevision mot uppfyllelsevillkoren
+
+Bedömd för källäget **2026-09-06**, mätt ur `node scripts/goal-state.mjs`,
+`node scripts/research-inventory.mjs` och personakternas egna belägg. Detta
+är en **lägesrevision, inte avslutningsrevisionen enligt villkor 6**:
+materiella, genomförbara åtgärder återstår.
+
+**1. Anlinjer — ej styrkt, i planerad framdrift.** Registrerat gemensamt
+djup är **5** (var 3 vid passagens början). Djup 1–5 är behandlade: 32 av 32
+positioner på djup 5 är granskade och källbredd-klara, balanserat 16/16
+mellan sidorna. Djup 6 är påbörjat: **57 av 64 positioner kända** (Sverker
+28, Kristina 29), **51 källbredd-klara** (22 + 29). Obalansen ligger på
+Sverkers sida och adresseras av T-0083. Villkorets andra led — att varje
+kvarvarande föräldrafråga har en källgrundad avgränsning — är **inte**
+uppfyllt: **38 anspetsar saknar giltig arkivfront**, 15 på Sverkers och 23
+på Kristinas sida, de flesta med `IDENTITET OLÖST: saknar
+återaktiveringsvillkor`. Enligt north star beskriver den statusen
+kunskapsläget och bevisar inte uttömda undersökningar.
+
+**2. Livsbilder — ej styrkt; detta är den bindande grinden.** Av **535
+personakter** har **32** en profil enligt personkontraktet, och av dessa är
+**7 GODKÄNDA** och **25 UNDERKÄNDA**. **503 akter saknar profil**, alltså
+`ej bedömt enligt kontraktet`. 157 akter bär den äldre kombinationen
+GRANSKAD + källbredd, som north star uttryckligen inte godtar som
+automatiskt godkännande av PK-01–12. Avståndet till villkor 2 är därmed
+storleksordningar större än avståndet till villkor 1, och det växer med
+varje ny position. Den befintliga kön har bara **T-0070** (djup 5-kohorten,
+32 personer) för detta, och den är BLOCKED bakom T-0069.
+
+**3. Identiteter och kandidater — delvis styrkt.** Regeln följs i det
+arbete som görs: konkurrerande identiteter hålls åtskilda och konflikter
+bevaras — P-0535 Knut Sigfrid Bergersen förs separat från
+familjeuppgiftens P-0299 (A-3606, A-3607), 1796 års Jonas i Sandssjön förs
+som LEAD och inte som fastställd (A-3616), och avgjorda konflikter
+redovisas som avgjorda med skäl (A-3592, makens födelseuppgift). Men
+villkoret gäller **alla** bärande identiteter, och de 38 anspetsarna utan
+giltig front samt de 503 obedömda akterna är inte prövade mot det.
+
+**4. Källtäckning — delvis styrkt, med ett namngivet externt hinder.**
+Katalogprovet i C-0961 ger en dokumenterad disposition för `B`, `T`, `J`
+och `O` för samtliga åtta positioner på djup 4, Sverkers sida, och C-0950
+gör detsamma för Kristinas åtta. Men **ett hinder lämnar ett materiellt
+krav oprövat**: Riksarkivets **bouppteckningsregister och dödregister**
+täcker både Södermanland och Västerbotten men ligger bakom **ALTCHA**, och
+under passagen omfattade spärren hela katalogen — `/arkiv/<id>`, `/nad`,
+`/bouppteckningar`, `/dodregister` och mantalssöket omdirigerades till
+`/captcha`, medan IIIF-API:et svarade `200`. Därtill: **Sveriges Dödbok
+1901–2013** är en köpprodukt utanför projektets åtkomst (C-0960), och
+ArkivDigital är utesluten genom PCD-2026-09-05-011. North star är entydig:
+lämnar ett sådant hinder ett materiellt uppfyllelsekrav oprövat är målet
+ofullbordat. Det gäller i dag `B` för P-0015, P-0016, P-0028, P-0029,
+P-0048 och P-0049 samt `D` för P-0009 och P-0010.
+
+**5. Spårbarhet — starkast av villkoren, men inte färdigt.** Validatorn
+räknar **3 096 assertions, 2 312 markdown-poster och 4 836 mediefiler** med
+bevarade kontrollsummor; `node --test scripts/` ger 29 gröna. Evidensledgern
+är append-only i praktiken: batch 341:s rättelse av Rotemansarkivets nollor
+lades till som `## Rättelse`-avsnitt i S-0746 och C-0956 utan att skriva
+över den ursprungliga avskriften. Villkorets andra led — att granskningen
+visar att beläggen **bär** slutsatserna — prövas per person i
+kontraktsprofilen, och den saknas för 503 akter.
+
+**6. Avslutningsrevision — inte möjlig i dag.** Materiella, genomförbara
+och motiverade åtgärder återstår: T-0083 pågår, T-0079, T-0080, T-0060,
+T-0069 och T-0077 står READY, T-0073 och T-0074 är IDEA, och 503 akter
+saknar kontraktsbedömning.
+
+### Sakförändring i ett befintligt block
+
+**T-0051** är blockerad på att den vanliga katalogen ligger bakom ALTCHA.
+C-0963 upphäver blockeringen delvis: **hela årgången 1877 av Stockholms
+mantalslängder är digitaliserad** — `SE/SSA/0031/06/G 1 BA/G 1 BA:76/1`
+till `76/42`, batcherna `A0057718`–`A0057757` — och nås över det öppna
+IIIF-API:et utan katalog och utan captcha. Läsesalskravet i C-0649 gäller
+**mantalsuppgifterna** i `G 1 BB`, inte mantalslängden. Kvar är en
+lokaliseringsfråga inom öppet material: vilken av de fyrtiotvå volymerna
+upptar Kungsholmens kvarter.
+
+- Current gate: **villkor 2, livsbilderna** — 503 av 535 akter saknar
+  kontraktsbedömning. Styrregeln ger dock generationsskivan företräde så
+  länge en sådan återstår, och djup 6 återstår.
+- Recommendation: fortsätt T-0083 till djup 6 är behandlat, och lyft
+  därefter kontraktsinförandet från en blockerad enstaka uppgift (T-0070)
+  till en löpande skiva som följer varje generationsvåg, så att
+  livsbildsskulden slutar växa fortare än den betalas av.
+- Owner decision required: **ALTCHA.** Ägaren har tidigare visat att
+  captchan kan öppnas på begäran (PCD-2026-09-05-020). Öppnas Riksarkivets
+  katalog och specialsök i den inloggade webbläsaren faller `B` för sex
+  personer på djup 4 samman till en enda arbetspassage, `D` för P-0009 kan
+  prövas i samma svep, och T-0051 och T-0054 kan tas ur BLOCKED.
+- Evidence:
+  - `NORTH-STAR.md`, villkoren 1–6
+  - `node scripts/goal-state.mjs` 2026-09-06: registrerat gemensamt djup 5
+  - `genealogy/research-inventory.json`: 535 akter, 32 profiler, 7 GODKÄND,
+    25 UNDERKÄND, 503 utan profil
+  - `genealogy/citations/C-0950-katalogprov-djup-4-kristinas-sida.md`
+  - `genealogy/citations/C-0961-katalogprov-djup-4-sverkers-sida.md`
+  - `genealogy/citations/C-0960-bernhard-eliasson-malmo-gravnoll-2026-09-06.md`
+  - `genealogy/citations/C-0963-mantalslangd-1877-digitaliserad.md`
+  - `genealogy/source-coverage.md`, de två personmatriserna för djup 4
+- Resulting Wotan tasks: none nya i denna post; T-0083 fortsätter.
+- Portfolio signal: projektet är aktivt och gör mätbar framdrift i villkor 1;
+  villkor 2 växer snabbare än det betalas av.
+- Revisit when:
+  - djup 6 är behandlat, eller
+  - ägaren öppnar ALTCHA, eller
+  - kontraktsinförandet får en löpande skiva.
