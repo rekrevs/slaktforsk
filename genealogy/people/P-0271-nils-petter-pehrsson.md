@@ -30,6 +30,62 @@ barnens egna födelsekällor och de parentbärande hushållen.
 | A-3172 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Nils Petters säkra Indalsperiod genom dödsåret 1906. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
 | A-3186 | Nils Petters torparspår blir avslutande först om Indals exakta skatterutt ger en torp-, fastighets- eller jordägarnyckel. | LEAD | hög | [C-0829](../citations/C-0829-riksarkivet-yrkesrutter-kristina-djup5.md) | Villkor, inte ett jord-, arkiv- eller personnoll. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1834-03-08 | **Född i Indal**, döpt 16 mars; son till **Pehr Ersson** och hustrun `Ingeb. Nilsdr` i Högsjö. | [C-0342](../citations/C-0342-indal-C4-nils-petter-fodd-1834.md) | **Egen födelsenotis.** Moderns namn normaliseras i hennes egen personakt. |
+| 1863-09-13 | **Lyst** i Indal. | [C-0347](../citations/C-0347-indal-EI2-vigslar-1862-1866-negativ-kontroll.md) | |
+| 1863-10-02 | **Vigd i Indal** med Anna Stina Strandlund, **båda i Högsjö**, med födelseåren 1834 och 1844. | [C-0347](../citations/C-0347-indal-EI2-vigslar-1862-1866-negativ-kontroll.md) | **Rättelse:** en första översiktsläsning av hela bildföljden 1862–1866 **missade post 9** och registrerades kortvarigt som ett avgränsat nollresultat. Den positiva originalraden ersätter nollslutsatsen. |
+| 1866 | Dottern **Ingrid Christina Vidusina** föds; hennes födelsenotis namnger **båda** föräldrarna. | [C-0253](../citations/C-0253-ingrid-christina-vidusina-fodd-1866.md) | Direkt ana. |
+| 1868-12-20 | **Anna Erika Lydia föds — märkt `oäkta`.** Endast modern namnges, som `torparhustrun Anna Stina Strandlund`. | [C-0350](../citations/C-0350-indal-C5-anna-erika-lydia-fodd-1868.md) | **Anomali.** Modern kallas hustru i samma post som barnet märks oäkta. Fadern namnges inte, och **Nils Petters faderskap antas inte**. |
+| 1872–1881 | **Torpare i Högsjö**, Indal A I/10a sida 127, med Anna Stina och nio yngre hushållspersoner. | [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | **Anomali:** fem av barnen — Anna Erika Lydia, Erik Nikolaus Biljard, Lars Gustaf Emanuel, Brita Josefina och Jonas Alfred Conrad — är markerade **`odöpta`**. |
+| 1880 | Folkräknad som **Nils Petter Persson**, torpare, `Far/man` i familj 1 i Högsjö. | [C-0348](../citations/C-0348-folkrakning-1880-indal-hogsjo-nils-petter.md) | Namn, år, ort, hustru och äldre barn binder patronymikonvarianten till samma person. |
+| 1882–1891 | Fortsatt torpare i Högsjö, A I/11 sida 130; boken upprepar både födelsen 1834-03-08 och vigseln 1863-10-02. | [C-0456](../citations/C-0456-indal-AI11-hogsjo-sida-130.md) | |
+| 1888 | Sonen **Gustaf Julius Elof** föds; SCB-utdraget skriver **`Ej vigda`** om Nils Petter och Anna Stina. | [C-0459](../citations/C-0459-scb-indal-gustaf-julius-elof-fodd-1888.md) | **Anomali.** Uppgiften står i konflikt med parets egen, tydliga vigselpost 1863 — som **inte** avvisas. |
+| 1892–1900 | Förs som **`Höglund, Nils Petter (Persson)`**, torpare i Högsjö, A I/12 sida 131. | [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md) | Namnövergången Pehrsson/Persson → Höglund är belagd i både förhörsbok och folkräkning. |
+| 1900 | Folkräknad i Högsjö med Anna Stina och sönerna Erik Nikolaus Biljard, Jonas Alfred Konrad och Gustaf Julius Elof. | [C-0458](../citations/C-0458-folkrakning-1900-indal-hogsjo-hoglund.md) | |
+| 1904-11-15 | **Änkling**: Anna Stina dör. | [C-0655](../citations/C-0655-scb-indal-anna-stina-dod-1904.md) | |
+| 1906-01-19 | **Död**; dödsorsaken anges som **`kräfta`**. | [C-0654](../citations/C-0654-indal-AIIa1-hogsjo-sida-129.md), [C-0656](../citations/C-0656-scb-indal-nils-petter-dod-1906.md) | Församlingsbok och fullständigt SCB-dödavsnitt ger samma datum, födelsedag, namn och hemvist. **Dödsortsfältet är tomt** och fylls inte inferentiellt. |
+
+## Biografisk sammanfattning
+
+Nils Petter Pehrsson föddes den **8 mars 1834 i Indal** och döptes åtta dagar
+senare, son till Pehr Ersson och Ingeborg Nilsdotter i **Högsjö**. Där levde
+han hela sitt liv, sjuttiotvå år, som **torpare** — och där gifte han sig den
+**2 oktober 1863** med **Anna Stina Strandlund**, som också var född i
+Högsjö. Vigselposten var nära att bli ett nollresultat: en första
+översiktsläsning av hela vigselföljden 1862–1866 missade post 9, och först
+när husförhörslängden gav ett årankare lästes 1863 om i förstoring och båda
+namnen blev säkra.
+
+Under fyra årtionden följer källorna honom som torpare i samma by. Hans namn
+förändras däremot: han skrivs Pehrsson, sedan Persson, och från 1892
+**Höglund** — övergången är belagd i både husförhörsbok och folkräkning.
+
+Men familjens förhållande till kyrkan är svårförklarat, och det är den
+egentliga gåtan i akten. **Tre oberoende anomalier** står i källorna utan att
+någonsin ha ställts mot varandra:
+
+1. Dottern **Anna Erika Lydia**, född 20 december 1868, är märkt **`oäkta`** —
+   samtidigt som modern i samma post kallas **`torparhustrun`**. Fadern
+   namnges inte.
+2. Husförhörslängden 1872–1881 markerar **fem av barnen som `odöpta`**.
+3. SCB-utdraget för sonen Gustaf 1888 skriver **`Ej vigda`** om paret.
+
+Var för sig är de tre anteckningar. Tillsammans tecknar de ett hushåll som
+stod **utanför Svenska kyrkans ordningar** — odöpta barn, ett äktenskap som
+en myndighetskälla inte erkände, och ett barn fört som utomäktenskapligt.
+Mot dem står parets egen, tydliga vigselpost 1863, upprepad i två
+husförhörslängder. Ingen av sidorna avvisas här.
+
+Hustrun dog i november 1904. Fjorton månader senare, den **19 januari 1906**,
+dog Nils Petter själv i **kräfta**. Dödsortsfältet i SCB-utdraget är tomt.
+
+Vad torpet omfattade vet vi inte. Bouppteckningen är exakt lokaliserad till
+Indals tingslags F II/6 för 1906–1909, och taxeringsvolymerna täcker hela
+hans vuxna tid — men alla är analoga och olästa.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

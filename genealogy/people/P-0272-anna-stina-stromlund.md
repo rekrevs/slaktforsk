@@ -25,6 +25,54 @@ egen födelsenotis och det parentbärande hushållet.
 | A-3159 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
 | A-3173 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Anna Stinas säkra Indalsperiod genom dödsåret 1904. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1844-12-04 | **Född i Högsjö, Indal**, döpt 8 december; dotter till **Johan Gustaf Strandlund** och **Stina Cajsa Larsdotter**. | [C-0343](../citations/C-0343-indal-C4-anna-stina-fodd-1844.md), [C-0346](../citations/C-0346-indal-AI7-hogsjo-strandlund-hushall.md) | **Egen födelsenotis plus barndomshushåll.** Namnformen är **`Strandlund`**; den tidigare läsningen `Strömlund` är avvisad efter omläsning av fyra original. |
+| 1844–1891 | **Datumkonflikt genom hela livet:** A I/9, A I/10a och A I/12 skriver `1844-12-07`, medan C/4, A I/7 och A I/11 skriver `1844-12-04`. | [C-0456](../citations/C-0456-indal-AI11-hogsjo-sida-130.md), [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md) | **4 december behålls** — egen födelsenotis och barndomshushåll väger tyngst. Den avvikande uppgiften bevaras. |
+| 1863-10-02 | **Vigd i Indal** med Nils Petter Pehrsson, båda i Högsjö, efter lysning 13 september. | [C-0347](../citations/C-0347-indal-EI2-vigslar-1862-1866-negativ-kontroll.md) | Posten missades i en första översiktsläsning och säkrades vid riktad omläsning. |
+| 1866 | Dottern **Ingrid Christina Vidusina** föds; födelsenotisen namnger **båda** föräldrarna. | [C-0253](../citations/C-0253-ingrid-christina-vidusina-fodd-1866.md) | Direkt ana. |
+| 1868-12-20 | Dottern **Anna Erika Lydia** föds — **märkt `oäkta`**, med endast modern namngiven som **`torparhustrun Anna Stina Strandlund`**, 24 år, husförhörssida 119. | [C-0350](../citations/C-0350-indal-C5-anna-erika-lydia-fodd-1868.md) | **Anomali:** hon kallas hustru i samma post som barnet märks oäkta. Fadern namnges inte, och makens faderskap antas inte. Dopkolumnerna saknar datum. |
+| 1872–1881 | I Högsjö, A I/10a sida 127, med maken och nio yngre hushållspersoner. | [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | **Anomali:** fem av barnen är markerade **`odöpta`**. |
+| 1880 | Folkräknad som **Anna Stina Strandlund**, född 1844 i Indal, i familj 1 i Högsjö. | [C-0348](../citations/C-0348-folkrakning-1880-indal-hogsjo-nils-petter.md) | Bekräftar rätt efternamn, år, socken, make och hemort. |
+| 1888 | Sonen **Gustaf Julius Elof** föds; SCB-utdraget skriver **`Ej vigda`** om henne och maken. | [C-0459](../citations/C-0459-scb-indal-gustaf-julius-elof-fodd-1888.md) | **Anomali** i konflikt med den egna vigselposten 1863, som inte avvisas. |
+| 1892–1900 | Fortsatt i Högsjö med maken, som nu skrivs Höglund. | [C-0457](../citations/C-0457-indal-AI12-hogsjo-sida-131.md), [C-0458](../citations/C-0458-folkrakning-1900-indal-hogsjo-hoglund.md) | |
+| 1904-11-15 | **Död i Högsjö**; SCB-raden kallar henne hustru till torparen Nils Peter Höglund. | [C-0654](../citations/C-0654-indal-AIIa1-hogsjo-sida-129.md), [C-0655](../citations/C-0655-scb-indal-anna-stina-dod-1904.md) | **Dödsorsak och dödsort är tomma** och fylls inte inferentiellt. Församlingsboken återger födelsen som 1844-12-04, vilket stärker det datumet. |
+
+## Biografisk sammanfattning
+
+Anna Stina Strandlund föddes den **4 december 1844 i Högsjö i Indal** och
+döptes fyra dagar senare, dotter till **Johan Gustaf Strandlund och Stina
+Cajsa Larsdotter**. Hon levde hela sitt liv — knappt sextio år — i samma by.
+
+Två läsfel har rättats i hennes akt, och båda är instruktiva. Efternamnet
+lästes först `Strömlund`; omläsning av **fyra original** gav samstämmigt
+`Strandlund`. Och hennes födelsedag anges olika i olika längder: tre skriver
+den 7 december, tre den 4:e. Den 4 december behålls, eftersom **egen
+födelsenotis och barndomshushåll** väger tyngre än senare avskrifter — och
+församlingsboken vid hennes död ger samma dag.
+
+Den 2 oktober 1863, nitton år gammal, vigdes hon med **Nils Petter
+Pehrsson**, som också var född i Högsjö. Tre år senare föddes dottern
+**Ingrid Christina Vidusina**, vars födelsenotis namnger båda föräldrarna.
+
+Sedan blir bilden svårläst. I december 1868 föddes dottern **Anna Erika
+Lydia** — och födelseposten märker barnet **`oäkta`** samtidigt som den
+kallar modern **`torparhustrun`**. Fadern namnges inte. Fyra år senare
+markerar husförhörslängden **fem av hennes barn som `odöpta`**. Och 1888,
+när sonen Gustaf föddes, skriver SCB:s utdrag att föräldrarna var **`Ej
+vigda`** — trots vigselposten tjugofem år tidigare.
+
+De tre anteckningarna står var för sig i akten. Lagda bredvid varandra
+tecknar de ett hushåll som **stod utanför kyrkans ordningar**: odöpta barn,
+ett äktenskap som en myndighetskälla inte erkände, och ett barn fört som
+utomäktenskapligt. Om det beror på att familjen tillhörde en frikyrklig
+församling, eller på något annat, är inte utrett — och vigselposten 1863 står
+kvar oavvisad.
+
+Hon dog den **15 november 1904**. Dödsorsakskolumnen är tom.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
