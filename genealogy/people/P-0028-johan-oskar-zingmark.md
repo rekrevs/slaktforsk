@@ -42,6 +42,10 @@ Lundström-sonen Johan August Johansson (född maj 1861 i Östanträsk) avvisade
 | A-2495 | Degerfors A II a/3 s. 963 följer Johan Oskar som sågställare i Rosinedahl med hustrun Ida Sofia och tio barn födda 1888–1909; de fyra yngsta efter 1900 är Ludvig Emanuel, Birger, Tyra Charlotta och Gerda Helena. | CORROBORATED | mycket hög | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md) | Församlingsboken utökar 1900 års sexbarnshushåll och ersätter sekundärträdet som relationsbelägg för de fyra yngsta. |
 | A-3353 | Johan Oskar Zingmark, sågställare, bodde med familjen på Rosinedahl 1910–1917 (fol 1064) och utflyttade med hustrun och de yngre barnen till Umeå landsförsamling 1917-11-15. | TRANSCRIBED | hög | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Läst i T-0066 som led i sonens kedja; egen fortsättning i Umeå landsförsamling återstår. |
 | A-3366 | Johan Oskar Zingmark, hemmansägare, bodde 1930 i Umeå stadsförsamling (hemort Ytterhiske), uppslag 1839, inflyttad 1925 från Umeå landsförsamling, med hustrun och sex hemmavarande barn födda 1892–1909 samt en dräng; inkomst 2 800 kr och förmögenhet 43 000 kr. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Sluter kedjan från utflyttningen 1917 (A-3353); sonen Johan Magnus med familj på samma sida. |
+| A-3400 | Hela hushållet inflyttade från Degerfors till Ytterhiske N:o 2 i Umeå landsförsamling 1917-11-15 och skrevs på församlingsbokens uppslag 2284; inflyttningslängden räknar sju män och tre kvinnor. | CORROBORATED | mycket hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | Reciproka poster i församlingsbok och inflyttningslängd; sluter luckan efter A-3353. |
+| A-3401 | Han skrevs hemmansägare redan vid inflyttningen 1917, inte först 1930. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Yrkeskolumnen anger `Hemmansäg.`; tidigare belägg gav sågställare till och med 1917. |
+| A-3402 | Hushållet överfördes till Umeå stad 1925-01-01, och hela fastigheten Ytterhiske N:o 2 bär överskriften `Till Umeå stad`; det var en territoriell överföring, inte en fysisk flytt. | CORROBORATED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Röd överföringsanteckning; förklarar folkräkningens `inflyttad 1925`. |
+| A-3403 | Församlingsboken bekräftar oberoende hans födelse 1861-05-28 i Sävar, hustruns 1867-12-15 i Degerfors och vigseln 1888-07-01. | CORROBORATED | mycket hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Tredje oberoende bekräftelsen av A-2414, A-0166 och A-0163. |
 ## Relationer
 
 Maka: [P-0029 Ida Sofia Andersdotter](P-0029-ida-sofia-andersdotter.md). Barn i
@@ -85,8 +89,9 @@ hålls isär utan föräldraantagande.
 | 1900–1909 | Folkräkning och A II a/3 folio 963; tio barn | Rosinedahl, Degerfors | sågställare | hustru och tio barn | C-0004, C-0574 |
 | 1910–1917 | Rosinedahl fol 1064; barnen sprids (Malå 1916, Örebro/Umeå 1917) | Rosinedahl, Degerfors | sågställare | hustru och barn | C-0890 |
 | 1917-11-15 | Utflyttning till Umeå landsförsamling | Degerfors → Umeå lfg | sågställare | hustru och yngre barn | C-0890 |
-| 1917–1925 | **Materiell lucka**: Umeå landsförsamling | Umeå lfg | — | — | profil Q-01, C-0890 |
-| 1925 | Inflyttning till Umeå stadsförsamling | Umeå stad | hemmansägare | hustru och barn | C-0899 |
+| 1917-11-15 | Inflyttning; uppslag 2284 i församlingsboken | Ytterhiske N:o 2, Umeå lfg | hemmansägare | hustru och åtta barn | C-0907, C-0908 |
+| 1917–1925 | Hushållet på Ytterhiske N:o 2; barnen flyttar ut ett efter ett | Ytterhiske, Umeå lfg | hemmansägare | hustru och barn | C-0907 |
+| 1925-01-01 | Fastigheten och hushållet **överförs till Umeå stad** vid stadens utvidgning | Ytterhiske | hemmansägare | hustru och barn | C-0907, C-0899 |
 | 1930 | Folkräkning; uppslag 1839, inkomst 2 800, förmögenhet 43 000 | Ytterhiske, Umeå stadsförsamling | hemmansägare | hustru, sex barn, dräng | C-0899 |
 | 1930–1935 | **Materiell lucka**: död | Umeå stad | — | — | profil Q-01 |
 | 1935 | Död enligt sekundärträd | okänt | — | — | C-0001 (LEAD) |
@@ -101,7 +106,12 @@ i en stor syskonskara (C-0546, C-0561, C-0552). Nitton år gammal flyttade han
 sig 1888 med bonddottern Ida Sofia Andersdotter i Buberget, där han blev
 måg och snickare (C-0547–C-0549, C-0061). Omkring sekelskiftet var han
 sågställare vid sågen i Rosinedahl, där familjen 1909 omfattade tio barn
-(C-0004, C-0574). Om hans senare liv vet projektet inget belagt;
+(C-0004, C-0574). Vid flytten 1917 blev han hemmansägare på Ytterhiske N:o 2 i Umeå
+landsförsamling, dit hela hushållet kom från Degerfors den 15 november med
+sju män och tre kvinnor (C-0907, C-0908). Där bodde familjen tills fastigheten
+1925-01-01 överfördes till Umeå stad i samband med stadens utvidgning — en
+gränsändring, inte en flytt — vilket förklarar folkräkningens uppgift om
+inflyttning 1925 (C-0899). Om hans sista år vet projektet inget belagt;
 sekundärträdet anger att han dog 1935 (C-0001). Den tidigare
 sammanblandningen med Johan August Johansson är avvisad (C-0550).
 

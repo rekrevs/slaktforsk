@@ -25,6 +25,8 @@ namn Zingmark.
 | A-0325 | Barndomshushållet visar dessutom syskonen Maria Augusta, Jonas Edvard, tvillingarna Anders och Carl samt den senare sonen Anders. | TRANSCRIBED | hög | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) | Tvillingarna är även styrkta i födelseboken. |
 | A-3354 | Ida Sofia Andersdotter, född 1867-12-15, bodde med maken på Rosinedahl 1910–1917 (fol 1064) och utflyttade till Umeå landsförsamling 1917-11-15. | TRANSCRIBED | hög | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Delad passage med P-0028. |
 | A-3367 | Ida Sofia Andersdotter bodde 1930 med maken i Umeå stadsförsamling, uppslag 1839, med sex hemmavarande barn födda 1892–1909. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Delad post med P-0028. |
+| A-3404 | Hon bodde med maken och åtta hemmavarande barn på Ytterhiske N:o 2 i Umeå landsförsamling 1917-11-15 till överföringen till Umeå stad 1925-01-01. | CORROBORATED | mycket hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | Församlingsbok och inflyttningslängd; sluter luckan 1917–1925. |
+| A-3405 | Församlingsboken skriver henne `h. Ida Sofia, f. Andersd.` född 1867-12-15 i Degerfors. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Bekräftar A-0166 och namnformen Andersdotter i en samtida källa 1917. |
 
 ## Relationer
 

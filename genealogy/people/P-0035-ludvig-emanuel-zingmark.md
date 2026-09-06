@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|
 | A-0179 | Sekundärträdet anger namnet Ludvig Emanuel Zingmark och levnadsåren 1901–1979. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Yngre syskon till Oskar Alfred enligt samma källa; historisk källa återstår. |
 | A-2501 | Ludvig Emanuel föddes 1901-03-05 i Degerfors och står som son till Johan Oskar Zingmark och Ida Sofia Andersdotter i Rosinedahl. | TRANSCRIBED | hög | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Första historiska originalbelägget; egen födelsenotis återstår. |
+| A-3413 | Ludvig Emanuel, född 1901-03-05 i Degerfors, flyttade med familjen till Umeå landsförsamling 1917-11-15 och fördes 1925-01-01 över till Umeå stad. | CORROBORATED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | Andra originalkällan för födelsedagen, som stämmer med C-0574. |
 
 ## Relationer
 

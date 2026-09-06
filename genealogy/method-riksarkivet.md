@@ -622,3 +622,40 @@ Detta kringgår ingen spärr: det är samma session, samma behörighet och samma
 fulloriginal som bildvisarens egen `Ladda ner`-knapp levererar — bara
 dirigerat till en katalog som agenten kan läsa. `~/Downloads` (macOS TCC) och
 Chromes nedladdningskatalog behöver inte röras.
+
+### Tillägg 2026-09-06: volym- och foliouppslagning utan gissningar
+
+Att hitta rätt volym och bildnummer var tidigare den dyraste delen av varje
+läsning. Två ingångar avlastar den helt, och båda används från den inloggade
+fliken (`curl` mot samma adresser stoppas av ALTCHA):
+
+1. **IIIF-samlingar per arkivnod.**
+   `https://lbiiif.riksarkivet.se/collection/arkiv/<arkiv-id>` returnerar
+   JSON. På arkivnivå listar den serierna med sina egna arkiv-id; på
+   serienivå listar den de **digitaliserade** volymerna med etikett, årtal,
+   reproduktions-id och foliointervall, till exempel
+   `23 (1917-1931) - 00206295 - Fol 2126-2550`. En serie som svarar med noll
+   poster saknar digital bild — ett direkt och citerbart nollresultat.
+   Arkiv-id:t hämtas ur `search_metadata`-träffens `sok.riksarkivet.se/arkiv/…`.
+
+2. **NAD-sidan för hela förteckningen.**
+   `https://sok.riksarkivet.se/arkiv/<arkiv-id>` renderar seriens fullständiga
+   volymlista, inklusive **icke-digitaliserade** volymer, med tidsomfång och
+   anmärkning. Trädet på sidan laddas med javaskript, så sidan måste öppnas i
+   fliken; en `fetch` av samma adress ger bara `Loading …`.
+
+Reproduktions-id:n inom en serie är ofta men inte alltid löpande
+(`00206273` = A II a/1 → `00206295` = A II a/23, med hål). Kontrollera alltid
+en gissning mot `arkis!<id>/manifest`, vars `label` innehåller hela
+referenskoden och vars `items.length` ger bildantalet.
+
+Foliots bildnummer bestäms sedan med två stickprov: läs två bilder med
+känt avstånd, räkna offset (`uppslag = bild + k`) och verifiera på
+måluppslaget. Offset gäller bara inom ett avsnitt — inskjutna bladserier
+(`2279 a–e`) bryter linjäriteten.
+
+**Fallgrop.** Ett uppslag kan bära flera hushåll. Läs hela sidan innan ett
+negativt utfall skrivs: i T-0075 stod det sökta hushållet på raderna 12–23,
+medan raderna 1–3 tillhörde föregående hushålls tjänstefolk, och en förhastad
+läsning av bara sidans övre del gav ett felaktigt nollresultat som kostade
+ett fyrtiotal onödiga bilduppslag.

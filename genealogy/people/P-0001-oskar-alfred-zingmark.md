@@ -44,6 +44,9 @@ verifierade i Riksarkivets original eller samtida utdrag.
 | A-3346 | På Rosinedahl 1910–1917 står han som son i faderns hushåll med värnpliktsnummer 174 (1917); föräldrahushållet utflyttade till Umeå landsförsamling 1917-11-15 utan egen utflyttningsanteckning för honom. | TRANSCRIBED | hög | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Degerfors A II a/6 fol 1064; hans väg 1917–1928 återstår. |
 | A-3347 | Han tog flyttningsbetyg 1930-07-04 som lärare från Bastuträsk (Norsjö församlings östra kyrkobokföringsdistrikt), församlingsbokens uppslag 73, till Burträsk. | TRANSCRIBED | hög | [C-0893](../citations/C-0893-oskar-alfred-bastutrask-utflyttning-1930.md) | Bastuträsks utflyttningslängd B/2. |
 | A-3348 | Norsjö kyrkoarkivs utflyttningslängd 1930 (nr 1–48, januari–oktober) saknar honom; tjänsten före 1930 låg i Bastuträsk, inte i Norsjö kyrkby. | CORROBORATED | hög | [C-0893](../citations/C-0893-oskar-alfred-bastutrask-utflyttning-1930.md) | Avgränsat noll som förklaras av distriktsindelningen. |
+| A-3406 | Han flyttade med föräldrahushållet till Ytterhiske N:o 2 i Umeå landsförsamling 1917-11-15 och stod där på uppslag 2284 med värnpliktsnummer 174 ⁷⁰/₁₇. | CORROBORATED | mycket hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | Värnpliktsnumret är identiskt med Degerforssidans (A-3346) och binder posterna till samma person. |
+| A-3407 | I Umeå landsförsamling skrevs han **seminarieelev** och tog betyg för inträde i **Luleå seminarium**. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Yrkeskolumn och anteckningskolumn; förklarar vägen till folkskolläraryrket. |
+| A-3408 | Han utflyttade till Norsjö 1924-11-01 med flyttningsbetyg 1924-10-29. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Fyller merparten av luckan 1917–1928 i A-3346 och kopplar till Bastuträsk/Norsjö (A-3347). |
 
 ## Forskningsanteckningar
 
@@ -58,6 +61,12 @@ verifierade i Riksarkivets original eller samtida utdrag.
   Gammelbyn. Vigselboken visar att han och Ebba gifte sig 1932-06-19 i
   Degerfors; Öregrund var en preliminär felläsning som har kontrollerats och
   avvisats.
+- Umeå landsförsamlings församlingsbok fyller större delen av den tidigare
+  öppna perioden 1917–1928: han flyttade med föräldrahushållet till
+  Ytterhiske N:o 2 den 1917-11-15, skrevs seminarieelev, tog betyg för
+  inträde i Luleå seminarium och utflyttade till Norsjö 1924-11-01 med
+  flyttningsbetyg 1924-10-29 (C-0907). Kvar att belägga är åren i Luleå och
+  perioden Norsjö 1924–1930 fram till Bastuträsk (A-3347).
 
 ## Relationer
 

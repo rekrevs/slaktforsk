@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|
 | A-0181 | Sekundärträdet anger namnet Thyra Charlotta Tärnvik, född Zingmark, och levnadsåren 1907–1981. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Yngre syskon till Oskar Alfred enligt samma källa; historisk källa återstår. |
 | A-2503 | Tyra Charlotta föddes 1907-07-14 i Degerfors och står som dotter till Johan Oskar Zingmark och Ida Sofia Andersdotter i Rosinedahl. | TRANSCRIBED | hög | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Originalet skriver Tyra; gift namn och dödsår ligger kvar som separat sekundär ledtråd. |
+| A-3415 | Tyra Charlotta, född 1907 i Degerfors, flyttade med familjen till Umeå landsförsamling 1917-11-15. Umeå anger födelsedagen ¹²/₇ mot Degerfors A II a/3:s 1907-07-14. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Konflikten bevaras; födelseboken är oläst. |
 
 ## Relationer
 
