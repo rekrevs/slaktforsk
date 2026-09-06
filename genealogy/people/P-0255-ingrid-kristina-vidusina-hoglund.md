@@ -13,6 +13,7 @@
 | A-1974 | Folkräkningen 1880 placerar Ingrid Kristina Vidusina, född 1866 i Indal, i samma familjehushåll i Högsjö. | CORROBORATED | hög | [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md), [C-0348](../citations/C-0348-folkrakning-1880-indal-hogsjo-nils-petter.md) | Bekräftar hennes fortsatta plats i föräldrahemmet och breddar syskonbilden. |
 | A-1984 | Indal A I/10a sida 127 följer henne i föräldrahemmet och bekräftar 1866-03-10 i Indal. | CORROBORATED | hög | [C-0253](../citations/C-0253-ingrid-christina-vidusina-fodd-1866.md), [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md), [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | Egen födelsepost och två husförhörslängder. |
 | A-3372 | Ingrid Kristina Vidusina Höglund, född 1866, saknas i folkräkningsindexet 1930 för Sättna. | CORROBORATED | hög | [C-0900](../citations/C-0900-folkrakningsindex-1930-avgransade-nollor-jansson-larsson-hoglund.md) | Förenligt med död före 1930; dödsdatum obelagt. |
+| A-3479 | Hon dog **1921-12-04** på Storbränna (Gärdtjärn) i Sättna, sex år efter maken. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Nytt dödsdatum. |
 
 ## Relationer
 

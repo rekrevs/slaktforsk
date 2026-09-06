@@ -10,6 +10,7 @@
 | A-1742 | Hans föräldrar var arbetaren Lars Petter Nilsson och Cajsa Märta Andersdotter. | TRANSCRIBED | hög | [C-0274](../citations/C-0274-anders-niklas-fodd-1862-sattna.md) | Namngivna i egen födelsenotis. |
 | A-2082 | Anders Niklas stod som son i föräldrarnas Högsjöhushåll 1880; år 1890 utgjorde han familj nr 2 med Ingrid Kristina och dottern Agnes på samma sida som föräldrarna. | CORROBORATED | hög | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md) | Två folkräkningar binder ungdomshushållet till den egna familjebildningen. |
 | A-3371 | Anders Niklas Larsson, född 1862, saknas i folkräkningsindexet 1930. | CORROBORATED | hög | [C-0900](../citations/C-0900-folkrakningsindex-1930-avgransade-nollor-jansson-larsson-hoglund.md) | Förenligt med död före 1930; dödsdatum obelagt. |
+| A-3478 | Han dog **1915-08-12** på Storbränna (Gärdtjärn) i Sättna, där han var torpare; äktenskapet med Ingrid Kristina 1888-06-25 anges uttryckligen som **civilt**. | TRANSCRIBED | hög | [C-0925](../citations/C-0925-henriksson-larsson-storbranna-fol-393.md) | Nytt dödsdatum; den civila vigseln förklarar tidigare svårigheter i vigselboken. |
 
 ## Relationer
 
