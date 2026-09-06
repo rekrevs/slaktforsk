@@ -32,4 +32,3 @@ folierna **162–180** (bild 160–178), medan `A II a/6` har en separat rubrik
 [C-0888](../citations/C-0888-henriksson-sattna-1919-1943-noll-storbranna.md),
 som söktes under `Storbränna`, kan därför inte utesluta familjen
 Henriksson–Larsson: deras fastighet heter Gärdtjärn i denna serie.
-
