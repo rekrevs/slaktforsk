@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 65,
+  "next_id": 75,
   "tasks": [
     {
       "id": "T-0001",
@@ -522,7 +522,7 @@
     },
     {
       "id": "T-0063",
-      "status": "READY",
+      "status": "DONE",
       "size": "L",
       "after": [
         "T-0062"
@@ -531,13 +531,13 @@
     },
     {
       "id": "T-0064",
-      "status": "BLOCKED",
+      "status": "DONE",
       "size": "M",
       "after": [
         "T-0063"
       ],
-      "blocker": "Inväntar T-0063:s individuella underlags- och källstrategibedömning.",
-      "summary": "Pröva Arnes bostads- och arbetsnycklar i Södertälje 1943–1951"
+      "summary": "Pröva Arnes bostads- och arbetsnycklar i Södertälje 1943–1951",
+      "outcome": "Södertäljekedjan 1943–1947 originalbelagd (C-0882–C-0885, batch 298); mantal 1951, A II c/99 och handelsregister analoga; inget firmanamn."
     },
     {
       "id": "T-0060",
@@ -557,6 +557,105 @@
       "status": "DONE",
       "size": "M",
       "summary": "Pröva frågedriven källstrategi på Arnes mantal och Anders födelsekonflikt"
+    },
+    {
+      "id": "T-0065",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0063"
+      ],
+      "summary": "Höök- och Henrikssonfamiljernas händelseposter och folkräkning 1903–1944",
+      "outcome": "Ivars utresa 1931-07-27 läst (C-0886); nollor SCB 1933/Hudiksvall 1944 (C-0887) och Sättna 1919–1943 (C-0888); följdvägar T-0072."
+    },
+    {
+      "id": "T-0066",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0063"
+      ],
+      "summary": "Oskar och Ebba Zingmark 1909–1997: seminarium, tjänsteorter, hushåll, grav",
+      "outcome": "Tjänsteorter och hushåll 1910–1950 originalbelagda (C-0889–C-0893, batch 300); seminarium, Umeå 1950– och analog A II/5c till T-0073."
+    },
+    {
+      "id": "T-0067",
+      "status": "DONE",
+      "size": "M",
+      "after": [
+        "T-0064"
+      ],
+      "summary": "Arne och Maj: Flen s. 860, utflyttning 1943, gravregister och namnärende",
+      "outcome": "Flen s. 860/uppslag 720 lästa, utflyttning 1943-11-24 (C-0894–C-0895); uppslag 638 saknas i reproduktionerna (C-0896); gravar.se täckningsnoll (C-0897)."
+    },
+    {
+      "id": "T-0068",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0063"
+      ],
+      "summary": "Inför personkontraktet i djup 4-kohorten, sexton personer på båda sidor"
+    },
+    {
+      "id": "T-0069",
+      "status": "ONGOING",
+      "size": "M",
+      "after": [
+        "T-0068"
+      ],
+      "summary": "Fritt källsvep för djup 2–4: gravregister, äldre vigsel-/födelseböcker och MCP-kataloger",
+      "phase": "DOING"
+    },
+    {
+      "id": "T-0070",
+      "status": "BLOCKED",
+      "size": "L",
+      "after": [
+        "T-0069"
+      ],
+      "blocker": "Inväntar T-0069 enligt närhetsregeln; T-0064–T-0066 har företräde när bildåtkomst finns.",
+      "summary": "Inför personkontraktet i djup 5-kohorten, 32 personer"
+    },
+    {
+      "id": "T-0071",
+      "status": "IDEA",
+      "size": "M",
+      "after": [
+        "T-0067"
+      ],
+      "summary": "Läsesalsläsning Stockholms stadsarkiv: Södertälje mantal 1951 (F I aa/9–10), kvartersregister A II c/99 Tranbäret 1948–1970 och handelsregister E22A",
+      "note": "Följdväg från T-0064 (batch 298). Kräver ägarens beslut om besök/beställning; ingen agentbeställning."
+    },
+    {
+      "id": "T-0072",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0067"
+      ],
+      "summary": "Höök och Henriksson efter batch 299: Lidingö B I/8–9, Danderyd B/13–17, Hudiksvall A II a/4, Sättna 1930 hela utdraget och A II a/4 Storbränna",
+      "note": "Följdvägar från T-0065 (C-0886–C-0888). Captcha-sökning endast med ägarens bekräftelse."
+    },
+    {
+      "id": "T-0073",
+      "status": "IDEA",
+      "size": "M",
+      "after": [
+        "T-0067"
+      ],
+      "summary": "Zingmark/Andersson efter batch 300: Umeå landsförsamling 1917–1944, Bastuträsk A II a uppslag 73 och B/1, seminariematriklar, Umeå stad 1950–1997, SCB dbu Västerbotten 1947–1948, faddrarna i C-0002",
+      "note": "Följdvägar från T-0066 (C-0889–C-0893). Robertsfors A II/5c fol 703 är analog."
+    },
+    {
+      "id": "T-0074",
+      "status": "IDEA",
+      "size": "S",
+      "after": [
+        "T-0067"
+      ],
+      "summary": "Arne och Maj efter batch 301: Flen uppslag 638 och A II a/4, svenskagravar.se, namnärendet Janson",
+      "note": "Följdvägar från T-0067 (C-0894–C-0897)."
     }
   ]
 }

@@ -66,7 +66,46 @@ evidenslinjerna hålls åtskilda.
   församlingsbokssidor, flyttlängder och eventuella gårds- eller
   arbetsgivararkiv.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1886-04-19 | Född | Värsås/Kyrkefalla, Djursätra Västergården | — | Per Wilhelm Eliasson och Augusta Viktoria Johansdotter | C-0023 |
+| 1890, 1900, 1910 | Folkräkningar | Djursätra Västergården | son; jordbruksarbetare 1910 | föräldrar och syskon | C-0024–C-0026 |
+| 1911–1916 | Bokhållare vid Ökna säteri enligt familjen; foto vid Ökna 1914; porträtt Norrköping 1913 | Floda | bokhållare | — | C-0263, C-0266, C-0264 |
+| 1915-02-21 | Sonen Arne född utom äktenskapet; ägarfastställt faderskap | Flen | — | — | C-0008, PCD-2026-08-20-001 |
+| 1917 | Flytt till Oskarshamn enligt krönikan; porträtt 1920 | Oskarshamn | — | — | C-0266, C-0264 |
+| 1923-11-11 | Vigsel med Katy Leonie Nilsson (dag enligt sekundärträd, år enligt 1930) | Oskarshamn? | — | — | C-0018, C-0027 |
+| 1910–1930 | **Materiell lucka**: kyrkobokföring Värsås/Floda/Oskarshamn | — | — | — | profil Q-01, Q-02 |
+| 1930 | Folkräkning; inkomst 6 900 | Limhamn | kassör vid kraftverk | hustru, döttrarna Lucy Gudrun och Maj-Grete | C-0027 |
+| 1944 | Familjefoto julen 1944 med hustru och tre döttrar | Malmö | — | — | C-0264 |
+| 1964 | Tre porträtt | Malmö | — | — | C-0264 |
+| 1930–1978 | **Materiell lucka**: arbete, boende | Malmö | — | — | profil Q-03 |
+| 1978-09-08 | Död enligt sekundärträd | Malmö S:t Petri | — | — | C-0018 (LEAD) |
+
+## Biografisk sammanfattning
+
+Bernhard Natanael Eliasson föddes 1886-04-19 på Djursätra Västergården i
+Värsåsbygden som son till hemmansägaren Per Wilhelm Eliasson och Augusta
+Viktoria Johansdotter och bodde kvar där som jordbruksarbetare 1910
+(C-0023–C-0026). Enligt familjen var han 1911–1916 bokhållare vid Ökna
+säteri i Floda, där han enligt hörsägen kan ha varit trolovad med
+barnjungfrun Ada Jansson; deras son Arne föddes 1915 (C-0263, C-0266).
+Projektägaren har fastställt faderskapet, och familjen berättar att Bernhard
+privat erkände det och senare gav Arne pengar (PCD-2026-08-20-001, C-0086).
+Han flyttade 1917 till Oskarshamn, gifte sig 1923 med Katy Leonie Nilsson
+och var 1930 kassör vid ett kraftverk i Limhamn med döttrarna Lucy Gudrun
+och Maj-Grete; den tredje dottern Ann-Catherine tillkom senare (C-0027,
+PCD-2026-09-03-005). Porträtt följer honom 1913–1964 (C-0264). Enligt
+sekundärträdet dog han 1978-09-08 i Malmö (C-0018). Kyrkobokföringen
+1910–1930 och hela Malmöperioden är olästa.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0010.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `KLAR` — egen identitet, födelse, föräldrahushåll, vuxenhushåll och ägarfastställt faderskap är åtskilda och konsoliderade; död, Ökna-tjänst och exakt vigsel är dokumenterade villkorliga berikningsspår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: Ökna-tjänsten, Oskarshamn/vigsel 1923, arbetsgivaren och död 1978 har genomförbara vägar (profil KP-01–KP-04). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen identitet, födelse, föräldrahushåll, vuxenhushåll och ägarfastställt faderskap är åtskilda och konsoliderade; död, Ökna-tjänst och exakt vigsel är dokumenterade villkorliga berikningsspår.

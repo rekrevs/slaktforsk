@@ -23,6 +23,8 @@ namn Zingmark.
 | A-0323 | Under perioden 1866–1876 återfinns hon som barn i föräldrarnas hushåll på Buberget, sida 83. | TRANSCRIBED | hög | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) | Exakt födelsedatum identifierar henne. |
 | A-0324 | I 1870 års folkräkning redovisas hon som dotter i Anders Jonssons familj i Buberget. | TRANSCRIBED | hög | [C-0066](../citations/C-0066-ida-sofia-folkrakning-1870.md) | Databaspost, sida 75 rad 26. |
 | A-0325 | Barndomshushållet visar dessutom syskonen Maria Augusta, Jonas Edvard, tvillingarna Anders och Carl samt den senare sonen Anders. | TRANSCRIBED | hög | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) | Tvillingarna är även styrkta i födelseboken. |
+| A-3354 | Ida Sofia Andersdotter, född 1867-12-15, bodde med maken på Rosinedahl 1910–1917 (fol 1064) och utflyttade till Umeå landsförsamling 1917-11-15. | TRANSCRIBED | hög | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Delad passage med P-0028. |
+| A-3367 | Ida Sofia Andersdotter bodde 1930 med maken i Umeå stadsförsamling, uppslag 1839, med sex hemmavarande barn födda 1892–1909. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Delad post med P-0028. |
 
 ## Relationer
 
@@ -34,7 +36,37 @@ Föräldrar: [P-0065 Anders Jonsson](P-0065-anders-jonsson.md) och
 [P-0066 Lotta Sofia Andersdotter](P-0066-lotta-sofia-andersdotter.md).
 Verifierade syskon i följda hushåll: P-0067–P-0073 samt tvillingarna P-0086–P-0087.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1867-12-15 | Född; döpt 1867-12-16, nr 139 | Buberget, Degerfors | — | Anders Jonsson och Lotta Sofia Andersdotter | C-0062 |
+| 1866–1876 | Föräldrahushåll s. 83; folkräkning 1870 | Buberget | dotter | föräldrar och syskon | C-0064, C-0066 |
+| 1888-07-01 | Vigsel med Johan Oskar Zingmark | Degerfors | piga | — | C-0061 |
+| 1890 | Folkräkning; döttrarna Livia Sofia och Astrid Maria | Buberget | hustru | make och barn | C-0060 |
+| 1900–1909 | Rosinedahl folio 963; tio barn | Rosinedahl, Degerfors | hustru | make och tio barn | C-0004, C-0574 |
+| 1910–1917 | Rosinedahl fol 1064; utflyttning till Umeå landsförsamling 1917-11-15 | Rosinedahl → Umeå lfg | hustru | make och barn | C-0890 |
+| 1917–1925 | **Materiell lucka**: Umeå landsförsamling | Umeå lfg | — | — | profil Q-01, C-0890 |
+| 1930 | Folkräkning; uppslag 1839 | Ytterhiske, Umeå stadsförsamling | hustru | make, sex barn, dräng | C-0899 |
+| 1930–1944 | **Materiell lucka**: änketid, död | Umeå stad | — | — | profil Q-01 |
+| 1944 | Död enligt sekundärträd | okänt | — | — | C-0001 (LEAD) |
+
+## Biografisk sammanfattning
+
+Ida Sofia Andersdotter föddes 1867-12-15 i Buberget i Degerfors som dotter
+till bonden Anders Jonsson och Lotta Sofia Andersdotter och växte upp på
+gården med sina syskon (C-0062, C-0064, C-0066). Tjugo år gammal gifte hon
+sig 1888 med drängen Johan Oskar Zingmark, som blev måg på gården; 1890 hade
+de två döttrar och 1909, då familjen bodde i sågverkssamhället Rosinedahl,
+tio barn, bland dem Oskar Alfred född 1897 (C-0061, C-0060, C-0574). Hennes
+senare liv är obelagt; sekundärträdet anger att hon dog 1944 (C-0001).
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0029.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `KLAR` — egen födelse, barndomshushåll, föräldrar, vigsel och vuxenhushåll bildar en sammanhängande identitetskedja; sekundär död är ett dokumenterat villkorligt spår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: 1909–1944 och död har genomförbara vägar (profil KP-01). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen födelse, barndomshushåll, föräldrar, vigsel och vuxenhushåll bildar en sammanhängande identitetskedja; sekundär död är ett dokumenterat villkorligt spår.

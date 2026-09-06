@@ -937,3 +937,19 @@ Anders P-0065:s födelseidentitet och kanoniska 16 april består.
 Vigselns tidigare 14-läsning kvalificeras av C-0877/A-3312 som olöst
 avläsning 14/16; äldre daterade formuleringar om säker källavvikelse
 är historik. Ingen ny person- eller föräldrakant tillkommer.
+
+## Kontraktsinförande 2026-09-05, T-0063
+
+[Batch 292](research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna).
+De sexton akterna på djup 0–3 räknat från Adam och Axel har profiler enligt
+`person-research/v1`. Sju levande/sannolikt levande är GODKÄND inom
+integritetsminimerat omfång. Nio avlidna (P-0001, P-0002, P-0003, P-0007,
+P-0212, P-0239, P-0240, P-0241, P-0246) är UNDERKÄND: identiteterna är
+prövade, men livsbilderna har genomförbara oprövade vägar, och deras
+`Källbredd: KLAR` från batch 232/233 är omprövad till PÅGÅR med den äldre
+raden bevarad som historik. Matrisraderna för P-0212 och P-0239/P-0287 ovan
+består oförändrade; de gäller djupare frågor. Det registrerade gemensamma
+djupet sjunker därmed från 2 till 1 utan att någon relation eller
+observation ändrats: indikatorn visar nu att närmaste generationers
+livsbilder inte är prövade, vilket är north stars avsikt. Beslutade
+passager: T-0064–T-0067; nästa införandegrupp T-0068.

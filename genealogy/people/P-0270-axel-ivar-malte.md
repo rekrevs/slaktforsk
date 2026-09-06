@@ -25,3 +25,9 @@ en av den privata familjeutgåvans två syskonrötter.
 
 Sannolikt levande. Endast ägaruppgivet namn, födelsedatum och närmaste
 familjerelationer sparas för den uttryckligen godkända privata utgåvan.
+
+## Arbetsläge
+
+- Konsolidering: `GRANSKAD` 2026-09-05 (research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna)
+- Källbredd: `INTEGRITETSMINIMERAD` — levande rotperson; ägaruppgiften är fullständig för aktens syfte.
+- Kontraktsprofil: [P-0270](../research-profiles/P-0270.md), `GODKÄND` 2026-09-05 inom integritetsminimerat omfång.

@@ -59,7 +59,42 @@ bildlänk och återstår i inloggad session (C-0544).
   datumstyrda negativa kontrollen [C-0272](../citations/C-0272-ljustorp-1860-negativ-fodelsekontroll-erik-jonas.md)
   är rättad genom [C-0330](../citations/C-0330-ljustorp-C3-erik-jonas-fodd-1860-01-23.md).
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1860-01-23 | Född; döpt 1860-01-24 (senare källor 28/1 och 28/2) | Lagfors, Ljustorp | — | Henrik Henriksson och Margareta Charlotta Sjödin | C-0330, C-0329 |
+| 1880 | Folkräkning; ensamstående | Lagfors | ogift | — | C-0273 |
+| 1881-11-10 | Intern flytt s. 221 → 222 | Lagfors | dräng, sedan arbetare | — | C-0329 |
+| 1890 | Folkräkning | Lagfors | jordbruksarbetare, ogift | — | C-0328 |
+| 1892–1894 | A I/10 s. 265; värnpliktsanteckning 204/166/81 | Lagfors | arbetare | brodern Henrik Petter på samma sida | C-0543 |
+| 1894-12-01 | Utflyttning nr 35 till Holm | Ljustorp → Holm | — | — | C-0543 |
+| 1894–1900 | **Materiell lucka**: Holm | Holm | — | — | profil Q-01 |
+| 1900-10-13 | Inflyttning från Holm; lysning 14/10; vigsel 1900-11-24 med Gertrud Kristina Jönsson | Storbränna nr 3, Sättna | måg | svärföräldrarna Abraham Jönsson | C-0542, C-0243 |
+| 1901-01-31 | Sonen Axel Edvin född; Emil Herman 1906, Fridolf 1908 | Storbränna | arbetare | hustru och söner | C-0244, C-0242 |
+| 1910-03-02 | Död (dödbok F/1 spärrad) | Sättna | — | — | C-0542 |
+
+## Biografisk sammanfattning
+
+Erik Jonas Henriksson föddes 1860-01-23 i Lagfors i Ljustorp som son till
+Henrik Henriksson och Margareta Charlotta Sjödin (C-0330). Han stannade ogift
+i Lagfors som dräng och arbetare i över trettio år, följd i husförhör och
+folkräkningar 1880 och 1890, med brodern Henrik Petters familj på samma
+sida (C-0273, C-0329, C-0328, C-0543). År 1894 flyttade han till Holm, där
+sex år är olästa, och kom 1900 till Storbränna i Sättna, lystes i oktober och
+gifte sig 1900-11-24 med hemmansägardottern Gertrud Kristina Jönsson, i vars
+föräldrahem han blev måg (C-0543, C-0542, C-0243). Sönerna Axel Edvin, Emil
+Herman och Fridolf föddes 1901–1908 (C-0244, C-0242). Han dog 1910-03-02,
+fyrtio år gammal, och lämnade änkan med tre små söner (C-0542). Senare
+källor ger tre olika födelsedatum; de samtida Ljustorpskällorna bär 23
+januari.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0253.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — födelse, båda föräldrarna, Lagfors–Holm–Sättna-kedjan, vigsel, barn och dödsdatum är konsoliderade; datumvarianterna samt spärrade vigsel-/dödsoriginal är uttryckligt avgränsade konflikter och åtkomstspår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: Holm 1894–1900, vigsel-/dödsoriginal, värnpliktsnyckeln och dödsboet 1910 har genomförbara vägar (profil KP-01–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — födelse, båda föräldrarna, Lagfors–Holm–Sättna-kedjan, vigsel, barn och dödsdatum är konsoliderade; datumvarianterna samt spärrade vigsel-/dödsoriginal är uttryckligt avgränsade konflikter och åtkomstspår.

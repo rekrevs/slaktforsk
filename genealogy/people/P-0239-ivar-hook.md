@@ -28,6 +28,12 @@ missionärsläkare i Centralasien och Indien.
 | A-1726 | Han och Anna Elisabeth Carlman var föräldrar till helsyskonen Gunnar, Marianne, Astrid Margareta och Anders Gustav Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; Gunnar är dessutom oberoende stödd som deras son, men syskonskaran är ännu inte arkivkontrollerad. |
 
 | A-2412 | Johannes Ivar Fredberg är Ivars far enligt ägarens säkra familjekunskap (`#1 är 100% säker`, 2026-08-29); relationen är fastställd projektinformation enligt `PCD-2026-08-29-001`. | OWNER_CONFIRMED | mycket hög | [PCD-2026-08-29-001](../../PROJECT-CONTROL.md#pcd-2026-08-29-001), [C-0545](../citations/C-0545-agarens-uppgift-johannes-ivar-fredberg-ar-ivars-far.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md), [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md) | Ägaruppgift plus två familjeuppgifter; samtida arkivbelägg krävs inte längre men bokförs om det påträffas. |
+| A-3323 | Födelseboken bekräftar att Anders Ivar föddes 1903-05-13 i Hudiksvall som `oäkta` son till pigan Anna Matilda Hök, född 1880-12-23, skriven på församlingsbokens sida 341. | CORROBORATED | hög | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen födelsenotis läst; datumet stämmer med församlingsboken. |
+| A-3324 | Han döptes 1903-07-14 av K. A. Ehrengren utan faddrar; vittnen var hustrurna till Aug. Emil Hök och arbetaren Anders Jakobsson i Hudiksvall. | TRANSCRIBED | hög | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md) | Vittnenas relation till modern anges inte. |
+| A-3325 | Ingen far anges i födelsenotisen. | TRANSCRIBED | hög | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md) | Gäller endast denna post; det ägarfastställda faderskapet (A-2412) påverkas inte. |
+| A-3326 | Notisen bär en anteckning daterad Hudiksvall 1903-08-25 om att modern begärt att barnet antecknas [såsom hennes]. | TRANSCRIBED | medel | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md) | Slutet av meningen är läsosäkert. |
+| A-3337 | Anders Ivar Höök, missionär, född 1903-05-13, utflyttade 1931-07-27 ensam från Fridhem i Hudiksvall (församlingsbokens s. 593) till Kashgar i Östturkestan. | TRANSCRIBED | hög | [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md) | Utflyttningslängd; ogift vid utresan (endast en man i posten). |
+| A-3338 | Hudiksvalls dödutdrag 1944 (hela året) och 1931–1949 års församlingsbok s. 593 saknar honom; dödsfallet 1944 registrerades inte i Hudiksvall. | CORROBORATED | hög | [C-0887](../citations/C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md) | Avgränsat noll; länslasarettets utdrag efter januari 1944 oläst. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -56,7 +62,49 @@ namnet Ivar genom honom. Projektägaren har fastställt faderskapet i
 PCD-2026-08-29-001; den separata originalverifieringen av Johannes identitet
 och livskedja fortsätter utan att relationen demoteras.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1903-05-13 | Född `oäkta`; döpt 1903-07-14 utan faddrar; ingen far | Hudiksvall | — | Anna Matilda Hök, piga, s. 341 | C-0880, C-0260 |
+| 1910 | Folkräkning; `oä. s.` till Anna Matilda | Hudiksvall | barn | morföräldrarna Anders Gustaf Hök och Anna Greta Hillberg, modern | C-0255, C-0256 |
+| 1913–1931 | Församlingsbok s. 593 | Hudiksvall | — | modern och mormodern | C-0260 |
+| 1913–1930 | **Materiell lucka**: skolgång, läkarutbildning | okänt | — | — | profil Q-03 |
+| 1930 | Folkräkning | Fridhem, Hudiksvall, s. 593 | missionär, ogift | modern och mormodern | C-0258 |
+| 1931-07-27 | Utflyttning från Fridhem, Hudiksvall, till Kashgar, Östturkestan; ogift | Hudiksvall → Kashgar | missionär | — | C-0886 |
+| 1931 | Missionärsläkare; utresa till Östturkestan; Kashgar | Kashgar | missionärsläkare | — | C-0227 |
+| 1931-07-27–1933 | **Materiell lucka**: vigsel med Anna Elisabeth Carlman efter utresan; inte i Danderyd/Lidingö 1933 | okänt, sannolikt utomlands | — | — | profil Q-02, C-0887 |
+| 1933–1944 | Barn födda enligt familjen: 1933, 1935, 1938, 1944 | okänt | — | hustru och barn | C-0268 |
+| 1930-talet | Missionspar i Östturkestan; Yarkand och Kashgar | Östturkestan | missionärsläkare | — | C-0227, C-0235 |
+| 1944 | Död under missionsarbete enligt familjen; inte registrerad i Hudiksvalls dödutdrag | Indien enligt familjen | — | — | C-0225, C-0887 |
+
+## Biografisk sammanfattning
+
+Anders Ivar föddes 1903-05-13 i Hudiksvall som son utom äktenskapet till
+Anna Matilda Hök och döptes 1903-07-14 utan faddrar; födelseboken namnger ingen far
+(C-0880). Han växte upp i moderns föräldrahem hos Anders Gustaf Hök och
+Anna Greta Hillberg; 1910 och 1913–1931 står han där, och
+1930 bor han fortfarande med modern och den sedan 1911 änkeblivna mormodern
+i Fridhem, nu med yrket missionär (C-0255, C-0256, C-0258, C-0260).
+Kyrkoböckerna namnger ingen far; projektägaren har fastställt att Johannes
+Ivar Fredberg var hans far, vilket också förklarar namnet Ivar
+(PCD-2026-08-29-001, C-0320). Hur han utbildade sig till läkare är inte
+belagt. Från 1931 var han enligt Equmeniakyrkans missionshistorik
+missionärsläkare i Kashgar, där han upplevde revolutionen, och tillsammans
+med hustrun, sjuksköterskan Elisabeth Carlman, verkade han i Yarkand och
+Kashgar under 1930-talet (C-0227, C-0235). De fick enligt familjen barnen
+Gunnar, Marianne, Margareta och Gustav (C-0268). Enligt familjen dog han
+1944 under missionsarbete i Indien (C-0225); ingen samtida källa för döden
+är läst. Två biografier om paret finns i LIBRIS men är olästa.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0239.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — identitetskedjan 1910–1930, modern, yrket, missionsfamiljen och det ägarfastställda faderskapet är konsoliderade; egen födelsenotis och exakta dödsomständigheter är dokumenterade villkorliga kompletteringsspår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0065: utflyttningen 1931-07-27 till Kashgar är läst (C-0886); vigsel, barn och död ligger utanför Hudiksvall och de prövade Stockholmsförsamlingarna (C-0887); nästa nycklar är Lidingös inflyttningslängder 1937–1947 och missionsarkivet (profil KP-02, KP-04).
+
+Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: egen födelsenotis, vigsel, utflyttning och dödsregistrering är genomförbara i RA:s SCB-utdrag (profil KP-01–KP-02); utbildning och missionsarkiv har konkreta katalogvägar. Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233. Matrisraden i source-coverage.md består.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — identitetskedjan 1910–1930, modern, yrket, missionsfamiljen och det ägarfastställda faderskapet är konsoliderade; egen födelsenotis och exakta dödsomständigheter är dokumenterade villkorliga kompletteringsspår.

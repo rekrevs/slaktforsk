@@ -40,6 +40,8 @@ Lundström-sonen Johan August Johansson (född maj 1861 i Östanträsk) avvisade
 | A-2433 | Föräldrahushållen och barnens originalnotiser ger honom nio helsyskon — Sophia Beata, Carl Reinhold, Christina Wilhelmina, Maria Elina, Per August, Axel, Anders Wilhelm, Sara Rebecka och Ester Amalia — samt sex halvsyskon ur faderns andra gifte 1870. | CORROBORATED | mycket hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0567](../citations/C-0567-savar-C2-sophia-beata-zingmark-fodd-1851.md) | A I/7b:s sju synliga barn var inte en fullständig barnlista; tre ytterligare barn har egna originalposter. |
 | A-2464 | De tre tidigare okända äldre helsyskonen var Carl Reinhold, född 1853-01-21, Christina Wilhelmina, född 1854-09-27, och Maria Elina, född 1856-07-29, alla i Botsmark. | CORROBORATED | mycket hög | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md) | Egna födelsenotiser plus gemensamt föräldrahushåll. |
 | A-2495 | Degerfors A II a/3 s. 963 följer Johan Oskar som sågställare i Rosinedahl med hustrun Ida Sofia och tio barn födda 1888–1909; de fyra yngsta efter 1900 är Ludvig Emanuel, Birger, Tyra Charlotta och Gerda Helena. | CORROBORATED | mycket hög | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md) | Församlingsboken utökar 1900 års sexbarnshushåll och ersätter sekundärträdet som relationsbelägg för de fyra yngsta. |
+| A-3353 | Johan Oskar Zingmark, sågställare, bodde med familjen på Rosinedahl 1910–1917 (fol 1064) och utflyttade med hustrun och de yngre barnen till Umeå landsförsamling 1917-11-15. | TRANSCRIBED | hög | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Läst i T-0066 som led i sonens kedja; egen fortsättning i Umeå landsförsamling återstår. |
+| A-3366 | Johan Oskar Zingmark, hemmansägare, bodde 1930 i Umeå stadsförsamling (hemort Ytterhiske), uppslag 1839, inflyttad 1925 från Umeå landsförsamling, med hustrun och sex hemmavarande barn födda 1892–1909 samt en dräng; inkomst 2 800 kr och förmögenhet 43 000 kr. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Sluter kedjan från utflyttningen 1917 (A-3353); sonen Johan Magnus med familj på samma sida. |
 ## Relationer
 
 Maka: [P-0029 Ida Sofia Andersdotter](P-0029-ida-sofia-andersdotter.md). Barn i
@@ -69,7 +71,46 @@ Maria Elina är nu identifierad som helsyster genom C-0561–C-0562. Johanna
 Paulina 1864 och Per Alexander 1866 i Degerfors är noterade i C-0548 men
 hålls isär utan föräldraantagande.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1861-05-28 | Född; döpt 4 juni | Botsmark, Sävar | — | J. P. Zingmark och Sara Sophia Pehrsdotter | C-0546 |
+| 1861–1880 | Föräldrahushåll, Botsmark folio 603/672; moderns död 1868, faderns omgifte 1870 | Botsmark | son | föräldrar, nio helsyskon, sex halvsyskon | C-0561, C-0552 |
+| 1880-10-07/24 | Utflyttning med attest 32; inskriven i Ekträsk | Sävar → Degerfors | dräng | — | C-0547, C-0548 |
+| 1883-10-24 | Intern flytt s. 171 → s. 163 | Petisträsk, Degerfors | dräng | — | C-0548 |
+| 1888-06-17/07-01 | Lysning och vigsel med Ida Sofia Andersdotter; måg s. 207 | Degerfors, Buberget | snickare | svärföräldrarna Anders Jonsson | C-0061, C-0549 |
+| 1890 | Folkräkning; två döttrar | Buberget | snickare | hustru och barn | C-0060 |
+| 1897-05-22 | Sonen Oskar Alfred född | Degerfors | arbetare | — | C-0002 |
+| 1900–1909 | Folkräkning och A II a/3 folio 963; tio barn | Rosinedahl, Degerfors | sågställare | hustru och tio barn | C-0004, C-0574 |
+| 1910–1917 | Rosinedahl fol 1064; barnen sprids (Malå 1916, Örebro/Umeå 1917) | Rosinedahl, Degerfors | sågställare | hustru och barn | C-0890 |
+| 1917-11-15 | Utflyttning till Umeå landsförsamling | Degerfors → Umeå lfg | sågställare | hustru och yngre barn | C-0890 |
+| 1917–1925 | **Materiell lucka**: Umeå landsförsamling | Umeå lfg | — | — | profil Q-01, C-0890 |
+| 1925 | Inflyttning till Umeå stadsförsamling | Umeå stad | hemmansägare | hustru och barn | C-0899 |
+| 1930 | Folkräkning; uppslag 1839, inkomst 2 800, förmögenhet 43 000 | Ytterhiske, Umeå stadsförsamling | hemmansägare | hustru, sex barn, dräng | C-0899 |
+| 1930–1935 | **Materiell lucka**: död | Umeå stad | — | — | profil Q-01 |
+| 1935 | Död enligt sekundärträd | okänt | — | — | C-0001 (LEAD) |
+
+## Biografisk sammanfattning
+
+Johan Oscar Zingmark föddes 1861-05-28 i Botsmark i Sävar som son till
+landbonden Johan Peter Zingmark och hans första hustru Sara Sophia
+Pehrsdotter, som dog 1868; fadern gifte om sig 1870 och Johan Oskar växte upp
+i en stor syskonskara (C-0546, C-0561, C-0552). Nitton år gammal flyttade han
+1880 som dräng till Degerfors, tjänade i Ekträsk och Petisträsk och gifte
+sig 1888 med bonddottern Ida Sofia Andersdotter i Buberget, där han blev
+måg och snickare (C-0547–C-0549, C-0061). Omkring sekelskiftet var han
+sågställare vid sågen i Rosinedahl, där familjen 1909 omfattade tio barn
+(C-0004, C-0574). Om hans senare liv vet projektet inget belagt;
+sekundärträdet anger att han dog 1935 (C-0001). Den tidigare
+sammanblandningen med Johan August Johansson är avvisad (C-0550).
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0028.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `KLAR` — den avvisade Johan August-sammanslagningen är isolerad som `REJECTED`, den riktiga Botsmark–Degerfors-kedjan och båda föräldrarna är säkrade och syskonkretsen hålls evidensbunden; exakt död är villkorlig berikning.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: 1909–1935, död och sågverksarbetet har genomförbara vägar (profil KP-01–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — den avvisade Johan August-sammanslagningen är isolerad som `REJECTED`, den riktiga Botsmark–Degerfors-kedjan och båda föräldrarna är säkrade och syskonkretsen hålls evidensbunden; exakt död är villkorlig berikning.

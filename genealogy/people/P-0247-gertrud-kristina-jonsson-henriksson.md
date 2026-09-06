@@ -58,7 +58,40 @@ Sättnas dödböcker saknar henne 1927–1943 och 1952–1955; från 1956 visar
 visaren restriktionsblad. Återstarta vid A II a/10 s. 304 när Riksarkivet
 exponerar bild-id eller åtkomsten kan ske utan att röra verifieringen.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1874-02-23 | Född (notis saknas i C/5 och SCB) | Gårdtjern/Storbränna, Sättna | — | Abraham Jönsson och Stina Kajsa Nordlund | C-0331, C-0332, C-0674 |
+| 1880 | Folkräkning; A I/10a s. 140 | Gårdtjern | dotter | föräldrar, två syskon | C-0331, C-0332 |
+| 1900-11-24 | Vigsel med Erik Jonas Henriksson efter lysning 14/10 | Storbränna nr 3 | — | föräldrar, make | C-0542, C-0243 |
+| 1901–1908 | Sönerna Axel Edvin, Emil Herman, Fridolf | Storbränna | — | make och söner | C-0244, C-0242 |
+| 1910-03-02 | Änka | Storbränna | hemmansägare | tre söner, föräldrar | C-0542, C-0242 |
+| 1918-03-09 | Vigsel med Nils August Hallin; sönerna Nils Eugen och Ivar Henning | Storbränna | — | make och söner | C-0675 |
+| 1927–1943 | A II a/6 s. 389 och 392; till nya boken 1943 | Sättna | — | make | C-0677 |
+| 1943–1951 | A II a/8 s. 388; makens död 1951-06-18; vidare till A II a/10 s. 304 | Sättna | änka | — | C-0677 |
+| 1952–1955 | Dödbok negativ till 1955 | Sättna | — | — | C-0677 |
+| efter 1955 | **Materiell lucka**: död | Sättna? | — | — | profil Q-01 |
+
+## Biografisk sammanfattning
+
+Gertrud Kristina Jönsson föddes 1874-02-23 i Sättna som dotter till
+hemmansägaren Abraham Jönsson och Stina Kajsa Nordlund; hennes egen
+födelsenotis saknas i födelseboken, men fem senare original ger samma datum
+och föräldrar (C-0331, C-0332, C-0674). Hon gifte sig 1900 med arbetaren
+Erik Jonas Henriksson, som blev måg på gården i Storbränna, fick tre söner
+och blev änka 1910, då hon själv stod som hemmansägare (C-0542, C-0244,
+C-0242). År 1918 gifte hon om sig med Nils August Hallin och fick två söner
+till; paret följs i församlingsböckerna till 1951, då Nils August dog, och
+hon fördes som änka till en sida som ännu inte kan läsas (C-0675, C-0677).
+Hon levde 1955. Döden är okänd.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0247.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — identitet, föräldrar, son, två äktenskap och kedjan till änkestånd efter 1951 är konsoliderade med födelsenotisens frånvaro och 1910-indexfelet synliga som konflikter; döden efter 1955 har ett exakt åtkomstvillkor.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: död efter 1955 (gravregister fritt, A II a/10 s. 304 med exakt åtkomstvillkor) och dödsbona har genomförbara vägar (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — identitet, föräldrar, son, två äktenskap och kedjan till änkestånd efter 1951 är konsoliderade med födelsenotisens frånvaro och 1910-indexfelet synliga som konflikter; döden efter 1955 har ett exakt åtkomstvillkor.

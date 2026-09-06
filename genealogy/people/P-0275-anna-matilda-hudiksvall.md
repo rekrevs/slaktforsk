@@ -20,6 +20,8 @@ inte ut automatiskt från fadern.
 | A-1922 | Hon ska enligt familjeuppgift inte ha tillåtits gifta sig med Johannes Ivar Fredberg. | LEAD | medel | [C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md) | Separat äktenskapshinder som inte är historiskt verifierat. |
 | A-1625 | Församlingsbokssida 593 anger hennes födelsedatum 1880-12-23 och placerar henne med sonen Anders Ivar. | TRANSCRIBED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Sidan skriver Anna Mathilda och markerar `icke döpt`. |
 | A-1998 | Folkräkningen 1880 placerar Anna Matilda, född 1880 i Hälsingtuna, med Anders Gustaf Hök och Anna Greta Hillberg i Hudiksvall. | CORROBORATED | hög | [C-0352](../citations/C-0352-folkrakning-1880-hudiksvall-hok-hillberg.md), [C-0353](../citations/C-0353-folkrakning-1890-halsingtuna-hasta-hok-hillberg.md), [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md) | Samma föräldrapar och födelseuppgift återkommer i tre folkräkningar. |
+| A-3327 | År 1903 var hon piga i Hudiksvall, skriven på församlingsbokens sida 341, och födde 1903-05-13 sonen Anders Ivar utom äktenskapet. | CORROBORATED | hög | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen födelsenotis för sonen. |
+| A-3328 | Hon begärde enligt prästens anteckning 1903-08-25 att barnet antecknades [såsom hennes]; dopvittnen var hustrurna till Aug. Emil Hök och Anders Jakobsson. | TRANSCRIBED | medel | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md) | Läsosäkert slut på anmälningsmeningen; Emil Hök kan vara släkting men relationen anges inte. |
 
 ## Relationer
 
@@ -48,7 +50,39 @@ missionären. Johannes Ivar Fredberg är ägarfastställd som sonens far;
 originalverifieringen av Johannes och det uppgivna äktenskapshindret återstår
 utan att Anna Matilda och Johannes konstrueras som ett par.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1880-12-23 | Född; `icke döpt` | Hälsingtuna | — | Anders Gustaf Hök och Anna Greta Hillberg | C-0260, C-0410, C-0411 |
+| 1880, 1890, 1900 | Folkräkningar | Hudiksvall; Håsta, Hälsingtuna; Hudiksvall | dotter | föräldrar och syskon | C-0352, C-0353, C-0257 |
+| 1903-05-13 | Sonen Anders Ivar född utom äktenskapet; anmälan 25/8 | Hudiksvall, s. 341 | piga | — | C-0880 |
+| 1910 | Folkräkning | Hudiksvall | dotter | föräldrar, sonen | C-0255, C-0256 |
+| 1913–1931 | A II a/3 b s. 593; mormodern änka 1911 | Hudiksvall | — | modern och sonen | C-0260 |
+| 1930 | Folkräkning | Fridhem, Hudiksvall | hemmadotter | modern och sonen (missionär) | C-0258 |
+| efter 1931 | **Materiell lucka**: sonens utresa, hennes försörjning och död | Hudiksvall? | — | — | profil Q-02 |
+
+## Biografisk sammanfattning
+
+Anna Matilda Hök föddes 1880-12-23 i Hälsingtuna som äldsta barn till
+snickaren, senare vaktmästaren, Anders Gustaf Hök och Anna Greta Hillberg
+och antecknades som odöpt; hon växte upp i Hudiksvall och Håsta med tolv
+syskon (C-0260, C-0352, C-0353, C-0257). Som piga i Hudiksvall födde hon
+1903-05-13 sonen Anders Ivar utom äktenskapet; prästen antecknade i augusti
+att hon anmält barnet, som döptes utan faddrar men med två vittnen (C-0880).
+Ingen far antecknades; projektägaren har fastställt att Johannes Ivar
+Fredberg var fadern, och familjen berättar att hon inte tilläts gifta sig med
+honom (PCD-2026-08-29-001, C-0259). Hon bodde med sonen i föräldrahemmet
+1910, med modern och sonen på s. 593 till 1931 och 1930 i Fridhem, då sonen
+var missionär på väg ut (C-0256, C-0260, C-0258). Hennes liv därefter är
+obelagt.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0275.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — identitet, födelsedatum, föräldrahushåll 1880–1900, moderskapet och sonens ägarfastställda far är konsoliderade; egen födelsenotis, fullständigt efternamn och äktenskapshindret är dokumenterade villkorliga spår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: egen födelsenotis, tjänstesidan 341, livet efter 1931 och död har genomförbara vägar (profil KP-01–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — identitet, födelsedatum, föräldrahushåll 1880–1900, moderskapet och sonens ägarfastställda far är konsoliderade; egen födelsenotis, fullständigt efternamn och äktenskapshindret är dokumenterade villkorliga spår.

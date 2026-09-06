@@ -57,5 +57,6 @@ Spara endast det som behövs för att fastställa nästa historiska generation.
 
 ## Arbetsläge
 
-- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-på-kristinas-sida)
 - Källbredd: `INTEGRITETSMINIMERAD` — identitet, födelse och båda föräldraleden är säkrade med familjeuppgift och samtida utdrag; ytterligare uppgifter om ett möjligt nu levande liv samlas inte in.
+- Kontraktsprofil: [P-0211](../research-profiles/P-0211.md), `GODKÄND` 2026-09-05 inom integritetsminimerat omfång (research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna).

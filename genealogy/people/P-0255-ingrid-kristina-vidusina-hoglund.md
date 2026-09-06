@@ -12,6 +12,7 @@
 | A-1564 | Hon står som dotter i föräldrahushållet i Högsjö under Indal A I/9. | TRANSCRIBED | hög | [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md) | Samma födelsedatum och namninskjutning som i födelsenotisen. |
 | A-1974 | Folkräkningen 1880 placerar Ingrid Kristina Vidusina, född 1866 i Indal, i samma familjehushåll i Högsjö. | CORROBORATED | hög | [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md), [C-0348](../citations/C-0348-folkrakning-1880-indal-hogsjo-nils-petter.md) | Bekräftar hennes fortsatta plats i föräldrahemmet och breddar syskonbilden. |
 | A-1984 | Indal A I/10a sida 127 följer henne i föräldrahemmet och bekräftar 1866-03-10 i Indal. | CORROBORATED | hög | [C-0253](../citations/C-0253-ingrid-christina-vidusina-fodd-1866.md), [C-0254](../citations/C-0254-hogsjo-hushall-indal-ai9.md), [C-0349](../citations/C-0349-indal-AI10a-hogsjo-familj-sida-127.md) | Egen födelsepost och två husförhörslängder. |
+| A-3372 | Ingrid Kristina Vidusina Höglund, född 1866, saknas i folkräkningsindexet 1930 för Sättna. | CORROBORATED | hög | [C-0900](../citations/C-0900-folkrakningsindex-1930-avgransade-nollor-jansson-larsson-hoglund.md) | Förenligt med död före 1930; dödsdatum obelagt. |
 
 ## Relationer
 
@@ -38,7 +39,36 @@ fastställt föräldrarna och öppnat P-0271–P-0272 på djup 4 från Kristina
 (djup 5 från sönerna). Vittneskolumnen och den svårlästa parentetiska
 namnformen återstår att kontrollera separat.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1866-03-10 | Född; döpt 1866-03-24; vittnen olästa | Högsjö, Indal | — | Nils Petter Pehrsson och Anna Stina Strandlund | C-0253 |
+| 1866–1881 | Indal A I/9 och A I/10a s. 127; folkräkning 1880 | Högsjö | dotter | föräldrar och syskon | C-0254, C-0349, C-0348 |
+| 1881–1890 | **Materiell lucka**: vigsel med Anders Niklas Larsson | Indal? | — | — | profil Q-01 |
+| 1890 | Folkräkning; familj nr 2 | Högsjö | hustru | make och dottern Agnes | C-0389 |
+| 1900 | Folkräkning; dottern Emma 1900-07-23 | Storbränna, Sättna | hustru | make, tre döttrar | C-0243, C-0246 |
+| 1910 | Folkräkning | Storbränna | hustru | make, två döttrar | C-0242 |
+| efter 1910 | **Materiell lucka** | Storbränna? | — | — | profil Q-02 |
+
+## Biografisk sammanfattning
+
+Ingrid Kristina Vidusina föddes 1866-03-10 i Högsjö i Indal som dotter till
+torparen Nils Petter Pehrsson och Anna Stina Strandlund och växte upp i ett
+stort hushåll med nio barn (C-0253, C-0254, C-0349, C-0348). Under 1880-talet
+gifte hon sig med Anders Niklas Larsson från grannhushållet; 1890 hade de
+dottern Agnes i Högsjö, och omkring sekelskiftet flyttade familjen till
+Storbränna i Sättna, där Märta och 1900 Emma föddes, den sistnämnda utan dop
+(C-0389, C-0243, C-0246, C-0242). I dotterns födelsenotis bär hon efternamnet
+Höglund, en namnform vars ursprung inte är klarlagt. Hennes senare liv är
+obelagt.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0255.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — egen födelse/dop, namnvarianter, båda föräldrarna, två barndomshushåll, make och barn är konsoliderade; vittneskolumnen och den svårlästa namninskjutningen är avgränsad villkorlig berikning.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: vigsel, namnformen Höglund, vittneskolumnen 1866 och livet efter 1910 har genomförbara vägar (profil KP-01). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen födelse/dop, namnvarianter, båda föräldrarna, två barndomshushåll, make och barn är konsoliderade; vittneskolumnen och den svårlästa namninskjutningen är avgränsad villkorlig berikning.

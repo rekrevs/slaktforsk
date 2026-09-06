@@ -45,7 +45,43 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
   Hyltinge, Helgesta och Flen.
 - Fastställ om fler syskon föddes efter 1890.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1877-09-25 | Född; döpt 1877-09-30 | Djupnäs, Gryt | — | Per Albert Ålund och Adela Amalia Urbom | C-0075 |
+| 1879 | Flytt med föräldrarna | Gryt → Hyltinge | — | föräldrar | C-0077 |
+| 1890 | Folkräkning | Valsund, Hyltinge | dotter, ogift | föräldrar, brodern Karl Albert | C-0078 |
+| 1900 | Folkräkning | Rudstugan, Hyltinge | dotter, ogift, 23 år | föräldrar | C-0088 |
+| 1900–1913 | **Materiell lucka**: vigsel med lokomotiveldaren Ekholm | okänt | — | — | profil Q-01 |
+| 1913-03-11 | Änka | okänt | — | — | C-0028 |
+| 1920-05-11 | Dottern Maj Amalia född | Hyltinge | änka | — | C-0020, C-0028 |
+| 1921 | Dottern Hulda Margareta född enligt index | Helgesta | — | — | C-0015 |
+| 1929 | Flytt från Helgesta till Hyltinge | Hyltinge | — | — | C-0019 |
+| 1930 | Folkräkning; familjegrupp 2 | Skarvnäs ägor, Solliden | lokomotiveldareänka, hushållerska | Maj; Axel Edvards grupp 1 på samma boställe | C-0019 |
+| före 1938 | Lyckedal med Maj | Flen, s. 932 | — | Maj | C-0033 |
+| efter 1938 | **Materiell lucka**: död | okänt | — | — | profil Q-02 |
+
+## Biografisk sammanfattning
+
+Hulda Amalia Ålund föddes 1877-09-25 i Djupnäs i Gryt som dotter till Per
+Albert Ålund och Adela Amalia Urbom och flyttade 1879 med föräldrarna till
+Hyltinge, där hon bodde ogift hos dem i Valsund 1890 och Rudstugan 1900
+(C-0075, C-0077, C-0078, C-0088). Någon gång därefter gifte hon sig med en
+lokomotiveldare Ekholm, vars förnamn projektet ännu inte känner; hon blev
+änka 1913-03-11 (C-0028). Som änka födde hon 1920 dottern Maj Amalia, vars
+far, banvakten Axel Edvard Eriksson, erkände faderskapet, och 1921 enligt
+indexet dottern Hulda Margareta i Helgesta (C-0028, C-0033, C-0015). År 1930
+var hon hushållerska på Solliden i Hyltinge, i samma boställe som Axel
+Edvard, och före 1938 bodde hon med Maj på Lyckedal i Flen (C-0019, C-0033).
+Hennes död är okänd.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0016.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `KLAR` — födelse, föräldrar, barndom, flytt och moderskap är sammanhållna; den namnlöse Ekholm-maken och senare syskon-/livsspår saknar ännu identifieringsnyckel och är uttryckligt villkorliga.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: makens identitet och död 1913, Hulda Margaretas far och Huldas egen död har genomförbara vägar (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — födelse, föräldrar, barndom, flytt och moderskap är sammanhållna; den namnlöse Ekholm-maken och senare syskon-/livsspår saknar ännu identifieringsnyckel och är uttryckligt villkorliga.

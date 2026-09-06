@@ -20,6 +20,9 @@ folkräkningen 1910 och gravregistret i Sättna.
 | A-1502 | Emil Herman, född 1906, och Fridolf, född 1908, var yngre barn i samma familj 2. | TRANSCRIBED | hög | [C-0242](../citations/C-0242-storbranna-hushall-1910.md) | Registrerade som syskonhushåll; egna födelsenotiser återstår. |
 | A-1529 | Erik Jonas Henriksson och Gertrud Kristina Jönsson var Axel Edvins föräldrar. | CORROBORATED | hög | [C-0244](../citations/C-0244-axel-edvin-henriksson-fodd-1901-01-31.md), [C-0245](../citations/C-0245-axel-edvin-henriksson-scb-1901.md) | Samma föräldrapar står i kyrkoboken och det officiella SCB-utdraget. |
 | A-1530 | Axel Edvin döptes 1901-04-24 och hans föräldrar var dopvittnen. | TRANSCRIBED | hög | [C-0244](../citations/C-0244-axel-edvin-henriksson-fodd-1901-01-31.md) | Samtida dopnotis. |
+| A-3341 | Hushållet Henriksson står inte under Storbränna i folkräkningsutdraget 1930 (fol 379–400) eller i församlingsboken 1927–1943 (fol 398–402), och vigseln finns inte i Sättnas vigselutdrag 1919, 1920 eller 1922. | CORROBORATED | hög | [C-0888](../citations/C-0888-henriksson-sattna-1919-1943-noll-storbranna.md) | Avgränsat noll per rubrik och år; 1921 och 1923–1936 saknas i SCB-indexet. |
+| A-3363 | Modern Gertrud Kristina, född 1874 i Sättna, var 1930 omgift (vigselår 1918) med hemmansägaren Nils August Hallén på Storbränna, fol 389, med två söner födda 1915 och 1918. | TRANSCRIBED | hög | [C-0898](../citations/C-0898-folkrakning-1930-index-henriksson-sattna-och-nationellt-noll.md) | Indexpost med hushåll; originalet är `B0001196_00102`. |
+| A-3364 | Axel Edvin Henriksson saknas i hela folkräkningsindexet 1930 under alla prövade namn- och årsformer. | CORROBORATED | hög | [C-0898](../citations/C-0898-folkrakning-1930-index-henriksson-sattna-och-nationellt-noll.md) | Nationellt indexnoll; sökningarna listade i C-0898. |
 
 ## Relationer
 
@@ -45,7 +48,41 @@ Nästa bakåtlänkar är deras egna födelsenotiser i Ljustorp 1860 respektive
 Sättna 1874. Gertruds motsägelsefulla civilstånd 1900/1910 kräver fortfarande
 en vigsel-, död- eller församlingsbokskedja.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1901-01-31 | Född; döpt 1901-04-24 med föräldrarna som vittnen | Storbränna, Sättna | — | Erik Jonas Henriksson och Gertrud Kristina Jönsson | C-0244, C-0245 |
+| 1910-03-02 | Faderns död | Sättna | — | — | C-0542 |
+| 1910 | Folkräkning; `d.s.` | Storbränna, Sättna | barn | morföräldrarna Abraham Jönsson och Stina Kajsa Nordlund, modern, bröderna Emil Herman och Fridolf | C-0242 |
+| 1910–1938 | **Materiell lucka**: vuxenblivande, vigsel/partnerskap med Emma, fem äldre barn | Storbränna | — | — | profil Q-01 |
+| 1919–1930 | **Materiell lucka**: vigsel inte i Sättna 1919/1920/1922; paret saknas i hela folkräkningsindexet 1930; modern omgift Hallén på Storbränna fol 389 | okänt (utomlands, obefintlig eller annan namnform) | — | — | C-0888, C-0898, profil Q-01 |
+| 1938-01-12 | Dottern Evy född; faderns yrke läses osäkert som skogsarbetare | Storbränna, Sättna | skogsarbetare[?] | Emma Petronella Henriksson | C-0240 |
+| 1938–1983 | **Materiell lucka**: yrke, boende, änklingstid efter 1963 | Sättna | — | — | profil Q-02 |
+| 1983-04-20 | Död; gravsatt 1983-04-30, SÄ NYA 9-10 | Sättna | — | — | C-0241 |
+
+## Biografisk sammanfattning
+
+Axel Edvin Henriksson föddes 1901-01-31 i Storbränna i Sättna som son till
+Erik Jonas Henriksson och Gertrud Kristina Jönsson och döptes i april samma
+år (C-0244, C-0245). Fadern dog 1910, och samma år står nioårige Axel med
+modern och två yngre bröder i morföräldrarnas hemmansägarhushåll i byn
+(C-0542, C-0242). Därefter är han obelagd i nära trettio år. Enligt familjen
+fick han med Emma Petronella sex barn, Willy, Elsy, Henry, Sally, Berit och
+Evy (C-0238); när Evy föddes 1938 var han enligt utdraget möjligen
+skogsarbetare (C-0240). Om och när han och Emma gifte sig är inte belagt,
+men hon bar namnet Henriksson 1938 och de delar grav. Han dog 1983-04-20 och
+gravsattes på Sättna kyrkogård (C-0241). Familjens formulering `Axel
+Henriksson, Sundsvall någonstans` är därmed identifierad till Sättna.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0241.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — egen födelse/dop, båda föräldrarna, barndomshushåll, dotter och gravuppgifter är konsoliderade; partnerns exakta civilstånd och ytterligare vuxenbiografi är dokumenterade villkorliga spår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0072 (batch 302): folkräkningsindexet 1930 saknar paret nationellt och visar modern omgift Hallén (C-0898); tidigare rad: folkräkningsutdraget 1930 och församlingsboken 1927–1943 är lästa för Storbränna med noll, liksom vigselutdragen 1919–1922 (C-0888); hushållets rubrik 1930 och vigselåret är fortfarande okända (profil KP-01–KP-02).
+
+Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: folkräkning 1930, vigsel- och födelseutdrag Sättna och församlingsbok efter 1910 är genomförbara (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen födelse/dop, båda föräldrarna, barndomshushåll, dotter och gravuppgifter är konsoliderade; partnerns exakta civilstånd och ytterligare vuxenbiografi är dokumenterade villkorliga spår.

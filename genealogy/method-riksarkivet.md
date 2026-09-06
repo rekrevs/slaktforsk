@@ -553,3 +553,28 @@ tresiffrigt församlingsnummer. Södermanland har länsnummer `04`, Västerbotte
 | Mariefred | `904099` |
 
 Numret `904069` saknar volym i serien.
+
+## Tillägg 2026-09-05: records-API med årsfilter och SCB-volymernas noter
+
+Verifierat i T-0064–T-0065 utan MCP:
+
+- `https://data.riksarkivet.se/api/records?text=<fritext>&year_min=<år>&year_max=<år>&limit=200`
+  filtrerar på volymens datering. SCB-utdragens volymer (`SE/RA/420401/01/H 1 AA/…`)
+  hittas genom fulltext på volymnoten, till exempel `Stockholms län: fbu`,
+  `Gävleborgs län: dbu` (fbu/vbu/dbu = födelse-/vigsel-/dödboksutdrag). Vissa
+  årgångar saknas i API-index även när grannår finns; noll där är ett
+  indexresultat, inte ett bevis för att volymen saknas.
+- Manifestet för en SCB-volym har en `structures`-range per församling
+  (t.ex. `Danderyd (Djursholm)` = `range/r12-1` i `A0032612`).
+- Kyrkoböcker före omkring 1905 i `A00…`-batcher kan ge fullbild `200` utan
+  inloggning (Hudiksvall C I/6, `A0014808`, 2026-09-05), medan `00…`- och
+  `F00…`-batcher från 1910-talet och senare gav `401` även med `Referer`.
+  Stockholms stadsarkivs volymer (`SE/SSA/…`) i Riksarkivets bildvisare
+  följer samma regel.
+- Om Claude-in-Chrome-tillägget inte är anslutet (`Browser extension is not
+  connected`) kan den inloggade reserven inte användas; spara då exakt
+  bild-id och fortsätt med fria passager enligt wotan/README.md.
+- `sok.riksarkivet.se/folkrakningar` (1930) möter människoverifiering vid
+  skriptad åtkomst; gravar.se kan sökas med
+  `https://gravar.se/resultat?fornamn=…&efternamn=…` men täcker inte alla
+  pastorat (Falköping saknas 2026-09-05).

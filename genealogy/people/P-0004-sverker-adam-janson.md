@@ -40,5 +40,6 @@ privat familjeutgåva. Ingen ytterligare nutida personinformation infereras.
 
 ## Arbetsläge
 
-- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-på-sverkers-sida)
 - Källbredd: `INTEGRITETSMINIMERAD` — nu levande proband; endast ägarens nödvändiga identitets- och relationsuppgifter används.
+- Kontraktsprofil: [P-0004](../research-profiles/P-0004.md), `GODKÄND` 2026-09-05 inom integritetsminimerat omfång (research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna).

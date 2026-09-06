@@ -31,6 +31,7 @@ dotterson i samma föräldrapars hushåll 1930.
 | A-1655 | Hon uppges ha fått dottern Maj-Britt i äktenskapet med Knut Bergman. | TRANSCRIBED | hög | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Namngiven nära familjeuppgift; historisk handling återstår. |
 | A-1679 | Två familjefotografier visar enligt Jan-Christers bildtexter Ada tillsammans med Arne 1915 respektive 1917. | TRANSCRIBED | hög | [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md) | Familjearkivets namngivna bildtexter. |
 | A-1696 | Efter äktenskapet med Knut Bergman bar hon efternamnet Bergman. | TRANSCRIBED | hög | [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Familjeuppgift; vigsel- och namnbyteshandling återstår. |
+| A-3370 | Ada Wilhelmina återfinns inte i folkräkningsindexet 1930 under namnformerna Ada Wilhelmina (f. 1886), Ada* Bergman (f. 1886) eller Ada* född i Lerbo. | CORROBORATED | medel | [C-0900](../citations/C-0900-folkrakningsindex-1930-avgransade-nollor-jansson-larsson-hoglund.md) | Avgränsat indexnoll; hela listan över 26 Lerbofödda 1886 är inte genomgången. |
 
 ## Relationer
 
@@ -62,7 +63,43 @@ som P-0108–P-0109. Därmed är T-0007:s grundkontroll för Ada sluten; hennes
 föräldrar P-0042–P-0043 förs vidare som kandidater till nästa generationsvåg,
 medan hennes senare liv ligger kvar som en egen öppen forskningsfråga.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1886-08-19 | Född; döpt 1886-09-12 | Lerbo | — | Carl Fredrik Jansson och Charlotta Wilhelmina Larsson | C-0014, C-0016 |
+| 1890 | Folkräkning | London, Blacksta | dotter | föräldrar, tre bröder | C-0013 |
+| 1900 | Folkräkning | Flens by n:o 1 | dotter | föräldrar, syskon | C-0012 |
+| 1910 | Folkräkning; Mineberg s. 420 | Flens municipalsamhälle | dotter, ogift | föräldrar | C-0011, C-0035 |
+| 1911-11-10 | Utflyttning till Floda; inskriven vid Ökna säteri s. 609 | Floda | tjänsteflicka | Ökna | C-0037, C-0038, C-0039 |
+| 1915-02-21 | Sonen Arne Godvig född utom äktenskapet; nedkomst i Flen | Flen | — | — | C-0008 |
+| 1915–1922 | **Materiell lucka**: Ökna/Flen, vigsel med Knut Bergman | okänt | — | — | profil Q-01 |
+| 1915, 1917, omkring 1919 | Familjefoton med Arne | Flen | — | — | C-0266, C-0267 |
+| 1922 | Dottern Maj-Britt född enligt familjen | okänt | — | make Knut Bergman | C-0263 |
+| 1922–1961 | **Materiell lucka**: Stockholm? | okänt | — | — | profil Q-01, Q-02 |
+| 1961 | Död enligt sekundärträd | okänt | — | — | C-0010 (LEAD) |
+
+## Biografisk sammanfattning
+
+Ada Wilhelmina Jansson föddes 1886-08-19 i Lerbo som dotter till drängen,
+senare statdrängen och arbetskarlen, Karl Fredrik Jansson och Charlotta
+Wilhelmina Larsson och följde föräldrarna genom Blacksta, Flens by och
+Mineberg (C-0014, C-0016, C-0011–C-0013). Tjugofem år gammal tog hon 1911
+tjänst som tjänsteflicka vid Ökna säteri i Floda (C-0038, C-0039). Enligt
+familjen var hon barnjungfru där när hon sommaren 1914 blev med barn med
+bokhållaren Bernhard Eliasson; sonen Arne föddes 1915-02-21 i Flen utan
+namngiven far och växte upp hos hennes föräldrar (C-0008, C-0263,
+PCD-2026-08-20-001). Foton visar henne med Arne 1915 och 1917 (C-0266).
+Enligt familjen gifte hon sig senare med rörmokaren Knut Bergman i Stockholm
+och fick dottern Maj-Britt 1922 (C-0263, C-0267); sekundärträdet anger att
+hon dog 1961 (C-0010). Livet efter 1915 är obelagt i arkivkällor.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0009.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `KLAR` — egen födelse, föräldrar, barndomshushåll, Ökna-kedja och moderskap är sammanhållna; senare äktenskaps-, döds- och yrkesspår förblir uttryckliga villkorliga forskningsfrågor.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: vigsel Bergman, Maj-Britts födelse, Stockholmsåren och död har genomförbara vägar (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen födelse, föräldrar, barndomshushåll, Ökna-kedja och moderskap är sammanhållna; senare äktenskaps-, döds- och yrkesspår förblir uttryckliga villkorliga forskningsfrågor.

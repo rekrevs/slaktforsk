@@ -30,6 +30,10 @@ stavning från det sekundära Ancestry-trädet.
 | A-1687 | Hon träffade Arne 1937; ett familjefoto visar dem tillsammans i Thuleparken i Flen samma år. | TRANSCRIBED | hög | [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md) | Relationens fortsättning och vigseln 1938 är arkivverifierade separat. |
 | A-1697 | På 1950-talet tog hon enligt Jan-Christer initiativ till att familjens efternamn officiellt registrerades som `Janson` med ett s. | TRANSCRIBED | hög | [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Exakt år och myndighetshandling återstår. |
 | A-1701 | Hon arbetade på Konsum i Flen och senare i Södertälje vid Scania-Vabis och Konsum, studerade maskinskrivning och stenografi på kvällstid och avancerade till sekreterare åt Scania-Vabis exportchef samt SIF-ledamot. | TRANSCRIBED | hög | [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Sonens biografiska redogörelse; arbetsgivararkiv återstår. |
+| A-3335 | Hon var 1944 mantalsskriven i Södertälje som May Amalia Jansson, född 1920-05-11, i distrikt V på Mejseln 3. | TRANSCRIBED | hög | [C-0883](../citations/C-0883-arne-och-maj-mantalsregister-sodertalje-1944-1946.md) | Maskinskrivet register; förnamnsformen `May` i samtida myndighetskälla. |
+| A-3336 | Som hustru i Arnes hushåll, född 1920-05-11 i Hyltinge, flyttade hon 1943-11-24 från Flen till Mejseln 3, 1944 till Gondolen 2 (Hertig Karls väg 40) och 1947 till Frödingsvägen 15 på stg Östra 452, senare Tranbäret 1, med barn födda 1938, 1940 och 1945. | TRANSCRIBED | hög | [C-0882](../citations/C-0882-arne-godvig-inflyttning-sodertalje-1943.md), [C-0884](../citations/C-0884-jansson-kvartersregister-sodertalje-1943-1947.md) | Kvartersregistren skriver `Ekholm Maj Amalia`; inget yrke antecknat för henne. Barnens födelsedagar minimeras. |
+| A-3361 | Efter vigseln fördes hon som hustru på Johansborg, Storgatan 24, Flen, s. 860, med hänvisning från s. 932; sonen föddes 1938. | TRANSCRIBED | hög | [C-0894](../citations/C-0894-jansson-flen-johansborg-sida-860-1938-1940.md) | Hushållet 1938–1940. |
+| A-3362 | Hon bodde 1940–1943 på Johansborg (uppslag 720) med make och två barn födda 1938 och 1940, döpta 1941-11-16, och utflyttade 1943-11-24 till Södertälje stadsförsamling. | TRANSCRIBED | hög | [C-0895](../citations/C-0895-jansson-flen-johansborg-uppslag-720-utflyttning-1943.md) | Inget yrke antecknat; Konsum Flen enligt sonen fortfarande obelagt. |
 
 ## Relationer
 
@@ -48,7 +52,59 @@ stavning från det sekundära Ancestry-trädet.
 - Fastställ namnbruket Eriksson/Ekholm genom barndom och giftermål.
 - Verifiera barnrelationerna med hänsyn till integriteten för sannolikt levande personer.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1920-05-11 | Född `u.ä.`; fadern Axel Edvard Eriksson angiven; döpt 1921-01-13 | Hyltinge | — | Hulda Amalia Ekholm f. Ålund | C-0020, C-0028 |
+| 1921–1929 | **Materiell lucka**: barndomshushåll i Helgesta | Helgesta | — | modern | profil ARB/BO |
+| 1929 | Flytt från Helgesta till Hyltinge | Hyltinge | — | modern | C-0019 |
+| 1930 | Folkräkning; folkskola; familj nr 2 | Skarvnäs ägor, Solliden, Hyltinge | ogift | modern; Axel Edvard med döttrar på samma boställe | C-0019, C-0015 |
+| före 1938 | Församlingsbok s. 932; faderskapet erkänt av Axel Edvard | Lyckedal, Flen | — | modern | C-0033 |
+| 1937 | Möter Arne; foto i Thuleparken | Flen | — | — | C-0266 |
+| 1938-05-15 | Vigsel med Arne Godvig Jansson; hänvisning till s. 860 | Flen | — | — | C-0034, C-0033 |
+| 1938–1943 | Johansborg, Storgatan 24, s. 860 → uppslag 720; barn födda 1938 och 1940; arbete på Konsum Flen enligt sonen | Flen | inget yrke antecknat; Konsumanställd enligt familjen | make och två barn | C-0894, C-0895, C-0267 |
+| 1943-11-24 | Inflyttning från Flen till Södertälje; Mejseln 3, Täppgatan 25 | Södertälje | — (inget yrke antecknat) | make och två barn | C-0882, C-0884 |
+| 1944 | Mantalsskriven Mejseln 3; flytt till Gondolen 2, Hertig Karls väg 40 | Södertälje | — | make och två barn | C-0883, C-0884 |
+| 1945 | Tredje barnet fött i Södertälje stadsförsamling; bostad Gondolen 2 (Hertig Karls väg 40, av sonen mint som 42) | Södertälje Södra | — | make och tre barn | C-0884, C-0267, C-0885 |
+| 1947 | Flytt till Frödingsvägen 15, stg Ö 452 = Tranbäret 1 | Södertälje | — | make och tre barn | C-0884 |
+| 1949–1951 | Frödingsv 15, Tranbäret 1 enligt registerutdrag | Södertälje | — | make och tre barn | C-0876 (LEAD) |
+| 1940–1980-talen | Scania-Vabis och Konsum; kvällsstudier; sekreterare åt exportchefen; SIF-ledamot, allt enligt sonen | Södertälje | kontorist, sekreterare | — | C-0267 |
+| 1950-talet | Initiativ till namnregistreringen Janson | Södertälje | — | — | C-0267 |
+| 1951–2006 | **Materiell lucka**: boende, yrkesår, änketid | Södertälje | — | — | profil Q-02, Q-03 |
+| 2006 | Död enligt sekundärträd | okänt | — | — | C-0010 (LEAD) |
+
+## Biografisk sammanfattning
+
+Maj Amalia föddes 1920-05-11 i Hyltinge som dotter utom äktenskapet till
+Hulda Amalia Ekholm, född Ålund; födelseboken namnger Axel Edvard Eriksson
+som far, och Flens församlingsbok antecknar senare att han erkänt
+faderskapet (C-0020, C-0028, C-0033). Hon bar 1930 namnet Eriksson och
+bodde med modern på Solliden i Hyltinge, dit de flyttat från Helgesta 1929,
+på samma boställe som fadern och hans döttrar (C-0019). Före vigseln bodde
+hon med modern på Lyckedal i Flen. Hon träffade Arne Godvig Jansson 1937
+och vigdes med honom 1938-05-15 (C-0034). Enligt sonen arbetade hon på
+Konsum i Flen, följde med till Södertälje 1943-11-24 (Mejseln 3, från 1944
+Gondolen 2 vid Hertig Karls väg och från 1947 Frödingsvägen 15; C-0882,
+C-0884), arbetade där vid
+Scania-Vabis och Konsum, studerade maskinskrivning och stenografi på
+kvällstid, avancerade till sekreterare åt Scania-Vabis exportchef och satt
+i SIF:s styrelse; på 1950-talet tog hon initiativ till att familjens namn
+registrerades som Janson (C-0267). Hushållet i Flen efter vigseln (s. 860)
+är oläst, och hela yrkeslivet vilar på sonens redogörelse. Sekundärträdet
+anger att hon dog 2006 (C-0010). Familjen kallar henne May; kyrkoböckerna
+skriver Maj.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0007.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `KLAR` — identitet, födelse, barndomshushåll, föräldrar och vigsel är original- eller utdragsbelagda och den bevarade namnvarianten är avgränsad; fortsatt namnbruk och integritetskänsliga barnbelägg är villkorliga spår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0067: Flen s. 860 och uppslag 720 lästa (C-0894, C-0895); gravar.se saknar Södertälje (C-0897); arbetsliv, namnärende och dödsregistrering kvarstår (profil KP-02–KP-03).
+
+Tidigare rad 2026-09-05 (T-0064), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0064: Södertäljes register 1943–1947 lästa för hushållet (C-0882–C-0884) utan yrkesuppgift för henne; Flen s. 860, arbetsliv, namnärende och död kvarstår (profil KP-01–KP-03).
+
+Tidigare rad 2026-09-05 (T-0063), bevarad som historik: Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: Flen s. 860 är en känd oläst sida, och yrkesliv, namnärende och död har genomförbara vägar (profil KP-01–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — identitet, födelse, barndomshushåll, föräldrar och vigsel är original- eller utdragsbelagda och den bevarade namnvarianten är avgränsad; fortsatt namnbruk och integritetskänsliga barnbelägg är villkorliga spår.

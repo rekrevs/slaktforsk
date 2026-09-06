@@ -47,5 +47,6 @@ ett tydligt forskningsbehov.
 
 ## Arbetsläge
 
-- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-på-sverkers-sida)
 - Källbredd: `INTEGRITETSMINIMERAD` — sannolikt levande person; ägarfastställda föräldrarelationer bär antavlan medan full namnform och födelseår från sekundärträdet förblir separata `LEAD`.
+- Kontraktsprofil: [P-0006](../research-profiles/P-0006.md), `GODKÄND` 2026-09-05 inom integritetsminimerat omfång (research-log/2026-09-05.md#batch-292--t-0063-personkontrakt-för-de-sexton-närmaste-akterna).

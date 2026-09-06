@@ -77,7 +77,46 @@ som hon 1930.
 - Löst konflikt: den tidigare uppgiften Björkvik var styvmoderns
   födelseförsamling; se A-0439.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1881-03-20 | Född, tredje barnet; döpt 1881-04-07 | Svartgjölstorp, Forssa | — | Erik Karlsson och Anna Christina Larsdotter | C-0104 |
+| före 1895 | Modern död; fadern omgift med Matilda Charlotta Sjöberg 1895 | Forssa/Flen | — | — | C-0103 |
+| 1897-10-20 | Utflyttning från Bergatorp till Sköldinge | Flen → Sköldinge | — | — | C-0783 |
+| 1898-11-09 | Återkomst från Hyltinge till Bergatorp | Flen | — | fadern och styvmodern | C-0787, C-0579 |
+| 1901–1902 | Faderns hushåll i Brosätter | Flen | — | — | C-0103 |
+| 1902-10-25 | Vigsel med Charlotta Cecilia Elisabet Gustafsson; Karsätter 1902-10-27 | Flen | — | hustru | C-0102 |
+| 1903–1904 | Wäsby, Västby; sonen Ture Edvard född 1904 | Flen | arbetskarl | hustru och barn | C-0101, C-0100, C-0083 |
+| 1910 | Folkräkning; fem barn | Banvaktsstugan nr 71, Hyltinge | banarbetare | hustru och barn | C-0082 |
+| 1910–1920 | **Materiell lucka**: första hustruns död, vigsel 1917 | Hyltinge | — | — | profil Q-01 |
+| 1920-05-11 | Dottern Maj Amalia född utom äktenskapet med Hulda Amalia Ekholm; faderskapet erkänt | Hyltinge | banvakt | — | C-0028, C-0033 |
+| 1930 | Folkräkning; änkling, vigselår 1917; döttrarna Birgit och Gunborg | Skarvnäs ägor, Solliden, Hyltinge | banvakt | döttrar; Hulda och Maj i familjegrupp 2 | C-0019 |
+| efter 1930 | **Materiell lucka**: död | okänt | — | — | profil Q-01 |
+
+## Biografisk sammanfattning
+
+Axel Edvard Eriksson föddes 1881-03-20 vid Svartgjölstorp i Forssa som
+tredje barn till torparen Erik Karlsson och Anna Christina Larsdotter;
+modern dog före 1895 och han växte upp hos fadern och styvmodern Matilda
+Charlotta Sjöberg i Flen (C-0104, C-0103). Efter ett år i Sköldinge och
+Hyltinge 1897–1898 gifte han sig 1902 med Charlotta Cecilia Elisabet
+Gustafsson och arbetade som arbetskarl i Karsätter, Wäsby och Västby; 1910
+var han banarbetare i banvaktsstugan nr 71 i Hyltinge med fem barn
+(C-0783, C-0787, C-0102, C-0083, C-0082). Som banvakt erkände han 1920
+faderskapet till Maj Amalia, född av änkan Hulda Amalia Ekholm (C-0028,
+C-0033). År 1930 var han änkling efter ett andra äktenskap ingånget 1917 och
+bodde på Solliden med två döttrar, på samma boställe som Hulda och Maj
+(C-0019). Den tidigare felaktiga födelseförsamlingen Björkvik var
+styvmoderns (A-0439). Hans andra hustru, hustrurnas död och hans egen död
+är obelagda.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0015.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `KLAR` — födelseidentitet, föräldrar, flyttkedja, yrke, första äktenskap och det erkända faderskapet till Maj är konsoliderade; andra äktenskapet och närfamiljens livsslut är uttryckliga villkorliga spår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: andra äktenskapet 1917, hustrurnas och egen död samt SJ-personalhandlingar har genomförbara vägar (profil KP-01–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — födelseidentitet, föräldrar, flyttkedja, yrke, första äktenskap och det erkända faderskapet till Maj är konsoliderade; andra äktenskapet och närfamiljens livsslut är uttryckliga villkorliga spår.

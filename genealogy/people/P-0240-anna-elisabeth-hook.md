@@ -27,6 +27,7 @@ den senare Elisabeth Höök som sjuksköterska och missionär.
 | A-1470 | LIBRIS identifierar Elisabeth Höök 1902–1991 som missionär och sjuksköterska. | CORROBORATED | hög | [C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md) | Institutionell auktoritetspost. |
 | A-1482 | MyHeritages publika sökutdrag anger 1902, men direktsidan kunde inte granskas på grund av hCaptcha. | CORROBORATED | hög | [C-0237](../citations/C-0237-myheritage-captcha-och-1902-utdrag.md) | Åtkomstresultat, inte personbelägg i sig. |
 | A-1727 | Hon och Anders Ivar Höök var föräldrar till helsyskonen Gunnar, Marianne, Astrid Margareta och Anders Gustav Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; Gunnar är dessutom oberoende stödd som deras son, men syskonskaran är ännu inte arkivkontrollerad. |
+| A-3340 | Vigseln med Anders Ivar Höök ägde rum efter hans utresa 1931-07-27 och inte 1933 i Danderyd eller Lidingö; sonens födelse 1933 rapporterades inte i Danderyd, Lidingö eller Gustav Vasa (16 mars–30 april). | CORROBORATED | hög | [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md), [C-0887](../citations/C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md) | Avgränsat noll; åren 1930–1932 saknas i SCB-indexet. |
 
 ## Relationer
 
@@ -50,7 +51,46 @@ vidareförd till föräldrarna P-0242 och P-0243 på djup 3. Hennes rörelse mel
 Gustav Vasa, Danderyd och senare missionsarbete kan följas i nästa biografiska
 våg.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1900 | Folkräkning; föräldrar och två äldre syskon | Lilla Tomteby, Ljungby (Kalmar) | — | Johan Fredrik Carlman och Elin Andersson | C-0234 |
+| 1902-04-09 | Född | Ljungby, Kalmar län | — | föräldrarna | C-0232 |
+| 1902–1930 | **Materiell lucka**: uppväxt, utflyttning, sjuksköterskeutbildning | Ljungby → Stockholm | — | — | profil Q-02 |
+| före 1930 | Bosatt i Gustav Vasa församling | Stockholm | sjuksköterska | — | C-0233 |
+| 1930 | Folkräkning; inflyttad från Gustav Vasa | Centrallasarettet, Danderyd, s. 522 | operationssköterska, ogift | — | C-0233 |
+| 1931-07-27–1933 | **Materiell lucka**: vigsel med Anders Ivar Höök efter hans utresa; inte i Danderyd/Lidingö 1933; egen utresa | okänt, sannolikt utomlands | — | — | profil Q-01, C-0886, C-0887 |
+| 1930-talet | Missionspar i Östturkestan | Yarkand, Kashgar | sjuksköterska, missionär | make och barn | C-0227, C-0235 |
+| 1933–1944 | Barn födda enligt familjen | okänt | — | — | C-0268 |
+| 1944 | Makens död enligt familjen | Indien | änka | — | C-0225 |
+| 1944–1991 | **Materiell lucka**: änketid, arbete, boende | okänt; Lidingö vid döden | — | — | profil Q-03 |
+| 1991-09-18 | Död; grav Lidingö kyrkogård 1 2 06 174 | Lidingö | — | — | C-0226 |
+
+## Biografisk sammanfattning
+
+Anna Elisabeth Carlman föddes 1902-04-09 i Ljungby i Kalmar län som yngsta
+kända barn till Johan Fredrik Villehad Carlman och Elin Andersson i Lilla
+Tomteby (C-0232, C-0234). Vägen från Ljungby till Stockholm är obelagd, men
+1930 var hon operationssköterska vid Danderyds centrallasarett, nyss
+inflyttad från Gustav Vasa församling (C-0233). Hon gifte sig, vid en ännu
+obelagd tidpunkt, med missionärsläkaren Anders Ivar Höök och verkade med
+honom som missionär och sjuksköterska i Yarkand och Kashgar under 1930-talet
+(C-0227, C-0235). Enligt familjen fick de fyra barn 1933–1944 och maken dog
+1944 i Indien (C-0268, C-0225). LIBRIS knyter henne till biografierna
+*Kvinnan som red över Himalaya* och *Called to the heart of Asia*, som är
+olästa. Hennes liv som änka i nära femtio år är obelagt. Hon dog
+1991-09-18 och är begravd på Lidingö kyrkogård (C-0226). Sekundäruppgiften
+att hon skulle vara född 1901 är avvisad.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0240.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — födelse, föräldrar, yrke, missionsidentitet, make, barn och död bildar en sammanhängande personbild; senare rörelse- och missionsdetaljer är villkorlig biografisk berikning.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0065: vigsel 1933 och sonens födelse 1933 prövade med noll i Danderyd, Lidingö och Gustav Vasa (C-0887); makens utresa 1931-07-27 läst (C-0886); nästa nycklar Danderyd B/17 och Lidingö B I/8–9 (profil KP-01).
+
+Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: vigsel och hemförsamling är genomförbara i SCB-utdrag (profil KP-01); uppväxt, utbildning och missionsarkiv har konkreta vägar (KP-02–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — födelse, föräldrar, yrke, missionsidentitet, make, barn och död bildar en sammanhängande personbild; senare rörelse- och missionsdetaljer är villkorlig biografisk berikning.

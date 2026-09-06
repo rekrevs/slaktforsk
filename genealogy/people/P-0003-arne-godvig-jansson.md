@@ -49,6 +49,16 @@ faderskapsbelägg krävs inte.
 | A-1707 | Jan-Christer uppger att Varia antändes av en gnista från ett ånglok på den intilliggande järnvägen. | TRANSCRIBED | medel | [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Teknisk brandorsak i senare familjeminne; tidnings- eller brandkårskälla återstår. |
 
 | A-3311 | Det användarförmedlade Svbef1950-utdraget anger Arne med Maj Amalia och de tre kända barnen på Frödingsv 15, Tranbäret 1, med poleraryrke och hänvisning till Mantalslängder 1951, 2828, bild 620/sida 260. | LEAD | medel | [C-0876](../citations/C-0876-arne-mantal-1951-kallprov.md) | Registerobservation; originalhushållet är oläst. Lokala 1951-volymer funna men märkta Läsesal. Inget nytt OWNER_CONFIRMED-beslut. |
+| A-3329 | Arne, polerare, inflyttade 1943-11-24 till Södertälje stadsförsamling från Flen med ett hushåll om två män och två kvinnor, till kvarteret Mejseln 3, uppslag 15 i församlingsboken; anteckningskolumnen bär värnpliktsnumret 22 44/35. | TRANSCRIBED | hög | [C-0882](../citations/C-0882-arne-godvig-inflyttning-sodertalje-1943.md) | Samtida inflyttningslängd; tilläggstiteln `…förest.` under yrket är svårläst. Bekräftar utdragets värnpliktsnummer (A-3311). |
+| A-3330 | Han var mantalsskriven i Södertälje 1944 i distrikt V på Mejseln 3 och 1945–1946 i distrikt VI på Gondolen 2. | TRANSCRIBED | hög | [C-0883](../citations/C-0883-arne-och-maj-mantalsregister-sodertalje-1944-1946.md) | Maskinskrivna mantalsregister; exakt födelsedatum på raden. |
+| A-3331 | Kvartersregistret för Mejseln 3 (Täppgatan 25) för hushållet med hustrun och två barn födda 1938 och 1940 i Flen, inflyttat från Flen 1943-11-24 och överfört 1944 till stadsägan V 518 A L. | TRANSCRIBED | hög | [C-0884](../citations/C-0884-jansson-kvartersregister-sodertalje-1943-1947.md) | Barnens födelsedagar utelämnas (integritetsminimering). |
+| A-3332 | Från 1944 bodde hushållet på Gondolen 2, Hertig Karls väg 40 (tidigare nummer 42; tidigare betecknat Fullriggaren 13 och stg V 518 A L), där ett tredje barn föddes 1945; hushållet överfördes 1947 till stadsägan Ö 452 +. Vid Arnes yrke står blyertsordet `affär`. | TRANSCRIBED | hög | [C-0884](../citations/C-0884-jansson-kvartersregister-sodertalje-1943-1947.md), [C-0885](../citations/C-0885-sodertalje-adressforteckning-1945-mejseln-gondolen-stg452.md) | Förklarar sonens Hertig Karls väg 42 (A-1699/C-0267): 1945 års förteckning ger Gondolen 2 = nr 40 och Gondolen 3 = nr 42, och registret har rättat 42→40. `affär` odaterat. |
+| A-3333 | Från 1947 bodde hushållet, då make, hustru och tre barn, på Frödingsvägen (tidigare Oxelbärsvägen) 15, stadsägan Ö 452 +, senare Tranbäret 1, och fördes vidare till nästa registerserie (1948–1970). | TRANSCRIBED | hög | [C-0884](../citations/C-0884-jansson-kvartersregister-sodertalje-1943-1947.md) | Bekräftar utdragets `Ö omr stg 452` 1948 och Tranbäret 1/Frödingsv 15 1949–1951 (A-3311); mantalsoriginalet 1951 är fortfarande oläst. |
+| A-3334 | Enligt 1945 års adressförteckning motsvarade Mejseln 3 Täppgatan 25/Västgötagatan 7 och Gondolen 2 Hertig Carls väg 40; stadsägan Östra 452 låg namnlös i kartruta D 9 och kvarteret Tranbäret fanns ännu inte. | TRANSCRIBED | hög | [C-0885](../citations/C-0885-sodertalje-adressforteckning-1945-mejseln-gondolen-stg452.md) | Fastighetsnyckel, inte boendebevis. |
+| A-3357 | Efter vigseln 1938 fördes Arne, polerare, med hustru och son på Johansborg, Storgatan 24, Flen, uppslag 860, med värnpliktsnummer 22 44/35; hushållet överfördes 1940 till uppslag 720. | TRANSCRIBED | hög | [C-0894](../citations/C-0894-jansson-flen-johansborg-sida-860-1938-1940.md) | Sidan som s. 932 och s. 1084 hänvisar till. |
+| A-3358 | Familjen bodde 1940–1943 kvar på Johansborg (kv. Penseln) med två barn födda 1938 och 1940, döpta 1941-11-16. | TRANSCRIBED | hög | [C-0895](../citations/C-0895-jansson-flen-johansborg-uppslag-720-utflyttning-1943.md) | Barnens födelsedagar minimeras. |
+| A-3359 | Familjen utflyttade 1943-11-24 direkt från Flen till Södertälje stadsförsamling med destinationen Mejseln 3 antecknad. | CORROBORATED | hög | [C-0895](../citations/C-0895-jansson-flen-johansborg-uppslag-720-utflyttning-1943.md), [C-0882](../citations/C-0882-arne-godvig-inflyttning-sodertalje-1943.md) | Avsändande och mottagande bok överensstämmer på dag och fastighet. |
+| A-3360 | Barndomshushållet 1923–1930 stod på uppslag 638 i Flen A II a/5 b, som saknas i båda digitala reproduktionerna; inkomstkolumnen 1930 (`9 –`) betyder 900 kr i hundratal, vilket bekräftar A-0048. | CORROBORATED | hög | [C-0896](../citations/C-0896-flen-sida-638-saknas-och-inkomstenhet-1930.md) | Exakt hinder för 1915–1930; gravar.se saknar Södertälje ([C-0897](../citations/C-0897-gravar-sodertalje-tackningsnoll-arne-maj.md)). |
 
 ## Öppet
 
@@ -72,10 +82,73 @@ faderskapsbelägg krävs inte.
 | [P-0303 Anita Bratt](P-0303-anita-bratt.md) | dotter | TRANSCRIBED | C-0266 |
 | [P-0304 Ann-Christine O'Donnell](P-0304-ann-christine-tine-odonnell.md) | dotter | TRANSCRIBED | C-0266 |
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1915-02-21 | Född `oäkta`, ingen far namngiven; modern hemmahörande vid Ökna, Floda | Flen | — | Ada Wilhelmina Jansson | C-0008, C-0039 |
+| 1915–1930 | **Materiell lucka**: barndomshushåll, Adas flytt; familjen uppger uppväxt hos morföräldrarna; uppslag 638 (1923–1930) saknas i reproduktionerna | Flen | — | morföräldrarna enligt C-0263 | profil Q-03, C-0896 |
+| omkring 1919 | Familjefoto med Ada och morföräldrarna | Flen | barn | — | C-0266, C-0267 |
+| 1930 | Folkräkning; småskola/folkskola, inkomst 900 | Björkhem n:o 1, Flen, s. 563 | polerare, ogift, dotterson | Karl Fredrik Jansson och Charlotta Vilhelmina Larsson | C-0007, C-0030 |
+| 1930–1938 | Församlingsbok s. 563 → s. 948 → s. 1084 | Flen | polerare | morföräldrarna | C-0030–C-0032 |
+| 1937 | Möter Maj; foto i Thuleparken | Flen | — | — | C-0266 |
+| 1938-05-15 | Vigsel med Maj Amalia Ekholm; lysning 1/5–15/5; hänvisning till s. 860 | Flen | polerare | — | C-0034, C-0032 |
+| 1938–1940 | Johansborg, Storgatan 24, s. 860; son född 1938 | Flen | polerare | hustru och son | C-0894 |
+| 1940–1943 | Johansborg, kv. Penseln, uppslag 720; dotter född 1940; barnen döpta 1941-11-16; Varia enligt familjen | Flen | polerare | hustru och två barn | C-0895, C-0266 |
+| 1943 | Varia brinner; arbete vid möbelrenoveringsverkstad på Värdsholmen enligt sonen; utflyttning från Flen 1943-11-24 | Flen → Södertälje | möbelpolerare | hustru och två barn | C-0266, C-0267, C-0895 |
+| 1943-11-24 | Inflyttning från Flen till Södertälje; Mejseln 3, Täppgatan 25, distrikt V; uppslag 15 | Södertälje | polerare | hustru och två barn (2 m, 2 kv) | C-0882, C-0883, C-0884 |
+| 1944 | Överförd till stg V 518 A L = Gondolen 2, Hertig Karls väg 40 (tidigare 42), distrikt VI; mantal 1945–1946 | Södertälje | polerare; blyerts `affär` | hustru och två barn | C-0884, C-0883, C-0885 |
+| 1945 | Tredje barnet fött i Södertälje; sonen börjar skolan; bostad Hertig Karls väg 42 enligt sonen (= Gondolen 2, nr 40 efter omnumrering) | Södertälje Södra | — | hustru och tre barn | C-0884, C-0267, C-0885 |
+| 1947 | Överförd till stg Ö 452 +, Frödingsvägen (Oxelbärsvägen) 15 = Tranbäret 1; vidare till 1948–1970 års register (analogt) | Södertälje | polerare | hustru och tre barn | C-0884 |
+| 1948–1951 | Mantalsskriven `Ö omr stg 452` (1948), Tranbäret 1/Frödingsv 15 (1949–1951) enligt registerutdrag; adresskedjan bekräftad av kvartersregistret, mantalsoriginalet 1951 oläst | Södertälje | polerare | hustru och tre barn | C-0876 (LEAD), C-0884 |
+| 1940-talet, 1960-talet | Sommarstugor vid Orrestaö och Båven enligt familjen | Orrestaö; Årdala | — | — | C-0266 |
+| 1951–1993 | **Materiell lucka**: eget företag, Sesam, boende | Södertälje | — | — | profil Q-05 |
+| 1993-07-31 | Död enligt sekundärträd; Södertälje lasarett enligt sonen | Södertälje, Järpstigen 27 | — | — | C-0010 (LEAD), C-0266 |
+
+## Biografisk sammanfattning
+
+Arne Godvig Jansson föddes 1915-02-21 i Flen som son utom äktenskapet till
+Ada Wilhelmina Jansson, som då hörde hemma vid Ökna säteri i Floda
+(C-0008, C-0039). Ingen far antecknades; projektägaren har fastställt att
+bokhållaren Bernhard Natanael Eliasson var hans far (PCD-2026-08-20-001),
+och familjens berättelse förlägger relationen till Ökna sommaren 1914
+(C-0263). Enligt familjen lämnades Arne tidigt hos morföräldrarna Karl
+Fredrik Jansson och Charlotta Vilhelmina Larsson i Flen, och 1930 står han
+mycket riktigt som dotterson i deras hushåll på Björkhem, redan polerare
+(C-0007, C-0030). Familjen berättar att morfadern, hyvelspånhyvlare vid
+möbelfabriken Varia, fick in honom som lärling till möbelpolerare där
+(C-0267). Han träffade Maj Amalia Ekholm 1937 och vigdes med henne
+1938-05-15 i Flen (C-0034). Hushållet efter vigseln bodde på Johansborg vid Storgatan 24 (s. 860,
+uppslag 720), där två barn föddes 1938 och 1940 (C-0894, C-0895). När Varia brann 1943 fick han enligt sonen arbete vid en
+möbelrenoveringsverkstad på Värdsholmen och familjen flyttade till
+Södertälje. Inflyttningslängden och kvartersregistren visar att hushållet,
+då make, hustru och två barn, kom från Flen 1943-11-24 till Mejseln 3 vid
+Täppgatan 25, flyttade 1944 till Gondolen 2 vid Hertig Karls väg 40 (huset
+sonen minns som nummer 42), där det tredje barnet föddes 1945, och 1947
+till Frödingsvägen 15 på stadsägan Östra 452, det senare kvarteret
+Tranbäret 1, där det ägarförmedlade registerutdraget har familjen
+1949–1951 (C-0882–C-0885, C-0267, C-0876). Vid hans yrke polerare har
+registret ett odaterat blyertsord `affär`. Senare drev han enligt sonen egen möbelrenovering,
+utvecklade möbelpolishen Sesam och byggde sommarstugor vid Orrestaö och
+Båven (C-0266). Sonen beskriver honom som varm, generös och humoristisk,
+en hängiven fiskare med tålamod med barnbarnen. Han fortsatte att skriva
+sitt efternamn med två s även sedan familjen registrerat Janson (C-0267).
+Han dog 1993 på Södertälje lasarett enligt sonen; sekundärträdet anger
+1993-07-31 (C-0010, C-0266). Bostäderna 1943–1947 är lästa i Södertäljes
+register; hushållet i Flen 1938–1943 (s. 860) och livet efter 1947 vilar
+fortfarande på familjeminne och registerutdrag, vilket tidslinjen markerar.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0003.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0061. Den preciserade mantalsfrågan om vuxenhushåll, adress/fastighet och yrke 1951 är öppen, C-0876. Två lokala volymer har konkret läsesalsgräns, men distrikt och alternativa källors räckvidd är ännu inte avgjorda. Ingen fullständig aktuell personmatris har prövats; ett avslutat katalogprov räcker inte för ett personövergripande KLAR.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0067: Flen s. 860 och uppslag 720 lästa med utflyttningen 1943-11-24 (C-0894, C-0895); barndomshushållet 1923–1930 ligger på uppslag 638 som saknas i båda reproduktionerna (C-0896); gravar.se saknar Södertälje (C-0897). Kvar: uppslag 638/läsesal, A II a/4, svenskagravar.se, namnärendet, mantal 1951 (profil KP-01–KP-06).
+
+Tidigare rad 2026-09-05 (T-0064), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0064: Södertäljes inflyttningslängd, mantalsregister 1944–1946, kvartersregister 1943–1947 och adressförteckning 1945 lästa (C-0882–C-0885); mantalsoriginalet 1951, Flen s. 860, företagsnamn, militärtjänst och livet efter 1947 kvarstår (profil KP-01–KP-06).
+
+Tidigare rad 2026-09-05 (T-0061), bevarad som historik: Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0061. Den preciserade mantalsfrågan om vuxenhushåll, adress/fastighet och yrke 1951 är öppen, C-0876. Två lokala volymer har konkret läsesalsgräns, men distrikt och alternativa källors räckvidd är ännu inte avgjorda. Ingen fullständig aktuell personmatris har prövats; ett avslutat katalogprov räcker inte för ett personövergripande KLAR.
 
 Tidigare bedömning 2026-09-04 bevarad som historik: identitet, båda
 föräldraled, födelse, morföräldrahushåll, vigsel och yrkes-/familjeliv

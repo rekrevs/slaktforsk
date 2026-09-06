@@ -17,6 +17,7 @@ en avvikande namnform.
 | A-1728 | Johan Fredrik Willehad Carlman föddes 1866-11-08 i Högby och döptes 1866-11-28. | CORROBORATED | hög | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md), [C-0234](../citations/C-0234-carlman-hushallet-lilla-tomteby-1900.md) | Egen födelsenotis ger exakt datum och dopnamn; folkräkningen bekräftar år och församling. |
 | A-1729 | Hans far var kronolänsmannen Carl August Carlman. | TRANSCRIBED | hög | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Namngiven i egen födelsenotis. |
 | A-1730 | Hans mor var Christina Gustafva Ringberg; födelsenotisens svårlästa efternamn är löst genom det samtidiga familjehushållet. | CORROBORATED | hög | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md), [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md) | Födelsenotis och husförhör är kompletterande original. |
+| A-3368 | Johan Fredrik Villehad Carlman var 1930 handlande i Kalmar stadsförsamling, uppslag 4774, inflyttad 1929 från Jönköping, med hustrun Elin, sex hemmavarande barn födda 1904–1916 och en hushållerska; inkomst 7 400 kr och förmögenhet 2 000 kr. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Barnens födelseorter daterar flyttkedjan Ljungby → Jönköping (senast 1907) → Kalmar (1909). |
 
 ## Relationer
 
@@ -41,7 +42,41 @@ använder **Villehad**; `Vilhelm` redovisas endast som en senare avvikande
 namnform. Moderns efternamn är nu löst till Ringberg och fem syskon är
 bevarade som sidorelationer.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1866-11-08 | Född; döpt 1866-11-28 | Gasa, Högby, Öland | — | kronolänsman Carl August Carlman och Christina Gustafva Ringberg | C-0269 |
+| 1865–1880 | Husförhör A I/8 och A I/10; modern död 1874-03-30; folkräkning 1880 | Gasa | son | fadern, fem syskon | C-0355, C-0395, C-0393 |
+| 1880–1897 | **Materiell lucka**: utbildning, tjänst | okänt | — | — | profil Q-01 |
+| 1897 | Lysning nr 7 (Östra Husby) och vigsel med Elin Andersson | Östra Husby → Ljungby | — | — | C-0407 |
+| 1900 | Folkräkning; två barn | Lilla Tomteby nr 1, 4, 5, Ljungby | lantbrukare | hustru och barn | C-0234 |
+| 1902-04-09 | Dottern Anna Elisabeth född | Ljungby | — | hustru | C-0232 |
+| 1904 | Sonen Oskar Magnus född i Ljungby | Ljungby | lantbrukare | hustru och barn | C-0899 |
+| 1907 | Dottern Inga Elin född i Jönköping | Jönköping | — | hustru och barn | C-0899 |
+| 1909–1916 | Fyra barn födda i Kalmar | Kalmar | handlande | hustru och barn | C-0899 |
+| 1929 | Inflyttning till Kalmar stadsförsamling från Jönköping | Kalmar | handlande | hustru och barn | C-0899 |
+| 1930 | Folkräkning; uppslag 4774, inkomst 7 400 | Kalmar stadsförsamling | specerihandlande | hustru, sex barn, hushållerska | C-0899 |
+| efter 1930 | **Materiell lucka**: död | Kalmar? | — | — | profil Q-02 |
+
+## Biografisk sammanfattning
+
+Johan Fredrik Willehad Carlman föddes 1866-11-08 i Gasa på Öland som son
+till kronolänsmannen Carl August Carlman och Christina Gustafva Ringberg,
+som dog 1874; han växte upp med fem syskon, av vilka de äldre bröderna 1880
+var studerande (C-0269, C-0355, C-0395, C-0393). Hans ungdom är obelagd.
+År 1897 gifte han sig med Elin Andersson från Östra Husby och slog sig ned
+som lantbrukare i Lilla Tomteby i Ljungby i Kalmar län, där barnen Naëmi,
+Karl Emanuel och 1902 Anna Elisabeth föddes (C-0407, C-0234, C-0232).
+Folkräkningen skriver honom Vilhelm; dopnamnet var Willehad. Hans senare
+liv och död är obelagda.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0242.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — dopnamnskonflikten Willehad/Villehad mot Vilhelm, egen födelse, föräldrar, barndomshushåll, maka och barn är konsoliderade; senare liv och död är villkorlig berikning.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: ungdomsåren, vigseln 1897, lantbruket och död har genomförbara vägar (profil KP-01–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — dopnamnskonflikten Willehad/Villehad mot Vilhelm, egen födelse, föräldrar, barndomshushåll, maka och barn är konsoliderade; senare liv och död är villkorlig berikning.

@@ -2498,3 +2498,251 @@ tidigare versioner finns i Git och tidigare bevarad forskningshistorik.
   uttrycklig begäran. Ingen dashboard-deploy eller ny forskningskörning beställs.
 - Revisit when: Payload eller destination ändras materiellt eller ägaren
   ändrar publiceringsbeslutet.
+
+## PCR-2026-09-05-014
+
+- Record type: review
+- Date: 2026-09-05
+- Mode: checkpoint
+- Trigger: T-0063 har infört personkontraktet i de sexton närmaste akterna
+  och lämnar en utfallsbedömning med nya närmare materiella behov på båda
+  sidor; enligt PCD-2026-09-05-013 ska kö och beroenden då omprövas
+  uttryckligen innan djupare arbete återupptas.
+- Control judgement: continue, operate, preserve
+- Current gate: Sju levande personer är GODKÄND inom integritetsminimerat
+  omfång. Nio avlidna på djup 2–3 är UNDERKÄND med prövad identitet men
+  oprövade genomförbara livsbildsvägar; deras äldre KLAR är omprövad till
+  PÅGÅR, varför det registrerade gemensamma djupet sjunker från 2 till 1.
+  Ingen relation eller observation har ändrats. Måttet speglar nu
+  north stars krav på livsbilder, inte ett nytt sakligt problem.
+- Evidence: `genealogy/research-log/2026-09-05.md` batch 292; sexton
+  profiler i `genealogy/research-profiles/`; `node scripts/research-inventory.mjs`
+  (16 profiler, 7 GODKÄND, 0 strukturfel); `node scripts/goal-state.mjs`;
+  `wotan/dev-log/T-0063.md`.
+- Options considered: fortsätta direkt till djup 4-införande (skulle bryta
+  närhetsregeln när kända olästa sidor och fria SCB-passager finns för djup
+  2–3); en enda stor forskningsuppgift för alla nio (skulle bli en behållare);
+  balanserade M-uppgifter per sida före nästa införandegrupp.
+- Recommendation: Behåll T-0064 som första körbara uppgift. Skapa T-0065
+  (Kristinas sida: SCB-utdrag och folkräkning 1930 för Höök/Henriksson
+  1903–1944, inklusive Gunnars rapporterande församling) och T-0066
+  (Sverkers sida: Oskar/Ebba 1909–1997) som READY efter T-0063, T-0067
+  (Arne/Maj: Flen s. 860, utflyttning 1943, grav, namnärende) efter T-0064,
+  och T-0068 (djup 4-införande, sexton personer) efter T-0065–T-0067. Låt
+  obeslutade katalogvägar (missionsarkiv/biografier om paret Höök,
+  läkar-/seminariematriklar, frikyrkoarkiv, inskrivningsrullor,
+  företagsregister) förbli EJ BESLUTAT UTFÖRANDE tills de närmare
+  passagerna är klara. T-0060 behåller sina beroenden.
+- Owner decision required: none; inom det delegerade operativa mandatet i
+  PCD-2026-09-04-002 och PCD-2026-09-05-013.
+- Uncertainty: SCB-utdragens och församlingsböckernas digitala täckning för
+  1930–1949 kan variera per församling; noll i kandidatförsamlingar är ett
+  avgränsat noll, inte frånvarobevis. Gunnars vuxenliv beror på ägaruppgift.
+- Revisit when: T-0064–T-0067 är verifierade och T-0068 ska starta; en
+  bärande identitet blir osäker; ett externt åtkomsthinder stoppar en hel
+  sida.
+
+## PCD-2026-09-05-016
+
+- Record type: decision
+- Date: 2026-09-05
+- Decides review: PCR-2026-09-05-014
+- Owner: Sverker Adam Janson; operativt mandat utövat genom Project Control
+  enligt PCD-2026-09-04-002 och PCD-2026-09-05-013 under det pågående
+  kontinuerliga målet.
+- Decision: Genomför rekommendationen. Registrera T-0065–T-0068 med angivna
+  beroenden; kör T-0064 först, därefter T-0065 och T-0066 balanserat, sedan
+  T-0067 och först därefter T-0068. Bevara omprövningen KLAR→PÅGÅR med
+  historik och godta att det registrerade djupet sjunker.
+- Disposition: approved
+- Supersedes decision: none; verkställer PCD-2026-09-05-013:s kohort- och
+  närhetsregel efter första införandekohorten.
+- Related records: PCR-2026-09-05-014, PCD-2026-09-05-013,
+  `wotan/dev-log/T-0063.md`, `wotan/dev-log/T-0065.md`–`T-0068.md`
+- Resulting Wotan tasks: T-0065, T-0066, T-0067, T-0068; T-0064 READY.
+- Portfolio signal: Projektet är aktivt och ofullbordat; närmaste
+  generationers livsbilder har konkreta körbara passager på båda sidor.
+  Inga beställningar, publicering, PDF, dashboarduppdatering eller commit/push
+  följer av detta beslut.
+- Revisit when: T-0064–T-0067 verifierade; T-0068 ska öppnas; nytt
+  ägarbesked om Gunnar Hööks liv eller Hillevis namnform.
+
+## PCR-2026-09-05-015
+
+- Record type: review
+- Date: 2026-09-05
+- Mode: checkpoint
+- Trigger: Den kontinuerliga målkörningen har efter T-0063 kört T-0064,
+  T-0066 och T-0065 så långt fri åtkomst medger. Alla tre är nu BLOCKED på
+  samma externa hinder: Riksarkivets bilder från 1910-talet och framåt ger
+  `401` utan inloggad session, folkräkningen 1930 möter människoverifiering,
+  och Claude-in-Chrome-tillägget är inte anslutet i sessionen, så metodens
+  inloggade reserv kan inte användas. Riksarkivets MCP saknas också.
+- Control judgement: wait, preserve
+- Current gate: Inloggad bildåtkomst. Inget annat körbart arbete återstår i
+  kön: T-0067 och T-0068 väntar på föregångare enligt beslutad ordning,
+  T-0060/T-0051/T-0054 har egna äldre hinder, IDEA-spåren är parkerade.
+- Evidence: batch 293–295; S-0689–S-0692; C-0878–C-0880; dev-loggarna
+  T-0064–T-0066 med exakta återupptagningspunkter; `node scripts/goal-state.mjs`.
+- Results within the run: Södertälje kyrkoarkivs digitaliserade mantals-,
+  kvarters- och adressregister 1936–1955 identifierade som ny väg för Arne;
+  Oskars och Ebbas död och grav belagda (Burträsk BT 08 13, 1963 och 1997);
+  Ivars födelsenotis 1903 läst med fri åtkomst. Registrerat gemensamt djup
+  är oförändrat 1; inga identiteter eller relationer ändrade.
+- Options considered: öppna T-0068 (djup 4-införande, lokalt arbete utan
+  bildåtkomst) trots att dess föregångare är blockerade; fortsätta med
+  katalogarbete för djupare skivor; eller pausa. Att kringgå den beslutade
+  ordningen skulle upprepa mönstret att djupare arbete tränger undan
+  närmare, och katalogarbete utan läsning ger liten kunskapsvinst nu.
+- Recommendation: Pausa målkörningen med målet redovisat som ofullbordat.
+  Återstart: ägaren ansluter Claude-in-Chrome och loggar in hos Riksarkivet
+  (eller gör Riksarkivets MCP med bildvisning tillgänglig); därefter återupptas
+  T-0064, T-0066 och T-0065 från sina sparade passager i den ordningen.
+  Om hindret kvarstår länge får Project Control ompröva om T-0068 ska
+  släppas fram som rent lokalt arbete.
+- Owner decision required: none för pausen; åtkomståtgärden är ägarens.
+- Revisit when: Inloggad bildåtkomst finns, eller ägaren väljer att släppa
+  T-0068 före de blockerade passagerna.
+
+## PCD-2026-09-05-017
+
+- Record type: decision
+- Date: 2026-09-05
+- Decides review: PCR-2026-09-05-015
+- Owner: Sverker Adam Janson; operativt mandat utövat genom Project Control
+  enligt PCD-2026-09-04-002 och PCD-2026-09-05-013.
+- Decision: Pausa den kontinuerliga målkörningen vid det konkreta externa
+  hindret. Bevara T-0064, T-0065 och T-0066 som BLOCKED med exakta
+  återupptagningspunkter; T-0067 och T-0068 behåller sina beroenden. North
+  star är inte uppfylld; ingen avslutningsrevision görs.
+- Disposition: approved
+- Supersedes decision: none.
+- Related records: PCR-2026-09-05-015, PCD-2026-09-05-016, PCD-2026-09-05-006
+- Resulting Wotan tasks: none nya.
+- Portfolio signal: Projektet är aktivt och ofullbordat; nästa framsteg beror
+  på ägarens åtkomståtgärd. Inga beställningar, publicering, PDF,
+  dashboarduppdatering eller commit/push följer av detta beslut.
+- Revisit when: Åtkomsten är återställd eller ägaren ändrar ordningen.
+
+## PCR-2026-09-05-016
+
+- Record type: review
+- Date: 2026-09-05
+- Mode: checkpoint
+- Trigger: Riksarkivets MCP är nu tillgänglig men häver inte inloggningskravet
+  (batch 296); Chrome-tillägget ansluts fortfarande inte. T-0064–T-0066
+  är BLOCKED på samma externa hinder. Det kontinuerliga målet gäller.
+- Control judgement: continue, operate, preserve
+- Current gate: Bildpassagerna kräver ägarens åtgärd. Övrigt arbete som för
+  north star framåt utan bildåtkomst är kontraktsinförandet för djup 4
+  (T-0068), som PCD-2026-09-05-016 lade efter T-0065–T-0067 av
+  närhetsskäl.
+- Options considered: fortsatt paus (ingen framdrift medan hindret består);
+  släppa T-0068 nu (lokalt arbete ur befintliga akter, ingen konkurrens om
+  bildåtkomst); nya katalogsvep för djupare skivor (lågt värde).
+- Recommendation: Släpp T-0068 nu. Närhetsregeln syftar till att hindra att
+  djupare forskning tränger undan närmare; här är de närmare passagerna
+  externt blockerade, inte bortprioriterade, och T-0068 gör inga
+  källpassager. T-0064–T-0066 återupptas före T-0068:s följdarbete så snart
+  åtkomsten finns. Ändra T-0068:s beroende till enbart T-0063 och notera
+  ändringen i dev-loggen.
+- Owner decision required: none; wotan/README.md anger att en blockerad
+  uppgift inte stoppar andra körbara uppgifter och att annat godkänt
+  avgränsat arbete fortsätter under väntan.
+- Evidence: batch 296; T-0064–T-0066 dev-loggar; `wotan/README.md`
+  (Kökörning och kontinuerligt uppfyllelsemål); PCD-2026-09-05-016.
+- Revisit when: Bildåtkomsten är återställd (återgå till T-0064 först), eller
+  T-0068 är verifierad.
+
+## PCD-2026-09-05-018
+
+- Record type: decision
+- Date: 2026-09-05
+- Decides review: PCR-2026-09-05-016
+- Owner: Sverker Adam Janson; operativt mandat utövat genom Project Control
+  enligt PCD-2026-09-04-002 och PCD-2026-09-05-013.
+- Decision: Släpp T-0068 nu med beroende endast på T-0063. T-0064–T-0066
+  behåller sina sparade passager och företräde framför T-0068:s följdarbete
+  när bildåtkomst finns. PCD-2026-09-05-017:s paus ersätts av fortsatt
+  lokalt arbete.
+- Disposition: approved
+- Supersedes decision: PCD-2026-09-05-017 (pausen) och PCD-2026-09-05-016
+  endast i fråga om T-0068:s ordningsberoende.
+- Related records: PCR-2026-09-05-016, PCD-2026-09-05-006
+- Resulting Wotan tasks: T-0068 READY.
+- Portfolio signal: Projektet är aktivt; bildpassagerna väntar på ägarens
+  åtkomståtgärd medan livsbildsinförandet fortsätter lokalt.
+- Revisit when: T-0068 verifierad eller åtkomsten återställd.
+
+## PCR-2026-09-05-017
+
+- Record type: review
+- Date: 2026-09-05
+- Mode: checkpoint
+- Trigger: T-0068 har infört personkontraktet i djup 4-kohorten (batch 297)
+  och visar att ett flertal materiella vägar på djup 2–4 inte kräver
+  inloggning: gravregister, kyrkoböcker före omkring 1905, SCB-batcher före
+  1918 (att pröva), lokal omläsning och MCP-katalogkontroller.
+- Control judgement: continue, operate, preserve
+- Current gate: Inloggad bildåtkomst saknas fortfarande för 1910+.
+- Recommendation: Kör ett ändligt fritt svep (T-0069, M) över dessa vägar
+  balanserat mellan sidorna innan djup 5-införandet (T-0070, L). När
+  åtkomsten återställs återupptas T-0064–T-0066 före T-0070:s följdarbete.
+- Owner decision required: none; inom delegerat mandat.
+- Evidence: batch 297; 32 profiler; `node scripts/research-inventory.mjs`
+  (32 profiler, 7 GODKÄND, 0 strukturfel); `wotan/dev-log/T-0068.md`.
+- Revisit when: T-0069 verifierad; åtkomst återställd.
+
+## PCD-2026-09-05-019
+
+- Record type: decision
+- Date: 2026-09-05
+- Decides review: PCR-2026-09-05-017
+- Owner: Sverker Adam Janson; operativt mandat utövat genom Project Control
+  enligt PCD-2026-09-04-002 och PCD-2026-09-05-013.
+- Decision: Registrera T-0069 READY efter T-0068 och T-0070 BLOCKED efter
+  T-0069. Bevara T-0064–T-0066:s företräde vid återställd åtkomst.
+- Disposition: approved
+- Supersedes decision: none; verkställer närhetsregeln.
+- Related records: PCR-2026-09-05-017, PCD-2026-09-05-018
+- Resulting Wotan tasks: T-0069, T-0070.
+- Portfolio signal: Aktivt; lokala och fria passager fortsätter medan
+  bildåtkomsten väntar. Inga beställningar, publicering, PDF,
+  dashboarduppdatering eller commit/push.
+- Revisit when: T-0069 verifierad eller åtkomst återställd.
+
+## PCR-2026-09-05-018
+
+- Record type: review
+- Date: 2026-09-05
+- Requested by: agent under det kontinuerliga målet
+- Trigger: Ägaren skrev i chatten att han själv löst captchan på
+  sok.riksarkivet.se ("jag har svarat på en captcha på riksarkivet igen så
+  den skall vara öppen"). Den captcha-spärrade personsökningen i
+  folkräkningen 1930 hörde till T-0065:s passage och låg kvar som följdväg i
+  T-0072 (IDEA). Sessionen är tidsbegränsad.
+- Options considered: vänta tills T-0072 formellt aktiveras (risk att
+  sessionen stängs); använda sessionen omedelbart för den avgränsade
+  sökningen och bokföra i T-0072; avstå.
+- Recommendation: Använd sessionen omedelbart för den avgränsade
+  sökningen (Henriksson/Larsson 1930, kontroll Höök), bokför som batch 302
+  under T-0072 och sätt T-0072 READY. Agenten löser aldrig captchan själv
+  (PCD-2026-09-05-011-villkoren oförändrade).
+
+## PCD-2026-09-05-020
+
+- Record type: decision
+- Date: 2026-09-05
+- Decides review: PCR-2026-09-05-018
+- Owner: Sverker Adam Janson; ägarens direkta chattbesked om den lösta
+  captchan, operativt tillämpat genom Project Control enligt PCD-2026-09-04-002.
+- Decision: Genomför rekommendationen. Batch 302 bokförs i T-0072, som
+  blir READY efter T-0067. Ägarens egen captcha-lösning är den enda
+  tillåtna vägen in i captcha-skyddade söktjänster; agenten ber om den vid
+  behov och löser den aldrig själv.
+- Related records: PCD-2026-09-05-011, PCD-2026-09-05-018, PCD-2026-09-05-019.
+- Resulting Wotan tasks: T-0072 READY (batch 302 utförd i förväg); T-0074 IDEA
+  (följdvägar från T-0067).
+- Portfolio signal: T-0064–T-0067 DONE i inloggad session; kön fortsätter
+  med T-0069 (fritt svep) före T-0070 (djup 5).
+- Revisit when: T-0069 är DONE eller ägaren ändrar ordningen.

@@ -1,0 +1,110 @@
+{
+  "@graph": [
+    {
+      "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1",
+      "@type": [
+        "schema:ArchiveComponent",
+        "rico:RecordSet"
+      ],
+      "schema:additionalType": {
+        "@id": "http://data.riksarkivet.se/concept/ArchiveUnitType/Series"
+      },
+      "rico:hasRecordSetType": {
+        "@id": "ric-rst:Series"
+      },
+      "schema:identifier": "SE/SSA/1451/01/E/E22G",
+      "rico:hasOrHadIdentifier": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#referenceCode"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#extraId"
+        }
+      ],
+      "rico:hasInstantiation": {
+        "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#instantiation_physical"
+      },
+      "schema:name": "Ansökningar till handelsregistret Södertälje 1964-1970",
+      "rico:name": "Ansökningar till handelsregistret Södertälje 1964-1970",
+      "schema:isPartOf": {
+        "@id": "http://data.riksarkivet.se/archive/qysGZc7l2YJTAzRihSZFJ3"
+      },
+      "rico:thingIsTargetOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#isPartOf"
+      },
+      "rico:thingIsSourceOfWholePartRelation": {
+        "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#hasParts"
+      },
+      "schema:hasPart": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/BOmoZC98s4wWmL32zi2ZN6"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/FOXanIviwKEYfLyRZgCsO5"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/HRPo1tLJUqUVgelByWueQ0"
+        }
+      ]
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#referenceCode",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ReferenceCode"
+      },
+      "rico:textualValue": "SE/SSA/1451/01/E/E22G"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#instantiation_physical",
+      "@type": "rico:Instantiation",
+      "rico:instantiationOf": {
+        "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1"
+      },
+      "rico:hasRepresentationType": {
+        "@id": "http://data.riksarkivet.se/concept/RicoRepresentationType/Analog"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#extraId",
+      "@type": "rico:Identifier",
+      "rico:hasIdentifierType": {
+        "@id": "http://data.riksarkivet.se/concept/IdentifierType/ExtraId"
+      },
+      "rico:textualValue": "E22G"
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#isPartOf",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/qysGZc7l2YJTAzRihSZFJ3"
+      },
+      "rico:wholePartRelationHasTarget": {
+        "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1"
+      }
+    },
+    {
+      "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1#hasParts",
+      "@type": "rico:WholePartRelation",
+      "rico:wholePartRelationHasSource": {
+        "@id": "http://data.riksarkivet.se/archive/wTVYkYHOCqzVfn4BxypCv1"
+      },
+      "rico:wholePartRelationHasTarget": [
+        {
+          "@id": "http://data.riksarkivet.se/archive/BOmoZC98s4wWmL32zi2ZN6"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/FOXanIviwKEYfLyRZgCsO5"
+        },
+        {
+          "@id": "http://data.riksarkivet.se/archive/HRPo1tLJUqUVgelByWueQ0"
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "schema": "https://schema.org/",
+    "rico": "https://www.ica.org/standards/RiC/ontology#",
+    "ric-rst": "https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#"
+  }
+}

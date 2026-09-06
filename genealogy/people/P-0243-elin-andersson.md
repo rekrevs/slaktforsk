@@ -16,6 +16,7 @@ både i dotterns födelseutdrag 1902 och i 1900 års folkräkning.
 | A-1735 | Elin bodde som barn i Gäddelstad med föräldrarna och den yngre systern Ida Carolina. | TRANSCRIBED | hög | [C-0271](../citations/C-0271-elin-barndomshushall-gaddelstad.md) | Husförhörslängden 1871–1875, sida 71. |
 | A-2029 | Elin stod kvar i föräldrahemmet i Gäddestad i folkräkningarna 1880 och 1890. | CORROBORATED | hög | [C-0359](../citations/C-0359-folkrakning-1880-ostra-husby-gaddestad-carlsson.md), [C-0360](../citations/C-0360-folkrakning-1890-ostra-husby-gaddestad-karlsson.md) | Två senare familjeankare före hennes Carlman-hushåll. |
 | A-2109 | Elin stod kvar hos den änkefarne fadern i A I/25 och fördes 1897 till Ljungby i Kalmar län; samma rad hänvisar till lysning nummer 7 det året. | TRANSCRIBED | hög | [C-0407](../citations/C-0407-ostra-husby-AI25-gaddestad-sida-74.md) | Flyttnings- och vigselposterna återstår, men hänvisningen binder vägen till hennes senare Carlman-hushåll. |
+| A-3369 | Elin f. Andersson, född 1873 i Östra Husby, bodde 1930 med maken i Kalmar stadsförsamling, uppslag 4774; vigselåret anges som 1897. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Bekräftar vigselåret 1897 (A-2109) och födelseförsamlingen. |
 
 ## Relationer
 
@@ -38,7 +39,35 @@ vidareförda. Folkräkningarna 1880–1890 och A I/24–A I/25 följer
 föräldrahemmet, visar syskonen och för Elin vidare till Ljungby 1897 utan att
 sidogrenarna byggs ut.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1873-01-13 | Född; döpt 1873-01-19 | Gäddestad, Östra Husby | — | Anders Magnus Carlsson och Charlotta Larsdotter | C-0270 |
+| 1871–1897 | Husförhör A I/24–25; folkräkningar 1880, 1890; moderns död 1891 | Gäddestad | dotter | föräldrar och syskon | C-0271, C-0359, C-0360, C-0407 |
+| 1897 | Lysning nr 7; flytt till Ljungby | Östra Husby → Ljungby | — | — | C-0407 |
+| 1900 | Folkräkning | Lilla Tomteby, Ljungby | hustru | make och två barn | C-0234 |
+| 1902-04-09 | Dottern Anna Elisabeth född | Ljungby | — | make | C-0232 |
+| 1904–1916 | Sex barn födda i Ljungby, Jönköping och Kalmar | Ljungby → Jönköping → Kalmar | — | make och barn | C-0899 |
+| 1930 | Folkräkning; uppslag 4774, vigselår 1897 | Kalmar stadsförsamling | hustru | make, sex barn, hushållerska | C-0899 |
+| efter 1930 | **Materiell lucka**: död | Kalmar? | — | — | profil Q-01 |
+
+## Biografisk sammanfattning
+
+Elin Andersson föddes 1873-01-13 i Gäddestad i Östra Husby som dotter till
+hemmansägaren Anders Magnus Carlsson och Charlotta Larsdotter och bodde kvar
+i föräldrahemmet, efter moderns död 1891 hos den änkefarne fadern, tills
+hon 1897 lystes och flyttade till Ljungby i Kalmar län (C-0270, C-0271,
+C-0359, C-0360, C-0407). Där var hon 1900 hustru till lantbrukaren Johan
+Fredrik Carlman i Lilla Tomteby med barnen Naëmi och Karl Emanuel, och 1902
+föddes Anna Elisabeth (C-0234, C-0232). Hennes senare liv är obelagt.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0243.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — egen födelse, båda föräldrarna, tre barndoms-/ungdomshushåll, flyttankaret 1897, make och barn är konsoliderade; vigseloriginal och död är villkorliga kompletteringsspår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: vigseloriginal, livet efter 1902 och död har genomförbara vägar (profil KP-01 via P-0242). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen födelse, båda föräldrarna, tre barndoms-/ungdomshushåll, flyttankaret 1897, make och barn är konsoliderade; vigseloriginal och död är villkorliga kompletteringsspår.

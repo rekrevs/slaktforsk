@@ -62,7 +62,37 @@ Det separata påståendet om äktenskapshinder förblir en ledtråd tills en
 historisk källa stöder det; ingen parrelation till Anna Matilda konstrueras ur
 det ägarfastställda faderskapet.
 
+## Tidslinje
+
+| Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+|---|---|---|---|---|---|
+| 1880-06-24 | Född (notis saknas i C I/14); folkräkning 1880 | Kungsholmen, Stockholm | — | Olaus Fredberg och Brita Stina Svensdotter | C-0326, C-0327 |
+| 1888 | Faderns lysningsakt räknar upp honom bland barnen | Kungsholmen | — | fadern, tre syskon | C-0474 |
+| 1895-12-31 | Inflyttning från Ulrika Eleonora; s. 10 | Hudiksvall | yngling, icke konfirmerad | farbrodern Johan August Fredberg Fredriksson | C-0323, C-0325 |
+| 1900 | Folkräkning | Första kvarteret nr 5 a, Hudiksvall | slakteribiträde, ogift | farbroderns hushåll | C-0322 |
+| 1903-05-13 | Sonen Anders Ivar född (ägarfastställt faderskap) | Hudiksvall | — | — | PCD-2026-08-29-001 |
+| efter 1900 | **Materiell lucka**: boende, yrke, eventuell familj, död; grav uppgiven i Sollentuna | Tureberg? | — | — | profil Q-01, Q-02 |
+
+## Biografisk sammanfattning
+
+Johannes Ivar Fredberg föddes 1880-06-24 på Kungsholmen i Stockholm som son
+till Olaus Fredberg och Brita Stina Svensdotter; födelsenotisen saknas i
+Kungsholms bok, men folkräkningen 1880 och faderns lysningsakt 1888 bär
+föräldraskapet (C-0326, C-0474, C-0327). Vid femton års ålder flyttade han
+1895 till farbrodern, slaktaren Johan August Fredberg Fredriksson, i
+Hudiksvall, där han 1900 var ogift slakteribiträde, antecknad som icke
+konfirmerad (C-0323, C-0325, C-0322). Enligt familjens dokumentation, via
+sonsonens dotter Margareta, var han far till Anders Ivar, född 1903 av pigan
+Anna Matilda Hök, och namnet Ivar gick i arv; projektägaren har fastställt
+faderskapet (C-0320, PCD-2026-08-29-001). Hans liv efter 1900 är obelagt;
+familjen uppger halvsyskon i Tureberg och en grav på Sollentuna kyrkogård.
+
+Öppna materiella frågor och källvägar finns i
+[forskningsprofilen](../research-profiles/P-0287.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `KLAR` — 1880–1900-kedjan, namnformerna, föräldrarna, farbrodershushållet, yrket och det ägarfastställda faderskapet är konsoliderade; födelsenotisens frånvaro, 1910 och den uppgivna gravvägen är avgränsade kompletteringsspår.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: hela vuxenlivet efter 1900, död och graven i Sollentuna har genomförbara vägar (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233. Matrisraden i source-coverage.md består.
+
+Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — 1880–1900-kedjan, namnformerna, föräldrarna, farbrodershushållet, yrket och det ägarfastställda faderskapet är konsoliderade; födelsenotisens frånvaro, 1910 och den uppgivna gravvägen är avgränsade kompletteringsspår.
