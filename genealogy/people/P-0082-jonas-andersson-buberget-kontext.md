@@ -9,6 +9,7 @@
 
 | A-3276 | Jonas Andersson 1796 i 1870 års Bubergetshushåll är samma Jonas som nämndemannen och fadern i de tre husförhörshushållen. | CORROBORATED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0066](../citations/C-0066-ida-sofia-folkrakning-1870.md) | Samma namn, födelseår, by och Andersfamilj; undantagsställningen i sena husförhöret motsvarar folkräkningen. A-0335:s tidigare obelagda släktrelation är nu löst. P-0088 hålls separat. |
 | A-3277 | Jonas betecknas bonde och nämndeman i Buberget i A I/6b och A I/8b. | CORROBORATED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md) | Titlar i original, inte infererat ägande eller tjänstgöringsår. |
+| A-3616 | **Degerfors födelsebok 1796 är läst i sin helhet och rymmer exakt en Jonas:** född **3 september 1796 i Sandssjön**, son till **Anders Ersson** och **Anna Andersdotter**, döpt 5 september. | LEAD | medel | [C-0964](../citations/C-0964-degerfors-1796-jonas-sandssjon.md) | Stark kandidat: årgången har ingen annan Jonas, och faderns namn Anders ger exakt patronymikonet Andersson. **Inte sluten**: kandidaten föddes i Sandssjön medan målpersonen är känd i Buberget, och de lästa husförhörssidorna anger bara födelseår, inte födelseort. Avgörs av vigselposten omkring 1830–1832 eller av en tidigare längd som visar honom hos Anders Ersson i Sandssjön. |
 
 ## Livsbild och identitet
 
