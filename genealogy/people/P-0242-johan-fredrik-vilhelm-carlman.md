@@ -21,6 +21,9 @@ en avvikande namnform.
 | A-3543 | **Han dog 1940-02-12** och gravsattes 1940-05-26 i familjegraven på Norra kyrkogården i Kalmar, kvarter 02, gravplats 0056B; gravregistret anger födelsedagen 1866-11-08 och namnformen **Villehard**. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md), [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Administrativ gravpost; födelsedatumet stämmer exakt med den egna födelsenotisen. Dödboken 1940 är oläst. |
 | A-3544 | Hans hemort vid dödsfallet var **Östra Husby** — hustruns hemförsamling och parets vigselort 1897. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md), [C-0407](../citations/C-0407-ostra-husby-AI25-gaddestad-sida-74.md) | Paret hade alltså lämnat Kalmar och återvänt till hennes hembygd efter 1930. |
 | A-3545 | **Fadern, kronolänsmannen Carl August Carlman, föddes 1825-10-02 och dog 1901-11-21**, gravsatt 1901-11-27 på Högby kyrkogård; **modern Kristina Gustafva föddes 1843-09-27 och dog 1874-03-30**, gravsatt 1874-04-05 i samma grav. | TRANSCRIBED | hög | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md), [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md) | Moderns dödsdatum bekräftar husförhörslängden. Hon blev 30 år; sonen var sju. |
+| A-3564 | **Vigseln med Elin Andersson ägde rum 1897-09-23 i Östra Husby**, efter lysning den 20 och 27 augusti och 12 september; posten är lysning nr 7 med hänvisning till husförhörsbokens sida 74. | CORROBORATED | mycket hög | [C-0948](../citations/C-0948-carlman-andersson-vigsel-ostra-husby-1897.md), [C-0407](../citations/C-0407-ostra-husby-AI25-gaddestad-sida-74.md) | Löser A-2109:s öppna punkt: husförhörslängdens `lysning nummer 7` är denna post. |
+| A-3565 | **Han var redan 1897 lantbrukare i Ljungby i Kalmar län** och ansökte om lysning skriftligen, utan att vara närvarande; hinderslöshetsbetyget kom från pastorsämbetet i Ljungby. | TRANSCRIBED | hög | [C-0948](../citations/C-0948-carlman-andersson-vigsel-ostra-husby-1897.md) | Han var alltså etablerad brukare i sin blivande hemförsamling redan före vigseln. |
+| A-3566 | **Vigselförrättaren var `Fångpredikanten Carlman från Göteborg`**, med all sannolikhet en av hans äldre bröder. | TRANSCRIBED | medel | [C-0948](../citations/C-0948-carlman-andersson-vigsel-ostra-husby-1897.md), [C-0393](../citations/C-0393-folkrakning-1880-hogby-gasa-carlman.md) | Namnlikheten och brödernas studier 1880 gör släktskapet sannolikt; identifieringen är inte gjord och ingen relation registreras. |
 
 ## Relationer
 
@@ -54,7 +57,8 @@ bevarade som sidorelationer.
 | 1866-11-08 | Född; döpt 1866-11-28 | Gasa, Högby, Öland | — | kronolänsman Carl August Carlman och Christina Gustafva Ringberg | C-0269 |
 | 1865–1880 | Husförhör A I/8 och A I/10; modern död 1874-03-30; folkräkning 1880 | Gasa | son | fadern, fem syskon | C-0355, C-0395, C-0393 |
 | 1880–1897 | **Materiell lucka**: utbildning, tjänst | okänt | — | — | profil Q-01 |
-| 1897 | Lysning nr 7 (Östra Husby) och vigsel med Elin Andersson | Östra Husby → Ljungby | — | — | C-0407 |
+| 1897-08-20/27, 09-12 | Lysning nr 7; han ansöker skriftligen, hon närvarande | Östra Husby | lantbrukare i Ljungby | — | C-0948 |
+| 1897-09-23 | **Vigsel med Elin Andersson**; förrättare Fångpredikanten Carlman från Göteborg | Östra Husby | lantbrukare | — | C-0948 |
 | 1900 | Folkräkning; två barn | Lilla Tomteby nr 1, 4, 5, Ljungby | lantbrukare | hustru och barn | C-0234 |
 | 1902-04-09 | Dottern Anna Elisabeth född | Ljungby | — | hustru | C-0232 |
 | 1904 | Sonen Oskar Magnus född i Ljungby | Ljungby | lantbrukare | hustru och barn | C-0899 |
