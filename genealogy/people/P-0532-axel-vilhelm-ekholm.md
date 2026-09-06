@@ -12,11 +12,14 @@ hennes änkestånd. Vigselposten är ännu oläst.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3578 | Axel Vilhelm Ekholm, lokomotiveldare, född 1878-02-17 och skriven i Katarina församling i Stockholm, dog 1913-03-11 av lungsot i Helgesta och begravdes där 1913-03-17. | TRANSCRIBED | hög | [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Samtida dödbokspost i Hyltinge. Egen födelsenotis i Katarina är oläst. |
+| A-3584 | Folkräkningen 1910 för Kungsholm rote 23 skriver honom **lokomotiveldare**, född i **Åsbo i Östergötlands län**, med hustrun Hulda Amalia och barnen Axel Ivar (1907) och Ingrid Amalia (1910). **Födelseåret står i konflikt:** bladet anger 1881, registret 1887 och dödboken 1913 anger 1878-02-17. | CONFLICT | hög | [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md), [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Åsbo är den nya prövbara söknyckeln; hans egen födelsenotis där avgör årtalet. Dödbokens Katarina är kyrkobokföringsort, inte födelseort. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
+| [P-0533 Axel Ivar Ekholm](P-0533-axel-ivar-ekholm.md) | son | TRANSCRIBED | C-0954 |
+| [P-0534 Ingrid Amalia Ekholm](P-0534-ingrid-amalia-ekholm.md) | dotter | TRANSCRIBED | C-0954 |
 | [P-0016 Hulda Amalia Ekholm, född Ålund](P-0016-hulda-amalia-ekholm-alund.md) | hustru | TRANSCRIBED | C-0952 |
 
 ## Forskningsstatus

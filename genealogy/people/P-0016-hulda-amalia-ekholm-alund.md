@@ -31,11 +31,17 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | A-3576 | **Han dog 1913-03-11 av lungsot i Helgesta**, 35 år gammal, och begravdes där 1913-03-17. | TRANSCRIBED | hög | [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Dödsdagen är exakt den dag hennes änkestånd dateras till i dotterns födelsepost. |
 | A-3577 | Att maken var skriven i **Katarina församling i Stockholm** och inte i Hyltinge förklarar varför paret inte går att finna som hushåll i Hyltinges församlingsbok; det gör också Katarina till den troligaste vigselförsamlingen. | TRANSCRIBED | medel | [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Ny konkret källväg för vigseln; Hyltinges `E I/2` är ett alternativ, med 1903 och 1906 stickprovslästa utan träff. |
 | A-3579 | **Vigseln skedde inte i Hyltinge.** Församlingens lysnings- och vigselbok är läst rad för rad för samtliga årgångar 1899–1912, alltså hela fönstret mellan hennes ogifta ställning 1900 och änkeståndet 1913-03-11. | NEGATIVE | hög | [C-0953](../citations/C-0953-hyltinge-vigselbok-1899-1912-noll-ekholm-alund.md), [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md), [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Avgränsat noll som pekar vidare: maken var skriven i **Katarina församling i Stockholm**, så vigseln skedde med all sannolikhet där, och hon måste ha flyttat dit efter 1900. Hyltinges utflyttningslängd `B/4` och Katarinas vigselbok är de två följdvägarna. |
+| A-3580 | **Hon var gift och bosatt i Stockholm 1910**, i Kungsholms församling rote 23, kvarteret Kettingen N:o 36 och 37, som `h.` i familj nr 1, sida 165 rad 49. | CORROBORATED | mycket hög | [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md) | Bekräftar slutsatsen i C-0953 att hon lämnade Hyltinge efter 1900 och vigdes utanför hemförsamlingen. |
+| A-3581 | **Hon hade två barn före 1913: Axel Ivar, född 1907 i Stockholm, och Ingrid Amalia, född 1910 i Stockholm.** | CORROBORATED | mycket hög | [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md) | Tidigare okända. Hon var alltså mor till minst fyra barn, inte två; Maj Amalia 1920 och Hulda Margareta 1921 kom tretton år efter det första. |
+| A-3582 | **Vigselfönstret smalnar till 1900–1907** och vigseln skedde med all sannolikhet i Stockholm; Kungsholms lysnings- och vigselbok är närmaste källväg. | CORROBORATED | hög | [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md), [C-0953](../citations/C-0953-hyltinge-vigselbok-1899-1912-noll-ekholm-alund.md) | Äldsta barnet föddes 1907 i Stockholm. |
+| A-3583 | **Makens födelseuppgifter står i konflikt i tre källor:** folkräkningsbladet 1910 anger 1881, registret 1887 och Hyltinges dödbok 1913 `78 ¹⁷/₂`; födelseorten anges som **Åsbo i Östergötlands län**. | CONFLICT | hög | [C-0954](../citations/C-0954-hulda-amalia-ekholm-kungsholm-1910.md), [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Dödbokens `Katarina förs.` är hans kyrkobokföringsort, inte födelseort, och motsäger inte Åsbo. Årtalen avgörs av hans egen födelsenotis i Åsbo. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
+| [P-0533 Axel Ivar Ekholm](P-0533-axel-ivar-ekholm.md) | son | TRANSCRIBED | C-0954 |
+| [P-0534 Ingrid Amalia Ekholm](P-0534-ingrid-amalia-ekholm.md) | dotter | TRANSCRIBED | C-0954 |
 | [P-0532 Axel Vilhelm Ekholm](P-0532-axel-vilhelm-ekholm.md) | make | TRANSCRIBED | C-0952 |
 | [P-0007 Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) | dotter | CORROBORATED | C-0020, C-0019 |
 | [P-0017 Hulda Margareta](P-0017-hulda-margareta.md) | dotter | TRANSCRIBED | C-0015 |
@@ -60,7 +66,10 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | 1879 | Flytt med föräldrarna | Gryt → Hyltinge | — | föräldrar | C-0077 |
 | 1890 | Folkräkning | Valsund, Hyltinge | dotter, ogift | föräldrar, brodern Karl Albert | C-0078 |
 | 1900 | Folkräkning | Rudstugan, Hyltinge | dotter, ogift, 23 år | föräldrar | C-0088 |
-| 1900–1913 | **Materiell lucka**: vigseln med Axel Vilhelm Ekholm och flytten till Stockholm; **inte i Hyltinge** | Stockholm? | — | — | C-0953, C-0952 |
+| 1900–1907 | **Materiell lucka**: flytten till Stockholm och vigseln med Axel Vilhelm Ekholm; **inte i Hyltinge** | Stockholm | — | — | C-0953, C-0954 |
+| 1907 | Sonen Axel Ivar född | Stockholm | — | maken | C-0954 |
+| 1910 | **Folkräkning; gift, `h.` i familj nr 1** | Kv. Kettingen 36–37, Kungsholm rote 23, Stockholm | — | maken och två barn | C-0954 |
+| 1910 | Dottern Ingrid Amalia född | Stockholm | — | maken och barn | C-0954 |
 | 1913-03-11 | **Änka**; maken Axel Vilhelm Ekholm dör av lungsot i Helgesta, begravd där 17/3 | Helgesta | — | — | C-0952, C-0028 |
 | 1920-05-11 | Dottern Maj Amalia född | Hyltinge | änka | — | C-0020, C-0028 |
 | 1921 | Dottern Hulda Margareta född enligt index | Helgesta | — | — | C-0015 |
