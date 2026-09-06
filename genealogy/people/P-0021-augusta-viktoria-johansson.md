@@ -57,6 +57,9 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-3711 | En tidigare okänd syster: **`Thilda Augusta, född 1861-10-12`**, överstruken i A I/4 och inte med i A I/5. | TRANSCRIBED | hög | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md) | Saknas i den syskonskara C-0991 kunde redovisa. Ingen egen personakt skapas medan faderskapet är omstritt. |
 | A-3712 | **Tillbakadragen hypotes:** förslaget att `²⁴/₆` vore en avskriftsupprepning faller. A I/4 ger systern Anna Sofias födelsedag som `²/₆ 1857`; upprepningen finns i A I/5, inte i A I/4, och Augusta Victorias datum bekräftas dessutom av födelseboken. | REJECTED | hög | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md) | Egen hypotes prövad och avvisad samma dag som den ställdes. |
 | A-3714 | Johannes Erikssons rad på A I/4 sida 18 bär beteckningen `Ägare, Kyrkovärden` och **ingen soldatbeteckning**; det enda överstrukna är ett enstaka tecken före ordet `Ägare`. | NEGATIVE | medel | [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md) | Talar **emot** den enkla soldatnamnsförklaringen till A-3710, utan att avgöra frågan: sidan är rubricerad `1 Roten. Bjerg`, och födelsenotisens hemvist `Atteby` kan vara ett torp inom samma rote. Nästa prövning är Atteby i samma volym. |
+| A-3715 | Soldaten i födelsenotisen är **`Erik Jansson Roth`, Västgöta regemente n:o 100**, född **1825-09-20 i Kyrkefalla**, bosatt vid `1 Rote. Attelby` i Mofalla och **gift med Cajsa Lisa Svensdotter** (f. 1828-01-11), med döttrarna Christina 1853, Lotta 1858 och Sophia 1860. | TRANSCRIBED | mycket hög | [C-1000](../citations/C-1000-mofalla-AI3-soldat-erik-jansson-roth-attelby.md) | Identifierad via A I/3:s egen soldatförteckning, post 100, `pag. 306`. |
+| A-3716 | **Soldatnamnshypotesen är motbevisad.** Erik Jansson Roth (f. 1825, gift med Cajsa Lisa Svensdotter) och Johannes Eriksson (f. 1820, gift med Maja Greta Larsdotter) är två skilda män på två skilda sidor i samma volym. | NEGATIVE | mycket hög | [C-1000](../citations/C-1000-mofalla-AI3-soldat-erik-jansson-roth-attelby.md) | Upphäver den förklaring till A-3710 som låg närmast till hands. Olika födelseår, olika hustrur, olika hushåll. |
+| A-3717 | Mofallas lysnings- och vigselbok för **1862, 1863 och 1864** — sex poster i sin helhet — saknar varje vigsel mellan Roth och Maja Greta Larsdotter; Cajsa Lisa Svensdotter lever dessutom i A I/3 genom hela 1860–1862. | NEGATIVE | hög | [C-1000](../citations/C-1000-mofalla-AI3-soldat-erik-jansson-roth-attelby.md) | Utesluter den enda räddningen för soldatnamnshypotesen, nämligen ett omgifte före juni 1863. |
 
 ## Relationer
 
@@ -194,18 +197,20 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
   mor, samma folio, samma hushåll. Ett soldatnamn är den närliggande
   förklaringen men är **inte belagd**, och ingen föräldrarelation förs in i
   stamtavlan förrän den är det.
-- Förväntad källa: **Mofalla `A I/4`, avsnittet för `Atteby` inom 1 Roten
-  Bjerg**, och därefter generalmönsterrullorna för rotens soldat. Dessa ska
-  avgöra om `Rotte, Eric, Soldat i Atteby` och `Eriksson Johannes` är samma
-  man. I andra hand Mofalla `E`-serien för Maja Greta Larsdotters vigsel
-  eller vigslar.
+- Förväntad källa: **Bjerg i Mofalla `A I/3` (1860–1862)**, via volymens
+  ortregister eller kolumnen `Flyttad från … pag. i Husfhbok` på A I/4 sida
+  18. Den ska avgöra om Maja Greta Larsdotter redan var Johannes Erikssons
+  hustru 1863. Frågan om soldatnamn är **avgjord och utesluten** (A-3716).
 - Genomsökt: Mofalla `C/4` hela 1863 och 1864; Mofalla `A I/4` sida 18 och
-  `A I/5` sida 18; Mofalla `E I/1` 1885; Kyrkefalla `C/6` hela 1863 och 1864
+  `A I/5` sida 18; Mofalla `A I/3` soldatförteckningen och sida 306
+  (Attelby); Mofalla `E I/1` 1885 samt hela 1862–1864; Kyrkefalla `C/6` hela 1863 och 1864
   samt hela vigselåret 1885 i `E/4`; Värsås `E/1` 1885–1886; Värsås samtliga
   serier via sök-API 2026-08-20.
-- Återaktiveringsvillkor: när Attebyavsnittet eller mönsterrullan visar om
-  soldatnamnet hör till Johannes Eriksson. Först då kan föräldrarelationen
-  prövas och positionen stängas eller öppnas vidare.
+- Återaktiveringsvillkor: när Bjerg i A I/3 visar om Maja Greta Larsdotter
+  var Johannes Erikssons hustru redan 1863. Var hon det, föddes Augusta
+  Victoria inom hans äktenskap men med en annan man utpekad som far; var hon
+  det inte, är klammern i hushållsboken en efterhandsgruppering. Först då kan
+  föräldrarelationen prövas och positionen stängas eller öppnas vidare.
 - Upphävt: Kyrkefallauppgiften i hushållsböckerna vilar på en oreflekterad
   `ibm`-kedja och är inte en ortsuppgift (A-3688). A-3687 och dittohypotesen
   i C-0992 är tillbakadragna.
