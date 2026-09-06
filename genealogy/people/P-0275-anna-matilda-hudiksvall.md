@@ -22,6 +22,10 @@ inte ut automatiskt från fadern.
 | A-1998 | Folkräkningen 1880 placerar Anna Matilda, född 1880 i Hälsingtuna, med Anders Gustaf Hök och Anna Greta Hillberg i Hudiksvall. | CORROBORATED | hög | [C-0352](../citations/C-0352-folkrakning-1880-hudiksvall-hok-hillberg.md), [C-0353](../citations/C-0353-folkrakning-1890-halsingtuna-hasta-hok-hillberg.md), [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md) | Samma föräldrapar och födelseuppgift återkommer i tre folkräkningar. |
 | A-3327 | År 1903 var hon piga i Hudiksvall, skriven på församlingsbokens sida 341, och födde 1903-05-13 sonen Anders Ivar utom äktenskapet. | CORROBORATED | hög | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen födelsenotis för sonen. |
 | A-3328 | Hon begärde enligt prästens anteckning 1903-08-25 att barnet antecknades [såsom hennes]; dopvittnen var hustrurna till Aug. Emil Hök och Anders Jakobsson. | TRANSCRIBED | medel | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md) | Läsosäkert slut på anmälningsmeningen; Emil Hök kan vara släkting men relationen anges inte. |
+| A-3536 | **Hon levde till åtminstone 1949-07-16**, då hon fördes vidare från folio 591 till nästa församlingsbok, `N:o 250`; hon dog alltså inte i Hudiksvall före 1949. | CORROBORATED | mycket hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md) | Halvbesvarar profilens Q-02. Familjens fortsättning låg på folio **591**, inte 593 — vilket förklarar nollet i C-0887. |
+| A-3537 | **Hon står `icke döpt` i församlingsboken 1931–1949.** | CORROBORATED | hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md) | Bekräftar profilens antagande och ger sammanhang åt den ovanliga anteckningen vid sonens dop 1903. |
+| A-3538 | **Modern Anna Greta dog 1937-06-14**; hon var änka efter **gårdsägaren** Anders Gustaf Hök och **ägde fastigheten Fridhem**. Systern Augusta Elisabet, f. handelsbiträde, dog 1947-09-12. | CORROBORATED | mycket hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md), [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) | Fridhem, adressen i folkräkningen 1930, var alltså familjens egen fastighet. |
+| A-3539 | **Hon hade en bror, missionären Knut Bertil Hök**, gift med Sara Kristina Bergqvist och verksam i **Kongo**; deras döttrar Birgit Margareta (f. 1928-07-16 i La Madzia, Kongo) och Märta Elisabet (f. 1931-05-24, samma ort) bodde hos mormodern i Hudiksvall 1935-03-14–1936-08-21, båda `icke döpt`. | CORROBORATED | mycket hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md) | Ny sidogren. Hennes bror missionär i Kongo och hennes son missionär i Öst-Turkestan och Indien — båda fält som Svenska Missionsförbundet drev. |
 
 ## Relationer
 
@@ -60,7 +64,12 @@ utan att Anna Matilda och Johannes konstrueras som ett par.
 | 1910 | Folkräkning | Hudiksvall | dotter | föräldrar, sonen | C-0255, C-0256 |
 | 1913–1931 | A II a/3 b s. 593; mormodern änka 1911 | Hudiksvall | — | modern och sonen | C-0260 |
 | 1930 | Folkräkning | Fridhem, Hudiksvall | hemmadotter | modern och sonen (missionär) | C-0258 |
-| efter 1931 | **Materiell lucka**: sonens utresa, hennes försörjning och död | Hudiksvall? | — | — | profil Q-02 |
+| 1931–1949 | Folio 591, `icke döpt`, i moderns hushåll på Fridhem | Hudiksvall | — | modern Anna Greta och systern Augusta Elisabet | C-0942 |
+| 1935-03-14–1936-08-21 | Broderns döttrar Birgit Margareta och Märta Elisabet bor i hushållet, inflyttade från Kongo | Fridhem, Hudiksvall | — | brorsdöttrarna | C-0942 |
+| 1937-06-14 | Modern Anna Greta dör | Hudiksvall | — | — | C-0942 |
+| 1947-09-12 | Systern Augusta Elisabet dör | Hudiksvall | — | — | C-0942 |
+| 1949-07-16 | Överförd till nästa församlingsbok, `N:o 250`; levde alltså ännu | Hudiksvall | — | — | C-0942 |
+| efter 1949 | **Materiell lucka**: försörjning och död | Hudiksvall? | — | — | profil Q-02 |
 
 ## Biografisk sammanfattning
 
