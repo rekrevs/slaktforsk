@@ -559,7 +559,7 @@
         "narrativeHeading": true
       },
       "profile": "genealogy/research-profiles/P-0016.md",
-      "profileSha256": "1d6bad17fe2f89298cd7e1c5e4a4245cb566c0cd0920224a80624e9009a81677",
+      "profileSha256": "d8a8db356d1912fc4bdd2a08569c5350079b6eabf5d58e3d2a79ff904ecc224a",
       "contract": {
         "present": true,
         "identity": "PRÖVAT",
@@ -568,19 +568,25 @@
         "review": "UNDERKÄND",
         "themes": {
           "ID": "GENOMGÅNGET",
-          "REL": "ÖPPET",
-          "BO": "ÖPPET",
-          "ARB": "ÖPPET",
-          "EKO": "AVGRÄNSAT",
+          "REL": "GENOMGÅNGET",
+          "BO": "GENOMGÅNGET",
+          "ARB": "AVGRÄNSAT",
+          "EKO": "ÖPPET",
           "MIL": "EJ RELEVANT",
           "SAM": "ÖPPET",
-          "HAL": "ÖPPET",
+          "HAL": "GENOMGÅNGET",
           "PER": "ÖPPET",
-          "SYN": "ÖPPET"
+          "SYN": "AVGRÄNSAT"
         },
         "dependencies": {
           "P-0016/KP-01": [],
-          "P-0016/KP-02": []
+          "P-0016/KP-02": [],
+          "P-0016/KP-03": [
+            "P-0016/KP-01"
+          ],
+          "P-0016/KP-04": [
+            "P-0016/KP-02"
+          ]
         },
         "recordedApproval": false,
         "errors": []
