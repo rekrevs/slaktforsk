@@ -62,6 +62,12 @@ ostridigt. Hela hushållet överfördes 1951 till nästa bok, uppslag 1718–171
 |---|---|---|---|---|
 | [C-0903-riksarkivet-00054023_00234.jpg](../media/C-0903-riksarkivet-00054023_00234.jpg) | `00054023_00234` | 6443 × 4620 | 2 235 056 | `5fe5df643566e812f716115116e45017429eb849900caf01f24f6c836508ba5f` |
 
+## Bevarat katalogunderlag
+
+| Fil | SHA-256 |
+|---|---|
+| [S-0710-manifest-00054023.json](../media/S-0710-manifest-00054023.json) | `bbfe5b5dd649b2b2de0ba69204ff9d0e4ec475979bfba333802b5a944f2b9519` |
+
 ## Stödda påståenden
 
 A-3383–A-3385 (P-0212), A-3388–A-3390 (P-0239), A-3391–A-3392 (P-0240),
