@@ -2746,3 +2746,45 @@ tidigare versioner finns i Git och tidigare bevarad forskningshistorik.
 - Portfolio signal: T-0064–T-0067 DONE i inloggad session; kön fortsätter
   med T-0069 (fritt svep) före T-0070 (djup 5).
 - Revisit when: T-0069 är DONE eller ägaren ändrar ordningen.
+
+## PCR-2026-09-05-019
+
+- Record type: review
+- Date: 2026-09-05
+- Requested by: ägaren, direkt fråga i chatten ("skall vi inte ändra t-0064
+  mm till ongoing eftersom de inte är fullföljda?")
+- Trigger: T-0064–T-0067 sattes DONE efter genomförd forskningsläsning, men
+  fulloriginalen till C-0882–C-0900 är inte speglade i `genealogy/media/`.
+  Alla tidigare positiva läsningar i projektet har lokal källbild; posterna
+  har därför verifierbar men inte självbärande provenans.
+- Options considered: låta uppgifterna stå DONE och lägga speglingen i en ny
+  uppgift (obligationen lossnar från den passage som skapade den, och
+  DONE-räkningen överdriver läget); sätta dem ONGOING (fel token — arbetet
+  kan inte drivas vidare av agenten); sätta dem BLOCKED med exakt hinder.
+- Recommendation: BLOCKED. Kontrollmätning 2026-09-05 visar 401 anonymt för
+  samtliga 58 bild-id, och de tre alternativa uthämtningsvägarna är prövade
+  och uteslutna, så villkoret är en ägaråtgärd — vilket är definitionen av
+  BLOCKED i denna konvention.
+
+## PCD-2026-09-05-021
+
+- Record type: decision
+- Date: 2026-09-05
+- Decides review: PCR-2026-09-05-019
+- Owner: Sverker Adam Janson; direkt invändning i chatten.
+- Decision: Genomför rekommendationen. T-0064, T-0065, T-0066 och T-0067
+  återgår till BLOCKED med identiskt formulerat hinder och exakt
+  återupptagningssteg; T-0072 blir BLOCKED på beroendet. Det uppfyllda
+  forskningsinnehållet står kvar i Outcome, och acceptanskriteriet om
+  C-poster med original och SHA-256 är avbockat igen. Principen som
+  fastställs: lokal källbild ingår i evidenskontraktet för en positiv
+  läsning, och en uppgift som saknar den är inte fullföljd även om
+  bild-id och SHA-256 är fjärrverifierade.
+- Related records: PCD-2026-09-05-013, PCD-2026-09-05-020.
+- Resulting Wotan tasks: inga nya; T-0069 kvarstår ONGOING och är den enda
+  uppgift som kan drivas vidare utan ägaråtgärd.
+- Portfolio signal: fem uppgifter väntar nu på en och samma ägaråtgärd
+  (läsrätt till en nedladdningskatalog). Det är projektets enskilt största
+  flaskhals just nu.
+- Revisit when: nedladdningsvägen är löst, eller ägaren beslutar att
+  fjärrverifierad SHA-256 räcker som provenans för inloggade bilder.
