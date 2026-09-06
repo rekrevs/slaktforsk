@@ -35,6 +35,13 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-3301 | Augusta flyttade från Rosendala i Kyrkefalla till Vämb 1941-12-17; flyttboken anger Bergshamra. | CORROBORATED | hög | [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md) | Hushållsrad25 och B/11 sida88 nr272 med T86, namn och födelsetid överensstämmer. Ingen dödstid eller senare vistelselängd infereras. |
 
 | A-3309 | Kyrkefalla A II a/12 sida623 upptar Augusta Viktoria Johansson, född1863-06-24 i Kyrkefalla, med Per Vilhelm, Alva och Sven Assar Elias samt utflyttning till Skövde1924-06-20 för föräldrarna och Alva. | CORROBORATED | hög | [C-0873](../citations/C-0873-augusta-kyrkefalla-folio623.md), [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md) | Samma familj och exakt folio-/flyttbrygga; ingen uppgift om Augustas föräldrar eller äldre inflyttning. |
+| A-3682 | Lysning togs ut i **Mofalla annexförsamling** 24 april 1885 med lysningsdagarna 26 april, 3 och 10 maj; hon skrivs `Johansson Augusta Victoria i Bjerg`, född `²⁴/₆ 63`, folio 18. **Vigseln skedde 1885-06-19.** | CORROBORATED | mycket hög | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md), [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md) | Fastställer både vigseldag och vigselsocken. Skövde A II a/2:s datum var riktigt; Djursätrahushållets `7 juni` står kvar som avvikande källvariant. |
+| A-3683 | Hon fanns i hushållet **¼ mtl Bjerg**, Mofalla A I/5 sida 18, i klammern `Mannens barn i 1sta äktenskapet` under **nämndeman Johannes Eriksson**, född 1820-12-25. | TRANSCRIBED | hög | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | Källans egen formulering. Hustrun i hushållet, Karin Elisabeth Eriksdotter född 1833-01-29, tillhör andra äktenskapet och är alltså inte hennes mor. Modern namnges inte. |
+| A-3684 | Patronymikonet `Johansdotter`/`Johansson` förklaras av att fadern hette **Johannes**. | CORROBORATED | medel | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md), [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md), [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md) | Första gången namnformen får en källbunden förklaring. Tillförlitligheten är `medel` eftersom faderskapet i sig är omstritt, se A-3687. |
+| A-3685 | Kyrkefalla E/4:s hela årgång 1885, lysningarna 1–16 på sidorna 44–45, saknar paret. | NEGATIVE | hög | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md) | Avgränsat årsnoll för **moderförsamlingen**; Mofalla annex förde egen bok, där posten finns. |
+| A-3686 | Kyrkefallas födelsebok 1863 har **ingen födelse alls den 24 juni**; junidagarna är 7, 13, 21, 26 och 27. | NEGATIVE | hög | [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md) | Datumbundet noll, starkare än A-0671:s namnbundna. Hon kan inte ha fötts i Kyrkefalla den dagen. |
+| A-3687 | Johannes Ericsons hustru vid Bjerg 1863 hette **Christina Andersdotter** och födde sonen **Carl Otto 1863-05-29**, vilket utesluter att samma mor födde en dotter 1863-06-24. | CONFLICT | hög | [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md), [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | Hushållsboken gör henne till hans dotter i första äktenskapet; födelseboken gör det omöjligt med det datumet. Konflikten bevaras oförändrad och ingen föräldrarelation förs in i stamtavlan. |
+| A-3688 | Hushållsbokens födelseortskolumn är oanvändbar som ortsbelägg: `ibm` löper från faderns `K:fla` även för barn födda 1872–1877, när familjen bevisligen satt vid Bjerg i Mofalla. | TRANSCRIBED | hög | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | Källkritisk avgränsning; uppslaget kan varken styrka eller motsäga Kyrkefalla som hennes födelseort. |
 
 | A-3310 | Våmb A II a/4 sida474 rad6 upptar Augusta i Bergshamra, inflyttad från Kyrkefalla1941-12-17, med födelsetiden1863-06-24 och den avlidne maken Per Vilhelm Eliasson namngiven. | CORROBORATED | hög | [C-0874](../citations/C-0874-augusta-vamb-bergshamra-1941.md), [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md) | Mottagarposten anger ny bok folio95 år1949, ännu oläst. Ingen dödsdag på raden. Våmb är katalogens namn; Vämb var tidigare arbetsläsning. |
 | A-3450 | Hon var född 1863-06-27 i Kyrkefalla, gift 1885-06-07 med hemmansägaren Per Wilhelm Eliasson, född 1850-08-18 i Värsås, och bodde på Djursätra Västergård till utflyttningen till Kyrkefalla 1916-11-24; sju barn födda 1886–1904. | TRANSCRIBED | hög | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Första originalbelagda hushållsraden för familjen efter 1910. |
@@ -59,9 +66,12 @@ Johansdotter; folkräkningarna använder Johansson.
 
 | Datum | Händelse | Källa | Anmärkning |
 |---|---|---|---|
-| 1863-06-24 | **Uppgiven födelsedag**, Kyrkefalla. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md), [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md), [C-0873](../citations/C-0873-augusta-kyrkefalla-folio623.md) | **Ingen födelsenotis är funnen.** Gravregistret och Djursätrahushållet anger i stället **1863-06-27** (A-3612). Folkräkningen 1900 anger **Mofalla** som födelseort. |
-| 1863–1885 | Barndom och ungdom **helt odokumenterade**. | — | Ingen hushållsrad, ingen inflyttning, inget föräldrapar är känt. Detta är den stora luckan i hennes livsbild. |
-| 1885-06-19 | Gift med hemmansägaren Per Wilhelm Eliasson. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md) | **Vigselförsamlingen anges inte** och posten är inte återfunnen; Värsås E/1 1885–1886 är genomläst utan paret (C-0420). Djursätrahushållet anger avvikande **1885-06-07** (C-0917). |
+| 1863-06-24 | **Uppgiven födelsedag**, ort omstridd. | [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md), [C-0870](../citations/C-0870-augusta-aldre-skovde-sida329.md), [C-0873](../citations/C-0873-augusta-kyrkefalla-folio623.md), [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md) | **Ingen födelsenotis är funnen, och datumet bärs av ingen.** Kyrkefallas födelsebok har **ingen födelse alls den 24 juni 1863**, och Mofallas enda Augusta Viktoria den dagen är soldaten Eric Rottes dotter ([C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md)). Datumet står i hushålls- och lysningsböcker, som alla kan ha kopierat framåt. Gravregistret och Djursätrahushållet anger i stället **1863-06-27** (A-3612). |
+| före 1885 | **Bosatt vid ¼ mantal Bjerg i Mofalla**, i nämndeman **Johannes Erikssons** hushåll, förd under klammern `Mannens barn i 1sta äktenskapet`. | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | **Första hushållsraden någonsin för henne före giftermålet.** Hushållets hustru Karin Elisabeth Eriksdotter tillhör andra äktenskapet och är inte hennes mor; modern namnges inte. Faderskapet är **omstritt** ([C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md)) och förs inte in i stamtavlan. |
+| 1863–1885 | Barndomen i övrigt **odokumenterad**. | — | Ingen födelsenotis, ingen inflyttning och ingen moder är känd. Kvarstår som den stora luckan, men luckan är nu avsevärt smalare. |
+| 1885-04-26 – 05-10 | **Lysning i Mofalla annexförsamling**, nr 3; hon skrivs `Johansson Augusta Victoria i Bjerg` och **`Fadren Närvarande`**. | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md) | Fadern levde alltså och gav sitt samtycke i egen person. Folio 18 i församlingens husförhörsbok är ingången till hushållet. |
+| 1885-06-19 | **Gift med hemmansägaren Per Wilhelm Eliasson i Mofalla annexförsamling.** | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md), [C-0868](../citations/C-0868-augusta-smuleberg-1930-original.md) | **Vigselförsamlingen är nu känd.** Värsås E/1 1885–1886 och Kyrkefallas hela årgång 1885 saknar båda paret — nollen står kvar och är förklarade. Djursätrahushållets avvikande **1885-06-07** kvarstår som källvariant (C-0917). |
+| 1885 | **Flyttar till Värsås** enligt hushållsbokens flyttkolumn vid Bjerg. | [C-0991](../citations/C-0991-mofalla-AI5-sida18-bjerg-augusta-victoria.md) | Raden är överstruken med marginalanteckningen `Lysning`. |
 | 1886-12 | Sonen Bernhard Natanael föds; hennes ålder anges till 22 år. | [C-0023](../citations/C-0023-bernhard-natanael-fodelse-1886.md) | Åldern ger födelseår 1863 eller 1864. |
 | 1886–1904 | **Sju barn** föds på Djursätra Västergård. | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md), C-0024–C-0026 | Det yngsta är Alva Viktoria, född 1904 i Värsås. |
 | 1916-11-24 | Familjen flyttar från Djursätra Västergård till Kyrkefalla. | [C-0917](../citations/C-0917-bernhard-i-foraldrahemmet-djursatra-1907-1916.md) | Åter till den församling hon uppges vara född i. |
@@ -77,11 +87,11 @@ Johansdotter; folkräkningarna använder Johansson.
 
 ## Biografisk sammanfattning
 
-Augusta Viktoria Johansson är i alla hushållskällor en tydligt tecknad kvinna
-— och samtidigt en person **utan barndom**. Från 1885, när hon gifter sig,
-till 1949, när hon begravs, går det att följa henne år för år genom sju
+Augusta Viktoria Johansson var länge i alla hushållskällor en tydligt tecknad
+kvinna — och samtidigt en person **utan barndom**. Från 1885, när hon gifter
+sig, till 1949, när hon begravs, går det att följa henne år för år genom sju
 församlingsböcker, två folkräkningar, tre flyttlängder och ett gravregister.
-Före 1885 finns ingenting alls.
+Före 1885 fanns ingenting alls.
 
 Det är inte för att ingen har letat. Kyrkefalla, som hon själv uppger som
 födelseförsamling i fem skilda källor, har genomsökts för hela 1863 och 1864
@@ -89,16 +99,38 @@ utan en enda flicka med dopnamnet Augusta Viktoria. Mofalla, som 1900 års
 folkräkning anger i stället, innehåller mycket riktigt en Augusta Viktoria
 född **24 juni 1863** — men hennes far är soldaten Erik Rotte, vilket skulle
 ge patronymikonet Eriksdotter, inte Johansdotter. Den kandidaten hålls
-uttryckligen separat och har aldrig kopplats in. Också hennes födelsedag är
-omstridd: tre kyrkoböcker skriver 24 juni, medan gravregistret och
-Djursätrahushållet skriver 27 juni.
+uttryckligen separat och har aldrig kopplats in.
 
-Vad vi vet börjar med giftermålet. Hon gifte sig 1885 — den 19 juni enligt
-Skövdes församlingsbok, den 7 juni enligt Djursätrahushållet — med
-hemmansägaren Per Wilhelm Eliasson, som var tretton år äldre. **Var de vigdes
-är okänt**, och det är mer än en formalitet: en vigselnotis skulle namnge
-hennes far och därmed avgöra hela ursprungsfrågan. Värsås är genomsökt för
-åren i fråga; hennes egen hemförsamling Kyrkefalla är det inte.
+**Den 6 september 2026 lossnade det.** Vigselnotisen hittades — inte i
+Värsås, brudgummens socken, och inte heller i Kyrkefalla, utan i **Mofalla
+annexförsamling**, som förde egen bok. Lysningen togs ut den 24 april 1885
+med lysningsdagarna 26 april, 3 och 10 maj, och paret vigdes den **19 juni
+1885**. Skövdes församlingsbok hade alltså rätt om dagen; Djursätrahushållets
+7 juni är en avvikelse. Notisen skriver henne `Johansson Augusta Victoria i
+**Bjerg**`, ger hennes födelsedag som 24/6 63 och hänvisar till **folio 18**
+i församlingens husförhörsbok. Och i hinderslöshetskolumnen står två ord som
+är värda mer än de ser ut: **`Fadren Närvarande`**. Hennes far levde och stod
+där.
+
+Folio 18 leder till **¼ mantal Bjerg** och till ett hushåll som styrs av
+**nämndeman Johannes Eriksson**, född 1820-12-25. Augusta Victoria står som
+hans dotter, i en klammer märkt `Mannens barn i 1sta äktenskapet` — och för
+första gången finns det en källbunden förklaring till namnformen: **fadern
+hette Johannes**, alltså Johansdotter.
+
+Men hennes ursprung är inte löst, bara flyttat. Mofallas födelsebok visar att
+Johannes Erikssons dåvarande hustru **Christina Andersdotter** födde en son
+den **29 maj 1863** — en dotter till samma mor 26 dagar senare är omöjlig.
+Och Kyrkefalla har **ingen födelse alls den 24 juni 1863**. Det som ser ut som
+hennes födelsedatum bärs alltså av ingen enda födelsenotis; det står bara i
+hushålls- och lysningsböcker som alla kan ha kopierat framåt från samma
+anteckning — och i samma hushåll bär systern **Anna Sofia också `24/6`**.
+Konflikten står kvar oförändrad, och ingen föräldrarelation har förts in i
+stamtavlan.
+
+Frågan är därmed inte längre *vem var hon* utan *när föddes Johannes
+Erikssons dotter Augusta Victoria* — en betydligt smalare fråga, med en
+exakt nästa källa: Mofallas husförhörslängd för 1862–1876.
 
 De följande trettio åren bodde hon på **Djursätra Västergård** i Värsås och
 födde **sju barn mellan 1886 och 1904**. Den äldste var Bernhard Natanael;
