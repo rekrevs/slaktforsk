@@ -14,6 +14,58 @@
 
 | A-3148 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/41–49 över Jakobs kända vuxenperiod, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, ägarpost, närvaro eller frånvaro är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1830-04-16 | **Uppgiven födelsedag** i Bygdeå enligt församlingsbok och dödbok. | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md) | **KONFLIKT.** Den äldre husförhörsraden har lästs `1830-07-16`. Bygdeå C/4 saknar en säker post på **båda** de kontrollerade dagarna ([C-0424](../citations/C-0424-bygdea-C4-jakob-andersson-fodelsedatum-konflikt-1830.md)); hela årgången är inte genomläst. 16 april används som arbetsdatum. |
+| 1830-talet–1861 | Son till **Anders Olofsson och Maria Jakobsdotter i Ultervattnet** enligt husförhörslängden. | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md) | Hushållsstruktur; egen födelsenotis saknas och föräldralänken är inte oberoende bekräftad. |
+| omkring 1861–1862 | **Gift** med Maria Christina Hansdotter från Åkullsjön. | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) | **KONFLIKT.** Husförhörsraden markerar `G 62`, församlingsboken `61` — och paret saknas i **hela** Bygdeås vigselår både 1861 (23 poster) och 1862 (22 poster) ([C-0429](../citations/C-0429-bygdea-C4-vigslar-1861-negativ-kontroll.md), [C-0122](../citations/C-0122-bygdea-vigslar-1862-negativ-kontroll.md)). Vigselförsamlingen är okänd. |
+| 1862–1880 | **Fem barn**: Anders Petter, Jakob, Nils Leonard, Anna Fredrika och Christina Lovisa. | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) | |
+| 1872 | Dottern **Anna Fredrika** föds. | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md) | Direkt ana. |
+| 1880 | **Bonde** i Ultervattnet. | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) | |
+| 1890, 1900 | **Hemmansägare** i Ultervattnet. | [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md) | Ställningen stiger från bonde till hemmansägare mellan 1880 och 1890. |
+| 1903-08-26 | **Änkling**: Maria Christina dör i Ultervattnet. | [C-0426](../citations/C-0426-bygdea-F1-maria-christina-hansdotter-dod-1903.md) | |
+| 1905-10-03 | **Död som änkling i Ultervattnet**, `före detta hemmansägare`; dödsorsaken skrivs `ålderdomssvaghet`. Begravd 15 oktober. | [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md) | Historisk källterm utan modern omtolkning. |
+
+## Biografisk sammanfattning
+
+Jakob Andersson levde hela sitt liv i **Ultervattnet i Bygdeå** — men det är
+nästan allt som kan sägas med säkerhet om hans första trettio år.
+
+Han uppges vara född **16 april 1830**, och det datumet står samstämmigt i
+församlingsboken och i dödboken. En äldre husförhörsrad har däremot lästs som
+16 juli. Bygdeås födelsebok har kontrollerats på **båda** dessa dagar utan
+att någon säker post hittats — men hela årgången 1830 är aldrig genomläst.
+Föräldrarna, **Anders Olofsson och Maria Jakobsdotter i Ultervattnet**, är
+kända enbart genom husförhörslängdens hushållsstruktur; ingen egen
+födelsenotis bekräftar dem.
+
+Omkring 1861 eller 1862 gifte han sig med **Maria Christina Hansdotter** från
+Åkullsjön i samma socken. Också här står två uppgifter mot varandra:
+husförhörsraden markerar `G 62`, församlingsboken `61`. Och här finns det
+metodiskt starkaste av de negativa resultaten i akten — **båda årgångarna är
+lästa i sin helhet**, 23 poster 1861 och 22 poster 1862, utan att paret
+förekommer. De gifte sig alltså inte i Bygdeå, trots att båda hörde hemma
+där. Vilken församling det var i stället är okänt, och grannsocknarna är
+aldrig prövade.
+
+Familjen fick **fem barn** — Anders Petter, Jakob, Nils Leonard, Anna
+Fredrika och Christina Lovisa — och Anna Fredrika, född 1872, är den direkta
+anan. Under de årtiondena steg hans ställning: folkräkningen 1880 kallar
+honom bonde, 1890 och 1900 **hemmansägare**. Vad hemmanet omfattade är
+okänt; mantalsvolymerna `Vol/41–49` täcker perioden men saknar bildlänk, och
+bouppteckningsregistret ger noll för honom mot en positiv namnblank
+kontroll om 81 poster — ett täckningsgap, inte ett bevis att ingen akt fanns.
+
+Hustrun dog i augusti 1903. Två år senare, den **3 oktober 1905**, dog han
+själv som änkling och `före detta hemmansägare`, av `ålderdomssvaghet`, och
+begravdes den 15 oktober.
+
+Livsbilden har alltså **en fast mitt och två otydliga ändar**: en födelse som
+ingen originalpost bekräftar, och en vigsel som bevisligen inte ägde rum där
+man skulle vänta sig den.
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |

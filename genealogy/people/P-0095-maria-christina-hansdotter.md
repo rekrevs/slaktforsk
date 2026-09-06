@@ -22,6 +22,45 @@ i folkräkningarna 1890 och 1900.
 
 | A-3149 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/41–48 över Maria Christinas kända vuxenperiod, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog hushållsroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
 
+## Tidslinje
+
+| Datum | Händelse | Källa | Anmärkning |
+|---|---|---|---|
+| 1840-10-17 | **Född i Åkullsjön, Bygdeå**, dotter till bonden Hans Nilsson och Anna Stina Jonsdotter. | [C-0121](../citations/C-0121-maria-christina-fodelse-1840.md) | **Egen födelsenotis.** Den äldre arbetsavskriften `27/10` var felläst och är rättad; vuxenraden bekräftar 17 oktober. |
+| omkring 1861–1862 | **Gift** med Jakob Andersson i Ultervattnet. | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) | **KONFLIKT.** Husförhörsraden markerar `G 62`, församlingsboken `61`. Paret saknas i **hela** Bygdeås vigselår 1861 (23 poster) och 1862 (22 original- och SCB-poster) ([C-0429](../citations/C-0429-bygdea-C4-vigslar-1861-negativ-kontroll.md), [C-0122](../citations/C-0122-bygdea-vigslar-1862-negativ-kontroll.md)). |
+| 1862–1880 | **Fem barn** i Ultervattnet: Anders Petter, Jakob, Nils Leonard, Anna Fredrika och Christina Lovisa. | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) | |
+| 1872 | Dottern **Anna Fredrika** föds. | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md) | Direkt ana. |
+| 1880, 1890, 1900 | Hustru i bonde- och sedan hemmansägarhushållet i Ultervattnet; namnformen skrivs `Christina` 1880 och `Kristina`/`Krist.` 1890 och 1900. | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md) | |
+| 1903-08-26 | **Död i Ultervattnet, Bygdeå**, som Jakob Anderssons hustru; begravd 11 september. | [C-0426](../citations/C-0426-bygdea-F1-maria-christina-hansdotter-dod-1903.md) | **Dödsorsakskolumnen är tom.** Den privata familjekällans uppgift `Yttre Ultervattnet, Robertsfors` bekräftas inte av originalet: Robertsfors F/1 saknar posten helt ([C-0428](../citations/C-0428-robertsfors-1903-kontroll-maria-christina.md)). Dagen som familjen mindes är däremot rätt. |
+
+## Biografisk sammanfattning
+
+Maria Christina Hansdotter är den av de två i detta par vars ursprung är helt
+klarlagt. Hon föddes den **17 oktober 1840 i Åkullsjön** i Bygdeå, dotter
+till bonden **Hans Nilsson och Anna Stina Jonsdotter**, och båda föräldrarna
+står namngivna i hennes **egen födelsenotis**. En tidigare arbetsavskrift som
+läst dagen som den 27:e är rättad mot originalet.
+
+Omkring 1861 eller 1862 gifte hon sig med **Jakob Andersson** och flyttade de
+få kilometrarna från Åkullsjön till **Ultervattnet**, där hon blev kvar i
+drygt fyrtio år. Vigseln är den enda händelse i hennes liv som inte har någon
+källa: två senare anteckningar anger olika år, och Bygdeås **båda** årgångar
+är genomlästa i sin helhet utan att paret finns där. Det är ett metodiskt
+starkt negativt resultat — det visar att vigseln skedde någon annanstans, men
+inte var.
+
+Hon fick **fem barn**: Anders Petter, Jakob, Nils Leonard, Anna Fredrika och
+Christina Lovisa. Dottern Anna Fredrika, född 1872, är den direkta anan.
+Hushållet steg från bondehushåll till hemmansägarhushåll under 1880-talet.
+I källorna växlar hennes namn mellan `Christina`, `Kristina` och det
+förkortade `Krist.`, utan att det någonsin råder tvivel om vem som avses.
+
+Hon dog den **26 augusti 1903** i Ultervattnet och begravdes den 11
+september. Dödsorsakskolumnen är tom, så vad hon dog av går inte att veta ur
+källan. En detalj rättades här: familjens egen tradition placerade dödsfallet
+i `Yttre Ultervattnet, Robertsfors`, men Robertsfors dödbok saknar posten
+helt — den finns i Bygdeå. **Dagen familjen mindes var däremot exakt rätt.**
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
