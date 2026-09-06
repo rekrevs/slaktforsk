@@ -27,6 +27,10 @@ barndomshushåll i Jomark.
 | A-3460 | Han bodde kvar på **Jomark N:o 2, ⁷/₁₆ mantal, 10 hektar**, och fördes 1942 över från gamla bokens folio 750 till A II/5 c folio 703. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Hemmanets storlek är originalbelagd för första gången. |
 | A-3461 | Han och hustrun **utflyttade till Burträsk 1946-11-16**, två år före hans död. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Dottern Ebba Alfrida och svärsonen Oskar Alfred Zingmark bodde i Gammelbyn i Burträsk sedan 1930; det förklarar den gemensamma gravplatsen. |
 | A-3462 | Vigseldatumet 1904-05-03 och födelsen 1869-07-24 i Bygdeå bekräftas oberoende i församlingsboken 1942–1946. | CORROBORATED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Tredje oberoende bekräftelsen. |
+| A-3625 | Inflyttningen till Burträsk 1946-11-16 är förd även i Burträsks egen inflyttningsbok, nr 154, med destinationen **Burträsks municipalsamhälle, Gammelbyn 14¹⁸** och **uppslag 5 i delvolym I**. | CORROBORATED | hög | [C-0968](../citations/C-0968-andersson-inflyttning-burtrask-1946.md), [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Ut- och inflyttningsposterna stämmer på dagen; uppslagshänvisningen ledde till hushållssidan. |
+| A-3629 | Paret skrevs på **avsöndringen Gammelbyn 14¹⁸**, folio 5 i `A II a/4 a` — ett eget uppslag på dotterns fastighet, inte en rad på svärsonens folio 275. | TRANSCRIBED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md), [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md) | Fastighetsbeteckningen är densamma som Zingmarks; hushållen fördes åtskilda. |
+| A-3631 | Hans död **1948-12-21** är förd i församlingsbokens dödskolumn på folio 5. | CORROBORATED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md), [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Första originalbelägget för dödsdatumet; dödboken `F/5` slutar i april 1948 och `F/6` saknar bild ([C-0969](../citations/C-0969-anna-fredrika-dodbok-1947.md)). |
+| A-3632 | Han levde **arton månader som änkling** på dotterns fastighet efter hustruns död 1947-06-27, alltjämt skriven som hemmansägare. | TRANSCRIBED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md) | Änklingsdatumet står i egen kolumn på hans rad. |
 
 ## Relationer
 
@@ -49,8 +53,11 @@ Dotter: [P-0002 Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md).
 | 1907-08-18 | Dottern Ebba Alfrida född | Jomark | hemmansägare | hustru | C-0043 |
 | 1910–1917 | Robertsfors A II/2 a s. 1130 | Jomark | hemmansägare | hustru och dotter | C-0413 |
 | 1918–1941 | Jomark No 2, fol 658 och 750; dottern utflyttad 1928 | Jomark | hemmansägare | hustru (och dotter till 1928) | C-0891 |
-| 1942–1948 | **Materiell lucka**: nya bokens fol 703 (analog) | Jomark | — | — | profil Q-01, C-0891 |
-| 1948-12-21 | Död; gravsatt 1949-01-03, Burträsk BT 08 13 | okänt hemvist | hemmansägare | — | C-0878 |
+| 1942–1946 | Nya bokens fol 703, Jomark N:o 2, ⁷/₁₆ mtl, 10 har | Jomark | hemmansägare | hustru | C-0920 |
+| 1946-11-16 | Utflyttad till Burträsk; inskriven nr 154 | Robertsfors → Burträsk | hemmansägare | hustru | C-0920, C-0968 |
+| 1946–1948 | Församlingsbok `A II a/4 a` fol 5, avs. Gammelbyn 14¹⁸ | Burträsks municipalsamhälle | hemmansägare | hustru till 1947 | C-0970 |
+| 1947-06-27 | Hustrun dog; han blev änkling | Gammelbyn 14¹⁸ | hemmansägare | — | C-0969, C-0970 |
+| 1948-12-21 | Död; gravsatt 1949-01-03, Burträsk BT 08 13 | Gammelbyn 14¹⁸, Burträsk | hemmansägare | — | C-0970, C-0878 |
 
 ## Biografisk sammanfattning
 
@@ -68,9 +75,17 @@ paret bodde kvar där genom tre församlingsböcker i följd — folio 658 och
 flyttade ut 1928. Efter fyrtiotvå år på gården **utflyttade paret till
 Burträsk 1946-11-16**, dit dottern och svärsonen Oskar Alfred Zingmark hade
 flyttat 1930 — vilket förklarar den gemensamma gravplatsen (C-0920).
-Han dog 1948-12-21, alltjämt betecknad hemmansägare, och gravsattes
-1949-01-03 på Burträsks kyrkogård i den grav som hustrun, dottern och
-svärsonen delade (C-0878). Endast de två sista åren i Burträsk är olästa.
+I Burträsk fick paret ett **eget uppslag**, folio 5 i församlingsboken
+`A II a/4 a`, under rubriken **avsöndringen Gammelbyn 14¹⁸** — samma
+fastighet som dotterns familj, men en egen hushållsrad (C-0968, C-0970).
+Hustrun dog redan efter drygt ett halvår, den 27 juni 1947, och Anders
+Alfred levde därefter **arton månader som änkling**, alltjämt skriven som
+hemmansägare fastän gården var lämnad. Han dog **1948-12-21**, ett datum som
+nu står i församlingsbokens egen dödskolumn och inte bara i gravregistret,
+och gravsattes 1949-01-03 på Burträsks kyrkogård i den grav som hustrun,
+dottern och svärsonen delade (C-0970, C-0878). Hans egen dödboksnotis är
+inte läst: Burträsks `F/5` slutar i april 1948 och fortsättningen `F/6`
+saknar digitaliserad bild (C-0969).
 
 Öppna materiella frågor och källvägar finns i
 [forskningsprofilen](../research-profiles/P-0048.md).
@@ -78,7 +93,9 @@ svärsonen delade (C-0878). Endast de två sista åren i Burträsk är olästa.
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0066: Jomark 1918–1941 läst i T-0066 (C-0891); 1942–1948 ligger i A II/5c fol 703 utan digital bild (profil KP-01).
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0084: hela boendekedjan 1869–1948 är nu läst i original, inklusive de sista två åren i Burträsk och dödsdatumet i församlingsbokens dödskolumn (C-0968, C-0970). Kvar är enbart hinderbundna vägar: mantal och lagfart utan bildlänk, bouppteckningsregistret bakom ALTCHA och dödboken `F/6` utan bild.
+
+Tidigare rad 2026-09-05 (T-0066), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0066: Jomark 1918–1941 läst i T-0066 (C-0891); 1942–1948 ligger i A II/5c fol 703 utan digital bild (profil KP-01).
 
 Tidigare rad 2026-09-05 (T-0068), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: 1917–1948, hemmanet och dödsboet har genomförbara vägar (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
 
