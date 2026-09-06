@@ -34,6 +34,11 @@ missionärsläkare i Centralasien och Indien.
 | A-3326 | Notisen bär en anteckning daterad Hudiksvall 1903-08-25 om att modern begärt att barnet antecknas [såsom hennes]. | TRANSCRIBED | medel | [C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md) | Slutet av meningen är läsosäkert. |
 | A-3337 | Anders Ivar Höök, missionär, född 1903-05-13, utflyttade 1931-07-27 ensam från Fridhem i Hudiksvall (församlingsbokens s. 593) till Kashgar i Östturkestan. | TRANSCRIBED | hög | [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md) | Utflyttningslängd; ogift vid utresan (endast en man i posten). |
 | A-3338 | Hudiksvalls dödutdrag 1944 (hela året) och 1931–1949 års församlingsbok s. 593 saknar honom; dödsfallet 1944 registrerades inte i Hudiksvall. | CORROBORATED | hög | [C-0887](../citations/C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md) | Avgränsat noll; länslasarettets utdrag efter januari 1944 oläst. |
+| A-3386 | Han namnges som fader i sonens födelsepost 1933 med yrket missionär och födelsedatum 1903-05-13. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) | Samtida post som binder honom till sonen; bekräftar hans eget födelsedatum (C-0880). |
+| A-3387 | Han vigdes med Anna Elisabeth Carlman 1931-08-08. | CORROBORATED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) | Vigseldatum, tidigare okänt; ligger efter utresan 1931-07-27 (C-0886), så vigselorten låg sannolikt utomlands. |
+| A-3388 | Han avled 1944-08-19 i Poona i Indien. | CORROBORATED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Församlingsbokens änkeanteckning; preciserar familjeuppgiften 1944 (A-1451) med dag och ort. |
+| A-3389 | Sonen Anders Gustav föddes i Poona tolv dagar efter faderns död, 1944-08-31. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Postumt barn. |
+| A-3390 | Familjen var 1933 kyrkobokförd i Öst-Turkestan och barnen föddes växelvis i Stockholm, Kashgar och Poona. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Ger missionsårens rörelsemönster. |
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -74,9 +79,11 @@ och livskedja fortsätter utan att relationen demoteras.
 | 1931-07-27 | Utflyttning från Fridhem, Hudiksvall, till Kashgar, Östturkestan; ogift | Hudiksvall → Kashgar | missionär | — | C-0886 |
 | 1931 | Missionärsläkare; utresa till Östturkestan; Kashgar | Kashgar | missionärsläkare | — | C-0227 |
 | 1931-07-27–1933 | **Materiell lucka**: vigsel med Anna Elisabeth Carlman efter utresan; inte i Danderyd/Lidingö 1933 | okänt, sannolikt utomlands | — | — | profil Q-02, C-0887 |
-| 1933–1944 | Barn födda enligt familjen: 1933, 1935, 1938, 1944 | okänt | — | hustru och barn | C-0268 |
+| 1931-08-08 | Vigsel med Anna Elisabeth Carlman | okänt, sannolikt utomlands | missionär | — | C-0903, C-0902 |
+| 1933-03-26 | Sonen född i Engelbrekt, Stockholm; familjen kyrkobokförd i Öst-Turkestan | Stockholm / Öst-Turkestan | missionär | hustru | C-0902 |
+| 1936, 1938, 1944 | Barn födda i Kashgar, Engelbrekt (Stockholm) och Poona | Öst-Turkestan, Stockholm, Indien | missionär | hustru och barn | C-0903 |
 | 1930-talet | Missionspar i Östturkestan; Yarkand och Kashgar | Östturkestan | missionärsläkare | — | C-0227, C-0235 |
-| 1944 | Död under missionsarbete enligt familjen; inte registrerad i Hudiksvalls dödutdrag | Indien enligt familjen | — | — | C-0225, C-0887 |
+| 1944-08-19 | Död i Poona, Indien | Poona, Indien | missionär | — | C-0903, C-0225 |
 
 ## Biografisk sammanfattning
 
@@ -103,7 +110,9 @@ Gunnar, Marianne, Margareta och Gustav (C-0268). Enligt familjen dog han
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0065: utflyttningen 1931-07-27 till Kashgar är läst (C-0886); vigsel, barn och död ligger utanför Hudiksvall och de prövade Stockholmsförsamlingarna (C-0887); nästa nycklar är Lidingös inflyttningslängder 1937–1947 och missionsarkivet (profil KP-02, KP-04).
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0072: vigseldatum 1931-08-08, dödsdatum 1944-08-19 och dödsorten Poona är belagda i Lidingös församlingsbok (C-0903), och faderskapet till P-0212 i en samtida födelsepost (C-0902). Kvar: vigselns ort och handling, missionsarkivet och dödsbevis från Indien.
+
+Tidigare rad 2026-09-05 (T-0065), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0065: utflyttningen 1931-07-27 till Kashgar är läst (C-0886); vigsel, barn och död ligger utanför Hudiksvall och de prövade Stockholmsförsamlingarna (C-0887); nästa nycklar är Lidingös inflyttningslängder 1937–1947 och missionsarkivet (profil KP-02, KP-04).
 
 Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: egen födelsenotis, vigsel, utflyttning och dödsregistrering är genomförbara i RA:s SCB-utdrag (profil KP-01–KP-02); utbildning och missionsarkiv har konkreta katalogvägar. Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233. Matrisraden i source-coverage.md består.
 

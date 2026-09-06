@@ -28,6 +28,8 @@ den senare Elisabeth Höök som sjuksköterska och missionär.
 | A-1482 | MyHeritages publika sökutdrag anger 1902, men direktsidan kunde inte granskas på grund av hCaptcha. | CORROBORATED | hög | [C-0237](../citations/C-0237-myheritage-captcha-och-1902-utdrag.md) | Åtkomstresultat, inte personbelägg i sig. |
 | A-1727 | Hon och Anders Ivar Höök var föräldrar till helsyskonen Gunnar, Marianne, Astrid Margareta och Anders Gustav Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; Gunnar är dessutom oberoende stödd som deras son, men syskonskaran är ännu inte arkivkontrollerad. |
 | A-3340 | Vigseln med Anders Ivar Höök ägde rum efter hans utresa 1931-07-27 och inte 1933 i Danderyd eller Lidingö; sonens födelse 1933 rapporterades inte i Danderyd, Lidingö eller Gustav Vasa (16 mars–30 april). | CORROBORATED | hög | [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md), [C-0887](../citations/C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md) | Avgränsat noll; åren 1930–1932 saknas i SCB-indexet. |
+| A-3391 | Hon vigdes 1931-08-08 med Anders Ivar Höök, blev änka 1944-08-19 och inflyttade 1946-09-13 från Indien till Lidingö, Kyrkovägen 10, med fyra barn. | CORROBORATED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Församlingsbokens egna kolumner för vigsel, änkestånd och inflyttning. |
+| A-3392 | Hon namnges som moder i sonens födelsepost i Engelbrekt 1933 med födelsedatum 1902-04-09 och bostad Öst-Turkestan. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) | Bekräftar hennes födelsedatum (A-1464) i en samtida post. |
 
 ## Relationer
 
@@ -60,7 +62,10 @@ våg.
 | 1902–1930 | **Materiell lucka**: uppväxt, utflyttning, sjuksköterskeutbildning | Ljungby → Stockholm | — | — | profil Q-02 |
 | före 1930 | Bosatt i Gustav Vasa församling | Stockholm | sjuksköterska | — | C-0233 |
 | 1930 | Folkräkning; inflyttad från Gustav Vasa | Centrallasarettet, Danderyd, s. 522 | operationssköterska, ogift | — | C-0233 |
-| 1931-07-27–1933 | **Materiell lucka**: vigsel med Anders Ivar Höök efter hans utresa; inte i Danderyd/Lidingö 1933; egen utresa | okänt, sannolikt utomlands | — | — | profil Q-01, C-0886, C-0887 |
+| 1931-08-08 | Vigsel med Anders Ivar Höök | okänt, sannolikt utomlands | sjuksköterska | — | C-0903 |
+| 1933-03-26 | Sonen född i Engelbrekt, Stockholm; hon kyrkobokförd i Öst-Turkestan | Stockholm | — | maken | C-0902 |
+| 1944-08-19 | Änka; maken död i Poona | Indien | — | fyra barn | C-0903 |
+| 1946-09-13 | Inflyttning från Indien till Lidingö, Kyrkovägen 10 | Indien → Lidingö | änkefru, missionär | fyra barn | C-0903 |
 | 1930-talet | Missionspar i Östturkestan | Yarkand, Kashgar | sjuksköterska, missionär | make och barn | C-0227, C-0235 |
 | 1933–1944 | Barn födda enligt familjen | okänt | — | — | C-0268 |
 | 1944 | Makens död enligt familjen | Indien | änka | — | C-0225 |
@@ -90,6 +95,8 @@ att hon skulle vara född 1901 är avvisad.
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
 - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0065: vigsel 1933 och sonens födelse 1933 prövade med noll i Danderyd, Lidingö och Gustav Vasa (C-0887); makens utresa 1931-07-27 läst (C-0886); nästa nycklar Danderyd B/17 och Lidingö B I/8–9 (profil KP-01).
+
+Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0072: vigsel 1931-08-08, änkestånd 1944-08-19 och inflyttningen från Indien 1946-09-13 är belagda (C-0903), liksom moderskapet i sonens födelsepost (C-0902). Kvar: vigselns ort och handling, Lidingö 1951–1991 och döden 1991.
 
 Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: vigsel och hemförsamling är genomförbara i SCB-utdrag (profil KP-01); uppväxt, utbildning och missionsarkiv har konkreta vägar (KP-02–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
 

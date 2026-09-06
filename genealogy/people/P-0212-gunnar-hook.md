@@ -26,6 +26,14 @@ nå hans föräldrar.
 | A-3377 | Familjen flyttade 1967 till Floby, där han blev studierektor på Flobyskolan och senare rektor på Fredriksbergskolan i Falköping. | TRANSCRIBED | hög | [C-0901](../citations/C-0901-dn-minnesord-gunnar-hook-2017.md) | Ger yrkesbana och boendeort fram till döden i Falköping. |
 | A-3378 | Han var engagerad i samhälls- och internationella frågor, främst för Liberalerna och FN, satt i kulturnämnden i Västra Götalands län och tilldelades 2008 Karl Staaff-medaljen i silver. | TRANSCRIBED | hög | [C-0901](../citations/C-0901-dn-minnesord-gunnar-hook-2017.md) | Öppnar förenings-, parti- och utmärkelsearkiv som källvägar. |
 | A-3379 | Han var amatörmålare och beskrivs av barnen som organisatör med mottot `gör det nu`. | TRANSCRIBED | hög | [C-0901](../citations/C-0901-dn-minnesord-gunnar-hook-2017.md) | Personliga spår (PER). |
+| A-3380 | Ett levande gossebarn föddes 1933-03-26 i Engelbrekts församling i Stockholm som son till missionären Anders Ivar Höök och Anna Elisabeth Carlman; barnet var vid utdragets upprättande odöpt. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samtida originalpost. Avgör var födelsen registrerades och bekräftar familjens datum (A-1449, A-1721) och minnesordens Stockholm (A-3373). |
+| A-3381 | Vid nedkomsten var föräldrarna kyrkobokförda i Öst-Turkestan. | TRANSCRIBED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) | Förklarar varför posten saknas i Danderyd, Lidingö och Gustav Vasa (C-0887). |
+| A-3382 | Den tidigare uppgiften att han föddes i Lidingö är motbevisad av födelseposten. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) | A-1449 och A-1721:s ortangivelse faller; datumet 26 mars 1933 står kvar. |
+| A-3383 | I Lidingös församlingsbok 1946 skrivs han `Ivar Gunnar Emanuel`, icke döpt av svenska kyrkan, född 1933-03-26 i Engelbrekt. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Namnordningen står i konflikt med familjens `Gunnar Ivar Emanuel` (A-1721) och sammanfaller med den avvisade A-1479. Konflikten bevaras. |
+| A-3384 | Han inflyttade 1946-09-13 från Indien till Lidingö med modern och tre syskon, adress Kyrkovägen 10. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Bekräftar minnesordens återkomst 1946 (A-3375) och stöder IFK Lidingö 1948 (A-1450). |
+| A-3385 | Hushållet överfördes 1951 till Lidingös nästa församlingsbok, uppslag 1718–1719. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Nästa källväg för 1951–1962. |
+| A-3396 | Han gravsattes 2018-05-11 på Floby kyrkogård, kvarter P, gravplats 330 (FLP 330), med hemorten Falköping. | TRANSCRIBED | hög | [C-0904](../citations/C-0904-svenskagravar-ivar-gunnar-emanuel-hook-floby.md) | Gravregistret bekräftar även födelse- och dödsdatum. |
+| A-3397 | Gravregistret skriver namnet Ivar Gunnar Emanuel Höök, samma ordning som Lidingös församlingsbok 1946. | CORROBORATED | hög | [C-0904](../citations/C-0904-svenskagravar-ivar-gunnar-emanuel-hook-floby.md) | Två oberoende källor mot familjens senare `Gunnar Ivar Emanuel` (A-1721); konflikten bevaras och tilltalsnamnet Gunnar är ostridigt. |
 
 ## Relationer
 
@@ -68,9 +76,10 @@ Spara endast det som behövs för att fastställa nästa historiska generation.
 
 | Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
 |---|---|---|---|---|---|
-| 1933-03 | Född i Stockholm enligt minnesorden; datumet 26 mars enligt familj och sekundärsida; inte rapporterad i Danderyd, Lidingö eller Gustav Vasa 1933 (C-0887); föräldrarna stationerade i Asien | Lidingö enligt familjen; rapporterande församling okänd | — | Anders Ivar Höök och Anna Elisabeth Carlman | C-0225, C-0268, C-0236, C-0143 |
+| 1933-03-26 | Född i **Engelbrekts församling, Stockholm**; odöpt gossebarn; föräldrarna kyrkobokförda i Öst-Turkestan | Engelbrekt, Stockholm | — | Anders Ivar Höök och Anna Elisabeth Carlman | C-0225, C-0268, C-0236, C-0143 |
 | 1933–1946 | Barndom till stor del i en svensk skola i Indien; föräldrarna missionärer | Indien | — | föräldrar och syskon | C-0901 |
-| 1946 | Familjen återvänder till Sverige, ett par år efter faderns död | Sverige, sannolikt Lidingö | — | modern och syskonen | C-0901, C-0236 |
+| 1946-09-13 | Inflyttning från Indien till Lidingö, Kyrkovägen 10, med modern och tre syskon | Indien → Lidingö | — | modern och syskonen | C-0903, C-0901 |
+| 1951 | Hushållet överfört till Lidingös nästa församlingsbok, uppslag 1718–1719 | Lidingö | — | modern och syskonen | C-0903 |
 | 1946–1962 | **Materiell lucka**: skolgång, lärarutbildning, värnplikt | okänt | — | — | profil Q-02 |
 | 1962 | Vigsel; paret möttes på Ibra radio i Stockholm | Stockholm | lärare | — | C-0901 |
 | 1962–1967 | **Materiell lucka**: bostad och tjänst före Floby | okänt | lärare | — | profil Q-02 |
@@ -78,7 +87,8 @@ Spara endast det som behövs för att fastställa nästa historiska generation.
 | efter 1967 | Rektor på Fredriksbergskolan; kulturnämnden i Västra Götalands län; Liberalerna och FN-engagemang | Falköping | rektor | — | C-0901 |
 | 2008 | Karl Staaff-medaljen i silver | — | — | — | C-0901 |
 | 1948 | Tävlar för Lidingö, 15 år, enligt IFK Lidingös statistik | Lidingö | — | — | C-0228 (LEAD) |
-| 2017-09-22 | Död | Falköping enligt sekundärsida | — | — | C-0268, C-0236 |
+| 2017-09-22 | Död; hemort Falköping | Falköping | — | — | C-0904, C-0268, C-0236 |
+| 2018-05-11 | Gravsatt på Floby kyrkogård, kvarter P, gravplats 330 | Floby | — | — | C-0904 |
 
 ## Biografisk sammanfattning
 
@@ -98,7 +108,9 @@ sekundärsidan i Falköping (C-0268, C-0236).
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-233--t-0023-konsolidering-av-djup-14-pa-kristinas-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-06 med minnesorden (C-0901): födelseorten flyttas till Stockholm mars 1933, återkomsten till Sverige dateras till 1946 och hela vuxenlivet får en sammanhängande linje. Kvar: samtida födelsepost i Stockholm, Lidingös inflyttning 1946 och de nya förenings-/skolvägarna (profil KP-01–KP-03).
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0072: **födelseposten är funnen och läst** (Engelbrekt 1933 nr 54, C-0902) och hela hushållet är belagt i Lidingös församlingsbok 1946–1951 (C-0903). Q-01 är därmed avgjord. Gravposten är läst (C-0904). Kvar: Lidingö uppslag 1718–1719 (1951–1962) och de yrkes- och föreningsutlösta källorna för lärarbanan, Liberalerna, FN-föreningen, kulturnämnden i Västra Götalands län och Karl Staaff-medaljen 2008.
+
+Tidigare rad 2026-09-06, bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-06 med minnesorden (C-0901): födelseorten flyttas till Stockholm mars 1933, återkomsten till Sverige dateras till 1946 och hela vuxenlivet får en sammanhängande linje. Kvar: samtida födelsepost i Stockholm, Lidingös inflyttning 1946 och de nya förenings-/skolvägarna (profil KP-01–KP-03).
 
 Tidigare rad 2026-09-05 (T-0065), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0065: födelsen 1933 är prövad med avgränsat noll i fem SCB-utdrag (C-0887) och föräldrarnas utresa förklarar den; nästa nyckel är Lidingö B I/8–9 (inflyttning 1937–1947) och missionsarkivet; gravregister och ägaruppgift kvarstår (profil KP-02–KP-03).
 

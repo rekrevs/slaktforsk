@@ -11,6 +11,7 @@ Syster till Gunnar Höök, registrerad ur direkt familjeuppgift.
 | A-1715 | Marianne Höök föddes 1935-07-09 och dog 2025-04-25. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; ännu inte oberoende arkivverifierad. |
 | A-1716 | Hon var helsyster till Gunnar Ivar Emanuel Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Uttryckligen preciserad direkt familjeuppgift. |
 | A-1723 | Hennes föräldrar var Anders Ivar Höök och Anna Elisabeth Carlman, gift Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; ännu inte oberoende arkivverifierad för Marianne. |
+| A-3393 | Elisabeth Marianne föddes 1936 i Kashgar i Öst-Turkestan och inflyttade 1946-09-13 med modern från Indien till Lidingö. Församlingsboken skriver namnordningen Elisabeth Marianne och året 1936, mot familjeuppgiftens 1935. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samtida församlingsbok; syskonrad i P-0240:s hushåll. |
 
 ## Relationer
 

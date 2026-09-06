@@ -12,6 +12,7 @@ släktdata sparas eftersom personen kan vara nu levande.
 | A-1719 | Anders Gustav Höök, kallad Gustav, föddes 1944-08-31. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; ännu inte oberoende arkivverifierad. |
 | A-1720 | Han var helbror till Gunnar Ivar Emanuel Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Uttryckligen preciserad direkt familjeuppgift. |
 | A-1725 | Hans föräldrar var Anders Ivar Höök och Anna Elisabeth Carlman, gift Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; ännu inte oberoende arkivverifierad för Gustav. |
+| A-3395 | Anders Gustav föddes 1944-08-31 i Poona i Indien, tolv dagar efter faderns död, och inflyttade 1946-09-13 med modern till Lidingö. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samtida församlingsbok; syskonrad i P-0240:s hushåll. |
 
 ## Relationer
 

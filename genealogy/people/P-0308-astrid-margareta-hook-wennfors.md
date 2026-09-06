@@ -12,6 +12,7 @@ nödvändiga släktdata sparas eftersom personen kan vara nu levande.
 | A-1717 | Astrid Margareta Höök Wennfors, kallad Margareta, föddes 1938-07-26. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; ännu inte oberoende arkivverifierad. |
 | A-1718 | Hon var helsyster till Gunnar Ivar Emanuel Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Uttryckligen preciserad direkt familjeuppgift. |
 | A-1724 | Hennes föräldrar var Anders Ivar Höök och Anna Elisabeth Carlman, gift Höök. | TRANSCRIBED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Direkt familjeuppgift; ännu inte oberoende arkivverifierad för Margareta. |
+| A-3394 | Astrid Margareta föddes 1938 i Engelbrekts församling i Stockholm och inflyttade 1946-09-13 med modern från Indien till Lidingö; modern reste alltså hem även för denna nedkomst. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samtida församlingsbok; syskonrad i P-0240:s hushåll. |
 
 ## Relationer
 

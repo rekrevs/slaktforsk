@@ -12,6 +12,17 @@
     (Danderyd 240/242/426, Lidingö 433 enligt manifest).
   - `H 1 AA/2768` (1933) Stockholms stad fbu I, `A0032607`, 735 bilder: Gustav
     Vasa födelse från bild 190; bild 195–198 lästa (16 mars–30 april).
+    Volymens församlingar med första bild: Storkyrkoförsamlingen 5, Klara 21,
+    Kungsholm 34, Sankt Göran 76, Matteus 129, Gustav Vasa 190, Adolf Fredrik
+    221, Johannes 237, Jakob 274, **Engelbrekt 286**, Hedvig Eleonora 325,
+    Oscar 345, Sofia 374, Katarina 415, Maria Magdalena 478, Högalid 504,
+    Brännkyrka 562, Enskede 604, Bromma 637, Hovförsamlingen 681, Skeppsholm
+    693, Tyska Sankta Gertrud 706, Finska 718, Stockholms katolska 732,
+    Stockholms stads bårhus 734. Engelbrekt mars 1933 = bild 292–293
+    (post 49–62), läst i T-0072.
+  - `H 1 AA/2769` (1933) Stockholms stad fbu II, `A0032608`, 625 bilder, är
+    barnbördshusen: Allmänna barnbördshuset bild 3, Södra barnbördshuset 307,
+    Barnbördshuset Pro Patria 552. Stickprov bild 50, 65, 80 i T-0072.
   - `H 1 AA/3545` (1944) Gävleborgs län dbu, `A0041207`, 452 bilder: Hudiksvall
     död bild 383–391 (hela året, nr 1–96), Hudiksvalls länslasarett bild 426
     (januari; fortsättningen inte läst).
