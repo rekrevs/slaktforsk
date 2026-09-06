@@ -30,6 +30,7 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | A-3575 | **Hennes make var lokomotiveldaren Axel Vilhelm Ekholm, född 1878-02-17**, skriven i Katarina församling i Stockholm. | TRANSCRIBED | hög | [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md), [C-0028](../citations/C-0028-maj-amalia-originalfodelse-1920.md), [C-0019](../citations/C-0019-maj-amalia-folkrakning-1930.md) | Identifikationen vilar på tre sammanfallande uppgifter: dödsdagen 1913-03-11, yrket lokomotiveldare och efternamnet Ekholm. Vigselposten är oläst. |
 | A-3576 | **Han dog 1913-03-11 av lungsot i Helgesta**, 35 år gammal, och begravdes där 1913-03-17. | TRANSCRIBED | hög | [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Dödsdagen är exakt den dag hennes änkestånd dateras till i dotterns födelsepost. |
 | A-3577 | Att maken var skriven i **Katarina församling i Stockholm** och inte i Hyltinge förklarar varför paret inte går att finna som hushåll i Hyltinges församlingsbok; det gör också Katarina till den troligaste vigselförsamlingen. | TRANSCRIBED | medel | [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Ny konkret källväg för vigseln; Hyltinges `E I/2` är ett alternativ, med 1903 och 1906 stickprovslästa utan träff. |
+| A-3579 | **Vigseln skedde inte i Hyltinge.** Församlingens lysnings- och vigselbok är läst rad för rad för samtliga årgångar 1899–1912, alltså hela fönstret mellan hennes ogifta ställning 1900 och änkeståndet 1913-03-11. | NEGATIVE | hög | [C-0953](../citations/C-0953-hyltinge-vigselbok-1899-1912-noll-ekholm-alund.md), [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md), [C-0952](../citations/C-0952-axel-vilhelm-ekholm-dod-1913.md) | Avgränsat noll som pekar vidare: maken var skriven i **Katarina församling i Stockholm**, så vigseln skedde med all sannolikhet där, och hon måste ha flyttat dit efter 1900. Hyltinges utflyttningslängd `B/4` och Katarinas vigselbok är de två följdvägarna. |
 
 ## Relationer
 
@@ -59,7 +60,7 @@ Maj Amalias mor, belagd i födelseutdraget 1920 och samma hushåll 1930.
 | 1879 | Flytt med föräldrarna | Gryt → Hyltinge | — | föräldrar | C-0077 |
 | 1890 | Folkräkning | Valsund, Hyltinge | dotter, ogift | föräldrar, brodern Karl Albert | C-0078 |
 | 1900 | Folkräkning | Rudstugan, Hyltinge | dotter, ogift, 23 år | föräldrar | C-0088 |
-| 1900–1913 | **Materiell lucka**: vigseln med Axel Vilhelm Ekholm; troligast Katarina förs. i Stockholm | okänt | — | — | profil Q-01, C-0952 |
+| 1900–1913 | **Materiell lucka**: vigseln med Axel Vilhelm Ekholm och flytten till Stockholm; **inte i Hyltinge** | Stockholm? | — | — | C-0953, C-0952 |
 | 1913-03-11 | **Änka**; maken Axel Vilhelm Ekholm dör av lungsot i Helgesta, begravd där 17/3 | Helgesta | — | — | C-0952, C-0028 |
 | 1920-05-11 | Dottern Maj Amalia född | Hyltinge | änka | — | C-0020, C-0028 |
 | 1921 | Dottern Hulda Margareta född enligt index | Helgesta | — | — | C-0015 |
