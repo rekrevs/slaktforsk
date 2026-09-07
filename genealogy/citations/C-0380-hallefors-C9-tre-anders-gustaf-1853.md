@@ -46,3 +46,23 @@ normaliserade patronymikon förblir läsosäkra.
 ## Stödda påståenden
 
 A-2061 och A-2118–A-2119.
+
+## Rättelse 2026-09-07 — ortnamnet, moderns ålder och faddrarna
+
+Post 67 är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100.
+Se [C-1014](C-1014-hallefors-C9-post-67-narlasning.md).
+
+- Föräldrakolumnens sista led lyder **`fr. S. Torpen.`**, inte `fr. S.
+  Försam.` Det är en **hemvistuppgift**, och normaliseringen *från samma
+  församling* faller. Sidans övriga poster anger genomgående verkliga orter i
+  samma kolumn.
+- Omständighetskolumnen bär **`31 år`** — under den vanliga läsningen
+  **moderns** ålder, vilket ger `Carolina Magnusd:r` födelseår omkring
+  1821–1822.
+- **Faddrarna**, som här sköts upp tills rätt barn identitetsbundits, är
+  `Torp. Johannes Nilsson och H:u M. Cath. Hellqvist, Dr. Carl Edvin Jonsson
+  och pigan Margaretha Olsd:r fr. Källberget`. Ingen av dem bär patronymikonet
+  `Magnusson`/`Magnusdotter`.
+- Initialerna `C. J.` bekräftas som läsning men förblir oupplösta som förnamn.
+
+Texten ovan bevaras oförändrad som revisionsspår.
