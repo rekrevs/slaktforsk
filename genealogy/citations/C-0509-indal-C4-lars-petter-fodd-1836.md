@@ -43,3 +43,25 @@ negativa läsningen i C-0435.
 ## Stödda påståenden
 
 A-2309–A-2311, A-2317, A-2320.
+
+## Rättelse 2026-09-07 — orten, det saknade `h.`, dopdagen och faddrarna
+
+Posten är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100,
+och ortnamnet är prövat mot Rosenbergs samtliga 38 poster för Indals socken.
+Se [C-1017](C-1017-indal-C4-1836-arklo-och-radens-lydelse.md).
+
+- Boställesordet är **`Arklo`**, by i Indals socken (Rosenberg 1176). Samma
+  sidas fadderkolumn skriver `Bond. Johan Ersson i Arklo` med identisk
+  teckenföljd, och ingen Indalsort liknar `Melle` eller `Miklo`.
+- **Raden bär inget `h.`** framför moderns namn: efter `och` följer direkt
+  `Lisa St: Larsd: 25`. Tecknet `St:` är förkortningen för **Stina**.
+- Dagkolumnerna bär en rättelse: **`29` med `27` skrivet ovanför** i
+  födelsedagskolumnen, och **`28`** i dopdagskolumnen. Läsningen är alltså
+  **född 27, döpt 28** december 1836; `döpt 29` ovan beror på att det
+  överstrukna talet i den första kolumnen lästs som dopdag.
+- **Faddrarna**, som inte transkriberades ovan, inleds `Bond: Jakob Jakobsson
+  i Östanskär och hans hustru, Torp: Erik Gustaf Dahlquist i Mellansätter[?]
+  och hans hustru, Bond. Johan Ersson i Arklo och hans hustru, Erik Petter
+  Pehrsson i Arklo …`
+
+Avskriften ovan bevaras oförändrad som revisionsspår.

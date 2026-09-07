@@ -11,6 +11,8 @@ Christina Jonsdotter.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2320 | Lisa Stina Larsdotter var 25 år och mor till Lars Petter när han föddes 1836-12-27. | TRANSCRIBED | hög | [C-0509](../citations/C-0509-indal-C4-lars-petter-fodd-1836.md) | Sonens samtida födelsepost; åldern ger endast ett ungefärligt eget födelseår. |
+| A-3787 | Födelseposten 1836 skriver `Torpemannen Nils Pehrsson i Arklo och Lisa St: Larsd: 25`; **någon förkortning `h.` framför hennes namn finns inte i originalet**. | NEGATIVE | hög | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) | C-0509:s diplomatiska rad innehöll både `h.` och `St.`; originalet bär bara `St:`, förkortning för Stina. Hennes civilstånd avgörs därmed inte av denna post. |
+| A-3788 | Dagkolumnerna i posten bär en rättelse: `29` med `27` skrivet ovanför i födelsedagskolumnen och `28` i dopdagskolumnen, alltså född 27 och döpt 28 december 1836. | CORROBORATED | hög | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) | Födelsedagen 27 bekräftas oberoende av A I/8 sida 108; C-0509:s `döpt 29` beror på att det överstrukna talet lästs som dopdag. |
 
 ## Relationer
 
@@ -22,9 +24,9 @@ Christina Jonsdotter.
 ## Forskningsstatus
 
 Moderskapet är säkrat i sonens födelsepost. Egen födelse, vigsel eller annan
-relation till Nils Pehrsson, boställe och livsslut är öppna. Sökankaret är
-namnet, åldern 25 år 1836 och det svårlästa ordet efter faderns namn i
-C-0509; ordet normaliseras inte till ort eller släktnamn utan korsbelägg.
+relation till Nils Pehrsson, boställe och livsslut är öppna. Sökankaret är namnet, åldern 25 år 1836 och **orten `Arklo`**, som lästes
+2026-09-07 med stöd av handstilsjämförelse och Rosenbergs Indalslista
+(C-1017).
 
 ## Slutstatus
 
@@ -35,9 +37,10 @@ C-0509; ordet normaliseras inte till ort eller släktnamn utan korsbelägg.
   Högsjöavsnitt sidorna 86–95 för den senare målprofilen Nils Pehrsson–Lars
   Petter; avsnittet saknar familjen.
 - Negativ kontroll: [C-0514](../citations/C-0514-indal-AI7-hogsjo-nilsson-avgransat-negativ.md)
-- Återaktivering: en säker läsning av det svårlästa ordet i C-0509 eller en
-  ny personbunden vigsel-, hushålls- eller flyttnyckel. Sök inte ett helt
-  födelseår omkring 1811 enbart på namn och avrundad mödraålder.
+- Återaktivering: **det svårlästa ordet är läst — orten är `Arklo` i Indal**
+  (C-1017), och villkoret är därmed uppfyllt. Slå upp Arklo i `A I/6`
+  (1836–1846). Sök fortfarande inte ett helt födelseår omkring 1811 enbart på
+  namn och avrundad mödraålder.
 
 ## Arbetsläge
 
