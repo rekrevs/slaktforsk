@@ -14,6 +14,7 @@ född 1834-03-21.
 | A-3229 | Indal C/3:s fullständiga födelseår 1800 saknar ett barn Anders fött 22 oktober. | CONFLICT | hög | [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md) | Exakt hushållsdatum kan inte förenas med födelseoriginalet; ingen annan post väljs utan mellanlänk. |
 | A-3771 | Indal A I/7 sida 193 har kolumnen Födelse-ort och anger `Indahl` på hans rad; A I/6 sida 185 saknar sådan kolumn. | CONFLICT | hög | [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md), [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md) | Sockenuppgiften står mot Indals kompletta födelseår 1800 och gäller båda makarna oberoende. |
 | A-3791 | Indal A I/8 sida 108 anger i Hvarifrån-kolumnen `225` för dottern Cajsa Märta Dahlsten; sida 225 i samma volym är därmed sannolikt Säterhushållets sida efter 1854. | LEAD | medel | [C-1018](../citations/C-1018-indal-AI8-sida-108-flyttkolumnerna.md) | Sidhänvisning inom volymen, läst i närbild. Ger familjens fortsättning efter A I/7 utan ny sökning. |
+| A-3808 | Indals lysnings- och vigselbok `E I/1` börjar **1831**, och den enda äldre vigselboken ligger inne i `A I/1` och slutar **1734**; för 1735–1830 finns ingen digitaliserad vigselbok. Parets vigsel, som ligger 1830 eller tidigare, är därmed inte digitalt tillgänglig. | NEGATIVE | hög | [C-1025](../citations/C-1025-indal-vigselbok-saknas-1735-1830.md) | Dokumenterad avgränsning av det digitala materialet, belagd av filmens egen innehållsförteckning och volymens titelkort. Substitut: A I/5 (1824–1835) och H II/1 (1781–1830). |
 
 ## Relationer
 
@@ -37,8 +38,10 @@ födelseårgång och används inte för att skapa föräldrar.
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: ett tidigare personbundet Säter-hushåll, parets vigsel
-  eller en flyttkälla som anger Anders föräldrahem eller säker födelsesocken.
+- Förväntad källa: **`A I/5` (1824–1835), bildserie `C0033066`** — den
+  husförhörslängd som täcker vigselperioden, med kolumnerna `Gifta år` och
+  `Hvarifrån` — samt **`H II/1`, flyttbilagor 1781–1830**. **Parets vigsel är
+  inte digitalt tillgänglig**: Indal saknar vigselbok 1735–1830 (C-1025).
 - Genomsökt: Indal C/3:s hela födelseår 1800, bilder
   `C0033076_00164`–`_00166`, mot A I/6–A I/7:s exakta datum.
 - Negativ kontroll: [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md)

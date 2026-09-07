@@ -19,6 +19,7 @@ Indal, och mor till Cajsa Märta, född 1834-03-21.
 | A-3230 | Indal C/3:s post 1807-07-12 gäller Anna Brita, dotter till Jon Andersson och Stina Jonsdotter i Högsjö, och är inte förenlig med Stina Cajsa Larsdotter. | CONFLICT | hög | [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md) | Exakt datumträff men oförenligt namn och patronymikon; kandidaten hålls separat. |
 | A-3769 | Hustruns namn läses i original **Stina Cajsa Larsd:** i både Indal A I/6 sida 185 och A I/7 sida 193; formen Anna Cajsa Larsdotter i C-0436 och C-0437 är en avskrivningsrättelse. | CORROBORATED | hög | [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md) | Två volymer förda av olika händer ger samma läsning; det är därför inte en källvariation. |
 | A-3770 | Indal A I/7 sida 193 har kolumnen Födelse-ort och anger `Indahl` på hushållsföreståndarens rad med ditto därunder, alltså även för hustrun. | CONFLICT | hög | [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md), [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md) | Sockenuppgiften står mot Indals kompletta födelseår 1807. A I/6 saknar ortkolumn. |
+| A-3809 | Vigselvägen är avgränsad: Indal saknar digitaliserad vigselbok 1735–1830, och parets vigsel ligger 1830 eller tidigare. Kvarstående vägar är `A I/5` (1824–1835) med kolumnerna Gifta år och Hvarifrån, samt `H II/1`, flyttbilagor 1781–1830. | NEGATIVE | hög | [C-1025](../citations/C-1025-indal-vigselbok-saknas-1735-1830.md) | Avgränsningen gäller det digitala materialet, inte personen. Ingen av substitutvägarna är prövad. |
 
 ## Relationer
 
@@ -42,8 +43,11 @@ patronymikon och får inte göras till hennes födelsepost.
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: ett tidigare personbundet Säter-hushåll, parets vigsel
-  eller en flyttkälla som anger Annas föräldrahem eller säker födelsesocken.
+- Förväntad källa: **`A I/5` (1824–1835), bildserie `C0033066`**, vars kolumn
+  `Hvarifrån` bör ange varifrån hon kom, samt **`H II/1`, flyttbilagor
+  1781–1830**, där en attest normalt ger hemförsamling och födelsedatum.
+  **Parets vigsel är inte digitalt tillgänglig**: Indal saknar vigselbok
+  1735–1830 (C-1025).
 - Genomsökt: Indal C/3:s hela födelseår 1807, bilder
   `C0033076_00184`–`_00185`, mot A I/6–A I/7:s exakta datum.
 - Negativ kontroll: [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md)
