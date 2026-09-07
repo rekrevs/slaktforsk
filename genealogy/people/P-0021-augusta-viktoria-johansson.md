@@ -67,6 +67,12 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-3722 | **Födelseposten bär ingen `oäkta`-markering.** Namnkolumnen lyder enbart `Augusta Viktoria`, som grannposterna `Carl Otto`, `Johan` och `Amanda Josephina`. | TRANSCRIBED | hög | [C-1001](../citations/C-1001-kyrkefalla-EI1-vigsel-johannes-ericsson-maja-greta-1848.md) | Skärper konflikten i A-3710 i stället för att lösa den: en gift soldat som inte var moderns make är namngiven som far i en post som i övrigt är förd som vilken som helst. |
 | A-3723 | **Modern `Larsdotter Maria Greta` dog 1868-09-27** och begravdes 6 oktober, `Hustru till Kyrkovärden Johannes Ericson i Bjerg`, **44 år 5 månader 29 dagar**, gift, folio **18**. | CORROBORATED | mycket hög | [C-1002](../citations/C-1002-mofalla-F2-maria-greta-larsdotter-dod-1868.md) | Åldern ger födelse 1824-03-29, inom en dag från A I/4:s 1824-03-28. Förklarar strykningen i A I/4 och omgiftet 1870-12-01, drygt två år senare. Dödsorsakskolumnen är tom. |
 | A-3724 | **Moderskapet är belagt i tre oberoende samtida poster** — födelseboken 1863 (namn, 39 år, folio 18), husförhörslängden A I/4 sida 18 (namn, f. 1824-03-28) och dödboken 1868 (namn, f. 1824-03-29, folio 18, hustru till Johannes Ericson i Bjerg). | CORROBORATED | mycket hög | [C-1002](../citations/C-1002-mofalla-F2-maria-greta-larsdotter-dod-1868.md), [C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md), [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md) | **Försvagar starkt läsningen att födelsepostens mor vore en annan Maja Greta Larsdotter.** Moderrelationen är därmed av annan art än fadersrelationen, som är omstridd. Personakt för henne skapas som eget steg med personkontraktets behandling, inte som stubbe. |
+| A-3725 | **Blanketten i Mofallas födelsebok 1863 har ingen äkta/oäkta-kolumn.** Kolumnerna är `Föräldrarnes namn …`, `Hemvist jemte pag. i husfh.`, `Tillhör Adel.`, `Modrens ålder`, `Förlossningsbiträde`, `Dop-vittnen`. | TRANSCRIBED | mycket hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Skärper A-3722: oäkthet kunde här endast skrivas i klartext, och är inte utskriven. |
+| A-3726 | **Hemvistkolumnens konvention:** siffran på moderns rad anger sidan där modern och barnet är skrivna, ortnamnet på faderns rad anger den namngivne faderns egen hemvist. Prövad på två poster med två oberoende träffar. | CORROBORATED | hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Post 10:s `18` = A I/4 sida 18, Bjerg, där Augusta Victoria själv är införd. Post 9:s `32` = A I/4 sida 32, Svebråta Sörgården, där postens barn Carl Otto är införd. Två träffar på moderns rad och två missar på faderns är inte slump. |
+| A-3727 | **Post 9 gäller inte Bjerg.** `Christina Andersdotter` f. 1823 var hustru till `Hem.ägare Andersson Andreas` f. 1816 på **Svebråta Sörgården**, A I/4 sida 32, där sonen `Carl Otto` f. `63 ²⁹/₅` står som rad 7. | CORROBORATED | mycket hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Bekräftar i original den premissrättelse som A-3687 gjorde enbart på foliosiffran. Modersåldern 40 stämmer mot f. 1823. |
+| A-3728 | **Bjerg har bara en Johannes Ericson.** A I/4 sidorna 15–18 rymmer `Magnusson Johannes` f. 1826, `Nämndeman Magnusson Magnus` f. 1830, `Magnusson Andreas` f. 1813 och `Nämndem. Eriksson Johannes` f. 1820. | CORROBORATED | hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Post 9:s namngivne far `Ericson Johannes, Hem. Egare i Bjerg` kan därför inte skiljas från Augusta Victorias rättslige far genom namnlikhet. Ingen slutsats dras av detta här. |
+| A-3729 | **Erik Jansson Roth fanns i Atteby i april 1863.** Han står som dopvittne till post 7 som `Rotte, Erec Jansson` `{ Soldat i Atteby }`, samma namnform som A I/3 sida 306. | CORROBORATED | mycket hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Fadersuppgiften i post 10 är därmed en aktuell beskrivning, inte en föråldrad. Post 10 har till skillnad från grannposterna ett enda dopvittne. |
+| A-3730 | **Roths egen sida i A I/4 är inte lokaliserad.** Rote 1:s soldattorp (sida 20, `Bjergs Soldattorp`) innehas 1862–1876 av `Soldat Ferm Carl Andersson` f. 1828-02-05, och sida 14 `Attebu. Sandliden` rymmer en annan familj. Volymen slutar utan register. | TRANSCRIBED | hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Exakt, avgränsat och ännu outfört steg: finn Roth i A I/4 via flyttningslängden eller generalmönsterrullan innan fadersuppgiften prövas vidare. |
 
 ## Relationer
 
@@ -201,12 +207,22 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
   folio 18 ([C-0999](../citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md)).
 - Kvarstående motsägelse, **en enda**: födelsenotisen skriver fadern
   `Rotte, Eric, Soldat i Atteby`, hushållsboken `Eriksson Johannes`. Samma
-  mor, samma folio, samma hushåll. Ett soldatnamn är den närliggande
-  förklaringen men är **inte belagd**, och ingen föräldrarelation förs in i
-  stamtavlan förrän den är det.
-- Förväntad källa: **Erik Jansson Roths vidare öden** i Mofalla `A I/4` och
-  `F/2`, som skulle visa om hans hushåll och Bjerg har någon förbindelse, samt
-  **generalmönsterrullan för Västgöta regemente n:o 100**. Frågan om
+  mor, samma folio, samma hushåll. Ett soldatnamn är uteslutet (A-3716), och
+  ingen föräldrarelation förs in i stamtavlan förrän frågan är avgjord.
+- **Skärpt 2026-09-07** (C-1003). Födelsebokens hemvistkolumn är läst som
+  blankett och inte som text. Konventionen är belagd på två poster: siffran
+  på moderns rad anger sidan där modern och barnet är skrivna, ortnamnet på
+  faderns rad anger **den namngivne faderns egen hemvist** (A-3726). Post 10
+  säger därmed: modern och barnet på Bjerg sida 18, den namngivne fadern
+  soldat i Atteby. Blanketten har **ingen äkta/oäkta-kolumn alls** (A-3725).
+  Roth fanns bevisligen i Atteby i april 1863 (A-3729). Grannposten 9 visar
+  samma mönster spegelvänt och gäller inte Bjerg utan Svebråta Sörgården
+  (A-3727). Fyra läsningar är uppräknade i C-1003; **ingen väljs**.
+- Förväntad källa: **Erik Jansson Roths egen sida i Mofalla `A I/4`**, som
+  ännu inte är lokaliserad — rote 1:s soldattorp innehas 1862–1876 av soldat
+  Ferm och volymen saknar register (A-3730) — nåbar via Mofallas
+  flyttningslängd `B`, samt **generalmönsterrullan för Västgöta regemente
+  n:o 100**. Frågan om
   soldatnamn är avgjord och utesluten (A-3716), 1863 års
   hushållstillhörighet är besvarad (A-3718), **äktenskapets ramar är slutna
   — vigsel 1848-06-23, moderns död 1868-09-27** (A-3720, A-3723) och
@@ -223,9 +239,11 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
   äktenskap** men med **en annan man, den gifte soldaten Erik Jansson Roth,
   utpekad som far i födelseboken** — och posten bär **ingen oäkta-markering**.
   Äktenskapet ingicks 1848-06-23 och bestod till moderns död 1868-09-27, så
-  barnet föddes mitt i det, och moderskapet är belagt i tre oberoende poster. Det är vad källorna säger; ingen tolkning görs, och ingen
+  barnet föddes mitt i det, och moderskapet är belagt i tre oberoende poster.
+  Hemvistkolumnen anger dessutom uttryckligen två skilda platser för mor och
+  namngiven far. Det är vad källorna säger; ingen tolkning görs, och ingen
   föräldrarelation förs in i stamtavlan. Fyra läsningar återstår och är
-  uppräknade i C-1001; ingen av dem väljs.
+  uppräknade i C-1001 respektive C-1003; ingen av dem väljs.
 - Upphävt: Kyrkefallauppgiften i hushållsböckerna vilar på en oreflekterad
   `ibm`-kedja och är inte en ortsuppgift (A-3688). A-3687 och dittohypotesen
   i C-0992 är tillbakadragna.
@@ -233,9 +251,15 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
   1863 och 1864; Kyrkefalla har **ingen födelse alls den 24 juni 1863**;
   Värsås samtliga serier 2026-08-20.
 - Negativ kontroll: [C-0114](../citations/C-0114-augusta-viktoria-negativ-kontroll-1863.md),
-  [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md)
-- Nästa steg: pröva soldatnamnshypotesen mot **Atteby soldattorp** i Mofalla
-  A I/4 och mot generalmönsterrullorna. Först då kan faderskapet avgöras.
+  [C-0992](../citations/C-0992-fodelsebockerna-1863-kyrkefalla-och-mofalla-konflikt.md),
+  [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md)
+  (Roth saknas på A I/4 sidorna 14 och 20)
+- Genomsökt 2026-09-07: Mofalla `A I/4` sidorna **11, 14, 15, 16, 17, 18, 20,
+  32 och 114** samt volymens slut (ingen register­del); Mofalla `C/4` 1863 års
+  sida 4 läst som blankett, kolumn för kolumn.
+- Nästa steg: **finn Erik Jansson Roth i A I/4** via Mofallas flyttningslängd
+  `B`, och pröva därefter fadersuppgiften mot generalmönsterrullan för
+  Västgöta regemente n:o 100. Först då kan faderskapet avgöras.
 
 > **Metodnot 2026-08-20.** Statusen är `IDENTITET OLÖST` och inte
 > `EJ DIGITALISERAD`, eftersom båda kandidatförsamlingarnas födelseböcker
