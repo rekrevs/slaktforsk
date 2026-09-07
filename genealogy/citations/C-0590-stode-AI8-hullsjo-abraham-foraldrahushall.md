@@ -61,3 +61,21 @@ Filerna heter `C-0590-riksarkivet-stode-AI8-hullsjo-sida-NNN.jpg` under
 ## Stödda påståenden
 
 A-2525–A-2530, A-2532–A-2533.
+
+## Komplettering 2026-09-07 — ståndsbokstaven, giftaåret och den överstrukna raden
+
+Sidan är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100.
+Se [C-1020](C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md).
+
+- Ståndsbokstaven är en tydlig **`B.`**, i samma förkortningssystem som `H:u`,
+  `D.` och `Dott.` på raderna under. Standardupplösningen är **`Bonde`**.
+- Kolumnen `Gifta År` bär **`30`** på hans rad och `d:o` på hustruns: **paret
+  vigdes 1830.** Uppgiften saknas i avskriften ovan.
+- Den överstrukna barnraden f. `1831 10/7` är struken med ett **tjockt** streck
+  och **går inte att läsa**; raden ska sökas på datumet, inte på namnet.
+- **Födelsedagen läses `1805 21/8`**, inte `22/8`; talet står mellan 21 och 22
+  och uppslagningen i `C/2` bör omfatta båda.
+- Hustruns förnamn är **rättat i boken**: första ledet överstruket med
+  **`Cajsa`** skrivet ovanför; patronymikonet läses `Jöns D:r`.
+
+Avskriften ovan bevaras oförändrad som revisionsspår.

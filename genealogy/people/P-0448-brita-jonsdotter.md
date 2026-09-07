@@ -10,6 +10,7 @@ Abraham Jönssons mor och Jöns Abrahamssons hustru i Hullsjön, Stöde.
 |---|---|---|---|---|---|
 | A-2528 | Brita Jonsdotter föddes 1812-07-28 och stod som hustru i Hullsjöns hushåll i Stöde A I/8. | TRANSCRIBED | hög | [C-0590](../citations/C-0590-stode-AI8-hullsjo-abraham-foraldrahushall.md) | Födelsedatumet är ännu inte kontrollerat mot egen födelsenotis. |
 | A-2533 | Brita var Jöns Abrahamssons hustru och Abraham Jönssons mor. | CORROBORATED | hög | [C-0333](../citations/C-0333-stode-C2-abraham-fodd-1840-02-22.md), [C-0590](../citations/C-0590-stode-AI8-hullsjo-abraham-foraldrahushall.md) | Födelsenotis och föräldrahushåll är kompletterande primärposter. |
+| A-3798 | Hustruns förnamn är rättat i boken — första ledet överstruket med `Cajsa` skrivet ovanför — och patronymikonet läses `Jöns D:r`, vilket bekräftar C-0590 mot C-0333:s `Jonsd:r`. Paret vigdes 1830 enligt kolumnen Gifta År. | CORROBORATED | hög | [C-1020](../citations/C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md) | Namnkonflikten kvarstår mellan de två primärkällorna; vigselåret 1830 ger vigselboken ett ettårsfönster som kan avgöra den. |
 
 ## Relationer
 

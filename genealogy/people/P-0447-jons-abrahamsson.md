@@ -11,6 +11,9 @@ Abraham Jönssons far i Hullsjön, Stöde. Källorna skriver patronymikonet
 |---|---|---|---|---|---|
 | A-2527 | Jöns Abrahamsson föddes 1805-08-22 och stod i Hullsjöns hushåll i Stöde A I/8. | TRANSCRIBED | hög | [C-0590](../citations/C-0590-stode-AI8-hullsjo-abraham-foraldrahushall.md) | Födelsedatumet är ännu inte kontrollerat mot egen födelsenotis. |
 | A-2532 | Jöns var Brita Jonsdotters make och Abraham Jönssons far. | CORROBORATED | hög | [C-0333](../citations/C-0333-stode-C2-abraham-fodd-1840-02-22.md), [C-0590](../citations/C-0590-stode-AI8-hullsjo-abraham-foraldrahushall.md) | Födelsenotis och föräldrahushåll är kompletterande primärposter. |
+| A-3795 | Ståndskolumnen på Stöde A I/8 sida 88 bär en tydlig versal **B.** framför hans namn, i samma förkortningssystem som H:u, D. och Dott. på raderna under; standardupplösningen är **Bonde**. | CORROBORATED | hög | [C-1020](../citations/C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md) | Bokstaven är säkert läst; expansionen är den konventionella i bokstypen och anges som sådan. |
+| A-3796 | Kolumnen Gifta År bär `30` på hans rad och `d:o` på hustruns: paret vigdes 1830. | CORROBORATED | hög | [C-1020](../citations/C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md) | Uppgiften saknas i C-0590. Ger Stödes vigselbok ett ettårsfönster och stämmer med att äldsta barnraden är född 1831-07-10. |
+| A-3797 | Den överstrukna barnraden född 1831-07-10 är struken med ett tjockt streck och går inte att läsa i originalets fulla upplösning. | NEGATIVE | hög | [C-1020](../citations/C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md) | Avgjort utfall: raden ska sökas i Stödes födelsebok på datumet, inte på namnet. |
 
 ## Relationer
 
@@ -37,9 +40,10 @@ ny ortsledtråd.
   Hullsjöavsnittet.
 - Negativ kontroll: [C-0591](../citations/C-0591-stode-AI9-hullsjo-familj-negativ-kontroll.md)
   bevarar nästa volyms avgränsade Hullsjönoll utan destinationsinferens.
-- Återaktivering: egen födelsepost omkring 1805-08-22 eller en ny positiv
-  orts-, hushålls-, vigsel- eller flyttnyckel som placerar familjen före
-  1833 eller efter 1842. Upprepa inte A I/9:s Hullsjöavsnitt.
+- Återaktivering: **vigselåret är nu känt — 1830** (C-1020), vilket gör Stödes
+  vigselbok till en punktkontroll och är den starkaste ingången. Därefter egen
+  födelsepost omkring **1805-08-21 eller -22** i `C/2`, en volym projektet
+  redan har öppen. Upprepa inte A I/9:s Hullsjöavsnitt.
 
 ## Arbetsläge
 
