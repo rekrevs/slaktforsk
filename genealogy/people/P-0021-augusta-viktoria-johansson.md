@@ -73,6 +73,8 @@ Johansdotter; folkräkningarna använder Johansson.
 | A-3728 | **Bjerg har bara en Johannes Ericson.** A I/4 sidorna 15–18 rymmer `Magnusson Johannes` f. 1826, `Nämndeman Magnusson Magnus` f. 1830, `Magnusson Andreas` f. 1813 och `Nämndem. Eriksson Johannes` f. 1820. | CORROBORATED | hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Post 9:s namngivne far `Ericson Johannes, Hem. Egare i Bjerg` kan därför inte skiljas från Augusta Victorias rättslige far genom namnlikhet. Ingen slutsats dras av detta här. |
 | A-3729 | **Erik Jansson Roth fanns i Atteby i april 1863.** Han står som dopvittne till post 7 som `Rotte, Erec Jansson` `{ Soldat i Atteby }`, samma namnform som A I/3 sida 306. | CORROBORATED | mycket hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Fadersuppgiften i post 10 är därmed en aktuell beskrivning, inte en föråldrad. Post 10 har till skillnad från grannposterna ett enda dopvittne. |
 | A-3730 | **Roths egen sida i A I/4 är inte lokaliserad.** Rote 1:s soldattorp (sida 20, `Bjergs Soldattorp`) innehas 1862–1876 av `Soldat Ferm Carl Andersson` f. 1828-02-05, och sida 14 `Attebu. Sandliden` rymmer en annan familj. Volymen slutar utan register. | TRANSCRIBED | hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md) | Exakt, avgränsat och ännu outfört steg: finn Roth i A I/4 via flyttningslängden eller generalmönsterrullan innan fadersuppgiften prövas vidare. |
+| A-3731 | **Erik Jansson Roth flyttade inte ut ur Mofalla 1862 eller 1863.** Bägge årgångarnas utflyttningar är lästa i sin helhet i `B/1` — 1862 posterna 15–23 och 1863 posterna 1–18 — och ingen av dem gäller honom eller någon soldat. | CORROBORATED | hög | [C-1004](../citations/C-1004-mofalla-B1-utflyttning-1862-1863-roth-saknas.md) | Avgränsad noll. Stämmer med att han stod som dopvittne i Atteby i april 1863 (A-3729), men förklarar inte varför han saknas i `A I/4`. |
+| A-3732 | **Mofalla har en egen flyttningslängdsserie `B`, band 1 för 1861–1894**, med **folio i husförhörsboken** för varje post. Referensvolymen byter mitt i serien: 1862 hänvisar till `A I/3` (folier i trehundratalet), 1863 och senare till `A I/4`. | TRANSCRIBED | hög | [C-1004](../citations/C-1004-mofalla-B1-utflyttning-1862-1863-roth-saknas.md) | Serien var inte tidigare känd i projektet. Folionumren gör den till en generell ingång till hushållssidor som inte går att hitta på annat sätt — och volymbytet är en fälla för den som slår upp ett folionummer utan att först se efter årgången. |
 
 ## Relationer
 
@@ -257,9 +259,12 @@ där hon aldrig föddes, men där hon levde sitt vuxna liv.
 - Genomsökt 2026-09-07: Mofalla `A I/4` sidorna **11, 14, 15, 16, 17, 18, 20,
   32 och 114** samt volymens slut (ingen register­del); Mofalla `C/4` 1863 års
   sida 4 läst som blankett, kolumn för kolumn.
-- Nästa steg: **finn Erik Jansson Roth i A I/4** via Mofallas flyttningslängd
-  `B`, och pröva därefter fadersuppgiften mot generalmönsterrullan för
-  Västgöta regemente n:o 100. Först då kan faderskapet avgöras.
+- Genomsökt 2026-09-07, avgränsad noll: Mofalla `B/1` **hela 1862 och hela
+  1863 års utflyttningar** — Roth flyttade inte ut (A-3731).
+- Nästa steg, i tur och ordning: (1) Mofalla `F/2` 1862–1876 genomläst på
+  namnet Roth; (2) resten av `B/1` 1864–1876; (3) **generalmönsterrullan för
+  Västgöta regemente n:o 100**, som ensam kan pröva fadersuppgiften mot
+  Roths egna tjänsteförhållanden. Först då kan faderskapet avgöras.
 
 > **Metodnot 2026-08-20.** Statusen är `IDENTITET OLÖST` och inte
 > `EJ DIGITALISERAD`, eftersom båda kandidatförsamlingarnas födelseböcker
