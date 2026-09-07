@@ -80,6 +80,7 @@ Johansdotter; folkräkningarna använder Johansson.
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
+| [P-0536 Maja Greta Larsdotter](P-0536-maja-greta-larsdotter.md) | mor | CORROBORATED | C-0999, C-1002, C-1003 |
 | [P-0020 Per Wilhelm Eliasson](P-0020-per-wilhelm-eliasson.md) | make | CORROBORATED | C-0023–C-0026 |
 | [P-0010 Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md) | son | CORROBORATED | C-0023–C-0026 |
 | [P-0022 Agnes Maria](P-0022-agnes-maria-eliasson.md) | dotter | CORROBORATED | C-0024–C-0026 |
