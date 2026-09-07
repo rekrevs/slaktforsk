@@ -4291,3 +4291,55 @@ brudens ålder och hemförsamling, eller ett avgränsat noll med exakt volym,
 - Reactivation condition: om T-0101 visar att fler terminalfronter än C-0852
   vilar på filupplösning, ska en generell regel om bevisbärande bilders
   minimibredd övervägas i en egen styrgenomgång.
+
+## PCR-2026-09-07-019 — Ställning mot north stars sex uppfyllelsevillkor
+
+- Record type: review
+- Date: 2026-09-07
+- Mode: checkpoint
+- Trigger: Ställningen mot `NORTH-STAR.md` har inte redovisats villkor för
+  villkor under dagens arbete. Denna genomgång gör det.
+- Control judgement: continue
+- Current gate: **livsbilderna**, med källtäckning på Sverkers djup 6 som nära
+  tvåa.
+
+**Detta är uttryckligen inte avslutningsrevisionen enligt villkor 6.** En
+sådan förutsätter att ingen materiell, genomförbar och motiverad
+forskningsåtgärd återstår. Det gör den inte: kön rymmer **13 READY**,
+**1 ONGOING** och **2 BLOCKED** uppgifter.
+
+### Villkor för villkor, mot dagens källäge
+
+| # | Villkor | Läge | Belägg |
+|---|---|---|---|
+| 1 | **Anlinjer** | **EJ STYRKT** | `goal-state`: registrerat gemensamt djup **5**. Djup 6 är obehandlat — Sverkers sida har **2 anspetsar utan giltig arkivfront** (P-0082 och P-0519 saknar `## Slutstatus`) och **7 positioner som inte är källbredd-klara**. Djup 7 har **4 öppna positioner** och 4 osökta fronter. |
+| 2 | **Livsbilder** | **EJ STYRKT — det dominerande gapet** | `research-inventory`: 538 personakter, **96 profiler**, **442 ännu ej införda**. **Noll akter har en registrerad `GODKÄND` kontraktsgranskning**; de 29 i den nyss avslutade djup-6-vågen fick samtliga `UNDERKÄND`, och PK-10 — konsoliderad berättelse — är ej styrkt för var och en av dem. |
+| 3 | **Identiteter och kandidater** | **EJ STYRKT** | Bärande identiteter är i allmänhet väl prövade, men villkoret kräver att *beläggen faktiskt bär slutsatserna*. T-0100 har på tre fält funnit motsatsen i tre fall: två namn felavskrivna in i modellen (C-1012), ett hushåll som **inte finns på den sida citatet anger** (C-1013), och en normalisering som föll vid omläsning (C-1014). |
+| 4 | **Källtäckning** | **EJ STYRKT** | Sju djup-6-positioner har oprövade källfamiljer enligt matrisen. Djup-6-vågen fann därtill **sex hushållsgrupper i rad där vigselregistret aldrig öppnats**, och helt oprövade källfamiljer: jord/skatt/domstol, bruksarkiv, domkapitel och adelsgenealogisk litteratur. |
+| 5 | **Spårbarhet** | **DELVIS** | Provenans, originalbilder och kontrollsummor är genomgående bevarade och append-only-historiken hålls. Men villkoret kräver också att granskningen visar att beläggen bär slutsatserna: **C-0852:s front vilar på en fil i 1 200 px** mot medianen 5 848, och **77 filer med Riksarkivets bild-id under 2 000 px** är oklassificerade. T-0101 finns för just detta. |
+| 6 | **Avslutningsrevision** | **EJ UTFÖRD, och ännu inte möjlig** | Villkor 1–4 är ej styrkta och 5 är delvis. Materiellt, genomförbart arbete återstår i 16 uppgifter. |
+
+### Bedömning
+
+**North star är inte uppfylld, och gapet är kvantifierat.** Ingen del av
+gapet beror på ett externt hinder — det enda dokumenterade sådana i den
+granskade kohorten är
+[P-0454](../genealogy/research-profiles/P-0454.md):s `E 5`-handling, som
+kräver läsesalsbesök och är ägarens beslut, och det berör en enda person.
+
+Riktningen ändras inte. **Styrregeln pekar på samma arbete som redan pågår:**
+T-0100 och T-0101 rättar beläggsledet, T-0102 öppnar den mest konsekvent
+förbisedda källfamiljen, och T-0099 gör nästa generationsskiva. Sverkers
+djup-6-rest — P-0082 och P-0519 utan slutstatus, plus fem källbredd-luckor —
+ligger i T-0083 och ska tas när omläsningsronden är klar, eftersom
+balanskravet mellan sidorna annars förskjuts.
+
+- Recommendation: fortsätt T-0100 till slut, därefter T-0101, T-0102 och
+  T-0083; ingen ändring av riktning eller mandat behövs.
+- Owner decision required: nej.
+- Evidence: `node scripts/goal-state.mjs`, `node scripts/research-inventory.mjs`,
+  `wotan/backlog.json`, `wotan/dev-log/T-0098.md`,
+  `genealogy/citations/C-1012`–`C-1014`.
+- Resulting Wotan tasks: inga nya.
+- Reactivation condition: när T-0100–T-0102 och T-0083 är avslutade ska
+  ställningen mot villkor 1–5 mätas om innan djup 7 påbörjas.
