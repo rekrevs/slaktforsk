@@ -11,6 +11,7 @@ Stina Svensdotter. I Hemsjö A I/4 uppges hon vara född 1815-01-28.
 |---|---|---|---|---|---|
 | A-2191 | Catharina Andersdotter i Västra Bodarne var mor till Britta Stina, född 1851-05-09, och uppges i husförhörslängden vara född 1815-01-28. | CORROBORATED | hög | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md), [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Moderskapet och hushållet stöds av två källor; eget födelseoriginal återstår. |
 | A-3232 | Hemsjö C/4:s kronologiska följd går från 1815-01-18 till 1815-02-16 utan en Catharina-post den 28 januari. | CONFLICT | hög | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md), [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Hushållsdatumet kan inte förenas med Hemsjöboken; födelsesocken är inte fastställd. |
+| A-3782 | Hemsjö C/4 sida 12 är obruten mellan posterna 18 januari och 16 februari 1815 — intilliggande rader på samma uppslag — och församlingen förde två till fyra födslar i månaden; tomrummet är alltså äkta och inte en reproduktionslucka. | NEGATIVE | hög | [C-1016](../citations/C-1016-hemsjo-C4-1815-tomrummet-provat.md) | Kontinuitets- och frekvensprov. Nollet gäller originalet: ingen föddes i Hemsjö 1815-01-28. Datumet behåller värde som söknyckel i grannsocknarna. |
 
 ## Relationer
 
@@ -33,8 +34,10 @@ att skapa föräldrar.
 - Genomsökt: Hemsjö C/4 sida 12, bild `C0043840_00020`, hela
   januari–februariintervallet runt 1815-01-28.
 - Negativ kontroll: [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md)
-- Återaktivering: en uttrycklig socken-, ort-, sida- eller flyttnyckel för
-  Catharina; sök inte vidare i Hemsjö på datumet ensamt.
+- Återaktivering: **nollet är nu prövat och gäller originalet** (C-1016), så
+  uppgiften är en positiv uteslutning: hon föddes inte i Hemsjö den dagen.
+  Datumet `1815-01-28` behåller därför fullt värde som söknyckel **i
+  grannsocknarna**. Sök inte vidare i Hemsjö på datumet ensamt.
 
 ## Arbetsläge
 

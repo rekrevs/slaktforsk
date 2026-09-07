@@ -42,3 +42,26 @@ SHA-256
 ## Stödda påståenden
 
 A-3231–A-3234.
+
+## Rättelse 2026-09-07 — tomrummet prövat, och vittnena utvunna
+
+Sidan är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100.
+Se [C-1016](C-1016-hemsjo-C4-1815-tomrummet-provat.md).
+
+- **Kontinuitetsprovet:** posterna 18 januari och 16 februari är
+  **intilliggande rader på samma uppslag**, utan uppslagsbyte, bildskarv eller
+  spår av bortfallet blad. Tomrummet är inte en skanningslucka.
+- **Frekvensprovet:** församlingen förde omkring **två till fyra födslar i
+  månaden** (nov 1814: 2, dec: 4, jan 1815: 2, feb: 2, mars t.o.m. den 7: 3).
+  Ett tomt intervall på tjugonio dagar är därmed ovanligt men inte
+  anmärkningsvärt.
+- **Följden:** nollet gäller **originalet**, inte reproduktionen — ingen föddes
+  i Hemsjö den 28 januari 1815. Uppgiften blir därmed en **positiv geografisk
+  uteslutning**, och det uppgivna datumet behåller fullt värde som söknyckel i
+  grannsocknarna.
+- **Vittnena**, som här inte transkriberades, lyder: `Britta Anders Dotr i
+  Mjöstan[?], Britta Erics Dotr i Kjerrbogärda, Kjerstin Anders Dotr i
+  Kåsegl[?], Nämndeman i Hattholt[?] och Olof Anderss. i Wässenbo.` Tre av fem
+  bär moderns patronymikon.
+
+Texten ovan bevaras oförändrad som revisionsspår.
