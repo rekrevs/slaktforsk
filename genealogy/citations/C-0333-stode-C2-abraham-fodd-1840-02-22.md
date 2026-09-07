@@ -34,3 +34,17 @@ citeras som ett personligt nollresultat.
 ## Stödda påståenden
 
 A-1951–A-1952, A-2525–A-2526.
+
+## Komplettering 2026-09-07 — skrivaren skiljer `Jöns` från `Jons`
+
+Posten är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100.
+Se [C-1021](C-1021-stode-C2-1840-jons-mot-jonsdotter.md).
+
+I föräldrakolumnen har **`Jöns`** på första raden **två distinkta punkter**
+över `o`, medan **`Jons`** på andra raden **saknar** sådan markering. Samma
+skrivare skiljer alltså formerna medvetet, två rader isär i samma cell.
+
+Läsningen `Brita Jonsd:r` ovan är därmed **belagd**, och den kanoniska
+modellens val av `Jonsdotter` mot C-0590:s `Jönsd:r` är motiverat och inte
+längre bara antaget. Divergensen mellan de två primärkällorna kvarstår;
+vigselåret **1830** är den post som kan avgöra den genom att namnge fadern.
