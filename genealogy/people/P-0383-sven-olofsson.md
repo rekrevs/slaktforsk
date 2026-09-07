@@ -13,6 +13,8 @@ Hemsjö A I/4 uppges han vara född 1815-02-16.
 | A-3231 | Sven föddes 1815-02-16 i Bodarne, Hemsjö, döptes 19 februari och var son till åbon Olof Hansson och Britta Andersdotter. | CORROBORATED | mycket hög | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md), [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Egen födelsenotis plus exakt senare datum, patronymikon och Bodarne-hushåll. |
 | A-3783 | Faddrar vid Sven Olofssons dop 1815-02-19 var Britta Andersdotter i Mjöstan[?], Britta Ericsdotter i Kjerrbogärda, Kjerstin Andersdotter i Kåsegl[?], nämndemannen i Hattholt[?] och Olof Andersson i Wässenbo. | TRANSCRIBED | hög | [C-1016](../citations/C-1016-hemsjo-C4-1815-tomrummet-provat.md) | Vittnesledet som C-0848 lämnade otranskriberat. Ortnamnen är osäkert lästa och normaliseras inte. |
 | A-3784 | Tre av de fem faddrarna bär patronymikonet Andersdotter eller Andersson, liksom modern Britta Andersdotter; mönstret talar för att faddrarna i huvudsak är moderns syskon. | LEAD | låg | [C-1016](../citations/C-1016-hemsjo-C4-1815-tomrummet-provat.md) | Patronymikonet är vanligt och namnlikhet räcker inte; ingen relation skapas. |
+| A-3810 | Sven Olofsson och Catharina Andreasdotter lyste tredje gången 1839-09-22 och vigdes **1840-01-26** i Hemsjö; båda anges vara i tjänst i **Wäsenbo**. | CORROBORATED | mycket hög | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md) | Hemsjö C/5 bild 52, sida 152. Vigselavsnittet ligger i C-serien; E-serien börjar först 1861. |
+| A-3811 | Vittnen vid vigseln var **Olof Månsson** och **Britta Andersdotter**; den senare bär samma namn som Svens mor. | LEAD | låg | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md) | Namnet är vanligt och vittnesskap är inget släktbevis; ingen relation skapas. |
 
 ## Relationer
 
@@ -32,6 +34,8 @@ forskas inte vidare i T-0036.
 ## Slutstatus
 
 - Status: `VERIFIERAD`
+- Vigsel: lyst tredje gången 1839-09-22, vigd **1840-01-26** i Hemsjö, då i
+  tjänst i **Wäsenbo** (C-1026).
 
 ## Arbetsläge
 
