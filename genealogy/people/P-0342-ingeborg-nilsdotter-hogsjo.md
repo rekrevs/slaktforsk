@@ -28,9 +28,19 @@ breddkohort.
 - Genomsökt: hela Högsjöavsnittet i Indal A I/5, sidorna 193–199, samt hela
   Högsjöavsnittet i A I/6, sidorna 83–93, med ortgränser kontrollerade.
 - Negativ kontroll: [C-0836](../citations/C-0836-indal-AI5-AI6-hogsjo-familjekontroll.md)
-- Återaktivering: öppna nästa källa först när en positiv vigsel-, flytt-,
-  skatt- eller ort-/sidhänvisning har framkommit; upprepa inte de två lästa
-  Högsjöavsnitten utan en sådan nyckel.
+- Återaktivera när: en av **tre namngivna och oprövade** ingångar ger en
+  personbunden ort- eller sidnyckel. **(1) Indals vigselbok `E I`** omkring
+  1820–1834 — parets egen vigselnotis skulle ge hennes hemvist som brud och
+  namnge giftomannen, som för en kvinna oftast är fadern eller en nära
+  släkting. **(2) Indals in- och utflyttningslängd `B`** kring 1834.
+  **(3) Indals födelseböcker omkring 1799**, eftersom födelsenotisen 1834
+  anger hennes ålder till 35 år; den nyckeln ska prövas **på dag och namn i
+  hela årgången**, inte på namn ensamt.
+  **Upprepa inte** Högsjöavsnitten i `A I/5` sidorna 193–199 och `A I/6`
+  sidorna 83–93; båda är fullständigt lästa. Åldersuppgiften 35 år är
+  prästens avrundning och får inte bli ett exakt födelseår.
+
+  Den tidigare lydelsen bevaras som historik; se P-0341 för samma prövning.
 
 ## Arbetsläge
 

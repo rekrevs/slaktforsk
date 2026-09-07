@@ -27,9 +27,21 @@ nästa utgåvas fasta breddkohort; hans eget ursprung forskas inte vidare nu.
 - Genomsökt: hela Högsjöavsnittet i Indal A I/5, sidorna 193–199, samt hela
   Högsjöavsnittet i A I/6, sidorna 83–93, med ortgränser kontrollerade.
 - Negativ kontroll: [C-0836](../citations/C-0836-indal-AI5-AI6-hogsjo-familjekontroll.md)
-- Återaktivering: öppna nästa källa först när en positiv vigsel-, flytt-,
-  skatt- eller ort-/sidhänvisning har framkommit; upprepa inte de två lästa
-  Högsjöavsnitten utan en sådan nyckel.
+- Återaktivera när: en av **tre namngivna och oprövade** ingångar ger en
+  personbunden ort- eller sidnyckel. **(1) Indals vigselbok `E I`** omkring
+  1820–1834 — parets egen vigselnotis skulle ge båda parternas hemvist och
+  giftomannen, och giftomannen är i sig en fadersnyckel. **(2) Indals
+  in- och utflyttningslängd `B`** kring 1834, som skulle visa varifrån
+  hushållet kom till Högsjö. **(3) Mantalslängderna för Indal** på 1830-talet,
+  som placerar hushållet på en namngiven gård.
+  **Upprepa inte** Högsjöavsnitten i `A I/5` sidorna 193–199 och `A I/6`
+  sidorna 83–93; båda är fullständigt lästa med ortgränserna kontrollerade.
+  Härled inget fadersnamn ur patronymikonet `Ersson`.
+
+  Den tidigare lydelsen — *"öppna nästa källa först när en positiv … nyckel
+  har framkommit"* — bevaras som historik. Den var riktig men sade inte
+  **var** nyckeln skulle sökas, och prövningen 2026-09-07 i `T-0095` fann
+  att tre konkreta serier stod oprövade.
 
 ## Arbetsläge
 
