@@ -11,6 +11,8 @@ Ringberg. Husförhörslängden uppger henne född 1809 i Mortorp.
 |---|---|---|---|---|---|
 | A-2227 | Johanna Christina Bökelund var mor till Christina Gustafva, född 1843-09-27, och uppges i husförhörslängden vara född 1809 i Mortorp. | CORROBORATED | hög | [C-0466](../citations/C-0466-backebo-C4-christina-gustafva-fodd-1843.md), [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Moderskap och namn stöds av två original; hennes eget födelseoriginal återstår. |
 | A-3238 | Johanna Christina föddes 1809-07-03 i Mortorp, döptes 6 juli och var dotter till Samuel Bökelund och Gustava Maria Kylenstjerna. | CORROBORATED | mycket hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md), [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Egen födelsenotis förenad med vuxenhushållets fullnamn, år och socken. |
+| A-3832 | Hon skrivs i vigselposten **`Demoiselle Johanna Christiana Bökelund i Mortorp`** och var alltså ogift ståndsperson bosatt i Mortorp vid vigseln 1837-04-07, 27 år gammal. | CORROBORATED | mycket hög | [C-1032](../citations/C-1032-mortorp-C3-1837-ringberg-bokelund-vigsel.md) | Knyter henne till föräldrahemmet i Mortorp (C-0851) ända fram till giftermålet. |
+| A-3833 | Vigselboken använder namnformen **`Christiana`**, medan födelsenotisen och hushållslängden skriver `Christina`. | TRANSCRIBED | hög | [C-1032](../citations/C-1032-mortorp-C3-1837-ringberg-bokelund-vigsel.md) | Formerna växlar för samma person; skillnaden är materiell vid sökning och bevaras därför. |
 
 ## Relationer
 
@@ -34,6 +36,9 @@ T-0037.
 ## Slutstatus
 
 - Status: `VERIFIERAD`
+- Vigsel: **1837-04-07 i Mortorp**, då `Demoiselle Johanna Christiana
+  Bökelund i Mortorp`, 27 år (C-1032). Namnformen `Christiana` bevaras vid
+  sidan av `Christina`.
 
 ## Arbetsläge
 

@@ -13,6 +13,9 @@ skriver `A. Ringberg`; Kalmar stifts herdaminne löser initialen till Anders.
 | A-2226 | A. Ringberg i Bäckebo var Anders Ringberg, född 1801 i Hossmo, komminister i Bäckebo från 1836 och senare kyrkoherde i Källa. | CORROBORATED | hög | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md), [C-0468](../citations/C-0468-herdaminne-anders-ringberg.md) | Herdaminnet löser initialen genom samma ovanliga namn, ämbete, ort och period; exakt eget födelseoriginal återstår. |
 | A-2370 | År 1862 bodde A. Ringberg i Källa och antecknade i Källa E I/1 egenhändigt sitt samtycke som far till Christina Gustafvas äktenskap med Carl August Carlman. | CORROBORATED | hög | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md), [C-0468](../citations/C-0468-herdaminne-anders-ringberg.md) | Samtyckesnotisen i den vigselbok han själv förde bekräftar herdaminnets Källa-ämbete och dotterrelationen. |
 | A-3235 | Anders Ringberg var son till hemmansbrukaren Olof Nilsson och Maja Jonsdotter i Rinkaby, Hossmo. | CORROBORATED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md), [C-0850](../citations/C-0850-hossmo-C2-anders-1801-kontroll.md) | Samtida hushåll och nominativ namnnyckel förenar sonen Anders med Ringberg; födelseboken saknar den väntade familjeposten och den enda uttryckliga Anders-posten gäller en annan familj. |
+| A-3830 | Anders Ringberg och Johanna Christiana Bökelund vigdes **1837-04-07 i Mortorp**. | CORROBORATED | mycket hög | [C-1032](../citations/C-1032-mortorp-C3-1837-ringberg-bokelund-vigsel.md) | Mortorp C/3 bild 11, sida 9, post N:3, under rubriken `Wigde i Mortorps Församling år 1837`. |
+| A-3831 | Vigselposten skriver ut hans ämbete: `Comministern i Bäckebo Församling Herr And. Ringberg`. | CORROBORATED | mycket hög | [C-1032](../citations/C-1032-mortorp-C3-1837-ringberg-bokelund-vigsel.md) | En annan församlings bok löser initialen `A.` till `And.` och bekräftar komministerämbetet oberoende av herdaminnet (C-0468). |
+| A-3834 | Bäckebos egen vigsellista upptar ingen Ringbergvigsel: 1836 års tio par och 1837 års tretton par är lästa utan träff. | NEGATIVE | hög | [C-1033](../citations/C-1033-backebo-C4-1836-1837-negativ-ringberg.md) | Förstahypotesen att komministern vigdes i sin egen församling var fel; posten stod i brudens socken. |
 
 ## Relationer
 
@@ -38,6 +41,9 @@ P-0515–P-0516 som föräldrar. Den kompletta födelsebokskontrollen visar att
 ## Slutstatus
 
 - Status: `VERIFIERAD`
+- Vigsel: **1837-04-07 i Mortorp**, då `Comministern i Bäckebo Församling
+  Herr And. Ringberg` (C-1032). Bäckebos egen lista är prövad för 1836 och
+  1837 utan träff (C-1033).
 
 ## Arbetsläge
 
