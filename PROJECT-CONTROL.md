@@ -4462,3 +4462,48 @@ i samma instruktion.
 Om identitetsnivån visar sig bli den enda som någonsin utförs — synligt som en
 växande skillnad mellan `identitetsgodkända` och `livsbildsgodkända` per djup
 i inventeringen — ska Project Control ta upp balansen med ägaren på nytt.
+
+## PCD-2026-09-07-022 — Arbetsordning efter nivådelningen
+
+- Record type: decision
+- Date: 2026-09-07
+- Decided by: **ägaren**, uttryckligen, efter redovisning av vad nästa session
+  annars skulle göra.
+- Trigger: PCD-2026-09-07-021 införde två färdignivåer, men ändringen är
+  **installerad, inte lastbärande**. De nya fälten är valfria med nolläge,
+  `T-0090` är skapad före ändringen och nämner inga nivåer, och AGENTS.md
+  bjuder att ONGOING återupptas före READY. Utan ett beslut skulle nästa
+  session fortsätta i den gamla ordningen och nivåerna förbli oanvända.
+
+### Beslutad ordning
+
+1. **`T-0090` landas.** Uppgiften är mitt i flykten och har just funnit
+   hushållet i Bodan; att lämna den halv vore dyrare än att avsluta den.
+2. **`T-0103`** — sätt `Identitetsgranskning` och `Trädverkan` på de 96
+   profilerna. Det är det steg som gör nivåerna verkliga; före det är
+   `Trädverkan` `AVVAKTAR` för samtliga 538 och ingen trädklarhet kan mätas.
+3. **Frontuppgifterna, med `T-0097` först.** Den bär projektets starkaste
+   outnyttjade söknyckel: Varolas födelsebok omkring 1799, där
+   födelseförsamlingen står utskriven i klartext och datumet är exakt
+   1799-01-03. Därefter `T-0096`, `T-0091` och `T-0080`.
+4. **Livsbildsuppgifterna sist**, `T-0099` inräknad.
+
+Ordningen förs som **noter, inte som `after`-beroenden**. Ett beroende i Wotan
+betyder att en uppgift behöver en annans resultat; här är det fråga om
+företräde. Att blockera `T-0103` på `T-0090` vore en felaktig beskrivning av
+modellen.
+
+### Känd lucka som inte åtgärdas nu
+
+`scripts/goal-state.mjs` känner inte till de nya fälten. Djuptabellen som
+AGENTS.md bjuder att köra vid sessionsstart visar därför oförändrade äldre
+indikatorer, medan nivåtabellen bara finns i `research-inventory`. Att lära
+goal-state nivåerna kräver en utbruten modul som båda skripten importerar,
+eftersom `research-inventory` redan importerar `computeGoalState`. Registrerad
+som **T-0104 (IDEA)** för att inte tappas bort; ingen körning beslutad.
+
+### Reaktivering
+
+Om `T-0090` visar sig växa bortom sin registrerade omfattning ska den
+checkpointas och `T-0103` tas upp i stället, i stället för att ordningen
+tänjs.
