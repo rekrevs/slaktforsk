@@ -29,15 +29,25 @@ stubbe.
 | A-3740 | **Faderskapet till hennes yngsta dotter är omstritt.** Mofallas födelsebok 1863 post 10 namnger `Rotte, Eric, Soldat i Atteby` som far, med hemvistkolumnen delad mellan hennes folio 18 och hans Atteby. | CORROBORATED | hög | [C-1003](../citations/C-1003-mofalla-C4-1863-hemvistkolumnen-och-de-tva-posterna.md), [C-1001](../citations/C-1001-kyrkefalla-EI1-vigsel-johannes-ericsson-maja-greta-1848.md) | Se [P-0021](P-0021-augusta-viktoria-johansson.md) för de fyra uppräknade läsningarna. **Ingen väljs, och ingen faderrelation förs in i stamtavlan.** |
 | A-3741 | **Rättelse:** vigselboken 1848 skriver bruden `Rusth. D. fr. **Årebolet**` — rusthållardotter från Årebolet, en by i Kyrkefalla socken — inte `fr. Wolebäck` som A-3736 avskrev. Kontrollen är post 7 på samma sida, som skriver `Hemmasson fr. Wallbäcken` i samma hand. | CORROBORATED | mycket hög | [C-1006](../citations/C-1006-arebolet-rattelse-och-kandidatens-styrka.md) | Felläsningen berodde på att raden lästes på uppslagsnivå och aldrig i närbild. A-3736:s ortsuppgift är därmed upphävd; övriga uppgifter i den står kvar. |
 | A-3742 | **Sex uppgifter binder henne till kandidaten i Kyrkefalla 1824:** namnet `Maria Greta`, patronymikonet Larsdotter mot faderns förnamn Lars, ståndet rusthållardotter mot faderns rusthållare, orten Årebolet i båda, åldern 24 år i juni 1848 mot födelseåret 1824, och församlingen. | CORROBORATED | hög | [C-1006](../citations/C-1006-arebolet-rattelse-och-kandidatens-styrka.md), [C-1005](../citations/C-1005-maja-greta-larsdotter-fodelsesokning-1824.md) | Kvar står **en** avvikelse: födelseboken skriver 22 mars, husförhörslängden `²⁸/₃`. |
-| A-3743 | **Hennes föräldrar är sannolikt rusthållaren `Lars Pettersson` och `Stina Jansdotter` (f. omkr. 1798) vid Årebolet i Kyrkefalla.** Slutsatsen är `STÖDD`, inte fastställd. | TRANSCRIBED | medel | [C-1006](../citations/C-1006-arebolet-rattelse-och-kandidatens-styrka.md) | **Ingen anlinje förs vidare på denna relation, och inga personakter skapas för föräldrarna**, förrän Kyrkefalla `A I/6` visar Lars Petterssons hushåll vid Årebolet med dottern Maria Greta. |
+| A-3743 | **Hennes föräldrar är sannolikt rusthållaren `Lars Pettersson` och `Stina Jansdotter` (f. omkr. 1798) vid Årebolet i Kyrkefalla.** Slutsatsen var `STÖDD`, inte fastställd. **Överspelad samma dag av A-3746**, som fastställer relationen. | SUPERSEDED | medel | [C-1006](../citations/C-1006-arebolet-rattelse-och-kandidatens-styrka.md) | **Ingen anlinje förs vidare på denna relation, och inga personakter skapas för föräldrarna**, förrän Kyrkefalla `A I/6` visar Lars Petterssons hushåll vid Årebolet med dottern Maria Greta. |
+| A-3744 | **Hennes barndomshem är funnet: `Årebolet` ¼ rusthåll i Kyrkefalla**, A I/6 sida 283. Hushållet är `Äg. Lars Pettersson` f. 1791-02-13, `Enk. Stina Jansdotter` f. 1799-01-03 i Varola, och döttrarna `Cajsa Lisa` f. 1821-10-27 och **`Maja Greta` f. mars 1824**. | CORROBORATED | mycket hög | [C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md) | Sidan hittades via volymens **maskinskrivna ortregister på bilderna 10–12**, inte via bläddring. |
+| A-3745 | **Utflyttningsnoteringen på hennes rad lyder `48. Bjerg`.** Husförhörslängden skriver alltså in i hennes barndomshem exakt den flytt vigselboken förutsätter: samma år, till samma gård. | CORROBORATED | mycket hög | [C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md) | Det avgörande ledet. Med det är ursprungsfrågan sluten. |
+| A-3746 | **Hennes föräldrar var rusthållaren `Lars Pettersson`, född 1791-02-13 och död 1847-01-23, och `Stina Jansdotter`, född 1799-01-03 i Varola.** | CORROBORATED | mycket hög | [C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md), [C-1005](../citations/C-1005-maja-greta-larsdotter-fodelsesokning-1824.md) | Fadern dog året före dottern gifte sig. Moderns födelseår svarar mot åldern 26 i födelseboken 1824. Relationen är **fastställd** och förs in i modellen. |
+| A-3747 | **Födelsedatumet är 1824-03-22**, enligt Kyrkefallas egen födelsebok. Husförhörslängdens `²⁸ Mars` är en avskrift som följde med henne till Mofalla A I/4 och därifrån in i dödbokens åldersuppgift 1868. | CORROBORATED | hög | [C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md) | **De tre senare uppgifterna är en enda uppgift som kopierats vidare, inte tre belägg.** A-3733 preciseras: `²⁸/₃` bevaras som avskriftsvariant. |
+| A-3748 | **Tre syskon är kända:** `Cajsa Lisa` f. 1821-10-27, utflyttad till Baggebo 1843; `Anders Petter` f. 1826-11-30; `Johannes Larsson` f. 1829-07-05. | TRANSCRIBED | hög | [C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md) | Inga egna personakter skapas här. |
+| A-3749 | **Gårdsrubriken över hushållet namnger `Johannes Ericson i Bjerg` som delägare i Årebolet.** Mannen hon gifte sig med hade alltså en andel i hennes fars gård. | TRANSCRIBED | medel | [C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md) | Källan säger inget om orsak, följd eller sammanträffande, och ingen slutsats dras. Läsningen av rubriken är gjord i närbild men rubriken är delvis avskuren. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
 | [P-0021 Augusta Viktoria Johansson](P-0021-augusta-viktoria-johansson.md) | dotter | CORROBORATED | C-0999, C-1002, C-1003 |
+| `Lars Pettersson`, rusthållare vid Årebolet, f. 1791-02-13, d. 1847-01-23 | far | CORROBORATED | C-1007, C-1005 |
+| `Stina Jansdotter`, f. 1799-01-03 i Varola | mor | CORROBORATED | C-1007, C-1005 |
 
-Maken **Johannes Eriksson**, född 1820-12-25, har ännu ingen egen personakt.
+**Föräldrarna har ännu ingen egen personakt.** Relationen är fastställd
+(A-3746), men akterna kräver personkontraktets behandling och skapas som eget
+steg. Detsamma gäller maken **Johannes Eriksson**, född 1820-12-25.
 Det gäller även de fyra äldre barnen och den möjliga fadern Erik Jansson
 Roth. Frånvaron är en medveten avgränsning: akter skapas med
 personkontraktets behandling, inte som stubbar.
@@ -46,7 +56,10 @@ personkontraktets behandling, inte som stubbar.
 
 | År | Händelse | Plats | Belägg |
 |---|---|---|---|
-| 1824-03-28 (el. 03-29) | Född | okänd församling | A-3733 |
+| **1824-03-22** | Född, döpt 23 mars | **Kyrkefalla** | A-3747 |
+| 1824–1848 | Uppväxt vid **Årebolet ¼ rusthåll**, Kyrkefalla | Årebolet | A-3744 |
+| 1847-01-23 | Fadern Lars Pettersson dör | Årebolet | A-3746 |
+| 1848 | Utflyttad `48. Bjerg` | Kyrkefalla → Mofalla | A-3745 |
 | 1848-06-23 | Vigd med Johannes Ericsson; skriven `Rusth. D. fr. Årebolet` | Kyrkefalla/Mofalla | A-3736, A-3741 |
 | 1850-07-19 | Sonen Carl Johan föds | Bjerg, Mofalla | A-3738 |
 | 1854-11-27 | Dottern Emma Charlotta föds | Bjerg | A-3738 |
@@ -82,39 +95,50 @@ senare. Dödsorsaken skrevs aldrig in. Två år och två månader efter
 begravningen gifte Johannes Eriksson om sig, och hennes rad i
 husförhörslängden ströks över.
 
-**Var hon föddes vet vi nästan.** Mofalla har ingen Maria eller Maja Greta
-alls det året. Kyrkefalla har en, och vigselboken pekar rakt på henne:
-bruden var **rusthållardotter från Årebolet**, och kandidatens far var
-**rusthållare vid Årebolet**. Sex uppgifter sammanfaller och en enda avviker
-— dagen, sex dygn, ur en hushållsbok förd fjorton år senare.
+**Var hon föddes vet vi.** Hon föddes den 22 mars 1824 och döptes dagen
+därpå, dotter till rusthållaren Lars Pettersson och Stina Jansdotter vid
+**Årebolet**, ett ¼ rusthåll i Kyrkefalla vid Tidan. Hon var det andra av
+minst fyra barn. Fadern dog i januari 1847; systern Cajsa Lisa hade då redan
+flyttat till Baggebo, och modern satt kvar som änka på gården.
 
-Det räcker för att kalla saken stödd. Det räcker inte för att föra en
-anlinje vidare. Kvar är ett enda uppslag: Lars Petterssons hushåll vid
-Årebolet i Kyrkefallas husförhörslängd 1842–1851.
+Ett och ett halvt år senare gifte sig Maja Greta och lämnade hemmet.
+Husförhörslängden noterar avgången på hennes rad med två ord: **`48. Bjerg`**.
+Och gårdsrubriken över hushållet bär, vid sidan av en annan delägare, namnet
+**Johannes Ericson i Bjerg** — mannen hon gifte sig med hade en andel i
+hennes fars gård. Vad det betyder säger källan inget om.
+
+Den `²⁸/₃` som Mofallas hushållsbok ger, och som dödboken 1868 räknade sin
+ålder ur, kommer från Kyrkefallas husförhörslängd. Det är en avskrift som
+följde med henne genom livet och överlevde henne med sex dagars fel.
 
 ## Slutstatus
 
-- Status: `IDENTITET OLÖST`
-- **Statusen avser ursprunget, inte personen.** Hon är entydigt identifierad
-  som en och samma kvinna 1848–1868 genom folio 18 i tre serier. Det som är
-  olöst är var och av vilka hon föddes.
-- **Skärpt 2026-09-07** (C-1006). Vigselbokens ortsuppgift är **omläst i
-  närbild och rättad**: bruden är `Rusth. D. fr. **Årebolet**`, inte
-  `fr. Wolebäck`. Därmed sammanfaller **sex** uppgifter med kandidaten i
-  Kyrkefallas födelsebok 1824 — namn, patronymikon, stånd, ort, ålder och
-  församling — och en enda avviker: dagen, 22 mars mot `²⁸/₃`. Slutsatsen
-  är `STÖDD` (A-3742, A-3743), **inte fastställd**, och ingen anlinje förs
-  vidare på den.
-- Förväntad källa: **Kyrkefalla `A I/6` (1842–1851), Årebolet** — volymen är
-  identifierad och digitaliserad (`C0052870`), omfattar även Mofalla och
-  saknar ortregister. Står Lars Petterssons dotter Maria Greta där med en
-  födelsedag, och flyttar hon till Mofalla 1848?
-- Genomsökt: Mofalla `C/2` **hela årgången 1824**; Kyrkefalla `C/4` **hela
-  årgången 1824**; båda på **dag och dopnamn**, inte bara namn.
+- Status: `VERIFIERAD`
+- **Ursprunget är fastställt 2026-09-07.** Hon föddes **1824-03-22 i
+  Kyrkefalla**, döptes 23 mars, och växte upp vid **Årebolet ¼ rusthåll** som
+  dotter till rusthållaren **Lars Pettersson** (f. 1791-02-13, d. 1847-01-23)
+  och **Stina Jansdotter** (f. 1799-01-03 i Varola). Hon flyttade **1848 till
+  Bjerg** — husförhörslängdens egen notering på hennes rad lyder `48. Bjerg`.
+- Identiteten vilar på **fem samstämmiga led** mellan Årebolets hushåll och
+  tre andra källor: faderns namn och stånd, moderns namn och födelseår,
+  dotterns namn och år, gården, och utflyttningen 1848 till Bjerg
+  ([C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md)).
+- **Födelsedagen är rättad.** `²⁸/₃` i Mofalla `A I/4` och åldersuppgiften i
+  dödboken 1868 går båda tillbaka på Kyrkefallas husförhörslängd; de är **en
+  enda avskrift, inte tre belägg**. Födelseboken är originalet (A-3747).
+- Genomsökt: Mofalla `C/2` och Kyrkefalla `C/4`, hela årgången 1824 i båda;
+  Kyrkefalla `A I/6` sidorna 282–283 (Årebolet) och volymens ortregister;
+  Kyrkefalla `B/3` 1848 års utflyttade posterna 1–124.
 - Bevarad negativ kontroll:
-  [C-1005](../citations/C-1005-maja-greta-larsdotter-fodelsesokning-1824.md).
-- Återaktiveringsvillkor: när Årebolets uppslag i Kyrkefalla `A I/6` är
-  läst. Först då kan föräldrarelationen fastställas och föras in i modellen.
+  [C-1005](../citations/C-1005-maja-greta-larsdotter-fodelsesokning-1824.md)
+  (Mofalla 1824 utan träff),
+  [C-1004](../citations/C-1004-mofalla-B1-utflyttning-1862-1863-roth-saknas.md).
+- **Kvar att göra, inte kvar att lösa:** personakter för föräldrarna och för
+  maken Johannes Eriksson, samt de fyra öppna temana EKO, SAM, PER och REL —
+  det sistnämnda på grund av den omstridda fadersuppgiften till hennes yngsta
+  dotter, som ägs av [P-0021](P-0021-augusta-viktoria-johansson.md).
+  Kontraktsgranskningen står därför kvar som `UNDERKÄND`; det är en
+  bedömning av aktens fullständighet, inte av hennes identitet.
 
 ## Arbetsläge
 

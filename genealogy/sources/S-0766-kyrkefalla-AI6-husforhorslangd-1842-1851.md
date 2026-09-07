@@ -24,8 +24,15 @@ till folier i trehundratalet ännu 1862 (se
 [C-1004](../citations/C-1004-mofalla-B1-utflyttning-1862-1863-roth-saknas.md)).
 
 Bostadsnamnen står **inne i personkolumnen** som understrukna rubriker, inte
-som sidhuvuden. Volymen kan därför inte navigeras genom att läsa rubrikband;
-den kräver att man bläddrar. Sidhuvudet ger bara socken och rote.
+som sidhuvuden; sidhuvudet ger bara socken och rote. Volymen kan därför inte
+navigeras genom att läsa rubrikband.
+
+**Den behöver inte navigeras så heller.** Volymen har ett **maskinskrivet
+ortregister på bilderna 10–12**, i tabellform före första uppslaget, med
+omkring femhundra orter och sidnummer. Registret är lätt att missa eftersom
+det inte är handskrivet och inte ligger sist. Bildvisningens egen
+`Bild / Sida`-tabell översätter sedan sidnumret till bild: **två sidor per
+bild**, sida 281 på bild 158, sida 283 på bild 159.
 
 Noterat vid genomsökningen: soldattorpet i Mofallas rote 1 står på bild 169
 med `S.O. Erik Jans Roth` f. 1825 och hustrun `Cajsa Lisa Svensdotter`
@@ -46,7 +53,8 @@ just den rubriken, inte alla hushåll på uppslaget.
 | Kyrkefalla rote 5 | 150–167 | Backen 1 Rusth. (150), Backe Johanstorp (152), Hollsten (154), Tubbelbolet (160) |
 | **Mofalla** | **ca 168–205** | Attebu och Trakebo (171), Habbelstorp (175–177), Skarpelund och Lofwelund (178); **soldattorpet med Roth på 169** |
 
-**`Årebolet` är inte funnet.** Byn finns i Rosenberg som ett hemman i
-Kyrkefalla vid Tidan, men saknas bland de rubriker som lästs. Den mest
-sannolika platsen är därför **rote 1, bilderna 1–39**, som inte är kartlagd
-alls, eller något av de ojämna uppslag som hoppades över.
+**`Årebolet` ligger på sidorna 282–283, bilderna 158–159**, i rote 5 — inte
+i rote 1 som kartan gissade. Det avgjordes av ortregistret på bild 11, inte
+av kartläggningen. Delkartan står kvar som den översikt den är, men
+**registret är ingången**; se
+[C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md).
