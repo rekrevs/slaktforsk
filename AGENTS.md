@@ -42,12 +42,21 @@ split new work instead of growing an unlimited task. Log each research batch
 once, in `genealogy/research-log/`.
 
 Apply the person contract to new, partial, disordered, disputed, previously
-closed and side-person dossiers. Reuse sufficient existing research; never
+closed and side-person dossiers, **at the level the task works on**. The
+contract has two completion levels (`person-contract.md`, "Två färdignivåer"):
+the identity level (PK-01, 02, 05, 07, 09, 11, 12) is the pedigree's gate and
+is recorded in `Identitetsgranskning` and `Trädverkan`; the life-picture level
+(PK-03, 04, 06, 08, 10) including the ten themes may lag and is recorded in
+`Kontraktsgranskning`. A front task that ends with the identity level approved
+and the life picture untouched is complete, not half-done. Never let a line of
+descent pass a person whose `Trädverkan` is not `BÄRANDE`, and never merge the
+two levels into one measure. Reuse sufficient existing research; never
 auto-convert legacy GRANSKAD/KLAR to a passed contract review. Every touched
 research dossier gets a profile or an explicit bounded adoption step in the
-current task. Assess all ten life themes, preserve full relevant extraction,
-track source paths by time/place/coverage, and use new search keys to reassess
-dependencies across affected people. Profiles and the derived inventory hold
+current task. Assess the ten life themes at the life-picture level, preserve
+full relevant extraction from every record actually opened, track source paths
+by time/place/coverage, and use new search keys to reassess dependencies across
+affected people. Profiles and the derived inventory hold
 knowledge/review state only; Wotan alone schedules and resumes execution.
 Task DONE, accepted ancestry, rich biography and source exhaustion are distinct.
 

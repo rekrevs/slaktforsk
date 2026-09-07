@@ -4376,3 +4376,89 @@ bredare och fullt läsbart. Riktningen i PCD-2026-09-07-018 står oförändrad.
 - Evidence: `genealogy/citations/C-1022`, `genealogy/research-log/2026-09-07.md`
   batch 441, `wotan/dev-log/T-0101.md`.
 - Resulting Wotan tasks: inga nya; T-0101 fortsätter.
+
+## PCD-2026-09-07-021 — Personkontraktet delas i två färdignivåer
+
+- Record type: decision
+- Date: 2026-09-07
+- Decided by: **ägaren**, uttryckligen; Project Control saknar myndighet över
+  normativa vikter som vad "klar" betyder för en person.
+- Trigger: ägarens iakttagelse att personakterna har mycket olika omfång, och
+  frågan om det är rimligt att först bygga trädet djupt och avvakta med att
+  fylla i alla aspekter av en persons levnad.
+
+### Underlaget
+
+Mätning över samtliga 538 personakter:
+
+- Filstorleken är **proportionell mot antalet påståenden** (Pearson `r = 0,98`).
+  Akterna är inte uppsvällda; de stora innehåller fler läsningar.
+- Antalet påståenden **per person** faller som en klippa mellan djupen:
+  djup 3 median 31, djup 4 median 22, **djup 5 median 23, djup 6 median 5,
+  djup 7 median 1**. En djup-7-ana har ett påstående därför att ingen ännu
+  öppnat en enda källa om henne; hon finns bara som ett namn i sitt barns
+  födelsenotis.
+- Medianakten har bearbetats vid **ett** tillfälle, de tolv största vid tre,
+  P-0051 vid sex — påståenden spridda från `A-0228` till `A-3848`.
+- `goal-state`: djup 1–5 kompletta, **djup 7 känt till 44 av 128 positioner,
+  djup 8 till 2 av 256**.
+
+Tre drivkrafter, varav bara en är ett val: **kohortprogrammet** (en hel
+djupskiva ges full kontraktsbehandling innan nästa prövas), **motstånd** (varje
+återöppning av en olöst identitet kostar nya påståenden) och **källtäthet**
+(födda 1850–1899 median 22 påståenden, födda 1750–1799 median 3). Motstånd och
+källtäthet får projektet oavsett arbetsordning.
+
+### Beslut
+
+Personkontraktet får **två färdignivåer med var sitt granskningsutlåtande**.
+
+- **Identitetsnivå** — PK-01, 02, 05, 07, 09, 11, 12. Antavlans grind.
+  Redovisas i `Identitetsgranskning` och `Trädverkan`.
+- **Livsbildsnivå** — PK-03, 04, 06, 08, 10 samt de tio temana. Får ligga
+  efter. Redovisas i `Kontraktsgranskning`, oförändrad innebörd.
+
+`PK-05` ligger med avsikt i grinden: full informationsutvinning ur den post
+som redan är uppslagen kostar ingenting extra och är ofta just det som bär
+linjen vidare — moderns ålder `28` i Målillas ytterkolumn och
+`f.d. Lifgardisten` i Holms vigselbok, båda funna 2026-09-07, är belägg för
+det. `PK-08` ligger i livsbilden av samma skäl: det dyra är att öppna nya
+källfamiljer för frågor som inte flyttar fronten.
+
+`Trädverkan: BÄRANDE` kräver `Identitetsläge: PRÖVAT`. En olöst identitet kan
+vara korrekt avgränsad och identitetsgodkänd, men får aldrig bära en anlinje
+uppåt. Utan det fältet blir identitetsgodkännandet en gummistämpel.
+
+Nivåerna får **aldrig slås ihop till ett mått**. Inventeringen redovisar dem
+per djup så att den uppskjutna livsbildsskulden är synlig i stället för dold.
+
+### Verkställighet
+
+Ändrat 2026-09-07: `genealogy/person-contract.md` (nytt avsnitt *Två
+färdignivåer*, granskningsavsnittet, mallavsnittet),
+`genealogy/templates/research-profile.md`, `scripts/research-inventory.mjs`
+(två valfria fält, separat kontrollblock, `tierSummary` per djup),
+`scripts/research-inventory.test.mjs` (sju nya fall), `AGENTS.md`.
+
+**Inget befintligt omdöme ändras.** De 96 profilerna behåller sin
+`Kontraktsgranskning`. De tolv fulla godkännandena härleds till
+identitetsnivån, eftersom en full granskning är en övermängd av den; ett
+uttryckligt avvikande värde är däremot en motsägelse och avvisas.
+`Trädverkan` står `AVVAKTAR` för samtliga 538 — ingen trädbedömning har ännu
+gjorts, och det ska synas.
+
+### Resulterande Wotan-uppgifter
+
+- **T-0103** (ny, READY): sätt `Identitetsgranskning` och `Trädverkan` på de
+  96 befintliga profilerna med uttryckligt utlåtande per person.
+- **T-0099** klassas om till livsbildsuppgift och går efter frontuppgifterna.
+
+Inga beställningar, publicering, PDF eller dashboarduppdatering följer av
+detta beslut. Commit och push av ändringen är uttryckligen godkända av ägaren
+i samma instruktion.
+
+### Reaktivering
+
+Om identitetsnivån visar sig bli den enda som någonsin utförs — synligt som en
+växande skillnad mellan `identitetsgodkända` och `livsbildsgodkända` per djup
+i inventeringen — ska Project Control ta upp balansen med ägaren på nytt.

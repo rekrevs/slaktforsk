@@ -17,6 +17,14 @@ const FIELDS = {
   "Källstrategiläge": ["EJ BEDÖMT", "PÅGÅR", "GENOMGÅNGEN"],
   "Kontraktsgranskning": ["EJ GRANSKAD", "UNDERKÄND", "GODKÄND"],
 };
+// Identitetsnivån är antavlans grind; livsbildsnivån får ligga efter. Se
+// person-contract.md, avsnittet "Två färdignivåer".
+export const IDENTITY_REQUIREMENTS = ["PK-01", "PK-02", "PK-05", "PK-07", "PK-09", "PK-11", "PK-12"];
+export const BIOGRAPHY_REQUIREMENTS = REQUIREMENTS.filter((id) => !IDENTITY_REQUIREMENTS.includes(id));
+const OPTIONAL_FIELDS = {
+  "Identitetsgranskning": ["EJ GRANSKAD", "UNDERKÄND", "GODKÄND"],
+  "Trädverkan": ["BÄRANDE", "EJ BÄRANDE", "AVVAKTAR"],
+};
 const HEADINGS = ["Identitetsbedömning", "Söknycklar", "Livsteman", "Forskningsfrågor", "Källvägar", "Kontraktsgranskning"];
 const PATH_FIELDS = ["Frågor/teman", "Källklass", "Tid/plats och arkivbildare", "Förväntad information", "Ingång och söknycklar", "Beroenden", "Föregående källvägar", "Leverantörer och åtkomst", "Undersökt omfång och utfall", "Bedömning och återaktivering", "Wotan"];
 const QUESTION_FIELDS = ["Fråga och betydelse", "Känt underlag", "Alternativ och motprövning", "Källvägar", "Slutsatsläge", "Argument och konflikter", "Påverkade personer/påståenden"];
@@ -43,7 +51,7 @@ export function checkLocalLink(root, baseFile, target) {
 }
 
 export function assessProfile({ personId, text, linkError = () => null, classIds = new Set(Array.from({ length: 40 }, (_, i) => `K-${String(i + 1).padStart(2, "0")}`)), taskIds = null, pathExists = null }) {
-  if (text === null) return { present: false, identity: "EJ BEDÖMT", biography: "EJ BEDÖMT", strategy: "EJ BEDÖMT", review: "EJ INFÖRT", themes: {}, dependencies: {}, recordedApproval: false, errors: [] };
+  if (text === null) return { present: false, identity: "EJ BEDÖMT", biography: "EJ BEDÖMT", strategy: "EJ BEDÖMT", review: "EJ INFÖRT", identityReview: "EJ INFÖRT", identityReviewDerived: false, treeEffect: "AVVAKTAR", themes: {}, dependencies: {}, recordedApproval: false, recordedIdentityApproval: false, errors: [] };
   const errors = [];
   function one(key, allowed) {
     const values = fieldValues(text, key);
@@ -53,6 +61,16 @@ export function assessProfile({ personId, text, linkError = () => null, classIds
   one("Kontrakt", ["person-research/v1"]);
   one("Person", [personId]);
   const states = Object.fromEntries(Object.entries(FIELDS).map(([key, values]) => [key, one(key, values)]));
+  // Valfria fält: saknas de gäller nolläget. Äldre profiler blir därmed inte
+  // ogiltiga av att nivåuppdelningen införs, men de blir heller inte godkända.
+  function optional(key, allowed, fallback) {
+    const values = fieldValues(text, key);
+    if (values.length === 0) return null;
+    if (values.length !== 1 || !values[0] || !allowed.includes(values[0])) { errors.push(`${key}: kräver exakt ett giltigt värde`); return null; }
+    return values[0];
+  }
+  const statedIdentityReview = optional("Identitetsgranskning", OPTIONAL_FIELDS["Identitetsgranskning"]);
+  const treeEffect = optional("Trädverkan", OPTIONAL_FIELDS["Trädverkan"]) ?? "AVVAKTAR";
   for (const heading of HEADINGS) {
     if (text.split("\n").filter((line) => line === `## ${heading}`).length !== 1) errors.push(`kräver exakt ett avsnitt ${heading}`);
   }
@@ -120,6 +138,28 @@ export function assessProfile({ personId, text, linkError = () => null, classIds
     if (error) errors.push(error);
   }
   const approved = states.Kontraktsgranskning === "GODKÄND";
+  // Full granskning är en övermängd av identitetsnivån. Saknas det uttryckliga
+  // fältet härleds det därför ur GODKÄND; ett uttryckligt avvikande värde är
+  // däremot en motsägelse och inte något som får härledas bort.
+  if (approved && statedIdentityReview && statedIdentityReview !== "GODKÄND") errors.push("Kontraktsgranskning GODKÄND kräver godkänd identitetsgranskning");
+  const identityApproved = statedIdentityReview === "GODKÄND" || (approved && statedIdentityReview === null);
+  const identityReviewDerived = identityApproved && statedIdentityReview === null;
+  if (statedIdentityReview === "GODKÄND") {
+    if (!["PRÖVAT", "OLÖST"].includes(states.Identitetsläge)) errors.push("Identitetsgranskning GODKÄND kräver prövad eller sakligt avgränsad identitet");
+    const date = one("Granskningsdatum");
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date ?? "") || Number.isNaN(Date.parse(date)) || new Date(date).toISOString().slice(0, 10) !== date) errors.push("Identitetsgranskning GODKÄND kräver giltigt granskningsdatum");
+    if (!hasLink(one("Granskningsbelägg") ?? "")) errors.push("Identitetsgranskning GODKÄND kräver beläggslänk i Granskningsbelägg");
+    for (const id of IDENTITY_REQUIREMENTS) {
+      const found = rows.filter((row) => row[0] === id);
+      if (found.length !== 1 || found[0][1] !== "STYRKT" || !hasLink(found[0][2] ?? "")) errors.push(`Identitetsgranskning GODKÄND kräver beläggslänkad prövning av ${id}`);
+    }
+  }
+  // Grinden: en olöst identitet kan vara korrekt avgränsad, men får aldrig
+  // bära en anlinje uppåt.
+  if (treeEffect === "BÄRANDE") {
+    if (!identityApproved) errors.push("Trädverkan BÄRANDE kräver godkänd identitetsgranskning");
+    if (states.Identitetsläge !== "PRÖVAT") errors.push("Trädverkan BÄRANDE kräver Identitetsläge PRÖVAT");
+  }
   if (approved) {
     if (!["PRÖVAT", "OLÖST"].includes(states.Identitetsläge)) errors.push("GODKÄND kräver prövad eller sakligt avgränsad identitet");
     if (!["GENOMGÅNGEN", "AVGRÄNSAD", "INTEGRITETSMINIMERAD"].includes(states.Livsbildsläge)) errors.push("GODKÄND kräver avslutad livsbildsbedömning");
@@ -140,8 +180,11 @@ export function assessProfile({ personId, text, linkError = () => null, classIds
   }
   return {
     present: true, identity: states.Identitetsläge, biography: states.Livsbildsläge,
-    strategy: states.Källstrategiläge, review: states.Kontraktsgranskning, themes, dependencies: Object.fromEntries(dependencies),
-    recordedApproval: approved && errors.length === 0, errors,
+    strategy: states.Källstrategiläge, review: states.Kontraktsgranskning,
+    identityReview: statedIdentityReview ?? (identityApproved ? "GODKÄND" : "EJ GRANSKAD"),
+    identityReviewDerived, treeEffect, themes, dependencies: Object.fromEntries(dependencies),
+    recordedApproval: approved && errors.length === 0,
+    recordedIdentityApproval: identityApproved && errors.length === 0, errors,
   };
 }
 
@@ -210,9 +253,34 @@ export function buildInventory(root) {
   return {
     schema: "research-inventory/v1", meaning: "Struktur och registrerade bedömningar; inte saklig måluppfyllelse eller arbetskö.",
     contractSha256: sha(readFileSync(join(root, "genealogy/person-contract.md"), "utf8")), sourceStrategySha256: sha(strategy),
-    summary: { people: records.length, withProfile: records.filter((r) => r.contract.present).length, withoutProfile: records.filter((r) => !r.contract.present).length, recordedApprovals: records.filter((r) => r.contract.recordedApproval).length, structuralErrors: errors.length },
+    summary: {
+      people: records.length, withProfile: records.filter((r) => r.contract.present).length,
+      withoutProfile: records.filter((r) => !r.contract.present).length,
+      recordedApprovals: records.filter((r) => r.contract.recordedApproval).length,
+      recordedIdentityApprovals: records.filter((r) => r.contract.recordedIdentityApproval).length,
+      treeBearing: records.filter((r) => r.contract.treeEffect === "BÄRANDE").length,
+      tiers: tierSummary(records), structuralErrors: errors.length,
+    },
     records, errors,
   };
+}
+
+// Nivåerna redovisas per djup och slås aldrig ihop till ett mått: en
+// generation kan vara trädklar utan att vara livsbildsklar, och den
+// uppskjutna skulden ska synas i stället för att döljas.
+export function tierSummary(records) {
+  const rows = new Map();
+  for (const record of records) {
+    const depth = record.registeredDepth;
+    if (depth === null || depth === undefined) continue;
+    const row = rows.get(depth) ?? { depth, known: 0, identityApproved: 0, treeBearing: 0, fullApproved: 0 };
+    row.known += 1;
+    if (record.contract.recordedIdentityApproval) row.identityApproved += 1;
+    if (record.contract.treeEffect === "BÄRANDE") row.treeBearing += 1;
+    if (record.contract.recordedApproval) row.fullApproved += 1;
+    rows.set(depth, row);
+  }
+  return [...rows.values()].sort((a, b) => a.depth - b.depth);
 }
 
 export function dependencyCycles(graph) {
@@ -234,7 +302,10 @@ export function formatInventory(inventory) {
     "Personkontrakt: struktur och registrerade bedömningar, inte genealogisk bevisning.",
     `Samtliga personakter: ${s.people}; profiler: ${s.withProfile}; ännu ej införda: ${s.withoutProfile}.`,
     `Registrerade GODKÄND med giltig struktur: ${s.recordedApprovals}; sakrevision krävs vid avslut.`,
-    ...["identity", "biography", "strategy"].map((key) => {
+    `Identitetsnivå: ${s.recordedIdentityApprovals} godkända, varav ${s.treeBearing} med Trädverkan BÄRANDE.`,
+    "djup | kända | identitetsgodkända | bärande | livsbildsgodkända",
+    ...s.tiers.map((t) => `${String(t.depth).padStart(4)} | ${String(t.known).padStart(5)} | ${String(t.identityApproved).padStart(18)} | ${String(t.treeBearing).padStart(7)} | ${String(t.fullApproved).padStart(17)}`),
+    ...["identity", "biography", "strategy", "identityReview", "treeEffect"].map((key) => {
       const counts = {};
       for (const record of inventory.records) counts[record.contract[key] ?? "OGILTIGT"] = (counts[record.contract[key] ?? "OGILTIGT"] ?? 0) + 1;
       return `${key}: ${Object.entries(counts).map(([k, v]) => `${k} ${v}`).join(", ")}`;

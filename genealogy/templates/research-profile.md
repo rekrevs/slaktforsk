@@ -5,6 +5,8 @@
 - Identitetsläge: `EJ BEDÖMT`
 - Livsbildsläge: `EJ BEDÖMT`
 - Källstrategiläge: `EJ BEDÖMT`
+- Identitetsgranskning: `EJ GRANSKAD`
+- Trädverkan: `AVVAKTAR`
 - Kontraktsgranskning: `EJ GRANSKAD`
 - Granskningsdatum: ej granskat
 - Granskningsbelägg: saknas

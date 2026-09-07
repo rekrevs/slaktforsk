@@ -48,6 +48,44 @@ får vara korta och länka till gemensamma hushålls- eller källbedömningar.
 Hänvisningen måste precisera vad som gäller just denna person. Samma arbete
 behöver inte skrivas om i varje akt, men ingen person får försvinna ur täckningen.
 
+## Två färdignivåer
+
+Kraven ovan beskriver en fullständig personbehandling. De uppfylls inte alltid
+samtidigt, och de har olika verkan på antavlan. Kontraktet skiljer därför på
+två nivåer med **var sitt granskningsutlåtande**.
+
+| Nivå | PK-krav | Verkan |
+|---|---|---|
+| **Identitetsnivå** | PK-01, PK-02, PK-05, PK-07, PK-09, PK-11, PK-12 | Grind för antavlan. Utan den får ingen anlinje passera personen. |
+| **Livsbildsnivå** | PK-03, PK-04, PK-06, PK-08, PK-10 | Personens levnad. Får ligga efter, men skulden ska synas. |
+
+Fördelningen följer var kunskapen kommer ifrån, inte hur intressant den är.
+
+**PK-05 ligger i grinden med avsikt.** Full informationsutvinning gäller den
+post som redan är uppslagen: moderns ålder i dopnotisens ytterkolumn,
+`Hitkom. ifrån` i hushållsraden, en ståndsbeteckning som förklarar ett
+efternamn. Sådana uppgifter kostar ingenting extra och är ofta just det som
+bär linjen vidare. Att sluta läsa vid det sökta datumet är fel på
+identitetsnivån, inte en uppskjuten berikning.
+
+**PK-08 ligger i livsbilden med samma avsikt.** Det dyra är att öppna *nya*
+källfamiljer — bouppteckningar, mantal, jord och lagfart, domböcker — för
+frågor som inte flyttar fronten. Det arbetet skjuts upp, inte det som ligger
+på en redan läst sida.
+
+**PK-04 delas.** Personer i den lästa posten eller det lästa hushållet hör
+till identitetsnivån; att söka upp nätverk därutöver hör till livsbilden.
+
+De tio temana hör i sin helhet till livsbildsnivån. `Livsbildsläge:
+EJ BEDÖMT` är därför ett giltigt läge för en identitetsgodkänd person, inte
+en brist.
+
+**Nivåerna får aldrig slås ihop till ett mått.** En person kan vara
+identitetsgodkänd i åratal innan livsbilden görs; en generation kan vara
+trädklar utan att vara livsbildsklar. Inventeringen och `goal-state`
+redovisar de två separat, så att den uppskjutna skulden är synlig i stället
+för dold.
+
 ## Tio teman som alltid ska bedömas
 
 | Tema-id | Område | Frågor som grundgenomgången ska upptäcka |
@@ -194,6 +232,8 @@ Profilen har exakt ett fält av varje sort:
 - Identitetsläge: `EJ BEDÖMT`
 - Livsbildsläge: `EJ BEDÖMT`
 - Källstrategiläge: `EJ BEDÖMT`
+- Identitetsgranskning: `EJ GRANSKAD`
+- Trädverkan: `AVVAKTAR`
 - Kontraktsgranskning: `EJ GRANSKAD`
 ```
 
@@ -205,7 +245,22 @@ eller `INTEGRITETSMINIMERAD`. Källstrategiläge: `EJ BEDÖMT`, `PÅGÅR` eller
 `GODKÄND`. Dessa fält beskriver granskningen och ändrar inte äldre parserns
 relationer eller A-poststatusar.
 
-`GODKÄND` kräver en daterad, beläggslänkad bedömning av **varje PK-01–12**,
+`Identitetsgranskning`: `EJ GRANSKAD`, `UNDERKÄND` eller `GODKÄND`, och gäller
+**endast identitetsnivåns krav** PK-01, 02, 05, 07, 09, 11 och 12. `GODKÄND`
+där kräver en daterad, beläggslänkad bedömning av dessa sju, ett
+`Identitetsläge` som är `PRÖVAT` eller sakligt avgränsat `OLÖST`, och säger
+ingenting om livsbilden.
+
+`Trädverkan`: `BÄRANDE`, `EJ BÄRANDE` eller `AVVAKTAR`. Fältet svarar på den
+enda fråga identitetsnivån finns för: **får antavlan passera denna person?**
+`BÄRANDE` kräver `Identitetsläge: PRÖVAT`. En `OLÖST` identitet kan vara
+korrekt avgränsad och identitetsgodkänd, men den får aldrig bära en anlinje
+uppåt; den står då `AVVAKTAR`. Utan detta fält blir identitetsgodkännandet en
+gummistämpel.
+
+`Kontraktsgranskning: GODKÄND` kräver `Identitetsgranskning: GODKÄND` —
+den fulla nivån kan inte hoppa över grinden. Därutöver kräver den en daterad,
+beläggslänkad bedömning av **varje PK-01–12**,
 alla tio teman, konsoliderad tidslinje och berättelse, redovisade alternativ,
 källtäckning och beroenden. Inga materiella genomförbara frågor får återstå.
 Godkännandet ska ange granskat källäge och vilka källgrundade gränser som
@@ -231,3 +286,9 @@ akt ska profilen finnas eller skapas som första lokal inventering inom
 uppgiften. Ange vilka PK-krav uppgiften behandlar och vilka som återstår.
 Ett begränsat källprov får avslutas utan personens GODKÄND, men dess olösta
 krav ska vara synliga och beslutat följdarbete ligga i Wotan.
+
+Ange alltid vilken **nivå** uppgiften arbetar på. En frontuppgift som bygger
+antavlan avslutas med `Identitetsgranskning` och `Trädverkan` satta; den
+lämnar `Livsbildsläge` och `Kontraktsgranskning` orörda och det är ett
+fullständigt resultat, inte ett halvfärdigt. En livsbildsuppgift förutsätter
+att identitetsnivån redan är godkänd.

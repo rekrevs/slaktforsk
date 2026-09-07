@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync, mkdtempSync, mkdirSync, writeFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { assessProfile, dependencyCycles, validateWotan, checkLocalLink, THEMES, REQUIREMENTS } from "./research-inventory.mjs";
+import { assessProfile, dependencyCycles, validateWotan, checkLocalLink, tierSummary, THEMES, REQUIREMENTS, IDENTITY_REQUIREMENTS } from "./research-inventory.mjs";
 
 const template = readFileSync(new URL("../genealogy/templates/research-profile.md", import.meta.url), "utf8");
 function partial() {
@@ -17,6 +17,7 @@ function closed() {
     .replace("- Livsbildsläge: `EJ BEDÖMT`", "- Livsbildsläge: `INTEGRITETSMINIMERAD`")
     .replace("- Källstrategiläge: `EJ BEDÖMT`", "- Källstrategiläge: `GENOMGÅNGEN`")
     .replace("- Kontraktsgranskning: `EJ GRANSKAD`", "- Kontraktsgranskning: `GODKÄND`")
+    .replace("- Identitetsgranskning: `EJ GRANSKAD`", "- Identitetsgranskning: `GODKÄND`")
     .replace("- Granskningsdatum: ej granskat", "- Granskningsdatum: 2026-09-05")
     .replace("- Granskningsbelägg: saknas", "- Granskningsbelägg: [granskning](review.md)")
     .replace(/^- Tidslinje: .+$/m, "- Tidslinje: [nödvändig livslinje](person.md#tidslinje)")
@@ -118,4 +119,80 @@ test("Wotan rejects lost dev-logs, duplicate active work and circular predecesso
   const tasks = [{ id: "T-0001", status: "ONGOING", after: ["T-0002"] }, { id: "T-0002", status: "ONGOING", after: ["T-0001"] }];
   const errors = validateWotan({ next_id: 2, tasks }, () => false);
   for (const expected of ["dev-log", "next_id", "cyklisk", "flera ONGOING"]) assert.ok(errors.some((e) => e.includes(expected)), expected);
+});
+
+// Två färdignivåer: identitetsnivån är antavlans grind, livsbildsnivån får
+// ligga efter. Se person-contract.md, avsnittet "Två färdignivåer".
+function identityOnly() {
+  let text = partial()
+    .replace("- Identitetsläge: `EJ BEDÖMT`", "- Identitetsläge: `PRÖVAT`")
+    .replace("- Identitetsgranskning: `EJ GRANSKAD`", "- Identitetsgranskning: `GODKÄND`")
+    .replace("- Granskningsdatum: ej granskat", "- Granskningsdatum: 2026-09-07")
+    .replace("- Granskningsbelägg: saknas", "- Granskningsbelägg: [granskning](review.md)");
+  for (const id of IDENTITY_REQUIREMENTS) {
+    text = text.replace(`| ${id} | EJ GRANSKAT | — |`, `| ${id} | STYRKT | Individuellt bedömt: [belägg](review.md). |`);
+  }
+  return text;
+}
+
+test("en identitetsgodkänd person passerar med livsbilden orörd", () => {
+  const result = assess(identityOnly());
+  assert.deepEqual(result.errors, []);
+  assert.equal(result.recordedIdentityApproval, true);
+  assert.equal(result.recordedApproval, false, "identitetsnivån är inte ett fullt godkännande");
+  assert.equal(result.biography, "EJ BEDÖMT", "obedömd livsbild är ett giltigt läge, inte en brist");
+});
+
+test("BÄRANDE kräver godkänd identitetsgranskning och prövad identitet", () => {
+  const stamp = assess(partial().replace("- Trädverkan: `AVVAKTAR`", "- Trädverkan: `BÄRANDE`"));
+  assert.ok(stamp.errors.some((e) => e.includes("Trädverkan BÄRANDE kräver godkänd identitetsgranskning")));
+  const unresolved = assess(identityOnly()
+    .replace("- Identitetsläge: `PRÖVAT`", "- Identitetsläge: `OLÖST`")
+    .replace("- Trädverkan: `AVVAKTAR`", "- Trädverkan: `BÄRANDE`"));
+  assert.ok(unresolved.errors.some((e) => e.includes("Trädverkan BÄRANDE kräver Identitetsläge PRÖVAT")),
+    "en olöst identitet får aldrig bära en anlinje uppåt");
+});
+
+test("en avgränsat olöst identitet får godkännas men stannar på AVVAKTAR", () => {
+  const result = assess(identityOnly().replace("- Identitetsläge: `PRÖVAT`", "- Identitetsläge: `OLÖST`"));
+  assert.deepEqual(result.errors, []);
+  assert.equal(result.recordedIdentityApproval, true);
+  assert.equal(result.treeEffect, "AVVAKTAR");
+});
+
+test("äldre full GODKÄND utan fältet härleds till identitetsnivån", () => {
+  const legacy = assess(closed().replace(/^- Identitetsgranskning: .+\n/m, ""));
+  assert.deepEqual(legacy.errors, []);
+  assert.equal(legacy.recordedIdentityApproval, true);
+  assert.equal(legacy.identityReviewDerived, true, "full granskning är en övermängd av identitetsnivån");
+});
+
+test("ny full GODKÄND måste ange grinden uttryckligen och får inte motsägas", () => {
+  for (const value of ["`EJ GRANSKAD`", "`UNDERKÄND`"]) {
+    const result = assess(closed().replace("- Identitetsgranskning: `GODKÄND`", `- Identitetsgranskning: ${value}`));
+    assert.ok(result.errors.some((e) => e.includes("Kontraktsgranskning GODKÄND kräver godkänd identitetsgranskning")),
+      `${value} ska avvisas`);
+    assert.equal(result.recordedApproval, false);
+  }
+});
+
+test("ogiltiga värden i de nya fälten avvisas", () => {
+  for (const [field, bad] of [["Identitetsgranskning", "`KLAR`"], ["Trädverkan", "`KANSKE`"]]) {
+    const line = field === "Trädverkan" ? "- Trädverkan: `AVVAKTAR`" : "- Identitetsgranskning: `EJ GRANSKAD`";
+    const result = assess(partial().replace(line, `- ${field}: ${bad}`));
+    assert.ok(result.errors.some((e) => e.startsWith(`${field}:`)), `${field} ska avvisa ${bad}`);
+  }
+});
+
+test("nivåerna räknas per djup och slås aldrig ihop", () => {
+  const rows = tierSummary([
+    { registeredDepth: 6, contract: { recordedIdentityApproval: true, recordedApproval: false, treeEffect: "BÄRANDE" } },
+    { registeredDepth: 6, contract: { recordedIdentityApproval: true, recordedApproval: false, treeEffect: "AVVAKTAR" } },
+    { registeredDepth: 5, contract: { recordedIdentityApproval: true, recordedApproval: true, treeEffect: "BÄRANDE" } },
+    { registeredDepth: null, contract: { recordedIdentityApproval: true, recordedApproval: true, treeEffect: "BÄRANDE" } },
+  ]);
+  assert.deepEqual(rows, [
+    { depth: 5, known: 1, identityApproved: 1, treeBearing: 1, fullApproved: 1 },
+    { depth: 6, known: 2, identityApproved: 2, treeBearing: 1, fullApproved: 0 },
+  ]);
 });
