@@ -10,6 +10,7 @@ August Carlman enligt sonens egen födelse- och doppost 1825.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2224 | Anna Greta Danielsdotter i Målilla var mor till Carl August, född 1825-10-02. | TRANSCRIBED | mycket hög | [C-0465](../citations/C-0465-malilla-C4-carl-august-fodd-1825.md) | Relation och namn står i barnets samtida födelsenotis; eget ursprung återstår. |
+| A-3781 | Bland faddrarna 1825 står bonden Daniel Nilsson i Ammenäs, hustrun Lisa Andersdotter i Ammenäs och pigan Anna Stina Danielsdotter på samma ort; hushållet är en kandidat till Anna Greta Danielsdotters föräldrahem. | LEAD | medel | [C-1015](../citations/C-1015-malilla-C4-1825-vittnena-utvunna.md) | Moderns patronymikon förutsätter en far vid namn Daniel; tre faddrar hör till samma gård och bildar mönstret husbonde, hustru och hemmavarande dotter. Ingen relation skapas. |
 
 ## Relationer
 
@@ -32,8 +33,11 @@ men ger ingen säker föräldraanknytning.
 - Genomsökt: Målilla A I/5:s eget register samt Målilla sidorna 138 och 158
   och Målilla prästgård sida 164.
 - Negativ kontroll: [C-0852](../citations/C-0852-malilla-AI5-carl-fredric-anna-greta-front.md)
-- Återaktivering: en uttrycklig ort-, datum-, vigsel- eller flyttnyckel för
-  Anna Greta; sök inte brett i födelseböcker på namn och make ensamma.
+- Återaktivering: **en ortsnyckel finns nu** — hushållet `Daniel Nilsson`,
+  `Lisa Andersdotter` och `Anna Stina Danielsdotter` i **Ammenäs** bland
+  dopvittnena 1825, se C-1015. Pröva Målillas husförhörslängd för Ammenäs.
+  Sök fortfarande inte brett på namn och make ensamma, och slå inte samman på
+  namnlikhet.
 
 ## Arbetsläge
 

@@ -31,3 +31,19 @@ säkrare läsning.
 ## Stödda påståenden
 
 A-2217–A-2218 och A-2223–A-2224.
+
+## Rättelse 2026-09-07 — vittnena är nu utvunna
+
+Posten är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100.
+Se [C-1015](C-1015-malilla-C4-1825-vittnena-utvunna.md).
+
+Faddrarna lyder: `Bond. Daniel Nilsson i Ammenäs, Rusth. Anders Persson i
+Ljungby, Hustr. Lisa Andersd:r i Ammenäs och Pig. Anna Stina Danielsd:r
+ibid.`
+
+Två av dem svarar mot **moderns** patronymikon — en man vid namn `Daniel` och
+en `Danielsdotter`, båda i **Ammenäs** — och en mot **faderns**: rusthållaren
+`Anders Persson` i **Ljungby**. Uppgifterna förs som `LEAD`; ingen relation
+skapas på namnlikhet och ort.
+
+Texten ovan bevaras oförändrad som revisionsspår.
