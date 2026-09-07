@@ -29,3 +29,22 @@ vigsel eller en flyttnotis krävs för återaktivering.
 
 A-3227–A-3228 och P-0362–P-0363:s terminala fronter.
 
+
+## Rättelse 2026-09-07 — sidan bär inte det beskrivna hushållet
+
+Sida 55 är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100.
+Se [C-1013](C-1013-jonsberg-AI7-sida-55-omlast-hushallet-stammer-inte.md).
+
+**Sidan bär tre hushåll och fjorton rader, och ingen av dem är Lars Svenssons.**
+Det överstrukna hushållet är `Bond. Petter Jansson`, `hans hustru Anna
+Månsdr`, `S. Johan Fredrik` och `D. Anna Maria` — namnen läses igenom
+överstrykningen utan svårighet. Den enda `Carolina` på sidan är `Carolina
+Carlsdotter`, född i Rönö 1829, hustru i ett annat hushåll.
+
+De reservationsvis lästa datumen `1809 1/6` och `1814 28/3` ligger nära dem
+som står på de överstrukna raderna, vilket talar för att **rätt rader lästes
+men bands till fel personer**.
+
+**A-3227 och A-3228 förlorar därmed sitt underlag**, liksom folierättelsen
+35 → 55. Båda var förda som `LEAD` med medelhög tillförlitlighet, så ingen
+fastställd relation faller. Texten ovan bevaras oförändrad som revisionsspår.
