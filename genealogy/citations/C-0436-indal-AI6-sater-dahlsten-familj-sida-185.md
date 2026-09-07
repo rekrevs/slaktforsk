@@ -49,3 +49,17 @@ C-0438–C-0439.
 ## Stödda påståenden
 
 A-2172–A-2180.
+
+## Rättelse 2026-09-07 — två namn och en kolumnuppgift
+
+Sidan är omläst i närbild ur det lokala fulloriginalet inom T-0100, se
+[C-1012](C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md).
+
+- Hustrun heter i originalet **`Stina Cajsa Larsd:`**, inte `Anna Cajsa
+  Larsdotter`. Samma läsning ger `A I/7` sida 193.
+- Sonen född 1836 heter i originalet **`Lars Johan`**, inte `Carl Johan`.
+  Samma läsning ger `A I/7` sida 193.
+- **`A I/6` saknar födelseortskolumn**; volymen har i stället `Hvarifrån` och
+  `Hvarthän`. Det är `A I/7` som har kolumnen `Födelse-ort`.
+
+Avskriften ovan bevaras oförändrad som revisionsspår.

@@ -45,3 +45,19 @@ Eriks födelse och föräldrar bekräftas separat i C-0440.
 ## Stödda påståenden
 
 A-2172–A-2177 och A-2180–A-2181.
+
+## Rättelse 2026-09-07 — två namn, och kolumnen som `i Indal` bygger på
+
+Sidan är omläst i närbild ur det lokala fulloriginalet inom T-0100, se
+[C-1012](C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md).
+
+- Sidan har en verklig kolumn **`Födelse-ort`**, och tillägget `i Indal` i
+  avskriften ovan har därmed stöd i källan. Ortkolumnen bär **en enda
+  utskriven form, `Indahl`, på hushållsföreståndarens rad**, med dittotecken
+  på övriga rader — inte ordet utskrivet elva gånger.
+- Hustrun heter i originalet **`Stina Cajsa Larsd:`**, inte `Anna Cajsa
+  Larsdotter`. Samma läsning ger `A I/6` sida 185.
+- Sonen född 1836 heter i originalet **`Lars Johan`**, inte `Carl Johan`.
+  Samma läsning ger `A I/6` sida 185.
+
+Avskriften ovan bevaras oförändrad som revisionsspår.

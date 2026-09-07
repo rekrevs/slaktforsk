@@ -10,17 +10,18 @@ född 1834-03-21.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2169 | Anders Dahlsten i Säter var far till Cajsa Märta, född 1834-03-21 och döpt 23 mars i Indal. | TRANSCRIBED | hög | [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md) | Dotterns samtida födelse- och doppost. |
-| A-2174 | Anders Dahlsten var bonde i Säter, uppges född 1800-10-22 och följs där med hustrun Anna Cajsa Larsdotter och deras barn i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Två successiva hushållslängder; födelsesocken och egen födelsenotis återstår. |
+| A-2174 | Anders Dahlsten var bonde i Säter, uppges född 1800-10-22 och följs där med hustrun Stina Cajsa Larsdotter och deras barn i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Två successiva hushållslängder; födelsesocken och egen födelsenotis återstår. |
 | A-3229 | Indal C/3:s fullständiga födelseår 1800 saknar ett barn Anders fött 22 oktober. | CONFLICT | hög | [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md) | Exakt hushållsdatum kan inte förenas med födelseoriginalet; ingen annan post väljs utan mellanlänk. |
+| A-3771 | Indal A I/7 sida 193 har kolumnen Födelse-ort och anger `Indahl` på hans rad; A I/6 sida 185 saknar sådan kolumn. | CONFLICT | hög | [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md), [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md) | Sockenuppgiften står mot Indals kompletta födelseår 1800 och gäller båda makarna oberoende. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0376 Anna Cajsa Larsdotter](P-0376-anna-cajsa-larsdotter.md) | hustru | CORROBORATED | C-0434, C-0436–C-0437 |
+| [P-0376 Stina Cajsa Larsdotter](P-0376-anna-cajsa-larsdotter.md) | hustru | CORROBORATED | C-0434, C-0436–C-0437 |
 | [P-0316 Cajsa Märta Andersdotter/Dahlsten/Dalsten](P-0316-cajsa-marta-andersdotter.md) | dotter | CORROBORATED | C-0434, C-0274, C-0388–C-0390 |
 | [P-0377 Nils Peter, son till Anders Dahlsten](P-0377-nils-peter-son-till-anders-dahlsten.md) | son | CORROBORATED | C-0436–C-0437 |
-| [P-0378 Carl Johan, son till Anders Dahlsten](P-0378-carl-johan-son-till-anders-dahlsten.md) | son | CORROBORATED | C-0436–C-0437 |
+| [P-0378 Lars Johan, son till Anders Dahlsten](P-0378-carl-johan-son-till-anders-dahlsten.md) | son | CORROBORATED | C-0436–C-0437 |
 | [P-0379 Anna Helena, dotter till Anders Dahlsten](P-0379-anna-helena-dotter-till-anders-dahlsten.md) | dotter | CORROBORATED | C-0436, C-0438 |
 | [P-0380 Anders Olof, son 1842–1843](P-0380-anders-olof-son-1842-1843.md) | son | CORROBORATED | C-0436, C-0438 |
 | [P-0381 Anders Olof, son född 1844](P-0381-anders-olof-son-fodd-1844.md) | son | CORROBORATED | C-0436–C-0437, C-0439 |

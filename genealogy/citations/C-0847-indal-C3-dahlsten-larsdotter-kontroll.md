@@ -50,3 +50,20 @@ ursprungsnyckel.
 ## Stödda påståenden
 
 A-3229–A-3230 och P-0375–P-0376:s terminala fronter.
+
+## Rättelse 2026-09-07 — den ena av de två volymerna anger födelseort
+
+Tolkningen ovan säger att *de senare hushållssidorna inte uttryckligen anger
+födelsesocken*. Omläsning i närbild inom T-0100 visar att det gäller
+**`A I/6` men inte `A I/7`**, se
+[C-1012](C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md): `A I/7` sida 193
+har kolumnen `Födelse-ort`, med formen `Indahl` utskriven på
+hushållsföreståndarens rad och dittotecken därunder.
+
+**Följden för det här citatets nollresultat:** de kompletta årgångarna 1800
+och 1807 står nu mot en **uttrycklig sockenuppgift** i hushållsboken, för
+**båda makarna**. Nollet är oförändrat i sak; det som ändras är att
+avvikelsen ska föras som en konflikt mot en påstådd födelsesocken och inte
+enbart som ett oanvändbart datum. Ingen ny slutsats om makarnas ursprung dras.
+
+Texten ovan bevaras oförändrad som revisionsspår.
