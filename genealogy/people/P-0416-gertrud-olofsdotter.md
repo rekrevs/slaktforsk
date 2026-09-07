@@ -10,6 +10,8 @@ Hustru till kolaren Jonas Nordlund och mor till Stina Kajsa Nordlund.
 |---|---|---|---|---|---|
 | A-2358 | Gertrud Olofsdotter föddes 1812-01-23 i Stöde, döptes 25 januari och återfinns senare som Jonas Nordlunds hustru i Sättna. | CORROBORATED | hög | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md), [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Namn, exakt datum och socken förenar födelsenotisen med hushållsraden. |
 | A-2359 | Hon var dotter till bonden Olof Stefansson och Sigrid Jonsdotter i Hullsjö. | CORROBORATED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Samtida födelsenotis namnger båda föräldrarna. |
+| A-3827 | Vigselposten 1842 anger henne som **bonddotter från Stöde och Hullsjön**, 30 år gammal och ogift. | CORROBORATED | mycket hög | [C-1030](../citations/C-1030-holm-C1-1842-jonas-nordlund-gertrud-vigsel.md) | Oberoende bekräftelse av socken, by och födelseår ur en annan församlings bok än födelsenotisen. |
+| A-3828 | Stödes vigselbok upptar ingen vigsel för paret under 1840 eller 1841; förväntan att bruden vigdes i hemsocknen var felaktig. | NEGATIVE | hög | [C-1031](../citations/C-1031-stode-EI1-1840-1841-negativ-nordlund.md) | Omkring femtio par lästa. Samma läsning rättade S-0770:s årsankare: bild 24 är 1831–1832, inte 1841. |
 
 ## Relationer
 
@@ -25,8 +27,12 @@ Hustru till kolaren Jonas Nordlund och mor till Stina Kajsa Nordlund.
 
 ## Forskningsstatus
 
-Egen födelse, föräldrar och det senare barnhushållet är säkrade. Följ
-föräldraparet i Hullsjö innan deras födelse- och dödsdata utökas.
+Egen födelse, föräldrar och det senare barnhushållet är säkrade. **Vigseln är
+funnen 2026-09-07: 1842-04-10 i Holm**, där hon skrivs som bonddotter
+`från Stöde och Hullsjön`, 30 år och ogift (C-1030) — en oberoende
+bekräftelse av socken, by och födelseår ur en annan församlings bok. Stöde
+prövades först och gav en nolla för 1840–1841 (C-1031). Följ föräldraparet i
+Hullsjö innan deras födelse- och dödsdata utökas.
 
 ## Arbetsläge
 

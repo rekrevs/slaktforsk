@@ -44,3 +44,18 @@ fungerar inte för koder som innehåller mellanslag (`"…/E I/1"` ger noll trä
 medan `"…/C/2"` fungerar). Volymen lokaliserades i stället genom att **pröva
 bildserie-id i närheten av ett känt id** — `A0010806` (E I/3) gav `A0010807`
 (E I/1) och `A0010805` (E I/2). Metoden är captcha-fri och återanvändbar.
+
+## Rättelse 2026-09-07 — årsankarna var delvis fel
+
+Tabellen ovan bevaras som revisionsspår men **ska inte användas**. Manifestets
+`structures`-index, bekräftat av två uppslag lästa 2026-09-07, ger:
+
+`1823–1824:18 · 1825–1827:21 · 1828–1829:22 · 1830:23 · 1831–1832:24 ·
+1833–1834:25 · 1835:26 · 1836–1837:27 · 1838–1839:28 · **1840–1841:29** ·
+**1842–1843:30** · 1844–1845:31 · 1846–1847:32 · 1848–1850:33 · 1851–1852:34 ·
+1853–1854:35 · 1855:36 · 1856–1857:37 · 1858:38 · 1859:40 · 1860:42 · 1861:44`
+
+Felet gällde framför allt **bild 24**, som angavs som `1841` men bär
+**1831–1832**: en trea läst som fyra. Bild 23 = 1830 stod rätt.
+
+Se [C-1031](../citations/C-1031-stode-EI1-1840-1841-negativ-nordlund.md).
