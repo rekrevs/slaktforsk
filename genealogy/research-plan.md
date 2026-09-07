@@ -82,6 +82,31 @@ Direkta anor prioriteras, men sidopersonernas materiella livsfrågor får inte
 parkeras permanent utan omprövning. Arbete i ett delat hushåll ska förbättra
 samtliga relevanta personakter. Orelaterade personer på samma sida dras inte in.
 
+### Kohortregel för sidopersoner, PCD-2026-09-07-017
+
+Sidopersoner — personer utan anposition, bevarade opportunistiskt ur lästa
+poster och hushåll — profileras **inte** var för sig i förväg. De tas upp
+när någon av fyra utlösare inträffar:
+
+1. **Hushållet eller källpassagen** de kommer ur behandlas på kontraktsnivå.
+   Då profileras samtliga relevanta personer i den passagen tillsammans.
+2. Personen bär en **materiellt öppen identitets- eller relationsfråga** som
+   berör en anposition — en kandidat som kan vara eller inte vara en ana, en
+   konflikt som påverkar ett föräldraled, en söknyckel som en anlinje hänger på.
+3. En **omläsning återöppnar** posten de kommer ur, eller ny åtkomst gör en
+   tidigare stängd väg farbar.
+4. **Ägaren efterfrågar** personen.
+
+**Omprövningen som gör detta till en regel och inte en dispens:** vid varje
+våggranskning prövas sidopersonerna kring den behandlade generationen mot de
+fyra utlösarna, och utfallet redovisas. En sidoperson får **inte** stå
+oprofilerad genom två på varandra följande våggranskningar av den anlinje hon
+hänger på utan en **skriven motivering** i granskningen.
+
+Regeln avgränsar planeringsordningen, inte målet. Villkor 2 i north star
+gäller fortfarande varje identifierad person; regeln säger **när** var och en
+tas upp, inte att någon får utebli.
+
 ## Arbetscykel inom person eller hushåll
 
 ### 1. Befintligt underlag och säker förankring

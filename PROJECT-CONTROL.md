@@ -4031,3 +4031,116 @@ uttryckligt överlämnade till `T-0083`, och kör därefter `T-0095` som en
 - Resulting Wotan tasks: inga nya; `T-0094` och `T-0095` får ändrat omfång.
 - Portfolio signal: mätfelet dolde att Kristinas sida på djup 6 var färdig.
 - Revisit when: `T-0094` och `T-0095` är DONE.
+
+## PCR-2026-09-07-017
+
+- Record type: review
+- Date: 2026-09-07
+- Mode: direction-review
+- Trigger: Villkor 2 har stått som "det dominerande gapet" i tre
+  styrbedömningar i rad, och riktningsfrågan har lyfts men inte avgjorts.
+  Ägarens stående direktiv delegerar uttryckligen övriga ägarbeslut till
+  Project Control.
+- Control judgement: redirect
+
+### Frågan har varit felställd
+
+PCR-2026-09-06-013 och PCR-2026-09-07-014 beskrev båda de **471 akterna utan
+profil** som en enda skuld och sköt riktningsvalet till ägaren. Det var fel på
+två sätt.
+
+**För det första är beslutet redan delegerat.** Ägarens direktiv säger
+uttryckligen att övriga ägarbeslut ligger hos Project Control, och
+forskningsplanen förutsätter samma sak: *"Alla ännu ej behandlade personer
+ska dock vara synliga i inventeringen, med en beslutad införandepassage
+eller dokumenterad kohortregel som återtar dem."* Valet mellan de två är
+precis vad som skjutits upp.
+
+**För det andra är de 471 inte en population utan två.**
+
+| Grupp | Antal | Vad de är |
+|---|---|---|
+| **Anpositioner** | **101** | djup 6: 57 · djup 7: 42 · djup 8: 2 |
+| **Sidopersoner** | **370** | utan anposition; bevarade ur lästa poster och hushåll |
+
+Och profilerna som finns är inte utspridda — de är **en fullständig
+generationstrappa**: djup 1 (2), 2 (4), 3 (8), 4 (16) och 5 (32) är
+**helt profilerade**, 62 av 67. Generationsvågen har alltså redan burit fem
+djup. Den fungerar; den har bara inte fortsatt.
+
+### Vad detta betyder
+
+Det finns ingen 471-stor obestämd skuld. Det finns **en nästa våg om 57
+personer** och en **kohort om 370 sidopersoner** som aldrig har haft en
+beslutad ordning.
+
+### Beslut
+
+Se PCD-2026-09-07-017. I korthet:
+
+1. **Villkor 2 fullföljs generationsvis**, med samma modell som bar djup 1–5.
+   Nästa våg är **djup 6**, delad efter sida så att balansen kan mätas.
+2. **Sidopersoner får en dokumenterad kohortregel** med fyra utlösare och en
+   uttrycklig omprövning vid varje våggranskning — införd i
+   `genealogy/research-plan.md`. Regeln avgränsar **planeringsordningen**,
+   inte målet.
+
+### Vad beslutet inte gör
+
+Det **markerar inte villkor 2 som uppfyllt**. Det gör den återstående
+mängden ändlig, namngiven och schemalagd i stället för obestämd. Det är
+skillnaden north star kräver mellan en kohortregel och en permanent dispens.
+
+### Owner decision required
+
+Ingen. Beslutet fattas inom delegerad myndighet och kan när som helst
+ändras av ägaren.
+
+### Rekommendation
+
+Kör `T-0098` och `T-0099` efter `T-0083`, som fortfarande är det enda som
+blockerar djup 6:s **trädsida**. Livsbildsvågen och trädarbetet på samma djup
+kan löpa parallellt men redovisas var för sig, enligt forskningsplanens två
+leveranser.
+
+- Resulting Wotan tasks: se PCD-2026-09-07-017.
+- Portfolio signal: den upplevda 471-skulden var i själva verket en avstannad
+  generationsvåg plus en oordnad sidopersonkohort.
+- Revisit when: djup 6:s livsbildsvåg är behandlad på båda sidor.
+
+## PCD-2026-09-07-017 — Generationsvåg för livsbilder, och kohortregel för sidopersoner
+
+- Datum: 2026-09-07
+- Beslutsunderlag: PCR-2026-09-07-017
+- Beslut: **godkänt inom delegerad myndighet.**
+
+**1. Livsbildsvågen fortsätter generationsvis.** Nästa våg är **djup 6**,
+delad efter sida:
+
+- **T-0098 (L)** — Kristinas sida, **29 personer**: P-0341, P-0342, P-0343,
+  P-0344, P-0350, P-0351, P-0360, P-0361, P-0362, P-0363, P-0371, P-0372,
+  P-0375, P-0376, P-0383, P-0384, P-0386, P-0387, P-0388, P-0389, P-0403,
+  P-0404, P-0415, P-0416, P-0447, P-0448, P-0451, P-0452, P-0454.
+- **T-0099 (L)** — Sverkers sida, **28 personer**: P-0082, P-0102, P-0103,
+  P-0123, P-0124, P-0125, P-0126, P-0131, P-0132, P-0145, P-0148, P-0158,
+  P-0159, P-0214, P-0215, P-0230, P-0231, P-0289, P-0290, P-0329, P-0330,
+  P-0470, P-0471, P-0472, P-0473, P-0474, P-0475, P-0519.
+
+Kohorterna är **fasta och namngivna**; de får inte växa. Personerna arbetas i
+hushållsgrupper, och varje uppgift delas vid sin första checkpoint om
+omfånget visar sig större än en L-uppgift bär.
+
+**2. Kohortregel för sidopersoner** införd i `genealogy/research-plan.md`
+under rubriken *Kohortregel för sidopersoner*. Fyra utlösare — behandlad
+källpassage, materiellt öppen fråga som berör en anposition, omläsning eller
+ny åtkomst, samt ägarens begäran — och en **omprövningsplikt vid varje
+våggranskning**: en sidoperson får inte stå oprofilerad genom två på varandra
+följande våggranskningar av sin anlinje utan skriven motivering.
+
+**3. Djup 7 och 8 allokeras inte nu.** Forskningsplanen förbjuder att
+oändliga generationer förhandsallokeras; nästa våg beslutas vid
+våggranskningen efter djup 6.
+
+- Resulting Wotan tasks: `T-0098` READY; `T-0099` READY.
+- Reaktiveringsvillkor: när båda är DONE görs en våggranskning som mäter
+  villkor 2 om och prövar sidopersonerna kring djup 6 mot de fyra utlösarna.
