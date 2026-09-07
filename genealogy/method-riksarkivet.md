@@ -800,6 +800,43 @@ Tekniken förutsätter att duken ritas från en `ImageBitmap`, inte från en
 IIIF-bredd som överstiger `info.json`:s `width`: tjänsten svarar `400` och
 `createImageBitmap` kastar `InvalidStateError`.
 
+## Tillägg 2026-09-07: IIIF-manifestet bär ett årsindex — sluta bläddra blint
+
+Riksarkivets IIIF-manifest innehåller ofta ett fullständigt innehållsregister i
+fältet `structures`: avsnitt → år → canvas. Det är maskinläsbart, kostar en
+enda begäran och ersätter i ett slag den blinda bläddring som north star
+avråder från.
+
+```js
+const m = await (await fetch(`https://lbiiif.riksarkivet.se/arkis!${serie}/manifest`)).json();
+const top = m.structures?.[0];
+top?.items.map(sec => [sec.label.sv[0],
+  sec.items.map(y => y.label.sv[0] + ':' + y.items.map(c => c.id.match(/_(\d+)\/canvas/)[1]).join(','))]);
+```
+
+För Målilla med Gårdveda `C/4` (`C0027214`, 372 bilder, 700 sidor) gav detta
+direkt att `Lysning och vigsel` ligger på bilderna **8–55**, `Födelse och dop`
+på **56–262** och `Död och begravning` på **264–368** — och därtill vilken bild
+varje enskilt år börjar på. Elva årgångars vigslar kunde läsas på elva
+uppslag i stället för genom att bläddra en volym på 372 bilder.
+
+Tre saker är värda att veta:
+
+1. **Indexet finns inte i alla volymer.** `structures` kan vara tomt. Pröva
+   först; fall tillbaka på bildetiketterna (`Bild N / Sida M`), som nästan
+   alltid finns och ger sidnumreringen.
+2. **Indexet kan rymma parallella serier.** Målillas inflyttningslängd
+   `B I/1` (`C0027207`) har två räckor för samma år — en för Målilla, en för
+   Gårdveda. Ett år som förekommer två gånger i listan är ett tecken på just
+   det, inte på ett fel.
+3. **Indexet är inte en fullständighetsgaranti.** I `C0027214` bär bild 27
+   sidorna 36 och 39; sidorna 37–38 syns inte. Kontrollera sidnumreringens
+   kontinuitet i etiketterna innan ett nollresultat skrivs som slutgiltigt.
+
+Kombinera med kyrkoarkivens egna ortregister, men lita inte på dem: Målilla
+`A I/5`:s register anger `Ämmenäs 231`, medan byn i själva verket fortsätter
+på sida 232. Registret pekar in i byn, det avgränsar den inte.
+
 ## Åtkomstregister
 
 Kända åtkomstbesked per volym, med datum och utfall, står i
