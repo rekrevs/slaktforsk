@@ -17,6 +17,8 @@ Christina Jonsdotter.
 | A-3241 | Indal C/3:s kompletta födelseföljd 1802 saknar Nils Pehrsson på det senare uppgivna datumet 19 juli; Nils född 2 augusti till Jon Nilsson och Greta Pehrsdotter avvisas som annan person. | NEGATIVE | hög | [C-0853](../citations/C-0853-indal-C3-nils-pehrsson-1802-kontroll.md) | Strikt volym-, församlings-, årgångs- och datumbundet noll. Husförhörsuppgiften rättas inte utan en personbindande mellanlänk. |
 | A-3785 | Nils Pehrsson var torpman i **Arklo**, by i Indals socken, i december 1836. | CORROBORATED | hög | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) | Ordet lästes onormaliserat i C-0509. Läsningen avgörs av handstilsjämförelse med fadderkolumnens `Johan Ersson i Arklo` och av att Rosenbergs samtliga 38 Indalsorter innehåller Arklo och ingen form som liknar Melle eller Miklo. |
 | A-3786 | Faddrar vid sonens dop 1836 var bland andra Jakob Jakobsson i Östanskär med hustru, Erik Gustaf Dahlquist i Mellansätter[?] med hustru, Johan Ersson i Arklo med hustru och Erik Petter Pehrsson i Arklo; listan är inte fullständigt avskriven. | TRANSCRIBED | hög | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) | Erik Petter Pehrsson bär faderns patronymikon och samma ort. Östanskär är bekräftad Indalsby i Rosenberg; Mellansätter är osäkert läst. |
+| A-3789 | Kolumnerna Hvarifrån och Hvarthän på Indal A I/8 sida 108 är tomma på Nils Pehrssons och hans hustrus rader. | NEGATIVE | hög | [C-1018](../citations/C-1018-indal-AI8-sida-108-flyttkolumnerna.md) | Den bakåthänvisning C-0514 pekade ut som första återaktiveringsväg finns inte för honom; vägen är därmed prövad och stängd. |
+| A-3790 | Giftkolumnen på hans rad bär en tvåsiffrig årsuppgift som läses `34` eller `44`; hustruns cell är tom. | LEAD | låg | [C-1018](../citations/C-1018-indal-AI8-sida-108-flyttkolumnerna.md) | `44` skulle datera hans andra gifte och placera Lisa Stina Larsdotters död 1836–1844; `34` skulle datera det första. Båda ger Indals vigselbok ett ettårsfönster. |
 
 ## Relationer
 
@@ -41,7 +43,8 @@ A I/7:s Högsjösidor 86–95 och C/3:s hela födelseår 1802 gav avgränsade no
   Högsjöavsnitt sidorna 86–95 samt det positiva A I/8-hushållet sida 108.
 - Negativ kontroll: [C-0514](../citations/C-0514-indal-AI7-hogsjo-nilsson-avgransat-negativ.md),
   [C-0853](../citations/C-0853-indal-C3-nils-pehrsson-1802-kontroll.md)
-- Återaktivering: **ortsnyckeln finns nu** — han var torpman i **Arklo**,
+- Återaktivering: **bakåthänvisningen i `A I/8` är prövad och tom** (C-1018);
+  den vägen är stängd. **Ortsnyckeln finns däremot** — han var torpman i **Arklo**,
   Indal, i december 1836 (C-1017). Slå upp Arklo i `A I/6` (1836–1846) och
   följ hushållet bakåt och framåt. Välj fortfarande inte 2-augusti-barnet och
   upprepa inte år 1802 utan en mellanlänk som förklarar datum- och

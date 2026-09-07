@@ -13,6 +13,7 @@ född 1834-03-21.
 | A-2174 | Anders Dahlsten var bonde i Säter, uppges född 1800-10-22 och följs där med hustrun Stina Cajsa Larsdotter och deras barn i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Två successiva hushållslängder; födelsesocken och egen födelsenotis återstår. |
 | A-3229 | Indal C/3:s fullständiga födelseår 1800 saknar ett barn Anders fött 22 oktober. | CONFLICT | hög | [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md) | Exakt hushållsdatum kan inte förenas med födelseoriginalet; ingen annan post väljs utan mellanlänk. |
 | A-3771 | Indal A I/7 sida 193 har kolumnen Födelse-ort och anger `Indahl` på hans rad; A I/6 sida 185 saknar sådan kolumn. | CONFLICT | hög | [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md), [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md) | Sockenuppgiften står mot Indals kompletta födelseår 1800 och gäller båda makarna oberoende. |
+| A-3791 | Indal A I/8 sida 108 anger i Hvarifrån-kolumnen `225` för dottern Cajsa Märta Dahlsten; sida 225 i samma volym är därmed sannolikt Säterhushållets sida efter 1854. | LEAD | medel | [C-1018](../citations/C-1018-indal-AI8-sida-108-flyttkolumnerna.md) | Sidhänvisning inom volymen, läst i närbild. Ger familjens fortsättning efter A I/7 utan ny sökning. |
 
 ## Relationer
 

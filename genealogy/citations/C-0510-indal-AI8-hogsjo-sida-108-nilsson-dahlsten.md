@@ -49,3 +49,23 @@ Larsdotter är Christina hans styvmor, inte hans biologiska mor.
 ## Stödda påståenden
 
 A-2309, A-2311–A-2313, A-2315–A-2319 och A-2321–A-2322.
+
+## Komplettering 2026-09-07 — flyttkolumnerna
+
+Sidan är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100.
+Se [C-1018](C-1018-indal-AI8-sida-108-flyttkolumnerna.md).
+
+- Volymen är en **tryckt formulärbok** med kolumnerna `Födelse-ort`,
+  `Gifter och dag`, `Frejd`, **`Hvarifrån`** och **`Hvarthän`**.
+- **`Hvarifrån` och `Hvarthän` är tomma på Nils Pehrssons och hans hustrus
+  rader.** Den bakåthänvisning C-0514 pekade ut som första återaktiveringsväg
+  finns alltså inte för honom.
+- I `Hvarifrån` står **`225`** med klammer mot raderna för `H:u Cajsa Märta
+  Dahlsten` och `D:r Lisa Cajsa` — sonhustrun kom från sida 225 i samma volym,
+  sannolikt Säterhushållets sida.
+- I `Hvarthän` står ett blekt ortord med **`1858`** mot den unga familjens
+  rader; ordet normaliseras inte.
+- `Gifter och dag` bär på Nils Pehrssons rad en tvåsiffrig årsuppgift som läses
+  `34` eller **`44`**; hustruns cell är tom.
+
+Avskriften ovan bevaras oförändrad som revisionsspår.
