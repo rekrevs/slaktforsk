@@ -47,6 +47,16 @@ sidor i samma privata databas och är inte oberoende verifierad.
   Anna Christina på dagen, medan Degerfors C/1 saknar årgångarna 1793–1794
   genom utrivna blad.
 - Negativ kontroll: [C-0131](../citations/C-0131-degerfors-arkivlucka-1793-1794.md), [C-0136](../citations/C-0136-umea-landsforsamling-negativ-anna-1794.md)
+- Återaktivera när: ett **substitut för de utrivna bladen** blir tillgängligt
+  eller en annan källa namnger hennes födelseförsamling. Luckan i Degerfors
+  `C/1` 1793–1794 är fysisk och upphör inte av att sökas om. Tre oprövade
+  vägar finns i stället: Degerfors äldsta husförhörslängd, som kan ange hennes
+  födelseort i klartext; en flyttattest eller vigselbilaga från 1820; och
+  Härnösands domkapitels eller SCB:s avskrifter och sammandrag, som ibland
+  bevarar uppgifter ur förlorade årgångar. **Upprepa inte** Umeå
+  landsförsamling C/4 eller Bygdeå C/3 kring 26 december 1794; båda är
+  kontrollerade. Ansedelns Sävaruppgift öppnar ingen volym — Sävars register
+  börjar först 1823.
 - Kvarstående lucka: födelsen och föräldrarna kan inte verifieras i den
   förväntade originalkällan. Den privata ansedelns Sävaruppgift är en konflikt,
   men öppnar ingen separat Sävar-volym för 1794; det relevanta äldre Umeå

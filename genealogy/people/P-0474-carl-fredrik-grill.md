@@ -129,6 +129,28 @@ Direkt ana på Adams djup 5 genom den lösta föräldralänken 2026-09-01.
 ## Slutstatus
 
 - Status: `VERIFIERAD`
+- Förväntad källa: den egna födelse- och dopnotisen i Halla `C/2`, som är den
+  källa föräldrafrågan hänger på. Den är **läst**: den namnger modern och
+  lämnar fadersfältet tomt.
+- Genomsökt: Halla `C/2` 1822 med den positiva notisen 9 april; Halla `A I/4`
+  och `A I/5` via ortregistret för moderns hushåll; Björkviks
+  rekryteringsbilagor 1840 med kyrkoattest, tjänsteintyg och läkarintyg, samt
+  Björkvik `A I/13 b` Jernbol och Bokullas sidor 90 i `A I/13 b` och
+  `A I/14 b`. Ingen av dessa namnger en far.
+- Belägg: [C-0798](../citations/C-0798-halla-C2-carl-fredrik-ella-ersdotter.md),
+  [C-0793](../citations/C-0793-carl-fredrik-drill-rekryteringsrulla-och-bokulla.md),
+  [C-0743](../citations/C-0743-bettna-grill-dod-1895-B5-negativ.md)
+- Återaktivera när: en **samtida handling namnger fadern**. Fadersfältet i
+  födelsenotisen är tomt därför att barnet föddes utom äktenskapet, och
+  patronymikonet `Pehrsson` i 1840 års attester skapar ingen fadersrelation.
+  Två oprövade vägar finns: **Oppunda häradsrätts protokoll och
+  lägersmåls-/underhållsmål** kring 1822 i Halla, och **bouppteckningen
+  Oppunda `F II/69` nr 557** från 1895, som kan namnge släktingar utanför den
+  kända hushållskedjan. Sök inte om kyrkoböckerna på patronymikonet.
+- Anmärkning om statusklassen: `VERIFIERAD` avser här att **den källa som bär
+  föräldrafrågan är läst** — modern är säkrad och fadersfältet är tomt i
+  originalet. Klassen bör prövas om ifall någon av de två vägarna ovan öppnas,
+  eftersom den då inte längre beskriver en uttömd fråga.
 
 ## Arbetsläge
 

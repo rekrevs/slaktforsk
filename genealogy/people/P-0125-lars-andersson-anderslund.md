@@ -61,6 +61,13 @@ morfars far.
 - Kvarstående motsägelse: Lerbo A I/19 ger ett exakt födelsedatum och en
   församling, men födelsebokens post för dagen avser ett annat barn. Föräldrar
   registreras därför inte.
+- Återaktivera när: en **personbunden** nyckel placerar honom i en namngiven
+  socken före 1847 — i första hand vigselnotisen 1847-10-20 med hemvist för
+  brudgummen, i andra hand en flyttattest eller en husförhörsrad som anger
+  hans födelseort. **Upprepa inte** sökningen på datum och namn ensamt:
+  Lerbo A I/19:s datum är redan prövat och pekade på ett annat barn, och
+  Västra Vingåker C/7 är genomläst kring den dagen. En ny sökning kräver en
+  ny **ort**, inte ett nytt försök med samma dag.
 
 ## Arbetsläge
 

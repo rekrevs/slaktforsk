@@ -51,6 +51,14 @@ Rödå.
   i husförhörslängden `A I/3` (1825–1835), som saknar det ortnamn vigselboken
   anger.
 - Negativ kontroll: [C-0119](../citations/C-0119-degerfors-negativ-kontroll-sofia-magdalena.md)
+- Återaktivera när: en källa namnger hennes **födelseförsamling** eller hennes
+  föräldrar. Tre konkreta vägar är oprövade: vigselbilagorna eller
+  flyttattesten till vigseln 1828 i Degerfors, en senare husförhörsrad som för
+  in födelseorten i klartext i stället för `ibm`, och en dödspost med
+  åldersuppgift som kan skilja 1806 från 1810. **Upprepa inte** Degerfors
+  `C/2` 1806 och 1810 — båda årgångarna är genomlästa och saknar henne. Nästa
+  sökning ska riktas mot en **annan församling**, inte mot ett nytt försök i
+  samma volym.
 - Kvarstående motsägelse: två samtida källor ger olika födelseår, 1806 och
   1810, och ingen av årgångarna innehåller en Sofia Magdalena. Hon kan vara
   född i en annan församling, och vilken framgår inte av någon åtkomlig källa.
