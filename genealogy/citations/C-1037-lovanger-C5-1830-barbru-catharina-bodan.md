@@ -88,22 +88,45 @@ Registret är ofullständigt på samma sätt som Målillas
 ([C-1029](C-1029-malilla-AI5-gastgiveriet-och-ammenas.md)): **byn löper över
 minst sidorna 57–60**, bilderna 71–74, alla rubricerade `Bodan`.
 
-Sidorna 57–60 är lästa i översikt. De upptar hushållen `Afsk. Sold. Olof
+Sidorna **57–62** är lästa i översikt. De upptar hushållen `Afsk. Sold. Olof
 Hustig`, `Jacob Nilsson`, `Jonas Jacobsson`, `Pehr [·]sson` med sonen
 `Magnus Andersson`, `Johan Lindgren`, `Gustaf Petersson Lundquist` och
-`Johan Pehrsson Lindquist`, samt långa listor över drängar och pigor med
-korshänvisningar till andra folier.
+`Johan Pehrsson Lindquist`, `Anders Larsson`, `Afsk. Sold. Pehr Andersson`,
+`Emanuel Åhling` och `Torp. Pehr Södermark`, samt långa listor över drängar
+och pigor med korshänvisningar till andra folier.
 
-**Torparen Olof Pehrsson Westman återfinns inte på dessa fyra sidor.** Det är
-ett **ofullständigt** resultat, inte en nolla: byn fortsätter bortom sida 60,
-torpare förs ofta sist i en bys sidor, och volymen har 387 bilder.
+Därtill är volymens avdelning **`Krigsfolk`**, sidorna **345–350**, läst i
+översikt — den naturliga platsen för en avskedad soldat med soldatnamn. Den
+upptar `Hammare`, `Skrattig`, `Löfdahl`, `Ström`, `Kriegsman`, `Wrander`,
+`Wikberg`, `Gref`, `Justig`, `Löf`, `Svärd`, `Resolut`, `Blomsted`,
+`Skottberg`, `Spets`, `Sund`, `Gran`, `Struck`, `Skampe`, `Sång` och
+`Flinta`. **Inget `Westman`** — men avdelningen fortsätter bortom sida 350.
+
+Även `A I/8a` (1836–1841) är påbörjad: dess register anger `Bodan 70`, och
+sidorna 70–73 upptar `Jacob Andersson Sirm`, `Jonas Jacobsson`,
+`Magn. And. Petersson` och `Johan Lundqvist`. Inte heller där finns Westman.
+
+**Torparen Olof Pehrsson Westman återfinns inte på någon av de lästa
+sidorna.** Det är ett **ofullständigt** resultat, inte en nolla: Bodan
+fortsätter bortom sida 62 i `A I/7` och bortom sida 73 i `A I/8a`,
+`Krigsfolk` fortsätter bortom sida 350, och de två volymerna rymmer 387
+respektive 261 bilder.
+
+Att söka honom där han *borde* stå och inte finna honom är samma
+utgångsläge som frågan började i. **Det som saknas är en sidnyckel, inte
+fler översiktsläsningar.**
 
 **Nästa steg, i prioritetsordning:**
 
-1. Läs Bodan vidare från **sida 61** tills byn tar slut, och sök torparraden.
-2. Om den inte finns där: gå till **`A I/8a`/`A I/8b` (1836–1841)**,
-   bildserierna `C0034165` och `C0034166`, som ligger närmare den kritiska
-   flytten omkring 1846 och där dottern ska stå med **födelsedatum** — den
-   avgörande uppgiften, eftersom `1830-01-24` mot hushållskällornas
-   `1830-02-24` är hela frågan.
-3. Sök därefter **Lövångers utflyttningslängd omkring 1846** mot Bygdeå.
+1. **`A I/8a`/`A I/8b` (1836–1841)**, bildserierna `C0034165` och
+   `C0034166`, Bodan från sida 74 och framåt. Där ska dottern stå **med
+   utskrivet födelsedatum** — den avgörande uppgiften, eftersom
+   `1830-01-24` mot hushållskällornas `1830-02-24` är hela frågan.
+2. Läs `A I/7`:s Bodan vidare från sida 63 och `Krigsfolk` från sida 351.
+3. **Lövångers utflyttningslängd omkring 1846** mot Bygdeå — den enda källa
+   som direkt kan binda flickan till Jomarkskedjan.
+
+Alternativet till (1)–(3) är att söka bakåt i stället: **Lövångers
+vigselbok** för ett par `Olof Pehrsson Westman` × `Brita Stina
+Johansdotter` omkring 1810–1829. Hustruns ålder 39 år 1830 ger henne
+födelseåret omkring 1791, vilket är en självständig kontrollpunkt.
