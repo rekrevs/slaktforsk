@@ -42,12 +42,11 @@ stubbe.
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
 | [P-0021 Augusta Viktoria Johansson](P-0021-augusta-viktoria-johansson.md) | dotter | CORROBORATED | C-0999, C-1002, C-1003 |
-| `Lars Pettersson`, rusthållare vid Årebolet, f. 1791-02-13, d. 1847-01-23 | far | CORROBORATED | C-1007, C-1005 |
-| `Stina Jansdotter`, f. 1799-01-03 i Varola | mor | CORROBORATED | C-1007, C-1005 |
+| [P-0537 Lars Pettersson vid Årebolet](P-0537-lars-pettersson-arebolet.md) | far | CORROBORATED | C-1007, C-1005 |
+| [P-0538 Stina Jansdotter från Varola](P-0538-stina-jansdotter-varola.md) | mor | CORROBORATED | C-1007, C-1005 |
 
-**Föräldrarna har ännu ingen egen personakt.** Relationen är fastställd
-(A-3746), men akterna kräver personkontraktets behandling och skapas som eget
-steg. Detsamma gäller maken **Johannes Eriksson**, född 1820-12-25.
+Föräldrarna fick egna akter 2026-09-07, samma dag som relationen fastställdes.
+Maken **Johannes Eriksson**, född 1820-12-25, har fortfarande ingen egen akt.
 Det gäller även de fyra äldre barnen och den möjliga fadern Erik Jansson
 Roth. Frånvaron är en medveten avgränsning: akter skapas med
 personkontraktets behandling, inte som stubbar.
@@ -142,6 +141,14 @@ följde med henne genom livet och överlevde henne med sex dagars fel.
 
 ## Arbetsläge
 
+- Konsolidering: `GRANSKAD` 2026-09-07 (batch 408, [C-1007](../citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md))
+- Källbredd: `PÅGÅR` — 2026-09-07. Kyrkoböckerna är uttömda för hennes liv:
+  födelse, uppväxthushåll, flytt, vigsel, barn och död är lästa i original i
+  fem serier. **Kvar är två genomförbara vägar utanför kyrkoarkivet** —
+  bouppteckning efter 1868 i Kåkinds härad (profilens KP-03) och Mofallas
+  sockenstämmo- och kyrkorådsprotokoll kring 1863 (KP-04). Ingen av dem är
+  prövad, så källbredden är inte klar.
+
 Akten skapades 2026-09-07 inom T-0060 med full profil,
-[P-0536](../research-profiles/P-0536.md). Den är **inte** en stubbe och
-räknas därför inte till högen obedömda akter.
+[P-0536](../research-profiles/P-0536.md), och är **inte** en stubbe.
+Föräldrarna har egna akter sedan samma dag, så hon är inte längre en anspets.
