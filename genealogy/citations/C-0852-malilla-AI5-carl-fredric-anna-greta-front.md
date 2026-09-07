@@ -34,3 +34,26 @@ ursprungsnyckel innan födelseböcker söks brett.
 
 Terminalfront för P-0386 och P-0387; inga nya släktpåståenden.
 
+
+## Rättelse 2026-09-07 — läsbarheten gällde filen, och hushållet står inte på sidan
+
+Sidorna 158 och 138 är lästa i **Riksarkivets publika IIIF i
+originalupplösning** inom T-0101. Se
+[C-1022](C-1022-malilla-AI5-originalet-ar-lasbart.md).
+
+- Originalen mäter **6 200 × 4 316** respektive **5 816 × 4 312** pixlar; de
+  lokalt bevarade filerna är 1 200 px breda, alltså omkring **en femtedel**.
+- **I originalupplösning är `Född: Uti`-kolumnen fullt läsbar** — `Stockholm`,
+  `Östergötland`, `Målilla`, `Hesselby`, `Corlveda`, `Wackeby`, `Mörlunda`,
+  `Misterhult`. Bedömningen *inte tillräckligt läsbar* gällde **filen**, inte
+  källan.
+- **Sida 158 bär inte gästgiverihushållet.** Den har `H:r Inspectorn
+  P. W. Forsberg` med hustrun `Sara Lena Höckerström`, en överstruken pigrad
+  vid `Torp: Nytorp under N:o 2 i Målilla`, och `Eric Josephsson` från
+  `Hesselby` med familj. Ingen rad bär Carl Fredric Andersson eller Anna Greta
+  Danielsdotter.
+- **Sida 138**, rubricerad `N:o 1 Målilja`, bär överst beteckningen
+  `Gästgif.` följd av ett hushåll med överstrukna och rättade namnrader.
+  Identifieringen hör till en uppgift med det i sitt omfång.
+
+Texten ovan bevaras oförändrad som revisionsspår.

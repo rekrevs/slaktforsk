@@ -4343,3 +4343,36 @@ balanskravet mellan sidorna annars förskjuts.
 - Resulting Wotan tasks: inga nya.
 - Reactivation condition: när T-0100–T-0102 och T-0083 är avslutade ska
   ställningen mot villkor 1–5 mätas om innan djup 7 påbörjas.
+
+## PCR-2026-09-07-020 — Rättelse av filräkningen i PCR-2026-09-07-019 och PCD-2026-09-07-018
+
+- Record type: review
+- Date: 2026-09-07
+- Mode: checkpoint
+- Trigger: T-0101:s första steg visade att den siffra båda posterna bygger på
+  är fel.
+- Control judgement: no change of direction; rättelse av underlaget.
+
+**Felet.** Båda posterna anger **77 filer** under 2 000 pixlar med ett
+Riksarkivets bild-id. Siffran byggde på ett snävt filnamnsmönster som bara
+fångade formen `C0000000_00000` och missade de serier som namnger bilden
+`bild-NN`. **Det korrekta antalet är 450.**
+
+**Varför slutsatsen ändå blir mildare.** Klassificeringen i T-0101 visar att
+**352 av de 450 är avsiktlig täckningsdokumentation** — sida-för-sida-bilder
+från två hela Vännäsvolymer, ett omfångsdokumenterat Sävaravsnitt och tre
+IIIF-tiles i egen upplösning. **18** är skärmbilder av bildvisaren, och
+**80** är bevisbärande material i lågupplöst form.
+
+Formuleringen *77 filer … utgör en avgränsad kontrollmängd* ersätts därför av:
+**450 filer, varav 352 i klass (a), 18 i klass (b) och 80 i klass (c);
+kontrollmängden är klass (c) plus de sidbreda nollresultaten i klass (a) och
+(b), inte hela mängden.**
+
+**Vad rättelsen inte ändrar.** Den enda front som uttryckligen motiverats med
+låg läsbarhet — C-0852 — är prövad och **föll**: originalet är fem gånger
+bredare och fullt läsbart. Riktningen i PCD-2026-09-07-018 står oförändrad.
+
+- Evidence: `genealogy/citations/C-1022`, `genealogy/research-log/2026-09-07.md`
+  batch 441, `wotan/dev-log/T-0101.md`.
+- Resulting Wotan tasks: inga nya; T-0101 fortsätter.
