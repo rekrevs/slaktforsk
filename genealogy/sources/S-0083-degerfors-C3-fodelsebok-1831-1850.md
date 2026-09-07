@@ -26,3 +26,39 @@ Vigselavdelningen ligger på bilderna 148–160 enligt manifestets innehållstr�
 bilderna 153–160 täcker hela 1840–1847 och är lästa som avgränsad kontroll av
 Johan Pehrssons första äktenskap. Det direkta `A0001456`-manifestet och
 bildservicen fungerade 2026-08-21.
+
+## Vigselavsnittet — kartlagt 2026-09-07 (T-0091)
+
+Volymen är katalogförd som `Födelse- och dopböcker`, men bär **även
+församlingens vigselregister**. Födelseavsnittet slutar med 1850 på bild 148:s
+vänstersida; **vigselavsnittet börjar på samma uppslags högersida** under
+rubriken `Förteckning öfver sammanvigde å:r 18NN`.
+
+Kolumner: `Nummer | Lyst dag | Vigd dag | Contrahenternas Namn | Ålder |
+Hemvist`. Varje kontrahentpar tar två rader och varje år rymms i stort sett på
+en sida, med omkring femton till tjugotvå poster.
+
+### Årsmappning
+
+| Bild | Årgång |
+|---|---|
+| 148 höger | **1831** (poster 1–17) |
+| 149 vänster, övre | 1831 forts. (poster 18–22) |
+| 149 vänster, nedre | **1832** börjar |
+| 151 vänster | **1835** — utskrivet i klara siffror |
+| 155 | 1842–1843 |
+| 157 | **1844** — utskrivet i klara siffror |
+| 153–160 | ungefär 1840–1847, i linje med den tidigare noteringen i `source-coverage.md` |
+
+**Läsvarning.** Årtalens tredje siffra är genomgående illa skriven och `3`
+och `4` går inte att skilja på ögonmått i rubriken. **Ankra alltid årgången
+mot bild 151 (`1835`) eller bild 157 (`1844`)**, där siffrorna är
+otvetydiga, och räkna sidor därifrån. Så bestämdes 1831 i
+[C-1071](../citations/C-1071-degerfors-vigselar-1831-jonas-ulrika-negativ.md).
+
+### Föregångaren
+
+Vigselavsnittet i [S-0084](S-0084-degerfors-C2-fodelsebok-1800-1830.md)
+(`A0001455`) slutar med **1830** på bild 132; bilderna 133–136 är blanka
+sidor 245–254, och från bild 137 följer dödboken. **De två volymernas
+vigselregister möts alltså utan lucka vid årsskiftet 1830/1831.**

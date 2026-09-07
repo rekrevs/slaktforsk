@@ -65,3 +65,22 @@ Hustru Maria Jacobsd:r 31` i **Häggnäs**, döpt den 17 april — bild
 
 Slutsats för framtida kontroller i denna volym: **läs hela årgången ur
 manifestets index; välj inte uppslag efter en gissad datumposition.**
+
+## Årsindex ur IIIF-manifestet 2026-09-07
+
+Manifestets `structures` ger avsnittet `Födelse och dop` med startbilderna
+1829:9, 1830:14, 1831:23, 1832:28, 1833:35. De tre årgångar som lästs i
+T-0090 avgränsas därav så här:
+
+| Årgång | Bilder | Anmärkning |
+|---|---|---|
+| 1829 | 9–14 | **Ofullständig årgång.** Volymens första post är daterad 23 maj 1829; januari–maj ligger i `C/3`. |
+| 1830 | 14–22 | Läst i [C-1036](../citations/C-1036-bygdea-C4-1830-argangsnoll-barbro.md). |
+| 1831 | 23–28 | Årsrubriken `1831` står på bild 23:s vänstersida; rubriken `1832` följer på bild 28:s högersida. |
+
+Postföljden är **inte strikt kronologisk över uppslagen**: en septemberpost
+kan stå efter en oktoberpost, och enstaka poster förs in i efterhand med
+avvikande datum. Ett datumbundet sidnoll i denna volym är därför särskilt
+svagt — det var just den felkällan som gjorde att Jakob Anderssons
+födelsenotis missades i C-0424 (se [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md)).
+Se vidare [C-1040](../citations/C-1040-bygdea-C4-1829-1831-grannaren-barbro.md).

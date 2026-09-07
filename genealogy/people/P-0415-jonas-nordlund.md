@@ -18,6 +18,7 @@ Kolaren Jonas Nordlund i Norafors–Stormyran, far till Stina Kajsa Nordlund.
 | A-3824 | Han kallas i vigselposten **`f.d. Lifgardisten`**; namnet Nordlund är alltså ett soldatnamn från tjänst i livgardet. | CORROBORATED | hög | [C-1030](../citations/C-1030-holm-C1-1842-jonas-nordlund-gertrud-vigsel.md) | Förklarar varför sonen till `Stephan` i Holm bär ett efternamn. Öppnar gardesregementenas rullor som osökt källväg för patronymikonet. |
 | A-3825 | Vid vigseln bodde han i **Hissjön**, by i Holms socken, Indals tingslag. | CORROBORATED | hög | [C-1030](../citations/C-1030-holm-C1-1842-jonas-nordlund-gertrud-vigsel.md) | Ortnamnet är avstavat i originalet och bekräftat mot Rosenbergs lexikon, post 22039. |
 | A-3826 | Ett **äktenskapsförord** (`pactum antenuptiale`) upprättades mellan kontrahenterna före vigseln. | TRANSCRIBED | hög | [C-1030](../citations/C-1030-holm-C1-1842-jonas-nordlund-gertrud-vigsel.md) | Sådana handlingar registrerades vid häradsrätten och kan bära egendomsuppgifter om båda parter. Osökt. |
+| A-3872 | Holm `C/1` namnger honom i december 1844 som **torpare i Hulsjön i Holm**, 30–35 år, och som far till en dotter född 19 december 1844. | TRANSCRIBED | hög | [C-1042](../citations/C-1042-holm-C1-1843-1845-nordlund-hulsjon.md) | Första samtida posten som placerar paret i Holm med ort och yrke. Senare källor gör honom till **kolare** i Stormyran i Sättna; yrkes- och ortbytet är därmed daterat till efter 1844. Dotterns identitet med P-0251 är **inte** avgjord. |
 
 ## Relationer
 

@@ -25,3 +25,13 @@ Den kronologiska gränsen 17–22 juni 1899 har också prövats specifikt mot
 Anders Anderssons marginaldatum i församlingsboken. Avsaknaden av hans post
 på den väntade platsen är ett snävt källnoll i C-0433, inte ett upphävt
 dödsdatum eller ett helvolymsnoll.
+
+## Årsindex 2026-09-07
+
+IIIF-manifestets `structures` ger dödsårens startbilder: 1895:5, 1896:12,
+1897:21, 1898:30, **1899:38**, **1900:51**, 1901:62, 1902:74.
+
+Årgången 1899 är läst posterna **1–100** (bilderna 38–47) inom T-0090.
+Träffen — Anders Anderssons dödpost — står som **post 72 på bild 45**, en dag
+efter den gräns [C-0433](../citations/C-0433-bygdea-F1-1899-06-22-negativ-anders-andersson.md)
+läste. Se [C-1044](../citations/C-1044-bygdea-F1-anders-andersson-dod-1899-06-23.md).

@@ -1,0 +1,85 @@
+# C-1055: Degerfors A I/7b sida 400 — luckan 1857–1861 är sluten
+
+## Källa
+
+Vindelns kyrkoarkiv (Degerfors kyrkoarkiv), `SE/HLA/1010028/A I/7b`,
+husförhörslängd **1858–1860**, reproduktion **`A0001440`**, 238 bilder,
+sidorna 269–492. **Bild 141 = sida 400**, byn **Buberget**, hushåll nr 3.
+
+Läst 2026-09-07 inom T-0091 i originalupplösning (uppslaget mäter
+4 652 × 3 875 px).
+
+## Hur volymen och sidan hittades
+
+Uppgiften efterlyste *"Degerfors husförhörslängd för Buberget 1857–1861 —
+mellanboken mellan A I/6b och A I/8b"* samt hushållshänvisningen
+**`G.B.400`** på `A I/8b` sida 536.
+
+**Båda frågorna hade samma svar.** `G.B.` betyder **Gamla Boken**:
+kolumnrubriken på `A I/8b` lyder `Inflyttad från Socken, Län, Stad, eller
+transp. från fol.`, och grannhushållen på sidorna 535 och 540 bär
+motsvarande `G.B. 402`, `G.B. 403`, `G.B. 405` och `G.B. 406`.
+Hänvisningen pekar alltså på **folio 400 i föregående volym**.
+
+Mellanboken är `A I/7a` (sidorna 1–267, `A0001439`) och **`A I/7b`
+(sidorna 269–492, `A0001440`)**. Sida 400 ligger i den senare.
+
+Sidan bär den omvända hänvisningen **`N.B. 536`** — Nya Boken 536. **De två
+uppslagen refererar till varandra.**
+
+## Hushållet
+
+> `Nämndem[an] **Jon Andersson**` — 1796 — `Fors.` — **gift 1831** — `N.B. 536`
+> `Hu. **Ulla Lovisa Jons[dotter]**` — 1804
+> `Son **Jonas**` — 1835
+> `Dotter **Eva Lovisa**` — 1836
+> `Son **Anders**` — **¹⁶/₄ 39**
+> `Dotter **Ulla Carolina**` — 1841
+> `Son **Carl Johan**` — 1843
+> `Dotter **Maria Brita**` — 1845
+
+`Fors.` är volymens förkortning för hemförsamlingen och används genomgående i
+födelseortskolumnen; den anger inte en annan socken.
+
+## Vad detta stänger
+
+Boendekedjan för [P-0065](../research-profiles/P-0065.md) Anders Jonsson och
+hans föräldrar är nu **obruten från 1836 till 1865**:
+
+| Volym | Period | Sida |
+|---|---|---|
+| `A I/4` | 1836–1842 | 310 |
+| `A I/5b` | 1843–1847 | 16 |
+| `A I/6b` | 1848–1857 | 474 |
+| **`A I/7b`** | **1858–1860** | **400** |
+| `A I/8b` | 1861–1865 | 536 |
+
+Sonen Anders födelsedag `¹⁶/₄ 1839` upprepas här oberoende och stämmer med
+A-3270 och A-3271.
+
+## Två nya sakuppgifter
+
+1. **`Nämndeman`.** Fadern [P-0082](../people/P-0082-jonas-andersson-buberget-kontext.md)
+   Jonas/Jon Andersson bär titeln redan 1858–1860 och även i `A I/8b`
+   1861–1865. Nämndeman är häradsrättens lekmannaledamot — ett förtroendeuppdrag
+   som säger något väsentligt om familjens ställning i socknen, och som
+   dessutom öppnar **häradsrättens egna protokoll** som källfamilj.
+2. **`gift 1831`.** Vigselåret för Jonas Andersson och
+   [P-0519](../people/P-0519-ulrika-lovisa-jonsdotter-buberget.md) Ulrika
+   Lovisa Jonsdotter står i giftekolumnen. Det är en **ny och exakt
+   söknyckel** till Degerfors vigselbok, som inte tidigare varit
+   tillgänglig.
+
+## Avgränsning
+
+Läsningen gäller **ett uppslag**: sida 400 i `A I/7b`. Volymens övriga
+Bubergethushåll är inte genomgångna, och `A I/7a` är inte läst alls.
+
+Barnens födelseår för de två yngsta — `Carl Johan 1843` och `Maria Brita
+1845` — lästes i förstoring här, medan motsvarande rader på `A I/8b` sida 536
+lästes i helsidesvy. **En eventuell avvikelse mellan de två uppslagen är
+därför inte fastställd** och får inte hävdas förrän sida 536 lästs förstorad.
+
+## Stödda påståenden
+
+A-3924–A-3928.

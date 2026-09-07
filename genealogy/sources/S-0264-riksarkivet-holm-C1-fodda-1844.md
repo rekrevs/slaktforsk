@@ -37,3 +37,22 @@ exakt datum och Holm överensstämmer med den senare hushållsraden för Jonas
 Nordlund. Föräldraraden är svårläst och ser ut att namnge Pehr Simonsson,
 medan CEDAR:s länkade biografi använder patronymikonet Stefansson. Någon
 föräldrarelation från Jonas har därför inte skapats.
+
+## Årsindex och rättelse 2026-09-07
+
+IIIF-manifestets `structures` ger födelseårens startbilder: 1838:75 … 1842:79,
+**1843:81**, **1844:82**, **1845:83**, 1846:85 … Död- och begravningsavsnittet
+har **1843–1845 på bild 150**.
+
+**Rättelse i två delar.** [C-0336](../citations/C-0336-holm-C1-stina-kajsa-fodelsekontroll-1844.md)
+skriver att bilderna 82–83 innehåller `hela följden om 17 födelseposter 1844`.
+
+1. **Årgången har nitton poster.** Nr 18 (21 december) och nr 19 (28 december)
+   står på bild 83:s **högersida**.
+2. **Post nr 17 namnger målpersonens föräldrar.** Kontrollen gjordes mot
+   barnets namn och inte mot föräldranamnen. Se
+   [C-1042](../citations/C-1042-holm-C1-1843-1845-nordlund-hulsjon.md).
+
+**Läsvarning:** avlidna barn markeras i denna volym med ett `+` under eller
+efter namnet. Ett diagonalt streck genom ett förnamn är något annat och får
+inte tolkas som dödsmärke utan kontroll mot dödboken.

@@ -12,6 +12,7 @@ Hustru till kolaren Jonas Nordlund och mor till Stina Kajsa Nordlund.
 | A-2359 | Hon var dotter till bonden Olof Stefansson och Sigrid Jonsdotter i Hullsjö. | CORROBORATED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Samtida födelsenotis namnger båda föräldrarna. |
 | A-3827 | Vigselposten 1842 anger henne som **bonddotter från Stöde och Hullsjön**, 30 år gammal och ogift. | CORROBORATED | mycket hög | [C-1030](../citations/C-1030-holm-C1-1842-jonas-nordlund-gertrud-vigsel.md) | Oberoende bekräftelse av socken, by och födelseår ur en annan församlings bok än födelsenotisen. |
 | A-3828 | Stödes vigselbok upptar ingen vigsel för paret under 1840 eller 1841; förväntan att bruden vigdes i hemsocknen var felaktig. | NEGATIVE | hög | [C-1031](../citations/C-1031-stode-EI1-1840-1841-negativ-nordlund.md) | Omkring femtio par lästa. Samma läsning rättade S-0770:s årsankare: bild 24 är 1831–1832, inte 1841. |
+| A-3873 | Holm `C/1` namnger henne i december 1844 som `Hustru Gertrud Olofsd:r i Hulsjön`, 30–35 år, och som mor till en dotter född 19 december 1844. | TRANSCRIBED | hög | [C-1042](../citations/C-1042-holm-C1-1843-1845-nordlund-hulsjon.md) | Åldersintervallet ger henne ett födelseår omkring 1809–1814 — en ny, konkret söknyckel för hennes eget ursprung. Dotterns identitet med P-0251 är **inte** avgjord. |
 
 ## Relationer
 

@@ -14,6 +14,7 @@ mor till Anna Christina Larsdotter.
 | A-0840 | Den senare födelseuppgiften 1819-07-23 motsägs av originalboken, där datumet avser ett annat barn. | CONFLICT | hög | [C-0162](../citations/C-0162-ardala-C3-brita-christina-fodd-1819.md) | Den överförda dagen ska inte användas som originalverifierad. |
 | A-0841 | Hon föddes 1819-02-22 och döptes 1819-02-23 i Sannerby, Årdala. | CORROBORATED | hög | [C-0162](../citations/C-0162-ardala-C3-brita-christina-fodd-1819.md), [C-0163](../citations/C-0163-ardala-AI8-carlberg-sida-191.md), [C-0164](../citations/C-0164-ardala-AI8-carlberg-sida-189.md) | Namn, föräldrar och dotter-/mågkedja löser identiteten trots senare datumfel. |
 | A-0842 | Hennes föräldrar var Erik Andersson och Anna Ersdotter. | CORROBORATED | hög | [C-0162](../citations/C-0162-ardala-C3-brita-christina-fodd-1819.md), [C-0163](../citations/C-0163-ardala-AI8-carlberg-sida-191.md), [C-0164](../citations/C-0164-ardala-AI8-carlberg-sida-189.md), [C-0165](../citations/C-0165-ardala-AI9-carlberg-sida-200.md) | Originalnotis plus uttrycklig dotter och senare måg i samma Carlbergshushåll. |
+| A-3865 | Årdala `C/4` och `C/5` namnger henne 1852 som mor till dottern Anna Christina, född 21 mars i **Kallvik**, och anger hennes ålder till **33 år** samt kyrktagningen till 18 april. | CORROBORATED | mycket hög | [C-1041](../citations/C-1041-ardala-1852-anna-christina-fodd-kallvik.md) | Åldern stämmer exakt mot hennes egen födelsenotis 1819-02-22 (A-0841) och är därmed en självständig bekräftelse av den lösningen. |
 
 ## Relationer
 

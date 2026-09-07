@@ -11,6 +11,7 @@ född 1835.
 |---|---|---|---|---|---|
 | A-1395 | Andreas, senare Anders Nilsson, föddes 1797-03-25 och döptes den 26:e i Risvattnet. | CORROBORATED | hög | [C-0198](../citations/C-0198-nysatra-C4-andreas-nilsson-fodd-1797.md), [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Exakt datum, ort, patronymikon och det senare hushållet förenar namnformerna Andreas och Anders. |
 | A-1397 | Han var bonde i Risvattnet nr 3, gift med Magdalena Eriksdotter och far till Nils, Anders och Brita Maria. | CORROBORATED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md), [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Den äldre längden har uttrycklig barnrubrik; den yngre bekräftar hushållet. |
+| A-3887 | Nysätra `C/4` namnger honom 19 juli 1835 som `B[onden] Anders Nilsson` i **Risvattnet**, far till sonen `Andreas`. | CORROBORATED | mycket hög | [C-1045](../citations/C-1045-nysatra-C4-andreas-fodd-1835-07-19-risvattnet.md) | Samtida dopbokspost; faderskapet var tidigare belagt endast genom husförhörslängd. Faddern `Johan Nilsson` i Risvattnet är en **möjlig bror** — ingen relation skapas. |
 
 ## Relationer
 

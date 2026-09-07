@@ -6,6 +6,11 @@
 |---|---|---|---|---|---|
 | A-3278 | Ulrika Lovisa Jonsdotter anges född 1804 i de lästa Bubergetshushållen. | CORROBORATED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) | Längduppgift; egen födelsenotis inte läst. |
 | A-3279 | Hon var hustru till Jonas Andersson 1796 och mor till Anders Jonsson 1839. | CORROBORATED | hög | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) | Hustrurad och barnskara i tre böcker; sonens identitet prövad i C-0869. |
+| A-3928 | Giftekolumnen på `A I/7b` sida 400 anger **`gift 1831`** för paret Jonas Andersson och Ulrika Lovisa Jonsdotter. | TRANSCRIBED | hög | [C-1055](../citations/C-1055-degerfors-AI7b-sida-400-buberget-1858-1860.md) | **Ny och exakt söknyckel** till Degerfors vigselbok; vigseln har inte tidigare haft ett årtal att söka på. |
+| A-4013 | Hon finns inte i Degerfors vigselårgång 1831, som är läst i sin helhet på båda kontrahenternas förnamn. | NEGATIVE | hög | [C-1071](../citations/C-1071-degerfors-vigselar-1831-jonas-ulrika-negativ.md) | Se A-4011. Eftersom vigseln normalt skedde i **brudens** hemförsamling är denna noll ett indirekt argument för att hennes ursprung ligger utanför Degerfors — men det är en tolkning, inte ett belägg, och årtalet kan också vara ungefärligt. |
+| A-4014 | **Hennes födelseförsamling är den avgörande okända uppgiften.** Utan den kan varken vigselnotisen eller hennes föräldrar sökas. | LEAD | hög | [C-1071](../citations/C-1071-degerfors-vigselar-1831-jonas-ulrika-negativ.md) | Den billigaste vägen är Degerfors husförhörslängd `A I/3` (1825–1835, `A0001433`), som täcker äktenskapets ingående och normalt anger hustruns födelseort. Volymen är inte öppnad. |
+| A-4017 | **Hon flyttade inte in i Degerfors efter 1825**: `Hvarifrån` är tom på hennes rad i både `A I/3` sida 262 och `A I/4` sida 310. | NEGATIVE | hög | [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) | **Flyttar den öppna frågan bakåt.** Var hon församlingsbo redan före 1825 bör hon gå att finna som ogift i `A I/2` (1815–1824, `A0001432`) — vilket är billigare än att söka en vigsel i okänd socken. |
+| A-4018 | **Motsägelsen mellan `gift 1831` och Degerfors tomma vigselårgång 1831 kvarstår öppen.** Om båda makarna var församlingsbor borde vigseln ha förrättats i Degerfors. | CONFLICT | hög | [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md), [C-1071](../citations/C-1071-degerfors-vigselar-1831-jonas-ulrika-negativ.md) | Enklaste förklaringen är att husförhörslängdens årtal är ungefärligt — äldsta kända barnet är fött 1833, förenligt med vigsel både 1831 och 1832 — men det är en tolkning, inte ett belägg. Årgången 1832 är oläst. |
 
 ## Livsbild
 
@@ -31,10 +36,37 @@ hittades vid namn-/familjesökning före skapandet.
 | [P-0526 Maria Brita](P-0526-maria-brita-buberget.md) | dotter | CORROBORATED | C-0869 |
 | [P-0527 Sophia Wilhelmina](P-0527-sophia-wilhelmina-buberget.md) | dotter | TRANSCRIBED | C-0869 |
 
+## Slutstatus
+
+- Status: `IDENTITET OLÖST`
+- Förväntad källa: **Degerfors husförhörslängd `A I/3` (1825–1835,
+  `A0001433`)** — den längd som täcker äktenskapets ingående och som normalt
+  anger hustruns **födelseförsamling**. Med den kan födelseboken omkring
+  1804 sökas i rätt socken; utan den kan varken vigselnotisen eller
+  föräldrarna sökas alls.
+- Genomsökt: **Degerfors vigselårgång 1831 i sin helhet**, tjugotvå poster
+  lästa på båda kontrahenternas förnamn, utan träff
+  ([C-1071](../citations/C-1071-degerfors-vigselar-1831-jonas-ulrika-negativ.md));
+  samt tre Bubergetshushåll 1848–1857 och 1861–1865 och `A I/7b` sida 400,
+  som alla anger födelseåret 1804 och giftåret 1831 men **ingen födelseort**
+  ([C-0869](../citations/C-0869-buberget-register-och-hushall.md),
+  [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md),
+  [C-1055](../citations/C-1055-degerfors-AI7b-sida-400-buberget-1858-1860.md));
+  och **`A I/3` sida 262 och `A I/4` sida 310**, där kolumnen `Hvarifrån`
+  är tom — hon flyttade alltså inte in efter 1825
+  ([C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md)).
+- Negativ kontroll: [C-1071](../citations/C-1071-degerfors-vigselar-1831-jonas-ulrika-negativ.md)
+- Återaktivering: när en längd anger hennes födelseförsamling — **`A I/2`
+  (1815–1824, `A0001432`) är nu den närmaste vägen**, sedan A-4017 visat att
+  hon inte flyttade in efter 1825 — eller när en vigselnotis omkring 1830–1833 påträffas
+  i en grannförsamling. **Patronymikonet `Jonsdotter` får inte användas för
+  att skapa en far**, och ett födelsedatum får inte fyllas från svårlästa
+  randfält.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-05 (research-log/2026-09-05.md#batch-284--t-0053-familjekonsolidering-och-manifestglapp)
-- Källbredd: EJ KLAR. Ny direkt ana; eget ursprung och livsslut är oprövade. Ingen arkivfront påstås.
+- Källbredd: EJ KLAR. Eget ursprung och livsslut är oprövade. **Arkivfront skriven 2026-09-07 (T-0091, batch 474): `IDENTITET OLÖST`**, se `## Slutstatus` ovan.
 
 ## Sonens födelsenotis, T-0057
 

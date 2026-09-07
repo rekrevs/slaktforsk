@@ -27,6 +27,7 @@
 | A-2266 | Bouppteckningen förrättades 1898-08-20 och namnger maken Anders Jansson samt deras åtta barn Ida Sofia, Maria Augusta, Jonas Edvard, Anders, Carl Magnus, Oskar Rudolf, Hilda Charlotta och Hanna Matilda. | CORROBORATED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | `Hilda` är aktens variant av senare `Hildur`; första aktsidan har lästs, inte hela tillgångsinventeringen. |
 
 | A-3147 | Umeå fögderis fondförteckning identifierar Degerfors mantalsvolymer Vol/58–62 över Lotta Sofias kända vuxenperiod 1867–1898, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog hushållsroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
+| A-3923 | Hennes bouppteckning är nu läst i sin helhet: tillgångar **13 998,49 kr**, skulder **2 872,40 kr**, behållning **11 127,49 kr**, delad mellan maken och de åtta barnen. | CORROBORATED | mycket hög | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | C-0485 läste endast första sidan och angav uttryckligen att tillgångar, skulder och slutvärde inte var utvunna. De är det nu. |
 
 ## Tidslinje
 

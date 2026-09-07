@@ -4507,3 +4507,110 @@ som **T-0104 (IDEA)** för att inte tappas bort; ingen körning beslutad.
 Om `T-0090` visar sig växa bortom sin registrerade omfattning ska den
 checkpointas och `T-0103` tas upp i stället, i stället för att ordningen
 tänjs.
+
+## PCD-2026-09-07-023 — En stängd position på djup 3 går före frontarbetet på djup 6–7
+
+- Record type: decision
+- Date: 2026-09-07
+- Decided by: **Project Control** inom delegerat mandat. Ägaren har delegerat
+  övriga ägarbeslut under den pågående north star-körningen; beslutet ändrar
+  ordningen i PCD-2026-09-07-022 men inte dess skäl.
+- Trigger: `T-0103` gjorde `Trädverkan` mätbar för första gången, och måttet
+  visade något som ingen tidigare indikator kunde visa.
+
+### Underlaget
+
+```
+djup | kända | identitetsgodkända | bärande
+   1 |     2 |                  2 |       2
+   2 |     4 |                  4 |       4
+   3 |     8 |                  7 |       7   ← P-0003 stängd
+   4 |    16 |                 15 |      15   ← P-0255 stängd
+   5 |    32 |                 25 |      25
+   6 |    58 |                  3 |       3
+```
+
+**Antavlan är obruten bärande endast till och med djup 2.** `goal-state`
+redovisar samtidigt djup 1–5 som *behandlade*. De två måtten mäter olika
+saker och motsäger inte varandra: `goal-state` räknar granskning och
+källbredd, `Trädverkan` svarar på om antavlan **får passera** personen.
+
+Båda de stängda positionerna faller på **samma enda rad**, `PK-05`:
+
+| Person | Djup | Grunden |
+|---|---|---|
+| P-0003 Arne Godvig Jansson | 3 | Uppslag 638 saknas i reproduktionerna; Södertäljes uppslag 15 är analogt. **Hinderbunden gräns**, inte en outförd läsning. |
+| P-0255 Ingrid K. V. Höglund | 4 | `C-0253:s vittneskolumn och namnnotering olästa`. **Outförd läsning i en redan öppnad post.** |
+
+### Beslut
+
+`T-0107` skapas och tas **före** frontuppgifterna `T-0097`, `T-0096`,
+`T-0091` och `T-0080`. Övrig ordning i PCD-2026-09-07-022 står fast:
+livsbildsuppgifterna sist.
+
+Tre skäl:
+
+1. **AGENTS.md föreskriver det.** *"När ett nytt närmare materiellt behov
+   upptäcks under införandet ska det få företräde framför djupare forskning.
+   Ändra beroenden/ordning uttryckligen."* Djup 3 och 4 är närmare än djup
+   6–7. Detta är den regeln, inte ett undantag från den.
+2. **Kostnaden är minimal.** `T-0107` är `S` och omfattar exakt två rader.
+   P-0255:s del är en läsning i en post som redan är öppnad.
+3. **Skälet till PCD-2026-09-07-022:s ordning består.** `T-0097` fick
+   företräde för att den bär projektets starkaste outnyttjade söknyckel.
+   Det argumentet är oförändrat och gäller efter `T-0107`.
+
+### Vad beslutet inte gör
+
+Det **omprövar ingen sakrad**. `T-0103` lämnade båda `PK-05`-raderna orörda
+med avsikt: att flytta en rad uppåt för att öppna en grind vore precis den
+gummistämpel `Trädverkan` finns för att förhindra. `T-0107` ska pröva dem på
+belägg, och ett `EJ STYRKT` med uttryckligt skäl är ett fullgott utfall.
+
+Det ändrar inte heller ägarens reservationer: ArkivDigital-förbudet,
+läsesalsgränsen och dashboardregeln står fast.
+
+### Reaktivering
+
+Om `T-0107` visar att båda raderna är hinderbundna utan ohindrad väg framåt
+återgår ordningen omedelbart till PCD-2026-09-07-022, och de två positionerna
+redovisas som stängda med angiven orsak i stället för att drivas vidare.
+
+## PCD-2026-09-07-024 — Daterad uppfyllelserevision mot north stars sex villkor
+
+**Beslut:** en daterad revision av samtliga sex uppfyllelsevillkor i
+`NORTH-STAR.md` är utförd och bevarad i
+[`NORTH-STAR-REVISION-2026-09-07.md`](NORTH-STAR-REVISION-2026-09-07.md).
+
+**Utfall: north star är inte uppfylld.**
+
+| Villkor | Läge |
+|---|---|
+| 1 Anlinjer | **ouppfyllt** — gemensamt djup 5; djup 6 obehandlad; sju personer på Sverkers sida ej källbredd-klara |
+| 2 Livsbilder | **ouppfyllt** — 442 av 538 personer utan livsbildsbedömning; 97 profiler |
+| 3 Identiteter | **ouppfyllt** — 60 `BÄRANDE` av 538; 18 `OMSTRITT`; 89 akter med minst en konflikt |
+| 4 Källtäckning | **ouppfyllt** — sju `1`-celler kvar på djup 6; P-0536 saknar matrisrad; 442 utan bedömd källstrategi |
+| 5 Spårbarhet | **delvis** — infrastrukturen grön och komplett, men **tio felvarianter påträffades 2026-09-07** och verifieringen att beläggen bär slutsatserna är stickprovsvis, inte systematisk |
+| 6 Avslutningsrevision | **kan inte uppfyllas** så länge 1–5 står öppna |
+
+**Varför beslutet fattas nu.** Villkor 6 kräver uttryckligen en daterad
+revision mot varje villkor. Den fanns inte, och utan den kunde varken
+uppfyllelse eller ofullbordan påstås med belägg. Revisionen ersätter ett
+antagande med ett mätt läge.
+
+**Vad revisionen fastslår om hinder.** De dokumenterade externa hindren —
+ArkivDigital-förbudet, ALTCHA, läsesalsbundna volymer, den odigitaliserade
+generalmönsterrullan och Stora Malm `C/8`:s oavgjorda läge — **förklarar
+ingen av luckorna i villkor 1–5**. Målet är enligt north stars egen
+formulering **ofullbordat, inte hindrat**.
+
+**Beslutad följd inom delegerad myndighet:** uppgiften `T-0110` skapas för
+den systematiska omläsningsgranskning som villkor 5 kräver och som saknades
+i backloggen. Övrig arbetsordning ändras inte; `T-0083` fortsätter som
+ONGOING och livsbildsvågen (`T-0099`, `T-0098`) står kvar som den enskilt
+största posten.
+
+**Vad beslutet inte gör.** Det omprövar ingen sakrad, ändrar ingen status
+och godkänner ingenting. Det ändrar inte heller ägarens reservationer:
+ArkivDigital-förbudet, läsesalsgränsen, dashboardregeln och kravet på
+ägarens godkännande för commit och push står fast.

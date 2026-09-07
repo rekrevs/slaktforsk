@@ -11,6 +11,7 @@ född 1835.
 |---|---|---|---|---|---|
 | A-1396 | Magdalena föddes och döptes 1798-09-23; födelseposten anger platsen `N:o 63`. | CORROBORATED | hög | [C-0199](../citations/C-0199-nysatra-C4-magdalena-eriksdotter-fodd-1798.md), [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Exakt datum, namn, patronymikon och det senare hushållet bildar identitetskedjan. |
 | A-1398 | Hon var gift med Anders Nilsson i Risvattnet nr 3 och mor till Nils, Anders och Brita Maria. | CORROBORATED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md), [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Den äldre längden har uttrycklig barnrubrik; den yngre bekräftar hushållet. |
+| A-3888 | Nysätra `C/4` anger henne 19 juli 1835 som `Magdal. Erici dotter`, **27 år**, hustru till bonden Anders Nilsson i Risvattnet. | CORROBORATED | mycket hög | [C-1045](../citations/C-1045-nysatra-C4-andreas-fodd-1835-07-19-risvattnet.md) | Åldern ger henne ett födelseår omkring **1807–1808** — en ny, konkret söknyckel för hennes eget ursprung. Namnformen är latiniserad (`Erici` för `Eriks-`). |
 
 ## Relationer
 
