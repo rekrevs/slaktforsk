@@ -62,6 +62,14 @@ test("work state defaults to EJ GRANSKAD and reads the coverage override", () =>
 test("terminal status requires evidence, including VERIFIERAD", () => {
   assert.equal(readTerminalStatus(front("KÄLLOR SLUT"), () => false).ok, false);
   assert.equal(readTerminalStatus(front("KÄLLOR SLUT"), () => true).ok, true);
+  // Återaktiveringsvillkoret är ett sakkrav, inte ett rubrikkrav: samtliga tre
+  // etiketter som akterna använder ska godtas, och ett tomt fält ska inte.
+  for (const label of ["Återaktivera när", "Återaktiveringsvillkor", "Återaktivering"]) {
+    const text = `## Slutstatus\n\n- Status: \`IDENTITET OLÖST\`\n- Förväntad källa: x\n- Genomsökt: y\n- Negativ kontroll: [C-0001](../citations/C-0001-x.md)\n- ${label}: en namngiven serie digitaliseras\n`;
+    assert.equal(readTerminalStatus(text, () => true).ok, true, label);
+  }
+  const emptyReactivation = "## Slutstatus\n\n- Status: `IDENTITET OLÖST`\n- Förväntad källa: x\n- Genomsökt: y\n- Negativ kontroll: [C-0001](../citations/C-0001-x.md)\n- Återaktivering:\n- Annat: z\n";
+  assert.equal(readTerminalStatus(emptyReactivation, () => true).ok, false);
   assert.equal(readTerminalStatus("## Slutstatus\n\n- Status: `VERIFIERAD`\n", () => false).ok, false);
   const verified = front("VERIFIERAD").replace("Negativ kontroll:", "Belägg:");
   assert.equal(readTerminalStatus(verified, () => true).ok, true);

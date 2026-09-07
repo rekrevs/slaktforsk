@@ -2,7 +2,9 @@
 //
 // Varje front-person (en ana med färre än två kända föräldrar) måste bära
 // exakt en slutstatus i avsnittet `## Slutstatus`, förväntad källa,
-// genomsökt omfång, återaktivering och en giltig C-referens. VERIFIERAD
+// genomsökt omfång, återaktiveringsvillkor och en giltig C-referens.
+// Återaktiveringsvillkoret godtas under etiketterna `Återaktivera när`,
+// `Återaktiveringsvillkor` och `Återaktivering`. VERIFIERAD
 // använder Belägg; övriga statusar använder Negativ kontroll. Detta är en
 // strukturkontroll, inte ett bevis för beläggens sakliga tillräcklighet.
 
@@ -25,6 +27,18 @@ function field(body, label) {
   return body.match(new RegExp(`^- ${label}:[ \\t]*(.*(?:\\n[ \\t]+[^\\n]*)*)`, "m"))?.[1]?.trim() ?? "";
 }
 
+// Återaktiveringsvillkoret är ett sakkrav i north star, inte ett rubrikkrav.
+// Akterna skriver det under tre etiketter; samtliga godtas, och den först
+// ifyllda gäller. Se genealogy/README.md.
+const REACTIVATION_LABELS = ["Återaktivera när", "Återaktiveringsvillkor", "Återaktivering"];
+function reactivationField(body) {
+  for (const label of REACTIVATION_LABELS) {
+    const value = field(body, label);
+    if (value) return value;
+  }
+  return "";
+}
+
 export function readTerminalStatus(text, citationExists) {
   const section = sectionBody(text, "Slutstatus");
   if (!section) return { ok: false, why: "saknar avsnittet ## Slutstatus" };
@@ -40,7 +54,7 @@ export function readTerminalStatus(text, citationExists) {
   const missing = [];
   if (!field(body, "Förväntad källa")) missing.push("förväntad källa");
   if (!field(body, "Genomsökt")) missing.push("genomsökt");
-  if (!field(body, "Återaktivera när")) missing.push("återaktiveringsvillkor");
+  if (!reactivationField(body)) missing.push("återaktiveringsvillkor");
 
   const evidenceField = status === "VERIFIERAD" ? "Belägg" : "Negativ kontroll";
   const controls = [...field(body, evidenceField).matchAll(/\((?:\.\.\/citations\/)?(C-\d{4})[^)]*\)/g)]

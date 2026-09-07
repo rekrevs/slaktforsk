@@ -3952,3 +3952,82 @@ gemensamt djup från 5 till 6.
 - Resulting Wotan tasks: `T-0094` READY; `T-0095` READY.
 - Reaktiveringsvillkor: när båda är DONE mäts gemensamt djup om. Om det inte
   går från 5 till 6 ska skillnaden förklaras innan nytt arbete väljs.
+
+## PCR-2026-09-07-015 — Rättelse av PCR-2026-09-07-014
+
+- Record type: review
+- Date: 2026-09-07
+- Mode: checkpoint
+- Trigger: Första passet i `T-0094` visade att bedömningen några timmar
+  tidigare vilade på ett mätfel.
+- Control judgement: redirect
+
+### Vad som var fel
+
+PCR-2026-09-07-014 skrev att djup 6:s trettioåtta anspetsar utan giltig
+arkivfront var blockerade av en **materiell** brist, och att *"utan det
+fältet säger fronten inte vad som skulle öppna den igen"*.
+
+**Det stämde inte.** North star kräver att fronten anger
+**återaktiveringsvillkor** men föreskriver ingen etikett.
+`scripts/lib/terminal-status.mjs` krävde bokstavligen `- Återaktivera när:`,
+medan **75 personakter** skriver samma sak som `- Återaktivering:`. Endast
+fyra akter följde den etikett kontrollen krävde.
+
+Substansen fanns. Stickprov på nio av Sverkers anspetsar visar
+personspecifika, användbara villkor — inte mallformuleringar. **Måttet mätte
+etiketten, inte kravet.**
+
+### Rättelsen och dess effekt
+
+`terminal-status.mjs` godtar nu alla tre etiketter som akterna använder, med
+ett test som också verifierar att ett **tomt** fält fortfarande underkänns.
+Regeln är utskriven i `genealogy/README.md`. Se batch 410.
+
+| | PCR-…-014 påstod | Faktiskt läge |
+|---|---|---|
+| Djup 6, osökta fronter | 38 | **6** |
+| Djup 7, stängda positioner | 12 | **73** |
+| Djup 8, stängda positioner | 24 | **228** |
+| Kristinas sida, djup 6 | 23 ogiltiga fronter | **0 — sidan är hel** |
+
+Gemensamt djup står kvar på **5**, men av sex namngivna skäl i stället för
+trettioåtta, och samtliga ligger på **Sverkers sida**.
+
+### Vad det betyder för uppgifterna
+
+- **T-0095 (Kristinas 23)** är i praktiken redan uppfylld av rättelsen. Den
+  får inte stängas på den grunden ensam: uppgiften ändras till att **verifiera
+  substansen** i de tjugotre villkoren och rätta dem som inte håller. Ett
+  mätfel får inte bli ett avslut.
+- **T-0094 (Sverkers 15)** krymper till **sex** personer, varav **två inte
+  kan åtgärdas inom omfånget**: P-0082 och P-0519 skriver uttryckligen att
+  ingen arkivfront påstås, och deras ursprung är oprövat. Att ge dem en
+  statusklass för att få måttet att gå jämnt upp vore att hitta på ett
+  avslut. De hör till `T-0083`.
+
+### Lärdomen
+
+Detta är andra gången på två dygn som en indikator lett bedömningen fel. Den
+6:e införde jag statusen `IDENTITET OMSTRIDD`, som inte finns i north stars
+vokabulär, och gjorde djup 5 obehandlat. I dag lät jag ett etikettkrav i
+koden framstå som ett innehållskrav i north star.
+
+North stars egen regel gäller åt båda hållen: *"Om kodens resultat strider mot
+dessa sakliga krav gäller kraven."* En avvikelse kan lika gärna bero på att
+**koden är strängare** än kravet. **Innan ett måttutslag görs till en
+styrbedömning ska minst ett stickprov läsas i akten.**
+
+### Owner decision required
+
+Ingen.
+
+### Rekommendation
+
+Fortsätt `T-0094` med de fyra åtgärdbara fronterna, avsluta den med två
+uttryckligt överlämnade till `T-0083`, och kör därefter `T-0095` som en
+**substansverifiering** av Kristinas tjugotre villkor.
+
+- Resulting Wotan tasks: inga nya; `T-0094` och `T-0095` får ändrat omfång.
+- Portfolio signal: mätfelet dolde att Kristinas sida på djup 6 var färdig.
+- Revisit when: `T-0094` och `T-0095` är DONE.

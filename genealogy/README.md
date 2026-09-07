@@ -78,7 +78,12 @@ Varje personakt får bära ett avsnitt `## Arbetsläge` med följande rader:
   `## Slutstatus` enligt reglerna i `scripts/lib/terminal-status.mjs`.
 
 Slutstatusens strukturkontroll kräver exakt en Status-rad, en förväntad
-källa, genomsökt omfång och ett icke-tomt `Återaktivera när`-fält.
+källa, genomsökt omfång och ett icke-tomt **återaktiveringsvillkor**.
+Villkoret är ett sakkrav i north star, inte ett rubrikkrav: akterna skriver
+det under tre etiketter — `Återaktivera när`, `Återaktiveringsvillkor` och
+`Återaktivering` — och **samtliga godtas**. Den först ifyllda gäller.
+Fram till 2026-09-07 godtog kontrollen bara den första etiketten, vilket gav
+falska negativa besked för 75 akter; se PCR-2026-09-07-014 och batch 410.
 `VERIFIERAD` kräver dessutom `Belägg` med en giltig länk till en befintlig
 C-post; övriga statusar kräver `Negativ kontroll` med sådan länk.
 Fortsättningsrader i fält ska vara indragna. Tomma värden kan inte ersättas
