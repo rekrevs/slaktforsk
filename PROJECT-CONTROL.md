@@ -3831,3 +3831,124 @@ livsbildsfrågan för de 471 när kön är tömd.
   kontraktsgranskningen infördes.
 - Revisit when: kön är tömd, eller när villkor 2:s avgränsningsregel ska
   beslutas.
+
+## PCR-2026-09-07-014
+
+- Record type: review
+- Date: 2026-09-07
+- Mode: checkpoint
+- Trigger: T-0060 avslutade en generationsfråga och införde en ny generation i
+  modellen. Ny prövning mot `NORTH-STAR.md` för källäget 2026-09-07.
+- Control judgement: continue, redirect
+
+### Svaret är fortfarande nej, men gapet har flyttat form
+
+Detta är en **uppfyllelsebedömning enligt villkor 6**, inte en
+avslutningsrevision. Bedömningen gäller källäget 2026-09-07 och bygger på
+`node scripts/goal-state.mjs` och `node scripts/research-inventory.mjs`.
+
+### Villkor för villkor
+
+| # | Villkor | Läge | Evidens |
+|---|---|---|---|
+| 1 | **Anlinjer** | **Delvis.** Gemensamt djup är **5**. Djup 6: av 64 positioner är **58 kända**, **58 granskade** (var 57), **51 källbredd-klara** och **38 anspetsar saknar giltig arkivfront** (var 44 den 6:e, 39 i morse). Djup 7 har 44 kända, två fler än i går. | `goal-state.mjs` |
+| 2 | **Livsbilder** | **Nej, med bred marginal och oförändrad proportion.** Av **538 personakter** har **67 en profil**; **471 är `EJ INFÖRT`** mot PK-01–12. Av de 67 registrerade är **12 `GODKÄND`** och **55 `UNDERKÄND`**. Bland de bedömdas 670 temaceller är **185 `ÖPPET`**. | `research-inventory.mjs` |
+| 3 | **Identiteter och kandidater** | **Delvis.** `identity: PRÖVAT 64, OMSTRITT 1, OLÖST 2, EJ BEDÖMT 471`. Dagens arbete gjorde en `OLÖST` fråga fastställd — P-0536:s ursprung — utan att skapa någon ny. | `research-inventory.mjs` |
+| 4 | **Källtäckning** | **Delvis.** Sju personer på djup 6 är inte källbredd-klara, varav tre är dagens tre nya akter. Kön har nio READY och en ONGOING, alla med identifierad genomförbar forskning. | `source-coverage.md`, `backlog.json` |
+| 5 | **Spårbarhet** | **Uppfyllt för det som är gjort.** 3 236 påståenden, 2 410 markdownposter, 4 836 mediefiler; validator, mediemanifest och 29 tester gröna. Dagens två rättelser fördes in som **tillagda avsnitt** i C-1001 och C-1005, inte som ändrad avskrift, och det upphävda A-3743 står kvar som `SUPERSEDED`. | validator, `--test scripts/` |
+| 6 | **Avslutningsrevision** | **Kan inte göras.** Villkor 1–4 är inte styrkta. | `backlog.json` |
+
+### Det som ändrades i dag, och vad det visade
+
+Åtta forskningspass i T-0060 stängde en generationsfråga: P-0021:s mor fick
+akt, ursprung, föräldrar och en fastställd härkomst. Måttet flyttade sig
+måttligt — djup 6 gick från 39 till 38 osökta fronter — men **passet blottade
+var djup 6 faktiskt sitter fast**.
+
+**Av de 38 anspetsarna saknar 35 enbart `återaktiveringsvillkor`.** Två saknar
+hela `## Slutstatus`, och en (P-0474) saknar flera fält. Det ser ut som
+formalia och är det inte: north star kräver av varje front att den anger
+**förväntad källa, genomsökt omfång, bevarad negativ kontroll och
+återaktiveringsvillkor**. Utan det sista säger fronten inte vad som skulle
+öppna den igen — och en front som inte kan återöppnas är inte en front utan
+ett avslut.
+
+Det är därför **djup 6 är blockerat av 38 personer som var och en behöver en
+saklig frontprövning**, inte av ny arkivforskning.
+
+### Aktuell grind
+
+Styrregeln pekar entydigt: nästa skiva är **djup 6**. Den skivan har två
+delar, och den ena är mycket större än den andra:
+
+- **38 anspetsar utan giltig arkivfront** — 15 på Sverkers sida, 23 på
+  Kristinas. Ohindrat, materiellt, och det som ensamt håller gemensamt djup
+  kvar på 5.
+- **7 personer som inte är källbredd-klara** — sex av dem täcks redan av
+  `T-0083`, den sjunde är dagens P-0536.
+
+### Villkor 2 kvarstår oförändrat
+
+De 471 obedömda akterna är exakt lika många som i går. Dagens tre nya
+profiler höjde `withProfile` från 64 till 67 därför att tre **nya** personer
+skapades med profil — inte därför att skulden minskade. Riktningsfrågan från
+PCR-2026-09-06-013 står kvar och blir mer angelägen för varje generation som
+läggs på: **systematisk livsbildsvåg eller uttrycklig kohortregel.** North
+star tillåter det senare men förbjuder permanent dispens.
+
+### En metodvinst värd att bevara
+
+Tre pass i rad avgjordes av samma sak i olika skepnad: **läs källans egen
+ingång innan du bläddrar.** Blanketten före texten (C-1003), den avgörande
+raden i närbild (C-1006), registret i stället för volymen (C-1007). Det sista
+kostade en onödig kartläggning av 167 bilder. Regeln är införd i
+[C-1007](genealogy/citations/C-1007-arebolet-hushallet-funnet-ursprunget-faststallt.md)
+och i källakten för volymen.
+
+### Owner decision required
+
+Ingen för fortsatt arbete. Riktningsfrågan om villkor 2 kvarstår enligt
+PCR-2026-09-06-013.
+
+### Rekommendation
+
+**Byt fokus från enskild gren till skivan.** T-0060 har levererat sitt
+kunskapsresultat och bör avslutas när dess kvarvarande steg omfördelas.
+Skapa två avgränsade uppgifter för djup 6:s frontprövning, en per sida, och
+kör dem före de kvarvarande READY-uppgifterna — de är det enda som kan flytta
+gemensamt djup från 5 till 6.
+
+- Resulting Wotan tasks: se PCD-2026-09-07-014.
+- Portfolio signal: djup 6:s granskningsgrad är nu 58 av 58; det som återstår
+  där är fronter, inte konsolidering.
+- Revisit when: djup 6 är behandlat, eller när villkor 2:s avgränsningsregel
+  ska beslutas.
+
+## PCD-2026-09-07-014 — Två avgränsade uppgifter för djup 6:s arkivfronter
+
+- Datum: 2026-09-07
+- Beslutsunderlag: PCR-2026-09-07-014
+- Beslut: **godkänd inom delegerad myndighet.** Djup 6:s 38 anspetsar utan
+  giltig arkivfront delas i två uppgifter efter sida, så att ingen uppgift
+  växer obegränsat och balansen mellan föräldrarnas släkter kan mätas:
+  - **T-0094 (M)** — Sverkers sida, 15 anspetsar: P-0082, P-0125, P-0126,
+    P-0131, P-0132, P-0145, P-0148, P-0159, P-0214, P-0289, P-0470, P-0471,
+    P-0472, P-0474, P-0519.
+  - **T-0095 (M)** — Kristinas sida, 23 anspetsar: P-0341, P-0342, P-0343,
+    P-0350, P-0351, P-0361, P-0362, P-0363, P-0371, P-0372, P-0375, P-0376,
+    P-0384, P-0386, P-0387, P-0403, P-0404, P-0415, P-0447, P-0448, P-0451,
+    P-0452, P-0454.
+- **Omfång:** varje person får en **saklig** frontprövning som avgör om den
+  redovisade avgränsningen håller, och därefter en `## Slutstatus` med alla
+  fyra fält north star kräver.
+- **Uttryckliga uteslutningar:** ingen ny arkivforskning bakåt om föräldrar
+  inom dessa uppgifter; ingen ändring av statusklass utan nytt belägg; ingen
+  mallformulering av återaktiveringsvillkor. Om en frontprövning visar att en
+  status är sakligt fel skapas det som eget arbete och ändras inte i
+  förbigående.
+- **Verifierbart utfall:** `node scripts/goal-state.mjs` visar noll anspetsar
+  utan giltig arkivfront på respektive sida på djup 6, **och** varje ändrad
+  akt har en daterad motivering i forskningsloggen som visar vad som prövades.
+- Resulting Wotan tasks: `T-0094` READY; `T-0095` READY.
+- Reaktiveringsvillkor: när båda är DONE mäts gemensamt djup om. Om det inte
+  går från 5 till 6 ska skillnaden förklaras innan nytt arbete väljs.
