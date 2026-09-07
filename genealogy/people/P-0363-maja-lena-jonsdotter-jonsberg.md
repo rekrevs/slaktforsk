@@ -36,8 +36,13 @@ ett dödsintervall för Lars Svensson.
 - Genomsökt: Jonsberg A I/7 sida 55 — **omläst 2026-09-07 och funnen bära ett
   annat hushåll**, se C-1013 — samt sida 35 och C I/3:s hela exponerade
   födelseuppslag för 1814. Hushållet är alltså **inte lokaliserat** i A I/7.
+  **Därtill hela vigselförteckningen i C I/4 för 1836–1849, fjorton årgångar
+  och omkring 180 brudpar, utan träff (C-1034).**
 - Negativ kontroll: [C-0846](../citations/C-0846-jonsberg-AI7-CI3-lars-maja-lena-kontroll.md)
-- Återaktivering: lokalisera först hushållet i Mönnerums rotes övriga sidor
+- Återaktivering: **vigselvägen i Jonsberg är prövad för 1836–1849 och tom
+  (C-1034).** Kvar är antingen en vigsel före 1836 — `C I/3` bilderna 122–139
+  eller `C I/2` bilderna 78–109 — eller en annan församling, men ingendera
+  hemsocken är känd. Lokalisera därför först hushållet i Mönnerums rotes övriga sidor
   eller via volymens register. A I/7 är en tryckt formulärbok med kolumnerna
   `Född uti`, `Hitkom. ifrån/år` och `Bortflyttat till/år`, så rätt sida ger
   födelseförsamling, inflyttning och destination på en gång. Bygg inte vidare
