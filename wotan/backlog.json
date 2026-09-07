@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 100,
+  "next_id": 103,
   "tasks": [
     {
       "id": "T-0001",
@@ -858,11 +858,10 @@
     },
     {
       "id": "T-0098",
-      "status": "ONGOING",
+      "status": "DONE",
       "size": "L",
       "summary": "Livsbildsvag djup 6, Kristinas sida: tjugonio profiler",
-      "note": "Batch 429 klar: hushållsgrupp Hullsjön i Stöde (P-0447, P-0448) profilerad, båda UNDERKÄND. 26 av 29 personer klara; withoutProfile 447→445. Kvar: P-0451, P-0452, P-0454.",
-      "phase": "DOING"
+      "note": "Alla 29 profiler klara i batch 417–430; samtliga UNDERKÄND. withoutProfile 471→442. Sex metodmönster och två enskilda fynd redovisade i slutrapporten; uppföljning i T-0100–T-0102."
     },
     {
       "id": "T-0099",
@@ -870,6 +869,32 @@
       "size": "L",
       "summary": "Livsbildsvag djup 6, Sverkers sida: tjugoatta profiler",
       "note": "PCD-2026-09-07-017. Systeruppgift till T-0098. FAST NAMNGIVEN KOHORT om 28 personer: P-0082, P-0102, P-0103, P-0123, P-0124, P-0125, P-0126, P-0131, P-0132, P-0145, P-0148, P-0158, P-0159, P-0214, P-0215, P-0230, P-0231, P-0289, P-0290, P-0329, P-0330, P-0470, P-0471, P-0472, P-0473, P-0474, P-0475, P-0519. Sverkers sida ar mindre forberedd: sju ar inte kallbredd-klara och tva saknar arkivfront - det arbetet ags av T-0083, och flera teman ska darfor sta som OPPET med hanvisning dit. Fyra personer bar tunga oppna fragor som ska synas i profilen: P-0082:s LEAD-kandidat 1796, P-0131 och P-0132:s flytt som ingen flyttningslangd bar, och P-0474:s tomma fadersfalt. Acceptans: withoutProfile minskat med 28."
+    },
+    {
+      "id": "T-0100",
+      "status": "READY",
+      "size": "M",
+      "summary": "Omläsningsrond i lokalt bildmaterial för djup-6-kohortens öppna fält",
+      "note": "PCD-2026-09-07-018. Tio namngivna fält i bilder som redan ligger i genealogy/media/. Uteslutet: nya bildhämtningar utöver dessa, modelländring utan eget citat, personer utanför T-0098:s kohort. Utfall: varje fält avläst i citat eller förklarat oläsbart i originalet."
+    },
+    {
+      "id": "T-0101",
+      "status": "READY",
+      "size": "M",
+      "summary": "Upplösningsrevision av de 77 arkivbilderna under 2000 px",
+      "note": "PCD-2026-09-07-018. Klassificera varje fil som översiktsbild, illustration eller bevisbärande läsning/negativ kontroll; hämta om i full IIIF-bredd endast i sista fallet. Uteslutet: slutsatsändring utan omläsning, generell mediapolicy. Utfall: klassificerad lista plus besked om C-0852:s front gäller originalet eller filen."
+    },
+    {
+      "id": "T-0102",
+      "status": "BLOCKED",
+      "size": "M",
+      "summary": "Vigselboksrond för djup-6-kohortens sex hushållsgrupper",
+      "after": [
+        "T-0100",
+        "T-0101"
+      ],
+      "note": "PCD-2026-09-07-018. Sex par med redan uträknade årsfönster. Uteslutet: breda namnsökningar utan årsfönster, ny personakt utan egen läst post. Utfall: läst vigselpost med brudens ålder och hemförsamling, eller avgränsat noll med exakt volym, årgång och omfång. BLOCKED tills T-0100 och T-0101 är DONE; de kan göra flera vigselfönster onödiga eller smalare.",
+      "blocker": "Inväntar T-0100 och T-0101. Omläsningsronden och upplösningsrevisionen kan ge födelseorter, ursprungskolumner och faddernamn som gör flera vigselfönster onödiga eller väsentligt smalare; att söka vigslarna först vore därför dubbelarbete."
     }
   ]
 }

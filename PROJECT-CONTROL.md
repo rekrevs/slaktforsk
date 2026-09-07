@@ -4144,3 +4144,150 @@ våggranskningen efter djup 6.
 - Resulting Wotan tasks: `T-0098` READY; `T-0099` READY.
 - Reaktiveringsvillkor: när båda är DONE görs en våggranskning som mäter
   villkor 2 om och prövar sidopersonerna kring djup 6 mot de fyra utlösarna.
+
+## PCR-2026-09-07-018
+
+- Record type: review
+- Date: 2026-09-07
+- Mode: checkpoint
+- Trigger: T-0098 avslutad — Kristinas djup-6-kohort om 29 personer är
+  fullständigt kontraktsgranskad i fjorton batchar. Vid en fasgräns ska det
+  prövas om den planerade fortsättningen fortfarande är den kloka.
+- Control judgement: continue **och** operate
+- Current gate: **utvinning, inte åtkomst.** Kohortens öppna frågor hindras i
+  övervägande grad av oläst material projektet redan äger, inte av arkiv.
+
+### Vad vågen faktiskt visade
+
+Samtliga 29 fick `UNDERKÄND`, `withoutProfile` gick 471 → 442, och ingen
+legacy-`GRANSKAD` konverterades. Det viktiga resultatet är dock inte siffran
+utan **var hindren visade sig ligga**. Sex mönster återkom, och de framträder
+bara när kohorten läses som helhet:
+
+1. **Det avgörande steget är ofta en omläsning av en bild som redan ligger i
+   `genealogy/media/`** — i minst åtta av de femton hushållsgrupperna.
+   Ortkolumner, faddrar, ståndsbeteckningar, bakåthänvisningar och
+   boställesord som aldrig lästes, i filer på 6 000 pixlar.
+2. **En negativ kontroll kan vila på för låg upplösning.** C-0852:s
+   terminalfront för P-0386–P-0387 bygger uttryckligen på att
+   ursprungskolumnerna *inte är tillräckligt läsbara i den reproducerbara
+   bilden*. Den filen mäter **1 200 px**; medianen för projektets 3 562
+   JPEG-filer är **5 848**. **77 filer med Riksarkivets bild-id ligger under
+   2 000 px** — en avgränsad och kontrollerbar mängd, inte en defektlista.
+3. **Uppskjutna utvinningar vars villkor senare infriades.** C-0380 sköt upp
+   faddrarna tills rätt barn identitetsbands; C-0410 och C-0411 gjorde det —
+   och ingen återvände.
+4. **Vigselregistret är kohortens mest konsekvent oöppnade källa**, sex
+   hushållsgrupper i rad, flera med redan uträknade tvåårsfönster.
+5. **Kohorten har arbetats person för person medan källorna är ordnade by för
+   by.** Två kluster: Indal (tre grupper, två besvågrade genom vigseln
+   1858-02-21) och Stöde/Hullsjö (två grupper i samma by, med tio Hullsjösidor
+   redan hämtade).
+6. **Personbundna sekundärkällor är underutvunna** — herdaminnet läst för en
+   initial, nationsmatrikeln för ett fadersnamn.
+
+### Varför detta ändrar prioriteringen, men inte riktningen
+
+Generationsvågen fungerar och ska fortsätta: **T-0099 står READY** med
+Sverkers 28 personer, och kohortregeln PCD-2026-09-07-017 gäller oförändrad.
+Vad vågen tillför är att **nästa marginalvinst inte ligger i nya arkivläsningar
+utan i material som redan är hämtat och betalt**. Tre av mönstren — 1, 2 och 3
+— beskriver arbete som kan utföras utan en enda ny bildhämtning, och mönster 2
+berör dessutom **beläggsledets tillförlitlighet**: en front som säger något om
+en fil bör inte stå som ett påstående om ett original.
+
+Det är också skälet att inte lägga uppföljningen inuti nästa våg. Vågen är
+profilering; detta är läsning och rättelse. De ska hållas isär.
+
+### Två enskilda fynd som inte är mönster
+
+- **Motsägelse i beläggsledet:** C-0847 anger att Indal `A I/6`–`A I/7` inte
+  anger födelsesocken, medan C-0437 återger `A I/7` s. 193 som `i Indal` på
+  samtliga elva rader. Avgör om projektet har en **konflikt** eller bara en
+  lucka. Inget är ändrat i modellen.
+- **Oredovisad källkonflikt:** C-0333 skriver `Brita Jonsd:r`, C-0590
+  `Brita Jönsd:r` — olika faderförnamn, och den valda formen är aldrig
+  motiverad. Avgörs av en post i Stöde `C/2`, en volym projektet har öppen.
+
+### Alternativ som övervägdes
+
+- **Fortsätt direkt med T-0099 och skjut upp uppföljningen.** Avvisas: två av
+  fynden rör beläggsledets riktighet, och sådana bör inte ligga kvar medan nya
+  lager läggs ovanpå.
+- **Låt uppföljningen växa in i T-0099.** Avvisas enligt AGENTS.md — dela
+  hellre arbetet än att låta en uppgift växa obegränsat.
+- **Lyft frågan om de 77 lågupplösta filerna till en generell mediapolicy.**
+  Avvisas som förhastat: mängden är inte granskad, och flertalet kan vara
+  avsiktliga översiktsbilder. Först mätning, sedan eventuell regel.
+
+- Recommendation: skapa **tre avgränsade uppgifter** ur vågens fynd — en
+  omläsningsrond i lokalt material, en upplösningsrevision av de 77 filerna,
+  och en vigselboksrond för kohortens sex hushållsgrupper — och behåll T-0099
+  som nästa generationsvåg efter dem.
+- Owner decision required: nej. Ägarens stående direktiv delegerar övriga
+  ägarbeslut till Project Control; besluten ryms inom forskningsplanen och
+  PCD-2026-09-07-017.
+- Evidence:
+  - `wotan/dev-log/T-0098.md`, slutrapporten
+  - `genealogy/research-log/2026-09-07.md`, batch 417–430
+  - `genealogy/research-profiles/`, de 29 profilerna
+  - `genealogy/citations/C-0852`, `C-0847`, `C-0437`, `C-0333`, `C-0590`
+- Portfolio signal: projektet arbetar produktivt; ingen extern uppmärksamhet
+  krävs.
+- Next review: när T-0100–T-0102 är avslutade, eller om upplösningsrevisionen
+  visar att fler fronter än C-0852 vilar på filupplösning.
+
+## PCD-2026-09-07-018 — Tre avgränsade uppgifter ur djup-6-vågens fynd
+
+- Record type: decision
+- Date: 2026-09-07
+- Decided by: Project Control inom delegerad myndighet
+- Decision: godkänd enligt rekommendationen.
+
+**T-0100 — Omläsningsronden.** Läs de fält som är avgörande för
+T-0098-kohortens öppna frågor **i bilder som redan ligger i
+`genealogy/media/`**. Omfång: Jonsberg `A I/7` s. 55 (ortkolumn, marginal),
+Indal `A I/7` s. 193 (ortkolumn — avgör motsägelsen mot C-0847), Hällefors
+`C/9` post 67 (faddrar, initialer, `fr. S. Försam.`), Målilla `C/4` bild 130
+(vittnen), Hemsjö `C/4` bild `C0043840_00020` (frekvens- och
+kontinuitetsprov), Indal `C/4` bild 137 (boställesordet, relationsbeteckningen
+`h.`) och `A I/8` s. 108 (bakåthänvisning), Holm `C/1` bild `C0032930_00051`
+(föräldraraden), Stöde `A I/8` s. 88 (ståndsbokstaven `[B.]`, den överstrukna
+barnraden) samt Stöde `C/2` februari 1840 mot `A I/8` s. 88
+(`Jonsd:r`/`Jönsd:r`). **Uteslutet:** nya bildhämtningar utöver dessa,
+modelländringar utan eget citat, och varje utvidgning till personer utanför
+T-0098:s kohort. **Verifierbart utfall:** varje fält antingen avläst och fört
+i ett nytt eller tillagt citat, eller uttryckligen förklarat oläsbart i
+originalet — vilket i sig gör dagens hedgade formuleringar till belagda
+påståenden.
+
+**T-0101 — Upplösningsrevisionen.** Gå igenom de **77 JPEG-filer under
+2 000 px vars filnamn bär ett Riksarkivets bild-id**. Klassificera varje fil
+som (a) avsiktlig översiktsbild, (b) illustration utan bevisbärande roll,
+eller (c) **bevisbärande läsning eller negativ kontroll**. Hämta om i full
+IIIF-bredd endast i fall (c), och endast där citatets slutsats beror på
+läsbarhet. **Uteslutet:** att ändra någon slutsats utan omläsning, och att
+formulera en generell mediapolicy — mätningen kommer först.
+**Verifierbart utfall:** en klassificerad lista, omhämtade original för
+kategori (c), och för C-0852 ett besked om terminalfronten för P-0386–P-0387
+gäller originalet eller bara filen.
+
+**T-0102 — Vigselboksronden.** Sök vigselposterna för T-0098-kohortens
+hushållsgrupper där fönstret redan är uträknat: Jonsberg (Lars Svensson ×
+Maja Lena, före 1849), Indal/Säter (Anders Dahlsten × Anna Cajsa, ca
+1828–1831), Hemsjö (Sven Olofsson × Catharina, ca 1834–1840), Målilla
+(Carl Fredric × Anna Greta, före 1825), Ljustorp/Stöde (Jonas Nordlund ×
+Gertrud, ca 1841, sannolikt Stöde) och Bäckebo/Mortorp (Anders Ringberg ×
+Johanna Christina, 1836–1837, sannolikt Mortorp). **Uteslutet:** breda
+namnsökningar utan årsfönster, och varje ny personakt utan egen läst post.
+**Verifierbart utfall:** för varje par antingen en läst vigselpost med
+brudens ålder och hemförsamling, eller ett avgränsat noll med exakt volym,
+årgång och omfång.
+
+- Resulting Wotan tasks: **T-0100** och **T-0101** READY; **T-0102** BLOCKED tills båda är DONE, eftersom de kan göra flera vigselfönster onödiga eller smalare.
+- Sequencing: T-0100 och T-0101 före T-0102, eftersom de kan göra flera av
+  vigselfönstren onödiga eller smalare. **T-0099 — Sverkers djup-6-våg —
+  förblir READY och tas efter dem**; generationsvågens riktning ändras inte.
+- Reactivation condition: om T-0101 visar att fler terminalfronter än C-0852
+  vilar på filupplösning, ska en generell regel om bevisbärande bilders
+  minimibredd övervägas i en egen styrgenomgång.
