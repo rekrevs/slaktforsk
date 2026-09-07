@@ -147,6 +147,7 @@ ursprungliga dopnamn är däremot fortfarande olösta.
 | A-3113 | Exakta Rosenbergfrågor gav noll för Lugnet i Bygdeå och för den moderna stavningen `Överklinten`, medan den historiska stavningen `Öfverklinten` gav en målpost under samma filter. | TRANSCRIBED | hög | [C-0816](../citations/C-0816-riksarkivet-mcp-rosenberg-barbro-olofsdotter.md) | Visar stavnings- och lexikonkänslighet; inget ort-, person-, vistelse-, släktskaps- eller föräldranoll skapas. |
 
 | A-3145 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/38–51 över Barbros möjliga och säkra livsperiod 1830–1913, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0801](../citations/C-0801-riksarkivet-bygdea-mantal-1830-1850.md), [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
+| A-3840 | Bygdeå C/4:s **hela födelseår 1830**, bilderna 14–22 och omkring nittio dop, saknar en flicka döpt till `Barbro`. | NEGATIVE | hög | [C-1036](../citations/C-1036-bygdea-C4-1830-argangsnoll-barbro.md) | Ersätter det dagbundna nollet i C-0306, som prövade enbart 24 februari. Fyra `Cajsa`- eller `Christina`-poster förtecknas i belägget som uteslutna, var och en med namngivna föräldrar. 1829, 1831 och Lövångers C/5 är alltjämt olästa. |
 
 ## Tidslinje
 

@@ -43,3 +43,25 @@ omfattar 23 numrerade poster. Jakob Andersson och Maria Christina Hansdotter
 saknas. Tillsammans med den tidigare fullständiga kontrollen av 1862 gör det
 de senare anteckningarna `61` respektive `G 62` till en synlig konflikt, inte
 till bevis för vigsel i en annan namngiven församling.
+
+## Tillägg 2026-09-07 — årsindex och en rättad bildvalsfråga
+
+Volymens IIIF-manifest bär ett `structures`-index. Födelseavsnittet fördelar
+sig så:
+
+`1829:9 · 1830:14 · 1831:23`
+
+Årgången 1830 löper alltså över **bilderna 14–22**, nio uppslag.
+
+**Detta rättar en bildvalsfråga i den tidigare kontrollen.** Omläsningen
+2026-08-24 (C-0424) valde bilderna `_00018` och `_00020` som "kring 16 april"
+respektive "kring 16 juli". Bild 18 bär mycket riktigt aprilposter — men
+**postföljden är inte strikt kronologisk över uppslagen**: bild 18:s
+vänstersida har april 13–29 medan **aprilposten 16|17 står på bild 17**.
+
+Den 16 april 1830 föddes `Jacob`, son till `Bond: Anders Olofson och dess
+Hustru Maria Jacobsd:r 31` i **Häggnäs**, döpt den 17 april — bild
+`C0034040_00017`, se [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md).
+
+Slutsats för framtida kontroller i denna volym: **läs hela årgången ur
+manifestets index; välj inte uppslag efter en gissad datumposition.**

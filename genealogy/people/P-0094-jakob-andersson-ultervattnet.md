@@ -4,7 +4,7 @@
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-0364 | Senare församlings- och dödbok anger Jakob Andersson född 1830-04-16 i Bygdeå, medan den äldre husförhörsraden har lästs 1830-07-16; ingen säker egen födelsepost finns på något av de två kontrollerade datumen. | CONFLICT | medel | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0424](../citations/C-0424-bygdea-C4-jakob-andersson-fodelsedatum-konflikt-1830.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md) | 16 april är den samstämmiga sena kyrkoboksuppgiften och används som arbetsdatum, men egen födelsenotis och föräldralänk är inte slutligt lösta. |
+| A-0364 | Senare församlings- och dödbok anger Jakob Andersson född 1830-04-16 i Bygdeå, medan den äldre husförhörsraden har lästs 1830-07-16; ingen säker egen födelsepost finns på något av de två kontrollerade datumen. | CONFLICT | medel | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0424](../citations/C-0424-bygdea-C4-jakob-andersson-fodelsedatum-konflikt-1830.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md) | 16 april är den samstämmiga sena kyrkoboksuppgiften och används som arbetsdatum, men egen födelsenotis och föräldralänk är inte slutligt lösta. **Upplöst 2026-09-07:** födelsenotisen är funnen på 16 april och juliuppgiften avvisad, se A-3837–A-3839 och C-1035. |
 | A-0365 | Han var far till Anna Fredrika. | CORROBORATED | hög | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md) | Direkt familjerelation i flera källor. |
 | A-0366 | Han anges som bonde 1880 och på församlingsbokssidan, som hemmansägare 1890 och 1900 samt som före detta hemmansägare vid döden. | CORROBORATED | hög | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md) | Yrkes-/ställningsutveckling över folkräkningar, församlingsbok och dödbok. |
 | A-0367 | Husförhörslängden visar honom som son till Anders Olofsson och Maria Jakobsdotter. | TRANSCRIBED | hög | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md) | Hushållsstruktur; egna födelse- och vigselnotiser återstår. |
@@ -20,8 +20,8 @@
 
 | Datum | Händelse | Källa | Anmärkning |
 |---|---|---|---|
-| 1830-04-16 | **Uppgiven födelsedag** i Bygdeå enligt församlingsbok och dödbok. | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md) | **KONFLIKT.** Den äldre husförhörsraden har lästs `1830-07-16`. Bygdeå C/4 saknar en säker post på **båda** de kontrollerade dagarna ([C-0424](../citations/C-0424-bygdea-C4-jakob-andersson-fodelsedatum-konflikt-1830.md)); hela årgången är inte genomläst. 16 april används som arbetsdatum. |
-| 1830-talet–1861 | Son till **Anders Olofsson och Maria Jakobsdotter i Ultervattnet** enligt husförhörslängden. | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md) | Hushållsstruktur; egen födelsenotis saknas och föräldralänken är inte oberoende bekräftad. |
+| 1830-04-16 | **Född i Häggnäs, Bygdeå**, döpt 17 april, som son till bonden Anders Olofsson och hustrun Maria Jacobsdotter, 31 år. | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | **KONFLIKTEN UPPHÖR 2026-09-07.** Egen födelsenotis funnen i Bygdeå C/4 bild 17. Den äldre husförhörsradens `1830-07-16` avvisas: juli 1830 rymmer bara en Jacob, född den 29:e i Ultervattnet med andra föräldrar. C-0424:s noll gällde bilderna 18 och 20 — fel uppslag. |
+| 1830-talet–1861 | Son till **Anders Olofsson och Maria Jakobsdotter**, i husförhörslängden i Ultervattnet. | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | Föräldralänken är nu **oberoende bekräftad** av födelsenotisen. Familjen bodde vid födelsen i **Häggnäs**; vägen därifrån till Ultervattnet är oprövad. |
 | omkring 1861–1862 | **Gift** med Maria Christina Hansdotter från Åkullsjön. | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) | **KONFLIKT.** Husförhörsraden markerar `G 62`, församlingsboken `61` — och paret saknas i **hela** Bygdeås vigselår både 1861 (23 poster) och 1862 (22 poster) ([C-0429](../citations/C-0429-bygdea-C4-vigslar-1861-negativ-kontroll.md), [C-0122](../citations/C-0122-bygdea-vigslar-1862-negativ-kontroll.md)). Vigselförsamlingen är okänd. |
 | 1862–1880 | **Fem barn**: Anders Petter, Jakob, Nils Leonard, Anna Fredrika och Christina Lovisa. | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) | |
 | 1872 | Dottern **Anna Fredrika** föds. | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md) | Direkt ana. |
@@ -29,6 +29,9 @@
 | 1890, 1900 | **Hemmansägare** i Ultervattnet. | [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md) | Ställningen stiger från bonde till hemmansägare mellan 1880 och 1890. |
 | 1903-08-26 | **Änkling**: Maria Christina dör i Ultervattnet. | [C-0426](../citations/C-0426-bygdea-F1-maria-christina-hansdotter-dod-1903.md) | |
 | 1905-10-03 | **Död som änkling i Ultervattnet**, `före detta hemmansägare`; dödsorsaken skrivs `ålderdomssvaghet`. Begravd 15 oktober. | [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md) | Historisk källterm utan modern omtolkning. |
+| A-3837 | Jacob, son till **Bond. Anders Olofsson och hustrun Maria Jacobsdotter, 31 år, i Häggnäs**, föddes **1830-04-16** och döptes 17 april i Bygdeå. | CORROBORATED | mycket hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | Bygdeå C/4 bild 17. Namn, exakt datum, båda föräldranamnen och socknen sammanfaller; posten upphäver konflikten i A-0364. Byn Häggnäs skiljer sig från den senare hemvisten Ultervattnet, vilket är normalt vid flytt. |
+| A-3838 | Den enda Jacob som föds i juli 1830 är född 29 juli i Ultervattnet som son till **Isaak Jacobsson och Magdalena**; uppgiften `1830-07-16` saknar egen post och avvisas. | NEGATIVE | hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | Att den pojken föds just i Ultervattnet är en trolig förväxlingsförklaring till husförhörsradens julidatum. |
+| A-3839 | C-0424:s nollresultat gällde bilderna 18 och 20; aprilposten 16\|17 står på bild 17, och postföljden är inte strikt kronologisk över uppslagen. | NEGATIVE | hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | Kontrollen var korrekt utförd på fel uppslag — det metodfel T-0090 registrerades för. C-0424 bevaras och supersederas. |
 
 ## Biografisk sammanfattning
 
@@ -82,9 +85,12 @@ i A-0367. Det gjorde att revisionsskriptet inte kunde följa grenen.
 
 ## Forskningsfrågor
 
-- Egen födelsenotis saknas på de konkret kontrollerade datumen 1830-04-16 och
-  1830-07-16. Återta födelse- och föräldrafrågan först med ett nytt
-  datum-, sida- eller flyttankare; rotera nu breddförst.
+- **Egen födelsenotis är funnen 2026-09-07** (C-1035): `April 16. 17. Jacob.
+  Bond: Anders Olofson och dess Hustru Maria Jacobsd:r 31. Häggnäs.` Frågan om
+  födelsedatum och föräldrar är därmed besvarad ur originalet, och konflikten
+  i A-0364 upphör. Den tidigare nollan gällde fel uppslag: aprilposten står på
+  bild 17, inte 18. Kvar av frågan står endast familjens väg från **Häggnäs**
+  till **Ultervattnet**, som inte är prövad.
 - Vigseln med Maria Christina saknas i hela Bygdeås vigselår 1861 och 1862
   trots motstridiga senare årsanteckningar. Exakt år och församling återstår.
 
