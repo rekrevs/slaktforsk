@@ -837,6 +837,68 @@ Kombinera med kyrkoarkivens egna ortregister, men lita inte på dem: Målilla
 `A I/5`:s register anger `Ämmenäs 231`, medan byn i själva verket fortsätter
 på sida 232. Registret pekar in i byn, det avgränsar den inte.
 
+## Tillägg 2026-09-07: läs styrande fält i full förstoring
+
+Ett **styrande fält** är ett fält vars värde bestämmer var nästa sökning
+görs: församlingsförkortning, ortnamn, folionummer, en enda siffra i ett
+datum. Sådana fält ska läsas vid **maximal upplösning** och **skrivas ut
+ordagrant i citatet**, aldrig återges i normaliserad form.
+
+Skälet är mätt, inte principiellt. Under **ett dygn** påträffades tio skilda
+varianter av citat som var korrekt formulerade men sakligt fel, flera av dem
+månader gamla — och **samtliga tio upptäcktes vid omläsning, ingen av en
+validator**. Två kostnadsexempel:
+
+- `A I/17` sida 102 skriver födelseförsamlingen **`St. Malm`**. Den lästes
+  som `Mellösa`. Felet drev **nio kompletta årgångar i fyra serier** till fel
+  socken — och genererade dessutom en falsk slutsats om att källan var
+  opålitlig, som fick dras tillbaka samma dygn (C-1075, A-4029).
+- `A I/21` sida 16 skriver `87 ⁹/₁₁`. Täljaren lästes som `2`. Ett dygn
+  gammalt påstående fick rättas (C-1064, A-3977).
+
+**`St. Malm`, `L. Malma` och `L. Mellösa` är tre skilda församlingar i
+Södermanland.** Fyra ortnamnsläsningar fick rättas samma dag.
+
+Regeln gäller också **ortregister**: en ortlista som ska styra en uppslagning
+läses i förstoring, inte i översikt (C-1090).
+
+**Korsläs avsändare och mottagare.** Ett felläst tecken i en cell syns inte
+vid omläsning av samma cell. Det syns när den avsändande och den mottagande
+församlingens bokföring läggs mot varandra — så fångades `⁹/₁₁`. Där två
+socknar är inblandade i samma händelse ska båda läsas innan uppgiften
+används som söknyckel.
+
+## Tillägg 2026-09-07: routingtrappan — pröva billigast först
+
+**MCP:s `search_metadata` utelämnar rutinmässigt bildlänken för volymer som
+är fullt digitaliserade.** "Ingen bildlänk" betyder aldrig "inte
+digitaliserad". Nitton volymer routades på detta sätt under en session.
+Pröva i denna ordning:
+
+1. **Reproduktions-id:n är sekventiella inom en serie, och IIIF-manifestets
+   `label` anger volymbeteckning och år i klartext.** Från ett känt batch-id,
+   hämta `lbiiif.riksarkivet.se/arkis!<batch±n>/manifest` och läs `label`.
+   **Självverifierande** — en felgissning syns omedelbart. En begäran.
+   `C0007556`–`C0007560` = Stora Malm `A I/20 a`, `20 b`, `21 a`, `21 b`,
+   `22 a`.
+2. **Arkis-UUID:n är också sekventiella.** Från ett känt UUID, svep grannarna
+   genom batchsidan. Björkviks `A I/14 a`–`A I/16 b` kom fram i ett svep när
+   katalogens fritextsökning på `A I/15 a` gav noll.
+3. **`/arkiv/<permanent-id>` omdirigerar till `/nad/?postid=Arkis <uuid>`;
+   det uuid:t på batchsidan ger reproduktionen.** Arbetshästen — och den
+   **diskriminerar**: den gav riktigt fel för Kåkinds generalmönsterrullor,
+   som verkligen är odigitaliserade.
+
+**Räkna aldrig sidor.** Canvas-etiketterna bär `Bild N / Sida M`, och
+kopplingen är inte linjär: bild 205 = sida 243, medan bilderna 13 och 14
+båda är sida 6. Fråga etiketten. Dubblettskanningar av samma uppslag
+förekommer (`C0007590` bilderna 129 och 130).
+
+**En församling delad i två band ska prövas i båda** innan ett ortnamn kallas
+frånvarande. Tre nära misstag samma dag: Skedevi `A I/28`–`30`, Stora Malm
+`A I/20 a`/`b` och Björkvik `A I/15 a`/`b`. Skedevis flyttningslängd skriver
+hänvisningen som `volym:sida` (`3:11`) just därför.
+
 ## Åtkomstregister
 
 Kända åtkomstbesked per volym, med datum och utfall, står i

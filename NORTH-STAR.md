@@ -150,6 +150,15 @@ livshistoria. Namnlikhet, ungefärlig ålder eller gemensam socken räcker inte.
 När identiteten inte kan avgöras ska kandidater och alternativa tolkningar
 hållas åtskilda och osäkerheten redovisas.
 
+Ett rikt och samstämmigt spår gör en person otvetydig **som person** och
+avgör inte i sig identifieringen. Så länge ett materiellt fält motsäger
+kopplingen står den öppen, hur många källor som än stöder personens egen
+existens och väg. Ett fält som är känt opålitligt får inte samtidigt vara
+skälet att förkasta en uppgift och skälet att bortse från att den inte
+stämmer; en känd svaghet i en källa är en anledning att pröva den, inte en
+fullmakt att välja bort dess motsägelser. Motsägelsen upphävs av belägg,
+inte av spårets styrka.
+
 Ingen direkt anlinje får föras vidare som etablerad genom en personidentitet
 eller föräldrarelation som fortfarande är materiellt osäker. Kandidater får
 undersökas, och saknade identitetsbryggor ska aktivt sökas när en rimligt

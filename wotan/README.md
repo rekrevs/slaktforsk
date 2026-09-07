@@ -123,6 +123,20 @@ batchloggen och är append-only. Dev-loggen länkar till datum och batch,
 inte en kopia av samma innehåll. Personakter, frontier och källtäckning
 uppdateras med relevanta fynd; metodfiler ska inte bära aktuell uppgift.
 
+**Varje batch namnger vilket acceptanskriterium den för framåt.** En rad i
+batchloggen räcker: kriteriets nummer eller kortnamn i den aktiva uppgiften.
+Kan batchen inte namnge ett kriterium är arbetet inte en del av uppgiften,
+hur värdefullt det än är — dela ut det i en egen uppgift enligt regeln ovan
+och lämna checkpointen som pekar dit. Detta är kontrollen som gör
+`AGENTS.md`:s förbud mot obegränsade uppgifter mätbart i stället för
+principiellt.
+
+Kravet är inte en batchkvot. Antal batchar är varken acceptanskriterium
+eller bevis; det som räknas är att varje batch kan säga vad den stänger.
+Bakgrund: 2026-09-07 drev `T-0083` fjorton batchar i följd på en persons
+identitetsspår utan att föra en enda av uppgiftens matrisceller framåt
+(PCD-2026-09-07-025).
+
 Håll en kort `## Återupptagning` i pågående uppgifts dev-log aktuell vid
 betydande delresultat, fasbyte och före ett planerat avbrott:
 

@@ -176,6 +176,15 @@ namnsökningar. Gruppera motivering efter personens tid, geografi och
 institutioner och gör rimliga upptäcktskontroller. En ny uppgift kan
 ändra relevansen; hela personens strategi omprövas då i berörda delar.
 
+**Byt nyckel, inte fönster; sedan byt källfamilj.** Ett nollresultat i ett
+datumfönster besvaras inte av fler datumfönster. Gå först till en annan
+söknyckel i samma källa — namn i stället för dag, patronymikon i stället för
+namn — och när nycklarna är uttömda till en **annan källfamilj**, inte till
+fler årgångar av samma. Sju hela vigselårgångar i tre församlingar gav noll
+för samma par innan frågan flyttades till husförhörslängderna, som besvarade
+den. Motivera bytet i uppgiftens checkpoint, så att nästa passage inte
+upprepar det uttömda ledet.
+
 Ingen namnsökträff: kontrollera datamängd, indexomfång, stavning, filtrering
 och vid behov positiv kontroll; gå sedan till ort-/tidsavgränsad
 originalgenomgång när det är motiverat. Ingen digital bild: pröva relevanta

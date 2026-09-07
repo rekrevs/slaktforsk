@@ -4614,3 +4614,42 @@ största posten.
 och godkänner ingenting. Det ändrar inte heller ägarens reservationer:
 ArkivDigital-förbudet, läsesalsgränsen, dashboardregeln och kravet på
 ägarens godkännande för commit och push står fast.
+
+## PCD-2026-09-07-025 — Fyra styrfilsändringar ur dagens sessionslärdomar
+
+**Beslut:** dagens metod- och granskningslärdomar förs in i styrfilerna på
+fyra ställen, var och en där regeln hör hemma och ingen annanstans.
+
+| Fil | Tillägg | Varför just där |
+|---|---|---|
+| `genealogy/method-riksarkivet.md` | **Läs styrande fält i full förstoring** — definierar *styrande fält*, kräver ordagrant citat, utvidgar till ortregister, och kräver korsläsning av avsändande och mottagande församling | Operativ läsregel; filen bär redan daterade tillägg av samma slag |
+| `genealogy/method-riksarkivet.md` | **Routingtrappan** — batch-id-följd → UUID-följd → batchsida; räkna aldrig sidor; delad församling prövas i båda banden | Åtkomst- och routingmetod |
+| `genealogy/source-strategy.md` | **Byt nyckel, inte fönster; sedan byt källfamilj** | Hör till *Upptäckt, prioritering och stopp* |
+| `NORTH-STAR.md`, *Tolkning och kvalitetskrav* | **Starkt spår mot motspänstigt fält** | Ändrar vad en identifiering *betyder*; kan inte ligga i en metodfil |
+| `wotan/README.md`, *Spara arbete där det hör hemma* | **Varje batch namnger vilket acceptanskriterium den för framåt** | Gör `AGENTS.md`:s förbud mot obegränsade uppgifter mätbart |
+
+### De två som ändrar innebörd
+
+**North star.** Kontraktet förbjöd redan sammanslagning på namnlikhet, men
+sade inget om det svårare fallet: ett **rikt, samstämmigt spår** mot **ett
+motsägande materiellt fält**. Sex källor i tre församlingar gjorde
+`Eva Lotta Jonsdotter` otvetydig som person och rörde inte datumkonflikten
+mot `A I/17`. Klausulen slår fast att spårets styrka inte upphäver en
+motsägelse, och att en känd svaghet i en källa är skäl att pröva den, inte
+fullmakt att välja bort dess motsägelser.
+
+**Wotan.** `AGENTS.md` föreskrev redan att nytt arbete ska delas ut i stället
+för att växa i en obegränsad uppgift. Regeln fanns; **utlösaren saknades**.
+2026-09-07 drev `T-0083` fjorton batchar i följd på en persons identitetsspår
+utan att föra en enda av uppgiftens matrisceller framåt. Kriteriemärkningen
+kostar en rad per batch och fångar driften där den uppstår.
+
+### Vad beslutet inte gör
+
+Det ändrar ingen sakrad, ingen status och ingen arbetsordning. Det inför
+ingen batchkvot — antal batchar förblir varken acceptanskriterium eller
+bevis. Ägarens reservationer står fast: ArkivDigital, ALTCHA,
+läsesalsgränsen, dashboardregeln och kravet på ägarens ord för push.
+
+**Underlag:** [`NORTH-STAR-REVISION-2026-09-07.md`](NORTH-STAR-REVISION-2026-09-07.md),
+PCD-2026-09-07-024 och forskningsloggens batchar 467–494.
