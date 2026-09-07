@@ -14,12 +14,14 @@ Abraham Jönssons far i Hullsjön, Stöde. Källorna skriver patronymikonet
 | A-3795 | Ståndskolumnen på Stöde A I/8 sida 88 bär en tydlig versal **B.** framför hans namn, i samma förkortningssystem som H:u, D. och Dott. på raderna under; standardupplösningen är **Bonde**. | CORROBORATED | hög | [C-1020](../citations/C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md) | Bokstaven är säkert läst; expansionen är den konventionella i bokstypen och anges som sådan. |
 | A-3796 | Kolumnen Gifta År bär `30` på hans rad och `d:o` på hustruns: paret vigdes 1830. | CORROBORATED | hög | [C-1020](../citations/C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md) | Uppgiften saknas i C-0590. Ger Stödes vigselbok ett ettårsfönster och stämmer med att äldsta barnraden är född 1831-07-10. |
 | A-3797 | Den överstrukna barnraden född 1831-07-10 är struken med ett tjockt streck och går inte att läsa i originalets fulla upplösning. | NEGATIVE | hög | [C-1020](../citations/C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md) | Avgjort utfall: raden ska sökas i Stödes födelsebok på datumet, inte på namnet. |
+| A-3804 | Jöns Abrahamsson vigdes 1830-04-13 i Stöde och kallas i vigselboken **Bondesonen Jöns Abrahamsson i Hullsjön**. | CORROBORATED | mycket hög | [C-1024](../citations/C-1024-stode-EI1-1830-jons-abrahamsson-cajsa-brita.md) | Årets första post i Stöde E I/1, sida 35. Bekräftar giftaåret 30 i A I/8 och att `B.` står för bonde. Hans far var alltså bonde i Hullsjön. |
+| A-3807 | Både brudgum och brud var från Hullsjön och barn till bönder där; ålderskolumnen är inte ifylld för posten. | CORROBORATED | hög | [C-1024](../citations/C-1024-stode-EI1-1830-jons-abrahamsson-cajsa-brita.md) | Ger båda hushållen en gemensam sökyta: Hullsjöuppslaget i längden före A I/8. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
-| [P-0448 Brita Jonsdotter](P-0448-brita-jonsdotter.md) | hustru | CORROBORATED | C-0333, C-0590 |
+| [P-0448 Cajsa Brita Jonsdotter](P-0448-brita-jonsdotter.md) | hustru | CORROBORATED | C-0333, C-0590 |
 | [P-0449 Brita](P-0449-brita-hullsjo.md) | dotter | TRANSCRIBED | C-0590 |
 | [P-0450 Magdalena](P-0450-magdalena-hullsjo.md) | dotter | TRANSCRIBED | C-0590 |
 | [P-0250 Abraham Jönsson](P-0250-abraham-jonsson.md) | son | CORROBORATED | C-0333, C-0590 |
@@ -34,16 +36,18 @@ ny ortsledtråd.
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: Stöde C/2 omkring 1805-08-22 och föregående
-  husförhörslängd som binder födelsen till föräldrahushållet.
-- Genomsökt: Stöde A I/8 hela Hullsjöavsnittet och A I/9 hela
-  Hullsjöavsnittet.
+- Förväntad källa: **husförhörslängden före `A I/8`, uppslaget för Hullsjön** —
+  vigselboken 1830 kallar honom `Bondesonen … i Hullsjön` (C-1024), så
+  föräldrahushållet ska stå där. Därtill Stöde `C/2` omkring **1805-08-21
+  eller -22**.
+- Genomsökt: Stöde A I/8 hela Hullsjöavsnittet, A I/9 hela Hullsjöavsnittet,
+  och **E I/1:s årgång 1830, där vigseln återfanns** (C-1024).
 - Negativ kontroll: [C-0591](../citations/C-0591-stode-AI9-hullsjo-familj-negativ-kontroll.md)
   bevarar nästa volyms avgränsade Hullsjönoll utan destinationsinferens.
-- Återaktivering: **vigselåret är nu känt — 1830** (C-1020), vilket gör Stödes
-  vigselbok till en punktkontroll och är den starkaste ingången. Därefter egen
-  födelsepost omkring **1805-08-21 eller -22** i `C/2`, en volym projektet
-  redan har öppen. Upprepa inte A I/9:s Hullsjöavsnitt.
+- Återaktivering: **vigseln är funnen** — 1830-04-13, Stöde `E I/1` bild 23
+  (C-1024). Nästa steg är **Hullsjöuppslaget i husförhörslängden före `A I/8`**,
+  där både hans och hustruns föräldrahushåll ska stå, och därefter hans egen
+  födelsepost omkring 1805-08-21/22 i `C/2`. Upprepa inte A I/9:s Hullsjöavsnitt.
 
 ## Arbetsläge
 

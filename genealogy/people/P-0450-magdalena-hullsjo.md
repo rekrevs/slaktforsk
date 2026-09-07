@@ -16,7 +16,7 @@ syster till Abraham Jönsson. Patronymikon har inte konstruerats.
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
 | [P-0447 Jöns Abrahamsson](P-0447-jons-abrahamsson.md) | far | TRANSCRIBED | C-0590 |
-| [P-0448 Brita Jonsdotter](P-0448-brita-jonsdotter.md) | mor | TRANSCRIBED | C-0590 |
+| [P-0448 Cajsa Brita Jonsdotter](P-0448-brita-jonsdotter.md) | mor | TRANSCRIBED | C-0590 |
 | [P-0449 Brita](P-0449-brita-hullsjo.md) | syster | TRANSCRIBED | C-0590 |
 | [P-0250 Abraham Jönsson](P-0250-abraham-jonsson.md) | bror | TRANSCRIBED | C-0590 |
 

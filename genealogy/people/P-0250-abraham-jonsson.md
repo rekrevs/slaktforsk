@@ -87,7 +87,7 @@ till **Medelpads västra domsagas F II a/9 för 1922**, men akten är oläst.
 |---|---|---|---|
 | [P-0251 Stina Kajsa Nordlund](P-0251-stina-kajsa-nordlund.md) | hustru | CORROBORATED | C-0242, C-0243, C-0452–C-0454 |
 | [P-0447 Jöns Abrahamsson](P-0447-jons-abrahamsson.md) | far | CORROBORATED | C-0333, C-0590 |
-| [P-0448 Brita Jonsdotter](P-0448-brita-jonsdotter.md) | mor | CORROBORATED | C-0333, C-0590 |
+| [P-0448 Cajsa Brita Jonsdotter](P-0448-brita-jonsdotter.md) | mor | CORROBORATED | C-0333, C-0590 |
 | [P-0449 Brita](P-0449-brita-hullsjo.md) | syster | TRANSCRIBED | C-0590 |
 | [P-0450 Magdalena](P-0450-magdalena-hullsjo.md) | syster | TRANSCRIBED | C-0590 |
 | [P-0247 Gertrud Kristina Jönsson](P-0247-gertrud-kristina-jonsson-henriksson.md) | dotter | CORROBORATED | C-0242, C-0243 |
