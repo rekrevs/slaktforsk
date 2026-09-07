@@ -69,3 +69,22 @@ Mofalla A I/4, som skulle visa om hans hushåll och Bjerg har någon förbindels
 ## Stödda påståenden
 
 A-3720, A-3721, A-3722.
+
+## Rättelse 2026-09-07 — brudens hemvist
+
+Avskriften ovan skriver brudens rad `[…] fr. Woleb[äck]`. **Den är fel.**
+Vid omläsning i närbild lyder raden `Pigan Maria Greta Larsd | 24 |
+**Rusth. D. fr. Årebolet**` — rusthållardotter från **Årebolet**, en by i
+Kyrkefalla socken.
+
+Kontrollen finns på samma sida: post 7 skriver `Hemmasson fr. Wallbäcken`,
+och de två orden är i samma hand otvetydigt olika. Felläsningen berodde på
+att raden lästes på uppslagsnivå och aldrig i närbild.
+
+Rättelsen är materiell. Den binder bruden till **samma ort och samma stånd**
+som fadern i den enda kandidatposten i Kyrkefallas födelsebok 1824, och
+flyttar frågan om hennes ursprung från olöst till stödd. Se
+[C-1006](C-1006-arebolet-rattelse-och-kandidatens-styrka.md).
+
+Den ursprungliga avskriften står kvar oförändrad ovan; detta avsnitt är
+tillagt, inte ersättande.

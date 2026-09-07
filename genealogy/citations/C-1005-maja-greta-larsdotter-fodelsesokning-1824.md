@@ -105,3 +105,18 @@ Kyrkefalla `C/4` rymmer dödboken 1782–1836.
 ## Stödda påståenden
 
 A-3733, A-3734, A-3735.
+
+## Rättelse 2026-09-07
+
+Ortsuppgiften `fr. Wolebäck` ovan bygger på C-1001:s avskrift, som **var
+fel**. Vigselboken skriver `Rusth. D. fr. **Årebolet**` — rusthållardotter
+från Årebolet, en by i Kyrkefalla socken, och samma ort som kandidatens
+familj i marsposten här ovan.
+
+Slutsatsen i detta underlag — `OLÖST INOM PRÖVAT OMFÅNG`, en noll och en
+kandidat med fel dag — är därmed **överspelad**. Med den rättade
+ortsuppgiften sammanfaller sex uppgifter med kandidaten, och läget är
+`STÖDD`. Se [C-1006](C-1006-arebolet-rattelse-och-kandidatens-styrka.md).
+
+Detta avsnitt är tillagt; texten ovan står kvar oförändrad som den
+observation den var.
