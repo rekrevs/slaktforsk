@@ -10,7 +10,10 @@ Kolaren Jonas Nordlund i Norafors–Stormyran, far till Stina Kajsa Nordlund.
 |---|---|---|---|---|---|
 | A-2355 | Jonas Nordlund var kolare och levde med hustrun Gertrud Olofsdotter och fyra namngivna barn i Sättna A I/8 sida 255. | CORROBORATED | hög | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) | Originalsidan anger makar och barnroller. |
 | A-2356 | Jonas föddes 1816-10-09 i Holm och döptes 14 oktober. | CORROBORATED | hög | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md), [C-0531](../citations/C-0531-holm-C1-jonas-fodd-1816.md) | Exakt datum, namn och socken förenar hushållsraden med födelsenotisen. |
-| A-2357 | Jonas patronymikon och far är olösta: födelsenotisens svårlästa föräldrarad ser ut att ange Pehr Simonsson, medan CEDAR:s länkade biografi använder formen Jonas Stefansson. | CONFLICT | medel | [C-0531](../citations/C-0531-holm-C1-jonas-fodd-1816.md) | Ingen föräldrapost eller relation skapas före en sammanhängande äldre hushållskedja. |
+| A-2357 | Jonas patronymikon och far är olösta: födelsenotisens svårlästa föräldrarad ser ut att ange Pehr Simonsson, medan CEDAR:s länkade biografi använder formen Jonas Stefansson. | CONFLICT | medel | [C-0531](../citations/C-0531-holm-C1-jonas-fodd-1816.md) | Ingen föräldrapost eller relation skapas före en sammanhängande äldre hushållskedja. **Upplöst 2026-09-07:** föräldraraden lästes en rad fel; se A-3792–A-3794 och C-1019. |
+| A-3792 | Jonas egen födelsepost i Holm C/1 1816 anger föräldrarna **Stephan [·]son** och **Ingri Jonsdotter**, åldrarna 30–35, på en ort som läses Hullsj[ön]. | CORROBORATED | hög | [C-1019](../citations/C-1019-holm-C1-1816-foraldraraden-radforskjutning.md) | Omläsning i närbild av C-0531:s eget fulloriginal. Faderns patronymikon är inte säkert läst; förnamnet Stephan är det. Inga personakter skapas här. |
+| A-3793 | `Pehr Simonsson` tillhör nästa post i samma bok: han är far till Marta, född 14 oktober 1816, med hustrun Marta Mathsdotter i Sunnansjö. C-0531:s föräldrarad lästes en rad för långt ned. | NEGATIVE | hög | [C-1019](../citations/C-1019-holm-C1-1816-foraldraraden-radforskjutning.md) | Radförskjutning, inte osäker tydning. Rosenberg attesterar Sunnansjö som by i Holms socken. |
+| A-3794 | Eftersom faderns förnamn är Stephan är CEDAR:s form `Jonas Stefansson` riktig; konflikten mellan kyrkobok och databas i A-2357 upphör. | CORROBORATED | hög | [C-1019](../citations/C-1019-holm-C1-1816-foraldraraden-radforskjutning.md) | Konflikten var en avskrivningsfråga i projektet, inte en källkonflikt. |
 
 ## Relationer
 
@@ -24,21 +27,26 @@ Kolaren Jonas Nordlund i Norafors–Stormyran, far till Stina Kajsa Nordlund.
 
 ## Forskningsstatus
 
-Hushåll, make, barn och egen födelsenotis är säkrade. Föräldraraden i Holm
-C/1 står i konflikt med CEDAR:s patronymikon och får inte normaliseras utan
-en äldre Holm-hushållskedja.
+Hushåll, make, barn och egen födelsenotis är säkrade. **Föräldraraden är omläst 2026-09-07 (C-1019): den lästes en rad för långt
+ned.** Jonas egen post anger `Stephan [·]son` och `Ingri Jonsdotter`, medan
+`Pehr Simonsson` hör till nästa post. CEDAR:s form `Stefansson` är därmed
+riktig och konflikten upphör. Faderns patronymikon är ännu inte säkert läst,
+och inga personakter för föräldrarna skapas i omläsningsronden.
 
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: Holms husförhörslängd eller flyttkedja som binder Jonas
-  1816-10-09 till ett namngivet föräldrahushåll.
+- Förväntad källa: **sakligt uppfylld** — hans egen födelsepost namnger
+  föräldrarna (C-1019). Kvar står en säker läsning av faderns patronymikon och
+  ett hushåll i Holm som bär paret; **statusklassen omprövas i den uppgift som
+  skapar föräldraakterna**, inte här.
 - Genomsökt: exakt födelsepost i Holm C/1 samt CEDAR:s länkade vuxenbiografi.
 - Negativ kontroll: [C-0531](../citations/C-0531-holm-C1-jonas-fodd-1816.md)
   bevarar den olösta Simonsson/Stefansson-konflikten utan skapad relation.
-- Återaktivering: en äldre personbunden Holm-hushålls- eller flyttkedja som
-  förenar Jonas 1816-10-09 med ett uttryckligt föräldrapar och avgör
-  Simonsson/Stefansson utan namnnormalisering.
+- Återaktivering: **Simonsson/Stefansson är avgjort** (C-1019) — fadern hette
+  `Stephan`. Kvar: läs faderns patronymikon säkert och slå upp Holms
+  husförhörslängd på orten `Hullsj[ön]` omkring 1816 för paret
+  `Stephan [·]son` och `Ingri Jonsdotter`, 30–35 år.
 
 ## Arbetsläge
 

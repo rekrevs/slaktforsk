@@ -24,3 +24,20 @@ lösas med en sammanhängande äldre hushållskedja, inte genom namnlikhet.
 ## Stödda påståenden
 
 A-2356–A-2357.
+
+## Rättelse 2026-09-07 — föräldraraden lästes en rad fel
+
+Posten är omläst i närbild ur det fulloriginal som bevaras här, inom T-0100.
+Se [C-1019](C-1019-holm-C1-1816-foraldraraden-radforskjutning.md).
+
+- **`Pehr Simonsson` tillhör nästa post**: han är far till `Marta`, född
+  **14 oktober** 1816, med hustrun `Marta Mathsdotter` i **Sunnansjö**.
+- **Jonas, född 9 oktober**, har i sin egen post föräldrarna
+  **`Stephan [·]son`** och **`Ingri Jonsdotter`**, åldrarna `30 – 35`, på en
+  ort som läses `Hullsj[ön]`.
+- Läsningen ovan var alltså inte en osäker tydning utan en **radförskjutning**.
+- **Faderns förnamn `Stephan` gör CEDAR:s form `Jonas Stefansson` riktig**, och
+  konflikten mellan kyrkobok och databas upphör.
+- Faderns patronymikon är inte säkert läst; **dopdagen läses `13`, inte `14`**.
+
+Texten ovan bevaras oförändrad som revisionsspår.
