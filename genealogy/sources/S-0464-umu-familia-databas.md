@@ -67,3 +67,18 @@ barnhusrullan har nu kontrollerats separat i C-0606–C-0607.
 Exakta byteantal och SHA-256 redovisas i C-0593 och
 `genealogy/media-manifest.json`. De dynamiska person- och källsidorna är
 bevarade som daterade skärmbilder i samma citation.
+
+
+## Återfunna fasta personhänvisningar — T-0138, 2026-09-08
+
+Full utvinning av de redan bevarade C-0593d/e/f/h har lagts i C-0593.
+Hindrics biografi innehåller sju tidiga Ljustorpsrader i A I/1–2 och
+sena Lagforsrader i A I/2 sida 30/rad 010 samt C/1 dödbok sida 99/rad
+020. Dödsrouting 1875-01-05, vigsel 1819-10-31 och upplösning
+1850-02-13 är databasfält som ännu kräver egna original. Den tidiga
+Winroht/Winroth/Vinroth-användningen är synlig från databasens 1811-led.
+Britas fem rader anger boendeförsamling Ljustorp; varken Tynderö som
+födelsesocken, föräldrar eller namnets ursprung kan utläsas. Se C-0593
+för exakt radtabell, datumavvikelser och relationsetiketter. T-0314–0316
+äger de avgränsade nya originalpassagerna efter konsolideringsprogrammet.
+Inga nya webb- eller arkivsidor har öppnats för denna omläsning.

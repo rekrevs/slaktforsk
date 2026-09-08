@@ -35,3 +35,25 @@ Christina lämnade efter vigseln. Exakta flyttdagar finns i C-0156.
 ## Stödda påståenden
 
 A-0545, A-0553, A-0812 och A-0824–A-0826.
+
+## Egna tjänsterader prövade — T-0132, 2026-09-08
+
+Fullbilden visar Anna Christina på rad 21 som piga, 1852 21/3 Årdala,
+gift 1876 17/9; från Misstorp 74 och till Forssa 1876 18/10, attest 25.
+Dessa egna kolumner är lästa över båda sidorna. Koppor-/läsfält har
+v-/grafiska streckmarkeringar; årsvisa förhörs-/nattvardskolumner,
+frejd och död saknar egna notiser. Inga moderna betyg eller enskilda
+kyrkobesök härleds ur strecken.
+
+Eriks separata drängrad 17 anger Forssa 75 som ankomst och Forssa 1876
+28/4, attest 18 som avgång. Det är olika bokförda flyttar för paret,
+inte en gemensam fysisk flyttdag. Annas tidigare Missingstorp-rad
+C-0159 hänvisar först till Sannerby sida 183 år 1874; den sammanhängande
+passagen därifrån till Långviken är inte här läst och får inte döljas.
+
+Sidans brukarfamilj är Carl Johan Dahlén och Anna Sofia Johansdotter
+med barn, under rubriken Långviken, ett mantal skatte. Ägartexten
+Er. Edsons[?] sterbhus tillhör fastigheten, inte Annas egendom.
+Erik Alfred Eriksson och Hedda Sofia Eriksson är andra tjänsterader;
+hushållets översta barn och senare tjänstefolk är inte automatiskt
+Annas barn, syskon eller samtidiga kontakter under hennes vistelse.

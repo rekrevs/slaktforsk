@@ -57,3 +57,7 @@ originalupplösning** inom T-0101. Se
   Identifieringen hör till en uppgift med det i sitt omfång.
 
 Texten ovan bevaras oförändrad som revisionsspår.
+
+## T-0136: avstämning 2026-09-08
+
+Det finns inget belägg för att parets hushåll står på sidorna 138 eller 158. C-1022 och C-1029 avvisar den tidigare lokaliseringen; den utgör därför inte en kvarvarande utvinningsskuld för deras ursprungsfält eller ytterligare barn. Den gamla uppgiften om lokaliserat eget hushåll och onämnda egna barn är upphävd. De bevarade mindre helbilderna är inte belägg för att originalet är oläsbart.

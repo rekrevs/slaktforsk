@@ -33,3 +33,10 @@ församlingsbokskedja genom åren 1906–1914.
 ## Stödda påståenden
 
 A-2024 och A-2661.
+
+
+## Tillägg 2026-09-07, T-0126: individuell lokal omläsning
+
+Egen rad 1 har titlarna **hemmansägare, nämndeman**, 1844 28/8, Östra Husby och änkling **1/4 91**. Kristendom **b**, nattvard **N**. Husförhörsår läses **08[?], 11, 12**, med **13, 14** skrivna ovanför. Ingen egen flytt-, döds-, värnplikts- eller särskild anmärkning. Dottern Esters lysningsnot och flytt till fol.77 hör till henne. Karl Gottfrid återkommer med eget familjeblock, födelsedatum 1880 17/3 och Häradshammar som inflyttningsort 1910. Dessa rader ger ett hushållssammanhang, inte att alla barn bott obrutet hos fadern.
+
+Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.

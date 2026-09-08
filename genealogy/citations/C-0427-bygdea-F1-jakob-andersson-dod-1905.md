@@ -34,3 +34,23 @@ konflikt med den äldre juliuppgiften och den saknade egna födelseposten.
 ## Stödda påståenden
 
 A-0364, A-0366 och A-2154.
+
+## Fullpost och rättelse 2026-09-08, T-0131
+
+Hela post 67 på den redan bevarade originalbilden har lästs om av två
+oberoende granskare. Döddagen är **3 oktober 1905**, begravningen
+**15 oktober**; födelsetiden anges **1830-04-16**. Namnraden anger
+**Jakob Andersson, f.d. hemmansägare**, med hemvist **Ultervattnet**,
+man, änkling, och hänvisning **824**.
+
+Dödsorsaken läses **`ålderdoms bräcklighet`**. Det är en rättelse av den
+äldre arbetsavskriftens `ålderdomssvaghet`, inte en modern medicinsk
+omtolkning. Kolumnerna 17–18 för bevis/attest, kolumn 19 för annan dödsort
+än hemorten och kolumn 22 för särskilda anteckningar är tomma på hans rad.
+Tom särskild dödsort bevisar inte att han dog i hemmet; Ultervattnet är
+postens hemvistuppgift.
+
+Den äldre kvarhållna födelsekonflikten är ersatt av C-1035:s positiva egna
+födelsepost. Originalbilden och dess SHA-256 ovan återanvänds. Den gamla
+avskriften är historik, och rättelsen gäller A-2154 samt kompletteringen
+A-4338 i P-0094.

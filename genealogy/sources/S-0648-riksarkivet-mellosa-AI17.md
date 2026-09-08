@@ -19,3 +19,8 @@ Jansson och Eva Lotta Jonsdotter till varandra och till två namngivna barn,
 och ger exakta födelsedatum samt födelseorten Mellösa. Uppgifterna är senare
 än födelserna och räcker därför inte ensamma för att identifiera föräldrar;
 de används som precisa söknycklar till födelse- och flyttkällor.
+
+
+## Rättelse och avgränsning i T-0137, 2026-09-08
+
+Den tidigare födelseorten Mellösa är rättad till Stora Malm genom C-1075. Vuxenflytten är 1860 genom C-1092. Egna kunskapsfält och koppor har nu kompletterats i C-0834. Hushållets senare födelseuppgifter är inte egna födelsenotiser.

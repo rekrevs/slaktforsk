@@ -33,3 +33,10 @@ SCB-utdragets post 26 i C-0667.
 ## Stödda påståenden
 
 A-2662–A-2663.
+
+
+## Tillägg 2026-09-07, T-0126: individuell lokal omläsning
+
+Egen överstruken rad 1 har hemmansägare, 1844 28/8, Östra Husby, änkling **1/4 91**, kristendom **b** och nattvard **N**. Husförhörsföljden läses **15, 16, 17[?], 19**; de sista blyertssiffrorna är svaga och bevaras med reservation. Dödsdatum **20 10/9** står i egen dödskolumn. Egna flytt-, värnplikts- och anmärkningsfält är tomma. Karl Gottfrids rad och senare överföringsnummer gäller honom, inte den avlidne fadern.
+
+Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.

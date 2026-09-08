@@ -36,7 +36,7 @@ stavning från det sekundära Ancestry-trädet.
 | A-3362 | Hon bodde 1940–1943 på Johansborg (uppslag 720) med make och två barn födda 1938 och 1940, döpta 1941-11-16, och utflyttade 1943-11-24 till Södertälje stadsförsamling. | TRANSCRIBED | hög | [C-0895](../citations/C-0895-jansson-flen-johansborg-uppslag-720-utflyttning-1943.md) | Inget yrke antecknat; Konsum Flen enligt sonen fortfarande obelagt. |
 | A-3457 | Faderns församlingsbokssida i Hyltinge 1918–1927 antecknar henne uttryckligen: `Fader till flickan Maj Amalia`; hon föddes medan fadern var änkling sedan 1917-05-01 och bodde i Banvaktstugan N:o 70. | CORROBORATED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0028](../citations/C-0028-maj-amalia-originalfodelse-1920.md) | Andra oberoende samtida belägg för faderskapet vid sidan av födelseboken. |
 | A-3469 | Hon dog **2006-10-04** och gravsattes 2006-12-12 i samma gravplats som maken, Södertälje kyrkogård 106 0238. | CORROBORATED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md), [C-0010](../citations/C-0010-ancestry-arne-godvig-jansson.md) | Sekundärträdets `2006` får dag och månad. |
-| A-3470 | Gravregistret skriver henne **Ekholm-Jansson**, en dokumenterad namnform som förenar flicknamnet med det gifta namnet. | TRANSCRIBED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md) | Stöder familjeuppgiften om namnärendet Janson/Jansson (C-0267). |
+| A-3470 | Gravregistret skriver henne **Ekholm-Jansson**, en dokumenterad namnform som förenar flicknamnet med det gifta namnet. | TRANSCRIBED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md) | Registrerad namnform, inte bevis för myndighetsärendet eller övergången till ett s (C-0267). |
 
 ## Relationer
 
@@ -69,13 +69,13 @@ stavning från det sekundära Ancestry-trädet.
 | 1938–1943 | Johansborg, Storgatan 24, s. 860 → uppslag 720; barn födda 1938 och 1940; arbete på Konsum Flen enligt sonen | Flen | inget yrke antecknat; Konsumanställd enligt familjen | make och två barn | C-0894, C-0895, C-0267 |
 | 1943-11-24 | Inflyttning från Flen till Södertälje; Mejseln 3, Täppgatan 25 | Södertälje | — (inget yrke antecknat) | make och två barn | C-0882, C-0884 |
 | 1944 | Mantalsskriven Mejseln 3; flytt till Gondolen 2, Hertig Karls väg 40 | Södertälje | — | make och två barn | C-0883, C-0884 |
-| 1945 | Tredje barnet fött i Södertälje stadsförsamling; bostad Gondolen 2 (Hertig Karls väg 40, av sonen mint som 42) | Södertälje Södra | — | make och tre barn | C-0884, C-0267, C-0885 |
+| 1945 | Tredje barnet fött i Södertälje stadsförsamling; bostad Gondolen 2 (Hertig Karls väg 40, av sonen mint som 42; omnumrering inte belagd) | Södertälje Södra | — | make och tre barn | C-0884, C-0267, C-0885 |
 | 1947 | Flytt till Frödingsvägen 15, stg Ö 452 = Tranbäret 1 | Södertälje | — | make och tre barn | C-0884 |
 | 1949–1951 | Frödingsv 15, Tranbäret 1 enligt registerutdrag | Södertälje | — | make och tre barn | C-0876 (LEAD) |
 | 1940–1980-talen | Scania-Vabis och Konsum; kvällsstudier; sekreterare åt exportchefen; SIF-ledamot, allt enligt sonen | Södertälje | kontorist, sekreterare | — | C-0267 |
 | 1950-talet | Initiativ till namnregistreringen Janson | Södertälje | — | — | C-0267 |
 | 1951–2006 | **Materiell lucka**: boende, yrkesår, änketid | Södertälje | — | — | profil Q-02, Q-03 |
-| 2006-10-04 | **Död**; gravsatt 2006-12-12 i makens grav, Södertälje kyrkogård 106 0238, skriven `Ekholm-Jansson` | Södertälje | — | — | C-0923 |
+| 2006-10-04 | **Död**; gravsatt 2006-12-12 i makens grav, Södertälje kyrkogård 106 0238, skriven `Ekholm-Jansson` | Hemort och gravort Södertälje; dödsort inte belagd av registret | — | — | C-0923 |
 
 ## Biografisk sammanfattning
 
@@ -94,8 +94,7 @@ Scania-Vabis och Konsum, studerade maskinskrivning och stenografi på
 kvällstid, avancerade till sekreterare åt Scania-Vabis exportchef och satt
 i SIF:s styrelse; på 1950-talet tog hon initiativ till att familjens namn
 registrerades som Janson (C-0267). Hushållet i Flen efter vigseln (s. 860)
-är oläst, och hela yrkeslivet vilar på sonens redogörelse. Sekundärträdet
-anger att hon dog 2006 (C-0010). Familjen kallar henne May; kyrkoböckerna
+är oläst, och hela yrkeslivet vilar på sonens redogörelse. SvenskaGravar.se anger död 2006-10-04, gravsättning 2006-12-12 och hemort Södertälje; gravort och hemort är inte dödsplats (C-0923). Familjen kallar henne May; kyrkoböckerna
 skriver Maj.
 
 Öppna materiella frågor och källvägar finns i
@@ -113,3 +112,13 @@ Tidigare rad 2026-09-05 (T-0064), bevarad som historik: - Källbredd: `PÅGÅR` 
 Tidigare rad 2026-09-05 (T-0063), bevarad som historik: Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: Flen s. 860 är en känd oläst sida, och yrkesliv, namnärende och död har genomförbara vägar (profil KP-01–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
 
 Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — identitet, födelse, barndomshushåll, föräldrar och vigsel är original- eller utdragsbelagda och den bevarade namnvarianten är avgränsad; fortsatt namnbruk och integritetskänsliga barnbelägg är villkorliga spår.
+
+### Avgränsad följdrättelse T-0123, 2026-09-07
+
+C-0923:s datum tillgodoräknas, medan hemort, grav, namnform och boendekontinuitet hålls isär. Fullägare T-0150. Ingen full kohortgranskning räknas här. Tidigare formuleringar bevaras nedan som historik:
+
+> | A-3470 | Gravregistret skriver henne **Ekholm-Jansson**, en dokumenterad namnform som förenar flicknamnet med det gifta namnet. | TRANSCRIBED | hög | [C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md) | Stöder familjeuppgiften om namnärendet Janson/Jansson (C-0267). |
+> | 1945 | Tredje barnet fött i Södertälje stadsförsamling; bostad Gondolen 2 (Hertig Karls väg 40, av sonen mint som 42) | Södertälje Södra | — | make och tre barn | C-0884, C-0267, C-0885 |
+> | 2006-10-04 | **Död**; gravsatt 2006-12-12 i makens grav, Södertälje kyrkogård 106 0238, skriven `Ekholm-Jansson` | Södertälje | — | — | C-0923 |
+> är oläst, och hela yrkeslivet vilar på sonens redogörelse. Sekundärträdet
+> anger att hon dog 2006 (C-0010). Familjen kallar henne May; kyrkoböckerna

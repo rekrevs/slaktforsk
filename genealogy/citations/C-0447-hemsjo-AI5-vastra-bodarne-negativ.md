@@ -39,3 +39,12 @@ inte detta äldre, uttryckligen familje- och sidbundna nollresultat.
 ## Stött påstående
 
 A-2192.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+Avgränsningen återbrukas för Catharina i T-0136. Britta Stinas positiva
+sida138 är inte föräldrarnas fortsättning och bevisar ingen föräldraflytt
+eller död. Fyra bevarade fullkopior 8/311/313/319 är hashkontrollerade;
+faktiskt lästa 312/314–318 och gränsbild320 har inte återfunnits lokalt.
+Sju tidigare lästa bilder är därmed konkret kopierest. Ingen ny bred
+sökning eller automatisk geografisk uteslutning genomförs.

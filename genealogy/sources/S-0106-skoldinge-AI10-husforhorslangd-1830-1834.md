@@ -18,3 +18,7 @@ Uppslaget innehåller varken Anna Lisa Jansdotter eller Brita Kajsa och har
 ingen marginalanteckning om barnets far. Kontrollen är avgränsad till det
 förväntade bostället och kan inte utesluta att mor och barn skrevs någon
 annanstans.
+
+## Avstämning 2026-09-08 — T-0137
+
+C-0137:s fulla lokala uppslag finns och har prövats. Säfstugan-nollet står för just den lästa sidan, men C-0126:s nya Säfvesta[?]-läsning gör boställets koppling osäker. Det är inte en säker kontroll av mor och barn vid födelsen 1829. Den äldre registerhänvisningen saknar här preciserat registerbild-id; ingen ny registerbild har påståtts läst.

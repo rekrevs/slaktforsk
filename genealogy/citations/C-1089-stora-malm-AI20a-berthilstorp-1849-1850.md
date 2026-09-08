@@ -61,3 +61,10 @@ transkriberade.
 ## Stödda påståenden
 
 A-4081–A-4084.
+
+
+## T-0137: avstämning 2026-09-08
+
+Kandidatens sex poster rör två församlingar, inte tre; det finns ingen genomgående läst levnadskedja 1832–1846. Tre hushållsposter upprepar 18 september men kan vara informationsberoende. En framtida gemensam destinationssocken räcker inte för identifikation med vuxenhustrun. Kandidatens egna kunskaps-/nattvards-/anmärkningsfält på s.201 återstår i T-0312; kopia T-0311.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

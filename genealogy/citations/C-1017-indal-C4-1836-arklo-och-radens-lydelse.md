@@ -111,3 +111,22 @@ Två iakttagelser:
 
 A-3785–A-3788; rättelse av C-0509:s boställesord, dess `h.`, dess dopdag och
 dess uppskjutna fadderled.
+
+
+## T-0136: egen fullpost och rättelse 2026-09-08
+
+Hela Lars Petters post på den bevarade bilden `C0033077_00137` har nu lästs, inklusive slutet av vittneskolumnen. Föräldraledet är torpmannen Nils Pehrsson i Arklo och `Lisa St: Larsd: 25`; inget `h.` står framför modern. Hon är namngiven mor, men hennes civilstånd är inte uttryckligen angivet. Att senare hustrun förs som `h/2` identifierar inte automatiskt Lisa som den första hustrun och ger ingen dödsgräns.
+
+Födelsekolumnen har rättat **27** över det äldre talet, tidigare läst 29; dopkolumnen **28**. Året och decemberavsnittet är tydliga. Den samtida födelsekolumnen prioriteras; A I/8:s överensstämmande dag är senare bokföring vars oberoende informationsursprung inte är visat. Tidigare ordet ”oberoende” om detta datumstöd begränsas därmed. Arklo är föräldrahemmets ort, inte separat belagd fysisk förlossningsplats.
+
+Hela vittneslistan omfattar åtta personer:
+
+- Bonden Jakob Jakobsson i Östanskär och hans onamngivna hustru.
+- Torparen Erik Gustaf Dahlquist i Mellansätter[?] och hans onamngivna hustru; ortens mittled förblir en prövad läsreservation.
+- Bonden Johan Ersson i Arklo och hans onamngivna hustru.
+- Drängen **Erik Pehr[?] Pehrsson i Arklo**. Två läsare föredrar Pehr framför tidigare Petter; det svaga förnamnsledet reserveras. Rollen dräng är läst.
+- Pigan **Sophia Jonsdotter i Östanskär**, tidigare utelämnad i avskriften.
+
+Namnlikt patronymikon och gemensam ort är en möjlig nätverksnyckel, inte belägg för att drängen är Nils bror. Inga nya släktrelationer eller personakter skapas. Ingen ytterligare egen marginalnot, dopförrättare, kyrktagningsdag eller hälsoanteckning finns i målposten. Svaga råtecken har prövats och är inte kvarlämnade olästa fält.
+
+Fullbilden under C-0509/C-0435 täcker hela posten; SHA-256 `81dd305319ed292ebf888ffe243206abac45303f9c12baeda55d2c6d6bd87b80`. Den äldre Rosenbergkontrollens 38 poster är däremot inte återfunna som svarskopia efter lokal filnamns-, alias- och innehållssökning i mediearkiv och temporärmaterial. Den citerade Arklo-posten och kontrollbeskrivningen består, men en sådan textreferens ersätter inte den saknade relevanta svarskopian. Den direkta handstilsjämförelsen kan göras i den bevarade kyrkoboksbilden.

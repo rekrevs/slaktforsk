@@ -28,3 +28,10 @@ endast kontext och identifierar inte Karl Fredrik eller någon anställd.
 ## Stödda påståenden
 
 A-3154–A-3156.
+
+## Omprövad ingång — T-0131, 2026-09-08
+
+För P-0094 tillkommer C-0425:s marginella 19/128 och 3/16[?] som
+råa ekonomiska söknycklar. De kan användas vid en precist avgränsad
+register-/mantalskontroll, men visar inte ägande eller förmögenhet.
+Oprövade volymer kallas inte generellt analoga; se C-0825:s tillägg.

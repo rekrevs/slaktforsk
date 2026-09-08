@@ -40,3 +40,12 @@ P-0146–P-0147 får därför inte uppgraderas.
 
 A-1431–A-1433.
 
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Två personbundna fullpostprövningar av de bevarade originalen avvisar den äldre säkra identitetsbryggan till P-0058. Degerfors vänstersida gäller **1847**, post 33, drängen Johan Pehrsson till Bjurholm med skadad intern hänvisning enligt C-0313. Filnamnets 1848 avser högersidan. Eget exakt dagdatum kan inte läsas säkert. Bjurholms inflyttningsrad 1847 namnger en dräng Johan Pehrsson från Degerfors till Bastuträsk men saknar födelsedatum och ålder; den egna dateringen är inte tillräckligt säker för en ny daguppgift.
+
+Bastuträsk s 63 innehåller **två** Johan Pehrsson. Den övre raden anger **1814-01-10**, Degerfors, kopporv och grafiskt kunskapsbetyg, från Degerfors och till **Umeå 48**. Den nedre raden anger **1821[?]13/9[?]**, Degerfors, kopporfält utan egen säker uppgift, grafiskt kunskapsbetyg, frejd `ledig[?]`, från `Degerf 47` och till **Wännäs 48**. En N-liknande kyrklig markering under 1848 och råanmärkning `Inh.[?]` hör till den nedre raden. Ingen av raderna visar den tidigare påstådda säkra kombinationen 1824-03-19.
+
+Flyttnamnen kan fortfarande beskrivas som en möjlig förbindelse mellan de två flyttböckerna, men de identifierar inte personen som den senare Johan i C-0205/C-0207. P-0058:s säkra vuxenkedja får därför inte längre räknas tillbaka till 1847 med dessa bilder. Ingen av de två namnlika männen förs automatiskt till P-0058 eller till en ny personakt. Äldre Vännäs- och Degerforsnollor bevaras som faktiskt genomförda kontroller, inte som bevis för att P-0058 vistades i Vännäs.

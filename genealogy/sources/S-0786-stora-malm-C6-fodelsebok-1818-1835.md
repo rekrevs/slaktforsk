@@ -55,3 +55,8 @@ sidorna men löpnummer i 70- och 80-serien med månaderna september–november;
 | `C/9` | 1861–1872 | `A0016301` (bildlänk i MCP) |
 
 `C/8` är den volym som bär dottern **Mathilda Charlotta, född 1855-01-10**.
+
+
+## Rättelse och avgränsning i T-0137, 2026-09-08
+
+Den äldre årskartan ovan är supersederad av den senare personbundna läsningen i C-1077/C-1078: mars 1832 på bilder 128–129, septemberposterna 62/64/65 i namnsvepet 127–135. Övergången mot 1833 på 135 är fortfarande inte verifierad. Den gamla kartan 134–141 används inte som aktuell 1832-routing. C/8:s volymtitel ensam fastställer inte att Mathildas post faktiskt finns där; detta är ännu en sökväg. Saknade kopior ägsT-0311, kandidatens fullpost/årsgräns T-0312.

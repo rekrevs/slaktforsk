@@ -60,3 +60,28 @@ ladugårdsdrängen Per August[?] Nyberg med hustru.
 ## Stödda påståenden
 
 A-0413–A-0415 och A-0490–A-0497.
+
+## Lokal fullbildskontroll 2026-09-07 — T-0125
+
+Det redan bevarade fulloriginalets post 15 har återvisats lokalt. Födelse
+22 juni och dop 20 juli 1890 består. Valsund står i föräldrarnas fält som
+boställe; en särskild fysisk förlossningsplats är inte utsagd.
+Dopvittnesfältet kan nu läsas **Ladugårdsdrängen Per August Nyberg med
+hustru i Valsund**. Den äldre avkortningen Vea[…] och reservationen för
+August avsåg den tidigare utsnittsavskriften. Hustrun namnges inte i fältet;
+ingen hustru eller släkting identifieras från grannrader.
+
+Moderns skrivna namn **Urbom Hulda Amalia** och åldern 40 står kvar.
+Hushållens Adela Amalia Urbom och hennes födelse 1849-08-03 bär
+identifieringen som modern. Systern Hulda Amalia föddes 1877-09-25 och var
+**12 år**, inte 13, vid Karl Alberts födelse 1890-06-22. Ett felskrivet
+förnamn är den välstödda tolkningen; att just prästen kopierade systerns
+namn beskriver däremot en möjlig skrivprocess, inte ett belagt förlopp.
+
+Markeringen **(-2-)** under Karl Alberts dopnamn behöver prövas i
+formulärets system innan den får användas som bestämd barnordning eller
+total barnräkning. **Fol. 102** är en uttrycklig hushållshänvisning vars
+mottagarpost ännu inte är läst. Faderns 39 år, moderns 40 år och Gift 14 år
+är avskrivna. Föräldrarnas exakta vigsel är senare belagd 1876-06-24 i
+[C-0986](C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md); den avrundade
+äktenskapslängden ersätter inte det datumet. Inga nya arkivbilder har sökts.

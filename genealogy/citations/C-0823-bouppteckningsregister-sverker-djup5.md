@@ -31,3 +31,13 @@ arvingar, relationer eller ekonomiska uppgifter infereras.
 ## Stödda påståenden
 
 A-3137–A-3141.
+
+## Personbunden precisering — T-0131, 2026-09-08
+
+För P-0094/P-0095 är namnfrågorna negativa mot positiva namnblanka
+kontroller om 81 respektive 80 poster. Det visar att frågetjänsten gav
+poster inom års-/församlingsfiltret, **inte ett bevisat täckningsgap för
+just dessa personer** och inte att deras bouppteckningar saknas.
+Exakt ansvarig häradsrätt, volym, originalregister och dess åtkomst är
+inte etablerade av dessa registerfrågor. Profilens äldre bestämda
+Nysätra- och läsesalsslutsats ska därför inte återanvändas som prövad väg.

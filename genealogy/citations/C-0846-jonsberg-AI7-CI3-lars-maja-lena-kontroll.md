@@ -48,3 +48,11 @@ men bands till fel personer**.
 **A-3227 och A-3228 förlorar därmed sitt underlag**, liksom folierättelsen
 35 → 55. Båda var förda som `LEAD` med medelhög tillförlitlighet, så ingen
 fastställd relation faller. Texten ovan bevaras oförändrad som revisionsspår.
+
+## Fullpostprövning och rättelse 2026-09-08 — T-0134
+
+Fullbilden s 55 har visats igen: Petter Jansson/Anna Månsdotter är andra personer, och Carolina Carlsdotter är hustru i ett annat hushåll. Inget av sidans datum, födelseorter, flyttar eller strykningar tillhör P0362/P0363. Äldre datum 1809-06-01/1814-03-28 är avvisat underlag, inte längre svaga egna söknycklar. Ingen egen utvinningsskuld ligger i dessa andra personers marginaler.
+
+De båda sparade födelseuppslagen är också visade. C0016246_00049 har slutet av 1808 och 1809 från januari genom september; C0016246_00054 har 1813 och början av 1814 till mars. De är **inte två fullständiga födelseår**. Tidigare datumkontroller bevaras inom respektive exponerat bildfönster, men kan inte stödja att målpersonerna föddes utanför Jonsberg: datumfiltren saknar personbindning. Alla tre fullbilder finns med tidigare registrerade SHA-256; inga egna nya fullbilder behövs för denna rättelse.
+
+C0363:s rå 35 ligger i en separat åldersliknande kolumn, inte en säkert identifierad hänvisning. Äldre uppgift om prövad sida 35 är historik; ingen lokal fullkopia av detta siduppslag återfanns. Den får inte redovisas som en ny originalkontroll.

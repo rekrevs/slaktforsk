@@ -22,7 +22,7 @@ Högsjö, Indal.
 | A-2172 | Cajsa Märta följs med föräldrar och syskon i Säter på Indal A I/6 sida 185 och i nästa längd A I/7 sida 193. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Namn, exakt datum, föräldrapar och ort binder samma barndomshushåll 1836–1854. |
 | A-2173 | Hennes belagda syskonskara i föräldrahemmet omfattar Nils Peter, Lars Johan, Anna Helena, två olika söner Anders Olof samt Erik. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md)–[C-0440](../citations/C-0440-indal-C4-erik-dahlsten-fodd-1847.md) | Dödsposterna skiljer Anders Olof 1842–1843 från den nye Anders Olof född 1844. |
 | A-2315 | Cajsa Märta och Lars Petter Nilsson hade registrerat äktenskapsdatum 1858-02-21. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0511](../citations/C-0511-indal-EI1-lysning-lars-petter-cajsa-marta-1858.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Lysningsnotis och två äktenskapskolumner överensstämmer. |
-| A-2316 | Hon följs som hustru och mor i Högsjö från dottern Lisa Cajsas rad 1858 till familjen med fyra hemmavarande eller överstrukna barn 1892–1900. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Exakt eget datum och makens datum binder hushållen. |
+| A-2316 | Hon är belagd som hustru och mor på Högsjösidan med dottern Lisa Cajsa 1858 och i det senare familjehushållet 1892–1900. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Exakta datum och familjen binder personerna, inte en oavbruten vistelse. C-0510:s hänvisning 225 gäller hennes och dotterns rader; en blek utflyttningsnot med 1858 ger ingen säker destination. |
 | A-2667 | Indal A II a/1 sida 130 fortsätter `Dalsten, Kajsa Märta h.` i Lars Petter Nilssons Högsjöhushåll efter 1900 och anger död 1901-03-05. | TRANSCRIBED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md) | Exakt födelsedatum, vigseldatum och hushåll binder raden till P-0316. |
 | A-2668 | SCB:s dödboksutdrag, Indal post 10, korsbekräftar att Cajsa Märta Dahlsten dog 1901-03-05, född 1834-03-21 och hustru till torparen Lars Petter Nilsson i Högsjö; dödsorsak och dödsort är tomma. | CORROBORATED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | SCB-utdraget är en samtidig avskrift men ger full identitetskedja. |
 | A-3167 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
@@ -136,3 +136,154 @@ rotera breddfronten.
   (C-0358/C-0510; Batch 253).
 - Källbredd 2026-09-04: skatt/mantal `T = S` via Medelpads östra fögderis analoga taxeringsvolymer över Indalsperioden (C-0828; Batch 254).
 - Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).
+
+
+### Aktuell begränsad familjeavstämning 2026-09-08
+
+C-0510:s fullpostprövning skiljer sonfamiljen från Nils Pehrssons och andra hustrun Lisa Stina Jonsdotters egna rader. Hänvisningen 225 och det bleka utflyttningsordet med 1858 hör till den unga familjen; de äldre makarnas 1861-not får inte tilldelas Cajsa Märta. Ingen ny säker flyttdestination tillkommer. [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md).
+
+
+## Historik och rättelser
+
+### Begränsad följdavstämning T-0136, 2026-09-08
+
+Endast följduppgifter från C-0510/C-1017 avstäms. Full individuell granskning ägs fortfarande av [T-0158](../../wotan/dev-log/T-0158.md). Ingen ny profilbedömning eller standardkonsolidering görs här. Föregående fulla text bevaras som historik:
+
+> # P-0316: Cajsa Märta Andersdotter/Dahlsten/Dalsten
+>
+> ## Identitet
+>
+> Mor till Anders Niklas Larsson, namngiven som Cajsa Märta Andersdotter i
+> sonens födelsenotis i Sättna. I folkräkningarna skrivs hennes senare
+> familjenamn `Dahlsten` 1880 och `Dalsten` 1890–1900. Hon dog 1901-03-05 i
+> Högsjö, Indal.
+>
+> ## Påståenden
+>
+> | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
+> |---|---|---|---|---|---|
+> | A-1744 | Cajsa Märta Andersdotter var mor till Anders Niklas, född 1862-06-15 i Sättna. | TRANSCRIBED | hög | [C-0274](../citations/C-0274-anders-niklas-fodd-1862-sattna.md) | Sonens egen födelsenotis. |
+> | A-2021 | Den sannolika hänvisningen `Byn fol. 35` kan inte hushållsprövas i Sättna AI:9a eftersom den fotograferade följden går direkt från sida 34 till 36; gränssidorna och AI:8 sida 35 saknar Cajsa Märta. | NEGATIVE | hög | [C-0358](../citations/C-0358-sattna-AI9a-byn-sida-35-lucka.md) | Exakt sidlucka och avgränsade sidnoll, inte person- eller volymnoll. |
+> | A-2079 | Cajsa Märta anges född 1834 i Indal och följs som Lars Petter Nilssons hustru i Högsjö 1880–1900; namnformen växlar `Dahlsten`/`Dalsten`. | CORROBORATED | hög | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md), [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | Tre samstämmiga folkräkningar; familjenamnet är inte belagt som födelsenamn. |
+> | A-2080 | Exakta folkräkningsfrågor på både `Dalsten` och `Dahlsten` ger hennes kedja 1880–1900 men ingen 1910-post. | NEGATIVE | medel | [C-0392](../citations/C-0392-folkrakningssok-nilsson-dalsten-1910-negativ.md) | Registerfrågenoll; inget döds- eller utflyttningsbelägg. |
+> | A-2081 | Indal AI:10a sida 128, prövad som möjlig direkt fortsättning efter ett angränsande 1880-hushåll, saknar en säker Kajsa Märta-rad. | NEGATIVE | hög | [C-0391](../citations/C-0391-indal-AI10a-hogsjo-sida-128-nilsson-negativ.md) | Exakt sidnoll; inte ett Högsjö- eller volymnoll. |
+> | A-2166 | Cajsa Märta föddes 1834-03-21 i Säter, Indal, och döptes 23 mars. | CORROBORATED | hög | [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md), [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md)–[C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | Samtida födelsepost och tre senare år-/sockenbärare. |
+> | A-2167 | Hennes föräldrar var Anders Dahlsten och Stina Cajsa Larsdotter i Säter. | TRANSCRIBED | hög | [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md) | Dotterns egen födelse- och doppost. |
+> | A-2168 | Namnformerna Andersdotter och Dahlsten/Dalsten förenas av att fadern i födelseposten heter Anders Dahlsten. | CORROBORATED | hög | [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md), [C-0274](../citations/C-0274-anders-niklas-fodd-1862-sattna.md), [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md)–[C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | Patronymikon och faderns släktnamn; stavningsvarianten Dalsten bevaras. |
+> | A-2172 | Cajsa Märta följs med föräldrar och syskon i Säter på Indal A I/6 sida 185 och i nästa längd A I/7 sida 193. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | Namn, exakt datum, föräldrapar och ort binder samma barndomshushåll 1836–1854. |
+> | A-2173 | Hennes belagda syskonskara i föräldrahemmet omfattar Nils Peter, Lars Johan, Anna Helena, två olika söner Anders Olof samt Erik. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md)–[C-0440](../citations/C-0440-indal-C4-erik-dahlsten-fodd-1847.md) | Dödsposterna skiljer Anders Olof 1842–1843 från den nye Anders Olof född 1844. |
+> | A-2315 | Cajsa Märta och Lars Petter Nilsson hade registrerat äktenskapsdatum 1858-02-21. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0511](../citations/C-0511-indal-EI1-lysning-lars-petter-cajsa-marta-1858.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Lysningsnotis och två äktenskapskolumner överensstämmer. |
+> | A-2316 | Hon följs som hustru och mor i Högsjö från dottern Lisa Cajsas rad 1858 till familjen med fyra hemmavarande eller överstrukna barn 1892–1900. | CORROBORATED | hög | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Exakt eget datum och makens datum binder hushållen. |
+> | A-2667 | Indal A II a/1 sida 130 fortsätter `Dalsten, Kajsa Märta h.` i Lars Petter Nilssons Högsjöhushåll efter 1900 och anger död 1901-03-05. | TRANSCRIBED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md) | Exakt födelsedatum, vigseldatum och hushåll binder raden till P-0316. |
+> | A-2668 | SCB:s dödboksutdrag, Indal post 10, korsbekräftar att Cajsa Märta Dahlsten dog 1901-03-05, född 1834-03-21 och hustru till torparen Lars Petter Nilsson i Högsjö; dödsorsak och dödsort är tomma. | CORROBORATED | hög | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | SCB-utdraget är en samtidig avskrift men ger full identitetskedja. |
+> | A-3167 | Indals tingslags F II/5, 1901–1905, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Ingen akt eller personrad är läst. |
+> | A-3181 | Medelpads östra fögderis taxeringsvolymer `/5/113` och `/5/115` täcker Cajsa Märtas säkra Indalsperiod genom dödsåret 1901. | LEAD | hög | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Analog metadataroute; ingen personrad eller skatt är läst. |
+> | A-3663 | Indal F/2:s originalpost 10 år 1901 har **tom dödsorsakskolumn**; tomheten i SCB-utdraget är alltså originalets egen och ingen avskriftsförlust. | CORROBORATED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md) | Kolumnen används i övrigt i volymen, så tomheten är prästens val för ordinära dödsfall. Dödsorsaken finns inte att hämta i Indals dödbok. |
+> | A-3664 | Hon dog **i hemmet i Högsjö**: kolumnen `Dödsort (om annan än hemorten)` är tom i originalposten. | TRANSCRIBED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Tom rubrikstyrd undantagskolumn är en positiv uppgift, inte frånvaro av uppgift. |
+> | A-3665 | Hon begravdes **17 mars 1901**, tolv dagar efter dödsdagen. | TRANSCRIBED | hög | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Ny uppgift; begravningsdatum saknades tidigare helt. |
+>
+> ## Tidslinje
+>
+> | Datum | Händelse | Källa | Anmärkning |
+> |---|---|---|---|
+> | 1834-03-21 | **Född i Säter, Indal**, döpt 23 mars; dotter till **Anders Dahlsten och Stina Cajsa Larsdotter**. | [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md) | **Egen födelsenotis.** Den förklarar också namnfrågan: hon skrivs `Andersdotter` i sonens födelsenotis och `Dahlsten`/`Dalsten` i folkräkningarna — **faderns förnamn var Anders och hans släktnamn Dahlsten**. |
+> | 1836–1854 | Barn i föräldrahushållet i **Säter**, Indal A I/6 sida 185 och A I/7 sida 193, med **sex namngivna syskon**. | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md) | **Två bröder hette Anders Olof.** Dödsposterna skiljer dem: den förste levde 1842–1843, den andre föddes 1844. |
+> | 1858-02-21 | **Gift med Lars Petter Nilsson**; vid lysningen kallas hon **bondedotter i Säter**. | [C-0511](../citations/C-0511-indal-EI1-lysning-lars-petter-cajsa-marta-1858.md) | Datumet står i lysningsnotisen och två äktenskapskolumner. |
+> | 1858 | Dottern **Lisa Cajsa** föds. | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) | |
+> | 1862-06-15 | Sonen **Anders Niklas** föds i **Sättna**; hon namnges där som `Cajsa Märta Andersdotter`. | [C-0274](../citations/C-0274-anders-niklas-fodd-1862-sattna.md) | Direkt ana. |
+> | omkring 1862–1880 | **Övergången Säter–Byn–Högsjö bryts** vid den fysiskt saknade sidan 35 i Sättna A I/9a. | [C-0358](../citations/C-0358-sattna-AI9a-byn-sida-35-lucka.md) | Skanningslucka; de lästa gränssidorna ger ingen säker målrad. |
+> | 1880, 1890, 1900 | Hustru i torparhushållet i **Högsjö**; namnformen skrivs `Dahlsten` 1880 och `Dalsten` 1890–1900. | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md), [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | Familjenamnet är **inte belagt som hennes födelsenamn** — det kommer från fadern. |
+> | 1858–1900 | **Sex barn**: Lisa Cajsa, Anders Niklas, Nils Petter, Lars Olof, Katarina Petronella och Erik Emanuel. | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | |
+> | 1901-03-05 | **Död i hemmet i Högsjö** som hustru till torparen Lars Petter Nilsson. | [C-0668](../citations/C-0668-indal-AIIa1-hogsjo-sida-130-nilsson-dalsten.md), [C-0669](../citations/C-0669-scb-indal-cajsa-marta-dod-1901.md), [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Församlingsbok, SCB-utdrag post 10 och **originalets dödbok F/2** korsbekräftar dag, exakt födelsedatum, make och ort. **Dödsorsaken registrerades aldrig** — kolumnen är tom även i originalet. Att dödsortskolumnen `om annan än hemorten` är tom visar att hon dog **på hemorten**. |
+> | 1901-03-17 | **Begraven.** | [C-0984](../citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md) | Tolv dagar efter dödsfallet. Ny uppgift ur originalet. |
+>
+> ## Biografisk sammanfattning
+>
+> Cajsa Märta föddes den **21 mars 1834 i Säter i Indal** och döptes två dagar
+> senare, dotter till **Anders Dahlsten och Stina Cajsa Larsdotter**.
+>
+> Hennes namn ser i källorna ut som två personers. Sonens födelsenotis kallar
+> henne `Cajsa Märta Andersdotter`; folkräkningarna skriver `Dahlsten` 1880 och
+> `Dalsten` 1890–1900. Hennes **egen födelsenotis förenar formerna**: fadern
+> hette Anders **och** bar släktnamnet Dahlsten, så patronymikonet och
+> familjenamnet kommer från samma man. Familjenamnet är alltså inte belagt som
+> hennes eget födelsenamn — hon ärvde faderns.
+>
+> Hon växte upp i **Säter** med sex syskon, följd genom två husförhörslängder
+> 1836–1854. En detalj i den syskonskaran visar hur noga arbetet gjorts: **två
+> av bröderna hette Anders Olof**. Dödsposterna skiljer dem åt — den förste
+> levde bara 1842–1843, och den andre föddes 1844 och fick samma namn. De är
+> förda som två skilda personer, inte som en.
+>
+> Den **21 februari 1858**, tjugotre år gammal, gifte hon sig med **Lars Petter
+> Nilsson**; vid lysningen kallas hon **bondedotter i Säter**. Samma år föddes
+> den första dottern, och 1862 sonen **Anders Niklas** i Sättna.
+>
+> Var familjen bodde mellan Sättna och Högsjö går inte att avgöra: hushållet
+> hänvisas till `Byn fol. 35`, och **den sidan saknas fysiskt i den
+> fotograferade följden**. Från 1880 finns de däremot i **Högsjö**, där hon
+> levde som torparhustru till sin död.
+>
+> Hon fick **sex barn** och dog den **5 mars 1901**, sextiosex år gammal.
+>
+> Dödsorsakskolumnen i SCB-utdraget är tom, och länge var den öppna frågan om
+> uppgiften gått förlorad i avskriften. Indals egen dödbok **F/2** stoppades av
+> en människeverifiering på katalogsidan. Den 6 september 2026 öppnade sidan
+> **utan verifiering**, och posten kunde läsas i original: kolumnen är tom där
+> också. Prästen förde in dödsorsaker på andra rader i samma volym, så tomheten
+> är ett faktiskt val för ordinära dödsfall. Orsaken finns inte att hämta.
+>
+> Originalet gav ändå två nya uppgifter. Kolumnen `Dödsort (om annan än
+> hemorten)` är tom, vilket enligt rubriken betyder att hon **dog hemma i
+> Högsjö**. Och hon jordades den **17 mars 1901**, tolv dagar efter
+> dödsfallet.
+>
+> ## Relationer
+>
+> | Person | Relation | Status | Belägg |
+> |---|---|---|---|
+> | [P-0315 Lars Petter Nilsson](P-0315-lars-petter-nilsson.md) | make | CORROBORATED | C-0274, C-0388–C-0390, C-0668–C-0670 |
+> | [P-0254 Anders Niklas Larsson](P-0254-anders-niklas-larsson.md) | son | CORROBORATED | C-0274, C-0388–C-0389 |
+> | [P-0375 Anders Dahlsten](P-0375-anders-dahlsten.md) | far | CORROBORATED | C-0434, C-0274, C-0388–C-0390 |
+> | [P-0376 Stina Cajsa Larsdotter](P-0376-anna-cajsa-larsdotter.md) | mor | CORROBORATED | C-0434, C-0274, C-0388–C-0390 |
+> | [P-0377 Nils Peter, son till Anders Dahlsten](P-0377-nils-peter-son-till-anders-dahlsten.md) | bror | CORROBORATED | C-0436–C-0437 |
+> | [P-0378 Lars Johan, son till Anders Dahlsten](P-0378-carl-johan-son-till-anders-dahlsten.md) | bror | CORROBORATED | C-0436–C-0437 |
+> | [P-0379 Anna Helena, dotter till Anders Dahlsten](P-0379-anna-helena-dotter-till-anders-dahlsten.md) | syster | CORROBORATED | C-0436, C-0438 |
+> | [P-0380 Anders Olof, son 1842–1843](P-0380-anders-olof-son-1842-1843.md) | bror | CORROBORATED | C-0436, C-0438 |
+> | [P-0381 Anders Olof, son född 1844](P-0381-anders-olof-son-fodd-1844.md) | bror | CORROBORATED | C-0436–C-0437, C-0439 |
+> | [P-0382 Erik, son till Anders Dahlsten](P-0382-erik-son-till-anders-dahlsten.md) | bror | CORROBORATED | C-0437, C-0440 |
+> | [P-0406 Lisa Cajsa Larsdotter](P-0406-lisa-cajsa-larsdotter.md) | dotter | TRANSCRIBED | C-0510 |
+> | [P-0407 Nils Petter Larsson](P-0407-nils-petter-larsson.md) | son | CORROBORATED | C-0388, C-0512 |
+> | [P-0408 Lars Olof Larsson](P-0408-lars-olof-larsson.md) | son | CORROBORATED | C-0388, C-0390, C-0512 |
+> | [P-0410 Erik Emanuel Larsson](P-0410-erik-emanuel-larsson.md) | son | CORROBORATED | C-0390, C-0512 |
+> | [P-0409 Katarina Petronella Larsdotter](P-0409-katarina-petronella-larsdotter.md) | dotter | CORROBORATED | C-0388, C-0512 |
+>
+> ## Forskningsstatus
+>
+> Den centrala livslinjen är nu sluten från egen födelse till död
+> 1901-03-05. Indal A I/6 sida 185 och A I/7 sida 193 följer
+> henne med föräldrar och sex namngivna syskon i Säter genom 1836–1854; E I/1
+> namnger henne som bondedotter i Säter vid lysningen 1858. A I/8 och A I/12
+> förlänger hennes egen familj och tillför fem barn utöver Anders Niklas.
+> A II a/1 och SCB:s post 10 korsbekräftar dödsdagen, exakt födelsedatum,
+> maken och Högsjö; dödsorsak och dödsort är inte registrerade. Indal F/2 är nu
+> **läst i original**: åtkomsthindret i C-0671 fanns inte längre 2026-09-06,
+> och posten bekräftar församlingsbokssidan 130, visar att dödsorsakskolumnen
+> är tom även i originalet och att hon dog på hemorten, samt ger
+> begravningsdagen 1901-03-17 (C-0984). Dödsorsaksfrågan är därmed avgjord
+> inom källan. Sättna A I/9a sida 35 saknas
+> fortfarande, och den prövade Indal A I/10a sida 128 var inte rätt
+> hushållssida. Den fulla flyttkedjan är sekundär biografisk berikning;
+> rotera breddfronten.
+>
+> ## Arbetsläge
+>
+> - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-242--t-0027-konsolidering-av-p-0312p-0316)
+> - Källbredd 2026-09-04: bouppteckning `B = S` via Indals tingslag F II/5,
+>   1901–1905; endast katalogmetadata är läst (C-0827; Batch 252).
+> - Källbredd 2026-09-04: flytt `M = N`. Säter–Byn–Högsjö-kedjan bryts vid
+>   den fysiskt saknade Sättna A I/9a sida 35; lästa gränssidor ger ingen
+>   säker målrad. Nollutfallet gäller bara denna sida/övergång
+>   (C-0358/C-0510; Batch 253).
+> - Källbredd 2026-09-04: skatt/mantal `T = S` via Medelpads östra fögderis analoga taxeringsvolymer över Indalsperioden (C-0828; Batch 254).
+> - Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).

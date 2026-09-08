@@ -12,6 +12,7 @@ sidoperson och inte längre säker ana.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2042 | Anna Stina Ericsdotter var mor till Olaus, född 1854-01-12 i Brattås. | CORROBORATED | mycket hög | [C-0367](../citations/C-0367-stora-lundby-C4-olaus-1854.md), [C-0368](../citations/C-0368-stora-lundby-AI11-brattas-olaus.md) | Födelsebok och senare hushåll sammanfaller. |
+| A-4284 | Hushållsboken uppger Anna Stina född 1812 och död 24 maj 1859, med dagreservation vid originalomläsningen. | TRANSCRIBED | medel | [C-0368](../citations/C-0368-stora-lundby-AI11-brattas-olaus.md) | Födelsetecknet 11/5 är också osäkert; egen dödpost är oläst. T-0254 äger maj 1859. |
 
 ## Relationer
 
@@ -24,3 +25,10 @@ sidoperson och inte längre säker ana.
 
 Sidoperson från en motsagd kandidatfamilj. Egna föräldrar och ursprung följs
 inte inom den fasta 32-personerskohortens breddmål.
+
+## Begränsad följdavstämning från T-0128
+
+2026-09-08: C-0368:s egna datumfält tillför en uppgiven födelse 1812
+och död i maj 1859, med läsreservationer. Full profil och standardisering
+införs uttryckligen i personens fasta kohort T-0144; denna minimala
+följdrad är ingen fullgranskning. Brattåsbarnet är fortsatt skilt från P-0336.

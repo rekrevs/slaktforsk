@@ -32,3 +32,7 @@ som en retrospektiv uppgift.
 ## Stödda påståenden
 
 A-1954, A-2199 och A-2200.
+
+## Tillägg vid konsolidering T-0126, 2026-09-07
+
+Originalavstämning av båda makarnas egna rader: Abraham r1 och Stina r3 har koppor `v`, kunskapskolumnerna11–12 `c`/`N`, bakåthänvisning `Gb178` och framåt `NB384`. Abrahams kol13–15 är tomma. Stinas kol13 innehåller ett svagt årtal `1901[?]`, prövat i förstoring; hennes kol14–15 är tomma. Årtalet normaliseras inte säkrare än bilden medger. Sidrubrikens mantal avser sidans gårdsmiljö och tilldelas inte Abraham eller Stina som egen andel. Döttrarnas ägar- och lysningsnoter är deras, inte moderns. Folio178 är en positiv hänvisning till tidigare bok och behöver följas för mellanperioden; det är ingen redan läst sida.

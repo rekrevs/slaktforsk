@@ -98,3 +98,9 @@ kandidatfamiljens strykning 1852 till den vuxne Erik 1875–1876.
 
 Fulloriginal och individuella checksummor redovisas i
 [C-0725](../citations/C-0725-halla-C2-B1-AI7-bjornlunda-AI11-carl-eric.md).
+
+## T-0139: avstämning och proveniensgräns
+
+[C-0798](../citations/C-0798-halla-C2-carl-fredrik-ella-ersdotter.md) innehåller full födelsepost med modersålder 28 och dopnätverk. Den gamla födelseårgångsnegationen är upphävd av den positiva posten, medan de exakta övriga nollen behåller sina tidigare gränser.
+
+Uppgiften om **37 visuellt kontrollerade nominerade namnträffar** innebär inte automatiskt 37 unika bilder. Efter filnamns-/alias-/lokalmetadata-/tmpkontroll har bara den explicit länkade Björnlundabilden 189 återfunnits som bild; någon fullständig lista över de tidigare visuella öppningarna har inte återfunnits. [T-0324](../../wotan/dev-log/T-0324.md) ska identifiera och deduplicera den gamla nomineringen innan en kopiemängd fastställs. Ingen ny generell omläsning av 382 bilder beställs och inga nya noll hävdas.

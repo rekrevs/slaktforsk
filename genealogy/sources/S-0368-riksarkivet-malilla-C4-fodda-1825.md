@@ -22,3 +22,7 @@ Den samtida födelse- och dopposten är huvudbelägg för datum, dop, föräldra
 och faderns yrke. Den senare namnformen **Karl** och födelseuppgiften
 korroboreras av Högby A I/8, men föräldrarnas identiteter bygger tills vidare
 på denna enda relationbärande originalpost.
+
+## T-0136: avstämning 2026-09-08
+
+C-0465:s hela relevanta post inklusive fyra faddrar och råtal28 har återlästs i T-0136; tidigare uppskjuten vittnesutvinning är avslutad. Se C-0465/C-1015/C-1028:s daterade tillägg.

@@ -43,3 +43,12 @@ vistelseort vid vigseln.
 ## Stödda påståenden
 
 A-0820.
+
+## Senare positiv vigselpost — T-0132, 2026-09-08
+
+Den avgränsade negativa kontrollen i Bettna och Sköldinge bevaras som
+historiskt sökresultat. Den ovan kvarstående frågan om vigselförsamlingen
+är däremot löst genom [C-0154](C-0154-erik-anna-ardala-C7-vigsel-1876.md):
+parets egen vigselpost i Årdala anger 17 september 1876. Det äldre
+återaktiveringsbehovet för att finna vigselförsamlingen är därför ersatt;
+nollresultatet bevisade inte i sig den positiva orten.

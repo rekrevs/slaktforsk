@@ -31,3 +31,23 @@ Familia-transkriptionsbilder ligger kvar i C-0605.
 
 A-2595.
 
+
+
+## Egen bildgräns och fullfältsrest — T-0138, 2026-09-08
+
+Den bevarade skärmbilden har lästs på nytt. Kolaren Henric Henricssons
+rad visar födelsedatum 1796 2/11 och ett födelseortsfält som läses
+**Ljust.[?]**, samt en punktgrupp i kunskapsfältet. Hans koppor-, giftoår-,
+frejd-, varifrån-, varthän- och anmärkningsfält saknar egen läsbar saknot
+i utsnittet. Son-/dotter- och giftermålsuppgifter på lägre rader tilldelas
+inte honom. Databasens födelseförsamlingsvärde **Lagfors Bruksförsamling**
+i C-0593d/f skiljer sig från den reserverade originalavläsningen; ingen
+säker födelseort beslutas på denna skillnad.
+
+Skärmbilden omfattar vänstra sidans namn till anmärkningar. Högersidans
+egna årskolumner är inte synliga och den äldre texten ovan utvinner inte
+dem. Det är en faktisk fullfältsrest för P-0451, utöver kopieresten för
+de tre tidigare öppnade fullbilderna C0033097_00044–00046. Båda hanteras
+inom redan befintliga [T-0263](../../wotan/dev-log/T-0263.md), utan en
+parallell återhämtningsuppgift. Britas avgränsade sidnoll identifierar
+varken hennes dödsdag eller en egen oläst positiv Britarad.

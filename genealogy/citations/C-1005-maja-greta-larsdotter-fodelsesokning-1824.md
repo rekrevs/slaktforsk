@@ -120,3 +120,18 @@ ortsuppgiften sammanfaller sex uppgifter med kandidaten, och läget är
 
 Detta avsnitt är tillagt; texten ovan står kvar oförändrad som den
 observation den var.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+T-0118 avgränsar de äldre formuleringarna. Nollresultatet gäller de
+beskrivna originalpassagernas dag/namn, inte ett oberoende bevis för att
+ingen Maria/Maja föddes någonstans i församlingen. Mofallatabellens
+februarirad `30/1` innehåller ett omöjligt kalenderdatum och ska inte
+normaliseras utan originalkontroll; den är en dokumentationsavvikelse,
+inte en identifierad ny födelsepost. Kyrkefallas målpost22/23mars har
+kända föräldrar men dopvittnen är ännu inte fullständigt utvunna, T-0116.
+
+C-1007 har senare fastställt kopplingen till Årebolets familj. Denna
+citations äldre kandidatstatus och Wolebäckpremiss är supersederade.
+Moderns ålder26år vid1824-03-22 är en källuppgift; senare1799-03-01 skulle
+ge25fullaår. Det är ingen exakt samstämmighet eller styrkt födelsedag.

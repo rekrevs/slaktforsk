@@ -25,3 +25,16 @@ bevaras; 1910-posten används inte för att tyst rätta någondera formen.
 ## Stödda påståenden
 
 A-2289–A-2290 och A-2296.
+
+## Fullpostavstämning — T-0132, 2026-09-08
+
+Den lokala fullbilden har lästs på nytt. Vilhelmsros tre egna rader
+anger Karlsson Erik, **arbetskarl**, född 1851 Bettna, hustrun Sjöberg
+Matilda Charlotta, född 1860 Björkvik, samt **fosterS. Sven Arne**, född
+1898 Flen. Giftesmarkeringarna gäller paret; fostersonen står som ogift.
+Egen lytes-, främmande nationalitets- och trosbekännelsenot saknas.
+Födelseår och ort upprepas här, inga fullständiga födelsedatum anges.
+Namnformen Arne kvarstår som verklig källavvikelse mot Arvid; den läses
+inte bort genom hushållssammanfallet. Yrket arbetskarl ska tillgodoräknas
+framför en obruten torpartitel genom hela livet. Kolumnernas grafiska
+klassificeringskoder används inte som belägg för lön eller förmögenhet.

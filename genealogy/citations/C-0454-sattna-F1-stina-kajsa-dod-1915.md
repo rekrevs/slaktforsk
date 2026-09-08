@@ -32,3 +32,7 @@ födelsebok: posten den 13 februari 1844 där heter Stina Brita.
 ## Stödda påståenden
 
 A-1949, A-2201 och A-2202.
+
+## Tillägg vid konsolidering T-0126, 2026-09-07
+
+Hela egenpost40 har kontrollerats i lokal originalbild. Namn, födelsedatum, gift civilstånd, församlingsbok384, dödsdag2december1915, orsak `Ålderdoms svaghet` och begravning12december bekräftas. Egen kol19, `Dödsort (om annan än hemorten)`, är tom, liksom attestkolumner17–18 och särskilda anteckningar22. Storbränna anges i identitetsfältet som makens/hushållets hemort. Den tomma dödsortskolumnen tillför ingen separat explicit dödsplats eller sjukhusuppgift; akten skiljer därför hemort från säkert utskriven dödsort. Ingen egen sjukdomshistoria före dödposten utvinns ur orsaksordet.

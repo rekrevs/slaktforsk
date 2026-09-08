@@ -34,3 +34,8 @@ A I/8. Säter sida 193 innehåller ett separat,
 positivt Dahlsten-hushåll som namn- och datummässigt fortsätter A I/6 sida
 185. Säter-avsnittets gränser 192–206 är kartlagda, men endast det relevanta
 familjeoriginalet bevaras i mediearkivet.
+
+
+## T-0136: avstämning 2026-09-08
+
+C-0514:s tio Högsjöfullbilder är återfunna med matchande hashes. Den där åberopade gränssidan 96/Krånge är däremot ännu inte återfunnen efter lokal aliasprövning; T-0301 äger exakt denna kopiepassage. Söknollet gäller målgruppen inom 86–95, inte hela volymen eller allas personfrånvaro.

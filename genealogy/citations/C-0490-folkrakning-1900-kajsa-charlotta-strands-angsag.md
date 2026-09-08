@@ -20,3 +20,8 @@ arbetaränka i ett eget hushåll.
 ## Stött påstående
 
 A-2272.
+
+
+## T-0142: personbunden fullpostprövning 2026-09-08
+
+Den bevarade hela vyn `Folk_022005-009` har återlästs med rubriker. Kajsa Charlotta Persson, född Jonsdotter, står med egen hushållssiffra 1, yrkes-/ställningsuppgift arbetaränka, födelseår 1825, Umeå landsförsamling och markering för kvinnlig änka. Eget kombinerat lytes-/religionsfält är tomt. Tomrummet bevisar varken frånvaro av sjukdom eller ett särskilt samfund. Strands ångsåg är platsuppgiften i den angivna registerposten; utdragets fortsättningssida är ingen fristående fastighets- eller ägarhandling.

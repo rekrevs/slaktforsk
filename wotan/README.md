@@ -248,3 +248,17 @@ Agenten får inte besöka eller använda ArkivDigital, inklusive dess webbplats
 eller program, för sökning, katalogkontroll eller originalåtkomst. Ägaren kan
 själv lämna utdrag för jämförelse med projektets källor. Ett sådant utdrag
 medger inte åtkomst till tjänsten. Se PCD-2026-09-05-011.
+
+## Prioriterad personaktsgranskning
+
+Enligt PCD-2026-09-07-026 går programmet T-0112–T-0115 med dess
+kohortuppgifter före fortsatt frontforskning. T-0083:s batch 519 bevaras;
+READY betyder här körbar men lägre prioriterad. Följ programordningen i
+backloggen och beakta T-0110 före slutrevisionen.
+
+Använd [granskningsmallen](templates/person-review-task.md) och
+[aktstandarden](../genealogy/person-standard.md) vid konsolidering. Granska
+format, innehållskonsistens och personkontrakt separat. Ett materiellt fynd
+kräver avstämning av berörda aktuella texter och profiler före DONE;
+registrera avgränsat beslutat följdarbete i Wotan. Äldre sakligt tillräckliga
+resultat tillgodoräknas, men enbart formatering ger inget kontraktsgodkännande.

@@ -71,3 +71,7 @@ Källans strukturerade läsresultat finns i
 ## Stödda påståenden
 
 A-3066–A-3068.
+
+## T-0139: avstämning och proveniensgräns
+
+Födelsepostens modersålder är 28,inte 23. Fullt dopnätverk är prövat med råreservationer och utan släktinferens. April/juli mot egen 1840 attest kvarstår, men många senare HFL-juliläsningar var fel. Se [C-0798](../citations/C-0798-halla-C2-carl-fredrik-ella-ersdotter.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.

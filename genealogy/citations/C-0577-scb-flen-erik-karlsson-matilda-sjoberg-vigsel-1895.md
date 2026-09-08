@@ -32,3 +32,9 @@ lysningsvägen; inget innehåll ur den volymen är ännu läst.
 ## Stödda påståenden
 
 A-0549, A-0558, A-2508 och A-2741–A-2742.
+
+## Fullpostprövning och rättelse — T-0143, 2026-09-08
+
+Hela SCB-sidan och parets post 5 har granskats. Matilda står **piga derstädes**, med syftning på Eriks Bergatorp i raden ovan, inte piga i Karsäter. Karsäter är en äldre avskriftsfelläsning och får inte användas som säker ortsnyckel. Erik är torpare och markerad änkling. Formulärets antal äktenskap anger **2** för honom och **1** för Matilda. Vigseln är 28 december 1895; makarnas födelsedata är 30 januari 1851 respektive 8 augusti 1860.
+
+Vigselförrättaren är komministern `M. A. Hallström[?]`; namnformen reserveras. Kolumnen om vigsel räknad till församlingen har markering, medan parets egen åldersdispens och särskilda anmärkningar är tomma. Ingen egen lysningsdag eller föräldrarad finns i SCB-formuläret. Kyrklig förrättare är belagd, men exakt geografisk vigselplats utöver församlingens registrering framgår inte. Den analoga P I/1-vägen kvarstår endast som en tidigare prövad möjlig komplettering, inte en oläst digital egenpost.

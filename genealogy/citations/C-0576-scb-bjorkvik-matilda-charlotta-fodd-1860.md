@@ -31,3 +31,9 @@ raden; deras egna födelser och respektive föräldrar är öppna.
 ## Stödda påståenden
 
 A-0557, A-2505–A-2507, A-2515.
+
+## Fullpostprövning och rättelse — T-0143, 2026-09-08
+
+Hela den bevarade sidan och post 75 har granskats. Födelsen är 8 augusti 1860, flickan Matilda Charlotta, markerad som levande och inom äktenskap. Föräldraraden läses **Sjöberg, Gustaf, Dräng i Stenkulla / Wif. Stina Lotta**. Moderns ålder är **20**, inte 30. Stenkulla och 20 har också prövats oberoende. De äldre formerna Bokulla och 30 ovan är avskriftsfel, inte motstridiga originaluppgifter.
+
+Modern är markerad gift; förlossningsbiträdets råform är `Ex.` [förkortningen utvecklas inte]. Egen särskild anmärkning och särskild nedkomstort utanför hemorten är tomma. SCB-formuläret har ingen egen dopdag eller vittneslista; sådana uppgifter har inte utelämnats ur denna post. Stenkulla är föräldrarnas hemvist och behöver inte vara det exakta födelsehuset. Namnet Stina Lotta saknar efternamn här. Datum, kön och föräldrapar är källans uppgifter; länken till den senare vuxna Matilda bygger också på namn och exakt födelsedata i C-0577/C-0579.

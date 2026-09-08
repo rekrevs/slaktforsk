@@ -101,3 +101,19 @@ kanoniska modellen.
 ## Stödda påståenden
 
 A-3744, A-3745, A-3746, A-3747, A-3748.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+Tabellens1799¹/₃ för Stina normaliseras1799-03-01 enligt C-1048/A-3907,
+inte slutsatsstyckets1799-01-03. Egen födelsenotis saknas fortfarande.
+Åldern26år1824 iC-1005 är inte exakt förenlig med1799-03-01(25fullaår).
+Föräldrakopplingen till Maja Greta består genom familj, ort och flytt,
+men detta åldersfält räknas inte som oberoende bekräftelse av året.
+
+1824års22mars har företräde som egen samtida födelseuppgift. Att
+senare28mars/åldersuppgift beror på avskrift är en källkritisk bedömning;
+precis vem som kopierat vilken bok är inte direkt belagt. Volymen1842–1851
+visar inte ensam obrutet boende1824–1842. Gårdsrubriken är delvis avskuren;
+Johannes Ericsons eventuella andel, förvärvstid och koppling till giftermålet
+behöver ytterligare belägg. Ingen automatisk arvsgång följer av rubriken.
+Anders Petters `50 se nedan` är en oläst direkt fortsättning, T-0116.

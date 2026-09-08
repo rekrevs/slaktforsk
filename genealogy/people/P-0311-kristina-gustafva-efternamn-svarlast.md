@@ -35,7 +35,7 @@ osäkra läsningen `Wingberg[?]` i sonens födelsenotis är löst av flera tydli
 | 1840–1850-talen | Barn i **komministerhushållet i Skåningsmåla**, Bäckebo, med bröderna **Anders Gustaf Emanuel, Frans August, Carl Adolf och Johan Eugen**. | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Alla fyra bröder har egna personposter; deras egna födelsenotiser är inte lästa. |
 | 1862-09-07 | **Lyst i Källa**, dit familjen flyttat med faderns tjänst. Hon skrivs **`Högädla Jungfrun Christina Gustafva Ringberg i Källa`**, och **fadern antecknade själv sitt samtycke**. | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Hon var **19 år**, så giftomannasamtycket är väntat. |
 | 1862-09-26 | **Vigd i Källa prästgård** med kronolänsmannen Carl August Carlman; första giftet för båda. | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Vittnen var **prosten i Högby, lektor P. M. Ehrlandsson[?] med fru och vice häradshövdingen A. Wellin[?]** — namnen är osäkert lästa och ges **inga personposter**. |
-| 1863–1872 | **Sex barn** föds i Gasa; det äldsta sex månader efter vigseln. | [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md), [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md) | |
+| 1863–1872 | **Sex tidigare namngivna barn** föds i Gasa; det äldsta sex månader efter vigseln. | [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md), [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md) | |
 | 1866-11-08 | Sonen **Johan Fredrik Villehad** föds i Högby. | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Direkt ana. Notisens osäkra namnform `Wingberg[?]` är löst till **Ringberg** av flera tydliga källor. |
 | 1874-03-30 | **Död i Gasa** av **`Nervfeber`**, 30 år 6 månader och 3 dagar gammal; begravd 5 april. | [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md) | Historisk källterm utan modern medicinsk omtolkning. Datumet står i **både husförhörslängden och dödboken**. |
 | 1874–1882 | **En bouppteckning efter henne upprättades.** | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Vid makens omgifte i Kalmar 1882 antecknades `Bouppteckning och arfskifte uppvisadt` — ett **positivt belägg för att handlingen fanns**. Den exakta volymen är Ölands norra mots häradsrätt **F II/75, 1872–1875**; akten är oläst. |
@@ -60,8 +60,7 @@ kronolänsmannen **Carl August Carlman**. Vigselnotisen räknar upp vittnena:
 prosten i Högby, en lektor med fru och en vice häradshövding. Det var ett
 bröllop mellan två tjänstemannafamiljer.
 
-I **Gasa i Högby** födde hon **sex barn** på tio år — det äldsta kom sex
-månader efter vigseln, det yngsta 1872. Sonen **Johan Fredrik Villehad**,
+Familjehushållen i **Gasa i Högby** ger sex tidigare namngivna barn 1863–1872. C-0395 har dessutom en överstruken sista barnrad, preliminärt Sigrid Ragnhild[?], född och död 1874. Totalt barnantal är därför inte avgjort. Sonen **Johan Fredrik Villehad**,
 född i november 1866, är den direkta anan.
 
 Den **30 mars 1874** dog hon av `nervfeber`, trettio år, sex månader och tre
@@ -115,3 +114,13 @@ före kohortens breddmål.
   (C-0466–C-0467/C-0533/C-0355; Batch 253).
 - Källbredd 2026-09-04: skatt/mantal `T = S` via den exakta analoga fonden för Ölands norra mots fögderi; ingen årsvolym eller personrad är läst (C-0828; Batch 254).
 - Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).
+
+## Följdavstämning T-0124
+
+T-0124: C-0395 rad 9 har preliminärt Sigrid Ragnhild[?], född 1874 6/3[?], död 13/3 74[?]. Äldre sex namngivna barn är inte ett fullständigt livstotal. T-0230 äger den fasta öppnade familjeposten; inget nytt P-id eller säkert datum tillförs. Full persongranskning ligger kvar i T-0156.
+
+Tidigare formuleringar, ersatta i berörd aktuell text:
+
+> **Sex barn** föds
+> I **Gasa i Högby** födde hon **sex barn** på tio år — det äldsta kom sex
+> månader efter vigseln, det yngsta 1872.

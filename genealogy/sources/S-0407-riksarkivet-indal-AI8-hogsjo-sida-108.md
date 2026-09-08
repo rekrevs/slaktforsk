@@ -21,3 +21,8 @@ C/4. Faderns nuvarande hustru står uttryckligen som `h/2`; hon får därför
 inte göras till Lars Petters biologiska mor. Barnets födelsepost används för
 föräldraparet, medan husförhörslängden används för hushåll, födelsedata,
 äktenskapskolumn och relationstermer.
+
+
+## T-0136: avstämning 2026-09-08
+
+Fullpostprövningen i C-0510/C-1018 den 2026-09-08 rättar andra hustruns namn till Lisa Stina Jonsdotter. Christina är äldre felläsning. h/2 består, men identifierar inte automatiskt Lisa Stina Larsdotter som första hustru och daterar inte hennes död. Paret har egen nattvard 1861-07-22; egna flytt-, frejd- och anmärkningsfält är tomma. Sonfamiljens 225/1858 förblir deras egna nycklar.

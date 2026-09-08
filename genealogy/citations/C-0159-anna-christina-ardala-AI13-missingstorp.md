@@ -34,3 +34,24 @@ säkert ortspåstående; nästa säkra led är Långviken i C-0158.
 ## Stödda påståenden
 
 A-0812 och A-0826.
+
+## Full egen rad och Sannerbyhänvisning — T-0132, 2026-09-08
+
+Anna Christinas rad 20 är prövad i fullbild och förstoring. Den anger
+1852 21/3 Årdala, från **Forssa 1872 20/10**, attest 22, och till
+**Sannerby, sida 183, år 1874**. Den mindre dag-/månadsnoteringen vid
+avgången är inte säkert läst och normaliseras inte. Det är en
+positiv sidohänvisning som ska skiljas från Långvikens från Misstorp 74;
+Sannerbyledet är inte redan sakligt läst i denna citation.
+
+Egna koppor-/läskolumner har v och grafiska tecken. Förhörs- och
+nattvardsfält har bland annat 1872 1/9 och 1873 8/11 samt svårlästa
+bokstavs-/streckmärken. Märkenas moderna innebörd lämnas öppen.
+Hennes vigsel-, döds- och frejdfält är tomma. Olof Olssons titel
+Nämndeman högre upp på sidan tillhör honom, inte henne eller hennes far.
+
+Sidans ägarhushåll är Olof Olsson och Maria Marg. Andersdotter. Övriga
+dräng- och pigrader är separat förda tjänstepersoner, bland dem
+Alexander Andersson, Alfred Brandqvist, Lovisa Math. Sjöstedt och
+Math. Carolina Wasberg. Flera namn och små datumtecken är svårlästa;
+ingen släktrelation eller sammanförd person skapas av närheten.

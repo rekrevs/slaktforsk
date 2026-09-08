@@ -11,7 +11,7 @@ barndomshushåll.
 |---|---|---|---|---|---|
 | A-0218 | Namnet var Anna Fredrika Jakobsdotter. | CORROBORATED | hög | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Barnkällorna skriver bara förnamnen; patronymikon följer av fadern och skrivs ut i vuxenkällorna. |
 | A-0219 | Hon föddes 1872-02-08 i Bygdeå. | CORROBORATED | hög | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0072](../citations/C-0072-anna-fredrika-folkrakning-1910.md), [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Egen födelsenotis och barndomshushåll verifierar datum och församling. |
-| A-0220 | Hon gifte sig med Anders Alfred Andersson 1904-03-05. | TRANSCRIBED | hög | [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Samma datum står på båda makarnas rader. |
+| A-0220 | Hon gifte sig med Anders Alfred Andersson 1904-05-03. | TRANSCRIBED | hög | [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Samma datum står på båda makarnas rader. T-0117 rättar tidigare dag/månadsomkastning 1904-03-05 enligt C-0044/C-0413/C-0891/C-0920/C-0970. Upprepning kan vara kopierad information. |
 | A-0221 | Hon var mor till Ebba Alfrida, född 1907-08-18. | CORROBORATED | hög | [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Två originalböcker. |
 | A-0357 | Hon föddes i Ultervattnet som dotter till bonden Jakob Andersson och Maria Christina Hansdotter. | CORROBORATED | hög | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) | Födelsebok, husförhörslängd och folkräkning. |
 | A-0358 | Hon döptes 1872-02-11. | TRANSCRIBED | hög | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md) | Samtida födelse- och dopbok, nr 15. |
@@ -27,8 +27,8 @@ barndomshushåll.
 | A-3463 | Hon bodde med maken på Jomark N:o 2 till **1946-11-16**, då paret utflyttade till Burträsk; födelsen 1872-02-08 i Bygdeå bekräftas i samma post. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Sluter luckan 1941–1946 och placerar henne hos dotterns familj efter 1946. |
 | A-3626 | Hon fördes in i Burträsks inflyttningsbok 1946 på samma rad som maken, nr 154, med destinationen **Burträsks municipalsamhälle, Gammelbyn 14¹⁸** och uppslag 5/I. | TRANSCRIBED | hög | [C-0968](../citations/C-0968-andersson-inflyttning-burtrask-1946.md) | Posten räknar en man och en kvinna; hon namnges inte separat i längden. |
 | A-3627 | Hon dog **1947-06-27** och begravdes **1947-07-06**; bostaden anges som **Gammelbyn 14¹⁸ i Burträsks municipalsamhälle** och hennes uppslag som 5/I. | CORROBORATED | hög | [C-0969](../citations/C-0969-anna-fredrika-dodbok-1947.md), [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Dödboken och gravregistret ger samma två datum. |
-| A-3628 | Dödsorsaken var **marasmus senilis med kronisk myokardit**, och ingen annan dödsort än hemorten är angiven. | TRANSCRIBED | hög | [C-0969](../citations/C-0969-anna-fredrika-dodbok-1947.md) | Hon dog i hemmet, inte på lasarett; läkare Fagerström tillfrågad. |
-| A-3630 | Anteckningen `Bou. 47 ³/₉` på hennes rad i församlingsboken pekar mot en **bouppteckning inregistrerad 1947-09-03**. | LEAD | låg | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md) | Förkortningen är läsosäker och uppgiften oprövad; bouppteckningsregistret ligger bakom ALTCHA. |
+| A-3628 | Dödsorsaken var **marasmus senilis med kronisk myokardit**, och ingen annan dödsort än hemorten är angiven. | TRANSCRIBED | hög | [C-0969](../citations/C-0969-anna-fredrika-dodbok-1947.md) | Tidigare slutsats om hemmet och uteslutet lasarett återtas enligt C-0969:s rättelse T-0117. Tom dödsortskolumn anger ingen säker dödsplats; läkare Fagerström tillfrågad. |
+| A-3630 | Anteckningen `Bou.` eller `Bev. 47 ³/₉` på hennes rad i församlingsboken är en osäker dödsbonyckel; betydelse och datum är inte fastställda. | LEAD | låg | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md) | Förkortningen och dess funktion är läsosäkra; äldre inregistreringsdatum är en oprövad tolkning. C-0977 ersätter ALTCHA-beskrivningen med begränsat registeromfång; T-0207 äger originalrouting. |
 
 ## Relationer
 
@@ -44,14 +44,14 @@ Syskon: P-0096–P-0101.
 |---|---|---|---|---|---|
 | 1872-02-08 | Född, nr 15; döpt 1872-02-11 | Ultervattnet, Bygdeå | — | Jakob Andersson och Maria Christina Hansdotter | C-0067 |
 | 1872–1900 | Föräldrahushåll s. 567; folkräkningar 1880, 1890, 1900 | Ultervattnet | dotter, ogift | föräldrar och syskon | C-0069–C-0071, C-0073 |
-| 1904-03-05 | Vigsel med Anders Alfred Andersson | Bygdeå/Robertsfors | — | — | C-0044 |
+| 1904-05-03 | Vigsel med Anders Alfred Andersson | Bygdeå/Robertsfors | — | — | C-0044 |
 | 1907-08-18 | Dottern Ebba Alfrida född | Jomark | hustru | make | C-0043 |
 | 1910–1917 | Folkräkning 1910; A II/2 a s. 1130 | Jomark | hustru | make och dotter | C-0072, C-0413 |
 | 1918–1941 | Jomark No 2, fol 658 och 750 | Jomark | hustru | make (och dotter till 1928) | C-0891 |
-| 1942–1946 | Nya bokens fol 703, Jomark N:o 2, ⁷/₁₆ mtl, 10 har | Jomark | hustru | make | C-0920 |
+| 1942–1946 | Nya bokens fol 703, Jomark N:o 2, 1/16 mtl, 10 har enligt hushållsraden (rättelse C-0920) | Jomark | hustru | make | C-0920 |
 | 1946-11-16 | Utflyttad till Burträsk med maken; inskriven nr 154 | Robertsfors → Burträsk | hustru | make | C-0920, C-0968 |
 | 1946–1947 | Församlingsbok `A II a/4 a` fol 5, avs. Gammelbyn 14¹⁸ | Burträsks municipalsamhälle | hustru | make | C-0970 |
-| 1947-06-27 | Död i hemmet, marasmus senilis och kronisk myokardit; begravd 1947-07-06 | Gammelbyn 14¹⁸, Burträsk | hustru | make | C-0969, C-0970, C-0878 |
+| 1947-06-27 | Död, dödsplats ej fastställd; marasmus senilis och kronisk myokardit; begravd 1947-07-06 | Gammelbyn 14¹⁸, Burträsk | hustru | make | C-0969, C-0970, C-0878 |
 
 ## Biografisk sammanfattning
 
@@ -66,17 +66,17 @@ Hon bodde kvar på **Jomark N:o 2** genom tre församlingsböcker i följd —
 folio 658 och 750 till 1941, därefter folio 703 — och **utflyttade med
 maken till Burträsk 1946-11-16**, dit dottern och svärsonen flyttat 1930
 (C-0891, C-0920). I Burträsk skrevs paret på **avsöndringen Gammelbyn 14¹⁸**,
-folio 5 i församlingsboken — dotterns fastighet, men ett eget hushållsuppslag
+folio 5 i församlingsboken — samma fastighetsbeteckning som dotterns familj, men ett eget hushållsuppslag; ägande är inte därmed fastställt
 (C-0968, C-0970).
 
-Hon dog **den 27 juni 1947**, drygt sju månader efter flytten, **i hemmet**:
-dödboken anger ingen annan dödsort än hemorten och ger dödsorsaken
+Hon dog **den 27 juni 1947**, drygt sju månader efter flytten.
+Dödbokens dödsortskolumn är tom och fastställer inte död i hemmet eller frånvaro av lasarettsvård. Den anger dödsorsaken
 **marasmus senilis med kronisk myokardit** — ålderdomssvaghet och kronisk
 hjärtmuskelsjukdom hos en sjuttiofemåring (C-0969). Hon begravdes
 1947-07-06 på Burträsks kyrkogård, och maken följde henne dit året därpå
 (C-0878). En anteckning på hennes rad i församlingsboken, läst som
-`Bou. 47 ³/₉`, pekar mot en bouppteckning inregistrerad i september 1947;
-den är inte prövad (C-0970).
+`Bou.` eller `Bev. 47 ³/₉`, är läsosäker och fastställer inget inregistreringsdatum.
+Exakt originalserie prövas inom T-0207; C-0977 anger att bouppteckningsregistret inte täcker dödsåret (C-0970).
 
 Öppna materiella frågor och källvägar finns i
 [forskningsprofilen](../research-profiles/P-0049.md).
@@ -84,10 +84,22 @@ den är inte prövad (C-0970).
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-232--t-0022-konsolidering-av-djup-14-pa-sverkers-sida)
-- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0084: hela boendekedjan 1872–1947 är läst i original, och döden är belagd i både dödbok och församlingsbok med dödsorsak (C-0968, C-0969, C-0970). Kvar är enbart hinderbundna vägar: bouppteckningen 1947 bakom ALTCHA, mantal och lagfart utan bildlänk.
+- Källbredd: `PÅGÅR` — omprövad 2026-09-06 i T-0084: hela boendekedjan 1872–1947 är läst i original, och döden är belagd i både dödbok och församlingsbok med dödsorsak (C-0968, C-0969, C-0970). Den äldre bedömningen att endast hinderbundna vägar återstod behöver omprövas i T-0155. C-0977 har ersatt ALTCHA-beskrivningen; bouppteckningens exakta originalrouting återstår i T-0207. Mantal och lagfart är inte personlästa.
 
 Tidigare rad 2026-09-05 (T-0066), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0066: Jomark 1918–1941 läst i T-0066 (C-0891); 1942–1947 ligger i A II/5c fol 703 utan digital bild (profil KP-01).
 
 Tidigare rad 2026-09-05 (T-0068), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: 1917–1947 har genomförbar väg (profil KP-01 via P-0048). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
 
 Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen födelse, föräldrar, barndoms- och vuxenhushåll, vigsel och moderskap är konsoliderade över original och folkräkningar; inga materiella identitetskonflikter återstår i akten.
+
+## Avgränsad följdrättelse 2026-09-07 — T-0117
+
+Vigseln normaliseras till 1904-05-03; äldre 1904-03-05 var en
+omkastning. C-0413:s sidrubrik 1/8 och parets egen rad 1/16 beskriver
+olika rader, inte en visad mantalsförändring. C-0920:s hushåll anger
+1/16 mantal och 10 har, inte 7/16. Tom dödsort i C-0969 bevisar inte
+hemmet; C-0970:s Bou./Bev.-anteckning och datumfunktion förblir osäkra.
+Samma fastighetsbeteckning i Burträsk bevisar inte äganderätt.
+C-0977 ersätter gammal ALTCHA-routing, med avgränsad efterföljare T-0207.
+Inga nya A-id skapade; full akt-/profilgranskning och omprövning av tidigare
+kontraktsgodkännande ägs fortsatt av T-0155.

@@ -45,3 +45,8 @@ utesluter Helgesta som födelseförsamling under det uppgivna datumet.
 ## Stödda påståenden
 
 A-0499.
+
+
+## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
+
+Den sparade helbilden F0003397_00096 har återlästs. Omfånget är nr 1–8 samt den onumrerade dödfödda flickan, från januari till början av mars 1883. Ingen Charlotta Cecilia Elisabet och ingen födelse den 14 januari återfinns i dessa poster. Det är inte en genomgång av hela året och utesluter inte fysisk födelse i Helgesta med annan kyrkobokföring. Aktens tidigare helårsnoll ska ersättas med detta exakta omfång.

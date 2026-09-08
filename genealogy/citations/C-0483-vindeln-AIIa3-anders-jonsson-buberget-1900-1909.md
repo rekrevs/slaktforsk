@@ -28,3 +28,9 @@ av aprilkonflikten, men ersätter inte vigselbokens 14 april.
 ## Stödda påståenden
 
 A-0599, A-2095 och A-2264–A-2265.
+
+## T-0129: personbunden lokal efterläsning 2026-09-08
+
+Fullbilden och detaljen av P-0065:s egen rad 1 har återsetts. Bonden Anders Jonsson, född 1839 16/4 i församlingen, har vaccinationsmarkering `v`, änkedatum `98 25/5` och dödsnot `21/10 09`. De egna kristendomstecknen läses `abc[?]`, nattvard `N`; förhörsår läses `1901[?], 02, 03, 05, 06, 07, 08`. Detta är råfält utan omräkning till skolbetyg eller trosuppfattning. Egna in-/utflyttnings-, frejd- och värnpliktsfält är tomma.
+
+Barnblocket har senare omföringar och utflyttningar: sex barn på sidan innebär inte att alla sex bodde kvar hos fadern till 1909. Jonas Edvard och Anders återkommer i egna familjeblock längre ned; Hildur och Karl har utgående hänvisningar. Denna avgränsning rättar C-0483/A-2264:s äldre alltför sammanhängande hushållsbeskrivning. Barnens exakta nya relationer och datum ska prövas i deras egna akter, inte hämtas ur faderns hela bokperiod.

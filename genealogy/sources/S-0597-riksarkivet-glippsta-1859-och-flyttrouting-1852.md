@@ -89,3 +89,9 @@ har SHA-256
 ## Stödda påståenden
 
 A-2987–A-2990.
+
+## T-0139: avstämning och proveniensgräns
+
+[C-0752](../citations/C-0752-glippsta-nr36-carl-fredric-grill-1848-1855.md) visar nu positiv transport av Carl från Glippsta nr 36 till Hagby nr 38 på 1855 års redan bevarade rullblad. Landins antagning 1854 är inte längre den enda uppgiften som avgränsar bytet; ingen personlig avskedsdag har härletts.
+
+Två faktiskt tidigare lästa kopior har inte återfunnits efter filnamns-/alias-/tmpkontroll: **C0005877_00028** och **C0005858_00179**. Den senare var en visuellt avvisad nominering, inte bara en OCR-bild. [T-0324](../../wotan/dev-log/T-0324.md) äger exakt dessa två kopior. De bevarade observations-/manifestfilerna är inte ersättningar för bilderna; äldre resultat förblir snävt avgränsade.

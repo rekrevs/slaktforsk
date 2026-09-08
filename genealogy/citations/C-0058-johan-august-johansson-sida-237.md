@@ -29,3 +29,24 @@ Antonia Fällman och Johan Alfred, vilka tillhör ett separat familjenummer.
 
 A-0254–A-0255, A-0275.
 
+
+## T-0142: egen rad, datum och kyrkliga kolumner fullprövade
+
+2026-09-08 har hela drängen Johan Aug. Johanssons rad återsetts med
+rubriker och lokal förstoring. Födelsefältet läses **1861 16/5**,
+Sävar. Det rättar den äldre avskriften 19/5; födelsepostens egen
+16 maj i C-0050/C-0546 tillgodoräknas. Inflyttningen från243 den
+29 november1879 är läsbar. Kopporfältet har v, kunskapsfältet ett
+grafiskt tecken och förståelsefältet ett streck. Hans egna årsvisa
+förhörs-/nattvardsfält har markeringar1881–1884, däribland N-liknande
+nattvardstecken och ett litet datumkluster1883. De små talen prövas
+men normaliseras inte till säkra besöksdagar. Ingen egen vigsel-,
+döds-, utflyttnings- eller frejdnot finns på raden.
+
+Detta belägger fortsatt kyrkobokföring och egna kyrkliga markeringar,
+inte en garanti för obruten fysisk närvaro varje dag. Arbetsmiljön
+är hushållssidan för Evald Bäckström och Anna Magdalena Jonsdotter.
+Fredrika Antonia Fällman och hennes oäkta son Johan Alfred är en
+separat grupp; Johan August blir inte make eller far genom placeringen.
+Sidan skiljer honom fortsatt från Johan Oskar Zingmark i C-0550.
+Den bevarade fullbilden och dess hash är oförändrade.

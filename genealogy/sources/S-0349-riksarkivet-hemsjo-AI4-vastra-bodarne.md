@@ -27,3 +27,7 @@ Längden är en successivt förd hushållskälla. Den stöder familjesamband och
 födelsedata men är inte en ersättning för föräldrarnas egna födelsenotiser.
 Namnformerna och de tydliga datumen har transkriberats; svårlästa
 sidonoteringar har inte gjorts till påståenden.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+C-0446:s daterade tillägg rättar David/Maria och Olaus dödsår samt redovisar moderns blanka födelseort och de sex saknade förberedelsekopiorna. Familjens gemensamma uppgifter är inte automatiskt oberoende datumobservationer.

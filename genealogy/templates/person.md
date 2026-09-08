@@ -1,5 +1,7 @@
 # P-NNNN: Fullständigt namn
 
+Följ [aktstandarden](../person-standard.md) för format och konsolidering.
+
 Använd tillsammans med [personkontraktet](../person-contract.md).
 Skapa `research-profiles/P-NNNN.md` enligt profilmallen och länka den
 här med det riktiga P-id:t. Spara fynd i befintlig evidensmodell; mallen
@@ -74,3 +76,8 @@ kontext och okänd uppgift. Hänvisa till relevanta påståenden/citationer.
 - Hänvisningar till profilens frågor, teman och källvägar.
 - Tidsluckor, motstridiga överlapp och vad som kan lösa dem.
 - Utförandestatus och nästa ej utförda steg ligger endast i Wotan.
+
+## Historik och rättelser
+
+Daterade tidigare bedömningar, ersättande belägg och rättelseorsaker.
+Om inga finns, ange det kort. Historiska statusar är inte aktuella omdömen.

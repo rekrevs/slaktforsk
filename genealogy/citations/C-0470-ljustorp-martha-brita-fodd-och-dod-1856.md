@@ -32,3 +32,39 @@ inhysesmannen Henrik Henrikssons i Sjöberg dotter **Märtha** dog
 ## Stödda påståenden
 
 A-2234–A-2236.
+
+## Hela tvilling- och fadderposten — T-0130, 2026-09-08
+
+Det lokala födelseoriginalet C0033134_00055 visar en gemensam klammer
+märkt Tvillingar runt Märtha Britas rad och den direkt följande raden
+**Ett dödfödt gossebarn**, båda födda20 februari1856. Pojkens föräldrafält
+har d:o d:o och återtar inhysesmannen Henrik Henriksson och hustrun
+Margaretha Charlotta Sjölin,30 år. Den dödfödde sonen är därmed redan
+originalbelagd, inte enbart ett senare Familia-spår. Han har inget
+namn eller dopdatum. Ingen ny personakt skapas i denna begränsade följd.
+
+Märtha Britas dopdag är23 februari. Den smala efterföljande kolumnen
+har16/3[?]; uppgiften reserveras som råfält tills formulärrubriken
+är säkert knuten till det. Ingen egen namngiven dopförrättare framgår.
+Hela faddergruppen, utöver de tidigare namngivna Jonas och Cecilia,
+läses med följande råformer:
+
+- f. Bonden Nils Nilsson i Näs[?] och torparenkan Anna Nilsdotter i Löfberg.
+- Torparen Anders Engström ibm och hans hustru.
+- Torparen Henrik Blundin[?] ibm och hans hustru.
+- Torparen W. Edv. Th. Laurin[?] ibm och hans hustru.
+- Torparesonen Nils Olof Engström ibm och torparedottren Hedvig Cath.
+  Engström ibm.
+- Drängen Jonas Henriksson i Bredsjö och pigan Cecilia Henriksdotter ibm.
+
+Dittoorterna återges som källans ibm, utan automatiskt fastställd
+släkt- eller parrelation för varje namnlika person. De uttryckligen
+anonyma hustrurna får inga uppfunna namn. Namn med frågetecken är
+faktiskt prövade läsreservationer, inte olästa fält.
+
+Märthas egen dödpost C0033133_00149 har död **2 mars1856**,
+begravning9 mars och11 dagars ålder. Fadern anges inhysesman i Sjöberg.
+Rutan för sjukdom eller dödsorsak är tom. De11 dagarna kan jämföras med
+födelsedagen, men kan vara beräknade från samma kyrkoboksuppgift och
+är inte ett självständigt födelsebelägg. Ingen sjukdom hos tvillingarna
+eller modern kan utläsas ur den tomma rutan.

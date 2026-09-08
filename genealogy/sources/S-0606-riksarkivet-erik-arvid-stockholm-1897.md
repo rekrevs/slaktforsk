@@ -95,3 +95,7 @@ mediamanifest.
 ## Stödda påståenden
 
 A-3024–A-3026.
+
+## Ny personbunden routing och kopiekontroll — T-0143, 2026-09-08
+
+C-0783:s destinationscell innehåller en mindre församlingsnot ovanför Stockholm. Den är fullprövad men exakt råform är reserverad i citationens nya tillägg; möjlig militärförsamling är en ny avgränsad väg, inte en konstaterad tjänst eller en tionde negativ församling. De nio äldre civila nollorna och deras datum-/namnsekvenser består oförändrade. Alla 22 tidigare lästa fullbilder finns lokalt och deras beräknade SHA-256 överensstämmer med mediamanifestet vid denna kontroll. Den positiva Flensbilden är också hel och hashmatchad. Ingen ny arkivåtkomst har gjorts.

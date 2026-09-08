@@ -39,3 +39,9 @@ Anna Gustava, Nora Gust. och Eleonora Gustafva Ajax.
 ## Stödda påståenden
 
 A-1804–A-1809.
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela födelsepost 15 har återlästs i fullbild. Eleonora Gustava i Stordalen; född 4 mars och döpt 9 mars 1817. Fader åbon Peter Ajax, moder Catharina Jonsd:r. Moderns ålder anges 24. Föräldrarnas exakta fulla namnformer utanför denna post får inte stoppas in i den diplomatiska avskriften.
+
+**Rättelse, oberoende andraläst:** första dopvittnet heter **Jakob Jonsson**, inte Olof Jonsson. Det andra läses ”dg[?]. Lena Cajsa Hansd:r i Walla b[?].”; rollförkortningen och ortens sista del är reserverade. Ingen säker ort för Jakob anges separat. Inga övriga egna postfält eller marginalnoter läses. Dessa vittnen får inte automatiskt föras samman med andra Jonsson-/Hansdotterpersoner eller kallas släktingar. Familjeankaret och exakt födelse matchar den senare kedjan, samtidigt som husförhörens 4/4 bevaras som verklig källavvikelse.

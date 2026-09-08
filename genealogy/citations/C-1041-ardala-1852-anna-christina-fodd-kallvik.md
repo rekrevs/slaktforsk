@@ -83,3 +83,51 @@ oäkta. Ingen sammanblandning görs.
 ## Stödda påståenden
 
 A-3857–A-3862.
+
+## Tillägg 2026-09-08 — T-0132, lokal fullpost och slutsatsgränser
+
+C/4 bild 13 har åter lästs i den redan bevarade [C-0151-fullbilden](../media/C-0151-riksarkivet-ardala-C4-bild-13-fodda-1851-1852.jpg),
+6 140 × 4 972 px. SHA-256 verifierad:
+`51f8365be06a6fe867ff223245dd9dd27f3bdf8732bf74f6745e2b6de5aaa7fc`.
+Den egna raden på högersidan anger 21 mars, dop 25 mars, Anna Christina,
+en flickmarkering i äkta-kolumnen samt `Statdr. Lars Er. Jansson o Brita
+Christina Ersd:r i Kallvik`. Ingen ytterligare egen marginalnot syns.
+Det korta formuläret har inga egna kolumner för faddrar, modersålder eller
+kyrktagning; deras frånvaro här är ingen outvunnen målpost.
+
+C/5 bild 13 har däremot inte återfunnits efter lokal fil-, alias- och
+metadatasökning i genealogy och /tmp. Dess ovanstående fullare avskrift
+med moderns ålder 33, kyrktagning 18 april och faddrar återanvänds som
+äldre dokumenterad läsning, inte som en ny oberoende bildprövning.
+C/4 bild 14 har inte heller återfunnits. C/4:s egen bild 13 finns redan;
+bevarandeskulden gäller således C/5 bild 13 och den åberopade grannårsbilden
+C/4 bild 14, inte samtliga källbilder.
+
+C/4 bild 13 visar 1851 från egen årsrubrik på vänstersidan till
+årssummeringen före 1852 på högersidan. Den tidigare grannårskontrollen
+för 1851 kan avstämmas där. Uppgifterna om 1853 och den andra Anna
+Christina återanvänds däremot från äldre läsning; inget nytt 1853-noll
+har gjorts lokalt. C/5 bild 12 har nu visats och slutar med ett dödfött
+gossebarn daterat 19 mars 1852, inte i maj. Den når inte vår målpost.
+
+Två parallella böcker över samma kyrkliga registrering är inte automatiskt
+två oberoende händelsebelägg. Deras inbördes överföringsförhållande är inte
+fastställt. Moderns ålder är en förenlig uppgiven ålder, inte ett ytterligare
+oberoende vittnesmål. En ålder i dödboken kan vara beräknad från samma
+överförda födelsetid och gör inte heller datumet självständigt verifierat.
+Den direkta födelseposten och föräldraparet bär identifieringen.
+
+Statdräng i Kallvik 1852 och senare torpare i Carlberg är skilda daterade
+uppgifter. De belägger inte i sig att familjen hade stigit i ställning,
+exakt när den flyttade eller en obruten kedja mellan platserna. Den äldre
+slutsatsen om social uppgång upphävs; ingen uppgift om egen inkomst eller
+förmögenhet har tillkommit.
+
+### Ytterligare rättelse av åldersargumentet — T-0132
+
+Dödbokens åldersuppgift i C-0400 har enligt T-0132:s nya originalprövning
+lästs **35 år 7 månader 3 dagar**, inte 6 dagar. Det äldre indirekta
+exaktdatumargumentet ovan byggde därför dessutom på en felläsning och
+upphävs. Anna Christinas födelsedag 21 mars stöds fortfarande direkt av
+hennes egen födelsepost; dödbokens uppgivna ålder behålls separat och
+får inte justeras för att passa födelsen.

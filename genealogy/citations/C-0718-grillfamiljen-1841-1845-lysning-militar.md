@@ -154,3 +154,35 @@ exakta lokala filer hör till källpaketet:
 
 A-2799–A-2804. A-2804 är historiskt och nu `REJECTED`; C-0763 bär den
 rättade militär-, flytt- och vigselavgränsningen.
+
+## Full egen hushållspost — T-0139, 2026-09-08
+
+Bettna A I/11 a s.33 har lästs i den bevarade fullbilden, inklusive
+familjens tidigare utelämnade anmärkning. Namnet på faderns rad är
+**Sold. Carl Fr. Drill**, född **22 9/4 Halla**, inte den äldre
+transkriptionen Carl Eric Grill, 9 juli. Hustrun skrivs Johanna Jansdotter,
+19 30/5 St. Malm. Carl Johan har 43 4/1 Bettna. Faderns egen flyttuppgift
+41 Björkvik och moderns 41 St. Malm hör till deras respektive rader.
+
+En klammer sammanbinder makarna med anmärkningen **Lyst t. äkt. m.
+hvarandra d. 16 april 1843[?]**. Dagen och april läses tydligt; sista
+årssiffran reserveras efter två läsningar. Detta är en positiv uppgift om
+lysning, inte en införd vigsel. Den kompletterar den äldre överstrukna
+Stora Malm-notisen 1841 och ger en exakt ny söknyckel utan att något gammalt
+vigselnoll behöver upprepas brett.
+
+Under Carl Johan finns dessutom en tidigare utelämnad, överstruken
+**S. Anders Fredric**, med födelseår **44** och ortditto till Bettna.
+Egen dag/månad är skymd av korsstreck. Dödkolumnen har **44** med en
+överställd dag/månadsnot, preliminärt **24[?]/12**; den säkra kärnan är
+bokförd död 1844. Sonen är en egen familjerad och förväxlas inte med Carl
+Johan. Exakt födelse-/dödsdag och biologisk relation utöver hushållets
+sonplacering kräver egen personpost; ingen ny akt skapas enbart här.
+
+Båda vuxna har v i kopporfältet samt grafiska läs-/kunskapsgrader.
+De kyrkliga årskolumnerna har egna nattvardsnoter, bland annat **11/2
+under 1844** på båda raderna och **19/10 under 1845**. Flera blekare
+överlagrade tal har prövats men normaliseras inte säkert. Vigsel- och
+dödsårskolumnerna är tomma för båda makarna. Inga föräldrars småtecken
+överförs till barnen. Lysningsnotisen är den personbundna nya anmärkningen;
+familjens äldre och senare datumgränser måste fortsatt läsas var för sig.

@@ -102,3 +102,27 @@ därmed säkrare.
 
 A-3782–A-3784; rättelse av C-0848:s uppskjutna vittnesled och skärpning av
 dess nollresultat.
+
+## Begränsad rättelse av analogi — T-0134, 2026-09-08
+
+Stina Cajsa Larsdotters Säterrad har i C-0436/C-0437 nu lästs till
+12 januari 1807, inte juli. En separat Christina Catharina född
+12 januari finns redan i C-0847:s lokala 1807-bild; ingen identitet
+är ännu sammanförd. Äldre jämförelse med hennes påstådda julinoll
+är därför inte aktuellt argument om Hemsjöfamiljen. Detta ändrar
+inte i sig någon av Hemsjöpersonernas identiteter eller datum.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+C0043840_00020 är återprövad som helt lokalt uppslag. Posterna 18 januari
+och 16 februari 1815 följer varandra på samma sida, utan bildskarv;
+föregående november–december finns på vänstersidan av samma uppslag.
+Kontinuitetsprövningen är alltså utförd och behöver inte stå som oläst.
+
+Den äldre slutsatsen ”ingen föddes i Hemsjö 1815-01-28” upphävs. Avsaknad
+av en anteckning i den obrutna bokföljden belägger ingen registrerad
+Catharina-post på den uppgivna dagen, men bevisar inte faktisk födelseort
+eller att datumet måste vara riktigt i en annan socken. Utebliven
+registrering, felaktigt överfört datum och annan plats är fortfarande
+alternativ. Ingen identifierad konkurrerande person finns här. A-4548
+begränsar A-3232/A-3782; C-1026:s positiva Wäsenbo är bättre ortsingång.

@@ -46,3 +46,8 @@ registreras därför som LEAD.
 ## Stödda påståenden
 
 A-0416, A-0418–A-0421 och A-0423–A-0430.
+
+
+## Tillägg T-0143, 2026-09-08: rättad egen post
+
+Två läsare har prövat den sparade hela folkräkningsbilden. Fredriks födelseår är 1843, inte 1848: den öppna 3-formen jämförs med drängens 1873. Hela Brostugans familj har lästs: torparen, gift man, Anna Fredrika Blom 1845 Råby-Rönö, gift kvinna, son Karl Fredrik 1876 Grytt, ogift man, och dräng Johan Alfred Olsson 1873 Helgesta, ogift man. Inga egna hälsouppgifter härleds ur grafiska tecken utan rubrikstöd. Syskonrelationen till Pehr Albert är numera positivt belagd i C-0317, inte enbart LEAD. Äldre1848 och frånvaro av föräldrabelägg är upphävda tolkningar.

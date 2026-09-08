@@ -65,3 +65,9 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3334 (P-0003).
+
+## Räckvidd 2026-09-07 — T-0123
+
+Tranbäret saknas i de lästa alfabetiska avsnitten av1945förteckningen.
+Det belägger inte säkert när kvarteret bildades. Gondolen2=40 och3=42
+är samtidiga nycklar; de bevisar ingen tidsföljd med omnumrering.

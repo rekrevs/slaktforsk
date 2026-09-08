@@ -123,3 +123,11 @@ ingen sessionsdata lästes eller bevarades.
 ## Stödda påståenden
 
 A-2966–A-2972 samt rättelsen av A-2799 och avvisningen av A-2804.
+
+## T-0139: fulla egna flytt- och Carl Johan-fält
+
+Den bevarade Bettna B/1-fullbilden `C0005876_00073` har post 69 under 11 november 1841: **Soldaten Carl Fr. Drill**, till **Glippsta S.T.**, från **Björkvik**, en man. Ingen medföljande hustru eller barn står i hans egen rad. Det är den bokförda inflyttningspostens dag, inte en säkert rekonstruerad fysisk resdag.
+
+Carl Johans fulla födelsepost på `C0005882_00024` har 4 januari 1843 och dop 6 januari, Glippsta soldattorp, **oäkta**, modern **pigan Johanna Jansdotter**, uppgiven **23 år**. Fadern namnges inte. En blek kort not under åldern är prövad men får inget säkert kyrktagningsdatum. Faddrarna läses `H.[?] Jonas Andersson` och hans hustru `Maja St. Gustafsdotter[?]`, pigan `Cajsa Greta Ersdotter` i **Agnatorp[?]**, samt drängen `Petter Ersson` i **Skresta[?]**. Ort-/patronymikonreservationerna behålls utan släktinferens. Inget särskilt förrättarnamn framgår av måltexten.
+
+Den nya lysningsnotisen 16 april 1843[?] i C-0718 är en separat positiv nyckel. Barnets oäkta födelse och rullans namnlösa giftstatus 1845 ger inte ensamma en säker exakt vigselperiod för just Johanna; familjekorrelation och faktisk vigselpost hålls åtskilda.

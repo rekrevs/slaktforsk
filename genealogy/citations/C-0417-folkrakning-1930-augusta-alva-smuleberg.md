@@ -36,3 +36,17 @@ dotter.
 ## Stödda påståenden
 
 A-1657–A-1658, A-2138–A-2145.
+
+## Augustas personfält och råkoder — T-0127, 2026-09-07
+
+Det lokala fulloriginalet har återlästs. På Augustas egen rad, betecknad
+hustruns mor, står huvudyrkeskoden `3-103-21`, skolbildning `3` och
+inkomst-/förmögenhetscellen `5 —`. Den äldre textens normalisering till
+inkomsten 500 saknar här dokumenterad enhet; råvärdet bevaras tills
+formulärets egen instruktion prövats. Det ger inte en säker uppgift om
+viss skolgång, självständig förmögenhet eller makens yrke för henne.
+
+Födelseår 63, dito från Kyrkefalla och änkeår 29 är hennes egna fält.
+Inflyttningsfältet anger Värsås, Skaraborgs län, år 30; detta är en faktisk
+avvikande uppgift mot C-0868:s direkta Skövdebrygga. Källuppgiften ändras
+inte för att passa den senare konsoliderade flyttkedjan.

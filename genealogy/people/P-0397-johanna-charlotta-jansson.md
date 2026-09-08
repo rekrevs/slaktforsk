@@ -17,6 +17,8 @@ Klara rote 3.
 | A-2998 | År 1910 var hon gift `Mor/fru`, uppgiven född 1866 i Skånela, i Olaus Fredbergs hushåll i Gösen nr 4, 15; de fem följande personerna Augusta, Ester, Edit, Oskar och Elvira står som parets barn. | TRANSCRIBED | hög | [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | Folkräkningsregister och länkat mantalsutdrag; födelseåret korroborerar den exakta äldre uppgiften utan att ersätta den. |
 | A-3086 | År 1900 var Johanna Charlotta gift `h.` och `Mor/fru`, uppgiven född 1866 i Skånela, i Olaus Fredbergs familj nummer 1 i Jordgubben N:o 11 på Kungsholmen med fem namngivna barn. | TRANSCRIBED | hög | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) | Registerpost och originalets hushållsgrupp; Frida är Olaus barn från första giftet och görs inte till Johannas biologiska dotter av denna källa. |
 
+| A-4285 | Olaus dödpost 1925-08-06 placerar honom i kategorin Änkling eller frånskild. | TRANSCRIBED | hög för kategorin | [C-0475](../citations/C-0475-sollentuna-FI7-olaus-fredberg-dod-1925.md) | Skiljer inte Johannas död från skilsmässa; hennes livsläge är öppet. |
+
 ## Relationer
 
 | Person | Relation | Status | Belägg |
@@ -33,3 +35,11 @@ Klara rote 3.
 Sidoperson utanför anlinjens prioriterade breddkohort. Barnen i andra giftet
 är nu namngivna i folkräkningsoriginalet 1910. Egen födelsenotis, föräldrar,
 barnens exakta födelsedata och hennes död är fortsatt öppna.
+
+
+## Begränsad följdavstämning från T-0128
+
+2026-09-08: Olaus civilståndskategori1925 ger ingen säker dödsdag för
+Johanna och avgör inte om äktenskapet upphörde genom död eller skilsmässa.
+Folio587 ägs av T-0256. Full profil och standardisering införs i den fasta
+kohorten T-0195; denna minimiavstämning är ingen fullgranskning.

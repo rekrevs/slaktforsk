@@ -10,8 +10,9 @@ familjens källryggrad.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-2462 | Maria Elina föddes 1856-07-29 i Botsmark, Sävar, döptes 1856-08-05 och var dotter till Johan Peter Zingmark och Sara Sophia Pehrsdotter. | CORROBORATED | mycket hög | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md) | Den militära förkortningen före faderns namn är svårläst och har inte normaliserats. Husförhörsraden anger flytt till Degerfors 1877. |
+| A-2462 | Maria Elina föddes 1856-07-29 i Botsmark, Sävar, döptes 1856-08-05 och var dotter till Johan Peter Zingmark och Sara Sophia Pehrsdotter. | CORROBORATED | mycket hög | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md) | Den militära förkortningen före faderns namn är svårläst och har inte normaliserats. Husförhörsraden anger Degerfors 1875-10-15; äldre 1877 var en felläsning. |
 | A-2928 | Folkräkningen 1900 visar Maria Elina Zingmark i Ekträsk som hustru till bonden Erik August Lindberg och mor i ett hushåll med åtta barn födda 1881–1899; hennes änklige far Johan Petter står som `svärfar`. | CORROBORATED | mycket hög | [C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md) | Originalet fortsätter över sidorna 77–78. Barnens efternamn står inte utskrivna och konstrueras inte. |
+| A-4412 | Maria Elinas egen utflyttningsrad anger Degerfors 1875-10-15. | TRANSCRIBED | hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md) | T-0133: full relevant egen post prövad; bokuppgift skiljs från fysisk händelseort. |
 
 ## Relationer
 
@@ -36,3 +37,11 @@ Sidoperson utanför antavlan; senare liv är nu positivt återfunnet i Ekträsk
 1900 med make, åtta barn och den änklige fadern i samma sammanhängande
 folkräkningshushåll. Exakta födelsedatum och senare liv för make och barn
 prioriteras inte före breddkohorten.
+
+## Konsolideringsrättelse — T-0133
+
+2026-09-08: Full individuell akt-/profiladoption ägs av T-0198. C-0562:s fulla födelsepost och dopvittnen tillgodoräknas; faderns råtitel 1856 är B:d[?], ingen säker militärförkortning.
+
+Äldre formuleringar bevaras som rättelsehistorik:
+
+> Husförhörsraden anger flytt till Degerfors 1877.

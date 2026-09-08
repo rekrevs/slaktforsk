@@ -38,3 +38,18 @@ henne som levande, men dödsbokskonflikten och möjlig bouppteckning återstår.
 ## Stött påstående
 
 A-2563.
+
+## Personbunden originalavstämning — T-0130, 2026-09-08
+
+Den lokala helbildens egen rad14 tillgodoräknas med födelse1825-08-12,
+Stockholm, änkestatus efter1884 och dödsanteckningen01 19/4 samt G.B.222.
+Grafiskt läs-/kristendomsmärke och streckliknande1/1-tecken i kolumnerna
+10/11 bevaras utan oprövat betyg. Egna förhörs-/nattvardskolumner för
+bokens1892–1901-del samt egna fräjd-, värnplikts- och flyttfält är tomma.
+Makens död på annan sida och grannars fält tillskrivs inte henne.
+Prövade tomma och svårlästa fält är inte samma sak som utelämnad kolumn.
+
+1901-04-19 står i dödskolumnen och är en positiv egen bokförd uppgift.
+De äldre dödboks-/indexnollornas omfång och felaktiga sökdatum måste
+prövas separat; fyra frågor med samma fellästa majdatum är inte fyra
+oberoende dödsortsbevis. Ingen dödsorsak eller begravning har tillkommit.

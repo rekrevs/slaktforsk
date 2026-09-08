@@ -78,3 +78,10 @@ någon längdpost skrevs — och **Bettnas vigselbok** omkring 1854–1855.
 ## Stödda påståenden
 
 A-3762, A-3763, A-3764.
+
+
+## T-0137: avstämning 2026-09-08
+
+Kontrollen gäller den sökta fyrpersonersfamiljen till Mellösa 1855–1856. Den unga hustrun Eva Lotta, Håll till Östra Vingåker post 96, hålls separat. Annan destination och ensam flyttrad är inte i sig bevis att hon under hela livet var en annan person. Den sökta familjeflytten är senare belagd 1860 i C-1092.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

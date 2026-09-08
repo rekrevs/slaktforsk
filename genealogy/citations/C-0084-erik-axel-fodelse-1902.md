@@ -44,3 +44,8 @@ inte belagt.
 ## Stödda påståenden
 
 A-0443, A-0446–A-0449.
+
+
+## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
+
+Erik Axels hela post34 är återläst på sparad helbild. Född1902-06-22, ett levande oäkta gossebarn, fadern uttryckligen okänd. Modern Charlotta Cecilia Elisabeth Gustafsson, piga vid Mälby i Helgesta socken,83 14/1 (dagen nu läst14), ogift. Dop6juli av komministern R.H.Wallström[?]; prästinitialer/namn reserveras vid osäker handstil. Faddrar torparen Erik Karlsson och hans ej namngivna hustru från Brosätter. P-0133/P-0135 är rimliga nätverkskandidater genom C-0103:s hushåll där sedan1901, men posten identifierar inte hustrun vid namn och bevisar inga biologiska farföräldrar. Särskild anteckning: Födelse- och dopattest till Past.ämb.i Helgesta. Egen foliohänvisning och moderns kyrkotagningsfält tomma. Attesten är en konkret framtida söknyckel; Flens bok är inte ensam bevis för fysisk nedkomstort.

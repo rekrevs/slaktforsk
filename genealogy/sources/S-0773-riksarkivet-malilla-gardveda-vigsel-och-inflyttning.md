@@ -77,3 +77,7 @@ syns inte i uppslaget. Det kan vara ett inre uppslag som inte fotograferats.
 - [S-0667](S-0667-riksarkivet-malilla-AI5.md) — husförhörslängden 1823–1827
 - [S-0772](S-0772-riksarkivet-hemsjo-bildserier-och-vigselavsnitt.md) — samma
   serieförväxling i Hemsjö
+
+## T-0136: avstämning 2026-09-08
+
+Vigselsöknollans tidsgräns och logiska räckvidd har rättats i C-1027. T-0102:s dev-log dokumenterar även två lästa negativa Målillapassager i B I/1: bild22 för1824 och bild24 för1825. Dessa kopior C0027207_00022/00024 har inte återfunnits lokalt efter bild-id- och aliasprövning. Övriga angivna årsindex är sökingångar, inte genomförda negativa personkontroller.

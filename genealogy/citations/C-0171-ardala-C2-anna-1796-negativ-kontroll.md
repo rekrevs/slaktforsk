@@ -45,3 +45,39 @@ möjlig förklaring, inte ett källbelagt faktum.
 ## Stödda eller motsagda påståenden
 
 A-0852 och A-1364–A-1366.
+
+## Tillägg 2026-09-08 — T-0141, Annas egen post och rättelser
+
+Den fulla första januariposten på bevarad bild 72 har prövats. Född
+**1796-01-04**, döpt **1796-01-06**, barn Anna, föräldrar Bond. Eric
+Larsson och hustru Brita Andersdr, modern **24 år**. Sannerby är
+familjens uppgivna hemvist; inget visst födelsehus framgår.
+
+Den tidigare utelämnade fulla vittnesgruppen lyder, med prövade
+reservationer:
+
+- Bonden Lars Andersson; en efterföljande liten fras är struken och
+  återges inte som ytterligare säkert namn.
+- Fru Anna Larsdotter i Grindstugan[?].
+- Drängen Nils Nilsson.
+- Pigan Christ. Andersdr i Sannerby; ortens räckvidd kan även omfatta
+  föregående dräng, men får inte överföras till alla vittnen.
+
+Nedanför börjar nästa barns vittnesfält. Ingen säker dopförrättare,
+kyrktagningsdag eller namngiven ytterligare förälder tillkommer i denna
+post. Föräldrarnas ålder och dopvittnen är observationer, inte automatiska
+släktlänkar.
+
+Senare egna hushållsrader C-0163/C-0165/C-0167/C-0168/C-0170 har nu
+omlästs som **1796-06-26**, inte äldre 1796-06-06. Den gamla förklaringen
+att dopdagen 6 bara bevarats medan månaden ändrats har därför inte
+stöd av de rättade raderna. Den egna januariposten stöds fortfarande av
+barndomshushållets föräldrar, år och Sannerbykontext; senare exakt datum
+är en verklig avvikelse, vars uppkomst inte är dokumenterad.
+
+Den äldre uppgiften om genomläst hela årgången 1796 har ingen bevarad
+exakt bildroster utöver den positiva bilden 72. Det historiska nollresultatet
+på 6 juni får inte automatiskt omtolkas till en ny utförd kontroll på
+26 juni eller till uteslutning av alla andra Anna. T-0327 äger avgränsad
+metadatarekonstruktion. Ingen ytterligare helårssökning behövs för att
+läsa den redan positiva januariposten.

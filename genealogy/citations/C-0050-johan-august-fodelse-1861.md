@@ -37,3 +37,10 @@ husförhörslängdens sida 354.
 
 A-0254–A-0257, A-0298–A-0299.
 
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Hela den bevarade födelseposten har prövats, inklusive högersidans egna fält. Numret är **48**, födelsen **16 maj 1861** och dopet **17 maj**, inte äldre nr 38/19 maj/21 maj. Föräldrarna är `Landtb. Joh. Peterson` och `Cajsa Lotta Jonsdotter`, hemvist **Östanträsk p.354**; äldre Yttertavle och `Pigan Lotta` är avskriftsfel. Hemvisten är inte ett särskilt födelsehusbevis. Barnet är Johan August, mankön och äkta; moderns ålder är 35. Kyrktagningen läses 29/6[?].
+
+Dopvittnesfältet har sex urskiljbara personer: inhyses Jon Olofsson med namnlös hustru i Gunnmark[?]; nybyggaren O.Dahl med namnlös hustru i `[…] Nybygge`; Erik Dahl i Drakfors[?]; samt ett sista personled `[…] Maja[?]` med osäker roll. Orts- och namnresterna har prövats i original och behålls reserverade, utan släktskapsinferens. Dopförrättaren läses H.L.Strinnholm[?]. De separata förlossnings-/attestfälten ger ingen ytterligare säker egen uppgift. Detta är samma pojke som den senare Sävarraden i C-0058, inte Johan Oskar Zingmark i C-0546.

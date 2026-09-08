@@ -28,3 +28,13 @@ breddgenomgången av nästa utgåvas personkohort.
 ## Stödda påståenden
 
 A-1923.
+
+## Konsolidering T-0135, 2026-09-08
+
+C-1114 har redan ersatt den gamla orienteringsgränsen med avgränsad
+namn-/födelsekolumnskontroll s40–48, och C-1115 prövat två utflyttningslistor
+1842. Alla tillhörande bevarade kopior/hashvärden finns och stämmer i
+T-0135. Ingen ny omsökning av samma smedblock utförd. Sidor utan
+identifierad målperson är inte automatiskt egna outvunna personposter.
+C-0248:s återfunna fulla sekundärakt ger Backgården1836/1839 som
+alternativ hushållsnyckel; verkstadsanställning följer inte av Motalaort.

@@ -77,3 +77,7 @@ dessa hushåll skulle avgöra saken.
 ## Stödda påståenden
 
 A-3779–A-3781; rättelse av C-0465:s uppskjutna vittnesled.
+
+## T-0136: avstämning 2026-09-08
+
+De fyra vittnesleden är återlästa i C-0465:s fullbild med oförändrade namn och roller. Tre vittnen hör till orten Ammenäs i avskriften; detta visar inte i sig ett gemensamt hushåll, äktenskap, syskonskap eller föräldraskap. Daniel Nilsson och Anders Persson är enbart släktkandidater på namn- och nätverksgrund. Patronymika ger sökingångar men bevisar inte vilka biologiska fäder personerna hade. Ämmenäs i ortregistret är en användbar korrelation, inte skäl att skriva om originalets diplomatiska ortform.

@@ -27,3 +27,10 @@ husförhörslängdens `91 11/4` och ersätter det tidigare vida intervallet
 ## Stödda påståenden
 
 A-2037 och A-2106.
+
+
+## Tillägg 2026-09-07, T-0126: individuell lokal omläsning
+
+Lokal omläsning av post 5 rättar dödsdagen till **1891-04-01** och begravningsdagen till **1891-04-12**. Ålderskolumnerna visar **41 år, 11 månader, 19 dagar**, inte 29 dagar. Root har oberoende kontrollerat samma detalj. Äldre 11 april/16 april är projektets avskriftsfel och ersätts i aktuell modell; originalavskriften ovan bevaras. Namnformen Charlotta Larsdotter och hemvist Gäddestad bevaras. Åldersuppgiften är källans egen, inte en ny beräknad födelsedag. Dödsorsaksfältet är tomt.
+
+Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.

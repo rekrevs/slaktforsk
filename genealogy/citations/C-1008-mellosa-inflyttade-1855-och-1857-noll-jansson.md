@@ -62,3 +62,10 @@ längden är genomsökt, flytten är inte motbevisad, och nästa steg ligger i
 ## Stödda påståenden
 
 A-3760, A-3761.
+
+
+## T-0137: avstämning 2026-09-08
+
+Årsnollen 1855 och 1857 kvarstår inom läst omfång. Den verkliga dokumenterade flytten 1860 är senare bunden i C-1092; ingen slutsats om utebliven flytt följer.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

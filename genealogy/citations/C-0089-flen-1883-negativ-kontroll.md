@@ -60,3 +60,8 @@ skulle sakna sina egna födda.
 ## Stödda påståenden
 
 A-0498.
+
+
+## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
+
+Den bevarade bilden F0003373_00021 har återvisats: nr 1–7 och den extra posten Klara Erika. Ingen Charlotta Cecilia Elisabet eller födelse 14 januari där. Den äldre dokumenterade genomgången av nr 1–31 bevaras, men återkontroll av resterande tre bilder 22–24 kräver deras saknade kopior. Nollresultatet är från en bokpassage, inte bevis för annan fysisk födelseort. Kontroll av alias och kopieskuld redovisas i T-0143.

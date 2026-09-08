@@ -47,3 +47,20 @@ föregående boken på sida 484.
 ## Stödda påståenden
 
 - A-1623–A-1625, A-2113, A-2123, A-2213 och A-2214.
+
+## Tillägg T-0126, 2026-09-07: Augusta Elisabets rad4
+
+Den redan lokalt sparade helbilden har visats på nytt. På rad4 står
+`d. Augusta Elisabet — icke döpt`, yrket `Handelsbiträde`, födelsedata
+`96 15/10`, födelseort via ditto den egna församlingen och vaccinations-
+markering `v`. Inflyttningshänvisningen till gamla bokens484 återkommer
+via ditto. Egna kunskaps-/dop-/förhörsfält är tomma; de långa missions-
+anteckningarna och värnpliktsnumret på raden ovan hör till Anders Ivar,
+inte Augusta.
+
+Hennes utgående kolumner läses `Stockholm, Storkyrkoförs.`,
+`25 5/11`, attest153: utflyttning1925-11-05. Detta är ett
+kyrkobokföringsdatum, inte ett säkert datum för fysisk resa. Namn,
+födelsedata och moderns/systerns hushåll binder raden till P-0280.
+C-0942 visar hennes senare återkomst1936 från samma Stockholmsförsamling;
+mellanperiodens adresser är ännu inte följda.

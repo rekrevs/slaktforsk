@@ -72,3 +72,25 @@ prövbara källväg.
 ## Stödda påståenden
 
 A-3604–A-3606 (P-0009), A-3607 (P-0299), A-3608–A-3609 (P-0535).
+
+
+## Omprövning i T-0125, 2026-09-07
+
+Endast AMF:s indexavskrift är läst. Namn, eget födelsedatum och faderns
+namn ger en stark koppling till Ada; tre uppgifter ur samma indexpost är
+inte tre oberoende källor, och enbart brudgummens förnamn Knut avgör inte
+hans identitet. P-0535 och familjeuppgiftens P-0299 hålls åtskilda tills
+namn- och livskedjan har prövats. En framtida yrkesuppgift kan bidra men
+ensam inte automatiskt avgöra sammanläggning. `Manland`, `Sader` och
+`Barnebråkar` bevaras utan säker normalisering; Södermanland är endast en
+hypotes om den första avvikande ortformen. Serien är Jakob i Kristiania;
+indexets tomma vigselställe får inte fyllas med en bestämd kyrkobyggnad.
+
+Vigseln 1922-01-05 är ett positivt indexfynd. Den bevisar varken att Ada
+aldrig vigdes eller bodde i Stockholm, en återkomst först efter 1926,
+att Maj-Britt föddes i Norge eller att Ada själv bytte namn till Bergersen.
+De äldre slutsatserna om detta ovan upphävs. Maj-Britts födelseår 1922
+kommer från familjekällan C-0266; platsen är fortfarande okänd. Lokal
+indexkopia saknas enligt källredovisningen och den öppnade indexpostens
+proveniens ska säkras. Originalsidans framtida läsning är en separat,
+positivt utpekad väg; den är inte redan genomförd fullutvinning.

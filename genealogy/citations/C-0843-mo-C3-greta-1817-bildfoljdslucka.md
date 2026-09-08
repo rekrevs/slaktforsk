@@ -23,3 +23,21 @@ reproduktion/avskrift som ger rätt födelsedag och föräldrar.
 ## Stödd avgränsning
 
 P-0351:s slutstatus.
+
+## Lokal originalprövning — T-0134, 2026-09-08
+
+Båda länkade fullbilderna har nu visats, inklusive högersidan på
+bild 21. Båda hashes stämmer. **Den äldre uppgiften att 1817 slutar
+efter oktober är fel.** På sida 27 står posterna 28–30: Jan, född
+10 december och döpt 11 december; Anna Brita, född 13 december och
+döpt 14 december; Hans, född 14 december och döpt 15 december.
+Bild 22 börjar därefter 1818 på sida 28. Sidnumreringen 26–27 →
+28–29 och den synliga postföljden visar inte i sig något saknat blad.
+
+Ingen novemberpost framträder i de två bilderna, men detta är **inte
+bevis för en saknad novemberdel, ett reproduktionsfel eller en lucka
+i originalet**. Det kan även vara en bokföringslucka eller en felaktig
+senare födelseuppgift; orsaken är inte avgjord. Avgränsningen blir
+frånvaro av målpost i den faktiskt prövade följden. Margareta/Greta
+född 1817-11-17 enligt C-0842 har inte här fått en egen födelsenotis.
+Äldre sakpåståenden och slutsatser bevaras ovan som rättelsehistorik.

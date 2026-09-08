@@ -30,3 +30,9 @@ och rättar en första arbetsläsning av husförhörssiffrorna som mars: månade
 ## Stödda påståenden
 
 A-2181.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Hela egna födelseposten prövad: Erik född **11 december 1847**, döpt **14 december**. Fadern bonden Anders Dahlsten, modern **Stina Cajsa Larsdotter**, hemvist Säter. Formen Anna Cajsa i äldre avskrift är ett avskriftsfel. Moderns uttryckliga ålder är **47**, inte 40; två läsare har bekräftat siffran. Den är en verklig åldersavvikelse mot 1807-01-12 i hushållsböckerna och får inte tyst räknas om. Ingen särskild födelseplats skiljs från föräldrahemvisten.
+
+Faddrar: `B. And. Matts:[?] i Åse med H:u; Kjällskrifvar.[?] Dan. Jonsson i Säter med H:u; Torparson And. Pet. Erics[son?] och Bruksdr[?] Sara Märta Dahlsten i Säter.` Förkortningar och svag namnändelse reserveras; hustrurna har inga utskrivna förnamn. Sara Märtas gemensamma efternamn är en nätverksnyckel men bevisar inte hennes släktskap med Anders. Ingen separat kyrktagnings- eller förrättarkolumn finns på denna post.

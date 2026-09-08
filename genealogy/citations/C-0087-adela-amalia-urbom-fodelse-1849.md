@@ -47,3 +47,7 @@ tillsammans med folkräkningarnas `Urbom` gör formen fastställd.
 ## Stödda påståenden
 
 A-0407–A-0408 och A-0472–A-0483.
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela den egna posten och sidans kolumnställning har återlästs i den bevarade fullbilden. Augusti 3/5, Adela Amalia, Spånga Bruk, Manufactur-Smeden Joh. Pet. Urbom och H. Anna Gustava Ajax står kvar. Några egna vittnes-, modersålders-, kyrktagnings- eller dopförrättarfält finns inte på denna kortfattade sida. Deras frånvaro är källans utformning, inte en ofullbordad läsning. Det finns inga ytterligare egna marginalnoter. Senare original i C-0285/C-0289 och familjekedjan binder Anna-formen till Eleonora Gustava; namnfrågan är inte längre beroende av privatansedelns namnform.

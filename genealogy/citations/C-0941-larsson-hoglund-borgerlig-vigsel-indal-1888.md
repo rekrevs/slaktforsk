@@ -68,3 +68,14 @@ svaret förklarar mer än vigseldatumet.
 ## Stödda påståenden
 
 A-3530–A-3532 (P-0254), A-3533–A-3535 (P-0255).
+
+## Rättelse 2026-09-07 — T-0113, konsolideringsgranskning
+
+Faderns Höglund är belagt redan i C-0459:s utdrag för 1888 och senare
+C-0457/C-0458. C-0389 placerar paret vid Anders Niklas föräldrar, inte hennes.
+Intilliggande folier visar placering i boken, inte ensamt fysisk grannskap.
+`hon okonfirmerad` anger läget 1888, inte att hon aldrig senare konfirmerades.
+Den döpta modern kan inte räknas in i påståendet att hela hushållet var
+odöpt; dopnoteringar gäller angivna personer. Religiös övertygelse och motiv
+är öppna. Q-01:s vigseldel är besvarad, medan frågor om flytt och namnets
+tillkomst kvarstår.

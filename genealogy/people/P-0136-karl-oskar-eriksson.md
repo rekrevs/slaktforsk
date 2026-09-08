@@ -16,7 +16,8 @@ Axel Edvard Erikssons yngre bror, redovisad i faderns hushåll i Brosätter.
 | A-3018 | Flens B/4:s exakta daterade 22-oktoberblock och följande 23-oktobergräns saknar en säker Karl/Carl Oskar Eriksson med hans födelseprofil. | NEGATIVE | hög | [C-0778](../citations/C-0778-flen-B4-karl-oskar-1903-datumnoll.md) | Endast ett serie-, datumblock-, sid-, namnforms- och profilbundet noll; den positiva destinationsnotisen gäller fortsatt. |
 | A-3019 | Livgardet till hästs A–K-personregister saknar målprofilen i de exakt lästa Eriksson-/Ersson- och Karl/Carl-avsnitten. | NEGATIVE | hög | [C-0779](../citations/C-0779-livgardet-register-karl-oskar-avgransning.md) | Endast register- och avsnittsnoll; underliggande kyrkoböcker och militära rullor är inte uteslutna. |
 | A-3020 | Riksarkivets metadata identifierar Livgardet till hästs församling, regementsarkiv och två tidsmässigt möjliga personalvolymer som fortsatta kontrollvägar. | TRANSCRIBED | hög | [C-0779](../citations/C-0779-livgardet-register-karl-oskar-avgransning.md) | `018001984`, `SE/KrA/0161`, `SE/KrA/0161/019:Ö/D I/5` och `SE/KrA/0161/020:Ö/D IV/4`; personpost är inte läst och bildlänkar saknas. |
-| A-3059 | Flen A II a/2 a följer Karl Oskar åter i faderns hushåll på Brosätter sida 216 och vidare till Segerslund sida 185 den 1907-11-13; han ingår inte i trepersonshushållet på Segerslund sida 224 i nästa volym. | CORROBORATED | hög | [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Den positiva 1907-raden visar en återkomst efter 1903 års Livgardesnotis men anger inte när eller varifrån han återkom eller vart han därefter tog vägen. Frånvaron är strikt sid- och hushållsbunden. |
+| A-3059 | Flen A II a/2 a följer Karl Oskar åter i faderns hushåll på Brosätter sida 216 och vidare till Segerslund sida 185 den 1907-11-13; han ingår inte i trepersonshushållet på Segerslund sida 224 i nästa volym. | CORROBORATED | hög | [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Den positiva 1907-raden visar en återkomst efter 1903 års Livgardesnotis men anger inte när eller varifrån han återkom. C-0796:s egenrad har däremot destination Gustaf Vasa församling, Stockholm, 28november1907. Frånvaron är strikt sid- och hushållsbunden. |
+| A-4389 | Karl Oskars egen rad i Segerslund sida 185 anger Gustaf Vasa församling i Stockholm, 1907-11-28, och militärnumret 335 44/06. | TRANSCRIBED | hög | [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Datum och destination hör till hans rad19, inte faderns hela hushåll. Exakt återkomst efter1903 och militärtjänstens förlopp återstår. |
 
 ## Relationer
 
@@ -35,9 +36,13 @@ Axel Edvard Erikssons yngre bror, redovisad i faderns hushåll i Brosätter.
   registerhänvisning eller militär brygga.
 - C-0796 återfinner honom i faderns hushåll i Flen 1907 och visar att han
   inte följer den säkra familjekedjan vidare från Segerslund sida 224 år
-  1908. Sök nästa gång med denna positiva återkomst som startnyckel; gör
-  inte sidfrånvaron till en utflyttning eller destination.
+  1908. Den egna radens positiva Gustaf Vasa-hänvisning1907-11-28 ger nu nästa
+  ortnyckel; den ska användas före ett obundet destinationssvep.
 - Återstarta i Riksarkivets `SE/KrA/0161/019:Ö/D I/5` eller
   `SE/KrA/0161/020:Ö/D IV/4` först när en lagligt tillgänglig internetbild
   exponeras; ingen läsesals- eller kopiebeställning ska göras. Den exakta
   1910/1930-folkräkningsfrågan är fortsatt åtkomstspärrad av en ny ALTCHA.
+
+## Konsolideringsrättelse — T-0132
+
+T-0183 äger full akt-/profilgranskning. Äldre A-3059:s påstående att sidan inte anger vart han tog vägen är rättat efter fullkolumnläsning. C-0769:s fulla dopvittnen och kyrktagning31januari1886 tillgodoräknas.

@@ -74,3 +74,11 @@ ovan är nu utfört; inga redan lästa routingprov ska upprepas.
 | [C-0875-00081266_00259-sida529-routing.png](../media/C-0875-00081266_00259-sida529-routing.png) | `dac37de76c9612199c7d20b53252ac8f62e8ee59fa72ae367c0cedd8a002dd21` |
 | [C-0875-00081266_00260-sida530-routing.png](../media/C-0875-00081266_00260-sida530-routing.png) | `4c9df48f7e9369deab51f8bbaf73c1603138d7526bc20c82855e85bcc207b597` |
 | [C-0875-00081266_00265-sida535-routing.png](../media/C-0875-00081266_00265-sida535-routing.png) | `9fb033beef169a6403ef5386f4c905df12abe2e56816d7f7db2b077eeae8b42d` |
+
+## Återupptagningsrättelse 2026-09-07 — T-0121
+
+C-1050 har redan slutfört kontrollen av531/532 utan målfamiljen.
+Det äldre nästa-steget ovan är passerat. Sök inte om samma spridda
+sidor: den konkreta nästa nyckeln är1916års inflyttningspost, inte ett
+nytt allmänt sidsvep. Karlshaga är läst som ortområde; målfamiljens
+hushåll före1922är fortfarande inte identifierat av dessa sidnoll.

@@ -110,3 +110,25 @@ kopior är speglade.
 ## Stödda påståenden
 
 A-3646–A-3649 (P-0016); A-3650–A-3651 (P-0532).
+
+## Tillägg T-0125, 2026-09-07: källkedja och avgränsning
+
+Den positiva vigseln 1903-05-01 gäller fortsatt. Register, lysningsbok
+och vigselbok är tre led i samma registreringskedja och får inte räknas
+som tre oberoende vittnesmål om samma vigsel eller födelsedatum. Paret
+är ändå direkt bundet genom namn, datum, adress och korshänvisningarna
+86/03 och 96/03.
+
+Västmannagatan 72 är bostadsfältet vid lysningen/vigselregistreringen,
+inte i sig en angiven fysisk vigsellokal. Uppgiften bevisar inte heller
+att paret bodde kvar där tills barnen föddes 1907 och 1910. Hennes
+inflyttning 1902-10-30 är kyrkobokföringsuppgift, inte en full livslinje
+sedan 1900. Avskriften anger hennes kristendomskunskap `god`, egen
+giftoman `sj.` och tomt eget vaccinationsfält; mannens värnpliktsnot
+hör till honom. Tomfält och redan prövad läsosäkerhet i förrättarnamnet
+är inte i sig fullutvinningsbrister.
+
+Alla tre bilderna har browserberäknad hash men saknar lokal fil.
+Bevarande och fullpostavstämning ägs av T-0237; ingen ny bild har hämtats
+här. Äldre vigselhypoteser är sakligt ersatta utan att deras korrekta
+avgränsade nollresultat raderas.

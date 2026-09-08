@@ -109,3 +109,33 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3366 (P-0028), A-3367 (P-0029), A-3368 (P-0242), A-3369 (P-0243).
+
+## Carlmanhushållets räckvidd2026-09-07, T-0124
+
+Barnens uppgivna födelseorter ger ortsankare men daterar inte
+hela hushållets flyttar. Jönköping1929→Kalmar måste hållas isär
+från barnens Kalmarfödslar1909–1916; någon obruten vistelse i
+Kalmar sedan1909 är inte styrkt. Uppgiften Högsby för Johan är
+en senare avvikelse mot Högby i egen födelse och barndomshushåll.
+De sex1930hemmavarande barnen är inte hela parets kända barnantal.
+Hushållerskan är en tjänsteperson, inte automatiskt släkt.
+
+### Datum- och fältomläsning, T-0124
+
+Fullbilden och utsnitt av Carlmanhushållet har lästs av root och
+oberoende omläsare. Inflyttningsåret från Jönköping är **09,1909**,
+inte1929. Den tidigare avskriften är därmed rättad; barnens orter
+är förenliga med1909flytt men bevisar inte ensamma flyttdatum.
+
+Troskolumnen innehåller en reserverad förkortning **Sv.Mff.[?]**
+för paret, med vad som ser ut som koden10 på vardera raden och
+återupprepningstecken. Ingen tolkning som år1904, säker full
+samfundsbenämning eller trosengagemangets datum införs innan
+kolumnens kodsystem och bokstavsläsning är prövade. Detta är en
+konkret personbunden notis som tidigare kärnavskrift utelämnat.
+
+Johan har skolbildningskod5, Elin4; barnkolumnen och inkomst-/
+förmögenhetskolumnen skall utvinnas med sina tryckta rubriker.
+Tryckt sidhuvud på bevarad bild anger298; den äldre citationens
+sida295 är inte rätt sidlokator för detta original. Uppslag4774
+och bild-idB0001095_00300 är säkra.

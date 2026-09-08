@@ -56,3 +56,26 @@ Flen, har kontrollerats.
 ## Stödda påståenden
 
 A-0530–A-0539.
+
+
+## Fullfält och senare identitetsstöd 2026-09-08 — T-0129
+
+Root och persongranskaren har sett hela egna posten i bevarad fullbild.
+Carl Fredrik föds24 september1861 och **döps29 september**, månaden enligt
+ditto från föregående utskrivna september. Pojke, äkta barn. Nytorp,
+statdrängen Adolf Fredrik Jansson och hustrun Eva Lotta Jonsdotter;
+modern29 år, barnmorskekolumnen `Ex.`. Promemorie- och diversefält är
+tomma; kyrktagningsfältet saknar egen anteckning. Tomma kolumner används
+inte som negativa livsuppgifter.
+
+Dopvittnen läses: Sköldinge socken, [titel svårläst] Carl Johan Carlsson
+och hustru; sonen Carl August Carlsson och dottern Stina Kajsa
+Andersdotter i Ökna Säteri. Titelns eventuella rättarform reserveras.
+Hustrun får inget uppfunnet förnamn och de två senare personernas
+son-/dotterroller ger inga släktband till dopbarnet utan ytterligare stöd.
+
+Den äldre kandidatbedömningen ovan är överspelad av C-0535:s egen vigsel
+med exakt1861-09-24, hushållskedjan och C-0421:s dödpost med samma
+födelsedatum och folio1084. Namn/år/yrkeslikhet eller en årgångs enda
+namnpost bär inte ensamt identifikationen. Faderns Jansson förklarar inte
+säkert hur sonen fick namnet; detta skulle kräva eget belägg.

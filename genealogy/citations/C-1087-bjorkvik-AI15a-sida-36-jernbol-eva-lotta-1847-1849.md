@@ -69,3 +69,10 @@ transkriberade.
 ## Stödda påståenden
 
 A-4073–A-4076.
+
+
+## T-0137: avstämning 2026-09-08
+
+Kandidatposterna gäller TVÅ församlingar: Stora Malm och Björkvik, inte tre. Kandidaten var omkring 17 år 1849, inte 27. Frånvaron i Bråten 1851–1855 avgör inte var hon bodde 1849; senare C-1088/C-1089 binder Berthilstorp. Källorna kan återge gemensamma födelseuppgifter, och år-för-år-kedjan före 1847 är inte läst. Egna kunskaps-/nattvards-/anmärkningsfält på s.36 återstår i T-0312 efter kopian T-0311.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

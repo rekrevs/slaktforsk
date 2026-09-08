@@ -35,3 +35,20 @@ sida 40 skriver samtidigt 1825-08-13; dagkonflikten hålls öppen i C-0594.
 ## Stödda påståenden
 
 A-2046 och A-2232–A-2233.
+
+## Egna familjefält — T-0130, 2026-09-08
+
+Båda makarnas egna rader har vaccinations-v och grafiska kunskapstecken,
+med1854 16/7 som vigselankare. Henrik skrivs inhysesman. Inflyttningen
+från Lagf.Br. dateras1855 20/11[?], följd av hustruns ditto; överföring
+till54. Egna fräjd-/anmärkningsfält är tomma. Eget förhörstecken1855,
+nattvard19/10 1856 och senare släng-/strykliknande tecken1857/1858 har
+prövats; de senare är inte säkert avlästa kalenderdatum. Barnradernas
+befintliga datum tillgodoräknas, med faktisk tvillingpost tillagd i C-0470.
+
+### Förnyad datumprövning inom T-0130
+
+Förstoring av inflyttningskolumnen ger **1855 21/11**. Den första
+reservationen 20/11[?] ovan ersätts av denna läsning. C-0471:s separata
+inflyttningspost 176 har 2 december 1855. Datumen bevaras som olika
+bokföringsuppgifter; de avgör inte utan vidare den fysiska flyttdagen.

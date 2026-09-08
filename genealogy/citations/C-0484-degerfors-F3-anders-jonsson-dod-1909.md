@@ -27,3 +27,7 @@ den kyrkliga bokföringen. Orsaken återges som den historiska termen
 ## Stödda påståenden
 
 A-0599 och A-2265.
+
+## T-0129: full målpost kontrollerad 2026-09-08
+
+Post 74 är återläst i den bevarade fullbilden, tillsammans med rubrikerna och datumföljden: död 21 oktober 1909, bonde Anders Jonsson i Buberget, född 16 april 1839, man och änklingsmarkering, församlingsbok 1088, dödsorsak `ålderdomsbräckl.`, begravd 4 november. Dödsortskolumnen är rubricerad ”om annan än hemorten” och tom för honom. Även attestkolumner och särskilda anmärkningar är tomma. Buberget är den uttryckliga hemvisten; blank annan-dödsort är förenlig med död där men ger inte en exakt byggnad eller uttryckligt separat dödsortsnamn. Ingen medicinsk modernisering av dödsorsaken görs.

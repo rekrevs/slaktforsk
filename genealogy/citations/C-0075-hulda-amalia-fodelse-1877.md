@@ -50,3 +50,24 @@ hans hustru Anna Fredrika Blom.
 ## Stödda påståenden
 
 A-0391–A-0396, A-0400, A-0403–A-0405, A-0407, A-0409–A-0411, A-0416–A-0417 och A-0420–A-0422 samt A-0424.
+
+## Tillägg T-0125, 2026-09-07: fullbildens fält och tolkningsgränser
+
+Den redan lokalt sparade helbilden har visats på nytt. Hulda Amalias post
+är nr 29: september 25, dop september 30, föräldrarna Ålund, Per Albert,
+dräng i Djupnäs, och hans hustru Adela Amalia med efternamnet läst
+Urbom/Ulbom. Dopvittnena och boställesreservationen ovan består.
+Djupnäs är föräldrarnas hemvist i kolumnen, inte en uttryckligen angiven
+fysisk förlossningsplats.
+
+Talen `27` och `28` står ovanför varandra i samma kolumn 21. Rubriken är
+under `Modren`: `dess sist fyllda ålders-år`. Den äldre förklaringen
+”27 år och fylla 28 under året” följer inte av formuläret och ska inte
+användas som säker tolkning. Det är inte två kolumner för faderns och
+moderns ålder. Råtalen bevaras utan att välja ett av dem. Kolumn 22 om
+examinerat förlossningsbiträde ser ut att ha ett streck i denna post;
+ingen barnmorska namnges. Efter dopvittnena står ett datum som läses
+`4/11[?]` i kolumnen för kvinnans kyrkotagning; detta ska inte ersätta
+barnets dopdatum. Den exakta läsningen och formulärfältens slutliga
+avstämning ingår i T-0237. En prövad läsosäkerhet är inte i sig ett
+underkännande av full informationsutvinning.

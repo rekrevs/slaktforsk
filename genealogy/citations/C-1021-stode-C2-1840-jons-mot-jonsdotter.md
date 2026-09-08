@@ -64,3 +64,9 @@ vigselboken **1830** ([C-1020](C-1020-stode-AI8-sida-88-standsbokstaven-och-gift
 ## Stödda påståenden
 
 A-3799; motivering av den kanoniska modellens namnval.
+
+## T-0136: individuell fullpost- och gränsprövning, 2026-09-08
+
+Den dokumenterade skillnaden Jöns/Jons mellan de skrivna raderna bevaras som en källbunden namnobservation. Den identifierar däremot inte moderns far: ett patronymikon är en söknyckel, inte en personbunden föräldrabrygga, och Jon/Jöns måste båda kunna prövas. Skrivarnas avsikt och en eventuell påverkan från makens namn är inte bevisade förlopp. Moderns olika former kan höra till samma kvinna genom make, barn, tid och hemvist; ingen ny mor följer av prickskillnaden.
+
+Den redan lästa vigselposten C-1024 skriver Cajsa Brita Jons D:r men namnger inte fadern separat. Äldre formuleringar om att vigseln ska avgöra faderns namn, eller redan gör det slutgiltigt, ersätts av denna gräns.

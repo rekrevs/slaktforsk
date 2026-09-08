@@ -1,5 +1,7 @@
 # Forskningsprofil för P-NNNN
 
+Följ [aktstandarden](../person-standard.md) för format och konsolidering.
+
 - Kontrakt: `person-research/v1`
 - Person: P-NNNN
 - Identitetsläge: `EJ BEDÖMT`

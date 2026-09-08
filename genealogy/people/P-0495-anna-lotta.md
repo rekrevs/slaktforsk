@@ -2,7 +2,7 @@
 
 ## Identitet
 
-Dotter till soldaten Carl Eric Grill och Johanna Jonsdotter i Glippsta
+Dotter till soldaten Carl Fr. Drill och Johanna Jonsdotter i Glippsta
 soldattorp, Bettna. Födelseoriginalet och två följande hushållsvolymer
 sammanfaller i namn, datum, plats och föräldrapar. Efternamn konstrueras
 inte när det saknas i målposten.
@@ -11,7 +11,7 @@ inte när det saknas i målposten.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-3042 | Anna Lotta föddes 1846-01-14 och döptes 18 januari i Glippsta soldattorp, Bettna, som dotter till soldaten Carl Eric Grill och hustrun Johanna Jonsdotter. | CORROBORATED | mycket hög | [C-0794](../citations/C-0794-grillfamiljens-barn-bettna-C5-C6.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md) | C/5 anger moderns ålder till 26 år; namn, datum och familj upprepas i A I/12 a–A I/13 a. |
+| A-3042 | Anna Lotta föddes 1846-01-14 och döptes 18 januari i Glippsta soldattorp, Bettna, som dotter till soldaten Carl Fr. Drill och hustrun Johanna Jonsdotter. | CORROBORATED | mycket hög | [C-0794](../citations/C-0794-grillfamiljens-barn-bettna-C5-C6.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md) | C/5 anger moderns ålder till 26 år; namn, datum och familj upprepas i A I/12 a–A I/13 a. |
 
 ## Relationer
 
@@ -26,3 +26,12 @@ inte när det saknas i målposten.
 - Status: `SIDOPERSON — FÖDELSE OCH FÖRÄLDRAR SÄKRA`
 - Senare liv, eventuell vigsel och död är öppna och följs först i en
   framtida sidogrenrotation med ny flytt- eller hushållsnyckel.
+
+
+## Historik och rättelser
+
+2026-09-08, T-0139: C-0794:s bevarade födelsefullbild andraläst. Fadern skrivs Carl Fr. Drill, inte äldre avskrift Carl Eric Grill; förkortningen bevaras utan uppfunnen namnkonflikt. Föräldrakorrelationen består. T-0202 äger full individuell akt-/profiladoption. Äldre formuleringar:
+
+> Dotter till soldaten Carl Eric Grill och Johanna Jonsdotter i Glippsta
+
+> | A-3042 | Anna Lotta föddes 1846-01-14 och döptes 18 januari i Glippsta soldattorp, Bettna, som dotter till soldaten Carl Eric Grill och hustrun Johanna Jonsdotter. | CORROBORATED | mycket hög | [C-0794](../citations/C-0794-grillfamiljens-barn-bettna-C5-C6.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md) | C/5 anger moderns ålder till 26 år; namn, datum och familj upprepas i A I/12 a–A I/13 a. |

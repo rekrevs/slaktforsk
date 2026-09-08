@@ -27,7 +27,7 @@ Hon är därmed Lotta Sofia Andersdotters farmor.
 ## Forskningsfrågor
 
 - Sök hennes födelsenotis i Umeå stadsförsamling 1783 och hennes föräldrar.
-- Identifiera hennes make, som bör ha hetat Olof och avlidit före 1861.
+- Identifiera hennes make och Anders biologiska far genom positiva personbelägg; änkestatusen och patronymikonet avgör inte att det är samma man eller hans dödsår.
 
 ## Återöppnad forskningsfront 2026-08-21
 
@@ -74,3 +74,12 @@ Hon är därmed Lotta Sofia Andersdotters farmor.
 - Konsolidering: `GRANSKAD` 2026-09-04 (T-0041)
 - Källbredd: `KLAR` — det uppgivna födelseåret är helt läst; fortsatt säker
   forskning kräver en ny personbunden nyckel.
+
+
+### Avgränsad följdrättelse — T-0139, 2026-09-08
+
+C-0111:s Moder/änka har personbunden omläsning i T-0139. Sonens korrigerade vigselålder 22 och Rödåhemvist 1828 ändrar inte moderns eget uppgivna 1783/Umeå sfg. T-0169 äger full adoption; T-0318 den fasta tidigareboksvägen.
+
+Äldre ersatta formuleringar:
+
+> - Identifiera hennes make, som bör ha hetat Olof och avlidit före 1861.

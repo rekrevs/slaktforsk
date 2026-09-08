@@ -69,3 +69,7 @@ därmed **inte** belagda och får inte antas.
 ## Stödda påståenden
 
 A-3877–A-3881.
+
+## Beräkningsrättelse 2026-09-07 — T-0113
+
+A-4131 rättar A-3881:s kommentar ”exakt fjorton år”. Makens dödsdatum 1899-06-23 här och Barbros 1913-05-23 i C-0569 ger **tretton år och elva månader**, alltså knappt fjorton år. Inget dödsdatum ändras.

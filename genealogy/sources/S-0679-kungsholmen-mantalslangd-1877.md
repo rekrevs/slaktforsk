@@ -53,3 +53,12 @@ JSON-LD anger endast analog instansiering och OAI saknar bildlänk.
 Detta är inte ett kontrollerat bildvisarhinder eller ett källnoll.
 Den vanliga katalogens åtkomst och alternativa leverantörer återstår;
 webbverktyget kunde inte öppna katalogadressen (internt safe-open-fel).
+
+
+## Senare läge inför T-0128, 2026-09-08
+
+T-0051:s senaste checkpoint har redan visat den separata katalogen utan
+ALTCHA som Läsesal, utan bildlänk; Visa detaljer återstår. Den tidigare
+formuleringen om oprövad vanlig katalog ovan är därför föråldrad. C-0866
+har fullfältsomläsning med bevarade råreservationer. Ingen ny volym behöver
+lokaliseras för längdposten; mantalsuppgiften är en annan, oläst handling.

@@ -33,3 +33,15 @@ som de senare längderna återger, var dopdagen.
 ## Stödda påståenden
 
 A-1863–A-1865, A-1881.
+
+## Full egenpost prövad — T-0135, 2026-09-08
+
+Post 42 är läst i hela den bevarade bilden, inklusive vittnesled och sista åldersliknande kolumn. Året 1821 står på uppslagets båda sidor. Barnet läses **Adolph Fredrik i Stordalen**, född **24 juli**, döpt **25 juli**. Föräldraledet är **F. Peter Ajax, M. Cajsa Jonsd:r**. Ingen särskild föräldratitel eller egen separat kyrktagnings-, dopförrättar-, sjukdoms- eller marginalnot anges i posten.
+
+Det tidigare outvunna vittnesledet läses **Lars P.[?] Anderss.[?] och H. Anna Månsd:r fr. Ö…m[?]**. De svaga initial-/slutleden och orten är prövade men reserverade; inga nya personer identifieras på denna ofullständiga läsning. H. anger hustru i vittnesledet. Ingen släktrelation till föräldrarna följer av vittnesrollen.
+
+Sista kolumnens råtal läses **29[?]**, efter oberoende andraläsning; den första arbetsläsningen 27[?] ersätts. Hela uppslaget saknar egen rubrik för denna kolumn. Talet är en sannolik modersålder men ingen självständigt verifierad egen födelsetid för Cajsa. Inga fält lämnas helt oprövade i målposten; svaga tecken är redovisade läsreservationer.
+
+Husförhörens 25 juli sammanfaller med dopdagen, medan originalet anger födelse den 24:e. Detta avgör den prioriterade födelsedagen men visar inte exakt hur senare skrivare fick sin avvikande dag. Stordalen är ortledet i barnposten; hemvist och exakt fysisk förlossningsplats ska inte likställas utan ytterligare uppgift.
+
+Den bevarade fullbildens SHA-256 har omräknats och stämmer med ovanstående **dbc8bb7b9ee20ac6dd29fb88ece9083b52356490c636a4536c72cf3c4ea6aa0a**. Ingen egen kopieskuld föreligger. S-0234:s tidigare uppgift att vittnena inte är fullständigt avlästa ersätts av denna fullpostprövning med uttryckliga reservationer.

@@ -61,3 +61,13 @@ digitaliseringsbesked. S-0753 bär hela batchkartan för Mellösa före 1861.
 ## Stödda påståenden
 
 A-3617 (P-0131), A-3618 (P-0132).
+
+
+## T-0137: avstämning 2026-09-08
+
+De följande tidigare öppnade bilderna återfanns av den oberoende kopiegranskaren i lokala cachefiler. Alla käll- och målfiler är byteidentiska och SHA-256 har kontrollerats. Volym/folio/år prövades visuellt samt mot metadata och identiska befintliga målbildsankare. Ingen ny arkivhämtning eller ny frånvaroslutsats har gjorts. Dessa bilder är därför inte längre kopieskuld.
+
+| Bild-id | Lokal kopia | Mått | SHA-256 |
+|---|---|---|---|
+| `C0007232_00035` | [C-0965-riksarkivet-C0007232_00035-aterfunnen-T0137.jpg](../media/C-0965-riksarkivet-C0007232_00035-aterfunnen-T0137.jpg) | 1400x 1075 | `765cd7c9eb02c7a508842698f793c2b3df25d1dbefe911beea699704e6c94418` |
+| `C0007232_00036` | [C-0965-riksarkivet-C0007232_00036-aterfunnen-T0137.jpg](../media/C-0965-riksarkivet-C0007232_00036-aterfunnen-T0137.jpg) | 1400x 1102 | `eb1a6ffbad8e0951297fbbeb4778f3c0c63e8a71b19f8809c688c99f00d96bc9` |

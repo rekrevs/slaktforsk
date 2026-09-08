@@ -22,8 +22,8 @@ morfars far.
 | A-0767 | Hushållslängden anger honom som far till Anders Gustaf, född 1852-11-11 i Bettna. | TRANSCRIBED | medel | [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md) | Familjeraden är bevarad; någon motsvarande födelsenotis återfanns inte i den genomgångna delen av Bettna C/5. |
 | A-2380 | Hustrun kallas änka vid dotterns lysning i april 1886; Lars Andersson var alltså död före 1886-04-04. | TRANSCRIBED | medel | [C-0535](../citations/C-0535-lerbo-EI4-jansson-larsson-vigsel-1886.md) | Indirekt dödsintervall via änkestatus; den egna dödposten är nu C-0541. |
 | A-2397 | Lars Andersson, torpare i Anderslund, dog 1874-02-05 i Anderslund av magkräfta och begravdes 12[?] februari 1874; Lerbo F/1 1874 nr 4. | TRANSCRIBED | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md) | Begravningens dagsiffra är överskriven (12/13). |
-| A-2398 | Åldern vid döden, 53 år 5 månader 14 dagar, räknar tillbaka till 1820-08-22 och stöder den uppgivna födelsen 1820-08-21 inom en dag. | CORROBORATED | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md), [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md) | Två oberoende källor ger samma födelsetid; födelsenotisen saknas fortfarande, se A-0723. |
-| A-2399 | Dödboken hänvisar till husförhörsbokens `p. 164`, det vill säga Anderslund i Lerbo A I/20 1871–1875. | LEAD | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md) | Volymen saknar bildlänk i sök-API:et; återstart för ursprung och vigsel. |
+| A-2398 | Åldern vid döden, 53 år 5 månader 14 dagar, räknar tillbaka till 1820-08-22 och stöder den uppgivna födelsen 1820-08-21 inom en dag. | CORROBORATED | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md), [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md) | Dödsåldern kan bygga på hushållsbokens datum och är inte ett belagt oberoende födelsebevis. Egen födelsepost återstår; A-0723:s gamla noll gällde fel år enligt C-1023. |
+| A-2399 | Dödboken hänvisar till husförhörsbokens `p. 164`, det vill säga Anderslund i Lerbo A I/20 1871–1875. | LEAD | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md) | Äldre åtkomsthinder är inaktuellt: AI/20 har nu bildrouting C0006947 enligt C-1095/S-0790; egen Anderslundfolio 164 är ännu inte läst. |
 | A-3803 | Västra Vingåker C/7 bild 177 är sida 158 och året **1822**, inte 1820; det negativa resultatet i A-0723 gäller därför fel årgång och bär inte slutsatsen om födelsedagen 1820-08-21. | NEGATIVE | hög | [C-1023](../citations/C-1023-vastra-vingaker-C7-bild-177-ar-1822.md) | Läst i originalupplösning 6 176 × 4 880 px; rubriken `År 1822` står utskriven på båda halvorna. Augusti 1820 ligger före bild 150, som är sida 131 och år 1821. |
 
 ## Relationer
@@ -58,7 +58,7 @@ morfars far.
 - Genomsökt: Västra Vingåker C/7, bilderna 177–178 — **omlästa 2026-09-07 och
   funna vara augusti 1822, inte 1820** (C-1023), alltså **inte** en genomsökning
   av den uppgivna födelsedagen;
-  vigselåret 1847 i Stora Malm E I/2, Sköldinge C/4, Västra Vingåker E I/1,
+  kontroller för vigseldagen 1847-10-20 i Stora Malm E I/2, Sköldinge C/4, Västra Vingåker E I/1,
   Bettna E I/2 och Lerbo C/4; Stora Malm A I/20a, Vallaområdet; Bettna C/5
   kring den uppgivne sonen Anders Gustafs födelse 1852-11-11.
 - Negativ kontroll: [C-0132](../citations/C-0132-vastra-vingaker-negativ-lars-1820.md)
@@ -82,3 +82,14 @@ morfars far.
 - Källbredd: `PÅGÅR` — **födelsevägen är inte prövad**: kontrollen 2026-08-20
   gällde fel årgång (C-1023), och Västra Vingåker C/7 för augusti 1820 är
   oläst. Vigsel-, hushålls- och dödsvägarna är avgränsade som förut.
+
+
+### Begränsad följdavstämning — T-0137, 2026-09-08
+
+C-0541:s fulla egenpost är återprövad; död 5 februari 1874 består och begravningsdagen 12[13?] förblir reserverad. C-0128 ger Carl Augusts dop 8 oktober 1848 och en avvikande mor Brita Stina Jansdotter[?], rå 27 år. Detta gör inte Brita Kajsa till hans biologiska mor. T-0310 äger Walla-bryggan; T-0307 äger 19 fasta kopior, två gamla registerreferenser och sju uttryckligt avgränsade äldre referensbrister. Full profilinföring och egen granskning ägs av T-0165; denna följdpassage är begränsad till dessa uppgifter.
+
+Tidigare ändrade lydelser bevarade:
+
+> | A-2398 | Åldern vid döden, 53 år 5 månader 14 dagar, räknar tillbaka till 1820-08-22 och stöder den uppgivna födelsen 1820-08-21 inom en dag. | CORROBORATED | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md), [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md) | Två oberoende källor ger samma födelsetid; födelsenotisen saknas fortfarande, se A-0723. |
+> | A-2399 | Dödboken hänvisar till husförhörsbokens `p. 164`, det vill säga Anderslund i Lerbo A I/20 1871–1875. | LEAD | hög | [C-0541](../citations/C-0541-lerbo-F1-lars-andersson-dod-1874.md) | Volymen saknar bildlänk i sök-API:et; återstart för ursprung och vigsel. |
+>   vigselåret 1847 i Stora Malm E I/2, Sköldinge C/4, Västra Vingåker E I/1,

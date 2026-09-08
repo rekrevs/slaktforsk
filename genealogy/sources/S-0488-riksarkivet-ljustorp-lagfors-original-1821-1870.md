@@ -45,3 +45,21 @@ De tidigare uppgifterna att bildinstansieringarna saknade URI beskrev ett
 sessionshinder, inte faktisk digital frånvaro. De permanenta posterna och
 reproduktionskoderna ovan är nu återaktiveringsvägen.
 
+
+
+## Fullbild och kvarstående bevarandegräns — T-0138, 2026-09-08
+
+C-0624:s fulla Ljustorpbild C0033123_00060 finns under C-0678 med rätt
+hash. Hela parets och de tre döttrarnas rader är nu utvunna i C-0624,
+inklusive egna förhörs-/nattvardsfält och tomma kolumner. Ortens råform
+Tyske[?] görs inte till Tynderö eller en födelseförsamling. Årsnoteringen
+Lagfors 1827 är en bokföringshänvisning utan exakt fysisk flyttdag.
+
+C-0626:s bevarade skärmbild visar kolaren Henric Henricsson och
+närliggande familjer men inte hela uppslagets årskolumner. De tre tidigare
+öppnade fullbilderna C0033097_00044–00046 behöver återbevaras i T-0263,
+som redan äger denna rest tillsammans med C-0625:s flyttbild. P-0451:s
+egen fullrad på sida 34 ska då prövas. C-0593:s bevarade databastranskription
+av samma sida är ett kompletterande avskriftsbelägg, ingen ersättning för
+saknade originalkolumner. Britas frånvaro i den begränsade 1860-talspassagen
+är inte en identifierad dödshändelse.

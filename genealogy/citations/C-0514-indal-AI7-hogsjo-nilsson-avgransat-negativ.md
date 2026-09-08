@@ -41,3 +41,10 @@ kontrollen.
 ## Stödda påståenden
 
 A-2327.
+
+
+## T-0136: egen fullpost och rättelse 2026-09-08
+
+Avsnittsnollet gäller kombinationen Nils Pehrsson med uppgivet datum 1802-07-19 och sonen Lars Petter 1836-12-27. Det är inte bevis för att någon av dem aldrig bodde i Högsjö eller att Lisa Stina Larsdotter saknas i hela volymen. Den äldre namnlika familjen på sida 86 är inte en positiv målträff. De tio länkade fullbilderna finns; gränssida 96/Krånge, som äldre kontroll uttryckligen åberopar, har däremot inte återfunnits som lokal kopia efter sökning på bild-id, sida och alias i media/temporärmaterial. Nästa bild-id enligt följden är C0033068_00117; den lokaliseringen behöver kontrolleras vid bevarande. En saknad gränskopia ändrar inte det dokumenterade sökomfånget men är en proveniensrest.
+
+C-1018 har redan prövat de egna bakåthänvisningarna som tomma. Arklo 1836 enligt C-1017 ger i stället en konkret hushållsingång i A I/6; att en annan sida i volymen är läst innebär inte att Arklohushållet är läst.

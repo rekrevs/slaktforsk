@@ -31,3 +31,20 @@ Det exakta datumet kommer från den samtidiga utflyttningslängden i
 ## Stödda påståenden
 
 A-3021–A-3022.
+
+## Tillägg 2026-09-08 — T-0132, faderns egen rad och familjeövergång
+
+A I/18 sida 83, Svartgjötorp under Malstanäs, har på rad 1 torparen
+och änklingen Erik Carlsson, född 1851-01-30 i Bettna, änkling 1887,
+från sida 116 år 1879. Egen utflyttning anges till Flens församling,
+94 3/1 (1894-01-03), attest 3. Klammern omfattar de kvarförda barnen;
+Anna Erika har en separat Sköldinge-notering 1892 och ingår inte i
+faderns Flen-datering. Flytten till Flen är således positivt ankrad redan
+1894, före vigselns Bergatorp-ankare 1895.
+
+Egna vaccinfältet har v och läsfälten tre grafiska markeringar. Få små
+förhörs-/nattvardsmarkeringar är prövade men reserveras utan säker
+sammanhängande års- och dagsavskrift. Egna militär-, frejd- och dödsfält
+är tomma. Dessa källgränser bevisar ingen frånvaro från förhör eller
+militärtjänst. Senare hushåll nedanför familjen får inga relationer till
+Erik genom sin placering på samma blad. Fulloriginal och hash återanvänds.

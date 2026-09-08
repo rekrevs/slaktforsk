@@ -84,3 +84,11 @@ vistelse- eller levnadsbelägg.
 ## Stödda påståenden
 
 A-2893–A-2895.
+
+## T-0139: hela bevarade egna döds- och slutraden
+
+Den sparade sammansatta F/4-målposten innehåller läsbara kolumnrubriker och hela personraden. Post 1 visar Carl Fredrik Grill, avskedad soldat från Stora Hesselstugan, död 4 januari 1895 och begravd 13 januari, född **1822 9/4**, man och änkling. Hänvisningen är `1:27`. Dödsorsak, uppgift om läkar-/annan dödsattest, särskild dödsort och särskilda anmärkningar är tomma. Bostaden är inte därmed en uttryckligen angiven fysisk dödsplats. Marginalens korta streck/text är prövade utan säkert nytt sakpåstående.
+
+Den bevarade läsbara browserkopian av A I/21 a sida 27, rad 8, visar också **1822 9/4 Halla**, inte äldre avskriftens juli. Han är avskedad soldat, änkling sedan **24/2 83**, med `v`, fyra grafiska kunskapsbetyg och hänvisning från **p. 1:47 år 94**. Dödsfältet är **4/1 95**. Egna årsvisa förhörs-/nattvardsfält och utkolumn är tomma. Den korta anmärkningen läses reserverat `Fri.[?]` och får inte en säker juridisk eller ekonomisk uttolkning. Kopian räcker för de egna fälten; avsaknad av en annan maxfil är inte i sig kopieskuld.
+
+Påståendet ovan om ett fullständigt Halla-årgångsnoll är senare upphävt av C-0798:s positiva födelsepost. April/juli är fortfarande en verklig uppgiftsavvikelse mot de egna rekryteringsattesterna 1840, men dessa två sena originalrader och flera tidigare husförhör anger april. Äldre felavskrifter räknas inte som ytterligare oberoende julibelägg.

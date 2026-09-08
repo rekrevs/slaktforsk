@@ -52,3 +52,12 @@ För mediamanifestets källavgränsning är metadatafilens exakta namn
 ## Stödda påståenden
 
 A-0544–A-0545, A-2834, A-2836 och A-2903–A-2906.
+
+## Fullpostavstämning — T-0132, 2026-09-08
+
+Den egna Grill Erik-raden på högersidan är återläst inklusive hela
+namn-/yrkes-/anmärkningsfältet och civilståndskolumnerna. Dräng,1851
+Bettna, man och ogift består. Ingen särskild egen lytes- eller
+nationalitetsnot är införd. Föregående Nilsson–Ersdotter-hushåll ger
+ordningsankare men ingen ny släktrelation. Raden innehåller inga
+födelsedagar, personliga inkomster eller militära tjänsteuppgifter.

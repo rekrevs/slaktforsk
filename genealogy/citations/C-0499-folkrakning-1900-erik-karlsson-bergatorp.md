@@ -21,3 +21,16 @@ Gustaf Karlsson; inget släktskap med honom infereras.
 ## Stödda påståenden
 
 A-2288 och A-2296.
+
+## Fullpostavstämning — T-0132, 2026-09-08
+
+Fullbildens fem egna rader under Bergatorp visar Erik Karlsson,
+torpare,1851 Bettna, hustrun Matilda Charlotta Sjöberg1860 Björkvik,
+sönerna i första giftet Axel Edvard1881 och Karl Oskar1885 samt
+fostersonen Sven Arvid Eriksson1898 i Flen. Sönernas ortfält använder
+dito från Björkvik; detta är en senare bokavvikelse mot deras egna
+Forssafödelser, inte bevis för annan person. Hur avvikelsen uppstod
+är inte bevisat. Paret har giftesmarkeringar, pojkarna ogiftmarkeringar.
+De egna lytes-, trosbekännelsens och nationalitetens avvikelsefält är
+tomma. Drängen Per Gustaf Karlsson1853 Dunker bildar egen familjerad
+och blir inte därigenom son eller annan säker släkting.

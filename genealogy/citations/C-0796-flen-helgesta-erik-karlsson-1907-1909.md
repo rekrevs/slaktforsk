@@ -79,3 +79,53 @@ bevarar sidkedjan, rättelserna och åtkomstomprovet, SHA-256
 ## Stödda påståenden
 
 A-3053–A-3059.
+
+## Tillägg 2026-09-08 — T-0132, personbunden fullpost och rättelse
+
+Samtliga sex bevarade fullbilder har nu lästs för Erik och hans hushåll.
+Beteckningar och flyttfält behöver följande materiella rättelser:
+
+- Flen A II a/2 a sida 216 rader 1–4: Erik är torpare, Matilda hustru,
+  Sven Arvid fosterson och Karl Oskar son. Hänvisningen från G.B. 349
+  går vidare till sida 185 den **13 november 1907**, inte 13 oktober.
+- Sida 185 rader 17–20: Erik skrivs **Grundägare**. Från sida 216 står
+  07 13/11. **Gustaf Vasa förs., Stockholm, 07 28/11 gäller endast
+  sonen Karl Oskar på rad 19**, inte fadern, modern eller fostersonen.
+  Karl Oskars militära nummer är 335 44/06. Den äldre förklaringen att
+  28 november är hela hushållets överföring till en fortsättningsbok är fel.
+- A II a/3 c sida 224 rader 15–17: Erik skrivs åter **Grundägare**,
+  med Matilda och Sven Arvid. Hänvisningen går till sida 255 den
+  30 oktober 1908.
+- Sida 255 rader 6–8: Erik skrivs **Arbetare** redan i Flen; från sida
+  224 den 30 oktober 1908, till Helgesta den 18 januari 1909.
+- Helgesta A II a/2 sida 313 rader 1–3 har rubriken **Skeboqvarn**,
+  Gåpresnäs rote. Arbetaren Erik, hustrun och fostersonen förs från
+  Flen den 22 januari 1909 och till sida 315 år 1909. Sida 315 rader
+  20–22 står under den egna gruppens Vilhelmsro-rubrik.
+
+Sven Arvids uppgivna födelsedatum är **1898-07-27**, belagt på flera
+av dessa rader; tidigare 7/7 är avskriftsfel. Familjerelationerna ger
+inte Erik biologiskt faderskap till fostersonen. Egen födelsetid
+1851-01-30 Bettna och vigsel 1895-12-28 är senare bokuppgifter, inte
+sex informationsoberoende händelsevittnen.
+
+Eriks och Matildas egna vaccinfält har v och kunskapsbeteckningarna b/N
+respektive c/N på de senare sidorna. Hustruns sida 216 har förhör 05;
+Eriks egna förhörs-, anmärknings-, militär- och dödsfält i målpassagerna
+är tomma. Karl Oskars nummer tillhör honom ensam. Grundägare är bokens
+faktiska beteckning; den anger inte areal, äganderättens omfattning,
+förmögenhet eller orsaken till nästa yrkesbeteckning. Bokdatum får inte
+presenteras som säkra fysiska resdagar eller som en bevisad social nedgång.
+
+## Fullpostprövning och rättelse — T-0143, 2026-09-08
+
+Samtliga sex positiva hushållsuppslag har granskats för Matilda Charlottas och Sven Arvids egna rader. De redan fullprövade flyttkedjorna och föräldratitlarna från T-0132 tillgodoräknas. Sven Arvid har genomgående det uppgivna födelsedatumet **27 juli 1898 i Flen** och rollen fosterson; koppor `v`, men egna kunskaps-, förhörs-, frejds- och militärfält är tomma. Han får inte tilldelas Karl Oskars militärnummer eller Stockholmsflytt.
+
+Matilda har koppor `v`, kunskap `c/N`; på Brosätter sida 216 även förhör `05`. På de övriga egna raderna saknas förhörsnot. Bådas egna frejds-/anmärknings-, militär- och dödsfält är tomma. Ingen egen yrkestitel finns utöver Matildas hustruställning och Svens fosterbarnsroll. Makarna har vigseluppgiften 28 december 1895.
+
+Den personbundna kedjan går från Brosätter 216 till Segerslund 185 den 13 november 1907, vidare till nästa boks Segerslund 224 och Wäsby 255 den 30 oktober 1908. Utflyttningen till Helgesta är bokförd 18 januari 1909, mottagandet på Skeboqvarn 313 den 22 januari, därefter Vilhelmsro 315 under 1909. Vilhelmsro 315:s egna familjerader 20–22 saknar vidare utflyttning och död. Tomheten bevisar inte bosättning genom någon senare volyms hela period. Mottagarpostens överstrykning på 313 hör till hänvisningen till 315 och betyder inte död. Ingen slutsats om resans faktiska fyra dagar dras.
+
+
+## Tillägg T-0143, 2026-09-08: Charlottas tidigare Segerslundhushåll
+
+Den redan sparade hela Segerslundbilden F0003350_00208, folio185, har nu prövats för P-0117:s egen rad6 och familjerader5–8. Axel Edvard Eriksson, arbetskarl,81 20/3 Björkvik, uppgiven vigsel02 25/10; h.Charlotta Cecilia Elisab.Gustafsson,83 14/1 Flen; Erik Axel02 22/6 Flen och Ture Edvard04 4/2 Flen. Familjen från p212,04 11/11, till Hyltinge05 2/6. Charlottas egna koppor v och b/N i kyrkliga kunskaps-/nattvardsfält är prövade; egna förhörsår, frejd/övriga anteckningar, värnplikt och dödsfält är tomma. Mannens nr354 44/02 är inte hennes värnplikt. Detta är det redan bevarade positiva ledet från C-0100; folio185 är alltså inte längre en oläst fortsättning. Den tidigare formuleringen oläst i C-0100:s T-0143-tillägg ersätts här. Familjen är skild från Erik Karlssons senare1907-rader på samma sida.

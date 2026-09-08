@@ -64,3 +64,22 @@ den lästa examenslängden och P-0002:s till `Ö`, eftersom hennes seminarium
 
 Inga nya personpåståenden; posten dokumenterar källvägarnas åtkomstläge och
 motiverar matriskoderna i `source-coverage.md`.
+
+## Personbunden räckviddsrättelse 2026-09-07, T-0123
+
+S-0727:s exakta militära arkiv- och volymuppgifter gäller Västerbottens
+regemente och P-0001. Någon egen motsvarande volym för P-0003:s
+22 44/35 redovisas inte. Därför är en personbunden Läsesal-spärr
+för Arnes militära material ännu inte styrkt.
+
+Bouppteckningsprovet anger Västerbottens västra domsaga; det lokaliserar
+inte Arnes bouppteckning1993 i Södertälje. Den generella meningen om
+1990-talets förvaring hos Skatteverket saknar här ett personbundet
+underlag och får inte fungera som fastställt åtkomsthinder för Arne.
+T-0229 skall pröva behörigt arkiv/bestånd, inte beställa handlingen.
+Övriga kohortpersoners egna år/jurisdiktioner måste också prövas
+individuellt innan denna katalogtext används som deras spärr.
+
+Scania-sökningens resultat gäller de angivna sökningarna i NAD; ett
+registersöknoll bevisar inte frånvaro av varje företags-/personalarkiv.
+Ingen ny extern sökning eller ändrad förvaringsuppgift införs här.

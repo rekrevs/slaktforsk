@@ -33,3 +33,8 @@ senare marginalnoteringar har inte gjorts till egna påståenden i denna batch.
 
 A-1613–A-1615, A-1924–A-1926, A-1928–A-1929, A-2335, A-2338 och
 A-2341–A-2342, A-2345, A-2548 och A-2550.
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Omläsning av den sparade A II a/1a-sidan 10 ger Johannes inflyttning 1895-12-31 och postnummer 243, i överensstämmelse med C-0325. Det är inte en Stockholmssida 343. De följande syskonraderna gäller P-0367 Robert Nicolaus och P-0396 Ruth Fredrika. Deras egna flytt-/kyrkliga fält och den möjliga N.B.341-hänvisningens personomfång återstår i T-0232; Johannes redan lästa icke-konfirmerad-notis och tomma egna fält tillgodoräknas.

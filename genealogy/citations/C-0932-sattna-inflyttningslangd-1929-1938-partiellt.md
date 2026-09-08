@@ -97,3 +97,7 @@ läsningen räcker, men 1936 är inte längre ett noll.
 Felet är av samma slag som det falska nollet för Umeå uppslag 2284: en
 sida lästes till en del och togs för hel. Varje bild i `00205404` bär ett
 helt uppslag med **två fulla årssidor**; högersidan måste läsas separat.
+
+## Avstämning 2026-09-07 — T-0119
+
+Rättelsen om 1936-11-14 i C-0935 gäller framför den äldre slutsatsen. De övriga namnpassagerna visar endast frånvaro i lästa rader, inte säker bosättning i Sundsvall eller utebliven återflytt. 1932 och 1939 är uttryckligen partiella; 1928:s återinflyttning prövades inte i denna passage. Grav i Sättna bevisar ingen återflytt, och boställesfältet i C-0240 är inte ensamt bevis för fysisk nedkomst hos en släkting. Den äldre förklaringen om födelse hos mormodern återtas: Ingrid dog redan 1921 enligt C-0940. Ingen sådan händelse är belagd.

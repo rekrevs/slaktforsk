@@ -55,3 +55,7 @@ skiljer två personer med samma namn.
 - [S-0772](S-0772-riksarkivet-hemsjo-bildserier-och-vigselavsnitt.md),
   [S-0773](S-0773-riksarkivet-malilla-gardveda-vigsel-och-inflyttning.md) —
   samma serieförväxling i två andra stift
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+C-1030:s tillägg bevarar vigseln men begränsar åldersargument, namnets militära ursprung och antagen domstolsregistrering. Den egna fullbilden108 är ännu inte lokalt återfunnen.

@@ -39,3 +39,15 @@ behålls därför som `LEAD`.
 ## Stödda påståenden
 
 A-0736–A-0738, A-0776–A-0785, A-0791–A-0792.
+
+
+## Konsolideringsprövning 2026-09-08 — T-0139
+
+Den bevarade helbilden är tillgodoräknad och jämförd med C-0133. Barnens
+ortsavskrifter rättas enligt C-0133:s T-0139-tillägg. Två visningar av
+samma privata databas ger inte två oberoende belägg. ”Ifrån Degerfors” i
+vigseln 1820 är inte ett födelseortsfält och står därför inte i sig i
+konflikt med ansedelns Ytteråträsk/Sävar 1794. Båda uppgifterna bevaras med
+sin olika betydelse; faktisk födelseort är fortsatt oprövad. Den fysiska
+Degerforsluckan och tidigare lokala nollor består i sina exakta omfång,
+men bevisar inte att hennes födelse måste ha funnits i just den boken.

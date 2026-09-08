@@ -47,3 +47,7 @@ Ingen källbild sparades eftersom endast öppna katalogmetadata kunde läsas.
 ## Stödda påståenden
 
 A-2351–A-2352.
+
+## Rättande tillägg T-0126,2026-09-07
+
+Routen F II a/9 gäller1922 och är historiskt korrekt för det efterfrågade året, men C-0453:s marginal är nu rättad till1916-01-22. Denna1922volym är därför inte längre Abrahams personbundna dödsboingång. T-0243 identifierar motsvarande1916route inom fast katalogomfång. Äldre ALTCHA- och leverantörsråd ovan är dokumentation av dåvarande åtkomst, inte aktuell exekveringsinstruktion; projektets gällande Riksarkivetordning följs och ArkivDigital används inte.

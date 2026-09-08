@@ -29,3 +29,9 @@ mer än ett år före den nya födelsen.
 ## Stödda påståenden
 
 A-2180.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Hela den bevarade originalposten prövad: årsrubriken är **1844**, månadsrubriken **Aug.** över den egna raden. Anders Olof föddes **22 augusti 1844** och döptes **25 augusti**, inte april. Rättelsen har oberoende bekräftats av två läsare inom T-0134. Föräldrar: `B. And. Dahlsten och H:u Stina Cajsa Larsd:r i Säter`; moderns ålder **39**. Åldern stämmer inte med den senare uppgiften 12 januari 1807 och bevaras som egen källuppgift. Säter är föräldrahemvist; inget särskilt födelsehus fastställs.
+
+Hela fadderfältet: `B. Joh. O. Söderberg med H:u; B. Israel Hedberg med H:u i Backen; Torp.s. Joh. Selen[?] och dess Syster Anna Märta i Säter. Bond.s. Nils Pet. Dahlsten[?] [ort/ord svårläst] pig. Josefina Boström i Backen.` Namn- och titelreservationerna är prövade; den uttryckliga systerbeteckningen gäller vittnena Johan och Anna Märta, inte barnets föräldrar. Nils Petters identitet sammanförs inte automatiskt med parets son. Ingen separat kyrktagnings- eller förrättarkolumn finns här. Äldre aprilläsning bevaras ovan som rättad avskrift.

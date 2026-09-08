@@ -29,3 +29,18 @@ föräldrakälla för P-0336.
 ## Stödda påståenden
 
 A-2039, A-2041–A-2042.
+
+## Föräldra- och vittnesfält — T-0128, 2026-09-08
+
+Den lokala födelseposten har omlästs. Modern Anna Stina Ericsdotter
+anges 41 år. Dopvittnen: `Anders Peterss., Christiana Olsdotter i Kullen;
+Eric Peterss., Maria Petersd. i Backen`. Namnförkortningarna bevaras.
+Faddern Eric Petersson i Backen får inte automatiskt sammanföras med
+barnets far, torparen i Brattås. Inga farföräldrar eller säkra släktband
+till vittnena härleds ur namnlikhet. Födelse 12 januari och dop 15 januari
+1854 gäller detta barn, som förblir skilt från P-0336.
+
+
+Vid samma granskning rättas C-0382/C-0383:s vuxendatum till **1852-09-04**.
+Äldre 24 maj ovan är en felavskrift, inte en kvarstående originaluppgift.
+Brattåsbarnets åtskillnad från P-0336 påverkas inte.

@@ -47,8 +47,8 @@ den senare Elisabeth Höök som sjuksköterska och missionär.
 | [P-0243 Elin Andersson](P-0243-elin-andersson.md) | mor | CORROBORATED | C-0232, C-0234 |
 | [P-0244 Naëmi Gustafva Carlman](P-0244-naemi-gustafva-carlman.md) | äldre syster | CORROBORATED | C-0232, C-0234 |
 | [P-0245 Karl Emanuel Carlman](P-0245-karl-emanuel-carlman.md) | äldre bror | CORROBORATED | C-0232, C-0234 |
-| [P-0530 Gunnar August Villehard Carlman](P-0530-gunnar-august-villehard-carlman.md) | yngre bror | TRANSCRIBED | C-0944 |
-| [P-0531 Amelie Karolina Carlman](P-0531-amelie-karolina-carlman.md) | yngre syster | TRANSCRIBED | C-0944 |
+| [P-0530 Gunnar August Villehard Carlman](P-0530-gunnar-august-villehard-carlman.md) | möjlig yngre bror | LEAD | C-0944; gemensam grav, familjebrygga saknas |
+| [P-0531 Amelie Karolina Carlman](P-0531-amelie-karolina-carlman.md) | yngre syster | CORROBORATED | C-0899 dotterrad och C-0944; Anna Elisabeths föräldrar C-0232 |
 
 ## Forskningsstatus
 
@@ -80,8 +80,8 @@ våg.
 
 ## Biografisk sammanfattning
 
-Anna Elisabeth Carlman föddes 1902-04-09 i Ljungby i Kalmar län som yngsta
-kända barn till Johan Fredrik Villehad Carlman och Elin Andersson i Lilla
+Anna Elisabeth Carlman föddes 1902-04-09 i Ljungby i Kalmar län som dotter
+till Johan Fredrik Villehad Carlman och Elin Andersson i Lilla
 Tomteby (C-0232, C-0234). Vägen från Ljungby till Stockholm är obelagd, men
 1930 var hon operationssköterska vid Danderyds centrallasarett, nyss
 inflyttad från Gustav Vasa församling (C-0233). Hon gifte sig 1931-08-08 med missionärsläkaren Anders Ivar Höök och
@@ -108,3 +108,20 @@ Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` 
 Tidigare rad 2026-09-05 (T-0063), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0063: vigsel och hemförsamling är genomförbara i SCB-utdrag (profil KP-01); uppväxt, utbildning och missionsarkiv har konkreta vägar (KP-02–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233.
 
 Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — födelse, föräldrar, yrke, missionsidentitet, make, barn och död bildar en sammanhängande personbild; senare rörelse- och missionsdetaljer är villkorlig biografisk berikning.
+
+### Begränsad Carlmanavstämning 2026-09-07, T-0124
+
+C-0899:s dotterrad för Amelia Karolina 1912 ger positivt familjestöd för
+P-0531, medan P-0530 Gunnar August ännu bara har gravgemenskap som
+relationsledtråd. Anna Elisabeth är inte längre det yngsta kända barnet.
+Föräldrarnas Kalmarhushåll 1930 och inflyttning från Jönköping 1909
+bevisar inte utan egen rad Anna Elisabeths vistelse eller medflyttning.
+Övrig akt och äldre kontraktsbedömning är inte omprövade här; full
+individuell genomgång ägs av [T-0148](../../wotan/dev-log/T-0148.md).
+
+Äldre ersatta relationsrader:
+
+> | [P-0530 Gunnar August Villehard Carlman](P-0530-gunnar-august-villehard-carlman.md) | yngre bror | TRANSCRIBED | C-0944 |
+> | [P-0531 Amelie Karolina Carlman](P-0531-amelie-karolina-carlman.md) | yngre syster | TRANSCRIBED | C-0944 |
+
+> Äldre sammanfattning: ”som yngsta kända barn” — ersatt av belagda yngre syskon.

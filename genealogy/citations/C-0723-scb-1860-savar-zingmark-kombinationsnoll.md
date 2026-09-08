@@ -109,3 +109,12 @@ Metadatafilernas checksummor redovisas i S-0557.
 
 A-2815–A-2816.
 
+## Bevarande och nya namnnycklar — T-0133, 2026-09-08
+
+Alla53fullbilder421–473 finns lokalt; citationens bildhashar är verifierade.
+Kontrollen av exakt sjuraderskombination återbrukas inom angivet omfång,
+inte som ett enskilt person- eller vistelsenoll. C-0563/C-0561 ger nu
+Cajsa Wilhelmina som ytterligare egen källform för barnet1854-09-27.
+Eftersom den ursprungliga kontrollen läste födelseårskombinationen är
+namnvarianten inte ensam skäl att upprepa samma53bilder. C-0685:s nya
+positiva folio455 prioriteras i T-0276 framför ett obundet omsvep.

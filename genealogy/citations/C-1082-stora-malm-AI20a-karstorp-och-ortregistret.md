@@ -70,3 +70,10 @@ inflyttnings- och utflyttningskolumnerna är inte transkriberade.
 ## Stödda påståenden
 
 A-4055–A-4058.
+
+
+## T-0137: avstämning 2026-09-08
+
+B-registerfrånvaron är ett registerbundet noll; C-1083 gav senare positiv placering i b-bandet. Kandidatens exakta födelsedag ensam hade inte kunnat avgöra vuxenidentiteten.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

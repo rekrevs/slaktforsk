@@ -44,3 +44,18 @@ hushållsrad.
 ## Stödda påståenden
 
 A-3603 (P-0009).
+
+
+## Omprövning i T-0125, 2026-09-07
+
+Källnivån är Digitalarkivets strukturerade registerpost, inte en här
+läst originalblankett. Namnformen och exakt födelsedatum, tillsammans med
+den svenska utflyttningen till Kristiania, bär identifieringen. Råorten
+`Flen Sverige` bevaras som en senare avvikelse från födelsebokens Lerbo;
+det äldre argumentet om samma pastorat har inte visats och används inte.
+Posten placerar Ada på adressen och i hushållet vid folkräkningen
+1920-12-01, inte under hela perioden 1918–1922. Hon har uttryckligen en
+egen personrad, nr 009; yrket förklarar inte någon frånvaro av sådan rad.
+Barnjungfru enligt familjen, svenska boktitlar och norsk `Tjenestepike`
+är skilda uppgifter. S-0748 redovisar ingen lokal registerkopia; exakt id
+och avskrift ersätter inte den kvarstående proveniensåtgärden.

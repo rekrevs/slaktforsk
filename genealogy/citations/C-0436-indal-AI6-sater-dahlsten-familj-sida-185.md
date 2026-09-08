@@ -63,3 +63,13 @@ Sidan är omläst i närbild ur det lokala fulloriginalet inom T-0100, se
   `Hvarthän`. Det är `A I/7` som har kolumnen `Födelse-ort`.
 
 Avskriften ovan bevaras oförändrad som revisionsspår.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Båda makarnas hela relevanta rader, de sex barnraderna och årskolumnerna är prövade i det bevarade fulloriginalet. **Stina Cajsa Larsd:** uppges född **1807-01-12**, inte 12 juli. Anders uppges född **1800-10-22**. Boken saknar födelseortskolumn. Barnens moderskoppling stöds också av egna födelseposter, inte av enbart radföljden.
+
+Anders kallas bonde, Stina Cajsa hustru. På bådas rader står `v` för koppor och grafiska läskunskapsmärken. Egna fält för Gifta år, Hvarifrån, Hvarthän och anmärkningar är tomma. Årsrutorna har återkommande grafiska förhörsmärken och nattvardsdatum: 1836 `30/10`, 1837 inget läst nattvardsdatum, 1838 `10/6`, 1839 `24/3[?]`, 1840 `10/5`, 1841 `2/3[?]`, 1842 `5/6`, 1843 `8/10`, 1844 inget datum och 1845 `21/3`; längst till höger ytterligare `7/6` utan här säkert bunden årsheader. Detta är prövade råuppgifter, inte automatiska läsrester eller skolbetyg.
+
+Sidhuvudets mantal ser ut som `4¾`, ändrat till `4⅞[?]`. Det gäller Säter nr 1 som sidrubrik; Anders individuella ägarandel eller äganderätt framgår inte. Anna Helenas födelsedag ser ut som `20/6[?]` 1840, äldre 22 juni kan inte föras som säker avläsning; hennes död är 10 november 1841. Den förste Anders Olof uppges född 22 december 1842, död 18 januari 1843. Den senare Anders Olofs månad är svårläst i hushållsboken; den egna födelseposten anger **augusti**, se C-0439:s rättelse. Lars Johan har här 5 juli 1836, medan den egna posten i C-0435 anger född 3 och döpt 5 juli. Källskillnaden bevaras, ingen automatisk förklaring av dess uppkomst ges.
+
+Fullbilden är redan bevarad med SHA-256 ovan. Datumrättelsen förs även i A-4415. Äldre text bevaras som revisionsspår.

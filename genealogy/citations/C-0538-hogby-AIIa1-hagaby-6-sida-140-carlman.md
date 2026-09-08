@@ -53,3 +53,19 @@ personer skapas: Mathildas förste man namnges inte.
 ## Stödda påståenden
 
 A-2383–A-2384, A-2388–A-2395.
+
+## Lokal omläsning2026-09-07, T-0124
+
+KarlAugustRudolfs rad3 har titeltext efter Phil.Cand.[…], överstruken,
+som inte fullständigt utvunnits i den äldre kärnavskriften.
+Födelsemånaden kan vid förstoring läsas3, inte säkert5; den äldre
+23/5[?]-läsningen skall inte göras till fastställd motsägande dag.
+Frikallad84 består vid förstoring. Kunskapskolumner11/12 har
+tecken(a/b[?]); kolumn13 är tom för honom. Personradens titel
+och datumreservation skall slutprövas tillsammans med den redan
+lästa utflyttningen NyaWarfvet1896-10-10.
+
+
+## Avstämning 2026-09-07 — T-0124, fortsatt eftergranskning
+
+Fortsatt eftergranskning av den överstrukna titelraden ger det sammanhängande ordet Phil. Candidat. Slutet dat hör till Candidat, inte en separat ny titel efter Cand. Det tidigare T-0124-tilläggets antagande om ett extra outvunnet titelfält upphävs. Frikallad 84 och de redan prövade kunskaps-/tomfälten tillgodoräknas. Den reserverade månadsläsningen görs inte till säker konkurrerande födelsedag.

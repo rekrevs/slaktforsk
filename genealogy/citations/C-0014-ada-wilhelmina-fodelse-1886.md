@@ -36,3 +36,16 @@ markerades som flicka och som barn inom äktenskapet.
 ## Stödda påståenden
 
 A-0045, A-0055–A-0057, A-0186, A-0189 och A-0190.
+
+
+## Omprövning T-0125, 2026-09-07
+
+Den lokala fullbildens post20 är återvisad i T-0125. SCB-utdragets ortord
+läses fortfarande Gånga; detta är en källbunden avvikelse från originalets
+Spånga, direkt omläst i C-0016. SCB-formen ska inte skrivas om som om den
+själv säkert hade Spånga, och den skapar inte en ny familjeort. Utdraget
+är beroende av originalboken. Samma personnummer, datum, föräldrapar och
+moderns19år består. `(1)` efter dopnamnet är en separat råmarkering vars
+fältfunktion inte avgörs här. C-0016/T-0237:s motsvarande fältprövning ska
+omfatta jämförelsen med detta redan sparade SCB-utdrag, utan ny årgång.
+Äldre tolkning som säker Gånga-hemvist ersätts av ovanstående källskillnad.

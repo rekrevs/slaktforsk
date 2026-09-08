@@ -44,3 +44,16 @@ träff.
 ## Stödda påståenden
 
 A-0545 och A-0809.
+
+## Tillägg 2026-09-08 — T-0132, personbunden fullpost och rättelse
+
+Egen post på bild 50 har födelse 30 januari 1851 och dop 2 februari,
+hemvist Glippsta soldattorp, namn Erik efter överstruket Gustaf Oscar.
+Föräldrarna skrivs Soldaten Carl Er. Grill och Joh. Jonsdr, modern 31 år.
+Faddrarna läses Rättaren Eric Ersson och dess hustru Gustafva Wennerström,
+drängen And. Gustaf Jönsson i Skarsta samt pigan Gr.[?] Stina Andersd:r
+i Skarsta. Förkortningen före Stina expanderas inte och vittneskapet
+bevisar inget släktskap. Ingen döds- eller flyttuppgift tillförs ur posten.
+Den tidigare kandidatreservationen för föräldraidentiteten är historisk:
+C-0729/C-0741/C-0749 binder senare barndoms- och vuxenkedjan, utan att
+varje mellanår därmed har egen hushållsrad.

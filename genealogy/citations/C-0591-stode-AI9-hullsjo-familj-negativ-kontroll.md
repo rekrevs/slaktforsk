@@ -37,3 +37,7 @@ Direktlänkar följer mönstret
 ## Stött påstående
 
 A-2531.
+
+## T-0136: individuell fullpost- och gränsprövning, 2026-09-08
+
+Det redan genomförda avgränsade Hullsjönollet återanvänds; tre fullbilder finns och SHA-256 stämmer vid omräkning. Nollet daterar inte en flytt till 1842–1850. Föräldrarnas egna kyrkoboksmarkeringar i C-0590 når 1842, men varken en utflyttning ur socknen eller en bestämd destination följer av nästa ortsavsnitts frånvaro. Intern flyttning, annat bokföringssätt och annat livsförlopp kvarstår. En flyttbok kan inte antas dokumentera varje intern flyttning.

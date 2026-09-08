@@ -83,3 +83,12 @@ ettårsfönster**, och båda prövas med samma uppslagning. Uppgiften förs som
 
 A-3789–A-3791; komplettering av C-0510:s avskrift och avgränsning av
 C-0514:s första återaktiveringsväg.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Den redan bevarade fullbilden under C-0510 har återprövats. **225 är uttryckligen knutet till dottern Cajsa Märta Dahlsten och Lisa Cajsa**, inte till hennes föräldrar Anders Dahlsten och Stina Cajsa Larsdotter. Sidan kan innehålla föräldrahushållet, men detta är en oprövad möjlighet; ingen säker fortsättning för dem efter 1854 är funnen. Äldre formulering att detta redan ger familjens fortsättning begränsas därför till en personbunden ingång via dottern. Ingen faktisk flyttdag eller föräldraort härleds ur hänvisningen. Den unga familjens svaga utflyttningsort har prövats och förblir reserverad; 1858 står som bokföringsår, inte en fastställd fysisk gemensam flyttdag. Bildkopian och dess proveniens återanvänds via C-0510, ingen dubblerad kopieskuld.
+
+
+## T-0136: egen fullpost och rättelse 2026-09-08
+
+C-0510:s fullposttillägg rättar andra hustruns namn till **Lisa Stina Jonsdotter** och tillgodoräknar hennes och Nils egna nattvard 1861-07-22. Giftår 44[?] är en läsnyckel med äldre 34 som alternativ, inte en identifierad andra vigsel. Det tidigare resonemanget att 44 måste betyda andragifte och därför Lisa Stina Larsdotters död 1836–1844 saknar tillräckligt stöd och återtas. Inte heller 34 identifierar automatiskt ett första gifte. Tomma egna flyttfält är prövade; sonfamiljens 225/1858 får inte överföras till föräldrarna. Tidigare förslag att sida 225 säkert är föräldrahushållets fortsättning har redan begränsats i T-0134.

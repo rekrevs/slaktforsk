@@ -81,3 +81,11 @@ Nollan är **årgångs- och pastoratsbunden**. Den säger ingenting om:
 ## Stödda påståenden
 
 A-3897–A-3901.
+
+## Konsoliderad rättelse 2026-09-07 — T-0113
+
+Den redan registrerade A-3907 rättar husförhörsdatumet från projektets felläsning 3 januari till **1 mars 1799** (`¹/₃`). Den aktuella söknyckeln är därför Varola 1799-03-01. A-3907 uppger att inte heller 1 mars har någon födelsepost i Varolas lästa årgång. Omläsningen är utförd och ska inte stå kvar som ett outört nästa steg.
+
+A-4132 avgränsar A-3901: årgångsnollet gör födelseuppgiften obestyrkt men fastställer inte att minst en viss komponent är fel i prästens överföring. Även saknad post eller avvikande införing/namnform behöver hållas möjliga. Grannsocknarnas redovisade januariläsning är inte en kontroll av deras 1 mars. Föräldrarna och faktisk födelse förblir olösta; 1798 och 1800 är inte lästa.
+
+Gamla sökformuleringar står kvar som historik.

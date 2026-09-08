@@ -28,3 +28,30 @@ Carlbergskedjan C-0163–C-0165.
 ## Stödda påståenden
 
 A-0840–A-0842, A-0844 och A-0846.
+
+
+## Tillägg 2026-09-08 — T-0139, lokal prövning och avgränsning
+
+Den tidigare lästa födelsebilden `C0005632_00058` saknas efter lokal
+fil-, alias- och metadatasökning inklusive /private/tmp. Juliuppslagets
+kontroll av det andra barnet är dokumenterad men saknar en exakt egen
+bildreferens; det antas inte vara samma bild som februari.
+
+Den äldre egna postavskriften med födelse 22 februari, dop 23 februari,
+Brita Christina, bonden Eric Andersson och hustrun Anna Ersdotter samt
+rååldern 25 återbrukas. Sannerby är föräldrarnas hemvist; en särskild
+förlossnings- eller dopbyggnad är inte fastställd. Faddrar och övriga
+egna eventuella fullpostfält har inte utvunnits i den bevarade texten.
+Det är en konkret utvinningsrest, skild från den nya forskning som
+skulle följa barnet genom andra böcker. Dotter-/mågkedjan i C-0163–0165
+stöder identiteten, men upprepade datum i påföljande längder kan vara
+överförda och är inte automatiskt oberoende vittnesmål.
+
+## Tillägg 2026-09-08 — T-0141, Annas egen post och rättelser
+
+T-0139:s konstaterade lucka består: fulla födelseposten på
+C0005632_00058 med moderns och dopvittnenas övriga egna fält saknas
+lokalt efter aliasprövning. T-0319 äger den fasta återställningen.
+Den redan lästa åldern 25 är en avvikande råuppgift: Annas bedömda
+födelse 1796-01-04 ger 23 fyllda år i februari 1819. Ingen automatisk
+ålderssamstämmighet eller exakt alternativ födelseår införs.

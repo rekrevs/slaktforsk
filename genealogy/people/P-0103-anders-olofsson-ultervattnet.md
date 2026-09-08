@@ -9,6 +9,7 @@
 | A-0715 | Hans föräldrar var Olof Larsson och Margareta Hansdotter i Storbäcken. | TRANSCRIBED | hög | [C-0125](../citations/C-0125-andreas-olofsson-fodelse-1791.md) | Samtida födelse- och dopnotis. |
 | A-0716 | Han vigdes 1826-10-08 i Bygdeå med Maria Jacobsdotter från Ultervattnet. | TRANSCRIBED | hög | [C-0123](../citations/C-0123-andreas-maria-vigsel-1826.md) | Han står då i Häggnäs. |
 | A-0719 | Burträsk-barnet Andreas Olofsson är samma person som vigselnotisens Anders Olofsson och den senare mannen i Ultervattnet. | CORROBORATED | hög | [C-0125](../citations/C-0125-andreas-olofsson-fodelse-1791.md), [C-0123](../citations/C-0123-andreas-maria-vigsel-1826.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md) | Födelseår, patronymikon, hustru, ortsföljd och son är samstämmiga. |
+| A-4360 | Sonen Jacob föddes 1830-04-16 och döptes 17 april i Häggnäs; födelseposten namnger bonden Anders Olofsson och hustrun Maria Jacobsdotter, modern med uppgiven ålder 31. | TRANSCRIBED | hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | C-0069:s senare hushåll och sonens datum i C-0425/C-0427 binder posten till familjen. Ingen automatisk obruten Häggnäs–Ultervattnet-kedja. |
 
 ## Relationer
 
@@ -28,3 +29,7 @@
 - Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
 - Källbredd: `KLAR` — egen födelsenotis namnger båda föräldrarna och den
   källbundna Storbäcken–Häggnäs–Ultervattnet-kedjan säkrar identiteten.
+
+## Konsolideringsrättelse — T-0131
+
+Föräldrarelationen har nu egen samtidig födelsepost. Tidigare hushållsargument bevaras men är inte längre enda belägg. T-0165 äger full akt-/profilgranskning; T-0267 den fasta tidiga hushållspassagen.

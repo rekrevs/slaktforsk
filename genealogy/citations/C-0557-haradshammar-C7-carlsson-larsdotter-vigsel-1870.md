@@ -41,3 +41,11 @@ Svensson.
 ## Stödda påståenden
 
 A-2451–A-2453.
+
+## Fullpostprövning och rättelse 2026-09-08 — T-0134
+
+Hela post 5 på båda sidor, med kolumnrubriker, har prövats i bevarat fulloriginal. Lysning 28 augusti 1870, Hemmanseg. And. Magnus Carlsson från Gäddestad i Östra Husby och Bondedottr. Pig. Carolina Larsdotter i **Mull...torp[?]**. Båda har **1** i kolumnen vilket gifte; Carolinas husförhörshänvisning är **221**. Födelsedatum 1844-08-28 respektive 1849-04-12 består. Främmande trosbekännelse är inte noterad på parets rader.
+
+Modern anges **Enk. Maja Lena Jonsdotter i Mönnerum** och har lämnat skriftligt tillstånd till äktenskapet. Det är en positiv hemvistnyckel för modern 1870, inte ett bevis för obruten vistelse 1849–1870. Tillståndet omnämns men själva dokumentet är inte bevarat här; varken egen underskrift, förmåga att skriva eller personligt motiv följer av vigselbokens not.
+
+Vigselnumret 5,1870 oktober 14, består. Förrättaren står som initialsignatur **A.S.[?]**, med siste tecken reserverat. Ingen ytterligare egen särskild not finns. Moderns änkestatus namnger inte den avlidne maken och anger inte när hon blev änka; det är inte ensamt Lars Svenssons dödsbelägg. Brudens ortord är faktiskt prövat men inte fullt tydligt;221 är exakt följdingång utan att en ny mottagarpost därmed är läst.

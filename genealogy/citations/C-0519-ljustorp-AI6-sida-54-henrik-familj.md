@@ -32,3 +32,23 @@ förstorad omläsning och de länkade Familia-raderna i C-0593.
 ## Stött påstående
 
 A-2332.
+
+## Egna familjefält — T-0130, 2026-09-08
+
+Henrik skrivs arbetaren, med egen från-hänvisning116. Båda makarna har
+vaccinations-v och grafiska kunskapstecken, tomma egna fräjd- och
+utflyttningsfält. Nattvardstalen9/10[?] står i sista årsgruppen, vars
+rubrik läses1859. Talet30/9 står längre till höger i anmärkningsdelen;
+ett särskilt år1860 är inte säkert utskrivet här och antas därför inte.
+Hustruns ytterligare N-liknande råtecken bevaras utan ny datumtolkning.
+Samma familj och reciproka hänvisningar binder sidorna, men gör inte
+varje upprepat datum till oberoende bevis.
+
+### Årsbindningens läsgräns inom T-0130
+
+De handändrade årsrubrikerna och de egna nattvardsdatumen **9/10** och
+**30/9** har prövats på nytt. Dag/månad kan avläsas men bindningen till
+ett bestämt år är osäker; 30/9 ska därför inte säkert klassas som en
+fri anmärkning. Familias daterade siduppgift 1859–1860 är ett separat
+avskriftsled. Kalenderpassning kan ge en hypotes om år, men ersätter
+inte den osäkra originalrubriken.

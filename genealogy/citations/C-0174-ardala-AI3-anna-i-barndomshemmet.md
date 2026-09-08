@@ -38,3 +38,20 @@ sammanfogning byggd enbart på namnlikhet.
 ## Stödda påståenden
 
 A-1365–A-1369.
+
+## Tillägg 2026-09-08 — T-0141, Annas egen post och rättelser
+
+Hela originalbilden 339 finns redan under filprefix C-0178, med hash
+angiven ovan, och har visuellt prövats. Annas familjegrupp ligger
+nedanför andra strukna familjer: Bonden Eric Larsson 1768[?], hustru
+Brita Andersdr 1772[?], sonen Anders och dottern Anna 1796. Annas dag/
+månad, kom ifrån, kunskapsfält och anmärkning är tomma; sent på egen
+rad finns en rå `8/11[?]`-not utan säker årskoppling. Årsvärdet 1796
+är således ett barndomsankare, inte ännu ett exakt januari- eller
+junidatum. Pigan Lena Ersdr 1777 och drängen Anders Andersson 1789
+längre ned är tjänstenätverk, inte föräldrabekräftade syskon.
+
+Äldre föräldrars Sannerbykontroll före Annas födelse (C-0863) är inte
+en nollkontroll av hennes eget liv. S-0140:s ofullständigt dokumenterade
+ortregister behöver avgränsad proveniensrekonstruktion i T-0327; inga
+gissade bildnummer har införts.

@@ -114,3 +114,48 @@ ingick i hustruns dödsbo — men den slutsatsen dras inte här.
 ## Stödda påståenden
 
 A-3916–A-3922.
+
+## Rättelse och verifieringsgräns 2026-09-08, T-0129
+
+Omläsning av den bevarade första fullbilden `A0033199_00234` redovisas i
+[C-0485](C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md).
+Den bekräftar **23 augusti 1898**, men rättar ovanstående dotter-/måguppgift
+till **Ida Sofia, gift med sågverksförmannen J. O. Zingmark**. `Sanna Fila
+Sofia` och `hjulmakaren J. E. Zingmark` är äldre felläsningar. Maria Augusta
+är barnmorska i Anundsjö församling. Dessa familjeuppgifter identifierar inte
+automatiskt gäldenären med initialerna J. A. Zingmark.
+
+Första sidan skriver uttryckligen **Anders Jansson**, f.d. hemmansägare.
+Påståendet ovan att akten skriver Jonsson, *inte* Jansson, gäller därför inte
+hela akten. Den uppgivna avslutande namnformen och egenhändigheten behöver
+kontrolleras på slutbilden. Första sidan belägger honom som bouppgivare;
+Anders Bäckman bevakar de omyndigas rätt, vilket ska skiljas från påstådda
+värderings- och underskriftsroller på senare sidor.
+
+Makarnas testamentariska förordnande **10 maj 1898** återges med villkoret
+orubbat bo för efterlevande maken tills yngste sonen Rudolf blivit myndig.
+En beräknad fördelning på senare sidor är inte utan vidare ett genomfört
+arvskifte eller bevis för utbetalningar. Åtta barn i två delar av samma
+handling är intern överensstämmelse, inte två oberoende vittnesmål eller
+ett totalt antal födda barn.
+
+Den återgivna summeringen innehåller en **räknekonflikt om 1,40 kr**:
+`13 998,49 − 2 872,40 = 11 126,09`, inte `11 127,49`.
+Skuldsumman `2 820,68 + 50,00 + 1,72 = 2 872,40` stämmer internt.
+Även `11 127,49 + 51,32 = 11 178,81` och
+`5 589,41 + 5 589,40 = 11 178,81` stämmer internt. Utan originalets
+slutsida går det inte att avgöra vilket råtal som är felläst eller om
+originalet självt innehåller en räkneavvikelse. Inget råtal normaliseras
+här till ett nytt säkert tillgångs- eller behållningsvärde.
+
+Första sidans **100,90 kr** består av kontanter och kopparmynt, inte den
+senare silvergruppen. Ett ägt parti av `Familje Journalen` belägger inte en
+prenumeration. Skulder till mejeri eller smedja fastställer inte ensamma
+vilka varor eller tjänster som köpts. Att fastighet inte skulle tas upp
+bevisar inte att mannen ensam ägde jorden.
+
+Den äldre läsningen av **bilderna A0033199_00235–00254** bevaras ovan,
+men inga lokala kopior av dessa tjugo bilder återfanns i T-0129. Påståenden
+om hela boets poster, slutsummor, signaturer och frånvaro av fastighet har
+inte omverifierats mot original i denna granskning. Återställning och
+kontroll av just dessa bilder behövs innan räknekonflikten kan lösas.

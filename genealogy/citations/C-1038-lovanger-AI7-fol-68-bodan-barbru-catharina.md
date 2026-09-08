@@ -89,3 +89,13 @@ gäller oförändrat.
 ## Stödda påståenden
 
 A-3844–A-3848.
+
+## Bedömningsrättelse 2026-09-07 — T-0113
+
+A-4133 avgränsar A-3847: frånvaron i det lästa Bodanavsnittet visar endast att ett säkert fortsatt hushåll inte återfanns där. Den fastställer inte att alla tre flyttade tillsammans 1830–1836; dödsfall, annan införing eller namnform är alternativa förklaringar. Ingen destination eller flyttnotis har lästs.
+
+A-4134 avgränsar A-3848: att Olof var omkring 17 år och Catharina omkring 22 när Anna Greta uppges född utesluter inte hans faderskap och identifierar inte modern. Raden ”Dotter”, Bygdeå 1827 och folio 66 bevaras som söknycklar.
+
+Hushållsbokens 24 januari kan vara övertaget från födelseboken. Samstämmigheten styrker kandidatens hushållskoppling men är inte visat oberoende informationsursprung för dagen. Moderns årsuppgift 1791 är förenlig med ”39 år” 1830 men bevisar inte exakt fylld ålder utan hennes födelsedag.
+
+Gamla avskrifter och slutsatser ovan bevaras. Ingen kandidat sammanförs med P-0051.

@@ -107,3 +107,11 @@ A-3493–A-3496 (P-0241), A-3497–A-3498 (P-0246).
 berodde inte på en saknad post utan på att bara sida 51 av 1936 års
 uppslag hade lästs; posten står på sida 52. Familjen skrevs i Sättna på
 **Storbränna folio 388**.
+
+## Avstämning 2026-09-07 — T-0119
+
+C-0935:s rättelse till 1936-11-14 gäller. Folio 2995 ger centrala hushållsankare men anteckningen 3011 är ännu inte förklarad eller följd och hela Sundsvallsperioden får inte kallas fullutvunnen. Vigseldatumets upprepning är inte visat oberoende av tidigare person-/flyttuppgifter. Solly och Berit är uttryckligen läsosäkra i denna avskrift; familjeuppgiftens Sally/Berit bevaras utan påstådd säker namnhistorik.
+
+### Utvinningsomfång kontrollerat lokalt i T-0119
+
+Befintlig fullbild00205124_00243 visar personbundna tal i kolumn13, Bevistat husförhör år, för föräldrar och barn på raderna16–22. Dessa tal är inte avskrivna i den bevarade målposten ovan; T-0214 äger full läsning med osäkerheter. Att3011:s innebörd är okänd är inte i sig samma slags utvinningsbrist: själva noteringen är bevarad men måste prövas som möjlig hänvisning. Inga nya slutsatser om barnens religionsutövning dras ur kolumnens rubrik.

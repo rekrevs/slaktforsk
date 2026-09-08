@@ -111,3 +111,11 @@ frågan; ingen relation till Jonas Nordlund antas.
 ## Stödda påståenden
 
 A-3866–A-3873.
+
+## Tillägg vid konsolidering T-0126, 2026-09-07
+
+**Slutsatsbegränsning:** inga Nordlundbarn i de lästa dödsposterna1844–1845 är ett källavgränsat noll. Det bevisar varken kandidatens överlevnad, att inget spädbarnsdödsfall inträffade i socknen eller vad det diagonala strecket betyder. Den äldre rubriken och slutsatsen om att hon inte dog som spädbarn ersätts i denna del. Andra platser, utebliven anteckning och senare år omfattas inte.
+
+Föräldrafältets `30–35` bevaras som råuppgift; den tidigare utsagan att båda föräldrarna individuellt var30–35år är inte säkert visad utan klargjord fältinnebörd. Namn och Hulsjön är däremot positiva uppgifter. Förnyad prövning av fadderfältet i lokal bild83 ger `Torp. Jonas Jonsson och hans H[ustru] i Hulsjön; Bond. [svårläst namn] i Roste och Hustrun; [Dr.?] Jan Erik Olofsson ... och [Pig.?] Ingrid Brita Olofsd:r ... i Torps Församling`. Mellanleden/orterna är delvis svårlästa och behålls reserverade; den äldre läsningen `Jon[s]son` för Roste-bonden är inte självständigt bekräftad. Inga vittnen blir nya släktrelationer. Barnets egen identitet är fortfarande LEAD.
+
+Proveniensavstämning: bilder82–83 finns redan som fulloriginal med hash i C-0336. De uppgivna lästa bilderna81,84,85 och150 saknar motsvarande lokal fullkopia i den kontrollerade mediesamlingen; återbevarande återstår. Det gör inte de två befintliga kopiorna saknade.

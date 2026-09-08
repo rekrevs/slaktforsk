@@ -37,3 +37,45 @@ hushålls- eller flyttpost, alternativt en rättad födelsesocken eller dag.
 ## Stödd avgränsning
 
 P-0361:s slutstatus.
+
+## Fullpost- och omfångsrättelse — T-0134, 2026-09-08
+
+Alla fyra bevarade bilder har visats och deras hashes stämmer.
+Vigselpost 13 år 1841 är positiv och läses nu över hela egna posten:
+**lysning 17 oktober; vigsel 14 november 1841**, inte 24 november.
+Brudgummen är **f.d. nämndeman, änkling, hemmansägare i Gäddestad**,
+Carl Månsson, **45 år, andra giftet**. Bruden Inga Nilsdotter är
+**bondedotter från Orrevalla, 27 år, första giftet**. Texten
+**Avvittring af d. 20 Jun. 1841** är inte en lysningsattest eller
+en första lysningsdag. Sluttextens belopps-/avgiftsförkortningar
+`Bew. e. 2 Art. 2-19-3` och `Ch. lig. 24 sk[?]` bevaras diplomatiskt,
+inte som ekonomisk förmögenhetsbedömning. Ingen förälder namnges.
+Oberoende andraläsning bekräftar datum, avvittring och ålder/gifte.
+
+De två födelsebilderna har **februari–december 1814** samt början
+av 1815. Den faktiskt bevarade ytan är alltså större än september;
+årets januari finns inte på dessa två uppslag. En separat relevant
+post har nu lästs på sida 311, under **juli**: **Inga Nilsdotter**, född
+**10 juli 1814**, döpt **12 juli**, dotter till bonden **Nils Månsson**
+och **Maja Jonsdotter i Orrevalla**, modern **38 år**. Faddrar:
+bonden **Måns Månsson i Orrevalla**; drängen **Nils Andersson i
+Högla[?]**; hustrun **Eva Maja Månsdotter i Bryllingstad[?]**;
+pigan **Christina Persdotter i Orrevalla**. Svaga orttecken reserveras.
+Ingen ytterligare egen marginalnot framträder. Detta är en **möjlig
+namn-/orts-/årskandidat**, inte en säkrad födelse för P-0361. C-0837
+lästes samtidigt om till **10 mars 1814**, inte 10 september.
+Kandidatens julidatum avviker således fortfarande; ingen föräldrafusion.
+
+Novemberbarnet Ingrid Nilsdotter (12 november) hålls separat. Det
+äldre septembernollet består inom sitt faktiska fönster men prövar
+inte längre den rättade senare födelsemånaden. Att en annan person
+också saknas på sitt bokdatum bevisar ingen gemensam felmekanism.
+
+Orrevallas uppslag 397 har ingen säkert identifierad egen Ingarad.
+Däremot står där en Carl Månsson, född 1796-10-28, sonen Carl
+Carlsson 1833-04-20 och en antecknad Gäddestadfortsättning 1839.
+Det kan korreleras med makens tidigare familj, men är inte Ingas
+barndomsfamilj eller stöd för att hon bodde i Orrevalla från födelsen.
+Flera bleka familjeled är prövade men inte säkert upplösta. Brudens
+Orrevallahemvist är en tidsbunden 1841-uppgift, inte faderns säkert
+kända gård 1814. C-0837:s Oklunda[?] 1841 är en ny egen flyttnyckel.

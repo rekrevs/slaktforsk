@@ -40,3 +40,41 @@ källsida C-0593 och måste originalkontrolleras.
 
 A-2535, A-2536, A-2538 och A-2544.
 
+
+## Fulla egna fält för Henrik 2026-09-08, T-0130
+
+De redan bevarade fulloriginalen av sidorna 57 och 40 har lästs om över
+hela Henriks postbredd. Hans egna fält hålls isär från Jonas och Cecilias
+rader i samma citation.
+
+**Sida 57:** Drängen Henrik Henriksson, uppgivet född **1829-08-10**.
+Ingen egen födelseort står utskriven på raden. Vaccinationsfältet har `v`
+och kunskapsfältet en prick-/streckfigur, sex prickar över en vågrät linje
+med nedgående streck; ingen säker modern utbildningsnivå tillskrivs den.
+Eget vigsel- och fräjdfält är tomma. Inflyttningen anger **Lagfors
+Bruksförs. 1850**, utflyttningshänvisningen **40**. Kyrkliga fält har en
+N-liknande förhörsmarkering och nattvardsdatum `6/7`, samt `6/6[?]` i
+följande årskolumn. Kolumnplaceringen ger 1851 respektive 1852; den senare
+dagläsningen är prövad men reserverad. Övriga egna årsfält och
+anmärkningsfält visar ingen ytterligare text.
+
+**Sida 40:** Drängen Henrik Henriksson, samma uppgivna födelsedatum,
+`v` och motsvarande prick-/streckgrad. Vigsel **1854-07-16**, från **57**,
+till **Lagfors Bruksförs. 1854-11-05**. Margaretha Charlotta Sjölin är
+inskriven som hustru under hans rad; hennes datumuppgift bevaras som den
+tidiga **1825-08-13**-uppgiften, inte harmoniserad med senare 12 augusti.
+Henriks förhörsfält har N-/v-liknande råmarkeringar och nattvardsfält
+`20/3` samt `9/4` och `3/12` i de följande egna årsfälten; dessa markeringar
+prövas som kyrkliga deltagandeuppgifter, inte som belägg för obruten
+fysisk närvaro under hela bokperioden. Ingen egen fräjd- eller annan
+anmärkning framkommer. Bilden dokumenterar ingen egen militär uppgift.
+
+De redan identifierade syskonen och deras separata sidkedjor består. Att
+originalen identifierar dopvittnena är inte ensamt ett biologiskt
+syskonbevis; Nybergs uttryckliga familj 99 i C-0623 är den senare
+sekundära relationsuppgiften som ingår i korrelationen. C-0626 har redan
+öppnat Rundbackenoriginalen från 1860-talet, vilket ersätter den äldre
+meningen ovan om att den passagen endast var läst i Familia.
+
+Alla sex fulloriginal och befintliga SHA-256 återanvänds. Inga nya
+arkivsökningar eller nya personidentiteter införs genom detta tillägg.

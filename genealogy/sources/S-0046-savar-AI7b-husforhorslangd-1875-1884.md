@@ -36,3 +36,10 @@ bildvisaren för sida 672, bild `C0034437_00214` (C-0561). Sidan visar Johan
 Peter Zingmarks hushåll och hänvisningen `Gl bok 603`. Den senare lästa
 A I/6b-sidan samt barnens egna födelsenotiser visar att sju synliga rader
 inte var en fullständig barnlista (C-0563–C-0567). Ingen CAPTCHA användes.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Brännmark 445 har personbundna barnflyttar och föräldrarna till 410 den 20/11 1880. Gamla överförda vårdatum ersätts av den nya råavskriften; koppor-, betygs-, kyrkliga och frejdfält är prövade.
+
+Se [C-0055](../citations/C-0055-lundstrom-hushall-brannmark-sida-445.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

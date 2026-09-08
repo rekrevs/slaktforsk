@@ -63,3 +63,13 @@ förs in som de vägar som gör dess arbete.
 ## Stödda påståenden
 
 A-3808 och A-3809.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Katalogresultatet för den dokumenterade digitala vigselserien behålls, men slutsatsen om **parets egen vigselperiod rättas**. Att det äldsta här kända barnet uppges fött 22 mars 1831 bevisar inte vigsel 1830 eller tidigare: vigsel kan exempelvis ligga tidigt 1831 och relationen kan inte dateras enbart ur barnets födelse. Ingen egen vigselpost eller daterande äktenskapscell har lästs. Därför är det inte visat att deras vigsel faller i luckan 1735–1830 eller är digitalt otillgänglig.
+
+A I/5 är **föregångare**, inte efterföljare, till A I/6. Dess formularrubriker garanterar inte att just detta pars Gifta år- och Hvarifrån-fält är ifyllda. Motsvarande fält är tomma för dem i de två redan öppnade hushållslängderna. H II/1 är en möjlig kompletteringsväg först när en personbunden attest-/flyttnyckel finns, inte en motiverad blind genomgång av 245 bilder. Inte heller har ett negativt resultat för deras eget äktenskap redan uppnåtts.
+
+Kopieprövning har återfunnit innehållsbladet C0033066_00005 i äldre lokal arbetskopia `/tmp/t0013/indal-ai5-first/05.jpg`, visuellt kontrollerad. Den ska bevaras med beständig projektreferens; titelbilden C0033079_00004 har ännu inte återfunnits vid sökning på bild-id, titel-/serienamn och lokala alias. Manifest är metadata, inte ersättande bildkopia. Ingen ny arkivåtkomst har gjorts. Äldre katalog- och åtkomstobservationer finns kvar; ett äldre ALTCHA-hinder generaliseras inte till dagens alla åtkomstvägar.
+
+Innehållsbladet är nu beständigt bevarat: [C0033066_00005](../media/C-1025-riksarkivet-indal-AI5-C0033066_00005-innehall.jpg), SHA-256 `43d4473f3ec0d5ebf4942148d82328266e5dd6d1418f25e8104f9c15b69926c5`. Hela bladet är läsbart för de använda uppgifterna; ingen ny kopia i högre upplösning krävs. Titelkortet har fast följdägare T-0282.

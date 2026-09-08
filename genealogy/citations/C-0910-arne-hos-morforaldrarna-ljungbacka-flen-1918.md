@@ -104,3 +104,59 @@ ingåtts efter utflyttningen och sannolikt utanför Flen.
 
 A-3420–A-3421 (P-0009), A-3423–A-3424 (P-0003), A-3429 (P-0042),
 A-3426 (P-0043), A-3427 (P-0047), A-3428 (P-0045).
+
+## Avstämning 2026-09-07 — T-0123
+
+Inflyttningsdagen1918-10-28 och fb.-rollen är bokförda ankare för Arne
+hos morföräldrarna. De daterar inte säkert den första faktiska omsorgen
+där. Mellan detta ankare och1930 återstår en personbunden följd för
+1923–1930; samma morföräldrapar gör inte alla mellanår lästa.
+Källans Norgeutflyttning dagen efter är en registrering, inte bevis
+för exakt resdag. Frånvaro av Knutnamn ensam daterar inget äktenskap.
+
+### Familjepostens ännu ofullständiga avgränsning — T-0123
+
+Vid lokal helbildskontroll står rader11–12 som döttrar under
+Torvald/Maria; de kan inte utan vidare avföras som annat hushåll.
+Även en dotterrad under Johan Fridolf/Astrid behöver utvinnas.
+Fulla namn/datum och relationer lämnas till den begränsade målposten.
+Ingen ny personakt skapas ur denna preliminära avgränsning.
+Karl Fredriks avskrivna27/9 måste också avstämmas mot24/9 i övriga
+källor, utan att antas vara en säker kyrkobokskonflikt före omläsning.
+
+## Fullare familjeposter och rättade gränser — T-0129, 2026-09-08
+
+Hela den lokala bilden har prövats med förstoring av familjernas egna
+rader. Karl Fredriks rad 1 anger 24/9, inte tidigare avskrivet 27/9.
+Hans egna kristendoms-/nattvardsfält ger C/n; övriga egna förhörs-,
+antecknings-, värnplikts-, avgångs- och dödsfält är tomma på detta uppslag.
+
+Raderna 11–12 tillhör Torvalds familj, och raderna 15–17 Tures. Den äldre
+avskriftens avförande som andra hushåll var därför fel.
+
+| Rad | Person och roll | Lästa uppgifter |
+|---|---|---|
+| 9 | Torvald Stefanus Jansson | Snickeriarb., ändrat till verkmästare; Vadsbro 1888, födelsedag avskriven 3/8. Änkeanteckningens dag 2[?]/7 1915 reserveras mot C-0911:s 3/7. v, b/n, värnpliktsnummer 36 44/08. Äktenskapsbevis daterat 2/7 1918 för lysning med Maria Katarina Larsson från Darby[?], Bettna; tidigare 24/7 var en osäker avskrift. |
+| 10 | h. Maria Katarina Larsson | Född 1899-11-14 i Lerbo; gift 1918-09-01; inflyttad från Bettna 1918-09-06; v, C/n. |
+| 11 | d. Maud Karola Wilhelmina | Född 1913-08-04 i Flen; notering hans i första giftet, icke döpt. Hon är inte därmed Maria Katarinas biologiska dotter. |
+| 12 | d. Maggi Carola Elisabet | Född 1918-12-23 i Flen genom ortditto. Ytterligare svag namn-/anteckningsskrift reserveras. |
+| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |
+| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |
+| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |
+| 24 | Johan Fridolf Lundkvist | Järnvägskonduktör, maskinist; född 1893-04-29, Öster ås... [Österåsen?], Jämtl. l.[?]. Från s. 601 år 1918; lysningsbok 30/1918 och anteckning Fr. 14/8. Militärnummer 191 55/13; v, b/n. |
+| 25 | Astrid Charlotta Jansson | Född 1897-03-21 i Skedevi, Östergötlands län; gift 1918-10-29; internt från rad 3 samma år; v, a/n. |
+| 26 | d. Gunnvor Borg Elisabet[?] | Född 1919-06-03 i Flen. Namnets mellanled reserveras; ingen ny personakt skapas ur denna avskrift. |
+
+Torvaldfamiljens destination läses preliminärt Värnamo, med Jönköp. l.
+ovanför och utflyttningsdag 1920-02-27. Den äldre normaliseringen till
+staden Jönköping är inte säker. Johan Fridolf/Astrid/barn har destination
+Sundbyberg, Stockholms län, 1919-08-28; barnets utflyttning står genom
+ditto. De egna förhörsfälten och övriga dödsfält är tomma utöver Tures
+angivna död och Elins änkestatus. Relationer, yrken och numrerade militära
+nycklar hålls personbundna. Legitimationsbevis tolkas inte automatiskt
+som legitimering av ett biologiskt faderskap.
+
+C-0911 ger Torvalds första hustru Emma Wilhelmina och dottern Maud,
+vilket ska tillgodoräknas vid tolkningen av andra familjen. Varken den
+bokförda första vigseln 1912-06-23, hustruns död 1915-07-03 eller Tures
+död 1921-10-20 innebär att egna vigsel-/dödposter redan har lästs.

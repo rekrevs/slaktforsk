@@ -29,3 +29,15 @@ Ragnar anges som jordbruksarbetare.
 ## Stödda påståenden
 
 A-0118–A-0119 och A-0126–A-0148.
+
+## Agnes egen folkräkningsrad, T-0127 2026-09-07
+
+Den bevarade fullbildens Agnes Maria-rad har kontrollerats tillsammans med
+föräldraklammer och kolumnrubriker. Eget födelseår1889, dotterrelation och
+ogift kvinna-markering är positiva; egna yrkes- och lytesfält är tomma.
+Födelseorten anges genom egen dito-/församlingsmarkering som Värsås.
+Det är en överförd folkräkningsuppgift, inte hennes egen födelsepost.
+I sista trosbekännelsekolumnen står motsvarande lilla `l`-markering som
+på föräldrarnas rader. Den redovisas som råmarkering, inte personens egen
+utsaga om tro.
+Tomma fält är avgränsade observationer på denna sida, inte livslånga noll.

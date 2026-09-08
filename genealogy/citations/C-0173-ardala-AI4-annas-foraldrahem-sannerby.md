@@ -52,3 +52,15 @@ Anna Ersdotter i den senare familjen utan att förlita sig på den felaktigt
 ## Stödda påståenden
 
 A-1365–A-1370.
+
+## Tillägg 2026-09-08 — T-0141, Annas egen post och rättelser
+
+Hela föräldrauppslaget sida 142 har prövats: Bond. Eric Lars[son],
+hustru Brita Andersdr, sonen Anders och döttrarna Anna 1796 och Stina
+1806. Annas egen dag/månad och födelseort är tomma; kunskapsfält har
+kors/streck, inga egna säkra kyrkliga dagnoter, flytt-, gift-, döds-
+eller anmärkningsuppgifter. Sidans föräldradatum är inte hennes egna.
+Pigan Lena Ersdr (1777) och den överstrukne drängen Anders Andersson
+(1789[?]) är separat tjänstenätverk, inte fler syskon genom radnärhet.
+Sida 273 prövas i det samtida tillägget i C-0170; originalet finns
+redan länkat under C-0174 och kräver ingen ny hämtning.

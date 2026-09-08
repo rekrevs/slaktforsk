@@ -45,3 +45,10 @@ personresultat.
 
 A-1447.
 
+
+
+## T-0142: personbunden fullprövning, 2026-09-08
+
+Båda redan bevarade fullbilderna har lästs för hela den egna flyttposten. Umeå utflyttade 1843 post 99 har **2/11**, `Pig. Cajsa Lotta Jonsdr`, destinationsdito Degerfors efter post 98 och folio **1028**. Inga egna föräldrar, födelsedata eller ytterligare notfält anges. Degerfors inflyttade 1843 har **17 november**, `Pig. Cajsa Lotta Jonsdr`; foliofältet efter hennes namn är **tomt**. Sidhänvisningar på raderna ovanför eller nedanför tillhör andra personer. De båda noteringarna är bokföringsankare, inte två oberoende observationer av en fysisk resa.
+
+Den reciproka riktningen, namnet och anslutande hushållsrad bär korrelationen. Ingen folio 1028-kandidat identifieras genom denna kontroll. Båda fullbildernas tidigare SHA-256 matchar vid kontroll 2026-09-08.

@@ -52,3 +52,20 @@ Från och med **1861** byter volymen till det tryckta formuläret
 Talet i kolumnen närmast årsnumret är **lysningsdagarnas datum**, inte
 postens löpnummer. Löpnumret står längst till vänster och återkommer inte i
 varje rad. Räkna inte poster på den kolumnen.
+
+
+## T-0137: omfångsavstämning 2026-09-08
+
+C-1079/C-1080 har redan prövat brudgummarnas namnled 1853–1855 inom
+bilderna 111–121. Detta är inte fullutdrag av alla brudars namn eller
+bifallsstycken. Den exakta 1855-gränsen i C-1080 är bild 120 höger följd
+av 1856 på 121 vänster; den äldre tabellens sammanfattning får inte
+ersätta den personbundna läsgränsen. Ingen ny årsavsökning är gjord.
+
+Kopieaudit i T-0137: C0007593_100, _111–_121, _129 och _140 är inte
+återfunna efter lokal alias-/tmp- och metadataeftersökning. Dessa 14
+fasta äldre kopior har lagts till T-0311, vars totala fasta omfång nu är 77
+bilder samt två registerprovenienser. C0007558_294 är fortsatt en separat
+kopia i T-0111 B. Bild 79 är redan bevarad under C-0763 och ska återbrukas.
+
+- [C-0763-riksarkivet-stora-malm-EI2-C0007593_00079-vigda-1842-1845.jpg](../media/C-0763-riksarkivet-stora-malm-EI2-C0007593_00079-vigda-1842-1845.jpg), SHA-256 `40a6c747f20b65ccf6745b3ae49b6c5bb5cf83c8a5c5435858adfdf90317d33f`.

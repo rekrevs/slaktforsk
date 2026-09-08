@@ -32,3 +32,29 @@ personbundna födelsenotisen.
 ## Stödda påståenden
 
 A-3198–A-3201.
+
+## Konsolidering T-0135, 2026-09-08
+
+Hela egenposten har prövats i bevarad fullbild; hash stämmer.
+Född3 juni, döpt7 juni1818, Johan Petter Urbom på Krogen; smeden
+Lorentz Urbom och hustru Anna Maja Eriksdotter. Ytterkolumnens råtal
+**28** är trolig modersålder; ingen funktionsrubrik finns på detta
+uppslag. Fyra dopvittnen läses med reservationer: **Torsten[?]
+Andersson och hustru Lena Hansdotter**, torparfolk i **Tjöntorp[?]**;
+drängen **Anders Abrahamsson i Holmtorpet**; pigan **Maja Stina
+Nilsdotter i Öfverbyla[?]**. Ort-/förnamnstecken är detaljprövade,
+inte normaliserade till säkra registerformer. Ingen egen döds-,
+kyrktagnings- eller särskild marginalnot framträder. Vittnesrollerna
+är nätverksbelägg, inte nya släktrelationer.
+
+
+## T-0135: identifikationen återöppnad efter rättade vuxendatum
+
+Den positiva födelseposten står kvar som observation: Johan Petter,
+3 juni 1818, dop 7 juni, föräldrar Lorentz Urbom och Anna Maja Eriksdotter
+på Krogen. Däremot var påståendet om samma exakta datum i C-0275/0276
+felläst. Fulla vuxenrader i C-0275–0278/0281 ger 2 mars eller källbundet
+2/4[?], aldrig säkert 3 juni. De sluter därför inte kopplingen mellan
+födelsebarnet och maken i P-0123. A-3198/A-3199 och motsvarande
+föräldralänkar är kandidater efter omprövningen. T-0292 prövar den
+avgränsade Backgårdenbryggan; sekundärens förväxlingsförklaring är LEAD.

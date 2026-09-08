@@ -47,3 +47,34 @@ till sida 349 den 10 oktober 1901. Detta leder till C-0103:s Brosätterrad.
 
 A-0549–A-0550, A-0558–A-0559, A-2288, A-2510–A-2514, A-2516,
 A-3024, A-3030.
+
+## Tillägg 2026-09-08 — T-0132, personbunden fullpost och rättelse
+
+Fulloriginalen har lästs personbundet. På A I/26 sida 281 står Erik på
+rad 1, torpare, född 1851-01-30 i Bettna; hustruraden återger vigseln
+1895-12-28. Hans vaccinmarkering är v och kunskapsbeteckningen b med ett
+mindre grafiskt tillägg. Förhörsfält 1896 har c; återstående egna
+förhörs-/nattvards-, frejd-, militär-, döds- och flyttfält är tomma.
+Hustrun har c med grafiskt tillägg och förhör 1896 c. Dessa historiska
+kunskapsmarkeringar är inte en modern utbildningsnivå.
+
+På A II a/1 sida 346 är den tidigare sammanställningen om fyra personer
+ofullständig: även fostersonen Sven Arvid finns på rad 6, uppgiven född
+1898-07-27 i Flen. Fostersonen står också på den äldre sidans rad 10.
+Datumet är 27/7, inte äldre 7/7. Barn- och styvbarnsrelationerna hålls
+individuella; Axel Edvards återförda rad är en bokföringsdubblett.
+Eriks egen rad 1 har b/N och v, men eget förhörs-, anmärknings-,
+militär- och dödsfält är tomt; hustruns eget förhörsfält har 00.
+Hushållets hänvisning är från sida 281 år 1900 till sida 349 år 1901.
+Ett datum på det underliggande, skilda hushållet överförs inte till Erik;
+10 oktober 1901 bärs i stället av C-0103:s mottagande sida.
+
+## Fullpostprövning och rättelse — T-0143, 2026-09-08
+
+Båda hela originaluppslagen har återlästs för Matilda Charlotta, Sven Arvid och de övriga egna barnraderna. Tillräckliga föräldrafält från T-0132 tillgodoräknas.
+
+På A I/26 sida 281 har Matilda koppor `v`, kunskap `c` med ett ytterligare grafiskt streck och förhörsåret 1896 `c`. Hennes egna inflyttnings-, döds-, värnplikts-, frejds- och utflyttningsfält är tomma. Sven Arvid står på rad 10 som fosterbarn, född **27 juli 1898 i Flen**, koppor `v`, från **sida 233 år 1899**. Hans egna kunskaps-, förhörs-, nattvards-, frejds-, militär-, döds- och utflyttningsfält är tomma. Hänvisningen 233 är en ny, ännu inte öppnad hushållsväg, inte en redan läst fortsättning.
+
+Erik Arvid på rad 3 har kunskap `b`, koppor `v`, inga egna förhör/nattvard och utflyttning Stockholm 20 oktober 1897, attest 38. Maria Sofia på rad 6 har kunskap `b`, koppor `v` och under förhör 1898 rånoten `f.g. 22/5` [förkortningen reserveras]. Hennes destination är **Wadsbro/Vadsbro**, 10 november 1899, nummer 115, inte Mellösa. Bådas egna frejds-, militär-, inflyttnings- och dödsfält är tomma. Karl Augusts senare hushållsdatum 11 november 1880 står kvar; kandidatposten C-0580 har nu ett annat datum och annan namnform för modern.
+
+På A II a/1 sida 346 står Matilda på rad 2 med koppor `v`, kunskap `c/N` och förhör `00`; Sven Arvid på rad 6 med koppor `v` men utan egna kunskaps-/förhörsnoter. Egen frejd, militär och död är tomma. Familjens överföring från 281 år 1900 och till 349 år 1901 är bokföringshänvisningar. Dagen 10 oktober 1901 stöds av mottagarraden C-0103, inte av den separata familjen längre ned.

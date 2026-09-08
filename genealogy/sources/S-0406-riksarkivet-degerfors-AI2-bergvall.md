@@ -23,3 +23,10 @@ födelsenotisen 1821, men faderns födelseuppgift, övriga barn och en eventuell
 flyttanteckning är inte tillräckligt säkra för registrering. Överstrykningen
 visar inte i sig vart hushållet tog vägen.
 
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Det äldre Bergvallhushållet kvarstår som positiv kandidatfamilj. Ny egen vigseluppgift Pehr Ersson och 9 mars 1824 i C-0205 stärker kandidaturen men namnger ingen mor och förenar inte säkert P-0058 med parets Johannes.
+
+Se [C-0506](../citations/C-0506-degerfors-AI2-bergvall-och-brita-greta-1821.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

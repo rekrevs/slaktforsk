@@ -50,3 +50,11 @@ tvåförsamlingsnollet.
 ## Stödda påståenden
 
 A-2294–A-2295 och A-2995.
+
+## Fullpostprövning och rättelse — T-0143, 2026-09-08
+
+Hela SCB-sidan och post 1 har prövats, inklusive de högra kolumnerna. Egen dödsdag är **31 januari 1920**, namn **Matilda Charlotta Karlsson f. Sjöberg**, hustru till torparen Erik Karlsson i **Rosenhäll i Flens församling**. Hemvistformen Rosenhäll har kontrollerats oberoende. Född `60 8/8`, gift kvinna. Dödsorsaken är **Bronchopneumonia**; den mycket bleka underraden har prövats men kan inte säkert läsas och lämnas reserverad.
+
+Läkarattestens kolumn har `1`, barnmorskeattestens kolumn är tom. Egen annan dödsort, hänvisning till församlingsbok och särskilda anmärkningar är tomma. Formuläret återger ingen begravningsdag. Institutionsrubriken placerar posten i länslasarettets utdrag, medan tomt eget dödsortsfält inte ensamt bevisar ett exakt rum eller dödsplats hemma.
+
+C-0502:s tre senare civilståndsrader har redan i T-0132 omlästs till samma datum 31 januari 1920. Den äldre 3-aprilläsningen ovan är därmed avskriftsfel, inte en kvarstående originalkonflikt. Nollet i de två ordinarie dödböckerna C-0504 gäller fortsatt just deras genomlästa årgångar och innebär varken överlevnad eller avsaknad av en egen dödsnotis.

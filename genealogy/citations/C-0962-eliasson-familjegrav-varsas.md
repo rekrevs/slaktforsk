@@ -63,3 +63,14 @@ och ett noll i det ena är inget noll i det andra.
 ## Stödda påståenden
 
 A-3611–A-3613 (P-0021), A-3614 (P-0020).
+
+## Källkritisk avstämning 2026-09-07 — T-0121
+
+Gravregistrets samstämmiga datum tillför en återgivning i en annan
+handling, men oberoendet från kyrkobokföringen är inte visat. Födelsedagar
+avgörs inte genom att räkna två mot tre källor. För Per Wilhelm vägs den
+namngivna barndomsfamiljen och senare identitetskedjan tillsammans.
+S-0751 anger uttryckligen att ingen lokal kopia av registerposten är
+bevarad; detta är en konkret provenansbegränsning att åtgärda.
+Ett gravplatsnummer namnger inte biologisk relation mellan gravsatta;
+Ragnar och Tekla hålls på den beläggsnivå som respektive personprövning medger.

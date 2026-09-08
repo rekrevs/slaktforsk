@@ -33,3 +33,14 @@ har yrket polerare. Bilden bekräftar den tidigare indexavskriften C-0007 och
 
 A-0033–A-0044 och A-0061.
 
+
+## Egna familjefält — T-0129, 2026-09-08
+
+Karl Fredriks egen rad anger mekaniskt/yrkesmässigt `Maskinarb.` och
+födelseår 61, Lilla Mellösa. Skolfältets kod är 3. Inflyttningsuppgiften
+anger Skedevi och 00; ytterligare anteckning 23[?] reserveras. Barnfältets
+råserie läses 04–0–1–0–00, utan oprövad uttydning av delkolumnerna.
+Hans egna ekonomifält är tomma, inte beloppet noll. Uppgiften Baptist
+står på hustrun Charlottas rad och får inte överföras till Karl Fredrik.
+Bildens personfält kan vara beroende av församlingsboken; utdrag och
+registerindex räknas inte som två oberoende bekräftelser.

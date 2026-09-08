@@ -31,3 +31,11 @@ IIIF-rättigheten ändras och läs då hela intervallet, särskilt utflyttningen
 kring 1906-08-24 efter Gustaf Julius Elof Höglund. Ingen CAPTCHA har lösts
 och ingen Chrome-session har använts.
 
+
+## Aktuellt dokumenterat omfång 2026-09-07 — T-0120
+
+C-0949 visar att inloggad åtkomst fungerade 2026-09-06 för dess angivna
+bilder och poster 1895–1900. Det äldre 401-hindret ovan får inte föras
+vidare som aktuellt hinder för hela volymen. Ingen läsning av 1906 års
+målposter följer av detta; C-0661:s exakta årsroute är fortsatt en nyckel
+för den ännu ej utförda personbundna passagen.

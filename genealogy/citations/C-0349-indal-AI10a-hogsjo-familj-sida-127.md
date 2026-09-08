@@ -42,3 +42,20 @@ barndomshushållets 1844-12-04.
 ## Stödda påståenden
 
 A-1981–A-1994.
+
+## Konsolideringsrättelse 2026-09-07, T-0113
+
+Den bevarade namnlistan innehåller **åtta yngre hushållspersoner**, inte nio:
+Johan Petter, Ingrid Kristina Vidusina, Anna Erika Lydia, Katharina/Catharina
+Amanda, Erik Nikolaus Biljard, Lars Gustaf Emanuel, Brita Josefina och
+Jonas Alfred Konrad. Äldre löptext och A-1981/A-1982:s nio följer inte den
+registrerade listan. Rättelsen gäller räkningen i befintlig avskrift;
+originalbilden har inte lästs om och inga ytterligare personer utesluts
+utöver den dokumenterade listans omfång. A-4126 och A-4127.
+
+A-1992:s exakta fempersonsomfång för odöpta stöds inte fullt av citationens
+bevarade kärnavskrift, som reserverar just omfattningen. Säkert individuellt
+stöd för Erik respektive Jonas finns i C-0660 och C-0659. Anna Erika Lydias
+C-0350 saknar dopdatum, vilket inte ensamt är samma sak som en uttrycklig
+odöpt-anteckning. Återstående namngivna markeringar får inte upphöjas över
+läsreservationen utan omläsning. A-4128 redovisar denna begränsning.

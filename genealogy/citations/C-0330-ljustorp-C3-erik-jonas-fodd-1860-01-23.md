@@ -36,3 +36,29 @@ kontrollen C-0272 och dupliceras därför inte som binär fil.
 ## Stödda påståenden
 
 A-1942, A-1944 och A-1945.
+
+## Full relevant egenpost — T-0130, 2026-09-08
+
+Den redan sparade C-0272-fullbilden har prövats på Erik Jonas egen rad.
+Född23 januari och döpt24 januari1860, föräldrarna Torp. Henr.
+Henriksson i Lagfors och hustrun Marg. Charl. Sjödin,34 år, består.
+Det smala efterföljande fältet har24/2; kolumnens funktion reserveras
+utan säker kyrktagningsnormalisering. Ingen namngiven dopförrättare
+står uttryckligen på egen rad.
+
+Vittnesblocket läses med bevarade förkortningar och reservationer:
+
+- Torp. Er. Berg, h:u vid Lagfors Bruk.
+- Skogs-/annan yrkesförkortning[?], Enke Henr.[?], h:u ibm; läsningen
+  av person-/titelavsnittet reserveras.
+- Skogv.[?] Anders Berg.
+- Piga Sigr. Stina Henriksd:r ibm.
+- Båtsman A. Wiklander[?] i Sanna.
+- Piga Erika Henriksd:r i Edsåker.
+
+Rånamnen har prövats i förstoring av hela blocket. Osäkra titlar,
+initialer och dittoorter får inte bli säkra identiteter eller relationer.
+Två kvinnors Henrikspatronymikon är inte ensamt ett syskonbevis till
+fadern. Tidigare avskrift av vittnesblocket som helt outvunnet ersätts
+av denna faktiskt prövade, delvis osäkra läsning. Bättre originalåtergivning
+eller en personbunden parallellpost kan senare motivera precisering.

@@ -73,3 +73,10 @@ faderns inflyttningsår.
 ## Stödda påståenden
 
 A-4051–A-4054.
+
+
+## T-0137: avstämning 2026-09-08
+
+Hushållet gäller Bråtenkandidatens föräldrar, inte P-0132:s identifierade anor. Att dottern saknas 1851–1855 fastställer inte tjänstgöring, fysisk hemvist eller frånvaro från föräldrahemmet 1849. Senare C-1083 gav den föreslagna äldre Bråtenposten.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

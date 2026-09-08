@@ -66,3 +66,32 @@ Se [C-1014](C-1014-hallefors-C9-post-67-narlasning.md).
 - Initialerna `C. J.` bekräftas som läsning men förblir oupplösta som förnamn.
 
 Texten ovan bevaras oförändrad som revisionsspår.
+
+## Tillägg T-0134, 2026-09-08: fullpost och jämförelsegräns
+
+Post 67 har prövats i helbild med rubriker och eget utsnitt; se det nya
+fullposttillägget i [C-1014](C-1014-hallefors-C9-post-67-narlasning.md).
+Faddrarna är alltså utvunna. Diplomatisk vittnesform är Hellquist, med
+äldre Hellqvist bevarad som avskriftshistorik. Föräldrarna anges från
+S. Torpen. Modern läses Carolina Magnusd:r. Råtalet 31 år står under
+Omständigheter utan tryckt attribution till modern; den härledda
+födelseperioden är fortsatt LEAD. Läsningen ger ingen egen förrättarnot,
+sjukdom, hushållsfolio eller annan ytterligare uppgift i postens tomma
+återstående utrymme.
+
+Även de två lokala jämförelsebilderna har visats. Post 80 har andra
+föräldrar och födelsedag 26 september, post 84 andra föräldrar och
+29 september. De är inte barn till P-0371/P-0372. Deras hemvist- och
+hushållshänvisningar överförs inte till Hök-paret. C-0410/C-0411:s exakta
+vuxendatum 21 augusti och Hällefors samt Hök-namnet bär den redan gjorda
+sammanbindningen av post 67; de två senare böckerna är sammanlänkade,
+inte två oberoende ursprungsvittnesmål.
+
+Alla tre här länkade fullbilder finns, och samtliga tre SHA-256 stämmer.
+S-0303:s dokumenterade äldre genomgång av maj–december återges som
+sökhistorik, inte som ett nytt helårsunikhetsbevis. Årets början är inte
+fullständigt jämförd enligt samma källpost. De tre positiva jämförelserna
+är reproducerbara i de bevarade bilderna; något nollresultat om
+föräldrarnas hushåll görs inte. S-0303:s äldre påståenden om saknad
+ortsnyckel och endast LEAD för sonen är överprövade av C-1014 respektive
+C-0410/C-0411. Ingen ny arkivåtkomst har gjorts.

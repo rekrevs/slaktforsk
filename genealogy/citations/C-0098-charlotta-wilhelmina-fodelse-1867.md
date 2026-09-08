@@ -57,3 +57,23 @@ senare Larsson.
 ## Stödda påståenden
 
 A-0191 och A-0507–A-0529.
+
+## Avstämning 2026-09-08 — T-0137
+
+Hela den lokala bilden och post 17:s båda sidor har prövats. Födelse
+26 maj 1867, kvinnkön och äkta börd, föräldrar Lars Andersson och Brita
+Kajsa Pehrsd:r i Anderslund samt dop 30 maj kvarstår. Modern markeras gift.
+Hennes ålder står **38** i kolumnen för sist fyllda åldersår. Mot den senare
+identitetsuppgiften 1829-10-21 är hon 37 fulla år vid nedkomsten; detta är en
+bevarad åldersavvikelse, inte exakt oberoende bekräftelse av födelseåret.
+Kolumn 22 har **ex.** under examinerat förlossningsbiträde; ingen barnmorska
+namnges. Modern kyrktogs **30 juni**. Kolumn 23 och dopbokens diverse
+anteckningar på den egna raden är blanka.
+
+De fyra vittnesleden är J. E. Lindqvist, torpare i Hultstuga Skog;
+Brita Jonsd:r, hans hustru, ibm; Lindqvist **Alb.**, son ibm; Hedda Ersd:r,
+dotter från Skogstorpsstugan. Förkortningen Alb. bevaras utan att denna post
+ensam väljer Albert framför andra möjliga expansioner. Son ibm är
+källans relations-/hemvistform, inte en separat prövad föräldrabrygga.
+Inga vittnen görs till släkt med modern utan ytterligare belägg.
+Den länkade fullbilden finns och matchar angiven SHA-256.

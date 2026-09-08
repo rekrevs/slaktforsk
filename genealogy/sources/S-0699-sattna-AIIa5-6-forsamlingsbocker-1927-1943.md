@@ -32,3 +32,7 @@ folierna **162–180** (bild 160–178), medan `A II a/6` har en separat rubrik
 [C-0888](../citations/C-0888-henriksson-sattna-1919-1943-noll-storbranna.md),
 som söktes under `Storbränna`, kan därför inte utesluta familjen
 Henriksson–Larsson: deras fastighet heter Gärdtjärn i denna serie.
+
+## Avstämning 2026-09-07 — T-0119
+
+C-0930/C-0935 har funnit familjen under Storbränna på folierna392 och388. Den föregående slutsatsen att deras fastighet måste heta Gärdtjärn är ersatt. De äldre lästa Gärdtjärnfoliernas avgränsade noll består, men behöver inte upprepas för samma lokaliseringsfråga.

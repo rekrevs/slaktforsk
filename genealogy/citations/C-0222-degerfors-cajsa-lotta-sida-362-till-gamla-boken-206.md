@@ -36,3 +36,12 @@ volymperioden 1843–1847. Ingen av sidorna namnger hennes föräldrar.
 
 A-1417–A-1418, A-1445–A-1446.
 
+
+
+## T-0142: personbunden fullprövning, 2026-09-08
+
+Båda egna fullraderna är nu prövade. På A I/5a sida 206 i Renfors står `Pig. Cajsa Lotta Jonsdr`, `20/10 1825`, koppor v och ett klammerformat lästecken. Hennes egna från-/till-, gifte- och anmärkningsfält har ingen separat tydlig uppgift; Umeå 1846 på raderna ovanför tillhör andra pigor och får inte användas som hennes inflyttning. Egen nattvardsuppgift 1846 är `30/6`. I 1845-delen finns `2/3[?]` och ett närliggande `25/12[?]` vars exakta radbindning är svag; de är visuellt prövade men inte underlag för säkra nya datum.
+
+Hushållet ovanför är ingenjör J.R. Möller[?] med hustru Mat. Maria West…[?] och barn. Andra tjänsterader hör bland annat till Anna Carolina Ahr[?] och Catharina Meyer[?]. Dessa är arbets-/hushållsmiljö, inte Cajsa Lottas identifierade föräldrar eller syskon.
+
+A I/6b sida 362 har hennes pigrad, samma rådatum, 206 g.b.→ 361, koppor v, klammerformat lästecken och nattvard 1848-06-25. Övriga egna fält har prövats utan tydlig ytterligare not. C-0206:s nya tillägg redovisar hela senare kedjan inklusive det tidigare förbisedda 366-varvet. Befintliga båda fullbilder och hashar matchar. Ingen ny bildöppning i arkivet.

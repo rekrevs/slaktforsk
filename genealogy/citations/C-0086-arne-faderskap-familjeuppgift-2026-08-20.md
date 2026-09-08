@@ -39,3 +39,9 @@ T-0010. De två evidenslinjerna redovisas skilda åt.
 ## Stödda påståenden
 
 A-0075, A-0150 och A-0467–A-0470.
+
+## Beslutsavstämning 2026-09-07 — T-0123
+
+PCD-2026-08-20-001 fastställer Bernhard som Arnes far, OWNER_CONFIRMED.
+Äldre formuleringar om fortsatt sökande efter faderskapsbevis är historik,
+inte aktuell bevisbörda. Inget ytterligare faderskapsbelägg krävs.

@@ -30,3 +30,17 @@ Originalet är redan bevarat under C-0218 och dupliceras inte:
 
 A-2058.
 
+
+
+## T-0142: kompletterande egen radprövning 2026-09-08
+
+Moderns egen rad 6 har nu prövats över hela den redan bevarade helbilden `C0034439_00027`, med rubriker och radgränser. Namnformen är här `Kajsa Charlotta Jonsd:r`, född `1825 20/10`, Umeå landsförsamling. Eget kopporfält har `v`, kunskapskolumnerna grafiska råbetyg. Egna förhörs-/nattvardsmarkeringar finns under 1884–1889; små datum och svaga tecken är prövade men normaliseras inte till säkra egna händelsedagar. De senare årsfälten är tomma efter utflyttningen.
+
+Hennes egen utflyttning är `Alnö 89 21/5`. Egen inflyttningshänvisning är boköverföring genom dito från föregående uppslag, inte ett nytt daterat inflyttningsbevis. Egen dödscell är tom; makens 1885-11-17 och sonens dödsnot gäller andra rader. Något eget exakt vigsel-/änkedatum står inte utskrivet här. I den nedre delen av hennes frejdfält finns ett blekt `arb.[?] […]84[?]`-liknande råled; innehåll och säker radbindning reserveras. Noten på nästa rad får inte automatiskt flyttas till henne. Övriga smala egna betygs-/nummerfält ger ingen ytterligare säker egen uppgift.
+
+Albert har en egen likalydande Alnönot 1889-05-21. Charlottas destination har Alnö och därefter Sundsvall i sitt eget fält; hon tillskrivs inte automatiskt moderns slutdestination. Emma Maria och hennes son Carl Waldemar samt Jonas Peter finns på egna senare rader; de utgör ett relevant familjenätverk men inte ett samtidigt hushåll med den redan avlidne Johan. För deras personbundna datum gäller respektive familjecitation och aktuell akt. Råtecken som faktiskt prövats är läsreservationer, inte utebliven fullpostutvinning.
+
+
+### Oberoende radkontroll i samma pass
+
+En andra läsare har jämfört helbild och nativebeskärning och bekräftar att det bleka råledet ligger inom moderns rad 6, ovan Carls separata nästa not. Råtextens innebörd och datum är fortfarande reserverade. Detta är ingen säker yrkesändring, bestraffning eller annan ny personhändelse.

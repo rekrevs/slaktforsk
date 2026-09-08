@@ -20,3 +20,39 @@ Britas födelsesocken är svårläst och förs inte in.
 
 P-0350:s födelseuppgift och relation till modern P-0508 samt P-0351:s
 senare födelseuppgift. Ingen far till P-0350 skapas.
+
+## Lokal originalprövning — T-0134, 2026-09-08
+
+Hela originalet, familjens egna kolumner och rubriker har prövats;
+den länkade kopians hash stämmer. Rubriken är Håsta Udde, 12:e roten.
+Maken anges bruksarbetare Per Hillberg, född 1826-02-25 i Tuna[?].
+Hustrun skrivs Margreta[?]/Margareta Björkquist[?], född 1817-11-17
+i Mo. Normaliserat Björkqvist är inte belägg för hennes faders namn
+eller för namnbruk före vigseln.
+
+Hennes egen rad har inga in-/utflyttningsuppgifter, ingen egen döds-
+eller särskild omständighetsnot. Kunskapskolumnerna har grafiska
+b-tecken och tecken i begreppskolumnen, utan modern nivåöversättning.
+Nattvardsmarkeringar finns för 1857–1861 (10/10, 6/10, 17/7, 12/8,
+26/9 enligt de egna årskolumnerna); små förhörstal reserveras där
+skriften är svag. Det är positiv kyrklig bokföring även efter 1857,
+inte okänt om hon överlevde tvillingfödseln.
+
+Tvillingarna Anna Greta och Cajsa Mina står med 1857-06-09 och dop
+10 juni. Cajsa Minas överstrukna egen rad säger **död 25 augusti
+1857**. En tredje barnrad, **sonen Per Eric**, anger född **1859-09-06**
+och död **16 september 1859[?]**; dessa senare bokuppgifter behöver
+stämmas mot egna vitalposter innan de kallas fullständigt säkrade.
+Raden under anger **modern änkan Brita Hillberg**, född 1805-05-13,
+med prövat men reserverat sockennamn. Rollen hänförs som tidigare
+till Per, inte till Margareta. Övriga hushåll på sidan fusioneras inte
+med familjen; deras flyttar och anmärkningar gäller egna rader.
+
+Det nya barnet och dödsnoterna måste tillgodoräknas i familjens
+relationer. Sidans bokperiod innebär inte obruten fysisk vistelse,
+och fulla egna födelse-/dödhändelser för Margareta är fortfarande öppna.
+
+Skarp detaljkontroll av Per Erics dödsfält korrigerar ovanstående
+preliminära 16 september till **15 september 1859**. Datumet är en
+hushållsboksuppgift, inte ännu en egen dödsnotis. Födelsen 6 september
+står på hans egen rad. Ingen grannradsnot har förts över.

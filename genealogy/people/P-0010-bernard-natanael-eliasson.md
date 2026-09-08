@@ -81,7 +81,7 @@ evidenslinjerna hålls åtskilda.
 
 | Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
 |---|---|---|---|---|---|
-| 1886-04-19 | Född | Värsås/Kyrkefalla, Djursätra Västergården | — | Per Wilhelm Eliasson och Augusta Viktoria Johansdotter | C-0023 |
+| 1886-04-19 | Född | Värsås/Kyrkefalla, Djursätra Västergården | — | Per Wilhelm Eliasson och Augusta Viktoria Johansson | C-0023 |
 | 1890, 1900, 1910 | Folkräkningar | Djursätra Västergården | son; jordbruksarbetare 1910 | föräldrar och syskon | C-0024–C-0026 |
 | 1911–1916 | Bokhållare vid Ökna säteri **enligt familjen**; foto vid Ökna 1914; porträtt Norrköping 1913. Kyrkoboken motsäger perioden före 1916 | Floda | bokhållare | — | C-0263, C-0266, C-0264; motsägs av C-0913 |
 | 1916-11-22 | Inflyttning från Värsås till Ökna säteri, uppslag 592, attest nr 171 | Floda | bokhållare | — | C-0912 |
@@ -124,3 +124,11 @@ sekundärträdet dog han 1978-09-08 i Malmö (C-0018). Kyrkobokföringen
 - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: Ökna-tjänsten, Oskarshamn/vigsel 1923, arbetsgivaren och död 1978 har genomförbara vägar (profil KP-01–KP-04). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
 
 Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen identitet, födelse, föräldrahushåll, vuxenhushåll och ägarfastställt faderskap är åtskilda och konsoliderade; död, Ökna-tjänst och exakt vigsel är dokumenterade villkorliga berikningsspår.
+
+### Följdavstämning T-0121, 2026-09-07
+
+C-0023:s målpost14har lokalt omlästs av två granskare: född1886-04-19,
+dopanteckning1maj, modern Johansson/22år och fadern36år, inte den äldre
+avskriftens30. Familjen är densamma. Uppgifterna tillgodoräknas utan att
+ägarfastställt faderskap eller den separata Öknavistelsen omprövas.
+T-0223 äger kvarvarande fullpostutvinning; egen fullkonsolidering T-0151.

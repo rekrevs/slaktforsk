@@ -39,3 +39,16 @@ Bonde i Sannerby och far till den direkta anan Anna Ersdotter, född 1796.
 - Konsolidering: `GRANSKAD` 2026-09-04 (T-0046)
 - Källbredd: `KLAR` — hela närmaste personbundna ortsavsnitt är läst och
   kvarvarande vägar kräver en ny positiv identitetsnyckel.
+
+## Begränsad anhörigavstämning — T-0141
+
+2026-09-08: dottern Annas senare hushållsdatum har rättats till
+**1796-06-26**, inte tidigare avskriftens 6 juni. Hennes egen födelse
+4 januari/dop 6 januari 1796 och den här föräldrarelationen består.
+Ingen säker mekanism bakom datumavvikelsen är belagd. Den fulla
+födelsepostens fyra dopvittnen har bevarats i
+[C-0171](../citations/C-0171-ardala-C2-anna-1796-negativ-kontroll.md);
+de skapar inga nya släktlänkar. Den befintliga aktens äldre text och
+A-id är orörda. Full individuell akt- och profiladoption med båda
+PK-nivåerna ägs fortsatt av [T-0175](../../wotan/dev-log/T-0175.md),
+inte av denna begränsade följdanteckning.

@@ -32,3 +32,12 @@ Forssas längd och knyter den externa flytten till hushållet i C-0153.
 ## Stödda påståenden
 
 A-0810 och A-0825.
+
+## Tillägg 2026-09-08 — T-0132, personbunden fullpost och rättelse
+
+Post 14 i inflyttningsdelen har lästs över samtliga kolumner: 30 april
+1876, Erik Carlsson, folio 87, från Årdala och till Stafsjön, en man.
+Ortens dittoform läses mot föregående poster; förkortningen före namnet
+expanderas inte till en ny yrkesuppgift. Posten innehåller inget eget
+födelsedatum eller nya föräldrauppgifter. Det är inflyttningsbokens datum;
+utflyttningsnotisen 28 april i C-0156 gör inte mellantiden till känd restid.

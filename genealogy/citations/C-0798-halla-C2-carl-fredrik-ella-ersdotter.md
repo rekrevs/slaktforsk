@@ -39,3 +39,9 @@ Dimensioner och SHA-256 redovisas i S-0614.
 ## Stödda påståenden
 
 A-3066–A-3068.
+
+## T-0139: full födelsepost och rättad modersålder
+
+Den redan bevarade fullbilden `C0006543_00082`, post 3, har återlästs med hela måltexten. Pigan Ella Ersdotters oäkta gossebarn vid Lilla Wättstugan föddes den 9 april 1822 och döptes den 12 samma månad till Carl Fredrik. Åldersnoteringen är **28**, inte den tidigare avskriftens 23. Den är en uppgiven modersålder och ersätter inte en egen födelsepost för Ella. Ingen far namnges.
+
+Faddrarna läses `Enkefru H. Rihlstadius[?]`, `Mjölny[?]gesällen A. Andersson`, `dr. Lars` och `pig. Anna Lena`, följt av `alla i Björklund[?]`. De prövade namn-, titel- och ortreservationerna behålls; inga släktrelationer härleds ur vittnesrollerna. Marginalen innehåller `ab.` utan här säkerställd betydelse. Inget särskilt kyrktagningsdatum eller förrättarnamn anges i måltexten. Detta tillägg ersätter den äldre modersåldern men bevarar april/juli-konflikten mot rekryteringsattesterna.

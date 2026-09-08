@@ -66,3 +66,11 @@ register, och gå därefter till rätt årgång i rätt församling.
 ## Stödda påståenden
 
 A-3835–A-3836.
+
+## Fullpostprövning och rättelse 2026-09-08 — T-0134
+
+Det dokumenterade resultatet är ett **källbundet noll för 1836–1848 och den återgivna början av 1849 före 12 april**, inte hela 1849. Årstabellens 1836–1848 tal summerar till **168 par**, medan antalet i den prövade delen av 1849 inte anges. Äldre ungefär 180 är därför inte en verifierad exakt totalsumma. Årssummor gör läsningen kontrollerbar men bevisar inte att alla verkliga vigslar registrerats.
+
+Slutsatsen att endast före 1836 eller annan församling återstår var logiskt för stark. Även utebliven eller avvikande bokföring kan förklara ett noll i serien. Ingendera alternativet blir en positiv ort-/tidsuppgift. Hushållskorrelationen ska återställas från dotterns säkra föräldrapar och hemvist i Mönnerum innan en ny bred vigselsökning beslutas. Formulärkolumner garanterar inte ifyllda målpersonuppgifter.
+
+Efter lokal filnamns-, citationsalias-, metadata- och temporärkatalogsökning har inga fullkopior av **C0016247_00103–00116** återfunnits. Det är 14 exakta bildkopiebrister. Tidigare läsning och index bevaras; ingen ny originalomläsning av vigselårgångarna görs inom detta pass. Den närliggande lokala filen för CI 3 bild 113 är en annan volym och täcker inte skulden.

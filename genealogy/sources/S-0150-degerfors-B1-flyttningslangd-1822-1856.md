@@ -53,3 +53,10 @@ Lena/Malena Isaksdotter i Bergvall. Ingen säker rad återfanns. C-0507
 avgränsar detta till de fyra registren; resultatet säger inget om intern
 flytt, utelämnad notering eller år utanför intervallet. Bildvisare och
 helbildsnedladdning fungerade fortfarande trots direktmanifestets 403.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Den egna utflyttningsraden 1856 innehåller även dotterordet. Datum 2/4[?] skiljs från hushållets 4/4. Den tidigare 1847-postens identitet med P-0058 är däremot avvisad enligt C-0212:s daterade tillägg.
+
+Se [C-0190](../citations/C-0190-degerfors-B1-johan-pehrsson-med-hustru-till-savar-1856.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

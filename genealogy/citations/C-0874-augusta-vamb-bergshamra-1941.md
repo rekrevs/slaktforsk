@@ -70,3 +70,13 @@ Slutavgränsning: alternativkontrollen i S-0686 ger äldre FamilySearch-
 katalog och separat inloggningskrav hos ArkivDigital, ingen läst95-post.
 T-0059 avslutar sin ändliga undersökning med mottagarpost och dokumenterad
 åtkomstgräns. Dödsdatum förblir okänt; ny åtkomst kräver separat fortsättning.
+
+## Augustas egna fält — T-0127, 2026-09-08
+
+Rad 6 är personbundet omläst i de bevarade målskärmbilderna: koppor `v`,
+kunskap/nattvard `b/n`, förhörs-, värnplikts- och dödkolumner 13/15/18
+tomma. Änkeanteckningen efter Per Vilhelm och nya bokens folio 95 år
+1949 hör till henne. Fulloriginal 00079246_00151 saknas och bevaras inom
+T-0251; redan lästa egna fält tillgodoräknas. T-0252 äger den olästa
+95-posten och den skilda dödboksvägen. Bokbytet styrker inte hennes dödsår;
+den senare dödsdagen 1949-10-27 kommer från gravposten C-0962.

@@ -26,3 +26,34 @@ AI:12:s orienteringsprov förblir ett lokaliseringshinder, inte ett personnoll.
 ## Stödda påståenden
 
 A-2039–A-2042.
+
+## Brattåsfamiljens fulla relevanta fält — T-0128, 2026-09-08
+
+Fulloriginalet och familjeblockets närbilder har personbundet omlästs.
+Torparen Eric Pettersson har födelseår **17**, tolkat 1817; den efterföljande
+dag-/månadsglyfen är prövad men inte säkert läsbar. Hans födelsefält är
+inte helt överstruket. Egen födelseort är tom. Koppor har råmarkering,
+kristendomskolumnerna inga säkra egna värden och nattvardsfältet ett
+2-liknande råtecken. Egna inflyttnings-, utflyttnings- och dödfält samt
+anmärkning är tomma; det bevisar inte livslång frånvaro av sådana händelser.
+
+Hustruns strukna rad, Anna Stina, har födelseår **1812**, dag/månad
+**11/5[?]**. Egen dödkolumn anger **24/5 59**, med dagreservation i den
+personbundna läsningen. Det är en positiv ingång till maj 1859, inte
+en redan läst död-/begravningspost. Födelseortens cell är tom.
+
+Namngivna barnrader: Johan Petter **1844-11-20**, Edward **1843-02-24[?]**,
+Andreas **1850-11-11** och Olaus **1854-01-12**. Edward-radens månad
+behåller reservation; ingen födelsepost för de äldre barnen är här läst.
+Familjeblocket fortsätter med `Måg Carl Joh. Lagerstr…[?]`, född
+**1824-10-16**, hustru `Anna Christina[?]`, **1841-02-28**, inskjutna
+`Dot. Maria Carolina 61 5/11` samt `Dotter Matilda`, **1842-03-12**.
+Mågens inflyttningsfält har `Frö…[?] 61`. De prövade namn-/ortläsningarna
+normaliseras inte ytterligare. Måg och hustru är ett nätverksankare,
+men ger inte ensamma en fastställd biologisk dotterrelation eller
+föräldraskap till det inskjutna barnet. Ingen ny personakt skapas här.
+
+T-0254 äger hustruns exakta dödsmånad och närmaste avgränsade
+hushållsbryggor. Fullbild/hash finns redan ovan; osäkra tecken är
+prövade källgränser, inte bortglömda kolumner. P-0336:s avvisade
+föräldrakoppling återaktiveras inte av nya uppgifter om denna familj.

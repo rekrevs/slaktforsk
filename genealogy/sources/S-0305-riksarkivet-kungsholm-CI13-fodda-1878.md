@@ -19,3 +19,8 @@ föräldrarnas bostadsangivelse, moderns ålder samt sonens födelse och dop.
 Faderns datum `24/5 52` motsäger den tidigare Brattås-kandidaten 1854-01-12
 och måste därför bevaras som identitetskonflikt tills en säker födelse- och
 flyttkedja har återfunnits.
+
+
+## Rättelse 2026-09-08 — T-0128
+
+Faderfältet i C-0382 läses 4/9 52, inte 24/5. Brattåsbarnet är fortsatt separat.

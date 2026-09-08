@@ -60,3 +60,8 @@ sessionsberoende skärmbilder bevaras som original.
 ## Stödda påståenden
 
 A-2682–A-2687.
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Senaste positiva ankaret för Gertrud är 1951 med hänvisning till nästa bok sida 304. Nollan i Sättna F/2 åren 1952–1955 bevisar inte att hon levde 1955. Sida 389:s avskrift 1942-03-31 måste stämmas av mot C-0930:s inflyttningsrad 1931-12-04, inte normaliseras till obruten kedja. Manifest/API-underlag ersätter inte lokala fullbilder av registerbild 19, sida 389, A II a/8 sida 388 eller de faktiskt lästa negativa dödboksföljderna. Dessa kopior och datumprövningen ägs av T-0231; nästa olästa sida 304 och avgränsad egen döds-/gravväg av T-0234. Katalogens tidigare åtkomstutfall består till ett konkret omprov.

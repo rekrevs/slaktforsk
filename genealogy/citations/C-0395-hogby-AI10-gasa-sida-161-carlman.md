@@ -35,3 +35,17 @@ stärker att folkräkningsindexets `Wilhelm` är en senare avvikelse.
 ## Stödda påståenden
 
 A-2083, A-2085–A-2086 och A-2088.
+
+## Familjepostens utelämnade rad, T-0124,2026-09-07
+
+Fullbildens rad9 har ett överstruket ytterligare barn, preliminärt
+**Sigrid Ragnhild[?]**, födelse1874 6/3[?] och död13/3 74[?],
+Högby enligt ortupprepning. Root och oberoende omläsare ser raden.
+Äldre sexbarnslista är alltså ofullständig som utvinning av den
+öppnade familjeposten. Namn och datum måste slutprövas före nytt
+P-id; fasta baslinjen538 skall avstämmas vid framtida införande.
+
+Johan Fredriks egen rad5 har markering i1875 års förhörsfält som
+ännu behöver diplomatisk prövning. Rudolfs rad3 har däremot tomma
+egna kyrkliga/flyttfält i detta uppslag. Bevarad sidbild/hash
+tillgodoräknas; detta är utvinningsrest, inte saknad originalbild.

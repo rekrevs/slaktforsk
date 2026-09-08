@@ -24,3 +24,7 @@ för 1830- och 1840-talen är blekt skrivna och svårlästa medan denna längd g
 samma uppgifter i klartext.
 
 Byrubrikerna i hela volymen genomgicks 2026-08-20 för att lokalisera Rödå.
+
+## Personbunden avstämning — T-0139, 2026-09-08
+
+C-0111:s fullpostprövning i T-0139 visar att Anders och Sofia har födelseår utan egen dag/månad. Formulärets datumkolumn garanterar inte att en viss person har ett exakt datum. Deras tidigarebokfält läses g.b.368[?]. Äldre uppgift om genomgångna byrubriker i hela volymen saknar exakt historisk öppningslista; detta kräver metadatarekonstruktion och redovisad proveniensgräns, inte276 antagna saknade bildkopior. Den egna positiva bilden A0001442_00171 är fullständigt bevarad. En generell formel mellan sida och bild ersätter inte kontroll av bladets rubrik.

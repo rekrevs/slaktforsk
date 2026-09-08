@@ -45,3 +45,7 @@ Volymens [officiella IIIF-manifest](../media/S-0608-riksarkivet-mellosa-B3-IIIF-
 ## Stödda påståenden
 
 A-3032–A-3033.
+
+## Avstämning av sökningens utgångspunkt — T-0143, 2026-09-08
+
+C-0788:s och C-0579:s egna originalrader anger Wadsbro/Vadsbro, inte Mellösa. Det ovan redovisade nollresultatet behåller sitt faktiskt prövade omfång och sina bevarade bilder, men sökningen byggde på en felaktigt avskriven destination. Ingen Vadsbropost är prövad av denna sökning; den historiska negativa kontrollen får inte bli ett hinder mot den nya positiva vägen.

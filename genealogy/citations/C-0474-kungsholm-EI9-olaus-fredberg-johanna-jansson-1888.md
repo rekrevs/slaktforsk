@@ -42,3 +42,39 @@ retrospektiv men har ett kvarstående registergap.
 ## Stödda påståenden
 
 A-2045, A-2242–A-2245 och A-2248–A-2254.
+
+
+## Fullpost och rättelser 2026-09-08 — T-0128
+
+Den bevarade originalaktens egen födelsedel läses **18 24/9 52**, alltså
+**24 september 1852**, inte 24 maj. Inflyttningsraden är **Alnö f.**,
+14 juni 1876, inte Maria. Root och två andra läsare har prövat dessa fält.
+C-0382/C-0383 och C-0475 anger däremot 4 september. Här finns därför en
+verklig dagavvikelse inom september; resonemanget ovan om 24 maj som
+korroborerat och 4 september som enbart registeravvikelse återtas.
+
+Vittnesintyget är daterat 16 november 1888 och undertecknat Aug. Sandin[?]
+och A. F. Sandell[?], båda stationskarlar. Olaus egen namnteckning har inte
+identifierats. Han tillhör Kungsholm; kunskap Försvarlig, frejd Medborgerlig,
+nattvardsfält `Oförh.[?]`, koppor `v`. Dessa märken görs inte om till
+obevisade livshändelser. Tidigare hustrun Brita Stina Svensdotter och
+änklingdatum 1/10 86 kvarstår. Avvittringsfältet ger Stockholm RR,
+`1[3/7?]/11 88`; exakt dag är prövad men osäker. Ingen bouppteckningsakt
+är därmed läst.
+
+Bruden anges född 16 oktober 1866 i Skånela, Stockholms län, inflyttad
+från Klara 10 oktober 1888 och förut ogift. Kunskap God, frejd Medborgerlig,
+nattvard Ofta; koppor samt änke-/avvittrings-/giftomansfält har streck.
+Bådas adress är 37 Fleminggatan. Lysningar 18/25 november och 2 december,
+vigsel 8 december 1888, förrättare v. komminister Sch…[?]. Betyg uttaget
+27 december 1888. Kyrkoherdens underskrift finns; namnet slutnormaliseras
+inte utifrån denna osäkra läsning.
+
+Barnförteckningen avser första giftet och alla anges i Kungsholm:
+Robert Nicolaus 7/6 1878, dop 7/7[?]; Johannes Ivar 24/6 1880,
+dop 20/7[?]; Frida Elisabeth 29/1 1883, dop 26/2; Ruth Fredrika
+7/2 1885, dop 16/4[?]. Reservationerna gäller handskriften. Roberts egen
+doppost C-0382 anger 8 juli och har företräde som egen händelsepost;
+skillnaden bevaras. Brudens tidigare-barnfält är tomt, vilket inte ensamt
+bevisar total barnlöshet. Dessa uppgifter är en senare familjeförteckning,
+inte fyra nyöppnade födelse- och doporiginal.

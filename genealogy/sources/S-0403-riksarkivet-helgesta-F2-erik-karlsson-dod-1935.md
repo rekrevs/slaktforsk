@@ -16,3 +16,9 @@ födelsedatumet och hänvisningen till församlingsbokens sida 177 identifierar
 Erik säkert. Dödsorsaken återges som den historiska termen `Marasmus senilis`
 utan modern medicinsk omtolkning.
 
+## Avstämning mot lokala original — T-0132, 2026-09-08
+
+C-0503:s egen dödpost anger Landstingets vårdhem i Katrineholm, inte Långtidsvårdhem. Död20mars1935, begravning24mars och Marasmus senilis består; anteckningen läses Dödsatt.20/3 35.
+
+Äldre avskrifter ovan bevaras som historik. De daterade korrigerande
+citationstilläggen och aktuella personakterna anger nuvarande bedömning.

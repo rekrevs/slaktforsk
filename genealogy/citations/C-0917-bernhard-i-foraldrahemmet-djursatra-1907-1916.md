@@ -98,3 +98,59 @@ berörs inte; frågan ligger hos ägaren i
 ## Stödda påståenden
 
 A-3447–A-3449 (P-0010), A-3450 (P-0021).
+
+## Källkritisk avstämning 2026-09-07 — T-0121
+
+Föräldrarnas och tre barns registrerade utflyttning1916-11-24innebär inte
+att hela hemmet bröts upp: Johan Martin Gabriel och Rut står kvar i
+kärnavskriften, Agnes har en tidigare intern hänvisning. Lysningnr3år1913
+är inte ensam ett belägg för Agnes genomförda vigsel.
+
+Namnen RagnarVittolus, SvenAllan och Alva ska hållas mot tidigare
+RagnarVilhelm, SvenAssar och Alma som personbundna läs-/namnfrågor.
+Värnpliktsnotens radanknytning vidRut är särskilt osäker; numret får
+inte tilldelas henne utan originalkontroll. Per Wilhelms1850-08-18och
+vigsel7juniär avvikande uppgifter mot barndomshushållet och C-0990:s
+vigsel19juni; ingen källa avgörs genom enkel majoritetsräkning.
+Folk-/kyrkobokföring är inte automatiskt faktisk vistelse eller ägande
+varje år. År1916är en registreringshändelse, inte bevis för en tidigare
+eller senare obruten fastighetsandel. Bernhards ägarfastställda faderskap
+omprövas inte av familjens bokföringsuppgifter.
+
+## Agnes egen rad, avstämd i T-0127 2026-09-07
+
+Hela r4 har kontrollerats i lokal fullbild och förstoring. Dottern Agnes
+Maria uppges född1889-03-14; födelseortens dito går till rad3 `Versås`,
+inte moderns Kyrkefalla. Koppor är markerade `v`, kunskapskolumn11 `a`
+och nattvardskolumn12 `N`. Egen förhörskolumn13 är tom. Anteckningsfält14
+innehåller `Lysning N:o3,1913`. Värnpliktskolumn15 och dödkolumn18 är
+tomma. Varken hennes vigselkolumn eller änkekolumn har datum.
+Utflyttad/överförd16–17 anger `sid162`,år13 och22/9, alltså en intern
+vidareföring1913-09-22. Egen yrkeskolumn och inkommande fält är tomma.
+Raden är överstruken vid vidareföringen. Brödernas yrken, inskrivningstal
+eller1916års attester hör inte till Agnes. Hennes senare folio162 är ännu
+inte läst; lysningsnot3 visar inte i sig genomförd vigsel eller makens namn.
+
+C-0024:s Kyrkefalla-dito1890 kvarstår som en avvikande registeruppgift mot
+1900/1910 och denna egen hushållsrad. Inga nya födelseoriginal har lästs och
+födelsesocken avgörs inte genom att räkna antalet senare upprepningar.
+A-4270–A-4271 tillför egna uppgifter i P-0022.
+
+## Föräldrarnas datum och Augustas egna fält — T-0127, 2026-09-07
+
+Oberoende omläsning av fulloriginalet och närbilder rättar tre tidigare
+avskriftsfel: Per Wilhelm står född **1850-03-18**, Augusta Viktoria
+**1863-06-24** och deras vigsel **1885-06-19**. De äldre läsningarna
+18 augusti, 27 juni respektive 7 juni i denna citation är därmed upphävda.
+T-0121:s tolkning av dessa som konflikter mellan originalkällor ersätts
+också. Vigselns 19 juni överensstämmer med den egna vigselposten C-0990.
+Gravuppgiften C-0962:s 27 juni för Augusta är däremot en verklig avvikande
+uppgift som denna avskriftsrättelse inte upphäver.
+
+Augustas egen rad 2 har koppor `v`, kunskap `b` och nattvard `N`.
+Förhörskolumn 13 är tom. Anteckningskolumn 14 har dito från makens
+`Fl 16 20/11`; värnpliktskolumn 15 är tom. Utflyttningen genom dito
+avser Kyrkefalla **1916-11-24**. Dödkolumn 18 och egen yrkeskolumn är
+tomma. Anteckningen den 20 november skiljs från utflyttningsdagen den
+24 november. Barnens yrken och värnpliktsnummer tillskrivs inte modern.
+Fullbild och hash finns redan ovan; inga nya arkivsökningar har utförts.

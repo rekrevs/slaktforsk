@@ -32,6 +32,7 @@ namn Zingmark.
 | A-3572 | **Hon skrevs `Hem.äg. änka` — hemmansägare i eget namn** efter makens död 1935. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Hon ägde alltså gården, inte bara bodde där. |
 | A-3573 | Marginalanteckningen anger hennes jordinnehav till **⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1** i Ytterhiske. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Gör mantals- och lagfartsmaterial till en saklig källfamilj för henne. |
 | A-3657 | Det jordinnehav hon som änka skrevs för på Ytterhiske omfattade **stadsägorna 1266, 1267, 1268, 1269, 1383, 1384 och 1428**, enligt Umeå stadsförsamlings stadsägeregister, där maken står som hemmansägare. | CORROBORATED | hög | [C-0981](../citations/C-0981-zingmarks-stadsagor-ytterhiske.md) | Preciserar `⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1` med stadens egna fastighetsnummer. |
+| A-4303 | I moderns bouppteckning den 23 augusti 1898 namnges hon som dottern Ida Sofia, gift med sågverksförmannen J. O. Zingmark. | TRANSCRIBED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Omläst bevarad fullbild i T-0129. Ingen ny personidentitet skapas. |
 
 ## Relationer
 
@@ -91,3 +92,9 @@ gården efter henne.
 - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: 1909–1944 och död har genomförbara vägar (profil KP-01). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
 
 Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen födelse, barndomshushåll, föräldrar, vigsel och vuxenhushåll bildar en sammanhängande identitetskedja; sekundär död är ett dokumenterat villkorligt spår.
+
+### Avgränsad följdavstämning 2026-09-08, T-0129
+
+I moderns bouppteckning den 23 augusti 1898 namnges hon som dottern Ida Sofia, gift med sågverksförmannen J. O. Zingmark. [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md). Råinitialerna identifierar inte gäldenären J. A. Zingmark i den äldre ekonomiska avskriften.
+
+Full individuell konsolidering och kontraktsprövning ägs fortsatt av [T-0154](../../wotan/dev-log/T-0154.md). Denna följdavstämning är ingen fullgranskningsmarkering.

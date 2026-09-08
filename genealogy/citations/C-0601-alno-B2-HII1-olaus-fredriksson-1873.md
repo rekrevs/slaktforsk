@@ -48,3 +48,25 @@ senare kyrkoboksnära original; egen födelsenotis återstår.
 ## Stödda påståenden
 
 A-2240 och A-2551–A-2552.
+
+## Full attestomläsning och datumrättelse — T-0128, 2026-09-08
+
+Två oberoende läsningar av den bevarade fullbilden rättar födelsefrasen
+till **`1852 Femtio två den 4 September`**. Ordet `den` är tryckt i
+formuläret. Det står inte `eller`; den äldre beskrivningen av en första
+svårläst alternativdatering är ett avskriftsfel. Attesten ger en enda
+uppgift: 1852-09-04. Konflikten mot vissa senare majdatum består, men
+förekommer inte som två alternativ inom denna attest.
+
+Egna fält: arbetskarlen/drängen Olaus Fredriksson, Björknäs, Lundby i
+Älvsborgs län; till äktenskap `Efter uppgift ledig`, inget vigseldatum.
+`har` haft skyddskoppor, läser innantill `försvarligt`, kristendomskunskap
+`försvarlig`. Bevistat förhör är tomt. Nattvardsfältet har ett prövat men
+osäkert ord före `tillträde`; ingen särskild nattvardsdag kan utläsas.
+Frejden är `medborgerligt förtroende`. Mantalsskrivningsfältet till nästa
+år saknar uppgift. Destination Norrland; församling och län där är inte
+ifyllda. Utfärdad Fogelviks och Skattkärrs församling den 24 oktober 1873,
+undertecknad B. G. Ullstrand[?], komminister. Marginalens mottagarnummer
+76 och folio 167 hör till Alnös införing. Den egna noten att han ännu inte
+undergått mönstring som beväring är läst, men identifierar inget senare
+förband och fastställer inte vad han själv sade om gardestjänst 1876.

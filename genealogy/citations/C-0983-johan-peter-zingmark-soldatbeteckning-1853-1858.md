@@ -52,3 +52,12 @@ beskrev honom som bonde under hela den vuxna tiden.
 ## Stödda påståenden
 
 A-3659.
+
+## Preciserad råtitel — T-0133, 2026-09-08
+
+Fullpostprövningen i C-0562 lämnar 1856 års titel som **B:d[?]**.
+Den får inte räknas som en fjärde säker militär beteckning. Tre andra
+poster har tidigare säkert lästs Sold.; tjänsteförloppet förblir öppet.
+C-0565:s egen titel 1864 är **f. Landb.**, inte en utvidgad titel utan
+förkortningsmarkering. Råformerna visar inte i sig social upp- eller
+nedgång. Äldre avskrift bevaras ovan.

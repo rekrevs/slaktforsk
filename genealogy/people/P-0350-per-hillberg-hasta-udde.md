@@ -6,6 +6,12 @@ Far i Anna Gretas och Cajsa Minas gemensamma födelsenotis 1857. Registrerad
 som gränsperson utanför nästa utgåvas fasta breddkohort; hans eget ursprung
 forskas inte vidare nu.
 
+### Begränsad familjeavstämning T-0134, 2026-09-08
+
+C-0842:s hela familj visar även sonen **Per Eric, född 1859-09-06 och död 1859-09-15**, samt tvillingdottern **Cajsa Minas död 1857-08-25**. Det är hushållsbokens egna datum; barnens vitalposter är inte nya lästa källor. Hustruns egna kyrkliga markeringar 1857–1861 belägger hennes överlevnad efter tvillingfödseln. Den äldre födelsebildluckan i Mo är upphävd; ingen säker novemberförlust har påvisats. [C-0842](../citations/C-0842-halsingtuna-AI13-per-hillberg-mor.md), [C-0843](../citations/C-0843-mo-C3-greta-1817-bildfoljdslucka.md). Närmaste tidigare familjebrygga ägs av T-0285.
+
+Full individuell granskning och profilinförande ägs fortsatt av [T-0162](../../wotan/dev-log/T-0162.md). Detta är endast avstämning av de nya familjeuppgifterna.
+
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |

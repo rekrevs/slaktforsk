@@ -71,3 +71,64 @@ SHA-256
 - A-1619–A-1622
 - A-1629–A-1641, med luckorna A-1630–A-1640 fördelade på personakterna i den
   explicit redovisade kedjan
+
+## Avstämning 2026-09-07 — T-0121
+
+Den äldre generella LEAD-formuleringen avser inte längre alla led i
+kedjan. C-0820 har korroborerat Gabriel–Stina-hushållet, barnen Petter
+Wilhelm och Margaretha Sofia samt bryggan till P-0020. C-0841 har därefter
+identifierat Gabriels namngivna föräldrar Elias och Greta Gabrielsdotter.
+Stinas uppgivna föräldralänk till Lars Månsson är fortfarande LEAD;
+DNA-berättelsen utan underliggande data löser inte det äldre ledet.
+Fotot identifierat som Per Wilhelm på sida1 är bevarat personmaterial
+med sekundär tillskrivning; fotograf, tid och originalfoto är inte kända.
+
+## Fullare sekundärutvinning 2026-09-07 — T-0122
+
+Lokal tvåsidig PDF läst på nytt för de fem äldre akterna. Följande
+uppgifter kompletterar kärnavskriften, utan att uppgradera till primärfakta:
+
+- Sida1 säger att fyra barn till Magnus Jaensson/Greta Jonsdotter har
+  följts upp i krönikan: Jan, Anders, Lena och Lars. Därpå uppges att
+  sex barn dog som spädbarn eller unga. Namn, datum och dödsorsaker för
+  dessa sex anges inte. Fyra följda personer är inte ett redovisat
+  totalbarnantal; kategorierna ska inte automatiskt summeras till tio.
+- Textens Magnus/Måns-förklaring är sammanställarens namnresonemang,
+  inte personkontroll i kyrkoböcker. Diagrammets Måns Jeansson1726
+  och PDF:s Magnus Jaensson1726 hör till samma föreslagna familjeprofil.
+- Lars syster Lena sägs ha barnbarnet Carl Jansson, gift med Charlotta
+  Ericsdotter, Lars Svenssons barnbarn; de sägs ha bott på Strängården,
+  Stora Sänneryd. Dessa ytterligare släktled är sekundär kontext.
+- Lars Svensson uppges död1831 och Lars Månsson1843. Påståendet att
+  de måste ha känt varandra är författarens slutsats, inte egen källa.
+- Lars köpte enligt texten en gård i Värsås; det anges inte uttryckligen
+  att köpet gällde just Västergården. Stina och Gabriel är ett
+  föräldrapar i den föreslagna kedjan, inte två på varandra följande
+  generationer. C-0820 stöder den närmare familjen, inte Larslänken.
+- Sida2 säger att Magnus Larssons verksamhet bedrevs i ena flygeln
+  på Blikstorps gård efter den uppgivna flytten1840. Den avbildade
+  klockan sägs vara märkt ML Blikstorp; bilderna sägs hämtade från
+  internet utan URL, fotograf eller datum. May Stränggård Hammar sägs
+  ha den tidigare omtalade Blikstorpsklockan. Varken ägarkedja, exakt
+  objektsidentitet eller verkstadens primära belägg följer av PDF-texten.
+- Frideneboken nämns utan författare, upplaga eller sidnummer. Minst
+  tre söner till Magnus uppges ha blivit urmakare; inga namn ges här.
+
+DNA-berättelsen saknar fortfarande testföretag, cM och segment. Den
+är inget självständigt bevis för varje äldre led. Ägarbekräftad
+Bernhard–Arne/Anki-kunskap berörs inte av den begränsningen.
+
+### Inklippt objektpost på sida2 — visuell kontroll T-0122
+
+Den inbäddade annonsen ger mer än PDF:s sökbara text: Leiflers,
+objektnummer612751, golvur i vitt träfodral, urtavla ”M.L. - Blikstorp”,
+daterat1900-tal. Den visar sålt16maj2017 kl.12:19CEST, högsta bud1600SEK
+och värdering1200SEK. Beskrivning: höjd195cm, bredd52cm, ommålad, två
+lod/pendel/nyckel. Konditionsrubrik syns utan utvunnen uppgift. Detta
+är den sparade annonsbildens uppgifter, ingen ny kontroll av försäljningen.
+
+1900-talsdateringen lämnas synlig mot berättelsens urmakare verksam1840.
+Varken märkningen eller att bilden ligger i samma PDF identifierar
+automatiskt Magnus Larsson som tillverkare, eller annonsobjektet som
+May Stränggård Hammars klocka. Uppgifterna ger en exakt framtida
+objektsingång; separat bibliografisk/objektprövning i T-0226.

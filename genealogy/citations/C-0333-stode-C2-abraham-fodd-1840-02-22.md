@@ -48,3 +48,28 @@ Läsningen `Brita Jonsd:r` ovan är därmed **belagd**, och den kanoniska
 modellens val av `Jonsdotter` mot C-0590:s `Jönsd:r` är motiverat och inte
 längre bara antaget. Divergensen mellan de två primärkällorna kvarstår;
 vigselåret **1830** är den post som kan avgöra den genom att namnge fadern.
+
+
+## Tillägg T-0126, 2026-09-07: egen namnform och hela postens räckvidd
+
+Den bevarade fullbilden är omläst. Barnets namn skrivs **`Abram i
+Hullsjön`**, som också återges i C-1021; Abraham är normaliserad
+visningsform. Födelse- och dopdagarna 22 respektive 26 februari står
+fast. Föräldrarna är de redan redovisade, med moderns ålder 28 år.
+
+I den smala kolumnen mellan föräldrar och vittnen står **`5/4`**.
+Kolumnrubriken finns inte på detta uppslag, varför markeringen bevaras
+utan säker normalisering till exempelvis kyrkotagningsdag.
+Vittnesfältet är längre än det tidigare återgivna första namnet:
+
+> `Jöns Pehrsson och H:u i Källsta[?]`, ett överstruket ord,
+> `Jon Jönsson i Hullsjön och Martha Stina Pehrsd:r i Källsta[?]`.
+
+Ortformerna och det överstrukna ordet är prövade men reserverade i
+denna bildläsning. Den första hustrun namnges inte. Vittnesrollerna
+ger inget eget släktskapsbevis. Hela den lokala originalfilen och dess
+hash ovan består; utsnitt i `/tmp` är endast läshjälpmedel.
+
+## T-0136: individuell fullpost- och gränsprövning, 2026-09-08
+
+T-0126:s hela postprövning och råa vittneslista återanvänds. De två bevarade filernas SHA-256 stämmer vid omräkning. Moderns 28 år i februari 1840 är källans ålder; hennes uppgivna födelsedag 1812-07-28 skulle ge 27 fyllda år. Skillnaden är redovisad, inte ett automatiskt bevis för födelseåret 1811 eller mot modersidentiteten. Patronymikonet Jonsd:r identifierar inte en separat far Jon; se C-1021:s rättelse T-0136. Den avvisade oktoberkontrollen gäller ett tidigare feltolkat datum och får inte bli ett negativt personresultat.

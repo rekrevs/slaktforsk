@@ -62,3 +62,13 @@ med patronymikonet ger en far vid namn Jon eller Jonas.
 ## Stödda påståenden
 
 A-0629, A-0652 och A-0680–A-0686.
+
+## Personbunden fullprövning och rättelse — T-0139, 2026-09-08
+
+Det bevarade fulloriginalet A0001455_00130 har lästs över hela målpost 3 på högersidan under 1828 års rubrik, med kolumnrubrikerna på vänstersidan. **Hemmanstillträdaren Anders Olofsson är 22 år och bondedottern Sofia Magdalena Jonsdotter 18 år.** Äldre avskrift har kastat om dessa tal. Det är en projektavskriftsrättelse, inte en bevisad felskrivning i originalet. Åldrarna är förenliga med senare födelseår 1806 respektive 1810, men bestämmer inte deras exakta födelsetid.
+
+Lysning **2 mars** och vigsel **15 april 1828** består. Anders hemvist läses **Rödå**. Sofias hemvist läses reserverat **Granö[?]**; den får inte väljas som säker födelsesocken eller automatiskt föräldrahem. Gamla Granåker[?]/Kråkahässja[?] är inte styrkta läsningar av parets egna rader. Nästa rad med eget namn och ort tillhör ett annat par. Posten har inga ytterligare namngivna föräldrar, giftomän eller vittnen och anger ingen särskild geografisk vigselplats utöver registreringen i Degerforsboken.
+
+Bondedotter är hennes källbeteckning. Den namnger inte en bestämd far Jon/Jonas och identifierar inte hans hemvist, ekonomiska ställning eller närvaro. Den senare hushållsbokens upprepade vigseldatum kan bero på kyrkobokens uppgift; det är inte automatiskt ett oberoende datumvittne. De äldre födelsekontrollerna består som faktiskt utförda namnbundna nollor, men ett särskilt kandidatår omkring 1806 för Sofia motiveras inte längre av denna vigselålder.
+
+Fullbildens befintliga fil och SHA-256 återanvänds. Namn, titel, datum, ålder och egen ort har prövats; kvarvarande ortreservation är inte en aldrig läst kolumn.

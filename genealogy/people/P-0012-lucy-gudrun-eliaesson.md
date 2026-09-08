@@ -23,3 +23,14 @@ Natanael Eliaesson. Modern Katy Leonie Nilsson är historiskt belagd.
 | [P-0010 Bernhard Natanael Eliaesson](P-0010-bernard-natanael-eliasson.md) | far | OWNER_CONFIRMED | PCD-2026-09-03-005, C-0819, C-0027 |
 | [P-0011 Katy Leonie Nilsson](P-0011-katy-leonie-nilssoon.md) | mor | CORROBORATED | C-0018, C-0027 |
 | [P-0013 Ann-Catherine Jonasson](P-0013-privat-dotter-eliaesson.md) | syster | CORROBORATED | C-0263, C-0264 |
+| [P-0014 Maj-Grete Karlsson](P-0014-maj-grete-karlsson.md) | syster, gemensamt hushåll 1930 och gruppbildens text 1944 | CORROBORATED | C-0027, C-0263, C-0264 |
+
+## Begränsad anhörigavstämning — T-0142
+
+2026-09-08: den tidigare utelämnade systerrelationen till Maj-Grete är
+införd från samma hushålls- och bildmaterial som redan används i akten.
+Maj-Gretes år 1927 i SCB står mot familjeuppgiftens 1925; konflikten
+ändrar inte systerrelationen. Bildtexten 1944 anger inte vilken dotter
+som står eller sitter var. Full individuell standard- och profiladoption,
+alla egna källor samt båda PK-nivåerna ägs fortsatt av
+[T-0147](../../wotan/dev-log/T-0147.md). Inga äldre A eller texter borttagna.

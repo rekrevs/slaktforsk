@@ -63,3 +63,14 @@ CAPTCHA hanterades av agenten och inga sessionsdata lästes eller bevarades.
 ## Stödda påståenden
 
 A-2294–A-2295 och A-2995.
+
+## Avstämning mot lokala original — T-0132, 2026-09-08
+
+C-0502:s tre egna civilståndsrader är nu omlästa som 1920-01-31, samstämmigt med Matildas egen lasarettspost här. 3 april var avskriftsfel och är inte längre en verklig källkonflikt.
+
+Äldre avskrifter ovan bevaras som historik. De daterade korrigerande
+citationstilläggen och aktuella personakterna anger nuvarande bedömning.
+
+## Personbunden avstämning — T-0143, 2026-09-08
+
+Den fulla målposten har prövats på nytt. Det daterade tillägget i C-0773 ersätter de äldre avskrifter ovan som uttryckligen rättas där; originaltexten bevaras historiskt.

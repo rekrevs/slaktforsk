@@ -33,3 +33,7 @@ uppgivna födelsedagen 1817-03-04. Den måste läsas tillsammans med C-0288 och
 ## Stödda eller motsagda påståenden
 
 A-1803 tillsammans med C-0288.
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Den tidigare datumavgränsade nollkontrollen i Västra Ny står kvar inom sina två sparade bilder. Den får inte längre beskrivas som en ännu olöst konkurrens med en oprövad Hammaruppgift: C-0289 har den positiva födelseposten och C-0297/0296/0291 binder familjen. Nollresultatet säger inte att hon aldrig bodde i Västra Ny och bevisar inte i sig födelse i någon annan församling.

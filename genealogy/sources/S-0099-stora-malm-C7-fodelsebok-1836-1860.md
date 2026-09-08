@@ -17,3 +17,11 @@ Samtida originalbok. Carl Augusts post namnger fadern Lars Andersson och ger
 födelseortskedjan till det senare familjehushållet i Lerbo. Moderns namn är
 svårläst och avviker möjligen från Brita Kajsa; det används inte som
 identitetsbelägg utan särskild bryggkälla.
+
+## Avstämning T-0137, 2026-09-08
+
+C-0128:s hela egna post78 har prövats i befintlig läsbar skärmbild och
+andralästs: dop8 oktober1848; modern Brita Stina Jansdotter[?], rå27.
+Det är en faktisk källavvikelse mot hushållets Brita Kajsa Pehrsdotter,
+inte bevisat biologiskt moderskap. Vittnesnamnen Ersson rättar Engström.
+Ingen ny arkivvisning utförd.

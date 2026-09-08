@@ -61,3 +61,20 @@ skulle ange hennes födelseförsamling i klartext.
 ## Stödda påståenden
 
 A-0670–A-0673.
+
+## Fulla relevanta fält och senare identifikation — T-0127, 2026-09-07
+
+Post 10 har återlästs i den lokala fullbilden. Födelse 24 juni och dop
+27 juni 1863, flickmarkering, modern Maja Greta Larsdotter, hemvistfolio
+18 och ålder 39 år är personbundna. Fälten för adel, förlossningsbiträde,
+kyrkotagning/absolution och ytterligare anmärkning är tomma. Ett dopvittne
+står: `Sjö(n)[?] Anders, Korporal vid Sandbråta[?]`. Namn och ort har
+prövats i förstoring men slutläsningen är osäker. Tomma fält är inte
+bevis för frånvaro av vård eller en särskild rättslig händelse.
+
+Senare C-0999/C-1002/C-1003 binder barnnamn, födelsedag, modern och folio
+till P-0021. Den ursprungliga avvisningen enbart genom patronymikon är
+upphävd. Erik Roth och Johannes Eriksson är två män enligt C-1000;
+faderskonflikten kvarstår, men moderns identitet och barnets korrelation
+är stödda. Den äldre generella uppgiften om oåtkomliga Värsåsböcker är
+också upphävd av senare åtkomst, inte ett aktuellt källslut.

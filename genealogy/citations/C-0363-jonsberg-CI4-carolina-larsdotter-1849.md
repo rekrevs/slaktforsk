@@ -31,3 +31,13 @@ föräldrarna är säkrade utan att deras anor drivs vidare.
 ## Stödda påståenden
 
 A-2025–A-2026, A-2035–A-2036.
+
+## Fullpostprövning och rättelse 2026-09-08 — T-0134
+
+Hela den egna posten 15 har nu prövats i den redan bevarade fullbilden. Född 12 april 1849, döpt 15 april, Carolina Larsd:r, föräldrar Bonden Lars Svensson och H. Maja Lena Jonsd:r. Hemvisttexten under barnet och två vittnesorter läses **Mönnerum**. Det tidigare Mannersum[?] preciseras med dessa upprepade egna ortled, inte med den avvisade familjen på A I/7 sida 55.
+
+Hela faddertexten: **Bonden Anders Nilsson i Mönnerum, hans hustru Brita Olofsdr, drängen Nils Månsson i Fyrskeda[?] och pigan Anna Stina Olofsdr i Mönnerum**. Ortledet Fyrskeda behåller reservation. Vittnena är inte därigenom bevisade syskon eller föräldrar till någon i paret.
+
+Sista egna kolumnen har råtalet **35**. Hela uppslaget har motsvarande tal 37,35,33,27,26,25 och 20,27,29,37,20,38 på övriga föräldraposter. Kolumnen saknar tryckt rubrik på detta uppslag; **moderns ålder 35 är en stark men reserverad fälttolkning**, inte en säker foliohänvisning. Inget stöd för rättelse 35→55 finns. Talet får inte göras till en säker födelsedag eller användas för att återupprätta det avvisade hushållets datum 1814-03-28.
+
+Ingen egen kyrktagningsdag, förrättare, sjukdomsnot eller extra marginalanteckning framträder i den fullständigt prövade målposten; dessa uppgifter har inga egna tryckta kolumner här. Förlossningsbiträde anges inte. Båda föräldrarnas namn och hustrubeteckningen är positiva; deras egen vigsel eller födelse framgår inte.

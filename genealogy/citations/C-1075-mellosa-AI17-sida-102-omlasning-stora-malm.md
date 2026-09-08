@@ -96,3 +96,18 @@ läst men inte säkrad.
 ## Stödda påståenden
 
 A-4027–A-4033.
+
+
+## Senare rättelse 2026-09-07: inflyttningsåret
+
+[C-1092](C-1092-mellosa-bettna-flytten-1860-rattar-1856.md) läser året som 1860 och bekräftar flytten i båda
+församlingarnas flyttningsböcker. Tidigare avskrift bevaras ovan.
+
+
+## T-0137: avstämning 2026-09-08
+
+T-0137 tillgodoräknar rättelsen till Stora Malm som en senare
+hushållsuppgift. Den är inte en egen födelsenotis för Eva Lotta. Lerbo och
+senare böcker uppger 1832-08-05 mot här 1832-03-05; datumvariationen består.
+Inflyttningsåret är senare kontrollerat till 1860 i C-1092. Att projektet
+feltolkade dotterns datum är inte bevis för att källans datumfält är fel.

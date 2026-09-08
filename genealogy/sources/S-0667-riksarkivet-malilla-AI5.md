@@ -33,3 +33,7 @@ inte för en säker födelsesocken eller ett sökbart exakt födelseår. Inga
 föräldrar skapas utan en personbunden flytt-, vigsel- eller tidigare
 hushållsnyckel.
 
+
+## T-0136: avstämning 2026-09-08
+
+Det finns inget belägg för att parets hushåll står på sidorna 138 eller 158. C-1022 och C-1029 avvisar den tidigare lokaliseringen; den utgör därför inte en kvarvarande utvinningsskuld för deras ursprungsfält eller ytterligare barn.

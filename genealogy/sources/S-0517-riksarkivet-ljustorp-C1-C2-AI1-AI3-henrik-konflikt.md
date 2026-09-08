@@ -114,3 +114,20 @@ Samtliga fem IIIF-manifest, sök- och register-API-svar, det direkta
 403-svaret och 23 exakta originalbilder är checksummade och länkade i
 [C-0678](../citations/C-0678-ljustorp-familj-98-originalkonflikter.md).
 Inga webbläsarskärmbilder har bevarats som ersättning för original.
+
+
+## Bevarandeomfång och rättad födelseortstolkning — T-0138, 2026-09-08
+
+De 23 originalbilder och 18 metadatafiler som faktiskt länkas i C-0678
+finns och är hashkontrollerade. Beskrivningarna ovan omfattar också fyra
+äldre öppningar utan återfunnen kopia: exakt 71000675_00236, en senare
+1798-gräns och ortregistren för Laxsjön i A I/1 respektive A I/2. Denna
+skillnad mellan öppnade och länkade källor är en konkret bevaranderest,
+nu avgränsad i T-0313. Ingen ny extern bild har öppnats i granskningen.
+C-0624:s fullbild C0033123_00060 finns däremot redan under C-0678.
+
+Första styckets formulering att Familia routar Brita till Ljustorp får
+inte läsas som en födelseförsamlingsuppgift. Omläsning av C-0593h visar
+Ljustorp i **boendeförsamling**, med tomt eget födelseförsamlingsfält.
+1795-kontrollen ovan är därför ett avgränsat ort-/år-/datumnoll från en
+prövad hypotes, inte ett motbevis mot ett positivt födelseortsbelägg.

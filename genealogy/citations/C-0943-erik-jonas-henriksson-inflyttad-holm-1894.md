@@ -56,3 +56,8 @@ arkiv, med samma födelsedatum och födelseort i varje led.
 ## Stödda påståenden
 
 A-3541–A-3542 (P-0253).
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Denna sida binder Holms ankomst 1894 till de senare Östbynsfolierna. Hela livskedjan från födelsen 1860 är däremot inte obrutet följd: den tidigare uppväxtluckan enligt C-0519 består. Ingen ny total källuttömning följer av nio volymer eller upprepat datum. De reserverade läsningarna i stånd och hänvisning bevaras utan att ensam rad görs till bevis för avsaknad av hushåll.

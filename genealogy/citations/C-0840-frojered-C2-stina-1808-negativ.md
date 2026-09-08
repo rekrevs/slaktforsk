@@ -22,3 +22,12 @@ flyttbelägg som rättar datum/socken eller uttryckligen namnger föräldrar.
 ## Stödd avgränsning
 
 P-0289:s slutstatus.
+
+## Omfångsavstämning 2026-09-07 — T-0121
+
+Den dokumenterade passagen är januari–februari1808på en angiven bild,
+inte hela födelseåret. C-0820:s nya detaljkontroll reserverar mars1som
+alternativ läsning av Stinas datum på samma hushållsbild. Därför ska
+februarinollet inte användas som motbevis mot ett ännu oprövat marsdatum.
+Lars Månsson-länken förblir LEAD; ingen ny födelse eller fader identifieras
+av denna avskriftsavvikelse.

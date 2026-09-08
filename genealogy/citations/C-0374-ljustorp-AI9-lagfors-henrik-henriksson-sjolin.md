@@ -43,3 +43,26 @@ binärfil.
 ## Stödda påståenden
 
 A-2046–A-2049 och A-2051–A-2056.
+
+## Personbunden originalavstämning — T-0130, 2026-09-08
+
+De egna vänster- och högersidorna har lästs lokalt med förstoring.
+Henrik står1829 10/8, Lagfors, gift54 16/7, med vaccinations-v,
+grafiskt kunskapsmärke (sex prickar och tre nedåtriktade streck), tom
+fräjd och död84 13/3. Torpartiteln är överstruken; ytterligare
+överstruken titel ovanför reserveras som Inh.[?]. Detta ger ingen
+linjär social nedgång när tidigare böcker redan anger inhysesman.
+Margretha Charlotta står1825 12/8, Stockholm, samma vigseluppgift,
+vaccinations-v och eget grafiskt kunskapsmärke; egna fräjd-/dödsfält tomma.
+
+Sonens Nils Andreas egen födelsedag läses **21/2 1867**, inte tidigare
+27/2. Den gamla dagkonflikten i denna citation är därmed ett rättat
+avskriftsfel, inte ett original som säkert motsäger21 februari.
+Han har tillagd arbetartitel och anteckningen Inskr.88. Icke konfirm.
+Inskrivningens typ bestäms inte utan stöd av sammanhang/formulär.
+
+Högersidans egna in- och utflyttningskolumner är tomma för alla tre.
+År1882 har ett w-liknande tecken i **F-kolumnen för förhör** på var och
+en av raderna. N-kolumnen för nattvard är tom; märket ska därför inte
+beskrivas som dokumenterad nattvard. Övriga egna årsfält är tomma.
+Bokperioden bevisar inte faktisk närvaro varje år eller dag.

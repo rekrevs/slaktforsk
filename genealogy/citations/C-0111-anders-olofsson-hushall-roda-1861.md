@@ -73,3 +73,19 @@ Umeå stadsförsamling. Hon är därmed Anders Olofssons mor.
 ## Stödda påståenden
 
 A-0598 och A-0627–A-0662.
+
+## Personbunden fullprövning och rättelse — T-0139, 2026-09-08
+
+Hela den bevarade bilden A0001442_00171 har återlästs, med makarnas egna fält över hela uppslaget. Rubriken är **Bonden & Nämnemannen**; Anders Olofsson har senare födelseuppgift **Förs., 1806**, koppmarkering `v`, kunskapsbåge och vigsel **15/4 1828** i parets gemensamma klammer. Hustrun **Sofia Magd. Jons dr** har **1810**, dito för födelseförsamling och `v`. Ingendera har egen födelsedag eller månad. Deras dödfält och egna anmärknings-/utflyttningsfält saknar egen saknot. I från-/foliofältet vid Anders står **g. b. 368[?]**, en prövad tidigarebokshänvisning, inte den äldre säkra expansionen Gift. 368. Vänstermarginalens mantalsråtal innehåller bland annat 5/64, äldre strukna tal och 13/64 vid övre hushållet; de får ingen automatiskt säker fastighetsandel eller ekonomisk förändring.
+
+De egna kyrkliga årsfälten har nattvardsnoter över 1861–1865. För båda läses 1861 **20/5 och 22/9**, 1862 **21/4, 24/8[?], 30/11[?]**, 1863 **25/5 och 27/9[?]**, 1864 flera små datum med 31/1 samt 26/6[?] och 2/10[?], 1865 **7/5 och 1/10**. Sofias förhörskolumn 1864 har 6. Små svaga dag-/månadsformer är faktiskt prövade och reserverade, inte nya säkra kalenderhändelser. Tomma äldre 186-kolumner och tomma egna förhörsrutor fylls inte med grannraders tecken. Noterna belägger registrerat kyrkligt deltagande, inte obruten fysisk närvaro eller personlig tro.
+
+Nio barnrader återges, inte en total för hela livet: **Olof 30/10 1829, Jonas 15/6 1831, Anna Lisa 20/4 1833, Carl Petter 2/9 1839, Lotta Sofia 30/3 1843, Anders 9/5 1846, Maria Johanna 2/8 1849, Sara Mathilda 24/3[?]1852 och Hedda Fredrika 16/12 1854.** Saras överstrukna datum reserveras; den tidigare 4/[?]-formen står kvar som läshistorik. Barnens datum är hushållsuppgifter, inte här lästa födelseposter. Anna Lisa och Carl Petter är överstrukna; överstrykning bevisar inte ensam en exakt flyttdag. Anna Lisas frånfält har Umeå och 2/12 1861[?]; Carl Petters utkolumn anger nedan. Olof/Jonas har råfält omBrån[?]/dito och korta egna anmärkningar, vilka inte blir föräldrarnas flytt eller tjänst. Lotta Sofias marsdatum måste avstämmas mot hennes övriga befintliga källor; detta är inte en ny undersökning av hennes födelsebok.
+
+Modern **E:a Anna Cathar. Anders dr**, senare födelseuppgift **Umeå sfg, 1783**, står uttryckligen somModer. Hennes årsfält innehåller kyrkliga dateringar 1861–1865, inte en egen dödsnot. Änkestatusen identifierar inte Anders biologiska far, hans namn eller ett dödsår före 1861; ett senare äktenskap hos modern är heller inte belagt här.
+
+Längre ned står **Gifte son Carl Petter Andersson**, 2/9 1839, hustru **Ulla Carolina Jons dr**, 16/1 1841, frånfolio 536, samt barnen **Anders Vilhelm 12/10 1863** och **Sophia Evelina 27/3[?]1865**. Vigselfältet har 1863 med överliggande små datumtecken som inte säkert normaliseras här. Detta är sonens separata familjedel, inte två ytterligare barn till Anders/Sofia. Nederst finns en separat pigrad med reserverat namn och år 1833; hushållsnärhet ger inget släktskap. Kända egenfält är prövade, medan svaga tecken redovisas som läsgränser. Befintlig fullbild och hash tillgodoräknas.
+
+### Precisering av den separata pigraden — T-0139, 2026-09-08
+
+Nedersta raden har råformen **Piga Maria Carolina Olsdr[?]**, födelsetal **16/[?] 1837[?]**. Namnets slut och datumets månad är prövade men reserverade; även den tidigare årsläsningen 1833 behålls som osäker läshistorik. Raden står efter flera tomrader under sonfamiljen. Sidplaceringen visar inte säkert hos vilket av hushållen hon tjänade och ger inget släktskap.

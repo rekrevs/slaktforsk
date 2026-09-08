@@ -57,3 +57,18 @@ en uppgiven kollateral ättling, inte en direkt ana.
 
 - A-1618–A-1622
 - A-1628
+
+## Bildavstämning 2026-09-07 — T-0122
+
+Lokala hela diagrammet kontrollerat. Kerstin Jansdotter1721, tabell3,
+visas som syster till Måns Jeansson1726, tabell18. Lena Månsdotter1757,
+tabell52, har tre namngivna söner i diagrammet: Anders Jansson, Magnus
+Jansson och stjärnmarkerad Jan Jansson. Stjärnan förklaras som den gren
+där krönikan har mest kunskap. Sidogrenarna nämner Dick Eriksson,
+Hjerpe/Sahlström/Borg/Hardestam och Hugo Larsson utan mellanled.
+Detta är sekundär nätverksinformation, inte nya verifierade personakter.
+
+PDF C-0262 ger fler namngivna mellanled; C-0820 har senare korroborerat
+Stina–Gabriel-familjen och barnen. Den äldre Lars→Stina-bryggan är
+fortfarande LEAD. Saknat tabellmaterial är en dokumentationsgräns,
+inte skäl att kalla den redan befintliga primära hushållsvägen oprövbar.

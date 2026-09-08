@@ -55,3 +55,23 @@ Hela intervallets övriga filer och SHA-256 finns under S-0499 och i
 ## Stödda påståenden
 
 A-2639–A-2640, A-2642–A-2644, A-2647–A-2651 och A-2655–A-2656.
+
+## Tillägg 2026-09-07 — T-0120, utvinningsomfång
+
+Förnyad kontroll av det bevarade fulloriginalet visar personbundna delar
+som kärnavskriften ovan inte återger: Eriks rad 4 har en flerradig
+lysnings-/äktenskapsanteckning och värnpliktsfält; `Frikallad` kan läsas
+på hans rader 4 och 8. Jonas rad 5 har en lysningsanteckning med augusti
+1901 och ett inskrivningsnummer i kolumn 15. Fulla lydelser och siffror
+är ännu inte säkrade och får inte ersättas med gissade normaliseringar.
+
+Anna Kristinas rad 9 har noteringen `utträde t. baptistsamfundet
+14[?]/2 87` enligt detaljläsningen. Datumets dag hålls reserverad; den
+första översiktsläsningen 18 är inte säkrad. Detta belägger en anteckning
+om samfund, inte ett dop, motiv eller hela hennes religiösa liv. Notens
+exakta lydelse och datum prövas i den avgränsade fortsatta utvinningen.
+
+Jonas hänvisning till sida 138 gäller samma bok. Sidan ingick redan i
+S-0499:s allmänna Högsjöscreening men saknar personbunden fullutvinning
+för honom. Eriks och Annas `N.b. 138` gäller däremot nästa bok. Dessa
+hänvisningar får inte sammanföras till en och samma lästa fortsättning.

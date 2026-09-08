@@ -38,3 +38,7 @@ snävare modern diagnos.
 
 A-1792–A-1795.
 
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela post 19, inklusive tryckta rubriker, är återläst. Död 21 december 1877; Ajax, Eleon. Gustafva, med ett tillagt Urbom[?]; smedshustru, Ternö, folio 119; ålder 60 år 9 månader 17 dagar; giftmarkering. Orsaken är historiskt ”inflammat. bröst”. **Nyköp. Lazarett står i själva dödsortskolumnen**, inte endast som läkarens adress. Begravd 28 december. Attestdelen har en markering vid läkare; övriga egna marginal-/notfält är utan ytterligare personuppgift. Ålderns överensstämmelse med 4 mars 1817 är en intern aritmetisk kontroll, inte bevis för oberoende uppgiftsursprung. Medicinsk modern diagnos fastställs inte.

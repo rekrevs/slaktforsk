@@ -31,3 +31,11 @@ Inget helt ort- eller volymnoll påstås. Den positiva dödposten C-0418 och
 
 A-2137.
 
+
+## Senare lokalisering — avstämt T-0121, 2026-09-07
+
+C-0917 har därefter lokaliserat målfamiljen på A II a/2 folio134.
+Det tidigare lokaliseringsnollet gäller endast de angivna startsidorna;
+det ger inte längre skäl för ny allmän sidsökning efter detta hushåll.
+C-0917:s ortregister återges med132, jämfört med130ovan; håll den äldre
+registeravskriften skild från den säkra positiva målfolion134.

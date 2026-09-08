@@ -95,3 +95,7 @@ inte ett maximalt IIIF-original.
 ## Stödda påståenden
 
 A-2893–A-2895.
+
+## T-0139: avstämning och proveniensgräns
+
+Hela egna dödsposten och läsbara hushållsraden är prövade. Båda anger 1822 9/4. Hushållet har frånp 1:47 år 94 och död 4/1 95. Särskild dödsort och orsak tomma; den sparade browserkopian räcker för egna fält. Se [C-0743](../citations/C-0743-bettna-grill-dod-1895-B5-negativ.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.

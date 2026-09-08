@@ -48,3 +48,7 @@ bror) som kontrollperson.
 ## Stödda påståenden
 
 A-3363–A-3364 (P-0241), A-3365 (P-0246).
+
+## Avstämning 2026-09-07 — T-0119
+
+C-0930/C-0933/C-0935 har därefter följt familjen till Sundsvall 1928 och tillbaka till Sättna 1936. Sökningarna ovan gav inga träffar med angivna filter; de bevisar inte utlandsflytt eller obefintlighet och orsaken till utebliven nationell indexträff är inte fastställd. Henry Johan Alfreds födelseår1903 och namn är inget belägg för broderskap. Gertruds Hallén-hushåll är senare läst i C-0926/C-0930; avvikande födelseort för Hallén och Ivars månadsuppgift bevaras där.

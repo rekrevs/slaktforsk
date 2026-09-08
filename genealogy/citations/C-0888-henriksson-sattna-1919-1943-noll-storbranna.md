@@ -71,3 +71,7 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3341 (P-0241), A-3342 (P-0246).
+
+## Avstämning 2026-09-07 — T-0119
+
+C-0927 har därefter läst den digitaliserade egna vigselboken och funnit vigseln 1924-09-13. Tidigare uppgift att E I/1 var analog gäller inte. Noll för de tre faktiskt lästa SCB-årgångarna består. Storbränna folierna 398–402 var inte hela byns familjebestånd: paret återfanns på392 respektive388 i C-0930/C-0935. Det gamla geografiska nollet får därför inte generaliseras; Sättnas 1930-utdrag visar inte orsaken till nationellt indexnoll.

@@ -27,3 +27,18 @@ den sena sociala beteckningen; folkräkningen 1880 kallade honom torpare.
 ## Stödda påståenden
 
 A-2046 och A-2049.
+
+## Hela egenposten — T-0130, 2026-09-08
+
+Den bevarade helbilden har lästs lokalt på båda sidors post 13.
+Död 13 mars och begravning 16 mars1884, man, gift, 54 år7 månader3 dagar,
+inhysesman i Lagfors och lungsot tillgodoräknas. Hänvisningen till
+husförhörslängden är **222**. Fälten för annan nationalitet/trosbekännelse,
+äkthet, läkar-/barnmorskebetyg, särskild dödsort eller utland och egna
+särskilda anteckningar är tomma. Grannposters anteckningar gäller inte
+Henrik. Lagfors är angiven hemvist; exakt dödsbyggnad är inte belagd.
+
+Åldern stämmer aritmetiskt med 1829-08-10, men kan ha beräknats från
+kyrkobokens födelsedatum. Den är därför inte automatiskt en oberoende
+födelsekälla. Inhysesman i denna post belägger inte ensam en kontinuerlig
+social nedgång från torpare; de tidigare egna titlarna ska jämföras.

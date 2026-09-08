@@ -38,3 +38,7 @@ de egna födelsenotiserna C-0099 och C-0098 och binder posten säkert till
 P-0042 och P-0043. Moderns namnform `Brita Katrina Andersd:r` avviker i
 patronymikon från födelsenotisens `Brita Kajsa Pehrsdotter` och bevaras som
 konflikt, inte som rättelse.
+
+## Avstämning 2026-09-08 — T-0137
+
+C-0535:s T-0129-fullutvinning återbrukas och fullbilden hashmatchar. Moderns relation står explicit men patronymikonavvikelsen Andersd:r mot Pehrsdotter avgörs inte av antal upprepningar. C-1063:s senare änkerad ger korrelation, ingen dokumenterad skrivfelsmekanism.

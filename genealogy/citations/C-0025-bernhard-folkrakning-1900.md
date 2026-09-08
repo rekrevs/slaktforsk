@@ -29,3 +29,14 @@ Värsås. Registerpostens fadersår 1858 avviker från 1850 i C-0024 och C-0026.
 ## Stödda påståenden
 
 A-0119 och A-0126–A-0144.
+
+## Agnes egen folkräkningsrad, T-0127 2026-09-07
+
+Den bevarade fullbildens Agnes Maria-rad har kontrollerats tillsammans med
+föräldraklammer och kolumnrubriker. Eget födelseår1889, dotterrelation och
+ogift kvinna-markering är positiva; egna yrkes- och lytesfält är tomma.
+Födelseorten anges genom egen dito-/församlingsmarkering som Värsås.
+Det är en överförd folkräkningsuppgift, inte hennes egen födelsepost.
+Det egna trossamfundsfältet är tomt; ingen särskild trosbekännelse eller
+nationalitet är inskriven.
+Tomma fält är avgränsade observationer på denna sida, inte livslånga noll.

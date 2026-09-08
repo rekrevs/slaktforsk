@@ -34,3 +34,24 @@ anger inte vilken annan dag eller församling som är riktig.
 ## Stödda påståenden
 
 A-1412.
+
+## T-0142: rättelse av det tidigare bildomfånget
+
+2026-09-08 har hela den bevarade bild47 återsetts, inklusive båda
+sidornas datum- och föräldrafält samt lokala detaljer. Den äldre
+textens obrutna följd16augusti–11september stöds **inte** av bilden.
+Första posten Erik Gustaf har16/11, medan senare rader omfattar
+19/10,29/10 och november-/decembertal. Eva Carolinas överliggande
+rådatum är svårare och ska inte bära en ny exakt intervallgräns.
+Bildens postordning är inte en säkert sammanhängande kronologisk
+födelseföljd från första till sista datum.
+
+Ingen Johan Peter/Jonas Petter med Johan Pehrsson och Cajsa Lotta
+Jonsdotter som föräldrar identifieras bland bildens faktiskt prövade
+poster. Detta är ett **bildbundet** resultat. Det visar varken en
+fullständig septemberkontroll eller att alla oktoberfödelser, inklusive
+de nya hushållsnycklarna, har prövats. Ett Johan Petter-namn i en
+annan post på högersidan har andra föräldrar och bildar ingen träff
+för den aktuella familjen. Äldre observationer och filnamn bevaras
+för spårbarhet; det felaktiga tidsintervallet tillgodoräknas inte.
+Den lokala fullbildens hash är oförändrad. Ingen ny arkivåtkomst.

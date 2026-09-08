@@ -111,3 +111,12 @@ inflyttningslängd 1916–1976 är digitaliserad och oläst; den ger
 ## Stödda påståenden
 
 A-3486–A-3488 (P-0241), A-3489 (P-0246), A-3490 (P-0247).
+
+## Avstämning 2026-09-07 — T-0119
+
+Den här återgivna vigseldagen överensstämmer med C-0927 men är inte visat oberoende av vigsel-/flyttunderlaget. Skillnaden mellan utflyttningslängdens 1928-09-14 och församlingsbokens 1928-09-29 består; antagandet om avförningsdag är en tolkning. Återflytten är redan funnen 1936-11-14 i C-0935 och ersätter det då öppna 1928–1938-fönstret. Positiv flyttkedja ersätter obefintlighetshypotesen för dessa händelser; den bevisar inte alla mellanår eller orsaken till ett nationellt indexnoll. Halléns födelseort Tuna avviker från C-0926:s Timrå och Ivar Hennings decemberdatum från september i samma citation.
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Gertruds egen rad 7 har de lästa kyrkliga tecknen c/N och tom kolumn 13; de är inte en ny fullutvinningsrest. Hallinradens inflyttning från 389 läses 1931-12-04. C-0677:s äldre avskrift 1942-03-31 från avgångssidan 389 är ännu inte avstämd mot lokalt fulloriginal, som saknas för just den sidan. Båda uppgifterna bevaras för kolumn-/datumprövning i T-0231. C-0675/C-0926:s Ivarrad ger september 1918; decemberavskriften på detta senare uppslag avgörs inte genom källröstetal.

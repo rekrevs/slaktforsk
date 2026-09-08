@@ -40,3 +40,7 @@ väntar på bekräftelse ur en hushållsrad med utskrivet födelsedatum.
 ## Stödda påståenden
 
 A-3817.
+
+## T-0136: avstämning 2026-09-08
+
+Råtalet `28` är bekräftat i den lokala fullbilden. Eftersom den relevanta kolumnen inte har en synlig rubrik på uppslaget är modersålder en sannolik tolkning av placering och talmönster, inte en uttrycklig rubrikavläsning. Om tolkningen är riktig ger talet ett ungefärligt födelseintervall 1796–1797. Det får inte användas som säkert exakt födelseår, eller för att utesluta en vigsel före 1815 med en antagen artonårsgräns.

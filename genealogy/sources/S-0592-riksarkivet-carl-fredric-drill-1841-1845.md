@@ -151,3 +151,7 @@ redan bevarar de kompletta bildföljderna.
 ## Stödda påståenden
 
 A-2966–A-2972.
+
+## T-0139: avstämning och proveniensgräns
+
+Carl Johans hela födelsepost och Carls inflyttningsrad är prövade. Modern är namngiven, fadern tom; dopnätverket bevarat. Lysning och faktisk vigsel hålls åtskilda. Se [C-0763](../citations/C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.

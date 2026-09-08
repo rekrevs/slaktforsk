@@ -36,3 +36,16 @@ C-0018 men visar inte det privatmarkerade barnet.
 
 A-0079, A-0081–A-0086, A-0089–A-0091 och A-0120–A-0125.
 
+
+## Personbunden fullradsläsning — T-0142, 2026-09-08
+
+P-0014:s egen rad (SCB sida 166, rad 33 i hushållet vars huvudman står
+på rad 30) har `d. Maj-Grete`, födelseår `27`, födelseort `förs.` och
+markering i ogift kvinnokolumn. Under huvudyrke står kod `5`; koden
+avkodas inte till ett yrke utan kodnyckel och är inte hennes ålder.
+Egen biyrkes-, lytes-, bokhänvisnings-, flytt-, trosbekännelse-, skol- och
+ekonomikolumn ger ingen ytterligare uppgift. Tomma fält är inte levnadslånga
+noll. Bernhards flytt från Oskarshamn 1923, kassörsyrke och ekonomirad hör
+inte till dottern. Hushållsgränsen skiljer familjen från de andra grupperna
+på samma fastighetsfolio 3365. A-4701 bevarar den egna raden; äldre text
+står kvar. Den redan sparade helbilden och SHA-256 är verifierade.

@@ -58,3 +58,25 @@ frånvaro men är relevant kontext för perioden.
 ## Stödda påståenden
 
 A-3700; fullföljer A-3699.
+
+## Rättelse av slutsats och bevarandeprövning 2026-09-08 — T-0133
+
+Den tidigare slutsatsen ”Sara Sophia dog inte i Degerfors” och att en
+hemresa för att dö är utesluten återtas. Det dokumenterade utfallet är
+ett **avgränsat noll i den lästa dödboksserien**, inte bevis för faktisk
+dödsort, frånvaro från socknen eller en annan dödsdag. Hushållsuppgiften
+1868-08-14 står kvar som positiv men ännu oförenad uppgift. Ånäset som
+hemvist och föräldrahem gör inte födelseorten säkert belagd av denna
+källa. Hushållsvolymens korrekta beteckning är Sävar A I/6b, inte A II a/6b.
+
+Tidigare intervalläsning i Sävar ska tillgodoräknas enligt
+[C-0555](C-0555-savar-dodbocker-sara-sophia-1868-1870-negativ.md); den
+begränsades inte till 14 augusti. Åldersberäkningen för Sara Sophia i
+C-0995 har rättats där. Ingen av dessa rättelser identifierar någon av
+de tidigare avvisade kvinnorna som målpersonen.
+
+Efter lokal fil-, alias- och metadataeftersökning saknas fortfarande
+fullbilderna **F0010298_00038, _00039, _00040, _00041, _00042 och _00043**.
+Detta är sex preciserade kopiebrister utöver C-0995:s sex. Den äldre
+läsningen och dess omfång bevaras; någon ny fullbildsprövning av
+namn-, ålders- eller årsskifteskolumnerna har därför inte kunnat göras.

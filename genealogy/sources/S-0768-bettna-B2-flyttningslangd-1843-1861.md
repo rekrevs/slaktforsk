@@ -47,3 +47,8 @@ Den som söker på formen `Mellösa` ensam kan missa raden.
 
 Serien är den enda flyttningskällan för Bettna under perioden och är
 ingången till parets folio i Bettnas husförhörslängd.
+
+
+## Rättelse och avgränsning i T-0137, 2026-09-08
+
+Den äldre formuleringen att B/2 är den enda flyttningskällan för perioden är inte en prövad uttömning av alla tänkbara flyttattester, hushållshänvisningar eller alternativa källor. C-1092 gav senare positiv utflyttning 1860; negativperioden 1855–1856 är historiskt avgränsad.

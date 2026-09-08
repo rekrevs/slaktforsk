@@ -32,3 +32,27 @@ Datumen bevaras som källkonflikt.
 ## Stödda påståenden
 
 A-2292 och A-2294.
+
+## Tillägg 2026-09-08 — T-0132, personbunden fullpost och rättelse
+
+De tre fulloriginalens egna Erik-rader har lästs på nytt. På A II a/6
+sida 203 rad 25, sida 160 rad 25 och A II a/7 sida 177 rad 1 står
+civilståndsdatum **20 31/1**, alltså änkling sedan **1920-01-31**.
+Äldre 1920-04-03 var avskriftsfel på dessa sidor, inte en verklig
+källkonflikt med Matildas egen dödspost i C-0773.
+
+Sida 203 ligger under Torvesta N:o 1, Sundtorp/Östergården och hänvisar
+bakåt till **G.B. 190**. Den föregående personpassagen är ännu inte läst;
+ett blekt Flen-ord och äldre datum kan inte ges säkrare årsbindning här.
+Erik överförs till ålderdomshemmets sida 160 den **1930-02-25**, som
+återkopplar till 203 och vidare till nästa boks 177. Boköverföringen
+bevisar inte en exakt fysisk intagningsdag. Sida 177 återkopplar till
+G.B. 160 och anger död **1935-03-20**.
+
+På sida 177 har Eriks egen kolumn för lyten den historiska beteckningen
+**sinnessjuk**. Den daterar inte tillståndets början och översätts inte
+till en nutida diagnos. Egna kunskapsbeteckningar är b/N och vaccin v;
+förhörs-, anmärknings- och militärkolumnerna är tomma på de lästa sena
+raderna. De bleka äldre anteckningarna är prövade och reserverade,
+inte obehandlade kolumner. Samtliga tre original och kontrollsummor ovan
+består.

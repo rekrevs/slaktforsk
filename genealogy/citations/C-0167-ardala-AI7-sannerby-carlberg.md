@@ -36,3 +36,27 @@ upprepar Eriks och Annas födelseuppgifter men är inte deras födelseoriginal.
 ## Stödda påståenden
 
 A-0844–A-0846 och A-0849.
+
+## Tillägg 2026-09-08 — T-0141, Annas egen post och rättelser
+
+Den fulla bevarade bilden 190 har prövats. Egen rad `Hustru Anna Ersdr`
+anger **1796 26/6 Årdala**, inte 6/6; maken skrivs **1784 25/12 Grytt**.
+Koppor `v`, kunskapsfält streck/kors och sista kristendomsfält streck;
+egen inflyttning tom. Familjens överstrykning och Carlberg med året
+1838 är bokföringsövergång, inte belagd fysisk flyttdag.
+
+Annas egna kyrkliga fält innehåller förhör 6/11 1835, täta delvis
+överskrivna 1836-tal, 1/11 1837, 16/11 1838[?]; nattvard bland annat
+14/6 1835, 14/2 och 25/9[?] 1836, 20/2 1837 och 10/6 1838.
+Hennes 1839-fält, vigsel, död och anmärkning är tomma. Tomheten ger
+inte ett självständigt nollresultat om händelser utanför bladet.
+Sonen Anders född 1814 hör till makens tidigare familj; Anna är inte
+hans biologiska mor enligt C-0172. Dottern Brita Christina har egen
+senare kvarstående kyrklig notering och får inte automatiskt dela
+varje föräldraflytt.
+
+Den tidigare öppnade positiva Carlbergposten på **C0005617_00209,
+sida 208**, saknas efter lokal id-, alias- och temporärfilsprövning.
+Dess fulla egna personfält kan därför ännu inte återutvinnas. Fast
+återställning hör till T-0327; den befintliga bilden 190 har ingen
+kopieskuld.

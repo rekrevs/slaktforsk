@@ -5,11 +5,13 @@
 Dotter i Lars Erik Janssons och Brita Christina Ersdotters hushåll i
 Carlberg under Stäringe, Årdala.
 
+Husförhörsraden uppger födelsedatum 1857-01-14. Detta är en senare bokuppgift, inte en här omläst egen födelsepost. [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md)
+
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-0834 | Fredrika Sofia var dotter till Lars Erik Jansson och Brita Christina Ersdotter och syster till Anna Christina Larsdotter. | TRANSCRIBED | hög | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) | Samma föräldrahushåll; födelseuppgiften prövas senare mot original. |
+| A-0834 | Fredrika Sofia var dotter till Lars Erik Jansson och Brita Christina Ersdotter och syster till Anna Christina Larsdotter. | TRANSCRIBED | hög | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) | Senare bokdatum 1857-01-14 har nu utvunnits; egen födelsepost är inte läst. |
 
 ## Relationer
 
@@ -22,3 +24,12 @@ Carlberg under Stäringe, Årdala.
 ## Forskningsstatus
 
 Sidogren registrerad opportunistiskt; originalfödelsen prövas i en senare våg.
+
+
+## Begränsad följdavstämning — T-0139
+
+2026-09-08: endast de ovanstående personbundna följduppgifterna från C-0157/C-0163/C-0165 har införts. Ingen full kontraktsgranskning eller ny profil har genomförts. Full individuell adoption inklusive profil och båda nivåerna ägs av [T-0191](../../wotan/dev-log/T-0191.md). Äldre statusar är inte omprövade genom denna begränsade rättelse.
+
+Äldre ersatt lydelse bevaras:
+
+> | A-0834 | Fredrika Sofia var dotter till Lars Erik Jansson och Brita Christina Ersdotter och syster till Anna Christina Larsdotter. | TRANSCRIBED | hög | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) | Samma föräldrahushåll; födelseuppgiften prövas senare mot original. |

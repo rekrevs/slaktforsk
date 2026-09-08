@@ -44,3 +44,15 @@ fastighets-/hushållsnycklar prövas mot 1876.
 ## Stödda påståenden
 
 A-2624–A-2626.
+
+
+## Rättelse efter originalomläsning 2026-09-08 — T-0128
+
+C-0383:s fullbild och det här bevarade adressutsnittet visar **15 Upplandsgatan**
+och **Alnö**. Root och ytterligare läsare har jämfört egna bokstäver och
+radgränser. Den äldre rättelsen till Kungsholmsgatan och kvarhållandet av
+M:a ovan återtas som avskriftsfel. Kataloghindret och mantalsfrågans
+registrerande av Olaus 1877 nr 1217 kvarstår inom sina redovisade omfång;
+ingen oberoende identitetslänk mellan två adresser följer av det.
+Mantalslängden är redan positivt lokaliserad i C-0866, medan den separata
+mantalsuppgiften G 1 BB:44/20 fortfarande är oläst.

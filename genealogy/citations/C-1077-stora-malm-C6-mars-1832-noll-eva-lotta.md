@@ -70,3 +70,14 @@ på namn. Föräldrakolumnerna för de sex marsposterna är inte transkriberade.
 ## Stödda påståenden
 
 A-4038–A-4040.
+
+
+## T-0137: avstämning 2026-09-08
+
+Nollet avser exakt de sex lästa mars-posterna 14–19, inte att ingen
+person faktiskt föddes i församlingen den 5 mars. Den äldre förklaringen
+att moderns dag sannolikt är fel därför att projektet feltolkade Mathildas
+dag upphävs: ett avskriftsfel i projektet är inte ett källfel. Namnsvepet
+följde senare i C-1078 men dess årsslut är uttryckligen inte verifierat.
+De tidigare lästa bilderna saknas lokalt enligt T-0137:s alias-/kopieaudit;
+fast bevarandeåtgärd ligger i T-0311.

@@ -44,3 +44,18 @@ samtidiga personer på samma hushållssida, inte som släktingar till Johan.
 
 A-0254–A-0255, A-0276–A-0277, A-0286–A-0297.
 
+
+## T-0142: SCB-raden prövad mot hela bevarade utdraget
+
+2026-09-08 har hela utdragsbilden återsetts. Johan August Johansson
+står som dräng, född1861 i Sävar, med markering i kolumnen ogift man.
+De egna lytes-/nationalitets-/religionsfälten har ingen särskild
+uppgift; inga personliga egenskaper eller övertygelser sluts av detta.
+Evald Bäckström, hustrun Anna Magdalena Jonsdotter, Anna Kajsa Bäckström
+och hennes barn hör till hushållssidans andra rader. Deras egna
+namn-/relationsdetaljer används inte för att tillföra Johan August
+biologiska relationer.
+Fredrika Antonia Fällman och hennes son Johan Alfred står separat.
+Ingen av dessa sidpersoner får en släktrelation till Johan August.
+Utdraget är kyrkoboksbaserat och inte oberoende av den hushållslängd
+vars uppgifter förts över. Fullbild och hash är oförändrade.

@@ -58,3 +58,13 @@ eller som utflyttad.**
 ## Stödda påståenden
 
 A-3910, A-3911.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+Namnsökningens noll är ett utfall i F/2:s dokumenterade1861–1876passage,
+inte bevis för att Roth inte dog i eller bodde iMofalla. Den tillsammans
+medC-1004/C-1052 täcker inte ”alla vitalregister”: födelse, vigsel och
+andra serier följer inte automatiskt med, och C-1004:s1862–63gränser
+har uttryckliga redovisningsluckor. Sexton år1861–1876 börjar före
+Augustas födelse1863, inte sexton år efter. Positiva soldatnamn i den
+lästa dödboken är inte en fullständig inventering av alla soldater.

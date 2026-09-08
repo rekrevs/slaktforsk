@@ -87,3 +87,21 @@ Två förklaringar återstår, och båda är prövbara:
 ## Stödda påståenden
 
 A-3690 och A-3691 (P-0250); A-3692 och A-3693 (P-0251).
+
+
+## Rättelsetillägg T-0126, 2026-09-07: lysningsår är inte kalenderårets vigslar
+
+Den dokumenterade läsningen gäller sida 109, **lysningsposterna 1–18**
+under 1872, med vigseldatum från juni 1872 till februari 1873.
+Nollet för paret och den 8 juli inom just dessa poster tillgodoräknas.
+Detta dokumenterar inte automatiskt samtliga vigslar under kalenderåret
+1872: föregående lysningsårs eventuella vigslar under 1872 och
+årsgränserna är inte redovisade som kontrollerade. De äldre uttrycken
+”hela vigselåret” och ”tre församlingar uttömda” upphävs i den vidare
+meningen. Stödes och Holms egna kontroller har sina separata omfång.
+
+Ingen ny arkivsökning har gjorts. Originalbild A0003851_00118 saknas
+lokalt vid filkontroll i T-0126; exakt referens utan kopia och hash är
+inte full bildproveniens. Återanskaffning och avgränsad gränskontroll
+ska ske i den beslutade följduppgiften, inte genom att upprepa namnsökning
+i fyra andra församlingar innan den kända källgränsen prövats.

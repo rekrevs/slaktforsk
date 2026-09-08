@@ -60,3 +60,7 @@ Källmetadata bevaras som
 [1855 IIIF-manifest](../media/S-0586-riksarkivet-gmr-1855-A0028137-IIIF-manifest.json).
 Tre maxoriginal och tre Image API-infofiler redovisas med checksummor i
 [C-0752](../citations/C-0752-glippsta-nr36-carl-fredric-grill-1848-1855.md).
+
+## T-0139: avstämning och proveniensgräns
+
+Hela 1851 raden namnger tidigare C. F. Pehrsson,Halla 9 april 1822,antagen 15 feb 1841. Samma 1855 bild har både transportnot vid Glippsta 36 och positiv egen Hagby 38 rad. Ingen ny militärrote behöver sökas för denna redan lösta identifikation. Se [C-0752](../citations/C-0752-glippsta-nr36-carl-fredric-grill-1848-1855.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.

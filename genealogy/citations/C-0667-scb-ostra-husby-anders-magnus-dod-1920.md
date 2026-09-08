@@ -49,3 +49,10 @@ C-0666; dödsorsaken återges källtroget som `Kräfta`.
 ## Stödda påståenden
 
 A-2663–A-2664.
+
+
+## Tillägg 2026-09-07, T-0126: individuell lokal omläsning
+
+Lokal omläsning av hela målpost 26 bekräftar död 1920-09-10, Anders Magnus Karlsson, hemmansägare, Gäddestad 1, född 1844-08-28, änkling och källans dödsorsak `Kräfta`. **Dödsortsfältet är tomt**. `Lasarettsläkaren i Norrköping` är uppgiftslämnar-/läkarnot och belägger ingen fysisk dödsort. Småfältet för läkaranteckning läses **71[?]**, snarare än de tidigare omtalade initialerna; inget medicinskt innehåll härleds ur talet. SCB-utdraget är en avskrift och räknas inte automatiskt som oberoende av kyrkoboksföringen.
+
+Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.

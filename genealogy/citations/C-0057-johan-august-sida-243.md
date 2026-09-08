@@ -32,3 +32,19 @@ den tydligare fortsättningsraden på sida 237.
 
 A-0254–A-0255, A-0274–A-0275.
 
+
+## T-0142: hela Johan Augusts tjänsterad prövad
+
+2026-09-08 har fullbilden och en detalj med hela den överstrukna egna
+raden återsetts med kolumnrubriker. Drängrollen består. Födelsefältet
+läses nu 1861 16/5[?], inte säkert äldre 19/5; överstrykningen gör denna
+rad mindre tydlig än C-0058 och födelseposten. Inflyttningen är från
+445 den 21 maj 1878 och utflyttningen till237 den 29 november 1879.
+Han har v i koppfältet, ett grafiskt kunskapstecken och ett streck i
+förståelsefältet. Ett N-liknande nattvardstecken ligger på hans rad
+under tjänstetiden. Små intilliggande årstecken har prövats utan att
+normaliseras till säkra enskilda datum. Egna vigsel-, döds- och
+frejd-/anmärkningsfält är tomma. Raden står bland tjänstefolk under
+Nils August Sandberg och hustrun Clara Josephina Svensson; detta är
+tjänstemiljö och inte ett nytt släktskapsbelägg. Fullbild och hash är
+oförändrade. Sävar är kyrkobokförd hemvist; flyttdatumen är boknoteringar.

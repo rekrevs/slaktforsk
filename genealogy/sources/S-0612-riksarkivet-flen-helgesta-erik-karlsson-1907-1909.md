@@ -100,3 +100,10 @@ filnamn, byteantal och SHA-256 finns i `genealogy/media-manifest.json`.
 ## Stödda påståenden
 
 A-3053–A-3059.
+
+## Avstämning mot lokala original — T-0132, 2026-09-08
+
+C-0796:s fulla egna rader ger Grundägare i Segerslund på185 och224. Gustaf Vasa, Stockholm1907-11-28 och militärnummer33544/06 tillhör endast Karl Oskars egenrad19, inte hela hushållet eller faderns tjänst. Egen internflytt till185 är13november1907. Sven Arvids bokdatum är27juli1898, inte7juli.
+
+Äldre avskrifter ovan bevaras som historik. De daterade korrigerande
+citationstilläggen och aktuella personakterna anger nuvarande bedömning.

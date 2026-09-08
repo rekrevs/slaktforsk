@@ -26,3 +26,7 @@ SHA-256 `b7f713b255d00438171287d8fd9e5690d2907afdcd7d9813a7303f13380d6106`.
 ## Stödd avgränsning
 
 P-0145:s slutstatus för den okända fadern.
+
+## Personbunden fullprövning och rättelse — T-0139, 2026-09-08
+
+De sex redan bevarade bilderna 35–40 återanvänds som tidigare fullårskontroll 1806 mot barnet Anders och modern Anna Catharina Andersdotter. Inget nytt födelsesvep har gjorts. De senare makarnas vigselåldrar är nu rättade i C-0116 till 22 respektive 18; årsuppgiften 1806 för Anders står kvar som senare födelseuppgift utan egen exakt dag. Nollresultatet identifierar inte en biologisk far genom patronymikonet och änkestatusen i C-0111 daterar inte hans död. En tidigare personbunden hushållsnyckel är ett bättre avgränsat återstartunderlag än att upprepa samma år.

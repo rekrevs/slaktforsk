@@ -51,3 +51,15 @@ Metadatafilerna är [1848 records-API](../media/S-0586-riksarkivet-gmr-1848-vol1
 ## Stödda påståenden
 
 A-2765–A-2767 och A-2934–A-2937.
+
+## T-0139: hela egna rullfält och positiv Hagby-transport
+
+De tre redan sparade fullbilderna har prövats på de egna raderna. År 1848 har nr 36/36 Glippsta Carl Fredric Drill, födelselän Sörmland, uppgiven ålder 26, tjänstetid `7 5/12`, längd 5 fot 10 tum och gift. De korta högermarkeringarna återges som `pr.[?]`; inga ytterligare säkra personbundna anmärkningar finns på denna rad.
+
+År 1851 har samma nr 36/36 Carl Fredric Drill, med uppgiven ålder `29 2/12[?]`, tjänstetid `10 3/12[?]`, 5 fot 10 tum och gift. **Den tidigare outvunna texten** anger `Förut Dräng[?] C. F. Pehrsson`, född i Halla socken av Nyköpings län **den 9 april 1822**, samt **antagen den 15 februari 1841**. Detta är ett direkt militärt belägg för civilnamnet och apriluppgiften, oberoende av den felaktigt tillskrivna Jernbol-hushållsraden. Datumet 15 februari bevaras separat från 1842 års äldre läsning 18 februari, utan påhittad gemensam normalisering.
+
+På 1855 års fullbild finns **två egna relevanta rader**. Under nr 36 Glippsta står Carl Fredric Grill följt av notisen `Den 25[?] Juli 1851[?] transporterad till ... N:o 38 ...`, med prövad reservation för bleka datum-/mellanord. Därefter står Lars Petter Landin. Uppgiften är alltså inte endast ett ospecificerat namnbyte senast 1855.
+
+Längre ned på **samma bild** står nr **38/38 Hagby i Bettna socken**. Den tidigare soldaten Carl Johan Strid anges transporterad den likalydande reserverade julidagen 1851 till nr 61 Mälby[?]. Han ersätts genom transport från **nr 36 Glippsta med Carl Fredric Grill**, vars text upprepar det tidigare namnet `C. F. Pehrsson`, Halla, **9 april 1822** och **antagen 15 februari 1841**. Ålders-/tjänsteårsbråken på den bleka egna raden är prövade men bevaras reserverade; längdfält och giftstatus tillhör den nya personraden där de är läsbara, inte den överordnade föregångaren. Ingen avgångsorsak eller slutligt avskedsdatum anges för Carl här.
+
+De två samtidiga hänvisningarna och det fulla egna namnet/födelseprofilen på Hagby-raden gör **transporten från Glippsta nr 36 till Hagby nr 38 positivt belagd**, medan transportens exakta dag fortsatt är reserverad. Detta löser den tidigare militära roterouten. Landins senare antagningsdag 1854 i C-0771 får inte längre vara den enda dateringsgrunden för Carls byte. Det exakta Hagby-registernollet i C-0800 och hushållssidnollet i C-0775 upphäver inte denna positiva militärpost och får inte återanvändas som bevis för okänd rote.

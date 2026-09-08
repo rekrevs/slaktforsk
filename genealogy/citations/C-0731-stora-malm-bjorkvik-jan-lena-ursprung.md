@@ -62,3 +62,46 @@ andra församlingar gör att Jans egen födelse hålls `CONFLICT`.
 ## Stödda påståenden
 
 A-2850–A-2854.
+
+## T-0139: rättad läsning av det bärande Walla-uppslaget
+
+Den bevarade fullbilden i C-0721 har efter oberoende läsningar föräldrarna Jan Ericson **1791 5/9 Björkvik** och Lena Jonsdotter **1783 21/10 Malm**. Tidigare 9 maj respektive 1785-10-31 var avskriftsfel, inte jämställda alternativa originaldatum. Den säkra föräldrarelationen till Johanna kvarstår, medan egna födelsedatum fortsatt är senare husförhörsuppgifter.
+
+Det gamla majinriktade nollresultatet för Jan och den föreslagna Helena-posten 1785 måste därför bedömas som **historiskt felriktade sökningar**. Helena-posten kan inte längre ges en stark identitetsbrygga genom den felavlästa exakta dagen/året. Den prövade födelseposten bevaras som separat personobservation; inga föräldrar därifrån tillskrivs Lena. Jans redan lästa fem födelsebilder 1791 får inte kallas ett nytt septembernoll utan en faktisk omprövning av rätt datum. Föräldrarnas individuella fullgranskning och eventuella återaktivering hanteras i deras egna fasta kohort.
+
+## T-0141: positiv kandidat på den rättade septembernyckeln
+
+2026-09-08 har de fem befintliga bilderna C0005938_00187–00191
+återsetts med den rättade nyckeln 1791-09-05. Bild 190, högersida 181,
+innehåller en Jan född 5 september och döpt 6 september 1791. Ingen ny
+arkivbild har hämtats. Den konkreta målposten har lästs i förstoring.
+
+Preliminär råavskrift, med reservationer som ska bibehållas:
+
+> Åtorp[?]. Arb. Eric Anderssons och dess Hust. Anna Andersdotters
+> Son Jan föddes d. 5 och döptes i St. Malms [kyrka?] den 6 Sept:r.
+> Testes: Carl Andersson och dess Hust. Anna Andersdotter från Åbol[?]
+> i St. Malm, dr. Eric Ersson från Åtorp[?] äfven i St. Malm,
+> samt dottern Anna Stina Carlsdr ib. Modern kyrktagen i St. Malm.
+
+Posten har inte moderns ålder eller ett säkert särskilt kyrktagningsdatum.
+Orts- och rollreservationer får inte fyllas från geografiska antaganden.
+Björkviks bok för alltså en födelse som också har uttryckliga kontakter
+med Stora Malm. Bokföringsförsamling, hemvist och dopplats hålls isär.
+
+Datumet 5 september, namnet Jan, fadern Eric och Björkviks bok gör
+posten till en konkret kandidat till den vuxne Jan Ericson. Den nya
+positiva observationen motsäger inte det gamla avgränsade majnollet;
+det var felriktat för personen. En uttrycklig hushålls-/flyttbrygga
+mellan barnet och den vuxne saknas. Eric Andersson och Anna
+Andersdotter förs därför inte in som P-0476:s föräldrar.
+
+Årstäckningen rättas också: bild 187 börjar med 1790/1791 och bild 191
+slutar med novemberposter. De fem bilderna visar inte i sig en
+verifierad december-/årsslutsgräns. Ingen ny full 1791-nolla eller
+ensam-kandidat-i-hela-årgången sluts. Bild 190 räcker för den positiva
+posten och det är dess personidentitet som återstår att pröva.
+Äldre fullårspåståenden i C-0731/S-0564 bevaras som granskningshistorik,
+men tillgodoräknas inte som bevisad helårstäckning.
+
+Andraläsning i T-0141 bekräftar datum, föräldranamn och Stora Malm som dop-/kyrktagningsförsamling. Vittnets råpatronymikon läses Eric Ersson; det normaliseras inte till en viss annan person. Ortreservationerna består.

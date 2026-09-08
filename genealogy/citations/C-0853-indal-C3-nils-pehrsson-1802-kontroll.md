@@ -40,3 +40,8 @@ vara riktig, och det identifierar inte P-0403:s föräldrar.
 ## Stödda påståenden
 
 A-3241.
+
+
+## T-0136: egen fullpost och rättelse 2026-09-08
+
+Årgångskontrollens fem länkade fullbilder och manifest är bevarade. Resultatet återbrukas med det exakta omfånget 1802 och senare uppgiften 19 juli. Att post 22 har födelse 2 augusti och fadern Jon Nilsson ger ingen personbindning till Nils Pehrsson; barnet införs inte som kandidatförälder eller alternativt säkert födelsebarn. Patronymikonet är ett motargument tillsammans med datum och familj, inte ett logiskt krav som ensamt bevisar att en viss man omöjligen kunnat kallas Pehrsson. Ingen sådan förklarande kedja finns här. Årgångsnollet bevisar inte vilken del av hushållsbokens datum-/sockenuppgift som behöver rättas; vuxenfadern kan ändå identifieras genom sonens eget föräldrapar och senare hushåll.

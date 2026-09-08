@@ -40,3 +40,26 @@ posten (C-0132). Civilståndet `Gift` gör P-0126 Brita Kajsa Pehrsdotter till
 ## Stödda påståenden
 
 A-2397–A-2400.
+
+## Avstämning 2026-09-08 — T-0137
+
+Hela den bevarade originalbilden och post 4:s båda sidor har nu prövats.
+Död **5 februari 1874**, man, torpare Lars Andersson i Anderslund, ålder
+**53 år 5 månader 14 dagar**, gift, **Magkräfta**, dödsort **Anderslund** och
+hänvisning **p. 164** kvarstår. Begravningsdagens överskrivna täljare förblir
+**12[13?]/2 1874**, inte en avgjord ny dagsläsning. Egna intygsfält,
+särskild promemorieanteckning och diverse pastorala anteckningar är blanka.
+Åldersberäkningen är en sekundär ledtråd, inte exakt egen födelseverifikation.
+Hustrun namnges inte i denna dödpost; sambandet med Brita Kajsa bygger på
+hushålls- och änkeuppgifter tillsammans med namn, yrke och ort.
+
+Äldre påstående att A I/20 saknar bildlänk är ett historiskt katalogutfall,
+inte en aktuell belagd åtkomstspärr: C-1095 och S-0790 har redan positiv
+routing till **C0006947** och lokalt manifest för volymen. Familjens egen
+sida 164 är inte därmed läst. Ingen sådan ny passage har utförts här.
+
+Den positiva fullbilden matchar angiven hash. S-0430:s **15 tidigare lästa
+översikter F0003292_00022–00036** saknas däremot efter kontroll av id,
+år/ortnamn, media och /tmp-alias. Det är kopiebevarande för det äldre
+sökomfånget, inte en ny begäran om sökning 1875–1886 och inte outvunna egna
+fält i den positiva post 4.

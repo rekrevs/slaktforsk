@@ -95,3 +95,10 @@ efter 1856 är olästa.
 ## Stödda påståenden
 
 A-4019–A-4022.
+
+
+## T-0137: avstämning 2026-09-08
+
+Bettna 1854–1856 och Mellösa 1855 är avgränsade vigselnoll, inte alla relevanta församlingar/år. Senare C-1094/C-1095 uppger 23 eller 24 september 1854, utan ort. Vuxenbakåtbryggan i T-0111 prövar nya personbundna nycklar.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

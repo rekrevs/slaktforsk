@@ -70,3 +70,9 @@ och [1890 IIIF-manifest](../media/S-0584-riksarkivet-scb1890-A0056809-IIIF-manif
 ## Stödda påståenden
 
 A-2922–A-2926.
+
+## T-0139: rättat eget datum och hela raden på sida 47
+
+Den bevarade fullbilden `C0005872_00033` har rubriken **Hagbystugan, Backstuga, Hagby ägor** och Carl Fredrik Grill/Drill som avskedad soldat, född **1822 9/4 Halla**. Det tidigare återgivna 9/7 gäller inte denna hushållsrad. Änklingsfältet är **83 24/2**, koppefältet `v`, och de fyra kunskapskolumnerna har grafiska betyg. Nattvard anges 22/1 1888 och 31/8 1890; ytterligare grafiska förhörstecken 1887, 1888 och 1890 normaliseras inte till datum. Anmärkningen `gratialist` är läsbar; en ytterligare blek notering är prövad men inte säkert läst. Egna in-, döds- och utflyttningsfält är tomma. Detta är en full prövning av målradens fält, inte ett krav på fortsatt omläsning av den prövade bleka noteringen.
+
+C-0729/C-0732:s nya originalläsning visar också äldre Hedda född **1859 29/10**. Året 1859 i SCB 1880 står därför inte längre i konflikt med dessa husförhör; 1858-11-22 var en äldre felavskrift. Den yngre Hedda hålls alltjämt separat. Det separata gratialistregistrets ort-/datumuppgifter måste bedömas som egna registerfält och får inte styra om den tydliga målradens april till juli.

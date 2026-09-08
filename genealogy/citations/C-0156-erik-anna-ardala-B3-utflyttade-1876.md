@@ -37,3 +37,15 @@ i Långviken.
 ## Stödda påståenden
 
 A-0825–A-0826.
+
+## Fulla flyttrader — T-0132, 2026-09-08
+
+Den lokala fullbildens utflyttningsposter18och25 är prövade över
+samtliga kolumner. ErikCarlsson har28/4, folio190, Långviken→Forssa,
+en man och dräng via föregående yrkesditto. AnnaChristinaLarsdotter
+har18/10, folio190, hustru, Långviken→Forssa, en kvinna. Inga medföljande
+barnantal på deras egna rader. Året1876 kommer från avsnittsrubriken.
+Detta är bokens utflyttningsregistreringar; den äldre formuleringen
+att de fysiskt lämnade orten just dessa dagar går utöver källan.
+Forssas registrering30april är ett separat bokdatum, inte belägg för
+att resan tog två dagar.

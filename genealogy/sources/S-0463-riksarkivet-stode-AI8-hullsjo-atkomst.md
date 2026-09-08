@@ -100,3 +100,9 @@ svar för två skilda URL:er. Exakta byteantal och SHA-256 finns i
 Tillfälliga beskärningar och skärmbilder i `/private/tmp` var endast
 läshjälpmedel. De är inte evidens och ingår inte i projektets beständiga
 material.
+
+## T-0136: aktuell avstämning och kopiegräns 2026-09-08
+
+C-0590:s nya fullposttillägg ersätter äldre 22 augusti med 21 augusti 1805 och tillför barnradens Drunkn.-not under 1841. Namnreservationen består. Föräldrarnas egna 1842-markeringar daterar inte en flytt; den äldre ortsnollgränsen i C-0591 gäller fortsatt endast de två Hullsjösidorna. Sonens långt senare hushåll är en möjlig men ännu oförbunden väg bakåt, inte en redan bevisad föräldrakontinuitet.
+
+Samtliga 14 positiva/negativa ortssnittsbilder finns och har kontrollerade hashes. Däremot saknas efter filnamns-, bild-id-, Stöde-/Hullsjöalias- och arbetskatalogsökning de exakt **22** tidigare lästa förberedelsebilderna: **C0033554_00003–00013** (A I/8) och **C0033555_00002–00012** (A I/9). Dessa titel-/registerpassager är routingbevis; avsaknad av kopior är PK-11, inte ett nytt genealogiskt noll eller en outvunnen positiv personpost. API-/JSON-LD-/felsvar finns separat och ersätter inte dessa bilder. Inga andra seriebilder eller år omfattas av denna skuld.

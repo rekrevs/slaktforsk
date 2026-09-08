@@ -9,7 +9,7 @@ Christina Ersdotter genom fadern.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-0855 | Anders föddes 1814-03-23, döptes 1814-03-25 och var son till Erik Andersson och Stina Andersdotter i Sannerby. | CORROBORATED | hög | [C-0172](../citations/C-0172-ardala-C3-anders-fodd-1814.md), [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md), [C-0175](../citations/C-0175-ardala-C3-stina-andersdotter-dod-1818.md), [C-0168](../citations/C-0168-ardala-AI6-sannerby-familj.md) | Födelsenotisen skriver modern `Stina Persd:r`; hushåll och dödsnotis identifierar henne som Andersdotter. |
+| A-0855 | Anders föddes 1814-03-23, döptes 1814-03-25 och var son till Erik Andersson och Stina Andersdotter i Sannerby. | CORROBORATED | hög | [C-0172](../citations/C-0172-ardala-C3-anders-fodd-1814.md), [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md), [C-0175](../citations/C-0175-ardala-C3-stina-andersdotter-dod-1818.md), [C-0168](../citations/C-0168-ardala-AI6-sannerby-familj.md) | T-0143: födelseposten skriver modern Stina Andersd:r. Pers/Pehrsd:r tillhör dopvittnet i nästa kolumn; den äldre namnkonflikten är en felläsning. |
 
 ## Relationer
 
@@ -22,3 +22,9 @@ Christina Ersdotter genom fadern.
 ## Forskningsstatus
 
 Sidogren. Hans fortsatta liv är inte följt efter Sannerbyhushållet.
+
+### Anhörigrättelse T-0143, 2026-09-08
+
+C-0172 har fullprövats. Modern och dopvittnet är skilda personer. Full individuell akt-/profiladoption ägs T-0171; tidigare ändrad rad bevaras som historik:
+
+> | A-0855 | Anders föddes 1814-03-23, döptes 1814-03-25 och var son till Erik Andersson och Stina Andersdotter i Sannerby. | CORROBORATED | hög | [C-0172](../citations/C-0172-ardala-C3-anders-fodd-1814.md), [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md), [C-0175](../citations/C-0175-ardala-C3-stina-andersdotter-dod-1818.md), [C-0168](../citations/C-0168-ardala-AI6-sannerby-familj.md) | Födelsenotisen skriver modern `Stina Persd:r`; hushåll och dödsnotis identifierar henne som Andersdotter. |

@@ -34,3 +34,18 @@ faderskapsanteckning.
 ## Stödda påståenden
 
 A-0157–A-0159 och A-0198–A-0199.
+
+
+## Omprövning i T-0125, 2026-09-07
+
+Adas egen rad 10 har omprövats i den lokala fullbilden. Yrkesordet är
+**Jungfru**; `tjenstf.` ovan är inte en diplomatisk avskrift av detta ord.
+C-0038:s tjänsteflicka behåller sin egen källnivå. På egen rad finns `a`/`N`
+i kunskapskolumnerna 11–12; kolumn 13 har ingen separat inskrift.
+Anmärkningen läses `oattesterad 19/1 03 – 11/11 07. Intet jäf anmäldt
+t. 23/4 09.` Samma datum följde med från C-0035, där årtalen skrivs 1903
+och 1907. Det är kyrkobokens uppgift om attest och äktenskapshinder;
+anteckningen daterar varken ett genomfört äktenskap eller vistelseorten
+under intervallet. Den kopierade anteckningen räknas inte som ett
+oberoende belägg. Ingen egen döds- eller utflyttningsdag är tillagd på
+raden i denna bok; den fortsatta bokföringen läses i C-0909.

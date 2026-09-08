@@ -79,3 +79,8 @@ prövas inte.
 ## Stödda påståenden
 
 A-3559–A-3562 (P-0287).
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Originalets namnordning är Fredberg, Johannes Ivar Fredriksson. Civilståndet uttrycks av en räknemarkering i kolumnen för ogift man, inte ett utskrivet ord på personraden. Det gäller dödstillfället 1949 och bevisar inte att han aldrig varit gift. Titeln f.d. slaktare ger tidigare yrke, inte obruten yrkesverksamhet livet ut. Flera samstämmiga persondrag bär korrelationen; fyra drag i samma post är inte fyra oberoende källor, och födelsedatumet är inte visat oberoende av äldre folkbokföring. Å förs. lokaliserar kyrkobokföring i Olaus Petri, Örebro; faktisk bostadslöshet eller orsaken till alla äldre Stockholm/Sollentuna-nollor följer inte. C-0880 anger modern och ger inte arkivbelägg för fadern; projektets OWNER_CONFIRMED-faderskap består enligt ägarbeslutet. Originalets medicinska attestfält har markering, barnmorskefältet är tomt, anteckningens första ord är fortsatt reserverat. Den lokala fullbilden är redan bevarad; ny kopia krävs inte. T-0236 äger den avgränsade senare bokförings-/bouppteckningsvägen.

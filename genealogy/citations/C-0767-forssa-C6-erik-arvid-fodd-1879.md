@@ -48,3 +48,54 @@ Metadataoriginalens byteantal och checksummer redovisas i S-0081.
 ## Stödda påståenden
 
 A-0589–A-0591, A-0815 och A-2980 samt föräldrarelationerna för P-0143.
+
+## Tillägg 2026-09-08 — T-0132, hela post 5
+
+Den länkade fullbilden har lästs över hela egenraden; SHA-256 har verifierats
+mot värdet ovan. Erik Arvid står född **13 februari 1879**, äkta gosse,
+`2:ne barnet`, döpt **2 mars**. Föräldrafältet läses `Carlsson Erik,
+arbetskarl, Hustru Larsdotter Anna Christina, Hvilunda (gifta 3 år)`.
+**Arbetskarl rättar den äldre avskriftens torpare i just denna post.**
+Ordningstalet beskriver den införda barnföljden, inte familjens slutliga
+antal födda barn.
+
+Ålderskolumnens två råtal är **28 och 27**, faderns respektive moderns
+uppgivna åldrar. De bevaras som bokuppgifter, inte omräknade födelsedatum.
+Modern står under hustru; råmarkeringen `Ev.` finns i religionsfältet.
+Varken ålderstalen eller uppgiften gifta tre år ger exakt vigseldag.
+Moderns kyrktagningskolumn anger **15 april**.
+
+Dopvittnesfältet har prövats i sin helhet:
+
+> `Ersson Carl Erik, Torpare, H:un Ersdotter Maria Sofia, Flagstu/gan[?];`
+> `Eriksson Erik Alfred, dräng vid [svårläst plats]; Larsson Maria Mathilda,`
+> `piga vid [svårläst plats].`
+
+De två sista orterna har prövats men normaliseras inte säkert. Dessa
+vittnen identifieras inte automatiskt med andra släktingar. De särskilda
+anmärkningsfälten är tomma på egenraden och någon egen dopförrättare är
+inte angiven. Ingen ny sjukdoms-/dödsuppgift följer av tomma fält.
+
+En oberoende andraläsning inom T-0132 bekräftar särskilt arbetskarl,
+Hvilunda, gifta tre år och rååldrarna 28/27. Dopvittnenas namn är
+Karl/Carl Erik Ersson, Maria Sofia Ersdotter, Erik Alfred Eriksson och
+Maria Mathilda Larsson; ortreservationerna ovan kvarstår efter prövning.
+
+### Rättelse efter egen rubrikkontroll — T-0132, 2026-09-08
+
+Hela formulärhuvudet i just denna fullbild har nu återlästs med förstoring.
+Det rättar två kolumntolkningar i det föregående tillägget:
+
+- Råtecknet `Ev./Ex.[?]` står i kolumn **22, Examineradt förlossnings-biträde**,
+  inte i något religionsfält. Den tidigare religionsbestämningen upphävs.
+  Inget samfund eller personlig trosbekännelse kan härledas ur markeringen.
+- Råtalen **28/27** står båda i kolumn **21**, under den tryckta rubriken
+  **Modren — dess sist fyllda ålders år**. Formuläret har inte två tryckta
+  separata åldersfält för far och mor. Den tidigare säkra fördelningen av
+  översta talet till fadern upphävs. Båda råtalen bevaras, men deras
+  inbördes funktion är inte fastställd genom postens rubrik eller enbart
+  mönsterlikhet. Inget eget födelsedatum omprövas på dessa tal.
+
+Markeringen under **gift** gäller moderns civilstånd enligt kolumn 17.
+Övriga ovan lästa datum, hemvist, yrke, äktenskapslängd och vittnesfält
+påverkas inte av denna kolumnrättelse.

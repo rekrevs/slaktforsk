@@ -39,3 +39,19 @@ flyttningsslutsats.
 ## Stödda påståenden
 
 A-2159 och A-2163.
+
+## Provenans och omfång avstämda 2026-09-07 — T-0125
+
+Det tidigare redovisade utfallet gäller exakt de sex målsidorna ovan,
+inklusive sökningen efter Karl Albert i föräldragruppen. Det är inte ett
+helvolymsnoll, en motbevisad folkräkning eller belägg för hans flytt/död.
+C-0085:s positiva Valstarad består.
+
+Lokal filinventering återfinner fullbilderna av A II a/3 registerbild 6
+och sida 37/bild 46, redan listade ovan med SHA. Däremot saknas lokala
+fullbilder för **A II a/2 bilder 00154493_00042–00044** och **A II a/3
+bilder 00154494_00045 samt 00154494_00047**. Den konkreta bevaranderesten
+är alltså fem tidigare öppnade målsidor; det tidigare läsutfallet blir
+inte ett nytt personnoll och inga nya sidor har öppnats. Separat
+C-0432:s samtliga 23 fullbilder för utflyttningskontrollen 1910–1914 finns
+lokalt och omfattas inte av denna brist.

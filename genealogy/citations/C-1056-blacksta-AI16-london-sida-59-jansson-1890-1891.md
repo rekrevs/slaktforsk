@@ -100,3 +100,19 @@ Ortnamnsfrågan `Spånga`/`Gånga` (A-2374) berörs inte av denna sida.
 ## Stödda påståenden
 
 A-3929–A-3935.
+
+
+## Omprövning i T-0125, 2026-09-07
+
+Uppgifterna återges ur en hushållsbok och kan bygga på överförda attester.
+Samstämmiga vigsel- och födelsedatum är inte visade oberoende observationer.
+Adas datum var redan känt; listan gav inte fyra tidigare helt okända
+datum. Tures maj/juni-konflikt kvarstår mot Skedevi och Flen. Blacksta är
+inte födelseförsamlingen Vadsbro. Den lokala fullbilden saknas trots exakt
+bildreferens; personradernas kunskaps-/förhörsfält är inte fullt redovisade.
+
+De äldre ännu-ej-lästa vägarnas läge har ändrats: Kulsta s139 är läst i
+C-1057, Vadsbrokedjan i C-1058/C-1059/C-1064/C-1065 och Skedevi i
+C-1067–C-1070. Mottagarens attestnummer51 ska inte användas som en
+självklar utgående attest51 i Vadsbro; där har post55 identifierats.
+Spånga/Gånga har nu omprövats i C-0016 och Spånga är aktuell läsning.

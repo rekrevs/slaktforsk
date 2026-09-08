@@ -42,3 +42,26 @@ aktuella egenbeskrivning av bilddatabasen begränsar den till 1835,1845,
 En riktad webbsökning hos ArkivDigital/FamilySearch gav ingen identifierad
 kopia för 1877; detta är inte verifierad frånvaro i deras innehav.
 Deras tidigare konstaterade inloggningskrav begränsar fortsatt kontroll.
+
+
+## Fullfält och åtkomstavstämning 2026-09-08 — T-0128
+
+Root har återläst hela målposten och den föregående rubriken i fullbilder
+85–86. Rubriken läses `Timret[?]`; ovanstående tal `7 / 8.15` bevaras rått,
+inte som en säker adress eller fastighetsandel. Titeltillägget är `N 1568[?]`,
+fortsatt utan identifierad nummerserie. Egen man och avgiftssumma är 1;
+övriga avgifts-/befrielse-/barnfält, årlig hyra och fastighetsvärdesfält
+är tomma på målpostens rad. Personbevillningen läses 40. Tjänste-/pensions-
+inkomsten 670 kvarstår; ingen förmögenhet eller äganderätt följer av den.
+
+Taxeringsnoteringen har prövats i närbild, rått `J.37. 5te k. dett.[?]`
+med ett följande svårläst datum som slutar 79. Dessa tecken normaliseras
+inte till flytt, förband eller avgång. Den kvarstående osäkerheten är
+prövad läsosäkerhet, inte ett helt ignorerat fält. Ingen rad fortsätter
+på nästa bild för just Olaus.
+
+T-0051:s senaste checkpoint visar att den separata mantalsuppgiftens
+katalog redan visats utan ALTCHA: Läsesal och ingen bildlänk; Visa detaljer
+är nästa ej utförda steg. Det äldre generella captcha-läget ovan får inte
+ersätta denna senare exakta åtkomstobservation. C-0963:s återöppnade
+volymlokalisering är rättad: denna längd var redan positivt läst.

@@ -57,3 +57,46 @@ felaktiga församlingsuppgift ur samma bokföringstradition.
 ## Stödda påståenden
 
 A-0434, A-0439 och A-0540–A-0556.
+
+## Fulla egna hushållsfält och inferensgräns — T-0132, 2026-09-08
+
+Rader14–18 i den bevarade fullbilden har prövats: ErikKarlsson,
+torpare1851 30/1Bettna; hustruMatildaCharlottaSjöberg1860 8/8Björkvik;
+mannens söner i första giftet AxelEdvard1881 20/3 och KarlOskar1885
+8/12Forssa; fostersonSvenArvidEriksson1898 7/7Flen. Vigseluppgift
+95 28/12 och frånfolio346,01 10/10 på familjehuvudets rad med
+underliggande ditto. Deras förekomst visar hushållsställning,
+inte biologiskt släktskap för fostersonen.
+
+Läs-/katekeskolumnerna har råb/c/a respektive v-liknande tecken för
+vuxna och äldre barn; bevistat husförhör är tomt. Eriks och Matildas
+egna anmärknings-, militära, utflyttnings- och dödfält är tomma.
+AxelEdvard har eget militärnummer354 44/1902, ett svagt antecknat
+hinderlöshetsbetyg/lysning[?] med ortHelgesta och tillfolio345 år02,
+dag21/10[?] (äldre27/10). KarlOskar har tillStockholm,Kungs...[?],
+22/10 03. Osäkra dag-/rote-/betygsdetaljer hålls i fullbildens
+råreservation och är inte föräldrarnas händelser.
+
+**Björkvik som styvmoderns födelseort bevisar inte hur sonens senare
+felaktiga födelseort uppkom.** Felradöverföring är en förenlig hypotes;
+den är inte direkt observerad på denna sida. Senare register kan ha
+gemensamt bokföringsunderlag, men deras specifika överföringskedja
+ska inte kallas bevisad enbart genom samstämmigt fel.
+
+Slutlig detaljkontroll av fostersonens datum: även denna rad har
+**1898 27/7**, inte äldre7/7. Den läsbara27:an framgår i originalets
+datumfält och motsvarar C-0579/C-0796. Både ovanstående äldre avskrift
+och den första fullpostsammanfattningens7juli är felavlästa; aktuell
+bokuppgift är27juli. Egen födelsenotis har inte tillkommit.
+
+KarlOskars destinationsförkortning är redan särskilt prövad i C-0777
+som **Kungl. Lifgard. t. häst, Stockholm**. Det tillgodoräknas framför
+den första T-0132-läsningens Kungs...[?]. Det är en positiv bokhänvisning,
+inte belägg för skvadron eller tjänstetid. Ingen ny originalpassage behövs
+för att återanvända den tillräckliga tidigare läsningen.
+
+## Fullpostprövning och rättelse — T-0143, 2026-09-08
+
+Matilda Charlottas rad 15 och Sven Arvids rad 18 har prövats i hela det bevarade uppslaget. Matilda har koppor `v` och kunskap `c/N`; Sven har koppor `v` men ingen egen kunskaps- eller förhörsnot. Bådas egna frejds-/anmärknings-, militär-, utflyttnings- och dödsfält är tomma. Inflyttningsditto binder dem till samma hushåll från 346 den 10 oktober 1901. Sven Arvids uppgivna födelsedag är **27 juli 1898**, enligt den sista rättelsen i T-0132.
+
+Matildas belagda födelseförsamling Björkvik gör en överföring till styvsonens senare feluppgift möjlig, men visar inte att just denna kopieringsmekanism faktiskt inträffade. Hushållet är förenligt med C-0084:s dopvittnespar torparen Erik Karlsson och hans hustru från Brosätter 1902; den onamngivna hustruns identifikation är en nätverkskandidat, inte ett bevis för biologiskt farföräldraskap.

@@ -54,3 +54,14 @@ hänvisningskonflikt, inte ett nollresultat för hela A I/6b.
 ## Stödda eller rättade påståenden
 
 A-1384–A-1385, A-1419–A-1421 och A-1429.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+De tre positiva uppslagens fullbilder har nu prövats. Den äldre nollan för Johan på **s 366** är avvisad: längst ned i Rosindahl står **Dr.Johan Pehrsson,1824-03-19**, direkt under pigan Cajsa Lotta Jonsdotter. Johan och dottern **Emma Johanna**, uppgiven född 1851-03-2[7?], har klammer från **405**. Dotterns dödskolumn anger **30/6 1853**. Johans anmärkning är `Enkl.2[6?]/6 1853`; änkedagen reserveras och ersätter inte en egen dödsnot för hustrun. Hans utflyttningshänvisning är **396**. Namnen är överstrukna, inte olästa. Eget kopporfält har v, kunskapsfältet ett grafiskt betyg, och en egen daterad kyrklig markering syns i 1853 års kolumn; datumet är prövat men svårläst. Övriga egna årsfält är tomma. Ingen säker ytterligare frejduppgift finns. Dotterns mor identifieras inte av denna rad.
+
+Cajsa Lottas separata rad på 366 anger 1825-10-20, från 339 och tillbaka 339, medv och grafiskt kunskapsbetyg samt egen kyrklig markering 1853. Denna passage hör till hennes egen tjänstekedja, som kan följas i C-0206. Johans 366 och hennes 339 är alltså skilda föregångare till parets 396.
+
+Sida 396 förenar änklingen Johan 1824-03-19, Cajsa Lotta 1825-10-20 och dottern Johanna Charlotta **1854-07-02**, med föräldrarna från 366 respektive 339 och familjen vidare 327. Vigselkolumnen har 24/7 och ett överlagrat datumled vars andra läsning 26/7[?] inte normaliseras; egen vigselpost C-0205 är huvudbelägg. Eget koppor-/kunskapsfält och kyrkliga datumtecken är prövade; svaga tecken kvarstår som råreservation, inte säker händelsedag.
+
+Sida 327 upprepar familjen och 396 som föregångare. Johan är inhyses, född 19/3 1824; Cajsa Lotta 20/10 1825 och dottern 2/7 1854. Utgående anteckning **Säfvar 4/4 1856** kvarstår mot B/1:s 2/4[?]. Egna kyrkliga markeringar finns under 1854–1856; inga ytterligare säkra egna döds-/frejd-/militäruppgifter läses. Bokföringshänvisningar visar inte fysisk flyttdag. De gamla 360/397-kontrollerna bevaras historiskt men bär ingen aktuell konflikt. Ny oöppnad **405** är en konkret föregångare till första familjen, inte en bevaringsskuld för en redan läst bild.

@@ -34,3 +34,8 @@ gemensamt hushåll och ger därför inte i sig nytt biologiskt
 brödraskapsbelägg. De fullständigt lästa inflyttningsföljderna 1872–1874 är
 fortsatt ett avgränsat volym- och periodnoll för Johan August och Anna
 Lovisa, inte bevis för att de saknades i Alnö eller Rökland.
+
+
+## Rättelse 2026-09-08 — T-0128
+
+C-0601:s attestfras är 1852 Femtio två den 4 September. Ordet den misstolkades som eller; attesten har inte två alternativa födelsedatum.

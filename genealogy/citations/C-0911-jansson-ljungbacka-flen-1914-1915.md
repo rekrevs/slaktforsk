@@ -52,3 +52,65 @@ församling i Stockholm 1914-10-15.
 ## Stödda påståenden
 
 A-3425 (P-0042), A-3426 (P-0043).
+
+## Utelämnat eget Turehushåll — helbildsavstämning 2026-09-07, T-0125
+
+Den tidigare avskriftens gräns raderna 1–9 utelämnade Tures egna rader
+16–17 på samma redan bevarade originalbild `00153990_00104`.
+Raderna har nu lästs lokalt och de centrala identitets-/datum-/militärfälten
+har kontrollerats oberoende av två granskare. Ingen ny bild hämtades;
+originalfil och SHA-256 ovan gäller.
+
+| Rad | Namn/roll | Yrke | Uppgiven födelse | Gift | Inflyttad/överförd | Värnpliktsförhållanden |
+|---|---|---|---|---|---|---|
+| 16 | `Ture Alexius Jaensson` | `målare` | `90 ⁷/₆`, `Vadsbro` | `14 ³¹/₁₂` | `Se här ofvan`, `14 ³¹/₁₂` | `N:o 33 ⁴⁴/₁₁` |
+| 17 | `h. Elin Augusta Larsson` | tomt | `82 ²⁷/₉`, `Gåsinge` | ditto | ditto | tomt |
+
+Båda har vaccinationsmarkering; kristendomskolumnerna ger `a`/`n`
+för Ture och `b`/`n` för Elin Augusta. Husförhörskolumn 13,
+anteckningskolumn 14, utflyttnings-/överföringskolumner 16–17 och
+dödskolumnen är tomma på dessa två egna rader. Tures tidigare rad 3 har
+`a`/`n`, tom husförhörskolumn och anteckning om
+**hinderslöshetsbetyg för äktenskap med den nedan namngivna Elin Augusta**.
+Den exakta förkortade inledningen reserveras; ankaret är notisens
+äktenskapsärende och namn, inte en konstruerad separat vigselpost.
+
+Radernas interna hänvisning binder sonen Ture på rad 3 och Elin Augusta
+på rad 9 till makarna på raderna 16–17. Elins tidigare rad anger
+sömmerska; denna titel behöver inte upprepas på den nya raden.
+Raderna ger bokfört vigseldatum **1914-12-31**, men fastställer inte
+geografisk vigselort eller egen vigselförrättare. Överföringen på samma
+dag är ett internt hushållsbyte, inte säkert ett nytt boställe.
+
+Tures födelseuppgift **1890-06-07** förstärker den källbundna juniuppgiften
+jämfört med äldre majuppgifter, men antalet upprepningar avgör inte egen
+födelsedag. Numret **33 44/1911**, jämfört med den utskrivna årformen i
+C-0035, är hans egen militära söknyckel; inget visst förband eller faktisk
+tjänstgöring är därmed identifierat.
+
+A-4239–A-4241 i P-0046 tillför bokfört äktenskap, militärnyckel samt
+målare/flytt. Elin Augusta har ännu ingen egen personakt; det kräver
+separat adoption och baslinjeavstämning. Hennes modersuppgift för Karl
+Harry i C-0910 bevisar inte Tures biologiska faderskap. Familjens andra
+rader på uppslaget är inte automatiskt fullutvunna genom detta tillägg.
+
+## Utvidgad familjeavstämning — T-0129, 2026-09-08
+
+På Karl Fredriks egen rad 1 läses födelsedagen 24/9, inte den äldre
+avskriftens 27/9. Kristendoms-/nattvardsfält ger C/n; egna förhörs-,
+antecknings-, värnplikts-, utflyttnings- och dödsfält är tomma. Överföringen
+från 420 den 30 oktober 1914 tillgodoräknas.
+
+Raderna 11–13, tidigare utelämnade, bildar Torvalds första egna hushåll:
+
+| Rad | Person och roll | Uppgifter på egen rad |
+|---|---|---|
+| 11 | Torvald Stefanus Jaensson, snickeriarbetare | Född 1888, dag avskriven 3/8, Vadsbro; gift 1912-06-23; änkling 1915-07-03; från p. 352 den 1914-10-30; v, b/n; värnpliktsnummer 36 44/08. |
+| 12 | h. Emma Wilhelmina Rhodin[?] | Född 1888-04-27 i Jäder; samma inflyttning genom ditto; v, a/n; död 1915-07-03. Efternamnets stavning reserveras. |
+| 13 | d. Maud Karola Wilhelmina | Född 1913-08-04 i Flen; samma inflyttning genom ditto; v. |
+
+Övriga egna förhörs-/anteckningsfält är tomma. Inget säkert regemente
+eller genomförd tjänstgöring följer av numret. Vigselort och egen vigsel-
+eller dödpost är inte lästa. Barnets återkomst i C-0910 som hans dotter
+i första giftet hindrar att hon görs till andra hustruns barn.
+Tures tidigare fullutvunna rader 16–17 ovan tillgodoräknas utan omtag.

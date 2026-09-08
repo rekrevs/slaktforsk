@@ -32,3 +32,20 @@ Sättnalängdens Abrahamsdatum ska läsas 22/2, inte 22/10.
 ## Stödda påståenden
 
 A-1947–A-1949 och A-1953–A-1954.
+
+
+## Tillägg T-0126, 2026-09-07: familjens egna kolumner
+
+Den bevarade fullbilden och närbild av familjens rader är omlästa.
+Abraham skrivs `Bonden Abram Jönsson`. Hans och Stina Cajsas egna
+kopporfält är markerade `v`; läs-/katekeskunnigheten anges med
+geometriska streckmarkeringar, som bevaras utan översättning till
+skolutbildning. Deras egna frejd-/anmärkningsfält och inflyttningsfält
+är tomma. Utflyttningen anger Sättna, 1873-11-07, med attest 24 och
+familjevis hänvisning. I förhörs-/nattvardsdelen finns tecken inom
+1873 för makarna; exakt teckenform och kolumnfördelning är svårlästa
+efter prövning i den ljusa bilden och dateras inte mer precist här.
+
+En annan Abraham Jönsson, född 1850, står längre ned på sidan. Hans
+inflyttning och andra anteckningar tillhör inte målpersonen född 1840.
+Originalfil och hash ovan tillgodoräknas; inga nya bilder har hämtats.

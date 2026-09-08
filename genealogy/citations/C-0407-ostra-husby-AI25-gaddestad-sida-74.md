@@ -32,3 +32,21 @@ framtida läsning av flyttnings- och vigselposterna.
 ## Stödda påståenden
 
 A-2031–A-2032 och A-2108–A-2112.
+
+## Lokal omläsning2026-09-07, T-0124
+
+Elins rad visar15/1 och senare namnet Elin Andersson. Vigseln
+1897 är nu läst iC-0948 och får inte stå som oläst härledning.
+Hennes egen anteckningskolumn innehåller också en attest-/
+konfirmationsanteckning före lysningshänvisningen; full avskrift
+av datum och formulering återstår. De egna kunskaps- och nattvards-
+fälten skall utvinnas personbundet, inte ersättas av familjens datum.
+
+
+## Tillägg 2026-09-07, T-0126: individuell lokal omläsning
+
+Egen rad 1 visar Anders Magnus Karlsson, hemmansägare, 1844 28/8, Östra Husby och änkling **91 1/4**. Äldre 11/4 rättas mot originalet och C-0408. Rubriken anger Gäddestad nr 1, **1/2 Mt skatte**, ägare Anders Magnus Karlsson ibidem. Ingen överlåtelsedag eller köpeskilling följer av rubriken.
+
+Vaccinationsstreck och kristendomsvärden **b, b**, nattvardsmarkering finns. Nattvardsgångens egna rådatum läses 2/6, 27/9, 10/10 och 22/5[?] under de senare årskolumnerna 1895–1898; 1894 är blankt. Förhörsåren är sammanskrivna, med 94, 95, 96, 97, 98 och 99 synliga med viss överlappning. Ingen egen frejd-/värnplikts-/in-/utflyttningsnot i raden; Elins arbetsbetyg och lysning hör till dottern. Dottern Ida har 1875 15/8; Ester har här 1884 **21/1**, till skillnad från C-0406:s 17/1.
+
+Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.

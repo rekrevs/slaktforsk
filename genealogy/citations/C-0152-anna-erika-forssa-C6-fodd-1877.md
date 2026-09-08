@@ -35,3 +35,51 @@ felaktiga månaden.
 ## Stödda påståenden
 
 A-0587–A-0588, A-0814 och A-0823.
+
+## Full födelse- och doppost 5 — T-0132, 2026-09-08
+
+Den lokala fullbilden, hela målposten och formulärhuvudet har prövats.
+SHA-256 stämmer med det tidigare registrerade värdet. Anna Erika står
+född **23 januari 1877**, äkta flicka och **1:a barnet**, döpt
+**4 februari**. Föräldrarna är torparen Erik Carlsson och hans hustru
+Anna Kristina Larsdotter i Stafsjön; äktenskapstiden skrivs **4 månader
+6 dagar**. Ordningstalet är postens uppgift, inte en livstidstotal.
+
+Åldersfältet innehåller råtalen **25/24** i samma tryckta kolumn för
+moderns sist fyllda ålder. Det dubbla skrivsättet finns även på andra
+rader. Råtalen bevaras utan att säkert tilldela vartdera en förälder
+eller räkna om födelsetider. Modern är markerad som gift. Nästa kolumn
+heter **Examineradt förlossnings-biträde** och har ett Ex/Ev-liknande
+råtecken; det är inte en religionskolumn. Den särskilda promemoriarutan
+är tom på egenraden.
+
+Moderns kyrktagningsfält anger **11 mars**. Anteckningen anger dop
+**i sakristian**, av **vice komminister E. Mellberg[?]**. Den prövade
+namnläsningen reserveras; ingen annan dopförrättares namn från grannraden
+förs över hit. Barnet har ingen egen nöddops- eller dödsnotering i posten.
+
+Dopvittnesfältet är prövat men flera initialer och ortled är svåra.
+En försiktig råavskrift är:
+
+> Dahlén K. J.[?], Brukare, och Johansson A. A.[?], hans Hu i Långviken;
+> samt Larsson K. K.[?], Son i Källberg, [Vadla/Vad…?] So[?], och
+> Larsson A. J.[?], Piga i [M…torp], Blacksta[?].
+
+Långviksparet är en möjlig kontakt med Annas tidigare tjänstehushåll,
+men initialerna identifieras inte automatiskt med C-0158:s personer.
+De övriga vittnena och svåra orterna får inga nya personidentiteter.
+Läsreservationer efter faktisk prövning är inte utelämnade målkolumner.
+
+### Oberoende andraläsning av vittnesfältet
+
+Vid andra läsningen prövas Dahléns hustrus initialer **A. S.[?]** snarare
+än A. A. och sonens **K. R.[?]** snarare än K. K. Efter orten
+**Källberg/Karlsberg[?]** läses **Årdala f:o**, alltså ett församlingsled,
+inte ett ytterligare personnamn. Sista orten prövas **Mörk…torp[?],
+Blacksta f:o**. Den första läsningens Vadla/Vad… ersätts således som
+arbetsläsning av Årdala. **11/3** bekräftas i kyrktagningskolumnen.
+
+Dahléns hustru kan vara Anna Sofia Johansdotter från Långviken och
+soninitialerna kan passa Claës Robert, men varken initialer eller
+ortreservationer räcker för säker sammanföring. De förblir kandidater
+i kontaktkretsen, inte nya säkra släktrelationer.

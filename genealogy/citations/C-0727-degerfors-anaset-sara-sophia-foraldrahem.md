@@ -72,3 +72,60 @@ Individuella checksummor redovisas i S-0084, S-0171 och S-0156.
 ## Stödda påståenden
 
 A-2465–A-2466, A-2704, A-2826–A-2830.
+
+## T-0133: omprövning och egna kolumner 2026-09-08
+
+De fyra ovan länkade fulloriginalen har granskats på nytt, inklusive
+Saras egna rader över hela uppslagen s. 335 och 399. Originaltexten ovan
+bevaras som historik; följande preciseringar styr aktuell användning.
+
+- **Ånäset är hushållets ort**, inte en födelseplatskolumn. Båda
+  Degerforsformulären anger födelseår, månad och dag men inte egen
+  födelseförsamling. Datumet `21/5 1829` står på Saras båda rader.
+- På **s. 335** står hon efter Jonas under familjens `Barn`. Hennes
+  koppkolumn har `v`; läs-/kunskapsfältet har ett grafiskt klammerliknande
+  tecken med punkter. Det återges som bokföringsmarkering utan omräkning
+  till modern skolnivå. Gift-, inflyttnings-, utflyttnings- och
+  anmärkningsfälten på hennes rad är tomma. Förhörs-/nattvardsdelen
+  1844–1847 innehåller flera daterade markeringar; bland råformerna syns
+  `24/6`, `6/10`, `26/6` och `11/10`, men alla små datum och deras
+  underkolumnbindning kan inte säkert normaliseras. De är prövade
+  läsreservationer, inte utelämnade kolumner.
+- På **s. 399** skrivs `Dott. Sara Sophia`, `21/5 1829`, `v` och ett
+  grafiskt kunskapstecken. Giftfältet har `24/11 1850`; utflyttningsfältet
+  `Säfvar 24/11 1850`. Hennes inflyttnings-, döds- och anmärkningsfält
+  är tomma. Förhörs-/nattvardsfält 1848–1850 har flera datum, bland annat
+  råformer `26/10` och `6/10`; övriga små tal lämnas reserverade efter
+  prövning. Efter 1850 finns inga motsvarande egna markeringar.
+  Flyttbokens datum är en kyrkobokföringsuppgift och fastställer inte
+  tidpunkt för den fysiska avresan eller mottagande hushållsfolio.
+- Föräldraparets **vigselpost 1826 nr 1** anger dräng och hemmansägare
+  Petter Reinhold Pehrsson, 28 år, och bondens dotter Beata Jonsdotter,
+  17 år, båda med hemort Ånäset/dito. Äldre beteckningen enbart `pigan`
+  ersätts av den faktiskt lästa relationsbeteckningen. De små
+  datumkolumnerna har nu prövats: lysning `8/1[?]`, vigsel `12/3[?]`.
+  Osäkerheten bevaras, inget säkert nytt fullständigt datum införs.
+- **S. 402** bekräftar brodern Jonas Pehrssons födelsedatum `2/2 1828`
+  och familjehänvisningen 399. Där står hans hustru Anna Johanna
+  Zingmark och deras barn Johanna Beata och Carl Reinhold. De är inte
+  Saras barn och efternamnslikheten bevisar ingen relation mellan
+  Anna Johanna och Saras make Johan Peter. Jonas hushåll har egna
+  senare markeringar; de överförs inte till Sara som inte står där.
+
+Vigselposten för Sara och Johan Peter är sedan tidigare funnen och läst
+i **C-0997, Degerfors E I/1 1850 nr 19**. Påståendet ovan att vigselpost
+och vigselförsamling återstår är överspelat. Källorna upprepar samma
+födelsedatum och föräldrar; uppgiftsberoendet mellan vigselbok och
+hushållsböcker är inte visat oberoende.
+
+T-0133:s omläsningar av C-0563 och C-0685 ger dessutom **Degerfors**,
+inte Lycksele, i Saras egna födelseortsuppgifter. Den äldre
+Lyckseleavskriften var fel. De äldre negativa Lyckseleläsningarna och den
+separata Rusele-kandidaten bevaras men utgör inte längre en aktuell
+positiv födelseortskonflikt.
+
+De positiva fulloriginalen ovan finns och har identifierad proveniens.
+Däremot återfanns inte C/2:s tidigare lästa gränsbilder
+`A0001455_00241`–`_00246` som lokala bildkopior vid fil- och aliassökning
+i T-0133. Bildföljdsluckan är ett tidigare dokumenterat åtkomstresultat;
+avsaknaden av egen födelsepost är inte ett personnoll.

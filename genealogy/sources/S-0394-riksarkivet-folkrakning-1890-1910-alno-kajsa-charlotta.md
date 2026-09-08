@@ -22,3 +22,8 @@ sammanhängande sen kedja. Identiteten säkras av födelseår och
 födelseförsamling, änkeståndet efter 1885 samt samboendet med sonen Jonas
 Peter Johansson och hans familj 1890 och 1910. Fulla datum kontrolleras i
 församlingsboken och dödboken.
+
+
+## T-0142: personbunden fullpostprövning 2026-09-08
+
+De tre årgångarna är skilda daterade utdrag och får tillgodoräknas för respektive års hushåll. Den äldre formuleringen ”tre oberoende årgångar” betyder inte att födelseuppgifterna har tre oberoende informationsursprung: utdragen bygger på kyrkobokföring och kan återge överförda uppgifter. De bevisar inte heller oavbrutet boende mellan årgångarna. C-0489–C-0491:s bevarade hela vyer har återlästs med respektive persons egna fält i T-0142.

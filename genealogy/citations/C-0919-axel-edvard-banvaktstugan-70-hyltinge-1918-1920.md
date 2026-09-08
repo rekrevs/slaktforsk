@@ -93,3 +93,8 @@ kretsen flyttade 1920-10-26.
 ## Stödda påståenden
 
 A-3453–A-3456 och A-3459 (P-0015), A-3457 (P-0007), A-3458 (P-0016).
+
+
+## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
+
+Vid T-0143 har Charlottas indirekta belägg i hela familjeavsnittet prövats mot C-0084 och C-0100–0102. Mannen är änkling med datum17 1/5 och behåller vigsel02 25/10. Det stöder hennes dödsdag1917-05-01 indirekt; egen dödspost, dödsort och dödsorsak saknas. Hon har ingen egen rad i detta senare hushåll. Den äldre formuleringen åtta barn i första äktenskapet överskrider belägget: Erik Axel är född före vigseln med okänd far enligt C-0084, och hushållets barnrad bevisar inte biologiskt faderskap. Åke Bertil och tvillingarna Birgit Cecilia/Gunborg Elisabet är här faderns hushållsbarn; moderns identitet för dessa tre kräver eget relationsbelägg. Upprepningen av1902 års vigseldatum är inte automatiskt oberoende bevis från en annan informationskälla. Dessa avgränsningar ersätter motsvarande starkare äldre normaliseringar utan att radera originalavskriften.

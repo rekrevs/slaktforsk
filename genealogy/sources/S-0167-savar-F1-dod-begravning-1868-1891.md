@@ -32,3 +32,10 @@ födelsedatum.
 
 Katalog, bildvisare och fullbildsnedladdning fungerade i den autentiserade
 sessionen. Ingen åtkomstspärr uppstod för denna volym.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Egen dödpost 76 fullprövad, kärnfakta består. Tilläggsnot om kyrkoherde J.Wik[…] i Umeå och datum 20/11 85[?] reserveras; båda intygsfält tomma. Ålder får inte räknas om till födelsetid.
+
+Se [C-0219](../citations/C-0219-savar-F1-johan-persson-dod-1885.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

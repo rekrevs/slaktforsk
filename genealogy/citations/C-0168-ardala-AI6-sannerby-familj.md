@@ -40,3 +40,25 @@ födelse prövas separat i C-0172.
 ## Stödda påståenden
 
 A-0844–A-0846, A-0849 och A-0855.
+
+## Tillägg 2026-09-08 — T-0141, Annas egen post och rättelser
+
+Hela bild 169, särskilt Annas egen rad, har prövats: `Hustru Anna Ersdr`,
+**1796 26/6 Årdala** (månaden med överlagrat bläck), maken **1784 25/12
+Grytt**. Den äldre 6/6-formen respektive 1781-02-23 är inte korrekt
+avskrift. Koppor `v`, läskunskaper tre streck/kors och sista streck;
+egen inflyttning, utflyttning och kroppsliga/levnadsomständigheter tomma.
+
+Egna kyrkliga årsfält 1830–1834 är ifyllda. Förhör bland annat
+13/11[?] 1830, 15/11[?] 1831, 19/12[?] 1832, 13/11 1833;
+1834-raden har ett snedstreck. Nattvardsråfält omfattar 1831 20/2 och
+23/10[?], 1832 15/7, 1833 10/2 och 11/8[?], 1834 täta aprildatum.
+Svaga tecken har prövats och reserveras, ingen årslång obruten närvaro
+är härledd ur dem.
+
+Under rubriken finns den överstrukne sonen Anders (1814, makens tidigare
+äktenskap), dottern Brita Christina (1819), och överstrukna tjänsterader
+med delvis svårlästa namn. Dessa ger ett hushållsnätverk, inte fler
+biologiska barn till Anna. Nedre Per Olssons familj är ett eget hushåll.
+Rubrikens 3/16 är bokförd gårdsandel, inte styrkt personlig äganderätt
+eller ekonomiskt värde för Anna.

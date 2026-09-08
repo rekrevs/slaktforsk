@@ -64,3 +64,12 @@ obedömda akter.
 ## Stödda påståenden
 
 A-3723, A-3724.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+De tre posterna samverkar i identifieringen av modern. Att de ligger i
+olika kyrkoböcker gör inte alla deras uppgifter oberoende: ålder och folio
+kan härröra ur samma folkbokföring. Maja Gretas egen födelse1824-03-22 är
+senare funnen iC-1005/C-1007; dödboksåldern är kvar som avvikande uppgift.
+Det är inte belagt när hennes hushållsrad faktiskt ströks över. Egen akt
+P-0536 finns redan; dotterns fadersfråga är fortsatt öppen.

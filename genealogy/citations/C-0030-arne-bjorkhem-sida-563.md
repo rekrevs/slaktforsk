@@ -29,3 +29,21 @@ hänvisas 1932 vidare till sida 948.
 ## Stödda påståenden
 
 A-0046–A-0049, A-0153, A-0189 och A-0192.
+
+## Lokal avstämning 2026-09-07 — T-0123
+
+Bildhuvudet anger Björkhem n:o1, Berggatan21. Adressankaret införs
+tillsammans med personposten; hänvisningen638/30 är inom samma bok
+enligt C-1047, inte ett krav på den äldre volymens saknade638.
+
+Arnes rad10 har streck i kolumn11–12 och tomt13, utan att ett bestämt
+kunskapsbetyg eller samfund infereras. Morföräldrarna på rad8–9 har
+ytterligare bokstavs-/anteckningsfält som den korta citationen inte
+utvunnit; personbunden familjeutvinning återstår.
+
+## Egna familjefält — T-0129, 2026-09-08
+
+Karl Fredriks egen rad 8 har C/n i kristendoms-/nattvardsfälten och
+anteckningen Bef.[?]. Charlottas rad 9 har a/n. Bokstäverna bevaras som
+källtecken utan slutsats om personligt trosliv. De tidigare angivna
+adress- och överföringsuppgifterna tillgodoräknas.

@@ -36,3 +36,7 @@ föräldraparets hushåll; deras egna födelsenotiser återstår.
 
 A-2095 och A-2097–A-2099 samt uppgraderade A-0311, A-0313, A-0315 och
 A-0317.
+
+## T-0129: egna målkolumner och hushållsavgränsning
+
+Fullbilden är återvisad 2026-09-08. Anders egen rad 1 och dess årsvisa förhörs-/nattvardsfält är ifyllda; exakt full råavskrift av dessa datum återstår. Faderns eget frejdfält är tomt, medan barnen har egna särskilda noter som inte är hans. Maria Augusta är markerad som barnmorska och utflyttad till Anundsjö 1898, inte kvarvarande barn genom hela bokperioden. Lottas rad har den uttryckliga dödsnoten 98 25/5. Marginalens fastighetsnummer/bråk över egenrad behöver sammanhållen detaljprövning innan säker ekonomisk normalisering.

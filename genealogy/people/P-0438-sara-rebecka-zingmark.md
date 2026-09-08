@@ -10,7 +10,8 @@ bevarad från familjens källryggrad.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-2475 | Sara Rebecka föddes 1868-02-12 i Botsmark och döptes 16 februari som tvilling med Ester Amalia, född dagen efter; föräldrarna var Johan Peter Zingmark och Sara Sophia Pehrsdotter. | CORROBORATED | mycket hög | [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md) | Samtida födelse- och dopbok; originalnamnet `Sara Rebecka` rättar sekundärläsningen Sara Fredrika. |
+| A-2475 | Sara Rebecka föddes 1868-02-12 i Botsmark och antecknades i dopboken med 16 februari som tvilling med Ester Amalia, född dagen efter; föräldrarna var Johan Peter Zingmark och Sara Sophia Pehrsdotter. | CORROBORATED | mycket hög | [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md) | Samtida födelse- och dopbok; originalnamnet `Sara Rebecka` rättar sekundärläsningen Sara Fredrika. |
+| A-4413 | Sara Rebeckas egen födelsepost anger ”dog efter undfånget nöddop”. | TRANSCRIBED | hög | [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md) | T-0133: full relevant egen post prövad; bokuppgift skiljs från fysisk händelseort. |
 
 ## Relationer
 
@@ -23,5 +24,16 @@ bevarad från familjens källryggrad.
 
 ## Forskningsstatus
 
-Sidoperson utanför antavlan; senare liv och eventuell tidig död är öppna men
-prioriteras inte före breddkohorten.
+Sidoperson utanför antavlan. Egen födelsepost säger att hon dog efter
+undfånget nöddop; exakt dödsdag och datum för nöddopet är inte säkrade.
+
+## Konsolideringsrättelse — T-0133
+
+2026-09-08: 16 februari får inte utan vidare bli datum för hennes nöddop. Ingen exakt dödsdag följer av anteckningen. T-0199 äger full individuell adoption.
+
+Äldre formuleringar bevaras som rättelsehistorik:
+
+> och döptes 16 februari som tvilling med Ester Amalia,
+
+> Sidoperson utanför antavlan; senare liv och eventuell tidig död är öppna men
+> prioriteras inte före breddkohorten.

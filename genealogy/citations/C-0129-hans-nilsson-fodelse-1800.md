@@ -46,3 +46,30 @@ Ort, namn och senare sekundäruppgifter binder posten till P-0158.
 ## Stödda påståenden
 
 A-0707, A-0730–A-0732, A-0734–A-0735, A-0759–A-0762, A-0793.
+
+
+## Konsolideringsprövning 2026-09-08 — T-0139
+
+Hela den tidigare sparade originalbilden finns även under C-0776:
+[C0034039_00109](../media/C-0776-riksarkivet-bygdea-C3-C0034039_00109-fodda-1800.jpg), 3200 × 2580 px,
+SHA-256 `b7dc07dfb5830f707908b8a216e9938c69818899fc25520768467bd589230caa`. Den återbrukades lokalt; ingen ny arkivåtkomst.
+Äldre skärmbild och dess hash ovan består. Hela Hans egen rad är prövad:
+
+| Fält | Avläsning och gräns |
+|---|---|
+| År/månad/dagar | 1800, september; född 23, döpt 28. |
+| Barn | Hans. |
+| Föräldrar och ort | Fader: Bonden Nils Nathanaelsson; moder: Lisa Caisa Abrams dotter; Åkullsjön. Orten är postens familjeort, ingen separat fysisk förlossningslokal. |
+| Vittne 1 | Klockar:[?] Jacob Högström; egen ort anges inte på raden. |
+| Vittne 2 | Hustrun Anna Johansdr i Rickleå. |
+| Vittne 3 | Dräng Abram Abramsson ibm; ortens ditto till Rickleå. |
+| Vittne 4 | Pig Brita Stina Abramsdr ibm. |
+| Övrigt | En liten marginalnotation till höger om vittnena har prövats men kan inte tydas säkert eller ges ekonomisk innebörd. Varken moderns ålder eller förrättare anges i egna fält. |
+
+Abram/Abramsdr är råformer bakom äldre normalisering Abraham/Abrahamsdotter.
+Vittnena är fyra individuella roller, inte bevis för släktskap. Den privata
+ansedelns tre helt andra personer i C-0133 är en avvikande uppgift som inte
+slås ihop med originalets lista. Postens koppling till den vuxne Hans bygger
+på namn, Åkullsjön och ansedelns identifikation, inte två oberoende original
+som vart och ett ger hela livskedjan. A-0730–0732/A-0793 består med denna
+källgräns. Fullbildens utvinning innebär ingen ny genomgång av grannbarnen.

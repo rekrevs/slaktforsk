@@ -23,3 +23,12 @@ avgränsade djup-6-fronten.
 Ett automatiserat hämtningsförsök gav cachemiss/åtkomstfel, men sidorna kunde
 läsas i den vanliga webbläsaren. Hindret redovisades för ägaren och löstes med
 webbläsarvägen; det var inte ett negativt sökresultat.
+
+
+## Konsolideringsprövning 2026-09-08 — T-0139
+
+Båda de bevarade helbilderna av ansedlarna har kontrollästs i T-0139. C-0133/C-0134 har
+tillägg med tre rättade barnortsavskrifter, fastighetsandelen 4/64 och
+källberoende. Sävar som uppgiven födelseort jämförs inte längre som samma
+fält med vigselns ”ifrån Degerfors”. Alla privata sakuppgifter behåller
+sekundärstatus; fullsidesskärmbildernas ursprungliga hash har kontrollerats.

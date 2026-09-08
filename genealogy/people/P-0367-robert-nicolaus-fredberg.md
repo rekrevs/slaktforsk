@@ -11,7 +11,7 @@ familjeankaret men hans egen gren drivs inte vidare före breddkohorten.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2062 | Kungsholms födelseregister 1878 hänvisar Robert Nicolaus Fredberg till sida 127. | TRANSCRIBED | hög | [C-0381](../citations/C-0381-kungsholm-CIII1-fredberg-register-1878.md) | Registeringången kontrollerades mot originalposten. |
-| A-2066 | Robert Nicolaus Fredberg föddes 1878-06-07 i Kungsholm och döptes 8 juli. | CORROBORATED | mycket hög | [C-0381](../citations/C-0381-kungsholm-CIII1-fredberg-register-1878.md), [C-0382](../citations/C-0382-kungsholm-CI13-robert-nicolaus-fredberg-1878.md), [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md) | Registret pekar på originalposten; C I/13 och faderns senare lysningsakt ger samma datum. |
+| A-2066 | Robert Nicolaus Fredberg föddes 1878-06-07 i Kungsholm och döptes 8 juli. | CORROBORATED | mycket hög | [C-0381](../citations/C-0381-kungsholm-CIII1-fredberg-register-1878.md), [C-0382](../citations/C-0382-kungsholm-CI13-robert-nicolaus-fredberg-1878.md), [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md) | Registret pekar på originalposten; C I/13 ger dop8 juli; C-0474:s möjliga7/7 avviker och bevaras med läsreservation. Födelsedagen sammanfaller. |
 | A-2067 | Han var son till Olaus Fredriksson Fredberg och Brita Stina Svensdotter. | CORROBORATED | mycket hög | [C-0382](../citations/C-0382-kungsholm-CI13-robert-nicolaus-fredberg-1878.md), [C-0326](../citations/C-0326-riksarkivet-folkrakning-1880-kungsholm-fredbergfamilj.md), [C-0474](../citations/C-0474-kungsholm-EI9-olaus-fredberg-johanna-jansson-1888.md) | Egen födelsenotis, 1880 års hushåll och faderns lysningsakt sammanfaller. |
 
 ## Relationer
@@ -28,3 +28,8 @@ familjeankaret men hans egen gren drivs inte vidare före breddkohorten.
 
 Sidoperson utanför den fasta 32-personerskohorten. Ingen fortsatt egen an-
 eller ättlingskedja prioriteras före kohortens breddmål.
+
+
+## Begränsad följdavstämning från T-0128
+
+2026-09-08: A-2066 har avstämts: egen doppost anger8 juli1878; senare C-0474 har möjlig7/7, en reserverad avvikelse. C-0382:s fadderfält är nu prövat med rånamn. Full profil och standardisering införs i den fasta kohorten T-0160. Denna minimiavstämning är ingen fullgranskning. Äldre formuleringar bevaras i tidigare käll-/logghistorik.

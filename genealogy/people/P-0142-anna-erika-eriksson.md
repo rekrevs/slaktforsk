@@ -17,6 +17,7 @@ Svartgjötorp 1880.
 | A-3021 | Anna Erika stod kvar som dotter i Erik Karlssons hushåll i Svartgjötorp i Forssa A I/18, med födelsedatumet 1877-01-23. | TRANSCRIBED | hög | [C-0780](../citations/C-0780-forssa-AI18-anna-erika-skoldinge.md) | Fulloriginalet rättar en preliminär översiktsläsning som felaktigt uppfattade henne som frånvarande. |
 | A-3022 | Anna Erika Eriksson flyttade från Svartgjötorp i Forssa till Sköldinge 1892-10-22. | CORROBORATED | hög | [C-0780](../citations/C-0780-forssa-AI18-anna-erika-skoldinge.md), [C-0781](../citations/C-0781-forssa-B4-anna-erika-skoldinge-1892.md) | Husförhörssidan ger destination och år; utflyttningslängdens post 26 ger datum, folio 83, namn, familjeställning och ort. |
 | A-3023 | Sköldinge B/5:s exponerade inflyttningsposter 6–243 för 1892 saknar en säker Anna Erika Eriksson från Forssa. | NEGATIVE | hög | [C-0782](../citations/C-0782-skoldinge-B5-anna-erika-1892-avgransning.md) | Volym-, år-, exponerad postföljd-, namn- och ursprungsbundet noll. Posterna 1–5 exponeras inte; det är inte ett ankomst-, vistelse-, person- eller komplett årsnoll och motsäger inte Forssas positiva utflyttningspost. |
+| A-4390 | Anna Erika döptes 1877-02-04 i sakristian; modern kyrktogs 11 mars. Hon anges som första barnet. | TRANSCRIBED | hög | [C-0152](../citations/C-0152-anna-erika-forssa-C6-fodd-1877.md) | Vice komminister E. Mellberg[?]; dopvittnenas prövade initialer och orter finns i fullposttillägget och blir inte säkra personfusioner. |
 
 ## Relationer
 
@@ -34,3 +35,8 @@ Svartgjötorp 1880.
   utan ny namn-/sidnyckel; posterna 1–5 saknas i bildföljden. Komplettera
   därefter med död/vigsel. Läs dopvittnena i originalnotisen endast om en
   riktad nätverksfråga uppstår.
+
+## Konsolideringsrättelse — T-0132
+
+2026-09-08: egen födelsepost fullprövad inklusive dop, kyrktagning,
+faddrar och prövade råkolumner. Full individuell adoption ägs av T-0184.

@@ -24,3 +24,7 @@ på bild 14 och anger både barnets datum, föräldrarna och Västra Bodarne.
 Den samtida födelse- och dopposten är huvudbelägg för Britta Stinas födelse
 och föräldrar. Moderns ålder 36 är en sekundär åldersuppgift i samma post;
 föräldrarnas exakta födelsedata hämtas i stället ur husförhörslängden.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+C-0445:s daterade tillägg anger hela egna postens utvinning och de tre saknade årskopiorna. Föräldrarnas datum i husförhöret är bokuppgifter, inte i sig egna födelseoriginal.

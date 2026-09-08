@@ -29,3 +29,7 @@ Katarina Johanna; dessa personer har sedan tidigare P-0051 respektive P-0052.
 ## Stödda påståenden
 
 A-0204–A-0207, A-0212, A-0218–A-0221, A-0363 och A-2283.
+
+### Konsolidering 2026-09-07
+
+T-0117: A-4140 för P-0052 lyfter det redan lästa positiva familj2-ankaret1910; inget nytt original öppnat.

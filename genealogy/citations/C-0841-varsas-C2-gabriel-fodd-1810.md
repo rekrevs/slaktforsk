@@ -19,3 +19,17 @@ socken, namn och vuxna familjeprofil binder posten till P-0290.
 
 P-0290:s födelse och relationerna till P-0506–P-0507. Faderns efternamn och
 födelsepostens ortsord lämnas olästa.
+
+## Tillägg 2026-09-07 — T-0121, lokal målpostkontroll
+
+Den bevarade målposten har två datumkolumner med20i juli: födelse och
+dop läses båda som1810-07-20. Bostället läses preliminärt `Västerg.
+Djursätra`, en hemvistuppgift utan belagt obrutet boende till vuxenåren.
+Efternamnet efter Elias förblir källbundet osäkert och rekonstrueras inte.
+
+Den tidigare kärnan utelämnar hela vittnesfältet. Preliminära läsningar
+är `M. Gabriel [efternamn/ort osäkra]`, `Jan Jönsson [ort osäker]`,
+`H. Maja Andersd:r Westerg.` och `P. Lisa Andersd:r [ort osäker]`.
+Dessa är arbetsläsningar; fulla namn, orter, roller och anknytning behöver
+avstämmas på hela originalposten. Inget biologiskt släktskap sluts från
+ett vittnes patronymikon. Hela relevanta målposten är ännu inte utvunnen.

@@ -58,3 +58,25 @@ Den manuella ALTCHA-verifieringen öppnade båda bildserierna. Ljustorp B I/1
 sida 15 lästes i original i C-0625 och Lagfors A I/1 sidorna 34–36 i
 C-0626. C-0605 bevarar fortfarande den tidigare Familia-transkriptionen,
 metadatafångsten och det dåvarande sessionshindret.
+
+## Tillgodoräknade biografirader i T-0130, 2026-09-08
+
+Den redan bevarade fulla biografibilden visar följande exakta derivatrader:
+
+| Hänvisning | Datum/intervall | Titel eller datumfält | Gräns |
+|---|---|---|---|
+| A I/6/HL/0116/022 | 1855-11-21–1859 | Inhys. | Inflyttningsdag skiljer sig från B I/2:s 2 december. |
+| B I/2/INFL/0007/032-01 | 1855-12-02 | Drängen; boendeort Löfberg i databasen | Originalets egen post läses Sjöberg i C-0471; ortavskriften harmoniseras inte. |
+| A I/6/HL/0054/005 | 1859–1860 | Arbetaren | Årsfält är databastolkning; originalets egna nattvardsårsbindning är reserverad i C-0519. |
+| A I/7/HL/0201/001 | 1861–1870 | Arbn | Positiv exakt originalväg, inte redan läst originalhushåll. |
+| A I/8/HL/0203/001 | 1871–1880 | Torp. (Arb) | Positiv exakt originalväg, inte bevis för samma syssla varje år. |
+
+Sju barn listas med biologiska relationsetiketter i databasen: Nils
+1854-09-17, Märtha Brita och ett dödfött gossebarn 1856-02-20, Henrik
+Petter 1857-04-20, Erik Jonas 1860-01-23, Nils Martin 1863-02-14 och
+Nils Andreas 1867-02-21. Etiketten är databasens uppgift. Tvillingposten
+i C-0470 och Nils Andreas datum i C-0374 har nu prövats i original;
+Nils 1854 och Nils Martin 1863 förblir egna sekundära spår.
+
+T-0264 äger de två exakta mellanfolierna och två återstående barnposterna.
+Stöder A-4315 och preciseringen av A-2539. Inga nya arkivsökningar ingår.

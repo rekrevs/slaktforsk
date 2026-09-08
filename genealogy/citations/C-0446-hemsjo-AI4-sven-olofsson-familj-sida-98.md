@@ -60,3 +60,28 @@ Två avvikelser mot avskriften ovan:
 Inga påståenden ändras här. Det som **är** avgjort ur samma läsning är att
 äldsta barnet är **August, född 1842-07-08**, vilket daterade vigselfönstret
 och ledde till fyndet i [C-1026](C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md).
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+Fulloriginalet och hela egna familjegruppen har prövats igen. Catharinas
+rad har H. Catharina Andersd:r och 15 28/1. Hennes eget födelseortsfält är
+blankt; Hemsjö på Olaus rad får inte flyttas upp. Egna kunskaps-, kopp-,
+frejd- och flyttfält ger inga säkert ifyllda personuppgifter. Faderns
+Wäsenbo-hänvisning får inte utan vidare bli hennes egen flyttattest.
+Högra 1840-noten ligger vid makens rad; dess dag reserveras.
+
+Barnen är August 1842-07-08, Johan Peter 1844-09-05, sonen David 1848
+(dag/månad 3/1[?] reserverad), sonen Olaus 1846 (10/1[?] reserverad),
+Britta Stina 1851 och Cajsa 1856-08-08. David ersätter äldre felläsningen
+Maria. Olaus egen dödnot är 1851-03-18, inte 1854-03-18. Cajsa är
+överkorsad och dödmarkerad 1856 utan säker dag. Barnens c-/v-markeringar
+är inte moderns egen kunskaps- eller hälsoinformation. Britta Stinas
+överlagrade datum normaliseras inte med säkerhet i hushållsboken; hennes
+1851-05-09 är positivt belagt i den egna födelseposten C-0445.
+A-4547; den tidigare uttryckligen reserverade David-/Olausrättelsen får
+här aktuell betydelse, medan svaga detaljtecken förblir reserverade.
+
+S-0349 anger läst registerbild 9 och sidor 93–98, bilder 105–110. Endast
+110 återfunnen efter lokalt alias-/metadata-/tmp-eftersök. Sex tidigare
+lästa förberedelsebilder 9,105–109 saknar därmed lokal kopia. Det är en
+PK-11-gräns, inte ett saknat eget positivt hushållsuppslag.

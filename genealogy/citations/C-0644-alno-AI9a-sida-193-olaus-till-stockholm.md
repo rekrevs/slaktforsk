@@ -39,3 +39,16 @@ Registeroriginalet är bevarat under C-0602.
 
 A-2618.
 
+
+
+## Egen fullrad prövad 2026-09-08 — T-0128
+
+Root och aktgranskaren har prövat hela originalraden, inklusive tillägg
+ovan namnet och överlagrade utflyttningsnoter. Ovan namnet läses rått
+`Fr.dberg[?]`; orten ovan Stockholm är `N…[?]`, datum `24/[?]` med
+oläst år. Dessa ger ingen säker ny destinations- eller datumuppgift.
+Stockholm1876, attest31 och frejdebetyget15 januari kvarstår säkra.
+Koppor `v`, kunskap `f.f.[?]`, förhör1874 `1` och övriga egna årsfält
+tomma; äktenskaps-/änke- och dödsfält tomma. Bakåthänvisningen167 kvarstår.
+Överstrykning betyder inte död. Kvarstående råreservationer är faktiskt
+prövade läsosäkerheter och inte bortglömda egna fält.

@@ -47,3 +47,7 @@ inflyttningsnummer i Linköping.
 De autentiserade bildfilerna bevarades inte i projektet. Källidentitet,
 bildintervall, båda sidornas innehållstyp och det avgränsade resultatet är
 bevarade här och i C-0821.
+
+## T-0135: provenienskomplettering 2026-09-08
+
+De fjorton tidigare lästa uppslagen C0016897_00050–00063 har återfunnits i lokala arbetskopior och bevarats med individuella SHA-256 under [C-0821](../citations/C-0821-linkoping-BI3-1840-ajax-identitetskontroll.md). Bild51 finns där i den återfunna max-versionen. Den äldre uppgiften om ej bevarade bildfiler gäller inte längre. Inget nytt externpass har gjorts och källnollet ges ingen vidare räckvidd.

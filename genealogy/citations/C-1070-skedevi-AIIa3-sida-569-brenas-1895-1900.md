@@ -89,3 +89,19 @@ utflyttningslängd för 1900 är inte läst, och **Flens församlingsbok från
 ## Stödda påståenden
 
 A-4005–A-4010.
+
+
+## Omprövning i T-0125, 2026-09-07
+
+Tures födelseuppgift juni kvarstår som denna boks läsning; det äldre
+påståendet om tre majkällor i födelseförsamlingen upphävs enligt
+T-0125-rättelsen i C-1068. Upprepade vigseldatum är inte åtta oberoende
+vigselbelägg. Svens senare beteckning S. är inte ny bevisning om
+biologiskt faderskap och upphäver inte C-1060/C-1062:s källgräns.
+De daterade flyttankarna redovisar kyrkobokföringen; faderns statdrängstitel
+bevisar inte varje anställningskontrakts längd eller löneform. Kedjans
+geografiska sammanräkning ovan är fel: Lerbo, Vadsbro, Blacksta, Skedevi
+och Flen är fem skilda socknar/församlingar, inte fyra. Lokal fullbild
+saknas; Adas redan prövade oläsliga blyertsanteckning är en källgräns,
+medan de inte redovisade egna kunskaps-/förhörsfälten behöver fullutvinnas
+vid återåtkomst till exakt denna sida.

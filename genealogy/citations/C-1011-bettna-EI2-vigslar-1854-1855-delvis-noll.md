@@ -51,3 +51,10 @@ lästa**. Nollan gäller alltså det lästa omfånget, inte hela vigselfrågan.
 ## Stödda påståenden
 
 A-3767, A-3768.
+
+
+## T-0137: avstämning 2026-09-08
+
+Den partiella 1854-kontrollen kompletterades i C-1073. Inget här anger att all vigselforskning är uttömd eller att vigselförsamlingen därför måste vara en annan särskild socken.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

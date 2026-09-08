@@ -44,3 +44,34 @@ originalbilden.
 ## Stödda påståenden
 
 A-2373–A-2374, A-2376–A-2377, A-2379–A-2380.
+
+
+## Avstämning 2026-09-08 — T-0129
+
+Fullbildens båda egna rader har prövats. Lysningsdagarna4/11/18 april,
+vigsel26 april1886, bådas första gifte och exakta födelsedatum kvarstår.
+Hänvisningskolumn och vigselradens högra anteckningsfält är tomma. Det finns
+ingen egen identifierad vigselförrättare eller makarnas signatur i dessa
+fält. Samtyckestexten anger han närvarande, ingen släktskap och modern
+änkan Brita Katrina Andersd:r i Eriksland[?], skriftligt bifall.
+Ortens äldre normalisering Erikslund är inte säker i denna läsning.
+
+Sven Edvin är hennes barn före vigseln; texten ovan får inte göra Karl
+Fredrik till biologisk far genom senare äktenskap. C-1060/C-1062 ger
+uttryckligen modern respektive hennes son, och Ada som gemensam dotter.
+C-0016 är redan omläst till Spånga i T-0125; Gånga är avskriftsfel,
+inte en fortsatt geografisk konflikt. Änkestatusen här belägger moderns
+angivna civilstånd vid detta tillfälle, men identifierar inte ensam den
+avlidne maken som en viss Lars Andersson. Patronymikonavvikelsen mot
+andra moderskällor bevaras, inte avgjord av namnlikhet.
+
+## Avstämning 2026-09-08 — T-0137
+
+T-0129:s hela egna läsning och reservationer återbrukas; fullbilden finns
+och matchar sin SHA-256. Moderns explicit angivna relation och namnform
+Brita Katrina Andersd:r bevaras. C-1063:s senare återgivna änkehushåll med
+Pehrsdotter är ett relevant korrelationsbelägg, men ger inget styrkt
+förlopp där prästen måste ha blandat ihop makens efternamn och moderns
+patronymikon. Upprepningar i församlingens böcker är inte automatiskt
+oberoende namn- eller civilståndsbevis. Inga nya bildfält har påståtts lästa
+i denna återbruksavstämning.

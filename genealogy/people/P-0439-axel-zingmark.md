@@ -11,7 +11,7 @@ spädbarn 1865.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2474 | Axel föddes 1864-03-23 i Botsmark, döptes 12 april och var tvilling med Anders Wilhelm, född dagen efter; föräldrarna var Johan Peter Zingmark och Sara Sophia Pehrsdotter. | CORROBORATED | mycket hög | [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | Samtida födelsenotis med uttrycklig tvillingmarkering och tidigare hushållssida. |
-| A-2470 | Axel dog 1865-02-18 i Botsmark och begravdes 5 mars, 10 månader och 25 dagar gammal. | CORROBORATED | mycket hög | [C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | Egen döds- och begravningspost; dödsorsaken är inte säkert läst. |
+| A-2470 | Axel dog 1865-02-18, med Botsmark som hemvist, och begravdes 5 mars, 10 månader och 25 dagar gammal. | CORROBORATED | mycket hög | [C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | Egen döds- och begravningspost; dödsorsaksfältet är tomt; det är ingen oläst orsak. |
 
 ## Relationer
 
@@ -26,3 +26,13 @@ spädbarn 1865.
 
 Avslutad sidoperson på födelse-, föräldra-, tvilling- och dödsnivå; ingen
 egen fortsättning behövs.
+
+## Konsolideringsrättelse — T-0133
+
+2026-09-08: C-0566:s samtliga relevanta egna kolumner är prövade. Botsmark är hemvist, inte separat angiven fysisk dödsplats. C-0565 har två barnbundna vittneslistor: Axels inkluderar Hans Danielsson, inte den äldre läsningen Brändström. Full individuell adoption ägs av T-0199.
+
+Äldre formuleringar bevaras som rättelsehistorik:
+
+> Axel dog 1865-02-18 i Botsmark
+
+> dödsorsaken är inte säkert läst.

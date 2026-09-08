@@ -38,3 +38,7 @@ visar tydligt **22/2** när de läses i full upplösning.
 Bild `C0033561_00085` upptar Gertrud, född 23 januari och döpt 25 januari
 1812. Föräldrarna anges som bonden Olof Stefansson och hustrun Sigrid
 Jonsdotter i Hullsjö; moderns ålder skrivs 36 år.
+
+## T-0136: återanvänd metadata och avgränsa identitet 2026-09-08
+
+C/2:s redan registrerade datering 1773–1847 omfattar både augusti 1805, juli 1812 och juli 1831. Den gamla profilfrågan om 1805 ryms i volymen är därför besvarad som metadata; det innebär inte att dessa egna målposter har lästs. C-0333/C-1021:s fullpostprövningar och råa patronymikon ska läsas med rättelserna T-0136: moderns far identifieras inte genom stavningsformen ensam.

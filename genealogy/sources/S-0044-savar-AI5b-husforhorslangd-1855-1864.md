@@ -34,3 +34,10 @@ Riksarkivets bildvisare som HTTP-`Referer`; inga sessionsdata behövdes.
   SHA-256
   `70cf6810aa3a72fdfdc0b03cfa306b1be8dd3c2442dd519c019c16d6a5b655ac`.
 - C-0685 bevarar fulloriginalet för s. 470.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Lundströmfamiljens ort är Östanträsk, inte Yttertavle. Äldre dotter Johanna Charlotta och hennes 1857-dödsnot samt Jonas Peter/Emma Maria/Johan August-datum är källspecifikt rättade. Inga Zingmarkrader ändras av denna avstämning.
+
+Se [C-0051](../citations/C-0051-johan-august-barndom-sida-354.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

@@ -81,3 +81,41 @@ bouppteckning 1910**, med ett digitalt register som möjlig genväg, och
 
 Matrisraderna för P-0242, P-0243, P-0247, P-0253, P-0254, P-0255, P-0275
 och P-0287 i [source-coverage.md](../source-coverage.md).
+
+## Rättelse 2026-09-07 — T-0113, P-0254 och P-0255
+
+Kataloghänvisningarna till bouppteckningsvolymerna tillgodoräknas. De
+belägger inte att en personlig bouppteckning återfunnits. Frånvaro av
+bildlänk i detta prov avgränsar den prövade åtkomsten, inte alla möjliga
+register/kopior. Torpartiteln och frånvaron av en särskild trigger räcker
+inte för att utesluta ekonomiskt, socialt eller yrkesanknutet material.
+Matrisens T/J/O för dessa två omprövas till öppna individuella vägar.
+Tidigare prov och disposition bevaras ovan; ingen ny katalogsökning är gjord.
+
+## Personbunden räckviddsrättelse2026-09-07, T-0124
+
+Carlmans samfunds-/skolbildningsfält i C-0899 är inte fullutvunna,
+och hans inflyttningsår är1909, inte1929. En nolla på efternamnet
+Carlman i aktiebolagsregistret1901–1935 bevisar inte företagsformen
+enskildfirma: företag kan ha andra namn. Ingen handelsregisterakt
+för hans egen rörelse har lokaliserats i detta prov.
+Lantbrukare/handlande och hushållstäckning utesluter inte egna
+ekonomiska eller civila frågor för Johan/Elin.
+
+För Gertrud/Erik står boupptecknings- och mantalskatalogproven
+kvar med exakt angivet omfång; titel bevisar inte att en personlig
+bouppteckning finns. Sköns digitala register1740–1912 är oprövat.
+Änkans minderåriga barn1910 och senare erkända barn1915 är konkreta
+sociala omständigheter; tidigare påståendet att inga sådana finns
+kan inte avgränsa personernas sociala tema.
+
+Eriks militära nummer204/166/81 har ingen egen exakt rull-/
+stamkortsvolym i denna citation. Jämförelsen med C-0924 är inte
+en personbunden verifierad Läsesal-spärr. Johannes boupptecknings-
+routing måste prövas mot kyrkobokföringen i Örebro; Stockholms
+bestånd är inte automatiskt rätt bara för att döden inträffade där.
+F.d.slaktare utesluter inte yrkes-/föreningsarkiv.
+
+Den äldre slutsatsen att varje disposition är styrkt är upphävd
+för dessa övergenerella delar. Bevarade katalogfynd tillgodoräknas
+och nya passager kräver avgränsade Wotan-uppgifter efter programmet.

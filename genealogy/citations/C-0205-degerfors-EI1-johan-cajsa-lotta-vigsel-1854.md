@@ -41,3 +41,12 @@ tid och plats för det första äktenskapet.
 ## Stödda påståenden
 
 A-0259, A-0262, A-1415–A-1416 och A-1427.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Hela egen post 5 med underordnade namn- och högerspaltsfält har prövats. Brudgummen är `Drängen Enkl. Johan Pehrsson ifr Kryckeltjern`, uppgiven född **9/3 1824**, inte den äldre avskriftens 19/3. Den tidigare utelämnade raden anger **`Inhysn. Pehr Ersson […] son ibm`**. Detta namnger hans far; det identifierar inte automatiskt denne med kandidatpersonen P-0146 och namnger ingen mor.
+
+Bruden är `Pig. Cajsa Lotta Jonsdr af Rödå`, uppgiven född **20/10 1825**. Undertexten anger **`afl. Bond. Jöns Jonssons […] Dott. af Hissjön[?] af Umeå[?]`**. Far, avlidenbeteckning och dotterrelation är urskiljbara; ortled och småord reserveras. De får jämföras med en egen födelsekandidat utan att kandidaten automatiskt blir samma person.
+
+Lysningsdatum är 5/7. Vigselkolumnens överlagrade sista dagsiffra läses **24[6?]/7**; C-0207 har också 24/7 med överlagrad alternativ form. Den äldre exakta samstämmighetsformuleringen är för stark. Högeranteckningen läses `Giftomanna betyg inlämnadt[?]`; ett avgiftsliknande råtal 12[…] bevaras utan säker enhet. De övriga egna smala fälten är tomma. Datumfälten innehåller födelsetider, inte två nya åldersuppgifter. Vigselbokens församling bestämmer inte ensam en geografisk vigselplats.

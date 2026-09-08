@@ -41,3 +41,9 @@ Olof som föddes 1844.
 ## Stödda påståenden
 
 A-2178–A-2179.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Hela båda positiva dödposterna är prövade. Anna Helena: död **10 november 1841**, begravningskolumnen **28[?] november**; den senare dagen förblir läsreservation. Texten anger bonden Anders Dahlstens dotter Anna Helena i Säter, ålder **1 år 4 månader 20 dagar**. Ingen dödsorsak är utskriven på den egna raden. Åldern får inte omvandlas till en säker födelsedag; hushållsdatumet 22 juni i äldre tolkning är också omprövat till 20 juni[?] i C-0436.
+
+Anders Olof: död **18 januari 1843**, begravd **29 januari**, **26 dagar**; `B. Anders Dahlstens i Säter son Anders Olof`. Ingen dödsorsak är utskriven. Säter är angiven hemvist; egen dödsplats preciseras inte separat. Posten skiljer honom från brodern född 1844. Inga dopvittnen finns i dessa dödposter; äldre profiler som räknade dem som dopnotiser är fel.

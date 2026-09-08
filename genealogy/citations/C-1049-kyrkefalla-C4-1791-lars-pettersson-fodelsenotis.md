@@ -66,3 +66,12 @@ uteslutas — och används inte som söknyckel förrän det lästs om.
 ## Stödda påståenden
 
 A-3902–A-3906.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+Samma rusthållartitel hos far och son är social överensstämmelse,
+inte belägg för faktiskt stånds- eller gårdsarv. Familjeidentifieringens
+datum/namn/församlingsstöd består med detta förbehåll. Fadderlistan är
+uttryckligen ofullständig; full målpost och osäkert gårdsnamn prövas i
+T-0108 före vidare föräldraforskning. Osäker ort kan användas som
+alternativa sökformer, men ingen form får behandlas som fastställd.

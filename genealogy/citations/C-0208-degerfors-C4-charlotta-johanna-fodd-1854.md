@@ -38,3 +38,10 @@ framför hennes namn har inte expanderats.
 ## Stödda påståenden
 
 A-1422–A-1423 och A-1428.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Hela egen post på högersidan har prövats. Barnnamnet är Charlotta Johanna. Datumkolumnerna läses **2[4?]/7** respektive **3[9?]/7**; de osäkra sifferformerna får inte avgöras genom att välja en kalenderordning. C-0207:s hushåll anger 2/7, medan C-0051 har 4/7. Föräldrarna är änklingen Johan Pehrsson och `dess fästm.[?] Cathar. Charl. Jonsd:r`, modern 28 år. Den förut utelämnade relationsbeteckningen reserveras språkligt; hon kallas inte säkert hustru här. Kryckeltjern är postens ort och dopförrättaren skrivs med initialer A.A.H.[?]. Någon separat kyrktagningsdag eller dödsuppgift finns inte i egen post.
+
+Det fulla dopnätverket omfattar åtta personer: handlanden A.Ström med namnlös hustru i Rosinedal[?]; bonden Johan Gustafsson med namnlös hustru i Degerfors; bondsonen Jacob Johansson[?] med namnlös hustru ibm[?]; drängen Johan Olofsson i Rödå; pigan Brita Gretha Pehrsdotter i Djäkneb[?]. De svaga ort- och namnleden har prövats av två läsare och kvarstår reserverade, utan automatisk släktkoppling. Tidigare not att vittneskolumnen inte hade lästs är därmed ersatt.

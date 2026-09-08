@@ -65,3 +65,14 @@ A-0621–A-0623.
 > och att sök-API:et saknar bildlänk även för dem. Slutsatsen "inte
 > digitaliserad" är därför inte belagd; det som är belagt är att volymen inte
 > är fjärråtkomlig. Se `genealogy/method-riksarkivet.md`.
+
+## Samlad rättelse 2026-09-07 — T-0121
+
+API-resultatet2026-08-20 är historisk åtkomstobservation, inte ett allmänt
+besked om digitalisering eller omöjligt föräldraskap. C-0420 dokumenterar
+läst Värsås E/1; C-0820 läst A I/7 och kontrollerad A I/8; C-0841 läst
+C/2 för1810. C-0820 korroborerar dessutom P-0020:s föräldrar trots att
+hans egen1850post inte är redovisad som läst. Den kvarstående uppgiften
+om H0003:s saknade bildlänk är begränsad till de dokumenterade
+katalogkontrollerna och är ingen slutsats om alla alternativa kopior.
+C-0990 har senare gett parets vigsel1885-06-19 i Mofalla.

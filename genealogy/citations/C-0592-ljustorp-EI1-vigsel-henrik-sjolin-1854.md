@@ -34,3 +34,24 @@ metodhistorik. Sida 18-originalet ska inte längre beskrivas som den fulla
 
 A-2047, A-2050 och A-2534.
 
+
+## Hela vigselraden — T-0130, 2026-09-08
+
+Lokalt fulloriginal sida17, post8, har prövats med förstoring över båda
+sidorna. Lysningens första och tredje dagar anges25 juni respektive
+9 juli; den mellanliggande söndagen2 juli är en kalenderhärledning,
+inte en särskilt inskriven dag i den tvåkolumniga avskriften. Vigseln
+anges16 juli1854. Drängen Henrik Henriksson i Lagfors och pigan
+Margaretha Charlotta Sjölin där har egen åldersuppgift **23 respektive28**.
+Äldre cirka29 för bruden rättas till28; brudgummens23 skiljs från
+beräknad ålder utifrån hans hushållsdatum1829-08-10.
+
+Bifallsfältet läses **Förmyndaren, Lars Persson i Löfberg, lemn. muntl.
+bifall** med namnformen som råavskrift. Tidigare ortnormalisering till
+Lagfors gäller inte detta fält. Förmyndaren görs inte automatiskt till
+fosterfadern Nils Larsson. Brudparets särskilda giftesnummerfält är tomma;
+frånvaron är inte ett separat bevis för första giftet. Beställningens
+kolumner har inga egna belopp utöver **12** i vigselrättsfältet. Valutan
+normaliseras inte utan formulärförklaring. Förrättarens namn läses
+**Erik Bergman[?]**; stavningen reserveras. Den extra högermarginalens
+anteckningar på senare poster tillhör inte paret.

@@ -163,3 +163,7 @@ De 24 ursprungligen lästa bildoriginalen, deras dimensioner och
 individuella checksummor redovisas i [C-0718](../citations/C-0718-grillfamiljen-1841-1845-lysning-militar.md).
 Det rättande maxoriginalet och den förlängda källkedjan redovisas i
 [C-0763](../citations/C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md).
+
+## T-0139: avstämning och proveniensgräns
+
+Parets lysningsnot 16 april 1843[?] och sonraden Anders Fredric 1844 har fullprövats. Lysning är inte vigsel; den dödmarkerade sonens exakta datum är reserverade. Se [C-0718](../citations/C-0718-grillfamiljen-1841-1845-lysning-militar.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.

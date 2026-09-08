@@ -106,3 +106,13 @@ Detta hör till [P-0021](../people/P-0021-augusta-viktoria-johansson.md):s
 ## Stödda påståenden
 
 A-3741, A-3742, A-3743.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+C-1007 visar det maskinskrivna ortregistret på bilder10–12 och den
+positiva Åreboletsidan283. Äldre uppgift här om saknat ortregister och
+krav på bläddring är upphävd. Familjekopplingen har därefter fastställts.
+De sex jämförelsepunkterna är samverkande stöd, inte sex oberoende
+källor. Påståendet att en präst faktiskt räknade dödboksåldern ur en
+bestämd hushållsbok är en möjlig beroendeförklaring, inte dokumenterad
+överföringshistoria; senare datum får därför inte räknas som oberoende.

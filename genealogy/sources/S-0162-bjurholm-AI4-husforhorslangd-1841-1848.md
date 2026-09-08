@@ -19,3 +19,10 @@ födelseförsamling och flyttanteckningar sammanfaller med den reciproka
 flyttkedjan. Födelseuppgiften är ändå en överförd hushållsuppgift och löser
 inte i sig Degerfors födelseboks konflikt mellan 9 och 19 mars.
 
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Två Johan Pehrsson står på s 63: övre 1814-01-10 tillUmeå 48, nedre 1821[?]13/9[?] tillWännäs 48. Ingen säker 1824-03-19. Gamla exakta identitetsbryggan till P-0058 är avvisad; alla originalkopior bevaras.
+
+Se [C-0212](../citations/C-0212-johan-pehrsson-degerfors-bjurholm-1847-1848.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

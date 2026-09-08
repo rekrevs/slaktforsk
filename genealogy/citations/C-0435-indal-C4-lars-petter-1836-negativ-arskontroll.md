@@ -43,3 +43,22 @@ ska användas för personpåståendena.
 ## Påstående som rättas
 
 A-2171 är `REJECTED`. Positiva uppgifter stöds av C-0509.
+
+## Annan personbunden post i bevarad bild — T-0134, 2026-09-08
+
+Bild 136:s hela högra första rad har nu prövats mot familjen Dahlsten.
+**Lars Johan**, född **3 juli 1836**, döpt **5 juli**, son till
+bonden Anders Dahlsten i Säter och hustrun Stina Cajsa Larsdotter.
+Moderns ålder **29**. Det är inte Lars Petter som C-0509 behandlar.
+Tidigare hushållsdatum 5 juli är dopdagen i denna födelsepost och får
+inte tyst ersätta egen födelsedag; något säkert överföringsförlopp
+mellan böckerna är inte bevisat.
+
+Hela dopvittneslistan: torparen **Carl Eden[?]** i Säter och hans
+hustru; bonden **Lars Bodenborg[?]** i Backen och hans hustru;
+bondson **Johan Olof Carlsson** och pigan **Stina Cajsa Carlsdotter**
+i Säter. Hustrurna är inte namngivna och inga släktrelationer skapas
+ur vittnesrollen. Namnreservationerna är prövade råtecken.
+Egen post har ingen ytterligare hälso-, döds-, kyrktagnings- eller
+marginalnot; inga sådana uppgifter konstrueras. Fulloriginalet och
+hashen ovan stämmer och täcker hela relevanta raden.

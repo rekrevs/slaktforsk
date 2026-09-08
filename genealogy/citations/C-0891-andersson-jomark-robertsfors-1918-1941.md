@@ -71,3 +71,15 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3351 (P-0002), A-3355 (P-0048), A-3356 (P-0049).
+
+### Rättelse 2026-09-07, T-0117
+
+Båda sparade originalbilderna omlästa. Giftkolumnen läser04³/₅,
+1904-05-03, inte äldre5mars. Sidrubrikens¹/₈ och hushållsradens¹/₁₆
+mantal är inte belägg för en kronologisk förändring av hans ägande.
+Bokens hänvisningar G.B.1130/N.B.750 och G.B.658/N.B.703,42 består.
+
+Den tidigare uppgiften att A II/5c saknade digital bild är upphävd av
+C-0920:s positiva original. Paret lämnade Robertsfors1946; dödsfallen
+står i Burträsk, C-0969/C-0970. Familjens boendekedja1918–1948 är följd,
+men denna citation visar inte hela deras tidigare ungdomstid.

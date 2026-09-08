@@ -39,3 +39,15 @@ beställning eller läsesal för de namngivna Riksarkivet-volymerna.
 ## Stött påstående
 
 A-1444.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+T-0142 rättar personräckvidden: Bjurholm 1847 och Vännäs 1848 är historiskt undersökta kandidatorter sedan C-0212:s identitetsbrygga avvisats. De fyra katalogfynden och FamilySearchs inloggningshinder kvarstår som åtkomstobservationer, men inga längder är personlästa och ingen beställning är beslutad här. Tidigare katalog-/svarskopior har en avgränsad proveniensrest i T-0337; det är inte en skuld för aldrig öppnade hela mantalsvolymer.
+
+
+## Metadatarevision — T-0142, 2026-09-08
+
+De fyra volymfyndens innehåll är återfunnet i den redan bevarade [OAI-EAD-förteckningen för Umeå fögderi](../media/S-0542-riksarkivet-umea-fogderi-oai-ead.xml). Under volymhierarkin anges `unitid` 10, 56, 153 och 254, med år 1831–1856, 1846–1855, 1883–1887 och 1835–1850. Respektive anmärkning namnger Bjurholm, Degerfors, Sävar och Vännäs. Hela referenssträngen behöver inte vara upprepad i varje XML-barn. SHA-256 är `012c0cebf16bb81050002e793650afd30a0e58f28263bcd4fe548fe417c0d31e` och överensstämmer med S-0542.
+
+Kataloginnehållets kopieskuld för de fyra posterna är därmed stängd; ingen ny hämtning behövs för att återfinna deras socken och år. Den äldre gränssnittsobservationen `Läsesal` och avsaknad av `Bild` återges inte av just dessa OAI-fält. Den hålls separat som historisk åtkomstproveniens, tillsammans med S-0169:s landskontorsjämförelse och S-0170:s FamilySearch-katalog/inloggningskontroll. Inga lästa filmrader, DGS-nummer eller personposter får skapas ur dessa beskrivningar. Den återstående metadataavstämningen ägs av [T-0337](../../wotan/dev-log/T-0337.md), utan upprepat mantals- eller filmsvep.

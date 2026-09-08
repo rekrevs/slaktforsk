@@ -61,3 +61,10 @@ hushållssida är läst i denna passage, och `A I/21 a`:s eget register är inte
 ## Stödda påståenden
 
 A-4087–A-4089.
+
+
+## T-0137: avstämning 2026-09-08
+
+Ett fullständigt S-registernoll i b-bandet bevisar inte ensamt att Sörgölsstugan måste ligga i a-bandet. Manifestetiketterna identifierar volymer, inte lästa personposter. T-0111 anger redan en sedd men uttryckligen OVERIFIERAD översikt på AI21a s.272 C0007558_00294. Den kopian är inte återfunnen i repo/tmp; fullpostprövningen ligger redan i T-0111B och dupliceras inte i T-0311/T-0312.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

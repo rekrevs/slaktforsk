@@ -63,3 +63,9 @@ husförhörslängden.
 ## Stödda påståenden
 
 A-0684 och A-0700–A-0702.
+
+## Personbunden fullprövning och rättelse — T-0139, 2026-09-08
+
+Det tidigare dokumenterade namnbundna nollresultatet för 1806 och 1809–1811 tillgodoräknas inom angivna bilder. Det utesluter inte en annan namnform, fel senare år eller annan församling och är inte bevis för att Sofia var inflyttad. C-0116:s nya originalprövning rättar hennes vigselålder till 18 år, makens till 22; den äldre konflikten omkring 1806 mot 1810 är därmed upphävd som avskriftsfel. Den redan utförda 1806 kontrollen raderas inte, men upprepas inte med den felaktiga åldern som skäl.
+
+Kopieaudit inom lokala media och temporära filer återfann hela 1806 följden 35–40 underC-0844 och hela 1809 följden 54–58 underC-0733. Dessa tillgodoräknas som alias; C-0119:s första bild är identisk med C-0844:s 35. Tio tidigare lästa bilder **A0001455_00059–00068** återfanns inte lokalt. Det tidigare lästa A I/3-byregistret har inte ett preciserat bild-id eller bevarad kopia i denna dokumentation. Det är en proveniensrest, inte skäl till nytt obegränsat by-/födelsesvep. De äldre preliminära ortformerna Granåker/Kråkahässja är ersatta av C-0116:s egen läsning Rödå respektiveGranö[?]. Ingen ny socken väljs utan register-/originalkoppling.

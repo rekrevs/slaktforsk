@@ -56,3 +56,13 @@ enklaste — att Roth var en Mofallabo som kan följas i sockens egna längder �
 ## Stödda påståenden
 
 A-3912, A-3913.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+Utfallet gäller inget Rothnamn i den dokumenterade utflyttningspassagen
+1864–1876. Det är inte bevis för att mannen inte bodde i socknen eller
+aldrig flyttade därifrån. C-1004:s1862–1863 är täckningsmässigt reserverade
+vidT-0118; ”i sin helhet” och ”alla vitalregister” återtas i syntesen.
+1861–1876 är inte sexton år efter födelsen1863. Militär rulla är en
+relevant personkälla men inte den enda möjliga prövningen av faderskapet;
+kyrkliga/rättsliga handlingar kan också vara relevanta.

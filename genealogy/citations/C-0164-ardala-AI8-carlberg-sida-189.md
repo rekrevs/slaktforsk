@@ -43,3 +43,33 @@ uppgifter och ersätter inte originalkontrollerna.
 ## Stödda påståenden
 
 A-0842–A-0848.
+
+
+## Tillägg 2026-09-08 — T-0139, lokal prövning och avgränsning
+
+Den bevarade fullbilden `C0005618_00320` har prövats med hela Lars
+Eriks strukna drängrad och rubriker; SHA-256 ovan stämmer. Hemvisten
+på sidan är Gökstugan under Stäringe. Överstruket namn och födelsefält
+binds till den redan prövade kedjan genom 1819/7 augusti/Bettna samt
+egen in1847/93 och ut1848/173. Han har `v`, tre grafiska kunskapstecken
+och ett förståelsestreck. Egna förhörs-/nattvardsmarkeringar 1847–1848
+är överarbetade; de har prövats men kan inte säkert normaliseras till
+alla enskilda datum. Egen anmärkningscell är tom. Andra drängars årtal,
+flyttorter och den övre noten om en annan person förs inte till honom.
+
+De två tidigare lästa positiva fortsättningarna `C0005618_00375` och
+`C0005618_00392` har inte återfunnits vid lokal fil-, alias- och
+metadatasökning inklusive /private/tmp. Deras gamla familje- och
+flyttavskrifter återbrukas, men egna övriga personkolumner är ännu inte
+fullständigt utvunna. Den bevarade kontrollbilden295 saknar en säker
+egen rad, precis som C-0166 anger. Avsaknad av en läsbar identifiering
+på 93 är inte en ny positiv identitetslänk.
+
+## Tillägg 2026-09-08 — T-0141, Annas egen post och rättelser
+
+För Annas egen fullpostgranskning är den redan positiva familjeposten
+C0005618_00392, sida 189, fortfarande en faktisk kopie- och
+fullfältlucka enligt T-0319. Bild 375 gäller först mågens väg och är
+inte i sig ett oläst eget personfält hos Anna. Familjerelationen och
+den tidigare lästa orten bevaras, men datumavskriften 6/6 kan inte
+räknas som oberoende kontroll mot andra nu rättade hushållsrader.

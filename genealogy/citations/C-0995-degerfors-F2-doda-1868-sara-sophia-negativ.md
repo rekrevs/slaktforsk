@@ -89,3 +89,32 @@ och föräldrahemmets.
 ## Stödda påståenden
 
 A-3698, A-3699.
+
+## Rättelse och bevarandeprövning 2026-09-08 — T-0133
+
+Tidigare observationer ovan bevaras, men följande ersätter deras alltför
+långtgående metod- och ortsslutsatser. Född 1829-05-21 ger vid
+1868-08-14 **39 år, 2 månader och 24 dagar**, inte 38 år och 9 månader.
+Detta är en rättelse av beräkningen, inte byte av målperson eller ett nytt
+dödsbelägg. De tidigare namngivna jämförelserna står kvar som historiska
+observationer; hela åldersurvalet har inte kunnat omläsas här.
+
+Påståendet att ett felskrivet dödsdatum aldrig prövats är fel.
+[C-0555](C-0555-savar-dodbocker-sara-sophia-1868-1870-negativ.md) dokumenterar
+redan läsning av Sävars samtliga förda dödsrader 1868-02-13–1870-07-02
+mot namn, innan den senare exakta hushållsuppgiften tillkom. Det arbetet
+ska tillgodoräknas. Degerforsnollen är en annan geografisk prövning.
+
+Ånäset är belagt föräldrahem och hemvist; vigselpostens ortfält bevisar
+inte födelseort. En tänkbar hemresa är en hypotes, inte en fastställd
+registreringsregel. Nollet anger att tidigare läsning inte fann någon
+säker målpost inom den angivna serien. Det utesluter varken ett faktiskt
+dödsfall i socknen eller en annan registreringsväg. Fortsättningen
+1869–1870 är senare läst enligt [C-0996](C-0996-degerfors-F2-doda-1869-1870-sara-sophia-negativ.md);
+texten ovan om att den ännu är oläst är historik.
+
+Lokala filnamn, alternativa citationsnamn, mediemanifest och tillgänglig
+metadata samt lokala arbetskataloger har genomsökts. Inga fullbilder för
+**F0010298_00032, _00033, _00034, _00035, _00036 eller _00037** har
+återfunnits. Det är sex preciserade kopiebrister. Äldre transkription och
+omfång bevaras, men inget påstående om ny originalomläsning görs.

@@ -24,3 +24,11 @@
     och idrottsföreningsdossierer hos Riksidrottsförbundet. **Inget
     företags- eller personalarkiv finns i NAD.**
 - Åtkomst: fri katalogsökning; ingen bildläsning och ingen lokal kopia.
+
+## Räckvidd omprövad i T-0123, 2026-09-07
+
+Se C-0924:s personbundna rättelse. Här redovisade Västerbottensserier
+bevisar inte Arnes militära/bouppteckningsrouting i Södermanland.
+Scania-nollans omfång är angivna sökningar, inte hela världens
+arkivbestånd. Äldre observationer kvarstår, men slutsatsens räckvidd
+är begränsad.

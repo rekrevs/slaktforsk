@@ -25,3 +25,21 @@ medicinsk tolkning.
 
 A-2293.
 
+
+## Tillägg 2026-09-08 — T-0132, fullpost och rättad institutionsbenämning
+
+Det redan bevarade fulloriginalets post 2 har lästs med samtliga egna
+kolumner. Dödsdag är mars 20 år 1935; manmarkeringen räknas till
+församlingen. Namn- och hemvistfältet lyder `Karlsson, Erik, f. torp.,
+Ålderdomshemmet`, född `51 30/1`. Civilståndsmarkeringen står i den
+gemensamma kategorin `Änkling eller frånskild`, inte i giftkolumnen.
+Församlingsbokshänvisningen är 177. Dödsorsaken skrivs `Marasmus senilis`.
+Dödsattestkolumn 17 har en markering; barnmorskekolumn 18 är tom.
+
+Dödsorten lyder **`Landstingets vårdhem i Katrineholm`**, inte den äldre
+avskriftens `Långtidsvårdhem i Katrineholm`. Institutionsnamnet ger ingen
+uppgift om hur länge Erik hade vårdats där. Begravningsfältet anger mars
+24, och anmärkningen läses `Dödsatt. 20/3 35`, jämförd med nästa posts `Dödsatt. 2/4 35`.
+Inga övriga egna anteckningar finns i postens återstående fält.
+Den historiska dödsorsaken återges utan modern diagnos. Fullbild och
+SHA-256 ovan består; inga nya arkivbilder har hämtats.

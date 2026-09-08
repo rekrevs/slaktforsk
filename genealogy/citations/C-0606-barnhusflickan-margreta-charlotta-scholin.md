@@ -71,3 +71,33 @@ intagningshandlingar på plats i Stockholms stadsarkiv.
 ## Stödda påståenden
 
 A-2558–A-2562 och A-2564–A-2565.
+
+## Personbunden originalavstämning — T-0130, 2026-09-08
+
+Den redan sparade rullan2532 (en sida PDF) är ett läst administrativt
+original. Den anger uttryckligen Fadren före fabriksarbetaren James
+Schölin och Uppfostras af före torparen/bonden Nils Larsson i Löfberg.
+Det är ett positivt fadersuppgiftsbelägg, inte bara en indexträff.
+Modern namnges inte. Faderns senare identifikation bland mantalskandidater
+är en annan fråga och kan inte avgöras av namnlikhet ensam.
+
+Antagen-till-underhåll-fältet anger1831 Juni med **21 ovanför15**.
+Den tidigare avskriften enbart15 juni utelämnade den övre siffran;
+ingen säker innebörd eller överstrykning förutsätts. Födelsedagen
+står13 augusti1825, med ympad. Årligt Underhåll har beloppet **20**;
+valuta står inte i den synliga rubriken och faktisk utbetalning sluts
+inte. Afmönstrade-kolumnens tryckta kvartalsrader har inga egna ifyllda
+uppgifter. Nederst står1839 Aug och upph—, följt av svårläst text.
+Hela denna not är prövad men slutorden reserveras; inget exakt avsluts-
+eller dödsdatum införs från den. N:o90 är bevarad referensnyckel.
+
+Löfbergs egen rad8 i A I/4 sida86 har förhörsmärken inom1832–1840,
+nattvard1839 den16/6 och1/12 samt1840 den22/11[?]. Egna Hvarifrån-
+och Hvarthän-fält är tomma. De grafiska kunskapstecknen får inte
+översättas till viss skolgång utan formulärstöd. Samma namn, datum,
+barnhusroll och fosterort binder posterna, men de fem fälten är inte
+fem oberoende källor; kyrkoboken kan återge barnhusets uppgifter.
+
+S-0473 har redan identifierat E5-seriernas fysiska åtkomst. Ingen ny
+beställning eller kontakt har gjorts. Positiv källrouting är skild från
+läsning av kompletterande intagningshandling.

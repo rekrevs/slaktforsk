@@ -37,3 +37,11 @@ inte tyst normaliseras bort.
 ## Stödda påståenden
 
 A-1866–A-1868, A-1878, A-1881.
+
+## T-0135: fullpostprövning och rättelser 2026-09-08
+
+Hela egna födelseposten prövad: **And. Gustaf**, född14november1823, döpt16november; fadern rumormästaren Pet. Ajax och hustrun Carin Jonsd:r **vid Medevi Brunn**. Moderns ålder **32**. Medevi Brunn anger föräldramiljön; exakt födelsehus fastställs inte separat.
+
+Fadderfältet: `Magn. Måns.[?] och H. i Wagby[?]; Torp. Dr. Nils Ols. och Pig. Carin Pehrsdr vid Medevi Gård`. Hustrun har inget utskrivet eget namn. Namn-/ortreservationerna är faktiskt prövade, inte fält som lämnats oöppnade. Ingen ytterligare egen sjukdoms-, döds-, kyrktagnings- eller förrättarnotis finns här. Moderåldern återges som källa, inte exakt datumbevis.
+
+Förnamnets And.-form skiljer sig fortfarande från Carl i hushållen. Exakt dag, båda föräldrar och miljö bär sammanföringen; någon historisk namnbytesmekanism är inte fastställd. Avgränsat1840-noll i C-0821 är inte motbevis mot denna barnidentitet.

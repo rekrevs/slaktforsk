@@ -86,3 +86,7 @@ först lokaliseras — men den förväntade källan skrivs om.
 ## Stödda påståenden
 
 A-3800–A-3802; rättelse av C-0852.
+
+## T-0136: avstämning 2026-09-08
+
+Det finns inget belägg för att parets hushåll står på sidorna 138 eller 158. C-1022 och C-1029 avvisar den tidigare lokaliseringen; den utgör därför inte en kvarvarande utvinningsskuld för deras ursprungsfält eller ytterligare barn. Den tidigare oavgjorda läsningen på sida 138 är senare behandlad i C-1029. Här förutsätts ingen ny kontroll av främmande hushålls alla personfält för att konsolidera P-0386/P-0387.

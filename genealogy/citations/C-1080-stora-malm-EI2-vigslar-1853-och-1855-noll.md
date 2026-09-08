@@ -79,3 +79,30 @@ gång:
 ## Stödda påståenden
 
 A-4048–A-4050.
+
+
+## T-0137: avgränsad vigselavstämning 2026-09-08
+
+Den redan genomförda kolumnbundna kontrollen tillgodoräknas i P-0132:s
+akt/profil. Med C-1079/C-1080 omfattas tre Stora Malm-år, 1853–1855,
+utöver Bettna 1854–1856 och Mellösa 1855. Detta är sju årsavsnitt, inte
+sju fullständiga personkontroller: här lästes brudgummarnas namnled,
+med ofullständiga namn i tre 1854-poster. Brudarnas namn, åldrar och
+bifallsstycken är inte fullutvunna.
+
+Den äldre slutsatsen att vigseln därför rimligen måste ha skett i annan
+församling eller före 1853 upphävs. Senare hushåll C-1094/C-1095 uppger
+23 eller 24 september 1854; den positiva datumuppgiften prövas genom
+vuxenbakåtbryggan i T-0111. Gemensam uppgiven födelseförsamling är inte
+bevis för vigselort, och ett barns födelsedatum ensamt anger inte när
+föräldrarna måste ha gift sig. Namnlika kontrahenter hålls separata.
+Ingen ny arkivpost är öppnad i denna avstämning.
+
+Den separata kopiegranskningen fann ingen av de elva tidigare öppnade
+C0007593-bilderna 111–121 i repo/media eller /private/tmp efter exaktid,
+alias och metadata. T-0311 äger återbevarandet tillsammans med
+S-0787:s tre saknade äldre årsroutingsbilder 100/129/140. Ingen ny full
+utvinning av samtliga andra brudar krävs bara för detta namnsökningsnoll.
+Den äldre prognosen att en hushållsbok skulle avgöra kandidaten gäller
+endast om en faktiskt personbunden brygga finns; den är inte ett garanterat
+utfall av nästa uppslagning.

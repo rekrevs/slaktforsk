@@ -66,3 +66,15 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3360 (P-0003).
+
+## Avstämd räckvidd 2026-09-07, T-0123
+
+Den äldre tolkningen att målpersonens hushåll måste sökas på
+A II a/5 b638 är upphävd genom C-1047: hänvisningen gäller samma
+A II a/6 b638→563 år1930. Sidetiketternas hopp i de två kontrollerade
+reproduktionerna av5b visar varken säkert fysisk bladförlust, två
+oberoende skanningar eller avsaknad av varje annan reproduktion.
+Ljungbacka1918 är redan läst i C-0910. Hushållskedjan1923–1930 återstår
+med en ny personbunden lokalisering i T-0228. Inkomstenheten900kr står
+fast; något mer exakt inkomstår än utdragets redovisningssammanhang
+fastställs inte här.

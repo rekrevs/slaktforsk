@@ -114,3 +114,16 @@ lästa.
 ## Stödda påståenden
 
 A-3962–A-3968.
+
+
+## Bevisgräns 2026-09-08 — T-0129
+
+De egna markeringarna hennes oä. son och gemensam dotter bevaras, liksom
+avskriftens faktiska rader. Slutsatserna ovan att kyrkan aldrig tillskrev
+Karl Fredrik faderskapet, att exakt samma präst skrev/vigde och att en
+legitimering ovillkorligen måste ha noterats just här är starkare än det
+redovisade underlaget. Den här sidan belägger ingen sådan tillskrivning;
+den bevisar inte ett biologiskt icke-faderskap eller alla andra handlingars
+innehåll. Senare sonmarkering är hushållskontext utan självständig biologisk
+prövning. Ingen säker faderskapskant införs. Upprepade vigseldatum inom
+kyrkobokssystemet räknas inte som fem oberoende vittnesmål.

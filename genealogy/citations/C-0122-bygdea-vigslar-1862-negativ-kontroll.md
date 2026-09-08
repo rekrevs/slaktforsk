@@ -34,3 +34,13 @@ Vigseln måste ha skett i en annan församling om `G 62` avser vigselåret.
 
 A-0370, A-0709.
 
+## Omprövning — T-0131, 2026-09-08
+
+Det bevarade SCB-utdraget och tidigare 22-postkontroll är ett avgränsat
+noll för Bygdeås redovisade vigslar 1862. Formuleringen ovan om att paret
+"måste" ha vigts i annan församling är för stark och används inte längre.
+C-0069:s `G 62` är en osäker äldre läsning; parets exakta vigsel återstår.
+C-0994:s andra reproduktion täcker inte posterna 5–9 i sin redovisade
+passage. Samma originals två reproduktioner är inte oberoende källor.
+Kopiorna A0004528_00333–00336 får en fast provenienskontroll i T-0266;
+SCB-fullbilden ovan är redan bevarad och ska inte hämtas om.

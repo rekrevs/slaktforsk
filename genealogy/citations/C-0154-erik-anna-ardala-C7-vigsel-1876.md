@@ -39,3 +39,21 @@ Jansson i Carlberg.
 ## Stödda påståenden
 
 A-0548, A-0553, A-0821, A-0824 och A-0827.
+
+## Full lysnings- och vigselpost — T-0132, 2026-09-08
+
+Hela uppslaget har prövats. Lysningspost4: torparen CarlssonErik i
+Stafsjön, Forssa, född1851 30/1; pigan Larsd:rAnnaChristina i
+Långviken, född1852 21/3. Lysningsdagarna är **20augusti,27augusti
+och3september1876**. Hennes far torparen L.Er.Jansson i Carlberg
+anges närvarande. Inga ytterligare egna hinder-, avvittrings- eller
+släktskapsanmärkningar finns. Fadersnärvaron belägger inte automatiskt
+någon särskild förmyndarfunktion utöver formulärets sammanhang.
+
+Vigselpost4 på högersidan anger **17september1876**, samma par och
+hänvisning till lysningsnummer4, födelseår1851/1852 och markeringar
+för deras första giften. Inget eget namn på vigselförrättaren,
+annan vigselort eller avgift står på denna målrad. Den påbörjade
+upprepningen `CarlssonErik och Larsd:rAnnaChr.iLångvik` mellan
+post5och6 är överstruken och saknar en egen kvarstående vigseldag;
+den görs inte till en andra vigsel eller oktoberhändelse.

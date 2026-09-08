@@ -39,3 +39,8 @@ faderns hushåll i Brosätter.
 ## Stödda påståenden
 
 A-0434 och A-0577–A-0578.
+
+
+## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
+
+Charlottas hela egen rad23 och familjens rader22–24 är prövade i sparad helbild. Födelse83 14/1, Flen, koppor v, b/N i kunskaps-/nattvardsfält; familjens vigsel02 25/10. In från p345,03 8/5. Egna förhörsår, frejd/anmärkningar, värnplikt, utflyttnings- och dödsfält är tomma. Mannens nr354 44/02 står i värnpliktskolumnen och är inte hennes flyttdestination. Fortsättningen i nya boken beläggs av C-0100:s G.B.p347. Sonen Erik Axel skrivs02 22/6,Flen. Boken förbinder hushåll, men födelse- och vigseluppgifter kan vara avskrifter.

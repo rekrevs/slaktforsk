@@ -69,3 +69,10 @@ familjehushåll överst på sidan är lästa endast som routing.
 ## Stödda påståenden
 
 A-4069–A-4072.
+
+
+## T-0137: avstämning 2026-09-08
+
+Positiv Jernbolplacering i a-bandet ersätter den äldre öppna bandhypotesen. UUID-närheten var ett konkret tekniskt utfall, ingen generell sekventiell arkivgaranti. Namnvarianten Jansdotter ensam är inte uteslutningsbevis; kvinnan född 1823 hålls separat med flera avvikande profilfält.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

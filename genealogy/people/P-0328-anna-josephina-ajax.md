@@ -4,7 +4,9 @@
 
 Dotter i Peter Ajax och Catharina Jonsdotters hushåll vid Medevi Brunn. Hon
 framträder i Västra Ny A I/6 men saknas i den senare registrerade
-A I/8-familjegruppen.
+A I/8-familjegruppen. Hennes egen rad i A I/6 har dödsanteckningen
+`+1829`; frånvaron i nästa bok behöver därför inte förklaras som en flytt.
+[C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md).
 
 ## Påståenden
 
@@ -25,4 +27,22 @@ A I/8-familjegruppen.
 
 ## Forskningsfrågor
 
-- Följ den överstrukna hushållsraden till nästa vistelse.
+- Egen dödspost och exakt dödsdag är ännu inte identifierade. A I/6 anger redan dödsåret 1829; den överstrukna raden ska inte följas som en belagd utflyttning. Se [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md).
+
+## Begränsad följdavstämning — T-0135, 2026-09-08
+
+Detta är en materiell följdrättelse, inte en full individuell konsolidering eller ett nytt kontraktsgodkännande. Profil och full granskning adopteras uttryckligen av [T-0173](../../wotan/dev-log/T-0173.md). Alla äldre A-id:n är bevarade.
+
+### Historik: ersatta formuleringar
+
+Följande tidigare text ersätts av ovanstående källbundna rättelser:
+
+> A I/8-familjegruppen.
+> - Följ den överstrukna hushållsraden till nästa vistelse.
+
+
+## Begränsad följdavstämning — T-0141, 2026-09-08
+
+Vid dopet 1828-09-06 antecknas postmästaren Herr Joh. Gust. Col…[?], Madame A.C. Bucklin, brunnsmästaren Hr A. Bucklin och jungfrun Anna Cajsa Söderholm, alla från Medevi Brunn. Moderns råålder är 36. Vittnens titlar tillhör dem, inte föräldrarna, och bevisar inget släktskap. Medevi Brunn är föräldrarnas hemvist; eget dödsår 1829 kommer från hushållsboken, inte en marginalnot i födelseposten. [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md).
+
+Hela akten lästes inför denna begränsade följd. Alla äldre A-id:n och bedömningar bevaras; detta är inte full individuell konsolidering. Profil och full prövning av de egna fälten, nätverket och båda kontraktsnivåerna adopteras uttryckligen av [T-0173](../../wotan/dev-log/T-0173.md). Inga nya personakter eller assertion-id:n har skapats.

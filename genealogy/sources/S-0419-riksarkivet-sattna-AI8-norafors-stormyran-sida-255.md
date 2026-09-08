@@ -30,3 +30,7 @@ Ingrid Brita. CEDAR:s länkade poster användes för att lokalisera originalsida
 och en 1858–1871-flyttkedja; relationerna har inte accepterats enbart från
 databasen. Födelsedata i längden är överförda uppgifter och ska prövas mot
 samtida födelseböcker.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+C-0530:s tillägg redovisar Jonas egna kunskaps-/kopp-/frejdfält, giftår1842 och prövad svag marginalnot. Ortens rubrik visar inte arbetsgivare.

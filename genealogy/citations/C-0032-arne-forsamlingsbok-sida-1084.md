@@ -37,3 +37,20 @@ C-0422–C-0423 fastställer läsningen `7`.
 ## Stödda påståenden
 
 A-0030, A-0032, A-0151–A-0153, A-0197, A-2146, A-2150 och A-2153.
+
+## Lokal avstämning 2026-09-07 — T-0123
+
+Sidhuvudet anger Tulefors och jämförelsehänvisning1115. År1938 är
+det Arne ensam som förs från sin rad18 till860; morföräldrarna
+har inte den hänvisningen. De står kvar med dödsanteckningarna
+1937 respektive1940. Äldre ”Hushållet hänvisas1938” får därför inte
+tolkas som att alla tre följde med. Arnes rad har22 44/35.
+
+## Egna familjefält — T-0129, 2026-09-08
+
+Karl Fredriks egen rad 16 har C/n, inga egna ytterligare anteckningar
+eller utflyttningsfält och dödsanteckningen 37 29/12. Den lokalt omlästa
+dödboken C-0421 anger däremot 24 december 1937. Båda uppgifterna måste
+redovisas; 29 december får inte framställas som överensstämmande i
+församlingsbok och dödbok. Charlottas änketid börjar därmed i december
+1937, med exakt makedödsdag motstridig.

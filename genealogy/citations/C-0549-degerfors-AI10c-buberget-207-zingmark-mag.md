@@ -36,3 +36,7 @@ Dottern Livia Sofia är P-0030.
 ## Stödda påståenden
 
 A-2416, A-2427.
+
+## T-0129: egenrad och utvinningsgräns 2026-09-08
+
+Fullbilden har återsetts. Bonden Anders Jonssons rad är den första, född 1839 16/4 och gift 67 28/1. Personbundna förhörs-/nattvardsfält och fortsatta smådatum i anmärkningsdelen är ifyllda; fullständig rådatumavskrift av dessa egna fält återstår. Detta är en konkret utvinningsrest, inte bara en ny ännu oläst källserie. Barn och måg har egna rader; deras noter får inte läggas på fadern. Sidans fastighets-/bråknot i vänstermarginalen behöver läsas ihop med egen familjerad innan säkert mantal/ägande sluts.

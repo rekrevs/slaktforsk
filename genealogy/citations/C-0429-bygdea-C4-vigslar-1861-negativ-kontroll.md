@@ -34,3 +34,11 @@ fastställer varken exakt vigselår eller annan vigselförsamling.
 ## Stödda påståenden
 
 A-0370, A-0709 och A-2158.
+
+## Omfångsrättelse — T-0131, 2026-09-08
+
+C-0994 har kompletterat den äldre läsningen med posterna 24–28 på
+C0034040_00338. Året 1861 omfattar därför **28**, inte 23 poster.
+De redan bevarade bilderna 336–337 utgör fortfarande den tidigare
+passagens kopior. Nollträffen för målparet avgränsas till det redovisade
+året; ingen annan vigselort bevisas. Se C-0994:s konsoliderande tillägg.

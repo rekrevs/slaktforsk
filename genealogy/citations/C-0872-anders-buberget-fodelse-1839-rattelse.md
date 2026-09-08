@@ -105,3 +105,50 @@ fullfilen nedan är belägget. Äldre manifest återanvändes för A I/4 och C/3
 | [C-0107-riksarkivet-SE-HLA-1010028-C3-bild-44-negativ-kontroll-1839.jpg](../media/C-0107-riksarkivet-SE-HLA-1010028-C3-bild-44-negativ-kontroll-1839.jpg) | `32078ea79e0839d97fbbe8d5a9bdcdfe5133f512c5695d0c7bd1d1b23bb19ed7` |
 | [S-0566-riksarkivet-degerfors-AI4-A0001434-IIIF-manifest.json](../media/S-0566-riksarkivet-degerfors-AI4-A0001434-IIIF-manifest.json) | `77683f79f1f3012206766a037366699c46bb317dead3c7b7c13ce89d050b1447` |
 | [S-0567-riksarkivet-degerfors-C3-A0001456-IIIF-manifest.json](../media/S-0567-riksarkivet-degerfors-C3-A0001456-IIIF-manifest.json) | `4f1aaffa5cd3634ff1a23c1e53fe46cdc325524659ded20103ad1bb333a319f9` |
+
+## T-0129: dop- och fadderfält prövade lokalt 2026-09-08
+
+Samma bevarade födelsefullbild 44 och en detalj av Anders aprilrad har återsetts. Födelse 16 april och föräldrarna Jon Andersson/Ulrica Lovisa samt Buberget består. Dopkolumnens dag läses försiktigt `22[?]` april; moderns lilla ålderssiffra kan inte säkert avgöras i denna detalj. Fadderfältet är prövat men endast delar går att reserverat återge: `Per Olofsson[?]`, `Nils Ericsson[?]`, `Greta Ulrica[?]`; orter och hela relationsfrasen är inte säkert lästa. Dessa namnfragment identifieras inte med befintliga personer och ingen släktskap sluts av dem. Läsosäkerheten är dokumenterad, inte ett nytt negativt sökresultat eller belägg för att faddrar saknas.
+
+## T-0140: Ulrika Lovisas hela egna rad och sonens födelsepost prövade
+
+2026-09-08 har den bevarade helbilden A0001436_00022 och en lokal
+detalj av de två översta personraderna återsetts. Hustruraden skriver
+`Ulrica Lov. Jons[dr]`, född `1804`, under Jon Andersson i Buberget
+sida 16. Egen dag, månad och födelsesocken anges inte säkert i raden.
+Kopporfältets råtecken läses `a`; kunskapsfältet har ett grafiskt,
+sammanhängande vinkel-/strecktecken. Det återges som råmarkering,
+inte som ett modernt skolbetyg eller en säker vaccinationsdag.
+Gifteåret `1831` står på makens rad; det får inte redovisas som en
+andra oberoende avskrift på hustruns rad. Hennes egna flytt- och
+dödsfält samt anmärkningsfältet längst till höger är tomma.
+
+Hustruns hela följd av års- och sakramentskolumner är prövad mot
+rubrikerna. Förhörstecken och flera dag-/månadstal står i kolumnerna
+1843–1847, däribland flera noteringar samma år. Årsrubriken mellan
+1844 och 1846 är ofullständigt skriven och läses genom kolumnföljden.
+De små, överlappande dagtalen kan inte säkert normaliseras i sin
+helhet. I 1844 års nattvardskolumn urskiljs bland annat `7/7[?]` och
+`24/12[?]`; i 1846 års kolumn ett `22/10[?]`-liknande tal. Dessa är
+prövade råreservationer, inte fastställda persondatum. Förhörstecken
+ska inte sammanblandas med nattvardsdagar. De efterföljande kolumnerna
+utan ifyllda år har enstaka punkt-/streckmarkeringar men inga säkert
+persondaterade händelser. Raden ger inget belägg för egen inflyttningsdag,
+död eller att hon skulle ha varit frånvarande under tomma kolumner.
+
+Anders egen födelsepost har samtidigt återsetts i hela den bevarade
+C/3-bilden A0001456_00044, inklusive rubriker och vittnesfält. Födelse
+16 april 1839, namnet Anders, föräldrarna Jon Andersson och Ulrica
+Lovisa samt boställesuppgiften Buberget består. Dopdagen läses fortsatt
+`22[?]` april. Moderns lilla ålderssiffra kan inte säkert avgöras;
+ingen ålder räknas fram från hennes hushållsår och förs in som avskrift.
+
+T-0129:s vittnesfragment är återprövade och behålls med reservation:
+`Per Olofsson[?]`, ett efterföljande hustruled med osäker fulltext,
+`Dr. Nils Ericsson[?]` och `Greta Ulrica[?]`. De bleka orts-, roll- och
+relationsleden kan inte fullt lösas här. Ingen av personerna förs
+samman med en befintlig akt enbart på namnfragment, och ingen
+släktrelation till modern följer automatiskt av dopvittnesrollen.
+Postens samtliga relevanta fält har därmed prövats; kvarvarande
+läsosäkerhet är inte ett intyg om att uppgifterna saknas i källan.
+De redan länkade helbilderna och deras hashvärden är oförändrade.

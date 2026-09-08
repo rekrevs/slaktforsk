@@ -3,7 +3,7 @@
 ## Identitet
 
 Far till Johan Oscar Zingmark, född 1861 i Botsmark, Sävar. Sonens
-födelsenotis ger bara initialerna J. P.; Sävar A I/8b s. 756 utläser dem
+födelsenotis ger bara initialerna J. P.; Sävar A I/8 b s. 756 utläser dem
 som Johan Peter Zingmark, bonde i Botsmark N:o 7. Hans egen födelsenotis
 och barndomshushållet säkrar nu födelsen 1825-02-01 i Botsmark och
 föräldrarna Carl Jonas Zingmark och Anna Sophia Holmström. Han gifte om sig
@@ -23,10 +23,10 @@ sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
 | A-2444 | Sävar E I/1 verifierar vigseln 1870-07-02 mellan bonden Johan Peter Zingmark i Botsmark, född 1825 och i sitt andra gifte, och pigan Kajsa Greta Nilsdotter, född 1842 och i sitt första gifte. | CORROBORATED | mycket hög | [C-0553](../citations/C-0553-savar-EI1-zingmark-nilsdotter-vigsel-1870.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md) | Samtida vigselbok plus senare hushållslängd. |
 | A-2446 | Han blev änkling 1895-07-02 och flyttade från Botsmark N:o 7 till Degerfors 1898-11-28, attest 14. | TRANSCRIBED | hög | [C-0554](../citations/C-0554-savar-AI9b-zingmark-hushall-1894-1898.md) | Egen dödsdag återstår; Degerfors är den positiva fortsättningen. |
 | A-2454 | Återaktiveringen av Sävar C/1 för födelsen 1825-02-01 stoppades först av `403`/WAF och `ERR_BLOCKED_BY_CLIENT` samt ALTCHA; ett senare URL-kodat API-/JSON-LD-omprov svarade `200` men exponerade ingen bild-URI. Ingen källsida lästes i den historiska körningen. | TRANSCRIBED | hög | [C-0558](../citations/C-0558-savar-C1-johan-peter-zingmark-atkomsthinder.md), [C-0587](../citations/C-0587-savar-C1-AI1-api-atkomst-1823-1830.md), [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Historiskt åtkomsthinder, supersederat 2026-08-30 av trädkopplingen och de lästa originalen i C-0681. |
-| A-2457 | Sävar A I/7b s. 672 följer Johan Peter som bonde med andra hustrun och sju synliga barn i första giftet samt pekar bakåt till gamla bokens sida 603. | CORROBORATED | mycket hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | Sidan är inte ett fullständigt barnregister; originalfödelserna utökar gruppen till tio. |
+| A-2457 | Sävar A I/7 b s. 672 följer Johan Peter som bonde med andra hustrun och sju synliga barn i första giftet samt pekar bakåt till gamla bokens sida 603. | CORROBORATED | mycket hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | Sidan är inte ett fullständigt barnregister; originalfödelserna utökar gruppen till tio. |
 | A-2458 | Födelseboken 1853–1858 namnger Johan Peter/Peter Zingmark som far till Carl Reinhold, Christina Wilhelmina, Maria Elina och Pehr August i Botsmark. | CORROBORATED | mycket hög | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md) | Fyra samtida födelsenotiser och ett sammanhållet hushåll. |
-| A-2465 | Degerfors A I/6b s. 399 samt Sävar A I/5b s. 470 och A I/6b s. 603 anger samstämmigt att Johan Peter och Sara Sophia hade giftårsdagen 1850-11-24; Degerforsraden anger också hennes flytt till Sävar samma dag. | CORROBORATED | hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md), [C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md), [C-0684](../citations/C-0684-savar-lycksele-vigslar-1850-negativ.md) | Datumet är starkt korroborerat som hushållsuppgift. Själva vigselposten och vigselförsamlingen är fortsatt olösta; Sävar- och Lyckseleårens nollresultat står kvar. |
-| A-2472 | Originalfödelser och hushåll säkrar minst tio barn i Johan Peters första gifte; A I/7b:s sju synliga rader var inte hela barnkullen. | CORROBORATED | mycket hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0567](../citations/C-0567-savar-C2-sophia-beata-zingmark-fodd-1851.md) | Tre tidigare osynliga barn — Sophia Beata, Axel och Sara Rebecka — har egna originalposter. |
+| A-2465 | Johan Peter och Sara Sophia vigdes 1850-11-24 i Degerfors. Dagen återkommer i Sävar- och Degerforshushållen; Sara Sophias utflytt till Sävar är bokförd samma dag. | CORROBORATED | hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md), [C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md), [C-0684](../citations/C-0684-savar-lycksele-vigslar-1850-negativ.md), [C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md) | Egen vigselpost är nu funnen. Äldre Sävar-/Lyckselenoll bevaras avgränsade; upprepade hushållsdatum är inte automatiskt oberoende. |
+| A-2472 | Originalfödelser och hushåll säkrar minst tio barn i Johan Peters första gifte; A I/7 b:s sju synliga rader var inte hela barnkullen. | CORROBORATED | mycket hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0567](../citations/C-0567-savar-C2-sophia-beata-zingmark-fodd-1851.md) | Tre tidigare osynliga barn — Sophia Beata, Axel och Sara Rebecka — har egna originalposter. |
 | A-2483 | Degerfors B/3:s fullständiga inflyttningsföljd 1898–1900 saknar en säker Johan Peter Zingmark, trots Sävarlängdens uppgift att han flyttade dit 1898-11-28. | NEGATIVE | hög | [C-0571](../citations/C-0571-degerfors-B3-zingmark-inflyttning-1898-1900.md) | Volymbundet noll; ankomst utan attest, intern väg eller annan ort utesluts inte. |
 | A-2484 | Degerfors F/3:s samtliga dödsrader från 1898-11-28 till och med 1900 saknar en säker Johan Peter Zingmark. | NEGATIVE | hög | [C-0572](../citations/C-0572-degerfors-F3-johan-peter-zingmark-negativ-1898-1900.md) | Tids- och volymbundet noll; ingen överlevnads- eller dödsortsuppgift infereras. |
 | A-2489 | En exakt sökning efter honom i Riksarkivets folkräkning 1900 nådde historiskt ALTCHA före resultatlistan; utmaningen lämnades då orörd. | TRANSCRIBED | hög | [C-0575](../citations/C-0575-riksarkivet-johan-peter-zingmark-folkrakning-altcha.md), [C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md) | Historiskt åtkomsthinder, supersederat 2026-09-01 efter användarens egen verifiering av den positiva posten `Folk_111884376`. |
@@ -41,9 +41,9 @@ sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
 | A-3153 | Umeå fögderis fondförteckning identifierar Sävars mantalsvolymer Vol/150–155 över Johan Peters säkra Botsmarkperiod 1850–1898, med katalogglapp 1873–1882 och 1894. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, ägarpost, närvaro eller frånvaro är läst. |
 
 | A-3156 | Riksarkivets metadatafrågor `Ekträsk sågverk`, `Ekträsk såg` och `Ekträsks sågverk` 1880–1910 gav ingen relevant arbetsgivar- eller sågverksroute. | NEGATIVE | hög | [C-0826](../citations/C-0826-riksarkivet-yrkesrutter-sverker-djup5.md) | Katalogbundet noll; kyrkoböckernas positiva sågverksarbetartitel står kvar och ingen arkivfrånvaro infereras. |
-| A-3659 | Fyra samtida födelsenotiser 1851–1858 sätter en militär beteckning framför faderns namn, tre av dem säkert lästa som `Sold.`; från 1864 skriver samma serie `landbonden` och husförhörslängderna `Bonde`. Husförhörslängden A I/5b s. 470 har ingen ifylld ståndsuppgift och dess hushållsrubrik är överstruken och oläsbar. | TRANSCRIBED | hög | [C-0983](../citations/C-0983-johan-peter-zingmark-soldatbeteckning-1853-1858.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md) | Beteckningsföljd, inte tjänstebelägg. Förband, kompani, rote och soldatnummer är okända och får inte infereras; soldatnamnet Zingmark bars redan av fadern. |
-| A-3701 | Vigseln 1850-11-24 är belagd i **Degerfors E I/1**, post 19 av 1850, efter lysning 7 november; han skrivs `Landbonden Joh. Pett. Zingmark` från **Botsmark**, född `¹/₂ 1825`. | CORROBORATED | mycket hög | [C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md) | **Första samtida vigselposten**; datumet stod hittills bara i hushållsböcker. Vigseln förrättades av C. J. Hammargren. Födelseuppgiften är förenlig med det belagda 1825-02-01. |
-| A-3702 | Vigselposten namnger hans far som `Landb. [Enkl.] Carl Jonas Zingmark` i Botsmark och bär anmärkningen `Till Nykyrkan 1853.` | TRANSCRIBED | hög | [C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md), [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Faderskapet överensstämmer med hans egen födelsenotis. Anteckningen om Nykyrkan är **oförklarad** och tolkas inte. |
+| A-3659 | Tre födelseposter 1853, 1854 och 1858 anger Sold. framför faderns namn. År 1856 prövas B:d[?], inte säker militär förkortning;1851 är svårläst. Egen vigsel1850 anger landbonde och1864 års post f. Landb.; senare hushåll skriver Bonde. | TRANSCRIBED | hög | [C-0983](../citations/C-0983-johan-peter-zingmark-soldatbeteckning-1853-1858.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md) | Skilda daterade råtitlar, inte ett fastställt tjänsteförlopp eller en linjär social förändring. Rote, kompani och nummer förblir okända. |
+| A-3701 | Vigseln 1850-11-24 är belagd i Degerfors E I/1, post 19, med lysningsdag 3/11[?]. Brudgummen skrivs Landbonden Joh. Pett. Zingmark från Botsmark, född1/2 1825. | CORROBORATED | mycket hög | [C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md) | Vigseln förrättad av C. J. Hammargren. Äldre säker 7 november återtas; födelsetalet kan vara överfört och är inte ytterligare oberoende primärbevis. |
+| A-3702 | Vigselposten anger att brudgummen är son till landbonden Carl Jonas Zingmark i Botsmark och har en not Till Nykyrkan följd av svårtolkade tecken. | TRANSCRIBED | hög | [C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md), [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Fadern namnges, men egen änklingsstatus är inte säkert läst. Årtalet 1853 efter Nykyrkan är inte bekräftat. Not om Betyg å Afvittring från 2…Oct. finns; den visar ingen här läst avvittringsakt eller säkert tidigare äktenskap. |
 
 ## Relationer
 
@@ -76,12 +76,12 @@ sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
 |---|---|---|---|---|---|
 | 1825-02-01 | Född; döpt 1825-02-15 | Botsmark, Sävar | — | Carl Jonas Zingmark och Anna Sophia Holmström | C-0681 |
 | 1825– | Barndomshushåll A I/1 s. 157 | Botsmark | son | föräldrarna | C-0681 |
-| 1850-11-24 | Giftårsdag med Sara Sophia Pehrsdotter; hon flyttar från Ånäset till Sävar samma dag | Sävar | — | — | C-0563, C-0685, C-0727 |
-| 1851–1868 | Tio barn födda i första giftet | Botsmark N:o 7 | bonde | hustru och barn | C-0561, C-0562, C-0564, C-0565, C-0567 |
-| 1850–1870 | Husförhållslängderna A I/5b s. 470 och A I/6b s. 603 | Botsmark N:o 7 | bonde | hustru och barn | C-0685, C-0563 |
+| 1850-11-24 | Vigsel med Sara Sophia; hennes utflytt till Sävar bokförd samma dag | Degerfors; hemvister Botsmark och Ånäset | landbonde | Båda fäderna namnges i vigselposten | C-0997, C-0727 |
+| 1851–1868 | Minst tio kända barn i första giftet | Botsmark | växlande råtitlar; Sold. i tre poster,1856 B:d[?] | hustru och barn | C-0561, C-0562, C-0564, C-0565, C-0567 |
+| 1855–1874 | Husförhörslängderna A I/5 b s. 470 och A I/6 b s. 603; äldre 455 ännu oläst | Botsmark N:o 7 | bonde | hustru och barn | C-0685, C-0563 |
 | 1870-07-02 | Omgifte med Kajsa Greta Nilsdotter, född 1842-09-26 | Sävar | bonde, i andra giftet | — | C-0553 |
 | 1871–1887 | Sex barn i andra giftet | Botsmark N:o 7 | bonde | hustru och barn | C-0552 |
-| 1870–1898 | A I/7b s. 672, A I/8b s. 756 och A I/9b | Botsmark N:o 7 | bonde | hustru och barn | C-0561, C-0552, C-0554 |
+| 1870–1898 | A I/7 b s. 672, A I/8 b s. 756 och A I/9 b | Botsmark N:o 7 | bonde | hustru och barn | C-0561, C-0552, C-0554 |
 | 1895-07-02 | Blev änkling | Botsmark N:o 7 | bonde | barnen | C-0554, C-0585 |
 | 1898-11-28 | Utflyttad till Degerfors, attest 14 | Sävar → Degerfors | — | — | C-0554 |
 | 1900 | Folkräkning; `svärfar` hos dottern Maria Elina och Erik August Lindberg | Ekträsk, Degerfors | änkling | dotterns familj med åtta barn | C-0751 |
@@ -94,17 +94,24 @@ Johan Petter Zingmark föddes 1825-02-01 i Botsmark i Sävar som son till
 bonden Carl Jonas Zingmark och Anna Sophia Holmström och döptes den 15
 februari; både födelsenotisen och barndomshushållet namnger föräldrarna
 (C-0681). Han övertog eller tillträdde **Botsmark N:o 7** och står som
-**bonde** där genom fyra husförhörslängder i följd, från s. 470 på
-1850-talet till s. 756 på 1890-talet (C-0685, C-0563, C-0561, C-0552).
+**bonde** i senare husförhörslängder. På sida 470 saknas en säker egen ståndsbeteckning; hänvisningen 455 återstår att läsa. Egen vigsel 1850 anger landbonde, tre födelseposter 1853/1854/1858 Sold. och 1856 B:d[?]. Titelföljden fastställer inte ett militärt tjänsteförlopp eller ett jordförvärv (C-0997, C-0562, C-0983, C-0685, C-0563, C-0561, C-0552).
 
-Hans giftårsdag med **Sara Sophia Pehrsdotter** anges samstämmigt till
-**1850-11-24** i tre skilda hushållslängder, och Degerfors A I/6b s. 399
-visar att hon flyttade från Ånäset till Sävar samma dag (C-0727). Själva
-vigselposten är däremot inte funnen: varken Sävars eller Lyckseles
-vigselböcker för året har den (C-0684). I det äktenskapet föddes **tio
-barn** mellan 1851 och 1868, tre av dem tvillingpar. Efter Sara Sophias död
-gifte han om sig **1870-07-02** med pigan Kajsa Greta Nilsdotter, född 1842
-i Umeå landsförsamling, och fick sex barn till (C-0553, C-0552).
+Han vigdes med **Sara Sophia Pehrsdotter den 24 november 1850 i Degerfors**.
+Vigselposten namnger honom som son till landbonden Carl Jonas Zingmark
+och bruden som dotter till Pett. R. Pehrsson och Beata Jonsdotter från
+Ånäset. Lysningsdagen 3/11[?] är reserverad; faderns änklingsstatus och
+året efter noten Till Nykyrkan är inte säkert lästa (C-0997). De tidigare
+nollen i Sävar och Lycksele kvarstår inom sina egna kontroller men själva
+vigselfrågan är löst. Minst tio barn är kända från äktenskapet, inklusive
+de två tvillingparen 1864 och 1868. Sara Rebecka dog enligt sin födelsepost
+efter undfånget nöddop, utan egen exakt dödsdag där (C-0564).
+
+Sara Sophias födelseort i A I/6 b är **Degerfors**, inte den tidigare
+felläsningen Lycksele. Hans far Carl Jonas är inskjuten i samma hushåll;
+faderns rådatum och från 582-hänvisning tillhör den äldre mannens rad,
+inte Johan Peters (C-0563). Efter Sara Sophias död gifte Johan Peter om
+sig 1870-07-02 med Kajsa Greta Nilsdotter och sex barn är kända i andra
+giftet (C-0553, C-0552).
 
 Han blev änkling en andra gång **1895-07-02** och lämnade Botsmark
 **1898-11-28** för Degerfors. Folkräkningen 1900 finner honom i **Ekträsk**
@@ -125,14 +132,11 @@ Lindberg och åtta barn bodde (C-0751). Församlingsboken kallar honom där
   A I/1 s. 157. C-0681 har löst den tidigare metadata→bild-spärren och
   säkrar relationerna i både födelsebok och hushåll; de äldre
   åtkomstposterna C-0558/C-0587 är endast historik.
-  Därtill återstår första vigselns egen post och församling. Tre
-  hushållslängder säkrar datumet 1850-11-24, och Degerfors A I/6b s. 399
-  binder Sara Sophia från Ånäset till Sävar samma dag (C-0727). Sävar- och
-  Lyckseleårens nollresultat står kvar men motsäger inte äktenskapet.
+  Första vigselns egen post är nu funnen i Degerfors (C-0997). Äldre familjebrygga via sida 455 återstår (C-0685); full egen konsolidering ägs av T-0161. Sävar-/Lyckselenoll är avgränsade historiska resultat.
   Upprepa inte Degerfors B/3 eller F/3 1898–1900: båda fulla intervallen är
   negativa (C-0571–C-0572). Livsslutet är nu löst i F/3 1903 och A II a/2
   s. 601; upprepa inte målsidorna (C-0584–C-0585). Zingmark-familjerna i
-  Degerfors A I/10b s. 163 och 171
+  Degerfors A I/10 b s. 163 och 171
   ger nu en positiv fortsättning för Maria Elina 1856; Johanna Paulina 1864
   och Per Alexander 1866 hålls fortfarande isär utan föräldraantagande.
 
@@ -150,8 +154,170 @@ Lindberg och åtta barn bodde (C-0751). Församlingsboken kallar honom där
   analog route över Botsmarkperioden 1850–1898, med katalogglapp 1873–1882
   och 1894. Ingen personförd rad eller ägarpost har lästs (C-0825;
   research-log Batch 248).
-- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-239--t-0026-konsolidering-av-p-0133p-0423)
+- Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-239--t-0026-konsolidering-av-p-0133 p-0423)
 - Källbredd 2026-09-04: bouppteckning `N`, avgränsat till Johan Peter
   Zingmark/Zingmark, Degerfors och 1903–1904 mot en positiv namnblank
   täckningskontroll. Det är inte ett akt- eller personnoll (C-0823;
   research-log Batch 245).
+
+## Begränsad följdavstämning T-0133 — historik
+
+2026-09-08: endast aktuella följdfel om första vigseln, råtitlar, Saras födelseort och faderns hushållsrad rättade. Ingen full kontraktsomprövning eller formatadoption; T-0161 äger helgranskningen. Alla äldre A-id och tidigare text bevaras nedan som historik.
+
+> # P-0422: Johan Peter Zingmark, bonde i Botsmark
+>
+> ## Identitet
+>
+> Far till Johan Oscar Zingmark, född 1861 i Botsmark, Sävar. Sonens
+> födelsenotis ger bara initialerna J. P.; Sävar A I/8b s. 756 utläser dem
+> som Johan Peter Zingmark, bonde i Botsmark N:o 7. Hans egen födelsenotis
+> och barndomshushållet säkrar nu födelsen 1825-02-01 i Botsmark och
+> föräldrarna Carl Jonas Zingmark och Anna Sophia Holmström. Han gifte om sig
+> 1870 med Kajsa Greta Nilsdotter, slutade livet som före detta
+> sågverksarbetare i Ekträsk och dog där 1903-07-24. Direkt ana på Adams djup
+> 4 sedan felidentifieringen av P-0028 rättades 2026-08-29.
+>
+> ## Påståenden
+>
+> | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
+> |---|---|---|---|---|---|
+> | A-2418 | `Landtbond. J. P. Zingmark` i Botsmark var far till Johan Oscar, född 1861-05-28. | TRANSCRIBED | hög | [C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md) | Samtida födelsenotis; husförhörsfolio `p. 455`. |
+> | A-2419 | Sonen kallas `Bondeson` vid utflyttningen 1880, vilket stöder att fadern var bonde/landbonde i Botsmark ännu 1880 (folio 672). | CORROBORATED | hög | [C-0547](../citations/C-0547-savar-B3-1880-johan-oskar-zingmark-till-degerfors.md), [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md) | Flyttnotisens folio är nu läst och visar fadern som `Bonde`; nästa bakåthänvisning är gamla bokens sida 603. |
+>
+> | A-2430 | Johan Peter Zingmark, bonde i Botsmark N:o 7, föddes 1825-02-01 i Sävar och står 1884–1893 med hänvisning från gamla bokens folio 672 — samma folio som sonen Johan Oskars utflyttning 1880. | CORROBORATED | mycket hög | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0547](../citations/C-0547-savar-B3-1880-johan-oskar-zingmark-till-degerfors.md), [C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md), [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Folio 672 binder hushållet till sonen oberoende av namnet; den egna födelsenotisen är nu läst i C-0681. |
+> | A-2431 | Han gifte om sig 1870-07-02 med Kajsa Greta Nilsdotter, född 1842-09-26 i Umeå landsförsamling. Tio barn är nu belagda i första giftet: Sophia Beata 1851, Carl Reinhold 1853, Christina Wilhelmina 1854, Maria Elina 1856, Per August 1858, Johan Oscar 1861, tvillingarna Axel och Anders Wilhelm 1864 samt tvillingarna Sara Rebecka och Ester Amalia 1868. `Begges barn` omfattar Anna Margreta 1871, Nikanor 1872, Emanuel 1874, Jonas Eugen 1876, Olof Konrad 1878 och Nanny Olivia 1887. | CORROBORATED | mycket hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0567](../citations/C-0567-savar-C2-sophia-beata-zingmark-fodd-1851.md) | Hushållslängder och egna födelsenotiser; den tidigare sjubarnsbilden var ofullständig. |
+> | A-2444 | Sävar E I/1 verifierar vigseln 1870-07-02 mellan bonden Johan Peter Zingmark i Botsmark, född 1825 och i sitt andra gifte, och pigan Kajsa Greta Nilsdotter, född 1842 och i sitt första gifte. | CORROBORATED | mycket hög | [C-0553](../citations/C-0553-savar-EI1-zingmark-nilsdotter-vigsel-1870.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md) | Samtida vigselbok plus senare hushållslängd. |
+> | A-2446 | Han blev änkling 1895-07-02 och flyttade från Botsmark N:o 7 till Degerfors 1898-11-28, attest 14. | TRANSCRIBED | hög | [C-0554](../citations/C-0554-savar-AI9b-zingmark-hushall-1894-1898.md) | Egen dödsdag återstår; Degerfors är den positiva fortsättningen. |
+> | A-2454 | Återaktiveringen av Sävar C/1 för födelsen 1825-02-01 stoppades först av `403`/WAF och `ERR_BLOCKED_BY_CLIENT` samt ALTCHA; ett senare URL-kodat API-/JSON-LD-omprov svarade `200` men exponerade ingen bild-URI. Ingen källsida lästes i den historiska körningen. | TRANSCRIBED | hög | [C-0558](../citations/C-0558-savar-C1-johan-peter-zingmark-atkomsthinder.md), [C-0587](../citations/C-0587-savar-C1-AI1-api-atkomst-1823-1830.md), [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Historiskt åtkomsthinder, supersederat 2026-08-30 av trädkopplingen och de lästa originalen i C-0681. |
+> | A-2457 | Sävar A I/7b s. 672 följer Johan Peter som bonde med andra hustrun och sju synliga barn i första giftet samt pekar bakåt till gamla bokens sida 603. | CORROBORATED | mycket hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) | Sidan är inte ett fullständigt barnregister; originalfödelserna utökar gruppen till tio. |
+> | A-2458 | Födelseboken 1853–1858 namnger Johan Peter/Peter Zingmark som far till Carl Reinhold, Christina Wilhelmina, Maria Elina och Pehr August i Botsmark. | CORROBORATED | mycket hög | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md) | Fyra samtida födelsenotiser och ett sammanhållet hushåll. |
+> | A-2465 | Degerfors A I/6b s. 399 samt Sävar A I/5b s. 470 och A I/6b s. 603 anger samstämmigt att Johan Peter och Sara Sophia hade giftårsdagen 1850-11-24; Degerforsraden anger också hennes flytt till Sävar samma dag. | CORROBORATED | hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md), [C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md), [C-0684](../citations/C-0684-savar-lycksele-vigslar-1850-negativ.md) | Datumet är starkt korroborerat som hushållsuppgift. Själva vigselposten och vigselförsamlingen är fortsatt olösta; Sävar- och Lyckseleårens nollresultat står kvar. |
+> | A-2472 | Originalfödelser och hushåll säkrar minst tio barn i Johan Peters första gifte; A I/7b:s sju synliga rader var inte hela barnkullen. | CORROBORATED | mycket hög | [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0567](../citations/C-0567-savar-C2-sophia-beata-zingmark-fodd-1851.md) | Tre tidigare osynliga barn — Sophia Beata, Axel och Sara Rebecka — har egna originalposter. |
+> | A-2483 | Degerfors B/3:s fullständiga inflyttningsföljd 1898–1900 saknar en säker Johan Peter Zingmark, trots Sävarlängdens uppgift att han flyttade dit 1898-11-28. | NEGATIVE | hög | [C-0571](../citations/C-0571-degerfors-B3-zingmark-inflyttning-1898-1900.md) | Volymbundet noll; ankomst utan attest, intern väg eller annan ort utesluts inte. |
+> | A-2484 | Degerfors F/3:s samtliga dödsrader från 1898-11-28 till och med 1900 saknar en säker Johan Peter Zingmark. | NEGATIVE | hög | [C-0572](../citations/C-0572-degerfors-F3-johan-peter-zingmark-negativ-1898-1900.md) | Tids- och volymbundet noll; ingen överlevnads- eller dödsortsuppgift infereras. |
+> | A-2489 | En exakt sökning efter honom i Riksarkivets folkräkning 1900 nådde historiskt ALTCHA före resultatlistan; utmaningen lämnades då orörd. | TRANSCRIBED | hög | [C-0575](../citations/C-0575-riksarkivet-johan-peter-zingmark-folkrakning-altcha.md), [C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md) | Historiskt åtkomsthinder, supersederat 2026-09-01 efter användarens egen verifiering av den positiva posten `Folk_111884376`. |
+> | A-2519 | Degerfors F/3 anger att sågverksarbetaren Johan Peter Zingmark i Ekträsk dog 1903-07-24 och begravdes 2 augusti; födelsedatumet är 1825-02-01 och församlingsbokshänvisningen sida 601. | CORROBORATED | mycket hög | [C-0584](../citations/C-0584-degerfors-F3-johan-peter-zingmark-dod-1903.md), [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) | Dödpostens dödsorsaks- och dödsortskolumner är tomma; ingen orsak infereras. |
+> | A-2520 | Degerfors A II a/2 s. 601 följer honom i Ekträsk som före detta sågverksarbetare, född 1825-02-01 i Sävar, änkling sedan 1895-07-02 och död 1903-07-24. | CORROBORATED | mycket hög | [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md), [C-0554](../citations/C-0554-savar-AI9b-zingmark-hushall-1894-1898.md), [C-0584](../citations/C-0584-degerfors-F3-johan-peter-zingmark-dod-1903.md) | Exakt namn, datum, ort och änkedag sluter Sävar–Degerfors-kedjan. |
+> | A-2521 | Två privata släktsidor föreslog Carl Jonas/Carl-Jonas Zingmark och Anna Sophia Holmström som hans föräldrar. | LEAD | låg | [C-0586](../citations/C-0586-sekundara-zingmark-routingledtradar.md), [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Historisk routingledtråd, nu supersederad som bevis av Riksarkivets egna original; den externa konflikten om moderns födelsemånad förs inte vidare. |
+> | A-2522 | Sävar A I/1 1823–1830 och C/1 1823–1837 var API-identifierade och JSON-LD visade bildrepresentation, men båda saknade bild-URI, manifest och reproduktionskod i den historiska körningen. | TRANSCRIBED | hög | [C-0587](../citations/C-0587-savar-C1-AI1-api-atkomst-1823-1830.md), [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Historiskt metadata→bild-hinder, supersederat 2026-08-30 av Arkis-trädkopplingen och de lästa originalen. |
+> | A-2696 | Sävar C/1 s. 91 anger att Johan Petter föddes 1825-02-01 i Botsmark, döptes 15 februari och var son till bonden Carl Jonas Zingmark och Anna Sophia Holmström. | TRANSCRIBED | mycket hög | [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Egen samtida födelse- och dopnotis med båda föräldrarna namngivna. |
+> | A-2697 | Sävar A I/1 s. 157 visar Carl Jon. Zingmark, född 1785, Anna Sophia Holmström, född 1792, och sonen Johan Petter, född `1825 1/2`, i samma Botsmarkshushåll. | CORROBORATED | mycket hög | [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Oberoende hushållsbelägg som bekräftar födelsenotisens barn och föräldrapar. |
+> | A-2927 | Folkräkningen 1900 visar Johan Petter Zingmark i Ekträsk som änkling och `svärfar` i anslutning till dottern Maria Elina Zingmark, hennes make Erik August Lindberg och deras åtta barn. | CORROBORATED | mycket hög | [C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md), [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) | Originalet är delat över sidorna 77–78; personposten anger familj 3, sida 78 rad 6. A II a/2 korsbelägger Ekträsk, änkestatus och livsslut. |
+> | A-3137 | Bouppteckningsregistret gav noll för Johan Peter Zingmark i Ekträsk/Degerfors 1903–1904 och för efternamnet Zingmark utan ort, medan den namnblanka Degerforskontrollen gav 75 poster. | NEGATIVE | hög | [C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md) | Strikt namn-/församlings-/års-/frågebundet registernoll; inte belägg för att ingen akt upprättades eller bevarades. |
+> | A-3153 | Umeå fögderis fondförteckning identifierar Sävars mantalsvolymer Vol/150–155 över Johan Peters säkra Botsmarkperiod 1850–1898, med katalogglapp 1873–1882 och 1894. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog metadataroute; ingen mantalsrad, skatt, ägarpost, närvaro eller frånvaro är läst. |
+>
+> | A-3156 | Riksarkivets metadatafrågor `Ekträsk sågverk`, `Ekträsk såg` och `Ekträsks sågverk` 1880–1910 gav ingen relevant arbetsgivar- eller sågverksroute. | NEGATIVE | hög | [C-0826](../citations/C-0826-riksarkivet-yrkesrutter-sverker-djup5.md) | Katalogbundet noll; kyrkoböckernas positiva sågverksarbetartitel står kvar och ingen arkivfrånvaro infereras. |
+> | A-3659 | Fyra samtida födelsenotiser 1851–1858 sätter en militär beteckning framför faderns namn, tre av dem säkert lästa som `Sold.`; från 1864 skriver samma serie `landbonden` och husförhörslängderna `Bonde`. Husförhörslängden A I/5b s. 470 har ingen ifylld ståndsuppgift och dess hushållsrubrik är överstruken och oläsbar. | TRANSCRIBED | hög | [C-0983](../citations/C-0983-johan-peter-zingmark-soldatbeteckning-1853-1858.md), [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md) | Beteckningsföljd, inte tjänstebelägg. Förband, kompani, rote och soldatnummer är okända och får inte infereras; soldatnamnet Zingmark bars redan av fadern. |
+> | A-3701 | Vigseln 1850-11-24 är belagd i **Degerfors E I/1**, post 19 av 1850, efter lysning 7 november; han skrivs `Landbonden Joh. Pett. Zingmark` från **Botsmark**, född `¹/₂ 1825`. | CORROBORATED | mycket hög | [C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md) | **Första samtida vigselposten**; datumet stod hittills bara i hushållsböcker. Vigseln förrättades av C. J. Hammargren. Födelseuppgiften är förenlig med det belagda 1825-02-01. |
+> | A-3702 | Vigselposten namnger hans far som `Landb. [Enkl.] Carl Jonas Zingmark` i Botsmark och bär anmärkningen `Till Nykyrkan 1853.` | TRANSCRIBED | hög | [C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md), [C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md) | Faderskapet överensstämmer med hans egen födelsenotis. Anteckningen om Nykyrkan är **oförklarad** och tolkas inte. |
+>
+> ## Relationer
+>
+> | Person | Relation | Status | Belägg |
+> |---|---|---|---|
+> | [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) | son | TRANSCRIBED | C-0546 |
+> | [P-0423 Sara Sophia Pehrsdotter](P-0423-sara-sophia-pehrsdotter.md) | hustru i första giftet | CORROBORATED | C-0546, C-0552, C-0727 |
+> | [P-0425 Kajsa Greta Nilsdotter](P-0425-kajsa-greta-nilsdotter.md) | hustru i andra giftet, vigda 1870-07-02 | TRANSCRIBED | C-0552 |
+> | [P-0426 Per August Zingmark](P-0426-per-august-zingmark.md) | son (första giftet) | CORROBORATED | C-0561, C-0562 |
+> | [P-0435 Carl Reinhold Zingmark](P-0435-carl-reinhold-zingmark.md) | son (första giftet) | CORROBORATED | C-0561, C-0562 |
+> | [P-0436 Christina Wilhelmina Zingmark](P-0436-christina-wilhelmina-zingmark.md) | dotter (första giftet) | CORROBORATED | C-0561, C-0562 |
+> | [P-0437 Maria Elina Zingmark](P-0437-maria-elina-zingmark.md) | dotter (första giftet) | CORROBORATED | C-0561, C-0562 |
+> | [P-0440 Sophia Beata Zingmark](P-0440-sophia-beata-zingmark.md) | dotter (första giftet) | CORROBORATED | C-0563, C-0567 |
+> | [P-0439 Axel Zingmark](P-0439-axel-zingmark.md) | son (första giftet) | CORROBORATED | C-0563, C-0565, C-0566 |
+> | [P-0427 Anders Vilhelm Zingmark](P-0427-anders-vilhelm-zingmark.md) | son (första giftet) | CORROBORATED | C-0563, C-0565 |
+> | [P-0438 Sara Rebecka Zingmark](P-0438-sara-rebecka-zingmark.md) | dotter (första giftet) | CORROBORATED | C-0564 |
+> | [P-0428 Ester Amalia Zingmark](P-0428-ester-amalia-zingmark.md) | dotter (första giftet) | CORROBORATED | C-0563, C-0564 |
+> | [P-0470 Carl Jonas Zingmark](P-0470-carl-jonas-zingmark.md) | far | CORROBORATED | C-0681 |
+> | [P-0471 Anna Sophia Holmström](P-0471-anna-sophia-holmstrom.md) | mor | CORROBORATED | C-0681 |
+> | [P-0429 Anna Margreta Zingmark](P-0429-anna-margreta-zingmark.md) | dotter (andra giftet) | TRANSCRIBED | C-0552 |
+> | [P-0430 Nikanor Zingmark](P-0430-nikanor-zingmark.md) | son (andra giftet) | TRANSCRIBED | C-0552 |
+> | [P-0431 Emanuel Zingmark](P-0431-emanuel-zingmark.md) | son (andra giftet) | TRANSCRIBED | C-0552 |
+> | [P-0432 Jonas Eugen Zingmark](P-0432-jonas-eugen-zingmark.md) | son (andra giftet) | TRANSCRIBED | C-0552 |
+> | [P-0433 Olof Konrad Zingmark](P-0433-olof-konrad-zingmark.md) | son (andra giftet) | TRANSCRIBED | C-0552 |
+> | [P-0434 Nanny Olivia Zingmark](P-0434-nanny-olivia-zingmark.md) | dotter (andra giftet) | TRANSCRIBED | C-0552 |
+>
+> ## Tidslinje
+>
+> | Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
+> |---|---|---|---|---|---|
+> | 1825-02-01 | Född; döpt 1825-02-15 | Botsmark, Sävar | — | Carl Jonas Zingmark och Anna Sophia Holmström | C-0681 |
+> | 1825– | Barndomshushåll A I/1 s. 157 | Botsmark | son | föräldrarna | C-0681 |
+> | 1850-11-24 | Giftårsdag med Sara Sophia Pehrsdotter; hon flyttar från Ånäset till Sävar samma dag | Sävar | — | — | C-0563, C-0685, C-0727 |
+> | 1851–1868 | Tio barn födda i första giftet | Botsmark N:o 7 | bonde | hustru och barn | C-0561, C-0562, C-0564, C-0565, C-0567 |
+> | 1850–1870 | Husförhållslängderna A I/5b s. 470 och A I/6b s. 603 | Botsmark N:o 7 | bonde | hustru och barn | C-0685, C-0563 |
+> | 1870-07-02 | Omgifte med Kajsa Greta Nilsdotter, född 1842-09-26 | Sävar | bonde, i andra giftet | — | C-0553 |
+> | 1871–1887 | Sex barn i andra giftet | Botsmark N:o 7 | bonde | hustru och barn | C-0552 |
+> | 1870–1898 | A I/7b s. 672, A I/8b s. 756 och A I/9b | Botsmark N:o 7 | bonde | hustru och barn | C-0561, C-0552, C-0554 |
+> | 1895-07-02 | Blev änkling | Botsmark N:o 7 | bonde | barnen | C-0554, C-0585 |
+> | 1898-11-28 | Utflyttad till Degerfors, attest 14 | Sävar → Degerfors | — | — | C-0554 |
+> | 1900 | Folkräkning; `svärfar` hos dottern Maria Elina och Erik August Lindberg | Ekträsk, Degerfors | änkling | dotterns familj med åtta barn | C-0751 |
+> | 1898–1903 | Degerfors A II a/2 s. 601 | Ekträsk, Degerfors | f.d. sågverksarbetare | dotterns familj | C-0585 |
+> | 1903-07-24 | **Död**; begravd 2 augusti | Ekträsk, Degerfors | f.d. sågverksarbetare | — | C-0584, C-0585 |
+>
+> ## Biografisk sammanfattning
+>
+> Johan Petter Zingmark föddes 1825-02-01 i Botsmark i Sävar som son till
+> bonden Carl Jonas Zingmark och Anna Sophia Holmström och döptes den 15
+> februari; både födelsenotisen och barndomshushållet namnger föräldrarna
+> (C-0681). Han övertog eller tillträdde **Botsmark N:o 7** och står som
+> **bonde** där genom fyra husförhörslängder i följd, från s. 470 på
+> 1850-talet till s. 756 på 1890-talet (C-0685, C-0563, C-0561, C-0552).
+>
+> Hans giftårsdag med **Sara Sophia Pehrsdotter** anges samstämmigt till
+> **1850-11-24** i tre skilda hushållslängder, och Degerfors A I/6b s. 399
+> visar att hon flyttade från Ånäset till Sävar samma dag (C-0727). Själva
+> vigselposten är däremot inte funnen: varken Sävars eller Lyckseles
+> vigselböcker för året har den (C-0684). I det äktenskapet föddes **tio
+> barn** mellan 1851 och 1868, tre av dem tvillingpar. Efter Sara Sophias död
+> gifte han om sig **1870-07-02** med pigan Kajsa Greta Nilsdotter, född 1842
+> i Umeå landsförsamling, och fick sex barn till (C-0553, C-0552).
+>
+> Han blev änkling en andra gång **1895-07-02** och lämnade Botsmark
+> **1898-11-28** för Degerfors. Folkräkningen 1900 finner honom i **Ekträsk**
+> som `svärfar` i dottern Maria Elinas hushåll, där hennes make Erik August
+> Lindberg och åtta barn bodde (C-0751). Församlingsboken kallar honom där
+> **före detta sågverksarbetare** — bonden hade blivit industriarbetare på
+> ålderdomen — och han dog **1903-07-24** och begravdes den 2 augusti
+> (C-0585, C-0584). Dödbokens orsaks- och dödsortskolumner är tomma.
+>
+> Öppna materiella frågor och källvägar finns i
+> [forskningsprofilen](../research-profiles/P-0422.md).
+>
+> ## Forskningsstatus
+>
+> - Status: `VIDAREFÖRD — EGEN FÖDELSE OCH FÖRÄLDRAR SÄKRADE; ÄLDRE GENERATION ÖPPNAD`
+> - Nästa väg: följ de nya djup-5-spetsarna P-0470 Carl Jonas Zingmark,
+>   född 1785, och P-0471 Anna Sophia Holmström, född 1792, bakåt från Sävar
+>   A I/1 s. 157. C-0681 har löst den tidigare metadata→bild-spärren och
+>   säkrar relationerna i både födelsebok och hushåll; de äldre
+>   åtkomstposterna C-0558/C-0587 är endast historik.
+>   Därtill återstår första vigselns egen post och församling. Tre
+>   hushållslängder säkrar datumet 1850-11-24, och Degerfors A I/6b s. 399
+>   binder Sara Sophia från Ånäset till Sävar samma dag (C-0727). Sävar- och
+>   Lyckseleårens nollresultat står kvar men motsäger inte äktenskapet.
+>   Upprepa inte Degerfors B/3 eller F/3 1898–1900: båda fulla intervallen är
+>   negativa (C-0571–C-0572). Livsslutet är nu löst i F/3 1903 och A II a/2
+>   s. 601; upprepa inte målsidorna (C-0584–C-0585). Zingmark-familjerna i
+>   Degerfors A I/10b s. 163 och 171
+>   ger nu en positiv fortsättning för Maria Elina 1856; Johanna Paulina 1864
+>   och Per Alexander 1866 hålls fortfarande isär utan föräldraantagande.
+>
+> ## Arbetsläge
+>
+> - Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en
+>   personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller
+>   uttryckligen irrelevant disposition i source-coverage-matrisen
+>   (research-log Batch 250; T-0028).
+> - Källbredd 2026-09-04: yrkesutlöst sågverksspår `N`. Tre
+>   Ekträsk-sågverksfrågor gav ingen relevant arbetsgivar-/arkivroute.
+>   Kyrkoböckernas positiva yrkestitel står kvar; katalognollet säger inte att
+>   arkiv saknas (C-0826; research-log Batch 249).
+> - Källbredd 2026-09-04: skatt/mantal `S`. Sävar Vol/150–155 är en exakt
+>   analog route över Botsmarkperioden 1850–1898, med katalogglapp 1873–1882
+>   och 1894. Ingen personförd rad eller ägarpost har lästs (C-0825;
+>   research-log Batch 248).
+> - Konsolidering: `GRANSKAD` 2026-09-04 (research-log/2026-09-04.md#batch-239--t-0026-konsolidering-av-p-0133p-0423)
+> - Källbredd 2026-09-04: bouppteckning `N`, avgränsat till Johan Peter
+>   Zingmark/Zingmark, Degerfors och 1903–1904 mot en positiv namnblank
+>   täckningskontroll. Det är inte ett akt- eller personnoll (C-0823;
+>   research-log Batch 245).

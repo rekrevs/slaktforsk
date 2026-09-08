@@ -79,3 +79,22 @@ och Högby (1874, 1901) innan de behandlas som originalbelagda.
 ## Stödda påståenden
 
 A-3543–A-3545 (P-0242), A-3546–A-3547 (P-0243), A-3548 (P-0244).
+
+## Räckvidd avstämd2026-09-07, T-0124
+
+Registrerad hemortÖstraHusby för Johan1940 bevisar inte att paret
+flyttat tillsammans, flyttdatum eller dödsplats. Elins hemortStockholm
+1962 visar inte när hon flyttade eller närhet till dottern som motiv.
+Avståndet mellan död och gravsättning får ingen årstidsförklaring
+utan personbundet stöd.
+
+Samma grav fastställer inte självständigt föräldraskap till Gunnar
+eller Amelie. Amelie/Amelia1912 har dessutom motsvarande dotterrad
+i C-0899; Gunnar1911 saknas där och behöver egen familjepost innan
+sonrelationen blir säker. Fyra Kalmarfödda hemmavarande barn1930
+är redan namngivna i C-0899; Gunnar är inte automatiskt en av dem.
+
+C-0270 har omlästs till15januari1873. Elins tidigare13/15konflikt
+på egen födelsepost upphävs; eventuella avvikande hushållsavskrifter
+prövas separat. Lokal kopia/URL/hash för de exakta gravposterna
+saknas ännu, trots användbara namn-/gravnycklar.

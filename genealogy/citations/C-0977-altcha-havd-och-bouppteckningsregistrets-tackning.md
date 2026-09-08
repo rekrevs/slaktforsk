@@ -74,3 +74,18 @@ Rättelse av hinderbeskrivningen i KP-02 i [P-0048](../research-profiles/P-0048.
 och [P-0049](../research-profiles/P-0049.md), KP-04 i [P-0016](../research-profiles/P-0016.md),
 KP-02 i [P-0028](../research-profiles/P-0028.md) och KP-02 i
 [P-0029](../research-profiles/P-0029.md).
+
+## Tillägg T-0125, 2026-09-07: jurisdiktion och gammalt åtkomsthinder
+
+Den redan dokumenterade hävningen av ALTCHA den 6 september 2026
+ersätter det äldre hindret vid den passagen. Ett gammalt captcharesultat
+är inte ett aktuellt bevis på källslut. Ingen ny åtkomst har prövats här.
+
+En uppgift om att det särskilda registrets Hyltinge-täckning slutar 1908
+avgör inte om Hulda Amalias bouppteckning efter döden 1964 finns: hennes
+hemort är då Flen enligt C-0923. Den avgör inte heller makens
+bouppteckningsväg 1913, eftersom C-0952 anger Katarina som hans
+kyrkobokföringsort, medan dödsplatsen var Helgesta. Rätt domstolsområde
+och katalog-/registertäckning måste prövas personbundet. S-0750/C-0961:s
+redan dokumenterade domstolskatalogprov tillgodoräknas, men ett register-
+eller bildlänksnoll är inte bevis för att bouppteckning aldrig upprättades.

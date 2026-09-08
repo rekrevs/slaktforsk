@@ -33,3 +33,7 @@ vara Stina Kajsa utan en bakåtföljd hushålls- eller flyttkedja.
 ## Stödda påståenden
 
 A-1949 och A-1955.
+
+## Tillägg vid konsolidering T-0126, 2026-09-07
+
+Den tidigare helårssumman17 ersätts med **19 poster**: nr18–19 står på den redan bevarade bild83:s högersida. C-1042 har dessutom funnit decemberpost17 med Jonas Nordlund/Gertrud Olofsdotter i föräldrafältet, trots det svårlästa barnnamnet. Noll på det först eftersökta barnnamnet får därför inte återges som att en relevant föräldrapost saknas. Kandidaten är oidentifierad; Stina Brita den13februari är inte antagen.

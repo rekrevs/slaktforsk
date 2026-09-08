@@ -81,3 +81,18 @@ A-0581–A-0595.
 > och att sök-API:et saknar bildlänk även för dem. Slutsatsen "inte
 > digitaliserad" är därför inte belagd; det som är belagt är att volymen inte
 > är fjärråtkomlig. Se `genealogy/method-riksarkivet.md`.
+
+## Bevarat utdrag och åtkomsträttelse — T-0132, 2026-09-08
+
+Den bevarade läsbara helsidan har prövats: familjegruppen innehåller
+ErikCarlsson, gift torpare1851Bettna; AnnaChristinaLarsdotter, gift1852
+Årdala; AnnaErika1877 ochErikArvid1879Forssa, ogifta barn. CarlJohan
+Pettersson1862Årdala finns på följande rad, utan sonrelation; han
+är senare dräng i C-0149. Egna lytes-/främmande tros-/nationalitetsfält
+är tomma. Detta är ett hushållsutdrag, inte en komplett födelselista.
+
+Den historiska uppgiften om ej fjärråtkomliga föräldrafödelser och
+Forssas husförhör är upphävd av faktisk senare åtkomst i C-0147,
+C-0148/C-0149 och C-1041. Avsaknad av API-bildlänk var aldrig bevis
+för att volymen inte var digitaliserad eller kunde nås genom annan
+auktoriserad ingång. Inget aktuellt åtkomsthinder läggs på dessa poster.

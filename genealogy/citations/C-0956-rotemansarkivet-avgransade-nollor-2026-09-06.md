@@ -132,3 +132,18 @@ positivkontrollerade:
 
 Slutsatsen om P-0009 i tolkningen nedan ändras inte: hon saknas i registret
 under alla prövade namnformer.
+
+
+## Omprövning i T-0125, 2026-09-07
+
+Den äldre geografiska och kronologiska slutsatsen om Ada upphävs.
+Resultatet gäller enbart de tre positivkontrollerade namnsökningarna
+(88, 84 respektive en post) i rättelsen ovan. Det utesluter inte andra
+namnformer, indexeringsfel, vistelse eller mantalsskrivning i Stockholm
+under hela perioden. Framför allt följer ingen tidigaste vigsel- eller
+återflyttningsdag efter 1926 av detta noll. C-0959:s positiva norska
+vigselindex kan därför inte beskrivas som en verifiering av en förutsägelse
+från nollan. Maj-Britts födelseland följer inte heller av sökresultatet.
+För P-0016 tillgodoräknas den redan funna vigseln 1903 i C-0976;
+äldre vägledning om en alltjämt okänd vigsel är historisk. Knut Bergmans
+123 namnträffar är fortfarande oskilda kandidater, inte ett yrkesnoll.

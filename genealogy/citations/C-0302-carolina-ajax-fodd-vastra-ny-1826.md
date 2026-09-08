@@ -32,3 +32,12 @@ Notisen säkrar både relationen och den exakta yrkesformen år 1826.
 ## Stödda påståenden
 
 A-1869–A-1871, A-1879, A-1881.
+
+
+## T-0141: full relevant postprövning, 2026-09-08
+
+Den redan bevarade fullbilden C0019312_00131 har lästs i sin helhet för Carolina-raden, inklusive de tidigare utelämnade vittnena. Datum 28/29 januari 1826 och föräldrarna består. Moderns råålder är **34**. Medevi Brunn är föräldrarnas hemvist, inte ett separat bevis på själva förlossningsplatsen.
+
+Vittnesraden lyder: `Jan Andersson o. dess hustru Eva Lotta CarlsDotter dto — Dräng Anders Persson i Adamsberg pig Ulla And.Dotter i [Kydan?]`. Dito hänför de två första till Medevi Brunn. Den sista orten är prövad men reserverad; patronymikonsförkortningen expanderas inte till en ny säker personidentitet. Ingen släktskap följer av vittnesrollen.
+
+Hela postens marginal och avslut har prövats. Ingen separat dopförrättare, kyrktagningsdag, dödsnot eller annan personbunden marginaluppgift framgår. Rååldern ger inte ensam ett exakt födelsedatum. Tidigare fullbild och dess SHA-256 består; ingen ny arkivhämtning.

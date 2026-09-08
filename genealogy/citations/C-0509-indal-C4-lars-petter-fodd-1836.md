@@ -65,3 +65,8 @@ Se [C-1017](C-1017-indal-C4-1836-arklo-och-radens-lydelse.md).
   Pehrsson i Arklo …`
 
 Avskriften ovan bevaras oförändrad som revisionsspår.
+
+
+## T-0136: egen fullpost och rättelse 2026-09-08
+
+Fullposten är nu utvunnen i [C-1017](C-1017-indal-C4-1836-arklo-och-radens-lydelse.md): född 27 och döpt 28 december 1836, modern 25 år, Arklo och inget uttryckligt hustrutecken. Åtta dopvittnen är bevarade med roller och prövade namn-/ortreservationer; tidigare Erik Petter läses nu Erik Pehr[?] Pehrsson. De äldre avskrifterna ovan står kvar som historik, inte alternativa aktuella dopdatum.

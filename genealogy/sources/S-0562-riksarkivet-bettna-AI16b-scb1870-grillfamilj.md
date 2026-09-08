@@ -78,3 +78,7 @@ De två ursprungliga källbilderna och deras checksummor redovisas i
 [C-0729](../citations/C-0729-bettna-AI16b-sida201-scb1870-grill-erik.md);
 den positiva Forssa-raden redovisas i
 [C-0746](../citations/C-0746-scb1870-forssa-erik-grill.md).
+
+## T-0139: avstämning och proveniensgräns
+
+Föräldrarnas hela egna fält är prövade: Carl 1822 9/4, Johanna 1819 30/4. Barnfält Johanna Mathilda 1854 21/1 och Hedda 1859 29/10 rättar tidigare avskrifter; egen MariaSofiafödelsepost har 27 februari mot hushållets 27 mars. Se [C-0729](../citations/C-0729-bettna-AI16b-sida201-scb1870-grill-erik.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.

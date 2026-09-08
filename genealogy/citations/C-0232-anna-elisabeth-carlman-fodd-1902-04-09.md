@@ -30,3 +30,17 @@ Andersson.
 ## Stödda påståenden
 
 A-1455, A-1461, A-1464–A-1466, A-1471, A-1473–A-1475. A-1463 avvisas.
+
+## Lokal omläsning2026-09-07, T-0124
+
+Fulloriginalet bevarat enligtS-0182 har nu lästs i post28. Fadern
+anges **Landtbr. Johan Fredrik Wilhelm Carlman, Lilla Tomteby**,
+med födelse66 8/11; modern **Elin Andersson**,73 15/1.
+Faderns titel/boställe är därför inte längre olästa. Moderns
+dag15januari stämmer med omläst egen födelsepostC-0270,
+inte den tidigare13januari-avskriften. Posten har levande flicka
+och gifte1 samt en reserverad högermarkeringI2[?], inte ett
+säkert dopdatum. Ingen ny egen födelsepost för dottern öppnad.
+
+Lokal fullbild ochSHA finns iS-0182; frånvaro av separat tabell
+i citationen är inte frånvaro av bevarat original.

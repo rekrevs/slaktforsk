@@ -44,3 +44,9 @@ originalbelagd.
 
 A-1796–A-1802.
 
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela den egna vigselposten 11 och lysningsraden är återlästa. Vigsel 3 oktober 1841 mellan smeddrängen Johan Peter Urbom från Motala, 23 år, och pigan Eleonora Gustava Ajax i Prästgården, 24 år. Första äktenskapet för båda; lysningar enligt nr 9 den 29 augusti samt 5 och 12 september. Ingen namngiven förälder eller förmyndare framgår av den egna posten.
+
+**Rättelse, oberoende andraläst:** mellanraden säger ”Erhöll Bibel af Brunn[?]. B:b: Sällsk.”. Den äldre tolkningen som betyg om brudgummen är avvisad. Bibelgåvan är en positiv uppgift; givarorganisationens fulla namn reserveras. Den visar inte makarnas eget medlemskap, personliga tro eller en ännu bevarad familjebibel. Församlingsangivelsen motiverar Västra Ny som vigselregistrering; någon särskild kyrkobyggnad påstås inte.

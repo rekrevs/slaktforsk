@@ -36,3 +36,14 @@ ort gör identiteten säker.
 ## Stödda påståenden
 
 A-2093–A-2094.
+
+## Fullt utdrag och namnroll — T-0132, 2026-09-08
+
+Den läsbara helsidan har prövats: ErikKarlsson, torpare1851Bettna,
+änkling, familj1 med fem ogifta barn AnnaErika1877, ErikArvid1879,
+AxelEdvard1881, MariaSofia1883 ochKarlOskar1885Forssa. Lytes-/nationalitets-
+och trosfält utan egna anteckningar. AndersLundqvist1869Hägsta[?]
+är dräng i separat familj2; ingen faders-/barnrelation skapas.
+C-0149:s tidigare ElliMariaSofia är numera rättad till **Dott.MariaSofia**:
+rollen dotter hade fellästs som förnamn. Den äldre namnkonflikten
+upphävs, medan ursprunglig avskrift bevaras ovan.

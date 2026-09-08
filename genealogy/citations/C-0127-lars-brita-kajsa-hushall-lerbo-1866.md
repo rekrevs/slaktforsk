@@ -45,3 +45,28 @@ en motsvarande födelsenotis i C-0132 och står därför kvar som olöst.
 
 A-0512–A-0515, A-0518–A-0519, A-0720–A-0722, A-0727, A-0740–A-0744,
 A-0767–A-0769.
+
+## Avstämning 2026-09-08 — T-0137
+
+Den bevarade skärmbilden har prövats i sin helhet. Den visar vänsterdelen
+av sida 161 och endast början av högersidans kunskapskolumner. Rubriken är
+Anderslund, torp under Hesslö. Radernas faktiska ordning är Lars Andersson,
+Brita Cajsa, Anders Gustaf, Carl August och Charlotta Wilhelmina; tidigare
+avskrift omordnade sönerna utan att ange det.
+
+Brita Kajsas egen rad har Hustr. Brita Cajsa Pehrsd:r, **1829 21/10,
+Sköldinge**, Gift **47**, koppor **v**; hennes inflyttnings- och dödfält är
+blanka i denna vy. Makens rad har **47 20/10**: den fullständiga vigseldagen
+är inte separat fullt utskriven på hennes rad. De synliga kunskapstecknen
+är c-formade men hela kolumnserien kan inte läsas i den avskurna vyn.
+Carl Augusts egen inflyttning från Sköldinge och en svag datumuppgift tillhör
+sonens rad, inte automatiskt hela hushållet.
+
+**Kvarstående faktisk fullpostrest:** moderns högra kolumner för fortsatt
+kunskap, frejd, förhör/nattvard, utflyttning och övriga anteckningar.
+Fullbild C0006946_00152 har inte återfunnits i media eller /tmp efter
+id-/namn-/ortaliasprövning. Befintlig skärmbild finns och hashmatchar;
+manifestet finns numera under C-1095 men är ingen ersättning för postbilden.
+Inga årsvisa boendegränser eller flyttdatum härleds ur volymens 1866–1870.
+Egen födelsepost C-0126 har samma datum och socken men ingen Pehrsdotter-form;
+den är inte ett oberoende namnröstetal.

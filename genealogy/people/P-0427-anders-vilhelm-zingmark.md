@@ -25,3 +25,7 @@ Helbror till P-0028, född som den andre av två tvillingbröder i Botsmark
 
 Sidoperson utanför antavlan; senare liv är öppet men prioriteras inte före
 breddkohorten.
+
+## Konsolideringsrättelse — T-0133
+
+2026-09-08: C-0565:s fullposttillägg bevarar Anders Wilhelms egen dopvittneslista, skild från Axels. Vittnenas uttryckliga syskonrelation gäller dem själva. Modern var 34 år och faderns råtitel f. Landb.; inga nya släktrelationer fastställs. T-0161 äger full individuell adoption.

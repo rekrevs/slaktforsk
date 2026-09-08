@@ -20,3 +20,15 @@ upplöstes 1920 och att han flyttat in från Flen.
 ## Stödda påståenden
 
 A-2291 och A-2294.
+
+## Fullpostavstämning — T-0132, 2026-09-08
+
+Den egna sista ålderdomshemsraden är prövad i lokal fullbild. Karlsson
+Erik har huvudyrket **understödstagare** genom dito från föregående rad,
+med råkoden 2, födelseår 51 och Bettna, moderns födelseortskod 330,
+änkling och upplösningsår 20. Senaste inflyttningsort anges som Flen,
+men det egna inflyttningsåret är tomt. Skolbildningsfältet anger råkod 3;
+koden omtolkas inte till en ospecificerad examen. De egna fälten för
+inkomst och förmögenhet är tomma, vilket inte betyder noll kronor.
+Församlingsbokens hänvisning 160 och familjenumret 16 består. Inga
+intagningsorsaker eller exakta intagningsdatum kan läsas ur dessa fält.

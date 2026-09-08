@@ -86,3 +86,21 @@ stället för i annexet.
 ## Stödda påståenden
 
 A-3682, A-3685, A-3689.
+
+## Källkritisk avstämning 2026-09-07 — T-0121
+
+Vigselposten ger ett samtida vigselbelägg och en senare återgivning av
+födelsedagarna. Den ger inte ett oberoende vittnesmål om två födslar:
+hinderslöshetsbetyg och tidigare kyrkobokföring kan bära samma uppgift.
+Ingen säker oberoende tre-/fyrakälleräkning följer av posten.
+
+Brudens Bjerghemvist vid lysningen förklarar inte i sig varför ett senare
+register anger Mofalla som födelseort. Det är en möjlig sammanblandning,
+inte en bevisad orsak. `Fadren Närvarande` namnger ingen man och avgör
+inte den senare identifierade faderskonflikten för P-0021; C-0991 och
+senare egna födelse-/familjebelägg måste vägas separat. Formuleringen
+ska inte omvandlas till ett bestämt fadersnamn.
+
+Ingen lokal fullbild och SHA-256 för målbild A0017787_00017 redovisas
+i denna citation. Precist bild-id och avskrift ersätter inte bevarat
+fulloriginal. Detsamma ska kontrolleras för det angivna Kyrkefallanollet.

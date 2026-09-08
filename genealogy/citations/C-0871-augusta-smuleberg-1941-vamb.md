@@ -116,3 +116,14 @@ fungerade. Ingen ny captcha eller åtkomstspärr under den positiva läsningen.
 | [C-0871-00081309_00091-sida88.png](../media/C-0871-00081309_00091-sida88.png) | `8dd53d132b25da67fc67755a274b3aedbabee21035f2fa909578a998a6e25a0b` |
 | [S-0683-kyrkefalla-AIIa20-manifest.json](../media/S-0683-kyrkefalla-AIIa20-manifest.json) | `17d5892231c970b2345080d2cbd4cbbb97f874cdabc0b98b167f54df0f98b00c` |
 | [S-0683-kyrkefalla-B11-manifest.json](../media/S-0683-kyrkefalla-B11-manifest.json) | `ebbbc49c4545349b8bb2acc2291d8b5b9da4995300575893ed07700f80ea20b7` |
+
+## Personbunden efterkontroll — T-0127, 2026-09-08
+
+Augustas rad 25 har i sparade målskärmbilder en äldre hänvisning som
+börjar `IV:298…` samt Bergshamra. Resten av hänvisningen, flyttpostens
+betygsdatum och strukna adress ska prövas i fulloriginal inom T-0251.
+Den prövade skärmläsningen är inte en fullständig utvinning av dessa fält.
+Fullbilderna 00081278_00100 och 00081309_00091 saknas fortfarande;
+bevarade skärmbilder tillgodoräknas men ersätter inte fullkopior.
+C-0874 och C-0962 har senare tillfört mottagarpost respektive dödsdag;
+den äldre textens olösta dödstid är inte aktuellt kunskapsläge.

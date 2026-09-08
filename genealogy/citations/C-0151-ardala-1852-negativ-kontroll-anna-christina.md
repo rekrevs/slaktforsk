@@ -38,3 +38,20 @@ har förskjutits.
 ## Stödda påståenden
 
 A-0583, A-0812–A-0813.
+
+## Tillägg 2026-09-08 — T-0132, rättad lokal kontroll
+
+Båda ovan länkade fullbilder har åter lästs och deras SHA-256 stämmer.
+C/4 bild 13 innehåller målposten: Anna Christina, född 21 mars och döpt
+25 mars 1852, med statdrängen Lars Er. Jansson och Brita Christina Ersd:r
+i Kallvik som föräldrar. Det gamla födelsenollet upphävs av den positiva
+posten, inte av en ny gissning om datum eller person.
+
+C/5 bild 12 slutar med ett dödfött gossebarn den 19 mars 1852 och når
+inte den 21 mars. Det gamla påstådda läsomfånget till början av maj var
+fel. Den positiva C/5-posten är enligt C-1041 på bild 13; just den
+fullbilden har inte återfunnits lokalt. Även den åberopade C/4-bilden 14
+för grannåret saknas efter alias-/metadatasökning. C/4 bild 13 och C/5
+bild 12 finns däremot redan och ska inte räknas som kopieskuld.
+Se [C-1041:s fullposttillägg](C-1041-ardala-1852-anna-christina-fodd-kallvik.md)
+för fältprövning och beroendegränser.

@@ -33,3 +33,7 @@ lästes i bildvisaren.
 sida 138. Där återfanns Britta Stina enligt S-0382. Fyndet ligger utanför
 det här kontrollerade intervallet och visar varför avgränsningen inte fick
 generaliseras till ett volym- eller personnoll.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+C-0447:s daterade tillägg preciserar sju saknade tidigare lästa bilder. Fyra fulla kopior finns; sidnollan förblir avgränsad.

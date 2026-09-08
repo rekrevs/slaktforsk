@@ -22,3 +22,10 @@ markerar döden 20 mars 1935. Änkedatumet 3 april 1920 är makens
 civilståndsnotis. Matildas senare återfunna egna SCB-lasarettspost anger
 död 1920-01-31; 3 april bevaras därför som källkonflikt och används inte som
 hennes dödsdag, se [S-0599](S-0599-riksarkivet-scb-flens-lanslasarett-doda-1920.md).
+
+## Avstämning mot lokala original — T-0132, 2026-09-08
+
+C-0502:s tre egna civilståndsrader är omlästa som 1920-01-31. Den äldre 3 april-konflikten var ett avskriftsfel. S203 avser Torvesta N:o1, Sundtorp/Östergården och G.B.190; s177 har den historiska beteckningen sinnessjuk. Boköverföringen 1930-02-25 är inte säkert fysisk intagningsdag.
+
+Äldre avskrifter ovan bevaras som historik. De daterade korrigerande
+citationstilläggen och aktuella personakterna anger nuvarande bedömning.

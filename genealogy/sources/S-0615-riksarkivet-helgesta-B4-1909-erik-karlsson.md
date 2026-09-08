@@ -66,3 +66,10 @@ berördes. Ingen `Läsesal`- eller kopiebeställning öppnades eller skapades.
 ## Stödda påståenden
 
 A-3069.
+
+## Avstämning mot lokala original — T-0132, 2026-09-08
+
+C-0799:s destination läses Skeboqvarn, förenligt med Helgestas sida313. Vilhelmsro följer på315 senare1909; ankomst22januari1909 är bokregistrering, inte bevis för en fyra dagar lång fysisk resa. Sven Arvids bokdatum är27juli1898.
+
+Äldre avskrifter ovan bevaras som historik. De daterade korrigerande
+citationstilläggen och aktuella personakterna anger nuvarande bedömning.

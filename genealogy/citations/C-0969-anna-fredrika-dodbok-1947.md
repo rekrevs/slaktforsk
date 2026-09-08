@@ -65,3 +65,10 @@ kopior är speglade.
 ## Stödda påståenden
 
 A-3627, A-3628 (P-0049); A-3631 (P-0048).
+
+### Källkritisk rättelse 2026-09-07, T-0117
+
+Tom dödsortskolumn och angiven hemvist bevisar inte uttryckligen att
+Anna Fredrika dog i hemmet eller utesluter lasarett. Den slutsatsen i
+normaliseringen ovan återtas; dödsplats är inte fastställd i utdraget.
+Dödsdag, bostad och begravning består. Ingen ny medicinsk tolkning görs.

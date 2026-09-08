@@ -18,7 +18,7 @@ uppgifter.
 | A-1810 | Västra Ny A I/8 skriver honom `Petter Ajax`, född 1791 i Motala. | CORROBORATED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Samma ovanliga namn, hustru och dotter binder den senare hushållsraden till åbon i Stordalen; exakt födelsedag saknas. |
 | A-1811 | Han var rumormästare och skomakare vid Medevi Brunn. | TRANSCRIBED | hög | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Yrkesrubriken lyder `Rumormästaren och Skom:`. |
 | A-1812 | Husförhörslängdens särskilda anmärkning beskriver honom som `Sjuklig`. | TRANSCRIBED | hög | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Historisk källterm; ingen modern diagnos härleds. |
-| A-1813 | Han bodde med Catharina Jonsdotter och deras namngivna barn vid Medevi Brunn under volymperioden 1837–1846. | CORROBORATED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Dottern Anna Gustavas namn, Hammar och Ajax binder hushållet bakåt till födelsenotisen. |
+| A-1813 | A I/8 placerar honom med Catharina Jonsdotter och namngivna barn vid Medevi Brunn; Adelides biologiska föräldraskap är inte fastställt. | CORROBORATED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Dottern Anna Gustavas namn, Hammar och Ajax binder hushållet bakåt till födelsenotisen. |
 | A-1839 | Hammar A I/3 b skriver hans namn `Peter Peterson Ajax` i Stordalen. | CORROBORATED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md) | `Peterson` är nu en primär patronymisk namnform; leden Gustav och Persson i den sekundära akten är inte därmed fullt avgjorda. |
 | A-1840 | Hammar A I/3 b anger Motala och födelseåret 1791. | CORROBORATED | hög | [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Två hushållslängder i skilda församlingar överensstämmer om ort och år; exakt dag återstår. |
 | A-1841 | Västra Ny A I/6 placerar honom vid Medevi Brunn och anger att han kom från Hammar 1822. | CORROBORATED | hög | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md) | Den täta övergången binder Stordalenhushållet till Medevihushållet. |
@@ -38,7 +38,7 @@ uppgifter.
 | [P-0323 Carl/And. Gustaf Ajax](P-0323-carl-gustaf-ajax.md) | son | CORROBORATED | C-0296, C-0301 |
 | [P-0324 Carolina Ajax](P-0324-carolina-ajax.md) | dotter | CORROBORATED | C-0296, C-0302 |
 | [P-0325 Frans Ludvig Ajax](P-0325-frans-ludvig-ajax.md) | son | CORROBORATED | C-0296, C-0304 |
-| [P-0326 Adelide Amalia Ajax](P-0326-adelide-amalia-ajax.md) | dotter | TRANSCRIBED | C-0291 |
+| [P-0326 Adelide Amalia Ajax](P-0326-adelide-amalia-ajax.md) | Dottermarkerad hushållsmedlem; biologiskt föräldraskap olöst | LEAD | C-0291, C-0296 |
 | [P-0327 Carl Johan Ajax](P-0327-carl-johan-petter-ajax.md) | son | CORROBORATED | C-0296, C-0299 |
 | [P-0328 Anna Josephina Ajax](P-0328-anna-josephina-ajax.md) | dotter | CORROBORATED | C-0296, C-0303 |
 
@@ -60,3 +60,25 @@ uppgifter.
 - Konsolidering: `GRANSKAD` 2026-09-04 (T-0044)
 - Källbredd: `KLAR` — hela målårgången är prövad och kandidatspåret är
   explicit spärrat från propagation.
+
+## Begränsad följdavstämning — T-0135, 2026-09-08
+
+Adelides rad i A I/8 är dottermarkerad i Ajax-hushållet, medan en nästan liknamnig rad med samma datum i A I/6 står under en separat kvinnrad. Varken en biologisk dotterrelation till Ajax-paret eller en ny mor fastställs här. Bokperioderna bevisar inte samtidig eller obruten vistelse för alla namngivna barn. [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md).
+
+Detta är en materiell följdrättelse, inte en full individuell konsolidering eller ett nytt kontraktsgodkännande. Profil och full granskning adopteras uttryckligen av [T-0173](../../wotan/dev-log/T-0173.md). Alla äldre A-id:n är bevarade.
+
+### Historik: ersatta formuleringar
+
+Följande tidigare text ersätts av ovanstående källbundna rättelser:
+
+> | A-1813 | Han bodde med Catharina Jonsdotter och deras namngivna barn vid Medevi Brunn under volymperioden 1837–1846. | CORROBORATED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Dottern Anna Gustavas namn, Hammar och Ajax binder hushållet bakåt till födelsenotisen. |
+> | [P-0326 Adelide Amalia Ajax](P-0326-adelide-amalia-ajax.md) | dotter | TRANSCRIBED | C-0291 |
+
+
+## Begränsad följdavstämning — T-0141, 2026-09-08
+
+Familjens gemensamma inflyttningshänvisning på Stordalen sida 266 läses `17 p.262 d.b.`, inte den äldre citationsläsningen 263. Den pekar på en intern tidigare post 1817, inte en säkrad extern flyttdag. Sida 263 är nu kontrollerad utan paret, men 262 är ännu oläst. [T-0329](../../wotan/dev-log/T-0329.md) äger den fasta familjebryggan. [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md)
+
+Dotterns rådatum 4 april i denna bok kvarstår mot födelsepostens 4 mars. Ägartexten ovanför familjen gäller bokhållare Jönson på Medevi, inte ett säkert Ajax-ägande. Catharinas egna högra tecken är inte faderns död eller flytt.
+
+Hela akten lästes inför denna begränsade följd. Alla äldre A-id:n och bedömningar bevaras; detta är inte full individuell konsolidering. Profil och full prövning av de egna fälten, nätverket och båda kontraktsnivåerna adopteras uttryckligen av [T-0173](../../wotan/dev-log/T-0173.md). Inga nya personakter eller assertion-id:n har skapats.

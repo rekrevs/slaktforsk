@@ -24,3 +24,8 @@ Olaus/Fredberg respektive Brita Stina Svensdotter. Ingen säker Brita Stina
 Svensdotter identifierades. Nollresultatet gäller bara dessa namnsektioner och
 år: hon kan ha registrerats under annan namnform, med ett hushåll eller i en
 annan församling.
+
+
+## Rättelse 2026-09-08 — T-0128
+
+C-0383 läses 4 september 1852, Alnö och 15 Upplandsgatan. Äldre maj-/Maria-/Kungsholmsgatanläsningar är felavskrifter.

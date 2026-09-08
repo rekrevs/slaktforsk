@@ -37,3 +37,13 @@ flyttuppgifter samt eventuella andra församlingar.
 ## Stödda påståenden
 
 A-1877.
+
+## Rättelse av bildens årgång — T-0135, 2026-09-08
+
+Den lokala fullbilden har visats i sin helhet och dess SHA-256 stämmer med ovanstående **248b852eb219ce4fe44d4e2a299efd10a0d417546e512b74b0ec7dcb237dd79c**. Innehållet motsäger däremot den äldre årgångsbestämningen: höger sidhuvud lyder tydligt **Församling År 1834**, inte 1833. Sidorna är märkta 282–283. Vänstersidans sista Johanna Christina har talparet **23–28**, men sidan bär ingen egen synlig årsangivelse som kan verifiera 1832. Varken filnamnet, det tillskrivna bild-id:t C0019312_00156 eller en matchande hash bevisar det påstådda årsomfånget.
+
+Därför är det äldre nollresultatet för exakt 26 december 1832 **inte reproducerat av den bevarade bilden**. Det bevaras som tidigare rapporterad kontroll med nu konstaterad referens-/bildkonflikt, inte som ett verifierat motsägande original till Adelides födelsedatum. Det finns ingen grund att härifrån fastställa att hon föddes annan dag, annat år eller i annan församling. Inte heller dotterrelationen i hushållet påverkas.
+
+Lokal filnamns-, alias- och metadatasökning i projektet och arbetskatalogerna har inte återfunnit en annan fullbild som säkert visar den avsedda gränsen 1832/1833. Exakt rätt bild-id behöver identifieras och rätt fullkopia bevaras. Den befintliga felanknutna bilden ska bevaras som revisionsspår. S-0235:s tidigare försäkran om innehållskontroll upphäver inte denna synliga avvikelse. Ett tidigare dokumenterat stale-download-fel gör felkopiering tänkbar, men den konkreta felmekanismen är inte bevisad här.
+
+Nästa avgränsade kontroll är att identifiera den faktiska sista födelsesidan 1832 och närmaste övergång till 1833. Inga breda grannår eller andra församlingar motiveras av detta felaktigt återgivna noll. Ingen ny extern arkivåtkomst har gjorts inom T-0135.

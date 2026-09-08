@@ -35,3 +35,18 @@ dödsdag är därmed bekräftad, men formerna `Yttre Ultervattnet, Robertsfors`
 ## Stödda påståenden
 
 A-0791, A-2156 och A-2157.
+
+## Hela egenrad 76 — T-0131, 2026-09-08
+
+Fullbilden har prövats över samtliga kolumner. Rad 76 anger augusti 26,
+Maria Christina Hansdotter, hustru till **f. B:n Jakob Andersson** i
+Ultervattnet, Bygdeå. Födelsetiden är 40 17/10; hon räknas som kvinna
+och gift. Folio 824 och begravning september 11 är tydliga.
+
+Dödsorsak, läkar-/barnmorskeattestfält, särskild dödsort och
+anmärkningsfält är tomma. Ultervattnet är bostadsuppgift i namnkolumnen;
+frånvaron av annan dödsort anger ingen exakt fysisk dödsplats.
+Originalet stöder den privata ansedelns dag men inte dess exakta
+ortetikett. Anseddelarna är en privat sekundärdatabas, inte belägg för
+ett ägarbekräftat familjeminne. Makens förkortade beteckning läses som
+före detta bonde, utan slutledning om förmögenhet eller social rang.

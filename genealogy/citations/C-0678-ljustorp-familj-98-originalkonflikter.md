@@ -90,3 +90,49 @@ manifesten dokumenterar skillnaden.
 ## Stödda påståenden
 
 A-2688–A-2693.
+
+## Avgränsad lokal efterprövning — T-0130, 2026-09-08
+
+Samtliga 41 länkade filer i tabellerna ovan återfanns och deras SHA-256
+stämde vid kontrollen: 23 originalbilder och 18 API-/manifest-/åtkomstfiler.
+Ny lokal bildläsning gjordes särskilt av A I/1 bilder 56–57 (Laxsjön
+sidorna 12–13), A I/2 bild 11 (skadat blad 15), A I/3 bild 33 (Laxsjön
+sida 18), A I/3 bild 60 (den yngre Hindrics eget hushåll), C/2 bild 136
+(hela 1833) samt C/1 bilder 235 och 258 (årgångsövergång respektive Mårten).
+Den tidigare dokumenterade kompletta läsningen av övriga födelseföljder
+och gränsblad tillgodoräknas; hela materialet har inte lästs om i T-0130.
+
+Laxsjöns bevarade sidor saknar det uppgivna paret med barnen; kvarvarande
+personer och deras förhörsnoter kan inte tillskrivas registerpersonerna.
+Skadan på A I/2 blad 15 omfattar namn- och födelsefält och bär fortfarande
+inget personnoll. Den kompletta dödföljden 1833 saknar Henrik/Hindric
+Henriksson. C/1:s Mårten född 10 mars 1804 har andra namngivna föräldrar;
+namnlikhet identifierar honom inte som Nybergs barn. Inga nya personakter
+eller alternativa föräldrapar skapas av dessa kontroller.
+
+Registerår, avgränsade originalnollor och defekta intervall hålls isär.
+Att P-0461/P-0462 ännu inte kan identifieras i original betyder inte att
+det är bevisat att personerna aldrig funnits. Inte heller kan någon av dem
+sammanföras med andra Henrik- eller Anna Greta-personer enbart genom namn.
+Familj 98:s hela registertext finns nu utvunnen i C-0623 med råfragmenten
+`18` bevarade utan nya dödsdatum.
+
+
+## Avstämning även mot olänkade äldre öppningar — T-0138, 2026-09-08
+
+De 41 länkade filerna från T-0130 finns fortfarande med korrekta hashvärden.
+S-0517:s text beskriver dessutom fyra tidigare öppningar som inte täcks av
+denna filtabell: C/1 **71000675_00236**, den senare övergången till 1798
+utan exakt sparat bild-id, samt ortregistren för Laxsjön i A I/1 och A I/2.
+Lokal alias-, metadata-, manifest- och temporärkatalogkontroll har inte
+återfunnit dessa kopior. Det tidigare påståendet om kontrollerade 41
+länkade filer är korrekt, men räcker inte som fullständigt bevarande av
+alla i S-0517 beskrivna öppningar.
+
+[T-0313](../../wotan/dev-log/T-0313.md) äger exakt bild 236 och den
+begränsade proveniensidentifieringen av de tre övriga öppningarna. År 1797
+får fortsatt inget helårsnoll. De redan bevarade fullbildernas positiva,
+negativa och fysiskt skadade resultat upphävs inte av kopieresten.
+P-0451 och registerföräldrarna P-0461/P-0462 har däremot en konkret egen
+PK-11-rest i den tidigare motprövningen. Brita får ingen automatisk
+skuld för makens födelsesökning eller familj 98:s registerkontroll.

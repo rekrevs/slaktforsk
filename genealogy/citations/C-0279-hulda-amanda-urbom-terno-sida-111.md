@@ -35,3 +35,9 @@ uppgraderas till självständigt korroborerat.
 ## Stödda påståenden
 
 A-1779.
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela rad 22 med tryckta kolumner har återlästs. Urbom Hulda Amanda, piga, 1847 2/9, W. Wingåker, vaccin v, från fol.113 år 1873. Kunskapsfält b/bc/c/c-liknande; en böjd streckmarkering i 1873 års nattvardsfält, övriga egna årsfält tomma. Gift-, änklinge-, döds- och frejdfälten är utan uppgift. Hon är skriven i tjänstefolion under arrendatorshushållet med Carl August Wallert, utan att detta bevisar släktskap.
+
+**Rättelse, två läsare:** utkolumnen är **Wadsbro 1873 24/10, attest 17**. Äldre Örebro 1873-11-20 var avskriftsfel. C-0278:s återkomst från Wadsbro 1875-11-02 ger en motsvarande ortsbrygga, men Wadsbros egna mottagar-/hushållsposter är inte lästa här.

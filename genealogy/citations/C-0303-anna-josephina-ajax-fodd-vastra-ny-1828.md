@@ -33,3 +33,17 @@ tidigare arbetsläsningen `Anna Johanna` var fel och rättas öppet.
 ## Stödda påståenden
 
 A-1856–A-1858, A-1872–A-1873, A-1880–A-1881.
+
+
+## T-0141: full relevant postprövning, 2026-09-08
+
+Den redan bevarade fullbilden C0019312_00141 har lästs för hela Anna Josephinas post. Födelse 4 september och dop 6 september 1828 består. Modern `H. Carin Jonsdr` har rååldern **36**; fadern skrivs `Skom. P. Ajax`. M. Brunn är föräldrarnas hemvist.
+
+Tidigare utelämnade vittnen: `Postmästaren Herr Joh. Gust. Co[l]lin[?] — Madame A.C. Bucklin — Brunnsmästaren Hr A. Bucklin och jungfrun Anna Cajsa Söderholm, alla fr. Medevi Brunn`. Postmästarens efternamn är prövat men reserverat. Vittnens titlar tillhör dem, inte modern; den sociala kontakten bevisar inte släktskap eller familjens ekonomiska ställning.
+
+Marginaler och hela radens avslut är prövade. Ingen separat kyrktagningsdag, dopförrättare eller dödsnot står i denna födelsepost. Dödsåret 1829 kommer från den separat lästa husförhörsraden C-0296. Fullbildens tidigare SHA-256 gäller oförändrat.
+
+
+### T-0141: precisering efter andraläsning
+
+Efter en oberoende andraläsning i T-0141 begränsas postmästarens efternamn till råformen `Col…[?]`; tidigare `Co[l]lin[?]` var för specifikt. Förnamnsinitialerna Joh. Gust. och titeln postmästare står kvar. Det är en prövad namnreservation, inte ett nytt identifierat vittne.

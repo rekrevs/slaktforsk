@@ -52,6 +52,7 @@ Lundström-sonen Johan August Johansson (född maj 1861 i Östanträsk) avvisade
 | A-3655 | **Han ägde sju stadsägor i Ytterhiske: 1266, 1267, 1268, 1269, 1383, 1384 och 1428**, och betecknas `Hem. äg.` i Umeå stadsförsamlings stadsägeregister. | CORROBORATED | hög | [C-0981](../citations/C-0981-zingmarks-stadsagor-ytterhiske.md) | Registret i `A II b/14` ger varje nummer utskrivet och noterar att 1267 B `ingår i stadsäg. 1266 m.fl.` — fastigheten var en sammanhållen enhet. Väsentligt större bild än `⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1`. |
 | A-3656 | **Församlingsbokens `Stad äg. 1258 m.m.` ska läsas 1268.** | CORROBORATED | hög | [C-0981](../citations/C-0981-zingmarks-stadsagor-ytterhiske.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Rättelse av läsningen i C-0916. Felläsningen förklarar varför sökningen efter stadsäga 1258 i fastighetslängderna aldrig kunde lyckas. |
 | A-3658 | **Sågverket i Rosinedal har inte lämnat något arkiv.** NAD:s fritextsökning ger nio träffar på ortnamnet, ingen av dem ett sågverks-, bruks- eller företagsarkiv, och inget sågverksbolag med styrelsesäte i Degerfors finns i aktiebolagsregistret 1901–1935. | NEGATIVE | hög | [C-0982](../citations/C-0982-rosinedal-katalogkontroll.md) | Avgränsat noll för den nationella katalogen, inte för verkligheten. Två nya läsesalsspår framkom: Egnahemsnämndens volym `Degerfors (Rosinedal-Östansjö)` 1912–1948 och Inskrivningsdomarens fastighetsböcker. |
+| A-4302 | I svärmodern Lotta Sofias bouppteckning den 23 augusti 1898 skrivs Ida Sofias make sågverksförmannen J. O. Zingmark. | TRANSCRIBED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Omläst bevarad fullbild i T-0129. Ingen ny personidentitet skapas. |
 ## Relationer
 
 Maka: [P-0029 Ida Sofia Andersdotter](P-0029-ida-sofia-andersdotter.md). Barn i
@@ -136,3 +137,9 @@ sammanblandningen med Johan August Johansson är avvisad (C-0550).
 - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: 1909–1935, död och sågverksarbetet har genomförbara vägar (profil KP-01–KP-03). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
 
 Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — den avvisade Johan August-sammanslagningen är isolerad som `REJECTED`, den riktiga Botsmark–Degerfors-kedjan och båda föräldrarna är säkrade och syskonkretsen hålls evidensbunden; exakt död är villkorlig berikning.
+
+### Avgränsad följdavstämning 2026-09-08, T-0129
+
+I svärmodern Lotta Sofias bouppteckning den 23 augusti 1898 skrivs Ida Sofias make sågverksförmannen J. O. Zingmark. [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md). Råinitialerna identifierar inte gäldenären J. A. Zingmark i den äldre ekonomiska avskriften.
+
+Full individuell konsolidering och kontraktsprövning ägs fortsatt av [T-0154](../../wotan/dev-log/T-0154.md). Denna följdavstämning är ingen fullgranskningsmarkering.

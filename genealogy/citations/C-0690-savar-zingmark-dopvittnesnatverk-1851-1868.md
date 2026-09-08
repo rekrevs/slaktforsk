@@ -61,3 +61,24 @@ C-0546, C-0562, C-0564, C-0565 och C-0567.
 ## Stödda påståenden
 
 A-2720.
+
+## Tillägg T-0133, 2026-09-08 — fullpostprövning av 1853–1858
+
+[C-0562](C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md) har kompletterats
+med fulla relevanta fält i samtliga fyra redan bevarade födelseposter.
+1853 och 1854 gav nu en försiktigt läsbar delmängd av vittnesnamn; de
+är därför inte längre helt oanvända för enskilda rånamn. Osäkra initialer
+och ortled är fortfarande reserverade i respektive fullavskrift.
+
+1856 rättas **Backheden[?] till Backliden**. Sista vittnet Maria Christina
+Brännström har den prövade ortfrasen **Degerfors o Ånäset[?]**.
+1858 tillkommer C. L. Zingmarks **[Byr/Bur…fors?] af Burträsk S:n**, den
+läsbara bondsonen **August Olofsson**, pigan **Clara Ulrica Johansdotter**
+i Botsmark och **bondsonen Anders Pehrsson** i Ånäset. Mannen före Maja
+Brita är alltså inte längre oavskriven. Syskonidentitet följer fortfarande
+inte automatiskt av dopvittneskapet. Äldre snäva API-noll gäller endast
+de gjorda registerfrågorna och avvisar inte vittnenas existens.
+
+1851/1861/1864/1868 omfattas inte av denna fyra-posters omläsning; tidigare
+avskrifter och prövade läsreservationer för dessa år bevaras med sina
+efterföljande egna källtillägg. Ingen allmän nätverksuttömning registreras.

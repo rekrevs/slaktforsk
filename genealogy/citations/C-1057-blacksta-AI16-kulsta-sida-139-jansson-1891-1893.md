@@ -60,3 +60,14 @@ föddes i Skedevi det året, men den flytten är inte läst.
 ## Stödda påståenden
 
 A-3936–A-3938.
+
+
+## Omprövning T-0125, 2026-09-07
+
+Tidigare Vadsbro folio51 i tabell och avgränsning är en upphävd
+kolumnläsning:51 är Blackstas inflyttningsattestnummer, inte Vadsbrofolio.
+C-1058/C-1059 och C-1064/C-1065 har redan följt båda Vadsbroleden;
+C-1067–C-1070 följer Skedevi till Flen. Dessa äldre öppna frågor får inte
+fortsätta stå som olästa. Frånvaro av ett fött barn i den här familjens
+redovisade syskonlista bevisar inte att inget barn föddes under hela
+Blackstatiden. Ingen full barnräkning har därmed genomförts.

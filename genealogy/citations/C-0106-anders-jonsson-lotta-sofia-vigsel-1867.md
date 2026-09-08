@@ -77,3 +77,14 @@ ovan bevaras, men får inte längre åberopas som en otvetydig
 originalavvikelse. Detta är en kvarstående avläsningsfråga, inte ett
 belagt skrivfel. Egen födelsepost C-0872 bär fortfarande det accepterade
 datumet 1839-04-16. Brudens uppgifter omfattas inte av pilotens prövning.
+
+## Personbunden fullprövning och rättelse — T-0139, 2026-09-08
+
+Det lokala fulloriginalets hela relevanta vigselpost har visats på nytt. P-0145:s egen uppgift i hinderslöshets-/giftomannakolumnen är **Nämndem. Anders Olofsson i Rödå, Giftoman närvarande**. Posten har ingen egen födelsetid, ålder, maka eller far för giftomannen. Att han är brudens far bärs av den senare tillgodoräknade uttryckliga dotterraden i C-0111 tillsammans med denna personkorrelation; den äldre allmänna LEAD-slutsatsen ovan är därför överspelad i personmodellen.
+
+Lysning 6 januari och vigsel 28 januari 1867 består. Brudgummens dag 14/16 april är tidigare prövad i C-0877 och harmoniseras inte genom denna begränsade föräldraprövning. Brudens födelserad återger 17/10 1843 och hennes foliohänvisning läses nu 14/4[?] snarare än den äldre 14/2. Den lilla nämnaren är reserverad inför säker personbunden routing. Efterföljande pars anmärkningar överförs inte till målposten; målparets avgifts-/bilage- och särskilda anmärkningsfält saknar egen sakuppgift. Fullbildens befintliga fil/hash återanvänds.
+
+
+### T-0139: brudens reserverade folio efter andraläsning
+
+Brudens nedre foliosiffra läses bäst3:14/3[?]. Det ersätter både äldre14/2 och mellanläsningen14/4[?] som aktuellt sökförslag. Bildens svaga siffra förblir reserverad; ingen ny hushållsfolio har öppnats. Faderns närvarande giftomansroll ändras inte.

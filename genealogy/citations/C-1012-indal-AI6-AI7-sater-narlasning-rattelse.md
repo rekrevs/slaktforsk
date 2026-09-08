@@ -113,3 +113,7 @@ Rättelse av avskriften i C-0436 och C-0437; berör
 [P-0376](../people/P-0376-anna-cajsa-larsdotter.md),
 [P-0378](../people/P-0378-carl-johan-son-till-anders-dahlsten.md) och
 [P-0316](../people/P-0316-cajsa-marta-andersdotter.md).
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Den lokala originalprövningen inom T-0134 bekräftar **Stina Cajsa**, **Lars Johan** och den explicita orten **Indahl** med hustruns ditto. Ny avgjord datumläsning: hustrun uppges född **12 januari 1807** i både A I/6 och A I/7, inte 12 juli. Det raka månadstecknet i båda originalen är ettan; två läsare har prövat detta oberoende. A-4415 dokumenterar rättelsen. C-0847 innehåller följaktligen en positiv januari-kandidat som måste hållas separat tills en hushållsbrygga har prövats. Äldre juliargument ersätts; det är en avskriftsrättelse, inte en påstådd historisk datumändring. Båda makarnas övriga hela relevanta fält och prövade råreservationer finns i de nya tilläggen till C-0436/C-0437.

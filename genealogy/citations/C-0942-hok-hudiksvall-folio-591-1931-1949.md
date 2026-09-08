@@ -91,3 +91,27 @@ lokalisera.
 ## Stödda påståenden
 
 A-3536–A-3539 (P-0275), A-3540 (P-0239).
+
+## Tillägg T-0126, 2026-09-07: Augusta Elisabets hela egen rad
+
+Den redan lokalt sparade fullbilden har omlästs. Rad16 namnger dottern
+`Augusta Elisabet`, med yrkesfältet `f. handelsbitr.`, födelsedata
+`96 15/10` och `förs.`. Talet `770` står ovanför födelseåret och återges
+utan egen normalisering. I kolumnen för inflyttning läses `Sthlm,
+Storkyrkoförs.` och år1936 med dagen `21/8[?]`. Datumets läsreservation
+behålls tills exakt jämförelse med motsvarande flyttpost gjorts.
+Dödskolumnen ger tydligt `47 12/9`. Den korta anteckningen läses
+`Abm[?] 1/12 47[?]`; den görs inte till ett ytterligare döds- eller
+begravningsdatum. Egna kunskaps-/dop-/förhörsfält på rad16 är tomma.
+
+Namn, födelseåret1896, dagen15oktober, Hudiksvall, modern Anna Greta och
+systern Anna Matilda binder kvinnan till P-0280. Den avlidna1895-systern
+P-0370 är ingen kandidat till denna post. C-0410/C-0411/C-0460/C-0260
+stöder samma yngre identitet. Död1947-09-12 och yrket tillgodoräknas,
+men exakt dödsplats, dödsorsak och begravning framgår inte här.
+
+Moderns ägande-/adressnot får inte bli Augustas egen äganderätt. Broderns
+och systersonens missionsverksamhet och en äldre icke-döpt-markering
+bevisar inte hela familjens medlemskap i ett visst samfund. Personbundna
+uppgifter hålls skilda även när samma folio används. Originalbilden och
+registret finns lokalt med de hashar som anges ovan.

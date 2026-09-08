@@ -27,3 +27,22 @@ kommer från sida 563 under 1932 och hänvisas 1935 vidare till sida 1084.
 ## Stödda påståenden
 
 A-0049 och A-0153.
+
+## Lokal avstämning 2026-09-07 — T-0123
+
+Huvudet läses Norraberg, med gatunamn preliminärt ”Ö. Stam…vägen4”;
+hela gatunamnet reserveras. Arnes egen rad24 har värnpliktsnumret
+22 44/35, samma senare kända nummer. Det är en tidigare egen
+kyrkoboksuppgift, inte ett nytt oberoende tjänstgöringsbelägg.
+
+Förtydligad adressläsning efter oberoende detaljkontroll: Ö. Stambanevägen4
+vid Norraberg/Noraberg. Arnes rad24 har streck i kristendoms-/nattvardsfält
+11–12 och tomt13; detta tillgodoräknas som utvunna tecken, utan antaget
+betyg eller trosliv.
+
+## Egna familjefält — T-0129, 2026-09-08
+
+Karl Fredriks egen rad 22 har C/n i kristendoms-/nattvardsfälten.
+Övriga egna förhörs- och anteckningsfält är tomma. Den bokförda kedjan
+563 år 1932 → 948 → 1084 år 1935 är redan belagd; datumen får inte
+fyllas ut till exakta fysiska flyttdagar.

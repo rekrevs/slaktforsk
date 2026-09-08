@@ -58,3 +58,10 @@ uppslag. Ingen hushållssida är läst i denna passage.
 ## Stödda påståenden
 
 A-4085–A-4086.
+
+
+## T-0137: avstämning 2026-09-08
+
+Den partiella S-kontrollen kompletterades av C-1091. Korrigerade ortformer används, men inga identifierade föräldrar eller vuxenbryggor följer av registerrättelsen.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

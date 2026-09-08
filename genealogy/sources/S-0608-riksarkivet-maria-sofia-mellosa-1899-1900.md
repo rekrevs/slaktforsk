@@ -100,3 +100,7 @@ lästa bilderna redovisas i C-0788–C-0791 och mediamanifestet.
 ## Stödda påståenden
 
 A-3030–A-3035.
+
+## Rättad utgångspunkt och bevarad sökprovenans — T-0143, 2026-09-08
+
+Den egna Flensposten C-0788 anger Wadsbro/Vadsbro, bekräftat också på Maria Sofias rad i C-0579. Mellösa var en avskriftsmiss. Samtliga äldre Mellösasökningar, katalogpassager och åtkomsthinder bevaras exakt som historiskt genomförda kontroller, men de är ingen prövning av Vadsbro. De 13 flyttbilderna, 55 publicerade folkräkningshelvyerna och sju Stora Mellösabilderna finns lokalt; ingen ny bild har hämtats. Den nya mottagarvägen är en separat, ännu oläst passage. Namnet Elli är sedan T-0132 rättat till rollförkortningen Dott.

@@ -18,3 +18,10 @@ andra fungerar som oberoende bildteknisk kontroll. Bild 29 ger dessutom
 Charlotta Johanna, född 1854-07-02 i Kryckeltjärn till Johan Pettersson och
 Cathar. Charl. Jonsdotter. Datum, barn, föräldranamn och hemvist är tydliga;
 en titel och fadderkolumnen är delvis svårlästa och har inte överexpanderats.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Charlotta Johannas egen post har fullprövat dopnätverk och reserverade datum 2[4?]/7,3[9?]/7. Modern kallas dess fästm.[?],28 år; hemvist Kryckeltjern. Åtta individuella vittnen är bevarade, inte automatiska släktingar.
+
+Se [C-0208](../citations/C-0208-degerfors-C4-charlotta-johanna-fodd-1854.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

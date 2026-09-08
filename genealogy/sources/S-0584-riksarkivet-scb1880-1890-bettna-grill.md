@@ -52,3 +52,7 @@ Sex metadataoriginal bevaras lokalt:
 
 Tre fulloriginal med individuella dimensioner, storlekar och SHA-256 redovisas i
 [C-0750](../citations/C-0750-bettna-grill-1880-1890-hagbystugan.md).
+
+## T-0139: avstämning och proveniensgräns
+
+Det tidigare visuellt lästa 47 bildersomfånget har tre återfunna positiva fullbilder: A0056718_00859/00860 och A0056809_00146. De 44 saknade är A0056718_00848–00858 samt 00861–00872 (23), och A0056809_00145 samt 00147–00166 (21). Kontroll har gjorts mot filnamn, volym-/SCB-alias, metadata och /private/tmp. Metadata finns, men inga ytterligare bildkopior återfanns. [T-0321](../../wotan/dev-log/T-0321.md) äger exakt dessa 44 kopior; ingen utvidgad censusforskning. För Johanna gäller 1880 omfånget, för Carl båda åren. Positiva egna rader återbrukas; kopiebristen skapar inte automatiskt en ny saklig frånvaroslutsats.

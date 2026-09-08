@@ -30,3 +30,16 @@ Gäddelstadshushållet i C-0271.
 ## Stödda påståenden
 
 - A-1733–A-1734, A-1736–A-1737
+
+## Lokal omläsning2026-09-07, T-0124
+
+Fullbilden och förstoring av post1 visar **15januari1873**, inte13.
+Dopdagen är19januari. Root och oberoende omläsare läser samma15.
+Detta rättar den äldre kärnavskriften; grav- och vigselbokens15januari
+står därför inte längre mot en egen födelsepost13januari.
+Fadern skrivs arbetare Anders Magnus Carlsson, modern Charlotta
+Larsdotter; Gäddelstad och Hf71 består. Moderns ålder anges23;
+notisen har markering1:aBarnet och2år vid föräldrarna.
+Fadderkolumnen och dopförrättarens namn behöver full avskrift;
+namnet får inte hämtas från grannpost. Alla tidigare observationer
+bevaras här som avskrifts-/tolkningshistorik.

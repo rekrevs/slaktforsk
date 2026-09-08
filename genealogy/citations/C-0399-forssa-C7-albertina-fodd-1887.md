@@ -27,3 +27,19 @@ medicinskt samband infereras inte.
 ## Stödda påståenden
 
 A-2091–A-2092 och A-2094.
+
+## Nöddopsförrättaren och full post — T-0132, 2026-09-08
+
+Fullbildens post14 är prövad, inklusive den tidigare trunkerade
+anmärkningen. Albertina, född14oktober1887, flicka och äkta, barnnummer6.
+Torparen CarlssonErik och hustrun LarsdotterAnnaChristina i Svartgjötorp,
+fol83; åldersråtal36 och35 står vid respektive förälderrad i
+åldersområdet. Dop14oktober, förlossningsbiträdesfält Ex.-liknande
+förkortning. Fadder-, kyrktagnings- och särskilt förlossningsfält är
+tomma på målposten.
+
+Anmärkningen läses **`Nöddop för. af Fru Ch. Eriksson, Björkby[?].
+Barnet dog f. konfirm...`**. Ort och slutliga förkortning reserveras;
+innebörden är att barnet dog före dopets bekräftelse. **Modern anges
+inte som nöddopsförrättare.** Ingen medicinsk orsak till nöddopet
+eller särskild relation till fruEriksson härleds.

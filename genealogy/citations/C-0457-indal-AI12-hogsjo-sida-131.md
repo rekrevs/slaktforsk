@@ -36,3 +36,13 @@ de senare avvikelserna ersätter den äldre uppgiften utan en egen födelsepost.
 ## Stödda påståenden
 
 A-2206–A-2207, A-2209 och A-2211.
+
+## Tillägg 2026-09-07 — T-0120, personbunden konsolidering
+
+Den egna födelseposten C-0659 har nu säkrat Jonas till 1880-11-12;
+22 november ovan kvarstår som avvikande uppgift i denna senare längd.
+Katarina Amandas rad 4 har lästs på nytt i det bevarade fulloriginalet,
+oberoende av två granskare. Utflyttningskolumnerna anger `Timrå`, `N:o 4`,
+`10/2 1900`. Det är en bokförd utflyttning 1900-02-10, inte ännu en
+kontrollerad mottagarpost eller belägg för faktisk resdag. Den äldre
+formuleringen att flyttnoteringen inte används är passerad för denna rad.

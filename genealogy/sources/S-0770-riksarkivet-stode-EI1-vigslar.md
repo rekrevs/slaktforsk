@@ -59,3 +59,7 @@ Felet gällde framför allt **bild 24**, som angavs som `1841` men bär
 **1831–1832**: en trea läst som fyra. Bild 23 = 1830 stod rätt.
 
 Se [C-1031](../citations/C-1031-stode-EI1-1840-1841-negativ-nordlund.md).
+
+## T-0136: egen vigselpost och reproduktionsgräns 2026-09-08
+
+Den korrigerade årstabellen består: bild23 ger1830, medan äldre bild24=1841 var en felläsning. C-1024:s redan positiva fullpostavskrift återanvänds med dess nya begränsning av patronymikon och föräldrahem. Målbild A0010807_00023 saknas lokalt efter alias- och arbetskatalogsökning; T-0242 äger kopian. Äldre autentiserad framgång respektive ALTCHA i en annan åtkomstväg är historiska utfall, inte en aktuell spärrförklaring eller ett personnoll.

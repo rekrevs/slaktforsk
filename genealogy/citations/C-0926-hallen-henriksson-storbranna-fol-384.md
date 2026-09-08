@@ -81,3 +81,14 @@ denna.
 ## Stödda påståenden
 
 A-3482–A-3483 (P-0241), A-3484–A-3485 (P-0247).
+
+## Avstämning 2026-09-07 — T-0119
+
+C-0925:s bevarade Axelrad ger 1924-10-25 medan denna avgångsrad ger 1924-10-15. Foliohänvisningarna binder hushållen men dagarna är inte exakt reciproka enligt avskrifterna. Nils August Halléns födelseort Timrå här avviker från Tuna i C-0898/C-0930. Ivar Hennings datum 1918-09-28 här avviker från 1918-12-28 i C-0930. Båda avvikelserna kräver egen prövning, inte tyst normalisering.
+
+Lokal bildkontroll i T-0119 rättar C-0925:s Axelinflyttning till1924-10-15. Dagsskillnaden15/25oktober var en avskriftsavvikelse och är löst; se C-0925:s senaste tillägg. Hallénfamiljens övriga namn-/datumvarianter kvarstår.
+
+
+## Avstämning 2026-09-07 — T-0124
+
+T-0124:s två omläsare rättar styvfaderns födelseuppgift till 1875-01-19 i Tuna, med Timrå som inflyttningsort 1918-01-04. Nils Egnar och Ivar Henning 1918-09-28 bekräftas på dessa rader. Gertruds rad 2 har husförhör 1914. Se även C-0675:s samtidiga avstämning; den bildidentiska avskriften räknas inte som oberoende röst. Återstående fulla personfält följer T-0214.

@@ -80,3 +80,45 @@ Följande exakta lokala filer hör till källpaketet:
 ## Stödda påståenden
 
 A-2810–A-2812.
+
+## T-0139: fulla egna poster och rättade föräldrauppgifter
+
+Födelsepost 39 i den bevarade `C0007590_00021` visar Johanna, född 30 maj och döpt 31 maj 1819, hemmansbrukaren Jan Ericson och hustrun Lena Jonsdotter i Walla. Den uppgivna modersåldern är **34**. Dopvittnena är brukaren **Carl Eric Ersson** och hans hustru **Maja Jonsdotter** i **Hindricstorp[?]**, sonen **Pehr Larsson** i **Maglinge[?]** samt pigan **Greta Lena Larsdotter** i **Djulvekvarn[?]**. Ortreservationerna är prövade och bevaras; vittnena blir inte automatiskt släktingar. Inget särskilt kyrktagningsdatum eller dopförrättarnamn står i den löpande målposten.
+
+Walla sida 80, `C0007542_00090`, har Johannas egen dotterrad **1819 30/5 Malm**, `v` i koppefältet och tomma egna inflyttnings-, kunskaps-, årsvisa närvaro-, utflyttnings- och anmärkningsfält. Föräldrarna är brukaren Jan Ericson, här uppgiven född **1791 5/9 Björkvik**, och hustrun Lena Jonsdotter, här uppgiven född **1783 21/10 Malm**. Dessa tydliga rådatum rättar tidigare 9 maj respektive 31 oktober 1785; de är ändå senare uppgifter om föräldrarnas egna födelser. De får inte omvandlas till säkra födelseposter.
+
+Hushållsgruppen innehåller också Anna Maja Andersdotter, 1806 2/8; Eric Andersson, 1809 27/7; Anders Andersson, 1812 19/4; Cajsa Lena Jansdotter, 1816 13/8; och Brita Stina Jansdotter, 1821 22/10. Samtliga står med Malm som födelseort. De äldre Anders-patronymika barnens relation till Jan är inte automatiskt biologiskt faderskap; hushållsroller och möjliga syskonled måste hållas åtskilda. Ingen ny person eller biologisk koppling skapas här.
+
+B/1:s redan bevarade utflyttningspost 27 år 1841 har pigan Johanna Jansdotter från **Backstugan till Bettna**, kvinnokolumn 1, manskolumn streck och tomt dag-/månadsfält. Den belägger inte en exakt fysisk flyttdag eller en redan fullständig Walla–Backstugan-kedja. Matchningen till Bettna-vuxenpersonen vilar på namn, den tidiga exakta födelseprofilen, år och destination; senare hushållsdatum 30 april bevaras som råavvikelse mot denna födelse-/barndomskedjas 30 maj.
+
+### T-0139: slutlig detaljläsning av två äldre barnrader
+
+Ny detaljprövning av samma Walla-fullbild rättar ovanstående preliminära avskrift: **Eric Andersson 1809 27/9** och **Anders Andersson 1812 12/4**. Tidigare 27 juli/19 april var läsfel, inte alternativa originaluppgifter. Föräldra-/syskonbegränsningarna ovan består.
+
+## T-0141: Jans egen vuxenrad fullprövad
+
+2026-09-08: den bevarade Walla-fullbilden C0007542_00090 har återsetts
+med kolumnhuvuden och förstorade egna fält. Brukaren Jan Ericson är
+född enligt raden 1791 5/9 Björkvik. Egen kopporcell är tom; barnens v
+överförs inte till honom. Inflyttningsfältet har **1815** och en
+ort-/hänvisningsfras, preliminärt **Laffinge/Läffinge[?] L.M.[?]**. Detta är en
+positiv äldre söknyckel, men orten eller förkortningen är ännu inte
+säkert normaliserad. Den får inte automatiskt göras till viss socken.
+
+Läserkolumnerna har K-liknande markeringar och ett streck. Under 1819
+finns två bokstavsliknande nattvardstecken samt ett förhörstecken;
+1820 har små nattvardstecken och förhör; 1821 har g-liknande nattvard
+samt förhörstecken. Dessa är grafiska råmarkeringar och normaliseras
+inte till datum, skolbetyg eller personliga trosuppfattningar.
+De egna 1822–1823-fälten, avflyttningsår/-ort och Kropps- och Andliga
+lyten och lefnadsomständigheter är tomma. Ingen egen dödsnot eller
+mottagarfolio står där. Tomt årsfält är inte belägg för död/frånvaro.
+
+Hustrun och sex namngivna barnrader hör till den övre familjegruppen.
+Anna Maja Andersdotter 1806, Eric Andersson 1809 och Anders Andersson 1812
+får inte automatiskt Jan som biologisk far. Cajsa Lena Jansdotter 1816,
+Johanna 1819 och Brita Stina Jansdotter 1821 är dottermarkerade i gruppen;
+Johannas egen födelsepost säkrar uttryckligen föräldraparet. Den nedre
+gruppen har egen livstids-/inhysesnot för Brita Stina och efterföljande
+tjänsterader; deras händelser och släktskap överförs inte till Jan.
+Hela hans relevanta egenrad är prövad även vid grafiska eller tomma fält.

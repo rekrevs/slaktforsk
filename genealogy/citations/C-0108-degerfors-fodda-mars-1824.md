@@ -73,3 +73,10 @@ framåtlänken är olösta.
 ## Stödda påståenden
 
 A-0611–A-0619.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Den bevarade fullbilden 218 prövas som **marsavdelning**, inte dokumenterad full årgång. Dess sex marsposter ger ingen födelse 19 mars; påståendet `enda posten i årgången` får inte användas med större räckvidd än detta underlag. Johannes 9 mars har föräldrarna **Inhysesmannen Pehr Ersson** och hans hustru **Brita Malena Isaksdotter**, modern 39 år, hemvist Bergvall. Den äldre titelläsningen Torpar[?] är ersatt av Inhysesmannen. Något separat dopdatum finns inte i denna tabell.
+
+Kandidatpostens vittnesfält är prövat: inspector `W.Lauren.[?] Brunvall[?]` med fru; handlanden Anders Strömgren[?] med hustru; Enoch Eliasson[?] med hustru; lärlingen `Johs.[…]`; pigan Sara Greta Thomasdotter[?]. Svaga namn-/titelled kvarstår som råreservation. Dessa är kandidatbarnets dopnätverk, inte säkert P-0058:s. C-0205:s nya explicit namngivna far Pehr Ersson och 9 mars ökar överensstämmelsen men ersätter inte hushållsbryggan. Den äldre formuleringen att patronymikonet ensamt kräver en viss identifierad far är inte giltig.

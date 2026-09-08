@@ -144,3 +144,9 @@ IIIF-ytor. Ingen `Läsesal`- eller kopiebeställning öppnades eller skapades.
 ## Stödda påståenden
 
 A-3037–A-3040, A-3062–A-3065.
+
+## T-0139: observationsfilens kontrollsumma och sakrättelser
+
+Vid lokal kontroll 2026-09-08 har den länkade oförändrade observationsfilen `S-0610-riksarkivet-carl-fredrik-drill-bokulla-observation.json` SHA-256 **`ae4f93520ed85a6d35873f811f48aa830d12df95121517404207165a6c101670`**. Samma byteinnehåll finns i repots HEAD. Den äldre tabellens **`1de350811e0ef39a7c987dd42481d81a89bb3ce1dc60255ebf22cd6ccd6f9cd6`** bevaras som tidigare registrerad men matchar inte nuvarande fil. Ingen JSON-/bildfil har ändrats i denna kontroll. Den tidigare hashens exakta filversion har inte återfunnits; nuvarande fil behandlas som bevarad historisk arbetsobservation, inte ett nytt externt original eller en ny korrekt sakavskrift.
+
+C-0793:s T-0139-tillägg styr nu sakbedömningen: lappen är daterad 20 december 1840, de fyra attesterna är fullprövade, och den tidigare tillskrivna Jernbol-hushållsraden är avvisad som säker egen identifiering. Observationens gamla 22 december och positiva hushållskoppling är supersederade. Den nya kontrollsumman intygar filens byteinnehåll, inte att dess gamla genealogiska slutsatser fortfarande gäller.

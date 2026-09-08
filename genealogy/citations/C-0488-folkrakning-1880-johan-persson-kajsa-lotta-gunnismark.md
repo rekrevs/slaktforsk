@@ -25,3 +25,8 @@ Gunnismarkskedjan.
 ## Stödda påståenden
 
 A-1439, A-1443 och A-2269–A-2270.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Hela det bevarade folkräkningsoriginalet har prövats. Gunnismarks egen familjegrupp omfattar Johan Persson, inhysesman, född 1824 Degerfors i Västerbottens län; Cajsa Lotta Jonsdotter, född 1825 Umeå landsförsamling; Albert 1865 och Charlotta 1870, båda Sävar. Föräldrarna är markerade gifta och barnen ogifta. Egna lytes-, tros-/nationalitets- och särskilda anteckningsfält är tomma; inga ytterligare egna yrken eller familjemedlemmar finns i gruppen. Olof Wikboms hushåll ovanför och Nybygrupperna nedanför är skilda familjer. Fyra samtidiga personer 1880 är inte ett livstida barnantal.

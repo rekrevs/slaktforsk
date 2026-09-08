@@ -47,3 +47,8 @@ Detta är också det uppslag som "Wästby" i Ture Edvards födelsenotis 1904
 ## Stödda påståenden
 
 A-0434, A-0442, A-0447, A-0452 och A-0574–A-0576.
+
+
+## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
+
+Charlotta Cecilia Elisab. Gustafssons egen rad21 och familjerader20–23 har prövats över hela den sparade helbilden. Hon skrivs h., född83 14/1, Flen med länsförkortning, koppor/vaccination v, kunskaps-/nattvardsfält b/N (grafisk läsning, inte modernt skolbetyg). Familjens vigseluppgift är02 25/10; ingång G.B.p347. Egna förhörsår, frejd/övriga anteckningar, värnplikt och dödsfält är tomma. Utflytt/överföring följer familjens rad20: p185,04 11/11. Detta rättar den äldre prosans oavbrutna Wäsbyvistelse1904–1907: volymens år är inte vistelsetiden. Folio185 är en positiv ännu oläst fortsättning. Barnen Erik Axel02 22/6 och Ture Edvard04 4/2, båda Flen, namnges. Kopierad äldre bokuppgift ger inte oberoende födelse- eller vigselbevis.

@@ -38,3 +38,9 @@ födelsenamn.
 ## Stödda påståenden
 
 A-2166–A-2170.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Hela den bevarade originalposten har prövats, inklusive faddrar. Posten ligger på **högersidan**, inte vänstersidan. Cajsa Märta föddes **21 mars 1834** och döptes **23 mars**. Föräldrarna är bonden Anders Dahlsten och hustrun **Stina Cajsa Larsdotter i Säter**; moderns ålder **27**. Säter anger föräldrarnas hemvist, inte ett särskilt bevisat födelsehus. Ingen separat kyrktagnings- eller dopförrättarkolumn finns här.
+
+Faddrar, med prövade läsreservationer: bonden Pehr Aronsson och hans hustru i Åse; bonden Eric Larsson och hans hustru i Säter; `[titel svårläst] O. P. Söderberg` i Backen och bondedottern Märta Nilsdotter i Säter. De två förstnämnda hustrurna namnges inte individuellt. Ingen av faddrarna görs till säker släkting enbart på namn eller hemvist. Äldre avskrift bevaras ovan.

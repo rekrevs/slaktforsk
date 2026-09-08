@@ -64,3 +64,89 @@ bevaras uttryckligen.
 
 A-2535–A-2543.
 
+
+
+## Full personbunden databasavläsning — T-0138, 2026-09-08
+
+De redan bevarade bilderna d/e/f/h har lästs över hela den relevanta
+personvisningen. Nedan är databastranskriptioner, inte nya läsningar av
+arkivoriginal. Inga nya externa sidor har öppnats. Första bokserien i
+tabellen avser Ljustorp; de tre sena posterna avser Lagfors
+bruksförsamling. Rubrikens numeriska in-/uttyper lämnas som råkoder och
+görs inte till en egen civilstånds- eller flytthändelse.
+
+| Hindrics hänvisning i bild d | Namn, råform | Födelsefält | Titel | Databasens in-/utdatum och ytterligare fält |
+|---|---|---|---|---|
+| A I/1/HL/0039/013 | Henric Winroht | 1796 | Tomt | 1811–1812; boendeförsamling Ljustorp. |
+| A I/1/HL/0040/008 | Hindrik Winrot: | Tomt | Dr | 1812–1812; Ljustorp. |
+| A I/2/HL/0041/018 | Hindric Winroth | 1796-11-02 | Dr | 1812–1814; Ljustorp. |
+| A I/2/HL/0040/019 | Hindric Winroth | 1796-11-02 | Tomt | 1814–1816; Ljustorp. |
+| A I/2/HL/0043/016 | Hindric Vinroth | 1796-11-02 | Dr | 1816–1816; Ljustorp. |
+| A I/2/HL/0027/020 | Hindric Vinroth | **1796-11-08** | Tomt | 1816–1816; Ljustorp. Dagavvikelsen bevaras. |
+| A I/3/HL/0043/010 | Hendric Hindricss. | 1796-11-02 | Torp. | 1824–1827; Ljustorp. |
+| Lagfors A I/1/HL/0034/001 | Henric Henricsson | 1796-11-02 | Kohlaren | 1860–1870; födelseförsamling anges som Lagfors Bruksförsamling i databasen. |
+| Lagfors A I/2/HL/0030/010 | Henrik Henriksson | 1796-11-02 | Födorådstagarenf. D. Kohlaren | 1871–1875-01-05; vigsel 1819-10-31; upplösningsdatum 1850-02-13; samma databasfält för födelseförsamling. |
+| Lagfors C/1/DB/0099/020 | Henrik Henriksson | Tomt | F. Kolaren | Dödrad, utdatum **1875-01-05**, boendeort **Rundbacken**. |
+| A I/2/HL/0042/014, blek extrarad | Hindric Vinroth[?] | Ej säkert läsbart | Dr | Den svagt återgivna raden ser ut att ange 1812–1812[?]; årtolkningen reserveras inför originalkontroll. |
+
+Fälten för far och mor är tomma i biografins tabell och föräldralistan
+saknar personer. Partnerlistan namnger **Brita Flinkberg 1795-12-08**,
+`Partner, gift`. Barnlistan har **sex** länkade personer: Anna Greta
+Henriksdotter 1819-02-12, Kajsa Brita Henriksdotter 1824-03-13 och Maria
+Sofia Henriksdotter 1826-01-02 anges som `Dotter, biologisk`; Ingrid Stina
+Henriksdotter **1828-01-12**, Jonas Henriksson 1835-01-01 och Cecilia
+Henriksdotter 1836-02-14 har relationen `ej bestämd`. Sex databaslänkar
+är inte sex barn totalt. Ingrid Stinas egen sida i bild f har i stället
+**1828-01-18**; den interna databasavvikelsen lämnas synlig.
+
+| Britas hänvisning i bild h | Namn | Födelsefält | Titel | Databasintervall |
+|---|---|---|---|---|
+| A I/1/HL/0136/019 | Brita Flinkberg | 1795 | Pig | 1812–1812 |
+| A I/2/HL/0150/022 | Brita Flinkberg | 1795 | Tomt | 1812–1813 |
+| A I/2/HL/0028/018 | Brita Flinkberg | **1795-12-06** | Tomt | 1813–1816 |
+| A I/2/HL/0032/016 | Brita Flinkberg | **1795-12-08** | Pig | 1816–1816 |
+| A I/3/HL/0043/011 | Brita Flinkberg | 1795-12-08 | Tomt | 1824–1827 |
+
+Alla fem Britarader anger Ljustorp som **boendeförsamling**. Ingen läsbar
+födelseförsamling, orten Tynderö eller förälder anges i denna biografi.
+Hennes partner är Hindric Vinroth 1796-11-02, `Partner, gift`, och de tre
+äldsta döttrarna ovan listas som biologiska. Någon senare egen Britarad
+eller dödspost finns inte i bild h. Att Flinkberg förekommer före
+äktenskapet visar namnanvändning, inte att namnet måste vara ärvt från
+hennes far.
+
+Bild e återger parets och de tre döttrarnas A I/3-rader 010–014. Föräldrarna
+anges som gifta, med databasintervallet 1824–1827 och destination Lagfors
+Bruksförsamling. Anna Gretas indatum står 1827; Cajsa Britas och Maria
+Sofias indatum är deras födelsedagar. Detta är databasens registrering,
+inte fem självständiga flyttbevis. Egna födelseorts-, vaccinations-,
+vigsel- och upplösningsfält är tomma i de fem raderna.
+
+Bild f har Henric Henricsson som kolare på rad 001, 1796-11-02,
+1860–1870. Jonas Höglin 1835-01-01 följer på rad 002 med utår 1860 till
+Ljustorp; Cecilia 1836-02-14 på rad 003-20 med 1860 till Sundsvall.
+Ingrid Stina 1828-01-18 på rad 004-10 och arbetaren A. Berggren
+1823-12-13 på rad 003-10 har vigseldatum **1864-04-24** och utår 1864
+till Ljustorp. Dessa fält tillhör deras rader, inte Hindrics. Barnraderna
+Mathias 1854-09-14, Johan 1858-05-13 och Ingrid 1864-07-27 hör till
+sidans närmiljö; en biologisk relation till Hindric skapas inte genom
+radnärhet. Resterande sidrader bevaras i den fulla skärmbilden och har
+inte tilldelats målpersonernas livshändelser.
+
+### Konsekvenser och fasta originalmål
+
+Den tidiga namnformen finns redan i databasens 1811-led; den äldre
+förmodan om ett senare namnbyte efter giftermålet kan inte kvarstå.
+Namnkedjan och dagavvikelsen på sida 27 ska prövas i de sju fasta
+tidiga originalraderna i [T-0315](../../wotan/dev-log/T-0315.md).
+Lagfors A I/2 sida 30 och C/1 dödbok sida 99 ger precisa nya mål för
+[T-0314](../../wotan/dev-log/T-0314.md). **1875-01-05 är tills vidare en
+databasuppgift om Hindrics död.** Upplösningsdatum 1850-02-13 blir inte
+Britas dödsdag utan att originalets äktenskapsrelation och personpost
+prövats. Vigseluppgiften 1819-10-31 står kvar som databas-/registeruppgift
+mot C-0678:s avgränsade Ljustorpnoll. Ett sent positivt original kan
+förklara skillnaden men är inte redan läst här.
+
+C-0623:s familj 99 ger separat sekundärt stöd för Henrik 1829 som barn;
+C-0678:s konflikt mot familj 98 gäller nästa generation. Den äldre
+allmänna kandidattexten ovan ska läsas med dessa senare gränser.

@@ -45,3 +45,8 @@ inte längre en källintern konflikt.
 ## Stödda påståenden
 
 A-1382–A-1383, A-1410–A-1411 och A-1420.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Hela egen rad 7 har prövats. Den anger drängen Joh. Pehrsson **med hustru och dotter**, Säfvar och folio 327. Dotterordet var utelämnat i den äldre kortavskriften. Antalsledet ser `2 qv[?]` ut och reserveras; det är inte ett nytt år eller datum. Vänster datum är fortsatt **2/4[?]1856** mot hushållets 4/4. Övriga små streck, överlagrad text och bläckgenomslag har prövats utan säker ytterligare personuppgift. Flyttnoteringen räcker inte till fysisk avresedag.

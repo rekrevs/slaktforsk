@@ -78,3 +78,33 @@ Individuella checksummor redovisas i S-0562.
 ## Stödda påståenden
 
 A-0545, A-2752, A-2799, A-2812 och A-2833–A-2838.
+
+## Tillägg 2026-09-08 — T-0132, sonen Eriks egen rad 3
+
+Den bevarade originalbilden av sida 201 har visats och rad 3 prövats mot
+hela formulärhuvudet. SHA-256 stämmer. Sonen Erik står född **1851 30/1,
+Bettna**, i Carl Fredrik Grills och Johanna Jansdotters familj. V-tecken
+står i vaccinations-/kopporfältet. Ingen egen vigsel, död eller inflyttning
+är angiven i hans rad. Utflyttningshänvisningen är **p. 185, 67**, tidigare
+avstämd mot mottagarraden i C-0741; inget nytt externt flyttdatum följer.
+
+Kunskapskolumnerna innehåller grafiska grader/streck, inte modern
+skolbetygstext. Under 1866 års förhör står **10/11**; under 1867 års
+nattvard **14/4**. Ett blekt överlagrat mellanled ser ut som `15/7[?]`
+med förtecken; det är prövat men inte säkert normaliserat eller årsplacerat.
+Inga egna säkra anteckningar från 1868–1870 har identifierats här och
+fräjd-/enskilda anmärkningsfältet är tomt i hans rad. Systerns efterföljande
+tecken och senare datum får inte flyttas upp till Erik.
+
+Denna rad ger barndomsrelation och punktvisa kyrkliga uppgifter, inte
+belägg för alla mellanår från födelsen eller hans vistelse efter flytten
+1867. De egna synliga kolumnerna är prövade; tomma fält och reserverade
+rågrader räknas inte som oöppnade fält.
+
+## T-0139: föräldrarnas hela egna rader och rättade familjefält
+
+Den redan sparade fullbilden `C0005865_00188`, A I/16 b sida 201, har återlästs med kolumnrubriker. Carl Fredrik Drill står som soldat, född **1822 9/4 Halla**. Johanna Jansdotter står som hustru, född **1819 30/4 Stora Malm**. De tidigare juli- respektive majavskrifterna gäller inte denna bild; moderns april står däremot i verklig konflikt med maj i de tidigare hushållsböckerna. Båda har `v` i koppefältet och grafiska kunskapsbetyg, vilka inte översätts till modern skolgång. Deras egna inflyttnings-, vigsel-, döds-, utflyttnings- och anmärkningsfält är tomma.
+
+Carls egen rad har förhör 10/11 1866 och 21/11[?] 1867 samt nattvard 13/12 1868. Johannas rad har nattvard 14/4 1867 och 13/12 1868, förhör 10/11 1869 samt ett grafiskt tecken i förhörskolumnen 1870. Dessa personbundna iakttagelser är inte belägg för alla år eller obruten fysisk vistelse.
+
+Familjeraderna rättar också Johanna Mathilda till **1854 21/1** och äldre Hedda till **1859 29/10**. Maria Sofias redan belagda födelseprofil 1863-03-27 kvarstår. Barnens sid-/flyttnoter tillhör respektive barn och flyttas inte över till föräldrarna. Eriks redan särskilt utvunna rad och sin tids avflyttningsnoter återbrukas enligt tidigare tillägg.

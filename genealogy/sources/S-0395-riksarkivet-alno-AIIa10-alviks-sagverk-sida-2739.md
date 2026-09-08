@@ -23,3 +23,10 @@ Samtida löpande församlingsbok. Sidan förenar Kajsa med sonen Jonas Petter
 Johansson, hans hustru och tre barn och ger hennes fulla födelsedatum,
 födelseförsamling, änkedatum och dödsmarkering. Dödsdagen kontrolleras mot
 den separata död- och begravningsboken.
+
+
+## Metadatarevision — T-0142, 2026-09-08
+
+Egen fullbild `00173756_00220` finns i C-0492 och är personbundet prövad. Den äldre uppgiften att innehållsregistret lokaliserade folio 2739 till bild 220 saknar däremot återfunnen separat register-/metadatafil efter lokal aliasprövning. Det framgår inte om den då lästa ytan var bild, strukturerat innehållsregister eller en visningskomponent.
+
+Detta avgränsas i [T-0337](../../wotan/dev-log/T-0337.md) som proveniens för P-0059:s äldre dödspost → hushållsrouting. Ingen extra saknad hushållsbild 2739 räknas och inget godtyckligt bildnummer tilldelas innehållsregistret. Den senare personbundna konsolideringen av sonens familj använder den bevarade positiva fullbilden; routingobservationen blir inte ett eget negativt resultat för sonen.

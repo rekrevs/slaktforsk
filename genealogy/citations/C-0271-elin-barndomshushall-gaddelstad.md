@@ -37,3 +37,22 @@ vigselroutingen till Häradshammar; datumet verifieras självständigt av C-0557
 ## Stödda påståenden
 
 - A-1734–A-1738, A-2449
+
+## Lokal omläsning2026-09-07, T-0124
+
+Elins rad3 visar73 15/1, inte13/1. Moderns rad2 skriver **Carolina
+Larsdotter**, inteCharlotta i just denna bok. Charlotta kvarstår i
+födelsepostenC-0270; samma person korreleras genom make, datum och
+hushåll. Sida71huvud anger GäddelstadN:o1,1/3mantal skatte, ägare
+avlämnad till brodern Carlsson[?]; huvudets hela ägarfras behöver
+prövas innan den tillskrivs föräldrarna som personlig äganderätt.
+Elins barnrad har tomma läs-/kristendoms-/nattvards-/flyttfält.
+IdaCarolinas rad4 ser ut som75 15/8, inte5/8; hennes egen
+födelserouting skall pröva denna nya läsning före datumändring.
+
+
+## Tillägg 2026-09-07, T-0126: individuell lokal omläsning
+
+Anders Magnus egen rad 1 har läsvärden **ab, ab, ab** och förståelse **b**. Under förhör/nattvard läses 1871 N 3/9, 1872 F 6/11 och N 22/9, 1873 N 3/8, 1874 N 20/9 samt sista årskolumnens N 17/10 (årsrubriken inte utskriven efter 18). Ett svagt märke i första F-fältet kan inte säkert normaliseras. Egen frejd-/anmärkningsruta och egna in-/utflyttningsfält är tomma; hustruns Häradshammar 1870/58 gäller henne. Rubriken anger Gäddestad nr 1, **1/3 mt skatte**, och gemensam ägartext med flera namngivna personer, där Anders Magnus Carlsson i Gäddestad ingår. Detta är inte bevis för att han ensam ägde hela mantalet eller för ett köpdatum. Barnraden Ida Carolina har 1875 15/8. Den senare avskriftsformen 5/8 får inte tillskrivas detta original.
+
+Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.

@@ -51,3 +51,19 @@ Anna Albertina.
 ## Stödda påståenden
 
 A-0204, A-0206–A-0207 och A-0212–A-0237.
+
+### Rättelse 2026-09-07, T-0117: datum och tidigare outnyttjade kolumner
+
+Samma lokala original ovan visat av två granskare. Faderns dödskolumn
+läser `²³/₆ 99`,1899-06-23, inte den äldre avskriftens22juni.
+Det överensstämmer med egen dödnotis C-1044. Anders Alfreds och Anna
+Fredrikas giftkolumner läser `04 ³/₅`,1904-05-03; den äldre avskriften
+`04 5/3` var omkastad. Makarna identifieras oförändrat. A-4147 rättar
+A-0216; längdkopior räknas inte som oberoende vigselvittnen.
+
+Anders Alfreds värnpliktskolumn har `145[?] ¹⁷⁵/₁₈₉₀`; första talet är
+osäkert,175 och1890 läsbara. Det är en söknyckel, inget belägg för visst
+förband eller genomförd tjänst. Anna Fredrikas inflyttningsfält anger824;
+Anna Albertinas överföring är852,05. Hänvisningen N.B.1130 består.
+Ingen full utvinning av varje blekt markeringstecken har gjorts i denna
+kontroll; C-0049 och målposternas kvarvarande småfält tas i T-0205.

@@ -16,3 +16,8 @@ samlar fullständigt namn, titel, födelseuppgift, inflyttningsuppgift, föregå
 hustru, änklingsdatum, bostad och barn från första giftet. Uppgifterna om
 Olaus födelse är retrospektiva men vuxennära och överensstämmer exakt med
 Kungsholms inflyttningslängd 1876 och sonen Roberts födelsenotis 1878.
+
+
+## Rättelse 2026-09-08 — T-0128
+
+C-0474 anger 24 september 1852 och Alnö, medan C-0382/C-0383 anger 4 september. Exakt datumöverensstämmelse ovan återtas.

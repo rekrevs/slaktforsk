@@ -76,3 +76,20 @@ Ingen negativ slutsats om familjens vistelseort dras här: två sidor av en by
 ## Stödda påståenden
 
 A-3819–A-3822.
+
+## T-0136: avstämning 2026-09-08
+
+En registerhänvisning till byns första sida 231 blir inte ofullständig eller felaktig för att byn fortsätter på sida 232. Det tidigare påståendet om ett defekt register upphävs. Kontrollen av sidorna 231–232 är en giltig avgränsad nolla för de eftersökta namnen där, men ingen uteslutning för hela byn. Carl Fred: Sjöstrand på sida 231 är inte identifierad med Carl Fredric Andersson. Gårdvedas registeruppgift Ljungby Rusthåll 95 är en kandidatväg för dopvittnet; ortnamn och titel ensamma bevisar inte individens identitet. Gårdvedaregistrets exakta bild-id och beständiga kopia har inte återfunnits. Uppgiften om änka och ny make på sida 138 ska inte utvidgas till nya relationer utan egen prövning; för denna kontroll räcker att namnraderna avser andra personer än det sökta paret.
+
+## T-0136: avstämning 2026-09-08
+
+Återfunna mindre helvyer från den tidigare lokala bildserien har bevarats utan ny arkivhämtning. De ersätter inte ett påstående om kontroll i full originalupplösning, men bevarar faktiskt tillgängligt underlag. Sidorna138/158 finns sedan tidigare under C-0852.
+
+| Bild | Lokal helvy | SHA-256 |
+|---|---|---|
+| C0027187_00007 | [C-1029-malilla-AI5-C0027187_00007-bevarad-helvy.jpg](../media/C-1029-malilla-AI5-C0027187_00007-bevarad-helvy.jpg) | `c8bbe66da9262d1053f86d1ab3d73d96689e86ae50176c02900a7151af3b8a20` |
+| C0027187_00008 | [C-1029-malilla-AI5-C0027187_00008-bevarad-helvy.jpg](../media/C-1029-malilla-AI5-C0027187_00008-bevarad-helvy.jpg) | `6ee35d91511af73f91e092fb1cffcf475f27a9df0651a2af790d4e6db7765c34` |
+| C0027187_00009 | [C-1029-malilla-AI5-C0027187_00009-bevarad-helvy.jpg](../media/C-1029-malilla-AI5-C0027187_00009-bevarad-helvy.jpg) | `37c48de2f76ad17ff69bb7fbe240102b871d98cdc249279e6558e069ae04eada` |
+| C0027187_00173 | [C-1029-malilla-AI5-C0027187_00173-bevarad-helvy.jpg](../media/C-1029-malilla-AI5-C0027187_00173-bevarad-helvy.jpg) | `21fa7e99436e4e3c1e755f747aee6e741d44afefe38f9bb7f71bea782f966352` |
+| C0027187_00246 | [C-1029-malilla-AI5-C0027187_00246-bevarad-helvy.jpg](../media/C-1029-malilla-AI5-C0027187_00246-bevarad-helvy.jpg) | `11fa6237c30eb36024d5f64dd1d66cecef8a63d07b63feceb179816da20bef85` |
+| C0027187_00247 | [C-1029-malilla-AI5-C0027187_00247-bevarad-helvy.jpg](../media/C-1029-malilla-AI5-C0027187_00247-bevarad-helvy.jpg) | `b7dd4e7b72c0ebb6cee5dd09bfbab56a5c1d1b30f223f595dd9b490658956b95` |

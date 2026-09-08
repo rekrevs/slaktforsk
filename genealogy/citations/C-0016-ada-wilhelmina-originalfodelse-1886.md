@@ -49,3 +49,17 @@ i Sköldinge.
 ## Stödda påståenden
 
 A-0045, A-0055–A-0057, A-0076, A-0186, A-0189–A-0192 och A-0388–A-0389.
+
+
+## Omprövning i T-0125, 2026-09-07
+
+Den bevarade fullbilden och Adas egen rad har lästs om. Faderns hemvist
+är **Spånga**, inte den äldre avskriftens Gånga. Hemvist är inte i sig
+bevis för den exakta byggnad där barnet föddes. Födelse 1886-08-19 och dop
+1886-09-12 står kvar. Dopvittnena Carl Lundqvist och hustrun Caroline från
+Lugnet i Sköldinge är redan utvunna; de är inte ett ännu oläst namnpar.
+Den separata markeringen `(1)` vid barnets namn bevaras som råuppgift;
+dess fältfunktion är inte avgjord och den bevisar inte att Ada var moderns
+första barn. Moderns äldre son Sven framgår separat i C-1060/C-1062.
+Original och SCB-utdrag är beroende återgivningar, inte två oberoende
+observationer av födelsen. Äldre avskrift bevaras ovan som läshistorik.

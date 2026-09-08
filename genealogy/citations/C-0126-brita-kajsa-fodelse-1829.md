@@ -48,3 +48,32 @@ Datum och församling sammanfaller exakt med den vuxna Brita Kajsa i C-0127.
 ## Stödda påståenden
 
 A-0516–A-0517, A-0724–A-0727, A-0729, A-0755–A-0758, A-0796.
+
+## Avstämning 2026-09-08 — T-0137
+
+Den lokala läsvyn innehåller hela den relevanta korta födelseposten,
+inklusive fyra vittnesled och den lilla noten under barnets namn. Posten
+anger **Oäkta**, Brita Cajsa, född **21 oktober**, döpt **22 oktober** 1829;
+modern **Pigan Anna Lisa Jansdotter**, ålder **20**. Ingen far namnges.
+
+**Ortens äldre säkra normalisering Säfstugan återtas.** Ordet ovan moderns
+namn läses nu **Säfvesta[?]**. Det är inte samma skrivning som de två första
+vittnenas **Säfsta**, och det har inte genom ett ortregister bundits till en
+säker modern normalisering. Två oberoende läsare har prövat originalvyn.
+Detta är en avskriftsrättelse med bevarad läsreservation, inte belägg för
+flytt eller en andra mor. C-0137/C-0138:s faktiskt lästa Säfstugan-nollor
+kan inte längre beskrivas som säkra kontroller av födelsepostens boställe.
+
+Vittnena läses bonden Eric Jansson i Säfsta och hans hustru Cajsa Nilsdotter;
+**Hr[?] Fändriken Olof Fabian Nyström**; **Mamsell Ebba Gustava Arnell**.
+Fändriken är nu prövad titel, medan dess prefix reserveras. Ingen ytterligare
+ort står säkert på de två sista vittnesleden. Den lilla noten under barnet
+har `af ...` med överstruken del och en avslutande initial/form; hela den
+synliga noten har prövats men kan inte säkert normaliseras till förrättare
+eller datum. Den är inte en aldrig läst egen kolumn.
+
+Födelseposten har **inte** barnets senare patronymikon Pehrsdotter. Den får
+inte räknas som en av flera oberoende observationer av det namnet, och
+namnformen kan inte ensam identifiera någon Pehr som far. Bilden är en
+skärmbild men täcker den relevanta posten läsbart; filen matchar angiven
+SHA-256. Ingen fullbladsbrist påstås enbart på grund av skärmbildsformatet.

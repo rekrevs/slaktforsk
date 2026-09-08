@@ -64,3 +64,44 @@ förväxlingsförklaring.
 ## Stödda påståenden
 
 A-3837–A-3839.
+
+## Tillägg 2026-09-08 — T-0131, fullpostprövning och rättad vittnesavskrift
+
+Den redan bevarade fullbilden har återfunnits under en annan citations
+filnamn: [C-0306:s bild 17](../media/C-0306-riksarkivet-bygdea-C4-bild-17-fodda-februari-1830.jpg),
+`C0034040_00017`, 6 568 × 5 152 px. SHA-256 har kontrollerats:
+`492139aee795ceb5ed0cad85930b20ba8462d2f3606d01b63d5edd42528c30ce`.
+Det finns alltså **ingen kopieskuld för denna egen födelsepost**. Den äldre
+citationen saknade kopplingen till den befintliga fullbilden.
+
+Hela målposten längst ned på högersidan har nu prövats lokalt. Den bekräftar
+`April 16. 17. Jacob`, bonden Anders Olofsson och hans hustru Maria
+Jacobsdotter, uppgiven ålder **31**, samt **Häggnäs**. Något separat
+kyrktagningsdatum eller ytterligare personbunden marginalanteckning syns
+inte i målposten. Tomrummet under raden har också kontrollerats.
+
+Vittnesfältet har lästs av två granskare och den äldre avskriften rättas:
+
+> `Bond: Pehr Pehrsson och dess Hustru i Bjersjöh… [rå ortform reserverad].`
+> `Drängen [svagt förnamn] Pehrsson i [B/D…?; ort reserverad] och Pigan`
+> `Maria Pehrsd:r ibidem.`
+
+Bonden Pehr Pehrssons hustru är **onamngiven** i posten. Den äldre
+läsningen `Christina Pehrsdotter` kan inte upprätthållas. Det tidigare
+utelämnade mellanledet gäller en dräng; hans förnamn och den efterföljande
+orten har prövats men förblir råreservationer. `Ibidem` bevaras utan att
+normalisera den osäkra orten eller identifiera nya personer. Dessa
+läsreservationer är inte i sig kvarstående outvunna målkolumner.
+
+Födelsepostens datum och föräldrapar väger tyngre än den senare avvikande
+juliuppgiften. Däremot är den äldre förklaringen till avvikelsen inte
+belagd: förekomsten av en annan Jacob i juli visar inte hur `1830-07-16`
+uppstod i en senare bok. Inte heller förklarar sig skillnaden mellan
+Häggnäs och senare Ultervattnet själv; ett ortsbyte är möjligt, men denna
+födelsepost belägger ingen sammanhängande flyttningskedja.
+
+Årsindexet i S-0093 anger födelseåret 1830 på bilderna 14–22. Det återanvänds
+som tidigare dokumenterad läsning. Denna lokala eftergranskning har endast
+visat **bilderna 17, 18 och 20**, inte gjort om årskontrollen. Övriga sex
+årsbilder och manifestkopian har inte återfunnits lokalt. Den skillnaden
+ska hållas skild från den fullständigt bevarade egenposten på bild 17.

@@ -39,3 +39,8 @@ erkänt faderskapet. Hushållet hänvisas 1938 vidare till sida 860.
 
 A-0031–A-0032, A-0068–A-0069, A-0092–A-0093, A-0151, A-0154–A-0155 och
 A-0197.
+
+## Familjehänvisningens omfång — T-0123, 2026-09-07
+
+1938 års hänvisning860 gäller Majs nya äktenskapshushåll. Den innebär
+inte automatiskt att modern Hulda eller alla på sidan följde med.

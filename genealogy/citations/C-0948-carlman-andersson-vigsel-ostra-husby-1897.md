@@ -68,3 +68,23 @@ husförhörslängdens rad innan någondera dagen fastställs.
 ## Stödda påståenden
 
 A-3564–A-3566 (P-0242), A-3567–A-3568 (P-0243).
+
+## Lokal omläsning2026-09-07, T-0124
+
+Fulloriginalets post7 och förstoring har lästs av root och oberoende
+omläsare. Lysningsdagarna är **29augusti,5september och12september
+1897**, inte20och27augusti. Vigseln23september och Elins15januari1873
+består. Kolumn11 har1för vardera maken: första äktenskapet för båda.
+Kolumn13 är tom för paret. Hinderslöshetsbetyg från Ljungby, ingen
+släktskap, honmyndig/närvarande och hanskriftligansökan är utvunna.
+
+Fångpredikanten Carlman från Göteborg är en namngiven funktion och
+efterforskningsnyckel, men efternamn och bröders studier bevisar inte
+att han var en bror eller varför han förrättade vigseln. Uppgiften om
+familjens sammanhållning och en företagen släktresa upphävs som
+obestyrkt slutsats. Skriftlig ansökan belägger ansökningssätt, inte
+frånvaro vid alla lysningstillfällen eller själva vigseln.
+
+C-0270:s lokala original visar nu också15januari. Den tidigare
+konflikten med13var en felläsning av den egna födelseposten; senare
+datumkällor räknas inte som säkert oberoende utan känd uppgiftskedja.

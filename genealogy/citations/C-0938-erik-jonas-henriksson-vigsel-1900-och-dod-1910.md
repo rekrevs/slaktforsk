@@ -74,3 +74,8 @@ i inloggad session är båda läsbara.
 ## Stödda påståenden
 
 A-3515–A-3518 (P-0253), A-3519–A-3520 (P-0247).
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Arbetare 1900 och hemmansägare 1910 är två källbundna titlar. De fastställer inte en social uppflyttning eller att äktenskapet överförde Jönssons hemman; lagfart och faktisk ekonomi är inte undersökta här. Erik var 50 år vid döden, och sönerna Axel, Emil och Fridolf var 9, 3 och 1 år. Gertruds födelsedatum är en senare uppgift i vigselposten, inte hennes egen födelsenotis. T-0235 tillgodoräknar redan funnet Sköns bouppteckningsbestånd och prövar ett avgränsat digitalt registerspår.

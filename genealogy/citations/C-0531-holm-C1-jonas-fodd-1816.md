@@ -41,3 +41,25 @@ Se [C-1019](C-1019-holm-C1-1816-foraldraraden-radforskjutning.md).
 - Faderns patronymikon är inte säkert läst; **dopdagen läses `13`, inte `14`**.
 
 Texten ovan bevaras oförändrad som revisionsspår.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+Hela egen post har prövats i fulloriginal och förstoring samt oberoende
+andralästs. Rånamn Jones, född 1816-10-09, döpt 1816-10-13. Föräldrar
+Torp. Stephan [Steff…son?] och ux. Ingri Jonsd:r, hemvist Hullsj[ön?].
+Faderns patronymikon är prövat men fortsatt reserverat. Råfältet 30–35
+får inte bli två individuella åldrar eller ett exakt födelseintervall;
+fältets innebörd är inte säkert klargjord på detta uppslag.
+
+Sex vittnesled: bond Anders Jonsson i Matfors[?]; Ingri Olofsd:r i
+Lillhullsjön[?]; dr Anders Pehrsson och hustru Stina Andersd:r med svag
+ortsuppgift; dr Eric Månsson och hustru Lillia[?] Andersd:r med svaga
+ortsuppgifter. Bindningsskuggan och namntecknen har prövats utan säker
+vidare normalisering. Inget vittne blir släkting. Ingen egen säker
+marginal-, död- eller kyrktagningsnot framgår. A-4549.
+
+Pehr Simonsson på nästa barnpost är redan korrekt avskild i C-1019.
+Stephan är förenligt med patronymikonet Stefansson, men bevisar inte att
+Jonas själv använde just den stavningen eller hur CEDAR skapade sin
+namnform. Den äldre utsagan att databasen därför måste vara riktig
+begränsas; den verkliga radförskjutningen är rättad. A-4550.

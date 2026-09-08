@@ -32,3 +32,19 @@ biografiskt påstående. Datumet 18 februari rättar den första felläsningen
 ## Stött påstående
 
 A-2470.
+
+## Fullposträttelse 2026-09-08 — T-0133
+
+Hela målbilden och post 13:s båda sidor har nu prövats mot rubrikerna;
+SHA-256 stämmer med ovan. **Dödsorsaksfältet är tomt**, inte en
+identifierad men svårläst dödsorsak. Den tidigare beskrivningen återtas.
+
+Egen post: Axel, son till `Bond.` Johan Peter Zingmark och Sara Sophia
+Pehrsdotter i Botsmark; död **18 februari 1865**, begravd **5 mars**;
+manligt kön, ålder **10 månader 25 dagar**, husförhörshänvisning **603**.
+Årsåldersfältet är tomt. Eget civilståndsfält, betygsnummer från läkare
+eller barnmorska, uppgift om död i anstalt/annorstädes/utomlands samt
+särskild anteckning är också tomma. Ingen vårdinrättning, särskild
+dödsort eller vårdintyg får härledas ur de tomma fälten. Botsmark är
+föräldrarnas angivna hemvist. Dessa tomma fält är prövade och utgör
+ingen återstående utvinningsbrist.

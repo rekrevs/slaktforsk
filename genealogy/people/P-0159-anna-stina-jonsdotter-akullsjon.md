@@ -11,10 +11,11 @@ Maria Christina Hansdotters mor, hustru i Åkullsjön 1840.
 | A-0708 | Anna Stina Jonsdotter var mor till Maria Christina, född 1840-10-17 i Åkullsjön. | TRANSCRIBED | hög | [C-0121](../citations/C-0121-maria-christina-fodelse-1840.md) | Samtida födelse- och dopbok. |
 | A-0736 | Hon gifte sig 1820-10-29 med Hans Nilsson och kallades då bondedotter från Degerfors. | CORROBORATED | hög | [C-0130](../citations/C-0130-hans-anna-stina-vigsel-1820.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Samtida vigselnotis och sekundär personpost. |
 | A-0737 | Namnformen i vigselnotisen är Anna Stina Jonsdotter; en sekundär post skriver Anna Christina Jonsdotter. | TRANSCRIBED | hög | [C-0130](../citations/C-0130-hans-anna-stina-vigsel-1820.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Stina är vanlig kortform av Christina, men båda formerna bevaras. |
-| A-0738 | Den sekundära posten anger födelse 1794-12-26 i Ytteråträsk, Sävar församling, och död 1873-03-14 i Åkullsjön. | LEAD | medel | [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Sävar avviker från vigselnotisens Degerfors; födelse- och dödsuppgifterna är inte originalverifierade. |
+| A-0738 | Den sekundära posten anger födelse 1794-12-26 i Ytteråträsk, Sävar församling, och död 1873-03-14 i Åkullsjön. | LEAD | medel | [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Sävar är uppgiven födelseort, Degerfors är vigselns ursprungshänvisning; födelse- och dödsuppgifterna är inte originalverifierade. |
 | A-0739 | Degerfors C/1 saknar helt eller delvis uppgifter 1792–1795 genom utrivna blad. | TRANSCRIBED | hög | [C-0131](../citations/C-0131-degerfors-arkivlucka-1793-1794.md) | Riksarkivets egen volymanmärkning. |
 | A-0794 | Riksarkivets register omfattar Sävar först från 1823 men Umeå landsförsamling från 1722. | TRANSCRIBED | hög | [C-0135](../citations/C-0135-savar-umea-landsforsamling-tidsomfang.md) | Den sekundära Sävar-etiketten för 1794 öppnar därför ingen separat Sävar-registerperiod; det äldre Umeå landsförsamlingsspåret är redan kontrollerat. |
 | A-0795 | Umeå landsförsamling C/4 saknar en motsvarande Anna Stina/Christina Jonsdotter på och kring 1794-12-26. | TRANSCRIBED | hög | [C-0136](../citations/C-0136-umea-landsforsamling-negativ-anna-1794.md) | Exakt negativ kontroll för den privata ansedelns Sävar-etikett och datum. |
+| A-4361 | Vid dottern Maria Christinas födelse 1840-10-17 anges Anna Stina Jonsdotters ålder som 45 år. | TRANSCRIBED | hög | [C-0121](../citations/C-0121-maria-christina-fodelse-1840.md) | Uppgiven modersålder är ingen exakt födelsedag; den privata ansedelns 1794-12-26 prövas separat. |
 
 ## Relationer
 
@@ -58,7 +59,7 @@ sidor i samma privata databas och är inte oberoende verifierad.
   kontrollerade. Ansedelns Sävaruppgift öppnar ingen volym — Sävars register
   börjar först 1823.
 - Kvarstående lucka: födelsen och föräldrarna kan inte verifieras i den
-  förväntade originalkällan. Den privata ansedelns Sävaruppgift är en konflikt,
+  förväntade originalkällan. Den privata ansedelns Sävaruppgift är en oprövad födelseort,
   men öppnar ingen separat Sävar-volym för 1794; det relevanta äldre Umeå
   landsförsamlingsspåret är redan negativt kontrollerat. Inga föräldrar
   registreras från patronymikonet eller ett privat släktträd.
@@ -69,3 +70,12 @@ sidor i samma privata databas och är inte oberoende verifierad.
 - Källbredd: `KLAR` — fysisk Degerforslucka och två alternativa
   församlingskontroller är dokumenterade; en ny originalnära hushålls- eller
   flyttnyckel krävs för återstart.
+
+## Konsolideringsrättelse — T-0131
+
+Den egna dotterns fulla födelsepost tillgodoräknad. T-0165 äger full akt-/profilgranskning, T-0267 det fasta Åkullsjönshushållet.
+
+
+## Konsolideringsrättelse — T-0139
+
+C-0130/C-0134 prövade: födelseort och ”ifrån Degerfors” är olika fält, inte i sig en konflikt. Äldre formulering ”Sävar avviker från vigselnotisens Degerfors” ersatt. Arkivluckan består inom Degerforsboken men bevisar inte hennes födelsesocken. T-0165 äger full adoption och omprövning av äldre slutstatus; T-0267 äger det fasta Åkullsjönshushållet.

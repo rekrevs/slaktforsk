@@ -20,3 +20,9 @@ erkännande/faderskapsbelägg återstår.
 
 A-0075 och A-0150.
 
+
+## Beslutsavstämning 2026-09-07 — T-0123
+
+PCD-2026-08-20-001 fastställer Bernhard som Arnes far, OWNER_CONFIRMED.
+Äldre formuleringar om fortsatt sökande efter faderskapsbevis är historik,
+inte aktuell bevisbörda. Inget ytterligare faderskapsbelägg krävs.

@@ -61,3 +61,11 @@ Sidan är omläst i närbild ur det lokala fulloriginalet inom T-0100, se
   Samma läsning ger `A I/6` sida 185.
 
 Avskriften ovan bevaras oförändrad som revisionsspår.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+Båda makarnas hela relevanta rader och familjens barnrader är prövade i det bevarade fulloriginalet. Hustrun är **Stina Cajsa Larsd:**, uppgiven född **1807-01-12**. Anders har **1800-10-22** och utskrivet **Indahl** som födelseort; hustruns rad har ditto. Detta är senare kyrkoboksuppgifter, inte egna födelseposter eller två oberoende ursprungsundersökningar.
+
+På bådas rader: koppor `v`, grafiska kunskapsmärken; egna Frejd-, Äktenskaps-, Hvarifrån-, Hvarthän- och anmärkningsfält är tomma. Årsrutornas förhörsmärken och nattvardsdatum är prövade: 1847 Anders `25/7[?]`, Stina `28/3[?]`; 1848 båda `2/4`; 1849 `1/4`; 1850 `9/6`; 1851 grafiskt förhörsmärke utan nattvardsdatum; 1852 `21/3`; 1853 Anders `6/3` och `6/4[?]`, Stina `6/3` och `6/11`; 1854 båda `2/7`. Svaga råtecken lämnas reserverade utan att göras till oprövad fullpostskuld. Det finns ingen egen utflyttnings- eller dödsanteckning som hittills hållits undan i avskriften.
+
+Sidhuvud **Säther nr 1, 4⅞ mtl** är fastighetens bokföringsrubrik, inte makarnas individuella andel. Lars Johans 5 juli avviker från egenpostens född 3/döpt 5 juli i C-0435. Den yngre Anders Olofs hushållsmånad reserveras mot äldre aprilläsning; egenposten anger 22 augusti 1844 enligt C-0439. Erik föddes 11 december 1847 enligt C-0440. Den kända gruppen omfattar fem barn på denna sida och sju olika barn tillsammans med A I/6; det är inte ett bevis för att familjen aldrig hade fler barn.

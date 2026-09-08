@@ -91,3 +91,7 @@ dessutom med 1835, så något 1836 finns inte i volymen.
 ## Stödda påståenden
 
 A-3882–A-3888.
+
+### Konsolidering 2026-09-07
+
+T-0117: A-4136 bevarar konflikt mellan avskriftens moder27år och C-0197/C-0199:s födelsedatum1798-09-23, vilket ger36år vid sonens födelse1835. Åldern är inte omtolkad till säker faktisk ålder; exakt originalutvinning iT-0205.

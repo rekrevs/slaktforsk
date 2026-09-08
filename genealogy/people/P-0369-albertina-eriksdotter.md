@@ -11,6 +11,7 @@ sidoperson utan en egen fortsättningsgren.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2092 | Albertina föddes och nöddöptes 1887-10-14 i Svartgjölstorp som sjätte barnet till Erik Carlsson och Anna Christina Larsdotter; hon dog och begravdes samma dag, med dödsorsaken `Svaghet`. | CORROBORATED | mycket hög | [C-0399](../citations/C-0399-forssa-C7-albertina-fodd-1887.md), [C-0400](../citations/C-0400-forssa-C7-albertina-anna-christina-doda-1887.md), [C-0398](../citations/C-0398-forssa-AI17-svartgjolstorp-sida-83.md) | Födelse-, dop-, död- och hushållsposterna sammanfaller. |
+| A-4387 | Nöddopet förrättades av fru Ch. Eriksson i Björkby[?]; anteckningen säger att barnet dog före dopets bekräftelse. | TRANSCRIBED | hög | [C-0399](../citations/C-0399-forssa-C7-albertina-fodd-1887.md) | Modern är inte förrättare. Ort och slutlig förkortning reserveras. Inget medicinskt orsakssamband till moderns senare död antas. |
 
 ## Relationer
 
@@ -23,3 +24,7 @@ sidoperson utan en egen fortsättningsgren.
 
 Livsloppet och föräldrarna är fullständigt säkrade inom den enda dagen
 1887-10-14. Ingen ytterligare gren finns att följa.
+
+## Konsolideringsrättelse — T-0132
+
+Full akt-/profilgranskning ägs av T-0194. C-0399/C-0400:s hela relevanta egna poster har nu prövats; inget nytt arkivbesök.

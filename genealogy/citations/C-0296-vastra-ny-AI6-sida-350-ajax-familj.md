@@ -53,3 +53,25 @@ födelseort för Carl Johan och Adolf Fredrik motsäger A I/8:s `V. Ny`. Datumet
 ## Stödda påståenden
 
 A-1841–A-1845, A-1848–A-1858.
+
+## T-0135: fullpostprövning och rättelser 2026-09-08
+
+Hela den relevanta Ajax-gruppen och den anslutande separata kvinnans rad har prövats över båda sidorna i befintligt fulloriginal. Ny avgjord rättelse: **Carl Johan uppges här född5december1818**, inte17december; S.-markören och Hammar-ditto står kvar. C-0299:s född5/döpt6december stämmer alltså med denna tidigare hushållsbok, medan A I/8 har17december. Ingen tvåbokskonflikt får fortsätta beskrivas som samstämmig17december.
+
+| Personrad | Egna kärnfält och lästa kompletteringar |
+|---|---|
+| Petter Ajax | Rumormästare, Mot.1791, hit Hammar22; dag/besked tomma, koppor v och läskunskaper a/a/a. Årskolumner tomma. Egen genomstruken anmärkning `föräldrarna ha ... [svårläst]` reserveras utan antagen innebörd; ingen egen positiv utflyttning eller död. |
+| Cath. Jonsd:r | H., W. Ny1792 21/3; hitkomst/besked tomma, koppor v[?], läskunskaper ab/b/b. Årskolumner och egen utkolumn tomma. |
+| Anna Gustava | D., Hammar1817 4/4; överstruken. Koppor v, läskunskaper a/ab[?]/ab med svaga egna försvarsmärken. Hit-/utflyttningsfält och årsrutor tomma. |
+| Carl Johan | S., dito1818 **5/12**; överstruken. Koppor v, innantill ab, övriga svaga prövade tecken; hit-/utflyttning och årsrutor tomma. |
+| Adolph Fredrik | S., dito1821 25/7; koppor v, svaga prövade kunskapstecken. Inga positiva egna flytt- eller årsfält. |
+| Carl Gustaf | S., W. Ny1823 14/11; koppor v, svaga prövade kunskapstecken. Inga positiva egna flytt- eller årsfält. |
+| Carolina | D., dito1826 28/1; koppor v, svaga prövade kunskapstecken. Inga positiva egna flytt- eller årsfält. |
+| Anna Josephina | D.,1828 4/9, överstruken; **+1829** i utkolumnen. Detta är dödsår, inte flyttort. |
+| Frans Ludvig | S.,1830 9/5; egna flytt- och anmärkningsfält tomma. |
+| Separat Pig/H. Lena Cajsa Trolle[?] | Namn och roll överstrukna/reserverade; födelseort Wadstena[?], år1770[?], dag1/1. Egen anmärkning **Mannen bor i Wadstena**, uttext Ö. [ort svårläst]. Personen sammanförs inte med Catharina Jonsdotter. |
+| Adelia/Adelide Amalia | D.-rad **under den separata kvinnan**, W. Ny1832 26/12, koppor v; egna flyttfält tomma. **Radplaceringen bevisar inte att Petter Ajax och Catharina Jonsdotter är hennes biologiska föräldrar.** C-0291:s familjegruppering och denna placering måste bevaras som skilda källuppgifter. |
+
+En struken ytterligare arbets-/boenderad mellan Frans och den separata kvinnan är prövad men namnet osäkert, och görs inte till ett nytt barn. Senare nedersta inhysesgrupp är avskild från Ajaxfamiljen. Ingen uppgift i den gruppen tilldelas barnen. Prövade svaga tecken är inte olästa fält; generisk saknad årsnot är inte bevis att barnen bodde obrutet hela volymperioden.
+
+Kopieprövning: denna positiva fullbild finns med hash ovan. S-0231 uppger också en äldre sektionskontroll s346–356. C-0295 bevarar179/register220 och denna citation181; bilder180/182/183/184 har ännu inte återfunnits efter bild-id-, serienamns- och lokala /tmp-aliasprövningar. Det är en konkret kvarstående proveniensgräns för den äldre sektionskontrollen, inte brist på det positiva familjeoriginalet.

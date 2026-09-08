@@ -3,9 +3,11 @@
 ## Identitet
 
 Född 1836-02-14. Identifierad i Ljustorps hushållslängd och Familia samt
-som dopvittne i Bredsjö 1856. Nybergs familj 99 gör henne till syster till
-Henrik Henriksson född 1829 och dotter till Hindric Henriksson och Brita
-Flinkberg.
+som dopvittne i Bredsjö 1856. Nybergs sekundära familj 99 namnger henne som syster till Henrik
+Henriksson född 1829 och dotter till Hindric Henriksson och Brita Flinkberg.
+Den korroborerade bedömningen stöds av de personidentifierade
+kyrkobokskedjorna; registrets beroende av böckerna ger inga extra
+oberoende röster. Familias etikett ej bestämd är fortsatt synlig i C-0593.
 
 ## Påståenden
 
@@ -26,3 +28,19 @@ Flinkberg.
 
 Källutlöst sidoperson. Egen födelsenotis och senare livslinje återstår.
 
+
+## Minimal följdavstämning från T-0138
+
+2026-09-08: föräldrauppgifternas källberoende förtydligat. Faderns nya
+databasrouting till död 1875 och upplösningsdatum 1850-02-13 identifierar
+inte automatiskt moderns död eller en egen arvshändelse. Föräldraparet
+följs i T-0314; denna sidopersons fulla akt-/profilinförande ägs av
+[T-0201](../../wotan/dev-log/T-0201.md), inom dess fasta kohort. Ingen ny
+profil eller fullgranskning påstås utförd i denna minimala rättelse.
+
+### Tidigare identitetsformulering
+
+> Född 1836-02-14. Identifierad i Ljustorps hushållslängd och Familia samt
+> som dopvittne i Bredsjö 1856. Nybergs familj 99 gör henne till syster till
+> Henrik Henriksson född 1829 och dotter till Hindric Henriksson och Brita
+> Flinkberg.

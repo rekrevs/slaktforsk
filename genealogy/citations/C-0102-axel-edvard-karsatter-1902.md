@@ -46,3 +46,8 @@ sannolika vigselförsamlingen. Helgestas lysnings- och vigselbok E I/2
 ## Stödda påståenden
 
 A-0434, A-0443 och A-0579–A-0581.
+
+
+## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
+
+Charlottas egen rad11 och familjerader10–12 har prövats över hela helbilden. Hon skrivs h.Charlotta Cecilia Elisab.Gustafsson,83 14/1,Flen, koppor v; b/N i kunskaps-/nattvardsfält. Familjens vigseldatum02 25/10; hon kommer från Helgesta med familjens datum02 27/10, medan mannens ursprung är349. Hennes ursprung ska inte bytas till mannens Brosätterfolio. Familjen till p347,03 8/5. Egna förhörsår, frejd/övriga anteckningar, värnplikt och dödsfält är tomma. Ingen vigselort skrivs; Helgesta är en motiverad sökingång, inte ett säkerställt vigselfaktum.

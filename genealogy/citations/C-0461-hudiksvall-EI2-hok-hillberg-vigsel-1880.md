@@ -33,3 +33,31 @@ källkonflikt.
 ## Stödda påståenden
 
 A-1996–A-1997, A-2113 och A-2123.
+
+## Lokal fullpostsläsning 2026-09-07 — T-0126
+
+Den redan bevarade fullbilden har återvisats tillsammans med detaljer av
+lysningspost 4 och vigselpost 6. Brudgummen kallas snickare från
+**Qvarnåsen i Grythyttan, Örebro län**; orten har lästs av två granskare.
+Detta är en konkret hemvist- och mellanortsnyckel före vigseln, inte en
+slutförd flyttkedja från Hällefors.
+
+Lysningsdagarna är **8, 15 och 22 februari 1880**. Noten säger
+**Ogifte** och **Faderns muntliga bifall**. Faderns namn står inte i
+noten; den tillskrivs inte automatiskt brudgummens far. Anna Greta kallas
+Jungfru och har en egen bostads-/bokhänvisning, **497 (2:252)**, vars
+exakta formulärfunktion återstår att hantera. Hänvisningen till vigseln
+är nr 6. De båda födelseuppgifterna 1853-08-21 respektive 1857-06-09
+står kvar.
+
+Vigselpost 6 ger 1880-02-27 och **vigd af Schwartz**. Den tidigare
+utelämnade avslutningen läses **Attest afsänd till Pastorsämbetet i
+Grythyttan d. 28/2[?] 1880**. Dagläsningen 28 reserveras; mottagaren
+Grythyttan är tydlig. Datum för avsänd attest är inte en inflyttningsdag.
+De två ettorna i kolumnen för gifte anger första giftet för båda; inget
+namn på förälder eller vittne läggs till därifrån. Fullbild och tidigare
+SHA ovan tillgodoräknas; ingen ny arkivåtkomst har gjorts.
+
+A-4256 i P-0276 återger den nya hemvistnyckeln. Övriga återstående direkta
+hänvisningar hanteras i avgränsad följduppgift, inte genom generell
+års- eller församlingssökning.

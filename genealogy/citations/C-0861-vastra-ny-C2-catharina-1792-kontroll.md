@@ -28,3 +28,8 @@ och samtliga fyra årgångsbilder är lokalt bevarade.
 ## Stödda påståenden
 
 A-3254.
+
+
+## T-0141: full relevant postprövning, 2026-09-08
+
+Den tidigare fullständiga årskontrollen av 1792 återbrukas. Nollutfallet gäller de prövade namn-/datumprofilerna, inte att Catharina omöjligen föddes i socknen. Formuleringen i äldre personakt om en annan Cathrinas "oförenliga föräldrapar" gick för långt: P-0267:s egna föräldrar är inte kända, så andra föräldranamn kan inte ensamma utesluta identitet. Den andra notisen har ett annat datum och saknar personbunden brygga till Ajax-hustrun. Hon sammanförs därför inte med P-0267, men ingen obelagd föräldrakonflikt används som motbevis. Ingen ny årgångsläsning eller extern sökning har utförts här.

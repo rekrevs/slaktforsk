@@ -83,3 +83,8 @@ föregående församlingsbok, där ankomsten 1894-12-01 ska stå.
 ## Stödda påståenden
 
 A-3521–A-3524 (P-0253).
+
+
+## Avstämning 2026-09-07 — T-0124
+
+På A II a/1 sida 211 rad 21 står den reserverade läsningen Svag[?] i kolumn 12 för kristendomskunskap, inte i frejdkolumnen. Egna markeringar i kolumn 11/13 och Värn.-anteckningen skall bevaras i full fältavskrift enligt T-0231. En ensam personrad utan angiven hustru/barn bevisar inte att han saknade ett eget hushåll. Den återfunna Holmkedjan är positiv; formuleringen sluten i varje led får inte dölja den äldre barndoms-/uppväxtluckan.

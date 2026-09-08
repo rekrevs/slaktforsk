@@ -9,6 +9,7 @@
 | A-0710 | Hennes föräldrar var bonden Jakob Isaksson och Anna Stina Andersdotter i Ultervattnet. | TRANSCRIBED | hög | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | Samtida födelse- och dopnotis. |
 | A-0711 | Hon vigdes 1826-10-08 i Bygdeå med Anders/Andreas Olofsson från Häggnäs. | TRANSCRIBED | hög | [C-0123](../citations/C-0123-andreas-maria-vigsel-1826.md) | Originalets datum föredras framför ett avvikande privat sekundärträd. |
 | A-0714 | Födelsenotisens Maria i Ultervattnet är samma person som vigselnotisens Maria och den senare änkan i Ultervattnet. | CORROBORATED | hög | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md), [C-0123](../citations/C-0123-andreas-maria-vigsel-1826.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md) | Namn, ort, ålder, make och son bildar en sammanhängande kedja. |
+| A-4359 | Sonen Jacob föddes 1830-04-16 och döptes 17 april i Häggnäs; födelseposten namnger bonden Anders Olofsson och hustrun Maria Jacobsdotter, modern med uppgiven ålder 31. | TRANSCRIBED | hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | C-0069:s senare hushåll och sonens datum i C-0425/C-0427 binder posten till familjen. Ingen automatisk obruten Häggnäs–Ultervattnet-kedja. |
 
 ## Relationer
 
@@ -28,3 +29,7 @@
 - Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
 - Källbredd: `KLAR` — egen födelsenotis namnger båda föräldrarna och
   vigsel-/hushållskedjan säkrar den vuxna identiteten.
+
+## Konsolideringsrättelse — T-0131
+
+Föräldrarelationen har nu egen samtidig födelsepost. Tidigare hushållsargument bevaras men är inte längre enda belägg. T-0165 äger full akt-/profilgranskning; T-0267 den fasta tidiga hushållspassagen.

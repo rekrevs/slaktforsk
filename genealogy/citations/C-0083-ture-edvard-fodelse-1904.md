@@ -44,3 +44,8 @@ och ersätter den tidigare läsningen 1881-05-30.
 ## Stödda påståenden
 
 A-0434, A-0436–A-0437, A-0441–A-0442, A-0444–A-0445 och A-0451–A-0454.
+
+
+## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
+
+Ture Edvards hela post2 har prövats på den sparade helbilden med kolumnrubriker. Födelse1904-02-04, ett levande äkta gossebarn. Föräldrar Axel Edvard Eriksson, arbetskarl Wästby,81 20/3, och h.h.Charlotta Cecilia Elisab.Gustafsson,83 14/1; modern har markering i Gift, inte ett antal tidigare barn. Folio212. Dop28februari av past.adjunkten D.Nilsson. Faddrar torparen Johan Albert Skilfors[?] och hans ej namngivna hustru i Bergatorp; efternamnet är prövat men reserverat. Moderns kyrkotagningsfält och särskilda anteckningar är tomma i denna post. Födelsebokens församling och föräldrarnas hemvist ersätter inte en uttrycklig uppgift om fysisk nedkomstort.

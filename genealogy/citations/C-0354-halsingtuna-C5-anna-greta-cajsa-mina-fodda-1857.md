@@ -34,3 +34,25 @@ som källuppgift men inget födelseår räknas fram som faktum.
 ## Stödda påståenden
 
 A-2006–A-2010.
+
+## Fullposttillägg — T-0134, 2026-09-08
+
+Hela originalet och tvillingposternas båda sidled är prövade; hash
+stämmer. Född 9 juni, döpt 10 juni 1857 och moderns råålder **40**
+består. Vid det uppgivna 1817-11-17 skulle hon ännu vara 39 år;
+åldersuppgiften och senare datum jämkas inte tyst ihop. Råtecknet i
+kyrktagningskolumnen är grafiskt/överlagt och kan inte säkert dateras.
+Ingen egen dödsnot framträder vid dessa födelser; Cajsa Minas senare
+död står i hushållsboken C-0842.
+
+De två barnens relevanta dopvittnesrader är lästa i sin helhet.
+Anna Gretas rad: **Handl. Erik St[e]gmander[?] och fru i Hudiksvall**;
+**arbetaren Per Sjöberg och hustru vid Svartvik**; **bokhållaren
+Per Björkegren[?]** och **demoiselle Johanna Marg. Forssén[?] i
+Hudiksvall**. Cajsa Minas rad: **inspektor G. Svedberg vid Håsta
+Udde** och **enkefru Frisk i Hudiksvall**; **arbetaren J. Berglin[?]
+och hustru vid Håsta Udde**; **bokhållaren Lars Brodén[?] i Tuna**
+och **pigan Brita Chr. Hillberg**. Titlar, stavningar och initialer
+är källformer; svaga läsningar reserveras. Ett vittnes Hillberg-namn
+fastställer ingen släktrelation eller identitet med hushållets Brita.
+Övriga barnrader på sidan tillhör andra familjer.

@@ -23,3 +23,11 @@ Lydia, vars egen födelsenotis uttryckligen är `oäkta` och bara namnger modern
 Sida 128 prövades senare som möjlig fortsättning till nästa hushåll i 1880
 års folkräkningsutdrag. Den saknar Nilsson/Dalsten-familjen och används bara
 som ett exakt sidnoll; den säger inget om övriga Högsjö eller volymen.
+
+## Rättelse 2026-09-07 — T-0120
+
+Antalet yngre listade personer i målhushållet är åtta, inte nio, enligt
+C-0348/C-0349:s redan dokumenterade konsolidering i T-0113. Detta är ett
+antal listade hushållspersoner, inte bevis för föräldrarnas totala antal
+födda barn eller varje hushållspersons biologiska faderskap. Dopnoterna
+måste avläsas per personrad; ett gemensamt antal odöpta är inte säkrat.

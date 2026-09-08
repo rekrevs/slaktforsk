@@ -24,3 +24,7 @@ ihop de två systrarna.
 ## Stödda påståenden
 
 A-3136.
+
+## Rättande tillägg T-0126,2026-09-07
+
+C-0410/C-0411:s originalrader har omlästs i T-0126: yngre barnet är Augusta Elisabet,född1896-10-15,inte Märta1896-10-05. Det äldre separata Augusta Elisabet-barnet uppges1895-03-02–1895-09-03. Den tidigare namn-/datumåtergivningen ovan ersätts. Det dokumenterade SCB-nollet avser emellertid hela142postföljden med familjens båda efterfrågade namnformer och tillgodoräknas inom det omfånget; ett noll enbart på5oktober skulle inte pröva den rättade dagen. Inga nya SCB-bilder har öppnats i konsolideringen. De åtta fullkopiorna återbevaras i T-0242, egen originalfödelse15oktober prövas i T-0247.

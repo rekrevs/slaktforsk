@@ -33,3 +33,11 @@ rotemansnoll skapas för luckorna 1907–1911 eller efter 1915.
 ## Stödda påståenden
 
 A-2239–A-2241, A-2244–A-2245 och A-2249–A-2254.
+
+
+## Datumavstämning 2026-09-08 — T-0128
+
+C-0382/C-0383/C-0475 har omlästs till4 september1852, C-0474 till
+24 september1852. Äldre majavskrifter ovan är rättade, inte ett
+oberoende argument mot rotemansposternas4 september. Egen födelse
+är fortsatt olöst; upprepade bokföringsuppgifter avgör inte ursprunget.

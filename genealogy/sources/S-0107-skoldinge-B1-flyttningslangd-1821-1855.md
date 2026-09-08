@@ -18,3 +18,7 @@ utflyttning 1829–1830 kontrollerades. Varken Anna Lisa Jansdotter eller Brita
 Kajsa återfanns. Nollresultatet gäller dessa fyra årsförteckningar och innebär
 inte att personerna aldrig flyttade eller att en far saknas i alla andra
 handlingstyper.
+
+## Avstämning 2026-09-08 — T-0137
+
+C-0139:s alla sju läsvyer finns, hashmatchar och visar de angivna 1829–1830-gränserna. Tidigare namnnoll återbrukas; kollektivt upptagna hustrur/barn är inte alltid individuellt namngivna. Ingen allmän flyttfrånvaro eller säker föräldrafrånvaro härleds.

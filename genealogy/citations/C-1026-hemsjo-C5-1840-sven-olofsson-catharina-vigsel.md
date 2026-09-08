@@ -64,3 +64,19 @@ namngiven ort och ett datum.
 ## Stödda påståenden
 
 A-3810–A-3813.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+Vigselavskriften 1840-01-26, tredje lysning 1839-09-22, båda namnen,
+tjänst i Wäsenbo och de två vittnena återbrukas. Barnets födelse 1842
+gav ett praktiskt sökfönster; den kunde inte logiskt datera vigseln till
+1839–1842. Inte heller garanterar en husförhörskolumn att en kommande
+pigrad anger hemförsamling. Andersdotter/Andreasdotter är sökformer, inte
+en identifierad far. Vittnet Britta Andersdotter är fortfarande endast
+kandidat till brudgummens mor P-0514. A-4548.
+
+Den faktiskt lästa fullbilden C0043841_00052 har inte återfunnits i lokal
+media, alias, metadata eller /private/tmp. Det återfunna manifestet är
+inte en bildkopia. S-0772:s uppgivna lästa provbilder C0043840_00100 och
+C0043841_00053/00055 är också kopiegränser; indexets uppgift om bild 54
+bevisar däremot inte att den bilden faktiskt öppnats. Ingen ny visning här.

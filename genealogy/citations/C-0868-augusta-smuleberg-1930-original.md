@@ -131,3 +131,12 @@ läsbara ort- och sidrubriker. De ersätter inte personposternas fulloriginal.
 | [C-0868-riksarkivet-00081273_00021-sida-10-grans-skarmbild.png](../media/C-0868-riksarkivet-00081273_00021-sida-10-grans-skarmbild.png) | `c0a741995de9744dc23dfd32a6f3acaaf2314baf71e49117ba0e13d1a8c64cee` |
 | [C-0868-riksarkivet-00081273_00102-sida-87-grans-skarmbild.png](../media/C-0868-riksarkivet-00081273_00102-sida-87-grans-skarmbild.png) | `473a911daa0cb6aadf0d6ec96e5f0588e56cfa3e4a3bf1166188d3917abd243e` |
 | [C-0868-riksarkivet-00081273_00103-sida-88-grans-skarmbild.png](../media/C-0868-riksarkivet-00081273_00103-sida-88-grans-skarmbild.png) | `9a914f565ceab586614ba2e24025c48aeaf3fc8f84ed2ac4a476055989a9fc46` |
+
+## Augustas egen rad på Skövdes folio 768 — T-0127, 2026-09-07
+
+Personbunden omläsning av rad 2 visar koppor `v`, kunskap/nattvard `b/n`.
+Förhörskolumn 13, värnpliktskolumn 15 och dödkolumn 18 är tomma.
+Kolumn 14 har utflyttningsnot `Hf[?] 12/12 30`, med reservation för
+förkortningen. Den tidigare anteckningen `IV:1433` är på makens rad 1
+ och får inte utan egen radbrygga tillskrivas Augusta som personnot,
+adress eller rättsärende. Övrig positiv familje- och flyttkorrelation består.

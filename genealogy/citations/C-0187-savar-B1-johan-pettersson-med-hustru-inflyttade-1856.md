@@ -38,3 +38,8 @@ vigdes och namnger inga föräldrar.
 ## Stödda påståenden
 
 A-1377 och A-1380.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Hela parets inflyttningsrad 1856 har prövats. Johan Peterson med hustru skrivs med arbetartitel, från Degerfors, med nr 6 och hushållsfolio 354. Egen rad räknar en man och en kvinna. Inget barn namnges i raden, vilket inte avvisar den dotter som hushållsboken anger. Datum får inte hämtas ur köns-/antalsspalterna; någon säker särskild fysisk ankomstdag är inte läst. Identiteten stöds av det namngivna hushållet i C-0051, inte av ett självständigt persondatumsbevis.

@@ -42,3 +42,8 @@ kan därför bindas till A I/6-hushållet. Den senare Anders Olofs och Eriks
 egna födelseposter namnger båda föräldrarna. Tillsammans skiljer källorna två
 olika söner med namnet Anders Olof och rättar en första arbetsläsning av
 Eriks födelsemånad till december.
+
+
+## T-0136: avstämning 2026-09-08
+
+T-0136 har fullprövat Lars Petters rad i bild 137 enligt C-1017: född 27 och döpt 28 december 1836, Arklo, modern 25 och inget h. Hela åttapersoners vittneslista inklusive Sophia Jonsdotter är nu utvunnen. Tidigare dop 29 är historisk felläsning. Kyrkoboksfullbilden och dess hash återbrukas, inga nya bilder hämtade.

@@ -28,3 +28,28 @@ hitta bilden men är inte ensam grund för påståendet.
 ## Stött påstående
 
 A-2471.
+
+## Fullposttillägg 2026-09-08 — T-0133
+
+Hela bilden, den egna födelseraden och dess fortsättning på högersidan
+har nu prövats. SHA-256 stämmer med ovan. Sophia Beata född
+**1 augusti 1851**, döpt **11 augusti**, hemvist **Botsmark**.
+Föräldrarna står som Joh. Pet. Zingmark och hustrun Sara Sophia
+Pehrsd:r; faderns inledande tjänste-/titelord förblir reserverat efter
+bildprövning. Moderns ålder på motsvarande högerrad är **22 år**.
+Boken har här ingen separat tryckt kyrktagningskolumn och inget
+säkert eget kyrktagningsdatum eller extra marginalmeddelande
+framträder.
+
+Hela dopvittnesraden är prövad, med följande diplomatiska gränser:
+
+- `[titel svag] C. J. Zingmark o h:u Elsa Andersd:r[?] [ort svag]`;
+- `Bond. Pett. Reinhold Pehrsson[?] o H. i Degerfors o Ånäset[?]`;
+- `[roll svag] Carl Pehrsson[?] o hustrun Cajsa Magdalena ibidem`.
+
+Förkortningar och svaga mellanord utökas inte till säkra fullständiga
+namn eller platser. Det lästa vittnesnamnet och Ånäsetnyckeln kan
+korreleras med andra poster men innebär inte en automatisk fusion
+med en befintlig föräldraakt. Ingen egen militärtjänst för fadern
+fastställs genom en osäker titel. De prövade råreservationerna är
+inte aldrig lästa fält; hela den relevanta egna posten finns bevarad.

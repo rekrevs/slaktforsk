@@ -75,3 +75,33 @@ bortom P-0165 och P-0166 införs inte i den verifierade djup-6-fronten.
 ## Stödda påståenden
 
 A-0730, A-0733, A-0770–A-0793.
+
+
+## Konsolideringsprövning 2026-09-08 — T-0139
+
+Båda ansedlarnas bevarade helbilder har kontrollästs. Följande rättar
+projektets avskrift ovan, inte databasens sakuppgifter:
+
+| Barn | Källbildens uppgift | Ersatt avskriftsfel |
+|---|---|---|
+| Carl Johan, P-0198 | Död 1902-11-17 i Olsiden, Bygdeå (AC). | Degerfors i äldre text. |
+| Lisa Caisa, P-0200 | Död 1886-10-03 i Olsiden, Bygdeå (AC). | Degerfors i äldre text. |
+| Maria Christina 1834, P-0205 | Död 1836-10-03 i Åkullsjön, Bygdeå (AC). | Olsiden, Degerfors i äldre text. |
+
+Övriga elva barns datum och roller tillgodoräknas med samma sekundärstatus.
+Nils benämns Krononybyggare och Hemmansägare i Sjöbäck, Åkullsjön; tidigare
+kortform ”kronobyggare” är inte ordagrann titel. Hans egen fastighetsuppgift
+är Åkullsjön nr 1 4/64, utan angiven brukningstid eller inkomst. Makan anges
+Anna Christina 1794-12-26 Ytteråträsk/Sävar, död 1873-03-14 Åkullsjön.
+Vigseldagen 1820-10-29 kan bygga på C-0130 och räknas inte som oberoende röst.
+Den synliga antavlans äldre namn Greta Larsdotter bevaras också som
+sekundär skärmuppgift; den införs inte som en ny verifierad relation.
+Fotnoterna knyter Nils respektive Maria till brodern Erik Hansson 1830;
+de är interna databaslänkar, inte ytterligare oberoende belägg.
+
+Tre uppgivna faddrar: nämndemannen Nils Nilsson, hans hustru Maria
+Persdotter och pigan Catharina Larsdotter. Alla kvarstår som avvikande
+sekundärlista; originalets fyra vittnen prioriteras. Döden 1868-08-03
+är fortfarande LEAD och får avgränsad originalprövning i T-0323.
+A-0777/A-0779/A-0784 rättas redaktionellt mot denna avläsning, med de äldre
+ordalydelserna bevarade i respektive akts historik. Ingen OWNER_CONFIRMED.

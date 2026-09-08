@@ -78,3 +78,38 @@ Registret uppdateras när ett besked ges, prövas om eller upphävs. Ett
 upphävt besked **raderas inte** — det flyttas till avsnitt 1 med sitt
 ursprungliga datum bevarat, enligt repots regel att bevisledet är
 tilläggsbart och slutsatserna omprövbara.
+
+## Nyköpings bouppteckningar,2026-09-07
+
+F2A/28–29,A2H/2 och F3A/1 i SE/ULA/11126: inloggad Läsesal,
+detaljvyer utan ny bild-/innehållshänvisning,batchsidor ger fel.
+P-0131/P-0132; [C-1108](citations/C-1108-nykoping-bouppteckning-spärr-mantalrouting.md). Ingen personpost läst, ingen utsaga att
+volymerna saknas. F2B/C tidskontrollerade,myndighetens verksamhet
+omfattar dödsåren. Återstart vid ny digital kopia/hänvisning/ägarmaterial.
+
+## Nyköpings mantal/taxering,2026-09-07
+
+SE/ULA/11034/21/EIII/125,1900,Nyköping/Eskilstuna:Läsesal,
+detaljvy utan reproduktion,batchfel. Rådhusrätt K1 hänvisar till
+SE/ULA/11625,mantalslängder1720–1945; där anger detaljvyn endast
+pappersförteckning. [C-1109](citations/C-1109-nykoping-taxering1900-kronouppbord.md). Inget person-/skattenoll,
+ingen generell odigitaliseringsslutsats för alla alternativa vägar.
+
+## Urboms bouppteckning1896,2026-09-07
+
+SE/ULA/11151/F II/70 nr264, P-0123, identifierad i specialsök som
+smeden J.P.Urbom,Ektorp,Husby-Oppunda1896. Originalvolymens detaljvy
+Läsesal/Sekretess Nej, ingen bild. F III/1 och F I a/85 likaså;
+C II c börjar1905. [C-1111](citations/C-1111-urbom-bouppteckningsregister-1896.md).
+Publik batchförfrågan gav403. Ingen originalakt läst; inte frånvaro
+eller generell nätspärr. Återaktivera vid digital kopia/ny hänvisning/
+ägarmaterial. Inga beställningar eller ArkivDigital.
+
+## Urboms mantal/taxering1885–1895,2026-09-07
+
+SE/ULA/10459 visar endast K Kartor och hänvisar äldre bestånd till
+häradsskrivarnas gemensamma förteckning. Landskontor E III/71–103
+har33 årsbundna volymer1885–1895, alla Läsesal. Detaljer101–103
+utan digital ersättarhänvisning. [C-1112](citations/C-1112-urbom-mantal-taxering-1885-1895.md).
+Ingen personpost läst; äldre livsperioder utanför denna kontroll.
+Återaktivering via ny bild/förteckning/hänvisning/ägarmaterial.

@@ -54,3 +54,69 @@ sedan detta citat skapades slutit föräldraidentiteten och 1860–1867-ledet.
 ## Stött påstående
 
 A-2752. Rättelsen vidareförs i A-2988–A-2989 genom C-0771.
+
+## Tillägg 2026-09-08 — T-0132, Eriks egen barnrad på sida 37
+
+A I/13 a:s hela bevarade bild och Eriks egen rad har lästs mot rubrikerna;
+SHA-256 stämmer med värdet ovan. Barnraden har `Son`, överstruket
+`Gustaf Oscar` och kvarstående **Eric**, född **51 30/1**, ortditto för
+**Bettna**, samt **v** i kolumnen för koppor. Eric är den diplomatiska
+stavning som nu läses på denna rad; den normaliserade Erik-identiteten
+påverkas inte.
+
+De egna utantill-/innanläsnings-, förhörs-, nattvards-, vigsel-, döds- och
+anmärkningsfälten är tomma. Noteringar på föräldrarnas och syskonens rader
+förs inte över till spädbarnet. Familjens överstrykning och utflyttningsnot
+vid översta familjeraden hör till den redan prövade hushållsflytten
+`52 Östra R.` enligt C-0771; Eriks egen rad anger inte ett ytterligare
+eget flyttdatum eller en ny slutligt bestämd mottagarsida.
+
+Alla synliga egna fält i den avgränsade barnposten har prövats. Den
+saknade mellanliggande hushållskedjan efter 1852 är en separat följdväg,
+inte en outvunnen tom kolumn i denna barnrad.
+
+## Fulla egna familjerader och materiella rättelser — T-0139, 2026-09-08
+
+Båda bevarade fulloriginalen har nu lästs mot formulärhuvud och egna
+rader; de kritiska namn-, roll- och datumfälten har även fått en oberoende
+andraläsning. I A I/12 a s.33 står **Sold. Carl Fr. Drill**, född
+**22 9/4, Halla**, hustrun **Joh. Jansd:r**, **19 30/5, St. Malm**, sonen
+Carl Johan **43 4/1, Bettna**, dottern Anna Lotta **46 14/1**, och sonen
+**Lars Petter, 48 27/2**, med ortditto till Bettna. A I/13 a s.37 upprepar
+samma fem personrader och tillför sonen Eric efter överstruket Gustaf Oscar.
+
+Den tidigare transkriptionen **dottern Lovisa, 1849-02-27** är således
+avvisad i båda volymerna. Bokstaven före Lars Petter är sonförkortningen,
+inte dotter, och årsfältet är 48. P-0496 representerar denna verkliga
+barnrad och rättas därför till Lars Petter; inget ytterligare barn Lovisa
+skapas från felläsningen. Den gamla filvägen behålls för spårbarhet.
+SCB:s L.P.-liknande sonrad 1848 är nu förenlig med samma barn. C-0794:s
+nollkontroller på Lovisa är historiskt felriktade namnkontroller och
+avgör inte om en födelsepost för Lars Petter finns på de redan öppnade
+bilderna.
+
+Även faderns tidigare läsningar **Carl Eric Grill** och **1822-07-09**
+är fel för just dessa två originalrader. Råformen är Carl Fr. Drill och
+9 april. Andra källors namn och datum måste prövas separat; denna rättelse
+harmoniserar inte bort ett eventuellt faktiskt julidatum i en annan handling.
+
+I båda böckerna har föräldrarna v i kopporfältet, grafiska läs-/kunskaps-
+streck samt prickar i kristendomsfältet. Dessa är källans grader, inte
+modern utbildningsnivå. Gift- och dödsår samt enskilda anmärkningar är
+tomma i de egna raderna. Johannas äldre inflyttning 41 St. Malm står på
+s.33; faderns motsvarande inflyttningsfält är tomt där. På s.37 står
+familjens redan prövade 52 Östra R. vid översta familjeraden; de andra
+raderna har streck, inte nya självständiga flyttdatum.
+
+De egna kyrkliga årsfälten har flera nattvardsdagar 1846–1850. Bland
+säkert urskiljbara gemensamma dagar finns 1848 **27/8** och 1849 **1/4**;
+de blekare och överlagrade talen bevaras som prövade läsreservationer.
+På s.37 står **18/7 under 1852** på båda makarnas nattvardsrader.
+Faderns förhör 1851 läses **6/11**, medan äldre datum i samma årsblock är
+bleka. Ingen fullständig kalender över deras deltagande rekonstrueras.
+
+Lars Petters egna rader i båda böckerna har **v** i kopporfältet. De egna
+kunskaps-, förhörs-, nattvards-, gift-, döds- och enskilda anmärknings-
+kolumnerna är tomma. Familjeflytten 1852 gäller hushållet; inga särskilda
+senare livsuppgifter för sonen överförs från föräldrarna. Hela hans
+relevanta egna post är prövad, och tomma barnfält är ingen utvinningsrest.

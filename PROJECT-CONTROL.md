@@ -4653,3 +4653,34 @@ läsesalsgränsen, dashboardregeln och kravet på ägarens ord för push.
 
 **Underlag:** [`NORTH-STAR-REVISION-2026-09-07.md`](NORTH-STAR-REVISION-2026-09-07.md),
 PCD-2026-09-07-024 och forskningsloggens batchar 467–494.
+
+## PCR-2026-09-07-021 — Konsolidera alla personakter före fortsatt frontforskning
+
+- Record type: review
+- Date: 2026-09-07
+- Mode: direction-review
+- Trigger: ägarens iakttagelse av motsägelser i P-0255 och begäran om enhetliga, kravuppfyllande personakter.
+- Control judgement: redirect, evaluate
+- Current gate: befintliga belägg har inte genomgående förts in i aktuella sammanfattningar och profilbedömningar; strukturkontroller upptäcker inte detta.
+- Evidence: P-0255:s berättelse om obelagt senare liv jämfört med C-0940/C-0941; faderns Höglund i C-0457/C-0458; C-1046:s redan genomförda läsning. Inventeringen 2026-09-07: 538 akter, 99 profiler, 439 utan profil, 60 identitetsgodkända och 12 livsbildsgodkända. Personkontraktet och PCD-2026-09-07-021:s två nivåer består.
+- Recommendation: standard och protokoll, varierad pilot med Kristina först, fullständig inventering och fasta kohorter, individuell konsolidering av alla akter, slutrevision och regressionsskydd. Behåll T-0110:s originalstickprov som separat beviskontroll.
+- Owner decision required: prioritering och genomförande av programmet; besvarat i PCD-2026-09-07-026.
+- Uncertainty: omfattningen av sakliga följdfel är ännu okänd; 0 strukturfel bevisar inte konsekvent innehåll.
+- Revisit when: piloten visar nödvändig metod-/omfångsändring, inventeringen visar större identitetsrisker eller slutrevisionen är färdig.
+
+## PCD-2026-09-07-026 — Prioriterat program för samtliga personakter
+
+- Record type: decision
+- Date: 2026-09-07
+- Decides review: PCR-2026-09-07-021
+- Owner: Sverker
+- Decision: godkänn förslaget i sin helhet, ”vi gör precis som du föreslår”. Prioritera granskning, konsolidering och enhetligt format för samtliga akter före fortsatt frontforskning.
+- Disposition: approved
+- Resulting Wotan tasks: T-0112 (standard), T-0113 (pilot), T-0114 (inventering och skapande av fasta kohorter), T-0115 (slutrevision). Kohortuppgifter allokeras av T-0114 efter pilotens resultat. T-0110 kvarstår separat och ska vara färdig före slutrevisionen.
+- Portfolio signal: projektet får redan arbete; uppmärksamheten flyttas till kvaliteten i befintlig kunskap.
+- Supersedes decision: tidigare arbetsordning i PCD-2026-09-07-022–024 i den mån frontarbete annars skulle återupptas före detta program.
+- Revisit when: pilot eller slutrevision ger ny styrinformation; vanliga återstående forskningsluckor hanteras som avgränsade Wotan-uppgifter.
+
+T-0083 flyttas ONGOING → READY med batch 519 bevarad. T-0112 blir enda ONGOING. Programuppgifterna står först i backloggen; ordningen är prioritet, medan after endast uttrycker verkliga resultatberoenden. T-0114 ska lägga in samtliga kohortberoenden på T-0115 före sitt avslut och tillgodoräkna överlappande äldre arbete utan automatiskt DONE.
+
+Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad integritetsminimering. Granska PK-01–12 och tio teman utan att godkänna ouppfyllda krav. Format, konsolidering, identitetsnivå och livsbildsnivå redovisas separat. Bevarade källuppgifter och rättelsehistorik får inte utplånas; ingen osäker identitet får bli säker genom redigering.

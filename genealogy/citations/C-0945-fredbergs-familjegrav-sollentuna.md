@@ -90,3 +90,17 @@ originalbelagda; för Johannes ger registret bara gravsättningsdagen.
 
 A-3551 (P-0287), A-3552 (P-0336), A-3553 (P-0395), A-3554 (P-0489),
 A-3555 (P-0490), A-3556 (P-0491), A-3557 (P-0492), A-3558 (P-0493).
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Senare C-0946 har redan belagt Johannes död 1949-02-10 och begravning 1949-02-16; den då öppna dödsfrågan skall inte återupprepas. Flera halvsyskons hemort Sollentuna vid olika dödsår bevisar varken obrutet kvarboende eller en gemensam flytt efter 1910. Elvira född 1902 kan inte vara med i folkräkningen 1900; hennes familjeankare är C-0774 år 1910. Edit Maria Justinas gravdatum stödjer 1894 men avgör inte ensamt födelseårsavvikelsen utan egen postprövning. En gemensam grav är en korrelationsuppgift, inte ensam bevisning för varje släktled. Exakta lokala registerkopior med URL/hash saknas; T-0232 äger de redan använda målposternas bevarande.
+
+
+## Källankare för Frida 2026-09-08 — T-0128
+
+Uppgiften ovan att Fridas exakta födelsedag stämmer med en redan läst egen
+födelsenotis saknar stöd i den citerade kedjan. Dagankaret 1883-01-29 finns
+i C-0474:s senare familjeförteckning; den är inte hennes egen födelsepost.
+Datumkorrelationen till graven kvarstår med denna rätta källtyp. Tidigare
+T-0124-reservationer om gravrelationer, flytt och födelseår består.

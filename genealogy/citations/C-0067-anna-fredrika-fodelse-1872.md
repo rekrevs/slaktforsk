@@ -39,3 +39,24 @@ Hansdotter. Hänvisningen läses efter kontroll som folio 567.
 ## Stödda påståenden
 
 A-0218–A-0219, A-0357–A-0358, A-0365, A-0369 och A-0384–A-0387.
+
+## Full egen post prövad — T-0131, 2026-09-08
+
+Den bevarade fullbildens post 15 har prövats över samtliga kolumner.
+Född 8 februari, döpt 11 februari 1872, flickmarkering, Anna Fredrika;
+bonden Jacob Andersson och hustrun Maria C. Hansd:r i Ultervattnet,
+fol. 567. Föräldrarnas åldrar står **41 och 31**, och vid modern syns
+råtecknet `E` i den intilliggande kolumnen. Vittnena prövas som bonden
+A. Andersson med onamngiven hustru i Ultervattnet, pigan C. Jacobsd:r
+i Ultervattnet och Anna Nilsd:r[?] i **Ytteråträsk[?]**. De svaga
+namn-/ortstecknen är prövade reservationer, inte säkra identiteter.
+Kyrktagningsfältet saknar eget tydligt datum; särskilda anteckningar
+har ditto-/fortsättningstecken för förrättare, vars namn inte säkert
+normaliseras här. Ingen ytterligare säker egen sjukdoms- eller
+marginalnotis. Faddrarna hålls separata från föräldrar/släktingar tills
+en identitetskedja finns. Bevarad fullbild är fortsatt kontrollunderlag.
+
+Kompletterande kontroll av samma post: efter Anna Fredrikas namn står
+råtalet `(4)`, utan att det här omtolkas till familjens totala barnantal.
+Förrättardittot går via föregående rad till `P. Öhlund[?]`; namnläsningen
+reserveras. Detta är källans dopuppgift, inte ett nytt personankare.

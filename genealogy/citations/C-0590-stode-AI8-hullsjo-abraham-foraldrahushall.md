@@ -79,3 +79,29 @@ Se [C-1020](C-1020-stode-AI8-sida-88-standsbokstaven-och-giftaret.md).
   **`Cajsa`** skrivet ovanför; patronymikonet läses `Jöns D:r`.
 
 Avskriften ovan bevaras oförändrad som revisionsspår.
+
+
+## Tillägg T-0126, 2026-09-07: Abrahams egen barnrad
+
+Den redan bevarade hela sidan 88 är kontrollerad. Målpersonen skrivs
+`son Abram`, född 1840 22/2, med koppor markerade `v`. Hans egna
+läs-/kunskaps-, inflyttnings-, utflyttnings-, förhörs- och
+anmärkningsfält är tomma. Föräldrarnas och syskonens markeringar
+får inte tillskrivas honom. Tomfälten har därmed faktiskt prövats.
+
+Tidigare senare rättelser C-1020/C-1021 tillgodoräknas. Den därefter
+lästa föräldravigseln C-1024 ger moderns fullnamn Cajsa Brita Jonsdotter
+och vigseldagen 1830-04-13; vigseln är inte längre en outforskad
+uppgift. Hushållsbokens Jönsd:r bevaras som avvikande källform.
+Den överstrukna 1831-radens namn är redan prövat oläsligt; ingen ny
+namngissning eller dödsdag införs.
+
+## T-0136: individuell fullpost- och gränsprövning, 2026-09-08
+
+Hela familjeposten på sida 88 är prövad i den bevarade fullbilden, inklusive båda föräldrarnas egna årskolumner och den överstrukna barnradens högersida. Jöns egen födelsetid läses **1805 21/8**, inte äldre 22/8; den säkra aktuella avskriften ersätter den tidigare reservationen 21/22. Egen födelsepost är däremot inte identifierad. Hustruns 1812 28/7, rättade Cajsa Br.-förnamn och Jöns D:r består. Ståndet B., koppor v, giftaår 30 respektive d:o och grafiska prick-/streckbetyg på båda föräldrarna är prövade. B. förstås konventionellt som bonde; bokstaven fastställer ingen ägarandel. Bådas Hvarifrån/Hvarthän är tomma.
+
+Föräldrarnas förhörskolumner har återkommande råtecken, N./n.-liknande och delvis överarbetade, utan här översatt skala eller exakt händelsedag. Nattvardsfälten är prövade år för år: 1833 har respektive 3[?]/4 och 7[?]/4; 1834 överarbetade datumtecken samt 2/11; 1835 28[?]/6 och bleka äldre streck; 1836 3[?]/7 och 27/11; 1837 11/6 och 3[?]/12, med överarbetning på hustruns rad; 1838 ett blekt tidigare datum och 2/12; 1839 3/11; 1840 22/11; 1841 27/6 och 22[?]/11; 1842 **25/9 och 6/11** på båda raderna. Svaga tecken är uttryckligen prövade reservationer, inte utelämnade kolumner. Föräldrarnas egna fria anmärkningsfält är tomma. De säkra 1842-markeringarna är daterade egna kyrkoboksankare, inte ett flyttdatum.
+
+**Nytt relevant barnfält, oberoende andraläst:** den överstrukna raden med födelseuppgift 1831 10/7 har **Drunkn.** under **1841**, placerat i årets nattvardskolumn. Det är en not om drunkning detta år; ingen egen dödspost, exakt dödsdag eller säker namnläsning har därmed fastställts. Namntecken anas under strecket men lämnas reserverade; inget nytt person-id skapas. Äldre 'namnet går inte att läsa' avsåg namnprövningen, inte att hela raden saknade övrig information. Övriga barnrader är Brita 1834 12/3, Magdalena 1837 2/5 och son Abram 1840 22/2. Deras förhörs-/kunskapstecken är prövade; inga säkra egna flyttdatum tillkommer. Abrahams egen fullfältprövning T-0126 återanvänds.
+
+Samtliga elva fullbilder C-0590 och de tre C-0591-bilderna har återfunnits och deras SHA-256 omräknats utan avvikelse. Den äldre ortssökningen återanvänds; inga nya andra hushåll har identifierats. S-0463:s äldre titel-/registerpassager har separat kopieskuld, specificerad i den källpostens tillägg.

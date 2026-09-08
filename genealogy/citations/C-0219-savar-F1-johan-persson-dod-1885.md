@@ -33,3 +33,10 @@ inte det belagda födelsedatumet.
 ## Stödda påståenden
 
 A-1440–A-1441.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Oberoende fullpostprövning av den bevarade bilden i T-0142 bekräftar egen post 76: arbetaren Johan Persson i Gunnismark, död 17 november 1885, begravd 30 november, man, gift, ålder 61 år 7 månader 28 dagar. Dödsorsaken är lunginflammation och institutionsfältet anger död på lasarettet i Umeå. Folio 460 förenar posten med C-0218. Adelsfältet och båda betygsfälten för läkare/barnmorska är tomma.
+
+Särskild anteckning läses `D:o af Kyrkoh. J Wik[…] i Umeå enl[…] d.20/11 85[?]`. Namn- och datumresterna är prövade men reserverade, inte säkra personnycklar. Åldern får inte användas för att räkna om hans födelsedag; hushållens 19 mars och vigselns 9 mars bevaras som skilda källuppgifter. Egen dödsort Umeå ska hållas åtskild från hemvisten Gunnismark.

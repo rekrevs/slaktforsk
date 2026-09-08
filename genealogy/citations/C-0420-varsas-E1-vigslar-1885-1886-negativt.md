@@ -29,3 +29,9 @@ vigselbok före 1970 är avvisad.
 
 A-0623 och A-2137.
 
+
+## Senare positivt belägg — avstämt T-0121, 2026-09-07
+
+C-0990 har redan lokaliserat parets vigsel1885-06-19 i Mofalla annex.
+De två Värsåsåren förblir korrekt avgränsade noll, men frågan om okänd
+vigselförsamling ska inte fortsätta som obesvarad i de aktuella akterna.

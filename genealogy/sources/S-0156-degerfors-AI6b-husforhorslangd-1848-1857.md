@@ -56,3 +56,10 @@ SHA-256 `a5aa58dc8d3ab533051d46ecd2c1ac1158775da363bbda6dea0409bcf6f922d9`,
 och manifestet som
 [C0034063](../media/S-0156-riksarkivet-degerfors-AI6b-IIIF-C0034063.json),
 SHA-256 `6669090a98a9964d9fd08b34f8f1eb58ed208d278419b179be0d04cee4a002dd`.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+S366 har faktiskt Johan Pehrsson med dottern Emma Johanna från 405, vidare 396, änkenotis i juni 1853 och dotterns död 30 juni. Den gamla nollan är avvisad. Cajsa Lotta har sin egen 339→366→339→396-kedja. Övriga personers äldre rutter påverkas inte.
+
+Se [C-0207](../citations/C-0207-degerfors-AI6b-johan-cajsa-familj-sidor-396-327.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

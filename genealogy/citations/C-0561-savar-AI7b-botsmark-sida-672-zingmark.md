@@ -53,3 +53,26 @@ och tvillingarnas egna födelsenotis C-0565 visar i stället 1864-03-24; detta
 ## Stödda påståenden
 
 A-2431, A-2433, A-2457–A-2459, A-2464, A-2472.
+
+## Fullpost och rättelse — T-0133, 2026-09-08
+
+Hela egna familjeuppslaget har prövats. Den överstrukna dottern1854-09-27
+heter **Cajsa Wilhelmina** på rad4; Christina var en äldre avskrift som
+harmoniserade med födelseboken. Hennes egen utflyttningskolumn ger
+**649,1876 14/1**. Det är en positiv intern sidnyckel och bokdag, inte
+redan läst mottagarhushåll eller bevis för fysisk resa den dagen.
+
+Hennes egen rad har vaccintecken v, grafiska läs-/katekesmarkeringar
+och nattvard1875 **17/5 och31/10**. Förhörsfältets N-liknande tecken
+översätts inte till modern kunskapsnivå. Efter den angivna flytten är
+egna årskolumner tomma; egna fräjd-, död- och äktenskapsfält saknar not.
+Överstrykningen ska inte tolkas som död eller identitetsbyte.
+
+Brodern Carl Reinholds egen rad går till668 år1877 med tätt dagtal
+reserverat; systern Maria Elinas rad anger Degerfors1875 15/10, inte
+äldre1877. Johan Oscars1880flytt återbrukas från egen C-0547 framför
+blek dagläsning här. Faderns och styvmoderns vigsel1870 2/7 samt äldre
+bok603 hör till deras respektive fält. De fem yngre barnen Anna
+Margretha,Nicanor,Emanuel,Jonas Eugen och Olof Konrad är uttryckligen
+bägges barn i andra giftet, alltså Wilhelminas halvsyskon på fädernet.
+Faderns bonde- och hushållsuppgifter beskriver inte hennes eget yrke.

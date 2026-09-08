@@ -33,3 +33,12 @@ medan 1900 och 1910 anger Värsås. Konflikten bevaras.
 ## Stödda påståenden
 
 A-0073, A-0077–A-0078, A-0117, A-0119 och A-0126–A-0137.
+
+## Agnes egen folkräkningsrad, T-0127 2026-09-07
+
+Den bevarade fullbildens Agnes Maria-rad har kontrollerats tillsammans med
+föräldraklammer och kolumnrubriker. Eget födelseår1889, dotterrelation och
+ogift kvinna-markering är positiva; egna yrkes- och lytesfält är tomma.
+1890års födelseortsdito går till moderns Kyrkefalla och kvarstår som
+källavvikelse; den ändras inte genom broderns senare födelsebelägg.
+Tomma fält är avgränsade observationer på denna sida, inte livslånga noll.

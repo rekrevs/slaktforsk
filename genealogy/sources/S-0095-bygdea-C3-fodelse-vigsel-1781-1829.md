@@ -34,3 +34,13 @@ Det fullständiga IIIF-manifestet är lokalt bevarat som
 [metadataoriginal](../media/S-0095-riksarkivet-bygdea-C3-IIIF-manifest.json),
 SHA-256
 `712bdf87802479c6c2d7b8335b9880c2f5f2e148dbc7f513bffa6eaaf24864b7`.
+
+
+## Konsolideringsprövning 2026-09-08 — T-0139
+
+C-0129:s hela Hansrad har återlästs från redan bevarad aliasfil under
+C-0776, bild C0034039_00109. C-0130:s egen vigselpost är läsbar i den
+sparade skärmbilden; samtliga egna textrader tillgodoräknade. Faddrars roller,
+rånamn och prövad marginalnotation finns i C-0129:s tillägg. Ingen ny
+hämtning eller utvidgad årgångsgenomgång. Det ursprungliga 403-svaret är åtkomsthistorik,
+inte ett aktuellt bortfall av dessa egna läsbara poster.

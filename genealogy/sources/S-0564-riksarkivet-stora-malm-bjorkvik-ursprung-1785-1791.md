@@ -43,3 +43,11 @@ omdirigerades fortfarande till ALTCHA. Kontrollrutan lämnades orörd.
 
 Metadataoriginal, sex fulloriginal och individuella checksummor redovisas i
 [C-0731](../citations/C-0731-stora-malm-bjorkvik-jan-lena-ursprung.md).
+
+## T-0139: avstämning och proveniensgräns
+
+Walla-rådatumen Jan 1791 5/9 och Lena 1783 21/10 rättar tidigare avskrifter. Jans majinriktade kontroll och Helena 1785 kandidaten får inte fortsatt bära den felaktiga exakta namn-/datumbryggan. Föräldrarelationen till Johanna är separat säkrad. Se [C-0731](../citations/C-0731-stora-malm-bjorkvik-jan-lena-ursprung.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.
+
+## T-0141: rättad septembernyckel ger positiv kandidat
+
+C-0731:s nya omprövning av bevarad bild190 ger Jan född1791-09-05, döpt i Stora Malm dagen därpå, son till Eric Andersson och Anna Andersdotter i Åtorp[?]. Det är en kandidat till vuxenpersonen; en personlig brygga saknas. De fem äldre bilderna187–191 slutar med novemberposter och styrker inte det tidigare påståendet om en verifierad helårsgräns. Ingen ny helårsnolla tillgodoräknas. Se [C-0731](../citations/C-0731-stora-malm-bjorkvik-jan-lena-ursprung.md).

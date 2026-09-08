@@ -34,3 +34,10 @@ som ensam skriver `Stina Persd:r`; den avvikelsen bevaras som konflikt.
 ## Stödda eller motsagda påståenden
 
 A-0854, A-0855 och A-1371–A-1372.
+
+
+## Personbunden fullprövning och rättelse — T-0143, 2026-09-08
+
+Den egna dödposten 3 är fullprövad: hustru Stina Andersdotter från Sannerby, död 15 februari 1818, begravd 21 februari, angiven orsak lungsot och ålder 42 år 7 månader; dagkolumnen i åldersfältet ger ingen ytterligare uppgift. Sannerby är angiven hemvist, inte särskilt belagd fysisk dödsplats. Ingen namngiven make, uppgiftslämnare eller förrättare tillkommer i själva dödposten. Maken binds genom hushåll och händelsekedja. Bilden och dess angivna SHA-256 är verifierade.
+
+C-0172:s tidigare Persdotter-läsning är nu upphävd efter återläsning av föräldrakolumnen. Dödsnamnet behöver därför inte längre vägas mot en verklig avvikande modersform. Åldern kan ge en ungefärlig födelsetid omkring sommaren 1775 men avgör inte hushållens 20/6 respektive 23/6.

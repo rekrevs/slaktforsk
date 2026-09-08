@@ -40,3 +40,40 @@ kunna granskas:
 ## Stödda påståenden
 
 A-2468, A-2472, A-2474.
+
+## Fullposttillägg 2026-09-08 — T-0133
+
+Hela den bevarade originalbilden, egna rader och rubriker har nu
+prövats; SHA-256 stämmer med ovan. Datum, tvillingmarkering och
+föräldrapar består. Faderns råtitel är **`f. Landb.`** och föräldrarnas
+hemvist är Botsmark, hänvisning **455**. Titelförkortningen bevaras
+utan att äldre landbondeuppgifter stryks. Modern är **34 år**.
+Förlossningsbiträdeskolumnen har `Ev.`; det är ingen religionskolumn.
+Kyrktagningsfältet läses **3/7[?]**, reserverad dag/månadsläsning.
+Anteckningen anger dop genom **K. L. Hammarbom[?]**, med namnläsningen
+reserverad. Ingen separat hälso- eller dödsnot står på tvillingposten.
+
+Vittnena är två **separata, uttryckligt barnbundna listor**:
+
+| Barn | Full relevant vittnestext, med råreservationer |
+|---|---|
+| Axel | `f. Brukspatron Ol. Forssell och Fru vid Säfvars Bruk`; `Bond. Hans Danielsson och hustru`; `Bondson Carl Nat.[?] Lindgren`; `Pig. Mathilda Sophia Zingmark`, de senare i Botsmark enligt `alla dessa i Botsmark`. Hustrurna namnges inte. |
+| Anders Wilhelm | `f. Bond. And. Larsson och hustru i Botsmark`; `Ogifte ... Jon Nilsson[?] och hans syster Brita Magd. Nilsdotter, båda i B[ö/b]leäng[?]`; `Bondson Henric Hansson i Botsmark`; `pig. Carolina Zingmark i Bjur[?]fors af Burträsk sn`. |
+
+**Hans Danielsson** ersätter den tidigare läsningen Brändström i det
+sammanställda dopnätverket C-0690. Den andra tvillingens vittneslista
+får inte tappas bort eller föras över till Axel. Systerrelationen gäller
+de två intillstående vittnena, inte barnets föräldrar. Personerna är
+källbundna nätverksuppgifter; inga nya identiteter eller släktrelationer
+fastställs här. Svaga orter och förkortningar är fullprövade men
+reserverade.
+
+### Rättad förrättarläsning efter jämförelse inom T-0133
+
+Egen förrättarnot har därefter visats i ett separat originalutsnitt
+och jämförts med den redan bevarade C-0546-bilden. Efternamnet läses
+**Strinnholm**, inte den första preliminära formen Hammarbom.
+Initialerna återges **H. L.[?]**; första bokstaven är inte helt säker
+i den egna noten. Den äldre avskriften H. L. Strinnholm i C-0546 och
+den jämförda skrivformen stöder läsningen, men är inte ensam grund
+för att identifiera personen. Inget ytterligare dopdatum ändras.

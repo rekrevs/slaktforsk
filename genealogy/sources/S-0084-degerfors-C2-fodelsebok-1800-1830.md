@@ -49,3 +49,14 @@ ett födelse- eller identitetsnoll för Anders Olofsson.
 IIIF-manifestet är lokalt bevarat som
 [A0001455](../media/S-0084-riksarkivet-degerfors-C2-IIIF-A0001455.json),
 SHA-256 `55d4bc0321f11bdc5e25d0767f66ddcbd50db88f3ac225cf260a866c82f1e197`.
+
+## Personbunden avstämning — T-0139, 2026-09-08
+
+C-0116:s daterade T-0139-tillägg rättar parets vigselåldrar till Anders22 och Sofia18, samt hemvist Rödå/Granö[?]. Den äldre omvända ålderskonflikten är ett avskriftsfel. C-0119:s tidigare namnbundna kontroller1806/1809–1811 består; återfunna kopior35–40 under C-0844 och54–58 under C-0733 återbrukas. Tio lästa bilder59–68 saknas lokalt efter exaktbatch-/alias-/tmp-prövning. Inget nytt helårssvep har gjorts.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Marsbild 218 avgränsar P-0058-kandidatsökningen; den belägger inte ensam en full årgång. Johannes far har titel Inhysesmannen. Vigseln 1854 namnger Pehr Ersson och 9 mars men skapar inte själv den saknade föräldrafusionen.
+
+Se [C-0108](../citations/C-0108-degerfors-fodda-mars-1824.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

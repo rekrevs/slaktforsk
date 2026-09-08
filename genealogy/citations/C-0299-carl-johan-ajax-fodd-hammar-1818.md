@@ -38,3 +38,11 @@ motbevisat som födelsedatum.
 ## Stödda påståenden
 
 A-1859–A-1862, A-1881.
+
+## T-0135: fullpostprövning och rättelser 2026-09-08
+
+Hela egenpost76 på sida306 är prövad: **Carl Johan**, född5december1818, döpt6december; **Dalen** är den angivna miljön/hemvisten, inte ett separat utpekat födelsehus. Fadern **Petter Ajax**, modern **Cajsa Jonsd:r**, moderns ålder **26**. Inget Petter-tillägg finns i barnets namn.
+
+Hela vittnesfältet är prövat: `W.[?] Bokh.[?] Jungfru Öjel[?] och Greta Andersd. i Dalen`. Svår titel/namnform reserveras utan att skapa säkra nya släktingar. Egenposten har ingen ytterligare döds-, sjukdoms-, kyrktagnings- eller förrättarnotis. Nästa dödfödda barn hör till andra föräldrar och förs inte till Ajaxgruppen.
+
+C-0296:s nu omlästa hushållsrad har **5/12**, så formuleringen ovan att båda senare böcker anger17december rättas: det gäller A I/8, inte A I/6. Kopplingen till den uttryckliga sonen i tidigare familjebok stöds därmed även av exakt datum. Äldre observationer bevaras.

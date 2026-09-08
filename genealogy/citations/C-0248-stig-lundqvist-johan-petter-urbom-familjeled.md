@@ -32,3 +32,34 @@ med originalens Anna Gustava Ajax.
 ## Stödda påståenden
 
 A-1537, A-1541 och A-1545–A-1548.
+
+## Konsolidering T-0135, 2026-09-08
+
+Johan Petters tidigare offentliga personakt återfanns i den lokala
+filen /tmp/urbom-secondary.html och har nu bevarats som
+[C-0248-stig-lundqvist-johan-petter-urbom.html](../media/C-0248-stig-lundqvist-johan-petter-urbom.html),
+SHA-256 `747c91ff2c94eb9e2cf5f82286b9987ab6e15775ff50c3e6c52a1877a5c57f86`.
+Ingen ny nätåtkomst. Hela akttexten har lästs, inklusive noteringar
+och generiska källhänvisningar. Den ger ytterligare **sekundära nycklar**:
+
+- Johan Petter till **Motala Backgården 1836**, från Odolfslund[?]
+  enligt textens eget frågetecken; familjen vidare från Backgården
+  till Spånga 1842, Bettna Åkerö 1850, Hjulfabriken 1859, Walla 1866,
+  Ternö 1870 och som änkling Ektorp 1885.
+- Texten förlägger den påstådda förväxlingen med brodern Carl Fredrik
+  till **intern flytt i Motala Backgård 1839**, med senare 1813/1818
+  och Wist. Detta är ett förklaringsförslag, inte en läst originalbrygga.
+- **Bouppteckning 12 mars 1896, nr 15**, utan exakt arkivreferens.
+  RA-registrets F II/70 nr 264 i C-1111 är en annan uppgiven numrering;
+  inget bevis att det är samma nummersystem eller en motsägande akt.
+- Nio barn anges med levnadsår; den yngre Maria Christina 1858–1861
+  och Frans Ludvig Gotthard 1862–1863 är sekundära livsslutsnycklar
+  tills motsvarande egna källor korrelerats. Full lista finns i kopian.
+
+C-0833 har därefter identifierat Johan Petters födelsepost. C-0285
+har parets vigsel och C-1110 Johan Petters död. Det äldre lokala nollet
+och påståendet att namn-/livsleden generellt saknar originalstöd är
+överspelade i dessa avseenden; den privata aktens egna uppgifter förblir
+sekundära. Inga exakta föräldratillägg eller förklaringsmekanismer
+uppgraderas automatiskt. Hustruns och Ernsts två ursprungliga webbakters
+egna kopior återfanns inte i samma lokalsökning.

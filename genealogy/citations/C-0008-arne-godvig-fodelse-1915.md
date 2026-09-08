@@ -51,3 +51,30 @@ inte tillräckligt säkert lästa för att normaliseras.
 ## Stödda påståenden
 
 A-0029, A-0041–A-0045, A-0055, A-0061, A-0158–A-0159 och A-0198–A-0199.
+
+## Lokal omläsning 2026-09-07 — T-0123
+
+Hela bevarade bilden och målradens detalj lästa. Dopkolumnen anger
+1916 oktober22, Torsten Petri, Komminister. Anmärkningsfältet anger
+”Nedkomsten i Flen” samt utdrag av födelse-/dopbok till pastorsämbetet
+i Floda daterat22/10 16. Den äldre arbetsläsningen ”Moderns arbetsgivares
+tillfälliga” är avvisad; någon sådan arbetsgivaruppgift stöds inte av
+fältet. Dopdatumets1916 är ett år efter födelsen, inte en felskriven
+1915normalisering. Ingen dopplats antas enbart ur registrerande bok
+eller utdragets mottagare.
+
+Fadderfältet har två personer, den förste lägenhetsägare med initialerna
+C.F. och efternamn/ort ännu reserverade, den andra fru Olga Wilh:a
+Lundin[?] med ort ännu reserverad. Omläsningarna skiljer sig i första
+namnet; inga nya personer eller släktrelationer skapas. Hela fältet
+behöver slutföras med rad-/bokstavsprövning, och statistiska kolumner
+skiljs från tysta luckor. Det bevarade originalet tillgodoräknas.
+
+### Fördjupad fadderläsning T-0123
+
+Efter större detalj och två läsningar rättas föregående preliminära
+yrkestolkning: Maskinisten, inte lägenhetsägare. Namnet läses nu
+C.F. Jaensson/Jansson[?], i Ljungbacka; andra personen fru Olga
+Wilh:a Lundin, ort Skarpdal[?]. Namn-/ortsreservationerna består
+för slutlig målpostprövning. Morfaderns familj på Ljungbacka är en
+relevant korrelationsnyckel, inte här fastställd vittnesidentitet.

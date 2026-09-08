@@ -46,3 +46,14 @@ in eller att hans tidigare identitet är uttömd.
 ## Stödda påståenden
 
 A-0847–A-0848.
+
+
+## Tillägg 2026-09-08 — T-0139, lokal prövning och avgränsning
+
+Lokal bevarandekontroll återfinner de sex länkade fullbilderna ovan och
+C-0164:s bild 295/320. Kontrollernas angivna noll räckvidd kvarstår:
+fyra inflyttningsår 1844–1847, inte hela hans liv eller en uttömd socken.
+Den tidigare avvisade sidan 63 är nämnd som faktiskt prövad, men dess
+exakta bild-id och kopia är inte återfunna. Identifiering av den
+historiska kontrollpassagen är en begränsad proveniensuppgift, inte
+auktorisation att återuppliva den avvisade identitetskedjan.

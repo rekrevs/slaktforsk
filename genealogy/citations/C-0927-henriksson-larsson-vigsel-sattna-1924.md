@@ -67,3 +67,7 @@ de år det gällde men byggde på en felaktig bedömning av vad som gick att nå
 ## Stödda påståenden
 
 A-3480 (P-0241), A-3481 (P-0246).
+
+## Avstämning 2026-09-07 — T-0119
+
+Den kyrkliga vigseln är belagd genom den namngivne kyrkoherden och bevisanteckningen. Den innebär ingen allmän slutsats om familjens kyrkotillhörighet. Axel är själv antecknad döpt 1901-04-24 i C-0244; Emma och barnens dopuppgifter ska behandlas individuellt.

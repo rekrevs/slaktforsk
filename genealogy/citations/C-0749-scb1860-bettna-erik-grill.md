@@ -113,3 +113,40 @@ Manifest, records-API, OAI-EAD och IIIF-infofilerna är källavgränsade till
 ## Stödda påståenden
 
 A-0544–A-0545, A-2834, A-2916–A-2921.
+
+## Fullpostavstämning — T-0132, 2026-09-08
+
+Den egna familjens sju rader på nedre vänstersidan har återlästs,
+inklusive grafiska köns-/civilståndsmarkeringar och det sammanslagna
+namn-, yrkes- och anmärkningsfältet. Sonen E. född51 står som man och
+ogift. Föräldrarna är gifta; inga ytterligare personliga lytes- eller
+nationalitetsanteckningar finns på den egna sonraden. Den svaga L.P.-
+liknande sonraden1848 och dottern H.1859 bevaras som råa avvikelser;
+ingen Lovisa- eller Heddaidentitet avgörs av dessa initialer ensamma.
+Föräldrarnas härförsamlings-/Bettnaangivelser är utdragets egna senare
+uppgifter och ersätter inte deras redan funna födelseposter i Halla
+respektive Stora Malm. Inga exakta födelsedatum står i detta utdrag.
+
+## Rättad barnkorrelation — T-0139, 2026-09-08
+
+Hela den relevanta familjegruppen och formulärhuvudet har återlästs i det
+bevarade fulloriginalet. Faderns rånamn läses **Drill C. F.**, inte Grill;
+modern står **Dess Hustru Jansdotter J.**. Familjens identitet ändras inte
+av den diplomatiska namnformen. Den egna sonrad som tidigare lästes
+L.P.-liknande visar **Son L. P.**, födelseår **48**, man och ogift.
+Den har ingen exakt dag eller månad och inga särskilda lytes-, yrkes-
+eller nationalitetsord utöver familjerollen och de grafiska markeringarna.
+
+C-0702:s fulla originalrader visar nu **sonen Lars Petter, 1848-02-27**,
+inte dottern Lovisa 1849. Med samma föräldrapar, barnordning och
+syskonprofil kan SCB-sonen L. P. därför korreleras med Lars Petter/P-0496.
+Den tidigare Lovisa-/sonkonflikten var skapad av avskriftsfel och är inte
+längre en verklig motsägelse mellan dessa källor. Utdraget är beroende av
+kyrkobokföringen och räknas inte som en fristående födelseoriginalpost.
+
+Formulärhuvudet preciserar födelseort till **blott län eller stad**.
+Familjens upprepade förkortning i denna kolumn reserveras diplomatiskt;
+den får inte normaliseras till Bettna församling eller härförsamlings-
+födelse. Den tidigare sockentolkningen ovan, även i T-0132-tillägget,
+upphävs. Halla och Stora Malm kommer från egna kyrkoboksposter, inte från
+detta läns-/stadsfält.

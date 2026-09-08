@@ -50,3 +50,31 @@ skapar inte en ny person.
 ## Stödda påståenden
 
 A-2704, A-2707 och A-2709.
+
+## Fullpost och rättelse — T-0133, 2026-09-08
+
+Hela familjeraden har nu prövats i den lokala bilden. Sara Sophia står
+med 1829 21/5, hustru, giftårsdagen24/11 under1850, vaccintecken v och
+grafiskt läs-/förståelsetecken. Hennes egen anmärkning läses **i Degerfors**
+(med född-förkortning före), medan maken och barnens klammer har i Säfvar.
+Detta är en senare födelseortsuppgift, inte en egen födelsenotis.
+
+I **Hvarifrån** står **455** inom familjens gemensamma klammer. Äldre
+påstående att ingen äldre sidnyckel finns upphävs. Samma folio455 står
+redan i Johan Oscars födelsepost C-0546. Den utpekade sidan är inte
+läst i denna konsolidering. Framåtnoten Nya bok603[?] har svagt sluttecken;
+C-0563:s återhänvisning470 binder den faktiskt kända nästa familjeposten.
+
+Barnet1854-09-27 skrivs **Sophia Wilhelmina** här. Namnformen avviker från
+egen födelses Christina och senare hushålls Cajsa, men datum/familj/routing
+avser samma barn. Samtliga åtta barnrader1851–1864 är bevarade, inklusive
+tvillingarnas skilda marsdatum. Sophia Beata,Carl Reinhold,Wilhelmina,
+Maria Elina,Pehr August,Johan Oscar,Axel och Anders Wilhelm är därmed
+åtta barn, inte sju. De egna årliga förhörs-/nattvardskolumnerna1855–1864
+är tomma; grafiska inledande kunskapstecken ges ingen modern betygsnivå.
+Separat dräng JanAnd.Brännström och piga MathildaSophiaZingmark nedtill
+blir inte automatiskt släktingar. Dödsfält för Sara och Wilhelmina tomma.
+
+C-0997 har redan funnit egen vigsel1850. Den äldre aktuella konflikten
+med Sävar/Lycksele-noll är därför löst som vigselortsfråga, inte genom
+att räkna beroende hushållsdatum som oberoende röster.

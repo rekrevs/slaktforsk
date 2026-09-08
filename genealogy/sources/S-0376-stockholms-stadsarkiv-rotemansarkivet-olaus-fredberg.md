@@ -45,3 +45,11 @@ flyttningar används som en rik livskedja och kontrolleras där det går mot
 kyrkoböcker. De flera gatunamnen i Brita Stinas sista post är parallella
 registerfält och får inte utan ytterligare original göras till separata
 flyttar.
+
+
+## Datumavstämning 2026-09-08 — T-0128
+
+C-0382/C-0383/C-0475 har omlästs till4 september1852, C-0474 till
+24 september1852. Äldre majavskrifter ovan är rättade, inte ett
+oberoende argument mot rotemansposternas4 september. Egen födelse
+är fortsatt olöst; upprepade bokföringsuppgifter avgör inte ursprunget.

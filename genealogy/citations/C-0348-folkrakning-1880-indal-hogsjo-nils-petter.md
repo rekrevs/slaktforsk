@@ -40,3 +40,13 @@ bekräftats av både A I/10a och egen födelsepost.
 ## Stödda påståenden
 
 A-1971–A-1980.
+
+## Konsolideringsrättelse 2026-09-07, T-0113
+
+Den bevarade namnlistan innehåller **åtta yngre hushållspersoner**, inte nio:
+Johan Petter, Ingrid Kristina Vidusina, Anna Erika Lydia, Katharina/Catharina
+Amanda, Erik Nikolaus Biljard, Lars Gustaf Emanuel, Brita Josefina och
+Jonas Alfred Konrad. Äldre löptext och A-1981/A-1982:s nio följer inte den
+registrerade listan. Rättelsen gäller räkningen i befintlig avskrift;
+originalbilden har inte lästs om och inga ytterligare personer utesluts
+utöver den dokumenterade listans omfång. A-4126 och A-4127.

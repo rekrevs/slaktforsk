@@ -78,3 +78,27 @@ slutsatsgräns redovisas i
 [C-0699](../citations/C-0699-umea-FIIa13-sara-sophia-systematisk-protokollfoljd.md);
 [C-0691](../citations/C-0691-umea-FIIa13-sara-sophia-bouppteckningsvag.md)
 bevarar det äldre stickprovet som forskningshistorik.
+
+## Omprövning av kontrollomfång och bevarande — T-0133, 2026-09-08
+
+C-0699, S-0528 och batch140 dokumenterar inspektion av **högersidesrektum**
+i1163–1724 och identifieringsstycken i då funna aktstarter. Ingen senare
+redovisad kontroll av alla möjliga vänstersidesstarter har återfunnits.
+Formuleringen varje aktinledning i en komplett sekvens avgränsas därför
+till faktiskt prövade högersidor och funna starter. Delvis ombunden,
+icke-kronologisk ordning gör inte en fysisk sekvens till ett fullständigt
+dödsdatumurval. Inga hittade negativa identifieringsstycken tas bort;
+ingen egen positiv Sara Sophia-akt är funnen. Detta är en prövad
+kontrollgräns, inte en påstådd oläst fortsättning på en funnen målakt.
+
+Av562bild-id1163–1724 finns26 med lokala bildkopior, även under C-0691.
+536 saknas efter lokal filnamns-/alias-/metadata-/källtext-/temporärsökning.
+Den äldre dokumentationen säger också att kontrollbilder bevarades,
+inte hela den lästa sekvensen. Exakt fryst befintlig-/saknadlista finns i
+[T-0278:s medieomfång](../../wotan/dev-log/T-0278-media-scope.json).
+[T-0278](../../wotan/dev-log/T-0278.md) återställer bara faktiskt saknade
+bilder och prövar aktstartstäckningen inom samma fasta562bilder i
+begränsade pass efter T-0115. Inga nya volymer eller generellt arkivsvep.
+Det är konkret PK-11 och en källstrategisk gräns; dödsdagen1868-08-14
+fastställs inte genom noll, och en bouppteckning utanför intervallet
+är fortfarande möjlig.

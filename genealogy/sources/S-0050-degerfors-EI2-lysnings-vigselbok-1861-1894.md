@@ -17,3 +17,6 @@ hemvist och födelsedata samt lysnings- och vigseldatum. Den exakta
 födelsedagen knyter den vuxne Johan Oskar Zingmark till den i Sävar födde
 Johan August och rättar en tidigare felläsning av datumet som 25 maj.
 
+## Personbunden avstämning — T-0139, 2026-09-08
+
+C-0106:s hela relevanta vigselpost har återanvänts i T-0139. Giftomannens egen roll och hemvist AndersOlofsson/Rödå är prövade; brudens lilla folionämnare reserveras14/4[?] mot äldre14/2. Brudgummens tidigare14/16-reservation i C-0877 återbrukas utan ett nytt säkert datumval. Ingen extern åtkomst eller ny bildhämtning har gjorts.

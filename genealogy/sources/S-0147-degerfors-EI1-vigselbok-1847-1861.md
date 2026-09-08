@@ -23,3 +23,23 @@ identifierbar första hustru. Dessa nollresultat är avgränsade till volym och
 Manifestet och de direkta IIIF-bilderna fungerade utan samma 403-spärr som
 observerades för A I/6b-batchen `C0034063`. Manifestets innehållsträd användes
 för att avgränsa årsföljderna; originalbilderna är evidensbärande.
+
+## Återanvänd originalkopia 2026-09-08 — T-0133
+
+[C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md)
+fullprövas nu mot den redan bevarade alternativa reproduktionen
+[A0001460_00008](../media/C-0210-riksarkivet-degerfors-EI1-bild-8-vigslar.jpg),
+1850 post 19 längst ned vänster. SHA-256:
+`4428e45da580e35f4fe05e59af35a3448397b0fdbf84db2e9129d1bd990f7ebd`.
+C0034079_00013 har inte återfunnits lokalt, men samma egna originalpost
+är bevarad i fullbild; två reproduktioner är inte två oberoende källor
+och behöver inte båda laddas ned för att bevara posten. Den tidigare
+C-0210-kontrollen gällde en annan Johan Pehrsson och upphävs inte av
+att Zingmarkparets vigsel återanvänds här.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Vigselpost 1854 namnger Johans far Pehr Ersson och brudens avlidne far Jöns Jonsson med reserverat Hissjön/Umeå-led. Johans födelsetid är 9 mars 1824, inte 19. Vigselns överlagrade 24/26-siffra reserveras, och giftomannabetyget har prövats.
+
+Se [C-0205](../citations/C-0205-degerfors-EI1-johan-cajsa-lotta-vigsel-1854.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

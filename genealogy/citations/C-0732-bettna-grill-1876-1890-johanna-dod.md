@@ -126,3 +126,17 @@ bevisar inte allmän frånvaro, död eller vistelse.
 ## Stödda påståenden
 
 A-2844–A-2849.
+
+## T-0139: hela positiva hushålls- och dödsrader
+
+A I/18 a sida 20, `C0005868_00034`, har **Carl Fredrik, 1822 9/4 Halla**, och **Johanna Jansdotter, 1819 30/4 Stora Malm**. Juli och maj i den äldre avskriften är här felläsningar. Soldattiteln har tillagget avskedad och Carls anmärkning är `Gratialist`. Heddas datum är **1859 29/10**, inte 1858-11-22. Båda föräldrarna har `v`, grafiska läsbetyg och `försv.[?]`. Nattvardskolumnerna visar för båda 8/10 1876, 21/10 1877 och 6/10 1878; förhörskolumnen 1877 har ett grafiskt tecken och Carls rad även ett tecken 1879. De egna inflyttnings-, vigsel- och dödsfälten är tomma. Den hårt överstrukna utmarginalen är prövad men får ingen säker destination eller dag. Döttrarnas särskilda interna hänvisningar får inte tillskrivas föräldrarna.
+
+A I/19 a sida 193, `C0005870_00191`, har ortsrubriken `Gatstugan, Backstuga` med ytterligare reserverad parentes. Carl är avskedad soldat, **1822 9/4 Halla**, och Johanna hustru, **1819 30/4 Stora Malm**. Båda har `v` och grafiska kunskapsbetyg med `försv.[?]`. Carls änklingsfält och Johannas dödsfält anger **83 24/2**. Båda har nattvard 25/6 1882; Carl också 20/7 1884. Förhörstecken redovisas som grafiska tecken, inte uppfunna datum. Carls anmärkning är `Gratialist`; hans utkolumn innehåller `22[?]/[rad?] 85`, en reserverad intern hänvisning som inte normaliseras till en kalenderdag. Johannas egna inflyttnings-, ut- och övriga anmärkningsfält är tomma.
+
+Samma uppslag skiljer den äldre **Hedda Carlsdotter, 1859 29/10**, från den yngre **Hedda Carlsdotter, 79[?] 29/10**. Det yngre barnets årtal är överlagt/överstruket men äldre läsning 1879 bevaras reserverat. Klammern börjar på den äldre Heddas rad och den yngre betecknas `dotter`; detta stöder att barnet hör till hennes familjegrupp, inte att det är ännu en dotter till Carl och Johanna. Den yngre har dödsnot **83 10/11**. Den äldre Heddas egen anmärkning `Deflorata` och interna utkolumn `218/1 81` tillhör henne. Ingen ny person skapas och inget eget faderskap härleds ur patronymikonet.
+
+F/3 bild `F0002755_00011`, post 3, har **Johanna Jansdotter, hustru till avskedade soldaten C. F. Drill i Gatstugan**, död **24 februari 1883**, begravd **4 mars 1883**, uppgiven ålder **63 år 9 månader 24 dagar**, gift kvinna och hänvisning **193:1**. Dödsorsak, särskild dödsort och attestfält är tomma. Åldern bevaras som källans uppgift och räknas inte om till en ny säker födelsedag. Sidhuvudets församlingsnamn är reserverat som `Stafsberg[?]`; den arkividentifierade volymen och den exakta hushållshänvisningen används, inte en uppfunnen ny dödsförsamling. Den alternativa Carlsson-posten 1885 är fortfarande avvisad; den positiva egna döden 1895 finns senare i C-0743.
+
+### T-0139: själva gratialistregistret rättat
+
+Den redan bevarade A I/20 a-registerbilden har återlästs i detalj: **Carl Fredr. Drill, Gatstugan, 1822 9/4**. Äldre Grill/Götstugan/9 juli är felavskrifter. Skillnaden mot den egna hushållssidans Hagbystugan är en skillnad mellan två bokföringsfält, inte i sig en bevisad fysisk flytt eller olöst personkonflikt. Registret ger inget ytterligare julibelägg.

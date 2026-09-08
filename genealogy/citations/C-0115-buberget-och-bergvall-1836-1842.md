@@ -87,3 +87,15 @@ barnår efter volymens slut är däremot opålitliga och får inte användas
 utan rättad läsning. Ingen ny fullständig sidopersonsavskrift görs här.
 Se [C-0869](C-0869-buberget-register-och-hushall.md) för kontrollfil,
 positiva målgrupper och avgränsad identitetsbedömning.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+P-0058:s kandidatfråga avgränsas vid T-0142: ett tomt Bergvalluppslag i A I/4 och en annan familj på A I/3 s 258 visar enbart vad dessa bokuppslag innehåller. Det bevisar varken avflyttning före 1825 eller när Pehr Erssons familj lämnade byn. C-0506 ger redan ett positivt äldre kandidatankare. C-0205:s omlästa vigselpost namnger en far Pehr Ersson och uppger 9/3 1824, men förenar ännu inte de två hushållsidentiteterna.
+
+
+## Metadatarevision — T-0142, 2026-09-08
+
+För P-0058:s äldre kandidatkontroll är två faktiskt beskrivna målposter ännu utan återfunnen bildkopia: A I/3 sida 258 och A I/4 sida 306. De redan sparade manifesten identifierar dem uttryckligen som `A0001433_00276` respektive `A0001434_00323`. Detta bygger på varje bilds etikett, inte på S-0090:s äldre generella sid-/bildoffset.
+
+Det bevarade Bubergetoriginalet `A0001434_00325` gäller ett annat uppslag och ersätter inte Bergvallbilderna. Den fasta fembildslistan inklusive använda register och den separat avgränsade AI5a-registerfrågan står i [S-0090](../sources/S-0090-degerfors-AI4-husforhorslangd-1836-1842.md). [T-0337](../../wotan/dev-log/T-0337.md) äger återställningen. Ingen ny sakslutsats om Bergvallfamiljens avflyttning tillkommer genom denna metadatarevision.

@@ -27,3 +27,17 @@ IIIF-manifestets `structures` ger födelseårens startbilder: 1848:9, 1849:11,
 säger sig ha läst denna volyms bild 13 parallellt och inte funnit Anna
 Christina Larsdotter. **Posten står på bild 13:s högersida**, under rubriken
 för 1852. Se [C-1041](../citations/C-1041-ardala-1852-anna-christina-fodd-kallvik.md).
+
+## Tillägg 2026-09-08 — T-0132, bevarande och beroende
+
+Bild C0005633_00013 finns redan som C-0151:s fullbild med verifierad hash;
+C-1041:s egen födelsepost har prövats där över hela det korta formuläret.
+Bild C0005633_00014 har inte återfunnits lokalt efter alias-/metadatasökning.
+C/5:s egen målbild C0005634_00013 saknas också, medan dess föregående bild
+12 finns. Se C-1041:s tillägg för exakt avgränsning.
+
+Den äldre formuleringen ”oberoende bild” ska inte förstås som oberoende
+händelsebelägg: C/4 och C/5 återger samma kyrkliga registrering och kan ha
+överförts från gemensamt underlag eller från varandra. Förhållandet är inte
+utrett. Två volymer med samma post ger därför ingen automatisk dubblering
+av bevisvärdet.

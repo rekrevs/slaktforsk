@@ -118,3 +118,28 @@ en enda arbetspassage, och `D` för P-0009 kan prövas i samma svep.
 
 Dispositionen i personmatrisen för djup 4 på Sverkers sida,
 `genealogy/source-coverage.md`.
+
+
+## Omprövning i T-0125, 2026-09-07
+
+För P-0009 och P-0016 skiljs katalogorientering från faktisk personbunden
+åtkomstprövning. S-0750:s daterade ALTCHA-prov avser inte ett öppnat
+registerresultat eller en originalpost efter Ada eller Hulda. Det ger
+inte ett permanent gemensamt hinder, och ingen här redovisad prövning
+visar att fria källor generellt saknas för svenska dödsfall 1961 eller
+alla norska personuppgifter efter 1930. Adas dödsort och dödsår är ännu
+inte primärbelagda; bouppteckningsvägen är därför villkorlig på dödsorten,
+inte en redan uttömd serie.
+
+Huldas död i Flen 1964 och makens död i Katarina 1913 ska routas efter
+respektive tid och jurisdiktion; ett namnregister för Hyltinge som slutar
+1908 stänger ingen av dessa vägar (C-0977). Tjänsteflicka, sömmerska eller
+änka är inte i sig belägg för att ekonomi, arbetsliv, mantal eller sociala
+handlingar saknar relevans. Ett erkänt faderskap utesluter inte alla
+andra administrativa handlingar. För Ada är Arnes faderskap fortsatt
+OWNER_CONFIRMED enligt PCD-2026-08-20-001. Den äldre spekulationen om ett
+mål 1915 har inte en utpekad handling eller säker jurisdiktion och är
+inte bevis för att ett mål finns eller att en bestämd volym är spärrad.
+Granskningen skapar inte ett nytt krav att bevisa det ägarbekräftade
+faderskapet. Övriga personers äldre dispositioner omprövas i deras fasta
+kohorter; denna rättelse ger dem inget tyst godkännande.

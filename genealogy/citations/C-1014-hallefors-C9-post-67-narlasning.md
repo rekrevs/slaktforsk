@@ -99,3 +99,41 @@ Initialerna förblir alltså **oupplösta som förnamn**, men läsningen `C. J.`
 
 A-3775–A-3777; rättelse av C-0380:s normalisering och av dess uppskjutna
 fadderled.
+
+## Fullpostprövning T-0134, 2026-09-08
+
+Den bevarade helbilden C0001534_00011 och ett utsnitt i originalets
+upplösning har lästs på nytt. Hela post 67 har prövats mot sina tryckta
+kolumnrubriker: nummer, namn, född månad/dag, döpt månad/dag, föräldrar och
+hemvist, faddrar och hemvist samt Omständigheter. Året är 1853,
+`And. Gustaf` född `Aug. 21`, döpt `Aug. 25`. Föräldraledet läses
+`Torp. C. J. Jansson Hök och H:u Carolina Magnusd:r fr. S. Torpen.`
+Initialerna är lästa, men inte expanderade till fullständiga förnamn.
+
+Dopvittnena läses `Torp. Johannes Nilsson och H:u M. Cath. Hellquist,
+Dr. Carl Edvin Jonsson och Pigan Margaretha Olsd:r fr. Källberget.`
+**Hellquist** är den nu prövade diplomatiska formen, oberoende andraläst;
+**Hellqvist** ovan är den äldre avskriften/normaliseringen. H:u binder
+M. Cath. till Johannes Nilsson i vittnesledet. Källberget anges vid
+Margaretha; inga egna orter kan säkras för de tre föregående vittnena.
+Ingen ytterligare förrättare, sjukdomsnot, hushållsfolio eller annan not
+är antecknad i den egna postens återstående utrymme.
+
+Det säkra råtalet är **31 år**. Den tryckta rubriken är endast
+**Omständigheter**, inte moderns ålder. Ovanstående allmänna utsaga att
+talet är moderns ålder är därför ingen självständig verifikation.
+Attributionen till Carolina och därav beräknat födelseintervall omkring
+1821–1822 står kvar som villkorad ledtråd, inte säker födelsetid. Inga
+uppgifter i denna läsning avgör attributionen genom en oberoende känd
+föräldraålder.
+
+`S. Torpen` är en hemvistnyckel, men `S.` är inte upplöst. Någon faktisk
+kontroll som bestämmer orten genom Rosenberg redovisas inte här. Ordet
+`fr.` i hemvistkolumnen ger inte ett daterat flyttbelägg. Källberget är
+inte därmed bevisat ligga nära föräldrarna. Att vittnesnamnen saknar
+Magnus-patronymikon varken utesluter släktskap eller gör nätverket
+ointressant; det etablerar heller inget sådant släktskap.
+
+Lokal helbild och SHA-256 stämmer med C-0380. C-1014 är omläsning av samma
+post, inte en oberoende originalkälla. Äldre text och A-3775–A-3778
+bevaras; detta tillägg styr den aktuella källavgränsningen.

@@ -60,3 +60,16 @@ en tredje, billigare väg.
 ## Stödda påståenden
 
 A-3731, A-3732.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+Dokumenterat1862omfång är poster15–23; detta visar inte hela året.
+1863angesposter1–18 men foliolistan innehåller17tal; exakt täckning måste
+avstämmas innan den används som fullårsnoll. Dessutom motsäger 1862listans
+tvåsiffriga folier den kategoriska beskrivningen att alla hänvisar till
+A I/3:s trehundratal. Rätt bok måste prövas per post, inte antas av året.
+
+Slutsatsen ”Roth flyttade inte ut” återtas. Utfallet är att inget relevant
+namn återfanns i den dokumenterade passagen. Det utesluter inte luckor,
+annan namnform eller annan bokföring. T-0211 äger exakt gränskomplettering;
+ingen av fadersfrågans alternativa läsningar väljs.

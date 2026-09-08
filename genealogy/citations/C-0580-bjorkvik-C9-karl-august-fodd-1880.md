@@ -24,3 +24,13 @@ som Matilda gifte sig med 1895, var biologisk far. Flen A I/26:s senare
 ## Stödda påståenden
 
 A-2510–A-2512, A-2516.
+
+## Fullpostprövning och rättelse — T-0143, 2026-09-08
+
+Hela den bevarade originalbilden och post 112 har granskats, med separat kontroll av kolumngränser. Posten anger **Carl August, född 1 november 1880, döpt 7 november**. Ettan efter födelsedagen är en separat könsmarkering och inte den andra ettan i datumet 11. Barnet är markerat `1sta oä`. Modern står **Gustafsdotter Matilda**, med hemvist `Jonstuga[n?]`, och är 20 år. Fadersfältet är tomt. Den äldre läsningen Jungfru Matilda Sjöberg och den säkra dateringen 11 november ovan återtas som avskriftsfel.
+
+Dopvittnena är torparen **Carl Andersson** och hans **onamngivna hustru**, från `Nytorp[?]`, samt **Sonen Johan Claesson** och **Dottren Johanna Claesson**, båda från `Nystugan[?]`. Ortsformerna är prövade men reserverade. Dopförrättarens särskilda kolumn och Diverse anmärkningar är tomma. Moderns ålder och ogifta ställning är markerade; ingen far eller säker kyrktagningsdag tillförs.
+
+Denna post är en **konkurrerande födelsekandidat**, inte ett säkert identifierat original för P-0446. C-0579:s egen hushållsrad anger Matilda Charlotta Sjöbergs son Karl August som född 11 november 1880. Därmed består den uttryckliga senare mor–son-relationen, men sambandet mellan just denna födelsepost och familjen måste prövas genom en hushållsbrygga. Namnlikhet, födelseår och moderns ålder räcker inte för en tyst identitetsfusion. Kandidatpostens vittnen hör tills vidare endast till kandidaten.
+
+Slutlig råkontroll inom T-0143: den första arbetsläsningen Lars Johan och hustru i vittnespasset var fel; originalets roller är Sonen respektive Dottren. Detta ger inte ett belagt syskonskap utan prövad föräldrakoppling.

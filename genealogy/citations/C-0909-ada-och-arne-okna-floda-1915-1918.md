@@ -61,3 +61,11 @@ Sidan namnger ingen far till Arne, i linje med födelsenotisen
 ## Stödda påståenden
 
 A-3419–A-3420 (P-0009), A-3422 (P-0003).
+
+## Bokföring och faktisk omsorg — T-0123, 2026-09-07
+
+Raderna visar moderns omskrivning1916 och sonens registrering hos
+henne, med utflyttningsföring1918-10-28. De fastställer inte var
+Arne fick daglig omsorg under varje del av1915–1918 eller den
+faktiska dagen för överlämnande till morföräldrarna. Familjeminnet
+om tidig vård i Flen och den formella kyrkobokskedjan hålls isär.

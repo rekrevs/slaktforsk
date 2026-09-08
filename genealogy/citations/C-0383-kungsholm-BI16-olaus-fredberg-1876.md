@@ -32,3 +32,24 @@ familjens första kända barn gör posten till en stark vuxennära träff. Datum
 ## Stödda påståenden
 
 A-2069–A-2070 och A-2624.
+
+
+## Originalomläsning 2026-09-08 — T-0128
+
+Den egna raden anger **Lundby 52 4/9**, normaliserat 1852-09-04.
+Äldre 24/5 är en felavskrift. Hemvistfältet läses **15 Upplandsgatan**,
+och föregående församling **Alnö**. Root och andra läsare har prövat
+raden i den bevarade fullbilden; C-0649:s senare påstående om Kungsholmsgatan
+kan inte upprätthållas. Inte heller `M:a`/Maria utgör korrekt avskrift här.
+C-0474:s Alnö stöder församlingsläsningen, men är senare sammanställning.
+
+Hela egna raden har prövats: inskrivning 14 juni 1876, namn Fredberg,
+Olaus Fredriksson, `f.d. Gardist`, kunskap Försvarlig. Nattvard, frejd och
+äktenskap har ditto från ovan, det senare ledig; mankolumnen har streck.
+Dop-/föräldra-/utfärdat-betygsblock samt egna anmärkningsfält är tomma.
+Tomma fält innebär inga negativa sakuppgifter om livet.
+
+Tidigare Maria-sökningar i C-0443–0444 bevaras som faktiskt genomförda
+avgränsade sökningar, men deras ursprungliga positiva ingång har fallit.
+Alnös januari 1876-attest och juniinflyttningen är två daterade ankare;
+det är inte därmed visat var Olaus vistades hela mellanperioden.

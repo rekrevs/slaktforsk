@@ -20,3 +20,12 @@ begravdes **5 maj**. Hon uppges vara född **1825-10-20**. Dödsorsaken är
 ## Stödda påståenden
 
 A-2274–A-2275.
+
+
+## T-0142: personbunden fullprövning, 2026-09-08
+
+Hela egen post 32 på fullbild 00173797_00136 är prövad, inklusive formulärets rubriker. Råtext `Persson f. Jonsdr Kajsa Charlotta, änka fr. Alvik`; död 1912-04-25, född 1825-10-20, räknad till församlingen och markerad i kvinnlig änke-/civilståndskolumn. Ingen egen yrkestitel utöver änka, ingen främmande nationalitet eller religion anges.
+
+Högersidan: församlingsbok 2739; dödsorsak `hög ålder`; begravning 1912-05-05. Båda dödsattestkolumnerna, kolumnen **Dödsort (om annan än hemorten)** och den särskilda anmärkningskolumnen är tomma på hennes rad. Ingen läkarsignatur, läkarattest eller annan församlings begravningsplats är antecknad.
+
+**Rättelse av platsanspråk:** Alvik är den uttryckliga hemvisten. Det tomma fältet för annan dödsort är inte ett självständigt belägg för den exakta fysiska dödsplatsen. Aktens äldre "dog i Alvik" avgränsas därför till död och hemvist var för sig. Dödsdag och begravningsdag består. Den befintliga fullbildens SHA-256 är kontrollerad och matchar; ingen egen kopieskuld för denna post.

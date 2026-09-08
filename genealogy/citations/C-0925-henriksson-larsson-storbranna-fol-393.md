@@ -83,3 +83,21 @@ P-0246 och rättar en tidigare felriktad sökning.
 
 A-3473–A-3475 (P-0241), A-3476–A-3477 (P-0246), A-3478 (P-0254),
 A-3479 (P-0255).
+
+## Rättelse 2026-09-07 — T-0113, konsolideringsgranskning
+
+Ingrid Kristinas dödsdag bedöms nu som 1921-12-11 enligt dödboken
+C-0940/A-3527. Den äldre marginaltolkningen 1921-12-04 ovan bevaras som
+avvikande uppgift. Borgerlig vigsel och angivna personers uteblivna dop
+styrker inte att hela familjen stod utanför kyrkan eller förklarar i sig
+varför andra poster inte återfunnits.
+
+## Avstämning 2026-09-07 — T-0119
+
+C-0927 ger vigseln 1924-09-13; preliminära augusti-/septemberläsningar i hushållsraderna är ersatta. C-0888:s noll för 1919, 1920 och 1922 består inom dessa år, trots att vigseln låg utanför dem. Uppslaget i 1911–1927 års volym täcker inte ensamt perioden till 1938. Axelradens inflyttning läses här 1924-10-25 medan avgången i C-0926 läses 1924-10-15; avvikelsen bevaras tills båda målkolumnerna kontrollerats. Värnpliktstalen anges först läsosäkra och ska prövas mot C-0926, inte göras säkra enbart genom upprepning.
+
+## Lokal bildkontroll 2026-09-07 — T-0119
+
+Två separata granskare läste den bevarade fullbilden00205392_00094: Axel Edvins rad6, kolumn10, anger24¹⁵/₁₀, alltså1924-10-15, samma dag som Emma pårad7. Den tidigare avskriften25oktober var felläst. C-0926:s avgångsdag15oktober överensstämmer därmed; ovan bevarad avskriftsavvikelse är löst. Axelradens kolumn12 läses Okonf[irmerad], inte odöpt; hans eget dop finns i C-0244. Övriga målkolumner fullutvinns samordnat i T-0214. Befintlig fullbild och SHA-256 enligt denna citations mediatabell återanvänds.
+
+A-4154 i P-0257 tillgodoräknar Märtas redan avskrivna namnform, födelseuppgift och utflyttning med sonen. Rad4:s lilla markering i kolumn9, inflyttad/överförd, är synlig i lokalbilden men inte tolkad i målutvinningen; T-0214 ska pröva den. Husförhörskolumn13 är tom för Märta i denna bild och är inte hennes utvinningsbrist.

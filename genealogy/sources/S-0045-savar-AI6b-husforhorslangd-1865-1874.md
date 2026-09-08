@@ -36,3 +36,10 @@ släktskapsbevis. Återaktiveringen 2026-08-29 följde API-först-regeln:
 sök-API/JSON-LD prövades före IIIF och den autentiserade bildvisaren användes
 först efter utebliven bildlänk och dokumenterat `403`. Ingen CAPTCHA
 användes.
+
+
+## Personbunden avstämning — T-0142, 2026-09-08
+
+Den egna Lundströmfamiljen överförs från 461 till 415 år 1873 och därefter till nya 445. Det är inte en direkt nybokshänvisning från 461. Barnens namn och datum är rättade i C-0053/C-0054.
+
+Se [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md) för full råavskrift och rättelsehistorik. Inga nya arkivbilder har hämtats.

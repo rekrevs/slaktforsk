@@ -85,3 +85,7 @@ och ingen ny föräldrarelation skapas.
 Fulloriginalen och den sammansatta identitetsbedömningen redovisas i
 [C-0721](../citations/C-0721-stora-malm-johanna-jansdotter-1819-1841.md).
 
+
+## T-0139: avstämning och proveniensgräns
+
+Johannas fulla födelse-/hushålls-/flyttfält och dopnätverk är tillgodoräknade. Föräldrarna har på Walla-raden Jan 1791 5/9 och Lena 1783 21/10. Äldre motsvarande maj-/1785 läsningar var fel. Se [C-0721](../citations/C-0721-stora-malm-johanna-jansdotter-1819-1841.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.

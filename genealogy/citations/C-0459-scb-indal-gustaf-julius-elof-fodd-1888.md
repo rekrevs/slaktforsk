@@ -30,3 +30,13 @@ den tydliga vigselposten avvisas inte.
 ## Stödda påståenden
 
 A-2209 och A-2212.
+
+## Tillägg 2026-09-07 — T-0120
+
+I det bevarade fulloriginalets post 21 står `(8)` efter Gustaf Julius
+Elofs namn. Två granskare har sett råtalet; dess innebörd i denna
+utdragskonvention är ännu inte prövad tillsammans med de statistiska
+kolumnerna. Det återges därför utan säker slutsats om barnordning eller
+föräldrarnas totala barnantal. C-0658/C-0659 kallar Jonas 1880 åttonde
+barnet och C-0660 kallar Erik 1874 sjätte; varje källas formulering måste
+bevaras och kan inte sammanräknas med åtta listade personer 1880.

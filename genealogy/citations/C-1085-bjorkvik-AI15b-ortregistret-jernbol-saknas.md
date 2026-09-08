@@ -62,3 +62,10 @@ delad i två band ska prövas i **båda** innan ett ortnamn kallas frånvarande.
 ## Stödda påståenden
 
 A-4067–A-4068.
+
+
+## T-0137: avstämning 2026-09-08
+
+Den lästa registerpassagen omfattade bilder 8–9; 10–11 var olästa och räknas inte som förlorade lästa kopior. Senare C-1086/C-1087 gav den positiva ort- och kandidatplaceringen i a-bandet.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

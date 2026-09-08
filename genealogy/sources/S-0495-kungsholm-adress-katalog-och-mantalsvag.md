@@ -45,3 +45,8 @@ bakåt mot inflyttningsoriginalets 15 Kungsholmsgatan. Om mantalsuppgiften
 saknas eller inte ger en bakåtnyckel, använd adressen i fastighets-,
 adresskalender- eller mantalslängdsmaterial; upprepa inte den namnfria
 registerfrågan som om den vore originalet.
+
+
+## Rättelse 2026-09-08 — T-0128
+
+Originalomläsning C-0383/C-0649 ger 15 Upplandsgatan och Alnö. Den tidigare rättelsen till Kungsholmsgatan återtas. Beställningsuppmaningen ovan är historik och ingen tillåtelse: T-0051 äger den olästa mantalsuppgiften G 1 BB:44/20; ingen beställning görs utan ägarbeslut.

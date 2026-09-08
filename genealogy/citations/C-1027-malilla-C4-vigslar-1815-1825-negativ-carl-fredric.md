@@ -59,3 +59,7 @@ lästa men **inte bevisligen fullständiga**. Alla övriga årgångar är hela.
 ## Stödda påståenden
 
 A-3814–A-3816.
+
+## T-0136: avstämning 2026-09-08
+
+Den äldre slutsatsen om en fullständig uteslutning för hela perioden 1815–1825 är för stark. Citationens eget förbehåll anger att sidan med 1820–1821 visar sidorna 36 och 39 medan 37–38 inte har återsetts. Årssummor löser inte denna täckningsfråga. Utfallet är ingen funnen parvigsel i de dokumenterat lästa passagerna, med en särskild års-/sidgränsreservation. Det bevisar varken att någon make kom utifrån eller att vigseln ägde rum i en annan församling. En tidigare vigsel, ofullständig registrering och den reserverade passagen kan inte uteslutas. Gårdvedabor i samma räcka stöder en gemensam sökväg men inte ett obegränsat frånvarobevis. Elva lästa bildkopior C0027214_00022–00032 har inte återfunnits i genealogy/media eller /tmp efter sökning på bild-id, Målilla, volym och vigselalias; detta är en reproduktionsbrist, inte belägg för att själva arkivbilderna saknas.

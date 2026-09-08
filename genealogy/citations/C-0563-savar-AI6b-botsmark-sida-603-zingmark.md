@@ -47,3 +47,34 @@ visaren. Ingen CAPTCHA användes.
 ## Stödda påståenden
 
 A-2465–A-2467.
+
+## Fullpost och rättelse — T-0133, 2026-09-08
+
+Saras egen överstrukna rad är nu omläst i lokal fullbild och förstoring.
+Födelseortskolumnen anger **Degerfors**, inte Lycksele. Den tidigare
+Lycksele-läsningen var ett avskriftsfel; C-0685 har även i Degerfors i
+hennes egen anmärkning. Hushållens uppgift ersätter inte den saknade egna
+födelseposten men upphäver den påstådda ortkonflikten. Eget födelsedatum
+1829 21/5, vigsel1850 24/11, vaccintecken v och dödsnot1868 14/8 består.
+Den egna dödsdagen är fortfarande ett positivt hushållsbelägg utan funnen
+dödpost; äldre avgränsade noll bevisar inte att dagen eller orten var fel.
+
+Barnet1854-09-27 skrivs **Cajsa Wilhelmina**, inte äldre arbetsavskriftens
+Christina. Namnformen är en faktisk avvikelse från egen födelsepost och
+C-0685:s Sophia. Hennes och moderns grafiska kunskapstecken, v och egna
+F/N-kolumner är prövade. Sara har nattvards-/förhörstal1865–1867, bland
+annat rått5/3[?],21/9[?],1/9[?]; senare egna årsfält tomma. Detta är inte
+ett bevis för att hon saknade religiösa handlingar. Wilhelmina har
+prövade tecken och egna senare nattvardstal29/5 1871,7/7 1872,6/7 1873,
+5/7 1874. Tätare tidigare överlagringar bevaras som prövade råreservationer,
+inte som säkra datum eller obehandlade kolumner. Egna fräjdfält är tomma.
+Wilhelminas egna flytt-/dödfält saknar not; Nya bok672 anger nästa bok.
+
+Den inskjutna äldre mannen **Carl Jonas Zingmark**,1825-sonens far,
+anges född1785 4/11,Bygdeå,från582 år1867 8/11[?], död1870 22/12[?].
+Dessa rådata hör till hans rad och inte till Sara eller sonen. Hans
+födelseår/ort måste prövas i egen akt; ingen säker födelsepost skapas här.
+Sophia Beatas rad har en egen vidarehänvisning599 år1870, tätt dagtal
+reserverat. Yngre barn i faderns andra gifte hör till Cajsa Greta;
+Sara Rebecka blir inte avvisad som dotter bara för att hon saknas här.
+De nedre tjänsteradernas flytt- och frejdnoter överförs inte till familjen.

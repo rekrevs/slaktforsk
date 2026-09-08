@@ -37,3 +37,13 @@ tidigare hushålls-, vigsel- och flyttningslängder.
 ## Stödda påståenden
 
 A-0262, A-0667 och A-0808.
+
+## T-0142: förbisedd positiv närkandidat på redan bevarad bild, 2026-09-08
+
+Hela den översta vänstra posten på C0034536_00188 har nu prövats, med oberoende andraläsning. Den anger **Cathrina Charlotta**, född **21 oktober** och döpt **23 oktober 1825**, med föräldrarna **bond. Jon Jonsson** och **hustru Anna Maja Pehrsd:r**. Föräldrarnas hemvist läses **Hissjön[?]**, både i marginalen och i vittnesledet. Moderns råålder är **32**.
+
+Hela vittnesfältet: `B. Matts Jakobsson och Hustrun fr. Hissjön[?]; B. Hindric ChristianSon Borg och Hustrun, Böle; Dr. Eric Ed…felt[?], Böle; Pig. Magdalena Soph. Ericsdr fr. Flurkmark[?]`. De två hustrurna är onamngivna. Förrättarsignaturen läses `Bambraeus[?]`. Svaga namn-/ortdelar är visuellt prövade men reserverade; ingen normaliserad släktskap eller personakt skapas ur dem. Ingen separat kyrktagningsdag eller ytterligare egen marginalnot framgår.
+
+**Reviderad bedömning:** det äldre exakta 20-oktober-nollet består i sitt snäva omfång, men sammanfattningen var ofullständig när den endast nämnde Cajsa Lovisa 18/20 oktober. Den nu fullutvunna Cathrina Charlotta den 21/23 oktober har ett mycket näraliggande namn och datum. C-0205:s samtidigt omprövade brudföräldrafält ger dessutom ett Jon/Jöns Jonsson- och Hissjöankare. Detta gör henne till en konkret **LEAD-kandidat** för P-0059; någon personbunden hushållsbrygga mellan barnet och den vuxna kvinnan har ännu inte visats. Endagsavvikelsen mot de vuxna böckernas 20 oktober bevaras. Kandidatmodern Anna Maja får inte föras som fastställd mor till P-0059.
+
+Båda ursprungliga fullbilderna finns och deras SHA-256 matchar vid kontroll i T-0142. Ingen ny arkivbild har öppnats. A-4685 bevarar kandidaten i den vuxna personakten utan fusion.

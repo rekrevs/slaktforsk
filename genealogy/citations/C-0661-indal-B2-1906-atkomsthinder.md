@@ -31,3 +31,12 @@ och ingen CAPTCHA användes.
 
 Inga personpåståenden; åtkomst- och återstartsprovenans.
 
+
+## Avstämning 2026-09-07 — T-0120
+
+C-0949 dokumenterar lyckad inloggad bildåtkomst i samma volym den
+2026-09-06, men endast i det där angivna postomfånget 1895–1900.
+401-resultatet ovan är historik från 2026-08-30, inte ett visat aktuellt
+hinder för hela volymen. 1906 års bilder/poster är fortfarande inte
+redovisade som lästa. Ny åtkomst till andra år är varken ett flyttbelägg
+eller ett nollresultat för Gustaf 1906 eller Anna Kristinas inflyttning.

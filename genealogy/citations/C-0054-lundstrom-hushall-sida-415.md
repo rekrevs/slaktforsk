@@ -28,3 +28,10 @@ födelsedata som sida 461. Hänvisningen `Nya bok 445` för familjen vidare.
 
 A-0256–A-0273.
 
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Den egna familjen står i uppslagets nedre del under Brännmark; familjen Stark ovanför är ett annat hushåll. Johan Pehrssons tillägg efter namnet är svårläst och ges ingen ny säker titel. Hans födelsedag är 19/3 1824, hustruns 20/10 1825. De sex barnens namn och datum följer C-0053: Jonas Peter 9/10 1856, Emma Maria 10/8 1859, Johan August 16/5 1861, Carl Eric 15/5 1863, Albert 4/12 1865 och Charlotta 19/8 1870. Föräldrarnas födelseförsamlingar Degerfors respektive Umeå landsförsamling och barnens Sävar är separata från nuvarande hemvist Brännmark.
+
+Samtliga kommer från **461, 1873 23/11[?]**, och går vidare till **nya boken 445**, utan särskild fysisk flyttdag. Kopporfält har v, föräldrarna grafiska kunskapsbetyg och egna kyrkliga markeringar 1873–1874. Barnens egna betygs-/förhörstecken varierar med rad; Jonas har även N-liknande markering 1874. Egna frejd-, döds- och civilståndsdatumfält är tomma. Inga uppgifter från Starks övre familj överförs.

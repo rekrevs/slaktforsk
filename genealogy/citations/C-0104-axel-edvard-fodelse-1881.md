@@ -63,3 +63,25 @@ och Hyltinges födelsebok 1920 ([C-0028](C-0028-maj-amalia-originalfodelse-1920.
 ## Stödda påståenden
 
 A-0434, A-0540–A-0543 och A-0557–A-0573.
+
+## Fullpost och källkritisk rättelse — T-0132, 2026-09-08
+
+Hela den bevarade post3 har prövats på nytt. Född20mars1881, pojke,
+äkta, Axel Edvard med ordningstalet3:e; torparen CarlssonErik och
+hustrun AnnaChristinaLarsdotter, Svartgjötorp, äktenskap5år. Dop7april,
+kyrktagning8maj. Dopvittnen: torparen JohanPeterPehrsson och hustrun
+AnnaErsdotter i Näfverkärr; drängen CarlPettersson i Svartgjöl;
+dottern LovisaSvalberg i Malstugan. Inga egna särskilda anteckningar
+eller promemorieuppgifter; förlossningsbiträdeskolumnen har råtecken
+`Ex.`/E-liknande förkortning, inte ett personnamn.
+
+**Åldersfältet har 30/29 inom samma tryckta kolumn för moderns sist
+fyllda åldersår.** Flera poster använder liknande dubbeltal. Det
+härleds inte säkert till två olika föräldraåldrar eller moderns
+exakta födelse1851. C-1041 ger hennes egen födelse21mars1852;
+råtalen bevaras utan att jämkas till det beräknade28året dagen före
+hennes födelsedag. Den äldre normaliseringens bestämda30år är för stark.
+
+De senare kyrkoböckerna och folkräkningarna är inte automatiskt fyra
+oberoende vittnesmål om födelsedagen. Överföring mellan kyrkoböcker
+måste beaktas; den egna födelseposten är primär för händelsen.

@@ -103,3 +103,42 @@ läst. Stora Malms längder är inte prövade.
 ## Stödda påståenden
 
 A-3969–A-3976.
+
+## Avstämning 2026-09-08 — T-0137
+
+Detta är en avstämning av den befintliga avskriften och slutsatserna,
+**inte en ny visuell fullpostläsning**. Målbild **C0006949_00155** och de
+uppgivna lästa registerbilderna **C0006949_00010–00011** har inte återfunnits
+i media eller /tmp efter prövning av bild-id, C-id, Erikslund/Ericslund,
+änkehushåll och andra lokala alias. Egna kunskaps-, frejd-, förhörs-/
+nattvards-, in-/utflyttnings- och anmärkningskolumner utöver den begränsade
+avskriften kan därför inte kallas fullutvunna. Äldre återgivna `befr.`
+bevaras rått utan ny expansion eller kolumnverifikation.
+
+Följande tidigare slutsatser korrigeras, medan själva avskriften bevaras:
+
+- Moderns senare rad uppger Pehrsdotter, 1829-10-21 Sköldinge och änka efter
+  Lars Andersson med datum 1874-02-05. Detta är ett positivt senare
+  identitetsankare, **inte** fjärde oberoende namnbevis. C-0126 har inget
+  patronymikon för barnet. Namnavvikelsen i C-0535 är kvar som källavvikelse;
+  ingen dokumenterad prästförväxling med makens Andersson är visad.
+- Samma änkedatum i hushålls- och dödbok är inte automatiskt oberoende
+  information. C-0541:s dödpost och det namngivna änkesambandet stöder
+  familjetolkningen tillsammans.
+- Avsaknad av avgångsstreck är **inte bevis att änkan bodde kvar vid
+  volymens slut 1885**. Volymperioden är bokföringsram, inte fastställda
+  egna inflyttnings-, vistelse- eller överlevnadsgränser.
+- Registrets uppgivna Erikslund och den positiva rubriken är stöd för
+  lokaliseringen. Ett frånvarofynd i ett E-avsnitt bevisar inte att formen
+  Ericsland aldrig fanns i socknen; jämförelsen avgör inte ensam varje
+  handskriven ortform i C-0535/C-1060.
+- Dotterns återgivna inflyttning 1884-04-25 daterar bokföringen, inte en
+  säkert fysisk hemkomst, avslutad tjänst eller en säkert identifierad
+  stuga. Upprepningen av `hennes oä. son` i flera församlingsböcker är inte
+  tre prövade oberoende uppgiftskedjor och bevisar inte Karl Fredriks
+  biologiska faderskap eller en gemensam tidigare föräldraflytt.
+
+De redan utpekade egna senare folierna är fortsatt nycklar: dotterns 185
+respektive 218 och moderns möjliga Erikslund-fortsättning A I/23 folio 186.
+Deras återgivning här betyder inte att de nu har öppnats. Det konkreta
+kopieomfånget ovan är tre tidigare lästa bilder, inte hela A I/22.

@@ -77,3 +77,9 @@ Stödes födelsebok på **datumet** `1831-07-10`, inte på namnet.
 ## Stödda påståenden
 
 A-3795–A-3798; komplettering och delvis rättelse av C-0590.
+
+## T-0136: individuell fullpost- och gränsprövning, 2026-09-08
+
+Den säkra B.-läsningen och den prövade namnreservationen består. Fullpostprövningen i C-0590:s T-0136-tillägg tillför dock barnradens **Drunkn. under 1841** och föräldrarnas egna 1842-markeringar. Jöns dag läses nu säkert **21/8**, efter oberoende andraläsning. Det är fortfarande en senare födelseuppgift, inte en egen födelsepost.
+
+Bondeexpansionen gör mantals-/jordmaterial till en möjlig personbunden källväg men garanterar inte en bevarad bouppteckning, viss äganderätt eller att en obesutten person saknar ekonomiska källor. Yrket 1833–1842 och bondesonstiteln 1830 är skilda observationer; de visar ingen säker social uppgång. Vigseln 1830-04-13 är redan positiv i C-1024 och ska inte sökas om som okänd.

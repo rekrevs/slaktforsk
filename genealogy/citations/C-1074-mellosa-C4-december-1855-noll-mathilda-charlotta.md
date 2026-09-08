@@ -95,3 +95,10 @@ lästa.
 ## Stödda påståenden
 
 A-4023–A-4026.
+
+
+## T-0137: avstämning 2026-09-08
+
+Nollet för december 1855 i Mellösa byggde på projektets felavlästa söknyckel. Senare C-1075 ger Mathilda 1855-01-10 i Stora Malm. Nollet kan inte belägga opålitlighet i familjens originaluppgifter.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

@@ -113,3 +113,29 @@ kopia är speglad.
 ## Stödda påståenden
 
 A-3635–A-3640 (P-0016); A-3641 (P-0532); A-3643 (P-0533); A-3644 (P-0534).
+
+## Tillägg T-0125, 2026-09-07: foliekedja, källberoende och proveniens
+
+C-0973 innehåller fyra folier; med ingångsfoliet 932 i C-0972 blir de fem.
+Det är inte fem oberoende observationer av samma födelse-/änkedatum:
+uppgifterna kan ha kopierats vid överföringarna. Hänvisningarna och
+makens uttryckliga namn är ändå positiva stöd för rätt person och relation.
+
+Samma fastighetsfolio för Hulda och två vuxna barns familjer belägger
+bokföringsmässig närhet. Det bevisar inte en gemensam lägenhet, delad
+ekonomi eller att institutionsvistelse kan uteslutas under hela hennes
+ålderdom. Den tidigare formuleringen ”bodde med henne igen” får inte
+användas som en starkare hushållsuppgift än detta.
+
+Avskriften `g.b. 497 · 54` på folio 83 bevaras. Hänvisningen `nb 96`
+saknar ett säkert avläst överföringsår i citationen; år 1955 får inte
+sättas automatiskt efter volymens period 1950–1955. Fortsättningen är
+ännu inte sakligt följd. Det äldre metadatanollet för A II a/10 och de
+svarslösa gissade batcharna är ett begränsat routingprov, inte bevis för
+att alla digitala källor efter 1955 saknas. Rätt katalogingång behöver
+prövas för den uttryckliga hänvisningen.
+
+De fyra redan lästa bilderna saknar lokal kopia trots angivna hashar;
+T-0237 äger återställning och fullpostavstämning. Prövade läsosäkerheter
+om husförhörstalens fördelning eller dotterns utflyttningsort är inte
+i sig PK-05-brister. Barnens tidigare integritetsminimering består.

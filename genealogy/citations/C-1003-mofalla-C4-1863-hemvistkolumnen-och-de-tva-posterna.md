@@ -133,3 +133,25 @@ de två posternas innehåll**; tolkningen kräver Roths egna källor.
 ## Stödda påståenden
 
 A-3725, A-3726, A-3727, A-3728, A-3729, A-3730.
+
+## Prövningens räckvidd och dopfält — T-0127, 2026-09-07
+
+De två födelseposternas sidhänvisningar och respektive hushåll stöder den
+redovisade tolkningen av moderns och faderns olika hemvistuppgifter.
+Två prövade poster fastställer däremot inte en generell garanterad
+blankettkonvention. Den äldre meningen ”är inte slump” är ingen utförd
+sannolikhetsprövning. De samverkande mor-/barn-/folioöverensstämmelserna
+är ett identitetsargument, inte flera helt oberoende röster.
+
+Faderskap utanför äktenskapet, radförväxling och annan registreringsförklaring
+är fortfarande alternativ. Hushållsklammern är kyrkobokens gruppering;
+den gör inte i sig ett biologiskt eller rättsligt faderskap slutligt
+avgjort. Ingen enskild förklaring väljs genom att formatera personakten.
+Roth får inte slås ihop med Johannes genom en soldatnamnsförklaring.
+
+Post 10:s dopdatum är 1863-06-27. Lokal fullbild och förstoring visar
+ett enda dopvittne: `Sjö(n)[?] Anders, Korporal vid Sandbråta[?]`, med
+prövad men kvarstående namn-/ortreservation. Flickmarkering, moderns
+ålder 39 och folio 18 är lästa. Adel, förlossningsbiträde och följande
+kyrkotagnings-/absolutions-/anmärkningsfält är tomma. Fullbild/hash finns
+i C-0114; denna bild saknas inte bara för att C-1003 har en annan beteckning.

@@ -108,3 +108,16 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3331–A-3333 (P-0003), A-3336 (P-0007).
+
+## Avstämning 2026-09-07 — T-0123
+
+Målbild58 har adress Hertig Karls väg40 och korrigering Gondolen3→2
+i kvartersfältet. Det är inte belägg för att gatunumret ändrats42→40.
+C-0885 ger samtidigt Gondolen2=40 och Gondolen3=42. Familjeminnets42
+bevaras som avvikande adressuppgift utan fastställd förklaring.
+
+Barnradens Stadsf. är födelseförsamling, inte bevis för födelse inne
+i huset. Bild265:s n.r. har redan katalogväg till nästa registerserie;
+1948–1970posten är ännu oläst. Den äldre hushålls-/fastighetskedjan
+stämmer med1951utdragets nycklar men verifierar inte det olästa
+mantalsoriginalet eller varje år1948–1951.

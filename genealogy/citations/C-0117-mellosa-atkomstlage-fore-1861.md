@@ -57,3 +57,11 @@ på distans.
 ## Stödda påståenden
 
 A-0688–A-0693.
+
+
+## T-0137: avstämning 2026-09-08
+
+API-kontrollen 2026-08-20 var ett historiskt åtkomstutfall. Senare
+originalåtkomst i C-0835, C-0965 och C-1092 visar att den inte får beskrivas
+som generell odigitalisering eller slutlig avsaknad av fjärråtkomst.
+Någon ny teknisk åtkomstprövning har inte gjorts i T-0137.

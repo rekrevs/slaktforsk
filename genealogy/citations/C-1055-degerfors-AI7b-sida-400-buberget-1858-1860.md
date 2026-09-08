@@ -83,3 +83,26 @@ därför inte fastställd** och får inte hävdas förrän sida 536 lästs förs
 ## Stödda påståenden
 
 A-3924–A-3928.
+
+## T-0140: tillgodoräknad läsning och faktisk kopiegräns
+
+2026-09-08: målbild **A0001440_00141**, sida 400, har inte återfunnits
+lokalt efter exakt bild-id-, citations-, alias-, mediemanifest- och
+/private/tmp-sökning. T-0091:s checkpoint styrker att den tidigare
+lästes, men ersätter inte en bevarad läsbar bild. Därför tillgodoräknas
+ovanstående observationer som tidigare läsning, utan att en ny oberoende
+fullprövning eller verifiering av giftfältet 1831 påstås här.
+
+En konkret fortsatt uppgift är att återbevara just denna bild och pröva
+hela Ulrika Lovisas egen rad och familjens relevanta kolumner, inklusive
+giftofältets placering, Lisa/Eva-former och barnens datum. Bilden är en
+faktiskt tidigare öppnad post med ofullständig bevarad fullutvinning;
+kopie-/utvinningsbristen gäller inte ett obundet nytt hushållssvep.
+
+De reciprokala G.B./N.B.-hänvisningarna är positiva bokföringsbryggor.
+Äldre formulering om **obruten boendekedja 1836–1865** ska förstås som
+identifierade bokföringsankare, inte belägg för faktisk vistelse varje dag
+eller läsning av varje mellanår. Upprepade födelsedatum i efterföljande
+hushållsböcker räknas inte automatiskt som oberoende ursprungsuppgifter.
+Nämndemannatiteln tillhör Jon, inte hans hustru; den ensam fastställer
+varken familjens förmögenhet eller Ulrikas egna samhällsuppdrag.

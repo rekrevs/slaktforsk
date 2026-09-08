@@ -67,3 +67,13 @@ avvikelsen ska föras som en konflikt mot en påstådd födelsesocken och inte
 enbart som ett oanvändbart datum. Ingen ny slutsats om makarnas ursprung dras.
 
 Texten ovan bevaras oförändrad som revisionsspår.
+
+## T-0134: fullpostprövning och rättelse 2026-09-08
+
+De fem redan bevarade fullbilderna har granskats mot årsrubriker och postföljd. **1800 är inte ett fullständigt kontrollerat år:** bilderna 164–166 slutar med post 31, född 6 november, och en fortsättningssignal `No 32`. Oktoberpassagen på bild 166 har post 29 den 14 oktober och post 30, Anders Nilsson, den 27 oktober; inget barn Anders den 22 oktober står i denna prövade passage. Detta är ett avgränsat datum-/namnnoll, inte bevis att Anders Dahlsten inte föddes i Indal. Fortsättningen efter bild 166 har inte öppnats i detta pass.
+
+**1807 är inte heller ett fullständigt kontrollerat år:** bilder 184–185 slutar med post 30 född 16 oktober. Men bild 184 innehåller redan en **positiv januarikandidat**, i årets första post: **Christina Catharina**, född **12 januari 1807**, döpt **18 januari**; föräldrar bonden **Lars Larsson** och hustrun **Catarina Ericsdotter i Bäcken**, modern **31 år**. Posten har prövats i sin helhet, inklusive faddrarna: `Bond. Johan Larsson och dess Hustru Anna [namnslut svårläst] i Östloning[?]; Bond. Pehr Nilsson och dess Hustru [namn svårläst]dotter i Prästbord[?] i Attmar[?]; [titel svårläst] Joseph Bäcklund och Pigan Brita Ericsdotter i Bäcken.` Dessa prövade läsreservationer är inga oöppnade fält. Föräldrarnas hemvist är Bäcken; födelsehus anges inte separat. Postnummer 1, morålder 31; inga ytterligare egna anmärknings-, kyrktagnings- eller förrättarfält finns på formuläret.
+
+Hushållsböckernas datum för **Stina Cajsa Larsdotter är 12 januari**, enligt den nya originalprövningen i C-0436/C-0437/C-1012. Därför är äldre julikonflikt och hypotesen om en lånad julidag överspelade genom avskriftsrättelse. Namnformerna Christina Catharina/Stina Cajsa, faderns Lars-namn, dag och socken gör januariposten till en **LEAD**, inte en säker identitetsfusion: ingen följd från Bäcken till vuxenhushållet i Säter är belagd. Kandidatens föräldrar införs inte som P-0376:s säkra föräldrar. A-4416 bevarar den separata kandidaten.
+
+Anna Brita, född 12/döpt 16 juli 1807 i Högsjö, behålls som annan person och äldre motprövningshistorik. Hennes datum förklarar inte Stina Cajsas födelseuppgift. Äldre påståenden om två kompletta årsnoll och att båda makarnas födelseorter därmed motsagts ersätts av denna snävare bedömning. Alla fem fullbilder och deras tidigare angivna hashvärden finns kvar; aldrig öppnade fortsättningsbilder är nya källvägar, inte saknade kopior av redan lästa poster.

@@ -21,3 +21,8 @@ uppslag i Helgestas husförhörslängd. Post 7 år 1868 anger Pehr Albert Ålund
 som `son`, från Löta till Hyltinge 1868-10-24, och hänvisar till folio 179.
 Det uppslaget saknar dock en synlig rad för honom; hänvisningen bevaras därför
 som intern källkonflikt och ordet `son` används inte för att skapa föräldrar.
+
+
+## Avstämning T-0143, 2026-09-08
+
+Den äldre saknade sonraden är en upphävd routingkonflikt: S-0245 och C-0317 visar familjen på sida179 i A I/15. Det var efterföljande A I/16 som först prövades. Ingen olöst föräldrakonflikt ska härledas ur den äldre källkritiken. Fredrik Wilhelms egen utflyttpost har prövats i C-0097.

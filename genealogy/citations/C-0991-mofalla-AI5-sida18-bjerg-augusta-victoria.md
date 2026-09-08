@@ -80,3 +80,34 @@ födelseorter.
 ## Stödda påståenden
 
 A-3683, A-3684, A-3688.
+
+## Granskningsrättelse 2026-09-07 — T-0118
+
+Hushållstabellen namnger sex andra barn utöver Augusta Victoria,
+inte prosans fyra: tre i förstaäktenskapsgruppen och tre senare. Klammern
+är kyrkobokens familjegruppering och löser inte biologiskt faderskap.
+C-0999:s föregående bok har ytterligare Thilda Augusta, vilken inte får
+antas död enbart för att hon saknas här.
+
+Avskrifterna skiljer sig mellan böckerna för Carl Johan(1850-04-24 här,
+1850-07-19 iC-0999), Anna Sofia(1857-06-24 här,1857-06-02 där) och
+Victor Albin(1874-11-03 här,1874-11-13 där). Datumen källattribueras;
+ingen avskrift väljs som säker födelse för dessa barn utan riktad prövning.
+
+## Aktuell källkritisk räckvidd — T-0127, 2026-09-08
+
+Hushållsklammern bevaras som kyrkobokens familjegruppering. Den namnger
+inte ensam varje barns biologiska föräldrar och löser inte Augustas
+faderskonflikt. Senare C-1000 visar att Johannes Eriksson och Erik Jansson
+Roth är två olika män; den äldre soldatnamnsförklaringen är avvisad.
+C-0999/C-1002/C-1003 stöder däremot modern Maja Greta och identifieringen
+av Augustas egen födelsepost. Modern är redan P-0536 med egen födelse
+1824-03-22 enligt C-1005/C-1007; hushållsuppgiften 28 mars bevaras som
+avvikelse. Förstaäktenskapsgruppens övriga barn och deras skilda
+avskriftsdatum förblir källbundna, utan automatisk biologisk fullsyskonlista.
+
+Dittokedjan i födelseortskolumnen är en faktisk källuppgift som kan vägas
+mot egen födelsepost. Att familjen bodde i Mofalla visar inte i sig att
+samtliga barn fysiskt föddes där eller hur en avvikande socken skrevs in.
+Augustas kvarvarande egna kunskaps-/förhörs-/anmärknings-/flyttfält och
+fulloriginal kompletteras inom T-0251. Ingen ny bild har öppnats här.

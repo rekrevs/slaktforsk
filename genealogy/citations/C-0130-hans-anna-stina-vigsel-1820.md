@@ -34,3 +34,16 @@ till Anna Stina men namnger inte hennes föräldrar.
 ## Stödda påståenden
 
 A-0736–A-0737.
+
+
+## Konsolideringsprövning 2026-09-08 — T-0139
+
+Den bevarade läsvyn har kontrollästs i hela parets två textrader, med oktober-
+och årskontext. 29 oktober 1820: ”Hemmans tillträdaren Hans Nilsson i
+Åkullsjön” och ”bondedottren Anna Stina Jonsdotter ifrån Degerfors”.
+Notisen har inga egna ålders-, föräldra-, giftomans-, förrättar- eller
+vittnesfält som tidigare har utelämnats. Datumet är vigselpostens dag;
+separat lysningsdag finns inte i den egna texten. Källans ort är hemvist/
+ursprungshänvisning, inte bevis för brudens födelseförsamling. Läsbar egen
+post finns bevarad i skärmbilden; ingen ny fulloriginalfil påstås hämtad.
+A-4656 för in den redan belagda vigseln även i Hans personakt.

@@ -83,3 +83,22 @@ SHA-256 beräknade i den inloggade webbläsarsessionen 2026-09-06.
 ## Stödda påståenden
 
 A-3653, A-3654 (P-0016).
+
+## Tillägg T-0125, 2026-09-07: flyttbryggans räckvidd
+
+Den positiva inflyttningsposten 1900 nr 15 och utflyttningsposten 1902 nr 46
+tillgodoräknas. Talet `41` efter Rudstugan hålls skilt från boställesnamnet;
+det används som möjlig bok-/foliohänvisning och får inte utan
+kolumnkontroll göras till en säker gatuadress ”Rudstugan 41”. Avskriften
+ger inte ett utskrivet eget exakt inflyttningsdatum 1900. Utgående datum
+1902-10-22 bygger på ditto och har den redan angivna reservationen för
+23:e. Inflyttningsdatumet 1902-10-30 i lysningsboken är ett bokföringsdatum;
+skillnaden på åtta dagar fastställer inte resans längd eller en allmänt
+normal fördröjning.
+
+Flyttbryggan besvarar en avgränsad fråga 1900–1902. Den gör inte hela
+livsloppet 1877–1955 materiellt obrutet, och den bevisar inte varje
+mellanliggande hushåll. Den tidigare breda slutformuleringen gäller inte
+aktuell bedömning. Båda bilderna har browserberäknade hashar men saknar
+lokal kopia; T-0237 äger bevarande och exakt kolumnavstämning. Ingen ny
+bild har hämtats i denna konsolidering.

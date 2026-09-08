@@ -56,3 +56,9 @@ Volymernas seriebeteckning är missvisande för vigslarna: den som söker en
 vigsel före 1861 i Hemsjö ska gå till **C-serien**, inte till `E`.
 Bildintervallen ovan är fastställda genom stickprov, inte genom en fullständig
 genomgång, och avsnittens exakta gränser är därför ungefärliga.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+C-1026:s daterade tillägg begränsar barnbaserad vigseldatering och kolumnförväntan. Fyra uppgivna tidigare lästa prov-/vigselbilder saknar återfunnen bildkopia; manifestet ersätter dem inte.
+
+Återfunnet tidigare lokalt C/5-manifest bevarat i T-0136: [JSON](../media/S-0772-riksarkivet-hemsjo-C5-IIIF-manifest.json), SHA-256 `31b4bb02122df65bb25b8ffb70f2063b88ccdbdae0dc8dbfa49bf88b7be976a6`. Det är metadata, inte återställd vigselbild.

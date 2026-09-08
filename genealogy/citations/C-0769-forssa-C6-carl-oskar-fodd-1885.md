@@ -37,3 +37,46 @@ senare normaliserade namnformen `Karl Oskar`.
 ## Stödda påståenden
 
 A-0560–A-0562 och A-2982 samt föräldrarelationerna för P-0136.
+
+## Tillägg 2026-09-08 — T-0132, hela post 15
+
+Den länkade fullbilden har prövats över hela egenposten och dess SHA-256
+stämmer. Carl Oskar står född **8 december 1885**, äkta gosse och **5:e**
+barnet, döpt **31 december**. Föräldrafältet anger Erik Carlsson,
+**torpare**, och hans hustru Anna Christina Larsdotter i **Svartgjötorp**;
+äktenskapsuppgiften är **9 år**. Åldersråtalen läses **34 och 33**,
+faderns respektive moderns uppgivna åldrar. Dessa tal behålls som
+källuppgifter utan att ersätta säkrare egna födelsedatum. Hustru är
+markerad och råtecknet `Ev.` står i religionsfältet.
+
+Dopvittnena läses:
+
+> `Carlsson Carl Erik, Dräng, h.h:u Pettersson Anna Sofia, Näfvertä…[?];`
+> `Carlsson Carl Johan, Son, Carlsson Anna Sofia, Dott., båda fr. Jons-Torp[?].`
+
+Namnformerna återges som de skrivs; svåra ortled normaliseras inte.
+Son/dotter är vittnenas källbeteckningar, inte bevis för att de är barn
+till målparet. Moderns kyrktagningskolumn har **Jan. 31**, alltså januari
+1886 i sammanhanget efter decemberfödelsen. Ingen egen dopförrättare,
+särskild sjukdomsnot eller annan marginalanteckning framgår i målpostens
+tomma anmärkningsfält. Ordningstalet fem bevisar inte familjens slutliga
+livstidstotal.
+
+### Rättelse efter egen rubrikkontroll — T-0132, 2026-09-08
+
+Hela formulärhuvudet i just denna fullbild har nu återlästs med förstoring.
+Det rättar två kolumntolkningar i det föregående tillägget:
+
+- Råtecknet `Ev./Ex.[?]` står i kolumn **22, Examineradt förlossnings-biträde**,
+  inte i något religionsfält. Den tidigare religionsbestämningen upphävs.
+  Inget samfund eller personlig trosbekännelse kan härledas ur markeringen.
+- Råtalen **34/33** står båda i kolumn **21**, under den tryckta rubriken
+  **Modren — dess sist fyllda ålders år**. Formuläret har inte två tryckta
+  separata åldersfält för far och mor. Den tidigare säkra fördelningen av
+  översta talet till fadern upphävs. Båda råtalen bevaras, men deras
+  inbördes funktion är inte fastställd genom postens rubrik eller enbart
+  mönsterlikhet. Inget eget födelsedatum omprövas på dessa tal.
+
+Markeringen under **gift** gäller moderns civilstånd enligt kolumn 17.
+Övriga ovan lästa datum, hemvist, yrke, äktenskapslängd och vittnesfält
+påverkas inte av denna kolumnrättelse.

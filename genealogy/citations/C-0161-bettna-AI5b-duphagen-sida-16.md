@@ -22,3 +22,14 @@ inte gapet mellan C-0160 och den vuxne Lars Erik Jansson.
 ## Stödda påståenden
 
 A-0839.
+
+
+## Tillägg 2026-09-08 — T-0139, lokal prövning och avgränsning
+
+Den tidigare lästa fullbilden `C0005843_00024` saknas efter lokal fil-,
+alias- och metadatakontroll inklusive /private/tmp. Även det faktiskt
+använda Duphagenregistrets exakta bildreferens saknas. Det är en
+bevarandeskuld, inte belägg för att registret aldrig har undersökts.
+Nollresultatet avser den angivna gårdssidan och den sökta kombinationen;
+det utesluter inte Maja och barnet i andra hushåll eller under andra
+skrivningar. Sidans övriga personer identifieras inte som P-0214.

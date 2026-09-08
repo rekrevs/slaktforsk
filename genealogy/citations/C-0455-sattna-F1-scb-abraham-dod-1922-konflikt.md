@@ -40,3 +40,7 @@ bouppteckning, en grav-/begravningskälla eller annat positivt belägg.
 ## Stödda påståenden
 
 A-2203 och A-2204.
+
+## Rättande tillägg T-0126,2026-09-07
+
+C-0453:s egen marginal har oberoende lästs om av två granskare: år16 och22/1,dvs1916-01-22. Äldre22 16/7 var felläsning. De ovan dokumenterade1922-intervallsnollen kvarstår som historiska resultat på fel dödsårsnyckel och utgör ingen konflikt mot den rättade1916marginalen. Egen dödpost1916 prövas av T-0243; ingen upprepning eller utvidgning av1922sökningen följer av dessa noll.

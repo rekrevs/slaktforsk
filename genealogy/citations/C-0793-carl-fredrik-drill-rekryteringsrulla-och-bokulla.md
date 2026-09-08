@@ -96,3 +96,21 @@ formuleras ovan.
 ## Stödda påståenden
 
 A-3037–A-3040, A-3062–A-3065.
+
+## T-0139: hela de fyra personbundna attesterna
+
+De bevarade bilderna 27–30 har återlästs i sin helhet. Bild 27 är daterad **Jernbol den 20 december 1840**, inte 22 december. Anders Andersson ger på begäran drängen Carl Drill tillstånd att `bevista[?] ex-sisen i Sommar`, med fortsättning om att sedan överenskomma och enas. Texten belägger ett lämnat tillstånd, inte att övningen faktiskt genomfördes eller vilka slutliga villkor som avtalades. Anders Anderssons namn åtföljs av bomärke; det är inte Carls egen underskrift.
+
+Bild 28, Björkvik den 15 december 1840, namnger drängen Carl Fredric Pehrsson vid Jernbol, född **1822 9/7 i Halla**. Vice pastor `[initialer?] Rendgren[?]` intygar försvarlig kristendomskunskap, ärlig levnad, ordentligt bruk av salighetsmedlen och vaccination. Detta är utfärdarens bedömningar och rådatumet juli, inte en födelsepost som undanröjer apriluppgiften.
+
+Bild 29, Jernbol den 14 december 1840, uppger att drängen Carl Fredric Pehrsson tjänat hos undertecknaren sedan hösten 1837 och på egen begäran blir ledig nästkommande 24 oktober. Formuleringen om den kommande oktoberdagen bevaras utan att tyst ändra intygets decemberdatum eller konstruera en faktisk flyttdag. Anders Andersson med bomärke intygar nykterhet och trohet samt frånvaro av för honom kända felaktigheter. Intyget bevittnas av Jacob Jacobsson i Jacobstug[?] och Jan Jansson i Hålstugan[?], med Stora Malm angivet. Marginalen har `C. F. Drill`. Vittnesrollerna ger inte i sig släktskap eller identitet med andra namnlika personer.
+
+Bild 30, Nyköping den 16 december 1840, namnger drängen **Carl Fredrik Pettersson från Jernbol, Björkviks socken**. Provinsialläkaren `C. W. Martin[?]` intygar efter besiktning att han är frisk och färdig till alla lemmar samt duglig till krigsstånd. Fortsättningen är läkarens edliga försäkran, inte en uppgift om fallandesot eller annan diagnos. De fyra attesterna innehåller inga egna föräldranamn och bär ingen biologisk fadersidentifiering genom patronymikonet.
+
+### T-0139: den tillskrivna Jernbol-raden avvisas
+
+Hela den bevarade sidan 121, `C0005910_00132`, har nu prövats på nytt. Den tidigare tillskrivna överstrukna drängraden läses **Anders Petter[?]**, med reserverat år `1821[?]`, datum `9/8[?]`, Halla, inflyttning `1837 Läggesta[?]` och utflyttning `38 fol. 156`. Namnet är inte Carl Fredric Pehrsson och raden kan därför inte bära den tidigare positiva hushållsidentifieringen. Sidans andra Carl-rad gäller Carl August[?] med födelseprofil 1816 och är inte heller målpersonen. Ingen säker egen Carl Fredrik-rad har identifierats på just detta uppslag.
+
+Den tidigare sammanbindningen i denna citation och dess observationsfil **avvisas**. Råreservationerna hindrar att den avvisade raden görs till en ny säker person. Jernbol och tjänsten från hösten 1837 är fortfarande positiva genom de egna attesterna, särskilt bild 29; de får inte längre beskrivas som oberoende korsbelagda av detta hushållsuppslag. Fyndet är inte ett bredare frånvarobelägg för Jernbol eller Björkvik. Sidans kunskaps-, koppe- och närvarotecken tillskrivs inte Carl.
+
+En tredje oberoende detaljläsning reserverar första namnet som `Carl[?] Petter[?]` och året som `1817[?]`, medan två andra läsningar ger Anders Petter[?]/1821[?]. Alla läsare bedömer att den överstrukna raden saknar stöd för den tidigare säkra Carl Fredric Pehrsson-identifikationen. Avvisningen gäller **den tidigare positiva kopplingen**, inte en säkert namngiven annan person. De konkurrerande råtolkningarna bevaras utan ny person eller normaliserat datum.

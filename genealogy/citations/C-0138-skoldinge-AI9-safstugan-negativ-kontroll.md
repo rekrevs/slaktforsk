@@ -30,3 +30,17 @@ en närliggande boställeskontroll, inte bevis för var modern skrevs 1829.
 ## Stödda påståenden
 
 A-0797 samt slutstatusen för P-0126:s okända fadersgren.
+
+## Avstämning 2026-09-08 — T-0137
+
+Hela den bevarade skärmbildens uppslag har prövats. Den täcker den
+avgränsade Säfstugan-miljön på sida 209 och ger ingen namngiven Anna Lisa
+Jansdotter eller Brita Cajsa. Detta lokala namnresultat återbrukas.
+
+C-0126:s nya ortläsning **Säfvesta[?]**, i stället för äldre säkra
+Säfstugan, innebär att boställets koppling till moderns egen födelsepost
+inte är fastställd. Nollet får därför inte användas som en full kontroll
+av moderns eller barnets bokföring vid födelsen 1829, än mindre som bevis
+för utomförsamlingsflytt eller okänd fars frånvaro i alla källor. Den äldre
+texten bevaras som forskningshistorik. Lokala filen matchar angiven hash;
+svaga tecken på andra personers rader skapar ingen outvunnen egen målpost.

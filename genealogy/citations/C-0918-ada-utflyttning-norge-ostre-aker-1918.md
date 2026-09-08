@@ -63,3 +63,16 @@ Flyttningsbetyget utfärdades och utflyttningen skedde **samma dag,
 ## Stödda påståenden
 
 A-3451–A-3452 (P-0009).
+
+
+## Omprövning T-0125, 2026-09-07
+
+Postens barnsköterska och församlingsbokens hemsömmerska är två samtida
+källuppgifter. Yrkesordet bevisar inte en bestämd anställning i Norge.
+1918-10-29 daterar utflyttningsföring och betyg, inte nödvändigtvis fysisk
+resdag eller faktisk överlämning av omsorgen om Arne. Föregående dags
+inskrivning från Floda får samma gräns. Den daterade anteckningen1921
+har en reserverad ordläsning; den anger inte Maj-Britts födelse eller
+koppling till ett visst ärende. Familjens födelseår1922 finns i C-0266,
+medan A-1696 avser Adas senare namn. Ingen geografisk barnfödelseslutsats
+följer av anteckningen eller det senare vigselindexet C-0959.

@@ -37,3 +37,12 @@ som egna påståenden i denna etapp.
 
 A-2677–A-2680.
 
+
+## Avstämning 2026-09-07 — T-0119
+
+C-0926 återger samma bild med formerna Hallén, Nils Egnar och födelsedagen17januari för styvfadern, mot Hallin, Nils Eugen och19januari här. Det är avskriftsvarianter av samma underlag, inte oberoende personfakta. Ivar Hennings septemberdatum avviker dessutom från december i C-0930. Ny kontroll av de namngivna målkolumnerna krävs innan en variant väljs.
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Två omläsare av samma fullbild ger Nils August Hallin född 1875-01-19 i Tuna. Timrå hör till inflyttningen 1918-01-04. Sonen på rad 6 läses Nils Egnar, inte Eugen; rad 7 Ivar Henning har 1918-09-28. Gertruds rad 2 har egen husförhörsmarkering 1914. C-0675 och C-0926 är samma bild, inte oberoende belägg. T-0214 äger de redan avgränsade återstående fälten på detta uppslag.

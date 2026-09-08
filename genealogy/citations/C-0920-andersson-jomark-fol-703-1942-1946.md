@@ -65,3 +65,22 @@ församlingsbok, samma volymer som redan lästs för P-0001.
 ## Stödda påståenden
 
 A-3460–A-3462 (P-0048), A-3463 (P-0049).
+
+### Rättelse och komplettering 2026-09-07, T-0117
+
+Två granskare visade samma lokala original. Hushållets mantal läses
+`1/16 mtl.` med `10 har`, inte äldre⁷/₁₆. A-4146 rättar A-3460.
+Gift04³/₅ är3maj1904. Datumets överensstämmelse med tidigare böcker
+är inte oberoende bekräftelse; uppgifter kan ha kopierats.
+
+Målposten rader1–2: Andersson, Anders Alfred, hem.äg.,69²⁴/₇, Bygdeå,
+v, gift04³/₅, GB75042; h.Anna Fredrika Jakobsdotter,72⁸/₂,d:o,v,
+dittomarkeringar. Kunskapskolumner b/n; särskild anteckning läses
+`Före d.[?]²/₁₁`, flyttningsbetyg `Fl.[osäkra småsiffror]/46`.
+Dessa två småanteckningar kan inte preciseras säkert och lämnas
+uttryckligen läsosäkra. Värnplikts- och dödskolumner saknar uppgift
+på dessa två rader. Utflyttning Burträsk46¹⁶/₁₁ gäller båda.
+Andra hushåll på folion ingår inte i parets målpost.
+
+Flytten visar familjens geografiska närhet, inte orsaken till val av
+gravplats. Sista Burträskåren är senare lästa i C-0968/C-0970.

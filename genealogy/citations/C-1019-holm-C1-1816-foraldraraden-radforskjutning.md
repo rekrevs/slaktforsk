@@ -77,3 +77,15 @@ konflikt.
 ## Stödda påståenden
 
 A-3792–A-3794; rättelse av C-0531:s föräldrarad och dopdag.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+C-0531:s fullständiga T-0136-prövning återbrukas: dop 13 oktober, egen
+föräldrarad avskild från Pehr Simonsson, reserverat faderspatronymikon
+och sex personligt avgränsade vittnesled. Rå30–35 är ingen säker dubbel
+föräldraålder. Stephan gör Stefansson förenligt som patronymikon, inte
+bevisat som egen använd namnform eller som databasens härledningsmetod.
+A-4550 begränsar A-3792/A-3794 utan att återöppna fellästa Pehr-raden.
+Det tidigare Rosenbergsvar som åberopas för tolv Holmsposter har inte
+återfunnits i lokala JSON/HTML/TXT, mediaalias eller tmp. Ortslexikonets
+ortförekomst är i alla fall inte en självständig läsning av kyrkobokshanden.

@@ -67,3 +67,24 @@ bok; det räknas inte som ett andra oberoende belägg.
 ## Stödda påståenden
 
 A-3874, A-3875, A-3876.
+
+
+## Rättelsetillägg T-0126, 2026-09-07: fel datumankare och bevarat noll
+
+Omläsningen av den redan lokala personraden i C-0453 skiljer år, dag
+och månad: den tidigare normaliseringen 1922-07-16 var en
+fältförväxling; två granskares avstämda läsning är **`16 22/1`**, alltså 1916-01-22.
+Se C-0453:s daterade rättelse och dess självständiga avstämning.
+
+Namnfrånvaron i de 54 kontrollerade posterna 1922–1923 bevaras exakt
+som ett genomfört resultat. Den är däremot inte ett motbelägg mot en
+dödsuppgift 1916, och de äldre förklaringsalternativen om fel datum,
+annan bokföringsförsamling eller utelämning behövs inte för att förklara
+denna skenbara konflikt. Kontroll av den nya datumnyckeln är en egen
+positivt riktad passage; ingen dödpost 1916 har lästs genom detta tillägg.
+
+Proveniens: av de sju bildpositionerna 118–124 finns bild120 redan
+bevarad som C-0455:s fulloriginal med hash. Övriga sex har inte
+lokaliserats som lokala fullbilder vid T-0126:s filkontroll.
+Årgångsnollets tidigare dokumenterade läsning raderas inte därför att
+bildkopiorna saknas, men kopiebristen måste redovisas under PK-11.

@@ -30,3 +30,7 @@ centrala hushållskontrollen i A I/17 är därför fortfarande en separat
 
 API-svar, båda manifest, avsnittsstart och målbild är bevarade lokalt. Exakta
 SHA-256 finns i mediamanifestet och målbilden binds i C-0576.
+
+## Personbunden avstämning — T-0143, 2026-09-08
+
+Den fulla målposten har prövats på nytt. Det daterade tillägget i C-0576 ersätter de äldre avskrifter ovan som uttryckligen rättas där; originaltexten bevaras historiskt.

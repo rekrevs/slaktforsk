@@ -36,3 +36,8 @@ styvdotter snarare än biologisk dotter.
 ## Stödda eller motsagda påståenden
 
 A-0856.
+
+
+## Personbunden fullprövning och rättelse — T-0143, 2026-09-08
+
+Alla tre redan bevarade helbilder 88–90 har återprövats inom det gamla namn-/familjeomfånget; deras SHA-256 stämmer. Följden omfattar 1804 års poster 1–23, januari till december. Ingen säker Anna Stina med koppling till Erik Anderssons Sannerbyfamilj identifieras. Namnlika barn är inte automatiskt denna person, och ett noll mot det uppgivna datumet kan bero på fel datum, annan namnform eller annan registreringsort. Det bevisar inte födelse i annan församling eller styvbarnsrelation. Ingen ny årgång är undersökt.

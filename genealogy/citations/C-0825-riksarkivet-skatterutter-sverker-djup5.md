@@ -32,3 +32,13 @@ fastighet eller relation infereras.
 ## Stödda påståenden
 
 A-3143–A-3153.
+
+## Åtkomstgräns för Ultervattnetparet — T-0131, 2026-09-08
+
+S-0641 skiljer katalogidentifierade Vol/41–49 (P-0094), respektive
+41–48 (P-0095), från individuellt åtkomstprövade Vol/38–39 och 150.
+De sistnämndas analoga utfall får inte överföras till alla andra volymer.
+Paret har ännu ingen personförd mantalsrad; en exakt vald volyms
+åtkomst måste prövas innan den kallas läsesalsbunden. C-0425:s
+marginella bråktal 19/128 och 3/16[?] är nya begränsade söknycklar,
+inte skatt, inkomst eller styrkt fastighetsbeteckning.

@@ -31,3 +31,20 @@ inflyttningen därifrån och samma vigseldatum.
 
 A-2644, A-2647–A-2649 och A-2651.
 
+
+## Rättelse och tillägg 2026-09-07 — T-0120
+
+Två granskare har läst det bevarade fulloriginalets post 4 på nytt.
+Anna Kristinas fras läses `bondotter därstädes`, med `baptist` infogat
+ovanför. Den äldre preliminära läsningen `[barnmorska?]` avvisas; inget
+barnmorskeyrke är belagt. Beteckningen bondotter namnger inte i sig hennes
+far eller hans fastighet. Baptistnoteringen står på hennes rad och får
+inte automatiskt överföras till Erik eller övriga familjen.
+
+Kolumn 8 anger `borgerligt`: äktenskapet 1906-07-14 ingicks borgerligt.
+Kolumn 12 anger kronofogden `E. Engelstedt[?]`, Sundsvall; namnändelsen
+är reserverad. Kolumn 13 har `lysningsatt. utfärd 06 3/2` enligt den
+preliminära läsningen. Den exakta avskriften, attestdatumet och förrättarens
+namn behöver detaljprövas i T-0218 tillsammans med hela målposten. Dessa
+kolumner saknades tidigare helt i kärnavskriften. Vigselorten antas inte
+vara Sundsvall enbart av förrättarens ortsangivelse.

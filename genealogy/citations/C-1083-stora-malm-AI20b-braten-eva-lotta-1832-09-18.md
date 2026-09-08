@@ -80,3 +80,10 @@ Kolumnerna för nattvard och anmärkningar är inte transkriberade. Björkvik ä
 ## Stödda påståenden
 
 A-4059–A-4062.
+
+
+## T-0137: avstämning 2026-09-08
+
+Kandidatens namn, datum, föräldrar och ort bär intern korrelation till födelseposten, inte identifikation med P-0132. Den äldre hänvisningen till bevisat opålitliga familjedatum upphävs enligt C-1092. De egna kunskaps-/nattvards-/anmärkningsfälten är fortfarande outvunna; fast post s.155 i T-0312, kopia i T-0311.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

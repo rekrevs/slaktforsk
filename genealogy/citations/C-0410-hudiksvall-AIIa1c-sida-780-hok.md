@@ -40,3 +40,24 @@ slutligt tillsammans med det tydligare uppslaget C-0411.
 
 A-1578, A-1581, A-1583, A-1585, A-1587, A-1589, A-1591, A-1599, A-1601,
 A-1603, A-1605, A-2061, A-2113–A-2115, A-2117–A-2120 och A-2123–A-2125.
+
+## Tillägg T-0126, 2026-09-07: Augusta-raden omprövad i lokal helbild
+
+Barnet fött 1896 står som `Augusta Elisabet`, med rättat första förnamn
+ovanför en överstrykning. Födelsedatumet är `96 15/10`, inte 5 oktober.
+`icke döpt` står på hennes rad; vaccinationskolumnen har `v`, medan egna
+kunskaps-/förhörs- och anteckningsfält i övrigt inte ger någon säker
+ytterligare personuppgift. C-0411 och senare C-0460/C-0260/C-0942 ger samma
+namn och dag. Den äldre projektläsningen Augusta Märta får därför inte
+behållas som en säkert avläst namnvariant. P-0280 är fortsatt skild från
+systern P-0370, som föddes och dog 1895. Ingen ny bild har hämtats här.
+
+### Familjens sidrouting, samma omläsning
+
+Faderns ingång på s.780 läses `s.285, 97 15/11`, inte s.785. Den äldre
+uppgiften om en digital lucka kring785 får därför inte användas som
+hinder för just denna personhänvisning. På C-0411 syns avgången till
+s.780 den15november1897 och separat tal422 utan säkert datum här.
+Den överliggande återföringsnoten på C-0411 läses s.284 med
+`99 20/11[?]`; det är inte säker återkomst direkt från780.
+Läsningen har jämförts oberoende i T-0126.

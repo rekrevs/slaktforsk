@@ -211,3 +211,103 @@ utan motsvarande identitetsbrygga. P-0519 är Ulrika Lovisa, och
 P-0520–P-0527 bevarar de åtta syskonen enligt avskrifterna ovan.
 Föräldrarna är nu etablerade; deras egna ursprung och livsbild är öppna
 nästa generationsfrågor. Födelsenollet och 14/16 april för Anders består.
+
+## T-0140: fullprövning av Ulrika Lovisas rad och familjen på sida 474
+
+2026-09-08: den redan bevarade fullbilden **C0034063_00212**, Degerfors
+A I/6b sida 474, har visats med hela formuläret och egna detaljförstoringar.
+Befintlig kopia och ovanstående SHA-256 tillgodoräknas; ingen ny arkivbild
+eller personidentitet har tillkommit.
+
+Jonas Andersson anges som bonde med tillagd nämndemannatitel, födelseår
+1796. Hustruns rånamn är **Ulrika Lovisa Jonsdr**, födelseår **1804**.
+Giftofältet sammanbinds genom klammer med paret och läses
+**2[4?]/3 1831**. Dagens extra streck reserveras; år och mars förs inte
+om till en säker vigselpost. Makarnas egna Hvarifrån, Hvarthän och
+anmärkningsfält ger ingen egen flytt- eller dödsuppgift. Små fläckar får
+inte bli en händelse. Hustruns läs-/kunskapsfält har en grafisk bågform;
+det är källans betygstecken, inte en modern skolnivå. Kopporfältet ger
+inte här ett säkert eget vaccinationsdatum. Tomma flyttfält utesluter
+inte någon inflyttning före eller under bokens period.
+
+### Individuella barnrader och datumgränser
+
+| Rånamn | Uppgift på detta uppslag | Avgränsning |
+|---|---|---|
+| Anna Johanna | 5/2 1833[?], överstruken; Hvarthän 478 | Årsfältet är korsat; hänvisningen är hennes, inte föräldrarnas flytt. |
+| Lisa Catharina | **6/3 1834**, överstruken; Hvarthän 44[?] | Mars står här mot december i C-1072:s A I/4. Lisa är namnet på denna rad; andra böckers Eva-form hålls separat. |
+| Jonas | **27/5[?] 1835** | Äldre 26/8 jämförs källspecifikt, inte tyst normaliserat. |
+| Eva Lovisa | **24/29[?] december 1836** | Två läsningar skiljer dagssiffran; båda råalternativen bevaras. |
+| Anders | **16/4 1839** | Födelsedatum uppgivet i hushåll, med egen födelsepost i C-0872 som separat underlag. |
+| Ulrika Carolina | **16/6 1841** | Står mot A I/4:s 10/6 i C-1072; ingen automatisk korrigering av en annan boks råtext. |
+| Carl Johan | **20/9 1843** | Senare hushållsuppgift. |
+| Maria Brita | **23/29[?] juni 1847** | Dagssiffran hålls reserverad mellan två läsningar. |
+| Sophia Wilhelmina | **5/12 1850**, överstruken; dödsnot **6/6 1852** | Positiv egen familjerad och hushållsdödsnot, inte här läst dödbok. |
+
+Nio barnrader finns på denna sida; detta är inte en säker livstidstotal.
+Barnens egna koppe-/kunskaps-/nattvardstecken hör till respektive rad och
+inte till modern. De nedre, avskilda tjänsteraderna får inte göras till
+ytterligare barn eller användas för parets flytt. Olika avskrifter av
+samma bild räknas inte som oberoende belägg.
+
+### Moderns egna kyrkliga årsfält 1848–1857
+
+Den andra vuxenraden har följande råa nattvardsfält. Hakparenteser
+markerar faktiskt prövade tecken som inte säkert kan normaliseras;
+kalenderantaganden används inte för att fylla dag eller månad.
+
+| År | Rå nattvardsnotering på hennes rad |
+|---|---|
+| 1848 | 12/4, 25/6, 1/10 |
+| 1849 | [11?]/2, [6?]/7, 2/12 |
+| 1850 | [dag?]/4, 7/7, 1/12 |
+| 1851 | 9/3, 6/7, [5?]/10 |
+| 1852 | 7/4, 27/6, 3/10 |
+| 1853 | [dag?]/[månad?] överst, 27/11 |
+| 1854 | 27/6, 7/4[?] överst till höger, 24/12 |
+| 1855 | 1/7, [20?]/9 |
+| 1856 | 3/3[?], 6/4 |
+| 1857 | 8/2, [26?]/[månad?], 12/7, [15?]/[månad?] |
+
+Förhörskolumnernas läsbara råtecken är bland annat **6 år 1850,
+4 år 1851, ett grafiskt tecken 1852, 6 år 1854 och 6 år 1855**.
+Andra svaga eller tomma egna fält lämnas utan konstruerad normalisering.
+Detta är fullprövade egna årsfält med läsreservationer, inte en oläst
+fortsättning. Noteringarna belägger bokförda kyrkliga handlingar och
+bedömningar; de bevisar inte obruten fysisk närvaro eller personlig tro.
+
+## T-0140: hela Ulrika Lovisas egen rad i A I/8b sida 536
+
+2026-09-08: root har återsett fullbild A0001442_00221 med radlinjer,
+kolumnrubriker och förstorade egna fält. Sidnumret är 536, inte
+manifestets efterföljande 537. Hustrun skrivs Ulr. Lovisa Jons dr,
+född 1804; hennes födelseortscell är tom medan maken har Fors.
+Inget eget ortditto konstrueras här. I giftkolumnen står ett
+183[1?]-liknande år under makens reserverade marsdatum; en bläckfläck
+skymmer delar. C-0064:s 34[?] är en separat senare läsreservation.
+
+Hennes kopporcell saknar säkert eget a/v; kunskapsfältet är delvis
+övertäckt av bläck. Egna död-, in-/utflyttnings-, frejd- och
+anmärkningsfält ger ingen läsbar egen händelse. Makens G.B.400 är en
+bokhänvisning som redan följts till C-1055, inte fysisk inflyttning.
+Barnens 464 och 403 överförs inte som moderns flyttar.
+
+Hennes hela årsrad har prövats: två inledande årsrubriker är endast
+186 utan slutsiffra, därefter 1861–1865. Under den andra ofullständiga
+rubriken står 2/12; årtalet fylls inte automatiskt till 1860. Under 1861
+syns förhör 6 och nattvard 1/12[?], med föregående del täckt av bläck.
+1862 har 9/6 och 30/11; 1863 har 24/6 och 29/11; 1864 har 4/9;
+1865 har 26/3 och 3[?]/9. Flera förhörsfält har 6 eller grafiska
+streck; det är kyrkliga råmarkeringar, inte moderna skolbetyg.
+
+Sex barnrader namnges här: Jonas 1835 med 27/5[?], Eva Lovisa 1836 med
+överarbetad 24/29[?] december, Anders 1839 med 16/4, Ulrica Carolina 1841
+med 16/6 och överstrykning, Carl Johan 1843 med 20/9 samt Maria Brita 1847
+med 23/29[?] juni. Namn, födelseår och samma föräldrapar bevarar
+familjesambandet; osäkra dagar och C-1055:s äldre avvikande år avgörs
+inte genom majoritetsräkning. Barnens egna fortsatta fullgranskning
+ligger i T-0163/T-0202, sonen Anders i sin redan införda profil.
+
+Fullbilden och dess tidigare angivna hash är oförändrade. Alla moderns
+egna fält har prövats, även tomma eller skymda; dokumenterad oläslighet
+är ingen automatiskt outvunnen kolumn.

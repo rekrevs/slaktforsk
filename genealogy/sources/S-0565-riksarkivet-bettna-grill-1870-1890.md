@@ -73,3 +73,7 @@ a:s Hagbystugan-rad och SCB 1890 fyller nu den föregående vistelsen.
 
 Metadataoriginal, 29 källbilder och individuella checksummor redovisas i
 [C-0732](../citations/C-0732-bettna-grill-1876-1890-johanna-dod.md).
+
+## T-0139: rättade fullpostfält
+
+C-0732 och C-0750 innehåller nu fulla egna hushålls-/dödsfält. Moderns senare 30 april avviker från egen 30 maj; faderns egna rader och A I/20 a-gratialistregister har 9 april. Registerraden är **Carl Fredr. Drill, Gatstugan,1822 9/4**. Äldre Götstugan/Grill/juli var felavskrifter. Egen hushållssida 47 anger Hagbystugan; skillnaden är källbunden bokföring, inte automatiskt fysisk motsägelse. F/3-sidhuvudets Stafsberg[?] är reserverat mot den arkividentifierade volymen; detta skapar ingen ny dödsförsamling.

@@ -65,3 +65,20 @@ socknens södra del. Läsningen är därmed oberoende bekräftad.
 ## Stödda påståenden
 
 A-3823–A-3829.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+Den befintliga fulla vigselavskriften återbrukas. Jonas är f.d.
+Lifgardisten och använder Nordlund 1842; det bevisar inte namnets ursprung,
+regemente eller antagningsdag. M.26 jämfört med 1816-10-09 avviker från
+fullbordad ålder på vigseldagen; en allmän princip om påbörjat år för
+hela boken har inte visats. Namn, par och orts-/familjekontext bär
+identifieringen, inte åldersmatchning ensam. Brudens från Stöde och
+Hullsjön är ortsuppgift, inte ensam bevisning om fysisk födelseplats.
+Äktenskapsförord uppges upprättat; faktisk domstolsregistrering,
+handlingens innehåll och dess bevarande är ännu oprövade. A-4550.
+
+Fullbild C0032930_00108 har inte återfunnits bland lokal media, alternativa
+namn, metadata eller tmp. Rosenbergs åberopade Hissjönpost 22039 saknar
+också återfunnen sparad svarskopia. Kopiebristen synliggörs under PK-11;
+positiva avskriften raderas inte, och ingen ny arkivvisning görs här.

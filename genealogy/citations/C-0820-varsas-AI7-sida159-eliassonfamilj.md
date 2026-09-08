@@ -61,3 +61,40 @@ volyms- eller personnoll.
 ## Stödda påståenden
 
 A-3124–A-3130.
+
+## Tillägg 2026-09-07 — T-0121, fullbildens utvinningsgräns
+
+Ny lokal kontroll av den bevarade bilden visar att den tidigare kärnan
+inte återger hela familjen. Före Margaretha Sofia/Petter Wilhelm finns
+ytterligare tre sonrader med födelseåren1836,1840och1844. De fulla namnen
+och datumen är ännu inte säkert avstämda; olika preliminära läsningar får
+inte bli nya säkra personidentiteter. Första sonen har dessutom en särskild
+anteckning i högermarginalen som inte är fullt utvunnen. Gabriel föregås
+av en ägarbeteckning, preliminärt `1/2 äg.`; full andels-/rolltolkning
+återstår och tilldelas inte sonen Per Wilhelm.
+
+Stinas datumkolumn ser vid förstorad omläsning ut som `08 1/3`, till
+skillnad från den äldre avskriftens `08 1/2`. Ny läsning är tills vidare
+reserverad:1808-03-01[?]. Detta är en avskriftsavvikelse på samma bild,
+inte bevis för att två olika kyrkoböcker har olika uppgifter. C-0840:s
+februarinoll består i sitt faktiska omfång men prövar inte mars.
+
+Längre ned på samma sida står `Moren Enk. Grete Gabrielsd:r`, Värsås,
+född `79` med dag/månad ännu reserverade. Raden kan ge en brygga till
+P-0507, men hushållsplacering, namn och ålder måste bedömas tillsammans
+med Gabriels1810post innan en säker relation/egen födelsedag förs över.
+Ingen ny personakt eller automatisk sammanslagning följer här.
+Personbundna kristendomskolumner och övriga fält i familjegruppen är ännu
+inte fullt återgivna. Tillgodoräkna de säkra kärnrelationerna; den nya
+utvinningsgränsen innebär inte att de har blivit osäkra.
+
+### Personbedömning av moderraden, samma granskning
+
+GreteGabrielsdotter-raden bedöms som P-0507 med korroborerat stöd:
+namnet överensstämmer med Gabriels egen1810post, `Moren` anger rollen i
+Gabriels hushåll och uppgiven födelse1779är förenlig med moderskapet1810.
+Det är kombinationen namn, explicit familjeroll och den redan identifierade
+sonen som bär bryggan. Uppgiven1779/Värsås och änkebeteckningen gäller
+hushållsraden; exakt dag/månad är fortfarande reserverade och egen
+födelsepost inte läst. Änkestatusen identifierar inte den avlidne maken,
+och blir därför inte utan vidare ett dödsbelägg för Elias P-0506.

@@ -45,3 +45,25 @@ för en annan hustru.
 ## Stödda påståenden
 
 A-1745–A-1753, A-1758–A-1759.
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela de egna raderna för Nora Gust. Ajax och dottern Hulda Amanda har nu prövats i fullbilden tillsammans med rubrikerna. Modern skrivs som hustru, 1817 4/3, födelseort W. Ny[?] i mycket blekt bläck. Fadern står Smed. Joh. Pet. Urbom. Familjens inflyttningsuppgift är 1850 från Wingåker; detta daterar bokföringsövergången, inte en exakt fysisk flyttdag. Hulda har 1847 2/9 och födelseort genom ditto från Wingåker. Båda har v i koppefältet; moderns kunskapsfält innehåller bleka streck, inte en här översatt betygsskala. Huldas kunskapsfält är utan tydlig egen sakuppgift.
+
+Moderns nattvardsfält prövas som 31/8[?] 1851, 22/8 1852, 14/8 1853, 5/10 1854 och 13/5 1855. Huldas förhörsfält har 9/11 1852, 4/11 1853 och 21/11[?] 1854; inget säkert eget nattvardsdatum läses. De bådas övriga egna gift-, döds-, utflyttnings- och anmärkningsfält är tomma. Fullradernas svaga tecken är prövade läsgränser, inte en utelämnad passage. Sex barn står här; detta är inte ett livstidstotal. De senare barnens födelser ligger efter denna bokperiod.
+
+
+## T-0135: faderns egen rad och omprövad datumläsning
+
+Egen rad: smed Johan Petter Urbom, födelseåret 1818; datumets täljare är 2, nämnaren alltför blek för säker normalisering. Wist är prövad men blek ortläsning. Från Vingåker 1850. Kyrkliga kunskapsstreck och daterade nattvardstecken under bokperioden är prövade, delvis bleka; ingen egen särskild frejd-, döds- eller utflyttningsnot identifierad. Datumet ger inte stöd för tidigare 3 juni.
+
+Full lokal källbild och den egna raden prövade 2026-09-08; datum och
+civilstånd andralästa oberoende. Svaga kyrkliga råtecken har prövats och
+reserveras, inte lämnats outvunna. Inga nya arkivbilder öppnades på nätet.
+Den tidigare slutsatsen att vuxenböckerna upprepar 1818-06-03 återtas.
+Kopplingen till födelsebarnet i C-0833 är därför en kandidat tills en
+personbunden tidig brygga prövats; vuxenfamiljens kontinuitet består.
+
+## T-0135: korrigerad datumläsning efter oberoende detaljprövning
+
+Både den äldre avskriften och mitt första T-0135-tillägg återgav felaktigt moderns datum som 4/3. Förstorade egna datumfält och oberoende läsning visar **1817 4/4[?] i blekt bläck**. Det är denna råform som gäller; det mindre tilläggstecknets innebörd normaliseras inte. Hennes eget födelseoriginal C-0289 ger 4 mars 1817, men datumavvikelsen finns också i den senare familjekedjan, inte enbart i barndomens längder. Namn, make, barn, ålder och de tidigare föräldrahushållen måste bära personargumentet tillsammans, inte ett felaktigt påstående om exakt datumöverensstämmelse.

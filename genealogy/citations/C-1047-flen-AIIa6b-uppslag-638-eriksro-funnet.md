@@ -80,3 +80,17 @@ uppslag 638 i `A II a/5 b` saknas alltjämt. Den vägen är oförändrad.
 ## Stödda påståenden
 
 A-3893–A-3896.
+
+## Avstämning av räckvidd och bevarande — T-0123, 2026-09-07
+
+638iAIIa6b är positiv och den felvalda5b638 får inte åter bli
+stoppkrav för Arnes barndomsföljd. Identiska sidetikettluckor i
+två reproduktioner är inte i sig undersökning av det fysiska bandet
+eller bevis om skanningarnas oberoende. Uppdelningen5a/5b/5c utesluter
+att638hör till5a/5c; den utesluter inte varje tänkbar okatalogiserad
+reproduktion eller annan leverantör. Ingen ny generell bildsökning
+är därmed beställd: barndomsfamiljen skall lokaliseras personbundet.
+
+Exakt lokator00153999_00231 finns men lokal fullbild och hash har
+inte återfunnits i projektets media vid T-0123:s kontroll. PK-11 har
+därför bevarandeskuld trots den redan genomförda sakläsningen.

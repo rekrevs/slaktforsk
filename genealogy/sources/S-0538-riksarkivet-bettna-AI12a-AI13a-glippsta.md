@@ -54,3 +54,7 @@ hämtningen och ingen CAPTCHA användes.
 | [A I/13 a sida 37](../media/C-0702-riksarkivet-bettna-AI13a-sida-37-glippsta-grill-erik.jpg) | `4d892c786ec6757257520e4bc437953dcdcd3dc514487e9b7e69310d4530f4f9` |
 | [A I/12 a:s IIIF-manifest](../media/S-0538-riksarkivet-bettna-AI12a-IIIF-manifest.json) | `e4044a537996ed13a91dc6e0266aa5715093e630d1de1a326a9ac686695b1bfe` |
 | [A I/13 a:s IIIF-manifest](../media/S-0538-riksarkivet-bettna-AI13a-IIIF-manifest.json) | `bfa619177599aa0583beca1285a55a36606db7f22306cf458bb9681b92051cb7` |
+
+## T-0139: avstämning och proveniensgräns
+
+Båda egna barnraderna anger sonen Lars Petter,1848 27/2. Lovisa/dotter 1849 är avvisad avskrift. Fadern är Carl Fr. Drill,1822 9/4; moderns tidiga 30/5 står kvar. Se [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md) för fulla råfält och T-0139-rättelsen. Äldre text och ursprungliga observationer bevaras historiskt.

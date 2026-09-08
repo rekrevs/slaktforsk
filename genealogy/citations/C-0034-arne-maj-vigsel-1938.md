@@ -38,3 +38,15 @@ församlingsboken.
 ## Stödda påståenden
 
 A-0010, A-0029–A-0032, A-0068, A-0151–A-0152 och A-0197.
+
+## Lokal omläsning 2026-09-07, T-0123
+
+Fullbilden och utsnitt av nr16 har jämförts. Arnes boställe är **Tulefors**.
+Kolumn11, vilket äktenskap i ordningen, har **1 för vardera maken**.
+Kolumn7 innehåller tre rader om minderårighet, försäkran enligt lag och
+samtycke för kvinnan; förkortningarna är ännu inte fullständigt utvunna.
+Förrättaren skrivs David med ett ännu reserverat efternamn. Kolumn14 är
+tom i parets post. De säkra fälten tillgodoräknas; full avskrift av
+kolumn7 och prövad läsning av förrättarnamnet ägs av T-0227.
+
+Stödda tillägg: A-4221 (första äktenskapet för båda).

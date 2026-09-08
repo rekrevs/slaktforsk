@@ -69,3 +69,13 @@ kopia är speglad.
 ## Stödda påståenden
 
 A-3629, A-3631, A-3632 (P-0048); A-3630 (P-0049).
+
+### Konsolideringsanmärkning 2026-09-07, T-0117
+
+Avskriftens `K04³/₅` normaliseras1904-05-03. Tolkningens1904-03-05
+ovan är en dag/månadsomkastning, inte ett separat källbelägg. Nästan
+arton månader förlöpte1947-06-27–1948-12-21; inte exakt arton.
+`Bou.`/`Bev.` är osäkert och får inte bli fastställd bouppteckningsdag.
+Den äldre ALTCHA-beskrivningen ersätts av C-0977:s registeromfång;
+exakt originalserie för dödsboet återstår. Eget hushållsuppslag och
+gemensam fastighetsbeteckning visar inte säkert vem som ägde fastigheten.

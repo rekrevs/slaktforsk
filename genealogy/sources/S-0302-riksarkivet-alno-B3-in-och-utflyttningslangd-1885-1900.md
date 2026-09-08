@@ -31,3 +31,8 @@ saknar personregister och kan utan inflyttningspostens sidnyckel inte sökas
 proportionerligt person för person. En senare återstart kräver en ny
 adress-, hushålls-, döds- eller annan exakt sidhänvisning.
 
+
+
+## T-0142: senare positiva ingångar, 2026-09-08
+
+Den äldre nollan gäller alltjämt den lästa inflyttningsdelen 1889. Villkoret om en ännu saknad adress-/hushållsingång är däremot uppfyllt av C-0489–C-0493: Strand/Alvik, sonens namngivna hushåll och moderns egen G.B.1471-hänvisning. Den nya egna hushållsvägen är avgränsad i T-0332. Ingen ny helårssökning eller arkivbildsöppning har gjorts här.

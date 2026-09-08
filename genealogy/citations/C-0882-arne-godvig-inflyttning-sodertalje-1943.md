@@ -64,3 +64,11 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3329 (P-0003), A-3336 (P-0007).
+
+## Personbunden reservation 2026-09-07, T-0123
+
+Titeln polerare hör till Arne. Den svårlästa andra raden med
+`…förest.` kan gälla en annan medlem av det redovisade hushållet,
+exempelvis hustrun. Den förs därför inte som ett säkert ytterligare
+yrke för Arne. Värnpliktsnumret22 44/35 är också belagt tidigare i
+C-0031/C-0032; inflyttningsposten daterar inte militärtjänst.

@@ -43,3 +43,14 @@ en annan by.
 ## Stödda påståenden
 
 A-2414, A-2418, A-2420, A-2421.
+
+## Fullposttillägg — T-0133, 2026-09-08
+
+Hela den bevarade originalbilden och båda sidornas egna rad 54 har
+prövats. Samtliga ovanstående personfält och hela vittneslistan
+bevaras. Förlossningsbiträdesfältet har ett streck; kyrktagningen
+läses **7/7[?]**, med dag/månad reserverade. De separata
+attest-/institutionsfälten saknar egen uppgift. Den egna särskilda
+anteckningen är dopförrättaren, ingen ytterligare hälso- eller dödsnot.
+Botsmark **455** återkommer i C-0685:s familjeklammer och C-0565;
+T-0276 äger den fasta familjefolions prövning efter programmet.

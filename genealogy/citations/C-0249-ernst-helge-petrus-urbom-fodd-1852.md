@@ -34,3 +34,9 @@ namnformen Gustava Eleonora/Nora eller Åkerö som boställe.
 ## Stödda påståenden
 
 A-1538–A-1540 och A-1542–A-1544.
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Den bevarade fullbildens hela post 8 har prövats, inklusive föräldrar och tidigare utelämnade faddrar. Född 20 februari och döpt 22 februari 1852 i Touluse; Smed. Joh. P. Urbom och dess hustru Anna Gust. Ajax. Modersåldern läses 34[?], med sista siffran delvis svag; råtalet är ingen självständig datering av moderns födelse. Under åldern står en kort prövad men oexpanderad markering. Ingen separat förrättare eller kyrktagningsdag framgår här.
+
+Vittnesfältet läses med reservation: Träg.m.[?] C.[?] Lundborg och dess hustru L. Ulr.[?] Sandberg, dr. C. Gust.[?] Wallgren och pig. Eva Lotta Wikström, alla vid Åkerö. Initialer och yrkesförkortning får inte expanderas till nya säkra namn eller yrken. Detta är fyra dopvittnen, inte belägg för släktskap. Åkerö är vittnenas ort; familjens egen angivna hemvist är fortfarande Touluse. Den fulla posten är prövad, med synlig läsreservation i de svaga fälten.

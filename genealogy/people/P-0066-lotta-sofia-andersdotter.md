@@ -24,24 +24,25 @@
 | A-2096 | Lotta Sofia föddes 1843-03-30 i Rödå, döptes 4 april och var dotter till nämndemannen Anders Olofsson och Sofia Magdalena Jonsdotter. | CORROBORATED | hög | [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Egen födelsenotis och barndomshushåll. |
 | A-2097 | Hon dog 1898-05-25 i Buberget, begravdes 5 juni och dödsorsaken skrevs `lungsot`. | CORROBORATED | hög | [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md), [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | Historisk källterm utan modern medicinsk omtolkning. |
 | A-2098 | Åren 1890–1898 levde hon som bondhustru i Buberget med Anders Jonsson och barnen Maria Augusta, Jonas Edvard, Anders, Hildur Charlotta, Karl Magnus, Hanna Mathilda och Oskar Rudolf. | CORROBORATED | hög | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | Folkräkning och löpande hushållskälla. |
-| A-2266 | Bouppteckningen förrättades 1898-08-20 och namnger maken Anders Jansson samt deras åtta barn Ida Sofia, Maria Augusta, Jonas Edvard, Anders, Carl Magnus, Oskar Rudolf, Hilda Charlotta och Hanna Matilda. | CORROBORATED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | `Hilda` är aktens variant av senare `Hildur`; första aktsidan har lästs, inte hela tillgångsinventeringen. |
+| A-2266 | Bouppteckningen förrättades 1898-08-23 och namnger maken Anders Jansson samt deras åtta då efterlämnade gemensamma barn Ida Sofia, Maria Augusta, Jonas Edvard, Anders, Carl Magnus, Oskar Rudolf, Hilda Charlotta och Hanna Matilda. | CORROBORATED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | `Hilda` är aktens variant av senare `Hildur`; första aktsidan har lästs, inte hela tillgångsinventeringen. |
 
 | A-3147 | Umeå fögderis fondförteckning identifierar Degerfors mantalsvolymer Vol/58–62 över Lotta Sofias kända vuxenperiod 1867–1898, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Analog hushållsroute; ingen mantalsrad, skatt, närvaro eller frånvaro är läst. |
-| A-3923 | Hennes bouppteckning är nu läst i sin helhet: tillgångar **13 998,49 kr**, skulder **2 872,40 kr**, behållning **11 127,49 kr**, delad mellan maken och de åtta barnen. | CORROBORATED | mycket hög | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | C-0485 läste endast första sidan och angav uttryckligen att tillgångar, skulder och slutvärde inte var utvunna. De är det nu. |
+| A-3923 | Den äldre helhetsavskriften uppger tillgångar 13 998,49 kr, skulder 2 872,40 kr och behållning 11 127,49 kr. Dessa tal skiljer sig med 1,40 kr från en korrekt subtraktion. | DISPUTED | låg | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | T-0129: bilderna 235–254 saknas lokalt; ingen säker rättelse av originalets råtal eller bekräftelse av genomfört arvskifte kan göras. |
+| A-4300 | Bouppteckningens första sida återger makarnas inbördes testamentariska förordnande den 10 maj 1898: efterlevande maken får sitta i orubbat bo utan intrång av arvingarna tills yngste sonen Rudolf blivit myndig. | TRANSCRIBED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Omläst bevarad fullbild i T-0129. Villkoret bevisar inte genomfört arvskifte. |
 
 ## Tidslinje
 
 | Datum | Händelse | Källa | Anmärkning |
 |---|---|---|---|
 | 1843-03-30 | **Född i Rödå, Degerfors**, dotter till nämndemannen Anders Olofsson och Sofia Magdalena Jonsdotter; **döpt 4 april**. | [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md) | Egen födelsenotis. Fadderspalten är delvis svårläst och används inte för nya personidentiteter. |
-| 1843–1865 | Dotter i **nämndemanshushållet i Rödå, sida 483** i A I/8b, med **åtta syskon födda 1829–1854** och farmodern, änkan Anna Catharina Andersdotter, född 1783 i Umeå stadsförsamling, i hushållet. | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Hushållet bekräftar födelsedagen 30 mars oberoende av födelsenotisen. |
+| 1861–1865 | Dotter i **nämndemanshushållet i Rödå, sida 483** i A I/8b, med **åtta syskon födda 1829–1854** och farmodern, änkan Anna Catharina Andersdotter, född 1783 i Umeå stadsförsamling, i hushållet. | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Hushållet återger30mars som senare födelseuppgift; ingen oberoende informationskälla eller obruten boendetid från1843 antas. |
 | 1867-01-06 | **Lyst**, lysningsnummer 1 för året; hon skrivs **nämndemansdotter**, folio 14. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Faderns giftomannaskap stämmer med barndomshushållet. |
 | 1867-01-28 | **Vigd** med hemmansägaren Anders Jonsson i Buberget. | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | |
 | 1867 | Dottern **Ida Sofia** föds i Buberget. | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md) | Direkt ana. |
-| 1869–1885 | **Åtta barn** sammanlagt, samtliga namngivna med födelsedatum i bouppteckningen 1898: Ida Sofia, Maria Augusta 1869, Jonas Edvard 1871, Anders 1876, Hilda Charlotta 1878-06-21, Carl Magnus 1880-07-21, Hanna Matilda 1882-08-06 och Oskar Rudolf 1885-04-16. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Aktens namnform `Hilda` mot senare `Hildur`; samma dotter. |
+| 1898-08-23 | **Åtta då efterlämnade gemensamma barn** namnges i bouppteckningen; inget totalt födelsetal och inte datum för alla: Ida Sofia, Maria Augusta 1869, Jonas Edvard 1871, Anders 1876, Hilda Charlotta 1878-06-21, Carl Magnus 1880-07-21, Hanna Matilda 1882-08-06 och Oskar Rudolf 1885-04-16. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Aktens namnform `Hilda` mot senare `Hildur`; samma dotter. |
 | 1890–1898 | **Bondhustru i Buberget** med maken och sju hemmavarande barn. | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | |
 | 1898-05-25 | **Död i Buberget**, 55 år gammal; dödsorsaken skrivs **`lungsot`**. Begravd 5 juni. | [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | Historisk källterm utan modern medicinsk omtolkning. |
-| 1898-08-20 | **Bouppteckning** förrättas, Degerfors tingslag A II a/37 nr 20, bild `A0033199_00234`. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Endast **första sidan** är läst; den ger dödsuppgift, maken och alla åtta barn. **Boets tillgångar, skulder och slutvärde är otranskriberade** trots att akten är fritt åtkomlig. |
+| 1898-08-23 | **Bouppteckning** förrättas, Degerfors tingslag A II a/37 nr 20, bild `A0033199_00234`. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Första sidan omprövad; testamentet 10 maj 1898 återges. Äldre helhetsavskrift finns men fortsättningsbilderna saknas lokalt och slutsummorna innehåller en räknekonflikt. |
 
 ## Biografisk sammanfattning
 
@@ -65,17 +66,18 @@ hemmansägare i Buberget; lysningsboken kallar henne nämndemansdotter, och
 fadern var giftoman. Hon flyttade de dryga två milen från Rödå till Buberget
 och blev kvar där resten av livet.
 
-På arton år födde hon **åtta barn**. Vi känner dem alla vid namn och de
-flesta på dagen, och det är bouppteckningen efter henne själv som ger
-listan — den enda handling som samlar hela syskonskaran.
+Bouppteckningen namnger **åtta då efterlämnade gemensamma barn**. Det är
+inte ett totalt antal födda barn; det äldre hushållsunderlaget nämner även
+tvillingarna Anders och Carl.
 
 Hon dog den **25 maj 1898**, femtiofem år gammal, i **lungsot**, och
 begravdes den 5 juni. Tre månader senare hölls bouppteckningen. Dess första
-sida är läst och ger dödsuppgiften, maken och arvingekretsen; **resten av
-akten — gårdens djur, redskap, jord, skulder och slutvärde — är aldrig
-transkriberad, trots att bilden ligger fritt åtkomlig hos Riksarkivet.** Det
-är den enda ohindrade läsningen som återstår för henne, och den skulle säga
-mer om hushållets ekonomi än någon annan källa i akten.
+sida har omprövats och ger dödsuppgiften, maken och arvingekretsen. Där
+återges också makarnas testamentariska förordnande den **10 maj 1898**:
+efterlevande maken skulle få sitta i orubbat bo tills yngste sonen Rudolf
+blivit myndig. En äldre helhetsavskrift av boet finns i C-1054, men
+fortsättningsbilderna saknas lokalt och dess slutsummor har en olöst
+räknekonflikt om 1,40 kr.
 
 ## Relationer
 
@@ -125,3 +127,38 @@ mer om hushållets ekonomi än någon annan källa i akten.
 - Källbredd 2026-09-04: flytt `—`. Den belagda livskedjan går från Rödå
   till Buberget inom Degerfors och innehåller ingen separat intersockenflytt
   som motiverar en egen flyttkällesökning (research-log Batch 247).
+
+### Avgränsad följdavstämning 2026-09-08, T-0129
+
+Aktuella datum, arvingeantal och ekonomisk verifieringsgräns är rättade mot [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) och [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md).
+
+Full individuell konsolidering och kontraktsprövning ägs fortsatt av [T-0157](../../wotan/dev-log/T-0157.md). Denna följdavstämning är ingen fullgranskningsmarkering.
+
+Äldre ersatta formuleringar, bevarade som historik:
+
+> | A-2266 | Bouppteckningen förrättades 1898-08-20 och namnger maken Anders Jansson samt deras åtta barn Ida Sofia, Maria Augusta, Jonas Edvard, Anders, Carl Magnus, Oskar Rudolf, Hilda Charlotta och Hanna Matilda. | CORROBORATED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md) | `Hilda` är aktens variant av senare `Hildur`; första aktsidan har lästs, inte hela tillgångsinventeringen. |
+
+> | A-3923 | Hennes bouppteckning är nu läst i sin helhet: tillgångar **13 998,49 kr**, skulder **2 872,40 kr**, behållning **11 127,49 kr**, delad mellan maken och de åtta barnen. | CORROBORATED | mycket hög | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | C-0485 läste endast första sidan och angav uttryckligen att tillgångar, skulder och slutvärde inte var utvunna. De är det nu. |
+
+> | 1869–1885 | **Åtta barn** sammanlagt, samtliga namngivna med födelsedatum i bouppteckningen 1898: Ida Sofia, Maria Augusta 1869, Jonas Edvard 1871, Anders 1876, Hilda Charlotta 1878-06-21, Carl Magnus 1880-07-21, Hanna Matilda 1882-08-06 och Oskar Rudolf 1885-04-16. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Aktens namnform `Hilda` mot senare `Hildur`; samma dotter. |
+
+> | 1898-08-20 | **Bouppteckning** förrättas, Degerfors tingslag A II a/37 nr 20, bild `A0033199_00234`. | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Endast **första sidan** är läst; den ger dödsuppgift, maken och alla åtta barn. **Boets tillgångar, skulder och slutvärde är otranskriberade** trots att akten är fritt åtkomlig. |
+
+> På arton år födde hon **åtta barn**. Vi känner dem alla vid namn och de
+> flesta på dagen, och det är bouppteckningen efter henne själv som ger
+> listan — den enda handling som samlar hela syskonskaran.
+
+> sida är läst och ger dödsuppgiften, maken och arvingekretsen; **resten av
+> akten — gårdens djur, redskap, jord, skulder och slutvärde — är aldrig
+> transkriberad, trots att bilden ligger fritt åtkomlig hos Riksarkivet.** Det
+> är den enda ohindrade läsningen som återstår för henne, och den skulle säga
+> mer om hushållets ekonomi än någon annan källa i akten.
+
+Begränsad nivåföljd i T-0129: profilen har identitetsgranskning UNDERKÄND, trädverkan AVVAKTAR och full nivå UNDERKÄND på den konkreta kopiebristen i C-1054. Saklig personidentitet är inte avvisad. [T-0258](../../wotan/dev-log/T-0258.md) äger de tjugo fortsättningsbilderna, T-0157 full adoption.
+
+
+### Avgränsad följdrättelse — T-0139
+
+Föräldrarnas fulla C-0111-rader och vigsel C-0116 omprövade. Anders var22år och Sofia18år1828; den omvända läsningen var projektfel. C-0106:s brudfolio läses nu14/3[?], inte äldre14/2 eller mellanläsningen14/4[?]. Ingen ny folio är öppnad. Rödåboken1861–1865 visar hennes familj men bevisar inte obrutet boende från födelsen1843. Nämndemanstiteln visar faderns funktion, inte i sig en jämförd högre levnadsstandard. Full adoption och berättelsens kvarvarande generaliseringar ägs av T-0157.
+
+> | 1843–1865 | Dotter i **nämndemanshushållet i Rödå, sida 483** i A I/8b, med **åtta syskon födda 1829–1854** och farmodern, änkan Anna Catharina Andersdotter, född 1783 i Umeå stadsförsamling, i hushållet. | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Hushållet bekräftar födelsedagen 30 mars oberoende av födelsenotisen. |

@@ -46,7 +46,7 @@ Hyltinge 1890.
 | 1874 | Flyttar från Bergastugan till **Högtorp i Gryt**. | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md), [C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md) | Samma år som Per Albert flyttar till Jordanstorp i samma socken. |
 | 1876-05-28 – 06-11 | **Lysning i Gryt**, N:o 5; hon skrivs `pigan Adela Amalia Urbom i Högtorp`, han dräng i Suna i Hyltinge. | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Hennes födelseuppgift `49 ³/₈` bekräftar 1849-08-03 en fjärde gång. |
 | 1876-06-24 | **Gift med Per Albert Ålund** — vigseln förrättad i **Husby i Oppunda härad**, inte i Gryt. | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Vigselorten är samma socken där hennes föräldrar bodde vid **Hjulfabriken** 1861–1865 ([C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md)). Det förklarar nollet i Västra Vingåker ([C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md)): man sökte i hennes **födelseförsamling** i stället för i familjens senare hemsocken. |
-| 1877-09 | Dottern **Hulda Amalia** föds i Djupnäs i Gryt; hon uppges vara 27 år och fylla 28 under året. | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Direkt ana. Åldern stämmer med 1849. |
+| 1877-09 | Dottern **Hulda Amalia** föds i Djupnäs i Gryt; moderns ålderskolumn har råtalen 27 och 28 utan avgjord förklaring. | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Direkt ana. Två tal står i samma kolumn för sist fyllda år; de är inte belägg för årets kommande födelsedag. |
 | 1879 | Flyttar med maken och dottern från Gryt till **Hyltinge**. | [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md) | |
 | 1890 | I **Valsund i Hyltinge**, uppgiven ålder 40 år; sonen **Karl Albert** föds. | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | I sonens födelsepost är hennes förnamn **felskrivet som Hulda Amalia** — dotterns namn. |
 | 1900 | I **Rudstugan i Hyltinge**; namnformen skrivs `Adel Amalia`. | [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md) | |
@@ -153,3 +153,12 @@ inte hennes början, som fattas.
   utflyttning 1910–1914 saknar henne, så dödstid och jurisdiktion är ännu
   okända. Bouppteckning aktiveras av en ny positiv sen ort- eller dödsnyckel
   (research-log Batch 245).
+
+
+### Begränsad följdrättelse T-0125, 2026-09-07
+
+C-0075:s lokala fullbild omprövad i T-0125. Råa ålderstal bevaras utan förklaringsgissning. Full granskning kvar i T-0159.
+
+Äldre ändrade formuleringar, historik:
+
+> | 1877-09 | Dottern **Hulda Amalia** föds i Djupnäs i Gryt; hon uppges vara 27 år och fylla 28 under året. | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Direkt ana. Åldern stämmer med 1849. |

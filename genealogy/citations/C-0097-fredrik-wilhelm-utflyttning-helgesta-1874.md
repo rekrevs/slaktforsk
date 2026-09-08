@@ -41,3 +41,8 @@ mellanrum, stärker hypotesen att de var bröder. Något föräldrabelägg finns
 ## Stödda påståenden
 
 A-0504–A-0506.
+
+
+## Tillägg T-0143, 2026-09-08: rättad egen post
+
+Hela Fredriks egen utflyttpost48 har prövats i den sparade helbilden. Datum26/10, folio51, Ålund Fredr. Wilhelm, dräng, boställe Gästekvarn[?], destination Gryt, en man och en kvinna. Hustrun identifieras inte vid namn här; C-0094 skriver med hu. Tomma övriga fält ger ingen ytterligare levnadsuppgift. Datumet är utflyttningsbokens attest-/registreringsdatum.

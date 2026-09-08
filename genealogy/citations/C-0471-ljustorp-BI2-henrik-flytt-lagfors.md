@@ -35,3 +35,33 @@ Henriks föräldrar och hushållssiffrorna görs inte till namnlösa barn.
 ## Stött påstående
 
 A-2237 och A-2349.
+
+## Rättelse och fulla målpostfält 2026-09-08, T-0130
+
+De två redan bevarade fulloriginalen har lästs om. Originalavskriften ovan
+bevaras, men det äldre året för hushållets utflyttning rättas här.
+
+- På bilden över 1854 står båda sidorna under **1854**. Vänster
+  inflyttningspost **129** namnger drängen **Henrik Henriksson**, från
+  **Lagfors Bruk** till **Lagfors By**, med **en man** och ingen kvinna.
+  Datumkolumnens streck följer den föregående **24 november**-gruppen.
+- Höger utflyttningsrad namnger **Drängen Henrik Henriksson med hushåll**,
+  från **Lagfors By** till **Lagfors Bruksförs.**, med **två män och en
+  kvinna**. Den står under **5 november 1854**, inte 1855. Detta stämmer
+  med A I/6 sida 40:s egen utflyttningsanteckning, se C-0594.
+- På nästa bild, under **1855**, namnger inflyttningspost **176** drängen
+  **Henrik Henriksson med d:o**. Föregående rad anger `med hustru`; här
+  står **en man och en kvinna**, från **Lagfors Bruk** till **Sjöberg**.
+  Datumditto följer **2 december**. Hustrun får ingen egen namnrad i posten.
+
+De motriktade registreringarna den 5 respektive 24 november 1854 bevaras
+som de står. De blir inte en rekonstruerad fysisk reseföljd. A I/6 sida
+116 anger dessutom **21 november 1855** för ankomsten från Lagfors bruk,
+medan B I/2 ger **2 december**; skillnaden får inte harmoniseras till en
+säker fysisk flyttdag. Datum och hushållssummor är posternas information,
+inte bevis för vilka samtliga medflyttare var eller för ett visst barns
+identitet. De egna namn-, ort-, datum- och summafälten är prövade över hela
+postbredden. Inga ytterligare egna anmärkningar finns i dessa målposter.
+
+Rättelsen gäller A-2237 och berör P-0338/P-0339. Samtliga äldre fullbilder
+med SHA-256 återanvänds; ingen ny extern sökning gjordes.

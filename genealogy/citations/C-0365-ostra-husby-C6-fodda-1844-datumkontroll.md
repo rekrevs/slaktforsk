@@ -27,3 +27,8 @@ den andra oktoberpojken identitetskopplas.
 ## Stödda påståenden
 
 A-2027–A-2028.
+
+
+## Tillägg 2026-09-07, T-0126: faderns titel
+
+Den positiva augustiraden för Anders Magnus, född 28 augusti, anger fadern **Nämndem. Carl Månsson** i Gäddestad. Det är faderns titel, inte barnets. Sonens egen senare nämndemannauppgift har separata belägg i C-0664/C-0665. C-0364:s hemmansägartitel för fadern motsägs inte av ett ytterligare civilt uppdrag. Ingen exakt tjänstgöringsperiod eller domstol härleds.

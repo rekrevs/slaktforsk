@@ -33,3 +33,19 @@
   `200` på både manifest och maxbild. Volymgruppen kartlades därför genom
   Riksarkivets MCP-metadatasökning och genom att hämta manifestetiketter
   batch för batch.
+
+## Tillgodoräknad positiv mantalsrad — T-0128, 2026-09-08
+
+Den senare lokaliseringsfrågan var redan löst i C-0866/S-0679 och
+T-0051: G 1 BA:76/35, A0057750_00086, Olaus Fredberg på stort löpnummer
+3553 med nummer å mantalsuppgiften 1217. Fulloriginal och hash finns.
+Det äldre påståendet här om att Kungsholmsvolymen ännu behöver lokaliseras
+är upphävt. Inget nytt svep över 42 volymer behövs för den kända posten.
+
+Den separata mantalsuppgiften G 1 BB:44/20 är fortfarande oläst.
+T-0051:s senare åtkomstkontroll efter ägarens captcha visade just denna
+volympost utan utmaning, med Läsesal och utan bildvisningslänk; detaljerna
+var ännu inte öppnade. Det är det senast dokumenterade utförandeläget
+för den exakta posten, inte ett påstående om aktuell fri bildåtkomst eller
+ett oöverstigligt allleverantörshinder. Senare allmänna ALTCHA-noter gör
+inte den redan positiva längdläsningen ogjord. Inga nya webbanrop här.

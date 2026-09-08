@@ -24,3 +24,7 @@ Helsyster till P-0028, född som den andra av två tvillingdöttrar i Botsmark
 ## Forskningsstatus
 
 Sidoperson utanför antavlan; ingen egen forskning prioriterad.
+
+## Konsolideringsrättelse — T-0133
+
+2026-09-08: C-0564:s fulla egenpost tillgodoräknas: modern 38 år, kyrktagning 8/4[?], prövade dopvittnen med reservationer. Systern Sara Rebecka dog efter nöddop; ingen exakt dödsdag följer. T-0161 äger full individuell adoption.

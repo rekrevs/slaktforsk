@@ -43,3 +43,12 @@ i samma inloggade visare.
 
 A-2547.
 
+
+## Bevarande prövat i T-0130, 2026-09-08
+
+De fyra helvyerna och kompletterande radvy är visuellt prövade. De 38
+dödsraderna och deras kolumner är läsbart bevarade för det dokumenterade
+namnkontrollomfånget. Avsaknad av en separat maximal pixelhämtning ger
+därför ingen egen materiell kopieskuld här. Den tidigare 401-historiken
+består som åtkomstuppgift; nollresultatet är fortfarande begränsat till
+1900 års Ljustorpföljd och motsäger inte ensam C-0607:s positiva 1901-not.

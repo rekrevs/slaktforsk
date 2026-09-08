@@ -33,3 +33,13 @@ tidigare hustrun utan att göra Anna till mor för barn födda före vigseln.
 ## Stödda påståenden
 
 A-0850–A-0851 och A-0853–A-0854.
+
+## Tillägg 2026-09-08 — T-0141, Annas egen post och rättelser
+
+Fulla vigselposten 6 på bild 56 är prövad. Den anger lysning **11 oktober
+1818** och vigsel **1 november 1818**. Brudgummen är `Enklingen Eric
+Anderss. i Sannerby`; brudens roll står **Dott. Anna Ersdr**, inte
+äldre arbetsavskriftens Pigan. Dotterbeteckningen namnger ingen far i
+just vigselposten. Ingen egen ålder, förmyndare, namngivna vittnen eller
+vigselförrättare tillkommer i denna korta post. Höger sidans dödposter
+är annan handling, inte en fortsättning på hennes vigsel.

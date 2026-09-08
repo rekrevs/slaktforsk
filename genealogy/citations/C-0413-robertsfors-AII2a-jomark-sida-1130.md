@@ -34,3 +34,12 @@ bevis för vistelse varje enskilt år.
 
 A-2130–A-2132.
 
+
+### Rättelse 2026-09-07, T-0117
+
+Oberoende omläsning av det sparade originalet ger gift `04 ³/₅`, alltså
+1904-05-03, inte äldre1904-03-05. Sidrubriken Jomark nr2¹/₈ mantal och
+Anders Alfreds egen hushållsrad¹/₁₆ anger olika omfattning; de bevisar inte
+att han först ägde¹/₈ och senare minskade till¹/₁₆. Moderns änkekolumn
+anger99²³/₆. G.B.853 binder bokens familj till föregångaren. Historiska
+avskrifter ovan bevaras; A-4147 och T-0117 konsoliderar aktuella personer.

@@ -25,3 +25,7 @@ Erik Karlsson som hon gifte sig med femton år senare. En svårläst ortform i
 moderns rad lämnas ostandardiserad.
 
 Manifest, målbild och SHA-256 binds i C-0580.
+
+## Personbunden avstämning — T-0143, 2026-09-08
+
+Den fulla målposten har prövats på nytt. Det daterade tillägget i C-0580 ersätter de äldre avskrifter ovan som uttryckligen rättas där; originaltexten bevaras historiskt.

@@ -30,3 +30,19 @@ ersätter de tidigare åtkomsthindren men breddar inte nollpåståendena.
 ## Stödda påståenden
 
 A-3061, A-3070–A-3071.
+
+
+## Avstämning 2026-09-07 — T-0124
+
+Den egna 1890-familjen består av Olaus, Johanna Charlotta och fem barn totalt: fyra äldre barn samt Augusta Gerda Charlotta. Formuleringen fem äldre barn plus Augusta ovan räknar ett barn för mycket. Positiv familjekorrelation består; inga andra sökresultat utvidgas.
+
+
+## Originalets omfång 2026-09-08 — T-0128
+
+Den sparade bilden Folk_901017-090 visar Olaus, Johanna Charlotta,
+Robert Nicolaus och Johannes Ivar. Frida, Ruth och Augusta finns i den
+strukturerade registerfamiljen men deras fortsättning finns inte på den
+här sparade bilden. Fem barn totalt enligt rättelsen från T-0124 kvarstår;
+hela familjen får inte beskrivas som fullständigt originalutvunnen från
+enbart denna bild. En exakt angränsande fortsättningsbild återstår att
+lokalisera vid beslutad uppföljning; detta motiverar inget nytt årgångssvep.

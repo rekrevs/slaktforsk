@@ -60,3 +60,7 @@ ortregister. Så hittades `A I/23` sida 243 i
 1887 års utflyttning delar posterna 34–47 alla datumet `²⁴/₁₀`. Ett
 ditto-tecken är en uppgift, inte en lucka, men **spåra alltid löpan tillbaka
 till det utskrivna datumet** innan det tillskrivs en post.
+
+## Avstämning 2026-09-08 — T-0137
+
+Avgränsad P-0126-avstämning: C-1063:s målbild C0006949_00155 och två uppgivna lästa ortregisterbilder C0006949_00010–00011 saknas lokalt efter aliasprövning. Befintlig avskrift återbrukas, men ej återgiven egen kolumninformation är en faktisk fullpostrest. Ingen frånvaro av strykning bevisar moderns boende till 1885, och upprepade namn/civilståndsuppgifter är inte automatiskt oberoende. Se C-1063:s daterade rättelser. Övriga personers redan prövade B/5- och A I/23-poster berörs inte av denna begränsade kopiebedömning.

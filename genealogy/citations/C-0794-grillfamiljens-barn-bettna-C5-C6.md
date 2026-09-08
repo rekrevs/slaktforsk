@@ -75,3 +75,30 @@ bara för navigation; påståendena ovan är visuellt lästa i fulloriginalen.
 ## Stödda påståenden
 
 A-3042–A-3049.
+
+## Rättelse av Lovisa-kontrollen — T-0139, 2026-09-08
+
+C-0702:s två fulloriginal har nu oberoende lästs som **sonen Lars Petter,
+48 27/2**, inte Lovisa 1849. Den äldre Lovisa-identiteten och den därav
+skapade konflikten mot SCB-sonen L. P. 1848 upphävs. P-0496 är samma
+korrigerade hushållsbarn, inte en nytillkommen person. Kontrollen av
+1849-02-27 på bild 44 bevaras som felriktad historisk kontroll och säger
+inte något om Lars Petters födelse.
+
+Den redan bevarade bilden C0005882_00041 har också visats på nytt med den
+rättade nyckeln. Dess kronologiska februariled går vidare till mars utan
+en post för **Lars Petter** eller paret **Carl Fredrik Drill/Grill och
+Johanna Jansdotter** på 27 februari 1848. Det är en exakt bild- och
+namn-/datumkontroll, inte ett helt års eller en födelsesockens noll. Den
+positiva hushållsuppgiften om 1848-02-27 står kvar som senare uppgift;
+egen födelsenotis är ännu inte återfunnen. Ingen ny arkivbild öppnades.
+
+## T-0139: fulla positiva barnposter och rättad Maria Sofia-månad
+
+Anna Lotta 1846, post 3 på den redan bevarade fullbilden, föddes 14 januari och döptes 18 januari vid Glippsta soldattorp. Fadern är **soldaten Carl Fr. Drill**, inte tidigare Carl Er. Grill; modern är Johanna Jonsdotter, uppgiven 26 år. Under modersåldern står kyrktagningsuppgiften `1/2[?]`. Faddrarna är soldaten **Nils Thor** med hustrun **Ann. St. Jansdotter[?]** i **Skrella[?] soldattorp**, sonen **Carl Otto Nilsson** i **Skrädd...stugan[?]** samt pigan **Ann. M. Söderberg** i **Knuf...n[?]**. De bleka orterna och initialerna är prövade men reserverade. Vittnesrollerna ger inga automatiska släktrelationer.
+
+Maria Sofia, post 14 på `A0012299_00009`, föddes **27 februari 1863** och döptes **8 mars**. Födelsemånaden fortsätter från februari vid post 10; mars börjar först på post 15. Dopmånadens mars följer föregående marsnotering. Den äldre avskriftens 27 mars/8 april var därför fel. Hushållsböckernas **27 mars 1863** bevaras däremot som en verklig råavvikelse mot födelseposten. Föräldrarna är soldaten **Carl Fredric Drill** vid **Hagby soldattorp[?]** och hustrun **Johanna Jonsdotter**, uppgiven 43 år; barnet förs som äkta flicka. Kyrktagningsnoteringen läses reserverat **11[?]/4**, inte ett nytt födelse- eller dopdatum.
+
+Faddrarna i Maria Sofias post är drängen **August Werner** i **Kofhult[?]** och hustrun **Eva Lotta Olsdotter**, drängen **Carl Joh. Jansson** i **Hagby[?]** samt pigan **Gustafva Olsdotter** i **Sjöstugan**. Kolumn 23 och diverse anmärkningar är tomma. De råa namnen/orterna återges utan personfusion. Posterna har fullprövats på befintliga bilder med oberoende andra läsningar i T-0139; bleka prövade fält är inte en kvarstående utvinningsskuld.
+
+C-0729/C-0732 rättar Johanna Mathildas hushållsdatum till **1854-01-21** och äldre Heddas till **1859-10-29**. De äldre födelsekontrollerna riktade mot 21 april 1854 respektive november 1858 är därmed historiskt felriktade; de får inte vara frånvarobelägg för barnen på de rättade datumen. Ingen ny födelsepost har öppnats för dessa rättade nycklar i T-0139.

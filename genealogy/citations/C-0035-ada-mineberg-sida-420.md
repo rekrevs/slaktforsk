@@ -30,3 +30,36 @@ utflyttning till Floda 1911.
 ## Stödda påståenden
 
 A-0055–A-0065 och A-0156.
+
+## Personbunden helbildsavstämning 2026-09-07 — T-0125
+
+Den redan lokalt bevarade fullbilden `00153990_00122` har åter lästs för
+Ture Alexius egen rad 5 och Adas anteckning på rad 3. Ingen ny arkivbild
+hämtades; originalfil och SHA-256 ovan gäller.
+
+Tures rad ger `s. Ture Alexius`, `målare`, `90 ⁷/₆`, födelseort genom
+ditto till Vadsbro, samt markering i vaccinationskolumnen. De egna
+kristendomskolumnerna ger `a`/`N`; husförhörskolumn 13 och
+anteckningskolumn 14 är tomma. Värnpliktskolumnen ger **`N:o 33 ⁴⁴/₁₉₁₁`**.
+Familjens hitflyttning är från `p. 335`, `08 ¹⁶/₁₀`, med ditton på
+barnraderna. Tures aktuella avgångshänvisning ger `p. 402`, `14 ³⁰/₁₀`.
+En äldre destination/datering är överstruken på hans rad och kan inte
+säkert återges efter denna bildprövning; den görs inte till ett eget
+bekräftat flyttled. Ingen egen dödsnotering står på raden.
+
+Detta tillför egen yrkes- och inskrivningsnyckel, inte faderns yrke eller
+ett bevis för genomförd militärtjänst. Juniuppgiften står mot maj i de
+äldre Vadsbro-/Blackstaböckerna; någon egen födelsepost är inte läst.
+A-4240/A-4241 i P-0046 knyts till dessa observationer.
+
+Adas rad 3, kolumn 14, läses:
+
+> `oattesterad ¹⁹/₁ 1903 – ¹¹/₁₁ 1907. Intet äktenskapsjäf anmäldt t. d. ²³/₄ 1909. Ledig till äktenskap.`
+
+Datum och ordalydelse har också jämförts med den av root separat lästa
+C-0039-raden. Uppgiften `oattesterad` är en kyrkobokföringsuppgift;
+den bevisar inte var Ada faktiskt vistades varje dag under intervallet.
+Att inget äktenskapsjäv anmälts är inte en läst vigsel.
+
+Övriga familjeraders fulla utvinning bedöms i deras respektive avgränsade
+uppgifter; detta tillägg gör inte hela uppslaget automatiskt fullutvunnet.

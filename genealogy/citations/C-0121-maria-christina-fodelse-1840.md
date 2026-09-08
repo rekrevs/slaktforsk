@@ -49,3 +49,18 @@ den äldre arbetsavskriften `27/10` var felläst.
 ## Stödda påståenden
 
 A-0368, A-0706–A-0708, A-0745–A-0747.
+
+## Fullpostprövning — T-0131, 2026-09-08
+
+Hela den bevarade bilden och den egna raden har granskats på nytt.
+Födelse 17 oktober och dop 31 oktober 1840 står i skilda datumkolumner.
+Föräldrafältet anger bonden Hans Nilsson och Anna Stina Jonsdotter;
+moderns åldersuppgift läses nu **45 år**. Detta är postens uppgivna
+ålder, inte en omdatering av moderns födelse.
+
+Dopvittnena är bonden Peter Pehrsson i Åkullsjön och hans onamngivna
+hustru, bondesonen And. Andersson ibidem samt pigan Anna Lena
+Jonathansdotter i **Tväråbäck[?]**. Den sista orten är prövad med
+förstoring men hålls reserverad. Ingen ytterligare personbunden
+marginalnot eller fortsättning syns i den avgränsade raden. Vittnena
+får inte föras in som föräldrar eller andra släktingar genom namnlikhet.

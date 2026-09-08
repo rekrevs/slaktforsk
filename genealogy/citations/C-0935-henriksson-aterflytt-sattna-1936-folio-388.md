@@ -92,3 +92,7 @@ noll.
 ## Stödda påståenden
 
 A-3504–A-3507 (P-0241), A-3508–A-3509 (P-0246).
+
+## Avstämning 2026-09-07 — T-0119
+
+Barnantalet i tolkningens punkt 3 är fel: avskriften upptar sex barn, fem äldre samt Evy, i överensstämmelse med familjeuppgiften C-0238. Sju inflyttande personer 1936 betyder två vuxna och fem barn. Axelraden är inte märkt icke döpt och C-0244 ger hans eget dop 1901-04-24. Anteckningarna om Emma och barnen är personbundna; de styrker inte dopvägran genom hela hushållet eller kyrkotillhörighet. N:o392–43, Fl.9?/42 och Alvys läsosäkra Sundsvallsanteckning är kvarstående målkolumner/hänvisningar, inte en redan kontrollerad nybokskedja.

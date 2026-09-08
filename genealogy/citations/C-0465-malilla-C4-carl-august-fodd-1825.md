@@ -47,3 +47,7 @@ en `Danielsdotter`, båda i **Ammenäs** — och en mot **faderns**: rusthållar
 skapas på namnlikhet och ort.
 
 Texten ovan bevaras oförändrad som revisionsspår.
+
+## T-0136: avstämning 2026-09-08
+
+Hela den relevanta födelse- och dopposten har återlästs i den bevarade fullbilden. Carl August föddes 2 oktober 1825 och döptes den 7 oktober. Föräldrarna skrivs Gästgifvaren Carl Fredric Andersson och dess Hustru Anna Greta Danielsdotter i Målilja. Samtliga fyra faddrar är utvunna i C-1015. Högerkolumnen innehåller råtalet `28`; någon rubrik som uttryckligen knyter detta till modern finns inte på uppslaget. Tolkningen som modersålder är sannolik men hålls skild från det direkt lästa talet. Inga ytterligare egna anteckningar om kyrktagning, förrättare eller död har urskilts i posten. Den äldre uppskjutningen av faddrarna är därmed avslutad.

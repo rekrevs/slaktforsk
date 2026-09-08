@@ -24,3 +24,7 @@ familjens källryggrad.
 
 Sidoperson utanför antavlan; senare liv är öppet men prioriteras inte före
 breddkohorten.
+
+## Konsolideringsrättelse — T-0133
+
+2026-09-08: C-0567:s fulla egenpost tillför moderns ålder 22 år och samtliga dopvittnen med uttryckliga namn-/ortreservationer. Möjliga föräldravittnen fusioneras inte genom namnlikhet. C-0563 har egen fortsättningshänvisning 599 år 1870 med reserverat dagfält. T-0199 äger full individuell adoption.

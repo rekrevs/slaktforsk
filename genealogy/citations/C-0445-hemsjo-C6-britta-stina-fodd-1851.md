@@ -31,3 +31,24 @@ korroborerar samma familj.
 ## Stödda påståenden
 
 A-2186–A-2188, A-2190–A-2191.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+Hela den egna posten 11, sida 6, C0043842_00014, har prövats i lokalt
+fulloriginal och förstoring. Britta Stina föddes 1851-05-09 och döptes
+1851-05-11; födelseort Västra Bodarne, föräldrar Åb. Sven Olofsson och
+hustru Catharina Andersdotter. Moderns ålder är 36 i uttryckligt åldersfält.
+Förrättaren läses kyrkoherde A. Nattén. Ingen särskild dödmarkering eller
+marginalnot har kunnat beläggas för denna egen post.
+
+Sex vittnesled, även oberoende andralästa, bevaras utan säker normalisering
+av svaga orter: Jacob Olofsson i V:a Bodarne; Johannes Olofsson i
+Fåugenäs/Faugenäs[?]; dräng Carl Petter Magnusson i V:a Bodarne; hustrun
+Johanna Jonsd:r[?] från Skad/Skåd[?]; pigan Britta Stina Olofsd:r från samma
+svårlästa Fåugenäs[?]; Anna Lena Stentunsd:r[?] från Wäsenbo[?].
+Hem[?]-förkortningen framför de två första namnen reserveras. Vittnenas
+namn och roller är nätverk, inte belägg för släktskap. A-4546.
+
+S-0348 uppger läsning av hela bilderna 13–16; endast 14 har återfunnits
+bland lokala bildalias och metadata samt /private/tmp. Bilder 13,15,16
+återstår som konkret kopiegräns, utan att den positiva egna posten saknas.

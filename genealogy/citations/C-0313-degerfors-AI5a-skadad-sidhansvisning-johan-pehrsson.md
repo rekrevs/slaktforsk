@@ -59,3 +59,8 @@ Kontrollen är sidbunden; den är inte ett nollresultat för hela A I/5a.
 ## Stött påstående
 
 A-1888.
+
+
+## Fullpostprövning och rättelse — T-0142, 2026-09-08
+
+Den här sidbundna kontrollen och prövade bläckskadan bevaras. T-0142:s fullbildsrättelse i C-0212 avvisar däremot att 1847 års Johan säkert är P-0058: Bastuträsk har andra/reserverade födelsedata. C-0313 är därför en historisk kandidatväg, inte en säker del av P-0058:s vuxenkedja. C-0207:s positiva 366 och dess 405 är den nya egna bakåtnyckeln.

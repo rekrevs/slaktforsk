@@ -77,3 +77,72 @@ och förrättades i brudens.
 ## Stödda påståenden
 
 A-3701, A-3702 (P-0422); A-3703, A-3704 (P-0423).
+
+## Fullpostprövning och rättelse 2026-09-08 — T-0133
+
+### Återfunnet original under äldre citationsnamn
+
+Samma originalpost finns i volymens andra reproduktion:
+[A0001460_00008, hela uppslaget](../media/C-0210-riksarkivet-degerfors-EI1-bild-8-vigslar.jpg),
+4723 × 3750 bildpunkter, SHA-256 kontrollerad nu:
+`4428e45da580e35f4fe05e59af35a3448397b0fdbf84db2e9129d1bd990f7ebd`.
+Året **1850** står över vänstersidan, **post 19** längst ned till vänster.
+Högersidan gäller 1851. Den äldre lokaliseringen till högersidan av
+C0034079_00013 har inte kunnat jämföras eftersom just den reproduktionens
+fil inte återfunnits; det skapar ingen egenpostkopieskuld när den här
+fullständiga originalreproduktionen redan finns. Bilder 9, 10 och 13
+under C-0210 visades också för att undvika sammanblandning av
+reproduktionernas bildnummer och år.
+
+### Hela den egna posten
+
+| Fält | Nu prövad läsning och gräns |
+|---|---|
+| Nummer/år | 19 under 1850. |
+| Lysning | `3[?]/11`; äldre säkra `7 november` återtas. Dagtecknet är reserverat efter faktisk bildprövning. |
+| Vigsel | `24/11`, alltså 1850-11-24. |
+| Brudgum | `Landbonden Joh. Pett. Zingmark`, `Son till Landb. Carl Jonas Zingmark` i Botsmark. Överlagd text omkring fadersraden är inte tillräcklig för en säker civilståndsbestämning av fadern. |
+| Brudgummens datum och hänvisning | `1/2 1825`, talet `127` intill datumkolumnen; exakt hänvisningsfunktion inte avgjord. |
+| Brud | `Bonded. Sara Sophia Pettersd:r[?]`; den tidigare formen Pehrsd:r bevaras ovan. |
+| Brudens datum och hänvisning | `21/5 1829`, talet `379` intill datumkolumnen; exakt hänvisningsfunktion inte avgjord. |
+| Brudens föräldrar | `Föräld: Bond. Pett. R. Pehrsson o H:u Beata Jonsd:r ifrån Ånäset`. Förkortningen R. expanderas inte här. |
+| Ortkolumn | Botsmark för brudgummen och Ånäset för bruden. Hemvistuppgifter, inte uttryckliga födelseortsfält. |
+| Giftoman | `Fadren Giftomannen närvarande`. Ingen extra namngiven person förs in från denna formulering. |
+| Förrättare | `Vigseln förrättad af C. J. Hammargren`. |
+| Tillägg efter föräldraraden | `Till Nykyrkan [svårtolkade tecken]`. Äldre tolkning 1853 är inte säkert bekräftad av den nu lästa reproduktionen; ingen flytt eller årtal görs säkert. |
+| Sista not | `Betyg å Afvittring ... 2... Oct.[?]`. Notens förekomst och ämne är lästa; exakt datum och mellanord reserveras. Den är inte en bevarad avvittringshandling och identifierar inte automatiskt ett tidigare äktenskap. |
+
+Samtliga egna namn-, datum-, ort-, giftomanna- och marginalfält har
+prövats. Svag skrift ovan är dokumenterad råreservation, inte ett
+aldrig öppnat eget fält. Ingen separat modernamnrad för brudgummen
+framträder i posten.
+
+### Reviderad bevisvärdering
+
+Vigselposten belägger själva vigseln och namnger föräldrarna i en annan
+posttyp än hushållslängden. Det stärker korrelationen, men
+uppgiftsöverföring via hushållsbok eller attest kan inte uteslutas.
+Särskilt de exakta födelsedatumen är inte visade vara oberoende
+primäruppgifter bara för att de återkommer här. Ånäsetfältet motbevisar
+inte ensamt en avvikande födelseort i en senare längd. Hemvist och
+födelseort måste hållas isär.
+
+Degerforsposten ger en positiv träff efter de avgränsade nollen i Sävar
+och Lycksele; den visar inte att något generellt mönster om brudens
+hemförsamling är bevisat eller att en geografisk förklaring uttömmer
+alla registreringsfrågor. De tidigare metodräkningarna ovan används
+inte som genealogiskt belägg.
+
+### Oberoende andraläsning inom T-0133
+
+Root har därefter läst samma fullpostutsnitt. Sista noten kan preciseras
+till **`Betyg å Afvittring från 2… Oct.`**; exakt dag och eventuellt år
+är fortfarande reserverade. Brudens patronym `Pettersd:r` bedöms
+rimligt av båda läsarna. Lysningsfältet läses som `3/11[?]` av båda,
+inte säkert 7 november.
+
+Brudgummens relationsfras innehåller `son till Landb. Carl Jonas
+Zingmark`; tätskriften före kan vara `ä[ldste?]`. Det är inte ett
+säkert påstående om födelseordning. Den äldre avskriften `h:o till`
+återtas som relationsläsning. Tecknen efter `Till Nykyrkan` förblir
+olösta även efter andraläsningen, utan säkert 1853.

@@ -22,3 +22,8 @@ landsförsamling, som änka.
 ## Stödda påståenden
 
 A-2273, A-2277–A-2282.
+
+
+## T-0142: personbunden fullpostprövning 2026-09-08
+
+Den bevarade hela vyn `Folk_122014-138` har återlästs med rubriker. Jonas Petter är handelsföreståndare, följd av Matilda Johanna Green och de tre namngivna barnen. Modern har separat familjenummer 2, namnformen Kajsa Charlotta Jonsdotter Persson, år 1825 och Umeå landsförsamling samt änkemarkering. Eget yrkesfält har ett ditto-/upprepningstecken vars funktion inte säkert anger sonens yrke för henne; hon benämns därför inte handelsföreståndare. Eget trosbekännelse-/nationalitetsfält är tomt. Alnö uttrycks för barnen genom `här` i detta utdrag, medan C-0492:s barnortsceller är tomma. Daterad samlokalisering är belagd, inte ett obrutet gemensamt hushåll 1890–1912.

@@ -41,3 +41,12 @@ bilderna 62–66.
 ## Stödda påståenden
 
 A-3069.
+
+## Tillägg 2026-09-08 — T-0132, personbunden fullpost och rättelse
+
+Den egna inflyttningsposten 1 på sida 59 är nu läst över samtliga
+fält: 22/1 år 1909, Karlsson Erik, Arbetare m. hu. o. 1 b., från Flen,
+till **Skeboqvarn**, folio 313; två män och en kvinna. Egna födelse- och
+anmärkningsfält är tomma. Platsläsningen stöds av målfolio 313:s rubrik
+i C-0796. Registerdatumet bekräftar inflyttningsnoteringen; det gör inte
+18–22 januari till fyra faktiskt kända resdagar.

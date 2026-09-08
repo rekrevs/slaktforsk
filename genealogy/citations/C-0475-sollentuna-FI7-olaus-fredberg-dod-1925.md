@@ -23,3 +23,30 @@ Rotemansarkivets 4 september.
 ## Stött påstående
 
 A-2246.
+
+## Egen dödpost rättad och fullfält avstämt — T-0128, 2026-09-08
+
+Fulloriginalet och egna kolumner har lästs oberoende av två granskare.
+Post 50 gäller `Fredberg Olaus Fredriksson, f.d. bangårdsmästare`, med
+hemvist rått `Tbg. 25 b.` och död **1925-08-06**. Födelsefältet är
+**`52 4/9`**, inte 24 maj. Det är en senare födelseuppgift och ingen egen
+födelsenotis. Civilståndsstrecket ligger i kolumn 13 **Änkling eller
+frånskild**, inte i giftkolumnen; utan annat belägg avgörs inte vilket
+av dessa två alternativ som avses. Kolumnen räknad till församlingen
+har en man.
+
+Egen hänvisning till församlingsbokens uppslag är **587** i kolumn 15.
+Talen längst ned i vänstersidans summering är inte hans personhänvisning.
+Dödsorsaken läses **Arterioskleros + Pneumonia acuta**, med reservation
+för mindre mellanliggande råtecken; ingen annan medicinsk förklaring
+läggs till. Läkarattestkolumnen är markerad, barnmorskekolumnen tom.
+Kolumn 19, dödsort om annan än hemorten, är **tom**. Hemvistförkortningen
+får därför inte presenteras som en uttryckligen utskriven fysisk dödsort.
+Begravningsdatum **1925-08-12**. Högra anteckningen anger läkare
+E. Westerlund[?], Sthlm[?]; detta gör inte Stockholm till dödsplats.
+
+Rättelserna ändrar födelseargumentets tidigare räkning av fyra majkällor
+samt uppgiften om gift civilstånd vid döden. Den andra hustrun P-0397:s
+livsläge måste hållas öppet tills egen post eller hushållsfolio ger svar.
+Folio 587 är en positiv ny söknyckel, inte en upprepning av ett helt
+Turebergs- eller församlingssvep. Fulloriginal/hash finns redan ovan.

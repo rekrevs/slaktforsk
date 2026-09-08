@@ -61,3 +61,11 @@ husförhörslängd som föregår `A I/8`**, vilket är nästa steg.
 ## Stödda påståenden
 
 A-3804–A-3807.
+
+## T-0136: individuell fullpost- och gränsprövning, 2026-09-08
+
+Den positiva fulla vigselavskriften från 1830-04-13 och den tomma ålderskolumnen tillgodoräknas. Ingen ny arkivåtkomst eller ny originalvisning görs här. **Bondesonen ... i Hullsjön** och **Bondedottren ... därstädes** betecknar brudparets roller och uppgivna hemvist vid vigseln. Det gör ett tidigare Hullsjöhushåll till en relevant sökväg, men visar inte att deras föräldrar då bodde i Hullsjön eller ens att brudparet bodde kvar hos dem. Föräldrarnas namn står inte separat i posten. Jons D:r identifierar därför inte automatiskt en viss far Jon. Ingen födelseort, födelsetid eller säker social förändring framgår.
+
+Förnamnet Cajsa Brita är positivt belagt, medan mekanismen bakom hushållsbokens rättade förnamn inte är dokumenterad. Jons D:r och Jöns D:r förblir källbundna former för den genom familjen sammanhållna kvinnan; själva namnvariationen är ingen säker ny identitet.
+
+Den lästa bilden **A0010807_00023** saknar ännu bevarad lokal fullkopia/hash efter sökning i media och arbetskataloger på bild-id, citationsnummer och Stöde-/vigselalias. Befintliga **T-0242** äger återställningen. Äldre avskrift är positiv källkunskap, men frånvaron av originalkopian hindrar aktuell reproduktionskontroll.

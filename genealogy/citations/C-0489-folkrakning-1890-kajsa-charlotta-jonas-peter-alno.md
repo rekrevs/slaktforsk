@@ -21,3 +21,8 @@ sonen **Johan Almer Betuel**, född 1888 i Alnö. I samma hushåll står modern
 ## Stödda påståenden
 
 A-2271, A-2277 och A-2279–A-2280.
+
+
+## T-0142: personbunden fullpostprövning 2026-09-08
+
+Hela den redan länkade vyn `Folk_922013-066` har återlästs; den är läsbar i sin bevarade upplösning. Nedersta familjegruppen omfattar arbetaren Jonas Peter Johansson, Matilda Johanna Green, sonen Johan Almer Betuel och `mor Kajsa Charlotta Jonsd:r`. Moderns födelseår är 1825, ort Umeå landsförsamling och civilstånd änka. Hennes yrkes- och kombinerade lytes-/religions-/nationalitetsfält är tomma. Det innebär ingen positiv uppgift om hälsa eller trosliv. Sonens yrke tillskrivs inte modern. Alnö för barnbarnet framgår av `här` i just denna originalrad; det är ett separat belägg från C-0492:s tomma barnortsceller.

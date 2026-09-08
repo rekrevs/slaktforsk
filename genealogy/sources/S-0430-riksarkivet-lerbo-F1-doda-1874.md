@@ -38,3 +38,7 @@ dödsort, begravningsdag och sidhänvisning till husförhörsboken. Begravningen
 dagsiffra är överskriven och läses `12/2` med `13/2` som alternativ.
 Hänvisningen `p. 164` avser husförhörsboken A I/20 1871–1875, som saknar
 bildlänk i sök-API:et.
+
+## Avstämning 2026-09-08 — T-0137
+
+C-0541 post 4 fullprövad i T-0137; intygs- och extra anteckningsfält blanka, begravningsdag 12[13?]/2 fortsatt reserverad. Full egen bild 37 finns och hashmatchar. De 15 faktiskt lästa översikterna F0003292_00022–00036 är inte återfunna efter id-/ort-/år-/media-/tmp-alias. A I/20:s äldre API-utfall är inte en nuvarande åtkomstspärr: C-1095/S-0790 har C0006947 och lokalt manifest. Egen familjefolio 164 är inte läst enbart därför.

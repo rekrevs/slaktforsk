@@ -39,3 +39,35 @@ Christina i oktober.
 ## Stödda påståenden
 
 A-0545, A-0548, A-0583, A-0810–A-0812, A-0814 och A-0830.
+
+## Tillägg 2026-09-08 — T-0132, personbunden fullpost och rättelse
+
+Stafsjöns egna rader 1–3 har lästs över hela uppslaget. Erik Carlsson,
+torpare, anges född 1851-01-30 i Bettna, från Årdala 1876 och till
+Hvilunda 1877. Anna Christina och Anna Erika har sina separata rader;
+vigseldatum 1876-09-17 återges på hustruraden. Eriks vaccinfält har v,
+kunskapsfälten tre grafiska markeringar; de ges ingen skolbetygsöversättning.
+Egen nattvard 1876 läses 5/11, medan eget förhörsfält för samma år är tomt.
+Övriga egna senare förhörs-/nattvards-, döds- och frejdfält är tomma.
+Hustruns förhörstal läses 3[?] och nattvarden 5/11; prövad talreservation
+är en källgräns. Flyttmarkeringarna daterar bokföringen, inte säkert
+familjens faktiska resdagar.
+
+## Anna Christinas egen fullrad — T-0132, 2026-09-08
+
+Fullbilden och en egen förstoring av rad 2 har prövats. Hustrun Anna
+Christina Larsdotter står med 1852 21/3 Årdala, vigseldelen 17/9 under
+makens år 76, från Årdala 76 och till Hvilunda 77 genom ditotecken.
+Dessa är bokförda orter och år; hennes egen oktoberflytt framgår av
+C-0156 och får inte ersättas av makens aprilflytt.
+
+De egna läs-, katekes- och förklaringsrutorna har grafiska r-liknande
+markeringar, förståenderutan ett streck-/punkttecken. År 1876 står
+**5/11 i N-kolumnen**. F-kolumnens rådatum prövas **3/11[?]**; den
+svårare nämnaren normaliseras inte utan reservation. De senare årens
+egna F/N-fält är tomma efter flytten. Egna frejd-, död- och ytterligare
+anmärkningsfält saknar notering. Prövade tomrum är inga utvinningsluckor.
+Överstrykningen av familjeraderna hör samman med flytthänvisningen och
+anger inte att alla tre dog. Nästa torparfamilj och den nedre drängraden
+är separata poster; deras senare datum eller kunskapstecken överförs
+inte till Anna Christina.

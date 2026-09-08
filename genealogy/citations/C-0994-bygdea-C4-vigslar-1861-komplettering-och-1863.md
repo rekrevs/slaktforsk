@@ -85,3 +85,26 @@ billigare hypotes än en fjärde församling.
 ## Stödda påståenden
 
 A-3694, A-3695 (P-0094); A-3696, A-3697 (P-0095).
+
+## Källkritisk konsolidering — T-0131, 2026-09-08
+
+Den tidigare läsningen och tabellen bevaras; inga nya externa uppslag
+har öppnats i denna konsolidering. Det redovisade omfånget är 28 poster
+1861, 22 poster 1862 och 38 poster 1863. **Nollträff i dessa årgångar
+bevisar inte vigsel i annan församling.** Annat år, annan bokföring,
+utelämnad post och annan ort är fortfarande skilda möjligheter.
+C-0069:s äldre läsning `G 62` är dessutom osäker vid ny lokal läsning;
+`61[?]` med eftertecken bevaras som råform, medan C-0425 tydligt har `61`.
+
+Den andra reproduktionen av 1862 visar här poster 1–4 och 10–22;
+**posterna 5–9 ingår inte i just den redovisade passagen**. Årets tidigare
+hela originalkontroll och det bevarade SCB-utdragets 22 poster i C-0122
+är det fullständiga omfångets underlag. Två reproduktioner av samma bok
+är inte två oberoende vittnesmål.
+
+1860-bilden 335 är faktiskt öppnad men dess fortsättning/årsgräns är
+inte klarlagd. Detta är en utvinningslucka för en påbörjad passage,
+inte ett årgångsnoll. Lokal bevaring för bilderna 335 och 338–344 samt
+C-0122:s A0004528_00333–00336 måste kontrolleras mot alias innan någon
+ny hämtning. C-0429:s redan sparade 336–337 och C-0122:s SCB-fullbild
+ska tillgodoräknas. Återstående precis passage ägs av T-0266.

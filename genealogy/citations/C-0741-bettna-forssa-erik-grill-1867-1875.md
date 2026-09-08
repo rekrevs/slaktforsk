@@ -71,3 +71,57 @@ Exakta checksummor redovisas i S-0574.
 ## Stödda påståenden
 
 A-0544–A-0545, A-1919, A-2833–A-2834 och A-2885–A-2890.
+
+## Tillägg 2026-09-08 — T-0132, Eriks hela egna hushållsrader
+
+De tre bevarade positiva hushållsbilderna har visats i sin helhet och
+Eriks egna rader har prövats med förstoring, mot respektive tryckta
+kolumnrubriker. Alla tre SHA-256 stämmer mot tabellen ovan. Det är inte
+nya arkivuppslag eller en ny läsning av omgivande flyttningsårgångar.
+
+**Bettna A I/16 b s 185, rad 12.** Dräng Erik Grill, född 1851 30/1 i
+Bettna, med v-markering under vacc./koppor och hänvisning från p. 201.
+Till Forssa 1868 6/10 enligt den tidigare avstämda flyttkedjan. I
+kunskapsområdet finns grafiskt streck och ordet `Svagt`. Årsfältet 1867
+har `p v[?] 15/7` och `21/11`; första förkortningen är råreservation.
+Dessa tillgodoräknas som egna kyrkliga anteckningar utan att ges modern
+betygsskala. Egna äktenskaps-, döds- och fräjd-/enskilda anmärkningsfält
+saknar särskild notis. Överstrykningen är inte ensam ett dödsbelägg.
+
+**Forssa A I/13 s 100, rad 21.** Dräng Erik Grill, 1851 30/1 Bettna,
+v-/koppor-markering; från Bettna 1868 1/11, inflyttningsnummer 25.
+Kunskapsområdet har `Svagt`. Nattvardsfältet 1868 har `4/11[?]`,
+1869 ett `pr[?]`-liknande tecken och 1870 `att.[?]` jämte grafiskt
+tecken. Råtecknen bevaras utan konstruerade exakta närvarodagar.
+
+I hans **egna fräjd- och enskilda anteckningar** står:
+
+> `till Nattvard Berättigad`
+> `Eger medborgerligt förtroende [delvis överlagrat]`
+> `Betyg 1870 3/10[?] att träda i Krigstjenst.`
+
+Den tidigare framställningen utan egen militär ingång är alltså för snäv.
+Posten dokumenterar ett betyg för inträde i krigstjänst, **inte** att han
+verkligen antogs, vilket förband han tillhörde eller genomförd tjänstgöring.
+Datumet behöver behålla sin läsreservation tills oberoende prövning.
+Betygets funktion får inte ersättas med faderns militära tjänst.
+Egna vigsel-, döds- och utflyttningsfält på denna sida saknar separat notis.
+
+**Forssa A I/14 s 99, rad 23.** Överstruken dräng Erik Grill med samma
+eget datum/ort och ärvd Bettna 1868/25-hänvisning. V-/koppor-markering
+finns. Kunskapsfältet har `Svag[?]`; i 1871 års förhörsfält syns `6[?]`.
+Övriga egna årsfält har inte någon säker läsbar närvaroföljd.
+Utflyttningsfältets täta och överlagrade text har prövats: bland råleden
+syns `Säger …`, `… stigen …`, `fol. 89[?]` och en 1871-liknande årsform.
+Detta är reserverad boktext, inte en säker ny flyttdag eller bestämd ort.
+Det nedanför stående `god frejd, ledig …` och 1873/1874-noten tillhör
+**rad 24**, inte Erik på rad 23. Någon egen vigsel- eller dödsnotis finns
+inte på hans rad.
+
+Sidornas kyrkliga markeringar ger faktiska punktuppgifter. De gör inte
+hela 1871–1875 till en obruten belagd vistelse i Sjöstugan. Den egna
+militära betygsnyckeln och den reserverade utflyttningsanteckningen kan
+prövas i avgränsade följder; de är inte bevis för tjänst, utvandring eller
+en ny personidentitet. Alla egna synliga målkolumner på de tre bilderna
+har nu prövats. Kvarstående svåra råtecken är inte automatiskt nya
+PK-05-brister, och en ännu oöppnad följdpost är en separat källväg.

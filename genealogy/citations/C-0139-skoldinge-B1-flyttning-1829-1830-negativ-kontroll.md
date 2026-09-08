@@ -57,3 +57,20 @@ Skärmbilderna kommer från Riksarkivets läsbara bildvisare.
 ## Stödda påståenden
 
 A-0799 samt slutstatusen för P-0126:s okända fadersgren.
+
+## Avstämning 2026-09-08 — T-0137
+
+Samtliga sju lokala skärmbilder har återsetts och deras hashes matchar.
+De visar de angivna årsgränserna: utflyttning 1829 börjar på högersidan av
+bild 21 och går över bild 22 till bild 23, där 1830 börjar; 1830 slutar på
+vänstersidan av bild 24 före rubriken 1831. Inflyttning 1829 börjar på bild
+75 och slutar på vänstersidan av bild 76; 1830 börjar till höger och slutar
+på högersidan av bild 77 före 1831. Äldre namnprövning av dessa fyra
+förteckningar återbrukas som ett avgränsat noll.
+
+Förteckningarna innehåller även kollektiv såsom hustru/barn utan varje
+individs namn. Avsaknad av de sökta uttryckliga namnraderna utesluter därför
+inte att en person ingår i ett sådant hushåll eller är förd under annan
+namnform. Nollet visar inte att ingen flytt ägt rum och identifierar ingen
+far. Ingen ny positiv personpost eller oöppnad fortsättning konstateras
+här, och ingen ny arkivåtkomst har gjorts.

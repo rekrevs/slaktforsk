@@ -76,3 +76,7 @@ från Robertsfors bruk om födda 1830–1832, förblir oåtkomliga (A-2746–A-2
 ## Stödda påståenden
 
 A-3853, A-3854, A-3855, A-3856.
+
+## Täckningsrättelse 2026-09-07 — T-0113
+
+A-4135 rättar A-3856:s sammanfattning att 1829–1831 skulle vara uttömt i båda församlingarna. Detta belägg anger självt att Bygdeå C/4 börjar den 23 maj 1829 och att föregående del i C/3 är oläst. Den reservationen gäller även sammanfattningar. Lövångers fulla tre år och Bygdeås lästa del/hela 1830–1831 tillgodoräknas; ingen fullständig Bygdeå1829-nolla skapas.

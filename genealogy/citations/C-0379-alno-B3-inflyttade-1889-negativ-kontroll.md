@@ -37,3 +37,8 @@ nytt exakt adress- eller livshändelseankare.
 
 A-2059.
 
+
+
+## T-0142: personbunden fullprövning, 2026-09-08
+
+Helårskontrollen återbrukas med sitt faktiska omfång: tre bilder, sidorna 25–30, posterna 1–159. De bevarade fullbildernas SHA-256 matchar. Den äldre formuleringen att Alnö saknar proportionerlig hushållsingång är historisk: C-0489–C-0493 har därefter gett Strand/Alvik, sonhushåll och egen dödspost. Register-/inflyttningsnoll kan alltså inte beskrivas som personfrånvaro eller en fortfarande helt okänd Alnökedja. Ingen ny årgångskontroll har gjorts.

@@ -43,3 +43,25 @@ respektive `W. Ny`; konflikterna mot den sekundära personakten kvarstår.
 ## Stödda eller motsagda påståenden
 
 A-1774–A-1778.
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela moderns rad 22 och Huldas båda rader 24–25 har prövats. Modern: Ajax Eleon. Gustafva, Hfru, 1817 4/3, W. Ny med ytterligare prövad men inte säkert expanderad ortanteckning; vaccin v, kunskapsmarkeringar b/b/bc/c-liknande. Från Bettna 59/Walla 70 via hushållets dittomarkeringar. Förhörsdatum 14/11 1871; nattvardskolumnerna har streck under bokperioden och delvis skrivna datumtecken 1875 som inte säkert normaliseras. Inga egna döds-, utflyttnings- eller frejdnoter på hennes rad. Dessa prövade råtecken är inte outvunna kolumner.
+
+Hulda rad 24: dotter, 1847 2/9, W. Wingåker, v, från **Örebro 1870 7/11[?], attest 23**, kunskapsfält b/bc/c/c med äldre överställda råbetyg. Förhör 14/11 1871, streck i nattvards-/årsfält före intern överföring till fol.111 år 1873; inga egna fria notfält. Rad 25: samma namn och datum, dotter, v, **från Wadsbro 1875 2/11, attest 25**. Övriga egna sakraments-, gift-, döds-, frejd- och utflyttningsfält tomma. Wadsbro är oberoende andraläst och rättar äldre Örebro för just 1875; det ändrar inte Örebro på 1870-raden. De dubbla raderna är en återkomst, inte två Hulda.
+
+
+## T-0135: faderns egen rad och omprövad datumläsning
+
+Egen rad 21: Urbom Joh. Pet., smed, 18 2/3, Wist Östergötl[?], äldre ingång Bettna 59 och Walla 70. Vaccin v, kunskapsmarkeringar b/c/c/c-liknande, förhörs-/nattvardstecken under bokperioden prövade. Inga egna döds-, frejd- eller utflyttningsnoter. 2 mars är oberoende andraläst; tidigare 3 juni var fel.
+
+Full lokal källbild och den egna raden prövade 2026-09-08; datum och
+civilstånd andralästa oberoende. Svaga kyrkliga råtecken har prövats och
+reserveras, inte lämnats outvunna. Inga nya arkivbilder öppnades på nätet.
+Den tidigare slutsatsen att vuxenböckerna upprepar 1818-06-03 återtas.
+Kopplingen till födelsebarnet i C-0833 är därför en kandidat tills en
+personbunden tidig brygga prövats; vuxenfamiljens kontinuitet består.
+
+## T-0135: korrigerad datumläsning efter oberoende detaljprövning
+
+Både den äldre avskriften och mitt första T-0135-tillägg återgav felaktigt moderns datum som 4/3. Förstorade egna datumfält och oberoende läsning visar **1817 4/4 med ett separat efterställt 2/3-liknande tecken**. Det är denna råform som gäller; det mindre tilläggstecknets innebörd normaliseras inte. Hennes eget födelseoriginal C-0289 ger 4 mars 1817, men datumavvikelsen finns också i den senare familjekedjan, inte enbart i barndomens längder. Namn, make, barn, ålder och de tidigare föräldrahushållen måste bära personargumentet tillsammans, inte ett felaktigt påstående om exakt datumöverensstämmelse.

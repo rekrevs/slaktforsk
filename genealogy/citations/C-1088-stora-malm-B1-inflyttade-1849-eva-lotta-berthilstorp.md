@@ -71,3 +71,10 @@ lästa endast som routing.
 ## Stödda påståenden
 
 A-4077–A-4080.
+
+
+## T-0137: avstämning 2026-09-08
+
+Fem korrelerade poster omfattar två församlingar, inte tre. Den belagda återflyttningen 1849 ger inte en obruten kedja från 1832. Den andra Eva Lotta-raden Lerbo–Abol hålls separat utan att patronymikonet ensamt görs avgörande eller ett obelagt totalantal kvinnor anges. Berthilstorp 201 är senare läst i C-1089.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

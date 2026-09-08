@@ -47,3 +47,8 @@ hustru blev dopvittnen 1877.
 ## Stödda påståenden
 
 A-0503–A-0506 och A-0407.
+
+
+## Tillägg T-0143, 2026-09-08: rättad egen post
+
+Fulla egna poster 85–86 prövade: dräng Fredr. Wilh. Ålund med hu, från Helgesta genom dito, till Högtorp genom dito, folio170, en man och en kvinna. Datumditto går till9/11 i post80; två läsare har prövat detta. Mottagning1874-11-09 är inte utflyttningspostens1874-10-26. Brodern i C-0093 gick till Jordanstorp162. Samma församling ger alltså inte samma by. Inget födelsedatum eller namn på hustrun finns i själva flyttposten.

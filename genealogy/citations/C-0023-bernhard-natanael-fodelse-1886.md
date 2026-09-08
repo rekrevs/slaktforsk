@@ -38,3 +38,15 @@ Viktoria Johansdotter. Barnet markerades som fött inom äktenskapet.
 
 A-0073–A-0074, A-0077–A-0078 och A-0117.
 
+
+## Rättelse 2026-09-07 — T-0121, två oberoende lokala läsningar
+
+Målpost14har lästs på nytt i bevarat fulloriginal och detalj. Fadersåldern
+är36, inte30; den äldre avskriften rättas. Modern anges22år. Hennes namn
+läses `Johansson Augusta Viktoria`, inte `Johansdotter` i denna post.
+Namnet följs av `(1 år)`; dess betydelse ska prövas mot formuläret och
+får inte fyllas ut till en ny säker familjehändelse utan sådan prövning.
+Barnets dopanteckning efter förnamnen läses `1:a/5`, alltså1886-05-01.
+Födelsedagen är1886-04-19, inte december som en äldre tidslinje i P-0020.
+Hemvistordet efterDjursätra ser ut som `Westerg.` men exakt upplösning
+reserveras; föräldrarnas hemvist är inte bevis för särskilt födelsehus.

@@ -30,3 +30,20 @@ konflikter.
 ## Stödda påståenden
 
 A-0838.
+
+
+## Tillägg 2026-09-08 — T-0139, lokal prövning och avgränsning
+
+Den tidigare faktiskt lästa bilden `C0005881_00046` har inte återfunnits
+vid sökning i repo, lokala alias-/bildmetadata och /private/tmp.
+Den äldre avskriften återbrukas med sin reservation för moderns namn.
+Hela vittnesfältet har ännu inte bevarats som relevant avskrift; inga
+nya vittnesnamn gissas utan bilden. Kopp-/kyrktagnings- och eventuella
+marginalfält kan inte efterprövas lokalt nu.
+
+Rättelse av slutsatsgräns: datumskillnaden 7/9 augusti är verklig mellan
+uppgifterna, men kandidatens beteckning oäkta är inte i sig en konflikt
+med den vuxnes patronymikon Jansson. Den vuxnes bördsstatus är inte
+belagd. Kandidaten hålls separat därför att en personbindande kedja
+saknas, inte genom ett antaget legitimationsargument. Ingen relation
+mellan P-0214 och Maja Jonsdotter fastställs.

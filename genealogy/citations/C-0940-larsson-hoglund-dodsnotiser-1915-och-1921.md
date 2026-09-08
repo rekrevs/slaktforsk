@@ -69,3 +69,14 @@ maken skrevs in 1924.
 ## Stödda påståenden
 
 A-3525–A-3526 (P-0254), A-3527–A-3529 (P-0255).
+
+## Rättelse 2026-09-07 — T-0113, konsolideringsgranskning
+
+Faderns namnbruk är också belagt: C-0459 skriver N. P. Höglund i
+Gustaf Julius Elofs födelseutdrag för 1888; C-0457/C-0458 följer samma far som
+Höglund (Persson). Den öppna frågan gäller när och varför namnet infördes,
+inte om enbart dottern använde det. Dödbokens civilstånd avser Ingrid
+Kristina; Anders Niklas egen post namnger inte hustrun. Dödsorsaker återges
+som källtermer, utan ny medicinsk slutsats. C-0925 hade redan redovisat
+fullständiga datum, inte enbart årtal, och dess Ingrid-datum 4 december
+avviker från denna dödboks 11 december.

@@ -32,3 +32,13 @@ Gustava Ajax men bevisar inte den sekundära namnformen Gustava Eleonora/Nora.
 - A-1549
 - A-1550
 - A-1551
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela den egna posten 14 har återlästs i fullbilden. Touluse; Carl Johan Edvard, född 20 juni, döpt 24 juni 1854. Fader Smeden Joh. P. Urbom. Moderns förkortning är **El. Gust. Ajax**, inte den äldre avskriftens A. Gust.; åldern är 37. Detta ger en samtida förkortad Eleonora-form redan 1854. Under åldern finns en kort oexpanderad markering; någon säker separat kyrktagningsdag eller förrättare läses inte.
+
+Faddrar: Träg.[?] Olof Svanberg och dess hustru Anna Dahlin, B:k[?] Johan Aug. Papell[?] och pig. Johanna Carlsd:r, alla från Åkerö. Förkortningarna och det osäkra efternamnet bevaras, utan nya personidentifikationer eller släktled. Åkerö i vittnesfältet bevisar inte att föräldrarna bodde där.
+
+## T-0135: korrigerad datumläsning efter oberoende detaljprövning
+
+Yrkesförkortningen vid Johan Aug. Papell[?] kan efter oberoende andraläsning utvecklas till bokhållaren. Övriga namnreservationer i det tidigare tillägget kvarstår.

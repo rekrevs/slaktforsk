@@ -26,3 +26,12 @@ Carlsson-formen identifierar barnet säkert som P-0312. C-0271:s datum
 ## Stödda påståenden
 
 A-2027–A-2028, A-2033–A-2034.
+
+
+## Tillägg 2026-09-07, T-0126: individuell lokal omläsning
+
+Lokal omläsning av den utförliga födelsenotisen tillgodoräknar faddrarna med läsreservationer: bonden And. Larsson ib.[?]; And. Anderssons hustru i Orvalla, Christ. Nilsd.[?]; drängen Johan Nilsson i Orvalla; pigan Inga Nilsd. i Bryllingstad[?]. Osäkra ort-/namnled är sökförslag, inte normaliserade personer eller släktrelationer. Moderns ålder anges **30**. Föräldrarnas hemvist Gäddestad skiljs från säkert angiven fysisk förlossningsplats. Född 28 augusti och döpt 1 september står fast; ett ytterligare datumfält behöver läsas mot sin rubrik innan dess betydelse bestäms.
+
+Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.
+
+Kompletterande detaljprövning samma dag: datumet till höger om moderns ålder läses **22/9[?]**. Rubriken över denna smala marginal kan inte säkert läsas; talet bevaras utan att göras till kyrktagningsdag. Fältet är därmed prövat med uttrycklig tolkningsgräns.

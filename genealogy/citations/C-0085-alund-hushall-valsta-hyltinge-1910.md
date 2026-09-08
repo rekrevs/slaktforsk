@@ -56,3 +56,19 @@ församlingsbokskonflikten redovisas i C-0430.
 ## Stödda påståenden
 
 A-0464–A-0466.
+
+## Personbunden avstämning 2026-09-07 — T-0125
+
+Den bevarade fullbilden har återvisats lokalt. Karl Alberts sonrad längst
+ned i Valsta-gruppen anger järnvägsarbetare, födelseår 1890, församlingen
+Hyltinge och ogift. Föräldrahushållet är ett positivt belägg trots
+C-0430:s sidbundna lokaliseringsnoll. Det ger varken ett exakt inflyttnings-
+datum eller bevis för obruten vistelse sedan Rudstugan år 1900.
+
+Yrkesfältets nummer/kod 8 är avläst men dess system är inte fastställt i
+detta prov. S-0067:s äldre benämning rotenummer får inte användas för att
+tillskriva Karl Albert ett militärt nummer, förband eller tjänst. Ingen
+bestämd järnväg, station eller arbetsgivare namnges i raden. Det högra
+fältet för trosbekännelse/nationalitet/främmande är tomt på hans rad;
+frånvaron är ingen positiv bekännelseuppgift. Andra små klassificerings-
+markeringar får endast tolkas med respektive tryckta rubrik/kodsystem.

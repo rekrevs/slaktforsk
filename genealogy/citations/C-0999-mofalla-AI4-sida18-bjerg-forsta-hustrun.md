@@ -98,3 +98,21 @@ A-3688 står kvar och förstärks.
 ## Stödda påståenden
 
 A-3708–A-3713; upphäver A-3687 och drar tillbaka dittohypotesen i C-0992.
+
+## Aktuell källkritisk räckvidd — T-0127, 2026-09-08
+
+Hushållsklammern bevaras som kyrkobokens familjegruppering. Den namnger
+inte ensam varje barns biologiska föräldrar och löser inte Augustas
+faderskonflikt. Senare C-1000 visar att Johannes Eriksson och Erik Jansson
+Roth är två olika män; den äldre soldatnamnsförklaringen är avvisad.
+C-0999/C-1002/C-1003 stöder däremot modern Maja Greta och identifieringen
+av Augustas egen födelsepost. Modern är redan P-0536 med egen födelse
+1824-03-22 enligt C-1005/C-1007; hushållsuppgiften 28 mars bevaras som
+avvikelse. Förstaäktenskapsgruppens övriga barn och deras skilda
+avskriftsdatum förblir källbundna, utan automatisk biologisk fullsyskonlista.
+
+Dittokedjan i födelseortskolumnen är en faktisk källuppgift som kan vägas
+mot egen födelsepost. Att familjen bodde i Mofalla visar inte i sig att
+samtliga barn fysiskt föddes där eller hur en avvikande socken skrevs in.
+Augustas kvarvarande egna kunskaps-/förhörs-/anmärknings-/flyttfält och
+fulloriginal kompletteras inom T-0251. Ingen ny bild har öppnats här.

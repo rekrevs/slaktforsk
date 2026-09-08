@@ -33,3 +33,21 @@ föräldrar.
 ## Stödda påståenden
 
 A-3202–A-3204.
+
+
+## Senare rättelse 2026-09-07: inflyttningsåret
+
+[C-1092](C-1092-mellosa-bettna-flytten-1860-rattar-1856.md) läser året som 1860 och bekräftar flytten i båda
+församlingarnas flyttningsböcker. Tidigare avskrift bevaras ovan.
+
+
+## T-0137: avstämning 2026-09-08
+
+Egen fullbild och målrad med kolumnhuvud har återprövats lokalt. Eva Lottas
+rad har tom dopdag, `v` i koppor, tre c-liknande tecken i kunskapskolumnerna
+och streck i förståelsefältet. Undervisningsåret är tomt. Råvärdena ger
+inte en namngiven skola eller ett eget yrke. Födelseorten är d:o under
+makens St. Malm, inte Mellösa; datumet är 32 5/3. Emilias dag kan i samma
+fullbild läsas 11/9; senare C-1093 bekräftar den läsningen. Högerpostens
+prövade tomma/svaga fält och flytten 1860 tillgodoräknas från C-1092.
+A-4552 registrerar hustruns egna nya fält, utan nya antaganden om andra personer.

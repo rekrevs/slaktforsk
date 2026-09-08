@@ -100,3 +100,9 @@ på sida 55.
 A-3773 och A-3774; rättelse av C-0846 och av
 [P-0362](../people/P-0362-lars-svensson-jonsberg.md)–[P-0363](../people/P-0363-maja-lena-jonsdotter-jonsberg.md):s
 genomsökta omfång.
+
+## Fullpostprövning och rättelse 2026-09-08 — T-0134
+
+Den positiva rättelsen till andra personer på sida 55 är kontrollerad på nytt i C0846:s bevarade fullbild. Sidan ger inte P0362/P0363:s födelseorter, flyttar eller dödsfall. De tryckta kolumnrubrikerna visar vilka slags uppgifter boken kan ha, men garanterar inte att en framtida funnen målrad faktiskt har ifyllda värden. Påståendet att rätt sida automatiskt ger alla uppgifter återtas i denna starka form.
+
+C0363 ger nu Mönnerum genom sin egen barn-/vittnestext; ortnyckeln behöver inte stödjas av det andra hushållet. Sidvalet 55 är fortsatt avvisat. C0363:s rå 35 är ingen säkert visad folio och kan därför inte bära en automatisk sidrouting.

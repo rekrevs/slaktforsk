@@ -76,3 +76,23 @@ bland registrets förvaltningar.
 ## Stödda påståenden
 
 A-3468 (P-0003), A-3469–A-3470 (P-0007), A-3471 (P-0015), A-3472 (P-0016).
+
+## Räckvidd och bevarande 2026-09-07 — T-0123
+
+Arnes1993-07-31 och gravsättning1994-06-06 är administrativa
+registeruppgifter med identifierande namn/födelsedatum och gemensam
+grav med redan känd maka. Hemort Södertälje och gravplatsen styrker
+inte dödsorten eller lasarettet. Samma princip gäller de övriga:
+hemort/grav ger inget obrutet boende eller bevis om tidigare
+återflytt, och skilda gravar avgör inget äktenskapsförhållande.
+
+Majs Ekholm-Jansson är en registrerad namnform; den bevisar inte
+myndighetsärendet om ett eller två s. Exakt lokal registerkopia med
+post-URL och hash saknas i C-0923/S-0711 och behöver bevaras.
+Datumuppgifterna görs inte åter okända enbart av bevarandeskulden.
+
+### Begränsad civilståndsläsning, T-0123
+
+Gravpostens form `Og Ålund` återges bokstavligt med reservation. Den
+fastställer inte här självständigt civilståndet ogift; skilda gravar
+bevisar inte heller skilsmässa eller uteblivet äktenskap.

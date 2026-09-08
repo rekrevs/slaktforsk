@@ -32,3 +32,10 @@ Detta är ett åtkomstbelägg, inte ett person- eller nollresultat.
 ## Stödda påståenden
 
 A-0668 och A-0669 (båda `REJECTED`).
+
+
+## Metadatarevision — T-0142, 2026-09-08
+
+Den äldre katalogsessionens underlag har prövats mot lokala alternativa filer. Bevarade fullbilder i C-0188 styrker faktisk läsbar åtkomst till Umeå E I/3, batch `C0034542`. Sävar C/2:s åtkomst kan på motsvarande sätt tillgodoräknas genom C-0192:s bevarade bilder. Dessa kräver inte nya skärmdumpar enbart för att återbevisa fungerande bildåtkomst.
+
+För den äldre särskilda katalogkontrollen av Umeå A I/12a–12d, A I/13a–13c och E I/4 har ingen motsvarande sessions-/katalogkopia återfunnits. De åtta namngivna posterna är en fast metadatafråga i [T-0337](../../wotan/dev-log/T-0337.md), inte åtta påhittade personbilder eller ett mandat att läsa hela volymerna. Återfunna manifest för andra Umeåvolymer (C/3, B I/11 och A II a/23) stöder inte dessa äldre katalogobservationer. Historisk åtkomst, nytt åtkomstprov och genealogiskt noll hålls åtskilda.

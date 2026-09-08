@@ -53,3 +53,18 @@ bevaras som konflikt mot 21/3 i A I/6 och 24/4 i A I/8.
 ## Stödda påståenden
 
 A-1839–A-1840, A-1843, A-1845–A-1847.
+
+## T-0135: fullpostprövning och rättelse 2026-09-08
+
+Hela Ajax-hushållet på folio 266 är nu prövat i fullbild. Fadern Hr Peter Peterson Ajax, Mot.[?], 1791; modern Cathr. Jonsd:r, W. Ny, 1792 21/4; Dott Nora Gustafva, 1817 4/4, ortförkortning h[?]. Familjens gemensamma hänvisning kan läsas **17 p.263 d.b.** i frånkolumnen. Detta är en intern bokhänvisning 1817, inte en redan styrkt extern flyttdag eller en ny föräldrarelation. Sidan 263 ingår redan i den bevarade avsnittskontrollen.
+
+Dotterns koppe-, kunskaps-, förhörs- och övriga egna notfält är utan tydlig uppgift. Föräldrarnas högra förhörsnoter är inte hennes. Ägaruppgiften ”Äger Bockh. Jönson på Medevi” gäller den ovanliggande fastighetsrubriken och gör inte Ajax till ägare. Moderns 21/4 är förenlig med **rättad C-0291**, som också skriver 21/4, men avviker från C-0296:s 21/3. Äldre 24/4 i C-0291 var felavskrift. Faderns Peterson är här egen belagd namnform; det är inte bevis för sekundärens extra Gustav-led.
+
+
+## T-0141: full relevant postprövning, 2026-09-08
+
+Catharinas hela egen rad på sida 266 i C0000610_00277 har nu prövats utöver den tidigare dotterkontrollen. `Hu. Cathr. Jonsdr`, W. Ny, `92 21/4` bekräftar den senare uppgiften 1792-04-21. Familjens samlade inflyttningshänvisning läses **17 p.262 d.b.**, inte sida 263. Den tidigare angivna 263 är därmed en felläst hänvisning. Den redan bevarade bilden av sida 263, C0000610_00274, har också visats nu: Ajax-paret återfinns inte där. Detta är en kontroll av just denna sida, inte ett nytt negativt fynd för hela Stordalen.
+
+På Catharinas egen rad finns en svag markering `n.h.[?]` i koppfältet. Egna läs-/kunskapsfält och de tydligt rubricerade tidigare årskolumnerna saknar separata inskrifter. Längst till höger finns rådatum `22/10[?]`, också hos maken; årsbindingen är inte säker eftersom denna del saknar tydligt individuellt år. Detta normaliseras inte till en daterad nattvard eller död. Ingen egen ut- eller dödsnot framgår. Barnets 4/4 kvarstår som senare avvikelse från födelsepostens 4 mars.
+
+Ägartexten ovanför familjen gäller `Bokh. Jönson på Medevi`, inte bevis på att Catharina eller maken ägde gården. Sida 262 är en ny direkt källväg; den ingår inte bland de sex bevarade fullbilderna 274–279 och har inte öppnats i detta pass. De sex befintliga fullbildernas angivna hashar består. Prövade tomma fält och svaga tecken är dokumenterade källgränser, inte ouppmärksammade fält.

@@ -50,3 +50,10 @@ de uppgivna datumen ([C-0835](C-0835-mellosa-C3-datumkontroller-1832-1833.md)).
 ## Stödda påståenden
 
 A-3619 (P-0131), A-3620 (P-0132).
+
+
+## T-0137: avstämning 2026-09-08
+
+Årsnollet gäller 1856. Senare C-1092 binder flytten 1860; ingen fortsatt konflikt mellan årsbokens noll och en belagd 1856-flytt består.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

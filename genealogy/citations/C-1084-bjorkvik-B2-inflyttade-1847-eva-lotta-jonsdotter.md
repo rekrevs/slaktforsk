@@ -67,3 +67,10 @@ Björkviks ortregister.
 ## Stödda påståenden
 
 A-4063–A-4066.
+
+
+## T-0137: avstämning 2026-09-08
+
+Posten korrelerar Bråtenkandidaten till Björkvik; inte till P-0132:s säkra vuxenkedja. En framtida destination Mellösa/Bettna/Vrena räcker inte ensam för fusion och annan destination utesluter inte hela livsidentiteten. Senare C-1087 fann Jernbols fortsättning.
+
+Tidigare text bevaras ovan. Inga nya arkivsökningar eller personfusioner utförda i denna avstämning.

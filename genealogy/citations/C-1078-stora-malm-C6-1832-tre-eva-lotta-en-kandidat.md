@@ -75,3 +75,20 @@ Föräldrarnas åldrar och faddrarna är inte transkriberade.
 ## Stödda påståenden
 
 A-4041–A-4044.
+
+
+## T-0137: avstämning 2026-09-08
+
+De tre noterade flickorna är positiva kandidatfynd, inte bevisat exakt
+antal för hela året eftersom övergången mot 1833 på bild 135 aldrig
+slutprövades. Bråtenflickans fader Jonas ger ett relevant Jonsdotter-spår;
+patronymikon är inte ensamt ett logiskt uteslutningsbevis för alla andra.
+Ingen av kandidatfamiljerna har tilldelats P-0132:s anor.
+
+Den äldre satsen att A I/17:s datum redan är bevisat opålitliga upphävs:
+Mathildas avvikelse var projektets avskriftsfel. Gemensam födelsesocken
+bestämmer inte heller parets vigselförsamling. De fortsatt saknade
+föräldraålders- och fadderfälten för den relevanta kandidatposten 62 samt
+årsslutet har fast ägare T-0312 (högst två anslutna gränsbilder).
+C0007590 bilder 127–135 saknas efter lokal alias-/tmp-sökning och hör
+till T-0311. Ingen ny originalpost har öppnats här.

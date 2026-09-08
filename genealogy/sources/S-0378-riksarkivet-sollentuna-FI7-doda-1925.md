@@ -16,3 +16,8 @@ för namn, civilstånd och yrkestitel. Födelsedatumet är retrospektivt men
 sammanfaller exakt med Kungsholms två vuxennära original och lysningsakten.
 Församlingen framgår av volymen; den närmare orten Tureberg stöds separat av
 en samtida tidningsnotis.
+
+
+## Rättelse 2026-09-08 — T-0128
+
+C-0475 anger 4 september 1852, kategori Änkling eller frånskild, eget folio 587 och tom särskild dödsortskolumn. C-0474 anger avvikande dag 24 september.

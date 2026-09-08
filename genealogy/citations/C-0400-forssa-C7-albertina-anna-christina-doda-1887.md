@@ -35,3 +35,22 @@ orsakssamband utöver källornas egna dödsorsaker påstås.
 ## Stödda påståenden
 
 A-2090–A-2092 och A-2094.
+
+## Egen åldersrättelse och fulla dödposter — T-0132, 2026-09-08
+
+Hela de två målposterna har prövats oberoende i fullbild och detalj.
+Albertina, post12: död14oktober1887, flicka/ogift, dotter till torparen
+ErikCarlsson och hustrun AnnaChristinaLarsdotter i Svartgjötorp;
+åldersfält utan eget säkert tal, orsaken Svaghet, begravd14oktober,
+hänvisning Husf.B83. AnnaChristina, post13: död27oktober1887, hustru
+i samma hemvist, gift kvinna, orsaken Lunginflammation, begravd
+30oktober, samma hänvisning. För båda är egna dödsort-, attest-,
+läkar-/barnmorskebetyg och ytterligare anteckningsfält tomma.
+Bostället är inte automatiskt en uttryckligen uppgiven fysisk dödsplats.
+
+**AnnaChristinas ålder står35år7månader3dagar**, inte den äldre
+avskriftens6dagar. Därmed faller det äldre påståendet om exakt
+dag-för-dagöverensstämmelse med21mars1852. Hennes egen födelsepost
+C-1041 anger ändå tydligt21mars och väger tyngre för händelsen;
+åldersavvikelsen bevaras utan att konstruera ny exakt födelsedag.
+De två dödsdagarnas13dagarsavstånd kvarstår, utan medicinsk kausalitet.

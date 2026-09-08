@@ -57,3 +57,24 @@ där, och folkräkningen kan under alla omständigheter inte namnge föräldrar.
 ## Stödda påståenden
 
 A-0694–A-0699.
+
+## Konsolidering T-0135, 2026-09-08
+
+Vigseln är positivt identifierad i Västra Ny 1841-10-03 (C-0285).
+Det äldre Västra Vingåker-nollet 1848 är sökhistorik inom just det året;
+ensamt hade det varken bevisat ett tidigare gifte eller uteslutit annan
+församling. Ett barn fött augusti 1849 bevisar inte vigsel senast våren.
+En tryckt kolumn för brudens föräldrar garanterar inte att varje post
+namnger båda. Folkräkning kan ibland ange relationer, men den tidigare
+Spångasökningen identifierade inget sådant eget hushåll.
+
+Äldre API-resultat utan bildlänk är inte dagens allmänna nätåtkomst
+eller bevis för odigitaliserade hela kyrkoarkiv. Senare egna bevarade
+original och inloggad E I/1-katalogrouting har redan upphävt den vida
+åtkomstslutsatsen. Ingen ny åtkomstkontroll görs i T-0135.
+
+Bild11 finns och hash stämmer. De tidigare lästa bilderna12–14 och
+Spångas faktiskt granskade folkräkningsbilder1880 återfanns inte genom
+lokala filnamns-, alias- och metadata-/temporärsökningar. De senare har
+ännu inte exakta bild-id i citationen. Det är en konkret proveniensrest,
+inte ett nytt personresultat eller skäl att upprepa hela församlingen.

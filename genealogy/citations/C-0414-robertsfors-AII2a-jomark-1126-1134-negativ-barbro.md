@@ -32,3 +32,7 @@ eller fristående arbetsbilder används som belägg.
 
 A-2126–A-2127.
 
+
+### Konsolidering 2026-09-07
+
+T-0117: A-4141 för P-0052 registrerar detta befintliga sektionsnoll utan slutsats om hennes död eller flytt.

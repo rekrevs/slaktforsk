@@ -43,3 +43,23 @@ sonen i familjehushållet C-0127 och stärker identiteten över flytten.
 ## Stödda påståenden
 
 A-0722, A-0740–A-0742, A-0763–A-0766.
+
+## Fullpostprövning T-0137, 2026-09-08
+
+Hela egna posten78 är synlig i den bevarade skärmbilden; den har prövats
+och oberoende andralästs. Födelse6 oktober1848, dop8 oktober, inte9.
+Föräldrarna läses Dagk. Lars Andersson och Hu. Brita Stina Jansdotter[?]
+i Walla. Moderns patronymikon saknar säkert Pehr-stöd och rååldern är27.
+Det stämmer inte med Brita Kajsa1829:s18 fulla år vid tidpunkten. Den
+redan reserverade modersidentiteten får därför inte bli säker genom att
+barnet senare står som son i samma vuxenhushåll. Ingen automatisk fusion
+eller ny moderpost skapas; barnets vuxenbrygga måste skiljas från biologiskt
+moderskap. A-4578 bevarar källskillnaden.
+
+Vittnen: Arb. Anders Ersson och hustru Cathrina Jansdotter i Berthilstorp;
+sonen Per Eric Ersson i Henriestorp[?]; dottern Anna Cajsa Ersdr ibm.
+Tidigare Engström-läsningar rättas till Ersson med bevarad ortreservation.
+Ett ensamt K-tecken nedanför åldersfältet är prövat men får ingen säker
+normaliserad innebörd här. Inget eget säkert extra döds-/marginalfält
+framgår i denna post. Skärmbilden rymmer hela egna posten; högre
+pixelmått krävs inte enbart för formens skull. Befintlig SHA består.

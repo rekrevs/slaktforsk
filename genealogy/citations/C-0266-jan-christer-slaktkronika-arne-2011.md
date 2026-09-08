@@ -105,3 +105,20 @@ C-0267.
 - A-1676–A-1694
 - A-1708–A-1711
 - A-1714
+
+## Fullare DOCX-utvinning 2026-09-07 — T-0123
+
+Den lokala krönikans text uppger att Arne började egen möbelrenovering
+efter några år i Södertälje och höll verksamheten vid liv till döden
+1993. Sesam sägs ha sålts med växlande framgång under några år på
+1950-talet. Dessa är sonens tidsuppgifter, inte företags-/varumärkesbevis.
+
+Sonen uppger pankreatit vid döden; sannolikhetsordet i parentesen
+modifierar den föreslagna alkoholorsaken. Ingen medicinsk primärkälla
+finns. Den känsliga bedömningen tillskrivs sonen och behöver inte
+spridas till familjepresentationen. Bildtexterna omfattar även Arne
+1946,1955 och Sverker/Arne1975, samt Ada/Arne1915/1917 och de redan
+redovisade familjebilderna. Identifieringar/dateringar tillskrivs
+familjematerialet, inte en ny ansiktsanalys. Bilder1941/1943 visar
+de två äldre barnen; den tredje dottern ingår i den namngivna
+familjeuppgiften men är inte född på de äldre bilderna.

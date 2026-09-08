@@ -37,3 +37,15 @@ eller församling som är rätt, och det är inte en födelsenotis med dopvittne
 ## Stödda påståenden
 
 A-1386.
+
+## T-0142: lokalt prövat septemberomfång och ny oktobergräns
+
+2026-09-08 har den bevarade bild165 återsetts i sin helhet. Rubriken
+är September1856, med namn- och föräldrafält på båda sidor. Ingen
+Johan Peter/Jonas Petter med det aktuella föräldraparet identifieras
+i den redan avgränsade septemberkontrollen. Äldre bild164 bevaras
+som föregående passage. Det tidigare resultatet är inte en prövning
+av oktober. Alnö-raden i C-0492 skriver1856 9/10; rättade äldre
+hushållsfält måste avstämmas individuellt. Septembersöknollen kan
+inte ensam motsäga ett oktoberdatum eller fastställa annan födelsesocken.
+Ingen ny arkivbild har öppnats och inget fullårsnoll görs.

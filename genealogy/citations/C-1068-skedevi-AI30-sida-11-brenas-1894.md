@@ -86,3 +86,16 @@ inte lästa.
 ## Stödda påståenden
 
 A-3995–A-4000.
+
+
+## Omprövning i T-0125, 2026-09-07
+
+Det äldre argumentet ”tre källor mot en, och de tre står i
+födelseförsamlingen” upphävs: Blacksta ligger inte i Vadsbro och böckerna
+kan återge samma överförda uppgift. Skedevis juni har senare även stöd i
+Flens egna personrader C-0035/C-0911, men detta avgör inte födelsehändelsens
+maj/juni-fråga genom röstetal. Ingen avskrivares avsikt eller exakt
+felprocess är belagd. C-1070 har redan följt familjen in i nästa bok;
+äldre uppgift om helt oöppnad fortsättning är historisk. Den här uttryckligen
+prövade tomma avgångsdelen och Svens svårtolkade markering ska inte
+kallas aldrig utvunna fält. Lokal fullbild saknas i mediesamlingen.

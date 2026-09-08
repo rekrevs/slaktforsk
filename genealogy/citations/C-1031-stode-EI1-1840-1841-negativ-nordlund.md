@@ -45,3 +45,14 @@ gällde årgången.
 ## Stödda påståenden
 
 A-3828, samt rättelse av S-0770.
+
+## Konsolideringsprövning T-0136, 2026-09-08
+
+Den tidigare avgränsade kontrollen 1840–1841 återbrukas; den får inte
+överföras till andra år eller bli ett eget vigselortbevis. C-1030 är det
+positiva vigselbelägget. Ett manifest är en routinghjälp; vid konflikt
+måste faktisk årsrubrik och bildidentitet prövas. Den äldre generella
+regeln att manifestet alltid är primärt årsbevis begränsas därför.
+De faktiskt lästa fullbilderna A0010807_00029/00030 har inte återfunnits
+lokalt efter bildalias-/metadata-/tmp-kontroll. De är ytterligare kopie-
+rest, skild från T-0242:s redan beslutade bild23.

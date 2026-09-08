@@ -3,14 +3,16 @@
 ## Identitet
 
 Dotter i Lars Erik Janssons och Brita Christina Ersdotters hushåll i
-Carlberg under Stäringe, Årdala. Födelseuppgiften på den använda bilden är
-inte tillräckligt tydlig för säker registrering.
+Carlberg under Stäringe, Årdala. Födelseåret kan nu läsas, men dag och månad på den använda bilden
+är fortfarande för osäkra för normalisering.
+
+Husförhörsraden uppger födelseår 1854; dag och månad är fortfarande reserverade. Detta är en senare bokuppgift, inte en här omläst egen födelsepost. [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md)
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-0833 | Maria Mathilda var dotter till Lars Erik Jansson och Brita Christina Ersdotter och syster till Anna Christina Larsdotter. | TRANSCRIBED | hög | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) | Samma föräldrahushåll; ingen osäker födelseuppgift har normaliserats. |
+| A-0833 | Maria Mathilda var dotter till Lars Erik Jansson och Brita Christina Ersdotter och syster till Anna Christina Larsdotter. | TRANSCRIBED | hög | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) | Uppgivet år 1854 är nu läst; dag/månad reserveras fortsatt. Egen födelsepost återstår. |
 
 ## Relationer
 
@@ -24,3 +26,14 @@ inte tillräckligt tydlig för säker registrering.
 
 Sidogren registrerad opportunistiskt. Följ endast vidare när en tydligare
 hushålls- eller födelsepost ger en säker identitetsingång.
+
+
+## Begränsad följdavstämning — T-0139
+
+2026-09-08: endast de ovanstående personbundna följduppgifterna från C-0157/C-0163/C-0165 har införts. Ingen full kontraktsgranskning eller ny profil har genomförts. Full individuell adoption inklusive profil och båda nivåerna ägs av [T-0190](../../wotan/dev-log/T-0190.md). Äldre statusar är inte omprövade genom denna begränsade rättelse.
+
+Äldre ersatt lydelse bevaras:
+
+> Födelseuppgiften på den använda bilden är
+> inte tillräckligt tydlig för säker registrering.
+> | A-0833 | Maria Mathilda var dotter till Lars Erik Jansson och Brita Christina Ersdotter och syster till Anna Christina Larsdotter. | TRANSCRIBED | hög | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) | Samma föräldrahushåll; ingen osäker födelseuppgift har normaliserats. |

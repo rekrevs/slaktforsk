@@ -47,3 +47,16 @@ redovisas här och i C-0789–C-0791.
 ## Stödda påståenden
 
 A-3030–A-3031.
+
+## Namnrollsrättelse — T-0132, 2026-09-08
+
+C-0149:s `Elli Maria Sofia` har nu lästs om som **Dott. Maria Sofia**.
+Den äldre jämförelsen här med ett förnamnElli var ett avskriftsfel;
+Flens egen MariaSofiaEriksson består. Full tidigare flyttobservation
+tillgodoräknas utan att någon Mellösadestination fastställs här.
+
+## Personbunden fullpostprövning — T-0143, 2026-09-08
+
+Den bevarade fullbilden F0003360_00038 har nu kontrollerats på nytt. Post 115 skriver **Dottern Maria Sofia Eriksson**, en kvinna, Bergatorp, folio 281, **Wadsbro** (normaliserat Vadsbro). Dittodatumet är 10 november 1899. Övriga egna anmärkningsfält är tomma. Äldre avskrift Mellösa var ett avskriftsfel; destinationen är inte längre en tvetydighet mellan Lilla och Stora Mellösa. Det innebär inte att en mottagarpost i Vadsbro redan har lästs. Identiteten stöds av namn, ställning, hemvist och folio samt samma rättade destination i C-0579. Den egna bilden och dess ovan redovisade SHA-256 är bevarade och kontrollerade.
+
+C-0789–C-0791:s Mellösasökningar behåller sina faktiska år-, post- och namnbegränsningar men utgick från denna fellästa destination. Deras nollor får inte användas som ett noll för Vadsbro eller för hennes senare liv. Äldre Elli i jämförelsen är redan rättat till Dott. i T-0132. A-3030 rättas i aktuell personakt med den äldre lydelsen bevarad historiskt.

@@ -54,3 +54,11 @@ bildtexter och får inte automatiskt omtolkas till bosättning eller arbete.
 ## Stödda påståenden
 
 - A-1665–A-1668
+
+## Införande hos Maj-Grete — T-0142, 2026-09-08
+
+A-4702 hos P-0014 återbrukar det tredje bild–text-paret. Hela bilden och
+bevarad bildtext är prövade; familjens fem namngivna personer individualiseras
+utan positionsbestämning eller slutsats om obruten Malmöbosättning.
+DOCX och JPEG har samma SHA-256 som ovan. Fotograf och bildtextens upphov
+är fortsatt okända. Detta är ingen ny arkivöppning eller bilddatering.

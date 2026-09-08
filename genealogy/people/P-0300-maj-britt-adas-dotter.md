@@ -2,8 +2,8 @@
 
 ## Identitet och integritet
 
-Uppgiven dotter till Ada Wilhelmina Jansson och Knut Bergman. Efternamn,
-datum och födelseort har inte angivits. Senare gift namn och bosättning
+Uppgiven dotter till Ada Wilhelmina Jansson och Knut Bergman. Födelseåret 1922 anges i familjekrönikan C-0266; fullständigt
+födelsedatum och födelseort är inte kända. Senare gift namn och bosättning
 kommer från direkt familjeuppgift; personen behandlas som privat.
 
 ## Påståenden
@@ -11,7 +11,7 @@ kommer från direkt familjeuppgift; personen behandlas som privat.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-1675 | Maj-Britt uppges vara dotter till Ada Wilhelmina Jansson och Knut Bergman. | TRANSCRIBED | hög | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Namngiven nära familjeuppgift; historisk handling återstår. |
-| A-1672 | Hon var senare gift Jegenstam och skilde sig. | TRANSCRIBED | hög | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Förnamn på maken, vigsel och skilsmässodatum saknas. |
+| A-1672 | Hon var senare gift Jegenstam och skilde sig. | TRANSCRIBED | hög | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Makens namn Karl-Lennart finns i den senare familjeuppgiften A-1705; vigsel- och skilsmässodatum saknas. |
 | A-1673 | Hon bodde i Schweiz. | TRANSCRIBED | hög | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Tid och ort i Schweiz saknas; ingen adress lagras. |
 | A-1705 | Hon gifte sig med Karl-Lennart Jegenstam. | TRANSCRIBED | hög | [C-0267](../citations/C-0267-jan-christer-minnen-flen-sodertalje.md) | Senare skilsmässa bevaras i A-1672. |
 | A-1714 | Krönikan anger att hon föddes 1922 och bodde i Vaxholm 2011. | TRANSCRIBED | hög | [C-0266](../citations/C-0266-jan-christer-slaktkronika-arne-2011.md) | Bostadsuppgiften är en historisk 2011-uppgift och inte en nutida adress. |
@@ -24,3 +24,14 @@ kommer från direkt familjeuppgift; personen behandlas som privat.
 | [P-0299 Knut Bergman](P-0299-knut-bergman.md) | far enligt familjeuppgift | TRANSCRIBED | C-0263 |
 | [P-0003 Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) | halvbror på mödernet | TRANSCRIBED | C-0263 |
 | [P-0302 Karl-Lennart Jegenstam](P-0302-karl-lennart-jegenstam.md) | tidigare make | TRANSCRIBED | C-0263, C-0267 |
+
+
+### Begränsad följdrättelse T-0125, 2026-09-07
+
+Aktuell text avstämd med A-1705/A-1714. Adas norska vigsel anger inte Maj-Britts födelseland. Integritetsminimering består. Full akt/profiladoption T-0192, ingen extra fullgranskad person.
+
+Äldre ändrade formuleringar, historik:
+
+> Uppgiven dotter till Ada Wilhelmina Jansson och Knut Bergman. Efternamn,
+> datum och födelseort har inte angivits. Senare gift namn och bosättning
+> | A-1672 | Hon var senare gift Jegenstam och skilde sig. | TRANSCRIBED | hög | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Förnamn på maken, vigsel och skilsmässodatum saknas. |

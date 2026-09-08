@@ -35,3 +35,20 @@ datum motsäger däremot den tidigare Olaus-kandidaten i Brattås 1854 och
 ## Stödda påståenden
 
 A-2063–A-2068.
+
+
+## Originalomläsning 2026-09-08 — T-0128
+
+Faderns datum är `f. 4/9 52`, alltså **4 september 1852**. Den äldre
+avskriften 24/5 ovan är felaktig; inget inledande 2 finns. Root och två
+oberoende läsningar har jämfört den fulla bevarade bilden och egna raden.
+Detta är en rättelse av avskriften, inte en ny källkonflikt.
+
+Robert föds 7 juni och döps **8 juli 1878**. Modern anges 27 år,
+hemvisten `Jernvägsportvakten`, kyrktagning `8/7 78`. Dopförrättaren
+anges med ditto, inte en ny säkert normaliserad namnform. Vittnesfältet
+är prövat: stationskarlar, preliminärt M. Aug. [Kremm?], Aug. Fredberg[?],
+Johan Kjilén/Kjellén[?] samt Christina Jarl. Namnläsningarna bevaras med reservation;
+namnlikhet bevisar ingen släktrelation. Klammernoteringen om första barnet
+är fortsatt en källuppgift. C-0474:s möjliga dopdag 7/7 avviker från denna
+egen doppost och får inte tyst ersätta den.

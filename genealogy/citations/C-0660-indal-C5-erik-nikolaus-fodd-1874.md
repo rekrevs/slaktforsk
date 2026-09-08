@@ -33,3 +33,12 @@ tidigare hushållskällorna inte ensamma kunde göra.
 
 A-1988 och A-2644–A-2646.
 
+
+## Utvinningsavgränsning 2026-09-07 — T-0120
+
+Kärnavskriften ovan återger inte hela föräldra-/åldersfältet i den
+bevarade målposten. T-0218 äger full avskrift och prövning av dessa fält;
+preliminära detaljläsningar görs inte till säkra ålderspåståenden här.
+Högsjö och hänvisning127 avser föräldrarnas hemvist. Ett särskilt fysiskt
+födelsehus är inte angivet i den dokumenterade kärnan. `6te barnet` är
+postens eget ordningstal, inte en härledd totalräkning av alla syskon.

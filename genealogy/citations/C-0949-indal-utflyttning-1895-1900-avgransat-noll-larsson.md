@@ -45,3 +45,23 @@ Familjens flytt var alltså inte ovanlig utan följde ett etablerat mönster.
 ## Stödda påståenden
 
 A-3569 (P-0254), A-3570 (P-0255).
+
+## Rättelse 2026-09-07 — T-0113, konsolideringsgranskning
+
+Det redovisade postomfånget hoppar över exempelvis 1897 nr 12–14,
+1898 nr 8–10 och 1899 nr 30–32; för 1895/1896 redovisas inte heller årets
+första postnummer. Utan verifierad förklaring av dessa luckor bär tabellen
+inte ett fullständigt årgångsnoll. Slutsatsen att flytten måste ligga före
+1895 är därför inte styrkt av den sparade dokumentationen. De lokala
+radnollorna kvarstår. Aktuellt intervall är efter Högsjö 1890 och senast
+Emmas födelse i Storbränna 1900-07-23 (C-0389/C-0246). Detta är en granskning
+av dokumenterat omfång, ingen ny originalomläsning. Rättar A-3569/A-3570
+med A-4124/A-4125.
+
+## Åtkomstavgränsning 2026-09-07 — T-0120
+
+Lyckad inloggad åtkomst ovan gäller de redovisade bilderna 1895–1900.
+Formuleringen att C-0661 upphävs avser det äldre generella antagandet om
+volymens åtkomstläge. Den innebär inte att 1906 års bilder har öppnats
+eller att målpersonernas 1906-poster har lästs. Dessa är fortsatt en
+avgränsad, ännu ej utförd källpassage.

@@ -32,3 +32,9 @@ motsvarande post mellan 6 juni och 3 augusti.
 ## Stödda påståenden
 
 A-1954 och A-2199–A-2203; A-2204 beskriver konflikten mot dödböckerna.
+
+## Tillägg vid konsolidering T-0126, 2026-09-07
+
+**Rättelse av Abrahams dödsdatum:** två oberoende läsare har kontrollerat r24 i det bevarade fulloriginalet. Dödkolumnen skriver år `16` till vänster och `22/1` till höger, alltså **1916-01-22**. R25 med `15 2/12` bekräftar skrivsystemet. Den äldre avläsningen `22 16/7` och normaliseringen1922-07-16 är fel och ersätts. De tidigare dödnollen för1922 motsäger därför inte marginalen; de sökte på fel år. Egen dödpost för1916 är ännu inte läst här.
+
+Båda makarnas egna rader har koppor `v`, kunskapskolumnerna11–12 `c`/`N` och `Gfo388`. Abrahams kol13–15 och utflyttningsfält är tomma. Stinas r25 har `14` i förhörsårskolumn13, läst som1914 inom denna bok; kol14–15 och utflyttningsfält är tomma. Båda är överstrukna och avlidna under bokens period, inte belagda levande till volymslut1927. Stina dog först,1915-12-02.
