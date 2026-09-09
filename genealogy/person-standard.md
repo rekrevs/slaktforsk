@@ -102,6 +102,28 @@ Konkurrerande identiteter förblir separata. Ägarbekräftade uppgifter och
 integritetsavgränsningar består. Nya konflikter med OWNER_CONFIRMED lyfts
 för ägarprövning; ingen normalisering får upphäva dem.
 
+### Tabellförda källor: redovisa uppslagets tryckta kolumner
+
+En citation som återger en post ur en tabellförd källa — husförhörslängd,
+församlingsbok, ministerialbok, folkräkningsblad — ska lista uppslagets
+**tryckta** kolumnrubriker och för varje kolumn ange om den är **avskriven**,
+**tom** eller **oläst**.
+
+Skälet är att en cell som inte nämns i dag inte går att skilja från en cell
+som är läst och tom. Personaktsprogrammet har funnit fyra fall där en tryckt
+kolumn aldrig lästs av någon avskrift: kolumnen `Wigd` bar en vigseldag som
+söktes i sju vigselårgångar, kolumnen `Död.` bar en dödsdag på en rad vars
+akt sade att personens senare öde inte var fastställt, en annan `Död.`-kolumn
+påstods ligga utanför bilden fast den var synlig och tom, och två tryckta
+smalkolumner lästes som ett marginaltal.
+
+Läs rubrikraden i **samma utsnitt** som datacellen. En kolumns innebörd
+avgörs av dess position, och positionen kan inte fastställas ur en cell
+enbart. `—` i en avskrift betyder saknad uppgift, aldrig en oläst kolumn.
+
+Kravet gäller nya och omarbetade citationer. Befintliga citationer skrivs
+inte om retroaktivt; se PCD-2026-09-09-027.
+
 ## Tre granskningsresultat
 
 Granskningsutfall dokumenteras per person i kohortens dev-log med datum,

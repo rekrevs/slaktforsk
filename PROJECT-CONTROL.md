@@ -4684,3 +4684,104 @@ PCD-2026-09-07-024 och forskningsloggens batchar 467–494.
 T-0083 flyttas ONGOING → READY med batch 519 bevarad. T-0112 blir enda ONGOING. Programuppgifterna står först i backloggen; ordningen är prioritet, medan after endast uttrycker verkliga resultatberoenden. T-0114 ska lägga in samtliga kohortberoenden på T-0115 före sitt avslut och tillgodoräkna överlappande äldre arbete utan automatiskt DONE.
 
 Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad integritetsminimering. Granska PK-01–12 och tio teman utan att godkänna ouppfyllda krav. Format, konsolidering, identitetsnivå och livsbildsnivå redovisas separat. Bevarade källuppgifter och rättelsehistorik får inte utplånas; ingen osäker identitet får bli säker genom redigering.
+
+## PCD-2026-09-09-027
+
+**Citationer ska redovisa uppslagets tryckta kolumner**
+
+- Record type: decision
+- Date: 2026-09-09
+- Decides review: direkt ägarinstruktion under personaktsprogrammet; ingen
+  separat PCR
+- Owner: Sverker Adam Janson
+- Decision: inför kravet i `genealogy/person-standard.md`. En citation som
+  återger en post ur en tabellförd källa — husförhörslängd, församlingsbok,
+  ministerialbok, folkräkningsblad — ska lista uppslagets **tryckta**
+  kolumnrubriker och för varje kolumn ange om den är **avskriven**, **tom**
+  eller **oläst**. En cell som inte nämns ska kunna skiljas från en cell som
+  är läst och tom.
+- Trigger: personaktsprogrammet har i fyra fall funnit att en tryckt kolumn
+  aldrig lästs av någon avskrift. Kolumnen `Wigd` bar en vigseldag som
+  projektet sökte i sju vigselårgångar från 2026-09-06; kolumnen `Död.` bar en
+  dödsdag på en mans egen rad medan akten sade att hans senare öde inte var
+  fastställt; en tredje `Död.`-kolumn påstods ligga utanför bilden fast den var
+  synlig och tom; och två tryckta smalkolumner lästes som ett marginaltal.
+  Skillnaden mellan en tom cell och en oläst kolumn har varit osynlig i
+  modellen, och ingen befintlig kontroll fångar den.
+- Disposition: approved
+- Supersedes decision: none; skärper dokumentationskravet i
+  PCD-2026-09-07-021:s standard utan att ändra dess bedömningsregler
+- Related records: `genealogy/person-standard.md`, `wotan/dev-log/T-0115.md`,
+  forskningsloggens batch 570
+- Resulting Wotan tasks: ingen ny uppgift. Kravet gäller nya och omarbetade
+  citationer från och med i dag; **befintliga citationer skrivs inte om
+  retroaktivt**, eftersom det skulle ge tvåtusen ändringar utan sakligt
+  utbyte. Slutrevisionen T-0115 avgör om ett stickprov ska tas bakåt.
+- Portfolio signal: kravet är bakåtkompatibelt. Det ändrar ingen persons
+  bedömning och gör inget mått ojämförbart — det får bara framtida arbete att
+  registrera mer. Därför införs det nu i stället för att vänta på T-0115.
+- Revisit when: slutrevisionen prövar om kravet ska kompletteras med en
+  maskinell kontroll, eller om ett bakåtstickprov behövs.
+
+## PCD-2026-09-09-028
+
+**Ägarens familjeuppgifter märks OWNER_CONFIRMED**
+
+- Record type: decision
+- Date: 2026-09-09
+- Decides review: direkt ägarinstruktion; ingen separat PCR
+- Owner: Sverker Adam Janson
+- Decision: ägarens egna uppgifter om sin familj ska märkas som sådana.
+  Åtta påståenden som i dag står `TRANSCRIBED` med ägaren som uppgiftslämnare
+  ändras till `OWNER_CONFIRMED`: A-1553 (P-0004), A-1554 (P-0210),
+  A-1555–A-1557 (P-0269) och A-1558–A-1560 (P-0270). De är sanna uppgifter i
+  projektets kanoniska modell och kräver inte ytterligare arkivbelägg.
+- Trigger: ägarens instruktion 2026-09-09, "mina uppgifter om familjen skall
+  självklart märkas som sådana".
+- Disposition: approved
+- Supersedes decision: none; tillämpar principen i PCD-2026-09-03-003 och
+  PCD-2026-09-03-004 på ägarens egen kärnfamilj
+- Related records: `PCD-2026-09-03-003`, `PCD-2026-09-03-004`, `C-0252`,
+  `P-0004`, `P-0210`, `P-0269`, `P-0270`
+- Resulting Wotan tasks: ingen ny uppgift; ändringen är införd direkt.
+- Portfolio signal: statusen är beskrivande, inte förstärkande. Den säger
+  varifrån uppgiften kommer, inte att den är hårdare belagd än den är.
+  A-0020, som redan är `CORROBORATED` på två självständiga belägg, rörs inte —
+  ett arkivbelagt påstående ska inte nedgraderas till en ägarutsaga.
+  Integritetsminimeringen består oförändrad.
+- Revisit when: en senare källa motsäger en OWNER_CONFIRMED-uppgift. Den ska då
+  bevaras som konflikt och föras tillbaka till ägaren, inte tyst överskrivas.
+
+## PCD-2026-09-09-029
+
+**Öppen nätinformation om nu levande personer får användas**
+
+- Record type: decision
+- Date: 2026-09-09
+- Decides review: direkt ägarinstruktion; besvarar den ägarfråga som
+  personaktsprogrammet lyfte i `wotan/dev-log/T-0115.md`
+- Owner: Sverker Adam Janson
+- Decision: projektet ska vara fritt att använda öppet tillgänglig information
+  på nätet om nu levande personer. Den väg som PCD-2026-09-04-008 godkände är
+  därmed inte längre vilande i avvaktan på ett senare avstamp — den är en
+  **öppen och tillgänglig materiell passage** i kontraktets mening.
+- Trigger: ägarens instruktion 2026-09-09, "vi skall vara fria att använda
+  öppen information på nätet om nu levande personer".
+- Disposition: approved
+- Supersedes decision: `PCD-2026-09-04-008` endast i dess parkering av vägen
+  som `IDEA` tills ett senare avstamp aktiverar den. Beslutets sakregler består
+  oförändrade: öppet tillgänglig status ersätter inte kraven på säker
+  identitetsmatchning, dataminimering eller åtskillnad mellan observation och
+  slutsats.
+- Related records: `PCD-2026-09-04-008`, `NORTH-STAR.md`,
+  `genealogy/person-contract.md`, `T-0034`
+- Resulting Wotan tasks: `T-0034` flyttas `IDEA` → `READY` med dev-log.
+- Portfolio signal: **beslutet sänker sju personers livsbildsnivå, och det är
+  avsikten.** P-0004, P-0005, P-0006, P-0041, P-0210, P-0269 och P-0270 har
+  stått `Kontraktsgranskning: GODKÄND` på integritetsminimerat omfång, med
+  motiveringen att den enda återstående vägen var godkänd men inte aktiverad.
+  När vägen är öppen faller PK-08 för alla sju, eftersom en genomförbar
+  materiell fråga återstår. Att låta dem stå kvar som godkända vore att
+  godkänna ett ouppfyllt krav. Nivån återfås när T-0034 är utförd.
+- Revisit when: T-0034 är utförd, eller om ägaren vill dra en snävare gräns för
+  någon enskild levande person.
