@@ -82,3 +82,13 @@ de gjorda registerfrågorna och avvisar inte vittnenas existens.
 1851/1861/1864/1868 omfattas inte av denna fyra-posters omläsning; tidigare
 avskrifter och prövade läsreservationer för dessa år bevaras med sina
 efterföljande egna källtillägg. Ingen allmän nätverksuttömning registreras.
+
+## Tillägg T-0161, 2026-09-09
+
+Tre uppgifter här är överspelade av T-0133-tilläggen i C-0562 och C-0565, utan
+att någon notering funnits här: `August Hansson` är rättat till
+**`August Olofsson`**, `Backheden[?]` till **`Backliden`**, och
+`Hans Brändström` till **`Hans Danielsson`**. Avsnitten ovan är append-only och
+behålls oförändrade; de rättade formerna gäller.
+
+Iakttagelsen kommer ur konsolideringen av P-0426 och P-0427 i T-0161.

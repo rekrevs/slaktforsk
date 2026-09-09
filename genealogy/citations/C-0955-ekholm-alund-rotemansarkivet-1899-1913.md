@@ -137,3 +137,11 @@ gör deras födelsenotiser i Matteus direkt sökbara.
 
 A-3587–A-3593 (P-0016), A-3594–A-3595 (P-0532), A-3596 (P-0533),
 A-3597 (P-0534).
+
+## Tillägg T-0144, 2026-09-08: årsfrågan är inte upplöst
+
+Formuleringen i Normaliserad tolkning att bladets `81` och registrets `1887`
+skulle vara fel och att konflikten därmed är upplöst är överspelad. T-0125
+återförde de båda årtalen som en bevarad avvikelse; 1878 används som
+arbetsnyckel utan att någon av de andra uppgifterna röstas ned. Se P-0532:s
+aktuella akt och A-3595. Avskriften ovan är oförändrad.

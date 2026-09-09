@@ -34,3 +34,21 @@ A-2037 och A-2106.
 Lokal omläsning av post 5 rättar dödsdagen till **1891-04-01** och begravningsdagen till **1891-04-12**. Ålderskolumnerna visar **41 år, 11 månader, 19 dagar**, inte 29 dagar. Root har oberoende kontrollerat samma detalj. Äldre 11 april/16 april är projektets avskriftsfel och ersätts i aktuell modell; originalavskriften ovan bevaras. Namnformen Charlotta Larsdotter och hemvist Gäddestad bevaras. Åldersuppgiften är källans egen, inte en ny beräknad födelsedag. Dödsorsaksfältet är tomt.
 
 Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.
+
+## Tillägg T-0158, 2026-09-09
+
+Avsnittet `Tolkning` står kvar med död 11 april och begravning 16 april, och
+med argumentet att husförhörslängdens `91 11/4` bekräftar dagen. Båda
+lydelserna är överspelade av citationens eget T-0126-tillägg. Avsnittet är
+append-only och behålls oförändrat; tilläggets läsning gäller.
+
+**Ålderskolumnen bär inte rättelsen.** Vid konsolideringen av P-0313 prövades
+om dödspostens ålderskolumn kan avgöra dagen. Den kan den inte: kolumnens
+värde är förenligt med **båda** dagläsningarna, alltså både 11 och 29 dagar och
+både 1 och 19 dagar. Ålderskolumnen får därför inte åberopas som stöd för
+någondera dagen.
+
+**Husförhörslängden är ingen andra röst.** A I/21, A I/24 och A I/25 är en och
+samma bokföringskedja i samma församling, och folkräkningarna är sammanställda
+ur den bokföringen. `91 1/4` i tre källor är alltså **en informationsväg**,
+inte tre.

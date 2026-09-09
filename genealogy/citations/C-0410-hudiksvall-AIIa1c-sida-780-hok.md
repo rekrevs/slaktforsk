@@ -61,3 +61,31 @@ s.780 den15november1897 och separat tal422 utan säkert datum här.
 Den överliggande återföringsnoten på C-0411 läses s.284 med
 `99 20/11[?]`; det är inte säker återkomst direkt från780.
 Läsningen har jämförts oberoende i T-0126.
+
+## Tillägg T-0152, 2026-09-08: huvudtexten motsäger citationens egen rättelse
+
+Två uppgifter i avskriften ovan är upphävda av citationens eget tidigare tillägg,
+men står kvar i huvudtexten och kan läsas som gällande:
+
+- **Ingången anges `sida 785`.** Rättelsen ger **285**.
+- **Augusta-barnet anges `1896-10-05`.** Rättelsen ger **96 15/10**, alltså
+  1896-10-15, och namnformen är Augusta Elisabet, inte Augusta Märta.
+
+De äldre lydelserna bevaras som avskriftshistorik men är inte gällande
+slutsatser. Se P-0275, P-0279 och P-0281.
+
+## Tillägg T-0152, 2026-09-08 (andra): tre ytterligare preciseringar
+
+- **Gustafs födelsedag.** Kärntexten skriver `82 22/11`. Två oberoende
+  omläsningar av den lokalt sparade helbilden ger `82 ²⁰/₁₁`, alltså
+  **1882-11-20**. P-0283:s akt bär den rättade dagen; kärntextens är
+  avskriftshistorik.
+- **Bortflyttningen från sida 780 går till sida 284**, inte 285. Rättelsen ovan
+  gäller ingången till 285; bortflyttningskolumnen anger 284. Routingfrågan
+  284/285/422 är därmed inte avgjord och får inte behandlas som avgjord.
+- **Anna Matilda står inte bland barnraderna på sida 780.** Hushållet där är far,
+  mor, Gustaf, Anders Emanuel, Karl Petrus, Johan Erik, Maria Karolina, August
+  Ejnar, Augusta Elisabet och Gertrud Margreta. Kärntexten räknar henne dit; det
+  påverkar hennes kronologi 1897–1899 och PK-04 i syskonakterna.
+- **Det överstrukna förnamnet** som T-0126-tillägget nämner utan att namnge läses
+  **Agnes**. Det berör P-0280 och P-0370.

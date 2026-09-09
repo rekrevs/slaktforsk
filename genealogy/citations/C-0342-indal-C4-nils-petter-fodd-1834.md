@@ -32,3 +32,24 @@ men deras egna liv och anor öppnas inte i den nuvarande breddvågen.
 ## Stödda påståenden
 
 A-1565, A-1961–A-1964.
+
+## Tillägg T-0162, 2026-09-09: `F.` är i själva verket `T.`
+
+Föräldrakolumnen har avskrivits `F. Pehr Ersson från Högsjö`. Versalen är
+**`T.`**, alltså **torpare**. Läsningen är gjord vid konsolideringen av P-0341
+och kontrollerad centralt mot fullbilden vid förstoring: bokstaven har den
+tydliga T-tvärstrecket och den slutna nedslingan, identisk med samma hands
+`Torp.` och `T.` på samma uppslag, och skiljer sig helt från handens `Fadr.`,
+som står utskrivet på raden omedelbart nedanför i samma kolumn.
+
+Följden är materiell: **Pehr Ersson får för första gången ett stånd**, och
+hustrun blir därmed torparhustru. Cellen bär dessutom två uppgifter om henne
+som aldrig lyfts — källans eget `Hust.` och `ibm`, som binder henne till
+Högsjö.
+
+**Vittneskolumnen är nu fullständigt transkriberad**; lydelsen att den inte är
+det är överspelad. Sex faddrar är utvunna. Två ortled i vittnesraderna,
+`Wester[?]sjö och Sanna[?]` och `Wik[?]`, är prövade men olösta; `Sunnanå` och
+`Högsjö` är säkert lästa.
+
+Avskriften ovan är append-only och behålls oförändrad.

@@ -140,3 +140,14 @@ Kolumn 14 har utflyttningsnot `Hf[?] 12/12 30`, med reservation för
 förkortningen. Den tidigare anteckningen `IV:1433` är på makens rad 1
  och får inte utan egen radbrygga tillskrivas Augusta som personnot,
 adress eller rättsärende. Övrig positiv familje- och flyttkorrelation består.
+
+## Tillägg T-0151, 2026-09-08: hushållets rader 1–5 är outvunna
+
+Citationen dokumenterar Augustas rad 10 på Kyrkefalla A II a/15 sida 15. På samma
+sparade fulloriginal står Lundkvist-hushållet på **raderna 1–5**, som inte är
+utvunna här. Inom T-0151 har rad 2, Alva Viktoria, lästs kolumn för kolumn, och
+hushållsrubriken läses `äg. Rosendala[?] Smuleberg 1⁶²`; ortsledet är läsosäkert
+och normaliseras inte. Raderna 1 och 3–5 hör till P-0373, P-0374 och P-0528 och
+är fortfarande outvunna.
+
+Stödda påståenden utökas med A-5210, A-5216 och A-5220–A-5222 (P-0027).

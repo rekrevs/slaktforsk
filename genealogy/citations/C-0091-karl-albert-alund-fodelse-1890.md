@@ -85,3 +85,12 @@ mottagarpost ännu inte är läst. Faderns 39 år, moderns 40 år och Gift 14 å
 är avskrivna. Föräldrarnas exakta vigsel är senare belagd 1876-06-24 i
 [C-0986](C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md); den avrundade
 äktenskapslängden ersätter inte det datumet. Inga nya arkivbilder har sökts.
+
+## Tillägg T-0159, 2026-09-09
+
+Avsnittet `Konfliktnotering` säger fortfarande att Hulda Amalia var 13 år
+gammal 1890. Citationens eget T-0125-tillägg rättade åldern till **12 år**.
+Rättelsen nådde aldrig avsnittet ovan. Det är append-only och behålls
+oförändrat; tilläggets ålder gäller.
+
+Iakttagelsen kommer ur konsolideringen av P-0111 i T-0159.

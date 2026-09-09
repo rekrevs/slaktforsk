@@ -132,3 +132,7 @@ Varken märkningen eller att bilden ligger i samma PDF identifierar
 automatiskt Magnus Larsson som tillverkare, eller annonsobjektet som
 May Stränggård Hammars klocka. Uppgifterna ger en exakt framtida
 objektsingång; separat bibliografisk/objektprövning i T-0226.
+
+## Tillägg T-0150, 2026-09-08: Stödda påståenden kompletteras
+
+Listan utökas med A-5164 (P-0304). DNA-avsnittet namnger tre personer, inte två: två av dem är säkert P-0005 och P-0013, medan den tredje står som `Ann-Christine Jansson` och sammanfaller med P-0304:s registerform i faderns hushåll. Sambandet är stött men obekräftat — utredningen saknar testföretag, centimorgan och segment och namnger inte hennes relation — och är därför infört som LEAD utan relationsrad. Vidare hantering kräver ägarbeslut, eftersom det gäller genetisk uppgift om en levande person.

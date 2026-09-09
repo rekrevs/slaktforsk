@@ -78,3 +78,14 @@ Ljungbacka1918 är redan läst i C-0910. Hushållskedjan1923–1930 återstår
 med en ny personbunden lokalisering i T-0228. Inkomstenheten900kr står
 fast; något mer exakt inkomstår än utdragets redovisningssammanhang
 fastställs inte här.
+
+## Tillägg T-0157, 2026-09-08
+
+**Den sparade bilden bär mer än citationen återger.** Fullbilden
+`00153999_00163` visar Astrid Charlottas rad 12 och barnraderna 13–14 utöver
+det citationen behandlar. Astrids uppgifter är nu utvunna i P-0047
+(A-5740–A-5751). Uppslagets rader 8–10 rör P-0042, P-0043 och P-0003 och
+lämnas till sina ägare.
+
+Detta är en utvinningsrest i en redan sparad bild, inte en ny källserie.
+Ingen ny arkivpassage har öppnats.

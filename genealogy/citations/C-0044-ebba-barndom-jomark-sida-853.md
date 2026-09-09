@@ -67,3 +67,12 @@ förband eller genomförd tjänst. Anna Fredrikas inflyttningsfält anger824;
 Anna Albertinas överföring är852,05. Hänvisningen N.B.1130 består.
 Ingen full utvinning av varje blekt markeringstecken har gjorts i denna
 kontroll; C-0049 och målposternas kvarvarande småfält tas i T-0205.
+
+## Tillägg T-0155, 2026-09-08: folio 824 står på rätt rad
+
+Hänvisningen `824` står säkert på **Anna Fredrikas** rad. Anna Albertinas
+motsvarande kolumn har i stället `852 05`; båda är kontrollerade på den sparade
+helbilden. Den kvarstående T-0205-posten om bleka småfält gäller därmed inte
+längre Anna Fredrikas rad.
+
+Berörda påståenden: A-5523 och A-5524 (P-0049).

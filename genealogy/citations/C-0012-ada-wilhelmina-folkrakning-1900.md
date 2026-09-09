@@ -31,3 +31,15 @@ Charlotta (1897, Skedevi).
 ## Stödda påståenden
 
 A-0057, A-0059, A-0062–A-0065 och A-0187–A-0196.
+
+## Tillägg T-0157, 2026-09-08
+
+**Bladet är ett utdrag, inte en självständig folkräkningsakt.** Den lokalt
+sparade fullbilden bär dokumenthuvudet `Utdrag ur Församlingsboken för
+Flen`. Uppgifterna är alltså avskrivna ur församlingsboken och utgör ingen
+oberoende röst vid sidan av den. Där en akt låter denna citation korroborera
+en uppgift som redan vilar på Flens församlingsbok ska antalet oberoende
+röster räknas ned med en.
+
+Iakttagelsen kommer ur konsolideringen av P-0047 i T-0157. Ingen ny
+arkivpassage har öppnats.

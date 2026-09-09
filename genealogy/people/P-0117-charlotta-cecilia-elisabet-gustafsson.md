@@ -20,7 +20,7 @@ bärs av det sammanhängande paret och barnen, inte av ett eget vitaloriginal.
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Charlotta Cecilia Elisabet Gustafsson | Visningsnamn; 1910 | CORROBORATED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md), [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md) | Tredje förnamnet förkortas också Elisab. |
-| Charlotta Cecilia Elisabeth Gustafsson | Sonens födelsepost1902 | TRANSCRIBED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | Stavningsvariant; inget visat namnbyte. |
+| Charlotta Cecilia Elisabeth Gustafsson | Sonens födelsepost 1902 | TRANSCRIBED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | Stavningsvariant; inget visat namnbyte. |
 
 ## Påståenden
 
@@ -30,26 +30,26 @@ bärs av det sammanhängande paret och barnen, inte av ett eget vitaloriginal.
 | A-0442 | Hon var född 1883-01-14; födelseförsamlingen anges 1910 som Flen. | CORROBORATED | medel | [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | Exakt datum ur födelseboken 1904; folkräkningen ger år och församling. Egen födelsenotis återstår. |
 | A-0443 | Hon var 1902 piga vid Mälby i Helgesta socken. | TRANSCRIBED | hög | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | Moderskolumnen i sonens födelsenotis. |
 | A-0444 | Hon var gift med Axel Edvard Eriksson; familjeböckerna anger vigseldagen 1902-10-25. | CORROBORATED | hög | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md) | Böckerna kan kopiera varandra. Egen vigselpost och säker vigselort saknas. |
-| A-0445 | Hon var mor till Erik Axel 1902, Ture Edvard 1904, Astrid Elisabet 1906, Ruth Charlotta 1907 och Elsa Cecilia 1909. | CORROBORATED | hög | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | Två födelsenotiser och hushållet 1910. |
-| A-0498 | En äldre genomgång av Flens födelsebok 1883, nr 1–31 på bild 21–24, fann ingen Charlotta Cecilia Elisabet eller födelse den 14 januari. | TRANSCRIBED | medel | [C-0089](../citations/C-0089-flen-1883-negativ-kontroll.md) | Bara bild21 finns lokalt; övriga tre kopior saknas. Nollan avgör inte fysisk födelseort. |
-| A-0499 | Äldre helårsnoll i Helgesta är rättad: bild96, nr 1–8 och en onumrerad dödfödd flicka, ger ingen Charlotta Cecilia Elisabet eller födelse 14 januari. | TRANSCRIBED | hög | [C-0090](../citations/C-0090-helgesta-1883-negativ-kontroll.md) | Januari–början av mars1883, inte hela året. Ingen sockenuteslutning. |
-| A-4728 | Hon infördes från Helgesta i Karsätter 1902-10-27, överfördes till Wäsby 1903-05-08 och därifrån till Segerslund185 1904-11-11 samt till Hyltinge 1905-06-02. | CORROBORATED | hög | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Mannens ursprung349 är inte hennes; Segerslund185 är nu läst i C-0796. |
-| A-4729 | Makens änklingsdatum 1917-05-01 ger ett indirekt belägg för hennes dödsdag. | INFERRED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md) | Samma vigsel1902-10-25; egen dödspost, dödsort och orsak saknas. |
+| A-0445 | Hon var mor till Erik Axel 1902, Ture Edvard 1904, Astrid Elisabet 1906, Ruth Charlotta 1907 och Elsa Cecilia 1909. | CORROBORATED | hög | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | T-0153: beläggen är olika starka. Erik Axel och Ture Edvard har egna födelsenotiser som namnger henne som mor. För Astrid Elisabet, Ruth Charlotta och Elsa Cecilia vilar moderskapet enbart på hushållsraderna i folkräkningen 1910 — hushållsroll är inte födelsenotis. Statusen behålls, men den gäller inte alla fem med samma styrka. |
+| A-0498 | En äldre genomgång av Flens födelsebok 1883, nr 1–31 på bild 21–24, fann ingen Charlotta Cecilia Elisabet eller födelse den 14 januari. | TRANSCRIBED | medel | [C-0089](../citations/C-0089-flen-1883-negativ-kontroll.md) | Bara bild 21 finns lokalt; övriga tre kopior saknas. Nollan avgör inte fysisk födelseort. |
+| A-0499 | Äldre helårsnoll i Helgesta är rättad: bild 96, nr 1–8 och en onumrerad dödfödd flicka, ger ingen Charlotta Cecilia Elisabet eller födelse 14 januari. | TRANSCRIBED | hög | [C-0090](../citations/C-0090-helgesta-1883-negativ-kontroll.md) | Januari–början av mars 1883, inte hela året. Ingen sockenuteslutning. |
+| A-4728 | Hon infördes från Helgesta i Karsätter 1902-10-27, överfördes till Wäsby 1903-05-08 och därifrån till Segerslund 185 1904-11-11 samt till Hyltinge 1905-06-02. | CORROBORATED | hög | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Mannens ursprung 349 är inte hennes; Segerslund 185 är nu läst i C-0796. |
+| A-4729 | Makens änklingsdatum 1917-05-01 ger ett indirekt belägg för hennes dödsdag. | INFERRED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md) | Samma vigsel 1902-10-25; egen dödspost, dödsort och orsak saknas. |
 
 ## Relationer
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) | make | uppgiven vigsel1902-10-25; hushåll till1910 | CORROBORATED | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
-| [P-0118 Erik Axel Eriksson](P-0118-erik-axel-eriksson.md) | son; hans biologiske far anges okänd | 1902; senare hushåll | TRANSCRIBED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) |
+| [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) | make | uppgiven vigsel 1902-10-25; hushåll till 1910 | CORROBORATED | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
+| [P-0118 Erik Axel Eriksson](P-0118-erik-axel-eriksson.md) | son | 1902; senare hushåll. Hans biologiske far anges okänd. | TRANSCRIBED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) |
 | [P-0119 Ture Edvard Eriksson](P-0119-ture-edvard-eriksson.md) | son | 1904 | TRANSCRIBED | [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md) |
-| [P-0120 Astrid Elisabet Eriksson](P-0120-astrid-elisabet-eriksson.md) | dotter i familjehushållet | Banvaktstugan71,1910 | TRANSCRIBED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
-| [P-0121 Ruth Charlotta Eriksson](P-0121-ruth-charlotta-eriksson.md) | dotter i familjehushållet | Banvaktstugan71,1910 | TRANSCRIBED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
-| [P-0122 Elsa Cecilia Eriksson](P-0122-elsa-cecilia-eriksson.md) | dotter i familjehushållet | Banvaktstugan71,1910 | TRANSCRIBED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
-| [P-0133 Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md) | möjlig identifiering av dopvittnet Erik Karlsson | Erik Axels dop1902; Brosätter | LEAD | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) |
-| [P-0135 Matilda Charlotta Sjöberg](P-0135-matilda-charlotta-sjoberg.md) | möjlig identifiering av den ej namngivna vittneshustrun | Erik Axels dop1902; Brosätter | LEAD | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) |
+| [P-0120 Astrid Elisabet Eriksson](P-0120-astrid-elisabet-eriksson.md) | dotter i familjehushållet | Banvaktstugan 71, 1910 | TRANSCRIBED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
+| [P-0121 Ruth Charlotta Eriksson](P-0121-ruth-charlotta-eriksson.md) | dotter i familjehushållet | Banvaktstugan 71, 1910 | TRANSCRIBED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
+| [P-0122 Elsa Cecilia Eriksson](P-0122-elsa-cecilia-eriksson.md) | dotter i familjehushållet | Banvaktstugan 71, 1910 | TRANSCRIBED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
+| [P-0133 Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md) | möjlig identifiering av dopvittnet Erik Karlsson | Erik Axels dop 1902; Brosätter | LEAD | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) |
+| [P-0135 Matilda Charlotta Sjöberg](P-0135-matilda-charlotta-sjoberg.md) | möjlig identifiering av den ej namngivna vittneshustrun | Erik Axels dop 1902; Brosätter | LEAD | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0103](../citations/C-0103-axel-edvard-styvfamilj-brosatter-1900.md) |
 | Johan Albert Skilfors[?] och hans ej namngivna hustru | Dopvittnen åt sonen Ture Edvard | 1904-02-28, Bergatorp | TRANSCRIBED | [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md) |
-| Åke Bertil, Birgit Cecilia och Gunborg Elisabet | Barn i makens senare hushåll; hennes moderskap är ännu inte direkt belagt | Hyltinge1918–1920 | LEAD | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) |
+| Åke Bertil, Birgit Cecilia och Gunborg Elisabet | Barn i makens senare hushåll; hennes moderskap är ännu inte direkt belagt | Hyltinge 1918–1920 | LEAD | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) |
 
 Föräldrarna är inte identifierade. Dopvittnena från Brosätter är inte
 bevisade biologiska farföräldrar: Erik Axels födelsepost anger okänd far.
@@ -59,14 +59,14 @@ bevisade biologiska farföräldrar: Erik Axels födelsepost anger okänd far.
 | Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
 |---|---|---|---|---|---|
 | 1883-01-14, uppgivet | Födelsedag i barnens och familjens böcker | Flen uppges som församling | — | föräldrar okända | [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
-| 1902-06-22 | Sonen Erik Axel föds; dop1902-07-06 | Modern vid Mälby, Helgesta; post i Flen | piga, ogift | sonens far okänd | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) |
+| 1902-06-22 | Sonen Erik Axel föds; dop 1902-07-06 | Modern vid Mälby, Helgesta; post i Flen | piga, ogift | sonens far okänd | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) |
 | 1902-10-25, uppgivet | Vigsel med Axel Edvard | ort ej belagd | hustru | paret | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) |
-| 1902-10-27 | Införs från Helgesta | Karsätter345, Flen | hustru | make och Erik Axel | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md) |
-| 1903-05-08 | Överförs från345 till347 | Wäsby, Flen | hustru | samma familj | [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md) |
-| 1904-02-04 | Sonen Ture Edvard föds; dop1904-02-28 | Wästby/Wäsby, Flen, är hemvist | gift mor | make och barn | [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) |
-| 1904-11-11 | Överföring till Segerslund185 | Flen | hustru | familjen | [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) |
-| 1905-06-02 | Utflyttning till Hyltinge | Segerslund185, Flen → Hyltinge | hustru | make och två söner | [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) |
-| 1910 | Fem barn i hushållet | Banvaktstugan71, Hyltinge | hustru | make och barn | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
+| 1902-10-27 | Införs från Helgesta | Karsätter 345, Flen | hustru | make och Erik Axel | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md) |
+| 1903-05-08 | Överförs från 345 till 347 | Wäsby, Flen | hustru | samma familj | [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md) |
+| 1904-02-04 | Sonen Ture Edvard föds; dop 1904-02-28 | Wästby/Wäsby, Flen, är hemvist | gift mor | make och barn | [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) |
+| 1904-11-11 | Överföring till Segerslund 185 | Flen | hustru | familjen | [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) |
+| 1905-06-02 | Utflyttning till Hyltinge | Segerslund 185, Flen → Hyltinge | hustru | make och två söner | [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) |
+| 1910 | Fem barn i hushållet | Banvaktstugan 71, Hyltinge | hustru | make och barn | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
 | 1917-05-01, indirekt | Makens änklingsdatum | egen dödsort okänd | — | maken finns senare i Hyltinge | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) |
 
 ## Boställen och flyttar
@@ -74,9 +74,9 @@ bevisade biologiska farföräldrar: Erik Axels födelsepost anger okänd far.
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
 | 1902 | Mälby, Helgesta | — | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | Sonens födelse-/dopattest avsändes till Helgesta. |
-| 1902-10-27 | Helgesta → Flen | Karsätter345 | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md) | Mannen kom från Brosätter349; hennes tidigare folio är okänd. |
-| 1903–1905 | Karsätter → Wäsby → Segerslund185 | 345 →347 → nya boken212 →185 | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) | Boköverföring och fysisk flytt skiljs åt. Inte obruten vistelse hela volymperioden1904–1907. |
-| 1910 | Hyltinge | Banvaktstugan71 | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | Inflyttningen till Hyltinge efter avgång1905-06-02 och sista hemvist före döden återstår. |
+| 1902-10-27 | Helgesta → Flen | Karsätter 345 | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md) | Mannen kom från Brosätter 349; hennes tidigare folio är okänd. |
+| 1903–1905 | Karsätter → Wäsby → Segerslund 185 | 345 →347 → nya boken 212 →185 | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) | Boköverföring och fysisk flytt skiljs åt. Inte obruten vistelse hela volymperioden 1904–1907. |
+| 1910 | Hyltinge | Banvaktstugan 71 | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | Inflyttningen till Hyltinge efter avgång 1905-06-02 och sista hemvist före döden återstår. |
 
 ## Yrke, utbildning och ekonomi
 
@@ -107,8 +107,8 @@ militär eller sjöfartsanknytning finns i dessa källor.
 | Objekt | Datum | Upphov/provenans | Citation | Lokal fil |
 |---|---|---|---|---|
 | Barnposter, familjeböcker och census | 1902–1910 | Kyrkoarkiv och SCB-utdrag, Riksarkivet | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | Sparade helbilder med SHA i citationerna. |
-| Negativa födelsekontroller | 1883 | Flens och Helgesta kyrkoarkiv | [C-0089](../citations/C-0089-flen-1883-negativ-kontroll.md), [C-0090](../citations/C-0090-helgesta-1883-negativ-kontroll.md) | Flenbild21 och Helgestabild96 finns; tre Flensbilder saknas. |
-| Makens änklingsrad | 1918–1927 års bok | Hyltinge kyrkoarkiv | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Helbild00154496_00019 och manifest bevarade. |
+| Negativa födelsekontroller | 1883 | Flens och Helgesta kyrkoarkiv | [C-0089](../citations/C-0089-flen-1883-negativ-kontroll.md), [C-0090](../citations/C-0090-helgesta-1883-negativ-kontroll.md) | Flenbild 21 och Helgestabild 96 finns; tre Flensbilder saknas. |
+| Makens änklingsrad | 1918–1927 års bok | Hyltinge kyrkoarkiv | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Helbild 00154496_00019 och manifest bevarade. |
 
 Inga identifierade egna porträtt, brev eller minnen finns i det lästa underlaget.
 
@@ -127,11 +127,11 @@ hon faktiskt föddes. [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [
 
 ## Forskningsfrågor och konflikter
 
-- Födelseuppgiften1883-01-14/Flen har ännu inget eget original; pröva den
+- Födelseuppgiften 1883-01-14/Flen har ännu inget eget original; pröva den
   positiva Mälbykedjan före fria grannsockensvep. Profil Q-01/KP-01.
-- Vigsel1902-10-25 och indirekt död1917-05-01 finns redan i familjens
+- Vigsel 1902-10-25 och indirekt död 1917-05-01 finns redan i familjens
   underlag; egna händelseposter och orter är öppna, T-0344–0345.
-- Talet1917 får inte behandlas som säker andra vigsel för maken. Hans
+- Talet 1917 får inte behandlas som säker andra vigsel för maken. Hans
   individuella prövning och fulladoption ägs T-0153.
 - De tre senare hushållsbarnens moderskap är inte automatiskt hennes;
   profil Q-03 anger den relevanta relationsgränsen.
@@ -183,3 +183,16 @@ Familjehushåll skiljs från biologiskt föräldraskap. Äldre akt nedan är his
 > - Sök vigseln med Axel Edvard mellan juni 1902 och februari 1904.
 > - Fastställ när hon dog. Axel Edvard anges 1930 som änkling med vigselår 1917,
 >   vilket talar för att hon avled före 1917 och att han gifte om sig.
+
+### Anhörigrättelse T-0153, 2026-09-08
+
+A-0445:s kommentar lydde `Två födelsenotiser och hushållet 1910` utan att skilja
+på beläggens styrka. Endast Erik Axel och Ture Edvard har egna födelsenotiser som
+namnger henne som mor; för Astrid Elisabet, Ruth Charlotta och Elsa Cecilia vilar
+moderskapet enbart på folkräkningens hushållsrader. Skillnaden är nu utskriven i
+kommentaren. Ingen relation ändrar status, och gränsen mot de tre yngsta
+hushållsbarnen — Åke Bertil och tvillingarna — är oförändrad: deras moderskap är
+öppet och tillskrivs henne inte.
+
+Full individuell akt-/profiladoption för P-0117 gjordes i T-0143; detta är en
+avgränsad följdrättelse.

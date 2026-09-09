@@ -57,3 +57,15 @@ barndomskälla har kontrollerats.
 
 A-0254–A-0255, A-0278–A-0285, A-0300–A-0320.
 
+
+## Tillägg T-0154, 2026-09-08: bladet är ett utdrag ur husförhörslängden
+
+Dokumenthuvudet på den sparade fullbilden lyder `Utdrag ur Husförhörslängden för
+Degerfors`. Bladet är alltså härlett ur den längd det använts för att bekräfta —
+samma längd som C-0549 transkriberar — och är inte en av den oberoende källa.
+
+Citationen skriver dessutom svärfaderns namn `Anders Jonsson`, medan C-0485
+skriver `Anders Jansson`. Namnvarianten är inte noterad någonstans och ska
+bevaras som en avvikelse, inte normaliseras.
+
+Stödda påståenden utökas med A-5446 (P-0028).

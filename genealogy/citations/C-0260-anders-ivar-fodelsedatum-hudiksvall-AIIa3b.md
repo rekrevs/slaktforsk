@@ -64,3 +64,59 @@ kyrkobokföringsdatum, inte ett säkert datum för fysisk resa. Namn,
 födelsedata och moderns/systerns hushåll binder raden till P-0280.
 C-0942 visar hennes senare återkomst1936 från samma Stockholmsförsamling;
 mellanperiodens adresser är ännu inte följda.
+
+## Tillägg T-0152, 2026-09-08: sida 593 raderna 6–9
+
+Citationen transkriberar raderna 3–4. Raderna 6–9 på samma sparade helbild är nu
+lästa inom T-0152 och bär uppgifter som flera akter redan hänvisar hit för.
+
+- **Rad 6**, `s. Knut Bertil — icke döpt`, yrke `f. Målare`, `01 ⁴/₉`, utflyttad
+  till Lidingö, Stockholms län, 1924-03-31, nr 45.
+- **Rad 7**, samma person med yrket **`Missionär`**, inflyttad från Lidingö
+  1925-07-14 nr 133, vigselkolumn `27 ³/₉`, utflyttad till Frankrike, Paris,
+  1925-11-22 nr 305, tom dödskolumn, värnplikt `571 ⁶²/₂₁` och anteckningarna
+  `Gift med Sara Kristina … ur Sverige utfl. 25 ²²/…` samt
+  `N…[?] Höök, K. Maj:ts tillstånd 25 …`. Den sista är en konkret ingång till
+  familjens namnform Höök.
+- **Rad 8**, dottern `Höök Birgit Margareta`, `28 ¹⁶/₇`, La Madzia, Kongo,
+  inflyttad från Kongo 1930-09-20 — alltså kyrkobokförd i Hudiksvall redan 1930,
+  fem år före den vistelse C-0942 redovisar.
+- **Rad 9**, `Sondotter` `Höök Nina Gertrud Maria`, `Trädgårdsmäst. d.`, född
+  `13 ¹⁹/₅` i Söderhamn, inflyttad från Bergsjö 1930-08-24 nr 151, utflyttad till
+  Stockholm S:t Johannes `30 ³/₁₀`, med anteckningen `Dotter till trädgårdsmäst.
+  Gustaf Höök o. hans aflidna hustru Wilhelmina Kristina, f. Sundstedt[?] fr.
+  Bergsjö kyrkby`.
+
+Rad 9 är det första belägget för P-0283:s vuxenliv. Identifieringen bärs av
+sondotterskapet till Anna Greta, det enda sonnamnet Gustaf och yrkeslinjen
+trädgårdselev 1900 → trädgårdsmästare; den är förd som INFERRED, inte som säker
+relation.
+
+Berörda påståenden: A-5320–A-5333 (P-0282, P-0283) samt A-4930–A-4938 (P-0239),
+som redan hänvisar hit.
+
+## Tillägg T-0152, 2026-09-08 (andra): änkekolumnens dag är läsosäker mot avskriften
+
+Avskriften ovan anger änkekolumnen `11 16/11`, alltså 1911-11-16. Vid omläsning
+av de lokalt sparade originalen läses `11 16/1` på **tre skilda ställen** —
+dödskolumnen på sida 484, änkekolumnen på sida 593 och änkekolumnen på folio 591.
+I bokens skrivsätt `år dag/månad` ger det **1911-01-16**.
+
+Avvikelsen är tio månader och berör P-0276:s dödsdag och P-0277:s änkestånd, som
+båda bär 1911-11-16 i dag. Ingen av läsningarna normaliseras här: avskriftens dag
+bevaras, och den nya läsningen är utpekad för prövning av personernas egna
+kohorter, T-0126 och T-0156. Ett tredje original eller en dödboksnotis avgör
+frågan.
+
+## Tillägg T-0156, 2026-09-08: änkekolumnens dag är avgjord till 16 januari
+
+Tillägget från T-0152 pekade ut avvikelsen mellan avskriftens `11 16/11` och
+läsningen `11 16/1`. Frågan är nu avgjord. En omläsning i fullupplösning finner
+**fyra** fält, inte tre: makens dödskolumn och hustruns änkekolumn på sida 484,
+änkekolumnen på sida 593 och änkekolumnen på folio 591. Alla fyra skriver
+`11 ¹⁶/₁` med **ett enda tecken** som nämnare, medan samma hand på samma uppslag
+skriver tvåsiffriga månader med två tecken, som `10 ³¹/₁₂` och `80 ²⁷/₂`.
+Dödsdagen är alltså **1911-01-16**. Kärnavskriftens `11 16/11` är
+avskriftshistorik.
+
+Berörda påståenden: A-2213 och A-2214 samt A-5580 (P-0277).

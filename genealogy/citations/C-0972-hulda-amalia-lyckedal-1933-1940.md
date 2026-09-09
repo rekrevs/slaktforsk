@@ -75,3 +75,37 @@ Samma spegling som C-0033; ingen ny fil har lagts till.
 ## Stödda påståenden
 
 A-3633, A-3634 (P-0016); A-3641 (P-0532); A-3642 (P-0533).
+
+## Tillägg T-0150, 2026-09-08: fol 932 rad 3 och en precisering av normaliseringen
+
+Den lokalt sparade helbilden har lästs om inom T-0150. Ingen ny arkivåtkomst
+gjordes och avskriften ovan ändras inte.
+
+- **Efternamnet `Eriksson` är överstruket och ersatt med `Ekholm`** på Hulda
+  Margaretas egen rad. Ekholm är alltså hennes egen bokförda namnform, inte bara
+  moderns.
+- **Inflyttningen till Flen från Hyltinge 1933-04-24** står på hennes rad som
+  upprepningstecken mot moderns rad i kolumnerna 9–10. Avskriften saknar den.
+- **Kolumn 6, `Vaccinerad eller haft koppor`, är markerad `v`**; kolumnerna 11–12
+  bär `k` respektive `n`; kolumn 13 och utflyttnings- och dödskolumnerna är tomma.
+  Tomheten är en källgräns, inte ett negativt fynd.
+- **Normaliseringens punkt 4 är för stark för denna sida.** Faderskapet står
+  utskrivet i klartext i C-0973, men på fol 932 står det som upprepningstecken mot
+  systerns rad. De folier som bär uppgiften är administrativt beroende av varandra
+  och räknas inte som oberoende födelsevittnen.
+
+Stödda påståenden utökas med A-5130–A-5140 (P-0017), som saknades helt.
+
+## Tillägg T-0150, 2026-09-08 (andra): två inkonsekvenser och en öppen relationsfråga
+
+- **Integritetsminimeringen är inte genomförd.** Texten anger att rad 6:s barns
+  födelsedag utelämnas som integritetsminimering, men avskriften återger ändå
+  `38 ¹⁶/₇`. Antingen ska minimeringen gälla eller så ska motiveringen strykas;
+  som det står säger citationen en sak och gör en annan.
+- **Rad 6:s prefix behöver läsas om.** Barnet fött 1938 bär ett prefix som avläses
+  `d.` men överförs till fol 860, alltså till Maj och Arnes hushåll, där samma
+  barn skrivs `s.`. Prefixen är oförenliga och frågan är öppen; den berör P-0005,
+  P-0007, P-0016 och P-0533 och är registrerad som Q-05 i P-0007:s profil. Ingen
+  av läsningarna normaliseras här.
+
+Stödda påståenden utökas med A-5100–A-5104 (P-0007).

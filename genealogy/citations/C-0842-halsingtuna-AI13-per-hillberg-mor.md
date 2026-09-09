@@ -56,3 +56,18 @@ Skarp detaljkontroll av Per Erics dödsfält korrigerar ovanstående
 preliminära 16 september till **15 september 1859**. Datumet är en
 hushållsboksuppgift, inte ännu en egen dödsnotis. Födelsen 6 september
 står på hans egen rad. Ingen grannradsnot har förts över.
+
+## Tillägg T-0156, 2026-09-08: födelseorten läses Njutånger
+
+Citationen skriver att Per Hillberg föddes 1826-02-25 i **Hälsingtuna**, och
+T-0134-tillägget läser cellen som `Tuna[?]`. Vid förstoring läses
+födelseortscellen på hans rad **`Njutånger`** — ett ord med å-ring och avslutande
+`-ger`, alltså varken Tuna eller Hälsingtuna. Samma hand skriver `Njutånger` och
+`Hudiksvall` på andra rader längre ned på samma sida.
+
+Rättelsen berör P-0350, vars konsolidering ägs av T-0162; ingen av läsningarna
+normaliseras här.
+
+**Brita Hillbergs födelsesocken**, som citationen kallar svårläst, ser i
+översiktsbilden ut att kunna läsas `Forsa`. Cellen är inte förstorad, så det är en
+punkt värd omkontroll och inte en läsning.

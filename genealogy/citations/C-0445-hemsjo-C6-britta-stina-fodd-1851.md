@@ -52,3 +52,34 @@ namn och roller är nätverk, inte belägg för släktskap. A-4546.
 S-0348 uppger läsning av hela bilderna 13–16; endast 14 har återfunnits
 bland lokala bildalias och metadata samt /private/tmp. Bilder 13,15,16
 återstår som konkret kopiegräns, utan att den positiva egna posten saknas.
+
+## Tillägg T-0162, 2026-09-09: `Åb.` är `Hem.`, och modern skrivs `Andreas dotter`
+
+Två avskriftsfel på samma rad, båda kontrollerade centralt mot fullbilden vid
+förstoring.
+
+**Ståndsförkortningen är `Hem.`, inte `Åb.`** Post 11 lyder
+`Hem. Sven Olofsson och d. h:tru Catharina Andreas dotter från Vester
+Bodarne`. Förkortningen är identisk med post 12 på samma sida
+(`Hem. Anders Magnusson`), och post 6 skriver `Hemeg.` utskrivet. Det är
+alltså **hemmansägare**, inte åbo.
+
+Följden är inte kosmetisk. Formen `Åbon` gick från denna avskrift in i
+A-2190, i profilens söknyckel om "en åbogeneration på samma jord" och i hela
+EKO-argumentet om brukningsrätt kontra äganderätt. **Det argumentet vilade på
+en felläst förkortning.** A-2190 är omformulerad i P-0383, äldre lydelse
+bevarad.
+
+**Moderns namn skrivs `Catharina Andreas dotter`**, i två ord, inte
+`Catharina Andersdotter`. Formen `Andersdotter` vilar därmed bara på A I/4.
+
+**Vittneslistan avviker på sex punkter** mot omläsningen 2026-09-09:
+`Hem[?]` är säkert `Hem.`; `Fåugenäs/Faugenäs[?]` läses `Faijenäs[?]`;
+`Carl Petter Magnusson` läses `Carl Johan Magnusson`; `Johanna Jonsd:r[?]`
+läses `Johanna Svensd:r[?]`; `Britta Stina Olofsd:r` läses
+`Britta Stina Johansd:r[?]`; och `Anna Lena Stentunsd:r[?] från Wäsenbo[?]`
+läses `Anna Lena Thorstensd:r fr Wäsenbo`. De är förda som reserverade i
+P-0383. **Berör P-0337 och P-0384**, som båda återger "åbon Sven Olofsson",
+och `genealogy/source-coverage.md` rad 261.
+
+Avskriften är append-only och behålls oförändrad.

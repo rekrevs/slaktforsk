@@ -50,3 +50,10 @@ Födelseår 63, dito från Kyrkefalla och änkeår 29 är hennes egna fält.
 Inflyttningsfältet anger Värsås, Skaraborgs län, år 30; detta är en faktisk
 avvikande uppgift mot C-0868:s direkta Skövdebrygga. Källuppgiften ändras
 inte för att passa den senare konsoliderade flyttkedjan.
+
+## Tillägg T-0151, 2026-09-08: huvudyrkeskoden är läsosäker
+
+T-0127-tillägget läser Augustas huvudyrkeskod som `3-103-21`. En omläsning av
+samma fulloriginal inom T-0151 ligger närmare `2-102-21`, men förstoringen räcker
+inte för att avgöra frågan. Koden är alltså läsosäker och ska inte återges som
+avgjord; den hör till P-0021 och avgörs av dess ägare, inte här.

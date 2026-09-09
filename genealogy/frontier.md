@@ -1018,7 +1018,7 @@ följd via gamla bokens sida 206 och reciproka flyttposter tillbaka till Umeå
 
 | Person | Läge | Nästa åtgärd |
 |---|---|---|
-| P-0117 Charlotta Cecilia Elisabet Gustafsson | Axel Edvards hustru, född 1883-01-14 med födelseförsamling Flen | egen födelsenotis i Flen 1883 och hennes föräldrar; död före 1917? |
+| P-0117 Charlotta Cecilia Elisabet Gustafsson | Axel Edvards hustru, uppgiven född 1883-01-14 i Flen; makens änklingsrad ger dödsdagen 1917-05-01 indirekt. Identitetsnivå UNDERKÄND/AVVAKTAR på PK-11, full nivå även på PK-08 | egen födelse-/vigsel-/dödspost via Mälbykedjan och Hyltinge maj 1917, T-0344/T-0345; fem saknade kopior T-0347 |
 | P-0118–P-0122 Erik Axel, Ture Edvard, Astrid Elisabet, Ruth Charlotta och Elsa Cecilia | barn i hushållet 1910 | egna födelsenotiser i Flen 1902 och 1904 samt Hyltinge 1906, 1907 och 1909 |
 | P-0016:s make Ekholm | namnlös; hon blev änka 1913-03-11 och han var lokomotiveldare | sök vigsel före 1913 och dödsnotis 1913 i Hyltinge, Helgesta och Flen |
 | P-0112 Karl Albert Ålund | järnvägsarbetare i Valsta 1910 | egen födelsenotis i Hyltinge 1890 |
@@ -1480,3 +1480,26 @@ Tidigare frontrader, ersatta i T-0141:
 
 > | P-0058 Johan Pettersson Lundström | — | `AVLÄNKAD — FELIDENTIFIERAD ANA (C-0550)` | Var registrerad som far till P-0028 via identifieringen Johan August Johansson = Johan Oskar Zingmark. Batch 82 visade att P-0028 är Johan Oscar Zingmark född 1861-05-28 i Botsmark (C-0546–C-0549) medan Johan August (nu P-0424) stannade i Sävar. Lundström-forskningen (Bergvall, Vännäs, Umeå) kvarstår som sidogren; ingen ana till P-0004 |
 > | P-0059 Cajsa Lotta Jonsdotter | — | `AVLÄNKAD — FELIDENTIFIERAD ANA (C-0550)` | Mor till P-0424 Johan August Johansson, inte till P-0028. Livskedjan till döden 1912 kvarstår som sidogren; ingen ana till P-0004 |
+
+## T-0143: åtta konsoliderade akter, 2026-09-08
+
+Kohorten P-0113, P-0117, P-0135, P-0137, P-0143, P-0213, P-0223 och P-0225 är
+individuellt slutläst mot befintliga original och senare citationstillägg.
+Ingen ny arkivpassage gjordes. Identitetsnivån är GODKÄND/BÄRANDE för P-0113,
+P-0137, P-0143 och P-0213; den är UNDERKÄND/AVVAKTAR för P-0117, P-0135,
+P-0223 och P-0225 på den konkreta bevarandeskulden PK-11. Livsbildsnivån är
+UNDERKÄND för samtliga åtta på PK-08. Ingen av de åtta bär en anlinje vidare
+genom denna granskning.
+
+Sakrättelser i granskningen: Fredrik Wilhelms folkräkningsår 1848 var en
+avskriftsmiss mot 1843 och brödernas flytt gick till skilda byar; Charlottas
+Segerslund 185 är positivt läst och hennes död 1917-05-01 är indirekt belagd
+genom makens änklingsrad, medan de tre yngsta hushållsbarnens moderskap är
+öppet; Matildas föräldrarad läses Stenkulla och 20 år, och sonens födelsepost
+1880 är åter en konkurrerande kandidat; Sven Arvids bokdatum är 27 juli 1898;
+Maria Sofias destination 1899 är Vadsbro, inte Mellösa; Stinas Persdotter var
+en kolumnsammanblandning med ett dopvittne. Öppna behov ägs av T-0339–T-0350.
+
+Tidigare frontrad, ersatt i T-0143:
+
+> | P-0117 Charlotta Cecilia Elisabet Gustafsson | Axel Edvards hustru, född 1883-01-14 med födelseförsamling Flen | egen födelsenotis i Flen 1883 och hennes föräldrar; död före 1917? |

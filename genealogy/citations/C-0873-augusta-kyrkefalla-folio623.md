@@ -49,3 +49,11 @@ inte fullupplöst JPG. Ingen captcha. Alla läsningar avser detta enda uppslag.
 | [C-0873-00081270_00006-sida623-zoom.png](../media/C-0873-00081270_00006-sida623-zoom.png) | `531a17e3c9439d4ed66dd8b1914bb6646af8641d17db0022e8ee0988a98fa32c` |
 | [C-0873-00081270_00006-sida623.png](../media/C-0873-00081270_00006-sida623.png) | `8d2a4b579b169c5b07451a740c8dea1b0192a349480e107f6705b73a0e880b19` |
 | [S-0685-kyrkefalla-AIIa12-manifest.json](../media/S-0685-kyrkefalla-AIIa12-manifest.json) | `d5107718d4d7e87022f2e76d93b3e90b842b73d8da689b11fa44545b70d41299` |
+
+## Tillägg T-0151, 2026-09-08: rubrikläsningen är löst
+
+Avskriften bär fortfarande den avkortade rubrikläsningen `[…]haga Sörgård`.
+C-1050 har löst den till **Karlshaga Sörgård**; rättelsen hade inte propagerats
+hit. Den avkortade formen bevaras som avskriftshistorik.
+
+Stödda påståenden utökas med A-5210 och A-5214 (P-0027).

@@ -9,7 +9,7 @@ dotterns egen födelsenotis; eget ursprung forskas inte vidare i T-0037.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-3240 | Gustava Maria Kylenstjerna var mor till Johanna Christina, född 1809-07-03 i Mortorp. | CORROBORATED | mycket hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md), [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Egen födelsenotis förenad med vuxenhushållets namn, år och socken. |
+| A-3240 | Gustava Maria Kylenstjerna var mor till Johanna Christina, född 1809-07-03 i Mortorp. | CORROBORATED | mycket hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Egen födelsenotis förenad med vuxenhushållets namn, år och socken. **Rättat 2026-09-09 (T-0164):** modern skrivs i originalet **`Gustava Maria Rybergsd:r`**, inte Kylenstjerna. Namnet börjar med ett tydligt `R` följt av `yberg`, och fadderraden på samma uppslag och i samma hand namnger `Johanna Ryberg`. Kontrollerat centralt mot fullbilden `C0028236_00088`. **Hypotesen om adlig härkomst, som vilade på formen Kylenstjerna, faller därmed.** Aktens titel och filnamn bär fortfarande den felaktiga formen; namnbytet görs samlat i en egen uppgift. C-0467 är dessutom struken som föräldrabelägg — den citationen namnger ingen av föräldrarna. |
 
 ## Relationer
 

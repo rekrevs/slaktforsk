@@ -70,3 +70,64 @@ manifestet finns numera under C-1095 men är ingen ersättning för postbilden.
 Inga årsvisa boendegränser eller flyttdatum härleds ur volymens 1866–1870.
 Egen födelsepost C-0126 har samma datum och socken men ingen Pehrsdotter-form;
 den är inte ett oberoende namnröstetal.
+
+## Tillägg T-0157, 2026-09-08
+
+Den bevarade skärmbilden har lästs om vid tolvfaldig förstoring, kolumn för
+kolumn, i två separata utsnitt av födelse- respektive inflyttningsdelen.
+Ingen ny arkivpassage har öppnats.
+
+**Dagbråket på rad 3 rättas.** Anders Gustafs födelsebråk har en ensam
+uppstapel som täljare och läses `1/11`. Jämförelsen inom samma uppslag och
+samma hand avgör saken: rad 1 har `21/8`, rad 2 `21/10`, rad 4 `6/10` och
+rad 5 `26/5`. De två tvåsiffriga täljarna `21` är påtagligt bredare än rad 3:s
+enda drag. Anders Gustaf är alltså uppgiven född **1852-11-01**, inte
+1852-11-11. Den diplomatiska arbetsavskriften ovan är append-only och behålls
+oförändrad; dess lydelse `1852 11/11` är från och med detta tillägg
+överspelad. Läsningen är gjord i en vy på 1728 × 997 bildpunkter, och
+fullbilden `C0006946_00152` saknas fortfarande lokalt, varför dagen förs
+vidare med läsreservation.
+
+**Carl Augusts inflyttningsrad utvinns fullt ut.** Han är den ende av
+uppslagets fem rader med ifyllt inflyttningsfält: `från` läses `Skölding[e]`,
+`år` läses `66` och `månad dag` läses `14/11[?]`. Föräldrarnas och systerns
+inflyttningsfält är blanka. Detta var noterat i förbigående i T-0137-tillägget
+men hade aldrig nått någon akt; det är nu utvunnet som eget påstående i
+P-0167 och ger en söknyckel i Sköldinge hösten 1866.
+
+**Överstrykningar på raderna 3 och 4.** Namncellerna för Anders Gustaf och
+Carl August bär var sitt kraftigt diagonalstreck; raderna 1, 2 och 5 är
+ostrukna. Överstrykningen är en avförd rad. Vad den avför — utflyttning,
+död eller överföring till annan sida — kan inte avgöras ur denna avskurna vy,
+eftersom både döds- och utflyttningskolumnerna ligger utanför eller vid
+bildkanten. Detta förs vidare som en fråga, inte som en slutsats.
+
+**Kopporkolumnen** har ett `v` på var och en av de fem raderna.
+
+Dessa iakttagelser rör vad den redan sparade bilden visar. Kvarstående
+fullpostrest enligt T-0137-avstämningen är oförändrad.
+
+## Rättelse till tillägget T-0157, 2026-09-09
+
+Två uppgifter i mitt eget tillägg ovan är fel och rättas här. Tillägget är
+append-only och behålls oförändrat; det som står nedan gäller.
+
+**1. Kolumnen `Död.` ligger inom den bevarade vyn och är blank på alla fem
+rader.** Tillägget T-0157 skrev att "både döds- och utflyttningskolumnerna
+ligger utanför eller vid bildkanten". Det stämmer bara för utflyttningen. Den
+tryckta rubrikraden löper `Äktenskap` → `Koppor.` → `Inflyttad` med
+`från`/`år månad dag`/`Inflyttningsattestens numer.` → **`Död.`** → `Läser`,
+och `Död.`-kolumnen är fullt synlig och tom på samtliga fem rader.
+
+Det har saklig verkan: **överstrykningarna på raderna 3 och 4 kan inte förklaras
+av en i denna bok bokförd död.** Frågan om vad strecken avför — utflyttning
+eller överföring till annan sida — är därmed smalare än T-0157 angav, och
+gäller P-0167 och P-0168.
+
+**2. Vigseldagens placering.** Tillägget skrev "Makens rad har `47 20/10`".
+Dagbråket `20/10` står i **hustruns** cell, över hennes `47`; makens cell bär
+bara `47`. Slutsatsen att vigseln ägde rum 1847-10-20 påverkas inte, men
+uppgiften hör till hennes rad och inte till hans. Berör P-0125 och P-0126.
+
+Båda rättelserna är gjorda vid konsolideringen av P-0125 i T-0165 och
+kontrollerade centralt mot fullbilden vid förstoring.

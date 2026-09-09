@@ -83,3 +83,10 @@ Den tidigare uppgiften att A II/5c saknade digital bild är upphävd av
 C-0920:s positiva original. Paret lämnade Robertsfors1946; dödsfallen
 står i Burträsk, C-0969/C-0970. Familjens boendekedja1918–1948 är följd,
 men denna citation visar inte hela deras tidigare ungdomstid.
+
+## Tillägg T-0149, 2026-09-08: digitaliseringsläget i normaliseringen är överspelat
+
+Den normaliserade tolkningen ovan anger att `A II/5 c` saknar digital bild. Den
+lydelsen är upphävd av citationens egen rättelse längst ned, som öppnar volymen
+via C-0920. Den äldre observationen bevaras som åtkomsthistorik; ett
+åtkomstläge vid ett tillfälle är inte ett bestående digitaliseringsbesked.

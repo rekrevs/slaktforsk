@@ -39,3 +39,19 @@ frånvaro ur en viss församling eller full källtäckning.
 ## Stödda påståenden
 
 A-2013, A-2016, A-2018–A-2019.
+
+## Tillägg T-0156, 2026-09-08: relationsformlerna och två utelämnade hushållsmedlemmar
+
+Avskriften utelämnar två formler som binder barnen till faderns **första** gifte:
+
+- Anna Viktoria skrivs `hans d. i 1:a g.`
+- Gustaf Adolf Viktor skrivs `d:o s.`
+
+Formlerna gör P-0311 till belagd mor för både **P-0356** och **P-0354**, inte
+bara till en person i samma familjehushåll. Tillsammans med vigselbeläggen 1862
+och 1882 är modersrelationen därmed korroborerad.
+
+Avskriften utelämnar dessutom hushållets **piga Betty Matilda Johansson**, född
+1880 i Böda, och **statdrängen Nils Peter Sjöström**, född 1838 i församlingen.
+
+Berörda påståenden: A-5674–A-5678 (P-0356) och relationsraden i P-0354.

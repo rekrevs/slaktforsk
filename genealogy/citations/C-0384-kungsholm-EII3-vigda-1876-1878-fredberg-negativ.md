@@ -25,3 +25,17 @@ i Hemsjö 1877-09-20; Kungsholmsnollet kvarstår som korrekt avgränsad kontroll
 ## Stött påstående
 
 A-2071.
+
+## Tillägg T-0160, 2026-09-09: bevarandebrist
+
+Citationen har **ingen bevarad reproduktion alls**, trots att den bär ett
+avgränsat nollresultat med exakt angivna bild-id. Ett noll som ingen kan
+efterpröva är svagare än ett noll som kan öppnas igen, och just nollresultat
+har i detta program vid sex tillfällen visat sig gälla fel folio, fel rad, fel
+jurisdiktion, fel månad eller fel dag.
+
+Bristen har i dag **ingen Wotan-ägare** och ligger utanför T-0237:s och
+T-0240:s omfång. Den är, tillsammans med de saknade Hemsjökopiorna, enda
+skälet till att P-0337:s identitetsnivå är underkänd — föräldrabindningen i sig
+bärs av två oberoende samtida original. Bristen stängs av hämtningar med
+post-URL och SHA-256, inte av ny forskning.

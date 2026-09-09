@@ -101,3 +101,24 @@ Hela Ulrikas egen rad är prövad även där fälten är tomma eller bleka.
 Sådana dokumenterade reservationer är inte automatiskt kvarvarande
 utvinningsbrist. Den separata skulden i sonens nedre hushåll enligt
 T-0129/T-0259 består och har inte granskats bort här.
+
+## Tillägg T-0163, 2026-09-09: husbondens egen rad var aldrig utvunnen
+
+Fullpostpasset i T-0140 gällde **hustruns** rad. Jonas Anderssons egna kolumner
+hade aldrig utvunnits, trots att fullbilden `A0001445_00084` legat sparad.
+Vid omläsning kolumn för kolumn mot de tryckta rubrikerna ger hans egen rad:
+
+- födelse **`3/9` 1796** och födelseort **`i förs.`**
+- gift `2/3 34[?]`, änkling `67 23/11`
+- död **1876**, med reserverad januaridag
+- koppor `v` samt egna förhörs- och nattvardsnoteringar 1866–1875
+- nämndemannatiteln även i denna bok
+
+Detta är samma felklass som programmet funnit två gånger tidigare: ett
+fullpostpass som i praktiken gällde en annan person på samma uppslag.
+
+**Följden är materiell.** Dag, månad, år **och** födelseförsamling sammanfaller
+därmed fullständigt med C-0964:s ende Jonas i den i sin helhet lästa årgången
+1796, och A-3616 har höjts från `LEAD` till `CORROBORATED`. Föräldrarna i den
+posten har medvetet **inte** införts som personposter — ett nytt generationsled
+ligger utanför T-0163 och kräver ägarbeslut.

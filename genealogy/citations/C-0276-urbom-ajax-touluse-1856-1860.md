@@ -69,3 +69,38 @@ personbunden tidig brygga prövats; vuxenfamiljens kontinuitet består.
 ## T-0135: korrigerad datumläsning efter oberoende detaljprövning
 
 Både den äldre avskriften och mitt första T-0135-tillägg återgav felaktigt moderns datum som 4/3. Förstorade egna datumfält och oberoende läsning visar **1817 4/4**. Det är denna råform som gäller; det mindre tilläggstecknets innebörd normaliseras inte. Hennes eget födelseoriginal C-0289 ger 4 mars 1817, men datumavvikelsen finns också i den senare familjekedjan, inte enbart i barndomens längder. Namn, make, barn, ålder och de tidigare föräldrahushållen måste bära personargumentet tillsammans, inte ett felaktigt påstående om exakt datumöverensstämmelse.
+
+## Tillägg T-0159, 2026-09-09: kolumnen `Afflyttad` är utvunnen
+
+Den diplomatiska kärnavskriften saknar helt kolumnen `Afflyttad`. Den lästes
+2026-09-09 ur den redan sparade fullbilden, radbunden mot namnkolumnen, och
+innehåller **tre ifyllda celler, varav två är individuella utflyttningar som
+inte följer familjen**:
+
+- `D. Carol. Wilhelmina` → **57, `Rofhult`[?]** — en egen utflyttning 1857.
+  Uppgiften gäller **P-0109** och saknas i hennes akt.
+- `Smed. Joh. P. Urbom` → 59, Husby — familjens flytt.
+- `D. Edla Gustafva` → 59, `Fogelst.[?] torp` — en egen utflyttning, skild
+  från familjens. Detta förklarar varför hon 1860 kommer till Hjulfabriken
+  från **Blacksta** och inte från Bettna som de övriga, och gör 1859–1860 till
+  en riktad lucka i stället för en tyst. Utvunnen som A-6050 i P-0317.
+
+Hulda, Adela, Ernst, Carl och båda Maria Christina har tomma celler, och
+`N:o`-kolumnen är tom för samtliga.
+
+**Två rättelser som inte nått avskriften.** Kärnavskriften står kvar med
+`d. Maria Christina | 57 [18] 3/7` och `| 58 [18] 4/5`. Båda är rättade till
+21/3 respektive 20/4 i citationens eget T-0135-tillägg. Avskriften är
+append-only och behålls oförändrad; den som läser den får fel datum, och
+tilläggets läsningar gäller.
+
+**Kolumnen `Döpt` är också outvunnen.** Den ger Ernst Helge Petrus 22/2 1852,
+Carl Johan Edvard 24/6 1854, Maria Christina 25/3 1857 och Maria Christina
+2/5 1858. De två första stämmer exakt med födelseböckerna C-0249 och C-0250 —
+en oberoende korroborering som i dag inte syns i P-0263 och P-0268.
+
+**Kopptecknet duger inte personbundet.** `v` står likformigt på samtliga tolv
+rader i uppslaget, inklusive en fjorton dagar gammal Maria Christina.
+T-0135-tillägget skriver "Båda har v" på ett sätt som ger intryck av en
+individuell uppgift. Tecknet får inte läsas som genomförd vaccination för
+spädbarn.

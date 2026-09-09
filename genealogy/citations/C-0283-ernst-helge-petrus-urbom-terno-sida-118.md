@@ -32,3 +32,13 @@ Sida 119 fortsätter raden och anger Nykyrka 1878 som nästa utflyttning.
 ## Stödda eller motsagda påståenden
 
 A-1790.
+
+## Tillägg T-0159, 2026-09-09
+
+Inflyttningsdagen `[3/10?]` är omläst till **`2/11`**, alltså 1875-11-02 med
+attest 24. Nämnaren är otvetydigt 11, och systerns rad i C-0278 bär `75 2/11`
+med attest 25 — två löpnummer i följd samma dag. Samma rättelse är gjord i
+C-0280, som skrev `75 5/10`. Att tre avskrifter av samma cell gav tre olika
+datum är i sig ett skäl att inte behandla dem som oberoende läsningar.
+
+Avskriften är append-only och behålls oförändrad.

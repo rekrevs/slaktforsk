@@ -34,3 +34,17 @@ födelsenotis C-0830. För Johan Gustaf registreras bara säkert år och ort.
 ## Stödda påståenden
 
 A-3192–A-3194, A-3197.
+
+## Tillägg T-0162, 2026-09-09: talet står i månadspositionen
+
+Citationen skriver att "dagfältet ser ut som `12`, men månaden är inte säkert
+läsbar". Vid omläsning av den sparade fullbilden står talet `12` **under**
+bråkstrecket, alltså i månadspositionen, och dagrutan ovanför är **tom**.
+
+Uppgiften är därför **december 1815** utan dag, inte "dag 12 med oläsbar
+månad". Läsningen är kalibrerad mot hustruns `17/9`, dotterns `4/12` och
+sidans övriga sex bråk i samma hand.
+
+Detta är samma felklass som en sammanslagen kolumnrubrik: cellens innebörd
+avgörs av dess position, och den positionen måste läsas i samma utsnitt som
+värdet.

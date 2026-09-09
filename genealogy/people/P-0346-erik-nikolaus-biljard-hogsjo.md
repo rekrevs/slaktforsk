@@ -38,7 +38,7 @@ Erik/Eric Nikolaus Billjard är son till Nils Petter Persson och Anna Stina Stra
 | [P-0272 Anna Stina Strandlund](P-0272-anna-stina-stromlund.md) | mor | Högsjö, födelse 1874 och hushåll | CORROBORATED | C-0660, C-0349/C-0654 |
 | [P-0465 Anna Kristina Nyberg](P-0465-anna-kristina-nyberg.md) | hustru; första giftet för båda enligt SCB | Vigsel 1906-07-14 registrerad för Indal; ort ej fastställd | CORROBORATED | C-0657, C-0654 |
 | [P-0255 Ingrid Kristina Vidusina Höglund](P-0255-ingrid-kristina-vidusina-hoglund.md) | syster genom samma namngivna föräldrapar | Högsjö, födelser 1866 och 1874 | CORROBORATED | C-0253, C-0660 |
-| [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | syster genom modern; hennes far ej fastställd | Högsjö, födelser 1868 och 1874 | CORROBORATED | C-0350, C-0660 |
+| [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | syster genom modern | Högsjö, födelser 1868 och 1874. Hennes far är inte fastställd. | CORROBORATED | C-0350, C-0660 |
 | [P-0349 Jonas Alfred Conrad](P-0349-jonas-alfred-konrad-hogsjo.md) | bror genom samma namngivna föräldrapar | Högsjö, födelser 1874 och 1880 | CORROBORATED | C-0660, C-0659 |
 | [P-0385 Gustaf Julius Elof](P-0385-gustaf-julius-elof-hoglund.md) | bror genom samma namngivna föräldrapar | Högsjö, födelser 1874 och 1888 | CORROBORATED | C-0660, C-0459 |
 | [P-0273 Johan Petter](P-0273-johan-petter-hogsjo.md) | person i samma registrerade hushåll; ingen ytterligare biologisk relation sluts | Högsjö, 1880/1872–1881 års bok | TRANSCRIBED | C-0348, C-0349 |

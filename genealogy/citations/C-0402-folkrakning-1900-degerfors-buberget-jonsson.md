@@ -33,3 +33,16 @@ den exakta döden fastställs oberoende i C-0404–C-0405.
 ## Stödda påståenden
 
 A-2095 och A-2100–A-2105.
+
+## Tillägg T-0157, 2026-09-08
+
+**Bladet är ett utdrag, inte en självständig folkräkningsakt.** Den lokalt
+sparade fullbilden bär dokumenthuvudet `Utdrag ur Församlingsboken för
+Degerfors`. Folkräkningen 1900 är i den delen alltså en avskrift ur samma
+församlingsbok som ortens husförhörs- och församlingsböcker, inte en
+oberoende uppteckning. Citationen får därför inte användas som en andra röst
+för en uppgift som redan vilar på den bokserien.
+
+Iakttagelsen kommer ur konsolideringen av P-0066 i T-0157 och lägger till en
+trettonde post i den rad härledda källor som slutrevisionen T-0115 följer.
+Ingen ny arkivpassage har öppnats.

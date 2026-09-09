@@ -89,3 +89,21 @@ pigan Brita Lena Hansd:r, 1849 6/1, Nysätra, från fol. 568[?] 1873.
 Den återstående nedre pigradens namn/detaljer är svårlästa och hålls
 som råreservation i fullbilden. Dessa rader är inte automatiskt barn
 eller syskon i målparets familj. Namnlikhet skapar inga personfusioner.
+
+## Tillägg T-0165, 2026-09-09: dödsdagen står i den tryckta kolumnen `Död.`
+
+Avskriften och T-0131:s tillägg säger att "makarnas egna döds- och
+utflyttningsfält är tomma i den lästa raden". Det stämmer inte för mannen.
+
+Uppslagets tryckta rubrikrad löper `Flyttad` med `från`/`år månad och dag`/
+`Inflyttningsattestens nummer`, därefter **`Död.`**, därefter `Läser`. På
+**Anders Olofssons egen rad** står i kolumnen `Död.` ett dagbråk över årtalet:
+**`2[6]/4` över `1868`**. Rubrikplaceringen och cellen är kontrollerade
+centralt mot fullbilden i ett utsnitt som rymmer båda.
+
+Avskriften noterade att raden var överstruken men läste aldrig kolumnen
+bredvid. **P-0103:s akt har hela tiden sagt att hans senare öde inte är
+fastställt.** Uppgiften stöds dessutom av att hans nattvardsnoteringar upphör
+med `2/1` i årskolumnen 1868 på samma uppslag.
+
+Berör även **P-0094**.

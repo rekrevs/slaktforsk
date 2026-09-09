@@ -152,3 +152,27 @@ släktrelation till modern följer automatiskt av dopvittnesrollen.
 Postens samtliga relevanta fält har därmed prövats; kvarvarande
 läsosäkerhet är inte ett intyg om att uppgifterna saknas i källan.
 De redan länkade helbilderna och deras hashvärden är oförändrade.
+
+## Tillägg T-0163, 2026-09-09: `Eva Catharina` är ett avskriftsfel
+
+Avskriften av A I/5b sida 16 skriver `Eva Catharina` om det fjärde barnet.
+Citationens **egen** bevarade fullbild `A0001436_00022` visar **`Lisa
+Catharina`**. Läsningen är gjord vid konsolideringen av P-0521 och
+kontrollerad centralt vid förstoring; systern `Eva Lovisa`, som står två rader
+längre ned i samma hand, har en tydligt annan begynnelsebokstav.
+
+Det är alltså ett avskriftsfel, inte en källvariant. `Lisa` står på **samtliga
+fyra lästa originalrader** och ingen originalrad bär `Eva`. Formen
+`Eva Catharina` är satt till `REJECTED` i P-0521.
+
+**Följden når filnamnet.** Akten heter `P-0521-eva-catharina-buberget.md` och
+är länkad från fyra andra akter, så omdöpningen är inte en engångsändring.
+Avvikelsen är uttryckligen redovisad i akten i väntan på att namnbytet görs
+samlat.
+
+**Samma uppslag bekräftar en annan rättelse.** Husbonden skrivs
+`Gode Mannen **Jon** Andersson 1796` — kortformen `Jon`, vilket är ett tredje
+oberoende belägg för den namnform som band ihop P-0082 och P-0088, och som
+C-0062:s avskrift normaliserade bort till `Jonas`.
+
+Avskriften är append-only och behålls oförändrad.

@@ -49,3 +49,31 @@ Johan Fredriks egen rad5 har markering i1875 års förhörsfält som
 ännu behöver diplomatisk prövning. Rudolfs rad3 har däremot tomma
 egna kyrkliga/flyttfält i detta uppslag. Bevarad sidbild/hash
 tillgodoräknas; detta är utvinningsrest, inte saknad originalbild.
+
+## Tillägg T-0156, 2026-09-08: den överstrukna nionde raden är slututvunnen
+
+Den preliminära läsningen `Sigrid Ragnhild[?], 1874 6/3[?], död 13/3 74[?]` är
+felaktig på namn, kön och båda datumen. Raden är nu läst kolumn för kolumn i
+originalupplösning ur den lokalt sparade fullbilden, Högby A I/10 sida 161 rad 9:
+
+- Namn och stånd: **`S. Sigfrid Konstantin`** — prefixet `S.` är samma
+  sonmarkering som på raderna 3–6 och 8, alltså en **son**, inte en dotter.
+- Födelse: **`1874`**, **`6/2`**, orten `Ibdm`, ditto för Högby.
+- Död: **`5/3 74`**.
+- Äktenskaps-, kopp-, flytt- och attestkolumnerna är tomma, liksom hela
+  högersidans nattvards-, förhörs-, frejd-, anteckningsy- och utflyttningsfält.
+  Tomheten är väntad för ett barn som dog vid 27 dagars ålder och redovisas som
+  källgräns, inte som negativt fynd. Raderna 7 och 8 har vaccinationsmarkering,
+  denna inte.
+- Överstrykningen är en enda vågrät annulleringslinje genom namnet och
+  födelseårscellen; **dödskolumnen är inte överstruken**.
+
+Läsningen är oberoende verifierad mot C-0396:s fullbild, se dess tillägg samma
+dag: dödbokens post nr 12 ger 27 dagars ålder vid dödsfallet 5 mars, vilket
+räknat bakåt ger 6 februari 1874.
+
+Barnantalet i familjen är därmed sju belagda födslar i lästa poster, inte sex.
+Det är inte ett bevisat livstotal. Raden är slututvunnen och behöver inte läsas om
+i T-0230.
+
+Berörda påståenden: A-5623–A-5626 (P-0310) och A-5630–A-5633 (P-0311).

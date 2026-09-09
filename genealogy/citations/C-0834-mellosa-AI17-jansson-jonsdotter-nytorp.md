@@ -51,3 +51,28 @@ makens St. Malm, inte Mellösa; datumet är 32 5/3. Emilias dag kan i samma
 fullbild läsas 11/9; senare C-1093 bekräftar den läsningen. Högerpostens
 prövade tomma/svaga fält och flytten 1860 tillgodoräknas från C-1092.
 A-4552 registrerar hustruns egna nya fält, utan nya antaganden om andra personer.
+
+## Tillägg T-0165, 2026-09-09: vigseldagen står i en aldrig avskriven kolumn
+
+Uppslaget har en **tryckt** kolumn `Wigd`, placerad omedelbart efter
+`Inflyttat`s underkolumn `ifrån` och före årsspalterna 1856–1860. På Adolf
+Fredriks rad står i den kolumnen, med klammer över makarnas två rader,
+**`2[3]/9` över `54`** — alltså september 1854.
+
+Varken denna citation, C-1075, C-1092 eller T-0137:s omläsning återgav
+kolumnen; T-0137:s pass gällde dessutom **hustruns** rad. Kolumnrubriken och
+värdet är kontrollerade centralt mot fullbilden i två utsnitt, ett över
+rubrikraden och ett över datacellen.
+
+**Detta är den dag projektet har sökt efter sedan 2026-09-06**, i sju
+vigselårgångar. Den fanns i en bild som redan låg lokalt.
+
+**Dagsiffran bär en kvarstående fråga, och den är nu vägbar.** A I/17, som är
+den tidigast bevarade boken, har `23/9`. Lerbo A I/18 och A I/19 har `24/9`.
+Varje bok därefter, från Lerbo A I/20 till Nyköping A II a/2, har åter `23/9`.
+Avvikelsen är alltså isolerad till två Lerbovolymer, och **samma bok har
+`24/9` även i 1865 års nattvardsspalt**. Konflikten bevaras i P-0131 som
+A-7000 och A-7001; 1854-09-23 är bäst stödd men inte fastställd.
+
+Den bevarade bilden `C-1094-lerbo-AI18-C0006945_00248-gustafsvik.jpg` bör
+läsas om innan `24/9` behandlas som en självständig källuppgift.

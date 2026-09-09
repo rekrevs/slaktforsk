@@ -96,3 +96,13 @@ Forssas husförhör är upphävd av faktisk senare åtkomst i C-0147,
 C-0148/C-0149 och C-1041. Avsaknad av API-bildlänk var aldrig bevis
 för att volymen inte var digitaliserad eller kunde nås genom annan
 auktoriserad ingång. Inget aktuellt åtkomsthinder läggs på dessa poster.
+
+## Tillägg T-0153, 2026-09-08: handlingen är ett utdrag
+
+Dokumenthuvudet lyder `Utdrag ur Husförhörslängden för Forssa Annex församl.`.
+Handlingen är alltså härledd ur samma längd som C-0149 och C-0398 och får inte
+räknas som en av dem oberoende bekräftelse. Tolkningens formulering att den
+`bekräftar faderns födelseår … mot församlingsboken i Flen` ska läsas med den
+begränsningen. Den äldre lydelsen bevaras som tolkningshistorik.
+
+Berörda påståenden: A-5370 (P-0015).

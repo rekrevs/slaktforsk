@@ -33,3 +33,48 @@ fadern Lars men skrivs inte ut i själva födelsenotisen.
 ## Stödda påståenden
 
 - A-1741–A-1744
+
+## Tillägg T-0158, 2026-09-09
+
+**Fullpostprövning saknas helt.** Vittneskolumnen i Anders Niklas födelsepost
+1862 är inte avskriven, trots att en helbild på 5 653 × 4 566 bildpunkter är
+bevarad lokalt. Posten är alltså läst i sina kärnuppgifter men aldrig utvunnen
+kolumn för kolumn.
+
+Detta är en namngiven utvinningsrest i redan hämtat material och håller PK-05
+`EJ STYRKT` för **P-0316** och **P-0254** lika mycket. Ingen ny arkivpassage
+behövs för att stänga den.
+
+Iakttagelsen kommer ur konsolideringen av P-0316 i T-0158.
+
+## Tillägg T-0158, 2026-09-09: tre avskriftsfel, varav ett styrde en hel insats fel
+
+Fullbilden `A0003851_00013` (5 653 × 4 566 px) har lästs om vid förstoring och
+kontrollerats centralt. Ingen ny arkivpassage har öppnats.
+
+**Husförhörshänvisningen läses `Byn fol. 85`, inte `fol. 35[?]`.** Siffran är
+en sluten dubbelögla och identisk med `8` i samma kolumns `Strömäs fol. 278`
+två rader nedanför. Sidans öppna `3`-former ser tydligt annorlunda ut, se
+`Östanä fol. 343` och `Östanä fol. 345` fyra rader ovanför. Punkten efter
+talet är skriven, så talet är tvåsiffrigt och avslutat.
+
+Detta är inte en detalj. Hela den insats som skulle sluta familjens övergång
+Sättna → Högsjö riktades mot folio 35 — en sida familjen aldrig hänvisades
+till. Nollresultatet i [C-0358](C-0358-sattna-AI9a-byn-sida-35-lucka.md) är
+riktigt som observation men prövar inte den hänvisning posten faktiskt ger.
+**Folio 85 är oläst.**
+
+**Faderns titel läses `Bd:n`, alltså bonden, inte `Arb.`** Formen `arbetaren`
+hade nått akttext, tidslinje, berättelse och yrkestemat i P-0315.
+
+**Moderns namn skrivs `Cajsa Märta Dahlsten`, inte `Andersdotter`.** Det gör
+familjenamnet Dahlsten belagt redan 1862, vilket tillsammans med lysningen
+1858 i C-0511 upphäver C-0388:s varning att namnet skulle vara en senare form.
+
+**Två kvarstående utvinningsrester i samma bild.** Dopvittneskolumnen — tio
+namngivna personer — är inte avskriven, och moderns kyrktagningsdatum `27/7`
+saknas. Båda kan stängas utan ny arkivåtkomst och håller PK-05 öppen för
+P-0254 och P-0316 lika mycket som för P-0315.
+
+Den diplomatiska kärnavskriften och tolkningen ovan är append-only och behålls
+oförändrade; deras tre lydelser är från och med detta tillägg överspelade.

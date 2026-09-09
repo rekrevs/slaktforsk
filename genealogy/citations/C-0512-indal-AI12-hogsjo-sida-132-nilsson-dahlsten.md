@@ -48,3 +48,17 @@ att familjen återfanns på den angivna eller angränsande Högsjösidan.
 ## Stödda påståenden
 
 A-2312–A-2313, A-2315–A-2316 och A-2323–A-2326.
+
+## Tillägg T-0158, 2026-09-09
+
+**Fullpostprövning saknas.** Endast sex kärnrader är avskrivna ur uppslaget.
+De enskilda personernas egna kolumner — koppor, kunskapsmärken, nattvard,
+flyttfält och anmärkningar — är inte utvunna. Resten berör **P-0315**,
+**P-0316** och de fem barnen.
+
+Barnens födelsesocknar på detta uppslag är däremot nu använda: tillsammans med
+C-0388 avgränsar de familjens flytt mellan Sättna och Högsjö till fönstret
+1865-11-28 till 1872-01-06, vilket upphäver den äldre lydelsen att flyttiden
+inte går att avgöra. Se A-5860 i P-0316.
+
+Iakttagelsen kommer ur konsolideringen av P-0316 i T-0158.

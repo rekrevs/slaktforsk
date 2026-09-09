@@ -23,3 +23,18 @@ släktuppgift från det överstrukna partiet har lyfts till ett påstående. Det
 ## Stödda påståenden
 
 Inga; bilden bevarar proveniens och läsreservation.
+
+## Tillägg T-0162, 2026-09-09: det överstrukna hushållet är läsbart
+
+Citationen skriver att sidans övre hushåll är hårt överstruket och att "ingen
+namn-, datum- eller släktuppgift har lyfts". Den formuleringen beskriver ett
+**val**, inte en oläslighet, och kan lätt läsas som att raderna vore
+oläsbara. De är överstrukna men läsbara.
+
+Utvunnet vid omläsning 2026-09-09: bonden **Johan Hansson f. 1802**, hustrun
+**Brita Ersdotter f. 1799**, sonen **Johan Albert f. 1834** och två döttrar
+födda 1841 och 1844, med **`Sättna` i både `Hvarifrån` och `Hvarthän`** och
+årtalet 1844.
+
+En överstrykning är en avförd rad, inte en oläslig rad. Skillnaden avgör om en
+passage ska räknas som prövad eller som öppen.

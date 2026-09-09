@@ -34,3 +34,18 @@ Elisabet. Personerna i familj nr 2–4 görs inte till släkt.
 ## Stödda påståenden
 
 A-2023, A-2025, A-2029–A-2032.
+
+## Tillägg T-0158, 2026-09-09
+
+**Bladet är ett utdrag, inte en självständig folkräkningsakt.** Den sparade
+fullbilden bär dokumenthuvudet `Utdrag ur Husförhörslängden` för Östra Husby.
+Folkräkningen 1890 är i den delen alltså en avskrift ur samma kyrkobokföring
+som församlingens husförhörs- och församlingsböcker. Citationen får inte
+användas som en andra röst för en uppgift som redan vilar på den serien;
+P-0312:s A-2023, A-2024, A-2660 och A-2661 är nedgraderade av det skälet.
+
+**Hushållets tjänstefolk saknas i avskriften.** På samma uppslag står pigorna
+Kristina Sofia Karlsson född 1871 och Klara Vilhelmina Hagberg född 1866 med
+sin oäkta dotter Linnea Matilda född 1889, samt drängen Karl Gottfrid Larsson
+född 1874. Den siste har samma förnamn som husbondens son men är en annan
+person; skilj dem åt. Utvinningsresten ligger i en redan sparad bild.

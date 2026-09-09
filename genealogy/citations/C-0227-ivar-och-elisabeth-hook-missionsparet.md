@@ -19,5 +19,7 @@ de namnger inte Gunnar som son. De delarna kvarstår som familjeuppgift.
 
 ## Stödda påståenden
 
-A-1453–A-1454, A-1457.
+A-1453–A-1454, A-1457. Tillagt i T-0146, 2026-09-08: A-4833 (P-0308),
+namnformen Margareta Höök Wennfors i S-0177, som inte hade registrerats som ett
+påstående för henne.
 

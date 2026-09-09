@@ -91,3 +91,16 @@ lästa som routing utan träff. Kvar står:
 ## Stödda påståenden
 
 A-3946–A-3951.
+
+## Tillägg T-0157, 2026-09-08
+
+Rättelsen 2026-09-07 av hitflyttningsdatumet till **1887-11-09** hade inte nått
+citationens eget avsnitt `Vad detta stänger`, som på två ställen fortfarande
+skriver 1887-11-02: dels i brödtexten "Familjen flyttade från Lerbo till
+Vadsbro den 2 november 1887", dels i kedjetabellens första rad. Båda
+lydelserna är överspelade. Avsnittet är append-only och behålls oförändrat;
+från och med detta tillägg gäller **1887-11-09, attest 38** i hela citationen,
+i enlighet med rättelsen och C-1064.
+
+Ingen akt använder den felaktiga lydelsen; iakttagelsen kommer ur
+konsolideringen av P-0043 i T-0157.

@@ -40,3 +40,19 @@ församlingsboken.
 ## Stödda påståenden
 
 A-0204–A-0207, A-0212–A-0213, A-0216–A-0219 och A-0221.
+
+## Tillägg T-0149, 2026-09-08: faddrarna och en felsegmenterad yrkesangivelse
+
+Den lokalt sparade helbilden `00194429_00039` har lästs om inom T-0149. Ingen ny
+arkivåtkomst gjordes.
+
+- **Faddrarna, som avskriften lämnade som `[faddrar delvis svårlästa]`, är
+  läsbara:** `Hem.äg. E. G. J[onsson?] och h.` samt `Jak. Burman och h. i
+  Ultervattnet`, alltså moderns barndomsby. Efternamnet i den första är
+  läsosäkert och normaliseras inte.
+- **Faderns yrke är felsegmenterat i avskriften.** Den ger `arb. hem.äg.`, men
+  originalet radbryter efternamnet: `Anders Alfr. Anders-` / `son, Hem.äg.`.
+  Yrket är alltså `Hem.äg.`, vilket också är vad citationens egen normalisering
+  säger; `arb.` är slutet av namnet, inte en yrkesbeteckning.
+
+Berörda påståenden: A-5051 (P-0002).

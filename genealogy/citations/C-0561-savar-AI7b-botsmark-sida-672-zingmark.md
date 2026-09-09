@@ -76,3 +76,31 @@ bok603 hör till deras respektive fält. De fem yngre barnen Anna
 Margretha,Nicanor,Emanuel,Jonas Eugen och Olof Konrad är uttryckligen
 bägges barn i andra giftet, alltså Wilhelminas halvsyskon på fädernet.
 Faderns bonde- och hushållsuppgifter beskriver inte hennes eget yrke.
+
+## Tillägg T-0154, 2026-09-08: huvudtabellen bär upphävda uppgifter
+
+Huvudtabellen anger `Christina Wilhelmina` och `Degerfors 1877 15/10` för Maria
+Elina. Citationens eget tillägg rättar namnformen till `Cajsa Wilhelmina` och
+året till 1875. Huvudtabellen är inte uppdaterad, så två motstridiga lydelser kan
+läsas som aktuella. Rättelsen gäller; huvudtabellen är avskriftshistorik. Rör
+P-0436 och P-0437.
+
+## Tillägg T-0161, 2026-09-09
+
+**Huvudtabellens rader 10–14 är kollapsade.** De återges som en enda
+sammanslagen rad utan kolumner, vilket döljer att fem personer har var sin
+egen rad med egna uppgifter. Raderna är nu utvunna kolumn för kolumn i P-0430
+och P-0431; propageringsluckan gäller även **P-0432 och P-0434**.
+
+**Citationen var aldrig hänvisad i P-0430:s och P-0431:s akter**, trots att
+`genealogy/source-coverage.md` raderna 367–368 hela tiden fört den till dem.
+Detta är samma mönster som mätningen i T-0160 pekade ut: täckningsöversikten
+vet mer än akterna.
+
+Avskriften är append-only och behålls oförändrad.
+
+**Rad 8:s reservation är överspelad.** Huvudtabellen anger `1864 24/[5?]` för
+Anders Wilhelm. Citationens egen bild visar vid förstoring en tydlig trea utan
+överskrivning, klart skild från femman i `1861 28/5` i samma hand.
+Överskrivningen finns bara i A I/8 b, inte här. Tolkningstexten säger dessutom
+felaktigt att det var denna sidas månadssiffra som lästes som maj.

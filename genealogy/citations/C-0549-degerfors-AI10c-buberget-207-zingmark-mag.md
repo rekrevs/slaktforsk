@@ -40,3 +40,30 @@ A-2416, A-2427.
 ## T-0129: egenrad och utvinningsgräns 2026-09-08
 
 Fullbilden har återsetts. Bonden Anders Jonssons rad är den första, född 1839 16/4 och gift 67 28/1. Personbundna förhörs-/nattvardsfält och fortsatta smådatum i anmärkningsdelen är ifyllda; fullständig rådatumavskrift av dessa egna fält återstår. Detta är en konkret utvinningsrest, inte bara en ny ännu oläst källserie. Barn och måg har egna rader; deras noter får inte läggas på fadern. Sidans fastighets-/bråknot i vänstermarginalen behöver läsas ihop med egen familjerad innan säkert mantal/ägande sluts.
+
+## Tillägg T-0149, 2026-09-08: Stödda påståenden kompletteras
+
+Listan ovan tar upp A-2416 och A-2427. Citationen bär också Livia Sofias egen
+rad, som är det tidigaste hushållsbelägget för P-0030 och som inte hade nått
+hennes akt. Stödda påståenden utökas med A-5070–A-5074 (P-0030).
+
+## Tillägg T-0157, 2026-09-08: hustruns och sonens rader
+
+Samma mönster som i T-0149-tillägget gäller ännu en gång: uppslaget bär rader
+som aldrig nått de berörda akterna.
+
+**Lotta Sofia Andersdotters egen rad (P-0066).** Hon står som hustru på
+uppslaget med födelsen skriven **`1843 30/10`** och vigseln `67 28/1`. Detta
+är en **fjärde** bråkform för hennes födelsedag vid sidan av de tre som
+C-0110, C-0111 och C-0403 bär, och den förklarar oktobervarianterna i stället
+för att bara lägga till ännu en läsning. Raden stänger dessutom hennes
+boendelucka 1877–1889. Uppgifterna är nu utvunna i P-0066 som A-5730–A-5739.
+
+**Sonen Karl Magnus rad (P-0071).** Raden skriver **`1880 27/7`**, medan
+P-0071:s A-0312 bär 21/7. Konflikten är odokumenterad och löses inte här; den
+förs vidare som en fråga till den kohort som äger P-0071. Samma påstående
+låter dessutom C-0060 och C-0404 korroborera varandra, trots att C-0060 enligt
+sitt eget dokumenthuvud är ett utdrag ur samma längdserie som C-0404 och
+alltså inte är en oberoende röst.
+
+`Stödda påståenden` utökas med A-5730–A-5739 (P-0066).

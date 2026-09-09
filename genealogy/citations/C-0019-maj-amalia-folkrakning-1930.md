@@ -70,3 +70,11 @@ via indexet och senare egna församlingsboksrader, inte via denna bild.
 ## Tillägg T-0143, 2026-09-08: makens civilståndsår
 
 Den bevarade helbildens rubriker har prövats för P-0015:s rad vid anhörigavstämningen. Vigselår och År för äktenskapets upplösning är skilda kolumner. Hans17 står i upplösningskolumnen och raden har änklingsmarkering. Detta avvisar den tidigare slutsatsen om ett andra äktenskap1917. Det stämmer med C-0919:s änklingsdatum1917-05-01 och säger inte i sig att han förblev änkling till döden1969. Rättelsen är införd i P-0015:s aktuella akt/profil; äldre läsningar och påståenden bevaras historiskt. Full individuell adoption återstår i T-0153.
+
+## Tillägg T-0153, 2026-09-08: hushållerska står utskrivet i församlingsboken
+
+Tillägget från T-0125 håller `hushållerska` som en osäker äldre
+sammanställningsuppgift. Ordet står utskrivet i klartext på Hulda Amalias egen
+rad i Hyltinges församlingsbok 1918–1927, uppslag 13 rad 13, på den redan
+sparade helbilden `00154496_00019` (se C-0919:s tillägg samma dag). Uppgiften är
+alltså originalbelagd och inte enbart en sammanställning.

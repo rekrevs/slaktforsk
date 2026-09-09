@@ -9,14 +9,14 @@ dotterns egen födelsenotis; eget ursprung forskas inte vidare i T-0037.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-3239 | Samuel Bökelund var far till Johanna Christina, född 1809-07-03 i Mortorp. | CORROBORATED | mycket hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md), [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Egen födelsenotis förenad med vuxenhushållets namn, år och socken. |
+| A-3239 | Samuel Bökelund var far till Johanna Christina, född 1809-07-03 i Mortorp. | CORROBORATED | mycket hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Egen födelsenotis förenad med vuxenhushållets namn, år och socken. **Justerat 2026-09-09 (T-0164):** C-0467 är struken som belägg — den citationen namnger ingen av föräldrarna, den skriver bara `Fru Joh. Chr. Bökelund`. Faderskapet bärs av C-0851, som dessutom ger hans ämbete: **`Kyrkoherdens i Mortorp`**. |
 
 ## Relationer
 
 | Person | Relation | Status | Belägg |
 |---|---|---|---|
 | [P-0389 Johanna Christina Bökelund](P-0389-johanna-christina-bokelund.md) | dotter | CORROBORATED | C-0851, C-0467 |
-| [P-0518 Gustava Maria Kylenstjerna](P-0518-gustava-maria-kylenstjerna-mortorp.md) | hustru/medförälder | TRANSCRIBED | C-0851 |
+| [P-0518 Gustava Maria Kylenstjerna](P-0518-gustava-maria-kylenstjerna-mortorp.md) | hustru/medförälder | TRANSCRIBED | C-0851 **Rättat 2026-09-09 (T-0164):** hennes namn är `Gustava Maria Rybergsd:r`; formen Kylenstjerna är en felläsning, se tillägget till C-0851. |
 
 ## Slutstatus
 

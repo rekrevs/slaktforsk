@@ -58,12 +58,13 @@ Johannes är son till Olaus Fredberg och Brita Stina Svensdotter, källbunden i 
 | [P-0396 Ruth Fredrika Fredberg](P-0396-ruth-fredrika-fredberg.md) | syster | 1888, Kungsholm; senare Hudiksvall | CORROBORATED | C-0474 |
 | [P-0411 Johan August Fredberg Fredriksson](P-0411-johan-august-fredberg-fredriksson.md) | farbror | 1895–1900, Hudiksvall | CORROBORATED | C-0322, C-0323, C-0326, C-0474 |
 | [P-0414 Anna Lovisa Andersdotter](P-0414-anna-lovisa-andersdotter-fagelvik.md) | ingift faster | 1895–1900, Hudiksvall | CORROBORATED | C-0322, C-0323 |
-| [P-0275 Anna Matilda Hök](P-0275-anna-matilda-hudiksvall.md) | mor till deras son Ivar; inget äktenskap belagt | 1903, Hudiksvall | CORROBORATED | C-0880 anger modern; A-1617/A-2413 och PCD-2026-08-29-001 fastställer fadern |
-| [P-0489 Augusta Gärda Charlotta](P-0489-augusta-garda-charlotta.md) | halvsyskon genom Olaus | 1900/1910, Kungsholm/Klara; gemensam grav registrerad senare | CORROBORATED | C-0474, C-0774, C-0806, C-0945 |
-| [P-0490 Ester Olivia Johanna](P-0490-ester-olivia-johanna.md) | halvsyskon genom Olaus | 1900/1910, Kungsholm/Klara; gemensam grav registrerad senare | CORROBORATED | C-0474, C-0774, C-0806, C-0945 |
-| [P-0491 Edit Maria Justina](P-0491-edit-maria-justina.md) | halvsyskon genom Olaus | 1900/1910, Kungsholm/Klara; gemensam grav registrerad senare | CORROBORATED | C-0474, C-0774, C-0806, C-0945 |
-| [P-0492 Oskar Fredrik](P-0492-oskar-fredrik.md) | halvsyskon genom Olaus | 1900/1910, Kungsholm/Klara; gemensam grav registrerad senare | CORROBORATED | C-0474, C-0774, C-0806, C-0945 |
-| [P-0493 Elvira Fredina Gully](P-0493-elvira-fredina-gully.md) | halvsyskon genom Olaus | 1910, Klara; gemensam grav registrerad senare | CORROBORATED | C-0474, C-0774, C-0945 |
+| [P-0275 Anna Matilda Hök](P-0275-anna-matilda-hudiksvall.md) | barnamoder | 1903, Hudiksvall. Hon är mor till hans son Ivar; inget äktenskap är belagt. **Rättat 2026-09-09 (T-0159):** kvalificeringen låg tidigare i relationskolumnen, där ordet `mor` fick antavleparsern att göra henne till hans egen mor. | CORROBORATED | C-0880 anger modern; A-1617/A-2413 och PCD-2026-08-29-001 fastställer fadern |
+| [P-0308 Astrid Margareta Höök](P-0308-astrid-margareta-hook-wennfors.md) | sondotter | Hennes egen nedtecknade text om farfadern | TRANSCRIBED | C-0320 |
+| [P-0489 Augusta Gärda Charlotta](P-0489-augusta-garda-charlotta.md) | halvsyskon genom Olaus | 1900/1910, Kungsholm/Klara; gemensam grav registrerad senare | CORROBORATED | C-0774, C-0806, C-0945 |
+| [P-0490 Ester Olivia Johanna](P-0490-ester-olivia-johanna.md) | halvsyskon genom Olaus | 1900/1910, Kungsholm/Klara; gemensam grav registrerad senare | CORROBORATED | C-0774, C-0806, C-0945 |
+| [P-0491 Edit Maria Justina](P-0491-edit-maria-justina.md) | halvsyskon genom Olaus | 1900/1910, Kungsholm/Klara; gemensam grav registrerad senare | CORROBORATED | C-0774, C-0806, C-0945 |
+| [P-0492 Oskar Fredrik](P-0492-oskar-fredrik.md) | halvsyskon genom Olaus | 1900/1910, Kungsholm/Klara; gemensam grav registrerad senare | CORROBORATED | C-0774, C-0806, C-0945 |
+| [P-0493 Elvira Fredina Gully](P-0493-elvira-fredina-gully.md) | halvsyskon genom Olaus | 1910, Klara; gemensam grav registrerad senare | CORROBORATED | C-0774, C-0945 |
 
 Gemensam grav gör inte de tre senare gravsatta utan säker familjebrygga i C-0945 till nya identifierade släktingar. Halvsyskonens hemorter belägger inte en gemensam flytt för hela familjen.
 
@@ -197,3 +198,22 @@ Senare C-0800 och C-0945/C-0946 är tillgodoräknade i hela akten. Äldre luckor
 > - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: hela vuxenlivet efter 1900, död och graven i Sollentuna har genomförbara vägar (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 233. Matrisraden i source-coverage.md består.
 >
 > Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — 1880–1900-kedjan, namnformerna, föräldrarna, farbrodershushållet, yrket och det ägarfastställda faderskapet är konsoliderade; födelsenotisens frånvaro, 1910 och den uppgivna gravvägen är avgränsade kompletteringsspår.
+
+### Anhörigrättelse T-0144, 2026-09-08
+
+C-0474 är borttagen som belägg för halvsyskonrelationerna till P-0489–P-0493.
+Lysningsakten 1888 räknar bara upp Olaus fyra barn i det **första** giftet
+(Robert Nicolaus, Johannes Ivar, Frida Elisabeth och Ruth Fredrika) och kan
+därför inte belägga relationen till barn födda 1890–1902. Relationerna bärs
+oförändrat av C-0774, C-0806 och C-0945; ingen relation ändrar status. C-0474
+bär fortsatt Johannes Ivars egen härkomst och Olaus omgifte på andra rader i
+akten. Felet hör till den avslutade kohorten T-0124 och är rättat minimalt här;
+full individuell akt-/profiladoption för P-0287 ägs fortsatt av den kohorten.
+
+### Anhörigrättelse T-0146, 2026-09-08
+
+Sondottern [P-0308](P-0308-astrid-margareta-hook-wennfors.md) saknades i Relationer trots
+att C-0320/S-0249 är hennes egen nedtecknade text om just denna farfader och att
+hela den källan vilar på relationen. Raden är införd med källans egen status.
+Ingen ny uppgift om en levande person har hämtats in. Full individuell
+akt-/profiladoption för P-0287 ägs fortsatt av T-0124.

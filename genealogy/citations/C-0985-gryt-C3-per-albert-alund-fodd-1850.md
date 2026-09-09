@@ -82,3 +82,15 @@ avser samma person.
 ## Stödda påståenden
 
 A-3666, A-3667, A-3668, A-3671; upphäver A-0489.
+
+## Tillägg T-0159, 2026-09-09: bevarandebrist
+
+Citationen saknar helt avsnittet `Lokal källbild` och har varken filnamn eller
+SHA-256 för någon bevarad bild. Posten är alltså läst men inte reproducerad
+lokalt.
+
+Det väger tyngre här än vanligt: denna citation bär ett av de starkaste
+beläggen för P-0110:s identitet, och bristen håller PK-11 `EJ STYRKT` för
+honom. Den ligger dessutom utanför både T-0237:s och T-0240:s omfång och har
+i dag ingen ägare. Bristen stängs av en hämtning med post-URL och hash, inte
+av ny forskning.

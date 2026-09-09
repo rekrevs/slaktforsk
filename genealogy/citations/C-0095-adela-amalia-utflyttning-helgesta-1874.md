@@ -37,3 +37,15 @@ inte digitaliserad hos Riksarkivet och kan därför inte läsas på distans.
 ## Stödda påståenden
 
 A-0503 och A-0506.
+
+## Tillägg T-0159, 2026-09-09
+
+Citationen säger att Helgesta A I/17 inte är digitaliserad och inte kan läsas
+på distans. Lydelsen är upphävd: volymens sida 8 lästes 2026-08-21 ur
+reproduktionen `C0006612_00018`, se
+[C-0180](C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md). Åtkomstpåståendet
+gjorde en materiell och kostnadsfri källväg osynlig i två citationer samtidigt;
+samma lydelse finns i C-0096 och är åtgärdad där. Avsnittet är append-only och
+behålls oförändrat.
+
+Iakttagelsen kommer ur konsolideringen av P-0110 och P-0111 i T-0159.

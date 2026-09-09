@@ -50,3 +50,19 @@ Egen rad 1 visar Anders Magnus Karlsson, hemmansägare, 1844 28/8, Östra Husby 
 Vaccinationsstreck och kristendomsvärden **b, b**, nattvardsmarkering finns. Nattvardsgångens egna rådatum läses 2/6, 27/9, 10/10 och 22/5[?] under de senare årskolumnerna 1895–1898; 1894 är blankt. Förhörsåren är sammanskrivna, med 94, 95, 96, 97, 98 och 99 synliga med viss överlappning. Ingen egen frejd-/värnplikts-/in-/utflyttningsnot i raden; Elins arbetsbetyg och lysning hör till dottern. Dottern Ida har 1875 15/8; Ester har här 1884 **21/1**, till skillnad från C-0406:s 17/1.
 
 Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.
+
+## Tillägg T-0158, 2026-09-09: dagkonflikten 17/21 januari finns inte
+
+Den registrerade konflikten om Ester Elisabets födelsedag — `17/1` i
+Östra Husby A I/24 mot `21/1` i de senare böckerna — bygger på två fellästa
+täljare. Vid omläsning av samtliga fyra böcker skriver **alla** `84 19/1`:
+A I/24 rad 6, A I/25 rad 5, A II a/1 rad 4 och rad 17 samt A II a/2 rad 2.
+Läsningen är prövad mot samma händers `15`, `17`, `22`, `24` och `19/12` på
+samma uppslag, och kontrollerad centralt mot originalbilden av A I/24: på det
+uppslaget står Elin `73 15/1`, Ida Karolina `75 15/8`, Carl Gottfrid
+`80 17/3` och Ester Elisabet `84 19/1`, alla i samma hand.
+
+Födelsedagen är alltså **1884-01-19**, och det finns ingen källkonflikt att
+bevara. Tidigare avsnitt i denna citation är append-only och behålls
+oförändrade; deras dagangivelser är från och med detta tillägg överspelade.
+Se A-5902 i P-0359.

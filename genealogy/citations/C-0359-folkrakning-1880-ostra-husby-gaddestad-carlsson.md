@@ -34,3 +34,18 @@ Charlotta: make, barn, födelseår/-socken och gård sammanfaller.
 ## Stödda påståenden
 
 A-2022, A-2025, A-2029–A-2031.
+
+## Tillägg T-0158, 2026-09-09
+
+**Bladet är ett utdrag, inte en självständig folkräkningsakt.** Den sparade
+fullbilden bär dokumenthuvudet `Utdrag ur Husförhörslängden` för Östra Husby.
+Folkräkningen 1880 är i den delen alltså en avskrift ur samma kyrkobokföring
+som församlingens husförhörs- och församlingsböcker. Citationen får inte
+användas som en andra röst för en uppgift som redan vilar på den serien;
+P-0312:s A-2023, A-2024, A-2660 och A-2661 är nedgraderade av det skälet.
+
+**Hushållets tjänstefolk saknas i avskriften.** På samma uppslag står pigan
+Maria Mathilda Reinholdsdotter född 1859, drängen Nils Johan Gustafsson född
+1862, undantagshjonet Anders Larsson född 1800 och den dövstumma dottern Sofia
+född 1845. Ingen av dem är avskriven, och ingen av dem får antas vara släkt
+enbart av hushållsplaceringen. Utvinningsresten ligger i en redan sparad bild.

@@ -28,3 +28,16 @@ Olaus bror. Källorna avgör ännu inte om männen var hel- eller halvbröder.
 ## Stödda påståenden
 
 A-1614–A-1616, A-1924–A-1927, A-2335, A-2338 och A-2341–A-2342.
+
+## Tillägg T-0160, 2026-09-09
+
+**Bladet är ett utdrag.** Den sparade fullbilden bär dokumenthuvudet
+`Utdrag ur Församlingsboken för Hudiksvalls…`. Folkräkningen 1900 för
+Hudiksvall är alltså en härledd kopia av just den A II a/1a som
+[C-0323](C-0323-riksarkivet-hudiksvall-AIIa1a-sida-10-fredberg.md) återger,
+och får inte räknas som ett oberoende belägg vid sidan av den. Citationen
+nämner det inte.
+
+Detta är särskilt relevant för **P-0287**, där de två citationerna har använts
+som två röster. Iakttagelsen kommer ur konsolideringen av P-0396 i T-0160 och
+är den tjugofjärde kända härledda källan i programmet.

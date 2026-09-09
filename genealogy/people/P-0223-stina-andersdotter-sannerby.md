@@ -61,7 +61,7 @@ Makens senare hustru [Anna Ersdotter](P-0222-anna-ersdotter-carlberg.md) och der
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1809–1818, belagda upplägg | Sannerby | Sidorna273 och 374 | [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md) | Bokperiod är inte bevis på hela hennes tidigare liv i byn. |
+| 1809–1818, belagda upplägg | Sannerby | Sidorna 273 och 374 | [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md) | Bokperiod är inte bevis på hela hennes tidigare liv i byn. |
 
 
 ## Yrke, utbildning och ekonomi

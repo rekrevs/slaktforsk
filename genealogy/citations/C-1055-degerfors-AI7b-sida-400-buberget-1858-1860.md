@@ -106,3 +106,23 @@ eller läsning av varje mellanår. Upprepade födelsedatum i efterföljande
 hushållsböcker räknas inte automatiskt som oberoende ursprungsuppgifter.
 Nämndemannatiteln tillhör Jon, inte hans hustru; den ensam fastställer
 varken familjens förmögenhet eller Ulrikas egna samhällsuppdrag.
+
+## Tillägg T-0163, 2026-09-09
+
+**Citationen har åberopats som belägg för något den inte innehåller.**
+P-0065:s akt förde åtta syskonrader med C-1055 som ett av två belägg och med
+status `CORROBORATED`. Uppslaget nämner ingen av syskonen — de saknas där.
+Deras frånvaro är en iakttagelse om detta uppslag, inte ett belägg **för**
+syskonskapet. Beläggen är strukna ur de åtta raderna 2026-09-09 och statusen
+sänkt, eftersom de kvarvarande husförhörsböckerna är en bokföringskedja.
+
+**Barnraderna är inte utvunna och bilden saknas lokalt.** Endast namn och år
+är avskrivna för barnen, och `A0001440_00141` finns inte bevarad. Det är den
+namngivna orsaken till att PK-05 och PK-11 står `EJ STYRKT` för P-0520–P-0525.
+Bevarandet ägs enligt `genealogy/source-coverage.md` av T-0259.
+
+**Årtalskonflikten om Maria Brita är mogen att avgöras.** Citationen ger
+`Dotter Maria Brita — 1845` mot 1847 i A I/6b, A I/8b och A I/9c, och
+avgränsade själv frågan till att sida 536 först måste läsas förstorad. Det är
+gjort i C-0869:s T-0140-tillägg. Dagtalet varierar dessutom mellan `22/6`,
+`23/6` och `23/29[?] juni`. Frågan tillhör **P-0526**, utanför denna kohort.

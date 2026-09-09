@@ -33,3 +33,13 @@ Kontrollen motsäger inte folkräkningens uppgift att familjen bodde i Rosinedah
 år 1900. Den visar endast att familjen inte återfanns på Rosinedals ordinarie
 uppslag i denna längd när de aktuella inskrivningarna gjordes. Oskar Alfreds
 födelsenotis 1897 anger endast Degerfors, inte Rosinedal.
+
+## Tillägg T-0149, 2026-09-08: nollresultatet är förväntat efter omläst hänvisning
+
+Kontrollen av sida 103 gav inget resultat. Det framstår nu som förväntat.
+Födelsenotisens hänvisningskolumn för P-0001 har lästs om i full upplösning och
+anger **`93.3`**, inte `263.3` — grannradernas värden i samma kolumn bekräftar
+formen sida.hushåll och att talet är tvåsiffrigt. Volymregistrets routing för
+Rosinedal till sida 103 var alltså inte notisens egen hänvisning. Rätt ingång är
+**sida 93, hushåll 3**. Nollet för sida 103 består med sin exakta räckvidd men är
+inte längre ett argument mot notisens hänvisning. Se P-0001:s A-0019.

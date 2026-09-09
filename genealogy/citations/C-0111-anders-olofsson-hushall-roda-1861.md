@@ -89,3 +89,13 @@ Längre ned står **Gifte son Carl Petter Andersson**, 2/9 1839, hustru **Ulla C
 ### Precisering av den separata pigraden — T-0139, 2026-09-08
 
 Nedersta raden har råformen **Piga Maria Carolina Olsdr[?]**, födelsetal **16/[?] 1837[?]**. Namnets slut och datumets månad är prövade men reserverade; även den tidigare årsläsningen 1833 behålls som osäker läshistorik. Raden står efter flera tomrader under sonfamiljen. Sidplaceringen visar inte säkert hos vilket av hushållen hon tjänade och ger inget släktskap.
+
+## Tillägg T-0157, 2026-09-08
+
+Avsnittet `Konflikt om födelsedagen` säger att ingen läsning väljs bort och
+att samtliga **tre** bevaras som konflikt. Lydelsen är överspelad i två steg:
+C-0403 tillförde en läsning, och C-0549 bär Lotta Sofias egen rad med formen
+`1843 30/10`. Formerna är alltså **fyra**, och den sista är den enda som står
+på hennes egen rad i ett hushåll hon själv är förd i. Avsnittet är append-only
+och behålls oförändrat; konfliktens omfång är från och med detta tillägg fyra
+former, se tillägg T-0157 i C-0549 och A-5730–A-5739 i P-0066.

@@ -115,3 +115,12 @@ och systersonens missionsverksamhet och en äldre icke-döpt-markering
 bevisar inte hela familjens medlemskap i ett visst samfund. Personbundna
 uppgifter hålls skilda även när samma folio används. Originalbilden och
 registret finns lokalt med de hashar som anges ovan.
+
+## Tillägg T-0152, 2026-09-08: läsomfånget på folio 591
+
+Avskriften täcker enbart **raderna 12–16**. Att ett syskon saknas där är därmed
+en läsomfångsgräns, inte ett dödsnoll eller ett belägg för frånvaro i hushållet.
+Rad 13 är dessutom återgiven med färre kolumner än rad 16, som lästes i hela
+uppslaget. Ingen akt får formulera frånvaron som ett negativt fynd.
+
+Berörda påståenden: A-5260–A-5272 (P-0275, P-0278).

@@ -32,7 +32,8 @@ Evy Åsa Kristina Höök är Kristinas mor enligt familjeuppgiften C-0140. Datum
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0210 Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md) | barn | ej angivet | TRANSCRIBED | C-0140 |
+| [P-0212 Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md) | make | Vigsel 1962; hon efterlevande maka 2017 | TRANSCRIBED | C-0901, C-0140 |
+| [P-0210 Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md) | barn | Dotter i äktenskapet med P-0212 | TRANSCRIBED | C-0140 |
 | [P-0241 Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md) | far | Storbränna, Sättna | CORROBORATED | C-0225, C-0240 |
 | [P-0246 Emma Petronella Eugenia Henriksson](P-0246-emma-petronella-eugenia-henriksson.md) | mor | Storbränna, Sättna | TRANSCRIBED | C-0240 |
 
@@ -124,3 +125,12 @@ Spara endast det som behövs för att fastställa nästa historiska generation.
 > Petronella Eugenia Henriksson. Axels faderskap och Emmas identitet är säkrade;
 > nästa öppna fråga är deras egna föräldrar i födelseböckerna. Den föreslagna
 > Tuna-graven för Axel född 1867 är fortsatt avvisad.
+
+### Anhörigrättelse T-0146, 2026-09-08
+
+Den reciproka make-relationen till [P-0212](P-0212-gunnar-hook.md) saknades trots
+att C-0901 och C-0140 bär den från hans sida; den är nu införd med samma status
+och belägg som där. Tid/plats för dotterrelationen till P-0210 var `ej angivet`
+och är preciserad till äktenskapet med P-0212. Ingen status ändras och ingen ny
+uppgift om en levande person har hämtats in. Full individuell akt-/profiladoption
+för P-0211 ägs fortsatt av T-0119.

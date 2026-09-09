@@ -31,3 +31,11 @@ och begravning kan inte anges utan en ny primärpost.
 ## Stött kontrollpåstående
 
 A-2215.
+
+## Tillägg T-0156, 2026-09-08: nollet prövar inte dödsmånaden
+
+Kontrollen täcker posterna 111–138, alltså **28 september–30 december 1911**.
+Dödsdagen är efter omläsning **1911-01-16**, se C-0260 och C-0460. Nollet prövar
+därmed inte den månad då dödsfallet inträffade, och kan inte användas som stöd
+för att dödsposten saknas. Den utförda kontrollen bevaras med sitt exakta omfång;
+en sökning i januari 1911 återstår.

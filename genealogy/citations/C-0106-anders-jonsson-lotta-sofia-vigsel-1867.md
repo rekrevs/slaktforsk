@@ -88,3 +88,14 @@ Lysning 6 januari och vigsel 28 januari 1867 består. Brudgummens dag 14/16 apri
 ### T-0139: brudens reserverade folio efter andraläsning
 
 Brudens nedre foliosiffra läses bäst3:14/3[?]. Det ersätter både äldre14/2 och mellanläsningen14/4[?] som aktuellt sökförslag. Bildens svaga siffra förblir reserverad; ingen ny hushållsfolio har öppnats. Faderns närvarande giftomansroll ändras inte.
+
+## Tillägg T-0157, 2026-09-08
+
+Avsnittet `Brudens far` i huvudtexten registrerar fortfarande faderskapet som
+`LEAD`. Det är upphävt i citationens eget T-0139-tillägg, men upphävandet är
+inte utmärkt uppe i texten, och en läsare som stannar vid `Brudens far` får
+därför en obelagd släktkant som ser prövad ut. Huvudtexten är append-only och
+behålls oförändrad; **T-0139:s upphävande gäller**, och inget faderskap får
+härledas ur detta avsnitt.
+
+Iakttagelsen kommer ur konsolideringen av P-0066 i T-0157.

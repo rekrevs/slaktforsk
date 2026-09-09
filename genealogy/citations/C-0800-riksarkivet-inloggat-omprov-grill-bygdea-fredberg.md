@@ -46,3 +46,16 @@ här sparade bilden. Fem barn totalt enligt rättelsen från T-0124 kvarstår;
 hela familjen får inte beskrivas som fullständigt originalutvunnen från
 enbart denna bild. En exakt angränsande fortsättningsbild återstår att
 lokalisera vid beslutad uppföljning; detta motiverar inget nytt årgångssvep.
+
+## Tillägg T-0160, 2026-09-09
+
+**En outvunnen anteckning på Robert Nikolaus rad.** Den sparade 1890-bilden
+bär på hans rad en notering som läses `In[?]. i Hudiksvall`. Den är inte
+utvunnen i citationen och stödjer Hudiksvallsflytten, som enligt hans egen rad
+i C-0323 skedde 1896-12-29 med inflyttningsnummer 316. Gäller P-0367.
+
+**Två systrars hushållsrader hade aldrig nått deras akter.** Folkräkningen
+1890, Jordgubben N:ris 1–5, s. 46 rad 47, bär P-0395:s och P-0396:s egna
+rader. Täckningsöversikten `genealogy/source-coverage.md` listade dem korrekt
+på rad 696 — men akterna själva hänvisade inte till citationen. Tabellen visste
+alltså mer än akterna.

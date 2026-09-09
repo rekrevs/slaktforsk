@@ -61,3 +61,7 @@ Dessa filer belägger katalogkontrollen, inte registerutdragets personfält.
 | [Länets mantalsserie, JSON-LD](../media/S-0688-lansmantal-series.json) | `a9145c6172c52d202f2ada9a5af63fa31c97270c0cc3c77c0820bdf4e42a52b4` |
 | [Lokal volym 9, katalogartikel](../media/S-0688-vol9-katalog.txt) | `4f20b9502a387bd9d029f16180a2d3dbd0c509398b87465b2e323fbde5cda1b6` |
 | [Lokal volym 10, katalogartikel](../media/S-0688-vol10-katalog.txt) | `3674c81eec6cb4660260f8ae4c772518c5b54759946c0df585bb9f3c3606a4d5` |
+
+## Tillägg T-0150, 2026-09-08: Stödda påståenden kompletteras
+
+Listan utökas med A-5153 och A-5154 (P-0303) samt A-5162 (P-0304).

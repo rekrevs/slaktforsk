@@ -93,3 +93,32 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3343–A-3345 (P-0001), A-3349–A-3350 (P-0002).
+
+## Tillägg T-0147, 2026-09-08: fyra preciseringar av avskriften
+
+De två redan lokalt speglade helbilderna `00194364_00311` och `00194368_00274`
+har lästs om av tre granskare inom T-0147. Ingen ny arkivåtkomst gjordes och
+avskriften ovan ändras inte; följande fyra preciseringar hör till den.
+
+- **Födelseortens lokalisering.** Avskriften för `Burträsk` till barnraderna på
+  `A II a/3 c` folio 1006, men födelseortskolumnen är **tom** för alla fyra
+  barnraderna där. `Burträsk` står först i `A II a/4 a` folio 275, utskrivet på
+  rad 3 och därefter med upprepningstecken på raderna 4–6. Slutsatsen om
+  födelseförsamlingen står kvar; det är lokaliseringen som ska rättas.
+- **Minimeringen är inte konsekvent.** Avskriften ger namnen på rad 3 och rad 5
+  men skriver `s. [namn]` på rad 4 och rad 6. Alla fyra barnnamnen står läsbart i
+  boken: rad 4 `s. Jan Oskar`, född 36, och rad 6 `s. Frithiof`/`Fritjof`, född
+  42. Barnens födelsedagar är också läsbara men medvetet utelämnade; den gränsen
+  är en redaktionell minimering, inte en oläst kolumn, och kan hävas av ägaren
+  för de två avlidna bröderna.
+- **Rad 6:s namnform är läsosäker.** Två oberoende granskare läser `Frithiof`
+  respektive `Fritjof`/`Frithjof` i båda volymerna. Båda läsningarna bevaras;
+  identiteten påverkas inte och ingen form görs normerande.
+- **Blyertsnumren i marginalen.** Avskriften anger `851/850/849/851/850/853`. En
+  omläsning av `00194368_00274` ger snarast `859` på rad 3 och osäkra siffror på
+  raderna 4–5. Radtilldelningen är därmed läsosäker och inget personaktsnummer
+  tillskrivs någon person här.
+
+Berörda påståenden: A-4853–A-4854 (P-0006), A-4900–A-4904 (P-0039),
+A-4905–A-4909 (P-0040), A-4910–A-4912 (P-0041) samt A-3344 (P-0001), som ärver
+samma oprecision om folio 1006 och bör läsas mot första punkten ovan.

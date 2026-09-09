@@ -32,3 +32,20 @@ anges ogift.
 
 A-0044–A-0045, A-0055–A-0057, A-0060–A-0061, A-0063–A-0065,
 A-0186–A-0192 och A-0194–A-0196.
+
+## Tillägg T-0157, 2026-09-08
+
+**Bladet är ett utdrag, inte en självständig folkräkningsakt.** Den lokalt
+sparade fullbilden bär dokumenthuvudet `Utdrag ur Församlingsboken för
+Flen`. Uppgifterna är alltså avskrivna ur församlingsboken och utgör ingen
+oberoende röst vid sidan av den. Där en akt låter denna citation korroborera
+en uppgift som redan vilar på Flens församlingsbok ska antalet oberoende
+röster räknas ned med en.
+
+Iakttagelsen kommer ur konsolideringen av P-0047 i T-0157. Ingen ny
+arkivpassage har öppnats.
+
+**Sid- och radangivelsen är dessutom missvisande.** Citationen anger
+`sida/rad 54/46`, men sidhuvudet på bilden är **28**; 54 är bildnumret, inte
+sidan. Den som söker sidan 54 i volymen letar på fel uppslag. Rätt
+lokalisering är sida 28, bild 54.

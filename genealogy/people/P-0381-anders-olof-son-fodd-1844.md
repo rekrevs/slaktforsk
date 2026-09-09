@@ -9,7 +9,7 @@ Han föddes efter den äldre namne broderns död.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-2180 | Anders Olof föddes 1844-04-22 i Säter, döptes 25 april och var son till Anders Dahlsten och Stina Cajsa Larsdotter; han följs i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md), [C-0439](../citations/C-0439-indal-C4-anders-olof-dahlsten-fodd-1844.md) | Egen födelsenotis och två hushållslängder. |
+| A-2180 | Anders Olof föddes 1844-08-22 i Säter, döptes 25 augusti och var son till Anders Dahlsten och Stina Cajsa Larsdotter; han följs i A I/6–A I/7. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md), [C-0439](../citations/C-0439-indal-C4-anders-olof-dahlsten-fodd-1844.md) | Egen födelsenotis och två hushållslängder. **Rättat 2026-09-09 (T-0158):** månaden var april i denna akt, men C-0439:s fullpostprövning inom T-0134 läser årsrubriken 1844 och månadsrubriken `Aug.` över den egna raden, oberoende bekräftat av två läsare. Hushållsbokens månad är svårläst; den egna födelseposten avgör. Rättelsen hade inte nått akten trots att C-0439 redan var citerad här. |
 
 ## Relationer
 

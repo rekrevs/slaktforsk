@@ -39,3 +39,12 @@ Nästa källa för hans födelse och föräldrar är Helgesta husförhörslängd
 ## Stödda påståenden
 
 A-0501–A-0502 och A-0506.
+
+## Tillägg T-0159, 2026-09-09
+
+Avsnittet `Normaliserad tolkning` beskriver Helgesta A I/17 folio 8 som en
+volym som inte är digitaliserad. Lydelsen är upphävd: volymen är läst i
+[C-0180](C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md). Avsnittet är
+append-only och behålls oförändrat; åtkomstpåståendet gäller inte längre.
+
+Iakttagelsen kommer ur konsolideringen av P-0110 i T-0159.

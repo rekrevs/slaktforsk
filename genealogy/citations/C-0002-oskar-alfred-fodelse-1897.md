@@ -63,3 +63,13 @@ A-0001, A-0002 och A-0012–A-0019.
 ## Rättelse 2026-08-29
 
 Faderns födelsetid lyder `61 28/5` i originalet. Både den första läsningen 25/5 och den senare rättelsen till 19/5 (ovan) var fel; 28/5 är Johan Oskar Zingmarks egen födelsedag enligt Sävar C/3 1861 nr 54 (C-0546). Se C-0550.
+
+## Tillägg T-0154, 2026-09-08: löptexten bär överspelade lydelser
+
+Avsnittet `Normaliserad tolkning` anger fortfarande födelsen 19 maj 1861 och
+knyter personen till Johan August Johansson. Båda lydelserna är upphävda av
+citationens egna tillägg: dagen är **1861-05-28** och identifieringen med Johan
+August är avvisad. Löptexten är avskrifts- och tolkningshistorik, inte gällande
+slutsatser.
+
+Stödda påståenden utökas med A-5445 (P-0028).

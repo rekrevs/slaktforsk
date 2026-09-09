@@ -42,3 +42,15 @@ tidigare liv flyttas därmed till Helgesta.
 ## Stödda påståenden
 
 A-0502 och A-0506.
+
+## Tillägg T-0159, 2026-09-09
+
+Avsnittet `Normaliserad tolkning` innehåller slutsatsen att uppgiften visar
+att han inte var bosatt i Gryt före 1874. Det är exakt den lydelse som har
+dragits tillbaka som A-0506, och den motbevisas av hans egen födelsenotis:
+han **föddes** i Gryt 1850, se [C-0985](C-0985-gryt-C3-per-albert-alund-fodd-1850.md)
+och A-0489. En inflyttning 1874 säger att han flyttade dit då, inte att han
+aldrig bott där. Avsnittet är append-only och behålls oförändrat; slutsatsen
+är överspelad och får inte återanvändas.
+
+Iakttagelsen kommer ur konsolideringen av P-0110 i T-0159.

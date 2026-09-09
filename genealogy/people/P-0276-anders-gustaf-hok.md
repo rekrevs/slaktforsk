@@ -10,7 +10,7 @@
 
 Anders Gustaf Hök är son till torparen C. J. Jansson Hök och Carolina Magnusd:r, född 1853-08-21 och döpt 1853-08-25 i Hällefors. Föräldrarnas hemvist skrivs ”S. Torpen”, med oupplöst S. Den vuxnes exakta datum, födelsesocken och Hök-namn i Hudiksvalls hushållsböcker binder honom till post 67 och skiljer honom från två andra Anders Gustaf i den lästa maj–decemberdelen av 1853. Det är en korrelation, inte en obruten barndomskedja eller ett kontrollerat helårsunicitetspåstående ([C-0380](../citations/C-0380-hallefors-C9-tre-anders-gustaf-1853.md), [C-1014](../citations/C-1014-hallefors-C9-post-67-narlasning.md), [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md)).
 
-Han gifte sig med Anna Greta Hillberg 1880-02-27. Senare yrkesuppgifter är snickare, vaktmästare, brädgårdsarbetare och gårdsägare. Dödsdagen 1911-11-16 står positivt i egen dödskolumn och som hustruns änkedatum. Avsaknaden av hans dödpost i tre avgränsade kontroller ändrar inte detta till ett okänt datum och bevisar inte en död utanför Hudiksvall ([C-0461](../citations/C-0461-hudiksvall-EI2-hok-hillberg-vigsel-1880.md), [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0462](../citations/C-0462-hudiksvall-FI3-anders-gustaf-hok-negativ-1911.md), [C-0463](../citations/C-0463-scb-hudiksvall-anders-gustaf-hok-negativ-1911.md), [C-0464](../citations/C-0464-scb-hudiksvalls-lanssjukhus-anders-hok-negativ-1911.md)).
+Han gifte sig med Anna Greta Hillberg 1880-02-27. Senare yrkesuppgifter är snickare, vaktmästare, brädgårdsarbetare och gårdsägare. Dödsdagen 1911-01-16 står positivt i egen dödskolumn och som hustruns änkedatum. Avsaknaden av hans dödpost i tre avgränsade kontroller ändrar inte detta till ett okänt datum och bevisar inte en död utanför Hudiksvall ([C-0461](../citations/C-0461-hudiksvall-EI2-hok-hillberg-vigsel-1880.md), [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0462](../citations/C-0462-hudiksvall-FI3-anders-gustaf-hok-negativ-1911.md), [C-0463](../citations/C-0463-scb-hudiksvall-anders-gustaf-hok-negativ-1911.md), [C-0464](../citations/C-0464-scb-hudiksvalls-lanssjukhus-anders-hok-negativ-1911.md)).
 
 ## Namnformer
 
@@ -34,7 +34,7 @@ Han gifte sig med Anna Greta Hillberg 1880-02-27. Senare yrkesuppgifter är snic
 | A-2114 | Hudiksvalls personregister betecknar honom arbetare och hänvisar till församlingsbokssida 780. | TRANSCRIBED | hög | [C-0409](../citations/C-0409-hudiksvall-AIIa1e-register-hok.md), [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md) | Registervägen är verifierad mot målsidan. |
 | A-2115 | Sida 780 och sida 285 har ömsesidiga personhänvisningar; den äldre slutsatsen att personen måste följas genom en saknad sida 785 omprövas efter lokal bildläsning. | CORROBORATED | hög | [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | C-0410 anger s. 285 och 1897-11-15. C-0411 har senare s. 284 med 1899-11-20[?] samt separat 422 utan säkert datum; ingen direkt obruten retur 780→285 antas. Följd: T-0246. |
 | A-2120 | 1900 års folkräkning listar nio barn; den äldre församlingsbokssidan redovisar dessutom ett separat Augusta Elisabet-barn från 1895 som dog samma år. | CORROBORATED | hög | [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md), [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md) | Tio namngivna barn före 1900 är inte livstidens total: Knut Bertil tillkommer 1901. Markeringar icke döpt gäller respektive barnrad och tid, inte automatiskt faderns samfund. Barnens aktuella datum/namn prövas i egna akter. |
-| A-2213 | Anders Gustaf Hök dog 1911-11-16; dödsort, dödsorsak och begravning är inte fastställda. | CORROBORATED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen dödskolumn på sida 484 och hustruns änkedatum på två sammanlänkade sidor. |
+| A-2213 | Anders Gustaf Hök dog 1911-01-16; dödsort, dödsorsak och begravning är inte fastställda. | CORROBORATED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen dödskolumn på sida 484 och hustruns änkedatum på två sammanlänkade sidor. |
 | A-2215 | Ingen Anders Gustaf Hök eller död den 16 november återfanns i Hudiksvall F I/3 post 111–138 eller SCB:s ordinarie novemberutdrag 1911. | NEGATIVE | hög | [C-0462](../citations/C-0462-hudiksvall-FI3-anders-gustaf-hok-negativ-1911.md), [C-0463](../citations/C-0463-scb-hudiksvall-anders-gustaf-hok-negativ-1911.md) | Exakt bok-/periodnoll, inte ett annat positivt dödsdatum. SCB bygger på församlingens rapportering och är inte en andra oberoende motkälla. |
 | A-2216 | Hudiksvalls länssjukhus hela separata SCB-dödsutdrag 1911 saknar en säker Anders Gustaf Hök. | TRANSCRIBED | hög | [C-0464](../citations/C-0464-scb-hudiksvalls-lanssjukhus-anders-hok-negativ-1911.md) | Utesluter bara sjukhusets rapporteringsserie, inte annan dödsort. |
 | A-3160 | Bouppteckningsrouten är ännu inte personbundet lokaliserad; positiv hemvist-/jurisdiktionsprövning kan ge ingång utan att invänta en säker fysisk dödsort. | LEAD | hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md), [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Äldre absoluta villkoret på dödsort är för snävt. Senaste bokföring från Hälsingtuna och gårdsägartiteln är konkreta nycklar; ingen akt eller jurisdiktion fastställs här. |
@@ -84,7 +84,7 @@ Elva namngivna barn är kända från de samlade hushållsraderna; detta är inge
 | 1899-11-20 | Senare interna hänvisningar | Hudiksvall | arbetare | familjen | C-0410/C-0411 |
 | 1900-12-31 | Folkräkning | 2:a kvarteret, ss. 143, Hudiksvall | brädgårdsarbetare | hustru och nio barn | C-0257 |
 | 1910-12-31 | Folkräkning och inflyttningsregistrering från Hälsingtuna | Hudiksvall, s. 484 | gårdsägare | hustru, sex barn och dotterson i folkräkningen | C-0256/C-0460 |
-| 1911-11-16 | Död enligt egen hushållsboks kolumn; hustrun änka | dödsort inte fastställd | gårdsägare | Anna Greta | C-0460/C-0260 |
+| 1911-01-16 | Död enligt egen hushållsboks kolumn; hustrun änka | dödsort inte fastställd | gårdsägare | Anna Greta | C-0460/C-0260 |
 
 Barndomen efter 1853, vägen till Grythyttan och mellanliggande bostäder/arbetsplatser är ännu inte sammanhängande följda. Daterade folkräkningar ger kontrollpunkter, inte en obruten 31-årig yrkes- eller boendekedja.
 
@@ -125,7 +125,7 @@ Barnens icke döpt-noter och senare missionärer i familjen motiverar en religio
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
-| 1911-11-16 | Positivt registrerad dödsdag | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen dödskolumn och hustruns änkedatum; senare kopiering räknas inte som oberoende dödshändelser. |
+| 1911-01-16 | Positivt registrerad dödsdag | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen dödskolumn och hustruns änkedatum; senare kopiering räknas inte som oberoende dödshändelser. |
 | 1911, kontrollerad sena årsföljd | Ingen dödpost i angivet omfång | [C-0462](../citations/C-0462-hudiksvall-FI3-anders-gustaf-hok-negativ-1911.md), [C-0463](../citations/C-0463-scb-hudiksvall-anders-gustaf-hok-negativ-1911.md), [C-0464](../citations/C-0464-scb-hudiksvalls-lanssjukhus-anders-hok-negativ-1911.md) | F I/3 post111–138, SCB novemberpost124–132, länssjukhusets hela separata årsutdrag. Nollan visar varken annat dödsdatum eller död utanför staden. |
 
 Dödsorsak, exakt dödsort och begravning är inte fastställda. Otto Carl Höök i sjukhusutdraget är en annan person. Församlingens noll ska inte vidgas till alla möjliga kompletteringar eller andra myndigheter.
@@ -280,3 +280,23 @@ På den äldre hushållssidan 285 betecknas Anders Gustaf både ägare och arbet
 > - Källbredd 2026-09-04: skatt/mantal `T = S` via Gävleborgs landskontors regionala analoga taxeringsserier för Hudiksvallsperioden; ingen års- eller personrad är läst (C-0828; Batch 254).
 > - Källbredd 2026-09-04: yrkesutlöst arbetsgivar-/fastighetsspår `O = 2`, villkorat av konkret brädgårds-, arbetsgivar-, fastighets- eller skattenhetsnyckel (C-0829; Batch 255).
 > - Källbredd: `KLAR` 2026-09-04. Samtliga relevanta källfamiljer har en personrelevant positiv, avgränsat negativ, åtkomstspärrad, villkorad eller uttryckligen irrelevant disposition i source-coverage-matrisen (research-log Batch 257; T-0029).
+
+### Anhörigrättelse T-0156, 2026-09-08 — dödsdagen är 1911-01-16
+
+Dödsdagen har stått som 1911-11-16. Omläsning i fullupplösning av de lokalt
+sparade helbilderna ger **1911-01-16** i **fyra** fält, inte tre: hans egen
+dödskolumn och hustruns änkekolumn på sida 484, änkekolumnen på sida 593 och
+änkekolumnen på folio 591. Alla fyra skriver `11 ¹⁶/₁` med **ett enda tecken**
+som nämnare, medan samma hand på samma uppslag skriver tvåsiffriga månader med
+två tecken, till exempel `10 ³¹/₁₂` och `80 ²⁷/₂`. Två granskare har kommit till
+samma läsning oberoende av varandra.
+
+Följden är att de negativa dödsbokssökningarna prövat fel månad: C-0462 täcker
+posterna 111–138, alltså 28 september–30 december, och C-0463 posterna 124–132,
+alltså 31 oktober–27 november. Ingen av dem prövar januari. Den registrerade
+konflikten om hans död vilar därmed på nollor mot fel månad, och en sökning i
+januari 1911 kan lösa upp den helt. C-0464, som täcker hela året vid
+länssjukhuset, berörs inte.
+
+De äldre lydelserna bevaras. Full individuell akt-/profiladoption för P-0276 ägs
+av T-0126; detta är en avgränsad följdrättelse.

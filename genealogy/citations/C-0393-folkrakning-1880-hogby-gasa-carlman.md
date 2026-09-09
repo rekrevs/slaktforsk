@@ -37,3 +37,15 @@ husförhörslängderna stöder Willehad/Villehad.
 ## Stödda påståenden
 
 A-1471, A-2083–A-2085 och A-2088.
+
+## Tillägg T-0156, 2026-09-08: kolumn 4 är inte avskriven
+
+Kolumnen för lyte och frånvaro bär `Kalmar` på Karl August Rudolfs rad och `d:o`
+på Gustaf Adolf Viktors, Johan Fredrik Willehads och Axel Leonard Emils rader.
+Alla fyra äldsta bröderna var alltså bokförda **frånvarande i Kalmar 1880**.
+Uppgiften saknas helt i avskriften och berör P-0242, P-0353, P-0354 och P-0355.
+
+Dokumenthuvudet lyder dessutom `Utdrag ur Husförhörslängden`; bladet är därmed
+inte ett av husförhörslängden oberoende belägg.
+
+Berörda påståenden: A-5650–A-5657 (P-0354) och A-5670–A-5678 (P-0355, P-0356).

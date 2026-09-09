@@ -32,3 +32,19 @@ bevaras som sidobiografiskt fynd. Ingen dödsdag för Johan Peter infereras.
 ## Stödda påståenden
 
 A-2446–A-2448.
+
+## Tillägg T-0161, 2026-09-09: änkedagen 1895 är felläst
+
+Råformen på uppslaget läses **`95 27/2`**, alltså **27 februari 1895**, inte
+2 juli. Täljaren har två siffror och skiljer sig i samma hand från
+vigseldagens `70 2/7`. Läsningen står på två oberoende ställen: Sävar A I/9 b
+s. 670 (`F0012826_00259`) i både hans änklingskolumn och Kajsa Gretas
+dödskolumn, och Degerfors A II a/2 s. 601 (`F0013101_00237`).
+
+Uppgiften är **inte** ensidigt överskriven. Den är bokförd som A-6200 med
+status `CONFLICT` i P-0422, eftersom den gamla lydelsen finns i flera akter.
+Kajsa Gretas egen dödbokspost avgör saken och är oläst; S-0443 noterar redan
+att dagen borde kontrolleras mot den. **Berör P-0425, vars A-2447 bär
+1895-07-02.**
+
+Tidigare avsnitt är append-only och behålls oförändrade.

@@ -46,3 +46,32 @@ Kontrollens första och sista bilder är:
 ## Stödd avgränsning
 
 P-0341–P-0342:s slutstatus.
+
+## Tillägg T-0162, 2026-09-09: nollet är starkare, inte svagare
+
+Nollresultatets enda uttryckligt olästa yta låg inom dess eget omfång. Den är
+nu prövad vid omläsning av redan sparade bilder och **avförd som målfamilj**.
+Nollet blir därmed starkare: det som återstod inom omfånget är genomgånget och
+gav inget.
+
+Samtidigt är en tolkning som vilade på nollet överspelad. Soldattorpshypotesen
+har använts som förklaring till varför familjen saknas; den behövs inte, och
+den får inte återanvändas som förklaring. Temat BO för P-0341 och P-0342 är
+sänkt från `AVGRÄNSAT` till `ÖPPET`, eftersom **ortregistret i A I/5 och A I/6
+aldrig har prövats** — ett oprövat register är ingen prövad gräns. Båda
+volymerna är redan öppnade i projektet.
+
+**Två propageringsluckor i samma bildmängd, funna 2026-09-09.** De tretton
+sparade A I/6-bilderna innehåller mer än citationens avskrift redovisar:
+
+- **Strandlundhushållet komplett på Högsjö s. 92** (`C0033067_00113`), med
+  makens och hustruns egna rader. Det flyttar belagd Högsjönärvaro bakåt från
+  1847 till längden 1836–1846, och `Hvarifrån` på båda raderna bär
+  sifferhänvisningen **`224`** — den enda pekaren mot var paret bokfördes
+  dessförinnan.
+- **Ett Strandell-syskonpar från Stockholm på s. 90** (`C0033067_00111`):
+  `Greta Lisa Strandell f. 1810-01-17, Hvarifrån Stockholm` och
+  `Brodr. Pehr Strandell f. 1820`, med en oläst anmärkningsnot.
+
+Avskriften nämner ingetdera; `genealogy/source-coverage.md` rad 491 har samma
+lucka.

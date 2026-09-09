@@ -47,3 +47,15 @@ ingen CAPTCHA och läste eller bevarade inga sessionsdata.
 ## Stödda påståenden
 
 A-2997–A-3003.
+
+## Tillägg T-0160, 2026-09-09
+
+**En dagkonflikt om flytten till Klara.** Rotemansposten
+[C-0473](C-0473-rotemansarkivet-olaus-fredberg-1878-1915.md) anger flytten
+till Klara **1911-01-03**, men denna folkräkning har familjen i Klara rote 3
+redan **1910-12-31**. Bokföringsdagen i rotemansarkivet är alltså senare än
+den dag familjen faktiskt räknas i Klara. Konflikten är inte löst här och
+propageras inte; den gäller **P-0336** och bevaras som fråga.
+
+Citationen bär också P-0395:s frånvaro i faderns hushåll 1910, en uppgift som
+inte nått hennes akt före T-0160.

@@ -111,3 +111,45 @@ bekräftar överföringen från landsförsamlingen.
 
 A-3438–A-3440 (P-0028), A-3441 (P-0029), A-3442 (P-0032), A-3443 (P-0033),
 A-3444 (P-0034), A-3445 (P-0036), A-3446 (P-0038).
+
+## Tillägg T-0149, 2026-09-08: tre preciseringar av avskriften
+
+Den lokalt sparade helbilden `00206417_00013` har lästs om inom T-0149. Ingen ny
+arkivåtkomst gjordes och avskriften ovan ändras inte.
+
+- **Värnpliktsnumret på rad 10 är `138 ⁶⁹/₁₉`**, inte `138 ⁶⁹/₁₃`. Samma tal står
+  på rad 4, och nämnaren är där entydig. Därmed är den läsosäkerhet som lämnades
+  öppen om årsklassen avgjord: årsklassen är 1919.
+- **Yrkeskolumnen på rad 10 bär en tredje beteckning**, `skogstjänsteman`, utöver
+  arbetsförman och faktor. Den saknas i avskriften.
+- **Äktenskapsbetygets kungörelse läses `¹²/₆ 1938`**, inte `¹²/₅ 1938`. Skrivarens
+  femma i rad 3:s `²³/₅ 1926` har en tydligt annan form.
+
+Berörda påståenden: A-5075–A-5082 (P-0034).
+
+## Tillägg T-0154, 2026-09-08: tre felläsningar och en utelämnad notering
+
+Omläsning av den lokalt sparade helbilden inom T-0154 ger följande.
+
+- **Rad 5, P-0035:** yrkescellen återges `slaggj., gjutmästare`. Läsningen är
+  felaktig; cellen bär `Hem. äg.[?]` och `Jordbrukare`, vilket bekräftas
+  oberoende av folkräkningen 1930.
+- **Utflyttningsorten för P-0038** återges `Lövängen(?)`. Ortnamnet är
+  **Lövånger** och står två gånger på uppslaget. Felläsningen gjorde vägen
+  osökbar.
+- **`Lysn. 117/34` saknas helt** i avskriften för samma person.
+- **Rad 9, P-0032:** yrkescellen bär också `Kamrer` och `Agronom` utöver
+  avskriftens kammarskrivare och kronofogde.
+
+Berörda påståenden: A-5500–A-5516 (P-0035, P-0038).
+
+## Tillägg T-0154, 2026-09-08 (andra): mantalstalen i vänstermarginalen
+
+Vänstermarginalen vid **rad 1**, alltså P-0028:s egen rad på uppslag 1839, bär i
+femfaldig förstoring `⅛ mtl. N:o 2 +` och `¹¹/₆₄ mtl. N:o 1`. Noterna saknas i
+avskriften. De visar att jordinnehavet var bokfört i hans eget namn medan han
+levde, från inflyttningen 1917 och genomgående, och inte först på änkans rad
+1941–1952. Talen är därmed en mantals-, jordeboks- och lagfartsingång för honom
+själv.
+
+Berörda påståenden: A-5453 (P-0028).

@@ -54,3 +54,19 @@ Oskar Alfred anges som son, född 1897 i Degerfors.
 
 A-0001, A-0002, A-0005, A-0013–A-0017, A-0033–A-0040, A-0160–A-0163,
 A-0165–A-0167 och A-0169, A-0171, A-0173, A-0175, A-0177.
+
+## Tillägg T-0149, 2026-09-08: antalet syskon i tolkningen
+
+Den normaliserade tolkningen skriver att Oskar Alfred bodde med sina föräldrar
+och `sex syskon`. Den egna avskriften listar sex barn totalt, alltså **fem
+syskon**. Felet är inte propagerat: P-0001:s A-0040 skriver korrekt `föräldrarna
+och sex barn`. Den äldre lydelsen bevaras som tolkningshistorik.
+
+## Tillägg T-0154, 2026-09-08: bladet är ett utdrag ur församlingsboken
+
+Dokumenthuvudet på den sparade fullbilden lyder `Utdrag ur Församlingsboken för
+Degerfors`. Bladet är alltså härlett ur den kyrkobok det använts för att bekräfta
+och får inte räknas som en av den oberoende källa. Uppgiften saknas i raden
+`Exakt lokalisering`.
+
+Stödda påståenden utökas med A-5446 (P-0028).

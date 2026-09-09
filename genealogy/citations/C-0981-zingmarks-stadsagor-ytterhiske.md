@@ -90,3 +90,19 @@ SHA-256 beräknad i den inloggade webbläsarsessionen 2026-09-06.
 ## Stödda påståenden
 
 A-3655, A-3656 (P-0028); A-3657 (P-0029).
+
+## Tillägg T-0154, 2026-09-08: rättelsen håller inte paleografiskt
+
+Citationen slår fast att `femman var en sexa` i `Stad äg. 1258`. Vid omläsning i
+fyrfaldig förstoring är tredje siffran en **öppen femma med flat topplinje**,
+tydligt skild från åttan bredvid. Boklydelsen är alltså `1258`.
+
+Slutsatsen att fastigheten sakligt är 1268 kan mycket väl vara riktig — sonens
+hushåll på samma uppslag skrivs `Stg. 1267 = Plogen 4` — men den är en **saklig
+tolkning, inte en avläsning**. De två boklydelserna förs dessutom av samma
+pastorsämbete och är en kopierad informationsväg, inte två oberoende röster.
+Konflikten bevaras därför i stället för att stängas, och avgörs av lagfarten
+eller en annan samtida fastighetsförteckning — inte av ännu en läsning av samma
+två böcker.
+
+Berörda påståenden: A-3440, A-3656 och A-5455 (P-0028).

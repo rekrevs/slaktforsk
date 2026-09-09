@@ -49,3 +49,19 @@ tro eller senare liv utan fler källor.
 
 - A-1578–A-1579
 - A-1581–A-1606
+
+## Tillägg T-0152, 2026-09-08: handlingen är ett utdrag, inte ett oberoende vittne
+
+Handlingens eget huvud lyder `Utdrag ur Församlingsboken för Hudiksvalls förs. …
+d. ³¹/₁₂ 1900`. Den är alltså **härledd ur församlingsboken** och får inte
+räknas som en av församlingsboken oberoende källa. Flera akter i Hökskretsen har
+implicit behandlat den som ett självständigt vittne; där två uppgifter sägs
+korroborera varandra måste det prövas om båda i själva verket kommer ur samma
+bokföring.
+
+Avskriften saknar dessutom handlingens egen kolumn för ogifta och den tomma
+kolumn 14 för trosbekännelse, utträde och nationalitet. Tomheten är en
+källgräns, inte en uppgift.
+
+Berörda påståenden: A-5320–A-5334 (P-0282, P-0283) samt A-1599–A-1601 och
+A-2001–A-2002.

@@ -66,3 +66,10 @@ Relationen registreras som TRANSCRIBED och prövas mot vigselposten.
 ## Stödda påståenden
 
 A-3575–A-3577 (P-0016), A-3578 (P-0532).
+
+## Tillägg T-0144, 2026-09-08: vigselorten är inte Katarina
+
+Bedömningen i Normaliserad tolkning att Katarina är den troligaste platsen för
+parets vigsel är överspelad. C-0955 och C-0976 placerar lysning och vigsel i
+Adolf Fredrik; Katarina är parets kyrkobokföringsort, inte en vigselort. Se
+P-0532:s aktuella akt. Avskriften ovan är oförändrad.

@@ -144,4 +144,4 @@ Egen födelse och biologiska föräldrar, hänvisningen 233 samt vuxenlivet efte
 >
 > ## Konsolideringsrättelse — T-0132
 >
-> Äldre A-0564 angav född1898-07-07. C-0103/C-0579/C-0796:s datumfält har nu lästs som27/7. T-0143 äger full akt-/profilgranskning.
+> Äldre A-0564 angav född 1898-07-07. C-0103/C-0579/C-0796:s datumfält har nu lästs som 27/7. T-0143 äger full akt-/profilgranskning.

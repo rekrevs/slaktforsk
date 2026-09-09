@@ -30,9 +30,9 @@ Anna Stina är en avgränsad dotterrad i Erik Anderssons Sannerbyhushåll på tv
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
 | [Erik Andersson](P-0221-erik-andersson-carlberg.md) | far enligt dotterrollen; biologiskt faderskap inte separat säkrat | Sannerby, uppläggen 1809–1819 | TRANSCRIBED | [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md) |
-| [Stina Andersdotter](P-0223-stina-andersdotter-sannerby.md) | hustru i hushållet; eventuell mor är oprövad | Sannerby före 1818 | TRANSCRIBED | [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md), [C-0172](../citations/C-0172-ardala-C3-anders-fodd-1814.md), [C-0175](../citations/C-0175-ardala-C3-stina-andersdotter-dod-1818.md) |
+| [Stina Andersdotter](P-0223-stina-andersdotter-sannerby.md) | hustru i hushållet | Sannerby före 1818. Eventuellt moderskap är oprövat. | TRANSCRIBED | [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md), [C-0172](../citations/C-0172-ardala-C3-anders-fodd-1814.md), [C-0175](../citations/C-0175-ardala-C3-stina-andersdotter-dod-1818.md) |
 | [Anders Eriksson](P-0224-anders-eriksson-sannerby.md) | son i hushållet; biologiskt syskonskap öppet | Sannerby från 1814 | TRANSCRIBED | [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md), [C-0172](../citations/C-0172-ardala-C3-anders-fodd-1814.md) |
-| [Anna Ersdotter](P-0222-anna-ersdotter-carlberg.md) | faderns senare hustru; inte belagd biologisk mor | Sannerby från 1818 | TRANSCRIBED | [C-0169](../citations/C-0169-ardala-C3-erik-anna-vigsel-1818.md), [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md) |
+| [Anna Ersdotter](P-0222-anna-ersdotter-carlberg.md) | faderns senare hustru | Sannerby från 1818. Inte belagd biologisk mor. | TRANSCRIBED | [C-0169](../citations/C-0169-ardala-C3-erik-anna-vigsel-1818.md), [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md) |
 | Brita Christina, född 1819 | dotter i senare familjen; biologiskt syskonskap öppet | Sannerby 1819 | TRANSCRIBED | [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md) |
 
 Tjänstepersonerna Stina Andersdotter och Anna Persdotter hålls separata; den kraftigt överstrukna ytterligare tjänsteraden ges inget nytt säkert namn eller släktskap.
@@ -80,7 +80,7 @@ Egen död eller sjukdom saknas i underlaget. Stinas död 1818 gäller hushållet
 | Objekt | Datum | Upphov/provenans | Citation | Lokal fil |
 |---|---|---|---|---|
 | Egna dotterrader | 1809–1819 års bokupplägg | Riksarkivet | [C-0170](../citations/C-0170-ardala-AI4-sannerby-familjeovergang.md) | Två fullbilder med verifierade SHA-256. |
-| Tidigare födelsekontroll | 1804 års poster1–23 | Riksarkivet | [C-0176](../citations/C-0176-ardala-C2-anna-stina-1804-negativ-kontroll.md) | Tre fullbilder med verifierade SHA-256. |
+| Tidigare födelsekontroll | 1804 års poster 1–23 | Riksarkivet | [C-0176](../citations/C-0176-ardala-C2-anna-stina-1804-negativ-kontroll.md) | Tre fullbilder med verifierade SHA-256. |
 
 Inga personliga bilder, brev eller minnen är identifierade.
 

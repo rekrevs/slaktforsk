@@ -104,3 +104,18 @@ födelsenotis saknar stöd i den citerade kedjan. Dagankaret 1883-01-29 finns
 i C-0474:s senare familjeförteckning; den är inte hennes egen födelsepost.
 Datumkorrelationen till graven kvarstår med denna rätta källtyp. Tidigare
 T-0124-reservationer om gravrelationer, flytt och födelseår består.
+
+## Tillägg T-0144, 2026-09-08: två överspelade lydelser i löptexten
+
+Två formuleringar i avsnitten ovan står kvar som parallella aktuella slutsatser
+trots att senare tillägg upphäver dem:
+
+- Påståendet att konflikten om Edit Maria Justinas födelseår är **löst**.
+  Tillägget 2026-09-07 (T-0124) slår fast att gravdatumet stödjer 1894 men inte
+  avgör frågan utan en egen prövad födelse-/dödspost. Den bedömningen gäller;
+  se P-0491:s aktuella akt och A-3556.
+- Påståendet att Frida Elisabeths födelsedatum stämmer **på dagen** med hennes
+  egen födelsenotis. Den lydelsen är upphävd av tillägget 2026-09-08.
+
+Originalavskriften och de äldre lydelserna bevaras oförändrade ovan; de får
+inte läsas som gällande slutsatser.

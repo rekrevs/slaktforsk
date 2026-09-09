@@ -132,3 +132,24 @@ A-3400–A-3403 (P-0028), A-3404–A-3405 (P-0029), A-3406–A-3408 (P-0001),
 A-3409 (P-0031), A-3410 (P-0032), A-3411 (P-0033), A-3412 (P-0034),
 A-3413 (P-0035), A-3414 (P-0036), A-3415 (P-0037), A-3416 (P-0038),
 A-3417–A-3418 (P-0529).
+
+## Tillägg T-0154, 2026-09-08: marginalanteckningen är läst
+
+Citationen anger att marginalanteckningen intill Ida Sofias namn är oläst. Vid
+omläsning av den lokalt sparade helbilden `00206295_00175` står på hennes egen
+rad en blyertsnot `¹¹/₆₄ mtl … N:r 1`, och i vänstermarginalen vid makens rad
+`⅛ mtl … 2`. Jordinnehavet var alltså bokfört redan 1917 och inte först på
+1940-talet. Motsvarande blyertsnot vid rad 12 hör till P-0028 och är fortfarande
+outvunnen där.
+
+Berörda påståenden: A-5470 (P-0029).
+
+## Tillägg T-0154, 2026-09-08 (andra): marginalnotens radplacering
+
+Den blyertsnot som citationen beskriver som oläst sitter vid **rad 12**, alltså
+P-0028:s egen rad — inte vid rad 13. Bråket `⅛` och förkortningen `mtl` är säkra;
+hemmansbeteckningen efter dem är inte säkert läsbar och normaliseras inte.
+Ida Sofias rad 13 bär ingen motsvarande not; den not som är utvunnen för henne i
+tillägget ovan är den på hennes egen rad, `¹¹/₆₄ mtl … N:r 1`.
+
+Berörda påståenden: A-5454 (P-0028) och A-5470 (P-0029).

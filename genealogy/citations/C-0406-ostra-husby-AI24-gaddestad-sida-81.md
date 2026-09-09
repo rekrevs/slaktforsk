@@ -54,3 +54,32 @@ Egen rad 1 avläst över hela uppslaget: Anders Magnus, hemmanstitel och rättat
 Förhörs-/nattvardsfält på egen rad: 1888 F n.[?], N 1/7; 1889 F 26/11[?] med ytterligare litet märke, N 13/10; 1890 F 12/11 samt n.[?], N 8/5[?]; 1891 F n.[?], N 7/6; 1892 F n.[?], N 2/10. Fortsättningen under handskrivet 93 har 10/9 och en ytterligare 28/10[?] vars årstilldelning inte säkras. Tal och reservationer är nu bevarade; osäkerhet är inte samma sak som att fälten lämnats obeaktade. Inga egna in-/utflyttningsuppgifter eller dödsnoter. Dottern Ida har **75 15/8**, Ester **84 17/1**; det sistnämnda avviker från senare 21/1 och får stå som verklig källskillnad.
 
 Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.
+
+## Tillägg T-0158, 2026-09-09
+
+Citationens egna tillägg från T-0124 och T-0126 har rättat tre uppgifter, men
+rättelserna har aldrig nått avsnittet `Exakt lokalisering och avskrift i sak`,
+som fortfarande skriver `91 11/4` för Carolinas död, `1873-01-13` för Elin och
+`1875-08-05` för Ida Carolina. Alla tre lydelserna är överspelade av
+citationens egna senare läsningar. Avskriftsavsnittet är append-only och
+behålls oförändrat; från och med detta tillägg gäller de daterade
+omläsningarna, inte avskriftens ursprungliga former.
+
+Iakttagelsen kommer ur konsolideringen av P-0313 och P-0314 i T-0158. Ingen ny
+arkivpassage har öppnats.
+
+## Tillägg T-0158, 2026-09-09: dagkonflikten 17/21 januari finns inte
+
+Den registrerade konflikten om Ester Elisabets födelsedag — `17/1` i
+Östra Husby A I/24 mot `21/1` i de senare böckerna — bygger på två fellästa
+täljare. Vid omläsning av samtliga fyra böcker skriver **alla** `84 19/1`:
+A I/24 rad 6, A I/25 rad 5, A II a/1 rad 4 och rad 17 samt A II a/2 rad 2.
+Läsningen är prövad mot samma händers `15`, `17`, `22`, `24` och `19/12` på
+samma uppslag, och kontrollerad centralt mot originalbilden av A I/24: på det
+uppslaget står Elin `73 15/1`, Ida Karolina `75 15/8`, Carl Gottfrid
+`80 17/3` och Ester Elisabet `84 19/1`, alla i samma hand.
+
+Födelsedagen är alltså **1884-01-19**, och det finns ingen källkonflikt att
+bevara. Tidigare avsnitt i denna citation är append-only och behålls
+oförändrade; deras dagangivelser är från och med detta tillägg överspelade.
+Se A-5902 i P-0359.

@@ -10,7 +10,7 @@ Hustru till slaktaren Johan August Fredberg Fredriksson i Hudiksvall.
 |---|---|---|---|---|---|
 | A-2345 | Anna Lovisa Andersdotter uppges vara född 1845-10-08 i Fågelvik och var gift med Johan August Fredberg Fredriksson. | CORROBORATED | hög | [C-0322](../citations/C-0322-riksarkivet-folkrakning-1900-hudiksvall-johannes-fredberg.md), [C-0323](../citations/C-0323-riksarkivet-hudiksvall-AIIa1a-sida-10-fredberg.md), [C-0600](../citations/C-0600-skon-EI2-vigsel-fredberg-andersdotter-1874.md) | Exakt datum kommer från senare församlingsbok; egen födelsepost återstår. |
 | A-2550 | Anna Lovisa Andersdotter och Johan August Fredberg vigdes 1874-12-12; båda stod då i Rökland. | CORROBORATED | mycket hög | [C-0600](../citations/C-0600-skon-EI2-vigsel-fredberg-andersdotter-1874.md), [C-0323](../citations/C-0323-riksarkivet-hudiksvall-AIIa1a-sida-10-fredberg.md) | Samtida vigselpost och senare äktenskapsdatum sammanfaller. |
-| A-2620 | Alnö A I/9a sida 192 placerar Anna Lovisa Andersdotter i Rökland med maken Johan August Fredriksson/Fredberg och dottern Augusta Fredrika; den anger hennes födelse 1845-10-08 i Fågelvik, dotterns 1875-09-26 och vigseln 1874-12-12. | CORROBORATED | mycket hög | [C-0645](../citations/C-0645-alno-AI9a-sida-192-johan-august-familj.md), [C-0600](../citations/C-0600-skon-EI2-vigsel-fredberg-andersdotter-1874.md) | Samtida hushållsrad; egen födelsepost och exakt flyttdag återstår. |
+| A-2620 | Alnö A I/9a sida 192 placerar Anna Lovisa Andersdotter i Rökland med maken Johan August Fredriksson/Fredberg och dottern Augusta Fredrika; den anger hennes födelse 1845-10-08 i Fågelvik, dotterns 1875-09-26 och vigseln 1874-12-12. | CORROBORATED | mycket hög | [C-0645](../citations/C-0645-alno-AI9a-sida-192-johan-august-familj.md), [C-0600](../citations/C-0600-skon-EI2-vigsel-fredberg-andersdotter-1874.md) | Samtida hushållsrad; egen födelsepost och exakt flyttdag återstår. T-0144: dotterns dag står 26/9 här men 20/9 i C-0323; avvikelsen är bevarad och ingen av dagarna normaliseras. |
 
 ## Relationer
 
@@ -25,3 +25,11 @@ Hushållsidentiteten och vigseln är säkra även i Alnö A I/9a sida 192, som
 också korroborerar hennes exakta födelsedatum och dottern Augusta Fredrika.
 Egen födelsepost i Fågelvik, flyttkedjan fram till Rökland, död och barnens
 egna källkedjor återstår.
+
+### Anhörigrättelse T-0144, 2026-09-08
+
+Dottern Augusta Fredrikas födelsedag anges `75 26/9` i C-0645 och 1875-09-20 i
+C-0323. Avvikelsen fanns i citationerna men hade inte nått någon akt. Den är nu
+noterad på A-2620 och registrerad som A-4731 i [P-0411](P-0411-johan-august-fredberg-fredriksson.md).
+Ingen av dagarna normaliseras och ingen relation ändrar status. Full individuell
+akt-/profiladoption för P-0414 ägs fortsatt av dess egen kohort.

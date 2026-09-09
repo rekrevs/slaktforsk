@@ -37,3 +37,17 @@ föräldrahemmet.
 ## Stödda påståenden
 
 A-1999–A-2005.
+
+## Tillägg T-0152, 2026-09-08: också ett utdrag, och ett outvunnet ditto
+
+Handlingens eget huvud lyder `Utdrag ur Husförhörslängden för Helsingtuna
+församl. … d. ³¹/₁₂ 1890`. Också denna är alltså **härledd ur en husförhörslängd**
+och är inte ett av den oberoende vittne. Samma prövning som för C-0257 gäller:
+två uppgifter som ser ut att korroborera varandra kan komma ur samma bokföring.
+
+Avskriften återger inte att **samtliga sex barn är märkta odöpt genom ditto** i
+kolumnen för lyte och religionsbekännelse, där systerns rad har `odöpt`
+utskrivet, och inte heller de tomma yrkeskolumnerna. Två små märken före
+födelseåret ligger i en egen smal kolumn och är inte fälttolkade.
+
+Berörda påståenden: A-5334 (P-0283) och A-2001.

@@ -42,3 +42,16 @@ Faddrar: Träg.[?] Olof Svanberg och dess hustru Anna Dahlin, B:k[?] Johan Aug. 
 ## T-0135: korrigerad datumläsning efter oberoende detaljprövning
 
 Yrkesförkortningen vid Johan Aug. Papell[?] kan efter oberoende andraläsning utvecklas till bokhållaren. Övriga namnreservationer i det tidigare tillägget kvarstår.
+
+## Tillägg T-0159, 2026-09-09
+
+Det sista tillägget bär rubriken `korrigerad datumläsning efter oberoende
+detaljprövning`, men innehållet är en yrkesrättelse — bokhållaren — inte en
+datumrättelse. Rubriken är alltså felmärkt och kan få en läsare att tro att
+ett datum har ändrats. Ingen datering i citationen har ändrats av det
+tillägget. Rubriken är append-only och behålls oförändrad; denna notering
+finns för att förhindra feltolkningen.
+
+Sidoresultat från konsolideringen av P-0263 och P-0268: dopdatumet `24/6 1854`
+i C-0276:s outvunna `Döpt`-kolumn stämmer exakt med denna födelsebok — en
+oberoende korroborering som inte syntes i någon akt.

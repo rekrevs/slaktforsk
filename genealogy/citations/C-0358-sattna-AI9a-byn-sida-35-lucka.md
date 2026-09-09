@@ -41,3 +41,21 @@ hushållshänvisning, flyttlängd, vigsel eller senare folkräkning.
 ## Stödda påståenden
 
 A-2020–A-2021.
+
+## Tillägg T-0158, 2026-09-09: nollet gäller fel folio
+
+Denna citation beskriver sitt omfång som den källstyrda hushållsvägen ut ur
+Sättna. Det är inte längre riktigt. Hänvisningen i sonens födelsepost 1862
+läses `Byn fol. **85**`, inte `fol. 35` — siffran är en sluten dubbelögla,
+identisk med `8` i samma kolumns `Strömäs fol. 278` och tydligt skild från
+sidans öppna `3`-former i `Östanä fol. 343` och `Östanä fol. 345`. Läsningen
+är kontrollerad centralt mot fullbilden `A0003851_00013`; se tillägget till
+[C-0274](C-0274-anders-niklas-fodd-1862-sattna.md).
+
+Observationen här står kvar: sidan 35 i Sättna A I/9a innehåller inte
+familjen, och det är ett giltigt sidbundet noll. Men det är **inte** ett
+noll på den hänvisning födelseposten ger, och det säger därför ingenting om
+övergången Sättna → Högsjö. Tidigare avsnitt är append-only och behålls
+oförändrade; deras slutsats om vägens uttömdhet är överspelad.
+
+**Folio 85 i samma volym är oläst** och är den faktiska källstyrda vägen.

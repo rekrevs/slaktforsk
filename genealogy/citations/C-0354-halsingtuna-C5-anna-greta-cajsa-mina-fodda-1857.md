@@ -56,3 +56,13 @@ och **pigan Brita Chr. Hillberg**. Titlar, stavningar och initialer
 är källformer; svaga läsningar reserveras. Ett vittnes Hillberg-namn
 fastställer ingen släktrelation eller identitet med hushållets Brita.
 Övriga barnrader på sidan tillhör andra familjer.
+
+## Tillägg T-0162, 2026-09-09
+
+Tillägget säger att råtecknet i kyrktagningskolumnen "är grafiskt/överlagt och
+kan inte säkert dateras". Vid förstoring av tvillingraden läses cellen under
+den tryckta rubriken `Antekn. om Kyrkotagn.` som ett **datum**, `19 Jul.[?]`
+med svag första siffra, följt av ålderskolumnens `40`.
+
+Läsningen bär reservation på siffran men inte på att cellen innehåller ett
+datum. Ägs av C-0354 och P-0351.

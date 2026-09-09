@@ -38,3 +38,23 @@ identiteten till föräldrahushållet och födelsenotisen.
 ## Stödda påståenden
 
 A-1780–A-1781.
+
+## Tillägg T-0159, 2026-09-09: tre avskriftsfel
+
+Uppslaget har lästs om vid konsolideringen av P-0263.
+
+- **Inflyttningen** är `2/11`, inte `5/10`. Nämnaren är otvetydigt 11, och
+  systerns rad i C-0278 bär `75 2/11` med attest 25 medan Ernsts attest är 24 —
+  två löpnummer i följd samma dag. Rätt datum är **1875-11-02, attest 24**.
+- **Utflyttningen** till Hyltinge är `24/10`, inte `20?/10`. Rätt datum är
+  **1873-10-24**.
+- **Anmärkningskolumnen** lyder **`1ste Mötet 1873`**, inte `på Walla 1873`.
+  Det är en militär uppgift — hans första beväringsmöte — inte en ortsnot, och
+  den ändrar vad kolumnen kan användas till. Tolkningsavsnittet nämner inte
+  anmärkningskolumnen alls.
+
+Vidare läses yrket **statdräng** där citationen lämnade `[yrkesord svårläst]`,
+och utflyttningen till Nykyrka preciseras till **1878-10-24, attest 59**.
+
+Avskriften och tolkningen är append-only och behålls oförändrade; deras tre
+lydelser är från och med detta tillägg överspelade.

@@ -53,3 +53,36 @@ namn och bokförda födelsedata återbrukas. Norafors–Stormyran är ortsrubrik
 inte belägg för en viss arbetsgivare eller ett obrutet boende 1816–1850.
 A-4551. Född 1816 i Holm och familjens senare barns ortuppgifter fyller
 inte mellanliggande livsluckor.
+
+## Tillägg T-0164, 2026-09-09: tre dagbråk i barnraderna är fellästa
+
+Uppslaget har lästs om vid konsolideringen av P-0419 och P-0420 och
+kontrollerats centralt vid förstoring. Kalibreringen görs mot sidans egna
+siffror i samma hand: faderns `9/10`, moderns `23/1` och Ingrid Britas `1/8`.
+
+- **Sonen Jonas** (P-0420): cellen läses **`1850 29/3`**, inte `22/2`.
+  Täljarens andra tecken är den slutna öglan med nedåtgående svans som i
+  faderns `9/10`, inte sidans `2`, som slutar med ett vågrätt basdrag.
+  Nämnaren går under linjeraden med sluten nedre ögla, alltså sidans `3`.
+  Uppgiften är förd som `CONFLICT` i P-0420 — ingen läsning görs till fakta
+  och årtalet står ensamt i tidslinjen tills Holms födelsebok prövats.
+- **Dottern Stina Cajsa** (P-0251): täljaren läses **`19`**, inte `13`. Andra
+  tecknet är samma slutna ögla med svans som `9` i faderns `9/10`, medan
+  moderns `23/1` visar sidans tydligt annorlunda `3`. Citationen tillskriver i
+  dag `13 februari` till **denna sida** och `19 februari` till "äldre senare
+  kända hushållsrader"; om sidan verkligen står `19/2` är den konflikten
+  feltilldelad, och C-1042:s uttryckligen obevisade hypotes `19/12 → 19/2`
+  stärks.
+- **Dottern Ingrid Brita** (P-0421): cellen läses **`1853 1/8 Stöde`**; akt och
+  citation har 1853-08-04.
+
+**Uttryckligen inte avgjort:** årscellerna på Stefan Erics och Stina Cajsas
+rader är svårlästa — Stefan Erics rad är dessutom överstruken tvärs över
+siffrorna — och de är **inte** prövade här. Endast dagbråken är omlästa.
+
+**Hela högra halvan av barnraderna var outvunnen.** Avskriften täcker namn och
+födelsedata. `Koppor`, `Läser och förstår`, `Giftoår`, `Frejd`, `Hvarifrån`,
+`Hvarthän`, förhörs- och nattvardsrutorna 1850–1858 samt `Anmärkningar` var
+oavskrivna för samtliga fyra barn. Anmärkningskolumnen är tom för P-0419 och
+P-0420; de enda noterna där gäller fadern och Stina Cajsa. P-0419 är dessutom
+**det enda av de fyra barnen med frejdbeteckning**, `g.`

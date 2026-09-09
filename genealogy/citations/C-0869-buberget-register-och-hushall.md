@@ -311,3 +311,25 @@ ligger i T-0163/T-0202, sonen Anders i sin redan införda profil.
 Fullbilden och dess tidigare angivna hash är oförändrade. Alla moderns
 egna fält har prövats, även tomma eller skymda; dokumenterad oläslighet
 är ingen automatiskt outvunnen kolumn.
+
+## Tillägg T-0163, 2026-09-09: utflyttningstalet är inte `403`
+
+Både batch 283:s avskrift och T-0140-tillägget anger Ulrika Carolinas
+utflyttningstal i A I/8b s. 536 som **`403`**. Den bevarade fullbilden
+`A0001442_00221` visar **`4[8]3.`**
+
+Mellansiffran är säkert **ingen nolla**. Sidans egna nollor — `G.B. 400` på
+faderns rad två rader ovanför, i samma kolumn och hand — är runda ovaler,
+medan detta tecken är smalt och tvålyftat. Jämför också broderns `464` på
+raden ovanför, där sexan är rund. Två agenter läste talet oberoende av
+varandra 2026-09-09 och kom till samma slutsats, och läsningen är därefter
+kontrollerad centralt vid förstoring. Talet förs vidare som `4[8?]3` med
+reservation på mittensiffran.
+
+Skillnaden är materiell: **folio 483 är den enda kända vägen till hennes vuxna
+liv**, och en uppslagning på 403 skulle leda fel.
+
+**En cell till bör detaljkontrolleras.** T-0140-tillägget säger att hustruns
+födelseortscell är tom "medan maken har `Fors.`". I den bevarade bilden ser den
+andra vuxenraden ut att bära ett dittotecken i samma kolumn som barnens. Frågan
+tillhör P-0519:s ägare och är inte avgjord här.

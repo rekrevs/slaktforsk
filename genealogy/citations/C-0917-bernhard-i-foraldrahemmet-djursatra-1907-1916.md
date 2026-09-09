@@ -154,3 +154,25 @@ avser Kyrkefalla **1916-11-24**. Dödkolumn 18 och egen yrkeskolumn är
 tomma. Anteckningen den 20 november skiljs från utflyttningsdagen den
 24 november. Barnens yrken och värnpliktsnummer tillskrivs inte modern.
 Fullbild och hash finns redan ovan; inga nya arkivsökningar har utförts.
+
+## Tillägg T-0151, 2026-09-08: tre preciseringar efter omläsning
+
+Den lokalt sparade helbilden `00073285_00141` har lästs om inom T-0151. Ingen ny
+arkivåtkomst gjordes och avskriften ovan ändras inte.
+
+- **Punkt 4 i Normaliserad tolkning är överspelad.** Den påstår fortfarande att
+  hela föräldrahemmet bröts upp samtidigt 1916. Citationens eget T-0121-tillägg
+  upphäver det: Johan Martin Gabriel och Rut står kvar. Den äldre lydelsen är
+  tolkningshistorik.
+- **Värnpliktstalen är bundna till fel rader i avskriften.** I originalet står
+  `376 ³⁷/₁₉₁₂` på **rad 5**, Johan Martin Gabriel (P-0023), `372 ³⁷/₁₉₁₄` på
+  **rad 6**, Ragnar (P-0024), och en **överstruken upprepning** av `372 ³⁷/₁₉₁₄`
+  på **rad 7**, Rut (P-0025). Avskriften placerar `376 ³⁷/₁₉₁₂` hos Rut och
+  nämner ingen överstrykning. Rättelsen berör P-0023, P-0024 och P-0025, vilkas
+  akter ska läsa talen mot denna radbindning.
+- **Rad 3:s flyttdag är läsosäker.** Anteckningskolumnens `Fl. 16 ²⁰/₁₁` har en
+  dagsiffra som tydligt skiljer sig från faderns otvetydiga `²⁰/₁₁` på rad 1 och
+  läses närmast `²⁸/₁₁`. Läsosäkerheten är bevarad i P-0010:s A-5184 och
+  normaliseras inte här.
+
+Berörda påståenden: A-5180–A-5192 (P-0010).

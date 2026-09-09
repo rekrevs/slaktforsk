@@ -139,3 +139,55 @@ förmögenhetskolumnen skall utvinnas med sina tryckta rubriker.
 Tryckt sidhuvud på bevarad bild anger298; den äldre citationens
 sida295 är inte rätt sidlokator för detta original. Uppslag4774
 och bild-idB0001095_00300 är säkra.
+
+## Tillägg T-0148, 2026-09-08: tre preciseringar
+
+- **Sidlokatorn i tabellen ovan är överspelad.** Raden i Exakt lokalisering
+  skriver fortfarande `sida 295`, medan tillägget från T-0124 slår fast att det
+  tryckta sidhuvudet på den bevarade bilden anger **298** och att 295 inte är
+  rätt sidlokator för detta original. Uppslag 4774 och bild-id `B0001095_00300`
+  gäller oförändrat. Den äldre lokatorn bevaras som avskriftshistorik.
+- **Den normaliserade tolkningen är ofullständig om familjens barn.** Texten
+  skriver att Anna Elisabeth saknas i 1930 års hushåll `liksom Naëmi`, men
+  utelämnar Karl Emanuel, som är frånvarande på exakt samma sätt i den egna
+  avskriften. Frånvaron gäller alltså tre av barnen, inte två.
+- **Outvunna kolumnuppgifter på samma bild.** Inkomstkolumnen ger utöver de redan
+  avlästa raderna även Inga Elin 1 000 kronor och hushållerskan Ottilia Teresia
+  Nilsson 800 kronor, och skolbildningskolumnen bär på Inga Elins och Rut Esters
+  rader en extra bokstavsanteckning som liknar `gt`. Ingen av uppgifterna finns i
+  någon akt. De hör till personer som ägs av T-0230 och är utpekade, inte
+  tillskrivna här. Kodfältet `11-0-1-0-06` är avläst men fortfarande otolkat, och
+  det står på **hushållsföreståndarens rad**, Johan Fredriks, i den första
+  `Barn`-underkolumnen — inte på moderns rad. `redan döda` är tom och samma rad
+  bär `34-2` i inkomst- och förmögenhetskolumnen. Grannhushållen har koder av
+  samma form, `09-0-2-0-07`, `08-0-0-0-08`, `07-0-2-0-05` och `02-0-0-0-02`.
+  Två observationer är prövbara utan att vara slutsatser: slutledet `06`
+  sammanfaller med de sex hemmavarande 1930, medan inledningen `11` överstiger
+  de tio kända barnen med ett. Inget barnantal påstås.
+
+Berörda påståenden: A-4970–A-4975 (P-0244, P-0245) och A-4992–A-4998 (P-0531).
+
+## Tillägg T-0149, 2026-09-08: Umeåhushållets egna inkomstkolumner
+
+Samma slag av lucka som noterades för Kalmarhushållet gäller Umeådelen: inkomst-
+och förmögenhetskolumnerna per person är fortfarande outvunna för hushållets
+övriga medlemmar. Anders Valdemars rad bär till exempel talet 38. Uppgifterna är
+utpekade men inte tillskrivna någon person här; de hör till akterna för
+respektive hushållsmedlem. För P-0034 är hans egna tal, inkomst 15 och streck i
+förmögenhetskolumnen, nu utvunna som A-5075–A-5082.
+
+Stödda påståenden utökas med A-5075–A-5082 (P-0034).
+
+## Tillägg T-0154, 2026-09-08: bladet är ett utdrag ur församlingsboken
+
+Handlingens eget dokumenthuvud lyder `Utdrag ur Församlingsboken för Umeå stads
+förs., d. 31/12 1930` och anger uppslag 1839. Bladet är alltså **härlett ur
+församlingsboken** — samma bok som C-0916 transkriberar — och får inte användas
+som en av den oberoende bekräftelse. Uppgiften saknas i citationen och påverkar
+varje akt som använt 1930 som självständigt belägg, bland andra P-0028,
+P-0029, P-0032–P-0038 och Carlmangruppen.
+
+Detta är den tredje citationen i programmet som visar sig vara ett utdrag ur den
+bok den använts för att bekräfta; se även C-0257 och C-0353.
+
+Berörda påståenden: A-5470–A-5479 (P-0029).

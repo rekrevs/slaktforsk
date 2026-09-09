@@ -39,7 +39,7 @@ Nils Petters senare Höglund gäller honom; namnet tillförs inte automatiskt de
 | [P-0272 Anna Stina Strandlund](P-0272-anna-stina-stromlund.md) | mor | egen födelse 1880; Högsjökedjan | CORROBORATED | C-0658/C-0659 |
 | [P-0273 Johan Petter](P-0273-johan-petter-hogsjo.md) | person i samma familjehushåll | Högsjö, 1880 | TRANSCRIBED | C-0348/C-0349 |
 | [P-0255 Ingrid Kristina Vidusina](P-0255-ingrid-kristina-vidusina-hoglund.md) | äldre syskon med samma belagda föräldrar | Högsjö, 1880 | CORROBORATED | C-0348/C-0349; C-0253 och C-0659 |
-| [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | äldre syster på moderns sida; hennes far ej belagd | Högsjö, 1880 | CORROBORATED | C-0348/C-0349; C-0350 och C-0659 |
+| [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | äldre syster på moderns sida | Högsjö, 1880. Hennes far är inte belagd. | CORROBORATED | C-0348/C-0349; C-0350 och C-0659 |
 | [P-0345 Katharina/Catharina Amanda](P-0345-katharina-amanda-hogsjo.md) | person i samma familjehushåll | Högsjö, 1880 | TRANSCRIBED | C-0348/C-0349 |
 | [P-0346 Erik Nikolaus Billjard](P-0346-erik-nikolaus-biljard-hogsjo.md) | äldre syskon med samma belagda föräldrar | Högsjö, 1880 | CORROBORATED | C-0348/C-0349; C-0660 och C-0659 |
 | [P-0347 Lars Gustaf Emanuel](P-0347-lars-gustaf-emnuel-hogsjo.md) | person i samma familjehushåll | Högsjö, 1880 | TRANSCRIBED | C-0348/C-0349 |

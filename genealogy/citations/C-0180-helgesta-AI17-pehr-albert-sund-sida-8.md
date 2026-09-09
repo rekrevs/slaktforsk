@@ -33,3 +33,12 @@ digitaliserade hos Riksarkivet.
 ## Stödda påståenden
 
 A-0401, A-0501–A-0502 och A-1373.
+
+## Tillägg T-0159, 2026-09-09
+
+Avsnittet `Normaliserad tolkning` säger att Gryts C/1–C/4 inte är
+digitaliserade. Lydelsen är upphävd: födelseboken är läst i
+[C-0985](C-0985-gryt-C3-per-albert-alund-fodd-1850.md), se A-0489. Avsnittet
+är append-only och behålls oförändrat; åtkomstpåståendet gäller inte längre.
+
+Iakttagelsen kommer ur konsolideringen av P-0110 i T-0159.

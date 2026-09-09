@@ -33,3 +33,29 @@ inte det samtidiga hushållet och skapar inte alternativa föräldrar.
 
 A-3235.
 
+
+## Tillägg T-0162, 2026-09-09: nollet är upphävt — posten finns
+
+Citationens slutsats att ingen post för Olof Nilssons och Maja Jonsdotters son
+Anders återfinns i den kompletta årsföljden 1801, och att aprilposten är "den
+enda uttryckliga Anders-posten", är **fel**.
+
+Den redan sparade fullbilden `C0027373_00138` bär **två** marginalposter med
+namnet `Anders`. Den tidigare läsningen stannade vid aprilposten, som gäller
+Nils Anderssons och Maria Andersdotters son i N. Rinkaby. Junipostens lydelse,
+läst vid förstoring och kontrollerad centralt, är:
+
+> `Anders.` Hemansbrukaren **Olof Nilssons** och Hustru **Maja Jons D:r** i
+> **S. Rinkaby**. F. d. **25**. D. d. **28. Junii.**
+
+Föräldrarna, hustruns patronymikon och byn stämmer exakt med målfamiljen.
+**Anders Ringberg föddes alltså 1801-06-25 och döptes 1801-06-28**, med fyra
+faddrar på samma rad. Nollutsagan är prövad och avvisad (A-6542, `REJECTED`).
+
+Datumet har dessutom en **oberoende bekräftelse** som inte heller var utvunnen:
+födelsekolumnen på hans egen rad i Bäckebo A I/7 s. 173 anger
+`Hossmo | 1801 | 25/6`.
+
+Rättelsen berör `genealogy/source-coverage.md` rad 188 samt profilerna för
+P-0515 och P-0516, där födelsebokskonflikten beskrivs som avgränsad. Tidigare
+avsnitt är append-only och behålls oförändrade; slutsatsen gäller inte längre.

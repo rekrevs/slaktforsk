@@ -45,3 +45,10 @@ A-0282–A-0283, A-0285.
 ## Rättelse 2026-08-29
 
 Brudgummens födelse lyder `28/5 61` och hemorten `Petisträsk` med folio `163/2` (Degerfors A I/10b s. 163, C-0548). Den tidigare läsningen `19/5` och `[Utansjö?]` var fel. Se C-0550.
+
+## Tillägg T-0154, 2026-09-08: löptexten bär överspelade lydelser
+
+Avsnittet `Normaliserad tolkning` anger fortfarande födelsen 19 maj 1861 och
+kopplingen till Johan August Johansson. Båda är upphävda av senare rättelser:
+dagen är 1861-05-28 och identifieringen är avvisad. Löptexten bevaras som
+tolkningshistorik.

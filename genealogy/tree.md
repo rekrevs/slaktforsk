@@ -715,9 +715,13 @@ fortsatt öppna.
   1820-08-21 i Västra Vingåker saknar motsvarande originalpost och står som
   `IDENTITET OLÖST` utan konstruerade föräldrar. Brita Kajsas fyra namngivna
   dopvittnen har P-0179–P-0182.
-- Maj Amalias indexerade 1930-hushåll omfattar P-0017 Hulda Margareta; hennes
-  rad är ännu inte återfunnen på den sparade sidan. I Axel Edvards separata
-  familjegrupp finns P-0018 Birgit Cecilia och P-0019 Gunborg Elisabet.
+- Maj Amalias indexerade 1930-hushåll omfattar P-0017 Hulda Margareta. Hennes
+  rad är fortfarande inte återfunnen på den sparade 1930-bilden, men hon har
+  sedan T-0150 egna originalrader i Flens församlingsböcker: fol 932 rad 3 och
+  fol 744 rad 10, där båda föräldrarna är namngivna och fadern står utskriven i
+  klartext (C-0972, C-0973). Formuleringen att hennes rad inte är återfunnen
+  gäller alltså 1930-bilden, inte hennes originalbelägg i stort. I Axel Edvards
+  separata familjegrupp finns P-0018 Birgit Cecilia och P-0019 Gunborg Elisabet.
 - P-0010 Bernhard Natanael är säkert identifierad och hans faderskap till
   Arne är fastställd projektinformation enligt ägarens familjekunskap. Inget
   ytterligare faderskapsbelägg krävs. Hans föräldrar är P-0020

@@ -44,3 +44,19 @@ A-2166–A-2170.
 Hela den bevarade originalposten har prövats, inklusive faddrar. Posten ligger på **högersidan**, inte vänstersidan. Cajsa Märta föddes **21 mars 1834** och döptes **23 mars**. Föräldrarna är bonden Anders Dahlsten och hustrun **Stina Cajsa Larsdotter i Säter**; moderns ålder **27**. Säter anger föräldrarnas hemvist, inte ett särskilt bevisat födelsehus. Ingen separat kyrktagnings- eller dopförrättarkolumn finns här.
 
 Faddrar, med prövade läsreservationer: bonden Pehr Aronsson och hans hustru i Åse; bonden Eric Larsson och hans hustru i Säter; `[titel svårläst] O. P. Söderberg` i Backen och bondedottern Märta Nilsdotter i Säter. De två förstnämnda hustrurna namnges inte individuellt. Ingen av faddrarna görs till säker släkting enbart på namn eller hemvist. Äldre avskrift bevaras ovan.
+
+## Tillägg T-0158, 2026-09-09
+
+Två formfel som kan leda en senare läsare fel, iakttagna vid konsolideringen av
+P-0316. Ingen sakuppgift ändras.
+
+- Avsnittet `Exakt lokalisering` anger `bild C0033077_00125, vänstersidan`,
+  men citationens eget tillägg slår fast att posten ligger på **högersidan**.
+  Lokaliseringsavsnittet är append-only och behålls oförändrat; tilläggets
+  sidangivelse gäller.
+- Den lokala originalbilden pekar på filen
+  `media/C-0342-riksarkivet-indal-C4-nils-petter-fodd-1834-03-08.jpg`. Filen
+  finns och hashen stämmer, men filnamnet börjar med en annan citations id.
+  Namnkonventionen är alltså bruten just här, vilket gör bilden svår att hitta
+  från C-0434. Rättelsen kräver en filomdöpning med följdändringar och
+  lämnas till den som äger mediebeståndet.

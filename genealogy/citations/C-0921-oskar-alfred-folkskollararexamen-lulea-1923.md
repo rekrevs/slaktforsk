@@ -78,3 +78,11 @@ digital bild.
 ## Stödda påståenden
 
 A-3464–A-3466 (P-0001).
+
+## Tillägg T-0149, 2026-09-08: seminarieorten är Luleå, inte Umeå
+
+Formuleringen `mellan hans år som seminarieelev i Umeå och tjänsten` kan läsas som
+att seminariet låg i Umeå. Han var **kyrkobokförd** i Umeå landsförsamling, medan
+seminariet låg i **Luleå**. Skrivningen gäller alltså hemvist, inte lärosäte, och
+ska inte användas som belägg för en umeåförlagd utbildning. Se P-0001 och P-0002
+samt C-0922:s avgränsade seminarienoll.

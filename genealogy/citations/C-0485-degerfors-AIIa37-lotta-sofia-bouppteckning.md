@@ -86,3 +86,10 @@ bilder kan inte omkontrolleras här. Deras slutsummor, fastighetsposter och
 underskrifter är därför inte återverifierade i denna granskning.
 
 Stöder rättelsen av A-2266 samt A-4300–A-4303.
+
+## Tillägg T-0154, 2026-09-08: svärfaderns namnform avviker
+
+Citationen skriver svärfadern `Anders Jansson`. Husförhörslängden C-0549 och
+folkräkningsutdraget C-0060 skriver båda `Anders Jonsson`, vilket är den form
+P-0065 bär. Avvikelsen är inte noterad någonstans och bevaras här som en
+namnvariant; ingen av formerna normaliseras bort.

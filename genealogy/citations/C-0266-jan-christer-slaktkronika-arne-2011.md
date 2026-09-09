@@ -122,3 +122,7 @@ redovisade familjebilderna. Identifieringar/dateringar tillskrivs
 familjematerialet, inte en ny ansiktsanalys. Bilder1941/1943 visar
 de två äldre barnen; den tredje dottern ingår i den namngivna
 familjeuppgiften men är inte född på de äldre bilderna.
+
+## Tillägg T-0150, 2026-09-08: Stödda påståenden kompletteras
+
+Listan utökas med A-5155 (P-0303) och A-5163 (P-0304). Bildtexten om besöket i Flen 1943 har dessutom fått en kronologisk reservation: familjen flyttade därifrån 1943-11-24, så året är förenligt med bildtexten endast under sina sista fem veckor. Krönikans elva fotografier avbildar inte P-0304.

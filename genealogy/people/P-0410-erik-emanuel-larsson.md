@@ -9,7 +9,7 @@ Larsson är en normaliserad patronymikonform.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-2326 | Erik Emanuel föddes 1873-08-24 i Indal och hörde till Lars Petters och Cajsa Märtas Högsjöhushåll. | CORROBORATED | hög | [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Folkräkningen stöder namn, år, socken och hushåll; A I/12 ger exakt datum. |
+| A-2326 | Erik Emanuel föddes 1873-08-24 i Indal och hörde till Lars Petters och Cajsa Märtas Högsjöhushåll. | TRANSCRIBED | medel | [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md), [C-0512](../citations/C-0512-indal-AI12-hogsjo-sida-132-nilsson-dahlsten.md) | Folkräkningen stöder namn, år, socken och hushåll; A I/12 ger exakt datum. **Nedgraderad 2026-09-09 (T-0158):** folkräkningsbladen C-0388 och C-0389 bär dokumenthuvudet `Utdrag ur Husförhörslängden` och C-0390 `Utdrag ur Församlingsboken` för Indals församling. De är alltså avskrifter ur just den längdserie de här sägs bekräfta, och utgör tillsammans med den en informationsväg, inte två. Ingen sakuppgift ändras. |
 
 ## Relationer
 

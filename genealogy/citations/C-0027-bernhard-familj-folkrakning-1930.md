@@ -49,3 +49,17 @@ noll. Bernhards flytt från Oskarshamn 1923, kassörsyrke och ekonomirad hör
 inte till dottern. Hushållsgränsen skiljer familjen från de andra grupperna
 på samma fastighetsfolio 3365. A-4701 bevarar den egna raden; äldre text
 står kvar. Den redan sparade helbilden och SHA-256 är verifierade.
+
+## Tillägg T-0151, 2026-09-08: en odokumenterad normalisering och en hemortsrubrik
+
+- **Inkomsten `69 —` är normaliserad till 6 900 utan dokumenterad enhet.**
+  Råcellen anger `69 —`, och multiplikationen med hundra är en tolkning, inte en
+  avskrift. Exakt samma antagande rättades öppet för C-0417 i T-0127. Råvärdet
+  gäller; tolkningen är registrerad som en öppen fråga i P-0010:s profil och får
+  inte återges som ett belagt belopp. Berör även P-0014, som bär samma
+  normalisering.
+- **Hemortsrubriken `136 Siljan 10` omfattar två hushåll** i originalet, folierna
+  3364 och 3365. Citationen anger bara 3365. Det ändrar ingen sakuppgift men är
+  relevant när Limhamnsvägen routas vidare.
+
+Berörda påståenden: A-0120 och A-5180–A-5192 (P-0010).

@@ -38,3 +38,9 @@ Burträsk, hustruns tjänsteförsamling 1930–1932, inte i Umeå.
 ## Stödda påståenden
 
 A-3313–A-3316 (P-0001), A-3319–A-3320 (P-0048), A-3321–A-3322 (P-0049).
+
+## Tillägg T-0149, 2026-09-08: Burträsk var inte bara tjänsteförsamling 1930–1932
+
+Tolkningen ovan kallar Burträsk hustruns tjänsteförsamling 1930–1932. C-0889 visar
+att hon var kyrkobokförd där 1930–1950, alltså hela perioden fram till flytten
+till Umeå stad. Den snävare lydelsen bevaras som tolkningshistorik.

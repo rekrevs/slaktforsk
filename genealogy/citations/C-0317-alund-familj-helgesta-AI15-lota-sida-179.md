@@ -58,3 +58,14 @@ A-1894–A-1918.
 ## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
 
 Fredrik Wilhelms egen rad9 har prövats över hela helbilden, inklusive kunskaps-, förhörs-, nattvards- och anteckningsfält. S.Fredrik Wilhelm,43 12/10,Gryt genom ditto, koppor v, inflytt Hyltinge61. Kyrkliga råtecken och årsmarkeringar1861e,1862b,1863ea,1864b,1865cb är grafiska läsningar utan översättning till moderna skolnivåer. Egen anmärkning: exerc.1sta kl.64 / d:o2dra kl.65. Detta är en militär övningsnyckel, inte belägg för skolklasser; förband och inskrivningsnummer saknas. Egna vigsel-, döds- och utflyttningsfält är tomma. Registerbild8 har också visats och anger Lotha179. Raden förankrar personen som son i Ålundhushållet; senare egna livsluckor kvarstår.
+
+## Tillägg T-0159, 2026-09-09
+
+Avsnittet `Familjetolkning` för Fredrik Wilhelms födelseårskonflikt 1843 mot
+1848 vidare som olöst. Konflikten är löst: `genealogy/source-coverage.md`
+redovisar att T-0143 fastställde 1848 som en avskriftsmiss i
+folkräkningsutvinningen, se C-0079. Rättelsen hade inte propagerats hit.
+Avsnittet är append-only och behålls oförändrat; konflikten är avförd.
+Berör P-0113.
+
+Iakttagelsen kommer ur konsolideringen av P-0110 i T-0159.

@@ -97,3 +97,18 @@ denna läsning.
 ## Stödda påståenden
 
 A-3669, A-3670, A-3672, A-3673, A-3674.
+
+## Tillägg T-0159, 2026-09-09: bevarandebrist
+
+Citationen saknar helt avsnittet `Lokal källbild` och har varken filnamn eller
+SHA-256 för någon bevarad bild. Posten är alltså läst men inte reproducerad
+lokalt.
+
+Det väger tyngre här än vanligt: denna citation bär ett av de starkaste
+beläggen för P-0110:s identitet, och bristen håller PK-11 `EJ STYRKT` för
+honom. Den ligger dessutom utanför både T-0237:s och T-0240:s omfång och har
+i dag ingen ägare. Bristen stängs av en hämtning med post-URL och hash, inte
+av ny forskning.
+
+**Bilden att hämta är `A0012148_00132`.** Citationen bär ensam vigseln
+1876-06-24 och saknar varje bevarad reproduktion.

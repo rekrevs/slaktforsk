@@ -85,3 +85,16 @@ S-0349 anger läst registerbild 9 och sidor 93–98, bilder 105–110. Endast
 110 återfunnen efter lokalt alias-/metadata-/tmp-eftersök. Sex tidigare
 lästa förberedelsebilder 9,105–109 saknar därmed lokal kopia. Det är en
 PK-11-gräns, inte ett saknat eget positivt hushållsuppslag.
+
+## Tillägg T-0162, 2026-09-09
+
+**1840-notens kolumn är fastställd.** T-0136-tillägget beskriver noten som
+liggande vid "makens rad" utan att ange kolumn. Den ligger i kolumnen
+**`Anmärkningar.`**, inte i `Utflyttad`, och läses **`1840 3/1`**. Datumet
+sammanfaller alltså inte med vigseldagen 26 januari, och notens innebörd är
+fortsatt otolkad.
+
+Ur samma rad är dessutom utvunnet: `Inflyttad — ifrån` = `Wäsenbo` med **tom**
+årscell, personkolumnens `7/64` och `(13/128)`, blank födelseort samt tomma
+kunskaps- och koppceller. Talet `7/64` är en rå mantalsnyckel som aldrig
+följts.

@@ -31,7 +31,7 @@
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
 | [P-0310 Karl August Carlman](P-0310-carl-august-carlman.md) | far/hushållsföreståndare | Gasa 1860–1870-tal, Hagaby 1890/1895 | TRANSCRIBED | C-0355/C-0395/C-0356/C-0538 |
-| [P-0311 Christina Gustafva Ringberg](P-0311-kristina-gustafva-efternamn-svarlast.md) | faderns hustru, korrelerad mor | Gasa till hennes död 1874 | TRANSCRIBED | C-0355/C-0395/C-0396/C-0533 |
+| [P-0311 Christina Gustafva Ringberg](P-0311-kristina-gustafva-efternamn-svarlast.md) | mor, korrelerad | Gasa till hennes död 1874. Faderns hustru; moderskapet är korrelerat, inte direkt belagt. | TRANSCRIBED | C-0355/C-0395/C-0396/C-0533 |
 | [P-0357 Mathilda Sofia Svensson](P-0357-matilda-sofia-svensson-carlman.md) | styvmor genom faderns andra äktenskap | vigsel 1882 i Kalmar, senare Hagaby | TRANSCRIBED | C-0539/C-0356/C-0538 |
 | [P-0242 Johan Fredrik Villehad Carlman](P-0242-johan-fredrik-vilhelm-carlman.md) | bror i familjehushållet | Gasa 1860–1870-tal | TRANSCRIBED | C-0355/C-0395/C-0393 |
 | [P-0354 Gustaf Adolf Viktor Carlman](P-0354-gustaf-adolf-viktor-carlman.md) | bror i familjehushållet | Gasa 1860–1870-tal | TRANSCRIBED | C-0355/C-0395/C-0393 |

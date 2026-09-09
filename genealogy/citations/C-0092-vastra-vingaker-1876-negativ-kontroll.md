@@ -48,3 +48,19 @@ handlingen inte kan nås på distans.
 ## Stödda påståenden
 
 A-0500.
+
+## Tillägg T-0159, 2026-09-09
+
+Avsnittet `Resultat` säger att Gryts lysnings- och vigselböcker före 1895 inte
+är digitaliserade. Den lydelsen är upphävd: lysningen och vigseln 1876 är läst
+i [C-0986](C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md), se A-3671.
+Avsnittet är append-only och behålls oförändrat; åtkomstpåståendet gäller inte
+längre och får inte återanvändas som skäl att avstå från Gryt.
+
+Iakttagelsen kommer ur konsolideringen av P-0110 i T-0159.
+
+**Tillägg samma dag:** avsnittet `Resultat` säger också att vigseln
+"sannolikt" skedde i Gryt. Den gissningen är avgjord åt andra hållet — vigseln
+1876-06-24 står i **Husby-Oppunda**, se
+[C-0986](C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md). Gryts C/5 var
+dessutom publikt bildlänkad hela tiden. Ingen av lydelserna får återanvändas.

@@ -50,3 +50,20 @@ Jonas Alfred Konrad. Äldre löptext och A-1981/A-1982:s nio följer inte den
 registrerade listan. Rättelsen gäller räkningen i befintlig avskrift;
 originalbilden har inte lästs om och inga ytterligare personer utesluts
 utöver den dokumenterade listans omfång. A-4126 och A-4127.
+
+## Tillägg T-0162, 2026-09-09: bladet är ett utdrag ur husförhörslängden
+
+Den sparade bilden bär den **tryckta** rubriken
+`Utdrag ur Husförhörslängden för Indals moder församl. i Medelpads prosteri,
+V. Norrlands län, d. 31/12 1880, 14 ark.`
+
+Folkräkningen 1880 för Indal är alltså ingen oberoende uppräkning vid sidan av
+husförhörslängderna — den är en avskrift ur dem. Denna citation, liksom
+C-0832, C-0348 och S-0275, har beskrivit den som oberoende, och samma antagande
+återkommer i **P-0271, P-0272, P-0315, P-0316 och P-0254** samt i
+`genealogy/source-coverage.md`.
+
+Där en akt låter detta blad korroborera en uppgift som redan vilar på Indals
+längdserie ska antalet oberoende röster räknas ned med en. Ingen sakuppgift
+ändras. Iakttagelsen kommer ur konsolideringen av P-0343 och P-0344 i T-0162
+och är den tjugofemte kända härledda källan i programmet.

@@ -61,3 +61,31 @@ en födelse 1881-03-20 eller något barn med dopnamnet Axel Edvard.
 ## Stödda påståenden
 
 A-0435, A-0437–A-0439, A-0441–A-0442, A-0445, A-0450, A-0454–A-0463.
+
+## Tillägg T-0153, 2026-09-08: talet efter yrket är inte ett rotenummer
+
+Den normaliserade tolkningen ovan säger att talet efter yrket är rotenumret. Den
+lydelsen är upphävd av S-0067:s tillägg 2026-09-07 (T-0125): kolumnrubriken lyder
+`Yrke och nummer i yrkesuppgift`, och beteckningen rotenummer är för precis för
+vad kolumnen faktiskt anger. Den äldre lydelsen bevaras som tolkningshistorik.
+
+Citationen ger dessutom endast **året** `02` och församlingen Flen för Erik Axel,
+aldrig dagen, och är enligt S-0067 en sekundär avskrift av församlingsboken. Den
+får därför inte användas som en av församlingsboken oberoende korroborering av
+hans födelsedag.
+
+Berörda påståenden: A-0435 och A-0445 samt A-5420–A-5433 (P-0118).
+
+## Tillägg T-0153, 2026-09-08 (andra): oberoendepåståendet är felaktigt
+
+Den normaliserade tolkningen skriver att detta är `en andra, av 1930 års
+folkräkning oberoende, uppgift om födelseförsamlingen Björkvik`. Påståendet
+håller inte: dokumenthuvudet lyder `Utdrag ur Församlingsboken för Hyltinge
+förs.`, alltså samma bok som C-0919 och samma bokföringstradition som C-0019.
+Uppgiften är därför **inte oberoende** av den kedjan, och Björkvik uppträder
+dessutom först i personens eget hushåll i Flens folier 345, 347 och 212, medan
+samma volyms folio 349 och A I/26 sida 281 skriver Forssa. Alla senare
+Björkvikuppgifter ligger nedströms den kedjan.
+
+Den äldre lydelsen bevaras som tolkningshistorik. Berörda påståenden: A-0435,
+A-0438 och A-5368–A-5369 (P-0015).

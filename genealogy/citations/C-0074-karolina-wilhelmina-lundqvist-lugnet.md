@@ -34,3 +34,14 @@ en originalkälla.
 ## Stödda påståenden
 
 A-0390.
+
+## Tillägg T-0159, 2026-09-09: bevarandebrist
+
+Citationen saknar bevarad ögonblicksbild och kontrollsumma. Det väger tungt
+här, eftersom den ensam bär dödsdatumet 1901-07-19 och därmed hela
+kandidatfrågan om Karolina Wilhelmina Lundqvist är samma person som det
+dopvittne som förs i P-0109. En kandidatgräns som ska kunna prövas av någon
+annan behöver ett bevarat original.
+
+Bristen stängs av en hämtning med post-URL och hash, inte av ny forskning.
+Iakttagelsen kommer ur konsolideringen av P-0109 i T-0159.

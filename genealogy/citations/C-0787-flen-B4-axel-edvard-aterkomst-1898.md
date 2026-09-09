@@ -36,3 +36,14 @@ Hyltinges egen utflyttningsårgång saknar en motsvarande målrad, se C-0786.
 ## Stött påstående
 
 A-3029.
+
+## Tillägg T-0153, 2026-09-08: ursprungsförsamlingen är Sköldinge
+
+Post 85 återges med ursprungsförsamlingen `Hyltinge`. Omläsning av den lokalt
+sparade helbilden ger `85 · 9/11 · Sonen Axel Edvard Eriksson · 1 · **Sköldinge**
+· Bergatorp · 281`. Samma ord står i Flen `A I/26` sida 281 rad 8, och det skiljer
+sig tydligt från grannpost 86:s `Helgesta`.
+
+Rättelsen gör att de tre Hyltingenollen i källtäckningen är väntade i stället för
+anomala, och att Sköldinges utflyttningsföljd 1898 är den reciproka kontroll som
+aldrig gjorts. Se P-0015:s A-5380, Q-06 och KP-07.

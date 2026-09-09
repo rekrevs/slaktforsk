@@ -63,3 +63,7 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3358–A-3359 (P-0003), A-3362 (P-0007).
+
+## Tillägg T-0150, 2026-09-08: Stödda påståenden kompletteras
+
+Listan utökas med A-5150, A-5151 och A-5153 (P-0303). Citationen bär hennes egen rad — namnform, födelseår, dopnotering och utflyttning — utan att uppgifterna hade nått hennes akt.

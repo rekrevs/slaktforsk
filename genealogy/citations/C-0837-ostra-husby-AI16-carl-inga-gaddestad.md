@@ -58,3 +58,15 @@ reservationer efter bildprövning; egna födelse-/dödsposter behövs för
 säker precisering. Inga kvarvarande helt oprövade egna familjefält
 lämnas. Fyra gemensamma barnrader samt makens son i förra giftet är
 nu bevarade, utan sammanblandning av modersgrupperna.
+
+## Tillägg T-0162, 2026-09-09
+
+**`Hitkom Torstad[?] 1839` ska vara `Gårstad`.** Cellen på Carl Månssons egen
+rad är samma ord som uppslagets rotrubrik `Utan Gårstads Rote`, som står
+tryckt på samma sida. Ortnamnet Torstad finns inte i sammanhanget.
+
+**Uppslagets rubrik saknas i citationen:** byn är Gäddestad i `Utan Gårstads
+Rote`. Uppgiften behövs för att koppla ihop hitkomsten med C-0839:s uppslag,
+som sannolikt är just Gårstad och inte Orrevalla.
+
+Iakttagelsen kommer ur konsolideringen av P-0360 i T-0162.

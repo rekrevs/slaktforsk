@@ -31,7 +31,7 @@ Anna Erika Lydia är dotter till Anna Stina Strandlund enligt den egna födelsep
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
 | [P-0272 Anna Stina Strandlund](P-0272-anna-stina-stromlund.md) | mor | Högsjö, Indal, 1868 och senare hushåll | CORROBORATED | C-0350, C-0349 |
-| [P-0271 Nils Petter Pehrsson/Höglund](P-0271-nils-petter-pehrsson.md) | moderns make och hushållsföreståndare; biologisk far ej belagd | Högsjö, 1862–1871 och 1872–1881 års böcker | TRANSCRIBED | C-0254, C-0349, C-0350 |
+| [P-0271 Nils Petter Pehrsson/Höglund](P-0271-nils-petter-pehrsson.md) | moderns make och hushållsföreståndare | Högsjö, 1862–1871 och 1872–1881 års böcker. Biologiskt faderskap är inte belagt. | TRANSCRIBED | C-0254, C-0349, C-0350 |
 | [P-0255 Ingrid Kristina Vidusina Höglund](P-0255-ingrid-kristina-vidusina-hoglund.md) | syster genom modern | Högsjö, födelser 1866 och 1868 | CORROBORATED | C-0253, C-0350 |
 | [P-0346 Erik Nikolaus Billjard/Höglund](P-0346-erik-nikolaus-biljard-hogsjo.md) | bror genom modern | Högsjö, födelser 1868 och 1874 | CORROBORATED | C-0350, C-0660 |
 | [P-0349 Jonas Alfred Conrad](P-0349-jonas-alfred-konrad-hogsjo.md) | bror genom modern | Högsjö, födelser 1868 och 1880 | CORROBORATED | C-0350, C-0659 |

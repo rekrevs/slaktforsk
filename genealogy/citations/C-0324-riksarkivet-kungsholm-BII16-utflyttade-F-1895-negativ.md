@@ -27,3 +27,14 @@ Ulrika Eleonora 1895-12-31.
 ## Stödda påståenden
 
 A-1933.
+
+## Tillägg T-0160, 2026-09-09: nollets räckvidd
+
+Nollresultatet gäller **enbart** avsnittet Utflyttning-F för året **1895** och
+enbart Johannes Ivar. Det får inte tillämpas på Ruth Fredrikas och Robert
+Nikolaus utflyttning från Kungsholm, som enligt deras egna rader i C-0323
+skedde **1896-12-29** med inflyttningsnummer 317 respektive 316 i Hudiksvall.
+Att använda detta noll mot december 1896 vore ett felriktat nollresultat av
+precis det slag programmet har hittat sex gånger.
+
+Kungsholms utflyttningslängd för december 1896 är oläst.

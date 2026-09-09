@@ -150,3 +150,13 @@ den får inte normaliseras till Bettna församling eller härförsamlings-
 födelse. Den tidigare sockentolkningen ovan, även i T-0132-tillägget,
 upphävs. Halla och Stora Malm kommer från egna kyrkoboksposter, inte från
 detta läns-/stadsfält.
+
+## Tillägg T-0144, 2026-09-08: dotter H:s årsuppgift är inte längre en konflikt
+
+Beskrivningen ovan av dottern `H.`, född 1859, som en oharmoniserad konflikt
+mot A I/16 b:s 1858-11-22 är inaktuell. T-0139 läste om originalledet och
+rättade hushållsdatumet till **1859-10-29**; SCB-utdragets 1859 stämmer alltså
+med den rättade läsningen, och 1858-11-22 är en avvisad avskrift, inte en
+kvarstående källkonflikt. Utdraget anger fortfarande endast år och är hämtat ur
+samma kyrkobokföring som husförhören; det är därför inte en oberoende
+vitaluppgift. Se P-0498:s aktuella akt och A-4761.

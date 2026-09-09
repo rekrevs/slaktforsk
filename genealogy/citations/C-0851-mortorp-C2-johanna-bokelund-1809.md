@@ -32,3 +32,36 @@ SHA-256
 
 A-3238–A-3240.
 
+
+## Tillägg T-0164, 2026-09-09: modern hette Ryberg, inte Kylenstjerna
+
+Avskriften anger modern som **`Gustava Maria Kylenstjerna`**. Posten lyder i
+originalet:
+
+> `d. 3. föddes Kyrkoherdens i Mortorp Samuel Bökelunds och des Hustru`
+> **`Gustava Maria Rybergsd:r`** `döpt d. 6 til Johanna Chri-stiana.`
+
+Namnet börjar med ett tydligt `R` följt av `yberg`; `Kylenstjerna` har ingen
+likhet med formen på raden. Läsningen är gjord vid konsolideringen av P-0389
+och kontrollerad centralt mot fullbilden `C0028236_00088` vid förstoring, och
+den stöds av fadderraden på samma uppslag och i samma hand, som namnger
+**`Johanna Ryberg`**.
+
+**Följden är att en hel forskningsriktning faller.** Formen `Kylenstjerna` är
+ett adligt namn, och på den vilade hypotesen om adlig härkomst i Q-03 och
+KP-03. Den behövs inte längre och får inte återanvändas. Följdrättelser krävs i
+**P-0518**, vars aktnamn och A-3240 bär felläsningen, och i **P-0517**.
+
+**Tre uppgifter till saknas i avskriften.** Faderns ämbete
+**`Kyrkoherdens i Mortorp`** står i posten — och det var just den kolumn PK-05
+underkändes på för P-0389. Moderns ålder `33` och sex faddrar är likaså
+oavskrivna.
+
+**Namnformen om barnet.** Namnkolumnen skriver `Johanna Chri-stiana`, och samma
+skrivare skriver `Christina` på raden nedanför. Formen `Christina` är **inte
+utskriven om henne i någon läst originalpassage** — både C-0466 och C-0467 har
+bara `Chr.`, som avskrifterna expanderat. A-3833 påstod motsatsen och är
+omformulerad i P-0389.
+
+**C-0466 och C-0467 är förda av samma hand**, hennes egen make A. Ringberg, och
+räknas inte som två oberoende original.

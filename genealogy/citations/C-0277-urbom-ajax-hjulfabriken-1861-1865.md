@@ -75,3 +75,16 @@ personbunden tidig brygga prövats; vuxenfamiljens kontinuitet består.
 ## T-0135: korrigerad datumläsning efter oberoende detaljprövning
 
 Både den äldre avskriften och mitt första T-0135-tillägg återgav felaktigt moderns datum som 4/3. Förstorade egna datumfält och oberoende läsning visar **1817 4/4**. Det är denna råform som gäller; det mindre tilläggstecknets innebörd normaliseras inte. Hennes eget födelseoriginal C-0289 ger 4 mars 1817, men datumavvikelsen finns också i den senare familjekedjan, inte enbart i barndomens längder. Namn, make, barn, ålder och de tidigare föräldrahushållen måste bära personargumentet tillsammans, inte ett felaktigt påstående om exakt datumöverensstämmelse.
+
+## Tillägg T-0159, 2026-09-09
+
+**Nattvardsdagen 21/7 1861 är hushållets gemensamma, inte faderns egna.** Den
+står i faderns, moderns och Edlas 1861-N-kolumn. Faderstillägget listar 21/7
+bland "egna årsfält" utan att ange vilken kolumn den kommer ur; uppgiften är
+riktig men ska inte läsas som personbunden.
+
+**Dagbråket `Lerbo 1861 19/10` är kontrollerat och korrekt.** Täljaren är 19,
+inte 10, trots att `1`+`9` och `1`+`0` är nästan identiska i den handen på
+just detta uppslag. Ingen rättelse behövs. Noteras uttryckligen, eftersom
+felläst dagbråk är det mönster som gett programmet flera felriktade
+nollresultat; här höll läsningen.

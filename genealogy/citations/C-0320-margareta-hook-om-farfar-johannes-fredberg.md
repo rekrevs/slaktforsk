@@ -35,4 +35,6 @@ Riksarkivets original och gravförvaltningens handlingar. En sådan kontroll
 
 ## Stödda påståenden
 
-A-1613–A-1615, A-1617 och A-1626–A-1627.
+A-1613–A-1615, A-1617 och A-1626–A-1627. Tillagda i T-0146, 2026-09-08:
+A-4834–A-4836 (P-0308), som utvinner hennes egna släktskapsord, hennes
+barndomsminne av farfaderns halvsystrar och att hon var i livet 2026-08-23.

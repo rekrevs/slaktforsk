@@ -64,3 +64,33 @@ personbunden tidig brygga prövats; vuxenfamiljens kontinuitet består.
 ## T-0135: korrigerad datumläsning efter oberoende detaljprövning
 
 Både den äldre avskriften och mitt första T-0135-tillägg återgav felaktigt moderns datum som 4/3. Förstorade egna datumfält och oberoende läsning visar **1817 4/4 med ett separat efterställt 2/3-liknande tecken**. Det är denna råform som gäller; det mindre tilläggstecknets innebörd normaliseras inte. Hennes eget födelseoriginal C-0289 ger 4 mars 1817, men datumavvikelsen finns också i den senare familjekedjan, inte enbart i barndomens längder. Namn, make, barn, ålder och de tidigare föräldrahushållen måste bära personargumentet tillsammans, inte ett felaktigt påstående om exakt datumöverensstämmelse. Äktenskaps-/änklingefältet vid maken anger 1877 21/12; den äldre läsningen 1841 3/10 som vigsel här är avvisad. Vigsel 1841-10-03 bärs av den egna vigselposten C-0285, inte denna cell.
+
+## Tillägg T-0159, 2026-09-09: radindelningen och två skilda Stockholmsförsamlingar
+
+Uppslaget har lästs om vid konsolideringen av P-0263 och P-0268 och
+kontrollerats centralt mot den sparade fullbilden.
+
+**Den diplomatiska avskriften ger fel bild av vem som hör ihop.** Den listar
+fem familjerader i följd och låter Ernst framstå som en av raderna 21–25.
+Raderna 21–25 är i själva verket fadern Johan Peter Urbom (änkling, smed),
+Ajax Elen Gustafva, Hulda Amanda, Carl Johan Edvard och Hulda Amanda igen.
+**Ernst har ett eget hushållsblock på raderna 15–18**: han själv som statdräng
+med gift `76 15/10`, hustrun Klara Wilhelmina Larsson född `54 16/10` i
+Nicolai, och barnen Ernst Anton Filip född `76 23/11` och Esther Elvira född
+`78 11/9`. Hela blocket flyttar under gemensam klammer till Nykyrka
+`78 24/10`, attest `59`. Citationen känner inte till blocket, och
+tolkningsavsnittet behandlar inte heller Carl Johan Edvards rad.
+
+**Två olika Stockholmsförsamlingar på två rader har blandats ihop.** Cellen på
+**rad 24**, Carl Johan Edvard, läses `Stockhlm. H. Eleon`, alltså **Hedvig
+Eleonora**, `76 4/11`, attest `25`. Cellen på **rad 25**, Hulda Amanda, läses
+`Stockh. Skeppsholm[?]`, `78 20/?`, attest `2`. Citationen har angett
+Kungsholm och C-1110 `Hedv.[?]` för samma sak; förklaringen är att de två
+raderna behandlats som en. Rad 24:s läsning är säker, rad 25:s bär
+läsreservation på församlingsnamnet.
+
+Carl Johan Edvards utflyttning står som **Prästgård folio 17 år 1878**, och
+anmärkningskolumnen bär `vistas i Ups.[?] Fjellst.[?] Skolan på begäran
+skrifven i prestgården 15/11 78`. Båda är utvunna i P-0268.
+
+Tidigare avsnitt är append-only och behålls oförändrade.

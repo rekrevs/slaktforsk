@@ -56,3 +56,46 @@ make Johan Jacobsson skapar ingen personpost.
 ## Stödda påståenden
 
 A-2430–A-2443.
+
+## Tillägg T-0161, 2026-09-09
+
+**Citationen omfattar bara sida 756.** Den har använts som belägg för uppgifter
+om sida 759, vilket den inte kan bära. Se A-6325 i P-0429, där ett påstående om
+make och hushåll 1893 flyttats till status `LEAD` av det skälet.
+
+**En outvunnen rad.** Transkriptionen saknar rad 22,
+`Dräg: Jonas Gustaf Uddesson[?]`, född `1870 5/6` i Sävar, inflyttad från 692
+den 1893-10-24. Raden är redovisad i P-0428:s akt med uttrycklig reservation
+för hushållstillhörighet — en dräng i hushållet är inte släkt.
+
+Iakttagelserna kommer ur konsolideringen av P-0428 och P-0429 i T-0161.
+
+**Rad 1 saknar fullpostgenomgång.** Till skillnad från barnens citationer, som
+fick sådana i T-0133, är husbondens egen rad aldrig genomgången kolumn för
+kolumn. Den överstrukna titeln ovanför `Bond.` nämns men prövas inte; vid
+omläsning 2026-09-09 är den **prövad oläslighet**, inte en outvunnen kolumn.
+Samma brist gäller C-0554.
+
+## Tillägg T-0161, 2026-09-09: `92 20/4` är en dödsdag
+
+Citationens tolkningsavsnitt säger om `92 20/4` på Anders Vilhelms
+överstrukna rad att "det tolkas inte". Uppgiften är tolkbar och entydig.
+
+Uppslagets **tryckta** kolumnrubriker på vänstersidan löper `Hitflyttad`
+(med `från`, `År, månad och dag` och `Inflyttningsattestens nummer`),
+därefter **`Död.`**, därefter `Innanläsning` och `Kristendomskunskap`. Talet
+`92 20/4` står i kolumnen `Död.`, och samma kolumn bär Nanny Olivias
+`91 11/1` på rad 11. Kolumnplaceringen är kontrollerad centralt mot
+fullbilden `A0001472_00232` vid förstoring, med rubrikraden i samma utsnitt.
+
+**Anders Vilhelm Zingmark (P-0427) dog alltså 1892-04-20, 28 år gammal.**
+Uppgiften är propagerad till P-0422, P-0423, P-0028, P-0436 och P-0439, som
+alla beskrev honom utan livsslut.
+
+**Huvudtabellens rubrik är missvisande.** Den slår ihop två skilda kolumner
+under `Anteckning/utflyttad` och döljer därmed att `Död.` är en egen tryckt
+kolumn. Tabellen är append-only och behålls oförändrad; denna notering finns
+för att förhindra att sammanslagningen läses som källans egen ordning.
+
+**Ett dagbråk bör märkas som osäkert:** `88 31/10` för Per August läses
+`3[1?]/10`.

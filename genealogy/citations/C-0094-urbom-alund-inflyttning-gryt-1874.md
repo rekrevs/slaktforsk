@@ -52,3 +52,14 @@ A-0503–A-0506 och A-0407.
 ## Tillägg T-0143, 2026-09-08: rättad egen post
 
 Fulla egna poster 85–86 prövade: dräng Fredr. Wilh. Ålund med hu, från Helgesta genom dito, till Högtorp genom dito, folio170, en man och en kvinna. Datumditto går till9/11 i post80; två läsare har prövat detta. Mottagning1874-11-09 är inte utflyttningspostens1874-10-26. Brodern i C-0093 gick till Jordanstorp162. Samma församling ger alltså inte samma by. Inget födelsedatum eller namn på hustrun finns i själva flyttposten.
+
+## Tillägg T-0159, 2026-09-09
+
+**Dittokedjans räckvidd är snävare än den använts som.** T-0143-tillägget löste
+dittokedjan `9/11` för posterna **85–86**, inte för Adelas egen post **84**.
+Datumet `1874-10-26` tillhör dessutom Fredrik Wilhelms post 48 i C-0097 och får
+inte lånas till hennes rad. Hennes egen inflyttningsdag är alltså fortsatt
+olöst, och de två dittodatumen i hennes två flyttposter 1874 återstår att
+utvinna ur redan sparade bilder.
+
+Iakttagelsen kommer ur konsolideringen av P-0111 i T-0159.

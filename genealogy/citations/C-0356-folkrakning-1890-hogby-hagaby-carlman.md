@@ -33,3 +33,11 @@ konkret social kontext till familjen.
 ## Stödda påståenden
 
 A-2012, A-2015, A-2017–A-2019.
+
+## Tillägg T-0156, 2026-09-08: en utelämnad hushållsmedlem och en felläst anteckning
+
+- Hushållets **sjätte medlem**, drängen Axel Edvard Karlsson, född 1872 i
+  Mönsterås, saknas i avskriften, liksom samtliga civilståndskolumner.
+- Rudolfs anteckning återges `frånvarande i Uppsala`. Originalet skriver
+  `f. n. i Upsala`, alltså för närvarande, vilket är en annan uppgift än
+  frånvaro ur hushållet.

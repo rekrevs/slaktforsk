@@ -19,7 +19,7 @@ spädbarn 1865.
 |---|---|---|---|
 | [P-0422 Johan Peter Zingmark](P-0422-j-p-zingmark.md) | far | CORROBORATED | C-0563, C-0565, C-0566 |
 | [P-0423 Sara Sophia Pehrsdotter](P-0423-sara-sophia-pehrsdotter.md) | mor | CORROBORATED | C-0563, C-0565, C-0566 |
-| [P-0427 Anders Vilhelm Zingmark](P-0427-anders-vilhelm-zingmark.md) | tvillingbror | CORROBORATED | C-0565 |
+| [P-0427 Anders Vilhelm Zingmark](P-0427-anders-vilhelm-zingmark.md) | tvillingbror | CORROBORATED | C-0565 **Tillagt 2026-09-09 (T-0161):** han dog **1892-04-20**. Dagbråket `92 20/4` står i den tryckta kolumnen `Död.` på hans överstrukna rad i Sävar A I/8 b s. 756, mellan `Inflyttningsattestens nummer` och `Innanläsning`. Kolumnrubriken är kontrollerad centralt mot fullbilden `A0001472_00232`; samma kolumn bär Nanny Olivias `91 11/1`. Uppgiften stod sedan 2026-08-29 som "tolkas inte" i C-0552. |
 | [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) | bror | CORROBORATED | C-0563, C-0565 |
 
 ## Forskningsstatus

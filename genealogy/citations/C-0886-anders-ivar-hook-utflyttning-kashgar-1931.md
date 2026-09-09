@@ -58,3 +58,18 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3337 (P-0239), A-3340 (P-0240).
+
+## Tillägg T-0148, 2026-09-08: två preciseringar av avskriften
+
+Den lokalt sparade helbilden har lästs om inom T-0148. Ingen ny arkivåtkomst
+gjordes och avskriften ovan ändras inte.
+
+- **Värnpliktstalet är `488 ⁶²/₂₃`**, inte `⁶²/₂₇`. Nämnaren är tydlig i
+  fulloriginalet, och samma tal står dessutom i Hudiksvalls församlingsboks
+  tryckta kolumn `Värnpliktsförhållanden` på hans egen rad (C-0260, A-4931).
+  Talets form är därmed inte längre en gissning.
+- **Läsosäkerheten om `21/7` kan utgå.** Både flyttningsbetygets och
+  utflyttningens kolumn i post 127 står `²⁷/₇`, och Hudiksvalls
+  utflyttningskolumn ger samma dag (A-4938).
+
+Berörda påståenden: A-3337, A-4931 och A-4938 (P-0239).

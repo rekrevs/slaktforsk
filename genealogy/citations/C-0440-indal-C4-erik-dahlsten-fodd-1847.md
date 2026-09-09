@@ -36,3 +36,17 @@ A-2181.
 Hela egna födelseposten prövad: Erik född **11 december 1847**, döpt **14 december**. Fadern bonden Anders Dahlsten, modern **Stina Cajsa Larsdotter**, hemvist Säter. Formen Anna Cajsa i äldre avskrift är ett avskriftsfel. Moderns uttryckliga ålder är **47**, inte 40; två läsare har bekräftat siffran. Den är en verklig åldersavvikelse mot 1807-01-12 i hushållsböckerna och får inte tyst räknas om. Ingen särskild födelseplats skiljs från föräldrahemvisten.
 
 Faddrar: `B. And. Matts:[?] i Åse med H:u; Kjällskrifvar.[?] Dan. Jonsson i Säter med H:u; Torparson And. Pet. Erics[son?] och Bruksdr[?] Sara Märta Dahlsten i Säter.` Förkortningar och svag namnändelse reserveras; hustrurna har inga utskrivna förnamn. Sara Märtas gemensamma efternamn är en nätverksnyckel men bevisar inte hennes släktskap med Anders. Ingen separat kyrktagnings- eller förrättarkolumn finns på denna post.
+
+## Tillägg T-0158, 2026-09-09
+
+**Moderns åldersserie är ett obeaktat argument.** Denna post anger moderns
+ålder **47**, medan Anders Olofs födelsepost 1844 anger **39**. Båda är
+oförenliga med födelseåret 1807-01-12, medan **27** i 1834 års post och **29**
+i 1836 års post stämmer med det. Serien är alltså inte slumpmässigt spridd:
+de två tidiga posterna passar det antagna födelseåret och de två sena gör det
+inte.
+
+Detta har inte vägts in i P-0376:s ursprungsfråga. Iakttagelsen registreras
+här som fråga; ingen läsning väljs bort och ingen identitet ändras.
+
+Kommer ur konsolideringen av P-0316 i T-0158.

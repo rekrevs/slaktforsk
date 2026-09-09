@@ -72,3 +72,41 @@ värden som beräknades vid läsningen.
 ## Stödda påståenden
 
 A-3346 (P-0001), A-3353 (P-0028), A-3354 (P-0029).
+
+## Tillägg T-0149, 2026-09-08: makens efternamn på rad 13
+
+Avskriften utelämnar makens efternamn på rad 13 med ellips. Vid omläsning av den
+lokalt sparade helbilden `00206819_00317` läses det **Hällsten**. Det ger
+P-0030:s gifta namn samtida originalstöd i stället för att vila på ett
+sekundärträd (A-0170). Titelförkortningen före `Karl Gotthard`, som liknar `Bm̄`,
+är fortfarande oläst och normaliseras inte.
+
+Stödda påståenden utökas med A-5070–A-5074 (P-0030) och A-5075–A-5082 (P-0034).
+
+## Tillägg T-0154, 2026-09-08: vigseldagen på rad 1 avviker
+
+Avskriften av rad 1 ger vigseldagen `88 ⁷/₇`, medan fyra andra källor ger
+1888-07-01. Avvikelsen är bevarad som en konflikt med låg tillförlitlighet i
+P-0028:s A-5451 och normaliseras inte här.
+
+Stödda påståenden utökas med A-5451 (P-0028) utöver de tidigare tilläggen.
+
+## Tillägg T-0154, 2026-09-08: fyra opropagerade barnrader och en prövbar hypotes
+
+Raderna 9–12 bär P-0035:s, P-0036:s, P-0037:s och P-0038:s egna uppgifter utan
+att de nått akterna. Två av dem gäller födelsedagar som projektet behandlat som
+konflikter mellan Degerfors och Umeå:
+
+- **Rad 12, P-0038:** `¹⁷/₉`. Degerfors **egen** efterföljande bok bär alltså
+  samma dag som Umeå, så konflikten står mellan två Degerforsvolymer och Umeå är
+  en kopia. Det tidigare röstetalet tre mot ett är skenbart.
+- **Rad 11, P-0037:** `1907 ¹²/₇` i Degerfors egen bok, mot A II a/3:s
+  1907-07-14. Samma mönster.
+- **Rad 10, P-0036:** `1905 ¹³/₈` med anteckningen `16`, opropagerad; de tre
+  böckerna är samma kopiekedja och inte tre röster.
+
+Att **båda** systrarna avviker mellan samma två volymer är en prövbar hypotes om
+ett systematiskt överföringsfel, inte två separata datumkonflikter. Födelseboken
+är den väg som avgör frågan.
+
+Berörda påståenden: A-5500–A-5516 (P-0035, P-0038) samt A-3414–A-3416.

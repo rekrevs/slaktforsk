@@ -28,3 +28,17 @@ ogift dotter. Samtliga anges födda i Bygdeå.
 ## Stödda påståenden
 
 A-0362, A-0365–A-0366, A-0369–A-0370, A-0374 och A-0378–A-0379.
+
+## Tillägg T-0155, 2026-09-08: två outvunna familjer och dokumenthuvudet
+
+- **Dokumenthuvudet lyder `Utdrag ur Församlingsboken`.** Bladet är alltså härlett
+  ur den bok det använts för att bekräfta och får inte räknas som en av den
+  oberoende källa. Uppgiften saknas i citationstexten trots att den avgör
+  oberoendefrågan.
+- **Samma sparade fullbild, sida 86, bär två familjer till** som avsnittet
+  `Avlästa uppgifter` inte nämner: **P-0096:s egen familj**, Anders Peter
+  Jakobsson som hemmansägare med hustrun Mathilda Granberg, och **P-0099 Nils
+  Leonards familj** med dottern Agnes Maria, född 1900. Ingen av dem hade nått
+  sin akt.
+
+Stödda påståenden utökas med A-5550–A-5553 (P-0096).

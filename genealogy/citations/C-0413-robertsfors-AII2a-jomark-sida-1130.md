@@ -43,3 +43,22 @@ Anders Alfreds egen hushållsrad¹/₁₆ anger olika omfattning; de bevisar int
 att han först ägde¹/₈ och senare minskade till¹/₁₆. Moderns änkekolumn
 anger99²³/₆. G.B.853 binder bokens familj till föregångaren. Historiska
 avskrifter ovan bevaras; A-4147 och T-0117 konsoliderar aktuella personer.
+
+## Tillägg T-0149, 2026-09-08: vigseldatumet i löptexten är överspelat
+
+Brödtexten ovan anger vigseldatumet 1904-03-05. Den lydelsen är upphävd av
+citationens egen daterade rättelse, som normaliserar avskriftens `K 04 ³/₅` till
+**1904-05-03**. Den äldre lydelsen bevaras som avskriftshistorik men är inte en
+gällande slutsats.
+
+## Tillägg T-0155, 2026-09-08: avskriften täcker bara raderna 1–3
+
+Den lokalt sparade helbilden `00203749_00082` bär två rader till som avskriften
+inte når, och som upphäver ett registrerat nollresultat:
+
+- **Rad 11:** `Anders Anderssons änka / Barbro Kristina Olofsdotter, f. hem.äg.,
+  30 ²⁴/₂, Löfånger, v, gift 60 ⁵/₇, änka 99 ²³/₆`, med dödskolumnen `²³/₅ 13`.
+  Dagen är identisk med dödboken C-0569, som ger 1913-05-23.
+- **Rad 12:** `d. Katarina Johanna, 65 ¹¹/₅`, med dödskolumnen `²⁷/₁₀ 18`.
+
+Se C-0414:s tillägg samma dag. Berörda personer: P-0051 och P-0052.

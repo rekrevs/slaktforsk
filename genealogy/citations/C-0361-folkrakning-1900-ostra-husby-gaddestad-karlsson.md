@@ -29,3 +29,16 @@ eller dödsorsak kan inte härledas ur källan.
 ## Stödda påståenden
 
 A-2024, A-2031–A-2032.
+
+## Tillägg T-0158, 2026-09-09
+
+**Bladet är ett utdrag, inte en självständig folkräkningsakt.** Den sparade
+fullbilden bär dokumenthuvudet `Utdrag ur Församlingsboken` för Östra Husby.
+Folkräkningen 1900 är i den delen alltså en avskrift ur samma kyrkobokföring
+som församlingens husförhörs- och församlingsböcker. Citationen får inte
+användas som en andra röst för en uppgift som redan vilar på den serien;
+P-0312:s A-2023, A-2024, A-2660 och A-2661 är nedgraderade av det skälet.
+
+**Två utvinningsrester.** Drängen Karl August Franzén född 1878 saknas i
+avskriften, och civilståndskolumnerna — samtliga `ogift` — är outvunna. Båda
+resterna ligger i en redan sparad bild.

@@ -69,3 +69,33 @@ lästa utflyttningen NyaWarfvet1896-10-10.
 ## Avstämning 2026-09-07 — T-0124, fortsatt eftergranskning
 
 Fortsatt eftergranskning av den överstrukna titelraden ger det sammanhängande ordet Phil. Candidat. Slutet dat hör till Candidat, inte en separat ny titel efter Cand. Det tidigare T-0124-tilläggets antagande om ett extra outvunnet titelfält upphävs. Frikallad 84 och de redan prövade kunskaps-/tomfälten tillgodoräknas. Den reserverade månadsläsningen görs inte till säker konkurrerande födelsedag.
+
+## Tillägg T-0156, 2026-09-08: annonsdagen, tre överstrukna rader och tre utelämnade kolumner
+
+- **Annonsdagen.** Avskriften ger `den 2 April 1904`. Omläsning av den lokalt
+  sparade fullbilden i full upplösning ger **`den 7 April 1904`**: siffran har
+  vågrät toppstapel och nedåtgående diagonal utan bottenstreck och är formad som
+  sidans övriga sjuor, jämför `87` i samma rad. Avvikelsen bevaras som konflikt i
+  P-0354:s A-5657 och normaliseras inte.
+- **Kolumn 15 på rad 8 har tre rader, inte en.** Tabellen återger
+  `~N:o 260 3/1887~` som cellens enda innehåll. Originalet har två rader som var
+  för sig är överstrukna med vågräta streck — den övre slutar på årtalet `86` —
+  och underst `N:o 260 3/1887`, plus ett långt snedstreck genom hela cellen. De
+  två strukna raderna är den enda kända texten om hans militärtjänst och är
+  prövat oläsliga i reproduktionen; de finns inte transkriberade någonstans.
+- **Tre kolumner saknas för rad 8.** Kolumn 6 `Vaccinerad el. haft koppor` bär
+  `V`, och kolumnerna 11–13 bär `b.`, `n.` respektive tomt. Rad 3 fick den
+  kontrollen i T-0124; rad 8 aldrig.
+
+Berörda påståenden: A-5650–A-5657 (P-0354).
+
+## Tillägg T-0156, 2026-09-08 (andra): kolumnplacering och en tredje överstruken post
+
+- **Kolumnplaceringen i avskriftstabellen är fel.** `Frikallad 84`,
+  `N:o 69 31/1889` och `N:o 260 3/1887` placeras under rubriken
+  `Kol. 14–15 anteckning`. Alla tre står i **kolumn 15,
+  Värnpliktsförhållanden**. Kolumn 14 innehåller på hela uppslaget bara rad 8:s
+  långa anteckning.
+- **Rad 3, P-0353:** värnpliktskolumnen bär utöver `Frikallad 84.` en **tredje,
+  överstruken post** på Rudolfs radhöjd som avskriften inte återger. Den hör till
+  den utvinning T-0230 äger.

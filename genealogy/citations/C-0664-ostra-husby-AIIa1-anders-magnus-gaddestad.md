@@ -42,3 +42,19 @@ Egen rad 1 anger inte bara hemmansägare utan också **nämndeman**. Namn Karlss
 Barnen Ida Carolina, Karl Gottfrid och Ester Elisabeth finns i det övre familjeblocket, med separata avgångar. Sidan belägger alltså inte att samtliga fyra kända barn stannade till faderns död. Rubriken omfattar Gäddestad nr 1, 1 mt skatte och förändrad ägartext; hela enheten eller varje senare ägarnamn tillskrivs inte Anders Magnus automatiskt.
 
 Detta tillägg avser redan bevarat original. Äldre avskrifter ovan bevaras som observationshistorik och ersätts endast där rättelsen anges uttryckligen.
+
+## Tillägg T-0158, 2026-09-09: dagkonflikten 17/21 januari finns inte
+
+Den registrerade konflikten om Ester Elisabets födelsedag — `17/1` i
+Östra Husby A I/24 mot `21/1` i de senare böckerna — bygger på två fellästa
+täljare. Vid omläsning av samtliga fyra böcker skriver **alla** `84 19/1`:
+A I/24 rad 6, A I/25 rad 5, A II a/1 rad 4 och rad 17 samt A II a/2 rad 2.
+Läsningen är prövad mot samma händers `15`, `17`, `22`, `24` och `19/12` på
+samma uppslag, och kontrollerad centralt mot originalbilden av A I/24: på det
+uppslaget står Elin `73 15/1`, Ida Karolina `75 15/8`, Carl Gottfrid
+`80 17/3` och Ester Elisabet `84 19/1`, alla i samma hand.
+
+Födelsedagen är alltså **1884-01-19**, och det finns ingen källkonflikt att
+bevara. Tidigare avsnitt i denna citation är append-only och behålls
+oförändrade; deras dagangivelser är från och med detta tillägg överspelade.
+Se A-5902 i P-0359.

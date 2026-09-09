@@ -144,3 +144,23 @@ registerläsningarna A I/3 bild 4–5 och A I/4 bild 3 saknar också här
 bild 325 respektive C-0872 bild 326 och ska tillgodoräknas. Den äldre
 A I/3 sida 260-routingen behöver sin exakta kopieidentifiering, inte ett
 nytt svep. Ingen ny arkivbild har öppnats i T-0140:s kontroll.
+
+## Tillägg T-0163, 2026-09-09
+
+**Avskriften av A I/4 sida 310 saknar dag och månad för Eva Lovisa.** Den
+återger bara `Eva Lovisa 1836`. Den bevarade fullbilden bär **`24/12`** på
+hennes egen rad. Uppgiften är utvunnen i P-0523 som A-6726; citationen saknar
+den fortfarande.
+
+**Namnformen på det 1834 födda barnet** är `Lisa Catharina`, vilket denna
+citation redan noterat för A I/3, A I/4 och A I/6b. C-0872:s avskrift av
+A I/5b sida 16 skriver `Eva Catharina`, men samma citations egen fullbild
+visar `Lisa`. Tre agenter har läst formen oberoende av varandra 2026-09-09 och
+kommit till samma resultat; se tillägget till C-0872.
+
+**Ulrika Carolinas dag är `16/6`, inte `10/6`.** T-0140-tillägget rättade den
+äldre läsningen `1/6` till `10/6`. Också ersättningen är fel: täljaren på
+hennes egen rad i `A0001434_00327` är formad exakt som i broderns `16/4 1839`
+på raden ovanför. Rätt uppgift är **16/6 1841**, vilket gör fyra böcker
+samstämmiga — men de redovisas som **en** kopierad bokkedja, inte fyra röster.
+Se A-3288 i P-0524, som därför gått från `CONFLICT` till `CORROBORATED`.

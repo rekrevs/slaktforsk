@@ -101,3 +101,31 @@ fem oberoende källor; kyrkoboken kan återge barnhusets uppgifter.
 S-0473 har redan identifierat E5-seriernas fysiska åtkomst. Ingen ny
 beställning eller kontakt har gjorts. Positiv källrouting är skild från
 läsning av kompletterande intagningshandling.
+
+## Tillägg T-0166, 2026-09-09: fadern heter Jonas, inte James
+
+Avskriften ovan återger barnhusrullans faderrad som
+`N:o 90 Fadren Fabriks Arbetaren James Schölin`. Förnamnet är **`Jonas`**.
+
+Läsningen är gjord i den lokalt sparade rullan
+`C-0606-stockholms-stadsarkiv-barnhusrulla-2532.pdf` vid förstoring och
+kontrollerad centralt: bokstavsföljden är `J-o-n-a-s` med skrivarens öglade
+`J`, och formen saknar helt det `m` och det avslutande `e` som `James` skulle
+kräva. Efternamnet `Schölin` står oförändrat.
+
+**Följden är en söknyckel, inte bara en namnform.** Hela den digitala
+efterforskningen har ställts mot `James`:
+
+- **A-2566** i P-0454 är ett `NEGATIVE` på att Stockholms mantalsregister
+  1800–1884 inte ger någon träff på "den exakta fullnamnsfrågan James
+  Schölin". Det nollet prövade alltså ett namn som inte står i källan. Det är
+  ett frågenoll mot fel fråga.
+- **A-2567** håller två `J Schölin` från 1830 — en handskmakeriarbetare i
+  Maria norra nr 968 och en timmerman i Ladugårdsland nedre nr 1959 — utanför
+  relationsträdet med motiveringen att initial, efternamn och
+  arbetarbeteckning inte räcker för att förena någon med `James`. Med
+  `Jonas` är initialen `J` inte längre den enda beröringspunkten, och båda
+  kandidaterna blir **direkt prövbara** mot ett utskrivet förnamn.
+
+Ingen kandidat förenas här. Avskriften ovan är append-only och behålls
+oförändrad; från och med detta tillägg gäller `Jonas Schölin`.

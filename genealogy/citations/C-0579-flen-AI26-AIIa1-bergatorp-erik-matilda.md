@@ -78,3 +78,35 @@ På A I/26 sida 281 har Matilda koppor `v`, kunskap `c` med ett ytterligare graf
 Erik Arvid på rad 3 har kunskap `b`, koppor `v`, inga egna förhör/nattvard och utflyttning Stockholm 20 oktober 1897, attest 38. Maria Sofia på rad 6 har kunskap `b`, koppor `v` och under förhör 1898 rånoten `f.g. 22/5` [förkortningen reserveras]. Hennes destination är **Wadsbro/Vadsbro**, 10 november 1899, nummer 115, inte Mellösa. Bådas egna frejds-, militär-, inflyttnings- och dödsfält är tomma. Karl Augusts senare hushållsdatum 11 november 1880 står kvar; kandidatposten C-0580 har nu ett annat datum och annan namnform för modern.
 
 På A II a/1 sida 346 står Matilda på rad 2 med koppor `v`, kunskap `c/N` och förhör `00`; Sven Arvid på rad 6 med koppor `v` men utan egna kunskaps-/förhörsnoter. Egen frejd, militär och död är tomma. Familjens överföring från 281 år 1900 och till 349 år 1901 är bokföringshänvisningar. Dagen 10 oktober 1901 stöds av mottagarraden C-0103, inte av den separata familjen längre ned.
+
+## Tillägg T-0153, 2026-09-08: huvudtexten bär den upphävda destinationen
+
+Rad 6, Maria Sofias destination, står i huvudtexten som **Mellösa** medan
+T-0143-tillägget rättar den till **Wadsbro/Vadsbro** efter omläsning av
+originalet. Huvudtexten är inte omskriven, så två motstridiga läsningar kan läsas
+som aktuella. Den gällande destinationen är Vadsbro; Mellösa är avskriftshistorik
+och de äldre Mellösasökningarna prövar inte Vadsbro.
+
+## Tillägg T-0153, 2026-09-08: ursprungsförsamlingen är Sköldinge, inte Hyltinge
+
+Sida 281 rad 8 återges med ursprungsförsamlingen `Hyltinge`. Omläsning av den
+lokalt sparade helbilden i originalupplösning ger **`Sköldinge 98 9/11 85`**.
+Ordformen är identisk med personens egen bortflyttningscell `Sköldinge 97 20/10
+39` två rader ovanför och skiljer sig tydligt från grannpostens `Helgesta`.
+Samma ord står i Flens B/4 inflyttade 1898 post 85.
+
+Felet har fått konsekvenser: tre flyttlängdsgenomsökningar riktades mot Hyltinge,
+vars nollresultat därmed är **väntade** i stället för anomala, medan den
+reciproka kontrollen — Sköldinges utflyttningsföljd 1898 — aldrig gjorts. Se
+P-0015:s A-5380 samt den nya frågan Q-06 och källvägen KP-07 i hans profil.
+
+Två ytterligare preciseringar av samma sida:
+
+- **Rad 6, Maria Sofias destination**, står i huvudtexten som `Mellösa`. Originalet
+  visar `Wadsbro 99 10/11 115`; T-0143-tillägget rättade destinationen och detta
+  bekräftar den i originalet.
+- **Karl Augusts bortflyttningscell** har `Björkvik` överstruket med `Helgesta`
+  skrivet ovanför, `96 13/11 116`. Överstrykningen saknas i avskriften och gäller
+  P-0446.
+
+Berörda påståenden: A-5376–A-5382 (P-0015), A-3027–A-3029 och A-2513.

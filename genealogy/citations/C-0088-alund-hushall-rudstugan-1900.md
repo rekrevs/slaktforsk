@@ -50,3 +50,15 @@ identifieringen säker.
 ## Stödda påståenden
 
 A-0484–A-0488.
+
+## Tillägg T-0159, 2026-09-09
+
+Citationen beskriver **en obruten boställeskedja i Hyltinge** på grundval av
+tre räkningsår. Tre bokförda nedslag är inte belagt boende under åren mellan
+dem, och samma sak sägs uttryckligen i C-0085:s eget T-0125-tillägg, som slår
+fast att materialet varken ger bevis för obruten vistelse eller utesluter
+avbrott. Lydelsen är append-only och behålls oförändrad; den ska inte
+återanvändas som stöd för sammanhängande boende.
+
+Iakttagelsen kommer ur konsolideringen av P-0110 i T-0159 och är samma mönster
+som rättades i P-0313 och P-0358 dagen innan.

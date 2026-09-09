@@ -32,3 +32,21 @@ namnger inte den avlidna första hustrun.
 ## Stödda påståenden
 
 A-2444.
+
+## Tillägg T-0161, 2026-09-09: vigselposten var bara halvläst
+
+Fullbilden har lästs kolumn för kolumn vid konsolideringen av P-0422. Fyra
+uppgifter tillkommer eller rättas; ingen ny arkivpassage har öppnats.
+
+- **Folio är `603` för båda kontrahenterna**, inte `602`. Citationen skriver
+  att foliotalet "ser ut som 602"; siffran är en trea.
+- **Lysningsdagen är 19 juni 1870.** Citationen anger att den inte är
+  tillräckligt säkert läst; den är läsbar. Lydelsen är överspelad.
+- **Bruden skrivs `dersammastädes`** — hon var alltså piga i hans eget
+  hushåll på samma folio före vigseln.
+- **Hinderskolumnen namnger brudens far:** `Nils Peter Ericsson i
+  Tafvelsjö[?]` av Umeå församling, som gav skriftligt bifall. Uppgiften
+  saknas helt i **P-0425** och är en direkt ingång till hennes ursprung.
+- Förrättare: H. L. Strinnholm.
+
+Tidigare avsnitt är append-only och behålls oförändrade.

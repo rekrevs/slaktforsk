@@ -34,7 +34,7 @@ Gustaf Julius Elof, född 1888-04-12, binds till Nils Petter Höglund och Anna S
 | [P-0346 Erik Nikolaus Billjard](P-0346-erik-nikolaus-biljard-hogsjo.md) | bror | Högsjö, hushållet 1900 | CORROBORATED | C-0458, C-0459, C-0660 |
 | [P-0349 Jonas Alfred Conrad](P-0349-jonas-alfred-konrad-hogsjo.md) | bror | Högsjö, hushållet 1900 | CORROBORATED | C-0458, C-0459, C-0659 |
 | [P-0255 Ingrid Kristina Vidusina](P-0255-ingrid-kristina-vidusina-hoglund.md) | äldre syster | Högsjö, föräldrafamiljen | CORROBORATED | C-0253, C-0456, C-0459 |
-| [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | syster genom modern; gemensam far inte belagd | Högsjö, föräldrafamiljen | CORROBORATED | C-0350, C-0459 |
+| [P-0274 Anna Erika Lydia](P-0274-erica-lydia-hogsjo.md) | syster genom modern | Högsjö, föräldrafamiljen. Gemensam far är inte belagd. | CORROBORATED | C-0350, C-0459 |
 | [P-0345 Catharina Amanda](P-0345-katharina-amanda-hogsjo.md) | äldre medlem av föräldrahushållet | Högsjö, A I/11 | TRANSCRIBED | C-0456; hennes egen föräldraprövning hålls separat |
 
 De tidigare hushållsbarnen [P-0273 Johan Petter](P-0273-johan-petter-hogsjo.md), [P-0347 Lars Gustaf Emanuel](P-0347-lars-gustaf-emnuel-hogsjo.md) och [P-0348 Brita Josefina](P-0348-brita-josefina-hogsjo.md) finns i C-0348/C-0349 och i föräldrarnas familjeförteckning. De antas inte ha bott med Gustaf efter hans födelse enbart genom 1880 års lista. Anna Erika Lydias biologiska far är inte fastställd (C-0350). Egen partner och barn är inte identifierade.

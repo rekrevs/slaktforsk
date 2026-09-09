@@ -52,3 +52,20 @@ Johan Kjilén/Kjellén[?] samt Christina Jarl. Namnläsningarna bevaras med rese
 namnlikhet bevisar ingen släktrelation. Klammernoteringen om första barnet
 är fortsatt en källuppgift. C-0474:s möjliga dopdag 7/7 avviker från denna
 egen doppost och får inte tyst ersätta den.
+
+## Tillägg T-0160, 2026-09-09
+
+**En kolumn ingen avskrift täcker.** Uppslaget har på varje rad en post i
+moderns kolumngrupp — ett efternamn, på Robert Nikolaus rad läst
+`Lofqvist[?]` — som ingen av citationens avskrifter tar upp. Rubriken är inte
+säkert läsbar i nedskalad visning och behöver läsas i full upplösning innan
+uppgiften används.
+
+**`1:a b. i g. 1877` är en tryckt kolumn, inte en klammernotering.**
+Citationen beskriver den som en notering vid föräldrarna. Den förs likadant på
+hela uppslaget och är alltså en ordningstalskolumn i formuläret. Det ändrar
+vad den kan bära: den säger något om barnaföljden i äktenskapet, inte något
+särskilt om just detta par. Rättelsen gäller även P-0337:s A-2065.
+
+Iakttagelserna kommer ur konsolideringen av P-0367 i T-0160. Ingen ny
+arkivpassage har öppnats.

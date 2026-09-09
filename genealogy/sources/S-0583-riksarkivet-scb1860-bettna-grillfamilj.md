@@ -122,3 +122,9 @@ A-3004.
 [C-0749](../citations/C-0749-scb1860-bettna-erik-grill.md) rättar familjeraden till **sonen Lars Petter 1848**, korrelerad med C-0702:s rättade egna rader. Lovisa 1849 var avskriftsfel. Heddas 1859 överensstämmer med rättade husförhörsdatum 1859-10-29. Födelseortskolumnen har rubriken län eller stad; den bevisar inte Bettna som födelsesocken.
 
 De tidigare faktiskt visuellt kontrollerade nomineringarna i A I/14 a–b saknar en återfunnen exakt bildlista i den bevarade observationen; ortregisterbilden som gav A I/15 b sida 180 saknar också exakt bevarad kopieidentifiering. Själva positiva SCB-målbilden och negativa sidan 180 finns. [T-0324](../../wotan/dev-log/T-0324.md) äger en **proveniensdisposition av dessa redan dokumenterade öppningar**, med identifiering/deduplicering först. Det är inte ett nytt helvolymssvep eller krav att hämta alla OCR-bilder. Inga nya noll eller genealogiska påståenden uppkommer ur kopiebristen.
+
+## Tillägg T-0144, 2026-09-08
+
+Formuleringen ovan om dottern H:s 1859 som bevarad konflikt mot 1858-11-22 är
+inaktuell efter T-0139:s originalrättelse till 1859-10-29. Den äldre avskriften
+1858-11-22 är avvisad; ingen aktuell årskonflikt kvarstår för P-0498.

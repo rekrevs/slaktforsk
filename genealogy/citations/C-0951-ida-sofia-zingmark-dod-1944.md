@@ -56,3 +56,28 @@ på rad 25.
 ## Stödda påståenden
 
 A-3571–A-3573 (P-0029), A-3574 (P-0035).
+
+## Tillägg T-0154, 2026-09-08: anteckningsblocket ligger på rad 25, och tre läsningar rättas
+
+Det långa anteckningsblocket är i avskriften placerat på rad 24. Två oberoende
+omläsningar av den lokalt sparade helbilden `00206425_00015` visar att det står
+på **rad 25**, alltså Ludvig Emanuels rad (P-0035), inte Ida Sofias.
+
+Innehållet är ett `lagstadgat erkännande av trolovningsbarn`, med faderskap till
+två söner och modern namngiven, samt hushållshänvisningen `fol. 1703` och
+noteringen `Lysn. 137/48`. Tre detaljer i den första läsningen är rättade vid den
+andra:
+
+- Den första sonens dag läses **`16/10 1940`**, inte 6/10; `den` följs av två
+  tydliga siffror i samma höjd.
+- Den andra sonens namn läses **`Stig Arne[?]`**; inga höga ascendrar följer
+  `Stig`, och glyferna ligger alla i x-höjd. `Anne` kan inte uteslutas, `Olle`
+  passar inte.
+- Moderns namn är **`Helena Eriksson`**, inte Lena; namnet bryts över radslutet,
+  där rad 3 slutar `He-` och rad 4 börjar `lena Eriksson, fol. 1703`.
+
+Ett till två ord mellan `1942, av` och `Helena` är fortfarande olästa.
+Erkännandet är en registreringsform och inget belägg för vigsel; ingen sådan
+skrivs in. Modern och de två sönerna saknar P-id.
+
+Berörda påståenden: A-5506–A-5508 (P-0035).

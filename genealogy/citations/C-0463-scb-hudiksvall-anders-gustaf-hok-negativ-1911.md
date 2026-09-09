@@ -27,3 +27,11 @@ oberoende källa mot A II a/2 b:s positiva dödsnotering.
 ## Stött kontrollpåstående
 
 A-2215.
+
+## Tillägg T-0156, 2026-09-08: nollet prövar inte dödsmånaden
+
+Kontrollen täcker posterna 124–132, alltså **31 oktober–27 november 1911**.
+Dödsdagen är efter omläsning **1911-01-16**, se C-0260 och C-0460. Nollet prövar
+därmed inte rätt månad. Den utförda kontrollen bevaras med sitt exakta omfång;
+en sökning i januari 1911 återstår. C-0464, som täcker hela året vid
+länssjukhuset, berörs inte.

@@ -9,7 +9,8 @@ Inget efternamn antas från faderns namn.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-2178 | Anna Helena föddes 1840-06-22, var dotter till Anders Dahlsten och Stina Cajsa Larsdotter i Säter och dog där 1841-11-10. | CORROBORATED | hög | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0438](../citations/C-0438-indal-C4-dahlsten-barn-doda-1841-1843.md) | Hushållslängdens födelsedatum och dödnotisens far, ort, datum och ålder förenas; begravningsdagen lyfts inte. |
+| A-2178 | Anna Helena föddes 1840-06-20[?], var dotter till Anders Dahlsten och Stina Cajsa Larsdotter i Säter och dog där 1841-11-10. | TRANSCRIBED | medel | [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0438](../citations/C-0438-indal-C4-dahlsten-barn-doda-1841-1843.md) | Dödsdagen, fadern och orten är oförändrade. **Rättat 2026-09-09 (T-0158):** födelsedagen stod `1840-06-22` som styrkt, men C-0436:s tillägg läser om dagen till `20/6[?]` och C-0438:s tillägg säger uttryckligen att 22 juni är omprövat. Dagen bär därför läsreservation i stället för styrkt status. Dödspostens ålder `1 år 4 månader 20 dagar` får inte räknas om till en säker födelsedag. |
+| A-5920 | Begravningskolumnen i hennes dödspost läses `28[?] november` 1841. | TRANSCRIBED | medel | [C-0438](../citations/C-0438-indal-C4-dahlsten-barn-doda-1841-1843.md) | Uppgiften stod i citationens T-0134-tillägg men hade aldrig nått akten. Dagen är läsreservation; ingen dödsorsak är utskriven på hennes egen rad. |
 
 ## Relationer
 

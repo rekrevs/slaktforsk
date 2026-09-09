@@ -34,3 +34,16 @@ Husby-årgångar ska inte sökas igen.
 ## Stödda påståenden
 
 A-2381–A-2382.
+
+## Tillägg T-0158, 2026-09-09
+
+Avsnittet `Tolkning` bygger på att Elins födelsenotis är daterad 1873-01-13.
+Den dateringen är upphävd av C-0406:s egna senare tillägg. Tolkningsavsnittet
+är append-only och behålls oförändrat, men den slutsats som vilar på det
+gamla datumet ska inte återanvändas utan omprövning mot den rättade dagen.
+
+**Bevarandebrist består.** Citationens femton lästa bilder
+(`A0007576_00072`–`_00077` och `A0010987_00202`–`_00210`) saknar lokal
+reproduktion. Det håller PK-11 EJ STYRKT för P-0313 och ägs av T-0242.
+
+Iakttagelsen kommer ur konsolideringen av P-0313 i T-0158.

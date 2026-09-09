@@ -143,3 +143,24 @@ inte bevis för att ett mål finns eller att en bestämd volym är spärrad.
 Granskningen skapar inte ett nytt krav att bevisa det ägarbekräftade
 faderskapet. Övriga personers äldre dispositioner omprövas i deras fasta
 kohorter; denna rättelse ger dem inget tyst godkännande.
+
+## Tillägg T-0151, 2026-09-08: hyresförhållandet är inte belagt
+
+Motiveringen att P-0010:s `—` under mantal och fastighet förklaras av att han var
+`kassör i hyrd bostad` går utöver källorna. Något hyresförhållande är inte belagt
+någonstans i materialet. T-0125:s egen rättelse slår dessutom fast att en saknad
+trigger inte är ett belägg för att ekonomiska handlingar saknar relevans. Den
+äldre motiveringen bevaras som tolkningshistorik.
+
+## Tillägg T-0155, 2026-09-08: två överspelade lydelser kvarstår för P-0048 och P-0049
+
+- **ALTCHA-formuleringen.** Både `B`-tabellens rad, som anger utfallet `S` med
+  hänvisning till ALTCHA, och Tolkningen står kvar med hindret som gällande för
+  P-0048 och P-0049. C-0977 upphäver det: hindret är hävt sedan 2026-09-06, och
+  det verkliga förhållandet är att registret slutar 1910 för Burträsk, vilket är
+  en täckningsgräns och inte en åtkomstspärr. Citationens T-0125-tillägg rättade
+  bara P-0009 och P-0016.
+- **ARB- och EKO-motiveringen för P-0049**, att en hemmansägarhustru inte utlöser
+  någon egen arkivserie, är exakt den slutledning T-0125 uttryckligen tog
+  tillbaka: en saknad trigger är inte ett belägg för att ekonomiska handlingar
+  saknar relevans. Lydelsen står orättad för henne.

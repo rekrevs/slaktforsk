@@ -62,3 +62,10 @@ att hon senare var gift Jegenstam, skilde sig och bodde i Schweiz.
 - A-1642–A-1664
 - A-1669 och A-1672–A-1673
 - A-1674–A-1675
+
+## Tillägg T-0151, 2026-09-08: årskonflikten för Maj Grete
+
+Citationen anger Maj Grete 1925–2007, medan folkräkningen ger födelseåret 1927.
+Avvikelsen nämns bara i förbigående i tolkningsdelen och är inte behandlad som en
+konflikt. Den hör till P-0014 och ska bevaras som en uttrycklig konflikt där;
+ingen av årsuppgifterna normaliseras bort.

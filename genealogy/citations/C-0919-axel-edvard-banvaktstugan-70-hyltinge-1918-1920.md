@@ -98,3 +98,41 @@ A-3453–A-3456 och A-3459 (P-0015), A-3457 (P-0007), A-3458 (P-0016).
 ## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
 
 Vid T-0143 har Charlottas indirekta belägg i hela familjeavsnittet prövats mot C-0084 och C-0100–0102. Mannen är änkling med datum17 1/5 och behåller vigsel02 25/10. Det stöder hennes dödsdag1917-05-01 indirekt; egen dödspost, dödsort och dödsorsak saknas. Hon har ingen egen rad i detta senare hushåll. Den äldre formuleringen åtta barn i första äktenskapet överskrider belägget: Erik Axel är född före vigseln med okänd far enligt C-0084, och hushållets barnrad bevisar inte biologiskt faderskap. Åke Bertil och tvillingarna Birgit Cecilia/Gunborg Elisabet är här faderns hushållsbarn; moderns identitet för dessa tre kräver eget relationsbelägg. Upprepningen av1902 års vigseldatum är inte automatiskt oberoende bevis från en annan informationskälla. Dessa avgränsningar ersätter motsvarande starkare äldre normaliseringar utan att radera originalavskriften.
+
+## Tillägg T-0153, 2026-09-08: nollresultatet är felaktigt — sidan står på samma bild
+
+Avsnittet **Avgränsat nollresultat** ovan drar slutsatsen att `Hulda Amalias och
+Maj Amalias egen sida i Hyltinge 1918–1927 alltså inte är lokaliserad`. Den
+slutsatsen är fel, och motsägs av citationens egen bevarade helbild
+`00154496_00019`.
+
+- **Hänvisningen läses `rad 16`, inte `fol 16`.** Sökningen efter ett uppslag 16
+  var därför riktad mot fel objekt, och tomheten där säger ingenting.
+- **Raderna 13–16 på samma uppslag 13 är Hulda Amalias eget hushåll:**
+  `Ekholm, Hulda Amalia, f. Ålund`, änka, **Hushållerska**, `77 ²⁵/₉ Gryt`, med
+  änkefältet `13 ⁴/₃`; `s. Axel Ivar 07 ⁹/₃ S:t Matteus`; `d. Ingrid Amalia
+  10 ⁵/₂ d:o`; och `d. u.ä. Maj Amalia 20 ¹¹/₅ Hyltinge` med anteckningen som
+  namnger Axel Edvard och `Erkännande inför pastor`.
+
+Sidan var alltså lokaliserad hela tiden, i samma bild som citationen bygger på.
+Det äldre nollresultatet bevaras som sökhistorik men är inte ett giltigt negativt
+fynd. Rättelsen berör P-0007, P-0015, P-0016, P-0533 och P-0534 och deras
+respektive kohorter.
+
+Två läsosäkerheter i samma bild ska också redovisas: dagsiffran i
+`Vl. Helgesta ²³/₁₀ 1920` läses 22 eller 23 och anges ovan som 23 utan
+reservation, och förkortningen `Vl.` är inte utläst.
+
+Berörda påståenden: A-5390–A-5407 (P-0018, P-0019) samt A-3453–A-3459.
+
+## Tillägg T-0153, 2026-09-08 (andra): änkefältet på rad 13 är läsosäkert
+
+Hulda Amalias änkefält på rad 13 läses i tillägget ovan som `13 ⁴/₃`, alltså
+1913-03-04. C-0972, C-0973 och C-0028 anger däremot alla `13 ¹¹/₃`, och C-0952
+daterar Axel Vilhelm Ekholms död till 1913-03-11. Skillnaden är sju dagar.
+
+Antingen är läsningen av just detta fält osäker eller så finns en verklig
+avvikelse mellan böckerna. Ingen av uppgifterna normaliseras här: `13 ⁴/₃` står
+som denna sidas läsning, `13 ¹¹/₃` som de tre övriga källornas, och frågan hör
+till P-0016, vars kohort T-0125 äger den. En omläsning av just änkekolumnen på
+`00154496_00019` avgör den utan ny arkivåtkomst.

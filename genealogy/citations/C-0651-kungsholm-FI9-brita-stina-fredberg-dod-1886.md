@@ -57,3 +57,14 @@ inte dess ordalydelse.
 ## Stödda påståenden
 
 A-2038, A-2248 och A-2632–A-2635.
+
+## Tillägg T-0160, 2026-09-09
+
+Citationen bär rotemanshushållet 1885–1886 — Jordgubben 1–5 littera D 1,
+rote 17, Kungsholmsgatan 22–24 och Fleminggatan 35–37 — med P-0395:s och
+P-0396:s egna rader. Ingen av de två akterna hänvisade till citationen före
+konsolideringen i T-0160.
+
+Dödsdatumet 1886-10-01 är dessutom det som gör den kvalificerande noteringen i
+C-0323 omöjlig: den namnger Johanna Charlotta Jansson som Ruths mor, men hon
+gifte sig med fadern först 1888-12-08. Se tillägget till C-0323.

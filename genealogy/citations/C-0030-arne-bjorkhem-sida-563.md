@@ -47,3 +47,15 @@ Karl Fredriks egen rad 8 har C/n i kristendoms-/nattvardsfälten och
 anteckningen Bef.[?]. Charlottas rad 9 har a/n. Bokstäverna bevaras som
 källtecken utan slutsats om personligt trosliv. De tidigare angivna
 adress- och överföringsuppgifterna tillgodoräknas.
+
+## Tillägg T-0157, 2026-09-08
+
+**Den sparade bilden bär mer än citationen återger.** Fullbilden
+`00153999_00163` visar hela uppslaget, inte bara de rader citationen
+transkriberar. Utöver de redan avstämda egna familjefälten står där Astrid
+Charlottas rad 12 och barnraderna 13–14, samt raderna 8–10 som berör P-0042,
+P-0043 och P-0003. Astrids rader är nu utvunna i P-0047 (A-5740–A-5751);
+raderna 8–10 hör till andra ägare och är **inte** utvunna här.
+
+Detta är en utvinningsrest i en redan öppnad och redan sparad bild, inte en ny
+källserie. Ingen ny arkivpassage har öppnats.

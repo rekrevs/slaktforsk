@@ -70,3 +70,17 @@ Fortsatta barnhushåll och barnbarn är känt nätverk, med ovanstående
 läsreservationer. Uppgifter om bonde/hemmansägare visar ingen bevisad
 social uppgång. Hänvisningar och årtal är bokuppgifter; utan annan
 källa är de inte exakta fysiska flyttdagar.
+
+## Tillägg T-0155, 2026-09-08: kolumnrubriken och tre läsningar
+
+- **Kolumn 15 är inte ett `militärfält`.** Den tryckta rubriken lyder
+  `Värnpliktsförhållanden`, och `Frik.` på raderna 4 och 6 betyder **frikallad**.
+  Det är en substantiell uppgift om P-0097 och P-0099, som i dag bara bär den som
+  ett odefinierat fältvärde.
+- **Tre läsningar avviker vid lokal kontroll av samma fullbild.** Rad 15 återges
+  `Stig Ernst` men läses också `Nils Emil[?]`; rad 9 återges `Ingrid Viktoria` men
+  läses också `Ingrid Kristina[?]`; rad 4:s tillnamn står som `Barman[?]` men läses
+  närmare `Burman`. Ingen av läsningarna normaliseras; avvikelserna bevaras och
+  berör P-0096, P-0097 och de ännu onumrerade barnen.
+
+Berörda påståenden: A-5550–A-5557 (P-0096, P-0101).

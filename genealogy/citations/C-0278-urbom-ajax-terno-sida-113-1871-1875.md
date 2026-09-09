@@ -65,3 +65,23 @@ personbunden tidig brygga prövats; vuxenfamiljens kontinuitet består.
 ## T-0135: korrigerad datumläsning efter oberoende detaljprövning
 
 Både den äldre avskriften och mitt första T-0135-tillägg återgav felaktigt moderns datum som 4/3. Förstorade egna datumfält och oberoende läsning visar **1817 4/4 med ett separat efterställt 2/3-liknande tecken**. Det är denna råform som gäller; det mindre tilläggstecknets innebörd normaliseras inte. Hennes eget födelseoriginal C-0289 ger 4 mars 1817, men datumavvikelsen finns också i den senare familjekedjan, inte enbart i barndomens längder. Namn, make, barn, ålder och de tidigare föräldrahushållen måste bära personargumentet tillsammans, inte ett felaktigt påstående om exakt datumöverensstämmelse.
+
+## Tillägg T-0159, 2026-09-09: inflyttningscellen på rad 24 är felläst
+
+Rad 24 (Hulda Amanda, dott., `47 2/9`, W. Wingåker) har inflyttningscellen
+**`Årdala | 70 7/11 | 32`**. Läsningen är gjord vid konsolideringen av P-0263
+och P-0268 och därefter oberoende kontrollerad centralt mot den sparade
+fullbilden vid förstoring.
+
+Citationen och P-0318 anger i dag `Örebro` och attest `23`. Båda är fel.
+Ordformen är kort och slutar på `-dala`; Årdala är dessutom grannsocken, och
+samma sockennamn står utskrivet på rad 12 i samma uppslag och samma hand.
+Attestnumret är `32`.
+
+**Uppslaget bär två rader för Hulda Amanda med identiska födelsedata** —
+rad 24 med `Årdala 70 7/11 32` och rad 25 med `Wadsbro 75 2/11 25`. Det är
+samma person förd två gånger, inte två personer, och de två inflyttningarna
+gäller olika tillfällen. Kvalificeringen får inte slås ihop.
+
+Sidoresultat: rad 25:s `75 2/11 25` stöder den omlästa inflyttningsdagen
+`2/11` och attestföljden för brodern Ernst i C-0280 och C-0283.

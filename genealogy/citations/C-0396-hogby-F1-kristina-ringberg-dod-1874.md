@@ -26,3 +26,26 @@ dag för dag mot 1843-09-27, och A I/10 upprepar dödsdatumet. Källtermen
 ## Stödda påståenden
 
 A-2083, A-2086–A-2087.
+
+## Tillägg T-0156, 2026-09-08: post nr 12 hör till citationens omfång
+
+Citationen täcker post nr 17. Samma bevarade fullbild bär också **post nr 12**,
+som är barnets dödspost och som verifierar husförhörslängdens födelsedatum
+oberoende:
+
+> död `Mars 5`, begravd `Mars 10`, kön man, `Sigfrid Konstantin, S. af
+> Kronolänsmannen C. A. Carlman [och] Krist. Gust. Ringberg, Gaxa`, ålder
+> `— — 27` dagar, `Barn`, dödsorsak `Bröst Katharr`, folio uti husförhörsboken
+> `161`.
+
+Kolumnerna för läkarintyg, anstalt och särskilda anteckningar är tomma.
+Tjugosju dagar bakåt från 5 mars ger **6 februari 1874**.
+
+Något orsakssamband mellan hans död och moderns tjugofem dagar senare är
+uttryckligen **inte** belagt: dödboken anger `Bröst Katharr` för honom och
+`Nervfeber` för henne.
+
+Dödbokens egen hand skriver moderns förnamn `Kristina`, medan avskriften har
+`Christina`. Varianten saknar saklig verkan men bör noteras.
+
+Berörda påståenden: A-5623–A-5626 och A-5630–A-5633.

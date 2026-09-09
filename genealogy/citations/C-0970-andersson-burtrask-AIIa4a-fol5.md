@@ -79,3 +79,10 @@ arton månader förlöpte1947-06-27–1948-12-21; inte exakt arton.
 Den äldre ALTCHA-beskrivningen ersätts av C-0977:s registeromfång;
 exakt originalserie för dödsboet återstår. Eget hushållsuppslag och
 gemensam fastighetsbeteckning visar inte säkert vem som ägde fastigheten.
+
+## Tillägg T-0149, 2026-09-08: vigseldatumet i punkt 3 är överspelat
+
+Punkt 3 i Normaliserad tolkning anger vigseldatumet 1904-03-05. Den lydelsen är
+upphävd av citationens egen konsolideringsanmärkning, som normaliserar
+avskriftens `K 04 ³/₅` till **1904-05-03**. Den äldre lydelsen bevaras som
+avskriftshistorik men är inte en gällande slutsats.

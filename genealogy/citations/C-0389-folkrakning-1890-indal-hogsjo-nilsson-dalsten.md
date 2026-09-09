@@ -34,3 +34,16 @@ stavningsform av 1880 års `Dahlsten`.
 ## Stödda påståenden
 
 A-2075, A-2079 och A-2082.
+
+## Tillägg T-0158, 2026-09-09
+
+**Bladet är ett utdrag, inte en självständig folkräkningsakt.** Den sparade
+fullbilden bär dokumenthuvudet `Utdrag ur Husförhörslängden` för Indals
+församling. Folkräkningen 1890 är i den delen en avskrift ur samma kyrkobokföring
+som församlingens egna längder, och är alltså ingen oberoende röst vid sidan
+av dem. Där en akt låter detta blad korroborera en uppgift som redan vilar på
+Indals längdserie ska antalet oberoende röster räknas ned.
+
+Berör P-0254, P-0315, P-0316, P-0407, P-0408, P-0409 och P-0410. P-0315:s
+A-2075 räknade de tre bladen som "tre samstämmiga folkräkningar" och är
+rättad i akten.

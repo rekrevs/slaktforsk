@@ -72,3 +72,12 @@ PDF C-0262 ger fler namngivna mellanled; C-0820 har senare korroborerat
 Stina–Gabriel-familjen och barnen. Den äldre Lars→Stina-bryggan är
 fortfarande LEAD. Saknat tabellmaterial är en dokumentationsgräns,
 inte skäl att kalla den redan befintliga primära hushållsvägen oprövbar.
+
+## Tillägg T-0147, 2026-09-08: släktskapsledet är felskrivet i sammanfattningen
+
+Sammanfattningen ovan skriver att uppgifterna kom från `hans syster Anki
+Jonasson`. Generationsangivelsen är fel. C-0262, C-0263 och ägarbesluten gör
+henne till Jan-Christers **fars halvsyster**, alltså hans faster, vilket också är
+vad P-0003:s och P-0005:s akter anger. Uppgiftslämnarkedjan och innehållet i
+avskriften påverkas inte; det är ledet mellan de två personerna som ska läsas
+som faster, inte syster. Se P-0013 och A-4890.

@@ -67,3 +67,19 @@ personbunden tidig brygga prövats; vuxenfamiljens kontinuitet består.
 ## T-0135: korrigerad datumläsning efter oberoende detaljprövning
 
 Både den äldre avskriften och mitt första T-0135-tillägg återgav felaktigt moderns datum som 4/3. Förstorade egna datumfält och oberoende läsning visar **1817 4/4[?] i blekt bläck**. Det är denna råform som gäller; det mindre tilläggstecknets innebörd normaliseras inte. Hennes eget födelseoriginal C-0289 ger 4 mars 1817, men datumavvikelsen finns också i den senare familjekedjan, inte enbart i barndomens längder. Namn, make, barn, ålder och de tidigare föräldrahushållen måste bära personargumentet tillsammans, inte ett felaktigt påstående om exakt datumöverensstämmelse.
+
+## Tillägg T-0159, 2026-09-09: barnens egna förhörsdatum är utvunna
+
+Kärnavskriften saknar barnens individuella förhörsdatum. De lästes 2026-09-09
+ur den sparade fullbilden med rubrikraden kontrollerad kolumn för kolumn:
+
+- Carolina Wilhelmina: **5/11 1851, 9/11 1852, 4/11 1853, 21/11 1854** — gäller
+  **P-0109** och saknas i hennes akt.
+- Adela Amalia: endast **4/11 1853** — gäller **P-0111**.
+- Huldas motsvarande uppsättning finns redan i T-0135-tillägget.
+
+Samtliga barn har tomma nattvardsfält, tomt 1855 och tomma Wigd-, Död- och
+anmärkningsfält. Tomheten är en källgräns, inte en uppgift om att inget hände.
+
+Iakttagelsen kommer ur konsolideringen av P-0317 och P-0319 i T-0159. Ingen ny
+arkivpassage har öppnats.

@@ -74,3 +74,10 @@ Matrisraderna för P-0239, P-0240, P-0241 och P-0246 i
 ## Avstämning 2026-09-07 — T-0119
 
 T-0119 omprövar dispositionen för P-0241/P-0246. Yrkesbeteckningarna torpare, chaufför, torparedotter eller hustru bevisar inte att de aldrig ägde fastighet. Inte heller gör lästa hushållsankare deras liv helt täckta; C-0933:s3011 och C-0935:s392–43 är oföljda. Avsaknad av särskild händelsetrigger är inte en genomförd avgränsning av ekonomi, samhällsliv eller personliga källor. Det namngivna katalogresultatet för Emmas1963volym återanvänds, men faktisk personakt och full åtkomstordning är inte prövade. Axels1983förvaring och inskrivningsmaterialets exakta enhet ska verifieras i en personbunden katalogpassage, inte härledas till säker åtkomstgräns från allmänna årtals- eller boxantaganden. Inga nya externa åtkomstprov gjordes i konsolideringen.
+
+## Tillägg T-0148, 2026-09-08
+
+Anders Ivar Hööks dödsdag anges ovan som 1944-08-19. Dagen är rättad till
+**1944-08-14** efter omläsning av C-0903:s änkekolumn och Hudiksvalls oberoende
+anteckning i C-0260. Den svenska utlandsregistreringen som katalogprovet pekar
+mot är fortfarande oprövad; endast dagen ändras.

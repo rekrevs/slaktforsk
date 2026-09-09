@@ -69,3 +69,13 @@ noter och destinationer ska utvinnas och bedömas personbundet.
 
 A-4257 i P-0276 återger registreringen från Hälsingtuna. Ingen ny bild
 hämtades; fullbilden och dess SHA ovan gäller.
+
+## Tillägg T-0156, 2026-09-08: dödsdagen är 1911-01-16
+
+Kärnavskriften anger dödskolumnen `11 16/11`. Omläsning i fullupplösning ger
+`11 ¹⁶/₁` med ett enda tecken som nämnare, i fyra fält över tre uppslag, medan
+samma hand skriver tvåsiffriga månader med två tecken. Dödsdagen är
+**1911-01-16**; se C-0260:s tillägg samma dag. Den äldre lydelsen bevaras som
+avskriftshistorik.
+
+Berörda påståenden: A-2213 och A-2214.

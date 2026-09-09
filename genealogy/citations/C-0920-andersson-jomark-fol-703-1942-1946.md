@@ -84,3 +84,9 @@ Andra hushåll på folion ingår inte i parets målpost.
 
 Flytten visar familjens geografiska närhet, inte orsaken till val av
 gravplats. Sista Burträskåren är senare lästa i C-0968/C-0970.
+
+## Tillägg T-0155, 2026-09-08: mantalstalet i brödtexten är överspelat
+
+Både `Exakt lokalisering` och `Normaliserad tolkning` anger `⁷/₁₆ mtl`.
+Citationens egen T-0117-rättelse ger `1/16 mtl`. Rättelsen finns men är inte
+märkt vid användningsstället, så den överspelade lydelsen kan läsas som gällande.

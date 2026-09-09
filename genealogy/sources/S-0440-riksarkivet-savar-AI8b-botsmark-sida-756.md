@@ -38,3 +38,20 @@ flyttar och anteckningar. Etiketterna `Mannens i förra giftet` och `Begges
 barn` skiljer barnkullarna åt. Födelsedata är återgivna. Zingmark är ett
 vanligt namn i Botsmark (flera hushåll på s. 739–760), så identifieringen
 vilar på folio 672 och sonen Per August, inte på namnet ensamt.
+
+## Tillägg T-0161, 2026-09-09: läst men inte bevarat
+
+Källposten uppger att hela Botsmark s. 725–760, bilderna 210–235, lästes i
+2 000 bildpunkter under batch 84. Endast **s. 756** transkriberades och
+bevarades. Sidorna **714** och **759**, som båda bär egna rader för personer i
+projektet, är därmed lästa enligt källposten men i praktiken oåterkalleliga:
+ingen avskrift, ingen kopia och ingen hash finns.
+
+Det är inte samma sak som en utförd läsning. En sida som ingen kan öppna igen
+kan varken efterprövas eller citeras, och den kan inte bära ett påstående.
+Formuleringen bör läsas som **läsosäkerhet**, inte som fullgjord genomgång, och
+sidorna 714 och 759 ska behandlas som öppna passager.
+
+Konkret följd: P-0429:s uppgift om make och vuxenliv vilar i dag på en sida i
+detta intervall som inte kan öppnas, och P-0428:s hushåll 1886–1888 likaså.
+Båda är förda som avgränsade uppgifter.

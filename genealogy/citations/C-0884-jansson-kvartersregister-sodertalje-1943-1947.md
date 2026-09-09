@@ -121,3 +121,7 @@ i huset. Bild265:s n.r. har redan katalogväg till nästa registerserie;
 1948–1970posten är ännu oläst. Den äldre hushålls-/fastighetskedjan
 stämmer med1951utdragets nycklar men verifierar inte det olästa
 mantalsoriginalet eller varje år1948–1951.
+
+## Tillägg T-0150, 2026-09-08: Stödda påståenden kompletteras
+
+Listan utökas med A-5152 och A-5153 (P-0303) samt A-5160 och A-5161 (P-0304). Kvartersregistret bär bådas egna rader; för P-0304 är det aktens första arkivbelägg för både födelseår och födelseförsamling.

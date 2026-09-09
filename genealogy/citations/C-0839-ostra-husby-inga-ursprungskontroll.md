@@ -79,3 +79,24 @@ barndomsfamilj eller stöd för att hon bodde i Orrevalla från födelsen.
 Flera bleka familjeled är prövade men inte säkert upplösta. Brudens
 Orrevallahemvist är en tidsbunden 1841-uppgift, inte faderns säkert
 kända gård 1814. C-0837:s Oklunda[?] 1841 är en ny egen flyttnyckel.
+
+## Tillägg T-0162, 2026-09-09: nollet gäller sannolikt fel by och fel sida
+
+Den fjärde bevarade bilden beskrivs i citationen som `A I/14, Orrevalla
+sida 397`. Uppslagets **egna rubriker** läses `Utan G[å]rstads Rote` och byn
+`G[å]rstad[?]`, och det handskrivna sidnumret läses `387[?]`.
+
+Det stämmer i stället exakt med Carl Månssons hitkomstort **`Gårstad 1839`**.
+Nollutsagan — att Orrevalla sida 397 saknar en säkert identifierad egen
+Ingarad — **prövar därmed sannolikt inte Orrevalla alls**. Det vore i så fall
+programmets sjunde felriktade nollresultat, och det första som gäller både fel
+by och fel sida.
+
+Detta är en läsning, inte ett avgörande: sidnumret bär reservation. Frågan
+ägs av C-0839 och P-0361 i T-0286 och bör avgöras genom att volymens
+ortavsnitt kontrolleras mot registret innan nollet återanvänds.
+
+**Radtillhörighet.** Notisen `Gäddest. 39` i Bortflyttat-kolumnen står vid
+radparet "Sonen … Persson / hustrun Anna Cajsa …", inte på Carl Månssons eller
+Carl Carlssons rad; Carl Carlssons egen bortflyttning läses `Uddastorp[?] 39`.
+Formuleringen "en antecknad Gäddestadfortsättning 1839" bör preciseras därefter.

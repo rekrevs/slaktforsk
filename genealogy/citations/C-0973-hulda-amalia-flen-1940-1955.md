@@ -139,3 +139,17 @@ De fyra redan lästa bilderna saknar lokal kopia trots angivna hashar;
 T-0237 äger återställning och fullpostavstämning. Prövade läsosäkerheter
 om husförhörstalens fördelning eller dotterns utflyttningsort är inte
 i sig PK-05-brister. Barnens tidigare integritetsminimering består.
+
+## Tillägg T-0150, 2026-09-08: fol 744 rad 10 är Hulda Margaretas egen rad
+
+Raden är avskriven först från namnkolumnen; kolumnerna 9–13 är inte återgivna,
+och bilden `F0015634_00156` saknar lokal kopia. Det är en genomförbar och billig
+utvinnings- och bevarandebrist, inte en källgräns, och den håller P-0017:s
+identitetsnivå på PK-05 och PK-11. Återställningen av bilden ägs av T-0237.
+
+Raden bär i den lästa delen hennes exakta födelse 1921-07-01 i Helgesta, yrket
+telefonist, namnformen `Jansson, Hulda Margareta f. Ekholm`, vigseln 1942-02-02,
+utflyttningen 1942-02-12 till det läsosäkra `Jäl. 2` samt fadern `Axel Edvard
+Eriksson, Solliden, Hyltinge` utskriven i klartext.
+
+Stödda påståenden utökas med A-5130–A-5140 (P-0017), som saknades helt.

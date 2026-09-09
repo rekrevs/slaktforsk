@@ -58,3 +58,19 @@ Posten ger fyra nya fasta uppgifter:
 ## Stödda påståenden
 
 A-3434–A-3435 (P-0010), A-3437 (P-0011).
+
+## Tillägg T-0147, 2026-09-08: två utelämnade kolumner och en sammanslagen rubrik
+
+Den lokalt sparade helbilden har lästs om inom T-0147 för inskrivning 35. Ingen
+ny arkivåtkomst gjordes och avskriften ovan ändras inte; följande hörde till den.
+
+- **Kolumn 12, vigselförrättare**, saknas helt i avskriften. Originalet skriver
+  `Pastorsadjunkt Josef Wahlgren, Växiö`.
+- **Kolumn 13, vigselbevis**, saknas också. Originalet skriver `Vigselbevis
+  d. 13/… 23 fr. pastor J. Wahlgren`; dagen är läsosäker och normaliseras inte.
+- **En sammanslagen rubrik.** Avskriften återger `inom svenska kyrkan, i
+  ordningen 1` som en uppgift. Originalet har den egna kolumnrubriken
+  `Hvilket äktenskap i ordningen` med en separat `1` på vardera partens rad.
+  Det är alltså två skilda kolumnuppgifter, inte en.
+
+Berörda påståenden: A-0083 och A-4872 (P-0011).

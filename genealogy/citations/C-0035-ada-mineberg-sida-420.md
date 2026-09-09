@@ -63,3 +63,13 @@ Att inget äktenskapsjäv anmälts är inte en läst vigsel.
 
 Övriga familjeraders fulla utvinning bedöms i deras respektive avgränsade
 uppgifter; detta tillägg gör inte hela uppslaget automatiskt fullutvunnet.
+
+## Tillägg T-0157, 2026-09-08
+
+**Rad 6 var aldrig transkriberad trots att fullbilden funnits lokalt.** Raden
+är Astrid Charlottas och bär hennes konfirmation i Flens kyrka 1912-05-15 med
+första nattvarden den 16 maj. Uppgiften saknades i varje akt. Den är nu
+utvunnen i P-0047 (A-5740–A-5751).
+
+Detta är en propageringslucka i redan sparat material, inte ett nytt
+arkivbesök. Ingen ny arkivpassage har öppnats.

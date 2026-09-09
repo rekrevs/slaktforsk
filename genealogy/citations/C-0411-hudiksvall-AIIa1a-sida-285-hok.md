@@ -94,3 +94,19 @@ lästa boken, tidigare inte återgiven i kärnavskriften. Exakt förvärvsdag,
 andel och likhet med änkans senare Fridhem fastställs inte därav. Egna
 kunskapskoder läses `f/f`; de egna daterade förhörs-, nattvards- och
 värnpliktsfälten ger ingen ytterligare säker uppgift. A-4258.
+
+## Tillägg T-0152, 2026-09-08: två lydelser i huvudtexten är upphävda
+
+- **Barnlistan anger `Augusta Märta, 1896-10-05`.** Citationens eget tillägg
+  rättar både namnform och dag till **Augusta Elisabet, 1896-10-15**.
+- **Den separata 1895-raden anges `1895-03-03`.** Tillägget läser `95 2/3`,
+  alltså **1895-03-02**.
+
+De äldre lydelserna bevaras som avskriftshistorik men är inte gällande
+slutsatser. Se P-0275, P-0279 och P-0281.
+
+## Tillägg T-0152, 2026-09-08 (andra): Gustafs födelsedag
+
+Kärntexten skriver `Gustaf … 82 22/11`. Två oberoende omläsningar av den lokalt
+sparade helbilden ger `82 ²⁰/₁₁`, alltså **1882-11-20**. P-0283:s akt bär den
+rättade dagen; kärntextens är avskriftshistorik och normaliseras inte bort.

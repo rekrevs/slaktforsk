@@ -30,3 +30,9 @@ mot tidigare `Christina` och `Carl`.
 ## Stödda påståenden
 
 A-0361, A-0365–A-0366, A-0369–A-0370, A-0372, A-0374 och A-0377–A-0379.
+
+## Tillägg T-0155, 2026-09-08: dokumenthuvudet visar att bladet är ett utdrag
+
+Dokumenthuvudet på den sparade fullbilden lyder `Utdrag ur Husförhörslängden`.
+Bladet är alltså härlett ur den längd det använts för att bekräfta och är inte en
+av den oberoende källa. Uppgiften framgår inte av citationstexten.

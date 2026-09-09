@@ -27,3 +27,19 @@ decennier och visar att dottern Ester ännu ingick i hushållet 1910.
 ## Stödda påståenden
 
 A-2024, A-2032.
+
+## Tillägg T-0158, 2026-09-09
+
+**Bladet är ett utdrag, inte en självständig folkräkningsakt.** Den sparade
+fullbilden bär dokumenthuvudet `Utdrag ur Församlingsboken` för Östra Husby.
+Folkräkningen 1910 är i den delen alltså en avskrift ur samma kyrkobokföring
+som församlingens husförhörs- och församlingsböcker. Citationen får inte
+användas som en andra röst för en uppgift som redan vilar på den serien;
+P-0312:s A-2023, A-2024, A-2660 och A-2661 är nedgraderade av det skälet.
+
+**Avskriften stannar för tidigt.** Den tar upp Anders Magnus och Ester, men på
+samma sida står Karl Gottfrids hela egna hushåll: hustrun, tre barn och pigan
+Ester Elisabet Ekman född 1887 i Tingstad. Pigan har samma förnamn som
+husbondens syster och är en annan person. Uppgifterna är nu utvunna i P-0358.
+Även `genealogy/source-coverage.md` listade bara P-0312 och P-0359 för detta
+blad; raden är rättad 2026-09-09.

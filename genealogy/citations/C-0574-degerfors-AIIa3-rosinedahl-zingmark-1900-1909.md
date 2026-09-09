@@ -79,3 +79,35 @@ nollresultat.
 ## Stödda påståenden
 
 A-2490–A-2504.
+
+## Tillägg T-0161, 2026-09-09: två utvandringar som stod i den sparade bilden
+
+Fullbilden av folio 963, `F0013102_00192` (8 264 × 5 768 px), har lästs om
+kolumn för kolumn vid konsolideringen av P-0430 och därefter kontrollerats
+centralt vid förstoring. Ingen ny arkivpassage har öppnats. Citationen beskrev
+utflyttningsanteckningen som olöst; den är fullt läsbar.
+
+**Raderna 17–20 utvandrade tillsammans 1907-04-08.** En klammer omsluter de
+fyra raderna i kolumnen `Utflyttad eller öfverförd`, och texten lyder
+`Nordamerikas Förenta Stater` med datum **`8/4 07`**. Klammern gäller
+**Nikanor Zingmark (P-0430), hustrun Hilda Charlotta Andersson (P-0441) och
+sönerna Alvar Rudolf (P-0442) och Anders Gideon Nikanor (P-0443)**. Endast
+P-0430 har fått uppgiften i sin akt; de tre övriga saknar den helt och deras
+akter ägs av T-0199.
+
+**Rad 24 är Olof Konrad (P-0433) och han utvandrade 1904-09-02.** Raden är
+överstruken. Värnpliktskolumnen har `Frikallad`, vilket motsvarar C-0571:s
+`Frik.`, och utflyttningskolumnen har `N. Amerikas F. St.` med datum
+**`2/9 04`**. Hans akt säger fortfarande att församlingsbokens svårlästa
+utflyttningsanteckning är nästa återstart. Anteckningen är läst. Akten ägs av
+T-0197.
+
+**Rad 25 saknas helt i citationens avskrift.** Det är en tidigare, överstruken
+egen post för Nikanor med `se ofvan` 04, som svarar mot rad 17:s `se nedan` 04
+— samma person överförd inom boken vid giftermålet 1904, inte två personer.
+
+**Värnplikt.** Rad 17 bär `41 175/1892` i värnpliktskolumnen, vilket binder
+ihop med `Inskrifven 92` i Sävar A I/8b.
+
+Avskriften ovan är append-only och behålls oförändrad; den bör dock inte
+längre läsas som fullständig för detta uppslag.

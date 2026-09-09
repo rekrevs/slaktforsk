@@ -110,3 +110,15 @@ för att räkna om något datum.
 ## Stödda påståenden
 
 A-3660, A-3661, A-3662, A-3663, A-3664, A-3665.
+
+## Tillägg T-0158, 2026-09-09: bevarandebrist
+
+Citationen saknar avsnittet `Lokalt original` och har varken filnamn eller
+SHA-256 för någon bevarad bild. Bilderna `00199095_00032` och
+`00199095_00050` är alltså lästa men inte reproducerade lokalt.
+
+Detta är en namngiven proveniensrest, inte en saklig osäkerhet: läsningarna
+står kvar och inget identitetsbärande led vilar på den saknade kopian.
+Bristen håller PK-11 öppen för P-0315 (A-5842) och berör även P-0316:s
+A-3663–A-3665. Den stängs av en hämtning med post-URL och hash, inte av ny
+forskning.

@@ -73,3 +73,19 @@ avgöra faderskapet.
 ## Stödda påståenden
 
 A-0624–A-0626.
+
+## Tillägg T-0157, 2026-09-08
+
+Avsnittet `Nästa åtgärd` ovan är överspelat. Det anger bilderna 72–77
+(mars–september 1843) och Rödås husförhörsuppslag som olästa. Båda är lästa:
+bild 73 är utvunnen i C-0403 och Rödåsuppslaget i C-0111. Avsnittet är
+append-only och behålls oförändrat; från och med detta tillägg ska det inte
+längre användas som arbetslista.
+
+**Födelsedagsfrågan har dessutom flyttat sig.** C-0549 bär Lotta Sofias egen
+rad med formen `1843 30/10`. Konflikten omfattar därmed fyra bråkformer, inte
+tre, och den nya formen förklarar oktobervarianterna. Se tillägg T-0157 i
+C-0549 och A-5730–A-5739 i P-0066.
+
+Iakttagelsen kommer ur konsolideringen av P-0066 i T-0157. Ingen ny
+arkivpassage har öppnats.

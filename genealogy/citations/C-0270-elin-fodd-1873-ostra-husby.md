@@ -43,3 +43,15 @@ notisen har markering1:aBarnet och2år vid föräldrarna.
 Fadderkolumnen och dopförrättarens namn behöver full avskrift;
 namnet får inte hämtas från grannpost. Alla tidigare observationer
 bevaras här som avskrifts-/tolkningshistorik.
+
+## Tillägg T-0158, 2026-09-09
+
+Omläsningen 2026-09-07 innehöll tre uppgifter som aldrig nådde någon akt:
+moderns ålder **23** samt markeringarna **`1:a Barnet`** och **`2 år`**. De är
+nu utvunna i P-0313 som A-5800. Detta är en propageringslucka i redan sparat
+material, inte ett nytt arkivbesök.
+
+**Kvarstående utvinningsrest.** Samma omläsning konstaterar att fadderkolumnen
+och dopförrättarens namn behöver fullständig avskrift. Den resten är fortsatt
+outförd och berör **P-0243** lika mycket som P-0313; P-0243:s akt nämner
+varken faddergapet eller moderns ålder.
