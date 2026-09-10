@@ -99,7 +99,31 @@ export function checkPersonFormat({ text, kind = 'dossier', personId, templateTe
     if (!rows[1] || rows[1].cells.some(c => !/^:?-{3,}:?$/.test(c))) errors.push(`${name}: saknad eller felaktig tabellavskiljare`);
     for (const row of rows) if (row.cells.length !== header.length) errors.push(`${name}, rad ${row.number}: ${row.cells.length} kolumner, väntat ${header.length}`);
   }
+  errors.push(...checkHeadingStyle(lines, kind));
   return errors;
+}
+// Rubrikstandarden (T-0633). Rader inne i bevarade citatblock börjar med '>'
+// och matchas därför aldrig av dessa mönster.
+export function checkHeadingStyle(lines, kind) {
+  const errors = [];
+  let previous = 0;
+  let section = null;
+  for (const entry of lines) {
+    const heading = entry.line.match(/^(#{1,6}) (.*)$/);
+    if (!heading) continue;
+    const level = heading[1].length;
+    if (previous && level > previous + 1) errors.push(`rad ${entry.number}: rubriknivå hoppas över, H${previous} följs av H${level}`);
+    if (heading[2].includes('**')) errors.push(`rad ${entry.number}: rubrik får inte innehålla fetstil`);
+    if (level === 2) section = heading[2].trim();
+    else if (level >= 3 && kind === 'dossier' && section === 'Identitet') errors.push(`rad ${entry.number}: Identitet är sammanhållen prosa och tar inga underrubriker`);
+    previous = level;
+  }
+  return errors;
+}
+export function boldDensity(text) {
+  const body = text.split(/\r?\n/).filter(l => !/^\s*>/.test(l)).join('\n');
+  const spans = body.match(/\*\*[\s\S]+?\*\*/g)?.length ?? 0;
+  return { words: body.split(/\s+/).filter(Boolean).length, spans };
 }
 export function checkRepositoryPeople(root, ids) {
   const files = readdirSync(join(root, 'genealogy/people'));
@@ -126,6 +150,14 @@ if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1]
     for (const r of results) for (const error of r.errors) console.error(`${r.personId} ${r.kind}: ${error}`);
     const count = results.reduce((sum, r) => sum + r.errors.length, 0);
     console.log(`person-dossier/v1: ${ids.length} personer, ${count} formatfel. Ingen saklig bevisprövning.`);
+    const density = ids.flatMap(id => ['people', 'research-profiles'].map(dir => {
+      const file = dir === 'people'
+        ? readdirSync(join(ROOT, 'genealogy/people')).filter(f => f.startsWith(`${id}-`)).map(f => join(ROOT, 'genealogy/people', f))[0]
+        : join(ROOT, 'genealogy/research-profiles', `${id}.md`);
+      return file && existsSync(file) ? boldDensity(readFileSync(file, 'utf8')) : null;
+    })).filter(Boolean).reduce((a, b) => ({ words: a.words + b.words, spans: a.spans + b.spans }), { words: 0, spans: 0 });
+    const perSpan = density.spans ? Math.round(density.words / density.spans) : 0;
+    console.log(`fetstil: ${perSpan} ord per spann${perSpan && perSpan < 60 ? ' — under 60, se T-0633:s standard B1–B4' : ''}. Varning, inte formatfel.`);
     if (count) process.exitCode = 1;
   }
 }

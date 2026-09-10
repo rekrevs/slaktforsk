@@ -4884,3 +4884,60 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   att förstå att de inte ska arbetas på**.
 - Revisit when: en avskriven uppgift får nytt belägg som gör den prövbar igen,
   eller ägaren vill dra en annan gräns för vad märkningen ska omfatta.
+
+## PCD-2026-09-10-032
+
+**Formatstandard för rubriker och fetstil i akter och profiler**
+
+- Record type: decision
+- Date: 2026-09-10
+- Decides review: direkt ägarinstruktion efter granskning av
+  personaktsprogrammets utfall; ägaren begärde att en standard fastställdes
+  och godkändes innan den tillämpades
+- Owner: Sverker Adam Janson
+- Decision: **aktens och profilens typografi är standardiserad.** Rubriker är
+  **etiketter, inte påståenden**, ingen rubriknivå hoppas över, och **fetstil
+  markerar undantag, inte innehåll**. Standarden gäller **samtliga** akter och
+  profiler, och den **kontrolleras maskinellt** så att den inte kan drifta
+  obemärkt igen.
+- Trigger: mätning av hela beståndet visade att typografin drev kraftigt under
+  personaktsprogrammets sista dag. Akter ändrade 2026-09-08 och 2026-09-09 låg
+  på **224 respektive 233 ord per fetstilsspann**; de 326 akter som ändrades
+  2026-09-10 låg på **28**. Profilerna visade samma sak, 111–185 mot **19**.
+  Samtidigt hade ett nivåhopp `##` → `####` spridit sig till **237 akter**
+  utan att någon kontroll fångade det, och 48 akttitlar hade blivit
+  forskningsresultat i stället för namn.
+- Disposition: approved
+- Supersedes decision: ingen. Standarden är **ny** och rör **enbart
+  presentation**. Den ändrar ingen bedömning, inget fältvärde och inget mått.
+- Implementation: standarden är skriven i `wotan/dev-log/T-0633.md` och lyder
+  i sak:
+  1. **A1** ingen rubriknivå hoppas över; **A2** `## Identitet` är
+     sammanhållen prosa utan underrubriker; **A3** en rubrik får ha ett
+     datum-, uppgifts- eller A-id-led och ett beskrivande efterled, men själva
+     etiketten får inte vara en sats; **A4** aktens H1 är namnet med eventuell
+     **nominell** särskiljare — ort, roll, relation, namnform, år — aldrig ett
+     forskningsresultat.
+  2. **B1** högst ett fetstilsspann per stycke; **B2** en hel mening får fetas
+     bara som styckets inledande led; **B3** tillåtna användningar är
+     etikettinledning, en negation eller ett förbehåll som annars läses förbi,
+     och ett enskilt avgörande värde; **B4** tabellceller bär bara en flagga
+     vid cellens början; **B5** ingen fetstil i rubriker.
+  3. **C** allt inne i `>`-block är orört — text, stavning och fetstil ändras
+     aldrig i bevarad historik.
+  4. **D** `scripts/person-format.mjs` kontrollerar A1, A2 och B5 som
+     formatfel och rapporterar fetstilstätheten som **varning**, inte som fel.
+- Related records: `PCD-2026-09-07-026`, `PCD-2026-09-10-031`
+  (de tre akter vars titel bär `AVSKRIVEN UPPGIFT` är undantagna från A4),
+  `genealogy/templates/person.md`, `genealogy/templates/research-profile.md`,
+  `T-0633`
+- Resulting Wotan tasks: `T-0633`, som fastställer standarden och tillämpar
+  den på samtliga 538 akter och 539 profiler i fyra steg med en commit vardera.
+- Portfolio signal: **1 077 filer omfattas.** Ingen assertion, inget belägg,
+  ingen avskrift och inget bevarat citatblock ändras, och inget fältvärde i
+  kontraktsmodellen berörs. Vad som ändras är läsbarheten: efter tillämpningen
+  ligger hela beståndet på **202 ord per fetstilsspann** mot 28 i det
+  drivande materialet.
+- Revisit when: standarden visar sig hindra en verklig betydelseskillnad som
+  inte går att uttrycka i löpande text, eller ägaren vill dra en annan gräns
+  för vad en akttitel får innehålla.

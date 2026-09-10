@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { checkPersonFormat } from './person-format.mjs';
+import { checkPersonFormat, boldDensity } from './person-format.mjs';
 const template = readFileSync(new URL('../genealogy/templates/person.md', import.meta.url), 'utf8');
 const minimal = template.replaceAll('P-NNNN', 'P-0004');
 const check = text => checkPersonFormat({ text, personId: 'P-0004' });
@@ -39,4 +39,17 @@ test('blank-line table continuation is reported instead of losing later claims',
   const rows = '| A-0001 | Ett påstående | LEAD | låg | C-0001 | kommentar |';
   const split = minimal.replace('## Relationer', `${rows}\n\n${rows}\n\n## Relationer`);
   assert.ok(check(split).some(e => e.startsWith('Påståenden: kräver exakt en huvudtabell')));
+});
+test('rubrikstandarden fångar nivåhopp, fetstil och underrubrik i Identitet', () => {
+  assert.ok(check(minimal.replace('## Namnformer', '#### Hoppad nivå\n\n## Namnformer')).some(e => e.includes('rubriknivå hoppas över')));
+  assert.ok(check(minimal.replace('## Identitet', '## **Identitet**')).some(e => e.includes('fetstil')));
+  assert.ok(check(minimal.replace('## Namnformer', '### Egen underrubrik\n\n## Namnformer')).some(e => e.includes('Identitet är sammanhållen prosa')));
+  assert.deepEqual(check(minimal.replace('## Historik och rättelser', '## Historik och rättelser\n\n### Rättelse, 2026-09-10')), []);
+});
+test('bevarade citatblock undantas från rubrikstandarden', () => {
+  assert.deepEqual(check(minimal.replace('## Historik och rättelser', '## Historik och rättelser\n\n> #### Bevarad äldre rubrik\n')), []);
+});
+test('fetstilstätheten räknas utan citatblock', () => {
+  assert.deepEqual(boldDensity('> **ett** **två**\nvanlig text här'), { words: 3, spans: 0 });
+  assert.equal(boldDensity('**ett** två tre fyra').spans, 1);
 });
