@@ -116,3 +116,36 @@ att **hon är jämnårig med den äldste sonen.** **Ingen slutsats dras.**
 
 `Stödda påståenden` utökas med A-7946 och A-7947 (P-0437), A-7948 och A-7949
 (P-0480) samt A-7950–A-7955 (P-0481–P-0486).
+
+## Tillägg 2026-09-10 — T-0200: kontrollfallet får ett tredje jämförelseobjekt
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och det tidigare
+tillägget är append-only och står oförändrade.
+
+**A-7949 räknade denna posts åtta födelseår som ett kontrollfall utan lucka:**
+intervall om **3, 3, 2, 2, 3, 2 och 3 år**, aldrig mer än tre.
+
+**Ett tredje fall är nu räknat i T-0200.**
+**[Henrik Petter Henrikssons](../people/P-0456-henrik-petter-henriksson.md) tre
+söner i Lagfors i Ljustorp föddes 1881-08-09, 1887-07-02 och 1891-02-22**
+([C-0543](C-0543-ljustorp-AI10-sida-265-och-BI3-1894-erik-jonas-till-holm.md)),
+**med 5 år 10 månader och 23 dagar mellan de två första.**
+
+**Serien är alltså den mellersta av tre:** **Lindbergs obrutna intervall om
+2–3 år, Lagfors mellanrum om nästan sex, och Fredbergs om sju.**
+
+**Det viktiga är inte längden utan källäget.** **Denna post och
+[C-0945](C-0945-fredbergs-familjegrav-sollentuna.md) vilar på folkräkningar
+och ett gravregister**, där **mellanliggande späda dödsfall inte kan prövas.**
+**Lagforsfamiljen bor i en socken vars födelse- och dödböcker projektet redan
+har öppnat**, så **där går frågan att avgöra.**
+
+**Utfallet ska föras hit när det finns**, eftersom **det avgör hur mycket detta
+kontrollfall väger.** **Visar det sig att barn föddes och dog inom
+Lagforsluckan är en obruten serie som Lindbergs ett svagare argument än den
+ser ut** — **den kan då vara obruten därför att barnen råkade överleva, inte
+därför att inga föddes däremellan.** **Visar det sig att inga barn föddes blir
+kontrollfallet starkare.**
+
+**Ingen slutsats dras i förväg.** Ägs av
+[T-0625](../../wotan/dev-log/T-0625.md).

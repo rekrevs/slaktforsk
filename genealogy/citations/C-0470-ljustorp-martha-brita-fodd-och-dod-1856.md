@@ -100,3 +100,50 @@ mött** — och **dödspostens identifiering av henne genom fadern i stället f�
 genom hennes eget andranamn.**
 
 `Stödda påståenden` utökas med A-7923.
+
+## Tillägg 2026-09-10 — T-0200: fadderkretsen är också en karta
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**T-0130 avskrev fadderkretsen och T-0195 räknade den som `den bredaste
+programmet mött`.** **Ingen hade läst den som en ortsuppgift.**
+
+| Led | Faddrar | Ort |
+|---|---|---|
+| 1 | `f. Bonden Nils Nilsson` | `Näs[?]` |
+| 1 | **`torparenkan Anna Nilsdotter`** | **`Löfberg`** |
+| 2 | `Torparen Anders Engström` och hans hustru | **`ibm`** |
+| 3 | `Torparen Henrik Blundin[?]` och hans hustru | **`ibm`** |
+| 4 | `Torparen W. Edv. Th. Laurin[?]` och hans hustru | **`ibm`** |
+| 5 | `Torparesonen Nils Olof Engström` och `torparedottren Hedvig Cath. Engström` | **`ibm`** |
+| 6 | `Drängen Jonas Henriksson` och `pigan Cecilia Henriksdotter` | `Bredsjö` respektive `ibm` |
+
+**Nio av tolv står i `Löfberg`.**
+
+**Löfberg är den by där barnets mor,
+[Margreta Charlotta Schölin](../people/P-0339-margareta-charlotta-sjodin.md),
+växte upp som fosterbarn hos torparen och bonden
+[Nils Larsson](../people/P-0455-nils-larsson-lofberg.md)** enligt
+**barnhusrulla 2532**, från **juni 1831**
+([C-0606](C-0606-barnhusflickan-margreta-charlotta-scholin.md)).
+
+**Fosterrelationen upphörde alltså inte när hon blev vuxen.** **Byn följde med
+in i hennes eget familjeliv, tjugofem år senare.**
+
+**Två gränser gäller läsningen.** **`ibm` är källans egen dittoform**, och
+**denna citation återger den utan att lösa upp den** — **att de nio hör till
+Löfberg är en läsning av dittokedjan, inte en utskriven uppgift.** Och
+**dittoorterna får inte ge automatiskt fastställd släkt- eller parrelation för
+någon namnlika person**; **de uttryckligen anonyma hustrurna får inga uppfunna
+namn.** **Denna citations egen instruktion står oförändrad.**
+
+**Nils Larsson själv står inte bland faddrarna.** **Frånvaron är ingen
+dödsuppgift.** **`torparenkan Anna Nilsdotter i Löfberg` är en torpares änka i
+hans by och en kandidat som ska prövas, aldrig antas vara hans änka.**
+
+**Följden är praktisk:** **P-0455:s akt efterlyser `hans egen sammanhängande
+Löfbergskedja`**, och **denna post ger den fem namngivna fixpunkter i byn.**
+Ägs av [T-0625](../../wotan/dev-log/T-0625.md).
+
+`Stödda påståenden` utökas med A-7968 (P-0455).

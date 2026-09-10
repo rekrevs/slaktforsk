@@ -110,3 +110,45 @@ Två ytterligare preciseringar av samma sida:
   P-0446.
 
 Berörda påståenden: A-5376–A-5382 (P-0015), A-3027–A-3029 och A-2513.
+
+## Tillägg 2026-09-10 — T-0200: överstrykningen ger två mottagarförsamlingar
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**T-0153:s fynd 2026-09-08 att Karl Augusts bortflyttningscell har `Björkvik`
+överstruket med `Helgesta` skrivet ovanför, `96 13/11 116`, hade inte nått
+[P-0446](../people/P-0446-karl-august-bjorkvik.md)s akt.**
+
+**Den strukna formen är inte brus.** **Den är en först bokförd destination** —
+**och den destinationen är hans egen födelseförsamling och moderns hemsocken.**
+
+**A-2512:s formulering `Helgestas inflyttningslängd är nästa reciproka
+kontroll` är därmed ofullständig.** **Det är två kontroller, och den strukna
+kommer först i tiden.** **Assertionen skrivs inte om; bedömningen är förd som
+A-7965.**
+
+**Detta uppslag har en dokumenterad kostnadshistoria i just destinationsceller.**
+**T-0153:s andra fynd samma dag var att rad 8:s ursprungsförsamling lästs som
+`Hyltinge` när originalet skriver `Sköldinge`**, varvid **tre
+flyttlängdsgenomsökningar riktades mot fel socken** och **den reciproka
+kontrollen aldrig gjordes.** **Två felläsningar i samma kolumntyp på samma
+uppslag är ett mönster, inte en tillfällighet**, och **varje destinationscell
+på sidan bör läsas i originalupplösning innan den bär en sökning.**
+
+**Attestnumret `116` är den exakta ingången.** **Han har inget efternamn i
+denna källa**, så **numret och dagen 13 november 1896 måste bära sökningen i
+båda socknarnas inflyttningslängder.**
+
+**Vidare noteras att hushållsradens födelsedag `1880-11-11` inte kan gälla
+tillsammans med Björkviks `C/9` post 112**, vars **dopdag är 7 november** —
+se [C-0580](C-0580-bjorkvik-C9-karl-august-fodd-1880.md)s tillägg av samma
+datum. **Ingen dag väljs.**
+
+**Mor–son-relationen berörs inte av någondera frågan.** **Den vilar på denna
+citations egen `hustruns o.ä.`-rad** och **står oberoende av vilken
+födelsepost som är rätt.**
+
+Ägs av [T-0623](../../wotan/dev-log/T-0623.md).
+
+`Stödda påståenden` utökas med A-7964 och A-7965 (P-0446).

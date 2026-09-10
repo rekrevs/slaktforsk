@@ -105,3 +105,46 @@ Föräldrarnas förhörskolumner har återkommande råtecken, N./n.-liknande och
 **Nytt relevant barnfält, oberoende andraläst:** den överstrukna raden med födelseuppgift 1831 10/7 har **Drunkn.** under **1841**, placerat i årets nattvardskolumn. Det är en not om drunkning detta år; ingen egen dödspost, exakt dödsdag eller säker namnläsning har därmed fastställts. Namntecken anas under strecket men lämnas reserverade; inget nytt person-id skapas. Äldre 'namnet går inte att läsa' avsåg namnprövningen, inte att hela raden saknade övrig information. Övriga barnrader är Brita 1834 12/3, Magdalena 1837 2/5 och son Abram 1840 22/2. Deras förhörs-/kunskapstecken är prövade; inga säkra egna flyttdatum tillkommer. Abrahams egen fullfältprövning T-0126 återanvänds.
 
 Samtliga elva fullbilder C-0590 och de tre C-0591-bilderna har återfunnits och deras SHA-256 omräknats utan avvikelse. Den äldre ortssökningen återanvänds; inga nya andra hushåll har identifierats. S-0463:s äldre titel-/registerpassager har separat kopieskuld, specificerad i den källpostens tillägg.
+
+## Tillägg 2026-09-10 — T-0200: den överstrukna barnraden fanns inte i någon akt
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**T-0136 fann 2026-09-08 att den överstrukna barnraden med födelseuppgiften
+`1831 10/7` bär `Drunkn.` under året 1841 i nattvardskolumnen.** **Uppgiften
+fördes in här och stannade här.**
+
+**Ingen av syskonens akter nämnde raden.** **[P-0449](../people/P-0449-brita-hullsjo.md)
+och [P-0450](../people/P-0450-magdalena-hullsjo.md) förde far, mor, varandra
+och brodern** — **fyra relationer där det fanns fem.** **En familj med fyra
+barn hade förts som en familj med tre.**
+
+**Raden är nu förd som relation i båda systrarnas akter**, med **sin lästa
+födelseuppgift och sin oläsbara namnrad**, och **händelsen står i deras
+tidslinjer.** **Inget nytt person-id har skapats**, i enlighet med denna
+citations egen avgränsning. **Raden ska sökas på datumet, inte på namnet.**
+
+**Brita var sju år och Magdalena fyra när det hände.**
+
+### Barnens födelseintervall
+
+| Barn | Född | Sedan föregående |
+|---|---|---|
+| **den överstrukna raden** | **1831-07-10** | **15 månader efter vigseln 1830-04-13** |
+| Brita | 1834-03-12 | **32 månader** |
+| Magdalena | 1837-05-02 | **38 månader** |
+| Abraham | 1840-02-22 | **33 månader** |
+
+**Serien är obruten.** **Det är ett andra kontrollfall till T-0195:s sjuåriga
+Fredbergshopp**, efter T-0198:s Lindbergsserie
+([C-0945](C-0945-fredbergs-familjegrav-sollentuna.md),
+[C-0751](C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md)).
+**En obruten serie utesluter inte späda dödsfall** — **den visar spridningen,
+inte antalet barn.**
+
+**Tre rättelser ur C-1020 och C-1024 hade inte heller nått systrarnas akter:**
+**faderns födelsedag `1805 21/8`**, **giftaåret `30`** och **moderns rättade
+förnamn `Cajsa Brita`.** De är nu förda.
+
+`Stödda påståenden` utökas med A-7966 (P-0449) och A-7967 (P-0450).

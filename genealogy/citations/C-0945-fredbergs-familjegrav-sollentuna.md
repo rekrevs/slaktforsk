@@ -198,3 +198,43 @@ Fört som A-7949 i
 [P-0480](../people/P-0480-erik-august-lindberg.md).
 
 `Stödda påståenden` utökas med A-7949.
+
+## Tillägg 2026-09-10 — T-0200: ett tredje fall, och det första som går att pröva
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**T-0195:s tillägg registrerade ett sjuårigt mellanrum i Fredbergsseriens
+mitt** och **lämnade förbehållet att mellanliggande späda dödsfall inte skulle
+synas i någon läst källa.** **T-0198 gav ett kontrollfall utan lucka**
+([C-0751](C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md)).
+
+**Ett tredje fall är nu räknat, och det är av en annan sort.**
+
+**[Henrik Petter Henrikssons](../people/P-0456-henrik-petter-henriksson.md) tre
+söner i Lagfors föddes 1881-08-09, 1887-07-02 och 1891-02-22**
+([C-0543](C-0543-ljustorp-AI10-sida-265-och-BI3-1894-erik-jonas-till-holm.md)).
+**Mellanrummet är 5 år 10 månader och 23 dagar**, och **det ligger mellan
+moderns tjugosjätte och trettioandra år** — **samma form som här.**
+
+**Skillnaden är källäget.** **Fredbergsfamiljen vilar på detta gravregister
+och två folkräkningar; förbehållet kunde därför inte prövas.** **Lagforsfamiljen
+bor i Ljustorp, vars födelse- och dödböcker projektet redan har öppnat för
+andra år** — **`C/3` och `C/2` bär
+[C-0470](C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md):s poster från
+1856.** **Årgångarna 1882–1886 svarar direkt.**
+
+**Följden är metodisk och gäller detta tillägg lika mycket som det nya fallet.**
+**Förbehållet om osynliga späda dödsfall har burits i tre kohorter som en
+permanent gräns.** **Det är i själva verket en gräns hos källtypen, inte hos
+frågan** — **och den upphör så snart familjen sitter i en socken vars
+ministerialböcker är åtkomliga.**
+
+**Utfallet av den prövningen ska föras hit**, oavsett riktning. **Ett negativt
+utfall — att inga barn föddes inom luckan — vore det mer upplysande**, eftersom
+**det skulle visa att en lucka kan vara verklig och inte bara dold dödlighet**,
+och **därmed göra det sjuåriga Fredbergshoppet till en verklig avvikelse i
+starkare mening än A-7949:s kontrollfall ensamt gör.**
+
+**Ingen orsak antas här heller.** Ägs av
+[T-0625](../../wotan/dev-log/T-0625.md).

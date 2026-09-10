@@ -177,3 +177,54 @@ kontrollerade läsningen. P-0454 påverkas inte sakligt av året; för honom är
 kolumnredovisningen ovan det nya, se A-7201 och A-7202.
 
 Avskriften högst upp i denna citation är append-only och står oförändrad.
+
+## Tillägg 2026-09-10 — T-0200: fosterbyn återkommer i fosterdotterns dopkrets
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**Rullans rad `Uppfostras af Torp. Bonden Nils Larsson, Löfberg` har lästs som
+en uppgift om ett barn.** **Den är också en ortsuppgift, och orten återkommer
+tjugofem år senare.**
+
+**[C-0470](C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md) bär fadderkretsen
+vid Margreta Charlottas egna tvillingars dop 1856** — **tolv personer i sex
+led, programmets bredaste.** **Nio av dem står i `Löfberg`:**
+`torparenkan Anna Nilsdotter` samt, genom källans dittoform `ibm`, torparna
+`Anders Engström`, `Henrik Blundin[?]` och `W. Edv. Th. Laurin[?]` med
+hustrur, jämte `Nils Olof Engström` och `Hedvig Cath. Engström`. **En står i
+`Näs[?]` och två i `Bredsjö`.**
+
+**Barnhusflickan som växte upp i Löfberg hämtade sina barns faddrar därifrån.**
+**Fosterrelationen upphörde inte när hon blev vuxen.**
+
+**Två gränser gäller läsningen.** **`ibm` är källans egen dittoform och
+återges i C-0470 utan upplösning** — **att de nio hör till Löfberg är en
+läsning av dittokedjan, inte en utskriven uppgift.** Och **faddrarna är
+källbundna nätverksuppgifter**; **ingen släkt- eller parrelation fastställs för
+någon namnlika person.**
+
+**[Nils Larsson](../people/P-0455-nils-larsson-lofberg.md) själv står inte
+bland faddrarna.** **Han kan ha varit död, bortflyttad eller helt enkelt inte
+vald.** **Men `torparenkan Anna Nilsdotter i Löfberg` är en torpares änka i
+hans by** — **en kandidat som ska prövas, aldrig antas.** **Hans akts
+efterlysning av `hans egen sammanhängande Löfbergskedja` har därmed sin första
+konkreta ingång: fyra namngivna torpare och en torparänka i byn 1856.**
+
+### Slutårets rättelse gäller också fosterfadern
+
+**T-0166 rättade 2026-09-09 rullans nedersta årtal från `1839` till `1849`.**
+**Rättelsen fördes till [P-0339](../people/P-0339-margareta-charlotta-sjodin.md)
+och gav där A-7210.** **Den nådde inte P-0455**, vars akt **varken nämnde
+årtalet eller underhållet.**
+
+**Kolumnen `Årligt Underhåll.` bär talet `20`, och han var mottagaren.**
+**Löper anteckningen till augusti 1849 varade arrangemanget arton år i stället
+för åtta**, och **upphörde när fosterdottern var tjugofyra, inte fjorton.**
+
+**Räkningen är villkorlig.** **Denna citations egen reservation står
+oförändrad:** `upph` **är säkert som bokstavsföljd men dess upplösning är inte
+fastställd**, och **inget avsluts-, flytt- eller dödsdatum införs ur noten
+utöver året och månaden.**
+
+`Stödda påståenden` utökas med A-7968 (P-0455).

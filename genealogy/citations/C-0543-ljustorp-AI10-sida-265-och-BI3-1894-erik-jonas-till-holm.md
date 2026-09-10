@@ -47,3 +47,62 @@ oläst (S-0433).
 ## Stödda påståenden
 
 A-2401, A-2405, A-2411.
+
+## Tillägg 2026-09-10 — T-0200: en sexårig lucka som går att pröva
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften är append-only och står
+oförändrad.
+
+**Sidans rader 1–5 bär tre födelsedagar som aldrig räknats mot varandra.**
+
+| Son | Född | Sedan föregående | Moderns ålder |
+|---|---|---|---|
+| Erik Petter | **1881-08-09** | **4 månader efter den bokförda vigseln `81 9/4`[?]** | 26 |
+| Johan Vilhelm | **1887-07-02** | **5 år 10 månader 23 dagar** | 32 |
+| Anders Jonas | **1891-02-22** | **3 år 7 månader 20 dagar** | 35 |
+
+**Luckan ligger mellan moderns tjugosjätte och trettioandra år** — **hennes
+bästa barnaår.**
+
+**Programmet har mött samma form två gånger förut.** **T-0195 iakttog ett
+sjuårigt hopp i Fredbergsfamiljen och registrerade det utan slutsats**, med
+noteringen att **mellanliggande späda dödsfall inte skulle synas i någon läst
+källa** ([C-0945](C-0945-fredbergs-familjegrav-sollentuna.md)). **T-0198
+räknade Lindbergsseriens obrutna intervall som kontrollfall**
+([C-0751](C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md)).
+
+**Denna lucka skiljer sig från båda: den går att pröva.**
+
+**Fredbergsfamiljen vilar på ett gravregister och två folkräkningar.** **Denna
+familj bor i Ljustorp, vars födelse- och dödböcker projektet redan har läst
+för andra år** — **`C/3` och `C/2` bär
+[C-0470](C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md):s poster från
+1856.** **Årgångarna 1882–1886 svarar direkt.**
+
+**Programmets återkommande förbehåll kan därmed för första gången bytas mot en
+fråga med en namngiven källa.** **Båda utfallen är värdefulla, och det
+negativa är det mer överraskande:** **det skulle visa att en lucka kan vara
+verklig och inte bara osynlig dödlighet.** **Ett halvläst intervall är inget
+noll**, och **ingen orsak antas.**
+
+**Två mindre iakttagelser ur samma rader.**
+
+- **Första sonen föddes fyra månader efter den bokförda vigseln, på dagen.**
+  **Dagfältet `9/4` bär reservation**, vilket **gör räkningen villkorlig.**
+- **Faderns egen värnpliktskolumn är inte avskriven**, medan **broderns rad 13
+  bär `204/166/81`.** **Det är en utvinningslucka, inte en prövad tomhet.**
+
+**Slutligen noteras att ortsparet Rundbacken–Lagfors återkommer i två
+generationer.** **C-0469 anmärker att barndomens `Rundb.` `står i konflikt med
+senare A I/9:s Lagfors`**, och
+**[C-0621](C-0621-hinkestorpet-henrik-petter-och-registertackning.md) placerar
+[Henrik Petter](../people/P-0456-henrik-petter-henriksson.md) som vuxen på
+`Hinkestorpet` i Rundbacken** medan denna sida har honom i Lagfors. **Det
+talar för två närliggande platser snarare än en läskonflikt** — **men
+bostadsregistret är selektivt, sekundärt och anger bara födelseår**, och
+**iakttagelsen är därför svag.**
+
+Ägs av [T-0625](../../wotan/dev-log/T-0625.md).
+
+`Stödda påståenden` utökas med A-7969 (P-0456), A-7970 (P-0457), A-7971
+(P-0458) och A-7972 (P-0459).
