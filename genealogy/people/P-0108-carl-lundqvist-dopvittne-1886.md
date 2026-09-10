@@ -30,7 +30,7 @@ den inte innehåller någon uppgift utöver den lästa raden.
 henne till en stark kandidat för hustrun Caroline
 ([C-0074](../citations/C-0074-karolina-wilhelmina-lundqvist-lugnet.md)). Den
 sammanföringen är en `LEAD` som ligger i
-[P-0109](P-0109-caroline-lundqvist-dopvittne-1886.md) och får **inte**
+[P-0109](P-0109-caroline-lundqvist-dopvittne-1886.md) och får inte
 användas för att ge Carl ett fullständigare namn, ett hushåll eller en
 familjekoppling till Urbom-släkten.
 
@@ -154,9 +154,9 @@ Se [profilens frågor och källvägar](../research-profiles/P-0108.md#forsknings
 - **Vem var han?** Sköldinges husförhörs- eller församlingsbok för Lugnet
   omkring 1886 är den direkta vägen till födelsedatum, födelseort och hushåll.
   Den är inte prövad. Se profilens Q-01 och KP-01.
-- **Varför stod paret fadder i en annan socken?** Ingen relation till Ada
+- Varför stod paret fadder i en annan socken? Ingen relation till Ada
   Wilhelminas föräldrar är belagd. Se profilens Q-02.
-- **Bevarad kandidatgräns.** Sammanföringen av hustrun Caroline med Karolina
+- Bevarad kandidatgräns. Sammanföringen av hustrun Caroline med Karolina
   Wilhelmina Lundqvist, född Urbom, är en `LEAD` i P-0109 och får inte
   propageras hit.
 - Inga motstridiga uppgifter är kända, eftersom bara en källa är läst. Det är

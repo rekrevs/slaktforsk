@@ -228,14 +228,14 @@ Föregående akt bevaras i sin helhet nedan.
 
 ### Trädverkan rättad 2026-09-10, T-0194
 
-Fältet stod `BÄRANDE`. **Det är rättat till `EJ BÄRANDE`.** Aktens egen text säger `Ingen anlinje passerar honom; han är sidoperson`.
-**Fältet motsade alltså aktens egen slutsats.**
+Fältet stod `BÄRANDE`. Det är rättat till `EJ BÄRANDE`. Aktens egen text säger `Ingen anlinje passerar honom; han är sidoperson`.
+Fältet motsade alltså aktens egen slutsats.
 
-`Trädverkan` besvarar frågan *får antavlan passera denna person?* och **mäter
-inte hur väl identiteten är belagd**; `Identitetsgranskning` står oförändrad.
-**Ingen assertion är omskriven**, och akten i övrigt är oförändrad.
+`Trädverkan` besvarar frågan *får antavlan passera denna person?* och mäter
+inte hur väl identiteten är belagd; `Identitetsgranskning` står oförändrad.
+Ingen assertion är omskriven, och akten i övrigt är oförändrad.
 
 Rättelsen gjordes i en systematisk avstämning inom T-0194, som fann **tre
 akter** där fältet `BÄRANDE` stod tillsammans med en utskriven mening om att
-ingen anlinje passerar personen. **T-0164 är DONE**, så iakttagelsen förs här
+ingen anlinje passerar personen. T-0164 är DONE, så iakttagelsen förs här
 i stället för till en öppen uppgift.

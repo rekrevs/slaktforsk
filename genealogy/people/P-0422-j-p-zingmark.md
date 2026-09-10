@@ -74,7 +74,7 @@ gånger, brukade Botsmark N:o 7, flyttade som änkling till Degerfors
 | A-6200 | Änkedagen 1895 är omstridd. Omläsning 2026-09-09 av de sparade fulloriginalen läser råformen `95 27/2` både i hans egen änklingskolumn och i Kajsa Gretas dödskolumn på Sävar A I/9 b s. 670 och i hans änklingskolumn på Degerfors A II a/2 s. 601. Den äldre avskriften angav 1895-07-02. | CONFLICT | hög | [C-0554](../citations/C-0554-savar-AI9b-zingmark-hushall-1894-1898.md), [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) | Ny utvinning i T-0161 ur `F0012826_00259` och `F0013101_00237`. Bråktalets täljare har två siffror och skiljer sig i samma hand från vigseldagens `70 2/7`. Degerforsuppgiften är sannolikt överförd via attest och räknas inte som en andra oberoende informationsväg. Frågan avgörs av Kajsa Gretas egen dödbokspost, som är oläst. |
 | A-6201 | Sävar A I/9 b s. 670, rad 1: äktenskapskolumnen har `2 g.` över `70 2/7` och änklingsuppgiften `95 27/2`; koppkolumnen har `v`; `Hitflyttad` anger `G.B. 756`; kolumnerna för inflyttningsår, inflyttningsattest, död, värnpligt och fräjd är tomma; `Bortflyttad` anger Degerfors `98 28/11` med attest 14. | TRANSCRIBED | hög | [C-0554](../citations/C-0554-savar-AI9b-zingmark-hushall-1894-1898.md) | Full kolumngenomgång av hans egen rad 2026-09-09 i den sparade fullbilden. `G.B. 756` är den reciproka motsvarigheten till A I/8 b:s `G.B. 672` och sluter folioföljden. De tomma fälten är prövade, inte outvunna. |
 | A-6202 | Sävar A I/8 b s. 756, rad 1: ordet skrivet ovanför titeln `Bond.` är överstruket med dubbelstreck och är inte säkert läsbart ens vid full upplösning; koppkolumnen har `v`; äktenskapskolumnen har ett `2`-tecken över `70 2/7`; `Hitflyttad` anger `G.B. 672`; kolumnerna för inflyttningsår, inflyttningsattest, död, fräjd och bortflyttad är tomma. | TRANSCRIBED | hög | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md) | Full kolumngenomgång av hans egen rad 2026-09-09 i den sparade fullbilden. Den överstrukna lydelsen är en prövad oläslighet och får inte tolkas som en soldat- eller annan titel. |
-| A-6203 | Degerfors A II a/2 s. 601, rad 24: namnkolumnen anger `Svärfar Johan Petter Zingmark` och är överstruken; **yrkeskolumnen är tom**; koppkolumnen har `v`; änklingskolumnen har `95 27/2`; dödskolumnen anger `24/7 03`; kolumnerna för utflyttad eller överförd är tomma. | TRANSCRIBED | hög | [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) | Full kolumngenomgång av hans egen rad 2026-09-09. Sidan ger honom ingen yrkesuppgift alls; den äldre lydelsen `före detta sågverksarbetare` saknar stöd i denna källa och är rättad. |
+| A-6203 | Degerfors A II a/2 s. 601, rad 24: namnkolumnen anger `Svärfar Johan Petter Zingmark` och är överstruken; yrkeskolumnen är tom; koppkolumnen har `v`; änklingskolumnen har `95 27/2`; dödskolumnen anger `24/7 03`; kolumnerna för utflyttad eller överförd är tomma. | TRANSCRIBED | hög | [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) | Full kolumngenomgång av hans egen rad 2026-09-09. Sidan ger honom ingen yrkesuppgift alls; den äldre lydelsen `före detta sågverksarbetare` saknar stöd i denna källa och är rättad. |
 | A-6204 | Degerfors F/3 1903, post 87: titeln är `Såg. arb.` i Ekträsk utan förkortningen `f.d.`; `räknad till församlingen` har `1`; markeringen står i kolumnen för änkling eller frånskild; kolumnerna för dödsorsak, läkar-/barnmorskeintyg, dödsort annan än hemorten och särskilda anteckningar är tomma; begravningen är förd i augusti med dagen 2 och församlingsboken anges som sida 601. | TRANSCRIBED | hög | [C-0584](../citations/C-0584-degerfors-F3-johan-peter-zingmark-dod-1903.md) | Full kolumngenomgång av hans egen dödspost 2026-09-09. De tomma fälten är prövade källgränser; ingen dödsorsak, vårdinrättning eller annan dödsort får härledas ur dem. |
 | A-6205 | På samma uppslag, Degerfors A II a/2 s. 601 rad 25, står ytterligare en äldre man i hushållet: `Olof Reinhold Lindberg`, född 1814-07-06 i Degerfors, med änklingsuppgift och dödsdagen `29/5 04`. | TRANSCRIBED | hög | [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) | Ny utvinning 2026-09-09 ur samma bild. Han är en medboende i mågens hushåll och får ingen släktrelation till Johan Peter enbart genom sidan; namnlikheten med mågen Erik August Lindberg prövas inte här. |
 | A-6206 | Sävar E I/1, lysningsnummer 13 år 1870: lysningsdagen är 19 juni. Brudgummen skrivs `Bonden Johan Peter Zingmark i Botsmark`, född 1825, med `2` i kolumnen `Hvilket gifte` och folio `603` i husförhörsboken. Bruden skrivs `Pigan Cajsa Greta Nilsd:r dersammastädes`, född 1842, med `1` och samma folio `603`. | TRANSCRIBED | hög | [C-0553](../citations/C-0553-savar-EI1-zingmark-nilsdotter-vigsel-1870.md) | Ny utvinning 2026-09-09 ur `A0003725_00094`. Foliotalet rättar citationens äldre osäkra läsning `602`. Att bruden skrivs `dersammastädes` med samma folio betyder att hon var bokförd i hans eget hushåll före vigseln; A I/6 b s. 603 visar henne som piga längre ned på samma sida. |
@@ -97,7 +97,7 @@ gånger, brukade Botsmark N:o 7, flyttade som änkling till Degerfors
 | [P-0426 Per August Zingmark](P-0426-per-august-zingmark.md) | son | Första giftet; född 1858-10-26 i Botsmark | CORROBORATED | [C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md) |
 | [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) | son | Första giftet; född 1861-05-28, utflyttad till Degerfors 1880 | CORROBORATED | [C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md), [C-0547](../citations/C-0547-savar-B3-1880-johan-oskar-zingmark-till-degerfors.md), [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md) |
 | [P-0439 Axel Zingmark](P-0439-axel-zingmark.md) | son | Första giftet; tvilling född 1864-03-23, död 1865-02-18 | CORROBORATED | [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) |
-| [P-0427 Anders Vilhelm Zingmark](P-0427-anders-vilhelm-zingmark.md) | son | Första giftet; tvilling född 1864-03-24 | CORROBORATED | [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) **Tillagt 2026-09-09 (T-0161):** han dog **1892-04-20**. Dagbråket `92 20/4` står i den tryckta kolumnen `Död.` på hans överstrukna rad i Sävar A I/8 b s. 756, mellan `Inflyttningsattestens nummer` och `Innanläsning`. Kolumnrubriken är kontrollerad centralt mot fullbilden `A0001472_00232`; samma kolumn bär Nanny Olivias `91 11/1`. Uppgiften stod sedan 2026-08-29 som "tolkas inte" i C-0552. |
+| [P-0427 Anders Vilhelm Zingmark](P-0427-anders-vilhelm-zingmark.md) | son | Första giftet; tvilling född 1864-03-24 | CORROBORATED | [C-0565](../citations/C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) Tillagt 2026-09-09 (T-0161): han dog 1892-04-20. Dagbråket `92 20/4` står i den tryckta kolumnen `Död.` på hans överstrukna rad i Sävar A I/8 b s. 756, mellan `Inflyttningsattestens nummer` och `Innanläsning`. Kolumnrubriken är kontrollerad centralt mot fullbilden `A0001472_00232`; samma kolumn bär Nanny Olivias `91 11/1`. Uppgiften stod sedan 2026-08-29 som "tolkas inte" i C-0552. |
 | [P-0438 Sara Rebecka Zingmark](P-0438-sara-rebecka-zingmark.md) | dotter | Första giftet; tvilling född 1868-02-12, nöddöpt och död enligt egen födelsenot | CORROBORATED | [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md) |
 | [P-0428 Ester Amalia Zingmark](P-0428-ester-amalia-zingmark.md) | dotter | Första giftet; tvilling född 1868-02-13, gift 1886 | CORROBORATED | [C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md) |
 | [P-0429 Anna Margreta Zingmark](P-0429-anna-margreta-zingmark.md) | dotter | Andra giftet; född 1871-01-02 | CORROBORATED | [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md), [C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md) |
@@ -151,7 +151,7 @@ C-0564, C-0565, C-0567 och C-0546 och ger nätverksnycklar, inte släktskap.
 | 1898-11-28 | Bokförd utflyttning till Degerfors, attest 14; Degerfors B/3 saknar motsvarande inflyttningspost | Sävar → Degerfors | — | — | [C-0554](../citations/C-0554-savar-AI9b-zingmark-hushall-1894-1898.md), [C-0571](../citations/C-0571-degerfors-B3-zingmark-inflyttning-1898-1900.md) |
 | 1898–1903 | Degerfors A II a/2 s. 601 för honom som `Svärfar` utan yrkesuppgift | Ekträsk, Degerfors | yrkeskolumnen tom | dottern Maria Elinas familj | [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) |
 | 1900 | Folkräkningen; `svärfar` och änkling i familj 3 | Ekträsk, Degerfors | änkling | dotterns familj med åtta barn | [C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md) |
-| 1903-07-24 | **Död** som `såg. arb.` i Ekträsk; begravd 2 augusti | Ekträsk, Degerfors | sågverksarbetare | dotterns familj | [C-0584](../citations/C-0584-degerfors-F3-johan-peter-zingmark-dod-1903.md), [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) |
+| 1903-07-24 | Död som `såg. arb.` i Ekträsk; begravd 2 augusti | Ekträsk, Degerfors | sågverksarbetare | dotterns familj | [C-0584](../citations/C-0584-degerfors-F3-johan-peter-zingmark-dod-1903.md), [C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md) |
 
 Bokförda perioder är kyrkobokföring, inte belagd oavbruten fysisk närvaro.
 Åren 1830–1850 saknar helt egen läst hushållsrad, och folio 455 mellan
@@ -237,8 +237,8 @@ Zingmark–Pehrsdotter-hushåll framträder, vilket är väntat eftersom han
 var ogift till slutet av 1850, men det betyder också att hans ungdomsår
 saknar källa ([C-0686](../citations/C-0686-savar-flytt-och-AI4-sara-sophia-avgransning.md)).
 
-Den 24 november 1850 vigdes han i **Degerfors** med **Sara Sophia
-Pehrsdotter** från Ånäset. Vigselposten kallar honom `Landbonden Joh. Pett.
+Den 24 november 1850 vigdes han i **Degerfors** med Sara Sophia
+Pehrsdotter från Ånäset. Vigselposten kallar honom `Landbonden Joh. Pett.
 Zingmark` från Botsmark, namnger hans far och brudens föräldrar och
 antecknar att brudens far var närvarande som giftoman. Lysningsdagen läses
 `3/11[?]`, och en not om ett avvittringsbetyg står i posten utan att någon
@@ -275,12 +275,12 @@ På samma sida skrivs hans far Carl Jonas in i hushållet 1867 och dör där
 1870; faderns rådatum hör till hans egen rad och inte till sonens.
 
 Knappt två år efter Sara Sophias död gifte han om sig. Lysningen togs ut
-den **19 juni 1870** och vigseln förrättades den **2 juli 1870** av
-H. L. Strinnholm. Bruden **Kajsa Greta Nilsdotter** skrivs `dersammastädes`
+den **19 juni 1870** och vigseln förrättades den 2 juli 1870 av
+H. L. Strinnholm. Bruden Kajsa Greta Nilsdotter skrivs `dersammastädes`
 med samma husförhörsfolio 603 som brudgummen — hon var alltså redan
 bokförd i hans eget hushåll, dit hon kommit som piga från Umeå
-landsförsamling. Hennes far **Nils Peter Ericsson i Tafvelsjö[?] av Umeå
-församling** gav skriftligt bifall, uppvisat som avskrift av den 14 juni
+landsförsamling. Hennes far Nils Peter Ericsson i Tafvelsjö[?] av Umeå
+församling gav skriftligt bifall, uppvisat som avskrift av den 14 juni
 ([C-0553](../citations/C-0553-savar-EI1-zingmark-nilsdotter-vigsel-1870.md)).
 I det andra äktenskapet föddes sex barn mellan 1871 och 1887. År 1892 gav
 han skriftligt medgivande till att den artonårige sonen Emanuel utvandrade
@@ -327,12 +327,12 @@ församling 1903–1904 ([C-0823](../citations/C-0823-bouppteckningsregister-sve
 
 ## Forskningsfrågor och konflikter
 
-- **Var ligger folio 455?** `455` står som `Hvarifrån` i familjeklammern på
+- Var ligger folio 455? `455` står som `Hvarifrån` i familjeklammern på
   A I/5 b s. 470 och som gällande husförhörsboksida i födelsenotiserna 1861
   och 1864. När senare sidor hänvisar till en föregående volym skriver de
   uttryckligen `Gl. Bok` eller `G.B.`; A I/5 b:s `455` saknar sådan
   markering, och A I/4 b:s Botsmarkavsnitt är avgränsat till s. 340–356.
-  Den mest sannolika placeringen är därför **A I/5 b s. 455, i samma volym**,
+  Den mest sannolika placeringen är därför A I/5 b s. 455, i samma volym,
   inte en äldre bok. Hypotesen är oläst och ägs av
   [T-0276](../../wotan/dev-log/T-0276.md).
   ([C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md),
@@ -347,11 +347,11 @@ församling 1903–1904 ([C-0823](../citations/C-0823-bouppteckningsregister-sve
   oläst.
 - **Soldatbeteckningen 1853–1858** är obearbetad. Generalmönsterrullorna för
   det kompani som omfattade Sävar är inte identifierade; se profilens KP-04.
-- **Gårdens omfattning och dödsboet.** Mantalslängderna `Vol/150–155` är
+- Gårdens omfattning och dödsboet. Mantalslängderna `Vol/150–155` är
   analoga och olästa, bråktalet `3/128` är oprövat, och
   bouppteckningsregistret gav ett strikt namnbundet noll utan att ansvarig
   häradsrätt fastställdes.
-- **Sara Sophias dödsdag 1868-08-14** står i konflikt med ett fullständigt
+- Sara Sophias dödsdag 1868-08-14 står i konflikt med ett fullständigt
   kontrollerat tvåvolymsnoll i Sävars dödböcker; konflikten bevaras och
   propageras inte ([C-0555](../citations/C-0555-savar-dodbocker-sara-sophia-1868-1870-negativ.md)).
 - **Ungdomsåren 1830–1850** saknar helt egen läst källa, och `Till Nykyrkan`

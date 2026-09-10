@@ -258,33 +258,33 @@ inte och dotterns senare händelser överförs inte till fadern.
 **Avgränsad följd, ingen ny arkivåtkomst.** Fyndet kommer ur
 [C-0721](../citations/C-0721-stora-malm-johanna-jansdotter-1819-1841.md), redan
 läst, och rör hustrun
-[Lena Jonsdotter](P-0477-lena-jonsdotter-walla.md), som T-0173 äger. **Din
-egen akt är inte omprövad**, och inget A-id, ingen status och ingen bedömning
+[Lena Jonsdotter](P-0477-lena-jonsdotter-walla.md), som T-0173 äger. Din
+egen akt är inte omprövad, och inget A-id, ingen status och ingen bedömning
 i den ändras här.
 
-**Din uppgivna födelseuppgift utesluter dig som far till tre av barnen i
-hushållet.** Walla sida 80 anger dig född **1791 5/9 Björkvik** enligt
+Din uppgivna födelseuppgift utesluter dig som far till tre av barnen i
+hushållet. Walla sida 80 anger dig född 1791 5/9 Björkvik enligt
 T-0139:s rättade avskrift. Familjegruppen innehåller `Anna Maja
 Andersdotter` 1806-08-02, `Eric Andersson` 1809-09-27 och `Anders Andersson`
 1812-04-12. Du var alltså **femton år** när det äldsta av dem föddes, arton
 när det andra och tjugoett när det tredje.
 
 Akterna varnade redan riktigt mot att göra dig till deras biologiske far.
-**Följden framlänges var aldrig dragen: åldersräkningen gör varningen till ett
-positivt uteslutande** för det äldsta barnet, och till en mycket stark
+Följden framlänges var aldrig dragen: åldersräkningen gör varningen till ett
+positivt uteslutande för det äldsta barnet, och till en mycket stark
 inskränkning för de två följande. Uppgiften vilar på din **uppgivna**
 hushållsuppgift, inte på en läst födelsepost, så uteslutandet är lika starkt
 som den uppgiften och inte starkare.
 
 **Den troliga förklaringen ligger hos hustrun, inte hos dig:** om de tre
-barnen är hennes var hon gift förut med en Anders, och **ditt giftermål med
-henne faller mellan 1812-04-12 och 1816-08-13**, mellan det sista
+barnen är hennes var hon gift förut med en Anders, och ditt giftermål med
+henne faller mellan 1812-04-12 och 1816-08-13, mellan det sista
 Anders-patronymika och det första Jans-patronymika barnet. Det är en hypotes,
-inte en slutsats. **Ingen tidigare make skapas, inga person-id skapas och
-ingen barnrelation införs eller stryks i din akt.**
+inte en slutsats. Ingen tidigare make skapas, inga person-id skapas och
+ingen barnrelation införs eller stryks i din akt.
 
-Fyndet ger en ny, avgränsad passage: **Stora Malms vigselbok omkring
-1812–1816**, som skulle namnge båda makarnas hemvist och hennes civilstånd —
+Fyndet ger en ny, avgränsad passage: Stora Malms vigselbok omkring
+1812–1816, som skulle namnge båda makarnas hemvist och hennes civilstånd —
 och som därmed också prövar din egen ursprungsfråga. Passagen är namngiven i
 [P-0477:s profil](../research-profiles/P-0477.md#källvägar) KP-02.
 

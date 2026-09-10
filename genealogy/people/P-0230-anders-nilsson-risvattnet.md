@@ -36,7 +36,7 @@ Inget namnbyte är belagt. Namnformen växlar med skrivarens vana, inte med pers
 | A-7172 | Födelsebokens högra ytterkolumn bär för hans post datumet `Maij d 6`. | TRANSCRIBED | medel | [C-0198](../citations/C-0198-nysatra-C4-andreas-nilsson-fodd-1797.md) | Utvunnet 2026-09-09. Uppslaget saknar tryckt eller skriven rubrikrad. Kolumnens värden ligger genomgående omkring sex veckor efter födelsen, vilket är moderns kyrktagning, men rubriken är inte läst och tolkningen står därför öppen. Datumet gäller inte barnet. |
 | A-7173 | I månadskolumnen vid hans födelsepost står den ensamma marginalsiffran `24.`. | TRANSCRIBED | låg | [C-0198](../citations/C-0198-nysatra-C4-andreas-nilsson-fodd-1797.md) | Utvunnet 2026-09-09. Siffran saknar rubrik och varierar mellan posterna på samma uppslag, bland annat `23.` och `39.`, vilket utesluter ett löpnummer och gör en åldersuppgift rimligast. Vilken person åldern avser är inte fastställt; ingen ålder tillskrivs någon förälder här. |
 | A-7174 | På hans egen rad i `A I/8a` sida 79 är kolumnerna `Koppor.`, `Hvarifrån.`, `Hvarthän.` och `Anmärkningar för Seder m.m.` tomma, medan förhör och nattvardsgång är noterade i varje årsblock 1842–1851. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Utvunnet 2026-09-09 kolumn för kolumn. Ingen in- eller utflyttning är bokförd under volymens tid. Tomma celler är källgränser: de visar inte att han var ovaccinerad eller utan anmärkning, bara att prästen inte skrev något. |
-| A-7175 | I `A I/9a` sida 85 utvidgas hushållet med `Gifta son N:ls Andersson`, född 5 oktober 1823, hans hustru `Johanna Carlsd[otte]r` och deras två barn `Anders`, född 17 april 1857, och `Magdal. Johanna`, född 31 december 1858. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Sonens `Gifto-år` läses `²²/₆ 56`; **täljarens reservation är upphävd 2026-09-09 i T-0167** efter omläsning av cellen vid 500 % förstoring — talet är `22`, med den andra tvåans karakteristiska ögla. Hustrun kommer enligt kolumnen `Hvarifrån.` `infra`, och en piga Johanna Carlsdotter längre ned på samma sida har `supra` i `Hvarthän.`; de två raderna pekar på varandra men hennes två födelsedagbråk är olika lästa och behöver omläsning. |
+| A-7175 | I `A I/9a` sida 85 utvidgas hushållet med `Gifta son N:ls Andersson`, född 5 oktober 1823, hans hustru `Johanna Carlsd[otte]r` och deras två barn `Anders`, född 17 april 1857, och `Magdal. Johanna`, född 31 december 1858. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Sonens `Gifto-år` läses `²²/₆ 56`; täljarens reservation är upphävd 2026-09-09 i T-0167 efter omläsning av cellen vid 500 % förstoring — talet är `22`, med den andra tvåans karakteristiska ögla. Hustrun kommer enligt kolumnen `Hvarifrån.` `infra`, och en piga Johanna Carlsdotter längre ned på samma sida har `supra` i `Hvarthän.`; de två raderna pekar på varandra men hennes två födelsedagbråk är olika lästa och behöver omläsning. |
 | A-7176 | Hustruns rad i `A I/9a` sida 85 bär i kolumnen `Hvarthän.` anteckningen `död ²³/₄ 1862`. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Anteckningen ligger inom hustruns radband, mellan linjerna över och under hennes namn, inte på hans rad; radtillhörigheten har kontrollerats mot linjeringen. Uppgiften gäller alltså [P-0231](P-0231-magdalena-eriksdotter-risvattnet.md) och införs i sak i hennes akt, inte här. För honom betyder den att äktenskapet upphör under 1862 och att han är den efterlevande. |
 | A-7177 | Dotterns rad i `A I/8a` sida 79 är överstruken och bär `† d. ¹¹/₂` inom årsblocket `År 1843`. | TRANSCRIBED | medel | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Utvunnet 2026-09-09. Korset är en dödsmarkering; året följer av vilket årsblock cellen ligger i, inte av cellens egen text, och står därför med reservation. Uppgiften gäller [P-0237](P-0237-brita-maria-andersdotter-risvattnet.md) och införs i sak i hennes akt. Den preciserar C-0197:s äldre normaliserade tolkning att orsaken till överstrykningen inte var undersökt. |
 | A-7178 | Sonen Anders rad i `A I/9a` sida 85 bär i kolumnen `Hvarthän.` `Bygdeå ⁸/₆ 1860`. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Hushållsakten daterar alltså flytten till dag och månad, inte bara till året 1860. Uppgiften gäller [P-0050](P-0050-anders-andersson.md) och införs i sak i hans akt. Talet `8` har samma dubbelögleform som åttan i `1860` på samma rad. |
@@ -239,26 +239,26 @@ denna akt granskades.
 
 ### Inkommande följdfynd från T-0171, 2026-09-09
 
-Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0165 äger akten.
+Avgränsad rapport från föräldrarnas kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0165 äger akten.
 
-- **Du har sannolikt en yngre bror.** Nysätra C/4 sida 86 har en post från den
+- Du har sannolikt en yngre bror. Nysätra C/4 sida 86 har en post från den
   **22 september 1798**, döpt den 23:e, för `Johannes` med `Chd: Bond: Nils
   Nilsson` och `mod: Magdalena andersdot` — samma föräldrapar och samma by
   som din egen post från 1797. Orten är skriven i två led, `[N?]yboo` över
   `Risvatnet`, med läsreservation på det övre ledet. Arton månaders
-  mellanrum är normalt. **Inget person-id är skapat för honom.**
-- **Ett förbehåll hör till fyndet.** Uppslagen bär en smal **orubricerad**
+  mellanrum är normalt. Inget person-id är skapat för honom.
+- Ett förbehåll hör till fyndet. Uppslagen bär en smal **orubricerad**
   nummerkolumn med tal 23–39, och din post bär `24.` medan Johannes post bär
   `29.` Fem års skillnad på fjorton månader kan inte vara en modersålder, och
-  kolumnens funktion är **oläst**. Kvar står tre möjligheter, varav en är att
-  de två posterna gäller **två olika par med samma namn i samma by**. Frågan
+  kolumnens funktion är oläst. Kvar står tre möjligheter, varav en är att
+  de två posterna gäller två olika par med samma namn i samma by. Frågan
   avgörs av volymens egen rubriksida.
-- **Ditt eget dops vittnen är avskrivna för första gången:**
+- Ditt eget dops vittnen är avskrivna för första gången:
   `Olof Gabrielsson` med `des[s] hu[stru] Maria Johansdot: i Risvattnet`,
   `Sold: Johan Jacob Trygger` och `Pijga[?] Stina Stephansdotter`. Citationen
-  hade uttryckligen lämnat fältet oregistrerat. **Inget vittne bär någon av
-  föräldrarnas patronymikon**; `Olof Gabrielsson` med hustru är de enda
+  hade uttryckligen lämnat fältet oregistrerat. Inget vittne bär någon av
+  föräldrarnas patronymikon; `Olof Gabrielsson` med hustru är de enda
   namngivna grannarna i familjens akter.
 
 Ingen ny arkivåtkomst har skett. Se C-0198:s och C-0199:s daterade tillägg.

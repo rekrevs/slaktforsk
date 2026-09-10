@@ -16,7 +16,7 @@ Johan Gustaf Strandlund är torpare i Högsjö i Indal och far i dottern Anna St
 
 **Personen är prövad; ursprunget är olöst.** Hans egna föräldrar och hans födelseförsamling i Stockholm är okända. Ingen Stockholmsträff på namn och år får sammanföras med honom utan en brygga till Indal, Sättna, torparställningen eller vigseln 1839.
 
-**Namnlika personer hålls isär.** Samma Högsjöavsnitt i Indal A I/6 bär på sida 90 syskonparet Greta Lisa Strandell, född 1810-01-17 med `Hvarifrån` **Stockholm**, och brodern Pehr Strandell, född 1820. Namnformen där är utskriven `Strandel(l)`, inte `Strandlund`, och ingen källa binder dem till Johan Gustaf. De registreras som en obesvarad forskningsfråga i profilen och som en avvisad automatisk sammanföring här, inte som släktingar.
+**Namnlika personer hålls isär.** Samma Högsjöavsnitt i Indal A I/6 bär på sida 90 syskonparet Greta Lisa Strandell, född 1810-01-17 med `Hvarifrån` Stockholm, och brodern Pehr Strandell, född 1820. Namnformen där är utskriven `Strandel(l)`, inte `Strandlund`, och ingen källa binder dem till Johan Gustaf. De registreras som en obesvarad forskningsfråga i profilen och som en avvisad automatisk sammanföring här, inte som släktingar.
 
 ## Namnformer
 
@@ -132,7 +132,7 @@ Två saker är värda att hålla isär från honom. Den ena är varje Stockholms
 ## Forskningsfrågor och konflikter
 
 - Se [profilens frågor och källvägar](../research-profiles/P-0343.md#forskningsfrågor).
-- **Upphävd läsning, bevarad som historik:** dagfältet i A I/7 tolkades tidigare som dagen `12` med oläsbar månad. A-6450 visar att `12` står under bråkstrecket och att dagrutan är tom. Ingen ny dag har tillkommit; däremot har månaden.
+- Upphävd läsning, bevarad som historik: dagfältet i A I/7 tolkades tidigare som dagen `12` med oläsbar månad. A-6450 visar att `12` står under bråkstrecket och att dagrutan är tom. Ingen ny dag har tillkommit; däremot har månaden.
 - **Rättad oberoendebedömning:** folkräkningen 1880 räknades tidigare som en oberoende bekräftelse. Bladets egen rubrik gör den till ett utdrag ur samma husförhörslängdskedja. Uppgiften om år och ort vilar därför på en informationsväg, inte på två.
 - **Oläst uttrycklig hänvisning:** `Hvarifrån 224` i A I/6 sida 92. Den pekar inom längdsystemet och är den enda kända vägen till var paret bokfördes före Högsjö.
 - **Olöst ursprung:** födelseförsamling och föräldrar. En bred Stockholmsträff på namn och år får inte sammanföras.

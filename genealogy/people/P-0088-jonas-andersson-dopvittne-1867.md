@@ -103,17 +103,17 @@ Posten består ändå som ett revisionsspår. Att slå samman två personposter 
 
 Se [profilens frågor och källvägar](../research-profiles/P-0088.md#forskningsfrågor).
 
-- **Sammanslagningen är ett ägarbeslut.** Identitetsfrågan är avgjord, men P-0088 och P-0082 står kvar som två poster tills ägaren tar ställning.
+- Sammanslagningen är ett ägarbeslut. Identitetsfrågan är avgjord, men P-0088 och P-0082 står kvar som två poster tills ägaren tar ställning.
 - **Enda kvarstående motprövning:** en uttömmande förteckning över nämndemän i Degerfors tingslag omkring 1867 skulle utesluta att en andra nämndeman med samma namn fanns i socknen. Den är inte läst, och häradsrättens protokoll är inte öppnade.
-- **Citationens avskrift avviker från originalet.** C-0062 normaliserar `Jon Andersson` till `Jonas Andersson` och beskriver flera övriga faddrar med roller och namn som inte alla stämmer med den nu omlästa bilden. Rättelsen ägs centralt av T-0163 och görs inte i denna akt.
+- Citationens avskrift avviker från originalet. C-0062 normaliserar `Jon Andersson` till `Jonas Andersson` och beskriver flera övriga faddrar med roller och namn som inte alla stämmer med den nu omlästa bilden. Rättelsen ägs centralt av T-0163 och görs inte i denna akt.
 
 ## Historik och rättelser
 
 T-0163, 2026-09-09: individuell konsolidering till `person-dossier/v1`. Granskat underlag är C-0062 och C-0064 med deras daterade tillägg, den bevarade fullbilden `C0034078_00209` samt [P-0082](P-0082-jonas-andersson-buberget-kontext.md). Båda äldre A-id är bevarade; två nya, A-6610 och A-6611, tillför uppgifter utvunna ur ett redan sparat original. Följande sakrättelser är gjorda.
 
-- **Identitetsfrågan avgjord.** A-0351 höll posten separat från P-0082 som `LEAD`. Avgränsningen är upphävd och ersatt av A-6611. Den ursprungliga lydelsen står kvar i påståendets saktext, märkt som upphävd, så att den ursprungliga observationen består.
-- **`Trädverkan` satt till `EJ BÄRANDE`** med motiveringen att posten avser samme man som P-0082 och därför aldrig får bära ett led. Det följer den enda etablerade användningen i projektet, dubbelposten P-0295.
-- **Namnformen rättad.** Originalet skriver `Jon Andersson`, inte `Jonas Andersson`. A-0350 är omformulerad så att den täcker båda formerna, och råformen bärs av A-6610. Ursprunglig lydelse nedan.
+- Identitetsfrågan avgjord. A-0351 höll posten separat från P-0082 som `LEAD`. Avgränsningen är upphävd och ersatt av A-6611. Den ursprungliga lydelsen står kvar i påståendets saktext, märkt som upphävd, så att den ursprungliga observationen består.
+- `Trädverkan` satt till `EJ BÄRANDE` med motiveringen att posten avser samme man som P-0082 och därför aldrig får bära ett led. Det följer den enda etablerade användningen i projektet, dubbelposten P-0295.
+- Namnformen rättad. Originalet skriver `Jon Andersson`, inte `Jonas Andersson`. A-0350 är omformulerad så att den täcker båda formerna, och råformen bärs av A-6610. Ursprunglig lydelse nedan.
 - **A-0350:s tillförlitlighet höjd** från medel till hög efter omläsning av den bevarade fullbilden; titeln och namnet är otvetydiga.
 
 Hela den föregående akten bevaras nedan. Ersatta formuleringar är inte aktuella slutsatser.

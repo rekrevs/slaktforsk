@@ -79,7 +79,7 @@ Egna föräldrar är inte identifierade. Dopvittnena är ett socialt nätverk, i
 
 ## Hälsa och död
 
-Sonen Anders Magnus födelsepost 1844 anger moderns ålder **30 år**.
+Sonen Anders Magnus födelsepost 1844 anger moderns ålder 30 år.
 Marginalens **22/9[?]** är prövat rådatum utan säker funktionsrubrik;
 ingen kyrktagningsdag härleds. Se [C-0364](../citations/C-0364-ostra-husby-C5-anders-magnus-gaddestad-1844.md).
 

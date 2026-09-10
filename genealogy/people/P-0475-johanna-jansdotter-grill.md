@@ -7,9 +7,9 @@
 
 ## Identitet
 
-Johanna föddes den **30 maj 1819** och döptes den 31 maj i Stora Malms födelsebok; föräldrahemvisten anges som Walla. Föräldrarna är hemmansbrukaren Jan Ericson och Lena Jonsdotter. Egen födelsepost och barndomshushåll ger samma datum. Utflyttningsposten 1841 från Backstugan till Bettna och Bettnas mottagande hushåll binder den tidigare personen till Carl Fredrik Drills hustru och Eriks mor. Senare husförhör uppger **30 april 1819**; det är en synlig råavvikelse, inte något som tyst rättas i källorna. [C-0721](../citations/C-0721-stora-malm-johanna-jansdotter-1819-1841.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md), [C-0729](../citations/C-0729-bettna-AI16b-sida201-scb1870-grill-erik.md), [C-0732](../citations/C-0732-bettna-grill-1876-1890-johanna-dod.md).
+Johanna föddes den **30 maj 1819** och döptes den 31 maj i Stora Malms födelsebok; föräldrahemvisten anges som Walla. Föräldrarna är hemmansbrukaren Jan Ericson och Lena Jonsdotter. Egen födelsepost och barndomshushåll ger samma datum. Utflyttningsposten 1841 från Backstugan till Bettna och Bettnas mottagande hushåll binder den tidigare personen till Carl Fredrik Drills hustru och Eriks mor. Senare husförhör uppger 30 april 1819; det är en synlig råavvikelse, inte något som tyst rättas i källorna. [C-0721](../citations/C-0721-stora-malm-johanna-jansdotter-1819-1841.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md), [C-0729](../citations/C-0729-bettna-AI16b-sida201-scb1870-grill-erik.md), [C-0732](../citations/C-0732-bettna-grill-1876-1890-johanna-dod.md).
 
-Hon fick sonen Carl Johan 1843, uttryckligen utom äktenskapet och utan namngiven far i födelseposten. Carl Fredrik blir därför inte automatiskt hans biologiske far. Parets egen lysningsnot läses **16 april 1843[?]**; lysning är inte en säkrad vigselpost. Den sammanhängande familjeprofilen belägger makarna, medan rullans giftstatus 1845 ensam inte namnger hustrun. Johanna dog den **24 februari 1883** och begravdes den **4 mars**. Gatstugan är bokförd hemort; fysisk dödsort är inte angiven. [C-0763](../citations/C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md), [C-0718](../citations/C-0718-grillfamiljen-1841-1845-lysning-militar.md), [C-0732](../citations/C-0732-bettna-grill-1876-1890-johanna-dod.md).
+Hon fick sonen Carl Johan 1843, uttryckligen utom äktenskapet och utan namngiven far i födelseposten. Carl Fredrik blir därför inte automatiskt hans biologiske far. Parets egen lysningsnot läses 16 april 1843[?]; lysning är inte en säkrad vigselpost. Den sammanhängande familjeprofilen belägger makarna, medan rullans giftstatus 1845 ensam inte namnger hustrun. Johanna dog den 24 februari 1883 och begravdes den **4 mars**. Gatstugan är bokförd hemort; fysisk dödsort är inte angiven. [C-0763](../citations/C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md), [C-0718](../citations/C-0718-grillfamiljen-1841-1845-lysning-militar.md), [C-0732](../citations/C-0732-bettna-grill-1876-1890-johanna-dod.md).
 
 ## Namnformer
 
@@ -256,33 +256,33 @@ T-0139 fullkonsoliderar befintligt underlag och bevarar alla tidigare A-id. Aktu
 **Avgränsad följd, ingen ny arkivåtkomst.** Fyndet kommer ur
 [C-0721](../citations/C-0721-stora-malm-johanna-jansdotter-1819-1841.md), redan
 läst, och rör din mor
-[Lena Jonsdotter](P-0477-lena-jonsdotter-walla.md), som T-0173 äger. **Din egen
-akt är inte omprövad**, och inget A-id, ingen status och ingen bedömning i den
+[Lena Jonsdotter](P-0477-lena-jonsdotter-walla.md), som T-0173 äger. Din egen
+akt är inte omprövad, och inget A-id, ingen status och ingen bedömning i den
 ändras här.
 
 **Din födelsepost innehåller två uppgifter vars följder inte var dragna.**
 
 **1. Din mors uppgivna ålder passar ingen av hennes två dateringar.** Posten
-anger `34` den 30 maj 1819, vilket ger hennes födelse till **1784-05-31 –
-1785-05-30**. Hushållslängdens `1783 21/10` skulle göra henne **35** den
-dagen, och den gamla kandidatposten `1785 31/10` skulle göra henne **33**.
+anger `34` den 30 maj 1819, vilket ger hennes födelse till 1784-05-31 –
+1785-05-30. Hushållslängdens `1783 21/10` skulle göra henne 35 den
+dagen, och den gamla kandidatposten `1785 31/10` skulle göra henne 33.
 Talet ligger mitt emellan de två och pekar på ett tredje fönster. Åldern var
-utvunnen i T-0139 men aldrig räknad mot dem. **Ingen datering väljs**, och en
+utvunnen i T-0139 men aldrig räknad mot dem. Ingen datering väljs, och en
 uppgiven ålder bär avrundningsrisk.
 
-**2. Tre av barnen i din familjegrupp bär ett annat patronymikon än du.**
+2. Tre av barnen i din familjegrupp bär ett annat patronymikon än du.
 `Anna Maja Andersdotter` 1806-08-02, `Eric Andersson` 1809-09-27 och `Anders
 Andersson` 1812-04-12 heter `Anders`-, medan du, `Cajsa Lena Jansdotter` 1816
 och `Brita Stina Jansdotter` 1821 heter `Jans`-. Akterna varnade riktigt mot
-att göra Jan Ericson till de tre förstas far. **Följden framlänges var aldrig
-dragen:** han uppges född 1791 och var alltså **femton år** när det äldsta av
+att göra Jan Ericson till de tre förstas far. Följden framlänges var aldrig
+dragen: han uppges född 1791 och var alltså **femton år** när det äldsta av
 dem föddes.
 
 Om de tre är **din mors** barn var hon gift förut, med en Anders, och då är
-de dina **halvsyskon på mödernet** — och giftermålet mellan dina föräldrar
-faller mellan **april 1812 och augusti 1816**. **Detta är en hypotes, inte en
-slutsats.** Ingen tidigare make skapas, inga person-id skapas, och **ingen
-syskon- eller halvsyskonrelation införs i din akt**; ett patronymikon är ett
+de dina halvsyskon på mödernet — och giftermålet mellan dina föräldrar
+faller mellan april 1812 och augusti 1816. Detta är en hypotes, inte en
+slutsats. Ingen tidigare make skapas, inga person-id skapas, och ingen
+syskon- eller halvsyskonrelation införs i din akt; ett patronymikon är ett
 indicium om en far, inte om vilken mor.
 
 **En tredje uppgift är svagare men konkret.** Bland dina fyra dopvittnen står

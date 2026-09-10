@@ -25,8 +25,8 @@ hennes egen lysningsrad 1876, där födelseuppgiften skrivs `49 ³/₈`
 Hon är därefter följd som piga i Helgesta, som brud i Gryt och som hustru i
 Hyltinge fram till 1910.
 
-Identitetsankaret är alltså starkt, men **identitetsnivån är ändå inte godkänd
-i denna granskning**. Två av de sju grindkraven brister konkret: hennes egna
+Identitetsankaret är alltså starkt, men identitetsnivån är ändå inte godkänd
+i denna granskning. Två av de sju grindkraven brister konkret: hennes egna
 rader i de tre hushållslängderna är bara delvis utvunna och dittodatumen i
 hennes två egna flyttposter 1874 är aldrig upplösta (PK-05), och två av de
 källställen som bär hennes senare liv saknar bevarad reproduktion (PK-11).
@@ -69,10 +69,10 @@ den är inte belagd och skapar ingen relation här.
 | A-0476 | Hon växte upp i en brukssmedsfamilj, inte i en bondefamilj. | TRANSCRIBED | medel | [C-0087](../citations/C-0087-adela-amalia-urbom-fodelse-1849.md), [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md) | Följer av faderns yrke och av boställena Spånga bruk och Hjulfabriken. Det är en miljöslutsats om hushållet, inte en belagd uppgift om hennes eget arbete. |
 | A-0485 | Hon bodde 1900 med familjen i Rudstugan i Hyltinge. | TRANSCRIBED | hög | [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md) | Namnformen skrivs här `Adel Amalia`. Uppgiften gäller räkningsdagen 31 december 1900, inte en obruten vistelse mellan räkningsåren. |
 | A-0497 | Hon uppgavs vara 40 år i juni 1890, vilket stämmer med födelsen 1849-08-03. | TRANSCRIBED | hög | [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | I samma post är hennes förnamn felskrivet som Hulda Amalia. Åldersuppgiften är det som binder raden till henne. |
-| A-0503 | Hon var piga vid Bergastugan i Helgesta och flyttade därifrån 1874 till Högtorp i Gryt. | CORROBORATED | hög | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md), [C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md) | Reciproka egna rader: Helgesta B/2 post 21 med folio 58, Gryt B/2 post 84. **Dagen är inte utvunnen** — datumcellen är ett ditto i båda posterna och kedjan är aldrig följd för just hennes rader. Sluter ändå luckan mellan födelsen 1849 och vigseln 1876. |
+| A-0503 | Hon var piga vid Bergastugan i Helgesta och flyttade därifrån 1874 till Högtorp i Gryt. | CORROBORATED | hög | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md), [C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md) | Reciproka egna rader: Helgesta B/2 post 21 med folio 58, Gryt B/2 post 84. Dagen är inte utvunnen — datumcellen är ett ditto i båda posterna och kedjan är aldrig följd för just hennes rader. Sluter ändå luckan mellan födelsen 1849 och vigseln 1876. |
 | A-0465 | Hon bodde 1910 med maken i Valsta i Hyltinge. | TRANSCRIBED | hög | [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | Födelseåret 1849 och födelseorten Västra Vingåker är identiska med utdraget 1890; de två utdragen är dock beroende avskrifter, inte oberoende observationer. |
 | A-1747 | Två successiva Bettna-längder återger Adela Amalia med födelsedatumet 1849-08-03 i familjen Urbom–Ajax och visar hennes sju namngivna syskon. | CORROBORATED | hög | [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md), [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md) | Samma datum som i hennes egen födelsenotis. De sju gäller Bettna-böckerna; den samlade syskonskaran är åtta sedan Frans Ludwig Gotthard tillkommit i Husby-Oppunda 1862 ([C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md)). |
-| A-1767 | Hon bodde med föräldrar och syskon vid Hjulfabriken i Husby-Oppunda och hennes rad hänvisas internt till Dymmelsta, sida 68. | TRANSCRIBED | hög | [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md) | Hänvisningen saknar årtal och är en **foliohänvisning, inte ett utflyttningsår 1868** (rättat i C-0277:s T-0135-tillägg). Den är hennes sista lästa barndomsankare och är aldrig följd. |
+| A-1767 | Hon bodde med föräldrar och syskon vid Hjulfabriken i Husby-Oppunda och hennes rad hänvisas internt till Dymmelsta, sida 68. | TRANSCRIBED | hög | [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md) | Hänvisningen saknar årtal och är en foliohänvisning, inte ett utflyttningsår 1868 (rättat i C-0277:s T-0135-tillägg). Den är hennes sista lästa barndomsankare och är aldrig följd. |
 | A-2163 | De registerstyrda Valsta-sidorna i Hyltinge A II a/2 och A II a/3 återger inte Ålund-hushållet, trots den positiva folkräkningsposten 1910. | TRANSCRIBED | hög | [C-0430](../citations/C-0430-hyltinge-AIIa2-AIIa3-valsta-lokaliseringsnoll.md) | Sidbundet lokaliseringsnoll över sex målsidor och synlig källkonflikt; inte ett helvolymsnoll eller flyttbevis. Fem av de sex målsidorna saknar bevarad lokal fullbild. |
 | A-2161 | Hyltinge F/1:s hela årgångar 1911–1934 saknar en säker dödpost för henne. | TRANSCRIBED | hög | [C-0431](../citations/C-0431-hyltinge-F1-doda-1911-1934-negativ-alund-urbom.md) | Avgränsat församlingsnoll; dödstid och dödsort är fortsatt okända. Endast IIIF-manifestet är bevarat lokalt, inte de lästa bildföljderna. |
 | A-2164 | Hyltinge B/4:s samtliga utflyttningsposter 1910–1914 saknar en säker rad för Ålund-hushållet. | TRANSCRIBED | hög | [C-0432](../citations/C-0432-hyltinge-B4-utflyttade-1910-1914-negativ-alund.md) | År 1915 är inte färdigläst och ingår inte i resultatet; det är seriens sista utflyttningsårgång. Samtliga 23 lästa bilder finns bevarade lokalt. |
@@ -149,7 +149,7 @@ har lösts upp. Efter 1910 upphör spåret helt.
 | 1849 | Västra Vingåker | Spånga bruk | [C-0087](../citations/C-0087-adela-amalia-urbom-fodelse-1849.md) | Föräldrarnas hemvist i födelsenotisen. |
 | 1850–1859 | Wingåker → Bettna → Husby | Touluse | [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md), [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md) | Hushållets in- och utflyttningskolumner daterar bokföringen, inte den fysiska flyttdagen. |
 | 1861–1865 | Husby-Oppunda | Hjulfabriken; intern hänvisning Dymmelsta sida 68 | [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md) | Sista lästa barndomsboställe. Hänvisningen är ett folio, inte ett årtal, och är aldrig följd. |
-| omkring 1871–1874 | Helgesta | Bergastugan, folio 58 i A I/17 | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md) | Sidan är **inte läst**, trots att volymen är åtkomlig och redan använd för sida 8 ([C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md)). |
+| omkring 1871–1874 | Helgesta | Bergastugan, folio 58 i A I/17 | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md) | Sidan är inte läst, trots att volymen är åtkomlig och redan använd för sida 8 ([C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md)). |
 | 1874 | Helgesta → Gryt | Högtorp | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md), [C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md) | Samma år flyttar Per Albert till Jordanstorp och Fredrik Wilhelm Ålund med hustru till Högtorp, båda från Helgesta. Hennes egen dag är inte utvunnen. |
 | 1877–1879 | Gryt | Djupnäs, folio 162 | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md), [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md) | Djupnäs är familjens hemvist i födelseposten. |
 | 1879–1890 | Gryt → Hyltinge | Valsund; hushållsfolio 102 | [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md), [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md) | Folio 102 är oläst. Mellanåren 1879–1890 är inte belagda i någon läst hushållsbok. |
@@ -195,7 +195,7 @@ system; maken har ingen belagd militär anknytning.
 | Egen födelse- och dopnotis | 1849-08-03 | Riksarkivet, Västra Vingåker C/12, bild `F0003781_00023` | [C-0087](../citations/C-0087-adela-amalia-urbom-fodelse-1849.md) | Fullbild med SHA-256 i citationen |
 | Egen utflyttningsrad | 1874 | Riksarkivet, Helgesta B/2, bild `F0003389_00038` | [C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md) | Fullbild med SHA-256 i citationen |
 | Egen inflyttningsrad | 1874 | Riksarkivet, Gryt B/2, bild `A0016344_00037` | [C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md) | Fullbild med SHA-256 i citationen |
-| Egen lysnings- och vigselpost | 1876 | Riksarkivet, Gryt C/5, bild `A0012148_00132` | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | **Saknas lokalt** — citationen har varken bevarad fullbild eller SHA-256 |
+| Egen lysnings- och vigselpost | 1876 | Riksarkivet, Gryt C/5, bild `A0012148_00132` | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Saknas lokalt — citationen har varken bevarad fullbild eller SHA-256 |
 | Egna rader i tre föräldrahushåll | 1851–1865 | Riksarkivet, Bettna A I/13 b och A I/14 b, Husby-Oppunda A I/16 | [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md), [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md), [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md) | Fullbilder med SHA-256 i citationerna |
 | Egna rader i tre folkräkningsutdrag | 1890, 1900, 1910 | Riksarkivet, Hyltinge | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md), [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | Fullbilder med SHA-256 i citationerna |
 | Negativa och sidbundna kontroller | 1876, 1911–1934, 1910–1914 | Riksarkivet, Västra Vingåker E I/4, Hyltinge F/1, B/4 och A II a/2–3 | [C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md), [C-0431](../citations/C-0431-hyltinge-F1-doda-1911-1934-negativ-alund-urbom.md), [C-0432](../citations/C-0432-hyltinge-B4-utflyttade-1910-1914-negativ-alund.md), [C-0430](../citations/C-0430-hyltinge-AIIa2-AIIa3-valsta-lokaliseringsnoll.md) | C-0432 har 23 fullbilder; C-0431 endast IIIF-manifest; C-0430 saknar fem av sex målsidor lokalt |
@@ -285,7 +285,7 @@ familj hänvisas till 1890 är fortfarande outvunna.
 
 Se [profilens frågor och källvägar](../research-profiles/P-0111.md#forskningsfrågor).
 
-- **Outvunna egna rader.** Hennes rader i
+- Outvunna egna rader. Hennes rader i
   [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md),
   [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md) och
   [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md) är bara
@@ -293,7 +293,7 @@ Se [profilens frågor och källvägar](../research-profiles/P-0111.md#forsknings
   förhörs-, nattvards- och flyttceller på hennes egen rad är inte lästa, medan
   samma fält är utvunna för modern, fadern och systern Hulda Amanda. Sidorna
   är lästa och lokalt bevarade, så arbetet kräver ingen ny arkivåtkomst.
-- **Olösta dittodatum.** Datumcellen är ett upprepningstecken både i hennes
+- Olösta dittodatum. Datumcellen är ett upprepningstecken både i hennes
   utflyttningspost i Helgesta ([C-0095](../citations/C-0095-adela-amalia-utflyttning-helgesta-1874.md),
   post 21) och i hennes inflyttningspost i Gryt
   ([C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md), post 84).
@@ -312,7 +312,7 @@ Se [profilens frågor och källvägar](../research-profiles/P-0111.md#forsknings
 - **Konflikt som bevaras:** råtalen 27/28 i moderns ålderskolumn 1877 och det
   felskrivna förnamnet `Hulda Amalia` i sonens födelsepost 1890. Ingen av dem
   ifrågasätter identiteten, och ingen av dem harmoniseras bort.
-- **Obelagd hypotes som inte får propageras:** Karolina Wilhelmina Lundqvist,
+- Obelagd hypotes som inte får propageras: Karolina Wilhelmina Lundqvist,
   född Urbom 1842, i [C-0074](../citations/C-0074-karolina-wilhelmina-lundqvist-lugnet.md)
   hör till systern [P-0109](P-0109-caroline-lundqvist-dopvittne-1886.md)s
   kandidatfråga. Ingen relation skapas här.

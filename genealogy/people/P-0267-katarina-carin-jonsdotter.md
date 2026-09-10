@@ -252,8 +252,8 @@ Husförhörsböckerna uppger att Catharina föddes i Västra Ny 1792, men 21 mar
 
 ### Inkommande följdfynd från T-0173, 2026-09-09
 
-**Avgränsad följd, ingen ny arkivåtkomst och ingen omprövning av hennes akt i
-övrigt.** Fyndet kommer ur tre redan lästa citationer i kohorten T-0173 och
+Avgränsad följd, ingen ny arkivåtkomst och ingen omprövning av hennes akt i
+övrigt. Fyndet kommer ur tre redan lästa citationer i kohorten T-0173 och
 rör en enda uppgift: hennes födelsetid.
 
 **Tre av barnens födelseposter anger hennes ålder, och talen stämmer inbördes
@@ -261,20 +261,20 @@ exakt.**
 
 | Barn | Post | Datum | Hennes uppgivna ålder |
 |---|---|---|---|
-| Carolina | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | 1826-01-28 | **34** |
-| Anna Josephina | [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md) | 1828-09-04 | **36** |
-| Frans Ludvig | [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | 1830-05-09 | **38** |
+| Carolina | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | 1826-01-28 | 34 |
+| Anna Josephina | [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md) | 1828-09-04 | 36 |
+| Frans Ludvig | [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | 1830-05-09 | 38 |
 
-Talen var utvunna var för sig i T-0141 men **aldrig jämförda som en serie**.
+Talen var utvunna var för sig i T-0141 men aldrig jämförda som en serie.
 De ger +2 år över två år, två gånger, i tre oberoende poster. Serien är
 därför en **konsistenskontroll** som visar att de tre posterna är förda i
 samma korrekta följd, och den ger hennes födelsetid till omkring
-**1791–1792**.
+1791–1792.
 
 **Detta är en inkommande uppgift, inte en rättelse av hennes akt.** Hennes
 egna hushållsuppgifter — `V. Ny 1792 21/4` i A I/8 enligt T-0135:s rättade
 avskrift, mot `1792 21/3` i A I/6 och `1792 21/4` i Hammar A I/3 b — är
-oförändrade, och åldersserien **motsäger dem inte**: 1791–1792 rymmer dem
+oförändrade, och åldersserien motsäger dem inte: 1791–1792 rymmer dem
 båda. Serien tillför att de tre barnposterna är inbördes konsistenta, vilket
 tidigare inte var prövat.
 

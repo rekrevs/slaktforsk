@@ -66,14 +66,14 @@ hushållskontinuitet, inte genom att räkna om samma datum.
 | A-3404 | Hon bodde på Ytterhiske N:o 2 i Umeå landsförsamling från inflyttningen 1917-11-15 till överföringen till Umeå stad 1925-01-01; åtta barn kom med henne och maken samma dag, medan tio barn är bokförda på uppslaget under perioden. | CORROBORATED | mycket hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | Antalet rättat 2026-09-08. Inflyttningslängden namnger henne inte utan räknar henne bland tre kvinnkön i post 208. |
 | A-3405 | Församlingsboken skriver henne `h. Ida Sofia, f. Andersd.` född 1867-12-15 i Degerfors. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Upprepar A-0166 i en samtida bok 1917; uppgiften är överförd från Degerfors, inte oberoende inhämtad. |
 | A-3441 | Hon överlevde maken och fördes 1941-08-23 vidare från uppslag 1839 till uppslag 1704 i Umeå stads församlingsbok, tillsammans med sonen Ludvig Emanuel och sonen Petrus Nikolaus familj. | TRANSCRIBED | hög | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Överföringen står i hennes egen utflyttningskolumn. |
-| A-3571 | **Hon dog 1944-07-11** i Umeå stadsförsamling, 76 år gammal, på uppslag 1704 dit hon fördes 1941-08-23. | CORROBORATED | mycket hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Originalbelägger och preciserar sekundärträdets årtal 1944 till dag. Dödboken är oläst; dödsorsak och begravning återstår. |
-| A-3572 | **Hon skrevs `Hem.äg. änka` — hemmansägare i eget namn** i församlingsboken 1941–1952; hennes egen rad anger änkeståndet från 1935-04-09. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Lydelsen preciserad 2026-09-08: beteckningen står i den bok som öppnades 1941, inte i 1925–1941 års bok, där hennes yrkeskolumn är tom. |
-| A-3573 | Marginalanteckningen anger hennes jordinnehav till **⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1** i Ytterhiske. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Gör mantals- och lagfartsmaterial till en saklig källfamilj för henne. Samma mantalsnot står redan 1917 och 1925, se A-5470. |
-| A-3657 | Det jordinnehav hon som änka skrevs för på Ytterhiske omfattade **stadsägorna 1266, 1267, 1268, 1269, 1383, 1384 och 1428**, enligt Umeå stadsförsamlings stadsägeregister, där maken står som hemmansägare. | CORROBORATED | hög | [C-0981](../citations/C-0981-zingmarks-stadsagor-ytterhiske.md) | Preciserar `⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1` med stadens egna fastighetsnummer. Församlingsböckernas avvikande nummer 1258 kvarstår som konflikt, se A-5472. |
+| A-3571 | Hon dog 1944-07-11 i Umeå stadsförsamling, 76 år gammal, på uppslag 1704 dit hon fördes 1941-08-23. | CORROBORATED | mycket hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Originalbelägger och preciserar sekundärträdets årtal 1944 till dag. Dödboken är oläst; dödsorsak och begravning återstår. |
+| A-3572 | Hon skrevs `Hem.äg. änka` — hemmansägare i eget namn i församlingsboken 1941–1952; hennes egen rad anger änkeståndet från 1935-04-09. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Lydelsen preciserad 2026-09-08: beteckningen står i den bok som öppnades 1941, inte i 1925–1941 års bok, där hennes yrkeskolumn är tom. |
+| A-3573 | Marginalanteckningen anger hennes jordinnehav till ⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1 i Ytterhiske. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Gör mantals- och lagfartsmaterial till en saklig källfamilj för henne. Samma mantalsnot står redan 1917 och 1925, se A-5470. |
+| A-3657 | Det jordinnehav hon som änka skrevs för på Ytterhiske omfattade stadsägorna 1266, 1267, 1268, 1269, 1383, 1384 och 1428, enligt Umeå stadsförsamlings stadsägeregister, där maken står som hemmansägare. | CORROBORATED | hög | [C-0981](../citations/C-0981-zingmarks-stadsagor-ytterhiske.md) | Preciserar `⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1` med stadens egna fastighetsnummer. Församlingsböckernas avvikande nummer 1258 kvarstår som konflikt, se A-5472. |
 | A-4303 | I moderns bouppteckning den 23 augusti 1898 namnges hon som dottern Ida Sofia, gift med sågverksförmannen J. O. Zingmark. | TRANSCRIBED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) | Omläst bevarad fullbild i T-0129. Ingen ny personidentitet skapas; hennes eget födelsedatum står inte i akten. |
 | A-5470 | Umeå landsförsamlings församlingsbok 1917–1931 bär redan en blyertsanteckning om jordinnehavet: på hennes egen rad 13 står `¹¹/₆₄ mtl` med `N:r 1`, och i vänstermarginalen vid makens rad 12 står en motsvarande `⅛ mtl … 2`. | TRANSCRIBED | medel | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Den marginalanteckning som citationen lämnade oläst är nu läst i den lokalt sparade helbilden `00206295_00175`. Blyertsen är blek och det inledande tecknet på andra raden är inte säkert läst. Innehavet är alltså bokfört från 1917, inte först 1944. |
 | A-5471 | Hennes hushållsblock på uppslag 1704 bär fastighets- och adressrubriken `Stg 1258 Kvarnväg 5`; adressen 1941-08-23 till 1944-07-11 var alltså Kvarnvägen 5 på Ytterhiske i Umeå stad. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Läst i den lokalt sparade helbilden `00206425_00015`. Rubriken står på den tomma raden 23 direkt ovanför hennes och sonens rader. Adressen fanns inte i någon akt tidigare. |
-| A-5472 | Umeå stadsförsamlings båda församlingsböcker skriver gårdens stadsägonummer tydligt som **1258**, medan stadsägeregistret ger Zingmarks innehav numren 1266, 1267, 1268, 1269, 1383, 1384 och 1428; på samma uppslag 1704 skrivs sonens hushåll på Kvarnvägen 7 till `Stg. 1267 = Plogen 4`. | CONFLICT | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0981](../citations/C-0981-zingmarks-stadsagor-ytterhiske.md) | Femman i 1258 är entydig i 1941 års bok och står i samma hand som femman i `Kvarnväg 5`. De två boklydelserna är en enda kopierad informationsväg, inte två röster. Numret 1268 i registret är sakligt det troliga, men förklaringen att en femma lästs som sexa bär inte; konflikten bevaras. |
+| A-5472 | Umeå stadsförsamlings båda församlingsböcker skriver gårdens stadsägonummer tydligt som 1258, medan stadsägeregistret ger Zingmarks innehav numren 1266, 1267, 1268, 1269, 1383, 1384 och 1428; på samma uppslag 1704 skrivs sonens hushåll på Kvarnvägen 7 till `Stg. 1267 = Plogen 4`. | CONFLICT | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0981](../citations/C-0981-zingmarks-stadsagor-ytterhiske.md) | Femman i 1258 är entydig i 1941 års bok och står i samma hand som femman i `Kvarnväg 5`. De två boklydelserna är en enda kopierad informationsväg, inte två röster. Numret 1268 i registret är sakligt det troliga, men förklaringen att en femma lästs som sexa bär inte; konflikten bevaras. |
 | A-5473 | Hennes egen rad 24 på uppslag 1704 anger i änkekolumnen `35 ⁹/₄` och i överföringskolumnen `G.B. 1839`. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Egna radfält som citationens avskrift inte tog upp. Änkeståndet 1935-04-09 är alltså bokfört på hennes egen rad, inte bara i makens dödskolumn i den föregående boken. |
 | A-5474 | Hennes egen anteckningscell på uppslag 1704 innehåller endast `Änka efter hem.äg. Johan Oskar Zingmark`; den långa anteckningen om ett lagstadgat erkännande av trolovningsbarn födda 1940-10-06 och 1942-10-10 står på rad 25, sonen Ludvig Emanuels rad. | TRANSCRIBED | hög | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) | Rättar den tidigare läsningen som förde datumet `¹⁰/₁₀ 1942` till hennes egen rad. Radgränsen är kontrollerad mot radnumren 24 och 25 i den sparade helbilden. |
 | A-5475 | Folkräkningsbladet 1930 är rubricerat `Utdrag ur Församlingsboken för Umeå stads förs.` per den 31 december 1930 och anger uppslag 1839; hennes egna inkomst- och förmögenhetsceller är tomma, och talen 2 800 kronor och 43 000 kronor står på hushållsföreståndarens rad. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Bladet är därmed ett härlett utdrag ur samma församlingsbok som C-0916 och inte ett oberoende belägg vid sidan av den. Tomma celler är källgränser, inte belagd inkomstlöshet. |
@@ -140,7 +140,7 @@ hushållspersoner, inte släkt.
 | 1935-04-09 | Maken dör; änka | Ytterhiske, Umeå stad | — | — | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) |
 | 1941-08-23 | Överförd från uppslag 1839 till uppslag 1704 | Umeå stad | — | sonen Ludvig Emanuel och sonen Petrus Nikolaus familj | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) |
 | 1941-08-23–1944-07-11 | `Hem.äg. änka`; ⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1; adress Kvarnvägen 5 | Ytterhiske, Umeå stad | hemmansägare, änka | sonen Ludvig Emanuel | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) |
-| 1944-07-11 | **Död**, 76 år gammal | Umeå stadsförsamling | hemmansägare, änka | — | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) |
+| 1944-07-11 | Död, 76 år gammal | Umeå stadsförsamling | hemmansägare, änka | — | [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md) |
 
 Livslinjen är sammanhängande från födelsen till döden. Den saknar däremot
 utvunnet innehåll ur en dödbok, och åren mellan de lästa hållpunkterna vilar på
@@ -235,8 +235,8 @@ utbetalning till henne är inte belagd
 ([C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md),
 [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md)).
 
-Familjen lämnade Rosinedahl 1917-11-15 för **Ytterhiske N:o 2 i Umeå
-landsförsamling**, där maken skrevs hemmansägare redan vid inflyttningen. På
+Familjen lämnade Rosinedahl 1917-11-15 för Ytterhiske N:o 2 i Umeå
+landsförsamling, där maken skrevs hemmansägare redan vid inflyttningen. På
 hennes egen rad i den boken står en blyertsnot om gårdens mantal, vilket visar
 att jordinnehavet var bokfört från början och inte först vid änketiden. År
 1925-01-01 fördes fastigheten över till Umeå stad när staden utvidgades; det var
@@ -250,9 +250,9 @@ oberoende källa — stod hushållets inkomst 2 800 kronor och förmögenhet
 ([C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md)).
 
 Maken dog 1935-04-09, och i den församlingsbok som öppnades 1941 skrivs Ida
-Sofia **`Hem.äg. änka`** med jordinnehavet **⅛ mantal nr 2 och ¹¹/₆₄ mantal
-nr 1** — en egen yrkesbeteckning och ett eget jordinnehav, ovanligt för en änka
-i bokföringen. Hushållet bodde på **Kvarnvägen 5**, och stadens eget
+Sofia `Hem.äg. änka` med jordinnehavet ⅛ mantal nr 2 och ¹¹/₆₄ mantal
+nr 1 — en egen yrkesbeteckning och ett eget jordinnehav, ovanligt för en änka
+i bokföringen. Hushållet bodde på Kvarnvägen 5, och stadens eget
 stadsägeregister visar att gården omfattade sju stadsägor i Ytterhiske. Hon dog
 där **1944-07-11**, sjuttiosex år gammal, och sonen Ludvig Emanuel stod kvar
 som hemmansägare på samma uppslag
@@ -270,15 +270,15 @@ stadsägeregistret — är en bevarad konflikt.
 
 - Öppna frågor, källvägar och tio livsteman finns i
   [forskningsprofilen](../research-profiles/P-0029.md#forskningsfrågor).
-- **Stadsägonumret.** Församlingsböckerna skriver tydligt `1258`, medan
+- Stadsägonumret. Församlingsböckerna skriver tydligt `1258`, medan
   stadsägeregistret ger 1266–1269, 1383, 1384 och 1428. Konflikten bevaras;
   bokledet är en enda kopierad informationsväg (A-5472, profilens Q-03).
-- **Vigseldatumet.** Degerfors A II a/6 skriver `88 ⁷/₇` mot vigselbokens
+- Vigseldatumet. Degerfors A II a/6 skriver `88 ⁷/₇` mot vigselbokens
   1888-07-01 (A-5479). Den samtida vigselboken väger tyngst.
-- **Hildur Aleksandra Zingmark.** En dotterrad i hennes eget hushåll 1917 som
+- Hildur Aleksandra Zingmark. En dotterrad i hennes eget hushåll 1917 som
   inte kan förenas med den kända barnaskaran; identiteten hålls separat
   ([P-0529](P-0529-hildur-aleksandra-zingmark.md)).
-- **Födelsedagarna för de två yngsta döttrarna** avviker mellan Degerfors
+- Födelsedagarna för de två yngsta döttrarna avviker mellan Degerfors
   A II a/3 och Umeå landsförsamlings bok; ingen födelsebok är läst.
 - **Materiellt öppna passager:** bouppteckningen efter henne 1944 vid Umeå
   rådhusrätt och Riksarkivets bouppteckningsregisters faktiska täckning för

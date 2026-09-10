@@ -3,71 +3,71 @@
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0190.
-  **Minimiläge enligt PCD-2026-09-09-030:** löst anknuten person — **en
-  uppgift i en privat sammanställning utan synliga källhänvisningar.** Kort
-  text, tio teman bedömda men inte utbyggda, **ingen livsbildsforskning
-  startas.**
+  **Minimiläge enligt PCD-2026-09-09-030:** löst anknuten person — en
+  uppgift i en privat sammanställning utan synliga källhänvisningar. Kort
+  text, tio teman bedömda men inte utbyggda, ingen livsbildsforskning
+  startas.
 - Profil: [P-0205](../research-profiles/P-0205.md) — daterad PK-bedömning, tio
   teman, söknycklar och källvägar.
 - Identitetsnivå **`UNDERKÄND`**, `Identitetsläge: OLÖST`;
   `Trädverkan: EJ BÄRANDE`. Full nivå `UNDERKÄND`.
-- **Aktens hela innehåll är en rad i en privat antavla.** Raden är fullt
+- Aktens hela innehåll är en rad i en privat antavla. Raden är fullt
   utvunnen; se A-7883.
 
 ## Identitet
 
-Maria Christina Hansdotter är **uppgiven dotter till Hans Nilsson och Anna Christina Jonsdotter, född 1834-08-11 och död 1836-10-03 i Åkullsjön** enligt en privat antavla på internet, läst
+Maria Christina Hansdotter är uppgiven dotter till Hans Nilsson och Anna Christina Jonsdotter, född 1834-08-11 och död 1836-10-03 i Åkullsjön enligt en privat antavla på internet, läst
 2026-08-20 och bevarad som skärmbild.
 
-**Fem led:** två förnamn, patronymikonet och **två exakta datum två år isär** — född 1834-08-11, död 1836-10-03.
+**Fem led:** två förnamn, patronymikonet och två exakta datum två år isär — född 1834-08-11, död 1836-10-03.
 
-**Hon är den enda i den sekundära gruppen vars namn är belagt i en
-originalkälla — fast för en annan person.** Sammanställningen listar **två**
+Hon är den enda i den sekundära gruppen vars namn är belagt i en
+originalkälla — fast för en annan person. Sammanställningen listar **två**
 döttrar med nästan samma namn: hon själv 1834–1836 och `Maria Kristina
-Hansdotter` född **1840-10-17**. **Den senare är antavlans
-[P-0095](P-0095-maria-christina-hansdotter.md)**, och hennes födelsedatum är
+Hansdotter` född 1840-10-17. Den senare är antavlans
+[P-0095](P-0095-maria-christina-hansdotter.md), och hennes födelsedatum är
 belagt i originalnotisen
-[C-0121](../citations/C-0121-maria-christina-fodelse-1840.md) — **exakt det
-datum sammanställningen ger.**
+[C-0121](../citations/C-0121-maria-christina-fodelse-1840.md) — exakt det
+datum sammanställningen ger.
 
 **Hennes eget namn är därför både hennes styrka och hennes risk.**
-Uppkallelse efter ett dött syskon var tidens vanligaste bruk och **förklarar
-varför två av elva barn bär nästan samma namn** — men **det gör också att en
-felläst årtalssiffra kan slå ihop de två systrarna.** Akten hålls uttryckligen
+Uppkallelse efter ett dött syskon var tidens vanligaste bruk och förklarar
+varför två av elva barn bär nästan samma namn — men det gör också att en
+felläst årtalssiffra kan slå ihop de två systrarna. Akten hålls uttryckligen
 skild från P-0095, och den skillnaden är hela dess uppgift.
 
 **Hennes uppgift är prövbar i två årgångar**, 1834 och 1836, i samma
 volymserie som redan är läst för systerns födelse 1840.
 
-`Trädverkan: EJ BÄRANDE`: **ingen anlinje passerar personen** — uppgiften gäller ett syskon till antavlans [P-0095](P-0095-maria-christina-hansdotter.md), inte en förfader.
+`Trädverkan: EJ BÄRANDE`: ingen anlinje passerar personen — uppgiften gäller ett syskon till antavlans [P-0095](P-0095-maria-christina-hansdotter.md), inte en förfader.
 
 ## Namnformer
 
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
-| `Maria Christina Hansdotter` | sammanställningens form | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | **En modern sammanställnings stavning**, inte en samtida källas. Varje sökning måste tåla tidens egna former. |
+| `Maria Christina Hansdotter` | sammanställningens form | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | En modern sammanställnings stavning, inte en samtida källas. Varje sökning måste tåla tidens egna former. |
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-0784 | En privat ansedel anger att Maria Christina Hansdotter föddes 1834-08-11 i Åkullsjön och dog 1836-10-03 i Åkullsjön, Bygdeå. | LEAD | låg | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Två sidor ur samma databas; ingen originalkontroll i denna våg. |
-| A-7883 | **Raden i sammanställningen är fullt utvunnen.** **Fem led:** två förnamn, patronymikonet och **två exakta datum två år isär** — född 1834-08-11, död 1836-10-03. | LEAD | låg | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Konsoliderat 2026-09-10 i T-0190. **Ingen ny arkivsökning och ingen ny läsning.** **Uppgiften står kvar som `LEAD` med tillförlitlighet `låg`**, eftersom sidan saknar synliga källhänvisningar **och motsägs av originalet där den kan prövas**: dess fadderlista för Hans Nilsson namnger tre helt andra personer än [C-0129](../citations/C-0129-hans-nilsson-fodelse-1800.md). |
+| A-7883 | Raden i sammanställningen är fullt utvunnen. Fem led: två förnamn, patronymikonet och två exakta datum två år isär — född 1834-08-11, död 1836-10-03. | LEAD | låg | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Konsoliderat 2026-09-10 i T-0190. Ingen ny arkivsökning och ingen ny läsning. Uppgiften står kvar som `LEAD` med tillförlitlighet `låg`, eftersom sidan saknar synliga källhänvisningar och motsägs av originalet där den kan prövas: dess fadderlista för Hans Nilsson namnger tre helt andra personer än [C-0129](../citations/C-0129-hans-nilsson-fodelse-1800.md). |
 
 ## Relationer
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0158 Hans Nilsson](P-0158-hans-nilsson-akullsjon.md) | **uppgiven far** — sekundär uppgift, **inte införd i den verifierade antavlan** | Åkullsjön, Bygdeå | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
-| [P-0159 Anna Christina Jonsdotter](P-0159-anna-stina-jonsdotter-akullsjon.md) | **uppgiven mor** — sekundär uppgift, **inte införd i den verifierade antavlan** | Åkullsjön, Bygdeå | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
-| tio uppgivna syskon i samma lista, varav [P-0095 Maria Christina Hansdotter](P-0095-maria-christina-hansdotter.md) är **belagd i originalkälla** | **uppgivna syskon** — samma sekundära lista | Åkullsjön, Bygdeå | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| [P-0158 Hans Nilsson](P-0158-hans-nilsson-akullsjon.md) | uppgiven far — sekundär uppgift, inte införd i den verifierade antavlan | Åkullsjön, Bygdeå | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| [P-0159 Anna Christina Jonsdotter](P-0159-anna-stina-jonsdotter-akullsjon.md) | uppgiven mor — sekundär uppgift, inte införd i den verifierade antavlan | Åkullsjön, Bygdeå | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| tio uppgivna syskon i samma lista, varav [P-0095 Maria Christina Hansdotter](P-0095-maria-christina-hansdotter.md) är belagd i originalkälla | uppgivna syskon — samma sekundära lista | Åkullsjön, Bygdeå | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
 
 ## Tidslinje
 
 | Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
 |---|---|---|---|---|---|
-| enligt sammanställningen | **uppgiven dotter till Hans Nilsson och Anna Christina Jonsdotter, född 1834-08-11 och död 1836-10-03 i Åkullsjön** | Bygdeå | — | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
-| i övrigt | **helt obelagt i originalkälla** | — | — | — | — |
+| enligt sammanställningen | uppgiven dotter till Hans Nilsson och Anna Christina Jonsdotter, född 1834-08-11 och död 1836-10-03 i Åkullsjön | Bygdeå | — | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| i övrigt | helt obelagt i originalkälla | — | — | — | — |
 
 **Aktens hela kronologi kommer ur en modern sammanställning.** Ingen
 originalhandling är läst för denna person.
@@ -76,74 +76,74 @@ originalhandling är läst för denna person.
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| enligt sammanställningen | de orter som anges i rollraden ovan | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | **Sammanställningens orter är sekundära** och har inte prövats mot någon kyrkobok. |
+| enligt sammanställningen | de orter som anges i rollraden ovan | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Sammanställningens orter är sekundära och har inte prövats mot någon kyrkobok. |
 | — | inga flyttningar anges | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Sidan visar en antavla, inte en livslinje. |
 
 ## Yrke, utbildning och ekonomi
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| — | **ingen ståndsbeteckning och ingen sysselsättning anges** | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Sidan ger yrkesuppgift för några personer men **inte för denna.** |
-| — | ingen ekonomisk uppgift | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | **Ingen yta öppnas i minimiläge.** |
+| — | ingen ståndsbeteckning och ingen sysselsättning anges | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Sidan ger yrkesuppgift för några personer men inte för denna. |
+| — | ingen ekonomisk uppgift | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Ingen yta öppnas i minimiläge. |
 
 ## Militärt, civilt och rättsligt
 
 | Tid | Uppgift | Förband/myndighet/mål | Belägg | Kommentar |
 |---|---|---|---|---|
-| — | **ingen uppgift om ställning i församlingen** | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Källformen är en modern sammanställning, inte en samtida handling. |
-| — | ingen militär eller rättslig uppgift | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | **Ingen slutsats dras ur frånvaron.** |
+| — | ingen uppgift om ställning i församlingen | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Källformen är en modern sammanställning, inte en samtida handling. |
+| — | ingen militär eller rättslig uppgift | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | Ingen slutsats dras ur frånvaron. |
 
 ## Hälsa och död
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
 | enligt sammanställningen | de datum som anges i rollraden ovan | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | **Sekundära datum utan källhänvisning.** De står kvar som `LEAD`. |
-| — | **ingen originalpost är läst** | — | Det är hela skälet till att identitetsnivån faller. |
+| — | ingen originalpost är läst | — | Det är hela skälet till att identitetsnivån faller. |
 
 ## Media och personliga källor
 
 | Objekt | Datum | Upphov/provenans | Citation | Lokal fil |
 |---|---|---|---|---|
-| privat ansedel för Hans Nilsson | läst 2026-08-20, fullsida bevarad 2026-08-21 | `anor.pchemma.nu`, 1 728 × 1 313 px — **skärmbild av en sekundärdatabas utan synliga källhänvisningar** | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | [pchemma, Hans Nilsson](../media/C-0133-pchemma-hans-nilsson.jpg) |
-| privat ansedel för Anna Christina Jonsdotter | läst 2026-08-20, fullsida bevarad 2026-08-21 | `anor.pchemma.nu`, 1 728 × 1 169 px — **samma databas, inte en oberoende källa** | [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | [pchemma, Anna Christina Jonsdotter](../media/C-0134-pchemma-anna-christina-jonsdotter.jpg) |
+| privat ansedel för Hans Nilsson | läst 2026-08-20, fullsida bevarad 2026-08-21 | `anor.pchemma.nu`, 1 728 × 1 313 px — skärmbild av en sekundärdatabas utan synliga källhänvisningar | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | [pchemma, Hans Nilsson](../media/C-0133-pchemma-hans-nilsson.jpg) |
+| privat ansedel för Anna Christina Jonsdotter | läst 2026-08-20, fullsida bevarad 2026-08-21 | `anor.pchemma.nu`, 1 728 × 1 169 px — samma databas, inte en oberoende källa | [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) | [pchemma, Anna Christina Jonsdotter](../media/C-0134-pchemma-anna-christina-jonsdotter.jpg) |
 
-Inget personligt material är känt, och **ingen samtida handling om personen
-är läst.**
+Inget personligt material är känt, och ingen samtida handling om personen
+är läst.
 
 ## Biografisk sammanfattning
 
-**Maria Christina Hansdotter är ingen belagd person utan en uppgift i en privat antavla.**
+Maria Christina Hansdotter är ingen belagd person utan en uppgift i en privat antavla.
 Sidan anger uppgiven dotter till Hans Nilsson och Anna Christina Jonsdotter, född 1834-08-11 och död 1836-10-03 i Åkullsjön, utan källhänvisning och utan att någon
-originalhandling har lästs. **Akten finns för att uppgiften ska kunna spåras
-och avgränsas** — inte för att personen är fastställd.
+originalhandling har lästs. Akten finns för att uppgiften ska kunna spåras
+och avgränsas — inte för att personen är fastställd.
 
-**Hon är den enda i den sekundära gruppen vars namn är belagt i en
-originalkälla — fast för en annan person.** Sammanställningen listar **två**
+Hon är den enda i den sekundära gruppen vars namn är belagt i en
+originalkälla — fast för en annan person. Sammanställningen listar **två**
 döttrar med nästan samma namn: hon själv 1834–1836 och `Maria Kristina
-Hansdotter` född **1840-10-17**. **Den senare är antavlans
-[P-0095](P-0095-maria-christina-hansdotter.md)**, och hennes födelsedatum är
+Hansdotter` född 1840-10-17. Den senare är antavlans
+[P-0095](P-0095-maria-christina-hansdotter.md), och hennes födelsedatum är
 belagt i originalnotisen
-[C-0121](../citations/C-0121-maria-christina-fodelse-1840.md) — **exakt det
-datum sammanställningen ger.**
+[C-0121](../citations/C-0121-maria-christina-fodelse-1840.md) — exakt det
+datum sammanställningen ger.
 
-**Sidan är samtidigt belagt riktig på en punkt och belagt fel på en annan.**
+Sidan är samtidigt belagt riktig på en punkt och belagt fel på en annan.
 Dess fadderlista för Hans Nilsson namnger tre helt andra personer än
 originalnotisen; men dess sista barn, `Maria Kristina Hansdotter`, uppges
-född **1840-10-17 i Åkullsjön** — **exakt vad originalnotisen ger för
-[P-0095](P-0095-maria-christina-hansdotter.md).** **Den måste därför prövas
-post för post**, inte godtas eller avfärdas i klump.
+född **1840-10-17 i Åkullsjön** — exakt vad originalnotisen ger för
+[P-0095](P-0095-maria-christina-hansdotter.md). Den måste därför prövas
+post för post, inte godtas eller avfärdas i klump.
 
 ## Forskningsfrågor och konflikter
 
-1. **Fanns en äldre Maria Christina 1834–1836?** Se profilens Q-01.
-2. **Sidan motsägs av originalet där den kan prövas.** Dess fadderlista för
+1. Fanns en äldre Maria Christina 1834–1836? Se profilens Q-01.
+2. Sidan motsägs av originalet där den kan prövas. Dess fadderlista för
    Hans Nilsson namnger tre helt andra personer än
-   [C-0129](../citations/C-0129-hans-nilsson-fodelse-1800.md). **Ingen uppgift
-   härifrån införs i den verifierade antavlan.**
-3. **Sidan är samtidigt verifierad på en punkt** — dotterns födelse
-   1840-10-17 — vilket gör den till en källa som måste **prövas post för
-   post.**
-4. **C-0133 och C-0134 är två visningar ur samma databas** och räknas **inte**
+   [C-0129](../citations/C-0129-hans-nilsson-fodelse-1800.md). Ingen uppgift
+   härifrån införs i den verifierade antavlan.
+3. Sidan är samtidigt verifierad på en punkt — dotterns födelse
+   1840-10-17 — vilket gör den till en källa som måste prövas post för
+   post.
+4. C-0133 och C-0134 är två visningar ur samma databas och räknas **inte**
    som oberoende källor.
 
 ## Historik och rättelser
@@ -154,12 +154,12 @@ en `## Påståenden`-tabell och en `## Relationer`-tabell; ingen tidslinje, inga
 namnformer och ingen profil fanns.
 
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse**, och
-**ingen har uppgraderats från `LEAD`.**
+ingen har uppgraderats från `LEAD`.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken saknade roll och år. Den lyder nu `P-0205: Maria Christina Hansdotter (1834–1836), uppgiven dotter`.
-**Filnamnet är oförändrat.** Ingen akt har delats och ingen identitet har
+Filnamnet är oförändrat. Ingen akt har delats och ingen identitet har
 slagits samman.
 
 ### Tidigare arbetsläge, historiskt

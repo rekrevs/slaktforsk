@@ -14,7 +14,7 @@
 
 Stina Cajsa Larsdotter är hustru i ett torparhushåll i Högsjö i Indal och mor i dottern Anna Stinas födelsenotis och barndomshushåll. Hennes **egen födelsenotis** i Sättna C/3 anger att hon föddes 17 september 1813 och döptes 26 september, och namnger föräldrarna torparen Lars Larsson och hustrun Anna Jonsdotter i Gårdtjärn. Samma exakta datum och samma socken följer henne på egen rad i Indal A I/6 Högsjö sida 92 under längden 1836–1846, i Indal A I/7 Högsjö sida 94 under längden 1847–1854 och i folkräkningsutdraget för Indals moder 1880. [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md), [C-0831](../citations/C-0831-indal-AI7-strandlund-foraldradata-rattelse.md), [C-0832](../citations/C-0832-folkrakning-1880-hogsjo-strandlundparet.md), [C-0836](../citations/C-0836-indal-AI5-AI6-hogsjo-familjekontroll.md)
 
-Sammanföringen vilar på ett **exakt datum och en socken**, inte på namnlikhet. De tre Indalsytorna hör dock till samma kyrkobokföringskedja och är en informationsväg; den oberoende rösten är hennes egen födelsenotis. Bryggan består därför av två vägar, inte tre.
+Sammanföringen vilar på ett exakt datum och en socken, inte på namnlikhet. De tre Indalsytorna hör dock till samma kyrkobokföringskedja och är en informationsväg; den oberoende rösten är hennes egen födelsenotis. Bryggan består därför av två vägar, inte tre.
 
 Hennes ursprung är löst i båda leden. Det som saknas ligger i mitten och i slutet av livet: de tjugotre åren mellan födelsen i Gårdtjärn och den första lästa Högsjösidan, och tiden efter 1880.
 
@@ -138,11 +138,11 @@ Vid årsskiftet 1880 var hon 67 år och bodde ensam med maken; deras hushåll om
 - Se [profilens frågor och källvägar](../research-profiles/P-0344.md#forskningsfrågor).
 - **Rättad oberoendebedömning:** identiteten beskrevs tidigare som sluten genom tre oberoende källor. Folkräkningsbladets egen rubrik gör den till ett utdrag ur samma husförhörslängdskedja som A I/6 och A I/7. Bryggan består av två vägar och håller fortfarande.
 - **Överspelad åtgärdsrekommendation:** akten och profilen rekommenderade tidigare att Sättnas ortregister skulle ersätta det ”översiktligt kontrollerade” sidintervallet i `A I/4`. Den kontrollen är sedan 2026-09-04 ersatt av en komplett genomläsning av hela Gårdtjärn-avsnittet sidorna 86–102 med gränssida 103, gjord från volymens registerbild. [C-0858](../citations/C-0858-sattna-AI4-gardtjarn-lars-anna-kontroll.md)
-- **Uppgift utan spår i evidensmodellen:** påståendet att Sättna `A I/5` sidorna 91–114 skulle vara översiktligt kontrollerade finns i den äldre akten och profilen men saknar citation. Det får inte behandlas som ett utfört sökomfång.
+- Uppgift utan spår i evidensmodellen: påståendet att Sättna `A I/5` sidorna 91–114 skulle vara översiktligt kontrollerade finns i den äldre akten och profilen men saknar citation. Det får inte behandlas som ett utfört sökomfång.
 - **Oläst uttrycklig hänvisning:** `Hvarifrån 224` i A I/6 sida 92, gemensam med maken.
 - **Öppna tidsluckor:** 1813–1836, 1855–1879 och tiden efter 1880-12-31.
 - **Ej utvunnet:** faddrarna i hennes egen dopnotis, årskolumnernas enskilda dagbråk och `Läser och förstår`-markeringarna.
-- **Vidarefört till dotterns akt:** A I/6 sida 92 ger dottern födelseuppgiften `1844 4/12`, vilket stärker födelsebokens 4 december mot A I/9:s senare 7 december. Konflikten ägs av [P-0272](P-0272-anna-stina-stromlund.md).
+- Vidarefört till dotterns akt: A I/6 sida 92 ger dottern födelseuppgiften `1844 4/12`, vilket stärker födelsebokens 4 december mot A I/9:s senare 7 december. Konflikten ägs av [P-0272](P-0272-anna-stina-stromlund.md).
 
 ## Historik och rättelser
 
@@ -194,26 +194,26 @@ T-0162, 2026-09-09: akten är omskriven till `person-dossier/v1`. Samtliga tidig
 
 ### Inkommande följdfynd från T-0170, 2026-09-09
 
-Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0162 äger akten.
+Avgränsad rapport från föräldrarnas kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0162 äger akten.
 
-- **Hennes egen födelseposts vittnesfält är nu avskrivet** och var det aldrig
+- Hennes egen födelseposts vittnesfält är nu avskrivet och var det aldrig
   tidigare. Sex vittnen: `Pahl Ersson i Öfverkovland[?]`, `Skom. Lars
   Lindgren` utan ort, `Dr. Nils Jonsson i Öfverkovland[?]`, `H: Greta
   Larsdotter ibid`, `D:o Johanna Pahls d:r i [oläst ort]` och `Pig. Brita
-  Ers d:r i Öfverkovland[?]`. **Vittne 3 bär moderns patronymikon och vittne
-  4 faderns**; båda är syskonkandidater till hennes föräldrar, men ingen
+  Ers d:r i Öfverkovland[?]`. Vittne 3 bär moderns patronymikon och vittne
+  4 faderns; båda är syskonkandidater till hennes föräldrar, men ingen
   relation är skapad. Fyra av sex hör till **Övre Kovland**, en by som inte
   tidigare funnits i akterna.
-- **Hennes födelse- och dopdatum är oförändrade:** född 17 september, döpt 26
+- Hennes födelse- och dopdatum är oförändrade: född 17 september, döpt 26
   september 1813.
-- **Ålderskolumnen i posten gäller modern.** Uppslagets samtliga poster bär
+- Ålderskolumnen i posten gäller modern. Uppslagets samtliga poster bär
   exakt en ålder, placerad efter moderns namn; moderns `27 år` ger födelsetid
-  september 1785–september 1786, medan **fadern inte har någon åldersuppgift
-  alls** i boken.
-- **Avsnittsnollet i A I/4 har fått preciserad räckvidd.** I posten om
+  september 1785–september 1786, medan fadern inte har någon åldersuppgift
+  alls i boken.
+- Avsnittsnollet i A I/4 har fått preciserad räckvidd. I posten om
   torparen Lars Jonssons son, tre veckor senare på samma sida, är hemvisten
-  skriven `i Gårdtjern`, **överstruken och ersatt av `Byn`**, medan två av
+  skriven `i Gårdtjern`, överstruken och ersatt av `Byn`, medan två av
   postens vittnen anges bo i Gårdtjärn. A I/4:s `Byn`-avsnitt är aldrig sökt,
   vilket är den nya huvudvägen till föräldrarnas hushållsrad.
 

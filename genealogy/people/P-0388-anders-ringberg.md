@@ -45,7 +45,7 @@ När och hur bondsonen Anders antog släktnamnet Ringberg är obelagt. Ingen lä
 | A-6543 | Födelsekolumnen på hans egen rad i Bäckebo A I/7 sida 173 anger `Hvar` = `Hossmo`, `År` = `1801` och `dag` = `25/6`. | TRANSCRIBED | hög | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Utvunnet i T-0162 ur den lokalt bevarade fullbilden. De tryckta underrubrikerna `Hvar`, `År.` och `dag` är lästa i samma utsnitt. Nämnaren i dagbråket bär en bläckplump; siffran läses `6` och stöds av födelsepostens junidatering. |
 | A-6544 | Inflyttningskolumnen på samma rad anger `Ifrån` = `Mortorp` och `År` = `1837`. | TRANSCRIBED | hög | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Utvunnet i T-0162. Hustruns rad har `d:o` i båda cellerna. Paret bokfördes alltså in i Bäckebo från brudens församling samma år som vigseln, trots att herdaminnet anger komministerämbetet från 1836; bokfört år är inte belagt boende och skillnaden är noterad, inte förklarad. |
 | A-6545 | Anmärkningskolumnen på samma rad lyder `g. 7/4 37`. | CORROBORATED | hög | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md), [C-1032](../citations/C-1032-mortorp-C3-1837-ringberg-bokelund-vigsel.md) | Utvunnet i T-0162. Noten står i den tryckta kolumnen `Särskildte Anmärkningar` och läses som gift 7 april 1837. Den bekräftar Mortorpspostens datum ur en andra församlings bok, vilket är särskilt värdefullt eftersom den lästa Mortorpsbilden saknar lokal kopia. |
-| A-6546 | Hushållet fördes under rubriken `Comministers Bostället` i Skåningsmåla. | TRANSCRIBED | hög | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Utvunnet i T-0162. Familjens bostad var alltså en tjänstebostad knuten till ämbetet, inte eget eller brukat jordinnehav. **Rättat 2026-09-09 (T-0164):** talet `4/4` framför bynamnet är inget outytt marginaltal. Det är sidans två tryckta smalkolumner `Oförm.` och `Förm'`, som båda bär **`¼`** — boställets oförmedlade och förmedlade mantal. Kontrollerat centralt mot fullbilden med rubrikraden i samma utsnitt. |
+| A-6546 | Hushållet fördes under rubriken `Comministers Bostället` i Skåningsmåla. | TRANSCRIBED | hög | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Utvunnet i T-0162. Familjens bostad var alltså en tjänstebostad knuten till ämbetet, inte eget eller brukat jordinnehav. Rättat 2026-09-09 (T-0164): talet `4/4` framför bynamnet är inget outytt marginaltal. Det är sidans två tryckta smalkolumner `Oförm.` och `Förm'`, som båda bär `¼` — boställets oförmedlade och förmedlade mantal. Kontrollerat centralt mot fullbilden med rubrikraden i samma utsnitt. |
 | A-6547 | Anders Ringberg dog 1879. | TRANSCRIBED | medel | [C-0468](../citations/C-0468-herdaminne-anders-ringberg.md) | Utvunnet i T-0162 ur herdaminnets redan citerade mening; uppgiften har funnits i beläggsledet sedan 2026-08-28 utan att bäras av något påstående. Sekundärkälla utan dag eller ort; ingen dödbokspost är sökt. Uppgiften är en söknyckel till Källas dödbok, inte ett primärbelägg. |
 | A-6548 | Anders Ringberg var kyrkoherde i Källa från 1847. | CORROBORATED | hög | [C-0468](../citations/C-0468-herdaminne-anders-ringberg.md), [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Utvunnet i T-0162; årtalet stod i herdaminnets citerade mening utan att föras vidare. Att han 1862 fanns i Källa och förde församlingens vigselbok stöder ämbetet i sak, men bekräftar inte tillträdesåret 1847, som därför vilar på sekundärkällan ensam. |
 | A-6549 | Barndomshushållet i Hossmo A I/3 sida 156 upptar Olof Nilsson 49 år 1810 och 50 år 1811, hustrun Maja Jonsdotter 40 och 41, dottern Cajsa 16 och 17 samt sonen Anders 9 och 10; blocket är överstruket och står under ordet `Inhyses.` | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet i T-0162 ur den lokalt bevarade fullbilden. Åldrarna ger fadern född omkring 1761, modern omkring 1770 och systern omkring 1794, och Anders ålder stämmer med födelsedagen 25 juni 1801. En marginalnot vid hushållets överkant läses `N.B.` följt av `kan intet läsa.` med ett kryss; vilken av raderna noten avser är inte avgjort och den tillskrivs ingen person här. Att hushållet står under ordet `Inhyses.` medan födelseposten 1801 kallar Olof Nilsson `Hemansbrukaren` är noterat, inte uttytt. |
@@ -61,7 +61,7 @@ När och hur bondsonen Anders antog släktnamnet Ringberg är obelagt. Ingen lä
 | [P-0390 Anders Gustaf Emanuel Ringberg](P-0390-anders-gustaf-emanuel-ringberg.md) | son | Född 1837-11-06; komministerbostället i Skåningsmåla | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) |
 | [P-0391 Frans August Ringberg](P-0391-frans-august-ringberg.md) | son | Född 1839-11-03; komministerbostället i Skåningsmåla | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) |
 | [P-0392 Carl Adolf Ringberg](P-0392-carl-adolf-ringberg.md) | son | Född 1841-09-04; komministerbostället i Skåningsmåla | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) |
-| [P-0393 Johan Eugen Ringberg](P-0393-johan-eugen-ringberg.md) | son | Född 1846-11-03; komministerbostället i Skåningsmåla | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) **Rättat 2026-09-09 (T-0164):** dagbråket på hans egen rad är `3/11`, alltså **1846-11-03**; avskriftens 1846-01-31 är samma två tal i omkastad ordning. Täljaren är ensiffrig och formidentisk med broderns `3/11`, medan uppslagets tvåsiffriga täljare — jämför systerns `27/9` — är märkbart bredare. Kalibreringen är verifierad på samma sida: systerns `27/9` motsvarar exakt hennes oberoende födelsenotis. Kontrollerat centralt mot fullbilden. |
+| [P-0393 Johan Eugen Ringberg](P-0393-johan-eugen-ringberg.md) | son | Född 1846-11-03; komministerbostället i Skåningsmåla | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) Rättat 2026-09-09 (T-0164): dagbråket på hans egen rad är `3/11`, alltså 1846-11-03; avskriftens 1846-01-31 är samma två tal i omkastad ordning. Täljaren är ensiffrig och formidentisk med broderns `3/11`, medan uppslagets tvåsiffriga täljare — jämför systerns `27/9` — är märkbart bredare. Kalibreringen är verifierad på samma sida: systerns `27/9` motsvarar exakt hennes oberoende födelsenotis. Kontrollerat centralt mot fullbilden. |
 | [P-0310 Karl August Carlman](P-0310-carl-august-carlman.md) | måg | Vigd med dottern 1862-09-26 i Källa prästgård; fadern gav skriftligt samtycke | CORROBORATED | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) |
 | Cajsa, utan eget P-id | syster | Södra Rinkaby, Hossmo; 16 år 1810 och 17 år 1811, alltså född omkring 1794 | TRANSCRIBED | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) |
 | Anders Olsson | dopvittne, bonde | 1801-06-28, Hossmo | TRANSCRIBED | [C-0850](../citations/C-0850-hossmo-C2-anders-1801-kontroll.md) |
@@ -135,7 +135,7 @@ Ingen sjukdom, funktionsnedsättning eller dödsorsak är belagd. Den överstruk
 | Egen rad i barndomshushållet, Hossmo A I/3 sida 156 | 1810–1811 | Riksarkivet, bevarad helbild 6 352 × 4 768 px | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Länk och SHA-256 i citationen |
 | Egen rad som hushållsföreståndare, Bäckebo A I/7 sida 173 | 1837–1847 | Riksarkivet, bevarad helbild 6 256 × 4 784 px | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Länk och SHA-256 i citationen |
 | Egenhändig samtyckesnotis, Källa E I/1 | 1862 | Riksarkivet, bevarad helbild 5 345 × 4 439 px | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Länk och SHA-256 i citationen |
-| Egen vigselpost, Mortorp C/3 bild 11 sida 9 | 1837-04-07 | Riksarkivet, läst i originalupplösning 6 152 × 4 440 px | [C-1032](../citations/C-1032-mortorp-C3-1837-ringberg-bokelund-vigsel.md) | **Ingen lokal kopia återfunnen** |
+| Egen vigselpost, Mortorp C/3 bild 11 sida 9 | 1837-04-07 | Riksarkivet, läst i originalupplösning 6 152 × 4 440 px | [C-1032](../citations/C-1032-mortorp-C3-1837-ringberg-bokelund-vigsel.md) | Ingen lokal kopia återfunnen |
 
 Samtyckesnotisen 1862 är det enda identifierade provet på hans egen hand. Som församlingspräst förde han själv Bäckebos och Källas kyrkoböcker i fyra decennier, vilket betyder att hans handstil finns i ett stort men outnyttjat material. Inga fotografier, brev eller personarkiv är kända.
 
@@ -225,23 +225,23 @@ Tidigare lydelse av A-3235, ersatt 2026-09-09 i T-0162 med hänvisning till A-65
 
 ### Inkommande följdfynd från T-0172, 2026-09-09
 
-Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0162 äger akten.
+Avgränsad rapport från föräldrarnas kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0162 äger akten.
 
-- **Dina egna åldrar i barndomshushållet stöder födelseåret 1801.** Hossmo
+- Dina egna åldrar i barndomshushållet stöder födelseåret 1801. Hossmo
   A I/3 sida 156 bär åldrar i **två** årskolumner, och citationen hade
   registrerat just dina: `9.` 1810 och `10.` 1811. Tillsammans med
   föräldrarnas och systerns tal, som alla ökar med exakt ett, är serien
   internt konsistent och pekar på födelse omkring 1800–1801.
-- **Du har en syster.** Raden `D: Cajsa` bär `16.` 1810 och `17.` 1811,
+- Du har en syster. Raden `D: Cajsa` bär `16.` 1810 och `17.` 1811,
   alltså född omkring **1793–1794** — sju år före dig. Hon får inget eget
   person-id i T-0172.
-- **Dina föräldrar har nu egna dateringar:** fadern `49.`/`50.`, född omkring
+- Dina föräldrar har nu egna dateringar: fadern `49.`/`50.`, född omkring
   1760–1761, och modern `40.`/`41.`, född omkring 1769–1770. Ingen av dem
   hade tidigare någon åldersuppgift alls.
-- **Hushållet var upprepat frånvarande vid förhören.** Flera rader bär
+- Hushållet var upprepat frånvarande vid förhören. Flera rader bär
   `abs.` — din egen 1810, faderns 1810 och moderns båda år.
-- **Hela hushållsblocket är överstruket**, och sidans smala högerkolumn bär
+- Hela hushållsblocket är överstruket, och sidans smala högerkolumn bär
   en **oläst** anteckning vars två läsbara ord är `Kom intet`. Det är
   familjens enda kända ledtråd till vart de tog vägen efter bokens tid.
 

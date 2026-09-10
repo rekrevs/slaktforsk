@@ -125,7 +125,7 @@ Hennes far var missionär och civil läkare, inte militär; ingen sådan roll ä
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
-| 1946–1951 | Kolumn 6, `Vaccinerats eller haft koppor`, är tom på hennes rad | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Kolumnrubriken lästes om 2026-09-08: tecknet `v` betyder vaccinerad **eller** genomgången koppsjukdom och skiljer inte de två. Modern (rad 12) och yngste brodern (rad 16) har `v`; de tre äldre barnen, inklusive henne, har tomma celler. En tom cell är en källgräns — den visar inte att hon var ovaccinerad. |
+| 1946–1951 | Kolumn 6, `Vaccinerats eller haft koppor`, är tom på hennes rad | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Kolumnrubriken lästes om 2026-09-08: tecknet `v` betyder vaccinerad eller genomgången koppsjukdom och skiljer inte de två. Modern (rad 12) och yngste brodern (rad 16) har `v`; de tre äldre barnen, inklusive henne, har tomma celler. En tom cell är en källgräns — den visar inte att hon var ovaccinerad. |
 | 1946–1951 | Kolumnerna 7 och 8 (gifte, änka eller frånskild) och kolumn 18 (död) är tomma på hennes rad | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Väntat för ett barn i boken 1941–1950; säger ingenting om senare händelser. |
 | 2026-08-23 | I livet | [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md) | Hon förmedlade själv en text detta datum. Ingen dödspost får konstrueras. |
 

@@ -57,7 +57,7 @@ Aktens filnamn och rubrik bevarar den inarbetade formen `Johanna Christina Böke
 | [P-0391 Frans August Ringberg](P-0391-frans-august-ringberg.md) | son | Född 1839-11-03, Bäckebo | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) |
 | [P-0392 Carl Adolf Ringberg](P-0392-carl-adolf-ringberg.md) | son | Född 1841-09-04, Bäckebo | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) |
 | [P-0311 Christina Gustafva Ringberg](P-0311-kristina-gustafva-efternamn-svarlast.md) | dotter | Född 1843-09-27, Bäckebo | CORROBORATED | [C-0466](../citations/C-0466-backebo-C4-christina-gustafva-fodd-1843.md), [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) |
-| [P-0393 Johan Eugen Ringberg](P-0393-johan-eugen-ringberg.md) | son | Född 1846-11-03, Bäckebo | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) **Rättat 2026-09-09 (T-0164):** dagbråket på hans egen rad är `3/11`, alltså **1846-11-03**; avskriftens 1846-01-31 är samma två tal i omkastad ordning. Täljaren är ensiffrig och formidentisk med broderns `3/11`, medan uppslagets tvåsiffriga täljare — jämför systerns `27/9` — är märkbart bredare. Kalibreringen är verifierad på samma sida: systerns `27/9` motsvarar exakt hennes oberoende födelsenotis. Kontrollerat centralt mot fullbilden. |
+| [P-0393 Johan Eugen Ringberg](P-0393-johan-eugen-ringberg.md) | son | Född 1846-11-03, Bäckebo | TRANSCRIBED | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) Rättat 2026-09-09 (T-0164): dagbråket på hans egen rad är `3/11`, alltså 1846-11-03; avskriftens 1846-01-31 är samma två tal i omkastad ordning. Täljaren är ensiffrig och formidentisk med broderns `3/11`, medan uppslagets tvåsiffriga täljare — jämför systerns `27/9` — är märkbart bredare. Kalibreringen är verifierad på samma sida: systerns `27/9` motsvarar exakt hennes oberoende födelsenotis. Kontrollerat centralt mot fullbilden. |
 | Anders Sjöstrand, comminister och v. pastor i Mortorp | fadder | 1809-07-06, Mortorp | TRANSCRIBED | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) |
 | Chatarina Helena Fornander, föregåendes hustru | fadder | 1809-07-06, Mortorp | TRANSCRIBED | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) |
 | Jonas Sjöström, sergeant å Mortorps ägor | fadder | 1809-07-06, Mortorp | TRANSCRIBED | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) |
@@ -80,7 +80,7 @@ Faddrarna är hushållets sociala krets och blir inga släktrelationer. `Jungfru
 | 1837 | Bokförd inflyttning från Mortorp | Bäckebo, Comministers Bostället i Skåningsmåla | komministerhustru | Ringbergs hushåll | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) |
 | 1837-11-06; 1839-11-03; 1841-09-04 | Sönerna Anders Gustaf Emanuel, Frans August och Carl Adolf födda | Bäckebo | mor | Ringbergs hushåll | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) |
 | 1843-09-27 | Dottern Christina Gustafva född; dop 6 oktober; moderns ålder anges 34 | Bäckebo | mor | Ringbergs hushåll | [C-0466](../citations/C-0466-backebo-C4-christina-gustafva-fodd-1843.md) |
-| 1846-11-03 | Sonen Johan Eugen född | Bäckebo | mor | Ringbergs hushåll | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) **Rättat 2026-09-09 (T-0164):** dagbråket på hans egen rad är `3/11`, alltså **1846-11-03**; avskriftens 1846-01-31 är samma två tal i omkastad ordning. Täljaren är ensiffrig och formidentisk med broderns `3/11`, medan uppslagets tvåsiffriga täljare — jämför systerns `27/9` — är märkbart bredare. Kalibreringen är verifierad på samma sida: systerns `27/9` motsvarar exakt hennes oberoende födelsenotis. Kontrollerat centralt mot fullbilden. |
+| 1846-11-03 | Sonen Johan Eugen född | Bäckebo | mor | Ringbergs hushåll | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) Rättat 2026-09-09 (T-0164): dagbråket på hans egen rad är `3/11`, alltså 1846-11-03; avskriftens 1846-01-31 är samma två tal i omkastad ordning. Täljaren är ensiffrig och formidentisk med broderns `3/11`, medan uppslagets tvåsiffriga täljare — jämför systerns `27/9` — är märkbart bredare. Kalibreringen är verifierad på samma sida: systerns `27/9` motsvarar exakt hennes oberoende födelsenotis. Kontrollerat centralt mot fullbilden. |
 
 Efter det yngsta barnets födelse 1846 finns ingen läst uppgift om henne. Maken blev kyrkoherde i Källa 1847 och fanns kvar där 1862, men hennes egen närvaro på Öland är en slutledning ur hans ämbete och inte ett belägg. [C-0468](../citations/C-0468-herdaminne-anders-ringberg.md), [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md)
 
@@ -147,9 +147,9 @@ Där slutar hennes dokumenterade liv i det lästa materialet. Maken utnämndes t
 
 Se [profilens frågor och källvägar](../research-profiles/P-0389.md#forskningsfrågor). Tre konflikter och gränser bevaras här:
 
-- **Moderns efternamn.** Födelsenotisen läses `Rybergs`; C-0851:s avskrift och P-0518:s aktnamn har `Kylenstjerna` (A-6801). Den adelsgenealogiska hypotesen i den äldre profilen vilade helt på den formen och faller därmed.
-- **Andranamnets form.** `Christiana` i de två utskrivna passagerna mot enbart `Chr.` i de två förkortade; `Christina` är inte utskrivet om henne någonstans (A-3833).
-- **Nollans räckvidd.** C-1033 gäller Bäckebos vigsellistor 1836 och 1837, ingenting annat.
+- Moderns efternamn. Födelsenotisen läses `Rybergs`; C-0851:s avskrift och P-0518:s aktnamn har `Kylenstjerna` (A-6801). Den adelsgenealogiska hypotesen i den äldre profilen vilade helt på den formen och faller därmed.
+- Andranamnets form. `Christiana` i de två utskrivna passagerna mot enbart `Chr.` i de två förkortade; `Christina` är inte utskrivet om henne någonstans (A-3833).
+- Nollans räckvidd. C-1033 gäller Bäckebos vigsellistor 1836 och 1837, ingenting annat.
 
 Öppna undersökningar: syskonen i Mortorp, faderns och moderns egna ursprung, familjens år i Källa från 1847 och hennes död.
 
@@ -161,9 +161,9 @@ T-0164, 2026-09-09: akten är omskriven till `person-dossier/v1` och sakligt avs
 - **A-3833** omformulerad. Äldre lydelse: *”Vigselboken använder namnformen `Christiana`, medan födelsenotisen och hushållslängden skriver `Christina`.”* Påståendet var oriktigt i båda leden: födelsenotisen skriver `Christiana` och hushållslängden skriver bara `Joh. Chr.` Formkonflikten bevaras, men den går mellan de utskrivna och de förkortade formerna.
 - **A-3832** justerad kommentar: åldern 27 vid vigseln är räknad ur födelsenotisen; Mortorps vigsellista saknar ålderskolumn (C-1032).
 - **A-2227** justerad kommentar: C-0466 och C-0467 är förda av samma hand, hennes make som församlingens komminister, och räknas inte som två oberoende informationsvägar.
-- **Historiskt arbetsläge.** Akten bar tidigare `## Slutstatus` med `Status: VERIFIERAD` samt `Konsolidering: GRANSKAD 2026-09-04 (T-0037)` och `Källbredd: KLAR`. Dessa är historiska bedömningar och konverteras inte. Den nya identitets- och kontraktsbedömningen ligger i profilen och i Arbetsläge ovan.
-- **Provenansbrist funnen.** Varken C-1032:s bild `C0028237` nr 11 eller C-1033:s bilder `C0026797` nr 262–263 finns bevarade lokalt. Bristen redovisas under PK-11 i profilen; avskrifterna raderas inte och ingen ny arkivvisning görs här.
-- **Rapporterat vidare, inte ändrat här.** C-0851:s avskrift, P-0517:s A-3239 och P-0518:s A-3240 samt aktnamnet `P-0518 Gustava Maria Kylenstjerna` bär den felläsning som A-6801 rättar; A-3239 och A-3240 åberopar dessutom C-0467 som föräldrabelägg trots att den citationen inte namnger föräldrarna.
+- Historiskt arbetsläge. Akten bar tidigare `## Slutstatus` med `Status: VERIFIERAD` samt `Konsolidering: GRANSKAD 2026-09-04 (T-0037)` och `Källbredd: KLAR`. Dessa är historiska bedömningar och konverteras inte. Den nya identitets- och kontraktsbedömningen ligger i profilen och i Arbetsläge ovan.
+- Provenansbrist funnen. Varken C-1032:s bild `C0028237` nr 11 eller C-1033:s bilder `C0026797` nr 262–263 finns bevarade lokalt. Bristen redovisas under PK-11 i profilen; avskrifterna raderas inte och ingen ny arkivvisning görs här.
+- Rapporterat vidare, inte ändrat här. C-0851:s avskrift, P-0517:s A-3239 och P-0518:s A-3240 samt aktnamnet `P-0518 Gustava Maria Kylenstjerna` bär den felläsning som A-6801 rättar; A-3239 och A-3240 åberopar dessutom C-0467 som föräldrabelägg trots att den citationen inte namnger föräldrarna.
 
 Hela den föregående akten bevaras oförändrad nedan.
 
@@ -217,11 +217,11 @@ Hela den föregående akten bevaras oförändrad nedan.
 
 ### Inkommande följdfynd från T-0172, 2026-09-09
 
-Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0164 äger akten.
+Avgränsad rapport från föräldrarnas kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0164 äger akten.
 
 De tre uppgifter T-0164 namngav som oavskrivna i din egen födelsepost är nu
-utvunna — **alltså just de fält PK-05 underkändes på**:
+utvunna — alltså just de fält PK-05 underkändes på:
 
 - **Faderns ämbete:** `Kyrkoherdens i Mortorp`. Uppgiften är förd som
   sakuppgift i [P-0517](P-0517-samuel-bokelund-mortorp.md) A-7620, med den
@@ -231,16 +231,16 @@ utvunna — **alltså just de fält PK-05 underkändes på**:
 - **Moderns ålder `33`**, som ger henne födelsetid juli 1775–juli 1776; förd
   som A-7630. Att kolumnen är en åldersuppgift framgår av uppslaget självt,
   där samtliga poster bär tal 19–36 i samma läge.
-- **Postens sex faddrar:** `Comministern härstädes H:r Pastor Anders
+- Postens sex faddrar: `Comministern härstädes H:r Pastor Anders
   Sjöstrand`, `des Hustru Chatarina Helena Fernander`, `Sergeanten u[ti]
   Mortorps ägor Jonas Sjöström`, `des Hustru Johanna Ryberg`, `S. Min[?].
   Adjuncten H:r Peter Anders[son?]` och `Jungfru Gustava Christina
-  Bökelund`. Kretsen är socknens ståndspersoner. **Två namn bär
-  släktnycklar:** `Johanna Ryberg` bär din mors familjenamn och `Gustava
+  Bökelund`. Kretsen är socknens ståndspersoner. Två namn bär
+  släktnycklar: `Johanna Ryberg` bär din mors familjenamn och `Gustava
   Christina Bökelund` din fars — båda kandidater, **inga relationer**.
   Adjunktens namn bär läsreservation.
 
-Därtill: **din far stod själv första vittne** vid komministerns sons dop den
+Därtill: din far stod själv första vittne vid komministerns sons dop den
 22 juli 1809, i post 21 på samma uppslag — ett ömsesidigt vittnesskap.
 
 Ingen ny arkivåtkomst har skett. Se C-0851:s daterade tillägg.

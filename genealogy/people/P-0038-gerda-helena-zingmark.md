@@ -36,7 +36,7 @@ Hennes födelsedag är omtvistad, men tvisten ligger **inom Degerfors församlin
 | A-5510 | Degerfors egen efterföljande församlingsbok A II a/6 folio 1064 rad 12 anger hennes födelsedag som 1909 ¹⁷/₉. Konflikten om födelsedagen står därmed mellan Degerfors A II a/3 och Degerfors A II a/6, och Umeåböckernas ¹⁷/₉ är en överföring från den senare, inte ett oberoende belägg. | CONFLICT | hög | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Ingendera dagen har företräde utan födelseboken. Röstetalet tre mot ett är skenbart: A II a/6, Umeå landsförsamling och Umeå stad är samma kopiekedja. Systern Tyra Charlotta har en avvikelse av samma slag mellan samma två volymer, vilket talar för ett systematiskt fel i en av dem snarare än två oberoende felskrivningar; det är en hypotes, inte en slutsats. |
 | A-5511 | Hon fick ingen egen post i Umeå landsförsamlings inflyttningslängd 1917 utan räknades in i faderns post 208, som anger 2 mankön och 3 kvinnkön. | TRANSCRIBED | hög | [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | De fem vuxna sönerna fick egna poster; hon, systern Tyra Charlotta, modern och den minderårige Birger räknades i faderns post. Antalsräkningen är en oberoende kontroll av hushållets sammansättning vid flytten, men den ger inte hennes namn eller födelsedatum. |
 | A-5512 | Folkräkningen 1930 för henne som `d. Gerda Helena`, född 09 i Degerfors, utan yrkesbeteckning, i föräldrahushållet på uppslag 1839 i Umeå stadsförsamling; hennes rad har skolbildningskod 5, senaste inflyttning till bostadskommunen från Umeå landsförsamling 1925, och inkomst- och förmögenhetskolumnen är tom. | TRANSCRIBED | hög | [C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md) | Kolumnerna är utvunna ur citationens egen bevarade fullbild `B0001215_00098` vid omläsning 2026-09-08 i T-0154; C-0899:s avskrift tar bara med namn, år och födelseort. Skolbildningskodens system är avläst men inte tolkat. Den tomma inkomstkolumnen är en tom cell i blanketten, inte ett belagt nollresultat om hennes försörjning. |
-| A-5513 | Utflyttningsorten på hennes rad 8 i Umeå stads uppslag 1839 läses **Lövånger**, med datumet 1935-11-25. | TRANSCRIBED | hög | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Omläsning av citationens bevarade fullbild `00206417_00013` den 2026-09-08 i T-0154. C-0916:s avskrift har `Lövängen(?)`, vilket är en felläsning; ortnamnet står dessutom två gånger på uppslaget, i utflyttningskolumnen och i anteckningsblocket. Lövånger är en församling i Västerbotten och ger en konkret mottagarväg. Rättelsen ska föras in centralt i C-0916. |
+| A-5513 | Utflyttningsorten på hennes rad 8 i Umeå stads uppslag 1839 läses Lövånger, med datumet 1935-11-25. | TRANSCRIBED | hög | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Omläsning av citationens bevarade fullbild `00206417_00013` den 2026-09-08 i T-0154. C-0916:s avskrift har `Lövängen(?)`, vilket är en felläsning; ortnamnet står dessutom två gånger på uppslaget, i utflyttningskolumnen och i anteckningsblocket. Lövånger är en församling i Västerbotten och ger en konkret mottagarväg. Rättelsen ska föras in centralt i C-0916. |
 | A-5514 | Hennes namn kompletterades med `Sundström` på den egna raden och yrkeskolumnen är tom under hela perioden 1925–1941. | TRANSCRIBED | hög | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Namntillägget står på hennes rad, inte enbart i anteckningen om maken, och är därför originalbelägg för hennes egen namnform. Beteckningen `Kamrer` som står strax under hör till rad 9 och gäller brodern Anders Valdemar, inte henne. Den tomma yrkeskolumnen är en källgräns. |
 | A-5515 | Anteckningsblocket vid raderna 8–9 bär noteringen `Lysn. 117/34`, som avser hennes lysning. | TRANSCRIBED | medel | [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) | Utvunnet ur den bevarade fullbilden 2026-09-08 i T-0154; noteringen saknas helt i C-0916:s avskrift. Tilldelningen till hennes rad är en motiverad slutsats: årtalet 34 stämmer med hennes vigsel 1934-12-29, medan rad 9 har sitt eget äktenskapsbetyg kungjort i maj 1935. Lysningsnumret är en ingång till lysnings- och vigselboken 1934. |
 | A-5516 | På rad 23 i Umeå landsförsamlings uppslag 2284 står hon utan yrkesbeteckning, utan märke i vaccinationskolumnen, ogift, inflyttad från Degerfors 1917-11-15, och utan någon anteckning på högersidan. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Samma tomma vaccinationskolumn gäller de tre yngsta syskonen och upprepas i C-0916. Tomma celler är källgränser och bevisar varken utebliven vaccination eller frånvaro av händelser. Att högersidan är tom förklarar varför hennes spår i landsförsamlingen slutar med den territoriella överföringen 1925. |
@@ -179,28 +179,28 @@ sparade helbild vid 400–900 % för systerns skull. Ingen ny arkivpassage
 
 **Din anmälda datumkonflikt finns inte.** T-0154 rapporterade 2026-09-08 att
 din födelsedag stod `1909-07-12` i C-0574 mot `1909-09-17` i C-0890 och
-C-0907. Vid omläsning läser **C-0574 rad 12 `1909 ¹⁷/₉`** — räknaren är en
+C-0907. Vid omläsning läser C-0574 rad 12 `1909 ¹⁷/₉` — räknaren är en
 `1` följd av en `7` med vågrät topplinje, nämnaren en `9` med sluten ögla och
-nedgående svans. **Månaden är september, inte juli.** Alla tre volymerna ger
-alltså **1909-09-17**, och avvikelsen låg i C-0574:s egen tabell.
+nedgående svans. Månaden är september, inte juli. Alla tre volymerna ger
+alltså 1909-09-17, och avvikelsen låg i C-0574:s egen tabell.
 
 **Samma sak gäller din syster Tyra Charlotta**, vars `1907-07-14` i samma
 tabell är `1907 ¹²/₇` i bilden, kontrollerat mot skrivarens egen fyra i
 årtalet `1894` två rader ovanför — en hög, kantig glyf som tecknet i räknaren
-inte liknar. **Och samma sak gäller er bror Johan Magnus**, vars konflikt
+inte liknar. Och samma sak gäller er bror Johan Magnus, vars konflikt
 avskrevs 2026-09-09 i C-0890:s tillägg.
 
-**Konsekvensen är att hypotesen om ett systematiskt överföringsfel mellan
-Degerforsvolymerna inte har något underlag kvar.** Alla tre avvikelser
+Konsekvensen är att hypotesen om ett systematiskt överföringsfel mellan
+Degerforsvolymerna inte har något underlag kvar. Alla tre avvikelser
 T-0154 anmälde var avskriftsfel i **en** tabell. Din uppgift T-0399 har den
 frågan i sin stoppgräns; Degerfors födelsebok för 1905, 1907 och 1909 behövs
-alltså fortfarande för dopdagar och vittnen, **men inte för att avgöra en
-konflikt.**
+alltså fortfarande för dopdagar och vittnen, men inte för att avgöra en
+konflikt.
 
 **En andra uppgift är utvunnen.** Din rad i folkräkningen 1930, Umeå stad
-sida 96, är **läst och tom** i både inkomst- och förmögenhetsdelen av den
+sida 96, är läst och tom i både inkomst- och förmögenhetsdelen av den
 tryckta kolumnen `Inkomst och förmögenhet`, med rubriken och sidhuvudet lästa
-i samma utsnitt. Tomheten är ett **läst noll i en ifylld kolumn** — på samma
+i samma utsnitt. Tomheten är ett läst noll i en ifylld kolumn — på samma
 sidor bär tre bröder `38`, `15` och `133` — och den delas med systern Tyra
 Charlotta.
 

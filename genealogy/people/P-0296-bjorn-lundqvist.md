@@ -25,7 +25,7 @@ Personen är känd från två håll. Familjeuppgiften från 2026-08-22 namnger
 bror till Birgitta
 ([C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md)).
 Kyrkefallas församlingsbok A II a/20 (1939–1950) för på sidan 86 ett barn
-**Björn Flemming** i Gustaf Tobias Lundqvists och Alva Viktoria Eliassons
+Björn Flemming i Gustaf Tobias Lundqvists och Alva Viktoria Eliassons
 hushåll på Smuleberg 1⁶², bostället Rosendala i Tibro, tillsammans med
 syskonen Lars Olof, Barbro Margareta och Gunilla Birgitta
 ([C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md)).
@@ -221,21 +221,21 @@ stämts av mot [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogr
 [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md) i sin helhet,
 inklusive de daterade tilläggen. Rättelser och tillägg:
 
-1. **Formatfel.** Påståendetabellen var bruten av en blankrad mellan A-1660 och
+1. Formatfel. Påståendetabellen var bruten av en blankrad mellan A-1660 och
    A-3302, vilket delade den i två CommonMark-tabeller. Raderna är nu
    sammanhängande. Relationstabellen saknade kolumnen `Tid/plats`.
-2. **Propageringslucka.** Fem uppgifter ur
+2. Propageringslucka. Fem uppgifter ur
    [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md) hade aldrig
    nått akten trots att citationen fanns sedan T-0056: hushållets fastighet och
    boställe (A-5230), de tre syskonen (A-5231), fadern (A-5232), hans egen
    radform `Björn Flemming` mot familjeuppgiftens efternamn (A-5233) och att
    1930 års hushållsbeskrivning inte nämner honom (A-5235, ur C-0417).
    Kusinskapet fick eget påstående A-5234.
-3. **Opropagerad rättelse.** Relationsraden för modern stod `TRANSCRIBED` med
+3. Opropagerad rättelse. Relationsraden för modern stod `TRANSCRIBED` med
    enbart familjeuppgift som grund, trots att A-3302 sedan T-0056 var
    `CORROBORATED` mot församlingsboken. Moder- och systerraden står nu
    `CORROBORATED`; fadern och de två övriga syskonen är nya rader.
-4. **Överspelad lydelse.** Akten inledde med *”Uppgiven son till Bernhard
+4. Överspelad lydelse. Akten inledde med *”Uppgiven son till Bernhard
    Eliassons yngsta syster Alva”*. Sonskapet är inte längre bara uppgivet: det
    står i moderns eget hushåll i en samtida församlingsbok. Formuleringen är
    ersatt, och det som fortfarande *är* uppgivet — yrket, skogsinnehavet och
@@ -279,14 +279,14 @@ Den äldre lydelsen bevaras här.
 
 #### Trädverkan rättad 2026-09-10, T-0194
 
-Fältet stod `BÄRANDE`. **Det är rättat till `EJ BÄRANDE`.** Aktens egen text säger `sidoperson i förhållande till projektets anlinjer; ingen antavla passerar honom`.
-**Fältet motsade alltså aktens egen slutsats.**
+Fältet stod `BÄRANDE`. Det är rättat till `EJ BÄRANDE`. Aktens egen text säger `sidoperson i förhållande till projektets anlinjer; ingen antavla passerar honom`.
+Fältet motsade alltså aktens egen slutsats.
 
-`Trädverkan` besvarar frågan *får antavlan passera denna person?* och **mäter
-inte hur väl identiteten är belagd**; `Identitetsgranskning` står oförändrad.
-**Ingen assertion är omskriven**, och akten i övrigt är oförändrad.
+`Trädverkan` besvarar frågan *får antavlan passera denna person?* och mäter
+inte hur väl identiteten är belagd; `Identitetsgranskning` står oförändrad.
+Ingen assertion är omskriven, och akten i övrigt är oförändrad.
 
 Rättelsen gjordes i en systematisk avstämning inom T-0194, som fann **tre
 akter** där fältet `BÄRANDE` stod tillsammans med en utskriven mening om att
-ingen anlinje passerar personen. **T-0151 är DONE**, så iakttagelsen förs här
+ingen anlinje passerar personen. T-0151 är DONE, så iakttagelsen förs här
 i stället för till en öppen uppgift.

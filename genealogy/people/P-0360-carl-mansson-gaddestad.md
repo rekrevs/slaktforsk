@@ -40,7 +40,7 @@ Sonen Anders Magnus senare nämndemannatitel i C-0664 och C-0665 är en annan pe
 | A-3213 | Måns Håkansson och Anna Jonsdotter var Carls föräldrar. | CORROBORATED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md), [C-0837](../citations/C-0837-ostra-husby-AI16-carl-inga-gaddestad.md) | Egen födelsenotis plus exakt senare datum och socken. Moderns ålder anges 38 år, vilket är källans uppgift och inte ett framräknat födelseår. |
 | A-6496 | Vigselposten Östra Husby C/5 nummer 13 år 1841 anger lysning 17 oktober och vigsel 14 november och beskriver brudgummen som f.d. nämndeman, änkling och hemmansägare i Gäddestad, 45 år och i andra giftet. | TRANSCRIBED | hög | [C-0839](../citations/C-0839-ostra-husby-inga-ursprungskontroll.md) | Posten namnger inga föräldrar. Texten `Avvittring af d. 20 Jun. 1841` är ingen lysningsattest utan en hänvisning till arvsskiftet efter det tidigare giftet. Sluttextens avgiftsförkortningar bevaras diplomatiskt och är ingen förmögenhetsbedömning. |
 | A-6497 | Ett tidigare gifte är belagt i tre oberoende formuleringar: vigselpostens `änkling` och `andra giftet` 1841, hushållsbokens `2. g.` över giftåret och dess uttryckliga hänförande av sonen Carl Carlsson, född 1833-04-20, till hans förra gifte. Den första hustrun är inte identifierad. | CORROBORATED | hög | [C-0839](../citations/C-0839-ostra-husby-inga-ursprungskontroll.md), [C-0837](../citations/C-0837-ostra-husby-AI16-carl-inga-gaddestad.md) | Änklingsståndet daterar den första hustruns död till före 1841-11-14. Sonens födelseår ger en bortre gräns för vigseln, inte dess år. |
-| A-6498 | Carl Månssons egen rad i Östra Husby A I/16 sida 442 anger honom som `Ägar Nämndem.`, född Ö.H. 1796-10-28, hitkommen från **Gårstad** år 1839 och gift år 41 med tillägget `2. g.`, med koppkolumnens tecken `n`, läsbetygen a, a och ab samt egna förhörs- och nattvardsmarkeringar 1846–1850; hans egna fält för särskilda anteckningar, död och bortflyttning är tomma. | TRANSCRIBED | hög | [C-0837](../citations/C-0837-ostra-husby-AI16-carl-inga-gaddestad.md) | **Rättar den tidigare läsningen `Torstad[?]`.** Ordet är detsamma som uppslagets rotrubrik `Utan Gårstads Rote`, och uppslagets byrubrik är Gäddestad. Talen prövas som 20/6, 6/8, 13/5[?] och 28/7[?]; svaga tal är råreservationer. Tomma fält är källgränser, inte belägg för fortsatt liv efter 1850. |
+| A-6498 | Carl Månssons egen rad i Östra Husby A I/16 sida 442 anger honom som `Ägar Nämndem.`, född Ö.H. 1796-10-28, hitkommen från Gårstad år 1839 och gift år 41 med tillägget `2. g.`, med koppkolumnens tecken `n`, läsbetygen a, a och ab samt egna förhörs- och nattvardsmarkeringar 1846–1850; hans egna fält för särskilda anteckningar, död och bortflyttning är tomma. | TRANSCRIBED | hög | [C-0837](../citations/C-0837-ostra-husby-AI16-carl-inga-gaddestad.md) | Rättar den tidigare läsningen `Torstad[?]`. Ordet är detsamma som uppslagets rotrubrik `Utan Gårstads Rote`, och uppslagets byrubrik är Gäddestad. Talen prövas som 20/6, 6/8, 13/5[?] och 28/7[?]; svaga tal är råreservationer. Tomma fält är källgränser, inte belägg för fortsatt liv efter 1850. |
 | A-6499 | Carls egen födelse- och dopnotis, Östra Husby C/4 sida 246 post 44, anger född 28 och döpt 30 oktober 1796, föräldrarnas hemvist `Wicklö[?]`, moderns ålder 38 år och fyra vittnen: bonden Anders Andersson i Smedstorp, drängen Nils Andersson i Fyllinge, hustrun Lena Andersdotter ibidem och pigan Ingeborg Andersdotter i Fyllinge. | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Vittnena och dopdagen hade inte utvunnits tidigare. Ortsordet är fortsatt osäkert läst och förs inte in som fastställd sakuppgift; alternativ läsning `Nicklö[?]`. Föräldrarnas hemvist är inte detsamma som en fastställd förlossningsplats. |
 | A-6500 | Det bevarade A I/14-uppslaget visar Carl Månsson, född Ö.H. 1796-10-28, under rubriken `Förutv. Nämd:[?]`, med en kvinnorad omedelbart under märkt `H:u[?]` vars namn läses `Brita`[?] med osäkert patronymikon, samt raden `Son Carl Carlsson`, född ibidem 1833-04-20, med bortflyttningsnotisen `Uddastorp[?] 39`. | TRANSCRIBED | medel | [C-0839](../citations/C-0839-ostra-husby-inga-ursprungskontroll.md), [C-0837](../citations/C-0837-ostra-husby-AI16-carl-inga-gaddestad.md) | Uppslagets egna rubriker läses `Utan G[å]rstads Rote` och byn `G[å]rstad[?]`, och sidnumret i övre vänstra hörnet läses `387[?]`; citationens lokalisering `Orrevalla sida 397` stämmer inte med dessa och måste kontrolleras av citationens ägare. Uppslagets notis `Gäddest. 39` står vid ett radpar längre ned än Carls egen rad, och vilken rad den hör till är inte avgjort. Ingen ny hustru- eller föräldrarelation fastställs här. |
 | A-6501 | Gäddestadhushållet 1846–1850 upptar sonen Carl Carlsson, född 1833-04-20 i förra giftet, och fyra gemensamma barn: Maja Lena född 1842-09-10, Anders Magnus född 1844-08-28, Clara Sofia[?] född 1847-11-11[?] med dödsuppgift 1847-12-05[?] och Nils Johan född 1849-10-12 med dödsuppgift 1849-12-14[?]. | TRANSCRIBED | medel | [C-0837](../citations/C-0837-ostra-husby-AI16-carl-inga-gaddestad.md) | De två yngsta radernas namn och tal är bleka och uttryckligen reserverade efter bildprövning. Egna födelse- och dödsposter för dem är inte lästa. Modersgrupperna hålls åtskilda. |
@@ -153,8 +153,8 @@ I Gäddestad fick paret fyra barn: Maja Lena 1842, Anders Magnus 1844 och däref
 ## Forskningsfrågor och konflikter
 
 - Se [profilens frågor, teman och källvägar](../research-profiles/P-0360.md#forskningsfrågor).
-- **Vem var den första hustrun?** Avvittringen 20 juni 1841 och Gårstadhushållets kvinnorad är de två konkreta ingångarna. Kvinnoradens namn är inte säkert läst och ingen relation propageras förrän den är det.
-- **Lokaliseringskonflikt i [C-0839](../citations/C-0839-ostra-husby-inga-ursprungskontroll.md).** Den fjärde bevarade bilden beskrivs som `A I/14, Orrevalla sida 397`, men uppslagets egna rubriker läses `Utan G[å]rstads Rote` och byn `G[å]rstad[?]`, och sidnumret läses `387[?]`. Det påverkar räckvidden hos den nolla som citationen redovisar för Ingas ursprung. Frågan tillhör citationens och [P-0361](P-0361-inga-nilsdotter-gaddestad.md):s ägare och avgörs inte här.
+- Vem var den första hustrun? Avvittringen 20 juni 1841 och Gårstadhushållets kvinnorad är de två konkreta ingångarna. Kvinnoradens namn är inte säkert läst och ingen relation propageras förrän den är det.
+- Lokaliseringskonflikt i [C-0839](../citations/C-0839-ostra-husby-inga-ursprungskontroll.md). Den fjärde bevarade bilden beskrivs som `A I/14, Orrevalla sida 397`, men uppslagets egna rubriker läses `Utan G[å]rstads Rote` och byn `G[å]rstad[?]`, och sidnumret läses `387[?]`. Det påverkar räckvidden hos den nolla som citationen redovisar för Ingas ursprung. Frågan tillhör citationens och [P-0361](P-0361-inga-nilsdotter-gaddestad.md):s ägare och avgörs inte här.
 - Den äldre läsningen `Torstad[?]` för hitkomstorten är ersatt av `Gårstad`; se A-6498.
 - Nämndemannauppdragets period, häradsrätt och eventuella domboksspår är oprövade, liksom jordebok, mantalslängd, lagfart och bouppteckning för Gäddestad.
 - Egen dödsdag, eventuella syskon och de två yngsta barnens egna vitalposter saknas. [T-0287](../../wotan/dev-log/T-0287.md) äger de svaga vitaldatumen och [T-0286](../../wotan/dev-log/T-0286.md) Ingas ursprungsfråga.
@@ -165,14 +165,14 @@ I Gäddestad fick paret fyra barn: Maja Lena 1842, Anders Magnus 1844 och däref
 
 Rättelser och tillägg vid denna granskning:
 
-1. **Hitkomstorten.** C-0837:s tillägg läste `Hitkom Torstad[?] 1839`. Vid förstoring läses cellen `Gårstad`, samma ord som uppslagets rotrubrik `Utan Gårstads Rote`. Den äldre läsningen är upphävd (A-6498).
-2. **Det första giftet.** Änklingsståndet, hushållsbokens `2. g.` och sonen i förra giftet fanns i citationerna men hade aldrig blivit ett påstående eller en relation i akten (A-6497). Den första hustrun är fortfarande inte identifierad.
-3. **Egen födelse- och dopnotis.** Dopdagen 30 oktober, moderns ålder, föräldrarnas hemvist och **fyra dopvittnen** stod olästa i den redan bevarade bilden (A-6499).
-4. **Egen hushållsrad.** Ägar- och nämndemanstiteln, koppkolumnens tecken, läsbetygen, nattvardsmarkeringarna och de tomma döds- och bortflyttningsfälten hade inte utvunnits (A-6498).
-5. **Familjen.** Fyra gemensamma barn och sonen i förra giftet saknades helt i relationstabellen (A-6501). Även sonens fyra dopvittnen ur C-0364:s tillägg är nu införda.
+1. Hitkomstorten. C-0837:s tillägg läste `Hitkom Torstad[?] 1839`. Vid förstoring läses cellen `Gårstad`, samma ord som uppslagets rotrubrik `Utan Gårstads Rote`. Den äldre läsningen är upphävd (A-6498).
+2. Det första giftet. Änklingsståndet, hushållsbokens `2. g.` och sonen i förra giftet fanns i citationerna men hade aldrig blivit ett påstående eller en relation i akten (A-6497). Den första hustrun är fortfarande inte identifierad.
+3. Egen födelse- och dopnotis. Dopdagen 30 oktober, moderns ålder, föräldrarnas hemvist och **fyra dopvittnen** stod olästa i den redan bevarade bilden (A-6499).
+4. Egen hushållsrad. Ägar- och nämndemanstiteln, koppkolumnens tecken, läsbetygen, nattvardsmarkeringarna och de tomma döds- och bortflyttningsfälten hade inte utvunnits (A-6498).
+5. Familjen. Fyra gemensamma barn och sonen i förra giftet saknades helt i relationstabellen (A-6501). Även sonens fyra dopvittnen ur C-0364:s tillägg är nu införda.
 6. **Nämndemannauppdraget** har fått en egen beläggslinje över tre källägen utan att någon tjänstgöringsperiod härleds (A-6502).
 7. **Lokaliseringskonflikt** i C-0839:s fjärde bild är dokumenterad (A-6500) och lämnad till citationens ägare.
-8. **Format och bedömning.** Rubrikerna `Forskningsstatus` och `Slutstatus` i förstandardformat är ersatta och relationstabellen har fått kolumnen `Tid/plats`. A-2033:s ordalydelse är språkligt rättad. Identitetsnivån kvarstår `GODKÄND`/`BÄRANDE`, nu med utvunnet i stället för antaget underlag; livsbildsnivån är fortsatt `UNDERKÄND`.
+8. Format och bedömning. Rubrikerna `Forskningsstatus` och `Slutstatus` i förstandardformat är ersatta och relationstabellen har fått kolumnen `Tid/plats`. A-2033:s ordalydelse är språkligt rättad. Identitetsnivån kvarstår `GODKÄND`/`BÄRANDE`, nu med utvunnet i stället för antaget underlag; livsbildsnivån är fortsatt `UNDERKÄND`.
 
 Den tidigare slutstatusen `VERIFIERAD` ersätts av profilens daterade bedömning och bevaras nedan som historisk. Den betydde att personen inte var en anspets, inte att källorna var uttömda. Den äldre `GRANSKAD`-bedömningen från 2026-09-04 (T-0033) och `Källbredd: KLAR` konverteras inte; källbredden är satt till `PÅGÅR`.
 
@@ -264,23 +264,23 @@ Hela den föregående akten, inklusive dess egen historikruta från T-0126, beva
 
 ### Inkommande följdfynd från T-0170, 2026-09-09
 
-Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0162 äger akten.
+Avgränsad rapport från föräldrarnas kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0162 äger akten.
 
-- **Hans egen födelseposts by är nu läst.** Citationen skrev att ortsordet
+- Hans egen födelseposts by är nu läst. Citationen skrev att ortsordet
   inte var tillräckligt säkert läst; vid 500 % förstoring framträder
   bokstavsföljden **`W-i-i-k-l-o`** med möjlig avslutande `ö`, och
-  ståndsordet framför faderns namn är **`Bond.`** Bokstavsföljden förs
-  **inte** in som identifierad ort — vilken av Östra Husbys byar det är
+  ståndsordet framför faderns namn är `Bond.` Bokstavsföljden förs
+  inte in som identifierad ort — vilken av Östra Husbys byar det är
   kräver socknens ortregister.
-- **Postens vittnesfält är avskrivet för första gången:** `Bond. Anders
+- Postens vittnesfält är avskrivet för första gången: `Bond. Anders
   And[ers]son i Smedstorp`, `Dr. Nils And[ers]son i Fyllinge`, `hustru Lena
-  Andersdotter ibid` och `Pig. Ingeborg Andersdotter i Fyllinge`. **Inget av
-  dem bär någon av föräldrarnas patronymikon**; alla fyra bär
+  Andersdotter ibid` och `Pig. Ingeborg Andersdotter i Fyllinge`. Inget av
+  dem bär någon av föräldrarnas patronymikon; alla fyra bär
   `Andersson`/`Andersdotter` och tre bor i Fyllinge.
-- **Ålderskolumnens innebörd är fastställd.** Uppslagets samtliga poster bär
+- Ålderskolumnens innebörd är fastställd. Uppslagets samtliga poster bär
   exakt en ålder, placerad efter moderns namn; `38 år` gäller alltså modern,
-  och **fadern har ingen åldersuppgift alls**.
+  och fadern har ingen åldersuppgift alls.
 - Hans egna födelse- och dopdatum, 28 och 30 oktober 1796, är oförändrade.
 
 Ingen ny arkivåtkomst har skett. Se C-0838:s daterade tillägg.

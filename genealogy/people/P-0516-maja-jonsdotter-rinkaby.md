@@ -4,8 +4,8 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0172.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Hushållssidan ger
-  henne **egna åldrar två år i följd**, `40.` 1810 och `41.` 1811, som
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Hushållssidan ger
+  henne egna åldrar två år i följd, `40.` 1810 och `41.` 1811, som
   citationen inte registrerade — den redovisade bara sonens. Därtill har hon
   en **dotter Cajsa** med egna åldrar, `abs.`-markeringar båda åren och ett
   överstruket hushållsblock med en oläst anteckning.
@@ -28,26 +28,26 @@ nominativa uppgift om Kalmar nation knyter sonen till **fadern** och därmed
 till samma hushåll.
 [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md)
 
-Sedan 2026-09-09 har hon **egna åldersuppgifter**: `40.` 1810 och `41.` 1811,
+Sedan 2026-09-09 har hon egna åldersuppgifter: `40.` 1810 och `41.` 1811,
 alltså född omkring **1769–1770**. Se A-7610. Hennes föräldrar och hennes
-födelseort är okända, och patronymikonet ger faderns förnamn **Jon**.
+födelseort är okända, och patronymikonet ger faderns förnamn Jon.
 
 ## Namnformer
 
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | H: Maja Jonsd:r | Egen hushållsrad, Hossmo A I/3 sida 156 | TRANSCRIBED | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Den enda belagda formen. `H:` är hustru och är civilstånd, inte namn. |
-| Maja / Maria Jonsdotter, `Jönsdotter` | Sökformer | LEAD | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | `Maja` är talspråksformen av `Maria`; båda måste prövas, liksom `Jonsdotter`/`Jönsdotter`. **Informationssvag nyckel** utan ålder, gård eller make. |
+| Maja / Maria Jonsdotter, `Jönsdotter` | Sökformer | LEAD | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | `Maja` är talspråksformen av `Maria`; båda måste prövas, liksom `Jonsdotter`/`Jönsdotter`. Informationssvag nyckel utan ålder, gård eller make. |
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3237 | Maja Jonsdotter i Rinkaby var mor till Anders, den blivande Anders Ringberg. | CORROBORATED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Samtida hushåll plus oberoende nominativ nyckel till fadern och sonen. |
-| A-7610 | Hennes egen rad i Hossmo A I/3 sida 156 anger åldern **`40.`** i årskolumnen 1810 och **`41.`** i 1811, alltså född omkring **1769–1770**. | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09 ur den redan sparade fullsidan vid 260 % förstoring. Citationen registrerade **endast sonens** åldrar. **Detta är hennes första egna datumuppgift**, och talen ökar med exakt ett mellan de två åren — en intern konsistenskontroll inom samma bok. Uppgiften är en husförhörsuppgift, inte en läst födelsepost, och kan vara ett år fel. |
-| A-7611 | Samma sida ger hushållets övriga åldrar två år i följd: maken `49.`/`50.`, dottern `D: Cajsa` `16.`/`17.` och sonen `S: Anders` `9.`/`10.` | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09. **Hon var alltså omkring 24 år när dottern föddes och omkring 31 när sonen föddes**, och åldersskillnaden till maken är nio år. Sonens `9.`/`10.` **stöder oberoende** att Anders Ringberg föddes 1801 i Hossmo. Dottern Cajsa får sin första datering, född omkring 1793–1794. |
-| A-7612 | Hennes egen rad bär förkortningen **`abs.`** i **båda** årskolumnerna, 1810 och 1811. | TRANSCRIBED | medel | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09. `abs.` står för *absens*: hon var frånvarande vid förhöret båda åren — mer konsekvent än makens och sonens rader, som bär `abs.` endast 1810. **Detta är hennes enda uppgift om kyrkligt deltagande**, och den är negativ. Tillförlitligheten gäller tolkningen av förkortningen. Ingen slutsats dras om skäl, hälsa eller trosutövning. |
-| A-7613 | Hela hushållsblocket är **överstruket** med en diagonal linje, och sidans smala högerkolumn bär en tvådelad anteckning: ett siffer- eller förkortningsliknande `705.[?]` och därunder ett par ord vars två första läses `Kom intet`. | TRANSCRIBED | medel | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09 vid 600 % förstoring. Överstrykningen betyder att hushållet lämnade sidan under bokens tid; **anteckningens innebörd är oläst** och gissas inte. Uppgiften är familjens enda ledtråd till vart de tog vägen och gäller henne lika mycket som maken. |
+| A-7610 | Hennes egen rad i Hossmo A I/3 sida 156 anger åldern `40.` i årskolumnen 1810 och `41.` i 1811, alltså född omkring 1769–1770. | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09 ur den redan sparade fullsidan vid 260 % förstoring. Citationen registrerade endast sonens åldrar. Detta är hennes första egna datumuppgift, och talen ökar med exakt ett mellan de två åren — en intern konsistenskontroll inom samma bok. Uppgiften är en husförhörsuppgift, inte en läst födelsepost, och kan vara ett år fel. |
+| A-7611 | Samma sida ger hushållets övriga åldrar två år i följd: maken `49.`/`50.`, dottern `D: Cajsa` `16.`/`17.` och sonen `S: Anders` `9.`/`10.` | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09. Hon var alltså omkring 24 år när dottern föddes och omkring 31 när sonen föddes, och åldersskillnaden till maken är nio år. Sonens `9.`/`10.` stöder oberoende att Anders Ringberg föddes 1801 i Hossmo. Dottern Cajsa får sin första datering, född omkring 1793–1794. |
+| A-7612 | Hennes egen rad bär förkortningen `abs.` i båda årskolumnerna, 1810 och 1811. | TRANSCRIBED | medel | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09. `abs.` står för *absens*: hon var frånvarande vid förhöret båda åren — mer konsekvent än makens och sonens rader, som bär `abs.` endast 1810. Detta är hennes enda uppgift om kyrkligt deltagande, och den är negativ. Tillförlitligheten gäller tolkningen av förkortningen. Ingen slutsats dras om skäl, hälsa eller trosutövning. |
+| A-7613 | Hela hushållsblocket är överstruket med en diagonal linje, och sidans smala högerkolumn bär en tvådelad anteckning: ett siffer- eller förkortningsliknande `705.[?]` och därunder ett par ord vars två första läses `Kom intet`. | TRANSCRIBED | medel | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09 vid 600 % förstoring. Överstrykningen betyder att hushållet lämnade sidan under bokens tid; anteckningens innebörd är oläst och gissas inte. Uppgiften är familjens enda ledtråd till vart de tog vägen och gäller henne lika mycket som maken. |
 
 ## Relationer
 
@@ -78,7 +78,7 @@ egna poster. De omkring 24 åren före dotterns födelse har ingen hållpunkt.
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
 | 1810–1811 | Södra Rinkaby, `N:o 1` | Hossmo församling | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Hennes enda belagda hemvist, som makens hustru. |
-| Under bokens tid | Lämnade sidan; **riktningen är oläst** | — | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Se A-7613. |
+| Under bokens tid | Lämnade sidan; riktningen är oläst | — | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Se A-7613. |
 
 Ingen flyttning är belagd i klartext, och var hon växte upp är okänt.
 
@@ -103,7 +103,7 @@ och stänger inte hushållets spår.
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
-| 1810 och 1811 | `abs.` i **båda** årskolumnerna på hennes egen rad | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Frånvaro vid förhöret är den enda uppgiften. **Den säger inget om hälsa**, och hon är i övrigt bokförd i hushållet båda åren, alltså levande. Se A-7612. |
+| 1810 och 1811 | `abs.` i båda årskolumnerna på hennes egen rad | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Frånvaro vid förhöret är den enda uppgiften. Den säger inget om hälsa, och hon är i övrigt bokförd i hushållet båda åren, alltså levande. Se A-7612. |
 | Omkring 1793–1801 | Minst två barn, födda omkring 24 och 31 års ålder | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Barnaföljden är härledd ur barnens åldrar; luckan på omkring sju år mellan dem kan rymma barn som inte står på sidan. |
 
 Hennes död är okänd och osökt. Med åldersuppgiften finns nu en nyckel som kan
@@ -123,7 +123,7 @@ Maja Jonsdotter var hustru i hemmansbrukaren Olof Nilssons hushåll på `N:o 1`
 i Södra Rinkaby i Hossmo, och mor till Anders Ringberg.
 [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md)
 
-Granskningen 2026-09-09 gav henne hennes **första egna datumuppgift**.
+Granskningen 2026-09-09 gav henne hennes första egna datumuppgift.
 Hushållssidan bär åldrar i två årskolumner för samtliga fyra rader, och
 citationen hade registrerat **bara sonens**: på hennes rad står `40.` 1810
 och `41.` 1811, alltså född omkring 1769–1770. Talen ökar med exakt ett, vilket
@@ -131,29 +131,29 @@ och `41.` 1811, alltså född omkring 1769–1770. Talen ökar med exakt ett, vi
 
 Med åldrarna framträder också hennes livsförlopp i grova drag: hon var
 omkring 24 år när dottern **Cajsa** föddes och omkring 31 när sonen Anders
-föddes, och hon var nio år yngre än maken. Sonens `9.`/`10.` **stöder
-oberoende** att Anders Ringberg föddes 1801 i Hossmo, och luckan på omkring
+föddes, och hon var nio år yngre än maken. Sonens `9.`/`10.` stöder
+oberoende att Anders Ringberg föddes 1801 i Hossmo, och luckan på omkring
 sju år mellan barnen kan rymma barn som inte står på sidan.
 [A-7611](#påståenden)
 
 Två negativa iakttagelser hör till hennes rad. Hon bär `abs.` i **båda**
 årskolumnerna — mer konsekvent än maken och sonen, som bara har det 1810 —
 vilket är hennes enda uppgift om kyrkligt deltagande och säger inget om
-hälsa. [A-7612](#påståenden) Och hela hushållsblocket är **överstruket**,
+hälsa. [A-7612](#påståenden) Och hela hushållsblocket är överstruket,
 med en tvådelad anteckning i högerkolumnen vars två läsbara ord är `Kom
 intet`; innebörden är oläst och är familjens enda ledtråd till vart de tog
 vägen. [A-7613](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Vart tog hushållet vägen?** Överstrykningen och den olästa anteckningen
+- Vart tog hushållet vägen? Överstrykningen och den olästa anteckningen
   är familjens enda ledtråd. Se
   [profilens Q-01](../research-profiles/P-0516.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0516.md#källvägar).
-- **Vigselposten är odaterad och osökt.** Med dottern född omkring 1793 kan
+- Vigselposten är odaterad och osökt. Med dottern född omkring 1793 kan
   vigseln ligga omkring 1790 eller tidigare; det är den handling som normalt
   namnger **hennes** hemvist före äktenskapet. KP-02.
-- **Åldersuppgiften är en husförhörsuppgift** och kan vara ett år fel; åren
+- Åldersuppgiften är en husförhörsuppgift och kan vara ett år fel; åren
   1769 och 1770 ska båda prövas. KP-02.
 - **Luckan mellan barnen** — omkring sju år — kan rymma barn som inte står på
   sidan; Hossmos födelsebok omkring 1794–1800 är osökt. KP-01.
@@ -162,8 +162,8 @@ vägen. [A-7613](#påståenden)
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Hossmos vigselbok omkring 1790**, som normalt namnger
-  hennes hemvist; **husförhörslängden före och efter A I/3**, som ger hennes
+- Förväntad källa: Hossmos vigselbok omkring 1790, som normalt namnger
+  hennes hemvist; husförhörslängden före och efter A I/3, som ger hennes
   födelseort respektive familjens fortsättning; och Hossmos födelsebok
   omkring 1794–1800 för barnaluckan.
 - Genomsökt: Hossmo A I/3 sida 156, nu utvunnen med hela hushållets åldrar,
@@ -172,7 +172,7 @@ vägen. [A-7613](#påståenden)
 - Negativ kontroll: [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md)
   namnger Maja, hushåll och ort men ger **ingen** födelseort och inget
   föräldrahem.
-- Återaktivering: **villkoret är delvis uppfyllt 2026-09-09.** Den tidigare
+- Återaktivering: villkoret är delvis uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `en ny personbunden vigsel-, hushålls-, flytt- eller
   dödsnyckel`; åldersuppgiften `40`/`41` är en hushållsnyckel som gör hennes
   födelseårgång sökbar. Välj ändå inte en Maja Jonsdotter enbart från namn
@@ -186,7 +186,7 @@ sin första profil. Inget A-id är borttaget; A-7610–A-7613 tillkommer ur den
 redan sparade fullsidan utan ny arkivåtkomst.
 
 **Huvudfyndet är att bara sonens åldrar hade registrerats.** Sidan bär åldrar
-i två årskolumner för **alla fyra** raderna; citationens avskrift nämner
+i två årskolumner för alla fyra raderna; citationens avskrift nämner
 endast sonens. Därmed saknade hon, maken och dottern varje datering, trots
 att uppgiften låg i den citerade bilden.
 

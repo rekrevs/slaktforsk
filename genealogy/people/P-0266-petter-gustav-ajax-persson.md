@@ -4,10 +4,10 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0173.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Bedömningen gällde
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Bedömningen gällde
   **födelseårgången** 1791 i Motala, som är komplett läst — men aktens egna
-  belägg innehåller två outnyttjade synteser: en **yrkesföljd i sex
-  handlingar** och tre **oberoende modersåldrar** som stämmer inbördes. Därtill
+  belägg innehåller två outnyttjade synteser: en yrkesföljd i sex
+  handlingar och tre oberoende modersåldrar som stämmer inbördes. Därtill
   är hushållens interna hänvisning `17 p.262 d.b.` ännu oläst; den ägs av
   T-0329.
 - Identitetsgranskning: `GODKÄND`
@@ -44,11 +44,11 @@ Den utökade namnformen `Petter Gustav Ajax Persson` och dödsåret 1854 kommer
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Åbon Peter Ajax | Dotterns födelsenotis, Hammar 1817 | TRANSCRIBED | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md) | Den äldsta originalformen. |
-| Peter Peterson Ajax | Hammar A I/3 b, Stordalen sida 266 | CORROBORATED | [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md) | **Den enda formen med patronymikon**, och därmed den som gör faderns förnamn `Peter` sannolikt. |
+| Peter Peterson Ajax | Hammar A I/3 b, Stordalen sida 266 | CORROBORATED | [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md) | Den enda formen med patronymikon, och därmed den som gör faderns förnamn `Peter` sannolikt. |
 | Rumormästaren Petter Ajax | Västra Ny A I/6 och A I/8 | CORROBORATED | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Yrkesformen återkommer i två successiva längder. |
 | Rumormästaren och Skom: Petter Ajax | Västra Ny A I/8 sida 302 | TRANSCRIBED | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Dubbelyrket i den senaste längden. |
-| Petter Gustav Ajax Persson | Sekundär personakt | LEAD | [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | **Leden `Gustav` och `Persson` finns inte i något läst original.** Formen normaliseras inte över originalens. |
-| Ajax / Aiax / Ajacks | Sökformer | LEAD | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md) | **Familjenamnet är ovanligt** och är hans starkaste nyckel; stavningsvarianter måste prövas. |
+| Petter Gustav Ajax Persson | Sekundär personakt | LEAD | [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | Leden `Gustav` och `Persson` finns inte i något läst original. Formen normaliseras inte över originalens. |
+| Ajax / Aiax / Ajacks | Sökformer | LEAD | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md) | Familjenamnet är ovanligt och är hans starkaste nyckel; stavningsvarianter måste prövas. |
 
 ## Påståenden
 
@@ -68,9 +68,9 @@ Den utökade namnformen `Petter Gustav Ajax Persson` och dödsåret 1854 kommer
 | A-1879 | Carolinas födelsenotis 1826 skriver honom `BrunnsDräng.` vid Medevi Brunn. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | Samtida yrkesform mellan rumormästarbeläggen. |
 | A-1880 | Anna Josephinas födelsenotis 1828 skriver honom `Skom.` vid Medevi Brunn. | CORROBORATED | hög | [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Skomakaryrket återkommer i A I/8. |
 | A-3255 | Motala C/3:s hela födelseår 1791 innehåller en Peter Magnus, född 12 april till Peter Sandström och Ingrid Carlsdotter i Herrqvarnen, som en förenlig men olöst kandidat till Peter Peterson Ajax. | LEAD | medel | [C-0862](../citations/C-0862-motala-C3-peter-1791-kontroll.md) | Förnamn, patronymisk möjlighet, år och socken är förenliga, men ingen källa binder barnet till Stordalen 1817; kandidatföräldrarna får inte propageras. |
-| A-7640 | Hans yrke är belagt i **sex handlingar över tjugonio år** och bildar en följd: `Åbon` i Stordalen 1817, `Rumormästaren` 1822 och 1823, `BrunnsDräng.` 1826, `Skom.` 1828, och `Rumormästaren och Skom:` 1837–1846. | TRANSCRIBED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0301](../citations/C-0301-and-gustaf-ajax-fodd-vastra-ny-1823.md), [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Fört som eget påstående 2026-09-09 som **syntes av redan lästa belägg** — de enskilda yrkesorden står i A-1811, A-1842, A-1878, A-1879 och A-1880, men följden var aldrig sammanställd. Variationen är **inte** en motsägelse: den beskriver en flyttning från eget åboskap till tjänster vid en brunnsanläggning, där `rumormästare` var en anställd befattning med ansvar för gästernas rum. **Detta är aktens enda uppgift om social rörlighet**, och den visar en nedgång från åbo till brunnsdräng följd av ett hantverk. |
-| A-7641 | Tre av barnens födelseposter anger moderns ålder: **34** i januari 1826, **36** i september 1828 och **38** i maj 1830. Talen är inbördes konsistenta och ger hennes födelsetid till omkring **1791–1792**. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | Fört som eget påstående 2026-09-09. De tre åldrarna utvanns var för sig i T-0141 med råreservation, men **jämförelsen mellan dem har aldrig gjorts**: +2 år över två år och +2 över ytterligare två stämmer exakt, vilket gör serien till en **intern konsistenskontroll av tre oberoende poster**. Slutsatsen gäller **hustrun** [P-0267](P-0267-katarina-carin-jonsdotter.md) och är rapporterad till hennes ägande uppgift; för hans akt är den relevant därför att den visar att makarna var jämnåriga — hans egen uppgift är `1791`. Ingen exakt dag följer. |
-| A-7642 | Paret har **sju originalbelagda barn födda 1817–1830**, samtliga med egen födelsepost: Eleonora/Anna Gustava 1817, Carl Johan 1818, Adolf Fredrik 1821, And. Gustaf 1823, Carolina 1826, Anna Josephina 1828 och Frans Ludvig 1830. Familjens flyttning Hammar→Medevi 1822 faller **mellan det tredje och fjärde barnet**. | CORROBORATED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0299](../citations/C-0299-carl-johan-ajax-fodd-hammar-1818.md), [C-0300](../citations/C-0300-adolf-fredrik-ajax-fodd-hammar-1821.md), [C-0301](../citations/C-0301-and-gustaf-ajax-fodd-vastra-ny-1823.md), [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | Fört som eget påstående 2026-09-09 som syntes. **Sju barn med var sin egen födelsepost är en ovanligt komplett barnaföljd** i projektets material, och den bekräftar flyttningsuppgiften i A-1841 oberoende: de tre första barnen är födda i Hammar, de fyra följande i Västra Ny. `Adelide Amalia` räknas **inte** in — hennes biologiska föräldraskap är olöst (A-1813). |
+| A-7640 | Hans yrke är belagt i sex handlingar över tjugonio år och bildar en följd: `Åbon` i Stordalen 1817, `Rumormästaren` 1822 och 1823, `BrunnsDräng.` 1826, `Skom.` 1828, och `Rumormästaren och Skom:` 1837–1846. | TRANSCRIBED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0301](../citations/C-0301-and-gustaf-ajax-fodd-vastra-ny-1823.md), [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Fört som eget påstående 2026-09-09 som syntes av redan lästa belägg — de enskilda yrkesorden står i A-1811, A-1842, A-1878, A-1879 och A-1880, men följden var aldrig sammanställd. Variationen är inte en motsägelse: den beskriver en flyttning från eget åboskap till tjänster vid en brunnsanläggning, där `rumormästare` var en anställd befattning med ansvar för gästernas rum. Detta är aktens enda uppgift om social rörlighet, och den visar en nedgång från åbo till brunnsdräng följd av ett hantverk. |
+| A-7641 | Tre av barnens födelseposter anger moderns ålder: 34 i januari 1826, 36 i september 1828 och 38 i maj 1830. Talen är inbördes konsistenta och ger hennes födelsetid till omkring 1791–1792. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | Fört som eget påstående 2026-09-09. De tre åldrarna utvanns var för sig i T-0141 med råreservation, men jämförelsen mellan dem har aldrig gjorts: +2 år över två år och +2 över ytterligare två stämmer exakt, vilket gör serien till en intern konsistenskontroll av tre oberoende poster. Slutsatsen gäller hustrun [P-0267](P-0267-katarina-carin-jonsdotter.md) och är rapporterad till hennes ägande uppgift; för hans akt är den relevant därför att den visar att makarna var jämnåriga — hans egen uppgift är `1791`. Ingen exakt dag följer. |
+| A-7642 | Paret har sju originalbelagda barn födda 1817–1830, samtliga med egen födelsepost: Eleonora/Anna Gustava 1817, Carl Johan 1818, Adolf Fredrik 1821, And. Gustaf 1823, Carolina 1826, Anna Josephina 1828 och Frans Ludvig 1830. Familjens flyttning Hammar→Medevi 1822 faller mellan det tredje och fjärde barnet. | CORROBORATED | hög | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md), [C-0299](../citations/C-0299-carl-johan-ajax-fodd-hammar-1818.md), [C-0300](../citations/C-0300-adolf-fredrik-ajax-fodd-hammar-1821.md), [C-0301](../citations/C-0301-and-gustaf-ajax-fodd-vastra-ny-1823.md), [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | Fört som eget påstående 2026-09-09 som syntes. Sju barn med var sin egen födelsepost är en ovanligt komplett barnaföljd i projektets material, och den bekräftar flyttningsuppgiften i A-1841 oberoende: de tre första barnen är födda i Hammar, de fyra följande i Västra Ny. `Adelide Amalia` räknas inte in — hennes biologiska föräldraskap är olöst (A-1813). |
 
 ## Relationer
 
@@ -84,7 +84,7 @@ Den utökade namnformen `Petter Gustav Ajax Persson` och dödsåret 1854 kommer
 | [P-0324 Carolina Ajax](P-0324-carolina-ajax.md) | dotter | Född 1826-01-28, Medevi Brunn | CORROBORATED | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) |
 | [P-0328 Anna Josephina Ajax](P-0328-anna-josephina-ajax.md) | dotter | Född 1828, Medevi Brunn; död 1829 enligt hushållsboken | CORROBORATED | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md) |
 | [P-0325 Frans Ludvig Ajax](P-0325-frans-ludvig-ajax.md) | son | Född 1830-05-06, Medevi Brunn | CORROBORATED | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) |
-| [P-0326 Adelide Amalia Ajax](P-0326-adelide-amalia-ajax.md) | **dottermarkerad hushållsmedlem; biologiskt föräldraskap olöst** | Medevi Brunn | LEAD | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) |
+| [P-0326 Adelide Amalia Ajax](P-0326-adelide-amalia-ajax.md) | dottermarkerad hushållsmedlem; biologiskt föräldraskap olöst | Medevi Brunn | LEAD | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) |
 
 Hans föräldrar är okända. Kandidatföräldrarna `Peter Sandström` och `Ingrid
 Carlsdotter` i Herrqvarnen är **spärrade från propagation**; se A-3255.
@@ -109,19 +109,19 @@ sekundärt.
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| Till 1822 | Stordalen, sida 266 | Hammar församling | [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md) | Han var **åbo**, alltså brukare med besittningsrätt. Familjens gemensamma inflyttningshänvisning på sidan läses `17 p.262 d.b.` och pekar på en **intern tidigare post 1817**, inte en säkrad extern flyttdag; sida 263 är kontrollerad utan paret, och **262 är ännu oläst** — T-0329 äger den bryggan. |
+| Till 1822 | Stordalen, sida 266 | Hammar församling | [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md) | Han var åbo, alltså brukare med besittningsrätt. Familjens gemensamma inflyttningshänvisning på sidan läses `17 p.262 d.b.` och pekar på en intern tidigare post 1817, inte en säkrad extern flyttdag; sida 263 är kontrollerad utan paret, och 262 är ännu oläst — T-0329 äger den bryggan. |
 | Från 1822 | Medevi Brunn | Västra Ny församling | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) | A I/6 anger uttryckligen att han kom från Hammar 1822, och barnens födelseorter bekräftar tidpunkten oberoende: tre barn födda i Hammar, fyra i Västra Ny. |
-| 1837–1846 | Medevi Brunn, sida 302 | Västra Ny församling | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Ägartexten ovanför familjen gäller **bokhållare Jönson** på Medevi och är inte ett belägg för Ajax-ägande. |
+| 1837–1846 | Medevi Brunn, sida 302 | Västra Ny församling | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Ägartexten ovanför familjen gäller bokhållare Jönson på Medevi och är inte ett belägg för Ajax-ägande. |
 
 ## Yrke, utbildning och ekonomi
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
 | 1817 | `Åbon` | Stordalen, Hammar | [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md) | En åbo brukade krono- eller annans jord med besittningsrätt — hans högsta belagda ställning. |
-| 1822–1823 och 1830 | `Rumormästaren` | Medevi Brunn | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0301](../citations/C-0301-and-gustaf-ajax-fodd-vastra-ny-1823.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | En **anställd befattning** vid brunnsanläggningen, med ansvar för gästernas rum. |
+| 1822–1823 och 1830 | `Rumormästaren` | Medevi Brunn | [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md), [C-0301](../citations/C-0301-and-gustaf-ajax-fodd-vastra-ny-1823.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | En anställd befattning vid brunnsanläggningen, med ansvar för gästernas rum. |
 | 1826 | `BrunnsDräng.` | Medevi Brunn | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | Den lägsta ställningen i följden. |
 | 1828 | `Skom.` | Medevi Brunn | [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md) | Hantverksyrke; återkommer i den sista längden. |
-| 1837–1846 | `Rumormästaren och Skom:` | Medevi Brunn | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | **Två yrken samtidigt** i den sista längden. |
+| 1837–1846 | `Rumormästaren och Skom:` | Medevi Brunn | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Två yrken samtidigt i den sista längden. |
 
 **Följden är aktens enda uppgift om social rörlighet:** från åboskap med egen
 jord till anställning vid en brunnsanläggning, med ett hantverk som andra
@@ -136,8 +136,8 @@ brunnsanläggningens egna handlingar är sökta.
 Inget militärt, civilt eller rättsligt material är sökt. Han var i
 beväringsålder omkring 1810 om det uppgivna födelseåret är riktigt, men
 ingången saknas utan exakt födelsedag och utan rote- eller
-hemmansbeteckning. **Namnet `Ajax` är av den typ som förekommer som
-soldatnamn** — det är en möjlig men helt oprövad förklaring till ett
+hemmansbeteckning. Namnet `Ajax` är av den typ som förekommer som
+soldatnamn — det är en möjlig men helt oprövad förklaring till ett
 familjenamn utan patronymisk form, och den prövas i profilens Q-02.
 
 ## Hälsa och död
@@ -163,7 +163,7 @@ material och ingen egen hand är känd.
 
 Petter Ajax var **åbo** i Stordalen i Hammar när hans dotter Eleonora
 Gustava föddes den 4 mars 1817. Fem år och två söner senare, 1822, flyttade
-familjen till **Medevi Brunn** i Västra Ny, där han arbetade resten av sitt
+familjen till Medevi Brunn i Västra Ny, där han arbetade resten av sitt
 belagda liv.
 [C-0289](../citations/C-0289-eleonora-gustava-ajax-fodd-hammar-1817.md),
 [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md)
@@ -171,7 +171,7 @@ belagda liv.
 Granskningen 2026-09-09 sammanställde två serier som legat i akten utan att
 läsas som serier.
 
-Den första är hans **yrke i sex handlingar över tjugonio år**: `Åbon` 1817,
+Den första är hans yrke i sex handlingar över tjugonio år: `Åbon` 1817,
 `Rumormästaren` 1822 och 1823, `BrunnsDräng.` 1826, `Skom.` 1828 och
 `Rumormästaren och Skom:` 1837–1846. Variationen är inte en motsägelse utan
 en **följd**: från eget åboskap till anställning vid en brunnsanläggning, med
@@ -182,7 +182,7 @@ Den andra är **hustruns tre åldrar** i barnens födelseposter — 34 i januari
 1826, 36 i september 1828 och 38 i maj 1830. Talen stämmer inbördes exakt,
 +2 år över två år och +2 över två år till, vilket gör dem till en
 konsistenskontroll av tre oberoende poster och ger hennes födelsetid till
-omkring 1791–1792. **Makarna var alltså jämnåriga.**
+omkring 1791–1792. Makarna var alltså jämnåriga.
 [A-7641](#påståenden)
 
 Familjen har **sju originalbelagda barn** födda 1817–1830, samtliga med egen
@@ -198,18 +198,18 @@ från propagation. [A-3255](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Vad döljer sig i `17 p.262 d.b.`?** Hänvisningen på Stordalen sida 266
+- Vad döljer sig i `17 p.262 d.b.`? Hänvisningen på Stordalen sida 266
   pekar på en intern tidigare post 1817. Sida 263 är kontrollerad utan paret;
   **262 är oläst**, och passagen ägs av
   [T-0329](../../wotan/dev-log/T-0329.md).
-- **Är `Ajax` ett soldatnamn?** Ett familjenamn utan patronymisk form i
+- Är `Ajax` ett soldatnamn? Ett familjenamn utan patronymisk form i
   bondemiljö har ofta militärt ursprung, och `Peterson`-formen i A I/3 b
   visar att patronymikonet fanns kvar parallellt. Se
   [profilens Q-02](../research-profiles/P-0266.md#forskningsfrågor).
-- **Västra Nys dödbok omkring 1854** är oprövad och skulle ge en uppgiven
+- Västra Nys dödbok omkring 1854 är oprövad och skulle ge en uppgiven
   ålder — den enda oberoende prövningen av födelseåret 1791.
-- **Adelide Amalias biologiska föräldraskap är olöst** och propageras inte.
-- **Kandidaten `Peter Magnus` 1791 väljs inte.** Namn-, år- och
+- Adelide Amalias biologiska föräldraskap är olöst och propageras inte.
+- Kandidaten `Peter Magnus` 1791 väljs inte. Namn-, år- och
   patronymikonlikhet räcker inte utan mellanlänk.
 - Ingen aktiv konflikt finns i hans egna uppgifter. Dotterns rådatum `4
   april` i Stordalenboken står mot födelsepostens `4 mars` och är **bevarat**
@@ -220,8 +220,8 @@ från propagation. [A-3255](#påståenden)
 - Status: `IDENTITET OLÖST`
 - Förväntad källa: en personbunden hushålls-, flytt-, vigsel-, yrkes- eller
   dödskedja från Stordalen bakåt till ett föräldrahem i Motala; i andra hand
-  **Västra Nys dödbok omkring 1854**, som skulle ge en uppgiven ålder, och
-  **Medevi Brunns egna handlingar**, där en anställd rumormästare kan vara
+  Västra Nys dödbok omkring 1854, som skulle ge en uppgiven ålder, och
+  Medevi Brunns egna handlingar, där en anställd rumormästare kan vara
   namngiven.
 - Genomsökt: den säkra Stordalen–Medevi-kedjan i sex handlingar samt hela
   Motala C/3:s födelseår 1791, C-0289–C-0297 och C-0862.
@@ -229,8 +229,8 @@ från propagation. [A-3255](#påståenden)
   ger en enda förnamnskandidat, Peter Magnus den 12 april, men inget
   Ajax-led eller någon mellanlänk till den vuxne mannen.
 - Återaktivering: en positiv källa som förenar Stordalenpersonen med
-  Herrqvarnen eller ett annat bestämt föräldrahem. **Namn-, år- och
-  patronymikonlikhet räcker inte.** Nya ingångar 2026-09-09: dödboken 1854
+  Herrqvarnen eller ett annat bestämt föräldrahem. Namn-, år- och
+  patronymikonlikhet räcker inte. Nya ingångar 2026-09-09: dödboken 1854
   och brunnsanläggningens personalhandlingar.
 
 ## Historik och rättelser
@@ -238,7 +238,7 @@ från propagation. [A-3255](#påståenden)
 **T-0173, 2026-09-09.** Akten har förts till `person-dossier/v1` och fått sin
 första tidslinje, sitt första tematiska innehåll, sin första berättelse och
 sin första profil. Inget A-id är borttaget; A-7640–A-7642 tillkommer som
-**synteser av redan lästa belägg**, utan ny arkivåtkomst.
+synteser av redan lästa belägg, utan ny arkivåtkomst.
 
 **Två serier låg i akten utan att vara sammanställda.** Yrkesorden i sex
 handlingar stod i fem skilda påståenden utan att någon läst dem som en följd,

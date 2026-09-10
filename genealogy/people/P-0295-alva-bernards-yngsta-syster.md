@@ -24,7 +24,7 @@ avsiktligt isär tills en arkivkälla kunde pröva om `Alva` var samma kvinna
 eller en åttonde dotter.
 
 Prövningen är gjord. 1930 års folkräkning för Kyrkefalla med Tibro
-municipalsamhälle skriver **Alva Viktoria f. Eliasson, född 1904 i Värsås**,
+municipalsamhälle skriver Alva Viktoria f. Eliasson, född 1904 i Värsås,
 gift med slaktaren Gustaf Tobias Lundkvist i Smuleberg, med modern Augusta
 Viktoria som `h. m.` i samma hushåll
 ([C-0417](../citations/C-0417-folkrakning-1930-augusta-alva-smuleberg.md)).

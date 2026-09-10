@@ -4,7 +4,7 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0166.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Den gamla bedömningen
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Den gamla bedömningen
   byggde på att Stockholms mantalsregister var uttömt för honom. Det nollet
   ställdes mot förnamnet `James`, som inte står i källan; registret är oprövat
   på `Jonas`. Dessutom är dotterns dopnotis och Ljustorpsanteckningen digitala
@@ -21,7 +21,7 @@ nya registerprövningen; det görs inte halvt här.
 
 ## Identitet
 
-Han är känd ur **en enda rad i ett enda original**: Allmänna barnhusets rulla
+Han är känd ur en enda rad i ett enda original: Allmänna barnhusets rulla
 nummer 2532 namnger `Fadren Fabriks Arbetaren Jonas Schölin` som far till
 barnhusflickan Margreta Charlotta Schölin, antagen till underhåll i juni 1831.
 Rullan skiljer uttryckligen `Fadren` från `Uppfostras af`, som gäller
@@ -57,12 +57,12 @@ finnas i `E 5`-intagningshandlingen, som är läsesalsbunden.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-2564 | Barnhusrulla 2532 namnger fabriksarbetaren **Jonas** Schölin som Margreta Charlotta Schölins far. | TRANSCRIBED | mycket hög | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Rullan skiljer uttryckligen `Fadren` från fosterbonden Nils Larsson. **Rättat 2026-09-09 (T-0166):** förnamnet lästes `James`; rullan skriver `Jonas`. Den gamla lydelsen bevaras i Historik och rättelser. |
+| A-2564 | Barnhusrulla 2532 namnger fabriksarbetaren Jonas Schölin som Margreta Charlotta Schölins far. | TRANSCRIBED | mycket hög | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Rullan skiljer uttryckligen `Fadren` från fosterbonden Nils Larsson. Rättat 2026-09-09 (T-0166): förnamnet lästes `James`; rullan skriver `Jonas`. Den gamla lydelsen bevaras i Historik och rättelser. |
 | A-7200 | Förnamnet i rullans faderrad är `Jonas`, inte `James`. | TRANSCRIBED | hög | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Läst i den lokalt sparade rullan vid förstoring 2026-09-09 och kontrollerad centralt; i T-0166 dessutom kontrollerad på ett 400 dpi-utsnitt av faderraden. Bokstavsföljden är `J-o-n-a-s` med skrivarens öglade `J`; formen saknar det `m` och det avslutande `e` som `James` skulle kräva. Efternamnet `Schölin` står oförändrat. |
-| A-7201 | Rullans uppslag har fyra tryckta kolumner: `Antagne till underhåll.`, `Barnens namn, härkomst och Foster-Föräldrar.`, `Årligt Underhåll.` och `Afmönstrade.` Alla fyra är lästa. De tre första är ifyllda; `Afmönstrade.` har enbart sina tryckta kvartalsrader `1 Qv.` till `4 —` med årsprefixet `18` och innehåller ingen ifylld uppgift. | TRANSCRIBED | hög | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Rubrikraden är läst i samma utsnitt som datacellerna enligt aktstandardens kolumnkrav. Det tryckta `18` hör till `Afmönstrade.`s kvartalsrader som årsprefix och är **inte** ett underhållsbelopp; underhållstalet `20` står till höger om kolumnlinjen, i `Årligt Underhåll.`s vänstra delkolumn. Ingen tryckt kolumn i denna källa är oläst. |
-| A-7202 | Rullan har inget fält för faderns ålder, födelseort, adress, församling, civilstånd, hustru eller föräldrar. Namnet och yrkesbeteckningen är allt formuläret bär om honom. | TRANSCRIBED | hög | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Följer av A-7201. Hans identitetslucka är därmed en **källegenskap**, inte en outvunnen kolumn: ytterligare läsning av just detta uppslag kan inte precisera honom. Fortsättningen ligger i intagningshandlingen `E 5` och i de digitala vägar profilen anger. |
-| A-2566 | **Upphävt som negativt resultat 2026-09-09 (T-0166):** Stockholms mantalsregister 1800–1884 ger ingen träff på den exakta fullnamnsfrågan James Schölin. | REJECTED | låg | [C-0608](../citations/C-0608-james-scholin-mantalsregister-kandidater.md) | Frågan ställdes mot ett namn som inte står i källan; rullan skriver `Jonas`. Nollet prövar alltså fel fråga och bärs inte längre som negativt resultat. Den ursprungliga observationen — att sökningen på `James` gav noll — består och är korrekt återgiven; det är dess räckvidd som är upphävd. Registret är **oprövat** på `Jonas Schölin`. T-0484. |
-| A-2567 | Mantalsregistret 1830 har två J Schölin: en handskmakeriarbetare i Maria norra nr 968 med ett Schölin-hushåll och en timmerman i Ladugårdsland nedre nr 1959. | LEAD | medel | [C-0608](../citations/C-0608-james-scholin-mantalsregister-kandidater.md) | Ingen av posterna förenas här; inga hushållsmedlemmar skapas som släktingar. **Omvärderat 2026-09-09 (T-0166):** kandidaterna hölls utanför med motiveringen att initial, efternamn och yrke inte räcker för att förena någon med `James`. Med `Jonas` faller den motiveringen — initialen är förenlig — men slutsatsen står kvar av ett annat skäl: `J` täcker även Jan, Johan, Jacob och Jöns, så initialen är förenlig utan att vara utpekande. Båda posterna är nu **direkt prövbara mot ett utskrivet förnamn**. Sammanslagning kräver ett original. T-0484. |
+| A-7201 | Rullans uppslag har fyra tryckta kolumner: `Antagne till underhåll.`, `Barnens namn, härkomst och Foster-Föräldrar.`, `Årligt Underhåll.` och `Afmönstrade.` Alla fyra är lästa. De tre första är ifyllda; `Afmönstrade.` har enbart sina tryckta kvartalsrader `1 Qv.` till `4 —` med årsprefixet `18` och innehåller ingen ifylld uppgift. | TRANSCRIBED | hög | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Rubrikraden är läst i samma utsnitt som datacellerna enligt aktstandardens kolumnkrav. Det tryckta `18` hör till `Afmönstrade.`s kvartalsrader som årsprefix och är inte ett underhållsbelopp; underhållstalet `20` står till höger om kolumnlinjen, i `Årligt Underhåll.`s vänstra delkolumn. Ingen tryckt kolumn i denna källa är oläst. |
+| A-7202 | Rullan har inget fält för faderns ålder, födelseort, adress, församling, civilstånd, hustru eller föräldrar. Namnet och yrkesbeteckningen är allt formuläret bär om honom. | TRANSCRIBED | hög | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) | Följer av A-7201. Hans identitetslucka är därmed en källegenskap, inte en outvunnen kolumn: ytterligare läsning av just detta uppslag kan inte precisera honom. Fortsättningen ligger i intagningshandlingen `E 5` och i de digitala vägar profilen anger. |
+| A-2566 | Upphävt som negativt resultat 2026-09-09 (T-0166): Stockholms mantalsregister 1800–1884 ger ingen träff på den exakta fullnamnsfrågan James Schölin. | REJECTED | låg | [C-0608](../citations/C-0608-james-scholin-mantalsregister-kandidater.md) | Frågan ställdes mot ett namn som inte står i källan; rullan skriver `Jonas`. Nollet prövar alltså fel fråga och bärs inte längre som negativt resultat. Den ursprungliga observationen — att sökningen på `James` gav noll — består och är korrekt återgiven; det är dess räckvidd som är upphävd. Registret är oprövat på `Jonas Schölin`. T-0484. |
+| A-2567 | Mantalsregistret 1830 har två J Schölin: en handskmakeriarbetare i Maria norra nr 968 med ett Schölin-hushåll och en timmerman i Ladugårdsland nedre nr 1959. | LEAD | medel | [C-0608](../citations/C-0608-james-scholin-mantalsregister-kandidater.md) | Ingen av posterna förenas här; inga hushållsmedlemmar skapas som släktingar. Omvärderat 2026-09-09 (T-0166): kandidaterna hölls utanför med motiveringen att initial, efternamn och yrke inte räcker för att förena någon med `James`. Med `Jonas` faller den motiveringen — initialen är förenlig — men slutsatsen står kvar av ett annat skäl: `J` täcker även Jan, Johan, Jacob och Jöns, så initialen är förenlig utan att vara utpekande. Båda posterna är nu direkt prövbara mot ett utskrivet förnamn. Sammanslagning kräver ett original. T-0484. |
 
 ## Relationer
 
@@ -71,7 +71,7 @@ finnas i `E 5`-intagningshandlingen, som är läsesalsbunden.
 | [P-0339 Margareta Charlotta Sjödin/Sjölin, f. Schölin](P-0339-margareta-charlotta-sjodin.md) | dotter | Barnhusrulla 2532, juni 1831; hon född 1825-08-13 | TRANSCRIBED | [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md) |
 
 Barnets mor är inte namngiven i rullan och har ingen kandidat. Fosterbonden
-**Nils Larsson** i Löfberg och den senare förmyndaren **Lars Persson** i Löfberg
+**Nils Larsson** i Löfberg och den senare förmyndaren Lars Persson i Löfberg
 är omsorgsroller kring dottern och görs inte till släktingar till honom; de
 redovisas i [P-0339](P-0339-margareta-charlotta-sjodin.md#relationer). Att en
 förmyndare utses 1854 är inget belägg för att han då var död.
@@ -160,7 +160,7 @@ torparbonden Nils Larsson i Löfberg i Ljustorps socken i Västernorrlands län.
 Det är allt projektet vet om Jonas Schölin.
 [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md)
 
-Två drag i den raden är ändå upplysande. Barnet **bär hans efternamn** och han
+Två drag i den raden är ändå upplysande. Barnet bär hans efternamn och han
 står som `Fadren` i en handling där fosterföräldern samtidigt skrivs `Uppfostras
 af` — han var en erkänd far, inte en namnlös uppgift. Och barnet var **sex år**,
 inte spädbarn. Barnhusets barn kom normalt in som nyfödda; en sexåring som
@@ -182,8 +182,8 @@ med ett så ovanligt namn. Rullan skriver `Jonas`. Nollet prövade därmed en fr
 som källan aldrig ställde, och det bärs inte längre som negativt resultat.
 Kandidaterna är samtidigt inte längre uteslutna av namnet — men de blir inte
 heller utpekade av det, eftersom `J` i registret lika väl kan vara Jan, Johan,
-Jacob eller Jöns. Det de nu är, och inte var förut, är **direkt prövbara mot ett
-utskrivet förnamn**. [A-2566](#påståenden), [A-2567](#påståenden), T-0484
+Jacob eller Jöns. Det de nu är, och inte var förut, är direkt prövbara mot ett
+utskrivet förnamn. [A-2566](#påståenden), [A-2567](#påståenden), T-0484
 
 ## Forskningsfrågor och konflikter
 
@@ -192,7 +192,7 @@ utskrivet förnamn**. [A-2566](#påståenden), [A-2567](#påståenden), T-0484
   om barnets mor och dopförsamling, [Q-02](../research-profiles/P-0454.md#forskningsfrågor)
   om händelsen kring 1830–31 och [Q-04](../research-profiles/P-0454.md#forskningsfrågor)
   om intagningshandlingen.
-- **Söknyckeln är ny och oprövad.** Stockholms mantalsregister är inte sökt på
+- Söknyckeln är ny och oprövad. Stockholms mantalsregister är inte sökt på
   `Jonas Schölin`, och 1829 års S-register för Stadens södra och västra distrikt
   lästes med den felaktiga nyckeln. T-0484 äger prövningen.
 - Ingen sammanslagning med någon `J Schölin` görs. Initialen är förenlig med
@@ -222,7 +222,7 @@ utskrivet förnamn**. [A-2566](#påståenden), [A-2567](#påståenden), T-0484
 - Negativ kontroll: [C-0608](../citations/C-0608-james-scholin-mantalsregister-kandidater.md)
   — gäller fullnamnsfrågan `James` och är upphävd som negativt resultat för
   personen, se [A-2566](#påståenden).
-- Återaktivering: statusen gäller **`E 5`-serien, inte personen.** Tre digitala
+- Återaktivering: statusen gäller `E 5`-serien, inte personen. Tre digitala
   vägar står öppna före varje läsesalsbesök: mantalsregistret på `Jonas
   Schölin` (T-0484), dotterns dopnotis 1825-08-13 och Ljustorps barnhus- eller
   inflyttningsanteckning för flickan. Läs därefter `E 5` på plats i Stockholms
@@ -235,10 +235,10 @@ utskrivet förnamn**. [A-2566](#påståenden), [A-2567](#påståenden), T-0484
 assertion är borttagen; A-7201 och A-7202 tillkommer ur samma redan sparade
 rulla utan ny arkivåtkomst. Två sakliga ändringar utöver formatet:
 
-1. **Förnamnet.** `James` är ett avskriftsfel. Rullan skriver `Jonas`
+1. Förnamnet. `James` är ett avskriftsfel. Rullan skriver `Jonas`
    ([A-7200](#påståenden)). A-2564 är omformulerad, A-2566 upphävd som negativt
    resultat och A-2567 omvärderad. Titel och filnamn byts av T-0484.
-2. **Källbredden.** `KLAR` är ändrad till `PÅGÅR`. Den gamla bedömningen lät ett
+2. Källbredden. `KLAR` är ändrad till `PÅGÅR`. Den gamla bedömningen lät ett
    frågenoll mot ett felläst namn stänga en digital källväg, och lade hela
    fortsättningen på en läsesalsbunden handling.
 

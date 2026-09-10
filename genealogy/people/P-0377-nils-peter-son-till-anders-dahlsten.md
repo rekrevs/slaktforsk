@@ -117,8 +117,8 @@ Sedan tar det slut. A I/7 avslutas 1854, när han var tjugotre år, och ingen se
 
 Se [profilens frågor och källvägar](../research-profiles/P-0377.md#forskningsfrågor). Sammanfattat:
 
-- **Egen födelsepost 1831.** Indal C/4 är öppnad för fyra andra syskon men aldrig för årgången 1831. En träff skulle ge dopdag, faddrar, moderns ålder och föräldrarnas hemvist; en genomläst årgång utan träff skulle göra ortuppgiften till en verklig konflikt.
-- **Livet efter 1854.** Ingen senare hushållsbok, flyttlängd, vigsel eller dödbok är prövad.
+- Egen födelsepost 1831. Indal C/4 är öppnad för fyra andra syskon men aldrig för årgången 1831. En träff skulle ge dopdag, faddrar, moderns ålder och föräldrarnas hemvist; en genomläst årgång utan träff skulle göra ortuppgiften till en verklig konflikt.
+- Livet efter 1854. Ingen senare hushållsbok, flyttlängd, vigsel eller dödbok är prövad.
 - **Namnformerna** `Nils Petter` och `Nils Peter` måste båda ingå i sökningar.
 - **Ortuppgiften `Indahl`** står i samma kolumn som föräldrarnas obekräftade sockenuppgift och är därför inte oberoende.
 - Ingen konkurrerande identitet finns, men han ska hållas skild från systersonen [P-0407 Nils Petter Larsson](P-0407-nils-petter-larsson.md), född 1865 i Sättna.

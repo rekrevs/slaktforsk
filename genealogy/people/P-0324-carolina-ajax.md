@@ -4,8 +4,8 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0173.
-- Källbredd: `PÅGÅR` — hennes egen **utflyttningsnot till Motala 1842, besked
-  76**, är belagd men den riktade registerposten är osökt, och hennes
+- Källbredd: `PÅGÅR` — hennes egen utflyttningsnot till Motala 1842, besked
+  76, är belagd men den riktade registerposten är osökt, och hennes
   dopnotis vittnesled är förda som prosa i en följdnot utan att bli
   påståenden.
 - Identitetsgranskning: `GODKÄND`
@@ -37,7 +37,7 @@ utflyttningsnoten till Motala 1842.
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Carolina | Egen födelsenotis 1826 och två hushållslängder | TRANSCRIBED | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Endast förnamnet står i posterna; `Ajax` följer av faderns familjenamn. |
-| Carolina Ajax / Carolina Petersdotter | Sökformer | LEAD | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | **Familjenamnet `Ajax` är ovanligt** och är hennes starkaste nyckel — men en dotter kunde också skrivas med patronymikon, `Petersdotter`, i senare källor. Båda formerna måste prövas. |
+| Carolina Ajax / Carolina Petersdotter | Sökformer | LEAD | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | Familjenamnet `Ajax` är ovanligt och är hennes starkaste nyckel — men en dotter kunde också skrivas med patronymikon, `Petersdotter`, i senare källor. Båda formerna måste prövas. |
 
 ## Påståenden
 
@@ -50,10 +50,10 @@ utflyttningsnoten till Motala 1842.
 | A-1869 | Hon föddes 1826-01-28; födelseposten anger föräldrarnas hemvist Medevi Brunn. | CORROBORATED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) | Samtida födelsenotis och två hushållslängder sammanfaller. |
 | A-1870 | Hon döptes 1826-01-29. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | Samtida dopkolumn. |
 | A-1871 | Födelsenotisen namnger brunnsdrängen Petter Ajax och Carin Jonsdotter som hennes föräldrar. | CORROBORATED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) | Föräldraparet och dottermarkören sammanfaller. |
-| A-7650 | Hennes dopnotis namnger fyra vittnesled: `Jan Andersson` och hustrun `Eva Lotta Carlsdotter`, båda vid Medevi Brunn, `drängen Anders Persson i Adamsberg` och `pigan Ulla And.Dotter i Kydan[?]`. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | Fört som eget påstående 2026-09-09. Vittnena utvanns i **T-0141** men stod kvar som prosa i en följdnot utan att bli ett påstående eller en söknyckel. **Inget vittne bär faderns familjenamn eller moderns patronymikon.** Den sista ortformen och patronymikonsförkortningen bär läsreservation och normaliseras inte. Ingen släktskap är belagd. |
-| A-7651 | Hennes egen utflyttningskolumn i A I/8 anger **Motala 1842, besked 76**. | TRANSCRIBED | hög | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Fört som eget påstående 2026-09-09; uppgiften stod som forskningsfråga men inte som sakuppgift. Hon var då **sexton år**, alltså i tjänsteålder. **Besked 76 är ett flyttningsbeskedsnummer**, vilket gör Västra Nys utflyttningslängd och Motalas inflyttningslängd till två riktade, oprövade passager — inte en bred sökning. Noteringen är ingen exakt fysisk resdag. |
-| A-7652 | Moderns ålder anges `34` i hennes dopnotis, och samma serie ger `36` 1828 och `38` 1830. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | Fört som eget påstående 2026-09-09. **De tre talen stämmer inbördes exakt** — +2 år över två år, två gånger — vilket gör dem till en konsistenskontroll av tre oberoende poster och bekräftar att hennes egen post är förd i samma korrekta serie. Slutsatsen om moderns födelsetid, omkring 1791–1792, ägs av [P-0267](P-0267-katarina-carin-jonsdotter.md) och är rapporterad dit. |
-| A-7653 | Hennes egen rad i kolumnen `Särskildte Anteckningar` bär noteringen `Cat: 41`, som anger **hennes första nattvardsgång 1841**, femton år gammal. | TRANSCRIBED | medel | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Fört som eget påstående 2026-09-09 efter förstoring. Talet stod i akten som ett oidentifierat marginaltal. **Innebörden är fastställd genom positiv kontroll i samma uppslag:** `Cat:`-noteringen finns på exakt de tre hushållsrader vars femtonårsdag faller inom bokens period 1837–1846 — Carl Gustaf född 1823 har `38`, hon född 1826 har `41`, Frans Ludvig född 1830 har `4[5?]` — och saknas på alla fem övriga rader, vars femtonårsdag faller före eller efter boken. Två av talen ger ålder 14–15 exakt. Innebörden är därmed `SANNOLIKT`, inte styrkt av en tryckt rubrik; kolumnrubriken är `Särskildte Anteckningar` och namnger ingen nattvard. |
+| A-7650 | Hennes dopnotis namnger fyra vittnesled: `Jan Andersson` och hustrun `Eva Lotta Carlsdotter`, båda vid Medevi Brunn, `drängen Anders Persson i Adamsberg` och `pigan Ulla And.Dotter i Kydan[?]`. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) | Fört som eget påstående 2026-09-09. Vittnena utvanns i T-0141 men stod kvar som prosa i en följdnot utan att bli ett påstående eller en söknyckel. Inget vittne bär faderns familjenamn eller moderns patronymikon. Den sista ortformen och patronymikonsförkortningen bär läsreservation och normaliseras inte. Ingen släktskap är belagd. |
+| A-7651 | Hennes egen utflyttningskolumn i A I/8 anger Motala 1842, besked 76. | TRANSCRIBED | hög | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Fört som eget påstående 2026-09-09; uppgiften stod som forskningsfråga men inte som sakuppgift. Hon var då sexton år, alltså i tjänsteålder. Besked 76 är ett flyttningsbeskedsnummer, vilket gör Västra Nys utflyttningslängd och Motalas inflyttningslängd till två riktade, oprövade passager — inte en bred sökning. Noteringen är ingen exakt fysisk resdag. |
+| A-7652 | Moderns ålder anges `34` i hennes dopnotis, och samma serie ger `36` 1828 och `38` 1830. | TRANSCRIBED | hög | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) | Fört som eget påstående 2026-09-09. De tre talen stämmer inbördes exakt — +2 år över två år, två gånger — vilket gör dem till en konsistenskontroll av tre oberoende poster och bekräftar att hennes egen post är förd i samma korrekta serie. Slutsatsen om moderns födelsetid, omkring 1791–1792, ägs av [P-0267](P-0267-katarina-carin-jonsdotter.md) och är rapporterad dit. |
+| A-7653 | Hennes egen rad i kolumnen `Särskildte Anteckningar` bär noteringen `Cat: 41`, som anger hennes första nattvardsgång 1841, femton år gammal. | TRANSCRIBED | medel | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Fört som eget påstående 2026-09-09 efter förstoring. Talet stod i akten som ett oidentifierat marginaltal. Innebörden är fastställd genom positiv kontroll i samma uppslag: `Cat:`-noteringen finns på exakt de tre hushållsrader vars femtonårsdag faller inom bokens period 1837–1846 — Carl Gustaf född 1823 har `38`, hon född 1826 har `41`, Frans Ludvig född 1830 har `4[5?]` — och saknas på alla fem övriga rader, vars femtonårsdag faller före eller efter boken. Två av talen ger ålder 14–15 exakt. Innebörden är därmed `SANNOLIKT`, inte styrkt av en tryckt rubrik; kolumnrubriken är `Särskildte Anteckningar` och namnger ingen nattvard. |
 
 ## Relationer
 
@@ -65,7 +65,7 @@ utflyttningsnoten till Motala 1842.
 | [P-0325 Frans Ludvig Ajax](P-0325-frans-ludvig-ajax.md) | bror | Familjen Ajax | CORROBORATED | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) |
 | [P-0328 Anna Josephina Ajax](P-0328-anna-josephina-ajax.md) | syster | Familjen Ajax | CORROBORATED | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) |
 
-Hon har **fyra ytterligare belagda syskon** — Carl Johan, Adolf Fredrik,
+Hon har fyra ytterligare belagda syskon — Carl Johan, Adolf Fredrik,
 And. Gustaf och den dottermarkerade `Adelide Amalia`, vars biologiska
 föräldraskap är olöst — och de förs i faderns akt, se
 [P-0266](P-0266-petter-gustav-ajax-persson.md) A-7642. Ingen egen familj är
@@ -78,8 +78,8 @@ belagd.
 | 1826-01-28 | Född | Medevi Brunn, Västra Ny | — | Föräldrarna och äldre syskon | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) |
 | 1826-01-29 | Döpt, med fyra vittnesled ur brunnsmiljön och två grannbyar | Västra Ny | — | — | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md) |
 | 1837–1842 | Egen rad som dotter i faderns hushåll | Medevi Brunn, sida 302 | — | Föräldrarna och syskon | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) |
-| 1841 | **Första nattvardsgången**, femton år gammal, enligt noteringen `Cat: 41` på hennes egen rad | Västra Ny | — | Föräldrahemmet | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) |
-| 1842 | Utflyttad till **Motala**, besked 76; hon är då sexton år | Från Medevi Brunn | — | — | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) |
+| 1841 | Första nattvardsgången, femton år gammal, enligt noteringen `Cat: 41` på hennes egen rad | Västra Ny | — | Föräldrahemmet | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) |
+| 1842 | Utflyttad till Motala, besked 76; hon är då sexton år | Från Medevi Brunn | — | — | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) |
 
 **Efter 1842 är hon obelagd.**
 
@@ -88,14 +88,14 @@ belagd.
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
 | 1826–1842 | Medevi Brunn | Västra Ny församling | [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md), [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Hennes enda belagda hemvist, i föräldrahemmet. |
-| 1842 | Till **Motala**, besked 76 | — | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | **Beskedsnumret gör flyttningen riktat sökbar** i två längder. Noteringen är inte en exakt fysisk resdag; se A-7651. |
+| 1842 | Till Motala, besked 76 | — | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Beskedsnumret gör flyttningen riktat sökbar i två längder. Noteringen är inte en exakt fysisk resdag; se A-7651. |
 
 ## Yrke, utbildning och ekonomi
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1837–1842 | Ingen egen ståndsuppgift; hon står som dotter i ett rumormästar- och skomakarhushåll | Medevi Brunn, Västra Ny | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Att hon flyttade vid sexton års ålder är förenligt med tjänst, men **ingen tjänsteuppgift är belagd** och ingen antas. |
-| 1841 | **Första nattvardsgången** vid femton års ålder, `Cat: 41` | Västra Ny församling | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Tidens enda formella utbildningsmilstolpe för en bondflicka: nattvardsgången förutsatte godkänd katekesundervisning. Hennes läskolumner i samma längd står `a`/`a`/`hela[?]`, alltså med den sista uppgiften överarbetad och reserverad. Innebörden av `Cat:` är fastställd genom positiv kontroll; se A-7653. |
+| 1837–1842 | Ingen egen ståndsuppgift; hon står som dotter i ett rumormästar- och skomakarhushåll | Medevi Brunn, Västra Ny | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Att hon flyttade vid sexton års ålder är förenligt med tjänst, men ingen tjänsteuppgift är belagd och ingen antas. |
+| 1841 | Första nattvardsgången vid femton års ålder, `Cat: 41` | Västra Ny församling | [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md) | Tidens enda formella utbildningsmilstolpe för en bondflicka: nattvardsgången förutsatte godkänd katekesundervisning. Hennes läskolumner i samma längd står `a`/`a`/`hela[?]`, alltså med den sista uppgiften överarbetad och reserverad. Innebörden av `Cat:` är fastställd genom positiv kontroll; se A-7653. |
 
 ## Militärt, civilt och rättsligt
 
@@ -110,8 +110,8 @@ Inget civilt eller rättsligt spår är sökt.
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
 
-Ingen hälso- eller dödsuppgift finns. **Utflyttningsnoten 1842 visar att hon
-levde då**, sexton år gammal, till skillnad från systern Anna Josephina, vars
+Ingen hälso- eller dödsuppgift finns. Utflyttningsnoten 1842 visar att hon
+levde då, sexton år gammal, till skillnad från systern Anna Josephina, vars
 död 1829 står i samma boksvit.
 
 ## Media och personliga källor
@@ -129,16 +129,16 @@ Inget personligt material och ingen egen hand är känd.
 Carolina Ajax föddes den 28 januari 1826 vid **Medevi Brunn** i Västra Ny och
 döptes dagen därpå. Hennes far skrivs i just den posten `BrunnsDräng.` — den
 lägsta punkten i hans yrkesföljd — och fyra vittnesled antecknades: ett par
-vid brunnen, en dräng i Adamsberg och en piga i `Kydan[?]`. **Inget vittne
-bär föräldrarnas namn.** [A-7650](#påståenden)
+vid brunnen, en dräng i Adamsberg och en piga i `Kydan[?]`. Inget vittne
+bär föräldrarnas namn. [A-7650](#påståenden)
 
 Granskningen 2026-09-09 gjorde två uppgifter till sakuppgifter. Den första är
-hennes **utflyttning till Motala 1842, besked 76** — hon var då sexton år, i
+hennes utflyttning till Motala 1842, besked 76 — hon var då sexton år, i
 tjänsteålder. Beskedsnumret gör flyttningen **riktat sökbar** i Västra Nys
 utflyttningslängd och Motalas inflyttningslängd, alltså två avgränsade
 passager i stället för en bred sökning. [A-7651](#påståenden)
 
-Den andra är att **moderns ålder `34` i hennes egen post ingår i en serie**
+Den andra är att moderns ålder `34` i hennes egen post ingår i en serie
 som stämmer: 34 år 1826, 36 år 1828 och 38 år 1830, tre oberoende poster med
 exakt två års steg. Serien bekräftar att hennes egen post är förd i samma
 korrekta följd. [A-7652](#påståenden)
@@ -147,35 +147,35 @@ Den tredje ger henne en **egen livshändelse**. På hennes rad i kolumnen
 `Särskildte Anteckningar` står `Cat: 41`, ett tal som legat i akten utan
 innebörd. Förstoringen 2026-09-09 visade att noteringen finns på exakt de tre
 hushållsrader vars femtonårsdag faller inom bokens period — och saknas på de
-fem andra. Talet är alltså **året för hennes första nattvardsgång, 1841**, då
+fem andra. Talet är alltså året för hennes första nattvardsgång, 1841, då
 hon var femton år. [A-7653](#påståenden)
 
 Ordningen blir därmed sammanhängande: konfirmerad i Västra Ny 1841, utflyttad
-till Motala året därpå. **Nattvardsgången var det som gjorde henne
-tjänstbar.** Efter 1842 är hon obelagd.
+till Motala året därpå. Nattvardsgången var det som gjorde henne
+tjänstbar. Efter 1842 är hon obelagd.
 
 ## Forskningsfrågor och konflikter
 
-- **Vart tog hon vägen 1842?** `Besked 76` gör flyttningen riktat sökbar. Se
+- Vart tog hon vägen 1842? `Besked 76` gör flyttningen riktat sökbar. Se
   [profilens Q-01](../research-profiles/P-0324.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0324.md#källvägar).
-- **Dopvittnena bär inte föräldrarnas namn**, så de ger ingen släktväg —
+- Dopvittnena bär inte föräldrarnas namn, så de ger ingen släktväg —
   men orterna `Adamsberg` och `Kydan[?]` är nya i akten. KP-02.
-- **Hennes vuxna liv är obelagt.** Motalas längder är den enda kända
+- Hennes vuxna liv är obelagt. Motalas längder är den enda kända
   ingången.
 - Ingen aktiv konflikt finns. Födelsedatumet står lika i tre handlingar.
 
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Västra Nys utflyttningslängd 1842 och Motalas
-  inflyttningslängd samma år**, sökta på `besked 76`; därefter Motalas
+- Förväntad källa: Västra Nys utflyttningslängd 1842 och Motalas
+  inflyttningslängd samma år, sökta på `besked 76`; därefter Motalas
   husförhörslängder.
 - Genomsökt: hennes egen födelse- och dopnotis, nu utvunnen inklusive
   vittnesleden, samt två successiva husförhörslängder med hennes egen rad och
   utflyttningsnot.
 - Negativ kontroll: [C-0302](../citations/C-0302-carolina-ajax-fodd-vastra-ny-1826.md)
-  namnger fyra vittnesled, men **inget bär föräldrarnas namn**; dopvägen till
+  namnger fyra vittnesled, men inget bär föräldrarnas namn; dopvägen till
   släkten är därmed prövad och stängd i hennes post.
 - Återaktivering: den riktade registerposten för `besked 76` i Motala 1842.
   Noteringen är inte en exakt fysisk resdag, och ingen namne i Motala väljs

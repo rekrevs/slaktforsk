@@ -4,10 +4,10 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0168.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Den gamla bedömningen
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Den gamla bedömningen
   kallade hennes egna exakta datum `berikning`. Hennes födelseår är nu belagt
-  av tre förenliga källor, men **hennes dödsdatum har fått ett nytt hinder
-  och hennes föräldrars uppgifter en ny konflikt** — båda upptäckta i redan
+  av tre förenliga källor, men hennes dödsdatum har fått ett nytt hinder
+  och hennes föräldrars uppgifter en ny konflikt — båda upptäckta i redan
   lästa bilder.
 - Identitetsgranskning: `GODKÄND`
 - Trädverkan: `BÄRANDE`
@@ -48,12 +48,12 @@ däremot okänd, och Degerfors C/2:s hela födelseår 1809 saknar henne.
 |---|---|---|---|---|---|
 | A-2830 | Beata Jonsdotter i Ånäset var mor till Sara Sophia, född 1829-05-21; hon gifte sig med Petter Reinhold Pehrsson 1826 och två senare hushållsvolymer listar dottern bland deras barn. A I/6b anger hennes dödsår 1852. | CORROBORATED | mycket hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Vigselpost och två uttryckliga familjehushåll. Födelseåret 1809 och dödsåret 1852 är husförhörsuppgifter; exakta datum och egen födelseort återstår. |
 | A-2858 | Degerfors A I/2 sida 179 placerar Beata, född 1809, under `döttr. o. barn` till Jan Larsson och Sara Lisa Jonsdotter i Ånäset; A I/3–A I/4 följer henne där som Petter Reinholds hustru efter vigseln 1826. | CORROBORATED | mycket hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Namn, år, ort, vigselår och sammanhängande hushåll sluter identiteten och föräldralänken. |
-| A-2859 | Degerfors C/2:s kompletta födelseföljd 1809 saknar Beata. Riksarkivets registerfråga 1808–1810 gav elva andra Beata men ingen säker målpost. | NEGATIVE | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Originalnoll är endast volym-, år- och namnbundet; registersvaret har partiell täckning. Föräldralänken påverkas inte. **Tillägg 2026-09-09:** vigselpostens ålder `17` i mars 1826 ger mars 1808 till mars 1809, så **även årgången 1808 måste prövas** innan nollet får någon räckvidd. |
+| A-2859 | Degerfors C/2:s kompletta födelseföljd 1809 saknar Beata. Riksarkivets registerfråga 1808–1810 gav elva andra Beata men ingen säker målpost. | NEGATIVE | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Originalnoll är endast volym-, år- och namnbundet; registersvaret har partiell täckning. Föräldralänken påverkas inte. Tillägg 2026-09-09: vigselpostens ålder `17` i mars 1826 ger mars 1808 till mars 1809, så även årgången 1808 måste prövas innan nollet får någon räckvidd. |
 | A-2864 | C/3:s döddel slutar 1847, F/1 slutar 1800 och F/2 börjar 1862; ingen katalogiserad Degerfors-dödboksföljd som täcker Beatas uppgivna dödsår 1852 identifierades. | TRANSCRIBED | mycket hög | [C-0734](../citations/C-0734-lycksele-route-och-degerfors-dodsboksgap.md) | Kataloggap, inte dödsnoll. Årtalet 1852 står kvar från A I/6b utan konstruerad dag. |
-| A-7340 | Hennes egen rad i A I/3 sida 221 har `1826` i den tryckta kolumnen `Gifto-År` och ett klammermärke i `Läser och förstår`, medan makens rad omedelbart ovanför är tom i båda; hennes `Koppor`, `Hvarifrån` och `Hvarthän` är lästa och tomma. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09; kolumnerna var olästa. **Vigselåret är bokfört bara på hennes rad**, inte på makens — samma mönster som i P-0330:s akt, där det motsatta gäller. Att `Hvarifrån` är tom är förväntat: hon var född i socknen. |
-| A-7341 | Vigselposten 1826 nr 1 anger hennes ålder `17` och hemvist `D:o` — alltså Ånäset, som makens rad ovanför. Formulärets enda tryckta kolumner är nummer, två smala datumkolumner, `Contrahenters Namn`, `Ålder` och `Hemvist`. | TRANSCRIBED | hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Utvunnet 2026-09-09 genom läsning av den tryckta rubrikraden i samma utsnitt. Åldern `17` i mars 1826 ger **mars 1808 till mars 1809** och är en tredje oberoende bekräftelse av födelseåret. **Formuläret har ingen kolumn för föräldrar, födelseort eller förlovningsmän**, så posten kan inte ge hennes födelsedag. |
-| A-7342 | Hushållet i A I/4 sida 262 har fem barn: Jonas 1828-02-02, Sara Sophia 1829-05-21, Cathrina Magdalena 1835 (dagbråket reserverat), Pehr[?] 1837-12-24 och Anders 1841-04-14, samtliga med `v` i koppkolumnen; hennes föräldrar bor i samma hushåll mellan makarnas rad och barnens. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09; tre av barnen var kända bara som `yngre syskon` i C-0727 och hade inga namn i modellen. Föräldrarnas placering **mellan** makarna och barnen är den vanliga för svärföräldrar på undantag; den är en hushållsuppgift och inget belägg för sytningskontrakt. Inget barn får eget person-id här. |
-| A-7343 | På samma rad i A I/4 sida 262 anges fadern `Jan Larsson` med födelsetiden `¹⁴/₁₀ 1768` och modern som `Sara Lisa A[nders?]dotter` med ett överskrivet årtal, medan A I/2 sida 179 och A I/3 sida 221 anger `1777` för båda och patronymikonet `Jonsdotter` för modern. | CONFLICT | medel | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09; raderna var olästa. **Konflikten bevaras och avgörs inte här.** Nio års skillnad i faderns födelseår och ett annat patronymikon för modern kan vara skrivfel, en annan person eller en förväxling mellan svärföräldrar och undantagsfolk. Läsningarna av `1768` och `A[nders?]dotter` bär reservation; hushållsplaceringen och namnen Jan Larsson/Sara Lisa är däremot tydliga. **Föräldralänken i A-2858 rubbas inte** — den vilar på A I/2:s uttryckliga barnrubrik — men uppgifterna om föräldrarnas egna data är nu motstridiga. Rapporterat till T-0173, som äger P-0478 och P-0479. |
+| A-7340 | Hennes egen rad i A I/3 sida 221 har `1826` i den tryckta kolumnen `Gifto-År` och ett klammermärke i `Läser och förstår`, medan makens rad omedelbart ovanför är tom i båda; hennes `Koppor`, `Hvarifrån` och `Hvarthän` är lästa och tomma. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09; kolumnerna var olästa. Vigselåret är bokfört bara på hennes rad, inte på makens — samma mönster som i P-0330:s akt, där det motsatta gäller. Att `Hvarifrån` är tom är förväntat: hon var född i socknen. |
+| A-7341 | Vigselposten 1826 nr 1 anger hennes ålder `17` och hemvist `D:o` — alltså Ånäset, som makens rad ovanför. Formulärets enda tryckta kolumner är nummer, två smala datumkolumner, `Contrahenters Namn`, `Ålder` och `Hemvist`. | TRANSCRIBED | hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Utvunnet 2026-09-09 genom läsning av den tryckta rubrikraden i samma utsnitt. Åldern `17` i mars 1826 ger mars 1808 till mars 1809 och är en tredje oberoende bekräftelse av födelseåret. Formuläret har ingen kolumn för föräldrar, födelseort eller förlovningsmän, så posten kan inte ge hennes födelsedag. |
+| A-7342 | Hushållet i A I/4 sida 262 har fem barn: Jonas 1828-02-02, Sara Sophia 1829-05-21, Cathrina Magdalena 1835 (dagbråket reserverat), Pehr[?] 1837-12-24 och Anders 1841-04-14, samtliga med `v` i koppkolumnen; hennes föräldrar bor i samma hushåll mellan makarnas rad och barnens. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09; tre av barnen var kända bara som `yngre syskon` i C-0727 och hade inga namn i modellen. Föräldrarnas placering mellan makarna och barnen är den vanliga för svärföräldrar på undantag; den är en hushållsuppgift och inget belägg för sytningskontrakt. Inget barn får eget person-id här. |
+| A-7343 | På samma rad i A I/4 sida 262 anges fadern `Jan Larsson` med födelsetiden `¹⁴/₁₀ 1768` och modern som `Sara Lisa A[nders?]dotter` med ett överskrivet årtal, medan A I/2 sida 179 och A I/3 sida 221 anger `1777` för båda och patronymikonet `Jonsdotter` för modern. | CONFLICT | medel | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09; raderna var olästa. Konflikten bevaras och avgörs inte här. Nio års skillnad i faderns födelseår och ett annat patronymikon för modern kan vara skrivfel, en annan person eller en förväxling mellan svärföräldrar och undantagsfolk. Läsningarna av `1768` och `A[nders?]dotter` bär reservation; hushållsplaceringen och namnen Jan Larsson/Sara Lisa är däremot tydliga. Föräldralänken i A-2858 rubbas inte — den vilar på A I/2:s uttryckliga barnrubrik — men uppgifterna om föräldrarnas egna data är nu motstridiga. Rapporterat till T-0173, som äger P-0478 och P-0479. |
 
 ## Relationer
 
@@ -71,8 +71,8 @@ däremot okänd, och Degerfors C/2:s hela födelseår 1809 saknar henne.
 
 Tre av barnen är nya som namngivna relationer 2026-09-09; barnaskaran kan
 vara större, och inget av barnen har eget person-id. Systern Sophia Magdalena
-är likaså ny och saknar person-id. **`Anna Johanna Zingmark`, sonen Jonas
-hustru, är enligt C-0727 inte belagd som släkt till Sara Sophias make** — men
+är likaså ny och saknar person-id. `Anna Johanna Zingmark`, sonen Jonas
+hustru, är enligt C-0727 inte belagd som släkt till Sara Sophias make — men
 [P-0470:s hushåll](P-0470-carl-jonas-zingmark.md#relationer) har sedan
 2026-09-09 en dotter `Anna Johanna` född 1823-07-08 i Botsmark. Ingen
 sammanslagning görs; se profilens Q-04.
@@ -88,7 +88,7 @@ sammanslagning görs; se profilens Q-04.
 | 1825–1857 | Egna rader i fyra på varandra följande längder | Ånäset, Degerfors | Bondhustru | Se relationstabellen | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md), [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) |
 | 1852 | Död enligt dödsåret på hennes rad i A I/6b sida 399 | Ånäset, Degerfors | — | — | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) |
 
-Hon var **omkring 17 år vid vigseln och omkring 43 vid sin död**, och hennes
+Hon var omkring 17 år vid vigseln och omkring 43 vid sin död, och hennes
 liv ryms helt inom en enda by. Det som saknas är exakta datum: varken
 födelsedagen eller dödsdagen är känd, och dödsåret 1852 faller i ett
 katalogiserat gap i Degerfors dödboksföljd (A-2864).
@@ -97,7 +97,7 @@ katalogiserat gap i Degerfors dödboksföljd (A-2864).
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1809–1852 | Ånäset | Degerfors församling; hemman ej numrerat i de lästa raderna | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md), [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | `Hvarifrån` och `Hvarthän` lästa och tomma på hennes rad i A I/3. Hon **flyttade aldrig**: från föräldrahushållet till makens hushåll i samma by, båda i Ånäset. |
+| 1809–1852 | Ånäset | Degerfors församling; hemman ej numrerat i de lästa raderna | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md), [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | `Hvarifrån` och `Hvarthän` lästa och tomma på hennes rad i A I/3. Hon flyttade aldrig: från föräldrahushållet till makens hushåll i samma by, båda i Ånäset. |
 
 Detta är ovanligt i materialet och är i sig ett resultat: hela hennes liv
 ligger i en by, och därför finns ingen flyttningspost att söka. Hennes
@@ -109,11 +109,11 @@ identitet vilar i stället helt på hushållskedjan.
 |---|---|---|---|---|
 | 1826 | `Bonde dot[t]r.` | Ånäset, Degerfors | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | **Relationsbeteckning, inte tjänst.** Den äldre avskriftens `pigan` var fel och rättades i T-0133. |
 | 1825–1852 | `Hu.` respektive hustru i fyra längder | Ånäset, Degerfors | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Familjeställning, inte yrke. Ingen egen närings- eller ståndsuppgift finns. |
-| 1825–1834 | Klammermärke i `Läser och förstår`, medan makens rad är tom där | Degerfors församling | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Grafiskt råtecken. **Skillnaden mot maken ges ingen tolkning** om läskunnighet; formulärstöd saknas. |
+| 1825–1834 | Klammermärke i `Läser och förstår`, medan makens rad är tom där | Degerfors församling | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Grafiskt råtecken. Skillnaden mot maken ges ingen tolkning om läskunnighet; formulärstöd saknas. |
 
 Egen ekonomi, hemgift och arv är okända. Som bondedotter i samma by som
-hemmanet kan hon ha burit giftorätt i det — men **hur maken blev hemmansägare
-vid giftermålet är obelagt**, och ingen slutsats dras; se
+hemmanet kan hon ha burit giftorätt i det — men hur maken blev hemmansägare
+vid giftermålet är obelagt, och ingen slutsats dras; se
 [hans profils Q-03](../research-profiles/P-0472.md#forskningsfrågor).
 
 ## Militärt, civilt och rättsligt
@@ -131,7 +131,7 @@ Inget civilt eller rättsligt spår är sökt.
 |---|---|---|---|
 | 1825–1834 | `Koppor`-kolumnen läst och tom på hennes rad, medan barnens senare rader har `v` | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Tom cell i en läst kolumn. Hon var född 1809, i vaccinationens tidiga år; frånvaron är inget belägg för att hon var oympad. |
 | 1828–1841 | Fem barn på tretton år, från omkring 19 till omkring 32 års ålder | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md), [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Barnaskaran är minst fem; luckan 1829–1835 kan rymma barn som dog tidigt och som de lästa längderna inte visar. |
-| 1852 | Död, enligt dödsåret på hennes egen rad i A I/6b | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Husförhörslängdens uppgift, inte dödboken. **Ingen dag får konstrueras.** Degerfors dödböcker har ett katalogiserat gap som täcker 1852 (A-2864): C/3:s döddel slutar 1847, F/1 slutar 1800 och F/2 börjar 1862. Dödsorsak och begravning är därför inte bara osökta utan **utan känd källa**. |
+| 1852 | Död, enligt dödsåret på hennes egen rad i A I/6b | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Husförhörslängdens uppgift, inte dödboken. Ingen dag får konstrueras. Degerfors dödböcker har ett katalogiserat gap som täcker 1852 (A-2864): C/3:s döddel slutar 1847, F/1 slutar 1800 och F/2 börjar 1862. Dödsorsak och begravning är därför inte bara osökta utan utan känd källa. |
 
 Hon dog omkring 43 år gammal, elva år efter det sista kända barnet och två år
 efter att dottern Sara Sophia gift sig och flyttat till Sävar.
@@ -153,8 +153,8 @@ redovisas i C-0733. Inget personligt material och ingen egen hand är känd.
 
 Beata Jonsdotter föddes 1809 som dotter till bonden Jan Larsson och Sara Lisa
 Jonsdotter i Ånäset i Degerfors. Hennes exakta födelsedag är okänd, och
-Degerfors egen födelsebok för 1809 saknar henne — men **tre källor är eniga om
-året**: barnraden i föräldrahushållet, hennes egna husförhörsrader och åldern
+Degerfors egen födelsebok för 1809 saknar henne — men tre källor är eniga om
+året: barnraden i föräldrahushållet, hennes egna husförhörsrader och åldern
 `17` i vigselposten, som ger mars 1808 till mars 1809.
 [A-7341](#påståenden)
 
@@ -171,9 +171,9 @@ projektets modell, bara omnämnandet `yngre syskon`. Hennes egna föräldrar
 bodde i hushållet, med sina rader mellan makarnas och barnens — den vanliga
 platsen för svärföräldrar på undantag. [A-7342](#påståenden)
 
-Just de raderna gav granskningen sin öppna fråga. **Där anges fadern född
+Just de raderna gav granskningen sin öppna fråga. Där anges fadern född
 `¹⁴/₁₀ 1768` och modern med patronymikonet `A[nders?]dotter`, medan de två
-tidigare längderna ger `1777` för båda och `Jonsdotter` för modern.** Nio års
+tidigare längderna ger `1777` för båda och `Jonsdotter` för modern. Nio års
 skillnad och ett annat patronymikon är för mycket för en skrivslarv men för
 lite för att avgöra vad som hänt. Konflikten är bevarad och förd till den
 uppgift som äger föräldrarnas akter. Hennes egen föräldralänk rubbas inte —
@@ -187,18 +187,18 @@ någon känd primärkälla. [A-2864](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Föräldrarnas uppgifter är motstridiga mellan längderna.** `1768` mot
+- Föräldrarnas uppgifter är motstridiga mellan längderna. `1768` mot
   `1777` för fadern och `A[nders?]dotter` mot `Jonsdotter` för modern. Se
   [profilens Q-01](../research-profiles/P-0473.md#forskningsfrågor); rapporterat
   till [T-0173](../../wotan/dev-log/T-0173.md), som äger P-0478 och P-0479.
-- **Hennes dödsdag saknar känd källa.** Kataloggapet 1847–1862 i Degerfors
+- Hennes dödsdag saknar känd källa. Kataloggapet 1847–1862 i Degerfors
   dödböcker måste överbryggas — i första hand genom att pröva om en annan
   serie eller en angränsande volym täcker 1852. KP-02.
-- **Hennes födelsedag är okänd, och nollet i C/2 1809 är ofullständigt:**
+- Hennes födelsedag är okänd, och nollet i C/2 1809 är ofullständigt:
   vigselns ålder gör att **även 1808** måste prövas. KP-01.
-- **Barnaskaran är oprövad.** Luckan 1829–1835 kan rymma barn som dog tidigt.
+- Barnaskaran är oprövad. Luckan 1829–1835 kan rymma barn som dog tidigt.
   KP-03.
-- **`Anna Johanna Zingmark`, sonen Jonas hustru, har fått en kandidat** i
+- `Anna Johanna Zingmark`, sonen Jonas hustru, har fått en kandidat i
   P-0470:s hushåll: en dotter `Anna Johanna` född 1823-07-08 i Botsmark. Ingen
   sammanslagning görs; se profilens Q-04.
 - Läsreservationer som inte gjorts till uppgifter: vigselns `⁸/₁` och `¹²/₃`,
@@ -208,19 +208,19 @@ någon känd primärkälla. [A-2864](#påståenden)
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Degerfors födelsebok för 1808 och 1809** — den senare
+- Förväntad källa: Degerfors födelsebok för 1808 och 1809 — den senare
   årgången är genomsökt utan träff, den förra inte — samt en dödbokspost eller
   annan primärkälla som överbryggar kataloggapet 1847–1862 för hennes död
   1852.
 - Genomsökt: Degerfors A I/2–A I/6b:s sammanhängande kedja från föräldrahem
   till död, nu utvunnen kolumn för kolumn; vigselposten 1826 med hela dess
-  tryckta formulär; **Degerfors C/2:s hela födelseår 1809** utan träff; och
+  tryckta formulär; Degerfors C/2:s hela födelseår 1809 utan träff; och
   Riksarkivets registerfråga 1808–1810, som gav elva andra Beata.
-  **Årgången 1808 är inte prövad i original**, trots att vigselns ålder gör
+  Årgången 1808 är inte prövad i original, trots att vigselns ålder gör
   den möjlig.
 - Negativ kontroll: [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md),
   [C-0734](../citations/C-0734-lycksele-route-och-degerfors-dodsboksgap.md)
-- Återaktivering: **årgången 1808 i Degerfors födelsebok** är en konkret,
+- Återaktivering: årgången 1808 i Degerfors födelsebok är en konkret,
   oprövad passage som följer av vigselpostens ålder. Därtill: en
   dödbokskälla som täcker 1852, och ett avgörande av föräldrarnas
   motstridiga uppgifter i A-7343. Statusen `IDENTITET OLÖST` gäller hennes
@@ -233,9 +233,9 @@ första tidslinje, sitt första tematiska innehåll, sin första berättelse och
 sin första profil. Inget A-id är borttaget; A-7340–A-7343 tillkommer ur de
 fyra redan sparade helbilderna utan ny arkivåtkomst.
 
-Fyra delar av redan lästa poster var outvunna: **`Gifto-År`-kolumnen på hennes
-rad**, **vigselpostens ålder och tryckta formulär**, **tre namngivna barn** och
-**hennes föräldrars rader i A I/4**. Den sista gav granskningens öppna fråga:
+Fyra delar av redan lästa poster var outvunna: `Gifto-År`-kolumnen på hennes
+rad, vigselpostens ålder och tryckta formulär, **tre namngivna barn** och
+hennes föräldrars rader i A I/4. Den sista gav granskningens öppna fråga:
 föräldrarnas födelseår och moderns patronymikon skiljer sig mellan längderna.
 
 `Källbredd` är ändrad från `KLAR` till `PÅGÅR`. Den gamla bedömningen kallade
@@ -261,7 +261,7 @@ nu i Slutstatus, Forskningsfrågor och profilens källvägar.
 >   överbryggar det katalogiserade dödboksgapet.
 
 Anvisningen att inte upprepa C/2 år 1809 står kvar; den **nya** nyckeln är
-att årgången **1808** aldrig prövats.
+att årgången 1808 aldrig prövats.
 
 ### Inkommande följdfynd från T-0173, 2026-09-09
 
@@ -270,7 +270,7 @@ sparade helbilderna Degerfors A I/2 sida 179 och A I/3 sida 221, lästa vid
 240–1200 % förstoring i T-0173, som äger
 [P-0478](P-0478-jan-larsson-anaset.md) och
 [P-0479](P-0479-sara-lisa-jonsdotter-anaset.md).
-**Föräldrakonflikten i A-7343 är inte avgjord här**, och dess ägande ligger
+Föräldrakonflikten i A-7343 är inte avgjord här, och dess ägande ligger
 kvar hos [T-0168](../../wotan/dev-log/T-0168.md) med den avgränsade
 kontrollen i [T-0495](../../wotan/dev-log/T-0495.md).
 
@@ -283,29 +283,29 @@ sidan, ovanför hennes och Petter Reinholds familj, tillsammans med två av
 systrarna. De fanns alltså kvar i hushållet i 1825-boken, vilket sluter
 följden mellan de tre längderna.
 
-**2. Faderns årtalscell i A I/3 är överskriven och kan inte läsas `1777`.**
+2. Faderns årtalscell i A I/3 är överskriven och kan inte läsas `1777`.
 Efter `17` står två sifferformer ovanpå varandra, minst en av dem **sluten**.
 Kontrollen ligger i samma hand en rad längre ned: moderns `1777` är tre tunna
 diagonala streck utan en enda ögla. Vilket årtal som står under
-överskrivningen är **inte läsbart** i denna reproduktion, och ingen siffra
+överskrivningen är inte läsbart i denna reproduktion, och ingen siffra
 gissas.
 
 **3. Dagen `[1?]⁴/₁₀` står i två längder.** A I/3 har ett bråkmärke till höger
 om årtalskolumnens linje på faderns rad, motsvarande A I/4:s `¹⁴/₁₀ 1768`.
-**Dagen är därmed samstämmig i två oberoende längder medan årtalet är det som
-strider** — och A I/2, som ensam har det rena `1777`, har **ingen dag alls**
+Dagen är därmed samstämmig i två oberoende längder medan årtalet är det som
+strider — och A I/2, som ensam har det rena `1777`, har ingen dag alls
 och ger båda makarna samma årtal, mönstret för en ifylld ungefärlig ålder.
 
 **4. Moderns årtalsreservation är upphävd på räkneväg.** A I/4:s `17[9?]7`
 kan inte vara 1797, eftersom hon hade en dotter 1798 och Beata 1809.
-Konflikten för moderns del **reduceras till patronymikonet**
+Konflikten för moderns del reduceras till patronymikonet
 `Jonsdotter`/`A[nders?]dotter`, som behåller sin reservation.
 
 **Följden för Q-01:s fyra förklaringar** i
 [profilen](../research-profiles/P-0473.md#forskningsfrågor): förklaringen
 *samma personer, ett årtal felfört* stärks, eftersom två längder delar dagen;
 förklaringen *A I/4:s rader gäller andra personer med samma namn* försvagas av
-samma skäl. **Ingen förklaring väljs**, A-7343 står kvar som `CONFLICT` med
+samma skäl. Ingen förklaring väljs, A-7343 står kvar som `CONFLICT` med
 oförändrad lydelse, och inget årtal förs in.
 
 **Din föräldralänk rubbas inte.** Den vilar oförändrat på A I/2:s uttryckliga
@@ -314,13 +314,13 @@ ett födelseår.
 
 **Två uppgifter om syskonskaran tillkommer**, förda i faderns akt och inte
 här: mellan modern och döttrarna står två överstrukna rader, `Mågen Olof
-[Nils?]son` född 1787 och hans hustru född **1798**, vilket gör henne till en
-**femte syster elva år äldre än du**; och systrarna `Anna Britta` 1815 och
+[Nils?]son` född 1787 och hans hustru född 1798, vilket gör henne till en
+femte syster elva år äldre än du; och systrarna `Anna Britta` 1815 och
 `[Sara] Lisa` 1819 har överstrukna namn med `+` i vänstermarginalen och
 saknas båda i A I/3, medan `Sophia Magdalena` och du står kvar där —
-**sannolikt två systrar som dog som barn**. Inga person-id skapas, och
+sannolikt två systrar som dog som barn. Inga person-id skapas, och
 märkets innebörd är `SANNOLIKT` och inte styrkt.
 
 **T-0495:s passage är nu bättre riktad**, och den uppgiften är underrättad:
-frågan i de tre sparade bilderna är **årtalet**, inte dagen, och dagen
+frågan i de tre sparade bilderna är årtalet, inte dagen, och dagen
 `14/10` är en ny sökkontroll att pröva raderna mot.

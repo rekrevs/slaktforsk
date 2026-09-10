@@ -5,9 +5,9 @@
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0169.
 - Källbredd: `PÅGÅR` — råorten Säfvesta[?] är sedan T-0137 en konkret ingång,
-  och granskningen 2026-09-09 lägger till en andra: **dopvittnet `Bonden Eric
+  och granskningen 2026-09-09 lägger till en andra: dopvittnet `Bonden Eric
   Jansson i Säfsta` bär hennes patronymikon och bor på samma ort som hennes
-  egen hemvist.** Ingen av de två nycklarna är prövad.
+  egen hemvist. Ingen av de två nycklarna är prövad.
 - Identitetsgranskning: `GODKÄND`
 - Trädverkan: `AVVAKTAR`
 - Kontraktsgranskning: `UNDERKÄND`
@@ -18,7 +18,7 @@
 
 Anna Lisa Jansdotter är ogift piga och mor till
 [Brita Kajsa Pehrsdotter](P-0126-brita-kajsa-pehrsdotter.md), född 1829-10-21
-i Sköldinge. Hon förekommer i **en enda känd källpost**: dotterns samtida
+i Sköldinge. Hon förekommer i en enda känd källpost: dotterns samtida
 födelse- och dopnotis i Sköldinge C/3, som anger henne som `Pigan Anna Lisa
 Jansdotter`, **20 år**, med hemvisten `Säfvesta[?]`. Ingen far är införd i
 föräldrafältet.
@@ -37,7 +37,7 @@ namnger ingen far — utan från senare källor i dotterns egen akt.
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Pigan Anna Lisa Jansdotter | Dotterns dopnotis, Sköldinge 1829 | TRANSCRIBED | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Den enda formen som står i en källa om henne. `Pigan` är tjänsteställning, inte namn. |
-| Anna Lisa / Anna Elisabeth | Namnvarianter i tiden | LEAD | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | `Lisa` är kortform av `Elisabeth`; båda formerna skrivs om samma person i sörmländska kyrkoböcker. **Båda måste prövas**, liksom `Jansdotter`/`Jansd:r`/`Johansdotter`. |
+| Anna Lisa / Anna Elisabeth | Namnvarianter i tiden | LEAD | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | `Lisa` är kortform av `Elisabeth`; båda formerna skrivs om samma person i sörmländska kyrkoböcker. Båda måste prövas, liksom `Jansdotter`/`Jansd:r`/`Johansdotter`. |
 
 Patronymikonet ger faderns förnamn **Jan**, som i sin tur är en form av
 `Johan`; härledningen kommer ur namnskicket och är ingen läst uppgift.
@@ -47,20 +47,20 @@ Patronymikonet ger faderns förnamn **Jan**, som i sin tur är en form av
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-0729 | Anna Lisa Jansdotter var ogift piga och mor till Brita Kajsa, född 1829-10-21 i Sköldinge. | TRANSCRIBED | hög | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Samtida födelse- och dopnotis; ingen far namnges. |
-| A-7400 | Dopnotisen anger hennes ålder **20 år** och hemvisten **`Säfvesta[?]`**. | TRANSCRIBED | hög | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Fört som eget påstående 2026-09-09; uppgifterna utvanns i T-0137 men blev inga påståenden i hennes akt. Åldern ger födelsetid mellan **oktober 1808 och oktober 1809** och är den enda datumnyckel som finns om henne. Ortformen bär läsreservation och är **inte** bunden till en plats genom ortregister; den äldre säkra läsningen `Säfstugan` är upphävd. |
-| A-7401 | Dopnotisen namnger dopvittnena `Bonden Eric Jansson i Säfsta och hans hustru Cajsa Nilsdotter` samt två ytterligare vittnesled. | TRANSCRIBED | hög | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Utvunnet till akten 2026-09-09; vittneskolumnen är omkontrollerad i citationen sedan 2026-08-21 men har aldrig nått hennes akt eller någon söknyckel. **Två sammanträffanden på en gång:** vittnet bär hennes patronymikon `Jansson`, och hans ort `Säfsta` sammanfaller med hennes egen hemvist `Säfvesta[?]`. Dopvittnen var i tiden övervägande nära släkt, och för en **ogift** mor stod ofta hennes egen familj som vittnen. Han är därför en **stark kandidat som hennes bror eller far** — men släktskapet är en hypotes och ingen relation skapas. |
-| A-7402 | Ingen far är införd i dopnotisens föräldrafält, och vittnena får inte läsas som föräldrar. | TRANSCRIBED | hög | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Fört som eget påstående 2026-09-09 ur citationens egen varning. **Att barnet är fött utom äktenskapet är postens uttryckliga uppgift**, och den svaga strukna `af…`-noten under barnets namn är prövad och lämnad otolkad. Dotterns senare patronymikon `Pehrsdotter` kommer från andra källor och får inte läsas tillbaka in i denna post som en fadersuppgift. |
+| A-7400 | Dopnotisen anger hennes ålder 20 år och hemvisten `Säfvesta[?]`. | TRANSCRIBED | hög | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Fört som eget påstående 2026-09-09; uppgifterna utvanns i T-0137 men blev inga påståenden i hennes akt. Åldern ger födelsetid mellan oktober 1808 och oktober 1809 och är den enda datumnyckel som finns om henne. Ortformen bär läsreservation och är inte bunden till en plats genom ortregister; den äldre säkra läsningen `Säfstugan` är upphävd. |
+| A-7401 | Dopnotisen namnger dopvittnena `Bonden Eric Jansson i Säfsta och hans hustru Cajsa Nilsdotter` samt två ytterligare vittnesled. | TRANSCRIBED | hög | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Utvunnet till akten 2026-09-09; vittneskolumnen är omkontrollerad i citationen sedan 2026-08-21 men har aldrig nått hennes akt eller någon söknyckel. Två sammanträffanden på en gång: vittnet bär hennes patronymikon `Jansson`, och hans ort `Säfsta` sammanfaller med hennes egen hemvist `Säfvesta[?]`. Dopvittnen var i tiden övervägande nära släkt, och för en ogift mor stod ofta hennes egen familj som vittnen. Han är därför en stark kandidat som hennes bror eller far — men släktskapet är en hypotes och ingen relation skapas. |
+| A-7402 | Ingen far är införd i dopnotisens föräldrafält, och vittnena får inte läsas som föräldrar. | TRANSCRIBED | hög | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Fört som eget påstående 2026-09-09 ur citationens egen varning. Att barnet är fött utom äktenskapet är postens uttryckliga uppgift, och den svaga strukna `af…`-noten under barnets namn är prövad och lämnad otolkad. Dotterns senare patronymikon `Pehrsdotter` kommer från andra källor och får inte läsas tillbaka in i denna post som en fadersuppgift. |
 
 ## Relationer
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
 | [P-0126 Brita Kajsa Pehrsdotter](P-0126-brita-kajsa-pehrsdotter.md) | dotter | Född 1829-10-21, Sköldinge | TRANSCRIBED | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) |
-| Eric Jansson, bonde i Säfsta | dopvittne; **kandidat som hennes bror eller far** | Sköldinge 1829 | LEAD | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) |
+| Eric Jansson, bonde i Säfsta | dopvittne; kandidat som hennes bror eller far | Sköldinge 1829 | LEAD | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) |
 | Cajsa Nilsdotter, hans hustru | dopvittne | Säfsta, Sköldinge 1829 | TRANSCRIBED | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) |
 
-Hennes föräldrar och syskon är okända, och **ingen far till dottern är
-namngiven i posten**. Eric Jansson är förd som `LEAD` utan släktrelation.
+Hennes föräldrar och syskon är okända, och ingen far till dottern är
+namngiven i posten. Eric Jansson är förd som `LEAD` utan släktrelation.
 Dotterns två övriga vittnesled redovisas i
 [dotterns akt](P-0126-brita-kajsa-pehrsdotter.md) och i citationen.
 
@@ -79,7 +79,7 @@ flyttning, ingen död.
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1829 | `Säfvesta[?]` | Sköldinge församling; **läget är inte fastställt** | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Råortens läsning bär reservation, och den är inte bunden till en plats genom ortregister. Den äldre säkra läsningen `Säfstugan` är upphävd, vilket gör att de tre tidigare negativa kontrollerna inte längre avgränsar hennes hemvist. |
+| 1829 | `Säfvesta[?]` | Sköldinge församling; läget är inte fastställt | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Råortens läsning bär reservation, och den är inte bunden till en plats genom ortregister. Den äldre säkra läsningen `Säfstugan` är upphävd, vilket gör att de tre tidigare negativa kontrollerna inte längre avgränsar hennes hemvist. |
 
 Ingen flyttning är känd. Sköldinge A I/9 och A I/10 samt flyttningslängdens
 hela följd 1829–1830 är genomsökta utan namnfynd — men de kontrollerna gällde
@@ -93,7 +93,7 @@ flyttlistorna.
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1829 | `Pigan` — tjänstehjon | `Säfvesta[?]`, Sköldinge | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Samtida ståndsuppgift. **Att hon är piga betyder att hon var i tjänst hos någon**, och tjänstestället är sannolikt just den ort som anges — vilket gör hushållets husbonde till en sökbar person. Arbetsgivaren är inte namngiven i posten. |
+| 1829 | `Pigan` — tjänstehjon | `Säfvesta[?]`, Sköldinge | [C-0126](../citations/C-0126-brita-kajsa-fodelse-1829.md) | Samtida ståndsuppgift. Att hon är piga betyder att hon var i tjänst hos någon, och tjänstestället är sannolikt just den ort som anges — vilket gör hushållets husbonde till en sökbar person. Arbetsgivaren är inte namngiven i posten. |
 
 Egen ekonomi, lön och arv är okända. En ogift piga med barn kunde bli föremål
 för fattigvårdens eller sockenstämmans beslut; inget sådant material är sökt.
@@ -143,12 +143,12 @@ T-0137, vilket samtidigt tog bort räckvidden ur tre negativa kontroller som
 alla gällde just den orten. [A-7400](#påståenden)
 
 Granskningen 2026-09-09 förde in dopvittnena, som funnits i citationen sedan
-augusti men aldrig nått akten — och de bär **två sammanträffanden på en gång**.
+augusti men aldrig nått akten — och de bär två sammanträffanden på en gång.
 `Bonden Eric Jansson i Säfsta` har hennes patronymikon, och hans ort är samma
 som hennes egen hemvist. För en ogift mor stod ofta den egna familjen som
 vittnen. Han är därför en stark kandidat som hennes bror eller far, och hans
-gård är en namngiven plats att söka hennes föräldrahem i. **Släktskapet är en
-hypotes och ingen relation skapas.** [A-7401](#påståenden)
+gård är en namngiven plats att söka hennes föräldrahem i. Släktskapet är en
+hypotes och ingen relation skapas. [A-7401](#påståenden)
 
 Att hon kallas `piga` betyder att hon var i tjänst, sannolikt just på den
 angivna orten. Husbonden är inte namngiven, men hushållet är sökbart så snart
@@ -156,17 +156,17 @@ ortens läge är fastställt.
 
 ## Forskningsfrågor och konflikter
 
-- **Var Eric Jansson i Säfsta hennes bror eller far?** Han bär hennes
+- Var Eric Jansson i Säfsta hennes bror eller far? Han bär hennes
   patronymikon och bor på hennes hemvist. Se
   [profilens Q-01](../research-profiles/P-0164.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0164.md#källvägar).
 - **Var ligger `Säfvesta[?]`?** Ortens läsning och läge är inte fastställda,
   och tre negativa kontroller gällde den upphävda formen `Säfstugan`.
   Sköldinges ortregister är den direkta vägen. KP-01.
-- **Hennes egen födelse ligger i intervallet oktober 1808–oktober 1809** och
+- Hennes egen födelse ligger i intervallet oktober 1808–oktober 1809 och
   är sökbar så snart en församling är känd; utan ort finns ingen årgång att
   välja.
-- **Vem var dotterns far?** Posten namnger ingen, och den svaga strukna
+- Vem var dotterns far? Posten namnger ingen, och den svaga strukna
   `af…`-noten är prövad och otolkad. Dotterns senare patronymikon
   `Pehrsdotter` får inte läsas tillbaka in i posten.
 - Ingen konflikt finns inom det lästa underlaget. De tre negativa
@@ -175,8 +175,8 @@ ortens läge är fastställt.
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Sköldinges ortregister och husförhörslängd för
-  `Säfvesta[?]`/`Säfsta` omkring 1829**, som kan ge både hennes tjänstehushåll
+- Förväntad källa: Sköldinges ortregister och husförhörslängd för
+  `Säfvesta[?]`/`Säfsta` omkring 1829, som kan ge både hennes tjänstehushåll
   och Eric Janssons gård; därefter hennes egen födelsepost i intervallet
   oktober 1808–oktober 1809.
 - Genomsökt: dotterns födelsenotis i Sköldinge 1829, nu utvunnen inklusive
@@ -186,10 +186,10 @@ ortens läge är fastställt.
   [C-0138](../citations/C-0138-skoldinge-AI9-safstugan-negativ-kontroll.md)
   och [C-0139](../citations/C-0139-skoldinge-B1-flyttning-1829-1830-negativ-kontroll.md)
   ger inget uttryckligt namnfynd inom läst omfång; hustru/barn kan vara
-  kollektivt onamngivna i flyttlistorna. **Samtliga tre gällde den upphävda
-  ortläsningen `Säfstugan` och avgränsar inte hennes hemvist.**
-- Återaktivering: den nya råorten Säfvesta[?] och **dopvittnet Eric Jansson i
-  Säfsta** (A-7401), som är två oprövade nycklar mot samma plats. Åldern 20 år
+  kollektivt onamngivna i flyttlistorna. Samtliga tre gällde den upphävda
+  ortläsningen `Säfstugan` och avgränsar inte hennes hemvist.
+- Återaktivering: den nya råorten Säfvesta[?] och dopvittnet Eric Jansson i
+  Säfsta (A-7401), som är två oprövade nycklar mot samma plats. Åldern 20 år
   räcker inte ensam till en bred kandidatkoppling, och patronymikonlikheten
   får inte göras till en släktrelation utan ett original.
 
@@ -201,7 +201,7 @@ sin första profil. Inget A-id är borttaget; A-7400–A-7402 tillkommer ur den
 redan lästa citationen utan ny arkivåtkomst.
 
 **Tre uppgifter ur den enda posten var inte förda som påståenden:** hennes
-ålder `20`, hemvisten `Säfvesta[?]` och **dopvittnena**. De två första
+ålder `20`, hemvisten `Säfvesta[?]` och dopvittnena. De två första
 utvanns i T-0137 men blev inga påståenden i hennes akt; den tredje har funnits
 i citationen sedan 2026-08-21 utan att nå någon söknyckel.
 

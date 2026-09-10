@@ -4,7 +4,7 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0171.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Postens
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Postens
   ålderskolumn har fått en **positiv kontroll**: talet `28` passar hennes
   sekundära födelseår 1791 men inte makens 1782, vilket ger henne den första
   originalnära åldersuppgiften. Därtill är dopets fyra vittnen förda till
@@ -24,9 +24,9 @@ som föddes där 1818-06-03 och döptes den 7 juni: `Johan Petter Urbom`.
 
 **Kopplingen mellan födelsebarnet och den vuxne
 [Johan Petter Urbom](P-0123-johan-petter-urbom.md) är återöppnad** sedan
-T-0135; hennes moderroll till **barnet** består oförändrad.
+T-0135; hennes moderroll till barnet består oförändrad.
 
-Sedan 2026-09-09 har hon en **originalnära åldersuppgift**: postens
+Sedan 2026-09-09 har hon en originalnära åldersuppgift: postens
 ytterkolumn bär talet `28`, och jämförelsen med de två sekundära årtalen
 visar att talet gäller henne — 1791 ger 27 år i juni 1818, medan makens 1782
 skulle ge 36. Se A-7580. Förnamnstillägget `Maria` och levnadsåren 1791–1856
@@ -37,8 +37,8 @@ kommer i övrigt **enbart** från en sekundär personakt utan källhänvisningar
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Anna Maja Eriksdotter | Barnets födelse- och dopnotis 1818 | TRANSCRIBED | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Originalets form och aktens visningsnamn. |
-| Anna Maria Eriksdotter | Sekundär personakt | LEAD | [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | **Formen `Maria` finns inte i originalet.** Båda formerna bevaras; ingen normaliseras bort. |
-| Anna Maja / Anna Maria / Maja Eriksdotter, `Ersdotter` | Sökformer | LEAD | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | `Maja` är talspråksformen av `Maria`; båda måste prövas. Patronymikonet `Eriksdotter` är bland de vanligaste och gör namnet **informationssvagt** utan ort, ålder eller make. |
+| Anna Maria Eriksdotter | Sekundär personakt | LEAD | [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | Formen `Maria` finns inte i originalet. Båda formerna bevaras; ingen normaliseras bort. |
+| Anna Maja / Anna Maria / Maja Eriksdotter, `Ersdotter` | Sökformer | LEAD | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | `Maja` är talspråksformen av `Maria`; båda måste prövas. Patronymikonet `Eriksdotter` är bland de vanligaste och gör namnet informationssvagt utan ort, ålder eller make. |
 
 ## Påståenden
 
@@ -46,19 +46,19 @@ kommer i övrigt **enbart** från en sekundär personakt utan källhänvisningar
 |---|---|---|---|---|---|
 | A-1546 | En sekundär personakt anger levnadsåren 1791–1856 och henne som Johan Petter Urboms mor. | LEAD | låg | [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | Båda förnamnsformerna bevaras; originalkontroll återstår. |
 | A-3201 | Anna Maja Eriksdotter på Krogen var mor till Johan Petter, född 1818-06-03 i Björsäter. | CORROBORATED | mycket hög | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | Samtida födelsenotis bär relationen; förnamnstillägget Maria finns inte i detta original. |
-| A-7580 | Postens ytterkolumn bär talet **`28`**, och talet gäller **henne**: hennes sekundära födelseår 1791 ger 27 år i juni 1818, medan makens 1782 skulle ge 36. Åldern ger födelsetid mellan **juni 1789 och juni 1790**. | TRANSCRIBED | medel | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | Fört som eget påstående 2026-09-09. C-0833 kallade talet `trolig modersålder` utan funktionsrubrik på uppslaget; **jämförelsen med de två sekundära årtalen ger nu ett positivt skäl för tolkningen.** Detta är hennes första **originalnära** åldersuppgift, och den ligger **ett till två år före** sekundärkällans 1791 — en normal avrundning, som gör att åren 1789, 1790 och 1791 alla måste prövas. Tillförlitligheten gäller tolkningen. Se motsatt utfall i [P-0233](P-0233-magdalena-andersdotter-risvattnet.md) A-7542, där en orubricerad nummerkolumn bevisligen **inte** kan vara en modersålder; inferensklassen kräver positiv kontroll i varje bok. |
-| A-7581 | Barnets dopnotis namnger fyra vittnen: `Torsten[?] Andersson` och hustrun `Lena Hansdotter`, torparfolk i `Tjöntorp[?]`, drängen `Anders Abrahamsson i Holmtorpet` och pigan `Maja Stina Nilsdotter i Öfverbyla[?]`. **Inget av dem bär hennes patronymikon.** | TRANSCRIBED | hög | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Förd till akten 2026-09-09. Vittnena utvanns i citationen i **T-0135** men nådde aldrig hennes akt. Utfallet är negativt och **stänger dopvägen till hennes släkt**; kretsen är torpar- och tjänstefolk i tre namngivna torp. Tre ort- eller namnformer bär läsreservation. Ingen relation skapas. |
-| A-7582 | Hon var gift med en **smed** på ett boställe som heter `Krogen`, alltså i en hantverkarmiljö utan hemman. | TRANSCRIBED | hög | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Fört som eget påstående 2026-09-09 ur citationens redan lästa fält. Uppgiften styr **hennes** källstrategi lika mycket som makens: en hantverkarhustru följs i flyttningslängder och i makens namn, inte i jordebok, och paret kan ha kommit utifrån. Se [P-0264](P-0264-lorens-urbom.md) A-7572. |
+| A-7580 | Postens ytterkolumn bär talet `28`, och talet gäller henne: hennes sekundära födelseår 1791 ger 27 år i juni 1818, medan makens 1782 skulle ge 36. Åldern ger födelsetid mellan juni 1789 och juni 1790. | TRANSCRIBED | medel | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | Fört som eget påstående 2026-09-09. C-0833 kallade talet `trolig modersålder` utan funktionsrubrik på uppslaget; jämförelsen med de två sekundära årtalen ger nu ett positivt skäl för tolkningen. Detta är hennes första originalnära åldersuppgift, och den ligger ett till två år före sekundärkällans 1791 — en normal avrundning, som gör att åren 1789, 1790 och 1791 alla måste prövas. Tillförlitligheten gäller tolkningen. Se motsatt utfall i [P-0233](P-0233-magdalena-andersdotter-risvattnet.md) A-7542, där en orubricerad nummerkolumn bevisligen inte kan vara en modersålder; inferensklassen kräver positiv kontroll i varje bok. |
+| A-7581 | Barnets dopnotis namnger fyra vittnen: `Torsten[?] Andersson` och hustrun `Lena Hansdotter`, torparfolk i `Tjöntorp[?]`, drängen `Anders Abrahamsson i Holmtorpet` och pigan `Maja Stina Nilsdotter i Öfverbyla[?]`. Inget av dem bär hennes patronymikon. | TRANSCRIBED | hög | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Förd till akten 2026-09-09. Vittnena utvanns i citationen i T-0135 men nådde aldrig hennes akt. Utfallet är negativt och stänger dopvägen till hennes släkt; kretsen är torpar- och tjänstefolk i tre namngivna torp. Tre ort- eller namnformer bär läsreservation. Ingen relation skapas. |
+| A-7582 | Hon var gift med en smed på ett boställe som heter `Krogen`, alltså i en hantverkarmiljö utan hemman. | TRANSCRIBED | hög | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Fört som eget påstående 2026-09-09 ur citationens redan lästa fält. Uppgiften styr hennes källstrategi lika mycket som makens: en hantverkarhustru följs i flyttningslängder och i makens namn, inte i jordebok, och paret kan ha kommit utifrån. Se [P-0264](P-0264-lorens-urbom.md) A-7572. |
 
 ## Relationer
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
 | [P-0264 Lorens (Lorentz) Urbom](P-0264-lorens-urbom.md) | make i barnets födelsenotis | Krogen, Björsäter 1818 | CORROBORATED | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) |
-| [P-0123 Johan Petter Urbom](P-0123-johan-petter-urbom.md) | **möjlig** son; födelsebarnets vuxenidentitet är olöst | Krogen, Björsäter 1818 | LEAD | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) |
+| [P-0123 Johan Petter Urbom](P-0123-johan-petter-urbom.md) | möjlig son; födelsebarnets vuxenidentitet är olöst | Krogen, Björsäter 1818 | LEAD | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) |
 
-Hennes föräldrar och syskon är okända, och **inget av dopets fyra vittnen bär
-hennes patronymikon**; se A-7581.
+Hennes föräldrar och syskon är okända, och inget av dopets fyra vittnen bär
+hennes patronymikon; se A-7581.
 
 ## Tidslinje
 
@@ -85,7 +85,7 @@ A-7582.
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1818 | Hustru till smeden på Krogen | Björsäter | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Civilstånd, inte yrke. En hantverkarhustru i en bruks- eller vägmiljö hade ofta egen försörjning genom kost och logi för resande eller gesäller, men **inget sådant är belagt** och inget antas. |
+| 1818 | Hustru till smeden på Krogen | Björsäter | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Civilstånd, inte yrke. En hantverkarhustru i en bruks- eller vägmiljö hade ofta egen försörjning genom kost och logi för resande eller gesäller, men inget sådant är belagt och inget antas. |
 
 Egen ekonomi, arv och bouppteckning är okända och osökta.
 
@@ -103,7 +103,7 @@ rullorna är en personbunden väg. Inget civilt eller rättsligt spår är sökt
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
-| 1818-06-03 | Hon födde ett barn vid omkring 28 års ålder och överlevde förlossningen; posten har **ingen** egen döds- eller kyrktagningsnot | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Att posten saknar särskild marginalnot är ett **läst** förhållande, fastställt i T-0135:s fullprövning. |
+| 1818-06-03 | Hon födde ett barn vid omkring 28 års ålder och överlevde förlossningen; posten har ingen egen döds- eller kyrktagningsnot | [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md) | Att posten saknar särskild marginalnot är ett läst förhållande, fastställt i T-0135:s fullprövning. |
 | Uppgivet 1856 | Dödsår enligt en sekundär personakt | [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) | **Ingen dödspost är läst.** Uppgiften är `LEAD`; Björsäters dödbok omkring 1856 är en avgränsad, oprövad passage som skulle ge en uppgiven ålder och därmed pröva åldersintervallet. |
 
 ## Media och personliga källor
@@ -122,12 +122,12 @@ Björsäter. Den 3 juni 1818 födde hon sonen Johan Petter, som döptes fyra
 dagar senare med fyra vittnen.
 [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md)
 
-Granskningen 2026-09-09 gav henne **den första originalnära uppgiften om sig
-själv**. Postens ytterkolumn bär talet `28`, och C-0833 kallade det en
+Granskningen 2026-09-09 gav henne den första originalnära uppgiften om sig
+själv. Postens ytterkolumn bär talet `28`, och C-0833 kallade det en
 `trolig modersålder` utan funktionsrubrik på uppslaget. Jämförelsen med de två
 sekundära årtalen avgör saken: hennes 1791 ger 27 år i juni 1818, makens 1782
 ger 36. Talet är alltså hennes ålder, och det ger födelsetid mellan juni 1789
-och juni 1790 — **ett till två år före** sekundärkällans 1791, en normal
+och juni 1790 — ett till två år före sekundärkällans 1791, en normal
 avrundning som gör att åren 1789, 1790 och 1791 alla måste prövas.
 [A-7580](#påståenden)
 
@@ -150,19 +150,19 @@ prövas i T-0292.
 
 ## Forskningsfrågor och konflikter
 
-- **Björsäters husförhörslängd för Krogen omkring 1810–1820** skulle ge
+- Björsäters husförhörslängd för Krogen omkring 1810–1820 skulle ge
   hennes ålder ur en andra bok och hennes födelseort. Se
   [profilens Q-01](../research-profiles/P-0265.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0265.md#källvägar).
-- **Åldersintervallet juni 1789–juni 1790 mot sekundärkällans 1791.**
-  Skillnaden är normal avrundning; **inget av åren väljs**, och alla tre
+- Åldersintervallet juni 1789–juni 1790 mot sekundärkällans 1791.
+  Skillnaden är normal avrundning; inget av åren väljs, och alla tre
   måste prövas. KP-01.
 - **Vigselposten är osökt** och är den handling som normalt namnger hennes
   hemvist före äktenskapet. Barnet fött juni 1818 ger den övre gränsen. KP-02.
-- **Dopvägen till hennes släkt är stängd**, inte outredd. Torpen
+- Dopvägen till hennes släkt är stängd, inte outredd. Torpen
   `Tjöntorp[?]`, `Holmtorpet` och `Öfverbyla[?]` är däremot nya orter i
   akten. KP-02.
-- **Är barnet i posten den vuxne P-0123?** Frågan är återöppnad och ägs av
+- Är barnet i posten den vuxne P-0123? Frågan är återöppnad och ägs av
   T-0292.
 - Ingen aktiv konflikt finns. Skillnaden mellan `28` och 1791 är **bevarad**,
   inte utjämnad, och förnamnsformerna `Maja` och `Maria` består båda.
@@ -170,16 +170,16 @@ prövas i T-0292.
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Björsäters husförhörslängd för Krogen omkring
-  1810–1820**, som skulle ge hennes ålder och födelseort; i andra hand
+- Förväntad källa: Björsäters husförhörslängd för Krogen omkring
+  1810–1820, som skulle ge hennes ålder och födelseort; i andra hand
   vigselposten före 1818 och dödboken omkring 1856.
 - Genomsökt: barnets samtidiga födelsenotis på Krogen, nu utvunnen inklusive
   vittnesfältet och ålderskolumnens innebörd, och den privata familjeakten.
 - Negativ kontroll: [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md)
   säkrar namn, plats och modersroll men **inte** formen Maria, levnadsåren
-  1791–1856 eller egna föräldrar; **inget av dopets fyra vittnen bär hennes
-  patronymikon**.
-- Återaktivering: **villkoret är delvis uppfyllt 2026-09-09.** Den tidigare
+  1791–1856 eller egna föräldrar; inget av dopets fyra vittnen bär hennes
+  patronymikon.
+- Återaktivering: villkoret är delvis uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `en ny positiv personbunden datum-, orts-, hushålls-,
   vigsel-, flytt-, döds- eller bouppteckningsnyckel`; postens åldersuppgift
   är en **datumnyckel i intervallform** och gör födelseårgångarna 1789–1791

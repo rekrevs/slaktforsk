@@ -10,7 +10,7 @@
 
 Stina Cajsa Larsdotter är hustru i Säter, Indal, och förälder till Cajsa Märta född 21 mars 1834. Vuxenhushållet är belagt i egna barnposter och två successiva hushållslängder; uppåt är ursprunget ännu olöst. [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md), [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md)
 
-Hon uppges född **12 januari 1807 i Indal**. Juli var en avskriftsfelläsning. Den positiva födelsekandidaten Christina Catharina i Bäcken har samma datum, men ingen följd till Säter är belagd. Hennes kandidatföräldrar får inte göras till säkra föräldrar i denna akt. Filnamnets äldre Anna-form behålls för länkkontinuitet. [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md)
+Hon uppges född 12 januari 1807 i Indal. Juli var en avskriftsfelläsning. Den positiva födelsekandidaten Christina Catharina i Bäcken har samma datum, men ingen följd till Säter är belagd. Hennes kandidatföräldrar får inte göras till säkra föräldrar i denna akt. Filnamnets äldre Anna-form behålls för länkkontinuitet. [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md)
 
 ## Namnformer
 

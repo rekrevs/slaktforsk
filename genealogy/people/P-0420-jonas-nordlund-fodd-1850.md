@@ -116,10 +116,10 @@ Akten är omskriven till aktstandarden och profilen [P-0420](../research-profile
 
 Rättelser i denna omgång:
 
-- **Födelsedagen.** A-2363 angav tidigare `1850-02-22` som en enkel avskriftsuppgift. Vid omläsning av fulloriginalet svarar cellens tecken mot `29/3`. Den gamla lydelsen är bevarad, den nya uppgiften förs som A-6961 med status CONFLICT, och ingen av läsningarna görs till fakta. Aktens datumfält skriver därför årtalet ensamt.
-- **Relationstabellen var ofullständig.** [P-0419](P-0419-stefan-erik-nordlund.md) och [P-0421](P-0421-ingrid-brita-nordlund.md) saknades bland syskonen och är nu tillagda med tid/plats och belägg.
-- **Namnformen.** `Nordlund` står bara på faderns rad och är nu redovisat som hushållshärledning i stället för som hans egen namnform.
-- **Sex tidigare outvunna egna kolumner** — namnform, födelseortens dittokedja, koppbeteckning, kunskapsbetyg, de tomma rutorna och Nummerkolumnens notering — är nu lästa mot de tryckta kolumnrubrikerna.
+- Födelsedagen. A-2363 angav tidigare `1850-02-22` som en enkel avskriftsuppgift. Vid omläsning av fulloriginalet svarar cellens tecken mot `29/3`. Den gamla lydelsen är bevarad, den nya uppgiften förs som A-6961 med status CONFLICT, och ingen av läsningarna görs till fakta. Aktens datumfält skriver därför årtalet ensamt.
+- Relationstabellen var ofullständig. [P-0419](P-0419-stefan-erik-nordlund.md) och [P-0421](P-0421-ingrid-brita-nordlund.md) saknades bland syskonen och är nu tillagda med tid/plats och belägg.
+- Namnformen. `Nordlund` står bara på faderns rad och är nu redovisat som hushållshärledning i stället för som hans egen namnform.
+- Sex tidigare outvunna egna kolumner — namnform, födelseortens dittokedja, koppbeteckning, kunskapsbetyg, de tomma rutorna och Nummerkolumnens notering — är nu lästa mot de tryckta kolumnrubrikerna.
 
 ### Kandidatgräns
 

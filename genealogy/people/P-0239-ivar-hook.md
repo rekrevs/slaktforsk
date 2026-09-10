@@ -74,9 +74,9 @@ Namnbytet till den dubbeltecknade formen är inte daterat i någon läst källa.
 | A-3388 | Han avled 1944-08-14 i Poona i Indien. | CORROBORATED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Rättad dag 2026-09-08 (T-0148). Hudiksvalls dödsanteckning skriver `Död 14.8.1944, Poona i Indien` med tydliga siffror (A-4935), och Lidingös änkekolumn läses vid omläsning `44 ¹⁴/₈` (A-4936). Den tidigare uppgiften 1944-08-19 var en felläsning av bråkets täljare. |
 | A-3389 | Sonen Anders Gustav föddes i Poona 1944-08-31, sjutton dagar efter faderns död. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) | Postumt barn. Intervallet räknas från det rättade dödsdatumet 1944-08-14 (A-3388); C-0903:s normaliserade text säger ännu tolv dagar utifrån den felaktiga 19 augusti. |
 | A-3390 | Familjen var 1933 kyrkobokförd i Öst-Turkestan och barnen föddes växelvis i Stockholm, Kashgar och Poona. | CORROBORATED | hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Ger missionsårens rörelsemönster. Enskilda födelseorter hör till respektive barns akt. |
-| A-3513 | **Vigseln 1931-08-08 skedde sannolikt i Sverige.** Hustrun var kyrkobokförd i Danderyd till 1931-08-13, alltså fem dagar efter vigseldagen; hans egen utflyttning 1931-07-27 var en bokföringsåtgärd och inte nödvändigtvis en avresedag. | CORROBORATED | hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md), [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Rättar A-3387:s tidigare antagande att vigselorten låg utomlands. Stödet är förstärkt 2026-09-08: hinderslöshetsbetyget gick till Danderyd 1931-05-21 och vigselbeviset kom från Danderyd 1931-08-24 (A-4932, A-4933). Orten är ändå inte belagd. |
+| A-3513 | Vigseln 1931-08-08 skedde sannolikt i Sverige. Hustrun var kyrkobokförd i Danderyd till 1931-08-13, alltså fem dagar efter vigseldagen; hans egen utflyttning 1931-07-27 var en bokföringsåtgärd och inte nödvändigtvis en avresedag. | CORROBORATED | hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md), [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Rättar A-3387:s tidigare antagande att vigselorten låg utomlands. Stödet är förstärkt 2026-09-08: hinderslöshetsbetyget gick till Danderyd 1931-05-21 och vigselbeviset kom från Danderyd 1931-08-24 (A-4932, A-4933). Orten är ändå inte belagd. |
 | A-3514 | Danderyds lysnings- och vigselbok för 1931, posterna 25–44, saknar paret. | CORROBORATED | hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Avgränsat noll som täcker lysningar maj–oktober och vigslar juni–december i Danderyds församling. Nollan står i uttrycklig spänning mot A-4932/A-4933 och gäller varken Djursholms eller Stocksunds egna böcker. |
-| A-3540 | **Han hade en morbror som också var missionär: Knut Bertil Hök i Kongo**, gift med Sara Kristina Bergqvist. Deras döttrar Birgit Margareta och Märta Elisabet bodde hos farmodern på Fridhem i Hudiksvall 1935–1936, båda `icke döpt`. | CORROBORATED | mycket hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Placerar hans missionärskall i en familjetradition: morbrodern i **Kongo**, han själv i **Öst-Turkestan** och **Indien**. Morbroderns egen rad på församlingsbokens s. 593 skriver honom `Missionär`. Familjens samfundstillhörighet är en tolkning, inte en belagd medlemsuppgift. |
+| A-3540 | Han hade en morbror som också var missionär: Knut Bertil Hök i Kongo, gift med Sara Kristina Bergqvist. Deras döttrar Birgit Margareta och Märta Elisabet bodde hos farmodern på Fridhem i Hudiksvall 1935–1936, båda `icke döpt`. | CORROBORATED | mycket hög | [C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Placerar hans missionärskall i en familjetradition: morbrodern i Kongo, han själv i Öst-Turkestan och Indien. Morbroderns egen rad på församlingsbokens s. 593 skriver honom `Missionär`. Familjens samfundstillhörighet är en tolkning, inte en belagd medlemsuppgift. |
 | A-4930 | Yrkeskolumnen på hans egen rad i Hudiksvalls församlingsbok A II a/3 b s. 593 skriver först `Kontorsbiträde`, därefter ett överstruket ord som börjar på S och överst `Missionär`. | TRANSCRIBED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Ny utvinning 2026-09-08 (T-0148) ur den redan sparade helbilden; kolumnen hade inte nått akten. Det mellersta ordet är prövat och oläsligt. Kyrkobokföringen ger alltså kontorsarbete före missionärskallet och nämner aldrig läkaryrket (jfr A-1453). |
 | A-4931 | Kolumnen `Värnpliktsförhållanden` på samma rad bär talet `488 ⁶²/₂₃`; samma tal står i utflyttningslängdens anteckningskolumn 1931 följt av ett `R`. | TRANSCRIBED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md), [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md) | Ny utvinning 2026-09-08 (T-0148). Kolumnrubriken är tryckt, så talet är en värnpliktsuppgift. Nämnaren är `23`, inte `27` som C-0886 anger. Uppdelningen i inskrivningsnummer, rullföringsområde och årsklass är en prövbar hypotes, inte en avläst uppgift; ett inskrivet nummer är inte yrkesmilitär tjänst. |
 | A-4932 | Hans rad bär anteckningen att hinderslöshetsbetyg utfärdades 1931-05-21 till Danderyd för äktenskap med Anna Elisabet Carlman. | TRANSCRIBED | hög | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Ny utvinning 2026-09-08 (T-0148). Ordet som förkortas läses `Hlst.betyg` och tolkas som hinderslöshetsbetyg. Betyget visar vart lysningen skickades, inte var vigseln förrättades. |
@@ -125,7 +125,7 @@ hushållsgemenskap är inte i sig släktskap.
 | 1930 | Folkräkning; ogift | Fridhem, Hudiksvall, s. 593 | missionär | Modern och mormodern | [C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md) |
 | 1931-05-21 | Hinderslöshetsbetyg utfärdat till Danderyd för äktenskap med Anna Elisabet Carlman | Hudiksvall → Danderyd | missionär | — | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) |
 | 1931-07-27 | Utflyttning från Fridhem till Kashgar i Öst-Turkestan; en man i posten | Hudiksvall → Kashgar | missionär | — | [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) |
-| 1931-08-08 | **Vigsel med Anna Elisabeth Carlman**; orten obelagd, handlingen gick via Danderyd | okänd ort, sannolikt i Sverige | missionär | — | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) |
+| 1931-08-08 | Vigsel med Anna Elisabeth Carlman; orten obelagd, handlingen gick via Danderyd | okänd ort, sannolikt i Sverige | missionär | — | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) |
 | 1931-08-24 | Vigselbevis inkommer till Hudiksvall från Danderyd | Hudiksvall | missionär | — | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) |
 | 1931–1933 | **Materiell lucka**: resväg och vistelseorter mellan utflyttningen och sonens födelse | okänt | missionär | Hustrun | profilens Q-02, Q-04 |
 | 1933-03-26 | Sonen Gunnar föds; familjen kyrkobokförd i Öst-Turkestan | Stockholm, Engelbrekts församling | missionär | Hustrun | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) |
@@ -270,11 +270,11 @@ Johannes identitet fortsätter utan att relationen demoteras.
 
 - Öppna frågor och källvägar finns i
   [forskningsprofilen](../research-profiles/P-0239.md#forskningsfrågor).
-- **Vigselorten 1931-08-08.** Hinderslöshetsbetyget gick till Danderyd och
+- Vigselorten 1931-08-08. Hinderslöshetsbetyget gick till Danderyd och
   vigselbeviset kom därifrån (A-4932, A-4933), men Danderyds lysnings- och
   vigselbok saknar paret i posterna 25–44 (A-3514). Motsägelsen är öppen;
   Djursholms och Stocksunds egna böcker och Danderyds hela 1931 är olästa.
-- **Läkartiteln.** Publicerad missionshistorik säger missionärsläkare (A-1453);
+- Läkartiteln. Publicerad missionshistorik säger missionärsläkare (A-1453);
   kyrkobokföringen ger kontorsbiträde och missionär (A-4930). Ingen
   utbildningskälla är prövad.
 - **Dödsdagen** är rättad från 19 till 14 augusti 1944 (A-3388, A-4935,
@@ -300,18 +300,18 @@ och av helbilderna till
 [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) och
 [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md):
 
-- **A-3388, dödsdagen.** Tidigare lydelse: *Han avled 1944-08-19 i Poona i
+- A-3388, dödsdagen. Tidigare lydelse: *Han avled 1944-08-19 i Poona i
   Indien.* Rättad till 1944-08-14. Hudiksvalls anteckning skriver dagen med
   vanliga siffror, och Lidingös bråk läses `¹⁴/₈`. Se A-4935 och A-4936.
-- **A-3389, intervallet.** Tidigare lydelse: *Sonen Anders Gustav föddes i
+- A-3389, intervallet. Tidigare lydelse: *Sonen Anders Gustav föddes i
   Poona tolv dagar efter faderns död, 1944-08-31.* Rättad till sjutton dagar
   som följd av det rättade dödsdatumet.
-- **A-3338, nollans räckvidd.** Tidigare lydelse: *Hudiksvalls dödutdrag 1944
+- A-3338, nollans räckvidd. Tidigare lydelse: *Hudiksvalls dödutdrag 1944
   (hela året) och 1931–1949 års församlingsbok s. 593 saknar honom;
   dödsfallet 1944 registrerades inte i Hudiksvall.* Den sista satsen är
   upphävd: dödsfallet antecknades i den äldre församlingsboken. Nollan
   består för dödboken och den nya församlingsboken.
-- **A-1453, läkartiteln.** Tidigare lydelse: *Han var verksam som
+- A-1453, läkartiteln. Tidigare lydelse: *Han var verksam som
   missionärsläkare från 1931 och arbetade i Kashgar under revolutionen*,
   `CORROBORATED`, hög. Omformulerad till vad källan säger och nedgraderad
   till `TRANSCRIBED`, medel, eftersom titeln vilar på en enda webbpublicerad
@@ -462,7 +462,7 @@ båda datumkolumnerna i post 127 är `27/7`.
 
 Påståendet skrev att Birgit Margareta och Märta Elisabet bodde hos sin
 **mormoder** på Fridhem. Ledet är fel: flickornas far Knut Bertil är Anna Gretas
-son, så hon är deras **farmor**, och C-0942 säger själv `sondöttrar`. Rättat;
+son, så hon är deras farmor, och C-0942 säger själv `sondöttrar`. Rättat;
 äldre lydelse bevaras här:
 
 > | A-3540 | **Han hade en morbror som också var missionär: Knut Bertil Hök i Kongo**, gift med Sara Kristina Bergqvist. Deras döttrar Birgit Margareta och Märta Elisabet bodde hos mormodern på Fridhem i Hudiksvall 1935–1936, båda `icke döpt`. |

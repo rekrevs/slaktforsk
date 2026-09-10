@@ -172,13 +172,13 @@ centralt i T-0159 och är ännu inte infört där.
 
 ### Trädverkan rättad 2026-09-10, T-0193
 
-Fältet stod `BÄRANDE`. **Det är rättat till `EJ BÄRANDE`.** `Trädverkan`
-besvarar frågan *får antavlan passera denna person?* — och **ingen anlinje kan
-passera ett barn som dog fjorton dagar gammalt.** Fältet mäter alltså inte hur
+Fältet stod `BÄRANDE`. Det är rättat till `EJ BÄRANDE`. `Trädverkan`
+besvarar frågan *får antavlan passera denna person?* — och ingen anlinje kan
+passera ett barn som dog fjorton dagar gammalt. Fältet mäter alltså inte hur
 väl identiteten är belagd; `Identitetsgranskning: GODKÄND` står oförändrad.
 
 Rättelsen gjordes när systern [P-0320](P-0320-maria-christina-urbom-1858.md)
-konsoliderades i T-0193. **Ingen assertion är omskriven**, och akten i övrigt
+konsoliderades i T-0193. Ingen assertion är omskriven, och akten i övrigt
 är oförändrad. **T-0159 är DONE**; iakttagelsen förs därför här i stället för
 till en öppen uppgift.
 

@@ -9,7 +9,7 @@
   teman, söknycklar och källvägar.
 - Identitetsnivå **`UNDERKÄND`**, `Identitetsläge: PRÖVAT`;
   `Trädverkan: EJ BÄRANDE`. Full nivå `UNDERKÄND`.
-- **Efternamnet `Fredberg` är belagt först i gravregistret 1966–1988**, en
+- Efternamnet `Fredberg` är belagt först i gravregistret 1966–1988, en
   administrativ andrahandskälla nedtecknad sjuttio till åttiosex år efter
   födelsen. Se A-7925.
 
@@ -18,110 +18,110 @@
 Hon var dotter i [Olaus Fredbergs](P-0336-olaus-fredberg.md) och
 [Johanna Charlotta Janssons](P-0397-johanna-charlotta-jansson.md) hushåll,
 bokförd på Kungsholmen 1900 och i Klara rote 3 år 1910.
-**Född 1890-09-05, död 1975-05-31**, gravsatt **1975-06-18** i familjegraven på **Sollentuna kyrkogård,
-kvarter 07 gravplats 012**, skriven i **Sollentuna**.
+Född 1890-09-05, död 1975-05-31, gravsatt **1975-06-18** i familjegraven på Sollentuna kyrkogård,
+kvarter 07 gravplats 012, skriven i Sollentuna.
 
 **Efternamnet står inte utskrivet i folkräkningarnas namnkolumn och
-konstrueras inte därifrån.** **Formen `Fredberg` är belagd först i
-gravregistret**, alltså **85 år efter födelsen och i en administrativ
-andrahandskälla.** **Den säger ingenting om namnbruket under barndomen.**
+konstrueras inte därifrån.** Formen `Fredberg` är belagd först i
+gravregistret, alltså 85 år efter födelsen och i en administrativ
+andrahandskälla. Den säger ingenting om namnbruket under barndomen.
 
 **Hon var äldst av moderns fem barn**, född tjugoen månader efter
-föräldrarnas vigsel 1888-12-08, och **hon levde längst av de fyra syskon som
-denna kohort omfattar** — åttiofyra år.
+föräldrarnas vigsel 1888-12-08, och hon levde längst av de fyra syskon som
+denna kohort omfattar — åttiofyra år.
 
 **Hennes förnamn stavas på tre sätt i tre källor.** Folkräkningen 1900 skriver
 `Gerda`, folkräkningen 1910 `Gärda`, och gravregistret `Augusta Gerda
-Charlotta`. **Alla tre är källformer och ingen väljs som den riktiga.**
+Charlotta`. Alla tre är källformer och ingen väljs som den riktiga.
 
 **En iakttagelse om gravregistrets namnbruk gäller alla tre systrarna.**
-Registret **visar att det kan ange en gift kvinnas flicknamn** — `Fredberg,
+Registret visar att det kan ange en gift kvinnas flicknamn — `Fredberg,
 Göta Christina F Dahlgren` i samma grav är en kvinna som gift sig in i
-familjen. **Systrarna står däremot enbart som `Fredberg` med sina dopnamn.**
-**Det är en svag indikation och inget mer:** ett gravregister som förtecknar
+familjen. Systrarna står däremot enbart som `Fredberg` med sina dopnamn.
+Det är en svag indikation och inget mer: ett gravregister som förtecknar
 en familjegrav skulle inte nödvändigtvis visa ett gift efternamn för en dotter
-som gift sig ut. **Ingen slutsats om civilstånd dras för någon av dem.**
+som gift sig ut. Ingen slutsats om civilstånd dras för någon av dem.
 
 **Hennes exakta födelsedatum kommer inte ur en födelsebok.** Folkräkningarna
-gav bara året; **gravregistret ger dagen.** **Den egna födelsenotisen i
-Kungsholm är oläst**, och **gravregistrets datum är inte originalbelagt.**
+gav bara året; gravregistret ger dagen. Den egna födelsenotisen i
+Kungsholm är oläst, och gravregistrets datum är inte originalbelagt.
 
-**Att hon dog skriven i Sollentuna är belagt — att familjen flyttade dit
-samlat är det inte.** Citationens egen avstämning påpekar att flera
+Att hon dog skriven i Sollentuna är belagt — att familjen flyttade dit
+samlat är det inte. Citationens egen avstämning påpekar att flera
 halvsyskons hemort Sollentuna vid **olika dödsår** varken bevisar obrutet
 kvarboende eller en gemensam flytt efter 1910.
 
-`Trädverkan: EJ BÄRANDE`: **ingen anlinje passerar henne.**
+`Trädverkan: EJ BÄRANDE`: ingen anlinje passerar henne.
 
 ## Namnformer
 
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
-| `Augusta Gärda Charlotta` | folkräkningarna 1900 och 1910, utan efternamn | TRANSCRIBED | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Originalens namnkolumn skriver barnen utan efternamn**; faderns namn bevisar inte hennes eget namnbruk. |
-| `Fredberg, Augusta Gärda Charlotta` | gravregistret, gravsättning 1975-06-18 | TRANSCRIBED | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Enda belägget för efternamnet.** Administrativ andrahandskälla; **den säger inget om namnbruket under barndomen.** |
+| `Augusta Gärda Charlotta` | folkräkningarna 1900 och 1910, utan efternamn | TRANSCRIBED | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Originalens namnkolumn skriver barnen utan efternamn; faderns namn bevisar inte hennes eget namnbruk. |
+| `Fredberg, Augusta Gärda Charlotta` | gravregistret, gravsättning 1975-06-18 | TRANSCRIBED | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Enda belägget för efternamnet.** Administrativ andrahandskälla; den säger inget om namnbruket under barndomen. |
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2999 | Augusta Gerda/Gärda Charlotta var född 1890 i Kungsholm och stod 1900 och 1910 som ogift dotter/barn till Olaus Fredberg och Johanna Charlotta, först i Jordgubben N:o 11 och därefter i Gösen nr 4, 15. | CORROBORATED | hög | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | `Gerda` 1900 och `Gärda` 1910 bevaras som namnformer; exakt datum och efternamn återstår. |
-| A-3554 | **Hon föddes 1890-09-05 och dog 1975-05-31**, gravsatt 1975-06-18 i familjegraven på Sollentuna kyrkogård, skriven i Sollentuna. | TRANSCRIBED | hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Exakt födelsedatum är nytt; folkräkningarna gav bara året 1890. |
-| A-7925 | **Efternamnet `Fredberg` är belagt först i gravregistret och inte i någon samtida källa.** Folkräkningarnas namnkolumn skriver barnen **utan efternamn**, och **formen `Fredberg` är nedtecknad 85 år efter födelsen i en administrativ andrahandskälla.** **Hennes exakta födelsedag kommer ur samma register**, inte ur en födelsebok; **den egna födelsenotisen i Kungsholm är oläst.** **Att hon dog skriven i Sollentuna är belagt** — men **att familjen flyttade dit samlat är det inte**, eftersom halvsyskonens hemort Sollentuna gäller olika dödsår. | TRANSCRIBED | hög för uppgifternas källtyp | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md), [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) | Konsoliderat 2026-09-10 i T-0195 ur citationernas redan skrivna uppgifter. **Ingen ny arkivsökning och ingen ny läsning.** Assertionen redovisar **vad de befintliga uppgifterna bär och var de slutar.** **Gravregistret är en andrahandskälla**, och citationen varnar uttryckligen att en gemensam grav är en korrelationsuppgift och inte ensam bevisning. |
+| A-3554 | Hon föddes 1890-09-05 och dog 1975-05-31, gravsatt 1975-06-18 i familjegraven på Sollentuna kyrkogård, skriven i Sollentuna. | TRANSCRIBED | hög | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Exakt födelsedatum är nytt; folkräkningarna gav bara året 1890. |
+| A-7925 | Efternamnet `Fredberg` är belagt först i gravregistret och inte i någon samtida källa. Folkräkningarnas namnkolumn skriver barnen utan efternamn, och formen `Fredberg` är nedtecknad 85 år efter födelsen i en administrativ andrahandskälla. Hennes exakta födelsedag kommer ur samma register, inte ur en födelsebok; den egna födelsenotisen i Kungsholm är oläst. Att hon dog skriven i Sollentuna är belagt — men att familjen flyttade dit samlat är det inte, eftersom halvsyskonens hemort Sollentuna gäller olika dödsår. | TRANSCRIBED | hög för uppgifternas källtyp | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md), [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) | Konsoliderat 2026-09-10 i T-0195 ur citationernas redan skrivna uppgifter. Ingen ny arkivsökning och ingen ny läsning. Assertionen redovisar vad de befintliga uppgifterna bär och var de slutar. Gravregistret är en andrahandskälla, och citationen varnar uttryckligen att en gemensam grav är en korrelationsuppgift och inte ensam bevisning. |
 
 ## Relationer
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0336 Olaus Fredberg](P-0336-olaus-fredberg.md) | **far**, stationskarlsförman och senare bangårdsmästare; **död 1925-08-06** | Kungsholmen, Klara och Sollentuna | CORROBORATED | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
-| [P-0397 Johanna Charlotta Jansson](P-0397-johanna-charlotta-jansson.md) | **mor**; **hon saknas i familjegraven** | Kungsholmen och Klara | CORROBORATED | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
-| [P-0489 Augusta Gärda Charlotta](P-0489-augusta-garda-charlotta.md), [P-0490 Ester Olivia Johanna](P-0490-ester-olivia-johanna.md), [P-0491 Edit Maria Justina](P-0491-edit-maria-justina.md), [P-0492 Oskar Fredrik](P-0492-oskar-fredrik.md), [P-0493 Elvira Fredina Gully](P-0493-elvira-fredina-gully.md) | **helsyskon** — de fem barnen i faderns andra gifte | Kungsholmen, Klara och Sollentuna | TRANSCRIBED | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
-| [P-0395 Frida Elisabeth Fredberg](P-0395-frida-elisabeth-fredberg.md), [P-0287 Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md) | **halvsyskon** ur faderns första gifte; **båda ligger i samma grav** | Kungsholmen och Sollentuna | TRANSCRIBED | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
+| [P-0336 Olaus Fredberg](P-0336-olaus-fredberg.md) | far, stationskarlsförman och senare bangårdsmästare; död 1925-08-06 | Kungsholmen, Klara och Sollentuna | CORROBORATED | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
+| [P-0397 Johanna Charlotta Jansson](P-0397-johanna-charlotta-jansson.md) | mor; hon saknas i familjegraven | Kungsholmen och Klara | CORROBORATED | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
+| [P-0489 Augusta Gärda Charlotta](P-0489-augusta-garda-charlotta.md), [P-0490 Ester Olivia Johanna](P-0490-ester-olivia-johanna.md), [P-0491 Edit Maria Justina](P-0491-edit-maria-justina.md), [P-0492 Oskar Fredrik](P-0492-oskar-fredrik.md), [P-0493 Elvira Fredina Gully](P-0493-elvira-fredina-gully.md) | helsyskon — de fem barnen i faderns andra gifte | Kungsholmen, Klara och Sollentuna | TRANSCRIBED | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
+| [P-0395 Frida Elisabeth Fredberg](P-0395-frida-elisabeth-fredberg.md), [P-0287 Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md) | halvsyskon ur faderns första gifte; båda ligger i samma grav | Kungsholmen och Sollentuna | TRANSCRIBED | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
 
 ## Tidslinje
 
 | Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
 |---|---|---|---|---|---|
-| **1890-09-05** | **född** — **dagen kommer ur gravregistret, året ur folkräkningarna**; **ingen läst födelsenotis** | Kungsholm | barn | föräldrarnas | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
-| 1900-12-31 | **räknad som ogift dotter/barn** i familj nummer 1 | Jordgubben N:o 11 på Kungsholmen | — | föräldrarnas | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) |
-| 1910-12-31 | **räknad som ogift dotter/barn** | Gösen nr 4, 15, Klara rote 3 | — | föräldrarnas | [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) |
-| **mellan 1910 och 1975** | **obelagt** — men **hon var skriven i Sollentuna vid sin död** | — | — | — | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
-| **1975-05-31** | **död**, 85 år gammal | Sollentuna | — | — | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
-| **1975-06-18** | **gravsatt** i familjegraven, kvarter 07 gravplats 012 | Sollentuna kyrkogård | — | — | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
+| 1890-09-05 | född — dagen kommer ur gravregistret, året ur folkräkningarna; ingen läst födelsenotis | Kungsholm | barn | föräldrarnas | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
+| 1900-12-31 | räknad som ogift dotter/barn i familj nummer 1 | Jordgubben N:o 11 på Kungsholmen | — | föräldrarnas | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) |
+| 1910-12-31 | räknad som ogift dotter/barn | Gösen nr 4, 15, Klara rote 3 | — | föräldrarnas | [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) |
+| mellan 1910 och 1975 | obelagt — men hon var skriven i Sollentuna vid sin död | — | — | — | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
+| 1975-05-31 | död, 85 år gammal | Sollentuna | — | — | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
+| 1975-06-18 | gravsatt i familjegraven, kvarter 07 gravplats 012 | Sollentuna kyrkogård | — | — | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) |
 
-**Livslinjen har två ändpunkter och ett tomt mitt.** **Mellan 1910 och
-dödsåret 1975 finns ingenting** — **65 år.**
+**Livslinjen har två ändpunkter och ett tomt mitt.** Mellan 1910 och
+dödsåret 1975 finns ingenting — 65 år.
 
 ## Boställen och flyttar
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| omkring 1900 | **Jordgubben N:o 11** på Kungsholmen | kvartersnamn och nummer | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) | Föräldrahushållets bostad. |
-| omkring 1910 | **Gösen nr 4, 15**, Klara rote 3 | kvartersnamn och nummer | [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | **Familjen flyttade från Kungsholmen till Klara** mellan de två folkräkningarna. |
-| **vid dödsfallet 1975-05-31** | **skriven i Sollentuna** | — | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Att hon var skriven där är belagt.** **Att familjen flyttade dit samlat är det inte** — halvsyskonens hemort gäller olika dödsår. |
-| **mellan 1910 och 1975** | **obelagt** | — | — | **Ingen flyttkedja är läst.** |
+| omkring 1900 | Jordgubben N:o 11 på Kungsholmen | kvartersnamn och nummer | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) | Föräldrahushållets bostad. |
+| omkring 1910 | Gösen nr 4, 15, Klara rote 3 | kvartersnamn och nummer | [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | Familjen flyttade från Kungsholmen till Klara mellan de två folkräkningarna. |
+| vid dödsfallet 1975-05-31 | skriven i Sollentuna | — | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Att hon var skriven där är belagt. Att familjen flyttade dit samlat är det inte — halvsyskonens hemort gäller olika dödsår. |
+| mellan 1910 och 1975 | obelagt | — | — | **Ingen flyttkedja är läst.** |
 
 ## Yrke, utbildning och ekonomi
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1900 och 1910 | **inget eget yrke** — hon förs som barn i föräldrahushållet | Kungsholmen och Klara | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Väntat: hon var 10 år 1910.** |
-| — | **inget känt vuxet yrke** | — | — | **Temat är helt oöppnat**, eftersom ingen källa mellan 1910 och dödsåret är läst. |
+| 1900 och 1910 | inget eget yrke — hon förs som barn i föräldrahushållet | Kungsholmen och Klara | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Väntat: hon var 10 år 1910. |
+| — | inget känt vuxet yrke | — | — | Temat är helt oöppnat, eftersom ingen källa mellan 1910 och dödsåret är läst. |
 
 ## Militärt, civilt och rättsligt
 
 | Tid | Uppgift | Förband/myndighet/mål | Belägg | Kommentar |
 |---|---|---|---|---|
-| — | **ingen militär uppgift, och ingen kan finnas** | — | — | Värnplikten gällde män. |
-| 1900 och 1910 | **ogift** | folkräkningarnas civilståndskolumn | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Väntat i barndomen.** **Hennes civilstånd som vuxen är okänt** — se A-7925 och profilen. |
-| — | **ingen rättslig uppgift** | — | — | Ingen sådan källa är prövad. |
+| — | ingen militär uppgift, och ingen kan finnas | — | — | Värnplikten gällde män. |
+| 1900 och 1910 | ogift | folkräkningarnas civilståndskolumn | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md), [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md), [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Väntat i barndomen.** Hennes civilstånd som vuxen är okänt — se A-7925 och profilen. |
+| — | ingen rättslig uppgift | — | — | Ingen sådan källa är prövad. |
 
 ## Hälsa och död
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
-| **1975-05-31** | **död**, 85 år gammal | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Gravregistret är en administrativ andrahandskälla.** **Dödsdatumet bör bekräftas i Sollentunas dödbok** innan det behandlas som originalbelagt — citationens egen anmärkning. |
-| — | **ingen dödsorsak** | — | **Gravregistret anger ingen**, och **ingen dödbok är läst.** |
-| **1975-06-18** | **gravsatt** i familjegraven | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **Tiden mellan död och gravsättning är 18 dagar.** |
+| 1975-05-31 | död, 85 år gammal | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Gravregistret är en administrativ andrahandskälla. Dödsdatumet bör bekräftas i Sollentunas dödbok innan det behandlas som originalbelagt — citationens egen anmärkning. |
+| — | ingen dödsorsak | — | Gravregistret anger ingen, och ingen dödbok är läst. |
+| 1975-06-18 | gravsatt i familjegraven | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | Tiden mellan död och gravsättning är 18 dagar. |
 
 ## Media och personliga källor
 
@@ -129,7 +129,7 @@ dödsåret 1975 finns ingenting** — **65 år.**
 |---|---|---|---|---|
 | Folkräkningen 1900, Kungsholm | läst före 2026-09-08 | Riksarkivet | [C-0806](../citations/C-0806-riksarkivet-folkrakning-1900-kungsholm-fredberg.md) | se citationen |
 | Folkräkningen 1910, Klara | läst före 2026-09-08 | Riksarkivet | [C-0774](../citations/C-0774-folkrakning-1910-klara-fredbergfamilj.md) | se citationen |
-| Sollentuna kyrkogård, kvarter 07 gravplats 012 | läst 2026-09-06 | SvenskaGravar.se | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | **ingen lokal registerkopia** — se citationens egen anmärkning |
+| Sollentuna kyrkogård, kvarter 07 gravplats 012 | läst 2026-09-06 | SvenskaGravar.se | [C-0945](../citations/C-0945-fredbergs-familjegrav-sollentuna.md) | ingen lokal registerkopia — se citationens egen anmärkning |
 
 **Inget personligt material är känt.**
 
@@ -137,30 +137,30 @@ dödsåret 1975 finns ingenting** — **65 år.**
 
 Augusta Gärda Charlotta föddes den **1890-09-05** i Stockholm, som dotter till stationskarlsförmannen
 Olaus Fredberg och Johanna Charlotta Jansson.
-Vid folkräkningen 1900 var hon 10 år och bodde med föräldrar och fyra syskon i **Jordgubben N:o 11 på Kungsholmen**.
+Vid folkräkningen 1900 var hon 10 år och bodde med föräldrar och fyra syskon i Jordgubben N:o 11 på Kungsholmen.
 
-**Tio år senare hade familjen flyttat till Gösen nr 4 i Klara rote 3**, och
+Tio år senare hade familjen flyttat till Gösen nr 4 i Klara rote 3, och
 där står hon som barn i hushållet.
 
-**Sedan tar källorna slut.** **Mellan 1910 och 1975 finns ingenting** —
+**Sedan tar källorna slut.** Mellan 1910 och 1975 finns ingenting —
 65 år utan en enda läst uppgift.
 
 **Hon dog den 1975-05-31, 85 år gammal, skriven i Sollentuna**, och
 gravsattes den 1975-06-18 i familjegraven på Sollentuna
-kyrkogård — **tillsammans med fadern, hans två barn ur första giftet och alla
-hennes egna helsyskon.** **Modern ligger inte där.**
+kyrkogård — tillsammans med fadern, hans två barn ur första giftet och alla
+hennes egna helsyskon. Modern ligger inte där.
 
 **Efternamnet `Fredberg` bär hon först i det registret.** I folkräkningarna
-skrivs barnen utan efternamn, och **formen är nedtecknad 85
-år efter födelsen.**
+skrivs barnen utan efternamn, och formen är nedtecknad 85
+år efter födelsen.
 
 ## Forskningsfrågor och konflikter
 
-1. **Vad står i hennes egen födelsenotis i Kungsholm 1890?** Dagen kommer ur
+1. Vad står i hennes egen födelsenotis i Kungsholm 1890? Dagen kommer ur
    ett gravregister, inte ur en födelsebok. Se profilens Q-01.
-2. **Vad hände mellan 1910 och 1975?** 65 år är obelagda. Se Q-02.
-3. **Ingen konflikt kvarstår i akten.** **Systern Edits födelseårskonflikt hör
-   till hennes egen akt** och är fortfarande bevarad.
+2. Vad hände mellan 1910 och 1975? 65 år är obelagda. Se Q-02.
+3. Ingen konflikt kvarstår i akten. Systern Edits födelseårskonflikt hör
+   till hennes egen akt och är fortfarande bevarad.
 
 ## Historik och rättelser
 
@@ -175,14 +175,14 @@ profil fanns.
 ### Namnformstabell införd, 2026-09-10
 
 Akten sade i löptext att `efternamn står inte utskrivet i originalen och
-konstrueras inte`, **men saknade namnformstabell.** Bedömningen står kvar i
-sak och är nu förd i tabellform, **enligt samma modell som systern
-[P-0491](P-0491-edit-maria-justina.md)** fick i T-0144.
+konstrueras inte`, men saknade namnformstabell. Bedömningen står kvar i
+sak och är nu förd i tabellform, enligt samma modell som systern
+[P-0491](P-0491-edit-maria-justina.md) fick i T-0144.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0489: Augusta Gärda Charlotta`. Den lyder nu `P-0489: Augusta Gärda Charlotta, äldst av Fredbergs fem`.
-**Filnamnet är oförändrat.**
+Filnamnet är oförändrat.
 
 ### Tidigare `## Forskningsstatus`, historisk
 

@@ -29,7 +29,7 @@ Ludgo, där fadern var bonden Carl Carlsson och modern Anna Andersdotter.
 Ortnamnet är rättat 2026-09-09; projektets tidigare avskrift hade `Hökstorp`.
 Se [A-3222](#påståenden) och citationens tillägg.
 
-Hon och maken är födda i **samma socken samma år**, fyra månader isär. Det gör
+Hon och maken är födda i samma socken samma år, fyra månader isär. Det gör
 Ludgo till den första församlingen att pröva för vigseln, som fortfarande är
 okänd.
 
@@ -49,13 +49,13 @@ Hon bär **inte** familjenamnet Ålund i någon läst källa. Ingen egen undersk
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-1898 | Namnet skrevs `Maja Katr. Carlsd:r`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Normaliseras till Maja Catharina Carlsdotter. |
-| A-1899 | Hon uppges vara född 1808-12-23 i Ludgo. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | `d:o` upplöses från makens rad; egen födelsenotis återstår. **Överspelad kommentar 2026-09-09:** födelsenotisen är funnen och läst, och den bekräftar både dagen och socknen, se A-3222. |
+| A-1899 | Hon uppges vara född 1808-12-23 i Ludgo. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | `d:o` upplöses från makens rad; egen födelsenotis återstår. Överspelad kommentar 2026-09-09: födelsenotisen är funnen och läst, och den bekräftar både dagen och socknen, se A-3222. |
 | A-1900 | Hon var mor till Pehr Albert Ålund. | CORROBORATED | hög | [C-0316](../citations/C-0316-pehr-albert-alund-helgesta-hyltinge-1868.md), [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Hon markeras som hustru och Pehr som son i samma familjegrupp; B/2 hänvisar sonen till samma folio. |
-| A-3222 | Maja Chaisa föddes 1808-12-23 i **Stocktorp**, Ludgo, som dotter till bonden Carl Carlsson och Anna Andersdotter. | CORROBORATED | mycket hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md), [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Egen födelsenotis och exakt senare datum-/sockenprofil. **Rättat 2026-09-09 (T-0167):** ortrubriken lästes `Hökstorp`; notisen skriver `Stocktorp`, understruket som alla ortrubriker på uppslaget och med tydligt `St`. Äldre lydelse i Historik och rättelser. |
+| A-3222 | Maja Chaisa föddes 1808-12-23 i Stocktorp, Ludgo, som dotter till bonden Carl Carlsson och Anna Andersdotter. | CORROBORATED | mycket hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md), [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Egen födelsenotis och exakt senare datum-/sockenprofil. Rättat 2026-09-09 (T-0167): ortrubriken lästes `Hökstorp`; notisen skriver `Stocktorp`, understruket som alla ortrubriker på uppslaget och med tydligt `St`. Äldre lydelse i Historik och rättelser. |
 | A-7260 | Dopnotisen anger dopdagen den 26 december 1808 och ortrubriken `Stocktorp` i Ludgo; fadern anges som `Bonden`. | TRANSCRIBED | hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) | Utvunnet 2026-09-09; ortrubriken var felläst och dopdagen fanns bara i citationens löptext, inte i något påstående. Tre dagar mellan födelse och dop, mitt i julhelgen. |
-| A-7261 | Dopet hade sex namngivna faddrar: bonden Pehr Andersson från Sberga[?] i Sättersta[?] och hans hustru Lena Andersdotter, torparen Pehr Pehrsson i Halfshagen[?], enkan Cathrina Andersdotter i Skinnarhagen, sonen Anders Olsson i Sofvestorp och dottern Maja Lindgren i Lindsberg. | TRANSCRIBED | hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) | Utvunnet 2026-09-09; hela faddrarkolumnen var oläst. Kretsen är bondemiljö — bonde, torpare, enka, son och dotter — och skiljer sig tydligt från makens klockarkrets med befallningsman, kyrkovärd och adjunkt. En fadder kommer från en **annan socken**, Sättersta[?], vilket är en söknyckel för moderns eller faderns härkomst. Osäkra ortläsningar bevaras; ingen görs till släkting. |
-| A-7262 | På hennes rad 2 i Helgesta A I/15 är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Död.`, `Fräjd och enskilda anteckningar.`, `Utflyttad` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; tre av fyra `Läser`-kolumner har råtecken, varav det första avviker från de övriga åtta radernas. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. Att `Död.` är tom betyder att hon levde när boken avslutades 1865. Det avvikande läsetecknet ges **ingen** modern kunskapstolkning; formulärstöd för en sådan saknas. |
-| A-7263 | Hennes rad saknar helt uppgift i `Inflyttad`-kolumnerna, medan makens rad har `Gryt 57`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09; kolumnen är läst och tom. Familjens flyttning 1857 är alltså bokförd **endast på hushållsföreståndarens rad**. Hennes egen inflyttning till Helgesta har därmed varken dag eller attestnummer i denna längd, och hon har ingen självständig flyttningsuppgift att söka på. |
+| A-7261 | Dopet hade sex namngivna faddrar: bonden Pehr Andersson från Sberga[?] i Sättersta[?] och hans hustru Lena Andersdotter, torparen Pehr Pehrsson i Halfshagen[?], enkan Cathrina Andersdotter i Skinnarhagen, sonen Anders Olsson i Sofvestorp och dottern Maja Lindgren i Lindsberg. | TRANSCRIBED | hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) | Utvunnet 2026-09-09; hela faddrarkolumnen var oläst. Kretsen är bondemiljö — bonde, torpare, enka, son och dotter — och skiljer sig tydligt från makens klockarkrets med befallningsman, kyrkovärd och adjunkt. En fadder kommer från en annan socken, Sättersta[?], vilket är en söknyckel för moderns eller faderns härkomst. Osäkra ortläsningar bevaras; ingen görs till släkting. |
+| A-7262 | På hennes rad 2 i Helgesta A I/15 är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Död.`, `Fräjd och enskilda anteckningar.`, `Utflyttad` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; tre av fyra `Läser`-kolumner har råtecken, varav det första avviker från de övriga åtta radernas. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. Att `Död.` är tom betyder att hon levde när boken avslutades 1865. Det avvikande läsetecknet ges ingen modern kunskapstolkning; formulärstöd för en sådan saknas. |
+| A-7263 | Hennes rad saknar helt uppgift i `Inflyttad`-kolumnerna, medan makens rad har `Gryt 57`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09; kolumnen är läst och tom. Familjens flyttning 1857 är alltså bokförd endast på hushållsföreståndarens rad. Hennes egen inflyttning till Helgesta har därmed varken dag eller attestnummer i denna längd, och hon har ingen självständig flyttningsuppgift att söka på. |
 
 ## Relationer
 
@@ -78,8 +78,8 @@ Hon bär **inte** familjenamnet Ålund i någon läst källa. Ingen egen undersk
 | Maja Lindgren, dotter | fadder vid hennes dop | Lindsberg, Ludgo 1808 | TRANSCRIBED | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) |
 
 Två faddrar bär patronymikonet **Andersdotter/Andersson** liksom hennes mor
-Anna Andersdotter; det är en söknyckel för moderns släkt och **inget belägg för
-släktskap**. Sju barn är belagda; barnaskaran kan vara större, eftersom
+Anna Andersdotter; det är en söknyckel för moderns släkt och inget belägg för
+släktskap. Sju barn är belagda; barnaskaran kan vara större, eftersom
 uppslaget bara visar dem som fanns i hushållet 1861–1865 eller återvände dit.
 
 ## Tidslinje
@@ -90,7 +90,7 @@ uppslaget bara visar dem som fanns i hushållet 1861–1865 eller återvände di
 | 1808-12-26 | Döpt, med sex faddrar ur bondemiljön, varav ett par från en annan socken | Ludgo | Barn | Samma | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) |
 | Mellan 1808 och 1832 | Vigsel med Carl Fredrik Ålund och flyttningen till Gryt; ordning, tid och plats okända | Ludgo → Gryt | — | — | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) |
 | 1832-04-26 till 1853-07-30 | Sju barn föds, samtliga i Gryt | Gryt | Mor | Carl Fredrik Ålund | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) |
-| 1857 | Flyttar med familjen från Gryt till Löta; **ingen egen inflyttningsuppgift** | Gryt → Löta, Helgesta | Hustru | Make och barn | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) |
+| 1857 | Flyttar med familjen från Gryt till Löta; ingen egen inflyttningsuppgift | Gryt → Löta, Helgesta | Hustru | Make och barn | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) |
 | 1861–1865 | Rad 2 i husförhörslängden för Löta, med nattvardstecken 1862–1865; `Död.` läst och tom | Löta, Helgesta | Hustru | Make och sju barn i olika kombinationer | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) |
 
 Vigseln saknas helt: kolumnen `Äktenskap: Gift.` är läst och tom även på hennes
@@ -104,10 +104,10 @@ var då 57 år och levde.
 |---|---|---|---|---|
 | 1808 | Stocktorp | Ludgo församling; faderns gård, `Bonden` | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) | Rättat från `Hökstorp` 2026-09-09. Gårdens läge i socknen är inte fastställt. |
 | Minst 1832–1857 | Gryt | Gård eller torp ej angivet | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Härlett ur att samtliga sju barn har `Gryt` som födelseort. Ingen egen husförhörsrad i Gryt är läst. |
-| 1857–minst 1865 | Löta, Töfversta Rote | Helgesta församling, sida 179 | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | **Hennes egen inflyttningskolumn är läst och tom**; flyttningen är bokförd bara på makens rad. |
+| 1857–minst 1865 | Löta, Töfversta Rote | Helgesta församling, sida 179 | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Hennes egen inflyttningskolumn är läst och tom; flyttningen är bokförd bara på makens rad. |
 
 Utflyttningskolumnen är läst och tom: hon lämnade inte Löta under bokens tid.
-Hon har **ingen självständig flyttningsuppgift i något läst material** — varken
+Hon har ingen självständig flyttningsuppgift i något läst material — varken
 till Gryt eller till Helgesta.
 
 ## Yrke, utbildning och ekonomi
@@ -115,7 +115,7 @@ till Gryt eller till Helgesta.
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
 | 1861–1865 | `H.` framför namnet, alltså hustru | Löta, Helgesta | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Familjeställning, inte yrke. Namnkolumnen efterfrågar stånd, embete, yrke och näringsfång men har inget utskrivet för henne. |
-| 1861–1865 | Råtecken i tre av fyra `Läser`-kolumner, varav det första avviker från uppslagets övriga åtta rader | Helgesta församling | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Grafiskt råtecken. **Avvikelsen ges ingen tolkning** — varken om läskunnighet eller om något annat. Formulärstöd saknas, och en modern läsning av tecknet vore en gissning. |
+| 1861–1865 | Råtecken i tre av fyra `Läser`-kolumner, varav det första avviker från uppslagets övriga åtta rader | Helgesta församling | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Grafiskt råtecken. Avvikelsen ges ingen tolkning — varken om läskunnighet eller om något annat. Formulärstöd saknas, och en modern läsning av tecknet vore en gissning. |
 
 Hennes egen ekonomi är okänd. Hon var bondedotter från Stocktorp och kan ha
 haft arv i gården; ingen bouppteckning efter föräldrarna är sökt.
@@ -171,8 +171,8 @@ gifte sig är okänt; kolumnen `Äktenskap: Gift.` är läst och tom på båda d
 rader i Helgesta. Deras sju kända barn föddes i Gryt mellan 1832 och 1853, och
 1857 flyttade familjen till Löta i Helgesta. [A-7262](#påståenden)
 
-Om hennes egen flyttning finns däremot ingenting: **inflyttningskolumnen på
-hennes rad är läst och tom.** Familjens flytt 1857 är bokförd bara på makens
+Om hennes egen flyttning finns däremot ingenting: inflyttningskolumnen på
+hennes rad är läst och tom. Familjens flytt 1857 är bokförd bara på makens
 rad, och hon har därmed ingen självständig flyttningsuppgift i något läst
 material — varken till Gryt eller till Helgesta. Det är ett vanligt drag i
 husförhörslängderna och en konkret begränsning för att följa henne.
@@ -185,17 +185,17 @@ boken avslutades 1865 levde hon; hon var då 57 år.
 
 ## Forskningsfrågor och konflikter
 
-- **Vigseln är helt okänd** och står inte i Helgestas längd. Se
+- Vigseln är helt okänd och står inte i Helgestas längd. Se
   [profilens Q-01](../research-profiles/P-0330.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0330.md#källvägar).
-- **Hon har ingen egen flyttningsuppgift.** Ludgos och Grytens
+- Hon har ingen egen flyttningsuppgift. Ludgos och Grytens
   flyttningslängder är den enda vägen att följa henne mellan 1808 och 1857.
   Se KP-02.
-- **Livet efter 1865 är okänt.** `Död.`-kolumnen är tom, alltså levde hon.
+- Livet efter 1865 är okänt. `Död.`-kolumnen är tom, alltså levde hon.
   Se KP-03.
-- **Faddern från Sättersta[?] och de två Andersson/Andersdotter-faddrarna** är
+- Faddern från Sättersta[?] och de två Andersson/Andersdotter-faddrarna är
   söknycklar för moderns släkt, inte belägg för släktskap.
-- **`Stocktorp` är inte lokaliserat** i Ludgo, och rättelsen berör faderns
+- `Stocktorp` är inte lokaliserat i Ludgo, och rättelsen berör faderns
   filnamn i [P-0511](P-0511-carl-carlsson-hokstorp.md), som ägs av
   [T-0174](../../wotan/dev-log/T-0174.md).
 - Ingen konflikt kvarstår inom det lästa underlaget.
@@ -213,7 +213,7 @@ redan sparade helbilderna utan ny arkivåtkomst.
 > A-3222: Maja Chaisa föddes 1808-12-23 i Hökstorp, Ludgo, som dotter till
 > bonden Carl Carlsson och Anna Andersdotter.
 
-Dessutom var **hela faddrarkolumnen i dopnotisen oläst**, och på
+Dessutom var hela faddrarkolumnen i dopnotisen oläst, och på
 husförhörsraden var sex tryckta kolumner olästa — däribland den tomma
 `Inflyttad`-kolumnen, som visar att hon inte har någon egen flyttningsuppgift,
 och den tomma `Äktenskap: Gift.`, som visar att vigselåret inte står i den
@@ -251,23 +251,23 @@ oläst faddrarkolumn.
 ### Inkommande följdfynd från T-0174, 2026-09-09
 
 **Avgränsad följd, ingen ny arkivåtkomst och ingen omprövning av din akt.**
-Fyndet kommer ur de **två** redan sparade helbilderna till
+Fyndet kommer ur de två redan sparade helbilderna till
 [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md), lästa
 vid 400–450 %, och rör dina föräldrar
 [P-0511](P-0511-carl-carlsson-hokstorp.md) och
-[P-0512](P-0512-anna-andersdotter-hokstorp.md), som T-0174 äger. **Inget
-A-id, ingen status och ingen bedömning i din akt ändras här.**
+[P-0512](P-0512-anna-andersdotter-hokstorp.md), som T-0174 äger. Inget
+A-id, ingen status och ingen bedömning i din akt ändras här.
 
 **Sifferfältet i din dopnotis är ett enda intervall, inte två åldrar.**
 T-0167 förde `30-35` som *föräldrarnas åldrar i femårsintervall*, i plural.
 Observationen om femårsstegen är riktig, men slutledningen om plural är inte:
-av de tjugoen posterna på de två uppslagen namnger **fyra endast en mor**, och
-var och en bär likaså **ett** intervall. Intervallet står dessutom i samtliga
-poster omedelbart efter **moderns** namn.
+av de tjugoen posterna på de två uppslagen namnger fyra endast en mor, och
+var och en bär likaså ett intervall. Intervallet står dessutom i samtliga
+poster omedelbart efter moderns namn.
 
-Följden är asymmetrisk. **Din mor får sin första datering:** 30–35 år i
-december 1808, alltså född omkring **1773–1778**. **Din far förlorar sin
-enda:** han har nu ingen åldersuppgift alls — vilket är särskilt kännbart
+Följden är asymmetrisk. Din mor får sin första datering: 30–35 år i
+december 1808, alltså född omkring **1773–1778**. Din far förlorar sin
+enda: han har nu ingen åldersuppgift alls — vilket är särskilt kännbart
 eftersom `Carl Carlsson` är ett av tidens vanligaste namn och gården är hans
 enda särskiljande led. Att intervallet gäller moderns ålder förs som
 `SANNOLIKT`, inte styrkt; kontrollen ägs av
@@ -275,13 +275,13 @@ enda särskiljande led. Att intervallet gäller moderns ålder förs som
 
 **Din mor och Carl Fredriks mor hamnar i samma intervall.** De var jämnåriga,
 födde varsitt barn i Ludgo 1808 med tre och en halv månads mellanrum, och
-deras barn — ni två — gifte sig senare med varandra. Det är en **parallell,
-inte en bekräftelse**: två oberoende poster med samma värde säger ingenting om
+deras barn — ni två — gifte sig senare med varandra. Det är en parallell,
+inte en bekräftelse: två oberoende poster med samma värde säger ingenting om
 vad värdet betyder.
 
 **Din dopkrets delar inte ett enda namn med Carl Fredriks.** Kretsarna kommer
-ur två skilda samhällsskikt, och de två dopnotiserna visar **ingen kontakt
-mellan familjerna 1808**. Nollet gäller de tolv namngivna faddrarna.
+ur två skilda samhällsskikt, och de två dopnotiserna visar ingen kontakt
+mellan familjerna 1808. Nollet gäller de tolv namngivna faddrarna.
 
 **Källkontext:** församlingens egen summering nederst i 1808-kolumnen anger
 `Födde Gosse Barn 19 / Flicke Barn 14` — trettiotre födda i Ludgo det året.

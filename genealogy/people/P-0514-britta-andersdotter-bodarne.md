@@ -4,10 +4,10 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0172.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Åldern `33 åhr` i
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Åldern `33 åhr` i
   sonens födelsepost är nu **fastställd som hennes** och omräknad till ett
-  födelseintervall, och postens fem faddrar — varav **fyra bär hennes
-  patronymikon** — är förda till akten för första gången.
+  födelseintervall, och postens fem faddrar — varav fyra bär hennes
+  patronymikon — är förda till akten för första gången.
 - Identitetsgranskning: `GODKÄND`
 - Trädverkan: `AVVAKTAR` — `Identitetsläge` är `OLÖST`: hennes enda datering
   är en ålder i sonens post, och hennes ursprung är okänt. Relationen nedåt
@@ -32,14 +32,14 @@ henne.
 
 Sedan 2026-09-09 är åldern `33 åhr` **fastställd som hennes**: uppslagets
 samtliga tretton poster bär exakt en ålder, placerad efter moderns namn. Se
-A-7590. Åldern ger födelsetid mellan **februari 1781 och februari 1782**.
+A-7590. Åldern ger födelsetid mellan februari 1781 och februari 1782.
 
 ## Namnformer
 
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Britta Anders Dotr | Sonens födelse- och dopnotis 1815 | TRANSCRIBED | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Den enda belagda formen. |
-| Britta / Brita Andersdotter | Sökformer | LEAD | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Både förnamnet och patronymikonet hör till periodens vanligaste i Västergötland, vilket gör namnet **informationssvagt** utan ort, ålder eller make. |
+| Britta / Brita Andersdotter | Sökformer | LEAD | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Både förnamnet och patronymikonet hör till periodens vanligaste i Västergötland, vilket gör namnet informationssvagt utan ort, ålder eller make. |
 
 Patronymikonet ger faderns förnamn **Anders**.
 
@@ -48,10 +48,10 @@ Patronymikonet ger faderns förnamn **Anders**.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3234 | Britta Andersdotter i Bodarne var mor till Sven, född 1815-02-16 i Hemsjö, och uppgavs då vara 33 år. | CORROBORATED | hög | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md), [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Egen födelsenotis plus sonens exakta senare datum och hushåll. |
-| A-7590 | Åldern `33 åhr` i sonens födelsepost är **hennes**: uppslagets samtliga tretton poster bär exakt en ålder, placerad efter moderns namn, med värdena 31, 23, 33, 26, 44 och 33 på vänstersidan och 39, 39, 33, 32, 39, 22 och 35 på högersidan. Åldern ger födelsetid **februari 1781–februari 1782**. | TRANSCRIBED | hög | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Fört som eget påstående 2026-09-09; utvunnet i T-0170 vid konsolideringen av maken och rapporterat hit. **Det är hennes enda datering**, och den är ett **intervall**: åldrar i ministerialböcker anges ofta i löpande år eller avrundat, så åren 1781, 1782 och möjligen 1780 måste alla prövas. Aktens tidigare besked att den ungefärliga åldern inte får bli ett exakt födelseår står kvar. Följden för maken är att **han saknar varje åldersuppgift**. |
-| A-7591 | Sonens dopnotis namnger fem faddrar, av vilka **fyra bär hennes patronymikon**: `Britta Anders Dotr i Mjöstan[?]`, `Kjerstin Anders Dotr i Kåsegl[?]`, `Olof Anderss. i Wässenbo` och — med annan form — `Britta Erics Dotr i Kjerrbogärda`; det femte är `Nämndeman i Hattholt[?]`. | TRANSCRIBED | hög | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Förd till akten 2026-09-09. Faddrarna utvanns i citationen 2026-09-07 inom T-0100, med noteringen att `tre av fem bär moderns patronymikon`; med `Olof Anderss.` är det **fyra av fem**. För **hennes** akt är detta ett positivt söknyckelfynd — till skillnad från makens, där utfallet är negativt. **Ingen relation skapas**: `Andersdotter` och `Andersson` är bland periodens vanligaste patronymikon, men fyra av fem i samma lista är fler än slumpen normalt ger. |
-| A-7592 | Det femte faddret är namngivet **enbart med ämbete och ort**, `Nämndeman i Hattholt[?]`, och kan ur samma uppslag identifieras som `Johannes Andersson`, som i posten av den 9/10 november 1814 skrivs `Nemdeman i Hagtoftad[?]` i kolumnen `Willkor och Hemwist`. | TRANSCRIBED | medel | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Fört som eget påstående 2026-09-09; utvunnet i T-0170. **Han bär också patronymikonet `Andersson`**, vilket gör honom till en femte möjlig bärare av hennes patronymikon — men identifieringen är sannolik, inte fastställd, och ortformen bär läsreservation i båda posterna. Ingen relation skapas; en nämndeman är en ämbetsman i socknen. |
-| A-7593 | Byn Bodarne rymde **minst två Olof** 1814–1815: faddret `Olof Månsson i Bodarne` i novemberposten och hennes make `Olof Hansson`. | TRANSCRIBED | medel | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Fört som eget påstående 2026-09-09; utvunnet i T-0170 vid 700 % förstoring, där versalen i `Månsson` är en rundad dubbelbåge medan `Hansson` har en tydlig hög `H`-slinga i samma hand. Uppgiften gäller **hennes** akt därför att varje kandidatidentifiering av hushållet i Bodarne måste skilja de två männen; namn och by räcker inte. |
+| A-7590 | Åldern `33 åhr` i sonens födelsepost är hennes: uppslagets samtliga tretton poster bär exakt en ålder, placerad efter moderns namn, med värdena 31, 23, 33, 26, 44 och 33 på vänstersidan och 39, 39, 33, 32, 39, 22 och 35 på högersidan. Åldern ger födelsetid februari 1781–februari 1782. | TRANSCRIBED | hög | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Fört som eget påstående 2026-09-09; utvunnet i T-0170 vid konsolideringen av maken och rapporterat hit. Det är hennes enda datering, och den är ett intervall: åldrar i ministerialböcker anges ofta i löpande år eller avrundat, så åren 1781, 1782 och möjligen 1780 måste alla prövas. Aktens tidigare besked att den ungefärliga åldern inte får bli ett exakt födelseår står kvar. Följden för maken är att han saknar varje åldersuppgift. |
+| A-7591 | Sonens dopnotis namnger fem faddrar, av vilka fyra bär hennes patronymikon: `Britta Anders Dotr i Mjöstan[?]`, `Kjerstin Anders Dotr i Kåsegl[?]`, `Olof Anderss. i Wässenbo` och — med annan form — `Britta Erics Dotr i Kjerrbogärda`; det femte är `Nämndeman i Hattholt[?]`. | TRANSCRIBED | hög | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Förd till akten 2026-09-09. Faddrarna utvanns i citationen 2026-09-07 inom T-0100, med noteringen att `tre av fem bär moderns patronymikon`; med `Olof Anderss.` är det fyra av fem. För hennes akt är detta ett positivt söknyckelfynd — till skillnad från makens, där utfallet är negativt. Ingen relation skapas: `Andersdotter` och `Andersson` är bland periodens vanligaste patronymikon, men fyra av fem i samma lista är fler än slumpen normalt ger. |
+| A-7592 | Det femte faddret är namngivet enbart med ämbete och ort, `Nämndeman i Hattholt[?]`, och kan ur samma uppslag identifieras som `Johannes Andersson`, som i posten av den 9/10 november 1814 skrivs `Nemdeman i Hagtoftad[?]` i kolumnen `Willkor och Hemwist`. | TRANSCRIBED | medel | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Fört som eget påstående 2026-09-09; utvunnet i T-0170. Han bär också patronymikonet `Andersson`, vilket gör honom till en femte möjlig bärare av hennes patronymikon — men identifieringen är sannolik, inte fastställd, och ortformen bär läsreservation i båda posterna. Ingen relation skapas; en nämndeman är en ämbetsman i socknen. |
+| A-7593 | Byn Bodarne rymde minst två Olof 1814–1815: faddret `Olof Månsson i Bodarne` i novemberposten och hennes make `Olof Hansson`. | TRANSCRIBED | medel | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Fört som eget påstående 2026-09-09; utvunnet i T-0170 vid 700 % förstoring, där versalen i `Månsson` är en rundad dubbelbåge medan `Hansson` har en tydlig hög `H`-slinga i samma hand. Uppgiften gäller hennes akt därför att varje kandidatidentifiering av hushållet i Bodarne måste skilja de två männen; namn och by räcker inte. |
 
 ## Relationer
 
@@ -79,7 +79,7 @@ hållpunkt, och ingenting efter 1815 är belagt.
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1815 | Bodarne | Hemsjö församling | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Hennes enda belagda hemvist, som åbons hustru. Sonens senare hushåll ligger i **Västra** Bodarne; om det är samma del av byn är inte belagt. |
+| 1815 | Bodarne | Hemsjö församling | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Hennes enda belagda hemvist, som åbons hustru. Sonens senare hushåll ligger i Västra Bodarne; om det är samma del av byn är inte belagt. |
 
 Ingen flyttning är belagd, och var hon växte upp är okänt.
 
@@ -87,7 +87,7 @@ Ingen flyttning är belagd, och var hon växte upp är okänt.
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1815 | Hustru till en **åbo**, alltså till en brukare av krono- eller annans jord med besittningsrätt | Bodarne, Hemsjö | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Civilstånd, inte yrke. Ståndsuppgiften står i den handskrivna kolumnen `Willkor och Hemwist` och gäller maken; hushållets jordnatur är därmed känd till sin art men inte till sin omfattning. |
+| 1815 | Hustru till en åbo, alltså till en brukare av krono- eller annans jord med besittningsrätt | Bodarne, Hemsjö | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Civilstånd, inte yrke. Ståndsuppgiften står i den handskrivna kolumnen `Willkor och Hemwist` och gäller maken; hushållets jordnatur är därmed känd till sin art men inte till sin omfattning. |
 
 Egen ekonomi, arv och bouppteckning är okända och osökta.
 
@@ -97,15 +97,15 @@ Egen ekonomi, arv och bouppteckning är okända och osökta.
 |---|---|---|---|---|
 
 `EJ RELEVANT` för militärt på personbunden grund: hon är kvinna, född omkring
-1781. Inget civilt eller rättsligt spår är sökt. **Att en nämndeman stod
-faddre åt hennes son** är en uppgift om hushållets ställning i socknen och
+1781. Inget civilt eller rättsligt spår är sökt. Att en nämndeman stod
+faddre åt hennes son är en uppgift om hushållets ställning i socknen och
 ger henne ingen egen roll i rättsskipningen; se A-7592.
 
 ## Hälsa och död
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
-| 1815-02-16 | Hon födde en son vid omkring 33 års ålder och överlevde förlossningen; posten har ingen anteckning om moderns död | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Att posten saknar dödsanteckning är ett **läst** förhållande: uppslaget har en egen rad för `En Dödfödd Gåsse` i november 1814, så boken förde sådana noter. |
+| 1815-02-16 | Hon födde en son vid omkring 33 års ålder och överlevde förlossningen; posten har ingen anteckning om moderns död | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Att posten saknar dödsanteckning är ett läst förhållande: uppslaget har en egen rad för `En Dödfödd Gåsse` i november 1814, så boken förde sådana noter. |
 
 Hennes död är okänd och osökt. Med åldersintervallet finns nu en nyckel som
 kan användas i en dödboksökning.
@@ -131,18 +131,18 @@ Den första är hennes **enda datering**. Postens ålder `33 åhr` är faststäl
 som hennes, eftersom uppslagets samtliga tretton poster bär exakt en ålder
 efter moderns namn. Den ger födelsetid mellan februari 1781 och februari
 1782 — ett intervall, inte ett datum, så åren 1781, 1782 och möjligen 1780
-måste alla prövas. Samma fastställelse betyder att **maken saknar varje
-åldersuppgift**. [A-7590](#påståenden)
+måste alla prövas. Samma fastställelse betyder att maken saknar varje
+åldersuppgift. [A-7590](#påståenden)
 
 Den andra är **faddrarna**. De utvanns i citationen redan den 7 september men
 nådde aldrig hennes akt, och deras utfall är starkt positivt för just henne:
-**fyra av fem bär hennes patronymikon** — `Britta Andersdotter` i Mjöstan,
+fyra av fem bär hennes patronymikon — `Britta Andersdotter` i Mjöstan,
 `Kjerstin Andersdotter` i Kåsegl, `Olof Andersson` i Wässenbo, och i vidare
 mening även nämndemannen, som ur samma uppslag kan identifieras som
-`Johannes Andersson`. För maken är utfallet tvärtom negativt: **inget faddre
-bär `Hansson`.** Fyra av fem i samma lista är fler än slumpen normalt ger —
-men `Andersdotter` är bland periodens vanligaste patronymikon, och **ingen
-relation skapas**. [A-7591](#påståenden), [A-7592](#påståenden)
+`Johannes Andersson`. För maken är utfallet tvärtom negativt: inget faddre
+bär `Hansson`. Fyra av fem i samma lista är fler än slumpen normalt ger —
+men `Andersdotter` är bland periodens vanligaste patronymikon, och ingen
+relation skapas. [A-7591](#påståenden), [A-7592](#påståenden)
 
 En varning hör till hennes akt lika mycket som till makens: byn rymde
 **minst två Olof** 1814–1815, och en kandidatidentifiering av hushållet måste
@@ -150,17 +150,17 @@ skilja dem. [A-7593](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Vilka var hennes föräldrar?** Faddrarnas fyra `Anders`-bärare är hennes
+- Vilka var hennes föräldrar? Faddrarnas fyra `Anders`-bärare är hennes
   enda spår, och de är söknycklar. Se
   [profilens Q-01](../research-profiles/P-0514.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0514.md#källvägar).
-- **Hennes åldersintervall får inte bli ett valt födelseår.** Åren 1781,
+- Hennes åldersintervall får inte bli ett valt födelseår. Åren 1781,
   1782 och möjligen 1780 ska alla prövas. KP-02.
-- **Hemsjös husförhörslängd för Bodarne omkring 1810–1820** skulle ge hennes
+- Hemsjös husförhörslängd för Bodarne omkring 1810–1820 skulle ge hennes
   ålder ur en andra bok och hela hushållet. KP-02.
-- **Vigselposten är odaterad och osökt** och är den handling som normalt
+- Vigselposten är odaterad och osökt och är den handling som normalt
   namnger hennes hemvist före äktenskapet. KP-02.
-- **Bodarne hade minst två Olof.** Varje kandidat måste skiljas med en
+- Bodarne hade minst två Olof. Varje kandidat måste skiljas med en
   personbindande uppgift.
 - Ingen aktiv konflikt finns i hennes akt. Frågan om **Catharina
   Andersdotters** datum, som C-0848 och C-1016 behandlar, gäller sonens
@@ -169,7 +169,7 @@ skilja dem. [A-7593](#påståenden)
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Hemsjös husförhörslängd för Bodarne omkring 1810–1820**,
+- Förväntad källa: Hemsjös husförhörslängd för Bodarne omkring 1810–1820,
   som skulle ge hennes ålder ur en andra bok; i andra hand vigselposten och
   faddrarnas hushållsrader i `Mjöstan[?]`, `Kåsegl[?]` och `Wässenbo`.
 - Genomsökt: sonens samtidiga födelsenotis 1815, nu utvunnen inklusive
@@ -178,7 +178,7 @@ skilja dem. [A-7593](#påståenden)
 - Negativ kontroll: [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md)
   namnger Britta, ålder och familjeort men ger ingen egen datum-, socken-
   eller föräldrahemsnyckel.
-- Återaktivering: **villkoret är delvis uppfyllt 2026-09-09.** Den tidigare
+- Återaktivering: villkoret är delvis uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `en ny personbunden vigsel-, hushålls-, flytt- eller
   dödsnyckel` och slog fast att den ungefärliga åldern inte får bli ett exakt
   födelseår — vilket står fast. Åldersintervallet och de fyra

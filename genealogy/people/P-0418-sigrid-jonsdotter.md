@@ -4,8 +4,8 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0170.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Hennes egen
-  hushållsrad bär födelsedatumet **`13/9 1776`** i den tryckta kolumnen
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Hennes egen
+  hushållsrad bär födelsedatumet `13/9 1776` i den tryckta kolumnen
   `Födelse-År` och gifto-året **1806**; citationen registrerade bara årtalet,
   och gifto-kolumnen var inte redovisad. Aktens tidigare
   återaktiveringsvillkor — `exakt egen födelse-, vigsel-, flytt- eller
@@ -23,16 +23,16 @@ Sigrid Jonsdotter är hustru i Hullsjö i Stöde och mor till
 [Gertrud Olofsdotter](P-0416-gertrud-olofsdotter.md), född 1812-01-23.
 
 Hon förekommer i **två original**. Dotterns födelse- och dopnotis i Stöde C/2
-namnger hustrun `Sigrid Jonsdotter` i Hullsjö och anger hennes ålder **36 år**.
+namnger hustrun `Sigrid Jonsdotter` i Hullsjö och anger hennes ålder 36 år.
 [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) Hushållssidan i
-Stöde A I/5, Hullsjö sida 159, ger henne en egen rad med **födelsedatumet
-`13/9 1776`** och **`Gifto-År 1806`**, samma gifto-år som maken, och listar
+Stöde A I/5, Hullsjö sida 159, ger henne en egen rad med födelsedatumet
+`13/9 1776` och `Gifto-År 1806`, samma gifto-år som maken, och listar
 tre av parets barn.
 [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md)
 
 Sedan 2026-09-09 har hon ett **exakt eget födelsedatum**. Det ligger ett år
 från dopnotisens åldersuppgift: den 23 januari 1812 var hon 35 år och fyra
-månader, inte 36. Se A-7443 — **båda årgångarna 1775 och 1776 måste prövas.**
+månader, inte 36. Se A-7443 — båda årgångarna 1775 och 1776 måste prövas.
 
 Hennes föräldrar är okända; patronymikonet ger faderns förnamn **Jon/Jöns**.
 
@@ -48,15 +48,15 @@ Hennes föräldrar är okända; patronymikonet ger faderns förnamn **Jon/Jöns*
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2361 | Sigrid Jonsdotter var mor till Gertrud, född 1812-01-23 i Stöde, och anges vara 36 år i födelsenotisen. | CORROBORATED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Samtida födelsenotis namnger henne som mor och anger ålder. |
-| A-3247 | Stöde A I/5 sida 159 visar Sigrid Jonsdotter, född 1776, med Olof Stefansson och dottern Gertrud, född 1812, i Hullsjö. | CORROBORATED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Året är förenligt med moderns samtidiga ålder i C-0532 men ger inte ett exakt datum eller föräldrahem. **Överspelad kommentar 2026-09-09:** raden bär dag och månad, se A-7440, och förenligheten är inte exakt, se A-7443. |
-| A-7440 | Hennes egen rad i Stöde A I/5 sida 159 anger födelsedatumet **`13/9 1776`** i den tryckta kolumnen `Födelse-År`. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09 ur den redan sparade helbilden vid 220–400 % förstoring. Dag och månad står upphöjda över årtalet på periodens sätt och registrerades inte tidigare. **Detta är hennes första exakta datumuppgift** och gör hennes egen födelsepost sökbar på dag. |
-| A-7441 | Kolumnen `Gifto-År` anger **1806** på hennes rad och samma år på makens. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09; kolumnen var inte redovisad tidigare. Vigselposten 1806 är den enda handling som normalt ger **hennes** hemvist före äktenskapet och är hennes huvudväg bakåt. |
-| A-7442 | Samma hushållsrad listar tre barn till paret: `Dottren Brita Olofsd[otter]` född 1807, `Son Jöns Olsson` född `13/8 1809` och `Dottr Gertru[d] Olsdot` född `23/1 1812`. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09; endast Gertrud fanns i modellen. Hon födde alltså minst tre barn mellan omkring 30 och 35 års ålder. **Sonen Jöns bär hennes fars förnamn** enligt patronymikonet — ett namnskicksindicium, inget belägg. Barnen får inga egna person-id här. |
-| A-7443 | Dopnotisens åldersuppgift `36 år` i januari 1812 är ett år högre än vad hushållsradens datum ger: den 23 januari 1812 var hon 35 år och fyra månader. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md), [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Fört som eget påstående 2026-09-09. Avvikelsen är **normal**: åldrar i ministerialböcker anges ofta i löpande år eller avrundat, och två uppgifter om samma person behöver inte vara oberoende röster. Men den betyder att **årgångarna 1775 och 1776 båda måste prövas** i födelseboken, och att C-0857:s ord om att året är `förenligt` med åldern inte är exakt. Ingen av uppgifterna rättas mot den andra. |
-| A-7444 | Hennes egen rad bär daterade förhörs- och nattvardsnoteringar i samtliga årskolumner **1805–1811**. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09 ur högersidans årsgrupper. Noterna belägger **registrerat kyrkligt deltagande**, inte personlig tro, och ingen dödsnot finns inom bokens tid. |
-| A-7446 | Dotterns födelsepost 1812 namnger fyra dopvittnen: `Bond. Ol. Persson älde[?] i Ede`, `Hustr. Inertha[?] Olsdotter derstädes`, `Dräng Matts Olsson i Nedansjö` och `Bonde-dot. Rachel Mattsdotter i Hullsjön`. **Inget av dem bär hennes patronymikon.** | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utvunnet 2026-09-09; vittnesfältet var **aldrig avskrivet**, trots att kolumnen är handskrivet rubricerad `Witnen` på samma uppslag. Utfallet är negativt och **stänger dopvägen till hennes släkt**. Två läsreservationer består. Ingen relation skapas. |
-| A-7447 | Hon och maken står själva som de två första dopvittnena i en annan post på samma sida: `Cajsa Brita`, dotter till `Bond. Jon Nilsson` och `Dess Hustru Maglena Mattsdotter i Hullsjön`. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utvunnet 2026-09-09. **Detta är hennes enda belagda handling utanför den egna familjen.** Barnets far heter `Jon Nilsson` och brukar i **hennes egen by** — samma förnamn som hennes patronymikon kräver av hennes far. Uppgiften är därför en **söknyckel**, inte en relation: `Jon` är ett av periodens vanligaste förnamn, och postens åldersuppgift talar för en yngre familj än hennes föräldrageneration. |
-| A-7445 | Två rader nedanför hennes familj står `Hust. Ingrid[?] Jonsdotter`, född 1785, gift 1808 med `Son Stefan Stefansson` i samma hushåll. | TRANSCRIBED | medel | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09. **Två hustrur med samma patronymikon, gifta med två män med samma patronymikon i samma hushåll**, är ett mönster som ofta betyder systrar gifta med bröder — men patronymikonet `Jonsdotter` är ett av periodens vanligaste, förnamnet bär läsreservation och raden är överstruken. **Ingen relation skapas**; uppgiften är en söknyckel för vigselposterna 1806 och 1808. |
+| A-3247 | Stöde A I/5 sida 159 visar Sigrid Jonsdotter, född 1776, med Olof Stefansson och dottern Gertrud, född 1812, i Hullsjö. | CORROBORATED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Året är förenligt med moderns samtidiga ålder i C-0532 men ger inte ett exakt datum eller föräldrahem. Överspelad kommentar 2026-09-09: raden bär dag och månad, se A-7440, och förenligheten är inte exakt, se A-7443. |
+| A-7440 | Hennes egen rad i Stöde A I/5 sida 159 anger födelsedatumet `13/9 1776` i den tryckta kolumnen `Födelse-År`. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09 ur den redan sparade helbilden vid 220–400 % förstoring. Dag och månad står upphöjda över årtalet på periodens sätt och registrerades inte tidigare. Detta är hennes första exakta datumuppgift och gör hennes egen födelsepost sökbar på dag. |
+| A-7441 | Kolumnen `Gifto-År` anger 1806 på hennes rad och samma år på makens. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09; kolumnen var inte redovisad tidigare. Vigselposten 1806 är den enda handling som normalt ger hennes hemvist före äktenskapet och är hennes huvudväg bakåt. |
+| A-7442 | Samma hushållsrad listar tre barn till paret: `Dottren Brita Olofsd[otter]` född 1807, `Son Jöns Olsson` född `13/8 1809` och `Dottr Gertru[d] Olsdot` född `23/1 1812`. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09; endast Gertrud fanns i modellen. Hon födde alltså minst tre barn mellan omkring 30 och 35 års ålder. Sonen Jöns bär hennes fars förnamn enligt patronymikonet — ett namnskicksindicium, inget belägg. Barnen får inga egna person-id här. |
+| A-7443 | Dopnotisens åldersuppgift `36 år` i januari 1812 är ett år högre än vad hushållsradens datum ger: den 23 januari 1812 var hon 35 år och fyra månader. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md), [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Fört som eget påstående 2026-09-09. Avvikelsen är normal: åldrar i ministerialböcker anges ofta i löpande år eller avrundat, och två uppgifter om samma person behöver inte vara oberoende röster. Men den betyder att årgångarna 1775 och 1776 båda måste prövas i födelseboken, och att C-0857:s ord om att året är `förenligt` med åldern inte är exakt. Ingen av uppgifterna rättas mot den andra. |
+| A-7444 | Hennes egen rad bär daterade förhörs- och nattvardsnoteringar i samtliga årskolumner 1805–1811. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09 ur högersidans årsgrupper. Noterna belägger registrerat kyrkligt deltagande, inte personlig tro, och ingen dödsnot finns inom bokens tid. |
+| A-7446 | Dotterns födelsepost 1812 namnger fyra dopvittnen: `Bond. Ol. Persson älde[?] i Ede`, `Hustr. Inertha[?] Olsdotter derstädes`, `Dräng Matts Olsson i Nedansjö` och `Bonde-dot. Rachel Mattsdotter i Hullsjön`. Inget av dem bär hennes patronymikon. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utvunnet 2026-09-09; vittnesfältet var aldrig avskrivet, trots att kolumnen är handskrivet rubricerad `Witnen` på samma uppslag. Utfallet är negativt och stänger dopvägen till hennes släkt. Två läsreservationer består. Ingen relation skapas. |
+| A-7447 | Hon och maken står själva som de två första dopvittnena i en annan post på samma sida: `Cajsa Brita`, dotter till `Bond. Jon Nilsson` och `Dess Hustru Maglena Mattsdotter i Hullsjön`. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utvunnet 2026-09-09. Detta är hennes enda belagda handling utanför den egna familjen. Barnets far heter `Jon Nilsson` och brukar i hennes egen by — samma förnamn som hennes patronymikon kräver av hennes far. Uppgiften är därför en söknyckel, inte en relation: `Jon` är ett av periodens vanligaste förnamn, och postens åldersuppgift talar för en yngre familj än hennes föräldrageneration. |
+| A-7445 | Två rader nedanför hennes familj står `Hust. Ingrid[?] Jonsdotter`, född 1785, gift 1808 med `Son Stefan Stefansson` i samma hushåll. | TRANSCRIBED | medel | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09. Två hustrur med samma patronymikon, gifta med två män med samma patronymikon i samma hushåll, är ett mönster som ofta betyder systrar gifta med bröder — men patronymikonet `Jonsdotter` är ett av periodens vanligaste, förnamnet bär läsreservation och raden är överstruken. Ingen relation skapas; uppgiften är en söknyckel för vigselposterna 1806 och 1808. |
 
 ## Relationer
 
@@ -135,7 +135,7 @@ Inget personligt material och ingen egen hand är känd.
 
 ## Biografisk sammanfattning
 
-Sigrid Jonsdotter föddes den **13 september 1776** och gifte sig **1806** med
+Sigrid Jonsdotter föddes den 13 september 1776 och gifte sig **1806** med
 [Olof Stefansson](P-0417-olof-stefansson.md), bonde i Hullsjö i Stöde. Båda
 uppgifterna stod i tryckta kolumner på hennes egen hushållsrad; citationen
 registrerade bara årtalet, och gifto-kolumnen var inte redovisad alls.
@@ -143,7 +143,7 @@ registrerade bara årtalet, och gifto-kolumnen var inte redovisad alls.
 
 Paret hade minst tre barn: Brita 1807, Jöns 1809 och Gertrud 1812 — hon
 födde dem mellan omkring 30 och 35 års ålder. Endast Gertrud har funnits i
-projektets modell, och **sonen Jöns bär hennes fars förnamn** enligt
+projektets modell, och sonen Jöns bär hennes fars förnamn enligt
 patronymikonet, vilket är ett namnskicksindicium och inget belägg.
 [A-7442](#påståenden)
 
@@ -151,8 +151,8 @@ Det exakta datumet gjorde en tidigare bedömning mindre exakt än den lät.
 C-0857 skrev att årtalet 1776 är `förenligt` med dopnotisens ålder `36 år` —
 men den 23 januari 1812 var hon 35 år och fyra månader. Avvikelsen är normal,
 eftersom åldrar i ministerialböcker ofta anges i löpande år, och ingen av
-uppgifterna rättas mot den andra. Följden är att **både 1775 och 1776 måste
-prövas** när hennes födelsepost söks. [A-7443](#påståenden)
+uppgifterna rättas mot den andra. Följden är att både 1775 och 1776 måste
+prövas när hennes födelsepost söks. [A-7443](#påståenden)
 
 Hennes rad bär daterade förhörs- och nattvardsnoteringar i varje årskolumn
 1805–1811 och ingen dödsnot inom bokens tid.
@@ -161,31 +161,31 @@ Hennes rad bär daterade förhörs- och nattvardsnoteringar i varje årskolumn
 Två rader nedanför står en andra hustru med samma patronymikon, `Ingrid[?]
 Jonsdotter`, gift 1808 med Olofs kandidatbror Stefan Stefansson. Två systrar
 gifta med två bröder är ett vanligt mönster — men `Jonsdotter` är ett av
-periodens vanligaste patronymikon, och **ingen relation skapas.**
+periodens vanligaste patronymikon, och ingen relation skapas.
 [A-7445](#påståenden)
 
-Dotterns födelsepost hade ett **aldrig avskrivet vittnesfält**. Ingen av de
+Dotterns födelsepost hade ett aldrig avskrivet vittnesfält. Ingen av de
 fyra vittnena bär hennes patronymikon, så dopvägen till hennes släkt är
 prövad och **stängd**. Längre ned på samma sida står hon och Olof själva som
 dopvittnen åt `Jon Nilssons` och `Maglena Mattsdotters` dotter i Hullsjö —
 hennes enda belagda handling utanför den egna familjen. Att barnets far heter
-**Jon** och brukar i hennes egen by är en söknyckel mot hennes patronymikon
+Jon och brukar i hennes egen by är en söknyckel mot hennes patronymikon
 och ingenting mer. [A-7446](#påståenden), [A-7447](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Varifrån kom hon, och vilka var hennes föräldrar?** Vigselposten 1806 är
+- Varifrån kom hon, och vilka var hennes föräldrar? Vigselposten 1806 är
   den direkta vägen och ger normalt hennes hemvist före äktenskapet. Se
   [profilens Q-01](../research-profiles/P-0418.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0418.md#källvägar).
-- **Hennes födelsepost ska sökas i två årgångar**, 1776 och 1775, eftersom
+- Hennes födelsepost ska sökas i två årgångar, 1776 och 1775, eftersom
   hushållsdatum och dopnotisens ålder skiljer ett år. KP-01.
-- **Är `Ingrid[?] Jonsdotter` hennes syster?** Frågan avgörs av de två
+- Är `Ingrid[?] Jonsdotter` hennes syster? Frågan avgörs av de två
   vigselposterna 1806 och 1808, inte av mönstret. KP-02.
 - **Sonen Jöns 1809** bär hennes fars förnamn enligt patronymikonet. Det kan
   stödja en kandidat, aldrig avgöra den.
 - **När dog hon?** Bokens sista årskolumn är 1811, och hennes död är osökt.
-- **Dopvägen till hennes släkt är stängd**, inte outredd: inget av dotterns
+- Dopvägen till hennes släkt är stängd, inte outredd: inget av dotterns
   fyra vittnen bär hennes patronymikon. Den öppna sociala tråden är i stället
   `Jon Nilsson` i Hullsjö. KP-03.
 - Ingen konflikt finns inom det lästa underlaget. Ettårsskillnaden mellan
@@ -197,7 +197,7 @@ och ingenting mer. [A-7446](#påståenden), [A-7447](#påståenden)
 - Status: `IDENTITET OLÖST`
 - Förväntad källa: **Stödes vigselbok 1806**, som normalt namnger båda
   makarnas hemvist och ålder; i andra hand hennes egen födelsepost, nu sökbar
-  på dagen `13/9` i årgångarna **1776 och 1775**, eller ett tidigare
+  på dagen `13/9` i årgångarna 1776 och 1775, eller ett tidigare
   personbundet hushåll.
 - Genomsökt: Gertruds födelsenotis 1812 och familjens registerstyrda
   Hullsjöhushåll i Stöde A I/5 sida 159, nu utvunnet med hennes födelsedatum,
@@ -206,7 +206,7 @@ och ingenting mer. [A-7446](#påståenden), [A-7447](#påståenden)
   namnger ingen av Sigrids föräldrar;
   [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) är det positiva
   familjebelägget.
-- Återaktivering: **villkoret är uppfyllt 2026-09-09.** Den tidigare
+- Återaktivering: villkoret är uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `exakt egen födelse-, vigsel-, flytt- eller
   föräldrahemsnyckel` och slog fast att `födelseåret 1776 räcker inte ensamt
   för kandidatval`; raden ger nu dag, månad och gifto-år. Gör inte

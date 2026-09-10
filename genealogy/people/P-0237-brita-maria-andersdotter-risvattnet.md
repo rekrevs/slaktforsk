@@ -16,8 +16,8 @@
 
 Brita Maria Andersdotter är yngsta barnet i bonden Anders Nilssons och
 Magdalena Eriksdotters hushåll i Risvattnet nr 3 i Nysätra, och lillasyster
-till den direkta anan Anders Andersson. Hon förekommer i **en enda känd
-källpost**: den femte raden i hushållet i Nysätra A I/8a sida 79, under
+till den direkta anan Anders Andersson. Hon förekommer i en enda känd
+källpost: den femte raden i hushållet i Nysätra A I/8a sida 79, under
 rubriken `Barn`, med födelsetiden `6/10 1840`.
 [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md)
 
@@ -41,8 +41,8 @@ dopnotisen 1840 och dödboksposten 1843.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-1405 | Brita Maria stod som barn i Risvattnethushållet och uppges vara född 1840-10-06. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Raden är överstruken; ingen död, flyttning eller annan orsak har antagits. **Kommentaren är överspelad 2026-09-09:** orsaken står på raden, se A-7240. Födelseuppgiften är fortfarande enbart husförhörslängdens; egen dopnotis är oläst. |
-| A-7240 | Hennes överstrukna rad bär `† d. ¹¹/₂` i kolumnen `Nattv:sgång.` inom årsblocket `År 1843`. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Utvunnet 2026-09-09; cellen var oläst. Kolumntillhörigheten är kontrollerad med de tryckta rubrikerna `År 1842`, `År 1843` och `År 1844` i samma utsnitt som cellen, och radtillhörigheten mot de fyra raderna ovanför. **Dagen `11/2` är otvetydig; året följer av kolumnblocket och inte av cellens egen text** och bär därför den reservationen. Ingen dödsorsak, ålder eller begravningsdag är känd. |
+| A-1405 | Brita Maria stod som barn i Risvattnethushållet och uppges vara född 1840-10-06. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Raden är överstruken; ingen död, flyttning eller annan orsak har antagits. Kommentaren är överspelad 2026-09-09: orsaken står på raden, se A-7240. Födelseuppgiften är fortfarande enbart husförhörslängdens; egen dopnotis är oläst. |
+| A-7240 | Hennes överstrukna rad bär `† d. ¹¹/₂` i kolumnen `Nattv:sgång.` inom årsblocket `År 1843`. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Utvunnet 2026-09-09; cellen var oläst. Kolumntillhörigheten är kontrollerad med de tryckta rubrikerna `År 1842`, `År 1843` och `År 1844` i samma utsnitt som cellen, och radtillhörigheten mot de fyra raderna ovanför. Dagen `11/2` är otvetydig; året följer av kolumnblocket och inte av cellens egen text och bär därför den reservationen. Ingen dödsorsak, ålder eller begravningsdag är känd. |
 | A-7241 | Övriga tryckta kolumner på hennes rad är lästa och tomma: `Koppor.`, `Gifto-År.`, `Läser och förstår`, `Hvarifrån.`, `Hvarthän.`, samtliga årsblock utom 1843 och `Anmärkningar för Seder m. m.` | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Utvunnet 2026-09-09. Tomma celler i lästa kolumner, inte olästa kolumner. `Koppor.`-kolumnens tomhet är förenlig med att hon dog som tvååring, medan syskonen har `v.`; men frånvaron är en tom cell och inget belägg för att hon inte ympades. |
 | A-7242 | Hon förekommer inte i den efterföljande längden Nysätra A I/9a sida 85, som annars upptar hela hushållet. | NEGATIVE | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Exakt avgränsat: gäller uppslaget Risvattnet nr 3 sida 85 i A I/9a, som är läst rad för rad. Frånvaron stöder dödsmärket i A-7240 men är inte i sig ett dödsbelägg. |
 
@@ -68,8 +68,8 @@ svågrar eller syskonbarn i sin livstid.
 | Dagen `¹¹/₂`, inom årsblocket 1843 | Död; raden överstruken och märkt `†` | Risvattnet, Nysätra | — | — | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) |
 
 Hennes hela liv är två hållpunkter och omkring två år och fyra månader.
-Tidslinjen är därmed täckande för den kända livstiden, men **båda ändpunkterna
-vilar på samma husförhörsrad** — varken födelsen eller döden är läst i sin egen
+Tidslinjen är därmed täckande för den kända livstiden, men båda ändpunkterna
+vilar på samma husförhörsrad — varken födelsen eller döden är läst i sin egen
 ministerialbok. Året 1843 är dessutom slutet av kolumnblocket och inte av
 skriften.
 
@@ -103,10 +103,10 @@ för personen och inte utebliven undersökning.
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
 | 1840–1843 | Ingen anteckning i kolumnen `Koppor.`, medan de två bröderna har `v.` | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Läst tom cell. Hon dog vid två års ålder; att ympningen inte hunnit föras in är rimligt men inte belagt. Tomheten är inget belägg för att hon var oympad, och ingen koppsjukdom får läsas in. |
-| Dagen `¹¹/₂` inom årsblocket 1843 | Död, enligt `† d. ¹¹/₂` på hennes egen överstrukna rad | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Dagen är otvetydig. **Året är kolumnbundet och inte skrivet i cellen**; det är den enda reservationen. Dödsorsak, uppgiven ålder och begravningsdag saknas helt — de finns i Nysätras dödbok, som inte är öppnad. Att hon inte står i nästa längd stöder uppgiften. |
+| Dagen `¹¹/₂` inom årsblocket 1843 | Död, enligt `† d. ¹¹/₂` på hennes egen överstrukna rad | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Dagen är otvetydig. Året är kolumnbundet och inte skrivet i cellen; det är den enda reservationen. Dödsorsak, uppgiven ålder och begravningsdag saknas helt — de finns i Nysätras dödbok, som inte är öppnad. Att hon inte står i nästa längd stöder uppgiften. |
 
 Ingen sjukdom och ingen dödsorsak är känd. Barnadödligheten i Västerbotten på
-1840-talet var hög, men **ingen allmän dödsorsak får tillskrivas henne** — det
+1840-talet var hög, men ingen allmän dödsorsak får tillskrivas henne — det
 vore historisk kontext, inte personuppgift.
 
 ## Media och personliga källor
@@ -144,14 +144,14 @@ moderns uppgivna ålder — den senare är en av de få oberoende prövningarna 
 
 ## Forskningsfrågor och konflikter
 
-- **Dödsåret är kolumnbundet.** Dagen `11/2` är skriven, året 1843 följer av
+- Dödsåret är kolumnbundet. Dagen `11/2` är skriven, året 1843 följer av
   årsblocket. Nysätras dödbok 1843 avgör det och ger dessutom dödsorsak och
   uppgiven ålder. Se
   [profilens Q-01](../research-profiles/P-0237.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0237.md#källvägar).
-- **Hennes dopnotis 1840 är oläst.** Den ger faddrar, byanamn och moderns
+- Hennes dopnotis 1840 är oläst. Den ger faddrar, byanamn och moderns
   uppgivna ålder. Se KP-02.
-- **Namnformens sista bokstav är oavgjord.** Källan skriver `Brit` med möjligt
+- Namnformens sista bokstav är oavgjord. Källan skriver `Brit` med möjligt
   avslutande `a` dolt under `t`-ets tvärstreck och radens överstrykning. Båda
   formerna måste prövas vid sökning i dop- och dödbok.
 - Ingen konflikt finns inom det lästa underlaget. Frånvaron i nästa längd

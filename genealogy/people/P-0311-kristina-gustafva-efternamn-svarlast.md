@@ -21,12 +21,12 @@ kronolänsmannen Carl August Carlman och dog 1874-03-30 i Gasa i Högby.
 Hon är ana på djup 5 som mor till [P-0242 Johan Fredrik Villehad
 Carlman](P-0242-johan-fredrik-vilhelm-carlman.md). Den tidigare osäkra
 läsningen `Wingberg[?]` i sonens födelsenotis är löst till **Ringberg** av
-flera tydliga källor, och faderns initial `A.` är löst till **Anders** ur två
-av varandra oberoende källor. Hon födde **sju** belagda barn 1863–1874; det
+flera tydliga källor, och faderns initial `A.` är löst till Anders ur två
+av varandra oberoende källor. Hon födde sju belagda barn 1863–1874; det
 sjunde, Sigfrid Konstantin, föddes sju veckor före hennes egen död och levde
 27 dagar. Hans rad i familjeposten är slututvunnen 2026-09-08 i T-0156 och
 bekräftad av hans egen dödbokspost på samma uppslag som hennes.
-Identitetsnivån är därmed **godkänd** och antavlan får passera positionen.
+Identitetsnivån är därmed godkänd och antavlan får passera positionen.
 [C-0466](../citations/C-0466-backebo-C4-christina-gustafva-fodd-1843.md),
 [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md),
 [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md),
@@ -42,7 +42,7 @@ behålls bara för att inte bryta befintliga länkmål.
 | Christina Gustafva | Egen födelse- och dopnotis 1843 och barndomshushållet | CORROBORATED | [C-0466](../citations/C-0466-backebo-C4-christina-gustafva-fodd-1843.md), [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md) | Dopnamnen utan familjenamn i födelsenotisen. |
 | Christina Gustafva Ringberg | Vigselboken 1862, husförhören i Gasa och dödboken 1874 | CORROBORATED | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md), [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md), [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md) | Faderns familjenamn; hon skrivs Ringberg även som gift. |
 | `Högädla Jungfrun Christina Gustafva Ringberg i Källa` | Lysningen 1862-09-07 | TRANSCRIBED | [C-0533](../citations/C-0533-kalla-EI1-carlman-ringberg-vigsel-1862.md) | Ståndstitel i faderns egen bok; speglar prästfamiljens självbild. |
-| `Wingberg[?]` | Sonens födelsenotis 1866 | TRANSCRIBED | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Arbetsläsning som är **upphävd**; formen används bara som sökvariant. |
+| `Wingberg[?]` | Sonens födelsenotis 1866 | TRANSCRIBED | [C-0269](../citations/C-0269-johan-fredrik-villehad-fodd-1866.md) | Arbetsläsning som är upphävd; formen används bara som sökvariant. |
 | Kristina Gustafva | Dödboken 1874 och gravregistret för Högby kyrkogård | TRANSCRIBED | [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md), [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md) | K/C-variant av samma namn. Vid omläsningen av den bevarade fullbilden 2026-09-08 skriver dödbokens egen hand `Kristina`, medan C-0396:s avskrift återger formen som `Christina`; skillnaden är rapporterad till citationens ägare och ändrar ingen sakuppgift. |
 
 ## Påståenden
@@ -63,14 +63,14 @@ behålls bara för att inte bryta befintliga länkmål.
 | A-2396 | Vid Karl Augusts omgifte i Kalmar 1882 antecknades `Bouppteckning och arfskifte uppvisadt`, så en bouppteckning efter henne upprättades mellan 1874 och 1882. | LEAD | hög | [C-0539](../citations/C-0539-kalmar-EI5-carlman-svensson-vigsel-1882.md) | Bouppteckningen är inte läst; sök i Ölands norra mots häradsrätt (Högby) 1874–1882. |
 | A-3163 | Ölands norra mots häradsrätt F II/75, 1872–1875, är den exakta analoga bouppteckningsvolymen för hennes dödsår. | LEAD | mycket hög | [C-0827](../citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md) | Förenas med vigselkällans positiva uppgift att bouppteckning och arvskifte uppvisats; själva akten är oläst. |
 | A-3177 | Häradsskrivarens i Ölands norra mots fögderi fond `SE/VALA/01959`, 1655–1917, är den analoga skatte-/mantalsvägen för Christina Gustafvas säkra Högbyperiod. | LEAD | medel | [C-0828](../citations/C-0828-riksarkivet-skatterutter-kristina-djup5.md) | Tre riktade frågor exponerade ingen årsvolym; den premissen är sedan upphävd för mantalslängderna `F I a`, som har årsvolymer 1861–1901 (A-3676 i P-0310). Ingen personrad är läst. |
-| A-3679 | Åtkomstläget för `SE/VALA/01647/F II/75` är förnyat kontrollerat 2026-09-06 och är fortsatt `Läsesal`; F II:s volymer 1–72 till och med 1863 är däremot digitaliserade. | TRANSCRIBED | hög | [C-0987](../citations/C-0987-oland-norra-mot-serieskiften-och-mantalslangder.md) | Beskedet är alltså **bekräftat med nytt datum**, inte upphävt. Gränsen mellan bild och läsesal går vid volym 73, år 1864. |
+| A-3679 | Åtkomstläget för `SE/VALA/01647/F II/75` är förnyat kontrollerat 2026-09-06 och är fortsatt `Läsesal`; F II:s volymer 1–72 till och med 1863 är däremot digitaliserade. | TRANSCRIBED | hög | [C-0987](../citations/C-0987-oland-norra-mot-serieskiften-och-mantalslangder.md) | Beskedet är alltså bekräftat med nytt datum, inte upphävt. Gränsen mellan bild och läsesal går vid volym 73, år 1864. |
 | A-5620 | Hon gravsattes 1874-04-05 på Högby kyrkogård, kvarter E, i en grav med två gravsatta som hon delar med maken Carl August; gravrätten är återgången till upplåtaren. | TRANSCRIBED | medel | [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md) | Gravregistret är en administrativ andrahandskälla. Gravsättningsdagen sammanfaller med begravningsdagen i den samtida dödboken (A-2087). Lokal kopia, URL och hash för den exakta gravposten saknas ännu. |
 | A-5621 | Exakta frågor i Riksarkivets folkräkningsregister på Christina Gustafva med efternamnen Ringberg respektive Carlman gav noll träffar. | NEGATIVE | hög | [C-0357](../citations/C-0357-folkrakning-1900-hogby-hagaby-carlman.md) | Registerfrågenoll utan bevisvärde för hennes livstid: hon dog 1874, före den äldsta lästa folkräkningen 1880. Nollet är inte belägg för frånvaro, död eller annan församling. |
 | A-5622 | Hennes barndomshushåll i Skåningsmåla ligger i Bäckebo A I/7, husförhörslängden 1836–1847, och fadern tillträdde kyrkoherdetjänsten i Källa 1847; familjens flytt till Källa infaller därmed omkring 1847, när hon var omkring fyra år. | CORROBORATED | hög | [C-0467](../citations/C-0467-backebo-AI7-ringberg-skaningsmala-sida-173.md), [S-0370](../sources/S-0370-riksarkivet-backebo-AI7-skaningsmala.md), [C-0468](../citations/C-0468-herdaminne-anders-ringberg.md) | Rättar den tidigare berättelsen, som lät familjen flytta till Källa när hon var nitton. Ingen egen flyttnotis eller attest är läst; årtalet kommer från faderns ämbetstillträde. |
 | A-5630 | Familjeposten Högby A I/10 sida 161 har en nionde rad: `S. Sigfrid Konstantin`, född 1874-02-06 i Högby, med dödsdatum `5/3 74`. Namnet och födelseåret är överstrukna med en enda vågrät annulleringslinje; dödskolumnen är inte överstruken. | CORROBORATED | mycket hög | [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md), [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md) | Slututvunnen kolumn för kolumn 2026-09-08 i T-0156 ur den lokalt bevarade fullbilden. Prefixet `S.` är samma sonmarkering som på rad 3–6 och 8; födelseorten skrivs `Ibdm` som för syskonen. Äktenskaps-, koppor-, flytt- och attestkolumnerna samt hela högersidans kolumner är tomma — en källgräns som är väntad för ett barn som dog vid 27 dagars ålder. |
-| A-5631 | Sonen Sigfrid Konstantin dog 1874-03-05 och begravdes 1874-03-10, 27 dagar gammal, av `Bröst Katharr`; dödbokens post nr 12 namnger honom som son till kronolänsmannen C. A. Carlman och `Krist. Gust. Ringberg` i Gaxa och hänvisar till husförhörssidan 161. | CORROBORATED | mycket hög | [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md), [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md) | Posten står på **samma uppslag** som hennes egen post nr 17 och är den enda lästa samtida källa som namnger henne som mor med utskrivet namn. Åldern 27 dagar räknat från 5 mars ger födelsedagen 6 februari 1874 och bekräftar husförhörslängdens `6/2` oberoende. |
+| A-5631 | Sonen Sigfrid Konstantin dog 1874-03-05 och begravdes 1874-03-10, 27 dagar gammal, av `Bröst Katharr`; dödbokens post nr 12 namnger honom som son till kronolänsmannen C. A. Carlman och `Krist. Gust. Ringberg` i Gaxa och hänvisar till husförhörssidan 161. | CORROBORATED | mycket hög | [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md), [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md) | Posten står på samma uppslag som hennes egen post nr 17 och är den enda lästa samtida källa som namnger henne som mor med utskrivet namn. Åldern 27 dagar räknat från 5 mars ger födelsedagen 6 februari 1874 och bekräftar husförhörslängdens `6/2` oberoende. |
 | A-5632 | Hennes egen dödbokspost är fullt utvunnen: nr 17, död 30 mars, begravd 5 april 1874, kvinna, `Kristina Gustafva Ringberg, hustru till Krono Länsman C. A. Carlman, Gaxa`, 30 år 6 månader 3 dagar, `Gift`, dödsorsak `Nervfeber`, folio 161. | CORROBORATED | mycket hög | [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md), [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md) | Kolumnerna för läkarintyg, död i välgörenhets- eller sjukvårdsanstalt och särskilda anteckningar är tomma på hennes rad; tomheten är en källgräns. Folio 161 binder posten till familjeposten. Utvunnen ur den bevarade fullbilden 2026-09-08 i T-0156. |
-| A-5633 | Sju barn är belagda i äktenskapet, födda 1863–1874; det sjunde levde 27 dagar och dog 25 dagar före henne. | CORROBORATED | hög | [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md), [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md), [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md) | Ersätter det tidigare talet sex, som var hushållssidornas antal levande barn vid olika tidpunkter. Sju är antalet belagda födslar i de lästa posterna, inte ett bevisat livstotal. Att barnsäng eller barnets sjukdom skulle ha orsakat hennes död är **inte belagt**; dödboken anger `Nervfeber`. |
+| A-5633 | Sju barn är belagda i äktenskapet, födda 1863–1874; det sjunde levde 27 dagar och dog 25 dagar före henne. | CORROBORATED | hög | [C-0395](../citations/C-0395-hogby-AI10-gasa-sida-161-carlman.md), [C-0396](../citations/C-0396-hogby-F1-kristina-ringberg-dod-1874.md), [C-0355](../citations/C-0355-hogby-AI8-carlman-gasa-sida-163.md) | Ersätter det tidigare talet sex, som var hushållssidornas antal levande barn vid olika tidpunkter. Sju är antalet belagda födslar i de lästa posterna, inte ett bevisat livstotal. Att barnsäng eller barnets sjukdom skulle ha orsakat hennes död är inte belagt; dödboken anger `Nervfeber`. |
 
 ## Relationer
 
@@ -256,10 +256,10 @@ vad prästdottern och länsmannen ägde.
   akt och kräver ingen ny källläsning.
 - **Bevarad läskonflikt:** `Wingberg[?]` i sonens födelsenotis 1866 är en
   upphävd arbetsläsning som behålls som sökvariant, inte som namnform.
-- **Avgränsade noll som inte får utvidgas:** A-2372 gäller exakt de lästa
+- Avgränsade noll som inte får utvidgas: A-2372 gäller exakt de lästa
   vigselavsnitten, och A-5621 är en registerfråga som inte ens täcker hennes
   livstid.
-- **Osäkra läsningar utan personposter:** vigselvittnena 1862 (A-2369).
+- Osäkra läsningar utan personposter: vigselvittnena 1862 (A-2369).
 - Utförandestatus och nästa ej utförda steg ligger endast i Wotan.
 
 ## Historik och rättelser
@@ -289,7 +289,7 @@ Rättelser och omformuleringar i denna granskning, med de ersatta lydelserna:
   mantalslängderna `F I a` (C-0987); det som består är att ingen personrad är
   läst.
 - **A-2014** har fått en anmärkning om att fem barn är hushållssidans antal,
-  inte ett livstotal. Det belagda antalet barn är nu **sju** (A-5633).
+  inte ett livstotal. Det belagda antalet barn är nu sju (A-5633).
 
 **Slututvinning av familjepostens nionde rad, T-0156, 2026-09-08.** Raden
 lästes i den lokalt bevarade fullbilden av C-0395 i originalupplösning, kolumn

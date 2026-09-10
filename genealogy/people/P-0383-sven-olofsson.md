@@ -14,7 +14,7 @@
 
 Sven Olofsson föddes 1815-02-16 i Bodarne i Hemsjö och döptes tre dagar senare. Föräldrarna namnges i hans egen födelsenotis: åboen Olof Hansson och Britta Andersdotter, hon 33 år. Samma exakta födelsedatum står på hans egen rad i Hemsjö A I/4 sida 98, där han är familjeöverhuvud i Västra Bodarne, och han namnges som far i dottern Britta Stinas födelsepost 1851. Identiteten är därmed sluten mellan en samtida födelsenotis, en samtida hushållsrad och en samtida dopnotis där han själv är part. [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md), [C-1016](../citations/C-1016-hemsjo-C4-1815-tomrummet-provat.md), [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md), [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md), [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md)
 
-Hans mor heter Britta **Andersdotter** och hans hustru Catharina **Andersdotter** i hushållsboken. Patronymikonet är ett av tidens vanligaste och sammanträffandet får inte användas som släktskapsindicium. Både vigselboken 1840 och dottern Britta Stinas födelsepost 1851 skriver dessutom hustrun **Andreasdotter**, vilket ytterligare skiljer formerna åt.
+Hans mor heter Britta **Andersdotter** och hans hustru Catharina Andersdotter i hushållsboken. Patronymikonet är ett av tidens vanligaste och sammanträffandet får inte användas som släktskapsindicium. Både vigselboken 1840 och dottern Britta Stinas födelsepost 1851 skriver dessutom hustrun Andreasdotter, vilket ytterligare skiljer formerna åt.
 
 ## Namnformer
 
@@ -34,10 +34,10 @@ Hans mor heter Britta **Andersdotter** och hans hustru Catharina **Andersdotter*
 | A-3810 | Sven Olofsson och Catharina Andreasdotter lyste tredje gången 1839-09-22 och vigdes 1840-01-26 i Hemsjö; båda anges vara i tjänst i Wäsenbo. | CORROBORATED | mycket hög | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md), [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Hemsjö C/5 bild 52, sida 152. Vigselavsnittet ligger i C-serien; E-serien börjar först 1861. Hushållsbokens Wäsenbo-uppgift på hans egen rad stöder tjänsteorten, se A-6530. Den lästa fullbilden saknar lokal kopia; kopiegränsen ägs av T-0303. |
 | A-3811 | Vittnen vid vigseln var Olof Månsson och Britta Andersdotter; den senare bär samma namn som Svens mor. | LEAD | låg | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md) | Namnet är vanligt och vittnesskap är inget släktbevis; ingen relation skapas. |
 | A-6530 | Inflyttningskolumnen på hans egen rad i Hemsjö A I/4 sida 98 har `ifrån` ifyllt med `Wäsenbo`, medan underkolumnen `År` står tom. | TRANSCRIBED | hög | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md), [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md) | Utvunnet i T-0162 ur den lokalt bevarade fullbilden. De tryckta rubrikerna `Inflyttad — År / ifrån` är lästa i samma utsnitt som cellen. Uppgiften är hans egen, inte hustruns; hennes eget flyttfält är blankt enligt C-0446:s T-0136-tillägg. |
-| A-6531 | Anmärkningskolumnen på samma egna rad lyder `1840 3/1`. | TRANSCRIBED | medel | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Utvunnet i T-0162. Noten står i den tryckta kolumnen `Anmärkningar.`, till höger om den dubbla skiljelinjen, **inte** i `Utflyttad`; båda utflyttningscellerna är tomma. Dagtalet `3/1` sammanfaller inte med vigseln 1840-01-26 och är alltså inte en vigselnot. Att den daterar den odaterade inflyttningen från Wäsenbo är en möjlig men oprövad tolkning; ingen slutsats dras. Rättar den tidigare oavgjorda beskrivningen i C-0446:s T-0136-tillägg. |
+| A-6531 | Anmärkningskolumnen på samma egna rad lyder `1840 3/1`. | TRANSCRIBED | medel | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Utvunnet i T-0162. Noten står i den tryckta kolumnen `Anmärkningar.`, till höger om den dubbla skiljelinjen, inte i `Utflyttad`; båda utflyttningscellerna är tomma. Dagtalet `3/1` sammanfaller inte med vigseln 1840-01-26 och är alltså inte en vigselnot. Att den daterar den odaterade inflyttningen från Wäsenbo är en möjlig men oprövad tolkning; ingen slutsats dras. Rättar den tidigare oavgjorda beskrivningen i C-0446:s T-0136-tillägg. |
 | A-6532 | Personkolumnen bär omedelbart ovanför hans namn talen `7/64` och `(13/128)` följda av en oläst förkortning. | TRANSCRIBED | medel | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Utvunnet i T-0162. Talen står i den tryckta kolumnen `Bostad och Personer.` över hushållets överhuvud. Bråk i den positionen anger normalt hemmanets mantal, men uttydningen är inte prövad mot jordebok eller mantalslängd och görs inte här. Förkortningen efter parentesen är inte läsbar i den bevarade upplösningen. |
 | A-6533 | Hans egen rad har blank födelseortscell, `15 16/2` i födelsekolumnens `År och Dag`, och tomma celler för kristendomskunskap och koppor. | TRANSCRIBED | hög | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Utvunnet i T-0162. Hushållsboken uppger alltså inte hans födelseort; kopplingen till Bodarne kommer från födelseposten C-0848. De tomma kunskaps- och koppcellerna är källgränser för denna volym, inte negativa fynd om honom. |
-| A-6534 | Dottern Britta Stinas födelsepost 1851 skriver honom `Hem. Sven Olofsson ok dess h:tru Catharina Andreas dotter från Vestra Bodarne`. | TRANSCRIBED | hög | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md) | Utvunnet i T-0162 ur den lokalt bevarade fullbilden, sida 6 post 11. Förkortningen är `Hem.`, samma hand som skriver `Hemeg.` på post 6 och `Hem.` på post 12, och den är **inte** `Åb.`. Detta rättar C-0445:s avskrift `Åb. Sven Olofsson` och den ståndsbeteckning `Åbon` som därifrån gick in i A-2190. Om `Hem.` utläses hemmansegare eller hemmansbrukare är inte avgjort. |
+| A-6534 | Dottern Britta Stinas födelsepost 1851 skriver honom `Hem. Sven Olofsson ok dess h:tru Catharina Andreas dotter från Vestra Bodarne`. | TRANSCRIBED | hög | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md) | Utvunnet i T-0162 ur den lokalt bevarade fullbilden, sida 6 post 11. Förkortningen är `Hem.`, samma hand som skriver `Hemeg.` på post 6 och `Hem.` på post 12, och den är inte `Åb.`. Detta rättar C-0445:s avskrift `Åb. Sven Olofsson` och den ståndsbeteckning `Åbon` som därifrån gick in i A-2190. Om `Hem.` utläses hemmansegare eller hemmansbrukare är inte avgjort. |
 | A-6535 | Samma post skriver hustrun `Catharina Andreas dotter`, alltså samma namnform som vigselboken 1840, inte hushållsbokens `Andersdotter`. | TRANSCRIBED | hög | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md), [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md) | Utvunnet i T-0162. Rättar C-0445:s avskrift `Catharina Andersdotter`. Formen Andersdotter vilar därmed bara på Hemsjö A I/4. Detta är en söknyckel för hustruns ursprung och skapar ingen ny identitet; personfrågan ägs av P-0384. |
 | A-6536 | Vid vigseln 1840-01-26 kallas han `Drängen` och tjänade i Wäsenbo; 1851 skrivs han `Hem.` i Västra Bodarne. | CORROBORATED | hög | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md), [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md) | Utvunnet i T-0162 ur två samtida poster. Två belagda hållpunkter i hans försörjning; när övergången skedde och på vilka villkor framgår inte av någon läst källa. |
 | A-6537 | Två av de sex dopvittnena vid dottern Britta Stinas dop 1851-05-11 bär patronymikonet Olofsson och förkortningen `Hem.`: Jacob Olofsson i Vester Bodarne och Johannes Olofsson i Faijenäs[?]. | LEAD | låg | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md) | Utvunnet i T-0162 ur fullbilden; `Hem.`-förkortningen som C-0445:s T-0136-tillägg lämnade reserverad är nu läst. Samma patronymikon som Sven, samma by och samma stånd gör dem till rimliga syskonkandidater, men patronymikon och grannskap är inget släktbevis; ingen relation skapas. |
@@ -129,7 +129,7 @@ Hans egna kristendomskunskaps- och koppkolumner på hushållssidan är tomma. De
 | Egen födelse- och dopnotis, Hemsjö C/4 sida 12 | 1815-02-16 | Riksarkivet, bevarad helbild 6 236 × 5 020 px | [C-0848](../citations/C-0848-hemsjo-C4-sven-catharina-kontroll.md) | Länk och SHA-256 i citationen |
 | Egen hushållsrad, Hemsjö A I/4 sida 98 | Odaterad, hushållet 1842–1856 | Riksarkivet, bevarad helbild 6 284 × 4 700 px | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) | Länk och SHA-256 i citationen |
 | Egen faderrad i dotterns födelsepost, Hemsjö C/6 sida 6 post 11 | 1851-05-09 | Riksarkivet, bevarad helbild 6 268 × 4 652 px | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md) | Länk och SHA-256 i citationen |
-| Egen vigselpost, Hemsjö C/5 bild 52 sida 152 | 1840-01-26 | Riksarkivet, läst i originalupplösning 6 600 × 5 068 px | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md) | **Ingen lokal kopia återfunnen**; kopiegränsen ägs av T-0303 |
+| Egen vigselpost, Hemsjö C/5 bild 52 sida 152 | 1840-01-26 | Riksarkivet, läst i originalupplösning 6 600 × 5 068 px | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md) | Ingen lokal kopia återfunnen; kopiegränsen ägs av T-0303 |
 
 Inga fotografier, brev, signaturer eller muntliga minnen är kända. Hans egen hand är inte identifierad i något läst dokument.
 
@@ -263,22 +263,22 @@ Tidigare lydelse av A-2190, ersatt 2026-09-09 i T-0162 med hänvisning till A-65
 
 ### Inkommande följdfynd från T-0170, 2026-09-09
 
-Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0162 äger akten.
+Avgränsad rapport från föräldrarnas kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0162 äger akten.
 
-- **Hans egen födelseposts kolumner är nu redovisade** enligt
+- Hans egen födelseposts kolumner är nu redovisade enligt
   person-standarden: `Månad`, dagkolumnerna, `Barnets Namn`,
   `Föräldrarnes Namn`, `Willkor och Hemwist` och `Fadrarnes Namn och
   Hemwist`. Hans datum, 16 och 19 februari 1815, är oförändrade.
-- **Ålderskolumnens innebörd är fastställd.** Uppslagets samtliga poster bär
+- Ålderskolumnens innebörd är fastställd. Uppslagets samtliga poster bär
   exakt en ålder, placerad efter moderns namn; `33 åhr` gäller alltså modern,
-  och **fadern har ingen åldersuppgift alls**.
-- **Faddrarnas utfall är olika för de två föräldrarna.** Tre av de fem bär
-  moderns patronymikon i dotterform och ett fjärde formen `Anderss.`; **inget
-  bär faderns `Hansson`.** Ett faddre är namngivet enbart som `Nämndeman i
+  och fadern har ingen åldersuppgift alls.
+- Faddrarnas utfall är olika för de två föräldrarna. Tre av de fem bär
+  moderns patronymikon i dotterform och ett fjärde formen `Anderss.`; inget
+  bär faderns `Hansson`. Ett faddre är namngivet enbart som `Nämndeman i
   Hattholt[?]` och kan ur samma uppslag identifieras som `Johannes
   Andersson`, nämndeman i samma ort.
-- **Byn hade fler än en Olof.** Samma uppslag har faddret `Olof Månsson i
+- Byn hade fler än en Olof. Samma uppslag har faddret `Olof Månsson i
   Bodarne` i november 1814, och versalen skiljer sig vid 700 % från den höga
   `H`-slingan i `Hansson`. En `Olof` i Bodarne får därför inte identifieras
   ur namn och by.

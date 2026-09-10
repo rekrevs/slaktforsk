@@ -38,8 +38,8 @@ Per Wilhelm Eliasson är Bernhard Natanael Eliassons far, son till Gabriel Elias
 | A-2136 | Vid döden kallades han lägenhetsägare från ett svårläst kvarter Rosenberg nr 2 i Skövde och uppgavs äga 1/8 mantal Djursätra Västergården. | TRANSCRIBED | hög | [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md) | Kvartersläsningen är preliminär; ägaruppgiften är tydlig. |
 | A-2137 | Värsås E/1 är fjärråtkomlig men dess fulla årgångar 1885–1886 saknar parets vigsel; A II a/2 s. 130 och A II a/3 s. 130–131 saknar också hushållet. | TRANSCRIBED | hög | [C-0419](../citations/C-0419-varsas-AIIa2-AIIa3-djursatra-lokaliseringsnoll.md), [C-0420](../citations/C-0420-varsas-E1-vigslar-1885-1886-negativt.md), [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md) | Sidbundna lokaliseringsnoll och församlingsbundna vigselnoll. Senare C-0917 återfinner hushållet på folio 134 och C-0990 vigseln i Mofallas bok; inga äldre sidor behöver sökas om. |
 | A-3126 | Värsås A I/7 sida 159 visar sonen Petter Wilhelm i Gabriel Eliassons och Stina Larsdotters hushåll, född 1850-03-18. | TRANSCRIBED | hög | [C-0820](../citations/C-0820-varsas-AI7-sida159-eliassonfamilj.md) | Källans namnform är Petter Wilhelm; senare källor använder Per Wilhelm/Vilhelm. |
-| A-3614 | Gravregistret för familjegraven `04 A 194, 195, 196` på **Värsås kyrkogård** anger honom som **lägenhetsägare, född 1850-03-18, död 1929-09-05, gravsatt 1929-09-15**, skriven i Skövde församling. | CORROBORATED | hög | [C-0962](../citations/C-0962-eliasson-familjegrav-varsas.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md) | Gravregistret överensstämmer med dödboken men dess underliggande uppgiftskälla är inte prövad. Samma gravplats är ett samband; äktenskapet styrks separat av C-0990. |
-| A-3689 | Lysningsboken i Mofalla 1885 skriver honom `Eliason Pehr Vilhelm, Hemmansäg. i Djursätra`, född `¹⁸/₃ 50`, med hinderslöshetsbetyg `af Wersås`, och anger vigseln till **1885-06-19**. | CORROBORATED | mycket hög | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md), [C-0820](../citations/C-0820-varsas-AI7-sida159-eliassonfamilj.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md), [C-0962](../citations/C-0962-eliasson-familjegrav-varsas.md) | Samtida vigselregistrering stöder 1885-06-19 och anger hemmansägartiteln redan då. Födelsedatum kan komma från hinderslöshetsbetyget eller samma kyrkobokskedja; inget fjärde oberoende födelsevittne påstås. |
+| A-3614 | Gravregistret för familjegraven `04 A 194, 195, 196` på Värsås kyrkogård anger honom som lägenhetsägare, född 1850-03-18, död 1929-09-05, gravsatt 1929-09-15, skriven i Skövde församling. | CORROBORATED | hög | [C-0962](../citations/C-0962-eliasson-familjegrav-varsas.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md) | Gravregistret överensstämmer med dödboken men dess underliggande uppgiftskälla är inte prövad. Samma gravplats är ett samband; äktenskapet styrks separat av C-0990. |
+| A-3689 | Lysningsboken i Mofalla 1885 skriver honom `Eliason Pehr Vilhelm, Hemmansäg. i Djursätra`, född `¹⁸/₃ 50`, med hinderslöshetsbetyg `af Wersås`, och anger vigseln till 1885-06-19. | CORROBORATED | mycket hög | [C-0990](../citations/C-0990-mofalla-EI1-lysning-vigsel-eliasson-johansson-1885.md), [C-0820](../citations/C-0820-varsas-AI7-sida159-eliassonfamilj.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md), [C-0962](../citations/C-0962-eliasson-familjegrav-varsas.md) | Samtida vigselregistrering stöder 1885-06-19 och anger hemmansägartiteln redan då. Födelsedatum kan komma från hinderslöshetsbetyget eller samma kyrkobokskedja; inget fjärde oberoende födelsevittne påstås. |
 | A-3127 | Hushållets Petter Wilhelm är samma person som P-0020. | CORROBORATED | hög | [C-0820](../citations/C-0820-varsas-AI7-sida159-eliassonfamilj.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md), [C-0262](../citations/C-0262-lars-mansson-till-eliaeson-janson-kedja.md) | Exakt födelsetid, Värsås, båda föräldrarna och den särpräglade systern sammanfaller. |
 | A-3128 | Gabriel Eliasson och Stina Larsdotter var hans föräldrar. | CORROBORATED | hög | [C-0820](../citations/C-0820-varsas-AI7-sida159-eliassonfamilj.md), [C-0262](../citations/C-0262-lars-mansson-till-eliaeson-janson-kedja.md), [C-0418](../citations/C-0418-varsas-E2-per-vilhelm-dod-1929.md) | Samtida hushåll, sekundär explicit kedja och senare exakt födelsetid bildar en sammanhängande identitetsbrygga. |
 | A-3143 | Riksarkivets avgränsade metadatafrågor på Värsås och mantals-/taxeringslängder 1880–1930 gav ingen relevant serie. | NEGATIVE | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Katalogbundet noll, inte belägg för att skattehandlingar eller personposter saknas; återstart kräver arkivbildar-, serie- eller volymnyckel. |
@@ -259,19 +259,19 @@ akten här; ägaren avgör.
 **Ditt födelseår avviker mellan de två folkräkningsbladen, och avvikelsen
 står i bilden.** C-0025 skrev tidigare att `Registerpostens fadersår 1858
 avviker från 1850 i C-0024 och C-0026`, alltså att avvikelsen låg i den
-härledda databasposten. Vid omläsning står talet **`58`** i din egen
-födelseårscell **på bladet 1900**, mot **`50`** på bladet 1910. Det är därmed
-en avvikelse mellan **två blad**, inte mellan ett blad och ett register.
+härledda databasposten. Vid omläsning står talet `58` i din egen
+födelseårscell på bladet 1900, mot `50` på bladet 1910. Det är därmed
+en avvikelse mellan två blad, inte mellan ett blad och ett register.
 
 **Två förbehåll som ändrar hur avvikelsen ska vägas.** Båda bladen bär tryckta
 dokumenthuvuden — `Utdrag ur Församlingsboken för Wesås annex` 1900 och
 `Utdrag ur Församlingsboken för Värsås` 1910 — och är alltså utdrag ur
-**samma** församlingsbok. De är kompletterande, inte självständiga, och
-röstetalet mellan dem är inte två mot ett. Och **din hustrus årtal avviker
-mellan samma två blad på samma sätt**, `67` mot `63`
+samma församlingsbok. De är kompletterande, inte självständiga, och
+röstetalet mellan dem är inte två mot ett. Och din hustrus årtal avviker
+mellan samma två blad på samma sätt, `67` mot `63`
 ([P-0021](P-0021-augusta-viktoria-johansson.md)). Att båda föräldrarnas årtal
-förskjuts i samma par av blad är en prövbar hypotes om ett **systematiskt
-överföringsfel**, inte två separata konflikter.
+förskjuts i samma par av blad är en prövbar hypotes om ett systematiskt
+överföringsfel, inte två separata konflikter.
 
 Ditt belagda datum 1850-03-18 ur originalet (T-0127) berörs inte. Anmälan är
 riktad till T-0224 och T-0223, som äger dina öppnade målposter.

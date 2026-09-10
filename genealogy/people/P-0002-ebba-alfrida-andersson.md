@@ -42,8 +42,8 @@ identitet är känd.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-0006 | Namnet var Ebba Alfrida Andersson. | CORROBORATED | hög | [C-0001](../citations/C-0001-geni-utdrag.md), [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md), [C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md) | Se Namnformer för belagd användningstid. Geni visar även gift namn Zingmark. |
-| A-0007 | Född 1907. **Preciserad**: dagen 1907-08-18 är belagd i A-0204; årtalsuppgiften ensam är inte längre aktuell slutsats. | CORROBORATED | hög | [C-0001](../citations/C-0001-geni-utdrag.md), [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Ursprunglig observation bevarad; originalkällorna preciserar datumet. |
-| A-0008 | Död 1997. **Upphävd som aktuell slutsats**: dödsdagen 1997-02-12 är belagd i A-3317, och A-0008 står kvar enbart som sekundärträdets ursprungliga observation. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Preciserad av gravregistret ([C-0879](../citations/C-0879-ebba-alfrida-zingmark-grav-burtrask-1997.md)); statusen `LEAD` beskriver observationen, inte kunskapsläget. |
+| A-0007 | Född 1907. Preciserad: dagen 1907-08-18 är belagd i A-0204; årtalsuppgiften ensam är inte längre aktuell slutsats. | CORROBORATED | hög | [C-0001](../citations/C-0001-geni-utdrag.md), [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Ursprunglig observation bevarad; originalkällorna preciserar datumet. |
+| A-0008 | Död 1997. Upphävd som aktuell slutsats: dödsdagen 1997-02-12 är belagd i A-3317, och A-0008 står kvar enbart som sekundärträdets ursprungliga observation. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Preciserad av gravregistret ([C-0879](../citations/C-0879-ebba-alfrida-zingmark-grav-burtrask-1997.md)); statusen `LEAD` beskriver observationen, inte kunskapsläget. |
 | A-0009 | Maka till Oskar Alfred Zingmark. | CORROBORATED | hög | [C-0001](../citations/C-0001-geni-utdrag.md), [C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md) | Släktträdsuppgiften är verifierad i vigselboken. |
 | A-0204 | Ebba Alfrida föddes 1907-08-18 i Bygdeå församling. | CORROBORATED | hög | [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Födelsebok och församlingsbok överensstämmer; samma dag återkommer i C-0413, C-0891, C-0892, C-0040, C-0889 och C-0879. |
 | A-0205 | Hon döptes 1907-08-27. | TRANSCRIBED | hög | [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md) | Förrättaren skrivs `J. A.` följt av ett efternamn som inte är säkert avläst; se A-5051. |
@@ -272,7 +272,7 @@ Följande sakändringar gjordes, samtliga mot redan sparade belägg:
 - **A-0007 och A-0008** har fått uttrycklig markering i saktexten att de är
   preciserade respektive upphävda som aktuell slutsats av A-0204 och A-3317.
   Den ursprungliga observationen och statusen består.
-- **Tidslinjens rad om barnen** angav tidigare `Barn födda enligt
+- Tidslinjens rad om barnen angav tidigare `Barn födda enligt
   sekundärträd` med plats `okänt`. Barnen står i original i Burträsks
   församlingsböcker och födelseförsamlingen Burträsk är utskriven på fol 275
   (C-0889 med tillägget från T-0147); raden är rättad.
@@ -284,7 +284,7 @@ Följande sakändringar gjordes, samtliga mot redan sparade belägg:
   redovisad som en bokgräns.
 - **Föräldrarnas vigsel** anges nu som 1904-05-03 enligt A-4147 och T-0117,
   inte den äldre omkastade läsningen 1904-03-05.
-- **Nya A-id ur redan sparade källor**: A-5050 (vaccinations- och
+- Nya A-id ur redan sparade källor: A-5050 (vaccinations- och
   kristendomskunskapskolumnerna), A-5051 (dopets faddrar, utvunna ur den
   lokalt sparade helbilden till C-0043), A-5052 (föräldrarnas inflyttning till
   Gammelbyn 14¹⁸ 1946 och deras död där), A-5053 (årtalskolumnerna på fol 1006

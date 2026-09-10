@@ -16,7 +16,7 @@
 Alva Viktoria Eliasson är yngsta barnet i Per Vilhelm Eliassons och Augusta
 Viktoria Johanssons hushåll och yngre syster till
 [P-0010 Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md).
-Hon är född **12 september 1904 i Värsås** och följer föräldrahushållet
+Hon är född 12 september 1904 i Värsås och följer föräldrahushållet
 Värsås → Kyrkefalla 1916 → Skövde 1924, gifter sig 1926 med slaktaren
 Gustaf Tobias Lundkvist och är därefter bokförd i Smuleberg i Kyrkefalla med
 Tibro municipalsamhälle till åtminstone 1950.
@@ -287,21 +287,21 @@ T-0151, 2026-09-08: akten är omskriven till `person-dossier/v1`. Samtliga
 tidigare A-id är bevarade med oförändrade id. Följande sakrättelser gjordes,
 alla ur källor som redan fanns i repot:
 
-- **Födelsedagen propagerades in.** Den äldre kommentaren till A-0148 löd
+- Födelsedagen propagerades in. Den äldre kommentaren till A-0148 löd
   ”Exakt datum återstår”. Datumet 1904-09-12 har funnits i C-0917 sedan
   2026-09-06 och i C-0873, C-0870 och C-0868 sedan 2026-09-05. Det förs nu in
   som A-5210 och genom hela akten.
-- **Namnrättelsens ursprung rättat.** Den äldre identitetstexten sade att
+- Namnrättelsens ursprung rättat. Den äldre identitetstexten sade att
   `Alma` rättades ”källvis mot `Alva` i hennes eget vuxenhushåll 1930”.
   Lydelsen är överspelad: `Alva Viktoria` står i hennes egen rad i Värsås
   församlingsbok 1907–1917 (A-5211). 1930 års hushåll bekräftar, det rättar
   inte.
-- **Egna rader utvunna.** Vigseln 1926-11-21 med lysning 63/1926, överföringen
+- Egna rader utvunna. Vigseln 1926-11-21 med lysning 63/1926, överföringen
   till Kyrkefalla 1926-11-23, kolumnvärdena i folkräkningen 1930 och hennes
   rad 2 i Kyrkefalla A II a/15 sida 15 fanns i redan sparade fulloriginal utan
   att ha nått akten. De förs in som A-5212–A-5222. Sidan 15 i A II a/15 var
   utvunnen enbart för moderns rad 10.
-- **Avsnittet `Hushållet i nästa bok, T-0056` upplöstes** och dess innehåll
+- Avsnittet `Hushållet i nästa bok, T-0056` upplöstes och dess innehåll
   fördes till Relationer, Tidslinje, Boställen och flyttar samt Integritetsnot.
 - **Visningsnamnet** är `Alva Viktoria Eliasson`; formen `(1910: Alma)` i den
   gamla rubriken förs till Namnformer med belägg.
@@ -368,17 +368,17 @@ eget `NEGATIVE`-påstående, A-7700. Ni två är de enda av syskonen med bara
 **Nattvardskolumnens tomhet på din rad 1910 är läst och åldersförklarad.**
 Bladet har en tryckt kolumn `Inom Sv. kyrkan begått nattv.` som är ifylld för
 samtliga hushållsmedlemmar från femtonåriga Rut 1895 och uppåt — föräldrarna,
-tre bröder, en syster, pigan och drängen — men **saknas för dig, sex år, och
-för Sven Assar, nio år**. Tomheten är alltså ett **läst noll** och samtidigt
+tre bröder, en syster, pigan och drängen — men saknas för dig, sex år, och
+för Sven Assar, nio år. Tomheten är alltså ett läst noll och samtidigt
 den nedre halvan av kolumnens interna ålderskontroll; den får inte skrivas
 som en outvunnen kolumn.
 
 **Och de två folkräkningsbladen är inte självständiga.** Båda bär tryckta
-dokumenthuvuden som gör dem utdrag ur **samma** församlingsbok — `Wesås
+dokumenthuvuden som gör dem utdrag ur samma församlingsbok — `Wesås
 annex` 1900 och `Värsås` 1910. För dig betyder det att bladet 1910 är din
-**enda** Värsåskälla i mer än formell mening, och att Värsås ministerialböcker
-är den väg som ger dig en självständig röst. Volymserien är **inte
-identifierad i projektet**; katalogfrågan öppnar fyra av syskonens
+enda Värsåskälla i mer än formell mening, och att Värsås ministerialböcker
+är den väg som ger dig en självständig röst. Volymserien är inte
+identifierad i projektet; katalogfrågan öppnar fyra av syskonens
 födelseårgångar och delas därför med hela syskonskaran.
 
 Anmälan är riktad till T-0151, som konsoliderade din akt, och till T-0384,

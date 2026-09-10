@@ -39,12 +39,12 @@ Egen födelsenotis 1869-07-24 binder honom till föräldrarna. Makarna följs ti
 | A-3320 | Graven delas med hustrun, dottern Ebba och svärsonen Oskar Alfred Zingmark. | TRANSCRIBED | hög | [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Delad gravplats, inte relationsbevis i sig. |
 | A-3355 | Anders Alfred Andersson, hemmansägare på Jomark No 2 (sidrubrik 1/8, egen hushållsrad 1/16 mantal), född 1869-07-24 i Bygdeå, bodde med hustrun kvar på hemmanet 1918–1941 (fol 658 och 750) och överfördes 1942 till nya bokens fol 703. | TRANSCRIBED | hög | [C-0891](../citations/C-0891-andersson-jomark-robertsfors-1918-1941.md) | Senare läst i C-0920; paret lämnade Jomark 1946, döden står i C-0970. |
 | A-3460 | Äldre läsning angav Jomark N:o 2, ⁷/₁₆ mantal, tio hektar; mantalstalet rättas till ¹/₁₆ i A-4146. Överföringen 1942 från folio750 till703 består. | CONFLICT | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Omprövat T-0117; äldre slutsats bevarad i historiken. |
-| A-3461 | Han och hustrun **utflyttade till Burträsk 1946-11-16**, två år före hans död. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Dottern Ebba Alfrida och svärsonen Oskar Alfred Zingmark bodde i Gammelbyn i Burträsk sedan 1930; flytten ger geografisk familjekontext; orsaken till gravvalet är inte belagd. |
+| A-3461 | Han och hustrun utflyttade till Burträsk 1946-11-16, två år före hans död. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Dottern Ebba Alfrida och svärsonen Oskar Alfred Zingmark bodde i Gammelbyn i Burträsk sedan 1930; flytten ger geografisk familjekontext; orsaken till gravvalet är inte belagd. |
 | A-3462 | Församlingsboken anger vigsel 1904-05-03 och födelse 1869-07-24; upprepade längddata är inte oberoende vittnen. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Omprövat T-0117; äldre slutsats bevarad i historiken. |
-| A-3625 | Inflyttningen till Burträsk 1946-11-16 är förd även i Burträsks egen inflyttningsbok, nr 154, med destinationen **Burträsks municipalsamhälle, Gammelbyn 14¹⁸** och **uppslag 5 i delvolym I**. | CORROBORATED | hög | [C-0968](../citations/C-0968-andersson-inflyttning-burtrask-1946.md), [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Ut- och inflyttningsposterna stämmer på dagen; uppslagshänvisningen ledde till hushållssidan. |
-| A-3629 | Paret skrevs på **avsöndringen Gammelbyn 14¹⁸**, folio 5 i `A II a/4 a` — ett eget uppslag med samma fastighetsbeteckning som dotterns hushåll, inte en rad på svärsonens folio 275. | TRANSCRIBED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md), [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md) | Fastighetsbeteckningen är densamma som Zingmarks; hushållen fördes åtskilda. |
-| A-3631 | Hans död **1948-12-21** är förd i församlingsbokens dödskolumn på folio 5. | CORROBORATED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md), [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Första originalbelägget för dödsdatumet; dödboken `F/5` slutar i april 1948 och `F/6` saknar bild ([C-0969](../citations/C-0969-anna-fredrika-dodbok-1947.md)). |
-| A-3632 | Han levde **nästan arton månader som änkling** på samma fastighetsbeteckning som dotterns hushåll efter hustruns död 1947-06-27, alltjämt skriven som hemmansägare. | TRANSCRIBED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md) | Änklingsdatumet står i egen kolumn på hans rad. |
+| A-3625 | Inflyttningen till Burträsk 1946-11-16 är förd även i Burträsks egen inflyttningsbok, nr 154, med destinationen Burträsks municipalsamhälle, Gammelbyn 14¹⁸ och uppslag 5 i delvolym I. | CORROBORATED | hög | [C-0968](../citations/C-0968-andersson-inflyttning-burtrask-1946.md), [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Ut- och inflyttningsposterna stämmer på dagen; uppslagshänvisningen ledde till hushållssidan. |
+| A-3629 | Paret skrevs på avsöndringen Gammelbyn 14¹⁸, folio 5 i `A II a/4 a` — ett eget uppslag med samma fastighetsbeteckning som dotterns hushåll, inte en rad på svärsonens folio 275. | TRANSCRIBED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md), [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md) | Fastighetsbeteckningen är densamma som Zingmarks; hushållen fördes åtskilda. |
+| A-3631 | Hans död 1948-12-21 är förd i församlingsbokens dödskolumn på folio 5. | CORROBORATED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md), [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Första originalbelägget för dödsdatumet; dödboken `F/5` slutar i april 1948 och `F/6` saknar bild ([C-0969](../citations/C-0969-anna-fredrika-dodbok-1947.md)). |
+| A-3632 | Han levde nästan arton månader som änkling på samma fastighetsbeteckning som dotterns hushåll efter hustruns död 1947-06-27, alltjämt skriven som hemmansägare. | TRANSCRIBED | hög | [C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md) | Änklingsdatumet står i egen kolumn på hans rad. |
 | A-4146 | Omläsning av folio703 anger ¹/₁₆ mantal och tio hektar för hushållet på Jomark N:o2; äldre ⁷/₁₆ var en felläsning. | TRANSCRIBED | hög | [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Samma lokala original, T-0117. |
 | A-4147 | På originalet till C-0044 står makarnas vigseldatum 04 ³/₅, alltså 1904-05-03, liksom i C-0920. Den äldre avskriften 5 mars rättas. | TRANSCRIBED | hög | [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md), [C-0920](../citations/C-0920-andersson-jomark-fol-703-1942-1946.md) | Ingen egen vigselnotis har här lästs; C-0413/C-0891 har också omlästs till 3 maj; C-0970 normaliseringsfel rättat. |
 
@@ -151,18 +151,18 @@ sig med Anna Fredrika Jakobsdotter från Ultervattnet och 1907 föddes dottern
 Ebba Alfrida (C-0046, C-0044, C-0043). Familjen står kvar i Jomark 1910–1917
 (C-0413).
 
-Hemmanet är nu namngivet: **Jomark N:o 2**, ⅛ och senare ¹⁄₁₆ mantal, och
+Hemmanet är nu namngivet: Jomark N:o 2, ⅛ och senare ¹⁄₁₆ mantal, och
 paret bodde kvar där genom tre församlingsböcker i följd — folio 658 och
 750 fram till 1941, därefter folio 703 i nya boken, redovisat som
-**⁷/₁₆ mantal och tio hektar** (C-0891, C-0920). Dottern Ebba Alfrida
-flyttade ut 1928. Efter fyrtiotvå år på gården **utflyttade paret till
-Burträsk 1946-11-16**, dit dottern och svärsonen Oskar Alfred Zingmark hade
+⁷/₁₆ mantal och tio hektar (C-0891, C-0920). Dottern Ebba Alfrida
+flyttade ut 1928. Efter fyrtiotvå år på gården utflyttade paret till
+Burträsk 1946-11-16, dit dottern och svärsonen Oskar Alfred Zingmark hade
 flyttat 1930 — vilket förklarar den gemensamma gravplatsen (C-0920).
-I Burträsk fick paret ett **eget uppslag**, folio 5 i församlingsboken
-`A II a/4 a`, under rubriken **avsöndringen Gammelbyn 14¹⁸** — samma
+I Burträsk fick paret ett eget uppslag, folio 5 i församlingsboken
+`A II a/4 a`, under rubriken avsöndringen Gammelbyn 14¹⁸ — samma
 fastighet som dotterns familj, men en egen hushållsrad (C-0968, C-0970).
 Hustrun dog redan efter drygt ett halvår, den 27 juni 1947, och Anders
-Alfred levde därefter **arton månader som änkling**, alltjämt skriven som
+Alfred levde därefter arton månader som änkling, alltjämt skriven som
 hemmansägare fastän gården var lämnad. Han dog **1948-12-21**, ett datum som
 nu står i församlingsbokens egen dödskolumn och inte bara i gravregistret,
 och gravsattes 1949-01-03 på Burträsks kyrkogård i den grav som hustrun,
@@ -194,29 +194,29 @@ ingen uppgift är förd in i akten här; ägaren avgör.
 
 **Din dopnotis vittnesrad är nu läst i sin helhet** i den sparade helbilden
 `A0027066_00076` (5 671 × 4 821 px) vid 500–1300 %. Raden lyder
-`Sjöm. **A.** J. Dahlberg & h:r; B:s [förk.] J. Dahlberg o. **Charlotta**
-Dahlberg i **Dahlkarlså**.`
+`Sjöm. A. J. Dahlberg & h:r; B:s [förk.] J. Dahlberg o. Charlotta
+Dahlberg i Dahlkarlså.`
 
-**Fyra läsningar är avgjorda.** Den första initialen är **`A.`**, inte `N.`,
-avgjord av en kontroll i **samma kolumn på samma sida** — post 83 bär både
+**Fyra läsningar är avgjorda.** Den första initialen är `A.`, inte `N.`,
+avgjord av en kontroll i samma kolumn på samma sida — post 83 bär både
 `A. Andersson` och `N. A.` i samma hand, och skrivarens `A` har ett
 tvärstreck som hans `N` saknar. Titeln `Sjöm.` är läsbar. Förnamnet är
 `Charlotta` med `a`. Och ortnamnet skrivs `Dahlkarlså`, bokens stavning av
-**Dalkarlså** i Bygdeå; frågetecknet i den äldre läsningen faller.
+Dalkarlså i Bygdeå; frågetecknet i den äldre läsningen faller.
 
 **En strukturell iakttagelse ändrar antalet vittnen med namn.** Det som
-lästs som den andre mannens första initial är en **återkommande
-titelförkortning** — samma tvådelade grupp står i post 83 framför ett annat
-efternamn. Han har alltså **en** känd initial, `J.`, inte två.
+lästs som den andre mannens första initial är en återkommande
+titelförkortning — samma tvådelade grupp står i post 83 framför ett annat
+efternamn. Han har alltså en känd initial, `J.`, inte två.
 
 **Och skrivarens egen åtskillnad om hustrur är värd att bevara.** Formen
-`& h:r` används **bara** efter sjömannens namn; om det andra paret skrivs
+`& h:r` används bara efter sjömannens namn; om det andra paret skrivs
 kvinnans namn ut utan hustrubeteckning. Det belägger att sjömannen var gift
-och **förbjuder antagandet** att de två övriga var gifta med varandra.
-**Ingen släktskap mellan de tre Dahlbergarna förs in** — dopvittnen valdes
+och förbjuder antagandet att de två övriga var gifta med varandra.
+Ingen släktskap mellan de tre Dahlbergarna förs in — dopvittnen valdes
 också bland grannar och yrkesbekanta.
 
 **Nästa steg är gemensamt för alla tre:** Bygdeå husförhörslängd omkring 1869,
-läst på **Dalkarlså**. En läsning kan ge alla tre vittnena namn, ålder och
+läst på Dalkarlså. En läsning kan ge alla tre vittnena namn, ålder och
 hushåll, och därmed säga något om vilket socialt nätverk dina föräldrar
 valde vittnen ur. Se det daterade tillägget i C-0048.

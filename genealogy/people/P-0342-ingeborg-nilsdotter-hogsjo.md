@@ -141,7 +141,7 @@ posterna ovan är reproduktioner av kyrkoböcker, inte personliga källor.
 
 ## Biografisk sammanfattning
 
-Ingeborg Nilsdotter var **torparhustru i Högsjö i Indals socken** och
+Ingeborg Nilsdotter var torparhustru i Högsjö i Indals socken och
 trettiofem år gammal när hon födde sonen Nils Petter den 8 mars 1834. Allt
 detta står i sonens egen födelse- och dopnotis, som skriver `Hust. Ingeb:
 Nilsdr ibm` och för in hennes ålder i den egna åldersspalten. Hustrutecknet
@@ -200,16 +200,16 @@ Se [profilens frågor och källvägar](../research-profiles/P-0342.md#forsknings
   med det överstrukna hushållet på sida 83 omläst och avfört som målfamilj.
 - Negativ kontroll: [C-0836](../citations/C-0836-indal-AI5-AI6-hogsjo-familjekontroll.md),
   [C-0344](../citations/C-0344-indal-AI6-hogsjo-sida-83-arbetsuppslag.md)
-- Återaktivera när: en av **fyra namngivna och oprövade** ingångar ger en
-  personbunden ort- eller sidnyckel. **(1) Ortregistret i `A I/5` och `A I/6`**,
+- Återaktivera när: en av fyra namngivna och oprövade ingångar ger en
+  personbunden ort- eller sidnyckel. (1) Ortregistret i `A I/5` och `A I/6`,
   som aldrig har använts; makens torparstånd i A-6421 gör det sannolikt att
   hushållet fördes under torpets eget namn i stället för under byn.
-  **(2) Indals vigselbok `E I`** omkring 1820–1834 — parets egen vigselnotis
+  (2) Indals vigselbok `E I` omkring 1820–1834 — parets egen vigselnotis
   skulle ge hennes hemvist som brud och namnge giftomannen, som för en kvinna
-  oftast är fadern eller en nära släkting. **(3) Indals in- och
-  utflyttningslängd `B`** kring 1834. **(4) Indals födelseböcker omkring
-  1799**, utifrån åldern 35 år 1834; den nyckeln ska prövas **på dag och namn
-  i hela årgången** med ett års fönster åt vardera hållet, inte på namn
+  oftast är fadern eller en nära släkting. (3) Indals in- och
+  utflyttningslängd `B` kring 1834. (4) Indals födelseböcker omkring
+  1799, utifrån åldern 35 år 1834; den nyckeln ska prövas på dag och namn
+  i hela årgången med ett års fönster åt vardera hållet, inte på namn
   ensamt.
   **Upprepa inte** Högsjöavsnitten i `A I/5` sidorna 193–199 och `A I/6`
   sidorna 83–93; båda är fullständigt lästa. Åldersuppgiften 35 år är
@@ -221,27 +221,27 @@ Se [profilens frågor och källvägar](../research-profiles/P-0342.md#forsknings
 T-0162, 2026-09-09: akten är omskriven till `person-dossier/v1`. Hela den
 föregående akten bevaras nedan i sin helhet. Följande sakändringar gjordes.
 
-- **Hustrutecknet och `ibm` är utvunna.** Den äldre akten och profilen bar
+- Hustrutecknet och `ibm` är utvunna. Den äldre akten och profilen bar
   bara namnet och åldern ur cellen. Posten skriver henne uttryckligen `Hust.`
   och `ibm`, vilket gör äktenskapet och orten till källans egna uppgifter i
   stället för slutsatser av postens form; A-6420.
-- **Läsningen `F.` → `T.` om maken.** Profilens tema ARB sade tidigare att
+- Läsningen `F.` → `T.` om maken. Profilens tema ARB sade tidigare att
   `Hust.` var hennes enda ståndsbeteckning. Med makens rättade
   ståndsbeteckning är hon torparhustru; A-6421. Se även
   [P-0341](P-0341-pehr-ersson-hogsjo.md) A-6410.
-- **Dopvittneskolumnen är utvunnen.** Den var uttryckligen otranskriberad i
+- Dopvittneskolumnen är utvunnen. Den var uttryckligen otranskriberad i
   C-0342 och redovisad som outförd åtgärd i profilen från 2026-09-07. Sex
   vittnen är nu lästa, och att inget av dem bär hennes patronymikon är en
   egen iakttagelse; A-6422, A-6423.
-- **Nollet är nu ett påstående.** De två ortavsnittsnollen bars tidigare bara
+- Nollet är nu ett påstående. De två ortavsnittsnollen bars tidigare bara
   av prosa i `## Slutstatus` och fanns inte i evidensmodellen; A-6424. Det
   överstrukna hushållet på `A I/6` sida 83, som C-0344 lämnade oläst, är
   omläst och avfört som målfamilj.
-- **Bedömningsändring.** `Identitetsgranskning` går från `UNDERKÄND`
+- Bedömningsändring. `Identitetsgranskning` går från `UNDERKÄND`
   2026-09-07 till `GODKÄND`, och `Trädverkan` från `AVVAKTAR` till `BÄRANDE`.
   Motiveringen krav för krav står i profilen. `Kontraktsgranskning` är
   oförändrat `UNDERKÄND`.
-- **Ingen ny arkivåtkomst.** Allt ovan är läst i helbilder som redan fanns
+- Ingen ny arkivåtkomst. Allt ovan är läst i helbilder som redan fanns
   bevarade i projektet.
 
 Det äldre `Arbetsläge` med `Konsolidering: GRANSKAD 2026-09-04 (T-0013)` och

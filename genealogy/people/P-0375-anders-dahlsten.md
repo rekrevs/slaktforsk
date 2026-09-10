@@ -10,7 +10,7 @@
 
 Anders Dahlsten är bonde i Säter, Indal, och förälder till Cajsa Märta född 21 mars 1834. Vuxenhushållet är belagt i egna barnposter och två successiva hushållslängder; uppåt är ursprunget ännu olöst. [C-0434](../citations/C-0434-indal-C4-cajsa-marta-dahlsten-fodd-1834.md), [C-0436](../citations/C-0436-indal-AI6-sater-dahlsten-familj-sida-185.md), [C-0437](../citations/C-0437-indal-AI7-sater-dahlsten-familj-sida-193.md)
 
-Han uppges född **22 oktober 1800 i Indal**. I den faktiskt prövade oktoberpassagen finns ingen Anders den dagen. Kontrollen täcker inte hela året och bevisar inte att han föddes i en annan socken. Inga föräldrar är säkert identifierade. [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md)
+Han uppges född 22 oktober 1800 i Indal. I den faktiskt prövade oktoberpassagen finns ingen Anders den dagen. Kontrollen täcker inte hela året och bevisar inte att han föddes i en annan socken. Inga föräldrar är säkert identifierade. [C-0847](../citations/C-0847-indal-C3-dahlsten-larsdotter-kontroll.md), [C-1012](../citations/C-1012-indal-AI6-AI7-sater-narlasning-rattelse.md)
 
 ## Namnformer
 

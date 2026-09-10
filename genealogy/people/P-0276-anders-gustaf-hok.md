@@ -284,9 +284,9 @@ På den äldre hushållssidan 285 betecknas Anders Gustaf både ägare och arbet
 ### Anhörigrättelse T-0156, 2026-09-08 — dödsdagen är 1911-01-16
 
 Dödsdagen har stått som 1911-11-16. Omläsning i fullupplösning av de lokalt
-sparade helbilderna ger **1911-01-16** i **fyra** fält, inte tre: hans egen
+sparade helbilderna ger **1911-01-16** i fyra fält, inte tre: hans egen
 dödskolumn och hustruns änkekolumn på sida 484, änkekolumnen på sida 593 och
-änkekolumnen på folio 591. Alla fyra skriver `11 ¹⁶/₁` med **ett enda tecken**
+änkekolumnen på folio 591. Alla fyra skriver `11 ¹⁶/₁` med ett enda tecken
 som nämnare, medan samma hand på samma uppslag skriver tvåsiffriga månader med
 två tecken, till exempel `10 ³¹/₁₂` och `80 ²⁷/₂`. Två granskare har kommit till
 samma läsning oberoende av varandra.

@@ -17,8 +17,8 @@
 
 Maria Augusta Ålund är den andra dottern i Carl Fredrik Ålunds och Maja
 Catharina Carlsdotters hushåll i Löta i Helgesta, och syster till
-[Pehr Albert Ålund](P-0110-per-albert-alund.md). Hon förekommer i **en enda
-känd källpost**: rad 5 i hushållet i Helgesta A I/15 sida 179, markerad `D.`
+[Pehr Albert Ålund](P-0110-per-albert-alund.md). Hon förekommer i en enda
+känd källpost: rad 5 i hushållet i Helgesta A I/15 sida 179, markerad `D.`
 för dotter, med födelsetiden `46 26/12` och födelseorten `d:o` upplöst till
 Gryt. [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md)
 
@@ -39,10 +39,10 @@ bär en anteckning, en utflyttning eller ett dödsmärke.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-1907 | Namnet skrevs `Maria Augusta`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Efternamnet Ålund följer familjegruppen. **Kontrollerat 2026-09-09** vid förstoring, i samma pass där systerns namn på raden ovanför visade sig felläst; hennes egen läsning står oförändrad. |
+| A-1907 | Namnet skrevs `Maria Augusta`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Efternamnet Ålund följer familjegruppen. Kontrollerat 2026-09-09 vid förstoring, i samma pass där systerns namn på raden ovanför visade sig felläst; hennes egen läsning står oförändrad. |
 | A-1908 | Hon uppges vara född 1846-12-26 i Gryt. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Husförhörsuppgift; födelseoriginal återstår. Födelseorten är ett upplöst `d:o`. |
 | A-1909 | Hon var dotter till Carl Fredrik Ålund och Maja Catharina Carlsdotter. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Markeras `D.` i parets familjegrupp. |
-| A-7290 | På hennes rad är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Inflyttad`, `Död.`, `Fräjd och enskilda anteckningar.`, `Utflyttad` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; tre av fyra `Läser`-kolumner har råtecken och `Förstår.` är tom; nattvardstecken finns 1861 och 1863–1865. Raden är inte överstruken. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. **Hela raden gav inget nytt sakinnehåll** — det är i sig ett resultat: hennes tomhet i modellen är källans egen och inte en outvunnen kolumn. Att `Fräjd`-kolumnen är tom skiljer henne från tre andra rader på samma uppslag, som bär `sinnessvag`, en lysningsnotering och två beväringsövningar. |
+| A-7290 | På hennes rad är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Inflyttad`, `Död.`, `Fräjd och enskilda anteckningar.`, `Utflyttad` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; tre av fyra `Läser`-kolumner har råtecken och `Förstår.` är tom; nattvardstecken finns 1861 och 1863–1865. Raden är inte överstruken. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. Hela raden gav inget nytt sakinnehåll — det är i sig ett resultat: hennes tomhet i modellen är källans egen och inte en outvunnen kolumn. Att `Fräjd`-kolumnen är tom skiljer henne från tre andra rader på samma uppslag, som bär `sinnessvag`, en lysningsnotering och två beväringsövningar. |
 
 ## Relationer
 
@@ -81,8 +81,8 @@ normala åldern för första nattvardsgången.
 | 1846–1857 | Gryt | Gård eller torp ej angivet | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Härlett ur födelseorten och familjens flyttning 1857. |
 | 1857–minst 1865 | Löta, Töfversta Rote | Helgesta församling, sida 179 | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Inflyttningskolumnen är läst och tom på hennes rad; flyttningen är bokförd bara på faderns. |
 
-Utflyttningskolumnen är läst och tom och raden är inte överstruken: **hon
-lämnade inte Löta under bokens tid**, till skillnad från systern Hedda Lovisa
+Utflyttningskolumnen är läst och tom och raden är inte överstruken: hon
+lämnade inte Löta under bokens tid, till skillnad från systern Hedda Lovisa
 och brodern Carl Johan.
 
 ## Yrke, utbildning och ekonomi
@@ -143,11 +143,11 @@ Allt därefter är okänt, och det besvaras av Helgestas nästa husförhörslän
 
 ## Forskningsfrågor och konflikter
 
-- **Livet efter 1865 är okänt.** `Död.`- och `Utflyttad`-kolumnerna är lästa
+- Livet efter 1865 är okänt. `Död.`- och `Utflyttad`-kolumnerna är lästa
   och tomma och raden är inte överstruken, alltså bodde hon kvar. Se
   [profilens Q-01](../research-profiles/P-0333.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0333.md#källvägar).
-- **Hennes dopnotis i Gryt 1846 är oläst.** Den ger faddrar och moderns
+- Hennes dopnotis i Gryt 1846 är oläst. Den ger faddrar och moderns
   uppgivna ålder. Se KP-02.
 - Ingen konflikt finns inom det lästa underlaget, och hennes namnläsning är
   kontrollerad vid förstoring i samma pass som systerns rättelse.

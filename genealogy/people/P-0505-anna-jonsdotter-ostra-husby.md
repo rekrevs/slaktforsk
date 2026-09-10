@@ -4,7 +4,7 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0170.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Åldern `38 år` är nu
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Åldern `38 år` är nu
   omräknad till ett **födelseintervall**, familjens by `Wiiklo[?]` är läst ur
   samma post, och de fyra dopvittnena är avskrivna för första gången.
 - Identitetsgranskning: `GODKÄND`
@@ -25,8 +25,8 @@ C/4 sida 246, post nr 44, där hon skrivs `hu Anna Jonsdotter 38 år` efter
 maken `Bond. Måns Håkansson i Wiiklo[?]`.
 [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md)
 
-Åldern är hennes enda datumuppgift och ger födelsetid mellan **oktober 1757
-och oktober 1758**; den görs inte till ett exakt år. Se A-7480. Hennes
+Åldern är hennes enda datumuppgift och ger födelsetid mellan oktober 1757
+och oktober 1758; den görs inte till ett exakt år. Se A-7480. Hennes
 föräldrar är okända; patronymikonet ger faderns förnamn **Jon/Jöns**.
 
 ## Namnformer
@@ -34,17 +34,17 @@ föräldrar är okända; patronymikonet ger faderns förnamn **Jon/Jöns**.
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | hu Anna Jonsdotter | Sonens födelsenotis 1796 | TRANSCRIBED | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Den enda belagda formen. `hu` är förkortning för hustru och är civilstånd, inte namn. |
-| Anna Jonsdotter / Anna Jönsdotter | Sökformer | LEAD | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Både förnamnet och patronymikonet hör till periodens vanligaste, vilket gör namnet **informationssvagt** utan ort, ålder eller make. |
+| Anna Jonsdotter / Anna Jönsdotter | Sökformer | LEAD | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Både förnamnet och patronymikonet hör till periodens vanligaste, vilket gör namnet informationssvagt utan ort, ålder eller make. |
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3217 | Anna Jonsdotter var mor till Carl, född 1796-10-28 i Östra Husby; hennes ålder angavs till 38 år. | CORROBORATED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md), [C-0837](../citations/C-0837-ostra-husby-AI16-carl-inga-gaddestad.md) | Åldern görs inte till ett exakt födelseår. |
-| A-7480 | Åldern `38 år` i oktober 1796 ger hennes födelsetid till intervallet **oktober 1757–oktober 1758**. | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Fört som eget påstående 2026-09-09. Intervallet är hennes enda datering, och det är **ett intervall, inte ett datum**: åldrar i ministerialböcker anges ofta i löpande år eller avrundat, så åren 1757, 1758 och möjligen 1756 måste alla prövas i en födelsebokssökning. Uppgiften får inte bli ett valt födelseår — vilket aktens tidigare återaktiveringsvillkor också slog fast. |
-| A-7481 | Hennes rad i posten står **efter makens** i kolumnen `Föräldrarnes Namn`, och postens enda ålder står efter hennes namn; uppslagets samtliga poster följer samma mönster. | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Fört som eget påstående 2026-09-09 efter genomgång av uppslagets samtliga poster. Detta **fastställer att åldern är hennes** och inte makens — en förutsättning för A-7480 — och förklarar samtidigt varför maken saknar åldersuppgift. |
-| A-7482 | Familjens hemvist i posten är byn `Wiiklo[?]`, läst som bokstavsföljden `W-i-i-k-l-o` med möjlig avslutande `ö`, och maken skrivs `Bond.` | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Utvunnet 2026-09-09 vid 500 % förstoring; citationen lämnade ortsordet oläst. **Identifieringen mot Östra Husbys byar är en katalogfråga** och avgörs inte här. Uppgiften ger henne för första gången ett hushållsavsnitt att söka i. |
-| A-7483 | Sonens dopnotis namnger fyra vittnen: `Bond. Anders And[ers]son i Smedstorp`, `Dr. Nils And[ers]son i Fyllinge`, `hustru Lena Andersdotter ibid` och `Pig. Ingeborg Andersdotter i Fyllinge`. **Inget av dem bär hennes patronymikon.** | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Utvunnet 2026-09-09; vittnesfältet var **aldrig avskrivet**. Utfallet är negativt och **stänger dopvägen till hennes släkt**: samtliga fyra bär `Andersson`/`Andersdotter`, och tre bor i Fyllinge. Gruppen är sammanhållen men matchar ingen av föräldrarnas patronymikon. Ingen relation skapas. |
+| A-7480 | Åldern `38 år` i oktober 1796 ger hennes födelsetid till intervallet oktober 1757–oktober 1758. | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Fört som eget påstående 2026-09-09. Intervallet är hennes enda datering, och det är ett intervall, inte ett datum: åldrar i ministerialböcker anges ofta i löpande år eller avrundat, så åren 1757, 1758 och möjligen 1756 måste alla prövas i en födelsebokssökning. Uppgiften får inte bli ett valt födelseår — vilket aktens tidigare återaktiveringsvillkor också slog fast. |
+| A-7481 | Hennes rad i posten står efter makens i kolumnen `Föräldrarnes Namn`, och postens enda ålder står efter hennes namn; uppslagets samtliga poster följer samma mönster. | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Fört som eget påstående 2026-09-09 efter genomgång av uppslagets samtliga poster. Detta fastställer att åldern är hennes och inte makens — en förutsättning för A-7480 — och förklarar samtidigt varför maken saknar åldersuppgift. |
+| A-7482 | Familjens hemvist i posten är byn `Wiiklo[?]`, läst som bokstavsföljden `W-i-i-k-l-o` med möjlig avslutande `ö`, och maken skrivs `Bond.` | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Utvunnet 2026-09-09 vid 500 % förstoring; citationen lämnade ortsordet oläst. Identifieringen mot Östra Husbys byar är en katalogfråga och avgörs inte här. Uppgiften ger henne för första gången ett hushållsavsnitt att söka i. |
+| A-7483 | Sonens dopnotis namnger fyra vittnen: `Bond. Anders And[ers]son i Smedstorp`, `Dr. Nils And[ers]son i Fyllinge`, `hustru Lena Andersdotter ibid` och `Pig. Ingeborg Andersdotter i Fyllinge`. Inget av dem bär hennes patronymikon. | TRANSCRIBED | hög | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Utvunnet 2026-09-09; vittnesfältet var aldrig avskrivet. Utfallet är negativt och stänger dopvägen till hennes släkt: samtliga fyra bär `Andersson`/`Andersdotter`, och tre bor i Fyllinge. Gruppen är sammanhållen men matchar ingen av föräldrarnas patronymikon. Ingen relation skapas. |
 
 ## Relationer
 
@@ -53,8 +53,8 @@ föräldrar är okända; patronymikonet ger faderns förnamn **Jon/Jöns**.
 | [P-0360 Carl Månsson](P-0360-carl-mansson-gaddestad.md) | son | Född 1796-10-28, `Wiiklo[?]`, Östra Husby | CORROBORATED | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md), [C-0837](../citations/C-0837-ostra-husby-AI16-carl-inga-gaddestad.md) |
 | [P-0504 Måns Håkansson](P-0504-mans-hakansson-ostra-husby.md) | make/medförälder | `Wiiklo[?]`, Östra Husby 1796 | TRANSCRIBED | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) |
 
-Hennes föräldrar och syskon är okända, och **inget av sonens fyra dopvittnen
-bär hennes patronymikon**; se A-7483.
+Hennes föräldrar och syskon är okända, och inget av sonens fyra dopvittnen
+bär hennes patronymikon; se A-7483.
 
 ## Tidslinje
 
@@ -64,8 +64,8 @@ bär hennes patronymikon**; se A-7483.
 | 1796-10-28 | Sonen Carl föds; hon är då omkring 38 år | `Wiiklo[?]`, Östra Husby | Bondhustru | Make och nyfödd son | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) |
 | 1796-10-30 | Sonen döps, med fyra vittnen ur Fyllinge och Smedstorp | Östra Husby | Bondhustru | — | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) |
 
-**Bara två av hållpunkterna är daterade händelser, och de ligger två dagar
-från varandra.** Den första är ett intervall härlett ur en ålder. De 38 åren
+Bara två av hållpunkterna är daterade händelser, och de ligger två dagar
+från varandra. Den första är ett intervall härlett ur en ålder. De 38 åren
 före 1796 har ingen hållpunkt, och ingenting efter 1796 är belagt.
 
 ## Boställen och flyttar
@@ -99,7 +99,7 @@ personbunden och stänger inte hushållets spår.
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
-| 1796-10-28 | Hon födde en son vid omkring 38 års ålder och överlevde förlossningen; posten har ingen anteckning om moderns död | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Att posten saknar dödsanteckning för modern är ett **läst** förhållande: uppslaget har en egen rad för ett `Dödfödt` barn längre ned, så boken förde sådana noter. En förlossning vid 38 år var en normal men inte riskfri ålder för tiden. |
+| 1796-10-28 | Hon födde en son vid omkring 38 års ålder och överlevde förlossningen; posten har ingen anteckning om moderns död | [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md) | Att posten saknar dödsanteckning för modern är ett läst förhållande: uppslaget har en egen rad för ett `Dödfödt` barn längre ned, så boken förde sådana noter. En förlossning vid 38 år var en normal men inte riskfri ålder för tiden. |
 
 Hennes död är okänd och osökt. Med åldersintervallet finns nu en nyckel som
 kan användas i en dödboksökning.
@@ -133,21 +133,21 @@ möjlig avslutande `ö`. Identifieringen mot socknens byar är en katalogfråga 
 men uppgiften ger henne för första gången ett hushållsavsnitt att söka i.
 [A-7482](#påståenden)
 
-Dopets **fyra vittnen** var aldrig avskrivna, och utfallet är negativt: inget
+Dopets fyra vittnen var aldrig avskrivna, och utfallet är negativt: inget
 av dem bär hennes patronymikon. Alla fyra bär `Andersson` eller
 `Andersdotter`, tre av dem i Fyllinge. Dopvägen till hennes släkt är därmed
 prövad och **stängd**. [A-7483](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Vilken by är `Wiiklo[?]`, och står familjen i dess husförhörslängd?** Se
+- Vilken by är `Wiiklo[?]`, och står familjen i dess husförhörslängd? Se
   [profilens Q-01](../research-profiles/P-0505.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0505.md#källvägar).
-- **Hennes åldersintervall får inte bli ett valt födelseår.** Åren 1757, 1758
+- Hennes åldersintervall får inte bli ett valt födelseår. Åren 1757, 1758
   och möjligen 1756 ska alla prövas. KP-01.
-- **Dopvägen till hennes släkt är stängd**, inte outredd. Fyllinge och
+- Dopvägen till hennes släkt är stängd, inte outredd. Fyllinge och
   Smedstorp är däremot nya orter i akten. KP-02.
-- **Makarnas vigsel är odaterad och osökt.** Med sonen född 1796 och hennes
+- Makarnas vigsel är odaterad och osökt. Med sonen född 1796 och hennes
   ålder 38 kan äktenskapet ligga långt före; det är den enda handling som
   normalt namnger hennes hemvist före äktenskapet. KP-01.
 - Ingen konflikt finns i det lästa underlaget.
@@ -155,8 +155,8 @@ prövad och **stängd**. [A-7483](#påståenden)
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Östra Husbys husförhörslängd för byn `Wiiklo[?]`
-  omkring 1790–1800**, som skulle ge hennes ålder ur en andra bok och hela
+- Förväntad källa: Östra Husbys husförhörslängd för byn `Wiiklo[?]`
+  omkring 1790–1800, som skulle ge hennes ålder ur en andra bok och hela
   hushållet; i andra hand vigselposten, som normalt namnger hennes hemvist,
   eller en flytt- eller dödpost.
 - Genomsökt: sonens samtidiga födelsenotis 1796, nu utvunnen inklusive by,
@@ -165,7 +165,7 @@ prövad och **stängd**. [A-7483](#påståenden)
 - Negativ kontroll: [C-0838](../citations/C-0838-ostra-husby-C4-carl-fodd-1796.md)
   anger hennes ålder men ingen egen datum- eller föräldrahemsnyckel;
   vittnesfältet är nu prövat och bär **inte** hennes patronymikon.
-- Återaktivering: **villkoret är delvis uppfyllt 2026-09-09.** Den tidigare
+- Återaktivering: villkoret är delvis uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `en ny personbunden vigsel-, hushålls-, flytt- eller
   dödsnyckel` och slog fast att `den ungefärliga åldern` inte får göras till
   ett exakt födelseår — vilket står fast. Byn är en hushållsnyckel och är fri

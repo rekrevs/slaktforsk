@@ -15,7 +15,7 @@ Identitetsnivån prövades två gånger 2026-09-08 i samma uppgift. Vid den för
 läsningen sattes `UNDERKÄND`/`AVVAKTAR` därför att hennes egen rad på
 Hudiksvall `A II a/2 b` sida 484 aldrig hade utvunnits. Raden har därefter
 lästs kolumn för kolumn i den lokalt sparade helbilden och gav det som saknades
-mest: **hennes utflyttning till Oscars församling i Stockholm 1911-05-20**.
+mest: hennes utflyttning till Oscars församling i Stockholm 1911-05-20.
 Se [profilens kontraktsgranskning](../research-profiles/P-0278.md#kontraktsgranskning).
 
 ## Identitet
@@ -70,10 +70,10 @@ utflyttningsdatum, inte från ett antaget efternamn.
 | A-5269 | Barndomshemmet i Hudiksvall var `2:dra Kvarteret N:o ss 143`, där fadern i församlingsboken står som `Ägare: Arbetaren Höök Anders Gustaf`; folkräkningen 1900 anger samma hemort `2:a kv. ss. 143`. | TRANSCRIBED | hög | [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md), [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md) | Utvunnet 2026-09-08 ur C-0411:s tillägg, där ägarbeteckningen redovisas som A-4258 i P-0276; kvartersbeteckningen står som rubrik överst på sidan och är bekräftad i helbilden. Faderns ägande är inte hennes; förvärvsdag och andel är inte fastställda. |
 | A-5270 | Föräldraparet har elva kända barn: Anna Matilda 1880, Gustaf 1882, Anders Emanuel 1885, Karl Petrus 1886, Johan Erik 1888, Maria Karolina 1890, August Ejnar 1892, Augusta Elisabet 1895 (död samma år), Augusta Elisabet 1896, Gertrud Margreta 1899 och Knut Bertil 1901. Maria Karolina är det sjätte och har tio kända syskon. | CORROBORATED | hög | [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md), [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md) | Utvunnet 2026-09-08. Tio barnrader före 1900 i C-0411 plus Knut Bertil 1901. Elva kända barn är inte en säker totalräkning av alla födda barn. Systern som föddes och dog 1895 levde bara ett halvår, när Maria Karolina var fyra år. |
 | A-5271 | Vid folkräkningen 1910, då hon var nitton eller tjugo år, stod hon kvar i föräldrahushållet i Hudiksvall, i familj nr 1 tillsammans med föräldrarna och fyra yngre syskon. | TRANSCRIBED | hög | [C-0255](../citations/C-0255-anders-ivar-hudiksvall-1910-index.md), [C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md) | Utvunnet 2026-09-08 ur indexets hushållsredovisning, som skiljer familj nr 1 från systern Anna Matildas familj nr 2. Ingen yrkes- eller civilståndsuppgift återges för henne i de lästa avskrifterna. |
-| A-5272 | Familjens fortsättningssida efter 1899 är `A II a/2 b` sida 484, och hennes egen rad står där som rad 18. | CORROBORATED | mycket hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08. **Den ursprungliga lydelsen sade att hennes rad på sida 484 var outvunnen; den utvinningen är nu gjord**, se A-5281. Citationens tillägg 2026-09-07 efterlyste just detta för övriga barn. |
-| A-5281 | **Hennes egen rad 18 på Hudiksvall `A II a/2 b` sida 484 är utvunnen kolumn för kolumn.** Raden lyder `d. Maria Karolina – icke döpt` och är i sin helhet överstruken, med tomt yrkesfält, `90` `30/8`, födelseorten `Helsingtuna` utskriven, `v` i vaccinationskolumnen, tomma kolumner för gift och änka, ditto för inflyttning, `—` i kolumnen `Kristendomskunskap` och `—` i `Inom sv. kyrkan begått H. Nattv.`, tomma kolumner för bevistat husförhör, anteckningar om frejd och värnplikt, och **tom dödskolumn**. | TRANSCRIBED | mycket hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08 i T-0152 ur den redan lokalt sparade helbilden, vars SHA-256 kontrollerades mot citationen före läsningen. Ingen ny arkivåtkomst gjordes. Överstrykningen följer av att hon flyttade ut, se A-5282. De tomma fälten är faktiskt prövade källgränser. |
-| A-5282 | **Hon flyttade från Hudiksvall till Oscars församling i Stockholm 1911-05-20.** Utflyttningskolumnen på hennes rad 18 anger `Oscar Stockholm` och kolumnen för år och månad `11 20/5`; i marginalen vid samma rad står talet `156.` | TRANSCRIBED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08 ur den lokalt sparade helbilden. Detta är det första belägget för henne efter 1910 och den första kända uppgiften om hennes vuxna liv. Talet `156.` står i den yttre marginalen i höjd med destinationen och är sannolikt flyttbetygets nummer, men marginalen är inte en rubricerad kolumn och funktionen är inte fastställd. Datumet är en kyrkobokföringsdag, inte ett säkert datum för den fysiska resan. Ingen mottagarpost i Oscars församling är läst. |
-| A-5283 | Hela Hök-hushållet på sida 484 är infört som inflyttat eller överfört **från Helsingtuna, daterat 1910-12-31**; uppgiften står på faderns rad och gäller genom ditto även Maria Karolinas rad. Sidan börjar alltså för familjen 1910-12-31. | TRANSCRIBED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08. Talet `656` står ovanför datumet i samma cell och återges utan normalisering; dess funktion är inte fastställd. Datumet sammanfaller med folkräkningen 1910 års referensdag, vilket förklarar varför räkningen fann familjen i Hudiksvall. Hennes rad på sida 484 löper alltså bara knappt fem månader, från 1910-12-31 till utflyttningen 1911-05-20. |
+| A-5272 | Familjens fortsättningssida efter 1899 är `A II a/2 b` sida 484, och hennes egen rad står där som rad 18. | CORROBORATED | mycket hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08. Den ursprungliga lydelsen sade att hennes rad på sida 484 var outvunnen; den utvinningen är nu gjord, se A-5281. Citationens tillägg 2026-09-07 efterlyste just detta för övriga barn. |
+| A-5281 | Hennes egen rad 18 på Hudiksvall `A II a/2 b` sida 484 är utvunnen kolumn för kolumn. Raden lyder `d. Maria Karolina – icke döpt` och är i sin helhet överstruken, med tomt yrkesfält, `90` `30/8`, födelseorten `Helsingtuna` utskriven, `v` i vaccinationskolumnen, tomma kolumner för gift och änka, ditto för inflyttning, `—` i kolumnen `Kristendomskunskap` och `—` i `Inom sv. kyrkan begått H. Nattv.`, tomma kolumner för bevistat husförhör, anteckningar om frejd och värnplikt, och tom dödskolumn. | TRANSCRIBED | mycket hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08 i T-0152 ur den redan lokalt sparade helbilden, vars SHA-256 kontrollerades mot citationen före läsningen. Ingen ny arkivåtkomst gjordes. Överstrykningen följer av att hon flyttade ut, se A-5282. De tomma fälten är faktiskt prövade källgränser. |
+| A-5282 | Hon flyttade från Hudiksvall till Oscars församling i Stockholm 1911-05-20. Utflyttningskolumnen på hennes rad 18 anger `Oscar Stockholm` och kolumnen för år och månad `11 20/5`; i marginalen vid samma rad står talet `156.` | TRANSCRIBED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08 ur den lokalt sparade helbilden. Detta är det första belägget för henne efter 1910 och den första kända uppgiften om hennes vuxna liv. Talet `156.` står i den yttre marginalen i höjd med destinationen och är sannolikt flyttbetygets nummer, men marginalen är inte en rubricerad kolumn och funktionen är inte fastställd. Datumet är en kyrkobokföringsdag, inte ett säkert datum för den fysiska resan. Ingen mottagarpost i Oscars församling är läst. |
+| A-5283 | Hela Hök-hushållet på sida 484 är infört som inflyttat eller överfört från Helsingtuna, daterat 1910-12-31; uppgiften står på faderns rad och gäller genom ditto även Maria Karolinas rad. Sidan börjar alltså för familjen 1910-12-31. | TRANSCRIBED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08. Talet `656` står ovanför datumet i samma cell och återges utan normalisering; dess funktion är inte fastställd. Datumet sammanfaller med folkräkningen 1910 års referensdag, vilket förklarar varför räkningen fann familjen i Hudiksvall. Hennes rad på sida 484 löper alltså bara knappt fem månader, från 1910-12-31 till utflyttningen 1911-05-20. |
 | A-5284 | I kolumnerna `Kristendomskunskap` och `Inom sv. kyrkan begått H. Nattv.` står `—` på hennes rad 18 på sida 484, vid tjugo års ålder. | TRANSCRIBED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) | Utvunnet 2026-09-08. Strecket är en aktiv anteckning, inte ett tomt fält: föräldrarna har `c` respektive `N` på samma sida, och brodern August Ejnar har `a` och `N`. Hon hade alltså varken avlagt kristendomskunskap eller gått till nattvard i Svenska kyrkan när hon lämnade hemmet. Systern Anna Matilda bär samma två streck. |
 | A-5285 | Hon var vid utflyttningen tjugo år, ogift och utan egen yrkesuppgift i kyrkoboken; kolumnerna för gift, änka och yrke är prövade och tomma på hennes rad 18. | TRANSCRIBED | hög | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md) | Utvunnet 2026-09-08. Faktiskt prövade tomma fält, inte outvunna kolumner. Systrarna Augusta Elisabet och Gertrud Margreta fick senare yrkesuppgifter i samma serie, så tomheten är personbunden för denna period och inte en generell källgräns. |
 
@@ -113,7 +113,7 @@ familjen är belagt för henne, och inget sådant har sökts i Stockholm.
 | 1899–1910 | **Materiell lucka**: ingen läst kyrkoboksrad om henne mellan sida 285 och sida 484 | Hudiksvall och Hälsingtuna | — | — | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) |
 | 1910-12-31 | Införd med hushållet på sida 484 som inflyttad från Helsingtuna; egen rad 18 | Hudiksvall | dotter | föräldrar, syskon, systern och systersonen | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) |
 | 1910 | Folkräkning; hon står kvar i föräldrahushållet i familj nr 1 | Hudiksvall | dotter | föräldrar och fyra yngre syskon | [C-0255](../citations/C-0255-anders-ivar-hudiksvall-1910-index.md), [C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md) |
-| **1911-05-20** | **Utflyttad till Oscars församling i Stockholm**; raden överstruken, marginaltal `156.` | Hudiksvall → Stockholm | — | — | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) |
+| 1911-05-20 | Utflyttad till Oscars församling i Stockholm; raden överstruken, marginaltal `156.` | Hudiksvall → Stockholm | — | — | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) |
 | 1911 | Fadern dör. Månadssiffran läses olika i original och avskrift | Hudiksvall | — | — | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) |
 | efter 1911-05-20 | **Materiell lucka**: mottagarpost i Oscars församling, yrke, eventuellt äktenskap, boende och död är obelagda | Stockholm | — | — | [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md) |
 
@@ -208,8 +208,8 @@ eller gått till nattvard i Svenska kyrkan, och var ogift.
 [C-0460](../citations/C-0460-hudiksvall-AIIa2b-sida-484-hok-dod.md),
 [C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md)
 
-Den 20 maj 1911 skrevs hon ut ur Hudiksvall till **Oscars församling i
-Stockholm**, och hennes rad ströks över. Det är den sista uppgift som är läst
+Den 20 maj 1911 skrevs hon ut ur Hudiksvall till Oscars församling i
+Stockholm, och hennes rad ströks över. Det är den sista uppgift som är läst
 om henne. Hennes far dog samma år. Vad hon arbetade med i huvudstaden, om hon
 gifte sig, vart hon flyttade sedan och när hon dog är okänt, och ingen sökning
 har gjorts i Oscars församlings egen bokföring. Ingen av dessa uppgifter får
@@ -221,7 +221,7 @@ antas ur syskonens öden.
 Se [profilens frågor och källvägar](../research-profiles/P-0278.md#forskningsfrågor).
 Den materiella frågan är nu en enda, och den har en exakt ingång.
 
-- **Mottagarposten i Oscars församling i Stockholm efter 1911-05-20.** Utposten
+- Mottagarposten i Oscars församling i Stockholm efter 1911-05-20. Utposten
   är läst; inflyttningslängden och den mottagande församlingsboken är inte.
   Där väntas yrke, adress, eventuellt gift namn och vägen vidare.
 - Sekundärt: åren 1899–1910, där ingen kyrkoboksrad om henne är läst mellan
@@ -235,8 +235,8 @@ rubricerad kolumn. Att hon saknas bland de avskrivna Hök-posterna i
 Hudiksvallsregistret 1931–1949 är inget negativt fynd — hon lämnade
 församlingen 1911.
 
-**Läsning som avviker från en registrerad uppgift och bör prövas av
-P-0276/P-0277:s ägare:** faderns dödsdatum står i projektet som 1911-11-16, men
+Läsning som avviker från en registrerad uppgift och bör prövas av
+P-0276/P-0277:s ägare: faderns dödsdatum står i projektet som 1911-11-16, men
 vid omläsningen 2026-09-08 läses dödskolumnen på sida 484 `11 16/1`, vilket i
 bokens skrivsätt `år dag/månad` ger 1911-01-16. Uppgiften ändras inte här,
 eftersom den tillhör en annan person, men avvikelsen bevaras.
@@ -255,16 +255,16 @@ Detta är personens första individuella kontraktsgranskning.
    och systern Anna Matilda fanns; de nio övriga syskonen och systersonen
    Anders Ivar stod i redan lästa poster utan att ha nått akten. Tabellen fick
    också kolumnen `Tid/plats`.
-2. **Sex nya påståenden A-5267–A-5272** utvanns ur redan sparade källor:
+2. Sex nya påståenden A-5267–A-5272 utvanns ur redan sparade källor:
    sidkedjan 285/780, familjens Hälsingtuna-bokföring och faderns inflyttning
    1891, barndomshemmets kvarter och faderns ägarbeteckning, elva kända barn i
    familjen, hennes ställning i folkräkningen 1910 och den namngivna luckan på
    sida 484.
-3. **`Egen födelsenotis och senare livslopp återstår` preciserades** till två
+3. `Egen födelsenotis och senare livslopp återstår` preciserades till två
    namngivna frågor med källvägar.
-4. **Identitetsgranskning `UNDERKÄND` och Trädverkan `AVVAKTAR`** sattes med
+4. Identitetsgranskning `UNDERKÄND` och Trädverkan `AVVAKTAR` sattes med
    PK-05 som enda grund.
-5. **Namnformer redovisades separat.** Efternamnet Hök är inte belagt i någon
+5. Namnformer redovisades separat. Efternamnet Hök är inte belagt i någon
    post där hon är huvudperson.
 
 ### Andra passet, 2026-09-08: utvinning ur de lokala originalen
@@ -274,20 +274,20 @@ SHA-256 kontrollerats mot citationen. Samma kontroll och läsning gjordes för
 sidorna 285 och 780. Ingen ny arkivåtkomst gjordes och inga citationsfiler
 ändrades.
 
-6. **Identitetsgranskningen höjs till `GODKÄND` och Trädverkan till
-   `BÄRANDE`.** PK-05 är nu styrkt på sak: varje öppnad post om henne är
+6. Identitetsgranskningen höjs till `GODKÄND` och Trädverkan till
+   `BÄRANDE`. PK-05 är nu styrkt på sak: varje öppnad post om henne är
    utvunnen kolumn för kolumn.
-7. **Hennes livslopp är inte längre okänt efter 1910.** Rad 18 på sida 484
+7. Hennes livslopp är inte längre okänt efter 1910. Rad 18 på sida 484
    anger utflyttning till Oscars församling i Stockholm 1911-05-20, se A-5282.
    Den föregående aktens lydelse att `senare livslopp återstår` och den nya
    aktens första lydelse att allt efter 1910 saknar lästa källor är därmed
    upphävda.
-8. **A-5272 omformuleras.** Dess ursprungliga lydelse sade att hennes rad på
+8. A-5272 omformuleras. Dess ursprungliga lydelse sade att hennes rad på
    sida 484 var outvunnen. Den utvinningen är nu gjord och redovisas i A-5281.
-9. **A-5267 bekräftas och preciseras.** Hon står faktiskt som sjunde raden i
+9. A-5267 bekräftas och preciseras. Hon står faktiskt som sjunde raden i
    hushållet på sida 780 — till skillnad från systern Anna Matilda, som samma
    dag fördes till sida 774 och alltså inte finns på 780.
-10. **Fem nya påståenden A-5281–A-5285** utvinns: hela raden 18 på sida 484,
+10. Fem nya påståenden A-5281–A-5285 utvinns: hela raden 18 på sida 484,
     utflyttningen till Stockholm, hushållets inflyttning från Helsingtuna
     1910-12-31, strecken i kunskaps- och nattvardskolumnerna och de prövade
     tomma kolumnerna för yrke och civilstånd.

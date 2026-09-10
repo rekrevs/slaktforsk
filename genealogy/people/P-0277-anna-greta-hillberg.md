@@ -186,13 +186,13 @@ Hon dog den 14 juni 1937, åttio år gammal, av vad dödboken kallar `Marasmus s
 ## Forskningsfrågor och konflikter
 
 - Se [profilens frågor och källvägar](../research-profiles/P-0277.md#forskningsfrågor).
-- **Änkedatumet är rättat, inte bevarat som konflikt.** Fyra lästa fält i tre böcker ger samstämmigt `16/1`; citationernas avskrifter `11 16/11` är transkriptionsfel och står kvar som avskriftshistorik i C-0260 och C-0460. Om ett tredje original eller en dödboksnotis ger november återöppnas frågan.
-- **Följdfråga utanför denna akt:** makens dödspost bör sökas i Hudiksvall F I/3 och SCB:s utdrag för januari 1911. Frågan ägs av P-0276 och dess uppgift.
-- **Routingen 284/285/422 är obesvarad.** Sida 284 är oläst, och talet 422 saknar datum.
-- **`icke döpt` är oförklarat.** Anmärkningskolumner, kyrkorådsprotokoll och frikyrkoarkiv är inte sökta.
-- **Åren 1857–1880 saknar egna hållpunkter**, liksom mellanleden 1913–1931 mellan sida 593 och folio 591.
-- **Bouppteckningen F II/27 och fögderiets serier är olästa** och kräver läsesal eller beställning.
-- **C-0663:s sidbild `00198658_00057` saknas lokalt.** Uppgiften bärs av citationens exakta lokalisering och av folio 591:s bevarade helbild.
+- Änkedatumet är rättat, inte bevarat som konflikt. Fyra lästa fält i tre böcker ger samstämmigt `16/1`; citationernas avskrifter `11 16/11` är transkriptionsfel och står kvar som avskriftshistorik i C-0260 och C-0460. Om ett tredje original eller en dödboksnotis ger november återöppnas frågan.
+- Följdfråga utanför denna akt: makens dödspost bör sökas i Hudiksvall F I/3 och SCB:s utdrag för januari 1911. Frågan ägs av P-0276 och dess uppgift.
+- Routingen 284/285/422 är obesvarad. Sida 284 är oläst, och talet 422 saknar datum.
+- `icke döpt` är oförklarat. Anmärkningskolumner, kyrkorådsprotokoll och frikyrkoarkiv är inte sökta.
+- Åren 1857–1880 saknar egna hållpunkter, liksom mellanleden 1913–1931 mellan sida 593 och folio 591.
+- Bouppteckningen F II/27 och fögderiets serier är olästa och kräver läsesal eller beställning.
+- C-0663:s sidbild `00198658_00057` saknas lokalt. Uppgiften bärs av citationens exakta lokalisering och av folio 591:s bevarade helbild.
 
 ## Historik och rättelser
 

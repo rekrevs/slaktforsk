@@ -56,13 +56,13 @@ Anders Jonsson, född 16 april 1839 i Buberget, Degerfors, är son till Jon/Jona
 | A-3312 | Vid pilotens omläsning av C-0106:s vigselbild kan sista siffran i den tidigare avlästa födelsedagen 14/16 april inte avgöras med tillräcklig säkerhet. | CONFLICT | medel | [C-0877](../citations/C-0877-anders-kallstrategi-omlasning.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Kvalificerar A-0599 och senare hänvisningar till säker originalavvikelse. Födelsepostens 16 april och föräldraidentiteten består. Ingen ny säker vigselläsning eller förklaring om skrivfel införs. |
 | A-3916 | C-1054 återger tillgångar 13 998,49 kr, skulder 2 872,40 kr och behållning 11 127,49 kr; dessa tre tal går inte ihop. Delningen återges 5 589,41 till maken och 5 589,40 till åtta barn. | CONFLICT | osäker för summor | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Subtraktionen ger 11 126,09, skillnad 1,40 kr. Vilket källtal som är fel kan inte avgöras utan saknade fortsättningsbilder. Åtta avser arvingar; intern delning är inte oberoende barnräkning. |
 | A-3917 | C-1054:s bevarade avskrift beskriver omkring 25 namngivna gäldenärer under fordringsrätt enligt skuldsedlar, med delbelopp 7 772,43 och 375,31 kr. | TRANSCRIBED | medel | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Tillgodoräknad tidigare läsning; belopp och andel av boet är inte oberoende kontrollerade i T-0129 eftersom fortsättningskopior saknas. |
-| A-3918 | Kreatursbeståndet var **en häst (14 år, 300 kr), åtta namngivna kor** — `Nordlund`, `Ostrina`, `Westerlund`, `Ekland`, `Snöblom`, `Watten`, `Lycka`, `Kimros`, 55–65 kr styck — en kalv, en tjur, elva får och lamm samt fyra höns; summa omkring **936,50 kr**. | TRANSCRIBED | medel | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Kreatursantal, konamn och delsumma är bevarade avskriftsuppgifter C-1054, inte återlästa originalfält i T-0129. |
-| A-3919 | Boet innehöll **en boklista om omkring fyrtiofem numrerade band**, album, avskrivningsbok och ett parti av tidskriften `Familje Journalen`, tillsammans 29,15 kr. | TRANSCRIBED | medel | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Ett ägt parti tidskrift belägger varken prenumeration eller personlig läsning. Saknade fortsättningsbilder begränsar kontrollen. |
+| A-3918 | Kreatursbeståndet var en häst (14 år, 300 kr), åtta namngivna kor — `Nordlund`, `Ostrina`, `Westerlund`, `Ekland`, `Snöblom`, `Watten`, `Lycka`, `Kimros`, 55–65 kr styck — en kalv, en tjur, elva får och lamm samt fyra höns; summa omkring 936,50 kr. | TRANSCRIBED | medel | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Kreatursantal, konamn och delsumma är bevarade avskriftsuppgifter C-1054, inte återlästa originalfält i T-0129. |
+| A-3919 | Boet innehöll en boklista om omkring fyrtiofem numrerade band, album, avskrivningsbok och ett parti av tidskriften `Familje Journalen`, tillsammans 29,15 kr. | TRANSCRIBED | medel | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Ett ägt parti tidskrift belägger varken prenumeration eller personlig läsning. Saknade fortsättningsbilder begränsar kontrollen. |
 | A-3920 | Skulderna gick bland andra till `Aktb. Alfr. Wahlberg, Örnsköldsvik`, `Tjernbergs vagnsmedja` och `Johan Tjernbergs mejeri`; begravningskostnaden var 200 kr. | TRANSCRIBED | medel | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Namngivna skulder belägger inte säkert köpta tjänster; orsak och belopp behöver källbunden kontroll, fortsättningskopior saknas. |
 | A-3921 | C-1054 uppger att boets ed avges under namnformen Anders Jonsson; förstasideoriginalet och registret använder Anders Jansson. | TRANSCRIBED | medel | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0486](../citations/C-0486-degerfors-anders-jansson-bouppteckningsregister-1910.md), [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Samma familj förenar formerna. Egenhändig namnteckning är inte självständigt verifierad; båda namnformerna är söknycklar. |
 | A-3922 | C-1054:s tidigare läsning uppger ingen fastighetspost i 1898 års bouppteckning. | TRANSCRIBED | medel | [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Detta är ett avgränsat avskriftsresultat som behöver kontroll mot fortsättningen, inte bevis för mannens enskilda ägande eller jordens värde. |
 | A-3924 | C-1055 fyller tidigare boklucka 1858–1860 med A I/7b sida 400 och reciprok N.B. 536/G.B. 400 till A I/8b. | CORROBORATED | mycket hög | [C-1055](../citations/C-1055-degerfors-AI7b-sida-400-buberget-1858-1860.md) | Hushållsböckerna täcker den tidigare mellanperioden. Personens tidslinje börjar 1839, inte 1836; bokföljd är inte bevis på oavbruten fysisk närvaro. |
-| A-3925 | `G.B.` i inflyttningskolumnen betyder **Gamla Boken** — föregående husförhörslängd — och siffran är folio där. Grannhushållen på sidorna 535 och 540 bär `G.B. 402`, `403`, `405` och `406`. | CORROBORATED | hög | [C-1055](../citations/C-1055-degerfors-AI7b-sida-400-buberget-1858-1860.md) | Tolkningen stöds här av de reciproka foliohänvisningarna, inte en antagen universell blankettregel. |
+| A-3925 | `G.B.` i inflyttningskolumnen betyder Gamla Boken — föregående husförhörslängd — och siffran är folio där. Grannhushållen på sidorna 535 och 540 bär `G.B. 402`, `403`, `405` och `406`. | CORROBORATED | hög | [C-1055](../citations/C-1055-degerfors-AI7b-sida-400-buberget-1858-1860.md) | Tolkningen stöds här av de reciproka foliohänvisningarna, inte en antagen universell blankettregel. |
 | A-3926 | C-1055 återger födelsedagen 16/4 1839 också på A I/7b sida 400. | CORROBORATED | hög | [C-1055](../citations/C-1055-degerfors-AI7b-sida-400-buberget-1858-1860.md) | Samstämmig upprepning i samma kyrkobokskedja; kopieringsberoende är möjligt och oberoende hävdas inte. |
 | A-4294 | Bouppteckningens första sida 1898-08-23 åberopar makarnas inbördes testamentariska förordnande 10 maj 1898: efterlevande make får sitta i orubbat bo tills yngste sonen Rudolf blir myndig. | TRANSCRIBED | hög | [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md) | Myndige sonen Anders närvarade; omyndigas rätt bevakades av hemmansägaren Anders Bäckman. Uppgiften visar villkoret i förrättningen, inte säkert senare genomförande. |
 
@@ -86,14 +86,14 @@ Anders Jonsson, född 16 april 1839 i Buberget, Degerfors, är son till Jon/Jona
 | [P-0073 Oskar Rudolf](P-0073-oskar-rudolf-andersson.md) | Barn | 1885-04-16; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
 | [P-0028](P-0028-johan-oskar-zingmark.md) | Måg, gift med Ida Sofia | Hushållssidan 207 från 1888; bouppteckning 1898 | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
 | [P-0088](P-0088-jonas-andersson-dopvittne-1867.md) | dopvittne | Dop 1867. Till Ida Sofia; inte automatiskt Anders far. | TRANSCRIBED | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md) |
-| [P-0520](P-0520-anna-johanna-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
-| [P-0521](P-0521-eva-catharina-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
-| [P-0522](P-0522-jonas-buberget-1835.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
-| [P-0523](P-0523-eva-lovisa-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
-| [P-0524](P-0524-ulrika-carolina-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
-| [P-0525](P-0525-carl-johan-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
-| [P-0526](P-0526-maria-brita-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
-| [P-0527](P-0527-sophia-wilhelmina-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
+| [P-0520](P-0520-anna-johanna-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. Rättat 2026-09-09 (T-0163): kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är en informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
+| [P-0521](P-0521-eva-catharina-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. Rättat 2026-09-09 (T-0163): kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är en informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
+| [P-0522](P-0522-jonas-buberget-1835.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. Rättat 2026-09-09 (T-0163): kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är en informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
+| [P-0523](P-0523-eva-lovisa-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. Rättat 2026-09-09 (T-0163): kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är en informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
+| [P-0524](P-0524-ulrika-carolina-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. Rättat 2026-09-09 (T-0163): kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är en informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
+| [P-0525](P-0525-carl-johan-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. Rättat 2026-09-09 (T-0163): kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är en informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
+| [P-0526](P-0526-maria-brita-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. Rättat 2026-09-09 (T-0163): kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är en informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
+| [P-0527](P-0527-sophia-wilhelmina-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. Rättat 2026-09-09 (T-0163): kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är en informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
 
 Minst tio kända barn framgår när 1873 års tvillingar räknas skilda från sonen Anders 1876. Åtta gemensamma barn anges som arvingar 1898; detta är ingen total livstidsräkning. Maria Augusta anges som barnmorska i Anundsjö 1898. Syskonens namn-/datumvariationer (bland annat Lisa/Eva Catharina och Maria Brita 1845/1847) kräver separat personprövning; ingen automatisk normalisering görs här.
 
@@ -182,17 +182,17 @@ Se profilens [Q-01](../research-profiles/P-0065.md#q-01-mellanboken-18581860) oc
 
 Barnkohorten P-0067–P-0072 är konsoliderad i
 [T-0178](../../wotan/dev-log/T-0178.md), och tre uppgifter berör hans akt.
-**Ingen av dem ändras här; ägarskapet ligger kvar hos denna akts uppgifter
-och hos T-0259.**
+Ingen av dem ändras här; ägarskapet ligger kvar hos denna akts uppgifter
+och hos T-0259.
 
 **Två av hans söners rader bär värnpliktsanteckningar som var outvunna.**
 A I/11c sida 241 rad 5 bär i frejdkolumnen `305 ¹⁷³/₁₈₉₅.` och
 `Uppskof 92; uppskof 93 o 94` (Jonas Edvard), och rad 6 bär `Frik.` (Anders).
-Samma kolumn, samma hand, samma uppslag — **två olika beslut om två söner**,
-vilket gör båda till positiva uppgifter. **Hans eget frejdfält är tomt**,
+Samma kolumn, samma hand, samma uppslag — två olika beslut om två söner,
+vilket gör båda till positiva uppgifter. Hans eget frejdfält är tomt,
 vilket T-0129 redan konstaterade, och sönernas noter får inte läggas på honom.
 Att den äldste överlevande sonen fick uppskov tre år i följd är förenligt med
-försörjningsplikt i ett bondehushåll, men **orsaken står inte i boken** och
+försörjningsplikt i ett bondehushåll, men orsaken står inte i boken och
 tillskrivs inte gården.
 
 **Tre av barnens födelsedagar är rättade eller avskrivna.** Anders föddes
@@ -200,18 +200,18 @@ tillskrivs inte gården.
 `1882-11-06`; och den anmälda dagkonflikten för Karl Magnus finns inte —
 båda volymerna läser `1880-07-21`. Aktens egna rader om barnen bör läsas mot
 A-7748, A-7751 och A-7752 innan någon barnuppgift förs vidare.
-**`1876-03-24` och `1882-11-06` får inte propageras.**
+`1876-03-24` och `1882-11-06` får inte propageras.
 
 **Oskar Rudolfs födelsedag läses `¹⁶/₄` 1885** på rad 10, och raden bär
-kunskapskolumnens klammer men i övrigt lästa nollor. **Rättelse 2026-09-09,
-T-0179:** T-0178 skrev först att han saknar person-id; han är
+kunskapskolumnens klammer men i övrigt lästa nollor. Rättelse 2026-09-09,
+T-0179: T-0178 skrev först att han saknar person-id; han är
 [P-0073](P-0073-oskar-rudolf-andersson.md) och länkas redan från denna akts
 relationstabell. Uppgiften ägs därför av hans egen akt och är införd där i
-T-0179; **ingen ny personidentitet skapas**.
+T-0179; ingen ny personidentitet skapas.
 
 **Kolumnredovisningen för raderna 4–10 är införd i C-0404** enligt
 person-standard.md, med varje kolumn märkt avskriven, tom eller oläst.
-**Hans egen rad 1 och moderns rad 3 är inte omlästa i T-0178**; T-0129:s och
+Hans egen rad 1 och moderns rad 3 är inte omlästa i T-0178; T-0129:s och
 T-0259:s utvinningsrester på dem står oförändrade.
 
 ## Historik och rättelser
@@ -431,29 +431,29 @@ T-0259:s utvinningsrester på dem står oförändrade.
 Det bundna avsnittet ovan och T-0178:s texter i barnens akter bar fyra
 felaktiga uppgifter, som prövades mot projektets **källregister** i T-0179.
 
-1. **Samtliga tio kända barn har egna person-id.** Tvillingarna Anders och
+1. Samtliga tio kända barn har egna person-id. Tvillingarna Anders och
    Carl är [P-0086](P-0086-anders-andersson-tvilling-1873.md) och
    [P-0087](P-0087-carl-andersson-tvilling-1873.md), och Oskar Rudolf är
    [P-0073](P-0073-oskar-rudolf-andersson.md) — alla tre redan länkade från
    denna akt.
-2. **Tvillingarna bär inga belagda dödsuppgifter.** Deras akter säger
-   uttryckligen att marginaldatumet vid den överstrukna raden **inte tolkas
-   som dödsdatum utan kontroll i dödboken** (A-0348, A-0349). T-0178:s
+2. Tvillingarna bär inga belagda dödsuppgifter. Deras akter säger
+   uttryckligen att marginaldatumet vid den överstrukna raden inte tolkas
+   som dödsdatum utan kontroll i dödboken (A-0348, A-0349). T-0178:s
    formulering `båda med dödsuppgifter`, och slutsatsen att P-0068 var
    `äldste överlevande son`, är indragna.
-3. **Tvillingarnas födelsedag kommer ur en födelsebok.** `1873-05-09` är
+3. Tvillingarnas födelsedag kommer ur en födelsebok. `1873-05-09` är
    belagt i Degerfors `C/5` genom
    [C-0065](../citations/C-0065-anders-carl-tvillingsoner-fodelse-1873.md) —
    **utanför** husförhörskedjan.
-4. **Tre källserier som T-0178 kallade oidentifierade är i bruk:** Degerfors
+4. Tre källserier som T-0178 kallade oidentifierade är i bruk: Degerfors
    födelseböcker `C/4` (1851–1869, `S-0051`) och `C/5` (1870–1892, `S-0054`),
    samt dödboken `F/3` (1895–1915, `S-0322`, `S-0389`) — den senare bär
-   **denna akts egen dödsnotis 1909** (C-0484), vilket gör påståendet att det
+   denna akts egen dödsnotis 1909 (C-0484), vilket gör påståendet att det
    inte finns någon dödbok att söka i särskilt fel.
 
 **Vad felet lär.** T-0178 arbetade ur barnakternas egna citationslistor och
-tog frånvaron där för frånvaro i projektet. **Denna akt bar hela tiden båda
-motbevisen** — länkarna till P-0073, P-0086 och P-0087 i relationstabellen
+tog frånvaron där för frånvaro i projektet. Denna akt bar hela tiden båda
+motbevisen — länkarna till P-0073, P-0086 och P-0087 i relationstabellen
 och sin egen dödsnotis ur `F/3`. En akts citationsindex är inte projektets
 källregister.
 
@@ -461,36 +461,36 @@ källregister.
 
 Tvillingarna [P-0086](P-0086-anders-andersson-tvilling-1873.md) och
 [P-0087](P-0087-carl-andersson-tvilling-1873.md) är konsoliderade i
-[T-0180](../../wotan/dev-log/T-0180.md), och **deras dödsdagar är
-fastställda.** Talen står i **den tryckta `Död.`-kolumnen** på hans eget
+[T-0180](../../wotan/dev-log/T-0180.md), och deras dödsdagar är
+fastställda. Talen står i **den tryckta `Död.`-kolumnen** på hans eget
 hushållsuppslag, A I/9c sida 85, läst med rubriken i samma utsnitt:
 
 - **Anders dog 1874-12-31**, ett år och sju månader gammal
 - **Carl dog 1875-05-07**, två dagar före sin tvåårsdag
 
 **Han förlorade alltså två söner på fyra månader och sju dagar**, vintern
-1874–1875. **Ingen dödsorsak är belagd**, och ingen antas; att de dog var för
+1874–1875. Ingen dödsorsak är belagd, och ingen antas; att de dog var för
 sig utesluter en enskild olycka och talar mot ett gemensamt hastigt förlopp.
-**Degerfors dödbok för 1874–1875 är inte identifierad i projektet** — `F/3`
+Degerfors dödbok för 1874–1875 är inte identifierad i projektet — `F/3`
 börjar 1895 — och den skulle ge orsak och begravningsdagar.
 
 **Två uppgifter till ur samma uppslag och ur födelseboken.** Födelseboken
-`C/5` numrerar tvillingarna **`/4:e/`** och **`/5:te/`**, alltså hans fjärde
+`C/5` numrerar tvillingarna `/4:e/` och `/5:te/`, alltså hans fjärde
 och femte barn, och skriver honom och hustrun `gifta 6 år` — förenligt med
-vigseln 1867-01-29. Numreringen **utesluter att något okänt barn föddes före
-1873**. Samma post hänvisar till **husförhörsbokens sida 85**, hans eget
+vigseln 1867-01-29. Numreringen utesluter att något okänt barn föddes före
+1873. Samma post hänvisar till husförhörsbokens sida 85, hans eget
 uppslag.
 
 **Tre av hans tjänare fick fulla födelsedagar ur samma uppslag:** drängen
 Daniel Danielsson `1849 ⁶/₃`, pigan Maria Johanna Andersdotter `1849 ²/₈` och
-pigan Brita Carolina Andersdotter `1842 ¹⁵/₁`. **Databasposten C-0066 gav bara
-årtal.** Två identitetsvarningar följer och ägs av tjänarnas egna akter:
-uppslaget bär **två** Brita Carolina Andersdotter födda 1842 med olika
-födelseort, och drängens ortcell bär ett **utskrivet** ortnamn där
+pigan Brita Carolina Andersdotter `1842 ¹⁵/₁`. Databasposten C-0066 gav bara
+årtal. Två identitetsvarningar följer och ägs av tjänarnas egna akter:
+uppslaget bär två Brita Carolina Andersdotter födda 1842 med olika
+födelseort, och drängens ortcell bär ett utskrivet ortnamn där
 församlingsfödda får dittotecken — vilket står mot databaspostens
-`i Degerfors`. **Ingen av dem avgörs här.**
+`i Degerfors`. Ingen av dem avgörs här.
 
 **Utvinningsrest på hans eget uppslag:** för de fyra tjänstefolksraderna är
 koppor-, kunskaps-, frejd- och flyttningskolumnerna samt `Död.`-cellerna
-**inte lästa**. Kolumnerna är ifyllda för andra rader, så cellerna är
-**utvinningsrester och inte lästa nollor.**
+inte lästa. Kolumnerna är ifyllda för andra rader, så cellerna är
+utvinningsrester och inte lästa nollor.

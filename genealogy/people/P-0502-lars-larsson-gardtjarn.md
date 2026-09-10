@@ -4,15 +4,15 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0170.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Dotterns
-  födelsepost har ett **aldrig avskrivet vittnesfält** med sex vittnen, varav
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Dotterns
+  födelsepost har ett aldrig avskrivet vittnesfält med sex vittnen, varav
   ett bär hans eget patronymikon. Därtill visar en post på samma sida att
   skrivaren själv strök `Gårdtjern` och skrev `Byn` för en annan torparfamilj
   i byn samma år, vilket gör A I/4:s **Byn-avsnitt** till en oprövad passage
   som avsnittsnollet inte täcker.
 - Identitetsgranskning: `GODKÄND`
 - Trädverkan: `AVVAKTAR` — `Identitetsläge` är `OLÖST`. Han har **en** post,
-  **ingen** åldersuppgift och ett av periodens vanligaste namn; ingen anlinje
+  ingen åldersuppgift och ett av periodens vanligaste namn; ingen anlinje
   får passera uppåt genom honom. Relationen nedåt till dottern är däremot
   originalbelagd.
 - Kontraktsgranskning: `UNDERKÄND`
@@ -25,7 +25,7 @@ Lars Larsson är torpare i Gårdtjärn i Sättna och far till
 [Stina Cajsa Larsdotter](P-0344-stina-cajsa-larsdotter.md), född
 1813-09-17.
 
-Han förekommer i **ett original**: dotterns födelse- och dopnotis i Sättna
+Han förekommer i ett original: dotterns födelse- och dopnotis i Sättna
 C/3, där han skrivs `Torp. Lars Larssons` med hustrun `Anna Jonsd:r i
 Gårdtjern`. [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md)
 Postens ålderskolumn gäller **modern** — `27 år` — och boken ger ingen
@@ -44,7 +44,7 @@ Hans föräldrar, födelsetid och ursprung är okända.
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Torp. Lars Larsson | Dotterns födelsenotis 1813 | TRANSCRIBED | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Den enda belagda formen. `Torp.` är ståndsuppgift, inte namn. |
-| Lars Larsson / Lars Larsson[s] | Sökformer | LEAD | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Både förnamn och patronymikon är bland periodens vanligaste, vilket gör namnet **informationssvagt** utan ort, år eller hustru. Formerna `Lars`/`Lars.`/`L.` och `Larsson`/`Larss.` måste prövas. |
+| Lars Larsson / Lars Larsson[s] | Sökformer | LEAD | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Både förnamn och patronymikon är bland periodens vanligaste, vilket gör namnet informationssvagt utan ort, år eller hustru. Formerna `Lars`/`Lars.`/`L.` och `Larsson`/`Larss.` måste prövas. |
 
 Patronymikonet ger faderns förnamn **Lars**.
 
@@ -53,10 +53,10 @@ Patronymikonet ger faderns förnamn **Lars**.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3195 | Torparen Lars Larsson i Gårdtjärn var far till Stina Cajsa, född 1813-09-17 i Sättna. | CORROBORATED | hög | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md), [C-0831](../citations/C-0831-indal-AI7-strandlund-foraldradata-rattelse.md) | Födelsenotisen namnger fadern; dotterns identitet sluts med exakt datum och ort i det senare hushållet. |
-| A-3248 | Sättna A I/4:s kompletta Gårdtjärn-avsnitt 1806–1816 saknar en säker familjerad för Lars Larsson och Anna Jonsdotter med dottern Stina Cajsa född 1813. | NEGATIVE | hög | [C-0858](../citations/C-0858-sattna-AI4-gardtjarn-lars-anna-kontroll.md) | Avsnittsnoll; födelsenotisen C-0830 står kvar som positivt belägg. **Överspelad kommentar 2026-09-09:** nollets räckvidd är preciserad, se A-7452. |
-| A-7450 | Dotterns födelsepost namnger **sex** dopvittnen: `Pahl Ersson i Öfverkovland[?]`, `Skom. Lars Lindgren` utan ort, `Dr. Nils Jonsson i Öfverkovland[?]`, `H: Greta Larsdotter ibid`, `D:o Johanna Pahls d:r i [oläst ort]` och `Pig. Brita Ers d:r i Öfverkovland[?]`. | TRANSCRIBED | hög | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Utvunnet 2026-09-09 ur den redan sparade fullsidan vid 260 % förstoring. **Vittnesfältet var aldrig avskrivet.** `H: Greta Larsdotter` bär **hans** patronymikon och `Dr. Nils Jonsson` hustruns; båda är i så fall syskonkandidater, men dopvittnesskap är ett indicium och **ingen relation skapas**. Ortformen `Öfverkovland` läses som Övre Kovland i Sättna och bär reservation; en ortform är oläst. |
-| A-7451 | Postens ålderskolumn anger `27 år` och gäller **modern**; boken ger ingen åldersuppgift om fadern. | TRANSCRIBED | hög | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Fört som eget påstående 2026-09-09 efter genomgång av sidans samtliga poster: **varje** post bär exakt en ålder, placerad efter moderns namn och hemvist. Att hans ålder saknas är alltså en **egenskap hos boken**, inte en lucka i läsningen. Han har därför ingen känd åldersuppgift alls, vilket är skälet till att hans födelseårgång inte kan avgränsas. |
-| A-7452 | I en post på samma sida, `Anders` född 2 oktober 1813, är föräldrarnas hemvist skriven `i Gårdtjern` med **`Gårdtjern` överstruket och ersatt av `Byn`**; posten gäller `T. Lars Jonssons och H. Stina Lisa Vallins`, och bland dess vittnen står `T. Olof Jonss. i Gårdtjern` och `H: Brita Vallin i Gårdtjern`. | TRANSCRIBED | hög | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Utvunnet 2026-09-09. **Skrivaren skiljde alltså inte säkert Gårdtjärn från Byn** för en torparfamilj i samma by samma år, och rättade sig i efterhand. Följden för A-3248: avsnittsnollet är bundet till A I/4:s **Gårdtjärn-sidor**, och `Byn`-avsnittet i samma volym är **aldrig sökt**. Nollet stryks inte; dess räckvidd preciseras. |
+| A-3248 | Sättna A I/4:s kompletta Gårdtjärn-avsnitt 1806–1816 saknar en säker familjerad för Lars Larsson och Anna Jonsdotter med dottern Stina Cajsa född 1813. | NEGATIVE | hög | [C-0858](../citations/C-0858-sattna-AI4-gardtjarn-lars-anna-kontroll.md) | Avsnittsnoll; födelsenotisen C-0830 står kvar som positivt belägg. Överspelad kommentar 2026-09-09: nollets räckvidd är preciserad, se A-7452. |
+| A-7450 | Dotterns födelsepost namnger sex dopvittnen: `Pahl Ersson i Öfverkovland[?]`, `Skom. Lars Lindgren` utan ort, `Dr. Nils Jonsson i Öfverkovland[?]`, `H: Greta Larsdotter ibid`, `D:o Johanna Pahls d:r i [oläst ort]` och `Pig. Brita Ers d:r i Öfverkovland[?]`. | TRANSCRIBED | hög | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Utvunnet 2026-09-09 ur den redan sparade fullsidan vid 260 % förstoring. Vittnesfältet var aldrig avskrivet. `H: Greta Larsdotter` bär hans patronymikon och `Dr. Nils Jonsson` hustruns; båda är i så fall syskonkandidater, men dopvittnesskap är ett indicium och ingen relation skapas. Ortformen `Öfverkovland` läses som Övre Kovland i Sättna och bär reservation; en ortform är oläst. |
+| A-7451 | Postens ålderskolumn anger `27 år` och gäller modern; boken ger ingen åldersuppgift om fadern. | TRANSCRIBED | hög | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Fört som eget påstående 2026-09-09 efter genomgång av sidans samtliga poster: varje post bär exakt en ålder, placerad efter moderns namn och hemvist. Att hans ålder saknas är alltså en egenskap hos boken, inte en lucka i läsningen. Han har därför ingen känd åldersuppgift alls, vilket är skälet till att hans födelseårgång inte kan avgränsas. |
+| A-7452 | I en post på samma sida, `Anders` född 2 oktober 1813, är föräldrarnas hemvist skriven `i Gårdtjern` med `Gårdtjern` överstruket och ersatt av `Byn`; posten gäller `T. Lars Jonssons och H. Stina Lisa Vallins`, och bland dess vittnen står `T. Olof Jonss. i Gårdtjern` och `H: Brita Vallin i Gårdtjern`. | TRANSCRIBED | hög | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Utvunnet 2026-09-09. Skrivaren skiljde alltså inte säkert Gårdtjärn från Byn för en torparfamilj i samma by samma år, och rättade sig i efterhand. Följden för A-3248: avsnittsnollet är bundet till A I/4:s Gårdtjärn-sidor, och `Byn`-avsnittet i samma volym är aldrig sökt. Nollet stryks inte; dess räckvidd preciseras. |
 
 ## Relationer
 
@@ -77,16 +77,16 @@ enbart som söknyckel; se A-7450.
 | 1813-09-26 | Dottern döps, med sex vittnen ur Övre Kovland och trakten | Sättna | Torpare | — | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) |
 
 **Akten har två hållpunkter, nio dagar från varandra.** Ingenting före eller
-efter september 1813 är belagt om honom, och han har **ingen känd
-åldersuppgift** — postens ålder gäller hustrun.
+efter september 1813 är belagt om honom, och han har ingen känd
+åldersuppgift — postens ålder gäller hustrun.
 
 ## Boställen och flyttar
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1813 | Gårdtjärn | Sättna församling | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Hans enda belagda hemvist, och den är belagd **en** gång. Ett torp under en by; hemmanet det låg under är inte angivet. |
+| 1813 | Gårdtjärn | Sättna församling | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Hans enda belagda hemvist, och den är belagd en gång. Ett torp under en by; hemmanet det låg under är inte angivet. |
 
-Han har **ingen belagd flyttning**, och Gårdtjärn-avsnittet i A I/4 saknar
+Han har ingen belagd flyttning, och Gårdtjärn-avsnittet i A I/4 saknar
 hans familj. Att skrivaren i en annan post samma år strök `Gårdtjern` och
 skrev `Byn` gör **Byn-avsnittet** till nästa plats att söka; se A-7452.
 
@@ -94,7 +94,7 @@ skrev `Byn` gör **Byn-avsnittet** till nästa plats att söka; se A-7452.
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1813 | `Torp.` — torpare | Gårdtjärn, Sättna | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Samtida ståndsuppgift, och den enda uppgift om hans försörjning. En torpare brukade jord på annans mark mot dagsverken; **vilket hemman torpet låg under är inte angivet**, och inget torpkontrakt, ingen mantalslängd och ingen jordebok är sökt. |
+| 1813 | `Torp.` — torpare | Gårdtjärn, Sättna | [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md) | Samtida ståndsuppgift, och den enda uppgift om hans försörjning. En torpare brukade jord på annans mark mot dagsverken; vilket hemman torpet låg under är inte angivet, och inget torpkontrakt, ingen mantalslängd och ingen jordebok är sökt. |
 
 ## Militärt, civilt och rättsligt
 
@@ -134,40 +134,40 @@ Gårdtjern`. [C-0830](../citations/C-0830-sattna-C3-stina-cajsa-fodd-1813.md)
 
 Ålderskolumnen i posten gäller **modern**, `27 år`, och samma mönster gäller
 varje post på sidan: en ålder per post, placerad efter moderns namn. Att hans
-ålder saknas är alltså en egenskap hos boken. Han har därför **ingen känd
-åldersuppgift**, och hans födelseårgång kan inte avgränsas.
+ålder saknas är alltså en egenskap hos boken. Han har därför ingen känd
+åldersuppgift, och hans födelseårgång kan inte avgränsas.
 [A-7451](#påståenden)
 
 Dopet hade **sex vittnen**, som aldrig varit avskrivna: `Pahl Ersson`,
 skomakaren `Lars Lindgren`, drängen `Nils Jonsson`, hustrun `Greta
 Larsdotter`, `Johanna Pahlsdotter` och pigan `Brita Ersdotter`. Fyra av dem
-hör till **Övre Kovland**, en by som inte tidigare funnits i akten. `Greta
+hör till Övre Kovland, en by som inte tidigare funnits i akten. `Greta
 Larsdotter` bär hans eget patronymikon och `Nils Jonsson` hustruns; båda är
-syskonkandidater, men dopvittnesskap är ett indicium och **ingen relation
-skapas**. [A-7450](#påståenden)
+syskonkandidater, men dopvittnesskap är ett indicium och ingen relation
+skapas. [A-7450](#påståenden)
 
 Granskningens viktigaste fynd rör det negativa resultatet. Hela
 Gårdtjärn-avsnittet i Sättna A I/4 är läst utan en säker familjerad för dem.
-Men i en annan post på **samma sida i födelseboken** — torparen Lars Jonssons
+Men i en annan post på samma sida i födelseboken — torparen Lars Jonssons
 och Stina Lisa Vallins son Anders, född tre veckor senare — har skrivaren
-skrivit `i Gårdtjern`, **strukit det och skrivit `Byn`**, medan två av
+skrivit `i Gårdtjern`, strukit det och skrivit `Byn`, medan två av
 postens vittnen samtidigt anges bo i Gårdtjärn. Skrivaren skiljde alltså inte
 säkert de två benämningarna. Avsnittsnollet är bundet till Gårdtjärn-sidorna,
-och **`Byn`-avsnittet i samma volym är aldrig sökt.**
+och `Byn`-avsnittet i samma volym är aldrig sökt.
 [A-7452](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **A I/4:s Byn-avsnitt är den oprövade passagen.** Se
+- A I/4:s Byn-avsnitt är den oprövade passagen. Se
   [profilens Q-01](../research-profiles/P-0502.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0502.md#källvägar). Avsnittsnollet i
   Gårdtjärn står kvar som det är skrivet.
 - **Övre Kovland** är en ny ort i akten, dit fyra av sex dopvittnen hör.
   KP-02.
-- **Är `Greta Larsdotter` hans syster?** Frågan kan bara avgöras av ett
+- Är `Greta Larsdotter` hans syster? Frågan kan bara avgöras av ett
   original som binder dem; patronymikonet räcker inte, allra minst när det är
   ett av periodens vanligaste. KP-02.
-- **Han har ingen åldersuppgift.** Det är den enskilt största bristen: utan
+- Han har ingen åldersuppgift. Det är den enskilt största bristen: utan
   ålder finns ingen födelseårgång att söka och ingen rimlig dödsperiod.
   Nästa personbundna hushållsrad, var den än står, ger den. KP-01.
 - Ingen konflikt finns i det lästa underlaget. Motsägelsen står mellan en
@@ -177,7 +177,7 @@ och **`Byn`-avsnittet i samma volym är aldrig sökt.**
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Sättna A I/4:s `Byn`-avsnitt** för samma period, som
+- Förväntad källa: Sättna A I/4:s `Byn`-avsnitt för samma period, som
   avsnittsnollet inte täcker och som skrivarens egen rättelse pekar mot; i
   andra hand nästa husförhörslängd efter A I/4, samt vigsel-, flytt- eller
   dödpost som ger hans **ålder** eller ursprung.
@@ -185,7 +185,7 @@ och **`Byn`-avsnittet i samma volym är aldrig sökt.**
   och ålderskolumnens innebörd, och hela Gårdtjärn-avsnittet i Sättna A I/4,
   sidorna 86–102 med gränssida 103.
 - Negativ kontroll: [C-0858](../citations/C-0858-sattna-AI4-gardtjarn-lars-anna-kontroll.md)
-- Återaktivering: **villkoret är delvis uppfyllt 2026-09-09.** Den tidigare
+- Återaktivering: villkoret är delvis uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `en ny personbunden datum-, vigsel-, flytt-, döds-
   eller hushållsnyckel` och förbjöd omläsning av A I/4-avsnittet utan ny
   nyckel; `Byn`-avsnittet är en **annan** passage i samma volym och är fri
@@ -202,7 +202,7 @@ redan sparade fullsidan utan ny arkivåtkomst.
 **Två fynd i en post som kallades utläst.** Dotterns födelsepost hade ett
 aldrig avskrivet vittnesfält med sex namn, varav ett med hans eget
 patronymikon, och ålderskolumnens innebörd var inte fastställd — den gäller
-modern, vilket betyder att han **inte har någon åldersuppgift alls**.
+modern, vilket betyder att han inte har någon åldersuppgift alls.
 Därtill visar en post på samma sida att skrivaren strök `Gårdtjern` och skrev
 `Byn` för en annan torparfamilj i byn samma år, vilket ger avsnittsnollet en
 preciserad räckvidd och namnger en oprövad passage.

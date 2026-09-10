@@ -297,14 +297,14 @@ i profilens källvägar och ägs där av Wotan, inte av denna akt.
 
 Två preciseringar från konsolideringen av P-0303 och P-0304:
 
-- **A-1636 återgav källan ofullständigt.** C-0262 namnger tre personer i
+- A-1636 återgav källan ofullständigt. C-0262 namnger tre personer i
   DNA-avsnittet, inte två. Den tredje står i källan som `Ann-Christine Jansson`
   och sammanfaller exakt med P-0304:s registerform i faderns hushåll. Sambandet
   är stött men obekräftat: utredningen saknar testföretag, centimorgan och
   segment och namnger inte hennes relation. Det är infört som LEAD i P-0304 och
   propageras inte vidare härifrån. Vidare hantering är en ägarfråga, eftersom den
   gäller genetisk uppgift om en levande person.
-- **A-4852:s datering av fotografiet i Flen har fått en källkritisk reservation**
+- A-4852:s datering av fotografiet i Flen har fått en källkritisk reservation
   och sänkt tillförlitlighet. Bildtexten `Arne på besök i Flen från Södertälje …
   1943` är förenlig med året endast under dess sista fem veckor: familjen
   flyttade från Flen till Södertälje 1943-11-24 enligt kvartersregistret.

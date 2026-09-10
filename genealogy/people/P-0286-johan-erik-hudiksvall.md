@@ -128,9 +128,9 @@ Där tar det lästa slut. På Hudiksvalls nästa hushållssida 484 och i 1910 å
 
 - Se [profilens frågor och källvägar](../research-profiles/P-0286.md#forskningsfrågor).
 - **Var slutar spåret?** Hans egen fortsättning efter 1900 är oläst. Sida 284 i Hudiksvalls församlingsbok är den direkta, olästa hänvisningen; därefter utflyttningslängder och inskrivningslängder omkring 1908.
-- **Egen födelsenotis saknas.** Födelsedagen vilar helt på Hudiksvalls församlingsbokskedja. Hälsingtunas födelsebok för 1888 är inte läst.
-- **Ingen oberoende korroboration.** Alla fyra kända poster går tillbaka på kyrkobokföring i samma familj; folkräkningsutdragen är härledda (A-5595).
-- **Routingen 284/285/422 är obesvarad** och delas med föräldrarna och syskonen.
+- Egen födelsenotis saknas. Födelsedagen vilar helt på Hudiksvalls församlingsbokskedja. Hälsingtunas födelsebok för 1888 är inte läst.
+- Ingen oberoende korroboration. Alla fyra kända poster går tillbaka på kyrkobokföring i samma familj; folkräkningsutdragen är härledda (A-5595).
+- Routingen 284/285/422 är obesvarad och delas med föräldrarna och syskonen.
 - **`odöpt` är oförklarat** och är en fråga som gäller hela hushållet, inte honom ensam.
 
 ## Historik och rättelser

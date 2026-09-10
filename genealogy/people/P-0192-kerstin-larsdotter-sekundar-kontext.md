@@ -4,12 +4,12 @@
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0188.
   **Minimiläge enligt PCD-2026-09-09-030:** löst anknuten person — en uppgift i en sekundär sammanställning, utan belagd relation till antavlan. Kort text, tio teman bedömda men
-  inte utbyggda, **ingen livsbildsforskning startas.**
+  inte utbyggda, ingen livsbildsforskning startas.
 - Profil: [P-0192](../research-profiles/P-0192.md) — daterad PK-bedömning, tio
   teman, söknycklar och källvägar.
 - Identitetsnivå **`UNDERKÄND`**, `Identitetsläge: OLÖST`;
   `Trädverkan: AVVAKTAR`. Full nivå `UNDERKÄND`.
-- **Aktens hela innehåll är en rad i en privat antavla.** Ledet är fullt
+- Aktens hela innehåll är en rad i en privat antavla. Ledet är fullt
   utvunnet; se A-7871.
 
 ## Identitet
@@ -17,31 +17,31 @@
 Namngiven i en privat ansedel utan synliga källhänvisningar som uppgiven anfader till [P-0158 Hans Nilsson](P-0158-hans-nilsson-akullsjon.md).
 
 **Två led står i källan, och källan är sekundär:** förnamnet och
-patronymikonet. **Ingen ort, ingen ålder, inget datum** — och **ingen
-originalhandling.**
+patronymikonet. Ingen ort, ingen ålder, inget datum — och ingen
+originalhandling.
 
 **Hon och [P-0191](P-0191-hans-larsson-sekundar-kontext.md) står som ett par
 i samma privata antavla**, som mor respektive far till `Nathanael Hansson`.
-**Båda bär patronymikonet `Lars-`**, vilket i en sekundär sammanställning är
-värt en anmärkning: **ett makepar med samma patronymikon är ovanligt nog att
-antingen vara ett verkligt syskonbarnsgifte eller ett avskriftsfel** — och
-**ingen av möjligheterna är prövad.**
+Båda bär patronymikonet `Lars-`, vilket i en sekundär sammanställning är
+värt en anmärkning: ett makepar med samma patronymikon är ovanligt nog att
+antingen vara ett verkligt syskonbarnsgifte eller ett avskriftsfel — och
+ingen av möjligheterna är prövad.
 
 **Uppgiften är `LEAD` med tillförlitlighet `låg`, och den ska förbli det.**
 Sidan saknar synliga källhänvisningar och motsägs av originalet där den kan
-prövas: **dess fadderlista för Hans Nilsson namnger tre helt andra personer**
+prövas: dess fadderlista för Hans Nilsson namnger tre helt andra personer
 än [C-0129](../citations/C-0129-hans-nilsson-fodelse-1800.md).
 
 **`Antavleleden bortom P-0165 och P-0166 införs inte i den verifierade
 djup-6-fronten`** — citationens egen avgränsning, oförändrad.
 
-`Trädverkan: AVVAKTAR`: **relationen till antavlan är uppgiven men inte belagd.** Den kan visa sig bära en anlinje, och därför är fältet inte `EJ BÄRANDE` — men **ingen anlinje passerar personen under tiden**, och antavleleden bortom P-0165 och P-0166 är uttryckligen inte införda i den verifierade fronten.
+`Trädverkan: AVVAKTAR`: relationen till antavlan är uppgiven men inte belagd. Den kan visa sig bära en anlinje, och därför är fältet inte `EJ BÄRANDE` — men ingen anlinje passerar personen under tiden, och antavleleden bortom P-0165 och P-0166 är uttryckligen inte införda i den verifierade fronten.
 
 ## Namnformer
 
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
-| källans form i vittneskolumnen | — | TRANSCRIBED | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | **Källans stavning bevaras**; se citationens avskrift. |
+| källans form i vittneskolumnen | — | TRANSCRIBED | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Källans stavning bevaras; se citationens avskrift. |
 | `Kerstin Larsdotter` | aktens visningsnamn | TRANSCRIBED | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Normaliserad form av samma led. |
 
 ## Påståenden
@@ -50,84 +50,84 @@ djup-6-fronten`** — citationens egen avgränsning, oförändrad.
 |---|---|---|---|---|---|
 | A-0771 | Den privata ansedeln anger Kerstin Larsdotter som mor till Nathanael Hansson och därmed farfars mor till Hans Nilsson. | LEAD | låg | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Sekundär uppgift utan synliga källhänvisningar; inte införd i verifierad antavla. |
 | A-7871 | **Vittnesledet är fullt utvunnet.** **Två led står i källan, och källan är sekundär:** förnamnet och
-patronymikonet. **Ingen ort, ingen ålder, inget datum** — och **ingen
-originalhandling.** | TRANSCRIBED | hög | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Konsoliderat 2026-09-10 i T-0188. **Ingen ny arkivsökning och ingen ny bildläsning.** Läsningen bygger på citationens avskrift och dess senare fullpostprövningar. **Uppgiften är sekundär och står kvar som `LEAD`**; ingen originalhandling har sökts. |
+patronymikonet. Ingen ort, ingen ålder, inget datum — och ingen
+originalhandling. | TRANSCRIBED | hög | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Konsoliderat 2026-09-10 i T-0188. Ingen ny arkivsökning och ingen ny bildläsning. Läsningen bygger på citationens avskrift och dess senare fullpostprövningar. Uppgiften är sekundär och står kvar som `LEAD`; ingen originalhandling har sökts. |
 
 ## Relationer
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0158 Hans Nilsson](P-0158-hans-nilsson-akullsjon.md) | **uppgiven farfars far eller mor** — sekundär uppgift, **inte införd i den verifierade antavlan** | okänd tid | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) |
-| `Nathanael Hansson`, uppgiven son | **uppgiven son** enligt samma ansedel; **oregistrerad i projektet** | okänd tid | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) |
-| [P-0191 Hans Larsson](P-0191-hans-larsson-sekundar-kontext.md) | **uppgiven make** enligt samma ansedel; **båda bär patronymikonet `Lars-`** | okänd tid | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) |
+| [P-0158 Hans Nilsson](P-0158-hans-nilsson-akullsjon.md) | uppgiven farfars far eller mor — sekundär uppgift, inte införd i den verifierade antavlan | okänd tid | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) |
+| `Nathanael Hansson`, uppgiven son | uppgiven son enligt samma ansedel; oregistrerad i projektet | okänd tid | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) |
+| [P-0191 Hans Larsson](P-0191-hans-larsson-sekundar-kontext.md) | uppgiven make enligt samma ansedel; båda bär patronymikonet `Lars-` | okänd tid | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) |
 
 ## Tidslinje
 
 | Datum/intervall | Händelse | Plats | Roll/yrke | Hushåll | Belägg |
 |---|---|---|---|---|---|
-| omkring 1737 | **uppgiven förälder till Nathanael Hansson** — sekundär uppgift utan datum | orten anges inte | — | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) |
-| i övrigt | **helt obelagt** | — | — | — | — |
+| omkring 1737 | uppgiven förälder till Nathanael Hansson — sekundär uppgift utan datum | orten anges inte | — | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) |
+| i övrigt | helt obelagt | — | — | — | — |
 
-**Aktens hela kronologi är en uppgift utan datum, hämtad ur en sekundär sammanställning.**
+Aktens hela kronologi är en uppgift utan datum, hämtad ur en sekundär sammanställning.
 
 ## Boställen och flyttar
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| — | **ingen ort anges** | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | **Kohortens enda vittne utan by.** Frånvaron är källans. |
-| — | inga flyttningar | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | **En dopnotis har ingen flyttningskolumn.** |
+| — | ingen ort anges | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Kohortens enda vittne utan by. Frånvaron är källans. |
+| — | inga flyttningar | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | En dopnotis har ingen flyttningskolumn. |
 
 ## Yrke, utbildning och ekonomi
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| — | se vittnesledets ståndsbeteckning ovan | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | **Ingen ståndsbeteckning och ingen sysselsättning anges.** |
-| — | ingen ekonomisk uppgift | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Källformen har ingen sådan kolumn. **Ingen yta öppnas i minimiläge.** |
+| — | se vittnesledets ståndsbeteckning ovan | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Ingen ståndsbeteckning och ingen sysselsättning anges. |
+| — | ingen ekonomisk uppgift | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Källformen har ingen sådan kolumn. Ingen yta öppnas i minimiläge. |
 
 ## Militärt, civilt och rättsligt
 
 | Tid | Uppgift | Förband/myndighet/mål | Belägg | Kommentar |
 |---|---|---|---|---|
-| okänd tid | **ingen uppgift om ställning i församlingen** | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | **Ingenting alls är känt om hennes ställning i församlingen.** |
-| — | ingen militär eller rättslig uppgift | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Saknas i källformen; **ingen slutsats dras.** |
+| okänd tid | ingen uppgift om ställning i församlingen | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Ingenting alls är känt om hennes ställning i församlingen. |
+| — | ingen militär eller rättslig uppgift | — | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Saknas i källformen; ingen slutsats dras. |
 
 ## Hälsa och död
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
-| okänd tid | **ingen uppgift om liv eller död** | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Sammanställningen ger varken födelse- eller dödsuppgift för honom eller henne. |
-| — | **ingen ålder och inget födelseår** | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | **Sammanställningen ger inga datum alls för denna person**, till skillnad från flera andra på samma sida. |
+| okänd tid | ingen uppgift om liv eller död | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Sammanställningen ger varken födelse- eller dödsuppgift för honom eller henne. |
+| — | ingen ålder och inget födelseår | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | Sammanställningen ger inga datum alls för denna person, till skillnad från flera andra på samma sida. |
 | — | ingen dödsuppgift | — | En dopnotis har ingen dödskolumn. |
 
 ## Media och personliga källor
 
 | Objekt | Datum | Upphov/provenans | Citation | Lokal fil |
 |---|---|---|---|---|
-| en privat ansedel utan synliga källhänvisningar | läst 2026-08-20, fullsida bevarad 2026-08-21 | privat ansedel, `anor.pchemma.nu`, 1 728 × 1 313 px — **skärmbild av en sekundärdatabas utan synliga källhänvisningar** | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | [pchemma, Hans Nilsson](../media/C-0133-pchemma-hans-nilsson.jpg) |
+| en privat ansedel utan synliga källhänvisningar | läst 2026-08-20, fullsida bevarad 2026-08-21 | privat ansedel, `anor.pchemma.nu`, 1 728 × 1 313 px — skärmbild av en sekundärdatabas utan synliga källhänvisningar | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md) | [pchemma, Hans Nilsson](../media/C-0133-pchemma-hans-nilsson.jpg) |
 
 Inget personligt material är känt.
 
 ## Biografisk sammanfattning
 
-**Kerstin Larsdotter är ingen belagd person utan en uppgift i en privat antavla.** Sidan namnger honom eller henne som uppgiven anfader till [P-0158 Hans Nilsson](P-0158-hans-nilsson-akullsjon.md), utan datum, ort eller källhänvisning. **Akten finns för att uppgiften ska kunna spåras och avgränsas** — inte för att personen är fastställd.
+Kerstin Larsdotter är ingen belagd person utan en uppgift i en privat antavla. Sidan namnger honom eller henne som uppgiven anfader till [P-0158 Hans Nilsson](P-0158-hans-nilsson-akullsjon.md), utan datum, ort eller källhänvisning. Akten finns för att uppgiften ska kunna spåras och avgränsas — inte för att personen är fastställd.
 
 **Hon och [P-0191](P-0191-hans-larsson-sekundar-kontext.md) står som ett par
 i samma privata antavla**, som mor respektive far till `Nathanael Hansson`.
-**Båda bär patronymikonet `Lars-`**, vilket i en sekundär sammanställning är
-värt en anmärkning: **ett makepar med samma patronymikon är ovanligt nog att
-antingen vara ett verkligt syskonbarnsgifte eller ett avskriftsfel** — och
-**ingen av möjligheterna är prövad.**
+Båda bär patronymikonet `Lars-`, vilket i en sekundär sammanställning är
+värt en anmärkning: ett makepar med samma patronymikon är ovanligt nog att
+antingen vara ett verkligt syskonbarnsgifte eller ett avskriftsfel — och
+ingen av möjligheterna är prövad.
 
 **Ingen släktrelation till dopbarnet anges**, för någon av postens parter, och
 ingen registreras.
 
 ## Forskningsfrågor och konflikter
 
-1. **Finns hon i någon originalkälla, och är patronymikonlikheten med maken verklig?** Se profilens Q-01.
-2. **Åldern kan aldrig komma ur denna post.** Dopvittneskolumnen har ingen
-   åldersruta; **en omläsning av notisen är utesluten som väg.**
+1. Finns hon i någon originalkälla, och är patronymikonlikheten med maken verklig? Se profilens Q-01.
+2. Åldern kan aldrig komma ur denna post. Dopvittneskolumnen har ingen
+   åldersruta; en omläsning av notisen är utesluten som väg.
 3. **Ingen släkthypotes registreras** på grundval av namnlikhet.
-4. **Källan är sekundär och motsägs av originalet där den kan prövas.** Ingen uppgift införs i den verifierade antavlan.
+4. Källan är sekundär och motsägs av originalet där den kan prövas. Ingen uppgift införs i den verifierade antavlan.
 
 ## Historik och rättelser
 
@@ -141,8 +141,8 @@ namnformer och ingen profil fanns.
 ### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken saknade år och roll. Den lyder nu `P-0192: Kerstin Larsdotter, uppgiven farfars mor — sekundär kontext`, eftersom
-namnet ensamt inte skiljer personen från namnlikar. **Filnamnet är
-oförändrat.** Ingen akt har delats och ingen identitet har slagits samman.
+namnet ensamt inte skiljer personen från namnlikar. Filnamnet är
+oförändrat. Ingen akt har delats och ingen identitet har slagits samman.
 
 ### Tidigare arbetsläge, historiskt
 

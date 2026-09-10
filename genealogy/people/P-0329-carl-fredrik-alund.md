@@ -24,8 +24,8 @@ Helgesta A I/15 sida 179, som ger `08 2/9` och `Ludgo`.
 [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md)
 
 Dopnotisen namnger hans föräldrar och hans födelsegård: **`Klåckaregården`** i
-Ludgo, där fadern var **`Klåckaren`** Anders Åhlund och modern Hedda
-**Molander**. Båda de uppgifterna är rättade 2026-09-09; projektets tidigare
+Ludgo, där fadern var `Klåckaren` Anders Åhlund och modern Hedda
+Molander. Båda de uppgifterna är rättade 2026-09-09; projektets tidigare
 avskrift hade `mäskaren` och `Morander`. Se
 [A-3221](#påståenden) och citationens tillägg.
 
@@ -48,14 +48,14 @@ folio 179. [C-0316](../citations/C-0316-pehr-albert-alund-helgesta-hyltinge-1868
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-1895 | Namnet skrevs `Carl Fredr. Ålund`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Normaliseras till Carl Fredrik Ålund. |
-| A-1896 | Han uppges vara född 1808-09-02 i Ludgo. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Husförhörsuppgift; egen födelsenotis återstår. **Överspelad kommentar 2026-09-09:** födelsenotisen är funnen och läst, se A-3221. |
+| A-1896 | Han uppges vara född 1808-09-02 i Ludgo. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Husförhörsuppgift; egen födelsenotis återstår. Överspelad kommentar 2026-09-09: födelsenotisen är funnen och läst, se A-3221. |
 | A-1897 | Han var far till Pehr Albert Ålund. | CORROBORATED | hög | [C-0316](../citations/C-0316-pehr-albert-alund-helgesta-hyltinge-1868.md), [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | A I/15 markerar Pehr som son i hushållet; B/2 kallar honom son och hänvisar till samma folio. |
-| A-3221 | Carl Fredric föddes 1808-09-02 i Ludgo som son till **klockaren** Anders Åhlund och Hedda **Molander**. | CORROBORATED | mycket hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md), [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Egen födelsenotis och exakt senare datum-/sockenprofil. **Rättat 2026-09-09 (T-0167):** faderns titel lästes `mäskaren`; notisen skriver `Klåckaren`, med samma inledande `Kl` som ortrubriken `Klåckaregården` ovanför. Moderns namn lästes `Morander`; notisen skriver `Molander` med öglat `l`. Äldre lydelse i Historik och rättelser. |
-| A-7250 | Dopnotisen anger dopdagen den 4 september 1808 och ortrubriken `Klåckaregården` i Ludgo. | TRANSCRIBED | hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) | Utvunnet 2026-09-09; ortrubriken var oläst och dopdagen fanns bara i citationens löptext, inte i något påstående. `Klåckaregården` är klockarens tjänstebostad och därmed **hans födelsegård**, inte en ägd gård. |
+| A-3221 | Carl Fredric föddes 1808-09-02 i Ludgo som son till klockaren Anders Åhlund och Hedda Molander. | CORROBORATED | mycket hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md), [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Egen födelsenotis och exakt senare datum-/sockenprofil. Rättat 2026-09-09 (T-0167): faderns titel lästes `mäskaren`; notisen skriver `Klåckaren`, med samma inledande `Kl` som ortrubriken `Klåckaregården` ovanför. Moderns namn lästes `Morander`; notisen skriver `Molander` med öglat `l`. Äldre lydelse i Historik och rättelser. |
+| A-7250 | Dopnotisen anger dopdagen den 4 september 1808 och ortrubriken `Klåckaregården` i Ludgo. | TRANSCRIBED | hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) | Utvunnet 2026-09-09; ortrubriken var oläst och dopdagen fanns bara i citationens löptext, inte i något påstående. `Klåckaregården` är klockarens tjänstebostad och därmed hans födelsegård, inte en ägd gård. |
 | A-7251 | Dopet hade sex namngivna faddrar: befallningsmannen Eric Forsmark och hans hustru Anna Ericsdotter vid Ludgonäs[?], kyrkovärden Pehr Pehrsson i Ansund[?], hustrun Cathrina Olsdotter i A. Torpsta, adjunkten H. A. Åström[?] och jungfrun Anna Greta Dahlgren vid Ersta[?]. | TRANSCRIBED | hög | [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md) | Utvunnet 2026-09-09; hela faddrarkolumnen var oläst. Kretsen — befallningsman, kyrkovärd, adjunkt — är en tjänstemanna- och kyrkokrets och stämmer med en klockarfamilj. Osäkra ortläsningar bevaras. Ingen av personerna görs till släkting. |
-| A-7252 | På hans rad 1 i Helgesta A I/15 är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Död.`, `Fräjd och enskilda anteckningar.`, `Utflyttad` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; `Inflyttad` har `Gryt 57` utan dag. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. **Vigselåret står alltså inte i denna längd** — den tomma `Gift.`-kolumnen är läst och inte förbisedd. Att `Död.` är tom betyder att han levde när boken avslutades 1865. |
-| A-7253 | Samtliga sju barn i hushållet har `Gryt` som födelseort, med födelsetider från 1832-04-26 till 1853-07-30, medan hans egen födelseort är Ludgo. | CORROBORATED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09 ur uppslagets barnrader. Familjen bodde alltså i Gryt **minst 1832–1857**, och flyttningen Ludgo→Gryt någon gång mellan 1808 och 1832 är oläst. Födelseorten är barnens och inte hans; ingen boendeperiod härleds för honom utöver att barnen föddes där. |
-| A-7254 | Namnkolumnens tryckta rubrik efterfrågar stånd, embete, yrke och näringsfång, men hans rad har enbart förkortningen `B.` framför namnet och ingen utskriven yrkesuppgift. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. `B.` lämnas oexpanderat enligt citationens praxis; formen används i längderna för både `Bonden` och `Brukaren` och avgörs inte här. **Ingen social ställning i Helgesta får läsas in ur bokstaven.** |
+| A-7252 | På hans rad 1 i Helgesta A I/15 är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Död.`, `Fräjd och enskilda anteckningar.`, `Utflyttad` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; `Inflyttad` har `Gryt 57` utan dag. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. Vigselåret står alltså inte i denna längd — den tomma `Gift.`-kolumnen är läst och inte förbisedd. Att `Död.` är tom betyder att han levde när boken avslutades 1865. |
+| A-7253 | Samtliga sju barn i hushållet har `Gryt` som födelseort, med födelsetider från 1832-04-26 till 1853-07-30, medan hans egen födelseort är Ludgo. | CORROBORATED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09 ur uppslagets barnrader. Familjen bodde alltså i Gryt minst 1832–1857, och flyttningen Ludgo→Gryt någon gång mellan 1808 och 1832 är oläst. Födelseorten är barnens och inte hans; ingen boendeperiod härleds för honom utöver att barnen föddes där. |
+| A-7254 | Namnkolumnens tryckta rubrik efterfrågar stånd, embete, yrke och näringsfång, men hans rad har enbart förkortningen `B.` framför namnet och ingen utskriven yrkesuppgift. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. `B.` lämnas oexpanderat enligt citationens praxis; formen används i längderna för både `Bonden` och `Brukaren` och avgörs inte här. Ingen social ställning i Helgesta får läsas in ur bokstaven. |
 
 ## Relationer
 
@@ -105,8 +105,8 @@ i Ludgo, Gryt eller hustruns församling. Efter 1865 är han okänd — han var 
 | Minst 1832–1857 | Gryt | Gård eller torp ej angivet | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Härlett ur att samtliga sju barn har `Gryt` som födelseort. Ingen egen husförhörsrad i Gryt är läst. |
 | 1857–minst 1865 | Löta, Töfversta Rote | Helgesta församling, sida 179 | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Inflyttningsåret står utan dag och utan attestnummer; kolumnen för attestnummer är läst och tom. |
 
-Utflyttningskolumnen är läst och tom på hans rad: **han lämnade inte Löta under
-bokens tid.** Två flyttningar är därmed kända till årtal eller intervall och
+Utflyttningskolumnen är läst och tom på hans rad: han lämnade inte Löta under
+bokens tid. Två flyttningar är därmed kända till årtal eller intervall och
 ingen till dag.
 
 ## Yrke, utbildning och ekonomi
@@ -186,14 +186,14 @@ då 57 år, och `Död.`-kolumnen är tom. Vad som hände efter det är okänt.
 
 ## Forskningsfrågor och konflikter
 
-- **Vigseln är helt okänd.** Den ligger mellan 1808 och 1832 och står inte i
+- Vigseln är helt okänd. Den ligger mellan 1808 och 1832 och står inte i
   Helgestas längd. Se [profilens Q-01](../research-profiles/P-0329.md#forskningsfrågor)
   och [KP-01](../research-profiles/P-0329.md#källvägar).
-- **Flyttningen Ludgo→Gryt är oläst.** Den ligger mellan 1808 och 1832 och är
+- Flyttningen Ludgo→Gryt är oläst. Den ligger mellan 1808 och 1832 och är
   den lucka som också skulle förklara var han växte upp. Se KP-02.
-- **Livet efter 1865 är okänt.** `Död.`-kolumnen är tom, alltså levde han.
+- Livet efter 1865 är okänt. `Död.`-kolumnen är tom, alltså levde han.
   Se KP-03.
-- **`B.` är oexpanderat.** Hans ställning i Helgesta är inte fastställd, och
+- `B.` är oexpanderat. Hans ställning i Helgesta är inte fastställd, och
   bokstaven får inte översättas till bonde utan stöd.
 - Följdfynd i annan kohort: faderns titel och moderns namn är rättade i
   [P-0509](P-0509-anders-ahlund-ludgo.md) och
@@ -216,7 +216,7 @@ och moderns namn `Morander` är `Molander`. Äldre lydelse:
 > A-3221: Carl Fredric föddes 1808-09-02 i Ludgo som son till mäskaren Anders
 > Åhlund och Hedda Morander.
 
-Dessutom var **hela faddrarkolumnen och ortrubriken i dopnotisen olästa**, och
+Dessutom var hela faddrarkolumnen och ortrubriken i dopnotisen olästa, och
 på husförhörsraden var sex tryckta kolumner olästa — däribland den tomma
 `Äktenskap: Gift.`, som visar att vigselåret inte står i den längden.
 Kolumnredovisningarna ligger som daterade tillägg i C-0317 och C-0845.
@@ -252,24 +252,24 @@ och den födelsenotis som bedömningen vilade på var utvunnen till hälften.
 ### Inkommande följdfynd från T-0174, 2026-09-09
 
 **Avgränsad följd, ingen ny arkivåtkomst och ingen omprövning av din akt.**
-Fyndet kommer ur de **två** redan sparade helbilderna till
+Fyndet kommer ur de två redan sparade helbilderna till
 [C-0845](../citations/C-0845-ludgo-C1-alund-carlsdotter-foraldrar.md), lästa
 vid 400–450 %, och rör dina föräldrar
 [P-0509](P-0509-anders-ahlund-ludgo.md) och
-[P-0510](P-0510-hedda-morander-ludgo.md), som T-0174 äger. **Inget A-id, ingen
-status och ingen bedömning i din akt ändras här.**
+[P-0510](P-0510-hedda-morander-ludgo.md), som T-0174 äger. Inget A-id, ingen
+status och ingen bedömning i din akt ändras här.
 
 **Sifferfältet i din dopnotis är ett enda intervall, inte två åldrar.**
 T-0167 förde `30. 35.` som *föräldrarnas åldrar i femårsintervall*, i plural.
 Observationen om femårsstegen är riktig, men slutledningen om plural är inte:
-av de tjugoen posterna på de två uppslagen namnger **fyra endast en mor**, och
-var och en bär likaså **ett** intervall. Ett intervall kan alltså inte vara
+av de tjugoen posterna på de två uppslagen namnger fyra endast en mor, och
+var och en bär likaså ett intervall. Ett intervall kan alltså inte vara
 två personers åldrar — och det står i samtliga poster omedelbart efter
-**moderns** namn.
+moderns namn.
 
-Följden är asymmetrisk för dina föräldrar. **Din mor får sin första
-datering:** 30–35 år i september 1808, alltså född omkring **1773–1778**.
-**Din far förlorar sin enda:** han har nu ingen åldersuppgift alls. Att
+Följden är asymmetrisk för dina föräldrar. Din mor får sin första
+datering: 30–35 år i september 1808, alltså född omkring **1773–1778**.
+Din far förlorar sin enda: han har nu ingen åldersuppgift alls. Att
 intervallet gäller moderns ålder är den klart bästa läsningen men förs som
 `SANNOLIKT`, inte styrkt; den avgörande kontrollen ligger i Ludgos
 husförhörslängder och ägs av [T-0491](../../wotan/dev-log/T-0491.md).
@@ -277,15 +277,15 @@ husförhörslängder och ägs av [T-0491](../../wotan/dev-log/T-0491.md).
 **Din dopkrets delar inte ett enda namn med Maja Chaisas.** Dina sex faddrar
 — befallningsman med hustru, kyrkovärd, hustru i A. Torpsta, adjunkt, jungfru
 — och hennes sex — ett bondepar från en annan socken, en torpare, en enka, en
-son, en dotter — kommer ur två skilda samhällsskikt. **Ni gifte er senare med
-varandra**, men de två dopnotiserna, skrivna i samma bok med tre och en halv
-månads mellanrum, visar **ingen kontakt mellan familjerna 1808**. Nollet
+son, en dotter — kommer ur två skilda samhällsskikt. Ni gifte er senare med
+varandra, men de två dopnotiserna, skrivna i samma bok med tre och en halv
+månads mellanrum, visar ingen kontakt mellan familjerna 1808. Nollet
 gäller de tolv namngivna faddrarna och utesluter inte kontakt.
 
 **Källkontext:** församlingens egen summering nederst i 1808-kolumnen anger
 `Födde Gosse Barn 19 / Flicke Barn 14` — trettiotre födda i Ludgo det året.
 Du är en av dem. Uppgiften är kontext, inget personpåstående, och de två
-sparade bilderna täcker **inte** hela året.
+sparade bilderna täcker inte hela året.
 
 **Ägare för följdarbete:** din kohort är
 [T-0167](../../wotan/dev-log/T-0167.md), som är underrättad, och

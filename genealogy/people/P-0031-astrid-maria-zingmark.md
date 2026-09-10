@@ -7,8 +7,8 @@
   tio teman, söknycklar och källvägar.
 - Identitetsnivå `GODKÄND`; `Trädverkan: EJ BÄRANDE` — hon är syster till
   antavlans [P-0001](P-0001-oskar-alfred-zingmark.md) och ingen härstamning
-  går genom henne. Full nivå `UNDERKÄND`: hon **gifter sig utan att maken
-  namnges** och hennes liv efter 1922 är obelagt.
+  går genom henne. Full nivå `UNDERKÄND`: hon gifter sig utan att maken
+  namnges och hennes liv efter 1922 är obelagt.
 
 ## Identitet
 
@@ -21,12 +21,12 @@ landsförsamlings A II a/23 — och namnformen är stabil i alla fem.
 tryckta dokumenthuvuden som gör dem utdrag ur Degerfors husförhörslängd
 respektive församlingsbok, och A-0171:s formulering `två hushållskällor` har
 korrigerats i profilen. Det som bär hennes identitet är i stället att de
-**två Degerforsvolymerna A II a/3 och A II a/6 ger samma födelsedag**,
+två Degerforsvolymerna A II a/3 och A II a/6 ger samma födelsedag,
 1890-09-01, och att Umeå landsförsamling ger samma dag en tredje gång.
 
 Det gifta namnet `Hörnberg` kommer enbart ur ett sekundärträd. Hennes vigsel
-är originalbelagd till **1921-04-17**, men **Umeå landsförsamlings uppslag
-namnger inte mannen**; endast lysningens nummer står där.
+är originalbelagd till **1921-04-17**, men Umeå landsförsamlings uppslag
+namnger inte mannen; endast lysningens nummer står där.
 
 ## Namnformer
 
@@ -40,17 +40,17 @@ namnger inte mannen**; endast lysningens nummer står där.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-0171 | Astrid Maria var född 1890 i Degerfors och dotter i Zingmark-hushållet. | CORROBORATED | hög | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0001](../citations/C-0001-geni-utdrag.md) | Två hushållskällor och sekundärträd överensstämmer. **Överspelad formulering:** båda folkräkningsbladen är utdrag ur Degerfors egna kyrkoböcker och därmed inte självständiga; stödet vilar i stället på A-2497 och A-3409. |
+| A-0171 | Astrid Maria var född 1890 i Degerfors och dotter i Zingmark-hushållet. | CORROBORATED | hög | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0001](../citations/C-0001-geni-utdrag.md) | Två hushållskällor och sekundärträd överensstämmer. Överspelad formulering: båda folkräkningsbladen är utdrag ur Degerfors egna kyrkoböcker och därmed inte självständiga; stödet vilar i stället på A-2497 och A-3409. |
 | A-0172 | Sekundärträdet anger gift namn Hörnberg och levnadsåren 1890–1965. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Exakta datum återstår. Vigselåret 1921 stämmer nu mot originalet (A-3409); dödsåret 1965 är fortfarande obelagt. |
 | A-0281 | År 1890 bodde hon med föräldrarna och systern Livia Sofia i Buberget. | TRANSCRIBED | hög | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md) | Familj nr 2. Hushållet var inneboende hos morföräldrarna; fadern skrivs `måg`. |
 | A-2497 | Degerfors A II a/3 s. 963 anger hennes födelsedag 1890-09-01 i Degerfors och placerar henne som dotter i föräldrahushållet. | CORROBORATED | hög | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Församlingsbok; egen födelsenotis återstår. Dagen kontrollerad i helbilden 2026-09-09 vid 450 %: `1890 ¹/₉`. |
-| A-3409 | Astrid Maria, född 1890-09-01 i Degerfors, inflyttade till Umeå landsförsamling från **Örebro norra** 1917-11-08, gifte sig 1921-04-17 efter lysning 1921-07-27(?) och utflyttade till Degerfors 1922-04-07. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Lysningsdatumet står efter vigseldatumet i boken och är läsosäkert; hennes egen väg till Örebro återstår. **Två led överspelade 2026-09-09:** lysningsuppgiften är ett nummer och inget datum (A-7708), och Örebro-vistelsen är inte belagd (A-7707). |
-| A-7705 | Degerfors A II a/6 folio 1064, rad 4, skriver hennes yrke **`Mejerska`**. | TRANSCRIBED | hög | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | **Hennes enda yrkesuppgift.** Läst i den sparade helbilden `00206819_00317` vid 200 %; cellen är förd med samma bläck som raden i övrigt, till skillnad från broderns blyertsanteckning på nästa rad. Ett mejeriyrke är rörligt och förklarar varför hon lämnade hushållet ensam. |
-| A-7706 | Samma rad bär i kolumn 14 `Utfl. N:r 30/1917 inlämnat: Umeå lfg ⁸/₁₁ 17` och i utflyttningskolumnen **två överstrukna** destinationsrader, den första `Örebro Norra`, med datumet `²⁰/₄ 17`. | TRANSCRIBED | medel | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Läst vid 330–700 %. Namnet `Örebro Norra` och `inlämnat: Umeå lfg ⁸/₁₁ 17` är säkra; datumets tiotal och den andra strukna radens första ord är blekta och osäkra. Citationen skrev `intämnat`; bilden ger `inlämnat`. |
-| A-7707 | **Att hon bodde i Örebro norra är inte belagt.** Degerfors ströks sin egen Örebro-destination och antecknade att flyttningsbetyget lämnades in i Umeå landsförsamling; Umeå skrev ändå `Örebro norra` som föregående församling. | CONFLICT | medel | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Den enklaste förklaringen är att hon bar ett betyg utställt för Örebro Norra i nära sju månader utan att skriva in sig där, och att Umeå förde in betygets destination som avsändande församling. Konflikten bevaras; **hennes vistelse april–november 1917 är helt oredovisad.** Örebro Norras egna flyttningslängder avgör frågan och skulle vid ett noll styrka tolkningen. |
-| A-7708 | `Lysning 27/1921` på hennes rad i Umeå landsförsamling är ett **lysningsnummer**, inte datumet 27 juli. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Läst vid 300 %: talet står med snedstreck, `27/1921`, i exakt samma form som `Utfl. N:r 30/1917` i Degerfors och `Lysn. 117/34` på ett annat uppslag i samma bokserie. Därmed faller den orimlighet A-3409 bevarade — lysning efter vigsel — och **lysningsboken 1921 har fått ett postnummer att söka på**. |
+| A-3409 | Astrid Maria, född 1890-09-01 i Degerfors, inflyttade till Umeå landsförsamling från Örebro norra 1917-11-08, gifte sig 1921-04-17 efter lysning 1921-07-27(?) och utflyttade till Degerfors 1922-04-07. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Lysningsdatumet står efter vigseldatumet i boken och är läsosäkert; hennes egen väg till Örebro återstår. Två led överspelade 2026-09-09: lysningsuppgiften är ett nummer och inget datum (A-7708), och Örebro-vistelsen är inte belagd (A-7707). |
+| A-7705 | Degerfors A II a/6 folio 1064, rad 4, skriver hennes yrke `Mejerska`. | TRANSCRIBED | hög | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | **Hennes enda yrkesuppgift.** Läst i den sparade helbilden `00206819_00317` vid 200 %; cellen är förd med samma bläck som raden i övrigt, till skillnad från broderns blyertsanteckning på nästa rad. Ett mejeriyrke är rörligt och förklarar varför hon lämnade hushållet ensam. |
+| A-7706 | Samma rad bär i kolumn 14 `Utfl. N:r 30/1917 inlämnat: Umeå lfg ⁸/₁₁ 17` och i utflyttningskolumnen två överstrukna destinationsrader, den första `Örebro Norra`, med datumet `²⁰/₄ 17`. | TRANSCRIBED | medel | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Läst vid 330–700 %. Namnet `Örebro Norra` och `inlämnat: Umeå lfg ⁸/₁₁ 17` är säkra; datumets tiotal och den andra strukna radens första ord är blekta och osäkra. Citationen skrev `intämnat`; bilden ger `inlämnat`. |
+| A-7707 | Att hon bodde i Örebro norra är inte belagt. Degerfors ströks sin egen Örebro-destination och antecknade att flyttningsbetyget lämnades in i Umeå landsförsamling; Umeå skrev ändå `Örebro norra` som föregående församling. | CONFLICT | medel | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Den enklaste förklaringen är att hon bar ett betyg utställt för Örebro Norra i nära sju månader utan att skriva in sig där, och att Umeå förde in betygets destination som avsändande församling. Konflikten bevaras; hennes vistelse april–november 1917 är helt oredovisad. Örebro Norras egna flyttningslängder avgör frågan och skulle vid ett noll styrka tolkningen. |
+| A-7708 | `Lysning 27/1921` på hennes rad i Umeå landsförsamling är ett lysningsnummer, inte datumet 27 juli. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Läst vid 300 %: talet står med snedstreck, `27/1921`, i exakt samma form som `Utfl. N:r 30/1917` i Degerfors och `Lysn. 117/34` på ett annat uppslag i samma bokserie. Därmed faller den orimlighet A-3409 bevarade — lysning efter vigsel — och lysningsboken 1921 har fått ett postnummer att söka på. |
 | A-7709 | Hon fick flyttningsbetyg `Fl. 22 ⁶/₄`, alltså 1922-04-06, dagen före utflyttningen till Degerfors 1922-04-07. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Läst vid 300 %. Ordningen betyg → avflyttning nästa dag är normal och styrker att båda talen är rätt lästa. |
-| A-7710 | Degerfors A II a/3 rad 4 ger henne bokstaven `ab` i kolumnen `Kristendomskunskap` och `N.` i kolumnen `Inom sv. kyrkan begått H. Nattv.`; kolumnen `Bevistat husförhör år` bär på hennes rad årtalen `06, 07, 08`. | TRANSCRIBED | medel | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Läst vid 350 % med radnumren i samma utsnitt. `ab` och `N.` ligger inom 12 px från hennes egen namnrads höjd och är därmed säkert placerade. **Årtalens radtillhörighet vilar på att listor skrivs nedåt från radlinjen** och är därför bara medel; en förskjutning ett steg uppåt kan inte uteslutas ur detta uppslag ensamt. |
+| A-7710 | Degerfors A II a/3 rad 4 ger henne bokstaven `ab` i kolumnen `Kristendomskunskap` och `N.` i kolumnen `Inom sv. kyrkan begått H. Nattv.`; kolumnen `Bevistat husförhör år` bär på hennes rad årtalen `06, 07, 08`. | TRANSCRIBED | medel | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Läst vid 350 % med radnumren i samma utsnitt. `ab` och `N.` ligger inom 12 px från hennes egen namnrads höjd och är därmed säkert placerade. Årtalens radtillhörighet vilar på att listor skrivs nedåt från radlinjen och är därför bara medel; en förskjutning ett steg uppåt kan inte uteslutas ur detta uppslag ensamt. |
 
 ## Relationer
 
@@ -67,7 +67,7 @@ namnger inte mannen**; endast lysningens nummer står där.
 | [P-0036 Birger Zingmark](P-0036-birger-zingmark.md) | bror | samma | CORROBORATED | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
 | [P-0037 Thyra Charlotta Zingmark](P-0037-thyra-charlotta-zingmark.md) | syster | samma | CORROBORATED | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
 | [P-0038 Gerda Helena Zingmark](P-0038-gerda-helena-zingmark.md) | syster | samma | CORROBORATED | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
-| [P-0529 Hildur Aleksandra Zingmark](P-0529-hildur-aleksandra-zingmark.md) | **oavgjord** — skriven som dotter i samma hushåll | Ytterhiske 1917–1918 | CONFLICT | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
+| [P-0529 Hildur Aleksandra Zingmark](P-0529-hildur-aleksandra-zingmark.md) | oavgjord — skriven som dotter i samma hushåll | Ytterhiske 1917–1918 | CONFLICT | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
 | make, namn ej belagt | make | vigsel 1921-04-17, Umeå landsförsamling | LEAD | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0001](../citations/C-0001-geni-utdrag.md) |
 
 **Två rader kräver läsning.** [P-0529](P-0529-hildur-aleksandra-zingmark.md)
@@ -75,7 +75,7 @@ står som dotter i hushållet 1917 men kan inte vara syster till
 [P-0030](P-0030-livia-sofia-zingmark.md), eftersom två döttrar inte kan vara
 födda 18 mars och 10 september samma år av samma mor; identiteten hålls
 separat och propageras inte. Och den sista raden är inte en person utan en
-**lucka**: hon gifte sig bevisligen, men ingen källa i projektet namnger
+lucka: hon gifte sig bevisligen, men ingen källa i projektet namnger
 mannen. `Hörnberg` är ett sekundärträds ord, inte hennes bok.
 
 ## Tidslinje
@@ -86,11 +86,11 @@ mannen. `Hörnberg` är ett sekundärträds ord, inte hennes bok.
 | 1890 | skriven som dotter, ett par månader gammal | Buberget, Degerfors | — | föräldrarnas, inneboende hos morföräldrarna | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md) |
 | 1900 | skriven som dotter, tio år | Rosinedahl, Degerfors | — | föräldrarnas | [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md) |
 | 1906–1908 (osäker radtillhörighet) | bevistat husförhör | Degerfors | — | föräldrarnas | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) |
-| 1910–1917 | skriven i föräldrahushållet | Rosinedahl, Degerfors | **mejerska** | föräldrarnas | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) |
-| 1917-04-20 (blekt) | flyttningsbetyg nr 30/1917 utställt, destination `Örebro Norra`, **sedan struken** | Degerfors | mejerska | — | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) |
-| 1917-04-20–1917-11-08 | **oredovisad tid** — betyget var utställt men inte inlämnat | okänd; `Örebro Norra` obelagt | — | — | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) |
+| 1910–1917 | skriven i föräldrahushållet | Rosinedahl, Degerfors | mejerska | föräldrarnas | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) |
+| 1917-04-20 (blekt) | flyttningsbetyg nr 30/1917 utställt, destination `Örebro Norra`, sedan struken | Degerfors | mejerska | — | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) |
+| 1917-04-20–1917-11-08 | oredovisad tid — betyget var utställt men inte inlämnat | okänd; `Örebro Norra` obelagt | — | — | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) |
 | 1917-11-08 | inflyttad, en vecka före resten av hushållet; betyget inlämnat här | Ytterhiske n:o 2, Umeå landsförsamling | — | föräldrarnas, uppslag 2284 | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
-| 1921-04-17 | gift; **maken namnges inte** | Umeå landsförsamling | — | föräldrarnas | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
+| 1921-04-17 | gift; maken namnges inte | Umeå landsförsamling | — | föräldrarnas | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
 | 1921 | lysning nr 27 | Umeå landsförsamling | — | — | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
 | 1922-04-06 | flyttningsbetyg | Umeå landsförsamling | — | — | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
 | 1922-04-07 | utflyttad | till Degerfors | — | — | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |
@@ -102,15 +102,15 @@ mannen. `Hörnberg` är ett sekundärträds ord, inte hennes bok.
 |---|---|---|---|---|
 | 1890 | Buberget | familj nr 2 i morföräldrarnas hushåll | [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md) | Fadern skrivs `måg`; familjen hade ännu inte eget bo. |
 | 1900–1917 | Rosinedahl | Degerfors A II a/3 folio 963, därefter A II a/6 folio 1064 | [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Den enda hemvist hon säkert hade i sjutton år. |
-| 1917-04-20 → 1917-11-08 | **oredovisad**; betyget angav `Örebro Norra` men ströks | — | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Nära sju månader utan skriven hemvist. **Detta är aktens största konkreta lucka.** |
+| 1917-04-20 → 1917-11-08 | oredovisad; betyget angav `Örebro Norra` men ströks | — | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Nära sju månader utan skriven hemvist. Detta är aktens största konkreta lucka. |
 | 1917-11-08 → 1922-04-07 | Ytterhiske n:o 2, Umeå landsförsamling | uppslag 2284 i A II a/23 | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Hon kom en vecka före hushållet och lämnade tre år före den territoriella överföringen till Umeå stad. |
-| 1922-04-07 → | Degerfors | — | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | **Hon återvände dit hon kom ifrån**, ett år efter vigseln. Degerfors församlingsbok efter 1920 är inte läst. |
+| 1922-04-07 → | Degerfors | — | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Hon återvände dit hon kom ifrån, ett år efter vigseln. Degerfors församlingsbok efter 1920 är inte läst. |
 
 ## Yrke, utbildning och ekonomi
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1910–1917 | **`Mejerska`** | Degerfors | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Ny 2026-09-09 och hennes enda yrkesuppgift. Mejerska var ett kvalificerat kvinnoyrke med egna kurser; arbetsgivaren namnges inte. |
+| 1910–1917 | `Mejerska` | Degerfors | [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Ny 2026-09-09 och hennes enda yrkesuppgift. Mejerska var ett kvalificerat kvinnoyrke med egna kurser; arbetsgivaren namnges inte. |
 | 1917–1922 | ingen yrkescell | Umeå landsförsamling | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | **Läst och tom.** Hennes bröder på samma uppslag har yrken skrivna; hennes cell är blank, vilket är en uppgift och inte en oläst kolumn. |
 | — | ingen utbildning och ingen ekonomisk uppgift | — | — | Hon står inte i folkräkningen 1930, eftersom hon lämnade hushållet 1922; därmed finns ingen inkomstkolumn för henne någonstans. |
 
@@ -154,8 +154,8 @@ kvinnoyrke som krävde utbildning och som gav rörlighet. Det är hennes enda
 yrkesuppgift och den enda uppgift i akten som säger något om vad hon gjorde
 med sina dagar.
 
-Och det förklarar antagligen den andra saken granskningen gav henne: **en
-lucka.** Den 20 april 1917 skrev Degerfors ut ett flyttningsbetyg åt henne,
+Och det förklarar antagligen den andra saken granskningen gav henne: en
+lucka. Den 20 april 1917 skrev Degerfors ut ett flyttningsbetyg åt henne,
 nummer 30 det året, med `Örebro Norra` som destination. Men destinationen
 ströks, och i anteckningskolumnen står varför: betyget lämnades in i **Umeå
 landsförsamling** den 8 november. Hon hade alltså ett giltigt betyg i handen
@@ -181,22 +181,22 @@ allt som är belagt om henne. Hon var trettioett år.
 
 ## Forskningsfrågor och konflikter
 
-1. **Vem gifte hon sig med?** Umeå landsförsamlings lysnings- och vigselbok
+1. Vem gifte hon sig med? Umeå landsförsamlings lysnings- och vigselbok
    1921, post 27, är den enda kända handling som kan namnge mannen och pröva
    sekundärträdets `Hörnberg`. Utan honom finns ingen församling att söka
    hennes död i. Se profilens Q-01 och KP-01.
-2. **Var var hon april–november 1917?** Betyget var utställt för Örebro Norra
+2. Var var hon april–november 1917? Betyget var utställt för Örebro Norra
    men lämnades in i Umeå. Örebro Norras in- och utflyttningslängder 1917
    avgör saken, och ett noll där vore ett upplysande negativt fynd, inte ett
    misslyckande. Degerfors utflyttningslängd 1917, post 30, ger betygets egen
    lydelse. Se Q-02, KP-02.
-3. **Hennes egen födelsenotis är oläst.** Degerfors födelsebok 1890 skulle ge
+3. Hennes egen födelsenotis är oläst. Degerfors födelsebok 1890 skulle ge
    dopdagen, dopvittnena och moderns uppgivna ålder, och göra 1890-09-01 till
    mer än tre avskrifter ur samma kopiekedja. Se Q-03, KP-03.
-4. **Var hon utbildad mejerska?** Yrkescellen står utan skola och utan
+4. Var hon utbildad mejerska? Yrkescellen står utan skola och utan
    arbetsgivare, och mejerikurser fanns i Västerbotten vid sekelskiftet.
    Frågan är öppen och förs under profilens ARB.
-5. **`Hörnberg` propageras inte.** Namnet står i akttiteln som ett motiverat
+5. `Hörnberg` propageras inte. Namnet står i akttiteln som ett motiverat
    visningsnamn av sekundärt ursprung, men det är inte belagt och används
    inte som söknyckel utan förbehåll.
 

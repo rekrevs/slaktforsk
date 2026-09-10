@@ -29,8 +29,8 @@ Identiteten är inte omstridd. Ingen konkurrerande Lars Petter Nilsson har fört
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-1743 | Lars Petter Nilsson var far till Anders Niklas, född 1862-06-15 och döpt 19 juni i Byn, Sättna. | TRANSCRIBED | hög | [C-0274](../citations/C-0274-anders-niklas-fodd-1862-sattna.md) | Sonens egen födelsenotis. **Rättat i T-0158:** posten skriver honom `Bd:n`, alltså bonden, inte `Arb.`; den äldre lydelsen `Arbetaren` är upphävd, se A-5831 och Historik och rättelser. |
-| A-2020 | Sättna A I/9a saknar den handpaginerade sidan 35 mellan bilderna `C0033643_00042` (sida 34) och `_00043` (sida 36); gränssidorna och A I/8 sida 35 saknar Lars Petter. | NEGATIVE | hög | [C-0358](../citations/C-0358-sattna-AI9a-byn-sida-35-lucka.md) | Observationen består. **Dess riktning är upphävd i T-0158:** hänvisningen i sonens födelsepost läses `Byn fol. 85`, inte `fol. 35`, så sidluckan gäller inte denna familj. Se A-5830. |
+| A-1743 | Lars Petter Nilsson var far till Anders Niklas, född 1862-06-15 och döpt 19 juni i Byn, Sättna. | TRANSCRIBED | hög | [C-0274](../citations/C-0274-anders-niklas-fodd-1862-sattna.md) | Sonens egen födelsenotis. Rättat i T-0158: posten skriver honom `Bd:n`, alltså bonden, inte `Arb.`; den äldre lydelsen `Arbetaren` är upphävd, se A-5831 och Historik och rättelser. |
+| A-2020 | Sättna A I/9a saknar den handpaginerade sidan 35 mellan bilderna `C0033643_00042` (sida 34) och `_00043` (sida 36); gränssidorna och A I/8 sida 35 saknar Lars Petter. | NEGATIVE | hög | [C-0358](../citations/C-0358-sattna-AI9a-byn-sida-35-lucka.md) | Observationen består. Dess riktning är upphävd i T-0158: hänvisningen i sonens födelsepost läses `Byn fol. 85`, inte `fol. 35`, så sidluckan gäller inte denna familj. Se A-5830. |
 | A-2075 | Lars Petter Nilsson anges född 1836 i Indal och skrivs torpare i Högsjö i utdragen för 1880, 1890 och 1900. | CORROBORATED | hög | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md), [C-0389](../citations/C-0389-folkrakning-1890-indal-hogsjo-nilsson-dalsten.md), [C-0390](../citations/C-0390-folkrakning-1900-indal-hogsjo-nilsson-dalsten.md) | **Rättat i T-0158:** de tre utdragen är inte tre oberoende källor. Deras egna dokumenthuvuden lyder `Utdrag ur Husförhörslängden` (1880, 1890) och `Utdrag ur Församlingsboken` (1900) för Indals församling; se A-5838. De bekräftar bokföringens innehåll, inte födelseuppgiften oberoende. Exakt datum kommer ur den egna födelseposten. |
 | A-2076 | År 1880 omfattade hushållet hustrun Kajsa Märta Dahlsten och barnen Anders Niklas, Nils Petter, Lars Olof och Katharina Petronella. | TRANSCRIBED | hög | [C-0388](../citations/C-0388-folkrakning-1880-indal-hogsjo-nilsson-dahlsten.md) | Hushållsrelationer och födelseår i registerpost och originalbild. Ordningen i utdraget är inte ett fastställt totalantal barn. |
 | A-2077 | En exakt namn- och länsbunden folkräkningsfråga återfinner hans födelseårsform 1836 endast 1880–1900, inte 1910. | NEGATIVE | medel | [C-0392](../citations/C-0392-folkrakningssok-nilsson-dalsten-1910-negativ.md) | Registerfrågenoll; inget döds- eller utflyttningsbelägg. Frågan är i sak överspelad av den belagda döden 1904. |
@@ -194,12 +194,12 @@ Vad de dog av vet vi inte, men vi vet varför. Indals egen dödbok F/2 lästes i
 
 Se [profilens frågor och källvägar](../research-profiles/P-0315.md#forskningsfrågor). Sammanfattat står följande öppet efter granskningen 2026-09-09:
 
-- **Sättna A I/9a, Byn folio 85** är den rättade och aldrig prövade hushållsingången för 1862–1866. Den ersätter den tidigare uppfattade skanningsluckan vid folio 35.
-- **Arklos hushållssidor i Indal A I/6 och A I/7** är den rättade ingången till barndomen 1836–1854. Ortsnyckeln kom med C-1017 och har aldrig omsatts i en uppslagning.
+- Sättna A I/9a, Byn folio 85 är den rättade och aldrig prövade hushållsingången för 1862–1866. Den ersätter den tidigare uppfattade skanningsluckan vid folio 35.
+- Arklos hushållssidor i Indal A I/6 och A I/7 är den rättade ingången till barndomen 1836–1854. Ortsnyckeln kom med C-1017 och har aldrig omsatts i en uppslagning.
 - **Vigselnotisen** för paret är inte läst; 1858-02-21 är belagd som lysningsdag.
 - **`G.b. 131`** leder inte till familjen i A I/11 sidorna 129–138, trots att motsvarande notering i nästa bok löser ut korrekt. Paginerings- eller registerkontroll återstår.
 - **Bouppteckningen** i Indals tingslag F II/5 och taxeringsvolymerna är exakt identifierade men analoga och olästa; de kräver ägarbeslut.
-- **Reproduktionen av Indal F/2 post 36** saknas lokalt och bör säkras när volymen nästa gång är åtkomlig.
+- Reproduktionen av Indal F/2 post 36 saknas lokalt och bör säkras när volymen nästa gång är åtkomlig.
 
 Inga konkurrerande identiteter finns. Ingen uppgift är `OWNER_CONFIRMED`. Utförandestatus och nästa steg ligger endast i Wotan.
 

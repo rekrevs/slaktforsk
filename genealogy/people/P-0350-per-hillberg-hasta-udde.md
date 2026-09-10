@@ -31,7 +31,7 @@ Fadern namnges ingenstans i det lästa materialet. Efternamnet Hillberg bärs av
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2009 | Bruksarbetaren Per Hillberg vid Håsta Udde anges som far till Anna Greta och Cajsa Mina, födda 1857-06-09. | TRANSCRIBED | hög | [C-0354](../citations/C-0354-halsingtuna-C5-anna-greta-cajsa-mina-fodda-1857.md) | Barnens gemensamma samtida födelsenotis, post 21–22 på sida 90. |
-| A-3209 | Per Hillberg anges född 1826-02-25 och står med sin mor, änkan Brita Hillberg, i samma familjehushåll som hustru och barn. | CORROBORATED | hög | [C-0842](../citations/C-0842-halsingtuna-AI13-per-hillberg-mor.md), [C-0354](../citations/C-0354-halsingtuna-C5-anna-greta-cajsa-mina-fodda-1857.md) | Hushållsprofilen säkrar modern; fadern namnges inte. **Den tidigare lydelsens födelsesocken `Hälsingtuna` är upphävd** och ersatt av läsningen i A-6490; äldre ordalydelse står i Historik och rättelser. |
+| A-3209 | Per Hillberg anges född 1826-02-25 och står med sin mor, änkan Brita Hillberg, i samma familjehushåll som hustru och barn. | CORROBORATED | hög | [C-0842](../citations/C-0842-halsingtuna-AI13-per-hillberg-mor.md), [C-0354](../citations/C-0354-halsingtuna-C5-anna-greta-cajsa-mina-fodda-1857.md) | Hushållsprofilen säkrar modern; fadern namnges inte. Den tidigare lydelsens födelsesocken `Hälsingtuna` är upphävd och ersatt av läsningen i A-6490; äldre ordalydelse står i Historik och rättelser. |
 | A-6490 | Födelseortscellen på Per Hillbergs egen rad i Hälsingtuna A I/13 sida 218 läses vid förstoring `Njutånger`, inte Hälsingtuna eller Tuna. | TRANSCRIBED | hög | [C-0842](../citations/C-0842-halsingtuna-AI13-per-hillberg-mor.md) | Ordet har å-ring och slutar på `-ger`. Samma hand skriver `Njutånger` på Anna Hellgrens rad och `Hudiksvall` på Olof Hillbergs rad på samma uppslag. Två av varandra oberoende läsningar, T-0156 och T-0162, ger samma ord. Det är en hushållsboksuppgift, inte en läst födelsenotis. |
 | A-6491 | Per Hillbergs egen rad bär läskunskapsbetygen `ab` under Läsning innan till., `b` under Läser utan Luth. Catech., `b` under Förkl. leröfv. och `b`[?] under Begrepp, samt egna förhörs- och nattvardsmarkeringar i alla fem årskolumnerna 1857–1861. | TRANSCRIBED | medel | [C-0842](../citations/C-0842-halsingtuna-AI13-per-hillberg-mor.md) | Talen prövas mot de tryckta underrubrikerna Förhör och Nattvard som 12/5 och 19/10 år 1857, 29/11[?] och 6/6 år 1858, 29/1[?] och 17/7 år 1859, enbart en nattvardsmarkering 12/8 år 1860 samt 11/10 och 22/9 år 1861. Svaga tal och den exakta fördelningen mellan de två underkolumnerna är råreservationer, och betygen översätts inte till någon modern nivåskala. |
 | A-6492 | Per Hillbergs egna kolumner för Döpelseort, Flyttad från, Flyttad till och Omständigheter är tomma genom hela bokens period. | TRANSCRIBED | hög | [C-0842](../citations/C-0842-halsingtuna-AI13-per-hillberg-mor.md) | Tomma fält är källgränser. Ingen in- eller utflyttning och ingen egen dödsnot är bokförd på hans rad 1857–1861; det är inte bevis för oavbruten fysisk vistelse och inte heller för att han levde efter 1861. |
@@ -128,7 +128,7 @@ Hans far är inte namngiven någonstans. Modern bar efternamnet Hillberg som än
 ## Forskningsfrågor och konflikter
 
 - Se [profilens frågor, teman och källvägar](../research-profiles/P-0350.md#forskningsfrågor).
-- **Fadersfronten har flyttat socken.** Den billigaste åtgärden är fortfarande en enda uppslagning, men den ska göras i **Njutångers** födelsebok för 25 februari 1826, inte i Hälsingtunas. Hälsingtuna kvarstår som kontrollalternativ eftersom uppgiften är en senare bokanteckning.
+- Fadersfronten har flyttat socken. Den billigaste åtgärden är fortfarande en enda uppslagning, men den ska göras i **Njutångers** födelsebok för 25 februari 1826, inte i Hälsingtunas. Hälsingtuna kvarstår som kontrollalternativ eftersom uppgiften är en senare bokanteckning.
 - Efternamnet Hillberg får inte bära någon fadersrelation. Modern bar det som änka.
 - Moderns egen födelsesocken kallas svårläst i [C-0842](../citations/C-0842-halsingtuna-AI13-per-hillberg-mor.md) och ser i översiktsbilden ut att kunna läsas `Forsa`. Frågan tillhör [P-0508](P-0508-brita-hillberg.md) och avgörs inte här.
 - Cajsa Minas och Per Erics dödsuppgifter är hushållsbokens; deras egna vitalposter i Hälsingtunas dödbok är olästa.
@@ -140,11 +140,11 @@ Hans far är inte namngiven någonstans. Modern bar efternamnet Hillberg som än
 
 Rättelser och tillägg vid denna granskning:
 
-1. **Födelsesocknen.** A-3209 uppgav födelse `i Hälsingtuna`. Den lydelsen är upphävd. Födelseortscellen på hans egen rad läses `Njutånger` (A-6490), i enlighet med det daterade tillägget till C-0842 från T-0156 och en egen omläsning i förstoring 2026-09-09. Äldre ordalydelse finns bevarad nedan.
-2. **Full utvinning av den egna hushållsraden.** Läskunskapsbetygen, de fem årens förhörs- och nattvardsmarkeringar och de tomma flytt-, döds- och anmärkningskolumnerna hade aldrig utvunnits (A-6491, A-6492). Tidigare granskning bedömde ändå PK-05 som styrkt.
-3. **Familjegruppen.** Sonen Per Eric, Cajsa Minas dödsuppgift och uppslagsrubriken `Håsta Udde, 12:e roten` fanns i C-0842:s tillägg men hade inte nått akten (A-6493, A-6495).
-4. **Dopvittnena.** De åtta vittnena i C-0354:s tillägg hade inte nått akten (A-6494) och saknades i relationstabellen.
-5. **Format och bedömning.** Rubrikerna `Forskningsstatus` och `Slutstatus` i förstandardformat är ersatta; relationstabellen har fått kolumnen `Tid/plats`. Identitetsnivån ändras från `UNDERKÄND`/`AVVAKTAR` till `GODKÄND`/`BÄRANDE` på den konkreta grunden att personen själv nu är fullt utvunnen och entydigt förankrad i två källägen, och att den relation antavlan passerar genom honom — modersraden `Modren Enkan Brita Hillberg` — är korroborerad. Den okände fadern är en öppen front, inte en osäker identitet som propageras. Livsbildsnivån är fortsatt `UNDERKÄND`.
+1. Födelsesocknen. A-3209 uppgav födelse `i Hälsingtuna`. Den lydelsen är upphävd. Födelseortscellen på hans egen rad läses `Njutånger` (A-6490), i enlighet med det daterade tillägget till C-0842 från T-0156 och en egen omläsning i förstoring 2026-09-09. Äldre ordalydelse finns bevarad nedan.
+2. Full utvinning av den egna hushållsraden. Läskunskapsbetygen, de fem årens förhörs- och nattvardsmarkeringar och de tomma flytt-, döds- och anmärkningskolumnerna hade aldrig utvunnits (A-6491, A-6492). Tidigare granskning bedömde ändå PK-05 som styrkt.
+3. Familjegruppen. Sonen Per Eric, Cajsa Minas dödsuppgift och uppslagsrubriken `Håsta Udde, 12:e roten` fanns i C-0842:s tillägg men hade inte nått akten (A-6493, A-6495).
+4. Dopvittnena. De åtta vittnena i C-0354:s tillägg hade inte nått akten (A-6494) och saknades i relationstabellen.
+5. Format och bedömning. Rubrikerna `Forskningsstatus` och `Slutstatus` i förstandardformat är ersatta; relationstabellen har fått kolumnen `Tid/plats`. Identitetsnivån ändras från `UNDERKÄND`/`AVVAKTAR` till `GODKÄND`/`BÄRANDE` på den konkreta grunden att personen själv nu är fullt utvunnen och entydigt förankrad i två källägen, och att den relation antavlan passerar genom honom — modersraden `Modren Enkan Brita Hillberg` — är korroborerad. Den okände fadern är en öppen front, inte en osäker identitet som propageras. Livsbildsnivån är fortsatt `UNDERKÄND`.
 
 Den tidigare slutstatusen `IDENTITET OLÖST` ersätts av profilens daterade bedömning och bevaras nedan som historisk. Den äldre `GRANSKAD`-bedömningen från 2026-09-04 (T-0033) och `Källbredd: KLAR` konverteras inte; källbredden är satt till `PÅGÅR`.
 
@@ -205,24 +205,24 @@ Hela den föregående akten bevaras oförändrad nedan.
 
 ### Inkommande följdfynd från T-0170, 2026-09-09
 
-Avgränsad rapport från moderns kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0162 äger akten.
+Avgränsad rapport från moderns kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0162 äger akten.
 
-- **Ett andra Hillbergshushåll står på samma sida och i samma rote:**
+- Ett andra Hillbergshushåll står på samma sida och i samma rote:
   `Bruksarbet. Olof Hillberg`, född `6/1 1832` i **Hudiksvall**, med hustrun
   `Anna Hellgren`, född 1839 i Njutånger, och barn. Familjenamnet, roten och
-  yrket är hans egna, och åldrarna 1826 och 1832 är förenliga med **samma
-  mor** — men hushållet är fört som eget, utan `Modren`-rad, och **ingen
-  relation är skapad.** Om han är en bror ger hans födelsepost i Hudiksvall
+  yrket är hans egna, och åldrarna 1826 och 1832 är förenliga med samma
+  mor — men hushållet är fört som eget, utan `Modren`-rad, och ingen
+  relation är skapad. Om han är en bror ger hans födelsepost i Hudiksvall
   1832 moderns namn och möjligen hennes patronymikon, som helt saknas.
-- **Moderns sockencell är förstorad.** T-0156 gissade `Forsa` ur
+- Moderns sockencell är förstorad. T-0156 gissade `Forsa` ur
   översiktsbilden; vid 700–900 % är läsningen förenlig med `Forsa` men **inte
   fastställd**, och ordet är oförenligt med sidans fyra andra sockennamn i
   samma hand — `Njutånger`, `Hudiksvall`, `Stockholm` och `Mo`.
-- **Din egen ortläsning berörs inte.** T-0156:s `Njutånger` för hans
+- Din egen ortläsning berörs inte. T-0156:s `Njutånger` för hans
   födelseortscell står oprövad i detta tillägg. Den bör bekräftas i samma
-  omläsning som moderns cell, eftersom **hans födelsepost i Njutånger 1826 är
-  den starkaste kända vägen till moderns make** — alltså till hans egen far,
+  omläsning som moderns cell, eftersom hans födelsepost i Njutånger 1826 är
+  den starkaste kända vägen till moderns make — alltså till hans egen far,
   som projektet uttryckligen saknar.
 
 Ingen ny arkivåtkomst har skett. Se C-0842:s daterade tillägg.

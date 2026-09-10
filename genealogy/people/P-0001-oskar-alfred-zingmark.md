@@ -43,17 +43,17 @@ sonens; den egna posten 1917 gör det.
 |---|---|---|---|---|---|
 | A-0001 | Namnet var Oskar Alfred Zingmark. | CORROBORATED | mycket hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md), [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md) | Födelseboken skriver dopnamnen Oskar Alfred; efternamnet är sedan utskrivet i hans egen inflyttningspost 1917 och i examenslängden 1923. |
 | A-0002 | Född 1897-05-22 i Degerfors församling. | CORROBORATED | mycket hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md) | Geni-ledtrådens Rosinedal som födelseort är fortfarande obelagd: kyrkoboken anger enbart Degerfors, och Rosinedahl är först belagt som boställe 1900. |
-| A-0003 | Sekundärträdets ledtråd lyder död 1963-07-15 i Umeå landsförsamling. **Församlingsuppgiften är upphävd som aktuell slutsats**; gravregistret skriver Umeå stadsförsamling (A-3316), och dagen är bekräftad i A-3313. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Bevarad som ursprunglig observation. Dödboken 1963 är fortfarande oläst och kan avgöra församlingsformen. |
+| A-0003 | Sekundärträdets ledtråd lyder död 1963-07-15 i Umeå landsförsamling. Församlingsuppgiften är upphävd som aktuell slutsats; gravregistret skriver Umeå stadsförsamling (A-3316), och dagen är bekräftad i A-3313. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Bevarad som ursprunglig observation. Dödboken 1963 är fortfarande oläst och kan avgöra församlingsformen. |
 | A-0004 | Make till Ebba Alfrida Andersson/Zingmark. | CORROBORATED | mycket hög | [C-0001](../citations/C-0001-geni-utdrag.md), [C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md), [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md) | Släktträdsuppgiften är verifierad i vigselboken och i det gemensamma hushållet fol 1006/275. |
 | A-0005 | Föräldrarna var Johan Oskar Zingmark och Ida Sofia Andersdotter. | CORROBORATED | mycket hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Födelsenotis, folkräkning och två församlingsböcker ger samma föräldrapar med samma födelsedagar. |
 | A-0012 | Barnet var av manligt kön och levande fött. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Talet 1 står i kolumnen `Lefv. född, m.`; kolumnerna för kvinnligt kön och dödfödd är tomma. |
 | A-0013 | Fadern var arbetaren Johan Oskar Zingmark. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Yrkesförkortningen läses `Arb.`. Han skrivs sågställare 1900–1917 och hemmansägare från 1917 ([C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md)). |
 | A-0014 | Modern var hustrun Ida Sofia Andersd:r, det vill säga Andersdotter. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Efternamnet står med upphöjt `r` i notisen och skrivs ut i sin helhet i [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md). Den tidigare läsosäkerheten är därmed upplöst. |
-| A-0015 | Födelsenotisen anger faderns födelsetid `61 ²⁸/₅`, det vill säga 1861-05-28. **De tidigare läsningarna 25/5 och 19/5 är upphävda.** | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md), [C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md) | Rättad vid omläsning i full upplösning 2026-08-29 och bekräftad av faderns egen födelsenotis [C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md) samt av [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) och [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md). |
+| A-0015 | Födelsenotisen anger faderns födelsetid `61 ²⁸/₅`, det vill säga 1861-05-28. De tidigare läsningarna 25/5 och 19/5 är upphävda. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md), [C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md) | Rättad vid omläsning i full upplösning 2026-08-29 och bekräftad av faderns egen födelsenotis [C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md) samt av [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) och [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md). |
 | A-0016 | Moderns födelsetid anges som 1867-12-15. | CORROBORATED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Den tidigare anteckningen att uppgiften återstod att verifiera i hushållsbok är inaktuell; två församlingsböcker ger samma dag. |
 | A-0017 | Bostads-/församlingsangivelsen är Degerfors. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Notisen anger enbart församlingen, inte ett boställe. Det mer precisa Rosinedahl är belagt först 1900 ([C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md)). |
 | A-0018 | Oskar Alfred döptes 1897-06-09. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Förrättaren anges med förkortningen `P.P.`, som återkommer på flera rader i samma längd. |
-| A-0019 | Födelsenotisens hänvisningskolumn lyder `93.3`, det vill säga sida 93, hushåll 3, i församlingens husförhörslängd. **Den tidigare läsningen 263.3 är upphävd.** | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Omläst i full upplösning 2026-09-08 i T-0149. Grannraderna i samma kolumn lyder 91.2, 179.2, 100.2, 96.2, 91.2, 261.2 och 267.3, vilket bekräftar formen sida.hushåll och att talet är tvåsiffrigt. Sida 93 i `A I/11c` är inte läst; [C-0003](../citations/C-0003-rosinedal-sida-103-negativ-kontroll.md) gäller enbart sida 103. |
+| A-0019 | Födelsenotisens hänvisningskolumn lyder `93.3`, det vill säga sida 93, hushåll 3, i församlingens husförhörslängd. Den tidigare läsningen 263.3 är upphävd. | TRANSCRIBED | hög | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Omläst i full upplösning 2026-09-08 i T-0149. Grannraderna i samma kolumn lyder 91.2, 179.2, 100.2, 96.2, 91.2, 261.2 och 267.3, vilket bekräftar formen sida.hushåll och att talet är tvåsiffrigt. Sida 93 i `A I/11c` är inte läst; [C-0003](../citations/C-0003-rosinedal-sida-103-negativ-kontroll.md) gäller enbart sida 103. |
 | A-0033 | Oskar Alfred bodde 1900 i Rosinedahl, Degerfors församling. | CORROBORATED | hög | [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Belagt för 1900 och för folio 963:s hela period 1900–1909, inte automatiskt för födelseåret 1897. |
 | A-0034 | Fadern Johan Oskar var sågställare år 1900. | TRANSCRIBED | hög | [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md) | Originalbild och databaspost överensstämmer. |
 | A-0035 | Johan Oskar anges född 1861 i Sävar. | CORROBORATED | hög | [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) | Det exakta datumet 1861-05-28 är sedan dess belagt i faderns egen födelsenotis (A-0015). |
@@ -77,9 +77,9 @@ sonens; den egna posten 1917 gör det.
 | A-3347 | Han tog flyttningsbetyg 1930-07-04 som lärare från Bastuträsk (Norsjö församlings östra kyrkobokföringsdistrikt), församlingsbokens uppslag 73, till Burträsk. | TRANSCRIBED | hög | [C-0893](../citations/C-0893-oskar-alfred-bastutrask-utflyttning-1930.md) | Bastuträsks utflyttningslängd B/2, 1930 nr 18. Uppslag 73 är en angiven men oläst ingång. |
 | A-3348 | Norsjö kyrkoarkivs utflyttningslängd 1930 (nr 1–48, januari–oktober) saknar honom; tjänsten före 1930 låg i Bastuträsk, inte i Norsjö kyrkby. | CORROBORATED | hög | [C-0893](../citations/C-0893-oskar-alfred-bastutrask-utflyttning-1930.md) | Avgränsat noll för just den volymen och det sidintervallet, förklarat av distriktsindelningen. Det säger ingenting om Norsjö församlingsbok 1924–1930. |
 | A-3406 | Han flyttade med föräldrahushållet till Ytterhiske N:o 2 i Umeå landsförsamling 1917-11-15 och stod där på uppslag 2284 med värnpliktsnummer 174 ⁷⁰/₁₇. | CORROBORATED | mycket hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md) | Värnpliktsnumret är identiskt med Degerforssidans (A-3346) och binder posterna till samma person. Inflyttningslängden ger honom dessutom en egen post nr 211. |
-| A-3407 | I Umeå landsförsamling skrevs han **seminarieelev** och tog betyg för inträde i **Luleå seminarium**. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Yrkeskolumn och anteckningskolumn; datumet i seminarieanteckningen är läsosäkert. Anteckningen dateras av inskrivningen 1919-06-12 (A-3464). |
+| A-3407 | I Umeå landsförsamling skrevs han seminarieelev och tog betyg för inträde i Luleå seminarium. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Yrkeskolumn och anteckningskolumn; datumet i seminarieanteckningen är läsosäkert. Anteckningen dateras av inskrivningen 1919-06-12 (A-3464). |
 | A-3408 | Han utflyttade till Norsjö 1924-11-01 med flyttningsbetyg 1924-10-29. | TRANSCRIBED | hög | [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Fyller merparten av luckan 1917–1928 i A-3346 och kopplar till Bastuträsk/Norsjö (A-3347). Mottagarposten i Norsjö är inte läst. |
-| A-3464 | Han skrevs in vid **Folkskoleseminariet i Luleå den 1919-06-12** och avlade **folkskollärarexamen där 1923** efter åtta terminer på den fyraåriga linjen. | CORROBORATED | mycket hög | [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Examenslängdens `1897 ²²/₅ Degerfors` binder raden till rätt person; bekräftar och daterar församlingsbokens `Bet. för intr. i Luleå seminarium`. |
+| A-3464 | Han skrevs in vid Folkskoleseminariet i Luleå den 1919-06-12 och avlade folkskollärarexamen där 1923 efter åtta terminer på den fyraåriga linjen. | CORROBORATED | mycket hög | [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) | Examenslängdens `1897 ²²/₅ Degerfors` binder raden till rätt person; bekräftar och daterar församlingsbokens `Bet. för intr. i Luleå seminarium`. |
 | A-3465 | Examensbetygen var genomgående goda: flera `a` och `AB` samt två `A` i de avslutande kolumnerna. | TRANSCRIBED | hög | [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md) | Kolumnindelningen i den högra halvan är läsosäker; betygsbokstäverna är entydiga. Vilket ämne varje betyg avser är därför inte fastställt. |
 | A-3466 | 1924 års examenslängd för den fyraåriga linjen saknar honom, kontrollerad från `Lind` till `Öhman`. | TRANSCRIBED | hög | [C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md) | Avgränsat noll som bekräftar 1923 som examensår; det gäller enbart den sidan och det namnintervallet. |
 | A-5020 | Faddrarkolumnen i födelse- och dopnotisen namnger `Jon. P. Hansson o. h. h.` i Degerfors, `Nils Nilsson o. h. h.` sammastädes, `Alb. Wahlund` i Westerliden, `Erika Eriksd.` i Degerfors, `Joh. Lindberg` i Ekträsk, `Alma Forsberg[?]` i Degerfors och `K. M. Andersson` i Buberget[?], samt en inskjuten rad `Lia[?] Karlss[on?]` sammastädes. | TRANSCRIBED | medel | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Ny utvinning ur den lokalt sparade helbilden 2026-09-08 i T-0149; kolumnen var tidigare uttryckligen outvunnen. `o. h. h.` läses `och hans hustru`, och hustrurna namnges inte. Westerliden, Ekträsk och Buberget är byar i samma församling, vilket stödjer läsningarna; efternamnsformerna Forsberg och Karlsson samt förnamnet `Lia` är läsosäkra. Fadderskap är ett socialt förhållande, inte belagt släktskap. |
@@ -324,23 +324,23 @@ mot samtliga citationer den hänvisar till, inklusive deras daterade tillägg.
 Fyra sakrättelser gjordes, och samtliga tidigare A-id är bevarade. Hela den
 föregående akten står oförändrad som blockcitat nedan.
 
-- **A-0015 rättad.** Tidigare lydelse: ”Faderns födelsetid anges som
+- A-0015 rättad. Tidigare lydelse: ”Faderns födelsetid anges som
   1861-05-25.” med kommentaren ”Ska verifieras i hushållsbok.” Rättelsen i
   [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) 2026-08-29 och
   omläsningen i [C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md)
   visar `61 28/5`. Både 25/5 och mellanrättelsen 19/5 var fel. Rättelsen hade
   inte nått akttexten på över en vecka.
-- **A-0019 rättad.** Tidigare lydelse: ”Födelsenotisen hänvisar sannolikt till
+- A-0019 rättad. Tidigare lydelse: ”Födelsenotisen hänvisar sannolikt till
   sidan/uppslaget 263.3 i hushållsboken.” Omläsning av den lokalt sparade
   helbilden 2026-09-08 ger `93.3`. Grannradernas värden i samma kolumn
   (91.2, 179.2, 100.2, 96.2, 91.2, 261.2, 267.3) bekräftar formen och att
   talet är tvåsiffrigt.
-- **A-0014 omformulerad.** Tidigare lydelse: ”Modern var hustrun Ida Sofia
+- A-0014 omformulerad. Tidigare lydelse: ”Modern var hustrun Ida Sofia
   Andersd.[otter?].” med kommentaren att efternamnets slut inte var säkert
   avläst. Notisen skriver `Andersd:r` med upphöjt r, och
   [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)
   skriver ut Andersdotter.
-- **A-3344 omformulerad.** Tidigare lydelse: ”Hushållet på fol 1006 omfattar
+- A-3344 omformulerad. Tidigare lydelse: ”Hushållet på fol 1006 omfattar
   hustrun Ebba Alfrida (från fol 959, 1932) och fyra barn födda 1933, 1936,
   1938 och 1942 i Burträsk; det överfördes 1943 till nya bokens fol 275,
   Gammelbyn 14.” Tillägget till
@@ -348,7 +348,7 @@ föregående akten står oförändrad som blockcitat nedan.
   T-0147 visar att födelseortskolumnen är tom på fol 1006 och att `Burträsk`
   står först på fol 275. Slutsatsen om födelseförsamlingen består; lokus är
   rättat.
-- **Felaktig uppgift om hustruns hemsocken struken.** Den föregående akten
+- Felaktig uppgift om hustruns hemsocken struken. Den föregående akten
   skrev att han gravsattes ”i hustruns hemsocken Burträsk”. Burträsk var inte
   Ebba Alfridas hemsocken: hon var född och uppvuxen i Bygdeå/Robertsfors och
   kom till Burträsk först 1930 som folkskollärarinna
@@ -356,15 +356,15 @@ föregående akten står oförändrad som blockcitat nedan.
   Gravsättningsorten är oförändrad; det är hemsockenpåståendet som bortfaller.
   Formuleringen står kvar i det bevarade blockcitatet nedan och är där
   historik, inte aktuell slutsats.
-- **A-0003 märkt som upphävd i saktexten.** Ursprungsobservationen ur
+- A-0003 märkt som upphävd i saktexten. Ursprungsobservationen ur
   Geni-utdraget bevaras, men församlingsformen Umeå landsförsamling står inte
   längre som aktuell slutsats vid sidan av A-3316.
-- **Nya påståenden ur redan sparade original:** A-5020 (faddrarna i den egna
+- Nya påståenden ur redan sparade original: A-5020 (faddrarna i den egna
   födelsenotisen), A-5021 (moderns kyrktagning 1897-07-26) och A-5022
   (svärföräldrarna på samma fastighet 1946–1948). Ingen ny arkivåtkomst har
   gjorts; A-5020 och A-5021 är utvunna ur den redan sparade helbilden till
   C-0002, A-5022 ur C-0970 och C-0920.
-- **Kommentarer som var överspelade** och nu är avstämda: A-0016 (”ska
+- Kommentarer som var överspelade och nu är avstämda: A-0016 (”ska
   verifieras i hushållsbok” — verifierat i C-0574 och C-0907), A-3346 (”hans
   väg 1917–1928 återstår” — sluten av C-0907, C-0921 och C-0893) och
   Forskningsanteckningarnas påstående att tiden 1909–1930 var obelagd.

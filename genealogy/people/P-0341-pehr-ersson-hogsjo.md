@@ -146,7 +146,7 @@ posterna ovan är reproduktioner av kyrkoböcker, inte personliga källor.
 
 ## Biografisk sammanfattning
 
-Pehr Ersson var **torpare i Högsjö i Indals socken** när hans son Nils Petter
+Pehr Ersson var torpare i Högsjö i Indals socken när hans son Nils Petter
 föddes den 8 mars 1834. Det står i sonens egen födelse- och dopnotis, som
 skriver honom `T. Pehr Ersson från Högsjö` och hustrun `Hust. Ingeb: Nilsdr
 ibm`, alltså i samma by, med åldern 35 år.
@@ -207,14 +207,14 @@ Se [profilens frågor och källvägar](../research-profiles/P-0341.md#forsknings
   med det överstrukna hushållet på sida 83 omläst och avfört som målfamilj.
 - Negativ kontroll: [C-0836](../citations/C-0836-indal-AI5-AI6-hogsjo-familjekontroll.md),
   [C-0344](../citations/C-0344-indal-AI6-hogsjo-sida-83-arbetsuppslag.md)
-- Återaktivera när: en av **fyra namngivna och oprövade** ingångar ger en
-  personbunden ort- eller sidnyckel. **(1) Ortregistret i `A I/5` och `A I/6`**,
+- Återaktivera när: en av fyra namngivna och oprövade ingångar ger en
+  personbunden ort- eller sidnyckel. (1) Ortregistret i `A I/5` och `A I/6`,
   som aldrig har använts — ett torp under Högsjö kan vara fört under torpets
   eget namn i stället för under byn, och A-6410 gör just den förklaringen
-  sannolik. **(2) Indals vigselbok `E I`** omkring 1820–1834; parets egen
+  sannolik. (2) Indals vigselbok `E I` omkring 1820–1834; parets egen
   vigselnotis skulle ge båda parternas hemvist och giftomannen, som i sig är
-  en fadersnyckel. **(3) Indals in- och utflyttningslängd `B`** kring 1834.
-  **(4) Vittnenas hemorter** — Sunnanå och de reserverade `Wester[?]sjö och
+  en fadersnyckel. (3) Indals in- och utflyttningslängd `B` kring 1834.
+  (4) Vittnenas hemorter — Sunnanå och de reserverade `Wester[?]sjö och
   Sanna[?]` och `Wik[?]` — som ger fyra nya ortnycklar in i samma volymer,
   varav Sunnanå är säkert läst och bär en Ersson.
   **Upprepa inte** Högsjöavsnitten i `A I/5` sidorna 193–199 och `A I/6`
@@ -228,28 +228,28 @@ Se [profilens frågor och källvägar](../research-profiles/P-0341.md#forsknings
 T-0162, 2026-09-09: akten är omskriven till `person-dossier/v1`. Hela den
 föregående akten bevaras nedan i sin helhet. Följande sakändringar gjordes.
 
-- **Läsningen `F.` → `T.` i föräldrakolumnen.** Den äldre lydelsen i
+- Läsningen `F.` → `T.` i föräldrakolumnen. Den äldre lydelsen i
   [C-0342](../citations/C-0342-indal-C4-nils-petter-fodd-1834.md) och i
   profilens tema ARB — *"Ingen ståndsuppgift finns. Födelsenotisen skriver
   bara `F.` för fadern, utan yrke eller titel"* — är upphävd. Versalen är vid
   förstoring identisk med samma hands `Torp.` och `T.` på samma uppslag och
   skild från handens `Fadr.` Ersättande belägg: A-6410.
-- **Dopvittneskolumnen är utvunnen.** Den var uttryckligen otranskriberad i
+- Dopvittneskolumnen är utvunnen. Den var uttryckligen otranskriberad i
   C-0342 och redovisad som outförd åtgärd i profilen från 2026-09-07. Sex
   vittnen är nu lästa; A-6411, A-6412.
-- **Det överstrukna hushållet på `A I/6` sida 83 är omläst.** C-0344:s lydelse
+- Det överstrukna hushållet på `A I/6` sida 83 är omläst. C-0344:s lydelse
   *"ingen namn-, datum- eller släktuppgift från det överstrukna partiet har
   lyfts"* beskrev ett val, inte en oläslighet: raderna är överstrukna men
   läsbara. Ersättande belägg: A-6414.
-- **Nollet är nu ett påstående.** De två ortavsnittsnollen bars tidigare bara
+- Nollet är nu ett påstående. De två ortavsnittsnollen bars tidigare bara
   av prosa i `## Slutstatus` och fanns inte i evidensmodellen; A-6413.
-- **Bedömningsändring.** `Identitetsgranskning` går från `UNDERKÄND`
+- Bedömningsändring. `Identitetsgranskning` går från `UNDERKÄND`
   2026-09-07 till `GODKÄND`, och `Trädverkan` från `AVVAKTAR` till `BÄRANDE`.
   Grunden är att PK-05 nu är uppfyllt och att PK-01 gäller aktens
   personavgränsning, som aldrig har byggt på någon sammanföring. Motiveringen
   krav för krav står i profilen. `Kontraktsgranskning` är oförändrat
   `UNDERKÄND`.
-- **Ingen ny arkivåtkomst.** Allt ovan är läst i helbilder som redan fanns
+- Ingen ny arkivåtkomst. Allt ovan är läst i helbilder som redan fanns
   bevarade i projektet.
 
 Det äldre `Arbetsläge` med `Konsolidering: GRANSKAD 2026-09-04 (T-0013)` och

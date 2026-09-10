@@ -167,12 +167,12 @@ Se [profilens frågor och källvägar](../research-profiles/P-0263.md#forsknings
 
 T-0159, 2026-09-09: akten är omskriven till `person-dossier/v1`. Hela den föregående akten bevaras som blockcitat nedan. Följande sakrättelser gjordes mot de lokalt bevarade fullbilderna, utan ny arkivåtkomst.
 
-1. **Inflyttningsdagen 1875 rättad.** [C-0280](../citations/C-0280-ernst-helge-petrus-urbom-terno-sida-112.md) skrev `75 5/10` och [C-0283](../citations/C-0283-ernst-helge-petrus-urbom-terno-sida-118.md) skrev `75 [3/10?]` för samma inflyttning från Hyltinge. Cellen läses i A I/19 otvetydigt `75 2/11` med attest 24, och i A I/18 med samma attestnummer. Systern Huldas återkomst samma dag med attest 25 stöder novemberläsningen. Aktuell uppgift är 1875-11-02; se A-1781.
-2. **Utflyttningsdagen 1873 preciserad.** C-0280 reserverade dagtalet som `[20?/10]`. Originalet visar `73 24/10` med attest 16. Se A-1780.
-3. **Anmärkningskolumnen rättad.** C-0280 återgav anmärkningen som `på Walla 1873`. Cellen lyder `1ste Mötet 1873`. Den äldre lydelsen är därmed upphävd som avskriftsfel; se A-6011.
+1. Inflyttningsdagen 1875 rättad. [C-0280](../citations/C-0280-ernst-helge-petrus-urbom-terno-sida-112.md) skrev `75 5/10` och [C-0283](../citations/C-0283-ernst-helge-petrus-urbom-terno-sida-118.md) skrev `75 [3/10?]` för samma inflyttning från Hyltinge. Cellen läses i A I/19 otvetydigt `75 2/11` med attest 24, och i A I/18 med samma attestnummer. Systern Huldas återkomst samma dag med attest 25 stöder novemberläsningen. Aktuell uppgift är 1875-11-02; se A-1781.
+2. Utflyttningsdagen 1873 preciserad. C-0280 reserverade dagtalet som `[20?/10]`. Originalet visar `73 24/10` med attest 16. Se A-1780.
+3. Anmärkningskolumnen rättad. C-0280 återgav anmärkningen som `på Walla 1873`. Cellen lyder `1ste Mötet 1873`. Den äldre lydelsen är därmed upphävd som avskriftsfel; se A-6011.
 4. **Utflyttningen 1878 preciserad** med dag 24/10 och attest 59; A-1791 hade tidigare bara år och destination.
-5. **Eget hushåll tillfört.** Den föregående akten kände inte till att han var gift och hade två barn. Äktenskapskolumnen, hustruns rad och barnens två rader stod hela tiden på den redan bevarade fullbilden till C-0281, vars tolkningsavsnitt bara behandlade föräldrarna och systern Hulda. Se A-6012 till A-6016.
-6. **Dödsåret 1923 fått belägg.** Den föregående akten nämnde årtalet utan källa. Det står i den lokalt bevarade HTML-kopian till C-0248; se A-6010.
+5. Eget hushåll tillfört. Den föregående akten kände inte till att han var gift och hade två barn. Äktenskapskolumnen, hustruns rad och barnens två rader stod hela tiden på den redan bevarade fullbilden till C-0281, vars tolkningsavsnitt bara behandlade föräldrarna och systern Hulda. Se A-6012 till A-6016.
+6. Dödsåret 1923 fått belägg. Den föregående akten nämnde årtalet utan källa. Det står i den lokalt bevarade HTML-kopian till C-0248; se A-6010.
 7. **Visningsnamnet ändrat** från Uhrbom till Urbom, se Identitet och Namnformer. Filnamnet är oförändrat.
 
 Inget A-id har tagits bort. A-1542 och A-1543 har höjd status, A-1780, A-1781 och A-1791 har omformulerats mot aktuellt belägg, och samtliga tidigare lydelser står kvar i blockcitatet nedan.

@@ -35,7 +35,7 @@ Ingen läst källa skriver henne `Charlotta`. Formen prövades enbart som sökva
 | A-0303 | Hon var mor till Ida Sofia Andersdotter. | CORROBORATED | hög | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0066](../citations/C-0066-ida-sofia-folkrakning-1870.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md) | Samtida födelsebok plus följt hushåll. C-0060 räknas inte längre som fjärde röst, eftersom bladet är ett utdrag ur längden. |
 | A-0329 | Den senare husförhörslängden A I/9c skriver hennes födelsedatum som 1843-10-20. | TRANSCRIBED | hög | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md) | Källtrogen avskriftsvariant; egen födelsenotis fastställer 30 mars. |
 | A-0330 | Åren 1867–1876 var hon hustru till Anders Jonsson och mor till barnen i Bubergets hushåll. | CORROBORATED | hög | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md), [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0066](../citations/C-0066-ida-sofia-folkrakning-1870.md) | Direkt familjestruktur i tre källor. |
-| A-0604 | ~~Hon var född i oktober 1843; dagen anges som 20 i husförhörslängden och som 17 i vigselboken.~~ **Upphävd som faktisk födelsetid.** | REJECTED | hög | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | Oktoberformerna bevaras som källvarianter men avvisas som faktisk födelsetid; födelsebok, barndomshushåll och dödbok stöder 30 mars. A-5731 tillför en tredje oktoberform, `30/10`. |
+| A-0604 | ~~Hon var född i oktober 1843; dagen anges som 20 i husförhörslängden och som 17 i vigselboken.~~ Upphävd som faktisk födelsetid. | REJECTED | hög | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | Oktoberformerna bevaras som källvarianter men avvisas som faktisk födelsetid; födelsebok, barndomshushåll och dödbok stöder 30 mars. A-5731 tillför en tredje oktoberform, `30/10`. |
 | A-0605 | Hon kallas nämndemansdotter i lysningsboken 1867. | TRANSCRIBED | hög | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Ståndsbeteckningen anger faderns funktion, inte hennes eget yrke eller en mätt levnadsstandard. |
 | A-0606 | Hennes far var nämndemannen Anders Olofsson i Rödå. | CORROBORATED | hög | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md) | Uttrycklig dotterrad i barndomshushållet plus giftomannaskapet 1867. Den äldre LEAD-slutsatsen i C-0106 är överspelad. |
 | A-0607 | Hon lyste 1867-01-06 och vigdes 1867-01-28 med Anders Jonsson. | CORROBORATED | hög | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md) | Lysningsnummer 1 för året; hushållsboken A I/10c för vigseln `67 28/1`. Hushållsboken är dock samma kyrkliga bokföringskedja, inte ett oberoende vittne. |
@@ -47,7 +47,7 @@ Ingen läst källa skriver henne `Charlotta`. Formen prövades enbart som sökva
 | A-0660 | Hennes farmor, änkan Anna Catharina Andersdotter född 1783 i Umeå stadsförsamling, bodde i hushållet. | TRANSCRIBED | hög | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Redovisas som `Moder` till hushållsföreståndaren. Änkestatusen namnger ingen farfar. |
 | A-0624 | Degerfors födelsebok innehåller ingen födelse den 20 oktober 1843, och den 17 oktober föddes Anna Christina, dotter till Michaël Forsgren. | TRANSCRIBED | hög | [C-0110](../citations/C-0110-degerfors-oktober-1843-negativ-kontroll.md) | Oktober till december 1843 genomgången, bilderna 78–79, båda postblocken. Nollan gäller exakt det omfånget. |
 | A-0625 | Ingen flicka född oktober–december 1843 bär namnet Lotta, Charlotta eller Sofia med en far vid namn Anders Olofsson. | TRANSCRIBED | hög | [C-0110](../citations/C-0110-degerfors-oktober-1843-negativ-kontroll.md) | Samma genomgång. |
-| A-0626 | ~~Mars–september 1843 är ännu inte genomgångna, och Rödås uppslag i husförhörslängden är inte kontrollerat.~~ **Överspelat arbetsläge.** | REJECTED | hög | [C-0110](../citations/C-0110-degerfors-oktober-1843-negativ-kontroll.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md) | Rödå och den exakta födelseposten på bild 73 är lästa. C-0110:s egen avsnitt `Nästa åtgärd` bär samma överspelade lydelse. |
+| A-0626 | ~~Mars–september 1843 är ännu inte genomgångna, och Rödås uppslag i husförhörslängden är inte kontrollerat.~~ Överspelat arbetsläge. | REJECTED | hög | [C-0110](../citations/C-0110-degerfors-oktober-1843-negativ-kontroll.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md) | Rödå och den exakta födelseposten på bild 73 är lästa. C-0110:s egen avsnitt `Nästa åtgärd` bär samma överspelade lydelse. |
 | A-2096 | Lotta Sofia föddes 1843-03-30 i Rödå, döptes 4 april och var dotter till nämndemannen Anders Olofsson och Sofia Magdalena Jonsdotter. | CORROBORATED | hög | [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Egen födelsenotis och barndomshushåll. |
 | A-2097 | Hon dog 1898-05-25 i Buberget, begravdes 5 juni och dödsorsaken skrevs `lungsot`. | CORROBORATED | hög | [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md), [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) | Historisk källterm utan modern medicinsk omtolkning. |
 | A-2098 | Åren 1890–1898 levde hon som bondhustru i Buberget med Anders Jonsson och barnen Maria Augusta, Jonas Edvard, Anders, Hildur Charlotta, Karl Magnus, Hanna Mathilda och Oskar Rudolf. | TRANSCRIBED | hög | [C-0404](../citations/C-0404-degerfors-AI11c-buberget-sida-241.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md) | Statusen sänks från CORROBORATED: C-0060 är ett utdrag ur samma husförhörslängdserie som C-0404 och bär därför inte en andra oberoende röst. Äldre lydelse i historiken. |
@@ -163,15 +163,15 @@ Inga fotografier, brev, dagböcker eller underskrifter av henne är kända. Boup
 
 ## Biografisk sammanfattning
 
-Lotta Sofia Andersdotter föddes den **30 mars 1843 i Rödå** i Degerfors och döptes fem dagar senare. Hennes far var nämndemannen Anders Olofsson, modern Sofia Magdalena Jonsdotter, som vid förlossningen anges vara 32 år; i hushållet bodde också farmodern, änkan Anna Catharina Andersdotter, född 1783 i Umeå stadsförsamling. Föräldrarna hade vigts 1828, han då 22 år och hon 18. Barndomsboken 1861–1865 för nio barnrader, alltså åtta syskon vid sidan av henne själv. Nämndemanstiteln beskriver faderns funktion i häradsrätten; den säger i sig ingenting om hushållets levnadsstandard jämfört med grannarnas. [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0116](../citations/C-0116-anders-olofsson-sofia-magdalena-vigsel-1828.md)
+Lotta Sofia Andersdotter föddes den 30 mars 1843 i Rödå i Degerfors och döptes fem dagar senare. Hennes far var nämndemannen Anders Olofsson, modern Sofia Magdalena Jonsdotter, som vid förlossningen anges vara 32 år; i hushållet bodde också farmodern, änkan Anna Catharina Andersdotter, född 1783 i Umeå stadsförsamling. Föräldrarna hade vigts 1828, han då 22 år och hon 18. Barndomsboken 1861–1865 för nio barnrader, alltså åtta syskon vid sidan av henne själv. Nämndemanstiteln beskriver faderns funktion i häradsrätten; den säger i sig ingenting om hushållets levnadsstandard jämfört med grannarnas. [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md), [C-0116](../citations/C-0116-anders-olofsson-sofia-magdalena-vigsel-1828.md)
 
-Hennes födelsedag har varit projektets längsta datumfråga. Fyra kyrkliga böcker skriver fyra olika bråk — `30/3`, `17/10`, `20/10` och `30/10` — och en tidig kontroll gick igenom hela oktober till december 1843 utan att finna henne. Frågan är avgjord åt andra hållet: **egen födelsenotis, barndomshushåll, den sista husförhörslängden och dödboken ger alla 30 mars**, och oktoberformerna står kvar som avskriftsvarianter. Att A I/10c skriver just `30/10` gör det troligt att månaden en gång skrevs fel medan dagen följde med rätt; det är en förklaringshypotes, inte ett belägg. Källorna för marsdatumet tillhör samma kyrkliga bokföringskedja och är därför inte fyra oberoende vittnen. [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0110](../citations/C-0110-degerfors-oktober-1843-negativ-kontroll.md)
+Hennes födelsedag har varit projektets längsta datumfråga. Fyra kyrkliga böcker skriver fyra olika bråk — `30/3`, `17/10`, `20/10` och `30/10` — och en tidig kontroll gick igenom hela oktober till december 1843 utan att finna henne. Frågan är avgjord åt andra hållet: egen födelsenotis, barndomshushåll, den sista husförhörslängden och dödboken ger alla 30 mars, och oktoberformerna står kvar som avskriftsvarianter. Att A I/10c skriver just `30/10` gör det troligt att månaden en gång skrevs fel medan dagen följde med rätt; det är en förklaringshypotes, inte ett belägg. Källorna för marsdatumet tillhör samma kyrkliga bokföringskedja och är därför inte fyra oberoende vittnen. [C-0403](../citations/C-0403-degerfors-C3-lotta-sofia-fodd-1843.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0110](../citations/C-0110-degerfors-oktober-1843-negativ-kontroll.md)
 
 Den 28 januari 1867, tjugotre år gammal, vigdes hon med **Anders Jonsson**, hemmansägare i Buberget; lysningsboken kallar henne nämndemansdotter, och fadern var giftoman och närvarande. Hon flyttade från Rödå till Buberget, båda byar i Degerfors församling, och blev kvar där resten av livet. Elva månader senare föddes dottern Ida Sofia, och födelseboken anger moderns ålder till 24 år. [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md)
 
-De trettioett åren i Buberget kan följas uppslag för uppslag: A I/9c 1866–1876, A I/10c 1877–1889 och A I/11c 1890–1899. Minst tio barn är kända. Tvillingarna Anders och Carl föddes och döptes samma dag, den 9 maj 1873, när paret enligt födelseboken varit gift i sex år; deras rader är senare överstrukna och har uppgifter i dödskolumnen. År 1888 gifte sig äldsta dottern Ida Sofia med snickaren Johan Oskar Zingmark, som skrevs in som måg på samma hushållssida. **Åtta barn levde när hon dog** — arvingelistan 1898 är ett tidsbundet urval, inte ett totalt födelsetal. [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0065](../citations/C-0065-anders-carl-tvillingsoner-fodelse-1873.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md)
+De trettioett åren i Buberget kan följas uppslag för uppslag: A I/9c 1866–1876, A I/10c 1877–1889 och A I/11c 1890–1899. Minst tio barn är kända. Tvillingarna Anders och Carl föddes och döptes samma dag, den 9 maj 1873, när paret enligt födelseboken varit gift i sex år; deras rader är senare överstrukna och har uppgifter i dödskolumnen. År 1888 gifte sig äldsta dottern Ida Sofia med snickaren Johan Oskar Zingmark, som skrevs in som måg på samma hushållssida. Åtta barn levde när hon dog — arvingelistan 1898 är ett tidsbundet urval, inte ett totalt födelsetal. [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0065](../citations/C-0065-anders-carl-tvillingsoner-fodelse-1873.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md)
 
-Hon dog den **25 maj 1898**, femtiofem år gammal, i **lungsot**, och begravdes den 5 juni. Två veckor före döden hade makarna upprättat ett inbördes testamentariskt förordnande: den efterlevande skulle få sitta i orubbat bo tills yngste sonen Rudolf blev myndig. Bouppteckningen hölls den 23 augusti. Av de myndiga barnen inställde sig bara sonen Anders; grannen Anders Bäckman bevakade de omyndigas rätt, och änklingen uppgav boet under ed. En äldre helhetsavskrift beskriver ett ovanligt förmöget bo där mer än hälften av värdet var utlånade pengar, men **de tjugo fortsättningsbilderna saknas lokalt och slutsummorna innehåller en olöst räknekonflikt om 1,40 kr**. Boets innehåll står därför kvar som en ekonomisk fråga för både henne och maken. [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md)
+Hon dog den 25 maj 1898, femtiofem år gammal, i **lungsot**, och begravdes den 5 juni. Två veckor före döden hade makarna upprättat ett inbördes testamentariskt förordnande: den efterlevande skulle få sitta i orubbat bo tills yngste sonen Rudolf blev myndig. Bouppteckningen hölls den 23 augusti. Av de myndiga barnen inställde sig bara sonen Anders; grannen Anders Bäckman bevakade de omyndigas rätt, och änklingen uppgav boet under ed. En äldre helhetsavskrift beskriver ett ovanligt förmöget bo där mer än hälften av värdet var utlånade pengar, men de tjugo fortsättningsbilderna saknas lokalt och slutsummorna innehåller en olöst räknekonflikt om 1,40 kr. Boets innehåll står därför kvar som en ekonomisk fråga för både henne och maken. [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-1054](../citations/C-1054-degerfors-AIIa37-bouppteckningen-1898-hela-boet.md)
 
 ## Forskningsfrågor och konflikter
 
@@ -192,37 +192,37 @@ Bevarade konflikter och gränser:
 
 Barnkohorten P-0067–P-0072 är konsoliderad i
 [T-0178](../../wotan/dev-log/T-0178.md). Tre av aktens bevarade konflikter
-och gränser berörs. **Inget avgörs här; hennes egna uppgifter ägs av denna
-akt och full adoption av T-0157.**
+och gränser berörs. Inget avgörs här; hennes egna uppgifter ägs av denna
+akt och full adoption av T-0157.
 
 **Konflikten om Karl Magnus födelsedag finns inte.** Punkten ovan bevarar att
-`27/7` står i A I/10c mot `21/7` i bouppteckningen. Vid omläsning av **båda**
+`27/7` står i A I/10c mot `21/7` i bouppteckningen. Vid omläsning av båda
 husförhörsvolymernas sparade helbilder vid 600 respektive 900 % läser båda
-`1880 ²¹/₇`. Räknarens andra siffra är ett **rakt streck med liten
-ingångsserif** — en `1` — och inte en `7`, som i denna hand har en **vågrät
-topplinje**; jämförelsen kan göras mot `²¹/₆` på Hildur Charlottas rad och mot
-**nämnaren `7`** på hans egen rad. A-5793 är avvisad med bevarad
+`1880 ²¹/₇`. Räknarens andra siffra är ett rakt streck med liten
+ingångsserif — en `1` — och inte en `7`, som i denna hand har en vågrät
+topplinje; jämförelsen kan göras mot `²¹/₆` på Hildur Charlottas rad och mot
+nämnaren `7` på hans egen rad. A-5793 är avvisad med bevarad
 ursprungslydelse, och prövningen är förd som A-7751 i
-[P-0071](P-0071-karl-magnus-andersson.md). **Punkten ovan bör skrivas om av
-denna akts ägare**: det finns ingen konflikt att bevara, och hans egen
+[P-0071](P-0071-karl-magnus-andersson.md). Punkten ovan bör skrivas om av
+denna akts ägare: det finns ingen konflikt att bevara, och hans egen
 födelsepost behöver inte längre läsas för att avgöra en.
 
 **Om hennes egen födelsedag preciseras en läsning, inte ett alternativ.**
 Punkten ovan fastställer marsdatumet och bevarar `17/10`, `20/10` och `30/10`
 som avskriftsvarianter utan status som öppna alternativ. Läsningen 2026-09-09
-visar att **`30/10` står i bilden i två volymer** — både A I/10c sida 207 och
-A I/9c sida 85 — medan C-0404 bär `1843-03-30`. **C-0064:s avskrift `20/10`
-är därmed en felläsning av den cell som läses `30/10`**, inte en fjärde
+visar att `30/10` står i bilden i två volymer — både A I/10c sida 207 och
+A I/9c sida 85 — medan C-0404 bär `1843-03-30`. C-0064:s avskrift `20/10`
+är därmed en felläsning av den cell som läses `30/10`, inte en fjärde
 självständig variant. Antalet varianter i omlopp sjunker från fyra till tre,
-och **marsdatumet berörs inte.** Avgörandet ligger kvar hos denna akt.
+och marsdatumet berörs inte. Avgörandet ligger kvar hos denna akt.
 
 **Åtta arvingar ≠ åtta barn är fört vidare** i samtliga sex barnakter, med
-`minst tio kända barn` och **två** syskon utan person-id — tvillingarna
-Anders och Carl — som uttrycklig kohortavgränsning. **Rättelse 2026-09-09,
-T-0179:** T-0178 skrev först att Oskar Rudolf saknar person-id; han är
+`minst tio kända barn` och två syskon utan person-id — tvillingarna
+Anders och Carl — som uttrycklig kohortavgränsning. Rättelse 2026-09-09,
+T-0179: T-0178 skrev först att Oskar Rudolf saknar person-id; han är
 [P-0073](P-0073-oskar-rudolf-andersson.md) och länkas redan från denna akts
-relationstabell. **Tvillingarnas dödskolumn
-ägs fortsatt av [T-0259](../../wotan/dev-log/T-0259.md)** och är inte läst i
+relationstabell. Tvillingarnas dödskolumn
+ägs fortsatt av [T-0259](../../wotan/dev-log/T-0259.md) och är inte läst i
 T-0178.
 
 **Hennes dödsdag `98 ²⁵/₅` på A I/11c rad 3 tjänade som kontroll** för att
@@ -255,10 +255,10 @@ T-0157, 2026-09-08: akten är omskriven till `person-dossier/v1`. Hela den före
 
 Sakrättelser i denna konsolidering, med orsak:
 
-- **A-0302** och **A-2098**: C-0060:s blad bär dokumenthuvudet `Utdrag ur Husförhörslängden för Degerfors` och är alltså härlett ur samma längdserie som C-0404 och C-0549. Rättelsen fanns i C-0060:s T-0154-tillägg men hade inte nått akten. A-2098 sänks från CORROBORATED till TRANSCRIBED. Äldre lydelser nedan.
+- **A-0302** och A-2098: C-0060:s blad bär dokumenthuvudet `Utdrag ur Husförhörslängden för Degerfors` och är alltså härlett ur samma längdserie som C-0404 och C-0549. Rättelsen fanns i C-0060:s T-0154-tillägg men hade inte nått akten. A-2098 sänks från CORROBORATED till TRANSCRIBED. Äldre lydelser nedan.
 - **A-0608**: brudens foliohänvisning läses `14/3[?]` efter C-0106:s andraläsning i T-0139. Äldre lydelse nedan.
 - **A-0658**: Sara Mathildas datum läses `24/3[?] 1852` efter C-0111:s fullprövning i T-0139, och nio barnrader är inte en livstidstotal. Äldre lydelse nedan.
-- **A-0604** och **A-0626**: de upphävda slutsatserna märks nu i assertionens saktext och inte bara i kommentaren, enligt aktstandardens pilotprecisering.
+- **A-0604** och A-0626: de upphävda slutsatserna märks nu i assertionens saktext och inte bara i kommentaren, enligt aktstandardens pilotprecisering.
 - Berättelsens påstående om ett hem som stod högre än det vanliga bondehemmet är struket. T-0139 fastställde att nämndemanstiteln visar faderns funktion, inte en jämförd levnadsstandard. Avståndsuppgiften **dryga två mil** mellan Rödå och Buberget är struken; den saknar belägg i varje läst källa.
 - Arbetsläget `Källbredd: KLAR 2026-09-04` är ersatt av `PÅGÅR`. Två öppna materiella passager finns: bouppteckningens fortsättning och mantalet.
 - Fyra källor som bär hennes egna uppgifter saknades i akten och är nu införda: [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0065](../citations/C-0065-anders-carl-tvillingsoner-fodelse-1873.md), [C-0402](../citations/C-0402-folkrakning-1900-degerfors-buberget-jonsson.md) och [C-0116](../citations/C-0116-anders-olofsson-sofia-magdalena-vigsel-1828.md). De ger A-5731–A-5733, A-5738 och A-5739.
@@ -455,65 +455,65 @@ Sakrättelser i denna konsolidering, med orsak:
 ### Rättelse 2026-09-09, T-0179: tvillingarna och deras källor
 
 Det bundna avsnittet ovan bar T-0178:s uppgift om syskon utan person-id.
-Prövat mot projektets källregister i T-0179 faller den helt: **samtliga tio
-kända barn har egna person-id**, tvillingarna som
+Prövat mot projektets källregister i T-0179 faller den helt: samtliga tio
+kända barn har egna person-id, tvillingarna som
 [P-0086](P-0086-anders-andersson-tvilling-1873.md) och
 [P-0087](P-0087-carl-andersson-tvilling-1873.md), båda redan länkade från
 denna akts relationstabell.
 
 Därtill: T-0178 skrev att tvillingarna `bär dödsuppgifter` i A I/9c. Deras
 egna akter säger uttryckligen att marginaldatumet vid den överstrukna raden
-**inte tolkas som dödsdatum utan kontroll i dödboken** (A-0348, A-0349).
+inte tolkas som dödsdatum utan kontroll i dödboken (A-0348, A-0349).
 Tvillingarnas födelse- och dopdag `1873-05-09` är däremot belagd i Degerfors
 `C/5` genom
 [C-0065](../citations/C-0065-anders-carl-tvillingsoner-fodelse-1873.md) —
-**en födelsebok, alltså utanför husförhörskedjan.** Punkten ovan om denna
+en födelsebok, alltså utanför husförhörskedjan. Punkten ovan om denna
 akts fyra bråkformer berörs inte.
 
 ### Avgränsad följdavstämning — T-0180, 2026-09-09: två dödsdagar och Q-02
 
 Tvillingarna och tre av hushållets tjänare är konsoliderade i
-[T-0180](../../wotan/dev-log/T-0180.md). **Två uppgifter berör denna akt
-direkt, och den andra är dess egen Q-02.**
+[T-0180](../../wotan/dev-log/T-0180.md). Två uppgifter berör denna akt
+direkt, och den andra är dess egen Q-02.
 
-**Tvillingarnas dödsdagar är fastställda.** Talen står i **den tryckta
-`Död.`-kolumnen** på A I/9c sida 85, läst med rubriken i samma utsnitt:
-[P-0086](P-0086-anders-andersson-tvilling-1873.md) Anders **1874-12-31** och
-[P-0087](P-0087-carl-andersson-tvilling-1873.md) Carl **1875-05-07**. **Hon
-förlorade två söner på fyra månader och sju dagar.** Aktens egen formulering
-`tvillingarna dog före dess` — i punkten om åtta arvingar — är därmed **belagd
-i stället för härledd**, och den kan skrivas med dagar. **Ingen dödsorsak är
-belagd**, och Degerfors dödbok för 1874–1875 är inte identifierad i projektet.
+**Tvillingarnas dödsdagar är fastställda.** Talen står i den tryckta
+`Död.`-kolumnen på A I/9c sida 85, läst med rubriken i samma utsnitt:
+[P-0086](P-0086-anders-andersson-tvilling-1873.md) Anders 1874-12-31 och
+[P-0087](P-0087-carl-andersson-tvilling-1873.md) Carl 1875-05-07. Hon
+förlorade två söner på fyra månader och sju dagar. Aktens egen formulering
+`tvillingarna dog före dess` — i punkten om åtta arvingar — är därmed belagd
+i stället för härledd, och den kan skrivas med dagar. Ingen dödsorsak är
+belagd, och Degerfors dödbok för 1874–1875 är inte identifierad i projektet.
 
 **Q-02 har fått sin diskriminerande uppgift.** Frågan gäller `pigan Maria
 Johanna Andersdotter i 1870 års hushållsvy, som delar namn och födelseår med
 Lotta Sofias syster utan att någon släktkant är belagd`. Husförhörsuppslaget
-ger pigan en **full födelsedag: `1849 ²/₈`**, alltså **1849-08-02** — och
+ger pigan en full födelsedag: `1849 ²/₈`, alltså 1849-08-02 — och
 systern `Maria Johanna` i
 [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) står med
-uppgiven födelse **1849-08-02**. **Dag, månad, år, patronymikon och
-födelseförsamling sammanfaller alla.**
+uppgiven födelse 1849-08-02. Dag, månad, år, patronymikon och
+födelseförsamling sammanfaller alla.
 
 **Identifieringen görs inte i T-0180, och det är ett regelbeslut.**
-Kohortomfånget utesluter osäkra identitetssammanslagningar; **systern har
-inget eget person-id** utan är en barnrad hos
+Kohortomfånget utesluter osäkra identitetssammanslagningar; systern har
+inget eget person-id utan är en barnrad hos
 [P-0145](P-0145-anders-olofsson-namndeman-roda.md); och en identifiering
-skulle föra **en ny mosterrelation in i antavlans närhet**. **Frågan ägs av
-denna akt och av T-0157.**
+skulle föra en ny mosterrelation in i antavlans närhet. Frågan ägs av
+denna akt och av T-0157.
 
 **Och en saklig invändning som gäller oavsett vem som avgör:** båda de
-sammanfallande dagarna är **senare uppgifter** — en husförhörslängd och en
-hushållsbok — och **ingen av dem är en födelsenotis**. Två avskrifter som
-stämmer med varandra kan ha samma fel. **Den avgörande källan är Degerfors
-födelsebok `C/4` för 1849**, som är **identifierad i projektet** (`S-0051`) och
-i bruk genom C-0062 — ingen katalogfråga. Ett andra, billigt led: **Rödås
-husförhörsuppslag** i C-0111 kan visa om systern har en **utflyttning till
-Buberget** i sin egen kolumn, och den bilden är redan sparad.
+sammanfallande dagarna är senare uppgifter — en husförhörslängd och en
+hushållsbok — och ingen av dem är en födelsenotis. Två avskrifter som
+stämmer med varandra kan ha samma fel. Den avgörande källan är Degerfors
+födelsebok `C/4` för 1849, som är identifierad i projektet (`S-0051`) och
+i bruk genom C-0062 — ingen katalogfråga. Ett andra, billigt led: Rödås
+husförhörsuppslag i C-0111 kan visa om systern har en utflyttning till
+Buberget i sin egen kolumn, och den bilden är redan sparad.
 
-**En tredje uppgift berör aktens uppgift om hennes egen ålder, men avgör
-ingenting.** Födelseboken `C/5` bär i kolumnen `Modrens ålder` talen `34.` och
-`29.` i höjd med tvillingposterna, **och attributionen kan inte fastställas**:
+En tredje uppgift berör aktens uppgift om hennes egen ålder, men avgör
+ingenting. Födelseboken `C/5` bär i kolumnen `Modrens ålder` talen `34.` och
+`29.` i höjd med tvillingposterna, och attributionen kan inte fastställas:
 kolumnen har ett tal per post medan varje post upptar två textrader.
-**Ingen av talen ger hennes beräknade ålder 30 år i maj 1873.** Uppgiften förs
+Ingen av talen ger hennes beräknade ålder 30 år i maj 1873. Uppgiften förs
 som en **öppen läsfråga**, inte som en konflikt om hennes födelsedag — aktens
 marsdatum berörs inte.

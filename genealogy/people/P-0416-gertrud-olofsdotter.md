@@ -39,7 +39,7 @@ Sammanföringen bärs av namn, exakt datum och ålder. Den bärs **inte** av soc
 | A-6821 | Födelsenotisen anger moderns ålder `36` i föräldrakolumnen. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Ger modern ett födelseår omkring 1775 eller 1776. Siffran står i samma cell som föräldranamnen och byn. |
 | A-6822 | I födelseposten bär månadskolumnen två rader, `D:o` över `Febr.`; dopdagen `2` står på `Febr.`-raden medan födelsedagskolumnen där har ett streck. Posten läses därför född i januari och döpt 2 februari 1812. | CONFLICT | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utläst 2026-09-09 mot rubrik- och månadskolumnen i samma utsnitt. C-0532:s avskrift `döpt 25 januari` motsvarar ingen cell i raden. Födelsedagens andra siffra är i denna post otydlig och läses `2[3]` eller `2[5]`; dagen 23 står däremot tydligt som `1812 23/1` på hennes egen rad i C-0530 och behålls därför. Dopdagen behöver en förnyad originalläsning innan C-0532 rättas. |
 | A-6823 | Faddrar vid hennes dop var `Bond. Ol. Persson älde i Ede`, `Hustr. Mertha Olsdotter derstädes`, `Dräng Matts Olsson i Nedansjö` och `Bonde-dott. Rachel Matsdotter i Hullsjön`. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Fadderkolumnen var aldrig utvunnen. Tre av fyra bär patronymikon på `Ol-` eller `Mats-`; fadderskap är social närhet och inte släktskap, men kretsen binder föräldrahemmet till byarna Ede, Nedansjö och Hullsjön. |
-| A-6824 | På hennes egen rad i Sättna `A I/8` sida 255 är den tryckta kolumnen `Födelseort.` tom, medan makens och tre av barnens rader har ortsuppgift. | TRANSCRIBED | mycket hög | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) | Utläst 2026-09-09 mot rubrikraden. Husförhörslängden binder henne alltså till namn och exakt datum, **inte** till Stöde. Den tidigare formuleringen att namn, datum och socken förenar posten med födelsenotisen var för stark. |
+| A-6824 | På hennes egen rad i Sättna `A I/8` sida 255 är den tryckta kolumnen `Födelseort.` tom, medan makens och tre av barnens rader har ortsuppgift. | TRANSCRIBED | mycket hög | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) | Utläst 2026-09-09 mot rubrikraden. Husförhörslängden binder henne alltså till namn och exakt datum, inte till Stöde. Den tidigare formuleringen att namn, datum och socken förenar posten med födelsenotisen var för stark. |
 | A-6825 | Hennes egen hushållsrad bär `v.` under `Koppor.`, ett geometriskt tecken under `Läser och förstår` och `g.` under `Frejd`; kolumnerna `Giftoår och dag`, `Hvarifrån`, `Hvarthän` och `Anmärkningar` samt de daterade förhörs- och nattvardsrutorna 1850–1858 är tomma på hennes rad. | TRANSCRIBED | hög | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) | Utvunnen kolumn för kolumn. Hon är vaccinerad och har frejdbetyget `g`. Kunskapstecknet bevaras utan modern översättning; det är prövad oläslighet, inte outvunnen kolumn. De tomma cellerna är källgränser i denna volym. |
 | A-6826 | Hushållets uppgift `58 Stöde` under den tryckta kolumnen `Hvarifrån` står på makens rad och daterar familjens inflyttning till Sättna till 1858. | TRANSCRIBED | hög | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) | Uppgiften är hushållets, inte hennes egen rads. Den belägger inte boende i Norafors–Stormyran före 1858 och inte heller obrutet boende i Holm eller Stöde dessförinnan. |
 | A-6827 | Vigselposten 1842 anger att äktenskapsförord upprättats mellan kontrahenterna: `m: pactum antenuptiale Contrahenterne emellan är upprättadt`. | TRANSCRIBED | hög | [C-1030](../citations/C-1030-holm-C1-1842-jonas-nordlund-gertrud-vigsel.md) | Uppgiften gäller båda parter och är hennes egen postuppgift. Sådana handlingar registrerades vid häradsrätten. Faktisk registrering, innehåll och bevarande är oprövade. |
@@ -149,10 +149,10 @@ När husförhörslängden tar slut 1861 tar också kunskapen om henne slut. Inge
 
 Se [profilens frågor och källvägar](../research-profiles/P-0416.md#forskningsfrågor). Fyra konflikter och gränser bevaras här:
 
-- **Moderns namnform och byns namn.** Posten skriver `Segrin Jönsd.` och `Hullsjön`; projektet har normaliserat till `Sigrid Jonsdotter` och `Hullsjö` (A-6820). Normaliseringen har raderat de drag som gör en registersökning möjlig.
-- **Dopdagen.** C-0532:s `döpt 25 januari` motsvarar ingen cell i raden; kolumnerna ger 2 februari (A-6822). Födelsedagen 23 januari står däremot tydligt i C-0530 och behålls.
-- **Tre snarlika ortnamn.** `Hullsjön` i Stöde, `Hissjön` i Holm och `Hulsjön` i Holm förekommer i tre olika källor. Om två av dem är samma ort, eller alla tre skilda, är oavgjort. En sökning som behandlar dem som en enda nyckel riskerar att bokföra en nolla på fel ort.
-- **December 1844-barnet.** Posten bär rätt föräldrapar men barnets namn är läsosäkert och identiteten med P-0251 är inte avgjord. Kandidatkedjan ägs av T-0244 och får inte slås ihop här.
+- Moderns namnform och byns namn. Posten skriver `Segrin Jönsd.` och `Hullsjön`; projektet har normaliserat till `Sigrid Jonsdotter` och `Hullsjö` (A-6820). Normaliseringen har raderat de drag som gör en registersökning möjlig.
+- Dopdagen. C-0532:s `döpt 25 januari` motsvarar ingen cell i raden; kolumnerna ger 2 februari (A-6822). Födelsedagen 23 januari står däremot tydligt i C-0530 och behålls.
+- Tre snarlika ortnamn. `Hullsjön` i Stöde, `Hissjön` i Holm och `Hulsjön` i Holm förekommer i tre olika källor. Om två av dem är samma ort, eller alla tre skilda, är oavgjort. En sökning som behandlar dem som en enda nyckel riskerar att bokföra en nolla på fel ort.
+- December 1844-barnet. Posten bär rätt föräldrapar men barnets namn är läsosäkert och identiteten med P-0251 är inte avgjord. Kandidatkedjan ägs av T-0244 och får inte slås ihop här.
 
 Öppna undersökningar: hennes syskon i Stöde, de trettio åren 1812–1842, flyttkedjan Holm–Stöde–Sättna, äktenskapsförordet vid häradsrätten och hennes död.
 
@@ -162,12 +162,12 @@ T-0164, 2026-09-09: akten är omskriven till `person-dossier/v1` och sakligt avs
 
 - **A-2358** omformulerad. Äldre lydelse: *”Gertrud Olofsdotter föddes 1812-01-23 i Stöde, döptes 25 januari och återfinns senare som Jonas Nordlunds hustru i Sättna.”* Dopdagen 25 januari motsvarar ingen cell i födelsepostens rad; se A-6822. Sockenuppgiften togs samtidigt ur beskrivningen av vad C-0530 belägger, eftersom den kolumnen är tom på hennes rad; se A-6824.
 - **A-2359** omformulerad. Äldre lydelse: *”Hon var dotter till bonden Olof Stefansson och Sigrid Jonsdotter i Hullsjö.”* Posten skriver `Bond. Ol. Stefansson` och `Hustr. Segrin Jönsd. i Hullsjön`; se A-6820.
-- **Överdriven sammanföringsgrund rättad.** Formuleringen att namn, exakt datum **och socken** förenar födelsenotisen med hushållsraden återfanns i akten, i profilen och i C-0530:s tolkning. Sättnaraden har ingen socken för henne (A-6824). Sammanföringen står ändå, buren av namn, exakt datum och vigselpostens hemvistuppgift.
-- **Fyra outvunna kolumner utvunna.** Fadderkolumnen i födelsenotisen (A-6823), moderns ålder (A-6821), månad- och dopkolumnerna (A-6822) samt hennes egen hushållsrads samtliga celler (A-6824, A-6825). Äktenskapsförordet i vigselposten (A-6827) och de två `Olofs`-faddrarna 1844 (A-6829) fördes inte tidigare i akten trots att de stod i lästa citationer.
-- **Historiskt arbetsläge.** Akten bar tidigare `Konsolidering: GRANSKAD 2026-09-04 (T-0040)` och `Källbredd: KLAR — fortsatt arbete hör till djup-7-spetsarna`. Den senare formuleringen gällde hennes anor, inte hennes liv, och är historisk. Den konverteras inte.
-- **Provenansbrist bekräftad.** Mediekontroll 2026-09-09 finner fortfarande ingen lokal fullbild för C-1030:s `C0032930_00108`, för C-1031:s `A0010807_00029` och `_00030` eller för Rosenbergs svar om post 22039. Bristen bärs av PK-11 i profilen.
-- **Bevarade avgränsningar.** De begränsade följdavstämningarna från T-0126 (2026-09-07) och T-0136 (2026-09-08) står kvar i sak: december 1844-kandidaten förblir separat och ägs av T-0244, råfältet 30–35 ger ingen ny födelserange, `58 Stöde` daterar inflyttningen och inte ett obrutet boende, och sonen Stefan Eriks 1860-notis är en flytt till Stöde och inte en dödsuppgift.
-- **Rapporterat vidare, inte ändrat här.** C-0532:s avskrift, P-0417:s A-2360, P-0418:s A-2361 och aktnamnet `P-0418 Sigrid Jonsdotter` bär den normalisering som A-6820 rättar. C-0532:s dopdatum bär den konflikt som A-6822 beskriver.
+- Överdriven sammanföringsgrund rättad. Formuleringen att namn, exakt datum **och socken** förenar födelsenotisen med hushållsraden återfanns i akten, i profilen och i C-0530:s tolkning. Sättnaraden har ingen socken för henne (A-6824). Sammanföringen står ändå, buren av namn, exakt datum och vigselpostens hemvistuppgift.
+- Fyra outvunna kolumner utvunna. Fadderkolumnen i födelsenotisen (A-6823), moderns ålder (A-6821), månad- och dopkolumnerna (A-6822) samt hennes egen hushållsrads samtliga celler (A-6824, A-6825). Äktenskapsförordet i vigselposten (A-6827) och de två `Olofs`-faddrarna 1844 (A-6829) fördes inte tidigare i akten trots att de stod i lästa citationer.
+- Historiskt arbetsläge. Akten bar tidigare `Konsolidering: GRANSKAD 2026-09-04 (T-0040)` och `Källbredd: KLAR — fortsatt arbete hör till djup-7-spetsarna`. Den senare formuleringen gällde hennes anor, inte hennes liv, och är historisk. Den konverteras inte.
+- Provenansbrist bekräftad. Mediekontroll 2026-09-09 finner fortfarande ingen lokal fullbild för C-1030:s `C0032930_00108`, för C-1031:s `A0010807_00029` och `_00030` eller för Rosenbergs svar om post 22039. Bristen bärs av PK-11 i profilen.
+- Bevarade avgränsningar. De begränsade följdavstämningarna från T-0126 (2026-09-07) och T-0136 (2026-09-08) står kvar i sak: december 1844-kandidaten förblir separat och ägs av T-0244, råfältet 30–35 ger ingen ny födelserange, `58 Stöde` daterar inflyttningen och inte ett obrutet boende, och sonen Stefan Eriks 1860-notis är en flytt till Stöde och inte en dödsuppgift.
+- Rapporterat vidare, inte ändrat här. C-0532:s avskrift, P-0417:s A-2360, P-0418:s A-2361 och aktnamnet `P-0418 Sigrid Jonsdotter` bär den normalisering som A-6820 rättar. C-0532:s dopdatum bär den konflikt som A-6822 beskriver.
 
 Hela den föregående akten bevaras oförändrad nedan.
 
@@ -371,31 +371,31 @@ Hela den föregående akten bevaras oförändrad nedan.
 
 ### Inkommande följdfynd från T-0170, 2026-09-09
 
-Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0164 äger akten.
+Avgränsad rapport från föräldrarnas kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0164 äger akten.
 
-- **A-6822 har fått sin andra oberoende läsning.** T-0170 läste samma cell i
+- A-6822 har fått sin andra oberoende läsning. T-0170 läste samma cell i
   den lokalt sparade fulloriginalbilden utan att känna A-6822 i förväg och
   kom till samma resultat: månadskolumnen bär `Do` över `Febr.`, dopdagen är
   en ensam `2` på `Febr.`-raden, och födelsedagsraden har där ett streck.
-  **Dopet skedde 1812-02-02.** Villkoret i A-6822 — `dopdagen behöver en
+  Dopet skedde 1812-02-02. Villkoret i A-6822 — `dopdagen behöver en
   förnyad originalläsning innan C-0532 rättas` — är därmed uppfyllt.
-- **Ett nytt argument tillkommer: kalendern.** Söndagarna i januari 1812 föll
-  den 5, 12, 19 och 26; nästa söndag var den 2 februari. **Den 25 januari
-  1812 var en lördag.** Sidans övriga poster följer söndagsmönstret — barnet
+- Ett nytt argument tillkommer: kalendern. Söndagarna i januari 1812 föll
+  den 5, 12, 19 och 26; nästa söndag var den 2 februari. Den 25 januari
+  1812 var en lördag. Sidans övriga poster följer söndagsmönstret — barnet
   före henne är fött den 19 och döpt den 26 januari, och barnet efter henne
-  är fött den 30 januari och döpt **samma dag som hon**, den 2 februari.
-- **Födelsedagen 23 januari är oförändrad** och står kvar på samma grund som
+  är fött den 30 januari och döpt samma dag som hon, den 2 februari.
+- Födelsedagen 23 januari är oförändrad och står kvar på samma grund som
   förut: hennes egen hushållsrad. Postens andra siffra i födelsedagscellen är
   inte avgörbar vid bildens upplösning, och `24` och `28` kan inte uteslutas
   ur bilden ensam — men husförhörsraden i Stöde A I/5 sida 159 ger `23/1
   1812` i hennes barnrad, vilket är en andra bok.
-- **Hennes dopvittnen är nu avskrivna** och var det aldrig tidigare:
+- Hennes dopvittnen är nu avskrivna och var det aldrig tidigare:
   `Bond. Ol. Persson älde[?] i Ede`, `Hustr. Inertha[?] Olsdotter
   derstädes`, `Dräng Matts Olsson i Nedansjö` och `Bonde-dot. Rachel
-  Mattsdotter i Hullsjön`. **Inget av dem bär något av föräldrarnas
-  patronymikon.**
-- **Hon har två syskon som projektet inte känt:** `Brita Olofsdotter` född
+  Mattsdotter i Hullsjön`. Inget av dem bär något av föräldrarnas
+  patronymikon.
+- Hon har två syskon som projektet inte känt: `Brita Olofsdotter` född
   1807 och `Jöns Olsson` född `13/8 1809`, båda med egna barnrader i
   föräldrahushållet. De får inga person-id i T-0170.
 

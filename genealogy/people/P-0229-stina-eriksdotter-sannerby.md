@@ -4,7 +4,7 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0175.
-- Källbredd: `PÅGÅR` — hennes **födelsedatum är nu utvunnet** ur den redan
+- Källbredd: `PÅGÅR` — hennes födelsedatum är nu utvunnet ur den redan
   sparade helbilden, men hennes egen födelsepost och hela hennes liv efter
   1808 är osökta.
 - Identitetsgranskning: `GODKÄND`
@@ -18,8 +18,8 @@
 
 Stina Eriksdotter var dotter till bonden
 [Erik Larsson](P-0226-erik-larsson-sannerby.md) och
-[Brita Andersdotter](P-0227-brita-andersdotter-sannerby.md) i **Sannerby i
-Årdala**, och syster till anan
+[Brita Andersdotter](P-0227-brita-andersdotter-sannerby.md) i Sannerby i
+Årdala, och syster till anan
 [Anna Ersdotter](P-0222-anna-ersdotter-carlberg.md). Hon står som `D. Stina`
 i **en** husförhörslängd, A I/4 sida 142 — hon var ännu inte född när A I/3:s
 uppläggning 1794–1803 skrevs.
@@ -28,7 +28,7 @@ uppläggning 1794–1803 skrevs.
 **Granskningen 2026-09-09 stängde aktens enda lucka.** A-1370 slog fast att
 exakt datum och originalfödelse inte var prövade, och citationen skrev bara
 årtalet `1806`. Vid omläsning står dagangivelsen `³⁰/₁₂` i den tryckta dag-
-och månadskolumnen: hon föddes **1806-12-30**. Se A-7693.
+och månadskolumnen: hon föddes 1806-12-30. Se A-7693.
 
 Hennes liv efter 1808 är obelagt, och hennes egen födelsepost är osökt.
 
@@ -36,15 +36,15 @@ Hennes liv efter 1808 är obelagt, och hennes egen födelsepost är osökt.
 
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
-| Stina | A I/4 sida 142, 1804–1808 | TRANSCRIBED | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | **Endast förnamnet står i posten**, som `D. Stina`; patronymikonet `Eriksdotter` följer av faderns namn och står inte i någon läst källa om henne. |
-| Stina / Christina Eriksdotter | Sökformer | LEAD | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | `Stina` är en vardagsform av **`Christina`**, som en födelse- eller vigselpost kan bära i stället. Båda måste prövas; namnkombinationen är vanlig och bär ingen sökning utan födelsedatumet eller byn. |
+| Stina | A I/4 sida 142, 1804–1808 | TRANSCRIBED | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Endast förnamnet står i posten, som `D. Stina`; patronymikonet `Eriksdotter` följer av faderns namn och står inte i någon läst källa om henne. |
+| Stina / Christina Eriksdotter | Sökformer | LEAD | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | `Stina` är en vardagsform av `Christina`, som en födelse- eller vigselpost kan bära i stället. Båda måste prövas; namnkombinationen är vanlig och bär ingen sökning utan födelsedatumet eller byn. |
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-1370 | En dotter Stina, uppgiven född 1806, stod hos Erik Larsson och Brita Andersdotter i Sannerby. | TRANSCRIBED | medel | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Exakt datum och originalfödelse är inte prövade. **Upphävt i den första delen 2026-09-09:** dagangivelsen står i boken och är nu läst, se A-7693. Originalfödelsen är fortfarande oprövad. |
-| A-7693 | Hon föddes **1806-12-30** enligt A I/4 sida 142:s egen dag- och månadskolumn, som anger `D. Stina \| 1806 \| ³⁰/₁₂`. | TRANSCRIBED | medel | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Fört som eget påstående 2026-09-09 efter läsning vid 280–900 % av den redan sparade helbilden. **Detta var aktens enda lucka:** A-1370 slog fast att *exakt datum och originalfödelse är inte prövade*, och citationen skrev bara årtalet. Dagangivelsen står i den tryckta dag- och månadskolumnen till höger om årtalet. **Dagens första siffra bär en lätt reservation** — `30` är läsningen, och `20` kan inte helt uteslutas i denna reproduktion; månaden `12` är säker. Uppgiften är en **hushållsuppgift**, inte en läst födelsepost, och hon är dessutom **den enda av de tre syskonen med en dagangivelse i den boken** — Anna och Anders har den bara i A I/3 respektive ingen alls. Årdalas födelsebok för december 1806 är osökt. |
+| A-1370 | En dotter Stina, uppgiven född 1806, stod hos Erik Larsson och Brita Andersdotter i Sannerby. | TRANSCRIBED | medel | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Exakt datum och originalfödelse är inte prövade. Upphävt i den första delen 2026-09-09: dagangivelsen står i boken och är nu läst, se A-7693. Originalfödelsen är fortfarande oprövad. |
+| A-7693 | Hon föddes 1806-12-30 enligt A I/4 sida 142:s egen dag- och månadskolumn, som anger `D. Stina \| 1806 \| ³⁰/₁₂`. | TRANSCRIBED | medel | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Fört som eget påstående 2026-09-09 efter läsning vid 280–900 % av den redan sparade helbilden. Detta var aktens enda lucka: A-1370 slog fast att *exakt datum och originalfödelse är inte prövade*, och citationen skrev bara årtalet. Dagangivelsen står i den tryckta dag- och månadskolumnen till höger om årtalet. Dagens första siffra bär en lätt reservation — `30` är läsningen, och `20` kan inte helt uteslutas i denna reproduktion; månaden `12` är säker. Uppgiften är en hushållsuppgift, inte en läst födelsepost, och hon är dessutom den enda av de tre syskonen med en dagangivelse i den boken — Anna och Anders har den bara i A I/3 respektive ingen alls. Årdalas födelsebok för december 1806 är osökt. |
 
 ## Relationer
 
@@ -55,9 +55,9 @@ Hennes liv efter 1808 är obelagt, och hennes egen födelsepost är osökt.
 | [P-0222 Anna Ersdotter](P-0222-anna-ersdotter-carlberg.md) | syster enligt hushåll | Sannerby; hon född 1796-01-04, alltså nästan elva år äldre | TRANSCRIBED | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) |
 | [P-0228 Anders Eriksson](P-0228-anders-eriksson-sannerby.md) | bror enligt hushåll | Sannerby; han född 1799-04-05 | TRANSCRIBED | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) |
 
-Hon är **yngsta barnet** av de tre belagda, och **luckan före henne är stor**:
+Hon är **yngsta barnet** av de tre belagda, och luckan före henne är stor:
 Anna 1796, Anders 1799, hon 1806. Sju år utan belagt barn kan spegla
-förlorade barn, men **inga sådana är belagda** och inga antas.
+förlorade barn, men inga sådana är belagda och inga antas.
 `Pigan Lena Ersdotter` (1777) och `Drängen Anders Andersson` (1789) är
 tjänstefolk, inte syskon. Ingen egen familj är belagd.
 
@@ -74,7 +74,7 @@ tjänstefolk, inte syskon. Ingen egen familj är belagd.
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1806–1808 | **Sannerby**, sjette roten | Årdala församling | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Hennes enda belagda hemvist, i föräldrahemmet — och den täcker bara knappt två år. |
+| 1806–1808 | Sannerby, sjette roten | Årdala församling | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Hennes enda belagda hemvist, i föräldrahemmet — och den täcker bara knappt två år. |
 | — | Efter 1808 | — | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | **Obelagt.** Nästa husförhörslängd efter A I/4:s 1804–1808-uppläggning är osökt. |
 
 ## Yrke, utbildning och ekonomi
@@ -99,13 +99,13 @@ Inget civilt eller rättsligt spår är sökt eller väntat.
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
 | 1808 | Levde vid A I/4:s uppläggnings slut | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Hon var då knappt två år. |
-| efter 1808 | **Ingen dödsuppgift finns** | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Ingen dödbok är sökt, och hennes dödskolumn i längden är **inte utvunnen** — en namngiven lucka, inte ett läst noll. **Spädbarnsdöd var vanlig**, och hennes akt räcker inte för att utesluta den; men ingen sådan uppgift finns och ingen antas. |
+| efter 1808 | Ingen dödsuppgift finns | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | Ingen dödbok är sökt, och hennes dödskolumn i längden är inte utvunnen — en namngiven lucka, inte ett läst noll. Spädbarnsdöd var vanlig, och hennes akt räcker inte för att utesluta den; men ingen sådan uppgift finns och ingen antas. |
 
 ## Media och personliga källor
 
 | Objekt | Datum | Upphov/provenans | Citation | Lokal fil |
 |---|---|---|---|---|
-| Årdala A I/4 sida 142, hennes egen rad; dag- och månadskolumnen förstorad till 900 % | Läst 2026-08-21; **hennes dagangivelse utvunnen 2026-09-09** i T-0175 | Riksarkivet, bild 148 | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | [sida 142](../media/C-0173-riksarkivet-ardala-AI4-bild-148-sida-142.jpg) |
+| Årdala A I/4 sida 142, hennes egen rad; dag- och månadskolumnen förstorad till 900 % | Läst 2026-08-21; hennes dagangivelse utvunnen 2026-09-09 i T-0175 | Riksarkivet, bild 148 | [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) | [sida 142](../media/C-0173-riksarkivet-ardala-AI4-bild-148-sida-142.jpg) |
 
 Inget personligt material och ingen egen hand är känd, och kan inte väntas.
 
@@ -130,36 +130,36 @@ Efter 1808 är hon obelagd. Hon var då knappt två år — och hennes dödskolu
 
 ## Forskningsfrågor och konflikter
 
-- **Levde hon upp?** Hon är obelagd efter tvåårsåldern, och hennes dödskolumn
+- Levde hon upp? Hon är obelagd efter tvåårsåldern, och hennes dödskolumn
   i längden är **outvunnen**. Nästa husförhörslängd är den självklara
   ingången. Se [profilens Q-01](../research-profiles/P-0229.md#forskningsfrågor)
   och [KP-01](../research-profiles/P-0229.md#källvägar).
-- **Hennes egen födelsepost är osökt.** Årdalas födelsebok för **december
+- Hennes egen födelsepost är osökt. Årdalas födelsebok för **december
   1806** är en riktad passage om högst ett uppslag och skulle både bekräfta
   hushållsuppgiften och avgöra dagens första siffra. KP-02.
 - **Dagens första siffra** är läst `30` med `20` inte helt uteslutet.
   Månaden `12` är säker. A-7693.
 - **Sjuårsluckan** mellan Anders 1799 och henne 1806 kan spegla förlorade
-  barn, men **inga sådana är belagda** och inga antas.
-- **Förnamnet kan vara `Christina`** i en födelse- eller vigselpost.
+  barn, men inga sådana är belagda och inga antas.
+- Förnamnet kan vara `Christina` i en födelse- eller vigselpost.
 - Ingen aktiv konflikt finns.
 
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Årdalas husförhörslängd efter A I/4:s
-  1804–1808-uppläggning**, läst på Sannerby och på föräldraparets rad;
+- Förväntad källa: Årdalas husförhörslängd efter A I/4:s
+  1804–1808-uppläggning, läst på Sannerby och på föräldraparets rad;
   därefter Årdalas födelsebok för **december 1806** som originalkontroll och
   som avgörande av dagens första siffra.
 - Genomsökt: hennes egen rad i A I/4 sida 142, nu med dagangivelsen utvunnen.
 - Negativ kontroll:
   [C-0173](../citations/C-0173-ardala-AI4-annas-foraldrahem-sannerby.md) ger
-  henne **ingen egen dödsuppgift** inom uppläggningen 1804–1808 — men hennes
-  dödskolumn är **outvunnen**, så detta är en namngiven lucka och **inget läst
-  noll**. Akten kan därför inte utesluta att hon dog som barn.
+  henne ingen egen dödsuppgift inom uppläggningen 1804–1808 — men hennes
+  dödskolumn är **outvunnen**, så detta är en namngiven lucka och inget läst
+  noll. Akten kan därför inte utesluta att hon dog som barn.
 - Återaktivering: föräldraparets rad i nästa längd, eller födelseboken för
-  december 1806. **Ingen post på namnet `Stina`/`Christina Eriksdotter` får
-  tillskrivas henne utan födelsedatumet eller byn.**
+  december 1806. Ingen post på namnet `Stina`/`Christina Eriksdotter` får
+  tillskrivas henne utan födelsedatumet eller byn.
 
 ## Historik och rättelser
 
@@ -171,7 +171,7 @@ arkivåtkomst, ur en redan sparad helbild.
 **En läsgräns är delvis upphävd, inte en avskrift.** A-1370 står kvar med sin
 lydelse; vad som upphävs är dess första led, att exakt datum inte var prövat.
 Datumet stod i den tryckta dag- och månadskolumnen hela tiden.
-**Originalfödelsen är fortfarande oprövad**, och den delen av A-1370 gäller.
+Originalfödelsen är fortfarande oprövad, och den delen av A-1370 gäller.
 
 `Källbredd` har inte tidigare varit satt i akten och sätts nu till `PÅGÅR`.
 

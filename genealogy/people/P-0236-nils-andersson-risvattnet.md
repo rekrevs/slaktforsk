@@ -18,7 +18,7 @@
 Nils Andersson är äldste sonen i bonden Anders Nilssons och Magdalena
 Eriksdotters hushåll i Risvattnet nr 3 i Nysätra, och storebror till den
 direkta anan Anders Andersson. Till skillnad från de flesta sidopersoner i
-kohorten har han **egna rader i två skilda roller**: först som barn i
+kohorten har han egna rader i två skilda roller: först som barn i
 föräldrahushållet, sedan som gift son med eget hushåll på samma sida i den
 efterföljande längden. Övergången är utskriven av prästen själv: barnradens
 `Hvarthän.`-kolumn har `infra`, och hans egen giftradsrad har `supra`.
@@ -48,11 +48,11 @@ känd. Namnkolumnens tryckta lytesrubrik är läst och tom på hans rader.
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-1404 | Nils stod som barn i Risvattnethushållet och uppges vara född 1823-10-05. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Egen födelsenotis och fortsatt liv är inte prövade. **Bekräftat 2026-09-09:** samma datum står också på hans två rader i A I/9a; de tre raderna är kompletterande, inte oberoende. |
-| A-7230 | Hans egen rad som gift son i Nysätra A I/9a sida 85 har `22/6 56` i den tryckta kolumnen `Gifto-år.` | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09; kolumnen var oläst. **Med dag och månad, inte bara år** — till skillnad från föräldrarnas `1822`. Det gör Nysätras vigselbok den 22 juni 1856 till en exakt daterad och oprövad källväg. Ett bokfört gifto-datum är inte en läst vigselpost. |
-| A-7231 | Hustrun heter Johanna Carlsdotter och står med födelsetiden `12/[3 el. 9] 1821` på raden under hans; hennes `Hvarifrån.` har `infra`, som pekar till en pigrad längre ned på samma sida med `¹²/₉ 1821` och `supra`. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Pigraden och hustruraden är samma person före och efter giftermålet; korshänvisningen är prästens egen. **Dagbråkets nämnare läses olika:** pigradens `9` står i obruten bläck, medan hustruradens nämnare ligger under radens överstrykning och inte kan avgöras. Ingen form normaliseras och ingen födelsedag införs som säker. |
+| A-1404 | Nils stod som barn i Risvattnethushållet och uppges vara född 1823-10-05. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Egen födelsenotis och fortsatt liv är inte prövade. Bekräftat 2026-09-09: samma datum står också på hans två rader i A I/9a; de tre raderna är kompletterande, inte oberoende. |
+| A-7230 | Hans egen rad som gift son i Nysätra A I/9a sida 85 har `22/6 56` i den tryckta kolumnen `Gifto-år.` | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09; kolumnen var oläst. Med dag och månad, inte bara år — till skillnad från föräldrarnas `1822`. Det gör Nysätras vigselbok den 22 juni 1856 till en exakt daterad och oprövad källväg. Ett bokfört gifto-datum är inte en läst vigselpost. |
+| A-7231 | Hustrun heter Johanna Carlsdotter och står med födelsetiden `12/[3 el. 9] 1821` på raden under hans; hennes `Hvarifrån.` har `infra`, som pekar till en pigrad längre ned på samma sida med `¹²/₉ 1821` och `supra`. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Pigraden och hustruraden är samma person före och efter giftermålet; korshänvisningen är prästens egen. Dagbråkets nämnare läses olika: pigradens `9` står i obruten bläck, medan hustruradens nämnare ligger under radens överstrykning och inte kan avgöras. Ingen form normaliseras och ingen födelsedag införs som säker. |
 | A-7232 | Paret har två barn i hushållet: `Anders` född 1857-04-17 och `Magdal. Johanna` född 1858-12-31, båda med `v` i kolumnen `Koppor.` | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Barnen får inga egna person-id i denna passage; de bevaras som namngivna relationer ur en läst hushållsrad. Dotterns förnamn följer farmodern Magdalena och moderns Johanna. |
-| A-7233 | Hans barnrad i A I/9a är korsad över och har `infra` i `Hvarthän.`, medan hans egen giftradsrad har `supra` i `Hvarifrån.`; giftradsraden och hustruraden är i sin tur överstrukna utan att `Hvarthän.` fyllts i. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Den första överstrykningen är alltså en **flyttning inom samma sida**, inte ett utträde. Den andra saknar destination, vilket normalt betyder att posten fortsätter i nästa längd; ingen död och ingen utflyttning får antas ur den. Barnraderna är inte överstrukna. |
+| A-7233 | Hans barnrad i A I/9a är korsad över och har `infra` i `Hvarthän.`, medan hans egen giftradsrad har `supra` i `Hvarifrån.`; giftradsraden och hustruraden är i sin tur överstrukna utan att `Hvarthän.` fyllts i. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Den första överstrykningen är alltså en flyttning inom samma sida, inte ett utträde. Den andra saknar destination, vilket normalt betyder att posten fortsätter i nästa längd; ingen död och ingen utflyttning får antas ur den. Barnraderna är inte överstrukna. |
 | A-7234 | Kolumnen `Koppor.` har `v.` på hans barnrad i A I/8a och på hans giftradsrad i A I/9a, medan föräldrarnas rader är tomma i samma kolumn. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md), [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. `v.` läses som vaccinerad. Skillnaden mot föräldrarna följer födelseåren: vaccinationen slog igenom efter 1810-talet. |
 
 ## Relationer
@@ -95,7 +95,7 @@ A I/8a är inte öppnade.
 | 1842–omkring 1856 | Risvattnet nr 3, föräldrahushållet | Nysätra församling | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md), [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | `Hvarifrån.` och `Hvarthän.` tomma på barnraden i A I/8a. |
 | Omkring 1856–1861 | Eget hushåll på samma sida, `supra` från barnraden | Risvattnet nr 3, Nysätra | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Flyttningen är intern på uppslaget och inte en flyttning ut ur byn. Ingen egen gård eller andel anges. |
 
-Han har **ingen belagd flyttning ut ur Risvattnet nr 3.** Överstrykningen av
+Han har ingen belagd flyttning ut ur Risvattnet nr 3. Överstrykningen av
 hans giftradsrad saknar destination, och `Skattskrifning.`-kolumnen är läst och
 tom för hela blocket.
 
@@ -103,7 +103,7 @@ tom för hela blocket.
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| Omkring 1856–1861 | `Gifta son` | Risvattnet nr 3, Nysätra | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Familjeställning, inte yrke. Han kallas **inte** bonde, brukare eller undantagsman; att han skulle ha övertagit hemmanet är inte belagt. |
+| Omkring 1856–1861 | `Gifta son` | Risvattnet nr 3, Nysätra | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Familjeställning, inte yrke. Han kallas inte bonde, brukare eller undantagsman; att han skulle ha övertagit hemmanet är inte belagt. |
 | 1842–1861 | Klammermärke med prickrad i kolumnen `Läser och förstår` | Risvattnet nr 3 | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md), [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Grafiskt råtecken. Prickraden ovanför hans märke skiljer sig från föräldrarnas märken, men skillnaden ges ingen modern kunskapstolkning. |
 
 Inkomst, tillgångar, arv och eventuell hemmansdel är okända. Att hans
@@ -134,7 +134,7 @@ uppgifter, inte en utebliven undersökning. Rullor och mönstringslängder är
 i A I/9a saknar destination i `Hvarthän.`, och `Död.`-motsvarigheten är inte
 ifylld för blocket; jämför systern Brita Maria, vars överstrukna rad bär ett
 uttryckligt dödsmärke, och modern, vars rad bär `död ²³/₄ 1862`. Att hans rad
-saknar båda är ett argument **för** att han levde vidare, inte mot.
+saknar båda är ett argument för att han levde vidare, inte mot.
 
 ## Media och personliga källor
 
@@ -178,15 +178,15 @@ inte är öppnad. [A-7233](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Vad hände efter 1861?** Hans och hustruns rader är strukna utan
+- Vad hände efter 1861? Hans och hustruns rader är strukna utan
   destination. Se [profilens Q-01](../research-profiles/P-0236.md#forskningsfrågor)
   och [KP-01](../research-profiles/P-0236.md#källvägar).
-- **Vigselposten 1856-06-22 är oläst.** Datumet är exakt; posten ger normalt
+- Vigselposten 1856-06-22 är oläst. Datumet är exakt; posten ger normalt
   åldrar, hemvist, förlovningsmän och hustruns föräldrar — den enda kända
   vägen till hennes härkomst. Se KP-02.
-- **Hustruns födelsedag är osäker i en siffra.** `12/9 1821` på pigraden mot en
+- Hustruns födelsedag är osäker i en siffra. `12/9 1821` på pigraden mot en
   oläsbar nämnare på hustruraden. Ingen form är normaliserad.
-- **Hans egen dopnotis 1823 är oläst.** Den ger faddrar och moderns uppgivna
+- Hans egen dopnotis 1823 är oläst. Den ger faddrar och moderns uppgivna
   ålder, vilket också prövar
   [moderns åldersfråga](../research-profiles/P-0231.md#forskningsfrågor).
 - Ingen konflikt finns inom det lästa underlaget.

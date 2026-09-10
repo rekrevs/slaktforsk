@@ -4,7 +4,7 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0169.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Dotterns dopnotis
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Dotterns dopnotis
   namnger två dopvittnen från byn Öfverklinten som aldrig prövats som
   söknyckel; det ena bär makens patronymikon.
 - Identitetsgranskning: `GODKÄND`
@@ -17,8 +17,8 @@
 
 Anna Stina Andersdotter är mor till
 [Maria Jacobsdotter](P-0102-maria-jacobsdotter-ultervattnet.md), född
-1799-01-07 i Ultervattnet i Bygdeå. Hon förekommer i **en enda känd
-källpost**: dotterns samtida födelse- och dopnotis i Bygdeå C/3, där hon
+1799-01-07 i Ultervattnet i Bygdeå. Hon förekommer i en enda känd
+källpost: dotterns samtida födelse- och dopnotis i Bygdeå C/3, där hon
 namnges som moder tillsammans med maken bonden Jakob Isaksson.
 [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md)
 
@@ -32,7 +32,7 @@ med sakligt avgränsat omfång.
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Anna Stina Andersdotter | Dotterns dopnotis, Bygdeå 1799 | TRANSCRIBED | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | Den enda formen som står i en källa om henne. |
-| Anna Christina / Anna Stina | Namnvarianter i tiden | LEAD | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | `Stina` är kortform av `Christina`, och båda formerna skrivs om samma person i västerbottniska kyrkoböcker. **Båda måste prövas vid varje sökning**, liksom `Andersdotter`/`Andersdr`. |
+| Anna Christina / Anna Stina | Namnvarianter i tiden | LEAD | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | `Stina` är kortform av `Christina`, och båda formerna skrivs om samma person i västerbottniska kyrkoböcker. Båda måste prövas vid varje sökning, liksom `Andersdotter`/`Andersdr`. |
 
 Patronymikonet ger faderns förnamn **Anders**; det är en härledning ur
 namnskicket och inte en läst uppgift.
@@ -43,8 +43,8 @@ namnskicket och inte en läst uppgift.
 |---|---|---|---|---|---|
 | A-0713 | Anna Stina Andersdotter var mor till Maria, född 1799-01-07 i Ultervattnet. | TRANSCRIBED | hög | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | Samtida födelse- och dopnotis. |
 | A-3245 | Bygdeå A I/6:s kompletta Ultervattnet-avsnitt 1797–1807 saknar en säker hushållsrad för Anna Stina Andersdotter och Jakob Isaksson. | NEGATIVE | hög | [C-0856](../citations/C-0856-bygdea-AI6-ultervattnet-jakob-anna-stina-kontroll.md) | Avsnittsnoll; C-0124 står kvar som positivt föräldra- och ortsbelägg. |
-| A-7370 | Dotterns dopnotis namnger två dopvittnen: `Bond. Carl Jonsson i Öfverklinten och dess hustru Catharina Isacsdr` | TRANSCRIBED | hög | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | Utvunnet till akten 2026-09-09; vittneskolumnen är omkontrollerad i citationen sedan 2026-08-21 men har aldrig nått hennes akt. **Ingen av de två bär hennes patronymikon** — hustrun bär makens. Vittneslistan pekar därför mot **hans** släkt och inte hennes, vilket är ett resultat i sig: hennes egen släkt är inte representerad i den enda post som finns om henne. |
-| A-7371 | Dopnotisen har enbart **två** vittnen, mot fyra i den samtidiga notisen för Hans Nilsson 1800 i samma volymserie. | TRANSCRIBED | medel | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md), [C-0129](../citations/C-0129-hans-nilsson-fodelse-1800.md) | Utvunnet 2026-09-09 genom jämförelse mellan två citationer i samma bok. Antalet vittnen varierade av sociala och praktiska skäl och **säger inget säkert om familjens ställning**; iakttagelsen är förd för att förklara varför hennes släkt inte syns — listan är kort, inte selektivt utan henne. |
+| A-7370 | Dotterns dopnotis namnger två dopvittnen: `Bond. Carl Jonsson i Öfverklinten och dess hustru Catharina Isacsdr` | TRANSCRIBED | hög | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | Utvunnet till akten 2026-09-09; vittneskolumnen är omkontrollerad i citationen sedan 2026-08-21 men har aldrig nått hennes akt. Ingen av de två bär hennes patronymikon — hustrun bär makens. Vittneslistan pekar därför mot hans släkt och inte hennes, vilket är ett resultat i sig: hennes egen släkt är inte representerad i den enda post som finns om henne. |
+| A-7371 | Dopnotisen har enbart två vittnen, mot fyra i den samtidiga notisen för Hans Nilsson 1800 i samma volymserie. | TRANSCRIBED | medel | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md), [C-0129](../citations/C-0129-hans-nilsson-fodelse-1800.md) | Utvunnet 2026-09-09 genom jämförelse mellan två citationer i samma bok. Antalet vittnen varierade av sociala och praktiska skäl och säger inget säkert om familjens ställning; iakttagelsen är förd för att förklara varför hennes släkt inte syns — listan är kort, inte selektivt utan henne. |
 
 ## Relationer
 
@@ -54,8 +54,8 @@ namnskicket och inte en läst uppgift.
 | [P-0102 Maria Jacobsdotter](P-0102-maria-jacobsdotter-ultervattnet.md) | dotter | Född 1799-01-07, Ultervattnet | TRANSCRIBED | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) |
 | Carl Jonsson, bonde i Öfverklinten, och hustrun Catharina Isacsdotter | dopvittnen vid dotterns dop | Bygdeå 1799 | TRANSCRIBED | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) |
 
-Hennes föräldrar och syskon är okända, och **inget av de två dopvittnena bär
-hennes patronymikon**. Vittnena får ingen släktrelation.
+Hennes föräldrar och syskon är okända, och inget av de två dopvittnena bär
+hennes patronymikon. Vittnena får ingen släktrelation.
 
 ## Tidslinje
 
@@ -70,7 +70,7 @@ död är okända, och hon saknas i den hushållsbok som täcker åren kring 1799
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1799 | Ultervattnet | Bygdeå församling; gård ej angiven | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | Dopnotisens ortangivelse för familjen, **inte bekräftad av byns hushållsavsnitt**. |
+| 1799 | Ultervattnet | Bygdeå församling; gård ej angiven | [C-0124](../citations/C-0124-maria-jacobsdotter-fodelse-1799.md) | Dopnotisens ortangivelse för familjen, inte bekräftad av byns hushållsavsnitt. |
 
 Ingen flyttning är känd och ingen kan sökas: hon har ingen hushållsrad att
 följa.
@@ -125,7 +125,7 @@ kräver en förklaring; den frågan ägs av
 
 Granskningen 2026-09-09 förde in dopvittnena, som funnits i citationen sedan
 augusti men aldrig nått akten. Utfallet för henne är negativt och just därför
-värt att skriva: **inget av de två vittnena bär hennes patronymikon.** Bonden
+värt att skriva: inget av de två vittnena bär hennes patronymikon. Bonden
 Carl Jonsson i Öfverklinten och hans hustru Catharina Isacsdotter pekar mot
 makens släkt, inte hennes. Listan är dessutom kort — två vittnen, mot fyra i
 en samtidig notis i samma bok. Hennes egen släkt syns alltså inte i den enda
@@ -134,12 +134,12 @@ spår som återstår. [A-7370](#påståenden), [A-7371](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Hennes egen släkt saknas i den enda kända posten.** Vittnena pekar mot
+- Hennes egen släkt saknas i den enda kända posten. Vittnena pekar mot
   makens sida. Se
   [profilens Q-01](../research-profiles/P-0161.md#forskningsfrågor).
-- **Varför saknas paret i byns hushållsavsnitt?** Frågan ägs av makens akt och
+- Varför saknas paret i byns hushållsavsnitt? Frågan ägs av makens akt och
   måste besvaras innan A-3245:s noll får någon räckvidd. KP-01.
-- **Hennes egen födelse är helt osökt** och utan ålder finns ingen årgång att
+- Hennes egen födelse är helt osökt och utan ålder finns ingen årgång att
   välja; patronymikonet ger bara faderns förnamn Anders.
 - Ingen konflikt finns inom det lästa underlaget.
 
@@ -147,9 +147,9 @@ spår som återstår. [A-7370](#påståenden), [A-7371](#påståenden)
 
 - Status: `IDENTITET OLÖST`
 - Förväntad källa: ett personbundet hushåll, en vigsel-, flytt- eller
-  dödpost som ger hennes ålder, ursprung eller föräldrahem. **Vigselposten med
+  dödpost som ger hennes ålder, ursprung eller föräldrahem. Vigselposten med
   Jakob Isaksson är den enda handling som normalt skulle namnge hennes
-  hemvist**, och den är osökt.
+  hemvist, och den är osökt.
 - Genomsökt: dottern Marias födelsenotis 1799, nu utvunnen inklusive
   vittneskolumnen, och hela Ultervattnet-avsnittet i Bygdeå A I/6, sidorna
   91–102 och 276.

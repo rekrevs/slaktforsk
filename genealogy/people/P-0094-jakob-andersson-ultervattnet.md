@@ -9,7 +9,7 @@
 
 ## Identitet
 
-Jakob Andersson var bonde och senare betecknad hemmansägare i Ultervattnet, Bygdeå, make till Maria Christina Hansdotter och far till Anna Fredrika. Hans egen födelsenotis anger **1830-04-16**, dop 17 april och föräldrarna Anders Olofsson och Maria Jacobsdotter i **Häggnäs**. Den tidigare motsägelsen mellan april och juli är sakligt avgjord genom denna post; en obruten barndomskedja från Häggnäs till Ultervattnet återstår. Han dog som änkling 1905-10-03. [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md).
+Jakob Andersson var bonde och senare betecknad hemmansägare i Ultervattnet, Bygdeå, make till Maria Christina Hansdotter och far till Anna Fredrika. Hans egen födelsenotis anger **1830-04-16**, dop 17 april och föräldrarna Anders Olofsson och Maria Jacobsdotter i Häggnäs. Den tidigare motsägelsen mellan april och juli är sakligt avgjord genom denna post; en obruten barndomskedja från Häggnäs till Ultervattnet återstår. Han dog som änkling 1905-10-03. [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md).
 
 ## Namnformer
 
@@ -33,7 +33,7 @@ Jakob Andersson var bonde och senare betecknad hemmansägare i Ultervattnet, Byg
 | A-3148 | Umeå fögderis fondförteckning identifierar Bygdeås mantalsvolymer Vol/41–49 över Jakobs kända vuxenperiod, med katalogglapp 1873–1882. | TRANSCRIBED | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Katalogidentifierade volymer, inte individuell åtkomstprövning av samtliga 41–49. Ingen mantalsrad, skatt, ägarpost, närvaro eller frånvaro är läst. |
 | A-3694 | Bygdeås vigselår 1861 omfattar 28 poster; de tidigare utelämnade posterna 24–28 har lästs i C-0994, och målparet saknas i det redovisade hela året. | NEGATIVE | hög | [C-0994](../citations/C-0994-bygdea-C4-vigslar-1861-komplettering-och-1863.md), [C-0429](../citations/C-0429-bygdea-C4-vigslar-1861-negativ-kontroll.md) | C-0429:s 23 poster var inte hela året. Namnlikheten Maria Christ. Larsdotter Boström i post 27 avvisas; annat patronymikon och annan partner. |
 | A-3695 | Bygdeås vigselår 1863, posterna 1–38, gav inget målpar; 1862 års 22 poster har tidigare kontrollerats i original och SCB-utdrag. 1860 års ofullständiga passage kvarstår. | NEGATIVE | hög | [C-0994](../citations/C-0994-bygdea-C4-vigslar-1861-komplettering-och-1863.md), [C-0122](../citations/C-0122-bygdea-vigslar-1862-negativ-kontroll.md) | Två reproduktioner av samma bok och SCB-utdraget är inte oberoende händelsekällor. C-0994:s andra reproduktion visar uttryckligen 1–4 och 10–22; dess lucka 5–9 ersätts inte med ett nytt fullomfångspåstående. Annan vigselförsamling är inte bevisad. |
-| A-3837 | Jacob, son till **Bond. Anders Olofsson och hustrun Maria Jacobsdotter, 31 år, i Häggnäs**, föddes **1830-04-16** och döptes 17 april i Bygdeå. | CORROBORATED | mycket hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | Egen födelse/doppost med barn, datum och båda föräldrarna bär identifieringen. Häggnäs är föräldrarnas uppgivna hemvist; den senare övergången till Ultervattnet är inte undersökt. |
+| A-3837 | Jacob, son till Bond. Anders Olofsson och hustrun Maria Jacobsdotter, 31 år, i Häggnäs, föddes 1830-04-16 och döptes 17 april i Bygdeå. | CORROBORATED | mycket hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | Egen födelse/doppost med barn, datum och båda föräldrarna bär identifieringen. Häggnäs är föräldrarnas uppgivna hemvist; den senare övergången till Ultervattnet är inte undersökt. |
 | A-3838 | Den Jacob som C-1035 identifierar i juli 1830 anges i äldre avskrift född 29 juli[?] i Ultervattnet med föräldrarna Isaak Jacobsson och Magdalena och gäller en annan pojke. | NEGATIVE | hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | C-1035:s avgränsade juliläsning ger ingen post för målpersonen den 16 juli. Att den andre pojken orsakade husförhörsbokens fel är en obevisad förklaringshypotes, inte dokumenterad skrivfelshistoria. |
 | A-3839 | C-0424:s nollresultat gällde bilderna 18 och 20; aprilposten 16\|17 står på bild 17, och postföljden är inte strikt kronologisk över uppslagen. | NEGATIVE | hög | [C-1035](../citations/C-1035-bygdea-C4-1830-jacob-fodd-16-april-haggnas.md) | De gamla bilderna och nollet bevaras som metodhistorik. Positiv egenpost ersätter födelsenollet; ingen ny helårssökning behövs för samma identitetsfråga. |
 | A-4338 | Dödbokens egenpost 67 skriver dödsorsaken ålderdoms bräcklighet; äldre avskriften ålderdomssvaghet är rättad. | TRANSCRIBED | hög | [C-0427](../citations/C-0427-bygdea-F1-jakob-andersson-dod-1905.md) | Fullposten har tomma attest-, särskild dödsorts- och anmärkningsfält. Källtermen ges ingen modern diagnos. |
@@ -51,7 +51,7 @@ Jakob Andersson var bonde och senare betecknad hemmansägare i Ultervattnet, Byg
 | [P-0097 Jakob](P-0097-jakob-ultervattnet.md) | son | Ultervattnet; 1865-12-06, rättad husförhörsuppgift | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0098 Maria Mathilda](P-0098-maria-mathilda-ultervattnet.md) | dotter | Ultervattnet; 1869-03-14, uppgivet; hushåll 1863–73 och 1880 | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0049 Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md) | dotter | Ultervattnet; 1872-02-08 enligt egen födelsepost | CORROBORATED | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
-| [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md) | son | Ultervattnet; **1874-09-26**, uppgivet | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
+| [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md) | son | Ultervattnet; 1874-09-26, uppgivet | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0100 Kristina/Christina Lovisa](P-0100-kristina-lovisa-ultervattnet.md) | dotter | Ultervattnet; 1877-04-26[?], alternativ läsning 24 april | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0101 Carl/Karl Erik](P-0101-carl-erik-ultervattnet.md) | son | Ultervattnet; 1880-05-16, uppgivet | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 
@@ -265,11 +265,11 @@ Jakob kallas bonde och hemmansägare. Orden visar hans jordbruksanknytning men i
 #### Följdrättelse från T-0181, 2026-09-09: sonens födelsedag är 26/9
 
 Relationsraden för [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md)
-bar dagen `1874-09-24`. **Läsningen är fel.** Båda hans rader på
+bar dagen `1874-09-24`. Läsningen är fel. Båda hans rader på
 [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md):s sida 824
 — barndomsraden 6 och den egna hushållsraden 17 — skriver `26/9`, avgjort
 genom glyfjämförelse mot samma skrivares `4` i årtalet `74` på samma rad.
-Dagen är nu **1874-09-26**. **Året är oförändrat, och inget annat i akten
-berörs.** Se A-7776 hos P-0099.
+Dagen är nu **1874-09-26**. Året är oförändrat, och inget annat i akten
+berörs. Se A-7776 hos P-0099.
 
 Rättelsen är inrapporterad till T-0131, som äger denna akt.

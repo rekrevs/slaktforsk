@@ -7,9 +7,9 @@
 
 ## Identitet
 
-Carl Fredrik är soldaten Drill/Grill som bildade hushåll med Johanna Jansdotter i Bettna och är far till Erik Karlsson. Han föddes den **9 april 1822** vid Lilla Wättstugan i Halla och döptes den 12 april som pigan Ella Ersdotters utomäktenskaplige son. Ingen far namnges. Födelsepost, flera egna husförhör, militärens återgivna civilnamn och dödspost stöder april. Kyrkoattesten 1840 uppger däremot **9 juli 1822**; den avvikelsen bevaras. Patronymikonet Pehrsson/Pettersson identifierar ingen biologisk far. [C-0798](../citations/C-0798-halla-C2-carl-fredrik-ella-ersdotter.md), [C-0793](../citations/C-0793-carl-fredrik-drill-rekryteringsrulla-och-bokulla.md), [C-0752](../citations/C-0752-glippsta-nr36-carl-fredric-grill-1848-1855.md), [C-0743](../citations/C-0743-bettna-grill-dod-1895-B5-negativ.md).
+Carl Fredrik är soldaten Drill/Grill som bildade hushåll med Johanna Jansdotter i Bettna och är far till Erik Karlsson. Han föddes den **9 april 1822** vid Lilla Wättstugan i Halla och döptes den 12 april som pigan Ella Ersdotters utomäktenskaplige son. Ingen far namnges. Födelsepost, flera egna husförhör, militärens återgivna civilnamn och dödspost stöder april. Kyrkoattesten 1840 uppger däremot 9 juli 1822; den avvikelsen bevaras. Patronymikonet Pehrsson/Pettersson identifierar ingen biologisk far. [C-0798](../citations/C-0798-halla-C2-carl-fredrik-ella-ersdotter.md), [C-0793](../citations/C-0793-carl-fredrik-drill-rekryteringsrulla-och-bokulla.md), [C-0752](../citations/C-0752-glippsta-nr36-carl-fredric-grill-1848-1855.md), [C-0743](../citations/C-0743-bettna-grill-dod-1895-B5-negativ.md).
 
-De egna rekryteringsattesterna belägger Jernbol och tjänst från hösten 1837. Den tidigare tillskrivna hushållsraden på Jernbol sida 121 har däremot avvisats efter originalgranskning och får inte bära en obruten ungdomskedja. Den vuxne Carl avgränsas genom attesterna, nummer 36 Glippsta, personbundna kyrkoboksflytten 1841 och familjens senare led. GMR 1855 visar honom också under **Hagby nr 38**, efter transport från Glippsta. Han dog den **4 januari 1895** och begravdes den 13 januari; Stora Hesselstugan är bokförd hemort, medan fysisk dödsort och dödsorsak är tomma. [C-0793](../citations/C-0793-carl-fredrik-drill-rekryteringsrulla-och-bokulla.md), [C-0763](../citations/C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md), [C-0752](../citations/C-0752-glippsta-nr36-carl-fredric-grill-1848-1855.md), [C-0743](../citations/C-0743-bettna-grill-dod-1895-B5-negativ.md).
+De egna rekryteringsattesterna belägger Jernbol och tjänst från hösten 1837. Den tidigare tillskrivna hushållsraden på Jernbol sida 121 har däremot avvisats efter originalgranskning och får inte bära en obruten ungdomskedja. Den vuxne Carl avgränsas genom attesterna, nummer 36 Glippsta, personbundna kyrkoboksflytten 1841 och familjens senare led. GMR 1855 visar honom också under **Hagby nr 38**, efter transport från Glippsta. Han dog den 4 januari 1895 och begravdes den 13 januari; Stora Hesselstugan är bokförd hemort, medan fysisk dödsort och dödsorsak är tomma. [C-0793](../citations/C-0793-carl-fredrik-drill-rekryteringsrulla-och-bokulla.md), [C-0763](../citations/C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md), [C-0752](../citations/C-0752-glippsta-nr36-carl-fredric-grill-1848-1855.md), [C-0743](../citations/C-0743-bettna-grill-dod-1895-B5-negativ.md).
 
 ## Namnformer
 
@@ -375,7 +375,7 @@ T-0139 fullkonsoliderar befintligt underlag och bevarar alla tidigare A-id. Aktu
 helbilden `C0006543_00082` till
 [C-0798](../citations/C-0798-halla-C2-carl-fredrik-ella-ersdotter.md), läst
 vid 240–600 % förstoring i T-0173, som äger
-[P-0500](P-0500-ella-ersdotter.md). **Din egen akt är inte omprövad**, och
+[P-0500](P-0500-ella-ersdotter.md). Din egen akt är inte omprövad, och
 inget A-id, ingen status och ingen bedömning i den ändras här.
 
 **Din mors förnamn är omläst: hon heter `Ulla`, inte `Ella`.** Kontrollen
@@ -383,31 +383,31 @@ ligger i samma ordpar — `E`:et i `Ersdotters` står omedelbart efter förnamne
 i samma hand och samma bläck, och dess looptunga form är oförenlig med
 förnamnets dubbelbågiga `U`. Formen `Ella` har aldrig haft något annat belägg
 än denna enda cell. Följden är praktisk: `Ella` för mot `Eleonora`/`Helena`,
-`Ulla` mot `Ulrika`, så **varje tidigare sökning på henne har letat efter ett
-annat dopnamn**. Hennes akttitel är ändrad; **filnamnet och länkarna är
-oförändrade** och omdöpningen är avgränsad till en egen följduppgift.
+`Ulla` mot `Ulrika`, så varje tidigare sökning på henne har letat efter ett
+annat dopnamn. Hennes akttitel är ändrad; filnamnet och länkarna är
+oförändrade och omdöpningen är avgränsad till en egen följduppgift.
 
 **Din födelsepost har ett marginalmärke som nu är prövat.** Vid posten står
 `ab.`, som T-0139 avskrev `utan här säkerställd betydelse`. De två närmast
-följande posterna på uppslaget är **gifta pars** barn och bär i stället
-`ktgn.`, som läses **kyrktagen**. De två märkena står i komplementär
+följande posterna på uppslaget är gifta pars barn och bär i stället
+`ktgn.`, som läses kyrktagen. De två märkena står i komplementär
 fördelning mot moderns civilstånd, och `ab.` är då med all sannolikhet
-**absolverad** — kyrkotukten för en ogift mor.
+absolverad — kyrkotukten för en ogift mor.
 
 **Det öppnar en ny källklass för din faderfråga.** Ett absolutionsärende i
-**Hallas kyrkorådsprotokoll omkring 1822** namnger normalt både modern och den
-**utpekade barnafadern**. Passagen är namngiven i
+Hallas kyrkorådsprotokoll omkring 1822 namnger normalt både modern och den
+utpekade barnafadern. Passagen är namngiven i
 [P-0500:s profil](../research-profiles/P-0500.md#källvägar) KP-02.
-**Slutsatsen är `SANNOLIKT`, inte styrkt** — märket är otryckt, förkortningen
+Slutsatsen är `SANNOLIKT`, inte styrkt — märket är otryckt, förkortningen
 är inte utskriven i boken och kontrollen omfattar tre poster på ett uppslag —
-och **ingen far förs in**, varken ur märket eller ur ditt senare
+och ingen far förs in, varken ur märket eller ur ditt senare
 patronymikon `Pehrsson`.
 
 **En diplomatisk rättelse gäller din egen post.** Ordet för din
 könsbeteckning är inte `gossebarn` utan `[P]iltbarn`, med reservation på
 inledningsbokstaven; kontrollen är post 4 på samma uppslag, som skriver
 `flickebarn` med ett tydligt `-ebarn`. `pilt` betyder gosse, så
-**sakuppgiften är oförändrad**.
+sakuppgiften är oförändrad.
 
 **Konflikten april mot juli 1822** mot rekryteringsattesterna 1840 är
 oförändrad och harmoniseras inte; den ägs av din akt.

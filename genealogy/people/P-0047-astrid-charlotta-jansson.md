@@ -44,8 +44,8 @@ Faderns skrivform `Jaensson` i flera Flenböcker är skrivarens variant och
 |---|---|---|---|---|---|
 | A-0196 | Astrid Charlotta var född 1897 i Skedevi och dotter i Karl Fredriks och Charlottas hushåll 1900 och 1910. | CORROBORATED | hög | [C-0012](../citations/C-0012-ada-wilhelmina-folkrakning-1900.md), [C-0011](../citations/C-0011-ada-wilhelmina-folkrakning-1910.md) | Den lucka påståendet namngav — exakt datum — är löst av A-4001. Båda bladen är församlingsboksutdrag, se A-5740; de bär därför inte två oberoende röster. Äldre lydelse i historiken. |
 | A-3427 | Astrid anges gift 1918-10-29 med järnvägskonduktören och maskinisten Johan Fridolf Lundkvist efter lysning nr 30/1918; familjen utflyttade från Ljungbacka till Sundbyberg i Stockholms län 1919-08-28. | TRANSCRIBED | hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Egen vigselpost är oläst. Äldre påstående om ej digitaliserad vigselbok är upphävt av S-0717:s positiva `E I/3`-ingång. Makens födelseort är fortsatt läsosäker, se A-5744. Äldre lydelser i historiken. |
-| A-4001 | **Hon föddes 1897-03-21 i Skedevi och döptes 1897-05-16.** `C/10` 1897 post 26; fadern skrivs `Karl Fredrik Jansson, statdr., dräng, Brenäs`, modern `Charlotta Vilhelm. Larsson`, båda med födelsedatum som stämmer exakt. | CORROBORATED | mycket hög | [C-1069](../citations/C-1069-skedevi-C10-1897-post-26-astrid-charlotta.md), [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md) | **Löser den lucka A-0196 uttryckligen namngav** (`Exakt datum återstår`). Församlingsboken skriver samma datum, `97 ²¹/₃`, `Sk.` Ingen av de två sidorna har en lokalt speglad fullbild, se A-5750. |
-| A-4002 | Faddrar var **rättaren Markus Persson och hans hustru vid Brenäs** — gårdens förman, inte släkt. | TRANSCRIBED | hög | [C-1069](../citations/C-1069-skedevi-C10-1897-post-26-astrid-charlotta.md) | Säger något om familjens sociala krets som statare långt hemifrån. Faddrarna är inte efterforskade. |
+| A-4001 | Hon föddes 1897-03-21 i Skedevi och döptes 1897-05-16. `C/10` 1897 post 26; fadern skrivs `Karl Fredrik Jansson, statdr., dräng, Brenäs`, modern `Charlotta Vilhelm. Larsson`, båda med födelsedatum som stämmer exakt. | CORROBORATED | mycket hög | [C-1069](../citations/C-1069-skedevi-C10-1897-post-26-astrid-charlotta.md), [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md) | Löser den lucka A-0196 uttryckligen namngav (`Exakt datum återstår`). Församlingsboken skriver samma datum, `97 ²¹/₃`, `Sk.` Ingen av de två sidorna har en lokalt speglad fullbild, se A-5750. |
+| A-4002 | Faddrar var rättaren Markus Persson och hans hustru vid Brenäs — gårdens förman, inte släkt. | TRANSCRIBED | hög | [C-1069](../citations/C-1069-skedevi-C10-1897-post-26-astrid-charlotta.md) | Säger något om familjens sociala krets som statare långt hemifrån. Faddrarna är inte efterforskade. |
 | A-4311 | Astrids och Johan Fridolfs hushåll på Ljungbacka har en dotterrad, uppgiven född 1919-06-03 i Flen, med samma utflyttning 1919-08-28. | TRANSCRIBED | hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Rad 26, tidigare utelämnad. Namnets mellanled var reserverat som `Gunnvor Borg Elisabet[?]`; C-0030 läser samma dotter `Gunvor Solveig Charlotta`, se A-5749. Ingen egen födelsepost är läst. Äldre lydelse i historiken. |
 | A-5740 | Folkräkningsbladen 1900 och 1910 för Flen bär dokumenthuvudet `Utdrag ur Församlingsboken` och skriver hennes födelseort `Skedevi, Östergötlands län`. | TRANSCRIBED | hög | [C-0012](../citations/C-0012-ada-wilhelmina-folkrakning-1900.md), [C-0011](../citations/C-0011-ada-wilhelmina-folkrakning-1910.md) | Ny utvinning ur de sparade fullbilderna. Länsangivelsen är en söknyckel som saknades. Bladen är härledda ur församlingsboken och är inte oberoende folkräkningsvittnen; det är inte noterat i någon av citationerna. |
 | A-5741 | Hon flyttade med föräldrahushållet till Mineberg, uppslag 420 i Flen, 1908-10-16 från `p. 335`, och därifrån till Ljungbacka, uppslag 402, den 1914-10-30. På båda uppslagen har hennes egen rad vaccinationsmarkering och kristendomsnoten `a/n`, medan övriga egna fält är tomma. | TRANSCRIBED | hög | [C-0035](../citations/C-0035-ada-mineberg-sida-420.md), [C-0911](../citations/C-0911-jansson-ljungbacka-flen-1914-1915.md) | Ny utvinning ur de sparade fullbilderna `00153990_00122` rad 6 och `00153990_00104` rad 4. Ingen av citationerna hade hennes egen rad. Tomma fält är källgränser, inte negativa fynd. |
@@ -55,7 +55,7 @@ Faderns skrivform `Jaensson` i flera Flenböcker är skrivarens variant och
 | A-5745 | I Flens församlingsbok 1930–1940, Björkhem n:o 1 vid Berggatan 21, sida 563 rad 12, står hon som `Astrid Charlotta Lundkvist` med yrket `polererska` överstruket och ersatt av `frånsk. hustru`, civilståndskolumnen `Frsk. 25 ²³/₁₂` och kristendomsnoten `a/n`. | TRANSCRIBED | hög | [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-0896](../citations/C-0896-flen-sida-638-saknas-och-inkomstenhet-1930.md) | Ny utvinning ur den sparade fullbilden `00153999_00163`. C-0896 hade bara noterat namnet och hänvisningen `s. 638 30`. Detta är hennes enda belagda egna yrke och det första belägget för hennes liv efter 1919. |
 | A-5746 | Samma rad bär anteckningen `Skild fr. spårvägsman Joh. Fridolf Lundkvist`. | TRANSCRIBED | hög | [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md) | Ny utvinning. Anteckningen belägger skilsmässan och mannens yrke vid anteckningens tid; den namnger inte domstol, ort eller grund, och `Frsk. 25 ²³/₁₂` är kyrkobokens datering, inte en läst dom. |
 | A-5747 | Hon kom till sida 563 från sida 638 i samma bok år 1930 och flyttade vidare till `fol. 949` år 1932; barnens rader bär samma destination genom ditto. | TRANSCRIBED | hög | [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md) | Ny utvinning. Sida 638 i samma volym är `Eriksro n:o 2, Drottninggatan 3` och är läst för föräldrarnas rader; hennes egen rad på 638 är inte transkriberad. Föräldrarna och systersonen Arne flyttade samtidigt 638→563. |
-| A-5748 | Under henne står två barnrader: `d. Gunvor Solveig Charlotta`, född 1919-06-03 i Flen, och `s. Karl Yngve`, född 1921-02-11. | TRANSCRIBED | hög | [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md) | Ny utvinning. **Sonen Karl Yngve var tidigare okänd i projektet.** Hans födelseort har en överskriven äldre ortform med `Flen` skrivet ovanför och reserveras. Över dotterns namn står en delvis överstruken form som läses `Jansson`; namnbytet är inte belagt och reserveras. |
+| A-5748 | Under henne står två barnrader: `d. Gunvor Solveig Charlotta`, född 1919-06-03 i Flen, och `s. Karl Yngve`, född 1921-02-11. | TRANSCRIBED | hög | [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md) | Ny utvinning. Sonen Karl Yngve var tidigare okänd i projektet. Hans födelseort har en överskriven äldre ortform med `Flen` skrivet ovanför och reserveras. Över dotterns namn står en delvis överstruken form som läses `Jansson`; namnbytet är inte belagt och reserveras. |
 | A-5749 | Dottern `Gunvor Solveig Charlotta`, född 1919-06-03 i Flen, är samma person som C-0910:s reserverade `Gunnvor Borg Elisabet[?]` på rad 26. | CORROBORATED | hög | [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Födelsedag, födelseort och föräldrar stämmer exakt i två böcker. Mellannamnet i C-0910 var uttryckligen reserverat; C-0030:s form är den bättre läsningen. Ingen egen födelsepost är läst. |
 | A-5750 | Hennes egen födelsenotis och Skedevihushållet saknar lokalt speglade fullbilder och SHA-256. | TRANSCRIBED | hög | [C-1069](../citations/C-1069-skedevi-C10-1897-post-26-astrid-charlotta.md), [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md) | Ny observation i denna granskning. Båda citationerna har exakt reproduktion, bild och läsdatum, men ingen lokal kopia. C-1070 anger dessutom själv att hennes egna kunskaps- och förhörsfält behöver fullutvinnas vid återåtkomst. |
 | A-5751 | Hela hushållet på Skedevi `A II a/3` sida 569 utflyttade till Flen i Nyköpings län 1900-10-17; hennes egen rad 8 anger `97 ²¹/₃`, `Sk.` och vaccinationsmarkering utan egen destinationsdag. | TRANSCRIBED | hög | [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md) | Ny utvinning för hennes akt. Datumet står uttryckligen på raderna 2, 4 och 5; hela hushållet är överstruket med en enda avgångslinje. Hennes egen rad saknar utskrivet datum, så flyttdagen gäller henne genom hushållet, inte genom en egen cell. |
@@ -153,8 +153,8 @@ militärnummer `191 55/13` är hans egen nyckel och överförs inte till henne.
 | 1897–1930 | Vaccinationsmarkering `v` på hennes egen rad i fem hushållsböcker | [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md), [C-0035](../citations/C-0035-ada-mineberg-sida-420.md), [C-0911](../citations/C-0911-jansson-ljungbacka-flen-1914-1915.md), [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md) | Markeringen avser koppympning och är ingen sjukdomsdiagnos. |
 
 Ingen sjukdom, funktionsnedsättning eller lyte förekommer i lyteskolumnerna
-på hennes rader. Hon levde 1932 och var då 35 år; **död, begravning och
-dödsort är okända, och ingen dödspost är sökt.** Ingen fabricerad dödsuppgift
+på hennes rader. Hon levde 1932 och var då 35 år; död, begravning och
+dödsort är okända, och ingen dödspost är sökt. Ingen fabricerad dödsuppgift
 förs in.
 
 ## Media och personliga källor
@@ -168,17 +168,17 @@ förs in.
 | Folkbokföringsutdragen 1900 och 1910 | 1900; 1910 | Riksarkivet, bevarade bilder | [C-0012](../citations/C-0012-ada-wilhelmina-folkrakning-1900.md), [C-0011](../citations/C-0011-ada-wilhelmina-folkrakning-1910.md) | Länk och SHA-256 i citationerna |
 
 Inga fotografier, brev, dagböcker eller underskrifter av henne är kända.
-**Hennes egen födelsenotis och Skedevihushållet saknar lokala kopior**:
+Hennes egen födelsenotis och Skedevihushållet saknar lokala kopior:
 [C-1069](../citations/C-1069-skedevi-C10-1897-post-26-astrid-charlotta.md) och
 [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md) anger
 exakt reproduktion, bild och läsdatum men ingen speglad fil med SHA-256.
 
 ## Biografisk sammanfattning
 
-Astrid Charlotta Jansson föddes den **21 mars 1897 vid Brenäs i Skedevi** och
+Astrid Charlotta Jansson föddes den 21 mars 1897 vid Brenäs i Skedevi och
 döptes nästan två månader senare, den 16 maj. Föräldrarna var statdrängen
 Karl Fredrik Jansson och Charlotta Vilhelmina Larsson, och faddrarna var
-**gårdens rättare Markus Persson och hans hustru** — arbetsplatsens förman,
+gårdens rättare Markus Persson och hans hustru — arbetsplatsens förman,
 inte släkt. Hon var yngst av fem syskon i en statarfamilj som hade flyttat
 sex gånger på tretton år genom fem socknar. [C-1069](../citations/C-1069-skedevi-C10-1897-post-26-astrid-charlotta.md), [C-1070](../citations/C-1070-skedevi-AIIa3-sida-569-brenas-1895-1900.md)
 
@@ -189,22 +189,22 @@ konfirmerades hon i Flens kyrka och gick till nattvarden första gången
 dagen därpå — den enda personliga händelse som kyrkoboken noterar om henne
 under uppväxten. [C-0035](../citations/C-0035-ada-mineberg-sida-420.md), [C-0911](../citations/C-0911-jansson-ljungbacka-flen-1914-1915.md)
 
-Den **29 oktober 1918**, tjugoett år gammal, gifte hon sig med
-järnvägskonduktören och maskinisten **Johan Fridolf Lundkvist** efter lysning
+Den 29 oktober 1918, tjugoett år gammal, gifte hon sig med
+järnvägskonduktören och maskinisten Johan Fridolf Lundkvist efter lysning
 nr 30 för året. Det var samma dag som systern Ada lämnade Sverige för Norge
 och lämnade kvar sin son Arne hos morföräldrarna i samma hushåll. Astrid
 fördes internt från barnraden till en egen familjerad på samma uppslag.
-Dottern **Gunvor Solveig Charlotta** föddes den 3 juni 1919, och den
+Dottern Gunvor Solveig Charlotta föddes den 3 juni 1919, och den
 28 augusti samma år flyttade familjen till **Sundbyberg**. [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md)
 
 Där tar den lästa kedjan slut i elva år. När hon åter går att följa, i Flens
-församlingsbok 1930–1940, står hon som **Astrid Charlotta Lundkvist** på
+församlingsbok 1930–1940, står hon som Astrid Charlotta Lundkvist på
 samma uppslag som sina föräldrar och systersonen Arne, på Björkhem n:o 1 vid
 Berggatan 21. Yrkeskolumnen skriver **`polererska`**, överstruket och ersatt
-av **`frånsk. hustru`**, och anteckningen lyder **`Skild fr. spårvägsman Joh.
-Fridolf Lundkvist`**; civilståndskolumnen daterar skilsmässan till
-**23 december 1925**. Hos henne står två barn: Gunvor Solveig Charlotta och
-en **son Karl Yngve, född 11 februari 1921**, som inte var känd i projektet
+av `frånsk. hustru`, och anteckningen lyder `Skild fr. spårvägsman Joh.
+Fridolf Lundkvist`; civilståndskolumnen daterar skilsmässan till
+23 december 1925. Hos henne står två barn: Gunvor Solveig Charlotta och
+en son Karl Yngve, född 11 februari 1921, som inte var känd i projektet
 förrän nu. År 1932 flyttade hon vidare med barnen till uppslag 949. [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md), [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md)
 
 Vad som hände mellan Sundbyberg 1919 och Flen 1930, och vad som hände efter
@@ -239,8 +239,8 @@ tidslinje, boställen, yrke, hälsa, media och berättelse saknades helt.
 
 Sakrättelser och tillägg i denna konsolidering, med orsak:
 
-- **Fyra källor som bär hennes egna rader saknades i akten** och är nu införda: [C-0035](../citations/C-0035-ada-mineberg-sida-420.md), [C-0911](../citations/C-0911-jansson-ljungbacka-flen-1914-1915.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md) och [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md). Den sista kända uppgiften om henne var tidigare 1919; nu är kedjan följd till 1932.
-- **Hennes egna rader har lästs på de sparade fullbilderna** och gav konfirmationen 1912, skilsmässan 1925, yrket polererska, sonen Karl Yngve och dotterns bättre namnform. Ingen ny arkivåtkomst gjordes. Uppgifterna finns ännu inte i citationerna; citationsägaren behöver föra in dem.
+- Fyra källor som bär hennes egna rader saknades i akten och är nu införda: [C-0035](../citations/C-0035-ada-mineberg-sida-420.md), [C-0911](../citations/C-0911-jansson-ljungbacka-flen-1914-1915.md), [C-0030](../citations/C-0030-arne-bjorkhem-sida-563.md) och [C-1047](../citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md). Den sista kända uppgiften om henne var tidigare 1919; nu är kedjan följd till 1932.
+- Hennes egna rader har lästs på de sparade fullbilderna och gav konfirmationen 1912, skilsmässan 1925, yrket polererska, sonen Karl Yngve och dotterns bättre namnform. Ingen ny arkivåtkomst gjordes. Uppgifterna finns ännu inte i citationerna; citationsägaren behöver föra in dem.
 - **A-0196**: den namngivna luckan `Exakt datum återstår` är löst, och de två bladen är identifierade som församlingsboksutdrag. Äldre lydelse nedan.
 - **A-3427**: destinationen preciseras till Sundbyberg i Stockholms län enligt T-0129:s omläsning, och makens yrkesbeteckning kompletteras. Äldre lydelser nedan; den första bevarades redan i T-0129.
 - **A-4311**: dotterns namn är inte längre enbart `Gunnvor Borg Elisabet[?]`. Äldre lydelse nedan.

@@ -24,7 +24,7 @@ Hulda Amalias far och därmed anposition på Sverkers sida.
 [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md),
 [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md)
 
-Identiteten är prövad, men **identitetsnivån är inte godkänd**: personens egna
+Identiteten är prövad, men identitetsnivån är inte godkänd: personens egna
 hushållsrader är inte fullständigt utvunna och två av de bärande citationerna
 saknar bevarad reproduktion. Skälen står under
 [profilens kontraktsgranskning](../research-profiles/P-0110.md#kontraktsgranskning).
@@ -46,29 +46,29 @@ i sonens födelsenotis 1850 och är alltså ett familjenamn, inte ett namnbyte.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-0400 | Namnet var Per Albert Ålund. | CORROBORATED | mycket hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md), [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md), [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md), [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md) | Den egna födelsenotisen 1850, dotterns födelsebok 1877, utflyttningslängden 1879 och folkräkningsutdraget 1890 skriver samma namnform; den äldre stavningen `Pehr` redovisas i Namnformer. |
-| A-0401 | Han föddes 1850-09-06 i Gryts församling. | CORROBORATED | mycket hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md), [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md), [C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md), [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | **Egen födelsenotis läst 2026-09-06.** Kommentaren är rättad 2026-09-09: de två folkräkningsutdragen och husförhörslängderna är **inte** oberoende bärare av varandra, se A-5932. De oberoende bärarna är den egna födelsenotisen och lysningsboken 1876. |
+| A-0401 | Han föddes 1850-09-06 i Gryts församling. | CORROBORATED | mycket hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md), [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md), [C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md), [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | **Egen födelsenotis läst 2026-09-06.** Kommentaren är rättad 2026-09-09: de två folkräkningsutdragen och husförhörslängderna är inte oberoende bärare av varandra, se A-5932. De oberoende bärarna är den egna födelsenotisen och lysningsboken 1876. |
 | A-0402 | Han var rättare 1890. | TRANSCRIBED | hög | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | Yrkeskolumnen i folkräkningsutdraget; samma titel står i sonens födelsenotis samma år. |
 | A-0403 | Han var dräng i Djupnäs i Gryt 1877. | TRANSCRIBED | hög | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Föräldrakolumnen i födelseboken. Djupnäs är hemvist i kolumnen, inte en utsagd förlossningsplats. |
 | A-0404 | Han var gift med Adela Amalia Urbom sedan omkring 1876. | CORROBORATED | mycket hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md), [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md), [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | Härledningen ur `gifta 1½ år` 1877 är nu ersatt av vigselbokens egen post; se A-3670 för dag och ort. |
 | A-0405 | Han var far till Hulda Amalia. | CORROBORATED | hög | [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md), [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md) | Födelsenotis och två hushållsposter. |
-| A-0406 | Han flyttade 1879 från Djupnäs i Gryt till Hyltinge med hustru och en dotter. | TRANSCRIBED | hög | [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md), [C-0081](../citations/C-0081-gryt-1890-negativ-kontroll-alund.md) | Utflyttningslängdens poster 61–62, folio 162. Attestdatumet står som upprepningstecken; närmast utskrivna datum ovanför i samma kolumn och hand är `24/10`, vilket ger 24 oktober 1879 **med reservation**. |
+| A-0406 | Han flyttade 1879 från Djupnäs i Gryt till Hyltinge med hustru och en dotter. | TRANSCRIBED | hög | [C-0077](../citations/C-0077-alund-utflyttning-gryt-hyltinge-1879.md), [C-0081](../citations/C-0081-gryt-1890-negativ-kontroll-alund.md) | Utflyttningslängdens poster 61–62, folio 162. Attestdatumet står som upprepningstecken; närmast utskrivna datum ovanför i samma kolumn och hand är `24/10`, vilket ger 24 oktober 1879 med reservation. |
 | A-0464 | Han var 1910 förre detta torpare i Valsta i Hyltinge. | TRANSCRIBED | hög | [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | Födelseåret 1850 och födelseorten Gryt är identiska med 1890 års utdrag. Posten ger inget inflyttningsdatum och inget bevis för obruten vistelse sedan 1900. |
 | A-0484 | Han var torpare i Rudstugan i Hyltinge 1900. | TRANSCRIBED | hög | [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md) | Yrket 1910 anges som f.d. torpare, vilket stämmer med denna uppgift. |
-| A-0488 | Familjens boställen i Hyltinge var Valsund 1890, Rudstugan 1900 och Valsta 1910. | CORROBORATED | hög | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md), [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | Tre bokförda räkningsår med identiska födelseår och födelseorter. Rättat 2026-09-09: detta är tre ögonblicksbilder, **inte** en belagd obruten boställeskedja; åren däremellan är inte lästa i församlingens egna böcker. |
-| A-0489 | Det tidigare påståendet att Gryts födelseböcker före 1861 inte är digitaliserade var fel; C/3 är reproducerad som `C0006497` med 234 bilder och födelsenotisen är läst. | REJECTED | hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md), [S-0066](../sources/S-0066-folkrakning-1890-gryt.md) | **Upphävd slutsats, bevarad som metodhistorik.** Bildlänken saknas i sökträffen men reproduktions-id:t står i katalogpostens detaljvy. Ett metadatafel i sökvyn, inte en digitaliseringslucka. |
+| A-0488 | Familjens boställen i Hyltinge var Valsund 1890, Rudstugan 1900 och Valsta 1910. | CORROBORATED | hög | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md), [C-0088](../citations/C-0088-alund-hushall-rudstugan-1900.md), [C-0085](../citations/C-0085-alund-hushall-valsta-hyltinge-1910.md) | Tre bokförda räkningsår med identiska födelseår och födelseorter. Rättat 2026-09-09: detta är tre ögonblicksbilder, inte en belagd obruten boställeskedja; åren däremellan är inte lästa i församlingens egna böcker. |
+| A-0489 | Det tidigare påståendet att Gryts födelseböcker före 1861 inte är digitaliserade var fel; C/3 är reproducerad som `C0006497` med 234 bilder och födelsenotisen är läst. | REJECTED | hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md), [S-0066](../sources/S-0066-folkrakning-1890-gryt.md) | Upphävd slutsats, bevarad som metodhistorik. Bildlänken saknas i sökträffen men reproduktions-id:t står i katalogpostens detaljvy. Ett metadatafel i sökvyn, inte en digitaliseringslucka. |
 | A-0495 | Han var rättare i Valsund i Hyltinge 1890 och uppgavs då vara 39 år, alltså född omkring 1850–1851. | TRANSCRIBED | hög | [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | Åldersuppgiften är förenlig med den nu belagda födelsedagen 1850-09-06. |
 | A-0496 | Han och Adela Amalia hade varit gifta i 14 år i juni 1890, vilket ger vigsel omkring 1876. | CORROBORATED | hög | [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md), [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) | Avrundad äktenskapslängd. Den ersätter inte det belagda datumet 1876-06-24 i A-3670. |
-| A-0500 | Vigseln 1876 finns inte i Västra Vingåkers lysnings- och vigselbok. | TRANSCRIBED | hög | [C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md), [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Hela årgången 1876 genomsökt. Nollresultatet står kvar och är **förklarat**: lysningen togs ut i Gryt och vigseln förrättades i Husby-Oppunda. Västra Vingåker var brudens födelseförsamling, inte hennes familjs senare hemsocken. |
+| A-0500 | Vigseln 1876 finns inte i Västra Vingåkers lysnings- och vigselbok. | TRANSCRIBED | hög | [C-0092](../citations/C-0092-vastra-vingaker-1876-negativ-kontroll.md), [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Hela årgången 1876 genomsökt. Nollresultatet står kvar och är förklarat: lysningen togs ut i Gryt och vigseln förrättades i Husby-Oppunda. Västra Vingåker var brudens födelseförsamling, inte hennes familjs senare hemsocken. |
 | A-0501 | Namnformen `Pehr Albert` förekommer i Helgestas utflyttningslängd 1874. | TRANSCRIBED | hög | [C-0096](../citations/C-0096-pehr-albert-utflyttning-helgesta-1874.md) | Äldre stavning; den egna födelsenotisen skriver `Per`. |
 | A-0502 | Han var dräng vid Sund i Helgesta och flyttade därifrån 1874 till Jordanstorp i Gryt. | CORROBORATED | hög | [C-0096](../citations/C-0096-pehr-albert-utflyttning-helgesta-1874.md), [C-0093](../citations/C-0093-per-albert-alund-inflyttning-gryt-1874.md) | Utflyttning löpnummer 34 och inflyttning årsnummer 72 i två församlingars längder. Folio 8 i Helgesta, folio 162 i Gryt — samma folio som vid utflyttningen 1879. |
 | A-0506 | Det tidigare påståendet att han inte var bosatt i Gryt före 1874 var för starkt formulerat. | REJECTED | hög | [C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md), [C-0181](../citations/C-0181-helgesta-B2-pehr-albert-inflyttad-1871.md), [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | **Upphävd slutsats.** Han föddes i Gryt 1850 och bodde där till familjens flytt till Helgesta; flyttlängderna visar bara den omedelbara kedjan efter 1868. |
 | A-1373 | Han flyttade 1871-10-11 från Hyltinge till Sund i Helgesta och därifrån 1874 till Gryt. | CORROBORATED | hög | [C-0181](../citations/C-0181-helgesta-B2-pehr-albert-inflyttad-1871.md), [C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md), [C-0096](../citations/C-0096-pehr-albert-utflyttning-helgesta-1874.md), [C-0093](../citations/C-0093-per-albert-alund-inflyttning-gryt-1874.md) | Två församlingars flyttlängder och hushållssidan bildar en sammanhängande kedja. Hyltinges egen utflyttningspost 1871 saknas dock, se A-1892 och C-0182. |
 | A-1891 | Han återkom 1875 från Gryt till Suna i Hyltinge och skrevs där som dräng. | CORROBORATED | hög | [C-0315](../citations/C-0315-hyltinge-AI17-pehr-albert-alund-suna-sida-57.md) | Exakt namn, födelsedatum 1850-09-06 och födelseförsamling Gryt identifierar honom; flyttkolumnen anger `Gryt 75`. Raden är inte överstruken och har tom utflyttningskolumn. |
-| A-3666 | Per Albert föddes 1850-09-06 och döptes 15 september 1850; födelsebokens ortkolumn anger **Hornet** i Gryt. | CORROBORATED | mycket hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md), [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Egen födelse- och dopnotis, bild `C0006497_00125`, sida 114. Dopdagen och gårdsnamnet är nya uppgifter. Omformulerad 2026-09-09: `Hornet` står i ort-/namnkolumnen och anger familjens hemvist, inte en utsagd förlossningsplats. |
-| A-3667 | Fadern skrivs 1850 **`Bond.`**, alltså bonde, inte torpare; föräldrarna anges som `Carl Fr. Ålund` och `Maja C. Carlsdr` med ålderskolumnen `45–50`. | TRANSCRIBED | hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | Föräldrarna var kända ur familjens Helgestasida; barnets egen notis bekräftar dem oberoende. Ålderskolumnen gäller föräldraparet som post och specificerar inte vem den avser. |
-| A-3668 | Faddrarna 1850 binder familjen till Hyltingetrakten: `Son Per Gustaf Persson i Gålund` och ett fadderpar i **Hyltinge**. | TRANSCRIBED | medel | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | Gålund är samma ort dit Per Albert flyttade som dräng 1868, och Hyltinge socknen där han bodde från 1879. Faddrarnas gårdsnamn är delvis oläsligt (`Jo[…]sand`). Kompletterad 2026-09-09 av A-5931, som redovisar hela fadderraden. |
-| A-3669 | Lysning togs ut i Gryt 1876 under N:o 5, med lysningsdagarna 28 maj, 4 juni och 11 juni; han skrevs **dräng i Suna i Hyltinge** och medförde betyg från komministern där. | TRANSCRIBED | hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Bild `A0012148_00132`. Parterna var skrivna i olika socknar, vilket förklarar betyget. Lysningsraden upprepar hans födelsedatum som `50 6/9` och hänvisar till vigselboken med `76 . 5`. |
-| A-3670 | **Vigseln ägde rum 1876-06-24 och förrättades i Husby i Oppunda härad**, alltså Husby-Oppunda socken, enligt anteckningen i Gryts vigselbok. | TRANSCRIBED | hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Fastställer det datum som hittills bara var härlett ur två åldersuppgifter, och flyttar vigselorten från Gryt till Husby-Oppunda. Husby-Oppundas egen vigselbok är **inte läst**. |
+| A-3666 | Per Albert föddes 1850-09-06 och döptes 15 september 1850; födelsebokens ortkolumn anger Hornet i Gryt. | CORROBORATED | mycket hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md), [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Egen födelse- och dopnotis, bild `C0006497_00125`, sida 114. Dopdagen och gårdsnamnet är nya uppgifter. Omformulerad 2026-09-09: `Hornet` står i ort-/namnkolumnen och anger familjens hemvist, inte en utsagd förlossningsplats. |
+| A-3667 | Fadern skrivs 1850 `Bond.`, alltså bonde, inte torpare; föräldrarna anges som `Carl Fr. Ålund` och `Maja C. Carlsdr` med ålderskolumnen `45–50`. | TRANSCRIBED | hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | Föräldrarna var kända ur familjens Helgestasida; barnets egen notis bekräftar dem oberoende. Ålderskolumnen gäller föräldraparet som post och specificerar inte vem den avser. |
+| A-3668 | Faddrarna 1850 binder familjen till Hyltingetrakten: `Son Per Gustaf Persson i Gålund` och ett fadderpar i Hyltinge. | TRANSCRIBED | medel | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | Gålund är samma ort dit Per Albert flyttade som dräng 1868, och Hyltinge socknen där han bodde från 1879. Faddrarnas gårdsnamn är delvis oläsligt (`Jo[…]sand`). Kompletterad 2026-09-09 av A-5931, som redovisar hela fadderraden. |
+| A-3669 | Lysning togs ut i Gryt 1876 under N:o 5, med lysningsdagarna 28 maj, 4 juni och 11 juni; han skrevs dräng i Suna i Hyltinge och medförde betyg från komministern där. | TRANSCRIBED | hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Bild `A0012148_00132`. Parterna var skrivna i olika socknar, vilket förklarar betyget. Lysningsraden upprepar hans födelsedatum som `50 6/9` och hänvisar till vigselboken med `76 . 5`. |
+| A-3670 | Vigseln ägde rum 1876-06-24 och förrättades i Husby i Oppunda härad, alltså Husby-Oppunda socken, enligt anteckningen i Gryts vigselbok. | TRANSCRIBED | hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | Fastställer det datum som hittills bara var härlett ur två åldersuppgifter, och flyttar vigselorten från Gryt till Husby-Oppunda. Husby-Oppundas egen vigselbok är inte läst. |
 | A-3671 | Gryts vigslar 1861–1894 finns i den kombinerade ministerialboken C/5, inte i serien `E I`, som börjar först 1895. | TRANSCRIBED | mycket hög | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md), [S-0762](../sources/S-0762-gryt-C5-fodde-vigde-doda-1861-1894.md) | Katalogposten anger uttryckligen `Innehåller även: 1) Lysning- och vigselbok 1861-1894` och bär se-hänvisning från `E I`. Det tidigare hindret var ett seriestrukturfel, inte ett åtkomsthinder. |
 | A-1892 | Hyltinge A I/17 s. 1–198 innehåller ingen andra säker rad för honom utöver Suna s. 57. | TRANSCRIBED | hög | [C-0315](../citations/C-0315-hyltinge-AI17-pehr-albert-alund-suna-sida-57.md) | Hela bildföljden 14–184 granskades. Det är ett volymbundet nollresultat för exakt identitet, inte frånvarobevis vid grov felskrivning. |
 | A-1893 | Han flyttade 1868-10-24 från Löta i Helgesta till Gålund i Hyltinge och skrevs där som dräng. | CORROBORATED | hög | [C-0316](../citations/C-0316-pehr-albert-alund-helgesta-hyltinge-1868.md) | Helgestas utflyttningslängd post 7, Hyltinges inflyttningslängd post 25 och Hyltinge A I/16 s. 16 bildar ett reciprokt led; exakt namn, födelsedatum och födelseförsamling säkrar identiteten. Attestnumret redovisas i A-5933. |
@@ -80,7 +80,7 @@ i sonens födelsenotis 1850 och är alltså ett familjenamn, inte ett namnbyte.
 | A-3150 | Riksarkivets avgränsade metadatafrågor på Hyltinge och mantals-/taxeringslängder 1900–1935 gav ingen relevant serie; enda träffen var en karta för Stora Kofva i Lilla Malma. | NEGATIVE | hög | [C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md) | Katalogbundet noll, inte belägg för att skattehandlingar eller personposter saknas. |
 | A-5930 | Karl Alberts födelsenotis 1890 hänvisar föräldrahushållet till `Fol. 102` i Hyltinges husförhörslängd; mottagarsidan är inte läst. | TRANSCRIBED | hög | [C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md) | Uttrycklig hushållshänvisning på föräldraraden, avläst vid den lokala fullbildskontrollen 2026-09-07 men aldrig införd i denna akt. Den avgränsade läsningen ägs av [T-0240](../../wotan/dev-log/T-0240.md). |
 | A-5931 | Faddrarna vid dopet 1850-09-15 var `Bond. Anders Andersson o. H:u Stina L. Andersdr i Jo[…]sand, Hyltinge`, `Son Per Gustaf Persson i Gålund` och `Dott:r Thilda Sandberg` med ortangivelsen `Ludge`. | TRANSCRIBED | hög | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | Den tredje faddern saknades helt i aktens tidigare utvinning. Ortformen `Ludge` liknar Ludgo, den församling som anges som faderns födelseort i [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md); sammanföringen är en oprövad läshypotes, inte en slutsats. |
-| A-5932 | Folkräkningsutdraget 1890 bär dokumenthuvudet `Utdrag ur Husförhörslängden för Hyltinge församl. i Villåttinge prosteri, Södermanl. län, d. 31/12 1890` och är därmed en härledd återgivning av församlingens husförhörslängd. | TRANSCRIBED | mycket hög | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md) | Följd för bevisföringen: utdraget och Hyltinges husförhörslängder är **en** informationsväg, inte två oberoende observationer av födelseår eller födelseförsamling. Den oberoende bekräftelsen av 1850-09-06 kommer från den egna födelsenotisen och lysningsboken 1876. |
+| A-5932 | Folkräkningsutdraget 1890 bär dokumenthuvudet `Utdrag ur Husförhörslängden för Hyltinge församl. i Villåttinge prosteri, Södermanl. län, d. 31/12 1890` och är därmed en härledd återgivning av församlingens husförhörslängd. | TRANSCRIBED | mycket hög | [C-0078](../citations/C-0078-alund-hushall-hyltinge-1890.md) | Följd för bevisföringen: utdraget och Hyltinges husförhörslängder är en informationsväg, inte två oberoende observationer av födelseår eller födelseförsamling. Den oberoende bekräftelsen av 1850-09-06 kommer från den egna födelsenotisen och lysningsboken 1876. |
 | A-5933 | Inflyttningen till Gålund 1868 bär attest-/postnummer 25 i både Hyltinges husförhörslängd A I/16 och Hyltinges inflyttningslängd B/2. | TRANSCRIBED | hög | [C-0316](../citations/C-0316-pehr-albert-alund-helgesta-hyltinge-1868.md) | Numret binder hushållsraden till flyttlängdens post och är en ännu oanvänd söknyckel mot Hyltinges bevarade flyttattester. |
 
 ## Relationer
@@ -206,14 +206,14 @@ eller anmärkningsuppgift har utvunnits ur någon av hans rader.
 |---|---|---|---|
 | 1850-09-15 | Döpt nio dagar efter födelsen | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | Ordinarie dopdag; notisen bär ingen nöddopsmarkering. Dopdagen är ingen hälsouppgift. |
 | 1911–1934 | Ingen säker dödpost i Hyltinge | [C-0431](../citations/C-0431-hyltinge-F1-doda-1911-1934-negativ-alund-urbom.md) | Hela årgångarna lästa i bildföljden `00154530_00044`–`_00103`. Ett brett församlingsnoll som varken daterar döden eller utesluter en annan församling, en grovt avvikande namnform eller en olokaliserad flytt. |
-| efter 1910 | Dödstid, dödsort och dödsorsak okända | [C-0430](../citations/C-0430-hyltinge-AIIa2-AIIa3-valsta-lokaliseringsnoll.md), [C-0432](../citations/C-0432-hyltinge-B4-utflyttade-1910-1914-negativ-alund.md) | De registerstyrda Valsta-sidorna återger inte hushållet och utflyttningsåren 1910–1914 saknar honom, men **årgången 1915 är inte färdigläst**. Ingen sjukdoms- eller funktionsuppgift förekommer i någon läst rad. |
+| efter 1910 | Dödstid, dödsort och dödsorsak okända | [C-0430](../citations/C-0430-hyltinge-AIIa2-AIIa3-valsta-lokaliseringsnoll.md), [C-0432](../citations/C-0432-hyltinge-B4-utflyttade-1910-1914-negativ-alund.md) | De registerstyrda Valsta-sidorna återger inte hushållet och utflyttningsåren 1910–1914 saknar honom, men årgången 1915 är inte färdigläst. Ingen sjukdoms- eller funktionsuppgift förekommer i någon läst rad. |
 
 ## Media och personliga källor
 
 | Objekt | Datum | Upphov/provenans | Citation | Lokal fil |
 |---|---|---|---|---|
-| Egen födelse- och dopnotis | 1850-09-06 | Riksarkivet, Gryt C/3, bild `C0006497_00125`, sida 114 | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | **saknas** — citationen har varken `Lokal källbild` eller SHA-256 |
-| Egen lysnings- och vigselpost | 1876 | Riksarkivet, Gryt C/5, bild `A0012148_00132` | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | **saknas** — citationen har varken `Lokal källbild` eller SHA-256 |
+| Egen födelse- och dopnotis | 1850-09-06 | Riksarkivet, Gryt C/3, bild `C0006497_00125`, sida 114 | [C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md) | saknas — citationen har varken `Lokal källbild` eller SHA-256 |
+| Egen lysnings- och vigselpost | 1876 | Riksarkivet, Gryt C/5, bild `A0012148_00132` | [C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md) | saknas — citationen har varken `Lokal källbild` eller SHA-256 |
 | Föräldrahushållet i Löta, sida 179 | 1861–1865 | Riksarkivet, Helgesta A I/15 | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | [`C0006610_00149`](../media/C-0317-riksarkivet-helgesta-AI15-bild-149-sida-179.jpg) med SHA-256 i citationen |
 | Egen hushållsrad i Gålund, sida 16 | 1868 | Riksarkivet, Hyltinge A I/16 | [C-0316](../citations/C-0316-pehr-albert-alund-helgesta-hyltinge-1868.md) | [`C0006697_00025`](../media/C-0316-riksarkivet-hyltinge-AI16-bild-25-sida-16.jpg) med SHA-256 i citationen |
 | Egen hushållsrad vid Sund, sida 8 | 1871–1875 | Riksarkivet, Helgesta A I/17 | [C-0180](../citations/C-0180-helgesta-AI17-pehr-albert-sund-sida-8.md) | [`C0006612_00018`](../media/C-0180-riksarkivet-helgesta-AI17-bild-18-sida-8.jpg) med SHA-256 i citationen |
@@ -231,7 +231,7 @@ tryck; frånvaron är en oprövad lucka, inte ett sökt nollresultat.
 Per Albert Ålund föddes den 6 september 1850 i Gryt i Södermanland och döptes
 nio dagar senare. Födelsebokens ortkolumn skriver hemvisten `Hornet`. Fadern,
 **Carl Fredrik Ålund**, betecknas i notisen `Bond.` — bonde, inte torpare —
-och modern var **Maja Catharina Carlsdotter**
+och modern var Maja Catharina Carlsdotter
 ([C-0985](../citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md)).
 
 Att notisen alls är läst är resultatet av en rättad bedömning. Gryts
@@ -240,8 +240,8 @@ därför att sökträffen saknade bildlänk. Beskedet var fel: katalogpostens
 detaljvy pekar ut reproduktionen `C0006497` med 234 bilder. Påståendet
 A-0489 står som upphävt och bevaras som metodhistorik.
 
-En detalj i dopnotisen pekar framåt. Bland faddrarna står **Per Gustaf
-Persson i Gålund** och ett par från **Hyltinge** — Gålund var den gård dit
+En detalj i dopnotisen pekar framåt. Bland faddrarna står Per Gustaf
+Persson i Gålund och ett par från **Hyltinge** — Gålund var den gård dit
 han flyttade som artonåring, Hyltinge den socken där han slutligen slog sig
 ned. En tredje fadder, `Dott:r Thilda Sandberg`, bär ortformen `Ludge`, som
 liknar Ludgo, faderns födelseförsamling
@@ -263,8 +263,8 @@ poster i båda församlingarnas längder.
 Sedan återvände han en gång till till sin födelseförsamling. Där togs
 lysningen ut den 28 maj 1876, med två lysningsdagar till i juni: han skriven
 som dräng i Suna i Hyltinge och därför försedd med betyg från komministern
-där, hon som piga i Högtorp. Den **24 juni 1876** vigdes han med **Adela
-Amalia Urbom**
+där, hon som piga i Högtorp. Den **24 juni 1876** vigdes han med Adela
+Amalia Urbom
 ([C-0986](../citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md)).
 
 Vigselnotisen hade länge gäckat arbetet, och orsaken visade sig vara två
@@ -273,18 +273,18 @@ skilda felslut. Det första var fel serie: Gryts lysnings- och vigselböcker
 ligger i den kombinerade ministerialboken C/5, publikt tillgänglig hela
 tiden. Det andra var fel socken: Västra Vingåkers hela årgång 1876 hade
 lästs utan träff, korrekt gjort men i brudens **födelseförsamling**. Gryts
-vigselbok upplyser i klartext att förrättningen skedde **i Husby i Oppunda
-härad**, den socken där brudens familj hade bott på 1860-talet. De två
+vigselbok upplyser i klartext att förrättningen skedde i Husby i Oppunda
+härad, den socken där brudens familj hade bott på 1860-talet. De två
 åldersuppgifterna `gifta 1½ år` 1877 och `14 år` 1890 hade pekat rätt på
 året hela tiden, men de är avrundningar och ersätter inte dagen.
 
-I Gryt föddes dottern **Hulda Amalia** den 25 september 1877, med Djupnäs som
+I Gryt föddes dottern Hulda Amalia den 25 september 1877, med Djupnäs som
 föräldrarnas hemvist i födelseboken. Två år senare lämnade familjen socknen
 för **Hyltinge**, där de återfinns i tre folkräkningsutdrag: som rättarfamilj
 i Valsund 1890, som torparfamilj i Rudstugan 1900 och i Valsta 1910, där han
 skrivs förre detta torpare vid sextio års ålder. Ställningen stiger alltså
 till en förmansbefattning och sjunker sedan tillbaka. Att han bodde
-oavbrutet i socknen däremellan är dock **inte** belagt: de tre åren är
+oavbrutet i socknen däremellan är dock inte belagt: de tre åren är
 bokförda ögonblicksbilder, och 1890 års utdrag är dessutom en avskrift ur
 församlingens egen husförhörslängd, inte en oberoende observation
 ([A-5932](#påståenden)). Församlingens husförhörs- och församlingsböcker för
@@ -301,37 +301,37 @@ hinder och är inte läst.
 Av livsbildens tre hörnstenar är två nu hemma. Födelsenotisen och vigseln var
 aldrig otillgängliga — den ena låg bakom en utebliven pekare i sökvyn, den
 andra bakom ett antagande om vilken serie och vilken socken man skulle leta
-i. Kvar står den tredje: **ett livsslut som ingen läst källa förklarar.**
+i. Kvar står den tredje: ett livsslut som ingen läst källa förklarar.
 
 ## Forskningsfrågor och konflikter
 
 Se [profilens frågor och källvägar](../research-profiles/P-0110.md#forskningsfrågor).
 
-- **Livsslutet är olöst inom prövat omfång.** Hyltinge B/4:s årgång 1915 är
+- Livsslutet är olöst inom prövat omfång. Hyltinge B/4:s årgång 1915 är
   seriens sista och är inte läst; hela Valsta-avsnittet i A II a/2–3 är
   prövat bara genom registret. Se profilens Q-02 och KP-03.
-- **Vigselnotisens fortsättning.** Husby-Oppundas egen vigselbok 1876 är inte
+- Vigselnotisens fortsättning. Husby-Oppundas egen vigselbok 1876 är inte
   läst och kan ge förrättande präst, vittnen och giftoman. Se KP-04.
-- **Egna outvunna hushållsfält.** Kunskaps-, förhörs-, nattvards- och
+- Egna outvunna hushållsfält. Kunskaps-, förhörs-, nattvards- och
   anteckningskolumnerna på hans egna rader i Helgesta A I/15 s. 179,
   Hyltinge A I/16 s. 16 och Hyltinge A I/17 s. 57 är inte lästa, trots att
   fullbilderna finns lokalt. Motsvarande genomgång gjordes 2026-09-08 för
   broderns rad på samma uppslag. Se KP-05.
-- **Uttrycklig oläst hänvisning.** `Fol. 102` i sonens födelsenotis pekar ut
+- Uttrycklig oläst hänvisning. `Fol. 102` i sonens födelsenotis pekar ut
   familjens hushållssida 1890. Den avgränsade läsningen ägs av
   [T-0240](../../wotan/dev-log/T-0240.md).
-- **Proveniensrest.** C-0985 och C-0986 saknar bevarade fullbilder och
+- Proveniensrest. C-0985 och C-0986 saknar bevarade fullbilder och
   SHA-256, och fem av C-0430:s sju målbilder saknas lokalt. Endast den
   sistnämnda bristen ligger inom [T-0237](../../wotan/dev-log/T-0237.md).
-- **Bevarad konflikt.** Sonens födelsenotis 1890 skriver moderns förnamn
+- Bevarad konflikt. Sonens födelsenotis 1890 skriver moderns förnamn
   `Hulda Amalia` i stället för Adela Amalia. Åldern 40 år och samtliga
   hushållsposter bär Adela Amalia som modern; ett felskrivet förnamn är den
   välstödda tolkningen, men att prästen kopierade systerns namn beskriver en
   möjlig skrivprocess och är inte ett belagt förlopp
   ([C-0091](../citations/C-0091-karl-albert-alund-fodelse-1890.md)).
-- **Bevarad ledtråd, inte relation.** Johanna Sofia Ålund på Helgesta
+- Bevarad ledtråd, inte relation. Johanna Sofia Ålund på Helgesta
   A I/16 s. 179 kopplas inte som släkting.
-- **Saknad reciprok post.** Hyltinge B/2:s hela utflyttningsår 1871 saknar
+- Saknad reciprok post. Hyltinge B/2:s hela utflyttningsår 1871 saknar
   motsvarigheten till Helgestas inflyttningspost nr 18
   ([C-0182](../citations/C-0182-hyltinge-B2-utflyttade-1871-negativ-kontroll.md)).
 
@@ -358,16 +358,16 @@ kvar i den bevarade akten nedan.
   (A-5932), så utdragen och hushållsböckerna är en informationsväg.
 - **A-0404** har höjts från `TRANSCRIBED`/medel till `CORROBORATED`/mycket
   hög, eftersom vigselbokens egen post nu bär uppgiften i stället för två
-  härledda åldersangivelser. **A-0464** har fått en kommentar som skiljer
-  bokfört räkningsår från belagd vistelse. **A-0400** och **A-1918** har
+  härledda åldersangivelser. A-0464 har fått en kommentar som skiljer
+  bokfört räkningsår från belagd vistelse. A-0400 och A-1918 har
   höjts från hög till mycket hög tillförlitlighet sedan den egna
   födelsenotisen tillkommit som belägg.
 - **A-1893** har fått en hänvisning till attestnumret i A-5933.
-- **A-0402, A-0405, A-1918, A-2159, A-2160, A-2162** har kompletterade
+- A-0402, A-0405, A-1918, A-2159, A-2160, A-2162 har kompletterade
   belägg eller kommentarer utan ändrad sakinnebörd.
 - Nya påståenden ur redan sparade källor: **A-5930** (`Fol. 102`),
-  **A-5931** (hela fadderraden 1850), **A-5932** (utdragets dokumenthuvud),
-  och **A-5933** (attest 25).
+  A-5931 (hela fadderraden 1850), A-5932 (utdragets dokumenthuvud),
+  och A-5933 (attest 25).
 - Det tidigare fristående blocket för A-3150 stod efter en blankrad och bröt
   påståendetabellen; raden är nu återförd i tabellen med oförändrad text.
 - Arbetslägets `Källbredd: KLAR` från 2026-09-04 är omprövad till `PÅGÅR`

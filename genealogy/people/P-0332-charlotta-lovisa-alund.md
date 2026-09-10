@@ -17,8 +17,8 @@
 
 Hon är äldsta dottern i Carl Fredrik Ålunds och Maja Catharina Carlsdotters
 hushåll i Löta i Helgesta, och syster till
-[Pehr Albert Ålund](P-0110-per-albert-alund.md). Hon förekommer i **en enda
-känd källpost**: rad 4 i hushållet i Helgesta A I/15 sida 179, markerad `D.`
+[Pehr Albert Ålund](P-0110-per-albert-alund.md). Hon förekommer i en enda
+känd källpost: rad 4 i hushållet i Helgesta A I/15 sida 179, markerad `D.`
 för dotter, med födelsetiden `35 28/2` och födelseorten `d:o` upplöst till
 Gryt. [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md)
 
@@ -52,9 +52,9 @@ Hennes rad är överstruken, och de två cellerna som förklarar varför var ol�
 | A-1905 | Hon uppges vara född 1835-02-28 i Gryt. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Husförhörsuppgift; födelseoriginal återstår. Födelseorten är ett upplöst `d:o`. |
 | A-1906 | Hon var dotter till Carl Fredrik Ålund och Maja Catharina Carlsdotter. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Markeras `D.` i parets familjegrupp. |
 | A-7280 | Förnamnet på hennes rad är `Hedda`, inte `Charlotta`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09 vid 250–450 % förstoring. Versalen är identisk med `H.` framför `Maja Katr. Carlsd:r` på raden ovanför och saknar det `C`-utan-övre-ögla som står i `Carl` på rad 1, `Carlsd:r` på rad 2 och `Carl Johan` på rad 8. Följden efter versalen är `e-d-d` med två öglade `d` och en avslutande vokal; `Charlotta` skulle kräva `h`, `r`, `l`, `o` och `tt` och vara bredare än den skrivna formen, som är jämnbred med `Maria Augusta` på raden under. Överstrykningen skär genom bokstävernas mitt och döljer den femte bokstaven men inga andra. |
-| A-7281 | Kolumnen `Fräjd och enskilda anteckningar.` på hennes rad har `Lysn. d. 21 Nov. 1864.` | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09; cellen var oläst. `Lysn.` läses som lysning. **En lysning är inte en genomförd vigsel**; ingen vigsel, make eller ny familj införs. Radtillhörigheten är kontrollerad mot de tryckta radnumren i båda marginalerna och mot bandindelningen, som verifieras av uppslagets två beväringsnoteringar. |
-| A-7282 | Kolumnen `Utflyttad: till` på hennes rad har `Gisselbro[?]` och årskolumnen `63`; hennes namn och rad är överstrukna. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09; cellen var oläst. Årssiffran är avgjord genom jämförelse med `35` i hennes **egen** födelseårscell på samma rad: den andra siffran har samma flat-toppade form som `3` där, och inte den trekantiga formen hos `4` i rad 8:s `Oppeby 64`. Ortnamnet bär läsreservation, med alternativläsningen `Giselbro`, och är **inte lokaliserat**. Utflyttningsattestens nummerkolumn är läst och tom. |
-| A-7283 | På hennes rad är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Inflyttad`, `Död.` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; tre av fyra `Läser`-kolumner har råtecken och `Förstår.` är tom; nattvardstecken finns 1861–1864. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. Att `Död.` är tom och att raden i stället har en utflyttningsuppgift betyder att överstrykningen gäller en **flyttning, inte en död**. Att `Äktenskap: Gift.` är tom betyder att ingen vigsel var införd när boken avslutades 1865 — trots lysningen 1864. |
+| A-7281 | Kolumnen `Fräjd och enskilda anteckningar.` på hennes rad har `Lysn. d. 21 Nov. 1864.` | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09; cellen var oläst. `Lysn.` läses som lysning. En lysning är inte en genomförd vigsel; ingen vigsel, make eller ny familj införs. Radtillhörigheten är kontrollerad mot de tryckta radnumren i båda marginalerna och mot bandindelningen, som verifieras av uppslagets två beväringsnoteringar. |
+| A-7282 | Kolumnen `Utflyttad: till` på hennes rad har `Gisselbro[?]` och årskolumnen `63`; hennes namn och rad är överstrukna. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09; cellen var oläst. Årssiffran är avgjord genom jämförelse med `35` i hennes egen födelseårscell på samma rad: den andra siffran har samma flat-toppade form som `3` där, och inte den trekantiga formen hos `4` i rad 8:s `Oppeby 64`. Ortnamnet bär läsreservation, med alternativläsningen `Giselbro`, och är inte lokaliserat. Utflyttningsattestens nummerkolumn är läst och tom. |
+| A-7283 | På hennes rad är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Inflyttad`, `Död.` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; tre av fyra `Läser`-kolumner har råtecken och `Förstår.` är tom; nattvardstecken finns 1861–1864. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. Att `Död.` är tom och att raden i stället har en utflyttningsuppgift betyder att överstrykningen gäller en flyttning, inte en död. Att `Äktenskap: Gift.` är tom betyder att ingen vigsel var införd när boken avslutades 1865 — trots lysningen 1864. |
 
 ## Relationer
 
@@ -83,7 +83,7 @@ Inga faddrar är kända, eftersom hennes dopnotis i Gryt är oläst.
 | 1863 | Utflyttad till `Gisselbro[?]`; raden överstruken | Löta → Gisselbro[?] | — | — | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) |
 | 1864-11-21 | Lysning, antecknad på hennes rad i föräldrahushållets längd | Helgesta | — | — | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) |
 
-**Ordningen mellan de två sista raderna är en öppen fråga, inte en slutsats.**
+Ordningen mellan de två sista raderna är en öppen fråga, inte en slutsats.
 Hon flyttade ut 1863 men fick sin lysning antecknad på den gamla raden i
 november 1864. Den tryckta kolumnrubriken tillåter `pag. i Husförhörs-boken`,
 alltså en flyttning **inom** församlingen, vilket skulle förklara att lysningen
@@ -95,10 +95,10 @@ förs in där. Ingen vigsel är belagd, och `Äktenskap: Gift.` är tom.
 |---|---|---|---|---|
 | 1835–1857 | Gryt | Gård eller torp ej angivet | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Härlett ur födelseorten och familjens flyttning 1857. |
 | 1857–1863 | Löta, Töfversta Rote | Helgesta församling, sida 179 | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Inflyttningskolumnen är läst och tom på hennes rad; flyttningen är bokförd bara på faderns. |
-| 1863 | Till `Gisselbro[?]` | Läge ej fastställt; kan vara en ort i annan socken **eller** en annan sida i Helgestas egen längd | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Ortnamnet bär läsreservation. Utflyttningsattestens nummer är läst och tomt, vilket är förenligt med en flyttning inom församlingen — men inte ett belägg för det. |
+| 1863 | Till `Gisselbro[?]` | Läge ej fastställt; kan vara en ort i annan socken eller en annan sida i Helgestas egen längd | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Ortnamnet bär läsreservation. Utflyttningsattestens nummer är läst och tomt, vilket är förenligt med en flyttning inom församlingen — men inte ett belägg för det. |
 
-Hon är den av de fem kohortmedlemmarna i familjen som **lämnar hushållet
-inom bokens tid**; brodern Carl Johan är den andre, till Oppeby 1864.
+Hon är den av de fem kohortmedlemmarna i familjen som lämnar hushållet
+inom bokens tid; brodern Carl Johan är den andre, till Oppeby 1864.
 
 ## Yrke, utbildning och ekonomi
 
@@ -113,7 +113,7 @@ Egen ekonomi, hemgift och arv är okända.
 
 | Tid | Uppgift | Förband/myndighet/mål | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1864-11-21 | Lysning, en kyrklig rättsakt inför äktenskap | Helgesta församling | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Hennes enda kända formella handling. Noteringen står i fräjdkolumnen och inte i något vigselfält; **den bevisar att lysning skedde, inte att vigsel skedde.** |
+| 1864-11-21 | Lysning, en kyrklig rättsakt inför äktenskap | Helgesta församling | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Hennes enda kända formella handling. Noteringen står i fräjdkolumnen och inte i något vigselfält; den bevisar att lysning skedde, inte att vigsel skedde. |
 
 Militärt är `EJ RELEVANT` på personbunden grund: hon är kvinna, född 1835.
 Inget annat rättsligt eller kommunalt spår är sökt.
@@ -123,7 +123,7 @@ Inget annat rättsligt eller kommunalt spår är sökt.
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
 | 1861–1863 | `v` i kolumnen `Koppor` | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Vaccinerad; ympningsåret anges inte. Samtliga nio rader på uppslaget har `v`. |
-| Till 1865 | `Död.`-kolumnen läst och tom | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | **Överstrykningen av hennes rad gäller en flyttning, inte en död** — raden har en utflyttningsuppgift och ingen dödsuppgift. Inget dödsdatum är känt och inget får antas. |
+| Till 1865 | `Död.`-kolumnen läst och tom | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Överstrykningen av hennes rad gäller en flyttning, inte en död — raden har en utflyttningsuppgift och ingen dödsuppgift. Inget dödsdatum är känt och inget får antas. |
 
 Ingen sjukdom eller dödsorsak är känd.
 
@@ -154,7 +154,7 @@ eventuell vigsel ska sökas på `Hedda` eller `Hedvig`, aldrig på `Charlotta`.
 
 Två andra celler på hennes rad var också olästa, och de är de enda uppgifterna
 om hennes vuxna liv. I utflyttningskolumnen står **`Gisselbro[?] 63`**, och i
-fräjdkolumnen **`Lysn. d. 21 Nov. 1864.`** Hon flyttade alltså ut 1863 och fick
+fräjdkolumnen `Lysn. d. 21 Nov. 1864.` Hon flyttade alltså ut 1863 och fick
 en lysning antecknad på den gamla raden i november året därpå. Ordningen är en
 öppen fråga: kolumnrubriken tillåter uttryckligen en flyttning inom
 församlingen, vilket skulle förklara varför lysningen hamnade där. Var
@@ -168,19 +168,19 @@ genomfört äktenskap, och vem hon skulle gifta sig med står inte i cellen.
 
 ## Forskningsfrågor och konflikter
 
-- **Blev det någon vigsel efter lysningen 1864, och med vem?** Helgestas
+- Blev det någon vigsel efter lysningen 1864, och med vem? Helgestas
   vigselbok 1864–1865 är den direkta vägen. Se
   [profilens Q-01](../research-profiles/P-0332.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0332.md#källvägar).
-- **Var ligger `Gisselbro[?]`, och var det en flyttning inom eller ut ur
-  Helgesta?** Ortnamnet bär läsreservation. Helgestas ortregister och
+- Var ligger `Gisselbro[?]`, och var det en flyttning inom eller ut ur
+  Helgesta? Ortnamnet bär läsreservation. Helgestas ortregister och
   flyttningslängd 1863 avgör båda frågorna. Se KP-02.
-- **Ordningen 1863 → 1864 är olöst.** Utflyttning före lysning på samma rad är
+- Ordningen 1863 → 1864 är olöst. Utflyttning före lysning på samma rad är
   ovanligt men förenligt med en flyttning inom församlingen.
-- **Hennes dopnotis i Gryt 1835 är oläst.** Den ger faddrar, moderns uppgivna
+- Hennes dopnotis i Gryt 1835 är oläst. Den ger faddrar, moderns uppgivna
   ålder och namnformen skriven av en annan hand — vilket oberoende prövar
   A-7280.
-- **Aktens titel och filnamn bär den felaktiga formen `Charlotta`.** Bytet ägs
+- Aktens titel och filnamn bär den felaktiga formen `Charlotta`. Bytet ägs
   av [T-0486](../../wotan/dev-log/T-0486.md).
 - Ingen konflikt kvarstår inom det lästa underlaget; namnfrågan är en rättelse
   och inte en bevarad konflikt, eftersom ingen källa skriver `Charlotta`.

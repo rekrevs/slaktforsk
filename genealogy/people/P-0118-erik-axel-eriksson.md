@@ -18,7 +18,7 @@ Han föddes utom äktenskapet; födelseboken skriver fadern uttryckligen `okänd
 och modern Charlotta Cecilia Elisabet Gustafsson som ogift piga vid Mälby i
 Helgesta socken. Fyra månader efter födelsen gifte modern sig med Axel Edvard
 Eriksson, och Erik Axel skrivs därefter som son i dennes hushåll i Karsätter,
-Wäsby, Segerslund och Hyltinge. **Hushållsrollen är inte ett faderskapsbelägg**;
+Wäsby, Segerslund och Hyltinge. Hushållsrollen är inte ett faderskapsbelägg;
 någon senare erkännande- eller legitimationsanteckning är inte påträffad i det
 lästa materialet. Han lämnade hushållet för Helgesta 1918-10-11, sexton år
 gammal och två år före den övriga familjen.
@@ -36,14 +36,14 @@ gammal och två år före den övriga familjen.
 |---|---|---|---|---|
 | Erik Axel | Födelse och dop 1902 | TRANSCRIBED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | Egna dopnamn. Födelseboken ger inget efternamn; fadern är antecknad som okänd. |
 | `s. d:o Erik Axel` | Styvfaderns hushåll, senast 1918–1920 | TRANSCRIBED | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Dittotecknet upprepar hushållsföreståndarens efternamn Eriksson. Det är en bokföringsform, inte en egen namnpost. |
-| Erik Axel Eriksson | Projektets visningsnamn | INFERRED | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | **Ingen läst källa skriver ut hans efternamn i klartext.** Namnet följer hushållsraden efter styvfadern och kan visa sig avvika i egna senare poster. |
+| Erik Axel Eriksson | Projektets visningsnamn | INFERRED | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | Ingen läst källa skriver ut hans efternamn i klartext. Namnet följer hushållsraden efter styvfadern och kan visa sig avvika i egna senare poster. |
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-0446 | Dopnamnen var Erik Axel. | CORROBORATED | mycket hög | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md), [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Dopnamnen står i födelseboken och upprepas i varje hushållsrad. Efternamnet Eriksson är däremot inte utskrivet i någon läst källa utan följer hushållsradens dittotecken; den äldre lydelsen `efternamnet följer hushållet 1910` är preciserad, eftersom folkräkningsraden bara skriver `s. Erik Axel`. |
-| A-0447 | Han föddes 1902-06-22 i Flens församling. | CORROBORATED | mycket hög | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Samtida originalnotis nr 34 plus fyra Flenrader `02 22/6`. **Rättelse:** folkräkningsutdraget 1910 ger endast året `02` och födelseorten Flen, inte dagen, och kan därför inte bära dagsuppgiften. Se A-5428 om bokkedjans beroende och A-5429 om konflikten med 27 september. |
+| A-0447 | Han föddes 1902-06-22 i Flens församling. | CORROBORATED | mycket hög | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Samtida originalnotis nr 34 plus fyra Flenrader `02 22/6`. Rättelse: folkräkningsutdraget 1910 ger endast året `02` och födelseorten Flen, inte dagen, och kan därför inte bära dagsuppgiften. Se A-5428 om bokkedjans beroende och A-5429 om konflikten med 27 september. |
 | A-0448 | Fadern antecknades som okänd i födelseboken. | TRANSCRIBED | hög | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | Faderskolumnen lyder `okänd`. Att han från 1902 skrivs som son i Axel Edvards hushåll är en hushållsroll, inte ett faderskapsbelägg; ingen senare erkännande- eller legitimationsnot är påträffad i det lästa materialet. |
 | A-0449 | Modern var Charlotta Cecilia Elisabet Gustafsson, ogift piga vid Mälby i Helgesta socken. | TRANSCRIBED | hög | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | Moderskolumnen med hemvist och civilstånd. Hennes egen födelsedag är svårläst i denna post; den säkra läsningen `83 14/1` finns i [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md) och i C-0084:s eget tillägg. |
 | A-0450 | Han redovisas 1910 som son i hushållet i Banvaktsstugan nr 71 i Hyltinge. | TRANSCRIBED | hög | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) | Familjeställning `s.` i utdraget per 31 december 1910. Utdraget är en samtida men sekundär avskrift av församlingsboken ([S-0067](../sources/S-0067-folkrakning-1910-hyltinge.md)). |
@@ -56,7 +56,7 @@ gammal och två år före den övriga familjen.
 | A-5426 | Han står på rad 22 i Wäsby folio 212 i Flens nästa församlingsbok, varifrån hushållet hänvisas vidare till folio 185 den 1904-11-11. | TRANSCRIBED | hög | [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) | Ingången är `G.B. p. 347`. Volymens år 1904–1907 är inte hans vistelsetid. |
 | A-5427 | På Segerslund folio 185 står han med hushållet, som kom från folio 212 den 1904-11-11 och flyttade till Hyltinge den 1905-06-02. | TRANSCRIBED | hög | [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Läst i citationens tillägg 2026-09-08 på den redan sparade helbilden `F0003350_00208`. Familjen är där skild från Erik Karlssons senare 1907-rader på samma sida. |
 | A-5428 | Flens fyra församlingsboksrader upprepar födelsedagen 22 juni 1902, men de utgör en framåtkopierad bokkedja och är inte fyra av varandra oberoende belägg. | INFERRED | hög | [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md) | Kedjan är uttrycklig: 345 → 347 → 212 → 185, med `G.B. p. 347` som övergång mellan volymerna. Den samtida födelsenotisen [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) är den enda självständiga rösten för dagen. |
-| A-5429 | Hyltinge församlingsbok 1918–1927 anger hans födelsedag som 1902-09-27, mot födelsebokens 1902-06-22. | CONFLICT | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | **Bevarad konflikt**, ingen normalisering. Namn, födelseförsamling Flen och hushåll stämmer, så identiteten är inte i fråga; avvikelsen gäller dagen och månaden. Konflikten noterades först i P-0015:s A-3456 och hör hemma här. |
+| A-5429 | Hyltinge församlingsbok 1918–1927 anger hans födelsedag som 1902-09-27, mot födelsebokens 1902-06-22. | CONFLICT | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md), [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) | Bevarad konflikt, ingen normalisering. Namn, födelseförsamling Flen och hushåll stämmer, så identiteten är inte i fråga; avvikelsen gäller dagen och månaden. Konflikten noterades först i P-0015:s A-3456 och hör hemma här. |
 | A-5430 | Hans hushållsrad 1918–1920 anger koppympning `v`; egna yrkes-, frejds-, värnplikts- och dödsfält är tomma. | TRANSCRIBED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Tomma fält är källgränser i den avskrivna kolumnuppsättningen, inte belägg för att uppgifterna saknas. |
 | A-5431 | Han flyttade från Banvaktstugan N:o 70 i Hyltinge till Helgesta 1918-10-11, sexton år gammal och två år före det övriga hushållet. | TRANSCRIBED | hög | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Utflyttningskolumnen på hans egen rad 3. Motsvarande uppgift finns sammanfattad i P-0015:s A-3455; destinationen Helgesta är en bokförd ort, ingen läst mottagarpost. |
 | A-5432 | Hans rad bär anteckningen `V. Sjörandan(?) 27/10 1920`, daterad två år efter utflyttningen. | TRANSCRIBED | medel | [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) | Ortnamnet är en uttrycklig läsosäkerhet i citationen. Systerns rad har den snarlika formen `Vl. Helgesta 23/10 1920` tre dagar före hennes flytt, vilket gör en attest- eller destinationsnot till den rimligaste tolkningen; anteckningens innebörd är ändå inte fastställd. |
@@ -68,7 +68,7 @@ gammal och två år före den övriga familjen.
 |---|---|---|---|---|
 | [P-0117 Charlotta Cecilia Elisabet Gustafsson](P-0117-charlotta-cecilia-elisabet-gustafsson.md) | mor | Födelse 1902-06-22 i Flen; gemensamt hushåll till hennes död 1917-05-01 | CORROBORATED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md) |
 | Okänd far | biologisk far, i födelseboken uttryckligen antecknad som `okänd` | 1902, Flen | TRANSCRIBED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md) |
-| [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) | styvfar genom moderns vigsel 1902-10-25; hushållsföreståndare. **Biologiskt faderskap är inte belagt.** | Karsätter, Wäsby och Segerslund i Flen 1902–1905; Hyltinge 1905–1918 | INFERRED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md), [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) |
+| [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) | styvfar genom moderns vigsel 1902-10-25; hushållsföreståndare. Biologiskt faderskap är inte belagt. | Karsätter, Wäsby och Segerslund i Flen 1902–1905; Hyltinge 1905–1918 | INFERRED | [C-0084](../citations/C-0084-erik-axel-fodelse-1902.md), [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md), [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) |
 | [P-0119 Ture Edvard Eriksson](P-0119-ture-edvard-eriksson.md) | halvbror på mödernet; hushållsbroder | Flen 1904 – Hyltinge 1918 | CORROBORATED | [C-0083](../citations/C-0083-ture-edvard-fodelse-1904.md), [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md), [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md), [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) |
 | [P-0120 Astrid Elisabet Eriksson](P-0120-astrid-elisabet-eriksson.md) | hushållssyster | Hyltinge 1906–1918 | TRANSCRIBED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md), [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) |
 | [P-0121 Ruth Charlotta Eriksson](P-0121-ruth-charlotta-eriksson.md) | hushållssyster | Hyltinge 1907–1918 | TRANSCRIBED | [C-0082](../citations/C-0082-axel-edvard-hushall-hyltinge-1910.md), [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md) |
@@ -211,16 +211,16 @@ inte vem hans far var.
 
 Se [profilens frågor och källvägar](../research-profiles/P-0118.md#forskningsfrågor).
 
-- **Bevarad datumkonflikt.** 1902-06-22 (födelsebok och fyra Flenrader) mot
+- Bevarad datumkonflikt. 1902-06-22 (födelsebok och fyra Flenrader) mot
   1902-09-27 (Hyltinge A II a/5). Ingen av uppgifterna normaliseras bort.
-- **Faderskapet.** Fadern är antecknad som okänd. Den öppna frågan är om en
+- Faderskapet. Fadern är antecknad som okänd. Den öppna frågan är om en
   senare erkännande-, legitimations- eller vigselbilaga finns; en hushållsrad
   kan aldrig besvara den.
-- **Efternamnet.** Ingen läst källa skriver ut hans efternamn. Kommande
+- Efternamnet. Ingen läst källa skriver ut hans efternamn. Kommande
   poster måste prövas mot både Eriksson och ett möjligt eget namn.
-- **1918 och framåt.** Mottagarposten i Helgesta, den olästa anteckningen
+- 1918 och framåt. Mottagarposten i Helgesta, den olästa anteckningen
   `V. Sjörandan(?)` och hela livet efter 16 års ålder är öppna.
-- **Luckan 1905–1918.** Hyltinges egna församlingsböcker A II a/2 och A II a/3
+- Luckan 1905–1918. Hyltinges egna församlingsböcker A II a/2 och A II a/3
   är kontrollerade endast på Valstas registersidor och innehåller hans
   olästa hushållsrader.
 
@@ -230,7 +230,7 @@ T-0153, 2026-09-08: akten har omarbetats till `person-dossier/v1` och sakligt
 stämts av mot samtliga sju personbundna citationer och deras daterade tillägg.
 Rättelser och ändrade lydelser i denna omgång:
 
-- **Fyra citationer var opropagerade.** [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md),
+- Fyra citationer var opropagerade. [C-0102](../citations/C-0102-axel-edvard-karsatter-1902.md),
   [C-0101](../citations/C-0101-axel-edvard-wasby-1903.md),
   [C-0100](../citations/C-0100-axel-edvard-wasby-1904.md) och
   [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md)
@@ -239,21 +239,21 @@ Rättelser och ändrade lydelser i denna omgång:
   1902–1905. Även [C-0919](../citations/C-0919-axel-edvard-banvaktstugan-70-hyltinge-1918-1920.md)
   var oanvänd i denna akt trots att hans egen rad 3 finns avskriven där;
   den ger A-5429–A-5433.
-- **A-0447:s motivering är rättad.** Den löd `Originalnotis och folkräkning`.
+- A-0447:s motivering är rättad. Den löd `Originalnotis och folkräkning`.
   Folkräkningsutdraget 1910 ger endast året och födelseförsamlingen, inte
   dagen 22 juni; dagen bärs av födelsenotisen och av Flens bokkedja.
-- **A-0446:s motivering är preciserad.** Den löd `Efternamnet Eriksson följer
+- A-0446:s motivering är preciserad. Den löd `Efternamnet Eriksson följer
   hushållet 1910, inte födelseboken`. Folkräkningsraden skriver bara
   `s. Erik Axel`; det är församlingsbokens `s. d:o` 1918–1920 som upprepar
   styvfaderns efternamn. Inget läst original skriver ut hans efternamn.
 - **A-0449 är utvidgad** med moderns civilstånd och hemvist ur samma kolumn.
-- **Ny utvinning ur C-0084.** Postnummer 34, beteckningen levande oäkta
+- Ny utvinning ur C-0084. Postnummer 34, beteckningen levande oäkta
   gossebarn, dopdagen 6 juli, dopförrättaren, faddrarna från Brosätter och
   attesten till Helgesta pastorsämbete saknades helt i akten (A-5420–A-5423).
 - **Relationstabellen var fyrkolumnig** och saknade tids- och platskolumnen;
   den följer nu personmallen och har fått moderns, syskonens och dopvittnenas
   rader med individuell status.
-- **Datumkonflikten 1902-06-22 / 1902-09-27**, som hittills endast fanns
+- Datumkonflikten 1902-06-22 / 1902-09-27, som hittills endast fanns
   antecknad i P-0015:s A-3456, är nu förd hit som A-5429.
 
 Ingen ny arkivåtkomst har skett. Inga A-id är borttagna; A-0446–A-0450 finns

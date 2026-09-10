@@ -4,11 +4,11 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0172.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Hushållssidan ger
-  honom **egna åldrar två år i följd**, `49.` 1810 och `50.` 1811, som
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Hushållssidan ger
+  honom egna åldrar två år i följd, `49.` 1810 och `50.` 1811, som
   citationen inte registrerade — den redovisade bara sonens. Därtill är
   hushållsblocket **överstruket**, med en oläst anteckning i sidans smala
-  kolumn, och en **dotter Cajsa** har egna åldrar.
+  kolumn, och en dotter Cajsa har egna åldrar.
 - Identitetsgranskning: `GODKÄND`
 - Trädverkan: `AVVAKTAR` — `Identitetsläge` är `OLÖST`: hans åldersuppgift är
   en husförhörsuppgift utan läst födelsepost, och hans ursprung är okänt.
@@ -29,7 +29,7 @@ Anders Ringberg till `fadern Olof Nilsson, hemmansbrukare i Rinkaby, Hossmo
 socken`.
 [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md)
 
-Sedan 2026-09-09 har han **egna åldersuppgifter**: `49.` 1810 och `50.` 1811,
+Sedan 2026-09-09 har han egna åldersuppgifter: `49.` 1810 och `50.` 1811,
 alltså född omkring **1760–1761**. Se A-7600. Hans föräldrar och hans
 födelseort är okända.
 
@@ -38,7 +38,7 @@ födelseort är okända.
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Olof Nilsson, `N:o 1` | Egen hushållsrad, Hossmo A I/3 sida 156 | TRANSCRIBED | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Raden bär gårdsnumret `N:o 1` efter namnet. |
-| Olof Nilsson, hemmansbrukare i Rinkaby | Sjöströms nominativa uppgift om Kalmar nation | TRANSCRIBED | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | En **oberoende** sekundärkälla som namnger honom med roll, ort och socken. |
+| Olof Nilsson, hemmansbrukare i Rinkaby | Sjöströms nominativa uppgift om Kalmar nation | TRANSCRIBED | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | En oberoende sekundärkälla som namnger honom med roll, ort och socken. |
 | Olof Nilsson / Olof Nilss. | Sökformer | LEAD | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | **Informationssvag nyckel**: både förnamn och patronymikon hör till de vanligaste i Småland. Sökningar måste bära åldern, gården eller hustrun. |
 
 Patronymikonet ger faderns förnamn **Nils**.
@@ -48,10 +48,10 @@ Patronymikonet ger faderns förnamn **Nils**.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-3236 | Hemmansbrukaren Olof Nilsson i Rinkaby var far till Anders, den blivande Anders Ringberg. | CORROBORATED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Samtida hushåll plus oberoende nominativ nyckel. |
-| A-7600 | Hans egen rad i Hossmo A I/3 sida 156 anger åldern **`49.`** i årskolumnen 1810 och **`50.`** i 1811, alltså född omkring **1760–1761**. | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09 ur den redan sparade fullsidan vid 260 % förstoring. Citationen registrerade **endast sonens** åldrar, `nio år 1810 och tio år 1811`. **Detta är hans första egna datumuppgift**, och de två årens tal ökar med exakt ett, vilket är en intern konsistenskontroll inom samma bok. Uppgiften är en husförhörsuppgift, inte en läst födelsepost, och kan vara ett år fel. |
-| A-7601 | Samma sida ger hushållets övriga åldrar två år i följd: hustrun `40.`/`41.`, dottern `D: Cajsa` `16.`/`17.` och sonen `S: Anders` `9.`/`10.` | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09. **Dottern Cajsa får därmed en datering** — född omkring 1793–1794 — och sonens `9.`/`10.` **stöder oberoende** den senare uppgiften att Anders Ringberg föddes 1801 i Hossmo. Samtliga fyra rader ökar med exakt ett mellan de två åren. |
-| A-7602 | Flera rader bär förkortningen **`abs.`** i årskolumnerna: hans egen 1810, hustruns båda år och sonens 1810. | TRANSCRIBED | medel | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09. `abs.` står för *absens* och betyder att personen inte var närvarande vid förhöret. **Detta är hushållets enda uppgift om kyrkligt deltagande**, och den är negativ: familjen var upprepat frånvarande. Tillförlitligheten gäller tolkningen av förkortningen, inte att den står där. Ingen slutsats dras om skäl eller om trosutövning. |
-| A-7603 | Hela hushållsblocket är **överstruket** med en diagonal linje, och sidans smala högerkolumn bär en anteckning i två delar: ett siffer- eller förkortningsliknande `705.[?]` och därunder ett par ord vars två första läses `Kom intet`. | TRANSCRIBED | medel | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09 vid 600 % förstoring. Överstrykningen betyder att hushållet lämnade sidan under bokens tid; **anteckningens innebörd är oläst** och gissas inte. `Kom intet` kan höra till förhörsfrånvaron i A-7602 eller vara en hänvisning vidare; talet kan vara en sid- eller folionummerhänvisning. **Detta är den enda kända ledtråden till vart familjen tog vägen.** |
+| A-7600 | Hans egen rad i Hossmo A I/3 sida 156 anger åldern `49.` i årskolumnen 1810 och `50.` i 1811, alltså född omkring 1760–1761. | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09 ur den redan sparade fullsidan vid 260 % förstoring. Citationen registrerade endast sonens åldrar, `nio år 1810 och tio år 1811`. Detta är hans första egna datumuppgift, och de två årens tal ökar med exakt ett, vilket är en intern konsistenskontroll inom samma bok. Uppgiften är en husförhörsuppgift, inte en läst födelsepost, och kan vara ett år fel. |
+| A-7601 | Samma sida ger hushållets övriga åldrar två år i följd: hustrun `40.`/`41.`, dottern `D: Cajsa` `16.`/`17.` och sonen `S: Anders` `9.`/`10.` | TRANSCRIBED | hög | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09. Dottern Cajsa får därmed en datering — född omkring 1793–1794 — och sonens `9.`/`10.` stöder oberoende den senare uppgiften att Anders Ringberg föddes 1801 i Hossmo. Samtliga fyra rader ökar med exakt ett mellan de två åren. |
+| A-7602 | Flera rader bär förkortningen `abs.` i årskolumnerna: hans egen 1810, hustruns båda år och sonens 1810. | TRANSCRIBED | medel | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09. `abs.` står för *absens* och betyder att personen inte var närvarande vid förhöret. Detta är hushållets enda uppgift om kyrkligt deltagande, och den är negativ: familjen var upprepat frånvarande. Tillförlitligheten gäller tolkningen av förkortningen, inte att den står där. Ingen slutsats dras om skäl eller om trosutövning. |
+| A-7603 | Hela hushållsblocket är överstruket med en diagonal linje, och sidans smala högerkolumn bär en anteckning i två delar: ett siffer- eller förkortningsliknande `705.[?]` och därunder ett par ord vars två första läses `Kom intet`. | TRANSCRIBED | medel | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Utvunnet 2026-09-09 vid 600 % förstoring. Överstrykningen betyder att hushållet lämnade sidan under bokens tid; anteckningens innebörd är oläst och gissas inte. `Kom intet` kan höra till förhörsfrånvaron i A-7602 eller vara en hänvisning vidare; talet kan vara en sid- eller folionummerhänvisning. Detta är den enda kända ledtråden till vart familjen tog vägen. |
 
 ## Relationer
 
@@ -81,7 +81,7 @@ bokens tid är belagt.
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
 | 1810–1811 | Södra Rinkaby, `N:o 1` | Hossmo församling | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Hans enda belagda hemvist, med gårdsnummer. |
-| Under bokens tid | Lämnade sidan; **riktningen är oläst** | — | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Överstrykningen är belagd, anteckningen oläst. Se A-7603. |
+| Under bokens tid | Lämnade sidan; riktningen är oläst | — | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Överstrykningen är belagd, anteckningen oläst. Se A-7603. |
 
 Ingen flyttning är belagd i klartext, och Hossmos flyttningslängder är inte
 sökta för honom.
@@ -90,7 +90,7 @@ sökta för honom.
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1810–1811 | Hemmansbrukare på `N:o 1` i Södra Rinkaby | Hossmo | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Ståndsuppgiften kommer från Sjöströms nominativa uppgift och stöds av gårdsnumret på hushållsraden. **Hemmansdel, mantal och jordnatur är okända**, och ingen jordebok eller mantalslängd är sökt. Att sonen kunde bli student vid Kalmar nation talar för en hushållsekonomi som bar en boklig utbildning, men det är en **slutsats om sonen**, inte en belagd uppgift om gården. |
+| 1810–1811 | Hemmansbrukare på `N:o 1` i Södra Rinkaby | Hossmo | [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md) | Ståndsuppgiften kommer från Sjöströms nominativa uppgift och stöds av gårdsnumret på hushållsraden. Hemmansdel, mantal och jordnatur är okända, och ingen jordebok eller mantalslängd är sökt. Att sonen kunde bli student vid Kalmar nation talar för en hushållsekonomi som bar en boklig utbildning, men det är en slutsats om sonen, inte en belagd uppgift om gården. |
 
 ## Militärt, civilt och rättsligt
 
@@ -128,7 +128,7 @@ hushållssida och en **oberoende** nominativ uppgift om Kalmar nation knyter
 honom till sonen Anders Ringberg.
 [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md)
 
-Granskningen 2026-09-09 gav honom hans **första egna datumuppgift**.
+Granskningen 2026-09-09 gav honom hans första egna datumuppgift.
 Hushållssidan bär åldrar i två årskolumner, och citationen hade registrerat
 **bara sonens**: `49.` 1810 och `50.` 1811 står på hans egen rad, alltså född
 omkring 1760–1761. Att talen ökar med exakt ett är en intern
@@ -136,29 +136,29 @@ konsistenskontroll. [A-7600](#påståenden)
 
 Samma kolumner gav hela hushållet åldrar: hustrun 40 och 41, dottern **Cajsa**
 16 och 17 — hennes första datering, född omkring 1793–1794 — och sonen 9 och
-10, vilket **oberoende stöder** att Anders Ringberg föddes 1801 i Hossmo.
+10, vilket oberoende stöder att Anders Ringberg föddes 1801 i Hossmo.
 [A-7601](#påståenden)
 
 Två uppgifter till framträdde. Flera rader bär förkortningen **`abs.`**:
 familjen var upprepat frånvarande vid förhören, vilket är hushållets enda
 uppgift om kyrkligt deltagande och en negativ sådan.
-[A-7602](#påståenden) Och hela hushållsblocket är **överstruket**, med en
+[A-7602](#påståenden) Och hela hushållsblocket är överstruket, med en
 tvådelad anteckning i sidans smala högerkolumn vars två läsbara ord är `Kom
 intet`. Överstrykningen betyder att familjen lämnade sidan; anteckningens
-innebörd är **oläst**, och den är den enda kända ledtråden till vart de tog
+innebörd är oläst, och den är den enda kända ledtråden till vart de tog
 vägen. [A-7603](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Vad står i högerkolumnens anteckning?** Den är familjens enda ledtråd
+- Vad står i högerkolumnens anteckning? Den är familjens enda ledtråd
   bort från sidan. Se
   [profilens Q-01](../research-profiles/P-0515.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0515.md#källvägar).
-- **Hossmos husförhörslängd före och efter A I/3** skulle ge hans
+- Hossmos husförhörslängd före och efter A I/3 skulle ge hans
   födelseort och familjens fortsättning. KP-01.
-- **Vigselposten är odaterad och osökt.** Med dottern född omkring 1793 kan
+- Vigselposten är odaterad och osökt. Med dottern född omkring 1793 kan
   vigseln ligga omkring 1790 eller tidigare. KP-02.
-- **Åldersuppgiften är en husförhörsuppgift**, inte en läst födelsepost, och
+- Åldersuppgiften är en husförhörsuppgift, inte en läst födelsepost, och
   kan vara ett år fel; åren 1760 och 1761 ska båda prövas. KP-02.
 - Ingen aktiv konflikt finns. Sonens åldrar **stöder** den kända uppgiften om
   hans födelseår 1801 i stället för att strida mot den.
@@ -166,7 +166,7 @@ vägen. [A-7603](#påståenden)
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Hossmos husförhörslängd före A I/3**, som skulle ge hans
+- Förväntad källa: Hossmos husförhörslängd före A I/3, som skulle ge hans
   födelseort och hans eget föräldrahem, och längden **efter** A I/3, som
   skulle visa vart hushållet gick; i andra hand vigselposten omkring 1790 och
   dödböckerna.
@@ -176,7 +176,7 @@ vägen. [A-7603](#påståenden)
 - Negativ kontroll: [C-0849](../citations/C-0849-hossmo-AI3-anders-ringberg-foraldrar.md)
   namnger Olof, roll och ort men ger **ingen** födelseort och inget
   föräldrahem.
-- Återaktivering: **villkoret är delvis uppfyllt 2026-09-09.** Den tidigare
+- Återaktivering: villkoret är delvis uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `en ny personbunden vigsel-, hushålls-, flytt- eller
   dödsnyckel`; åldersuppgiften `49`/`50` är en hushållsnyckel som gör hans
   födelseårgång sökbar. Välj ändå inte en Olof Nilsson enbart från namn och
@@ -190,7 +190,7 @@ sin första profil. Inget A-id är borttaget; A-7600–A-7603 tillkommer ur den
 redan sparade fullsidan utan ny arkivåtkomst.
 
 **Huvudfyndet är att bara sonens åldrar hade registrerats.** Hushållssidan
-bär åldrar i två årskolumner för **alla fyra** raderna; citationens avskrift
+bär åldrar i två årskolumner för alla fyra raderna; citationens avskrift
 nämner endast att `Anders anges vara nio år 1810 och tio år 1811`. Därmed
 saknade båda föräldrarna och dottern varje datering, trots att uppgiften låg
 i den citerade bilden.

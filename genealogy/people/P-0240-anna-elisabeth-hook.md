@@ -67,19 +67,19 @@ låg senast 1931-08-13.
 | A-1470 | LIBRIS identifierar Elisabeth Höök 1902–1991 som missionär och sjuksköterska. | CORROBORATED | hög | [C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md) | Institutionell auktoritetspost; knyter henne till biografierna *Kvinnan som red över Himalaya* och *Called to the heart of Asia*, som båda är olästa. |
 | A-1482 | MyHeritages publika sökutdrag anger 1902, men direktsidan kunde inte granskas på grund av hCaptcha. | CORROBORATED | hög | [C-0237](../citations/C-0237-myheritage-captcha-och-1902-utdrag.md) | Åtkomstresultat, inte personbelägg i sig. |
 | A-1727 | Hon och Anders Ivar Höök var föräldrar till helsyskonen Gunnar, Marianne, Astrid Margareta och Anders Gustav Höök. | CORROBORATED | hög | [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Lidingös församlingsbok för alla fyra som `s.`/`d.` i hennes eget hushåll 1946; familjeuppgiften stämmer med boken utom för Mariannes födelsedatum. Statusen är därför höjd från TRANSCRIBED. |
-| A-3340 | Sonens födelse 1933 rapporterades inte i Danderyd, Lidingö eller Gustav Vasa (16 mars–30 april), och parets vigsel skedde inte 1933 i Danderyd eller Lidingö; åren 1930–1932 saknas i SCB-indexet. **Den slutsats som drogs av detta — att vigseln låg efter makens utflyttning 1931-07-27 och därmed utanför Sverige — är upphävd av A-3511.** | CORROBORATED | hög | [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md), [C-0887](../citations/C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md), [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | De avgränsade nollorna består och är förklarade av C-0902: födelsen registrerades i Engelbrekt. Den ursprungliga lydelsen bevaras i Historik och rättelser. |
+| A-3340 | Sonens födelse 1933 rapporterades inte i Danderyd, Lidingö eller Gustav Vasa (16 mars–30 april), och parets vigsel skedde inte 1933 i Danderyd eller Lidingö; åren 1930–1932 saknas i SCB-indexet. Den slutsats som drogs av detta — att vigseln låg efter makens utflyttning 1931-07-27 och därmed utanför Sverige — är upphävd av A-3511. | CORROBORATED | hög | [C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md), [C-0887](../citations/C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md), [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | De avgränsade nollorna består och är förklarade av C-0902: födelsen registrerades i Engelbrekt. Den ursprungliga lydelsen bevaras i Historik och rättelser. |
 | A-3391 | Hon vigdes 1931-08-08 med Anders Ivar Höök, blev änka 1944-08-14 och inflyttade 1946-09-13 från Indien till Lidingö med fyra barn. | CORROBORATED | mycket hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Församlingsbokens egna kolumner 7, 8, 9 och 10 på hennes rad; anteckningen namnger maken som `missionären Anders Ivar Höök, död: Poona, Indien`. Vigseldatumet upprepas i sonens födelsepost 1933 (C-0902). Änkedagen är rättad från 1944-08-19 till 1944-08-14 efter omläsning av kolumn 8 (A-4956); den äldre lydelsen bevaras i Historik och rättelser. |
 | A-3392 | Hon namnges som moder i sonens födelsepost i Engelbrekt 1933 med födelsedatum 1902-04-09 och bostad Öst-Turkestan. | CORROBORATED | mycket hög | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) | Bekräftar hennes födelsedatum (A-1464) i en samtida post och visar att hon reste hem till Stockholm inför nedkomsten medan hon var kyrkobokförd i Öst-Turkestan. |
-| A-3510 | Hon utflyttade från **Centrallasarettet i Danderyd, uppslag 522, den 1931-08-13** till **Kaschgar i Öst-Turkestan**, med **Indien** i adresskolumnen, och skrevs redan då **`Höök, Anna Elisabet, f. Carlman, fru`**. | CORROBORATED | mycket hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Flyttningsbetyg och utflyttning samma dag. Resvägen gick över Indien. |
-| A-3511 | **Hon var kyrkobokförd i Sverige på vigseldagen 1931-08-08** och lämnade landet först fem dagar senare; slutsatsen att vigseln skedde utomlands faller därmed. | CORROBORATED | mycket hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Rättar A-3340 och P-0239/A-3387: makens utflyttningsdatum 1931-07-27 är en bokföringsåtgärd, inte en avresedag. Vigselorten är åter okänd men sannolikt svensk. |
-| A-3512 | Danderyds egen lysnings- och vigselbok för 1931 saknar paret i posterna 25–44, som täcker lysningar maj–oktober och vigslar juni–december; utflyttningsbetyget bär dessutom en anteckning om **Kalmar den 1934-06-18**. | CORROBORATED | hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Avgränsat noll för Danderyd. Kalmarnotisen och hennes födelseort Ljungby i Kalmar län gör Kalmar län till nästa ort att pröva. Ortnamnet efter `adr.` i notisen är omprövat mot den lokala fullbilden 2026-09-08 utan att kunna avgöras. |
+| A-3510 | Hon utflyttade från Centrallasarettet i Danderyd, uppslag 522, den 1931-08-13 till Kaschgar i Öst-Turkestan, med Indien i adresskolumnen, och skrevs redan då `Höök, Anna Elisabet, f. Carlman, fru`. | CORROBORATED | mycket hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Flyttningsbetyg och utflyttning samma dag. Resvägen gick över Indien. |
+| A-3511 | Hon var kyrkobokförd i Sverige på vigseldagen 1931-08-08 och lämnade landet först fem dagar senare; slutsatsen att vigseln skedde utomlands faller därmed. | CORROBORATED | mycket hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Rättar A-3340 och P-0239/A-3387: makens utflyttningsdatum 1931-07-27 är en bokföringsåtgärd, inte en avresedag. Vigselorten är åter okänd men sannolikt svensk. |
+| A-3512 | Danderyds egen lysnings- och vigselbok för 1931 saknar paret i posterna 25–44, som täcker lysningar maj–oktober och vigslar juni–december; utflyttningsbetyget bär dessutom en anteckning om Kalmar den 1934-06-18. | CORROBORATED | hög | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) | Avgränsat noll för Danderyd. Kalmarnotisen och hennes födelseort Ljungby i Kalmar län gör Kalmar län till nästa ort att pröva. Ortnamnet efter `adr.` i notisen är omprövat mot den lokala fullbilden 2026-09-08 utan att kunna avgöras. |
 | A-4950 | Lidingös församlingsbok skriver i kolumn 2 både yrket `missionär` och ståndsbeteckningen `änkefru` på hennes rad; ingendera är överstruken. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Egen omläsning 2026-09-08 av den lokalt sparade fullbilden `C-0903-riksarkivet-00054023_00234.jpg` inom T-0148; citationen behöver ett daterat tillägg. Detta är hennes första yrkesbelägg i en svensk myndighetspost efter 1930 och gör `missionär` till mer än en publicerad uppgift. |
 | A-4951 | Kolumn 6, `Vaccinerats eller haft koppor`, bär tecknet `v` på hennes rad. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samma omläsning. Bland de fem hushållsraderna står `v` bara på hennes och den yngste sonens; de tre mellersta barnens celler är tomma, vilket är en källgräns och inte ett belagt negativt fynd. Tecknet skiljer inte vaccination från genomgången sjukdom. |
 | A-4952 | Kolumn 13 rymmer fyra adressanteckningar för hushållet: två överstrukna rader, varav den nedre läses `Odlingsv.` med talet `44` under, och därefter de ostrukna `Vasa 8` och `Kyrkovägen 10`. | TRANSCRIBED | medel | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samma omläsning. Den översta överstrukna raden är prövad vid hög förstoring och förblir oläslig. Ordningen i cellen visar bara i vilken följd adresserna fördes in; vilken adress som gällde vid inflyttningen 1946-09-13 avgörs inte av kolumnen ensam, och C-0903:s normaliserade text bör inte läsas som att Kyrkovägen 10 är belagd som just inflyttningsadress. |
 | A-4953 | Det understrukna tresiffriga talet ovanför hennes födelseår läses `104`. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samma omläsning; avgör den läsosäkerhet `104`/`107` som C-0903:s tillägg 2026-09-08 (T-0146) lämnade öppen. Skrivarens sjua har både överliggare och tvärstreck (`1718`, `1719` i kolumn 16 och månadssiffran `7` på rad 15), medan hennes tecken är stroke för stroke detsamma som slutsiffran i rad 15:s `104`. Talens innebörd är fortfarande oprövad och skrivs inte som fakta; rad 12 och rad 15 bär då samma tal, vilket försvagar hypotesen om löpnummer. Citationen behöver ett daterat tillägg för den avgjorda läsningen. |
-| A-4954 | Hennes rad hänvisar framåt till uppslag **1718** och året **51** i Lidingös nästa församlingsbok, och kolumn 18, `Död år, dag och månad`, är tom. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samma omläsning. Uppslag 1718 bär också Astrid Margareta och Anders Gustav, medan Gunnar och Marianne går till 1719. Den tomma dödskolumnen bekräftar att hon levde när boken avslutades och är förenlig med döden 1991 (A-1455). |
+| A-4954 | Hennes rad hänvisar framåt till uppslag 1718 och året 51 i Lidingös nästa församlingsbok, och kolumn 18, `Död år, dag och månad`, är tom. | TRANSCRIBED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samma omläsning. Uppslag 1718 bär också Astrid Margareta och Anders Gustav, medan Gunnar och Marianne går till 1719. Den tomma dödskolumnen bekräftar att hon levde när boken avslutades och är förenlig med döden 1991 (A-1455). |
 | A-4955 | Kolumn 11, `Kristendomskunskap`, bär ett streck och kolumn 12, `Inom sv. kyrkan begått H. Nattvard`, bokstaven `N` på hennes rad; kolumn 7 inleds med ett `B.` före vigseldatumet. | TRANSCRIBED | medel | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Samma omläsning. Tecknen är avlästa men inte tolkade: `N` står också på andra vuxenrader på uppslaget, bland dem ett katolskt litauiskt par, och `B.` motsvarar positionsmässigt det `ä` som inleder änkekolumnen. Ingen slutsats om samfundstillhörighet eller vigselform dras här. |
-| A-4956 | Änkekolumnen på hennes rad läses `44 ¹⁴/₈`, alltså **1944-08-14**, inte 1944-08-19. | CORROBORATED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen omläsning 2026-09-08 inom T-0148 av den lokalt sparade fullbilden: täljarens andra siffra saknar niosiffrans slutna ögla och har samma vinklade form som `4`:orna i årtalet `44` rakt under och som slutsiffran i talet `104` på samma rad. Läsningen är oberoende bekräftad av Hudiksvalls församlingsbok, som på makens egen rad skriver `Död 14.8.1944, Poona i Indien` med vanliga siffror. C-0903 har fått ett daterat tillägg. Följden är att sonen Anders Gustav föddes sjutton, inte tolv, dagar efter faderns död. |
+| A-4956 | Änkekolumnen på hennes rad läses `44 ¹⁴/₈`, alltså 1944-08-14, inte 1944-08-19. | CORROBORATED | hög | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md) | Egen omläsning 2026-09-08 inom T-0148 av den lokalt sparade fullbilden: täljarens andra siffra saknar niosiffrans slutna ögla och har samma vinklade form som `4`:orna i årtalet `44` rakt under och som slutsiffran i talet `104` på samma rad. Läsningen är oberoende bekräftad av Hudiksvalls församlingsbok, som på makens egen rad skriver `Död 14.8.1944, Poona i Indien` med vanliga siffror. C-0903 har fått ett daterat tillägg. Följden är att sonen Anders Gustav föddes sjutton, inte tolv, dagar efter faderns död. |
 
 ## Relationer
 
@@ -137,8 +137,8 @@ vigselhandling har påträffats.
 | 1902–1930 | **Materiell lucka**: uppväxt, familjens flytt från Ljungby, skolgång och sjuksköterskeutbildning | Ljungby → okänt → Stockholm | — | — | profilens Q-02 |
 | 1930, före folkräkningen | Bosatt i Gustav Vasa församling; flyttar därifrån samma år | Stockholm | sjuksköterska | — | [C-0233](../citations/C-0233-anna-elisabet-carlman-danderyd-1930.md) |
 | 1930 | Folkräkning; ogift, församlingsbokens sida 522 | Centrallasarettet, Danderyd | operationssköterska | — | [C-0233](../citations/C-0233-anna-elisabet-carlman-danderyd-1930.md) |
-| 1931-08-08 | **Vigsel med Anders Ivar Höök**; hon var då kyrkobokförd i Danderyd | ort okänd, sannolikt i Sverige; ej Danderyd | sjuksköterska | — | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) |
-| 1931-08-13 | **Utflyttning från Centrallasarettet, uppslag 522**, till Kaschgar i Öst-Turkestan, adresskolumn Indien | Danderyd → Öst-Turkestan | fru | maken | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) |
+| 1931-08-08 | Vigsel med Anders Ivar Höök; hon var då kyrkobokförd i Danderyd | ort okänd, sannolikt i Sverige; ej Danderyd | sjuksköterska | — | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) |
+| 1931-08-13 | Utflyttning från Centrallasarettet, uppslag 522, till Kaschgar i Öst-Turkestan, adresskolumn Indien | Danderyd → Öst-Turkestan | fru | maken | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) |
 | 1931–1946 | Missionsår i Öst-Turkestan och Indien; kyrkobokförd utomlands | Kashgar och Yarkand; senare Poona | missionär, sjuksköterska | maken och barnen | [C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md), [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) |
 | 1933-03-26 | Sonen Gunnar född under hemvistelse i Stockholm; hon kyrkobokförd i Öst-Turkestan | Engelbrekts församling, Stockholm | moder | maken | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) |
 | 1934-06-18 | Flyttningsbetyget hanteras i Kalmar; anteckningens ortnamn är oläsligt | Kalmar | — | — | [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md) |
@@ -294,21 +294,21 @@ en punktlista.
 
 Se [profilens frågor och källvägar](../research-profiles/P-0240.md#forskningsfrågor).
 
-- **Vigselorten 1931-08-08 är olöst.** Danderyd är ett avgränsat noll
+- Vigselorten 1931-08-08 är olöst. Danderyd är ett avgränsat noll
   (A-3512); Kalmar län är nästa ort att pröva. Nollan gäller bara Danderyds
   posterna 25–44 och bevisar ingenting om andra församlingar.
-- **Dottern Mariannes födelsedatum är en bevarad konflikt** mellan
+- Dottern Mariannes födelsedatum är en bevarad konflikt mellan
   familjeuppgiftens 1935-07-09 och församlingsbokens 1936-05-01; konflikten
   ägs av [P-0307](P-0307-marianne-hook.md) och ändrar inte moderskapet.
-- **Syskonkretsens omfattning är öppen.** Fem namngivna barn i föräldrarnas
+- Syskonkretsens omfattning är öppen. Fem namngivna barn i föräldrarnas
   hushåll 1930 saknar egna akter, P-0530 är enbart en gravledtråd, och
   kodfältet `11-0-1-0-06` är avläst men otolkat.
-- **Det understrukna talet `104`** på hennes rad är nu säkert läst (A-4953)
+- Det understrukna talet `104` på hennes rad är nu säkert läst (A-4953)
   men fortfarande utan känd innebörd; att rad 12 och rad 15 bär samma tal
   talar mot ett enkelt löpnummer.
-- **Tidsluckorna 1902–1930 och 1951–1991** är de två materiellt största
+- Tidsluckorna 1902–1930 och 1951–1991 är de två materiellt största
   bristerna, och den senare har en konkret ingång i uppslag 1718.
-- **Ortnamnet i Kalmarnotisen 1934** och den översta överstrukna adressraden
+- Ortnamnet i Kalmarnotisen 1934 och den översta överstrukna adressraden
   1946 är två prövade läsosäkerheter, inte olästa fält.
 
 ## Historik och rättelser
@@ -320,13 +320,13 @@ C-0903 och medför ingen ny arkivåtkomst.
 
 Sakrättelser i denna omgång:
 
-- **Syskonbelägget.** Relationerna till [P-0244](P-0244-naemi-gustafva-carlman.md)
+- Syskonbelägget. Relationerna till [P-0244](P-0244-naemi-gustafva-carlman.md)
   och [P-0245](P-0245-karl-emanuel-carlman.md) angav tidigare `C-0232, C-0234`.
   C-0232 är hennes eget födelseutdrag och namnger bara föräldrarna; syskonen
   bärs enbart av hushållet 1900 i C-0234, och C-0232 står kvar uttryckligen
   som föräldrakorrelation. Felet påpekades vid kohortgranskningen av P-0244
   och P-0245.
-- **Makens dödsdag är rättad från 1944-08-19 till 1944-08-14** (A-4956).
+- Makens dödsdag är rättad från 1944-08-19 till 1944-08-14 (A-4956).
   Rättelsen väcktes av kohortgranskningen av P-0239 och är kontrollerad här mot
   den lokalt sparade helbilden: änkekolumnens täljare saknar niosiffrans slutna
   ögla och har samma vinklade form som `4`:orna i årtalet under. Datumet står
@@ -336,7 +336,7 @@ Sakrättelser i denna omgång:
 - **A-3340** har omformulerats så att den upphävda slutsatsen om en vigsel
   utanför Sverige märks i saktexten, inte bara i kommentaren. De avgränsade
   nollorna i C-0887 står oförändrade.
-- **A-1467, A-1727 och A-1456** har höjts från TRANSCRIBED till CORROBORATED
+- A-1467, A-1727 och A-1456 har höjts från TRANSCRIBED till CORROBORATED
   med angiven grund: uppslag 522 bekräftas av ett original (C-0937), och de
   fyra barnen står som `s.`/`d.` i hennes egen hushållsrad (C-0903).
 - **A-4952** noterar att C-0903:s normaliserade text inte bör läsas som att

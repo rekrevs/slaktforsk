@@ -16,8 +16,8 @@
 
 Anders Gustaf Ålund är äldste sonen i Carl Fredrik Ålunds och Maja Catharina
 Carlsdotters hushåll i Löta i Helgesta, och äldre bror till
-[Pehr Albert Ålund](P-0110-per-albert-alund.md). Han förekommer i **en enda
-känd källpost**: rad 3 i hushållet i Helgesta A I/15 sida 179, markerad `S.`
+[Pehr Albert Ålund](P-0110-per-albert-alund.md). Han förekommer i en enda
+känd källpost: rad 3 i hushållet i Helgesta A I/15 sida 179, markerad `S.`
 för son, med födelsetiden `32 26/4` och födelseorten `d:o` upplöst till Gryt.
 [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md)
 
@@ -44,9 +44,9 @@ alltså levde han 1865.
 | A-1901 | Namnet skrevs `Anders Gustaf`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Efternamnet Ålund följer familjegruppen. |
 | A-1902 | Han uppges vara född 1832-04-26 i Gryt. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Husförhörsuppgift; födelseoriginal återstår. |
 | A-1903 | Han var son till Carl Fredrik Ålund och Maja Catharina Carlsdotter. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Markeras `S.` i parets familjegrupp. |
-| A-7270 | Kolumnen `Fräjd och enskilda anteckningar.` på hans rad har ordet `sinnessvag`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09; cellen var oläst. Radtillhörigheten är kontrollerad mot de tryckta radnumren i båda marginalerna och mot den linjerade raden 2 ovanför, som ordets överkant ligger under; kontrollen bekräftas av att samma metod placerar uppslagets två beväringsnoteringar på de rader vars födelseår ger 21 års ålder. **Termen är källans egen och översätts inte till någon modern diagnos.** Ordet står i `Fräjd`-kolumnen och inte i namnkolumnens tryckta lytesrubrik, som är läst och tom; placeringen bevaras som den är. |
+| A-7270 | Kolumnen `Fräjd och enskilda anteckningar.` på hans rad har ordet `sinnessvag`. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09; cellen var oläst. Radtillhörigheten är kontrollerad mot de tryckta radnumren i båda marginalerna och mot den linjerade raden 2 ovanför, som ordets överkant ligger under; kontrollen bekräftas av att samma metod placerar uppslagets två beväringsnoteringar på de rader vars födelseår ger 21 års ålder. Termen är källans egen och översätts inte till någon modern diagnos. Ordet står i `Fräjd`-kolumnen och inte i namnkolumnens tryckta lytesrubrik, som är läst och tom; placeringen bevaras som den är. |
 | A-7271 | På hans rad är kolumnerna `Äktenskap: Gift.`, `Äktenskap: Enkl. el. Enka.`, `Inflyttad`, `Död.`, `Utflyttad` och båda attestnummerkolumnerna lästa och tomma; `Koppor` har `v`; tre av fyra `Läser`-kolumner har råtecken och `Förstår.` är tom; nattvardstecken finns 1862–1865. | TRANSCRIBED | hög | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09. Att `Död.` och `Utflyttad` är tomma betyder att han levde och bodde kvar i Löta när boken avslutades 1865. Att han saknar inflyttningsuppgift följer familjens mönster: flyttningen 1857 är bokförd bara på faderns rad. |
-| A-7272 | Han står som ogift son i föräldrahushållet från 29 till 33 års ålder, medan tre yngre syskon under samma tid flyttar in eller ut. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09 ur uppslagets samlade rader. Uppgiften är radernas, inte en slutsats om orsak: den kan höra samman med A-7270 men **något sådant samband är inte belagt**, och ingen förklaring till hans kvarboende införs. |
+| A-7272 | Han står som ogift son i föräldrahushållet från 29 till 33 års ålder, medan tre yngre syskon under samma tid flyttar in eller ut. | TRANSCRIBED | medel | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Utvunnet 2026-09-09 ur uppslagets samlade rader. Uppgiften är radernas, inte en slutsats om orsak: den kan höra samman med A-7270 men något sådant samband är inte belagt, och ingen förklaring till hans kvarboende införs. |
 
 ## Relationer
 
@@ -83,8 +83,8 @@ honom själv. Åren 1832–1857 i Gryt är helt tomma, och efter 1865 är han ok
 | 1832–1857 | Gryt | Gård eller torp ej angivet | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Härlett ur födelseorten och familjens flyttning 1857. Ingen egen husförhörsrad i Gryt är läst. |
 | 1857–minst 1865 | Löta, Töfversta Rote | Helgesta församling, sida 179 | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Inflyttningskolumnen är läst och tom på hans rad; flyttningen är bokförd bara på faderns. |
 
-Utflyttningskolumnen är läst och tom: **han lämnade inte Löta under bokens
-tid**, till skillnad från systern Hedda Lovisa och brodern Carl Johan, som båda
+Utflyttningskolumnen är läst och tom: han lämnade inte Löta under bokens
+tid, till skillnad från systern Hedda Lovisa och brodern Carl Johan, som båda
 har utflyttningsuppgifter på samma uppslag.
 
 ## Yrke, utbildning och ekonomi
@@ -106,15 +106,15 @@ enskilda anteckningar.` på hans rad bär `sinnessvag` men **ingen
 exercisnotering** — till skillnad från bröderna Carl Johan (`ex. 61.`) och
 Fredrik Wilhelm (`exerc. 1sta kl. 64.` och `d:o 2dra kl. 65`) på samma
 uppslag. Frånvaron är en läst cell i just den kolumn där sådant annars står,
-men **ingen slutsats om frikallelse eller om samband med anteckningen dras
-här**; beväringsrullorna är inte sökta.
+men ingen slutsats om frikallelse eller om samband med anteckningen dras
+här; beväringsrullorna är inte sökta.
 
 ## Hälsa och död
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
 | 1861–1865 | `v` i kolumnen `Koppor` | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Vaccinerad; ympningsåret anges inte. Samtliga nio rader på uppslaget har `v`. |
-| 1861–1865 | Anteckningen `sinnessvag` i `Fräjd`-kolumnen | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | **Källans egen samtidsterm.** Den registreras som ordalydelse och översätts inte till någon modern diagnos, funktionsnedsättning eller sjukdom. Anteckningen är odaterad inom bokens tid 1861–1865 och saknar varje uppgift om orsak, förlopp, vård eller fattigunderstöd. Att ordet står i `Fräjd`-kolumnen och **inte** i namnkolumnens tryckta lytesrubrik, som är läst och tom, är bevarat som det står; vad skillnaden betyder är okänt. |
+| 1861–1865 | Anteckningen `sinnessvag` i `Fräjd`-kolumnen | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | **Källans egen samtidsterm.** Den registreras som ordalydelse och översätts inte till någon modern diagnos, funktionsnedsättning eller sjukdom. Anteckningen är odaterad inom bokens tid 1861–1865 och saknar varje uppgift om orsak, förlopp, vård eller fattigunderstöd. Att ordet står i `Fräjd`-kolumnen och inte i namnkolumnens tryckta lytesrubrik, som är läst och tom, är bevarat som det står; vad skillnaden betyder är okänt. |
 | Till 1865 | `Död.`-kolumnen läst och tom | [C-0317](../citations/C-0317-alund-familj-helgesta-AI15-lota-sida-179.md) | Han levde när boken avslutades. Inget dödsdatum är känt och inget får antas. |
 
 Ingen ytterligare hälsouppgift finns. Nästa husförhörslängd och Helgestas
@@ -153,20 +153,20 @@ fräjdkolumnen och inte i namnkolumnens tryckta lytesrubrik, som är läst och
 tom, är bevarat som det står. [A-7270](#påståenden)
 
 Att han vid 33 års ålder fortfarande stod ogift i föräldrahemmet medan tre
-yngre syskon flyttade in och ut kan höra samman med anteckningen, men **något
-sådant samband är inte belagt** och ingen förklaring införs. Han saknar också
+yngre syskon flyttade in och ut kan höra samman med anteckningen, men något
+sådant samband är inte belagt och ingen förklaring införs. Han saknar också
 den exercisnotering som två av bröderna har i samma kolumn; vad det beror på
 är osökt. När boken avslutades 1865 levde han. [A-7272](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Vad betyder anteckningen `sinnessvag`, och hur utvecklades den?** Nästa
+- Vad betyder anteckningen `sinnessvag`, och hur utvecklades den? Nästa
   husförhörslängd, dödboken och sockenstämmoprotokollen är de närmaste
   vägarna. Se [profilens Q-01](../research-profiles/P-0331.md#forskningsfrågor)
   och [KP-01](../research-profiles/P-0331.md#källvägar).
-- **Livet efter 1865 är okänt.** `Död.`- och `Utflyttad`-kolumnerna är lästa
+- Livet efter 1865 är okänt. `Död.`- och `Utflyttad`-kolumnerna är lästa
   och tomma, alltså levde han och bodde kvar. Se KP-01.
-- **Hans dopnotis i Gryt 1832 är oläst.** Den ger faddrar och moderns uppgivna
+- Hans dopnotis i Gryt 1832 är oläst. Den ger faddrar och moderns uppgivna
   ålder. Se KP-02.
 - **Han saknar exercisnotering** där två bröder har en. Det kan spegla
   frikallelse, men inget är belagt och beväringsrullorna är osökta. Se KP-03.

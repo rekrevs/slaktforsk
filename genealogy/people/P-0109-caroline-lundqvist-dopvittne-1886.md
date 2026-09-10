@@ -20,11 +20,11 @@ successiva husförhörslängder i Touluse i Bettna
 [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md)). Motala stämmer
 med att fadern vid vigseln 1841-10-03 i Västra Ny skrevs `Smeddräng från
 Motala` ([C-0285](../citations/C-0285-johan-peter-urbom-eleonora-gustava-ajax-vigsel-1841.md));
-familjen bokfördes till Bettna först 1850. Hennes **egen födelsepost är inte
-läst**, så födelsedatumet är än så länge en hushållsuppgift som två beroende
+familjen bokfördes till Bettna först 1850. Hennes egen födelsepost är inte
+läst, så födelsedatumet är än så länge en hushållsuppgift som två beroende
 längder upprepar.
 
-Akten bär också en **kandidatidentitet som inte är avgjord**. I Ada Wilhelmina
+Akten bär också en kandidatidentitet som inte är avgjord. I Ada Wilhelmina
 Janssons födelsepost 1886 står som dopvittnen `Arrendator Carl Lundqvist o H:u
 Caro-line från Lugnet i Sköldinge`
 ([C-0016](../citations/C-0016-ada-wilhelmina-originalfodelse-1886.md)). En
@@ -33,8 +33,8 @@ Lugnet, gift, med flicknamnet Urbom, född 1842-08-27 och död 1901-07-19
 ([C-0074](../citations/C-0074-karolina-wilhelmina-lundqvist-lugnet.md)).
 Födelsedagen är densamma som hushållsböckernas, in på dagen, och adressen är
 densamma som i dopvittnesraden. Det är en stark kandidat, men posten är
-sekundär, dess eget underlag har inte kunnat granskas och **ingen originalkedja
-binder ihop barnet i Touluse med hustrun på Lugnet**. Sammanföringen står
+sekundär, dess eget underlag har inte kunnat granskas och ingen originalkedja
+binder ihop barnet i Touluse med hustrun på Lugnet. Sammanföringen står
 därför kvar som `LEAD` och får inte propageras.
 
 Detta är också aktens huvudsakliga svaghet på identitetsnivån. Filnamnet
@@ -142,7 +142,7 @@ villkorad av kandidatfrågan; den redovisas i tidslinjen och i relationerna.
 |---|---|---|---|---|
 | Egna rader i två föräldrahushåll | 1851–1860 | Riksarkivet, Bettna A I/13 b sida 9 och A I/14 b sida 8 | [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md), [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md) | Fullbilder med SHA-256 i citationerna |
 | Dopvittnesraden 1886 | 1886-09-12 | Riksarkivet, Lerbo C/8 bild 69 | [C-0016](../citations/C-0016-ada-wilhelmina-originalfodelse-1886.md) | Fullbild med SHA-256 i citationen |
-| Sekundär personpost för Lugnet | Läst 2026-08-20 | Sköldinge-Valla-Lerbo hembygdsförening, person-id 191487 | [C-0074](../citations/C-0074-karolina-wilhelmina-lundqvist-lugnet.md) | **Ingen bevarad ögonblicksbild** — endast avskrift av synliga datafält |
+| Sekundär personpost för Lugnet | Läst 2026-08-20 | Sköldinge-Valla-Lerbo hembygdsförening, person-id 191487 | [C-0074](../citations/C-0074-karolina-wilhelmina-lundqvist-lugnet.md) | Ingen bevarad ögonblicksbild — endast avskrift av synliga datafält |
 
 Inga fotografier, brev, underskrifter eller muntliga minnen om henne är kända.
 
@@ -192,18 +192,18 @@ Se [profilens frågor och källvägar](../research-profiles/P-0109.md#forsknings
 
 - **Kandidatfrågan A-0390** är den avgörande öppna frågan. Den avgörs av
   Sköldinges egna hushålls- och dödböcker, inte av fler sekundära poster.
-- **Egen födelsepost saknas.** Motala 1842 är en exakt och oprövad ingång;
+- Egen födelsepost saknas. Motala 1842 är en exakt och oprövad ingång;
   familjens Motala-anknytning är redan prövad från andra håll för fadern
   ([C-1114](../citations/C-1114-motala-smedavsnitt-1840-1845.md),
   [C-1115](../citations/C-1115-motala-utflyttning-1842.md)),
-  men **inte i födelseboken för hennes egen födelsedag**.
-- **Outvunna egna rader.** Hennes celler för koppa, kunskap, förhör, nattvard,
+  men inte i födelseboken för hennes egen födelsedag.
+- Outvunna egna rader. Hennes celler för koppa, kunskap, förhör, nattvard,
   flytt och anteckningar i
   [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md) och
   [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md) är inte lästa,
   trots att fullbilderna finns lokalt och samma fält är utvunna för andra
   familjemedlemmar. Just utflyttningscellen kan datera hennes avgång.
-- **Aktens gräns mot dopvittnet.** Filnamnet och relationen i
+- Aktens gräns mot dopvittnet. Filnamnet och relationen i
   [P-0108 Carl Lundqvist](P-0108-carl-lundqvist-dopvittne-1886.md) förutsätter
   sammanföringen. Det bör rättas i en avgränsad uppgift som äger båda filerna,
   antingen genom en egen akt för dopvittnet eller genom en villkorad

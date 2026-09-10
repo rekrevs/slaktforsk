@@ -4,7 +4,7 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0170.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Hans egen
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Hans egen
   hushållsrad bär födelsedatumet **`9/4 1772`** i den tryckta kolumnen
   `Födelse-År`, som citationen kallade för svårläst och inte registrerade.
   Aktens tidigare återaktiveringsvillkor — `exakt egen födelse-, vigsel-,
@@ -25,22 +25,22 @@ Han förekommer i **två original**. Dotterns födelse- och dopnotis i Stöde C/
 namnger `bonden Olof Stefansson` och hustrun `Sigrid Jonsdotter` i Hullsjö.
 [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) Hushållssidan i
 Stöde A I/5, Hullsjö sida 159 under rubriken `Kyrko-Rotan`, ger honom en egen
-rad med **födelsedatumet `9/4 1772`** och **`Gifto-År 1806`**, samma
+rad med födelsedatumet `9/4 1772` och `Gifto-År 1806`, samma
 gifto-år som hustrun, och listar tre av parets barn.
 [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md)
 
 Sedan 2026-09-09 har han alltså ett **exakt eget födelsedatum** och ett
 gifto-år. Hans föräldrar är fortfarande inte belagda — men raden omedelbart
 ovanför hans, överstruken, tillhör `Steph[an] Olofsson`, född `25/8 1737`, och
-hushållets barnrader bär prefixet `Son`. Se A-7433: **ingen föräldrarelation
-skapas här.**
+hushållets barnrader bär prefixet `Son`. Se A-7433: ingen föräldrarelation
+skapas här.
 
 ## Namnformer
 
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
 | Olof Stefansson | Dotterns födelsenotis 1812 | TRANSCRIBED | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Formen i den samtida ministerialboken och aktens visningsnamn. |
-| Olof Stephansson | Egen hushållsrad, Stöde A I/5 sida 159 | TRANSCRIBED | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Hushållsboken använder `ph`-formen; samma namn, annan stavning. Sökningar måste pröva **båda** formerna, liksom `Olof`/`Olof:`/`Ol.` och `Stefansson`/`Stephansson`/`Staffansson`. |
+| Olof Stephansson | Egen hushållsrad, Stöde A I/5 sida 159 | TRANSCRIBED | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Hushållsboken använder `ph`-formen; samma namn, annan stavning. Sökningar måste pröva båda formerna, liksom `Olof`/`Olof:`/`Ol.` och `Stefansson`/`Stephansson`/`Staffansson`. |
 
 Patronymikonet ger faderns förnamn **Stefan/Stephan**, som är ovanligt i
 Medelpad och därmed en stark särskiljande nyckel.
@@ -50,15 +50,15 @@ Medelpad och därmed en stark särskiljande nyckel.
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2360 | Olof Stefansson var bonde i Hullsjö och far till Gertrud, född 1812-01-23 i Stöde. | CORROBORATED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Samtida födelsenotis namnger honom som far. |
-| A-3246 | Stöde A I/5 sida 159 visar Olof Stefansson och Sigrid Jonsdotter med dottern Gertrud, född 1812, i Hullsjö. | CORROBORATED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Familjeprofilen sluter hushållet till C-0532. **Överspelad kommentar 2026-09-09:** hans årtal är läst, se A-7430. |
-| A-7430 | Hans egen rad i Stöde A I/5 sida 159 anger födelsedatumet **`9/4 1772`** i den tryckta kolumnen `Födelse-År`. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09 ur den redan sparade helbilden vid 220–400 % förstoring. C-0857 skrev att `Olofs årtal är för svårläst och registreras inte`; dag och månad står upphöjda över årtalet och årtalet självt är tydligt. **Detta är hans första egna datumuppgift** och gör hans egen födelseårgång sökbar på exakt dag. |
-| A-7431 | Kolumnen `Gifto-År` anger **1806** på hans rad och samma år på hustruns. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09; kolumnen var inte redovisad tidigare. Uppgiften gör Stödes vigselbok 1806 till en avgränsad, oprövad passage som normalt ger **båda** makarnas hemvist och ålder. |
-| A-7432 | Samma hushållsrad listar tre barn till paret: `Dottren Brita Olofsd[otter]` född 1807, `Son Jöns Olsson` född `13/8 1809` och `Dottr Gertru[d] Olsdot` född `23/1 1812`. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09; endast Gertrud fanns i modellen. **Gertruds datum i hushållsraden sammanfaller exakt med hennes dopnotis** och kalibrerar därmed de två andra radernas läsning. Brita-radens dag är svag och lämnas ur avskriften. Barnaskaran kan vara större: boken börjar efter 1804. Barnen får inga egna person-id här. |
-| A-7433 | Raden omedelbart ovanför hans i samma hushåll är överstruken och lyder `[f.?] B.[?] Steph[an] Olofsson`, med födelsedatumet `25/8 1737`; hushållets barnrader bär prefixet `Son` respektive `Dottren`. | TRANSCRIBED | medel | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09. **Patronymikonet, radordningen och gårdens successionsordning gör Stephan Olofsson till en stark kandidat som hans far** — men ståndsprefixet framför namnet är inte säkert läst, Olofs eget radprefix är överstruket och ersatt, och ingen rad säger uttryckligen `Fader`. **Ingen relation skapas och inget person-id upprättas här**; nya generationer ligger utanför uppgiftens ram. Tillförlitligheten är `medel` för kandidaturen, inte för radens existens, som är säker. |
-| A-7434 | Två rader nedanför hans familj står `Son. Stefan Stefansson`, född 1782 med `Gifto-År 1808`, och `Hust. Ingrid[?] Jonsdotter`, född 1785 med samma gifto-år; deras rader bär anteckningarna `Ö. Holm.` och en hänvisning `fol. 157`. | TRANSCRIBED | medel | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09. Samma patronymikon och samma `Son`-prefix i samma hushåll gör honom till en **stark kandidat som Olofs bror**. Hustruns förnamn bär läsreservation, och namnen är överstrukna. Ingen relation skapas. Hänvisningen `fol. 157` är en intern flyttning inom volymen och en avgränsad, oprövad passage. |
-| A-7435 | Hans egen rad bär daterade förhörs- och nattvardsnoteringar i samtliga årskolumner **1805–1811**, liksom hustruns rad och den överstrukna raden ovanför. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09 ur högersidans årsgrupper. Noterna belägger **registrerat kyrkligt deltagande**, inte personlig tro. Att också raden ovanför har noteringar till och med 1811 visar att överstrykningen inte är en dödsmarkering inom bokens tid. |
-| A-7436 | Dotterns födelsepost 1812 namnger fyra dopvittnen: `Bond. Ol. Persson älde[?] i Ede`, `Hustr. Inertha[?] Olsdotter derstädes`, `Dräng Matts Olsson i Nedansjö` och `Bonde-dot. Rachel Mattsdotter i Hullsjön`. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utvunnet 2026-09-09; vittnesfältet var **aldrig avskrivet**, trots att kolumnen är handskrivet rubricerad `Witnen` på samma uppslag. **Inget av de fyra bär hans patronymikon**, så dopvägen till hans släkt är prövad och stängd. Listan pekar mot byarna **Ede** och **Nedansjö** och mot en Matts-familj i hans egen by. Två läsreservationer består. Ingen relation skapas. |
-| A-7437 | Han och hustrun står själva som de två första dopvittnena i en annan post på samma sida: `Cajsa Brita`, dotter till `Bond. Jon Nilsson` och `Dess Hustru Maglena Mattsdotter i Hullsjön`. De två övriga vittnena är `Dräng Matts Olsson` och `Bonde-dott. Rachel Mattsdotter ibid.` | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utvunnet 2026-09-09. **Detta är hans enda belagda handling utanför den egna familjen.** Samma två Matts-vittnen står vid båda dopen, vilket visar en återkommande umgängeskrets i byn snarare än ett enstaka sammanträffande. Uppgiften är social och ger ingen släktskapsslutsats. |
+| A-3246 | Stöde A I/5 sida 159 visar Olof Stefansson och Sigrid Jonsdotter med dottern Gertrud, född 1812, i Hullsjö. | CORROBORATED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Familjeprofilen sluter hushållet till C-0532. Överspelad kommentar 2026-09-09: hans årtal är läst, se A-7430. |
+| A-7430 | Hans egen rad i Stöde A I/5 sida 159 anger födelsedatumet `9/4 1772` i den tryckta kolumnen `Födelse-År`. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09 ur den redan sparade helbilden vid 220–400 % förstoring. C-0857 skrev att `Olofs årtal är för svårläst och registreras inte`; dag och månad står upphöjda över årtalet och årtalet självt är tydligt. Detta är hans första egna datumuppgift och gör hans egen födelseårgång sökbar på exakt dag. |
+| A-7431 | Kolumnen `Gifto-År` anger 1806 på hans rad och samma år på hustruns. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09; kolumnen var inte redovisad tidigare. Uppgiften gör Stödes vigselbok 1806 till en avgränsad, oprövad passage som normalt ger båda makarnas hemvist och ålder. |
+| A-7432 | Samma hushållsrad listar tre barn till paret: `Dottren Brita Olofsd[otter]` född 1807, `Son Jöns Olsson` född `13/8 1809` och `Dottr Gertru[d] Olsdot` född `23/1 1812`. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09; endast Gertrud fanns i modellen. Gertruds datum i hushållsraden sammanfaller exakt med hennes dopnotis och kalibrerar därmed de två andra radernas läsning. Brita-radens dag är svag och lämnas ur avskriften. Barnaskaran kan vara större: boken börjar efter 1804. Barnen får inga egna person-id här. |
+| A-7433 | Raden omedelbart ovanför hans i samma hushåll är överstruken och lyder `[f.?] B.[?] Steph[an] Olofsson`, med födelsedatumet `25/8 1737`; hushållets barnrader bär prefixet `Son` respektive `Dottren`. | TRANSCRIBED | medel | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09. Patronymikonet, radordningen och gårdens successionsordning gör Stephan Olofsson till en stark kandidat som hans far — men ståndsprefixet framför namnet är inte säkert läst, Olofs eget radprefix är överstruket och ersatt, och ingen rad säger uttryckligen `Fader`. Ingen relation skapas och inget person-id upprättas här; nya generationer ligger utanför uppgiftens ram. Tillförlitligheten är `medel` för kandidaturen, inte för radens existens, som är säker. |
+| A-7434 | Två rader nedanför hans familj står `Son. Stefan Stefansson`, född 1782 med `Gifto-År 1808`, och `Hust. Ingrid[?] Jonsdotter`, född 1785 med samma gifto-år; deras rader bär anteckningarna `Ö. Holm.` och en hänvisning `fol. 157`. | TRANSCRIBED | medel | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09. Samma patronymikon och samma `Son`-prefix i samma hushåll gör honom till en stark kandidat som Olofs bror. Hustruns förnamn bär läsreservation, och namnen är överstrukna. Ingen relation skapas. Hänvisningen `fol. 157` är en intern flyttning inom volymen och en avgränsad, oprövad passage. |
+| A-7435 | Hans egen rad bär daterade förhörs- och nattvardsnoteringar i samtliga årskolumner 1805–1811, liksom hustruns rad och den överstrukna raden ovanför. | TRANSCRIBED | hög | [C-0857](../citations/C-0857-stode-AI5-olof-sigrid-hullsjo.md) | Utvunnet 2026-09-09 ur högersidans årsgrupper. Noterna belägger registrerat kyrkligt deltagande, inte personlig tro. Att också raden ovanför har noteringar till och med 1811 visar att överstrykningen inte är en dödsmarkering inom bokens tid. |
+| A-7436 | Dotterns födelsepost 1812 namnger fyra dopvittnen: `Bond. Ol. Persson älde[?] i Ede`, `Hustr. Inertha[?] Olsdotter derstädes`, `Dräng Matts Olsson i Nedansjö` och `Bonde-dot. Rachel Mattsdotter i Hullsjön`. | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utvunnet 2026-09-09; vittnesfältet var aldrig avskrivet, trots att kolumnen är handskrivet rubricerad `Witnen` på samma uppslag. Inget av de fyra bär hans patronymikon, så dopvägen till hans släkt är prövad och stängd. Listan pekar mot byarna Ede och Nedansjö och mot en Matts-familj i hans egen by. Två läsreservationer består. Ingen relation skapas. |
+| A-7437 | Han och hustrun står själva som de två första dopvittnena i en annan post på samma sida: `Cajsa Brita`, dotter till `Bond. Jon Nilsson` och `Dess Hustru Maglena Mattsdotter i Hullsjön`. De två övriga vittnena är `Dräng Matts Olsson` och `Bonde-dott. Rachel Mattsdotter ibid.` | TRANSCRIBED | hög | [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) | Utvunnet 2026-09-09. Detta är hans enda belagda handling utanför den egna familjen. Samma två Matts-vittnen står vid båda dopen, vilket visar en återkommande umgängeskrets i byn snarare än ett enstaka sammanträffande. Uppgiften är social och ger ingen släktskapsslutsats. |
 
 ## Relationer
 
@@ -71,7 +71,7 @@ Medelpad och därmed en stark särskiljande nyckel.
 
 Hans föräldrar är **inte** belagda. `Steph[an] Olofsson` på raden ovanför är en
 stark kandidat som far och `Stefan Stefansson` som bror, men båda är förda som
-kandidater i Påståenden och **inte** som relationer; se A-7433 och A-7434.
+kandidater i Påståenden och inte som relationer; se A-7433 och A-7434.
 De två nyfunna barnen får inga egna person-id här. Dotterns fyra dopvittnen
 och den familj han själv stod vittne åt är sociala uppgifter, inte
 relationer; se A-7436 och A-7437.
@@ -140,7 +140,7 @@ Inget personligt material och ingen egen hand är känd.
 
 ## Biografisk sammanfattning
 
-Olof Stefansson föddes den **9 april 1772** och gifte sig **1806** med
+Olof Stefansson föddes den 9 april 1772 och gifte sig **1806** med
 [Sigrid Jonsdotter](P-0418-sigrid-jonsdotter.md). Båda uppgifterna stod i
 tryckta kolumner på hans egen rad i Stöde A I/5, Hullsjö sida 159, och båda
 var outvunna: citationen skrev att hans årtal var för svårläst att registrera,
@@ -149,8 +149,8 @@ månad och år tydligt. [A-7430](#påståenden), [A-7431](#påståenden)
 
 Han var bonde i Hullsjö, och paret hade minst tre barn: Brita 1807, Jöns
 1809 och Gertrud 1812. Endast Gertrud har funnits i projektets modell.
-**Gertruds datum i hushållsraden — 23 januari 1812 — sammanfaller exakt med
-hennes dopnotis**, vilket kalibrerar läsningen av de två syskonradernas
+Gertruds datum i hushållsraden — 23 januari 1812 — sammanfaller exakt med
+hennes dopnotis, vilket kalibrerar läsningen av de två syskonradernas
 datum. [A-7432](#påståenden)
 
 Hans föräldrar är inte belagda, men hushållet pekar. Raden omedelbart ovanför
@@ -159,8 +159,8 @@ och hushållets barn skrivs med prefixet `Son` och `Dottren`. Två rader längre
 ned står `Son Stefan Stefansson`, född 1782, med hustru och gifto-året 1808.
 Patronymikonet, radordningen och gårdens successionsordning gör Stephan
 Olofsson till en stark kandidat som far och Stefan Stefansson som bror —
-**men ingen rad säger uttryckligen `Fader`, ståndsprefixen är inte säkert
-lästa, och ingen relation skapas här.** Nya generationer ligger utanför
+men ingen rad säger uttryckligen `Fader`, ståndsprefixen är inte säkert
+lästa, och ingen relation skapas här. Nya generationer ligger utanför
 uppgiftens ram. [A-7433](#påståenden), [A-7434](#påståenden)
 
 Hans egen radgrupp bär daterade förhörs- och nattvardsnoteringar i varje
@@ -168,33 +168,33 @@ Hans egen radgrupp bär daterade förhörs- och nattvardsnoteringar i varje
 överstrykningen där inte är en dödsmarkering inom bokens tid.
 [A-7435](#påståenden)
 
-Dotterns födelsepost hade dessutom ett **aldrig avskrivet vittnesfält**.
-De fyra vittnena — en bonde med hustru i **Ede**, en dräng i **Nedansjö** och
-en bondedotter i den egna byn — bär **inget** av föräldrarnas patronymikon,
+Dotterns födelsepost hade dessutom ett aldrig avskrivet vittnesfält.
+De fyra vittnena — en bonde med hustru i **Ede**, en dräng i Nedansjö och
+en bondedotter i den egna byn — bär inget av föräldrarnas patronymikon,
 och dopvägen till hans släkt är därmed prövad och stängd. Längre ned på samma
 sida står han och Sigrid själva som dopvittnen åt Jon Nilssons och Maglena
 Mattsdotters dotter i Hullsjö, tillsammans med samma två Matts-vittnen som
-vid deras egen dotters dop. **Det är hans enda belagda handling utanför den
-egna familjen.** [A-7436](#påståenden), [A-7437](#påståenden)
+vid deras egen dotters dop. Det är hans enda belagda handling utanför den
+egna familjen. [A-7436](#påståenden), [A-7437](#påståenden)
 
 ## Forskningsfrågor och konflikter
 
-- **Hans egen födelsepost är nu sökbar på exakt dag.** Se
+- Hans egen födelsepost är nu sökbar på exakt dag. Se
   [profilens Q-01](../research-profiles/P-0417.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0417.md#källvägar). Aktens tidigare
   förbud — `använd inte det svårlästa årtalet som söknyckel` — gällde ett
   årtal som inte var oläsbart utan oläst.
 - **Vigselposten 1806** är en avgränsad passage som normalt ger båda makarnas
   hemvist och ålder, och därmed hustruns ursprung. KP-01.
-- **Är Steph[an] Olofsson hans far?** Frågan avgörs av föregående
+- Är Steph[an] Olofsson hans far? Frågan avgörs av föregående
   husförhörslängd, där Olof i så fall står som barn i hans hushåll, eller av
   hans egen födelsepost 1772. KP-02.
-- **Vart tog brodern vägen?** `Ö. Holm.` och hänvisningen `fol. 157` på
+- Vart tog brodern vägen? `Ö. Holm.` och hänvisningen `fol. 157` på
   Stefan Stefanssons och hans hustrus rader är en intern volymflyttning som
   ingen läst. KP-03.
 - **När dog han?** Bokens sista årskolumn är 1811. Stödes nästa längd och
   dödböcker är oprövade.
-- **Dopvägen till hans egen släkt är stängd**, inte outredd: inget av
+- Dopvägen till hans egen släkt är stängd, inte outredd: inget av
   dotterns fyra vittnen bär hans patronymikon. Byarna Ede och Nedansjö är
   däremot nya orter i hans umgängeskrets. KP-03.
 - Ingen konflikt finns inom det lästa underlaget. De två originalens
@@ -203,7 +203,7 @@ egna familjen.** [A-7436](#påståenden), [A-7437](#påståenden)
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **hans egen födelsepost i Stöde 1772-04-09**, nu sökbar på
+- Förväntad källa: hans egen födelsepost i Stöde 1772-04-09, nu sökbar på
   exakt dag, och **Stödes vigselbok 1806**; i andra hand föregående
   husförhörslängd, som skulle visa honom som barn i föräldrahushållet.
 - Genomsökt: Gertruds födelsenotis 1812 och familjens registerstyrda
@@ -213,7 +213,7 @@ egna familjen.** [A-7436](#påståenden), [A-7437](#påståenden)
   namnger ingen av Olofs föräldrar uttryckligen;
   [C-0532](../citations/C-0532-stode-C2-gertrud-fodd-1812.md) är det positiva
   familjebelägget.
-- Återaktivering: **villkoret är uppfyllt 2026-09-09.** Den tidigare
+- Återaktivering: villkoret är uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `exakt egen födelse-, vigsel-, flytt- eller
   föräldrahemsnyckel` och förbjöd bruket av det svårlästa årtalet;
   hushållsraden ger nu **både** ett exakt födelsedatum och ett gifto-år. Gör

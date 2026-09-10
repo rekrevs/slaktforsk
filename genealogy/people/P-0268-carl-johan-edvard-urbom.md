@@ -157,12 +157,12 @@ Se [profilens frågor och källvägar](../research-profiles/P-0268.md#forsknings
 
 T-0159, 2026-09-09: akten är omskriven till `person-dossier/v1`. Hela den föregående akten bevaras som blockcitat nedan. Följande gjordes mot de lokalt bevarade fullbilderna, utan ny arkivåtkomst.
 
-1. **Återkomsten 1876 preciserad.** Den föregående akten hade en `inkommande Stockholm-notering 1876` med reservationen att exakt dag krävde flyttlängd. Inflyttningskolumnen på hans egen rad 24 i A I/19 lyder `Stockhlm, H. Eleon. 76 4/11 25`. Avsändarförsamling, dag och attestnummer stod alltså hela tiden på den redan bevarade fullbilden. A-1786 är omformulerad; den äldre lydelsen står kvar nedan.
+1. Återkomsten 1876 preciserad. Den föregående akten hade en `inkommande Stockholm-notering 1876` med reservationen att exakt dag krävde flyttlängd. Inflyttningskolumnen på hans egen rad 24 i A I/19 lyder `Stockhlm, H. Eleon. 76 4/11 25`. Avsändarförsamling, dag och attestnummer stod alltså hela tiden på den redan bevarade fullbilden. A-1786 är omformulerad; den äldre lydelsen står kvar nedan.
 2. **Utflyttningen 1875 bekräftad** med dag 24/10 och attest 15 i fullbilden; A-1777 behåller sin lydelse med tillagt attestnummer.
-3. **Anmärkningen om skolan och prästgården tillförd.** [C-0281](../citations/C-0281-urbom-ajax-terno-sida-119-1876-1880.md) behandlade i sitt tolkningsavsnitt bara föräldrarna, Hulda och Ernst och lämnade uttryckligen hans egna noter till hans egen akt. Anmärkningskolumnen och utflyttningen till Prästgård folio 17 är nu utvunna; se A-6032 och A-6033.
-4. **Övriga egna kolumner utvunna** ur uppslagens högra halvor, som citationernas avskrifter inte omfattade: koppympning, kunskapsmarkeringar, förhörs- och nattvardsdatum samt dopdatumkolumnen i Bettna A I/14 b. Se A-6031, A-6034 och A-6035.
-5. **Den sekundära barnlistan avläst.** Utgivaren anger inget dödsår för honom, vilket är en källgräns och inte ett fynd; se A-6030.
-6. **Öppen fråga ersatt.** Den tidigare öppna frågan att `följa familjegruppen vidare från Touluse` är besvarad genom C-0276, C-0277, C-0278 och C-0281 och är därför borttagen ur den aktuella frågelistan. Frågan om hans senare liv är kvar och preciserad.
+3. Anmärkningen om skolan och prästgården tillförd. [C-0281](../citations/C-0281-urbom-ajax-terno-sida-119-1876-1880.md) behandlade i sitt tolkningsavsnitt bara föräldrarna, Hulda och Ernst och lämnade uttryckligen hans egna noter till hans egen akt. Anmärkningskolumnen och utflyttningen till Prästgård folio 17 är nu utvunna; se A-6032 och A-6033.
+4. Övriga egna kolumner utvunna ur uppslagens högra halvor, som citationernas avskrifter inte omfattade: koppympning, kunskapsmarkeringar, förhörs- och nattvardsdatum samt dopdatumkolumnen i Bettna A I/14 b. Se A-6031, A-6034 och A-6035.
+5. Den sekundära barnlistan avläst. Utgivaren anger inget dödsår för honom, vilket är en källgräns och inte ett fynd; se A-6030.
+6. Öppen fråga ersatt. Den tidigare öppna frågan att `följa familjegruppen vidare från Touluse` är besvarad genom C-0276, C-0277, C-0278 och C-0281 och är därför borttagen ur den aktuella frågelistan. Frågan om hans senare liv är kvar och preciserad.
 
 Inget A-id har tagits bort. A-1549 och A-1550 har höjd status, A-1786 är omformulerad mot aktuellt belägg och samtliga tidigare lydelser står kvar i blockcitatet nedan.
 

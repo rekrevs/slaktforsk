@@ -4,8 +4,8 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0172.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Hans ämbete
-  **`Kyrkoherdens i Mortorp`** står i dotterns födelsepost men har aldrig
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Hans ämbete
+  `Kyrkoherdens i Mortorp` står i dotterns födelsepost men har aldrig
   förts som sakuppgift i akten, och postens **sex vittnen** var oavskrivna.
   Ämbetet öppnar en helt ny källklass: stiftets herdaminne,
   prästmatriklar och konsistoriets handlingar.
@@ -40,18 +40,18 @@ Hans egen ålder, födelseort och föräldrar är okända, och namnet `Bökelund
 
 | Form | Användning/tid | Status | Belägg | Kommentar |
 |---|---|---|---|---|
-| Kyrkoherdens i Mortorp Samuel Bökelunds | Dotterns födelse- och dopnotis 1809, post 18 | TRANSCRIBED | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Originalets form, i genitiv. **Ämbetsuppgiften står i samma cell som namnet.** |
-| Kyrkoherden härstädes Samuel Bökelund | Vittnesraden i post 21 på samma uppslag | TRANSCRIBED | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Han står **själv som vittne** vid komministerns sons dop tretton dagar senare; se A-7622. |
-| Samuel Bökelund / Bökelundh / Bökeland | Sökformer | LEAD | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Familjenamnet är **ovanligt** och därmed starkt särskiljande. Stavningsvarianter måste prövas i matriklar och herdaminnen. |
+| Kyrkoherdens i Mortorp Samuel Bökelunds | Dotterns födelse- och dopnotis 1809, post 18 | TRANSCRIBED | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Originalets form, i genitiv. Ämbetsuppgiften står i samma cell som namnet. |
+| Kyrkoherden härstädes Samuel Bökelund | Vittnesraden i post 21 på samma uppslag | TRANSCRIBED | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Han står själv som vittne vid komministerns sons dop tretton dagar senare; se A-7622. |
+| Samuel Bökelund / Bökelundh / Bökeland | Sökformer | LEAD | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Familjenamnet är ovanligt och därmed starkt särskiljande. Stavningsvarianter måste prövas i matriklar och herdaminnen. |
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
-| A-3239 | Samuel Bökelund var far till Johanna Christina, född 1809-07-03 i Mortorp. | CORROBORATED | mycket hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Egen födelsenotis förenad med vuxenhushållets namn, år och socken. **Justerat 2026-09-09 (T-0164):** C-0467 är struken som belägg — den citationen namnger ingen av föräldrarna, den skriver bara `Fru Joh. Chr. Bökelund`. Faderskapet bärs av C-0851, som dessutom ger hans ämbete: **`Kyrkoherdens i Mortorp`**. |
-| A-7620 | Dotterns födelsepost anger honom som **`Kyrkoherdens i Mortorp`**, alltså socknens kyrkoherde 1809. | TRANSCRIBED | hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Fört som eget påstående 2026-09-09. Ämbetet namngavs i T-0164:s tillägg som en av tre oavskrivna uppgifter men **fördes aldrig som sakuppgift i hans akt**. Betydelsen är stor: en kyrkoherde har en **biografi i stiftets herdaminne** med födelsedatum, föräldrar, studier, prästvigning, tjänster, äktenskap och död, och han förekommer i konsistoriets protokoll och i prästmatriklar. **Aktens svagaste person i fråga om egna uppgifter är socknens bäst dokumenterade man.** |
-| A-7621 | Dotterns dopnotis namnger **sex vittnen**: `Comministern härstädes H:r Pastor Anders Sjöstrand`, `des[s] Hustru Chatarina Helena Fernander`, `Sergeanten u[ti] Mortorps ägor Jonas Sjöström`, `des[s] Hustru Johanna Ryberg`, `S. Min[?]. Adjuncten H:r Peter Anders[son?]` och `Jungfru Gustava Christina Bökelund`. | TRANSCRIBED | hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Utvunnet 2026-09-09 ur den redan sparade fullbilden; T-0164 namngav sex vittnen som oavskrivna. **Kretsen är socknens ståndspersoner** — komminister, sergeant, adjunkt — vilket är förväntat för en kyrkoherdes barn och samtidigt en läst uppgift om familjens ställning. **`Jungfru Gustava Christina Bökelund` bär hans eget familjenamn** och är en stark kandidat som hans dotter eller syster; **ingen relation skapas.** Adjunktens efternamn och titelled bär läsreservation. |
-| A-7622 | På samma uppslag, i post 21 den 16 juli 1809, står han **själv som första vittne** vid komministern Anders Sjöstrands och Catharina Helena Fernanders sons dop: `Kyrkoherden härstädes Samuel Bökelund`. | TRANSCRIBED | hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Utvunnet 2026-09-09. **Vittnesskapet är ömsesidigt:** komministerparet stod vittnen åt hans dotter den 6 juli, och han åt deras son den 22 juli. Detta är hans enda belagda handling utanför den egna familjen och en läst uppgift om socknens ståndskrets. Ingen relation skapas. |
+| A-3239 | Samuel Bökelund var far till Johanna Christina, född 1809-07-03 i Mortorp. | CORROBORATED | mycket hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Egen födelsenotis förenad med vuxenhushållets namn, år och socken. Justerat 2026-09-09 (T-0164): C-0467 är struken som belägg — den citationen namnger ingen av föräldrarna, den skriver bara `Fru Joh. Chr. Bökelund`. Faderskapet bärs av C-0851, som dessutom ger hans ämbete: `Kyrkoherdens i Mortorp`. |
+| A-7620 | Dotterns födelsepost anger honom som `Kyrkoherdens i Mortorp`, alltså socknens kyrkoherde 1809. | TRANSCRIBED | hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Fört som eget påstående 2026-09-09. Ämbetet namngavs i T-0164:s tillägg som en av tre oavskrivna uppgifter men fördes aldrig som sakuppgift i hans akt. Betydelsen är stor: en kyrkoherde har en biografi i stiftets herdaminne med födelsedatum, föräldrar, studier, prästvigning, tjänster, äktenskap och död, och han förekommer i konsistoriets protokoll och i prästmatriklar. Aktens svagaste person i fråga om egna uppgifter är socknens bäst dokumenterade man. |
+| A-7621 | Dotterns dopnotis namnger sex vittnen: `Comministern härstädes H:r Pastor Anders Sjöstrand`, `des[s] Hustru Chatarina Helena Fernander`, `Sergeanten u[ti] Mortorps ägor Jonas Sjöström`, `des[s] Hustru Johanna Ryberg`, `S. Min[?]. Adjuncten H:r Peter Anders[son?]` och `Jungfru Gustava Christina Bökelund`. | TRANSCRIBED | hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Utvunnet 2026-09-09 ur den redan sparade fullbilden; T-0164 namngav sex vittnen som oavskrivna. Kretsen är socknens ståndspersoner — komminister, sergeant, adjunkt — vilket är förväntat för en kyrkoherdes barn och samtidigt en läst uppgift om familjens ställning. `Jungfru Gustava Christina Bökelund` bär hans eget familjenamn och är en stark kandidat som hans dotter eller syster; ingen relation skapas. Adjunktens efternamn och titelled bär läsreservation. |
+| A-7622 | På samma uppslag, i post 21 den 16 juli 1809, står han själv som första vittne vid komministern Anders Sjöstrands och Catharina Helena Fernanders sons dop: `Kyrkoherden härstädes Samuel Bökelund`. | TRANSCRIBED | hög | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Utvunnet 2026-09-09. Vittnesskapet är ömsesidigt: komministerparet stod vittnen åt hans dotter den 6 juli, och han åt deras son den 22 juli. Detta är hans enda belagda handling utanför den egna familjen och en läst uppgift om socknens ståndskrets. Ingen relation skapas. |
 
 ## Relationer
 
@@ -63,8 +63,8 @@ Hans egen ålder, födelseort och föräldrar är okända, och namnet `Bökelund
 **C-0467 är struken som föräldrabelägg sedan T-0164** och står därför inte i
 beläggkolumnen ovan; den citationen namnger ingen av föräldrarna.
 
-Hans föräldrar och syskon är okända. **`Jungfru Gustava Christina Bökelund`
-bland dotterns vittnen bär hans familjenamn** och är kandidat som dotter
+Hans föräldrar och syskon är okända. `Jungfru Gustava Christina Bökelund`
+bland dotterns vittnen bär hans familjenamn och är kandidat som dotter
 eller syster — förd enbart som söknyckel; se A-7621.
 
 ## Tidslinje
@@ -83,17 +83,17 @@ före eller efter är belagt i ett läst original, och han har ingen
 
 | Tid | Från/till eller boställe | Fastighet/adress | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1809 | Mortorp; **prästgården är den självklara men obelagda bostaden** | Mortorps församling | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Ämbetet innebar boställsrätt till prästgården, men posten skriver bara `i Mortorp`. En annan post på samma uppslag nämner `Mortorp Prästgård`, vilket stöder men inte belägger hans egen bostad. |
+| 1809 | Mortorp; prästgården är den självklara men obelagda bostaden | Mortorps församling | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Ämbetet innebar boställsrätt till prästgården, men posten skriver bara `i Mortorp`. En annan post på samma uppslag nämner `Mortorp Prästgård`, vilket stöder men inte belägger hans egen bostad. |
 
-Ingen flyttning är belagd. **En kyrkoherdes tjänstegång är däremot en
-dokumenterad serie** — vilka pastorat han innehaft och när — och den ligger i
+Ingen flyttning är belagd. En kyrkoherdes tjänstegång är däremot en
+dokumenterad serie — vilka pastorat han innehaft och när — och den ligger i
 herdaminnet; se A-7620.
 
 ## Yrke, utbildning och ekonomi
 
 | Tid | Uppgift | Plats/organisation | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1809 | `Kyrkoherdens i Mortorp` | Mortorps församling, Kalmar stift | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | **Ny sakuppgift i akten 2026-09-09.** Ämbetet förutsätter akademiska studier och prästvigning, alltså en dokumenterad utbildningsgång, och det medför boställe, tionde och sockenstämmoordförandeskap. Ingen av dessa handlingar är sökt. |
+| 1809 | `Kyrkoherdens i Mortorp` | Mortorps församling, Kalmar stift | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Ny sakuppgift i akten 2026-09-09. Ämbetet förutsätter akademiska studier och prästvigning, alltså en dokumenterad utbildningsgång, och det medför boställe, tionde och sockenstämmoordförandeskap. Ingen av dessa handlingar är sökt. |
 | 1809 | Socknens kyrkoherde stod i en krets med komminister, adjunkt och sergeant | Mortorp | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Läst ur dotterns vittneslista och ur hans eget vittnesskap i post 21. Uppgiften gäller ställning, inte inkomst. |
 
 Ingen bouppteckning och inget ekonomiskt material är sökt.
@@ -102,15 +102,15 @@ Ingen bouppteckning och inget ekonomiskt material är sökt.
 
 | Tid | Uppgift | Förband/myndighet/mål | Belägg | Kommentar |
 |---|---|---|---|---|
-| 1809 | Som kyrkoherde var han ordförande i sockenstämman och förde socknens kyrkoböcker | Mortorps församling | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | **Detta är en civil ämbetsroll, inte en militär.** Följden är att sockenstämmoprotokoll och kyrkoräkenskaper från hans tid är personbundna handlingar om honom — en källklass som är ovanligt rik och helt osökt. `EJ RELEVANT` gäller det militära: inget tyder på krigstjänst. |
+| 1809 | Som kyrkoherde var han ordförande i sockenstämman och förde socknens kyrkoböcker | Mortorps församling | [C-0851](../citations/C-0851-mortorp-C2-johanna-bokelund-1809.md) | Detta är en civil ämbetsroll, inte en militär. Följden är att sockenstämmoprotokoll och kyrkoräkenskaper från hans tid är personbundna handlingar om honom — en källklass som är ovanligt rik och helt osökt. `EJ RELEVANT` gäller det militära: inget tyder på krigstjänst. |
 
 ## Hälsa och död
 
 | Tid | Uppgift | Källa/belägg | Källkritisk kommentar |
 |---|---|---|---|
 
-Ingen hälso- eller dödsuppgift finns i något läst original. **En kyrkoherdes
-död är däremot alltid dokumenterad** — i socknens dödbok, i herdaminnet och
+Ingen hälso- eller dödsuppgift finns i något läst original. En kyrkoherdes
+död är däremot alltid dokumenterad — i socknens dödbok, i herdaminnet och
 normalt i ett tryckt likpredikans- eller minnesmaterial — vilket gör
 avsaknaden till en outförd sökning och inte en källgräns.
 
@@ -139,12 +139,12 @@ Tretton dagar senare stod han **själv första vittne** vid komministerns sons
 dop — ett ömsesidigt vittnesskap som är hans enda belagda handling utanför
 den egna familjen. [A-7621](#påståenden), [A-7622](#påståenden)
 
-Granskningens huvudfynd är dock enklare än så: **ämbetet hade aldrig förts in
-som sakuppgift.** T-0164 noterade 2026-09-09 att `Kyrkoherdens i Mortorp` stod
+Granskningens huvudfynd är dock enklare än så: ämbetet hade aldrig förts in
+som sakuppgift. T-0164 noterade 2026-09-09 att `Kyrkoherdens i Mortorp` stod
 i posten och att det var just den kolumn dotterns akt hade underkänts på —
 men uppgiften nådde inte hans egen akt. Betydelsen är avgörande. En anspets
-utan ålder och utan ursprung är normalt ett tomt spår; **en kyrkoherde är
-socknens bäst dokumenterade man.** Hans födelsedatum, föräldrar, studier,
+utan ålder och utan ursprung är normalt ett tomt spår; en kyrkoherde är
+socknens bäst dokumenterade man. Hans födelsedatum, föräldrar, studier,
 prästvigning, tjänstegång, äktenskap och död står i stiftets herdaminne, och
 han förekommer i prästmatriklar, konsistoriets protokoll,
 sockenstämmoprotokoll och kyrkoräkenskaper. Ingen av dessa källor är sökt.
@@ -152,17 +152,17 @@ sockenstämmoprotokoll och kyrkoräkenskaper. Ingen av dessa källor är sökt.
 
 ## Forskningsfrågor och konflikter
 
-- **Vad säger stiftets herdaminne om honom?** Det är aktens huvudväg och
+- Vad säger stiftets herdaminne om honom? Det är aktens huvudväg och
   ger normalt födelsedatum, föräldrar och hela tjänstegången. Se
   [profilens Q-01](../research-profiles/P-0517.md#forskningsfrågor) och
   [KP-01](../research-profiles/P-0517.md#källvägar).
-- **Är `Jungfru Gustava Christina Bökelund` hans dotter eller syster?** Hon
+- Är `Jungfru Gustava Christina Bökelund` hans dotter eller syster? Hon
   bär hans familjenamn och stod vittne åt hans barn. KP-02.
-- **Mortorps husförhörslängd för prästgården omkring 1809** skulle ge hans
+- Mortorps husförhörslängd för prästgården omkring 1809 skulle ge hans
   ålder, födelseort och hela hushållet. KP-01.
 - **Sockenstämmoprotokoll och kyrkoräkenskaper** från hans tid är
   personbundna handlingar om honom och är helt osökta. KP-03.
-- **Han förde själv de kyrkoböcker akten citerar.** En handstilsjämförelse
+- Han förde själv de kyrkoböcker akten citerar. En handstilsjämförelse
   kan därför i princip identifiera hans hand — men ingen är gjord.
 - Ingen aktiv konflikt finns i hans akt. Hustruns namnform är **rättad** i
   T-0164 från `Kylenstjerna` till `Rybergsd:r`, och den felaktiga formen
@@ -171,7 +171,7 @@ sockenstämmoprotokoll och kyrkoräkenskaper. Ingen av dessa källor är sökt.
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Kalmar stifts herdaminne och prästmatriklar**, som
+- Förväntad källa: Kalmar stifts herdaminne och prästmatriklar, som
   normalt ger en kyrkoherdes födelsedatum, föräldrar, studier och
   tjänstegång; i andra hand Mortorps husförhörslängd för prästgården omkring
   1809 och socknens dödbok.
@@ -182,11 +182,11 @@ sockenstämmoprotokoll och kyrkoräkenskaper. Ingen av dessa källor är sökt.
   namnger Samuel och hans ämbete men ger **ingen** egen datum-, socken- eller
   föräldrahemsnyckel; C-0467 är struken som föräldrabelägg sedan T-0164,
   eftersom den citationen inte namnger någon av föräldrarna.
-- Återaktivering: **villkoret är uppfyllt 2026-09-09.** Den tidigare
+- Återaktivering: villkoret är uppfyllt 2026-09-09. Den tidigare
   formuleringen krävde `en ny personbunden vigsel-, hushålls-, flytt- eller
   dödsnyckel` och slog fast att `det ovanliga efternamnet räcker inte ensamt
-  för en kandidatkoppling` — vilket står fast. **Ämbetet är däremot en
-  personbunden nyckel av en helt annan styrka**, eftersom det pekar på en
+  för en kandidatkoppling` — vilket står fast. Ämbetet är däremot en
+  personbunden nyckel av en helt annan styrka, eftersom det pekar på en
   namngiven biografisk källserie. Välj ändå ingen kandidat på efternamnet
   ensamt.
 
@@ -199,8 +199,8 @@ Mortorp`, som står i det enda originalet. Inget A-id är borttaget;
 A-7620–A-7622 tillkommer ur den redan sparade fullbilden utan ny
 arkivåtkomst.
 
-**Huvudfyndet är att den avgörande uppgiften låg oanvänd i en dags gammal
-anteckning.** T-0164 skrev samma dag att ämbetet `Kyrkoherdens i Mortorp`
+Huvudfyndet är att den avgörande uppgiften låg oanvänd i en dags gammal
+anteckning. T-0164 skrev samma dag att ämbetet `Kyrkoherdens i Mortorp`
 stod i posten och saknades i avskriften, men uppgiften nådde inte hans egen
 akt — och därmed inte heller den slutsats som följer av den: att en
 kyrkoherde är socknens bäst dokumenterade person.

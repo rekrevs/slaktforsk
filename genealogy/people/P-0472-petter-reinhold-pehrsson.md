@@ -4,10 +4,10 @@
 
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0168.
-- Källbredd: `PÅGÅR` — **ändrad från `KLAR` 2026-09-09.** Den gamla bedömningen
+- Källbredd: `PÅGÅR` — ändrad från `KLAR` 2026-09-09. Den gamla bedömningen
   vilade på att Degerfors–Åskiljebryggan var personbunden. Bryggan är nu
-  nedgraderad: den flyttanteckning som bar den gäller **en annan person och en
-  annan socken**. Två kompletta födelseårsnoll består, men de söktes utan en
+  nedgraderad: den flyttanteckning som bar den gäller en annan person och en
+  annan socken. Två kompletta födelseårsnoll består, men de söktes utan en
   personbunden riktning.
 - Identitetsgranskning: `GODKÄND`
 - Trädverkan: `BÄRANDE`
@@ -28,8 +28,8 @@ A I/6b sida 399 med samma namn, samma år och samma by.
 [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md),
 [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md)
 
-**Hans födelsedag, födelseförsamling och föräldrar är okända, och den brygga
-som pekade mot Lycksele är nedgraderad 2026-09-09.** Se
+Hans födelsedag, födelseförsamling och föräldrar är okända, och den brygga
+som pekade mot Lycksele är nedgraderad 2026-09-09. Se
 [A-7330](#påståenden) och [A-2897](#påståenden): flyttanteckningen i A I/2
 gäller inte honom, och den nämner inte Lycksele.
 
@@ -40,26 +40,26 @@ gäller inte honom, och den nämner inte Lycksele.
 | Dr. Petter Reinhold Pehrsson | Egen rad längst ned på A I/2 sida 179, före 1825 | TRANSCRIBED | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Fullt utskrivet namn. Den enda posten där alla tre namnleden står utan förkortning. |
 | Drängen och Hemmansägl. Petter Reinhold Pehrsson | Vigselposten 1826 nr 1 | TRANSCRIBED | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Två ståndsbeteckningar samtidigt; `Hemmansägl.` är förkortat. |
 | B. Pet. Reinh. Pehn. | Egen rad i A I/3 sida 221, 1825–1834 | TRANSCRIBED | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Kraftigt förkortad husförhörsform. |
-| Rein[d]. Pehrsson | Lycksele A I/7 sida 126, Åskilje | LEAD | [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | **Kandidatform, inte belagd som hans.** Förnamnet är förkortat och `Petter` skrivs inte ut; födelseåret 1798 står ensamt utan dag och ort. Se A-2897. |
-| Petter Reinhold Pehrsson | Projektets visningsnamn | — | — | Normaliserad form. `Reinhold` är ett ovanligt förnamn i Västerbotten och personens starkaste kännetecken, men det står **förkortat** i Lyckselekandidaten och kan därför inte bära en sammanföring dit ensamt. |
+| Rein[d]. Pehrsson | Lycksele A I/7 sida 126, Åskilje | LEAD | [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | Kandidatform, inte belagd som hans. Förnamnet är förkortat och `Petter` skrivs inte ut; födelseåret 1798 står ensamt utan dag och ort. Se A-2897. |
+| Petter Reinhold Pehrsson | Projektets visningsnamn | — | — | Normaliserad form. `Reinhold` är ett ovanligt förnamn i Västerbotten och personens starkaste kännetecken, men det står förkortat i Lyckselekandidaten och kan därför inte bära en sammanföring dit ensamt. |
 
 ## Påståenden
 
 | ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |
 |---|---|---|---|---|---|
 | A-2829 | Bonden och hemmansägaren Petter Reinhold Pehrsson i Ånäset var far till Sara Sophia, född 1829-05-21; han gifte sig med Beata Jonsdotter 1826 och två senare hushållsvolymer listar dottern bland deras barn. | CORROBORATED | mycket hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Vigselpost och två uttryckliga familjehushåll. Födelseåret 1798 är en husförhörsuppgift; exakt dag och ort återstår. |
-| A-2855 | **Rättat 2026-09-09 (T-0168):** Degerfors A I/2 sida 179 visar drängen Petter Reinhold Pehrsson, född 1798, längst ned bland tjänstefolket i Ånäset. Hans rad är **tom i samtliga kolumner utom namn och födelseår**, och hans namn är **inte** överstruket. Den tidigare lydelsen — att raden bar anteckningen `flyttad til Lycksele med attest` — är felaktig; se A-7330. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Raden är avskild från Jan Larssons hushåll och skapar ingen föräldrarelation. **Äldre lydelse i Historik och rättelser.** Att raden är tom i `Gifto-år`, `Läser och förstår`, `Naturs-gåfvor och Flit`, `Seder`, samtliga årskolumner 1815–1824 och `Antekningar` talar för att han skrevs in sent i bokens tid; A I/2 har dessutom **inga** kolumner `Hvarifrån`/`Hvarthän`. |
-| A-7330 | Anteckningen `flyttad til Skelefte. med attest` på A I/2 sida 179 ligger i radbandet **ovanför** Petter Reinholds rad och gäller `Pig. Anna Christi[n]a [?]dotter`, född 1768[?]; ortnamnet är `Skelefte`, inte `Lycksele`. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09 vid 250 % förstoring. **Tre oberoende skäl:** ordet börjar med `Sk`-ligatur och har `ft`-ligatur i mitten — `Lycksele` skulle kräva `L`, `y` och `ck`; anteckningens baslinje ligger under den linjerade raden som avslutar Petter Reinholds närmast överliggande grannrad och inom pigans band, medan hans egen rad ligger ett band längre ned och är tom hela vägen ut; och **hans namn är inte överstruket** medan drängraden två steg upp är det. Vilken av de två övre tjänsteraderna anteckningen tillhör lämnas öppet — men den tillhör inte hans. |
+| A-2855 | **Rättat 2026-09-09 (T-0168):** Degerfors A I/2 sida 179 visar drängen Petter Reinhold Pehrsson, född 1798, längst ned bland tjänstefolket i Ånäset. Hans rad är tom i samtliga kolumner utom namn och födelseår, och hans namn är inte överstruket. Den tidigare lydelsen — att raden bar anteckningen `flyttad til Lycksele med attest` — är felaktig; se A-7330. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Raden är avskild från Jan Larssons hushåll och skapar ingen föräldrarelation. Äldre lydelse i Historik och rättelser. Att raden är tom i `Gifto-år`, `Läser och förstår`, `Naturs-gåfvor och Flit`, `Seder`, samtliga årskolumner 1815–1824 och `Antekningar` talar för att han skrevs in sent i bokens tid; A I/2 har dessutom inga kolumner `Hvarifrån`/`Hvarthän`. |
+| A-7330 | Anteckningen `flyttad til Skelefte. med attest` på A I/2 sida 179 ligger i radbandet ovanför Petter Reinholds rad och gäller `Pig. Anna Christi[n]a [?]dotter`, född 1768[?]; ortnamnet är `Skelefte`, inte `Lycksele`. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09 vid 250 % förstoring. Tre oberoende skäl: ordet börjar med `Sk`-ligatur och har `ft`-ligatur i mitten — `Lycksele` skulle kräva `L`, `y` och `ck`; anteckningens baslinje ligger under den linjerade raden som avslutar Petter Reinholds närmast överliggande grannrad och inom pigans band, medan hans egen rad ligger ett band längre ned och är tom hela vägen ut; och hans namn är inte överstruket medan drängraden två steg upp är det. Vilken av de två övre tjänsteraderna anteckningen tillhör lämnas öppet — men den tillhör inte hans. |
 | A-2856 | A I/3 sida 221 och A I/4 sida 262 följer Petter Reinhold, Beata och barnen i Ånäset efter vigseln 1826. | CORROBORATED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Namn, år, ort, vigselår och familjeprofil binder drängen i A I/2 till den senare bonden. |
-| A-7331 | På hans egen rad i A I/3 sida 221 är kolumnerna `Koppor`, `Gifto-År`, `Läser och förstår`, **`Hvarifrån`** och `Hvarthän` lästa och tomma, medan hustrun Beatas rad omedelbart under har `1826` i `Gifto-År`. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09; kolumnerna var olästa. **`Hvarifrån` är den kolumn som skulle ha gett hans ursprung, och den är läst och tom.** Vigselåret är bokfört bara på hustruns rad, vilket är samma mönster som i P-0330:s akt: hushållets uppgifter förs på en av makarnas rader och inte på båda. |
+| A-7331 | På hans egen rad i A I/3 sida 221 är kolumnerna `Koppor`, `Gifto-År`, `Läser och förstår`, `Hvarifrån` och `Hvarthän` lästa och tomma, medan hustrun Beatas rad omedelbart under har `1826` i `Gifto-År`. | TRANSCRIBED | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Utvunnet 2026-09-09; kolumnerna var olästa. `Hvarifrån` är den kolumn som skulle ha gett hans ursprung, och den är läst och tom. Vigselåret är bokfört bara på hustruns rad, vilket är samma mönster som i P-0330:s akt: hushållets uppgifter förs på en av makarnas rader och inte på båda. |
 | A-2857 | Degerfors C/1:s kompletta födelseföljd 1798 saknar Petter/Peter Reinhold; två rikstäckande namnfrågor 1797–1799 gav också noll men har partiell registertäckning. | NEGATIVE | hög | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Originalnoll är endast volym-, år- och namnbundet. Det bevisar inte annan ort eller dag. |
-| A-2860 | Degerfors B/1:s bevarade in- och utflyttningssidor 1822–1826 gav ingen säker reciprok Petter Reinhold-rad. | TRANSCRIBED | medel | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | A I/2:s Lyckseleanteckning kan vara äldre än B/1:s start; detta är en begränsad återstartsuppgift, inte ett person- eller vistelsenoll. **Omvärderat 2026-09-09:** den anteckning som motiverade förbehållet finns inte på hans rad (A-7330). Nollet blir därmed **viktigare**, inte mindre viktigt: hans inflyttning till Ånäset ligger sannolikt inom eller strax före B/1:s bevarade sidor, och det är där en attest borde stå. |
-| A-2863 | Lycksele A I/6 1810–1817, A I/7 1817–1828 och C/2 1778–1813 är exakt katalogidentifierade, men API-metadata exponerar ingen användbar bildadress eller reproduktionskod. | LEAD | mycket hög | [C-0734](../citations/C-0734-lycksele-route-och-degerfors-dodsboksgap.md) | Exakt återstartsroute för flyttanteckningen; inget Lycksele-personinnehåll är läst och inget negativt fynd görs. **Motivet är borta 2026-09-09:** routen beskrevs som vägen till `flyttanteckningen`, och den anteckningen gäller inte honom. Katalogfakta består. |
+| A-2860 | Degerfors B/1:s bevarade in- och utflyttningssidor 1822–1826 gav ingen säker reciprok Petter Reinhold-rad. | TRANSCRIBED | medel | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | A I/2:s Lyckseleanteckning kan vara äldre än B/1:s start; detta är en begränsad återstartsuppgift, inte ett person- eller vistelsenoll. Omvärderat 2026-09-09: den anteckning som motiverade förbehållet finns inte på hans rad (A-7330). Nollet blir därmed viktigare, inte mindre viktigt: hans inflyttning till Ånäset ligger sannolikt inom eller strax före B/1:s bevarade sidor, och det är där en attest borde stå. |
+| A-2863 | Lycksele A I/6 1810–1817, A I/7 1817–1828 och C/2 1778–1813 är exakt katalogidentifierade, men API-metadata exponerar ingen användbar bildadress eller reproduktionskod. | LEAD | mycket hög | [C-0734](../citations/C-0734-lycksele-route-och-degerfors-dodsboksgap.md) | Exakt återstartsroute för flyttanteckningen; inget Lycksele-personinnehåll är läst och inget negativt fynd görs. Motivet är borta 2026-09-09: routen beskrevs som vägen till `flyttanteckningen`, och den anteckningen gäller inte honom. Katalogfakta består. |
 | A-2896 | Riksarkivets publika arkivträd löser Lycksele A I/6, A I/7 och C/2 till reproduktionerna `C0034136`, `C0034137` och `C0034150`; IIIF-manifesten är läsbara utan katalogens CAPTCHA. | TRANSCRIBED | mycket hög | [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | Senare routeupplösning av A-2863:s historiska API-gap. A I/6 är inte personscreenad. Ingen CAPTCHA-kontroll eller sessionsdata berördes. |
-| A-2897 | Lycksele A I/7 sida 126 i Åskilje har en separat rad som läses `Rein[d]. Pehrsson`, född 1798. | LEAD | medel | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md), [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | **Nedgraderad 2026-09-09 (T-0168) från `CORROBORATED`/`hög`.** Den tidigare lydelsen identifierade raden med honom `med hög tillförlitlighet` på tre grunder: Degerfors A I/2:s fulla namn, samma födelseår och `uttryckliga Lyckseleflytt`. **Den tredje grunden finns inte** (A-7330), och då återstår enbart ett förkortat förnamn, ett patronymikon och ett födelseår — alltså namn- och årslikhet, vilket enligt personkontraktets PK-01 inte räcker. Raden skriver inte ut `Petter`, anger inga föräldrar, ingen födelseort och ingen exakt dag. Omgivande hushåll får ingen infererad relation. Äldre lydelse i Historik och rättelser. |
-| A-7332 | Lycksele A I/7 sida 126 är i sin helhet överkorsad och bär flera flyttanteckningar mot **Skellefteå**, bland annat `att[est] till Skellefte[å] 1825 ²⁵/₁₀[?]` på raden under kandidatraden och en längre notis om `Skellefte[å] Sokn ... den 18 Februari 1827`. | TRANSCRIBED | medel | [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | Utvunnet 2026-09-09. Uppgiften **förenar inte** kandidatraden med Degerfors: den visar att Åskiljefolk flyttade till Skellefteå, inte till Degerfors. Att också Degerforsanteckningen i A-7330 nämner Skellefteå är en **sammanträffande ortsuppgift på två skilda personer** och får inte läsas som en kedja. Läsningarna av dagbråk och årtal bär reservation. |
-| A-2898 | Lycksele C/2:s kompletta födelse- och dopföljd 1798 på bilderna 111–112 saknar en förenlig Petter/Peter/Petrio Reinhold Pehrsson; Petrio född 1798-07-06 till Olof Ersson och Elisabeth Abrahamsdotter avvisas. | NEGATIVE | hög | [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | Strikt volym-, församlings-, årgångs- och namnformsbundet noll. Det bevisar inte annan födelseort, exakt år eller föräldrar. **Sammanhanget ändrat 2026-09-09:** årgången söktes därför att A I/2 antogs peka mot Lycksele. Nollet består exakt som det står, men det prövade en församling som inte är personbunden till honom. |
-| A-7333 | Vigselposten 1826 nr 1 i Degerfors C/2 står i ett formulär vars **enda** tryckta kolumner är nummer, två smala datumkolumner, `Contrahenters Namn`, `Ålder` och `Hemvist`. Hans ålder anges `28` och hemvisten `Ånäset`; hustruns `17` och `D:o`. | TRANSCRIBED | hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Utvunnet 2026-09-09 genom läsning av den tryckta rubrikraden i samma utsnitt som posten. **Formuläret har ingen kolumn för födelseort, föräldrar eller förlovningsmän**, och posten kan därför inte besvara hans ursprungsfråga — hur noga den än läses. Åldern `28` i mars 1826 ger födelsetid mellan mars 1797 och mars 1798 och är förenlig med husförhörsårets 1798. De två datumkolumnerna läses `⁸/₁` och `¹²/₃` med reservation, som i T-0133. |
+| A-2897 | Lycksele A I/7 sida 126 i Åskilje har en separat rad som läses `Rein[d]. Pehrsson`, född 1798. | LEAD | medel | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md), [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | Nedgraderad 2026-09-09 (T-0168) från `CORROBORATED`/`hög`. Den tidigare lydelsen identifierade raden med honom `med hög tillförlitlighet` på tre grunder: Degerfors A I/2:s fulla namn, samma födelseår och `uttryckliga Lyckseleflytt`. Den tredje grunden finns inte (A-7330), och då återstår enbart ett förkortat förnamn, ett patronymikon och ett födelseår — alltså namn- och årslikhet, vilket enligt personkontraktets PK-01 inte räcker. Raden skriver inte ut `Petter`, anger inga föräldrar, ingen födelseort och ingen exakt dag. Omgivande hushåll får ingen infererad relation. Äldre lydelse i Historik och rättelser. |
+| A-7332 | Lycksele A I/7 sida 126 är i sin helhet överkorsad och bär flera flyttanteckningar mot Skellefteå, bland annat `att[est] till Skellefte[å] 1825 ²⁵/₁₀[?]` på raden under kandidatraden och en längre notis om `Skellefte[å] Sokn ... den 18 Februari 1827`. | TRANSCRIBED | medel | [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | Utvunnet 2026-09-09. Uppgiften förenar inte kandidatraden med Degerfors: den visar att Åskiljefolk flyttade till Skellefteå, inte till Degerfors. Att också Degerforsanteckningen i A-7330 nämner Skellefteå är en sammanträffande ortsuppgift på två skilda personer och får inte läsas som en kedja. Läsningarna av dagbråk och årtal bär reservation. |
+| A-2898 | Lycksele C/2:s kompletta födelse- och dopföljd 1798 på bilderna 111–112 saknar en förenlig Petter/Peter/Petrio Reinhold Pehrsson; Petrio född 1798-07-06 till Olof Ersson och Elisabeth Abrahamsdotter avvisas. | NEGATIVE | hög | [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md) | Strikt volym-, församlings-, årgångs- och namnformsbundet noll. Det bevisar inte annan födelseort, exakt år eller föräldrar. Sammanhanget ändrat 2026-09-09: årgången söktes därför att A I/2 antogs peka mot Lycksele. Nollet består exakt som det står, men det prövade en församling som inte är personbunden till honom. |
+| A-7333 | Vigselposten 1826 nr 1 i Degerfors C/2 står i ett formulär vars enda tryckta kolumner är nummer, två smala datumkolumner, `Contrahenters Namn`, `Ålder` och `Hemvist`. Hans ålder anges `28` och hemvisten `Ånäset`; hustruns `17` och `D:o`. | TRANSCRIBED | hög | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Utvunnet 2026-09-09 genom läsning av den tryckta rubrikraden i samma utsnitt som posten. Formuläret har ingen kolumn för födelseort, föräldrar eller förlovningsmän, och posten kan därför inte besvara hans ursprungsfråga — hur noga den än läses. Åldern `28` i mars 1826 ger födelsetid mellan mars 1797 och mars 1798 och är förenlig med husförhörsårets 1798. De två datumkolumnerna läses `⁸/₁` och `¹²/₃` med reservation, som i T-0133. |
 
 ## Relationer
 
@@ -112,7 +112,7 @@ Degerfors B/1:s bevarade flyttningssidor 1822–1826 gav ingen reciprok rad
 | Före 1825 | `Dr.` — dräng | Ånäset, Degerfors | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Tjänstefolksställning; raden ligger bland gårdens tjänstefolk. |
 | 1826 | `Drängen och Hemmansägl.` — båda samtidigt | Degerfors | [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | **Anmärkningsvärt:** han är dräng och hemmansägare i samma post. Det antyder att han förvärvade hemman ungefär vid giftermålet, men källan säger inte hur — arv, köp eller giftorätt — och slutsatsen dras inte. |
 | 1825–1857 | `B.` respektive bonde och hemmansägare i fyra längder | Ånäset, Degerfors | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md), [C-0727](../citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md) | Kontinuerlig ståndsuppgift. Hemmansdel och besittningsform är inte lästa. |
-| 1825–1834 | `Läser och förstår` läst och tom på hans rad | Degerfors församling | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Hustruns rad har ett klammermärke. **Skillnaden ges ingen tolkning.** |
+| 1825–1834 | `Läser och förstår` läst och tom på hans rad | Degerfors församling | [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md) | Hustruns rad har ett klammermärke. Skillnaden ges ingen tolkning. |
 
 Hur en dräng blir hemmansägare vid 28 års ålder är den öppna ekonomiska
 frågan. Mantals-, jorde- och taxeringslängder för Ånäset är inte sökta, och en
@@ -163,8 +163,8 @@ annat: hans rad är tom i varje övrig kolumn, och hans namn är inte
 
 Just den raden har burit projektets hela forskningsriktning om honom — och
 felaktigt. Akten har sagt att raden har anteckningen `flyttad til Lycksele med
-attest`. **Anteckningen finns, men den står i radbandet ovanför hans, och den
-säger `Skelefte`.** Ordet börjar med en `Sk`-ligatur och har en `ft`-ligatur i
+attest`. Anteckningen finns, men den står i radbandet ovanför hans, och den
+säger `Skelefte`. Ordet börjar med en `Sk`-ligatur och har en `ft`-ligatur i
 mitten; `Lycksele` skulle kräva helt andra bokstäver. Den gäller pigan Anna
 Christina, född 1768, eller drängen på raden över henne — men inte honom.
 [A-7330](#påståenden)
@@ -179,9 +179,9 @@ personbunden till honom. [A-2897](#påståenden), [A-2898](#påståenden)
 
 Om hans eget liv är däremot mycket säkert. I mars 1826 vigdes han med den
 17-åriga bondedottern Beata Jonsdotter; han var då 28 år och kallas i posten
-**både dräng och hemmansägare**, vilket antyder att han förvärvade hemman just
+både dräng och hemmansägare, vilket antyder att han förvärvade hemman just
 kring giftermålet. Vigselformulärets tryckta kolumner är nummer, två
-datumkolumner, namn, ålder och hemvist — **och ingenting mer.** Posten kan
+datumkolumner, namn, ålder och hemvist — och ingenting mer. Posten kan
 alltså aldrig svara på var han föddes, hur noga den än läses.
 [A-7333](#påståenden)
 
@@ -193,23 +193,23 @@ han kom — är läst och tom.
 
 ## Forskningsfrågor och konflikter
 
-- **Var föddes han, och vilka var hans föräldrar?** Den tidigare riktningen
+- Var föddes han, och vilka var hans föräldrar? Den tidigare riktningen
   mot Lycksele är nedgraderad. Se
   [profilens Q-01](../research-profiles/P-0472.md#forskningsfrågor).
-- **Degerfors B/1 är nu den viktigaste vägen**, inte Lycksele: hans
+- Degerfors B/1 är nu den viktigaste vägen, inte Lycksele: hans
   inflyttning till Ånäset ligger sannolikt inom eller strax före de bevarade
   flyttningssidorna 1822–1826, och A-2860:s noll behöver en omläsning med
   bredare namnformer. KP-01.
-- **Hur blev en dräng hemmansägare vid 28 år?** Lagfart, köpebrev eller
+- Hur blev en dräng hemmansägare vid 28 år? Lagfart, köpebrev eller
   bouppteckning efter en föregående ägare är den direkta vägen, och svaret kan
   ge hans härkomst. KP-02.
-- **Hans död efter 1857 är okänd**, och Degerfors längder och dödböcker efter
+- Hans död efter 1857 är okänd, och Degerfors längder och dödböcker efter
   A I/6b är inte identifierade. KP-03.
-- **Kandidatraden i Åskilje är inte avvisad, bara nedgraderad.** Om en ny
+- Kandidatraden i Åskilje är inte avvisad, bara nedgraderad. Om en ny
   personbunden uppgift förenar honom med Lycksele återuppstår frågan; se
   profilens Q-02.
-- **Att både Degerforsanteckningen och Åskiljesidan nämner Skellefteå är ett
-  sammanträffande på skilda personer** och får inte läsas som en kedja.
+- Att både Degerforsanteckningen och Åskiljesidan nämner Skellefteå är ett
+  sammanträffande på skilda personer och får inte läsas som en kedja.
 - Läsreservationer som inte gjorts till uppgifter: vigselns `⁸/₁` och `¹²/₃`,
   pigans födelseår `1768[?]`, kandidatradens `Rein[d]`, och Åskiljesidans
   dagbråk.
@@ -217,7 +217,7 @@ han kom — är läst och tom.
 ## Slutstatus
 
 - Status: `IDENTITET OLÖST`
-- Förväntad källa: **Degerfors B/1:s inflyttningssidor omkring 1820–1826**, som
+- Förväntad källa: Degerfors B/1:s inflyttningssidor omkring 1820–1826, som
   är den närmaste vägen till hans ursprungsförsamling; därefter en
   lagfarts-, köpe- eller bouppteckningshandling för hemmanet i Ånäset kring
   1826.
@@ -225,13 +225,13 @@ han kom — är läst och tom.
   kolumn för kolumn; vigselposten 1826 med hela dess tryckta formulär;
   Degerfors C/1:s hela födelseår 1798; Degerfors B/1:s bevarade
   flyttningssidor 1822–1826; Lycksele A I/7 sida 126 i Åskilje och Lycksele
-  C/2:s hela födelseår 1798. **De två sista söktes på en premiss som är
-  felaktig** (A-7330) och är inte personbundna till honom.
+  C/2:s hela födelseår 1798. De två sista söktes på en premiss som är
+  felaktig (A-7330) och är inte personbundna till honom.
 - Negativ kontroll: [C-0733](../citations/C-0733-degerfors-anaset-petter-beata-ursprung.md),
   [C-0744](../citations/C-0744-lycksele-askilje-petter-reinhold-C2-1798.md)
 - Återaktivering: en ny **personbunden** datum-, orts-, hushålls- eller
   flyttnyckel. `Hvarifrån`-kolumnen i A I/3 är läst och tom, så nyckeln måste
-  komma utifrån. Lycksele A I/6 personscreenas **inte** — den motiverades av
+  komma utifrån. Lycksele A I/6 personscreenas inte — den motiverades av
   den felaktiga anteckningen och saknar nu varje personbunden grund. Upprepa
   inte de två kompletta födelseåren på namn och år ensamma.
 
@@ -248,8 +248,8 @@ att hans rad i A I/2 sida 179 bar `flyttad til Lycksele med attest`. Ordet är
 tom i varje kolumn utom namn och födelseår, och hans namn är inte överstruket.
 Tre oberoende skäl bär läsningen; de står i A-7330.
 
-Följden är att **A-2897 nedgraderas från `CORROBORATED`/`hög` till
-`LEAD`/`medel`** och att A-2860, A-2863, A-2896 och A-2898 får ny
+Följden är att A-2897 nedgraderas från `CORROBORATED`/`hög` till
+`LEAD`/`medel` och att A-2860, A-2863, A-2896 och A-2898 får ny
 sammanhangskommentar. Ingen av dem stryks. Äldre lydelser, ersatta
 2026-09-09:
 

@@ -48,10 +48,10 @@ på källålderns grund.
 |---|---|---|---|---|---|
 | A-1396 | Magdalena föddes och döptes 1798-09-23; födelseposten anger platsen `N:o 63`. | CORROBORATED | hög | [C-0199](../citations/C-0199-nysatra-C4-magdalena-eriksdotter-fodd-1798.md), [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md) | Exakt datum, namn, patronymikon och det senare hushållet bildar identitetskedjan. Födelse- och dopdag är samma dag i notisens två datumkolumner. `N:o 63` är inte lokaliserat. |
 | A-1398 | Hon var gift med Anders Nilsson i Risvattnet nr 3 och mor till Nils, Anders och Brita Maria. | CORROBORATED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md), [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Den äldre längden har uttrycklig barnrubrik; den yngre bekräftar hushållet. |
-| A-3888 | Nysätra `C/4` anger henne 19 juli 1835 som `Magdal. Erici dotter`, **27 år**, hustru till bonden Anders Nilsson i Risvattnet. | CORROBORATED | mycket hög | [C-1045](../citations/C-1045-nysatra-C4-andreas-fodd-1835-07-19-risvattnet.md) | **Källålder i befintlig avskrift, inte fastställd faktisk ålder.** Den äldre härledningen omkring 1807–1808 står mot A-1396/C-0197:s 1798-09-23 (36 år vid dopet). A-4136 bevarar konflikten; ingen omdatering är gjord. Namnformen är latiniserad (`Erici` för `Eriks-`). **Vägning tillagd 2026-09-09:** hennes födelsetid står nu i tre original som gäller henne själv, varav två oberoende av varandra i tid; åldersfältet står i ett. |
-| A-7220 | Hennes egen rad i Nysätra A I/8a sida 79 har `1822.` i den tryckta kolumnen `Gifto-År.`; samma årtal står på makens rad, och A I/9a sida 85 upprepar det på hans rad. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md), [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09 ur redan sparade helbilder; kolumnen var oläst. **Endast årtal — ingen dag eller månad.** Det gör Nysätras vigselbok 1822 till en avgränsad och oprövad källväg. Ett bokfört gifto-år är inte i sig en läst vigselpost. |
-| A-7221 | Kolumnen `Hvarthän.` på hennes egen rad i Nysätra A I/9a sida 85 har `död ²³/₄ 1862`. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09; kolumnen var oläst och akten saknade dödsuppgift helt. Ordet `död` står ovanför dagbråket. Årtalet ligger efter volymens nominella slutår 1861 och är alltså en senare påskrift — en andrahandsnotering i förhållande till dödboken, som **inte** är läst. Ingen dödsorsak och ingen begravningsdag är känd. |
-| A-7222 | A I/9a sida 85 återger hennes födelsetid `23/9 1798` på hennes egen rad, i en andra husförhörslängd. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. En efterföljande längd kan skriva av den föregående; posterna är därför **kompletterande, inte oberoende**. Uppgiften väger ändå mot åldersfältet i A-3888. |
+| A-3888 | Nysätra `C/4` anger henne 19 juli 1835 som `Magdal. Erici dotter`, 27 år, hustru till bonden Anders Nilsson i Risvattnet. | CORROBORATED | mycket hög | [C-1045](../citations/C-1045-nysatra-C4-andreas-fodd-1835-07-19-risvattnet.md) | Källålder i befintlig avskrift, inte fastställd faktisk ålder. Den äldre härledningen omkring 1807–1808 står mot A-1396/C-0197:s 1798-09-23 (36 år vid dopet). A-4136 bevarar konflikten; ingen omdatering är gjord. Namnformen är latiniserad (`Erici` för `Eriks-`). Vägning tillagd 2026-09-09: hennes födelsetid står nu i tre original som gäller henne själv, varav två oberoende av varandra i tid; åldersfältet står i ett. |
+| A-7220 | Hennes egen rad i Nysätra A I/8a sida 79 har `1822.` i den tryckta kolumnen `Gifto-År.`; samma årtal står på makens rad, och A I/9a sida 85 upprepar det på hans rad. | TRANSCRIBED | hög | [C-0197](../citations/C-0197-nysatra-AI8a-risvattnet-foraldrahushall.md), [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09 ur redan sparade helbilder; kolumnen var oläst. Endast årtal — ingen dag eller månad. Det gör Nysätras vigselbok 1822 till en avgränsad och oprövad källväg. Ett bokfört gifto-år är inte i sig en läst vigselpost. |
+| A-7221 | Kolumnen `Hvarthän.` på hennes egen rad i Nysätra A I/9a sida 85 har `död ²³/₄ 1862`. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09; kolumnen var oläst och akten saknade dödsuppgift helt. Ordet `död` står ovanför dagbråket. Årtalet ligger efter volymens nominella slutår 1861 och är alltså en senare påskrift — en andrahandsnotering i förhållande till dödboken, som inte är läst. Ingen dödsorsak och ingen begravningsdag är känd. |
+| A-7222 | A I/9a sida 85 återger hennes födelsetid `23/9 1798` på hennes egen rad, i en andra husförhörslängd. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. En efterföljande längd kan skriva av den föregående; posterna är därför kompletterande, inte oberoende. Uppgiften väger ändå mot åldersfältet i A-3888. |
 | A-7223 | Under A I/9a:s tid 1852–1861 utvidgas hushållet med sonen Nils som gift son, hans hustru Johanna Carlsdotter och barnen Anders 1857-04-17 och Magdal. Johanna 1858-12-31, medan sonen Anders flyttar till Bygdeå 1860-06-08 och Nils och hustrun senare stryks ur längden. | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09. Hennes två belagda barnbarn föds alltså i hennes eget hushåll. Barnen är namngivna relationer utan egna person-id; ingen ny person skapas i denna passage. |
 
 ## Relationer
@@ -201,21 +201,21 @@ dödbok för 1862 är inte öppnad, så dödsorsak och begravning är okända.
 
 ## Forskningsfrågor och konflikter
 
-- **Åldersuppgiften 27 år i sonens dopnotis 1835** står mot födelsetiden
+- Åldersuppgiften 27 år i sonens dopnotis 1835 står mot födelsetiden
   1798-09-23 i tre original. Konflikten är bevarad och ägs av
   [T-0205](../../wotan/dev-log/T-0205.md), som utvinner dopposten exakt.
   Se [profilens Q-01](../research-profiles/P-0231.md#forskningsfrågor).
-- **Vigseln 1822 har ett år men ingen dag.** Nysätras vigselbok 1822 är en
+- Vigseln 1822 har ett år men ingen dag. Nysätras vigselbok 1822 är en
   avgränsad, oprövad källväg; se
   [profilens KP-01](../research-profiles/P-0231.md#källvägar).
-- **Dödsdagen 1862-04-23 vilar på en husförhörsanteckning, inte på dödboken.**
+- Dödsdagen 1862-04-23 vilar på en husförhörsanteckning, inte på dödboken.
   Nysätras dödbok 1862 skulle ge dödsorsak, ålder och begravningsdag, och är
   den enda vägen att pröva både dödsdatumet och åldersfrågan mot en oberoende
   post. Se [profilens KP-02](../research-profiles/P-0231.md#källvägar).
-- **Dopvittnena i hennes egen födelsenotis 1798 är outvunna.** C-0199 lämnar
+- Dopvittnena i hennes egen födelsenotis 1798 är outvunna. C-0199 lämnar
   dem uttryckligen till en senare omläsning. De är den närmaste källan till
   föräldrarnas sociala nätverk och därmed till P-0234 och P-0235.
-- **`N:o 63` är inte lokaliserat.** Numret kan vara ett hushålls- eller
+- `N:o 63` är inte lokaliserat. Numret kan vara ett hushålls- eller
   sidnummer och inte ett hemmansnummer; det får inte bära någon gårdsidentitet.
 - Åren 1798–1842 är en materiell lucka. Föräldrahemmet och de tjugo första
   äktenskapsåren saknar varje hållpunkt, eftersom de äldre längderna före
@@ -283,32 +283,32 @@ historisk text; den aktuella vägningen står i A-3888 och i profilens Q-01.
 
 ### Inkommande följdfynd från T-0171, 2026-09-09
 
-Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
-ändrat**, och inget A-id är rört; T-0167 äger akten.
+Avgränsad rapport från föräldrarnas kohortuppgift. Ingenting i akten ovan är
+ändrat, och inget A-id är rört; T-0167 äger akten.
 
-- **Din fars namn och stånd är omlästa.** Din egen dopnotis skriver
+- Din fars namn och stånd är omlästa. Din egen dopnotis skriver
   `Chd: Soldaten[?] Eric Sik`, inte `Christ. Bonden Eric Erik[ss.]`. Vid
   450 % förstoring är efternamnet `S-i-k` — ett **soldatnamn** — och
   ståndsordet är märkbart längre än `Bond:` på grannraden i samma hand.
-  Följden är att **hans patronymikon är okänt**: ditt eget `Eriksdotter`
+  Följden är att hans patronymikon är okänt: ditt eget `Eriksdotter`
   bekräftar bara hans förnamn Eric.
-- **`N:o 63` är sannolikt ett rotenummer.** Din akt slår fast att numret
+- `N:o 63` är sannolikt ett rotenummer. Din akt slår fast att numret
   `inte får behandlas som en gård eller rote utan stöd`. Stödet finns nu:
   uppslagets övriga poster bär **bynamn** i samma kolumn — `Öttersmark[?]`,
   `Risvatnet`, `Flarken`, `Klingsjön`, `Gumboda`, `Trehörningen` — medan just
   din fars post bär ett nummer, och en indelt soldat skrevs normalt med sin
-  rote. Tolkningen är **sannolik, inte fastställd**, och ska bekräftas av en
+  rote. Tolkningen är sannolik, inte fastställd, och ska bekräftas av en
   roteförteckning eller mönsterrulla.
-- **En ny källklass öppnas för dina föräldrar:**
+- En ny källklass öppnas för dina föräldrar:
   generalmönsterrullor för Västerbottens regemente, som namnger soldaten,
-  hans rote, hans **ålder**, ofta hans **födelseort** och hans avgång — och
+  hans rote, hans **ålder**, ofta hans födelseort och hans avgång — och
   ofta även hustrun.
-- **Dina dopvittnen är avskrivna för första gången:** `Bond: Lars Jöransson`
+- Dina dopvittnen är avskrivna för första gången: `Bond: Lars Jöransson`
   med hustrun `Christina Pehrs dot i Trehörningen`, `Dräng: Jöran Andersson`
-  på samma ort och `Pig[?]: Anna Martens dot i Öttersmark[?]`. **Inget bär
-  din mors patronymikon `Thomsdotter`**, och för fadern kan ingen jämförelse
+  på samma ort och `Pig[?]: Anna Martens dot i Öttersmark[?]`. Inget bär
+  din mors patronymikon `Thomsdotter`, och för fadern kan ingen jämförelse
   göras eftersom hans patronymikon är okänt.
-- **Din åldersuppgift `27 år` från 1835 (A-3888) berörs inte** av detta
+- Din åldersuppgift `27 år` från 1835 (A-3888) berörs inte av detta
   tillägg, och konflikten A-4136 är oförändrad.
 
 Ingen ny arkivåtkomst har skett; allt vilar på den redan sparade fullsidan.

@@ -139,7 +139,7 @@ Den egna födelsen och föräldrarelationen är sakligt prövade. Äldre VERIFIE
 2026-09-08: föräldrarnas egna senare rader har omlästs. Modern Anna
 anges där född **1796-06-26**, inte tidigare 6 juni, medan hennes egen
 födelsepost anger 4 januari/dop 6 januari 1796. Fadern Erik anges i
-samma rader **1784-12-25 Gryth/Grytt**, inte tidigare 1781-02-23.
+samma rader 1784-12-25 Gryth/Grytt, inte tidigare 1781-02-23.
 Detta rättar avskrifterna, inte Britas föräldrarelation. Föräldrarnas
 egna kyrkliga noteringar når 1855; Britas familjs flytt 1851 är inte
 deras. Se [C-0165](../citations/C-0165-ardala-AI9-carlberg-sida-200.md)
