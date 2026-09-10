@@ -99,3 +99,54 @@ för att förhindra att sammanslagningen läses som källans egen ordning.
 
 **Ett dagbråk bör märkas som osäkert:** `88 31/10` för Per August läses
 `3[1?]/10`.
+
+## Tillägg 2026-09-10 — T-0197: överstrykningsmönstret faller på detta uppslag
+
+Ingen ny arkivåtkomst och ingen ny läsning. Tillägget **läser tabellen ovan
+mot sig själv**; avskriften är append-only och står oförändrad.
+
+**Programmet hade i tre kohorter byggt en läshjälp.** T-0191 fann i **Årdala**
+att tre av sex Carlbergsbarn hade överstrukna celler — **exakt de tre som
+lämnade sidan.** T-0194 fann i **Helgesta** att två av nio namn var
+överstrukna — **exakt de två som hade en utflyttningscell.**
+
+**Detta uppslag motsäger regeln, och motsägelsen går åt båda hållen.**
+
+| Rad | Namn | Överstruken | Anteckning i döds-/utflyttningskolumnen |
+|---|---|---|---|
+| 3 | Per August | **nej** | `738 88 31/10` — **en överföring** |
+| 4 | Anders Vilhelm | **ja** | `92 20/4` — **otolkad** |
+| 5 | Ester Amalia | **nej** | `714 86 11/4` — **en överföring** |
+| 6 | Anna Margreta | **ja** | `Lysning 23/7 93`; `759 93 12/8` |
+| 8 | Emanuel | **ja** | `N. Amerika 92 20/8` |
+| 9 | Jonas Eugen | **ja** | **ingen alls** |
+| 11 | Nanny Olivia | **ja** | `91 11/1` — **ett dödsdatum** |
+
+**Två rader har en avgångsanteckning utan att vara överstrukna.**
+**En rad är överstruken utan någon anteckning alls.**
+**En överstruken rad bär ett dödsdatum i stället för en destination.**
+
+**Överstrykning varken innebär eller förutsätter alltså en avgångsanteckning
+här.** **Heuristiken är falsifierad som allmän regel.**
+
+**Den avförs inte som läshjälp** — den höll i två socknar och kan hålla i
+fler — **men den måste fastställas per volym och hand, inte överföras.**
+**Det är samma lärdom som T-0195 drog om åldersräkning**, nu i en andra
+kolumntyp.
+
+**Följden är förd i tre akter:**
+[P-0432](../people/P-0432-jonas-eugen-zingmark.md) som A-7942 — **hans rad är
+motexemplet i renaste form** — [P-0434](../people/P-0434-nanny-olivia-zingmark.md)
+som A-7944 och [P-0435](../people/P-0435-carl-reinhold-zingmark.md) som
+A-7945. **Den är också anmäld i [P-0409](../people/P-0409-katarina-petronella-larsdotter.md)
+och [P-0407](../people/P-0407-nils-petter-larsson.md)**, vars rader i en annan
+volym är överstrukna **utan att heuristiken får tillämpas.**
+
+**Två andra uppgifter ur samma tabell är nu tagna i bruk.**
+**Faderns barnaskara spänner över trettiofyra år** — det äldsta belagda barnet
+1853, det yngsta 1887; **fadern var 28 respektive 62 år**, och **den andra
+hustrun 45 vid det sista barnet.** **Iakttagelsen är kronologisk och ges ingen
+innebörd.** Och **`Mannens i förra giftet` mot `Begges barn` är källans egen
+åtskillnad mellan de två kullarna**, inte projektets tolkning.
+
+`Stödda påståenden` utökas med A-7942, A-7944 och A-7945.

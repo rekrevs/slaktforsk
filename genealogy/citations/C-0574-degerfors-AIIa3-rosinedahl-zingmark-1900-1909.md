@@ -199,3 +199,45 @@ med C-0890 rad 10.
 
 Berörda påståenden: A-2502 och A-7727 (P-0036), A-2503, A-3415 och A-7729
 (P-0037), A-3416 (P-0038).
+
+## Tillägg 2026-09-10 — T-0197: två celler på samma rad, lästa mot varandra
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och T-0161:s tillägg är
+append-only och står oförändrade.
+
+**A-6403 för både `Frikallad` och `N. Amerikas F. St.` med `2/9 04` — men de
+har inte lästs mot varandra.** Båda står på **rad 24 på folio 963.**
+
+**Han var befriad från värnplikt och utvandrade fyra år senare, tjugosex år
+gammal.**
+
+**Sambandet är inte belagt.** **Frikallelsens skäl står inte i posten** —
+frikallelse skedde av medicinska eller andra skäl — **och emigration hade egna
+orsaker.** **Att han fyra år senare företog en atlantresa talar snarast emot
+en svår sjukdom**, men **det är en iakttagelse och inget belägg.**
+**Ingen hälsouppgift får härledas ur frikallelsen.**
+
+**Han var inte ensam om att lämna landet.** Brodern **Emanuel utvandrade till
+Nordamerika 1892-08-20** enligt
+[C-0552](C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md). **Två av
+syskonen i samma hushåll**, tolv år isär.
+
+**En överspelad lydelse i personakten är avförd.** Aktens `Forskningsstatus`
+sade att `församlingsbokens svårlästa utflyttningsanteckning är nästa
+återstart`. **T-0161 läste anteckningen 2026-09-09**, och **A-6403 skriver
+själv ut att lydelsen därmed är överspelad** — **men statusen stod kvar som
+gällande text.** **Den är nu avförd**, och förhållandet är fört som A-7943 i
+[P-0433](../people/P-0433-olof-konrad-zingmark.md).
+
+**Det är samma slags fel som denna citations systercitation C-0945 rättade
+internt i T-0144:** **en formulering som står kvar som parallell aktuell
+slutsats trots att ett senare tillägg upphäver den.** **Två fall i två
+akttyper gör det till ett mönster:** **när en ny uppgift upphäver en gammal
+formulering måste formuleringen ändras, inte bara uppgiften läggas till.**
+
+**Destinationen är landet, inte en ort.** **Degerfors utflyttningslängd 1904
+är den enda svenska källa som kan precisera den**, och den ägs av
+[T-0616](../../wotan/dev-log/T-0616.md). **Amerikanskt material ligger utanför
+projektets prövade leverantörer och öppnas inte utan ägarbeslut.**
+
+`Stödda påståenden` utökas med A-7943.
