@@ -426,7 +426,7 @@ T-0259:s utvinningsrester på dem står oförändrade.
 > ursprung ligger på nästa generations öppna front. Analoga boupptecknings-
 > och mantalshinder samt villkorlig jord/lagfartsfråga kvarstår.
 
-#### Rättelse 2026-09-09, T-0179: tvillingarnas id och öde, samt tre källserier
+### Rättelse 2026-09-09, T-0179: tvillingarnas id och öde, samt tre källserier
 
 Det bundna avsnittet ovan och T-0178:s texter i barnens akter bar fyra
 felaktiga uppgifter, som prövades mot projektets **källregister** i T-0179.
@@ -457,7 +457,7 @@ motbevisen** — länkarna till P-0073, P-0086 och P-0087 i relationstabellen
 och sin egen dödsnotis ur `F/3`. En akts citationsindex är inte projektets
 källregister.
 
-#### Avgränsad följdavstämning — T-0180, 2026-09-09: tvillingarnas dödsdagar
+### Avgränsad följdavstämning — T-0180, 2026-09-09: tvillingarnas dödsdagar
 
 Tvillingarna [P-0086](P-0086-anders-andersson-tvilling-1873.md) och
 [P-0087](P-0087-carl-andersson-tvilling-1873.md) är konsoliderade i

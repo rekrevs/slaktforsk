@@ -198,7 +198,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2507 står kvar med oförändrad lydelse.**
 
-#### En rättelse som inte hade nått akten, 2026-09-10
+### En rättelse som inte hade nått akten, 2026-09-10
 
 **T-0143 rättade 2026-09-08 moderns ålder i C-0576 från 30 till 20 och orten
 från `Bokulla` till `Stenkulla`.** **Rättelsen fördes till P-0135 men inte
@@ -212,13 +212,13 @@ källan.** **A-2507 skrivs inte om.**
 läsare till fel uppslag; en felaktig ålder skickar hen till fel årtionde.**
 **Tio år är hela hennes sökfönster**, och **hela fönstret var fel.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0445: Stina Lotta`. Den lyder nu
 `P-0445: Stina Lotta, tjugo år och utan efternamn`. **Filnamnet är
 oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Ny sidoperson via en ingift gren. Efternamn, exakt födelse och föräldrar är
 > öppna; börja i familjens hushåll i Björkvik A I/17.
@@ -226,7 +226,7 @@ oförändrat.**
 **Bedömningen står kvar i sak**, och **återstarten är oförändrad.**
 **Åtkomsthindret i S-0457 gäller bildlänkarna, inte volymens existens.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

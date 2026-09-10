@@ -176,7 +176,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 med ett preciserat led utmärkt i saktexten. **Aktens rubriknamn har utökats
 med boställsnamnet**; filnamnet är oförändrat.
 
-#### A-7813: postens struktur utskriven, 2026-09-10
+### A-7813: postens struktur utskriven, 2026-09-10
 
 Att **tre av fyra dopvittnen var ett och samma hushåll** stod inte i någon av
 de fyra vittnesakterna, trots att det är postens mest talande drag. Tillägget
@@ -184,7 +184,7 @@ skriver ut strukturen, `ibm`-formens innebörd, och **två källgränser:**
 dopvittneskolumnen anger ingen relation till barnet, och `son ibm` är
 källans relations- och hemvistform och **inte en prövad föräldrabrygga.**
 
-#### Avstämning — T-0137, 2026-09-08, historisk
+### Avstämning — T-0137, 2026-09-08, historisk
 
 T-0137 prövade hela den lokala bilden och post 17:s båda sidor. Läsningen av
 de fyra vittnesleden står oförändrad, liksom dess uttryckliga avgränsningar:
@@ -193,7 +193,7 @@ de fyra vittnesleden står oförändrad, liksom dess uttryckliga avgränsningar:
 släkt med modern utan ytterligare belägg.** **Alla tre avgränsningarna styr
 denna akt och de tre övriga vittnesakterna.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

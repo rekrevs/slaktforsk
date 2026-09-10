@@ -192,7 +192,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse**, en
 med ett preciserat led utmärkt i saktexten.
 
-#### A-0340: dagen tillkommer, och orten blir identifierande, 2026-09-09
+### A-0340: dagen tillkommer, och orten blir identifierande, 2026-09-09
 
 Databasposten C-0066 ger **bara årtalet** och saknar bevarad originalbild.
 Husförhörslängden A I/9c sida 85 bär henne med egen rad, födelsedagen
@@ -201,7 +201,7 @@ inte bara en precisering utan det som identifierar rätt rad**, eftersom samma
 uppslag bär en andra `Brita Carolina Andersdotter` född 1842 i `Jörn`
 (A-7764). Ursprungslydelsen bevaras.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

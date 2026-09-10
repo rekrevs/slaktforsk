@@ -167,11 +167,11 @@ modern ett födelseintervall som är rapporterat till hennes akt.
 Nedan bevaras den tidigare `Forskningsstatus`-texten och T-0143:s
 anhörigrättelse oförändrade som historik.
 
-#### Forskningsstatus
+### Forskningsstatus
 
 Sidogren. Hans fortsatta liv är inte följt efter Sannerbyhushållet.
 
-#### Anhörigrättelse T-0143, 2026-09-08
+### Anhörigrättelse T-0143, 2026-09-08
 
 C-0172 har fullprövats. Modern och dopvittnet är skilda personer. Full individuell akt-/profiladoption ägs T-0171; tidigare ändrad rad bevaras som historik:
 

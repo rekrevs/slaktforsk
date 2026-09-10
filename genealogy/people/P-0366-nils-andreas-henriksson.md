@@ -202,7 +202,7 @@ ordalydelse; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Citationens två avsnitt om samma rad ställda mot varandra, 2026-09-10
+### Citationens två avsnitt om samma rad ställda mot varandra, 2026-09-10
 
 C-0374 innehåller **två skilda beskrivningar av hans rad**: den första
 avskriften talar om `en senare notering ... flyttade 1888 till Nya
@@ -213,19 +213,19 @@ eftersom det vilar på **hur citationens avsnitt förhåller sig till varandra**
 och inte på en egen omläsning. **A-4336 skrivs inte om**, och **T-0130:s
 reservation står kvar.**
 
-#### T-0130:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0130:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Full individuell konsolidering och profiladoption ägs
 av T-0193`. **T-0193 är denna uppgift**, och den fulla granskningen är utförd
 med daterad PK-bedömning i profilen.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0366: Nils Andreas Henriksson`. Den lyder nu
 `P-0366: Nils Andreas Henriksson, jordbruksarbetare i Lagfors och
 'Icke konfirm.' vid 21 år`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför den fasta 32-personerskohorten. Ingen fortsatt egen
 > an- eller ättlingskedja prioriteras före kohortens breddmål.
@@ -234,7 +234,7 @@ Rubriken löd `P-0366: Nils Andreas Henriksson`. Den lyder nu
 tre källvägarna i profilen är avgränsade och gäller två anteckningar på en
 enda rad.
 
-#### Avgränsad följdrättelse 2026-09-08, T-0130 — historisk
+### Avgränsad följdrättelse 2026-09-08, T-0130 — historisk
 
 C-0374:s daterade originalrättelse tillgodoräknas. **Bedömningen står kvar i
 sak** och är nu inarbetad i akttexten.
@@ -243,7 +243,7 @@ sak** och är nu inarbetad i akttexten.
 
 > | A-2055 | Nils Andreas Henriksson föddes 1867-02-27 i Ljustorp och var son till Henrik Henriksson och Margreta Charlotta Sjölin. | CORROBORATED | hög | [C-0372](../citations/C-0372-folkrakning-1880-ljustorp-lagfors-henrik-henriksson.md), [C-0374](../citations/C-0374-ljustorp-AI9-lagfors-henrik-henriksson-sjolin.md) | A I/9 ger exakt datum och relation; 1880 års hushåll korroborerar år, ort och familj. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

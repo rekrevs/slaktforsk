@@ -137,7 +137,7 @@ namnformer och ingen profil fanns.
 
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Begränsad följdrättelse T-0125, 2026-09-07, historisk
+### Begränsad följdrättelse T-0125, 2026-09-07, historisk
 
 Indexnivå och identitetsgräns enligt C-0959:s rättelse. Full akt/profiladoption T-0192; T-0238 äger begränsad originalväg. Inga nya P-id eller egen fullgranskning genom denna följdrättelse.
 
@@ -145,7 +145,7 @@ Indexnivå och identitetsgräns enligt C-0959:s rättelse. Full akt/profiladopti
 
 > | A-3607 | **Sannolik arkividentitet:** Adas make i Jakobs församlings vigselbok i Kristiania 1922-01-05 heter **Knut Sigfrid Bergersen**, född 1890-12-28, son till Fredrik Samuel Bergersen. Förnamnet och rollen stämmer, efternamnsformen inte. | LEAD | medel | [C-0959](../citations/C-0959-ada-vigsel-kristiania-1922.md), [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Han förs som egen person, [P-0535](P-0535-knut-sigfrid-bergersen.md). Konflikten bevaras tills originalsidan lästs; yrkesuppgiften där prövar familjeminnet `rörmokare`. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

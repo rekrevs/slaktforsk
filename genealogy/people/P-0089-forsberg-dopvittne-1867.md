@@ -174,7 +174,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse**, med sitt
 läsuppdrag prövat och delat i tre led i saktexten.
 
-#### A-0352: uppmaningen delad i tre, 2026-09-09
+### A-0352: uppmaningen delad i tre, 2026-09-09
 
 `Förnamn, relation och ort är inte säkert lästa` har prövats led för led.
 **Förnamnet är dolt av en bläckfläck** och kan inte läsas ur huvudbilden — en
@@ -184,7 +184,7 @@ anger relationer till barnet för något vittne — också en källgräns.
 ledet en omläsning kan hjälpa**. Tillförlitligheten `låg` står kvar, och
 ursprungslydelsen bevaras. Se A-7769.
 
-#### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
+### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
 
 T-0163 läste fadderkolumnen vid konsolideringen av P-0088 och skrev:
 `... Forsberg i [ort skymd av bläckfläck]; Bond. J. A. Lundgren o h:u i
@@ -197,7 +197,7 @@ normaliseringen hade raderat en diskriminerande uppgift.
 ordet **före** `Forsberg`, inte orten. **Övriga led i T-0163:s läsning rörs
 inte här**; de tillhör P-0088, P-0090, P-0091 och P-0093.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

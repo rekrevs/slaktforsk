@@ -215,11 +215,11 @@ nedan i T-0135:s block och i
 Nedan bevaras T-0135:s och T-0141:s begränsade följdavstämningar och deras
 historikblock oförändrade.
 
-#### Begränsad följdavstämning — T-0135, 2026-09-08
+### Begränsad följdavstämning — T-0135, 2026-09-08
 
 Detta är en materiell följdrättelse, inte en full individuell konsolidering eller ett nytt kontraktsgodkännande. Profil och full granskning adopteras uttryckligen av [T-0173](../../wotan/dev-log/T-0173.md). Alla äldre A-id:n är bevarade.
 
-#### Historik: ersatta formuleringar
+### Historik: ersatta formuleringar
 
 Följande tidigare text ersätts av ovanstående källbundna rättelser:
 
@@ -227,12 +227,12 @@ Följande tidigare text ersätts av ovanstående källbundna rättelser:
 > - Följ utflyttningen till Motala 1838.
 
 
-#### Begränsad följdavstämning — T-0141, 2026-09-08
+### Begränsad följdavstämning — T-0141, 2026-09-08
 
 Vid dopet 1830-05-10 antecknas A. Ed[l]und[?] och hans hustru Stina, utan säkert efternamn, samt drängen And. Andersson och pigan Carin Andersdr i L:a Häg…[?]. Ordet efter Stina kan vara Ibidem[?], en ortmarkering, och får inte göras till hennes efternamn. Moderns råålder är 38. Vittnenas släktskap är okänd och deras reserverade rånamn/ort används inte för ny personfusion. Medevi Brunn är föräldrarnas hemvist, inte separat belagt förlossningshus. [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md).
 
 Hela akten lästes inför denna begränsade följd. Alla äldre A-id:n och bedömningar bevaras; detta är inte full individuell konsolidering. Profil och full prövning av de egna fälten, nätverket och båda kontraktsnivåerna adopteras uttryckligen av [T-0173](../../wotan/dev-log/T-0173.md). Inga nya personakter eller assertion-id:n har skapats.
 
-#### Ersatta aktiva sakceller, historik
+### Ersatta aktiva sakceller, historik
 
 > | A-1874 | Han föddes 1830-05-09 vid Medevi Brunn. | CORROBORATED | hög | [C-0304](../citations/C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md) | Samtida födelsenotis och två hushållslängder sammanfaller. |

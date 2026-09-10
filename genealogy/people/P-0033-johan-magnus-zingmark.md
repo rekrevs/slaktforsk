@@ -255,26 +255,26 @@ tidslinje, inga relationer, inga namnformer och ingen profil fanns.
 Tre har fått överspelade eller kompletterade led utmärkta i saktexten enligt
 pilotpreciseringen.
 
-#### A-0175: `två källor` överskattade oberoendet, 2026-09-09
+### A-0175: `två källor` överskattade oberoendet, 2026-09-09
 
 Folkräkningsbladet 1900 bär ett tryckt dokumenthuvud som visar att det är ett
 utdrag ur Degerfors församlingsbok. Det är kompletterande, inte självständigt,
 mot A-2499. Ursprungslydelsen bevaras.
 
-#### A-3411: frikallelsen har fått nummer och år, 2026-09-09
+### A-3411: frikallelsen har fått nummer och år, 2026-09-09
 
 `var frikallad från värnplikt` är styrkt och preciserat: han inskrevs som
 nummer `737` i årsklass 1914 och frikallades **1917** enligt Degerfors
 A II a/6 rad 6 (A-7720). Ursprungslydelsen bevaras.
 
-#### A-3443: hustruns förnamn är omstritt, 2026-09-09
+### A-3443: hustruns förnamn är omstritt, 2026-09-09
 
 `Sigrid Elisabet Vikner` står i Umeå stads församlingsbok; folkräkningen 1930
 skriver `Signe Elisabet f. Vikner` (A-7723). Konflikten bevaras och
 normaliseras inte, men de två källorna är inte oberoende. Ursprungslydelsen
 bevaras.
 
-#### Den anmälda datumkonflikten avskriven, 2026-09-09
+### Den anmälda datumkonflikten avskriven, 2026-09-09
 
 T-0154 anmälde 2026-09-08 att hans födelsedag stod i konflikt mellan
 `1894-10-29` (C-0574) och `1894-10-22` (C-0890), och kohortens checkpoint
@@ -283,7 +283,7 @@ läser **båda** volymerna `29`, kontrollerat mot skrivarnas sifferalfabet i
 samma kolumn (A-7718). Ingen konflikt förs in; observationen rapporteras
 tillbaka till T-0154 och som daterat tillägg till C-0890.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

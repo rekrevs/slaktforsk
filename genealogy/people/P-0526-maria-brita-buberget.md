@@ -206,7 +206,7 @@ fanns.
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse**, och
 **T-0140:s bevarade äldre aktversion är oförändrad.**
 
-#### Syskonseriens intervall räknade, 2026-09-10
+### Syskonseriens intervall räknade, 2026-09-10
 
 **C-0869:s avskrift av nio barnrader har funnits sedan citationen skrevs.**
 **Ingen hade räknat mellanrummen.**
@@ -218,19 +218,19 @@ för första gången som diskriminator mellan två läsningar.**
 
 **Konflikten avförs inte.** **Båda årtalen bevaras.**
 
-#### Sju syskon förda, 2026-09-10
+### Sju syskon förda, 2026-09-10
 
 Akten förde tidigare far, mor och en syster. **De sju äldre syskonen stod i
 citationen och saknades i relationstabellen.** De är nu förda, **utan egna
 person-id.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0526: Maria Brita, Buberget`. Den lyder nu
 `P-0526: Maria Brita i Buberget, vars årtal två volymer säger ett och en
 tredje ett annat`. **Filnamnet är oförändrat.**
 
-#### T-0140: begränsad följdavstämning, historisk
+### T-0140: begränsad följdavstämning, historisk
 
 > 2026-09-08: endast personbundna följder från moderns fullpostgranskning har
 > införts. Ingen full konsolidering, ny profil eller ny PK-granskning har
@@ -239,7 +239,7 @@ tredje ett annat`. **Filnamnet är oförändrat.**
 
 **Bedömningen står kvar i sak, och adoptionen är nu utförd.**
 
-#### Bevarad akt före T-0140:s följdavstämning
+### Bevarad akt före T-0140:s följdavstämning
 
 > # P-0526: Maria Brita, Buberget
 >
@@ -269,7 +269,7 @@ tredje ett annat`. **Filnamnet är oförändrat.**
 > Bevarad syskonperson i målgruppen, utan egen sidogrensexpedition.
 > Eget senare liv och födelseoriginal är inte undersökta i denna passage.
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Bevarad syskonperson i målgruppen, utan egen sidogrensexpedition.
 > Eget senare liv och födelseoriginal är inte undersökta i denna passage.
@@ -278,7 +278,7 @@ tredje ett annat`. **Filnamnet är oförändrat.**
 födelsepost är inte bara en lucka utan det enda som avgör aktens
 årskonflikt.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

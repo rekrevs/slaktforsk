@@ -164,7 +164,7 @@ profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Källbristen förd som egen uppgift, 2026-09-10
+### Källbristen förd som egen uppgift, 2026-09-10
 
 A-2364 nämner den avbrutna bildsökningen **i kommentarsfältet**, men
 **följderna hade inte skrivits ut.** **Att en citation saknar bevarad fullbild
@@ -172,25 +172,25 @@ A-2364 nämner den avbrutna bildsökningen **i kommentarsfältet**, men
 omläsning som gett nya uppgifter i flera andra akter i detta program.**
 Förhållandet är nu fört som A-7941.
 
-#### Flyttuppgiften utskriven, 2026-09-10
+### Flyttuppgiften utskriven, 2026-09-10
 
 Att hon uppges född i **Stöde** men är bokförd i **Sättna** **stod i
 assertionen men lästes inte som en uppgift.** **Det är en flyttuppgift om
 familjen**, och den är nu förd som A-7941 och som en egen fråga i profilen.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0421: Ingrid Brita Nordlund`. Den lyder nu
 `P-0421: Ingrid Brita Nordlund, yngsta dottern i Nordlundhushållet`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Dokumenterad sidoperson. Egen födelse och fortsatt livskedja återstår.
 
 **Bedömningen står kvar i sak** och är nu förd som Q-01 och Q-02 i profilen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

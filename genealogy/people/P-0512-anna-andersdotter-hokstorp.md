@@ -205,7 +205,7 @@ det inte, den var felläst — och hon har nu en datering att pröva.
 Nedan bevaras T-0167:s begränsade rättelse och därefter de avsnitt vars
 lydelse ersatts av ovanstående.
 
-#### Historik och rättelser
+### Historik och rättelser
 
 **T-0167, 2026-09-09 — avgränsad rättelse ur P-0330:s kohort.** Ortnamnet
 `Hökstorp` är `Stocktorp`. Ortrubriken i dottern Maja Chaisas dopnotis är

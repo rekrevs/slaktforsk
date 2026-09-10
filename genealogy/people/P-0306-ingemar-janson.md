@@ -127,13 +127,13 @@ ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Rubriken `## Identitet och integritet` delad, 2026-09-10
+### Rubriken `## Identitet och integritet` delad, 2026-09-10
 
 Aktstandarden kräver `## Identitet` och placerar `## Integritetsnot` mellan
 Forskningsfrågor och Historik. Den gamla sammanslagna rubriken är därför delad
 i två, **och båda leden är bevarade i sak.** Rättelsen är rent redaktionell.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

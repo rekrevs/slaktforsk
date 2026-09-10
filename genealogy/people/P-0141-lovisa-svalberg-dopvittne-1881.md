@@ -170,14 +170,14 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Tom rad inuti `## Relationer`-tabellen borttagen, 2026-09-10
+### Tom rad inuti `## Relationer`-tabellen borttagen, 2026-09-10
 
 Tabellen hade en **tom rad mellan avgränsarraden och sin enda datarad**, ett
 formatfel som bröt tabellen i två. Raden är borttagen; **ingen datarad har
 gått förlorad.** Samma fel fanns i
 [P-0140](P-0140-carl-pettersson-dopvittne-1881.md).
 
-#### Drängens förnamn rättat: `Johan`, inte `Ivan`, 2026-09-10
+### Drängens förnamn rättat: `Johan`, inte `Ivan`, 2026-09-10
 
 A-7820 skriver drängen på Forssa `A I/16` sida 83 rad 11 som
 **`Ivan Wilhelm Svalberg`**. **Vid omläsning samma dag läses förnamnet
@@ -188,13 +188,13 @@ A-7820 skriver drängen på Forssa `A I/16` sida 83 rad 11 som
 henne**: söknyckeln är efternamnet `Svalberg`, och ingen släktrelation är
 eller blir registrerad. **Aktens löptext använder den rättade formen.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0141: Lovisa Svalberg`. Den lyder nu
 `P-0141: Lovisa Svalberg, dotter i Malstugan, dopvittne 1881`. **Filnamnet är
 oförändrat.** Ingen akt har delats och ingen identitet har slagits samman.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

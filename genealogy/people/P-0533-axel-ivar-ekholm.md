@@ -232,7 +232,7 @@ profil fanns.
 **Samtliga fem ursprungliga assertioner står kvar med oförändrad lydelse**,
 och **T-0125:s bevarade äldre formuleringar är oförändrade.**
 
-#### Nollresultatets undre kant, 2026-09-10
+### Nollresultatets undre kant, 2026-09-10
 
 **A-3602 anger ett band och en gräns:** **posterna 129–182, dop 15 mars till
 11 april**, med kommentaren att **volymens sena inskrivningar ligger utanför.**
@@ -247,13 +247,13 @@ tillkommer är att bandet måste utvidgas nedåt, inte bara uppåt.**
 **Iakttagelsen kräver ingen ny läsning:** **båda uppgifterna stod i två
 citationer, och ingen hade ställt dem mot varandra.**
 
-#### Fyra relationer förda, 2026-09-10
+### Fyra relationer förda, 2026-09-10
 
 Akten förde tidigare far och mor. **Systern, halvsystern Maj Amalia, hustrun
 och sonen stod i citationerna och saknades i relationstabellen.** De är nu
 förda, **sonen med namn och födelsedag utelämnade.**
 
-#### T-0153:s inkomna observation tillgodoräknad, 2026-09-10
+### T-0153:s inkomna observation tillgodoräknad, 2026-09-10
 
 **T-0153 upphävde ett registrerat nollresultat:** **C-0919:s slutsats att
 Hulda Amalias och Maj Amalias egen sida i Hyltinge 1918–1927 inte var
@@ -264,13 +264,13 @@ lokaliserad var fel** — **anteckningen läses `rad 16`, inte `fol 16`**, och
 **Halvsystern Maj Amalias rad är nu förd som relation**, med **`d. u.ä.`** och
 **`Erkännande inför pastor`.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0533: Axel Ivar Ekholm`. Den lyder nu
 `P-0533: Axel Ivar Ekholm, vars nollresultat saknar sina första sex dagar`.
 **Filnamnet är oförändrat.**
 
-#### T-0125: begränsad följdrättelse med bevarade formuleringar, historisk
+### T-0125: begränsad följdrättelse med bevarade formuleringar, historisk
 
 Äldre ändrade formuleringar, historik:
 
@@ -278,7 +278,7 @@ Rubriken löd `P-0533: Axel Ivar Ekholm`. Den lyder nu
 > | A-3643 | Han bodde med hustru och en son född 1943 på **kv. Hjärpen 35 C, Hagagatan 8 i Flen** från 1949-01-14, tog emot modern på samma folio samma dag och överfördes 1950 till folio 83 och 1955 till nya bokens folio 96. | TRANSCRIBED | hög | [C-0973](../citations/C-0973-hulda-amalia-flen-1940-1955.md) | Sonens namn och födelsedag utelämnas som integritetsminimering; födelseåret bevaras. |
 > Kungsholms födelsebok 1907 och familjens vidare väg efter faderns död 1913.
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson på Sverkers djup 4, nyupptäckt 2026-09-06. Nästa steg är
 > egen födelsepost enligt Matteusnyckeln 1907-03-09, med C-0957:s exakt
@@ -289,7 +289,7 @@ Rubriken löd `P-0533: Axel Ivar Ekholm`. Den lyder nu
 precisering tillkommer:** **C-0957:s omfång ska tillgodoräknas som det band
 det är** — **och bandet saknar de sex första dagarna.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

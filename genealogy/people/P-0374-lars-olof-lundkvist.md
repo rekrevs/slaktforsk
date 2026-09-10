@@ -145,24 +145,24 @@ ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Formatfel rättat, 2026-09-10
+### Formatfel rättat, 2026-09-10
 
 `## Relationer` var **löpande text i stället för tabell**, vilket
 aktstandarden kräver. **Rättelsen är rent redaktionell.**
 
-#### Integritetsbedömning införd, 2026-09-10
+### Integritetsbedömning införd, 2026-09-10
 
 Akten saknade integritetsnot, trots att personen är född 1928. **Behandlingen
 är nu integritetsminimerad**, i linje med systerns akt
 [P-0528](P-0528-barbro-margareta-lundkvist.md) och med T-0192:s behandling av
 möjligen levande personer. **Skälet är utskrivet i stället för antaget.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0374: Lars Olof Lundkvist`. Den lyder nu
 `P-0374: Lars Olof Lundkvist, född 1928`. **Filnamnet är oförändrat.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

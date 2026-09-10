@@ -175,7 +175,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2946 står kvar med oförändrad lydelse.**
 
-#### Hon är seriens slutpunkt, 2026-09-10
+### Hon är seriens slutpunkt, 2026-09-10
 
 **T-0198 förde familjens åtta födelseår som ett kontrollfall (A-7949) och
 namnmönstret som A-7947.** **Att hennes egen rad är seriens slutpunkt, och att
@@ -184,23 +184,23 @@ hon är den enda av åtta som bär moderns namn, hade inte skrivits ut.**
 Båda iakttagelserna är nu förda som A-7981, **med tre utskrivna gränser** —
 den viktigaste att **faderns sida aldrig har sökts.**
 
-#### Sju syskonrelationer förda, 2026-09-10
+### Sju syskonrelationer förda, 2026-09-10
 
 Akten förde tidigare endast fadern och modern. **De sju syskonen stod i samma
 citation och saknades i akten.** De är nu förda med födelseår och belägg.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0488: Ester Maria i Ekträsk`. Den lyder nu
 `P-0488: Ester Maria i Ekträsk, den enda av åtta som bär moderns eget namn`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson; egen födelsenotis och senare liv är öppna.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

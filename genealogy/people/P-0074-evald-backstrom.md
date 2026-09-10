@@ -180,7 +180,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse**, båda
 med preciserade led utmärkta i saktexten.
 
-#### A-0287: sidkontexten preciserad, 2026-09-09
+### A-0287: sidkontexten preciserad, 2026-09-09
 
 Uppgiften att någon släktrelation till Johan August Johansson inte är belagd
 står **oförändrad och är nu starkare**: uppslagets egen hushållskolumn
@@ -188,7 +188,7 @@ avgränsar hans hushåll före Johan Augusts rad, så de tillhör skilda hushål
 på samma sida. Databasens `familj nr 1` kommer från indexposten och
 sammanfaller **inte** med bladets egen hushållsindelning; se A-7754.
 
-#### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
+### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
 
 Hela bladbilden återsågs. Evald Bäckström, hustrun Anna Magdalena
 Jonsdotter, Anna Kajsa Bäckström och hennes barn hör till hushållssidans
@@ -204,7 +204,7 @@ läsning av prefixen — men **`oä. d.` gör moderskapet till en bevarad konfli
 snarare än en avgjord uppgift**, och det är den enda punkt där T-0179 stannar
 kortare än avstämningen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

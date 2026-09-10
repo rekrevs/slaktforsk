@@ -136,7 +136,7 @@ namnformer och ingen profil fanns.
 
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Begränsad följdrättelse T-0125, 2026-09-07, historisk
+### Begränsad följdrättelse T-0125, 2026-09-07, historisk
 
 Aktuell text avstämd med A-1705/A-1714. Adas norska vigsel anger inte Maj-Britts födelseland. Integritetsminimering består. Full akt/profiladoption T-0192, ingen extra fullgranskad person.
 
@@ -146,7 +146,7 @@ Aktuell text avstämd med A-1705/A-1714. Adas norska vigsel anger inte Maj-Britt
 > datum och födelseort har inte angivits. Senare gift namn och bosättning
 > | A-1672 | Hon var senare gift Jegenstam och skilde sig. | TRANSCRIBED | hög | [C-0263](../citations/C-0263-jan-christer-om-arne-anki-och-sidogrenar.md) | Förnamn på maken, vigsel och skilsmässodatum saknas. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

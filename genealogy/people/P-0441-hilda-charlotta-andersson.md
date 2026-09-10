@@ -207,7 +207,7 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
+### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
 
 A-6400 bar texten `Begränsad införing — full granskning ägs av T-0199`.
 **Granskningen är utförd.** Utflyttningsuppgiften står oförändrad; **det som
@@ -215,7 +215,7 @@ tillkommit är sammanhanget:** **familjens fyra datum är räknade mot varandra*
 och **tomheten efter april 1907 är förd som en följd av utvandringen, inte som
 en outforskad lucka.**
 
-#### Inflyttningskedjan utvidgad från fyra till fem, 2026-09-10
+### Inflyttningskedjan utvidgad från fyra till fem, 2026-09-10
 
 **T-0198 fann fyra Zingmarkar som flyttade till Degerfors 1875–1900 och
 förde dem som A-7946.** **Maken var den femte och saknades i uppräkningen**,
@@ -223,19 +223,19 @@ trots att hans inflyttning 1899-11-28 stod belagd i C-0571 sedan tidigare.
 Utvidgningen är förd som A-7959 här och **anmäld till P-0437**; **A-7946
 skrivs inte om.**
 
-#### Fyra relationer förda, 2026-09-10
+### Fyra relationer förda, 2026-09-10
 
 Akten förde tidigare make och två söner. **Svärfadern, makens halvbror och
 makens bror stod på samma folio eller i anslutande citationer och saknades.**
 De är nu förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0441: Hilda Charlotta Andersson`. Den lyder nu
 `P-0441: Hilda Charlotta Andersson, socknens dotter som gifte sig med en
 inflyttad`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson; eget ursprung och ministerialboksoriginal är öppna.
 
@@ -243,7 +243,7 @@ inflyttad`. **Filnamnet är oförändrat.**
 **hennes härkomst är den enda svenska tråd i denna familj som inte tar slut
 1907.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

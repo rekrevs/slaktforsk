@@ -189,28 +189,28 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Tom rad inuti `## Relationer`-tabellen borttagen, 2026-09-10
+### Tom rad inuti `## Relationer`-tabellen borttagen, 2026-09-10
 
 Tabellen hade en **tom rad mellan avgränsarraden och sin enda datarad**, ett
 formatfel som bröt tabellen i två. Raden är borttagen; **ingen datarad har
 gått förlorad.** Samma fel fanns i
 [P-0141](P-0141-lovisa-svalberg-dopvittne-1881.md).
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0140: Carl Pettersson`. Den lyder nu
 `P-0140: Carl Pettersson, dräng i Svartgjöl, dopvittne 1881`, eftersom namnet
 ensamt inte skiljer honom från namnlikar. **Filnamnet är oförändrat.** Ingen
 akt har delats och ingen identitet har slagits samman.
 
-#### Kandidaturen registrerad, 2026-09-10
+### Kandidaturen registrerad, 2026-09-10
 
 A-7819 registrerar `Carl Johan Pettersson` i Forssa `A I/16` sida 83 som
 kandidat. **Statusen är `LEAD` och tillförlitligheten `medel`**, med tre
 utskrivna gränser. **Ingen sammanslagning har gjorts, och P-0144 står kvar
 som egen akt.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -203,7 +203,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 En är avvisad med bevarad lydelse och tre har fått överspelade led utmärkta i
 saktexten.
 
-#### A-5793 avvisad, 2026-09-09
+### A-5793 avvisad, 2026-09-09
 
 Iakttagelsen `C-0549 skriver 1880 27/7` vilar på en felläsning: vid 600 %
 läser C-0549:s räknare `21`, och den andra siffran är ett rakt streck med
@@ -212,25 +212,25 @@ liten ingångsserif, inte en `7` med vågrät topplinje (A-7751).
 propageras inte; observationen var noggrann och korrekt registrerad, men dess
 premiss höll inte.
 
-#### A-0312: läsreservationen borttagen, oberoendeförbehållet kvar, 2026-09-09
+### A-0312: läsreservationen borttagen, oberoendeförbehållet kvar, 2026-09-09
 
 Dagen `²¹/₇` står lika i båda volymerna, så reservationen `[?]` kan tas bort.
 **T-0157:s oberoendeförbehåll står däremot oförändrat**: C-0060 är en avskrift
 ur samma längdserie som C-0404, och nedgraderingen till `TRANSCRIBED`/`medel`
 var riktig. Ursprungslydelsen bevaras.
 
-#### A-0313 och A-2103: oberoendet överskattat, 2026-09-09
+### A-0313 och A-2103: oberoendet överskattat, 2026-09-09
 
 C-0060 och C-0402 bär båda dokumenthuvuden som gör dem avskrifter ur den
 bokserie som C-0404 tillhör. De parvisa beläggen är alltså **en**
 informationsväg, inte två röster. Ursprungslydelserna bevaras.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.
 
-#### Rättelse 2026-09-09, T-0179: Oskar Rudolf har person-id P-0073
+### Rättelse 2026-09-09, T-0179: Oskar Rudolf har person-id P-0073
 
 Vid T-0178:s skrivning angavs att tre syskon saknar egna person-id — Oskar
 Rudolf och tvillingarna. **Det är fel: Oskar Rudolf är
@@ -242,7 +242,7 @@ bär nu rätt länk, och **två** syskon — tvillingarna Anders och Carl, född
 1873 — saknar person-id. Rättelsen gjordes när T-0179:s kohort öppnades, där
 P-0073 är kohortmedlem.
 
-#### Rättelse 2026-09-09, T-0179: tvillingarna, deras öde och tre källserier
+### Rättelse 2026-09-09, T-0179: tvillingarna, deras öde och tre källserier
 
 Den tidigare rättelsen ovan var **ofullständig**. T-0179 prövade T-0178:s
 uppgifter mot projektets källregister, och fyra påståenden faller.

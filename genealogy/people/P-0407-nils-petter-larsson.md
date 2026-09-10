@@ -171,31 +171,31 @@ profil fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse**, inklusive
 T-0158:s nedgradering.
 
-#### Radstatus och källvägar införda, 2026-09-10
+### Radstatus och källvägar införda, 2026-09-10
 
 Den ursprungliga assertionen bär T-0158:s nedgradering men **säger inte att
 hans rad är överstruken** och **inte att C-0512:s fullpostprövning
 saknas.** Båda är nu förda som A-7935.
 
-#### Syskonen införda i relationstabellen, 2026-09-10
+### Syskonen införda i relationstabellen, 2026-09-10
 
 Relationstabellen omfattade tidigare bara föräldrarna och en eller två bröder.
 **Samtliga sex kända syskon är nu förda**, inklusive
 [P-0406 Lisa Cajsa](P-0406-lisa-cajsa-larsdotter.md), vars födelseort i
 **Indal 1858** ligger före familjens Sättnaperiod.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0407: Nils Petter Larsson`. Den lyder nu `P-0407: Nils Petter, sist född i Sättna 1865`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Födelsedatum, socken och föräldrahushåll är säkrade i två källor. Egen födelsepost och livet efter den överstrukna A I/12-raden återstår.
 
 **Bedömningen står kvar i sak** och är nu förd som Q-01 och Q-02 i profilen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

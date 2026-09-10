@@ -250,7 +250,7 @@ profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Barnens födelseintervall räknade, 2026-09-10
+### Barnens födelseintervall räknade, 2026-09-10
 
 **De tre födelsedagarna stod i C-0543 sedan tidigare.** **Ingen hade räknat
 mellanrummen.** Luckan 1881–1887 är nu förd som A-7969 **tillsammans med den
@@ -260,13 +260,13 @@ pröva.**
 **Programmet har burit förbehållet att späda dödsfall är osynliga sedan
 T-0195.** **Här kan förbehållet bytas mot en fråga med en namngiven källa.**
 
-#### Systern förd, 2026-09-10
+### Systern förd, 2026-09-10
 
 Akten förde tidigare far, mor, bror, hustru och tre söner. **Systern
 [P-0394 Märtha Brita](P-0394-martha-brita-henriksson.md), född och död 1856,
 stod i C-0470 och saknades.** Hon är nu förd.
 
-#### Ortsparet iakttaget över två generationer, 2026-09-10
+### Ortsparet iakttaget över två generationer, 2026-09-10
 
 **C-0469:s anmärkning att `Rundb.` står i konflikt med `A I/9`:s Lagfors, och
 C-0621:s placering av honom på Hinkestorpet i Rundbacken, stod i två
@@ -274,13 +274,13 @@ citationer.** **Ingen akt hade ställt dem mot varandra.** Iakttagelsen är för
 med **låg tillförlitlighet**, eftersom **bostadsregistret är selektivt och bara
 anger födelseår.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0456: Henrik Petter Henriksson`. Den lyder nu
 `P-0456: Henrik Petter Henriksson, vars barnaskara har en sexårig lucka som går
 att pröva`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Källutlöst sidogren. Egen födelsenotis, vigseloriginal, Hinkestorps
 > fastighets-/bruksunderlag och senare död återstår; grenen drivs inte längre
@@ -290,7 +290,7 @@ att pröva`. **Filnamnet är oförändrat.**
 **födelse- och dödböckerna för 1882–1886**, som **inte var identifierade som
 en öppen väg.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

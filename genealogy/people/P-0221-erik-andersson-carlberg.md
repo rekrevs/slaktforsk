@@ -259,15 +259,15 @@ Bedömningen var riktig om vuxenidentiteten. Den byggde på att den enda
 Nedan bevaras uppgiftens tidigare avstämningar och den ersatta äldre akten
 oförändrade som historik.
 
-#### Begränsad följdavstämning — T-0139
+### Begränsad följdavstämning — T-0139
 
 2026-09-08: endast de ovanstående personbundna följduppgifterna från C-0157/C-0163/C-0165 har införts. Ingen full kontraktsgranskning eller ny profil har genomförts. Full individuell adoption inklusive profil och båda nivåerna ägs av [T-0171](../../wotan/dev-log/T-0171.md). Äldre statusar är inte omprövade genom denna begränsade rättelse.
 
-#### Begränsad följdavstämning — T-0141
+### Begränsad följdavstämning — T-0141
 
 2026-09-08: två läsares prövning av C-0163/C-0165 och övriga egna familjerader ger1784 25/12 Gryth/Grytt för Erik,1796 26/6 för Anna. Hennes egen födelsepost anger4 januari, dop6 januari. Äldre datumstyrda slutsatser måste prövas mot rättade nycklar. Parets egna markeringar till1855 är skilda från dotterns1851-flytt. Ingen full adoption här; T-0171 äger Eriks akt/profil och T-0330 parets senare fasta passage.
 
-#### Ersatt äldre akt, historik
+### Ersatt äldre akt, historik
 
 > # P-0221: Erik Andersson i Carlberg
 >
@@ -324,7 +324,7 @@ oförändrade som historik.
 >
 > 2026-09-08: endast de ovanstående personbundna följduppgifterna från C-0157/C-0163/C-0165 har införts. Ingen full kontraktsgranskning eller ny profil har genomförts. Full individuell adoption inklusive profil och båda nivåerna ägs av [T-0171](../../wotan/dev-log/T-0171.md). Äldre statusar är inte omprövade genom denna begränsade rättelse.
 
-#### Anhörigrättelse T-0143, 2026-09-08
+### Anhörigrättelse T-0143, 2026-09-08
 
 C-0172 har fullprövats. Modern och dopvittnet är skilda personer. Full individuell akt-/profiladoption ägs T-0171; tidigare ändrad rad bevaras som historik:
 

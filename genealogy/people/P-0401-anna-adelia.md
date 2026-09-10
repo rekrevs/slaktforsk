@@ -158,31 +158,31 @@ bevarad äldre text; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### T-0142:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0142:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Explicit full införandeadoption ligger i T-0196; en ny
 profil skapas inte i detta följdsteg`. **T-0196 är denna uppgift**, och den
 fulla granskningen är utförd med daterad PK-bedömning i profilen.
 
-#### Farmodern införd i relationstabellen, 2026-09-10
+### Farmodern införd i relationstabellen, 2026-09-10
 
 [P-0059 Kajsa Charlotta](P-0059-cajsa-lotta-jonsdotter.md) står i samma
 hushåll i alla lästa källor men **saknades i aktens relationstabell.** Hon är
 nu införd, **med sitt eget familjenummer 1910 utskrivet.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0401: Anna Adelia`. Den lyder nu `P-0401: Anna Adelia, född efter elva års uppehåll`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför anlinjens prioriterade breddkohort; eget livslopp har
 > inte följts vidare.
 
 **Bedömningen står kvar i sak** och är nu förd som Q-01 och Q-02 i profilen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

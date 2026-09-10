@@ -226,7 +226,7 @@ Föregående akt bevaras i sin helhet nedan.
 > Sidogren. Namn, familjehushåll och uppgivet födelsedatum är bevarade; egen
 > livskedja ligger utanför den aktiva anbredden.
 
-#### Trädverkan rättad 2026-09-10, T-0194
+### Trädverkan rättad 2026-09-10, T-0194
 
 Fältet stod `BÄRANDE`. **Det är rättat till `EJ BÄRANDE`.** Aktens egen text säger `Ingen anlinje passerar honom; han är sidoperson`.
 **Fältet motsade alltså aktens egen slutsats.**

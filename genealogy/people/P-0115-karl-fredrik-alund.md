@@ -184,7 +184,7 @@ forskningsfråga; ingen tidslinje, inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 med preciserade led utmärkta i saktexten.
 
-#### A-0425 preciserad: efternamnet är en slutsats, 2026-09-09
+### A-0425 preciserad: efternamnet är en slutsats, 2026-09-09
 
 Assertionens kommentar sade att `Efternamnet följer hushållets ingress`.
 Det preciseras: **hans egen rad bär bara förnamnen**, och att efternamnet
@@ -192,13 +192,13 @@ följer ingressen är en **slutsats ur formulärets anvisning** — bynamnet skr
 på egen rad, familjeställningen anges med `s.`, och efternamnet upprepas inte.
 **Slutsatsen är rimlig och den är inte en avskrift.**
 
-#### A-0426 preciserad: bladet är ett utdrag, 2026-09-09
+### A-0426 preciserad: bladet är ett utdrag, 2026-09-09
 
 Folkräkningsutdraget bär dokumenthuvudet **`Utdrag ur Husförhörslängden`**.
 Uppgiften står inte i citationen, trots att den avgör oberoendefrågan:
 **hans födelseår och födelseort vilar på en enda bokuppgift.**
 
-#### Rättad egen post — T-0143, 2026-09-08, historisk
+### Rättad egen post — T-0143, 2026-09-08, historisk
 
 T-0143 prövade hela Brostugans familj i den sparade fullbilden — torparen,
 hustrun, sonen och drängen med civilstånd — och slog fast att **inga egna
@@ -206,7 +206,7 @@ hälsouppgifter härleds ur grafiska tecken utan rubrikstöd.**
 **Den principen styr hur A-7797 är formulerad**, och den är skälet till att
 markeringen i kolumn 4 registreras utan tolkning.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

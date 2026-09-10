@@ -167,7 +167,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### A-0336: dagen tillkommer, orten blir omstridd, 2026-09-09
+### A-0336: dagen tillkommer, orten blir omstridd, 2026-09-09
 
 Databasposten C-0066 ger **bara årtalet** och saknar bevarad originalbild.
 Husförhörslängden A I/9c sida 85 bär honom med egen rad och födelsedagen
@@ -176,7 +176,7 @@ inte församlingens dittotecken — vilket ställer databaspostens `i Degerfors`
 i fråga. **Ortnamnet är inte säkert läst, och konflikten bevaras** (A-7762).
 Ursprungslydelsen bevaras.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

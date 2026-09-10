@@ -188,7 +188,7 @@ profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Åldersserien räknad, 2026-09-10
+### Åldersserien räknad, 2026-09-10
 
 T-0158 registrerade moderns åldersserie i C-0440 som ett `obeaktat argument`
 i P-0376:s ursprungsfråga, **utan att räkna den.** **Räkningen är nu gjord**
@@ -196,27 +196,27 @@ och förd som A-7922: **de två avvikande posterna motsäger varandra**, så
 serien ger inget konkurrerande födelseår. **Ingen läsning väljs bort och ingen
 identitet ändras.**
 
-#### Fadderfältet infört, 2026-09-10
+### Fadderfältet infört, 2026-09-10
 
 C-0440:s T-0134-tillägg innehåller **hela fadderfältet med sex personer i tre
 led**, utskrivet sedan 2026-09-08. **Det hade aldrig nått akten.**
 **Citationens gräns står oförändrad:** Sara Märtas gemensamma efternamn är en
 nätverksnyckel och **bevisar inte hennes släktskap med Anders.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0382: Erik, son till Anders Dahlsten`. Den lyder nu
 `P-0382: Erik, yngste Dahlstensonen i Säter, född 1847`. **Filnamnet är
 oförändrat**, och **inget efternamn antas för honom.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson i den fasta kohortens familjebild; senare liv återstår men ingen
 > egen djupkedja öppnas.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

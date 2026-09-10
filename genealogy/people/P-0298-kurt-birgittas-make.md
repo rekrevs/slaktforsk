@@ -129,7 +129,7 @@ namnformer och ingen profil fanns.
 
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

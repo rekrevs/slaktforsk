@@ -207,14 +207,14 @@ Före det bestod den av rubriken, ett kort `## Identitet`, en trasig
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Formatfel rättat, 2026-09-10
+### Formatfel rättat, 2026-09-10
 
 `## Påståenden` var **uppdelad i två tabeller av en tom rad** efter A-2085,
 vilket bryter Markdown-tabellen så att A-2395 och A-2456 renderas utan
 kolumnrubriker. Dessutom saknades tom rad före `## Relationer`. **Rättelsen är
 rent redaktionell**; ingen assertion är omskriven.
 
-#### Avskriftsrättelse i dödsposten, 2026-09-10
+### Avskriftsrättelse i dödsposten, 2026-09-10
 
 C-0559 återger anteckningskolumnen som `Lik(et) hemsändes till hemorten`.
 **Omläsning i den redan sparade fullbilden ger `Liket hämtades till hemmet.`**
@@ -223,13 +223,13 @@ avsändning**, och **`hemmet` är hushållet, inte hemorten.** **A-2456 skrivs
 inte om**; den rättade ordalydelsen står som A-7913, och citationen har fått
 ett daterat tillägg.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0368: Oskar Mauritz Adelbert Carlman`. Den lyder nu
 `P-0368: Oskar Mauritz Adelbert Carlman, eldare, död i lungsot 1895`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför den fasta 32-personerskohorten. Egen födelse, föräldrar,
 > yrke, död, dödsorsak och begravning är säkrade; sanatorieorten lämnas
@@ -239,7 +239,7 @@ Rubriken löd `P-0368: Oskar Mauritz Adelbert Carlman`. Den lyder nu
 **Bedömningen står kvar i sak.** Den är nu förd som Q-01 och Q-02 i profilen,
 med källvägar och namngiven Wotan-ägare.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -181,7 +181,7 @@ preciserade led utmärkta i saktexten. **Aktens rubriknamn har utökats med
 orten** för att skilja henne från projektets övriga Jacobsdöttrar; filnamnet
 är oförändrat.
 
-#### A-0386: tre led preciserade, 2026-09-09
+### A-0386: tre led preciserade, 2026-09-09
 
 Uppgiften `Förnamn och eventuell släktrelation återstår` delas upp.
 **Förnamnet är en ensam initial** — en källgräns, inte en läsosäkerhet.
@@ -189,7 +189,7 @@ Uppgiften `Förnamn och eventuell släktrelation återstår` delas upp.
 till barnet för något vittne. **Orten `Ultervattnet` är barnets egen by**, och
 det är aktens starkaste led. Se A-7804.
 
-#### Två hypoteser registrerade, 2026-09-09
+### Två hypoteser registrerade, 2026-09-09
 
 A-7805 skriver ut möjligheten att patronymikonet pekar in i dopbarnets
 familj — som dotter till fadern eller som syster till farmodern — med
@@ -198,7 +198,7 @@ prövas** och att **ingen sammanslagning görs**. Statusen är `LEAD` och
 tillförlitligheten `låg`. **`Trädverkan` är `EJ BÄRANDE` och antavlan berörs
 inte.**
 
-#### Full egen post prövad — T-0131, 2026-09-08, historisk
+### Full egen post prövad — T-0131, 2026-09-08, historisk
 
 T-0131 prövade dopposten över samtliga kolumner och lämnade vittnena som
 prövade reservationer: bonden A. Andersson med onamngiven hustru i
@@ -208,7 +208,7 @@ separata från föräldrar och släktingar **tills en identitetskedja finns.**
 
 **Den avgränsningen står fast och styr hur A-7805 är formulerad.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -199,7 +199,7 @@ aktversion; ingen tidslinje, inga namnformer och ingen profil fanns.
 **Den ursprungliga assertionen A-3049 står kvar med oförändrad lydelse**, och
 **T-0139:s bevarade äldre aktversion är oförändrad.**
 
-#### Dopdagen ställd mot hushållens datum, 2026-09-10
+### Dopdagen ställd mot hushållens datum, 2026-09-10
 
 **Dopdagen `8 mars` har stått i C-0794 sedan T-0139:s andraläsning
 2026-09-08.** **Ingen hade ställt den mot hushållens `27 mars`.**
@@ -214,25 +214,25 @@ uppgift` är ofullständig.**
 T-0200:s P-0446. **Skillnaden är att där stod de två uppgifterna i två böcker
 och slutsatsen blev att båda inte kan gälla; här står de i samma post.**
 
-#### Moderns ålder räknad, 2026-09-10
+### Moderns ålder räknad, 2026-09-10
 
 **`43` stod i posten och moderns födelsedag i hennes akt.** **Räkningen ger 43
 år 8 månader och 28 dagar** — **exakt.** **Tillsammans med syskonens poster
 ger det tre exakta åldrar över tjugo år**; se A-7983.
 
-#### Tre relationer förda, 2026-09-10
+### Tre relationer förda, 2026-09-10
 
 Akten förde tidigare far, mor och en äldre bror. **De två övriga syskonen och
 `Anders Fredric` saknades.** De är nu förda, **den sistnämnde som relation
 utan person-id.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0499: Maria Sofia`. Den lyder nu
 `P-0499: Maria Sofia, vars dopdag gör hushållens datum omöjligt`.
 **Filnamnet är oförändrat.**
 
-#### T-0139: rättelsenot, historisk
+### T-0139: rättelsenot, historisk
 
 > 2026-09-08, T-0139: C-0794:s hela original visar att födelsemånadens
 > februari fortsätter till hennes post 14; mars börjar vid nästa post.
@@ -245,7 +245,7 @@ Rubriken löd `P-0499: Maria Sofia`. Den lyder nu
 skärpt:** **husförhörens datum är inte bara avvikande utan omöjligt**, och
 **dopdagen som citationen själv förde in är beviset.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > - Status: `SIDOPERSON — FÖDELSE OCH FÖRÄLDRAR SÄKRA`
 > - A I/18 a:s internhänvisning till sida 190 är redan säkrad. Senare liv,
@@ -253,7 +253,7 @@ skärpt:** **husförhörens datum är inte bara avvikande utan omöjligt**, och
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

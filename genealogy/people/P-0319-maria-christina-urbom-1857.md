@@ -170,7 +170,7 @@ dess bevarade äldre ordalydelse ingår i blockcitatet nedan och gäller inte
 parallellt som aktuell bedömning. Motsvarande tillägg i C-0276 och C-0277 ägs
 centralt i T-0159 och är ännu inte infört där.
 
-#### Trädverkan rättad 2026-09-10, T-0193
+### Trädverkan rättad 2026-09-10, T-0193
 
 Fältet stod `BÄRANDE`. **Det är rättat till `EJ BÄRANDE`.** `Trädverkan`
 besvarar frågan *får antavlan passera denna person?* — och **ingen anlinje kan

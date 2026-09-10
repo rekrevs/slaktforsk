@@ -197,7 +197,7 @@ ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Två civilståndsceller lästa, 2026-09-10
+### Två civilståndsceller lästa, 2026-09-10
 
 C-0529:s kolumner 7 `civilstånd Äkta` och 17 `Modren gift` var **inte
 redovisade** i citationen. Båda är nu lästa i den **redan sparade fullbilden**,
@@ -207,13 +207,13 @@ citationen. **Ingen ny arkivåtkomst.** Kolumn 1, inskrivningsnumret, ligger i
 bladkantens skugga och är redovisad som **oläst — en bildgräns, inte en tom
 cell.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0340: Jöns Petter Jönsson`. Den lyder nu
 `P-0340: Jöns Petter Jönsson, född i Stöde 1872 och förd som äkta`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Dokumenterad sidogren inom föräldrahushållets livsbild. Han ska inte öppna en
 > egen djupkedja före nästa utgåvas fasta breddkohort.
@@ -221,7 +221,7 @@ Rubriken löd `P-0340: Jöns Petter Jönsson`. Den lyder nu
 **Bedömningen står kvar i sak.** Ingen egen djupkedja öppnas; de tre
 källvägarna i profilen är avgränsade och två av dem betjänar hela familjen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -193,7 +193,7 @@ forskningsfråga; ingen tidslinje, inga namnformer och ingen profil fanns.
 **Samtliga fyra ursprungliga assertioner står kvar med oförändrad lydelse**,
 med preciserade och utökade led utmärkta i saktexten.
 
-#### A-7795: `Hogtorp[?]` upplöst av en annan källa, 2026-09-09
+### A-7795: `Hogtorp[?]` upplöst av en annan källa, 2026-09-09
 
 C-0075:s dopvittneskolumn reserverade boställsnamnet som `Hogtorp[?]`, och
 T-0125 lämnade reservationen kvar efter en fullbildsprövning. **Den är nu
@@ -202,28 +202,28 @@ skriver uttryckligen `Högtorp` med folio 170 för samma man med hustru.
 **En reservation i en källa kan lösas av en annan källa i samma församling**,
 och det ger henne dessutom en belagd bostadsort 1874–1877.
 
-#### A-7794: `Gästekvarn[?]` är utesluten, 2026-09-09
+### A-7794: `Gästekvarn[?]` är utesluten, 2026-09-09
 
 C-0097:s avskrift läste boställsnamnet `Gästekvarn[?]`. Vid 430–600 % är
 ordets fyra första bokstäver otvetydigt **`Gräs`** — ett `r` följer på `G` —
 vilket utesluter `Gäste-`. Ordets senare del läses `-löten` med reservation.
 **Ortnamnet är inte tidigare belagt i projektet.**
 
-#### A-0423 preciserad: bladet är ett utdrag, 2026-09-09
+### A-0423 preciserad: bladet är ett utdrag, 2026-09-09
 
 Folkräkningsutdraget 1890 bär dokumenthuvudet **`Utdrag ur
 Husförhörslängden`**. Uppgiften står inte i citationen, trots att den avgör
 oberoendefrågan: **hennes födelseår 1845 och födelseort Råby-Rönö vilar på en
 enda bokuppgift**, inte på en källa oberoende av husförhörslängden.
 
-#### Rättad egen post — T-0143, 2026-09-08, historisk
+### Rättad egen post — T-0143, 2026-09-08, historisk
 
 T-0143 prövade hela Brostugans familj i den sparade fullbilden och rättade
 makens födelseår från 1848 till 1843, med den uttryckliga principen att
 **inga egna hälsouppgifter härleds ur grafiska tecken utan rubrikstöd.**
 **Den principen styr hur A-7796 och A-7797 är formulerade.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

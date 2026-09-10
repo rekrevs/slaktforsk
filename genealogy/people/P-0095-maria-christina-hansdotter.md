@@ -255,7 +255,7 @@ T-0131,2026-09-08: alla äldre A-id och tidigare text bevaras nedan. Fem barn, s
 >   ligger inom Bygdeå och ger ingen separat intersockenflytt att söka
 >   (research-log Batch 247).
 
-#### Följdrättelse från T-0181, 2026-09-09: två led i sonens familj
+### Följdrättelse från T-0181, 2026-09-09: två led i sonens familj
 
 Två led i akten bar felaktiga läsningar ur
 [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md).

@@ -156,7 +156,7 @@ namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### A-7803: tre led utskrivna och två källgränser namngivna, 2026-09-09
+### A-7803: tre led utskrivna och två källgränser namngivna, 2026-09-09
 
 Uppgiften preciseras utan ny bildläsning. **Hennes tre belagda led** —
 äktenskapet, byn och vittnesrollen — skrivs ut, och **två källgränser
@@ -165,14 +165,14 @@ barnet. **Båda är källans ordning och inte läsosäkerheter**, vilket avgör 
 som går att göra: en omläsning ger ingenting, medan byns husförhörsrad kan
 namnge henne.
 
-#### Full egen post prövad — T-0131, 2026-09-08, historisk
+### Full egen post prövad — T-0131, 2026-09-08, historisk
 
 T-0131 prövade dopposten över samtliga kolumner och lämnade vittnena som
 prövade reservationer, med den uttryckliga anmärkningen att faddrarna hålls
 separata från föräldrar och släktingar **tills en identitetskedja finns.**
 **Den avgränsningen står fast.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

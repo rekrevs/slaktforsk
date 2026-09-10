@@ -187,7 +187,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 alla tre med överspelade led utmärkta i saktexten.
 
-#### A-0314: datumledet överspelat, 2026-09-09
+### A-0314: datumledet överspelat, 2026-09-09
 
 Båda husförhörsvolymernas helbilder läser `1882 ⁶/₈`, alltså **1882-08-06**,
 med nämnarens två staplade bowlar som grund och systerns `²⁵/₁₀` på samma
@@ -195,19 +195,19 @@ uppslag som jämförelse (A-7752). Den felaktiga månaden vilade på C-0404
 ensam, eftersom C-0060:s databaspost bara ger årtalet. Ursprungslydelsen
 bevaras.
 
-#### A-0314, A-0315 och A-2104: oberoendet överskattat, 2026-09-09
+### A-0314, A-0315 och A-2104: oberoendet överskattat, 2026-09-09
 
 C-0060 bär dokumenthuvudet `Utdrag ur Husförhörslängden för Degerfors` och
 C-0402 `Utdrag ur Församlingsboken för Degerfors`; båda är avskrifter ur den
 bokserie som C-0404 och C-0549 tillhör. De parvisa beläggen är alltså **en**
 informationsväg, inte två röster. Ursprungslydelserna bevaras.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.
 
-#### Rättelse 2026-09-09, T-0179: Oskar Rudolf har person-id P-0073
+### Rättelse 2026-09-09, T-0179: Oskar Rudolf har person-id P-0073
 
 Vid T-0178:s skrivning angavs att tre syskon saknar egna person-id — Oskar
 Rudolf och tvillingarna. **Det är fel: Oskar Rudolf är
@@ -219,7 +219,7 @@ bär nu rätt länk, och **två** syskon — tvillingarna Anders och Carl, född
 1873 — saknar person-id. Rättelsen gjordes när T-0179:s kohort öppnades, där
 P-0073 är kohortmedlem.
 
-#### Rättelse 2026-09-09, T-0179: tvillingarna, deras öde och tre källserier
+### Rättelse 2026-09-09, T-0179: tvillingarna, deras öde och tre källserier
 
 Den tidigare rättelsen ovan var **ofullständig**. T-0179 prövade T-0178:s
 uppgifter mot projektets källregister, och fyra påståenden faller.

@@ -192,7 +192,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 med ett preciserat led och en med ett överspelat och ett uttryckligen
 kvarstående led utmärkta i saktexten.
 
-#### A-0295: familjenumret överspelat, förbudet kvarstår, 2026-09-09
+### A-0295: familjenumret överspelat, förbudet kvarstår, 2026-09-09
 
 Databasens `familj nr 4` kommer ur indexposten och sammanfaller **inte** med
 bladets egen hushållskolumn, som inte avslutar hennes grupp alls på detta ark
@@ -201,7 +201,7 @@ belagd **står oförändrat och är oförändrat bindande** — samboende i ett
 oavslutat hushållsblock är en samboendeuppgift, inte en släktskapsuppgift.
 Ursprungslydelsen bevaras.
 
-#### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
+### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
 
 Hela bladbilden återsågs. `Fredrika Antonia Fällman och hennes son Johan
 Alfred står separat. Ingen av dessa sidpersoner får en släktrelation till
@@ -217,7 +217,7 @@ hushåll, men inte skilda från Johan Augusts rad i hushållskolumnens mening.
 **Kortare** stannar T-0179 på `hennes son`: prefixet `oä. s.` ger inte
 moderskapet, och det förs som en bevarad konflikt.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

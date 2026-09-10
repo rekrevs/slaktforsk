@@ -187,7 +187,7 @@ forskningsfråga; ingen tidslinje, inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 med preciserade led utmärkta i saktexten.
 
-#### A-7802: `icke döpt` är en tryckt kategori, och den saknas på hennes rad, 2026-09-09
+### A-7802: `icke döpt` är en tryckt kategori, och den saknas på hennes rad, 2026-09-09
 
 Kolumn 1:s tryckta rubrik slutar med `icke döpt.`, och tre barn i två andra
 hushåll på samma sida bär tillägget uttryckligen. **Att hennes rad inte gör
@@ -195,14 +195,14 @@ det är därför en läst negation och inte en tystnad: hon var döpt senast den
 31 december 1910.** Uppgiften är ny och är **aktens enda uppgift om hennes
 dop**, eftersom hennes födelsenotis inte är lokaliserad.
 
-#### A-0455 och A-0456 preciserade, 2026-09-09
+### A-0455 och A-0456 preciserade, 2026-09-09
 
 Efternamnet Eriksson är en **slutsats ur formulärets ingress**, inte en
 avskrift av hennes rad. Och bladet bär dokumenthuvudet **`Utdrag ur
 Församlingsboken`** — uppgiften om födelseår och födelseförsamling vilar på
 **en enda bokuppgift**, inte på en källa oberoende av församlingsboken.
 
-#### Tillägg om rotenumret och om oberoende — T-0153, 2026-09-08, historiska
+### Tillägg om rotenumret och om oberoende — T-0153, 2026-09-08, historiska
 
 T-0153 upphävde två lydelser i C-0082: att talet efter yrket är ett
 rotenummer — kolumnrubriken lyder `Yrke och nummer i yrkesuppgift` — och att
@@ -210,12 +210,12 @@ bladet skulle vara en av 1930 års folkräkning oberoende uppgift, eftersom
 dokumenthuvudet visar samma bok och samma bokföringstradition.
 **Båda preciseringarna gäller och styr hur A-7802 är formulerad.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.
 
-#### Följdrättelse från T-0183, 2026-09-10: halvbrodern och flyttdagen
+### Följdrättelse från T-0183, 2026-09-10: halvbrodern och flyttdagen
 
 Två uppgifter är rättade respektive tillförda vid konsolideringen av
 kohorten P-0121–P-0138, **båda ur en sida projektet redan hade sparat**:

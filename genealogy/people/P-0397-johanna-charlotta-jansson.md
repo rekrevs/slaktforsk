@@ -209,13 +209,13 @@ inga namnformer och ingen profil fanns.
 
 **Samtliga fem ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Formatfel rättat, 2026-09-10
+### Formatfel rättat, 2026-09-10
 
 `## Påståenden` var **uppdelad i två tabeller av en tom rad** före A-4285,
 vilket bryter Markdown-tabellen så att raden renderas utan kolumnrubriker.
 **Rättelsen är rent redaktionell**; ingen assertion är omskriven.
 
-#### Gravregistrets frånvaro införd, 2026-09-10
+### Gravregistrets frånvaro införd, 2026-09-10
 
 C-0945 förtecknar **elva Fredbergar** i familjegraven, inklusive maken,
 båda styvbarnen och **samtliga fem av hennes egna barn.** **Hon är inte bland
@@ -223,13 +223,13 @@ dem.** **Uppgiften hade aldrig nått hennes akt**, trots att gravregistret är
 citerat i alla fem barnens akter. Den är förd som A-7924 **med sin egen
 begränsning utskriven.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0397: Johanna Charlotta Jansson`. Den lyder nu
 `P-0397: Johanna Charlotta Jansson, Olaus Fredbergs andra hustru`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför anlinjens prioriterade breddkohort. Barnen i andra giftet
 > är nu namngivna i folkräkningsoriginalet 1910. Egen födelsenotis, föräldrar,
@@ -238,7 +238,7 @@ Rubriken löd `P-0397: Johanna Charlotta Jansson`. Den lyder nu
 **Bedömningen står kvar i sak**, med den skillnaden att **barnens exakta
 födelsedata numera finns i gravregistret.**
 
-#### T-0128: begränsad följdavstämning, historisk
+### T-0128: begränsad följdavstämning, historisk
 
 > 2026-09-08: Olaus civilståndskategori 1925 ger ingen säker dödsdag för
 > Johanna och avgör inte om äktenskapet upphörde genom död eller skilsmässa.
@@ -247,7 +247,7 @@ födelsedata numera finns i gravregistret.**
 
 **Bedömningen står kvar i sak**, och **T-0195 är denna uppgift.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

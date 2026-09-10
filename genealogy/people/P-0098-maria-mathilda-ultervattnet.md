@@ -181,20 +181,20 @@ relationer, inga namnformer och ingen profil fanns.
 **Båda ursprungliga assertioner står kvar med oförändrad lydelse**, med ett
 preciserat led utmärkt i A-0375:s saktext.
 
-#### En ny uppgift, 2026-09-09
+### En ny uppgift, 2026-09-09
 
 A-7775 tillför **två lästa nollor** ur en redan sparad bild: `Död.`-kolumnen
 och `Flyttat`-gruppen är tomma på hennes rad, och båda kolumnerna är belagt i
 bruk på samma uppslag. **Det flyttar hennes lucka framåt i tiden** — den
 uppstår efter 1873, inte i denna bok.
 
-#### Införandesteg från T-0131, 2026-09-08, historiskt
+### Införandesteg från T-0131, 2026-09-08, historiskt
 
 T-0131 lämnade P-0098 kvar som känd dotter trots frånvaron i det sena
 hushållet, och överlämnade full aktgranskning till denna kohort.
 **Bedömningen står fast och är nu utförd.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

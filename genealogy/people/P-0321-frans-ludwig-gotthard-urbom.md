@@ -172,7 +172,7 @@ en punkt under `## Forskningsfrågor` och T-0135:s följdrättelse med bevarad
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Reservationens omfattning preciserad, 2026-09-10
+### Reservationens omfattning preciserad, 2026-09-10
 
 A-1769 säger att T-0135 `reserverar dag/månad`. **Citationens egen ordalydelse
 är smalare:** `Frans Ludwig Gotthards månad efter 6/ är prövad men reserveras`,
@@ -181,30 +181,30 @@ och `äldre 6/5 behålls som tidigare läsning`. **Dagsiffran är alltså läst.
 tillförlitlighet `medel`, eftersom den vilar på citationens formulering och
 inte på en egen omläsning av bilden.
 
-#### T-0135:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0135:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Full aktgranskning och profiladoption ägs av T-0193;
 detta är ingen full kontraktsgranskning`. **T-0193 är denna uppgift**, och den
 fulla granskningen är utförd med daterad PK-bedömning i profilen.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0321: Frans Ludwig Gotthard Urbom`. Den lyder nu
 `P-0321: Frans Ludwig Gotthard Urbom (1862–1863)`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsfrågor`, historisk
+### Tidigare `## Forskningsfrågor`, historisk
 
 > - Kontrollera födelsen och dödsfallet i Husby-Oppundas ministerialbok.
 
 **Bedömningen står kvar i sak** och är nu förd som Q-01 och Q-02 i profilen,
 med källvägar och namngiven Wotan-ägare.
 
-#### T-0135: begränsad följdrättelse, historisk
+### T-0135: begränsad följdrättelse, historisk
 
 De andralästa datumen i C-0276/C-0277 har avstämts; separata syskon med samma
 dopnamn hålls isär. **Bedömningen står kvar i sak.**
 
-##### Före följdrättelsen, historisk ordalydelse
+#### Före följdrättelsen, historisk ordalydelse
 
 > # P-0321: Frans Ludwig Gotthard Urbom
 >
@@ -230,7 +230,7 @@ dopnamn hålls isär. **Bedömningen står kvar i sak.**
 > | [P-0111 Adela Amalia Urbom](P-0111-adela-amalia-urbom.md) | äldre helsyster | TRANSCRIBED | C-0277 |
 > | [P-0320 Maria Christina Urbom](P-0320-maria-christina-urbom-1858.md) | äldre helsyster | TRANSCRIBED | C-0277 |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

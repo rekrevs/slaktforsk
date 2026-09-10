@@ -232,7 +232,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-3041 står kvar med oförändrad lydelse.**
 
-#### Vigselkronologin uppställd, 2026-09-10
+### Vigselkronologin uppställd, 2026-09-10
 
 **Sex uppgifter ur fyra källtyper stod i tre citationer och i moderns akt.**
 **Ingen hade ställt dem i följd.** **Uppställningen ger två resultat:** **hans
@@ -245,7 +245,7 @@ här väljer bort.**
 **C-0763 bär redan ordet `vigselintervall` i sitt filnamn.** **Intervallets
 gränser hade ändå inte skrivits ut i någon av de tre syskonakterna.**
 
-#### Moderns patronymikon: ett avgörande som stannat i en akt, 2026-09-10
+### Moderns patronymikon: ett avgörande som stannat i en akt, 2026-09-10
 
 **`Jansdotter` i hans post och `Jonsdotter` i systrarnas har stått i tre akter
 utan att någon fört över svaret.** **Svaret finns i moderns egen akt:**
@@ -257,26 +257,26 @@ person` som en känd sak.**
 avgjorts på ett ställe och inte nått ett annat** — **men det första där det
 som stannat inte är en rättelse utan ett avgörande.**
 
-#### En sibling utan personakt förd, 2026-09-10
+### En sibling utan personakt förd, 2026-09-10
 
 **`Anders Fredric`, född och död 1844, står i C-0718 och saknades i alla tre
 syskonakternas relationstabeller.** Han är nu förd **som relation utan
 person-id**, i enlighet med hur programmet behandlat andra oidentifierade
 barnrader.
 
-#### Fyra relationer förda, 2026-09-10
+### Fyra relationer förda, 2026-09-10
 
 Akten förde tidigare mor och ett yngre syskon. **Modernas make, de två
 systrarna och den uttryckliga raden om den okände fadern saknades.** De är nu
 förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0494: Carl Johan`. Den lyder nu
 `P-0494: Carl Johan, vars födelse och nästa syskons avgränsar moderns vigsel`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > - Status: `SIDOPERSON — FÖDELSE OCH MODER SÄKRA; FADER ÖPPEN`
 > - Återta faderskapet endast genom en uttrycklig samtida faderskaps-,
@@ -286,7 +286,7 @@ Rubriken löd `P-0494: Carl Johan`. Den lyder nu
 
 **Bedömningen står kvar i sak, och faderskapsspärren är oförändrad.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

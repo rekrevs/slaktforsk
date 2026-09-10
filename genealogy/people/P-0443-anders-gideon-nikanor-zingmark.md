@@ -189,7 +189,7 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
+### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
 
 A-6402 bar texten `Begränsad införing — full granskning ägs av T-0199`.
 **Granskningen är utförd**, och **den fann en avrundning:** `halvårsgammal` mot
@@ -197,26 +197,26 @@ A-6402 bar texten `Begränsad införing — full granskning ägs av T-0199`.
 räkningen står i A-7961. **Söknyckeln `halvårsgammal` som exakt ålder är
 spärrad.**
 
-#### Tre utvandringar förda samman, 2026-09-10
+### Tre utvandringar förda samman, 2026-09-10
 
 **Emanuels avresa 1892 stod i C-0552, Olof Konrads 1904 i C-0574 och faderns
 1907 i samma citation.** **Ingen akt hade räknat dem som en följd.**
 Uppräkningen är förd som A-7961 **med fyra utskrivna gränser**, varav den
 sista är att **den inte är fullständig.**
 
-#### Fem relationer förda, 2026-09-10
+### Fem relationer förda, 2026-09-10
 
 Akten förde tidigare far och mor. **Brodern, farfadern, faderns bror, faderns
 halvbror med samma namn och faderns halvbror på samma folio saknades.** De är
 nu förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0443: Anders Gideon Nikanor Zingmark`. Den lyder nu
 `P-0443: Anders Gideon Nikanor Zingmark, den siste av tre utvandrade söner`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson; ingen fortsatt livslinje följd.
 
@@ -224,7 +224,7 @@ Rubriken löd `P-0443: Anders Gideon Nikanor Zingmark`. Den lyder nu
 följas** — **familjen lämnade landet.** **Skillnaden mellan en outforskad
 lucka och en källgräns är avgörande för hur akten ska läsas.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

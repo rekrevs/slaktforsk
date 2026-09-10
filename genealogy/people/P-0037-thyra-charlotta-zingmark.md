@@ -212,7 +212,7 @@ inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 Två har fått överspelade led utmärkta i saktexten enligt pilotpreciseringen.
 
-#### Visningsnamnet ändrat, 2026-09-09
+### Visningsnamnet ändrat, 2026-09-09
 
 Titeln var `P-0037: Thyra Charlotta Tärnvik, född Zingmark`. **Samtliga fyra
 samtida källor skriver `Tyra` utan `h`**, och både stavningen `Thyra` och det
@@ -220,7 +220,7 @@ gifta namnet `Tärnvik` kommer enbart ur sekundärträdet C-0001. Titeln följer
 nu originalens form; båda de sekundära leden står kvar i Namnformer som
 `LEAD` och ska prövas vid sökning. Filnamnet är oförändrat.
 
-#### A-2503 och A-3415: datumleden överspelade, 2026-09-09
+### A-2503 och A-3415: datumleden överspelade, 2026-09-09
 
 Degerfors A II a/3 rad 11 läser vid 700 % `1907 ¹²/₇`, inte `¹⁴/₇`. Därmed är
 A-2503:s datum överspelat och A-3415:s konfliktled upphävt — de tre källorna
@@ -228,7 +228,7 @@ A-2503:s datum överspelat och A-3415:s konfliktled upphävt — de tre källorn
 ursprungslydelserna bevaras, och T-0154:s anmälan är besvarad i stället för
 införd.
 
-#### Relationstabellens kolumner, 2026-09-09
+### Relationstabellens kolumner, 2026-09-09
 
 Den äldre tabellen hade kolumnerna `Person | Relation | Status | Belägg` och
 saknade `Tid/plats`. Den är förd till personmallens fem kolumner; de två
@@ -236,7 +236,7 @@ befintliga raderna behåller sina belägg och har fått tid/plats tillagd, och
 tio syskonrader plus en oavgjord identitet är tillagda ur redan lästa källor.
 Inget A-id och ingen tidigare relation är borttagen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

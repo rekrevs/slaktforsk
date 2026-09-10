@@ -196,38 +196,38 @@ bevarad äldre text; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### T-0142:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0142:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Explicit full införandeadoption ligger i T-0195; en ny
 profil skapas inte i detta följdsteg`. **T-0195 är denna uppgift**, och den
 fulla granskningen är utförd med daterad PK-bedömning i profilen.
 
-#### Barnraden och dittoorten införda, 2026-09-10
+### Barnraden och dittoorten införda, 2026-09-10
 
 A-2279 återger födelsedatumet men **säger inte att orten står genom dito**,
 och akten hade **inte räknat barnens födelseintervall.** Båda är nu förda som
 A-7929, tillsammans med hushållets tre bokvägar. **A-2279 skrivs inte om.**
 
-#### Svärmoderns akt länkad, 2026-09-10
+### Svärmoderns akt länkad, 2026-09-10
 
 Relationstabellen har utökats med
 [P-0059 Kajsa Charlotta](P-0059-cajsa-lotta-jonsdotter.md), som står i
 samma hushåll i alla tre källorna men **saknades i aktens relationstabell.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0398: Matilda Johanna Green`. Den lyder nu
 `P-0398: Matilda Johanna Green, handelsföreståndarhustru på Alnö`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför anlinjens prioriterade breddkohort. Egen födelsenotis,
 > föräldrar och livsslut är inte prövade.
 
 **Bedömningen står kvar i sak** och är nu förd som Q-01 och Q-02 i profilen.
 
-#### T-0142: begränsad följdavstämning, historisk
+### T-0142: begränsad följdavstämning, historisk
 
 > De daterade hushållen är skilda observationer, inte en obruten levnadskedja
 > eller oberoende information om hennes födelse. Alnö A II a/10 anger makarnas
@@ -240,7 +240,7 @@ Rubriken löd `P-0398: Matilda Johanna Green`. Den lyder nu
 
 **Bedömningen står kvar i sak** och är nu inarbetad i akttexten.
 
-##### Tidigare text — historisk före följdrättelsen
+#### Tidigare text — historisk före följdrättelsen
 
 > # P-0398: Matilda Johanna Green
 >
@@ -263,7 +263,7 @@ Rubriken löd `P-0398: Matilda Johanna Green`. Den lyder nu
 > | [P-0400 Alva Matilda Agensia](P-0400-alva-matilda-agensia.md) | dotter | CORROBORATED | C-0491, C-0492 |
 > | [P-0401 Anna Adelia](P-0401-anna-adelia.md) | dotter | CORROBORATED | C-0491, C-0492 |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -152,7 +152,7 @@ namnformer och ingen profil fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse**, med ett
 preciserat led utmärkt i saktexten.
 
-#### A-0353: reservationen preciserad, två led tillkommer, 2026-09-09
+### A-0353: reservationen preciserad, två led tillkommer, 2026-09-09
 
 Uppgiften att `Initialer och namnform är preliminära` preciseras: **namnet och
 ståndsbeteckningen är säkert lästa**, och reservationen gäller inte dem.
@@ -161,7 +161,7 @@ Två nya led tillkommer ur samma rad: **en namnlös hustru** och **orten
 `Risliden`**, den senare med T-0163:s reservation kvar (A-7770).
 Ursprungslydelsen bevaras.
 
-#### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
+### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
 
 T-0163 läste fadderkolumnen vid konsolideringen av P-0088 och skrev bland
 annat `Bond. J. A. Lundgren o h:u i Risliden[?]`. Samma tillägg rättade
@@ -173,7 +173,7 @@ efternamn och hustru är säkra, ortnamnets slut är det inte. **Övriga led i
 T-0163:s läsning rörs inte här**; de tillhör P-0088, P-0089, P-0091 och
 P-0093.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

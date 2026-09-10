@@ -15,7 +15,7 @@
 **En hushållssida är hela underlaget.**
 
 Ljustorp `A I/10` sida **265** `Lagfors` raderna 1–5 ger **Ingrid Gustafva Byström, född
-1855-04-10 i **Indal****, i arbetaren Henrik Petter
+1855-04-10 i **Indal**, i arbetaren Henrik Petter
 Henrikssons hushåll ([C-0543](../citations/C-0543-ljustorp-AI10-sida-265-och-BI3-1894-erik-jonas-till-holm.md)).
 
 **Hushållets identitet vilar inte på namnlikhet.** **Bokhänvisningen
@@ -194,35 +194,35 @@ ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen A-2585 står kvar med oförändrad lydelse.**
 
-#### Familjens födelseintervall räknade, 2026-09-10
+### Familjens födelseintervall räknade, 2026-09-10
 
 **De tre sönernas födelsedagar stod i C-0543 sedan tidigare.** **Ingen hade
 räknat mellanrummen.** **Luckan 1881–1887 är förd som A-7969 i faderns akt**,
 med **den avgörande skillnaden mot programmets två tidigare luckor: denna går
 att pröva i öppna böcker.**
 
-#### Tillnamnet lästes som söknyckel, 2026-09-10
+### Tillnamnet lästes som söknyckel, 2026-09-10
 
 **`Byström` är inget patronymikon.** **Akten hade inte noterat det**, trots att **det är den enda praktiska ingången till en kvinna utan egna original.** **Samma slutsats drogs i T-0199 om `Sjöberg`.**
 
-#### Fyra relationer förda, 2026-09-10
+### Fyra relationer förda, 2026-09-10
 
 Akten förde tidigare make och tre söner.
 **Makens bror på samma hushållssida saknades**, trots att
 han stod i samma eller anslutande citationer. Han är nu förd.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0457: Ingrid Gustafva Byström`. Den lyder nu
 `P-0457: Ingrid Gustafva Byström, hushållets enda inflyttade, med ett fast tillnamn och en oläst födelsenotis i Indal`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Källutlöst sidoperson; egna original och föräldrar har inte följts.
 
 **Bedömningen står kvar i sak.** **En precisering tillkommer:** **hennes rad är hushållets enda öppning mot en annan församling**, och **Indals `C/4` är redan bekräftat åtkomlig.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

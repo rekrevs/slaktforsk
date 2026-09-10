@@ -181,7 +181,7 @@ inga namnformer och ingen profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### En felbenämnd relation rättad, 2026-09-10
+### En felbenämnd relation rättad, 2026-09-10
 
 Relationstabellen förde [P-0287 Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md)
 som **`ingift faster`.** **Benämningen är omöjlig:** han är **son till Olaus
@@ -195,19 +195,19 @@ läst källa**, och **ingen närmare bestämning görs.**
 
 > | [P-0287 Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md) | ingift faster | CORROBORATED | C-0322, C-0323 |
 
-#### Dottern införd i relationstabellen, 2026-09-10
+### Dottern införd i relationstabellen, 2026-09-10
 
 **Augusta Fredrika stod i A-2620 men inte i relationstabellen.** Hon är nu
 förd, **med båda födelsedagarna och avvikelsen utskrivna.** **Hon har inget
 eget P-id i denna akt.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0414: Anna Lovisa Andersdotter`. Den lyder nu
 `P-0414: Anna Lovisa Andersdotter, vigd i Rökland 1874`. **Filnamnet är
 oförändrat.**
 
-#### T-0144: anhörigrättelse, historisk
+### T-0144: anhörigrättelse, historisk
 
 > Dottern Augusta Fredrikas födelsedag anges `75 26/9` i C-0645 och
 > 1875-09-20 i C-0323. Avvikelsen fanns i citationerna men hade inte nått
@@ -218,7 +218,7 @@ oförändrat.**
 
 **Bedömningen står kvar i sak**, och **T-0197 är den kohort som avses.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Hushållsidentiteten och vigseln är säkra även i Alnö A I/9a sida 192, som
 > också korroborerar hennes exakta födelsedatum och dottern Augusta Fredrika.
@@ -229,7 +229,7 @@ oförändrat.**
 för starkt:** de tre hushållsböckerna **kan ha övertagit födelseuppgiften från
 varandra**, och **ingen av dem är hennes egen födelsepost.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

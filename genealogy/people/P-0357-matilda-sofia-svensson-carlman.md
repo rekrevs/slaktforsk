@@ -206,20 +206,20 @@ profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Vigselpostens två anteckningar ställda mot varandra, 2026-09-10
+### Vigselpostens två anteckningar ställda mot varandra, 2026-09-10
 
 A-2388 återger hennes anteckning `testamente uppvisades oklandrat` men
 **ställer den inte mot brudgummens `Bouppteckning och arfskifte uppvisadt`.**
 **Skillnaden är materiell** och är förd som A-7911. **Ingen ny läsning** — båda
 raderna står i C-0539:s avskrift sedan tidigare.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0357: Matilda Sofia Svensson, gift Carlman`. Den lyder nu
 `P-0357: Matilda Sofia Svensson, änkefru i Kalmar och gift Carlman 1882`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Registrerad därför att hon bär Karl Augusts senare hushållskedja. Vigseln
 > 1882-03-28 och födelsedagen 1837-09-26 är originalbelagda; eget ursprung,
@@ -229,7 +229,7 @@ Rubriken löd `P-0357: Matilda Sofia Svensson, gift Carlman`. Den lyder nu
 **Bedömningen står kvar i sak** och är nu förd som Q-01 och Q-02 i profilen,
 med källvägar och namngiven Wotan-ägare.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

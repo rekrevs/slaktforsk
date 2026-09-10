@@ -192,7 +192,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Samtliga nio ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### C-0780:s attestnummer och datumled rättade, 2026-09-10
+### C-0780:s attestnummer och datumled rättade, 2026-09-10
 
 Citationen skriver `attestnummer 16` och säger att **det exakta datumet
 kommer från den samtidiga utflyttningslängden**. **Båda leden är fel.**
@@ -204,13 +204,13 @@ A-7824 och A-7825 här; **den ursprungliga avskriften är bevarad.**
 ändrar ingen slutsats — datumet 1892-10-22 stod redan rätt — men det gör
 uppgiften **samtidigt belagd i två källor** i stället för en.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0142: Anna Erika Eriksson`. Den lyder nu
 `P-0142: Anna Erika Eriksson, torpardotter i Svartgjötorp`. **Filnamnet är
 oförändrat.** Ingen akt har delats och ingen identitet har slagits samman.
 
-#### Införandesteg från T-0132, 2026-09-08, historiskt
+### Införandesteg från T-0132, 2026-09-08, historiskt
 
 2026-09-08: egen födelsepost fullprövad inklusive dop, kyrktagning,
 faddrar och prövade råkolumner. Full individuell adoption ägs av T-0184.
@@ -218,7 +218,7 @@ Vittnesinitialer och ortformer är prövade reservationer; rååldrarna
 `25/24` är en moderskolumn, inte två säkra föräldraåldrar.
 Biträdeskolumnen är inte religion.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

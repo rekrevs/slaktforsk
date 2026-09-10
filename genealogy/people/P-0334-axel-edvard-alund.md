@@ -182,7 +182,7 @@ rader; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Systerns namnform följd, 2026-09-10
+### Systerns namnform följd, 2026-09-10
 
 Relationstabellen skriver systern på rad 4 som **`Hedda Lovisa`**, vilket är
 T-0167:s bokstavsformsavgjorda läsning. **Hennes akt och filnamn bär
@@ -190,12 +190,12 @@ fortfarande den felaktiga formen `Charlotta Lovisa`**, och länken går därför
 till [P-0332](P-0332-charlotta-lovisa-alund.md). **Rättelsen av hennes egen
 akt ägs inte av denna uppgift.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0334: Axel Edvard Ålund`. Den lyder nu
 `P-0334: Axel Edvard Ålund, född i Gryt 1853`. **Filnamnet är oförändrat.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -228,7 +228,7 @@ och en fullständig räkning.
 Nedan bevaras T-0141:s begränsade anhörigavstämning och därefter de avsnitt
 vars lydelse ersatts av ovanstående.
 
-#### Begränsad anhörigavstämning — T-0141
+### Begränsad anhörigavstämning — T-0141
 
 2026-09-08: dottern Annas senare hushållsdatum har rättats till
 **1796-06-26**, inte tidigare avskriftens 6 juni. Hennes egen födelse

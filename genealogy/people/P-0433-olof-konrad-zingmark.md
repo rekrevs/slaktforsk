@@ -193,7 +193,7 @@ profil fanns.
 
 **Samtliga fem ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### En överspelad forskningsstatus avförd, 2026-09-10
+### En överspelad forskningsstatus avförd, 2026-09-10
 
 Aktens `Forskningsstatus` sade att `församlingsbokens svårlästa
 utflyttningsanteckning är nästa återstart`. **T-0161 läste anteckningen
@@ -205,25 +205,25 @@ utflyttningsanteckning är nästa återstart`. **T-0161 läste anteckningen
 formulering som står kvar som parallell aktuell slutsats trots att ett senare
 tillägg upphäver den.**
 
-#### T-0161:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0161:s uppskjutna granskning är nu utförd, 2026-09-10
 
 A-6403 sade `Begränsad införing; full granskning ägs av T-0197`.
 **T-0197 är denna uppgift**, och den fulla granskningen är utförd med daterad
 PK-bedömning i profilen.
 
-#### Syskonskaran införd i relationstabellen, 2026-09-10
+### Syskonskaran införd i relationstabellen, 2026-09-10
 
 Relationstabellen omfattade tidigare bara föräldrarna och halvbrodern P-0028.
 **Samtliga syskon och halvsyskon på uppslaget är nu förda**, **inklusive
 brodern Emanuel, som utvandrade till Nordamerika 1892-08-20.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0433: Olof Konrad Zingmark`. Den lyder nu
 `P-0433: Olof Konrad Zingmark, frikallad och utvandrad till Amerika 1904`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk och överspelad
+### Tidigare `## Forskningsstatus`, historisk och överspelad
 
 > Sidoperson utanför antavlan; centralspinen är säkrad till Rosinedahl 1900.
 > Församlingsbokens svårlästa utflyttningsanteckning är nästa återstart.
@@ -231,7 +231,7 @@ Rubriken löd `P-0433: Olof Konrad Zingmark`. Den lyder nu
 **Första meningen står kvar i sak.** **Andra meningen är överspelad sedan
 2026-09-09** och får inte läsas som gällande.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

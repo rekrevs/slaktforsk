@@ -154,7 +154,7 @@ namnformer och ingen profil fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse**, med ett
 rättat led utmärkt i saktexten.
 
-#### A-0354: `pigan` håller inte, 2026-09-09
+### A-0354: `pigan` håller inte, 2026-09-09
 
 Avskriften och assertionen kallar henne piga. **Ordet före hennes namn är för
 långt för `pig.`** — fem till sju bokstäver — och hon står bunden till
@@ -162,7 +162,7 @@ långt för `pig.`** — fem till sju bokstäver — och hon står bunden till
 båda sparade skanningarna, och ingen av läsningarna fastställs.** Vad som
 faller är `pigan`; vad som står kvar är bindningen. Se A-7784.
 
-#### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
+### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
 
 T-0163 läste fadderkolumnen vid konsolideringen av P-0088 och skrev
 `Bolltjern[?] Jonas Högberg och [dess] hustru Maria Jonsd:r`, med den
@@ -175,7 +175,7 @@ Jonas Högberg bekräftas; ordet `hustru` och titeln `Bolltjern[?]` gör det
 inte, och deras oläslighet är nu redovisad som en källgräns i stället för en
 reservation.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

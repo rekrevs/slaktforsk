@@ -260,7 +260,7 @@ profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Två rättelser hade inte nått akten, 2026-09-10
+### Två rättelser hade inte nått akten, 2026-09-10
 
 **T-0143 rättade 2026-09-08 tre uppgifter i C-0580** — födelsedagen, dopdagen
 och moderns namnform — **och förklarade posten vara en konkurrerande kandidat
@@ -281,13 +281,13 @@ allvarligare:** **det som stod kvar var inte en formulering utan en
 tillförlitlighetsgrad.** **En akt som säger `CORROBORATED, mycket hög` om ett
 samband källan kallar oprövat leder inte bara fel — den stänger frågan.**
 
-#### Dopdagsargumentet fördes, 2026-09-10
+### Dopdagsargumentet fördes, 2026-09-10
 
 **Dopdagen 7 november stod i C-0580 sedan 2026-09-08.** **Ingen hade ställt den
 mot husförhörslängdens födelsedag 11 november.** **Slutsatsen följer inom en
 enda post:** de två läsningarna utesluter varandra. **Ingen dag väljs.**
 
-#### Patronymikonet bryggades till morfaderns namn, 2026-09-10
+### Patronymikonet bryggades till morfaderns namn, 2026-09-10
 
 **`Gustafsdotter` i kandidatposten och `Gustaf Sjöberg` i C-0576 stod i två
 skilda akter.** **P-0444 konsoliderades samma dag i T-0199**, och **först då
@@ -295,19 +295,19 @@ blev jämförelsen tillgänglig.** **Den identifierar inte posten**, men **den
 gör kandidaten avsevärt starkare** — och **det är motsatsen till vad T-0143:s
 rättelse först såg ut att göra.**
 
-#### Fem relationer förda, 2026-09-10
+### Fem relationer förda, 2026-09-10
 
 Akten förde tidigare mor och styvfar. **Morföräldrarna och fyra styvsyskon
 stod i citationerna och saknades.** De är nu förda, **tillsammans med den
 uttryckliga raden att den biologiske fadern är okänd.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0446: Karl August`. Den lyder nu
 `P-0446: Karl August, vars födelsepost inte kan vara hans som den står`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Ny sidoperson. Följ Helgesta 1896-11-13 för senare liv; biologisk far är
 > okänd och ska förbli oangiven utan en ny uttrycklig källa.
@@ -315,7 +315,7 @@ Rubriken löd `P-0446: Karl August`. Den lyder nu
 **Andra ledet står kvar oförändrat i sak.** **Första ledet är ofullständigt:**
 **det är två mottagarförsamlingar, inte en.** Se A-7965.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

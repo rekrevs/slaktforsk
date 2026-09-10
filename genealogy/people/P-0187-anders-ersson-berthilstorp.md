@@ -144,13 +144,13 @@ namnformer och ingen profil fanns.
 
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken saknade år och roll. Den lyder nu `P-0187: Anders Ersson, arbetare i Berthilstorp, dopvittne 1848`, eftersom
 namnet ensamt inte skiljer personen från namnlikar. **Filnamnet är
 oförändrat.** Ingen akt har delats och ingen identitet har slagits samman.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

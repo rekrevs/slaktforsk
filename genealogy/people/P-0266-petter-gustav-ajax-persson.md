@@ -260,13 +260,13 @@ serierna ovan var outnyttjade.
 Nedan bevaras T-0135:s och T-0141:s begränsade följdavstämningar och deras
 historikblock oförändrade.
 
-#### Begränsad följdavstämning — T-0135, 2026-09-08
+### Begränsad följdavstämning — T-0135, 2026-09-08
 
 Adelides rad i A I/8 är dottermarkerad i Ajax-hushållet, medan en nästan liknamnig rad med samma datum i A I/6 står under en separat kvinnrad. Varken en biologisk dotterrelation till Ajax-paret eller en ny mor fastställs här. Bokperioderna bevisar inte samtidig eller obruten vistelse för alla namngivna barn. [C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md).
 
 Detta är en materiell följdrättelse, inte en full individuell konsolidering eller ett nytt kontraktsgodkännande. Profil och full granskning adopteras uttryckligen av [T-0173](../../wotan/dev-log/T-0173.md). Alla äldre A-id:n är bevarade.
 
-#### Historik: ersatta formuleringar
+### Historik: ersatta formuleringar
 
 Följande tidigare text ersätts av ovanstående källbundna rättelser:
 
@@ -274,7 +274,7 @@ Följande tidigare text ersätts av ovanstående källbundna rättelser:
 > | [P-0326 Adelide Amalia Ajax](P-0326-adelide-amalia-ajax.md) | dotter | TRANSCRIBED | C-0291 |
 
 
-#### Begränsad följdavstämning — T-0141, 2026-09-08
+### Begränsad följdavstämning — T-0141, 2026-09-08
 
 Familjens gemensamma inflyttningshänvisning på Stordalen sida 266 läses `17 p.262 d.b.`, inte den äldre citationsläsningen 263. Den pekar på en intern tidigare post 1817, inte en säkrad extern flyttdag. Sida 263 är nu kontrollerad utan paret, men 262 är ännu oläst. [T-0329](../../wotan/dev-log/T-0329.md) äger den fasta familjebryggan. [C-0297](../citations/C-0297-hammar-AI3b-stordalen-sida-266-ajax-familj.md)
 

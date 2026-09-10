@@ -212,7 +212,7 @@ forskningsfråga; ingen tidslinje, inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 med preciserade led utmärkta i saktexten.
 
-#### A-7809: ett parentetiskt tillägg som ingen annan rad har, 2026-09-10
+### A-7809: ett parentetiskt tillägg som ingen annan rad har, 2026-09-10
 
 Hennes födelseortscell bär `d:o` följt av **`(hu.)`**. **Tillägget är läst men
 inte upplöst**, och **ingen annan rad på uppslaget bär ett parentetiskt
@@ -221,14 +221,14 @@ formulärbruk. **Innebörden får inte gissas**, och tillägget får särskilt
 **inte** läsas som en hälsouppgift: det står i födelseortskolumnen, inte i
 lyteskolumnen.
 
-#### A-7809: `icke döpt` är en tryckt kategori, och den saknas på hennes rad, 2026-09-10
+### A-7809: `icke döpt` är en tryckt kategori, och den saknas på hennes rad, 2026-09-10
 
 Kolumn 1:s tryckta rubrik slutar med `icke döpt.`, och tre barn i två andra
 hushåll på samma sida bär tillägget uttryckligen. **Att hennes rad inte gör
 det är därför en läst negation: hon var döpt senast den 31 december 1910** —
 och vid ett års ålder alltså 1909 eller 1910.
 
-#### Relationen till P-0118 preciserad, 2026-09-10
+### Relationen till P-0118 preciserad, 2026-09-10
 
 Aktens ursprungliga relationstabell nämnde bara föräldrarna. **Erik Axel förs
 som halvbror på mödernet, inte som bror.** Flens födelsebok 1902 skriver
@@ -237,13 +237,13 @@ församlingsbok sida 185 bär prästens marginalanteckning **`hennes o. ä.`** v
 hans rad mot **`gemens.`** vid Ture Edvards. **Uppgiften ägs av P-0118:s akt
 och är inrapporterad till T-0153.**
 
-#### Tillägg om rotenumret och om oberoende — T-0153, 2026-09-08, historiska
+### Tillägg om rotenumret och om oberoende — T-0153, 2026-09-08, historiska
 
 T-0153 upphävde två lydelser i C-0082: att talet efter yrket är ett
 rotenummer, och att bladet skulle vara en av 1930 års folkräkning oberoende
 uppgift. **Båda preciseringarna gäller och styr hur A-7809 är formulerad.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

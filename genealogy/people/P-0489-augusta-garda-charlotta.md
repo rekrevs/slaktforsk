@@ -172,26 +172,26 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Namnformstabell införd, 2026-09-10
+### Namnformstabell införd, 2026-09-10
 
 Akten sade i löptext att `efternamn står inte utskrivet i originalen och
 konstrueras inte`, **men saknade namnformstabell.** Bedömningen står kvar i
 sak och är nu förd i tabellform, **enligt samma modell som systern
 [P-0491](P-0491-edit-maria-justina.md)** fick i T-0144.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0489: Augusta Gärda Charlotta`. Den lyder nu `P-0489: Augusta Gärda Charlotta, äldst av Fredbergs fem`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson; egen födelsenotis och senare liv är öppna.
 
 **Bedömningen står kvar i sak** och är nu förd som Q-01 och Q-02 i profilen,
 med källvägar och namngiven Wotan-ägare.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

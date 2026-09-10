@@ -205,13 +205,13 @@ relationer, inga namnformer och ingen profil fanns.
 
 **Båda ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### A-0266: kopiekedjan utskriven, 2026-09-09
+### A-0266: kopiekedjan utskriven, 2026-09-09
 
 Födelsedagen 1859-08-10 står lika i **fem** husförhörsuppslag, men varje bok
 hänvisar till nästa med sidnummer — de är led i **en** kopiekedja och inte
 fem röster. Egen födelsepost är fortfarande oläst. Ursprungslydelsen bevaras.
 
-#### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
 
 C-0051/C-0053/C-0054:s nya fullpostläsningar visar **10 augusti 1859**, inte
 den äldre omkastningen 8 oktober. Hon lämnar familjeraden för sida 398 med
@@ -237,7 +237,7 @@ läsningen är `Bernhard`, och förnamnet — delvis täckt av krysstrykningen �
 läses mest sannolikt `Alex` (A-7738). Rättelsen är rapporterad till C-0378
 och till P-0059:s ägare.
 
-#### Tidigare text — historisk före T-0142:s följdrättelse
+### Tidigare text — historisk före T-0142:s följdrättelse
 
 > # P-0061: Emma Maria Lundström
 >
@@ -248,7 +248,7 @@ och till P-0059:s ägare.
 > | A-0266 | Emma Maria var född 1859-10-08 i Sävar. | CORROBORATED | hög | [C-0051](../citations/C-0051-johan-august-barndom-sida-354.md), [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md) | Hushållssidorna överensstämmer. |
 > | A-0267 | Hon var dotter till Johan Pettersson Lundström och Cajsa Lotta Jonsdotter samt syster till Johan August. | CORROBORATED | hög | [C-0051](../citations/C-0051-johan-august-barndom-sida-354.md), [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md) | Direkt hushållsrelation. **Preciserat 2026-09-09:** brodern Johan August är [P-0424](P-0424-johan-august-johansson.md); identifieringen med P-0028 Johan Oskar Zingmark avvisades 2026-08-29, och familjen är därmed en fristående sidogren utan trädverkan. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -160,20 +160,20 @@ ett `## Forskningsstatus` och en följdavstämning från T-0139 med bevarad
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Månaden läst, dagen fortfarande oläst, 2026-09-10
+### Månaden läst, dagen fortfarande oläst, 2026-09-10
 
 A-0833 säger att `dag/månad reserveras fortsatt`. **Månaden är nu läst:**
 födelsecellens dagbråk har **nämnaren `7`**, alltså juli 1854. **Dagen
 kvarstår oläst**, och skälet är nu utskrivet: **täljaren är överkorsad av ett kraftigt streck.** Se A-7887. **Den ursprungliga assertionen är
 inte omskriven.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0216: Maria Mathilda Jansdotter i Carlberg`. Den lyder nu
 `P-0216: Maria Mathilda Jansdotter i Carlberg, utflyttad till Sannerby 1870`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidogren registrerad opportunistiskt. Följ endast vidare när en tydligare
 > hushålls- eller födelsepost ger en säker identitetsingång.
@@ -181,7 +181,7 @@ Rubriken löd `P-0216: Maria Mathilda Jansdotter i Carlberg`. Den lyder nu
 **Bedömningen är delvis överspelad:** sidhänvisningen `177` **är** en sådan
 tydligare ingång, och den är namngiven i profilens KP-01.
 
-#### Begränsad följdavstämning — T-0139, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0139, 2026-09-08, historisk
 
 2026-09-08: endast personbundna följduppgifter från C-0157/C-0163/C-0165
 infördes. Ingen full kontraktsgranskning eller ny profil genomfördes. **Full
@@ -195,7 +195,7 @@ rättelsen.
 > inte tillräckligt tydlig för säker registrering.
 > | A-0833 | Maria Mathilda var dotter till Lars Erik Jansson och Brita Christina Ersdotter och syster till Anna Christina Larsdotter. | TRANSCRIBED | hög | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) | Samma föräldrahushåll; ingen osäker födelseuppgift har normaliserats. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -200,7 +200,7 @@ profil fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse**, med sitt
 läsuppdrag utfört och redovisat i saktexten.
 
-#### A-0298: läsuppdraget utfört med två skilda utfall, 2026-09-09
+### A-0298: läsuppdraget utfört med två skilda utfall, 2026-09-09
 
 Uppmaningen `Förnamn och ort ska läsas om` är utförd. **Orten** är delvis
 läst — `Da[…]fors Nybygge`, mellanbokstäverna ambivalenta mellan `ss` och
@@ -209,7 +209,7 @@ initialen `O.` **Uppmaningen om förnamnet kan därför inte infrias ur denna
 bok**, vilket är en källgräns och inte en outvunnen cell. Tillförlitligheten
 `låg` står kvar oförändrad, och ursprungslydelsen bevaras. Se A-7760.
 
-#### Fullpostprövning och rättelse — T-0142, 2026-09-08, historisk
+### Fullpostprövning och rättelse — T-0142, 2026-09-08, historisk
 
 Hela den bevarade födelseposten prövades. Numret är **48**, födelsen **16 maj
 1861** och dopet **17 maj**. `Dopvittnesfältet har sex urskiljbara personer:
@@ -230,7 +230,7 @@ reservationen är alltså en verklig gräns i bilden och inte en oläst cell.
 Läsningen av `Gunnmark[?]` på Jon Olofssons rad hör till C-0050 och till
 dopbarnets akt, inte till denna; se citationens tillägg.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

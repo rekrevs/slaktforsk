@@ -234,7 +234,7 @@ profil fanns.
 **Samtliga elva ursprungliga assertioner står kvar med oförändrad lydelse**,
 med preciserade led utmärkta i saktexten.
 
-#### A-7812: en åldersräkning omformulerar aktens huvudfråga, 2026-09-10
+### A-7812: en åldersräkning omformulerar aktens huvudfråga, 2026-09-10
 
 A-3017 registrerade utflyttningen till Livgardet 1903-10-22 utan att räkna
 hans ålder. **Han var 17 år och 10 månader**, och inskrivningsåldern var 21.
@@ -248,7 +248,7 @@ och den gör två tidigare nollresultat förenliga med den positiva notisen:
 **en sjuttonårig anställd förs inte i ett värnpliktsregister.** **Vad
 anknytningen var förblir obelagt**, och ingen anställningsform väljs.
 
-#### A-7811: hans egen rad kolumnredovisad, 2026-09-10
+### A-7811: hans egen rad kolumnredovisad, 2026-09-10
 
 A-4389 registrerade destinationen, datumet och militärnumret från hans rad 19.
 **Raden är nu läst kolumn för kolumn med de tryckta rubrikerna och den tryckta
@@ -256,14 +256,14 @@ radnumreringen i samma utsnitt**, och varje led bekräftas — inklusive
 födelsedagen `85 ⁸/₁₂` med orten `Forssa`, som därmed är belagd en fjärde
 gång.
 
-#### Konsolideringsrättelse — T-0132, 2026-09-08, historisk
+### Konsolideringsrättelse — T-0132, 2026-09-08, historisk
 
 T-0132 rättade äldre A-3059:s påstående att sidan inte anger vart han tog
 vägen, efter fullkolumnläsning, och tillgodoräknade C-0769:s fulla dopvittnen
 och kyrktagningen 31 januari 1886. **Rättelsen står fast**, och T-0132:s
 överlämnande av full akt- och profilgranskning till T-0183 är nu utfört.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

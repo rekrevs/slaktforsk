@@ -166,7 +166,7 @@ namnformer och ingen profil fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse**, med två
 rättade led utmärkta i saktexten.
 
-#### Aktens rubriknamn ändrat, 2026-09-09
+### Aktens rubriknamn ändrat, 2026-09-09
 
 Rubriken löd `P-0093: Maria Olofsdotter, dopvittne 1867`. Den lyder nu
 `P-0093: Maria Andersdotter i Rodå, dopvittne 1867`, eftersom källan skriver
@@ -174,7 +174,7 @@ Rubriken löd `P-0093: Maria Olofsdotter, dopvittne 1867`. Den lyder nu
 `maria-olofsdotter`; **en omdöpning är uppskjuten** och rör inte akten som
 personpost. **Ingen akt har delats och ingen identitet har slagits samman.**
 
-#### A-0356: patronymikon och titel rättade, 2026-09-09
+### A-0356: patronymikon och titel rättade, 2026-09-09
 
 Assertionen skriver `Maria Olofsdotter` och `som hustru`. **Båda leden håller
 inte.** Patronymikonet är `Andersd:r`, säkert läst och tydligt olikt
@@ -182,7 +182,7 @@ inte.** Patronymikonet är `Andersd:r`, säkert läst och tydligt olikt
 belagd som hustru.** Ett led tillkommer: orten `Rodå`. Se A-7786.
 Ursprungslydelsen bevaras.
 
-#### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
+### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
 
 T-0163 läste fadderkolumnen vid konsolideringen av P-0088 och skrev
 `Bonden Ol. Andersson och B:m[?] Maria Andersd:r i Rodå[?]`, med den
@@ -194,7 +194,7 @@ originalet innan något ändrades i deras akter.
 rätt.** Patronymikonet och titeln bekräftas; kvar står ortnamnets vokaltecken
 som en läsgräns och `B:m` som en oupplöst förkortning.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

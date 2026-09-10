@@ -226,7 +226,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Familjens Degerforsförbindelse förd, 2026-09-10
+### Familjens Degerforsförbindelse förd, 2026-09-10
 
 **Fyra familjemedlemmars flyttar till Degerfors stod i fyra skilda akter**;
 **moderns föräldrahem och föräldrarnas vigsel i två citationer.** **Ingen akt
@@ -234,7 +234,7 @@ hade fört dem samman.** Sambandet är nu fört som A-7946, **med den uttrycklig
 gränsen att uppgiften säger var förbindelsen fanns och inte varför någon
 använde den.**
 
-#### Rättelse: inflyttningskedjan har fem medlemmar, inte fyra, 2026-09-10
+### Rättelse: inflyttningskedjan har fem medlemmar, inte fyra, 2026-09-10
 
 **A-7946 räknar fyra Zingmarkar som flyttade till Degerfors 1875–1900.**
 **De var fem.** **Halvbrodern [Nikanor Zingmark](P-0430-nikanor-zingmark.md)
@@ -262,26 +262,26 @@ sedan tidigare. **Han saknades därför att han låg utanför T-0198:s kohort.**
 kunskapsgränser.** **En uppräkning måste prövas mot hela materialet, inte mot
 den kohort som råkade skriva den.**
 
-#### Barnens namn ställda mot moderns syskonskara, 2026-09-10
+### Barnens namn ställda mot moderns syskonskara, 2026-09-10
 
 **Barnens namn stod i C-0751 och syskonens i C-0552 och C-0562.** **Ingen akt
 hade ställt dem mot varandra.** Jämförelsen är förd som A-7947 **med tre
 utskrivna gränser**, varav den viktigaste är att **makens sida aldrig har
 sökts** och **matchningen därför saknar kontroll.**
 
-#### T-0133:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0133:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Full individuell akt-/profiladoption ägs av T-0198`.
 **T-0198 är denna uppgift**, och den fulla granskningen är utförd med daterad
 PK-bedömning i profilen.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0437: Maria Elina Zingmark`. Den lyder nu
 `P-0437: Maria Elina Zingmark, som flyttade till sin mors hemförsamling`.
 **Filnamnet är oförändrat.**
 
-#### T-0133: konsolideringsrättelse, historisk
+### T-0133: konsolideringsrättelse, historisk
 
 > 2026-09-08: Full individuell akt-/profiladoption ägs av T-0198. C-0562:s
 > fulla födelsepost och dopvittnen tillgodoräknas; faderns råtitel 1856 är
@@ -293,7 +293,7 @@ Rubriken löd `P-0437: Maria Elina Zingmark`. Den lyder nu
 
 **Bedömningen står kvar i sak.** **Den rättade dagen 1875-10-15 gäller.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför antavlan; senare liv är nu positivt återfunnet i Ekträsk
 > 1900 med make, åtta barn och den änklige fadern i samma sammanhängande
@@ -302,7 +302,7 @@ Rubriken löd `P-0437: Maria Elina Zingmark`. Den lyder nu
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

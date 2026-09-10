@@ -179,32 +179,32 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
+### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
 
 A-6401 bar texten `Begränsad införing — full granskning ägs av T-0199`.
 **Granskningen är utförd**, och **den fann en avrundning:** `tvååring` mot
 **1 år 10 månader och 4 dagar.** **Assertionen skrivs inte om**, och den exakta
 räkningen står i A-7960. **Söknyckeln `tvååring` som exakt ålder är spärrad.**
 
-#### Namnet `Rudolf` ställt mot släkten, 2026-09-10
+### Namnet `Rudolf` ställt mot släkten, 2026-09-10
 
 **Farfaderns sjutton barns namn stod i C-0552 och C-0562, halvkusinens i
 C-0751.** **Ingen akt hade ställt dem mot varandra.** Iakttagelsen är förd som
 A-7960 **med låg tillförlitlighet och tre utskrivna gränser**, och **dess värde
 ligger i att den är ett motexempel** till T-0198:s namnmönster.
 
-#### Fyra relationer förda, 2026-09-10
+### Fyra relationer förda, 2026-09-10
 
 Akten förde tidigare far och mor. **Brodern, farfadern, halvkusinen och
 faderns halvbror på samma folio saknades.** De är nu förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0442: Alvar Rudolf Zingmark`. Den lyder nu
 `P-0442: Alvar Rudolf Zingmark, som lämnade Sverige före sin andra
 födelsedag`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson; ingen fortsatt livslinje följd.
 
@@ -212,7 +212,7 @@ födelsedag`. **Filnamnet är oförändrat.**
 följas** — **familjen lämnade landet.** **Skillnaden mellan en outforskad
 lucka och en källgräns är avgörande för hur akten ska läsas.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

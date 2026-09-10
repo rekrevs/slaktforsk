@@ -182,27 +182,27 @@ ordalydelse; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### T-0130:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0130:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Full individuell konsolidering och profiladoption ägs
 av T-0195`. **T-0195 är denna uppgift**, och den fulla granskningen är utförd
 med daterad PK-bedömning i profilen.
 
-#### Åldersräkningen införd, 2026-09-10
+### Åldersräkningen införd, 2026-09-10
 
 A-2234 återger åldern `11 dagar` men **räknar den inte.** **Räkningen är nu
 gjord** och förd som A-7923, tillsammans med **kontrasten mot Indals två
 dödsposter.** **Citationens reservation står oförändrad:** de elva dagarna kan
 vara beräknade från samma kyrkoboksuppgift.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0394: Märtha Brita Henriksson (1856–1856)`. Den lyder nu
 `P-0394: Märtha Brita Henriksson, tvilling och elva dagar gammal 1856`.
 **Filnamnet är oförändrat**, och **namnformstabellen skriver ut att
 patronymikonet inte är belagt.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Födelse, dop, död och begravning är belagda, men detta är inte en
 > fullständig kontraktsgranskning. C-0470:s fullare läsning identifierar en
@@ -214,7 +214,7 @@ patronymikonet inte är belagt.**
 
 **Bedömningen står kvar i sak** och är nu inarbetad i akttexten.
 
-#### T-0130: avgränsad följdrättelse, historisk
+### T-0130: avgränsad följdrättelse, historisk
 
 > Full individuell konsolidering och profiladoption ägs av T-0195. Nytt
 > tvillingbelägg och fulla fadderfält tillgodoräknas; full livsbild hävdas
@@ -226,7 +226,7 @@ patronymikonet inte är belagt.**
 > Henriksson och Cecilia Henriksdotter i Bredsjö är öppna ledtrådar men inte
 > fastställda släktingar.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

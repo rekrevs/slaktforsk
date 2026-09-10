@@ -185,7 +185,7 @@ tunnaste akt.**
 **Aktens rubriknamn har utökats med boställsnamnet**; filnamnet är
 oförändrat.
 
-#### A-7816: postens struktur och två källgränser, 2026-09-10
+### A-7816: postens struktur och två källgränser, 2026-09-10
 
 Tillägget skriver ut **att hon är postens enda vittne från ett annat
 boställe** — de tre övriga är ett och samma hushåll — vilket inte stod i
@@ -194,14 +194,14 @@ någon av de fyra vittnesakterna trots att det är postens mest talande drag.
 föräldrauppgift**, och dopvittneskolumnen anger ingen relation till barnet.
 **Båda är källans ordning och kan inte avhjälpas genom omläsning.**
 
-#### Avstämning — T-0137, 2026-09-08, historisk
+### Avstämning — T-0137, 2026-09-08, historisk
 
 T-0137 prövade hela den lokala bilden och post 17:s båda sidor, och slog fast
 att `Hedda Ersd:r` förs som `dotter från Skogstorpsstugan` och att **inga
 vittnen görs till släkt med modern utan ytterligare belägg.** **Läsningen
 står oförändrad**, och avgränsningen styr denna akt.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

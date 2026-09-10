@@ -178,7 +178,7 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Åldersargumentet infört, 2026-09-10
+### Åldersargumentet infört, 2026-09-10
 
 Citationens varning — `åldern får inte omvandlas till en säker födelsedag` —
 **står oförändrad och gäller.** Det nya argumentet gör inte det: **det
@@ -186,7 +186,7 @@ jämför två dödsposters räknesätt med varandra** och drar slutsatsen att de
 omlästa dagen `20/6` passar båda, medan `22/6` inte gör det.
 **Tillförlitligheten är `medel`**, eftersom underlaget är två fall.
 
-#### Systerns och broderns namnformer följda, 2026-09-10
+### Systerns och broderns namnformer följda, 2026-09-10
 
 Relationstabellen skriver modern **`Stina Cajsa Larsdotter`** och brodern
 **`Lars Johan`**, vilket är C-1012:s och T-0134:s närläsningar. **Deras egna
@@ -194,20 +194,20 @@ akter och filnamn bär fortfarande de äldre formerna** `Anna Cajsa` respektive
 `Carl Johan`, och länkarna går dit. **Rättelsen av deras akter ägs inte av
 denna uppgift.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0379: Anna Helena, dotter till Anders Dahlsten`. Den lyder nu
 `P-0379: Anna Helena, Dahlstendotter i Säter 1840–1841`. **Filnamnet är
 oförändrat**, och **inget efternamn antas för henne.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson vars korta liv är avgränsat av hushålls- och dödkälla; ingen egen
 > djupkedja öppnas.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

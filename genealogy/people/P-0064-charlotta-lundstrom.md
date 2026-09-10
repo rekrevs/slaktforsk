@@ -195,7 +195,7 @@ relationer, inga namnformer och ingen profil fanns.
 
 **Båda ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### A-0272 och A-0273: två led preciserade, 2026-09-09
+### A-0272 och A-0273: två led preciserade, 2026-09-09
 
 Födelsedagen står lika i **fyra** husförhörsuppslag, men varje bok hänvisar
 till nästa med sidnummer — de är led i **en** kopiekedja och inte fyra
@@ -204,7 +204,7 @@ röster. Och brodern Johan August är
 avvisades 2026-08-29, varmed familjen är en fristående sidogren utan
 trädverkan. Båda ursprungslydelserna bevaras.
 
-#### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
 
 Charlotta följer föräldrarna och Albert till Gunnismark sida 410 med
 bokföringsdatum **1880-11-20**. Hennes eget senare destinationsfält har Alnö
@@ -225,7 +225,7 @@ förbehållet att moderns slutdestination inte är hennes — står oförändrad
 och förbehållet är i själva verket **bekräftat**: modern gick till en **annan**
 församling, en dag senare. Samtliga äldre A-id:n består.
 
-#### Tidigare text — historisk före T-0142:s följdrättelse
+### Tidigare text — historisk före T-0142:s följdrättelse
 
 > # P-0064: Charlotta Lundström
 >
@@ -236,7 +236,7 @@ församling, en dag senare. Samtliga äldre A-id:n består.
 > | A-0272 | Charlotta var född 1870-08-19 i Sävar. | CORROBORATED | hög | [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md), [C-0055](../citations/C-0055-lundstrom-hushall-brannmark-sida-445.md) | Hushållssidorna överensstämmer. |
 > | A-0273 | Hon var dotter till Johan Pettersson Lundström och Cajsa Lotta Jonsdotter samt syster till Johan August. | CORROBORATED | hög | [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md), [C-0055](../citations/C-0055-lundstrom-hushall-brannmark-sida-445.md) | Direkt hushållsrelation. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

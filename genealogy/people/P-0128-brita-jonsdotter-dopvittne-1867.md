@@ -170,7 +170,7 @@ fanns.
 **Aktens rubriknamn har utökats med boställsnamnet**; filnamnet är
 oförändrat.
 
-#### A-7814: fyra led, två källformer och en avgränsad sonrelation, 2026-09-10
+### A-7814: fyra led, två källformer och en avgränsad sonrelation, 2026-09-10
 
 Tillägget skriver ut att hennes led bär **fyra fullständiga uppgifter** och
 att två av dem är **källformer och inte läsosäkerheter:** `dess hustru` är en
@@ -179,7 +179,7 @@ boställe följer av hans. **Sonrelationen nedgraderas samtidigt till `LEAD`:**
 `son ibm` betyder son i hushållet, och att han är **hennes** son är inte
 separat belagt.
 
-#### Aktens tidigare anmärkning var för stark, 2026-09-10
+### Aktens tidigare anmärkning var för stark, 2026-09-10
 
 Den ursprungliga forskningsfrågan löd `Ingen prioriterad fråga; posten
 bevaras som dopvittneskontext.` **Det stämmer inte längre.** Hennes ålder,
@@ -187,14 +187,14 @@ patronymikonets riktighet och sonens härkomst är alla ställbara frågor, och
 **de besvaras av samma uppslag som makens och sonens.** Anmärkningen ersätts
 av fem numrerade frågor.
 
-#### Avstämning — T-0137, 2026-09-08, historisk
+### Avstämning — T-0137, 2026-09-08, historisk
 
 T-0137 prövade hela den lokala bilden och post 17:s båda sidor, och slog fast
 att `son ibm` är källans relations- och hemvistform, **inte en separat prövad
 föräldrabrygga**, och att **inga vittnen görs till släkt med modern utan
 ytterligare belägg.** **Båda avgränsningarna styr denna akt.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

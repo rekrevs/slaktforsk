@@ -208,7 +208,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Åldersuppgiften räknad, 2026-09-10
+### Åldersuppgiften räknad, 2026-09-10
 
 **Båda datumen har stått i akten sedan 2026-08.** **Åldern `10 månader 25
 dagar` fördes in med dem.** **Ingen hade räknat mellanrummet.** Avvikelsen är
@@ -221,25 +221,25 @@ räknesättet var ett annat och **slog fast att jämförelser bara gäller inom 
 församling.** **Denna akt är det tredje fallet**, och **det första där
 avvikelsen pekar på en konkret alternativ dag i samma post.**
 
-#### Två tvillingpar ställda mot varandra, 2026-09-10
+### Två tvillingpar ställda mot varandra, 2026-09-10
 
 **Familjens andra tvillingpar 1868 stod i C-0564 och saknades i denna akt.**
 Paren är nu förda mot varandra i A-7957, **utan slutsats.**
 
-#### Fem syskonrelationer förda, 2026-09-10
+### Fem syskonrelationer förda, 2026-09-10
 
 Akten förde tidigare far, mor, tvillingbror och en bror. **De två systrarna i
 1868 års tvillingpar och tre äldre syskon stod i citationerna och saknades.**
 De är nu förda. **Tvillingbroderns dödsdag 1892-04-20**, som T-0161 förde in i
 relationstabellen som en fri anteckning, **står nu i tabellens egen kolumn.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0439: Axel Zingmark`. Den lyder nu
 `P-0439: Axel Zingmark, vars dödspost räknar fel på en dag`.
 **Filnamnet är oförändrat.**
 
-#### T-0133: konsolideringsrättelse, historisk
+### T-0133: konsolideringsrättelse, historisk
 
 > 2026-09-08: C-0566:s samtliga relevanta egna kolumner är prövade. Botsmark
 > är hemvist, inte separat angiven fysisk dödsplats. C-0565 har två barnbundna
@@ -254,7 +254,7 @@ Rubriken löd `P-0439: Axel Zingmark`. Den lyder nu
 
 **Bedömningen står kvar i sak, och adoptionen är nu utförd.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Avslutad sidoperson på födelse-, föräldra-, tvilling- och dödsnivå; ingen
 > egen fortsättning behövs.
@@ -265,7 +265,7 @@ avvikelse**, och **den öppnar en metodfråga för hela församlingens
 åldersuppgifter.** **En akt kan vara färdig som livslinje och ändå bära
 outnyttjad bevisning.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

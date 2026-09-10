@@ -193,7 +193,7 @@ fanns.
 preciserat led utmärkt i saktexten. **Aktens rubriknamn har utökats med
 boställsnamnet i T-0132:s form**; filnamnet är oförändrat.
 
-#### A-7817: fem fullständiga led och postens struktur, 2026-09-10
+### A-7817: fem fullständiga led och postens struktur, 2026-09-10
 
 Tillägget skriver ut att hans led bär **fem fullständiga uppgifter utan en
 enda förkortning** — vilket gör honom till det fullständigast namngivna
@@ -202,13 +202,13 @@ identitetsnivån faller.** Vidare skrivs postens struktur ut: **tre
 vittnesparter från tre olika boställen**, till skillnad från Lerboposten 1867,
 där tre av fyra vittnen var ett hushåll.
 
-#### A-0566 preciserad: två boställsformer, 2026-09-10
+### A-0566 preciserad: två boställsformer, 2026-09-10
 
 Avskriften skriver `Nafverkärr`; T-0132:s fullpostprövning skriver
 `Näfverkärr`. **Båda bevaras som två läsningar av samma ord**, inte som två
 orter, och **båda måste bäras med i varje sökning.**
 
-#### Aktens tidigare anmärkning var för stark, 2026-09-10
+### Aktens tidigare anmärkning var för stark, 2026-09-10
 
 Den ursprungliga forskningsfrågan löd `Ingen prioriterad; posten bevaras som
 dopvittneskontext.` **Det stämmer inte.** Hans ålder och härkomst är rakt
@@ -216,7 +216,7 @@ ställbara frågor, och de är billiga: ett uppslag för ett namngivet torp i en
 församling projektet redan läser. Anmärkningen ersätts av sex numrerade
 frågor.
 
-#### Fullpost och källkritisk rättelse — T-0132, 2026-09-08, historisk
+### Fullpost och källkritisk rättelse — T-0132, 2026-09-08, historisk
 
 T-0132 prövade hela post 3 på nytt och läste dopvittnena som **torparen Johan
 Peter Pehrsson och hustrun Anna Ersdotter i Näfverkärr**, drängen Carl
@@ -226,7 +226,7 @@ råtecken och inget personnamn**, att **åldersfältets dubbeltal `30/29` inte
 jämkas**, och att de senare kyrkoböckerna **inte** automatiskt är fyra
 oberoende vittnesmål om födelsedagen. **Samtliga avgränsningar gäller.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -209,7 +209,7 @@ datering.
 Nedan bevaras T-0167:s begränsade rättelse med sina blockciterade äldre
 lydelser, och därefter de avsnitt vars lydelse ersatts av ovanstående.
 
-#### Historik och rättelser
+### Historik och rättelser
 
 **T-0167, 2026-09-09 — avgränsad rättelse ur P-0329:s kohort.** Titeln
 `mäskaren` är `Klåckaren`, alltså klockaren, och hustruns familjenamn är

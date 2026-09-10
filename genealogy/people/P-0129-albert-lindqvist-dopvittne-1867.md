@@ -188,7 +188,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 med rättade och preciserade led utmärkta i saktexten.
 
-#### Aktens rubriknamn ändrat, 2026-09-10
+### Aktens rubriknamn ändrat, 2026-09-10
 
 Rubriken löd `P-0129: Albert Lindqvist`. Den lyder nu
 `P-0129: Alb. Lindqvist i Hultstuga skog, dopvittne 1867`, eftersom källan
@@ -197,7 +197,7 @@ andra möjliga expansioner. **Filnamnet är oförändrat** och bär fortfarande
 `albert-lindqvist`; **en omdöpning är uppskjuten** och rör inte akten som
 personpost. **Ingen akt har delats och ingen identitet har slagits samman.**
 
-#### A-0526: normaliseringen väljs inte, 2026-09-10
+### A-0526: normaliseringen väljs inte, 2026-09-10
 
 Assertionen skriver att namnet `normaliseras Albert Lindqvist`, med
 tillförlitligheten `medel`. **Bedömningen `medel` var riktig och gällde just
@@ -205,14 +205,14 @@ normaliseringen** — men aktens rubrik bar valet som om det vore avskrivet.
 `Alb.` kan lika väl vara `Albin`, `Albrekt` eller `Alberth`, och **ingen form
 väljs.** Se A-7815.
 
-#### A-0527 preciserad: `son ibm` är inte en föräldrabrygga, 2026-09-10
+### A-0527 preciserad: `son ibm` är inte en föräldrabrygga, 2026-09-10
 
 T-0137 slog fast att `son ibm` är källans relations- och hemvistform och
 **inte en separat prövad föräldrabrygga.** Att han var **faderns** son är
 källans ord; **att han var hustruns son är inte separat belagt**, och
 relationen till P-0128 förs som `LEAD`.
 
-#### Avstämning — T-0137, 2026-09-08, historisk
+### Avstämning — T-0137, 2026-09-08, historisk
 
 T-0137 prövade hela den lokala bilden och post 17:s båda sidor, och skrev:
 `Förkortningen Alb. bevaras utan att denna post ensam väljer Albert framför
@@ -220,7 +220,7 @@ andra möjliga expansioner. Son ibm är källans relations-/hemvistform, inte en
 separat prövad föräldrabrygga.` **Båda meningarna är grunden för denna aktens
 två rättelser.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

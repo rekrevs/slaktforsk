@@ -162,13 +162,13 @@ preciserade led utmärkta i saktexten. **Aktens rubriknamn har ändrats från
 bär fortfarande den äldre formen, och **en omdöpning är uppskjuten** och inte
 en del av denna uppgift.
 
-#### A-0355: två led tillkommer, 2026-09-09
+### A-0355: två led tillkommer, 2026-09-09
 
 Uppgiften `Förnamn och ort återstår` preciseras. **Förnamnet står `Ol.` med
 två bokstäver**, inte som ensam initial, och **orten står i källan: `Rodå`.**
 Se A-7785. Ursprungslydelsen bevaras.
 
-#### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
+### Fadderkolumnen omläst — T-0163, 2026-09-09, historisk
 
 T-0163 läste fadderkolumnen vid konsolideringen av P-0088 och skrev
 `Bonden Ol. Andersson och B:m[?] Maria Andersd:r i Rodå[?]`, med den
@@ -179,7 +179,7 @@ läsningen borde kontrolleras mot originalet innan något ändrades.
 bekräftas i alla fyra leden som rör honom; kvar står ortnamnets vokaltecken
 som en läsgräns och `B:m` som en oupplöst förkortning.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

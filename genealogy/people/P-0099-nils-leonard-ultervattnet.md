@@ -209,7 +209,7 @@ ingen profil fanns.
 **Båda ursprungliga assertioner står kvar med oförändrad grundlydelse**, med
 rättade led utmärkta i saktexten.
 
-#### A-0377 och A-4356: födelsedagen rättad från 24/9 till 26/9, 2026-09-09
+### A-0377 och A-4356: födelsedagen rättad från 24/9 till 26/9, 2026-09-09
 
 Båda assertionerna bar dagen `24/9`. **Läsningen är fel.** Båda hans rader på
 sida 824 skriver `26/9`, och avgörandet ligger i en glyfjämförelse mot samma
@@ -222,7 +222,7 @@ Rättelsen bärs vidare till **P-0094**, **P-0095**, **P-0096** och **P-0101**,
 som alla har `1874-09-24` i sina relationstabeller, och rapporteras till
 deras ägande uppgifter T-0131 och T-0155.
 
-#### A-4356: hustruns tillnamn rättat från `Lundgren[?]` till `Öberg`, 2026-09-09
+### A-4356: hustruns tillnamn rättat från `Lundgren[?]` till `Öberg`, 2026-09-09
 
 Assertionen reserverade tillnamnet som `Lundgren[?]`. **Begynnelsebokstaven
 kan inte vara ett `L`** — den är en sluten ovalslinga med prickmarkering
@@ -231,26 +231,26 @@ namnform på hans egen familjerad**, oberoende av församlingsboken. Ordets
 sista tecken kan vara ett `h` och är inte upplöst, så `Öbergh` står som
 alternativ form. Se A-7778.
 
-#### A-4356: `militärfältet` är kolumn `Värnpliktsförhållanden`, 2026-09-09
+### A-4356: `militärfältet` är kolumn `Värnpliktsförhållanden`, 2026-09-09
 
 `Frik.` betyder **frikallad**, och kolumnens tryckta rubrik är läst i samma
 utsnitt som cellen. **Uppgiften var registrerad som ett odefinierat
 fältvärde**; nu är den substantiell. Se A-7777.
 
-#### Konsolideringsrättelse — T-0131, 2026-09-08, historisk
+### Konsolideringsrättelse — T-0131, 2026-09-08, historisk
 
 ”Exakt senare bokdatum tillgodoräknat utan att kallas egen födelsenotis.”
 **Avgränsningen står fast** — dagen är fortfarande en bokuppgift, och ingen
 egen födelsenotis har tillkommit. Det är dagens **siffra** som rättats.
 
-#### Inkommen observation från T-0155, 2026-09-08, historisk
+### Inkommen observation från T-0155, 2026-09-08, historisk
 
 T-0155 rapporterade två fynd som rör denna akt: att `Frik.` betyder frikallad
 och att kolumnrubriken lyder `Värnpliktsförhållanden`, och att **hans egen
 familj stod outvunnen i C-0073**. **Båda är nu prövade mot fullbilderna och
 införda** som A-7777 och A-7779.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

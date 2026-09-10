@@ -197,7 +197,7 @@ profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Fadderfältet infört, 2026-09-10
+### Fadderfältet infört, 2026-09-10
 
 C-0439:s T-0134-tillägg innehåller **hela fadderfältet med åtta personer i
 fyra led**, utskrivet sedan 2026-09-08. **Det hade aldrig nått akten.**
@@ -205,34 +205,34 @@ Det är nu fört som A-7921, **med citationens förbud mot automatisk
 sammanslagning av `Nils Pet. Dahlsten[?]` oförändrat** och med ett tillagt
 åldersargument som stöder samma försiktighet.
 
-#### Månadskonfliktens omfattning preciserad, 2026-09-10
+### Månadskonfliktens omfattning preciserad, 2026-09-10
 
 A-2180 säger `Hushållsbokens månad är svårläst`. **Det gäller `A I/6`.**
 **`A I/7` sida 193 återger `1844-04-22` utan någon reservation**, så **två
 husförhörsvolymer ger april.** **Den egna födelseposten avgör fortfarande**,
 men **konflikten är större än akten sagt** och är utskriven i A-7921.
 
-#### Syskonens och moderns namnformer följda, 2026-09-10
+### Syskonens och moderns namnformer följda, 2026-09-10
 
 Relationstabellen skriver modern **`Stina Cajsa Larsdotter`** och brodern
 **`Lars Johan`**. **Deras egna akter och filnamn bär fortfarande de äldre
 formerna**, och länkarna går dit. **Rättelsen av deras akter ägs inte av denna
 uppgift.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0381: Anders Olof, son född 1844`. Den lyder nu
 `P-0381: Anders Olof, den andre med namnet, född i Säter 1844`. **Filnamnet är
 oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson i den fasta kohortens familjebild; senare liv återstår men ingen
 > egen djupkedja öppnas.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

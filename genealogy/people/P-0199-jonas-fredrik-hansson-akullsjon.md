@@ -148,13 +148,13 @@ namnformer och ingen profil fanns.
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse**, och
 **ingen har uppgraderats från `LEAD`.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken saknade roll och år. Den lyder nu `P-0199: Jonas Fredrik Hansson, uppgivet spädbarn i Åkullsjön 1823`.
 **Filnamnet är oförändrat.** Ingen akt har delats och ingen identitet har
 slagits samman.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

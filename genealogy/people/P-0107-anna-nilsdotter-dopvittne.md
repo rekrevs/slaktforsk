@@ -173,7 +173,7 @@ namnformer och ingen profil fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse**, med ett
 preciserat led utmärkt i saktexten.
 
-#### A-0387 preciserad: kontrollen är utförd och reservationerna står kvar, 2026-09-09
+### A-0387 preciserad: kontrollen är utförd och reservationerna står kvar, 2026-09-09
 
 Assertionen bad om **paleografisk kontroll** av efternamn och ort.
 **Kontrollen är utförd** — T-0131 prövade posten över samtliga kolumner i den
@@ -182,7 +182,7 @@ prövade läsgränser.** Det är inte samma sak som en outvunnen cell: en
 omläsning i samma bild har gjorts, och **nästa steg är en annan
 skriftbärare.** Se A-7806.
 
-#### Tre skillnader mot de övriga vittnena, 2026-09-09
+### Tre skillnader mot de övriga vittnena, 2026-09-09
 
 A-7806 skriver ut tre förhållanden som inte tidigare stod i akten: att hon
 har ett **fullständigt förnamn** där två vittnen har initialer och ett är
@@ -190,7 +190,7 @@ namnlöst; att hon **saknar ståndsbeteckning** där de tre andra har `bonden`,
 `hustru` och `pigan`; och att hon anges i **en annan by**, vilket gör henne
 till postens enda uppgift om familjens nätverk utanför Ultervattnet.
 
-#### Full egen post prövad — T-0131, 2026-09-08, historisk
+### Full egen post prövad — T-0131, 2026-09-08, historisk
 
 T-0131 prövade dopposten över samtliga kolumner och lämnade vittnena som
 prövade reservationer: bonden A. Andersson med onamngiven hustru i
@@ -201,7 +201,7 @@ separata från föräldrar och släktingar tills en identitetskedja finns.
 
 **Den formuleringen är exakt den distinktion denna akt bygger på.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

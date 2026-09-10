@@ -183,7 +183,7 @@ med preciserade led utmärkta i saktexten. **Aktens rubriknamn har utökats med
 `dräng 1890`** för att skilja honom från projektets övriga Olssöner;
 filnamnet är oförändrat.
 
-#### A-7799: kolumnredovisning och en substantiell frånvaro, 2026-09-09
+### A-7799: kolumnredovisning och en substantiell frånvaro, 2026-09-09
 
 Hans rad är redovisad kolumn för kolumn med de tryckta rubrikerna i samma
 utsnitt. **Två led är nya.** Bladets dokumenthuvud lyder **`Utdrag ur
@@ -192,14 +192,14 @@ oberoendefrågan. Och **frånvaron av familjeställningsprefix är substantiell:
 formulärets anvisning listar `h.`, `s.` och `d.`, och att han står utan prefix
 men med eget efternamn markerar att han inte hörde till familjen.
 
-#### A-0428 preciserad: namnet står fullständigt, 2026-09-09
+### A-0428 preciserad: namnet står fullständigt, 2026-09-09
 
 Till skillnad från husfolkets rader, där efternamnet följer hushållets
 ingress, bär hans egen rad **hela namnet**. **Det är skälet till att han är
 mer sökbar än varje dopvittne i programmet** — och det är formulärets sätt att
 markera att han var tjänstehjon.
 
-#### Rättad egen post — T-0143, 2026-09-08, historisk
+### Rättad egen post — T-0143, 2026-09-08, historisk
 
 T-0143 prövade hela Brostugans familj i den sparade fullbilden och läste
 **`dräng Johan Alfred Olsson 1873 Helgesta, ogift man`**, med den uttryckliga
@@ -207,7 +207,7 @@ principen att **inga egna hälsouppgifter härleds ur grafiska tecken utan
 rubrikstöd.** **Läsningen står oförändrad**, och principen styr hur A-7799 är
 formulerad.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

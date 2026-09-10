@@ -159,7 +159,7 @@ helt**, och en **blankrad mitt i `## Påståenden`-tabellen** bröt den i två.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Två formatfel rättade, 2026-09-10
+### Två formatfel rättade, 2026-09-10
 
 Akten saknade `## Identitet`, vilket aktstandarden kräver, och
 `## Påståenden`-tabellen var bruten av en blankrad mellan de två raderna —
@@ -167,12 +167,12 @@ Akten saknade `## Identitet`, vilket aktstandarden kräver, och
 **Rättelsen är rent redaktionell**; ingen assertion är omskriven och ingen
 uppgift tillagd eller borttagen genom den.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0248: Emil Herman i Storbränna`. Den lyder nu
 `P-0248: Emil Herman Henriksson i Storbränna`. **Filnamnet är oförändrat.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

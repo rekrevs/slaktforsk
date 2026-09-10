@@ -187,7 +187,7 @@ ingen profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Födelsenotisens ortcell rättad, 2026-09-10
+### Födelsenotisens ortcell rättad, 2026-09-10
 
 Citationens avskrift skriver `Bergvall` i postens ortcell. **Cellen bär i
 stället ett längre, olöst ord**, som varken har `Bergvall`-formen ur
@@ -196,20 +196,20 @@ Rättelsen är förd som daterat tillägg i citationen och som A-7831 här.
 **A-2304:s datum står kvar; dess ortled bärs nu uttryckligen av
 hushållssidan.** **Ingen kandidatläsning föreslås för ordet.**
 
-#### `Testes`-blocket läst för första gången, 2026-09-10
+### `Testes`-blocket läst för första gången, 2026-09-10
 
 Posten hade aldrig fått sitt vittnesblock läst. Blocket namnger **minst fyra
 vittnesparter** och avslutas med ortledet `ifr: Degerfors`. **Flera förnamn
 och initialer är läsreservationer**, och **inga person-id skapas** — se
 A-7832.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0402: Brita Greta Pehrsdotter`. Den lyder nu
 `P-0402: Brita Greta Pehrsdotter, inhysesdotter i Bergvall`. **Filnamnet är
 oförändrat.** Ingen akt har delats och ingen identitet har slagits samman.
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson som identifierar kandidatfamiljen i Bergvall. Hon är inte
 > registrerad som syster till P-0058 eftersom hans föräldraidentitet och
@@ -218,7 +218,7 @@ oförändrat.** Ingen akt har delats och ingen identitet har slagits samman.
 Bedömningen står kvar oförändrad i sak; den är flyttad till Arbetsläge,
 Identitet och profilens identitetsbedömning enligt aktstandarden.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -178,7 +178,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen A-2471 står kvar med oförändrad lydelse.**
 
-#### Moderns åldersserie räknad, 2026-09-10
+### Moderns åldersserie räknad, 2026-09-10
 
 **Uppgiften `moderns ålder 22 år` fördes in i akten av T-0133 och blev sedan
 stående oanvänd.** **Tre andra syskons födelseposter bar samma slags
@@ -190,18 +190,18 @@ falla.** **Skillnaden är att denna serie är inbördes förenlig.** **Det är
 skillnaden mellan bevisning och brus**, och **den kan bara avgöras genom att
 räkna.**
 
-#### Sex syskonrelationer förda, 2026-09-10
+### Sex syskonrelationer förda, 2026-09-10
 
 Akten förde tidigare far, mor och en bror. **De två tvillingparen och två
 äldre syskon stod i citationerna och saknades i akten.** De är nu förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0440: Sophia Beata Zingmark`. Den lyder nu
 `P-0440: Sophia Beata Zingmark, vars födelsepost daterar sin mor`.
 **Filnamnet är oförändrat.**
 
-#### T-0133: konsolideringsrättelse, historisk
+### T-0133: konsolideringsrättelse, historisk
 
 > 2026-09-08: C-0567:s fulla egenpost tillför moderns ålder 22 år och
 > samtliga dopvittnen med uttryckliga namn-/ortreservationer. Möjliga
@@ -211,7 +211,7 @@ Rubriken löd `P-0440: Sophia Beata Zingmark`. Den lyder nu
 
 **Bedömningen står kvar i sak, och adoptionen är nu utförd.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför antavlan; senare liv är öppet men prioriteras inte före
 > breddkohorten.
@@ -220,7 +220,7 @@ Rubriken löd `P-0440: Sophia Beata Zingmark`. Den lyder nu
 avseende:** **hennes födelsepost bär ett belägg om modern**, vars ursprung är
 en av projektets äldsta öppna frågor.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -181,7 +181,7 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### En rättelse som inte hade nått akten, 2026-09-10
+### En rättelse som inte hade nått akten, 2026-09-10
 
 **T-0143 rättade 2026-09-08 orten i C-0576 från `Bokulla` till `Stenkulla` och
 moderns ålder från 30 till 20.** **Rättelsen fördes till P-0135 men inte hit.**
@@ -194,13 +194,13 @@ källan.** **A-2505 skrivs inte om.**
 formulering som inte följer med rättelsen.** **Skillnaden här är att den
 felaktiga uppgiften är en ortsuppgift** — **den styr var nästa läsare letar.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0444: Gustaf Sjöberg`. Den lyder nu
 `P-0444: Gustaf Sjöberg, dräng i Stenkulla med hustru och barn`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Ny sidoperson via en ingift gren. Björkvik A I/17 a–b är den centrala
 > återstarten för egna födelsedata, ursprung och fler barn; API-/IIIF-hindret
@@ -211,7 +211,7 @@ S-0457 dokumenterar `403` på JSON-LD-omprov och orörd CAPTCHA.
 **Hindret gäller bildlänkarna, inte volymens existens** — **`A I/17 a–b` är
 identifierad som digitaliserad.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

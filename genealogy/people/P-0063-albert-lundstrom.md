@@ -182,7 +182,7 @@ relationer, inga namnformer och ingen profil fanns.
 
 **Båda ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### A-0270 och A-0271: två led preciserade, 2026-09-09
+### A-0270 och A-0271: två led preciserade, 2026-09-09
 
 Födelsedagen står lika i **fyra** husförhörsuppslag, men varje bok hänvisar
 till nästa med sidnummer — de är led i **en** kopiekedja och inte fyra
@@ -191,7 +191,7 @@ röster. Och brodern Johan August är
 avvisades 2026-08-29, varmed familjen är en fristående sidogren utan
 trädverkan. Båda ursprungslydelserna bevaras.
 
-#### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
 
 Albert följer föräldrarna och Charlotta till Gunnismark sida 410 med
 bokföringsdatum **1880-11-20**. Hans egen senare rad har **Alnö 1889-05-21**,
@@ -206,7 +206,7 @@ kontraktsgranskning; den fulla adoptionen är gjord här. **Båda dess
 läsningar är bekräftade 2026-09-09** vid 300 % i samma utsnitt som familjens
 övriga destinationer. Samtliga äldre A-id:n består.
 
-#### Tidigare text — historisk före T-0142:s följdrättelse
+### Tidigare text — historisk före T-0142:s följdrättelse
 
 > # P-0063: Albert Lundström
 >
@@ -217,7 +217,7 @@ läsningar är bekräftade 2026-09-09** vid 300 % i samma utsnitt som familjens
 > | A-0270 | Albert var född 1865-12-04 i Sävar. | CORROBORATED | hög | [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md), [C-0055](../citations/C-0055-lundstrom-hushall-brannmark-sida-445.md) | Hushållssidorna överensstämmer. |
 > | A-0271 | Han var son till Johan Pettersson Lundström och Cajsa Lotta Jonsdotter samt bror till Johan August. | CORROBORATED | hög | [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md), [C-0055](../citations/C-0055-lundstrom-hushall-brannmark-sida-445.md) | Direkt hushållsrelation. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

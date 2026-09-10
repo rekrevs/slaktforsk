@@ -181,25 +181,25 @@ namnformer och ingen profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### T-0135:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0135:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Full aktgranskning och profiladoption ägs av T-0193;
 detta är ingen full kontraktsgranskning`. **T-0193 är denna uppgift**, och den
 fulla granskningen är utförd med daterad PK-bedömning i profilen.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0320: Maria Christina Urbom (född 1858)`. Den lyder nu
 `P-0320: Maria Christina Urbom (1858–1861), uppkallad efter en död syster`.
 **Filnamnet är oförändrat.**
 
-#### T-0135: begränsad följdrättelse, historisk
+### T-0135: begränsad följdrättelse, historisk
 
 De andralästa datumen i C-0276/C-0277 har avstämts; separata syskon med samma
 dopnamn hålls isär. **Bedömningen står kvar i sak** och är nu inarbetad i
 akttexten och i A-7905.
 
-##### Före följdrättelsen, historisk ordalydelse
+#### Före följdrättelsen, historisk ordalydelse
 
 > # P-0320: Maria Christina Urbom (född 1858)
 >
@@ -225,7 +225,7 @@ akttexten och i A-7905.
 > | [P-0319 Maria Christina Urbom](P-0319-maria-christina-urbom-1857.md) | äldre helsyster med samma dopnamn | TRANSCRIBED | C-0276 |
 > | [P-0321 Frans Ludwig Gotthard Urbom](P-0321-frans-ludwig-gotthard-urbom.md) | yngre helbror | TRANSCRIBED | C-0277 |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

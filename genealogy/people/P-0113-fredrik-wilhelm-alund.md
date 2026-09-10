@@ -166,7 +166,7 @@ C-0317:s exercis utvunnen. Äldre akt nedan är historik, inte parallella slutsa
 >   folkräkningsåret 1848. Syskonrelationen till Pehr Albert och föräldraparet
 >   Carl Fredrik Ålund–Maja Catharina Carlsdotter är löst i Helgesta A I/15.
 
-#### Bundet tillägg från T-0182, 2026-09-09: boställsnamnet i Helgesta och två upplösta reservationer
+### Bundet tillägg från T-0182, 2026-09-09: boställsnamnet i Helgesta och två upplösta reservationer
 
 Tre led i akter som denna akt vilar på är omlästa vid konsolideringen av
 hustrun [P-0114](P-0114-anna-fredrika-blom.md) och sonen

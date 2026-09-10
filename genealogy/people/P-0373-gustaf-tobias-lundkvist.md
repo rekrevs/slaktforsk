@@ -163,20 +163,20 @@ inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Formatfel rättat, 2026-09-10
+### Formatfel rättat, 2026-09-10
 
 `## Relationer` var **löpande text i stället för tabell**, vilket
 aktstandarden kräver. **Rättelsen är rent redaktionell**; ingen relation är
 tillagd eller borttagen utöver de tre barn som stod i T-0056-avsnittet och
 svärmodern som stod i citationen.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0373: Gustaf Tobias Lundkvist`. Den lyder nu
 `P-0373: Gustaf Tobias Lundkvist, slaktare i Smuleberg`. **Filnamnet är
 oförändrat.**
 
-#### Tidigare `## Hushållet i nästa bok, T-0056`, historisk
+### Tidigare `## Hushållet i nästa bok, T-0056`, historisk
 
 > [C-0871](../citations/C-0871-augusta-smuleberg-1941-vamb.md) återfinner
 > familjen med Lars Olof, Björn Flemming (P-0296), Gunilla Birgitta (P-0297)
@@ -187,7 +187,7 @@ oförändrat.**
 **Bedömningen står kvar i sak** och är nu inarbetad i relationstabellen och i
 A-7916.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

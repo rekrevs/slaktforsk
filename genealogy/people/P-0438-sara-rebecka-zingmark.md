@@ -192,7 +192,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### T-0133:s varning har fått ett skäl, 2026-09-10
+### T-0133:s varning har fått ett skäl, 2026-09-10
 
 **T-0133 slog fast att 16 februari inte utan vidare får bli datum för hennes
 nöddop, men angav inget skäl.** Skälet är nu fört som A-7956: **ett nöddop
@@ -203,26 +203,26 @@ systerns**, och **hon har inga egna vittnen.**
 **Varningen ersätts inte.** **Den står oförändrad**, och **tillägget gör den
 prövbar i stället för att bara vara en försiktighet.**
 
-#### En negativ kontroll avgränsad, 2026-09-10
+### En negativ kontroll avgränsad, 2026-09-10
 
 Akten hade inte skiljt mellan **moderns** prövade dödsbokskontroll och
 **hennes egen, som aldrig gjorts.** C-0555:s tvåvolymsnoll gäller Sara Sophia
 Pehrsdotter 1868–1870. **Frånvaron av en dödspost för Sara Rebecka är därför
 ingen prövad frånvaro**, och skillnaden är nu utskriven.
 
-#### Fem syskonrelationer förda, 2026-09-10
+### Fem syskonrelationer förda, 2026-09-10
 
 Akten förde tidigare far, mor, tvillingsyster och en bror. **1864 års
 tvillingpar och tre äldre syskon stod i citationerna och saknades.** De är nu
 förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0438: Sara Rebecka Zingmark`. Den lyder nu
 `P-0438: Sara Rebecka Zingmark, nöddöpt tvilling utan dödsdag`.
 **Filnamnet är oförändrat.**
 
-#### T-0133: konsolideringsrättelse, historisk
+### T-0133: konsolideringsrättelse, historisk
 
 > 2026-09-08: 16 februari får inte utan vidare bli datum för hennes nöddop.
 > Ingen exakt dödsdag följer av anteckningen. T-0199 äger full individuell
@@ -237,14 +237,14 @@ Rubriken löd `P-0438: Sara Rebecka Zingmark`. Den lyder nu
 
 **Bedömningen står kvar i sak, och adoptionen är nu utförd.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför antavlan. Egen födelsepost säger att hon dog efter
 > undfånget nöddop; exakt dödsdag och datum för nöddopet är inte säkrade.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

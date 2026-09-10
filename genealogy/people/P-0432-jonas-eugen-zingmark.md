@@ -174,7 +174,7 @@ Före det bestod den av rubriken, ett kort `## Identitet`, en
 
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Överstrykningsheuristiken prövad och falsifierad, 2026-09-10
+### Överstrykningsheuristiken prövad och falsifierad, 2026-09-10
 
 Programmet hade i T-0191 och T-0194 funnit att överstrukna namn var **exakt de
 som lämnade sidan.** **C-0552:s tabell motsäger det** — den fanns avskriven
@@ -182,25 +182,25 @@ sedan tidigare, **men raderna hade aldrig ställts mot varandra.**
 **Heuristiken avförs inte som läshjälp**, men **den får inte överföras mellan
 volymer utan att prövas.**
 
-#### Syskonskaran införd i relationstabellen, 2026-09-10
+### Syskonskaran införd i relationstabellen, 2026-09-10
 
 Relationstabellen omfattade tidigare bara föräldrarna och en bror.
 **Samtliga syskon och halvsyskon på uppslaget är nu förda**, med
 **`Mannens i förra giftet` och `Begges barn` utskrivna som källans egen
 åtskillnad.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0432: Jonas Eugen Zingmark`. Den lyder nu `P-0432: Jonas Eugen Zingmark, överstruken utan anteckning`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför antavlan; ingen egen forskning prioriterad.
 
 **Bedömningen står kvar i sak** och är nu förd som Q-01 och Q-02 i profilen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

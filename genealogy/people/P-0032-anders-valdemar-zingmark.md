@@ -233,13 +233,13 @@ tidslinje, inga relationer, inga namnformer och ingen profil fanns.
 **Samtliga fem ursprungliga assertioner står kvar med oförändrad lydelse.**
 Tre har fått överspelade led utmärkta i saktexten enligt pilotpreciseringen.
 
-#### A-0173: `Två källor överensstämmer` överskattade oberoendet, 2026-09-09
+### A-0173: `Två källor överensstämmer` överskattade oberoendet, 2026-09-09
 
 Folkräkningsbladet 1900 bär ett tryckt dokumenthuvud som visar att det är ett
 utdrag ur Degerfors församlingsbok. Det är kompletterande, inte självständigt,
 mot A-2498. Ursprungslydelsen bevaras.
 
-#### A-3442: två led överspelade, 2026-09-09
+### A-3442: två led överspelade, 2026-09-09
 
 Yrkescellen på rad 9 bär `Agronom` i bläck och `Kamrer` i blyerts; orden
 `kammarskrivare` och `kronofogde` står inte där (A-7713). Brudens tredje namn
@@ -247,14 +247,14 @@ Yrkescellen på rad 9 bär `Agronom` i bläck och `Kamrer` i blyerts; orden
 Inflyttningsdagen `¹⁷/₁₁` är däremot **prövad och står kvar**: vid 1400 %
 är den andra siffran en korsad sjua, inte en nia. Ursprungslydelsen bevaras.
 
-#### A-3410: Lomma bekräftad från andra sidan, 2026-09-09
+### A-3410: Lomma bekräftad från andra sidan, 2026-09-09
 
 Citationen till Umeå stads bok läste inflyttningsorten `Sonnna(?)
 Åsbrunn(?)`; den lyder `Lomma / Malmöhus l.` (A-7715). A-3410:s Lomma är
 därmed styrkt av en andra församlings bok, och felläsningen som gjorde
 återresan osökbar är rättad. Ursprungslydelsen bevaras.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

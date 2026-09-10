@@ -180,35 +180,35 @@ ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen A-2587 står kvar med oförändrad lydelse.**
 
-#### Familjens födelseintervall räknade, 2026-09-10
+### Familjens födelseintervall räknade, 2026-09-10
 
 **De tre sönernas födelsedagar stod i C-0543 sedan tidigare.** **Ingen hade
 räknat mellanrummen.** **Luckan 1881–1887 är förd som A-7969 i faderns akt**,
 med **den avgörande skillnaden mot programmets två tidigare luckor: denna går
 att pröva i öppna böcker.**
 
-#### Namnleden ställda mot hushållet, 2026-09-10
+### Namnleden ställda mot hushållet, 2026-09-10
 
 **Hushållets namn stod i C-0519 och C-0543.** **Ingen akt hade ställt sonens namnled mot dem.** Jämförelsen är förd med **låg tillförlitlighet**; **båda namnen var vanliga, och ingen uppkallningsavsikt påstås.**
 
-#### Fyra relationer förda, 2026-09-10
+### Fyra relationer förda, 2026-09-10
 
 Akten förde tidigare far och mor.
 **Bröderna, farbrodern och farföräldrarna saknades**, trots att
 de stod i samma eller anslutande citationer. De är nu förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0459: Johan Vilhelm Henriksson`. Den lyder nu
 `P-0459: Johan Vilhelm Henriksson, barnet som avslutar en sexårig lucka`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Källutlöst sidoperson; ingen fortsatt livslinje följd.
 
 **Bedömningen står kvar i sak.** **En precisering tillkommer:** **den sexåriga luckan i syskonskaran ger en namngiven källa som inte var identifierad som öppen väg.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

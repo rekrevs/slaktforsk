@@ -180,34 +180,34 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### T-0132:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0132:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Full akt-/profilgranskning ägs av T-0194`. **T-0194 är
 denna uppgift**, och den fulla granskningen är utförd med daterad PK-bedömning
 i profilen.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0369: Albertina Eriksdotter`. Den lyder nu
 `P-0369: Albertina, född, nöddöpt och död på en och samma dag 1887`.
 **Filnamnet är oförändrat**, och **namnformstabellen skriver ut att
 `Eriksdotter` inte är belagt.**
 
-#### T-0132: konsolideringsrättelse, historisk
+### T-0132: konsolideringsrättelse, historisk
 
 > Full akt-/profilgranskning ägs av T-0194. C-0399/C-0400:s hela relevanta
 > egna poster har nu prövats; inget nytt arkivbesök.
 
 **Bedömningen står kvar i sak** och är nu inarbetad i akttexten.
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Livsloppet och föräldrarna är fullständigt säkrade inom den enda dagen
 > 1887-10-14. Ingen ytterligare gren finns att följa.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

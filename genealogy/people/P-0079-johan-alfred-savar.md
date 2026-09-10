@@ -193,7 +193,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 med ett preciserat led och en med ett överspelat och ett uttryckligen
 kvarstående led utmärkta i saktexten.
 
-#### A-0297: familjenumret överspelat, verifieringskravet kvarstår, 2026-09-09
+### A-0297: familjenumret överspelat, verifieringskravet kvarstår, 2026-09-09
 
 Databasens `familj nr 4` kommer ur indexposten och sammanfaller **inte** med
 bladets egen hushållskolumn, som inte avslutar hans grupp alls på arket
@@ -201,7 +201,7 @@ bladets egen hushållskolumn, som inte avslutar hans grupp alls på arket
 oförändrad och är fortfarande aktens viktigaste öppna punkt. Ledet om Johan
 August är oförändrat bindande.
 
-#### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
+### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
 
 Hela bladbilden återsågs. `Fredrika Antonia Fällman och hennes son Johan
 Alfred står separat. Ingen av dessa sidpersoner får en släktrelation till
@@ -217,7 +217,7 @@ som **inte avslutas på arket**. **Kortare** stannar T-0179 på `hennes son`:
 prefixet `oä. s.` ger inte moderskapet, och eftersom gruppen fortsätter kan en
 förälder stå på nästa bild.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

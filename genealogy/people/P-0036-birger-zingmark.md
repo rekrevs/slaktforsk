@@ -197,20 +197,20 @@ inga namnformer och ingen profil fanns.
 **Samtliga fyra ursprungliga assertioner står kvar med oförändrad lydelse.**
 Två har fått överspelade led utmärkta i saktexten enligt pilotpreciseringen.
 
-#### A-3414: `Andra originalkällan` överskattade oberoendet, 2026-09-09
+### A-3414: `Andra originalkällan` överskattade oberoendet, 2026-09-09
 
 Umeå landsförsamlings uppgift om födelsedagen är en avskrift i samma
 kopiekedja som Degerforsvolymerna, inte en självständig andra röst. Dagen är
 i stället prövad i **båda** Degerforsvolymernas helbilder (A-7727).
 Ursprungslydelsen bevaras.
 
-#### A-3445: två led överspelade, 2026-09-09
+### A-3445: två led överspelade, 2026-09-09
 
 Utflyttningsdagen är `¹⁷/₁₁`, med en korsad sjua vid 1200 %, inte `¹⁹/₁₁`;
 och destinationen, som citationen gav `Falstränsk(?)`, lyder **`Kalvträsk`**
 (A-7726). Ursprungslydelsen bevaras.
 
-#### Relationstabellens kolumner, 2026-09-09
+### Relationstabellens kolumner, 2026-09-09
 
 Den äldre tabellen hade kolumnerna `Person | Relation | Status | Belägg` och
 saknade `Tid/plats`. Den är förd till personmallens fem kolumner; de två
@@ -218,7 +218,7 @@ befintliga raderna behåller sina belägg och har fått tid/plats tillagd, och
 tio syskonrader plus en oavgjord identitet är tillagda ur redan lästa källor.
 Inget A-id och ingen tidigare relation är borttagen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -169,13 +169,13 @@ ett `## Forskningsstatus` och en följdavstämning från T-0142 med bevarad
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0238: Johanna Charlotta Johansdotter`. Den lyder nu
 `P-0238: Johanna Charlotta Johansdotter, död i Sävar 1857 vid tre års ålder`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Den egna Sävarraden är återfunnen i Östanträsk och anger död 1857-07-31. En
 > egen döds-/begravningspost är ännu inte prövad. Den tidigare föreslagna
@@ -185,7 +185,7 @@ Rubriken löd `P-0238: Johanna Charlotta Johansdotter`. Den lyder nu
 **Bedömningen står kvar i sak** och är förd som Q-01 i profilen, med Sävars
 dödbok 1857 som namngiven passage.
 
-#### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
 
 Östanträskhushållets överstrukna dotterrad är positiv och anger **död
 1857-07-31**. Den äldre uppgiften att hon saknas i hushållet är ett läsfel.
@@ -199,7 +199,7 @@ Detta var en begränsad sakrättelse, inte full personkonsolidering eller
 kontraktsgranskning. **Explicit full införandeadoption låg i T-0191** och är
 utförd 2026-09-10. Samtliga äldre A-id:n består.
 
-#### Aktens äldre fulltext före T-0142, historisk
+### Aktens äldre fulltext före T-0142, historisk
 
 > ## Identitet
 >
@@ -216,7 +216,7 @@ utförd 2026-09-10. Samtliga äldre A-id:n består.
 > husförhörskedja 1856–1861 samt närliggande församlingars dödböcker, utan att
 > tolka hennes frånvaro i det hittills funna Sävarhushållet som död.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

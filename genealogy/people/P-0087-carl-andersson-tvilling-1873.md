@@ -200,7 +200,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 **Samtliga fyra ursprungliga assertioner står kvar med oförändrad lydelse.**
 Tre har fått preciserade led och en ett överspelat led utmärkt i saktexten.
 
-#### A-0349: `marginaldatum` överspelat, 2026-09-09
+### A-0349: `marginaldatum` överspelat, 2026-09-09
 
 Talet står **inte i marginalen** utan i husförhörsuppslagets **tryckta
 `Död.`-kolumn**, läst med rubriken i samma utsnitt och med de två närmast
@@ -209,7 +209,7 @@ struktur ett dödsdatum, **1875-05-07** (A-7767). **Reservationen om att inte
 tolka anteckningen som dödsdatum utan kontroll i dödboken var metodiskt
 riktig**, men den vilade på en felplacerad kolumn. Ursprungslydelsen bevaras.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

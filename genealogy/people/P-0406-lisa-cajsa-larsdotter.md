@@ -188,20 +188,20 @@ ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### T-0136:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0136:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `full individuell granskning kvarstår i T-0196`.
 **T-0196 är denna uppgift**, och den fulla granskningen är utförd med daterad
 PK-bedömning i profilen.
 
-#### Vigseldatumet ställt mot födelsedatumet, 2026-09-10
+### Vigseldatumet ställt mot födelsedatumet, 2026-09-10
 
 Båda står i samma post och har varit avskrivna sedan volymen lästes.
 **De hade aldrig ställts mot varandra.** Fyrtio dagar skiljer dem, och
 uppgiften är nu förd som A-7934. **Ingen värdering görs**, och **posten
 skriver henne inte som oäkta.**
 
-#### Flyttfönstret utvidgat, 2026-09-10
+### Flyttfönstret utvidgat, 2026-09-10
 
 [P-0316](P-0316-cajsa-marta-andersdotter.md)s A-5860 räknar familjens
 **återkomst** till Indal ur barnen födda 1862 och framåt. **Hennes egen
@@ -209,14 +209,14 @@ födelseort visar att serien börjar tidigare**, och att det finns **ett andra
 fönster för utflyttningen.** **A-5860 skrivs inte om**; följden är anmäld till
 hennes ägande uppgift.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0406: Lisa Cajsa Larsdotter`. Den lyder nu
 `P-0406: Lisa Cajsa, född sex veckor efter föräldrarnas vigsel`. **Filnamnet
 är oförändrat**, och **namnformstabellen skriver ut att patronymikonet är en
 normalisering.**
 
-#### Tidigare `## Forskningsstatus` och familjeavstämning, historiska
+### Tidigare `## Forskningsstatus` och familjeavstämning, historiska
 
 > Sidoperson skapad direkt ur föräldrahushållet. Egen födelsenotis och senare
 > liv är ännu inte följda.
@@ -229,7 +229,7 @@ normalisering.**
 
 **Båda bedömningarna står kvar i sak** och är inarbetade i akttexten.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

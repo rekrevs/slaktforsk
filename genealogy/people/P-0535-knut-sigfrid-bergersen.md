@@ -131,7 +131,7 @@ namnformer och ingen profil fanns.
 
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Begränsad följdrättelse T-0125, 2026-09-07, historisk
+### Begränsad följdrättelse T-0125, 2026-09-07, historisk
 
 C-0959:s indexnivå och begränsningar införda. Ingen sammanslagning med P-0299 eller ny ankomstdag. Full akt/profiladoption i T-0192; positiv originalväg T-0238 efter programmet. Denna minimirättelse räknas inte som fullgranskning.
 
@@ -142,7 +142,7 @@ C-0959:s indexnivå och begränsningar införda. Ingen sammanslagning med P-0299
 > | A-3609 | Hans födelseort anges i avskriften som `Sader` och hans bostad som `Barnebråkar`; båda formerna är förvanskade och lämnas otolkade. | TRANSCRIBED | låg | [C-0959](../citations/C-0959-ada-vigsel-kristiania-1922.md) | Han saknas i övrigt helt i Digitalarkivet, också i folketellingen 1920, vilket talar för att han kom till Norge efter december 1920 — möjligen från Sverige. |
 > | [P-0299 Knut Bergman](P-0299-knut-bergman.md) | sannolikt samma person | LEAD | C-0959, C-0263 |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

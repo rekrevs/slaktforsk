@@ -166,7 +166,7 @@ rad; ingen tidslinje, inga relationer, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Visningsnamnet ändrat, 2026-09-09
+### Visningsnamnet ändrat, 2026-09-09
 
 Titeln var `P-0055: [J.?] J. Dahlberg`. Det som lästs som hans första
 initial är en del av en tvådelad titelförkortning som samma skrivare
@@ -175,7 +175,7 @@ känd initial. Titeln är `J. Dahlberg`. Den tidigare läsningen står kvar i
 Namnformer som `REJECTED` med sin grund. Filnamnet är oförändrat och en
 eventuell omdöpning ägs av följduppgiften.
 
-#### A-0245: namnledet omprövat, 2026-09-09
+### A-0245: namnledet omprövat, 2026-09-09
 
 `Initialer, titel och ort behöver jämförelse` — jämförelsen är gjord för
 initialerna och titeln. Antalet initialer är **en**, inte två (A-7735);
@@ -183,7 +183,7 @@ titelformelns utläsning är fortfarande okänd; och ortsfrågan är öppen där
 att radens ordföljd inte avgör den. Ursprungslydelsen bevaras som
 avskriftshistorik.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

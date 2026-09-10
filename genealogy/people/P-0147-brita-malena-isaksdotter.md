@@ -192,7 +192,7 @@ rader, två forskningsfrågor och en följdavstämning från T-0142 med bevarad
 
 **Samtliga sex ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Födelseåret preciserat till 1784, 2026-09-10
+### Födelseåret preciserat till 1784, 2026-09-10
 
 A-0617 räknar `39 år 1824` till "omkring 1785", och **den uppgiften står
 kvar** — det är vad notisen skriver. **Två andra källled ger 1784:**
@@ -200,7 +200,7 @@ husförhörssidans egen kolumn `Födelse-år och Dag` (A-7834) och 1821 års
 åldersuppgift `37` (A-7835). **1784 är den bäst stödda uppgiften**, och
 avvikelsen behandlas som ett vanligt åldersfältsfel, inte som en konflikt.
 
-#### Hennes rad utvunnen i sin helhet, 2026-09-10
+### Hennes rad utvunnen i sin helhet, 2026-09-10
 
 A-2301 registrerade hennes namn och sade att **övriga rader och
 destinationen inte registreras.** Hennes egen rad är nu läst kolumn för
@@ -208,7 +208,7 @@ kolumn: **födelseåret 1784 med tomt dagfält**, **tomma förhörs- och
 nattvardskolumner 1815–1823** och **två nattvardsdatum 1824** (A-7836).
 **Den ursprungliga assertionen är inte omskriven.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0147: Brita Malena/Lena Isaksdotter`. Den lyder nu
 `P-0147: Brita Malena Isaksdotter, inhyseshustru i Bergvall`. **Båda
@@ -216,7 +216,7 @@ förnamnsformerna står kvar under Namnformer med sina belägg**; rubriken
 använder den utskrivna formen. **Filnamnet är oförändrat.** Ingen akt har
 delats och ingen identitet har slagits samman.
 
-#### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
 
 P-0058:s egen vigselpost 1854 har omlästs: Johan uppges född 9 mars 1824 och
 anges som son till inhyses Pehr Ersson. Modern namnges inte. Detta stärker
@@ -232,7 +232,7 @@ och [C-0212](../citations/C-0212-johan-pehrsson-degerfors-bjurholm-1847-1848.md)
 ursprungsprövningen. T-0184 utförde full akt-/profilgranskning 2026-09-10;
 den följden var inget kontraktsgodkännande och ingen ny säker släktlänk.
 
-#### Aktens äldre forskningsfrågor före T-0184, historiska
+### Aktens äldre forskningsfrågor före T-0184, historiska
 
 > - Sök hennes födelsenotis omkring 1785; patronymikonet pekar på en far vid
 >   namn Isak.
@@ -243,7 +243,7 @@ den följden var inget kontraktsgodkännande och ingen ny säker släktlänk.
 Båda frågorna är bevarade och preciserade som Q-02 och Q-03 i profilen;
 **årtalet i den första är rättat till 1784.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

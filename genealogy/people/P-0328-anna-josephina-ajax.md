@@ -198,11 +198,11 @@ Nedan bevaras T-0135:s och T-0141:s begränsade följdavstämningar och deras
 historikblock oförändrade. T-0135 återtog där den äldre uppmaningen att följa
 den överstrukna raden till en nästa vistelse.
 
-#### Begränsad följdavstämning — T-0135, 2026-09-08
+### Begränsad följdavstämning — T-0135, 2026-09-08
 
 Detta är en materiell följdrättelse, inte en full individuell konsolidering eller ett nytt kontraktsgodkännande. Profil och full granskning adopteras uttryckligen av [T-0173](../../wotan/dev-log/T-0173.md). Alla äldre A-id:n är bevarade.
 
-#### Historik: ersatta formuleringar
+### Historik: ersatta formuleringar
 
 Följande tidigare text ersätts av ovanstående källbundna rättelser:
 
@@ -210,7 +210,7 @@ Följande tidigare text ersätts av ovanstående källbundna rättelser:
 > - Följ den överstrukna hushållsraden till nästa vistelse.
 
 
-#### Begränsad följdavstämning — T-0141, 2026-09-08
+### Begränsad följdavstämning — T-0141, 2026-09-08
 
 Vid dopet 1828-09-06 antecknas postmästaren Herr Joh. Gust. Col…[?], Madame A.C. Bucklin, brunnsmästaren Hr A. Bucklin och jungfrun Anna Cajsa Söderholm, alla från Medevi Brunn. Moderns råålder är 36. Vittnens titlar tillhör dem, inte föräldrarna, och bevisar inget släktskap. Medevi Brunn är föräldrarnas hemvist; eget dödsår 1829 kommer från hushållsboken, inte en marginalnot i födelseposten. [C-0303](../citations/C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md), [C-0296](../citations/C-0296-vastra-ny-AI6-sida-350-ajax-familj.md).
 

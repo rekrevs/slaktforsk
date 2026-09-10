@@ -208,7 +208,7 @@ profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 och **T-0125:s bevarade äldre formuleringar är oförändrade.**
 
-#### Broderns nollresultat lästes som en anvisning, 2026-09-10
+### Broderns nollresultat lästes som en anvisning, 2026-09-10
 
 **T-0202 fann att broderns nollresultat i Matteus födelsebok 1907 utesluter de
 sex första dagarna efter hans födelse** — **bandet började vid dop den 15
@@ -220,19 +220,19 @@ förväg:** **bandet måste börja vid födelsedagen 1910-02-05.**
 **Det är en förebyggande anvisning och inget källfynd.** **Den säger ingenting
 om var hennes post står, bara var den kan stå.**
 
-#### Kronologin räknad, 2026-09-10
+### Kronologin räknad, 2026-09-10
 
 **Hennes åldrar vid folkräkningen, vid flytten till Helgesta och vid vigseln
 har inte räknats.** **Tio månader, tre och ett halvt år och trettiotvå år.**
 **Maken var elva år äldre, och sonen föddes två år före vigseln.**
 
-#### Fyra relationer förda, 2026-09-10
+### Fyra relationer förda, 2026-09-10
 
 Akten förde tidigare far och mor. **Brodern, halvsystern Maj Amalia, maken och
 sonen stod i citationerna och saknades i relationstabellen.** De är nu förda,
 **sonen med namn och födelsedag utelämnade.**
 
-#### T-0125: begränsad följdrättelse, historisk
+### T-0125: begränsad följdrättelse, historisk
 
 > Samma fastighetsfolio som modern och brodern fastställer inte gemensam
 > lägenhet. Ingen ny privat barndata; full akt/profiladoption kvar i fast
@@ -254,13 +254,13 @@ tillkommer:** **den äldre formuleringen pekade ut `Kungsholms födelsebok
 1910`**, medan **rotemansposten anger `Matteus`** — **det är Matteus som är
 målet.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0534: Ingrid Amalia Ekholm`. Den lyder nu
 `P-0534: Ingrid Amalia Ekholm, vars födelsepost aldrig har sökts`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson på Sverkers djup 4, nyupptäckt 2026-09-06. Nästa steg är
 > egen födelsepost enligt Matteusnyckeln 1910-02-05 samt avstämning av redan
@@ -268,7 +268,7 @@ Rubriken löd `P-0534: Ingrid Amalia Ekholm`. Den lyder nu
 
 **Bedömningen står kvar i sak, och avstämningen är nu gjord.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

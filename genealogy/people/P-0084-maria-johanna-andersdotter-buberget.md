@@ -193,7 +193,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse**, en
 med ett preciserat led utmärkt i saktexten.
 
-#### A-0338: dagen tillkommer ur en annan serie, 2026-09-09
+### A-0338: dagen tillkommer ur en annan serie, 2026-09-09
 
 Databasposten C-0066 ger **bara årtalet** och har ingen bevarad originalbild i
 projektet. Husförhörslängden A I/9c sida 85 bär henne med egen rad och
@@ -201,14 +201,14 @@ födelsedagen **`1849 ²/₈`** (A-7763). **Uppgiften kommer alltså ur en annan
 bokserie än den ursprungliga**, och den är läst i helbild.
 Ursprungslydelsen bevaras.
 
-#### A-0339: frågan skärpt, relationen oförändrad, 2026-09-09
+### A-0339: frågan skärpt, relationen oförändrad, 2026-09-09
 
 Uppgiften att ingen släktrelation till Ida Sofia är belagd **står
 oförändrad**. Men den utvunna födelsedagen sammanfaller exakt med Ida Sofias
 mosters, och frågan är därmed **skarpare, inte lösare**. **Ingen relation
 införs här**; se P-0066:s Q-02, som äger frågan.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

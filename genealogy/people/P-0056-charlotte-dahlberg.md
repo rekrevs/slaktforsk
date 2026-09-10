@@ -166,7 +166,7 @@ rad; ingen tidslinje, inga relationer, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Visningsnamnet ändrat, 2026-09-09
+### Visningsnamnet ändrat, 2026-09-09
 
 Titeln var `P-0056: Charlotte Dahlberg`. Slutvokalen är ett tydligt `a` vid
 900 %, och ortsangivelsen `i Dahlkarlså` står direkt efter hennes namn och
@@ -175,7 +175,7 @@ Den tidigare läsningen står kvar i Namnformer som `REJECTED` med sin grund,
 och **båda stavningarna ska prövas vid sökning**. Filnamnet är oförändrat och
 en eventuell omdöpning ägs av följduppgiften.
 
-#### A-0246: tre led avgjorda, 2026-09-09
+### A-0246: tre led avgjorda, 2026-09-09
 
 `Förnamnet är tydligt; ort och relation kräver jämförelse` — jämförelsen är
 gjord. Slutvokalen är `a`; ortnamnet skrivs `Dahlkarlså` och är bekräftat som
@@ -184,7 +184,7 @@ den andre Dahlbergen är **inte** en hustrurelation, eftersom skrivaren använde
 `& h:r` om ett annat par på samma rad men inte om henne (A-7736).
 Ursprungslydelsen bevaras som avskriftshistorik.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

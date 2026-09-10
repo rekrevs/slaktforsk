@@ -209,21 +209,21 @@ tidslinje, inga relationer, inga namnformer och ingen profil fanns.
 **Samtliga fem ursprungliga assertioner står kvar med oförändrad lydelse.**
 Två har fått överspelade led utmärkta i saktexten enligt pilotpreciseringen:
 
-#### A-0171: `två hushållskällor` överskattade oberoendet, 2026-09-09
+### A-0171: `två hushållskällor` överskattade oberoendet, 2026-09-09
 
 Folkräkningsbladen 1890 och 1900 bär tryckta dokumenthuvuden som visar att
 de är utdrag ur Degerfors husförhörslängd respektive församlingsbok. De är
 kompletterande, inte självständiga. Stödet för hennes identitet vilar i
 stället på A-2497 och A-3409. Ursprungslydelsen bevaras.
 
-#### A-3409: två led överspelade, 2026-09-09
+### A-3409: två led överspelade, 2026-09-09
 
 `lysning 1921-07-27(?)` är inte ett datum utan lysningsboken postnummer 27
 för 1921 (A-7708), och `från Örebro norra` är en uppgift Umeå förde in ur
 betyget, inte en belagd vistelse (A-7707). Ursprungslydelsen och dess
 läsosäkerhetsmarkering bevaras; rättelserna står i de nya assertionerna.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

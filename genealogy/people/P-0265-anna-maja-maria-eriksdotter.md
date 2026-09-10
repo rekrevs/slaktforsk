@@ -217,14 +217,14 @@ förbisåg att posten själv bar en åldersuppgift som kunde tillskrivas henne.
 Nedan bevaras T-0135:s begränsade följdrättelse och den historiska
 ordalydelsen oförändrade.
 
-#### T-0135: begränsad följdrättelse
+### T-0135: begränsad följdrättelse
 
 Föräldrarollen till födelsebarnet i C-0833 består. Den gäller inte säkert
 P-0123:s vuxenidentitet: äldre hushållsdatum var fellästa och sluter inte
 kopplingen. T-0292 prövar den fasta tidiga bryggan. Full aktgranskning och
 profiladoption sker i T-0171; äldre GRANSKAD/KLAR är ingen ny bedömning.
 
-#### Före följdrättelsen, historisk ordalydelse
+### Före följdrättelsen, historisk ordalydelse
 
 > # P-0265: Anna Maja (Maria) Eriksdotter
 >

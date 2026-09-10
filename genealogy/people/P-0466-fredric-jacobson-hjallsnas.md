@@ -262,7 +262,7 @@ fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Vigselpostens åldrar räknade, 2026-09-10
+### Vigselpostens åldrar räknade, 2026-09-10
 
 **Åldrarna `24` och `25` stod i C-0672 sedan tidigare, liksom båda
 födelsedatumen.** **Ingen hade räknat dem mot varandra.** **Båda stämmer
@@ -271,7 +271,7 @@ exakt**, och **den inbördes skillnaden bekräftar månadsordningen.**
 negativt utfall (T-0195) och en gång med positivt (T-0199) — **och här faller
 den ut positivt på två personer samtidigt.**
 
-#### `afl.` identifierad som outläst, 2026-09-10
+### `afl.` identifierad som outläst, 2026-09-10
 
 **Citationen rubricerar fältet `Positiv avflyttningsuppgift` och söker sedan
 en destination.** **Förkortningen är aldrig upplöst.** **`afl.` står för både
@@ -282,7 +282,7 @@ verket prövats med noll som utfall.**
 **Ingen läsning väljs här**, och **iakttagelsen gäller sökstrategin, inte
 uppgiften.**
 
-#### Kronologin stänger en av tre öppna möjligheter, 2026-09-10
+### Kronologin stänger en av tre öppna möjligheter, 2026-09-10
 
 **C-0672 håller tre möjligheter öppna kring faderskapskonflikten.**
 **Lysningen, vigseln och födelsen låg i samma citation utan att räknas mot
@@ -290,20 +290,20 @@ varandra.** **Räknade stänger de den andra:** **frasen `dess hustru` kan inte
 beskriva Anna Brittas civilstånd den 5 juli 1849.** **De två andra står
 oförändrade**, och **en fjärde är tillagd.**
 
-#### Fyra relationer förda, 2026-09-10
+### Fyra relationer förda, 2026-09-10
 
 Akten förde tidigare endast hustrun. **Johan August, `Olo Andersson` och
 Olaus stod i citationen och saknades i tabellen**, liksom **den uttryckliga
 raden att föräldrarna är okända.** De är nu förda, **var och en med sin
 gräns.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0466: Fredric Jacobson i Hjällsnäs`. Den lyder nu
 `P-0466: Fredric Jacobson i Hjällsnäs, vars vigselålder stämmer och vars
 slutord inte är utläst`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Vigseln och makarnas sida 94 är säkrade. Johan August står med Anna Britta
 > på sida 115, men födelsenotisen namnger Olo Andersson som far och kallar
@@ -318,7 +318,7 @@ slutord inte är utläst`. **Filnamnet är oförändrat.**
 ort ... framkommer` förutsätter avflyttningsläsningen.** **Med `afl.`
 outläst är en dödsbokssökning i angränsande år en likvärdig väg.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -236,7 +236,7 @@ fanns.
 
 **Den ursprungliga assertionen A-2565 står kvar med oförändrad lydelse.**
 
-#### Fadderkretsen 1856 bryggades till hans by, 2026-09-10
+### Fadderkretsen 1856 bryggades till hans by, 2026-09-10
 
 **C-0470:s tolv faddrar avskrevs av T-0130 den 2026-09-08 och räknades av
 T-0195 den 2026-09-10 som `den bredaste programmet mött`.** **Ingen hade läst
@@ -247,20 +247,20 @@ citationer utan att någon akt förde dem samman.**
 **Iakttagelsen är förd som A-7968 med fyra utskrivna gränser**, varav den
 första är att **`ibm` är källans egen dittoform och inte en utskriven ort.**
 
-#### Rättelsen av slutåret nådde inte hans akt, 2026-09-10
+### Rättelsen av slutåret nådde inte hans akt, 2026-09-10
 
 **T-0166 rättade 2026-09-09 rullans nedersta årtal från `1839` till `1849`**
 och **förde rättelsen till P-0339**, där den gav ett nytt A-7210. **Hans akt
 nämnde varken årtalet eller underhållet.** **Att han var mottagaren av talet
 `20` gör skillnaden på tio år till hans lika mycket som hennes.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0455: Nils Larsson i Löfberg`. Den lyder nu
 `P-0455: Nils Larsson i Löfberg, fosterfar vars by återkommer i
 fosterdotterns dopkrets`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Rullan är säker för namn, yrkesord och plats. Ljustorp A I/4 sida 86 skriver
 > Margreta Charlotta separat som barnhusflicka och får inte ensam användas för
@@ -272,7 +272,7 @@ fosterdotterns dopkrets`. **Filnamnet är oförändrat.**
 **En sak har ändrats:** **den efterlysta Löfbergskedjan har nu en konkret
 ingång** — **fyra namngivna torpare och en torparänka i byn 1856.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

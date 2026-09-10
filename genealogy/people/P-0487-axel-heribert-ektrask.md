@@ -186,7 +186,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2945 står kvar med oförändrad lydelse.**
 
-#### Han är kohortens tomma kontrollrad, 2026-09-10
+### Han är kohortens tomma kontrollrad, 2026-09-10
 
 **T-0198 förde namnmönstret som A-7947 med sju träffar av åtta.** **Den
 åttonde raden var hans, och den saknade motsvarighet.** **Att en tom rad är
@@ -196,23 +196,23 @@ Iakttagelsen är nu förd som A-7980 **med tre utskrivna gränser**, varav den
 viktigaste är att **ett tomt kontrollfall inte försvagar mönstret utan visar
 hur öppet det är** — **faderns sida är fortfarande outforskad.**
 
-#### Sju syskonrelationer förda, 2026-09-10
+### Sju syskonrelationer förda, 2026-09-10
 
 Akten förde tidigare endast fadern och modern. **De sju syskonen stod i samma
 citation och saknades i akten.** De är nu förda med födelseår och belägg.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0487: Axel Heribert i Ekträsk`. Den lyder nu
 `P-0487: Axel Heribert i Ekträsk, den ende av åtta vars namn saknar motsvarighet i moderns släkt`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson; egen födelsenotis och senare liv är öppna.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

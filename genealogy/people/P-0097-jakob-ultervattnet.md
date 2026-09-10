@@ -192,7 +192,7 @@ ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad
 grundlydelse**, med preciserade led utmärkta i saktexten.
 
-#### A-4354: två led rättade, 2026-09-09
+### A-4354: två led rättade, 2026-09-09
 
 Assertionen kallar kolumnen ett `militärfält` och tillnamnet `Barman[?]`.
 **Kolumn 15:s tryckta rubrik är `Värnpliktsförhållanden`, och `Frik.` betyder
@@ -200,20 +200,20 @@ frikallad** (A-7771) — en substantiell uppgift, inte ett odefinierat
 fältvärde. **Tillnamnet läses `Burman`** (A-7772). Ursprungslydelsen bevaras;
 båda tillnamnsformerna står kvar.
 
-#### Konsolideringsrättelse — T-0131, 2026-09-08, historisk
+### Konsolideringsrättelse — T-0131, 2026-09-08, historisk
 
 Äldre A-0373: ”Jakob föddes 1865-12-10 i Bygdeå.” Rättad avläsning, ingen
 konkurrerande födelsedag. **Bekräftad 2026-09-09** mot födelsekolumnen på
 sida 824 rad 4 med den tryckta rubriken i samma utsnitt: `65` `6/12`.
 
-#### Inkommen observation från T-0155, 2026-09-08, historisk
+### Inkommen observation från T-0155, 2026-09-08, historisk
 
 T-0155 rapporterade vid konsolideringen av P-0049 att `Frik.` betyder
 frikallad, att kolumnrubriken lyder `Värnpliktsförhållanden`, och att rad 4:s
 tillnamn läses närmare `Burman`. **Båda fynden är nu prövade mot fullbilden
 och införda i akten.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -260,7 +260,7 @@ saknas gäller inte den senare boken.
 >
 > C-0425:s fortsatta hushåll tillgodoräknat. Den tidigare uppgiften att patronymikon saknas gäller inte denna senare bok. Full akt-/profilgranskning T-0155.
 
-#### Följdrättelse från T-0181, 2026-09-09: tre läsningar i syskonens rader
+### Följdrättelse från T-0181, 2026-09-09: tre läsningar i syskonens rader
 
 Tre läsningar ur [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md)
 är omprövade vid konsolideringen av syskonkohorten, alla genom glyfjämförelse

@@ -184,12 +184,12 @@ fanns.
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse**, och
 **T-0140:s bevarade äldre aktversion är oförändrad.**
 
-#### Livslängden räknad, 2026-09-10
+### Livslängden räknad, 2026-09-10
 
 **Födelse- och dödsdatum har stått i akten sedan T-0140.** **Ingen hade räknat
 mellanrummet.** **Ett år, sex månader och en dag.**
 
-#### Uppslagets strukna rader genomgångna, 2026-09-10
+### Uppslagets strukna rader genomgångna, 2026-09-10
 
 **C-0869:s avskrift markerar tre överstrukna barnrader, två med
 `hvart hän`-hänvisningar och en med ett dödsdatum.** **Ingen hade ställt dem
@@ -203,19 +203,19 @@ strykningsheuristiken måste fastställas per volym och hand.**
 stift och ett annat årtionde än Sävar**, och **därför att den visar att
 falsifieringen inte var ett lokalt undantag.**
 
-#### Sju syskon förda, 2026-09-10
+### Sju syskon förda, 2026-09-10
 
 Akten förde tidigare far och mor. **De åtta äldre syskonen stod i citationen
 och saknades i relationstabellen.** De är nu förda, **utan egna person-id**,
 och **de två strukna systrarnas hänvisningssidor är utskrivna.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0527: Sophia Wilhelmina, Buberget`. Den lyder nu
 `P-0527: Sophia Wilhelmina i Buberget, sista barnet, död vid ett och ett halvt
 år`. **Filnamnet är oförändrat.**
 
-#### T-0140: begränsad följdavstämning, historisk
+### T-0140: begränsad följdavstämning, historisk
 
 > 2026-09-08: endast personbundna följder från moderns fullpostgranskning har
 > införts. Ingen full konsolidering, ny profil eller ny PK-granskning har
@@ -224,7 +224,7 @@ Rubriken löd `P-0527: Sophia Wilhelmina, Buberget`. Den lyder nu
 
 **Bedömningen står kvar i sak, och adoptionen är nu utförd.**
 
-#### Bevarad akt före T-0140:s följdavstämning
+### Bevarad akt före T-0140:s följdavstämning
 
 > # P-0527: Sophia Wilhelmina, Buberget
 >
@@ -254,7 +254,7 @@ Rubriken löd `P-0527: Sophia Wilhelmina, Buberget`. Den lyder nu
 > Bevarad syskonperson i målgruppen, utan egen sidogrensexpedition.
 > Eget senare liv och födelseoriginal är inte undersökta i denna passage.
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Bevarad syskonperson i målgruppen, utan egen sidogrensexpedition.
 > Dödskolumnen i den redan lästa A I/6b-raden anger **1852-06-06**. Egen
@@ -262,7 +262,7 @@ Rubriken löd `P-0527: Sophia Wilhelmina, Buberget`. Den lyder nu
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

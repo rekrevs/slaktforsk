@@ -207,7 +207,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 alla tre med överspelade oberoendeled utmärkta i saktexten.
 
-#### A-0316, A-0317 och A-2105: oberoendet överskattat, 2026-09-09
+### A-0316, A-0317 och A-2105: oberoendet överskattat, 2026-09-09
 
 C-0060 bär dokumenthuvudet `Utdrag ur Husförhörslängden för Degerfors` och
 C-0402 `Utdrag ur Församlingsboken för Degerfors`; båda är avskrifter ur den
@@ -215,7 +215,7 @@ bokserie som C-0404 och C-0549 tillhör. De parvisa beläggen är alltså **en**
 informationsväg, inte två röster. **Dagen är däremot prövad i två volymers
 helbilder** (A-7753). Ursprungslydelserna bevaras.
 
-#### Adopterad ur T-0178:s kohortavgränsning, 2026-09-09
+### Adopterad ur T-0178:s kohortavgränsning, 2026-09-09
 
 T-0178 behandlade hans sex syskon P-0067–P-0072 och skrev att Oskar Rudolf
 **saknar person-id**. Det var fel: denna akt fanns och var länkad från
@@ -223,7 +223,7 @@ P-0029, P-0065 och P-0066. Felet rättades i T-0179 tillsammans med tre
 andra källpåståenden i samma kohort, och hans relationsrader i syskonens
 akter bär nu länk hit.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

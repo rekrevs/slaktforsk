@@ -178,7 +178,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse**, en
 med ett preciserat och ett överspelat led utmärkta i saktexten.
 
-#### A-0289: `redovisas med` är överspelat, 2026-09-09
+### A-0289: `redovisas med` är överspelat, 2026-09-09
 
 Hon är inte bara redovisad **med** Evald Bäckström utan skriven som hans
 **hustru** i bladets tryckta familjeställningskolumn (A-7755). Ledet om att
@@ -187,7 +187,7 @@ och förstärkt**: uppslagets egen hushållskolumn placerar dem i skilda
 hushåll. Databasens `familj nr 1` kommer ur indexposten och sammanfaller inte
 med bladets hushållsindelning. Ursprungslydelsen bevaras.
 
-#### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
+### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
 
 Hela bladbilden återsågs. `Evald Bäckström, hustrun Anna Magdalena
 Jonsdotter, Anna Kajsa Bäckström och hennes barn hör till hushållssidans
@@ -202,7 +202,7 @@ förutsätter att Anna Kajsa är barnets mor, vilket `oä. d.` **inte** säger �
 och avstämningen tar inte upp frågan om vem som är **Anna Kajsas** mor, som
 prefixet `d.` lämnar öppen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

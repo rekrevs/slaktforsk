@@ -212,7 +212,7 @@ fanns.
 Den blockcitat-bevarade äldre fulltexten från T-0142 har flyttats hit under
 Historik utan att ändras.
 
-#### Hushållssidan utvunnen i sin helhet, 2026-09-10
+### Hushållssidan utvunnen i sin helhet, 2026-09-10
 
 A-2298 registrerade tre av fem rader och sade att **övriga rader och
 destinationen inte registreras.** Hela hushållet är nu läst: **fem rader,
@@ -221,14 +221,14 @@ hela hushållet** (A-7827); **två nattvardsdatum 1824** (A-7828); och
 **`Anteckningar` oanvänd på hela uppslaget** (A-7829). **Den ursprungliga
 assertionen är inte omskriven** — den var korrekt för sitt omfång.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0146: Pehr Ersson i Bergvall`. Den lyder nu
 `P-0146: Pehr Ersson, inhyses i Bergvall`, eftersom ståndet är belagt i tre
 källor och skiljer honom från namnlikar. **Filnamnet är oförändrat.** Ingen
 akt har delats och ingen identitet har slagits samman.
 
-#### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
 
 P-0058:s egen vigselpost 1854 har omlästs: Johan uppges född 9 mars 1824 och
 anges som son till inhyses Pehr Ersson. Modern namnges inte. Detta stärker
@@ -244,7 +244,7 @@ och [C-0212](../citations/C-0212-johan-pehrsson-degerfors-bjurholm-1847-1848.md)
 ursprungsprövningen. T-0184 utförde full akt-/profilgranskning 2026-09-10;
 den följden var inget kontraktsgodkännande och ingen ny säker släktlänk.
 
-#### Aktens äldre fulltext före T-0142, historisk
+### Aktens äldre fulltext före T-0142, historisk
 
 > ## Identitet
 >
@@ -262,7 +262,7 @@ den följden var inget kontraktsgodkännande och ingen ny säker släktlänk.
 >   bouppteckningslänk efter 1824; utflyttade 1823–1826 och döda 1824–1825 är
 >   redan avgränsade utan säker familjeträff i C-0507–C-0508.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -188,27 +188,27 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2938 står kvar med oförändrad lydelse.**
 
-#### Källägets fyra gränser förda, 2026-09-10
+### Källägets fyra gränser förda, 2026-09-10
 
 Citationen C-0751 innehöll redan sidgränsen, upplösningstaket, avsaknaden av
 efternamn på barnraderna och `Sara Josefina Olofsdotter`. **Ingen akt hade
 fört dem som en samlad gräns.** De är nu förda som A-7948, **tillsammans med
 den fjärde och tyngsta: att hans egen härkomst aldrig sökts.**
 
-#### Barnens födelseintervall räknade, 2026-09-10
+### Barnens födelseintervall räknade, 2026-09-10
 
 De åtta födelseåren fanns i citationen. **Intervallen hade aldrig räknats.**
 De är nu förda som A-7949 **som kontrollfall åt T-0195:s Fredbergsiakttagelse**,
 med den uttryckliga gränsen att **två familjer inte gör en statistik.**
 Iakttagelsen är anmäld till C-0945.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0480: Erik August Lindberg`. Den lyder nu
 `P-0480: Erik August Lindberg, bonde i Ekträsk och den outforskade hälften`.
 **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson utanför antavlan. Exakt födelse, vigsel och senare liv är öppna
 > men prioriteras inte före den aktiva breddkohorten.
@@ -217,7 +217,7 @@ Rubriken löd `P-0480: Erik August Lindberg`. Den lyder nu
 hans härkomst är inte längre bara hans egen lucka utan **kontrollen till en
 iakttagelse om åtta barn**, och den är förd till en avgränsad uppgift.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

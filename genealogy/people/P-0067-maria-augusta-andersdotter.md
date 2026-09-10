@@ -209,7 +209,7 @@ och ingen profil fanns.
 **Samtliga fem ursprungliga assertioner står kvar med oförändrad lydelse.**
 Fyra har fått preciserade eller överspelade led utmärkta i saktexten.
 
-#### A-0304 och A-0305: oberoendet överskattat, 2026-09-09
+### A-0304 och A-0305: oberoendet överskattat, 2026-09-09
 
 C-0060 bär dokumenthuvudet `Utdrag ur Husförhörslängden för Degerfors` och är
 en avskrift ur **samma** längdserie som C-0064; C-0066 är en databaspost utan
@@ -219,7 +219,7 @@ helbilder** 2026-09-09 och står lika i alla. Relationen till Ida Sofia har
 därtill ett **självständigt** stöd i moderns bouppteckning.
 Ursprungslydelserna bevaras.
 
-#### Avgränsad följdavstämning 2026-09-08, T-0129, historisk
+### Avgränsad följdavstämning 2026-09-08, T-0129, historisk
 
 Den 23 augusti 1898 namnges hon som dottern Maria Augusta, född 1869,
 barnmorska i Anundsjö församling, Västernorrlands län, i moderns
@@ -229,12 +229,12 @@ Profil saknades; T-0178 var explicit ägare för adoption till full profil och
 individuell prövning. **Adoptionen är utförd här.** Åtta arvingar 1898 är
 inte totalt födda syskon; familjen har minst tio kända barn.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.
 
-#### Rättelse 2026-09-09, T-0179: Oskar Rudolf har person-id P-0073
+### Rättelse 2026-09-09, T-0179: Oskar Rudolf har person-id P-0073
 
 Vid T-0178:s skrivning angavs att tre syskon saknar egna person-id — Oskar
 Rudolf och tvillingarna. **Det är fel: Oskar Rudolf är
@@ -246,7 +246,7 @@ bär nu rätt länk, och **två** syskon — tvillingarna Anders och Carl, född
 1873 — saknar person-id. Rättelsen gjordes när T-0179:s kohort öppnades, där
 P-0073 är kohortmedlem.
 
-#### Rättelse 2026-09-09, T-0179: tvillingarna, deras öde och tre källserier
+### Rättelse 2026-09-09, T-0179: tvillingarna, deras öde och tre källserier
 
 Den tidigare rättelsen ovan var **ofullständig**. T-0179 prövade T-0178:s
 uppgifter mot projektets källregister, och fyra påståenden faller.

@@ -190,7 +190,7 @@ relationer, inga namnformer och ingen profil fanns.
 
 **Båda ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### A-0268 och A-0269: två led preciserade, 2026-09-09
+### A-0268 och A-0269: två led preciserade, 2026-09-09
 
 Födelsedagen står lika i **fem** husförhörsuppslag, men varje bok hänvisar
 till nästa med sidnummer — de är led i **en** kopiekedja och inte fem röster.
@@ -198,7 +198,7 @@ Och brodern Johan August är [P-0424](P-0424-johan-august-johansson.md);
 identifieringen med P-0028 avvisades 2026-08-29, varmed familjen är en
 fristående sidogren utan trädverkan. Båda ursprungslydelserna bevaras.
 
-#### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0142, 2026-09-08, historisk
 
 Egen födelsepost är inte nygranskad här. Den senare familjeboken ger en
 särskild dödsnot **1885 9/7[?]** för Carl Eric, skild från faderns
@@ -219,7 +219,7 @@ nedgående svans och nämnaren en `7`, och uppgiften står i samma dödskolumn
 som faderns, mätt i samma utsnitt (A-7740). Sidnumret `395` och året `1883`
 är däremot **fortfarande reserverade** och förs så i A-7741.
 
-#### Tidigare text — historisk före T-0142:s följdrättelse
+### Tidigare text — historisk före T-0142:s följdrättelse
 
 > # P-0062: Carl Erik Lundström
 >
@@ -230,7 +230,7 @@ som faderns, mätt i samma utsnitt (A-7740). Sidnumret `395` och året `1883`
 > | A-0268 | Carl Erik var född 1863-05-15 i Sävar. | CORROBORATED | hög | [C-0051](../citations/C-0051-johan-august-barndom-sida-354.md), [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md) | Stavningen `Eric` förekommer i källan. |
 > | A-0269 | Han var son till Johan Pettersson Lundström och Cajsa Lotta Jonsdotter samt bror till Johan August. | CORROBORATED | hög | [C-0051](../citations/C-0051-johan-august-barndom-sida-354.md), [C-0053](../citations/C-0053-lundstrom-hushall-sida-461.md) | Direkt hushållsrelation. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

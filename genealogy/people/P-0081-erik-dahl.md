@@ -184,7 +184,7 @@ fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse**, med sitt
 läsuppdrag utfört och redovisat i saktexten.
 
-#### A-0299: läsuppdraget utfört med två skilda utfall, 2026-09-09
+### A-0299: läsuppdraget utfört med två skilda utfall, 2026-09-09
 
 Uppmaningen `Ort och övrig beskrivning ska läsas om` är utförd. **Orten** är
 delvis läst — `Da[…]fors`, mellanbokstäverna ambivalenta mellan `ss` och `hl`
@@ -195,7 +195,7 @@ led kan därför inte infrias ur denna bok**, vilket är en källgräns och inte
 outvunnen cell. Tillförlitligheten `medel` står kvar, och ursprungslydelsen
 bevaras. Se A-7761.
 
-#### Fullpostprövning — T-0142, 2026-09-08, historisk
+### Fullpostprövning — T-0142, 2026-09-08, historisk
 
 Hela den bevarade födelseposten prövades. `Dopvittnesfältet har sex
 urskiljbara personer: inhyses Jon Olofsson med namnlös hustru i Gunnmark[?];
@@ -209,7 +209,7 @@ stå reserverade utan släktskapsinferens, och att hans post är kort.
 **Preciserat:** hans ort är `Da[…]fors`, **samma som O. Dahls**. **Avvisat:**
 `Drakfors[?]`.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

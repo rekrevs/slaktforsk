@@ -152,7 +152,7 @@ ingen profil fanns.
 **Den ursprungliga assertionen står kvar med oförändrad lydelse och status
 `REJECTED`.**
 
-#### Ägarbeslutets märkning tillämpad, 2026-09-10
+### Ägarbeslutets märkning tillämpad, 2026-09-10
 
 **PCD-2026-09-10-031** slår fast att akter vars enda uppgift är motsagd av
 originalkällan **får ligga kvar om de är tydligt märkta** med den fasta
@@ -165,14 +165,14 @@ tillämpad**, och akten är därmed greppbar med
 `Trädverkan: EJ BÄRANDE` — **eftersom märkningen beskriver arbetsprioritet,
 inte kunskapsläge.**
 
-#### Formatfel rättat, 2026-09-10
+### Formatfel rättat, 2026-09-10
 
 Akten saknade `## Relationer`, vilket aktstandarden kräver. **Rättelsen är
 rent redaktionell**; **de två rader som förts in är inte relationer i vanlig
 mening** utan **den ersättande läsningen och den post felläsningen kom ur**,
 och **båda är märkta som sådana.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Ingen levande relation ska kopplas till denna historiska post. Den får inte
 > användas som person-, make- eller föräldrabellägg; se P-0453 för den
@@ -181,7 +181,7 @@ och **båda är märkta som sådana.**
 **Bedömningen står kvar i sak** och är nu inarbetad i akttexten och i
 `## Slutstatus`.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

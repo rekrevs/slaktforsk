@@ -167,14 +167,14 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0139: Anna Ersdotter`. Den lyder nu
 `P-0139: Anna Ersdotter i Näfverkärr, dopvittne 1881`, eftersom namnet ensamt
 inte skiljer henne från namnlikar. **Filnamnet är oförändrat.** Ingen akt har
 delats och ingen identitet har slagits samman.
 
-#### Avstämning — T-0183, 2026-09-10, historisk
+### Avstämning — T-0183, 2026-09-10, historisk
 
 T-0183 skrev ut dopvittneskolumnens struktur i
 [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) och slog fast att
@@ -182,7 +182,7 @@ posten har **tre vittnesparter från tre olika boställen**, att kolumnen
 **inte anger vittnens åldrar** och att **ingen relation till dopbarnet**
 anges för någon part. Denna akt vilar på den läsningen och gör ingen egen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

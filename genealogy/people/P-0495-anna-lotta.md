@@ -210,14 +210,14 @@ namnformer och ingen profil fanns.
 **Den ursprungliga assertionen A-3042 står kvar med oförändrad lydelse**, och
 **T-0139:s bevarade äldre formuleringar är oförändrade.**
 
-#### Civilståndsvändpunkten identifierad, 2026-09-10
+### Civilståndsvändpunkten identifierad, 2026-09-10
 
 **Ordet `hustrun` i hennes post och `pigan` i broderns har stått i två
 citationer.** **Ingen hade ställt dem mot varandra.** **Tillsammans stänger de
 föräldrarnas vigsel inne i ett treårigt fönster**, och **rullans datum ligger
 inuti** — **en korsbeläggning mellan kyrkobok och militärmaterial.**
 
-#### Moderns tre åldrar räknade, 2026-09-10
+### Moderns tre åldrar räknade, 2026-09-10
 
 **`omkring 23`, `26` och `43` stod i tre födelseposter, och moderns egen
 födelsedag i hennes akt.** **Ingen hade räknat dem mot varandra.** **Alla tre
@@ -225,26 +225,26 @@ stämmer** — **en oberoende bekräftelse av att det är samma kvinna i alla tr
 posterna.** **Serien skiljer däremot inte hushållens `30 april` från
 födelsepostens `30 maj`.**
 
-#### Moderns patronymikon: avgörandet nådde inte hit, 2026-09-10
+### Moderns patronymikon: avgörandet nådde inte hit, 2026-09-10
 
 **Denna akt förde `Jonsdotter` som moderns namn.** **Hennes egen akt har
 avgjort frågan:** **hennes far hette `Jan Ericson`.** **`Jansdotter` är den
 riktiga formen**, och **`Jonsdotter` är variantens.** **Källformen i denna
 post bevaras oförändrad.**
 
-#### Tre relationer förda, 2026-09-10
+### Tre relationer förda, 2026-09-10
 
 Akten förde tidigare far, mor och en yngre bror. **Den äldre brodern Carl
 Johan, den yngre systern Maria Sofia och `Anders Fredric` saknades.** De är nu
 förda, **den sistnämnde som relation utan person-id.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0495: Anna Lotta`. Den lyder nu
 `P-0495: Anna Lotta, den första posten som kallar modern hustru`.
 **Filnamnet är oförändrat.**
 
-#### T-0139: rättelsenot, historisk
+### T-0139: rättelsenot, historisk
 
 > 2026-09-08, T-0139: C-0794:s bevarade födelsefullbild andraläst. Fadern
 > skrivs Carl Fr. Drill, inte äldre avskrift Carl Eric Grill; förkortningen
@@ -253,7 +253,7 @@ Rubriken löd `P-0495: Anna Lotta`. Den lyder nu
 
 **Bedömningen står kvar i sak, och adoptionen är nu utförd.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > - Status: `SIDOPERSON — FÖDELSE OCH FÖRÄLDRAR SÄKRA`
 > - Senare liv, eventuell vigsel och död är öppna och följs först i en
@@ -261,7 +261,7 @@ Rubriken löd `P-0495: Anna Lotta`. Den lyder nu
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

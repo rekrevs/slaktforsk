@@ -235,14 +235,14 @@ relationer, inga namnformer och ingen profil fanns.
 
 **Samtliga sex ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### A-0194: två led preciserade, 2026-09-09
+### A-0194: två led preciserade, 2026-09-09
 
 `Exakt datum återstår` är **utfört** — dagen är 1888-08-03 (A-3933). Och
 `1890–1910` är **tre årsankare**, inte belägg för varje mellanår; hushållet
 flyttade fem gånger, och bara Blacksta-länken har exakta datum (A-7743).
 Ursprungslydelsen bevaras.
 
-#### Begränsad följdavstämning — T-0129, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0129, 2026-09-08, historisk
 
 Första äktenskapet och familjen var utelämnade i äldre avskrifter. Full
 adoption inklusive saknad profil ägdes av T-0177 och är **utförd här**; den
@@ -251,11 +251,11 @@ augusti i hushållsböckerna; en egen födelsenotis är fortfarande oläst. De t
 änkedagarna prövas som källbundna uppgifter. Ingen första hustru eller dotter
 slås ihop med den senare hustrun på grund av gemensamt hushåll.
 
-#### Bevarad äldre A-3428 före rättelsen
+### Bevarad äldre A-3428 före rättelsen
 
 > | A-3428 | Han skrevs verkmästare på Ljungbacka i Flen, fick äktenskapsbevis 1918-07-24 för lysning med Maria Katarina Larsson från Bettna, gifte sig 1918-09-01 och utflyttade till Jönköping 1920-02-27. | TRANSCRIBED | hög | [C-0910](../citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md) | Hustruns gårdsnamn är läsosäkert. |
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

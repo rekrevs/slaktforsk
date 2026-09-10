@@ -186,7 +186,7 @@ forskningsfråga; ingen tidslinje, inga namnformer och ingen profil fanns.
 **Samtliga fyra ursprungliga assertioner står kvar med oförändrad lydelse**,
 med ett preciserat led utmärkt i saktexten.
 
-#### A-7800: dopfaderns efternamn rättat från `Skilfors[?]` till `Nilsson`, 2026-09-09
+### A-7800: dopfaderns efternamn rättat från `Skilfors[?]` till `Nilsson`, 2026-09-09
 
 T-0143:s fullfältsgranskning läste faddern som `torparen Johan Albert
 Skilfors[?] och hans ej namngivna hustru i Bergatorp`, med efternamnet
@@ -195,7 +195,7 @@ ett tydligt `N` följt av `ilsson` med lång `ss`-ligatur. **Reservationen
 faller, inte genom en preferens utan genom att de bokstäver `Skilfors` kräver
 inte finns i handstilen.** Byn `Bergatorp` står kvar oförändrad.
 
-#### A-0452 preciserad: folkräkningen bekräftar året, inte dagen, 2026-09-09
+### A-0452 preciserad: folkräkningen bekräftar året, inte dagen, 2026-09-09
 
 Assertionen står som `CORROBORATED` med två belägg. Det preciseras:
 folkräkningsutdraget ger **endast året `04`** och församlingen genom ditto,
@@ -204,7 +204,7 @@ aldrig dagen, och det bär dokumenthuvudet `Utdrag ur Församlingsboken`.
 Preciseringen följer C-0082:s eget tillägg från T-0153, som slog fast samma
 sak för brodern Erik Axel.
 
-#### Individuell fullfältsgranskning — T-0143, 2026-09-08, historisk
+### Individuell fullfältsgranskning — T-0143, 2026-09-08, historisk
 
 T-0143 prövade hela posten 2 på den sparade helbilden med kolumnrubriker:
 födelse 1904-02-04, ett levande äkta gossebarn, föräldrarna med sina egna
@@ -214,18 +214,18 @@ och tomma kyrkotagnings- och anmärkningsfält. **Granskningen står oförändra
 utom i faddersnamnet**, och dess princip att födelsebokens församling inte
 ersätter en uppgift om fysisk nedkomstort är bevarad i akten.
 
-#### Tillägg om rotenumret — T-0153, 2026-09-08, historiskt
+### Tillägg om rotenumret — T-0153, 2026-09-08, historiskt
 
 T-0153 upphävde lydelsen att talet efter yrket i folkräkningen 1910 är ett
 rotenummer: kolumnrubriken lyder `Yrke och nummer i yrkesuppgift`.
 **Preciseringen är bevarad och gäller faderns rad, inte hans.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.
 
-#### Följdrättelse från T-0183, 2026-09-10: halvbrodern och flyttdagen
+### Följdrättelse från T-0183, 2026-09-10: halvbrodern och flyttdagen
 
 Två uppgifter är rättade respektive tillförda vid konsolideringen av
 kohorten P-0121–P-0138, **båda ur en sida projektet redan hade sparat**:

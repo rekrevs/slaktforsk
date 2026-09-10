@@ -202,14 +202,14 @@ namnformer och ingen profil fanns.
 
 **Samtliga fem ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### T-0167:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0167:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `Full individuell granskning, profilinförande och
 kontraktsgranskning ägs av T-0193, som har honom i sin kohort`, och
 `Akten är inte förd till person-dossier/v1 i denna begränsade
 följdavstämning`. **T-0193 är denna uppgift**, och båda leden är nu infriade.
 
-#### Systerns namnform följd, 2026-09-10
+### Systerns namnform följd, 2026-09-10
 
 Relationstabellen skriver systern på rad 4 som **`Hedda Lovisa`**, vilket är
 T-0167:s bokstavsformsavgjorda läsning. **Hennes akt och filnamn bär
@@ -217,13 +217,13 @@ fortfarande den felaktiga formen `Charlotta Lovisa`**, och länken går därför
 till [P-0332](P-0332-charlotta-lovisa-alund.md). **Rättelsen av hennes egen
 akt ägs inte av denna uppgift.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0335: Carl Johan Ålund`. Den lyder nu
 `P-0335: Carl Johan Ålund, beväring 1861 och utflyttad till Oppeby 1864`.
 **Filnamnet är oförändrat.**
 
-#### T-0167, 2026-09-09 — avgränsad följd ur P-0329:s kohort, historisk
+### T-0167, 2026-09-09 — avgränsad följd ur P-0329:s kohort, historisk
 
 Två tryckta celler på hans rad var olästa: `ex. 61.` i fräjdkolumnen och
 `Oppeby 64` i utflyttningskolumnen. Båda är utvunna ur den redan sparade
@@ -232,7 +232,7 @@ arkivåtkomst, och de ger honom hans första kända händelser efter födelsen: 
 beväringsövning 1861 och en utflyttning 1864. **Bedömningen står kvar i sak**
 och är nu inarbetad i akttexten.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade ingen granskningsstatus och ingen profil före 2026-09-10. Ingen
 äldre GRANSKAD- eller KLAR-bedömning har konverterats.

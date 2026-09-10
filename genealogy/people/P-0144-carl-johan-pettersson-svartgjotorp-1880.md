@@ -194,7 +194,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 med rättade och preciserade led utmärkta i kommentarskolumnen.
 
-#### A-0594 preciserad: ställningen framgår, men ur en annan källa, 2026-09-10
+### A-0594 preciserad: ställningen framgår, men ur en annan källa, 2026-09-10
 
 Assertionen skriver att familjeställningskolumnen är tom **och att hans
 ställning i hushållet därför inte framgår.** **Första ledet står kvar och är
@@ -202,13 +202,13 @@ riktigt**; andra ledet är för brett. Ställningen framgår av församlingens e
 husförhörslängd `A I/16`, som skriver `Dr.` framför hans namn. Se A-7822.
 **Folkräkningens tomma cell består som en läst nolla.**
 
-#### A-0593 preciserad: dagen finns, 2026-09-10
+### A-0593 preciserad: dagen finns, 2026-09-10
 
 Folkräkningen anger endast året 1862, och bedömningen `medel` var riktig för
 den källan. **Husförhörslängden ger `62 ²⁷/₃`**, alltså 1862-03-27, som en
 sekundär bokuppgift. Se A-7822.
 
-#### `Trädverkan` rättad till `EJ BÄRANDE`, 2026-09-10
+### `Trädverkan` rättad till `EJ BÄRANDE`, 2026-09-10
 
 Arbetsläget skrev först `Trädverkan: BÄRANDE`. **Det var fel.** Fältet svarar
 enligt [personkontraktet](../person-contract.md) på en enda fråga — **får
@@ -219,13 +219,13 @@ tjänst, inte släkt.** Identitetsnivåns `GODKÄND` är oförändrad; **fältet
 mäter inte identitetens styrka utan trädets väg**, och de två får inte
 blandas ihop.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0144: Carl Johan Pettersson`. Den lyder nu
 `P-0144: Carl Johan Pettersson, dräng i Svartgjötorp`. **Filnamnet är
 oförändrat.** Ingen akt har delats och ingen identitet har slagits samman.
 
-#### Avstämning — T-0132, 2026-09-08, historisk
+### Avstämning — T-0132, 2026-09-08, historisk
 
 T-0132 prövade folkräkningens hela hushållsgrupp och skrev: `CarlJohan
 Pettersson1862Årdala finns på följande rad, utan sonrelation; han är senare
@@ -233,7 +233,7 @@ dräng i C-0149.` **Meningens andra led pekade rätt** — men uppgiften fördes
 aldrig in i akten, och akten fortsatte säga att ställningen inte framgår.
 **Det är den luckan A-7822 stänger.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -170,34 +170,34 @@ profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Åldersavvikelsen registrerad, 2026-09-10
+### Åldersavvikelsen registrerad, 2026-09-10
 
 A-2179 återger både födelsedagen `22 december` och åldern `26 dagar` som
 CORROBORATED, **utan att notera att de ligger en dag från varandra.**
 Avvikelsen är nu förd som A-7920 med tillförlitlighet `medel`, **med båda
 förklaringarna utskrivna och ingen vald.** **A-2179 skrivs inte om.**
 
-#### Systerns och broderns namnformer följda, 2026-09-10
+### Systerns och broderns namnformer följda, 2026-09-10
 
 Relationstabellen skriver modern **`Stina Cajsa Larsdotter`** och brodern
 **`Lars Johan`**, vilket är C-1012:s och T-0134:s närläsningar. **Deras egna
 akter och filnamn bär fortfarande de äldre formerna**, och länkarna går dit.
 **Rättelsen av deras akter ägs inte av denna uppgift.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0380: Anders Olof, son 1842–1843`. Den lyder nu
 `P-0380: Anders Olof, den förste med namnet, 1842–1843`. **Filnamnet är
 oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson vars korta liv och namnidentitet är lösta; ingen egen djupkedja
 > öppnas.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

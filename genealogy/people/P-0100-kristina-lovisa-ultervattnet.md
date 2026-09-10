@@ -192,7 +192,7 @@ ingen profil fanns.
 **Båda ursprungliga assertioner står kvar med oförändrad grundlydelse**, med
 upplösta reservationer utmärkta i saktexten.
 
-#### A-4357: födelsedagens reservation upplöst, 2026-09-09
+### A-4357: födelsedagens reservation upplöst, 2026-09-09
 
 Assertionen bar `1877 26/4[?]` med den alternativa läsningen `24/4`.
 **Dagen är 26/4, och alternativet faller.** Grunden är en glyfjämförelse mot
@@ -201,7 +201,7 @@ tunn uppåtstigande ögla över en liten sluten skål — hans `6`, identiskt me
 `6` i rad 6:s `26/9` och rad 4:s `6/12` — och saknar helt vinkeln och
 tvärstrecket i hans `4`. Se A-7781. Ursprungslydelsen bevaras.
 
-#### A-4357: flyttfältets dag rättad från `2/10[?]` till `2/12`, 2026-09-09
+### A-4357: flyttfältets dag rättad från `2/10[?]` till `2/12`, 2026-09-09
 
 Assertionen reserverade `2/10[?]`. **Nämnaren är `12`:** dess andra tecken är
 en `2` med öppen övre båge och vågrät fot, tydligt olikt den slutna ovalen `0`
@@ -213,20 +213,20 @@ dödsdag `3/10 05` hade kunnat läsas som två dödsfall i samma vecka. **Dagen
 stod aldrig i dödskolumnen** — kolumn 18 är läst och tom på hennes rad
 (A-7783) — och den ligger två månader senare.
 
-#### Konsolideringsrättelse — T-0131, 2026-09-08, historisk
+### Konsolideringsrättelse — T-0131, 2026-09-08, historisk
 
 ”Bokuppgifterna kompletterar C-0070–C-0073. Full akt-/profilgranskning
 T-0181.” **Avgränsningen står fast:** uppgifterna är fortfarande
 bokuppgifter, och ingen egen födelsenotis har tillkommit. Det är
 **läsningarna** som avgjorts.
 
-#### Införandesteg från T-0131, 2026-09-08, historiskt
+### Införandesteg från T-0131, 2026-09-08, historiskt
 
 T-0131 utpekade P-0100 som en av tre följdpersoner med minimala
 beläggsrättelser och överlämnade full individuell adoption till denna kohort.
 **Överlämnandet är nu utfört.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

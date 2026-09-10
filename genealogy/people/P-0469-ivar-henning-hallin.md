@@ -215,26 +215,26 @@ inga namnformer och ingen profil fanns.
 **Den ursprungliga assertionen A-2680 står kvar med oförändrad lydelse**,
 och **den bevarade äldre aktversionen är oförändrad.**
 
-#### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
+### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
 
 **Båda följdavstämningarna sade uttryckligen att profil saknades och att
 fullgranskningen ägs av denna uppgift.** **Granskningen är utförd.**
 
-#### Kronologin prövad och funnen otillräcklig, 2026-09-10
+### Kronologin prövad och funnen otillräcklig, 2026-09-10
 
 **De två kandidatdatumen har stått som en olöst skillnad sedan T-0119.** **Ingen hade räknat dem mot föräldrarnas vigsel.** **Räknade ger de sex månader nitton dagar respektive nio månader nitton dagar** — **en avelse före respektive strax efter vigseln.** **Familjens egen historia gör båda bilderna möjliga**, eftersom **den förste sonen föddes två år och tre månader före vigseln med ett skriftligt faderskapserkännande.** **Resultatet är alltså negativt**, och **det förs som ett resultat, eftersom det stänger en genväg som ser användbar ut.**
 
-#### Två relationer förda, 2026-09-10
+### Två relationer förda, 2026-09-10
 
 Akten förde tidigare far och mor. **Brodern och de tre halvbröderna ur
 moderns första äktenskap stod i citationen och saknades.** De är nu förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0469: Ivar Henning Hallin`. Den lyder nu
 `P-0469: Ivar Henning Hallin, vars två kandidatdatum kronologin inte kan skilja`. **Filnamnet är oförändrat.**
 
-#### Bevarad akt före denna följdrättelse
+### Bevarad akt före denna följdrättelse
 
 > # P-0469: Ivar Henning Hallin
 >
@@ -267,7 +267,7 @@ Rubriken löd `P-0469: Ivar Henning Hallin`. Den lyder nu
 >
 > C-0930 anger1918-12-28 mot1918-09-28 i C-0675/C-0926. Ingen egen födelsepost avgör månaden i befintlig akt. T-0214 äger gemensam målkolumnskontroll; profilinförande och fullgranskning ligger uttryckligen i T-0201.
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Källutlöst sidoperson. Föräldrahushållet är fortsatt till A II a/6 s. 389
 > och 392 genom C-0677. Egen födelsenotis och individuellt senare livslopp är
@@ -276,7 +276,7 @@ Rubriken löd `P-0469: Ivar Henning Hallin`. Den lyder nu
 **Bedömningen står kvar i sak.** **En precisering tillkommer:** **den egna
 födelsenotisen är det enda som kan avgöra månaden.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

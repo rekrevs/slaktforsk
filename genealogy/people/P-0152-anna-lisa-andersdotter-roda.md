@@ -150,13 +150,13 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0152: Anna Lisa`. Den lyder nu `P-0152: Anna Lisa, återkommen från Umeå 1861`, eftersom
 förnamnet ensamt inte skiljer personen från namnlikar. **Filnamnet är
 oförändrat.** Ingen akt har delats och ingen identitet har slagits samman.
 
-#### Avstämning — T-0139, 2026-09-08, historisk
+### Avstämning — T-0139, 2026-09-08, historisk
 
 T-0139 återläste hela bilden `A0001442_00171` och skrev ut föräldrarnas och
 farmoderns fält, barnraden i sin helhet, sonfamiljen längre ned och den
@@ -164,7 +164,7 @@ separata pigraden. **Den läsningen står oförändrad**, och denna akt bygger p
 den. **Vad som tillkommer 2026-09-10 är den enskilda radens övriga kolumner**,
 som T-0139 inte fördelade på barnen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

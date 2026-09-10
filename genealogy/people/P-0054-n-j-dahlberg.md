@@ -165,7 +165,7 @@ fanns.
 
 **Båda ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Visningsnamnet ändrat, 2026-09-09
+### Visningsnamnet ändrat, 2026-09-09
 
 Titeln var `P-0054: [N.?] J. Dahlberg`. Den första initialen är **`A.`**,
 avgjord av en kontroll i samma kolumn på samma sida, och titeln `Sjöm.` är
@@ -173,20 +173,20 @@ läsbar; båda är förda in i akttiteln. Den tidigare läsningen står kvar i
 Namnformer som `REJECTED` med sin grund. Filnamnet är oförändrat och en
 eventuell omdöpning ägs av följduppgiften.
 
-#### A-0243: båda osäkerheterna avgjorda, 2026-09-09
+### A-0243: båda osäkerheterna avgjorda, 2026-09-09
 
 `Första initialen och titeln behöver jämförelse` — jämförelsen är gjord.
 Initialen är `A.` och titeln `Sjöm.` (A-7733). Ursprungslydelsen bevaras som
 avskriftshistorik.
 
-#### A-0244: hustruformen preciserad, 2026-09-09
+### A-0244: hustruformen preciserad, 2026-09-09
 
 Formen är `& h:r`, och den används **bara** efter hans namn; skrivarens
 åtskillnad mot det andra parets `Charlotta Dahlberg` utan hustrubeteckning är
 förd som A-7734. Ursprungslydelsen bevaras, och hustrun får fortsatt inget
 eget person-id.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

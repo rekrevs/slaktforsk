@@ -210,7 +210,7 @@ profil fanns.
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse**, och
 **ingen relation har förts in i den verifierade modellen.**
 
-#### Lösningsrummet uppräknat, 2026-09-10
+### Lösningsrummet uppräknat, 2026-09-10
 
 **Akten har hållit konflikten oavgjord sedan 2026-09-06.** **Vad som kan vara
 sant har aldrig räknats upp.**
@@ -222,7 +222,7 @@ förvanskat namn och datum — hade akten uteslutit på en grund som inte bär:*
 
 **Ingen möjlighet väljs.** **Uppräkningen är bidraget.**
 
-#### Tidigare `## Öppna frågor`, historiska
+### Tidigare `## Öppna frågor`, historiska
 
 > 1. Degerfors födelsebok 1888: finns en Hildur Aleksandra född 18 mars, och
 >    finns Livia Sofia född 10 september? Föräktenskapligt barn är möjligt —
@@ -234,13 +234,13 @@ förvanskat namn och datum — hade akten uteslutit på en grund som inte bär:*
 **Samtliga tre står kvar i sak** och **är förda vidare som Q-01, Q-02 och en
 del av identitetsbedömningen.** **Den fjärde möjligheten är ny.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0529: Hildur Aleksandra Zingmark`. Den lyder nu
 `P-0529: Hildur Aleksandra Zingmark, en dotterrad som inte kan vara det den
 ser ut som`. **Filnamnet är oförändrat.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 > - Konsolidering: `NY` 2026-09-06 (research-log/2026-09-06.md)
 > - Källbredd: `PÅGÅR` — en enda källa; identiteten är oavgjord.

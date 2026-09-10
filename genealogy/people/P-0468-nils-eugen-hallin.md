@@ -211,26 +211,26 @@ inga namnformer och ingen profil fanns.
 **Den ursprungliga assertionen A-2679 står kvar med oförändrad lydelse**,
 och **den bevarade äldre aktversionen är oförändrad.**
 
-#### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
+### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
 
 **Båda följdavstämningarna sade uttryckligen att profil saknades och att
 fullgranskningen ägs av denna uppgift.** **Granskningen är utförd.**
 
-#### Anteckningens två ord lästa som en ortsuppgift, 2026-09-10
+### Anteckningens två ord lästa som en ortsuppgift, 2026-09-10
 
 **Faderskapsanteckningen har lästs som ett erkännande.** **Orden `i Timrå` i den har inte lästs som en uppgift om var fadern befann sig.** **Ställd mot faderns inflyttning 1918-01-04 visar frasen att erkännandet avgavs från en annan församling** — **två år innan fadern flyttade till barnets socken.**
 
-#### Två relationer förda, 2026-09-10
+### Två relationer förda, 2026-09-10
 
 Akten förde tidigare far och mor. **Brodern och de tre halvbröderna ur
 moderns första äktenskap stod i citationen och saknades.** De är nu förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0468: Nils Egnar Hallin`. Den lyder nu
 `P-0468: Nils Egnar Hallin, född i moderns socken två år innan fadern flyttade dit`. **Filnamnet är oförändrat.**
 
-#### Bevarad akt före denna följdrättelse
+### Bevarad akt före denna följdrättelse
 
 > # P-0468: Nils Eugen Hallin
 >
@@ -263,7 +263,7 @@ Rubriken löd `P-0468: Nils Egnar Hallin`. Den lyder nu
 >
 > C-0926 återger samma bild med Nils Egnar mot Nils Eugen i C-0675. Faderskapet är källuppgift, namnnormalisering ska bevara båda avskriftsvarianterna. T-0214 äger gemensam målkolumnskontroll; profilinförande och fullgranskning ligger uttryckligen i T-0201.
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Källutlöst sidoperson. Föräldrahushållet är fortsatt till A II a/6 s. 389
 > och 392 genom C-0677. Egen födelsenotis och individuellt senare livslopp är
@@ -272,7 +272,7 @@ Rubriken löd `P-0468: Nils Egnar Hallin`. Den lyder nu
 **Bedömningen står kvar i sak.** **En precisering tillkommer:** **den egna
 födelsenotisen är den enda källa som kan ge dagen och faddrarna ur en primärpost.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

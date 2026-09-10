@@ -234,47 +234,47 @@ inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 och **den bevarade äldre aktversionen är oförändrad.**
 
-#### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
+### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
 
 **Båda följdavstämningarna sade uttryckligen att profil saknades och att
 fullgranskningen ägs av denna uppgift.** **Granskningen är utförd.**
 **T-0124:s omläsning är gällande i sak** — `Hallin`, `19 januari`, `Tuna` —
 och **de äldre formerna är avförda.**
 
-#### Kronologin uppställd, 2026-09-10
+### Kronologin uppställd, 2026-09-10
 
 **Postens fem datum stod i C-0675 sedan tidigare.** **Ingen hade ställt upp
 dem.** Uppställningen visar **att sonen föddes i moderns socken två år innan
 fadern flyttade dit**, och **källans egen faderskapsanteckning bekräftar det
 med orden `i Timrå`.**
 
-#### Det första äktenskapet identifierat som aktens största lucka, 2026-09-10
+### Det första äktenskapet identifierat som aktens största lucka, 2026-09-10
 
 **`änkling sedan 1914-08-31` har stått i akten sedan den skapades.** **Aktens
 `## Forskningsstatus` nämner `tidigare hustru` som `inte sökt i denna
 etapp`.** **Vad som inte stått utskrivet är att datumets exakthet visar att en
 handling finns** — **det är inte en gissning utan en outnyttjad ingång.**
 
-#### Dödsuppgiftens och nollresultatets riktning, 2026-09-10
+### Dödsuppgiftens och nollresultatets riktning, 2026-09-10
 
 **A-2686 behandlar nollet som en begränsning.** **Det är riktigt men
 ofullständigt:** **en marginalnotering utan lokal dödsrad är den normala
 signaturen för ett dödsfall registrerat annorstädes.** **Uppgifterna pekar åt
 samma håll.** **Indikationen är svag och ingen dödsort införs.**
 
-#### Två relationer förda, 2026-09-10
+### Två relationer förda, 2026-09-10
 
 Akten förde tidigare hustru och två söner. **De tre styvsönerna Axel Edvin,
 Emil Herman och Fridolf Henriksson stod i citationen och saknades**, liksom
 **den uttryckliga raden om den okända första hustrun.** De är nu förda.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0467: Nils August Hallin`. Den lyder nu
 `P-0467: Nils August Hallin, änkling i Timrå som erkände ett barn över
 sockengränsen`. **Filnamnet är oförändrat.**
 
-#### T-0119 och T-0124: begränsade följdrättelser, historiska
+### T-0119 och T-0124: begränsade följdrättelser, historiska
 
 > Den äldre namn-/datum-/ortreservationen är ersatt genom T-0124:s
 > originalkontroll: Hallin, 1875-01-19 och Tuna. Timrå är inflyttningsort.
@@ -291,7 +291,7 @@ sockengränsen`. **Filnamnet är oförändrat.**
 familjepostutvinningen på uppslaget**, och **denna akts yrkeskolumn är därför
 en utvinningslucka och inte en prövad tomhet.**
 
-#### Bevarad akt före denna följdrättelse
+### Bevarad akt före denna följdrättelse
 
 > # P-0467: Nils August Hallin
 >
@@ -328,7 +328,7 @@ en utvinningslucka och inte en prövad tomhet.**
 >
 > C-0926 återger samma bild med Hallén och1875-01-17 mot Hallin och1875-01-19 i C-0675; C-0930 anger Tuna mot Timrå. Datum/ort är avskriftsvarianter tills målkolumnskontroll gjorts. T-0214 äger gemensam målkolumnskontroll; profilinförande och fullgranskning ligger uttryckligen i T-0201.
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Källutlöst sidoperson. Födelseort och -datum, tidigare änkestatus, vigseln
 > med Gertrud och två söner är belagda. Register- och församlingsbokskedjan
@@ -340,7 +340,7 @@ en utvinningslucka och inte en prövad tomhet.**
 **det exakta änkedatumet visar att en handling om den första hustrun finns**,
 och **nollresultatet och marginalnoteringen pekar åt samma håll.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

@@ -193,7 +193,7 @@ inga relationer, inga namnformer och ingen profil fanns.
 med ett preciserat och ett överspelat led samt ett uttryckligen kvarstående
 led utmärkta i saktexten.
 
-#### A-0293: familjenumret överspelat, verifieringskravet kvarstår, 2026-09-09
+### A-0293: familjenumret överspelat, verifieringskravet kvarstår, 2026-09-09
 
 Databasens `familj nr 2` kommer ur indexposten och sammanfaller **inte** med
 bladets egen hushållskolumn, som håller henne i samma hushåll som Anna Kajsa
@@ -203,7 +203,7 @@ däremot kvar oförändrad och är fortfarande aktens viktigaste öppna punkt:
 prefixet `oä. d.` ger en uteslutning, inte en moder. Ledet om Johan August är
 förstärkt: hushållskolumnen skiljer hushållen.
 
-#### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
+### Avgränsad följdavstämning 2026-09-08, T-0142, historisk
 
 Hela bladbilden återsågs. `Evald Bäckström, hustrun Anna Magdalena
 Jonsdotter, Anna Kajsa Bäckström och hennes barn hör till hushållssidans
@@ -216,7 +216,7 @@ punkt:** avstämningens formulering `hennes barn` gör henne till Anna Kajsas
 dotter, och det ger prefixet `oä. d.` inte stöd för. Uppgiften förs här som
 en bevarad konflikt.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-09. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

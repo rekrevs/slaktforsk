@@ -248,7 +248,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Samtliga ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-#### Underlagets fördelning redovisad, 2026-09-10
+### Underlagets fördelning redovisad, 2026-09-10
 
 **Aktens egen text noterade redan att `registrets beroende av böckerna ger
 inga extra oberoende röster` och att `Familias etikett ej bestämd är fortsatt
@@ -267,7 +267,7 @@ graden kvar därför att påståendet är sammansatt och graderat efter sin
 starkaste del.** **Det är tre olika mekanismer med samma verkan: en akt säger
 mer än underlaget bär.**
 
-#### Fadderkretsens två delar förda, 2026-09-10
+### Fadderkretsens två delar förda, 2026-09-10
 
 **T-0200 fann att nio av tolv faddrar 1856 står i Löfberg**, barnamoderns
 fosterby. **De två från Bredsjö är denna akts person och systern.**
@@ -275,18 +275,18 @@ fosterby. **De två från Bredsjö är denna akts person och systern.**
 påstådda syskon** — **den enda strukturella förklaring materialet erbjuder
 till varför just dessa två stod där.**
 
-#### Tre relationer förda, 2026-09-10
+### Tre relationer förda, 2026-09-10
 
 Akten förde tidigare far, mor, bror och syster. **Dopbarnet, dess mor och de
 fem övriga barnen i familj 99 stod i citationerna och saknades.** De är nu
 förda, **de fem sistnämnda uttryckligen som årsuppgifter utan personakter.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0463: Jonas Henriksson/Höglin`. Den lyder nu `P-0463: Jonas Henriksson/Höglin, vars syskonskap vilar på ett enda sekundärregister`.
 **Filnamnet är oförändrat.**
 
-#### T-0138: minimal följdavstämning, historisk
+### T-0138: minimal följdavstämning, historisk
 
 > 2026-09-08: föräldrauppgifternas källberoende förtydligat. Faderns nya
 > databasrouting till död 1875 och upplösningsdatum 1850-02-13 identifierar
@@ -297,7 +297,7 @@ Rubriken löd `P-0463: Jonas Henriksson/Höglin`. Den lyder nu `P-0463: Jonas He
 
 **Bedömningen står kvar i sak, och den fulla granskningen är nu utförd.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Källutlöst sidoperson. Egen födelsenotis och senare liv under namnformen Höglin återstår. C-0704 ger den positiva men ännu olösta aktvägen `Ljustorp P. 2 nr 7` för 1874; den ska följas i Riksarkivet innan död, arvingar eller full identitet registreras.
 
@@ -305,7 +305,7 @@ Rubriken löd `P-0463: Jonas Henriksson/Höglin`. Den lyder nu `P-0463: Jonas He
 födelsenotisen är inte bara en lucka utan avgörandet av aktens öppna
 gradfråga.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

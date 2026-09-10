@@ -171,25 +171,25 @@ ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-#### Formatfel rättat, 2026-09-10
+### Formatfel rättat, 2026-09-10
 
 Akten saknade `## Identitet`, vilket aktstandarden kräver. **Rättelsen är rent
 redaktionell**; ingen assertion är omskriven.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0252: Kajsa Olivia Jönsson`. Den lyder nu
 `P-0252: Kajsa Olivia Jönsson, hemmansägare i Storbränna 1910`. **Filnamnet är
 oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Dokumenterad sidogren med exakt födelsedatum från husförhörslängden; egen
 > födelsenotis är ännu inte läst.
 
 **Bedömningen står kvar i sak** och är förd som Q-01 i profilen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

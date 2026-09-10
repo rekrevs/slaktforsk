@@ -211,7 +211,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2529 står kvar med oförändrad lydelse.**
 
-#### Det drunknade syskonet fördes, 2026-09-10
+### Det drunknade syskonet fördes, 2026-09-10
 
 **T-0136 fann 2026-09-08 noten `Drunkn.` under året 1841 på den överstrukna
 barnraden** och förde in den i citationen. **Den nådde inte denna akt.**
@@ -221,19 +221,19 @@ barnraden** och förde in den i citationen. **Den nådde inte denna akt.**
 oläsbara namnrad**, och **händelsen står i tidslinjen.** **Inget nytt
 person-id har skapats**, i enlighet med citationens egen avgränsning.
 
-#### Föräldrarnas rättade uppgifter förda, 2026-09-10
+### Föräldrarnas rättade uppgifter förda, 2026-09-10
 
 **Faderns födelsedag `1805 21/8`**, **giftaåret `30`**, **ståndsbokstaven `B.`**
 och **moderns rättade förnamn `Cajsa Brita`** stod i C-1020 och C-1024 sedan
 2026-09-07 respektive senare. **Ingen av dem hade nått denna akt.** De är nu
 förda i relationstabellen och i tidslinjen.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0449: Brita`. Den lyder nu
 `P-0449: Brita i Hullsjön, uppkallad efter modern, vars namn boken själv har rättat`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Bevarad sidoperson från föräldrahushållet. Egen födelsenotis och senare
 > livskedja är öppna; grenen drivs inte före nästa breddrotation.
@@ -242,7 +242,7 @@ Rubriken löd `P-0449: Brita`. Den lyder nu
 egen födelsenotis är läst ur samma serie**, så **vägen till hennes egen är
 prövad och fungerar.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

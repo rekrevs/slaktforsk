@@ -207,7 +207,7 @@ förut.
 Nedan bevaras T-0167:s begränsade rättelse med sin blockciterade äldre
 lydelse, och därefter de avsnitt vars lydelse ersatts av ovanstående.
 
-#### Historik och rättelser
+### Historik och rättelser
 
 **T-0167, 2026-09-09 — avgränsad rättelse ur P-0329:s kohort.** Familjenamnet
 `Morander` är `Molander`, och makens titel `mäskaren` är `Klåckaren`.

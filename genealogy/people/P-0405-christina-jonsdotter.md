@@ -189,19 +189,19 @@ ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### T-0136:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0136:s uppskjutna granskning är nu utförd, 2026-09-10
 
 Aktens egen text sade `denna uttryckliga begränsade adoption ersätter inte
 fullgranskningen i T-0196`. **T-0196 är denna uppgift**, och den fulla
 granskningen är utförd med daterad PK-bedömning i profilen.
 
-#### Filnamnets avförda form utskriven, 2026-09-10
+### Filnamnets avförda form utskriven, 2026-09-10
 
 Rubriken bär sedan T-0136 den rättade formen `Lisa Stina Jonsdotter`, **men
 filnamnet bär fortfarande `christina`.** **Förhållandet är nu utskrivet** i
 namnformstabellen och som A-7933. **Inget byte görs här.**
 
-#### Tidigare `## Forskningsstatus` och familjeavstämning, historiska
+### Tidigare `## Forskningsstatus` och familjeavstämning, historiska
 
 > Hushållsrollen, födelsedatumet och födelsesocknen är avlästa. Egen
 > födelsepost, vigsel med Nils och livsslut återstår. Hon är inte biologisk mor
@@ -214,7 +214,7 @@ namnformstabellen och som A-7933. **Inget byte görs här.**
 
 **Båda bedömningarna står kvar i sak** och är inarbetade i akttexten.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

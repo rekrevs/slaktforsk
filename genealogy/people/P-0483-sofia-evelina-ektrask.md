@@ -172,7 +172,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2941 står kvar med oförändrad lydelse.**
 
-#### Namnleden ställda mot moderns syskonskara, 2026-09-10
+### Namnleden ställda mot moderns syskonskara, 2026-09-10
 
 **Barnens namn stod i C-0751 och moderns syskons i C-0552 och C-0562.**
 **Ingen akt hade ställt dem mot varandra.** Jämförelsen är förd som
@@ -180,23 +180,23 @@ A-7952 här och som A-7947 i moderns akt, **med utskrivna gränser** —
 den viktigaste att **faderns sida aldrig har sökts** och **matchningen därför
 saknar kontroll.**
 
-#### Sju syskonrelationer förda, 2026-09-10
+### Sju syskonrelationer förda, 2026-09-10
 
 Akten förde tidigare endast fadern och modern. **De sju syskonen stod i samma
 citation och saknades i akten.** De är nu förda med födelseår och belägg.
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0483: Sofia Evelina i Ekträsk`. Den lyder nu
 `P-0483: Sofia Evelina i Ekträsk, uppkallad efter mormodern hon aldrig mötte`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidoperson; egen födelsenotis och senare liv är öppna.
 
 **Bedömningen står kvar i sak.**
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.

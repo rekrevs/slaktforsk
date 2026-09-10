@@ -158,19 +158,19 @@ ett `## Forskningsstatus` och en följdavstämning från T-0139 med bevarad
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-#### Aktens rubriknamn utökat, 2026-09-10
+### Aktens rubriknamn utökat, 2026-09-10
 
 Rubriken löd `P-0220: Lars Johan Jansson i Carlberg`. Den lyder nu
 `P-0220: Lars Johan Jansson, inflyttad från Forssa 1867`. **Filnamnet är oförändrat.**
 
-#### Tidigare `## Forskningsstatus`, historisk
+### Tidigare `## Forskningsstatus`, historisk
 
 > Sidogren registrerad opportunistiskt; originalfödelsen prövas i en senare våg.
 
 **Bedömningen står kvar i sak** — den egna födelseposten är alltjämt oläst —
 och är förd som Q-02 i profilen.
 
-#### Begränsad följdavstämning — T-0139, 2026-09-08, historisk
+### Begränsad följdavstämning — T-0139, 2026-09-08, historisk
 
 2026-09-08: endast personbundna följduppgifter från C-0157/C-0163/C-0165
 infördes. Ingen full kontraktsgranskning eller ny profil genomfördes. **Full
@@ -178,7 +178,7 @@ individuell adoption inklusive profil och båda nivåerna ägdes av T-0191** och
 är utförd 2026-09-10. Äldre statusar omprövades inte genom den begränsade
 rättelsen.
 
-#### Tidigare arbetsläge, historiskt
+### Tidigare arbetsläge, historiskt
 
 Akten hade inget arbetsläge, ingen granskningsstatus och ingen profil före
 2026-09-10. Ingen äldre GRANSKAD- eller KLAR-bedömning har konverterats.
