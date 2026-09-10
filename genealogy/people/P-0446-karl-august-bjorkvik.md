@@ -1,4 +1,4 @@
-# P-0446: Karl August, vars födelsepost inte kan vara hans som den står
+# P-0446: Karl August
 
 ## Arbetsläge
 
@@ -25,8 +25,6 @@ Erik Karlsson får inte infereras som biologisk far.
 
 **Det är hushållsbelägget. Födelseboken är en annan sak.**
 
-### Födelseposten är en kandidat, inte hans original
-
 T-0143 läste om Björkvik `C/9` post 112 den 2026-09-08 med separat kontroll
 av kolumngränserna och rättade tre uppgifter. Ingen av rättelserna nådde
 denna akt.
@@ -45,8 +43,6 @@ födelseår och moderns ålder inte räcker för en tyst identitetsfusion.
 `Födelsebok och senare hushåll sammanfaller` — och A-2511 bär den avförda
 formen `jungfrun Matilda Sjöberg` som gällande uppgift.
 
-### Dopdagen avgör att de två dagarna inte kan vara båda rätt
-
 **Posten anger dop den 7 november.** Ett barn kan inte döpas fyra dagar
 innan det föds.
 
@@ -55,8 +51,6 @@ husförhörslängdens `11 november` fel. Båda kan inte stå.
 
 **Den slutsatsen följer inom en enda post och kräver ingen ny läsning.**
 Ingen akt hade dragit den.
-
-### Men kandidaten har blivit starkare, inte svagare
 
 T-0143:s omläsning tog bort namnet `Sjöberg` ur födelseposten och ersatte
 det med ett patronymikon. Patronymikonet pekar rakt tillbaka på
@@ -87,8 +81,6 @@ vars ena avvikande fält, dagen, motsäger den andra källan.`
 
 **Bryggan är utpekad:** Björkviks husförhörslängd för `Jonstuga[n?]`
 omkring 1880.
-
-### Bortflyttningen har två möjliga mottagarförsamlingar
 
 **T-0153 fann 2026-09-08 att hans bortflyttningscell bär en överstrykning som
 avskriften saknar:** `Björkvik` är överstruket med `Helgesta` skrivet
@@ -260,7 +252,7 @@ profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-### Två rättelser hade inte nått akten, 2026-09-10
+### Två rättelser utan mottagare, 2026-09-10
 
 **T-0143 rättade 2026-09-08 tre uppgifter i C-0580** — födelsedagen, dopdagen
 och moderns namnform — och förklarade posten vara en konkurrerande kandidat
@@ -281,7 +273,7 @@ allvarligare: det som stod kvar var inte en formulering utan en
 tillförlitlighetsgrad. En akt som säger `CORROBORATED, mycket hög` om ett
 samband källan kallar oprövat leder inte bara fel — den stänger frågan.
 
-### Dopdagsargumentet fördes, 2026-09-10
+### Dopdagsargumentet infört, 2026-09-10
 
 **Dopdagen 7 november stod i C-0580 sedan 2026-09-08.** Ingen hade ställt den
 mot husförhörslängdens födelsedag 11 november. Slutsatsen följer inom en
@@ -300,6 +292,13 @@ rättelse först såg ut att göra.
 Akten förde tidigare mor och styvfar. Morföräldrarna och fyra styvsyskon
 stod i citationerna och saknades. De är nu förda, tillsammans med den
 uttryckliga raden att den biologiske fadern är okänd.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0446: Karl August, vars födelsepost inte kan vara hans som den står`. Den lyder nu `P-0446: Karl August`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

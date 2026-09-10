@@ -1,4 +1,4 @@
-# P-0438: Sara Rebecka Zingmark, nöddöpt tvilling utan dödsdag
+# P-0438: Sara Rebecka Zingmark
 
 ## Arbetsläge
 
@@ -26,8 +26,6 @@ sammanhållna som tvillingpar.
 På hennes dopfält står `nöddöpt`, och i postens särskilda not står
 `Sara Rebecka dog efter undfånget nöddop`. Ingen dödsdag står någonstans.
 
-### Varför 16 februari inte kan vara nöddopsdagen
-
 **Dagfältet i hennes dopkolumn är 16 februari** — samma dag som systerns
 dop. T-0133 varnade för att göra den dagen till hennes nöddopsdag.
 Varningen har nu ett skäl.
@@ -49,8 +47,6 @@ eller hennes död. Den säger att båda inträffade, och att döden kom
 efter dopet. Det yttersta som följer är att hon dog någon gång från och med
 12 februari 1868, med kyrkobokföringen 16 februari som en sannolik men
 obevisad övre gräns.
-
-### Familjens andra tvillingpar
 
 **Detta är familjens andra belagda tvillingpar**, fyra år efter det första:
 
@@ -192,7 +188,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-### T-0133:s varning har fått ett skäl, 2026-09-10
+### Skälet bakom T-0133:s varning, 2026-09-10
 
 T-0133 slog fast att 16 februari inte utan vidare får bli datum för hennes
 nöddop, men angav inget skäl. Skälet är nu fört som A-7956: ett nöddop
@@ -215,6 +211,13 @@ ingen prövad frånvaro, och skillnaden är nu utskriven.
 Akten förde tidigare far, mor, tvillingsyster och en bror. 1864 års
 tvillingpar och tre äldre syskon stod i citationerna och saknades. De är nu
 förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0438: Sara Rebecka Zingmark, nöddöpt tvilling utan dödsdag`. Den lyder nu `P-0438: Sara Rebecka Zingmark`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

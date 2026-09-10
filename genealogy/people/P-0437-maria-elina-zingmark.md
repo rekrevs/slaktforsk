@@ -1,4 +1,4 @@
-# P-0437: Maria Elina Zingmark, som flyttade till sin mors hemförsamling
+# P-0437: Maria Elina Zingmark
 
 ## Arbetsläge
 
@@ -269,11 +269,18 @@ hade ställt dem mot varandra. Jämförelsen är förd som A-7947 med tre
 utskrivna gränser, varav den viktigaste är att makens sida aldrig har
 sökts och matchningen därför saknar kontroll.
 
-### T-0133:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0133:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Full individuell akt-/profiladoption ägs av T-0198`.
 T-0198 är denna uppgift, och den fulla granskningen är utförd med daterad
 PK-bedömning i profilen.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0437: Maria Elina Zingmark, som flyttade till sin mors hemförsamling`. Den lyder nu `P-0437: Maria Elina Zingmark`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

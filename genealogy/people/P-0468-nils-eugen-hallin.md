@@ -1,4 +1,4 @@
-# P-0468: Nils Egnar Hallin, född i moderns socken två år innan fadern flyttade dit
+# P-0468: Nils Egnar Hallin
 
 ## Arbetsläge
 
@@ -23,8 +23,6 @@ hushåll.
 **Efternamnet `Hallin` är en normaliserad familjeidentifierare.**
 Församlingsbokssidan skriver endast förnamnen på sonens rad.
 
-### Han föddes i moderns socken två år innan fadern flyttade dit
-
 **Han föddes i Sättna den 9 december 1915.** Fadern skrevs in i Sättna från
 Timrå först den 4 januari 1918 — två år och tjugosex dagar senare.
 
@@ -41,8 +39,6 @@ födelse och två månader efter faderns inflyttning.
 
 **Ingen orsak till fördröjningen antas.**
 
-### Moderns ålder och de tre halvbröderna
-
 Modern [Gertrud Kristina](P-0247-gertrud-kristina-jonsson-henriksson.md) var
 född 1874-02-23 och alltså 41 år 9 månader och 16 dagar när han föddes.
 Hon hade varit änka sedan 1910-03-02 och hade tre söner ur sitt första
@@ -50,8 +46,6 @@ Hon hade varit änka sedan 1910-03-02 och hade tre söner ur sitt första
 på samma hushållssida.
 
 **Han föddes fem år och nio månader efter att hon blev änka.**
-
-### Namnformen är omprövad men inte oomstridd
 
 **T-0124:s omläsning av samma fullbild ger `Nils Egnar`, inte `Eugen`.**
 Aktens visningsnamn och filnamn behåller `Eugen` — det är ett medvetet
@@ -211,7 +205,7 @@ inga namnformer och ingen profil fanns.
 **Den ursprungliga assertionen A-2679 står kvar med oförändrad lydelse**,
 och den bevarade äldre aktversionen är oförändrad.
 
-### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
+### T-0119:s och T-0124:s rättelser fullgranskade, 2026-09-10
 
 Båda följdavstämningarna sade uttryckligen att profil saknades och att
 fullgranskningen ägs av denna uppgift. Granskningen är utförd.
@@ -224,6 +218,13 @@ fullgranskningen ägs av denna uppgift. Granskningen är utförd.
 
 Akten förde tidigare far och mor. Brodern och de tre halvbröderna ur
 moderns första äktenskap stod i citationen och saknades. De är nu förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0468: Nils Egnar Hallin, född i moderns socken två år innan fadern flyttade dit`. Den lyder nu `P-0468: Nils Egnar Hallin`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

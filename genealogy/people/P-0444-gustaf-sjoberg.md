@@ -28,8 +28,6 @@ ställning är uttryckliga.
 **Utöver det vet vi ingenting om honom.** Ingen egen födelse, inga föräldrar,
 ingen vigsel, inget senare liv.
 
-### Rättelsen som inte följde med
-
 **T-0143 prövade hela sidan om och rättade två uppgifter 2026-09-08:**
 orten läses `Stenkulla`, inte `Bokulla`, och moderns ålder är 20, inte
 30. Båda formerna hade prövats oberoende, och de äldre är avskriftsfel,
@@ -43,8 +41,6 @@ Det är samma slags fel T-0197 fann i P-0433 och T-0144 i C-0945: en ny
 uppgift läggs till medan den gamla formuleringen får stå kvar som en parallell
 gällande slutsats. Assertionen skrivs inte om — den rätta läsningen förs
 som A-7962, och aktens löptext följer källan.
-
-### Vad `Dräng` och `Sjöberg` betyder tillsammans
 
 **Han var dräng, alltså tjänstehjon**, och ändå gift och far. Det är en
 uppgift om hans ställning, inte om hans ålder: en gift dräng med eget hushåll
@@ -181,7 +177,7 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-### En rättelse som inte hade nått akten, 2026-09-10
+### En rättelse som inte nått akten, 2026-09-10
 
 T-0143 rättade 2026-09-08 orten i C-0576 från `Bokulla` till `Stenkulla` och
 moderns ålder från 30 till 20. Rättelsen fördes till P-0135 men inte hit.

@@ -1,4 +1,4 @@
-# P-0495: Anna Lotta, den första posten som kallar modern hustru
+# P-0495: Anna Lotta
 
 ## Arbetsläge
 
@@ -22,8 +22,6 @@ soldattorp, som dotter till `soldaten Carl Fr. Drill och hustrun Johanna
 Jonsdotter`. Namn, datum, plats och föräldrapar upprepas i `A I/12 a` och
 `A I/13 a`.
 
-### Hennes post är vändpunkten i vigselkronologin
-
 Tre år tidigare föddes [Carl Johan](P-0494-carl-johan.md) med markeringen
 `oäkta` och modern kallad `pigan Johanna Jansdotter`. Hennes egen post
 kallar modern `hustrun`.
@@ -36,8 +34,6 @@ ingen har gjort.
 **Hon är den första kända dotter som föddes efter vigseln.** Ett barn
 däremellan, `Anders Fredric`, föddes och dog 1844 och har ingen
 personakt.
-
-### Tre åldersuppgifter över tjugo år, alla exakta
 
 **Modern [Johanna](P-0475-johanna-jansdotter-grill.md) föddes 1819-05-30**
 enligt sin egen födelsepost i Stora Malm ([C-0721](../citations/C-0721-stora-malm-johanna-jansdotter-1819-1841.md)). Tre av hennes barns
@@ -58,8 +54,6 @@ hushållsuppgiften `30 april 1819` från födelsepostens `30 maj` — båda ger
 samma fyllda åldrar vid alla tre tillfällena. Och åldrarna kan vara
 framräknade ur samma kyrkoboksuppgift.
 
-### Faderns tillnamn står i två former
-
 **Hennes egen födelsepost skriver `Carl Fr. Drill`.** Aktnamnet och de
 senare hushållen skriver `Grill`. T-0139 andraläste posten och slog fast
 att förkortningen bevaras utan uppfunnen namnkonflikt — den äldre
@@ -69,8 +63,6 @@ avskriften `Carl Eric` är däremot avförd.
 `Jonsdotter`. Frågan är avgjord i hennes egen akt: hennes far hette `Jan
 Ericson`, så `Jansdotter` är den riktiga formen. Denna akt förde
 `Jonsdotter` som om det vore hennes namn.
-
-### Fadderkretsen är soldatgrannskapets
 
 **Fyra faddrar är namngivna:** `Nils Thor`, soldat, med hustrun
 `Ann. St. Jansdotter[?]` i `Skrella[?] soldattorp`; sonen `Carl Otto
@@ -237,6 +229,13 @@ post bevaras oförändrad.
 Akten förde tidigare far, mor och en yngre bror. Den äldre brodern Carl
 Johan, den yngre systern Maria Sofia och `Anders Fredric` saknades. De är nu
 förda, den sistnämnde som relation utan person-id.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0495: Anna Lotta, den första posten som kallar modern hustru`. Den lyder nu `P-0495: Anna Lotta`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

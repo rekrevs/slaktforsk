@@ -189,7 +189,7 @@ ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-### T-0136:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0136:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `denna uttryckliga begränsade adoption ersätter inte
 fullgranskningen i T-0196`. T-0196 är denna uppgift, och den fulla

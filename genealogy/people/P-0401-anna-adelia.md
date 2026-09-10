@@ -1,4 +1,4 @@
-# P-0401: Anna Adelia, född efter elva års uppehåll
+# P-0401: Anna Adelia
 
 ## Arbetsläge
 
@@ -158,7 +158,7 @@ bevarad äldre text; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-### T-0142:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0142:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Explicit full införandeadoption ligger i T-0196; en ny
 profil skapas inte i detta följdsteg`. T-0196 är denna uppgift, och den
@@ -169,6 +169,13 @@ fulla granskningen är utförd med daterad PK-bedömning i profilen.
 [P-0059 Kajsa Charlotta](P-0059-cajsa-lotta-jonsdotter.md) står i samma
 hushåll i alla lästa källor men saknades i aktens relationstabell. Hon är
 nu införd, med sitt eget familjenummer 1910 utskrivet.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0401: Anna Adelia, född efter elva års uppehåll`. Den lyder nu `P-0401: Anna Adelia`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

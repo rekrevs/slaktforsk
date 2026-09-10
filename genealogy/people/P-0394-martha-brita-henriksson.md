@@ -182,7 +182,7 @@ ordalydelse; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-### T-0130:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0130:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Full individuell konsolidering och profiladoption ägs
 av T-0195`. T-0195 är denna uppgift, och den fulla granskningen är utförd

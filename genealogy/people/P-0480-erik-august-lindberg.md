@@ -1,4 +1,4 @@
-# P-0480: Erik August Lindberg, bonde i Ekträsk och den outforskade hälften
+# P-0480: Erik August Lindberg, bonde i Ekträsk
 
 ## Arbetsläge
 
@@ -201,6 +201,13 @@ De åtta födelseåren fanns i citationen. Intervallen hade aldrig räknats.
 De är nu förda som A-7949 som kontrollfall åt T-0195:s Fredbergsiakttagelse,
 med den uttryckliga gränsen att två familjer inte gör en statistik.
 Iakttagelsen är anmäld till C-0945.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0480: Erik August Lindberg, bonde i Ekträsk och den outforskade hälften`. Den lyder nu `P-0480: Erik August Lindberg, bonde i Ekträsk`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

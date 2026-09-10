@@ -1,4 +1,4 @@
-# P-0445: Stina Lotta, tjugo år och utan efternamn
+# P-0445: Stina Lotta
 
 ## Arbetsläge
 
@@ -27,8 +27,6 @@ till [Matilda Charlotta](P-0135-matilda-charlotta-sjoberg.md), född
 **Efternamn saknas i källan och får inte konstrueras** — inte heller genom
 patronymisk förväntan.
 
-### Rättelsen flyttar henne ett årtionde
-
 T-0143 prövade hela sidan om 2026-09-08 och läste moderns ålder som 20, inte
 30. Båda formerna prövades oberoende, och `30` är ett avskriftsfel, inte
 en motstridig originaluppgift.
@@ -50,8 +48,6 @@ upptäcktes innan det kostade arbete.
 
 **Åldern ger bara ett ungefärligt intervall** och används inte som exakt
 födelseår.
-
-### Vad namnformen säger och inte säger
 
 **`Stina Lotta` är en dubbel smekform** — `Stina` av Kristina, `Lotta` av
 Charlotta. Det är så hon skrevs, och akten skriver inte om det.
@@ -198,7 +194,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2507 står kvar med oförändrad lydelse.**
 
-### En rättelse som inte hade nått akten, 2026-09-10
+### En rättelse som inte nått akten, 2026-09-10
 
 T-0143 rättade 2026-09-08 moderns ålder i C-0576 från 30 till 20 och orten
 från `Bokulla` till `Stenkulla`. Rättelsen fördes till P-0135 men inte
@@ -211,6 +207,13 @@ källan. A-2507 skrivs inte om.
 **Konsekvensen är större här än i makens akt.** En felaktig by skickar en
 läsare till fel uppslag; en felaktig ålder skickar hen till fel årtionde.
 Tio år är hela hennes sökfönster, och hela fönstret var fel.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0445: Stina Lotta, tjugo år och utan efternamn`. Den lyder nu `P-0445: Stina Lotta`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

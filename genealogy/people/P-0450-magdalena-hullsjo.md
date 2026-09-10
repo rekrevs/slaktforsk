@@ -1,4 +1,4 @@
-# P-0450: Magdalena i Hullsjön, vars namn inte finns någon annanstans i hushållet
+# P-0450: Magdalena i Hullsjön
 
 ## Arbetsläge
 
@@ -32,8 +32,6 @@ konventionellt som `Bonde` och fastställer ingen ägarandel; kolumnen
 Magdalena` utan efternamn, och `Jönsdotter` är den väntade formen men inte en
 belagd.
 
-### Namnet finns inte någon annanstans i hushållet
-
 Fadern heter Jöns Abrahamsson, modern Cajsa Brita Jonsdotter, systern Brita
 och brodern Abraham. `Brita` är moderns namn och `Abraham` farfaderns,
 vilket faderns eget patronymikon visar.
@@ -48,8 +46,6 @@ ger farfadern på moderns sida namnet Jon eller Jöns och ingenting mer.
 **Programmet har mött samma slags obundna namnled förut**, senast `Gideon` och
 `Rudolf` i T-0199. Slutsatsen där gäller här: namnmönster får inte läsas
 som slutna regler.
-
-### Ett äldre syskon drunknade när hon var fyra
 
 Hushållets översta barnrad är överstruken med ett tjockt streck och går inte
 att läsa. Födelseuppgiften `1831 10/7` är läsbar, och T-0136 fann under
@@ -209,7 +205,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2530 står kvar med oförändrad lydelse.**
 
-### Det drunknade syskonet fördes, 2026-09-10
+### Det drunknade syskonet infört, 2026-09-10
 
 **T-0136 fann 2026-09-08 noten `Drunkn.` under året 1841 på den överstrukna
 barnraden** och förde in den i citationen. Den nådde inte denna akt.
@@ -225,6 +221,13 @@ person-id har skapats, i enlighet med citationens egen avgränsning.
 och moderns rättade förnamn `Cajsa Brita` stod i C-1020 och C-1024 sedan
 2026-09-07 respektive senare. Ingen av dem hade nått denna akt. De är nu
 förda i relationstabellen och i tidslinjen.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0450: Magdalena i Hullsjön, vars namn inte finns någon annanstans i hushållet`. Den lyder nu `P-0450: Magdalena i Hullsjön`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

@@ -1,4 +1,4 @@
-# P-0156: Sara Mathilda, vars födelsedag fanns hela tiden
+# P-0156: Sara Mathilda
 
 ## Arbetsläge
 
@@ -148,6 +148,13 @@ och en enradig forskningsfråga; ingen tidslinje, inga namnformer och ingen
 profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0156: Sara Mathilda, vars födelsedag fanns hela tiden`. Den lyder nu `P-0156: Sara Mathilda`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

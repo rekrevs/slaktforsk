@@ -1,4 +1,4 @@
-# P-0439: Axel Zingmark, vars dödspost räknar fel på en dag
+# P-0439: Axel Zingmark
 
 ## Arbetsläge
 
@@ -22,8 +22,6 @@ klammer märkt **`Tvillingar`** tillsammans med brodern Anders Wilhelm, född
 mars, 10 månader och 25 dagar gammal.
 
 Livslinjen är alltså sluten i båda ändar. Och de två ändarna stämmer inte.
-
-### Åldern pekar på den andra tvillingens dag
 
 Från 23 mars 1864 till 18 februari 1865 har det förflutit 10 månader och 26
 dagar. Dödsposten anger 25.
@@ -51,8 +49,6 @@ Indals bruk avgör alltså inte Sävars, och Sävars bruk är oprövat.
 **Följden är praktisk och gäller oavsett vilken läsning som är rätt:**
 åldersuppgiften i denna dödspost är inte ett oberoende belägg för
 födelsedagen. Den mäter prästens aritmetik.
-
-### Två tvillingpar i samma äktenskap
 
 **Familjen har två belagda tvillingpar, fyra år isär**, och båda är förda med
 en dags skillnad mellan barnen:
@@ -232,6 +228,13 @@ Akten förde tidigare far, mor, tvillingbror och en bror. De två systrarna i
 1868 års tvillingpar och tre äldre syskon stod i citationerna och saknades.
 De är nu förda. **Tvillingbroderns dödsdag 1892-04-20**, som T-0161 förde in i
 relationstabellen som en fri anteckning, står nu i tabellens egen kolumn.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0439: Axel Zingmark, vars dödspost räknar fel på en dag`. Den lyder nu `P-0439: Axel Zingmark`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

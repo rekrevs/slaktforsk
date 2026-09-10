@@ -1,4 +1,4 @@
-# P-0441: Hilda Charlotta Andersson, socknens dotter som gifte sig med en inflyttad
+# P-0441: Hilda Charlotta Andersson
 
 ## Arbetsläge
 
@@ -25,8 +25,6 @@ gift 1904-07-07 med sågverksarbetaren
 
 **Hon är socknens egen dotter.** Maken var inflyttad.
 
-### Zingmarksläkten kom till hennes församling, inte tvärtom
-
 **Fem medlemmar av makens familj flyttade till Degerfors under
 tjugofem år**, och T-0198 kände bara fyra av dem.
 
@@ -52,8 +50,6 @@ Erik August Lindberg, Johan Oskar med Ida Sofia Andersdotter, och maken med
 henne. Att två av de tre hustrurna bär `Andersdotter` respektive
 `Andersson` är namnlikhet och ingenting annat. Ingen släktrelation
 antas.
-
-### Hennes belagda svenska liv är två år och nio månader
 
 Från vigseln 1904-07-07 till utflyttningen 1907-04-08 ligger 2 år 9 månader
 och 1 dag. Inom den tiden föddes båda sönerna.
@@ -207,7 +203,7 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
+### T-0161:s begränsade införing fullgranskad, 2026-09-10
 
 A-6400 bar texten `Begränsad införing — full granskning ägs av T-0199`.
 Granskningen är utförd. Utflyttningsuppgiften står oförändrad; det som
@@ -228,6 +224,13 @@ skrivs inte om.
 Akten förde tidigare make och två söner. Svärfadern, makens halvbror och
 makens bror stod på samma folio eller i anslutande citationer och saknades.
 De är nu förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0441: Hilda Charlotta Andersson, socknens dotter som gifte sig med en inflyttad`. Den lyder nu `P-0441: Hilda Charlotta Andersson`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

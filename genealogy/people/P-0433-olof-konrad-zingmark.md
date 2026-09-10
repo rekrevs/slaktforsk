@@ -205,7 +205,7 @@ Den är nu avförd, och förhållandet är fört som A-7943.
 formulering som står kvar som parallell aktuell slutsats trots att ett senare
 tillägg upphäver den.
 
-### T-0161:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0161:s uppskjutna granskning utförd, 2026-09-10
 
 A-6403 sade `Begränsad införing; full granskning ägs av T-0197`.
 T-0197 är denna uppgift, och den fulla granskningen är utförd med daterad

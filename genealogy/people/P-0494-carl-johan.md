@@ -1,4 +1,4 @@
-# P-0494: Carl Johan, vars födelse och nästa syskons avgränsar moderns vigsel
+# P-0494: Carl Johan
 
 ## Arbetsläge
 
@@ -22,8 +22,6 @@ tomt. Två följande hushållsvolymer, `A I/12 a` och `A I/13 a`, följer
 honom som son i Grill–Jonsdotter-hushållet.
 
 **Hushållsplaceringen används inte för att fylla fadersfältet.**
-
-### Hans födelse är en av sex punkter i en vigselkronologi som aldrig ställts upp
 
 Sex uppgifter ur fyra källtyper rör moderns äktenskap, och ingen akt har
 ställt dem i följd.
@@ -60,8 +58,6 @@ väljs.
 `Anders Fredric`, född och död 1844 i det gemensamma hushållet, har ingen
 egen personakt och står inte som syskon någonstans. Han föddes mellan
 lysningen och rullans giftdatum.
-
-### Moderns patronymikon är redan avgjort — men avgörandet har inte nått hit
 
 **Hans egen födelsepost skriver `Johanna Jansdotter`.** Systrarnas poster
 1846 och 1863 skriver `Johanna Jonsdotter`.
@@ -269,6 +265,13 @@ barnrader.
 Akten förde tidigare mor och ett yngre syskon. Modernas make, de två
 systrarna och den uttryckliga raden om den okände fadern saknades. De är nu
 förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0494: Carl Johan, vars födelse och nästa syskons avgränsar moderns vigsel`. Den lyder nu `P-0494: Carl Johan`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

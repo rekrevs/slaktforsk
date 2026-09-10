@@ -1,4 +1,4 @@
-# P-0467: Nils August Hallin, änkling i Timrå som erkände ett barn över sockengränsen
+# P-0467: Nils August Hallin
 
 ## Arbetsläge
 
@@ -28,8 +28,6 @@ och `Tuna`. `Timrå` avser inflyttningen 1918-01-04, inte födelseorten,
 och `Hallén` och `17 januari` i C-0926 är avskriftsvarianter av samma bild,
 inte oberoende personfakta.
 
-### Kronologin är sammanhängande och har aldrig ställts upp
-
 | Datum | Händelse | Avstånd till föregående |
 |---|---|---|
 | 1874-02-23 | Gertrud föds i Sättna | — |
@@ -57,8 +55,6 @@ avgivet från en annan församling.
 månader efter sonens födelse med att gifta sig är en kronologisk uppgift och
 ingenting mer.
 
-### Det första äktenskapet är helt osökt, och datumet visar att en post finns
-
 **`änkling sedan 1914-08-31` är ett exakt datum.** Ett sådant datum kommer ur
 en handling — normalt en dödspost för hustrun i den församling där hon
 dog.
@@ -69,8 +65,6 @@ projektet, och hans första vigsel är inte sökt.
 **Det är aktens största lucka**, och den är inte en källbrist utan en
 outnyttjad ingång: han var skriven i Timrå 1918 och född i Tuna 1875, så
 båda socknarnas dödböcker för 1914 är konkreta mål.
-
-### Dödsuppgiften och nollresultatet pekar åt samma håll
 
 **Församlingsbokens marginalnotering anger döden 1951-06-18.**
 Sättna `F/2`:s hela 1951-följd saknar en säker dödsrad för honom.
@@ -234,7 +228,7 @@ inga namnformer och ingen profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 och den bevarade äldre aktversionen är oförändrad.
 
-### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
+### T-0119:s och T-0124:s rättelser fullgranskade, 2026-09-10
 
 Båda följdavstämningarna sade uttryckligen att profil saknades och att
 fullgranskningen ägs av denna uppgift. Granskningen är utförd.
@@ -267,6 +261,13 @@ samma håll. Indikationen är svag och ingen dödsort införs.
 Akten förde tidigare hustru och två söner. De tre styvsönerna Axel Edvin,
 Emil Herman och Fridolf Henriksson stod i citationen och saknades, liksom
 den uttryckliga raden om den okända första hustrun. De är nu förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0467: Nils August Hallin, änkling i Timrå som erkände ett barn över sockengränsen`. Den lyder nu `P-0467: Nils August Hallin`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

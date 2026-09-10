@@ -1,4 +1,4 @@
-# P-0406: Lisa Cajsa, född sex veckor efter föräldrarnas vigsel
+# P-0406: Lisa Cajsa Larsdotter
 
 ## Arbetsläge
 
@@ -188,7 +188,7 @@ ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-### T-0136:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0136:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `full individuell granskning kvarstår i T-0196`.
 T-0196 är denna uppgift, och den fulla granskningen är utförd med daterad
@@ -208,6 +208,13 @@ skriver henne inte som oäkta.
 födelseort visar att serien börjar tidigare, och att det finns ett andra
 fönster för utflyttningen. A-5860 skrivs inte om; följden är anmäld till
 hennes ägande uppgift.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0406: Lisa Cajsa, född sex veckor efter föräldrarnas vigsel`. Den lyder nu `P-0406: Lisa Cajsa Larsdotter`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

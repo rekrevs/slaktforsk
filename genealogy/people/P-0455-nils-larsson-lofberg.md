@@ -1,4 +1,4 @@
-# P-0455: Nils Larsson i Löfberg, fosterfar vars by återkommer i fosterdotterns dopkrets
+# P-0455: Nils Larsson i Löfberg
 
 ## Arbetsläge
 
@@ -35,8 +35,6 @@ Ljustorp `A I/4` sida 86 skriver Margreta Charlotta separat som
 barnhusflicka på rad 8 och får inte ensam användas för att identifiera ett
 hushåll eller en hustru åt honom. Den avgränsningen står oförändrad.
 
-### Löfberg återkommer i fosterdotterns egen dopkrets
-
 **Tjugofem år senare döpte hon sina egna barn i Ljustorp**, och
 [C-0470](../citations/C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md) bär
 hela fadderkretsen — tolv personer i sex led, den bredaste programmet mött.
@@ -71,8 +69,6 @@ i Löfberg` är en torpares änka i hans by tjugofem år senare. Hon får
 inte antas vara hans änka — men hon får inte heller förbises. Hans akt
 säger själv att utbyggnaden kräver hans egen sammanhängande Löfbergskedja,
 och detta är den första konkreta ingången till en sådan.
-
-### Underhållets slutår är rättat och gäller även honom
 
 **T-0166 fann 2026-09-09 att rullans nedersta anteckning läses `1849 Aug`,
 inte `1839`.** Tredje siffran är ett `4` med vinklad topp och genomgående
@@ -253,6 +249,13 @@ första är att `ibm` är källans egen dittoform och inte en utskriven ort.
 och förde rättelsen till P-0339, där den gav ett nytt A-7210. Hans akt
 nämnde varken årtalet eller underhållet. Att han var mottagaren av talet
 `20` gör skillnaden på tio år till hans lika mycket som hennes.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0455: Nils Larsson i Löfberg, fosterfar vars by återkommer i fosterdotterns dopkrets`. Den lyder nu `P-0455: Nils Larsson i Löfberg`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

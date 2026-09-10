@@ -25,8 +25,6 @@ Rosinedahl. Klammern över raderna 17–20 för honom ut ur landet
 
 **Den uttryckliga `s.`-markeringen säkrar relationen.**
 
-### Åldern vid utvandringen är räknad
-
 **Från 1906-10-29 till 1907-04-08 är det 5 månader och 10 dagar.**
 
 **A-6402 kallar honom `halvårsgammal`.** Det är avrundat uppåt med tre
@@ -34,8 +32,6 @@ veckor. Assertionen skrivs inte om, och den exakta räkningen förs här.
 
 **Han är den yngste utvandraren i kohortens material** och den vars svenska
 livslinje är kortast: fem månader och tio dagar från födelse till gräns.
-
-### Tre av farfaderns söner lämnade landet
 
 **Johan Peter Zingmarks barnaskara gav tre emigranter över femton år**, och
 ingen akt har fört dem samman:
@@ -55,8 +51,6 @@ två barnen.
 
 **Ingen orsaksförklaring dras**, och ingen av de tre resorna är belagd med
 någon annan källa än en anteckning i en kyrkobok.
-
-### Namnleden
 
 `Anders` svarar mot faderns halvbror **[Anders Vilhelm](P-0427-anders-vilhelm-zingmark.md)**,
 som dog 1892-04-20 — fyra månader innan brodern Emanuel utvandrade.
@@ -189,7 +183,7 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
+### T-0161:s begränsade införing fullgranskad, 2026-09-10
 
 A-6402 bar texten `Begränsad införing — full granskning ägs av T-0199`.
 **Granskningen är utförd**, och den fann en avrundning: `halvårsgammal` mot

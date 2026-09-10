@@ -1,4 +1,4 @@
-# P-0460: Anders Jonas Henriksson, den yngste, född efter en normal spärr
+# P-0460: Anders Jonas Henriksson, den yngste
 
 ## Arbetsläge
 
@@ -26,8 +26,6 @@ födelsenotis → `A I/9` → `A I/10` → flyttlängd är sluten för den grene
 **Identitetsnivån faller ändå på källbredden:** en enda husförhörssida, och
 ingen egen födelsenotis.
 
-### Han är den yngste, och hans intervall är det normala
-
 **Familjens tre söner föddes 1881-08-09, 1887-07-02 och 1891-02-22.**
 Mellan de två första ligger fem år tio månader och tjugotre dagar —
 den lucka T-0200 förde som A-7969 och gjorde till en prövbar fråga.
@@ -41,8 +39,6 @@ luckan är ungefär en och en halv gång det normala intervallet här.
 
 **Modern var trettiofem år och tio månader när han föddes.** Han blev det
 sista belagda barnet.
-
-### `Jonas` är familjens enda återkommande namnled
 
 **Farbrodern hette [Erik Jonas](P-0253-erik-jonas-henriksson.md)**, född
 1860-01-23, och han bär samma andranamn. `Anders` har ingen motsvarighet
@@ -204,6 +200,13 @@ att pröva i öppna böcker.
 Akten förde tidigare far och mor.
 Bröderna, farbrodern och farföräldrarna saknades, trots att
 de stod i samma eller anslutande citationer. De är nu förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0460: Anders Jonas Henriksson, den yngste, född efter en normal spärr`. Den lyder nu `P-0460: Anders Jonas Henriksson, den yngste`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

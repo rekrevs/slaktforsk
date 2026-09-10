@@ -1,4 +1,4 @@
-# P-0466: Fredric Jacobson i Hjällsnäs, vars vigselålder stämmer och vars slutord inte är utläst
+# P-0466: Fredric Jacobson i Hjällsnäs
 
 ## Arbetsläge
 
@@ -24,8 +24,6 @@ Olsdotter` i `Stannum Nohlg.`, 25 år, med lysning 28 januari 1849.
 `Dr. Fredr. Jacobson`, född `24 Oct. 2` — normaliserat 1824-10-02 —
 tillsammans med `h. Anna Britta Olsdr`.
 
-### Vigselpostens två åldrar stämmer exakt, och den ena bekräftar den andra
-
 **Ingen har räknat dem.**
 
 | Person | Ålder i vigselposten | Födelsedatum i `A I/10` | Faktisk ålder 1849-04-15 |
@@ -47,8 +45,6 @@ att en förenlig serie kan avgränsa nio veckor. Här faller den ut positivt på
 två personer samtidigt. Gränsen är densamma: åldrarna kan vara
 framräknade ur samma kyrkoboksuppgift och är inte helt oberoende av
 husförhörslängden.
-
-### Slutordet `afl.53` är inte utläst
 
 **A I/10:s alternativa omtagning visar `afl.53` i marginalen intill det
 överstrukna Fredric–Anna-blocket.**
@@ -75,8 +71,6 @@ den ena läsningen.
 tunga, och nästa steg måste behandla dem så — en destinationssökning i
 grannsocknarna och en dödsbokssökning i angränsande år är två likvärdiga
 vägar, inte en huvudväg och en reservutgång.
-
-### Faderskapskonflikten har en kronologi
 
 **Johan August föddes `49 Juli 5`** — 1849-07-05 — enligt den indragna
 barnraden på `A I/10` sida 115, och det exakta datumet och namnet binder
@@ -296,6 +290,13 @@ Akten förde tidigare endast hustrun. Johan August, `Olo Andersson` och
 Olaus stod i citationen och saknades i tabellen, liksom den uttryckliga
 raden att föräldrarna är okända. De är nu förda, var och en med sin
 gräns.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0466: Fredric Jacobson i Hjällsnäs, vars vigselålder stämmer och vars slutord inte är utläst`. Den lyder nu `P-0466: Fredric Jacobson i Hjällsnäs`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

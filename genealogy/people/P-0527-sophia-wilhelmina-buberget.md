@@ -1,4 +1,4 @@
-# P-0527: Sophia Wilhelmina i Buberget, sista barnet, död vid ett och ett halvt år
+# P-0527: Sophia Wilhelmina i Buberget, sista barnet
 
 ## Arbetsläge
 
@@ -25,8 +25,6 @@ dödskolumnen `1852-06-06`. Hon står som dotter till
 **Inget patronymikon läggs till** när målradens avskrift bara anger förnamn.
 Egen födelse- och dödspost är oläst.
 
-### Hon levde ett år, sex månader och en dag
-
 Från 1850-12-05 till 1852-06-06 är det ett år, sex månader och en dag.
 
 **Hon är familjens sista kända barn.** Modern föddes 1804 och var alltså 46
@@ -36,8 +34,6 @@ vid. Efter henne kommer ingen ny barnrad i något läst led.
 **Hon saknas också i `A I/8b` sida 536**, vars barnlista slutar med systern
 [Maria Brita](P-0526-maria-brita-buberget.md). Det stämmer med döden 1852
 och kräver ingen ytterligare förklaring.
-
-### Uppslaget bekräftar T-0197:s slutsats i en andra volym
 
 Tre barnrader på sida 474 är överstrukna, och de är strukna av två olika
 skäl.
@@ -208,6 +204,13 @@ falsifieringen inte var ett lokalt undantag.
 Akten förde tidigare far och mor. De åtta äldre syskonen stod i citationen
 och saknades i relationstabellen. De är nu förda, **utan egna person-id**,
 och de två strukna systrarnas hänvisningssidor är utskrivna.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0527: Sophia Wilhelmina i Buberget, sista barnet, död vid ett och ett halvt år`. Den lyder nu `P-0527: Sophia Wilhelmina i Buberget, sista barnet`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

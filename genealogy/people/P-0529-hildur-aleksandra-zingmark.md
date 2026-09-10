@@ -1,4 +1,4 @@
-# P-0529: Hildur Aleksandra Zingmark, en dotterrad som inte kan vara det den ser ut som
+# P-0529: Hildur Aleksandra Zingmark
 
 ## Arbetsläge
 
@@ -31,8 +31,6 @@ mor. Mellan de två datumen ligger fem månader och tjugotre dagar.
 Posten hålls därför som en egen personakt och propageras inte in i den
 verifierade stamtavlan.
 
-### Lösningsrummet är fyra möjligheter, inte en
-
 **Akten har hittills sagt att konflikten `bevaras oavgjord`.** Det är rätt,
 men lösningsrummet har aldrig räknats upp — och de fyra möjligheterna
 kräver olika källor.
@@ -53,8 +51,6 @@ fjärde möjligheten.
 
 **Ingen möjlighet väljs här.** Uppräkningen är själva bidraget: de fyra
 kräver olika källor, och två av dem avgörs av en och samma post.
-
-### Två vuxna döttrar skrevs in samma dag
 
 **Hon inflyttade 1917-11-08.** Samma dag kom [Astrid
 Maria](P-0031-astrid-maria-zingmark.md) från Örebro norra, och
@@ -233,6 +229,13 @@ datumskillnaden är själva det som ett felskrivet betyg producerar.
 
 **Samtliga tre står kvar i sak** och är förda vidare som Q-01, Q-02 och en
 del av identitetsbedömningen. Den fjärde möjligheten är ny.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0529: Hildur Aleksandra Zingmark, en dotterrad som inte kan vara det den ser ut som`. Den lyder nu `P-0529: Hildur Aleksandra Zingmark`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

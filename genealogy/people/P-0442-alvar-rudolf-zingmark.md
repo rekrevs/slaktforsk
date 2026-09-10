@@ -1,4 +1,4 @@
-# P-0442: Alvar Rudolf Zingmark, som lämnade Sverige före sin andra födelsedag
+# P-0442: Alvar Rudolf Zingmark
 
 ## Arbetsläge
 
@@ -24,16 +24,12 @@ Rosinedahl. Klammern över raderna 17–20 för honom ut ur landet
 
 **Den uttryckliga `s.`-markeringen säkrar relationen.**
 
-### Åldern vid utvandringen är räknad
-
 Från 1905-06-04 till 1907-04-08 är det 1 år 10 månader och 4 dagar.
 
 **A-6401 kallar honom `tvååring`.** Det är avrundat uppåt med knappt två
 månader — han hade inte fyllt två. Assertionen skrivs inte om, och
 den exakta räkningen förs här i stället. Skillnaden är liten men gäller
 en av de två uppgifter akten har.
-
-### Namnet `Rudolf` har ingen motsvarighet bakåt
 
 **Ingen i Zingmarkarnas föräldrageneration heter Rudolf.** Farfaderns
 sjutton belagda barn bär `Sophia Beata`, `Carl Reinhold`, `Christina
@@ -179,7 +175,7 @@ profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-### T-0161:s begränsade införing är nu fullgranskad, 2026-09-10
+### T-0161:s begränsade införing fullgranskad, 2026-09-10
 
 A-6401 bar texten `Begränsad införing — full granskning ägs av T-0199`.
 **Granskningen är utförd**, och den fann en avrundning: `tvååring` mot
@@ -197,6 +193,13 @@ ligger i att den är ett motexempel till T-0198:s namnmönster.
 
 Akten förde tidigare far och mor. Brodern, farfadern, halvkusinen och
 faderns halvbror på samma folio saknades. De är nu förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0442: Alvar Rudolf Zingmark, som lämnade Sverige före sin andra födelsedag`. Den lyder nu `P-0442: Alvar Rudolf Zingmark`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

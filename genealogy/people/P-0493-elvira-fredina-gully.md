@@ -1,4 +1,4 @@
-# P-0493: Elvira Fredina Gully, född efter sju års uppehåll
+# P-0493: Elvira Fredina Gully
 
 ## Arbetsläge
 
@@ -178,6 +178,13 @@ Akten sade i löptext att `efternamn står inte utskrivet i originalen och
 konstrueras inte`, men saknade namnformstabell. Bedömningen står kvar i
 sak och är nu förd i tabellform, enligt samma modell som systern
 [P-0491](P-0491-edit-maria-justina.md) fick i T-0144.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0493: Elvira Fredina Gully, född efter sju års uppehåll`. Den lyder nu `P-0493: Elvira Fredina Gully`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

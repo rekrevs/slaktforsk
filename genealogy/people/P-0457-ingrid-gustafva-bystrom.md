@@ -1,4 +1,4 @@
-# P-0457: Ingrid Gustafva Byström, hushållets enda inflyttade, med ett fast tillnamn och en oläst födelsenotis i Indal
+# P-0457: Ingrid Gustafva Byström
 
 ## Arbetsläge
 
@@ -26,15 +26,11 @@ födelsenotis → `A I/9` → `A I/10` → flyttlängd är sluten för den grene
 **Identitetsnivån faller ändå på källbredden:** en enda husförhörssida, och
 ingen egen födelsenotis.
 
-### Hon är den enda i hushållet som inte är född i församlingen
-
 **Maken och de tre sönerna förs alla som födda i Ljustorp.** Hon är född i
 `Indal` — den enda uppgiften i posten som pekar ut ur socknen.
 
 Det gör hennes rad till hushållets enda öppning bakåt mot en annan
 församling, och den öppningen är oprövad.
-
-### Tillnamnet är fast, inte patronymiskt
 
 **`Byström` är inget patronymikon.** Det följer henne mellan hushåll på ett
 sätt `Jönsdotter` eller `Henriksdotter` inte skulle göra, och det är
@@ -45,8 +41,6 @@ födelsedag och en namngiven födelseförsamling.
 [Gustaf Sjöberg](P-0444-gustaf-sjoberg.md), där slutsatsen var densamma: ett fast
 tillnamn hos en person utan egna original är den enda praktiska ingången.
 
-### Indal är en socken projektet redan arbetar i
-
 **Indals `C/4` är bekräftat åtkomlig** genom
 [C-0438](../citations/C-0438-indal-C4-dahlsten-barn-doda-1841-1843.md) och
 [C-0440](../citations/C-0440-indal-C4-erik-dahlsten-fodd-1847.md), lästa för
@@ -56,8 +50,6 @@ Dahlstenfamiljen i Säter.
 arkivmässigt och inte genealogiskt: vägen till hennes födelsenotis går
 genom en volymserie projektet redan har öppnat. Om årgången 1855 ryms i
 `C/4` är EJ KONTROLLERAT.
-
-### Hennes åldrar vid barnens födelser
 
 | Barn | Född | Hennes ålder |
 |---|---|---|
@@ -201,7 +193,7 @@ räknat mellanrummen. Luckan 1881–1887 är förd som A-7969 i faderns akt,
 med den avgörande skillnaden mot programmets två tidigare luckor: denna går
 att pröva i öppna böcker.
 
-### Tillnamnet lästes som söknyckel, 2026-09-10
+### Tillnamnet som söknyckel, 2026-09-10
 
 **`Byström` är inget patronymikon.** Akten hade inte noterat det, trots att det är den enda praktiska ingången till en kvinna utan egna original. Samma slutsats drogs i T-0199 om `Sjöberg`.
 
@@ -210,6 +202,13 @@ att pröva i öppna böcker.
 Akten förde tidigare make och tre söner.
 Makens bror på samma hushållssida saknades, trots att
 han stod i samma eller anslutande citationer. Han är nu förd.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0457: Ingrid Gustafva Byström, hushållets enda inflyttade, med ett fast tillnamn och en oläst födelsenotis i Indal`. Den lyder nu `P-0457: Ingrid Gustafva Byström`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

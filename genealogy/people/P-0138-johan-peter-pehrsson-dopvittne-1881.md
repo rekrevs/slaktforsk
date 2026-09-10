@@ -208,7 +208,7 @@ Avskriften skriver `Nafverkärr`; T-0132:s fullpostprövning skriver
 `Näfverkärr`. Båda bevaras som två läsningar av samma ord, inte som två
 orter, och båda måste bäras med i varje sökning.
 
-### Aktens tidigare anmärkning var för stark, 2026-09-10
+### Anmärkningen mildrad, 2026-09-10
 
 Den ursprungliga forskningsfrågan löd `Ingen prioriterad; posten bevaras som
 dopvittneskontext.` Det stämmer inte. Hans ålder och härkomst är rakt

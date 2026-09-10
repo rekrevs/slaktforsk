@@ -1,4 +1,4 @@
-# P-0456: Henrik Petter Henriksson, vars barnaskara har en sexårig lucka som går att pröva
+# P-0456: Henrik Petter Henriksson
 
 ## Arbetsläge
 
@@ -34,8 +34,6 @@ broderns rad 13 på samma sida, och den pekar på föräldrahushållet i
 `A I/9` sida 222. Identiteten vilar därmed på en bokkedja, inte på
 namnlikhet.
 
-### Sex år mellan första och andra sonen
-
 **Hans tre belagda söner föddes 1881, 1887 och 1891.**
 
 | Son | Född | Sedan föregående | Moderns ålder |
@@ -68,16 +66,12 @@ osynliga — för första gången bytas mot en fråga med en namngiven källa.
 **Ingen slutsats dras om orsaken.** En lucka kan lika gärna bero på
 sjukdom, frånvaro eller ingenting alls.
 
-### Första sonen föddes fyra månader efter vigseln
-
 **Husförhörsraden anger vigseln `81 9/4`[?]** — dagfältet bär reservation —
 och Erik Petter föddes 1881-08-09. Fyra månader på dagen.
 
 **Iakttagelsen är vanlig i materialet och ges ingen innebörd.** Den noteras
 därför att den är en kronologisk uppgift som ingen räknat, och därför att
 vigseldagens reservation gör räkningen villkorlig.
-
-### Rundbacken återkommer en generation senare
 
 **Han växte upp i `Rundb.`** — och C-0469 anmärker att formen `står i
 konflikt med senare A I/9:s Lagfors`.
@@ -273,6 +267,13 @@ C-0621:s placering av honom på Hinkestorpet i Rundbacken, stod i två
 citationer. Ingen akt hade ställt dem mot varandra. Iakttagelsen är förd
 med **låg tillförlitlighet**, eftersom bostadsregistret är selektivt och bara
 anger födelseår.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0456: Henrik Petter Henriksson, vars barnaskara har en sexårig lucka som går att pröva`. Den lyder nu `P-0456: Henrik Petter Henriksson`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

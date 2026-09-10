@@ -1,4 +1,4 @@
-# P-0320: Maria Christina Urbom (1858–1861), uppkallad efter en död syster
+# P-0320: Maria Christina Urbom (1858–1861)
 
 ## Arbetsläge
 
@@ -181,11 +181,18 @@ namnformer och ingen profil fanns.
 
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-### T-0135:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0135:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Full aktgranskning och profiladoption ägs av T-0193;
 detta är ingen full kontraktsgranskning`. T-0193 är denna uppgift, och den
 fulla granskningen är utförd med daterad PK-bedömning i profilen.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0320: Maria Christina Urbom (1858–1861), uppkallad efter en död syster`. Den lyder nu `P-0320: Maria Christina Urbom (1858–1861)`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

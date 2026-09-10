@@ -180,7 +180,7 @@ tidslinje, inga namnformer och ingen profil fanns.
 
 **Båda de ursprungliga assertionerna står kvar med oförändrad lydelse.**
 
-### T-0132:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0132:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Full akt-/profilgranskning ägs av T-0194`. T-0194 är
 denna uppgift, och den fulla granskningen är utförd med daterad PK-bedömning

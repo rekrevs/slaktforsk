@@ -179,7 +179,7 @@ boställe följer av hans. Sonrelationen nedgraderas samtidigt till `LEAD`:
 `son ibm` betyder son i hushållet, och att han är **hennes** son är inte
 separat belagt.
 
-### Aktens tidigare anmärkning var för stark, 2026-09-10
+### Anmärkningen mildrad, 2026-09-10
 
 Den ursprungliga forskningsfrågan löd `Ingen prioriterad fråga; posten
 bevaras som dopvittneskontext.` Det stämmer inte längre. Hennes ålder,

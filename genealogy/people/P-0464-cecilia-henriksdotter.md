@@ -1,4 +1,4 @@
-# P-0464: Cecilia Henriksdotter, vars hushållskedja går mot Lagfors, dit den påstådde brodern hade flyttat
+# P-0464: Cecilia Henriksdotter
 
 ## Arbetsläge
 
@@ -23,8 +23,6 @@ dopvittnen från Bredsjö i [C-0470](../citations/C-0470-ljustorp-martha-brita-f
 **Dopvittnesrollen är originalbelagd:** `pigan Cecilia Henriksdotter ibm` står i
 fadderkretsen vid tvillingdopet i februari 1856. Hon var då 20 år och 9 dagar.
 
-### Fadderkretsen har två delar, och de kommer från var sitt håll
-
 **T-0200 fann att nio av de tolv faddrarna står i `Löfberg`** — den by där
 barnens mor [Margreta Charlotta Schölin](P-0339-margareta-charlotta-sjodin.md)
 växte upp som barnhusfosterbarn ([C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md)).
@@ -39,8 +37,6 @@ dessa två stod där.
 **Iakttagelsen är ett omständighetsstöd, inte ett belägg.** `ibm` är källans
 egen dittoform och löses inte upp, och faddrar är källbundna
 nätverksuppgifter utan automatiskt fastställt släktskap.
-
-### Syskonskapet är graderat över sitt stöd
 
 **A-2603 är sammansatt av tre påståenden med olika stöd:** identiteten,
 dopvittnesrollen och föräldra- och syskonrelationen. Graden
@@ -65,8 +61,6 @@ saknar bara det stöd graden anger.
 1836 namnger föräldrarna direkt, liksom broderns 1835 och
 Henriks 1829 — och Ljustorps `C`-serie är bekräftat åtkomlig genom
 [C-0470](../citations/C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md).
-
-### Hennes hushållskedja går mot Lagfors
 
 [C-0594](../citations/C-0594-ljustorp-AI6-bredsjo-lagfors-rundbacken-ledtradar.md) följer henne från sida 1 i Bredsjö till sida 38 och därifrån vidare
 mot Lagfors.
@@ -281,6 +275,13 @@ till varför just dessa två stod där.
 Akten förde tidigare far, mor, bror och bror. Dopbarnet, dess mor och de
 fem övriga barnen i familj 99 stod i citationerna och saknades. De är nu
 förda, de fem sistnämnda uttryckligen som årsuppgifter utan personakter.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0464: Cecilia Henriksdotter, vars hushållskedja går mot Lagfors, dit den påstådde brodern hade flyttat`. Den lyder nu `P-0464: Cecilia Henriksdotter`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

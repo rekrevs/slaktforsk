@@ -1,4 +1,4 @@
-# P-0458: Erik Petter Henriksson, född fyra månader efter föräldrarnas vigsel
+# P-0458: Erik Petter Henriksson
 
 ## Arbetsläge
 
@@ -26,8 +26,6 @@ födelsenotis → `A I/9` → `A I/10` → flyttlängd är sluten för den grene
 **Identitetsnivån faller ändå på källbredden:** en enda husförhörssida, och
 ingen egen födelsenotis.
 
-### Fyra månader efter vigseln, på dagen
-
 **Husförhörsraden anger föräldrarnas vigsel `81 9/4`[?]** — dagfältet bär
 reservation — och han föddes 1881-08-09.
 
@@ -36,8 +34,6 @@ reservation — och han föddes 1881-08-09.
 **Iakttagelsen är vanlig i materialet och ges ingen innebörd.** Den noteras
 därför att den är en kronologisk uppgift som ingen räknat, och därför att
 vigseldagens reservation gör räkningen villkorlig.
-
-### Namnet bär farbrodern och fadern
 
 `Erik` svarar mot farbrodern **[Erik Jonas Henriksson](P-0253-erik-jonas-henriksson.md)**, född
 1860-01-23, som bodde på samma hushållssida och flyttade till Holm
@@ -49,8 +45,6 @@ vigseldagens reservation gör räkningen villkorlig.
 uppkallningsavsikt påstås. Den är ändå den enda av de tre sönernas
 namnkopplingar som har en motsvarighet i det belagda hushållet — jämför
 [Johan Vilhelm](P-0459-johan-vilhelm-henriksson.md), vars båda namnled är obundna.
-
-### Han är den ende som når värnpliktsålder inom räckhåll
 
 **Han nådde värnpliktsålder omkring 1902**, alltså åtta år efter den enda
 lästa källans slut. En inskrivningslängd skulle ge en egen post med
@@ -196,6 +190,13 @@ att pröva i öppna böcker.
 Akten förde tidigare far och mor.
 Bröderna, farbrodern och farföräldrarna saknades, trots att
 de stod i samma eller anslutande citationer. De är nu förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0458: Erik Petter Henriksson, född fyra månader efter föräldrarnas vigsel`. Den lyder nu `P-0458: Erik Petter Henriksson`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

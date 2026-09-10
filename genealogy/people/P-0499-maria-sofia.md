@@ -1,4 +1,4 @@
-# P-0499: Maria Sofia, vars dopdag gör hushållens datum omöjligt
+# P-0499: Maria Sofia
 
 ## Arbetsläge
 
@@ -24,8 +24,6 @@ fortsätter till hennes post 14, och mars börjar vid nästa post.
 
 **De senare hushållen anger `27 mars 1863`.**
 
-### Dopdagen avgör
-
 **Hennes egen post anger dop den 8 mars.**
 
 **Ett barn kan inte döpas nitton dagar innan det föds.**
@@ -48,14 +46,10 @@ inte kan gälla; här står de i samma post och slutsatsen blir starkare.
 **Källformen `27 mars` bevaras oförändrad i hushållsleden.** Det som ändras
 är bedömningen av vad den är.
 
-### Moderns ålder bekräftar identifieringen
-
 **Moderns uppgivna ålder 43 stämmer exakt** mot hennes egen födelsepost
 1819-05-30: 43 år 8 månader och 28 dagar. Tillsammans med `omkring 23`
 1843 och `26` 1846 ger det tre exakta åldrar över tjugo år — se A-7983 i
 [systerns akt](P-0495-anna-lotta.md).
-
-### Hon är sista kända barnet, tolv år efter det föregående
 
 **Syskonens kända födelser är 1843-01-04, 1844, 1846-01-14, 1851-01-30 och
 hennes egen 1863-02-27.** Mellan brodern [Erik](P-0133-erik-karlsson-svartgjolstorp.md)
@@ -225,6 +219,13 @@ ger det tre exakta åldrar över tjugo år; se A-7983.
 Akten förde tidigare far, mor och en äldre bror. De två övriga syskonen och
 `Anders Fredric` saknades. De är nu förda, den sistnämnde som relation
 utan person-id.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0499: Maria Sofia, vars dopdag gör hushållens datum omöjligt`. Den lyder nu `P-0499: Maria Sofia`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

@@ -1,4 +1,4 @@
-# P-0408: Lars Olof, först född efter familjens återkomst till Indal
+# P-0408: Lars Olof Larsson
 
 ## Arbetsläge
 
@@ -180,6 +180,13 @@ Relationstabellen omfattade tidigare bara föräldrarna och en eller två bröde
 Samtliga sex kända syskon är nu förda, inklusive
 [P-0406 Lisa Cajsa](P-0406-lisa-cajsa-larsdotter.md), vars födelseort i
 **Indal 1858** ligger före familjens Sättnaperiod.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0408: Lars Olof, först född efter familjens återkomst till Indal`. Den lyder nu `P-0408: Lars Olof Larsson`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

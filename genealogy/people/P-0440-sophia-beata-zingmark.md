@@ -1,4 +1,4 @@
-# P-0440: Sophia Beata Zingmark, vars födelsepost daterar sin mor
+# P-0440: Sophia Beata Zingmark
 
 ## Arbetsläge
 
@@ -24,8 +24,6 @@ osäker titel.
 
 Hon är äldst av de nio barn som är belagda i faderns första äktenskap, och
 hon föddes nio månader efter föräldrarnas vigsel den 24 november 1850.
-
-### Moderns ålder är den uppgift som bär
 
 **Posten anger moderns ålder till 22 år.** Uppgiften har stått oanvänd.
 Ställd mot tre andra födelseposter i samma församling avgränsar den moderns
@@ -194,6 +192,13 @@ räkna.
 
 Akten förde tidigare far, mor och en bror. De två tvillingparen och två
 äldre syskon stod i citationerna och saknades i akten. De är nu förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0440: Sophia Beata Zingmark, vars födelsepost daterar sin mor`. Den lyder nu `P-0440: Sophia Beata Zingmark`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

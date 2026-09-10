@@ -1,4 +1,4 @@
-# P-0487: Axel Heribert i Ekträsk, den ende av åtta vars namn saknar motsvarighet i moderns släkt
+# P-0487: Axel Heribert i Ekträsk
 
 ## Arbetsläge
 
@@ -186,7 +186,7 @@ profil fanns.
 
 **Den ursprungliga assertionen A-2945 står kvar med oförändrad lydelse.**
 
-### Han är kohortens tomma kontrollrad, 2026-09-10
+### Kohortens tomma kontrollrad, 2026-09-10
 
 **T-0198 förde namnmönstret som A-7947 med sju träffar av åtta.** Den
 åttonde raden var hans, och den saknade motsvarighet. Att en tom rad är
@@ -200,6 +200,13 @@ hur öppet det är — faderns sida är fortfarande outforskad.
 
 Akten förde tidigare endast fadern och modern. De sju syskonen stod i samma
 citation och saknades i akten. De är nu förda med födelseår och belägg.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0487: Axel Heribert i Ekträsk, den ende av åtta vars namn saknar motsvarighet i moderns släkt`. Den lyder nu `P-0487: Axel Heribert i Ekträsk`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

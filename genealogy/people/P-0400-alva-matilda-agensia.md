@@ -155,7 +155,7 @@ bevarad äldre text; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
 
-### T-0142:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0142:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Explicit full införandeadoption ligger i T-0196; en ny
 profil skapas inte i detta följdsteg`. T-0196 är denna uppgift, och den

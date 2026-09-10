@@ -1,4 +1,4 @@
-# P-0533: Axel Ivar Ekholm, vars nollresultat saknar sina första sex dagar
+# P-0533: Axel Ivar Ekholm
 
 ## Arbetsläge
 
@@ -30,8 +30,6 @@ barn.**
 **Efternamnet står inte utskrivet på hans egen rad 1910 utan följer
 familjeraden.**
 
-### Nollresultatet saknar sina första sex dagar
-
 **A-3602 registrerar ett avgränsat noll:** hans födelsepost är inte funnen i
 Matteus födelsebok 1907, och posterna 129–182, som täcker dop 1907-03-15
 till 1907-04-11, är lästa utan träff.
@@ -55,8 +53,6 @@ och födelsedagen i rotemansposten. Ingen har ställt dem mot varandra.
 
 **A-3602 avförs inte.** Nollet är riktigt för det band som lästs. Det som
 tillkommer är att bandet måste utvidgas nedåt, inte bara uppåt.
-
-### Familjens kronologi
 
 | Datum | Händelse |
 |---|---|
@@ -263,6 +259,13 @@ raderna 13–16 på uppslag 13 är hushållet.
 Ingen slutsats i denna akt vilade på att sidan inte gått att lokalisera.
 Halvsystern Maj Amalias rad är nu förd som relation, med **`d. u.ä.`** och
 `Erkännande inför pastor`.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0533: Axel Ivar Ekholm, vars nollresultat saknar sina första sex dagar`. Den lyder nu `P-0533: Axel Ivar Ekholm`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

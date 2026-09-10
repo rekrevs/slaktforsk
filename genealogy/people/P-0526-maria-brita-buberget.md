@@ -1,4 +1,4 @@
-# P-0526: Maria Brita i Buberget, vars årtal två volymer säger ett och en tredje ett annat
+# P-0526: Maria Brita i Buberget
 
 ## Arbetsläge
 
@@ -31,8 +31,6 @@ dubblettkontrollen.
 
 **Egen födelsepost är oläst.** Det är den enda källa som kan avgöra både år
 och dag.
-
-### Syskonserien, räknad
 
 **C-0869:s avskrift av `A I/6b` sida 474 ger nio barn.** Ingen har räknat
 mellanrummen.
@@ -223,6 +221,13 @@ för första gången som diskriminator mellan två läsningar.
 Akten förde tidigare far, mor och en syster. De sju äldre syskonen stod i
 citationen och saknades i relationstabellen. De är nu förda, utan egna
 person-id.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0526: Maria Brita i Buberget, vars årtal två volymer säger ett och en tredje ett annat`. Den lyder nu `P-0526: Maria Brita i Buberget`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

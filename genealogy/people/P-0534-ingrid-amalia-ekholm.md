@@ -1,4 +1,4 @@
-# P-0534: Ingrid Amalia Ekholm, vars födelsepost aldrig har sökts
+# P-0534: Ingrid Amalia Ekholm
 
 ## Arbetsläge
 
@@ -27,8 +27,6 @@ från S:t Göran i Stockholm 1950-01-03.
 **Efternamnet står inte utskrivet på hennes egen rad 1910 utan följer
 familjeraden.**
 
-### Hennes födelsepost har aldrig sökts, och brodern visar vad som krävs
-
 **[Broderns](P-0533-axel-ivar-ekholm.md) födelsepost har sökts i Matteus
 födelsebok 1907 och inte funnits.** Hennes har aldrig sökts alls.
 
@@ -42,8 +40,6 @@ födelsedagen**, 1910-02-05, och inte vid en dopdag en vecka senare.
 
 **Ingen sökning är gjord, så inget noll finns att avgränsa.** Lärdomen är
 förebyggande.
-
-### Hon var elva månader vid folkräkningen och tre år vid flytten
 
 | Datum | Händelse | Hennes ålder |
 |---|---|---|
@@ -208,7 +204,7 @@ profil fanns.
 **Samtliga tre ursprungliga assertioner står kvar med oförändrad lydelse**,
 och T-0125:s bevarade äldre formuleringar är oförändrade.
 
-### Broderns nollresultat lästes som en anvisning, 2026-09-10
+### Broderns nollresultat som anvisning, 2026-09-10
 
 T-0202 fann att broderns nollresultat i Matteus födelsebok 1907 utesluter de
 sex första dagarna efter hans födelse — bandet började vid dop den 15
@@ -253,6 +249,13 @@ sonen med namn och födelsedag utelämnade.
 tillkommer: den äldre formuleringen pekade ut `Kungsholms födelsebok
 1910`, medan rotemansposten anger `Matteus` — det är Matteus som är
 målet.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0534: Ingrid Amalia Ekholm, vars födelsepost aldrig har sökts`. Den lyder nu `P-0534: Ingrid Amalia Ekholm`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

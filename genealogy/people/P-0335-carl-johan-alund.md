@@ -202,7 +202,7 @@ namnformer och ingen profil fanns.
 
 **Samtliga fem ursprungliga assertioner står kvar med oförändrad lydelse.**
 
-### T-0167:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0167:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Full individuell granskning, profilinförande och
 kontraktsgranskning ägs av T-0193, som har honom i sin kohort`, och

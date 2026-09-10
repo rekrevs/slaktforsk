@@ -181,7 +181,7 @@ A-1769 skrivs inte om — den smalare läsningen är förd som A-7906 med
 tillförlitlighet `medel`, eftersom den vilar på citationens formulering och
 inte på en egen omläsning av bilden.
 
-### T-0135:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0135:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Full aktgranskning och profiladoption ägs av T-0193;
 detta är ingen full kontraktsgranskning`. T-0193 är denna uppgift, och den

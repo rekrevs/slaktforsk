@@ -1,4 +1,4 @@
-# P-0469: Ivar Henning Hallin, vars två kandidatdatum kronologin inte kan skilja
+# P-0469: Ivar Henning Hallin
 
 ## Arbetsläge
 
@@ -22,8 +22,6 @@ hushåll.
 
 **Efternamnet `Hallin` är en normaliserad familjeidentifierare.**
 Församlingsbokssidan skriver endast förnamnen på sonens rad.
-
-### De två kandidatdatumen, och vad kronologin inte kan avgöra
 
 **[C-0675](../citations/C-0675-sattna-AIIa4-gertrud-nils-august-hallin.md) och [C-0926](../citations/C-0926-hallen-henriksson-storbranna-fol-384.md) läser hans födelse `1918-09-28`.** [C-0930](../citations/C-0930-henriksson-storbranna-fol-392-och-flytten-till-sundsvall-1928.md) anger
 `1918-12-28`. Skillnaden mellan böckerna är olöst, och ingen egen
@@ -53,8 +51,6 @@ som annars ser användbar ut.
 
 **Avgörandet ligger i hans egen födelsenotis i Sättna 1918** — den enda
 källa som kan ge månaden ur en primärpost.
-
-### Moderns ålder
 
 **Modern var född 1874-02-23.** Under septemberläsningen var hon 44 år 7
 månader och 5 dagar vid hans födelse; under decemberläsningen 44 år 10 månader
@@ -215,7 +211,7 @@ inga namnformer och ingen profil fanns.
 **Den ursprungliga assertionen A-2680 står kvar med oförändrad lydelse**,
 och den bevarade äldre aktversionen är oförändrad.
 
-### T-0119:s och T-0124:s begränsade rättelser är nu fullgranskade, 2026-09-10
+### T-0119:s och T-0124:s rättelser fullgranskade, 2026-09-10
 
 Båda följdavstämningarna sade uttryckligen att profil saknades och att
 fullgranskningen ägs av denna uppgift. Granskningen är utförd.
@@ -228,6 +224,13 @@ fullgranskningen ägs av denna uppgift. Granskningen är utförd.
 
 Akten förde tidigare far och mor. Brodern och de tre halvbröderna ur
 moderns första äktenskap stod i citationen och saknades. De är nu förda.
+
+### Rubriken återställd, 2026-09-10
+
+Rubriken löd `P-0469: Ivar Henning Hallin, vars två kandidatdatum kronologin inte kan skilja`. Den lyder nu `P-0469: Ivar Henning Hallin`.
+Grunden är ägarbeslutet i PCD-2026-09-10-032: aktens rubrik är namnet
+med en nominell särskiljare, inte ett forskningsresultat. Sakuppgiften
+står oförändrad i akttexten. Filnamnet är oförändrat.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

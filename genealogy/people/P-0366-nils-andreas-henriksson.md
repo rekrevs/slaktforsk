@@ -213,7 +213,7 @@ eftersom det vilar på hur citationens avsnitt förhåller sig till varandra
 och inte på en egen omläsning. A-4336 skrivs inte om, och T-0130:s
 reservation står kvar.
 
-### T-0130:s uppskjutna granskning är nu utförd, 2026-09-10
+### T-0130:s uppskjutna granskning utförd, 2026-09-10
 
 Aktens egen text sade `Full individuell konsolidering och profiladoption ägs
 av T-0193`. T-0193 är denna uppgift, och den fulla granskningen är utförd
