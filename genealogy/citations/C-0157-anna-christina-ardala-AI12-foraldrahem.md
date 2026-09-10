@@ -171,3 +171,62 @@ tiden.** Passagen ägs av [T-0595](../../wotan/dev-log/T-0595.md), som läser
 både sida 177 och systerns sida 176.
 
 `Stödda påståenden` utökas med A-7887 (P-0216).
+
+## Tillägg 2026-09-10 — T-0191: de fem övriga barnraderna
+
+Ingen ny arkivsökning. Läsningen är gjord i samma **redan sparade** helbild
+`C0005622_00179`, i direkt fortsättning på tillägget tidigare samma dag.
+**Uppslagets tryckta kolumner är redovisade där** och upprepas inte.
+
+### Fem barnrader till, rad för rad
+
+| Rad | Namn | Födelse-år | mån./dag | ort | Koppor | Inflyttad | Utflyttad |
+|---|---|---|---|---|---|---|---|
+| 5 | `Dott. Maria Mathilda` | `1854` | **`?/7`**, täljaren överkorsad | `d:o` | `v` | tom | **`Sannerby` `1870`, pag. `177`** |
+| 6 | `Fredrika Sofia` | `1857` | **`¹⁴/₁`**, obruten | `d:o` | `v` | tom | tom |
+| 7 | `Son Claës Robert` | `1859` | **`¹⁵/₉`**, obruten | `d:o` | `v` | tom | tom |
+| 8 | `Carl Alfred` | `1865` | **`²/₇`**, obruten | `d:o` | `v` | tom | tom |
+| 9 | `Dott. Anna Christina` | `1852` | `²¹/₃`, **överkorsad** | `d:o` | `v` | `p. 185` `1866` | **`Sannerby` `1867`, pag. `176`** |
+| 10 | `Son Lars Johan` | `1849` | **`2[3?]/₇`**, överkorsad | `d:o` | `v` | **`Forssa` `1867`, attest `45`** | **`Malma` `70 ²⁶/₄`, attest `4`** |
+
+**De tre dossierdatumen är bekräftade i original:** `1857-01-14`,
+`1859-09-15` och `1865-07-02` står entydigt i cellerna, och akterna hade dem
+rätt.
+
+### Överkorsningarna är en systematik, inte slumpmässiga bläckstreck
+
+**Tre av sex barnrader har överkorsad födelsecell — och det är just de tre
+som lämnade sidan.** Maria Mathilda till Sannerby 1870, Anna Christina till
+Sannerby 1867 och Lars Johan till Malma 1870. **De tre som stod kvar när
+volymen slutade — Fredrika Sofia, Claës Robert och Carl Alfred — har obrutna
+celler.**
+
+**Det förklarar varför Maria Mathildas dagsiffra inte går att läsa**, och det
+ger förklaringen ett namn: **överstrykningen är en avförningsmarkering, inte
+ett bläckstreck från grannraden.** Anna Christinas cell bär samma streck men
+förblir läsbar; **hennes är lättare, hennes syskons tyngre.**
+
+### Lars Johans två flyttningar
+
+**Han är den ende av de sex med både en in- och en utflyttning**, och båda
+bär attestnummer: **`Forssa` 1867 attest `45`** och **`Malma` den 26 april
+1870 attest `4`.**
+
+**Att han kom från Forssa är värt att bevara utan att tolkas:** det är den
+socken där systern
+[P-0134](../people/P-0134-anna-christina-larsdotter.md) senare gifte sig och
+bosatte sig. **Källan säger ingenting om varför**, och **ingen förbindelse
+registreras.** Passagen ägs av [T-0597](../../wotan/dev-log/T-0597.md).
+
+### De två Sannerbysidorna hör ihop
+
+Maria Mathildas `177` och Anna Christinas `176` är **två sidnummer i följd i
+samma volym**, för två systrar tre år isär. **Båda läses som sidhänvisningar
+och inte som attestnummer**, eftersom attestnummerkolumnen är läst tom på
+båda raderna medan Lars Johans faktiska attestnummer står just där.
+
+**Det är den avgörande jämförelsen:** samma uppslag bär både en
+sidhänvisning i ortcellen och ett attestnummer i attestkolumnen, och de står
+på olika ställen.
+
+`Stödda påståenden` utökas med A-7888–A-7891 (P-0217–P-0220).

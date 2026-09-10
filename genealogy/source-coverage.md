@@ -2157,3 +2157,23 @@ räknas ned med en. Ingen sakuppgift ändras.
 Detta är den tjugofemte kända härledda källan i personaktsprogrammet och den
 första som berör en hel församlings folkräkningsblad snarare än enskilda
 uppslag.
+
+## Daterad anmärkning 2026-09-10 — undre gräns för P-0250:s `D`-cell
+
+**Matrisen är oförändrad; anmärkningen gäller sökomfånget bakom en cell.**
+
+`D`-cellen för [P-0250 Abraham Jönsson](people/P-0250-abraham-jonsson.md) är
+den enda oprövade källfamiljen på hans anposition och den enda som hindrar
+**djup 5 på Kristinas sida** från att räknas som källbredd-klar i
+`node scripts/goal-state.mjs`.
+
+**T-0191 fastställde en undre gräns för sökningen.** Folkräkningen 1900 för
+honom som `hemmansägare`; folkräkningen 1910 för honom som **`före detta
+hemmansägare`** medan dottern
+[P-0252](people/P-0252-kajsa-olivia-jonsson.md) förs som `hemmansägare` i
+samma post. **Han levde den 31 december 1910**, och **dödsposten ska sökas
+från 1911 och framåt** i Sättna.
+
+**Cellens status ändras inte** — uppgiften är fortfarande oprövad — men
+**omfånget är nu avgränsat nedåt.** Se `A-7895` i P-0252 och
+[T-0599](../wotan/dev-log/T-0599.md).
