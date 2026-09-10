@@ -166,3 +166,40 @@ uppgifterna finns i avskriften ovan. Berör
 
 Avskriften och `Familjetolkning` högst upp i denna citation är append-only och
 står oförändrade.
+
+## Tillägg 2026-09-10 — T-0193: överstrykningsbruket och de tre separata ankomsterna
+
+Ingen ny arkivåtkomst och ingen ny läsning. Tillägget läser **T-0167:s redan
+skrivna kolumnredovisning som ett mönster** och redovisar var det nu används.
+Avskriften och `Familjetolkning` är append-only och står oförändrade.
+
+**Uppslagets två överstrukna namn är exakt de två som har en
+utflyttningscell.** Rad 4 (`Hedda Lovisa`, `Gisselbro[?] 63`) och rad 8
+(`Carl Johan`, `Oppeby 64`) är överstrukna; **de övriga sju namnen är det
+inte, och ingen av dem har någon utflyttningsuppgift.** Överstrykningen är
+alltså en **avförningsmarkering**.
+
+**Samma bruk är belagt i en annan socken och en annan hand.** T-0191 fann att
+**tre av sex Carlbergsbarn hade överstrukna födelseceller — exakt de tre som
+lämnade sidan.** **Två oberoende uppslag ger samma bruk.**
+
+**Iakttagelsen används som läshjälp, aldrig som belägg om en enskild person.**
+Den säger var man ska leta efter en utflyttning; **den egna cellen avgör
+alltid.** Ett överstruket namn utan utflyttningscell vore lika litet ett
+belägg för flytt som ett oöverstruket namn med en sådan cell vore ett belägg
+för kvarboende.
+
+**Av nio rader har bara tre en egen inflyttningscell, och de tre är just de
+som anlände var för sig:** fadern `Gryt 57`, Carl Johan `Dunker 59` och
+Fredrik Wilhelm `Hyltinge 61`. **De övriga sex kom med familjen och står
+därför på faderns rad** — inklusive hustrun och de yngre barnen. **Deras tomma
+inflyttningsceller är alltså väntade och inte luckor.**
+
+**Attestnummerkolumnerna är lästa och tomma även för dessa tre.** Numren finns
+alltså inte i denna bok och måste hämtas ur avrese- respektive
+ankomstsocknarnas egna flyttningslängder.
+
+Fört som A-7907 i [P-0334](../people/P-0334-axel-edvard-alund.md) och A-7908 i
+[P-0335](../people/P-0335-carl-johan-alund.md).
+
+`Stödda påståenden` utökas med A-7907 och A-7908.

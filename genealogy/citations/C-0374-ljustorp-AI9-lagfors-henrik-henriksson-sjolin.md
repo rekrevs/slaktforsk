@@ -66,3 +66,51 @@ Högersidans egna in- och utflyttningskolumner är tomma för alla tre.
 en av raderna. N-kolumnen för nattvard är tom; märket ska därför inte
 beskrivas som dokumenterad nattvard. Övriga egna årsfält är tomma.
 Bokperioden bevisar inte faktisk närvaro varje år eller dag.
+
+## Tillägg 2026-09-10 — T-0193: citationens två avsnitt om samma rad
+
+Ingen ny arkivåtkomst och ingen ny läsning. Tillägget redovisar **en spänning
+inom denna citation** som inte nått personakten. Båda de tidigare avsnitten är
+append-only och står oförändrade.
+
+**Nils Andreas rad beskrivs två gånger i denna fil, och de två beskrivningarna
+säger olika mycket:**
+
+- **Första avskriften:** `En senare notering anger att han flyttade 1888 till
+  Nya Kyrkoboken; den fortsatta hänvisningen drivs inte vidare i denna
+  breddbatch.`
+- **T-0130:s personbundna fullradsläsning:** `Han har tillagd arbetartitel och
+  anteckningen Inskr.88. Icke konfirm. Inskrivningens typ bestäms inte utan
+  stöd av sammanhang/formulär.` — **`Nya Kyrkoboken` nämns inte.**
+
+**Den sannolikaste förklaringen är att den första avskriften redan tolkade
+`Inskr. 88.` som en överföring till nästa kyrkobok.** `Inskr.` är i tidens
+husförhörslängder en vanlig förkortning för **inskriven i nya kyrkoboken**, och
+T-0130 läste hela raden vid förstoring utan att finna någon ytterligare
+notering.
+
+**Två omständigheter i denna citation stöder den läsningen framför en
+värnpliktsläsning:**
+
+1. **`Högersidans egna in- och utflyttningskolumner är tomma för alla tre`** —
+   hade `Inskr. 88.` avsett en flyttning skulle utflyttningskolumnen ha
+   använts.
+2. **En bokföring i en ny volym är just det slags händelse som antecknas
+   `Inskr.` med årtal**, utan destination.
+
+**Tolkningen avgörs inte här, och T-0130:s reservation står oförändrad.**
+Den är däremot **billigare att pröva** än ett värnpliktsantagande: den prövas i
+Ljustorps efterföljande husförhörs- eller församlingsbok, medan ett
+värnpliktsantagande kräver att förbandet först fastställs.
+
+**Om `Icke konfirm.`** tillförs ingen tolkning här. En vuxen okonfirmerad
+förklaras i husförhörsmaterialet ofta av sjukdom eller förståndshinder, **men
+folkräkningen 1890 för honom som `jordbruksarbetare` och egen familj 1** med
+änkemodern i familj 2 ([C-0373](C-0373-folkrakning-1890-ljustorp-lagfors-margreta-sjolin.md)),
+vilket **försvagar den läsningen.** **Ingen diagnos infereras.**
+
+Fört som A-7912 i [P-0366](../people/P-0366-nils-andreas-henriksson.md), med
+tillförlitlighet `medel` eftersom slutsatsen vilar på hur denna citations
+avsnitt förhåller sig till varandra. **A-4336 skrivs inte om.**
+
+`Stödda påståenden` utökas med A-7912.

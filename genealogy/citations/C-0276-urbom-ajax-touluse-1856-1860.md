@@ -104,3 +104,24 @@ rader i uppslaget, inklusive en fjorton dagar gammal Maria Christina.
 T-0135-tillägget skriver "Båda har v" på ett sätt som ger intryck av en
 individuell uppgift. Tecknet får inte läsas som genomförd vaccination för
 spädbarn.
+
+## Tillägg 2026-09-10 — T-0193: läsfällan är nu förd in i personakten
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften är append-only och står
+oförändrad.
+
+**T-0159 skrev ut fällan i denna fil:** kärnavskriften står kvar med
+`d. Maria Christina | 57 [18] 3/7` och `| 58 [18] 4/5`, medan de riktiga
+datumen **21/3** respektive **20/4** finns i citationens egna T-0135-tillägg.
+**Varningen fanns alltså i citationen men inte i personakterna.**
+
+Den är nu förd som **A-7905** i
+[P-0320](../people/P-0320-maria-christina-urbom-1858.md), tillsammans med
+dopdagen `2/5 1858` ur kolumnen `Döpt`. **Skälet att upprepa den i akten är
+enkelt:** den som slår upp en person läser personakten, och en rättelse som
+bara står i ett citationstillägg är korrekt bevarad men praktiskt osynlig.
+
+**Kärnavskriften ska inte skrivas om.** Den är append-only, och tilläggens
+läsningar gäller.
+
+`Stödda påståenden` utökas med A-7905 (P-0320).

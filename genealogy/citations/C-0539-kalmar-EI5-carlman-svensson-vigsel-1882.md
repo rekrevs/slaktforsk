@@ -40,3 +40,37 @@ skapas.
 ## Stödda påståenden
 
 A-2384–A-2385, A-2388, A-2396.
+
+## Tillägg 2026-09-10 — T-0193: postens två anteckningar är olika, och skillnaden är en uppgift
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften ovan är append-only och
+står oförändrad; tillägget redovisar **hur postens två rader förhåller sig till
+varandra.**
+
+**Anteckningskolumnen ger brudgum och brud olika handlingar:**
+
+- **Brudgummens rad:** `Bouppteckning och arfskifte uppvisadt` — den vanliga
+  ordningen när ett dödsbo skiftas mellan arvingar, här efter Christina
+  Gustafva Ringbergs död 1874.
+- **Brudens rad:** `Testamente uppvisadt, oklandradt.` — **ett förordnande**,
+  och **`oklandradt` betyder att det bevakats vid domstol och att klandertiden
+  löpt ut utan invändning.**
+
+**Det första äktenskapets bo avvecklades alltså genom testamente och inte
+genom arvskifte.** **Ingen slutsats om förmögenhetens storlek, om testator
+eller om innehåll dras** — uppgiften pekar ut en **källfamilj**, nämligen
+domstolens boupptecknings- och inneliggande handlingar, inte ett utfall.
+**Vilken domstol som bevakade testamentet framgår inte av posten.**
+
+**En andra skillnad i samma post styr sökstrategin.** Brudgummens
+`pag. uti husförhörsboken` är **tom**; brudens har **`176`**. Han var skriven i
+Högby, hon i Kalmar — **sidnumret är alltså hennes egen husförhörssida i
+Kalmar 1882**, inte parets. Tillsammans med `N:o 230` pekar det på **ett
+bestämt uppslag i en bestämd bok.**
+
+A-2388 återger brudens anteckning men **ställer den inte mot brudgummens.**
+Skillnaden är förd som A-7911 i
+[P-0357](../people/P-0357-matilda-sofia-svensson-carlman.md); **A-2388 skrivs
+inte om.**
+
+`Stödda påståenden` utökas med A-7911.

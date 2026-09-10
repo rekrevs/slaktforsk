@@ -31,3 +31,21 @@ inflyttningsanteckning.
 ## Stödda påståenden
 
 A-1953.
+
+## Tillägg 2026-09-10 — T-0193: könskolumnernas tre personer är namngivna
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften ovan är append-only och
+står oförändrad.
+
+**Postens `två män och en kvinna` är identifierade person för person.**
+Husförhörssidan [C-0335](C-0335-stode-AI12-abraham-familj-hullsjo.md) visar att
+Hullsjö sida 203 vid utflyttningen 1873 upptog **exakt tre personer**: bonden
+Abram Jönsson, hustrun Stina Cajsa Nordlund och sonen **Jöns Petter**, född
+1872-04-28. **Systrarna föddes först i Sättna.**
+
+**Följden är att flyttningen är en händelse i sonens egen livslinje**, inte
+bara en familjeuppgift. Den är förd som A-7910 i
+[P-0340](../people/P-0340-jons-petter-jonsson.md). **Datumavvikelsen mellan
+Stödes 7 november och Sättnas 6 november bevaras oförändrad.**
+
+`Stödda påståenden` utökas med A-7910.

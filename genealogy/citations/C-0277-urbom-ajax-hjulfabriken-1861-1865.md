@@ -88,3 +88,26 @@ inte 10, trots att `1`+`9` och `1`+`0` är nästan identiska i den handen på
 just detta uppslag. Ingen rättelse behövs. Noteras uttryckligen, eftersom
 felläst dagbråk är det mönster som gett programmet flera felriktade
 nollresultat; här höll läsningen.
+
+## Tillägg 2026-09-10 — T-0193: reservationens omfattning för Frans Ludwig Gotthard
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**Denna citation reserverar uttryckligen månaden, inte hela datumet:**
+`Frans Ludwig Gotthards månad efter 6/ är prövad men reserveras tills
+ytterligare jämförelse; äldre 6/5 behålls som tidigare läsning, inte en ny
+säker normalisering.` **Dagsiffran `6` är alltså läst.**
+
+**Personaktens A-1769 återger reservationen bredare**, som gällande
+`dag/månad`. **A-1769 skrivs inte om**; den smalare läsningen är förd som
+**A-7906** i [P-0321](../people/P-0321-frans-ludwig-gotthard-urbom.md), med
+tillförlitlighet `medel` eftersom den vilar på denna citations formulering och
+inte på en egen omläsning av bilden.
+
+**Skillnaden är praktisk.** Med dagen fast blir sökingången i Husby-Oppundas
+födelsebok 1862 **en dag i tolv möjliga månader** — årgången kan bläddras med
+dagsiffran som filter. Med hela datumet reserverat vore ingången betydligt
+trubbigare.
+
+`Stödda påståenden` utökas med A-7906 (P-0321).
