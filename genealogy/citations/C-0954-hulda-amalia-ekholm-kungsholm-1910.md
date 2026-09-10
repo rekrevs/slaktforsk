@@ -87,3 +87,35 @@ egna personakter som sidopersoner utan vidare påståenden.
 ## Stödda påståenden
 
 A-3580–A-3583 (P-0016), A-3584 (P-0532), A-3585 (P-0533), A-3586 (P-0534).
+
+## Tillägg 2026-09-10 — T-0203: spädbarnets ålder och sökmålet Matteus
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och tolkningen är
+append-only och står oförändrade.
+
+**Folkräkningsbladet upprättades 1910-12-31.**
+**[Ingrid Amalia](../people/P-0534-ingrid-amalia-ekholm.md) var då 10 månader
+och 26 dagar**, räknat mot rotemansarkivets exakta födelsedag **1910-02-05**
+([C-0955](C-0955-ekholm-alund-rotemansarkivet-1899-1913.md)). **Posten tar
+alltså upp henne som spädbarn**, och **åldern har aldrig räknats ut.**
+
+**Tolkningen ovan anger att hon föddes `1910 i Stockholm`.** **Rotemansposten
+preciserar församlingen till `Matteus`.** **Den äldre aktversionen pekade i
+stället ut `Kungsholms födelsebok 1910` som sökmål** — **rimligt eftersom
+familjen bodde i Kungsholm när bladet skrevs, men fel:** **födelseförsamlingen
+är Matteus.**
+
+**Hennes egen födelsepost har aldrig sökts.**
+**[Broderns](../people/P-0533-axel-ivar-ekholm.md) har sökts, i samma
+volymserie, och nollet missade de sex första dagarna efter hans födelse
+därför att bandet började för sent**
+([C-0957](C-0957-matteus-fodelsebok-1907-noll-ekholm.md), A-7988). **För
+hennes sökning gäller därför att bandet måste börja vid födelsedagen
+1910-02-05.**
+
+**Lärdomen är förebyggande** — **den säger ingenting om var hennes post står,
+bara var den kan stå.** **A-3586 skrivs inte om.**
+
+Ägs av [T-0632](../../wotan/dev-log/T-0632.md).
+
+`Stödda påståenden` utökas med A-7989 (P-0534).

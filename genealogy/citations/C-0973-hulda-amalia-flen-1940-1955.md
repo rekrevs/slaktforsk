@@ -153,3 +153,36 @@ utflyttningen 1942-02-12 till det läsosäkra `Jäl. 2` samt fadern `Axel Edvard
 Eriksson, Solliden, Hyltinge` utskriven i klartext.
 
 Stödda påståenden utökas med A-5130–A-5140 (P-0017), som saknades helt.
+
+## Tillägg 2026-09-10 — T-0203: dotterns egen kronologi är räknad
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**Citationens tolkning läser folierna ur moderns synvinkel.**
+**[Ingrid Amalias](../people/P-0534-ingrid-amalia-ekholm.md) egna uppgifter
+har aldrig räknats mot varandra.**
+
+| Punkt | Hennes ålder |
+|---|---|
+| **modern förde de två barnen till Helgesta 1913-09-12** | **3 år 7 månader 7 dagar** |
+| **vigseln 1942-03-02** | **32 år** |
+| **inflyttningen från S:t Göran 1950-01-03** | **39 år** |
+
+**Maken `Allan Gerald Johansson`, född 1899-02-10, var elva år äldre.**
+**Hans exakta födelsedag är den starkaste söknyckeln till paret**, eftersom
+**vigselförsamlingen är okänd och hennes eget namn efter 1942 är
+`Johansson`.**
+
+**Sonen föddes 1940, två år före vigseln.** **Uppgiften förs som kronologi
+utan tillskriven innebörd**, och **integritetsminimering gäller:** **namn och
+födelsedag utelämnas, och ingen ny uppgift om honom hämtas in.**
+
+**Att hon 1950 skrevs på samma folio som modern och brodern fastställer inte
+gemensam lägenhet** — **T-0125:s avgränsning är oförändrad.**
+
+**Vigselnotisen är oläst.** **A-3644 skrivs inte om.**
+
+Ägs av [T-0632](../../wotan/dev-log/T-0632.md).
+
+`Stödda påståenden` utökas med A-7989 (P-0534).
