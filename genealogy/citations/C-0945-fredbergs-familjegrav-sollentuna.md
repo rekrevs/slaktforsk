@@ -119,3 +119,51 @@ trots att senare tillägg upphäver dem:
 
 Originalavskriften och de äldre lydelserna bevaras oförändrade ovan; de får
 inte läsas som gällande slutsatser.
+
+## Tillägg 2026-09-10 — T-0195: en frånvaro i uppräkningen
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**Graven rymmer elva Fredbergar. Modern är inte en av dem.**
+
+Uppräkningen upptar fadern **Olaus**, hans son **Johannes** och dotter
+**Frida Elisabet** ur första giftet, **samtliga fem barn ur andra giftet** —
+Augusta, Ester, Edit, Oscar och Elvira — samt tre ur följande generationer.
+**[Johanna Charlotta Jansson](../people/P-0397-johanna-charlotta-jansson.md),
+Olaus andra hustru och de fem barnens mor, saknas.**
+
+**Uppgiften hade aldrig nått hennes akt**, trots att **denna citation är förd
+i alla fem barnens akter och i faderns.**
+
+**Frånvaron är en iakttagelse och inget belägg, av tre skäl:**
+
+1. **Gravens tidigaste gravsättning är Olaus 1925.** Hade hon dött före det
+   året skulle hon under alla omständigheter ha begravts någon annanstans.
+2. **Ett gravregister förtecknar bara dem som faktiskt gravsatts**, och
+   frånvaro kan ha administrativa skäl.
+3. **Citationens egen avstämning 2026-09-07 slår fast** att en gemensam grav
+   är en **korrelationsuppgift** och **inte ensam bevisning för varje
+   släktled.**
+
+**Men den hör till en öppen fråga.** Olaus dödpost 1925 för honom i kategorin
+**`Änkling eller frånskild`**
+([C-0475](C-0475-sollentuna-FI7-olaus-fredberg-dod-1925.md)), **och kategorin
+skiljer inte död från skilsmässa.** Äktenskapet upphörde mellan **1910** och
+**1925.** **Frånvaron i graven är förenlig med båda utgångarna.**
+
+**En andra iakttagelse ur samma uppräkning.** De fem barnens exakta
+födelsedatum ger **sju år mellan det fjärde (1895-10-16) och det femte
+(1902-11-28)**, mot **femton till tjugoåtta månader** mellan de fyra första.
+**Ingen orsak antas**, och **mellanliggande späda dödsfall skulle inte synas i
+någon läst källa.**
+
+**En namnbruksiakttagelse gäller de tre systrarna.** Registret **visar att det
+kan ange en gift kvinnas flicknamn** — `Fredberg, Göta Christina F Dahlgren`
+är en kvinna som gift sig in i familjen. **Systrarna står enbart som
+`Fredberg` med sina dopnamn.** **Det är en svag indikation och inget mer:**
+ett gravregister för en familjegrav skulle inte nödvändigtvis visa ett gift
+efternamn för en dotter som gift sig ut. **Ingen slutsats om civilstånd dras.**
+
+`Stödda påståenden` utökas med A-7924 (P-0397), A-7925 (P-0489), A-7926
+(P-0490), A-7927 (P-0492) och A-7928 (P-0493).

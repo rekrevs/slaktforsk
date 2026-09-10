@@ -68,3 +68,35 @@ Rutan för sjukdom eller dödsorsak är tom. De11 dagarna kan jämföras med
 födelsedagen, men kan vara beräknade från samma kyrkoboksuppgift och
 är inte ett självständigt födelsebelägg. Ingen sjukdom hos tvillingarna
 eller modern kan utläsas ur den tomma rutan.
+
+## Tillägg 2026-09-10 — T-0195: åldersuppgiften är räknad, och räknesättet är lokalt
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och T-0130:s tillägg är
+append-only och står oförändrade.
+
+**Dödsposten anger `11 dagar`.** Från **20 februari till 2 mars 1856** har det
+förflutit **11 dagar** — **1856 var skottår och februari hade 29 dagar.**
+**Ljustorps präst räknade alltså exakt det förflutna intervallet.**
+
+**I Indal gjorde man inte det.** T-0194 fann att **två dödsposter för
+Dahlstenbarnen 1841 och 1843** anger **en dag mindre** än det förflutna
+intervallet, och använde den konsekvensen för att stödja en omläsning av ett
+födelsedatum ([C-0438](C-0438-indal-C4-dahlsten-barn-doda-1841-1843.md)).
+
+**Följden är en metodgräns, inte en motsägelse.** **Åldersräkning är ett
+lokalt bruk.** En jämförelse mellan åldersuppgifter är därför giltig **bara
+inom en och samma församling.** **Denna post bekräftar inte Indals bruk — den
+visar att någon generell regel inte finns**, och **validerar därmed T-0194:s
+avgränsning i stället för dess resultat.**
+
+**Citationens egen reservation står oförändrad:** de elva dagarna **kan vara
+beräknade från samma kyrkoboksuppgift** och är **inte ett självständigt
+födelsebelägg.** **Räkningen mäter prästens aritmetik, inte barnets ålder.**
+
+Fört som A-7923 i
+[P-0394](../people/P-0394-martha-brita-henriksson.md), tillsammans med
+**faddergruppens omfång — tolv personer i sex led, den bredaste programmet
+mött** — och **dödspostens identifiering av henne genom fadern i stället för
+genom hennes eget andranamn.**
+
+`Stödda påståenden` utökas med A-7923.

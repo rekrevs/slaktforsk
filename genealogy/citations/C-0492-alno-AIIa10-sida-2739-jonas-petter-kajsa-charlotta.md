@@ -48,3 +48,40 @@ Den redan bevarade helbilden `00173756_00220` har återlästs med rubriker och b
 | Sonfamiljens hänvisningar | Från `G.B. 1471`, senare till sida `2574`, år `16[?]`. En svag not ovan sonens rad läses `Ej å Mant. 14[?]`; både råtecken och tillämpningsår reserveras. Den ger ingen motsvarande mantalsuppgift om modern. |
 
 G.B. 1471 är en konkret ny bokväg, inte en ännu oläst kolumn på den nu fullprövade bilden. Återkommande födelseuppgifter kan ha överförts mellan kyrkoböcker. De gör inte den separata födelsekandidaten i C-0146 identisk med modern utan en familjebrygga.
+
+## Tillägg 2026-09-10 — T-0195: sonhustruns ortdito och barnradens elvaårslucka
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och T-0142:s
+fullpostprövning är append-only och står oförändrade.
+
+**Sonhustruns födelseort står genom dito, precis som barnens ortceller är
+tomma.** T-0142 skriver `Matilda Johanna Green, 60 30/5, Sävar genom ortdito`
+och skiljer uttryckligen barnens **tomma** ortceller från `ett säkert upprepat
+Sävar`. **Samma skillnad gäller hennes egen rad:** dittot går från makens rad,
+och **han är född i samma socken.** **Att båda makarna kom från Sävar är
+därför en bokuppgift och inte två oberoende belägg.**
+
+**Barnradens intervall är räknade och registrerade.**
+
+| Händelse | Datum | Intervall |
+|---|---|---|
+| vigsel | 1887-07-17 | — |
+| Johan Almer Betuel | 1888-05-29 | **10 månader** |
+| Alva Matilda Agensia | 1891-03-19 | **34 månader** |
+| Anna Adelia | 1902-06-19 | **elva år och tre månader** |
+
+**Elva år mellan det andra och det tredje barnet.** **Ingen orsak antas.**
+**De tre lästa källorna kan inte besvara frågan:** folkräkningarna 1890 och
+1910 är stickprov tjugo år isär, och denna bok är en sen hushållsbok.
+**Mellanliggande späda dödsfall skulle inte synas i någon av dem.**
+
+**Citationens övriga avgränsningar gäller oförändrat.** De tre hushållen är
+**skilda observationer**, inte en obruten levnadskedja; **`G.B. 1471` är en
+konkret bokväg och inte en oläst kolumn**; och **noten `Ej å Mant. 14[?]` är
+reserverad i både råtecken och tillämpningsår.** **Sida 2574 ägs av
+[T-0332](../../wotan/dev-log/T-0332.md).**
+
+Fört som A-7929 i
+[P-0398](../people/P-0398-matilda-johanna-green.md). **A-2279 skrivs inte om.**
+
+`Stödda påståenden` utökas med A-7929.

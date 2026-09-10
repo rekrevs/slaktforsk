@@ -50,3 +50,48 @@ Detta har inte vägts in i P-0376:s ursprungsfråga. Iakttagelsen registreras
 här som fråga; ingen läsning väljs bort och ingen identitet ändras.
 
 Kommer ur konsolideringen av P-0316 i T-0158.
+
+## Tillägg 2026-09-10 — T-0195: moderns åldersserie är räknad
+
+Ingen ny arkivåtkomst och ingen ny läsning. Tillägget **räknar den serie
+T-0158-tillägget ovan registrerade som ett `obeaktat argument`.** Avskriften
+och de tidigare tilläggen är append-only och står oförändrade.
+
+| Barnets födelse | Uppgiven moderålder | Ger moderns födelse inom |
+|---|---|---|
+| 1834-03-21 | **27** | 1806-03-22 – 1807-03-21 |
+| 1836-07-05 | **29** | 1806-07-06 – 1807-07-05 |
+| 1844-08-22 | **39** | 1804-08-23 – 1805-08-22 |
+| **1847-12-11** | **47** | 1800-12-12 – 1801-12-11 |
+
+**De två tidiga intervallen överlappar**, och överlappet
+**1806-07-06 – 1807-03-21** **innehåller den antagna dagen 1807-01-12.**
+
+**De två sena överlappar varken varandra eller de tidiga** — de ligger tre
+till fyra år isär.
+
+**Slutsatsen är negativ på ett användbart sätt.** Om båda de sena siffrorna
+vore riktiga skulle de peka på **två olika födelseår.** **Minst en av dem
+måste alltså vara fel oavsett moderns verkliga födelseår**, och **serien kan
+därför inte bära ett konkurrerande år.** Den kan bara visa att de sena
+posternas åldersuppgifter är opålitliga — vilket **stärker** de två tidiga.
+
+**En iakttagelse registreras utan slutsats.** Fadern **Anders Dahlsten föddes
+1800-10-22** och var **exakt 47 år** den 11 december 1847. **Siffran
+sammanfaller med hans fyllda ålder.** **Det förklarar ingenting:**
+födelseböcker anger normalt moderns ålder, **och samma förklaring fungerar
+inte på 1844 års `39`**, där fadern var 43 och modern 37. **Att en mekanism
+inte kan täcka båda posterna utesluter den enklaste räddningen av serien.**
+
+**Ingen läsning väljs bort och ingen identitet ändras.** **Frågan om moderns
+verkliga födelseår ägs av
+[P-0376](../people/P-0376-anna-cajsa-larsdotter.md)s akt**, och räkningen är
+anmäld dit.
+
+**Fadderfältet är också nu taget i bruk.** T-0134:s avskrift av de sex
+faddrarna i tre led är förd som A-7922 i
+[P-0382](../people/P-0382-erik-son-till-anders-dahlsten.md). **Citationens
+gräns står oförändrad:** `Sara Märtas gemensamma efternamn är en
+nätverksnyckel men bevisar inte hennes släktskap med Anders.`
+
+`Stödda påståenden` utökas med A-7922.
