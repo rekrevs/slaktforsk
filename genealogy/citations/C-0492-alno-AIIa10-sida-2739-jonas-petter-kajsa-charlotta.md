@@ -85,3 +85,37 @@ Fört som A-7929 i
 [P-0398](../people/P-0398-matilda-johanna-green.md). **A-2279 skrivs inte om.**
 
 `Stödda påståenden` utökas med A-7929.
+
+## Tillägg 2026-09-10 — T-0196: barnens uppgifter är två halvor, inte två belägg
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**T-0142 skrev redan ut att barnens egna födelseortsceller är tomma** och att
+Alnö framgår genom `här` i folkräkningsutdragen. **Följden är nu förd i de tre
+barnakterna:**
+
+**Denna bok ger det fullständiga datumet men inte orten; folkräkningen ger
+orten men inte dagen.** **De två är alltså två halvor och inte två oberoende
+fullständiga födelsebelägg**, och det gäller
+[P-0399](../people/P-0399-johan-almer-betuel.md),
+[P-0400](../people/P-0400-alva-matilda-agensia.md) och
+[P-0401](../people/P-0401-anna-adelia.md) lika.
+
+**Två personbundna uppgifter på äldsta sonens rad är också nu förda i hans
+akt:** titeln **`Handelsbitr.`** och inskrivningsnumret **`284 66/09`**, med
+citationens gräns oförändrad — **numret bevisar inte i sig genomförd
+tjänstgöring.** **Titeln placerar honom i faderns bransch**, eftersom fadern
+förs som handelsföreståndare på samma sida.
+
+**En namnkonflikt bevaras:** originalsidan skriver **`Betuel`**,
+folkräkningsregistret **`Betnel`.** **Originalets läsning gäller**, men
+**registret är det sökbara**, och båda formerna måste tålas.
+
+**Farmodern [P-0059](../people/P-0059-cajsa-lotta-jonsdotter.md) är nu införd
+i de tre barnakternas relationstabeller.** Hon står i samma hushåll i alla
+lästa källor men saknades där, **och hennes eget familjenummer 1910 är
+utskrivet.**
+
+`Stödda påståenden` utökas med A-7930 (P-0399), A-7931 (P-0400) och A-7932
+(P-0401).

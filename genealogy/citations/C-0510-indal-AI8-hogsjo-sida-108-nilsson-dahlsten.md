@@ -82,3 +82,66 @@ Deras förhörs-/nattvardsfält är personbundna och har markeringar under 1855�
 Son Lars Petter står född 1836-12-27 i Indal, med gift 1858-02-21. Hans hustru Cajsa Märta Dahlsten uppges född 1834-03-21 i Indal och dottern Lisa Cajsa 1858-04-02 där. Kunskapsbetyg och kopptecken finns på vuxenraderna; Lisa Cajsas sådana fält är tomma. Den unga familjens nattvardsanteckningar når 22/8 under 1858 för de vuxna. Deras 225 i Hvarifrån och bleka utflyttningsord med 1858 gäller dem, inte Nils och hans hustru. Dessa nycklar behandlas med den tidigare prövade ortreservationen i C-1018; ingen säker destination konstrueras.
 
 Sidhuvudet anger Högsjö N:o 1 med mantalsbeteckning och äldre nummer. Rubrikens mantal överförs inte automatiskt till Nils som ägarandel; någon jordöverlåtelse eller nettoförmögenhet finns inte i posten. Förändringen torpman 1836–bonde i denna bok visar två titlar, inte i sig en fastställd ekonomisk eller social uppgång. Fullbilden finns med tidigare angiven hash och täcker alla relevanta egna fält.
+
+## Tillägg 2026-09-10 — T-0196: fyrtio dagar, ett andra flyttfönster och en kandidat till det oläsliga ordet
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+### Vigsel och födelse i samma post, fyrtio dagar isär
+
+**Faderns rad bär äktenskapskolumnen `58 21/2` och dotterns rad födelsen
+`1858 2/4`.** **Båda har varit avskrivna sedan volymen lästes; de har aldrig
+ställts mot varandra.** **Fyrtio dagar skiljer dem.**
+
+**Posten skriver dottern inte som oäkta** — föräldrarna var gifta vid
+nedkomsten — **och ingen värdering görs.** Fört som A-7934 i
+[P-0406](../people/P-0406-lisa-cajsa-larsdotter.md).
+
+### Familjens flyttfönster är två, inte ett
+
+[P-0316](../people/P-0316-cajsa-marta-andersdotter.md)s A-5860 räknar
+familjens **återkomst** till Indal ur barnens födelsesocknar — Sättna 1862 och
+1865, Indal 1872 och framåt — och får fönstret **1865-11-28 till 1872-01-06.**
+
+**Men serien börjar med Lisa Cajsa, och hon föddes i Indal 1858**, med
+ortdito i denna post. **Familjen var alltså i Indal april 1858 och i Sättna
+juni 1862** — **ett andra fönster, för utflyttningen, som A-5860 inte
+omfattar.** **A-5860 skrivs inte om**; följden är anmäld till hennes ägande
+uppgift.
+
+### `Sättna` är en kandidat till `Hvarthän`-cellens oläsliga ord
+
+Kompletteringen 2026-09-07 ger i **`Hvarthän`** ett **blekt ortord med
+`1858`** mot den unga familjens rader, och slår fast att **ordet inte
+normaliseras.**
+
+**Två oberoende skäl gör `Sättna` till en prövbar kandidat:**
+
+1. **Familjens nästa dokumenterade ort är Sättna senast 1862-06-15**, enligt
+   [C-0274](C-0274-anders-niklas-fodd-1862-sattna.md).
+2. **Hushållets egen andra hustru, `Lisa Stina Jonsd:r`, är född i Sättna
+   1807** enligt samma post.
+
+**Det bevisar ingenting.** **Ordet är oläsligt, inte oläst**; **en
+tvåstegsflytt är inte utesluten**; **en styvmors födelsesocken är inget bevis
+för vart en styvson flyttade**; och **citationens gräns `ingen säker
+flyttdestination` står oförändrad.** **Kandidaten får pröva bokstavsformerna,
+inte styra dem.**
+
+### Två avgränsningar som upprepas
+
+- **`Hvarifrån 225` gäller inflyttningen**, inte utflyttningen. De två
+  kolumnerna får inte blandas ihop.
+- **Giftårscellen `44[?]`/`34` står på makens rad**; **hustruns egen är tom**,
+  och **ingen dödsgräns för den första hustrun får räknas fram ur den.**
+
+### Ett filnamn som bevarar en avförd läsning
+
+**T-0136 rättade `Christina Jonsdotter` till `Lisa Stina Jonsd:r`**, bekräftat
+av två läsare. **Aktens rubrik följde rättelsen; filnamnet gjorde det inte** —
+[P-0405](../people/P-0405-christina-jonsdotter.md) heter fortfarande
+`christina-jonsdotter`. **Förhållandet är fört som A-7933**, och **inget byte
+görs.**
+
+`Stödda påståenden` utökas med A-7933 (P-0405) och A-7934 (P-0406).
