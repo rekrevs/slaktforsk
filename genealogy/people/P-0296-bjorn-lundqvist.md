@@ -7,7 +7,7 @@
 - Källbredd: `PÅGÅR` — identitetsnivån är prövad; livsbildens källstrategi är
   öppen och beroende av att levandestatusen först avgörs.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0296](../research-profiles/P-0296.md) — individuell
   granskning 2026-09-08, T-0151.
@@ -276,3 +276,17 @@ källbrist: `Vad källorna däremot inte ger är hans födelsedatum`. Hushållsb
 egna datumkolumner bär datumet; det är medvetet inte utvunnet eftersom han är
 sannolikt levande. Formuleringen är rättad så att gränsen syns som regelgrundad.
 Den äldre lydelsen bevaras här.
+
+#### Trädverkan rättad 2026-09-10, T-0194
+
+Fältet stod `BÄRANDE`. **Det är rättat till `EJ BÄRANDE`.** Aktens egen text säger `sidoperson i förhållande till projektets anlinjer; ingen antavla passerar honom`.
+**Fältet motsade alltså aktens egen slutsats.**
+
+`Trädverkan` besvarar frågan *får antavlan passera denna person?* och **mäter
+inte hur väl identiteten är belagd**; `Identitetsgranskning` står oförändrad.
+**Ingen assertion är omskriven**, och akten i övrigt är oförändrad.
+
+Rättelsen gjordes i en systematisk avstämning inom T-0194, som fann **tre
+akter** där fältet `BÄRANDE` stod tillsammans med en utskriven mening om att
+ingen anlinje passerar personen. **T-0151 är DONE**, så iakttagelsen förs här
+i stället för till en öppen uppgift.

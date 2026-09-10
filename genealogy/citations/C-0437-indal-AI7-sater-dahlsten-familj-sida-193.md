@@ -69,3 +69,32 @@ Båda makarnas hela relevanta rader och familjens barnrader är prövade i det b
 På bådas rader: koppor `v`, grafiska kunskapsmärken; egna Frejd-, Äktenskaps-, Hvarifrån-, Hvarthän- och anmärkningsfält är tomma. Årsrutornas förhörsmärken och nattvardsdatum är prövade: 1847 Anders `25/7[?]`, Stina `28/3[?]`; 1848 båda `2/4`; 1849 `1/4`; 1850 `9/6`; 1851 grafiskt förhörsmärke utan nattvardsdatum; 1852 `21/3`; 1853 Anders `6/3` och `6/4[?]`, Stina `6/3` och `6/11`; 1854 båda `2/7`. Svaga råtecken lämnas reserverade utan att göras till oprövad fullpostskuld. Det finns ingen egen utflyttnings- eller dödsanteckning som hittills hållits undan i avskriften.
 
 Sidhuvud **Säther nr 1, 4⅞ mtl** är fastighetens bokföringsrubrik, inte makarnas individuella andel. Lars Johans 5 juli avviker från egenpostens född 3/döpt 5 juli i C-0435. Den yngre Anders Olofs hushållsmånad reserveras mot äldre aprilläsning; egenposten anger 22 augusti 1844 enligt C-0439. Erik föddes 11 december 1847 enligt C-0440. Den kända gruppen omfattar fem barn på denna sida och sju olika barn tillsammans med A I/6; det är inte ett bevis för att familjen aldrig hade fler barn.
+
+## Tillägg 2026-09-10 — T-0194: månadskonflikten gäller också denna sida
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften ovan är append-only och
+står oförändrad.
+
+**Denna sida återger den senare Anders Olofs födelse som `1844-04-22`, utan
+någon reservation.** **Det är en avvikelse mot hans egen födelsepost**, som i
+[C-0439](C-0439-indal-C4-anders-olof-dahlsten-fodd-1844.md) läses **22 augusti
+1844** med årsrubrik `1844` och månadsrubrik `Aug.` över den egna raden,
+oberoende bekräftat av två läsare inom T-0134.
+
+**Följden för hur konflikten ska beskrivas.** Akten
+[P-0381](../people/P-0381-anders-olof-son-fodd-1844.md) sade att
+`hushållsbokens månad är svårläst`. **Det gäller `A I/6`**, där C-0436:s
+T-0134-tillägg uttryckligen skriver att månaden är svårläst.
+**Denna sida är däremot inte beskriven som svårläst** — **två
+husförhörsvolymer ger alltså april, och bara den ena är märkt som osäker.**
+
+**Den egna födelseposten avgör fortfarande**, som originalhandling.
+**Men konflikten är en verklig avvikelse mellan ett original och två
+avskrifter, inte bara en svårläst siffra**, och den beskrivs nu så i akten.
+
+**Denna sida bär också en uppgift de övriga saknar:** **kolumnen
+`Födelse-ort` med `Indal`.** `A I/6` saknar den kolumnen helt, vilket C-1012
+påpekar. **Anders Olof är därmed det enda av barnen vars födelseort står i en
+läst ortkolumn** i stället för som hushållsslutsats.
+
+Fört som A-7921 i P-0381. `Stödda påståenden` utökas med A-7921.

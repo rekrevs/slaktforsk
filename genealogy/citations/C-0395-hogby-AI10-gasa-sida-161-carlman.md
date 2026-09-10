@@ -77,3 +77,26 @@ Det är inte ett bevisat livstotal. Raden är slututvunnen och behöver inte lä
 i T-0230.
 
 Berörda påståenden: A-5623–A-5626 (P-0310) och A-5630–A-5633 (P-0311).
+
+## Tillägg 2026-09-10 — T-0194: rad 9 är nu använd i ett syskons akt
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och `Familjetolkning`
+är append-only och står oförändrade.
+
+**T-0156:s slututvinning av rad 9 — `S. Sigfrid Konstantin`, född 1874-02-06,
+död 1874-03-05 — är nu förd i ett syskons akt.**
+[P-0368 Oskar Mauritz Adelbert](../people/P-0368-oskar-mauritz-adelbert-carlman.md)
+var **tjugoen månader gammal** när modern dog **1874-03-30**, tjugofem dagar
+efter denne yngre bror. **Det är hans barndoms bestämmande omständighet**, och
+den saknades i hans akt.
+
+**Källornas egen avgränsning står oförändrad:** dödboken anger
+`Bröst Katharr` för barnet och `Nervfeber` för modern
+([C-0396](C-0396-hogby-F1-kristina-ringberg-dod-1874.md)), och **något
+orsakssamband mellan de två dödsfallen är uttryckligen inte belagt.**
+
+**`Sigfrid Konstantin` har fortfarande inget P-id.** Registreringen ägs av
+[T-0230](../../wotan/dev-log/T-0230.md) och görs inte här; **han förs i
+P-0368:s relationstabell utan id, med citationen som belägg.**
+
+Fört som A-7914 i P-0368. `Stödda påståenden` utökas med A-7914.

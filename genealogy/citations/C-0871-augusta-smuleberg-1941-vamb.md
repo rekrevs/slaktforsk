@@ -127,3 +127,39 @@ Fullbilderna 00081278_00100 och 00081309_00091 saknas fortfarande;
 bevarade skärmbilder tillgodoräknas men ersätter inte fullkopior.
 C-0874 och C-0962 har senare tillfört mottagarpost respektive dödsdag;
 den äldre textens olösta dödstid är inte aktuellt kunskapsläge.
+
+## Tillägg 2026-09-10 — T-0194: familjegruppens fyra akter är konsoliderade
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften ovan är append-only och
+står oförändrad.
+
+**Familjegruppen på sida 86 bär nu fyra konsoliderade akter:**
+[P-0373 Gustaf Tobias](../people/P-0373-gustaf-tobias-lundkvist.md),
+[P-0374 Lars Olof](../people/P-0374-lars-olof-lundkvist.md) och
+[P-0528 Barbro Margareta](../people/P-0528-barbro-margareta-lundkvist.md) i
+T-0194, samt [P-0297](../people/P-0297-birgitta-drake-af-hagelsrum.md) i
+T-0192.
+
+**Två gränser är utskrivna i akterna och gäller denna citation.**
+
+1. **Familjegruppen är återgiven i sammandrag, inte kolumnredovisad.**
+   Barnradernas och faderns egna kolumner för yrke, flyttningar och
+   anteckningar är **olästa, inte tomma.** Skillnaden är förd i P-0373 och
+   spärrad som söknyckel.
+2. **Två av barnakterna är integritetsminimerade** — P-0374, född 1928, och
+   P-0528, född efter 1930. **Deras egna rader kolumnredovisas därför inte**,
+   **trots att sidan är åtkomlig.** **Vägen är stängd av dataminimering, inte
+   av källäge**, och det skrivs ut i båda profilerna.
+
+**En undre gräns för P-0528 kommer från en annan källa.** Hon saknas i
+folkräkningen 1930 ([C-0417](C-0417-folkrakning-1930-augusta-alva-smuleberg.md)),
+som förtecknar **hela hushållet**. **Frånvaron är därför en läst nolla och ger
+en undre gräns: hon föddes efter 1930.**
+
+**Efternamnsformen skiljer sig mellan de två källorna.** Denna bok skriver
+`Lundqvist`; folkräkningen 1930 skriver `Lundkvist`. **Båda är källformer och
+ingen väljs som den riktiga** — men **projektets egna aktnamn bär båda
+formerna inom samma familj**, vilket är en fälla vid intern sökning.
+
+`Stödda påståenden` utökas med A-7916 (P-0373), A-7917 (P-0374) och A-7918
+(P-0528).
