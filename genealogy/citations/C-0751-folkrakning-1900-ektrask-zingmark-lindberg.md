@@ -60,3 +60,59 @@ bildpunkter bred. Det befintliga IIIF-manifestet bevaras under S-0005.
 
 A-2927–A-2928 och A-2938–A-2946.
 
+
+## Tillägg 2026-09-10 — T-0198: fyra källägen, en räknad serie och en namnkollision
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften är append-only och står
+oförändrad. Tillägget sammanställer vad citationen redan innehåller.
+
+**Fyra källägen förs som en samlad gräns i stället för att stå spridda.**
+
+1. **Hushållet är läsbart bara över sidgränsen.** Klammern börjar nedtill på
+   **sida 77** med föräldrarna och fyra barn och fortsätter överst på **sida
+   78** med fyra barn och `svärfar`. **Ingen av bilderna visar hushållet
+   ensam.**
+2. **Bildernas 800 bildpunkter är `Riksarkivets högsta erbjudna upplösning`.**
+   **Det är ett tak, inte en obehandlad lucka:** **ingen omläsning av just
+   dessa två bilder kan ge mer**, och **varje förbättring kräver en annan
+   källa.** Söknyckeln `omläsning i högre upplösning` är därmed spärrad.
+3. **Barnraderna saknar efternamn**, och **inga konstrueras.** Söknyckeln
+   `Zingmark` som barnens efternamn spärras uttryckligen, eftersom **moderns
+   efternamn står utskrivet på hennes egen rad** och **kan förleda en läsare
+   att överföra det.**
+4. **Faderns egen härkomst är helt outforskad.** **Åtta barns härkomst är
+   därmed halvt känd.**
+
+**Barnens födelseår är nu räknade.** De åtta åren **1881, 1884, 1887, 1889,
+1891, 1894, 1896 och 1899** ger intervallen **3, 3, 2, 2, 3, 2 och 3 år** —
+**aldrig mer än tre.** Serien förs som **kontrollfall** åt T-0195:s
+iakttagelse av ett **sjuårigt hopp** i Fredbergsfamiljen
+([C-0945](C-0945-fredbergs-familjegrav-sollentuna.md)). **Gränserna är
+utskrivna i A-7949:** två familjer i skilda socknar och årtionden, med skilda
+mödrar och mödraåldrar; **ett kontrollfall är ingen norm, och två serier gör
+ingen statistik.**
+
+**Barnens namn är ställda mot moderns syskonskara.** **Sju av åtta bär namn ur
+Zingmarksläkten**, och **två bär exakta namnpar med hennes egna syskon** —
+`Per August`, född 1858-10-26, och `Olof Konrad`, född 1878-09-20. **Den
+bärande iakttagelsen gäller den senare:** halvbrodern föddes **tre år efter
+att modern lämnade Sävar 1875-10-15.** **Tre gränser är utskrivna i A-7947**,
+varav den tyngsta är att **faderns sida aldrig sökts och matchningen därför
+saknar kontroll.**
+
+**En namnkollision är belagd inom socknen.** **Två personer med namnparet
+`Olof Konrad` står i Degerfors 1900:** denna posts son **född 1891 i Ekträsk,
+utan efternamn**, och **[P-0433](../people/P-0433-olof-konrad-zingmark.md)
+Olof Konrad Zingmark, född 1878-09-20, sågverksarbetare i Rosinedahl** enligt
+[C-0573](C-0573-folkrakning-1900-degerfors-rosinedal-zingmark.md)**.** **De är
+morbror och systerson.** **Risken är asymmetrisk:** morbroderns identitet i
+inflyttningslängden säkras av det fullständiga namnet just därför att
+längdens födelsekolumn är tom, medan **denna posts person saknar efternamn
+alls.** **Endast födelseåret skiljer dem.**
+
+**Slutligen noteras** att `Sara Josefina Olofsdotter, född 1881` **står som
+egen familj i samma hushåll utan angiven relation och utan personakt**, och
+att **hon är jämnårig med den äldste sonen.** **Ingen slutsats dras.**
+
+`Stödda påståenden` utökas med A-7946 och A-7947 (P-0437), A-7948 och A-7949
+(P-0480) samt A-7950–A-7955 (P-0481–P-0486).

@@ -150,3 +150,44 @@ innebörd.** Och **`Mannens i förra giftet` mot `Begges barn` är källans egen
 åtskillnad mellan de två kullarna**, inte projektets tolkning.
 
 `Stödda påståenden` utökas med A-7942, A-7944 och A-7945.
+
+## Tillägg 2026-09-10 — T-0198: hushållstabellen som namnregister
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**Tabellen har använts som ett register över barn.** Den är också **ett
+register över namn**, och **i den egenskapen är den nu ställd mot en annan
+familj.**
+
+**[Maria Elina Zingmarks](../people/P-0437-maria-elina-zingmark.md) åtta barn,
+födda i Degerfors 1881–1899**, bär **sju namnled som återfinns i denna tabell
+eller i C-0562.** **Två är exakta namnpar:**
+
+| Barnet i Degerfors | Motsvarighet i denna tabell |
+|---|---|
+| `Per August` 1889 | **rad 3, `Per August`, `1858 26/10`** — helbror till modern |
+| `Olof Konrad` 1891 | **rad 10, `Olof Konrad`, `1878 20/9`** — halvbror |
+
+**Den andra bär en slutsats som den första inte gör.** **Modern flyttade till
+Degerfors 1875-10-15.** **Rad 10:s pojke föddes tre år senare.** **Namnet kan
+hon inte ha haft med sig vid flytten**, och **valet 1891 förutsätter fortsatt
+kontakt med familjen under 1880-talet** — **ett årtionde för vilket ingen
+handling placerar dem tillsammans.**
+
+**Rad 3:s pojke föddes däremot två år efter modern**, i hennes eget
+föräldraäktenskap. **Hon växte upp med honom.** **Det namnparet kräver
+ingenting.**
+
+**Tre gränser gäller hela iakttagelsen och står i A-7947.** **Kontrollen
+saknas:** barnens faders härkomst är helt outforskad, och **matchningarna
+hittades genom att bara denna sida söktes.** **`Olof` och `Konrad` var
+vanliga namn.** Och **[P-0028](../people/P-0028-johan-oskar-zingmark.md) fanns
+i Degerfors från 1880** — **en fullt tillräcklig kanal**, eftersom
+iakttagelsen kräver kontakt med familjen och **inte med Sävar.**
+
+**Etiketterna `Mannens i förra giftet` och `Begges barn` bär hela
+åtskillnaden** mellan de två fallen och **är källans egen**, inte projektets.
+
+`Stödda påståenden` utökas med A-7947 (P-0437) och A-7950–A-7955
+(P-0481–P-0486).

@@ -167,3 +167,34 @@ efternamn för en dotter som gift sig ut. **Ingen slutsats om civilstånd dras.*
 
 `Stödda påståenden` utökas med A-7924 (P-0397), A-7925 (P-0489), A-7926
 (P-0490), A-7927 (P-0492) och A-7928 (P-0493).
+
+## Tillägg 2026-09-10 — T-0198: ett kontrollfall till det sjuåriga hoppet
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**T-0195:s tillägg ovan registrerade ett sjuårigt mellanrum** mellan det fjärde
+barnets födelse **1895-10-16** och det femtes **1902-11-28**, mot **femton till
+tjugoåtta månader** mellan de fyra första, och **antog ingen orsak.**
+
+**Ett kontrollfall ur samma programmaterial är nu räknat.** I
+[C-0751](C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md) står **åtta
+syskon födda 1881, 1884, 1887, 1889, 1891, 1894, 1896 och 1899** i ett hushåll
+i Ekträsk, Degerfors. **Intervallen är 3, 3, 2, 2, 3, 2 och 3 år** — **aldrig
+mer än tre.**
+
+**Fredbergshoppet är alltså mer än dubbelt så långt som den obrutna seriens
+största intervall.** **Iakttagelsen stärker att hoppet är en verklig avvikelse
+och inte normal spridning.** **Den förklarar det inte.**
+
+**Fyra förbehåll gäller.** **Två familjer i skilda socknar och årtionden**
+jämförs, med **skilda mödrar och skilda mödraåldrar** — Lindbergs mor var **25
+vid det första barnet och 43 vid det sista.** **Ett kontrollfall är ingen
+norm**, och **två serier gör ingen statistik.** **Mellanliggande späda dödsfall
+skulle inte synas i någondera källan**, vilket **gäller båda familjerna lika**
+och **är just den möjlighet T-0195 lämnade öppen.**
+
+Fört som A-7949 i
+[P-0480](../people/P-0480-erik-august-lindberg.md).
+
+`Stödda påståenden` utökas med A-7949.

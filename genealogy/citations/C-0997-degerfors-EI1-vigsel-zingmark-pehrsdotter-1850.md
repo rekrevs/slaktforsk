@@ -146,3 +146,38 @@ Zingmark`; tätskriften före kan vara `ä[ldste?]`. Det är inte ett
 säkert påstående om födelseordning. Den äldre avskriften `h:o till`
 återtas som relationsläsning. Tecknen efter `Till Nykyrkan` förblir
 olösta även efter andraläsningen, utan säkert 1853.
+
+## Tillägg 2026-09-10 — T-0198: vigselns ort är familjens äldsta Degerforsband
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**Att vigseln stod i Degerfors har använts som en uppgift om brudparet. Den är
+också en uppgift om deras barn.**
+
+**Fyra av familjens medlemmar flyttade senare till Degerfors:**
+
+| Person | Till Degerfors |
+|---|---|
+| dottern [Maria Elina](../people/P-0437-maria-elina-zingmark.md) | **1875-10-15** |
+| sonen [Johan Oskar](../people/P-0028-johan-oskar-zingmark.md) | **1880-10-07** |
+| brudgummen själv, **som änkling** | **1898-11-28** |
+| sonen [Olof Konrad](../people/P-0433-olof-konrad-zingmark.md) ur andra giftet | **1900-10-13/14** |
+
+**Vigseln 1850-11-24 föregår den första av dem med tjugofem år.** Tillsammans
+med **brudens föräldrahem i Ånäset i Degerfors, belagt 1843–1850**
+([C-0727](C-0727-degerfors-anaset-sara-sophia-foraldrahem.md)), **gör det
+socknen till en förbindelse familjen redan hade** — **inte en destination
+något av barnen upptäckte.**
+
+**Slutsatsen behöver inte brudens omtvistade födelseförsamling.** **Hennes egen
+födelsenotis är oläst**, och **årgången 1808 är aldrig prövad i original.**
+**Iakttagelsen vilar på två belagda förhållanden: ett dokumenterat
+föräldrahem och denna vigsel.**
+
+**Ingen orsaksförklaring dras.** **Uppgiften säger var förbindelsen fanns, inte
+varför någon använde den.** **Följden är praktisk:** **Degerfors är ingen
+slumpmässig destination**, och **barnens senare liv ska sökas där.**
+**Brudgummen dog i Ekträsk 1903-07-24, i dotterns egen by.**
+
+`Stödda påståenden` utökas med A-7946 (P-0437).
