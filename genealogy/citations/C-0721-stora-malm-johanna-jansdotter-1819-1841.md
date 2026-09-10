@@ -204,3 +204,39 @@ kunskapstecken, koppor och de årsvisa förhörs- och nattvardstecknen. Det är 
 namngiven lucka, inte ett läst noll, och den kan slutas i den redan sparade
 helbilden; passagen är
 [P-0477:s KP-04](../research-profiles/P-0477.md#källvägar).
+
+## Tillägg 2026-09-10 — T-0202: patronymikonet är avgjort här, och tre åldrar stämmer exakt
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**Denna citation namnger Johannas far `Jan Ericson` i hennes egen
+födelsepost.** **`Jansdotter` är därmed den riktiga formen och `Jonsdotter`
+variantens** — **ett avgörande som stått här sedan T-0139 och som inte hade
+nått barnens akter.** **Två av de tre syskonakterna förde `Jonsdotter` som om
+det vore hennes namn.** **Namnformerna normaliseras inte i äldre assertioner;
+båda är källformer.**
+
+**Vidare stämmer moderns tre uppgivna åldrar exakt mot födelseposten
+1819-05-30:**
+
+| Tillfälle | Uppgiven ålder | Räknad ålder |
+|---|---|---|
+| **sonens födelse 1843-01-04** | **omkring 23** | **23 år 7 månader 5 dagar** |
+| **dotterns födelse 1846-01-14** | **26** | **26 år 7 månader 15 dagar** |
+| **dotterns födelse 1863-02-26** | **43** | **43 år 8 månader 28 dagar** |
+
+**Tre exakta träffar över tjugo år är en oberoende bekräftelse av att det är
+samma kvinna i alla tre posterna.**
+
+**Två gränser.** **Serien skiljer inte hushållens `30 april 1819` från
+födelsepostens `30 maj`** — **båda ger samma fyllda åldrar vid alla tre
+tillfällena.** **Och åldrarna kan vara framräknade ur samma kyrkoboksuppgift**,
+alltså **inte helt oberoende av varandra.**
+
+**A-2810–A-2812 skrivs inte om.**
+
+Ägs av [T-0629](../../wotan/dev-log/T-0629.md).
+
+`Stödda påståenden` utökas med A-7982 (P-0494), A-7983 (P-0495) och A-7984
+(P-0499).

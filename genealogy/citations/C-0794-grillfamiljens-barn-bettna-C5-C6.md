@@ -102,3 +102,43 @@ Maria Sofia, post 14 på `A0012299_00009`, föddes **27 februari 1863** och döp
 Faddrarna i Maria Sofias post är drängen **August Werner** i **Kofhult[?]** och hustrun **Eva Lotta Olsdotter**, drängen **Carl Joh. Jansson** i **Hagby[?]** samt pigan **Gustafva Olsdotter** i **Sjöstugan**. Kolumn 23 och diverse anmärkningar är tomma. De råa namnen/orterna återges utan personfusion. Posterna har fullprövats på befintliga bilder med oberoende andra läsningar i T-0139; bleka prövade fält är inte en kvarstående utvinningsskuld.
 
 C-0729/C-0732 rättar Johanna Mathildas hushållsdatum till **1854-01-21** och äldre Heddas till **1859-10-29**. De äldre födelsekontrollerna riktade mot 21 april 1854 respektive november 1858 är därmed historiskt felriktade; de får inte vara frånvarobelägg för barnen på de rättade datumen. Ingen ny födelsepost har öppnats för dessa rättade nycklar i T-0139.
+
+## Tillägg 2026-09-10 — T-0202: dopdagen motbevisar hushållens födelsedatum
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+avsnitten är append-only och står oförändrade.
+
+**T-0139:s andraläsning 2026-09-08 förde in dopdagen den 8 mars 1863 i
+[Maria Sofias](../people/P-0499-maria-sofia.md) post.** **Hushållsleden
+anger hennes födelse `27 mars 1863`.**
+
+**Ett barn kan inte döpas nitton dagar innan det föds.**
+
+**Hushållens datum är därmed inte en avvikande uppgift utan en omöjlig, och
+motbevisningen sker inom en enda post.** **Källformen `27 mars` bevaras
+oförändrad i hushållsleden** — **det som ändras är bedömningen av vad den är.**
+
+**Detta är programmets andra fall av samma argument på två kohorter.**
+**T-0200 fann i [P-0446](../people/P-0446-karl-august-bjorkvik.md) att en
+dopdag den 7 november gjorde ett påstått födelsedatum den 11 november
+omöjligt** ([C-0580](C-0580-bjorkvik-C9-karl-august-fodd-1880.md)). **Där stod
+uppgifterna i två böcker och slutsatsen blev att båda inte kan gälla; här står
+de i samma källkedja och slutsatsen blir starkare.**
+
+**Samma barnposter bär också familjens civilståndsvändpunkt.** **Sonens post
+1843 kallar modern `pigan` och markerar barnet `oäkta`; dotterns post 1846
+kallar henne `hustrun`.** **De två stänger vigseln inne mellan 1843-01-04 och
+1846-01-14**, och **rullans `gift 1845-07-07` i
+[C-0763](C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md)
+ligger inuti fönstret.**
+
+**Tre gränser.** **(1)** **Argumentet gäller hushållens datum, inte deras
+identifiering av personen** — **familjeprofilen sammanfaller.** **(2)** **Ingen
+slutsats dras om det tolvåriga mellanrummet mellan
+[Erik](../people/P-0133-erik-karlsson-svartgjolstorp.md) 1851 och Maria Sofia
+1863** — **barnlistan är ofullständig.** **(3)** **A-3042–A-3049 skrivs inte
+om.**
+
+Ägs av [T-0629](../../wotan/dev-log/T-0629.md).
+
+`Stödda påståenden` utökas med A-7983 (P-0495) och A-7984 (P-0499).

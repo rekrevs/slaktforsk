@@ -333,3 +333,54 @@ liv**, och en uppslagning på 403 skulle leda fel.
 födelseortscell är tom "medan maken har `Fors.`". I den bevarade bilden ser den
 andra vuxenraden ut att bära ett dittotecken i samma kolumn som barnens. Frågan
 tillhör P-0519:s ägare och är inte avgjord här.
+
+## Tillägg 2026-09-10 — T-0202: syskonintervallen mäter årtalskonflikten, och strykningarna har två betydelser
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+avsnitten är append-only och står oförändrade.
+
+**Citationens avskrift ger nio barn med födelseuppgifter 1832, 1834,
+1835-05-27, 1836-12-24, 1839-04-16, 1841-06-16, 1843-09-20,
+[Maria Brita](../people/P-0526-maria-brita-buberget.md) och
+1850-12-05.** **Maria Britas år står i konflikt: `1845` i en volym,
+`1847` i två.**
+
+**Serien har aldrig räknats som serie.**
+
+| Läge | Maria Brita – föregående | Maria Brita – följande |
+|---|---|---|
+| **fram till 1843** | **intervallen ligger stabilt 1 år 7 mån – 2 år 4 mån** | — |
+| **under `1847`** | **3 år 9 månader** | **3 år 5 månader** |
+| **under `1845`** | **1 år 9 månader** | **5 år 5 månader** |
+
+**`1847` ger en jämn förlängning medan modern passerar fyrtio.** **`1845` ger
+seriens tätaste mellanrum följt av familjens enda på över fem år.** **Modern,
+född 1804, var 43 respektive 41 vid födelsen under de två läsningarna, och 46
+vid det sista barnet.**
+
+**Räkningen avgör ingenting.** **A-3292 behåller sin status `CONFLICT`, båda
+årtalen bevaras, och dagen är oberörd** — **`22`, `23` och `29` står alla kvar
+som läsningar.** **Barnlistan kan vara ofullständig; ett barn i mellanrummet
+skulle upphäva hela argumentet.** **Och två volymer mot en är inte tre
+oberoende röster** — **husförhörslängder skrivs av från varandra.**
+
+### Strykningarna på sida 474 betyder både avgång och död
+
+**Tre barnrader på uppslaget är överstrukna av två olika skäl.** **Anna Johanna
+1832 och Eva Catharina 1834 har `hvart hän`-hänvisningar till sidorna 478 och
+444, alltså överföringar.** **[Sophia
+Wilhelmina](../people/P-0527-sophia-wilhelmina-buberget.md), född 1850-12-05, har ett
+dödsdatum 1852-06-06.**
+
+**T-0197 falsifierade strykningen som allmän regel och slog fast att den måste
+fastställas per volym och hand.** **Detta uppslag bekräftar slutsatsen i ett
+annat stift och ett annat årtionde än Sävar.**
+
+**Sophia Wilhelmina levde 1 år 6 månader och 1 dag**, och **hennes frånvaro i
+`A I/8b` sida 536 stämmer med döden och kräver ingen ytterligare förklaring.**
+**Dödsdatumet är en längduppgift**, och **citationens krav på `separat
+slutkontroll om det används som atomärt dödspåstående` är inte uppfyllt.**
+
+Ägs av [T-0630](../../wotan/dev-log/T-0630.md).
+
+`Stödda påståenden` utökas med A-7985 (P-0526) och A-7986 (P-0527).

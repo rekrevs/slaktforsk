@@ -145,3 +145,34 @@ skulle vara fel och att konflikten därmed är upplöst är överspelad. T-0125
 återförde de båda årtalen som en bevarad avvikelse; 1878 används som
 arbetsnyckel utan att någon av de andra uppgifterna röstas ned. Se P-0532:s
 aktuella akt och A-3595. Avskriften ovan är oförändrad.
+
+## Tillägg 2026-09-10 — T-0202: födelsedagen är sökbandets undre kant
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och det tidigare
+tillägget är append-only och står oförändrade.
+
+**Rotemansposten ger två exakta födelsedagar som styr två framtida
+sökningar:** **[Axel Ivar](../people/P-0533-axel-ivar-ekholm.md), född
+1907-03-09**, och **[Ingrid Amalia](../people/P-0534-ingrid-amalia-ekholm.md),
+född 1910-02-05** — **båda i Matteus.**
+
+**Den ena sökningen är gjord.**
+**[C-0957](C-0957-matteus-fodelsebok-1907-noll-ekholm.md) läste posterna
+129–182, som täcker dop från 15 mars** — **sex dagar efter Axel Ivars
+födelse.** **De sex dagarna ligger utanför bandet.**
+
+**Uppgiften som behövdes för att se det stod här hela tiden.**
+
+**Följden är en regel för nästa sökning:** **ett band i en födelsebok måste
+börja vid födelsedagen, inte vid en antagen dopdag.** **För Ingrid Amalia, vars
+post aldrig sökts, är regeln förebyggande och kostar ingenting.**
+
+**Vidare noteras att den äldre aktversionen pekade ut `Kungsholms födelsebok
+1910` som mål för hennes post.** **Denna citation anger `Matteus`**, och **det
+är Matteus som gäller.**
+
+**A-3596 och A-3597 skrivs inte om.**
+
+Ägs av [T-0632](../../wotan/dev-log/T-0632.md).
+
+`Stödda påståenden` utökas med A-7988 (P-0533).

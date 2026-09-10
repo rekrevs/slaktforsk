@@ -175,3 +175,33 @@ skrev ut:** **matchningarna hittades genom att bara moderns sida söktes, och
 faderns är outforskad.**
 
 `Stödda påståenden` utökas med A-7980 (P-0487).
+
+## Tillägg 2026-09-10 — T-0202: serien har en sista rad, och den bär moderns namn
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**T-0198:s tillägg räknade syskonseriens intervall som kontrollfall (A-7949)
+och ställde syskonskarans namnled mot moderns egen släkt (A-7947).**
+**Seriens sista led hade då ingen egen akt.**
+
+**[Ester Maria](../people/P-0488-ester-maria-ektrask.md), född 1899, är
+serien slut:** **åtta barn på arton år — 1881, 1884, 1887, 1889, 1891, 1894,
+1896 och 1899 — med två till tre års mellanrum, aldrig längre.** **Modern var
+43 år.**
+
+**Två av hennes namnled hör till moderns sida.** **`Ester` svarar mot mostern
+[Ester Amalia Zingmark](../people/P-0428-ester-amalia-zingmark.md), född
+1868-02-13**, och **`Maria` mot modern själv.** **Ingen av de sju äldre
+syskonen bär moderns namn; det sista barnet gör det.**
+
+**Iakttagelsen är svag och förs som svag.** **`Maria` var ett av tidens
+vanligaste kvinnonamn**, **ingen uppkallningsavsikt påstås**, och **faderns
+sida är outforskad** — **samma kontrollbrist som A-7947 skrev ut.**
+
+**Att serien är obruten utesluter inte späda dödsfall.** **Den visar
+spridningen, inte antalet barn.**
+
+Ägs av [T-0629](../../wotan/dev-log/T-0629.md).
+
+`Stödda påståenden` utökas med A-7981 (P-0488).

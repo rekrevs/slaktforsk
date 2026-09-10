@@ -131,3 +131,42 @@ Den bevarade Bettna B/1-fullbilden `C0005876_00073` har post 69 under 11 novembe
 Carl Johans fulla födelsepost på `C0005882_00024` har 4 januari 1843 och dop 6 januari, Glippsta soldattorp, **oäkta**, modern **pigan Johanna Jansdotter**, uppgiven **23 år**. Fadern namnges inte. En blek kort not under åldern är prövad men får inget säkert kyrktagningsdatum. Faddrarna läses `H.[?] Jonas Andersson` och hans hustru `Maja St. Gustafsdotter[?]`, pigan `Cajsa Greta Ersdotter` i **Agnatorp[?]**, samt drängen `Petter Ersson` i **Skresta[?]**. Ort-/patronymikonreservationerna behålls utan släktinferens. Inget särskilt förrättarnamn framgår av måltexten.
 
 Den nya lysningsnotisen 16 april 1843[?] i C-0718 är en separat positiv nyckel. Barnets oäkta födelse och rullans namnlösa giftstatus 1845 ger inte ensamma en säker exakt vigselperiod för just Johanna; familjekorrelation och faktisk vigselpost hålls åtskilda.
+
+## Tillägg 2026-09-10 — T-0202: rullans giftdatum ligger inuti barnens eget fönster
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+avsnitten är append-only och står oförändrade.
+
+**Denna citation bär rullans uppgift `gift 1845-07-07`, som inte namnger
+hustrun.** **A-2972 registrerar den med den reservationen.**
+
+**Barnens egna födelseposter i
+[C-0794](C-0794-grillfamiljens-barn-bettna-C5-C6.md) avgränsar samma vigsel
+utan att gå genom militärmaterialet alls:**
+
+| Post | Uppgift om modern | Följd |
+|---|---|---|
+| **[Carl Johan](../people/P-0494-carl-johan.md) 1843-01-04** | **`pigan`, barnet `oäkta`, tomt fadersfält** | **ogift 1843-01-04** |
+| **[Anna Lotta](../people/P-0495-anna-lotta.md) 1846-01-14** | **`hustrun`** | **gift 1846-01-14** |
+
+**Fönstret är alltså 1843-01-04 – 1846-01-14**, och **rullans `1845-07-07`
+faller inuti det.** **Det är en korsbeläggning mellan kyrkobok och
+militärmaterial**, och **den har aldrig gjorts.**
+
+**En anomali kvarstår och löses inte här.** **Parets lysningsnot läses
+`1843-04-16[?]` i [C-0718](C-0718-grillfamiljen-1841-1845-lysning-militar.md)**,
+**tjugosju månader före rullans giftdatum**, medan **lysning normalt kallades
+några veckor före vigseln.** **Ingen läsning av lysningsåret väljs** — **årtalet
+bär citationens egen reservation.**
+
+**A-2972 skrivs inte om och behåller sin gräns:** **ingen vigselpost är läst**,
+och **rullans datum namnger fortfarande ingen hustru.** **Carl Fredric får inte
+göras till biologisk far till 1843 års barn ur lysningen, hushållet eller
+vigselfönstret.**
+
+**Vägen framåt är namngiven:** **Bettnas vigselbok 1843–1846**, som **avgör
+både datum och hustru i en enda post.**
+
+Ägs av [T-0629](../../wotan/dev-log/T-0629.md).
+
+`Stödda påståenden` utökas med A-7982 (P-0494) och A-7983 (P-0495).

@@ -186,3 +186,36 @@ under 1844** på båda raderna och **19/10 under 1845**. Flera blekare
 dödsårskolumnerna är tomma för båda makarna. Inga föräldrars småtecken
 överförs till barnen. Lysningsnotisen är den personbundna nya anmärkningen;
 familjens äldre och senare datumgränser måste fortsatt läsas var för sig.
+
+## Tillägg 2026-09-10 — T-0202: lysningen och rullans giftdatum ligger tjugosju månader isär
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+avsnitten är append-only och står oförändrade.
+
+**Citationen bär parets lysningsnot `1843-04-16[?]` med uttrycklig reservation
+för läsningen.**
+**[C-0763](C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md)
+bär rullans `gift 1845-07-07`.**
+
+**De två uppgifterna har aldrig ställts mot varandra.** **Avståndet är
+tjugosju månader**, medan **lysning normalt kallades några veckor före
+vigseln.**
+
+**Två läsningar är möjliga och ingen väljs.** **(a)** **Lysningsåret är
+felläst** — **citationen märker det själv `[?]`.** **(b)** **Lysningen ledde
+inte till vigsel förrän långt senare**, vilket **förekommer men är ovanligt.**
+
+**Anomalien är därmed en fråga med en namngiven källa:** **Bettnas vigselbok
+1843–1846 avgör den i en enda post**, och **samma post namnger hustrun, vilket
+rullan inte gör.**
+
+**Vidare noteras att `Anders Fredric`, född och död 1844 i det gemensamma
+hushållet, saknas i alla tre syskonakternas relationstabeller.** **Han får
+inget person-id här** och **förs som relation utan egen akt.**
+
+**A-2799–A-2804 skrivs inte om**, och **A-2804:s status `REJECTED` är
+oförändrad.**
+
+Ägs av [T-0629](../../wotan/dev-log/T-0629.md).
+
+`Stödda påståenden` utökas med A-7982 (P-0494) och A-7983 (P-0495).

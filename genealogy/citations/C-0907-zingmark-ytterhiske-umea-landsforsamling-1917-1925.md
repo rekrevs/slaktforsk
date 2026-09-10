@@ -184,3 +184,48 @@ inflyttningen `17 ⁸/₁₁` från `Örebro norra` är kontrollerade vid 400 % 
 står oförändrade.
 
 Berörda påståenden: A-3409 och A-7708–A-7709 (P-0031).
+
+## Tillägg 2026-09-10 — T-0202: lösningsrummet för `Hildur Aleksandra` är fyra möjligheter
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**A-3418 slår fast att två döttrar inte kan vara födda 18 mars och 10
+september samma år av samma mor.** **Aritmetiken står oförändrad.** **Det som
+saknats är vad slutsatsen lämnar öppet.**
+
+**[Hildur Aleksandra](../people/P-0529-hildur-aleksandra-zingmark.md) kan vara
+fyra saker, och de kräver olika källor.**
+
+1. **En annan dotter till Johan Oskar av en annan mor.** **Vigseln stod
+   1888-07-01**, så **en dotter född i mars 1888 var i så fall
+   föräktenskaplig.**
+2. **Ida Sofias dotter av en annan man, född före vigseln.**
+3. **En styv-, foster- eller svärdotter.** **Prefixet `d.` är inte entydigt i
+   församlingsböcker**, och **programmet har mött oförenliga prefix för samma
+   barn förut.**
+4. **Livia Sofia under ändrat namn och med felskrivet datum**, **inskriven ur
+   en inkommande attest.**
+
+**Den fjärde har akten hittills uteslutit, och grunden var enbart
+datumskillnaden** — **men en felskriven attest ger just en datumskillnad.**
+**Möjligheten återinförs inte som slutsats utan som prövbar**, och **den prövas
+billigt:** **om Livia Sofia kan placeras någon annanstans under 1917 faller
+den.**
+
+**Möjligheterna 1 och 2 avgörs av en och samma post, Degerfors födelsebok
+1888**, som **namnger modern och anger faderskap.**
+
+**Vidare noteras att hon skrevs in 1917-11-08, samma dag som
+[Astrid Maria](../people/P-0031-astrid-maria-zingmark.md) kom från Örebro
+norra**, och **att hon då var 29 år om födelseuppgiften stämmer.**
+**Sammanträffandet ges ingen innebörd** — **flera betyg behandlas ofta samma
+dag.**
+
+**Ingen möjlighet väljs, uppräkningen är inte en rangordning, och ingen
+relation förs in i den verifierade modellen.** **A-3417 och A-3418 skrivs inte
+om.**
+
+Ägs av [T-0631](../../wotan/dev-log/T-0631.md).
+
+`Stödda påståenden` utökas med A-7987 (P-0529).

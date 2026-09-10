@@ -65,3 +65,42 @@ Stockholms stadsarkivs egna söktjänster har inget vigselregister för
 ## Stödda påståenden
 
 A-3601 (P-0016), A-3602 (P-0533).
+
+## Tillägg 2026-09-10 — T-0202: bandet har en undre kant, och den har aldrig skrivits ut
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och avsnitten ovan är
+append-only och står oförändrade.
+
+**Citationen registrerar ett avgränsat noll:** **posterna 129–182, som täcker
+dop 1907-03-15 till 1907-04-11, är lästa utan träff.** **Den angivna gränsen
+rör volymens sena inskrivningar, alltså bandets övre kant.**
+
+**Bandets undre kant har aldrig nämnts.**
+
+**[Axel Ivar](../people/P-0533-axel-ivar-ekholm.md) föddes 1907-03-09 enligt
+rotemansposten i
+[C-0955](C-0955-ekholm-alund-rotemansarkivet-1899-1913.md).** **Ett dop den
+10, 11, 12, 13 eller 14 mars ligger i posterna före 129** — **utanför bandet.**
+
+**Det är de sex första dagarna efter födelsen, den period ett dop i Stockholm
+1907 normalt inföll inom.**
+
+**Nollresultatet utesluter alltså inte den mest sannolika dopveckan.**
+
+**A-3602 avförs inte och behåller sin status `NEGATIVE`.** **Nollet är riktigt
+för det band som lästs.** **Det som tillkommer är att bandet måste utvidgas
+nedåt, inte bara uppåt.**
+
+**Tre gränser.** **(1)** **Iakttagelsen säger inte att posten finns i de sex
+dagarna** — **den säger att nollet inte täcker dem.** **(2)** **Ett dop kunde
+också dröja längre än bandets övre kant; båda kanterna är öppna.** **(3)**
+**Att rotemansposten anger Matteus utesluter inte ett dop i en annan
+församling** — **födelseförsamling och dopförsamling är inte alltid desamma i
+Stockholm.**
+
+**Ett halvläst band är inget noll**, och **slutsatsen krävde ingen ny läsning:
+bandets ändpunkter står i denna citation och födelsedagen i C-0955.**
+
+Ägs av [T-0632](../../wotan/dev-log/T-0632.md).
+
+`Stödda påståenden` utökas med A-7988 (P-0533).

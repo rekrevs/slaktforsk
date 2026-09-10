@@ -126,3 +126,30 @@ Bevarandet ägs enligt `genealogy/source-coverage.md` av T-0259.
 avgränsade själv frågan till att sida 536 först måste läsas förstorad. Det är
 gjort i C-0869:s T-0140-tillägg. Dagtalet varierar dessutom mellan `22/6`,
 `23/6` och `23/29[?] juni`. Frågan tillhör **P-0526**, utanför denna kohort.
+
+## Tillägg 2026-09-10 — T-0202: den avvikande läsningen står ensam i en volym
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**[Maria Britas](../people/P-0526-maria-brita-buberget.md)
+födelseår står i konflikt.** **Denna volym bär `1845`.** **`A I/6b` sida 474
+och `A I/8b` sida 536 bär `1847`**, se
+[C-0869](C-0869-buberget-register-och-hushall.md).
+
+**Källfördelningen har inte skrivits ut förrän nu:** **en volym mot två.**
+
+**Det avgör ingenting.** **Husförhörslängder skrivs av från varandra**, så
+**två volymer är inte två oberoende röster** — men **fördelningen hör till
+konfliktens beskrivning och saknades.**
+
+**Syskonseriens intervall lutar åt samma håll som majoriteten**, se C-0869:s
+tillägg av samma datum. **Båda argumenten är sannolikhetsargument och inget
+belägg.**
+
+**A-3292 behåller sin status `CONFLICT` och skrivs inte om; båda årtalen
+bevaras.** **Degerfors födelseböcker 1845 och 1847 avgör frågan i en post.**
+
+Ägs av [T-0630](../../wotan/dev-log/T-0630.md).
+
+`Stödda påståenden` utökas med A-7985 (P-0526).
