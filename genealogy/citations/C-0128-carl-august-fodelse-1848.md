@@ -93,3 +93,45 @@ berör aktens filnamn och titel.
 `27`. Hemvisten `i Walla` fanns i uppgiftstexten men saknades som påstående
 om barnet; den är nu utvunnen i P-0167. Modersreservationen från T-0137
 består oförändrad.
+
+## Tillägg 2026-09-10 — T-0188: de beställda namnbytena är genomförda, och en slutsats mildras
+
+Ingen ny läsning och ingen ändring av avskriften eller tolkningsavsnitten
+ovan. Tillägget redovisar **att tre uppskjutna rättelser nu är genomförda**
+och **att en av T-0157:s slutledningar möter en invändning.**
+
+### De tre uppskjutna namnbytena är genomförda
+
+T-0137 och T-0157 fastställde tre namnrättelser och sköt uttryckligen upp
+**rubrik- och filnamnsbytet** till kohorten T-0188. **Det är nu gjort:**
+
+| Akt | Gammal form | Rättad form | Bär rättelsen |
+|---|---|---|---|
+| P-0187 | `Anders Engström` | **`Anders Ersson`** | A-5790 |
+| P-0189 | `Per Erik Engström` | **`Per Eric Ersson`** | A-5791 |
+| P-0190 | `Anna Cajsa Ersdotter` | **`Stina Cajsa Ersdotter`** | A-5792 |
+
+**Filnamnen är ändrade med `git mv`**, och inkommande länkar i P-0167,
+P-0187, P-0188 och P-0189 är uppdaterade. **Ingen assertion är omskriven.**
+
+### Patronymikonet talar emot den slutna familjeläsningen
+
+T-0157 skriver att Stina Cajsa Ersdotter är `syster till Per Eric Ersson och
+dotter till Anders Ersson i Berthilstorp`. **Slutledningen vilar på ordföljd
+och ortdito** — `Sonen` och `Dotter` efter husbondens rad, med `ibm` som
+binder dottern till broderns ort.
+
+**Men patronymikonet pekar åt ett annat håll.** Under strikt patronymikonbruk
+skulle **Anders `Ersson`s** barn heta **`Andersson`** och **`Andersdotter`**.
+De heter i stället samma sak som han.
+
+**Två förklaringar är möjliga och ingen är prövad:** att familjen använde
+`Ersson` som **fast släktnamn**, vilket var på väg att bli vanligt i
+Södermanland vid 1840-talet, eller att `Sonen` och `Dotter` inte är hans barn.
+
+**T-0188 registrerar därför relationerna som `LEAD` i tre akter**, inte som
+belagda. **Läsningen är inte ifrågasatt; slutsatsen är det.** Avgörandet ägs
+av [T-0593](../../wotan/dev-log/T-0593.md), som läser Berthilstorps
+husförhörsuppslag — där barnens namnformer avgör namnbruksfrågan direkt.
+
+`Stödda påståenden` utökas med A-7866–A-7869 (P-0187–P-0190).

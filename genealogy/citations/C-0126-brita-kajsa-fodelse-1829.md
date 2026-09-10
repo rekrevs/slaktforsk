@@ -94,3 +94,39 @@ postens redan avskrivna uppgifter nu används.
 - Att ingen far är införd i föräldrafältet är fört som A-7402, med postens
   egen varning bevarad: **vittnena får inte läsas som föräldrar**, och den
   svaga strukna `af…`-noten under barnets namn är prövad och lämnad otolkad.
+
+## Tillägg 2026-09-10 — T-0187: två prövade titlar är nu tagna i bruk
+
+Ingen ny läsning och ingen ändring av avskriften ovan. Tillägget redovisar
+**var postens redan prövade titelläsningar nu används**, eftersom de stått i
+citationen sedan 2026-09-08 utan att nå vittnenas akter.
+
+- **`Hr[?] Fändriken Olof Fabian Nyström`.** Akten
+  [P-0181](../people/P-0181-olof-fabian-nystrom.md) sade att titeln var
+  svårläst och `förs inte vidare`. **Titeln är prövad sedan T-0137**, och den
+  är aktens mest identifierande uppgift: **en fändrik förs i
+  generalmönsterrullor och regementsräkenskaper.** Förd som A-7860; prefixet
+  `Hr[?]` förblir reserverat.
+- **`Mamsell Ebba Gustava Arnell`.** Ståndsbeteckningen stod utskriven redan i
+  den ursprungliga avskriften. **`Mamsell` bars av ogifta kvinnor i
+  ståndsmässiga hushåll — inte av bondedöttrar** — och skiljer henne från
+  postens övriga kvinnliga led. Förd som A-7861.
+- **`Bonden Eric Jansson i Säfsta och hans hustru Cajsa Nilsdotter`** är förda
+  som A-7858 och A-7859. **Patronymikon- och ortlikheten med modern är redan
+  registrerad** som A-7401 hos [P-0164](../people/P-0164-anna-lisa-jansdotter-skoldinge.md)
+  och upprepas i hans akt **som söknyckel, inte som relation.**
+
+### En social iakttagelse som inte får bli en slutsats
+
+**Två av postens fyra vittnesled är ståndspersoner** — en officer och en
+mamsell — vid ett dop där barnet uttryckligen är **`Oäkta`** och modern en
+**ogift piga om tjugo år**. De två övriga är ett bondepar från den by vars
+namn ligger nära moderns egen hemvist.
+
+**Iakttagelsen bevaras därför att den beskriver moderns dokumenterade krets**,
+som annars är tom. **Ingen slutsats om faderskap dras**, varken positiv eller
+negativ, och citationens egen varning gäller oförändrad: **vittnena får inte
+läsas som föräldrar.** Identifieringen av de två ståndspersonerna ägs av
+[T-0592](../../wotan/dev-log/T-0592.md).
+
+`Stödda påståenden` utökas med A-7858–A-7861 (P-0179–P-0182).

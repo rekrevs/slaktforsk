@@ -48,3 +48,52 @@ negativt källresultat som förklaras av födelseorten Burträsk.
 ## Stödda påståenden
 
 A-0382, A-0715, A-0717–A-0719, A-0752–A-0754.
+
+## Tillägg 2026-09-10 — T-0186: postens två vittnesparter är olika mycket värda
+
+Ingen ny läsning och ingen ändring av avskriften ovan.
+
+**Posten har två vittnesparter, och skillnaden mellan dem är postens egen:**
+
+- **`Lars Andersson och dess hustru`** — **två led och ingenting mer.** Ingen
+  ståndsbeteckning, ingen by, ingen ålder, och hustrun utan namn.
+  [P-0176](../people/P-0176-lars-andersson-dopvittne-1791.md) står därför
+  `Identitetsläge: OLÖST` — **kohortens svagaste identifikation**, och gränsen
+  är källans, inte utvinningens.
+- **`[titel eller inledande ord svårläst] Andreas Högström och hustrun Eva
+  Catharina Högström`** — **ett namngivet par med ett ovanligt familjenamn.**
+  Båda har egna akter,
+  [P-0177](../people/P-0177-andreas-hogstrom-dopvittne-1791.md) och
+  [P-0178](../people/P-0178-eva-catharina-hogstrom.md). **Ordet före Andreas
+  Högström är oläst och bevaras inte som biografisk uppgift.**
+
+**Att den ena parten är sökbar och den andra inte beror på källan.** Ett
+familjenamn som `Högström` bär en sökning där `Lars Andersson` utan ort inte
+gör det. **Ingen av parterna får släktrelation till dopbarnet**, och ingen
+registreras.
+
+`Stödda påståenden` utökas med A-7855 (P-0176).
+
+## Tillägg 2026-09-10 — T-0187: Högströmsparet och namnet i grannsocknen
+
+Ingen ny läsning och ingen ändring av avskriften ovan.
+
+**Hustrun är bättre identifierad än maken, och det är ovanligt.**
+`Eva Catharina Högström` bär **två förnamn och ett familjenamn**
+([P-0178](../people/P-0178-eva-catharina-hogstrom.md), A-7857), medan makens
+ställningsled är **oläst** ([P-0177](../people/P-0177-andreas-hogstrom-dopvittne-1791.md),
+A-7856). Kohortens övriga hustrur bär patronymikon och bärs av makens led;
+**hon bär sitt eget.**
+
+**Det olästa ordet före `Andreas Högström` är aktens avgörande lucka.**
+Familjenamn på `-ström` bars i Västerbotten ofta av ståndspersoner,
+hantverkare och kyrkotjänare, och **det är just en sådan titel ordet kan
+vara.** Ordet bevaras otranskriberat och görs inte till en biografisk uppgift.
+
+**Namnet återkommer nio år senare i en annan socken.**
+[C-0129](C-0129-hans-nilsson-fodelse-1800.md) för `Klockar:[?] Jacob
+Högström` som första vittne i Bygdeå 1800. **Två socknar, nio år och inget
+gemensamt led utöver namnet** — **iakttagelse, ingen relation**, men båda
+måste bäras med i en sökning på namnet.
+
+`Stödda påståenden` utökas med A-7856 (P-0177) och A-7857 (P-0178).

@@ -64,3 +64,68 @@ Jonathansdotter i **Tväråbäck[?]**. Den sista orten är prövad med
 förstoring men hålls reserverad. Ingen ytterligare personbunden
 marginalnot eller fortsättning syns i den avgränsade raden. Vittnena
 får inte föras in som föräldrar eller andra släktingar genom namnlikhet.
+
+## Tillägg 2026-09-10 — T-0186: ortcellen upplöst, förnamnet omstritt
+
+Ingen ny arkivsökning. Läsningen är gjord i den **redan sparade** helbilden
+`A0004528_00091` (5 085 × 4 173 px), hämtad 2026-08-20, vid 300–1 500 %
+förstoring. **Samtliga tidigare avskrifter och tillägg står oförändrade ovan.**
+
+### Postens tryckta kolumner
+
+Volymen är en tabellförd födelse- och dopbok utan utskrivna kolumnrubriker på
+uppslaget; **kolumnernas innebörd avgörs av deras plats.** Ordningen på
+vänstersidan är: **månad** | **födelsedag** | **dopdag** | **barnets namn**
+och `Parent.`-blocket med föräldrarnas namn och moderns ålder | **by** |
+**`Test.`-blocket med vittnena**.
+
+**`Parent.` är understruket i posten** och skiljer uttryckligen föräldrarna
+från `Test.` — det är den skillnaden som gör att vittnena inte får föras in
+som släktingar.
+
+### Ortcellen är upplöst: `Krokbäck`
+
+Avskriften ovan lämnar pigans ort `svårläst`, och tillägget från T-0131
+läser den **`Tväråbäck[?]`** med uttrycklig reservation.
+
+**Omläsningen läser `Krokbäck`.** Bokstäverna `K-r-o-k` är entydiga, `ä`-
+punkterna syns, och ordet har inte `Tväråbäck`s form — som skulle inledas med
+`T` och bära ett `å`. **Reservationen är därmed upplöst, men åt ett annat håll
+än den pekade.** Uppgiften är förd som A-7850 hos
+[P-0171](../people/P-0171-anna-lena-jonathansdotter.md).
+
+### Förnamnet är omstritt efter en fjärde läsning
+
+**Tre läsningar skriver `Anna Lena`:** den ursprungliga 2026-08-20,
+omkontrollen av vittneskolumnen 2026-08-21 och T-0131:s fullpostprövning
+2026-09-08.
+
+**Omläsningen 2026-09-10 läser andra förnamnet som `Sara[?]`.**
+
+**Ingen läsning väljs bort.** Aktens visningsnamn är oförändrat, och
+konflikten är förd som en öppen fråga — **ett namnbyte på tre tidigare
+läsningars bekostnad kräver mer än en fjärde läsning.** Avgörandet ägs av
+[T-0591](../../wotan/dev-log/T-0591.md).
+
+### Två mindre läsreservationer
+
+- **Det första vittnets förnamn läses `Pehr[?]`**, inte `Peter` som avskriften
+  ovan skriver. **Det är samma namn i sak**, men källformen skiljer sig och
+  **båda måste bäras med i en sökning.**
+- **`And. Andersson` är en förkortning.** Akten upplöser den till `Anders`,
+  men **samma volymserie skriver också `Andreas` med samma förkortning** —
+  jämför dopbarnet i [C-0125](C-0125-andreas-olofsson-fodelse-1791.md), som
+  heter `Andreas` i födelseboken och `Anders` i senare källor. **Båda
+  upplösningarna måste bäras med.**
+
+### En förväxling som måste hållas ifrån akterna
+
+Dopbarnets mor heter `Anna Stina Jonsd:r`, och pigan heter
+`… Jonathansdotter`. **`Jonsdotter` och `Jonathansdotter` är inte samma
+patronymikon** — det ena pekar på en far vid namn Jon eller Jöns, det andra på
+en vid namn Jonathan. **Ingen syskonhypotes registreras.** Frågan om moderns
+`Jonsd:r` kan vara en förkortning av `Jonathansd:r` är **inte prövad** och
+förs som en öppen läsfråga, inte som en relation.
+
+`Stödda påståenden` utökas med A-7848 (P-0169), A-7849 (P-0170) och A-7850
+(P-0171).

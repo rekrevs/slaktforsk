@@ -106,3 +106,55 @@ räknas som en av dem oberoende bekräftelse. Tolkningens formulering att den
 begränsningen. Den äldre lydelsen bevaras som tolkningshistorik.
 
 Berörda påståenden: A-5370 (P-0015).
+
+## Tillägg 2026-09-10 — T-0184: uppslagets tryckta kolumner och två lästa nollor
+
+Ingen ny arkivsökning. Läsningen är gjord i den **redan sparade** helbilden
+`Folk_804050-010` (800 × 1 343 px), hämtad 2026-08-20. **Tidigare avskrift
+och tolkning står oförändrade ovan.**
+
+### Uppslagets tryckta kolumner
+
+Kolumnrubrikerna är lästa i **samma utsnitt** som datacellerna, enligt
+[aktstandardens](../person-standard.md) krav på tabellförda källor.
+
+| Nr | Tryckt rubrik | Läsläge på Carl Johan Petterssons rad |
+|---|---|---|
+| 1 | `Hushåll eller matlag` | **avskriven** — hushållsklammern omfattar fem personer |
+| 2 | `By eller lägenhet (qvarter eller rote i stad)` … `Namn (fullständigt) å hvarje person; familje-ställning (h = hustru, s = son, d = dotter o. s. v.)` | **avskriven** — `Carl Johan Pettersson`, **utan familjeställningsförled** |
+| 3 | `Yrke, embete, tjenst, näringsfång.` | **tom** |
+| 4 | `Lyte; främmande nationalitet el. religionsbekännelse; frånvarande.` | **tom** |
+| 5 | `Födelse-år.` | **avskriven** — `1862` |
+| 6 | `Födelse-ort (församling i N. N. län eller stad).` | **avskriven** — `Årdala, D:o l.` |
+| 7–8 | `Ogift. m. | q.` | **avskriven** — etta i `m.` |
+| 9–10 | `Gift. m. | q.` | **tom** |
+| 11 | `Enkling.` | **tom** |
+| 12 | `Enka.` | **tom** |
+| 13–14 | `Frånskild. m. | q.` | **tom** |
+
+**Ingen kolumn är oläst på hans rad.**
+
+### De två blanka cellerna är lästa nollor, inte olästa rutor
+
+Bladet skiljer konsekvent hushållets släkt från dess tjänstefolk, och
+**skillnaden bärs av två olika kolumner:**
+
+- **Släkten får ett familjeställningsförled i kolumn 2** — `h.` för hustrun,
+  `s.` för sonen, `d.` för dottern.
+- **Tjänstefolket får inget förled men ett yrke i kolumn 3** — `Piga` för
+  Hedda Larsson i Nybro och `Dräng` för Carl Eskil Fors i Hagstugan, båda på
+  samma blad.
+
+**Carl Johan Pettersson har varken förled eller yrke**, och båda cellerna är
+alltså tomma i en källa som annars fyller dem. **Att han ändå räknas in i
+hushållets fem personer visar att han tillhörde det** — men bladet säger
+inte i vilken egenskap.
+
+**Hans ställning framgår i stället av församlingens egen husförhörslängd**,
+`A I/16` sida 83, som skriver `Dr.` framför namnet
+([C-0149](C-0149-erik-anna-forssa-AI16-sida-83.md)). **Folkräkningens tomhet
+består som en läst nolla och rättas inte** — den är korrekt återgiven; det
+var slutsatsen av den som var för bred.
+
+`Stödda påståenden` utökas med A-7821 (P-0144) och A-7825 berörs indirekt
+genom [P-0142](../people/P-0142-anna-erika-eriksson.md).

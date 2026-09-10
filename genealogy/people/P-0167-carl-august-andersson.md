@@ -48,10 +48,10 @@ Efter hushållsvolymen 1866–1870 finns ingen läst källa om honom. Identitete
 | Brita Stina Jansdotter[?] | mor enligt födelseposten | 1848-10-06, Walla i Stora Malm | TRANSCRIBED | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md) |
 | [P-0168 Anders Gustaf](P-0168-anders-gustaf-andersson.md) | bror | Anderslund i Lerbo 1866–1870 | TRANSCRIBED | [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md) |
 | [P-0043 Charlotta Wilhelmina](P-0043-charlotta-wilhelmina-larsson.md) | syster | Anderslund; hon född 1867-05-26 | TRANSCRIBED | [C-0127](../citations/C-0127-lars-brita-kajsa-hushall-lerbo-1866.md), [C-0098](../citations/C-0098-charlotta-wilhelmina-fodelse-1867.md) |
-| [P-0187 Anders Ersson](P-0187-anders-engstrom-berthilstorp.md) | dopvittne | 1848-10-08, Berthilstorp | TRANSCRIBED | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md) |
+| [P-0187 Anders Ersson](P-0187-anders-ersson-berthilstorp.md) | dopvittne | 1848-10-08, Berthilstorp | TRANSCRIBED | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md) |
 | [P-0188 Cathrina Jansdotter](P-0188-cathrina-jansdotter-berthilstorp.md) | dopvittne | 1848-10-08, Berthilstorp | TRANSCRIBED | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md) |
-| [P-0189 Per Eric Ersson](P-0189-per-erik-engstrom.md) | dopvittne | 1848-10-08, Henriestorp[?] | TRANSCRIBED | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md) |
-| [P-0190 Cajsa Ersdotter](P-0190-anna-cajsa-ersdotter.md) | dopvittne | 1848-10-08, `ibm` efter föregående ort | TRANSCRIBED | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md) |
+| [P-0189 Per Eric Ersson](P-0189-per-eric-ersson-henriestorp.md) | dopvittne | 1848-10-08, Henriestorp[?] | TRANSCRIBED | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md) |
+| [P-0190 Cajsa Ersdotter](P-0190-stina-cajsa-ersdotter.md) | dopvittne | 1848-10-08, `ibm` efter föregående ort | TRANSCRIBED | [C-0128](../citations/C-0128-carl-august-fodelse-1848.md) |
 
 Faderskapet vilar på två källställen: den egna födelseposten och den senare hushållsraden. Moderskapet gör det inte. Brita Kajsa Pehrsdotter är hushållets husmoder 1866–1870, medan födelseposten namnger en annan kvinna med en ålder som inte passar henne; ingen av de två raderna görs till biologisk mor här. Charlotta Wilhelmina har samma far belagd i sin egen födelsenotis och är därmed minst halvsyster; Anders Gustaf står som bror enbart genom hushållsraden.
 

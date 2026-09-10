@@ -99,3 +99,75 @@ C-0403 tillförde en läsning, och C-0549 bär Lotta Sofias egen rad med formen
 på hennes egen rad i ett hushåll hon själv är förd i. Avsnittet är append-only
 och behålls oförändrat; konfliktens omfång är från och med detta tillägg fyra
 former, se tillägg T-0157 i C-0549 och A-5730–A-5739 i P-0066.
+
+## Tillägg 2026-09-10 — T-0185: uppslagets tryckta kolumner och barnradernas egna fält
+
+Ingen ny arkivsökning. Läsningen är gjord i den **redan sparade** helbilden
+`A0001442_00171` (6 155 × 5 011 px), hämtad 2026-08-20, vid hög förstoring.
+**Samtliga tidigare avskrifter och tillägg står oförändrade ovan.**
+
+T-0139 återläste 2026-09-08 hela bilden och skrev ut **föräldrarnas,
+farmoderns och sonfamiljens** fält. **Barnraderna fördelades däremot inte på
+de enskilda barnen**, och det är den luckan detta tillägg stänger.
+
+### Uppslagets tryckta kolumner
+
+Kolumnrubrikerna är lästa i **samma utsnitt** som datacellerna, enligt
+[aktstandardens](../person-standard.md) krav på tabellförda källor.
+
+`N:o` | **stånd- och namnkolumnen**, här rubricerad `Bonden [och]
+Nämndemannen` | `Födelse. Ort, Socken, i Stad, Län, o. s. v.` | `år och dag.`
+| `Koppor.` | `Gift.` | `Läser och förstår.` | `Döds år och dag.` |
+`Inflyttad från Socken, Län, Stad, eller transp. från fol.` | `Utflyttad till
+eller transporterad till fol.` | `Anteckningar om frejd eller särskilde
+förhållanden.` | `Sista nattvards-gång` | därefter **sju årskolumner**, varav
+de två första har oifyllt årtal `186_` och de fem följande `1861`, `1862`,
+`1863`, `1864` och `1865`, **var och en delad i `Förhör.` och `Nattv.-gång.`**
+
+**Uppslaget har ingen värnpliktskolumn.** Frånvaron är blankettens.
+
+### De nio barnraderna, rad för rad
+
+| Barn | Födelse, år och dag | Koppor | Inflyttad från / transp. | Utflyttad | Anteckningar | Årskolumner 1861–1865 |
+|---|---|---|---|---|---|---|
+| Olof | `³⁰/₁₀ 1829` | `v` | **`p:a Brån[?]`** | tom | kort not, `…Bor…[?]` | **bråk i alla fem åren** |
+| Jonas | `¹⁵/₆ 1831` | `v` | **`d:o`** | tom | kort not, `…Bores[?]` | **endast 1861** |
+| ~~Anna Lisa~~ | `²⁰/₄ 1833` | `v` | **`Ume s.f.` `²/₁₂ 1861`** | tom | tom | **1861 och 1862** |
+| ~~Carl Petter~~ | `²/₉ 1839` | `v` | tom | **`nedan`** | kort not, `…Bor…[?]` | **bråk i alla fem åren** |
+| Lotta Sofia | `³⁰/₃ 1843` | `v` | tom | tom | tom | 1862–1865 |
+| Anders | `⁹/₅ 1846` | `v` | tom | tom | tom | **1862–1865; 1861 tomt** |
+| Maria Johanna | `²/₈ 1849` | `v` | tom | tom | tom | **samtliga fem tomma** |
+| Sara Mathilda | **`²⁴/₃ 1852`** | `v` | tom | tom | tom | **samtliga fem tomma** |
+| Hedda Fredrika | `¹⁶/₁₂ 1854` | `v` | tom | tom | tom | **samtliga fem tomma** |
+
+**Samtliga barn har `v` i `Koppor.` och en kunskapsbåge i `Läser och
+förstår.`** De tre yngstas bågar har en avvikande prickad form; **formerna
+omtolkas inte till betyg.** **Dödskolumnen är läst tom för samtliga nio.**
+
+**Årskolumnernas fraktioner är prövade men reserveras.** Kolumnerna ligger
+långt från namnkolumnen och raderna tätt; **vilka år som bär noteringar är
+däremot säkert**, och det är den uppgiften tabellen ovan redovisar.
+
+### Fyra läslägen som ändrar vad raderna säger
+
+1. **Sara Mathildas födelsedag finns.** Hushållsraden bär `²⁴/₃ 1852`, med
+   ett **överstruket äldre tal** före. A-0648 skriver `född 1852` med
+   kommentaren *Dagen saknas i uppslaget*; **dagen saknades inte, den var
+   inte utvunnen.** T-0139 läste `24/3[?] 1852` redan 2026-09-08 och
+   reserverade läsningen, men uppgiften nådde aldrig hennes akt.
+2. **Anna Lisa kom hem från Umeå den 2 december 1861.** Inflyttningscellen
+   bär `Ume s.f.` och `²/₁₂ 1861`. **Hon är den enda av de nio med en daterad
+   flyttning**, och **den går inåt.** Överstrykningen av hennes namn är en
+   **senare markering** och inte samma händelse.
+3. **Carl Petter fördes `nedan`** — inte ut ur socknen utan till sitt eget
+   hushåll på samma sida, med hustru och två barn. **Blocket var läst av
+   T-0139 men hade aldrig nått hans akt.**
+4. **De tre yngsta systrarnas årskolumner är lästa tomma i alla fem åren**,
+   medan de äldre syskonens är ifyllda. **Tomheten är förd, inte utelämnad**,
+   och den har en känd förklaring: de var nio, sex och tolv år 1861.
+
+**En diagonal bläckstrek löper över uppslaget** och korsar de yngsta
+systrarnas rader i årsfälten. **Det är ett sidmärke, ingen notering**, och
+det tolkas inte.
+
+`Stödda påståenden` utökas med A-7838–A-7847 (P-0150–P-0157).

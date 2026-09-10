@@ -63,3 +63,49 @@ kolumnredovisad här sedan 2026-08-21 utan att nå någon personakt.
 - Hypotesen att ett vittne är nära släkt är just en hypotes. **Ingen relation
   skapas ur denna post**, och Carl Jonsson och Catharina Isacsdotter förblir
   söknycklar.
+
+## Tillägg 2026-09-10 — T-0186: posten har fyra vittnen, inte två
+
+Ingen ny läsning och ingen ändring av avskriften ovan. Tillägget redovisar en
+**räknefelaktighet i en senare utvinning** av samma post.
+
+**Avskriften ovan har sedan 2026-08-20 två vittnesparter:**
+
+> Test. Bond. Carl Jonsson i Öfverklinten och dess hustru Catharina Isacsdr
+>
+> Bond. Isac Hansson i Näs och dess hustru Catharina Andrsdr
+
+**Fyra personer i två par**, och projektet har akter för alla fyra sedan
+augusti: [P-0172](../people/P-0172-carl-jonsson-overklinten.md),
+[P-0173](../people/P-0173-catharina-isaksdotter-overklinten.md),
+[P-0174](../people/P-0174-isac-hansson-nas.md) och
+[P-0175](../people/P-0175-catharina-andersdotter-nas.md).
+
+**Tillägget från T-0169 ovan behandlar posten som om den hade två vittnen.**
+Tre registrerade assertioner bygger på det:
+
+- **A-7360** hos [P-0160](../people/P-0160-jakob-isaksson-ultervattnet.md):
+  `namnger två dopvittnen` — **sakinnehållet om det första paret är riktigt;
+  antalet är fel.**
+- **A-7370** hos [P-0161](../people/P-0161-anna-stina-andersdotter-ultervattnet.md):
+  samma antal, plus slutsatsen `Ingen av de två bär hennes patronymikon` och
+  därav att `hennes egen släkt är inte representerad`. **Det fjärde vittnet
+  heter `Catharina Andrsdr` och bär exakt moderns patronymikon.**
+- **A-7371** hos P-0161: posten har `enbart två vittnen, mot fyra` i den
+  samtidiga notisen [C-0129](C-0129-hans-nilsson-fodelse-1800.md), och
+  iakttagelsen är förd för att förklara varför moderns släkt inte syns.
+  **Premissen är felaktig, och därmed förklaringen.**
+
+**Följden är en ny hypotes med samma form som den redan registrerade.**
+`Catharina Isacsdr` bär dopbarnets fars patronymikon och är kandidat som
+**hans syster** (A-7360); `Catharina Andrsdr` bär dopbarnets mors patronymikon
+och är kandidat som **hennes syster**. **Den senare är svagare** —
+`Andersdotter` var vanligare än `Isaksdotter` — men **ett negativt resultat
+får inte stå kvar när posten säger något annat.**
+
+**Ingen relation skapas här.** De tre assertionerna skrivs inte om; rättelsen
+följer projektets rättelsemodell och ägs av
+[T-0590](../../wotan/dev-log/T-0590.md).
+
+`Stödda påståenden` utökas med A-7851 (P-0172), A-7852 (P-0173), A-7853
+(P-0174) och A-7854 (P-0175).

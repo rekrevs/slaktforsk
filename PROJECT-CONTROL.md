@@ -4830,3 +4830,57 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Revisit when: ägaren vill dra en annan gräns för vad som räknas som löst
   anknutet, eller om en löst anknuten person visar sig bära en linje och
   därmed behöver full behandling.
+
+## PCD-2026-09-10-031
+
+**Akter vars enda uppgift är motsagd av originalkälla får ligga kvar, om de
+är tydligt märkta**
+
+- Record type: decision
+- Date: 2026-09-10
+- Decides review: direkt ägarinstruktion under personaktsprogrammet; frågan
+  restes i `T-0190`:s granskningsutfall som en punkt till Project Control
+- Owner: Sverker Adam Janson
+- Decision: personakter vars **enda påstående är avskrivet som felaktigt mot
+  en läst originalkälla** får **ligga kvar i projektet**. Villkoret är att de
+  är **tydligt märkta på ett sätt som gör att fortsatt arbete inte läggs på
+  dem**. Märkningen ska vara synlig i **både akt och profil** och sökbar med
+  en fast textnyckel, så att en senare våg ser den utan att läsa hela akten.
+  **Ingen akt avregistreras, och ingen assertion skrivs om.**
+- Trigger: T-0190 konsoliderade `P-0207`, `P-0208` och `P-0209` — tre personer
+  som finns i projektet **enbart** därför att den privata ansedeln
+  `C-0133` namnger dem som faddrar åt Hans Nilsson 1800. Den läsbara
+  originalnotisen `C-0129` namnger **fyra helt andra vittnen**. Uppgiften är
+  alltså prövad och avskriven, och akterna saknar varje annan anknytning.
+  T-0190 behöll dem med motiveringen att en dokumenterad och prövad felaktig
+  uppgift är ett resultat som försvinner om akten tas bort, och förde frågan
+  om deras framtid till ägaren i stället för att avgöra den.
+- Disposition: approved
+- Supersedes decision: ingen. Beslutet **kompletterar**
+  `PCD-2026-09-09-030`: minimiläget styr **hur mycket** som skrivs om en löst
+  anknuten person, detta beslut styr **att ingenting mer läggs** på en akt
+  vars enda uppgift redan är avskriven.
+- Implementation: märkningen är **`AVSKRIVEN UPPGIFT`**, en fast textnyckel
+  som förs
+  1. som egen punkt i aktens `## Arbetsläge`, med hänvisning till den
+     originalkälla som motsäger uppgiften;
+  2. som egen rad direkt under rubriken i profilen;
+  3. i profilens `KP`-fält `Wotan:` som `EJ BESLUTAT UTFÖRANDE` med
+     **avskriven uppgift** som skäl.
+  Nyckeln är vald för att vara greppbar: `grep -rl "AVSKRIVEN UPPGIFT"`
+  ger hela mängden. **Fältvärdena i kontraktsmodellen ändras inte** —
+  `Identitetsläge` förblir `OLÖST` och `Trädverkan` `EJ BÄRANDE`, eftersom
+  märkningen beskriver arbetsprioritet och inte kunskapsläge.
+- Related records: `PCD-2026-09-09-030`, `PCD-2026-09-07-026`,
+  `genealogy/person-contract.md` (append-only evidens),
+  `C-0129`, `C-0133`, `T-0190`, `T-0189`
+- Resulting Wotan tasks: inga nya. Märkningen utförs inom `T-0190`:s
+  efterarbete och gäller framåt för varje akt i kohorterna `T-0191`–`T-0203`
+  som visar sig ha samma egenskap.
+- Portfolio signal: **tre akter berörs i dag** — `P-0207`, `P-0208` och
+  `P-0209`. Beslutet ändrar ingen registrerad bedömning och inget mått:
+  akterna räknas fortsatt i inventeringen, och deras `LEAD`-assertioner står
+  oförändrade. Vad som ändras är att **ingen senare våg behöver läsa dem för
+  att förstå att de inte ska arbetas på**.
+- Revisit when: en avskriven uppgift får nytt belägg som gör den prövbar igen,
+  eller ägaren vill dra en annan gräns för vad märkningen ska omfatta.

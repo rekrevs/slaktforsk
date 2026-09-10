@@ -12,7 +12,7 @@
 - **Hennes led är postens enda med en relationsterm utan namngiven
   motpart.** `dotter` — dotter till vem? Källan säger det inte.
 - **Ett andra Svalbergsled finns i samma rote**, i redan sparat bildmaterial:
-  drängen `Ivan Wilhelm Svalberg`, **född 1864-06-03 i Forssa**, på
+  drängen `Johan Wilhelm Svalberg`, **född 1864-06-03 i Forssa**, på
   dopbarnets egen hushållssida. Se A-7820. **Ingen släktrelation registreras.**
 - Aktens `## Relationer`-tabell hade **en tom rad inuti tabellen**; den är
   borttagen utan att någon rad gått förlorad.
@@ -42,7 +42,7 @@ föräldrarna och födelseåret.
 
 **Namnet `Svalberg` är däremot ovanligt nog att bära.** Forssas
 husförhörslängd `A I/16`, sida 83 — dopbarnets egen hushållssida — bär på
-rad 11 drängen **`Ivan Wilhelm Svalberg`, född 1864-06-03 i Forssa**,
+rad 11 drängen **`Johan Wilhelm Svalberg`, född 1864-06-03 i Forssa**,
 inflyttad från Årdala 1881 och utflyttad till Wadsbro 1882 med attest 27.
 **Två Svalberg i samma lilla rote är en söknyckel**, men **ingen
 släktrelation registreras**: efternamnet är gemensamt, ingenting annat är
@@ -65,7 +65,8 @@ prövat, och hans egen inflyttning från Årdala anges först under 1881.
 |---|---|---|---|---|---|
 | A-0572 | Namnet var Lovisa Svalberg och hon betecknas dotter i Malstugan. | TRANSCRIBED | hög | [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) | Dopvittneskolumnen. |
 | A-0573 | Hon var dopvittne 1881-04-07. | TRANSCRIBED | hög | [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) | Dopvittneskolumnen. |
-| A-7820 | **Hennes `dotter` namnger ingen förälder** — postens enda relationsterm utan motpart — och **ingen ålder finns.** Ett andra Svalbergsled står i samma rote: Forssa `A I/16` sida 83 bär på rad 11 drängen **`Ivan Wilhelm Svalberg`, född 1864-06-03 i Forssa**, inflyttad från Årdala 1881 och utflyttad till Wadsbro 1882 med attest 27. **Efternamnet är en söknyckel; ingen släktrelation registreras.** | TRANSCRIBED | hög | [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md), [C-0149](../citations/C-0149-erik-anna-forssa-AI16-sida-83.md) | Vittnesledet är preciserat **utan ny bildläsning**; Svalbergsraden är ny läsning av den **redan sparade** bilden `C0006406_00086` 2026-09-10 i T-0184, ingen ny arkivsökning. **Endast efternamnet förenar dem** — inget föräldrapar, ingen ort och ingen ålder är gemensam, och hans inflyttning anges först 1881. **Ingen sammanslagning och inget nytt person-id.** T-0132:s drängförteckning i C-0149 anger hans födelseår `1862`; **den bevarade fullbilden ger `64 ³/₆`**, se citationens tillägg 2026-09-10. |
+| A-7820 | **Hennes `dotter` namnger ingen förälder** — postens enda relationsterm utan motpart — och **ingen ålder finns.** Ett andra Svalbergsled står i samma rote: Forssa `A I/16` sida 83 bär på rad 11 drängen **`Johan Wilhelm Svalberg`, född 1864-06-03 i Forssa**, inflyttad från Årdala 1881 och utflyttad till Wadsbro 1882 med attest 27. **Efternamnet är en söknyckel; ingen släktrelation registreras.** | TRANSCRIBED | hög | [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md), [C-0149](../citations/C-0149-erik-anna-forssa-AI16-sida-83.md) | Vittnesledet är preciserat **utan ny bildläsning**; Svalbergsraden är ny läsning av den **redan sparade** bilden `C0006406_00086` 2026-09-10 i T-0184, ingen ny arkivsökning. **Endast efternamnet förenar dem** — inget föräldrapar, ingen ort och ingen ålder är gemensam, och hans inflyttning anges först 1881. **Ingen sammanslagning och inget nytt person-id.** T-0132:s drängförteckning i C-0149 anger hans födelseår `1862`; **den bevarade fullbilden ger `64 ³/₆`**, se citationens tillägg 2026-09-10. **Rättat i ett led samma dag:** **förnamnet läses `Johan`, inte `Ivan`** — se A-7837; observationen i övrigt står oförändrad. |
+| A-7837 | **Drängens förnamn på Forssa `A I/16` sida 83 rad 11 läses `Johan`, inte `Ivan`.** Raden bär `Dr. Johan Wilhelm Svalberg`, och bokstavsformen är **identisk med `Johan` i rad 10:s `Carl Johan Pettersson`** på samma sida. | TRANSCRIBED | hög | [C-0149](../citations/C-0149-erik-anna-forssa-AI16-sida-83.md) | Omläsning av den **redan sparade** bilden `C0006406_00086` 2026-09-10 i T-0184, senare samma dag än A-7820; ingen ny arkivsökning. **A-7820 står kvar oförändrad** med sin ursprungliga läsning. **Rättelsen ändrar ingen slutsats om henne:** det är efternamnet `Svalberg` som är söknyckeln, och **ingen släktrelation registreras** — men förnamnet måste vara rätt i varje framtida sökning. |
 
 ## Relationer
 
@@ -74,7 +75,7 @@ prövat, och hans egen inflyttning från Årdala anges först under 1881.
 | [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) | **dopvittne vid hans dop**, ingen belagd släktrelation | Forssa 1881-04-07 | TRANSCRIBED | [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) |
 | [P-0139 Anna Ersdotter](P-0139-anna-ersdotter-dopvittne-1881.md), [P-0140 Carl Pettersson](P-0140-carl-pettersson-dopvittne-1881.md) | **postens övriga vittnesparter, från andra boställen**; ingen belagd relation till henne | Forssa 1881-04-07 | TRANSCRIBED | [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) |
 | en icke namngiven förälder i Malstugan | **`dotter` utan namngiven motpart** — familjeställningen är läst, föräldern finns inte i källan | Malstugan i Forssa, 1881 | LEAD | [C-0104](../citations/C-0104-axel-edvard-fodelse-1881.md) |
-| `Ivan Wilhelm Svalberg` i samma rote | **enbart gemensamt efternamn** — ingen prövad släktrelation, **inget person-id skapat** | Svartsjötorp i Forssa, 1881–1882 | LEAD | [C-0149](../citations/C-0149-erik-anna-forssa-AI16-sida-83.md) |
+| `Johan Wilhelm Svalberg` i samma rote | **enbart gemensamt efternamn** — ingen prövad släktrelation, **inget person-id skapat** | Svartsjötorp i Forssa, 1881–1882 | LEAD | [C-0149](../citations/C-0149-erik-anna-forssa-AI16-sida-83.md) |
 
 ## Tidslinje
 
@@ -136,7 +137,7 @@ binds till en namngiven person. Ingen ålder finns, för dopvittneskolumnen har
 ingen åldersruta.
 
 **Efternamnet är däremot ovanligt nog att bära.** På dopbarnets egen
-hushållssida i Forssas husförhörslängd står drängen `Ivan Wilhelm Svalberg`,
+hushållssida i Forssas husförhörslängd står drängen `Johan Wilhelm Svalberg`,
 född 3 juni 1864 i Forssa. **Två Svalberg i samma lilla rote är en
 söknyckel** — men bara efternamnet förenar dem, och ingen släktrelation
 registreras.
@@ -150,7 +151,7 @@ föräldrar och hennes födelseår.
 1. **Vilka var hennes föräldrar, och när föddes hon?** Forssas
    husförhörslängd omkring 1881, uppslaget för **`Malstugan`**, skulle ge
    båda. Se profilens Q-01, KP-01.
-2. **Hur förhåller hon sig till `Ivan Wilhelm Svalberg` i samma rote?**
+2. **Hur förhåller hon sig till `Johan Wilhelm Svalberg` i samma rote?**
    Enbart efternamnet förenar dem. Samma uppslag skulle avgöra det. Se Q-02.
 3. **`Malstugan` är ingen av folkräkningens tre stugor under Malstanäs.**
    Formen bevaras oförändrad och normaliseras inte mot `Hagstugan`,
@@ -175,6 +176,17 @@ Tabellen hade en **tom rad mellan avgränsarraden och sin enda datarad**, ett
 formatfel som bröt tabellen i två. Raden är borttagen; **ingen datarad har
 gått förlorad.** Samma fel fanns i
 [P-0140](P-0140-carl-pettersson-dopvittne-1881.md).
+
+#### Drängens förnamn rättat: `Johan`, inte `Ivan`, 2026-09-10
+
+A-7820 skriver drängen på Forssa `A I/16` sida 83 rad 11 som
+**`Ivan Wilhelm Svalberg`**. **Vid omläsning samma dag läses förnamnet
+`Johan`**, med en bokstavsform identisk med `Johan` i rad 10:s
+`Carl Johan Pettersson` på samma sida. Se A-7837 och citationens tillägg.
+
+**A-7820 står kvar oförändrad**, och **rättelsen ändrar ingen slutsats om
+henne**: söknyckeln är efternamnet `Svalberg`, och ingen släktrelation är
+eller blir registrerad. **Aktens löptext använder den rättade formen.**
 
 #### Aktens rubriknamn utökat, 2026-09-10
 

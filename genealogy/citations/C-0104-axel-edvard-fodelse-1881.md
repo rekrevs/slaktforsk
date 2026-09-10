@@ -143,3 +143,31 @@ citation och `A I/16` genom
 Det skulle ge både hans och hustruns ålder.
 
 `Stödda påståenden` utökas med A-7817 (P-0138).
+
+## Tillägg 2026-09-10 — T-0184: tre vittnesled preciserade utan ny bildläsning
+
+**Ingen ny bildläsning och ingen ny arkivsökning.** T-0132 prövade hela
+post 3 den 2026-09-08 och T-0183 skrev ut dopvittneskolumnens struktur den
+2026-09-10; **båda läsningarna står oförändrade ovan.** Denna passage
+konsoliderade de tre vittnesakternas texter mot dem.
+
+Vad som preciserades i akterna, av redan läst material:
+
+- **`H:u Ersdotter Anna`s led bär tre delar och ingen ålder** — relationen
+  `H:u`, patronymikonet och förnamnet. **Boställsnamnet står en gång, på den
+  gemensamma vittnesparten**, inte på hennes eget led, och `H:u` är en
+  relation till maken och **inte ett eget stånd** (A-7818, P-0139).
+- **`Pettersson Carl, dräng, Svartgjöl`** har fått en namngiven kandidat i
+  redan sparat material, se
+  [C-0149](C-0149-erik-anna-forssa-AI16-sida-83.md):s tillägg samma dag.
+  **Ingen sammanslagning görs** (A-7819, A-7823).
+- **`Svalberg Lovisa, dotter, Malstugan`s `dotter` namnger ingen förälder** —
+  postens enda relationsterm utan motpart (A-7820, P-0141).
+
+**Kolumnen anger ingen ålder och ingen relation till dopbarnet för någon av
+de tre parterna.** Det är en **källgräns, inte en läsosäkerhet**, och ingen
+omläsning kan avhjälpa den: kolumnen har ingen åldersruta, till skillnad från
+moderns kolumn i samma post som bär dubbeltalen `30/29`.
+
+`Stödda påståenden` utökas med A-7818 (P-0139), A-7819 (P-0140), A-7820
+(P-0141) och A-7823 (P-0144).

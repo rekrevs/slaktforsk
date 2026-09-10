@@ -97,3 +97,77 @@ Sannerby176/1867 hör till hennes rad. Lars Johans Forssa1867/att45 och
 utanteckning1870/att4 med reserverad destination och dag hör till
 honom, inte till föräldrarna. Dessa råbarnfält kan ge framtida egna
 söknycklar men deras ursprungsposter har inte öppnats här.
+
+## Tillägg 2026-09-10 — T-0190: Maria Mathildas rad, med månad och destination
+
+Ingen ny arkivsökning. Läsningen är gjord i den **redan sparade** helbilden
+`C0005622_00179` (7 388 × 6 172 px), hämtad 2026-08-21, vid hög förstoring.
+**Samtliga tidigare avskrifter och tillägg står oförändrade ovan.**
+
+### Uppslagets tryckta kolumner
+
+Kolumnrubrikerna är lästa i **samma utsnitt** som datacellerna, enligt
+[aktstandardens](../person-standard.md) krav på tabellförda källor.
+
+`Personernas namn, stånd, embete, yrke och närings-fång (backstugu-, inhyses-
+och fattighjon), nationalitet (om främmande), lyten (svagsinta, blinda,
+döfstumma).` | `Födelse- år` | `mån. och dag.` | `ort. (socken i Län, Stad.)`
+| `Äktenskap Gift.` | `Enkl. eller Enka.` | `Koppor.` | `Inflyttad från
+(socken i Län, Stad el. pag. i Husförhörsboken.)` | `år månad dag.` |
+`Inflyttnings-attestens numer.` | `Död.` | `Läser Innantill.` |
+`Luth. Katechs.` | `Förklaringen.` | `Förstår.` | `Bevistat Förhör och begått
+H. H. Nattvard.` med **1866, 1867, 1868, 1869 och 1870** var för sig i `F.`
+och `N.` | `Fräjd och enskilda anteckningar.` | `Utflyttad till (socken i Län,
+Stad el. pag. i Husförhörsboken.)` | `år månad dag.` |
+`Utflyttnings-attestens numer.`
+
+Uppslaget bär rubriken **`Carlberg, Torp under Stäringe`** och rotnumret
+`6:te Roten`.
+
+### Rad 5, Maria Mathilda: månaden är läst, dagen inte
+
+| Tryckt kolumn | Läsläge |
+|---|---|
+| `Personernas namn …` | **avskriven** — `Dott. Maria Mathilda` |
+| `Födelse- år` | **avskriven** — `1854` |
+| `mån. och dag.` | **delvis avskriven** — **nämnaren `7`**, alltså **juli**; **täljaren är överkorsad av ett kraftigt streck och är oläst** |
+| `ort.` | **avskriven** — `d:o`, dito till moderns `Årdala` |
+| `Äktenskap` | **tom** |
+| `Koppor.` | **avskriven** — `v` |
+| `Inflyttad …` | **tom** — hon är född in i hushållet |
+| `Död.` | **tom** |
+| `Läser` och `Förstår` | **avskrivna** — råmarkeringar, **inte betyg** |
+| `Bevistat Förhör … 1866–1870` | **avskrivna** — fraktioner **prövade men reserverade** |
+| `Fräjd …` | **tom** |
+| `Utflyttad till …` | **avskriven** — **`Sannerby`**, med **`177`** skrivet ovanför ortledet |
+| `Utflyttad — år månad dag.` | **avskriven** — **`1870`** |
+| `Utflyttnings-attestens numer.` | **tom** |
+
+**Ingen kolumn är oläst på hennes rad**, och **den enda cell som inte kunde
+tydas har sin orsak angiven**: en överstrykning av själva cellen, inte en
+otydlig hand. **En omläsning vid högre förstoring flyttar inte det hindret.**
+
+### `177` läses som sidnummer, och systerns `176` stöder det
+
+Kolumnrubriken lyder `Utflyttad till (socken i Län, Stad **el. pag. i
+Husförhörsboken**)`, och talet står **ovanför ortledet i samma cell** — inte i
+den egna attestnummerkolumnen, som är **läst tom.**
+
+**T-0132:s fullpostprövning av samma uppslag** anger för
+[P-0134](../people/P-0134-anna-christina-larsdotter.md) på rad 9:
+`Utflyttningskolumnen anger Sannerby, sida 176, år 1867`. **Två systrar, tre
+år isär, till samma by, med två sidnummer i följd.**
+
+**Alternativet attestnummer är prövat och förkastat som mindre troligt:** två
+attestnummer i följd för två skilda år vore ett sammanträffande, och
+attestnummerkolumnen är tom på båda raderna.
+
+### Aktens egen bedömning var överspelad av sin egen bild
+
+P-0216:s `Forskningsstatus` sade att hon skulle följas vidare först `när en
+tydligare hushålls- eller födelsepost ger en säker identitetsingång`.
+**Ingången — ett sidnummer i samma volym — låg i den sparade bilden hela
+tiden.** Passagen ägs av [T-0595](../../wotan/dev-log/T-0595.md), som läser
+både sida 177 och systerns sida 176.
+
+`Stödda påståenden` utökas med A-7887 (P-0216).

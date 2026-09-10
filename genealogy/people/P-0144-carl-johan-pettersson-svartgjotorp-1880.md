@@ -8,7 +8,7 @@
 - Profil: [P-0144](../research-profiles/P-0144.md) — daterad PK-bedömning,
   tio teman, söknycklar och källvägar.
 - Identitetsnivå **`GODKÄND`**, `Identitetsläge: PRÖVAT`;
-  `Trädverkan: BÄRANDE`. Full nivå `UNDERKÄND`.
+  `Trädverkan: EJ BÄRANDE`. Full nivå `UNDERKÄND`.
 - **Aktens öppna fråga är besvarad ur redan sparat bildmaterial.** Akten sade
   att hans ställning i hushållet inte framgår. **Forssa `A I/16` sida 83 för
   honom som `Dr.` — dräng — med det exakta födelsedatumet 1862-03-27 och en
@@ -207,6 +207,17 @@ husförhörslängd `A I/16`, som skriver `Dr.` framför hans namn. Se A-7822.
 Folkräkningen anger endast året 1862, och bedömningen `medel` var riktig för
 den källan. **Husförhörslängden ger `62 ²⁷/₃`**, alltså 1862-03-27, som en
 sekundär bokuppgift. Se A-7822.
+
+#### `Trädverkan` rättad till `EJ BÄRANDE`, 2026-09-10
+
+Arbetsläget skrev först `Trädverkan: BÄRANDE`. **Det var fel.** Fältet svarar
+enligt [personkontraktet](../person-contract.md) på en enda fråga — **får
+antavlan passera denna person?** — och **ingen släktrelation till antavlan är
+belagd** för honom. Han var dräng i ett anhushåll, och **även om kandidaturen
+mot [P-0140](P-0140-carl-pettersson-dopvittne-1881.md) håller vore bandet
+tjänst, inte släkt.** Identitetsnivåns `GODKÄND` är oförändrad; **fältet
+mäter inte identitetens styrka utan trädets väg**, och de två får inte
+blandas ihop.
 
 #### Aktens rubriknamn utökat, 2026-09-10
 
