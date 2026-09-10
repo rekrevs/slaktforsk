@@ -310,3 +310,39 @@ Sonen Johan August har tidigare felaktigt sammanförts med Johan Oskar Zingmark.
 > > odigitaliserad volym från digitaliserad men inte publikt serverad. Det som är
 > > belagt är att volymerna inte kan nås på distans. Se
 > > `genealogy/method-riksarkivet.md`.
+
+### Inkommande följdfynd från T-0177, 2026-09-09
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0177, som läste om
+[C-0218](../citations/C-0218-savar-AI7b-AI8b-johan-gunnismark-1880-1885.md):s
+sparade helbild `C0034439_00027` vid 300–1200 % för dina barns skull. Ingen ny
+arkivpassage öppnades och ingen uppgift är förd in i akten här; ägaren avgör.
+
+**Din dotterson hette inte `Carl Waldemar`.** Din akt skriver att `Emma Maria
+återkommer som egen familjerad med sonen Carl Waldemar, född 1886 enligt
+boken`. Raden under Emma Marias egen rad läses vid 1200 %
+`[A?]lex **Bernhard**`: det andra namnledet har en **loopad `B`**, ett **högt
+`h`** mitt i ordet och ett avslutande **loopat `d`** — `Waldemar` saknar `W`
+och slutar inte på `d` och är därmed **uteslutet**. Förnamnet är delvis
+övertäckt av hushållets krysstrykning och läses mest sannolikt `Alex`, men är
+**inte avgjort**. Rättelsen är förd som tillägg till C-0218 och C-0378 och som
+A-7738 i [P-0061](P-0061-emma-maria-lundstrom.md).
+
+**Två uppgifter till på samma rad var outvunna.** Ordet före `son` är `oä.`,
+med tydliga umlautpunkter — alltså **oäkta**. Och i **dödskolumnen** står
+`¹⁰/₉ 86`, kontrollerat genom kolumnens x-läge mot din makes `85 ¹⁷/₁₁` och
+Carl Eriks `85 ⁹/₇` i **samma** utsnitt. **Din dotterson levde fyra dagar.**
+
+**Carl Eriks dödsdatum kan avrundas från reservation till belägg.** Din akt
+ger `1885 9/7[?]`. Vid 800 % är täljaren en `9` med sluten ögla och nedgående
+svans och nämnaren en `7`; uppgiften står i samma dödskolumn som din makes.
+**Han dog 1885-07-09**, fyra månader före din make.
+
+**Och dina barns utflyttningar är nu lästa i ett utsnitt**, vilket ger
+familjens flyttordning: Emma Maria till `Sundsvall 87 ²⁵/₇`, Charlotta till
+`Skön` och `Sundsvall 89 ²⁰/₅`, du och Albert till `Alnö 89 ²¹/₅`. **Emma
+Maria gick två år före er**, tio månader efter att hennes son dött. Din egen
+Alnönot 1889-05-21 är oförändrad.
+
+Anmälan är riktad till din akts ägare och till T-0142, som gjorde den
+begränsade avstämningen.

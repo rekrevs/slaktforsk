@@ -188,6 +188,47 @@ Bevarade konflikter och gränser:
 
 Öppna genomförbara steg med ägare: [T-0258](../../wotan/dev-log/T-0258.md) äger bouppteckningens tjugo fortsättningsbilder; [T-0259](../../wotan/dev-log/T-0259.md) äger de kvarvarande egna förhörs- och nattvardskolumnerna i C-0064, C-0549 och C-0404 samt tvillingarnas dödskolumn.
 
+### Avgränsad följdavstämning — T-0178, 2026-09-09
+
+Barnkohorten P-0067–P-0072 är konsoliderad i
+[T-0178](../../wotan/dev-log/T-0178.md). Tre av aktens bevarade konflikter
+och gränser berörs. **Inget avgörs här; hennes egna uppgifter ägs av denna
+akt och full adoption av T-0157.**
+
+**Konflikten om Karl Magnus födelsedag finns inte.** Punkten ovan bevarar att
+`27/7` står i A I/10c mot `21/7` i bouppteckningen. Vid omläsning av **båda**
+husförhörsvolymernas sparade helbilder vid 600 respektive 900 % läser båda
+`1880 ²¹/₇`. Räknarens andra siffra är ett **rakt streck med liten
+ingångsserif** — en `1` — och inte en `7`, som i denna hand har en **vågrät
+topplinje**; jämförelsen kan göras mot `²¹/₆` på Hildur Charlottas rad och mot
+**nämnaren `7`** på hans egen rad. A-5793 är avvisad med bevarad
+ursprungslydelse, och prövningen är förd som A-7751 i
+[P-0071](P-0071-karl-magnus-andersson.md). **Punkten ovan bör skrivas om av
+denna akts ägare**: det finns ingen konflikt att bevara, och hans egen
+födelsepost behöver inte längre läsas för att avgöra en.
+
+**Om hennes egen födelsedag preciseras en läsning, inte ett alternativ.**
+Punkten ovan fastställer marsdatumet och bevarar `17/10`, `20/10` och `30/10`
+som avskriftsvarianter utan status som öppna alternativ. Läsningen 2026-09-09
+visar att **`30/10` står i bilden i två volymer** — både A I/10c sida 207 och
+A I/9c sida 85 — medan C-0404 bär `1843-03-30`. **C-0064:s avskrift `20/10`
+är därmed en felläsning av den cell som läses `30/10`**, inte en fjärde
+självständig variant. Antalet varianter i omlopp sjunker från fyra till tre,
+och **marsdatumet berörs inte.** Avgörandet ligger kvar hos denna akt.
+
+**Åtta arvingar ≠ åtta barn är fört vidare** i samtliga sex barnakter, med
+`minst tio kända barn` och **två** syskon utan person-id — tvillingarna
+Anders och Carl — som uttrycklig kohortavgränsning. **Rättelse 2026-09-09,
+T-0179:** T-0178 skrev först att Oskar Rudolf saknar person-id; han är
+[P-0073](P-0073-oskar-rudolf-andersson.md) och länkas redan från denna akts
+relationstabell. **Tvillingarnas dödskolumn
+ägs fortsatt av [T-0259](../../wotan/dev-log/T-0259.md)** och är inte läst i
+T-0178.
+
+**Hennes dödsdag `98 ²⁵/₅` på A I/11c rad 3 tjänade som kontroll** för att
+dödkolumnen var i bruk när samtliga sju barnraders dödsceller lästes tomma.
+Uppgiften är inte omprövad; den användes som referens.
+
 ## Slutstatus
 
 - Status: `VERIFIERAD`
@@ -410,3 +451,69 @@ Sakrättelser i denna konsolidering, med orsak:
 > Föräldrarnas fulla C-0111-rader och vigsel C-0116 omprövade. Anders var22år och Sofia18år1828; den omvända läsningen var projektfel. C-0106:s brudfolio läses nu14/3[?], inte äldre14/2 eller mellanläsningen14/4[?]. Ingen ny folio är öppnad. Rödåboken1861–1865 visar hennes familj men bevisar inte obrutet boende från födelsen1843. Nämndemanstiteln visar faderns funktion, inte i sig en jämförd högre levnadsstandard. Full adoption och berättelsens kvarvarande generaliseringar ägs av T-0157.
 >
 > > | 1843–1865 | Dotter i **nämndemanshushållet i Rödå, sida 483** i A I/8b, med **åtta syskon födda 1829–1854** och farmodern, änkan Anna Catharina Andersdotter, född 1783 i Umeå stadsförsamling, i hushållet. | [C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) | Hushållet bekräftar födelsedagen 30 mars oberoende av födelsenotisen. |
+
+### Rättelse 2026-09-09, T-0179: tvillingarna och deras källor
+
+Det bundna avsnittet ovan bar T-0178:s uppgift om syskon utan person-id.
+Prövat mot projektets källregister i T-0179 faller den helt: **samtliga tio
+kända barn har egna person-id**, tvillingarna som
+[P-0086](P-0086-anders-andersson-tvilling-1873.md) och
+[P-0087](P-0087-carl-andersson-tvilling-1873.md), båda redan länkade från
+denna akts relationstabell.
+
+Därtill: T-0178 skrev att tvillingarna `bär dödsuppgifter` i A I/9c. Deras
+egna akter säger uttryckligen att marginaldatumet vid den överstrukna raden
+**inte tolkas som dödsdatum utan kontroll i dödboken** (A-0348, A-0349).
+Tvillingarnas födelse- och dopdag `1873-05-09` är däremot belagd i Degerfors
+`C/5` genom
+[C-0065](../citations/C-0065-anders-carl-tvillingsoner-fodelse-1873.md) —
+**en födelsebok, alltså utanför husförhörskedjan.** Punkten ovan om denna
+akts fyra bråkformer berörs inte.
+
+### Avgränsad följdavstämning — T-0180, 2026-09-09: två dödsdagar och Q-02
+
+Tvillingarna och tre av hushållets tjänare är konsoliderade i
+[T-0180](../../wotan/dev-log/T-0180.md). **Två uppgifter berör denna akt
+direkt, och den andra är dess egen Q-02.**
+
+**Tvillingarnas dödsdagar är fastställda.** Talen står i **den tryckta
+`Död.`-kolumnen** på A I/9c sida 85, läst med rubriken i samma utsnitt:
+[P-0086](P-0086-anders-andersson-tvilling-1873.md) Anders **1874-12-31** och
+[P-0087](P-0087-carl-andersson-tvilling-1873.md) Carl **1875-05-07**. **Hon
+förlorade två söner på fyra månader och sju dagar.** Aktens egen formulering
+`tvillingarna dog före dess` — i punkten om åtta arvingar — är därmed **belagd
+i stället för härledd**, och den kan skrivas med dagar. **Ingen dödsorsak är
+belagd**, och Degerfors dödbok för 1874–1875 är inte identifierad i projektet.
+
+**Q-02 har fått sin diskriminerande uppgift.** Frågan gäller `pigan Maria
+Johanna Andersdotter i 1870 års hushållsvy, som delar namn och födelseår med
+Lotta Sofias syster utan att någon släktkant är belagd`. Husförhörsuppslaget
+ger pigan en **full födelsedag: `1849 ²/₈`**, alltså **1849-08-02** — och
+systern `Maria Johanna` i
+[C-0111](../citations/C-0111-anders-olofsson-hushall-roda-1861.md) står med
+uppgiven födelse **1849-08-02**. **Dag, månad, år, patronymikon och
+födelseförsamling sammanfaller alla.**
+
+**Identifieringen görs inte i T-0180, och det är ett regelbeslut.**
+Kohortomfånget utesluter osäkra identitetssammanslagningar; **systern har
+inget eget person-id** utan är en barnrad hos
+[P-0145](P-0145-anders-olofsson-namndeman-roda.md); och en identifiering
+skulle föra **en ny mosterrelation in i antavlans närhet**. **Frågan ägs av
+denna akt och av T-0157.**
+
+**Och en saklig invändning som gäller oavsett vem som avgör:** båda de
+sammanfallande dagarna är **senare uppgifter** — en husförhörslängd och en
+hushållsbok — och **ingen av dem är en födelsenotis**. Två avskrifter som
+stämmer med varandra kan ha samma fel. **Den avgörande källan är Degerfors
+födelsebok `C/4` för 1849**, som är **identifierad i projektet** (`S-0051`) och
+i bruk genom C-0062 — ingen katalogfråga. Ett andra, billigt led: **Rödås
+husförhörsuppslag** i C-0111 kan visa om systern har en **utflyttning till
+Buberget** i sin egen kolumn, och den bilden är redan sparad.
+
+**En tredje uppgift berör aktens uppgift om hennes egen ålder, men avgör
+ingenting.** Födelseboken `C/5` bär i kolumnen `Modrens ålder` talen `34.` och
+`29.` i höjd med tvillingposterna, **och attributionen kan inte fastställas**:
+kolumnen har ett tal per post medan varje post upptar två textrader.
+**Ingen av talen ger hennes beräknade ålder 30 år i maj 1873.** Uppgiften förs
+som en **öppen läsfråga**, inte som en konflikt om hennes födelsedag — aktens
+marsdatum berörs inte.

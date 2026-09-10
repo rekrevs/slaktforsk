@@ -63,8 +63,8 @@ belägg för ett namnbyte. Ingen egen namnteckning är känd.
 | [P-0097 Jakob](P-0097-jakob-ultervattnet.md) | bror | Ultervattnet; född 1865-12-06, i hushållet ännu 1900 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0098 Maria Mathilda](P-0098-maria-mathilda-ultervattnet.md) | syster | Ultervattnet; född 1869-03-14, i hushållet 1880 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0049 Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md) | syster | Ultervattnet; född 1872-02-08, till sida 853 år 1904 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
-| [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md) | bror | Ultervattnet; född 1874-09-24, eget hushåll på samma sida från 1899 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
-| [P-0100 Kristina Lovisa](P-0100-kristina-lovisa-ultervattnet.md) | syster | Ultervattnet; född 1877-04-26[?], till sida 820 år 1905 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
+| [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md) | bror | Ultervattnet; född **1874-09-26**, eget hushåll på samma sida från 1899 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
+| [P-0100 Kristina Lovisa](P-0100-kristina-lovisa-ultervattnet.md) | syster | Ultervattnet; född **1877-04-26**, till sida **820 den 2 december 1905** | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0102 Maria Jacobsdotter](P-0102-maria-jacobsdotter-ultervattnet.md) | farmor | Ultervattnet; förgångsmor i samma by 1880 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | Katarina Annali[?] Sandström | hustru | Vigsel 1907-06-23; från Nysätra 1907-06-05[?]; född 1883-10-08 | TRANSCRIBED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | Ingrid Viktoria[?] | dotter | Ultervattnet; född 1907-07-31[?] | TRANSCRIBED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
@@ -252,3 +252,23 @@ patronymikon och exakt bokdatum är tillgodoräknade.
 > ## Konsolideringsrättelse — T-0131
 >
 > Senare patronymikon och exakt bokdatum tillgodoräknade. Full akt-/profilgranskning T-0155.
+
+#### Följdrättelse från T-0181, 2026-09-09: tre läsningar i syskonens rader
+
+Tre läsningar ur [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md)
+är omprövade vid konsolideringen av syskonkohorten, alla genom glyfjämförelse
+mot samma skrivares övriga siffror på samma uppslag.
+
+- **[P-0099 Nils Leonards](P-0099-nils-leonard-ultervattnet.md) födelsedag är
+  `26/9`, inte `24/9`.** Båda hans rader skriver samma dag. Se A-7776.
+- **[P-0100 Kristina Lovisas](P-0100-kristina-lovisa-ultervattnet.md)
+  födelsedag är `26/4`** och den alternativa läsningen `24/4` **faller**.
+  Reservationen `[?]` är därmed upplöst. Se A-7781.
+- **Hennes överföring till folio 820 är daterad `2/12 05`, inte `2/10[?]`** —
+  **2 december 1905.** Nämnarens andra tecken är en `2`, inte den slutna
+  ovalen `0` i `05` intill. Se A-7782.
+
+**Inget annat i denna akt berörs.** Relationsraderna är uppdaterade;
+årtalen är oförändrade.
+
+Rättelserna är inrapporterade till T-0155, som äger denna akt.

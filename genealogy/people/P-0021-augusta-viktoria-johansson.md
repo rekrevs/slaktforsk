@@ -634,3 +634,30 @@ T-0127,2026-09-07: full konsolidering mot senare belägg. Alla äldre A-id och t
 > födelseutdrag använde Johansdotter; den läsningen är rättad. Detta namnger
 > inte en biologisk far och löser inte hennes faderskonflikt. Full egen
 > konsolidering kvarstår T-0127; T-0223 samordnar den gemensamma målposten.
+
+### Inkommande följdfynd från T-0176, 2026-09-09
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0176, som läste om de
+sparade helbilderna av
+[C-0025](../citations/C-0025-bernhard-folkrakning-1900.md) och
+[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md) vid 250–350 % för
+barnens skull. Ingen ny arkivpassage öppnades och ingen uppgift förs in i
+akten här; ägaren avgör.
+
+**Ditt födelseår avviker mellan de två folkräkningsbladen.** Bladet 1900 bär
+`67` i din egen födelseårscell, bladet 1910 `63`. Ditt originalbelagda datum
+1863-06-24 (T-0127) berörs inte, men avvikelsen är hittills inte noterad i
+någon citation.
+
+**Förbehållet är avgörande.** Båda bladen bär tryckta dokumenthuvuden —
+`Utdrag ur Församlingsboken för Wesås annex` 1900 och `Utdrag ur
+Församlingsboken för Värsås` 1910 — och är alltså utdrag ur **samma**
+församlingsbok. De är kompletterande, inte självständiga. Och **din makes
+årtal avviker mellan samma två blad på samma sätt**, `58` mot `50`
+([P-0020](P-0020-per-wilhelm-eliasson.md)). Att båda föräldrarnas årtal
+förskjuts i samma par av blad är en prövbar hypotes om ett **systematiskt
+överföringsfel** i en kopiekedja, inte två separata konflikter — och det
+stärker snarare originalen än folkräkningsbladen.
+
+Gravens avvikande 27 juni berörs inte. Anmälan är riktad till T-0251 och
+T-0223.

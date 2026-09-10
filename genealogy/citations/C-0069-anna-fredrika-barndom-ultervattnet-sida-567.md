@@ -107,3 +107,46 @@ fastställt.** Uppgiften stöds dessutom av att hans nattvardsnoteringar upphör
 med `2/1` i årskolumnen 1868 på samma uppslag.
 
 Berör även **P-0094**.
+
+## Tillägg T-0181, 2026-09-09: kolumnredovisning för de fyra barnraderna
+
+Den redan sparade fullbilden (`C0034028_00211`, 7 440 × 6 480 px) är omläst
+för **de fyra barnraderna** — `Son Anders Petter`, `Son Jacob`,
+`D:r Maria Mathilda` och `D:r Anna Fredrika` — vid 110–200 %, i utsnitt där
+**de tryckta rubrikerna respektive namnkolumnen är sammanfogade med
+datacellerna i samma bild**, så att radidentiteten är entydig. Avskriften och
+T-0131:s och T-0165:s tillägg behålls oförändrade.
+
+### Kolumnredovisning
+
+| Kolumn (tryckt rubrik) | Anders Petter | Jacob | Maria Mathilda | Anna Fredrika |
+|---|---|---|---|---|
+| `Födelse- / År. / Mån. och dag.` | avskriven | avskriven | avskriven | avskriven |
+| `Flyttad — från … / år månad och dag / Inflyttningsattestens nummer` | **tom** | **tom** | **tom** | **tom** |
+| `Död.` | **tom** | **tom** | **tom** | **tom** |
+| `Läser` / `Förklarar` / `Luth. Katekes` | enstaka tecken | **tom** | **tom** | **tom** |
+| `Bevistat förhör och begått H. H. Nattvard` 1863–1872, `F.`/`N.` | **två `v`-tecken** i de senare årskolumnerna | **tom** | **tom** | **tom** |
+| `Fräjd och särskilda anteckningar` | **tom** | **tom** | **tom** | **tom** |
+| `Flyttat — till (Socken i Län, Stad, eller pagina i Husförhörs-boken. / År, månad och dag.` | **tom** | **tom** | **tom** | **tom** |
+| `Utflyttningsattestens nummer` | **tom** | **tom** | **tom** | **tom** |
+
+**Samtliga tomma celler är lästa nollor, inte olästa kolumner.** Varje kolumn
+bär ett värde någon annanstans på samma uppslag: `Död.` bär `26/4 1868` på
+Anders Olofssons rad (T-0165), `Flyttat`-gruppen bär `fol. 55[9]` med årtal i
+grannkolumnen på en separat personrad längre ned, och förhörskolumnerna bär
+Anders Petters två `v`-tecken.
+
+**Tomheten på de tre yngre barnens rader är åldersgiven.** Anders Petter,
+född 1863, var tio år när boken stängdes och hade börjat bevista förhör;
+Jacob var åtta, Maria Mathilda fyra och Anna Fredrika ett. **Att just den
+äldstes rad bär tecken där de yngres är tomma är själva belägget för att
+kolumnerna lästes och inte förbisågs.**
+
+**Uppgiften har materiell betydelse för P-0098.** Hennes akt sade att hennes
+senare öde inte var fastställt. Det gäller fortfarande — men eftersom både
+`Död.` och `Flyttat` är lästa och tomma på hennes rad **uppstår hennes lucka
+efter 1873**, i den bok som följde, och inte i denna. Frågan har därmed fått
+en adress.
+
+`Stödda påståenden` utökas med A-7773 och A-7789 (P-0097) samt A-7775 och
+A-7791 (P-0098).

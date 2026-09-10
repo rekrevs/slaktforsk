@@ -42,3 +42,39 @@ A-0362, A-0365–A-0366, A-0369–A-0370, A-0374 och A-0378–A-0379.
   sin akt.
 
 Stödda påståenden utökas med A-5550–A-5553 (P-0096).
+
+## Tillägg T-0181, 2026-09-09: P-0099:s familj är nu utvunnen
+
+T-0155 pekade 2026-09-08 ut att samma sparade fullbild
+(`Folk_024009-086`, 800 × 1 370 px) bär **två familjer som avsnittet
+`Avlästa uppgifter` inte nämner**, och att ingen av dem hade nått sin akt.
+P-0096:s familj infördes då som A-5550–A-5553. **P-0099 Nils Leonards familj
+är nu utvunnen.**
+
+Bladets tryckta rubriker lyder `1 By eller lägenhet … Namn (fullständigt) å
+hvarje person; familjeställning … titel`, `2 Yrke … Stam … Lyte`,
+`3 Födelse- år.`, `5 ort`, `7–8 Ogift m./q.`, `Gift`, `Enkling`, `Enka`,
+`Frånskild` och `14 Trosbekännelse … Nationalitet … Frånvarande`, under
+dokumenthuvudet **`Utdrag ur Församlingsboken`**.
+
+Hans familjegrupp lyder:
+
+> Nils Leonard Jacobsson | Hemmansegare | 74
+>
+> h. Anna Albertina Öberg | | 79
+>
+> d. Agnes Maria | | 00
+
+**`Hemmansegare` är hans första egna yrkesuppgift** och var outvunnen i en
+bild projektet redan hade. **Hustruns tillnamn skrivs `Öberg`** — samma
+namnform som församlingsbokens sida 824 bär vid omläsning, och **denna post
+är gjord av en annan skrivare**, vilket gör den till ett andra, oberoende
+förande av just namnformen. Det stöder rättelsen av
+[C-0425](C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md):s `Lundgren[?]`.
+
+**Bladet är fortsatt ett utdrag.** Dokumenthuvudet visar att det är härlett ur
+den församlingsbok det använts för att bekräfta, så uppgifterna räknas **inte**
+som oberoende belägg för sida 824 — **utom i just läsningen av en namnform**,
+där två skrivares hand är två avläsningstillfällen.
+
+`Stödda påståenden` utökas med A-7779 (P-0099).

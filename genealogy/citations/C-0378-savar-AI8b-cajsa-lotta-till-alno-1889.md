@@ -44,3 +44,31 @@ Albert har en egen likalydande Alnönot 1889-05-21. Charlottas destination har A
 ### Oberoende radkontroll i samma pass
 
 En andra läsare har jämfört helbild och nativebeskärning och bekräftar att det bleka råledet ligger inom moderns rad 6, ovan Carls separata nästa not. Råtextens innebörd och datum är fortfarande reserverade. Detta är ingen säker yrkesändring, bestraffning eller annan ny personhändelse.
+
+## Tillägg T-0177, 2026-09-09: sonens namn är inte `Carl Waldemar`
+
+Tillägget från T-0142 skriver `Emma Maria och hennes son Carl Waldemar samt
+Jonas Peter finns på egna senare rader`. **Namnet `Carl Waldemar` är
+felaktigt.**
+
+Den lokalt sparade helbilden `C0034439_00027` — samma bild som denna citation
+hänvisar till — har lästs om inom T-0177 vid 350–1200 %. Raden under Emma
+Marias egen rad lyder `hennes **oä.** son` med födelsen `1886 ⁶/₉`, och
+namnet läses `[A?]lex **Bernhard**`:
+
+- det andra namnledet har en **loopad `B`**, ett **högt `h`** mitt i ordet och
+  ett avslutande **loopat `d`** — `Waldemar` saknar `W` och slutar inte på
+  `d`, och är därmed **uteslutet**;
+- förnamnet är delvis övertäckt av hushållets krysstrykning och läses mest
+  sannolikt `Alex`, men är **inte avgjort**.
+
+**Två uppgifter till på samma rad var outvunna.** Ordet `oä.` — med tydliga
+umlautpunkter — betyder **oäkta**; och i **dödskolumnen** står `¹⁰/₉ 86`,
+kontrollerat genom kolumnens x-läge mot faderns `85 ¹⁷/₁₁` och Carl Eriks
+`85 ⁹/₇` i samma utsnitt. **Sonen levde fyra dagar.**
+
+Detta tillägg upphäver inte T-0142:s övriga läsningar, som gäller moderns
+egen rad och står oförändrade. Rättelsen är rapporterad till P-0059:s ägare
+och förd i P-0061 som A-7738; sonen får **inget** eget person-id.
+
+Berörda påståenden: A-2058 (P-0059) och A-7738 (P-0061).

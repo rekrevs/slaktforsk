@@ -148,3 +148,31 @@ Egen födelse och vigsel, dagavvikelsen och Anna Stinas moderskap är öppna. [C
 > ## Arbetsläge
 >
 > - Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)
+
+### Inkommande följdfynd från T-0171, 2026-09-09
+
+Avgränsad rapport från makens och sonens kohortuppgift. **Ingenting i akten
+ovan är ändrat**, och inget A-id är rört; T-0143 äger akten.
+
+- **Din åldersuppgift är omräknad till ett intervall.** Sonen Anders
+  födelsepost 1814 anger `Bond. Eric Anderssons hustru Stina Andersd:r,
+  **39 år**`. Åldern i mars 1814 ger födelsetid mellan **mars 1774 och mars
+  1775**. Intervallet är hennes enda datering; åldrar i ministerialböcker
+  anges ofta i löpande år eller avrundat, så åren 1774, 1775 och möjligen
+  1773 måste alla prövas.
+- **Vigselfönstret för ditt äktenskap är preciserat.** C-0177:s noll omfattar
+  Årdala `C/2` 1797–1809, alltså till volymens slut. Intervallet valdes på
+  premisserna att maken var född **1781** — rättat i T-0141 till 1784-12-25,
+  vilket gör honom 12–17 år 1797–1802 — och att hushållsdottern Anna Stina
+  från 1804 var makens dotter, vilket citationen självt håller öppet. Under
+  den möjligheten är sonen Anders födelse i mars 1814 den enda undre gränsen,
+  och **årgångarna 1810–1813 i `C/3` är osökta** — i en volym som redan är
+  öppnad för både makens andra vigsel och sonens födelse.
+- **Sonens dopvittnen är förda till hans akt** för första gången: `bonden
+  Jonas Ols[son] i Sannerby`, `hustru Stina Pehrsd:r i Förja By[?]`,
+  `drängen Anders Andersson i Ekeby` och `pigan Fredrica Olsd:r i Sannerby`.
+  `Stina Pehrsdotter` är den person vars namn en gång lästes som ditt;
+  åtskillnaden är alltså synlig i vittneslistan själv.
+
+Ingen ny arkivåtkomst har skett. Se C-0177:s daterade tillägg och
+[P-0221](P-0221-erik-andersson-carlberg.md) A-7513.

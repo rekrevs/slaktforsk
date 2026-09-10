@@ -116,3 +116,31 @@ C-1057, Vadsbrokedjan i C-1058/C-1059/C-1064/C-1065 och Skedevi i
 C-1067–C-1070. Mottagarens attestnummer51 ska inte användas som en
 självklar utgående attest51 i Vadsbro; där har post55 identifierats.
 Spånga/Gånga har nu omprövats i C-0016 och Spånga är aktuell läsning.
+
+## Tillägg T-0177, 2026-09-09: barnens rader bär inget efternamn
+
+Ingen ny läsning av bilden har gjorts; iakttagelsen följer av avskriften ovan
+och gäller dess **struktur**.
+
+**Hushållstabellen visar att inget av de fyra barnen har ett efternamn på sin
+egen rad.** Raderna 13 och 14 ger `Dr. Karl Fredrik **Jansson**` och
+`H:u Charlotta Wilhelmina **Larsson**`, medan raderna 15–18 ger `S. Sven Edvin
+Severus`, `D:r Ada Wilhelmina`, `S:n **Thorvald** Stefanus` och
+`S:n Ture Alexius` — **enbart dopnamnen**.
+
+Detta bekräftar för [P-0045](../people/P-0045-torvald-stefanus-jansson.md)
+samma sak som A-5710 slog fast för
+[P-0044](../people/P-0044-sven-edvin-severus-jansson.md) över åtta lästa
+källor: **`Jansson` är projektets familjebundna visningsnamn, hämtat ur
+hushållets överrad, och inte en belagd egen form.**
+
+**Två preciseringar för P-0045.** Källan skriver honom `Thorvald` **med
+`h`**, medan aktens visningsnamn har den moderniserade formen `Torvald`;
+båda ska prövas vid sökning. Och **hans nolla är inte broderns**: Flens
+församlingsbok 1914–1915 skriver honom `Torvald Stefanus **Jaensson**` på
+hans **egen** rad
+([C-0911](C-0911-jansson-ljungbacka-flen-1914-1915.md)), vilket är den enda
+efternamnsform som är hans — och den stavas med `ae`. P-0044:s dokumenterade
+efternamnsnolla får därför **inte** överföras till Torvald.
+
+Berörda påståenden: A-3933 och A-7742–A-7743 (P-0045), A-5710 (P-0044).

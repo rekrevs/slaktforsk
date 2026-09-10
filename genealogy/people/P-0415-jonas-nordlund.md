@@ -41,11 +41,11 @@ Kolaren Jonas Nordlund i Norafors–Stormyran är förankrad som make till Gertr
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0416](P-0416-gertrud-olofsdotter.md) Gertrud Olofsdotter | hustru | 1842-04-10; senare Norafors–Stormyran | CORROBORATED | [C-1030](../citations/C-1030-holm-C1-1842-jonas-nordlund-gertrud-vigsel.md); [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
-| [P-0419](P-0419-stefan-erik-nordlund.md) Stefan Erik | son | A I/8 sida 255 | TRANSCRIBED | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
-| [P-0251](P-0251-stina-kajsa-nordlund.md) Stina Kajsa | dotter | A I/8 sida 255 | CORROBORATED | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
-| [P-0420](P-0420-jonas-nordlund-fodd-1850.md) Jonas, född 1850 | son | A I/8 sida 255 | TRANSCRIBED | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
-| [P-0421](P-0421-ingrid-brita-nordlund.md) Ingrid Brita | dotter | A I/8 sida 255 | TRANSCRIBED | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
+| [P-0416 Gertrud Olofsdotter](P-0416-gertrud-olofsdotter.md) | hustru | 1842-04-10; senare Norafors–Stormyran | CORROBORATED | [C-1030](../citations/C-1030-holm-C1-1842-jonas-nordlund-gertrud-vigsel.md); [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
+| [P-0419 Stefan Erik](P-0419-stefan-erik-nordlund.md) | son | A I/8 sida 255 | TRANSCRIBED | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
+| [P-0251 Stina Kajsa](P-0251-stina-kajsa-nordlund.md) | dotter | A I/8 sida 255 | CORROBORATED | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
+| [P-0420 Jonas, född 1850](P-0420-jonas-nordlund-fodd-1850.md) | son | A I/8 sida 255 | TRANSCRIBED | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
+| [P-0421 Ingrid Brita](P-0421-ingrid-brita-nordlund.md) | dotter | A I/8 sida 255 | TRANSCRIBED | [C-0530](../citations/C-0530-sattna-AI8-stina-kajsa-foraldrahushall.md) |
 | Torparen Stephan [Steff…son?] och hustrun Ingri Jonsdotter | föräldrar i födelseposten | 1816, hemvist Hullsj[ön?] | TRANSCRIBED | [C-0531](../citations/C-0531-holm-C1-jonas-fodd-1816.md); inga nya P-id:n eller uppåtfusioner |
 | [S]tina Cajsa, född 1844-12-19 | dotter till samma par; identitet med P-0251 oprövad | Hulsjön i Holm | LEAD | [C-1042](../citations/C-1042-holm-C1-1843-1845-nordlund-hulsjon.md) |
 | Anders Jonsson | dopvittne; bonde | 1816-10-13, Matfors[?] | TRANSCRIBED | [C-0531](../citations/C-0531-holm-C1-jonas-fodd-1816.md); inga fadderfusioner |

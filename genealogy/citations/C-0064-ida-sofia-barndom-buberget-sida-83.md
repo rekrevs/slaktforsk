@@ -122,3 +122,112 @@ därmed fullständigt med C-0964:s ende Jonas i den i sin helhet lästa årgång
 1796, och A-3616 har höjts från `LEAD` till `CORROBORATED`. Föräldrarna i den
 posten har medvetet **inte** införts som personposter — ett nytt generationsled
 ligger utanför T-0163 och kräver ägarbeslut.
+
+## Tillägg T-0178, 2026-09-09: en felläsning i avskriften och en tredje variant
+
+Den sparade helbilden (`A0001445_00084`, 5 861 × 4 879 px) är omläst vid
+250–800 % med rubrikraden i samma utsnitt som datacellerna.
+
+**Avskriftens `1876 24/3` är en felläsning.** Anders rad är
+**marginalinförd** — ett senare tillägg skrivet vid sidan av kolumnen, vilket
+är förenligt med att han föddes under bokens period — och nämnaren har en
+**flat topplinje och en enda nedre bowl**, formen på en `5`. Skrivarens `3`,
+i moderns `³⁰/₁₀`, har **två bowlar** och ingen flat topp. Samma form står i
+A I/10c och A I/11c. **1876-05-24**; se A-7748 i
+[P-0069](../people/P-0069-anders-andersson-degerfors.md). **Eftersom den
+felaktiga dagen bara vilade på denna avskrift är hela månaden rättad**, och
+`1876-03-24` får inte propageras vidare.
+
+**Moderns födelsedag läses `30/10` i bilden**, mot avskriftens `20/10` och
+mot `1843-03-30` i C-0404. **Tre skilda varianter är i omlopp.** Frågan ägs
+av [P-0066](../people/P-0066-lotta-sofia-andersdotter.md) och avgörs inte här.
+
+**Oberoendeförbehåll.** Denna citation används på flera ställen jämte
+[C-0060](C-0060-johan-oskar-zingmark-folkrakning-1890.md) som om de vore två
+röster. C-0060 bär det tryckta dokumenthuvudet
+`Utdrag ur Husförhörslängden för Degerfors` och är en avskrift ur **samma**
+längdserie som denna volym. **De är en informationsväg, inte två.**
+
+`Stödda påståenden` utökas med A-7748 (P-0069).
+
+## Tillägg T-0180, 2026-09-09: `Död.`-kolumnen bär tvillingarnas dödsdagar
+
+Den sparade helbilden (`A0001445_00084`, 5 861 × 4 879 px) är omläst vid
+200–400 %, **med de tryckta kolumnrubrikerna i samma utsnitt som
+datacellerna**. Tillägget avser tvillingraderna och tjänstefolkets rader;
+familjens övriga rader rörs inte utöver vad som redan står ovan.
+
+**Den tryckta `Död.`-kolumnen bär två datum.** Uppslagets kolumnföljd på höger
+del av vänstersidan är `Flyttad (från Socken i Län, Stad, eller pagina i
+Husförhörs-boken.)`, `Är, månad och dag.`, `Inflyttnings-attestens nummer.`
+och därefter **`Död.`** De två överstrukna tvillingraderna bär i den sista av
+dessa:
+
+- **`Anders`, född `1873 ⁹/₅` — `Död.` `1874 ³¹/₁₂`**
+- **`Carl`, född `1873 ⁹/₅` — `Död.` `1875 ⁷/₅`**
+
+**Detta överspelar formuleringen `marginaldatum` i A-0348 och A-0349.**
+Talen står inte i marginalen utan **inne i den tryckta dödskolumnen**, läst
+med rubriken `Död.` i samma utsnitt och med rubrikerna `Är, månad och dag` och
+`Inflyttnings-attestens nummer` synliga till vänster som positionskontroll.
+Per källans egen struktur är de alltså **dödsdatum**, och tvillingarnas senare
+öde är därmed fastställt: **Anders dog 1874-12-31 och Carl 1875-05-07**, fyra
+månader och sju dagar isär. Se A-7765 och A-7767.
+
+**Detta är exakt den felklass som person-standard.md varnar för** i avsnittet
+om tabellförda källor — en tryckt smalkolumn läst som ett marginaltal — och
+rättelsen följer av kolumnens position, inte av en bedömning.
+
+**Ett oberoende stöd finns i en redan läst handling.** Moderns bouppteckning
+1898 ([C-0485](C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md)) namnger
+**åtta** arvingar medan familjen har **tio** kända barn; två hade dött före
+1898, och de två raderna med `Död.`-datum är just de två.
+
+**Kolumnredovisning för tvillingraderna** enligt person-standard.md: födelseår
+och dag **avskrivna**; ort **avskriven** som dittotecken för församlingen;
+äktenskap **läst och tom**; koppor **avskriven**, `v.` på egen rad; `Flyttad
+från`, `Är, månad och dag` och inflyttningsattestens nummer **lästa och
+tomma**; **`Död.` avskriven**. Klammern och ordet `Tvillingar` binder de två
+raderna.
+
+**Tjänstefolkets rader: fyra födelsedagar utvunna.** Databasposten
+[C-0066](C-0066-ida-sofia-folkrakning-1870.md) ger för hushållsvyns
+kontextpersoner **bara födelseår** och har ingen bevarad originalbild. Detta
+uppslag bär dem med **egna rader och fulla födelsedagar**:
+
+| Rad | Läst | Ort | Marginal |
+|---|---|---|---|
+| `Dräng Daniel Danielsson` | **`1849 ⁶/₃`** | **utskrivet ortnamn**, inte dittotecken; namnet inleds `F` eller `J` och slutar på förkortningspunkt — **inte säkert läst** | `bort.` |
+| `Pig. Brita Carol. Andersd:r` | `1842`, dagen delvis dold av strykningen | **`Jörn`**, utskrivet | — |
+| `Piga Maria Johanna Andersd:r` | **`1849 ²/₈`** | dittotecken för församlingen | — |
+| `Piga Brita Carolina Andersd:r` | **`1842 ¹⁵/₁`** | dittotecken för församlingen | `bort.` |
+
+**Tre följder, och två av dem är identitetsvarningar.**
+
+**1.** `Maria Johanna Andersd:r`s dag, **1849-08-02**, sammanfaller med
+**dag, månad, år, patronymikon och födelseförsamling** för Lotta Sofia
+Andersdotters syster `Maria Johanna` i
+[C-0111](C-0111-anders-olofsson-hushall-roda-1861.md). **Ingen identifiering
+görs här** — frågan ägs av P-0066 (Q-02) och T-0157, och kohortomfånget
+utesluter osäkra identitetssammanslagningar.
+
+**2.** Uppslaget bär **två** rader för en `Brita Carolina Andersdotter` född
+1842, som i den lästa delen skiljs **enbart av födelseorten** —
+`Jörn` mot dittotecken. Databasposten `f. 1842 i Degerfors` pekar på den
+nedre. **Att de skulle vara samma kvinna, införd två gånger med korrigerad
+ort, kan inte uteslutas**; den övre radens dag är dold av strykningen.
+
+**3.** Drängens ortcell bär ett **utskrivet** namn där församlingsfödda får
+dittotecken. **Att cellen inte är ett dittotecken är säkert läst; vad namnet
+är är det inte**, och läsningarna `Fordsnl.` och `Jordsnl.` **normaliseras
+inte**. Uppgiften står mot databaspostens `i Degerfors`, och **konflikten
+bevaras**.
+
+**Utvinningsrester, uttryckligt namngivna.** För de fyra tjänstefolksraderna
+är **koppor-, kunskaps-, frejd- och flyttningskolumnerna samt `Död.`-cellerna
+inte lästa** i denna genomgång. Kolumnerna är ifyllda för andra rader på samma
+uppslag, så cellerna är **utvinningsrester och inte lästa nollor** — och
+`Död.`-cellen ska läsas uttryckligen, eftersom just den kolumnen på detta
+uppslag visat sig kunna bära datum som tidigare lästs som marginaltal.
+
+`Stödda påståenden` utökas med A-7762–A-7765 och A-7767 (P-0083–P-0087).

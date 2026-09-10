@@ -246,3 +246,32 @@ C-0917:s original har 18 mars 1850 och vigsel 19 juni 1885. Tidigare
 18 augusti och 7 juni var avskriftsfel, inte konflikter mellan böckerna.
 Aktuella datumresonemang har stämts av; T-0121:s övriga prövning består.
 Moderns 24 juni 1863 i samma bok rättas i hennes akt inom T-0127.
+
+### Inkommande följdfynd från T-0176, 2026-09-09
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0176, som läste om de
+sparade helbilderna av
+[C-0025](../citations/C-0025-bernhard-folkrakning-1900.md) och
+[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md) vid 250–350 % för
+barnens skull. Ingen ny arkivpassage öppnades och ingen uppgift förs in i
+akten här; ägaren avgör.
+
+**Ditt födelseår avviker mellan de två folkräkningsbladen, och avvikelsen
+står i bilden.** C-0025 skrev tidigare att `Registerpostens fadersår 1858
+avviker från 1850 i C-0024 och C-0026`, alltså att avvikelsen låg i den
+härledda databasposten. Vid omläsning står talet **`58`** i din egen
+födelseårscell **på bladet 1900**, mot **`50`** på bladet 1910. Det är därmed
+en avvikelse mellan **två blad**, inte mellan ett blad och ett register.
+
+**Två förbehåll som ändrar hur avvikelsen ska vägas.** Båda bladen bär tryckta
+dokumenthuvuden — `Utdrag ur Församlingsboken för Wesås annex` 1900 och
+`Utdrag ur Församlingsboken för Värsås` 1910 — och är alltså utdrag ur
+**samma** församlingsbok. De är kompletterande, inte självständiga, och
+röstetalet mellan dem är inte två mot ett. Och **din hustrus årtal avviker
+mellan samma två blad på samma sätt**, `67` mot `63`
+([P-0021](P-0021-augusta-viktoria-johansson.md)). Att båda föräldrarnas årtal
+förskjuts i samma par av blad är en prövbar hypotes om ett **systematiskt
+överföringsfel**, inte två separata konflikter.
+
+Ditt belagda datum 1850-03-18 ur originalet (T-0127) berörs inte. Anmälan är
+riktad till T-0224 och T-0223, som äger dina öppnade målposter.

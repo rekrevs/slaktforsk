@@ -54,3 +54,30 @@ på distans.
 ## Stödda påståenden
 
 A-0703–A-0705.
+
+## Daterat tillägg 2026-09-09 — T-0169: A I-seriens åtkomstobservation är aldrig omprövad
+
+Ingen ny åtkomstkontroll är gjord i detta tillägg, och **ingenting ovan är
+ändrat**. Tillägget daterar om vad observationerna är värda i dag.
+
+Kontrollen 2026-08-20 gav samma utfall för tre volymer i samma arkiv,
+`SE/HLA/1010220`: födelse- och dopboken `C/2` (A-0703) och
+husförhörslängderna `A I/4` och `A I/5` (A-0704) kunde inte nås på distans.
+
+**Utfallet för `C/2` föll dagen därpå.** Den 21 augusti visade den inloggade
+katalogen `Bild`, bildvisaren öppnade batch `C0034473`, och årgången 1783
+lästes komplett den 4 september
+([C-0855](C-0855-umea-stadsforsamling-C2-anna-catharina-1783-kontroll.md)).
+**Utfallet för `A I/4` och `A I/5` är däremot aldrig omprövat.**
+
+Metodnoten ovan är avgörande här: kontrollen kan inte skilja odigitaliserad
+volym från digitaliserad men inte publikt serverad, och det belagda är att
+volymerna **inte kunde nås den dagen**. En sådan observation är en tidsbunden
+uppgift, **inte ett källslut** — och systervolymens utfall visar precis det.
+
+Följden är förd som A-7350 i
+[P-0149](../people/P-0149-anna-catharina-andersdotter.md), vars `Källbredd`
+har ändrats från `KLAR` till `PÅGÅR`. Husförhörslängderna 1773–1807 är den
+enda källa som skulle visa henne i sitt föräldrahem. **Nästa steg är en ny
+daterad åtkomstkontroll av A I-serien på samma inloggade väg som redan
+fungerar för C/2** — inte en omsökning av födelseåret 1783, som är uttömt.

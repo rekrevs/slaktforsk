@@ -41,3 +41,34 @@ Den redan bevarade fullbilden C0019312_00131 har lästs i sin helhet för Caroli
 Vittnesraden lyder: `Jan Andersson o. dess hustru Eva Lotta CarlsDotter dto — Dräng Anders Persson i Adamsberg pig Ulla And.Dotter i [Kydan?]`. Dito hänför de två första till Medevi Brunn. Den sista orten är prövad men reserverad; patronymikonsförkortningen expanderas inte till en ny säker personidentitet. Ingen släktskap följer av vittnesrollen.
 
 Hela postens marginal och avslut har prövats. Ingen separat dopförrättare, kyrktagningsdag, dödsnot eller annan personbunden marginaluppgift framgår. Rååldern ger inte ensam ett exakt födelsedatum. Tidigare fullbild och dess SHA-256 består; ingen ny arkivhämtning.
+
+## Tillägg T-0173, 2026-09-09: vittnesleden och modersåldern förda som sakuppgifter
+
+Ingen ny arkivåtkomst och ingen ny läsning av bilden. Detta tillägg redovisar
+att två redan utvunna uppgifter nu är förda som påståenden i personakten, och
+med vilken räckvidd.
+
+**Dopvittnena.** T-0141 utvann fyra vittnesled — `Jan Andersson` och hustrun
+`Eva Lotta Carlsdotter`, båda dito Medevi Brunn, `drängen Anders Persson i
+Adamsberg` och `pigan Ulla And.Dotter i Kydan[?]` — men de stod kvar som
+prosa i en följdnot i akten utan att bli ett påstående eller en söknyckel. De
+är nu förda som A-7650 i
+[P-0324](../people/P-0324-carolina-ajax.md). **Inget vittne bär faderns
+familjenamn eller moderns patronymikon**, vilket gör dopvägen till en prövad
+och stängd släktväg i just denna post; nollet gäller de fyra namnen här och
+inte familjens vittneskrets i övrigt. Ortformen `Kydan[?]` och
+patronymikonsförkortningen `And.Dotter` behåller sina läsreservationer.
+
+**Modersåldern.** Talet `34` är nu jämfört med de två andra syskonposternas:
+[C-0303](C-0303-anna-josephina-ajax-fodd-vastra-ny-1828.md) ger `36` i
+september 1828 och [C-0304](C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md)
+ger `38` i maj 1830. **De tre talen stämmer inbördes exakt** — +2 år över två
+år, två gånger — vilket gör dem till en konsistenskontroll av tre oberoende
+poster och ger moderns födelsetid till omkring 1791–1792. Slutsatsen om
+modern ägs av [P-0267](../people/P-0267-katarina-carin-jonsdotter.md) och är
+rapporterad dit; i denna post är talet fört som A-7652 med räckvidden
+*konsistenskontroll av den egna posten*.
+
+Faderns titel i denna post är `BrunnsDräng.`, den lägsta punkten i hans
+yrkesföljd; följden över sex handlingar är sammanställd i
+[P-0266](../people/P-0266-petter-gustav-ajax-persson.md) A-7640.

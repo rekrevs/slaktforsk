@@ -4785,3 +4785,48 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   godkänna ett ouppfyllt krav. Nivån återfås när T-0034 är utförd.
 - Revisit when: T-0034 är utförd, eller om ägaren vill dra en snävare gräns för
   någon enskild levande person.
+
+## PCD-2026-09-09-030
+
+**Minimiläge för löst anknutna akter i personaktsprogrammet**
+
+- Record type: decision
+- Date: 2026-09-09
+- Decides review: direkt ägarinstruktion under personaktsprogrammet; ingen
+  separat PCR
+- Owner: Sverker Adam Janson
+- Decision: akter för **löst anknutna personer** — dopvittnen, faddrar och
+  hushållskontextpersoner utan belagd släktrelation till antavlan — förs till
+  `person-dossier/v1` och får en identitetsnivåbedömning, men **i minimiläge**:
+  kort text, tio teman bedömda men inte utbyggda, källvägar på några rader,
+  och en biografisk sammanfattning på några meningar. **Ingen livsbildsforskning
+  startas för dem.** Kontraktets krav och aktstandardens format gäller
+  oförändrade; det är **omfånget på prosan** som begränsas, i enlighet med
+  standardens egen regel att hålla prosa proportionerlig mot materialet.
+- Trigger: ägarens iakttagelse 2026-09-09, "det känns som att vi lagt krut på
+  högst löst anknutna personer, som dopvittnen… dem bryr vi oss inte om i
+  denna fas av arbetet". Iakttagelsen är riktig och belagd i repot: **P-0080,
+  P-0081 och P-0089 har ett påstående var och fick lika utförliga profiler som
+  Bubergetsyskonen med tio.** Kohortmedlemskapet självt är däremot inte valt av
+  utföraren — PCD-2026-09-07-026 och T-0114 fördelade **samtliga 538** akter
+  till fasta kohorter, och vittnena låg i repot sedan augusti.
+- Disposition: approved
+- Supersedes decision: `PCD-2026-09-07-026` endast i fråga om **arbetsdjup per
+  akt**. Programmets omfång är oförändrat: samtliga akter ska konsolideras, och
+  T-0115:s täckningslöfte står kvar. **Ingen akt utesluts**, och ingen
+  identitetsgrind sänks.
+- Related records: `PCD-2026-09-07-026`, `genealogy/person-standard.md`
+  (avsnittet om proportionerlig prosa), `genealogy/person-contract.md`
+  (två färdignivåer), `T-0114`, `T-0115`
+- Resulting Wotan tasks: inga nya. Beslutet gäller från och med T-0180:s
+  återstående akter och framåt i kohorterna T-0181–T-0203.
+- Portfolio signal: **beslutet ändrar ingen registrerad bedömning.** 179 akter
+  återstår utan profil, varav **12 är en- eller tvåpåståendeakter** och 8 har
+  `dopvittne` i rubriken. Djupregeln gäller alltså inte främst en hög med
+  vittnen utan **arbetsinsatsen per akt i de 179 som återstår**. De nio redan
+  skrivna löst anknutna profilerna — P-0074–P-0079, P-0080, P-0081 och
+  P-0089 — **skrivs enligt ägarens beslut inte om**: sakinnehållet är riktigt
+  och verifierat, och bara omfånget är oproportionerligt.
+- Revisit when: ägaren vill dra en annan gräns för vad som räknas som löst
+  anknutet, eller om en löst anknuten person visar sig bära en linje och
+  därmed behöver full behandling.

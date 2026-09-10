@@ -63,8 +63,8 @@ belägget för det är hans egna rader ovan.
 | [P-0097 Jakob](P-0097-jakob-ultervattnet.md) | bror | Ultervattnet; född 1865-12-06, i hushållet 1865–1900 | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0098 Maria Mathilda](P-0098-maria-mathilda-ultervattnet.md) | syster | Ultervattnet; född 1869-03-14, i hushållet 1869–1880 | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0049 Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md) | syster | Ultervattnet; född 1872-02-08, till sida 853 år 1904 | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
-| [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md) | bror | Ultervattnet; född 1874-09-24, eget hushåll på samma sida från 1899 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
-| [P-0100 Kristina Lovisa](P-0100-kristina-lovisa-ultervattnet.md) | syster | Ultervattnet; född 1877-04-26[?], till sida 820 år 1905 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
+| [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md) | bror | Ultervattnet; född **1874-09-26**, eget hushåll på samma sida från 1899 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
+| [P-0100 Kristina Lovisa](P-0100-kristina-lovisa-ultervattnet.md) | syster | Ultervattnet; född **1877-04-26**, till sida **820 den 2 december 1905** | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0101 Carl Erik](P-0101-carl-erik-ultervattnet.md) | bror | Ultervattnet; född 1880-05-16, eget hushåll på samma sida från 1907 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0102 Maria Jacobsdotter](P-0102-maria-jacobsdotter-ultervattnet.md) | farmor | Ultervattnet; änka 1863–1873, förgångsmor 1880 | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0103 Anders Olofsson](P-0103-anders-olofsson-ultervattnet.md) | farfar | Ultervattnet; hushållets överstrukna huvudrad 1863–1873 | TRANSCRIBED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md) |
@@ -259,3 +259,23 @@ saknas gäller inte den senare boken.
 > ## Konsolideringsrättelse — T-0131
 >
 > C-0425:s fortsatta hushåll tillgodoräknat. Den tidigare uppgiften att patronymikon saknas gäller inte denna senare bok. Full akt-/profilgranskning T-0155.
+
+#### Följdrättelse från T-0181, 2026-09-09: tre läsningar i syskonens rader
+
+Tre läsningar ur [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md)
+är omprövade vid konsolideringen av syskonkohorten, alla genom glyfjämförelse
+mot samma skrivares övriga siffror på samma uppslag.
+
+- **[P-0099 Nils Leonards](P-0099-nils-leonard-ultervattnet.md) födelsedag är
+  `26/9`, inte `24/9`.** Båda hans rader skriver samma dag. Se A-7776.
+- **[P-0100 Kristina Lovisas](P-0100-kristina-lovisa-ultervattnet.md)
+  födelsedag är `26/4`** och den alternativa läsningen `24/4` **faller**.
+  Reservationen `[?]` är därmed upplöst. Se A-7781.
+- **Hennes överföring till folio 820 är daterad `2/12 05`, inte `2/10[?]`** —
+  **2 december 1905.** Nämnarens andra tecken är en `2`, inte den slutna
+  ovalen `0` i `05` intill. Se A-7782.
+
+**Inget annat i denna akt berörs.** Relationsraderna är uppdaterade;
+årtalen är oförändrade.
+
+Rättelserna är inrapporterade till T-0155, som äger denna akt.

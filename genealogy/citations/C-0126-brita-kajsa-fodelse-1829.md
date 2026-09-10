@@ -77,3 +77,20 @@ inte räknas som en av flera oberoende observationer av det namnet, och
 namnformen kan inte ensam identifiera någon Pehr som far. Bilden är en
 skärmbild men täcker den relevanta posten läsbart; filen matchar angiven
 SHA-256. Ingen fullbladsbrist påstås enbart på grund av skärmbildsformatet.
+
+## Daterat tillägg 2026-09-09 — T-0169: vittneskolumnen och åldersuppgiften är nu tagna i bruk
+
+Ingen ny läsning och ingen ändring av avskriften ovan. Tillägget redovisar var
+postens redan avskrivna uppgifter nu används.
+
+- Moderns ålder **20 år** och hemvisten **`Säfvesta[?]`** är förda som A-7400
+  i [P-0164](../people/P-0164-anna-lisa-jansdotter-skoldinge.md). Åldern ger
+  hennes födelsetid till **oktober 1808–oktober 1809** och är den enda
+  datumnyckel som finns om henne. Ortformens läsreservation följer med.
+- Vittnesledet `Bonden Eric Jansson i Säfsta och hans hustru Cajsa Nilsdotter`
+  är fört som A-7401. Vittnet bär **både** moderns patronymikon och en
+  ortform som ligger nära hennes egen hemvist. Sammanträffandet är en
+  söknyckel; **ingen relation skapas.**
+- Att ingen far är införd i föräldrafältet är fört som A-7402, med postens
+  egen varning bevarad: **vittnena får inte läsas som föräldrar**, och den
+  svaga strukna `af…`-noten under barnets namn är prövad och lämnad otolkad.

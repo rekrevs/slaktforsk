@@ -165,3 +165,33 @@ C-0317:s exercis utvunnen. Äldre akt nedan är historik, inte parallella slutsa
 > - Sök hans födelsenotis i Gryt kring 1843-10-12 för att avgöra konflikten mot
 >   folkräkningsåret 1848. Syskonrelationen till Pehr Albert och föräldraparet
 >   Carl Fredrik Ålund–Maja Catharina Carlsdotter är löst i Helgesta A I/15.
+
+#### Bundet tillägg från T-0182, 2026-09-09: boställsnamnet i Helgesta och två upplösta reservationer
+
+Tre led i akter som denna akt vilar på är omlästa vid konsolideringen av
+hustrun [P-0114](P-0114-anna-fredrika-blom.md) och sonen
+[P-0115](P-0115-karl-fredrik-alund.md). **Ingen uppgift i denna akt är
+rättad**; tillägget lägger till och preciserar.
+
+- **Orten han flyttade från 1874 läses `Gräslöten`, inte `Gästekvarn[?]`.**
+  [C-0097](../citations/C-0097-fredrik-wilhelm-utflyttning-helgesta-1874.md):s
+  avskrift reserverade boställsnamnet. Vid 430–600 % är ordets **fyra första
+  bokstäver otvetydigt `Gräs`** — ett `r` följer på `G` — vilket utesluter
+  `Gäste-`. Ordets senare del läses `-löten` med kvarstående reservation.
+  **Ortnamnet är inte tidigare belagt i projektet**, och det är hans boställe
+  i Helgesta före flytten. Se A-7794 hos P-0114.
+- **`Hogtorp[?]` i dopvittneskolumnen 1877 är `Högtorp`.**
+  [C-0075](../citations/C-0075-hulda-amalia-fodelse-1877.md) reserverade
+  boställsnamnet, och T-0125 lämnade reservationen kvar efter en
+  fullbildsprövning. **Den är upplöst av
+  [C-0094](../citations/C-0094-urbom-alund-inflyttning-gryt-1874.md)**, som
+  skriver `Högtorp` med folio 170 för samma man med hustru 1874. **Han bodde
+  alltså i Högtorp 1874–1877.** Se A-7795 hos P-0114.
+- **Kolumnen `Qvinkön.` på hans utflyttningspost bär `1`.** Kolumnrubrikerna
+  är lästa i samma utsnitt som cellerna, och kolumnerna är belagt i bruk på
+  samma uppslag. **A-0504:s uppgift att han var inflyttad med hustru har
+  därmed en motsvarighet på utflyttningssidan:** hustrun lämnade Helgesta med
+  honom, räknad men namnlös. Se A-7793 hos P-0114.
+
+**Tilläggen är inrapporterade till T-0143, som äger denna akt.** Hans
+identitetsnivå och kontraktsgranskning är oförändrade.

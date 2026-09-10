@@ -81,3 +81,32 @@ på 6 juni får inte automatiskt omtolkas till en ny utförd kontroll på
 26 juni eller till uteslutning av alla andra Anna. T-0327 äger avgränsad
 metadatarekonstruktion. Ingen ytterligare helårssökning behövs för att
 läsa den redan positiva januariposten.
+
+## Tillägg T-0175, 2026-09-09: moderns ålder räknad till ett tolvmånadersfönster
+
+Ingen ny arkivåtkomst och ingen ny läsning av bilden. Detta tillägg drar
+följden av en uppgift som utvanns i T-0141.
+
+Posten anger moderns ålder **24 år** och är daterad **1796-01-04**. Åldern
+ger hennes födelse till intervallet **1771-01-05 – 1772-01-04**.
+
+**Intervallet överlappar hushållsböckernas `1772` bara i årets fyra första
+dagar.** Det ger en testbar förutsägelse: **antingen föddes hon 1–4 januari
+1772, eller är den ena uppgiften ett år fel.** En uppgiven ålder i en
+födelsepost bär avrundningsrisk, så ingen av uppgifterna upphävs — men
+sökfönstret för hennes egen födelsepost är därmed **januari 1771 – januari
+1772**, alltså tolv månader i en volym som redan är i bruk. Inget datum
+konstrueras. Fört som A-7690 i
+[P-0227](../people/P-0227-brita-andersdotter-sannerby.md).
+
+**En källkritisk punkt tillkommer.** De två hushållsböckernas `1772` — A I/3
+sida 332 och A I/4 sida 142 — är **inte** två oberoende röster, eftersom en ny
+husförhörslängd normalt skrivs av den gamla. Åldern 24 i denna post är
+därmed den **enda** uppgift om henne som är oberoende av hushållsserien.
+Samma sak gäller makens `1768`.
+
+Volymens vigselavsnitt **1794–1796** kvarstår som den viktigaste oprövade
+passagen för båda makarna: en vigselpost namnger normalt brudens far och båda
+hemvister. Tidigare försök att öppna vigselbilderna gav `403`, ett
+**åtkomstfel** och inget källresultat, och den resultatlösa DDS-frågan är ett
+**registertäckningsresultat** och inget vigselnoll.

@@ -78,3 +78,38 @@ Sophia Beatas rad har en egen vidarehänvisning599 år1870, tätt dagtal
 reserverat. Yngre barn i faderns andra gifte hör till Cajsa Greta;
 Sara Rebecka blir inte avvisad som dotter bara för att hon saknas här.
 De nedre tjänsteradernas flytt- och frejdnoter överförs inte till familjen.
+
+## Tillägg T-0168, 2026-09-09: två omlästa siffror på faderraden
+
+Carl Jonas Zingmarks egen rad är omläst i den lokalt sparade helbilden vid
+400–500 % förstoring, med de tryckta kolumnrubrikerna i samma utsnitt som
+cellerna. Avsnitten ovan är append-only och står oförändrade.
+
+Radens celler:
+
+| Tryckt kolumn | Innehåll |
+|---|---|
+| `Personernas namn, stånd…` | `Far. Carl Jon. Zingmark,` följt av ett struket ord som läses `f. Landtb[?]`; hela namnet är överstruket. |
+| `Födelse- År.` / `Mån. och dag.` / `Ort.` | `1785` / `⁴/₁₁` / `Bygdeå` — **oförändrat och nu kontrollerat vid 400 %.** |
+| `Äktenskap: Gift.` / `Enkling eller Enka` | Ett tecken som läses `s` i den andra kolumnen; **reserverad läsning**, ingen slutsats om änklingsstånd. |
+| `Flyttad: från …` / `År, månad och dag` | `582` / `1869 ⁸/₁₁` |
+| `Död.` | `1870 ²⁷/₁₂` |
+| `Fräjd och särskilda anteckningar` | läst och tom |
+
+**Två siffror avviker från T-0133:s läsning.**
+
+**Inflyttningsåret läses `1869`, inte `1867`.** Sista siffran har en sluten
+övre ögla med nedstapel. Jämförelsen görs mot det flat-toppade `7` med rak
+diagonal som står i dödsdagens `27` på **samma rad**, och mot det öglade `2` i
+`582` i cellen intill.
+
+**Dödsdagen läses `²⁷/₁₂`, inte `²²/₁₂`.** Talets första siffra är det öglade
+`2`; den andra har den flata toppen och den raka diagonalen som skiljer `7`
+från `2` i denna hand.
+
+Båda talen bar redan `[?]` i A-4414, som står kvar oförändrad; det nya
+påståendet A-7310 i
+[P-0470](../people/P-0470-carl-jonas-zingmark.md#påståenden) bär den omlästa
+lydelsen. **Födelsetiden `1785 ⁴/₁₁` och födelseförsamlingen `Bygdeå` är
+oförändrade** och är fortfarande de enda uppgifter i projektet som kan öppna
+hans föräldraled: Bygdeås födelsebok 1785 är aldrig sökt.

@@ -110,3 +110,88 @@ ett systematiskt överföringsfel, inte två separata datumkonflikter. Födelseb
 är den väg som avgör frågan.
 
 Berörda påståenden: A-5500–A-5516 (P-0035, P-0038) samt A-3414–A-3416.
+
+## Tillägg T-0176, 2026-09-09: rad 6:s födelsedag är `29`, inte `22`
+
+Den lokalt sparade helbilden `00206819_00317` har lästs om inom T-0176 vid
+380–700 %. Ingen ny arkivåtkomst gjordes och avskriften ovan ändras inte.
+
+**Rad 6, Johan Magnus (P-0033), läser `1894 ²⁹/₁₀`.** Avskriften ovan ger
+`1894 ²²/₁₀`, och den uppgiften har spridits som en datumkonflikt mot
+[C-0574](C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) — senast i
+T-0154:s anmälan 2026-09-08, där den fördes vidare till kohorten som en
+konflikt som **måste** införas i akten.
+
+Kontrollen är skrivarens **eget sifferalfabet i samma kolumn**. Raderna 1–8
+bär talen `28/5`, `15/12`, `10/9`, `1/9`, `10/9`, `29/10`, `22/5`, `6/8`:
+
+- nollan i `10` (raderna 3 och 5) och i `12` (rad 2) är en **sluten oval**;
+- den andra siffran i rad 6:s räknare är **inte** sluten utan har en huvudloop
+  med nedåtgående svans, samma form som nian i denominatorerna på raderna 3–5
+  och som nian i årtalen `1890` och `1892` intill;
+- de tvåor som faktiskt förekommer i räknarposition, i rad 7:s `22`, har en
+  **platt bas** som tecknet på rad 6 saknar.
+
+Samma dag är dessutom prövad i C-0574:s helbild
+`F0013102_00192` vid 450 %, med en annan skrivare och en svartvit
+mikrofilmning: även där är räknaren entydigt `29`.
+
+**Det finns alltså ingen konflikt om P-0033:s födelsedag.** Båda
+Degerforsvolymerna och Umeå landsförsamling ger 1894-10-29. Avvikelsen fanns
+i avskriften ovan.
+
+Berörda påståenden: A-2499, A-3411 och A-7718 (P-0033).
+
+## Tillägg T-0176, 2026-09-09 (andra): fyra utvinningar och en radrättelse på raderna 4–6
+
+Samma helbild, samma läsning. Fyra uppgifter i avskriften ovan är
+ofullständiga eller radförskjutna.
+
+**Rad 4, Astrid Maria (P-0031): yrket `Mejerska`.** Avskriften ger
+`d. Astrid Maria (överstruken), mejerska`, men uppgiften har aldrig nått
+hennes akt; den var hennes enda yrkesuppgift och är nu A-7705. Cellen är förd
+med samma bläck som radens övriga celler, till skillnad från rad 5:s
+blyertsanteckning.
+
+**Rad 4: anteckningen läser `inlämnat`, inte `intämnat`.** Vid 230 % står
+`Utfl. N:r 30/1917  inlämnat: Umeå lfg ⁸/₁₁ 17`. Utflyttningskolumnen bär
+**två överstrukna** rader, den första `Örebro Norra`, med datumet `²⁰/₄ 17`;
+datumets tiotal och den andra strukna radens första ord är blekta och
+normaliseras inte. **Örebro-destinationen är alltså struken i den församling
+som utställde betyget**, medan Umeå landsförsamling skriver `Örebro norra`
+som avsändande församling — en konflikt som bevaras i P-0031 som A-7707.
+
+**Rad 5, Anders Waldemar (P-0032): yrkescellen är skriven i blå blyerts.**
+`Jordarb.` är därmed ett odaterat tillägg av okänd hand i en annars
+bläckförd bok och kan inte tidsättas till bokens period.
+
+**Radrättelse: `Frik. 1917` hör till rad 6, inte rad 5.** Avskriften ovan ger
+rad 5 lydelsen `värnplikt 245 ⁷⁰/₁₉₁₃, Frik. 1919(?)`. Vid 800 % ligger
+`245 ⁷⁰/₁₉₁₃` på y ≈ 1221 px och `Frik. 1917.` på y ≈ 1295 px, medan
+radlinjerna går vid y ≈ 1261 px (rad 5) och y ≈ 1381 px (rad 6). Anteckningen
+står alltså inom **rad 6:s** band, tillsammans med `737 ²⁰/₁₉₁₄` på
+y ≈ 1355 px. Årtalet läses `1917`, inte `1919`; sjuan har samma form som i
+rad 7:s `174 ⁷⁰/₁₉₁₇`.
+
+**Följden är två personbundna rättelser.** P-0032 var **inte** frikallad —
+hans värnpliktscell bär enbart numret — och P-0033 var **inskriven som nummer
+737 i årsklass 1914 och frikallades 1917**, vilket ger C-0907:s bara `Frik.`
+både ett nummer och ett årtal. Mellanledets tal läses `20` och avviker från
+broderns entydiga `70`; läsosäkerheten är öppen och normaliseras inte.
+
+**Rad 6, anteckningskolumnen: `Stud. vid [ort]s priv. elem. skola`.**
+Avskriften ovan ger `Studerar vid Luleå(?) priv. elem. skola`. Vid 1200 %
+slutar ortnamnet på `-s` och saknar **all överlängd** efter de två första
+bokstäverna, vilket **utesluter** `Luleå`. Den mest sannolika läsningen är
+`Lunds`, men den är obekräftad. Luleå var brodern Oskar Alfreds seminariestad
+enligt C-0907, alltså en förväxlingsrisk snarare än ett stöd.
+
+**Kolumnerna 11 och 12 på raderna 3–8.** Rubrikerna `Kristendomskunskap` och
+`Inom sv. kyrkan begått H. Nattv.` är lästa i samma helbild som cellerna.
+Raderna bär `B N` (rad 3), `ab N` (rad 4), `ab N` (rad 5), **`A. N.` (rad 6)**,
+`b N` (rad 7) och `b N` (rad 8). Johan Magnus bär alltså den högsta bokstaven
+bland syskonen i den bok som också skriver honom studerande. Skalans innebörd
+är inte utskriven i boken och tolkas inte här.
+
+Berörda påståenden: A-7705–A-7710 (P-0031), A-7711–A-7712 (P-0032),
+A-7719–A-7721 (P-0033).

@@ -47,3 +47,28 @@ Hela marginalen och radens avslut är lästa. Ingen separat kyrktagningsdag, dop
 ### T-0141: precisering efter andraläsning
 
 Efter nativeprövning och oberoende andraläsning i T-0141 bedöms ordet efter Stina kunna vara **Ibidem[?]**, alltså en ortmarkering, inte hennes efternamn. Tidigare råförslag `Ubi…[?]` får inte användas som personnamn. Vittnet återges därför som **Stina, hustru till A. Ed[l]und[?]**, utan känt efternamn. Ortankaret före ett eventuellt ibidem är inte klart och fylls inte i. Övriga prövade reservationer består.
+
+## Tillägg T-0173, 2026-09-09: vittnesleden och modersåldern förda som sakuppgifter
+
+Ingen ny arkivåtkomst och ingen ny läsning av bilden. Detta tillägg redovisar
+att två redan utvunna uppgifter nu är förda som påståenden i personakten.
+
+**Dopvittnena.** T-0141 utvann fyra vittnesled — `A. Ed[l]und[?]` med hustrun
+`Stina`, `drängen And. Andersson` och `pigan Carin Andersdr i L:a Häg…[?]` —
+men de stod kvar som prosa. De är nu förda som A-7654 i
+[P-0325](../people/P-0325-frans-ludvig-ajax.md). **Inget vittne bär faderns
+familjenamn eller moderns patronymikon.** Ordet efter `Stina` kan vara
+`Ibidem[?]`, alltså en ortmarkering, och får **inte** göras till hennes
+efternamn; bynamnet är avbrutet i originalet. Båda reservationerna behålls.
+
+**Modersåldern.** Talet `38` är det sista i den serie som beskrivs i
+[C-0302](C-0302-carolina-ajax-fodd-vastra-ny-1826.md):s tillägg samma dag —
+34 i januari 1826, 36 i september 1828, 38 i maj 1830. Serien är fört som
+A-7655 med räckvidden *konsistenskontroll av den egna posten*; slutsatsen om
+moderns födelsetid ägs av
+[P-0267](../people/P-0267-katarina-carin-jonsdotter.md) och är rapporterad
+dit.
+
+Faderns titel i denna post är `Rumormästaren`, hans högsta; yrkesföljden över
+sex handlingar är sammanställd i
+[P-0266](../people/P-0266-petter-gustav-ajax-persson.md) A-7640.

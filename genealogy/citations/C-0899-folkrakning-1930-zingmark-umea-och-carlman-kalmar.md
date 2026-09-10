@@ -191,3 +191,110 @@ Detta är den tredje citationen i programmet som visar sig vara ett utdrag ur de
 bok den använts för att bekräfta; se även C-0257 och C-0353.
 
 Berörda påståenden: A-5470–A-5479 (P-0029).
+
+## Tillägg T-0176, 2026-09-09: Umeåsidans egna kolumner för tre hushållsmedlemmar
+
+Den lokalt sparade helbilden `B0001215_00098` har lästs om inom T-0176 vid
+230–700 %, med de **tryckta kolumnrubrikerna och sidhuvudet i samma utsnitt
+som datacellerna**. Ingen ny arkivåtkomst gjordes och avskriften ovan ändras
+inte.
+
+**Sidhuvudet.** Bladet bär det tryckta `Sida 96` samt dokumenthuvudet
+`Utdrag ur Församlingsboken för Umeå stads förs. i Västerbottens södra
+kontrakt af Västerbottens län, d. ³¹/₁₂ 1930`. Sidlokatorn 96 i tabellen
+`Exakt lokalisering` är alltså riktig för denna bild, och T-0154:s tillägg om
+utdragskaraktären gäller oförändrat.
+
+**Kolumnen `Inkomst och förmögenhet` är en tryckt kolumn utan tryckt
+underindelning.** Posterna skrivs som `<inkomst> — <förmögenhet>`. Följande
+rader är nu utvunna med rubriken läst i samma utsnitt:
+
+| Rad | Person | Inkomst | Förmögenhet |
+|---|---|---|---|
+| d. Tyra Charlotta | P-0037 | **läst och tom** | **läst och tom** |
+| d. Gerda Helena | P-0038 | **läst och tom** | **läst och tom** |
+| s. Anders Valdemar | P-0032 | `38` | **streck** |
+| s. Petrus Nikolaus | P-0034 | `15` | **streck** |
+| Zingmark, Johan Magnus | P-0033 | `133` | **streck** |
+| h. Signe Elisabet f. Vikner | ingen personakt | `14` | `7` |
+
+Strecket är ett **läst noll**, inte en saknad uppgift. `133` är det högsta
+talet i hushållsgruppen. Enheten skrivs inte ut på bladet och normaliseras
+inte här. T-0149:s tillägg pekade ut Anders Valdemars `38` som outvunnen; den
+är nu P-0032:s A-7716, och P-0033:s `133` är A-7722.
+
+**Johan Magnus har `Huvudyrke` och `Bityrke` i två skilda tryckta kolumner.**
+Avskriften ovan ger `[landstel./kronokassör, läsosäkert]` och gör därmed två
+tjänster till en osäker titel med snedstreck. Vid 700 % står `Landskont.` i
+kolumnen `Huvudyrke (-tjänst, -näringsfång) Ställning i yrket` och
+`Kronokass[ör]` i kolumnen `Bityrke (-tjänst, -näringsfång)`. Han hade alltså
+**två** befattningar samtidigt. Bityrkets ändelse löper in i kolumngränsen och
+utläsningen `Kronokassör` är den sannolika men inte utskrivna.
+
+**Hustruns förnamn står i konflikt med C-0916.** Bladet skriver `Signe
+Elisabet f. Vikner`; Umeå stads församlingsbok skriver `Sigrid Elisabet
+f. Vikner`
+([C-0916](C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)). Båda ger 1897
+och Nordmaling. **Men de två är inte oberoende** — bladet är ett utdrag ur
+just den församlingsbok C-0916 transkriberar — så avvikelsen är en
+avskriftsvariant inom en kopiekedja och inte två röster. Nordmalings
+födelsebok 1897 avgör namnet. Hon har ingen personakt i projektet.
+
+**Pennförda tal över yrkeskolumnen.** Flera rader bär i blyerts tal av formen
+`2,160.40`, `196-50`, `1-149-50` och `401-30` skrivna **över** kolumnen
+`Huvudyrke`, alltså inte i någon kolumn som är deras. Talens innebörd,
+enheter och radtillhörighet kan **inte** fastställas ur bladet, och de förs
+därför inte in i någon akt. De är en utpekad, otolkad observation.
+
+Stödda påståenden utökas med A-7716 (P-0032) och A-7722–A-7723 (P-0033).
+
+## Tillägg T-0177, 2026-09-09: sida 95:s inkomstkolumn, uppslagets egen enhetsindikation och de pennförda talens form
+
+Den lokalt sparade helbilden `B0001215_00097` har lästs om inom T-0177 vid
+300–800 %, med de **tryckta kolumnrubrikerna och sidhuvudet i samma utsnitt
+som datacellerna**. Ingen ny arkivåtkomst gjordes och avskriften ovan ändras
+inte.
+
+**Sidhuvudet.** Bladet bär det tryckta `Sida 95` samt samma dokumenthuvud
+`Utdrag ur Församlingsboken för Umeå stads förs. …` som sida 96. T-0154:s
+tillägg om utdragskaraktären gäller båda sidorna.
+
+**Kolumnen `Inkomst och förmögenhet`, Umeåhushållets fyra rader på sida 95:**
+
+| Rad | Person | Inkomst | Förmögenhet |
+|---|---|---|---|
+| Zingmark, Johan Oskar | P-0028 | `28` | `43` |
+| h. Ida Sofia f. Andersdotter | P-0029 | **läst och tom** | **läst och tom** |
+| s. Ludvig Emanuel | P-0035 | `6` | **streck** |
+| s. Birger | P-0036 | **`1`** | **streck** |
+
+Birgers tal var utpekat som outvunnet i T-0154 och är nu P-0036:s A-7725.
+**Talet `1` är det lägsta i hela hushållsgruppen** — jämför `38`, `15` och
+`133` på sida 96 — och påfallande lågt för ett anställt kontorsbiträde; det
+förs som ett faktum om bladet, inte som en slutsats om hans försörjning.
+
+**Uppslaget bär sin egen enhetsindikation, men den upphäver inte
+normaliseringsförbudet.** Hushållsföreståndarens rad ger `28` och `43`, medan
+indexposten `Folk_128560850` — som citationen ovan återger — expanderar samma
+celler till **2 800 kronor** i inkomst och **43 000 kronor** i förmögenhet.
+Det pekar mot inkomst i **hundratal** och förmögenhet i **tusental**. **Men
+indexet är en avskrift av just dessa celler och inte en andra röst**, så
+enheten är en *decodning* av arkivets egen läsning, inte ett oberoende
+belägg. **Enheten normaliseras därför fortfarande inte** i akterna; att den
+finns antydd på uppslaget är däremot värt att bevara, eftersom den gör
+Birgers `1` anmärkningsvärt.
+
+**De pennförda talen är koder, inte penningbelopp.** Tillägget från T-0176
+angav att `talens innebörd, enheter och radtillhörighet` inte kunde
+fastställas. Sida 95 avgör **formen**: talen står som **tredelade grupper** av
+typen `3-370-20`, `1-062-50`, `1-02-20` och `1-060-40`, skrivna i blyerts
+**över** kolumnen `Huvudyrke (-tjänst, -näringsfång) Ställning i yrket` och
+över namnkolumnen — genomgående på hela sidan, även i grannhushållen. Det som
+i tillägget lästes som `2,160.40` på sida 96 är alltså med all sannolikhet
+`2-160-40`, en kod av samma form.
+
+**Kodsystemets innebörd är fortfarande okänd** och normaliseras inte; det
+gäller sannolikt folkräkningens egen yrkes- och ställningsklassificering.
+Preciseringen är att de **inte** är monetära och inte ska läsas som inkomst.
+
+Stödda påståenden utökas med A-7725 (P-0036).

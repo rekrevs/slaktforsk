@@ -292,3 +292,34 @@ föregående akten bevaras nedan.
 > Tidigare ändrade lydelser bevarade:
 >
 > > | A-3974 | **Tredje instansen av `hennes oä. son`.** Lerbo `A I/22` sida 172 rad 4, i den volym som är samtida med födelsen och förd vid Erikslund i moderns föräldrahem. | TRANSCRIBED | hög | [C-1063](../citations/C-1063-lerbo-AI22-sida-172-erikslund-enkans-hushall.md) | Formuleringen är därmed belagd i tre av varandra oberoende led av Lerbos egen bokföring: födelseboken 1884 (A-3953), husförhörslängden vid Erikslund 1884–1885 (denna) och husförhörslängden vid Spånga 1886–1887 (A-3966). |
+
+### Inkommande följdfynd från T-0177, 2026-09-09
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0177, som konsoliderade
+din bror [P-0045](P-0045-torvald-stefanus-jansson.md). Ingen ny arkivpassage
+öppnades och ingen uppgift är förd in i akten här; ägaren avgör.
+
+**Din efternamnsnolla har fått en strukturell bekräftelse och en gräns.**
+A-5710 slår fast att **ingen** av åtta lästa källor ger dig ett efternamn på
+din egen rad. Iakttagelsen bekräftas av
+[C-1056](../citations/C-1056-blacksta-AI16-london-sida-59-jansson-1890-1891.md):s
+hushållstabell som helhet: **inget av de fyra barnen** på raderna 15–18 har
+ett efternamn, medan föräldrarnas rader 13 och 14 bär `Jansson` respektive
+`Larsson`. `Jansson` är alltså projektets familjebundna visningsnamn ur
+hushållets överrad, inte en egen form, för hela syskongruppen i just den
+källan.
+
+**Men nollan är din, inte broderns.** Flens församlingsbok 1914–1915 skriver
+Torvald `Torvald Stefanus **Jaensson**` på hans **egen** rad
+([C-0911](../citations/C-0911-jansson-ljungbacka-flen-1914-1915.md), A-4308).
+Det är den enda efternamnsform som är hans, och den stavas med `ae`. **Din
+dokumenterade nolla får därför inte överföras till honom** — och omvänt gör
+hans `Jaensson` det värt att pröva **samma stavning** för dig i dina egna
+vuxenkällor, som A-5710 uttryckligen anger som oprövade.
+
+**En andra iakttagelse om samma tabell.** C-1056 skriver din bror `Thorvald`
+**med `h`**, medan projektets visningsnamn har den moderniserade formen
+`Torvald`. Om källan använder `Th`-formen för ett syskon är det värt att pröva
+motsvarande äldre stavningar för de övriga.
+
+Anmälan är riktad till din akts ägare och till T-0091, som läste C-1056.

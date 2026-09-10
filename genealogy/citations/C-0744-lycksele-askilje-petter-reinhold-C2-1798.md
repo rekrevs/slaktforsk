@@ -67,3 +67,53 @@ För mediamanifestets källavgränsning är deras exakta filnamn:
 ## Stödda påståenden
 
 A-2896–A-2898.
+
+## Tillägg T-0168, 2026-09-09: kandidatraden nedgraderad och sidans egna flyttanteckningar
+
+Läst i den redan sparade helbilden `C0034137_00164` vid 200–450 % förstoring,
+utan ny arkivåtkomst. Avsnitten ovan är append-only och står oförändrade.
+
+### Premissen för identifikationen finns inte
+
+Avsnittet ovan identifierar raden med Petter Reinhold Pehrsson `med hög
+tillförlitlighet` på tre grunder: Degerfors A I/2:s fulla namn, samma
+födelseår och `uttryckliga Lyckseleflytt`. **Den tredje grunden är felaktig.**
+Anteckningen i Degerfors A I/2 sida 179 lyder `flyttad til Skelefte. med
+attest` och ligger i radbandet ovanför hans; se C-0733:s tillägg T-0168.
+
+Kvar står ett **förkortat** förnamn — raden skriver `Rein[d]. Pehrsson` och
+inte `Petter` — ett patronymikon och ett födelseår. Det är namn- och
+årslikhet, och personkontraktets PK-01 säger uttryckligen att namnlikhet inte
+räcker. Påståendet A-2897 i
+[P-0472](../people/P-0472-petter-reinhold-pehrsson.md#påståenden) är därför
+nedgraderat från `CORROBORATED`/`hög` till `LEAD`/`medel`.
+
+**Kandidatraden är inte avvisad.** Den finns, den läses `Rein[d]. Pehrsson` med
+födelseåret `1798` i den tryckta kolumnen `Födelse-år och Dag`, och raden har
+inget i `Gifto-År`. Versalen läses `R`; en läsning `Bond.` är prövad och
+förkastad, eftersom bokstavsformen har `R`-ets inledande ögla och nedåtgående
+ben.
+
+### Sidan är överkorsad och pekar mot Skellefteå
+
+Uppslaget `126 Åskilje`, `Kyrko-Rotan`, är i sin helhet överkorsat med två
+diagonaler. Bland de fria anteckningarna i mittzonen läses:
+
+- en längre notis över hushållet högst upp: `M[e]d Attest till Skellefte[å]
+  Sockenn den 18 [?] Februari 1827`;
+- på raden under kandidatraden, för `Pig. Brita Greta N[ils?]d[otte]r 1806ª`:
+  `att[est] till Skellefte[å] 1825 ²⁵/₁₀[?]`;
+- vid en `S. Olof 1825 ⁷/₁₀`-rad: `Sokn: Skellefte[å] …`, delvis oläsbar.
+
+Läsningarna av dagbråk och årtal bär reservation.
+
+**Detta förenar inte kandidatraden med Degerfors.** Sidan visar att Åskiljefolk
+flyttade till **Skellefteå**, inte till Degerfors. Att också
+Degerforsanteckningen i C-0733:s tillägg nämner Skellefteå är en
+**sammanträffande ortsuppgift på två skilda personer** och får inte läsas som
+en kedja.
+
+Följden för källstrategin: **Lycksele A I/6 personscreenas inte.** Den
+motiverades av den felaktiga anteckningen och saknar nu varje personbunden
+grund. A-2898:s noll i Lycksele C/2 1798 består exakt som det står, men det
+prövade en församling som inget belägg placerar honom i.

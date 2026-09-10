@@ -128,3 +128,33 @@ Agnes Maria växte upp i Per Wilhelm Eliassons och Augusta Viktoria Johanssons f
 > | A-0136 | Hon var född 1889; födelseorten anges som Kyrkefalla 1890 och Värsås 1900/1910. | CONFLICT | medel | [C-0024](../citations/C-0024-bernhard-folkrakning-1890.md), [C-0025](../citations/C-0025-bernhard-folkrakning-1900.md), [C-0026](../citations/C-0026-bernhard-folkrakning-1910.md) | Exakt födelsenotis behövs. |
 > | A-0137 | Hon anges som dotter till Per Wilhelm och Augusta Viktoria. | CORROBORATED | hög | [C-0024](../citations/C-0024-bernhard-folkrakning-1890.md), [C-0026](../citations/C-0026-bernhard-folkrakning-1910.md) | Hushållsrelation. |
 >
+
+### Inkommande följdfynd från T-0176, 2026-09-09
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0176, som läste om
+[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md) vid 350 % för
+syskonens skull. Ingen ny arkivpassage öppnades och ingen uppgift förs in i
+akten här; ägaren avgör.
+
+**Din tomma yrkescell 1910 har fått ett mönster att stå i.** T-0127 fann att
+dina egna yrkes- och lytesfält är tomma på bladet. Omläsningen visar att
+**tomheten delas med systern Rut Ingegärd Margareta** (P-0025), femton år, och
+med de två yngsta — medan dina **tre bröder** i tjänsteålder alla bär en
+yrkesuppgift: Bernhard och Johan Martin Gabriel utskrivet `Jordbruksarbetare`
+och Ragnar Vilhelm ett **dittotecken** under broderns.
+
+Du var tjugoett år 1910 och står utan yrke; dina bröder på nitton och sjutton
+står med. Mönstret är förenligt med tidens sed att döttrar i hemmet inte
+fördes med yrke, men det är **en läst tomhet och ingen uppgift om vad du
+gjorde** — och det är inte ett belägg för att du var utan sysselsättning.
+
+**En andra uppgift finns nu på din rad.** Bladet 1910 har en tryckt kolumn
+`Inom Sv. kyrkan begått nattv.`, och din rad bär markering i den. Kolumnens
+innebörd bärs av en ålderskontroll på **samma** uppslag: markeringen står på
+alla från femtonåriga Rut och uppåt men saknas på de två yngsta, nio och sex
+år. Slutsatsen om innebörden förs som `SANNOLIKT`, eftersom förkortningen inte
+skrivs ut i bladets eget formulär, och markeringen normaliseras **inte** till
+ett datum. Kontrollen är **bladbunden** och överförs inte till andra
+församlingars blad.
+
+Anmälan är riktad till T-0250, som äger din fortsättning.

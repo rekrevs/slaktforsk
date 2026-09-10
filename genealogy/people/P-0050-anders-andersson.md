@@ -27,7 +27,8 @@ Anders Andersson, född och döpt som Andreas den 19 juli 1835 i Risvattnet i Ny
 | A-0225 | Han gifte sig med Barbro Catharina/Christina Olofsdotter 1860-07-05. | CORROBORATED | hög | [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md), [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md), [C-0184](../citations/C-0184-bygdea-C4-anders-barbro-vigsel-1860.md) | Originalvigseln visar 5 juli; den äldre normaliseringen till 7 maj var en dag/månadsvändning. |
 | A-0226 | Han var far till Margareta Euphrosyne, Catharina Johanna, Anders Alfred och Anna Albertina. | CORROBORATED | hög | [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md), [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md) | Den äldre längden visar alla fyra barnen. |
 | A-0227 | Han avled 1899-06-22. | TRANSCRIBED | hög | [C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md), [C-0433](../citations/C-0433-bygdea-F1-1899-06-22-negativ-anders-andersson.md) | Äldre avskriftsfel 22 juni; C-0044-originalet omläst i T-0117 visar23juni, samstämmigt med A-3877/C-1044. Historisk felläsning bevaras. |
-| A-0249 | Han flyttade från Nysätra till Bygdeå 1860. | TRANSCRIBED | hög | [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md) | Exakt inflyttningsdatum och flyttattest återstår. |
+| A-0249 | Han flyttade från Nysätra till Bygdeå 1860. | TRANSCRIBED | hög | [C-0049](../citations/C-0049-anders-alfred-barndom-jomark-sida-591.md) | Exakt inflyttningsdatum och flyttattest återstår. **Preciserat 2026-09-09 (T-0167):** utflyttningsdagen står i föräldrahushållets längd, se A-7307. |
+| A-7307 | Kolumnen `Hvarthän.` på hans barnrad i Nysätra A I/9a sida 85 har `Bygdeå ⁸/₆ 1860.` | TRANSCRIBED | hög | [C-0196](../citations/C-0196-nysatra-AI9a-anders-foraldrahem-risvattnet.md) | Utvunnet 2026-09-09 i T-0167; kolumnen var inte avskriven, och C-0196 återgav bara `anteckningen Bygdeå och 1860`. **Utflyttningsdagen är alltså den 8 juni 1860** — knappt en månad före vigseln med Barbro Olofsdotter den 5 juli 1860 i Bygdeå, vilket är en oberoende bekräftelse av flyttkedjan. Uppgiften är avlämnande församlings egen; Bygdeås inflyttningsdatum och attestnummer återstår, och A-1390:s avgränsade noll i Bygdeå B/2 1860 gäller fortfarande. |
 | A-0661 | Paret finns inte i Lövångers lysnings- och vigselbok 1860; vigseln finns i stället i Bygdeå C/4 den 5 juli. | CORROBORATED | hög | [C-0112](../citations/C-0112-lovanger-1860-negativ-kontroll.md), [C-0184](../citations/C-0184-bygdea-C4-anders-barbro-vigsel-1860.md) | Hela Lövångerårgången genomgången; positiv originalpost i Bygdeå. |
 | A-0662 | Den volym som skulle innehålla hans födelsenotis, Nysätra `C/4` (1790–1835), är inte digitaliserad. | REJECTED | hög | [C-0144](../citations/C-0144-nysatra-1835-negativ-kontroll-anders-andersson.md) | Volymen öppnades i inloggad bildvisare 2026-08-21; den äldre åtkomstslutsatsen var fel. |
 | A-0806 | Ingen Anders som motsvarar P-0050 finns på eller kring 1835-07-19 i Nysätra C/4. | TRANSCRIBED | hög | [C-0144](../citations/C-0144-nysatra-1835-negativ-kontroll-anders-andersson.md) | Historisk negativ kontroll, sakligt rättad genom A-3884/A-3885 i C-1045; används inte som aktuell nolla. |
@@ -204,3 +205,24 @@ De följande avsnitten är daterad historik, inte aktuell källstatus eller arbe
   föräldrahushållet säkrar Anders Anderssons flytt till Bygdeå 1860
   (C-0195–C-0196); Bygdeå B/2:s fulla årgångsnoll är en bevarad konflikt,
   inte motbevis (research-log Batch 247).
+
+### Inkommande följdfynd från T-0167, 2026-09-09
+
+Hans barnrad i Nysätra A I/9a sida 85 bär `Bygdeå ⁸/₆ 1860.` i kolumnen
+`Hvarthän.` Dagen var oläst; C-0196:s avskrift hade bara året. Utvunnet ur den
+redan sparade helbilden utan ny arkivåtkomst, som en avgränsad följd av att
+hela uppslaget kolumnredovisades i T-0167 för
+[P-0231](P-0231-magdalena-eriksdotter-risvattnet.md),
+[P-0236](P-0236-nils-andersson-risvattnet.md) och
+[P-0237](P-0237-brita-maria-andersdotter-risvattnet.md).
+
+Samma uppslag gav också **moderns dödsdatum**, `död ²³/₄ 1862`, som är infört i
+P-0231, och **broderns familj** — hustru och två barn — som är införd i P-0236.
+Moderns ålderskonflikt i C-1045 är oförändrad och ägs fortfarande av
+[T-0205](../../wotan/dev-log/T-0205.md); den nya uppgiften är att A I/9a
+upprepar hennes födelsetid `23/9 1798` på hennes egen rad, alltså i en andra
+husförhörslängd, men att de två längderna är en bokkedja och inte två oberoende
+röster.
+
+Denna avstämning ändrar ingen bedömning i hans egen akt utöver A-7307 och den
+preciserade kommentaren i A-0249.

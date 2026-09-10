@@ -47,3 +47,40 @@ Marginaler och hela radens avslut är prövade. Ingen separat kyrktagningsdag, d
 ### T-0141: precisering efter andraläsning
 
 Efter en oberoende andraläsning i T-0141 begränsas postmästarens efternamn till råformen `Col…[?]`; tidigare `Co[l]lin[?]` var för specifikt. Förnamnsinitialerna Joh. Gust. och titeln postmästare står kvar. Det är en prövad namnreservation, inte ett nytt identifierat vittne.
+
+## Tillägg T-0173, 2026-09-09: vittnesleden, modersåldern och dödsåldern
+
+Ingen ny arkivåtkomst och ingen ny läsning av bilden. Detta tillägg redovisar
+tre uppgifter som nu är förda som sakuppgifter i personakten.
+
+**Dopvittnena.** T-0141 utvann fyra vittnesled — `postmästaren Herr Joh.
+Gust. Col…[?]`, `Madame A.C. Bucklin`, `brunnsmästaren Hr A. Bucklin` och
+`jungfrun Anna Cajsa Söderholm`, samtliga från Medevi Brunn — men de stod
+kvar som prosa. De är nu förda som A-7658 i
+[P-0328](../people/P-0328-anna-josephina-ajax.md). **Inget vittne bär
+föräldrarnas namn**, och titlarna tillhör vittnena, inte föräldrarna.
+Efternamnet efter `Joh. Gust.` är avbrutet i originalet och normaliseras inte.
+
+**Jämförelsen mellan syskonens vittneskretsar är ny och negativ.** Denna post
+har den mest ståndsmässiga kretsen av de tre syskonposterna — postmästare,
+brunnsmästare med hustru, jungfru — men faderns antecknade titel är här
+`Skom.`, medan
+[C-0302](C-0302-carolina-ajax-fodd-vastra-ny-1826.md) 1826 har `BrunnsDräng.`
+med en dräng och en piga bland vittnena och
+[C-0304](C-0304-frans-ludvig-ajax-fodd-vastra-ny-1830.md) 1830 har
+`Rumormästaren` likaså med dräng och piga. **Vittneskretsen varierar alltså
+oberoende av faderns titel** och kan inte läsas som ett mått på familjens
+ställning. Fyndet är fört som Q-02 i
+[P-0328:s profil](../research-profiles/P-0328.md#forskningsfrågor) med
+slutsatsläge `STÖDD`.
+
+**Modersåldern.** Talet `36` är mittentalet i den serie som beskrivs i
+C-0302:s tillägg samma dag; slutsatsen om modern ägs av
+[P-0267](../people/P-0267-katarina-carin-jonsdotter.md).
+
+**Dödsåldern.** Födelsedagen 1828-09-04 i denna post är nu räknad mot
+dödsåret 1829 i
+[C-0296](C-0296-vastra-ny-AI6-sida-350-ajax-familj.md): hon dog vid en ålder
+mellan omkring **fyra och sexton månader**. Intervallet är fört som A-7660.
+Räkningen krävde ingen källa — bara att de två talen lästes tillsammans — och
+den ersätter inte hennes egen dödspost, som är osökt.

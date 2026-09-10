@@ -233,3 +233,50 @@ inte parallella aktuella statusar eller faktarader.
 > Äldre ersatt lydelse bevaras:
 >
 > > | A-0846 | Hon bodde i Sannerby 1819 och senare i Carlberg. | CORROBORATED | hög | [C-0162](../citations/C-0162-ardala-C3-brita-christina-fodd-1819.md), [C-0163](../citations/C-0163-ardala-AI8-carlberg-sida-191.md) | Födelsenotisen anger henne som 25 år; exakt egen födelse är inte prövad. |
+
+### Inkommande följdfynd från T-0175, 2026-09-09
+
+**Avgränsad följd, ingen ny arkivåtkomst och ingen omprövning av din akt.**
+Fyndet kommer ur redan sparade helbilder och rör dina föräldrar
+[P-0226](P-0226-erik-larsson-sannerby.md) och
+[P-0227](P-0227-brita-andersdotter-sannerby.md) samt dina två syskon
+[P-0228](P-0228-anders-eriksson-sannerby.md) och
+[P-0229](P-0229-stina-eriksdotter-sannerby.md), som T-0175 äger. **Inget
+A-id, ingen status och ingen bedömning i din akt ändras här.**
+
+**Dina syskon har fått exakta födelsedatum ur samma uppslag som du står på.**
+Brodern Anders föddes **1799-04-05** — årtalet i båda hushållsböckerna och
+dagen `⁵/₄` i A I/3 sida 332 — och systern Stina **1806-12-30**, med
+dagangivelsen `³⁰/₁₂` i A I/4 sida 142:s tryckta dag- och månadskolumn.
+Båda uppgifterna var läsbara men olämnade i avskrifterna. Syskonföljden är
+alltså du 1796, Anders 1799, Stina 1806.
+
+**En iakttagelse som gäller dig direkt:** Stina är den **enda** av er tre med
+en dagangivelse i A I/4, och **din egen dag- och månadscell är läst och tom**
+både där och i A I/3 sida 332. Det bekräftar att dina hushållsrader aldrig
+bar ditt exakta datum — och att avvikelsen `1796-06-26` i de senare
+längderna inte kan förklaras som en överförd dagangivelse från
+barndomshemmet. **Avvikelsen kvarstår som en verklig konflikt** mot din egen
+post `1796-01-04`, och dess uppkomst är fortfarande odokumenterad.
+
+**Din mors födelsetid är nu ett tolvmånadersfönster.** Din födelsepost anger
+hennes ålder **24 år**, vilket ger hennes födelse till **1771-01-05 –
+1772-01-04** — ett intervall som överlappar hushållsböckernas `1772` bara i
+årets fyra första dagar.
+
+**Och dina morföräldrar har fått en kandidat.** Sannerby sida 166 har `Dot.
+Brita Anders d:r` född 1772 i nämndemannen `Anders Jonssons` hushåll — namn,
+patronymikon, år och by stämmer alla fyra, och hon är den enda
+`Andersdotter`-Britan i hela avsnittet. Samma hushåll står **överstruket
+överst på den sida i A I/3 som längre ned bär dina föräldrars hushåll**.
+**Ingen förälder införs**, och överstrykningen behandlas inte som ett
+giftermålsbelägg.
+
+**Ett nollresultat är omtolkat.** A-3256 och A-3258 slog fast att dina
+föräldrar inte finns som **par** i Sannerby 1784–1793. Det är riktigt — men
+de var då 16–25 respektive 12–21 år, alltså ogifta barn. Nollet är aritmetik
+och får inte längre användas som skäl att söka deras ursprung utanför byn.
+
+**Ägare för följdarbete:** din kohort är
+[T-0141](../../wotan/dev-log/T-0141.md), som är underrättad. Din egen
+datumkonflikt och T-0327:s proveniensrekonstruktion är oförändrade.

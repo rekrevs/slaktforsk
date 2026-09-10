@@ -55,3 +55,64 @@ längre ned är tjänstenätverk, inte föräldrabekräftade syskon.
 en nollkontroll av hennes eget liv. S-0140:s ofullständigt dokumenterade
 ortregister behöver avgränsad proveniensrekonstruktion i T-0327; inga
 gissade bildnummer har införts.
+
+## Tillägg T-0175, 2026-09-09: Anders dag och månad, och det överstrukna hushållet överst på samma sida
+
+Läst i den redan sparade helbilden `bild 339`, bevarad under filprefixet
+`C-0178`, vid 300–400 % förstoring och utan ny arkivåtkomst. Avsnitten ovan är
+append-only och står oförändrade.
+
+### Familjehushållets rader, med dag- och månadskolumnen läst
+
+> `Bonden Eric Larsson | 1768.`
+> `Hustru Brita Andersd: | 1772`
+> `Sonen Anders | 1799 | ⁵/₄`
+> `[D.] Anna | 1796`
+
+**Anders föddes 1799-04-05.** Både årtalet och dagangivelsen stod i cellerna;
+avskriften ovan skriver `sonen Anders` utan årtal, och
+[P-0228](../people/P-0228-anders-eriksson-sannerby.md) A-1369 slog fast att
+födelsedetaljen inte var tillräckligt säkert läst för registrering.
+Uppgiften var läsbar. Fört som A-7692.
+
+**Annas dag- och månadscell är läst och tom** på detta uppslag, vilket
+bekräftar avsnittet ovan. Hennes egen post ger 1796-01-04, och hennes senare
+hushållsdatum `1796-06-26` kvarstår som en verklig avvikelse vars uppkomst är
+odokumenterad.
+
+**Källkritisk gräns:** A I/3 sida 332 och A I/4 sida 142 är **inte** två
+oberoende röster för `1799`, `1768` eller `1772` — en ny husförhörslängd
+skrivs normalt av den gamla. Datumen är hushållsuppgifter, inte lästa
+födelseposter, och Årdalas födelsebok för april 1799 är osökt.
+
+### Det överstrukna hushållet överst på samma sida
+
+Överst på sida 332, tre familjer ovanför Erik Larssons hushåll, står ett
+hushåll vars **samtliga rader är överstrukna**:
+
+> `[Nämndem. Anders Jonsson]` — namnet överstruket
+> `H. Kjerstin Olofsd[otter] | 1745`
+> `Son [Anders] | 1769`
+> **`Dott. Brita | 1772`**
+> `Son Olof | 1784`
+> `Dot. Anna | 1787`
+> `Sold. Stina Andersdott[er] | 1775`
+
+Det är samma hushåll som står som `Nämndem. Anders Jonsson` på Sannerby sida
+166 i den föregående uppläggningen; se
+[C-0863](C-0863-ardala-AI3-aldre-sannerby-1784-1793.md):s tillägg samma dag.
+**Två Britor födda 1772 står alltså på ett och samma uppslag** — den ena som
+överstruken dotter i ett upplöst hushåll, den andra som hustru tre familjer
+längre ned.
+
+**Överstrykningen bevisar inte att dottern gick över till hushållet
+nedanför.** Den betyder att hushållet upphörde eller flyttade under
+uppläggningens gång, och den är lika förenlig med utflyttning, död eller att
+hela familjen lämnade byn. **De överstrukna radernas övriga kolumner är
+outvunna**; en `Afgådt til`-not eller en dödsuppgift där skulle skilja
+utfallen, och helbilden är redan sparad. Fört som A-7689 i
+[P-0227](../people/P-0227-brita-andersdotter-sannerby.md).
+
+Det andra hushållet på samma sida — med `Måg[?] Nils Nilsson 1767`, `[Hustru]
+Maria Andersdot[ter] 1775` och `Dott. Maria 1801` — är **inte** utvunnet här
+och tillhör andra personer.

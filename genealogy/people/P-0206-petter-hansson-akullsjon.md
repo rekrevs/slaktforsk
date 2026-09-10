@@ -37,11 +37,11 @@ Relationerna nedan är uppgivna i en enda sekundär källa. Hela den elva barn s
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0158](P-0158-hans-nilsson-akullsjon.md) Hans Nilsson | uppgiven far | Åkullsjön, Bygdeå; barnlistan i ansedeln | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
-| [P-0159](P-0159-anna-stina-jonsdotter-akullsjon.md) Anna Stina Jonsdotter | uppgiven mor | Åkullsjön, Bygdeå; barnlistan i ansedeln | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
-| [P-0197](P-0197-nils-hansson-akullsjon.md) Nils Hansson | uppgivet syskon | Äldste brodern född 1821, likaså angiven i Sjöbäck | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
-| [P-0205](P-0205-maria-christina-hansdotter-1834.md) Maria Christina Hansdotter | uppgivet syskon | Syster född 1834, uppgiven död 1836; närmast äldre i listan | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
-| [P-0095](P-0095-maria-christina-hansdotter.md) Maria Christina Hansdotter | uppgivet syskon | Yngsta systern född 1840-10-17, den enda i gruppen med egen originalpost | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| [P-0158 Hans Nilsson](P-0158-hans-nilsson-akullsjon.md) | uppgiven far | Åkullsjön, Bygdeå; barnlistan i ansedeln | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| [P-0159 Anna Stina Jonsdotter](P-0159-anna-stina-jonsdotter-akullsjon.md) | uppgiven mor | Åkullsjön, Bygdeå; barnlistan i ansedeln | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| [P-0197 Nils Hansson](P-0197-nils-hansson-akullsjon.md) | uppgivet syskon | Äldste brodern född 1821, likaså angiven i Sjöbäck | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| [P-0205 Maria Christina Hansdotter](P-0205-maria-christina-hansdotter-1834.md) | uppgivet syskon | Syster född 1834, uppgiven död 1836; närmast äldre i listan | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
+| [P-0095 Maria Christina Hansdotter](P-0095-maria-christina-hansdotter.md) | uppgivet syskon | Yngsta systern född 1840-10-17, den enda i gruppen med egen originalpost | LEAD | [C-0133](../citations/C-0133-hans-nilsson-sekundarpost.md), [C-0134](../citations/C-0134-anna-christina-jonsdotter-sekundarpost.md) |
 
 ## Tidslinje
 

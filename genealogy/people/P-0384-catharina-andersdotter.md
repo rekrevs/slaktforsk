@@ -34,8 +34,8 @@ Hustru till Sven Olofsson och mor till Britta Stina i Västra Bodarne, Hemsjö. 
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0383](P-0383-sven-olofsson.md) Sven Olofsson | make | Vigsel 1840-01-26; Västra Bodarne | CORROBORATED | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md); [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md); [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) |
-| [P-0337](P-0337-brita-stina.md) Britta Stina Svensdotter | dotter | 1851-05-09, Västra Bodarne | CORROBORATED | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md); [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) |
+| [P-0383 Sven Olofsson](P-0383-sven-olofsson.md) | make | Vigsel 1840-01-26; Västra Bodarne | CORROBORATED | [C-1026](../citations/C-1026-hemsjo-C5-1840-sven-olofsson-catharina-vigsel.md); [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md); [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) |
+| [P-0337 Britta Stina Svensdotter](P-0337-brita-stina.md) | dotter | 1851-05-09, Västra Bodarne | CORROBORATED | [C-0445](../citations/C-0445-hemsjo-C6-britta-stina-fodd-1851.md); [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) |
 | August | barn enligt egen S./D.-rad | 1842-07-08, Västra Bodarne | TRANSCRIBED | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) |
 | Johan Peter | barn enligt egen S./D.-rad | 1844-09-05, Västra Bodarne | TRANSCRIBED | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) |
 | David | barn enligt egen S./D.-rad | 1848, dag/månad 3/1[?], Västra Bodarne | TRANSCRIBED | [C-0446](../citations/C-0446-hemsjo-AI4-sven-olofsson-familj-sida-98.md) |

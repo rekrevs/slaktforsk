@@ -122,3 +122,85 @@ Johannas egen födelsepost säkrar uttryckligen föräldraparet. Den nedre
 gruppen har egen livstids-/inhysesnot för Brita Stina och efterföljande
 tjänsterader; deras händelser och släktskap överförs inte till Jan.
 Hela hans relevanta egenrad är prövad även vid grafiska eller tomma fält.
+
+## Tillägg T-0173, 2026-09-09: modersåldern räknad, och barnens patronymika som datering
+
+Ingen ny arkivåtkomst och ingen ny läsning av bilderna. Detta tillägg drar
+följderna av tre uppgifter som redan är utvunna ovan.
+
+### Modersåldern `34` passar ingen av de två dateringarna
+
+Födelsepostens uppgivna modersålder är `34` och posten är daterad
+**1819-05-30**. Åldern ger hennes födelse till intervallet **1784-05-31 –
+1785-05-30**.
+
+Räkningen mot de två kandidatdateringarna:
+
+| Uppgift | Källa | Hennes ålder 1819-05-30 |
+|---|---|---|
+| `1783 21/10 Malm` | A I/13 a, rättad avskrift i T-0139 | **35** |
+| Åldern `34` | denna födelsepost | **34** |
+| `1785 31/10` | [C-0731](C-0731-stora-malm-bjorkvik-jan-lena-ursprung.md):s kandidatpost | **33** |
+
+Talet 34 ligger alltså **mitt emellan** de två kandidaterna och pekar på ett
+tredje fönster. Åldern var utvunnen i T-0139 men **aldrig räknad mot dem**.
+
+**Källkritisk gräns:** en uppgiven ålder i en födelsepost är ofta avrundad
+eller förd som levnadsår, och ett års avvikelse är vanlig. Talet **upphäver
+därför inte** hushållsuppgiften — det gör den till en av tre oförenliga
+uppgifter, och det **försvagar kandidatposten ytterligare**, eftersom den nu
+passar ingen av de två andra. Ingen datering väljs, inget datum konstrueras
+ur intervallet, och kandidatpostens föräldrar förs inte in. Fört som A-7671 i
+[P-0477](../people/P-0477-lena-jonsdotter-walla.md).
+
+### Barnens patronymika daterar giftermålet
+
+Familjegruppen på Walla sida 80 innehåller sex namngivna barn. Avskriften
+ovan och T-0139:s slutliga detaljläsning ger:
+
+| Namn | Född | Patronymikon |
+|---|---|---|
+| Anna Maja Andersdotter | 1806-08-02 | **Anders** |
+| Eric Andersson | 1809-09-27 | **Anders** |
+| Anders Andersson | 1812-04-12 | **Anders** |
+| Cajsa Lena Jansdotter | 1816-08-13 | Jan |
+| Johanna | 1819-05-30 | Jan, dottermarkerad |
+| Brita Stina Jansdotter | 1821-10-22 | Jan |
+
+Avsnitten ovan varnar riktigt mot att göra Jan Ericson till de tre
+Anders-patronymika barnens biologiske far. **Följden framlänges är aldrig
+dragen:** Jan Ericson uppges född **1791** och var alltså **femton år** när
+det äldsta av dem föddes, arton när det andra och tjugoett när det tredje.
+Han kan inte vara deras far.
+
+Om barnen är **hennes** var hon gift förut, med en Anders, och giftermålet
+med Jan Ericson faller mellan **1812-04-12 och 1816-08-13**. Det är en
+hypotes, inte en slutsats, och den är förd som Q-02 i
+[P-0477:s profil](../research-profiles/P-0477.md#forskningsfrågor) med
+slutsatsläge `STÖDD`. **Ingen tidigare make skapas, inga person-id skapas och
+ingen barnrelation införs.** Ett patronymikon är ett indicium om en far, inte
+om vilken mor. Fört som A-7672.
+
+Stora Malms vigselbok 1812–1816 är därmed en ny, avgränsad passage, namngiven
+i [P-0477:s profil](../research-profiles/P-0477.md#källvägar) KP-02.
+
+### Dopvittnena förda som sakuppgift
+
+De fyra faddrarna — brukaren `Carl Eric Ersson` och hustrun **`Maja
+Jonsdotter`** i `Hindricstorp[?]`, `sonen Pehr Larsson` i `Maglinge[?]` och
+`pigan Greta Lena Larsdotter` i `Djulvekvarn[?]` — är nu förda som A-7673 i
+moderns akt. **En av de fyra bär hennes eget patronymikon**, och är därmed den
+enda vittnesformen förenlig med en syster till Lena Jonsdotter. Det är en
+**namnförenlighet, inte en släktskap**: `Jonsdotter` var ett av tidens
+vanligaste patronymikon, ingen relation är belagd, och ingen person skapas.
+De tre ortreservationerna behålls oförändrade.
+
+### Hennes egna kolumnvärden är fortfarande outvunna
+
+T-0141 fullprövade **Jan Ericsons** egna fält på samma bild — kopporcell,
+inflyttningsfält, läserkolumner, årsvisa tecken och de tomma fälten. Motsvarande
+**kolumner på Lena Jonsdotters rad är inte utvunna**: läskunskap,
+kunskapstecken, koppor och de årsvisa förhörs- och nattvardstecknen. Det är en
+namngiven lucka, inte ett läst noll, och den kan slutas i den redan sparade
+helbilden; passagen är
+[P-0477:s KP-04](../research-profiles/P-0477.md#källvägar).

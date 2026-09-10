@@ -80,3 +80,75 @@ eller att datumet måste vara riktigt i en annan socken. Utebliven
 registrering, felaktigt överfört datum och annan plats är fortfarande
 alternativ. Ingen identifierad konkurrerande person finns här. A-4548
 begränsar A-3232/A-3782; C-1026:s positiva Wäsenbo är bättre ortsingång.
+
+## Daterat tillägg 2026-09-09 — T-0170: kolumnredovisning, ålderskolumnen, nämndemannen och byns andra Olof
+
+Tillägget bygger enbart på den **redan sparade uppslagsbilden**
+[C-0848-riksarkivet-hemsjo-C4-C0043840_00020-1815-jan-feb.jpg](../media/C-0848-riksarkivet-hemsjo-C4-C0043840_00020-1815-jan-feb.jpg),
+6 236 × 5 020 px. Ingen ny arkivåtkomst har skett, och ingenting ovan är
+ändrat. Faddrarna utvanns redan 2026-09-07 inom T-0100; detta tillägg
+redovisar uppslagets kolumner och fyra iakttagelser som inte fanns förut.
+
+### Uppslagets kolumner
+
+Kolumnrubrikerna är **handskrivna på samma uppslag**: `Månad`, dagkolumnerna
+för född och döpt, `Barnets Namn`, `Föräldrarnes Namn`, `Willkor och
+Hemwist` och `Fadrarnes Namn och Hemwist`.
+
+| Kolumn | Läsning för Svens post |
+|---|---|
+| `Månad` | avskriven — `Februarii` |
+| Dag, född / Dag, döpt | avskrivna — `16` och `19` |
+| `Barnets Namn` | avskriven — `Sven` |
+| `Föräldrarnes Namn` | avskriven — `Olof Hansson, Britta Anders Dotr 33 åhr` |
+| `Willkor och Hemwist` | avskriven — `åboen i Bodarne` |
+| `Fadrarnes Namn och Hemwist` | avskriven sedan 2026-09-07 — fem faddrar |
+
+### Ålderskolumnens innebörd
+
+Uppslagets samtliga poster bär **exakt en** ålder, placerad efter moderns namn
+i kolumnen `Föräldrarnes Namn`: 31, 23, 33, 26, 44 och 33 på vänstersidan och
+39, 39, 33, 32, 39, 22 och 35 på högersidan. `33 åhr` i Svens post gäller
+alltså **modern**, och boken ger ingen ålder för fadern.
+
+Följden: [P-0513](../people/P-0513-olof-hansson-bodarne.md) har **ingen
+åldersuppgift alls** och därmed ingen sökbar födelseårgång.
+
+### Faddrarnas negativa utfall för fadern
+
+Av de fem faddrarna bär **tre** moderns patronymikon i dotterform,
+`Andersdotter`, och ett fjärde formen `Anderss.` **Inget** bär faderns
+patronymikon `Hansson`. Dopvägen till
+**hans** släkt är därmed prövad och stängd; för hustruns akt är utfallet
+tvärtom positivt som söknyckel.
+
+### Det anonyma faddret kan identifieras
+
+Ett faddre är namngivet **enbart med ämbete och ort**: `Nämndeman i
+Hattholt[?]`. Samma uppslag har i posten av den **9/10 november 1814** fadern
+`Johannes Andersson` med kolumnen `Willkor och Hemwist` ifylld `Nemdeman i
+Hagtoftad[?]` — samma ämbete och samma ortform, med samma läsreservation.
+Det anonyma faddret är därmed med hög sannolikhet **Johannes Andersson**, en
+namngiven och i domboksmaterial följbar man. Identifieringen är sannolik, inte
+fastställd, och ingen relation skapas.
+
+### Byn hade fler än en Olof
+
+Samma novemberposts faddrar innefattar **`Olof Månsson i Bodarne`**. Vid 700 %
+förstoring är namnets versal en **rundad dubbelbåge utan hög slinga**, medan
+`Hansson` i Svens post tre månader senare har en **tydlig hög `H`-slinga** i
+samma hand. De två är alltså inte samma man på denna läsning.
+
+Iakttagelsen ger aktens egen varning konkret stöd: **en `Olof` i Bodarne får
+inte identifieras ur namn och by**, eftersom byn bevisligen hade minst två.
+
+### Vad tillägget stöder
+
+- [P-0513](../people/P-0513-olof-hansson-bodarne.md): A-7500–A-7503.
+- [P-0514](../people/P-0514-britta-andersdotter-bodarne.md): att **tre
+  faddrar bär `Andersdotter` och ett fjärde `Anderss.`** — alltså fyra av fem
+  med hennes eget patronymikon, där T-0100 räknade de tre dotterformerna —
+  och att postens ålder `33 åhr` är hennes; rapporterat som avgränsat
+  följdfynd till hennes ägande uppgift.
+- [P-0383](../people/P-0383-sven-olofsson.md): hans egen födelseposts
+  kolumnredovisning; hans datum är oförändrade.

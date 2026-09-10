@@ -84,3 +84,101 @@ källa är de inte exakta fysiska flyttdagar.
   berör P-0096, P-0097 och de ännu onumrerade barnen.
 
 Berörda påståenden: A-5550–A-5557 (P-0096, P-0101).
+
+## Tillägg T-0181, 2026-09-09: kolumnredovisning för raderna 1–7 och tre rättade läsningar
+
+Den redan sparade fullbilden (`00194409_00025`, 5 457 × 3 968 px) är omläst
+för **raderna 1–7 och 17–23** vid 130–700 %, i utsnitt som var för sig rymmer
+**de tryckta kolumnrubrikerna och den tryckta radnumreringen tillsammans med
+datacellerna**. Avskriften och T-0131:s tillägg är append-only och behålls
+oförändrade.
+
+### Kolumnredovisning enligt person-standard.md, raderna 1–7
+
+Uppslagets tryckta rubriker lyder i tur och ordning `1. Torp, lägenhet, verk
+och inrättningar m. m. — Personens för- och tillnamn samt familjeställning`,
+`2. Yrke (tjenst, näringsfång) — Stam (främmande) — Lyte`, `3.–4. Född — år. /
+dag och mån.`, `5. Födelseort`, `6. Vaccinerad el. haft koppor`,
+`7. Gift — år, dag och månad`, `8. Enkling, enka eller frånskild`,
+`9.–10. Inflyttad eller öfverförd`, `11. Kristendoms-kunskap`, `12. Inom sv.
+kyrkan begått H. Nattv.`, `13. Bevistat husförhör år.`, `14. Anteckningar om
+frejd; nattvardshinder; äktenskapshinder; utfärdad lysning; hinderslöshetsbetyg;
+skiljobref; barns legalisering; utträde ur svenska kyrkan; främmande
+trosbekännelse; främmande nationalitet; den församling i Sverige, som moder vid
+nedkomst utom riket tillhörde; m. m.`, `15. Värnpligts-förhållanden.`,
+`16.–17. Utflyttad eller öfverförd — Till förs. i län eller i stad, eller sida
+i församlingsbok eller boken öfver obefintl. / År, dag och månad.` och
+`18. Död — år, dag och månad.`
+
+| Rad | Kol. 15 `Värnpligtsförhållanden` | Kol. 16 `Till förs./sida` | Kol. 17 `År, dag och månad` | Kol. 18 `Död` |
+|---|---|---|---|---|
+| 1 Jakob Andersson | **tom** | **tom** | **tom** | `3/10 05` |
+| 2 Maria Christina Hansdotter | **tom** | **tom** | **tom** | `26/8 03` |
+| 3 Anders Petter | `46 175/1884.` | `Se nedan` | **tom** | **tom** |
+| 4 Jacob | `Frik.` | **tom** | **tom** | **tom** |
+| 5 Anna Fredrika | **tom** | `853` | `04` | **tom** |
+| 6 Nils Leonard | `Frik.` | `Se nedan` | **tom** | **tom** |
+| 7 Christina Louisa | **tom** | `820` | `2/12 05` | **tom** |
+
+Samtliga tomma celler ovan är **lästa nollor, inte olästa kolumner**: varje
+kolumn i tabellen bär ett värde på minst en annan rad i samma utsnitt.
+Kolumnerna 11 och 12 bär bokstavs- respektive `N`-tecken på **samtliga** rader
+1–7; **bokstäverna återges som råtecken och ingen betygsskala härleds.**
+Kolumn 13 bär bleka, delvis överlagrade årtalsgrupper på raderna 1–7 som
+**står som råreservation** — de är faktiskt prövade men inte säkert läsbara.
+**Kolumn 14 är läst och tom på samtliga rader 1–7 och 17–18.**
+
+**Rad 4 är den enda av de fem barnraderna utan något värde i kolumnerna
+16–18.** Det är en substantiell uppgift om P-0097: han bildade inget eget
+hushåll på sidan, flyttade inte, överfördes inte och dog inte inom
+bokperioden 1895–1910.
+
+### Tre rättade läsningar
+
+- **Rad 6:s födelsedag är `26/9`, inte `24/9`.** Dagsiffrans andra tecken har
+  sluten nedre skål och uppåtgående inledning, som skrivarens `6` i rad 4:s
+  `6/12` och rad 7:s `26/4`, och saknar vinkeln och tvärstrecket i hans `4` i
+  årtalet `74` intill. **Rad 17 skriver samma dag**, så källan är intern
+  konsekvent och den tidigare skenbara avvikelsen mellan raderna var en
+  läsfel. Berör **P-0099** samt P-0094, P-0095, P-0096 och P-0101, som alla
+  bar `1874-09-24`. Se A-7776.
+- **Rad 7:s födelsedag är `26/4` och den alternativa läsningen `24/4`
+  faller.** Samma glyfjämförelse. Berör **P-0100**. Se A-7781.
+- **Rad 7:s utflyttningsdag är `2/12 05`, inte `2/10[?]`.** Nämnarens andra
+  tecken är en `2` med öppen övre båge och vågrät fot, tydligt olikt den
+  slutna ovalen `0` i `05` omedelbart intill. **Överföringen till folio 820
+  skedde 2 december 1905.** Berör **P-0100**. Se A-7782.
+
+**Den sista rättelsen tar bort en möjlig felslutsats.** Ett `2/10 05` intill
+faderns dödsdag `3/10 05` på rad 1 hade kunnat läsas som två dödsfall i samma
+vecka. **Dagen står i kolumn 17, inte i kolumn 18, och kolumn 18 är läst och
+tom på hennes rad.**
+
+### Raderna 17–23, Nils Leonards familj
+
+- **Hustruns tillnamn på rad 18 läses `Öberg`, alternativt `Öbergh`, och inte
+  `Lundgren[?]`.** Begynnelsebokstaven är en sluten ovalslinga med
+  prickmarkering ovanför — ett `Ö`, inte ett `L` — följd av `berg`; ordets
+  sista tecken är inte upplöst. **Folkräkningen 1900 skriver samma namnform
+  på hans egen familjerad** ([C-0073](C-0073-anna-fredrika-folkrakning-1900.md)),
+  oberoende av denna bok. Se A-7778.
+- **Kolumn 13 på rad 17** bär årtalsserien `99. 01. 02 / 03. 05, 06 / 07. 09,`
+  — bevistade husförhör 1899, 1901, 1902, 1903, 1905, 1906, 1907 och 1909.
+  **Det första talet är blekt och står som råreservation.** Hustruns rad 18
+  bär en egen serie som slutar med `10`: **familjen fanns kvar när boken
+  stängdes.** Se A-7788.
+- **Kolumn 14 är läst och tom på båda raderna** — inget frejdhinder, ingen
+  lysningsanteckning och inget utträde är antecknat.
+- `Frik.` står i kolumn 15 **också på hans egen hushållsrad 17**, alltså
+  dubbelt fört. `Se ofvan` i inflyttningskolumnen och `nb. 1098` i
+  utflyttningskolumnen bekräftas. Hustrun står född `79 14/9`, från folio
+  `820` år 99. Se A-7777, A-7780.
+- **Rad 21:s födelsedag bekräftas som `18/11`**, i enlighet med T-0131:s
+  tabell.
+- **Rad 22:s förnamn läses `Enis Kristina`** i namnkolumnen, där T-0131:s
+  tabell skriver `Iris Kristina`. **Båda formerna bevaras**; barnet har inget
+  person-id.
+
+`Stödda påståenden` utökas med A-7771–A-7774 och A-7789 (P-0097),
+A-7776–A-7778, A-7780 och A-7788 (P-0099) samt A-7781–A-7783 och A-7792
+(P-0100).

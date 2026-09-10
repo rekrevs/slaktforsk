@@ -191,3 +191,31 @@ T-0162, 2026-09-09: akten är omskriven till `person-dossier/v1`. Samtliga tidig
 >
 > - Konsolidering: `GRANSKAD` 2026-09-04 (T-0013, denna parentpassage)
 </content>
+
+### Inkommande följdfynd från T-0170, 2026-09-09
+
+Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
+ändrat**, och inget A-id är rört; T-0162 äger akten.
+
+- **Hennes egen födelseposts vittnesfält är nu avskrivet** och var det aldrig
+  tidigare. Sex vittnen: `Pahl Ersson i Öfverkovland[?]`, `Skom. Lars
+  Lindgren` utan ort, `Dr. Nils Jonsson i Öfverkovland[?]`, `H: Greta
+  Larsdotter ibid`, `D:o Johanna Pahls d:r i [oläst ort]` och `Pig. Brita
+  Ers d:r i Öfverkovland[?]`. **Vittne 3 bär moderns patronymikon och vittne
+  4 faderns**; båda är syskonkandidater till hennes föräldrar, men ingen
+  relation är skapad. Fyra av sex hör till **Övre Kovland**, en by som inte
+  tidigare funnits i akterna.
+- **Hennes födelse- och dopdatum är oförändrade:** född 17 september, döpt 26
+  september 1813.
+- **Ålderskolumnen i posten gäller modern.** Uppslagets samtliga poster bär
+  exakt en ålder, placerad efter moderns namn; moderns `27 år` ger födelsetid
+  september 1785–september 1786, medan **fadern inte har någon åldersuppgift
+  alls** i boken.
+- **Avsnittsnollet i A I/4 har fått preciserad räckvidd.** I posten om
+  torparen Lars Jonssons son, tre veckor senare på samma sida, är hemvisten
+  skriven `i Gårdtjern`, **överstruken och ersatt av `Byn`**, medan två av
+  postens vittnen anges bo i Gårdtjärn. A I/4:s `Byn`-avsnitt är aldrig sökt,
+  vilket är den nya huvudvägen till föräldrarnas hushållsrad.
+
+Ingen ny arkivåtkomst har skett; allt vilar på den redan sparade fullsidan.
+Se C-0830:s daterade tillägg.

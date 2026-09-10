@@ -129,3 +129,36 @@ Däremot återfanns inte C/2:s tidigare lästa gränsbilder
 `A0001455_00241`–`_00246` som lokala bildkopior vid fil- och aliassökning
 i T-0133. Bildföljdsluckan är ett tidigare dokumenterat åtkomstresultat;
 avsaknaden av egen födelsepost är inte ett personnoll.
+
+## Tillägg T-0168, 2026-09-09: vigselformulärets tryckta kolumner
+
+Läst i den redan sparade helbilden `A0001455_00129` vid 250 % förstoring, med
+den tryckta rubrikraden i samma utsnitt som posten. Avsnitten ovan är
+append-only och står oförändrade.
+
+Uppslagets högersida är rubricerad `Sammanvigde Personer År 1826` och har
+sidnumret 238. Formuläret har **fem** tryckta kolumner och inga andra:
+
+| Tryckt kolumnrubrik | Utfall | Innehåll i post nr 1 |
+|---|---|---|
+| `Nummer` | avskriven | `1` |
+| Lysningsdagskolumn (smal) | avskriven | `⁸/₁`, med reservation |
+| Andra smala datumkolumnen | avskriven | `¹²/₃`, med reservation; talet står vid namncellens vänstra kant |
+| `Contrahenters Namn` | avskriven | `Drängen och Hemmansäg[are]. Petter Reinhold Pehrsson` / `och Bonde dot[t]r. Beata Jonsd:r` |
+| `Ålder` | **avskriven — tidigare oläst som kolumn** | `28` respektive `17` |
+| `Hemvist` | avskriven | `Ånäset` respektive `D:o` |
+
+**Formuläret har ingen kolumn för födelseort, föräldrar eller
+förlovningsmän.** Vigselposten kan därför **aldrig** besvara Petter Reinholds
+ursprungsfråga, hur noga den än läses. Det är ett resultat och inte en lucka:
+källvägen är stängd, inte outnyttjad.
+
+De två åldrarna är däremot nya som sakuppgifter. `28` i mars 1826 ger mars
+1797 till mars 1798 för honom och är förenligt med husförhörsårets 1798.
+**`17` ger mars 1808 till mars 1809 för henne** — och därmed täcker
+Degerfors C/2:s genomsökta årgång 1809 bara halva intervallet. **Årgången 1808
+är aldrig prövad i original**, se A-2859:s tillägg och
+[P-0473:s profil KP-01](../research-profiles/P-0473.md#källvägar).
+
+De två datumkolumnerna läses som i T-0133, `⁸/₁` och `¹²/₃`, med reservation.
+Ingen ny säker vigseldag införs.

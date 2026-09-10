@@ -129,3 +129,76 @@ Den personbundna kedjan går från Brosätter 216 till Segerslund 185 den 13 nov
 ## Tillägg T-0143, 2026-09-08: Charlottas tidigare Segerslundhushåll
 
 Den redan sparade hela Segerslundbilden F0003350_00208, folio185, har nu prövats för P-0117:s egen rad6 och familjerader5–8. Axel Edvard Eriksson, arbetskarl,81 20/3 Björkvik, uppgiven vigsel02 25/10; h.Charlotta Cecilia Elisab.Gustafsson,83 14/1 Flen; Erik Axel02 22/6 Flen och Ture Edvard04 4/2 Flen. Familjen från p212,04 11/11, till Hyltinge05 2/6. Charlottas egna koppor v och b/N i kyrkliga kunskaps-/nattvardsfält är prövade; egna förhörsår, frejd/övriga anteckningar, värnplikt och dödsfält är tomma. Mannens nr354 44/02 är inte hennes värnplikt. Detta är det redan bevarade positiva ledet från C-0100; folio185 är alltså inte längre en oläst fortsättning. Den tidigare formuleringen oläst i C-0100:s T-0143-tillägg ersätts här. Familjen är skild från Erik Karlssons senare1907-rader på samma sida.
+
+## Tillägg T-0183, 2026-09-10: fyra outvunna rader på sida 185
+
+Den redan sparade fullbilden `F0003350_00208` (Flen `A II a/2 a` sida 185,
+Segerslund, 8 128 × 5 664 px) är omläst vid 210–900 % med **de tryckta
+kolumnrubrikerna och den tryckta radnumreringen i samma utsnitt som
+cellerna.** Citationens egna slutsatser om Erik Karlssons hushåll står
+oförändrade.
+
+**Citationen är hämtad för Erik Karlssons hushåll, som kom till sidan den
+13 november 1907. Samma sida bär fyra rader om ett annat hushåll — Axel
+Edvard Erikssons — som lämnade den 1905, och de hade inte nått någon akt.**
+
+### Rad 19: Karl Oskar Eriksson, kolumnredovisad
+
+| Kolumn | Rad 19 |
+|---|---|
+| 1 `Personens för- och tillnamn samt familjeställning` | `s. Karl Oskar` |
+| 3–4 `Född — år / dag och mån.` | `85` `⁸/₁₂` |
+| 5 `Födelseort (församling i län eller i stad)` | `Forssa` |
+| 15 `Värnpligtsförhållanden` | **`N:o 335 ⁴⁴/₀₆`** |
+| 16 `Utflyttad eller öfverförd — Till förs. i län eller i stad` | `Gustaf Vasa förs.` `Stockholm` |
+| 17 `År, dag och månad` | `07 ²⁸/₁₁` |
+
+**A-4389:s läsning bekräftas i varje led**, och födelsedagen `8/12 85` med
+orten `Forssa` är därmed belagd en fjärde gång. **Numrets sista grupp är
+`06`, inte `03`** — se nedan.
+
+### Raderna 5–8: Axel Edvard Erikssons hushåll, tidigare outvunna
+
+| Rad | Namn | Född | Födelseort |
+|---|---|---|---|
+| 5 | `Axel Edvard Eriksson`, `Arbetskarl` | `81` `²⁰/₃` | `Björkvik` |
+| 6 | `h. Charlotta Cecilia Elisab. Gustafsson` | `83` `¹⁴/₁` | `Flen` med ett överskrivet läntillägg |
+| 7 | `s. Erik Axel` | `02` `²²/₆` | `Flen` |
+| 8 | `s. Ture Edvard` | `04` `⁴/₂` | ditto |
+
+**Fem uppgifter är substantiella och stod inte i någon akt.**
+
+- **Hushållet överfördes till `Hyltinge` den `05 ²/₆`, alltså 2 juni 1905**,
+  med dittomärken på raderna 6–8. **Det sluter luckan mellan Flen 1904 och
+  Hyltinge 1910** och förklarar varför barnen födda 1906 och senare anges
+  födda i Hyltinge. Se A-7808 hos P-0121. **En bokförd överföringsdag är
+  inte i sig en bevisad fysisk flyttdag.**
+- **Axel Edvards värnpliktsnummer är `N:o 354 ⁴⁴/₀₂`**, med årsgruppen `02` —
+  det år han fyllde 21. **Tillsammans med Karl Oskars `⁴⁴/₀₆` ger det samma
+  mellangrupp `44` för två bröder**, alltså samma inskrivningsområde, och två
+  årsgrupper som båda pekar på tjugoettårsåret. **Det gör läsningen av `06`
+  otvetydig** och är grunden för A-7812 hos P-0136.
+- **Marginalen bär prästens egen åtskillnad mellan de två sönerna:**
+  **`hennes o. ä.`** vid rad 7 och **`gemens.`** vid rad 8. **Erik Axel var
+  alltså moderns son född utom äktenskapet** — vilket P-0118:s akt redan
+  belägger ur Flens födelsebok 1902 med fadern uttryckligen `okänd` — **och
+  Ture Edvard parets gemensamma.** Vigseluppgiften på rad 5 lyder `02 ²⁵/₁₀`,
+  alltså fyra månader efter Erik Axels födelse den 22 juni. **Anteckningen är
+  en samtidig bekräftelse ur en annan bokserie, inte en ny uppgift.**
+- **Erik Axels och Ture Edvards exakta födelsedagar bekräftas:** `02 ²²/₆`
+  och `04 ⁴/₂`, i överensstämmelse med
+  [C-0084](C-0084-erik-axel-fodelse-1902.md) och
+  [C-0083](C-0083-ture-edvard-fodelse-1904.md).
+- **Rad 5:s födelseort lyder `Björkvik`.** **Uppgiften är inte oberoende av
+  den kedja T-0153 identifierade:** detta är en Flenvolym, och T-0153 slog
+  fast att Björkvik uppträder först i personens eget hushåll i Flens folier
+  och att alla senare Björkvikuppgifter ligger nedströms den kedjan.
+  **Den lägger alltså ingen vikt till Björkvik mot Forssa.**
+
+**Rad 6:s födelseortscell bär ett överskrivet läntillägg** som läses
+**`Nyk. l.`** eller **`Ups. l.`** — kolumnrubriken efterfrågar länet, och
+Flen ligger i Nyköpings län, **men formen är inte avgjord och tolkas inte
+här.** Uppgiften rör P-0117 och är inrapporterad till T-0153.
+
+`Stödda påståenden` utökas med A-7808 (P-0121) samt A-7811 och A-7812
+(P-0136).

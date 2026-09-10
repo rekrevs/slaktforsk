@@ -202,3 +202,27 @@ Hela den föregående akten bevaras oförändrad nedan.
 > - Konsolidering: `GRANSKAD` 2026-09-04 (T-0033)
 > - Källbredd: `KLAR` — modern är säkrad och den återstående fadersfronten har
 >   en exakt original- och hushållsbaserad återstart.
+
+### Inkommande följdfynd från T-0170, 2026-09-09
+
+Avgränsad rapport från moderns kohortuppgift. **Ingenting i akten ovan är
+ändrat**, och inget A-id är rört; T-0162 äger akten.
+
+- **Ett andra Hillbergshushåll står på samma sida och i samma rote:**
+  `Bruksarbet. Olof Hillberg`, född `6/1 1832` i **Hudiksvall**, med hustrun
+  `Anna Hellgren`, född 1839 i Njutånger, och barn. Familjenamnet, roten och
+  yrket är hans egna, och åldrarna 1826 och 1832 är förenliga med **samma
+  mor** — men hushållet är fört som eget, utan `Modren`-rad, och **ingen
+  relation är skapad.** Om han är en bror ger hans födelsepost i Hudiksvall
+  1832 moderns namn och möjligen hennes patronymikon, som helt saknas.
+- **Moderns sockencell är förstorad.** T-0156 gissade `Forsa` ur
+  översiktsbilden; vid 700–900 % är läsningen förenlig med `Forsa` men **inte
+  fastställd**, och ordet är oförenligt med sidans fyra andra sockennamn i
+  samma hand — `Njutånger`, `Hudiksvall`, `Stockholm` och `Mo`.
+- **Din egen ortläsning berörs inte.** T-0156:s `Njutånger` för hans
+  födelseortscell står oprövad i detta tillägg. Den bör bekräftas i samma
+  omläsning som moderns cell, eftersom **hans födelsepost i Njutånger 1826 är
+  den starkaste kända vägen till moderns make** — alltså till hans egen far,
+  som projektet uttryckligen saknar.
+
+Ingen ny arkivåtkomst har skett. Se C-0842:s daterade tillägg.

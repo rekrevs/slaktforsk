@@ -129,3 +129,51 @@ efterforskningen har ställts mot `James`:
 
 Ingen kandidat förenas här. Avskriften ovan är append-only och behålls
 oförändrad; från och med detta tillägg gäller `Jonas Schölin`.
+
+## Tillägg T-0166, 2026-09-09: uppslagets tryckta kolumner och slutnotens år
+
+Rullan är en tabellförd källa och redovisas här enligt aktstandardens
+kolumnkrav. Rubrikraden är läst i samma utsnitt som datacellerna, i den lokalt
+sparade filen `C-0606-stockholms-stadsarkiv-barnhusrulla-2532.pdf` renderad vid
+400 dpi. Uppslaget har **fyra** tryckta kolumner:
+
+| Tryckt kolumnrubrik | Utfall | Innehåll |
+|---|---|---|
+| `Antagne till underhåll.` | avskriven | `1831` / `Junii` med dagfältets `21` över `15`; längst ned `1849` / `Aug`. Kolumnen är tvådelad, med dagen i den smala delen. |
+| `Barnens namn, härkomst och Foster-Föräldrar.` | avskriven | Hela posten: barnets namn, `f. d. 13 Aug. 1825. ympad`, `N:o 90 Fadren Fabriks Arbetaren Jonas Schölin`, `Uppfostras af Torp. Bonden Nils Larsson, Löfberg, Ljustorps Socken — Westernorrlands Län —`, samt slutnotens ord. |
+| `Årligt Underhåll.` | avskriven | Talet `20`, i kolumnens vänstra delkolumn. Ingen valuta är tryckt i rubriken. |
+| `Afmönstrade.` | läst och tom | Enbart tryckta rader: årsprefixet `18` följt av `1 Qv.`, `2 —`, `3 —`, `4 —`, upprepat nedåt sidan. Ingen ifylld uppgift. |
+
+**Ingen tryckt kolumn i detta uppslag är oläst.**
+
+Två positionsförhållanden är kontrollerade, eftersom en cells innebörd avgörs
+av dess läge:
+
+- **Talet `20` står till höger om kolumnlinjen**, alltså i `Årligt Underhåll.`
+  och inte i namnkolumnen. Det bekräftar A-4320 i P-0339.
+- **Det tryckta `18` hör till `Afmönstrade.`** och är kvartalsradernas
+  **årsprefix**, inte ett underhållsbelopp. Talet står till höger om `Årligt
+  Underhåll.`s avslutande linje och bildar par med `1 Qv.` på samma rad.
+
+### Slutnotens år är 1849, inte 1839
+
+Den tidigare avstämningen (T-0130 ovan) läste den nedersta anteckningen som
+`1839 Aug och upph—`. **Året är `1849`.** Tredje siffran är ett `4` med
+vinklad topp och genomgående nedstapel; jämförelsen görs mot `1831` högst upp i
+**samma kolumn och samma hand**, där `3` skrivs som en flat-toppad figur med
+vinklad underslinga. De två formerna är inte förväxlingsbara vid förstoring.
+Sista siffran är ett `9` med lång nedstapel.
+
+Ordföljden efter årtalet är `upph` med förkortningsstreck, därefter en läsning
+som **reserveras**: `fri[?]sedel[?] utf[?]` med avslutande snirkel. Orden
+`upph` och `utf` är säkra som bokstavsföljder; deras upplösning till
+`upphör`/`upphört` och `utfärdad` är sannolik men inte här fastställd, och
+`frisedel` är en tolkning som inte registreras som sakuppgift. **Inget
+avsluts-, flytt- eller dödsdatum införs ur noten** utöver året och månaden.
+
+Följden är en rättelse i P-0339, som bar `1839` i påstående, tidslinje,
+ekonomiavsnitt och berättelse: A-2561 är rättad och det nya A-7210 bär den
+kontrollerade läsningen. P-0454 påverkas inte sakligt av året; för honom är
+kolumnredovisningen ovan det nya, se A-7201 och A-7202.
+
+Avskriften högst upp i denna citation är append-only och står oförändrad.

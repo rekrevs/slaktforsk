@@ -46,3 +46,47 @@ A-0504–A-0506.
 ## Tillägg T-0143, 2026-09-08: rättad egen post
 
 Hela Fredriks egen utflyttpost48 har prövats i den sparade helbilden. Datum26/10, folio51, Ålund Fredr. Wilhelm, dräng, boställe Gästekvarn[?], destination Gryt, en man och en kvinna. Hustrun identifieras inte vid namn här; C-0094 skriver med hu. Tomma övriga fält ger ingen ytterligare levnadsuppgift. Datumet är utflyttningsbokens attest-/registreringsdatum.
+
+## Tillägg T-0182, 2026-09-09: `Qvinkön.` bär en kvinna, och boställsnamnet börjar `Gräs`
+
+Den redan sparade fullbilden (`F0003389_00040`, 6 400 × 5 248 px) är omläst
+vid 250–600 % för post 48, i ett utsnitt som rymmer **de tryckta rubrikerna
+tillsammans med cellerna.** Avskriften är append-only och behålls oförändrad.
+
+### Kolumnredovisning för post 48
+
+Uppslagets rubrik lyder `In- och Utflyttningslängd för Helgesta Församling`,
+och den utflyttade sidans tryckta kolumner är `Års-nummer.`,
+`Attestens datum.`, `Folio uti Församlingsboken.`,
+`De utflyttades namn, stånd, embete, yrke.`, `Ställe, hvarifrån utflyttad.`,
+`Ort, hvarthän utflyttad (Socken i Län, Stad.)`, `Mankön.` och `Qvinkön.`
+
+| Kolumn | Post 48 |
+|---|---|
+| `Års-nummer.` | `48` |
+| `Attestens datum.` | `26/10` |
+| `Folio uti Församlingsboken.` | `51` |
+| `De utflyttades namn, stånd, embete, yrke.` | `Ålund Fredr. Wilhelm`, `Dräng` |
+| `Ställe, hvarifrån utflyttad.` | **`Gräslöten`** — se nedan |
+| `Ort, hvarthän utflyttad (Socken i Län, Stad.)` | `Gryt` |
+| `Mankön.` | `1.` |
+| `Qvinkön.` | **`1`** |
+
+**Kolumnen `Qvinkön.` bär `1`.** Kolumnerna är belagt i bruk på samma
+uppslag — grannraderna bär en man och två kvinnor, en man och ingen kvinna,
+samt två män och fem kvinnor. **En kvinna flyttade alltså ut med honom, räknad
+men namnlös.** Tillsammans med Gryts inflyttningspost 85–86, som skriver
+`Dräng Fredr. Wilh. Ålund **med hu**`, **belägger det att
+[P-0114 Anna Fredrika Blom](../people/P-0114-anna-fredrika-blom.md) var hans
+hustru senast den 26 oktober 1874** — tre år före dopvittnesposten 1877, som
+hittills var hennes tidigaste belägg. **Räkningen daterar äktenskapets
+senaste möjliga tidpunkt, inte dess ingående.** Se A-7793.
+
+**Boställsnamnet är inte `Gästekvarn`.** Avskriften återger `Gästekvarn[?]`
+med reservation. Vid 430–600 % är ordets **fyra första bokstäver otvetydigt
+`Gräs`** — ett `r` följer omedelbart på `G`, vilket utesluter `Gäste-`.
+Ordets senare del läses **`-löten`**, men `l`/`t` och `ö`/`e` är inte säkert
+skilda, så formen **`Gräslöten`** bär en kvarstående reservation för sin
+senare del. **Ortnamnet är inte tidigare belagt i projektet.** Se A-7794.
+
+`Stödda påståenden` utökas med A-7793 och A-7794 (P-0114).

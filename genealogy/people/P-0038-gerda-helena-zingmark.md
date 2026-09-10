@@ -169,3 +169,39 @@ Rättelser som gäller en citation och ska föras in centralt i [C-0916](../cita
 > |---|---|---|---|
 > | [P-0028 Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) | far | TRANSCRIBED | C-0574 |
 > | [P-0029 Ida Sofia Andersdotter](P-0029-ida-sofia-andersdotter.md) | mor | TRANSCRIBED | C-0574 |
+
+### Inkommande följdfynd från T-0177, 2026-09-09
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0177, som läste om
+[C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md):s
+sparade helbild vid 400–900 % för systerns skull. Ingen ny arkivpassage
+öppnades och ingen uppgift är förd in i akten här; ägaren avgör.
+
+**Din anmälda datumkonflikt finns inte.** T-0154 rapporterade 2026-09-08 att
+din födelsedag stod `1909-07-12` i C-0574 mot `1909-09-17` i C-0890 och
+C-0907. Vid omläsning läser **C-0574 rad 12 `1909 ¹⁷/₉`** — räknaren är en
+`1` följd av en `7` med vågrät topplinje, nämnaren en `9` med sluten ögla och
+nedgående svans. **Månaden är september, inte juli.** Alla tre volymerna ger
+alltså **1909-09-17**, och avvikelsen låg i C-0574:s egen tabell.
+
+**Samma sak gäller din syster Tyra Charlotta**, vars `1907-07-14` i samma
+tabell är `1907 ¹²/₇` i bilden, kontrollerat mot skrivarens egen fyra i
+årtalet `1894` två rader ovanför — en hög, kantig glyf som tecknet i räknaren
+inte liknar. **Och samma sak gäller er bror Johan Magnus**, vars konflikt
+avskrevs 2026-09-09 i C-0890:s tillägg.
+
+**Konsekvensen är att hypotesen om ett systematiskt överföringsfel mellan
+Degerforsvolymerna inte har något underlag kvar.** Alla tre avvikelser
+T-0154 anmälde var avskriftsfel i **en** tabell. Din uppgift T-0399 har den
+frågan i sin stoppgräns; Degerfors födelsebok för 1905, 1907 och 1909 behövs
+alltså fortfarande för dopdagar och vittnen, **men inte för att avgöra en
+konflikt.**
+
+**En andra uppgift är utvunnen.** Din rad i folkräkningen 1930, Umeå stad
+sida 96, är **läst och tom** i både inkomst- och förmögenhetsdelen av den
+tryckta kolumnen `Inkomst och förmögenhet`, med rubriken och sidhuvudet lästa
+i samma utsnitt. Tomheten är ett **läst noll i en ifylld kolumn** — på samma
+sidor bär tre bröder `38`, `15` och `133` — och den delas med systern Tyra
+Charlotta.
+
+Anmälan är riktad till T-0399, som äger din fortsättning, och till T-0154.

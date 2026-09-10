@@ -73,3 +73,22 @@ slås ihop med originalets lista. Postens koppling till den vuxne Hans bygger
 på namn, Åkullsjön och ansedelns identifikation, inte två oberoende original
 som vart och ett ger hela livskedjan. A-0730–0732/A-0793 består med denna
 källgräns. Fullbildens utvinning innebär ingen ny genomgång av grannbarnen.
+
+## Daterat tillägg 2026-09-09 — T-0169: vittneskolumnen är nu tagen i bruk
+
+Ingen ny läsning och ingen ändring av avskriften ovan. Tillägget redovisar var
+postens redan kolumnredovisade vittneslista nu används.
+
+- Listans fyra vittnen är förda som A-7410 i
+  [P-0165](../people/P-0165-nils-nathanaelsson-akullsjon.md) och som A-7420 i
+  [P-0166](../people/P-0166-lisa-caisa-abrahamsdotter-akullsjon.md).
+- För **fadern** är utfallet negativt och stänger en passage: **inget** av de
+  fyra vittnena bär patronymikonet `Nathanaelsson`.
+- För **modern** är utfallet positivt som söknyckel: `Dräng Abram Abramsson`
+  och `Pig Brita Stina Abramsdr`, båda med ortdito till **Rickleå**, bär
+  hennes patronymikon. De är söknycklar, inte syskon; **ingen relation
+  skapas.**
+- Att en **klockare** står först bland vittnena är fört som A-7411 med
+  tillförlitlighet `medel`, eftersom titelläsningen bär reservation här. Det
+  är en social uppgift om hushållets kontaktkrets och ges ingen
+  släktskapsinnebörd.

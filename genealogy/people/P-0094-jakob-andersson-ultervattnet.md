@@ -51,7 +51,7 @@ Jakob Andersson var bonde och senare betecknad hemmansägare i Ultervattnet, Byg
 | [P-0097 Jakob](P-0097-jakob-ultervattnet.md) | son | Ultervattnet; 1865-12-06, rättad husförhörsuppgift | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0098 Maria Mathilda](P-0098-maria-mathilda-ultervattnet.md) | dotter | Ultervattnet; 1869-03-14, uppgivet; hushåll 1863–73 och 1880 | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0049 Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md) | dotter | Ultervattnet; 1872-02-08 enligt egen födelsepost | CORROBORATED | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
-| [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md) | son | Ultervattnet; 1874-09-24, uppgivet | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
+| [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md) | son | Ultervattnet; **1874-09-26**, uppgivet | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0100 Kristina/Christina Lovisa](P-0100-kristina-lovisa-ultervattnet.md) | dotter | Ultervattnet; 1877-04-26[?], alternativ läsning 24 april | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0101 Carl/Karl Erik](P-0101-carl-erik-ultervattnet.md) | son | Ultervattnet; 1880-05-16, uppgivet | CORROBORATED | [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 
@@ -261,3 +261,15 @@ Jakob kallas bonde och hemmansägare. Orden visar hans jordbruksanknytning men i
 >   ingen intersockenpost; flyttkälla återtas först om födelsekonflikten ger
 >   en positiv tidigare by-, sida- eller destinationsnyckel (research-log
 >   Batch 247).
+
+#### Följdrättelse från T-0181, 2026-09-09: sonens födelsedag är 26/9
+
+Relationsraden för [P-0099 Nils Leonard](P-0099-nils-leonard-ultervattnet.md)
+bar dagen `1874-09-24`. **Läsningen är fel.** Båda hans rader på
+[C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md):s sida 824
+— barndomsraden 6 och den egna hushållsraden 17 — skriver `26/9`, avgjort
+genom glyfjämförelse mot samma skrivares `4` i årtalet `74` på samma rad.
+Dagen är nu **1874-09-26**. **Året är oförändrat, och inget annat i akten
+berörs.** Se A-7776 hos P-0099.
+
+Rättelsen är inrapporterad till T-0131, som äger denna akt.

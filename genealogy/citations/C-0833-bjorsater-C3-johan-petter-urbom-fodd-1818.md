@@ -58,3 +58,39 @@ felläst. Fulla vuxenrader i C-0275–0278/0281 ger 2 mars eller källbundet
 födelsebarnet och maken i P-0123. A-3198/A-3199 och motsvarande
 föräldralänkar är kandidater efter omprövningen. T-0292 prövar den
 avgränsade Backgårdenbryggan; sekundärens förväxlingsförklaring är LEAD.
+
+## Daterat tillägg 2026-09-09 — T-0171: ytterkolumnens tal `28` prövat mot sekundärkällan
+
+Ingen ny läsning och ingen ändring ovan. Tillägget prövar den tolkning
+konsolideringen från T-0135 gjorde med reservation: `Ytterkolumnens råtal 28
+är trolig modersålder; ingen funktionsrubrik finns på detta uppslag.`
+
+**Tolkningen får nu ett positivt skäl.** Den sekundära personakten
+[C-0248](C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md) anger
+hustrun född **1791** och maken född **1782**. I juni 1818 ger det 27 år
+respektive 36 år. Talet `28` ligger alltså **ett år från hustruns** uppgift
+och **åtta från makens**. Kolumnen gäller därför med god sannolikhet
+**modern**.
+
+Två följder:
+
+- [P-0265](../people/P-0265-anna-maja-maria-eriksdotter.md) får sin **första
+  originalnära åldersuppgift**: `28` i juni 1818 ger födelsetid **juni
+  1789–juni 1790**, alltså ett till två år före sekundärkällans 1791. Det är
+  en normal avrundning; **inget av åren 1789, 1790 eller 1791 väljs**, och
+  alla tre måste prövas. Fört som A-7580.
+- [P-0264](../people/P-0264-lorens-urbom.md) saknar därmed **varje**
+  åldersuppgift ur ett original. Fört som A-7570.
+
+**Metodnot.** Slutsatsen `trolig modersålder` för en orubricerad kolumn kräver
+en positiv kontroll i **varje** bok. Samma dag har T-0171 funnit ett uppslag
+där tolkningen bevisligen inte håller: i Nysätra C/4 bär två poster för
+**samma föräldrapar** talen `24` (1797) och `29` (1798), fem års skillnad på
+fjorton månader. Se
+[C-0198](C-0198-nysatra-C4-andreas-nilsson-fodd-1797.md)- och
+[C-0199](C-0199-nysatra-C4-magdalena-eriksdotter-fodd-1798.md)-tilläggen.
+Här finns kontrollen; där finns den inte.
+
+Därtill är postens **fyra dopvittnen**, utvunna i T-0135, nu förda till båda
+föräldrarnas akter som A-7571 och A-7581, med det negativa utfallet
+utskrivet: inget vittne bär namnet `Urbom` eller moderns patronymikon.

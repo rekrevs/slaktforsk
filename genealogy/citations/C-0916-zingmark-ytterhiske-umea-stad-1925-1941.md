@@ -153,3 +153,83 @@ levde, från inflyttningen 1917 och genomgående, och inte först på änkans ra
 själv.
 
 Berörda påståenden: A-5453 (P-0028).
+
+## Tillägg T-0176, 2026-09-09: rad 9:s yrke, ort och vigselnotis
+
+Den lokalt sparade helbilden `00206417_00013` har lästs om inom T-0176 vid
+450–1300 %, med radnummer och födelseår i samma utsnitt som cellerna. Ingen
+ny arkivåtkomst gjordes och avskriften ovan ändras inte.
+
+**Rad 9, Anders Valdemar (P-0032): yrkescellen bär `Agronom` i bläck och
+`Kamrer` i blyerts — inte `kammarskrivare, kronofogde`.** Avskriften ovan ger
+`kammarskrivare, kronofogde`, och T-0154:s tillägg lägger till `Kamrer` och
+`Agronom`. Vid 450 % innehåller cellen **två** skikt: `Agronom` i bläck på
+radlinjen och `Kamrer` i blyerts ovanför, inom hans radband mellan rad 8:s och
+rad 9:s ruling. Orden `kammarskrivare` och `kronofogde` finns inte i cellen.
+`Agronom` bekräftas oberoende av folkräkningen 1930
+([C-0899](C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md)).
+Varifrån de två andra titlarna kommer är **inte fastställt** och förs i
+P-0032 som en öppen fråga.
+
+De tre beteckningarna i **rad 10:s** cell — `Arbetsförman` (struken), `Faktor`
+och `Skogstjänsteman` — hör till Petrus Nikolaus (P-0034) och ligger under
+rad 9:s ruling, i enlighet med T-0149:s tillägg.
+
+**Rad 9: inflyttningsorten lyder `Lomma / Malmöhus l.`** Avskriften ovan ger
+`Sonnna(?) Åsbrunn(?)`. Vid 600–1100 % är den övre raden `Lomma` och den
+nedre **länet** `Malmöhus l.`, inte en andra socken. Läsningen bekräftas
+oberoende av att Umeå landsförsamling skrev honom utflyttad till **Lomma**
+1923-12-14 ([C-0907](C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md)),
+och felläsningen gjorde återresan osökbar. Kedjan Ytterhiske → Lomma →
+Ytterhiske sluter sig.
+
+**Rad 9: inflyttningsdagen `¹⁷/₁₁` är prövad och står kvar.** Siffran
+misstänktes vara `¹⁹/₁₁`; vid 1400 % är den andra siffran en **korsad sjua**
+med vågrätt topplinje, inte en nia. Kontrollen är gjord och behöver inte
+göras om.
+
+**Rad 9: vigselnotisen lyder `Gift den 11 juli 1935 med skolk. lär. Rut
+Ingrid Evelina Brunskog, Råda`.** Avskriften ovan ger `Rut Ingrid Dorothea
+Brunskog` och utelämnar brudens yrke. Vid 700–1300 % är det tredje namnledet
+`Evelina`, med tydligt punkterat `i`; `Dorothea` är uteslutet. Före namnet
+står förkortningen `skolk. lär.`, som läses **skolkökslärarinna** — en
+utläsning som är den sannolika men inte utskriven i boken. Kungörelsemånaden
+är inte säkert läst.
+
+Berörda påståenden: A-3442 och A-7713–A-7715 (P-0032).
+
+## Tillägg T-0177, 2026-09-09: rad 6:s utflyttningsort är `Kalvträsk`, och rad 7 har tre poster
+
+Den lokalt sparade helbilden `00206417_00013` har lästs om inom T-0177 vid
+500–1200 %, med radnummer och födelseår i samma utsnitt. Ingen ny arkivåtkomst
+gjordes och avskriften ovan ändras inte.
+
+**Rad 6, Birger (P-0036): utflyttningsorten är `Kalvträsk`, inte
+`Falstränsk(?)`.** Ortnamnet läses `K-a-l-v-t-r-ä-s-k` med diakritik över
+`ä`. **Läsningen bekräftas oberoende:** Kalvträsk ligger i **Burträsks**
+församling, och A-3345 placerar honom som poliskonstapel i Burträsk
+1943–1951. Felläsningen dolde alltså den ort som binder hans avflyttning 1933
+till hans kända vistelse tio år senare.
+
+**Rad 6: dagen är `¹⁷/₁₁`, inte `¹⁹/₁₁`.** Vid 1200 % är den andra siffran en
+**korsad sjua** med vågrät topplinje och en tvärstreck genom stammen — inte en
+`9`, som har en sluten ögla. Utflyttningen skedde alltså **1933-11-17**.
+P-0036:s A-3445 uppger 1933-11-19.
+
+**Rad 6: två uppgifter var outvunna.** Värnpliktskolumnen bär `242 ⁶⁹/₂₅` —
+numret fanns inte i akten — och anteckningskolumnen bär `Brage 2`, som är
+**läst men inte tolkad**; den kan vara en fastighets-, förenings- eller
+logebeteckning och normaliseras inte. Yrket `poliskonstapel` är **överstruket**,
+vilket hör till avflyttningen och inte betyder att uppgiften är felaktig.
+
+**Rad 7, Tyra Charlotta (P-0037): utflyttningskolumnen bär tre poster.**
+Avskriften ovan ger `Vänge Läby 32 ⁵/₇`, `~~Holmsund 35 ¹⁶/₁₂ 31~~` och
+`Vänge Läby 51 ¹⁰/…`. Vid 500–600 % bekräftas att cellen har **flera** rader,
+att ortnamnet skrivs `Vänge-Läby` med bindestreck, och att
+`Holmsund 35 ¹⁶/₁₂`-posten är **överstruken**. **Läsningen är ofullständig:**
+talen efter `¹⁰/` på den sista raden och den strukna postens avslutande tal är
+inte säkert lästa, och postordningen inom cellen kan inte fastställas.
+`Vänge` och `Läby` är **två skilda uppländska församlingar**, och cellen säger
+inte vilken hon skrevs i.
+
+Berörda påståenden: A-3445, A-7725–A-7728 (P-0036) och A-7731 (P-0037).

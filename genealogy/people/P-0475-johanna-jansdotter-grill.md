@@ -250,3 +250,48 @@ T-0139 fullkonsoliderar befintligt underlag och bevarar alla tidigare A-id. Aktu
 > - Källbredd: `KLAR` — födelse, P-0476–P-0477, moderskap, vuxenliv och död
 >   är originalbundna; vigseln och den analoga bouppteckningen är exakt
 >   avgränsad berikning.
+
+### Inkommande följdfynd från T-0173, 2026-09-09
+
+**Avgränsad följd, ingen ny arkivåtkomst.** Fyndet kommer ur
+[C-0721](../citations/C-0721-stora-malm-johanna-jansdotter-1819-1841.md), redan
+läst, och rör din mor
+[Lena Jonsdotter](P-0477-lena-jonsdotter-walla.md), som T-0173 äger. **Din egen
+akt är inte omprövad**, och inget A-id, ingen status och ingen bedömning i den
+ändras här.
+
+**Din födelsepost innehåller två uppgifter vars följder inte var dragna.**
+
+**1. Din mors uppgivna ålder passar ingen av hennes två dateringar.** Posten
+anger `34` den 30 maj 1819, vilket ger hennes födelse till **1784-05-31 –
+1785-05-30**. Hushållslängdens `1783 21/10` skulle göra henne **35** den
+dagen, och den gamla kandidatposten `1785 31/10` skulle göra henne **33**.
+Talet ligger mitt emellan de två och pekar på ett tredje fönster. Åldern var
+utvunnen i T-0139 men aldrig räknad mot dem. **Ingen datering väljs**, och en
+uppgiven ålder bär avrundningsrisk.
+
+**2. Tre av barnen i din familjegrupp bär ett annat patronymikon än du.**
+`Anna Maja Andersdotter` 1806-08-02, `Eric Andersson` 1809-09-27 och `Anders
+Andersson` 1812-04-12 heter `Anders`-, medan du, `Cajsa Lena Jansdotter` 1816
+och `Brita Stina Jansdotter` 1821 heter `Jans`-. Akterna varnade riktigt mot
+att göra Jan Ericson till de tre förstas far. **Följden framlänges var aldrig
+dragen:** han uppges född 1791 och var alltså **femton år** när det äldsta av
+dem föddes.
+
+Om de tre är **din mors** barn var hon gift förut, med en Anders, och då är
+de dina **halvsyskon på mödernet** — och giftermålet mellan dina föräldrar
+faller mellan **april 1812 och augusti 1816**. **Detta är en hypotes, inte en
+slutsats.** Ingen tidigare make skapas, inga person-id skapas, och **ingen
+syskon- eller halvsyskonrelation införs i din akt**; ett patronymikon är ett
+indicium om en far, inte om vilken mor.
+
+**En tredje uppgift är svagare men konkret.** Bland dina fyra dopvittnen står
+`Maja Jonsdotter` i `Hindricstorp[?]`, den enda vars namnform är förenlig med
+en syster till din mor. `Jonsdotter` var ett av tidens vanligaste
+patronymikon, så det är en namnförenlighet och ingenting mer.
+
+**Ägare för följdarbete:** din kohort är
+[T-0139](../../wotan/dev-log/T-0139.md), som är underrättad. Den nya passagen
+— Stora Malms vigselbok 1812–1816 — ligger i
+[P-0477:s profil](../research-profiles/P-0477.md#källvägar) KP-02 och prövar
+din mors civilstånd, inte din egen akt.

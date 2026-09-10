@@ -48,7 +48,7 @@ Maria Christina Hansdotter, född 17 oktober 1840 i Åkullsjön, Bygdeå, är do
 | [P-0097](P-0097-jakob-ultervattnet.md) | Son Jakob | Född 1865-12-06 enligt omläsning av båda böckerna; äldre 10/12 rättad | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0098](P-0098-maria-mathilda-ultervattnet.md) | Dotter Maria Mathilda | Född 1869; med 1880, senare öde inte avgjort | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
 | [P-0049](P-0049-anna-fredrika-jakobsdotter.md) | Dotter Anna Fredrika | Född 1872-02-08; egen födelsepost | CORROBORATED | [C-0067](../citations/C-0067-anna-fredrika-fodelse-1872.md), [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md) |
-| [P-0099](P-0099-nils-leonard-ultervattnet.md) | Son Nils Leonard | Född 1874-09-24 enligt sida 824; familjeförtecknad 1880 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
+| [P-0099](P-0099-nils-leonard-ultervattnet.md) | Son Nils Leonard | Född **1874-09-26** enligt sida 824; familjeförtecknad 1880 | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0100](P-0100-kristina-lovisa-ultervattnet.md) | Dotter Christina/Kristina Lovisa | Född 1877; familjeböcker/folkräkningar | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0101](P-0101-carl-erik-ultervattnet.md) | Son Carl/Karl Erik | Född 1880-05-16 enligt sida 824; folkräkningar | CORROBORATED | [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md), [C-0071](../citations/C-0071-anna-fredrika-folkrakning-1890.md), [C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md), [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md) |
 | [P-0102](P-0102-maria-jacobsdotter-ultervattnet.md) | Svärmor Maria Jacobsdotter | Ultervattnet, 1863–1873 bok och 1880 familj 2 | CORROBORATED | [C-0069](../citations/C-0069-anna-fredrika-barndom-ultervattnet-sida-567.md), [C-0070](../citations/C-0070-anna-fredrika-folkrakning-1880.md) |
@@ -78,7 +78,7 @@ Sida 824 visar vuxna söners familjefortsättningar under Anders Petter, Nils Le
 
 ### Vuxna barns fortsatta familjer
 
-C-0425 binder Anders Petter till Mathilda Granberg (vigsel 1898-11-30) och Nils Leonard till Anna Albertina Lundgren[?] (vigsel 1899-04-16). Barnbarn födda före Marias död är i den lästa sidan Ruth Maria Mathilda 1899 (död samma år), Anders Hugo 1901 och Julia Maria 1903 hos Anders Petter samt Agnes Maria 1900 och Albin Mauritz 1902 hos Nils Leonard. Detta belägger familjekretsen, inte personlig kontakt eller ett gemensamt hushåll.
+C-0425 binder Anders Petter till Mathilda Granberg (vigsel 1898-11-30) och Nils Leonard till Anna Albertina **Öberg** (vigsel 1899-04-16). Barnbarn födda före Marias död är i den lästa sidan Ruth Maria Mathilda 1899 (död samma år), Anders Hugo 1901 och Julia Maria 1903 hos Anders Petter samt Agnes Maria 1900 och Albin Mauritz 1902 hos Nils Leonard. Detta belägger familjekretsen, inte personlig kontakt eller ett gemensamt hushåll.
 
 Sidan fortsätter efter hennes död med Anders Petters Johan Artur 1905 och Stig Ernst 1908, Nils Leonards Nils William 1904, Iris Kristina 1907 och Estrid Albertina 1909 samt Carl Eriks familj med Katarina Annali[?] Sandström, vigsel 1907, och barnen Ingrid Viktoria 1907, Karl Birger 1909 och Märta Abgalia[?] 1910. Deras händelser är inte Marias egen levnad; rånamn och osäkra dagar bevaras i [C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md). Den separata pigan Anna Teresia Bäckman blir inte dotter.
 
@@ -254,3 +254,25 @@ T-0131,2026-09-08: alla äldre A-id och tidigare text bevaras nedan. Fem barn, s
 > - Källbredd 2026-09-04: flytt `—`. Den belagda kedjan Åkullsjön–Ultervattnet
 >   ligger inom Bygdeå och ger ingen separat intersockenflytt att söka
 >   (research-log Batch 247).
+
+#### Följdrättelse från T-0181, 2026-09-09: två led i sonens familj
+
+Två led i akten bar felaktiga läsningar ur
+[C-0425](../citations/C-0425-bygdea-AIIa2b-ultervattnet-sida-824.md).
+
+**Sonen [Nils Leonards](P-0099-nils-leonard-ultervattnet.md) födelsedag är
+`26/9`, inte `24/9`.** Båda hans rader på sida 824 skriver samma dag, avgjort
+genom glyfjämförelse mot samma skrivares `4` i årtalet `74` på samma rad. Se
+A-7776 hos P-0099.
+
+**Hans hustrus tillnamn är `Öberg`, alternativt `Öbergh`, inte
+`Lundgren[?]`.** Begynnelsebokstaven kan inte vara ett `L` — den är en sluten
+ovalslinga med prickmarkering, alltså ett `Ö`, följd av `berg`. **Folkräkningen
+1900 skriver samma namnform** på sonens egen familjerad
+([C-0073](../citations/C-0073-anna-fredrika-folkrakning-1900.md)), av en annan
+skrivare. Se A-7778 hos P-0099.
+
+**Ingen annan uppgift i akten berörs**, och avsnittets avgränsning att
+barnbarnens händelser inte är Marias egen levnad står oförändrad.
+
+Rättelserna är inrapporterade till T-0131, som äger denna akt.

@@ -153,3 +153,34 @@ Ida Sofias rad 13 bär ingen motsvarande not; den not som är utvunnen för henn
 tillägget ovan är den på hennes egen rad, `¹¹/₆₄ mtl … N:r 1`.
 
 Berörda påståenden: A-5454 (P-0028) och A-5470 (P-0029).
+
+## Tillägg T-0176, 2026-09-09: `Lysning 27/1921` är ett nummer, inte ett datum
+
+Den lokalt sparade helbilden `00206295_00175` har lästs om inom T-0176 vid
+300 %. Ingen ny arkivåtkomst gjordes och avskriften ovan ändras inte.
+
+**Rad 15, Astrid Maria (P-0031): anteckningen lyder `Lysning 27/1921`.**
+Avskriften ovan ger `Lysning ²⁷/₇ 1921` och den normaliserade tolkningen
+`lysning 1921-07-27`, vilket lade lysningen **efter** vigseln den 17 april
+samma år. Uppgiften bars i P-0031:s A-3409 som en läsosäkerhet med just den
+motsägelsen inbyggd.
+
+Talet står med **snedstreck**, `27/1921`, i exakt samma form som:
+
+- `Utfl. N:r 30/1917` i Degerfors A II a/6 rad 4
+  ([C-0890](C-0890-zingmark-rosinedahl-degerfors-1910-1920.md)), och
+- `Lysn. 117/34` i Umeå stads A II a/5 e
+  ([C-0916](C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), tillägg
+  T-0154).
+
+Det är alltså **lysningsbokens postnummer 27 för år 1921**. Motsägelsen
+försvinner, och lysnings- och vigselboken har fått en exakt post att söka —
+den enda kända handling som kan namnge hennes make, som detta uppslag inte
+gör.
+
+Samma rad bär `Fl. 22 ⁶/₄`, alltså flyttningsbetyg 1922-04-06, dagen före
+utflyttningen till Degerfors 1922-04-07. Vigseldagen `21 ¹⁷/₄` i kolumn 7 och
+inflyttningen `17 ⁸/₁₁` från `Örebro norra` är kontrollerade vid 400 % och
+står oförändrade.
+
+Berörda påståenden: A-3409 och A-7708–A-7709 (P-0031).

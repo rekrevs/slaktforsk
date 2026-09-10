@@ -368,3 +368,51 @@ T-0139 fullkonsoliderar befintligt underlag och bevarar alla tidigare A-id. Aktu
 > - Källbredd: `KLAR` — egen födelsenotis säkrar modern P-0500 Ella Ersdotter;
 >   tomt fadersfält och den bevarade april/juli-konflikten får inte fyllas med
 >   patronymikonet. Övriga öppna frågor är berikning, inte en parentfront.
+
+### Inkommande följdfynd från T-0173, 2026-09-09
+
+**Avgränsad följd, ingen ny arkivåtkomst.** Fyndet kommer ur den redan sparade
+helbilden `C0006543_00082` till
+[C-0798](../citations/C-0798-halla-C2-carl-fredrik-ella-ersdotter.md), läst
+vid 240–600 % förstoring i T-0173, som äger
+[P-0500](P-0500-ella-ersdotter.md). **Din egen akt är inte omprövad**, och
+inget A-id, ingen status och ingen bedömning i den ändras här.
+
+**Din mors förnamn är omläst: hon heter `Ulla`, inte `Ella`.** Kontrollen
+ligger i samma ordpar — `E`:et i `Ersdotters` står omedelbart efter förnamnet,
+i samma hand och samma bläck, och dess looptunga form är oförenlig med
+förnamnets dubbelbågiga `U`. Formen `Ella` har aldrig haft något annat belägg
+än denna enda cell. Följden är praktisk: `Ella` för mot `Eleonora`/`Helena`,
+`Ulla` mot `Ulrika`, så **varje tidigare sökning på henne har letat efter ett
+annat dopnamn**. Hennes akttitel är ändrad; **filnamnet och länkarna är
+oförändrade** och omdöpningen är avgränsad till en egen följduppgift.
+
+**Din födelsepost har ett marginalmärke som nu är prövat.** Vid posten står
+`ab.`, som T-0139 avskrev `utan här säkerställd betydelse`. De två närmast
+följande posterna på uppslaget är **gifta pars** barn och bär i stället
+`ktgn.`, som läses **kyrktagen**. De två märkena står i komplementär
+fördelning mot moderns civilstånd, och `ab.` är då med all sannolikhet
+**absolverad** — kyrkotukten för en ogift mor.
+
+**Det öppnar en ny källklass för din faderfråga.** Ett absolutionsärende i
+**Hallas kyrkorådsprotokoll omkring 1822** namnger normalt både modern och den
+**utpekade barnafadern**. Passagen är namngiven i
+[P-0500:s profil](../research-profiles/P-0500.md#källvägar) KP-02.
+**Slutsatsen är `SANNOLIKT`, inte styrkt** — märket är otryckt, förkortningen
+är inte utskriven i boken och kontrollen omfattar tre poster på ett uppslag —
+och **ingen far förs in**, varken ur märket eller ur ditt senare
+patronymikon `Pehrsson`.
+
+**En diplomatisk rättelse gäller din egen post.** Ordet för din
+könsbeteckning är inte `gossebarn` utan `[P]iltbarn`, med reservation på
+inledningsbokstaven; kontrollen är post 4 på samma uppslag, som skriver
+`flickebarn` med ett tydligt `-ebarn`. `pilt` betyder gosse, så
+**sakuppgiften är oförändrad**.
+
+**Konflikten april mot juli 1822** mot rekryteringsattesterna 1840 är
+oförändrad och harmoniseras inte; den ägs av din akt.
+
+**Ägare för följdarbete:** din kohort är
+[T-0139](../../wotan/dev-log/T-0139.md), som är underrättad. Kyrkorådsvägen
+och den nya sökformen `Ulla`/`Ulrika` införs där eller i en avgränsad följd,
+inte i T-0173.

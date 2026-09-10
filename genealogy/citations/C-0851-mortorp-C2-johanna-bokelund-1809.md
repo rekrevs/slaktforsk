@@ -65,3 +65,66 @@ omformulerad i P-0389.
 
 **C-0466 och C-0467 är förda av samma hand**, hennes egen make A. Ringberg, och
 räknas inte som två oberoende original.
+
+## Daterat tillägg 2026-09-09 — T-0172: de tre oavskrivna uppgifterna är nu utvunna
+
+Ingen ny arkivåtkomst; läsningen är gjord i den **redan sparade fullbilden**
+`C0028236_00088`. Tillägget utvinner de tre uppgifter som T-0164:s tillägg
+namngav som oavskrivna — faderns ämbete, moderns ålder och sex faddrar — och
+lägger till en iakttagelse från samma uppslag.
+
+### Faderns ämbete
+
+Posten anger honom `Kyrkoherdens i Mortorp Samuel Bökelunds`. Ämbetet är nu
+fört som sakuppgift i
+[P-0517](../people/P-0517-samuel-bokelund-mortorp.md) (A-7620), med den
+källstrategiska följden att **en kyrkoherde har en biografi i stiftets
+herdaminne** och förekommer i prästmatriklar, konsistoriets protokoll,
+sockenstämmoprotokoll och kyrkoräkenskaper. Ingen av dessa källor är sökt.
+
+### Moderns ålder
+
+Postens ålderskolumn bär **`33`**, vilket ger
+[P-0518](../people/P-0518-gustava-maria-kylenstjerna-mortorp.md) födelsetid
+**juli 1775–juli 1776** (A-7630). Att kolumnen är en åldersuppgift om modern
+framgår av uppslaget självt: samtliga poster bär tal i samma läge — 30, 21,
+24, 19, 34, 33, 30, 23, 24, 30, 36 och 30. Åldern är hennes **enda**
+datering och är ett intervall; åren 1775, 1776 och möjligen 1774 måste alla
+prövas.
+
+### De sex faddrarna
+
+> `Wittn. S[amma]: Comministern härstädes H:r Pastor Anders Sjöstrand,`
+> `des Hustru Chatarina Helena Fernander, Sergeanten u[ti] Mortorps ägor`
+> `Jonas Sjöström, des Hustru Johanna Ryberg, S. Min[?]. Adjuncten H:r`
+> `Peter Anders[son?] och Jungfru Gustava Christina Bökelund.`
+
+Kretsen är **socknens ståndspersoner**, vilket är förväntat för en
+kyrkoherdes barn och samtidigt en läst uppgift om familjens ställning. Två
+namn bär släktnycklar:
+
+- **`Hustru Johanna Ryberg`** bär moderns familjenamn och är hennes enda
+  namnburna släktspår — samma rad som T-0164 använde för att styrka
+  namnrättelsen. Kandidat som syster; **ingen relation skapas.**
+- **`Jungfru Gustava Christina Bökelund`** bär faderns familjenamn och är
+  kandidat som hans dotter eller syster. **Ingen relation skapas.**
+
+Adjunktens efternamn och titelled bär läsreservation och normaliseras inte.
+
+### Faderns eget vittnesskap på samma uppslag
+
+I post 21, den 16 juli 1809, står `Kyrkoherden härstädes Samuel Bökelund`
+som **första vittne** vid komministern Anders Sjöstrands och Catharina
+Helena Fernanders sons dop. **Vittnesskapet är ömsesidigt:** komministerparet
+stod vittnen åt hans dotter den 6 juli, och han åt deras son den 22 juli.
+Fört som A-7622; ingen släktskapsinnebörd.
+
+### Vad tillägget stöder
+
+- [P-0517](../people/P-0517-samuel-bokelund-mortorp.md): A-7620–A-7622.
+- [P-0518](../people/P-0518-gustava-maria-kylenstjerna-mortorp.md):
+  A-7630–A-7632.
+- [P-0389](../people/P-0389-johanna-christina-bokelund.md): hennes egen posts
+  ämbetsuppgift, moderns ålder och samtliga sex faddrar — alltså just de
+  fält PK-05 underkändes på; rapporterat som avgränsat följdfynd till
+  T-0164, som äger hennes akt.

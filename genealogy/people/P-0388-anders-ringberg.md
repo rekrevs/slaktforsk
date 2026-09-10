@@ -222,3 +222,27 @@ Tidigare lydelse av A-3235, ersatt 2026-09-09 i T-0162 med hänvisning till A-65
 > - Konsolidering: `GRANSKAD` 2026-09-04 (T-0037)
 > - Källbredd: `KLAR` — båda föräldrarna är registrerade genom samtida
 >   hushåll och oberoende namnnyckel; födelsebokskonflikten är avgränsad.
+
+### Inkommande följdfynd från T-0172, 2026-09-09
+
+Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
+ändrat**, och inget A-id är rört; T-0162 äger akten.
+
+- **Dina egna åldrar i barndomshushållet stöder födelseåret 1801.** Hossmo
+  A I/3 sida 156 bär åldrar i **två** årskolumner, och citationen hade
+  registrerat just dina: `9.` 1810 och `10.` 1811. Tillsammans med
+  föräldrarnas och systerns tal, som alla ökar med exakt ett, är serien
+  internt konsistent och pekar på födelse omkring 1800–1801.
+- **Du har en syster.** Raden `D: Cajsa` bär `16.` 1810 och `17.` 1811,
+  alltså född omkring **1793–1794** — sju år före dig. Hon får inget eget
+  person-id i T-0172.
+- **Dina föräldrar har nu egna dateringar:** fadern `49.`/`50.`, född omkring
+  1760–1761, och modern `40.`/`41.`, född omkring 1769–1770. Ingen av dem
+  hade tidigare någon åldersuppgift alls.
+- **Hushållet var upprepat frånvarande vid förhören.** Flera rader bär
+  `abs.` — din egen 1810, faderns 1810 och moderns båda år.
+- **Hela hushållsblocket är överstruket**, och sidans smala högerkolumn bär
+  en **oläst** anteckning vars två läsbara ord är `Kom intet`. Det är
+  familjens enda kända ledtråd till vart de tog vägen efter bokens tid.
+
+Ingen ny arkivåtkomst har skett. Se C-0849:s daterade tillägg.

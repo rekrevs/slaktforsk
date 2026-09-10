@@ -89,3 +89,95 @@ Björkvikuppgifter ligger nedströms den kedjan.
 
 Den äldre lydelsen bevaras som tolkningshistorik. Berörda påståenden: A-0435,
 A-0438 och A-5368–A-5369 (P-0015).
+
+## Tillägg T-0182, 2026-09-09: kolumnredovisning och en läst negation om dopet
+
+Den redan sparade fullbilden (`104051-024`, 792 × 1 224 px) är omläst med
+**de tryckta rubrikerna i samma utsnitt som cellerna**, vid konsolideringen
+av [P-0119](../people/P-0119-ture-edvard-eriksson.md) och
+[P-0120](../people/P-0120-astrid-elisabet-eriksson.md). T-0153:s båda tillägg
+står oförändrade och styr läsningen.
+
+### Kolumnredovisning enligt person-standard.md
+
+Uppslagets tryckta rubriker lyder `Sida 24`, `Utdrag ur Församlingsboken för
+Hyltinge förs. i Södermanlands län, d. 31/12 1910`, och därefter
+`1. By eller lägenhet (kvarter eller rote i stad). (Bynamnet skrifves på
+särskild rad och understrykes). Namn (fullständigt) å hvarje person;
+familjeställning (h. = hustru, s. = son, d. = dotter o. s. v.); titel (om
+annan än den i kol. 2 angifves); **icke döpt.**`,
+`2. Yrke och nummer å yrkesuppgift. Stam (främmande). Lyte (fallandesot,
+sinnessjuk, idiot, blind, döfstum).`, `3. Födelse- år.`,
+`4. Födelse- ort (församling i län eller i stad).`, `Ogift m. k.`,
+`Gift m. k.`, `Änkling`, `Änka`, `Frånskild m. k.`,
+`13. Inom sv. kyrkan begått nattv.` och
+`14. Trosbekännelse (främmande). Nationalitet (främmande). Frånvarande.`
+
+| Rad, Banvaktstugan N:o 71 | Kol. 2 | Kol. 3 | Kol. 4 | Civilstånd | Kol. 13 | Kol. 14 |
+|---|---|---|---|---|---|---|
+| `Axel Edvard Eriksson` | `Banarbetare 43` | `81` | `Björkvik` | `Gift` m | `n` | **tom** |
+| `h. Charlotta Cecilia Elisabet Gustafsson` | **tom** | `83` | `Flen` | `Gift` k | `n` | **tom** |
+| `s. Erik Axel` | **tom** | `02` | `Flen` | `Ogift` m | **`—`** | **tom** |
+| `s. Ture Edvard` | **tom** | `04` | `d:o` | `Ogift` m | **`—`** | **tom** |
+| `d. Astrid Elisabet` | **tom** | `06` | `förs.` | `Ogift` k | **`—`** | **tom** |
+| `d. Ruth Charlotta` | **tom** | `07` | `d:o` | `Ogift` k | **`—`** | **tom** |
+| `d. Elsa Cecilia` | **tom** | `09` | `d:o (hu.)` | `Ogift` k | **`—`** | **tom** |
+
+Kolumnerna `Änkling`, `Änka` och `Frånskild` är **lästa och tomma** på
+samtliga sju rader.
+
+**Tre förhållanden är substantiella och stod inte i citationen.**
+
+- **`icke döpt` är en tryckt kategori i kolumn 1**, och **tre barn i två
+  andra hushåll på samma sida bär den uttryckligen** — `d. Hildur Viktoria,
+  icke döpt`, `hennes o. ä. s. Olof Roland, icke döpt` och
+  `o. ä. s. Anders Ivan, icke döpt`. **Att ingen rad i Axel Edvards hushåll
+  bär tillägget är därför en läst negation: samtliga fem barn var döpta senast
+  den 31 december 1910.** För **P-0120**, vars födelsenotis inte är
+  lokaliserad, är detta **aktens enda uppgift om hennes dop.** Se A-7801 och
+  A-7802.
+- **Kolumn 13 bär ett skrivet `—` på samtliga fem barnrader och `n` på
+  föräldrarnas.** Ett streck är **ett skrivet nej, inte en tom cell**, och
+  vid barnens åldrar är uppgiften åldersgiven.
+- **Kolumn 14 är läst och tom på samtliga sju rader.** Kolumnen är belagt i
+  bruk på samma sida — hushållet i Banvaktstugan N:o 69 bär `se sid 36` där —
+  så **ingen i Axel Edvards hushåll var frånvarande eller av främmande
+  trosbekännelse eller nationalitet** vid räkningstillfället.
+
+**Kolumn 2:s `Lyte`-led är läst och tomt på samtliga sju rader.** Rubriken
+räknar upp `fallandesot, sinnessjuk, idiot, blind, döfstum`; **ingen
+hälsouppgift härleds ur ett grafiskt tecken utan rubrikstöd.**
+
+**Elsa Cecilias födelseortscell bär ett parentetiskt tillägg, `(hu.)`**, som
+inte är upplöst och som **inte tolkas här**; det rör hennes egen akt.
+
+`Stödda påståenden` utökas med A-7801 (P-0119) och A-7802 (P-0120).
+
+## Tillägg T-0183, 2026-09-10: ett parentetiskt tillägg på en enda rad
+
+Vid konsolideringen av [P-0121](../people/P-0121-ruth-charlotta-eriksson.md)
+och [P-0122](../people/P-0122-elsa-cecilia-eriksson.md) är
+födelseortskolumnen omläst vid 600–900 % med den tryckta rubriken i samma
+utsnitt. **T-0182:s kolumnredovisning för samtliga sju rader står
+oförändrad.**
+
+**Elsa Cecilias rad bär `d:o` följt av ett parentetiskt tillägg som läses
+`(hu.)`** — tre tecken inom parentes, med `h`-ascender, `u` och punkt.
+**Förkortningen är inte upplöst.**
+
+**Ingen annan rad på uppslaget bär ett parentetiskt tillägg i den
+kolumnen.** Tillägget är alltså **hennes rads egen anteckning och inte ett
+formulärbruk** — och just därför går det inte att tolka: **det finns ingen
+annan förekomst att jämföra med.**
+
+**Innebörden får inte gissas, och tillägget får särskilt inte läsas som en
+hälsouppgift:** det står i kolumn 4 `Födelseort`, inte i kolumn 2:s
+`Lyte`-led. Frågan ska besvaras ur den underliggande församlingsboken eller ur
+folkräkningsformulärets egna anvisningar för 1910. Se A-7809.
+
+**Skillnaden mot samma uppslags andra fynd är metodiskt talande.**
+Frånvaron av `icke döpt` på hushållets rader **är** ett belägg — men bara
+därför att tre rader i två andra hushåll bär kategorin uttryckligen.
+**Ett tecken som ingen annan bär kan konstateras men inte läsas.**
+
+`Stödda påståenden` utökas med A-7807 (P-0121) och A-7809 (P-0122).

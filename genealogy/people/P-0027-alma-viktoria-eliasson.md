@@ -348,3 +348,38 @@ Hela den föregående akten bevaras oförändrad nedan.
 > [P-0528 Barbro Margareta](P-0528-barbro-margareta-lundkvist.md).
 > Befintliga Björn-/Birgittaakter återanvänds med den avgränsade
 > identitetsbedömningen i citationen. Deras senare liv undersöks inte här.
+
+### Inkommande följdfynd från T-0176, 2026-09-09
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0176, som läste om de
+sparade helbilderna av
+[C-0025](../citations/C-0025-bernhard-folkrakning-1900.md) och
+[C-0026](../citations/C-0026-bernhard-folkrakning-1910.md) vid 250–350 % för
+syskonens skull. Ingen ny arkivpassage öppnades och ingen uppgift förs in i
+akten här; ägaren avgör.
+
+**Att du saknas i folkräkningen 1900 är förklarat och förväntat.** Bladet bär
+den tryckta dateringen `d. ³¹/₁₂ 1900` i sitt dokumenthuvud, och du föddes
+1904. Frånvaron är alltså ingen svaghet i din identitet, och den delas med
+brodern Sven Assar Elias (P-0026), född 1901, vars akt nu bär den som ett
+eget `NEGATIVE`-påstående, A-7700. Ni två är de enda av syskonen med bara
+**ett** Värsåsblad.
+
+**Nattvardskolumnens tomhet på din rad 1910 är läst och åldersförklarad.**
+Bladet har en tryckt kolumn `Inom Sv. kyrkan begått nattv.` som är ifylld för
+samtliga hushållsmedlemmar från femtonåriga Rut 1895 och uppåt — föräldrarna,
+tre bröder, en syster, pigan och drängen — men **saknas för dig, sex år, och
+för Sven Assar, nio år**. Tomheten är alltså ett **läst noll** och samtidigt
+den nedre halvan av kolumnens interna ålderskontroll; den får inte skrivas
+som en outvunnen kolumn.
+
+**Och de två folkräkningsbladen är inte självständiga.** Båda bär tryckta
+dokumenthuvuden som gör dem utdrag ur **samma** församlingsbok — `Wesås
+annex` 1900 och `Värsås` 1910. För dig betyder det att bladet 1910 är din
+**enda** Värsåskälla i mer än formell mening, och att Värsås ministerialböcker
+är den väg som ger dig en självständig röst. Volymserien är **inte
+identifierad i projektet**; katalogfrågan öppnar fyra av syskonens
+födelseårgångar och delas därför med hela syskonskaran.
+
+Anmälan är riktad till T-0151, som konsoliderade din akt, och till T-0384,
+som äger dina övriga läsosäkerheter.

@@ -74,16 +74,16 @@ Anders Jonsson, född 16 april 1839 i Buberget, Degerfors, är son till Jon/Jona
 | [P-0082](P-0082-jonas-andersson-buberget-kontext.md) | Far | Buberget, födelse 1839 och barndomsböcker | CORROBORATED | [C-0872](../citations/C-0872-anders-buberget-fodelse-1839-rattelse.md), [C-0869](../citations/C-0869-buberget-register-och-hushall.md) |
 | [P-0519](P-0519-ulrika-lovisa-jonsdotter-buberget.md) | Mor | Samma familj 1839–1860-tal | CORROBORATED | [C-0872](../citations/C-0872-anders-buberget-fodelse-1839-rattelse.md), [C-1055](../citations/C-1055-degerfors-AI7b-sida-400-buberget-1858-1860.md) |
 | [P-0066](P-0066-lotta-sofia-andersdotter.md) | Hustru | Vigsel 1867-01-28; död 1898-05-25 | CORROBORATED | [C-0106](../citations/C-0106-anders-jonsson-lotta-sofia-vigsel-1867.md), [C-0405](../citations/C-0405-degerfors-F3-lotta-sofia-dod-1898.md) |
-| [P-0029](P-0029-ida-sofia-andersdotter.md) Ida Sofia | Barn | 1867-12-15; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
-| [P-0067](P-0067-maria-augusta-andersdotter.md) Maria Augusta | Barn | 1869-10-25; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
-| [P-0068](P-0068-jonas-edvard-andersson.md) Jonas Edvard | Barn | 1871-07-01; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
-| [P-0086](P-0086-anders-andersson-tvilling-1873.md) Anders, tvilling | Barn | 1873-05-09; Buberget | TRANSCRIBED | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) |
-| [P-0087](P-0087-carl-andersson-tvilling-1873.md) Carl, tvilling | Barn | 1873-05-09; Buberget | TRANSCRIBED | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) |
-| [P-0069](P-0069-anders-andersson-degerfors.md) Anders | Barn | 1876-03-24; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
-| [P-0070](P-0070-hildur-charlotta-andersdotter.md) Hildur/Hilda Charlotta | Barn | 1878-06-21; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
-| [P-0071](P-0071-karl-magnus-andersson.md) Karl/Carl Magnus | Barn | 1880, juli; dag 21/27 varierar i äldre avskrifter; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
-| [P-0072](P-0072-hanna-mathilda-andersdotter.md) Hanna Matilda | Barn | 1882-08-06; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
-| [P-0073](P-0073-oskar-rudolf-andersson.md) Oskar Rudolf | Barn | 1885-04-16; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
+| [P-0029 Ida Sofia](P-0029-ida-sofia-andersdotter.md) | Barn | 1867-12-15; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
+| [P-0067 Maria Augusta](P-0067-maria-augusta-andersdotter.md) | Barn | 1869-10-25; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
+| [P-0068 Jonas Edvard](P-0068-jonas-edvard-andersson.md) | Barn | 1871-07-01; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
+| [P-0086 Anders, tvilling](P-0086-anders-andersson-tvilling-1873.md) | Barn | 1873-05-09; Buberget | TRANSCRIBED | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) |
+| [P-0087 Carl, tvilling](P-0087-carl-andersson-tvilling-1873.md) | Barn | 1873-05-09; Buberget | TRANSCRIBED | [C-0064](../citations/C-0064-ida-sofia-barndom-buberget-sida-83.md) |
+| [P-0069 Anders](P-0069-anders-andersson-degerfors.md) | Barn | 1876-03-24; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
+| [P-0070 Hildur/Hilda Charlotta](P-0070-hildur-charlotta-andersdotter.md) | Barn | 1878-06-21; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
+| [P-0071 Karl/Carl Magnus](P-0071-karl-magnus-andersson.md) | Barn | 1880, juli; dag 21/27 varierar i äldre avskrifter; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
+| [P-0072 Hanna Matilda](P-0072-hanna-mathilda-andersdotter.md) | Barn | 1882-08-06; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
+| [P-0073 Oskar Rudolf](P-0073-oskar-rudolf-andersson.md) | Barn | 1885-04-16; Buberget | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
 | [P-0028](P-0028-johan-oskar-zingmark.md) | Måg, gift med Ida Sofia | Hushållssidan 207 från 1888; bouppteckning 1898 | CORROBORATED | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md) |
 | [P-0088](P-0088-jonas-andersson-dopvittne-1867.md) | dopvittne | Dop 1867. Till Ida Sofia; inte automatiskt Anders far. | TRANSCRIBED | [C-0062](../citations/C-0062-ida-sofia-fodelse-1867.md) |
 | [P-0520](P-0520-anna-johanna-buberget.md) | syskon | Buberget, barndomsböckerna; rånamn och datum varierar mellan volymerna. **Rättat 2026-09-09 (T-0163):** kvalificeringen låg tidigare i relationskolumnen. C-1055 är struken som belägg — dess uppslag, Degerfors A I/7b s. 400 1858–1860, nämner ingen av syskonen, och deras frånvaro där är en iakttagelse, inte ett belägg för syskonskapet. Statusen är sänkt eftersom A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg, inte flera. | TRANSCRIBED | [C-0869](../citations/C-0869-buberget-register-och-hushall.md), [C-1072](../citations/C-1072-degerfors-AI3-AI4-buberget-jon-ulrika-hushallet.md) |
@@ -177,6 +177,42 @@ Anders återkommer som bonde och änkling i församlingsboken. Barnen lämnar el
 ## Forskningsfrågor och konflikter
 
 Se profilens [Q-01](../research-profiles/P-0065.md#q-01-mellanboken-18581860) och [Q-02](../research-profiles/P-0065.md#q-02-boets-ekonomi-och-hemmanet). Mellanboken är tillgodoräknad, medan fullfält/proveniens, ekonomiska avskrifter och hemmanets ägohistoria återstår. Vigselns 14/16 är läsosäkerhet; barnens varierande datum är personbundna följdfrågor. Tidslinjen förlängs inte före födelsen 1839. Avgränsade följdägare är [T-0258](../../wotan/dev-log/T-0258.md) för 1898 års fortsättningsbilder, [T-0259](../../wotan/dev-log/T-0259.md) för egna hushållsfält, sida 400 och marginalens nr 3/bråk, samt [T-0262](../../wotan/dev-log/T-0262.md) för egen bouppteckningsåtkomst och avgränsad fastighetsväg. Utförande ligger endast i Wotan.
+
+### Avgränsad följdavstämning — T-0178, 2026-09-09
+
+Barnkohorten P-0067–P-0072 är konsoliderad i
+[T-0178](../../wotan/dev-log/T-0178.md), och tre uppgifter berör hans akt.
+**Ingen av dem ändras här; ägarskapet ligger kvar hos denna akts uppgifter
+och hos T-0259.**
+
+**Två av hans söners rader bär värnpliktsanteckningar som var outvunna.**
+A I/11c sida 241 rad 5 bär i frejdkolumnen `305 ¹⁷³/₁₈₉₅.` och
+`Uppskof 92; uppskof 93 o 94` (Jonas Edvard), och rad 6 bär `Frik.` (Anders).
+Samma kolumn, samma hand, samma uppslag — **två olika beslut om två söner**,
+vilket gör båda till positiva uppgifter. **Hans eget frejdfält är tomt**,
+vilket T-0129 redan konstaterade, och sönernas noter får inte läggas på honom.
+Att den äldste överlevande sonen fick uppskov tre år i följd är förenligt med
+försörjningsplikt i ett bondehushåll, men **orsaken står inte i boken** och
+tillskrivs inte gården.
+
+**Tre av barnens födelsedagar är rättade eller avskrivna.** Anders föddes
+`1876-05-24`, inte `1876-03-24`; Hanna Mathilda `1882-08-06`, inte
+`1882-11-06`; och den anmälda dagkonflikten för Karl Magnus finns inte —
+båda volymerna läser `1880-07-21`. Aktens egna rader om barnen bör läsas mot
+A-7748, A-7751 och A-7752 innan någon barnuppgift förs vidare.
+**`1876-03-24` och `1882-11-06` får inte propageras.**
+
+**Oskar Rudolfs födelsedag läses `¹⁶/₄` 1885** på rad 10, och raden bär
+kunskapskolumnens klammer men i övrigt lästa nollor. **Rättelse 2026-09-09,
+T-0179:** T-0178 skrev först att han saknar person-id; han är
+[P-0073](P-0073-oskar-rudolf-andersson.md) och länkas redan från denna akts
+relationstabell. Uppgiften ägs därför av hans egen akt och är införd där i
+T-0179; **ingen ny personidentitet skapas**.
+
+**Kolumnredovisningen för raderna 4–10 är införd i C-0404** enligt
+person-standard.md, med varje kolumn märkt avskriven, tom eller oläst.
+**Hans egen rad 1 och moderns rad 3 är inte omlästa i T-0178**; T-0129:s och
+T-0259:s utvinningsrester på dem står oförändrade.
 
 ## Historik och rättelser
 
@@ -389,3 +425,72 @@ Se profilens [Q-01](../research-profiles/P-0065.md#q-01-mellanboken-18581860) oc
 > en konkret flytthänvisning skulle återaktivera den. Föräldrarnas egna
 > ursprung ligger på nästa generations öppna front. Analoga boupptecknings-
 > och mantalshinder samt villkorlig jord/lagfartsfråga kvarstår.
+
+#### Rättelse 2026-09-09, T-0179: tvillingarnas id och öde, samt tre källserier
+
+Det bundna avsnittet ovan och T-0178:s texter i barnens akter bar fyra
+felaktiga uppgifter, som prövades mot projektets **källregister** i T-0179.
+
+1. **Samtliga tio kända barn har egna person-id.** Tvillingarna Anders och
+   Carl är [P-0086](P-0086-anders-andersson-tvilling-1873.md) och
+   [P-0087](P-0087-carl-andersson-tvilling-1873.md), och Oskar Rudolf är
+   [P-0073](P-0073-oskar-rudolf-andersson.md) — alla tre redan länkade från
+   denna akt.
+2. **Tvillingarna bär inga belagda dödsuppgifter.** Deras akter säger
+   uttryckligen att marginaldatumet vid den överstrukna raden **inte tolkas
+   som dödsdatum utan kontroll i dödboken** (A-0348, A-0349). T-0178:s
+   formulering `båda med dödsuppgifter`, och slutsatsen att P-0068 var
+   `äldste överlevande son`, är indragna.
+3. **Tvillingarnas födelsedag kommer ur en födelsebok.** `1873-05-09` är
+   belagt i Degerfors `C/5` genom
+   [C-0065](../citations/C-0065-anders-carl-tvillingsoner-fodelse-1873.md) —
+   **utanför** husförhörskedjan.
+4. **Tre källserier som T-0178 kallade oidentifierade är i bruk:** Degerfors
+   födelseböcker `C/4` (1851–1869, `S-0051`) och `C/5` (1870–1892, `S-0054`),
+   samt dödboken `F/3` (1895–1915, `S-0322`, `S-0389`) — den senare bär
+   **denna akts egen dödsnotis 1909** (C-0484), vilket gör påståendet att det
+   inte finns någon dödbok att söka i särskilt fel.
+
+**Vad felet lär.** T-0178 arbetade ur barnakternas egna citationslistor och
+tog frånvaron där för frånvaro i projektet. **Denna akt bar hela tiden båda
+motbevisen** — länkarna till P-0073, P-0086 och P-0087 i relationstabellen
+och sin egen dödsnotis ur `F/3`. En akts citationsindex är inte projektets
+källregister.
+
+#### Avgränsad följdavstämning — T-0180, 2026-09-09: tvillingarnas dödsdagar
+
+Tvillingarna [P-0086](P-0086-anders-andersson-tvilling-1873.md) och
+[P-0087](P-0087-carl-andersson-tvilling-1873.md) är konsoliderade i
+[T-0180](../../wotan/dev-log/T-0180.md), och **deras dödsdagar är
+fastställda.** Talen står i **den tryckta `Död.`-kolumnen** på hans eget
+hushållsuppslag, A I/9c sida 85, läst med rubriken i samma utsnitt:
+
+- **Anders dog 1874-12-31**, ett år och sju månader gammal
+- **Carl dog 1875-05-07**, två dagar före sin tvåårsdag
+
+**Han förlorade alltså två söner på fyra månader och sju dagar**, vintern
+1874–1875. **Ingen dödsorsak är belagd**, och ingen antas; att de dog var för
+sig utesluter en enskild olycka och talar mot ett gemensamt hastigt förlopp.
+**Degerfors dödbok för 1874–1875 är inte identifierad i projektet** — `F/3`
+börjar 1895 — och den skulle ge orsak och begravningsdagar.
+
+**Två uppgifter till ur samma uppslag och ur födelseboken.** Födelseboken
+`C/5` numrerar tvillingarna **`/4:e/`** och **`/5:te/`**, alltså hans fjärde
+och femte barn, och skriver honom och hustrun `gifta 6 år` — förenligt med
+vigseln 1867-01-29. Numreringen **utesluter att något okänt barn föddes före
+1873**. Samma post hänvisar till **husförhörsbokens sida 85**, hans eget
+uppslag.
+
+**Tre av hans tjänare fick fulla födelsedagar ur samma uppslag:** drängen
+Daniel Danielsson `1849 ⁶/₃`, pigan Maria Johanna Andersdotter `1849 ²/₈` och
+pigan Brita Carolina Andersdotter `1842 ¹⁵/₁`. **Databasposten C-0066 gav bara
+årtal.** Två identitetsvarningar följer och ägs av tjänarnas egna akter:
+uppslaget bär **två** Brita Carolina Andersdotter födda 1842 med olika
+födelseort, och drängens ortcell bär ett **utskrivet** ortnamn där
+församlingsfödda får dittotecken — vilket står mot databaspostens
+`i Degerfors`. **Ingen av dem avgörs här.**
+
+**Utvinningsrest på hans eget uppslag:** för de fyra tjänstefolksraderna är
+koppor-, kunskaps-, frejd- och flyttningskolumnerna samt `Död.`-cellerna
+**inte lästa**. Kolumnerna är ifyllda för andra rader, så cellerna är
+**utvinningsrester och inte lästa nollor.**

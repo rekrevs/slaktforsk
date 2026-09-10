@@ -183,3 +183,40 @@ Tidigare rad 2026-09-05 (T-0066), bevarad som historik: - Källbredd: `PÅGÅR` 
 Tidigare rad 2026-09-05 (T-0068), bevarad som historik: - Källbredd: `PÅGÅR` — omprövad 2026-09-05 i T-0068: 1917–1948, hemmanet och dödsboet har genomförbara vägar (profil KP-01–KP-02). Den äldre bedömningen 2026-09-04 bevaras som historik i batch 232.
 
 Tidigare rad 2026-09-04, bevarad som historik: Källbredd: `KLAR` — egen födelse, föräldrar, Jomarks barndoms- och vuxenhushåll, vigsel och faderskap är konsoliderade; moderns Catharina/Christina-variant förblir synlig utan identitetsdelning.
+
+### Inkommande följdfynd från T-0177, 2026-09-09
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0177, som
+konsoliderade dina tre dopvittnen
+[P-0054](P-0054-n-j-dahlberg.md), [P-0055](P-0055-j-j-dahlberg.md) och
+[P-0056](P-0056-charlotte-dahlberg.md). Ingen ny arkivpassage öppnades och
+ingen uppgift är förd in i akten här; ägaren avgör.
+
+**Din dopnotis vittnesrad är nu läst i sin helhet** i den sparade helbilden
+`A0027066_00076` (5 671 × 4 821 px) vid 500–1300 %. Raden lyder
+`Sjöm. **A.** J. Dahlberg & h:r; B:s [förk.] J. Dahlberg o. **Charlotta**
+Dahlberg i **Dahlkarlså**.`
+
+**Fyra läsningar är avgjorda.** Den första initialen är **`A.`**, inte `N.`,
+avgjord av en kontroll i **samma kolumn på samma sida** — post 83 bär både
+`A. Andersson` och `N. A.` i samma hand, och skrivarens `A` har ett
+tvärstreck som hans `N` saknar. Titeln `Sjöm.` är läsbar. Förnamnet är
+`Charlotta` med `a`. Och ortnamnet skrivs `Dahlkarlså`, bokens stavning av
+**Dalkarlså** i Bygdeå; frågetecknet i den äldre läsningen faller.
+
+**En strukturell iakttagelse ändrar antalet vittnen med namn.** Det som
+lästs som den andre mannens första initial är en **återkommande
+titelförkortning** — samma tvådelade grupp står i post 83 framför ett annat
+efternamn. Han har alltså **en** känd initial, `J.`, inte två.
+
+**Och skrivarens egen åtskillnad om hustrur är värd att bevara.** Formen
+`& h:r` används **bara** efter sjömannens namn; om det andra paret skrivs
+kvinnans namn ut utan hustrubeteckning. Det belägger att sjömannen var gift
+och **förbjuder antagandet** att de två övriga var gifta med varandra.
+**Ingen släktskap mellan de tre Dahlbergarna förs in** — dopvittnen valdes
+också bland grannar och yrkesbekanta.
+
+**Nästa steg är gemensamt för alla tre:** Bygdeå husförhörslängd omkring 1869,
+läst på **Dalkarlså**. En läsning kan ge alla tre vittnena namn, ålder och
+hushåll, och därmed säga något om vilket socialt nätverk dina föräldrar
+valde vittnen ur. Se det daterade tillägget i C-0048.

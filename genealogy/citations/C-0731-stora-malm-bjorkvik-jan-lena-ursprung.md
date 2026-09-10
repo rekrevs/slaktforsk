@@ -105,3 +105,36 @@ posten och det är dess personidentitet som återstår att pröva.
 men tillgodoräknas inte som bevisad helårstäckning.
 
 Andraläsning i T-0141 bekräftar datum, föräldranamn och Stora Malm som dop-/kyrktagningsförsamling. Vittnets råpatronymikon läses Eric Ersson; det normaliseras inte till en viss annan person. Ortreservationerna består.
+
+## Tillägg T-0173, 2026-09-09: kandidatposten är dubbelt försvagad
+
+Ingen ny arkivåtkomst och ingen ny läsning av bilderna. Avsnitten ovan är
+append-only och står oförändrade.
+
+T-0139:s tillägg ovan skilde kandidatposten `Helena` **1785-10-31** från Lena
+Jonsdotter genom att rätta hushållsnyckeln till **1783-10-21**, varmed den
+förr påstådda exakta datumöverensstämmelsen föll.
+
+Kandidatposten är nu **dubbelt försvagad**. Dotterns födelsepost i
+[C-0721](C-0721-stora-malm-johanna-jansdotter-1819-1841.md) anger moderns
+ålder till `34` den 30 maj 1819, vilket ger hennes födelse till intervallet
+**1784-05-31 – 1785-05-30**. Född 1785-10-31 vore hon där **33**, och född
+1783-10-21 vore hon **35**. Kandidatposten passar alltså **varken** den
+rättade hushållsnyckeln **eller** åldersintervallet.
+
+**Detta ändrar inte kandidatpostens ställning i ledgern.** A-2854 står kvar
+som `LEAD` med oförändrad lydelse; kommentaren i
+[P-0477](../people/P-0477-lena-jonsdotter-walla.md) tillfogar att
+åldersintervallet försvagar den ytterligare. Posten bevaras som separat
+personobservation, är **spärrad från propagation**, och `Jonas Ersson` och
+`Cajsa Persdotter` förs inte in som hennes föräldrar.
+
+**Nollresultatets räckvidd, upprepad:** det gamla, majinriktade
+nollresultatet och den föreslagna Helena-posten är historiskt felriktade
+sökningar. Årgången 1785 är läst för kandidatposten, men det utfallet gäller
+ett annat, felavläst datum och är **inte** ett noll för de nycklar som nu
+gäller — dagen `21/10` i årgången 1783, eller åldersfönstret 1784–1785. Dessa
+tre årgångar är namngivna som osökta i
+[P-0477:s profil](../research-profiles/P-0477.md#källvägar) KP-01, som också
+ger företräde till en dödbok med uppgiven ålder framför tre
+årgångsgenomgångar.

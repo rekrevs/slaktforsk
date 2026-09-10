@@ -368,3 +368,37 @@ Hela den föregående akten bevaras oförändrad nedan.
 > > > - Konsolidering: `GRANSKAD` 2026-09-04 (T-0040)
 > > > - Källbredd: `KLAR` — egen födelsenotis säkrar P-0417–P-0418 och det senare
 > > >   hushållet säkrar make och barn; fortsatt arbete hör till djup-7-spetsarna.
+
+### Inkommande följdfynd från T-0170, 2026-09-09
+
+Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
+ändrat**, och inget A-id är rört; T-0164 äger akten.
+
+- **A-6822 har fått sin andra oberoende läsning.** T-0170 läste samma cell i
+  den lokalt sparade fulloriginalbilden utan att känna A-6822 i förväg och
+  kom till samma resultat: månadskolumnen bär `Do` över `Febr.`, dopdagen är
+  en ensam `2` på `Febr.`-raden, och födelsedagsraden har där ett streck.
+  **Dopet skedde 1812-02-02.** Villkoret i A-6822 — `dopdagen behöver en
+  förnyad originalläsning innan C-0532 rättas` — är därmed uppfyllt.
+- **Ett nytt argument tillkommer: kalendern.** Söndagarna i januari 1812 föll
+  den 5, 12, 19 och 26; nästa söndag var den 2 februari. **Den 25 januari
+  1812 var en lördag.** Sidans övriga poster följer söndagsmönstret — barnet
+  före henne är fött den 19 och döpt den 26 januari, och barnet efter henne
+  är fött den 30 januari och döpt **samma dag som hon**, den 2 februari.
+- **Födelsedagen 23 januari är oförändrad** och står kvar på samma grund som
+  förut: hennes egen hushållsrad. Postens andra siffra i födelsedagscellen är
+  inte avgörbar vid bildens upplösning, och `24` och `28` kan inte uteslutas
+  ur bilden ensam — men husförhörsraden i Stöde A I/5 sida 159 ger `23/1
+  1812` i hennes barnrad, vilket är en andra bok.
+- **Hennes dopvittnen är nu avskrivna** och var det aldrig tidigare:
+  `Bond. Ol. Persson älde[?] i Ede`, `Hustr. Inertha[?] Olsdotter
+  derstädes`, `Dräng Matts Olsson i Nedansjö` och `Bonde-dot. Rachel
+  Mattsdotter i Hullsjön`. **Inget av dem bär något av föräldrarnas
+  patronymikon.**
+- **Hon har två syskon som projektet inte känt:** `Brita Olofsdotter` född
+  1807 och `Jöns Olsson` född `13/8 1809`, båda med egna barnrader i
+  föräldrahushållet. De får inga person-id i T-0170.
+
+Om A-6822 ska lämna status `CONFLICT` ägs det av denna akt och avgörs inte
+av T-0170. Ingen ny arkivåtkomst har skett; allt vilar på de två redan
+sparade bilderna.

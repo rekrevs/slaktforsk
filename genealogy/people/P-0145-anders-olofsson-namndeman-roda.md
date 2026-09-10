@@ -124,6 +124,39 @@ De senare födelseuppgifterna har inte lett till en egen födelsepost inom det p
 - Negativ kontroll: [C-0844](../citations/C-0844-degerfors-C2-anders-1806-negativ.md).
 - Återaktivering: positiv personbunden nyckel eller faktisk rättad hemvistrouting. Upprepa inte samma födelseår utan ny sakgrund och tvinga inte nästa sökning till annan församling.
 
+
+### Avgränsad följdavstämning — T-0180, 2026-09-09: barnraden `Maria Johanna`
+
+En kontextperson i hans dotter Lotta Sofias hushåll är konsoliderad i
+[T-0180](../../wotan/dev-log/T-0180.md), och hennes födelsedag berör hans
+barnlista. **Ingenting ändras här; ägarskapet ligger kvar hos denna akt och
+hos [P-0066](P-0066-lotta-sofia-andersdotter.md)s Q-02.**
+
+[P-0084](P-0084-maria-johanna-andersdotter-buberget.md), piga i Buberget
+omkring 1870, står i husförhörslängden A I/9c sida 85 med **egen rad** och
+födelsedagen **`1849 ²/₈`** — alltså **1849-08-02**, med orten som dittotecken
+för församlingen. **Hans barnrad `Maria Johanna` bär uppgiven födelse
+1849-08-02** enligt C-0111. **Dag, månad, år, patronymikon och
+födelseförsamling sammanfaller alla.**
+
+**Ingen identifiering görs**, och tre regler ligger bakom: kohortomfånget
+utesluter osäkra identitetssammanslagningar, **barnraden har inget eget
+person-id**, och en identifiering skulle föra en ny mosterrelation in i
+antavlans närhet.
+
+**Den avgörande källan är Degerfors födelsebok `C/4` för 1849**, identifierad
+som `S-0051` och i bruk genom C-0062 — ingen katalogfråga. **Ett andra,
+billigare led:** Rödåuppslagets egen **utflyttningskolumn** för barnraden
+`Maria Johanna`, i en bild som **redan är sparad** genom C-0111. Om hon har en
+utflyttning till Buberget är frågan i praktiken avgjord.
+
+**Invändningen som gäller oavsett:** båda de sammanfallande dagarna är
+**senare uppgifter** — en husförhörslängd och en hushållsbok — och ingen är en
+födelsenotis. **Två avskrifter som stämmer med varandra kan ha samma fel.**
+
+**A-0655 berörs inte:** nio barnrader är listans omfattning och ingen
+verifierad livstidstotal, och den uppgiften står oförändrad.
+
 ## Historik och rättelser
 
 2026-09-08, T-0139: aktuell konsolidering rättar åldersomkastningen, ortläsningarna och övervida slutsatser om fader/inflyttning. Hela tidigare akt bevaras nedan som historik.

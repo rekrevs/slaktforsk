@@ -31,10 +31,10 @@ Willy i familjeuppgiften är sammanförd med Villy Anders Erik, uppgiven född 1
 | [P-0241 Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md) | far | Historiskt hushåll; familjeuppgift | CORROBORATED | C-0933 |
 | [P-0246 Emma Petronella Eugenia Henriksson](P-0246-emma-petronella-eugenia-henriksson.md) | mor | Historiskt hushåll; familjeuppgift | CORROBORATED | C-0933 |
 | [P-0211 Evy Åsa Kristina Höök](P-0211-evy-hook.md) | yngre syster | Historiskt hushåll; familjeuppgift | TRANSCRIBED | C-0238 |
-| [P-0259](P-0259-elsy-henriksson-familjen.md) Elsy / Alvy Kristina | yngre syskon | Sundsvall och Sättna till 1936 | CORROBORATED | C-0238, C-0933, C-0935; namnfrågorna prövas i respektive akt |
-| [P-0260](P-0260-henry-henriksson-familjen.md) Henry / Nils Axel Henry | yngre syskon | Sundsvall och Sättna till 1936 | CORROBORATED | C-0238, C-0933, C-0935; namnfrågorna prövas i respektive akt |
-| [P-0261](P-0261-sally-henriksson-familjen.md) Sally / Solly Kristina | yngre syskon | Sundsvall och Sättna till 1936 | CORROBORATED | C-0238, C-0933, C-0935; namnfrågorna prövas i respektive akt |
-| [P-0262](P-0262-berit-henriksson-familjen.md) Berit Kristina | yngre syskon | Sundsvall och Sättna till 1936 | CORROBORATED | C-0238, C-0933, C-0935; namnfrågorna prövas i respektive akt |
+| [P-0259 Elsy / Alvy Kristina](P-0259-elsy-henriksson-familjen.md) | yngre syskon | Sundsvall och Sättna till 1936 | CORROBORATED | C-0238, C-0933, C-0935; namnfrågorna prövas i respektive akt |
+| [P-0260 Henry / Nils Axel Henry](P-0260-henry-henriksson-familjen.md) | yngre syskon | Sundsvall och Sättna till 1936 | CORROBORATED | C-0238, C-0933, C-0935; namnfrågorna prövas i respektive akt |
+| [P-0261 Sally / Solly Kristina](P-0261-sally-henriksson-familjen.md) | yngre syskon | Sundsvall och Sättna till 1936 | CORROBORATED | C-0238, C-0933, C-0935; namnfrågorna prövas i respektive akt |
+| [P-0262 Berit Kristina](P-0262-berit-henriksson-familjen.md) | yngre syskon | Sundsvall och Sättna till 1936 | CORROBORATED | C-0238, C-0933, C-0935; namnfrågorna prövas i respektive akt |
 
 ## Tidslinje
 

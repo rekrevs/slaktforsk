@@ -71,3 +71,26 @@ ingen barnmorska namnges. Efter dopvittnena står ett datum som läses
 barnets dopdatum. Den exakta läsningen och formulärfältens slutliga
 avstämning ingår i T-0237. En prövad läsosäkerhet är inte i sig ett
 underkännande av full informationsutvinning.
+
+## Tillägg T-0182, 2026-09-09: `Hogtorp[?]` är `Högtorp`, upplöst av en annan källa
+
+Dopvittneskolumnens boställsnamn har återgetts som **`Hogtorp[?]`** sedan
+avskriften, och T-0125 lämnade reservationen kvar 2026-09-07 efter att ha
+prövat den bevarade helbilden — **vilket var riktigt: bilden ger inte mer.**
+
+**Reservationen är nu upplöst, men inte av en bättre läsning.**
+[C-0094](C-0094-urbom-alund-inflyttning-gryt-1874.md), Gryts
+inflyttningslängd `B/2`, posterna 85–86, skriver uttryckligen att **drängen
+Fredr. Wilh. Ålund med hustru** togs emot i **`Högtorp`** med **folio 170**
+den 9 november 1874. Dopvittneskolumnen tre år senare skriver samma man med
+samma hustru i samma församling. **Byn är alltså `Högtorp`.**
+
+**Uppgiften ger [P-0114 Anna Fredrika Blom](../people/P-0114-anna-fredrika-blom.md)
+en belagd bostadsort 1874–1877**, där hon tidigare bara hade dopdagen 1877 och
+hushållet 1890. Se A-7795.
+
+**Metoden är värd att skriva ut:** en reservation som en fullbildsprövning
+inte kan lösa kan lösas av **en annan källa i samma församling**, utan ny
+arkivåtkomst. Det som behövdes var att läsa två citationer mot varandra.
+
+`Stödda påståenden` utökas med A-7795 (P-0114).

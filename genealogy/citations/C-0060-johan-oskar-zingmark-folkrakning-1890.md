@@ -69,3 +69,32 @@ skriver `Anders Jansson`. Namnvarianten är inte noterad någonstans och ska
 bevaras som en avvikelse, inte normaliseras.
 
 Stödda påståenden utökas med A-5446 (P-0028).
+
+## Tillägg T-0178, 2026-09-09: bladet är ett utdrag ur den serie det används att bekräfta
+
+Bladet bär det tryckta dokumenthuvudet
+**`Utdrag ur Husförhörslängden för Degerfors`**. Det är alltså inte en
+självständig uppteckning utan en **avskrift ur samma längdserie** som
+[C-0064](C-0064-ida-sofia-barndom-buberget-sida-83.md),
+[C-0549](C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md) och
+[C-0404](C-0404-degerfors-AI11c-buberget-sida-241.md) tillhör.
+
+**Följden för Anders Jonssons och Lotta Sofias barn i Buberget** är att varje
+`CORROBORATED`/`hög` som låter denna citation stötta en Degerforsvolym vilar
+på **en** informationsväg och inte på två oberoende röster. Det gäller
+A-0304, A-0305, A-0306, A-0307, A-0308, A-0309, A-0310, A-0311, A-0312,
+A-0313, A-0314 och A-0315 — sex personers grundläggande födelse- och
+syskonpåståenden. **Sakinnehållet står kvar; det är oberoendet som faller.**
+Nedgraderingarna är införda i respektive akt med ursprungslydelserna
+bevarade.
+
+**Två ytterligare begränsningar.** Bladet är en **databaspost utan bevarad
+originalbild i projektet**, och det ger för barnen **bara födelseåret**, inte
+dagen. Där en akt har angett detta blad som ett av två belägg för en **exakt
+dag** har dagen i praktiken kommit från husförhörsvolymen ensam — så var det
+för P-0072:s A-0314, där månaden `11` stod fel i fyra år bakom vad som såg ut
+som två källor.
+
+**Kravet på kolumnredovisning i person-standard.md kan inte uppfyllas här** i
+avsaknad av originalbild; det är en dokumenterad källgräns. Bladet skrivs
+inte om retroaktivt (PCD-2026-09-09-027).

@@ -85,3 +85,110 @@ Koppor/kunskap är råvärden, inte en rekonstruktion av skolgång eller sjukdom
 Sonrelationen för Carl Johan är inte längre en ensam sekundär ledtråd: C-0296 har S. och C-0299 båda föräldrarna. Hans födelseort här avviker från Hammar i båda dessa tidigare källor. Namntillägget Petter är en senare form, inte text i födelseposten. Föräldrakonflikten för Adelide Amalia måste däremot hållas öppen: denna D.-rad är familjegrupperad mellan Frans och Anna Gustava, men C-0296 placerar namnen under en separat kvinnas rad. Det finns ännu ingen egen positiv födelsepost som avgör modern. Ingen biologisk relation skapas enbart av den tidigare automatiska hushållstolkningen. C-0296:s radgräns ska prövas tillsammans med detta blad.
 
 Alla prövade svaga tecken är läsreservationer, inte outvunna fält. Fullbilden och dess tidigare hash finns kvar. Äldre avskrifter ovan bevaras som revisionsspår.
+
+## Tillägg T-0173, 2026-09-09: anmärkningskolumnens tal är nattvardsår
+
+Läst i den redan sparade helbilden vid 240–1200 % förstoring, utan ny
+arkivåtkomst. Avsnitten ovan är append-only och står oförändrade; följande
+styr aktuell användning av tre celler.
+
+### Uppslagets tryckta kolumner, redovisade
+
+Vänstersidan 302: `Namn.`, `Född.` med underkolumnerna `Uti`/`år.`/`dag`,
+`Hitkom.` med `Ifrån`/`år`, `Be-sked N:o`, `Koppor.`, `Gift år`, `Läser` med
+`i bok`/`Luth. Cat.`/`För-klar.`, och en smal `Beskrifn.`-kolumn vid
+bindningen. Högersidan 303: `Bivistat Förhören och begått den Hl. Nattv.`
+med fem odaterade `18`-årsblock, `Särskildte Anteckningar.`, `Död.` med
+`år`/`dag`, `Bortflyttat` med `till`/`år`, och `Be-sked N:o`.
+
+Samtliga dessa kolumner är **avskrivna** för familjegruppens nio rader i
+T-0135:s fullpostprövning ovan. Detta tillägg rör enbart `Särskildte
+Anteckningar.` och tillför inget nytt om övriga kolumner.
+
+### Radalignering: anteckningskolumnen är inte radlinjerad
+
+`Särskildte Anteckningar.`-kolumnen har **inte** en linjerad linje per
+personrad. De synliga vågräta reglarna i den kolumnen ligger på var **annan**
+personrad. En notering i kolumnen kan därför inte tilldelas en rad ur
+kolumnen ensam.
+
+Raderna fastställs i stället mot de radlinjerade `Bivistat`-kolumnerna
+omedelbart till vänster, där varje textrad har sitt eget band. Med den
+alligneringen är fördelningen entydig:
+
+| Rad | Född | `Särskildte Anteckningar.` |
+|---|---|---|
+| Petter Ajax | 1791 | `Sjuklig` |
+| Catharina Jonsdotter | 1792 | tom |
+| Adolph Fredrik | 1821 | tom |
+| Carl Gustaf | 1823 | **`Cat: 38.`** |
+| Carolina | 1826 | **`Cat: 41`** |
+| Frans Ludvig | 1830 | **`Cat: 4[5?]`** |
+| Adelide Amalia | 1832 | tom |
+| Anna Gustava | 1817 | tom |
+| Carl Joh. Petter Ajax | 18[18] | tom |
+
+### `Cat:` är året för första nattvardsgången
+
+Innebörden är prövad genom fördelningen över uppslagets nio rader, inte ur en
+tryckt rubrik. **Noteringen finns på exakt de tre rader vars femtonårsdag
+faller inom bokens period 1837–1846, och saknas på de fem övriga:**
+
+| Person | Född | Femtonårsdag | `Cat:` |
+|---|---|---|---|
+| Anna Gustava | 1817 | 1832 — **före** boken | saknas |
+| Carl Joh. Petter | 18[18] | 1833 — **före** boken | saknas |
+| Adolph Fredrik | 1821 | 1836 — **före** boken | saknas |
+| Carl Gustaf | 1823 | **1838** | `38` |
+| Carolina | 1826 | **1841** | `41` |
+| Frans Ludvig | 1830 | **1845** | `4[5?]` |
+| Adelide Amalia | 1832 | 1847 — **efter** boken | saknas |
+| Föräldrarna | 1791, 1792 | långt före | saknas |
+
+Två av de tre talen — 38 och 41 — ger ålder 14–15 exakt. Fördelningen är
+därmed **fullständigt förklarad** av hypotesen att `Cat:` anger året för
+första nattvardsgången, och av ingen annan prövad hypotes. Carl Gustafs rad
+har dessutom ett `C` bland sina egna tecken i `Läser`-gruppen, förenligt med
+en kommunikantmarkering, men det tecknet är svagt och bär reservation.
+
+**Slutsatsen är `SANNOLIKT`, inte styrkt.** Kolumnrubriken är `Särskildte
+Anteckningar.` och namnger ingen nattvard, förkortningen är inte utskriven
+någonstans i boken, och kontrollen omfattar nio rader på ett uppslag. En
+kommunion- eller konfirmationslängd för 1838, 1841 och omkring 1845 skulle
+pröva innebörden mot en tryckt rubrik. Passagen är namngiven i
+[P-0324](../research-profiles/P-0324.md#källvägar) KP-03 och
+[P-0325](../research-profiles/P-0325.md#källvägar) KP-02.
+
+### Rättelse: `Cat:40` på Frans Ludvigs rad upphävs
+
+T-0135:s fullpostprövning ovan skriver för Frans Ludvig: *`Cat:40`, ett
+dateringsliknande tecken i odaterad årskolumn reserveras*. Den läsningen
+upphävs som årtal.
+
+Två skäl. **Först**: den andra siffran är inte säkert läsbar. Vid 1000–1200 %
+består den av en rund form med en lång diagonal uppåtgående ansats, och den
+kan inte skiljas säkert mellan `0`, `5` och `6` i denna reproduktion.
+**Sedan**: `40` är oförenligt med serien. År 1840 var han tio år, medan de
+två syskonraderna med samma notering ger 14–15. `45` är den enda tvåsiffriga
+läsning som både passar seriens ålder och ligger inom bokens period; `46` är
+möjligt men ger sexton år.
+
+Den aktuella avskriften är därför **`Cat: 4[5?]`**. Den ursprungliga
+formuleringen ovan bevaras oförändrad som revisionsspår. Rättelsen är förd i
+[P-0325](../people/P-0325-frans-ludvig-ajax.md) A-7656.
+
+### Följd i akterna
+
+`Cat: 41` är förd som A-7653 i [P-0324](../people/P-0324-carolina-ajax.md) och
+`Cat: 4[5?]` som A-7656 i
+[P-0325](../people/P-0325-frans-ludvig-ajax.md), båda med tillförlitlighet
+`medel`. **`Cat: 38` tillhör [P-0323](../people/P-0323-carl-gustaf-ajax.md)**,
+som ligger utanför T-0173:s kohort; fyndet är rapporterat dit och till
+kohortens ägare [T-0135](../../wotan/dev-log/T-0135.md) som en avgränsad
+följd. De fem rader som **saknar** noteringen är del av kontrollen och ger
+inga nya sakuppgifter i sina egna akter.
+
+Därtill är Frans Ludvigs egna tomma bortflyttnings- och dödskolumner förda som
+ett läst negativt fynd, A-7657, och Carolinas utflyttningsnot `Motala 1842,
+besked 76` som A-7651. Båda uppgifterna var prövade i T-0135 men aldrig förda
+som sakuppgifter.

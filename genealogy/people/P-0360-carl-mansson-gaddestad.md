@@ -261,3 +261,26 @@ Hela den föregående akten, inklusive dess egen historikruta från T-0126, beva
 > > - Konsolidering: `GRANSKAD` 2026-09-04 (T-0033)
 > > - Källbredd: `KLAR` — egen födelse och båda föräldrarna är säkrade; de nya
 > >   djup-7-spetsarna forskas inte vidare i denna uppgift.
+
+### Inkommande följdfynd från T-0170, 2026-09-09
+
+Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
+ändrat**, och inget A-id är rört; T-0162 äger akten.
+
+- **Hans egen födelseposts by är nu läst.** Citationen skrev att ortsordet
+  inte var tillräckligt säkert läst; vid 500 % förstoring framträder
+  bokstavsföljden **`W-i-i-k-l-o`** med möjlig avslutande `ö`, och
+  ståndsordet framför faderns namn är **`Bond.`** Bokstavsföljden förs
+  **inte** in som identifierad ort — vilken av Östra Husbys byar det är
+  kräver socknens ortregister.
+- **Postens vittnesfält är avskrivet för första gången:** `Bond. Anders
+  And[ers]son i Smedstorp`, `Dr. Nils And[ers]son i Fyllinge`, `hustru Lena
+  Andersdotter ibid` och `Pig. Ingeborg Andersdotter i Fyllinge`. **Inget av
+  dem bär någon av föräldrarnas patronymikon**; alla fyra bär
+  `Andersson`/`Andersdotter` och tre bor i Fyllinge.
+- **Ålderskolumnens innebörd är fastställd.** Uppslagets samtliga poster bär
+  exakt en ålder, placerad efter moderns namn; `38 år` gäller alltså modern,
+  och **fadern har ingen åldersuppgift alls**.
+- Hans egna födelse- och dopdatum, 28 och 30 oktober 1796, är oförändrade.
+
+Ingen ny arkivåtkomst har skett. Se C-0838:s daterade tillägg.

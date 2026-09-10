@@ -36,10 +36,10 @@ Nils är den namngivne fadern till Lars Petter i Indals födelsepost 1836 och å
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0315](P-0315-lars-petter-nilsson.md) Lars Petter Nilsson | son | 1836, Arklo, Indal; senare Högsjö | CORROBORATED | [C-0509](../citations/C-0509-indal-C4-lars-petter-fodd-1836.md), [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) |
-| [P-0404](P-0404-lisa-stina-larsdotter.md) Lisa Stina Larsdotter | medförälder | 1836, Arklo, Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |
-| [P-0405](P-0405-christina-jonsdotter.md) Lisa Stina Jonsdotter | andra hustru | A I/8, Högsjö; egen not 1861-07-22 | TRANSCRIBED | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) |
-| [P-0316](P-0316-cajsa-marta-andersdotter.md) Cajsa Märta Dahlsten | sonhustru | Högsjö, giftuppgift 1858-02-21 | TRANSCRIBED | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) |
+| [P-0315 Lars Petter Nilsson](P-0315-lars-petter-nilsson.md) | son | 1836, Arklo, Indal; senare Högsjö | CORROBORATED | [C-0509](../citations/C-0509-indal-C4-lars-petter-fodd-1836.md), [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) |
+| [P-0404 Lisa Stina Larsdotter](P-0404-lisa-stina-larsdotter.md) | medförälder | 1836, Arklo, Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |
+| [P-0405 Lisa Stina Jonsdotter](P-0405-christina-jonsdotter.md) | andra hustru | A I/8, Högsjö; egen not 1861-07-22 | TRANSCRIBED | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) |
+| [P-0316 Cajsa Märta Dahlsten](P-0316-cajsa-marta-andersdotter.md) | sonhustru | Högsjö, giftuppgift 1858-02-21 | TRANSCRIBED | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) |
 | [P-0406 Lisa Cajsa Larsdotter](P-0406-lisa-cajsa-larsdotter.md) | sondotter, uppgiven född 1858-04-02 | Högsjö, A I/8 | TRANSCRIBED | [C-0510](../citations/C-0510-indal-AI8-hogsjo-sida-108-nilsson-dahlsten.md) |
 | Jakob Jakobsson | bonde, dopvittne | 1836-12-28, Östanskär, Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |
 | Jakob Jakobssons onamngivna hustru | dopvittne | 1836-12-28, Östanskär, Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |

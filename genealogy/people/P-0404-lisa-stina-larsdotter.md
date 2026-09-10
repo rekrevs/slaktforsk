@@ -31,8 +31,8 @@ Lisa Stina är den namngivna modern till Lars Petter, född 27 och döpt 28 dece
 
 | Person | Relation | Tid/plats | Status | Belägg |
 |---|---|---|---|---|
-| [P-0315](P-0315-lars-petter-nilsson.md) Lars Petter Nilsson | son | 1836, Arklo, Indal | TRANSCRIBED | [C-0509](../citations/C-0509-indal-C4-lars-petter-fodd-1836.md) |
-| [P-0403](P-0403-nils-pehrsson.md) Nils Pehrsson | medförälder | 1836, Arklo, Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |
+| [P-0315 Lars Petter Nilsson](P-0315-lars-petter-nilsson.md) | son | 1836, Arklo, Indal | TRANSCRIBED | [C-0509](../citations/C-0509-indal-C4-lars-petter-fodd-1836.md) |
+| [P-0403 Nils Pehrsson](P-0403-nils-pehrsson.md) | medförälder | 1836, Arklo, Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |
 | Jakob Jakobsson | bonde, dopvittne | 1836-12-28, Östanskär, Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |
 | Jakob Jakobssons onamngivna hustru | dopvittne | 1836-12-28, Östanskär, Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |
 | Erik Gustaf Dahlquist | torpare, dopvittne | 1836-12-28, Mellansätter[?], Indal | TRANSCRIBED | [C-1017](../citations/C-1017-indal-C4-1836-arklo-och-radens-lydelse.md) |

@@ -204,3 +204,36 @@ Föregående akt bevaras i sin helhet nedan.
 > ## Konsolideringsrättelse — T-0131
 >
 > Föräldrarelationen har nu egen samtidig födelsepost. Tidigare hushållsargument bevaras men är inte längre enda belägg. T-0165 äger full akt-/profilgranskning; T-0267 den fasta tidiga hushållspassagen.
+
+### Inkommande följdfynd från T-0169, 2026-09-09
+
+Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
+ändrat**, och inget A-id är rört; T-0165 äger akten och T-0169 äger enbart
+föräldrarnas egna akter.
+
+- **Moderns födelseår i Burträsk A I/5 fol. 160 är nu läst som `1753`, inte
+  `1754`.** A-7062 läser båda makarnas celler som `1754[?]`. Vid en
+  kontrollförstoring om 900 % av de två cellerna har slutsiffrorna olika
+  bokstavsformer: faderns är periodens korsade `4`, moderns en `3` med
+  nedåtgående hake. Faderns `1754` står oförändrat. Se
+  [P-0163](P-0163-margareta-hansdotter-storbacken.md#påståenden) A-7390 och
+  C-0859:s daterade tillägg.
+- **Detta upphäver avvikelsen i A-7063.** Talet `38` i moderns
+  ålders-/nummerläge i hans egen födelsepost 1791 ger henne födelse omkring
+  1752–1753, vilket A-7063 redovisar som ett års avvikelse från
+  husförhörsraden. Med `1753` pekar de två läsningarna åt **samma** håll och
+  stöder varandra: `38` uppträder som moderns uppgivna ålder. Ingen av
+  läsningarna blir därmed säker — kolumnrubriken över `38` syns inte i
+  reproduktionen — men konflikten finns inte längre.
+- **Vigselåret `1780` i kolumnen `Gift år`** är nu utvunnet ur samma sida och
+  gäller föräldrarna som par. Uppgiften var inte förd i någon akt tidigare.
+- **Den interlinjära noten `gift i Bygdeå`** är omläst med samma resultat som
+  här: den står mellan de två äldsta sönernas rader och kan inte bindas till
+  någon av dem. Aktens formulering står fast.
+- Uppslagets tryckta kolumner är nu redovisade i C-0859 enligt
+  person-standardens krav. **Tre kolumner — `Flyttad ifrån Församlingen`,
+  `Kommit til Församlingen` och `1sta gången begådt Nattvarden` — är
+  fortfarande inte säkert åtskilda**, vilket är den kvarstående luckan bakom
+  den bleka `1810[?]` på hans egen rad i A-7062.
+
+Ingen ny arkivåtkomst har skett; allt vilar på den redan sparade helbilden.

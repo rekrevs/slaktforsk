@@ -67,3 +67,48 @@ sitt eget dokumenthuvud är ett utdrag ur samma längdserie som C-0404 och
 alltså inte är en oberoende röst.
 
 `Stödda påståenden` utökas med A-5730–A-5739 (P-0066).
+
+## Tillägg T-0178, 2026-09-09: tre siffror omlästa på barnens rader
+
+Den sparade helbilden (6 156 × 4 923 px) är omläst vid 250–900 % med
+rubrikraden i samma utsnitt som datacellerna. Tillägget avser barnens rader
+och rör inte T-0129:s eller T-0157:s utvinningsrester på faderns och moderns
+rader.
+
+**T-0157:s anmälda dagkonflikt för Karl Magnus finns inte.** Tillägget ovan
+läser hans födelse `1880 27/7` mot `21/7` i C-0060 och C-0404. Vid 600 % är
+räknarens andra siffra ett **rakt streck med liten ingångsserif** — en `1` —
+och inte en `7`, som i denna hand har en **vågrät topplinje**. Jämförelsen
+kan göras på samma uppslag, dels mot `²¹/₆` på systern Hildur Charlottas rad,
+dels mot **nämnaren `7`** på hans egen rad, som har topplinjen. **Denna volym
+läser `1880 ²¹/₇`, lika med C-0404.** A-5793 är avvisad; se A-7751 i
+[P-0071](../people/P-0071-karl-magnus-andersson.md).
+
+**T-0157:s andra iakttagelse i samma tillägg står däremot kvar.** C-0060 är
+enligt sitt eget dokumenthuvud ett utdrag ur samma längdserie som C-0404 och
+är alltså inte en oberoende röst. Nedgraderingen av A-0312 till
+`TRANSCRIBED`/`medel` var riktig och behålls; **det är den ena av
+nedgraderingens två grunder som faller, inte nedgraderingen.**
+
+**Två av barnens födelsedagar bekräftar C-0404 mot äldre avskrifter.**
+
+- **Anders: `²⁴/₅`, inte `24/3`.** Nämnaren har en flat topplinje och en enda
+  nedre bowl, formen på en `5`; skrivarens `3` i moderns `³⁰/₁₀` har två
+  bowlar och ingen flat topp. **1876-05-24**; se A-7748.
+- **Hanna Mathilda: `⁶/₈`, inte `11/6`.** Nämnaren har två staplade bowlar,
+  formen på en `8`, och inte de två raka strecken ett `11` skulle kräva.
+  **1882-08-06**; se A-7752.
+
+**Hildur Charlottas `²¹/₆` står oförändrad** och är den enda av
+syskonskarans dagar som gick oprövat rätt genom denna läsning.
+
+**Bonus för moderns akt.** Denna volym läser Lotta Sofias födelse
+`1843 ³⁰/₁₀`, vilket T-0157-tillägget redan noterade. Vid samma läsning står
+`30/10` också i [C-0064](C-0064-ida-sofia-barndom-buberget-sida-83.md), medan
+C-0404 bär `1843-03-30` och C-0064:s äldre avskrift `20/10`. **Tre skilda
+varianter är alltså i omlopp**, och frågan ägs av
+[P-0066](../people/P-0066-lotta-sofia-andersdotter.md); ingen av dem avgörs
+här.
+
+`Stödda påståenden` utökas med A-7748, A-7750, A-7751 och A-7752
+(P-0069–P-0072).

@@ -143,6 +143,44 @@ identifiering med Zingmark. Se [profilen](../research-profiles/P-0424.md)
 för frågor, temabedömning och beslutade källvägar.
 
 
+
+### Avgränsad följdavstämning — T-0179, 2026-09-09
+
+Sex av folkräkningsbladets sidpersoner (C-0059) är konsoliderade i
+[T-0179](../../wotan/dev-log/T-0179.md), och bladets tryckta kolumner är
+utvunna. **Tre uppgifter berör denna akt; ingen av dem ändras här, och
+ägarskapet ligger kvar hos [T-0142](../../wotan/dev-log/T-0142.md).**
+
+**Hans hushåll är inte avslutat på bladet.** Hushållskolumnens räknesiffra
+**sluter** ett hushåll — belagt på tre andra hushåll på samma blad, med det
+avgörande fallet att siffran någon gång står på en rad med prefixet `d.`, som
+inte kan vara en föreståndare. Siffran `1` sluter Evald Bäckströms hushåll på
+en rad **ovanför** hans egen, och därefter följer tre rader — hans, Fredrika
+Antonia Fällmans och `oä. s. Johan Alfred` — **utan avslutande siffra före
+transportraden `218`**. **Hans hushåll fortsätter alltså på nästa ark**, och
+bladet anger själv `18 ark`. **Nästa bild i samma serie bör läsas**; den bär
+hushållets fortsättning och möjligen dess föreståndare, alltså hans husbonde.
+
+**Databasens familjenummer sammanfaller inte med bladets egen
+hushållsindelning.** Indexet ger honom `familj nr 3` och skiljer honom från
+Fredrika Antonia Fällman i `familj nr 4`, medan hushållskolumnen håller dem i
+**samma** oavslutade block. **Familjenumren är indexets och används inte som
+hushållsuppgift** i de sex sidpersonernas akter.
+
+**T-0142:s förbud gäller oförändrat och är infört i alla sex akterna.** Ingen
+av bladets sidpersoner ges en släktrelation till honom. **Samboende i ett
+oavslutat hushållsblock är en samboendeuppgift och inget annat**, och
+namnlikheten mellan `oä. s. Johan Alfred`, född 1868, och hans eget namn är
+just en namnlikhet — den är uttryckligen spärrad som söknyckel i
+[P-0079](P-0079-johan-alfred-savar.md), och den konstruerade formen
+`Johan Alfred Johansson` är avvisad.
+
+**Ur hans egen dopnotis (C-0050) tillkommer inget om honom själv**, men två
+av dopvittnesfältets ortläsningar är prövade: `Drakfors[?]` är **avvisad** och
+`Gunnmark[?]` **förblir oavgjord** mellan `Gunnismark` och `Bullmark`.
+Kyrktagningens `29/6[?]` är prövad och **bekräftad som en bildgräns**, inte en
+oläst cell. Se citationens tillägg.
+
 ## Historik och rättelser
 
 2026-09-08: T-0142. Alla tre äldre A-id och full äldre text bevaras.

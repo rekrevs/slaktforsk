@@ -49,3 +49,25 @@ A-0434, A-0436–A-0437, A-0441–A-0442, A-0444–A-0445 och A-0451–A-0454.
 ## Tillägg T-0143, 2026-09-08: individuell fullfältsgranskning
 
 Ture Edvards hela post2 har prövats på den sparade helbilden med kolumnrubriker. Födelse1904-02-04, ett levande äkta gossebarn. Föräldrar Axel Edvard Eriksson, arbetskarl Wästby,81 20/3, och h.h.Charlotta Cecilia Elisab.Gustafsson,83 14/1; modern har markering i Gift, inte ett antal tidigare barn. Folio212. Dop28februari av past.adjunkten D.Nilsson. Faddrar torparen Johan Albert Skilfors[?] och hans ej namngivna hustru i Bergatorp; efternamnet är prövat men reserverat. Moderns kyrkotagningsfält och särskilda anteckningar är tomma i denna post. Födelsebokens församling och föräldrarnas hemvist ersätter inte en uttrycklig uppgift om fysisk nedkomstort.
+
+## Tillägg T-0182, 2026-09-09: fadderns efternamn är `Nilsson`
+
+Den redan sparade fullbilden (`F0003375_00079`, 7 264 × 5 584 px) är omläst
+vid 200 % och 600 % för post 2:s fadderkolumn, med **den tryckta rubriken
+`Faddrar.` i samma utsnitt som cellen.** T-0143:s fullfältsgranskning står i
+övrigt oförändrad.
+
+**Fadderledet lyder `Torparen Johan Albert Nilsson och hans hustru i
+Bergatorp`.** T-0143 reserverade efternamnet som `Skilfors[?]`.
+**Läsningen faller — och den faller inte på en preferens.** Ordet inleds med
+ett tydligt `N` följt av `ilsson` med lång `ss`-ligatur; **det finns inget
+`S`, inget `k` och inget `f` i handstilen**, och `Skilfors` är därmed
+uteslutet. Byn **`Bergatorp`** står kvar oförändrad, och **hustrun namnges
+inte.**
+
+**Att dopförrättaren `Past. adjunkten D. Nilsson` bar samma efternamn är ett
+sammanträffande.** De hålls åtskilda genom ståndet: faddern är **torpare**,
+förrättaren pastorsadjunkt. **Inga nya person-id skapas** för faddern eller
+hans hustru.
+
+`Stödda påståenden` utökas med A-7800 (P-0119).

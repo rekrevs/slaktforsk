@@ -75,3 +75,227 @@ säker målpost; registret saknar känd full täckning för dessa kyrkoböcker.
 ## Stödda påståenden
 
 A-2855–A-2862.
+
+## Tillägg T-0168, 2026-09-09: rättelse — anteckningen är inte hans, och den säger Skellefteå
+
+Läst i de tre redan sparade helbilderna vid 250–320 % förstoring, utan ny
+arkivåtkomst. Avsnitten ovan är append-only och står oförändrade; följande
+rättelse styr aktuell användning.
+
+### Avsnittet `Petter Reinholds avskilda rad` är felaktigt
+
+Avsnittet skriver: *Längst ned på A I/2 sida 179 står `Dr.` Petter Reinhold
+Pehrsson, född 1798, med noteringen `flyttad til Lycksele med attest`.*
+
+**Anteckningen lyder `flyttad til Skelefte. med attest`, och den ligger inte
+på hans rad.** Tre oberoende skäl:
+
+1. **Ordet.** Det inleds med en `Sk`-ligatur och har en `ft`-ligatur i mitten.
+   `Lycksele` skulle kräva `L`, `y` och `ck`, som saknas helt. Läst vid 250 %.
+2. **Radbandet.** Sidans tre nedersta rader är, i ordning:
+   `Dr. [Ol]of Johansson | 1796[?]` — **namnet överstruket**;
+   `Pig. Anna Christi[n]a [?]dotter | 1768[?]`;
+   `Dr. Petter Reinhold Pehrsson | 1798`.
+   Anteckningens baslinje ligger under den linjerade rad som avslutar den
+   första och inom den andras band. Petter Reinholds rad ligger ett band
+   längre ned. Vilken av de två övre raderna anteckningen tillhör lämnas
+   öppet — men den tillhör inte hans.
+3. **Överstrykningen.** Den första drängradens namn är överstruket, som en
+   avflyttad persons namn brukar vara. **Petter Reinholds namn är inte
+   överstruket.**
+
+Därtill: **hans rad är tom i varje kolumn utom namn och födelseår** —
+`Gifto-år`, `Läser och förstår`, `Naturs-gåfvor och Flit`, `Seder`, samtliga
+årskolumner 1815–1824 och `Antekningar`. De kolumnvärden och nattvardstal som
+syns till höger på samma höjd hör till pigraden ovanför. **A I/2:s formulär har
+inga kolumner `Hvarifrån`/`Hvarthän`**, vilket är skälet att flyttuppgifter
+här skrivs som fri text tvärs över de tomma mittkolumnerna.
+
+Följden är att den identifikation som knöt honom till en `Rein[d]. Pehrsson` i
+Åskilje i Lycksele tappar sin avgörande grund; se
+[A-2897](../people/P-0472-petter-reinhold-pehrsson.md#påståenden), som är
+nedgraderad från `CORROBORATED` till `LEAD` i T-0168.
+
+### A I/2 sida 179 — hushållets övre del
+
+Jan Larssons hushåll upptar sidans övre rader: `B. Jan Larsson | 1777`,
+`Hu. Sara Lisa Jonsd:r | 1777`, två överskrivna rader, och därefter under
+underrubriken `döttr. o. barn` bland andra `Sophia Magdalena | 1810`,
+**`Beata | 1809`**, `Anna Britta[?] | 1815` och `Sara Lisa[?] | 1819`.
+Uppslagets tryckta kolumner är `Stånd och Namn`, `Födelse-år och Dag`,
+`Gifto-år`, `Läser och förstår`, `Naturs-gåfvor och Flit`, `Seder`, årsblocken
+`År 1815`–`År 1824` med `Förhör`/`Nattvardsgång`, och `Antekningar`.
+Sophia Magdalenas rad har en sidhänvisning i den fria mittzonen.
+
+### A I/3 sida 221 — `Hvarifrån` är läst och tom
+
+Uppslagets tryckta kolumner är `Stånd och Namn`, `Födelse-år och Dag`,
+`Koppor`, `Gifto-År`, `Läser och förstår`, **`Hvarifrån`**, **`Hvarthän`**,
+årsblocken från `År 1825` och `Anmärkningar för Seder m. m.`
+
+| Rad | Innehåll |
+|---|---|
+| `B. Pet. Reinh. Peh[rsso]n | 1798` | `Koppor`, `Gifto-År`, `Läser och förstår`, **`Hvarifrån`** och `Hvarthän` **lästa och tomma**. |
+| `Hu. Beata Jons d:r | 1809` | `Gifto-År` har **`1826`**; `Läser och förstår` har ett klammermärke; `Koppor`, `Hvarifrån` och `Hvarthän` tomma. |
+| `Sophia Magdalena | 1810` | `Hvarthän` har en sidhänvisning som läses `17[?]`. |
+| Barnen `Jonas ⁹/₂ 1828`, `Dott. Sara Sofia ²¹/₅ 1829`, `Cathrina Magdalena [?] 18[3]5` | Klammermärken i `Läser och förstår`. |
+
+**Att `Hvarifrån` är läst och tom på hans rad är det centrala:** det är den
+kolumn som skulle ha gett hans ursprung. Vigselåret är bokfört bara på
+hustruns rad.
+
+### A I/4 sida 262 — svärföräldrarna i hushållet och en konflikt
+
+Hushållet står i ordningen make, hustru, **hennes föräldrar**, sedan barnen:
+
+> `[B.] P[ette]r Reinhold Pehrsson | 1798 | … | 1826`
+> `Hu. Beatha Jonsdotter | 1809`
+> `Jan Larsson | ¹⁴/₁₀ 1768`
+> `Sara Lisa A[nders?]dotter | 17[9?]7`
+> `[Son] Jonas | [?] 1828 | v`
+> `Sara Sofia | ²¹/₅ 1829 | v`
+> `Cathrina Magdalena | [?]/12 1835 | v`
+> `P[ett]r.[?] | ²⁴/₁₂ 1837 | v`
+> `Anders | ¹⁴/₄ 1841 | v`
+
+**Två uppgifter strider mot de tidigare längderna.** A I/2 och A I/3 anger
+`1777` för både Jan Larsson och Sara Lisa **Jonsdotter**; här anges
+`¹⁴/₁₀ 1768` för fadern och patronymikonet läses `A[nders?]dotter` för modern,
+med överskrivet årtal. Nio års skillnad och ett annat patronymikon.
+**Konflikten bevaras och avgörs inte här**; läsningarna av `1768` och
+patronymikonet bär reservation, medan hushållsplaceringen och namnen
+Jan Larsson/Sara Lisa är tydliga. Fyra tänkbara förklaringar — skrivfel i
+någon av längderna, andra personer med samma namn, eller min egen felläsning —
+står i
+[P-0473:s profil Q-01](../research-profiles/P-0473.md#forskningsfrågor).
+**Beatas föräldralänk rubbas inte**: den vilar på A I/2:s uttryckliga
+barnrubrik. Rapporterat till T-0173, som äger P-0478 och P-0479.
+
+**Tre barn får namn.** `Cathrina Magdalena` 1835, `P[ett]r.[?]` 1837-12-24 och
+`Anders` 1841-04-14 var i C-0727 kända enbart som `yngre syskon`.
+
+## Tillägg T-0173, 2026-09-09: föräldraparets egna rader i A I/2 och A I/3
+
+Läst i de två redan sparade helbilderna vid 240–1200 % förstoring, utan ny
+arkivåtkomst. Avsnitten ovan är append-only och står oförändrade; följande
+rättar och utökar den bild av årtalskonflikten som T-0168:s tillägg ger.
+
+### Rättelse: A I/3 anger **inte** `1777` för Jan Larsson
+
+T-0168:s tillägg ovan skriver: *A I/2 och A I/3 anger `1777` för både Jan
+Larsson och Sara Lisa **Jonsdotter***. Den beskrivningen gäller **hustrun**
+men inte honom, och grunden är att hans egen rad i A I/3 var outvunnen —
+tilläggets radförteckning för sida 221 börjar vid mågen.
+
+Paret har **egna rader överst på A I/3 sida 221**, ovanför Petter Reinholds
+och Beatas familj, tillsammans med två av döttrarna. Radordningen är:
+
+> `[B.] Jan Larsson | 17[??] + dagmärke`
+> `Hu. Sara Lisa Jonsd[otte]r | 1777`
+> `[Dott.] Beata[?] | [årtalet överkryssat och oläsligt]`
+> `Sophia Magdalena | 1810 | Hvarthän: 17[?]`
+> `B. Pett. Reinh. Peh[rsso]n | 1798`
+> `Hu. Beatha Jons d:r | 1809 | Gifto-År 1826`
+
+**Jan Larssons årtalscell är överskriven.** Efter `17` står två sifferformer
+ovanpå varandra, och minst en av dem är **sluten** — en ögla, inte ett streck.
+Kontrollen ligger i samma hand en rad längre ned: hustruns `1777` är tre
+tunna diagonala streck utan en enda sluten form, och de två cellernas
+bokstavsformer är oförenliga vid samma förstoring. **Cellen kan därför inte
+läsas `1777`.** Vilket årtal som står under överskrivningen är **inte
+läsbart** i denna reproduktion, och ingen siffra gissas.
+
+### Nytt: dagen `[1?]⁴/₁₀` står i två längder
+
+Till höger om A I/3:s årtalskolumnlinje, på Jan Larssons rad, står ett
+bråkmärke som läses **`⁴/₁₀`**, möjligen med ett inledande `1` som gått samman
+med kolumnlinjen. Det motsvarar A I/4:s **`¹⁴/₁₀ 1768`**.
+
+**Dagen — den fjortonde eller fjärde oktober — är därmed samstämmig i två
+oberoende längder, medan årtalet är det som strider.** Detta är den första
+personbundna dagnyckeln i hans akt. Hustruns rad i A I/3 har **ingen** dag:
+den tryckta kolumnens dagdel är där läst och tom.
+
+### A I/2 sida 179: dagdelen är tom, och båda makarna har samma årtal
+
+I A I/2 håller den tryckta kolumnen `Födelse-år och Dag` på Jan Larssons rad
+**enbart** `1777`; **dagdelen av samma cell är läst och tom**. Samma rena
+`1777`, likaså utan dag, står på hustruns rad omedelbart därunder.
+
+Att båda makarna får exakt samma årtal och ingen av dem en dag är mönstret
+för en **ifylld ungefärlig ålder**, inte för två avskrivna födelseposter.
+Iakttagelsen förklarar ingenting av sig själv och **avgör inte konflikten**;
+den är förd som en källkritisk uppgift om A I/2:s förande.
+
+### Konfliktens nya form
+
+| Längd | Jan Larsson | Sara Lisa |
+|---|---|---|
+| A I/2 sida 179 | `1777`, **dagdelen läst och tom** | `1777`, dagdelen läst och tom; patronymikon `Jonsd:r` |
+| A I/3 sida 221 | **överskriven cell, ej `1777`**, med dagen `[1?]⁴/₁₀` | `1777` rent, ingen dag; patronymikon `Jonsd[otte]r` |
+| A I/4 sida 262 | `¹⁴/₁₀ 1768`, årtalet överskrivet | `17[9?]7`; patronymikon `A[nders?]dotter` |
+
+Konflikten står alltså **inte** två längder mot en. **Dagen** stöds av två
+längder; **årtalet** har en ren uppgift i A I/2, en oläslig i A I/3 och en
+överskriven i A I/4. Detta stärker förklaringen *samma man, ett årtal
+felfört* i förhållande till förklaringen *två olika män*, men **avgör
+ingenting**: konflikten ägs som helhet av
+[T-0168](../../wotan/dev-log/T-0168.md) genom
+[P-0473](../people/P-0473-beata-jonsdotter.md) A-7343, och den avgränsade
+kontrollen i A I/5a sida 335 och A I/6b sidorna 399 och 402 ägs av
+[T-0495](../../wotan/dev-log/T-0495.md). Dessa tre bilder är **inte** lästa
+här.
+
+### Hustruns årtalsreservation är upphävd på räkneväg
+
+A I/4:s `17[9?]7` för Sara Lisa **kan inte vara 1797**: hon hade en dotter
+1798 och en 1809. Årtalet där är alltså förenligt med `1777`, och konflikten
+för hennes del **reduceras till patronymikonet**. Läsningen
+`A[nders?]dotter` bär kvar sin reservation. Fört som A-7669 i
+[P-0479](../people/P-0479-sara-lisa-jonsdotter-anaset.md).
+
+### A I/2 sida 179: två outvunna rader och två marginalmärken
+
+Mellan hustrun och döttrarna står **två överstrukna rader** som T-0168:s
+tillägg nämner som *två överskrivna rader* utan innehåll:
+
+> `Mågen Olof [Nils?]son | 1787`
+> `Hu: [namn överkryssat och svårläst] Lisa [?]d[otte]r | 1798`
+
+`Måg` betyder svärson. **Hustrun på den andra raden är därför en dotter i
+huset, född 1798 — elva år äldre än Beata.** Hennes namn är överkryssat och
+läses inte säkert, och **inget person-id skapas**; paret är inte samma som
+Petter Reinhold och Beata.
+
+Därtill bär döttrarnas rader **otryckta märken i vänstermarginalen**, utanför
+tabellen:
+
+| Rad | Född | Namnet | Marginal |
+|---|---|---|---|
+| Sophia Magdalena | 1810 | oöverstruket | `v 3` |
+| Beata | 1809 | oöverstruket | `v 2` |
+| Anna Britta | 1815 | **överstruket** | **`+`** |
+| [Sara] Lisa | 1819 | **överstruket** | **`+`** |
+
+**Märket `+` har en positiv kontroll över två böcker:** exakt de två rader som
+bär det är de två som **saknas** i A I/3 sida 221, medan de två rader som bär
+`v`-märkena båda står kvar där. Att `Anna Britta` och `[Sara] Lisa` dog som
+barn är därför `SANNOLIKT`, **inte styrkt** — märket är otryckt och kontrollen
+visar korrelation, inte innebörd. Degerfors dödbok omkring 1815–1825 är osökt
+och namngiven i
+[P-0478:s profil](../research-profiles/P-0478.md#källvägar) KP-02. **Talen `3`
+och `2` är oidentifierade och tolkas inte.**
+
+### Följd i akterna
+
+Förda i [P-0478](../people/P-0478-jan-larsson-anaset.md) som A-7662 (egen rad
+i A I/3), A-7663 (den överskrivna cellen), A-7664 (dagen i två längder),
+A-7665 (A I/2:s tomma dagdel och parets identiska årtal), A-7666 (fem
+döttrar) och A-7667 (`+`-märkena som läst negativt fynd); och i
+[P-0479](../people/P-0479-sara-lisa-jonsdotter-anaset.md) som A-7668 (hennes
+rena `1777` som kontroll), A-7669 (den upphävda årtalsreservationen) och
+A-7670 (två `Sara Lisa` i samma hushåll som förväxlingsrisk).
+
+**Beatas föräldralänk rubbas inte**, och det gäller oförändrat: den vilar på
+A I/2:s uttryckliga barnrubrik `döttr. o. barn`, alltså på en
+relationsmarkör och inte på föräldrarnas födelseår.

@@ -155,3 +155,43 @@ Den personbundna flyttvägen ägs av [T-0293](../../wotan/dev-log/T-0293.md), h�
 > ## Arbetsläge
 >
 > - Konsolidering: `GRANSKAD` 2026-09-04 (identity-review-2026-09-04.md)
+
+### Inkommande följdfynd från T-0173, 2026-09-09
+
+**Avgränsad följd, ingen ny arkivåtkomst och ingen omprövning av hans akt i
+övrigt.** Fyndet kommer ur den redan sparade helbilden till
+[C-0291](../citations/C-0291-vastra-ny-AI8-sida-302-ajax-familj.md), läst vid
+240–1200 % förstoring.
+
+**Marginaltalet på hans rad har fått en innebörd.** T-0135:s fullpostprövning
+avskrev korrekt `Cat:38` i kolumnen `Särskildte Anteckningar` på hans rad,
+men förde det som ett oidentifierat tal. Innebörden är nu prövad genom
+fördelningen över uppslagets nio rader: **noteringen finns på exakt de tre
+hushållsrader vars femtonårsdag faller inom bokens period 1837–1846 och
+saknas på de fem övriga.** Carl Gustaf född 1823 har `38`, Carolina född 1826
+har `41`, Frans Ludvig född 1830 har `4[5?]`; Anna Gustava, Carl Johan Petter
+och Adolph Fredrik fyllde femton **före** boken och Adelide Amalia **efter**
+den, och ingen av dem har noteringen.
+
+Talet är alltså **året för hans första nattvardsgång, 1838**, då han var
+fjorton–femton år. Hans egen `Läser`-grupp har dessutom ett `C` bland
+tecknen, förenligt med en kommunikantmarkering, men det tecknet är svagt och
+bär reservation.
+
+**Slutsatsen är `SANNOLIKT`, inte styrkt.** Kolumnrubriken är `Särskildte
+Anteckningar` och namnger ingen nattvard, förkortningen är inte utskriven i
+boken, och kontrollen omfattar nio rader på ett uppslag. En kommunion- eller
+konfirmationslängd för 1838 skulle pröva innebörden mot en tryckt rubrik.
+Metoden och hela kontrolltabellen är redovisade i C-0291:s tillägg
+2026-09-09.
+
+**Inget A-id, ingen status och ingen bedömning i hans akt ändras här**, och
+inget nytt A-id skapas i den. Uppgiften — hans nattvardsår och den
+utflyttningsnot till Linköping 1840, besked 67, som redan står i akten —
+följer nu en sammanhängande ordning: konfirmerad 1838, utflyttad 1840.
+
+**Ägare för följdarbete:** hans kohort är
+[T-0135](../../wotan/dev-log/T-0135.md), som är underrättad, med de
+avgränsade följderna [T-0291](../../wotan/dev-log/T-0291.md) och
+[T-0293](../../wotan/dev-log/T-0293.md). Införandet av nattvardsåret som eget
+påstående och den eventuella kommunionlängden ligger där, inte i T-0173.

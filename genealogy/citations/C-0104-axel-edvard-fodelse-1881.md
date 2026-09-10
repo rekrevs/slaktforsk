@@ -85,3 +85,61 @@ hennes födelsedag. Den äldre normaliseringens bestämda30år är för stark.
 De senare kyrkoböckerna och folkräkningarna är inte automatiskt fyra
 oberoende vittnesmål om födelsedagen. Överföring mellan kyrkoböcker
 måste beaktas; den egna födelseposten är primär för händelsen.
+
+## Tillägg T-0183, 2026-09-10: fem fullständiga led och tre boställen
+
+Vid konsolideringen av
+[P-0138](../people/P-0138-johan-peter-pehrsson-dopvittne-1881.md) i
+minimiläge enligt PCD-2026-09-09-030 är dopvittneskolumnens struktur
+utskriven. **Ingen ny bildläsning har gjorts** — T-0132 prövade hela post 3
+på nytt 2026-09-08, och dess läsning står oförändrad.
+
+**Posten har tre vittnesparter från tre olika boställen:**
+
+| Vittne | Led | Boställe |
+|---|---|---|
+| [P-0138](../people/P-0138-johan-peter-pehrsson-dopvittne-1881.md) med [P-0139](../people/P-0139-anna-ersdotter-dopvittne-1881.md) | `Pehrsson Johan Peter, Torpare, H:u Ersdotter Anna` | `Nafverkärr` / `Näfverkärr` |
+| `Pettersson Carl` | `dräng` | `Svartgjöl` |
+| `Svalberg Lovisa` | `dotter` | `Malstugan` |
+
+**P-0138 bär det fullständigaste namnet av alla dopvittnen i programmet.**
+Fem led står i klartext — efternamn, **två** förnamn, stånd, **namngiven**
+hustru och boställe — **utan en enda initial eller förkortning.** Där
+Lerbopostens vittnen 1867 bär `J. E.` och `Alb.`
+([C-0098](C-0098-charlotta-wilhelmina-fodelse-1867.md)) och Bygdeåpostens 1872
+bär `A.` och `C.`
+([C-0067](C-0067-anna-fredrika-fodelse-1872.md)), är hans led hela.
+
+**Och han är den ende torparen i posten** — de två andra parterna är en dräng
+och en hemmavarande dotter.
+
+**Ändå faller hans identitetsnivå, och den faller på en enda sak: åldern.**
+`Pehrsson` var ett av Södermanlands vanligaste patronymikon, och
+**dopvittneskolumnen anger inte vittnens åldrar** — till skillnad från
+moderns kolumn i samma post, som bär dubbeltalen `30/29`. **Utan ett årtal kan
+namnet inte skiljas från namnlikar i en födelsebok.** **Vad som saknas är
+alltså en andra källa, inte en läsning**, och hans `Identitetsläge` står
+därför `PRÖVAT` medan kohortens övriga vittnen står `OLÖST`. Se A-7817.
+
+**Boställsnamnet står i två former.** Avskriften skriver `Nafverkärr`;
+T-0132:s fullpostprövning skriver `Näfverkärr`. **Båda bevaras: de är två
+läsningar av samma ord, inte två orter**, och **båda måste bäras med i varje
+sökning** — ett noll på den ena formen är ett belägg om läsningen, inte om
+honom. **En tredje omläsning av cellen är inte en ny prövning**, samma
+metodiska skillnad som gäller P-0107:s `Ytteråträsk[?]`.
+
+**Dopvittneskolumnen anger ingen relation till dopbarnet för någon av de tre
+parterna**, och **ingen släkthypotes registreras.** Patronymikonet `Pehrs-`
+har ingen motsvarighet i dopbarnets kända familj — fadern hette
+`Erik Carlsson`, modern `Anna Christina Larsdotter`. **Att drängen i samma
+post bar det näraliggande `Pettersson` är ett sammanträffande som inte
+tolkas.**
+
+**Hans källväg är kohortens billigaste och betjänar två akter.** Forssas
+arkivbildare **och** dess husförhörsserie är båda prövade — `C/6` genom denna
+citation och `A I/16` genom
+[C-0149](C-0149-erik-anna-forssa-AI16-sida-83.md) — så uppslaget för
+`Näfverkärr` omkring 1881 är en avgränsningsfråga och inte en katalogfråga.
+Det skulle ge både hans och hustruns ålder.
+
+`Stödda påståenden` utökas med A-7817 (P-0138).

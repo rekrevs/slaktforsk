@@ -111,3 +111,91 @@ ihop med `Inskrifven 92` i Sävar A I/8b.
 
 Avskriften ovan är append-only och behålls oförändrad; den bör dock inte
 längre läsas som fullständig för detta uppslag.
+
+## Tillägg T-0176, 2026-09-09: raderna 3–6:s kolumner 11–13 och en prövad födelsedag
+
+Den lokalt sparade helbilden `F0013102_00192` (8 264 × 5 768 px) har lästs om
+inom T-0176 vid 350–450 %, med radnumren i samma utsnitt som cellerna. Ingen
+ny arkivpassage har öppnats och avskriften ovan ändras inte.
+
+**Rad 6:s födelsedag är prövad och står kvar: `1894 ²⁹/₁₀`.** T-0154 anmälde
+2026-09-08 en datumkonflikt mot
+[C-0890](C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), som i sin
+avskrift ger `1894 ²²/₁₀`. Vid 450 % är räknaren på denna sida entydigt `29`,
+och vid omläsning av C-0890:s helbild läser **även den** `29`; se det daterade
+tillägget där. **Konflikten fanns i C-0890:s avskrift, inte mellan
+volymerna.** Raderna 4 och 5 är kontrollerade samtidigt och ger `1890 ¹/₉`
+respektive `1892 ¹⁰/₉`.
+
+**Kolumnerna 11–13 på raderna 3–6.** Rubrikerna `Kristendomskunskap`,
+`Inom sv. kyrkan begått H. Nattv.` och `Bevistat husförhör år` är lästa i
+samma helbild som cellerna. Avskriften ovan återger ingen av dem.
+
+| Rad | Person | Kol 11 | Kol 12 | Kol 13 |
+|---|---|---|---|---|
+| 3 | Livia Sofia (P-0030) | `B` | `N.` | `07` |
+| 4 | Astrid Maria (P-0031) | `ab` | `N.` | `06, 07, 08` |
+| 5 | Anders Waldemar (P-0032) | `ab` | `N.` | `06` |
+| 6 | Johan Magnus (P-0033) | **tom** | **tom** | **tom** |
+
+Kolumn 11:s och 12:s markeringar ligger inom 12–25 px från sina egna
+namnraders höjd och är därmed säkert placerade; rad 6:s närmaste markering
+ligger nära en full radhöjd bort, alltså är hans celler **lästa och tomma**.
+I den efterföljande volymen A II a/6 bär hans rad `A. N.`, den högsta
+bokstaven bland syskonen — bokstaven är alltså förvärvad efter denna boks
+period.
+
+**Kolumn 13:s radtillhörighet är däremot bara medel.** Årtalslistorna skrivs
+stackade nedåt från radlinjen, och fördelningen i tabellen ovan vilar på den
+skrivriktningen; en förskjutning ett steg uppåt kan inte uteslutas ur detta
+uppslag ensamt. Skalans och markeringarnas innebörd är inte utskriven i boken
+och tolkas inte här.
+
+Berörda påståenden: A-2497 och A-7710 (P-0031), A-2498 (P-0032), A-2499 och
+A-7718 (P-0033).
+
+## Tillägg T-0177, 2026-09-09: raderna 11 och 12 läser `¹²/₇` och `¹⁷/₉` — båda anmälda konflikterna är avskriftsfel
+
+Den lokalt sparade helbilden `F0013102_00192` (8 264 × 5 768 px) har lästs om
+inom T-0177 vid 400–900 %. Ingen ny arkivpassage har öppnats och avskriften
+ovan ändras inte.
+
+**Tabellen i `Johan Oskars hushåll, raderna 1–12` har två felaktiga värden.**
+
+| Rad | Person | Tabellens värde | **Bildens värde** |
+|---|---|---|---|
+| 11 | d. Tyra Charlotta (P-0037) | `1907-07-14` | **`1907 ¹²/₇`** |
+| 12 | d. Gerda Helena (P-0038) | `1909-07-12` | **`1909 ¹⁷/₉`** |
+
+**Rad 11: kontrollen är skrivarens egen fyra på samma uppslag.** Fyran i
+årtalet `1894` på rad 6 är en **hög, kantig** glyf med diagonal och vertikal,
+lika hög som `8` och `9` intill. Tecknet i rad 11:s räknare är i stället en
+**låg** glyf med liten topplop och bas, helt inom x-höjden — samma form som
+tvåan i `1892` på rad 5. En `4` är utesluten. Rad 10 ger samtidigt `1905 ¹³/₈`
+och rad 12 `1909 ¹⁷/₉`, båda kontrollerade i samma utsnitt.
+
+**Rad 12: både räknare och nämnare är andra tal än tabellens.** Räknaren är
+`17` — en `1` följd av en `7` med vågrät topplinje — och nämnaren en `9` med
+sluten ögla och nedgående svans. Månaden är alltså **september**, inte juli.
+
+**Följden är att två anmälda datumkonflikter inte finns.** T-0154 anmälde
+2026-09-08 att Tyra Charlottas dag stod `1907-07-14` här mot `1907-07-12` i
+[C-0890](C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) och
+[C-0907](C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), och
+att Gerda Helenas stod `1909-07-12` här mot `1909-09-17` där. **Båda
+avvikelserna låg i tabellen ovan.** Alla tre volymerna ger 1907-07-12
+respektive 1909-09-17.
+
+**Tillsammans med tillägget T-0176 gäller detta samtliga tre barndatum
+T-0154 anmälde.** Johan Magnus `²⁹/₁₀` avskrevs 2026-09-09 i C-0890:s
+tillägg; Tyra Charlotta och Gerda Helena avskrivs här. **Hypotesen om ett
+systematiskt överföringsfel mellan Degerforsvolymerna har därmed inget
+underlag kvar** — det som fanns var tre avskriftsfel i **en** tabell.
+Observationen är rapporterad till T-0154 och T-0399, som äger frågan, och
+till P-0037, vars akt är konsoliderad i T-0177.
+
+**Rad 10, Birger (P-0036), är kontrollerad och står kvar:** `1905 ¹³/₈`, lika
+med C-0890 rad 10.
+
+Berörda påståenden: A-2502 och A-7727 (P-0036), A-2503, A-3415 och A-7729
+(P-0037), A-3416 (P-0038).

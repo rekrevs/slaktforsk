@@ -260,3 +260,27 @@ Tidigare lydelse av A-2190, ersatt 2026-09-09 i T-0162 med hänvisning till A-65
 > > - Konsolidering: `GRANSKAD` 2026-09-04 (T-0036)
 > > - Källbredd: `KLAR` — båda föräldrarna är registrerade från egen
 > >   födelsenotis och förenade med vuxenhushållet.
+
+### Inkommande följdfynd från T-0170, 2026-09-09
+
+Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
+ändrat**, och inget A-id är rört; T-0162 äger akten.
+
+- **Hans egen födelseposts kolumner är nu redovisade** enligt
+  person-standarden: `Månad`, dagkolumnerna, `Barnets Namn`,
+  `Föräldrarnes Namn`, `Willkor och Hemwist` och `Fadrarnes Namn och
+  Hemwist`. Hans datum, 16 och 19 februari 1815, är oförändrade.
+- **Ålderskolumnens innebörd är fastställd.** Uppslagets samtliga poster bär
+  exakt en ålder, placerad efter moderns namn; `33 åhr` gäller alltså modern,
+  och **fadern har ingen åldersuppgift alls**.
+- **Faddrarnas utfall är olika för de två föräldrarna.** Tre av de fem bär
+  moderns patronymikon i dotterform och ett fjärde formen `Anderss.`; **inget
+  bär faderns `Hansson`.** Ett faddre är namngivet enbart som `Nämndeman i
+  Hattholt[?]` och kan ur samma uppslag identifieras som `Johannes
+  Andersson`, nämndeman i samma ort.
+- **Byn hade fler än en Olof.** Samma uppslag har faddret `Olof Månsson i
+  Bodarne` i november 1814, och versalen skiljer sig vid 700 % från den höga
+  `H`-slingan i `Hansson`. En `Olof` i Bodarne får därför inte identifieras
+  ur namn och by.
+
+Ingen ny arkivåtkomst har skett. Se C-0848:s daterade tillägg.

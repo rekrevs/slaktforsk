@@ -214,3 +214,33 @@ Hela den föregående akten bevaras oförändrad nedan.
 > - Konsolidering: `GRANSKAD` 2026-09-04 (T-0037)
 > - Källbredd: `KLAR` — båda föräldrarna är registrerade från egen
 >   födelsenotis och förenade med vuxenhushållet.
+
+### Inkommande följdfynd från T-0172, 2026-09-09
+
+Avgränsad rapport från föräldrarnas kohortuppgift. **Ingenting i akten ovan är
+ändrat**, och inget A-id är rört; T-0164 äger akten.
+
+De tre uppgifter T-0164 namngav som oavskrivna i din egen födelsepost är nu
+utvunna — **alltså just de fält PK-05 underkändes på**:
+
+- **Faderns ämbete:** `Kyrkoherdens i Mortorp`. Uppgiften är förd som
+  sakuppgift i [P-0517](P-0517-samuel-bokelund-mortorp.md) A-7620, med den
+  källstrategiska följden att en kyrkoherde har en biografi i stiftets
+  herdaminne och förekommer i prästmatriklar, konsistoriets protokoll och
+  sockenstämmoprotokoll.
+- **Moderns ålder `33`**, som ger henne födelsetid juli 1775–juli 1776; förd
+  som A-7630. Att kolumnen är en åldersuppgift framgår av uppslaget självt,
+  där samtliga poster bär tal 19–36 i samma läge.
+- **Postens sex faddrar:** `Comministern härstädes H:r Pastor Anders
+  Sjöstrand`, `des Hustru Chatarina Helena Fernander`, `Sergeanten u[ti]
+  Mortorps ägor Jonas Sjöström`, `des Hustru Johanna Ryberg`, `S. Min[?].
+  Adjuncten H:r Peter Anders[son?]` och `Jungfru Gustava Christina
+  Bökelund`. Kretsen är socknens ståndspersoner. **Två namn bär
+  släktnycklar:** `Johanna Ryberg` bär din mors familjenamn och `Gustava
+  Christina Bökelund` din fars — båda kandidater, **inga relationer**.
+  Adjunktens namn bär läsreservation.
+
+Därtill: **din far stod själv första vittne** vid komministerns sons dop den
+22 juli 1809, i post 21 på samma uppslag — ett ömsesidigt vittnesskap.
+
+Ingen ny arkivåtkomst har skett. Se C-0851:s daterade tillägg.

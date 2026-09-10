@@ -43,3 +43,23 @@ vigselnotisen C-0123.
 ## Stödda påståenden
 
 A-0380, A-0710, A-0712–A-0714, A-0748–A-0751.
+
+## Daterat tillägg 2026-09-09 — T-0169: vittneskolumnen är nu tagen i bruk
+
+Ingen ny läsning och ingen ändring av avskriften ovan. Tillägget redovisar
+**var postens redan avskrivna vittneskolumn nu används**, eftersom den varit
+kolumnredovisad här sedan 2026-08-21 utan att nå någon personakt.
+
+- `Bond. Carl Jonsson i Öfverklinten och dess hustru Catharina Isacsdr` bär
+  som hustru **faderns patronymikon** och är införd som söknyckel i
+  [P-0160](../people/P-0160-jakob-isaksson-ultervattnet.md) (A-7360). För
+  modern [P-0161](../people/P-0161-anna-stina-andersdotter-ultervattnet.md)
+  är samma lista ett **negativt** utfall: inget vittne bär hennes
+  patronymikon (A-7370).
+- Posten har **två** vittnen, mot fyra i den samtidiga notisen
+  [C-0129](C-0129-hans-nilsson-fodelse-1800.md) i samma volymserie. Antalet
+  är fört som A-7371 med tillförlitlighet `medel` och **utan** social
+  slutsats; vittnesantalet varierade av praktiska skäl.
+- Hypotesen att ett vittne är nära släkt är just en hypotes. **Ingen relation
+  skapas ur denna post**, och Carl Jonsson och Catharina Isacsdotter förblir
+  söknycklar.

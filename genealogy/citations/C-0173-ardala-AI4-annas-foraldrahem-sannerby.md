@@ -64,3 +64,46 @@ Pigan Lena Ersdr (1777) och den överstrukne drängen Anders Andersson
 (1789[?]) är separat tjänstenätverk, inte fler syskon genom radnärhet.
 Sida 273 prövas i det samtida tillägget i C-0170; originalet finns
 redan länkat under C-0174 och kräver ingen ny hämtning.
+
+## Tillägg T-0175, 2026-09-09: två barns födelsedatum utvunna ur sida 142
+
+Läst i den redan sparade helbilden `bild 148` vid 280–900 % förstoring, utan
+ny arkivåtkomst. Avsnitten ovan är append-only och står oförändrade.
+
+Avskriften ovan skriver `Son Anders […]` och `Dott. Stina | 1806`. Hela raden
+lyder, med den tryckta dag- och månadskolumnen läst:
+
+> `Bond. Eric Larss[on] | 1768`
+> `Hustr. Brita Anders d:r | 1772`
+> `Sonen Anders | 1799`
+> `Dott. Anna | 1796`
+> `D. Stina | 1806 | ³⁰/₁₂`
+
+**Två utvinningar följer.**
+
+**Anders föddes 1799.** Årtalet stod i cellen hela tiden; avskriften lämnade
+det olämnat, och [P-0228](../people/P-0228-anders-eriksson-sannerby.md)
+A-1369 slog fast att *födelsedetaljen är inte tillräckligt säkert läst för
+registrering*. Årtalet står dessutom i A I/3 sida 332, som där ger dagen
+`⁵/₄` — se C-0174:s tillägg samma dag. Fört som A-7692.
+
+**Stina föddes 1806-12-30.** Dagangivelsen `³⁰/₁₂` står i den tryckta dag- och
+månadskolumnen till höger om årtalet.
+[P-0229](../people/P-0229-stina-eriksdotter-sannerby.md) A-1370 slog fast att
+*exakt datum och originalfödelse är inte prövade*; datumet var läsbart.
+**Dagens första siffra bär en lätt reservation** — `30` är läsningen och `20`
+kan inte helt uteslutas i denna reproduktion; månaden `12` är säker. Fört som
+A-7693.
+
+**En iakttagelse om bokens förande.** Stina är den **enda** av de tre syskonen
+med en dagangivelse i just denna bok: Anna har ingen här, och Anders har sin
+bara i A I/3. Att kolumnen är ifylld för det yngsta barnet och tom för de
+äldre är sannolikt en följd av att hon föddes **under bokens egen löptid**
+medan de andra fördes in ur en tidigare bok. Det är en uppgift om bokens
+förande, **inte** om personerna.
+
+**Vad som förblir outvunnet.** De tre barnens och båda makarnas kolumner för
+`Läser`, `Inflyttning`, `Utflyttning`, `Gift`, `Död` och `Omständigheter och
+Förhållande` är **inte** utvunna på detta uppslag. De är namngivna luckor och
+**inga lästa noll** — särskilt Stinas dödskolumn, som skulle avgöra om hon dog
+som barn. Passagen kräver ingen arkivåtkomst: helbilden är sparad.
