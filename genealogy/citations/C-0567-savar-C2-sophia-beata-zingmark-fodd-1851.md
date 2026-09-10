@@ -53,3 +53,65 @@ korreleras med andra poster men innebär inte en automatisk fusion
 med en befintlig föräldraakt. Ingen egen militärtjänst för fadern
 fastställs genom en osäker titel. De prövade råreservationerna är
 inte aldrig lästa fält; hela den relevanta egna posten finns bevarad.
+
+## Tillägg 2026-09-10 — T-0199: moderns ålder avgränsar hennes födelse till sextiosex dagar
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och T-0133:s tillägg är
+append-only och står oförändrade.
+
+**Uppgiften `Moderns ålder på motsvarande högerrad är 22 år` fördes in av
+T-0133 och blev stående oanvänd.** **Tre andra samtida födelseposter i samma
+församling bär samma slags uppgift.** **Ingen akt hade ställt dem mot
+varandra.**
+
+| Barnets födelse | Uppgiven moderålder | Ger moderns födelse inom |
+|---|---|---|
+| **1851-08-01**, denna post | **22** | 1828-08-02 – 1829-08-01 |
+| 1861-05-28, Johan Oscar ([C-0546](C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md)) | **32** | 1828-05-29 – 1829-05-28 |
+| 1864-03-23, Axel ([C-0565](C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md)) | **34** | 1829-03-24 – 1830-03-23 |
+| 1868-02-12, Sara Rebecka ([C-0564](C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md)) | **38** | 1829-02-13 – 1830-02-12 |
+
+**Alla fyra intervallen överlappar**, och **överlappet är 24 mars – 28 maj
+1829** — **sextiosex dagar.**
+
+**Två slutsatser följer, båda avgränsade.**
+
+1. **Hushållsböckernas uppgift 1829-05-21 ligger inuti fönstret**, sju dagar
+   från dess övre kant. **Den har hittills bara vilat på senare hushållsrader**
+   — **[P-0423:s](../people/P-0423-sara-sophia-pehrsdotter.md) egen födelsenotis
+   är oläst** — **och fyra samtida födelseposter styrker den nu oberoende av
+   dem.**
+2. **Rusele-kandidaten född 1829-08-06**
+   ([C-0695](C-0695-lycksele-rusele-sara-sophia-kandidat.md)) **faller på
+   räkningen.** Dagen ligger **utanför fönstret**, och **två av de fyra
+   åldrarna utesluter henne var för sig.** **Avvisningen är oberoende av den
+   tidigare**, som vilade på faderns namn och på dagen.
+
+**Fyra gränser gäller.**
+
+1. **Räkningen förutsätter fylld ålder.** Angav prästen i stället `det år hon
+   gick i` **förskjuts alla fyra fönstren ett helt år bakåt** — **men de skulle
+   fortfarande överlappa**, så **avgränsningen består och bara årtalet
+   flyttar.**
+2. **De fyra uppgifterna är inte fyra oberoende källor.** De kommer ur samma
+   församlings böcker och **kan vara framräknade ur ett bokfört födelseår.**
+   **Att de ökar med rätt belopp över sjutton år talar mot ren avskrift men
+   bevisar inte oberoende.**
+3. **Samma metod misslyckades i T-0195:s Dahlstenfamilj**, där serien var
+   inbördes motstridig
+   ([C-0440](C-0440-indal-C4-erik-dahlsten-fodd-1847.md)). **En åldersserie är
+   bevisning bara när den är förenlig med sig själv.**
+4. **Jämförelsen är giltig eftersom alla fyra posterna kommer ur samma
+   församling.** **T-0195:s regel att åldersräkning är ett lokalt bruk**
+   ([C-0470](C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md)) **är därmed
+   uppfylld, inte kringgången.**
+
+**Ett billigt nästa steg finns:** **C-0562:s fyra återstående födelsenotiser
+1853–1858 kan bära fyra åldersuppgifter till**, och **fullbilden är redan
+sparad.** **Ett negativt utfall vore lika upplysande som ett positivt.**
+
+Fört som A-7958 i
+[P-0440](../people/P-0440-sophia-beata-zingmark.md) och anmält till
+[T-0275](../../wotan/dev-log/T-0275.md), som äger moderns ursprungsfråga.
+
+`Stött påstående` utökas med A-7958.

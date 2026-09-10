@@ -62,3 +62,56 @@ inte utelämnade olästa kolumner. Vittnesrollerna ger nätverksnycklar men
 inte automatiskt släktskap, personfusion eller säkert yrke för
 föräldrarna. Ingen särskild dopförrättare kan säkert läsas för Ester
 i den egna noten.
+
+## Tillägg 2026-09-10 — T-0199: varför 16 februari inte kan vara nöddopsdagen
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och T-0133:s
+fullposttillägg är append-only och står oförändrade.
+
+**T-0133 slog fast att `16 februari` inte utan vidare får bli datum för Sara
+Rebeckas nöddop, men angav inget skäl.** **Skälet finns i posten själv, i tre
+drag som inte lästs tillsammans.**
+
+1. **Ett nöddop utförs när barnet är i livsfara**, av vem som är närvarande.
+   **Det kan inte skjutas upp fyra dagar utan att förlora sin mening.**
+   **Dagfältet 16 februari är dessutom systerns ordinarie dopdag** — vilket
+   **talar för att dagen är den då nöddopet fördes in eller bekräftades i
+   kyrkan, inte den då det utfördes.**
+2. **Dopvittnesfältet är uttryckligen rubricerat `åt Ester Amalia`.**
+   **Sara Rebecka har inga vittnen** — **vad man väntar sig om hon aldrig kom
+   till kyrkan.**
+3. **Ingen egen dopförrättare framgår för någondera systern.**
+
+**Slutsatsen är negativ och avgränsad:** **posten daterar varken nöddopet
+eller döden.** **Det yttersta som följer är att hon dog från och med
+1868-02-12**, med **16 februari som en sannolik men obevisad övre gräns.**
+
+**Tre gränser.** **(1)** **Argumentet vilar på vad ett nöddop var för slags
+handling, inte på något källan skriver** — **det är en tolkning och märkt som
+sådan.** **(2)** **Frånvaron av vittnen för henne är förenlig med flera
+förklaringar**, bland dem att prästen helt enkelt inte förde två listor.
+**(3)** **T-0133:s varning ersätts inte** — **den får ett skäl och blir därmed
+prövbar.**
+
+**En negativ kontroll gäller inte henne.**
+[C-0555](C-0555-savar-dodbocker-sara-sophia-1868-1870-negativ.md):s
+tvåvolymsnoll i Sävars `E I/1` och `F/1` för 1868–1870 **avsåg modern**, Sara
+Sophia Pehrsdotter. **Ingen dödbok har sökts för Sara Rebecka**, så **frånvaron
+av en läst dödspost är ingen prövad frånvaro.** **Sökfönstret är smalt** — från
+1868-02-12, sannolikt inom veckor — **och volymerna är redan lästa för andra
+ändamål.** Ägs av [T-0621](../../wotan/dev-log/T-0621.md).
+
+**Detta är familjens andra tvillingpar.**
+[C-0565](C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md) bär det första,
+1864. **Båda är förda med exakt en dags skillnad**, och **i båda dog den först
+förda tvillingen.** **Två par är ingen statistik och ingen slutsats dras** —
+men **upprepningen väcker frågan om endagsskillnaden är en skrivarkonvention**,
+och **den frågan prövas mot andra tvillingposter, inte genom att ändra något
+datum.**
+
+**Moderns ålder `38` i denna post ingår nu i en räknad serie** som **avgränsar
+hennes egen födelse till 24 mars – 28 maj 1829**; se
+[C-0567](C-0567-savar-C2-sophia-beata-zingmark-fodd-1851.md)s tillägg av samma
+datum.
+
+`Stödda påståenden` utökas med A-7956 (P-0438) och A-7958 (P-0440).

@@ -77,3 +77,43 @@ Initialerna återges **H. L.[?]**; första bokstaven är inte helt säker
 i den egna noten. Den äldre avskriften H. L. Strinnholm i C-0546 och
 den jämförda skrivformen stöder läsningen, men är inte ensam grund
 för att identifiera personen. Inget ytterligare dopdatum ändras.
+
+## Tillägg 2026-09-10 — T-0199: familjens andra tvillingpar och en endagsskillnad som upprepas
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och T-0133:s tillägg är
+append-only och står oförändrade.
+
+**Denna post har lästs som ett tvillingpar. Den är också det ena av två.**
+
+| År | Tvillingar | Födda | Utgång |
+|---|---|---|---|
+| **1864**, denna post | Axel och Anders Wilhelm | **23** och **24 mars** | **Axel dog vid tio månader**; brodern blev 28 |
+| 1868 ([C-0564](C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md)) | Sara Rebecka och Ester Amalia | **12** och **13 februari** | **Sara Rebecka dog efter nöddop**; systern gifte sig 1886 |
+
+**Samma föräldrapar, fyra år isär.** **Båda paren är förda med exakt en dags
+skillnad**, och **i båda dog den först förda tvillingen.**
+
+**Med två par finns ingen statistik, och ingen slutsats dras.**
+
+**Men upprepningen väcker en fråga som inte har ställts.** **Att en
+tvillingförlossning sträcker sig över midnatt är möjligt; att det sker två
+gånger i samma äktenskap är mindre väntat.** **Alternativet är en
+skrivarkonvention** — att den andra tvillingen förs på nästa rad med nästa dag.
+
+**Citationens egen instruktion står oförändrad:** **`De på varandra följande
+födelsedagarna ska inte normaliseras till samma datum.`** **Frågan gäller om
+det omvända också behöver prövas**, och **den prövas i så fall mot andra
+tvillingposter i samma volymer och hand** — **inte genom att ändra något
+datum.**
+
+**Frågan hänger samman med [C-0566:s](C-0566-savar-EI1-axel-zingmark-dod-1865.md)
+åldersavvikelse**, där **Axels dödspost anger en ålder som stämmer med 24 mars,
+alltså broderns dag.** **Båda frågorna ägs av
+[T-0621](../../wotan/dev-log/T-0621.md).**
+
+**En avgränsning som redan står i citationen får ny vikt:** **posten har två
+separata, uttryckligt barnbundna vittneslistor**, och **den andra tvillingens
+lista får inte föras över till Axel.** **Samma försiktighet gäller
+födelsedagarna.**
+
+`Stödda påståenden` utökas med A-7956 (P-0438) och A-7957 (P-0439).

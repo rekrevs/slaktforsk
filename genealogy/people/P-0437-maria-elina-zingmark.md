@@ -234,6 +234,34 @@ hade fört dem samman.** Sambandet är nu fört som A-7946, **med den uttrycklig
 gränsen att uppgiften säger var förbindelsen fanns och inte varför någon
 använde den.**
 
+#### Rättelse: inflyttningskedjan har fem medlemmar, inte fyra, 2026-09-10
+
+**A-7946 räknar fyra Zingmarkar som flyttade till Degerfors 1875–1900.**
+**De var fem.** **Halvbrodern [Nikanor Zingmark](P-0430-nikanor-zingmark.md)
+skrevs in i socknen 1899-11-28**, belagt i
+[C-0571](../citations/C-0571-degerfors-B3-zingmark-inflyttning-1898-1900.md)
+sedan tidigare. **Han saknades därför att han låg utanför T-0198:s kohort.**
+
+| Person | Till Degerfors |
+|---|---|
+| hon själv | **1875-10-15** |
+| brodern Johan Oskar | **1880-10-07** |
+| fadern Johan Petter, **änkling** | **1898-11-28** |
+| **halvbrodern Nikanor** | **1899-11-28** |
+| halvbrodern Olof Konrad | **1900-10-13/14** |
+
+**Fadern och Nikanor skrevs in samma kalenderdag, ett år isär.**
+**Sammanträffandet ges ingen innebörd** — datumen kan följa av attestrutinen.
+
+**A-7946 skrivs inte om.** **Utvidgningen är förd som A-7959 i
+[P-0441](P-0441-hilda-charlotta-andersson.md)s akt**, funnen i T-0199.
+**Slutsatsen i A-7946 står oförändrad i sak och blir starkare, inte svagare:**
+**fem av familjens medlemmar följde samma väg.**
+
+**Lärdomen gäller metoden.** **Kohortgränser är arbetsindelningar, inte
+kunskapsgränser.** **En uppräkning måste prövas mot hela materialet, inte mot
+den kohort som råkade skriva den.**
+
 #### Barnens namn ställda mot moderns syskonskara, 2026-09-10
 
 **Barnens namn stod i C-0751 och syskonens i C-0552 och C-0562.** **Ingen akt

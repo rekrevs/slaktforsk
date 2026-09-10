@@ -241,3 +241,85 @@ formulering måste formuleringen ändras, inte bara uppgiften läggas till.**
 projektets prövade leverantörer och öppnas inte utan ägarbeslut.**
 
 `Stödda påståenden` utökas med A-7943.
+
+## Tillägg 2026-09-10 — T-0199: fyra räknade datum, en femte inflyttning och tre utvandrade söner
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade. **T-0161:s begränsade införing
+av utvandringen är härmed fullgranskad.**
+
+**Familjens fyra datum är nu räknade mot varandra.**
+
+| Händelse | Datum | Mellanrum |
+|---|---|---|
+| makarnas vigsel | **1904-07-07** | — |
+| Alvar Rudolf föds | **1905-06-04** | **10 månader 28 dagar** |
+| Anders Gideon Nikanor föds | **1906-10-29** | **16 månader 25 dagar** |
+| familjen utvandrar | **1907-04-08** | **5 månader 10 dagar** |
+
+**Hela familjens belagda svenska liv ryms i 2 år 9 månader och 1 dag.**
+
+**Två avrundningar rättas genom räkning.** **A-6401 kallar Alvar Rudolf
+`tvååring`; han var 1 år 10 månader och 4 dagar.** **A-6402 kallar Anders
+Gideon Nikanor `halvårsgammal`; han var 5 månader och 10 dagar.**
+**Assertionerna skrivs inte om**, och räkningarna förs som A-7960 och A-7961.
+
+**Efter april 1907 saknas svenskt material av ett skäl, inte som en lucka.**
+
+### En femte inflyttning som T-0198 missade
+
+**T-0198:s A-7946 räknar fyra Zingmarkar som flyttade till Degerfors
+1875–1900.** **De var fem.** **Nikanor skrevs in 1899-11-28**, belagt i
+[C-0571](C-0571-degerfors-B3-zingmark-inflyttning-1898-1900.md) sedan tidigare;
+**han saknades därför att han låg utanför den kohorten.**
+
+| Person | Till Degerfors |
+|---|---|
+| [Maria Elina](../people/P-0437-maria-elina-zingmark.md) | **1875-10-15** |
+| [Johan Oskar](../people/P-0028-johan-oskar-zingmark.md) | **1880-10-07** |
+| [Johan Petter](../people/P-0422-j-p-zingmark.md), **änkling** | **1898-11-28** |
+| **[Nikanor](../people/P-0430-nikanor-zingmark.md)** | **1899-11-28** |
+| [Olof Konrad](../people/P-0433-olof-konrad-zingmark.md) | **1900-10-13/14** |
+
+**Fadern och Nikanor skrevs in samma kalenderdag ett år isär** — **ett
+sammanträffande utan tillskriven innebörd**, som lika gärna kan följa av
+attestrutinen.
+
+**Tre av de fem gifte sig med personer födda i församlingen.** **Att två av de
+tre hustrurna bär `Andersdotter` respektive `Andersson` på detta folio är
+namnlikhet**; **ingen släktrelation mellan dem antas.**
+
+### Tre av farfaderns söner lämnade landet
+
+| Son | Utvandrade | Ålder | Anteckning | Belägg |
+|---|---|---|---|---|
+| **Emanuel**, född 1874-03-26 | **1892-08-20** | **18** | `Med fadrens skriftl. medgifvande …` | [C-0552](C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md) |
+| **Olof Konrad**, född 1878-09-20 | **1904-09-02** | **25** | `Frikallad` i värnpliktskolumnen | denna citation |
+| **Nikanor**, född 1872-06-16 | **1907-04-08** | **34**, **med familj** | klammer över raderna 17–20 | denna citation |
+
+**Farfadern [Johan Peter](../people/P-0422-j-p-zingmark.md) dog i Ekträsk
+1903-07-24** — **efter den första resan och före de två andra.** **Endast den
+siste tog med sig en familj.**
+
+**Fyra gränser.** **Ingen orsaksförklaring dras till någon av resorna.**
+**Ingen av dem är belagd med annat än en kyrkoboksanteckning** — **ingen
+passagerarlista, ingen hamn, ingen amerikansk mottagarpost.** **Sammanträffandet
+mellan Anders Vilhelms död 1892-04-20 och Emanuels avresa fyra månader senare
+ges ingen innebörd.** Och **uppräkningen är inte fullständig:** **flera syskons
+rader i Sävar `A I/8b` saknar destination**, och **T-0197 falsifierade
+överstrykningsheuristiken på just det uppslaget**, så **frånvaron av anteckning
+är där ingen upplysning.**
+
+**Anmält till [T-0452](../../wotan/dev-log/T-0452.md)**, som äger
+Zingmarksyskonens utvandringar.
+
+**En namniakttagelse förs med låg tillförlitlighet.** **`Rudolf` finns inte i
+Zingmarkarnas föräldrageneration** — varken bland farfaderns sjutton belagda
+barn eller hos hans far `Carl Jonas` — **men återkommer i samma generation:**
+**[Oskar Rudolf](../people/P-0486-oskar-rudolf-ektrask.md), född 1894 i
+Ekträsk**, är Alvar Rudolfs halvkusin. **Iakttagelsen är ett motexempel till
+T-0198:s namnmönster (A-7947)** och **stödjer att sådana mönster inte får läsas
+som slutna regler.** **Båda mödrarnas släkter är outforskade.**
+
+`Stödda påståenden` utökas med A-7959 (P-0441), A-7960 (P-0442) och A-7961
+(P-0443).

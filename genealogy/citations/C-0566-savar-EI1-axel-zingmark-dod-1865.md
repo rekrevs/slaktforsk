@@ -48,3 +48,47 @@ särskild anteckning är också tomma. Ingen vårdinrättning, särskild
 dödsort eller vårdintyg får härledas ur de tomma fälten. Botsmark är
 föräldrarnas angivna hemvist. Dessa tomma fält är prövade och utgör
 ingen återstående utvinningsbrist.
+
+## Tillägg 2026-09-10 — T-0199: åldern stämmer med den andra tvillingens dag
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och T-0133:s
+fullpostsrättelse är append-only och står oförändrade.
+
+**Posten anger `10 månader 25 dagar`.** **Räkningen har aldrig gjorts.**
+
+**Från 1864-03-23 till 1865-02-18 har det förflutit 10 månader och 26 dagar.**
+**Räknat från 24 mars stämmer siffran exakt** — **och 24 mars är den dag
+[C-0565](C-0565-savar-C3-axel-anders-wilhelm-tvillingar-1864.md) ger hans
+tvillingbror Anders Wilhelm.**
+
+**Två läsningar är möjliga, och ingen kan väljas.**
+
+- **(a) Sävar räknade en dag kort.** **T-0194 belade samma bruk i Indal** i två
+  dödsposter 1841 och 1843
+  ([C-0438](C-0438-indal-C4-dahlsten-barn-doda-1841-1843.md)). **Under den
+  läsningen är åldern korrekt förd och födelsedagen 23 mars står.**
+- **(b) Åldern räknades ur fel rad i tvillingklammern.** **De två bröderna står
+  på rader efter varandra med en dags skillnad** — **precis det fel en klammer
+  inbjuder till.**
+
+**Valet kan inte göras här.** **T-0195 slog fast att åldersräkning är ett
+lokalt bruk** — **Ljustorp räknade exakt 1856**
+([C-0470](C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md)) — **så varken
+Indal eller Ljustorp avgör Sävar**, och **Sävars bruk är oprövat.**
+
+**Följden är praktisk och gäller oavsett vilken läsning som är rätt:**
+**åldersuppgiften i denna post är inte ett oberoende belägg för
+födelsedagen.** **Den mäter prästens aritmetik.**
+
+**Detta är programmets tredje fall och det första där avvikelsen pekar på en
+konkret alternativ dag i samma post.**
+
+**Frågan är avgörbar och ligger i redan åtkomliga volymer:** **tio till tjugo
+par av dödspost och födelsepost i Sävars egna böcker räcker.** **Utfallet
+gäller varje åldersuppgift i församlingens dödböcker** och ägs av
+[T-0621](../../wotan/dev-log/T-0621.md).
+
+**T-0133:s rättelse står oförändrad:** **dödsorsaksfältet är tomt**, och
+**de tomma fälten är prövade och utgör ingen återstående utvinningsbrist.**
+
+`Stött påstående` utökas med A-7957.
