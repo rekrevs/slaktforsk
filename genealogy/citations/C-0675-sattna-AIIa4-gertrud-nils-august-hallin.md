@@ -46,3 +46,73 @@ C-0926 återger samma bild med formerna Hallén, Nils Egnar och födelsedagen17j
 ## Avstämning 2026-09-07 — T-0124
 
 Två omläsare av samma fullbild ger Nils August Hallin född 1875-01-19 i Tuna. Timrå hör till inflyttningen 1918-01-04. Sonen på rad 6 läses Nils Egnar, inte Eugen; rad 7 Ivar Henning har 1918-09-28. Gertruds rad 2 har egen husförhörsmarkering 1914. C-0675 och C-0926 är samma bild, inte oberoende belägg. T-0214 äger de redan avgränsade återstående fälten på detta uppslag.
+
+## Tillägg 2026-09-10 — T-0201: kronologin, två ord i anteckningen, och en räkning som inte avgör
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+avstämningarna är append-only och står oförändrade. **T-0119:s och T-0124:s
+begränsade följdrättelser är härmed fullgranskade i personakterna.**
+
+### Postens datum ställda i följd
+
+| Datum | Händelse | Avstånd |
+|---|---|---|
+| **1874-02-23** | Gertrud föds i Sättna | — |
+| **1875-01-19** | Nils August föds i Tuna | **hon är elva månader äldre** |
+| **1910-03-02** | Gertrud blir änka | — |
+| **1914-08-31** | han blir änkling | **4 år 5 månader 29 dagar** |
+| **1915-12-09** | **sonen Nils Egnar föds i Sättna** | **1 år 3 månader 8 dagar** |
+| **1918-01-04** | **han flyttar in i Sättna från Timrå** | **2 år 26 dagar** |
+| **1918-03-09** | **de vigs** | **2 månader 5 dagar** |
+| **1918-09-28[?]** | **sonen Ivar Henning föds** | **6 månader 19 dagar** |
+
+**Sonen föddes i moderns socken två år innan fadern flyttade dit.**
+
+### Två ord i faderskapsanteckningen är en ortsuppgift
+
+**Anteckningen lyder `August Hallin i Timrå har undertecknat vara barnets
+fader.`** **Den har lästs som ett erkännande.** **Orden `i Timrå` har inte
+lästs som en uppgift om var fadern befann sig.**
+
+**Ställda mot inflyttningen 1918-01-04 visar de att erkännandet avgavs från en
+annan församling än barnets**, **två år innan fadern flyttade dit.**
+**Det är den enda rättshandling som är belagd i familjens akter**, och
+**handlingen själv är inte sökt.**
+
+### Ivar Hennings månad: en räkning som inte avgör
+
+**Denna citation och [C-0926](C-0926-hallen-henriksson-storbranna-fol-384.md)
+läser `1918-09-28`; C-0930 anger `1918-12-28`.** **Skillnaden är olöst sedan
+T-0119.**
+
+**Räknade mot vigseln 1918-03-09 ger de `6 månader 19 dagar` respektive
+`9 månader 19 dagar`** — **en avelse före respektive strax efter vigseln.**
+
+**Ingen av bilderna är osannolik för detta par.** **Deras förste son föddes
+1915-12-09, två år och tre månader före vigseln, med ett skriftligt
+faderskapserkännande.** **Moderns ålder ger inte heller utslag:** **44 år 7
+månader mot 44 år 10 månader.**
+
+**Kronologin skiljer alltså inte läsningarna.** **Det negativa resultatet förs
+uttryckligen**, eftersom **det stänger en genväg som annars ser användbar
+ut** — **septemberläsningen ser ut att förklara varför paret gifte sig, och
+den förklaringen håller inte.**
+
+**Avgörandet ligger i Sättnas födelsebok 1918.** Ägs av
+[T-0628](../../wotan/dev-log/T-0628.md).
+
+### Den första hustrun
+
+**`änkling sedan 1914-08-31` är ett exakt datum**, och **ett sådant datum
+kommer normalt ur hustruns dödspost.** **Hon är inte namngiven någonstans i
+projektet**, och **hans första vigsel är inte sökt.** **Det är inte en
+källbrist utan en outnyttjad ingång:** **Timrås och Tunas dödböcker för 1914
+är konkreta mål.**
+
+**Avgränsningen i avsnittet ovan står oförändrad:** **inflyttningsdatumet och
+lysningsanteckningarnas exakta innebörd används inte som egna påståenden** —
+**här används inflyttningsdagen enbart som punkt i en kronologi.**
+**T-0214 äger de återstående fälten på uppslaget.**
+
+`Stödda påståenden` utökas med A-7977 (P-0467), A-7978 (P-0468) och A-7979
+(P-0469).

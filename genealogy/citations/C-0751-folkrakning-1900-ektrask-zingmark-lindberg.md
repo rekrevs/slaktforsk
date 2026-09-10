@@ -149,3 +149,29 @@ kontrollfallet starkare.**
 
 **Ingen slutsats dras i förväg.** Ägs av
 [T-0625](../../wotan/dev-log/T-0625.md).
+
+## Tillägg 2026-09-10 — T-0201: den åttonde raden är tom, och det är ett resultat
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**A-7947 räknade sju av åtta barns namnled mot moderns syskonskara.**
+**Den åttonde raden — [Axel Heribert](../people/P-0487-axel-heribert-ektrask.md),
+född 1896 — saknar motsvarighet**, och **att en tom rad är ett resultat och
+inte en lucka hade inte skrivits ut.**
+
+**Ett `Axel` finns visserligen bland farfaderns sjutton belagda barn:**
+**morbrodern [Axel Zingmark](../people/P-0439-axel-zingmark.md), född
+1864-03-23, som dog vid tio månader.** **Kopplingen är möjlig men svag** —
+**han dog trettioett år före detta barns födelse**, **modern var åtta år när
+det hände**, och **`Axel` var ett mycket vanligt namn.**
+
+**`Heribert` saknar motsvarighet överallt i det kända materialet.** **Det är
+ett ovanligt namn och därför den starkaste söknyckeln i den akten.**
+
+**Iakttagelsens värde är metodiskt.** **Ett tomt kontrollfall försvagar inte
+mönstret; det visar hur öppet det är.** **Det stödjer den gräns A-7947 själv
+skrev ut:** **matchningarna hittades genom att bara moderns sida söktes, och
+faderns är outforskad.**
+
+`Stödda påståenden` utökas med A-7980 (P-0487).

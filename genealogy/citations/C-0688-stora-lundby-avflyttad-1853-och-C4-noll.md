@@ -59,3 +59,46 @@ andra reproduktion `C0045766` anger samtidigt uttryckligen att den avser
 ## Stödda påståenden
 
 A-2711–A-2716.
+
+## Tillägg 2026-09-10 — T-0201: `afl.` är inte upplöst, och bevisläget är symmetriskt
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och avsnitten ovan är
+append-only och står oförändrade.
+
+**Avsnittet ovan rubriceras `Positiv avflyttningsuppgift` och söker sedan en
+destination.** **Förkortningen `afl.` löses aldrig upp.**
+
+**`afl.` står i svenska kyrkoböcker för både `afflyttad` och `afliden`.**
+
+**Denna citation har i själva verket prövat båda läsningarnas 1853-källor, och
+båda gav noll.**
+
+| Läsning | Prövad källa i denna citation | Utfall |
+|---|---|---|
+| **`afflyttad`** | `A I/11` s. 94–95; **B/2:s hela 1853-följd** | **ingen säker familjerad, ingen destination** |
+| **`afliden`** | **C/4:s hela dödsår 1853**, `_00090`–`_00091` | **ingen post namnger Fredric Jacobson eller Anna Britta** |
+
+**Bevisläget är alltså symmetriskt medan rubriken och sökstrategin bara bär
+den ena läsningen.**
+
+**Följden är praktisk.** **De två nollen är lika tunga**, och **nästa steg
+måste behandla dem så:** **en destinationssökning i grannsocknarna och en
+dödsbokssökning i angränsande år är två likvärdiga vägar, inte en huvudväg
+och en reservutgång.** **Bouppteckningsvägen — som bara blir aktuell under
+`afliden`-läsningen — är aldrig prövad.**
+
+**Frågan kan dessutom avgöras utan ny arkivåtkomst.** **Fullbilden
+`C0045752_00064` är lokalt bevarad i 7 576 × 6 248 bildpunkter**, och
+**volymens övriga marginalnoter ger jämförelsematerial för samma hand.**
+**Det är en läsuppgift, inte en sökuppgift**, och **`oläst` är i så fall ett
+resultat.**
+
+**Ingen läsning väljs här**, och **A-2712 skrivs inte om.**
+**Registeravgränsningen i avsnittet ovan står oförändrad:** **Riksarkivets
+vigselregister ger noll även för parets positivt originalbelagda vigsel
+1849**, så **nollen för Anna Britta 1853–1870 är fråge-, namnforms-, period-
+och täckningsbunden.**
+
+Ägs av [T-0627](../../wotan/dev-log/T-0627.md).
+
+`Stödda påståenden` utökas med A-7976 (P-0466).

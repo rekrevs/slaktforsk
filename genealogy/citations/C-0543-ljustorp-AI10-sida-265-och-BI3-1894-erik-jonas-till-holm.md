@@ -106,3 +106,31 @@ bostadsregistret är selektivt, sekundärt och anger bara födelseår**, och
 
 `Stödda påståenden` utökas med A-7969 (P-0456), A-7970 (P-0457), A-7971
 (P-0458) och A-7972 (P-0459).
+
+## Tillägg 2026-09-10 — T-0201: luckan får ett internt mått
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och T-0200:s tillägg är
+append-only och står oförändrade.
+
+**T-0200:s tillägg jämförde luckan 1881–1887 med två andra familjer.**
+**Ett tredje mått låg i samma rader och räknades inte:** **familjens eget
+normala intervall.**
+
+**Mellan [Johan Vilhelm](../people/P-0459-johan-vilhelm-henriksson.md), född
+1887-07-02, och [Anders Jonas](../people/P-0460-anders-jonas-henriksson.md),
+född 1891-02-22, ligger 3 år 7 månader och 20 dagar.**
+
+**Luckan mellan de två äldre sönerna är 5 år 10 månader och 23 dagar** —
+**ungefär en och en halv gång så lång.**
+
+**Måttet är internt och kräver ingen jämförelse mellan socknar eller
+årtionden.** **Det är därmed mindre känsligt än jämförelsen med Fredbergs- och
+Lindbergsfamiljerna**, som **förutsätter att skilda mödrar och skilda
+årtionden är jämförbara.**
+
+**Två intervall gör ingen norm**, och **måttet förklarar ingenting** — **det
+säger bara hur mycket luckan avviker från familjens eget mönster.**
+
+**Modern var 35 år och 10 månader vid det sista barnets födelse.**
+
+`Stödda påståenden` utökas med A-7973 (P-0460).

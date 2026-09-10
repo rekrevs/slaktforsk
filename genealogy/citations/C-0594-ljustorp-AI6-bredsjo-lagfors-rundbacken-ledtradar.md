@@ -78,3 +78,41 @@ meningen ovan om att den passagen endast var läst i Familia.
 
 Alla sex fulloriginal och befintliga SHA-256 återanvänds. Inga nya
 arkivsökningar eller nya personidentiteter införs genom detta tillägg.
+
+## Tillägg 2026-09-10 — T-0201: citationens egen tolkning står över den grad akterna bär
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och tolkningen är
+append-only och står oförändrade.
+
+**Denna citations tolkningsavsnitt säger uttryckligen:** **`De visar inte att
+Jonas eller Cecilia var Henriks syskon och namnger inte Henriks föräldrar.`**
+
+**Ändå åberopas citationen i
+[P-0463](../people/P-0463-jonas-henriksson-hoglin.md)s A-2602 och
+[P-0464](../people/P-0464-cecilia-henriksdotter.md)s A-2603 för just det
+påståendet**, **med graden `CORROBORATED`, `hög`.**
+
+**Samma sak gäller [C-0470](C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md)**,
+vars text säger **`släktskapet med Henrik är fortfarande öppet`.**
+
+**Två av de tre citerade citationerna avsäger sig alltså det påstående de
+åberopas för.** **Den tredje,
+[C-0623](C-0623-nyberg-familj-99-henrik-brita-foraldrar.md), är Helge Nybergs
+register** — **en sekundär avskrift vars beroende av samma kyrkoböcker
+akternas egen text redan noterar `ger inga extra oberoende röster`.**
+
+**Ingen relation avförs.** **Påståendet kan mycket väl vara riktigt; det saknar
+bara det stöd graden anger.** **Assertionerna skrivs inte om**, och
+**fördelningen är redovisad som A-7974 och A-7975.**
+
+**Ett omständighetsstöd som ligger i denna citation har inte dragits ut.**
+**Cecilia förs från sida 1 i Bredsjö till sida 38 och därifrån vidare mot
+Lagfors** — **den bruksort dit den påstådde brodern hörde**, han som **samma
+citation visar inflyttad från Lagfors bruksförsamling 1850.** **Rörelsen
+bevisar inget släktskap**, eftersom **bruksorten drog folk från hela
+trakten**, **men den ligger i samma riktning och kommer ur ett original.**
+
+**Avgörandet ligger i de tre syskonens egna födelsenotiser i Ljustorp 1829,
+1835 och 1836.** Ägs av [T-0626](../../wotan/dev-log/T-0626.md).
+
+`Stödda påståenden` utökas med A-7974 (P-0463) och A-7975 (P-0464).

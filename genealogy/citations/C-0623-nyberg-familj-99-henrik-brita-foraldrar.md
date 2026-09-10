@@ -122,3 +122,46 @@ Anna Greta 1824 står kvar som avvikande registeruppgift mot originalets
 Anna Greta 1819 och Cajsa Brita 1824; en namnförskjutning är en möjlig
 förklaring, inte en bevisad rättelse av sammanställningens tillkomst.
 Familias sex länkade barn i C-0593d ersätter inte de åtta registerraderna.
+
+## Tillägg 2026-09-10 — T-0201: en sekundär röst som bär en primär grad
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+avsnitten är append-only och står oförändrade.
+
+**Familj 99:s barnlista är det enda underlaget för att
+[Jonas](../people/P-0463-jonas-henriksson-hoglin.md) och
+[Cecilia](../people/P-0464-cecilia-henriksdotter.md) var syskon till
+[Henrik](../people/P-0338-henrik-henriksson-lagfors.md) och barn till
+Hindric Henriksson och Brita Flinkberg.**
+
+**De två andra citationer som åberopas för samma påstående avsäger sig det
+uttryckligen:** **[C-0594](C-0594-ljustorp-AI6-bredsjo-lagfors-rundbacken-ledtradar.md)
+skriver `De visar inte att Jonas eller Cecilia var Henriks syskon och namnger
+inte Henriks föräldrar`**, och
+**[C-0470](C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md) skriver
+`släktskapet med Henrik är fortfarande öppet`.**
+
+**Akterna bär ändå graden `CORROBORATED`, `hög` på ett sammansatt påstående
+vars identitets- och dopvittnesdelar är originalbelagda medan
+släktskapsdelen inte är det.** **Fördelningen är redovisad som A-7974 och
+A-7975; ingen assertion är omskriven och ingen relation avförd.**
+
+**Registret är inte förkastat.** **Ett sekundärregister kan vara riktigt och
+är ofta det.** **Frågan gäller vilken grad ett enda sådant kan bära**, särskilt
+när **dess beroende av samma kyrkoböcker redan är noterat i akternas egen
+text** och **Familias motsvarighet bär etiketten `ej bestämd`**
+([C-0593](C-0593-familia-henrik-rundbacken-kandidatfamilj.md)).
+
+**En metodgräns förs samtidigt.** **Programmet har i tre kohorter räknat
+födelseintervall som ett mått** — T-0195, T-0198 och T-0200. **Familj 99:s
+barnlista kan inte bära den analysen:** **den är årsbunden och sekundär**, och
+**metoden kräver exakta dagar ur primärposter.** **Listans två fyraårsgap
+mellan 1831 och 1835 och mellan 1836 och 1840 får därför inte läsas som
+luckor.**
+
+**Avgörandet ligger i de tre syskonens egna födelsenotiser i Ljustorp 1829,
+1835 och 1836.** **Ett negativt utfall för någon av dem fäller registret för
+just den personen och är lika värdefullt som ett positivt.** Ägs av
+[T-0626](../../wotan/dev-log/T-0626.md).
+
+`Stödda påståenden` utökas med A-7974 (P-0463) och A-7975 (P-0464).

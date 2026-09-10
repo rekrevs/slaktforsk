@@ -147,3 +147,48 @@ Löfbergskedja`**, och **denna post ger den fem namngivna fixpunkter i byn.**
 Ägs av [T-0625](../../wotan/dev-log/T-0625.md).
 
 `Stödda påståenden` utökas med A-7968 (P-0455).
+
+## Tillägg 2026-09-10 — T-0201: kartans andra halva
+
+Ingen ny arkivåtkomst och ingen ny läsning. Avskriften och de tidigare
+tilläggen är append-only och står oförändrade.
+
+**T-0200:s tillägg läste fadderkretsen som en ortsuppgift och fann att nio av
+tolv står i `Löfberg`, barnamoderns fosterby.** **Det tillägget såg bara
+halva listan.**
+
+**De två från `Bredsjö` är
+[Jonas Henriksson/Höglin](../people/P-0463-jonas-henriksson-hoglin.md), född
+1835-01-01, och [Cecilia Henriksdotter](../people/P-0464-cecilia-henriksdotter.md),
+född 1836-02-14** — **de två som Helge Nybergs register gör till barnets
+faders egna syskon.**
+
+**Listan delar sig därmed rent i två delar med var sitt ursprung:**
+
+| Del | Antal | Ursprung |
+|---|---|---|
+| **Löfberg** | **nio** | **moderns fosterfamilj**, från barnhusplaceringen 1831 |
+| **Bredsjö** | **två** | **faderns påstådda syskon** |
+| `Näs[?]` | en | ohänförd |
+
+**Det är den enda strukturella förklaring materialet erbjuder till varför just
+dessa tolv stod där.**
+
+**Iakttagelsen är ett omständighetsstöd och inget belägg.** **Denna citations
+egen tolkning står oförändrad:** **`Identiteterna är därmed lösta men
+släktskapet med Henrik är fortfarande öppet.`** **`ibm` är källans egen
+dittoform och löses inte upp**, och **dittoorterna ger ingen automatiskt
+fastställd släkt- eller parrelation.**
+
+**Tvådelningen skärper däremot syskonfrågan.** **Om Jonas och Cecilia inte var
+faderns syskon står de två Bredsjövittnena helt oförklarade i en lista som i
+övrigt är moderns fosterby.** **Det är inte ett bevis** — **faddrar valdes
+också bland grannar och arbetskamrater** — **men det är ett sammanhang som
+frågan hittills har saknat.**
+
+**Avgörandet ligger i de tre syskonens egna födelsenotiser i Ljustorp 1829,
+1835 och 1836**, som **namnger föräldrarna direkt.** **Denna citations egen
+serie `C/3` är bekräftat åtkomlig.** Ägs av
+[T-0626](../../wotan/dev-log/T-0626.md).
+
+`Stödda påståenden` utökas med A-7974 (P-0463) och A-7975 (P-0464).
