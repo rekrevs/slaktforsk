@@ -1,6 +1,6 @@
 # P-0167: Carl August Andersson
 
-**Släktled:** farfars farmors mors bror till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** farfars farmors morbror till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — bror till
 [Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md).
 

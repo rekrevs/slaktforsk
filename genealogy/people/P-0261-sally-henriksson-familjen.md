@@ -1,6 +1,6 @@
 # P-0261: Sally, barn i Axel Henrikssons familj
 
-**Släktled:** mormors fars barn till [Adam](P-0269-adam-jan-gunnar.md) och
+**Släktled:** mormors syskon till [Adam](P-0269-adam-jan-gunnar.md) och
 [Axel](P-0270-axel-ivar-malte.md) — barn till
 [Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md).
 

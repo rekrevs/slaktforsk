@@ -1,6 +1,6 @@
 # P-0228: Anders Eriksson i Sannerby
 
-**Släktled:** farfars morfars mormors morfars son till
+**Släktled:** farfars morfars mormors morbror till
 [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) — son
 till [Erik Larsson i Sannerby](P-0226-erik-larsson-sannerby.md).
 

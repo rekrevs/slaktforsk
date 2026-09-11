@@ -1,6 +1,6 @@
 # P-0256: Agnes Katarina Augusta i Storbränna
 
-**Släktled:** mormors mors syster till [Adam](P-0269-adam-jan-gunnar.md) och
+**Släktled:** mormors moster till [Adam](P-0269-adam-jan-gunnar.md) och
 [Axel](P-0270-axel-ivar-malte.md) — syster till
 [Emma Petronella Eugenia Henriksson, född Larsson](P-0246-emma-petronella-eugenia-henriksson.md).
 

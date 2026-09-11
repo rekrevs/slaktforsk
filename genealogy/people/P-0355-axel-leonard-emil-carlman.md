@@ -1,7 +1,7 @@
 # P-0355: Axel Leonard Emil Carlman
 
-**Släktled:** morfars morfars mors son till [Adam](P-0269-adam-jan-gunnar.md)
-och [Axel](P-0270-axel-ivar-malte.md) — son till
+**Släktled:** morfars morfars bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — son till
 [Christina Gustafva Ringberg](P-0311-kristina-gustafva-efternamn-svarlast.md).
 
 ## Arbetsläge

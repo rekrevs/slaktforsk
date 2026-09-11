@@ -1,6 +1,6 @@
 # P-0420: Jonas Nordlund, född 1850
 
-**Släktled:** mormors farmors mors bror till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** mormors farmors morbror till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — bror till
 [Stina Kajsa Nordlund](P-0251-stina-kajsa-nordlund.md).
 

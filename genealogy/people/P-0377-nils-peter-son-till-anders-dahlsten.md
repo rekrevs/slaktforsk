@@ -1,6 +1,6 @@
 # P-0377: Nils Peter, son till Anders Dahlsten
 
-**Släktled:** mormors morfars mors bror till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** mormors morfars morbror till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — bror till
 [Cajsa Märta Andersdotter/Dahlsten/Dalsten](P-0316-cajsa-marta-andersdotter.md).
 

@@ -1,6 +1,6 @@
 # P-0411: Johan August Fredberg Fredriksson
 
-**Släktled:** morfars farfars fars bror till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** morfars farfars farbror till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — bror till
 [Olaus Fredberg](P-0336-olaus-fredberg.md).
 

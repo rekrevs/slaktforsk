@@ -1,6 +1,6 @@
 # P-0122: Elsa Cecilia Eriksson, född 1909
 
-**Släktled:** farfars morfars dotter till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** farfars mors halvsyster till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — dotter till
 [Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md).
 

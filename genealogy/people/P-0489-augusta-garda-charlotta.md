@@ -1,6 +1,6 @@
 # P-0489: Augusta Gärda Charlotta, äldst av Fredbergs fem
 
-**Släktled:** morfars farfars fars dotter till
+**Släktled:** morfars farfars halvsyster till
 [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
 dotter till [Olaus Fredberg](P-0336-olaus-fredberg.md).
 

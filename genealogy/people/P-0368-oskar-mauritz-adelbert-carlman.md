@@ -1,7 +1,7 @@
 # P-0368: Oskar Mauritz Adelbert Carlman, eldare, död i lungsot 1895
 
-**Släktled:** morfars morfars fars son till [Adam](P-0269-adam-jan-gunnar.md)
-och [Axel](P-0270-axel-ivar-malte.md) — son till
+**Släktled:** morfars morfars bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — son till
 [Karl August Carlman](P-0310-carl-august-carlman.md).
 
 ## Arbetsläge

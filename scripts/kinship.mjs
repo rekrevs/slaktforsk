@@ -136,7 +136,8 @@ export function computeBlocks(root = ROOT) {
   const blocks = new Map();
   for (const id of SONS) blocks.set(id, sonBlock(people, id));
   const anchorPhrases = new Map();
-  for (const [id, entries] of ancestorPaths(parents, sexes)) {
+  const paths = ancestorPaths(parents, sexes);
+  for (const [id, entries] of paths) {
     const block = ancestorBlock(people, id, entries);
     if (block.error) errors.push(block.error);
     else {
@@ -146,7 +147,7 @@ export function computeBlocks(root = ROOT) {
   }
   const overrides = loadOverrides(root);
   const retired = loadRetired(root);
-  const side = sideBlocks(people, sexes, anchorPhrases, overrides);
+  const side = sideBlocks(people, sexes, anchorPhrases, overrides, { paths, parents });
   for (const [id, block] of side.blocks) if (!blocks.has(id) && !SONS.includes(id)) blocks.set(id, block);
   for (const [id, entry] of retired) {
     if (!people.has(id)) { errors.push(`avvecklade-akter.json: okänd person ${id}`); continue; }
@@ -307,14 +308,62 @@ const genitive = (phrase) => (phrase.endsWith("s") ? phrase : `${phrase}s`);
 const SIBLING_WORD = { far: { bror: "farbror", syster: "faster" }, mor: { bror: "morbror", syster: "moster" } };
 const kinPhrase = (anchorPhrase, noun) => SIBLING_WORD[anchorPhrase]?.[noun] ?? `${genitive(anchorPhrase)} ${noun}`;
 
-function sideText(people, anchor, anchorPhrase, f) {
+// Syskon till en ana. Slutar etiketten på ett ensamt `far`/`mor` har svenskan
+// ett eget ord för helsyskon: farfars mors syster är farfars moster. Halvsyskon
+// skrivs ut - farfars mors halvsyster - enligt ägarens anvisning. Efter ett
+// parord står syskonet i genitiv: farfars farfars syster.
+const CONTRACT = {
+  far: { bror: "farbror", helbror: "farbror", syster: "faster", helsyster: "faster" },
+  mor: { bror: "morbror", helbror: "morbror", syster: "moster", helsyster: "moster" },
+};
+const SIBLING_NOUNS = new Set(["bror", "syster", "syskon", "helbror", "helsyster", "halvbror", "halvsyster", "halvsyskon"]);
+const CHILD_NOUNS = new Set(["son", "dotter", "barn"]);
+
+export function siblingPhrase(steps, noun) {
+  if (!steps.length) return noun;
+  const words = kinTerm(steps).split(" ");
+  if (steps.length % 2 === 1) {
+    const last = words.pop();
+    const word = CONTRACT[last]?.[noun];
+    if (word) return [...words, word].join(" ");
+    words.push(last);
+  }
+  return `${genitive(words.join(" "))} ${noun}`;
+}
+
+// Hel- eller halvsyskon avgörs av föräldrakartan: två kända föräldrar var, och
+// en av dem skiljer, ger halvsyskon. Annars skrivs det vanliga ordet.
+function siblingNoun(s, other, sexes, parents) {
+  const base = { m: "bror", f: "syster" }[sexes.get(s)] ?? "syskon";
+  const mine = parents?.get(s) ?? new Set(), theirs = parents?.get(other) ?? new Set();
+  const shared = [...mine].filter((p) => theirs.has(p)).length;
+  return mine.size === 2 && theirs.size === 2 && shared === 1 ? `halv${base}` : base;
+}
+
+// Etiketten för en blodsläkting till ett ankare. Ett barn till en ana som inte
+// ligger i anlinjen är syskon till nästa led mot Adam och Axel.
+function kinLabel(s, anchor, f, phrases, lineage, sexes) {
+  const entry = lineage?.paths?.get(anchor)?.[0];
+  if (entry && CHILD_NOUNS.has(f.noun) && entry.via.length > 1) {
+    // Bara när båda föräldrarna är kända för båda går hel- och halvsyskon att
+    // skilja; annars står den bokstavliga formen kvar.
+    const next = entry.via.at(-2);
+    if (lineage.parents?.get(s)?.size === 2 && lineage.parents?.get(next)?.size === 2) {
+      return siblingPhrase(entry.steps.slice(0, -1), siblingNoun(s, next, sexes, lineage.parents));
+    }
+  }
+  if (entry && SIBLING_NOUNS.has(f.noun)) return siblingPhrase(entry.steps, f.noun);
+  return kinPhrase(phrases.get(anchor), f.noun);
+}
+
+function sideText(people, anchor, anchorPhrase, f, ownPhrase) {
   if (isKin(f)) {
-    return `**Släktled:** ${kinPhrase(anchorPhrase, f.noun)} till ${sons(people)} — ${[f.noun, f.qual].filter(Boolean).join(" ")} till ${link(people, anchor)}.`;
+    return `**Släktled:** ${ownPhrase} till ${sons(people)} — ${[f.noun, f.qual].filter(Boolean).join(" ")} till ${link(people, anchor)}.`;
   }
   return `**Släktled:** ${roleText(f)} ${link(people, anchor)}, ${anchorPhrase} till ${sons(people)}.`;
 }
 
-export function sideBlocks(people, sexes, anchorPhrases, overrides = {}) {
+export function sideBlocks(people, sexes, anchorPhrases, overrides = {}, lineage = null) {
   const pending = [...people.keys()].filter((id) => !anchorPhrases.has(id) && !SONS.includes(id) && !overrides[id]);
   const chosen = new Map();
   const phrases = new Map(anchorPhrases);
@@ -336,10 +385,13 @@ export function sideBlocks(people, sexes, anchorPhrases, overrides = {}) {
     for (const s of pending) {
       const previous = chosen.get(s);
       if (previous && isKin(previous.f)) continue;
-      const choice = best(s, frontier);
+      let choice = best(s, frontier);
+      // Ett halvsyskon till en sidoperson kan vara släkt genom den förälder som
+      // inte är ana, så det ger ingen släktetikett - bara rollen.
+      if (choice && level > 1 && isKin(choice.f) && /^halv/.test(choice.f.noun)) choice = { ...choice, f: { ...choice.f, kind: "R" } };
       if (!choice || (previous && !isKin(choice.f))) continue;
       chosen.set(s, { ...choice, level });
-      if (isKin(choice.f)) { phrases.set(s, kinPhrase(phrases.get(choice.anchor), choice.f.noun)); next.push(s); }
+      if (isKin(choice.f)) { phrases.set(s, kinLabel(s, choice.anchor, choice.f, phrases, lineage, sexes)); next.push(s); }
     }
     frontier = next;
   }
@@ -348,7 +400,7 @@ export function sideBlocks(people, sexes, anchorPhrases, overrides = {}) {
   for (const s of pending) {
     const c = chosen.get(s);
     if (c) {
-      blocks.set(s, { text: wrap(sideText(people, c.anchor, phrases.get(c.anchor), c.f)) });
+      blocks.set(s, { text: wrap(sideText(people, c.anchor, phrases.get(c.anchor), c.f, phrases.get(s))) });
       readings.push({ id: s, via: c.level === 1 ? "ana" : "släkt", anchor: c.anchor, kind: isKin(c.f) ? "K" : "R", witness: !!c.f.witness, source: c.f.source });
       continue;
     }

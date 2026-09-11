@@ -1,8 +1,8 @@
 # P-0332: Charlotta Lovisa Ålund
 
-**Släktled:** farfars mormors fars syster till
-[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
-syster till [Per Albert Ålund](P-0110-per-albert-alund.md).
+**Släktled:** farfars mormors faster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syster till
+[Per Albert Ålund](P-0110-per-albert-alund.md).
 
 ## Arbetsläge
 

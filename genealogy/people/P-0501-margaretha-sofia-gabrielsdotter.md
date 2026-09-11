@@ -1,8 +1,8 @@
 # P-0501: Margaretha Sofia Gabrielsdotter
 
-**Släktled:** farfars farfars fars syster till
-[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
-syster till [Per Wilhelm Eliasson](P-0020-per-wilhelm-eliasson.md).
+**Släktled:** farfars farfars faster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syster till
+[Per Wilhelm Eliasson](P-0020-per-wilhelm-eliasson.md).
 
 ## Arbetsläge
 

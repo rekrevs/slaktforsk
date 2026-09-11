@@ -1,6 +1,6 @@
 # P-0220: Lars Johan Jansson, inflyttad från Forssa 1867
 
-**Släktled:** farfars morfars mors bror till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** farfars morfars morbror till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — bror till
 [Anna Christina Larsdotter](P-0134-anna-christina-larsdotter.md).
 

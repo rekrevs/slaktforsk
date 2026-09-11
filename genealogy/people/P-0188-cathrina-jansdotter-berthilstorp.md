@@ -1,8 +1,8 @@
 # P-0188: Cathrina Jansdotter i Berthilstorp, dopvittne 1848
 
 **Släktled:** dopvittne vid dopet av
-[Carl August Andersson](P-0167-carl-august-andersson.md), farfars farmors mors
-bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Carl August Andersson](P-0167-carl-august-andersson.md), farfars farmors
+morbror till [Adam](P-0269-adam-jan-gunnar.md) och
 [Axel](P-0270-axel-ivar-malte.md).
 
 ## Arbetsläge

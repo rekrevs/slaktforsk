@@ -1,6 +1,6 @@
 # P-0012: Lucy Gudrun Eliaesson
 
-**Släktled:** farfars farfars dotter till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** farfars fars halvsyster till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — dotter till
 [Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md).
 

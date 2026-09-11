@@ -1,9 +1,9 @@
 # P-0118: Erik Axel Eriksson
 
-**Släktled:** farfars morfars sons halvbror till
-[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
-halvbror på mödernet till
-[Ture Edvard Eriksson, född 1904](P-0119-ture-edvard-eriksson.md).
+**Släktled:** halvbror på mödernet till
+[Ture Edvard Eriksson, född 1904](P-0119-ture-edvard-eriksson.md), farfars
+mors halvbror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
 
 ## Arbetsläge
 

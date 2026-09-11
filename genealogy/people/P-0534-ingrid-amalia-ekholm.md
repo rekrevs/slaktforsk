@@ -1,6 +1,6 @@
 # P-0534: Ingrid Amalia Ekholm
 
-**Släktled:** farfars mormors dotter till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** farfars mors halvsyster till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — dotter till
 [Hulda Amalia Ekholm, född Ålund](P-0016-hulda-amalia-ekholm-alund.md).
 

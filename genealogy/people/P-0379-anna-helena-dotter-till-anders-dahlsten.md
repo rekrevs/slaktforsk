@@ -1,8 +1,7 @@
 # P-0379: Anna Helena, Dahlstendotter i Säter 1840–1841
 
-**Släktled:** mormors morfars mors syster till
-[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
-syster till
+**Släktled:** mormors morfars moster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syster till
 [Cajsa Märta Andersdotter/Dahlsten/Dalsten](P-0316-cajsa-marta-andersdotter.md).
 
 ## Arbetsläge

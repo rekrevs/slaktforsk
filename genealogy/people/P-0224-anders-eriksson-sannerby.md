@@ -1,6 +1,6 @@
 # P-0224: Anders Eriksson i Sannerby
 
-**Släktled:** farfars morfars mormors fars son till
+**Släktled:** farfars morfars mormors halvbror till
 [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) — son
 i första äktenskapet till
 [Erik Andersson i Carlberg](P-0221-erik-andersson-carlberg.md).

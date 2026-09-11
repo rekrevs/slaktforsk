@@ -1,6 +1,6 @@
 # P-0496: Lars Petter
 
-**Släktled:** farfars morfars fars bror till [Adam](P-0269-adam-jan-gunnar.md)
+**Släktled:** farfars morfars farbror till [Adam](P-0269-adam-jan-gunnar.md)
 och [Axel](P-0270-axel-ivar-malte.md) — bror till
 [Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md).
 

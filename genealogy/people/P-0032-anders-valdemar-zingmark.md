@@ -1,6 +1,6 @@
 # P-0032: Anders Valdemar Zingmark
 
-**Släktled:** farmors fars bror till [Adam](P-0269-adam-jan-gunnar.md) och
+**Släktled:** farmors farbror till [Adam](P-0269-adam-jan-gunnar.md) och
 [Axel](P-0270-axel-ivar-malte.md) — bror till
 [Oskar Alfred Zingmark](P-0001-oskar-alfred-zingmark.md).
 

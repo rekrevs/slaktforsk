@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { kinTerm, inferSexes, ancestorPaths, ancestorBlock, render, parseRole, sideBlocks, retiredBlock } from "./kinship.mjs";
+import { kinTerm, inferSexes, ancestorPaths, ancestorBlock, render, parseRole, sideBlocks, retiredBlock, siblingPhrase } from "./kinship.mjs";
 import { checkRepositoryPeople } from "./person-format.mjs";
 import { mkdtempSync, mkdirSync, writeFileSync, cpSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
@@ -118,4 +118,13 @@ test("markeringen AVVECKLAD AKT måste stämma med registret", () => {
   writeFileSync(join(root, "genealogy/avvecklade-akter.json"), JSON.stringify({ akter: { "P-0004": { motsvarighet: "P-0005", text: "x" } } }));
   const errors = checkRepositoryPeople(root, ["P-0004"]).flatMap((r) => r.errors);
   assert.ok(errors.some((e) => e.includes("saknar markeringen AVVECKLAD AKT")));
+});
+
+
+test("helsyskon till en ana får eget ord efter ensamt far/mor, halvsyskon skrivs ut", () => {
+  assert.equal(siblingPhrase("f", "bror"), "farbror");
+  assert.equal(siblingPhrase("ffm", "syster"), "farfars moster");
+  assert.equal(siblingPhrase("ffm", "halvsyster"), "farfars mors halvsyster");
+  assert.equal(siblingPhrase("ffmm", "syster"), "farfars mormors syster");
+  assert.equal(siblingPhrase("fmf", "syskon"), "farmors fars syskon");
 });
