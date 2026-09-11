@@ -1,5 +1,14 @@
 # P-0389: Johanna Christina Bökelund
 
+**Släktled:** morfars morfars mormor till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md) →
+[Anna Elisabeth Carlman, gift Höök](P-0240-anna-elisabeth-hook.md) →
+[Johan Fredrik Villehad Carlman](P-0242-johan-fredrik-vilhelm-carlman.md) →
+[Christina Gustafva Ringberg](P-0311-kristina-gustafva-efternamn-svarlast.md)
+→ hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

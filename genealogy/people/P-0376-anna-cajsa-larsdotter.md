@@ -1,5 +1,14 @@
 # P-0376: Stina Cajsa Larsdotter
 
+**Släktled:** mormors morfars mormor till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Emma Petronella Eugenia Henriksson, född Larsson](P-0246-emma-petronella-eugenia-henriksson.md)
+→ [Anders Niklas Larsson](P-0254-anders-niklas-larsson.md) →
+[Cajsa Märta Andersdotter/Dahlsten/Dalsten](P-0316-cajsa-marta-andersdotter.md)
+→ hon.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08 inom T-0134.

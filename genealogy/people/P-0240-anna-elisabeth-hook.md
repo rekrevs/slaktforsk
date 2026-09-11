@@ -1,5 +1,10 @@
 # P-0240: Anna Elisabeth Carlman, gift Höök
 
+**Släktled:** morfars mor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 3. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

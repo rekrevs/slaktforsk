@@ -1,5 +1,14 @@
 # P-0477: Lena Jonsdotter i Walla
 
+**Släktled:** farfars morfars farmors mor till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen: [Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) →
+[Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) →
+[Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md) →
+[Johanna Jansdotter](P-0475-johanna-jansdotter-grill.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

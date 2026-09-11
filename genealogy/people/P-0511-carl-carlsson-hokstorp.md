@@ -1,5 +1,14 @@
 # P-0511: Carl Carlsson i Stocktorp
 
+**Släktled:** farfars mormors farmors far till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen: [Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) →
+[Hulda Amalia Ekholm, född Ålund](P-0016-hulda-amalia-ekholm-alund.md) →
+[Per Albert Ålund](P-0110-per-albert-alund.md) →
+[Maja Catharina Carlsdotter](P-0330-maja-catharina-carlsdotter.md) → han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

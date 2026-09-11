@@ -1,5 +1,14 @@
 # P-0507: Greta Gabrielsdotter i Värsås
 
+**Släktled:** farfars farfars farfars mor till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen: [Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) →
+[Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md) →
+[Per Wilhelm Eliasson](P-0020-per-wilhelm-eliasson.md) →
+[Gabriel Eliaeson i Värsås](P-0290-gabriel-eliaeson-varsas.md) → hon.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07 (T-0121), person-dossier/v1.

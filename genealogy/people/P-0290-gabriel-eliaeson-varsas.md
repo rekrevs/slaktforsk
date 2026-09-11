@@ -1,5 +1,13 @@
 # P-0290: Gabriel Eliaeson i Värsås
 
+**Släktled:** farfars farfars farfar till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) →
+[Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md) →
+[Per Wilhelm Eliasson](P-0020-per-wilhelm-eliasson.md) → han.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07 i T-0121 mot befintligt underlag och daterade rättelser.

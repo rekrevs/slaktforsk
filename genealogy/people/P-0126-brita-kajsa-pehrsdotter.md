@@ -1,5 +1,13 @@
 # P-0126: Brita Kajsa Pehrsdotter
 
+**Släktled:** farfars farmors mormor till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) →
+[Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md) →
+[Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md) → hon.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0137; `person-dossier/v1`.

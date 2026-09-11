@@ -1,5 +1,15 @@
 # P-0162: Olof Larsson i Storbäcken
 
+**Släktled:** farmors mormors farfars far till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen: [Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md) →
+[Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md) →
+[Jakob Andersson i Ultervattnet](P-0094-jakob-andersson-ultervattnet.md) →
+[Anders Olofsson i Ultervattnet](P-0103-anders-olofsson-ultervattnet.md) →
+han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

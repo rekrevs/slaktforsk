@@ -4941,3 +4941,52 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
 - Revisit when: standarden visar sig hindra en verklig betydelseskillnad som
   inte går att uttrycka i löpande text, eller ägaren vill dra en annan gräns
   för vad en akttitel får innehålla.
+
+## PCD-2026-09-11-033
+
+**Varje akt anger strax under namnet personens släktled till Adam och Axel**
+
+- Record type: decision
+- Date: 2026-09-11
+- Decides review: direkt ägarinstruktion; förslaget och exempel lades fram i
+  samtalet och godkändes med orden "vi kör som du rekommenderar, inklusive
+  laga fel"
+- Owner: Sverker Adam Janson
+- Decision: varje personakt får **mellan namnet och `## Arbetsläge`** en rad
+  som anger personens släktled till Adam och Axel. För en ana är raden
+  etiketten, generationen och den länkade vägen; för en sidoperson rollen och
+  den ana den knyter an till. Raden är **genererad** ur föräldrakartan och
+  **kontrollerad**, aldrig handskriven.
+- Trigger: north star räknar generationerna från Adam och Axel, men ingen akt
+  angav var personen stod. Läsaren måste gå till `genealogy/tree.md` och räkna
+  själv.
+- Disposition: approved
+- Supersedes decision: ingen.
+- Implementation:
+  1. **Etiketten följer ägarens konvention.** Stegen från Adam och Axel paras
+     två och två till `farfar`, `farmor`, `morfar` och `mormor`; ett udda
+     sista steg blir `far` eller `mor`. Längre vägar upprepar parorden —
+     `mormors mormors mor` — i stället för att bygga längre sammansättningar.
+  2. **Raden är genererad.** `scripts/kinship.mjs --write` räknar den ur
+     `scripts/lib/genealogy-relations.mjs`; `--check` rapporterar saknade och
+     inaktuella rader, och `validate-genealogy.mjs` kör kontrollen. En rad som
+     driver isär från `## Relationer` är därmed ett valideringsfel.
+  3. **Adam och Axel är helbröder** och delar varje ana; raden gäller båda.
+     Generation 1 är deras föräldrar, i linje med `goal-state.mjs`.
+  4. **Formen** för en ana:
+     `**Släktled:** farfars mormor till [Adam](…) och [Axel](…), generation 4.
+     Vägen: [Sverker Adam Janson](…) → [Jan-Christer Janson](…) →
+     [Maj Amalia Ekholm](…) → hon.`
+     Den fetstilta etikettinledningen följer PCD-2026-09-10-032, B3a.
+  5. **Förutsättningen var en lagad föräldrakarta.** Prototypen visade 35
+     falska eller uttryckligen osäkra kanter; `T-0634` tog bort dem innan
+     någon rad skrevs ut, eftersom en felaktig släktledsrad är värre än
+     ingen — den är det första man läser.
+- Related records: `PCD-2026-09-10-032`, `genealogy/tree.md`,
+  `scripts/goal-state.mjs`, `T-0634`, `T-0635`, `T-0636`
+- Resulting Wotan tasks: `T-0634` (föräldrakartan), `T-0635` (generatorn och
+  alla anor), `T-0636` (sidopersonerna).
+- Portfolio signal: 166 akter får raden i `T-0635`. Ingen assertion, inget
+  belägg och ingen relation ändras av raden själv.
+- Revisit when: en sidopersons roll inte går att uttrycka i formen `roll till
+  [ana]`, eller ägaren vill att raden anger osäkerhet i ett led av vägen.

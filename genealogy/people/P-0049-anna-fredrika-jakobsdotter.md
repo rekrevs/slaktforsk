@@ -1,5 +1,11 @@
 # P-0049: Anna Fredrika Jakobsdotter
 
+**Släktled:** farmors mormor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 4. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

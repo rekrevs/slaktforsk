@@ -1,5 +1,14 @@
 # P-0266: Petter Gustav Ajax Persson
 
+**Släktled:** farfars mormors mormors far till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen: [Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) →
+[Hulda Amalia Ekholm, född Ålund](P-0016-hulda-amalia-ekholm-alund.md) →
+[Adela Amalia Urbom](P-0111-adela-amalia-urbom.md) →
+[Eleonora Gustava Ajax](P-0124-anna-gustava-ajax.md) → han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

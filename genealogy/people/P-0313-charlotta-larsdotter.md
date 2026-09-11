@@ -1,5 +1,12 @@
 # P-0313: Carolina (Charlotta) Larsdotter
 
+**Släktled:** morfars mormors mor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md) →
+[Anna Elisabeth Carlman, gift Höök](P-0240-anna-elisabeth-hook.md) →
+[Elin Andersson](P-0243-elin-andersson.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

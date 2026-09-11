@@ -1,5 +1,13 @@
 # P-0415: Jonas Nordlund
 
+**Släktled:** mormors farmors morfar till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md) →
+[Gertrud Kristina Jönsson, senare Henriksson och Hallin](P-0247-gertrud-kristina-jonsson-henriksson.md)
+→ [Stina Kajsa Nordlund](P-0251-stina-kajsa-nordlund.md) → han.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0136; `person-dossier/v1`.

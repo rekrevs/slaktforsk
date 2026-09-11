@@ -1,5 +1,12 @@
 # P-0050: Anders Andersson
 
+**Släktled:** farmors morfars far till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md) →
+[Anders Alfred Andersson](P-0048-anders-alfred-andersson.md) → han.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07 i T-0117 mot befintliga citationer och rättelser.

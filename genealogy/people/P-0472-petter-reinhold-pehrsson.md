@@ -1,5 +1,13 @@
 # P-0472: Petter Reinhold Pehrsson i Ånäset
 
+**Släktled:** farmors farfars morfar till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Oskar Alfred Zingmark](P-0001-oskar-alfred-zingmark.md) →
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) →
+[Sara Sophia Pehrsdotter](P-0423-sara-sophia-pehrsdotter.md) → han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -1,5 +1,9 @@
 # P-0006: Hillevi Zingmark
 
+**Släktled:** farmor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 2. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

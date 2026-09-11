@@ -1,5 +1,12 @@
 # P-0065: Anders Jonsson
 
+**Släktled:** farmors farmors far till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Oskar Alfred Zingmark](P-0001-oskar-alfred-zingmark.md) →
+[Ida Sofia Andersdotter](P-0029-ida-sofia-andersdotter.md) → han.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0129, `person-dossier/v1`.

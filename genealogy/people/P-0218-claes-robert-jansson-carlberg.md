@@ -68,7 +68,7 @@ person i syskonskaran är [P-0134 Anna Christina Larsdotter](P-0134-anna-christi
 |---|---|---|---|---|
 | [P-0214 Lars Erik Jansson](P-0214-lars-erik-jansson-carlberg.md) | far — torpare i Carlberg | Årdala 1866–1870 | TRANSCRIBED | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) |
 | [P-0215 Brita Christina Ersdotter](P-0215-brita-christina-ersdotter-carlberg.md) | mor | Årdala 1866–1870 | TRANSCRIBED | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) |
-| [P-0134 Anna Christina Larsdotter](P-0134-anna-christina-larsdotter.md) | bror — antavlans person i syskonskaran; ingen anlinje passerar denna akt | Årdala 1866–1867 | TRANSCRIBED | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) |
+| [P-0134 Anna Christina Larsdotter](P-0134-anna-christina-larsdotter.md) | syster — antavlans person i syskonskaran; ingen anlinje passerar denna akt | Årdala 1866–1867 | TRANSCRIBED | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) |
 | [P-0216 Maria Mathilda](P-0216-maria-mathilda-jansdotter-carlberg.md), [P-0217 Fredrika Sofia](P-0217-fredrika-sofia-jansdotter-carlberg.md), [P-0219 Carl Alfred](P-0219-carl-alfred-jansson-carlberg.md), [P-0220 Lars Johan](P-0220-lars-johan-jansson-carlberg.md) | övriga syskon på samma hushållssida | Carlberg i Årdala, 1866–1870 | TRANSCRIBED | [C-0157](../citations/C-0157-anna-christina-ardala-AI12-foraldrahem.md) |
 | `Erik August Ersson`, uppgiven född 1846-12-02 | moderns son i en äldre familjepost, förd `Hennes Son` medan syskonen förs `Gemens.` — ingen egen akt och ingen halv-/helbroderklassificering | Carlberg i Årdala | LEAD | [C-0165](../citations/C-0165-ardala-AI9-carlberg-sida-200.md) |
 
@@ -156,6 +156,14 @@ ett `## Forskningsstatus` och en följdavstämning från T-0139 med bevarad
 äldre lydelse; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
+
+### Relationsordet för P-0134 rättat, 2026-09-11
+
+Raden för [Anna Christina Larsdotter](P-0134-anna-christina-larsdotter.md)
+angav `bror`. Hon är syster; ordet var en felifyllning av mallfrasen
+`antavlans person i syskonskaran`. Felet gjorde hennes kön motsägelsefullt
+i föräldrakartan och spärrade släktledsraden för henne och hennes anor
+(T-0635). Belägg och status är oförändrade.
 
 ### Aktens rubriknamn utökat, 2026-09-10
 

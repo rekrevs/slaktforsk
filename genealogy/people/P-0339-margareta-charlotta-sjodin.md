@@ -1,5 +1,12 @@
 # P-0339: Margareta Charlotta Sjödin/Sjölin
 
+**Släktled:** mormors farfars mor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md) →
+[Erik Jonas Henriksson](P-0253-erik-jonas-henriksson.md) → hon.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0130, `person-dossier/v1`.

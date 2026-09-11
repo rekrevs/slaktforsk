@@ -1,5 +1,12 @@
 # P-0423: Sara Sophia Pehrsdotter
 
+**Släktled:** farmors farfars mor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Oskar Alfred Zingmark](P-0001-oskar-alfred-zingmark.md) →
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) → hon.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` — individuellt avstämd i T-0133, 2026-09-08.

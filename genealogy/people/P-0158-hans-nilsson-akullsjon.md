@@ -1,5 +1,13 @@
 # P-0158: Hans Nilsson i Åkullsjön
 
+**Släktled:** farmors mormors morfar till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md) →
+[Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md) →
+[Maria Christina Hansdotter](P-0095-maria-christina-hansdotter.md) → han.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` — 2026-09-08, T-0139, `person-dossier/v 1`.

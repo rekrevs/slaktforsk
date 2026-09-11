@@ -1,5 +1,12 @@
 # P-0133: Erik Karlsson
 
+**Släktled:** farfars morfars far till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) →
+[Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) → han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -4,6 +4,7 @@ import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
 import { dirname, join, relative, resolve } from "node:path";
 import { buildInventory } from "./research-inventory.mjs";
+import { checkKinship } from "./kinship.mjs";
 
 const root = resolve(import.meta.dirname, "..");
 const genealogy = join(root, "genealogy");
@@ -92,6 +93,10 @@ const inventoryPath = join(genealogy, "research-inventory.json");
 if (!existsSync(inventoryPath) || readFileSync(inventoryPath, "utf8") !== `${JSON.stringify(researchInventory, null, 2)}\n`) {
   errors.push("research inventory missing/stale: review changes, then node scripts/research-inventory.mjs --write");
 }
+
+// Släktledsraden under aktens namn är genererad ur föräldrakartan och får inte
+// driva isär från ## Relationer (T-0635).
+errors.push(...checkKinship(root));
 
 if (errors.length) {
   console.error(errors.join("\n"));

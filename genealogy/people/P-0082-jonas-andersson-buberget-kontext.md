@@ -1,5 +1,13 @@
 # P-0082: Jonas Andersson i Buberget
 
+**Släktled:** farmors farmors farfar till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Oskar Alfred Zingmark](P-0001-oskar-alfred-zingmark.md) →
+[Ida Sofia Andersdotter](P-0029-ida-sofia-andersdotter.md) →
+[Anders Jonsson](P-0065-anders-jonsson.md) → han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

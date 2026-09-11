@@ -1,5 +1,8 @@
 # P-0269: Adam Jan Gunnar Janson
 
+**Släktled:** Adam själv, bror till [Axel](P-0270-axel-ivar-malte.md).
+Generationerna räknas från dem båda.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

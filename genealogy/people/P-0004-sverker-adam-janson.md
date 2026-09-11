@@ -1,5 +1,8 @@
 # P-0004: Sverker Adam Janson
 
+**Släktled:** far till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 1.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07 inom T-0113 mot befintligt underlag och `person-dossier/v1`.

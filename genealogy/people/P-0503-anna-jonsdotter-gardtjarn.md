@@ -1,5 +1,16 @@
 # P-0503: Anna Jonsdotter i Gårdtjärn
 
+**Släktled:** mormors mormors mormors mor till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Emma Petronella Eugenia Henriksson, född Larsson](P-0246-emma-petronella-eugenia-henriksson.md)
+→
+[Ingrid Kristina Vidusina Höglund](P-0255-ingrid-kristina-vidusina-hoglund.md)
+→ [Anna Stina Strandlund](P-0272-anna-stina-stromlund.md) →
+[Stina Cajsa Larsdotter](P-0344-stina-cajsa-larsdotter.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

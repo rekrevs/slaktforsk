@@ -1,5 +1,11 @@
 # P-0016: Hulda Amalia Ekholm, född Ålund
 
+**Släktled:** farfars mormor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 4. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) → hon.
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`

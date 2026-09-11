@@ -1,5 +1,13 @@
 # P-0250: Abraham Jönsson
 
+**Släktled:** mormors farmors far till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md) →
+[Gertrud Kristina Jönsson, senare Henriksson och Hallin](P-0247-gertrud-kristina-jonsson-henriksson.md)
+→ han.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0126, `person-dossier/v1`.

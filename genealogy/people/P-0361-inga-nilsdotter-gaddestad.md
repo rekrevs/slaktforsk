@@ -1,5 +1,13 @@
 # P-0361: Inga Nilsdotter i Gäddestad
 
+**Släktled:** morfars mormors farmor till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md) →
+[Anna Elisabeth Carlman, gift Höök](P-0240-anna-elisabeth-hook.md) →
+[Elin Andersson](P-0243-elin-andersson.md) →
+[Anders Magnus Carlsson](P-0312-anders-magnus-carlsson.md) → hon.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08 (T-0134), befintliga egna poster och senare rättelser.

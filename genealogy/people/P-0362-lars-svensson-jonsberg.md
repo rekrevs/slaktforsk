@@ -1,5 +1,13 @@
 # P-0362: Lars Svensson
 
+**Släktled:** morfars mormors morfar till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md) →
+[Anna Elisabeth Carlman, gift Höök](P-0240-anna-elisabeth-hook.md) →
+[Elin Andersson](P-0243-elin-andersson.md) →
+[Carolina (Charlotta) Larsdotter](P-0313-charlotta-larsdotter.md) → han.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08 inom T-0134.

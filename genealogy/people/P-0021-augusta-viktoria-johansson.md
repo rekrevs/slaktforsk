@@ -1,5 +1,12 @@
 # P-0021: Augusta Viktoria Johansson
 
+**Släktled:** farfars farfars mor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) →
+[Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md) → hon.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0127, `person-dossier/v1`.

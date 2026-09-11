@@ -1,5 +1,8 @@
 # P-0270: Axel Ivar Malte Janson
 
+**Släktled:** Axel själv, bror till [Adam](P-0269-adam-jan-gunnar.md).
+Generationerna räknas från dem båda.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -1,5 +1,13 @@
 # P-0403: Nils Pehrsson
 
+**Släktled:** mormors morfars farfar till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Emma Petronella Eugenia Henriksson, född Larsson](P-0246-emma-petronella-eugenia-henriksson.md)
+→ [Anders Niklas Larsson](P-0254-anders-niklas-larsson.md) →
+[Lars Petter Nilsson](P-0315-lars-petter-nilsson.md) → han.
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`

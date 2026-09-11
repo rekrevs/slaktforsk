@@ -1,5 +1,13 @@
 # P-0471: Anna Sophia Holmström i Botsmark
 
+**Släktled:** farmors farfars farmor till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md), generation 6. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Oskar Alfred Zingmark](P-0001-oskar-alfred-zingmark.md) →
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md) →
+[Johan Peter Zingmark, bonde i Botsmark](P-0422-j-p-zingmark.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

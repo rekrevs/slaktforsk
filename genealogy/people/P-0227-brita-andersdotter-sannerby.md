@@ -1,5 +1,15 @@
 # P-0227: Brita Andersdotter i Sannerby
 
+**Släktled:** farfars morfars mormors mormor till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 8. Vägen: [Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md) →
+[Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md) →
+[Anna Christina Larsdotter](P-0134-anna-christina-larsdotter.md) →
+[Brita Christina Ersdotter i Carlberg](P-0215-brita-christina-ersdotter-carlberg.md)
+→ [Anna Ersdotter i Carlberg](P-0222-anna-ersdotter-carlberg.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

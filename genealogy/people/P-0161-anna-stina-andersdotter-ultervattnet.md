@@ -1,5 +1,15 @@
 # P-0161: Anna Stina Andersdotter i Ultervattnet
 
+**Släktled:** farmors mormors farmors mor till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen: [Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Hillevi Zingmark](P-0006-hillevi-zingmark.md) →
+[Ebba Alfrida Andersson](P-0002-ebba-alfrida-andersson.md) →
+[Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md) →
+[Jakob Andersson i Ultervattnet](P-0094-jakob-andersson-ultervattnet.md) →
+[Maria Jacobsdotter i Ultervattnet](P-0102-maria-jacobsdotter-ultervattnet.md)
+→ hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

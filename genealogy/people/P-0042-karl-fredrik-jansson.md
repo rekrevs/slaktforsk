@@ -1,5 +1,12 @@
 # P-0042: Karl Fredrik Jansson
 
+**Släktled:** farfars farmors far till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md) →
+[Jan-Christer Janson](P-0005-jan-christer-janson.md) →
+[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md) →
+[Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md) → han.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08 inom [T-0129](../../wotan/dev-log/T-0129.md), `person-dossier/v1`.

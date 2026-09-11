@@ -1,5 +1,10 @@
 # P-0212: Gunnar Ivar Emanuel Höök
 
+**Släktled:** morfar till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 2. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

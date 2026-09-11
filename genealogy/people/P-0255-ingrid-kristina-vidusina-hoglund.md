@@ -1,5 +1,12 @@
 # P-0255: Ingrid Kristina Vidusina Höglund
 
+**Släktled:** mormors mormor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 4. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Emma Petronella Eugenia Henriksson, född Larsson](P-0246-emma-petronella-eugenia-henriksson.md)
+→ hon.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07 — T-0113, avstämd mot befintliga belägg.

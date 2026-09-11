@@ -1,5 +1,15 @@
 # P-0417: Olof Stefansson i Hullsjö
 
+**Släktled:** mormors farmors mormors far till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md) →
+[Gertrud Kristina Jönsson, senare Henriksson och Hallin](P-0247-gertrud-kristina-jonsson-henriksson.md)
+→ [Stina Kajsa Nordlund](P-0251-stina-kajsa-nordlund.md) →
+[Gertrud Olofsdotter](P-0416-gertrud-olofsdotter.md) → han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

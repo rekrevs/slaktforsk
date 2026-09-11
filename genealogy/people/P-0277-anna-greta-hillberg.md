@@ -1,5 +1,12 @@
 # P-0277: Anna Greta Hillberg
 
+**Släktled:** morfars farmors mor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md) →
+[Anders Ivar Höök](P-0239-ivar-hook.md) →
+[Anna Matilda Hök](P-0275-anna-matilda-hudiksvall.md) → hon.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

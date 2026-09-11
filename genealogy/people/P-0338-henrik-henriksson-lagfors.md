@@ -1,5 +1,12 @@
 # P-0338: Henrik Henriksson (1829–1884)
 
+**Släktled:** mormors farfars far till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md), generation 5. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Evy Åsa Kristina Höök](P-0211-evy-hook.md) →
+[Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md) →
+[Erik Jonas Henriksson](P-0253-erik-jonas-henriksson.md) → han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`.

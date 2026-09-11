@@ -1,5 +1,15 @@
 # P-0513: Olof Hansson i Bodarne
 
+**Släktled:** morfars farfars morfars far till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md),
+generation 7. Vägen:
+[Kristina Elisabeth Petronella Höök](P-0210-kristina-elisabeth-petronella-hook.md)
+→ [Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md) →
+[Anders Ivar Höök](P-0239-ivar-hook.md) →
+[Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md) →
+[Brita Stina Svensdotter](P-0337-brita-stina.md) →
+[Sven Olofsson](P-0383-sven-olofsson.md) → han.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`
