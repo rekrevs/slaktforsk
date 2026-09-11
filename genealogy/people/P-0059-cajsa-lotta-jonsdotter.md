@@ -1,11 +1,19 @@
 # P-0059: Cajsa Lotta Jonsdotter
 
-**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
-[Axel](P-0270-axel-ivar-malte.md). Hustru till
-[Johan Pettersson Lundström](P-0058-johan-pettersson-lundstrom.md).
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Hon
+fördes som mor till [Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md),
+farmors farfar, genom förväxlingen med sonen
+[Johan August Johansson](P-0424-johan-august-johansson.md). Den rätta modern
+är [Sara Sophia Pehrsdotter](P-0423-sara-sophia-pehrsdotter.md), farmors
+farfars mor.
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Aktstandard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — befintligt underlag individuellt avstämt i T-0142, 2026-09-08.
 - Källbredd: `PÅGÅR` — ursprungsbrygga, sen hushållskontinuitet och ekonomiska/personliga källvägar återstår.
@@ -211,6 +219,16 @@ Sonen Johan August har tidigare felaktigt sammanförts med Johan Oskar Zingmark.
 ## Historik och rättelser
 
 2026-09-08, T-0142: vuxenpersonen och livsslutet har konsoliderats mot lokala original. Ingressens Zingmark-sammanblandning, den förkortade tjänstekedjan, utelämnad födelsekandidat och överpreciserad döds-/begravningsplats har rättats. Alla äldre A-id:n och hela den tidigare akttexten bevaras nedan. Den gamla fjärråtkomstbedömningen var redan upphävd; den är inte ett aktuellt hinder. A-4685–4686 tillför kandidat- respektive fadersnyckel utan identitetsfusion.
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Sara Sophia Pehrsdotter](P-0423-sara-sophia-pehrsdotter.md), och det avvisade
+antagandet är dokumenterat i
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md). Akten står kvar med
+oförändrat innehåll så att länkar och assertioner består. Profilen är märkt på
+samma sätt, och öppna uppgifter för akten är parkerade som `IDEA`.
 
 ### Tidigare akt — historisk, ersatt av ovanstående konsolidering
 

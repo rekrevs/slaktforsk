@@ -14,6 +14,7 @@ import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { buildParentMap } from "./lib/genealogy-relations.mjs";
+import { loadRetired } from "./lib/retired.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 export const SONS = ["P-0269", "P-0270"];
@@ -144,8 +145,16 @@ export function computeBlocks(root = ROOT) {
     }
   }
   const overrides = loadOverrides(root);
+  const retired = loadRetired(root);
   const side = sideBlocks(people, sexes, anchorPhrases, overrides);
   for (const [id, block] of side.blocks) if (!blocks.has(id) && !SONS.includes(id)) blocks.set(id, block);
+  for (const [id, entry] of retired) {
+    if (!people.has(id)) { errors.push(`avvecklade-akter.json: okänd person ${id}`); continue; }
+    if (anchorPhrases.has(id)) errors.push(`avvecklade-akter.json: ${id} är en ana och kan inte avvecklas`);
+    for (const [, ref] of entry.text.matchAll(/\[\[(P-\d{4})/g)) if (!people.has(ref)) errors.push(`avvecklade-akter.json: ${id} hänvisar till okänd person ${ref}`);
+    if (!people.has(entry.motsvarighet) || retired.has(entry.motsvarighet)) errors.push(`avvecklade-akter.json: ${id} saknar en aktiv motsvarighet`);
+    blocks.set(id, retiredBlock(people, side.phrases, entry));
+  }
   for (const [id, o] of Object.entries(overrides)) {
     if (!people.has(id)) errors.push(`kinship-roles.json: okänd person ${id}`);
     if (!people.has(o.ankare)) errors.push(`kinship-roles.json: ${id} har okänt ankare ${o.ankare}`);
@@ -361,7 +370,19 @@ export function sideBlocks(people, sexes, anchorPhrases, overrides = {}) {
     blocks.set(s, { text: wrap(text) });
     readings.push({ id: s, via: "läst", anchor: o.ankare });
   }
-  return { blocks, readings };
+  return { blocks, readings, phrases };
+}
+
+// Avvecklade akter (PCD-2026-09-11-034): raden anger skälet och den korrekta
+// motsvarigheten. [[P-NNNN]] blir en länk, [[P-NNNN|släktled]] en länk följd
+// av personens släktled.
+export function retiredBlock(people, phrases, entry) {
+  const text = entry.text.replace(/\[\[(P-\d{4})(\|släktled)?\]\]/g, (match, id, withPhrase, offset, whole) => {
+    const phrase = withPhrase ? phrases.get(id) : null;
+    const inserted = phrase ? `, ${phrase}${whole[offset + match.length] === " " ? "," : ""}` : "";
+    return `${link(people, id)}${inserted}`;
+  });
+  return { text: wrap(`**Släktled:** avvecklad akt, ingen släktskap med ${sons(people)}. ${text}`) };
 }
 
 // Regionen mellan H1 och första H2 ägs av generatorn.

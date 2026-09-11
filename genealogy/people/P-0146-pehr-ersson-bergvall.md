@@ -1,11 +1,18 @@
 # P-0146: Pehr Ersson, inhyses i Bergvall
 
-**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
-[Axel](P-0270-axel-ivar-malte.md). Make till
-[Brita Malena Isaksdotter, inhyseshustru i Bergvall](P-0147-brita-malena-isaksdotter.md).
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Akten
+hör till familjekretsen kring
+[Johan August Johansson](P-0424-johan-august-johansson.md), som förväxlades
+med [Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), farmors farfar.
+Identifieringen är avvisad (C-0550).
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0184.
   **Full behandling:** han är kandidat till far åt antavlans
   [P-0058](P-0058-johan-pettersson-lundstrom.md).
@@ -215,6 +222,15 @@ fanns.
 **Samtliga sju ursprungliga assertioner står kvar med oförändrad lydelse.**
 Den blockcitat-bevarade äldre fulltexten från T-0142 har flyttats hit under
 Historik utan att ändras.
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), där det avvisade
+antagandet också är dokumenterat. Akten står kvar med oförändrat innehåll så
+att länkar och assertioner består. Profilen är märkt på samma sätt, och öppna
+uppgifter för akten är parkerade som `IDEA`.
 
 ### Hushållssidan utvunnen i sin helhet, 2026-09-10
 

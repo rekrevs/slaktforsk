@@ -1,11 +1,16 @@
 # P-0295: Alva — historisk kandidatpost för P-0027 Alva Viktoria Eliasson
 
-**Släktled:** ingen egen person. Historisk kandidatpost för
-[Alva Viktoria Eliasson](P-0027-alma-viktoria-eliasson.md), som är farfars
-farfars syster.
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Akten
+är en dubblett av [Alva Viktoria Eliasson](P-0027-alma-viktoria-eliasson.md),
+farfars farfars syster, skapad ur en familjeuppgift om namnet Alva.
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD`
 - Källbredd: `AVGRÄNSAD` — kandidatposten har ingen egen källpassage; personens
@@ -249,3 +254,12 @@ Hela den föregående akten bevaras oförändrad nedan.
 > barnen och Tibrolivet förs i P-0027. Familjeuppgifterna om Björn och Birgitta
 > är fortfarande transkriberade uppgifter och har inte verifierats i nutida
 > register.
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Alva Viktoria Eliasson](P-0027-alma-viktoria-eliasson.md), där det avvisade
+antagandet också är dokumenterat. Akten står kvar med oförändrat innehåll så
+att länkar och assertioner består. Profilen är märkt på samma sätt, och öppna
+uppgifter för akten är parkerade som `IDEA`.

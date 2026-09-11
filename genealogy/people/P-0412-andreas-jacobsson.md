@@ -1,12 +1,18 @@
 # P-0412: Andreas Jacobsson — en avvisad felläsning
 
-**Släktled:** ingen person, utan en avvisad felläsning. Den kom ur
-födelsenotisen för
-[Johan August Fredberg Fredriksson](P-0411-johan-august-fredberg-fredriksson.md),
-som är morfars farfars fars bror.
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Akten
+bygger på en felläsning: patronymikonet i födelsenotisen för
+[Johan August Fredberg Fredriksson](P-0411-johan-august-fredberg-fredriksson.md)
+lästes `Andris Jacobson`. Den rätta läsningen är
+[Olof Andersson i Hjällsnäs](P-0453-olof-andersson-hjallsnas.md).
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0197.
   **Historisk arbetsidentitet** som aldrig motsvarat en belagd person.
 - Profil: [P-0412](../research-profiles/P-0412.md) — daterad PK-bedömning,
@@ -156,6 +162,17 @@ ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse och status
 `REJECTED`.**
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Olof Andersson i Hjällsnäs](P-0453-olof-andersson-hjallsnas.md), och det
+avvisade antagandet är dokumenterat i
+[Johan August Fredberg Fredriksson](P-0411-johan-august-fredberg-fredriksson.md).
+Akten står kvar med oförändrat innehåll så att länkar och assertioner består.
+Profilen är märkt på samma sätt, och öppna uppgifter för akten är parkerade
+som `IDEA`.
 
 ### Ägarbeslutets märkning tillämpad, 2026-09-10
 

@@ -4996,3 +4996,54 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   som P-id så att dess släktled fortfarande räknas fram. En fråga förs till
   ägaren: `P-0454` Schölin står som `Uppgiven far` i dotterns akt men `dotter`
   i sin egen, och kanten bär därför anlinjen utan förbehåll.
+
+## PCD-2026-09-11-034
+
+**Akter som bygger på felläsningar och avvisade identifieringar avvecklas**
+
+- Record type: decision
+- Date: 2026-09-11
+- Decides review: direkt ägarinstruktion — "vi tar bort de 30 som inte
+  tillför något vare sig för trädet eller för att undvika fel i framtiden.
+  faddrarna kan vi behålla så länge eftersom de har något slags relation."
+- Owner: Sverker Adam Janson
+- Decision: **27 personakter avvecklas.** Kriteriet är att akten bygger på en
+  felläsning eller en avvisad identifiering, att en korrekt motsvarighet
+  finns, och att akten varken tillför antavlan eller skyddet mot framtida fel.
+  **Faddrarna P-0207–P-0209 behålls** enligt PCD-2026-09-10-031, eftersom de
+  har en relation till Hans Nilssons dop.
+- Trigger: släktledsraden (PCD-2026-09-11-033) visade 30 akter utan känd
+  släktskap. Granskningen visade att 24 av dem bildar ett slutet kluster kring
+  P-0424 Johan August Johansson, som en gång förväxlades med P-0028 Johan
+  Oskar Zingmark, och att 22 öppna uppgifter planerade arkivarbete på det.
+- Disposition: approved
+- Supersedes decision: ingen. `PCD-2026-09-10-031` gäller oförändrat för
+  P-0207–P-0209.
+- Implementation:
+  1. **Avveckling, inte radering.** En radering skulle ta 178 assertioner ur
+     det append-only evidensregistret och bryta länkar i 131 filer, varav 63
+     är forskningsloggar och dev-loggar som inte får skrivas om. Akterna står
+     därför kvar på sin plats med **oförändrat innehåll**.
+  2. **Registret** `genealogy/avvecklade-akter.json` är den enda källan:
+     motsvarighet och skäl för varje akt.
+  3. **Markeringen** `AVVECKLAD AKT` står först i aktens `## Arbetsläge` och
+     under profilens rubrik; `person-format.mjs` kontrollerar att den stämmer
+     med registret i båda riktningar.
+  4. **Släktledsraden** anger skälet och den korrekta motsvarigheten, till
+     exempel `avvecklad akt, ingen släktskap med Adam och Axel. Han
+     förväxlades med [Johan Oskar Zingmark], farmors farfar. Identifieringen
+     är avvisad (C-0550).`
+  5. **Inventering och mått** räknar inte avvecklade akter: 511 aktiva, 27
+     avvecklade. Profilerna står kvar märkta och granskas inte längre.
+  6. **Felvarningen bevaras hos motsvarigheten.** P-0028, P-0027 och P-0411
+     bar den redan; Arnes akt P-0003 fick en daterad not om Ottilia (P-0008),
+     eftersom varken den eller P-0009 nämnde henne.
+  7. **22 uppgifter** som enbart gällde avvecklade akter är parkerade som
+     `IDEA`; sex uppgifter som nämnde dem i förbigående har fått en not.
+- Related records: `PCD-2026-09-10-031`, `PCD-2026-09-11-033`,
+  `genealogy/avvecklade-akter.json`, `C-0550`, `T-0637`
+- Resulting Wotan tasks: `T-0637`.
+- Portfolio signal: **27 akter och 22 planerade arkivuppgifter** lämnar
+  arbetsmängden. Ingen assertion, inget belägg och ingen relation ändras.
+- Revisit when: en avvecklad akt får ny betydelse för antavlan, eller en ny
+  förväxling visar att den bevarade negativa kontrollen behövs i arbetet igen.

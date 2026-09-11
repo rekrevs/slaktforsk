@@ -1,11 +1,18 @@
 # P-0399: Johan Almer Betuel, handelsbiträde på Alnö
 
-**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
-[Axel](P-0270-axel-ivar-malte.md). Son till
-[Jonas Petter Johansson](P-0060-johan-peter-lundstrom.md).
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Akten
+hör till familjekretsen kring
+[Johan August Johansson](P-0424-johan-august-johansson.md), som förväxlades
+med [Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), farmors farfar.
+Identifieringen är avvisad (C-0550).
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0196.
   **Full behandling:** belagt barn i ett belagt hushåll.
 - Profil: [P-0399](../research-profiles/P-0399.md) — daterad PK-bedömning, tio
@@ -164,6 +171,15 @@ ett kort `## Forskningsstatus` och T-0142:s begränsade följdavstämning med
 bevarad äldre text; ingen tidslinje, inga namnformer och ingen profil fanns.
 
 **Den ursprungliga assertionen står kvar med oförändrad lydelse.**
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), där det avvisade
+antagandet också är dokumenterat. Akten står kvar med oförändrat innehåll så
+att länkar och assertioner består. Profilen är märkt på samma sätt, och öppna
+uppgifter för akten är parkerade som `IDEA`.
 
 ### T-0142:s uppskjutna granskning utförd, 2026-09-10
 

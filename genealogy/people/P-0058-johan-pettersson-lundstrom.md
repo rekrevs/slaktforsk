@@ -1,11 +1,19 @@
 # P-0058: Johan Pettersson Lundström
 
-**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
-[Axel](P-0270-axel-ivar-malte.md). Make till
-[Cajsa Lotta Jonsdotter](P-0059-cajsa-lotta-jonsdotter.md).
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Han
+fördes som far till [Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md),
+farmors farfar, genom förväxlingen med sonen
+[Johan August Johansson](P-0424-johan-august-johansson.md). Den rätte fadern
+är [Johan Peter Zingmark, bonde i Botsmark](P-0422-j-p-zingmark.md), farmors
+farfars far.
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Konsolidering: `GRANSKAD` — individuell befintlig-källgranskning i T-0142, 2026-09-08.
 - Källbredd: `PÅGÅR` — ursprung, första familj och proveniens återstår enligt [profilen](../research-profiles/P-0058.md).
 - Slutstatus: `IDENTITET OLÖST` avser födelseidentitet och kandidatföräldrar. Vuxenpersonen i den positiva familjekedjan är avgränsad; det äldre säkra 1847-ledet är avvisat.
@@ -335,3 +343,13 @@ Johan dog på lasarettet i Umeå den 17 november 1885 i lunginflammation. Hemvis
 >   P-0146 och P-0147 står kvar som LEAD. Den sista distansslutsatsen är
 >   supersederad av 2026-08-29 års kontroll av A I/2 sida 169; den positiva
 >   framåtlänken saknas fortfarande.
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Johan Peter Zingmark, bonde i Botsmark](P-0422-j-p-zingmark.md), och det
+avvisade antagandet är dokumenterat i
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md). Akten står kvar med
+oförändrat innehåll så att länkar och assertioner består. Profilen är märkt på
+samma sätt, och öppna uppgifter för akten är parkerade som `IDEA`.

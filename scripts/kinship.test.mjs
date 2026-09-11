@@ -1,6 +1,10 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { kinTerm, inferSexes, ancestorPaths, ancestorBlock, render, parseRole, sideBlocks } from "./kinship.mjs";
+import { kinTerm, inferSexes, ancestorPaths, ancestorBlock, render, parseRole, sideBlocks, retiredBlock } from "./kinship.mjs";
+import { checkRepositoryPeople } from "./person-format.mjs";
+import { mkdtempSync, mkdirSync, writeFileSync, cpSync, readFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { buildParentMap } from "./lib/genealogy-relations.mjs";
 
 test("parorden följer ägarens konvention", () => {
@@ -91,4 +95,27 @@ test("en reservation i endera aktens rad gör relationen obekräftad", () => {
   people.get("P-0004").text = people.get("P-0004").text.replace("## Tidslinje", `${row("P-0060", "syskon").replace("TRANSCRIBED", "LEAD")}\n\n## Tidslinje`);
   const { blocks } = sideBlocks(people, inferSexes(people), sidePhrases);
   assert.match(flat(blocks.get("P-0060").text), /^\*\*Släktled:\*\* obekräftat syskon till \[Sverker\]/);
+});
+
+test("en avvecklad akt får skäl och motsvarighet, med släktled inskjuten", () => {
+  const people = new Map([
+    dossier("P-0269", "Adam"), dossier("P-0270", "Axel"),
+    dossier("P-0003", "Arne"), dossier("P-0009", "Ada"),
+  ]);
+  const phrases = new Map([["P-0003", "farfars far"], ["P-0009", "farfars farmor"]]);
+  const text = flat(retiredBlock(people, phrases, { text: "Hon fördes som mor till [[P-0003|släktled]] genom en felläsning. Hans mor är [[P-0009|släktled]]." }).text);
+  assert.equal(text, "**Släktled:** avvecklad akt, ingen släktskap med [Adam] och [Axel]. Hon fördes som mor till [Arne], farfars far, genom en felläsning. Hans mor är [Ada], farfars farmor.");
+});
+
+test("markeringen AVVECKLAD AKT måste stämma med registret", () => {
+  const root = mkdtempSync(join(tmpdir(), "avveckling-"));
+  for (const dir of ["genealogy/people", "genealogy/research-profiles"]) mkdirSync(join(root, dir), { recursive: true });
+  cpSync(new URL("../genealogy/templates", import.meta.url), join(root, "genealogy/templates"), { recursive: true });
+  const dossierText = readFileSync(new URL("../genealogy/templates/person.md", import.meta.url), "utf8").replaceAll("P-NNNN", "P-0004");
+  const profileText = readFileSync(new URL("../genealogy/templates/research-profile.md", import.meta.url), "utf8").replaceAll("P-NNNN", "P-0004");
+  writeFileSync(join(root, "genealogy/people/P-0004-x.md"), dossierText);
+  writeFileSync(join(root, "genealogy/research-profiles/P-0004.md"), profileText);
+  writeFileSync(join(root, "genealogy/avvecklade-akter.json"), JSON.stringify({ akter: { "P-0004": { motsvarighet: "P-0005", text: "x" } } }));
+  const errors = checkRepositoryPeople(root, ["P-0004"]).flatMap((r) => r.errors);
+  assert.ok(errors.some((e) => e.includes("saknar markeringen AVVECKLAD AKT")));
 });

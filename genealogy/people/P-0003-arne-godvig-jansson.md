@@ -210,6 +210,14 @@ Det finns en verklig skillnad mellan sonens husnummer42 och originalens40. Inkom
 
 2026-09-07, T-0123: alla54 ursprungliga A-id:n bevarade; A-4220/A-4221 tillför dop och första äktenskap. Akt och profil har konsoliderats mot senare original och individuellt lästa familjekällor. Felaktig5b638-routing, påstådd omnumrering42→40, gravort som dödsplats och hela morföräldrahushållets påstådda flytt1938 har rättats. Äldre observationer och bedömningar följer som historik, inte parallella aktuella slutsatser.
 
+### Avvisad tidigare antagen mor, 2026-09-11
+
+[Ottilia Albertina Vilhelmina Jansson](P-0008-ottilia-albertina-vilhelmina-jansson.md) fördes en gång som hans mor genom en
+felläsning av `Ada` i hans födelsenotis. Antagandet är avvisat (A-0054,
+`REJECTED`); hans mor är [Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md). P-0008 är
+avvecklad enligt PCD-2026-09-11-034, och noten står här för att felet inte
+ska göras om.
+
 ### Ändrade äldre assertionsrader
 
 > | A-0011 | Född ett år som börjar med 190. | LEAD | låg | [C-0001](../citations/C-0001-geni-utdrag.md) | Den inklistrade meningen avbröts efter "född 190". |

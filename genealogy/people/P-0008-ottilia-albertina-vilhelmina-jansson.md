@@ -1,12 +1,18 @@
 # P-0008: Ottilia Albertina Vilhelmina Jansson
 
-**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
-[Axel](P-0270-axel-ivar-malte.md). Tidigare antagen mor till
-[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md), som är farfars far.
-Antagandet är avvisat.
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Hon
+fördes en gång som mor till
+[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md), farfars far, genom en
+felläsning av hans födelsenotis. Antagandet är avvisat; hans mor är
+[Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md), farfars farmor.
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Standard: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` — 2026-09-09, T-0176.
 - Källbredd: `PÅGÅR` — hela akten vilar på **ett enda blad**, som dessutom är
@@ -254,6 +260,16 @@ saknar tryckta radnummer. Kontrollen är förd i A-7702, så att den inte
 behöver göras om.
 
 `Källbredd` har inte tidigare varit satt i akten och sätts nu till `PÅGÅR`.
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md), och det avvisade
+antagandet är dokumenterat i
+[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md). Akten står kvar med
+oförändrat innehåll så att länkar och assertioner består. Profilen är märkt på
+samma sätt, och öppna uppgifter för akten är parkerade som `IDEA`.
 
 ### Bevarad ersatt formulering
 

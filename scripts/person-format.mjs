@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Read-only presentation check. This never certifies genealogical evidence.
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
+import { RETIRED_MARKER, loadRetired } from './lib/retired.mjs';
 import { dirname, resolve, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
@@ -127,6 +128,7 @@ export function boldDensity(text) {
 }
 export function checkRepositoryPeople(root, ids) {
   const files = readdirSync(join(root, 'genealogy/people'));
+  const retired = loadRetired(root);
   const result = [];
   for (const personId of ids) {
     const matched = files.filter(f => f.startsWith(`${personId}-`) && f.endsWith('.md'));
@@ -134,7 +136,12 @@ export function checkRepositoryPeople(root, ids) {
     for (const kind of ['dossier', 'profile']) {
       const file = join(root, 'genealogy', kind === 'dossier' ? `people/${matched[0]}` : `research-profiles/${personId}.md`);
       const templateText = readFileSync(join(root, 'genealogy/templates', kind === 'dossier' ? 'person.md' : 'research-profile.md'), 'utf8');
-      result.push({ personId, kind, errors: checkPersonFormat({ personId, kind, text: existsSync(file) ? readFileSync(file, 'utf8') : null, templateText }) });
+      const text = existsSync(file) ? readFileSync(file, 'utf8') : null;
+      const errors = checkPersonFormat({ personId, kind, text, templateText });
+      // Avvecklade akter (PCD-2026-09-11-034) bär markeringen i akt och profil;
+      // en aktiv akt får inte bära den.
+      if (text !== null && retired.has(personId) !== text.includes(RETIRED_MARKER)) errors.push(retired.has(personId) ? `saknar markeringen ${RETIRED_MARKER}` : `bär markeringen ${RETIRED_MARKER} men står inte i avvecklade-akter.json`);
+      result.push({ personId, kind, errors });
     }
   }
   return result;

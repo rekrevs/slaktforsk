@@ -1,12 +1,16 @@
 # P-0424: Johan August Johansson
 
-**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
-[Axel](P-0270-axel-ivar-malte.md). Tidigare förväxlad med
-[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), som är farmors farfar.
-Identifieringen är avvisad.
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Han
+förväxlades med [Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md),
+farmors farfar. Identifieringen är avvisad (C-0550).
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Konsolidering: `GRANSKAD` 2026-09-08, person-dossier/v1, T-0142.
 - Källbredd: `PÅGÅR` — identiteten prövad, livet efter 1884 öppet.
 - [Forskningsprofil](../research-profiles/P-0424.md): båda granskningsnivåerna bedöms separat.
@@ -192,6 +196,15 @@ oläst cell. Se citationens tillägg.
 Dagavskrifter rättas mot redan befintliga original; drängens egen rad
 fullprövas. Inga nya A-id behövdes. Den äldre forskningsstatusen är
 historik, inte ett permanent förbud mot beslutade egna källvägar.
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), där det avvisade
+antagandet också är dokumenterat. Akten står kvar med oförändrat innehåll så
+att länkar och assertioner består. Profilen är märkt på samma sätt, och öppna
+uppgifter för akten är parkerade som `IDEA`.
 
 ### Äldre akt och forskningsstatus
 

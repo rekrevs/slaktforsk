@@ -1,11 +1,18 @@
 # P-0060: Jonas Petter Johansson
 
-**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
-[Axel](P-0270-axel-ivar-malte.md). Son till
-[Cajsa Lotta Jonsdotter](P-0059-cajsa-lotta-jonsdotter.md).
+**Släktled:** avvecklad akt, ingen släktskap med
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md). Akten
+hör till familjekretsen kring
+[Johan August Johansson](P-0424-johan-august-johansson.md), som förväxlades
+med [Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), farmors farfar.
+Identifieringen är avvisad (C-0550).
 
 ## Arbetsläge
 
+- **AVVECKLAD AKT (PCD-2026-09-11-034).** Akten ingår inte längre i
+  inventering, mått, kontraktsgranskning eller kommande program. Skälet och
+  den korrekta motsvarigheten står i släktledsraden ovan. Innehållet nedan är
+  bevarat oförändrat.
 - Konsolidering: `GRANSKAD` 2026-09-08, person-dossier/v1, T-0142.
 - Källbredd: `PÅGÅR` — familjeidentiteten prövad; födelsedag, mellanperiod och livsslut öppna.
 - [Forskningsprofil](../research-profiles/P-0060.md): separat identitets- och livsbildsbedömning.
@@ -164,6 +171,15 @@ var fel. Ett eget födelseoriginal och livsslut återstår. [C-0192](../citation
 text bevaras. A-4693/4694 tillför Alnöradens egna positiva datum och
 folionycklar. C-0203:s felaktiga intervall rättas; inget nytt
 ursprung eller livsslut skapas från släktingars uppgifter.
+
+### Akten avvecklad, 2026-09-11
+
+Ägarbeslutet PCD-2026-09-11-034 avvecklar akten. Den tillför varken antavlan
+eller skyddet mot framtida fel: den korrekta motsvarigheten är
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), där det avvisade
+antagandet också är dokumenterat. Akten står kvar med oförändrat innehåll så
+att länkar och assertioner består. Profilen är märkt på samma sätt, och öppna
+uppgifter för akten är parkerade som `IDEA`.
 
 ### Äldre akt och forskningsstatus
 

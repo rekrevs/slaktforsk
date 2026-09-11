@@ -2,6 +2,7 @@
 // Härledd inventering och strukturgrind, aldrig automatisk genealogisk bevisning.
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { loadRetired } from "./lib/retired.mjs";
 import { dirname, join, relative, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 import { computeGoalState, loadRepository } from "./goal-state.mjs";
@@ -231,6 +232,8 @@ export function buildInventory(root) {
   const strategy = readFileSync(join(root, "genealogy/source-strategy.md"), "utf8");
   const classIds = new Set([...strategy.matchAll(/^\| (K-\d{2,}) /gm)].map((m) => m[1]));
   const errors = validateWotan(backlog, (id) => existsSync(join(root, `wotan/dev-log/${id}.md`)));
+  // Avvecklade akter (PCD-2026-09-11-034) står kvar men räknas inte.
+  const retired = loadRetired(root);
   const records = [...repository.people].sort(([a], [b]) => a.localeCompare(b)).map(([id, person]) => {
     const profile = join(profileDir, `${id}.md`);
     const text = existsSync(profile) ? readFileSync(profile, "utf8") : null;
@@ -244,8 +247,10 @@ export function buildInventory(root) {
       structure: { timelineHeading: /^## Tidslinje\s*$/m.test(person.text), narrativeHeading: /^## (Biografisk sammanfattning|Livsberättelse|Konsoliderad livsbild|Aktuell livsbild)/m.test(person.text) },
       profile: text === null ? null : `genealogy/research-profiles/${id}.md`,
       profileSha256: text === null ? null : sha(text), contract,
+      retired: retired.has(id),
     };
   });
+  const active = records.filter((r) => !r.retired);
   if (existsSync(profileDir)) for (const file of readdirSync(profileDir)) {
     if (/^P-.*\.md$/.test(file) && (!/^P-\d{4}\.md$/.test(file) || !repository.people.has(file.slice(0, -3)))) errors.push(`profil utan entydig personakt: ${file}`);
   }
@@ -254,12 +259,13 @@ export function buildInventory(root) {
     schema: "research-inventory/v1", meaning: "Struktur och registrerade bedömningar; inte saklig måluppfyllelse eller arbetskö.",
     contractSha256: sha(readFileSync(join(root, "genealogy/person-contract.md"), "utf8")), sourceStrategySha256: sha(strategy),
     summary: {
-      people: records.length, withProfile: records.filter((r) => r.contract.present).length,
-      withoutProfile: records.filter((r) => !r.contract.present).length,
-      recordedApprovals: records.filter((r) => r.contract.recordedApproval).length,
-      recordedIdentityApprovals: records.filter((r) => r.contract.recordedIdentityApproval).length,
-      treeBearing: records.filter((r) => r.contract.treeEffect === "BÄRANDE").length,
-      tiers: tierSummary(records), structuralErrors: errors.length,
+      people: active.length, retired: records.length - active.length,
+      withProfile: active.filter((r) => r.contract.present).length,
+      withoutProfile: active.filter((r) => !r.contract.present).length,
+      recordedApprovals: active.filter((r) => r.contract.recordedApproval).length,
+      recordedIdentityApprovals: active.filter((r) => r.contract.recordedIdentityApproval).length,
+      treeBearing: active.filter((r) => r.contract.treeEffect === "BÄRANDE").length,
+      tiers: tierSummary(active), structuralErrors: errors.length,
     },
     records, errors,
   };
@@ -300,14 +306,14 @@ export function formatInventory(inventory) {
   const { summary: s } = inventory;
   return [
     "Personkontrakt: struktur och registrerade bedömningar, inte genealogisk bevisning.",
-    `Samtliga personakter: ${s.people}; profiler: ${s.withProfile}; ännu ej införda: ${s.withoutProfile}.`,
+    `Aktiva personakter: ${s.people}; profiler: ${s.withProfile}; ännu ej införda: ${s.withoutProfile}. Avvecklade: ${s.retired ?? 0}.`,
     `Registrerade GODKÄND med giltig struktur: ${s.recordedApprovals}; sakrevision krävs vid avslut.`,
     `Identitetsnivå: ${s.recordedIdentityApprovals} godkända, varav ${s.treeBearing} med Trädverkan BÄRANDE.`,
     "djup | kända | identitetsgodkända | bärande | livsbildsgodkända",
     ...s.tiers.map((t) => `${String(t.depth).padStart(4)} | ${String(t.known).padStart(5)} | ${String(t.identityApproved).padStart(18)} | ${String(t.treeBearing).padStart(7)} | ${String(t.fullApproved).padStart(17)}`),
     ...["identity", "biography", "strategy", "identityReview", "treeEffect"].map((key) => {
       const counts = {};
-      for (const record of inventory.records) counts[record.contract[key] ?? "OGILTIGT"] = (counts[record.contract[key] ?? "OGILTIGT"] ?? 0) + 1;
+      for (const record of inventory.records.filter((r) => !r.retired)) counts[record.contract[key] ?? "OGILTIGT"] = (counts[record.contract[key] ?? "OGILTIGT"] ?? 0) + 1;
       return `${key}: ${Object.entries(counts).map(([k, v]) => `${k} ${v}`).join(", ")}`;
     }),
     `Strukturfel: ${s.structuralErrors}. Äldre GRANSKAD/KLAR konverteras inte.`,
