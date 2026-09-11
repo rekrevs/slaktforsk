@@ -1,9 +1,14 @@
 // Relationsparser shared by the ancestry audit and its regression tests.
 
 const GRANDPARENT_WORD = /\b(morfar|mormor|farfar|farmor)\b/i;
-const PARENT_WORD = /\b(far|fader|mor|moder)\b/i;
-const CHILD_WORD = /\b(son|dotter|barn)\b/i;
-const EXCLUDE = /styv|husbonde|uppgiven|tidigare antagen|sannolik|möjlig|ej belagt/i;
+// Relationskolumnen anger den länkade personens roll mot aktens person, och
+// rollen står i cellens huvudled - före första tankstreck, semikolon, komma
+// eller parentes. Släktord längre in beskriver någon annan: `Arnes far`,
+// `sonens mor`, `halvbror - moderns son`, `svägerska; mor till dopbarnen`.
+const PARENT_HEAD = /^(?:biologisk[ae]?\s+)?(?:far|fader|mor|moder)\b/i;
+const CHILD_HEAD = /^(?:(?:gemensamm?a?|äldst[ae]?|yngst[ae]?|äldre|yngre|enda|ende|förste|första|andre|andra|tredje|oäkta|egen|eget|egna)\s+)*(?:son|dotter|barn)\b/i;
+const relationHead = (relation) => relation.replace(/[*`_]/g, "").trim().split(/\s*[—–;,(]\s*/)[0].trim();
+const EXCLUDE = /styv|husbonde|uppgiven|tidigare antagen|sannolik|möjlig|ej belagt|(?:inte|ej)(?: separat)? (?:belag[dt]|originalbelagd|säkra[dt]|säker|avgjor[dt]|prövad|prövat)|obelag[dt]|(?<![a-zåäö])öppe[nt](?![a-zåäö])/i;
 const NON_PROPAGATING_STATUS = new Set(["LEAD", "CONFLICT", "REJECTED", "UNKNOWN"]);
 
 // A prose label ends the preceding relationship block. JavaScript's `\w`
@@ -34,15 +39,20 @@ export function buildParentMap(people) {
         .find((cell) => NON_PROPAGATING_STATUS.has(cell));
       if (status) continue;
       if (EXCLUDE.test(relation) || GRANDPARENT_WORD.test(relation)) continue;
-      if (PARENT_WORD.test(relation)) link(id, target);
-      else if (CHILD_WORD.test(relation)) link(target, id);
+      const head = relationHead(relation);
+      if (PARENT_HEAD.test(head)) link(id, target);
+      else if (CHILD_HEAD.test(head)) link(target, id);
     }
 
-    for (const prose of body.matchAll(proseBlock("Föräldrar|Fader|Moder|Far|Mor"))) {
-      for (const [, target] of prose[2].matchAll(/\((P-\d{4})/g)) link(id, target);
+    // Prosablock läses bara utanför tabeller. Ett kolon inne i en cell, som
+    // `Barn:` i en syskonrad, får annars mönstret att starta mitt i tabellen
+    // och svälja nästa rad som om den vore en uppräkning av barn.
+    const prose = body.split("\n").filter((line) => !line.trimStart().startsWith("|")).join("\n");
+    for (const block of prose.matchAll(proseBlock("Föräldrar|Fader|Moder|Far|Mor"))) {
+      for (const [, target] of block[2].matchAll(/\((P-\d{4})/g)) link(id, target);
     }
-    for (const prose of body.matchAll(proseBlock("Barn|Söner|Döttrar|Son|Dotter"))) {
-      for (const [, target] of prose[2].matchAll(/\((P-\d{4})/g)) link(target, id);
+    for (const block of prose.matchAll(proseBlock("Barn|Söner|Döttrar|Son|Dotter"))) {
+      for (const [, target] of block[2].matchAll(/\((P-\d{4})/g)) link(target, id);
     }
   }
 

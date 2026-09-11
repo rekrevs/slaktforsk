@@ -44,6 +44,17 @@ for (const name of readdirSync(peopleDir)) {
 // 2026-09-04 (T-0035 batch 260): C-0845 opened P-0509/P-0510 and
 // P-0511/P-0512 as the independently corroborated parents of P-0329 and
 // P-0330.
+// 2026-09-07 (T-0060 batches 405 and 409): C-0999/C-1002/C-1003 opened
+// P-0536 as the corroborated mother of P-0021, and C-1005/C-1007 opened
+// P-0537/P-0538 as her corroborated parents.
+// 2026-09-08 (T-0143): P-0264/P-0265 are no longer parents of P-0123. The
+// birth record C-0833 stands, but its link to the adult P-0123 is unresolved
+// and both relations are now `LEAD` ("möjlig far/mor"); they must not
+// propagate into the pedigree.
+// 2026-09-11 (T-0634): P-0082/P-0519 added as the corroborated parents of
+// P-0065 (C-0869, C-0872, C-1055; opened in T-0053 batches 282-284). The
+// same review removed 35 false or explicitly uncertain edges from the
+// relation parser; none of them belonged to this baseline.
 // Update this baseline deliberately when a source opens a new parent pair.
 const expectedByDepth = new Map([
   [0, ["P-0004"]],
@@ -51,8 +62,8 @@ const expectedByDepth = new Map([
   [2, ["P-0001", "P-0002", "P-0003", "P-0007"]],
   [3, ["P-0009", "P-0010", "P-0015", "P-0016", "P-0028", "P-0029", "P-0048", "P-0049"]],
   [4, ["P-0020", "P-0021", "P-0042", "P-0043", "P-0050", "P-0051", "P-0422", "P-0423", "P-0065", "P-0066", "P-0094", "P-0095", "P-0110", "P-0111", "P-0133", "P-0134"]],
-  [5, ["P-0102", "P-0103", "P-0123", "P-0124", "P-0125", "P-0126", "P-0131", "P-0132", "P-0145", "P-0148", "P-0158", "P-0159", "P-0214", "P-0215", "P-0230", "P-0231", "P-0289", "P-0290", "P-0329", "P-0330", "P-0470", "P-0471", "P-0472", "P-0473", "P-0474", "P-0475"]],
-  [6, ["P-0149", "P-0160", "P-0161", "P-0162", "P-0163", "P-0164", "P-0165", "P-0166", "P-0221", "P-0222", "P-0232", "P-0233", "P-0234", "P-0235", "P-0264", "P-0265", "P-0266", "P-0267", "P-0476", "P-0477", "P-0478", "P-0479", "P-0500", "P-0506", "P-0507", "P-0509", "P-0510", "P-0511", "P-0512"]],
+  [5, ["P-0102", "P-0103", "P-0123", "P-0124", "P-0125", "P-0126", "P-0131", "P-0132", "P-0145", "P-0148", "P-0158", "P-0159", "P-0214", "P-0215", "P-0230", "P-0231", "P-0289", "P-0290", "P-0329", "P-0330", "P-0470", "P-0471", "P-0472", "P-0473", "P-0474", "P-0475", "P-0082", "P-0519", "P-0536"]],
+  [6, ["P-0149", "P-0160", "P-0161", "P-0162", "P-0163", "P-0164", "P-0165", "P-0166", "P-0221", "P-0222", "P-0232", "P-0233", "P-0234", "P-0235", "P-0266", "P-0267", "P-0476", "P-0477", "P-0478", "P-0479", "P-0500", "P-0506", "P-0507", "P-0509", "P-0510", "P-0511", "P-0512", "P-0537", "P-0538"]],
   [7, ["P-0226", "P-0227"]],
 ]);
 

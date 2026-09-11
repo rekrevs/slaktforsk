@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 634,
+  "next_id": 637,
   "tasks": [
     {
       "id": "T-0112",
@@ -6903,6 +6903,36 @@
       "after": [],
       "summary": "Etablera och tillämpa formatstandard för rubriker och fetstil i akter och profiler",
       "note": "Ägarbeslut 2026-09-10. Endast presentation: rubriknivåer, rubriktext, fetstil och 35 satsrubriker. Inga assertioner, belägg, avskrifter eller bevarade citatblock ändras."
+    },
+    {
+      "id": "T-0634",
+      "status": "DONE",
+      "size": "S",
+      "after": [],
+      "summary": "Laga falska föräldrakanter i genealogy-relations.mjs",
+      "note": "Prosamönstret startar inne i tabellceller (t.ex. `Barn:`) och sväljer nästa rad; åtta falska kanter P-0150–P-0157 -> P-0149."
+    },
+    {
+      "id": "T-0635",
+      "status": "ONGOING",
+      "size": "M",
+      "after": [
+        "T-0634"
+      ],
+      "summary": "Släktledsrad under namnet: generator, kontroll och alla anor",
+      "note": "Ägarbeslut 2026-09-11. Genererad rad under H1 med släktled till Adam och Axel, parord enligt ägarens konvention (mormors mormors mor).",
+      "phase": "IMPLEMENTING"
+    },
+    {
+      "id": "T-0636",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0635"
+      ],
+      "summary": "Släktledsrad för sidopersoner: roll plus ankare i anlinjen",
+      "note": "Roll hämtas ur ankarets egen relationsrad; läsning där rollordet inte är entydigt. Personer utan väg får en uttrycklig rad.",
+      "blocker": "Väntar på T-0635: generatorn och kontrollen byggs för anorna först."
     }
   ]
 }
