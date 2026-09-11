@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syster till
 - Konsolidering: `GRANSKAD` 2026-09-09 (T-0160)
 - Källbredd: `PÅGÅR` — utflyttningen till Nordamerika 1900-08-22 är bokförd men inte följd, och egen födelsenotis samt Hudiksvalls in- och utflyttningslängder är olästa.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0396](../research-profiles/P-0396.md) — individuell granskning 2026-09-09, T-0160.
 

@@ -11,7 +11,7 @@ farfars far till [Adam](P-0269-adam-jan-gunnar.md) och
 - Konsolidering: `GRANSKAD` 2026-09-09 inom T-0161.
 - Källbredd: `PÅGÅR` — egen födelsenotis och egen dödbokspost är olästa.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0425](../research-profiles/P-0425.md) — individuell granskning 2026-09-09, T-0161.
 

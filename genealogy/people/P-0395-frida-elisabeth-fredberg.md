@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syster till
 - Konsolidering: `GRANSKAD` 2026-09-09 (T-0160)
 - Källbredd: `PÅGÅR` — egen födelse- och dopnotis, Sollentunas dödbok 1966 och den egna kyrkobokskedjan efter 1907 är materiellt öppna.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0395](../research-profiles/P-0395.md) — individuell granskning 2026-09-09, T-0160.
 

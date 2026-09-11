@@ -10,7 +10,7 @@
 - Konsolidering: `GRANSKAD`
 - Källbredd: `PÅGÅR`
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0286](../research-profiles/P-0286.md) — individuell granskning 2026-09-08, T-0156.
 
@@ -18,7 +18,7 @@
 
 Johan Erik är den femte kända sonen till Anders Gustaf Hök och Anna Greta Hillberg. Han är bokförd med födelsedatumet 1888-08-26 i Hälsingtuna på fyra hushålls- och folkräkningsrader mellan 1890 och 1900, alltid i samma familj och alltid med anteckningen `odöpt` eller `icke döpt`. Identiteten är prövad som hushållsmedlem: namn, exakt datum, födelsesocken, föräldrapar och syskonföljd stämmer överens i samtliga lästa poster. [C-0353](../citations/C-0353-folkrakning-1890-halsingtuna-hasta-hok-hillberg.md), [C-0410](../citations/C-0410-hudiksvall-AIIa1c-sida-780-hok.md), [C-0411](../citations/C-0411-hudiksvall-AIIa1a-sida-285-hok.md), [C-0257](../citations/C-0257-hook-hushall-hudiksvall-1900.md)
 
-Han är en sidoperson utan känd fortsättning. Efter folkräkningen 1900, då han var tolv år, upphör spåret: han står inte bland Hökraderna på Hudiksvalls sida 484 och inte i 1910 års hushåll. Ingen egen födelsenotis, konfirmation, flyttpost, vigsel eller dödspost är läst, och inget efternamn skrivs ut på någon av hans rader. Ingen anlinje går genom honom, men hans identitet i föräldrahushållet är prövad och `Trädverkan` är därför `BÄRANDE` på samma grund som för syskonen P-0282 och P-0283.
+Han är en sidoperson utan känd fortsättning. Efter folkräkningen 1900, då han var tolv år, upphör spåret: han står inte bland Hökraderna på Hudiksvalls sida 484 och inte i 1910 års hushåll. Ingen egen födelsenotis, konfirmation, flyttpost, vigsel eller dödspost är läst, och inget efternamn skrivs ut på någon av hans rader. Ingen anlinje går genom honom, och `Trädverkan` är därför `EJ BÄRANDE`, som för syskonen P-0282 och P-0283; hans identitet i föräldrahushållet är prövad.
 
 ## Namnformer
 

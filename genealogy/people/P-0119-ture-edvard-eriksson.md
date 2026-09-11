@@ -10,7 +10,7 @@
 - Profil: [P-0119](../research-profiles/P-0119.md) — daterad PK-bedömning,
   tio teman, söknycklar och källvägar.
 - Identitetsnivå **`GODKÄND`**, `Identitetsläge: PRÖVAT`;
-  `Trädverkan: BÄRANDE` — ingen anlinje går i dag genom honom, och värdet
+  `Trädverkan: EJ BÄRANDE` — ingen anlinje går i dag genom honom, och värdet
   säger att identiteten inte utgör något hinder om en skulle göra det.
   Full nivå `UNDERKÄND`.
 - Han är son till [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md)

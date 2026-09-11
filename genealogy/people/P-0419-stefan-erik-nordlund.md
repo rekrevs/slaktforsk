@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — bror till
 - Konsolidering: `GRANSKAD` 2026-09-09 (T-0164)
 - Källbredd: `PÅGÅR` — egen födelsepost i Holm `C/1` 1842 och Stödes mottagande böcker efter oktober 1860 är olästa.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0419](../research-profiles/P-0419.md) — individuell granskning 2026-09-09, T-0164.
 

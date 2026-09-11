@@ -11,7 +11,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — bror till
 - Källbredd: `PÅGÅR` — hans enda kända rad är utvunnen kolumn för kolumn. Hans
   egen dopnotis i Gryt 1832 och hela livet efter 1865 är oöppnade.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0331](../research-profiles/P-0331.md) — individuell
   granskning 2026-09-09, T-0167.

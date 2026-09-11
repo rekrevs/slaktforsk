@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syskon till
 - Konsolidering: `GRANSKAD`
 - Källbredd: `PÅGÅR`
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0101](../research-profiles/P-0101.md) — individuell granskning 2026-09-08, T-0155.
 

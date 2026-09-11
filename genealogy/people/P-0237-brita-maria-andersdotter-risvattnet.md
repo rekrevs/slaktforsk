@@ -11,7 +11,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syster till
 - Källbredd: `PÅGÅR` — hennes enda kända rad är utvunnen kolumn för kolumn.
   Hennes egen dopnotis 1840 och Nysätras dödbok 1843 är oöppnade.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0237](../research-profiles/P-0237.md) — individuell
   granskning 2026-09-09, T-0167.

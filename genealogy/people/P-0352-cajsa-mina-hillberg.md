@@ -10,7 +10,7 @@ tvillingsyster till [Anna Greta Hillberg](P-0277-anna-greta-hillberg.md).
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0156.
 - Källbredd: `PÅGÅR` — Hälsingtunas egen dödbokspost 1857 är en öppen och rimligen tillgänglig passage.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0352](../research-profiles/P-0352.md) — första individuella profil, granskad 2026-09-08 i T-0156.
 

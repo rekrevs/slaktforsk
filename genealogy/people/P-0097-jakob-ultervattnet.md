@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syskon till
 - Profil: [P-0097](../research-profiles/P-0097.md) — daterad PK-bedömning,
   tio teman, söknycklar och källvägar.
 - Identitetsnivå **`GODKÄND`**, `Identitetsläge: PRÖVAT`;
-  `Trädverkan: BÄRANDE` — ingen anlinje går i dag genom honom, och värdet
+  `Trädverkan: EJ BÄRANDE` — ingen anlinje går i dag genom honom, och värdet
   säger att identiteten inte utgör något hinder om en skulle göra det.
   Full nivå `UNDERKÄND`.
 - Tre nya uppgifter 2026-09-09: kolumn 15 `Värnpliktsförhållanden` bär

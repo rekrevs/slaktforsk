@@ -5,7 +5,7 @@ import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { loadRetired } from "./lib/retired.mjs";
 import { dirname, join, relative, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
-import { computeGoalState, loadRepository } from "./goal-state.mjs";
+import { SONS, computeGoalState, loadRepository } from "./goal-state.mjs";
 import { readWorkState } from "./lib/terminal-status.mjs";
 
 export const THEMES = ["ID", "REL", "BO", "ARB", "EKO", "MIL", "SAM", "HAL", "PER", "SYN"];
@@ -239,6 +239,7 @@ export function buildInventory(root) {
     const text = existsSync(profile) ? readFileSync(profile, "utf8") : null;
     const contract = assessProfile({ personId: id, text, classIds, taskIds, pathExists: (key) => allPaths.has(key), linkError: (target) => checkLocalLink(root, profile, target) });
     errors.push(...contract.errors.map((e) => `${id}: ${e}`));
+    errors.push(...lineageErrors(id, contract.treeEffect, new Set([...ancestors.keys(), ...SONS])));
     const work = readWorkState(person.text), ancestor = ancestors.get(id);
     return {
       id, dossier: `genealogy/people/${person.file}`, dossierSha256: sha(person.text),
@@ -287,6 +288,12 @@ export function tierSummary(records) {
     rows.set(depth, row);
   }
   return [...rows.values()].sort((a, b) => a.depth - b.depth);
+}
+
+// Trädverkan svarar på om antavlan får passera personen. För den som inte
+// ligger i anlinjen finns ingen linje att passera (PCD-2026-09-11-035).
+export function lineageErrors(id, treeEffect, lineage) {
+  return treeEffect === "BÄRANDE" && !lineage.has(id) ? [`${id}: Trädverkan BÄRANDE kräver att personen ligger i anlinjen till Adam och Axel`] : [];
 }
 
 export function dependencyCycles(graph) {

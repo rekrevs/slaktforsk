@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — helbror till
 - Profil: [P-0136](../research-profiles/P-0136.md) — daterad PK-bedömning,
   tio teman, söknycklar och källvägar.
 - Identitetsnivå **`GODKÄND`**, `Identitetsläge: PRÖVAT`;
-  `Trädverkan: BÄRANDE` — ingen anlinje går i dag genom honom, och värdet
+  `Trädverkan: EJ BÄRANDE` — ingen anlinje går i dag genom honom, och värdet
   säger att identiteten inte utgör något hinder om en skulle göra det.
   Full nivå `UNDERKÄND`.
 - Han är yngre bror till [P-0015 Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md),

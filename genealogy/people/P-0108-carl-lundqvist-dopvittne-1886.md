@@ -10,7 +10,7 @@ till [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md).
 - Konsolidering: `GRANSKAD` 2026-09-09 (T-0159)
 - Källbredd: `PÅGÅR` — Sköldinges egna hushållsböcker för Lugnet 1886 är en ohindrad och oprövad väg.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0108](../research-profiles/P-0108.md) — första individuella granskningen 2026-09-09, T-0159.
 

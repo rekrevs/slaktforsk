@@ -10,7 +10,7 @@ halvsyster till [Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md).
 - Konsolidering: `GRANSKAD`
 - Källbredd: `PÅGÅR`
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0429](../research-profiles/P-0429.md) — individuell granskning 2026-09-09, T-0161.
 

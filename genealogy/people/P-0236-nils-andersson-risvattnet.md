@@ -12,7 +12,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — bror till
   utvunna kolumn för kolumn. Hans egen födelsenotis 1823, vigselposten 1856 och
   längden efter 1861 är oöppnade.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0236](../research-profiles/P-0236.md) — individuell
   granskning 2026-09-09, T-0167.

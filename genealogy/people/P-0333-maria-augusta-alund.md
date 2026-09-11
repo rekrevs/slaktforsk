@@ -12,7 +12,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syster till
   gav inget nytt sakinnehåll. Hennes dopnotis i Gryt 1846 och hela livet efter
   1865 är oöppnade.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0333](../research-profiles/P-0333.md) — individuell
   granskning 2026-09-09, T-0167.

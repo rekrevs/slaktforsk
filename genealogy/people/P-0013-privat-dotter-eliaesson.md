@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — halvsyster på fädernet till
 - Konsolidering: `GRANSKAD` 2026-09-08 (T-0147)
 - Källbredd: `PÅGÅR` — sannolikt levande person; dataminimeringen styr omfånget, och den enda uttryckligen godkända öppna vägen, birthday.se enligt [PCD-2026-09-04-008](../../PROJECT-CONTROL.md#pcd-2026-09-04-008), är ännu inte aktiverad.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND` — PK-08 är materiellt öppen.
 - Forskningsprofil: [P-0013](../research-profiles/P-0013.md) — individuell granskning 2026-09-08, T-0147.
 

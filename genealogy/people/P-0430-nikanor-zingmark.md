@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — halvbror till
 - Konsolidering: `GRANSKAD`
 - Källbredd: `PÅGÅR`
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0430](../research-profiles/P-0430.md) — individuell granskning 2026-09-09, T-0161.
 

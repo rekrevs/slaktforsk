@@ -11,7 +11,7 @@ farfars mormor till [Adam](P-0269-adam-jan-gunnar.md) och
 - Profil: [P-0114](../research-profiles/P-0114.md) — daterad PK-bedömning,
   tio teman, söknycklar och källvägar.
 - Identitetsnivå **`GODKÄND`**, `Identitetsläge: PRÖVAT`;
-  `Trädverkan: BÄRANDE` — ingen anlinje går i dag genom henne, och värdet
+  `Trädverkan: EJ BÄRANDE` — ingen anlinje går i dag genom henne, och värdet
   säger att identiteten inte utgör något hinder om en skulle göra det.
   Full nivå `UNDERKÄND`.
 - Hon är inte en löst anknuten person. Hon var gift med

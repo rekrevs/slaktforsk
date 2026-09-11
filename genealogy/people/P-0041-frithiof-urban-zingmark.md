@@ -10,7 +10,7 @@
 - Konsolidering: `GRANSKAD` 2026-09-08 (T-0147)
 - Källbredd: `INTEGRITETSMINIMERAD` — sannolikt levande person. Föräldrarnas Burträsksuppslag till och med 1950 är lästa och utvunna för hans rad; ingenting därefter samlas in.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `GODKÄND` inom det integritetsminimerade omfånget.
 - Forskningsprofil: [P-0041](../research-profiles/P-0041.md) — individuell granskning 2026-09-08, T-0147.
 

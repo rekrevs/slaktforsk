@@ -10,7 +10,7 @@
 - Konsolidering: `GRANSKAD` 2026-09-08 (T-0147)
 - Källbredd: `PÅGÅR` — föräldrarnas Burträsksuppslag 1936–1950 är lästa och utvunna för hans rad; Umeå stad från 1950, vuxenliv, död 1999 och begravning är oprövade.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0040](../research-profiles/P-0040.md) — individuell granskning 2026-09-08, T-0147.
 

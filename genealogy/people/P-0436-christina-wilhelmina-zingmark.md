@@ -9,7 +9,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — helsyster till
 - Format: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` 2026-09-08 inom T-0133.
 - Källbredd: `PÅGÅR`.
-- Profil: [P-0436](../research-profiles/P-0436.md). Personidentitet `PRÖVAT`; identitetsgranskning `GODKÄND`, trädverkan `BÄRANDE`, full kontraktsgranskning `UNDERKÄND`. Livsbilden är `PÅGÅR`.
+- Profil: [P-0436](../research-profiles/P-0436.md). Personidentitet `PRÖVAT`; identitetsgranskning `GODKÄND`, trädverkan `EJ BÄRANDE`, full kontraktsgranskning `UNDERKÄND`. Livsbilden är `PÅGÅR`.
 
 ## Identitet
 

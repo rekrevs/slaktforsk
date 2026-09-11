@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syster till
 - Konsolidering: `GRANSKAD`
 - Källbredd: `PÅGÅR` — egen födelsepost, vigselpost och livsslut är ännu olästa.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0027](../research-profiles/P-0027.md) — individuell
   granskning 2026-09-08, T-0151.

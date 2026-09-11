@@ -7,7 +7,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — dotter till
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0142, person-dossier/v1.
-- Källbredd: `PÅGÅR` — identitetsnivå GODKÄND/BÄRANDE, full nivå UNDERKÄND på PK-08. Se [profilen](../research-profiles/P-0014.md).
+- Källbredd: `PÅGÅR` — identitetsnivå GODKÄND/EJ BÄRANDE, full nivå UNDERKÄND på PK-08. Se [profilen](../research-profiles/P-0014.md).
 
 ## Identitet
 

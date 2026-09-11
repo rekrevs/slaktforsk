@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync, mkdtempSync, mkdirSync, writeFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { assessProfile, dependencyCycles, validateWotan, checkLocalLink, tierSummary, THEMES, REQUIREMENTS, IDENTITY_REQUIREMENTS } from "./research-inventory.mjs";
+import { assessProfile, dependencyCycles, lineageErrors, validateWotan, checkLocalLink, tierSummary, THEMES, REQUIREMENTS, IDENTITY_REQUIREMENTS } from "./research-inventory.mjs";
 
 const template = readFileSync(new URL("../genealogy/templates/research-profile.md", import.meta.url), "utf8");
 function partial() {
@@ -195,4 +195,11 @@ test("nivåerna räknas per djup och slås aldrig ihop", () => {
     { depth: 5, known: 1, identityApproved: 1, treeBearing: 1, fullApproved: 1 },
     { depth: 6, known: 2, identityApproved: 2, treeBearing: 1, fullApproved: 0 },
   ]);
+});
+
+test("BÄRANDE kräver att personen ligger i anlinjen", () => {
+  const lineage = new Set(["P-0004", "P-0269"]);
+  assert.deepEqual(lineageErrors("P-0004", "BÄRANDE", lineage), []);
+  assert.deepEqual(lineageErrors("P-0022", "EJ BÄRANDE", lineage), []);
+  assert.match(lineageErrors("P-0022", "BÄRANDE", lineage)[0], /kräver att personen ligger i anlinjen/);
 });

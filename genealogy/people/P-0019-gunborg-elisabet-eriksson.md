@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — halvsyster på fädernet till
 - Konsolidering: `GRANSKAD` 2026-09-08 (T-0153)
 - Källbredd: `PÅGÅR` — egen födelsenotis, Helgestaåren 1920–1929 och hela livet efter 1930 är olästa.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0019](../research-profiles/P-0019.md) — individuell granskning 2026-09-08, T-0153.
 

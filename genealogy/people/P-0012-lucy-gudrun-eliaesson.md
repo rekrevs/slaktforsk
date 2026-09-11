@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — dotter till
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0147.
 - Källbredd: `PÅGÅR`
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0012](../research-profiles/P-0012.md) — individuell granskning 2026-09-08, T-0147.
 

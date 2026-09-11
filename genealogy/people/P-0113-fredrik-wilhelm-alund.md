@@ -8,7 +8,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — bror till
 
 - Konsolidering: `GRANSKAD` — individuell format- och sakprövning 2026-09-08 i T-0143.
 - Källbredd: `PÅGÅR` — egen födelsepost, exercis och fortsatta livsvillkor återstår.
-- Forskningsprofil: [P-0113](../research-profiles/P-0113.md); identitetsnivå GODKÄND/BÄRANDE, livsbildsnivå UNDERKÄND genom PK-08.
+- Forskningsprofil: [P-0113](../research-profiles/P-0113.md); identitetsnivå GODKÄND/EJ BÄRANDE, livsbildsnivå UNDERKÄND genom PK-08.
 
 ## Identitet
 

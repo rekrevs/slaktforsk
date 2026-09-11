@@ -11,7 +11,7 @@ mors halvbror till [Adam](P-0269-adam-jan-gunnar.md) och
 - Konsolidering: `GRANSKAD` — individuell format- och sakprövning 2026-09-08 i T-0153.
 - Källbredd: `PÅGÅR` — Hyltinge 1905–1918, den egna utflyttningen 1918 och allt efter Helgesta är olästa.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0118](../research-profiles/P-0118.md) — individuell granskning 2026-09-08, T-0153.
 

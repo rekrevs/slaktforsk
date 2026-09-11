@@ -10,7 +10,7 @@ syskon till [Adela Amalia Urbom](P-0111-adela-amalia-urbom.md).
 - Konsolidering: `GRANSKAD` 2026-09-09 i T-0159.
 - Källbredd: `PÅGÅR` — se [individuell forskningsprofil](../research-profiles/P-0268.md).
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0268](../research-profiles/P-0268.md) — individuell granskning 2026-09-09, T-0159.
 

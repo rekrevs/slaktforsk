@@ -12,7 +12,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syster till
   nya och oprövade källvägar följer av granskningen: lysningen 1864 och
   utflyttningen till `Gisselbro[?]` 1863. Hennes dopnotis i Gryt 1835 är oläst.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0332](../research-profiles/P-0332.md) — individuell
   granskning 2026-09-09, T-0167.

@@ -10,7 +10,7 @@
 - Konsolidering: `GRANSKAD` 2026-09-09, T-0160
 - Källbredd: `PÅGÅR` — hans egna kolumner i Hudiksvalls församlingsbok är nu utvunna, men utflyttningen till Norra Amerika 1898-08-27 är bokförd och inte följd, och Hudiksvalls in- och utflyttningslängder är olästa.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0367](../research-profiles/P-0367.md) — första individuella granskningen 2026-09-09, T-0160.
 

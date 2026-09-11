@@ -5047,3 +5047,47 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   arbetsmängden. Ingen assertion, inget belägg och ingen relation ändras.
 - Revisit when: en avvecklad akt får ny betydelse för antavlan, eller en ny
   förväxling visar att den bevarade negativa kontrollen behövs i arbetet igen.
+
+## PCD-2026-09-11-035
+
+**`Trädverkan: BÄRANDE` gäller bara personer i anlinjen**
+
+- Record type: decision
+- Date: 2026-09-11
+- Decides review: direkt ägarinstruktion — "rätta detta med 'bärande' så att
+  det blir konsekvent"
+- Owner: Sverker Adam Janson
+- Decision: `Trädverkan: BÄRANDE` får bara stå för en person som ligger i
+  anlinjen till Adam och Axel. För alla andra — syskon, makar, dopvittnen och
+  övriga sidopersoner — är värdet `EJ BÄRANDE`, oavsett hur väl identiteten är
+  prövad. En prövad identitet för en sidoperson uttrycks av
+  `Identitetsgranskning: GODKÄND`, inte av trädverkan.
+- Trigger: avvecklingen i `T-0637` visade att två avvecklade profiler stod
+  `BÄRANDE`. En jämförelse mot föräldrakartan fann **73 profiler** med
+  `BÄRANDE` utan väg till Adam och Axel. Tidigare konsolideringar hade läst
+  fältet som "identiteten håller för att bära", senare kohorter som "en anlinje
+  passerar" — samma fält med två betydelser, och rapporternas antal bärande
+  blandade dem.
+- Disposition: approved
+- Supersedes decision: ingen. Beslutet preciserar `genealogy/person-contract.md`,
+  där fältet redan definieras som svaret på "får antavlan passera denna
+  person?".
+- Implementation:
+  1. De 73 profilernas fält är satta till `EJ BÄRANDE`, med en daterad not i
+     varje profil. Aktuella lägen i akternas `## Arbetsläge` och identitetsavsnitt
+     är rättade; daterade utlåtanden står kvar som historik, och motiveringar som
+     argumenterade för den äldre läsningen har fått en tilläggsmening.
+  2. `research-inventory.mjs` rapporterar `BÄRANDE` utanför anlinjen som
+     strukturfel, prövat mot `goal-state.mjs`:s härledda anor.
+  3. Rättelsen omfattar även de avvecklade P-0424 och P-0060, eftersom ett
+     `BÄRANDE` för en avvisad identifiering är just det fel avvecklingen ska
+     hindra.
+- Related records: `genealogy/person-contract.md`, `PCD-2026-09-11-033`,
+  `PCD-2026-09-11-034`, `T-0639`
+- Resulting Wotan tasks: `T-0639`.
+- Portfolio signal: **antalet bärande går från 124 till 51**, vilket nu är
+  antalet identitetsgodkända anor. Ingen identitetsbedömning, assertion eller
+  relation ändras. Dashboardens sparade ögonblicksbild visar de äldre talen
+  tills ägaren begär en uppdatering.
+- Revisit when: kontraktet behöver ett eget fält för sidopersoners
+  identitetsstyrka, eller en sidoperson visar sig ligga i anlinjen.

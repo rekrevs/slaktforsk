@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — helbror till
 - Konsolidering: `GRANSKAD` 2026-09-09 inom T-0161.
 - Källbredd: `PÅGÅR` — egen dödbokspost 1892 är oläst.
 - Identitetsgranskning: `GODKÄND`
-- Trädverkan: `BÄRANDE`
+- Trädverkan: `EJ BÄRANDE`
 - Kontraktsgranskning: `UNDERKÄND`
 - Forskningsprofil: [P-0427](../research-profiles/P-0427.md) — individuell granskning 2026-09-09, T-0161.
 

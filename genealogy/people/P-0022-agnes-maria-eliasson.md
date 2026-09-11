@@ -8,7 +8,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syster till
 
 - Format: `person-dossier/v1`
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0127.
-- Forskningsprofil: [P-0022](../research-profiles/P-0022.md). Identitetsnivå GODKÄND, Trädverkan BÄRANDE; livsbildsnivå UNDERKÄND med konkreta fortsättningar.
+- Forskningsprofil: [P-0022](../research-profiles/P-0022.md). Identitetsnivå GODKÄND, Trädverkan EJ BÄRANDE; livsbildsnivå UNDERKÄND med konkreta fortsättningar.
 
 ## Identitet
 

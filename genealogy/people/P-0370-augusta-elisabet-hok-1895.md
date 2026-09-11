@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syster till
 - Konsolidering: `GRANSKAD` 2026-09-07 i T-0126.
 - Källbredd: `PÅGÅR` — individuell bedömning och följdvägar i [forskningsprofilen](../research-profiles/P-0370.md).
 
-Personidentitet PRÖVAT; identitetsgranskning GODKÄND, Trädverkan BÄRANDE. Full kontraktsgranskning UNDERKÄND. Uppgiftens konsolidering skiljs från återstående forskning.
+Personidentitet PRÖVAT; identitetsgranskning GODKÄND, Trädverkan EJ BÄRANDE. Full kontraktsgranskning UNDERKÄND. Uppgiftens konsolidering skiljs från återstående forskning.
 
 ## Identitet
 

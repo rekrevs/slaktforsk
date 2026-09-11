@@ -10,7 +10,7 @@ och [Axel](P-0270-axel-ivar-malte.md) — syskon till
 - Profil: [P-0099](../research-profiles/P-0099.md) — daterad PK-bedömning,
   tio teman, söknycklar och källvägar.
 - Identitetsnivå **`GODKÄND`**, `Identitetsläge: PRÖVAT`;
-  `Trädverkan: BÄRANDE` — ingen anlinje går i dag genom honom, och värdet
+  `Trädverkan: EJ BÄRANDE` — ingen anlinje går i dag genom honom, och värdet
   säger att identiteten inte utgör något hinder om en skulle göra det.
   Full nivå `UNDERKÄND`.
 - Tre rättelser och två tillägg 2026-09-09. Födelsedagen är **26/9**, inte
