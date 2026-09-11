@@ -1,5 +1,10 @@
 # P-0105: Icke namngiven hustru till A. Andersson, dopvittne 1872
 
+**Släktled:** dopvittne vid dopet av
+[Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md), farmors
+mormor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0182.

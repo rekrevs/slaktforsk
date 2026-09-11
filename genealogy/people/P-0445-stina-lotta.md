@@ -1,5 +1,9 @@
 # P-0445: Stina Lotta
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Mor till
+[Matilda Charlotta Sjöberg](P-0135-matilda-charlotta-sjoberg.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0199.

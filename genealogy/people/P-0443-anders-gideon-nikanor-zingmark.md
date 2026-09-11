@@ -1,5 +1,9 @@
 # P-0443: Anders Gideon Nikanor Zingmark, den siste av tre utvandrade söner
 
+**Släktled:** farmors farfars halvbrors son till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) — son
+till [Nikanor Zingmark](P-0430-nikanor-zingmark.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0199.

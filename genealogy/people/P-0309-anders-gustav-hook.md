@@ -1,5 +1,9 @@
 # P-0309: Anders Gustav Höök
 
+**Släktled:** morfars helbror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — helbror till
+[Gunnar Ivar Emanuel Höök](P-0212-gunnar-hook.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

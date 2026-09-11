@@ -1,5 +1,9 @@
 # P-0535: Knut Sigfrid Bergersen, Adas brudgum i Kristiania 1922
 
+**Släktled:** make till
+[Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md), farfars farmor
+till [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0192.

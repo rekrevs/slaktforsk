@@ -1,5 +1,9 @@
 # P-0326: Adelide Amalia Ajax
 
+**Släktled:** möjligt syskon till
+[Eleonora Gustava Ajax](P-0124-anna-gustava-ajax.md), farfars mormors mormor
+till [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`

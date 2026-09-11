@@ -1,5 +1,9 @@
 # P-0236: Nils Andersson i Risvattnet
 
+**Släktled:** farmors morfars fars bror till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — bror till
+[Anders Andersson](P-0050-anders-andersson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

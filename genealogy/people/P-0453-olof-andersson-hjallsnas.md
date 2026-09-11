@@ -1,5 +1,10 @@
 # P-0453: Olof Andersson i Hjällsnäs
 
+**Släktled:** omstridd far till
+[Johan August Fredberg Fredriksson](P-0411-johan-august-fredberg-fredriksson.md),
+morfars farfars fars bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

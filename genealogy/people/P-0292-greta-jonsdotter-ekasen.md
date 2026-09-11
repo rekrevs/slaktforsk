@@ -1,5 +1,9 @@
 # P-0292: Greta Jonsdotter i Ekåsen
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Uppgiven mor till
+[Lars Månsson i Korsbergaspåret](P-0288-lars-mansson-korsberga.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0122, mot befintligt sekundärt underlag.

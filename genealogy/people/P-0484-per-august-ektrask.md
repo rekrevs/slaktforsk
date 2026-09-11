@@ -1,5 +1,10 @@
 # P-0484: Per August i Ekträsk
 
+**Släktled:** farmors farfars fars dotterbarn till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+dotterbarn till
+[Johan Peter Zingmark, bonde i Botsmark](P-0422-j-p-zingmark.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0198.

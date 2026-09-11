@@ -1,5 +1,9 @@
 # P-0213: Maria Sofia Eriksdotter
 
+**Släktled:** farfars morfars helsyster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — helsyster till
+[Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -1,5 +1,10 @@
 # P-0461: Henrik Henriksson den äldre
 
+**Släktled:** uppgiven far till
+[Hindric Henriksson/Vinroth](P-0451-hindric-henriksson-vinroth.md), mormors
+farfars farfar till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0130, person-dossier/v1.

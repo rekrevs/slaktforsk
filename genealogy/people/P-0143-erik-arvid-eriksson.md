@@ -1,5 +1,9 @@
 # P-0143: Erik Arvid Eriksson
 
+**Släktled:** farfars morfars helbror till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — helbror till
+[Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

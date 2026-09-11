@@ -1,5 +1,9 @@
 # P-0305: Henning Janson
 
+**Släktled:** farbror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Sverker Adam Janson](P-0004-sverker-adam-janson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0192.

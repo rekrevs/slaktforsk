@@ -1,5 +1,9 @@
 # P-0296: Björn Lundqvist
 
+**Släktled:** farfars farfars systers son till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) — son
+till [Alva Viktoria Eliasson](P-0027-alma-viktoria-eliasson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

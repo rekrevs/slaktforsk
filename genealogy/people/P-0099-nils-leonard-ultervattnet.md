@@ -1,5 +1,9 @@
 # P-0099: Nils Leonard Jakobsson i Ultervattnet, född 1874
 
+**Släktled:** farmors mormors syskon till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syskon till
+[Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0181.

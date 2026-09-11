@@ -1,5 +1,10 @@
 # P-0184: Hustrun Anna Johansdotter i Rickleå, dopvittne 1800
 
+**Släktled:** dopvittne vid dopet av
+[Hans Nilsson i Åkullsjön](P-0158-hans-nilsson-akullsjon.md), farmors mormors
+morfar till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0187.

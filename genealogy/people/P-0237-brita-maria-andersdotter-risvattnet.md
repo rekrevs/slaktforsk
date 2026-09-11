@@ -1,5 +1,9 @@
 # P-0237: Brita Maria Andersdotter i Risvattnet
 
+**Släktled:** farmors morfars fars syster till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+syster till [Anders Andersson](P-0050-anders-andersson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

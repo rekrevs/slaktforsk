@@ -1,5 +1,9 @@
 # P-0466: Fredric Jacobson i Hjällsnäs
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Make till
+[Anna Brita Olofsdotter i Hjällsnäs](P-0413-britta-olofsdotter-hjallsnas.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0201.

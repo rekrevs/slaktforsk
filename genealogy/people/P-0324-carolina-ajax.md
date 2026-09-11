@@ -1,5 +1,9 @@
 # P-0324: Carolina Ajax
 
+**Släktled:** farfars mormors mormors syskon till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+syskon till [Eleonora Gustava Ajax](P-0124-anna-gustava-ajax.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -1,5 +1,10 @@
 # P-0532: Axel Vilhelm Ekholm
 
+**Släktled:** make till
+[Hulda Amalia Ekholm, född Ålund](P-0016-hulda-amalia-ekholm-alund.md),
+farfars mormor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

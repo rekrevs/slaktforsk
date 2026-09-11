@@ -1,5 +1,9 @@
 # P-0374: Lars Olof Lundkvist, född 1928
 
+**Släktled:** farfars farfars systers son till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) — son
+till [Alva Viktoria Eliasson](P-0027-alma-viktoria-eliasson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0194.

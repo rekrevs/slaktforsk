@@ -1,5 +1,10 @@
 # P-0465: Anna Kristina Nyberg
 
+**Släktled:** hustru till
+[Erik Nikolaus Billjard Höglund](P-0346-erik-nikolaus-biljard-hogsjo.md),
+mormors mormors bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07 i T-0120; `person-dossier/v1`.

@@ -1,5 +1,9 @@
 # P-0084: Maria Johanna Andersdotter, Buberget
 
+**Släktled:** tjänstehjon hos [Anders Jonsson](P-0065-anders-jonsson.md),
+farmors farmors far till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0180.

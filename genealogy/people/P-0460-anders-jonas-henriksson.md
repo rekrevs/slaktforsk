@@ -1,5 +1,9 @@
 # P-0460: Anders Jonas Henriksson, den yngste
 
+**Släktled:** mormors farfars brorson till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — brorson till
+[Erik Jonas Henriksson](P-0253-erik-jonas-henriksson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0201.

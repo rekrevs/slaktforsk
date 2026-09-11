@@ -1,5 +1,9 @@
 # P-0533: Axel Ivar Ekholm
 
+**Släktled:** farfars mors halvbror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — halvbror på mödernet till
+[Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0202.

@@ -1,5 +1,9 @@
 # P-0531: Amelie Karolina Carlman
 
+**Släktled:** morfars mors syster till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — syster till
+[Anna Elisabeth Carlman, gift Höök](P-0240-anna-elisabeth-hook.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -1,5 +1,10 @@
 # P-0364: Eric Pettersson i Brattås
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Hans son Olaus, född 1854, antogs tidigare
+vara [Olaus Fredberg](P-0336-olaus-fredberg.md), som är morfars farfars far.
+Antagandet är avvisat.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0128, `person-dossier/v1`.

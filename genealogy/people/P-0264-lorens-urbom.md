@@ -1,5 +1,9 @@
 # P-0264: Lorens Urbom
 
+**Släktled:** möjlig far till
+[Johan Petter Urbom](P-0123-johan-petter-urbom.md), farfars mormors morfar
+till [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

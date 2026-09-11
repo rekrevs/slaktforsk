@@ -1,5 +1,9 @@
 # P-0119: Ture Edvard Eriksson, född 1904
 
+**Släktled:** farfars morfars son till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — son till
+[Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0182.

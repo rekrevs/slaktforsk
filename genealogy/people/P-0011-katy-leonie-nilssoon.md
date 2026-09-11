@@ -1,5 +1,10 @@
 # P-0011: Katy Leonie Nilsson
 
+**Släktled:** hustru till
+[Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md), farfars
+farfar till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -1,5 +1,9 @@
 # P-0334: Axel Edvard Ålund, född i Gryt 1853
 
+**Släktled:** farfars mormors fars bror till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — bror till
+[Per Albert Ålund](P-0110-per-albert-alund.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0193.

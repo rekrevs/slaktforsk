@@ -1,5 +1,9 @@
 # P-0421: Ingrid Brita Nordlund, yngsta dottern i Nordlundhushållet
 
+**Släktled:** mormors farmors morfars dotter till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+dotter till [Jonas Nordlund](P-0415-jonas-nordlund.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0197.

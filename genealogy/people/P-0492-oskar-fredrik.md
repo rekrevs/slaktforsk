@@ -1,5 +1,9 @@
 # P-0492: Oskar Fredrik, ende sonen i andra giftet
 
+**Släktled:** morfars farfars fars son till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — son till
+[Olaus Fredberg](P-0336-olaus-fredberg.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0195.

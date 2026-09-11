@@ -1,5 +1,9 @@
 # P-0018: Birgit Cecilia Eriksson
 
+**Släktled:** farfars mors halvsyster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — halvsyster på fädernet till
+[Maj Amalia Ekholm](P-0007-may-amalia-ekholm.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -4990,3 +4990,9 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   belägg och ingen relation ändras av raden själv.
 - Revisit when: en sidopersons roll inte går att uttrycka i formen `roll till
   [ana]`, eller ägaren vill att raden anger osäkerhet i ett led av vägen.
+- Utfall 2026-09-11: `T-0635` gav raden åt 166 anor och `T-0636` åt samtliga
+  372 sidopersoner — **alla 538 akter**. Femton sidopersoner kräver en läst
+  tolkning, samlad med skäl i `genealogy/kinship-roles.json`; ankaret anges där
+  som P-id så att dess släktled fortfarande räknas fram. En fråga förs till
+  ägaren: `P-0454` Schölin står som `Uppgiven far` i dotterns akt men `dotter`
+  i sin egen, och kanten bär därför anlinjen utan förbehåll.

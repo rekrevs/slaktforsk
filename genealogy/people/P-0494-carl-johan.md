@@ -1,5 +1,9 @@
 # P-0494: Carl Johan
 
+**Släktled:** farfars morfars fars systers halvbror till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+halvbror genom modern till [Johanna Mathilda](P-0497-johanna-mathilda.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0202.

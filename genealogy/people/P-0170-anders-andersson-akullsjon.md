@@ -1,5 +1,10 @@
 # P-0170: Anders Andersson, bondeson i Åkullsjön, dopvittne 1840
 
+**Släktled:** dopvittne vid dopet av
+[Maria Christina Hansdotter](P-0095-maria-christina-hansdotter.md), farmors
+mormors mor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0186.

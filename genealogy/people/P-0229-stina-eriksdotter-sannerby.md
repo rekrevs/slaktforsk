@@ -1,5 +1,9 @@
 # P-0229: Stina Eriksdotter i Sannerby
 
+**Släktled:** farfars morfars mormors morfars dotter till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+dotter till [Erik Larsson i Sannerby](P-0226-erik-larsson-sannerby.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -1,5 +1,9 @@
 # P-0060: Jonas Petter Johansson
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Son till
+[Cajsa Lotta Jonsdotter](P-0059-cajsa-lotta-jonsdotter.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, person-dossier/v1, T-0142.

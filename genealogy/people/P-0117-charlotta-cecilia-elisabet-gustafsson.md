@@ -1,5 +1,9 @@
 # P-0117: Charlotta Cecilia Elisabet Gustafsson
 
+**Släktled:** hustru till
+[Axel Edvard Eriksson](P-0015-axel-edvard-eriksson.md), farfars morfar till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` — individuell format- och sakprövning 2026-09-08 i T-0143.

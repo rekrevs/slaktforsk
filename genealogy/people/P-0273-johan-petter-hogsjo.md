@@ -1,5 +1,10 @@
 # P-0273: Johan Petter i Högsjö
 
+**Släktled:** hushållsmedlem hos
+[Ingrid Kristina Vidusina Höglund](P-0255-ingrid-kristina-vidusina-hoglund.md),
+mormors mormor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0113, `person-dossier/v1`; befintligt underlag, inga nya originalöppningar.

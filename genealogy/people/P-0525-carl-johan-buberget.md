@@ -1,5 +1,9 @@
 # P-0525: Carl Johan, Buberget
 
+**Släktled:** farmors farmors fars syskon till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+syskon till [Anders Jonsson](P-0065-anders-jonsson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

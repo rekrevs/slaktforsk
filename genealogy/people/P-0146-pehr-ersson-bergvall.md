@@ -1,5 +1,9 @@
 # P-0146: Pehr Ersson, inhyses i Bergvall
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Make till
+[Brita Malena Isaksdotter, inhyseshustru i Bergvall](P-0147-brita-malena-isaksdotter.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0184.

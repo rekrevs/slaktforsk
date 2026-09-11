@@ -1,5 +1,9 @@
 # P-0438: Sara Rebecka Zingmark
 
+**Släktled:** farmors farfars helsyster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — helsyster till
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0199.

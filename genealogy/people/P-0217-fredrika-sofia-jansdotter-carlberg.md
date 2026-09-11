@@ -1,5 +1,9 @@
 # P-0217: Fredrika Sofia Jansdotter i Carlberg
 
+**Släktled:** farfars morfars mors syster till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+syster till [Anna Christina Larsdotter](P-0134-anna-christina-larsdotter.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0191.

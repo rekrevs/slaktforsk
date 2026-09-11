@@ -1,5 +1,9 @@
 # P-0314: Ida Carolina Carlsson
 
+**Släktled:** morfars mormors syster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syster till
+[Elin Andersson](P-0243-elin-andersson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

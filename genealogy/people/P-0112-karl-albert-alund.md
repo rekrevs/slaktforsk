@@ -1,5 +1,9 @@
 # P-0112: Karl Albert Ålund
 
+**Släktled:** farfars mormors bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Hulda Amalia Ekholm, född Ålund](P-0016-hulda-amalia-ekholm-alund.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07 i T-0125 mot befintligt underlag.

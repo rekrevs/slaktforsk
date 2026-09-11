@@ -1,5 +1,9 @@
 # P-0135: Matilda Charlotta Sjöberg
 
+**Släktled:** hustru till
+[Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md), farfars morfars far
+till [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` — T-0143, 2026-09-08.

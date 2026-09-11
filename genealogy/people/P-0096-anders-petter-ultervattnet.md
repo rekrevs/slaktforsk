@@ -1,5 +1,9 @@
 # P-0096: Anders Petter i Ultervattnet
 
+**Släktled:** farmors mormors syskon till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syskon till
+[Anna Fredrika Jakobsdotter](P-0049-anna-fredrika-jakobsdotter.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

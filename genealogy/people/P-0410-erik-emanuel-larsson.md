@@ -1,5 +1,9 @@
 # P-0410: Erik Emanuel, född i Indal 1873
 
+**Släktled:** mormors morfars bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Anders Niklas Larsson](P-0254-anders-niklas-larsson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0196.

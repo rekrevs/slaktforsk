@@ -1,5 +1,10 @@
 # P-0467: Nils August Hallin
 
+**Släktled:** make till
+[Gertrud Kristina Jönsson, senare Henriksson och Hallin](P-0247-gertrud-kristina-jonsson-henriksson.md),
+mormors farmor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0201.

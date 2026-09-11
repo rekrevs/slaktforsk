@@ -1,5 +1,9 @@
 # P-0499: Maria Sofia
 
+**Släktled:** farfars morfars fars syster till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+syster till [Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0202.

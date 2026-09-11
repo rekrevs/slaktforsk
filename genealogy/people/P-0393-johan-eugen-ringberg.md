@@ -1,5 +1,9 @@
 # P-0393: Johan Eugén Ringberg
 
+**Släktled:** morfars morfars mors bror till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — bror till
+[Christina Gustafva Ringberg](P-0311-kristina-gustafva-efternamn-svarlast.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

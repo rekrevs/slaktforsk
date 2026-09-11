@@ -1,5 +1,9 @@
 # P-0293: Stina Jansdotter i Korsbergaspåret
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Uppgiven hustru till
+[Lars Månsson i Korsbergaspåret](P-0288-lars-mansson-korsberga.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0113, mot befintligt underlag enligt `person-dossier/v1`.

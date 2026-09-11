@@ -1,5 +1,9 @@
 # P-0047: Astrid Charlotta Jansson
 
+**Släktled:** farfars farmors syster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syster till
+[Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

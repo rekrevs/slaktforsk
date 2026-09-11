@@ -1,5 +1,9 @@
 # P-0108: Carl Lundqvist
 
+**Släktled:** dopvittne vid dopet av
+[Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md), farfars farmor
+till [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

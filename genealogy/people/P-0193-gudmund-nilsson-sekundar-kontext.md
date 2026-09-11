@@ -1,5 +1,11 @@
 # P-0193: Gudmund Nilsson, uppgiven morfars far — sekundär kontext
 
+**Släktled:** uppgiven morfars far till
+[Hans Nilsson i Åkullsjön](P-0158-hans-nilsson-akullsjon.md), farmors mormors
+morfar till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Uppgiften kommer ur en privat
+sammanställning utan synliga källhänvisningar.
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0189.

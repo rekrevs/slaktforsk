@@ -1,5 +1,9 @@
 # P-0402: Brita Greta Pehrsdotter, inhysesdotter i Bergvall
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Dotter till
+[Pehr Ersson, inhyses i Bergvall](P-0146-pehr-ersson-bergvall.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0184.

@@ -1,5 +1,9 @@
 # P-0366: Nils Andreas Henriksson, jordbruksarbetare i Lagfors och `Icke konfirm.` vid 21 år
 
+**Släktled:** mormors farfars bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Erik Jonas Henriksson](P-0253-erik-jonas-henriksson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0193.

@@ -1,5 +1,10 @@
 # P-0424: Johan August Johansson
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Tidigare förväxlad med
+[Johan Oskar Zingmark](P-0028-johan-oskar-zingmark.md), som är farmors farfar.
+Identifieringen är avvisad.
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, person-dossier/v1, T-0142.

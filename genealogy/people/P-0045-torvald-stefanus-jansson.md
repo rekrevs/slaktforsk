@@ -1,5 +1,9 @@
 # P-0045: Torvald Stefanus Jansson
 
+**Släktled:** farfars farmors bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Ada Wilhelmina Jansson](P-0009-ada-wilhelmina-jansson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0177.

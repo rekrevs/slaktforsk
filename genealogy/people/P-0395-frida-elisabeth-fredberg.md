@@ -1,5 +1,9 @@
 # P-0395: Frida Elisabeth Fredberg
 
+**Släktled:** morfars farfars syster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syster till
+[Johannes Ivar Fredberg](P-0287-johannes-ivar-fredberg.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

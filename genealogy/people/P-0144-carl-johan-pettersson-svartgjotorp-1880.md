@@ -1,5 +1,9 @@
 # P-0144: Carl Johan Pettersson, dräng i Svartgjötorp
 
+**Släktled:** tjänstehjon hos
+[Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md), farfars morfars far
+till [Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0184.

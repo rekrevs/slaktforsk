@@ -1,5 +1,9 @@
 # P-0081: Erik Dahl
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Dopvittne vid dopet av
+[Johan August Johansson](P-0424-johan-august-johansson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0180.

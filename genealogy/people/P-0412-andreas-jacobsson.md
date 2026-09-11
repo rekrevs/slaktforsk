@@ -1,5 +1,10 @@
 # P-0412: Andreas Jacobsson — en avvisad felläsning
 
+**Släktled:** ingen person, utan en avvisad felläsning. Den kom ur
+födelsenotisen för
+[Johan August Fredberg Fredriksson](P-0411-johan-august-fredberg-fredriksson.md),
+som är morfars farfars fars bror.
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0197.

@@ -1,5 +1,9 @@
 # P-0320: Maria Christina Urbom (1858–1861)
 
+**Släktled:** farfars mormors mors syskon till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+syskon till [Adela Amalia Urbom](P-0111-adela-amalia-urbom.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0193.

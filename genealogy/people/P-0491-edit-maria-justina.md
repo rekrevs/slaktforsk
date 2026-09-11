@@ -1,5 +1,9 @@
 # P-0491: Edit Maria Justina
 
+**Släktled:** morfars farfars fars dotter till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+dotter till [Olaus Fredberg](P-0336-olaus-fredberg.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

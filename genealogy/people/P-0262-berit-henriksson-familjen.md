@@ -1,5 +1,9 @@
 # P-0262: Berit, barn i Axel Henrikssons familj
 
+**Släktled:** mormors fars barn till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — barn till
+[Axel Edvin Henriksson](P-0241-axel-henriksson-sundsvall.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07 i T-0119; `person-dossier/v1`.

@@ -1,5 +1,10 @@
 # P-0008: Ottilia Albertina Vilhelmina Jansson
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Tidigare antagen mor till
+[Arne Godvig Jansson](P-0003-arne-godvig-jansson.md), som är farfars far.
+Antagandet är avvisat.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

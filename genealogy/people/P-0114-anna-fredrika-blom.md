@@ -1,5 +1,10 @@
 # P-0114: Anna Fredrika Blom
 
+**Släktled:** dopvittne vid dopet av
+[Hulda Amalia Ekholm, född Ålund](P-0016-hulda-amalia-ekholm-alund.md),
+farfars mormor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0182.

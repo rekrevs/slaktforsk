@@ -1,5 +1,10 @@
 # P-0174: Isac Hansson i Näs, dopvittne 1799
 
+**Släktled:** dopvittne vid dopet av
+[Maria Jacobsdotter i Ultervattnet](P-0102-maria-jacobsdotter-ultervattnet.md),
+farmors mormors farmor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0186.

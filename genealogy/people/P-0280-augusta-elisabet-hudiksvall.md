@@ -1,5 +1,9 @@
 # P-0280: Augusta Elisabet Hök (1896)
 
+**Släktled:** morfars farmors syster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syster till
+[Anna Matilda Hök](P-0275-anna-matilda-hudiksvall.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`

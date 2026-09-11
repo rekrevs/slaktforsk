@@ -1,5 +1,9 @@
 # P-0023: Johan Martin Gabriel Eliasson
 
+**Släktled:** farfars farfars bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

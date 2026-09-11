@@ -1,5 +1,9 @@
 # P-0359: Ester Elisabet Andersson
 
+**Släktled:** morfars mormors fars dotter till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+dotter till [Anders Magnus Carlsson](P-0312-anders-magnus-carlsson.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

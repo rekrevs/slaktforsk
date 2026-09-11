@@ -1,5 +1,10 @@
 # P-0129: Alb. Lindqvist i Hultstuga skog, dopvittne 1867
 
+**Släktled:** dopvittne vid dopet av
+[Charlotta Wilhelmina Larsson](P-0043-charlotta-wilhelmina-larsson.md),
+farfars farmors mor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0183.

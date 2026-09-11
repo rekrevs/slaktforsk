@@ -1,5 +1,9 @@
 # P-0444: Gustaf Sjöberg, dräng i Stenkulla med hustru och barn
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Far till
+[Matilda Charlotta Sjöberg](P-0135-matilda-charlotta-sjoberg.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0199.

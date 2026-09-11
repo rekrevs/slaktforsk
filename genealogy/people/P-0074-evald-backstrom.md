@@ -1,5 +1,9 @@
 # P-0074: Evald Bäckström
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Make till
+[Anna Magdalena Jonsdotter](P-0075-anna-magdalena-jonsdotter.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0179.

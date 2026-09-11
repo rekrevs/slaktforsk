@@ -1,5 +1,9 @@
 # P-0295: Alva — historisk kandidatpost för P-0027 Alva Viktoria Eliasson
 
+**Släktled:** ingen egen person. Historisk kandidatpost för
+[Alva Viktoria Eliasson](P-0027-alma-viktoria-eliasson.md), som är farfars
+farfars syster.
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

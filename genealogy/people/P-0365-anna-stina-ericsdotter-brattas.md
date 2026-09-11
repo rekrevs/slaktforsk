@@ -1,5 +1,9 @@
 # P-0365: Anna Stina Ericsdotter
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Hustru till
+[Eric Pettersson i Brattås](P-0364-eric-pettersson-brattas.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

@@ -1,5 +1,10 @@
 # P-0182: Mamsell Ebba Gustava Arnell, dopvittne 1829
 
+**Släktled:** dopvittne vid dopet av
+[Brita Kajsa Pehrsdotter](P-0126-brita-kajsa-pehrsdotter.md), farfars farmors
+mormor till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0187.

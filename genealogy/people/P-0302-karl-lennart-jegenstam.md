@@ -1,5 +1,10 @@
 # P-0302: Karl-Lennart Jegenstam
 
+**Släktled:** tidigare make till
+[Maj-Britt, senare gift Jegenstam](P-0300-maj-britt-adas-dotter.md), farfars
+fars halvsyster till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0192.

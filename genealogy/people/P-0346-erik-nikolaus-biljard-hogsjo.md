@@ -1,5 +1,9 @@
 # P-0346: Erik Nikolaus Billjard Höglund
 
+**Släktled:** mormors mormors bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Ingrid Kristina Vidusina Höglund](P-0255-ingrid-kristina-vidusina-hoglund.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0120, `person-dossier/v1`.

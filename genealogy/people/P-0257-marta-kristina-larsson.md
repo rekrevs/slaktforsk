@@ -1,5 +1,9 @@
 # P-0257: Märta Kristina i Storbränna
 
+**Släktled:** mormors mors syster till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — syster till
+[Emma Petronella Eugenia Henriksson, född Larsson](P-0246-emma-petronella-eugenia-henriksson.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0119.

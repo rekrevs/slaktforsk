@@ -1,5 +1,9 @@
 # P-0354: Gustaf Adolf Viktor Carlman
 
+**Släktled:** morfars morfars bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Johan Fredrik Villehad Carlman](P-0242-johan-fredrik-vilhelm-carlman.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

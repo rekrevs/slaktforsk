@@ -1,5 +1,9 @@
 # P-0352: Cajsa Mina Hillberg
 
+**Släktled:** morfars farmors mors tvillingsyster till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+tvillingsyster till [Anna Greta Hillberg](P-0277-anna-greta-hillberg.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

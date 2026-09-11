@@ -1,5 +1,9 @@
 # P-0041: Frithiof Urban Zingmark
 
+**Släktled:** farmors fars son till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — son till
+[Oskar Alfred Zingmark](P-0001-oskar-alfred-zingmark.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

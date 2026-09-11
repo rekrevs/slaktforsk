@@ -1,5 +1,9 @@
 # P-0405: Lisa Stina Jonsdotter, Nils Pehrssons andra hustru
 
+**Släktled:** hustru till [Nils Pehrsson](P-0403-nils-pehrsson.md), mormors
+morfars farfar till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0196.

@@ -1,5 +1,10 @@
 # P-0116: Johan Alfred Olsson, dräng 1890
 
+**Släktled:** tjänstehjon hos
+[Fredrik Wilhelm Ålund](P-0113-fredrik-wilhelm-alund.md), farfars mormors fars
+bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0182.

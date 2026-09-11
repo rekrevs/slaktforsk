@@ -1,5 +1,9 @@
 # P-0497: Johanna Mathilda
 
+**Släktled:** farfars morfars fars syster till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+syster till [Erik Karlsson](P-0133-erik-karlsson-svartgjolstorp.md).
+
 ## Arbetsläge
 
 - Standard: `person-dossier/v1`

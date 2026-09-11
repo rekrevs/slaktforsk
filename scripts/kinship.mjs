@@ -134,12 +134,234 @@ export function computeBlocks(root = ROOT) {
   const errors = same(adam, axel) ? [] : ["Adam och Axel har olika föräldrar i föräldrakartan"];
   const blocks = new Map();
   for (const id of SONS) blocks.set(id, sonBlock(people, id));
+  const anchorPhrases = new Map();
   for (const [id, entries] of ancestorPaths(parents, sexes)) {
     const block = ancestorBlock(people, id, entries);
     if (block.error) errors.push(block.error);
-    else blocks.set(id, block);
+    else {
+      blocks.set(id, block);
+      if (entries.length === 1) anchorPhrases.set(id, kinTerm(entries[0].steps));
+    }
   }
-  return { people, blocks, errors };
+  const overrides = loadOverrides(root);
+  const side = sideBlocks(people, sexes, anchorPhrases, overrides);
+  for (const [id, block] of side.blocks) if (!blocks.has(id) && !SONS.includes(id)) blocks.set(id, block);
+  for (const [id, o] of Object.entries(overrides)) {
+    if (!people.has(id)) errors.push(`kinship-roles.json: okänd person ${id}`);
+    if (!people.has(o.ankare)) errors.push(`kinship-roles.json: ${id} har okänt ankare ${o.ankare}`);
+    else if (o.slag === "roll" && !blocks.has(o.ankare)) errors.push(`kinship-roles.json: ${id} kräver ett ankare med släktled`);
+  }
+  return { people, blocks, errors, readings: side.readings };
+}
+
+// Lästa tolkningar för sidopersoner vars roll inte går att härleda ur raderna.
+function loadOverrides(root) {
+  try {
+    return JSON.parse(readFileSync(join(root, "genealogy", "kinship-roles.json"), "utf8")).roles ?? {};
+  } catch (error) {
+    if (error.code === "ENOENT") return {};
+    throw error;
+  }
+}
+
+// --- Sidopersoner (T-0636) ---------------------------------------------------
+//
+// En sidoperson knyts till en ana genom en roll. Rollen hämtas i första hand ur
+// anans egen relationsrad, som enligt kolumnkonventionen anger den länkade
+// personens roll mot anan. Står relationen bara i sidopersonens egen rad vänds
+// den. Vittnesrader är undantaget: där beskriver cellen vittnet självt.
+// Blodsläkt får en kompakt etikett (`farfars farfars syster`); andra roller och
+// osäkra relationer behåller rollordet (`hustru till …`, `obekräftad far till …`).
+
+const KIN = new Set(["son", "dotter", "barn", "bror", "syster", "syskon", "helbror", "helsyster", "halvbror", "halvsyster", "halvsyskon", "tvillingbror", "tvillingsyster", "sonson", "sondotter", "dotterson", "dotterdotter", "sonbarn", "dotterbarn", "barnbarn", "brorson", "brorsdotter", "brorsbarn", "systerson", "systerdotter", "systerbarn", "kusin", "farbror", "faster", "morbror", "moster", "halvfaster"]);
+const REL = new Set(["far", "mor", "förälder", "hustru", "make", "make eller hustru", "styvmor", "styvfar", "styvson", "styvdotter", "styvbarn", "fosterfar", "fostermor", "fosterförälder", "fosterson", "fosterdotter", "fosterbarn", "svåger", "svägerska", "svärmor", "svärfar", "svärson", "svärdotter", "svärbarn", "måg", "husbonde", "matmor", "tjänstehjon", "hushållsmedlem"]);
+const NEUTER = new Set(["barn", "syskon", "halvsyskon", "sonbarn", "dotterbarn", "barnbarn", "brorsbarn", "systerbarn", "styvbarn", "fosterbarn", "svärbarn", "tjänstehjon"]);
+const HOS = new Set(["tjänstehjon", "hushållsmedlem"]);
+const CLOSE = new Set(["son", "dotter", "barn", "bror", "syster", "syskon", "helbror", "helsyster", "halvbror", "halvsyster", "halvsyskon", "tvillingbror", "tvillingsyster"]);
+const ADJ = /^(?:(?:yngre|äldre|yngst[ae]?|äldst[ae]?|enda|ende|gemensamm?a?|förste|första|andre|andra|tredje|fjärde)\s+)+/;
+const HEDGE = /^(?:sekundärt uppgivet|sekundärt uppgiven|tidigare antagen|möjlig[at]?|sannolik[at]?|uppgiven|uppgivet|trolig[at]?)\s+/;
+const PREFIX = /^(?:tidigare|senare)\s+/;
+const CERTAIN_QUAL = /^(?:enligt familjeuppgift|enligt familjen|på fädernet|på mödernet|genom modern|genom fadern|i första äktenskapet|i andra äktenskapet)$/;
+const UNCERTAIN = new Set(["LEAD", "CONFLICT", "REJECTED", "UNKNOWN"]);
+// Samma förbehåll som föräldrakartan respekterar, utom rolltyperna styv/husbonde.
+const RESERVATION = /uppgiven|tidigare antagen|sannolik|möjlig|hypotes|ej belagt|(?:inte|ej)(?: separat)? (?:belag[dt]|originalbelagd|säkra[dt]|säker|avgjor[dt]|prövad|prövat)|obelag[dt]|(?<![a-zåäö])öppe[nt](?![a-zåäö])/i;
+const NORMAL = { broder: "bror", fader: "far", moder: "mor", maka: "hustru", man: "make" };
+
+export function parseRole(text) {
+  let s = text.toLowerCase().replace(/[*`_]/g, "").replace(/\s+/g, " ").trim();
+  if (/^person i (?:familjehushållet|föräldrahushållet|hushållet)$|^(?:dottermarkerad )?hushållsmedlem$/.test(s)) return { noun: "hushållsmedlem", kind: "R" };
+  const hedgeMatch = s.match(HEDGE);
+  const hedge = hedgeMatch?.[0].trim() ?? "";
+  if (hedgeMatch) s = s.slice(hedgeMatch[0].length);
+  const prefixMatch = s.match(PREFIX);
+  const prefix = prefixMatch?.[0].trim() ?? "";
+  if (prefixMatch) s = s.slice(prefixMatch[0].length);
+  s = s.replace(ADJ, "").replace(/ till båda$/, "");
+  if (s === "husbondens hustru") return { noun: "matmor", hedge, kind: "R" };
+  const m = s.match(/^([a-zåäö]+)(?: (.*))?$/);
+  if (!m) return null;
+  const noun = NORMAL[m[1]] ?? m[1];
+  const rest = (m[2] ?? "").trim();
+  if (rest && /^i (?:hushållet|familjehushållet|föräldrahushållet|samma hushåll)$/.test(rest) && ["son", "dotter", "bror", "syster", "barn"].includes(noun)) return { noun: `${noun} i hushållet`, hedge, kind: "R", prep: "hos" };
+  if (rest && !CERTAIN_QUAL.test(rest)) return null;
+  const base = { noun, hedge, prefix, qual: rest };
+  if (KIN.has(noun)) return { ...base, kind: hedge || prefix ? "R" : "K" };
+  if (REL.has(noun)) return { ...base, kind: "R" };
+  return null;
+}
+
+// Den länkade personens roll mot aktens person, vänd till aktens roll mot den
+// länkade. Värdet är [man, kvinna, okänt kön].
+const INVERSE = {
+  far: ["son", "dotter", "barn"], mor: ["son", "dotter", "barn"],
+  son: ["far", "mor", "förälder"], dotter: ["far", "mor", "förälder"], barn: ["far", "mor", "förälder"],
+  bror: ["bror", "syster", "syskon"], syster: ["bror", "syster", "syskon"], syskon: ["bror", "syster", "syskon"],
+  helbror: ["helbror", "helsyster", "syskon"], helsyster: ["helbror", "helsyster", "syskon"],
+  halvbror: ["halvbror", "halvsyster", "halvsyskon"], halvsyster: ["halvbror", "halvsyster", "halvsyskon"], halvsyskon: ["halvbror", "halvsyster", "halvsyskon"],
+  farbror: ["brorson", "brorsdotter", "brorsbarn"], faster: ["brorson", "brorsdotter", "brorsbarn"],
+  morbror: ["systerson", "systerdotter", "systerbarn"], moster: ["systerson", "systerdotter", "systerbarn"],
+  farfar: ["sonson", "sondotter", "sonbarn"], farmor: ["sonson", "sondotter", "sonbarn"],
+  morfar: ["dotterson", "dotterdotter", "dotterbarn"], mormor: ["dotterson", "dotterdotter", "dotterbarn"],
+  kusin: ["kusin", "kusin", "kusin"],
+  make: ["make", "hustru", "make eller hustru"], hustru: ["make", "hustru", "make eller hustru"],
+  svärfar: ["svärson", "svärdotter", "svärbarn"], svärmor: ["svärson", "svärdotter", "svärbarn"],
+  husbonde: ["tjänstehjon", "tjänstehjon", "tjänstehjon"], matmor: ["tjänstehjon", "tjänstehjon", "tjänstehjon"],
+  styvfar: ["styvson", "styvdotter", "styvbarn"], styvmor: ["styvson", "styvdotter", "styvbarn"],
+  fosterfar: ["fosterson", "fosterdotter", "fosterbarn"], fostermor: ["fosterson", "fosterdotter", "fosterbarn"], fosterförälder: ["fosterson", "fosterdotter", "fosterbarn"],
+};
+
+function invert(role, sex) {
+  const forms = INVERSE[role.noun];
+  if (!forms) return null;
+  const noun = forms[sex === "m" ? 0 : sex === "f" ? 1 : 2];
+  const kind = KIN.has(noun) && !role.hedge && !role.prefix ? "K" : "R";
+  return { ...role, noun, kind, prep: undefined };
+}
+
+// Vittne vid dopet av den länkade personen: `dopvittne`, `eget dopvittne`,
+// `dopvittne vid hennes dop`, `dopvittne åt`. En rad som namnger ett annat
+// dopbarn (`Dopvittne till Anna Fredrika`) räknas inte.
+// Vittnesordet måste stå i huvudledet (eller som `eget dopvittne`); i en cell som
+// `bror och dopvittne` gäller vittnesmålet ett annat dop än personens eget.
+const isWitness = (cell) => {
+  if (/[Dd]opvittne (?:till|åt|vid dopet av) \p{Lu}/u.test(cell)) return false;
+  return /^dopvittne(?:$| vid (?:hennes|hans) dop| vid dopet| åt)/i.test(head(cell)) || /(?:^|[\s,])eget dopvittne\b/i.test(cell);
+};
+
+const rowsOf = (person) => {
+  const section = (person.text.split("## Relationer")[1] ?? "").split(/\n## /)[0];
+  return [...section.matchAll(/^\|\s*\[[^\]]+\]\((P-\d{4})[^)]*\)\s*\|\s*([^|]+)\|([^\n]*)$/gm)]
+    .map(([, target, relation, rest]) => ({ target, relation: relation.trim(), status: (rest.split("|")[1] ?? "").trim().toUpperCase() }));
+};
+
+const doubt = (row) => (row ? (row.status === "CONFLICT" ? "omstridd" : row.status === "REJECTED" ? "avvisad" : UNCERTAIN.has(row.status) || RESERVATION.test(row.relation) ? "obekräftad" : "") : "");
+const agree = (word, noun) => (word && NEUTER.has(noun.split(" ")[0]) ? word.replace(/d$/, "t").replace(/ttt$/, "tt") : word);
+
+// Alla kända roller mellan en sidoperson och en annan person. Osäkerhet i
+// endera aktens rad gäller relationen.
+function facts(people, sexes, s, other) {
+  const theirs = rowsOf(people.get(other)).find((r) => r.target === s);
+  const mine = rowsOf(people.get(s)).find((r) => r.target === other);
+  const worst = [doubt(theirs), doubt(mine)].find((d) => d === "avvisad") ?? [doubt(theirs), doubt(mine)].find((d) => d === "omstridd") ?? [doubt(theirs), doubt(mine)].find(Boolean) ?? "";
+  const out = [];
+  const add = (f) => out.push(worst && !f.witness ? { ...f, kind: "R", doubt: worst } : { ...f, doubt: f.witness ? "" : worst });
+  if (theirs) {
+    if (isWitness(theirs.relation)) add({ witness: true, source: "ankare" });
+    else {
+      const role = parseRole(head(theirs.relation));
+      if (role) add({ ...role, source: "ankare" });
+    }
+  }
+  if (mine) {
+    if (isWitness(mine.relation)) add({ witness: true, source: "egen" });
+    else {
+      const role = parseRole(head(mine.relation));
+      const inverted = role && invert(role, sexes.get(s));
+      if (inverted) add({ ...inverted, source: "egen" });
+    }
+  }
+  return out;
+}
+
+const distance = (f) => (f.witness ? 3 : CLOSE.has(f.noun) ? 0 : KIN.has(f.noun) ? 1 : f.noun === "hustru" || f.noun === "make" ? 1 : 2);
+const rank = (f) => (f.kind === "K" ? 0 : 10) + (f.doubt ? 20 : 0) + distance(f) + (f.source === "egen" ? 0.1 : 0);
+const isKin = (f) => f.kind === "K" && !f.witness;
+
+function roleText(f) {
+  if (f.witness) return "dopvittne vid dopet av";
+  const hedge = f.hedge || agree(f.doubt, f.noun);
+  const noun = [f.prefix, f.noun, f.qual].filter(Boolean).join(" ");
+  return `${hedge ? `${hedge} ` : ""}${noun} ${f.prep ?? (HOS.has(f.noun) ? "hos" : "till")}`;
+}
+
+const genitive = (phrase) => (phrase.endsWith("s") ? phrase : `${phrase}s`);
+const SIBLING_WORD = { far: { bror: "farbror", syster: "faster" }, mor: { bror: "morbror", syster: "moster" } };
+const kinPhrase = (anchorPhrase, noun) => SIBLING_WORD[anchorPhrase]?.[noun] ?? `${genitive(anchorPhrase)} ${noun}`;
+
+function sideText(people, anchor, anchorPhrase, f) {
+  if (isKin(f)) {
+    return `**Släktled:** ${kinPhrase(anchorPhrase, f.noun)} till ${sons(people)} — ${[f.noun, f.qual].filter(Boolean).join(" ")} till ${link(people, anchor)}.`;
+  }
+  return `**Släktled:** ${roleText(f)} ${link(people, anchor)}, ${anchorPhrase} till ${sons(people)}.`;
+}
+
+export function sideBlocks(people, sexes, anchorPhrases, overrides = {}) {
+  const pending = [...people.keys()].filter((id) => !anchorPhrases.has(id) && !SONS.includes(id) && !overrides[id]);
+  const chosen = new Map();
+  const phrases = new Map(anchorPhrases);
+  const best = (s, anchors) => {
+    let choice = null;
+    for (const anchor of anchors) {
+      for (const f of facts(people, sexes, s, anchor)) {
+        if (!choice || rank(f) < rank(choice.f) || (rank(f) === rank(choice.f) && anchor < choice.anchor)) choice = { anchor, f };
+      }
+    }
+    return choice;
+  };
+  // Nivå för nivå: först mot anorna, sedan mot dem som just blivit blodsläkt.
+  // En osäker eller icke-släkt etikett får ersättas av säker släkt på en senare
+  // nivå; en säker etikett rörs aldrig.
+  let frontier = [...anchorPhrases.keys()];
+  for (let level = 1; frontier.length; level += 1) {
+    const next = [];
+    for (const s of pending) {
+      const previous = chosen.get(s);
+      if (previous && isKin(previous.f)) continue;
+      const choice = best(s, frontier);
+      if (!choice || (previous && !isKin(choice.f))) continue;
+      chosen.set(s, { ...choice, level });
+      if (isKin(choice.f)) { phrases.set(s, kinPhrase(phrases.get(choice.anchor), choice.f.noun)); next.push(s); }
+    }
+    frontier = next;
+  }
+  const blocks = new Map();
+  const readings = [];
+  for (const s of pending) {
+    const c = chosen.get(s);
+    if (c) {
+      blocks.set(s, { text: wrap(sideText(people, c.anchor, phrases.get(c.anchor), c.f)) });
+      readings.push({ id: s, via: c.level === 1 ? "ana" : "släkt", anchor: c.anchor, kind: isKin(c.f) ? "K" : "R", witness: !!c.f.witness, source: c.f.source });
+      continue;
+    }
+    const others = [...people.keys()].filter((id) => id !== s).sort();
+    const context = best(s, others.filter((id) => phrases.has(id) || chosen.has(id))) ?? best(s, others);
+    let text = `**Släktled:** ingen känd släktskap med ${sons(people)}.`;
+    if (context) text += ` ${roleText(context.f).replace(/^./, (ch) => ch.toUpperCase())} ${link(people, context.anchor)}.`;
+    blocks.set(s, { text: wrap(text) });
+    readings.push({ id: s, via: "ingen", anchor: context?.anchor ?? null });
+  }
+  // Lästa tolkningar: rollordet och noten är lästa, ankarets släktled räknas.
+  for (const [s, o] of Object.entries(overrides)) {
+    if (!people.has(s) || !people.has(o.ankare)) continue;
+    const phrase = phrases.get(o.ankare);
+    const note = o.not ? ` ${o.not}` : "";
+    const text = o.slag === "ingen"
+      ? `**Släktled:** ${o.inledning ?? `ingen känd släktskap med ${sons(people)}.`} ${o.roll} ${link(people, o.ankare)}${phrase ? `, som är ${phrase}` : ""}.${note}`
+      : `**Släktled:** ${o.roll} ${link(people, o.ankare)}, ${phrase} till ${sons(people)}.${note}`;
+    blocks.set(s, { text: wrap(text) });
+    readings.push({ id: s, via: "läst", anchor: o.ankare });
+  }
+  return { blocks, readings };
 }
 
 // Regionen mellan H1 och första H2 ägs av generatorn.

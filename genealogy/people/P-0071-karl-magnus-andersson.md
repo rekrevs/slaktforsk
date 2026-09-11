@@ -1,5 +1,9 @@
 # P-0071: Karl Magnus Andersson
 
+**Släktled:** farmors farmors bror till [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md) — bror till
+[Ida Sofia Andersdotter](P-0029-ida-sofia-andersdotter.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-09 i T-0178.

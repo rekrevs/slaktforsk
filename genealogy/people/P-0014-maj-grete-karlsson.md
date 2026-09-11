@@ -1,5 +1,9 @@
 # P-0014: Maj-Grete Karlsson, född Eliaesson
 
+**Släktled:** farfars farfars dotter till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — dotter till
+[Bernhard Natanael Eliasson](P-0010-bernard-natanael-eliasson.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-08, T-0142, person-dossier/v1.

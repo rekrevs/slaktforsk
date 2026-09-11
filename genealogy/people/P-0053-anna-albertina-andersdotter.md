@@ -1,5 +1,9 @@
 # P-0053: Anna Albertina Andersdotter
 
+**Släktled:** farmors morfars syster till [Adam](P-0269-adam-jan-gunnar.md)
+och [Axel](P-0270-axel-ivar-malte.md) — syster till
+[Anders Alfred Andersson](P-0048-anders-alfred-andersson.md).
+
 ## Arbetsläge
 
 - Konsolidering: `GRANSKAD` 2026-09-07, T-0117; `person-dossier/v1`.

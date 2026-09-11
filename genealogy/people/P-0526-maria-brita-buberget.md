@@ -1,5 +1,9 @@
 # P-0526: Maria Brita i Buberget
 
+**Släktled:** farmors farmors fars syskon till
+[Adam](P-0269-adam-jan-gunnar.md) och [Axel](P-0270-axel-ivar-malte.md) —
+syskon till [Anders Jonsson](P-0065-anders-jonsson.md).
+
 ## Arbetsläge
 
 - Format: `person-dossier/v1`, konsoliderad 2026-09-10 i T-0202.

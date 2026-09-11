@@ -1,5 +1,9 @@
 # P-0059: Cajsa Lotta Jonsdotter
 
+**Släktled:** ingen känd släktskap med [Adam](P-0269-adam-jan-gunnar.md) och
+[Axel](P-0270-axel-ivar-malte.md). Hustru till
+[Johan Pettersson Lundström](P-0058-johan-pettersson-lundstrom.md).
+
 ## Arbetsläge
 
 - Aktstandard: `person-dossier/v1`
