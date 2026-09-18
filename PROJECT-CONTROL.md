@@ -5437,3 +5437,78 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   ägarens instruktion 2026-09-18; skapa inga arbetsgrenar utan ny beställning.
 - Revisit when: En konkret normkonflikt, ett nytt arbetsfall eller en faktisk
   återställningslucka visar behov av en avgränsad ändring.
+
+## PCR-2026-09-18-002
+
+- Record type: review
+- Date: 2026-09-18
+- Mode: checkpoint
+- Trigger: Efter T-0110/T-0115 ifrågasätter ägaren den höga uppmätta felandelen
+  och frågar vilken uppgift som behövs för att granska hela materialet.
+- Control judgement: redirect, evaluate, preserve
+- Current gate: Riktiga originaltolkningar är inte visade för hela materialet.
+  T-0110 fann fel i 7 av 25 bedömbara citationer; dess låsta ram och bortfall
+  tillåter ingen generell procentsiffra för hela databasen. T-0115:s
+  konsolidering och tekniska tester ersätter inte visuell originalgranskning.
+- Recommendation: Inventera hela befintliga källmaterialet i ett låst manifest,
+  pröva en systematisk läsmetod i en fast varierad pilot och fördela resten
+  i ändliga källkohorter. Prioritera bärande identitets-/relationsbelägg,
+  följ varje rättelse till aktuella slutsatser och fria textkopior. Avsluta
+  programmet med separat täckningsrevision och nytt oberoende stickprov.
+  T-0671/T-0672 samordnas som stöd; de ersätter inte originalrevisionen.
+- Owner decision required: Godkänn föreslagen programriktning och första
+  uppgiften T-0673; ägarens svar bevaras separat nedan.
+- Evidence:
+  - `genealogy2/verification/T-0110/report.md`, `plan.md`, `results.json`.
+  - `genealogy2/verification/T-0115-report.md` och `wotan/dev-log/T-0115.md`.
+  - `wotan/dev-log/T-0671.md`, `wotan/dev-log/T-0672.md`.
+  - PCD-2026-09-07-024–026, PCD-2026-09-09-027–030,
+    PCD-2026-09-10-031, PCD-2026-09-11-034–035.
+- Uncertainty: En andra AI-läsning är inte oberoende bevis för felfrihet.
+  Oenighet, oläslighet och saknade original ska förbli synliga. Samma bild,
+  avskrift och registerkedja är inte flera oberoende vittnen. Full täckning
+  av granskningsutfall är inte full bekräftelse av alla uppgifter.
+- Related work: Ingen extern horisontsökning behövs för denna prövning av
+  projektets egna originaltolkningar. Tillämpliga käll-/åtkomstnormer består.
+- Resulting Wotan tasks: föreslagen T-0673, med ändliga efterföljande
+  granskningskohorter och separat slutrevision efter inventering/pilot.
+- Portfolio signal: Befintlig kunskaps tillförlitlighet bör prioriteras före
+  ny frontforskning. Migration och konsolidering är historiskt slutförda.
+- Revisit when: Pilotens metod, arbetsåtgång och återstående mängd är kända,
+  eller ett nytt originalfynd påverkar bärande identitet eller anlinje.
+
+## PCD-2026-09-18-003
+
+- Record type: decision
+- Date: 2026-09-18
+- Decides review: PCR-2026-09-18-002
+- Owner: Sverker Adam Janson
+- Decision: Ägaren svarar ”ok, vi kör så” på förslaget om fullständig
+  originalrevision, med T-0673 som första uppgift: komplett låst inventering,
+  fast pilot, prövad läsmetod och heltäckande fördelning på ändliga följduppgifter.
+- Disposition: approved
+- Scope: Revisionen gäller befintligt källmaterial och dess aktuella bruk,
+  inklusive sidopersoner, negativa fynd och material med saknade länkar.
+  Samtliga poster inventeras. Historiska/avvecklade underlag får uttrycklig
+  disposition; beslut om avvecklad personforskning, minimibehandling av
+  vittnen och OWNER_CONFIRMED består. Material som ännu påverkar aktuella
+  slutsatser ska granskas oavsett gammal aktstatus. T-0110:s tillräckligt
+  dokumenterade läsningar kan tillgodoräknas endast inom exakt granskat omfång.
+  Inget automatiskt personkontraktsgodkännande följer av originalrevision.
+- Execution: T-0673 genomförs först och avslutas inte som om hela materialet
+  vore granskat. Följdkohorter och separat slutgrind får fasta listor och
+  verkliga beroenden. Revisionsprogrammet prioriteras före ny frontforskning;
+  använd köordning och noter, inte fabricerade after-beroenden. Befintliga
+  forskningsuppgifter/checkpoints bevaras. Wotan är enda exekveringsminnet.
+- Boundaries: Detta är inget obegränsat north-star-uppdrag, ingen ny
+  generationsutvidgning, arkivbeställning, kontakt, publicering, PDF,
+  dashboarduppdatering eller push. Genealogy2:s versionsväg och main gäller;
+  det frysta genealogyarkivet lämnas orört. Svåråtkomligt eller oläsligt
+  material redovisas som sådant, aldrig som verifierat eller bortsorterat.
+- Resulting Wotan tasks: T-0673; efterföljande kohorter och slutrevision
+  allokeras i uppgiften efter låst inventering och metodprov. T-0671/T-0672
+  samordnas för att undvika dubblerat arbete.
+- Portfolio signal: Godkänd kvalitetsrevision med avgränsad första leverans.
+  Fortsatta arkivfronter väntar i prioritet medan befintliga belägg prövas.
+- Revisit when: T-0673:s pilot och fullständiga fördelning är verifierade,
+  eller materiellt motbelägg kräver ett nytt ägarbeslut om familjeuppgift.

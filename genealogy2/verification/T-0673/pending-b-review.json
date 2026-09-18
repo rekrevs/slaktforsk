@@ -1,0 +1,1184 @@
+{
+  "task": "T-0673",
+  "reviewed_at": "2026-09-18T10:09:27.087394+00:00",
+  "operation_reviewed": "T-0673/b-units-proposal-v1",
+  "count": 16,
+  "affected_current_objects": 9,
+  "scope": "Endast dessa16 B-requests. Root-operationens55 requests omfattas inte. Läsning från main i mode=ro; ingen apply.",
+  "reviews": [
+    {
+      "id": "1029300dd94a08407dc108fcc07b24bd386e890714c11ee9014c22dcada1477f",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "E-burial-P-0123@1",
+      "changed_revision_id": "O-P-0123-death1896@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "E-burial-P-0123@1",
+        "object_id": "E-burial-P-0123",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Egen begravningsdag; särskild begravningsplats saknas.",
+        "previous_id": null,
+        "kind": "event",
+        "data": {
+          "revision_id": "E-burial-P-0123@1",
+          "event_type": "burial",
+          "date_json": "{\"literal\":\"1896-02-09\",\"precision\":\"exact\",\"value\":\"1896-02-09\"}",
+          "place_id": null,
+          "place_role": "place_of_event"
+        },
+        "dependencies": [
+          {
+            "revision_id": "E-burial-P-0123@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": ""
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av E-burial-P-0123@1 mot O-P-0123-death1896@2. Begravningshändelsens enda exakta dag är1896-02-09; Febr9 i originalets begravningskolumner och burial i O-P-0123-death1896@2 stämmer. place_id är fortsatt null och särskild begravningsplats okänd. Födelsedagens2/21 och läkare/barnmorska-kolumnerna ändrar inte begravningsdagen. Observationsrevisionen O-P-0123-death1896@2 behåller death1896-01-30,burial1896-02-09,homeEktorp,causeTarmvred och folio182; birth är nu null med osäkert rådatum och civilståndet återges som en kombinerad kolumn. Behåll aktuell revision E-burial-P-0123@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "O-P-0123-death1896@2",
+        "object_id": "O-P-0123-death1896",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte.",
+        "previous_id": "O-P-0123-death1896@1",
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0123-death1896@2",
+          "record_id": "R-0d079c3104e21c013814ea7f",
+          "mention_id": "M-C1110-death-Johan-Peter-Urbom",
+          "property": "death_burial_fields",
+          "value_literal": "{\"arrival_date\": null, \"birth\": null, \"burial\": \"1896-02-09\", \"cause_literal\": \"Tarmvred\", \"death\": \"1896-01-30\", \"doctor_attestation_mark\": null, \"folio\": 182, \"home\": \"Ektorp\", \"other_attestation_mark\": null, \"other_death_place\": null, \"sex_column\": \"man räknad till församlingen\", \"special_notes\": null, \"widower_mark\": null, \"birth_raw\": \"18 2[eller21?]/3\", \"birth_reading_status\": \"day_unresolved\", \"previous_birth_reading\": \"1818-03-02\", \"marital_column_literal\": \"Enkling eller frånskild\", \"marital_column_mark\": true, \"other_attestation_column_literal\": \"barnmorska\"}",
+          "value_json": "{\"arrival_date\":null,\"birth\":null,\"birth_raw\":\"18 2[eller21?]/3\",\"birth_reading_status\":\"day_unresolved\",\"burial\":\"1896-02-09\",\"cause_literal\":\"Tarmvred\",\"death\":\"1896-01-30\",\"doctor_attestation_mark\":null,\"folio\":182,\"home\":\"Ektorp\",\"marital_column_literal\":\"Enkling eller frånskild\",\"marital_column_mark\":true,\"other_attestation_column_literal\":\"barnmorska\",\"other_attestation_mark\":null,\"other_death_place\":null,\"previous_birth_reading\":\"1818-03-02\",\"sex_column\":\"man räknad till församlingen\",\"special_notes\":null,\"widower_mark\":null}"
+        }
+      }
+    },
+    {
+      "id": "63d344e1d4a98183b5d4d50cc8be5e2505c581e2eb98b530da8401e6a99b2196",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "E-burial-P-0123@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "E-burial-P-0123@1",
+        "object_id": "E-burial-P-0123",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Egen begravningsdag; särskild begravningsplats saknas.",
+        "previous_id": null,
+        "kind": "event",
+        "data": {
+          "revision_id": "E-burial-P-0123@1",
+          "event_type": "burial",
+          "date_json": "{\"literal\":\"1896-02-09\",\"precision\":\"exact\",\"value\":\"1896-02-09\"}",
+          "place_id": null,
+          "place_role": "place_of_event"
+        },
+        "dependencies": [
+          {
+            "revision_id": "E-burial-P-0123@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": ""
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av E-burial-P-0123@1 mot R-0d079c3104e21c013814ea7f@2. Begravningshändelsens enda exakta dag är1896-02-09; Febr9 i originalets begravningskolumner och burial i O-P-0123-death1896@2 stämmer. place_id är fortsatt null och särskild begravningsplats okänd. Födelsedagens2/21 och läkare/barnmorska-kolumnerna ändrar inte begravningsdagen. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision E-burial-P-0123@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    },
+    {
+      "id": "2f9b779695df10e098ef11e3877e6dff8f1b76f8ab3733b44f2f1963622b1ca4",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "E-death-P-0123@1",
+      "changed_revision_id": "O-P-0123-death1896@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "E-death-P-0123@1",
+        "object_id": "E-death-P-0123",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Egen dödspost; särskild fysisk dödsplats olöst, Ektorp är hemvist.",
+        "previous_id": null,
+        "kind": "event",
+        "data": {
+          "revision_id": "E-death-P-0123@1",
+          "event_type": "death",
+          "date_json": "{\"literal\":\"1896-01-30\",\"precision\":\"exact\",\"value\":\"1896-01-30\"}",
+          "place_id": null,
+          "place_role": "place_of_event"
+        },
+        "dependencies": [
+          {
+            "revision_id": "E-death-P-0123@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": ""
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av E-death-P-0123@1 mot O-P-0123-death1896@2. Dödshändelsens enda exakta dag är1896-01-30; Januari30 i originalets dödskolumner och death i O-P-0123-death1896@2 stämmer. place_id är fortsatt null; Ektorp används som hemvist, inte säker fysisk dödsplats. Den olösta födelsedagen och rubrikrättelsen ändrar inte dödsdagen. Observationsrevisionen O-P-0123-death1896@2 behåller death1896-01-30,burial1896-02-09,homeEktorp,causeTarmvred och folio182; birth är nu null med osäkert rådatum och civilståndet återges som en kombinerad kolumn. Behåll aktuell revision E-death-P-0123@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "O-P-0123-death1896@2",
+        "object_id": "O-P-0123-death1896",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte.",
+        "previous_id": "O-P-0123-death1896@1",
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0123-death1896@2",
+          "record_id": "R-0d079c3104e21c013814ea7f",
+          "mention_id": "M-C1110-death-Johan-Peter-Urbom",
+          "property": "death_burial_fields",
+          "value_literal": "{\"arrival_date\": null, \"birth\": null, \"burial\": \"1896-02-09\", \"cause_literal\": \"Tarmvred\", \"death\": \"1896-01-30\", \"doctor_attestation_mark\": null, \"folio\": 182, \"home\": \"Ektorp\", \"other_attestation_mark\": null, \"other_death_place\": null, \"sex_column\": \"man räknad till församlingen\", \"special_notes\": null, \"widower_mark\": null, \"birth_raw\": \"18 2[eller21?]/3\", \"birth_reading_status\": \"day_unresolved\", \"previous_birth_reading\": \"1818-03-02\", \"marital_column_literal\": \"Enkling eller frånskild\", \"marital_column_mark\": true, \"other_attestation_column_literal\": \"barnmorska\"}",
+          "value_json": "{\"arrival_date\":null,\"birth\":null,\"birth_raw\":\"18 2[eller21?]/3\",\"birth_reading_status\":\"day_unresolved\",\"burial\":\"1896-02-09\",\"cause_literal\":\"Tarmvred\",\"death\":\"1896-01-30\",\"doctor_attestation_mark\":null,\"folio\":182,\"home\":\"Ektorp\",\"marital_column_literal\":\"Enkling eller frånskild\",\"marital_column_mark\":true,\"other_attestation_column_literal\":\"barnmorska\",\"other_attestation_mark\":null,\"other_death_place\":null,\"previous_birth_reading\":\"1818-03-02\",\"sex_column\":\"man räknad till församlingen\",\"special_notes\":null,\"widower_mark\":null}"
+        }
+      }
+    },
+    {
+      "id": "e2c3bea4121829c8858dda7fe38c23fcb6266032b5e5a16051958c259b933106",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "E-death-P-0123@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "E-death-P-0123@1",
+        "object_id": "E-death-P-0123",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Egen dödspost; särskild fysisk dödsplats olöst, Ektorp är hemvist.",
+        "previous_id": null,
+        "kind": "event",
+        "data": {
+          "revision_id": "E-death-P-0123@1",
+          "event_type": "death",
+          "date_json": "{\"literal\":\"1896-01-30\",\"precision\":\"exact\",\"value\":\"1896-01-30\"}",
+          "place_id": null,
+          "place_role": "place_of_event"
+        },
+        "dependencies": [
+          {
+            "revision_id": "E-death-P-0123@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": ""
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av E-death-P-0123@1 mot R-0d079c3104e21c013814ea7f@2. Dödshändelsens enda exakta dag är1896-01-30; Januari30 i originalets dödskolumner och death i O-P-0123-death1896@2 stämmer. place_id är fortsatt null; Ektorp används som hemvist, inte säker fysisk dödsplats. Den olösta födelsedagen och rubrikrättelsen ändrar inte dödsdagen. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision E-death-P-0123@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    },
+    {
+      "id": "498754655d96879a681e695a73884d43a4692691630d97098caadbd4fec4b950",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "EP-E-burial-P-0123-P-0123-principal@1",
+      "changed_revision_id": "O-P-0123-death1896@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "EP-E-burial-P-0123-P-0123-principal@1",
+        "object_id": "EP-E-burial-P-0123-P-0123-principal",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Egen begravningsdag; särskild begravningsplats saknas.",
+        "previous_id": null,
+        "kind": "participation",
+        "data": {
+          "revision_id": "EP-E-burial-P-0123-P-0123-principal@1",
+          "event_id": "E-burial-P-0123",
+          "person_id": "P-0123",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "dependencies": [
+          {
+            "revision_id": "EP-E-burial-P-0123-P-0123-principal@1",
+            "basis_revision_id": "E-burial-P-0123@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av EP-E-burial-P-0123-P-0123-principal@1 mot O-P-0123-death1896@2. Deltagandet binder P-0123 som principal till E-burial-P-0123@1, med mention_id null. Händelsens begravningsdag1896-02-09 och vuxenmannens identifiering består. Deltagandet innehåller varken födelsedag eller tolkning av attest-/civilståndskolumn och ger inte en ny födelsebarnsidentitet. Observationsrevisionen O-P-0123-death1896@2 behåller death1896-01-30,burial1896-02-09,homeEktorp,causeTarmvred och folio182; birth är nu null med osäkert rådatum och civilståndet återges som en kombinerad kolumn. Behåll aktuell revision EP-E-burial-P-0123-P-0123-principal@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "O-P-0123-death1896@2",
+        "object_id": "O-P-0123-death1896",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte.",
+        "previous_id": "O-P-0123-death1896@1",
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0123-death1896@2",
+          "record_id": "R-0d079c3104e21c013814ea7f",
+          "mention_id": "M-C1110-death-Johan-Peter-Urbom",
+          "property": "death_burial_fields",
+          "value_literal": "{\"arrival_date\": null, \"birth\": null, \"burial\": \"1896-02-09\", \"cause_literal\": \"Tarmvred\", \"death\": \"1896-01-30\", \"doctor_attestation_mark\": null, \"folio\": 182, \"home\": \"Ektorp\", \"other_attestation_mark\": null, \"other_death_place\": null, \"sex_column\": \"man räknad till församlingen\", \"special_notes\": null, \"widower_mark\": null, \"birth_raw\": \"18 2[eller21?]/3\", \"birth_reading_status\": \"day_unresolved\", \"previous_birth_reading\": \"1818-03-02\", \"marital_column_literal\": \"Enkling eller frånskild\", \"marital_column_mark\": true, \"other_attestation_column_literal\": \"barnmorska\"}",
+          "value_json": "{\"arrival_date\":null,\"birth\":null,\"birth_raw\":\"18 2[eller21?]/3\",\"birth_reading_status\":\"day_unresolved\",\"burial\":\"1896-02-09\",\"cause_literal\":\"Tarmvred\",\"death\":\"1896-01-30\",\"doctor_attestation_mark\":null,\"folio\":182,\"home\":\"Ektorp\",\"marital_column_literal\":\"Enkling eller frånskild\",\"marital_column_mark\":true,\"other_attestation_column_literal\":\"barnmorska\",\"other_attestation_mark\":null,\"other_death_place\":null,\"previous_birth_reading\":\"1818-03-02\",\"sex_column\":\"man räknad till församlingen\",\"special_notes\":null,\"widower_mark\":null}"
+        }
+      }
+    },
+    {
+      "id": "4e42554bddc1e305fa7b44f1566d2be6056fd9b8fd7519859015a8683b4f9cdf",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "EP-E-burial-P-0123-P-0123-principal@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "EP-E-burial-P-0123-P-0123-principal@1",
+        "object_id": "EP-E-burial-P-0123-P-0123-principal",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Egen begravningsdag; särskild begravningsplats saknas.",
+        "previous_id": null,
+        "kind": "participation",
+        "data": {
+          "revision_id": "EP-E-burial-P-0123-P-0123-principal@1",
+          "event_id": "E-burial-P-0123",
+          "person_id": "P-0123",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "dependencies": [
+          {
+            "revision_id": "EP-E-burial-P-0123-P-0123-principal@1",
+            "basis_revision_id": "E-burial-P-0123@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av EP-E-burial-P-0123-P-0123-principal@1 mot R-0d079c3104e21c013814ea7f@2. Deltagandet binder P-0123 som principal till E-burial-P-0123@1, med mention_id null. Händelsens begravningsdag1896-02-09 och vuxenmannens identifiering består. Deltagandet innehåller varken födelsedag eller tolkning av attest-/civilståndskolumn och ger inte en ny födelsebarnsidentitet. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision EP-E-burial-P-0123-P-0123-principal@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    },
+    {
+      "id": "3b8f03aee45e4bbd596a7df22e12280328d0679ff922e316f4613813ef543391",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "EP-E-death-P-0123-P-0123-principal@1",
+      "changed_revision_id": "O-P-0123-death1896@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "EP-E-death-P-0123-P-0123-principal@1",
+        "object_id": "EP-E-death-P-0123-P-0123-principal",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Egen dödspost; särskild fysisk dödsplats olöst, Ektorp är hemvist.",
+        "previous_id": null,
+        "kind": "participation",
+        "data": {
+          "revision_id": "EP-E-death-P-0123-P-0123-principal@1",
+          "event_id": "E-death-P-0123",
+          "person_id": "P-0123",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "dependencies": [
+          {
+            "revision_id": "EP-E-death-P-0123-P-0123-principal@1",
+            "basis_revision_id": "E-death-P-0123@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av EP-E-death-P-0123-P-0123-principal@1 mot O-P-0123-death1896@2. Deltagandet binder P-0123 som principal till E-death-P-0123@1, med mention_id null. Dödsdagen1896-01-30 och den identifierade vuxenmannen består. Födelsedagens reservation, kombinerat civilståndsfält och tomma attestfält förändrar inte vem som deltar i just denna dödshändelse. Observationsrevisionen O-P-0123-death1896@2 behåller death1896-01-30,burial1896-02-09,homeEktorp,causeTarmvred och folio182; birth är nu null med osäkert rådatum och civilståndet återges som en kombinerad kolumn. Behåll aktuell revision EP-E-death-P-0123-P-0123-principal@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "O-P-0123-death1896@2",
+        "object_id": "O-P-0123-death1896",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte.",
+        "previous_id": "O-P-0123-death1896@1",
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0123-death1896@2",
+          "record_id": "R-0d079c3104e21c013814ea7f",
+          "mention_id": "M-C1110-death-Johan-Peter-Urbom",
+          "property": "death_burial_fields",
+          "value_literal": "{\"arrival_date\": null, \"birth\": null, \"burial\": \"1896-02-09\", \"cause_literal\": \"Tarmvred\", \"death\": \"1896-01-30\", \"doctor_attestation_mark\": null, \"folio\": 182, \"home\": \"Ektorp\", \"other_attestation_mark\": null, \"other_death_place\": null, \"sex_column\": \"man räknad till församlingen\", \"special_notes\": null, \"widower_mark\": null, \"birth_raw\": \"18 2[eller21?]/3\", \"birth_reading_status\": \"day_unresolved\", \"previous_birth_reading\": \"1818-03-02\", \"marital_column_literal\": \"Enkling eller frånskild\", \"marital_column_mark\": true, \"other_attestation_column_literal\": \"barnmorska\"}",
+          "value_json": "{\"arrival_date\":null,\"birth\":null,\"birth_raw\":\"18 2[eller21?]/3\",\"birth_reading_status\":\"day_unresolved\",\"burial\":\"1896-02-09\",\"cause_literal\":\"Tarmvred\",\"death\":\"1896-01-30\",\"doctor_attestation_mark\":null,\"folio\":182,\"home\":\"Ektorp\",\"marital_column_literal\":\"Enkling eller frånskild\",\"marital_column_mark\":true,\"other_attestation_column_literal\":\"barnmorska\",\"other_attestation_mark\":null,\"other_death_place\":null,\"previous_birth_reading\":\"1818-03-02\",\"sex_column\":\"man räknad till församlingen\",\"special_notes\":null,\"widower_mark\":null}"
+        }
+      }
+    },
+    {
+      "id": "11c87a97966afc2f1294efeba9f0cd501d54ef6dd3f0ad3e0042936dd03804c0",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "EP-E-death-P-0123-P-0123-principal@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "EP-E-death-P-0123-P-0123-principal@1",
+        "object_id": "EP-E-death-P-0123-P-0123-principal",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Egen dödspost; särskild fysisk dödsplats olöst, Ektorp är hemvist.",
+        "previous_id": null,
+        "kind": "participation",
+        "data": {
+          "revision_id": "EP-E-death-P-0123-P-0123-principal@1",
+          "event_id": "E-death-P-0123",
+          "person_id": "P-0123",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "dependencies": [
+          {
+            "revision_id": "EP-E-death-P-0123-P-0123-principal@1",
+            "basis_revision_id": "E-death-P-0123@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av EP-E-death-P-0123-P-0123-principal@1 mot R-0d079c3104e21c013814ea7f@2. Deltagandet binder P-0123 som principal till E-death-P-0123@1, med mention_id null. Dödsdagen1896-01-30 och den identifierade vuxenmannen består. Födelsedagens reservation, kombinerat civilståndsfält och tomma attestfält förändrar inte vem som deltar i just denna dödshändelse. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision EP-E-death-P-0123-P-0123-principal@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    },
+    {
+      "id": "1ccaef398082f7c8edc1ab597654ce9d725301d2d45fec897e9925da46b0ebcf",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "F-P-0123-death_cause-curated@1",
+      "changed_revision_id": "O-P-0123-death1896@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "F-P-0123-death_cause-curated@1",
+        "object_id": "F-P-0123-death_cause-curated",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0123-death_cause-curated@1",
+          "subject_id": "P-0123",
+          "property": "death_cause",
+          "value_type": "structured",
+          "value_json": "{\"at\":\"1896-01-30\",\"diagnostic_modernization\":null,\"literal\":\"Tarmvred\"}"
+        },
+        "dependencies": [
+          {
+            "revision_id": "F-P-0123-death_cause-curated@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av F-P-0123-death_cause-curated@1 mot O-P-0123-death1896@2. Slutsatsen återger källordet Tarmvred vid1896-01-30 och diagnostic_modernization:null. Ordet och dagen är direkt bekräftade i posten och oförändrade i O-P-0123-death1896@2. Attesterna är tomma även efter korrekt rubrik barnmorska; slutsatsen påstår inte läkarintyg eller modern diagnos. Observationsrevisionen O-P-0123-death1896@2 behåller death1896-01-30,burial1896-02-09,homeEktorp,causeTarmvred och folio182; birth är nu null med osäkert rådatum och civilståndet återges som en kombinerad kolumn. Behåll aktuell revision F-P-0123-death_cause-curated@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "O-P-0123-death1896@2",
+        "object_id": "O-P-0123-death1896",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte.",
+        "previous_id": "O-P-0123-death1896@1",
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0123-death1896@2",
+          "record_id": "R-0d079c3104e21c013814ea7f",
+          "mention_id": "M-C1110-death-Johan-Peter-Urbom",
+          "property": "death_burial_fields",
+          "value_literal": "{\"arrival_date\": null, \"birth\": null, \"burial\": \"1896-02-09\", \"cause_literal\": \"Tarmvred\", \"death\": \"1896-01-30\", \"doctor_attestation_mark\": null, \"folio\": 182, \"home\": \"Ektorp\", \"other_attestation_mark\": null, \"other_death_place\": null, \"sex_column\": \"man räknad till församlingen\", \"special_notes\": null, \"widower_mark\": null, \"birth_raw\": \"18 2[eller21?]/3\", \"birth_reading_status\": \"day_unresolved\", \"previous_birth_reading\": \"1818-03-02\", \"marital_column_literal\": \"Enkling eller frånskild\", \"marital_column_mark\": true, \"other_attestation_column_literal\": \"barnmorska\"}",
+          "value_json": "{\"arrival_date\":null,\"birth\":null,\"birth_raw\":\"18 2[eller21?]/3\",\"birth_reading_status\":\"day_unresolved\",\"burial\":\"1896-02-09\",\"cause_literal\":\"Tarmvred\",\"death\":\"1896-01-30\",\"doctor_attestation_mark\":null,\"folio\":182,\"home\":\"Ektorp\",\"marital_column_literal\":\"Enkling eller frånskild\",\"marital_column_mark\":true,\"other_attestation_column_literal\":\"barnmorska\",\"other_attestation_mark\":null,\"other_death_place\":null,\"previous_birth_reading\":\"1818-03-02\",\"sex_column\":\"man räknad till församlingen\",\"special_notes\":null,\"widower_mark\":null}"
+        }
+      }
+    },
+    {
+      "id": "38764b0f63fc030d577940aae334ed3c2f1e8c5621e8a837ae94352ea1b07ac9",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "F-P-0123-death_cause-curated@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "F-P-0123-death_cause-curated@1",
+        "object_id": "F-P-0123-death_cause-curated",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0123-death_cause-curated@1",
+          "subject_id": "P-0123",
+          "property": "death_cause",
+          "value_type": "structured",
+          "value_json": "{\"at\":\"1896-01-30\",\"diagnostic_modernization\":null,\"literal\":\"Tarmvred\"}"
+        },
+        "dependencies": [
+          {
+            "revision_id": "F-P-0123-death_cause-curated@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av F-P-0123-death_cause-curated@1 mot R-0d079c3104e21c013814ea7f@2. Slutsatsen återger källordet Tarmvred vid1896-01-30 och diagnostic_modernization:null. Ordet och dagen är direkt bekräftade i posten och oförändrade i O-P-0123-death1896@2. Attesterna är tomma även efter korrekt rubrik barnmorska; slutsatsen påstår inte läkarintyg eller modern diagnos. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision F-P-0123-death_cause-curated@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    },
+    {
+      "id": "12b7361eb2f70222f9e82fd2e1e4a5a4d3e8ed90c8a99ea308c150594561289b",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "F-P-0123-occupation-curated@1",
+      "changed_revision_id": "O-P-0123-death1896@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "F-P-0123-occupation-curated@1",
+        "object_id": "F-P-0123-occupation-curated",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Källbundna beläggstillfällen, inte oavbruten anställning. Inhyses anger hushållsställning; fattigvård och viss arbetsgivare är inte belagda.",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0123-occupation-curated@1",
+          "subject_id": "P-0123",
+          "property": "occupation",
+          "value_type": "structured",
+          "value_json": "{\"attestations\":[{\"date\":\"1841-10-03\",\"home\":\"Motala\",\"title\":\"Smeddräng\"},{\"date\":\"1849-08-03\",\"home\":\"Spånga bruk\",\"title\":\"Manufactur-Smeden\"},{\"date\":\"1852-02-20\",\"home\":\"Touluse\",\"title\":\"Smed.\"},{\"book\":\"1861–1865\",\"home\":\"Hjulfabriken\",\"title\":\"Smed\"},{\"books\":[\"1871–1875\",\"1876–1880\",\"1881–1885\"],\"home\":\"Ternö\",\"title\":\"smed\"},{\"date\":\"1896-01-30\",\"home\":\"Ektorp\",\"title\":\"Inhyseshjon\"}]}"
+        },
+        "dependencies": [
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C-0249-child-family@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0275-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0276-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0277-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0278-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0281-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1885-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1886-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1891-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-Terno1881-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-child1849-father@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-marriage1841@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av F-P-0123-occupation-curated@1 mot O-P-0123-death1896@2. Den enda berörda yrkes-/rollbeläggspunkten är1896-01-30, Inhyseshjon, Ektorp. Rollen är läst och hemvisten stöds av jämförande bokstavsläsning Ektorp/Ekeby på samma sida. Övriga yrkestillfällen har sina egna versionsbundna poster. Förbehållet om ingen oavbruten anställning, fattigvård eller viss arbetsgivare består; ingen födelsedag eller attestbenämning behövs för denna slutsats. Observationsrevisionen O-P-0123-death1896@2 behåller death1896-01-30,burial1896-02-09,homeEktorp,causeTarmvred och folio182; birth är nu null med osäkert rådatum och civilståndet återges som en kombinerad kolumn. Behåll aktuell revision F-P-0123-occupation-curated@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "O-P-0123-death1896@2",
+        "object_id": "O-P-0123-death1896",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte.",
+        "previous_id": "O-P-0123-death1896@1",
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0123-death1896@2",
+          "record_id": "R-0d079c3104e21c013814ea7f",
+          "mention_id": "M-C1110-death-Johan-Peter-Urbom",
+          "property": "death_burial_fields",
+          "value_literal": "{\"arrival_date\": null, \"birth\": null, \"burial\": \"1896-02-09\", \"cause_literal\": \"Tarmvred\", \"death\": \"1896-01-30\", \"doctor_attestation_mark\": null, \"folio\": 182, \"home\": \"Ektorp\", \"other_attestation_mark\": null, \"other_death_place\": null, \"sex_column\": \"man räknad till församlingen\", \"special_notes\": null, \"widower_mark\": null, \"birth_raw\": \"18 2[eller21?]/3\", \"birth_reading_status\": \"day_unresolved\", \"previous_birth_reading\": \"1818-03-02\", \"marital_column_literal\": \"Enkling eller frånskild\", \"marital_column_mark\": true, \"other_attestation_column_literal\": \"barnmorska\"}",
+          "value_json": "{\"arrival_date\":null,\"birth\":null,\"birth_raw\":\"18 2[eller21?]/3\",\"birth_reading_status\":\"day_unresolved\",\"burial\":\"1896-02-09\",\"cause_literal\":\"Tarmvred\",\"death\":\"1896-01-30\",\"doctor_attestation_mark\":null,\"folio\":182,\"home\":\"Ektorp\",\"marital_column_literal\":\"Enkling eller frånskild\",\"marital_column_mark\":true,\"other_attestation_column_literal\":\"barnmorska\",\"other_attestation_mark\":null,\"other_death_place\":null,\"previous_birth_reading\":\"1818-03-02\",\"sex_column\":\"man räknad till församlingen\",\"special_notes\":null,\"widower_mark\":null}"
+        }
+      }
+    },
+    {
+      "id": "bf4712d88247ce49f01035df7066704aea2c0278402029e44978959607479754",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "F-P-0123-occupation-curated@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "F-P-0123-occupation-curated@1",
+        "object_id": "F-P-0123-occupation-curated",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Källbundna beläggstillfällen, inte oavbruten anställning. Inhyses anger hushållsställning; fattigvård och viss arbetsgivare är inte belagda.",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0123-occupation-curated@1",
+          "subject_id": "P-0123",
+          "property": "occupation",
+          "value_type": "structured",
+          "value_json": "{\"attestations\":[{\"date\":\"1841-10-03\",\"home\":\"Motala\",\"title\":\"Smeddräng\"},{\"date\":\"1849-08-03\",\"home\":\"Spånga bruk\",\"title\":\"Manufactur-Smeden\"},{\"date\":\"1852-02-20\",\"home\":\"Touluse\",\"title\":\"Smed.\"},{\"book\":\"1861–1865\",\"home\":\"Hjulfabriken\",\"title\":\"Smed\"},{\"books\":[\"1871–1875\",\"1876–1880\",\"1881–1885\"],\"home\":\"Ternö\",\"title\":\"smed\"},{\"date\":\"1896-01-30\",\"home\":\"Ektorp\",\"title\":\"Inhyseshjon\"}]}"
+        },
+        "dependencies": [
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C-0249-child-family@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0275-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0276-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0277-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0278-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-C0281-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1885-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1886-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1891-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-Terno1881-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-child1849-father@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-occupation-curated@1",
+            "basis_revision_id": "O-P-0123-marriage1841@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av F-P-0123-occupation-curated@1 mot R-0d079c3104e21c013814ea7f@2. Den enda berörda yrkes-/rollbeläggspunkten är1896-01-30, Inhyseshjon, Ektorp. Rollen är läst och hemvisten stöds av jämförande bokstavsläsning Ektorp/Ekeby på samma sida. Övriga yrkestillfällen har sina egna versionsbundna poster. Förbehållet om ingen oavbruten anställning, fattigvård eller viss arbetsgivare består; ingen födelsedag eller attestbenämning behövs för denna slutsats. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision F-P-0123-occupation-curated@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    },
+    {
+      "id": "2f0ea9e0fd1ecb497c6c0f2ac996985af8436b4625a0bd8215431ad9e3cb50cb",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "F-P-0123-residence-curated@1",
+      "changed_revision_id": "O-P-0123-death1896@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "F-P-0123-residence-curated@1",
+        "object_id": "F-P-0123-residence-curated",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Bokankare och egna rader, ingen obruten fysisk närvaro mellan alla tidpunkter.",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0123-residence-curated@1",
+          "subject_id": "P-0123",
+          "property": "residence",
+          "value_type": "structured",
+          "value_json": "{\"snapshots\":[{\"at\":1841,\"place\":\"Motala\"},{\"at\":1849,\"place\":\"Spånga bruk,Västra Vingåker\"},{\"books\":[\"1851–1855\",\"1856–1860\"],\"place\":\"Touluse,Bettna\"},{\"book\":\"1861–1865\",\"place\":\"Hjulfabriken,Husby-Oppunda\"},{\"books\":[\"1871–1875\",\"1876–1880\",\"1881–1885\"],\"place\":\"Ternö,Husby-Oppunda\"},{\"from_bookkeeping_year\":1885,\"place\":\"Ektorp på Tranviks ägor,Husby-Oppunda\",\"through_death\":\"1896-01-30\"}]}"
+        },
+        "dependencies": [
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0275-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0276-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0277-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0278-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0281-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1885-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1886-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1891-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-Terno1881-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-child1849-father@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-marriage1841@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av F-P-0123-residence-curated@1 mot O-P-0123-death1896@2. Berörd slutpunkt är Ektorp på Tranviks ägor,Husby-Oppunda, genom dödsdagen1896-01-30; startåret1885 bärs av egna Ektorp/Ternöposter och är inte avläst ur denna dödspost. Ektorp stöds av den avblindade bokstavsjämförelsen och death-dagen består i O-P-0123-death1896@2. Aktuell caveat utesluter obruten fysisk närvaro. Varken födelsedag, barnidentitet eller fysisk dödsplats fastställs av bostadsslutsatsen. Observationsrevisionen O-P-0123-death1896@2 behåller death1896-01-30,burial1896-02-09,homeEktorp,causeTarmvred och folio182; birth är nu null med osäkert rådatum och civilståndet återges som en kombinerad kolumn. Behåll aktuell revision F-P-0123-residence-curated@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "O-P-0123-death1896@2",
+        "object_id": "O-P-0123-death1896",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte.",
+        "previous_id": "O-P-0123-death1896@1",
+        "kind": "observation",
+        "data": {
+          "revision_id": "O-P-0123-death1896@2",
+          "record_id": "R-0d079c3104e21c013814ea7f",
+          "mention_id": "M-C1110-death-Johan-Peter-Urbom",
+          "property": "death_burial_fields",
+          "value_literal": "{\"arrival_date\": null, \"birth\": null, \"burial\": \"1896-02-09\", \"cause_literal\": \"Tarmvred\", \"death\": \"1896-01-30\", \"doctor_attestation_mark\": null, \"folio\": 182, \"home\": \"Ektorp\", \"other_attestation_mark\": null, \"other_death_place\": null, \"sex_column\": \"man räknad till församlingen\", \"special_notes\": null, \"widower_mark\": null, \"birth_raw\": \"18 2[eller21?]/3\", \"birth_reading_status\": \"day_unresolved\", \"previous_birth_reading\": \"1818-03-02\", \"marital_column_literal\": \"Enkling eller frånskild\", \"marital_column_mark\": true, \"other_attestation_column_literal\": \"barnmorska\"}",
+          "value_json": "{\"arrival_date\":null,\"birth\":null,\"birth_raw\":\"18 2[eller21?]/3\",\"birth_reading_status\":\"day_unresolved\",\"burial\":\"1896-02-09\",\"cause_literal\":\"Tarmvred\",\"death\":\"1896-01-30\",\"doctor_attestation_mark\":null,\"folio\":182,\"home\":\"Ektorp\",\"marital_column_literal\":\"Enkling eller frånskild\",\"marital_column_mark\":true,\"other_attestation_column_literal\":\"barnmorska\",\"other_attestation_mark\":null,\"other_death_place\":null,\"previous_birth_reading\":\"1818-03-02\",\"sex_column\":\"man räknad till församlingen\",\"special_notes\":null,\"widower_mark\":null}"
+        }
+      }
+    },
+    {
+      "id": "84d8e031d7922b17830c1229f541ba3b39d3b626d6b7fd42b1b9af5e664a2106",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "F-P-0123-residence-curated@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "F-P-0123-residence-curated@1",
+        "object_id": "F-P-0123-residence-curated",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Bokankare och egna rader, ingen obruten fysisk närvaro mellan alla tidpunkter.",
+        "previous_id": null,
+        "kind": "fact",
+        "data": {
+          "revision_id": "F-P-0123-residence-curated@1",
+          "subject_id": "P-0123",
+          "property": "residence",
+          "value_type": "structured",
+          "value_json": "{\"snapshots\":[{\"at\":1841,\"place\":\"Motala\"},{\"at\":1849,\"place\":\"Spånga bruk,Västra Vingåker\"},{\"books\":[\"1851–1855\",\"1856–1860\"],\"place\":\"Touluse,Bettna\"},{\"book\":\"1861–1865\",\"place\":\"Hjulfabriken,Husby-Oppunda\"},{\"books\":[\"1871–1875\",\"1876–1880\",\"1881–1885\"],\"place\":\"Ternö,Husby-Oppunda\"},{\"from_bookkeeping_year\":1885,\"place\":\"Ektorp på Tranviks ägor,Husby-Oppunda\",\"through_death\":\"1896-01-30\"}]}"
+        },
+        "dependencies": [
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0275-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0276-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0277-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0278-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-C0281-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1885-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1886-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-Ektorp1891-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-Terno1881-own-row@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-child1849-father@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-death1896@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          },
+          {
+            "revision_id": "F-P-0123-residence-curated@1",
+            "basis_revision_id": "O-P-0123-marriage1841@1",
+            "role": "supports",
+            "note": "Versionsbundet underlag för denna begränsade slutsats."
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av F-P-0123-residence-curated@1 mot R-0d079c3104e21c013814ea7f@2. Berörd slutpunkt är Ektorp på Tranviks ägor,Husby-Oppunda, genom dödsdagen1896-01-30; startåret1885 bärs av egna Ektorp/Ternöposter och är inte avläst ur denna dödspost. Ektorp stöds av den avblindade bokstavsjämförelsen och death-dagen består i O-P-0123-death1896@2. Aktuell caveat utesluter obruten fysisk närvaro. Varken födelsedag, barnidentitet eller fysisk dödsplats fastställs av bostadsslutsatsen. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision F-P-0123-residence-curated@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    },
+    {
+      "id": "4a6759872e44fee400a71e41fcc145f39f783fcffef5702ae8963b05dbc29f87",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "ID-M-C1110-death-Johan-Peter-Urbom-P-0123@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "ID-M-C1110-death-Johan-Peter-Urbom-P-0123@1",
+        "object_id": "ID-M-C1110-death-Johan-Peter-Urbom-P-0123",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Vuxenfamiljens personbindning enligt bevarade namn-, hushålls-, flytt- och datumargument.",
+        "previous_id": null,
+        "kind": "identity",
+        "data": {
+          "revision_id": "ID-M-C1110-death-Johan-Peter-Urbom-P-0123@1",
+          "mention_id": "M-C1110-death-Johan-Peter-Urbom",
+          "person_id": "P-0123",
+          "decision": "accepted"
+        },
+        "dependencies": [
+          {
+            "revision_id": "ID-M-C1110-death-Johan-Peter-Urbom-P-0123@1",
+            "basis_revision_id": "M-C1110-death-Johan-Peter-Urbom@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av ID-M-C1110-death-Johan-Peter-Urbom-P-0123@1 mot R-0d079c3104e21c013814ea7f@2. Beslutet accepted binder dödspostens vuxenomnämnande M-C1110-death-Johan-Peter-Urbom till P-0123. Namn och Inhyseshjon består, liksom Ektorp/folio182 och dödsdagen i vuxenkedjan. Civilståndets kombinerade rubrik och osäkra födelsedag används inte ensamma för identiteten. Detta är vuxenpersonens bindning, inte ett godkännande av Björsäterbarnet eller personens identitetsgrind; den öppna barn–vuxenfrågan består. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision ID-M-C1110-death-Johan-Peter-Urbom-P-0123@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    },
+    {
+      "id": "3d2f2dde99b1a1fe9488e81c1fd09ceaf9117725f606b1b76113fab9a4e0a210",
+      "operation_id": "T-0673/b-units-proposal-v1",
+      "affected_revision_id": "M-C1110-death-Johan-Peter-Urbom@1",
+      "changed_revision_id": "R-0d079c3104e21c013814ea7f@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "current": {
+        "id": "M-C1110-death-Johan-Peter-Urbom@1",
+        "object_id": "M-C1110-death-Johan-Peter-Urbom",
+        "version": 1,
+        "operation_id": "T-0654/persons-03-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "",
+        "previous_id": null,
+        "kind": "mention",
+        "data": {
+          "revision_id": "M-C1110-death-Johan-Peter-Urbom@1",
+          "record_id": "R-0d079c3104e21c013814ea7f",
+          "name_literal": "Johan Peter Urbom",
+          "role_literal": "Inhyseshjon"
+        },
+        "dependencies": [
+          {
+            "revision_id": "M-C1110-death-Johan-Peter-Urbom@1",
+            "basis_revision_id": "R-0d079c3104e21c013814ea7f@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ]
+      },
+      "proposed_resolution": "T-0673 individuell B-följdprövning av M-C1110-death-Johan-Peter-Urbom@1 mot R-0d079c3104e21c013814ea7f@2. Omnämnandet återger Johan Peter Urbom och Inhyseshjon från samma post3. Namnformen och rollen består efter avblindad jämförande läsning; locatornamnet var känt före förstapasset och räknas inte som ett oberoende namnbevis. Omnämnandet innehåller ingen födelsedag, civilståndstolkning, attestuppgiftslämnare eller fysisk dödsplats. Postrevisionen R-0d079c3104e21c013814ea7f@2 behåller samma källa, bild och postgräns; dess nya reservation gäller lässäkerhet, inte byte av verklig person eller händelse. Behåll aktuell revision M-C1110-death-Johan-Peter-Urbom@1 med dess befintliga exakta underlag; detta godkänner inte den reserverade födelsedagen.",
+      "proposed_disposition": "retain",
+      "changed_current": {
+        "id": "R-0d079c3104e21c013814ea7f@2",
+        "object_id": "R-0d079c3104e21c013814ea7f",
+        "version": 2,
+        "operation_id": "T-0673/b-units-proposal-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+        "caveat": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost.",
+        "previous_id": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "data": {
+          "revision_id": "R-0d079c3104e21c013814ea7f@2",
+          "source_id": "S-0805",
+          "record_type": "death_burial",
+          "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+          "dependence_note": "Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet."
+        }
+      }
+    }
+  ],
+  "P04_current_record_check": {
+    "revision": "R-00df4ccfe3e214a3ad230cb3@2",
+    "locator": "Forssa A I/14, Sjöstugan s.99 rad23, C0006404_00098",
+    "caveat": "ErikGrill återfanns senare; sökning påKarlsson/Carlsson missade namnformen.\nC-0318: Två verkliga rader avgränsas; historiskt sökomfångbilder10–135/s1–143 bevaras. Bilder1–9/136–141 var endast volymgränskontroll.",
+    "result": "Inget1868 och ingen kvarstående förbestämd inflyttningsdatering. R@2 behålls."
+  },
+  "P04_current_transcription_check": {
+    "revision": "TR-T0673-P04-full@1",
+    "result": "Fullmålrad och relevant rad-/tidskontext; andra hushålls förstapasspersondata finns inte som aktuella memberslistor."
+  },
+  "P04_and_P05_requests": [],
+  "outside_graph_reference": "comparison-b.json innehåller extra saktextobjekt och fyra påvisade dependencyluckor. AS2888,KEY ochBIO rättades i B-operationen; P0338 migration_assessment är oförändrad korrekt i kontrollerad del och saknar fortfarande deklarerade sakberoenden. Generellt sökstöd ägs avT0672.",
+  "resolution_draft": "T-0673-b-resolve-draft.json"
+}

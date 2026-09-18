@@ -1,0 +1,2320 @@
+{
+  "task": "T-0673",
+  "created_at": "2026-09-18T10:05:28.249322+00:00",
+  "reader": "/root/c0721_impact",
+  "status": "draft_for_parent_review_no_apply",
+  "db_operation_count": 54,
+  "first_read_sha256": "290c5a5867dbdde5f5e06805417dc5afd2c6719c49edf1d7ece8ce5478649c84",
+  "blindness": "Förstapasset sparades innan äldre avskrifter och currentdata lästes. Locatornamn kända. Jämförelsen och glyphkontrollen är avblindade. second-root.json innehåller även andra enheter vars texter oavsiktligt följde med filvisningen; inga andra enheter har jämförts eller införts här.",
+  "post_unblinding_visual_checks": [
+    {
+      "path": "/tmp/P03-comparison-glyphs.png",
+      "sha256": "28e183c68743c417e0b1a92639cad3d0de1649c4bf978b3f3c1867bbe157ab32",
+      "source_region": [
+        470,
+        850,
+        1880,
+        2900
+      ],
+      "result": "Jämför Ektorp mot nästa radEkeby på samma sida. Födelsetalet2/21 kvarstår reserverat."
+    },
+    {
+      "path": "/tmp/P03-head.png",
+      "result": "Tryckt kolumn18 barnmorska säkert, båda attestceller tomma. Enkling eller frånskild är kombinerad rubrik."
+    },
+    {
+      "path": "/tmp/P04-target-left.png",
+      "result": "30/1; förstapass30/11 var läsarfel.1863/1868 fortsätter osäkert."
+    }
+  ],
+  "units": [
+    {
+      "unit": "P03",
+      "current_record": {
+        "object": "R-0d079c3104e21c013814ea7f",
+        "revision": "R-0d079c3104e21c013814ea7f@1",
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "dependencies": [
+          {
+            "revision_id": "R-0d079c3104e21c013814ea7f@1",
+            "basis_revision_id": "S-0805@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "source_sha256": "d8b8f4ab33dbbadb6c6af33acae8bb73f25d922922632ec0e515a79f7ff9313b",
+      "first_read": {
+        "unit": "P03",
+        "image_path": "genealogy/media/C-1110-husby-B4-00154430_00037-s4.jpg",
+        "sha256": "d8b8f4ab33dbbadb6c6af33acae8bb73f25d922922632ec0e515a79f7ff9313b",
+        "dimensions_sips": "/Users/sverker/repos/slaktforsk/genealogy/media/C-1110-husby-B4-00154430_00037-s4.jpg\n  pixelWidth: 5137\n  pixelHeight: 4092\n",
+        "started_at": "2026-09-18T09:46:20.829959+00:00",
+        "ended_at": "2026-09-18T09:47:36.805239+00:00",
+        "viewed_regions": [
+          {
+            "path": "genealogy/media/C-1110-husby-B4-00154430_00037-s4.jpg",
+            "region": "hela uppslaget",
+            "pixels": [
+              0,
+              0,
+              5137,
+              4092
+            ],
+            "sha256": "d8b8f4ab33dbbadb6c6af33acae8bb73f25d922922632ec0e515a79f7ff9313b"
+          },
+          {
+            "path": "/tmp/P03-row3.png",
+            "pixels": [
+              170,
+              1340,
+              4800,
+              410
+            ],
+            "region": "post3 tvärs över båda sidorna med postgränser",
+            "sha256": "34d5f980bd217be5ce1b9cb377b203e772d96773302f9e5f0ae7130f8aff62dc"
+          },
+          {
+            "path": "/tmp/P03-head.png",
+            "pixels": [
+              170,
+              340,
+              4800,
+              430
+            ],
+            "region": "samtliga tryckta kolumnhuvuden",
+            "sha256": "14438623934dd0867e35aa0f21d2d0ff8f2d5358d1105a6fc749aadd97ecbf0b"
+          },
+          {
+            "path": "/tmp/P03-name-date.png",
+            "pixels": [
+              620,
+              1340,
+              1700,
+              300
+            ],
+            "region": "namn, yrke/roll, bostad och födelsefält",
+            "sha256": "9aeb6e77dbd10f094f12a4dc0297864e2665da66c098831c005b1ebc0143d6d8"
+          }
+        ],
+        "timing_note": "Första helbildsvisningen skedde i omedelbart föregående verktygsanrop. Avsedd förhandslogg misslyckades på saknad PIL-modul; exakt tid för första visningen saknas. Detta startvärde gäller fortsatt detaljläsning och underskattar total tid något.",
+        "extraction": {
+          "visual_locator": {
+            "page_left": "4",
+            "page_right": "4",
+            "year_death": "1896",
+            "parish": "Husby-Oppunda",
+            "year_burial": "1896",
+            "post_number": "3"
+          },
+          "record_scope": "Hela post3, vänster dödbok och motsvarande höger begravningsbok. Intilliggande poster endast som rad-/kolumngränser, inga nya personposter utvunna.",
+          "columns": [
+            {
+              "column": 1,
+              "label": "Inskrifningens löpande nummer",
+              "state": "read",
+              "raw": "3"
+            },
+            {
+              "column": 2,
+              "label": "Död år och månad",
+              "state": "read",
+              "raw": "Januari",
+              "year_from_heading": "1896"
+            },
+            {
+              "column": 3,
+              "label": "Död dag",
+              "state": "read",
+              "raw": "30"
+            },
+            {
+              "column": 4,
+              "label": "Räknad till församlingen m.",
+              "state": "read",
+              "raw": "1"
+            },
+            {
+              "column": 5,
+              "label": "Räknad till församlingen q.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 6,
+              "label": "För- och tillnamn, yrke, nationalitet/religion om främmande, bostad; eventuellt anhörig",
+              "state": "uncertain",
+              "raw": "Johan Petr[?] Urbom, Inhyseshjon, Åtorp[?]",
+              "parts": {
+                "name": "Johan Petr[?] Urbom",
+                "occupation_or_role": "Inhyseshjon",
+                "residence": "Åtorp[?]",
+                "other_fields": "Ingen särskild nationalitets-/religions-/anhöriguppgift på raden."
+              }
+            },
+            {
+              "column": 7,
+              "label": "Född år",
+              "state": "read",
+              "raw": "18",
+              "interpretation": "Förkortat år;1818 är kalendernormalisering, inte fyra avskrivna siffror."
+            },
+            {
+              "column": 8,
+              "label": "Född dag och månad",
+              "state": "read",
+              "raw": "21/3"
+            },
+            {
+              "column": 9,
+              "label": "Ogift m.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 10,
+              "label": "Ogift q.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 11,
+              "label": "Gift m.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 12,
+              "label": "Gift q.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 13,
+              "label": "Enkling eller frånskild",
+              "state": "read",
+              "raw": "1",
+              "interpretation": "Kolumnen skiljer inte ensam änkling från frånskild."
+            },
+            {
+              "column": 14,
+              "label": "Enka eller frånskild",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 15,
+              "label": "Sida i församlingsbok (eller nr och år i in-/utflyttnings- eller födelsebok)",
+              "state": "read",
+              "raw": "182"
+            },
+            {
+              "column": 16,
+              "label": "Dödsorsak",
+              "state": "read",
+              "raw": "Tarmvred"
+            },
+            {
+              "column": 17,
+              "label": "Dödsattest af läkare",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 18,
+              "label": "Dödsattest af barnmorska",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 19,
+              "label": "Dödsort om annan än hemorten",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "column": 20,
+              "label": "Begrafven år och månad",
+              "state": "read",
+              "raw": "Febr.",
+              "year_from_heading": "1896"
+            },
+            {
+              "column": 21,
+              "label": "Begrafven dag",
+              "state": "read",
+              "raw": "9"
+            },
+            {
+              "column": 22,
+              "label": "Särskilda anteckningar",
+              "state": "blank",
+              "raw": ""
+            }
+          ],
+          "overstrikes_and_margins": "Ingen överstrykning eller särskild marginalanteckning identifierad för post3. Svag genomlysning på högersidan räknas inte som notering.",
+          "uncertainties": [
+            "Exakt abbreviation av andra förnamnet: Petr[?], fullnamnet Peter var känt i locator före läsningen.",
+            "Bostadsnamnet läses preliminärt Åtorp[?]; självständig andraläsning önskas.",
+            "Civilståndets kolumnrubrik omfattar både änkling och frånskild; fyll inte en bestämd variant bara av strecket."
+          ],
+          "unread_relevant_fields": []
+        },
+        "duration_seconds_since_logged_start": 75.97528
+      },
+      "independent_second_read": {
+        "id": "P03",
+        "scope": "Full spread header and target row3; enlarged whole row.",
+        "reading": "1896 Husby Oppunda p4. Jan30, male resident count1. Johan Peter Urbom, Inhyses[hjon?], Uktorp[?]. Born18,21/3 [numerator21 appears; needs source glyph comparison]. Enkling tick. Parish book182. Cause Tarmvred. Burial Febr9. Death certificate and place columns blank; need enlarged printed certificate header for exact second heading.",
+        "crops": [
+          "/tmp/T0673-P03-row.png"
+        ]
+      },
+      "comparison": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte.",
+      "declared_dependency_closure": [
+        {
+          "object": "R-0d079c3104e21c013814ea7f",
+          "revision": "R-0d079c3104e21c013814ea7f@1",
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "R-0d079c3104e21c013814ea7f@1",
+              "basis_revision_id": "S-0805@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            }
+          ],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras.",
+          "current_payload": {
+            "locator": "Husby-Oppunda B/4 död- och begravningsavdelning1896 s4 post3 Johan Peter Urbom,00154430_00037",
+            "caveat": "Död30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.\nC-1110: SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll."
+          }
+        },
+        {
+          "object": "TR-7a4fa88e1d2abd74ff06e999",
+          "revision": "TR-7a4fa88e1d2abd74ff06e999@1",
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "TR-7a4fa88e1d2abd74ff06e999@1",
+              "basis_revision_id": "R-0d079c3104e21c013814ea7f@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1.",
+          "current_payload": {
+            "text": "- Död **Januari30**, man räknad till församlingen.\n- **Johan Peter Urbom, Inhyseshjon, Ektorp**.\n- Född **18 2/3**; änklingsmarkering, övriga civilståndsfält tomma.\n- Församlingsboksfolio **182**.\n- Dödsorsak **Tarmvred**. Dödsattestkolumnerna läkare respektive\n  uppgiftslämnare utom pastorsämbetet saknar markering.\n",
+            "reading_note": "SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll.\nDöd30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.",
+            "caveat": "Död30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat."
+          }
+        },
+        {
+          "object": "TR-3ce4483f535bff48177cc5a1",
+          "revision": "TR-3ce4483f535bff48177cc5a1@1",
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "TR-3ce4483f535bff48177cc5a1@1",
+              "basis_revision_id": "R-0d079c3104e21c013814ea7f@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1.",
+          "current_payload": {
+            "text": "- Särskilda anteckningar tomma; ingen separat ankomstdag angiven.\n",
+            "reading_note": "SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll.\nDöd30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.",
+            "caveat": "Död30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat."
+          }
+        },
+        {
+          "object": "READ-1dae3b93957839aab8dfe1d7",
+          "revision": "READ-1dae3b93957839aab8dfe1d7@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "READ-1dae3b93957839aab8dfe1d7@1",
+              "basis_revision_id": "R-0d079c3104e21c013814ea7f@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1.",
+          "current_payload": {
+            "body": "C-1110: SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll.\nVuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet.",
+            "caveat": "Död30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat."
+          }
+        },
+        {
+          "object": "M-C1110-death-Johan-Peter-Urbom",
+          "revision": "M-C1110-death-Johan-Peter-Urbom@1",
+          "kind": "mention",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "M-C1110-death-Johan-Peter-Urbom@1",
+              "basis_revision_id": "R-0d079c3104e21c013814ea7f@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Namn och roll består efter jämförande läsning; inga nya identiteter.",
+          "current_payload": {
+            "caveat": ""
+          }
+        },
+        {
+          "object": "O-P-0123-death1896",
+          "revision": "O-P-0123-death1896@1",
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "O-P-0123-death1896@1",
+              "basis_revision_id": "M-C1110-death-Johan-Peter-Urbom@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            },
+            {
+              "revision_id": "O-P-0123-death1896@1",
+              "basis_revision_id": "R-0d079c3104e21c013814ea7f@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade.",
+          "current_payload": {
+            "value_json": "{\"arrival_date\":null,\"birth\":\"1818-03-02\",\"burial\":\"1896-02-09\",\"cause_literal\":\"Tarmvred\",\"death\":\"1896-01-30\",\"doctor_attestation_mark\":null,\"folio\":182,\"home\":\"Ektorp\",\"other_attestation_mark\":null,\"other_death_place\":null,\"sex_column\":\"man räknad till församlingen\",\"special_notes\":null,\"widower_mark\":true}",
+            "value_literal": "{\"death\":\"1896-01-30\",\"burial\":\"1896-02-09\",\"sex_column\":\"man räknad till församlingen\",\"home\":\"Ektorp\",\"birth\":\"1818-03-02\",\"widower_mark\":true,\"folio\":182,\"cause_literal\":\"Tarmvred\",\"doctor_attestation_mark\":null,\"other_attestation_mark\":null,\"other_death_place\":null,\"special_notes\":null,\"arrival_date\":null}",
+            "caveat": "Ektorp är bostad. Tom annan dödsort fastställer ingen fysisk dödsplats. Historisk orsaksuppgift, ingen modern diagnos."
+          }
+        },
+        {
+          "object": "ID-M-C1110-death-Johan-Peter-Urbom-P-0123",
+          "revision": "ID-M-C1110-death-Johan-Peter-Urbom-P-0123@1",
+          "kind": "identity",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "dependencies": [
+            {
+              "revision_id": "ID-M-C1110-death-Johan-Peter-Urbom-P-0123@1",
+              "basis_revision_id": "M-C1110-death-Johan-Peter-Urbom@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Vuxenbindningen bygger på namn/hushåll/flyttkorrelation och består. Barnkandidaten accepteras inte.",
+          "current_payload": {
+            "caveat": "Vuxenfamiljens personbindning enligt bevarade namn-, hushålls-, flytt- och datumargument."
+          }
+        },
+        {
+          "object": "E-death-P-0123",
+          "revision": "E-death-P-0123@1",
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "dependencies": [
+            {
+              "revision_id": "E-death-P-0123@1",
+              "basis_revision_id": "O-P-0123-death1896@1",
+              "role": "supports",
+              "note": ""
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Dödsdag1896-01-30 och okänd separat fysisk dödsplats bekräftade.",
+          "current_payload": {
+            "caveat": "Egen dödspost; särskild fysisk dödsplats olöst, Ektorp är hemvist."
+          }
+        },
+        {
+          "object": "E-burial-P-0123",
+          "revision": "E-burial-P-0123@1",
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "E-burial-P-0123@1",
+              "basis_revision_id": "O-P-0123-death1896@1",
+              "role": "supports",
+              "note": ""
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Begravningsdag1896-02-09 och okänd särskild begravningsplats består.",
+          "current_payload": {
+            "caveat": "Egen begravningsdag; särskild begravningsplats saknas."
+          }
+        },
+        {
+          "object": "F-P-0123-death_cause-curated",
+          "revision": "F-P-0123-death_cause-curated@1",
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "F-P-0123-death_cause-curated@1",
+              "basis_revision_id": "O-P-0123-death1896@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Tarmvred är säker råterm; modern diagnos fortfarande null.",
+          "current_payload": {
+            "value_json": "{\"at\":\"1896-01-30\",\"diagnostic_modernization\":null,\"literal\":\"Tarmvred\"}",
+            "caveat": ""
+          }
+        },
+        {
+          "object": "F-P-0123-reported_birth_data-curated",
+          "revision": "F-P-0123-reported_birth_data-curated@1",
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CONFLICT",
+          "dependencies": [
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-C0275-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-C0276-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-C0277-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-C0278-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-C0281-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1885-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1886-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1891-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-Terno1881-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-reported_birth_data-curated@1",
+              "basis_revision_id": "O-P-0123-death1896@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            }
+          ],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P03: C1110 får inte räknas som säkert stöd för03-02 medan dess dagtal är olöst; andra tidigare källors egna avläsningar bevaras.",
+          "current_payload": {
+            "value_json": "{\"adult_month_day\":[{\"date\":\"03-02\",\"sources\":[\"C0276\",\"C0278\",\"C0281\",\"C1110\"]},{\"literal\":\"2/4[?]\",\"source\":\"C0277\"},{\"literal\":\"2/[oläst]\",\"source\":\"C0275\"}],\"adult_place\":\"Wist\",\"adult_year\":1818,\"candidate\":\"1818-06-03,Björsäter\",\"previous_June_reading\":\"avförd felläsning\"}",
+            "caveat": "Vuxenhushållens födelseuppgifter och kandidatens skiljs åt; inget antal kopior sluter identiteten."
+          }
+        },
+        {
+          "object": "F-P-0123-occupation-curated",
+          "revision": "F-P-0123-occupation-curated@1",
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-C-0249-child-family@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-C0275-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-C0276-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-C0277-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-C0278-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-C0281-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1885-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1886-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1891-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-Terno1881-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-child1849-father@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-death1896@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-occupation-curated@1",
+              "basis_revision_id": "O-P-0123-marriage1841@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Inhyseshjon och Ektorp består; ingen fattigvård eller sammanhängande anställning följer.",
+          "current_payload": {
+            "value_json": "{\"attestations\":[{\"date\":\"1841-10-03\",\"home\":\"Motala\",\"title\":\"Smeddräng\"},{\"date\":\"1849-08-03\",\"home\":\"Spånga bruk\",\"title\":\"Manufactur-Smeden\"},{\"date\":\"1852-02-20\",\"home\":\"Touluse\",\"title\":\"Smed.\"},{\"book\":\"1861–1865\",\"home\":\"Hjulfabriken\",\"title\":\"Smed\"},{\"books\":[\"1871–1875\",\"1876–1880\",\"1881–1885\"],\"home\":\"Ternö\",\"title\":\"smed\"},{\"date\":\"1896-01-30\",\"home\":\"Ektorp\",\"title\":\"Inhyseshjon\"}]}",
+            "caveat": "Källbundna beläggstillfällen, inte oavbruten anställning. Inhyses anger hushållsställning; fattigvård och viss arbetsgivare är inte belagda."
+          }
+        },
+        {
+          "object": "F-P-0123-residence-curated",
+          "revision": "F-P-0123-residence-curated@1",
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-C0275-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-C0276-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-C0277-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-C0278-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-C0281-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1885-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1886-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-Ektorp1891-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-Terno1881-own-row@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-child1849-father@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-death1896@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            },
+            {
+              "revision_id": "F-P-0123-residence-curated@1",
+              "basis_revision_id": "O-P-0123-marriage1841@1",
+              "role": "supports",
+              "note": "Versionsbundet underlag för denna begränsade slutsats."
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Bostadskedjan har flera egna poster; Ektorp återläses jämförande, ingen fysisk dödsplats härleds.",
+          "current_payload": {
+            "value_json": "{\"snapshots\":[{\"at\":1841,\"place\":\"Motala\"},{\"at\":1849,\"place\":\"Spånga bruk,Västra Vingåker\"},{\"books\":[\"1851–1855\",\"1856–1860\"],\"place\":\"Touluse,Bettna\"},{\"book\":\"1861–1865\",\"place\":\"Hjulfabriken,Husby-Oppunda\"},{\"books\":[\"1871–1875\",\"1876–1880\",\"1881–1885\"],\"place\":\"Ternö,Husby-Oppunda\"},{\"from_bookkeeping_year\":1885,\"place\":\"Ektorp på Tranviks ägor,Husby-Oppunda\",\"through_death\":\"1896-01-30\"}]}",
+            "caveat": "Bokankare och egna rader, ingen obruten fysisk närvaro mellan alla tidpunkter."
+          }
+        },
+        {
+          "object": "EP-E-death-P-0123-P-0123-principal",
+          "revision": "EP-E-death-P-0123-P-0123-principal@1",
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "dependencies": [
+            {
+              "revision_id": "EP-E-death-P-0123-P-0123-principal@1",
+              "basis_revision_id": "E-death-P-0123@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Dödsdatum och vuxenidentitet oförändrade; deltagandet påverkas inte av födelseläsningen.",
+          "current_payload": {
+            "caveat": "Egen dödspost; särskild fysisk dödsplats olöst, Ektorp är hemvist."
+          }
+        },
+        {
+          "object": "EP-E-burial-P-0123-P-0123-principal",
+          "revision": "EP-E-burial-P-0123-P-0123-principal@1",
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "EP-E-burial-P-0123-P-0123-principal@1",
+              "basis_revision_id": "E-burial-P-0123@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: event_id"
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Begravningsdatum och vuxenidentitet oförändrade.",
+          "current_payload": {
+            "caveat": "Egen begravningsdag; särskild begravningsplats saknas."
+          }
+        }
+      ],
+      "reviewed_extra_text_objects": [
+        {
+          "object": "KEY-P-0123-8ae9472e9c5f",
+          "revision": "KEY-P-0123-8ae9472e9c5f@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P03: textens C1110-hänvisning avgränsas till aktuellt stöd; äldre vuxenböckers datum och olöst kandidatidentitet ändras inte.",
+          "current_fields": {
+            "body": "| Född1818-06-03 Björsäter; senare1818-03-02 Wist | Sök även källans avvikande uppgifter | C-0833, C-1110 | Björsäterbarnet är kandidat; vuxenböckers 2 mars och 2/4[?] bevaras |\n"
+          }
+        },
+        {
+          "object": "BIO-P-0123",
+          "revision": "BIO-P-0123@1",
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P03: textens C1110-hänvisning avgränsas till aktuellt stöd; äldre vuxenböckers datum och olöst kandidatidentitet ändras inte.",
+          "current_fields": {
+            "markdown": "## Biografisk sammanfattning\n\nJohan Petters ursprung är åter öppet. Ett födelsebarn i Björsäter 1818, med föräldrarna Lorentz Urbom och Anna Maja Eriksdotter på Krogen, är en kandidat. Vuxenböckernas datum hade tidigare fellästs som 3 juni och kan därför inte bära den påstådda kopplingen. När han gifte sig med Eleonora Gustava Ajax 1841 kallades han smedsdräng från Motala. Vigselpostens bibelgåva är en konkret social uppgift; den gör honom inte till medlem i ett säkert identifierat sällskap. [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0285](../citations/C-0285-johan-peter-urbom-eleonora-gustava-ajax-vigsel-1841.md)\n\nFamiljen följdes vid Spånga, Touluse och Hjulfabriken och senare i Ternö. Nio barn är kända, däribland två olika Maria Christina. Namnformen Anna Gustava för hustrun i barnens födelseposter binds till Eleonora/Nora genom familjen och datumen. Vuxenmannens uppgifter Wist och 1818-03-02, med 2/4[?] i C-0277, avviker från Björsäterkandidatens födelsepost. Sekundärkällan förklarar det med en broderförväxling i Backgården 1839; den mekanismen är ännu inte originalprövad. [C-0087](../citations/C-0087-adela-amalia-urbom-fodelse-1849.md), [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md), [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md), [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md), [C-1110](../citations/C-1110-urbom-ektorp-dod-1896.md)\n\nEfter hustruns död 1877 levde han som änkling. Bokflytten från Ternö till Ektorp 1885 finns åt båda håll. Där kallades han inhyses och slutligen inhyseshjon; titlarna ger inte i sig hans ekonomi eller skälet till förändringen. Han dog den 30 januari 1896 och begravdes 9 februari. Dödboken anger tarmvred. Hans bouppteckning är identifierad i register, men originalets arvingar och tillgångar är fortfarande olästa. [C-0281](../citations/C-0281-urbom-ajax-terno-sida-119-1876-1880.md), [C-0284](../citations/C-0284-eleonora-gustafva-ajax-dod-1877.md), [C-1110](../citations/C-1110-urbom-ektorp-dod-1896.md), [C-1111](../citations/C-1111-urbom-bouppteckningsregister-1896.md)\n\n"
+          }
+        },
+        {
+          "object": "RESEARCH-P-0123-9d76f0343410",
+          "revision": "RESEARCH-P-0123-9d76f0343410@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Öppen barn–vuxenidentitet ändras inte; adultkedjan och dess övriga datum prövas inte genom denna enskilda dödspost.",
+          "current_fields": {
+            "body": "## Identitetsbedömning\n\nAnkaret är Adela Amalias far vid Spånga 1849, med hustru och barn i\nTouluse, Hjulfabriken, Ternö och därefter änklingen i Ektorp fram till\n1896. Vigseln 1841 är direkt belagd i C-0285. C-1110:s reciproka flyttar,\nänklingsdag och dödbokens foliohänvisning binder den vuxna familjekedjan.\n\nUrsprunget är däremot OMSTRITT. T-0135:s oberoende läsning visar att\nC-0275–0278/0281 inte anger gamla 3 juni. C-0276/0278/0281 har 2 mars,\nC-0277 snarast 2 april; C-0275:s täljare är 2 men nämnaren svag.\nWist är vuxenböckernas ort. Björsäterbarnet i C-0833, fött 3 juni 1818\nmed föräldrarna Lorentz Urbom och Anna Maja Eriksdotter, är därför en\nseparat kandidat till vuxenmannens ursprung. Ingen säker föräldralänk\npropageras genom P-0123. Den privata förväxlingsförklaringen från\nBackgården 1839 är LEAD och behöver en egen personbunden brygga i T-0292.\n\nBarnets födelsepost och vuxenmannens vigsel och död är var för sig lästa\noriginal. Det bevisar inte att födelsebarnet är samma person som maken.\nPK-01 är EJ STYRKT på denna tidigare felaktiga sammanslagning, PK-11\npå den konkreta kopieresten i T-0288. Identitetsnivån är UNDERKÄND och\nTrädverkan AVVAKTAR. De redan lästa vuxenposterna återbrukas; deras\nfamiljefakta påverkas inte av den olösta ursprungskopplingen.\n\n"
+          }
+        },
+        {
+          "object": "Q-P-0123-child-adult-identity",
+          "revision": "Q-P-0123-child-adult-identity@1",
+          "kind": "question",
+          "disposition": "candidate",
+          "evidence_status": "LEAD",
+          "dependencies": [
+            {
+              "revision_id": "Q-P-0123-child-adult-identity@1",
+              "basis_revision_id": "O-P-0123-C0275-own-row@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            },
+            {
+              "revision_id": "Q-P-0123-child-adult-identity@1",
+              "basis_revision_id": "O-P-0123-C0276-own-row@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            },
+            {
+              "revision_id": "Q-P-0123-child-adult-identity@1",
+              "basis_revision_id": "O-P-0123-C0277-own-row@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            },
+            {
+              "revision_id": "Q-P-0123-child-adult-identity@1",
+              "basis_revision_id": "O-P-0123-C0278-own-row@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            },
+            {
+              "revision_id": "Q-P-0123-child-adult-identity@1",
+              "basis_revision_id": "O-P-0123-C0281-own-row@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            },
+            {
+              "revision_id": "Q-P-0123-child-adult-identity@1",
+              "basis_revision_id": "O-P-0123-candidate-birth1818@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "proposed_disposition": "retain",
+          "reason": "Frågan förblir öppen; nytt osäkert dagtal sluter inte kandidaten.",
+          "current_fields": {
+            "body": "Tidigare exakt datumöverensstämmelse var en felläsning. Vuxenraderna har2mars/2april[?] ochWist; barnet3juni/Björsäter. Sekundärens Backgården1839/brodern CarlFredrik är en hypotes. Föräldrar/vittnesnätverk får inte föras över till vuxenmannen innan en egen kontinuitetsbrygga finns."
+          }
+        },
+        {
+          "object": "P-0123/Q-01",
+          "revision": "P-0123/Q-01@1",
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Vuxenmannens dödsidentifikation består; födelsedagen är separat.",
+          "current_fields": {
+            "body": "### Q-01: Kan sekundärens död1896 identifieras i original?\n\n- Fråga och betydelse: P-0123:s död och sista hemvist ger ingång till B/T/O.\n- Känt underlag: C-0248 sekundär, C-0281 Ternö, nu C-1110 originalkedja.\n- Alternativ och motprövning: Namne eller fel år/ort; prövat med änklingsdag, dotter, reciproka flytthänvisningar och folio. Födelsekonflikten bevaras, inte dolt normaliserad.\n- Källvägar: KP-01.\n- Slutsatsläge: STÖDD\n- Argument och konflikter: Originaldöd och bostadskedja stöder1896-01-30; flera vuxendatum kan vara kopierade och identifierar inte Björsäterbarnet.\n- Påverkade personer/påståenden: P-0123, A-1537, A-4121–4122; P-0124:s änklingsankare och familjesammanhanget för barnen. Föräldralänkarna till P-0264/P-0265 är kandidater enligt Q-03.\n\n"
+          }
+        },
+        {
+          "object": "P-0123/Q-03",
+          "revision": "P-0123/Q-03@1",
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Barnkandidatens identitet är fortfarande öppen.",
+          "current_fields": {
+            "body": "### Q-03: Varför avviker senare födelseuppgifter?\n\n- Fråga och betydelse: P-0123:s identitetsargument och tidiga yrkesväg.\n- Känt underlag: Kandidatfödelse 1818-06-03/Björsäter, vuxenuppgifter 1818-03-02/Wist samt 2/4[?] i C-0277. Privataktens Backgården 1839/broderförväxling. [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-1110](../citations/C-1110-urbom-ektorp-dod-1896.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md)\n- Alternativ och motprövning: Avskrifts-/förväxlingsfel, annan administrativ överföring eller faktiskt sammanblandad hushållsrad. En personbunden tidigare folio kan skilja dem.\n- Källvägar: KP-03, KP-04.\n- Slutsatsläge: ÖPPEN\n- Argument och konflikter: Vuxenfamilj och reciproka flyttar binder den vuxne mannen; födelsekandidaten är inte därmed identifierad. Mekanismen är oprövad; två privata nummer15/264 används inte som ekonomiskt motbevis.\n- Påverkade personer/påståenden: P-0123/P-0124, A-1745/A-1761/A-1782/A-3198/A-3199/A-4122/A-4496/A-4497 och barnens familjeankare.\n\n"
+          }
+        }
+      ],
+      "candidate_search_count": 278,
+      "candidate_search_limitation": "C-id i kopierade caveats och andra poster ger falska träffar. Antalet är maskinellt kandidaturval, inte antal sakpåverkade objekt eller manuellt fullgranskade personakter. Sakprövade extraobjekt listas separat.",
+      "person_contract_disposition": "Endast evidensnivåns PK-05/11 och avgränsning; befintlig UNDERKÄND identitetsnivå/AVVAKTAR trädverkan består. Ingen full livsbildsreview."
+    },
+    {
+      "unit": "P04",
+      "current_record": {
+        "object": "R-00df4ccfe3e214a3ad230cb3",
+        "revision": "R-00df4ccfe3e214a3ad230cb3@2",
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "dependencies": [
+          {
+            "revision_id": "R-00df4ccfe3e214a3ad230cb3@2",
+            "basis_revision_id": "S-0246@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "source_sha256": "90dfcf9f94ddb1dd54ccff8bb33040a3a3b75f114a3d5949bc4e825cbad5da5e",
+      "first_read": {
+        "unit": "P04",
+        "image_path": "genealogy/media/C-0741-riksarkivet-forssa-AI14-C0006404_00098-sida99-sjostugan-erik-grill.jpg",
+        "sha256": "90dfcf9f94ddb1dd54ccff8bb33040a3a3b75f114a3d5949bc4e825cbad5da5e",
+        "dimensions_sips": "/Users/sverker/repos/slaktforsk/genealogy/media/C-0741-riksarkivet-forssa-AI14-C0006404_00098-sida99-sjostugan-erik-grill.jpg\n  pixelWidth: 7440\n  pixelHeight: 6272\n",
+        "started_at": "2026-09-18T09:47:36.805319+00:00",
+        "ended_at": "2026-09-18T09:51:03.362154+00:00",
+        "viewed_regions": [
+          {
+            "path": "genealogy/media/C-0741-riksarkivet-forssa-AI14-C0006404_00098-sida99-sjostugan-erik-grill.jpg",
+            "pixels": [
+              0,
+              0,
+              7440,
+              6272
+            ],
+            "region": "hela uppslaget",
+            "sha256": "90dfcf9f94ddb1dd54ccff8bb33040a3a3b75f114a3d5949bc4e825cbad5da5e"
+          },
+          {
+            "path": "/tmp/P04-target-left.png",
+            "pixels": [
+              700,
+              4270,
+              3020,
+              760
+            ],
+            "region": "target-left",
+            "sha256": "8c51b49daaf4d66ca52c1ba4e7db4fc786baa4965957e33c89e6104832854018"
+          },
+          {
+            "path": "/tmp/P04-target-right.png",
+            "pixels": [
+              3900,
+              4270,
+              3060,
+              840
+            ],
+            "region": "target-right",
+            "sha256": "50eded805e4065c7c121d0c8aba2a80d02aa67ccfae4b402667899a2b17917cd"
+          },
+          {
+            "path": "/tmp/P04-head.png",
+            "pixels": [
+              700,
+              580,
+              6300,
+              690
+            ],
+            "region": "head",
+            "sha256": "629b6f2baece70873327f143065fbc09fd7507979b4ecc68148cd0f6c7b17460"
+          },
+          {
+            "path": "/tmp/P04-upper-left.png",
+            "pixels": [
+              700,
+              1180,
+              2950,
+              1150
+            ],
+            "region": "upper-left",
+            "sha256": "6c39c8c54d99255a89c9480b314ffba18dc3935456f174153f95f1e3091ad47e"
+          },
+          {
+            "path": "/tmp/P04-upper-right.png",
+            "pixels": [
+              3910,
+              1180,
+              3020,
+              1150
+            ],
+            "region": "upper-right",
+            "sha256": "b9564d47fdffee7b4c2c0d751c6f78d90ae57ca36286d9fc933036ec3d03492b"
+          },
+          {
+            "path": "/tmp/P04-departures.png",
+            "pixels": [
+              6250,
+              4270,
+              850,
+              650
+            ],
+            "region": "departures",
+            "sha256": "55533c71cb3b5c902f8ced488cd605d7fc6d5788efda698de11f5f9765990a35"
+          },
+          {
+            "path": "/tmp/P04-row1-name.png",
+            "pixels": [
+              650,
+              1070,
+              2980,
+              410
+            ],
+            "region": "row1-name",
+            "sha256": "56613220e3763906cc451af53e00f2a8e452f93838d3db6634a85ee6b50edfe3"
+          },
+          {
+            "path": "/tmp/P04-middle-left.png",
+            "pixels": [
+              690,
+              2650,
+              3030,
+              860
+            ],
+            "region": "middle-left",
+            "sha256": "893905f653477eb6fad76bd9b36cdda10eba9dda75f69eb2ca732c8908280237"
+          },
+          {
+            "path": "/tmp/P04-middle-right.png",
+            "pixels": [
+              3900,
+              2650,
+              3100,
+              860
+            ],
+            "region": "middle-right",
+            "sha256": "8e03025e5e6b4911fdf5d91a3ac094f245d549a6032f9de42a8d84ca838338a9"
+          },
+          {
+            "path": "/tmp/P04-last-row.png",
+            "pixels": [
+              660,
+              5390,
+              6240,
+              410
+            ],
+            "region": "last-row",
+            "sha256": "abb73359df83cde329e821f69522e8d430647295fa15723a9dbff7307972e58f"
+          },
+          {
+            "path": "/tmp/P04-target-marks.png",
+            "pixels": [
+              3900,
+              4270,
+              1400,
+              450
+            ],
+            "region": "target-marks",
+            "sha256": "65761249a922af3a47e541563d7527191be7dc08bc2eeb4665d7704487d6cd39"
+          },
+          {
+            "path": "/tmp/P04-target-fullnote.png",
+            "pixels": [
+              5940,
+              4260,
+              1150,
+              450
+            ],
+            "region": "target-fullnote",
+            "sha256": "7d70e34d60cd5864131120b1923d2d707b2c41fefebbff8244026f03db573d6a"
+          },
+          {
+            "path": "/tmp/P04-marks-header.png",
+            "pixels": [
+              3890,
+              745,
+              1440,
+              560
+            ],
+            "region": "marks-header",
+            "sha256": "479ee1fbe656e0b1641b475b441011736c1174ddf73fb3368731ab415c0569f4"
+          }
+        ],
+        "extraction": {
+          "visual_locator": {
+            "page": "99",
+            "left_heading": "Sjöstugan till Sätra[?]",
+            "right_heading": "Westra Roten",
+            "printed_assessment_years": [
+              "1871",
+              "1872",
+              "1873",
+              "1874",
+              "1875"
+            ],
+            "target_row": "23"
+          },
+          "scope": "Hela målrad23 över båda sidorna, med samtliga tryckta kolumner. Andra befolkade block på samma sida lästa som hushålls-/tidskontext och avskilda nedan; rad23 har drängtitel, inte uttalad släktroll till något hushåll. Överstrykningar och anteckningar över radgränser gör hushålls- och flytthänvisningarna delvis osäkra.",
+          "target_columns": [
+            {
+              "label": "Namn, stånd, ämbete, yrke och näringsfång; nationalitet/lyten",
+              "state": "uncertain",
+              "raw": "Dräng Erik Grill[?]",
+              "note": "Namn starkt överstruket/kryssat. Erik Grill känt som locator före bildläsningen; råformen är därför inte helt oberoende namnläsning."
+            },
+            {
+              "label": "Födelse år",
+              "state": "read",
+              "raw": "1851"
+            },
+            {
+              "label": "Födelse månad och dag",
+              "state": "read",
+              "raw": "30/11",
+              "note": "Siffrornas skrivna placering återges; ingen omvänd dag/månadsnormalisering av rubrikens ordordning."
+            },
+            {
+              "label": "Födelse ort",
+              "state": "read",
+              "raw": "Bettna"
+            },
+            {
+              "label": "Äktenskap Gift",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "Äktenskap Enkl. eller Enka",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "Koppor",
+              "state": "read",
+              "raw": "v-liknande markering",
+              "interpretation": "Kod ej expanderad till medicinsk slutsats."
+            },
+            {
+              "label": "Inflyttad från",
+              "state": "read",
+              "raw": "Bettna"
+            },
+            {
+              "label": "Inflyttad år/månad/dag",
+              "state": "read",
+              "raw": "1863",
+              "note": "Ingen särskild dag/månad läses i denna cell."
+            },
+            {
+              "label": "Inflyttningsattestens nummer",
+              "state": "read",
+              "raw": "25"
+            },
+            {
+              "label": "Död",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "Läser: Innantill, Luth. Kateches, Förklaringen; Förstår",
+              "state": "uncertain",
+              "raw": "Sammanhängande handskriven notering över läskolumnerna, ungefär Seve…[?]; kan inte säkert avskiljas till fyra kolumnvärden.",
+              "note": "Betraktas inte som fyra tomma fält; måste jämföras av andra läsaren."
+            },
+            {
+              "label": "1871 F.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "1871 N.",
+              "state": "uncertain",
+              "raw": "b-/6-liknande tecken",
+              "note": "Inte normaliserat till en nattvardsdag."
+            },
+            {
+              "label": "1872 F.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "1872 N.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "1873 F.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "1873 N.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "1874 F.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "1874 N.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "1875 F.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "1875 N.",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "Fräjd och enskilda anteckningar",
+              "state": "uncertain",
+              "raw": "Två kraftiga bläck-/strecktecken nära utflyttningsgränsen; inget säkert ord.",
+              "note": "Långa god-frejd-/ledig-anteckningen under denna rad hör visuellt till rad24 och överförs inte till Erik."
+            },
+            {
+              "label": "Utflyttad till",
+              "state": "uncertain",
+              "raw": "Sågen af Warg[?] / skogen[?], (sidhänvisning oläslig)",
+              "note": "Övre textpaketet kring rad23 läses preliminärt så. Stark överstrykning och ytterligare flyttnotiser i rad24 får inte blandas med detta."
+            },
+            {
+              "label": "Utflyttad år/månad/dag",
+              "state": "uncertain",
+              "raw": "1871[?], 7/11[?]",
+              "note": "Dag/månad ovanför årtal; måste oberoende kontrolläsas före exakt datumslutsats."
+            },
+            {
+              "label": "Utflyttningsattestens nummer",
+              "state": "blank",
+              "raw": ""
+            }
+          ],
+          "same_page_context": [
+            {
+              "rows": "1–6",
+              "relationship_to_target": "Äldre torparhushåll på samma sida; inte en uttrycklig släktbindning till drängen. Många namn överstrukna.",
+              "members": [
+                {
+                  "row": 1,
+                  "raw_name_role": "Torp. [förnamn oläsligt] Nilsson[?], (svag[?])",
+                  "birth_raw": "år oläsligt under överstrykning, 1/8, Forssa",
+                  "marriage_raw": "1840",
+                  "inflow_raw": "Wargstugan[?],1841",
+                  "death_raw": "1874[?], dag/månad osäker",
+                  "remarks": "Namn och födelseår överstrukna; fräjdtext delvis läsbar men inte säkert upplöst."
+                },
+                {
+                  "row": 2,
+                  "raw_name_role": "Hustrun/Enkan Brita Maja Jonsdotter[?]",
+                  "birth_raw": "1824,5/3,St. Malm",
+                  "marriage_or_widow_raw": "29/12[?] under Enkl./Enka-kolumnen",
+                  "inflow_raw": "Bettna1860,attest57",
+                  "marks": "1871F7/11, N6[?];1872F7/12[?];1873N13/7;1874F7/11,N30/8; fräjd Gift[?], övriga datumtecken osäkra"
+                },
+                {
+                  "row": 3,
+                  "raw_name_role": "[Barnen:] Johanna Erika",
+                  "birth_raw": "1861,1/10,Forssa",
+                  "marks": "ab.[?]1871F; streck1872F;10/11 under1875F[?]; överstruken namnrad"
+                },
+                {
+                  "row": 4,
+                  "raw_name_role": "s. Carl Axel",
+                  "birth_raw": "1868,26/3,Forssa",
+                  "departure_raw": "Säterdal[?],1876 3/11",
+                  "marks": "ab.[?]1871F,streck1872F; överstruken namnrad"
+                },
+                {
+                  "row": 5,
+                  "raw_note": "Enkans son i förra äktenskapet[?]",
+                  "note": "Rubrik/relationsfras, inte egen personrad;30/8-markering kring1875kolumnerna kan höra till följande rad och hålls osäker."
+                },
+                {
+                  "row": 6,
+                  "raw_name_role": "Erik Alfred Eriksson",
+                  "birth_raw": "1858[?],25/1,Bettna",
+                  "inflow_raw": "Sköldinge1874 5/11,attest28",
+                  "departure_raw": "Stafsjöen[?],1876 13/11[?]",
+                  "marks": "5/11 i1874F[?]; Erhållit arbetsbetyg1875 11/4 och1876 13/4[?]; läskolumner tecken ej översatta"
+                }
+              ]
+            },
+            {
+              "rows": "11–15",
+              "relationship_to_target": "Annat daterat hushållsblock; inflyttning1876 gör att deras uppgifter inte automatiskt beskriver drängens tidigare vistelse.",
+              "members": [
+                {
+                  "row": 11,
+                  "raw": "Torp. Johan Erik Pettersson,1841 22/8[?] Forssa; Gift1871; koppmarkering v; läsfälten korta tecken; fräjdkolumn datum3/11 och27/8[?]."
+                },
+                {
+                  "row": 12,
+                  "raw": "Hustru Matilda Lovisa Andersson[?],1849 25/11,Husby-Opp.[?]; Gift24/10 (år1871 står föregående rad); koppmarkering v; läsfälten korta tecken; fräjd27/8 och8/11[?]."
+                },
+                {
+                  "row": 13,
+                  "raw": "Son Klaes Johan,1871 18/8,Bettna; inflyttad Blacksta1876 25/3,attest2; Vaccinerad i Blacksta enl. Modrens uppgift."
+                },
+                {
+                  "row": 14,
+                  "raw": "Dotter Anna Matilda,1873 17/4,Blacksta; koppmarkering v; övriga läs-/flytt-/dödfält tomma i hennes egen rad."
+                },
+                {
+                  "row": 15,
+                  "raw": "Dotter Emma Karolina,1875 6/6,Blacksta; koppmarkering v; övriga läs-/flytt-/dödfält tomma i hennes egen rad."
+                }
+              ]
+            },
+            {
+              "rows": "24–25",
+              "relationship_to_target": "Intilliggande tjänstefolk; egna rader får inte sammanblandas med rad23.",
+              "members": [
+                {
+                  "row": 24,
+                  "raw_name_role": "[dräng, upprepningstecken] Carl Gustaf Petersson[?]",
+                  "birth_raw": "1853[?] 5/6,Helgesta",
+                  "inflow_raw": "Wadsbro71 7/11,attest17",
+                  "departure_raw": "Överstruken äldre Sågen/Warg…-hänvisning71 2/11[?]; därefter Westtorp74 3/11[?]",
+                  "remarks": "god frejd. ledig e…[?]; datum1jan1873 och2jan1874[?]; läsnotering Försummelig[?]."
+                },
+                {
+                  "row": 25,
+                  "raw_name_role": "[titel oläslig] Karl Albert Andersson[?]",
+                  "birth_raw": "1856[?] 27/5,Tensta[?]",
+                  "inflow_raw": "Sandstugan1874 3/11",
+                  "departure_raw": "Hultstugan75 2/11",
+                  "marks": "v; korta lästecken; namn överstruket."
+                }
+              ]
+            },
+            {
+              "row": 30,
+              "relationship_to_target": "Separat nedersta rad utan säker anknytning; endast orienterad, ej full personutvinning.",
+              "raw": "Överstruken rad: soldatänkan Maria [resten osäker],1789 6/5,Ånsa[?]; änkefält13/1 1858[?]; in Stenstugan1839; död1874 22/9[?]."
+            }
+          ],
+          "uncertainties": [
+            "Avgörande målrad: överstruket namn, exakt läsnotering och utgående ort-/sidhänvisning samt datum behöver separat blind andraläsning.",
+            "Hushållsblocken på samma sida kan representera skilda tider; drängtitel räcker inte för relation till någon torparfamilj.",
+            "Flera kontextfält är uttryckligen osäkra och inte normaliserade; nedersta separata rad30 är endast orienterad.",
+            "Ingen gammal avskrift/persontext har öppnats för att fylla osäkra tecken."
+          ],
+          "unread_relevant_fields": [],
+          "completion_limit": "Samtliga målradens kolumnpositioner besiktigade; flera är osäkra, vilket inte räknas som bekräftad fullständig avläsning. Kontextblockens överstrukna/marginala detaljer är delvis osäkra och rad30 är inte en full utvinning."
+        },
+        "duration_seconds_since_logged_start": 206.556835
+      },
+      "independent_second_read": {
+        "id": "P04",
+        "scope": "Full spread then row23 and adjacent rows24–25, headers.",
+        "reading": "Sjöstugan till Sättra, Westra Roten,p99. Dräng Erik Grill [crossed, name supplied locator]. Birth1851/1857 [last digit uncertain],30/1 Bettna. Inflytt Bettna1863[?],attest25. Married/widow cells blank. Läsning appears Severe[?], not safe transcription. Right annotation divergent row boundaries, not yet resolved.",
+        "crops": [
+          "/tmp/T0673-P04-row.png",
+          "/tmp/T0673-P04-left.png"
+        ],
+        "disposition": "Unresolved critical fields; do not majority-vote or promote to exact correction."
+      },
+      "comparison": "T-0673 P04: målrad23, inte rad24:s god frejd/ledig-not och1873/1874. Födelsedag/månad30/1 stöds vid jämförande omläsning; första läsarens30/11 återtas som läsarfel. Årtal tidigare1851, andraläsning osäker1851/1857; inget nytt födelseår antas. Inflyttningsåret ser ut1863[?] i två nya läsningar mot äldre1868; oavgjort, inte en säker rättelse. Bettna och attest25 består. Utflyttningsort/dag och läskunskapsord kvarstår reserverade. Ingen ny obruten vistelse eller militärtjänst beläggs.",
+      "declared_dependency_closure": [
+        {
+          "object": "R-00df4ccfe3e214a3ad230cb3",
+          "revision": "R-00df4ccfe3e214a3ad230cb3@2",
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "R-00df4ccfe3e214a3ad230cb3@2",
+              "basis_revision_id": "S-0246@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Källa, postgräns och mediakoppling riktiga. Årtalsosäkerheten hör till avskrift/bedömning; tidigare volymnoll fortfarande återtaget.",
+          "current_payload": {
+            "locator": "Forssa A I/14, Sjöstugan s.99 rad23, C0006404_00098",
+            "caveat": "ErikGrill återfanns senare; sökning påKarlsson/Carlsson missade namnformen.\nC-0318: Två verkliga rader avgränsas; historiskt sökomfångbilder10–135/s1–143 bevaras. Bilder1–9/136–141 var endast volymgränskontroll."
+          }
+        },
+        {
+          "object": "TR-d98c7361df6f631fe187763f",
+          "revision": "TR-d98c7361df6f631fe187763f@1",
+          "kind": "transcription",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "TR-d98c7361df6f631fe187763f@1",
+              "basis_revision_id": "R-00df4ccfe3e214a3ad230cb3@2",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: record_id"
+            }
+          ],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P04: skilj säkra målradsceller från oavgjorda årtal; en ny läsning ersätter inte osäkerhet med säker1863.",
+          "current_payload": {
+            "text": "| 6 | Forssa A I/14 s. 99 rad 23, `C0006404_00098` | Sjöstugan: `Dräng Erik Grill`, 1851-01-30 Bettna, ärvd hänvisning `Bettna 1868 25` |\n",
+            "reading_note": "Fem positiva poster i samma flyttkedja, med återbruk av C-0729 och C-0318. Bettna utflyttade1867 nr1–73 är ett separat giltigt årgångsnoll, förenligt med internflytt. Senare helradsläsning öppnar ett militärt betygsspår men ingen utförd tjänst. Radägarskap och reserverad utflyttning följer med.\nSamma tidigare C-0318-post återfunnen under Grill. Överlagrade Säger…,stigen…,fol89[?] och1871-liknande form är ingen säker flyttdag/ort. God frejd, ledig… och1873/1874 hör till rad24, inte Erik23. Svag[?] och6[?]1871 behåller reservation.",
+            "caveat": "Samma tidigare C-0318-post återfunnen under Grill. Överlagrade Säger…,stigen…,fol89[?] och1871-liknande form är ingen säker flyttdag/ort. God frejd, ledig… och1873/1874 hör till rad24, inte Erik23. Svag[?] och6[?]1871 behåller reservation."
+          }
+        },
+        {
+          "object": "READ-246f834eb8692b38014bb5c5",
+          "revision": "READ-246f834eb8692b38014bb5c5@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "READ-246f834eb8692b38014bb5c5@1",
+              "basis_revision_id": "R-00df4ccfe3e214a3ad230cb3@2",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P04: rätta inaktuell teknisk uppmaning efter redan genomförd medielänkning och avgränsa aktuella läsreservationer.",
+          "current_payload": {
+            "body": "C-0741: Fem positiva poster i samma flyttkedja, med återbruk av C-0729 och C-0318. Bettna utflyttade1867 nr1–73 är ett separat giltigt årgångsnoll, förenligt med internflytt. Senare helradsläsning öppnar ett militärt betygsspår men ingen utförd tjänst. Radägarskap och reserverad utflyttning följer med.\nDen gamla Karlsson/Carlsson-kontrollens volymnoll är REJECTED. Punktvisa fält ger inte obruten vistelse1871–1875; Forssa–Årdala1875 kvarstår som bokföringsgap. Bildkopplingen kräver en ny recordrevision före återbruk eftersom C-0318-posten saknade den.",
+            "caveat": "Samma tidigare C-0318-post återfunnen under Grill. Överlagrade Säger…,stigen…,fol89[?] och1871-liknande form är ingen säker flyttdag/ort. God frejd, ledig… och1873/1874 hör till rad24, inte Erik23. Svag[?] och6[?]1871 behåller reservation."
+          }
+        },
+        {
+          "object": "O-P-0133-C0741-Forssa99",
+          "revision": "O-P-0133-C0741-Forssa99@1",
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "O-P-0133-C0741-Forssa99@1",
+              "basis_revision_id": "R-00df4ccfe3e214a3ad230cb3@2",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Innehåller inte exakt födelse-/inflyttningsår. Svag[?]/6[?] och osäker utflyttning är redan reserverade; alternativa nya oläsliga ord blir inte säkra rättelser. Rad24-not tillhör fortsatt inte Erik.",
+          "current_payload": {
+            "value_json": "{\"blank\":[\"egen vigsel\",\"egen död\"],\"departure_note\":[\"Säger …\",\"… stigen …\",\"fol. 89[?]\",\"1871-liknande årsform\"],\"hearing1871\":\"6[?]\",\"knowledge\":\"Svag[?]\",\"vaccination\":\"v\"}",
+            "value_literal": "Svag[?]; 6[?] i 1871 års förhörsfält; Säger … / … stigen … / fol. 89[?] / 1871-liknande form",
+            "caveat": "Rå utflyttningstext ger ingen säker flyttdag eller ort. God frejd, ledig … och 1873/1874-noten tillhör rad 24, inte Erik rad 23. Ingen obruten vistelse 1871–1875 följer."
+          }
+        }
+      ],
+      "reviewed_extra_text_objects": [
+        {
+          "object": "AS-P-0133-A-2888",
+          "revision": "AS-P-0133-A-2888@1",
+          "kind": "assessment",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "dependencies": [],
+          "proposed_disposition": "revise",
+          "reason": "T-0673 P04: nuvarande bedömning måste uttrycka den enskilda radens olösta årtal; övriga kedjeposter omprövas inte.",
+          "current_fields": {
+            "body": "Forssa A I/14 sida 99, Sjöstugan, rad 23 fortsätter samme Erik Grill med exakt 1851-01-30 Bettna och den ärvda uppgiften `Bettna 1868 25`.\n\nTillsammans med Årdalas senare `från Forssa 75` gör detta vistelsekedjan 1867–1875 källbunden på volymnivå."
+          }
+        },
+        {
+          "object": "AS-P-0133-A-1919",
+          "revision": "AS-P-0133-A-1919@1",
+          "kind": "assessment",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Historiskt felaktigt volymnoll återtaget; positiv Grillrad består trots osäkra enskilda årtal.",
+          "current_fields": {
+            "body": "Historiskt avvisad uppgift: Hela den fotograferade hushållsdelen i Forssa A I/14, bilderna 10–135, saknar en ytterligare säker Erik Karlsson/Carlsson född 1851-01-30 i Bettna före den kända 1876-raden på sida 87.\n\nSida 99 innehåller den exakta personen som Erik Grill; namnformsscope gjorde att den tidigare kontrollen missade raden."
+          }
+        },
+        {
+          "object": "AS-P-0133-A-2886",
+          "revision": "AS-P-0133-A-2886@1",
+          "kind": "assessment",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Gäller annan post:ForssaB3 inflyttning1868-11-01. Den har inte omlästs och skrivs inte om frånAI14:s osäkra ärvda år.",
+          "current_fields": {
+            "body": "Forssa B/3 registrerar 1868-11-01 `Dräng Erik Grill`, folio 100, från Bettna med attest 47 till Sjöstugan.\n\nInflyttningspost 25; datumet ligger 26 dagar efter Bettnas avgångsdatum."
+          }
+        },
+        {
+          "object": "AS-P-0133-A-2887",
+          "revision": "AS-P-0133-A-2887@1",
+          "kind": "assessment",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Gäller annan post:ForssaAI13s100r21,inteAI14s99r23. Andra postens exakta datum oförändrade.",
+          "current_fields": {
+            "body": "Forssa A I/13 sida 100, Sjöstugan, rad 21 upprepar Erik Grill, 1851-01-30 Bettna, inflyttad från Bettna 1868-11-01 med posthänvisning 25.\n\nFlyttlängd och hushållslängd sammanfaller i namn, datum, ort, dag och postnummer."
+          }
+        },
+        {
+          "object": "RESEARCH-P-0133-9d76f0343410",
+          "revision": "RESEARCH-P-0133-9d76f0343410@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Egen födelse och föräldrar vilar på andra poster. Positiv kedja består; AI14:s år reserveras specifikt iAS2888.",
+          "current_fields": {
+            "body": "## Identitetsbedömning\n\nErik Karlsson, född 1851-01-30 i Bettna, är identifierad som den Erik som\nnamnrättas från Gustaf Oscar i egen födelsepost vid Glippsta soldattorp.\nFöräldraparet, exakt födelsedag, familjens sammansättning och den positiva\nBettna–Forssa-kedjan under hans egen namnform Grill bär sammanföringen.\nSCB 1860 visar sonen E. i föräldrahushållet; SCB 1870 anger drängen Erik\nGrill. Uttryckliga sidhänvisningar 201→185 och Forssas mottagarpost 1868\nförbinder ungdomsleden. Den senare familjen med Anna Christina och därefter\nMatilda Charlotta förbinder vuxenlivets Carlsson/Karlsson. [C-0147](../citations/C-0147-bettna-1851-negativ-kontroll-erik-karlsson.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md), [C-0729](../citations/C-0729-bettna-AI16b-sida201-scb1870-grill-erik.md), [C-0749](../citations/C-0749-scb1860-bettna-erik-grill.md), [C-0741](../citations/C-0741-bettna-forssa-erik-grill-1867-1875.md), [C-0746](../citations/C-0746-scb1870-forssa-erik-grill.md), [C-0154](../citations/C-0154-erik-anna-ardala-C7-vigsel-1876.md), [C-0579](../citations/C-0579-flen-AI26-AIIa1-bergatorp-erik-matilda.md).\n\nDet är ett sammansatt identitetsargument, inte en obruten vistelsekedja eller\nett antal oberoende röster. Utdrag, register och senare kyrkoböcker kan\nåterge samma ursprungsuppgift. Namn- och datumlikhet ensam skulle inte räcka.\nDen avvisade Gustaf Albert Carlsson, född 1853-02-07, hålls åtskild. C-0318:s\näldre helvolymsnoll missade Grill; C-0147:s äldre födelsenoll och de felaktiga\nfadersrullorna är uttryckligen upphävda. [C-0683](../citations/C-0683-forssa-ardala-1875-erik-karlsson-negativ.md), [C-0318](../citations/C-0318-forssa-AI14-erik-karlsson-helvolymkontroll.md), [C-0752](../citations/C-0752-glippsta-nr36-carl-fredric-grill-1848-1855.md), [C-0763](../citations/C-0763-carl-fredric-drill-antagning-flytt-och-vigselintervall.md).\n\nT-0132 har genom läsning av bevarade original rättat flera aktuella celler:\nMatildas död 1920-01-31 står också på Eriks tre sena änklingsrader, Sven\nArvids uppgivna födelsedag är 1898-07-27 och Maria Sofia har inget belagt\nElli-förnamn. Grundägare i Segerslund och sonens separata Stockholmflytt\nersätter den äldre felberättelsen om hela familjens överföring 1907.\nEriks kyrkoboksbeteckning sinnessjuk och dödsorten Landstingets vårdhem\nåterges utan modern diagnos eller antagande om vårdtid. Dessa rättelser\nändrar inte hans identitet. [C-0149](../citations/C-0149-erik-anna-forssa-AI16-sida-83.md), [C-0579](../citations/C-0579-flen-AI26-AIIa1-bergatorp-erik-matilda.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md), [C-0502](../citations/C-0502-helgesta-AIIa6-AIIa7-erik-karlsson-1927-1935.md), [C-0503](../citations/C-0503-helgesta-F2-erik-karlsson-dod-1935.md).\n\nDen tidigare identitetsgranskningen GODKÄND bevaras i historiken. Nuvarande\nUNDERKÄND gäller konkret PK-11: den redan öppnade Malstanäskartans lokala\noriginal/proveniens återstår. Det är inte ett nytt tvivel på föräldrarelationen.\nLivsbildsnivån har därutöver öppna frågor under PK-03/08. Genomförd fullpost-\nprövning räknas som utförd även där skriften är osäker; den nya oöppnade\nG.B.190-routen och en OCR-screening utan målperson är inte automatiska\nPK-05-brister.\n\n"
+          }
+        },
+        {
+          "object": "P-0133/Q-01",
+          "revision": "P-0133/Q-01@1",
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Årdala/Forssa1875-gapet förblir olöst; ingen säker utflyttningsdag utvunnen.",
+          "current_fields": {
+            "body": "### Q-01: Hur ser de tidiga mellanleden och överföringen 1875 ut?\n\n- Fråga och betydelse: BO/ID. Bevara skillnaden mellan styrkt identitet och varje mellanårs boställe.\n- Känt underlag: C-0741 ger Sjöstugan i två volymer; C-0158 anger från Forssa 1875. C-0749 är ett 1860 ankare, inte alla år 1852–1866.\n- Alternativ och motprövning: Årdala B/3 poster 1–53 och Forssa B/3 poster 1–31 år 1875 saknar säker match. Det kan vara ofullständig registrering; ingen annan vistelse följer av nollen. Gustaf Albert är annan person.\n- Källvägar: KP-01/KP-02.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: den äldre frågan om helt obelagda 1871–1875 är besvarad genom den positiva volymkedjan. Attesten kan ge ytterligare precisa data men behövs inte för att skapa föräldraidentiteten på nytt.\n- Påverkade personer/påståenden: P-0474/P-0475; A-2702–2703, A-2834, A-2885–2890.\n\n"
+          }
+        },
+        {
+          "object": "BIO-P-0133",
+          "revision": "BIO-P-0133@1",
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Allmän roll dräng/Sjöstugan kvarstår; inget säkert militärtjänstpåstående eller exakt nytt datum skapas.",
+          "current_fields": {
+            "markdown": "## Biografisk sammanfattning\n\nErik föddes den 30 januari 1851 vid Glippsta soldattorp i Bettna och döptes den 2 februari. Födelseboken rättade namnet Gustaf Oscar till Erik. Föräldrahushållet och senare rader följer honom som Erik Grill till drängtjänst i Sjöstugan i Forssa. Som vuxen skrivs han Carlsson eller Karlsson. År 1870 antecknades ett betyg att träda i krigstjänst, utan belägg för att tjänsten fullgjordes. Den positiva kedjan har ersatt äldre felaktiga namn- och volymnoll, men belägger inte varje mellanår i barndomen. [C-0147](../citations/C-0147-bettna-1851-negativ-kontroll-erik-karlsson.md), [C-0702](../citations/C-0702-bettna-AI12a-AI13a-glippsta-grill-erik.md), [C-0729](../citations/C-0729-bettna-AI16b-sida201-scb1870-grill-erik.md), [C-0741](../citations/C-0741-bettna-forssa-erik-grill-1867-1875.md), [C-0749](../citations/C-0749-scb1860-bettna-erik-grill.md).\n\nDen 17 september 1876 gifte han sig med Anna Christina Larsdotter. Familjen finns i Stafsjön, Hvilunda och Svartgjölstorp. Sex barn är kända i första äktenskapet. Albertina dog på födelsedagen den 14 oktober 1887, och Anna Christina dog den 27 oktober. År 1890 stod Erik som änkling med de fem äldre barnen. Underlaget berättar inte vem som hjälpte honom med barnen eller hur han upplevde dessa år. [C-0154](../citations/C-0154-erik-anna-ardala-C7-vigsel-1876.md), [C-0148](../citations/C-0148-erik-anna-forssa-AI15-sida-116.md), [C-0399](../citations/C-0399-forssa-C7-albertina-fodd-1887.md), [C-0400](../citations/C-0400-forssa-C7-albertina-anna-christina-doda-1887.md), [C-0401](../citations/C-0401-folkrakning-1890-forsa-svartgjolstorp-karlsson.md).\n\nÅr 1894 antecknades utflyttning till Flen. Han gifte om sig med Matilda Charlotta Sjöberg den 28 december 1895. I hushållet fanns hans barn, hennes son Karl August och senare fostersonen Sven Arvid. Familjen följdes genom flera Flensidor. I Segerslund betecknades Erik som grundägare 1907–1908; i Wäsby skrevs han därefter arbetare. Det är konkreta källuppgifter, men ägandets omfattning, inkomster och orsaker till yrkesbytet är okända. Endast Karl Oskar flyttades till Gustaf Vasa församling i Stockholm i november 1907. [C-0780](../citations/C-0780-forssa-AI18-anna-erika-skoldinge.md), [C-0577](../citations/C-0577-scb-flen-erik-karlsson-matilda-sjoberg-vigsel-1895.md), [C-0579](../citations/C-0579-flen-AI26-AIIa1-bergatorp-erik-matilda.md), [C-0796](../citations/C-0796-flen-helgesta-erik-karlsson-1907-1909.md).\n\nErik, Matilda och fostersonen registrerades i Helgesta i januari 1909 och återfinns i Vilhelmsro 1910, då Erik skrivs arbetskarl och fosterbarnet Sven Arne i just utdraget. Matilda dog den 31 januari 1920. Samma datum står på Eriks tre sena änklingsrader; den tidigare uppgiften 3 april var en felläsning. Senare var han bokförd i Torvesta och från den 25 februari 1930 på ålderdomshemmets sida, där 1930 års utdrag kallar honom understödstagare. Detta daterar bokföring, inte med säkerhet fysisk intagning. Den sena kyrkobokens historiska hälsobeteckning återges utan modern diagnos. Erik dog den 20 mars 1935 på Landstingets vårdhem i Katrineholm och begravdes den 24 mars. [C-0799](../citations/C-0799-helgesta-B4-erik-karlsson-januari-1909.md), [C-0500](../citations/C-0500-folkrakning-1910-erik-karlsson-vilhelmsro.md), [C-0773](../citations/C-0773-scb-flens-lanslasarett-matilda-karlsson-dod-1920.md), [C-0502](../citations/C-0502-helgesta-AIIa6-AIIa7-erik-karlsson-1927-1935.md), [C-0501](../citations/C-0501-folkrakning-1930-erik-karlsson-helgesta-alderdomshem.md), [C-0503](../citations/C-0503-helgesta-F2-erik-karlsson-dod-1935.md).\n\n"
+          }
+        }
+      ],
+      "candidate_search_count": 311,
+      "candidate_search_limitation": "C-id i kopierade caveats och andra poster ger falska träffar. Antalet är maskinellt kandidaturval, inte antal sakpåverkade objekt eller manuellt fullgranskade personakter. Sakprövade extraobjekt listas separat.",
+      "person_contract_disposition": "Endast evidensnivåns PK-05/11 och avgränsning; befintlig UNDERKÄND identitetsnivå/AVVAKTAR trädverkan består. Ingen full livsbildsreview."
+    },
+    {
+      "unit": "P05",
+      "current_record": {
+        "object": "R-054e5f896835ee5c83c0153f",
+        "revision": "R-054e5f896835ee5c83c0153f@1",
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "dependencies": [
+          {
+            "revision_id": "R-054e5f896835ee5c83c0153f@1",
+            "basis_revision_id": "S-0373@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "source_sha256": "878681f7f9215ca2468192786cf0950302776ee875e32599af2977e9df72ff86",
+      "first_read": {
+        "unit": "P05",
+        "image_path": "genealogy/media/C-0471-riksarkivet-ljustorp-BI2-henrik-flytt-1854-1855.jpg",
+        "sha256": "878681f7f9215ca2468192786cf0950302776ee875e32599af2977e9df72ff86",
+        "dimensions_sips": "/Users/sverker/repos/slaktforsk/genealogy/media/C-0471-riksarkivet-ljustorp-BI2-henrik-flytt-1854-1855.jpg\n  pixelWidth: 6198\n  pixelHeight: 5100\n",
+        "started_at": "2026-09-18T09:51:03.362234+00:00",
+        "ended_at": "2026-09-18T09:52:35.912666+00:00",
+        "viewed_regions": [
+          {
+            "path": "genealogy/media/C-0471-riksarkivet-ljustorp-BI2-henrik-flytt-1854-1855.jpg",
+            "pixels": [
+              0,
+              0,
+              6198,
+              5100
+            ],
+            "region": "hela uppslaget",
+            "sha256": "878681f7f9215ca2468192786cf0950302776ee875e32599af2977e9df72ff86"
+          },
+          {
+            "path": "/tmp/P05-head.png",
+            "pixels": [
+              3210,
+              470,
+              2630,
+              500
+            ],
+            "region": "högersidans avdelning och kolumnhuvuden",
+            "sha256": "fd0ba9351ff16d8b1fea405637d55f1fa328b689b0f341729491b51234b95ed1"
+          },
+          {
+            "path": "/tmp/P05-target.png",
+            "pixels": [
+              3340,
+              3590,
+              2470,
+              760
+            ],
+            "region": "målrad med närmast föregående/efterföljande poster",
+            "sha256": "8808f19265e094e1f31d7bceaa4c3d8d34920d7d75be5c5b68c65395a08ee5a4"
+          },
+          {
+            "path": "/tmp/P05-year.png",
+            "pixels": [
+              3240,
+              1370,
+              2610,
+              340
+            ],
+            "region": "årsgräns1853/1854",
+            "sha256": "f016756a500f1ee3534f80b4afa9cd64e1be8fdd31834b348042656af0e9e679"
+          },
+          {
+            "path": "/tmp/P05-count-head.png",
+            "pixels": [
+              5140,
+              535,
+              650,
+              370
+            ],
+            "region": "antal man-/kvinnkön, handskrivna rubriker",
+            "sha256": "50dd18c05baa3c130aa5ebccf4ce457b9f4b8101d1ccb1c13acd39deda74696f"
+          },
+          {
+            "path": "/tmp/P05-november-chain.png",
+            "pixels": [
+              3190,
+              3130,
+              2650,
+              1000
+            ],
+            "region": "novemberdatumkedjan fram till målrad samt nästa dag6",
+            "sha256": "2b11f043841e1cabd3278214c7769614937c1bae963b53985a11cbad30b1a077"
+          }
+        ],
+        "extraction": {
+          "visual_locator": {
+            "side": "höger",
+            "heading": "Utflyttade",
+            "year": "1854",
+            "month": "Nov. från daterad rad ovan",
+            "day": "5 från närmast föregående rad, streck på målrad",
+            "page_number": "Inget sidnummer avläst på uppslaget.",
+            "volume_note": "Lös lapp B.2 syns överst; församling och exakt arkivvolym framgår inte självständigt av detta bildhuvud."
+          },
+          "scope": "Henrik Henrikssons hela utflyttningsrad, inklusive hushållsantal. Föregående rad används endast för dateringskedjan; följande pigrad är separat och räknas inte in i hans hushåll.",
+          "columns": [
+            {
+              "label": "N:o",
+              "state": "blank",
+              "raw": ""
+            },
+            {
+              "label": "År (sektion)",
+              "state": "read",
+              "raw": "1854"
+            },
+            {
+              "label": "Månad",
+              "state": "read",
+              "raw": "Nov.",
+              "note": "Anges tidigare i samma fortlöpande månadsavsnitt, inte omtryckt på målrad."
+            },
+            {
+              "label": "Dag",
+              "state": "read",
+              "raw": "–",
+              "inherited_raw": "5",
+              "note": "Föregående rad Torparesonen Lars Johan Rylander har5; därefter Henrikrad med streck, pigrad med streck och nästa uttryckliga dag6. Läsningen är därför5november1854 genom dateringskedjan."
+            },
+            {
+              "label": "Namn, titel och hushåll",
+              "state": "read",
+              "raw": "Drängen Henrik Henriksson med hushåll",
+              "note": "Ingen hustru eller något barn namnges i denna post."
+            },
+            {
+              "label": "Hvarifrån",
+              "state": "read",
+              "raw": "Lagforss By"
+            },
+            {
+              "label": "Hvarthän",
+              "state": "read",
+              "raw": "Lagforss Bruks förs.",
+              "note": "Samma ortnamnsstam, men By och Bruks förs. är olika angivna lokaliseringar. Behåll båda råformerna."
+            },
+            {
+              "label": "Mankön (rubrikens exakta förkortning osäker)",
+              "state": "read",
+              "raw": "2"
+            },
+            {
+              "label": "Qvinkön (rubrikens exakta förkortning osäker)",
+              "state": "read",
+              "raw": "1"
+            }
+          ],
+          "household": "Tre registrerade personer:2 i mankolumnen,1 i kvinnkolumnen. Henrik är den enda namngivna; antal får inte ensamt fördelas på bestämd hustru/son/dotter eller användas till familjekorrelation.",
+          "marginal_and_crossout": "Ingen överstrykning eller särskild marginalanteckning på Henrikraden. Långt streck efter hushåll är radutfyllnad. Överstrukna drängraden högre upp är annan post.",
+          "not_present_in_record": [
+            "Individuella hushållsmedlemmars namn",
+            "Födelsedatum eller ålder",
+            "Vigsel- eller relationsroller för övriga hushållsmedlemmar",
+            "Attestnummer",
+            "Dödsuppgift",
+            "Fysisk resdag skild från kyrkobokens utflyttningsdatum"
+          ],
+          "uncertainties": [
+            "Exakt ortstavning har dubbel-s-liknande skrivning: Lagforss; ingen ändrad modern ortnormalisering görs i förstaläsningen.",
+            "Könskolumnrubrikernas grafiska förkortningar är trånga; själva antalen2 och1 är tydliga.",
+            "Dag/månad är en uttryckligen dokumenterad ditto-/datumkedja, inte upprepade datumord på Henriks rad."
+          ],
+          "unread_relevant_fields": []
+        },
+        "duration_seconds_since_logged_start": 92.550432
+      },
+      "independent_second_read": {
+        "id": "P05",
+        "scope": "Whole spread, header1854 on right, November/date chain and target line.",
+        "reading": "Right November5: Drängen Henrik Henriksson med hushåll; Lagfors By to Lagfors Bruksförs [abbreviation];2 male1 female. No wife or child names on target line.",
+        "limitation": "Left side 1854 must not be mistaken for1855; this unit only right departure."
+      },
+      "comparison": "Överensstämmelse i registreringsdag1854-11-05, roll/namn, riktning,2män1kvinna och avsaknad av andra namngivna hushållsmedlemmar. November ochdag5 är ärvda från föregående daterade rader. Lagfors/Lagforss är råstavning kontra normalisering; fysisk resdag är inte visad.",
+      "declared_dependency_closure": [
+        {
+          "object": "R-054e5f896835ee5c83c0153f",
+          "revision": "R-054e5f896835ee5c83c0153f@1",
+          "kind": "record",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "R-054e5f896835ee5c83c0153f@1",
+              "basis_revision_id": "S-0373@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: source_id"
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Postgräns, riktning och1854-11-05 stämmer;1855 redan historiskt rättat.",
+          "current_payload": {
+            "locator": "Ljustorp B I/2, högersidans utflyttade5 november1854, Henrik Henriksson med hushåll, C0033131_00011",
+            "caveat": "Äldre år 1855 är rättat till 1854. Två män och en kvinna är summor utan säker identifiering av alla medflyttare; talet 5 i äldre text får inte säkert antas vara postnummer.\nC-0471: Tre poster avgränsas på två bilder. Hushållssummor blir varken namnlösa barn eller föräldrauppgifter."
+          }
+        },
+        {
+          "object": "READ-e3b530d27bb6959f9a4029cc",
+          "revision": "READ-e3b530d27bb6959f9a4029cc@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [
+            {
+              "revision_id": "READ-e3b530d27bb6959f9a4029cc@1",
+              "basis_revision_id": "R-054e5f896835ee5c83c0153f@1",
+              "role": "derived_from",
+              "note": "Avser denna version av den återbrukade källposten."
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Korrekt postavgränsning och skillnad mellan register och fysisk resa. Övriga två C0471-poster inte omlästa.",
+          "current_payload": {
+            "body": "C-0471: Tre poster avgränsas på två bilder. Hushållssummor blir varken namnlösa barn eller föräldrauppgifter.\nEgen motriktad registrering, inte automatiskt följdhändelse efter inflytt 129.",
+            "caveat": "Äldre år 1855 är rättat till 1854. Två män och en kvinna är summor utan säker identifiering av alla medflyttare; talet 5 i äldre text får inte säkert antas vara postnummer."
+          }
+        },
+        {
+          "object": "M-P-0338-C0471-out1854",
+          "revision": "M-P-0338-C0471-out1854@1",
+          "kind": "mention",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "M-P-0338-C0471-out1854@1",
+              "basis_revision_id": "R-054e5f896835ee5c83c0153f@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Henrik Henriksson och Drängen direkt lästa.",
+          "current_payload": {
+            "caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+          }
+        },
+        {
+          "object": "O-P-0338-C0471-out1854",
+          "revision": "O-P-0338-C0471-out1854@1",
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "dependencies": [
+            {
+              "revision_id": "O-P-0338-C0471-out1854@1",
+              "basis_revision_id": "M-P-0338-C0471-out1854@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            },
+            {
+              "revision_id": "O-P-0338-C0471-out1854@1",
+              "basis_revision_id": "R-054e5f896835ee5c83c0153f@1",
+              "role": "supports",
+              "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Alla egna fält kontrollerade:datum,från/till,2män1kvinna,medhushåll,tomma övriga anteckningar. Anonyma räknade personer identifieras inte.",
+          "current_payload": {
+            "value_json": "{\"date\":\"1854-11-05\",\"from\":\"Lagfors By\",\"household_literal\":\"med hushåll\",\"men\":2,\"old_wrong_year\":1855,\"other_own_notes\":\"blank\",\"to\":\"Lagfors Bruksförs.\",\"women\":1}",
+            "value_literal": "{\"from\":\"Lagfors By\",\"to\":\"Lagfors Bruksförs.\",\"men\":2,\"women\":1,\"household_literal\":\"med hushåll\",\"old_wrong_year\":1855,\"date\":\"1854-11-05\",\"other_own_notes\":\"blank\"}",
+            "caveat": ""
+          }
+        },
+        {
+          "object": "ID-P-0338-C0471-out1854",
+          "revision": "ID-P-0338-C0471-out1854@1",
+          "kind": "identity",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "dependencies": [
+            {
+              "revision_id": "ID-P-0338-C0471-out1854@1",
+              "basis_revision_id": "M-P-0338-C0471-out1854@1",
+              "role": "derived_from",
+              "note": "Versionsbunden strukturreferens: mention_id"
+            }
+          ],
+          "proposed_disposition": "retain_after_scoped_review",
+          "reason": "Ingen motstridande identitetsuppgift tillkommer i denna post.",
+          "current_payload": {
+            "caveat": ""
+          }
+        }
+      ],
+      "reviewed_extra_text_objects": [
+        {
+          "object": "F-P-0338-migration_assessment-registers-not-journeys",
+          "revision": "F-P-0338-migration_assessment-registers-not-journeys@1",
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "CONFLICT",
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "1854-11-05 och2män1kvinna bekräftade; andra dagars egna registreringar står kvar; null för andra mannens identitet och okända resdatum korrekt.",
+          "current_fields": {
+            "value_json": "{\"AI6_s54_communion_years\":null,\"Familia_arrival_home\":\"Löfberg\",\"arrival1854\":\"1854-11-24\",\"arrival1855_household\":\"1855-11-21\",\"arrival1855_register\":\"1855-12-02\",\"departure1854\":\"1854-11-05\",\"departure_count\":{\"men\":2,\"women\":1},\"household_home\":\"Sjöberg\",\"original_preferred_home\":\"Sjöberg\",\"registration_order_is_travel_order\":false,\"second_male_identity\":null,\"travel_dates_established\":false,\"wife_named\":false}"
+          }
+        },
+        {
+          "object": "RESEARCH-P-0338-9d76f0343410",
+          "revision": "RESEARCH-P-0338-9d76f0343410@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Kvarvarande identitetsgrind avser annan flyttpostC0625/1850 och fyra bildluckor; denna kontroll löser inte dem.",
+          "current_fields": {
+            "body": "## Identitetsbedömning\n\nDen återkommande mannen med uppgivet födelsedatum 1829-08-10, Margaretha Charlotta som hustru och barnen i samma hushåll är tillräckligt identifierad för PK-01. Egen vigsel 1854 och död 1884 samt de reciproka A I/6-hänvisningarna bär sammanföringen. Drängen Erik Henriksson född 1827 är en uttryckligen avvisad annan person. Identitetsgrinden är ändå inte passerad: den redan öppnade flyttpostens datumditto/kolumnkontext och bevarandet av fyra originalbilder återstår enligt PK-05/11. [C-0592](../citations/C-0592-ljustorp-EI1-vigsel-henrik-sjolin-1854.md), [C-0376](../citations/C-0376-ljustorp-F1-henrik-henriksson-dod-1884-03-13.md), [C-0469](../citations/C-0469-ljustorp-AI6-henrik-familj-sjoberg.md), [C-0519](../citations/C-0519-ljustorp-AI6-sida-54-henrik-familj.md), [C-0520](../citations/C-0520-ljustorp-AI5-lagfors-sidor-27-41-negativ.md), [C-0625](../citations/C-0625-ljustorp-BI1-henrik-1850-original.md).\n\nFödelsedatumet är en uppgift i senare husförhör, inte en egen identifierad födelsenotis. Dödbokens 54 år, 7 månader och 3 dagar är aritmetiskt förenligt men kan vara beräknat ur samma kyrkoboksdatum. Vigselns **23 år** avviker från 24 fyllda år vid vigseln 1854-07-16. Rundbacken respektive Lagfors/Lagfors bruk bevaras som olika ortuppgifter. C-0472 gav noll i två bilder kring datumet och en översiktsuppgift om att Lagfors födelseböcker börjar 1862; det är inte bevis för total arkivförlust. [C-0592](../citations/C-0592-ljustorp-EI1-vigsel-henrik-sjolin-1854.md), [C-0472](../citations/C-0472-lagfors-1829-kallucka-och-ljustorp-noll.md).\n\nFöräldrarelationen till Hindric Henriksson/Vinroth och Brita Flinkberg behåller **CORROBORATED** i A-2591. Nybergs familj 99 namnger sonen Henrik 1829; Jonas och Cecilia där sammanfaller med kyrkoboksidentifierade dopvittnen från Bredsjö. Det är korrelation med ett uttryckligt sekundärt familjeregister, inte en direkt originalpost om Henriks födelse. Registrets fel i faderns årtal och Anna Greta/Cajsa Brita gör dess datumuppgifter prövningskrävande. Den äldre profilens avvisning grundad på att Henrik saknas i Lagfors A I/1 sidorna 34–36 var däremot ogiltig: volymen börjar 1860 och han flyttade 1850. Ingen relation till Nybergs familj 98 blir automatiskt säker genom familj 99. [C-0623](../citations/C-0623-nyberg-familj-99-henrik-brita-foraldrar.md), [C-0624](../citations/C-0624-ljustorp-AI3-hindric-brita-original.md), [C-0594](../citations/C-0594-ljustorp-AI6-bredsjo-lagfors-rundbacken-ledtradar.md), [C-0626](../citations/C-0626-lagfors-AI1-rundbacken-original.md).\n\nNils Andreas dag är nu läst som **21 februari 1867** också i C-0374; den gamla läsningen 27 var ett avskriftsfel, inte en kvarstående original–databaskonflikt. Den dödfödde tvillingpojken 1856 är originalbelagd i C-0470. Andra två barn i Familias lista, Nils 1854 och Nils Martin 1863, har ännu bara sekundärt underlag. [C-0374](../citations/C-0374-ljustorp-AI9-lagfors-henrik-henriksson-sjolin.md), [C-0470](../citations/C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md), [C-0593](../citations/C-0593-familia-henrik-rundbacken-kandidatfamilj.md).\n\n"
+          }
+        },
+        {
+          "object": "CONTRACT-P-0338-PK-05",
+          "revision": "CONTRACT-P-0338-PK-05@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "EJ STYRKT avser bland annat annan BI1-post1850; kan inte uppgraderas avBI2/1854.",
+          "current_fields": {
+            "body": "| PK-05 | EJ STYRKT | Egna lokala fält i s 57/40/116/54/222, vigsel, död och flytt 1854–55 har prövats. B I/1 s 15 post 12:s datumdittoankare och fulla ytterkolumnrubriker ligger utanför det sparade C-0625-utsnittet. Detta är konkret fullpostrest. Prövade råmarkeringar och reserverad årsbindning i C-0519 är inte lästa som tomt eller som ny skuld.  [C-0625](../citations/C-0625-ljustorp-BI1-henrik-1850-original.md). |\n"
+          }
+        },
+        {
+          "object": "P-0338/Q-02",
+          "revision": "P-0338/Q-02@1",
+          "kind": "question",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Två räknade män identifierar inte ett visst barn. Barnens egna födelseposter återstår oförändrat.",
+          "current_fields": {
+            "body": "### Q-02: Familjen och hushållskedjan\n\n- Fråga och betydelse: REL/BO/ARB. Vad visar de redan identifierade originalen 1861–80, och kan de två ännu sekundära barnen knytas till rätt par?\n- Känt underlag: [C-0605](../citations/C-0605-familia-henrik-1850-och-rundbacken-34-36.md) pekar exakt på A I/7 s 201 och A I/8 s 203. Fem barn stöds nu av kyrkoboksunderlaget, inklusive dödfödde tvillingpojken. Nils 1854-09-17 och Nils Martin 1863-02-14 kommer ännu från Familias biografi.\n- Alternativ och motprövning: databasen kan ha korrekta barnlänkar eller en felkopplad individ; en egen födelsepost och mottagande hushållsrader kan skilja fallen. Flyttregistreringar 1854 samt 21 november/2 december 1855 ska inte tvingas till en resa.\n- Källvägar: KP-01.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: s 57→40 och 116↔54 samt s 222 är positiva; en databashänvisning bär routing, inte full originalutvinning eller en oavbruten yrkesbana. Nils Andreas 21/27 är däremot löst som avskriftsrättelse i C-0374.\n- Påverkade personer/påståenden: P-0339, P-0253, P-0366, P-0394, P-0456; A-2237/A-2539/A-4313–4315. Ingen ny personidentitet skapas från derivat ensamt.\n\n"
+          }
+        },
+        {
+          "object": "PATH-P-0338-KP-01",
+          "revision": "PATH-P-0338-KP-01@1",
+          "kind": "assessment",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "T0263 ägerBI1fullkontext och fyra original;T0264 andrahushållsposter och tvåbarns födelseposter. Ingen fullbordas avpilotensBI2departur.",
+          "current_fields": {
+            "body": "### KP-01: Ljustorps kyrkoböcker 1850–1884\n\n- Frågor/teman: Q-01/Q-02; ID, REL, BO, ARB, SAM, HAL.\n- Källklass: K-01, K-02, K-03, K-04, K-05, K-06, K-08.\n- Tid/plats och arkivbildare: Ljustorp A I/6 s 57/40/116/54, A I/7 s 201, A I/8 s 203, A I/9 s 222; B I/1 s 15 post 12, B I/2 målposter 1854–55; E I/1 s 17 rad 8, C/3 barnposter, F/1 s 49 post 13; folkräkning 1880.\n- Förväntad information: Hela egna fält, hushållsövergångar och de två sekundära barnrelationerna; ingen automatisk ekonomisk tolkning av titlar.\n- Ingång och söknycklar: Henrik 1829-08-10, maka Margaretha Charlotta; A I/7 s 201/r 1 och A I/8 s 203/r 1 är redan angivna i C-0605. Nils 1854-09-17 och Nils Martin 1863-02-14 är derivatnycklar.\n- Beroenden: Inga för de exakta folierna. C-0625:s sparade utsnitt saknar datumdittons föregående dag och fulla kolumnrubriker. Originalkopiorna preciseras under PK-11.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet och Familia. Lokala bevarade original omlästa 2026-09-08; ingen ny extern åtkomstprövning i konsolideringen. C-0625 visar redan öppnad post, inte kvarstående gammalt CAPTCHA-hinder.\n- Undersökt omfång och utfall: POSITIVT: egen vigsel/död, s 57/40/116/54/222, flytt 1854–55, barns original och 1880 hushåll. C-0375:s feluppslagsnoll upphävt. C-0605:s mellanfolier är positiva derivatrutter; egna original där EJ UNDERSÖKTA. C-0625 har konkret fullpostrest.\n- Bedömning och återaktivering: ÖPPEN för de fasta posterna och två barnens egna original; ingen omsökning av redan tillräckliga positiva poster. Datum-/kolumnkontext i öppnad B I/1-post gäller PK-05, nya 201/203 gäller kontinuitet och PK-08.\n- Wotan: [T-0263](../../wotan/dev-log/T-0263.md) äger B I/1 post 12:s fullkontext och de fyra fasta originalkopiorna. [T-0264](../../wotan/dev-log/T-0264.md) äger A I/7 s201/r1, A I/8 s203/r1 samt Nils 1854-09-17 och Nils Martin 1863-02-14:s egna födelseposter, vardera med högst ett direkt sidoankare. Inga bredare passager ingår.\n\n"
+          }
+        },
+        {
+          "object": "BIO-P-0338",
+          "revision": "BIO-P-0338@1",
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Bokföringsdatum kontra fysisk resa är korrekt skilt; familjen identifieras inte från anonyma summor.",
+          "current_fields": {
+            "markdown": "## Biografisk sammanfattning\n\nHenrik Henriksson uppges i de senare längderna vara född den 10 augusti 1829. Den äldre längden skriver Rundbacken, andra källor Lagfors eller Lagfors bruk. Någon egen födelsenotis är inte identifierad. Föräldrasambandet med Hindric Henriksson/Vinroth och Brita Flinkberg stöds av Nybergs uttryckliga familj 99 och korrelationen med Jonas och Cecilia, som är identifierade dopvittnen vid Henriks dotters dop 1856. Registret har samtidigt egna namn- och årsavvikelser som inte får överföras okritiskt. [C-0469](../citations/C-0469-ljustorp-AI6-henrik-familj-sjoberg.md), [C-0623](../citations/C-0623-nyberg-familj-99-henrik-brita-foraldrar.md), [C-0470](../citations/C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md).\n\nÅr 1850 bokfördes Henrik som dräng från bruket till Lagforsby. Han gifte sig den 16 juli 1854 med Margaretha Charlotta Sjölin, vars förmyndare Lars Persson i Löfberg lämnade muntligt bifall. Vigselns uppgift att Henrik var 23 år avviker från de 24 fyllda år som det senare födelsedatumet ger. Familjen följdes därefter mellan Lagfors och Sjöberg; böckernas skilda flyttdatum återger inte en entydig fysisk reseföljd. [C-0625](../citations/C-0625-ljustorp-BI1-henrik-1850-original.md), [C-0592](../citations/C-0592-ljustorp-EI1-vigsel-henrik-sjolin-1854.md), [C-0471](../citations/C-0471-ljustorp-BI2-henrik-flytt-lagfors.md).\n\nI Sjöberg föddes 1856 tvillingarna Märtha Brita och en dödfödd pojke. Märtha Brita dog elva dagar senare. Henrik Peter tillkom i hushållet 1857, och Erik Jonas föddes 1860. Yngste kände hushållssonen Nils Andreas återfinns med föräldrarna 1880 och i den senare husförhörslängden. Två ytterligare söner i Familias lista är ännu sekundära spår. [C-0470](../citations/C-0470-ljustorp-martha-brita-fodd-och-dod-1856.md), [C-0469](../citations/C-0469-ljustorp-AI6-henrik-familj-sjoberg.md), [C-0330](../citations/C-0330-ljustorp-C3-erik-jonas-fodd-1860-01-23.md), [C-0374](../citations/C-0374-ljustorp-AI9-lagfors-henrik-henriksson-sjolin.md), [C-0593](../citations/C-0593-familia-henrik-rundbacken-kandidatfamilj.md).\n\nKällorna kallar Henrik dräng, arbetare, torpare och inhysesman. Han var inhyses redan i Sjöberg på 1850-talet; titlarna visar därför ingen enkel nedgång från torpare till inhyses vid livets slut. Exakta originalnycklar finns till hushållen 1861–1880, men de volymerna är ännu inte lästa här. Den 13 mars 1884 dog Henrik, då gift inhysesman med hemvist i Lagfors, av vad dödboken kallar lungsot. Han begravdes den 16 mars. Torpets namn, hans ekonomi och personliga erfarenheter är fortfarande okända. Det selektiva bouppteckningsregistret gav ingen träff; Edén-arkivet erbjuder analoga katalogvägar, utan läst personrad. [C-0519](../citations/C-0519-ljustorp-AI6-sida-54-henrik-familj.md), [C-0605](../citations/C-0605-familia-henrik-1850-och-rundbacken-34-36.md), [C-0376](../citations/C-0376-ljustorp-F1-henrik-henriksson-dod-1884-03-13.md), [C-0704](../citations/C-0704-ljustorp-bouppteckningsregister-henrik-noll-jonas-hoglin.md), [C-0710](../citations/C-0710-ljustorp-c394-henrik-ekonomisk-och-dodsboroute.md).\n\n"
+          }
+        },
+        {
+          "object": "BIO-P-0339",
+          "revision": "BIO-P-0339@1",
+          "kind": "narrative",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "dependencies": [],
+          "proposed_disposition": "retain",
+          "reason": "Namnlös hustru i1855post identifieras via annan hushållskälla; det är inte ett namn i denna1854post.",
+          "current_fields": {
+            "markdown": "## Biografisk sammanfattning\n\nMargareta Charlotta förekommer som Schölin i Allmänna barnhusets rulla 2532. Där uppges hon född 13 augusti 1825, ympad och antagen till underhåll i juni 1831. Dagfältet innehåller både 15 och överställd 21. Fadern namnges som fabriksarbetaren Jonas Schölin; modern nämns inte. Nils Larsson i Löfberg anges som den som uppfostrar henne, och barnhusflickans egen rad finns i Ljustorps bok 1831–1841. Rullan har underhållstalet 20 och en senare, delvis svårläst not från augusti 1849. [C-0606](../citations/C-0606-barnhusflickan-margreta-charlotta-scholin.md)\n\nDen 16 juli 1854 gifte hon sig med Henrik Henriksson. Hon var då piga i Lagfors och uppgavs vara 28 år; Lars Persson i Löfberg lämnade muntligt bifall som förmyndare. Året därpå identifieras hon som den namnlösa hustrun i parets flytt till Sjöberg genom den kompletterande familjeboken. Minst fem barn är originalbundna, däribland Märtha Britas dödfödde tvillingbror den 20 februari 1856; ytterligare två finns som Familias spår. [C-0592](../citations/C-0592-ljustorp-EI1-vigsel-henrik-sjolin-1854.md), [C-0471](../citations/C-0471-ljustorp-BI2-henrik-flytt-lagfors.md), [C-0469](../citations/C-0469-ljustorp-AI6-henrik-familj-sjoberg.md), [C-0593](../citations/C-0593-familia-henrik-rundbacken-kandidatfamilj.md)\n\nEfter makens död 1884 återkommer hon som änka i Lagfors. År 1900 kallas hon inhyseshjon och skrivs Henriksson. Detta beskriver källans försörjnings-/bostadsställning men belägger inte i sig fattigvård eller en bestämd social rang. Husförhörslängden antecknar hennes död 19 april 1901. En motsvarande dödspost har inte säkert återfunnits i de tidigare avgränsade kontrollerna; dödsort, begravning och orsak är fortfarande okända. [C-0376](../citations/C-0376-ljustorp-F1-henrik-henriksson-dod-1884-03-13.md), [C-0515](../citations/C-0515-folkrakning-1900-margreta-charlotta-originalverifierad.md), [C-0607](../citations/C-0607-ljustorp-AI10-margreta-dod-1901-konflikt.md)\n\n"
+          }
+        }
+      ],
+      "candidate_search_count": 148,
+      "candidate_search_limitation": "C-id i kopierade caveats och andra poster ger falska träffar. Antalet är maskinellt kandidaturval, inte antal sakpåverkade objekt eller manuellt fullgranskade personakter. Sakprövade extraobjekt listas separat.",
+      "person_contract_disposition": "Endast evidensnivåns PK-05/11 och avgränsning; befintlig UNDERKÄND identitetsnivå/AVVAKTAR trädverkan består. Ingen full livsbildsreview."
+    }
+  ],
+  "actual_new_error_count": {
+    "certain_existing_representation_error": 1,
+    "description": "P03 fel benämning på andra attestkolumnen. Tomvärden och död/burial oförändrade.",
+    "unresolved_field_disagreements": "P03 födelsedag;P04 födelseår/inflyttningsår. Ska inte räknas som säkra nya datumfel.",
+    "first_reader_error": "P04 blind-b30/11 korrigeras i jämförelsen till30/1 utan att första artefakten skrivs om.",
+    "current_workflow_text_stale": 1
+  },
+  "dependency_gaps": [
+    {
+      "object": "AS-P-0133-A-2888@1",
+      "problem": "Sakpåståenden om exakt AI14-rad saknar alla deklarerade dependencies. Föreslagen revision binds tillR@2ochTR@2."
+    },
+    {
+      "object": "F-P-0338-migration_assessment-registers-not-journeys@1",
+      "problem": "Sammanfattar egna treposters registerfält utan dependencies. Inget sakfel i pilotkontrollerad del, bevara och lämna generell komplettering tillT0672."
+    },
+    {
+      "object": "KEY-P-0123-8ae9472e9c5f@1",
+      "problem": "Söknyckel medC1110datum utan dependencies; föreslagen revision binds till konkret Freportedbirth@2."
+    },
+    {
+      "object": "BIO-P-0123@1",
+      "problem": "Flera citerade slutsatser utan dependencies; avgränsad ändring får exakt Freportedbirth@2 som underlag. Den binds inte schablonmässigt till alla nämnda citationer."
+    }
+  ],
+  "operation_draft": "T-0673-b-pilot.json",
+  "operation_change_count": 17,
+  "no_db_writes": true,
+  "parent_next_step": "Sakpröva särskilt om P03-dag/hemvist och P04-år kan avgöras ytterligare utan ankare från tidigare avskrift. Föreslagen osäkerhetsbevaring kan tillämpas efter rootvalidering. Kör därefter individuell beroendeomprövning inklusive transitiva noder; pending-id uppstår först vid apply och har inte fabricerats här. Inga redan godkända personnivåer uppgraderas.",
+  "proposed_field_changes": [
+    {
+      "object": "R-0d079c3104e21c013814ea7f",
+      "current_revision": "R-0d079c3104e21c013814ea7f@1",
+      "fields": [
+        {
+          "field": "caveat",
+          "old": "Död30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.\nC-1110: SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll.",
+          "proposed": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte. Historisk C-1110-kontext om Hulda, andra volymer och äldre barnidentitetsrättelse i revision1 har inte omprövats av denna enda dödspost."
+        },
+        {
+          "field": "rationale",
+          "old": "Källpost avgränsad i C-1110. Vuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet.",
+          "proposed": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras."
+        }
+      ],
+      "rationale": "T-0673 P03: avgränsa aktuell lässäkerhet och rätta attestkolumnens betydelse; ursprung och exakt originalbild bevaras."
+    },
+    {
+      "object": "TR-7a4fa88e1d2abd74ff06e999",
+      "current_revision": "TR-7a4fa88e1d2abd74ff06e999@1",
+      "fields": [
+        {
+          "field": "data.text",
+          "old": "- Död **Januari30**, man räknad till församlingen.\n- **Johan Peter Urbom, Inhyseshjon, Ektorp**.\n- Född **18 2/3**; änklingsmarkering, övriga civilståndsfält tomma.\n- Församlingsboksfolio **182**.\n- Dödsorsak **Tarmvred**. Dödsattestkolumnerna läkare respektive\n  uppgiftslämnare utom pastorsämbetet saknar markering.\n",
+          "proposed": "Död Januari30,1896; man räknad till församlingen1. Johan Peter Urbom, Inhyseshjon, Ektorp [jämförande omläsning]. Född råår18, dag/månad2[eller21?]/3; exakt dag olöst. Mark1 i Enkling eller frånskild; övriga civilståndsrutor tomma. Församlingsboksfolio182. DödsorsakTarmvred. Dödsattest af läkare respektive barnmorska: båda tomma. Dödsort om annan än hemorten: tom. Begrafven Febr9,1896. Särskilda anteckningar: tomma."
+        },
+        {
+          "field": "data.reading_note",
+          "old": "SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll.\nDöd30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.",
+          "proposed": "T-0673: originalets tryckta barnmorska är säker rubrikrättelse. Äldre uppgiftslämnare utom pastorsämbetet var fel kolumnbetydelse. Förstapass och andrapass samt senare jämförelse hålls isär i verification/T-0673; dagfrågan kvarstår. Tidigare läshistorik och andra C-1110-poster i revision1 är historik och inte omprövade här."
+        },
+        {
+          "field": "caveat",
+          "old": "Död30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.",
+          "proposed": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte."
+        },
+        {
+          "field": "rationale",
+          "old": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-1110; ingen ny originalavläsning.",
+          "proposed": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1."
+        }
+      ],
+      "rationale": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1."
+    },
+    {
+      "object": "TR-3ce4483f535bff48177cc5a1",
+      "current_revision": "TR-3ce4483f535bff48177cc5a1@1",
+      "fields": [
+        {
+          "field": "data.reading_note",
+          "old": "SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll.\nDöd30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.",
+          "proposed": "T-0673 bekräftar endast tomma särskilda anteckningar på post3 och ingen separat ankomstdag. Födelsedagens precision följer den reserverade aktuella avskriften, inte äldre kopierad lässammanfattning."
+        },
+        {
+          "field": "caveat",
+          "old": "Död30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.",
+          "proposed": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte."
+        },
+        {
+          "field": "rationale",
+          "old": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-1110; ingen ny originalavläsning.",
+          "proposed": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1."
+        }
+      ],
+      "rationale": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1."
+    },
+    {
+      "object": "READ-1dae3b93957839aab8dfe1d7",
+      "current_revision": "READ-1dae3b93957839aab8dfe1d7@1",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "C-1110: SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll.\nVuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet.",
+          "proposed": "C-1110: SenT0135rättelse återtar fem-böcker-med3juni och återöppnar födelsebarnskopplingen, utan att kasta bort vuxenkedjans positiva dödspost. Kungsholm/Hedv.[?] förHulda är egen verklig avvikelse. F-seriens tidsgräns har hänvisning tillB4; fel volymsökning är inte personnoll.\nVuxenkedjans namn, yrke, hemvist, änklingsdag och familjemarkörer korreleras. Kopierad födelseuppgift är inte ett oberoende bevis för födelsebarnets identitet.\nT-0673 avgränsad ny kontroll av endast dödspost3: T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte."
+        },
+        {
+          "field": "caveat",
+          "old": "Död30januari, begravd9februari1896,inhyseshjonEktorp,födelse18 2/3,folio182. Tarmvred som källterm, bådaattestkolumner utan markering. Annan-ort-fält tomt anger ingen exakt fysisk dödsplats. Vuxenkedjans dödsidentitet består medan födelsebarnskopplingen tillC0833 är kandidat.",
+          "proposed": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte."
+        },
+        {
+          "field": "rationale",
+          "old": "Dokumenterad avgränsning och läshistorik i C-1110; ingen ny oberoende evidensröst.",
+          "proposed": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1."
+        }
+      ],
+      "rationale": "T-0673 P03: äldre återgivning får inte fortsätta signalera säker födelsedag när egen postläsning är olöst; historisk råtext finns i revision1."
+    },
+    {
+      "object": "O-P-0123-death1896",
+      "current_revision": "O-P-0123-death1896@1",
+      "fields": [
+        {
+          "field": "data.value_literal",
+          "old": "{\"death\":\"1896-01-30\",\"burial\":\"1896-02-09\",\"sex_column\":\"man räknad till församlingen\",\"home\":\"Ektorp\",\"birth\":\"1818-03-02\",\"widower_mark\":true,\"folio\":182,\"cause_literal\":\"Tarmvred\",\"doctor_attestation_mark\":null,\"other_attestation_mark\":null,\"other_death_place\":null,\"special_notes\":null,\"arrival_date\":null}",
+          "proposed": "{\"arrival_date\": null, \"birth\": null, \"burial\": \"1896-02-09\", \"cause_literal\": \"Tarmvred\", \"death\": \"1896-01-30\", \"doctor_attestation_mark\": null, \"folio\": 182, \"home\": \"Ektorp\", \"other_attestation_mark\": null, \"other_death_place\": null, \"sex_column\": \"man räknad till församlingen\", \"special_notes\": null, \"widower_mark\": null, \"birth_raw\": \"18 2[eller21?]/3\", \"birth_reading_status\": \"day_unresolved\", \"previous_birth_reading\": \"1818-03-02\", \"marital_column_literal\": \"Enkling eller frånskild\", \"marital_column_mark\": true, \"other_attestation_column_literal\": \"barnmorska\"}"
+        },
+        {
+          "field": "data.value_json",
+          "old": {
+            "arrival_date": null,
+            "birth": "1818-03-02",
+            "burial": "1896-02-09",
+            "cause_literal": "Tarmvred",
+            "death": "1896-01-30",
+            "doctor_attestation_mark": null,
+            "folio": 182,
+            "home": "Ektorp",
+            "other_attestation_mark": null,
+            "other_death_place": null,
+            "sex_column": "man räknad till församlingen",
+            "special_notes": null,
+            "widower_mark": true
+          },
+          "proposed": {
+            "arrival_date": null,
+            "birth": null,
+            "burial": "1896-02-09",
+            "cause_literal": "Tarmvred",
+            "death": "1896-01-30",
+            "doctor_attestation_mark": null,
+            "folio": 182,
+            "home": "Ektorp",
+            "other_attestation_mark": null,
+            "other_death_place": null,
+            "sex_column": "man räknad till församlingen",
+            "special_notes": null,
+            "widower_mark": null,
+            "birth_raw": "18 2[eller21?]/3",
+            "birth_reading_status": "day_unresolved",
+            "previous_birth_reading": "1818-03-02",
+            "marital_column_literal": "Enkling eller frånskild",
+            "marital_column_mark": true,
+            "other_attestation_column_literal": "barnmorska"
+          }
+        },
+        {
+          "field": "caveat",
+          "old": "Ektorp är bostad. Tom annan dödsort fastställer ingen fysisk dödsplats. Historisk orsaksuppgift, ingen modern diagnos.",
+          "proposed": "T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte."
+        },
+        {
+          "field": "rationale",
+          "old": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+          "proposed": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade."
+        }
+      ],
+      "rationale": "T-0673 P03: rätta felaktig attestsemantik och reservera olöst födelsedag i just denna observation. Döds- och begravningsdag oförändrade."
+    },
+    {
+      "object": "F-P-0123-reported_birth_data-curated",
+      "current_revision": "F-P-0123-reported_birth_data-curated@1",
+      "fields": [
+        {
+          "field": "data.value_json",
+          "old": {
+            "adult_month_day": [
+              {
+                "date": "03-02",
+                "sources": [
+                  "C0276",
+                  "C0278",
+                  "C0281",
+                  "C1110"
+                ]
+              },
+              {
+                "literal": "2/4[?]",
+                "source": "C0277"
+              },
+              {
+                "literal": "2/[oläst]",
+                "source": "C0275"
+              }
+            ],
+            "adult_place": "Wist",
+            "adult_year": 1818,
+            "candidate": "1818-06-03,Björsäter",
+            "previous_June_reading": "avförd felläsning"
+          },
+          "proposed": {
+            "adult_month_day": [
+              {
+                "date": "03-02",
+                "sources": [
+                  "C0276",
+                  "C0278",
+                  "C0281"
+                ]
+              },
+              {
+                "literal": "2/4[?]",
+                "source": "C0277"
+              },
+              {
+                "literal": "2/[oläst]",
+                "source": "C0275"
+              },
+              {
+                "literal": "2[eller21?]/3",
+                "source": "C1110",
+                "status": "day_unresolved_in_T0673",
+                "previous_reading": "03-02"
+              }
+            ],
+            "adult_place": "Wist",
+            "adult_year": 1818,
+            "candidate": "1818-06-03,Björsäter",
+            "previous_June_reading": "avförd felläsning"
+          }
+        },
+        {
+          "field": "caveat",
+          "old": "Vuxenhushållens födelseuppgifter och kandidatens skiljs åt; inget antal kopior sluter identiteten.",
+          "proposed": "Vuxenhushållens födelseuppgifter och kandidatens skiljs åt; inget antal kopior sluter identiteten. T-0673 reserverar endast C1110:s egen dagläsning; 21mars antas inte som säker rättelse."
+        },
+        {
+          "field": "rationale",
+          "old": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+          "proposed": "T-0673 P03: C1110 får inte räknas som säkert stöd för03-02 medan dess dagtal är olöst; andra tidigare källors egna avläsningar bevaras."
+        }
+      ],
+      "rationale": "T-0673 P03: C1110 får inte räknas som säkert stöd för03-02 medan dess dagtal är olöst; andra tidigare källors egna avläsningar bevaras."
+    },
+    {
+      "object": "KEY-P-0123-8ae9472e9c5f",
+      "current_revision": "KEY-P-0123-8ae9472e9c5f@1",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "| Född1818-06-03 Björsäter; senare1818-03-02 Wist | Sök även källans avvikande uppgifter | C-0833, C-1110 | Björsäterbarnet är kandidat; vuxenböckers 2 mars och 2/4[?] bevaras |\n",
+          "proposed": "| Född1818-06-03 Björsäter; senare1818-03-02 Wist | Sök även källans avvikande uppgifter | C-0833, C-1110 | Björsäterbarnet är kandidat; vuxenböckers 2 mars och 2/4[?] bevaras |\n\nT-0673, källavgränsning: C-1110:s dödspost bekräftar döds-/begravningsuppgifterna men dess födelsedag är nu olöst mellan läsningarna2 och21 mars. Vuxenböckernas tidigare uppgifter2mars och2/4[?] står kvar som sina egna källuppgifter. Ingen säker ny födelsedag eller sluten barn–vuxenidentitet följer.\n"
+        },
+        {
+          "field": "caveat",
+          "old": "Hela akt/profil med historik och alla aktuella källcitationer C0087/C0118/C0248–50/C0275–78/C0281/C0284–85/C0321/C0833/C1110–15 lästa. Vuxenfamiljen1841–1896 består; Björsäterbarnet1818 och dess föräldrar/vittnen hålls som kandidatkontext. Vuxendatumen2mars och2april[?] rättar gamla felläsningen3juni, flera kopierade böcker sluter inte identiteten. Änkedatum1877 är inte vigseldatum. Bokflyttar, hemvist/fysisk dödsplats, katalogåtkomst och personfrånvaro skiljs åt. Inga arkivbilder läses på nytt eller forskningsnivåer godkänns.",
+          "proposed": "Äldre migrationsgranskning i föregående revision är daterad historik. T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte."
+        },
+        {
+          "field": "rationale",
+          "old": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+          "proposed": "T-0673 P03: textens C1110-hänvisning avgränsas till aktuellt stöd; äldre vuxenböckers datum och olöst kandidatidentitet ändras inte."
+        }
+      ],
+      "rationale": "T-0673 P03: textens C1110-hänvisning avgränsas till aktuellt stöd; äldre vuxenböckers datum och olöst kandidatidentitet ändras inte."
+    },
+    {
+      "object": "BIO-P-0123",
+      "current_revision": "BIO-P-0123@1",
+      "fields": [
+        {
+          "field": "data.markdown",
+          "old": "## Biografisk sammanfattning\n\nJohan Petters ursprung är åter öppet. Ett födelsebarn i Björsäter 1818, med föräldrarna Lorentz Urbom och Anna Maja Eriksdotter på Krogen, är en kandidat. Vuxenböckernas datum hade tidigare fellästs som 3 juni och kan därför inte bära den påstådda kopplingen. När han gifte sig med Eleonora Gustava Ajax 1841 kallades han smedsdräng från Motala. Vigselpostens bibelgåva är en konkret social uppgift; den gör honom inte till medlem i ett säkert identifierat sällskap. [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0285](../citations/C-0285-johan-peter-urbom-eleonora-gustava-ajax-vigsel-1841.md)\n\nFamiljen följdes vid Spånga, Touluse och Hjulfabriken och senare i Ternö. Nio barn är kända, däribland två olika Maria Christina. Namnformen Anna Gustava för hustrun i barnens födelseposter binds till Eleonora/Nora genom familjen och datumen. Vuxenmannens uppgifter Wist och 1818-03-02, med 2/4[?] i C-0277, avviker från Björsäterkandidatens födelsepost. Sekundärkällan förklarar det med en broderförväxling i Backgården 1839; den mekanismen är ännu inte originalprövad. [C-0087](../citations/C-0087-adela-amalia-urbom-fodelse-1849.md), [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md), [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md), [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md), [C-1110](../citations/C-1110-urbom-ektorp-dod-1896.md)\n\nEfter hustruns död 1877 levde han som änkling. Bokflytten från Ternö till Ektorp 1885 finns åt båda håll. Där kallades han inhyses och slutligen inhyseshjon; titlarna ger inte i sig hans ekonomi eller skälet till förändringen. Han dog den 30 januari 1896 och begravdes 9 februari. Dödboken anger tarmvred. Hans bouppteckning är identifierad i register, men originalets arvingar och tillgångar är fortfarande olästa. [C-0281](../citations/C-0281-urbom-ajax-terno-sida-119-1876-1880.md), [C-0284](../citations/C-0284-eleonora-gustafva-ajax-dod-1877.md), [C-1110](../citations/C-1110-urbom-ektorp-dod-1896.md), [C-1111](../citations/C-1111-urbom-bouppteckningsregister-1896.md)\n\n",
+          "proposed": "## Biografisk sammanfattning\n\nJohan Petters ursprung är åter öppet. Ett födelsebarn i Björsäter 1818, med föräldrarna Lorentz Urbom och Anna Maja Eriksdotter på Krogen, är en kandidat. Vuxenböckernas datum hade tidigare fellästs som 3 juni och kan därför inte bära den påstådda kopplingen. När han gifte sig med Eleonora Gustava Ajax 1841 kallades han smedsdräng från Motala. Vigselpostens bibelgåva är en konkret social uppgift; den gör honom inte till medlem i ett säkert identifierat sällskap. [C-0833](../citations/C-0833-bjorsater-C3-johan-petter-urbom-fodd-1818.md), [C-0285](../citations/C-0285-johan-peter-urbom-eleonora-gustava-ajax-vigsel-1841.md)\n\nFamiljen följdes vid Spånga, Touluse och Hjulfabriken och senare i Ternö. Nio barn är kända, däribland två olika Maria Christina. Namnformen Anna Gustava för hustrun i barnens födelseposter binds till Eleonora/Nora genom familjen och datumen. Vuxenmannens uppgifter Wist och 1818-03-02, med 2/4[?] i C-0277, avviker från Björsäterkandidatens födelsepost. Sekundärkällan förklarar det med en broderförväxling i Backgården 1839; den mekanismen är ännu inte originalprövad. [C-0087](../citations/C-0087-adela-amalia-urbom-fodelse-1849.md), [C-0275](../citations/C-0275-urbom-ajax-touluse-1851-1855.md), [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md), [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md), [C-0248](../citations/C-0248-stig-lundqvist-johan-petter-urbom-familjeled.md), [C-1110](../citations/C-1110-urbom-ektorp-dod-1896.md)\n\nEfter hustruns död 1877 levde han som änkling. Bokflytten från Ternö till Ektorp 1885 finns åt båda håll. Där kallades han inhyses och slutligen inhyseshjon; titlarna ger inte i sig hans ekonomi eller skälet till förändringen. Han dog den 30 januari 1896 och begravdes 9 februari. Dödboken anger tarmvred. Hans bouppteckning är identifierad i register, men originalets arvingar och tillgångar är fortfarande olästa. [C-0281](../citations/C-0281-urbom-ajax-terno-sida-119-1876-1880.md), [C-0284](../citations/C-0284-eleonora-gustafva-ajax-dod-1877.md), [C-1110](../citations/C-1110-urbom-ektorp-dod-1896.md), [C-1111](../citations/C-1111-urbom-bouppteckningsregister-1896.md)\n\n\nT-0673, källavgränsning: C-1110:s dödspost bekräftar döds-/begravningsuppgifterna men dess födelsedag är nu olöst mellan läsningarna2 och21 mars. Vuxenböckernas tidigare uppgifter2mars och2/4[?] står kvar som sina egna källuppgifter. Ingen säker ny födelsedag eller sluten barn–vuxenidentitet följer.\n"
+        },
+        {
+          "field": "caveat",
+          "old": "Hela akt/profil med historik och alla aktuella källcitationer C0087/C0118/C0248–50/C0275–78/C0281/C0284–85/C0321/C0833/C1110–15 lästa. Vuxenfamiljen1841–1896 består; Björsäterbarnet1818 och dess föräldrar/vittnen hålls som kandidatkontext. Vuxendatumen2mars och2april[?] rättar gamla felläsningen3juni, flera kopierade böcker sluter inte identiteten. Änkedatum1877 är inte vigseldatum. Bokflyttar, hemvist/fysisk dödsplats, katalogåtkomst och personfrånvaro skiljs åt. Inga arkivbilder läses på nytt eller forskningsnivåer godkänns.",
+          "proposed": "Äldre migrationsgranskning i föregående revision är daterad historik. T-0673 P03: egen dödspost bekräftar död 1896-01-30, begravning 1896-02-09, Inhyseshjon, folio182 och Tarmvred. Födelseåret står förkortat18; dagtalet i 2[eller21?]/3 är inte slutligt avgjort. Ingen säker ny födelsedag antas. Ektorp stöds vid jämförande läsning av samma sidas E i Ekeby; första läsarnas Åtorp[?]/Uktorp[?] är inte nya ortbelägg. Attestkolumnerna avser läkare respektive barnmorska och är tomma. Civilståndskolumnen heter Enkling eller frånskild; markeringen ensam väljer inte mellan dessa. Vuxenidentitet och kandidatgräns mot födelsebarnet ändras inte."
+        },
+        {
+          "field": "rationale",
+          "old": "Tidigare berättelse versionsbevarad; inte en ny oberoende faktakälla.",
+          "proposed": "T-0673 P03: textens C1110-hänvisning avgränsas till aktuellt stöd; äldre vuxenböckers datum och olöst kandidatidentitet ändras inte."
+        }
+      ],
+      "rationale": "T-0673 P03: textens C1110-hänvisning avgränsas till aktuellt stöd; äldre vuxenböckers datum och olöst kandidatidentitet ändras inte."
+    },
+    {
+      "object": "TR-d98c7361df6f631fe187763f",
+      "current_revision": "TR-d98c7361df6f631fe187763f@1",
+      "fields": [
+        {
+          "field": "data.text",
+          "old": "| 6 | Forssa A I/14 s. 99 rad 23, `C0006404_00098` | Sjöstugan: `Dräng Erik Grill`, 1851-01-30 Bettna, ärvd hänvisning `Bettna 1868 25` |\n",
+          "proposed": "Forssa A I/14 s99 rad23, Sjöstugan: överstruken Dräng Erik Grill [namn under överstrykning]. Födelseår1851[?; sista siffran osäker i andraläsning],30/1,Bettna. Inflyttad frånBettna,år186[3/8?],attest25. Äldre avskrift anger1851-01-30 och1868; dessa skiljs från aktuell läsreservation."
+        },
+        {
+          "field": "data.reading_note",
+          "old": "Fem positiva poster i samma flyttkedja, med återbruk av C-0729 och C-0318. Bettna utflyttade1867 nr1–73 är ett separat giltigt årgångsnoll, förenligt med internflytt. Senare helradsläsning öppnar ett militärt betygsspår men ingen utförd tjänst. Radägarskap och reserverad utflyttning följer med.\nSamma tidigare C-0318-post återfunnen under Grill. Överlagrade Säger…,stigen…,fol89[?] och1871-liknande form är ingen säker flyttdag/ort. God frejd, ledig… och1873/1874 hör till rad24, inte Erik23. Svag[?] och6[?]1871 behåller reservation.",
+          "proposed": "T-0673 P04: målrad23, inte rad24:s god frejd/ledig-not och1873/1874. Födelsedag/månad30/1 stöds vid jämförande omläsning; första läsarens30/11 återtas som läsarfel. Årtal tidigare1851, andraläsning osäker1851/1857; inget nytt födelseår antas. Inflyttningsåret ser ut1863[?] i två nya läsningar mot äldre1868; oavgjort, inte en säker rättelse. Bettna och attest25 består. Utflyttningsort/dag och läskunskapsord kvarstår reserverade. Ingen ny obruten vistelse eller militärtjänst beläggs. Tidigare historik om andra flyttposter och Bettna1867 finns oförändrad i revision1 och har inte omlästs här."
+        },
+        {
+          "field": "caveat",
+          "old": "Samma tidigare C-0318-post återfunnen under Grill. Överlagrade Säger…,stigen…,fol89[?] och1871-liknande form är ingen säker flyttdag/ort. God frejd, ledig… och1873/1874 hör till rad24, inte Erik23. Svag[?] och6[?]1871 behåller reservation.",
+          "proposed": "T-0673 P04: målrad23, inte rad24:s god frejd/ledig-not och1873/1874. Födelsedag/månad30/1 stöds vid jämförande omläsning; första läsarens30/11 återtas som läsarfel. Årtal tidigare1851, andraläsning osäker1851/1857; inget nytt födelseår antas. Inflyttningsåret ser ut1863[?] i två nya läsningar mot äldre1868; oavgjort, inte en säker rättelse. Bettna och attest25 består. Utflyttningsort/dag och läskunskapsord kvarstår reserverade. Ingen ny obruten vistelse eller militärtjänst beläggs."
+        },
+        {
+          "field": "rationale",
+          "old": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0741; ingen ny originalavläsning.",
+          "proposed": "T-0673 P04: skilj säkra målradsceller från oavgjorda årtal; en ny läsning ersätter inte osäkerhet med säker1863."
+        }
+      ],
+      "rationale": "T-0673 P04: skilj säkra målradsceller från oavgjorda årtal; en ny läsning ersätter inte osäkerhet med säker1863."
+    },
+    {
+      "object": "AS-P-0133-A-2888",
+      "current_revision": "AS-P-0133-A-2888@1",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "Forssa A I/14 sida 99, Sjöstugan, rad 23 fortsätter samme Erik Grill med exakt 1851-01-30 Bettna och den ärvda uppgiften `Bettna 1868 25`.\n\nTillsammans med Årdalas senare `från Forssa 75` gör detta vistelsekedjan 1867–1875 källbunden på volymnivå.",
+          "proposed": "Forssa A I/14 s99,Sjöstugan,rad23 innehåller Dräng Erik Grill och Bettna,30/1,inflyttningsattest25. Tidigare avskrift1851-01-30 respektiveBettna1868 25 kan inte nu återbekräftas med samma exakthet: sista födelseårssiffran är reserverad och inflyttningsåret läses186[3/8?]. Det är olösta läsningar, inte fastställda nya persondatum. Den tidigare korrelationen med andra positiva flyttposter och Årdalas frånForssa75 står som tidigare kedjebedömning; denna enskilda rad bevisar inte ensam hela vistelsen1867–1875."
+        },
+        {
+          "field": "caveat",
+          "old": "Bedömningen bevarar hela påståendets gränser. Den är inte en ny oberoende källa eller ett automatiskt fakta om Erik från en förälders, kontrollpersons eller katalogs uppgifter.",
+          "proposed": "T-0673 P04: målrad23, inte rad24:s god frejd/ledig-not och1873/1874. Födelsedag/månad30/1 stöds vid jämförande omläsning; första läsarens30/11 återtas som läsarfel. Årtal tidigare1851, andraläsning osäker1851/1857; inget nytt födelseår antas. Inflyttningsåret ser ut1863[?] i två nya läsningar mot äldre1868; oavgjort, inte en säker rättelse. Bettna och attest25 består. Utflyttningsort/dag och läskunskapsord kvarstår reserverade. Ingen ny obruten vistelse eller militärtjänst beläggs."
+        },
+        {
+          "field": "rationale",
+          "old": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+          "proposed": "T-0673 P04: nuvarande bedömning måste uttrycka den enskilda radens olösta årtal; övriga kedjeposter omprövas inte."
+        }
+      ],
+      "rationale": "T-0673 P04: nuvarande bedömning måste uttrycka den enskilda radens olösta årtal; övriga kedjeposter omprövas inte."
+    },
+    {
+      "object": "READ-246f834eb8692b38014bb5c5",
+      "current_revision": "READ-246f834eb8692b38014bb5c5@1",
+      "fields": [
+        {
+          "field": "data.body",
+          "old": "C-0741: Fem positiva poster i samma flyttkedja, med återbruk av C-0729 och C-0318. Bettna utflyttade1867 nr1–73 är ett separat giltigt årgångsnoll, förenligt med internflytt. Senare helradsläsning öppnar ett militärt betygsspår men ingen utförd tjänst. Radägarskap och reserverad utflyttning följer med.\nDen gamla Karlsson/Carlsson-kontrollens volymnoll är REJECTED. Punktvisa fält ger inte obruten vistelse1871–1875; Forssa–Årdala1875 kvarstår som bokföringsgap. Bildkopplingen kräver en ny recordrevision före återbruk eftersom C-0318-posten saknade den.",
+          "proposed": "C-0741: Fem positiva poster i samma flyttkedja, med återbruk av C-0729 och C-0318. Bettna utflyttade1867 nr1–73 är ett separat giltigt årgångsnoll, förenligt med internflytt. Senare helradsläsning öppnar ett militärt betygsspår men ingen utförd tjänst. Radägarskap och reserverad utflyttning följer med.\nDen gamla Karlsson/Carlsson-kontrollens volymnoll är REJECTED. Punktvisa fält ger inte obruten vistelse1871–1875; Forssa–Årdala1875 kvarstår som bokföringsgap. Den äldre saknade bildkopplingen infördes redan genom R-00df4ccfe3e214a3ad230cb3@2; den historiska åtgärden återstår inte.\nT-0673 P04: målrad23, inte rad24:s god frejd/ledig-not och1873/1874. Födelsedag/månad30/1 stöds vid jämförande omläsning; första läsarens30/11 återtas som läsarfel. Årtal tidigare1851, andraläsning osäker1851/1857; inget nytt födelseår antas. Inflyttningsåret ser ut1863[?] i två nya läsningar mot äldre1868; oavgjort, inte en säker rättelse. Bettna och attest25 består. Utflyttningsort/dag och läskunskapsord kvarstår reserverade. Ingen ny obruten vistelse eller militärtjänst beläggs."
+        },
+        {
+          "field": "caveat",
+          "old": "Samma tidigare C-0318-post återfunnen under Grill. Överlagrade Säger…,stigen…,fol89[?] och1871-liknande form är ingen säker flyttdag/ort. God frejd, ledig… och1873/1874 hör till rad24, inte Erik23. Svag[?] och6[?]1871 behåller reservation.",
+          "proposed": "T-0673 P04: målrad23, inte rad24:s god frejd/ledig-not och1873/1874. Födelsedag/månad30/1 stöds vid jämförande omläsning; första läsarens30/11 återtas som läsarfel. Årtal tidigare1851, andraläsning osäker1851/1857; inget nytt födelseår antas. Inflyttningsåret ser ut1863[?] i två nya läsningar mot äldre1868; oavgjort, inte en säker rättelse. Bettna och attest25 består. Utflyttningsort/dag och läskunskapsord kvarstår reserverade. Ingen ny obruten vistelse eller militärtjänst beläggs."
+        },
+        {
+          "field": "rationale",
+          "old": "Dokumenterad avgränsning och läshistorik i C-0741; ingen ny oberoende evidensröst.",
+          "proposed": "T-0673 P04: rätta inaktuell teknisk uppmaning efter redan genomförd medielänkning och avgränsa aktuella läsreservationer."
+        }
+      ],
+      "rationale": "T-0673 P04: rätta inaktuell teknisk uppmaning efter redan genomförd medielänkning och avgränsa aktuella läsreservationer."
+    }
+  ],
+  "post_review_adjustment": "Före apply avgränsades TR-T0673-P04-full till hela målrad23 och relevant tids-/radkontext. Omgivande hushålls osäkra personnamn och datum hör endast till den bevarade förstapasshistoriken blind-b.json; de införs inte som aktuell avskrift. R-00df4ccfe3e214a3ad230cb3@2 kontrollerad efter draft: locator/caveat saknar1868 och behöver ingen årsreservation."
+}

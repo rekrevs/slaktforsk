@@ -1,0 +1,825 @@
+{
+  "task": "T-0673",
+  "reader": "/root/c0721_impact",
+  "blindness": "Avskriftsblind, inte fullständigt blind. Personnamn och locators i uppdrag/pilot kända; hela pilotmetadatafilen läst, inga tidigare avskrifter eller aktuella personobjekt öppnade.",
+  "units": [
+    {
+      "unit": "P03",
+      "image_path": "genealogy/media/C-1110-husby-B4-00154430_00037-s4.jpg",
+      "sha256": "d8b8f4ab33dbbadb6c6af33acae8bb73f25d922922632ec0e515a79f7ff9313b",
+      "dimensions_sips": "/Users/sverker/repos/slaktforsk/genealogy/media/C-1110-husby-B4-00154430_00037-s4.jpg\n  pixelWidth: 5137\n  pixelHeight: 4092\n",
+      "started_at": "2026-09-18T09:46:20.829959+00:00",
+      "ended_at": "2026-09-18T09:47:36.805239+00:00",
+      "viewed_regions": [
+        {
+          "path": "genealogy/media/C-1110-husby-B4-00154430_00037-s4.jpg",
+          "region": "hela uppslaget",
+          "pixels": [
+            0,
+            0,
+            5137,
+            4092
+          ],
+          "sha256": "d8b8f4ab33dbbadb6c6af33acae8bb73f25d922922632ec0e515a79f7ff9313b"
+        },
+        {
+          "path": "/tmp/P03-row3.png",
+          "pixels": [
+            170,
+            1340,
+            4800,
+            410
+          ],
+          "region": "post3 tvärs över båda sidorna med postgränser",
+          "sha256": "34d5f980bd217be5ce1b9cb377b203e772d96773302f9e5f0ae7130f8aff62dc"
+        },
+        {
+          "path": "/tmp/P03-head.png",
+          "pixels": [
+            170,
+            340,
+            4800,
+            430
+          ],
+          "region": "samtliga tryckta kolumnhuvuden",
+          "sha256": "14438623934dd0867e35aa0f21d2d0ff8f2d5358d1105a6fc749aadd97ecbf0b"
+        },
+        {
+          "path": "/tmp/P03-name-date.png",
+          "pixels": [
+            620,
+            1340,
+            1700,
+            300
+          ],
+          "region": "namn, yrke/roll, bostad och födelsefält",
+          "sha256": "9aeb6e77dbd10f094f12a4dc0297864e2665da66c098831c005b1ebc0143d6d8"
+        }
+      ],
+      "timing_note": "Första helbildsvisningen skedde i omedelbart föregående verktygsanrop. Avsedd förhandslogg misslyckades på saknad PIL-modul; exakt tid för första visningen saknas. Detta startvärde gäller fortsatt detaljläsning och underskattar total tid något.",
+      "extraction": {
+        "visual_locator": {
+          "page_left": "4",
+          "page_right": "4",
+          "year_death": "1896",
+          "parish": "Husby-Oppunda",
+          "year_burial": "1896",
+          "post_number": "3"
+        },
+        "record_scope": "Hela post3, vänster dödbok och motsvarande höger begravningsbok. Intilliggande poster endast som rad-/kolumngränser, inga nya personposter utvunna.",
+        "columns": [
+          {
+            "column": 1,
+            "label": "Inskrifningens löpande nummer",
+            "state": "read",
+            "raw": "3"
+          },
+          {
+            "column": 2,
+            "label": "Död år och månad",
+            "state": "read",
+            "raw": "Januari",
+            "year_from_heading": "1896"
+          },
+          {
+            "column": 3,
+            "label": "Död dag",
+            "state": "read",
+            "raw": "30"
+          },
+          {
+            "column": 4,
+            "label": "Räknad till församlingen m.",
+            "state": "read",
+            "raw": "1"
+          },
+          {
+            "column": 5,
+            "label": "Räknad till församlingen q.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 6,
+            "label": "För- och tillnamn, yrke, nationalitet/religion om främmande, bostad; eventuellt anhörig",
+            "state": "uncertain",
+            "raw": "Johan Petr[?] Urbom, Inhyseshjon, Åtorp[?]",
+            "parts": {
+              "name": "Johan Petr[?] Urbom",
+              "occupation_or_role": "Inhyseshjon",
+              "residence": "Åtorp[?]",
+              "other_fields": "Ingen särskild nationalitets-/religions-/anhöriguppgift på raden."
+            }
+          },
+          {
+            "column": 7,
+            "label": "Född år",
+            "state": "read",
+            "raw": "18",
+            "interpretation": "Förkortat år;1818 är kalendernormalisering, inte fyra avskrivna siffror."
+          },
+          {
+            "column": 8,
+            "label": "Född dag och månad",
+            "state": "read",
+            "raw": "21/3"
+          },
+          {
+            "column": 9,
+            "label": "Ogift m.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 10,
+            "label": "Ogift q.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 11,
+            "label": "Gift m.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 12,
+            "label": "Gift q.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 13,
+            "label": "Enkling eller frånskild",
+            "state": "read",
+            "raw": "1",
+            "interpretation": "Kolumnen skiljer inte ensam änkling från frånskild."
+          },
+          {
+            "column": 14,
+            "label": "Enka eller frånskild",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 15,
+            "label": "Sida i församlingsbok (eller nr och år i in-/utflyttnings- eller födelsebok)",
+            "state": "read",
+            "raw": "182"
+          },
+          {
+            "column": 16,
+            "label": "Dödsorsak",
+            "state": "read",
+            "raw": "Tarmvred"
+          },
+          {
+            "column": 17,
+            "label": "Dödsattest af läkare",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 18,
+            "label": "Dödsattest af barnmorska",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 19,
+            "label": "Dödsort om annan än hemorten",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "column": 20,
+            "label": "Begrafven år och månad",
+            "state": "read",
+            "raw": "Febr.",
+            "year_from_heading": "1896"
+          },
+          {
+            "column": 21,
+            "label": "Begrafven dag",
+            "state": "read",
+            "raw": "9"
+          },
+          {
+            "column": 22,
+            "label": "Särskilda anteckningar",
+            "state": "blank",
+            "raw": ""
+          }
+        ],
+        "overstrikes_and_margins": "Ingen överstrykning eller särskild marginalanteckning identifierad för post3. Svag genomlysning på högersidan räknas inte som notering.",
+        "uncertainties": [
+          "Exakt abbreviation av andra förnamnet: Petr[?], fullnamnet Peter var känt i locator före läsningen.",
+          "Bostadsnamnet läses preliminärt Åtorp[?]; självständig andraläsning önskas.",
+          "Civilståndets kolumnrubrik omfattar både änkling och frånskild; fyll inte en bestämd variant bara av strecket."
+        ],
+        "unread_relevant_fields": []
+      },
+      "duration_seconds_since_logged_start": 75.97528
+    },
+    {
+      "unit": "P04",
+      "image_path": "genealogy/media/C-0741-riksarkivet-forssa-AI14-C0006404_00098-sida99-sjostugan-erik-grill.jpg",
+      "sha256": "90dfcf9f94ddb1dd54ccff8bb33040a3a3b75f114a3d5949bc4e825cbad5da5e",
+      "dimensions_sips": "/Users/sverker/repos/slaktforsk/genealogy/media/C-0741-riksarkivet-forssa-AI14-C0006404_00098-sida99-sjostugan-erik-grill.jpg\n  pixelWidth: 7440\n  pixelHeight: 6272\n",
+      "started_at": "2026-09-18T09:47:36.805319+00:00",
+      "ended_at": "2026-09-18T09:51:03.362154+00:00",
+      "viewed_regions": [
+        {
+          "path": "genealogy/media/C-0741-riksarkivet-forssa-AI14-C0006404_00098-sida99-sjostugan-erik-grill.jpg",
+          "pixels": [
+            0,
+            0,
+            7440,
+            6272
+          ],
+          "region": "hela uppslaget",
+          "sha256": "90dfcf9f94ddb1dd54ccff8bb33040a3a3b75f114a3d5949bc4e825cbad5da5e"
+        },
+        {
+          "path": "/tmp/P04-target-left.png",
+          "pixels": [
+            700,
+            4270,
+            3020,
+            760
+          ],
+          "region": "target-left",
+          "sha256": "8c51b49daaf4d66ca52c1ba4e7db4fc786baa4965957e33c89e6104832854018"
+        },
+        {
+          "path": "/tmp/P04-target-right.png",
+          "pixels": [
+            3900,
+            4270,
+            3060,
+            840
+          ],
+          "region": "target-right",
+          "sha256": "50eded805e4065c7c121d0c8aba2a80d02aa67ccfae4b402667899a2b17917cd"
+        },
+        {
+          "path": "/tmp/P04-head.png",
+          "pixels": [
+            700,
+            580,
+            6300,
+            690
+          ],
+          "region": "head",
+          "sha256": "629b6f2baece70873327f143065fbc09fd7507979b4ecc68148cd0f6c7b17460"
+        },
+        {
+          "path": "/tmp/P04-upper-left.png",
+          "pixels": [
+            700,
+            1180,
+            2950,
+            1150
+          ],
+          "region": "upper-left",
+          "sha256": "6c39c8c54d99255a89c9480b314ffba18dc3935456f174153f95f1e3091ad47e"
+        },
+        {
+          "path": "/tmp/P04-upper-right.png",
+          "pixels": [
+            3910,
+            1180,
+            3020,
+            1150
+          ],
+          "region": "upper-right",
+          "sha256": "b9564d47fdffee7b4c2c0d751c6f78d90ae57ca36286d9fc933036ec3d03492b"
+        },
+        {
+          "path": "/tmp/P04-departures.png",
+          "pixels": [
+            6250,
+            4270,
+            850,
+            650
+          ],
+          "region": "departures",
+          "sha256": "55533c71cb3b5c902f8ced488cd605d7fc6d5788efda698de11f5f9765990a35"
+        },
+        {
+          "path": "/tmp/P04-row1-name.png",
+          "pixels": [
+            650,
+            1070,
+            2980,
+            410
+          ],
+          "region": "row1-name",
+          "sha256": "56613220e3763906cc451af53e00f2a8e452f93838d3db6634a85ee6b50edfe3"
+        },
+        {
+          "path": "/tmp/P04-middle-left.png",
+          "pixels": [
+            690,
+            2650,
+            3030,
+            860
+          ],
+          "region": "middle-left",
+          "sha256": "893905f653477eb6fad76bd9b36cdda10eba9dda75f69eb2ca732c8908280237"
+        },
+        {
+          "path": "/tmp/P04-middle-right.png",
+          "pixels": [
+            3900,
+            2650,
+            3100,
+            860
+          ],
+          "region": "middle-right",
+          "sha256": "8e03025e5e6b4911fdf5d91a3ac094f245d549a6032f9de42a8d84ca838338a9"
+        },
+        {
+          "path": "/tmp/P04-last-row.png",
+          "pixels": [
+            660,
+            5390,
+            6240,
+            410
+          ],
+          "region": "last-row",
+          "sha256": "abb73359df83cde329e821f69522e8d430647295fa15723a9dbff7307972e58f"
+        },
+        {
+          "path": "/tmp/P04-target-marks.png",
+          "pixels": [
+            3900,
+            4270,
+            1400,
+            450
+          ],
+          "region": "target-marks",
+          "sha256": "65761249a922af3a47e541563d7527191be7dc08bc2eeb4665d7704487d6cd39"
+        },
+        {
+          "path": "/tmp/P04-target-fullnote.png",
+          "pixels": [
+            5940,
+            4260,
+            1150,
+            450
+          ],
+          "region": "target-fullnote",
+          "sha256": "7d70e34d60cd5864131120b1923d2d707b2c41fefebbff8244026f03db573d6a"
+        },
+        {
+          "path": "/tmp/P04-marks-header.png",
+          "pixels": [
+            3890,
+            745,
+            1440,
+            560
+          ],
+          "region": "marks-header",
+          "sha256": "479ee1fbe656e0b1641b475b441011736c1174ddf73fb3368731ab415c0569f4"
+        }
+      ],
+      "extraction": {
+        "visual_locator": {
+          "page": "99",
+          "left_heading": "Sjöstugan till Sätra[?]",
+          "right_heading": "Westra Roten",
+          "printed_assessment_years": [
+            "1871",
+            "1872",
+            "1873",
+            "1874",
+            "1875"
+          ],
+          "target_row": "23"
+        },
+        "scope": "Hela målrad23 över båda sidorna, med samtliga tryckta kolumner. Andra befolkade block på samma sida lästa som hushålls-/tidskontext och avskilda nedan; rad23 har drängtitel, inte uttalad släktroll till något hushåll. Överstrykningar och anteckningar över radgränser gör hushålls- och flytthänvisningarna delvis osäkra.",
+        "target_columns": [
+          {
+            "label": "Namn, stånd, ämbete, yrke och näringsfång; nationalitet/lyten",
+            "state": "uncertain",
+            "raw": "Dräng Erik Grill[?]",
+            "note": "Namn starkt överstruket/kryssat. Erik Grill känt som locator före bildläsningen; råformen är därför inte helt oberoende namnläsning."
+          },
+          {
+            "label": "Födelse år",
+            "state": "read",
+            "raw": "1851"
+          },
+          {
+            "label": "Födelse månad och dag",
+            "state": "read",
+            "raw": "30/11",
+            "note": "Siffrornas skrivna placering återges; ingen omvänd dag/månadsnormalisering av rubrikens ordordning."
+          },
+          {
+            "label": "Födelse ort",
+            "state": "read",
+            "raw": "Bettna"
+          },
+          {
+            "label": "Äktenskap Gift",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "Äktenskap Enkl. eller Enka",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "Koppor",
+            "state": "read",
+            "raw": "v-liknande markering",
+            "interpretation": "Kod ej expanderad till medicinsk slutsats."
+          },
+          {
+            "label": "Inflyttad från",
+            "state": "read",
+            "raw": "Bettna"
+          },
+          {
+            "label": "Inflyttad år/månad/dag",
+            "state": "read",
+            "raw": "1863",
+            "note": "Ingen särskild dag/månad läses i denna cell."
+          },
+          {
+            "label": "Inflyttningsattestens nummer",
+            "state": "read",
+            "raw": "25"
+          },
+          {
+            "label": "Död",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "Läser: Innantill, Luth. Kateches, Förklaringen; Förstår",
+            "state": "uncertain",
+            "raw": "Sammanhängande handskriven notering över läskolumnerna, ungefär Seve…[?]; kan inte säkert avskiljas till fyra kolumnvärden.",
+            "note": "Betraktas inte som fyra tomma fält; måste jämföras av andra läsaren."
+          },
+          {
+            "label": "1871 F.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "1871 N.",
+            "state": "uncertain",
+            "raw": "b-/6-liknande tecken",
+            "note": "Inte normaliserat till en nattvardsdag."
+          },
+          {
+            "label": "1872 F.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "1872 N.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "1873 F.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "1873 N.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "1874 F.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "1874 N.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "1875 F.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "1875 N.",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "Fräjd och enskilda anteckningar",
+            "state": "uncertain",
+            "raw": "Två kraftiga bläck-/strecktecken nära utflyttningsgränsen; inget säkert ord.",
+            "note": "Långa god-frejd-/ledig-anteckningen under denna rad hör visuellt till rad24 och överförs inte till Erik."
+          },
+          {
+            "label": "Utflyttad till",
+            "state": "uncertain",
+            "raw": "Sågen af Warg[?] / skogen[?], (sidhänvisning oläslig)",
+            "note": "Övre textpaketet kring rad23 läses preliminärt så. Stark överstrykning och ytterligare flyttnotiser i rad24 får inte blandas med detta."
+          },
+          {
+            "label": "Utflyttad år/månad/dag",
+            "state": "uncertain",
+            "raw": "1871[?], 7/11[?]",
+            "note": "Dag/månad ovanför årtal; måste oberoende kontrolläsas före exakt datumslutsats."
+          },
+          {
+            "label": "Utflyttningsattestens nummer",
+            "state": "blank",
+            "raw": ""
+          }
+        ],
+        "same_page_context": [
+          {
+            "rows": "1–6",
+            "relationship_to_target": "Äldre torparhushåll på samma sida; inte en uttrycklig släktbindning till drängen. Många namn överstrukna.",
+            "members": [
+              {
+                "row": 1,
+                "raw_name_role": "Torp. [förnamn oläsligt] Nilsson[?], (svag[?])",
+                "birth_raw": "år oläsligt under överstrykning, 1/8, Forssa",
+                "marriage_raw": "1840",
+                "inflow_raw": "Wargstugan[?],1841",
+                "death_raw": "1874[?], dag/månad osäker",
+                "remarks": "Namn och födelseår överstrukna; fräjdtext delvis läsbar men inte säkert upplöst."
+              },
+              {
+                "row": 2,
+                "raw_name_role": "Hustrun/Enkan Brita Maja Jonsdotter[?]",
+                "birth_raw": "1824,5/3,St. Malm",
+                "marriage_or_widow_raw": "29/12[?] under Enkl./Enka-kolumnen",
+                "inflow_raw": "Bettna1860,attest57",
+                "marks": "1871F7/11, N6[?];1872F7/12[?];1873N13/7;1874F7/11,N30/8; fräjd Gift[?], övriga datumtecken osäkra"
+              },
+              {
+                "row": 3,
+                "raw_name_role": "[Barnen:] Johanna Erika",
+                "birth_raw": "1861,1/10,Forssa",
+                "marks": "ab.[?]1871F; streck1872F;10/11 under1875F[?]; överstruken namnrad"
+              },
+              {
+                "row": 4,
+                "raw_name_role": "s. Carl Axel",
+                "birth_raw": "1868,26/3,Forssa",
+                "departure_raw": "Säterdal[?],1876 3/11",
+                "marks": "ab.[?]1871F,streck1872F; överstruken namnrad"
+              },
+              {
+                "row": 5,
+                "raw_note": "Enkans son i förra äktenskapet[?]",
+                "note": "Rubrik/relationsfras, inte egen personrad;30/8-markering kring1875kolumnerna kan höra till följande rad och hålls osäker."
+              },
+              {
+                "row": 6,
+                "raw_name_role": "Erik Alfred Eriksson",
+                "birth_raw": "1858[?],25/1,Bettna",
+                "inflow_raw": "Sköldinge1874 5/11,attest28",
+                "departure_raw": "Stafsjöen[?],1876 13/11[?]",
+                "marks": "5/11 i1874F[?]; Erhållit arbetsbetyg1875 11/4 och1876 13/4[?]; läskolumner tecken ej översatta"
+              }
+            ]
+          },
+          {
+            "rows": "11–15",
+            "relationship_to_target": "Annat daterat hushållsblock; inflyttning1876 gör att deras uppgifter inte automatiskt beskriver drängens tidigare vistelse.",
+            "members": [
+              {
+                "row": 11,
+                "raw": "Torp. Johan Erik Pettersson,1841 22/8[?] Forssa; Gift1871; koppmarkering v; läsfälten korta tecken; fräjdkolumn datum3/11 och27/8[?]."
+              },
+              {
+                "row": 12,
+                "raw": "Hustru Matilda Lovisa Andersson[?],1849 25/11,Husby-Opp.[?]; Gift24/10 (år1871 står föregående rad); koppmarkering v; läsfälten korta tecken; fräjd27/8 och8/11[?]."
+              },
+              {
+                "row": 13,
+                "raw": "Son Klaes Johan,1871 18/8,Bettna; inflyttad Blacksta1876 25/3,attest2; Vaccinerad i Blacksta enl. Modrens uppgift."
+              },
+              {
+                "row": 14,
+                "raw": "Dotter Anna Matilda,1873 17/4,Blacksta; koppmarkering v; övriga läs-/flytt-/dödfält tomma i hennes egen rad."
+              },
+              {
+                "row": 15,
+                "raw": "Dotter Emma Karolina,1875 6/6,Blacksta; koppmarkering v; övriga läs-/flytt-/dödfält tomma i hennes egen rad."
+              }
+            ]
+          },
+          {
+            "rows": "24–25",
+            "relationship_to_target": "Intilliggande tjänstefolk; egna rader får inte sammanblandas med rad23.",
+            "members": [
+              {
+                "row": 24,
+                "raw_name_role": "[dräng, upprepningstecken] Carl Gustaf Petersson[?]",
+                "birth_raw": "1853[?] 5/6,Helgesta",
+                "inflow_raw": "Wadsbro71 7/11,attest17",
+                "departure_raw": "Överstruken äldre Sågen/Warg…-hänvisning71 2/11[?]; därefter Westtorp74 3/11[?]",
+                "remarks": "god frejd. ledig e…[?]; datum1jan1873 och2jan1874[?]; läsnotering Försummelig[?]."
+              },
+              {
+                "row": 25,
+                "raw_name_role": "[titel oläslig] Karl Albert Andersson[?]",
+                "birth_raw": "1856[?] 27/5,Tensta[?]",
+                "inflow_raw": "Sandstugan1874 3/11",
+                "departure_raw": "Hultstugan75 2/11",
+                "marks": "v; korta lästecken; namn överstruket."
+              }
+            ]
+          },
+          {
+            "row": 30,
+            "relationship_to_target": "Separat nedersta rad utan säker anknytning; endast orienterad, ej full personutvinning.",
+            "raw": "Överstruken rad: soldatänkan Maria [resten osäker],1789 6/5,Ånsa[?]; änkefält13/1 1858[?]; in Stenstugan1839; död1874 22/9[?]."
+          }
+        ],
+        "uncertainties": [
+          "Avgörande målrad: överstruket namn, exakt läsnotering och utgående ort-/sidhänvisning samt datum behöver separat blind andraläsning.",
+          "Hushållsblocken på samma sida kan representera skilda tider; drängtitel räcker inte för relation till någon torparfamilj.",
+          "Flera kontextfält är uttryckligen osäkra och inte normaliserade; nedersta separata rad30 är endast orienterad.",
+          "Ingen gammal avskrift/persontext har öppnats för att fylla osäkra tecken."
+        ],
+        "unread_relevant_fields": [],
+        "completion_limit": "Samtliga målradens kolumnpositioner besiktigade; flera är osäkra, vilket inte räknas som bekräftad fullständig avläsning. Kontextblockens överstrukna/marginala detaljer är delvis osäkra och rad30 är inte en full utvinning."
+      },
+      "duration_seconds_since_logged_start": 206.556835
+    },
+    {
+      "unit": "P05",
+      "image_path": "genealogy/media/C-0471-riksarkivet-ljustorp-BI2-henrik-flytt-1854-1855.jpg",
+      "sha256": "878681f7f9215ca2468192786cf0950302776ee875e32599af2977e9df72ff86",
+      "dimensions_sips": "/Users/sverker/repos/slaktforsk/genealogy/media/C-0471-riksarkivet-ljustorp-BI2-henrik-flytt-1854-1855.jpg\n  pixelWidth: 6198\n  pixelHeight: 5100\n",
+      "started_at": "2026-09-18T09:51:03.362234+00:00",
+      "ended_at": "2026-09-18T09:52:35.912666+00:00",
+      "viewed_regions": [
+        {
+          "path": "genealogy/media/C-0471-riksarkivet-ljustorp-BI2-henrik-flytt-1854-1855.jpg",
+          "pixels": [
+            0,
+            0,
+            6198,
+            5100
+          ],
+          "region": "hela uppslaget",
+          "sha256": "878681f7f9215ca2468192786cf0950302776ee875e32599af2977e9df72ff86"
+        },
+        {
+          "path": "/tmp/P05-head.png",
+          "pixels": [
+            3210,
+            470,
+            2630,
+            500
+          ],
+          "region": "högersidans avdelning och kolumnhuvuden",
+          "sha256": "fd0ba9351ff16d8b1fea405637d55f1fa328b689b0f341729491b51234b95ed1"
+        },
+        {
+          "path": "/tmp/P05-target.png",
+          "pixels": [
+            3340,
+            3590,
+            2470,
+            760
+          ],
+          "region": "målrad med närmast föregående/efterföljande poster",
+          "sha256": "8808f19265e094e1f31d7bceaa4c3d8d34920d7d75be5c5b68c65395a08ee5a4"
+        },
+        {
+          "path": "/tmp/P05-year.png",
+          "pixels": [
+            3240,
+            1370,
+            2610,
+            340
+          ],
+          "region": "årsgräns1853/1854",
+          "sha256": "f016756a500f1ee3534f80b4afa9cd64e1be8fdd31834b348042656af0e9e679"
+        },
+        {
+          "path": "/tmp/P05-count-head.png",
+          "pixels": [
+            5140,
+            535,
+            650,
+            370
+          ],
+          "region": "antal man-/kvinnkön, handskrivna rubriker",
+          "sha256": "50dd18c05baa3c130aa5ebccf4ce457b9f4b8101d1ccb1c13acd39deda74696f"
+        },
+        {
+          "path": "/tmp/P05-november-chain.png",
+          "pixels": [
+            3190,
+            3130,
+            2650,
+            1000
+          ],
+          "region": "novemberdatumkedjan fram till målrad samt nästa dag6",
+          "sha256": "2b11f043841e1cabd3278214c7769614937c1bae963b53985a11cbad30b1a077"
+        }
+      ],
+      "extraction": {
+        "visual_locator": {
+          "side": "höger",
+          "heading": "Utflyttade",
+          "year": "1854",
+          "month": "Nov. från daterad rad ovan",
+          "day": "5 från närmast föregående rad, streck på målrad",
+          "page_number": "Inget sidnummer avläst på uppslaget.",
+          "volume_note": "Lös lapp B.2 syns överst; församling och exakt arkivvolym framgår inte självständigt av detta bildhuvud."
+        },
+        "scope": "Henrik Henrikssons hela utflyttningsrad, inklusive hushållsantal. Föregående rad används endast för dateringskedjan; följande pigrad är separat och räknas inte in i hans hushåll.",
+        "columns": [
+          {
+            "label": "N:o",
+            "state": "blank",
+            "raw": ""
+          },
+          {
+            "label": "År (sektion)",
+            "state": "read",
+            "raw": "1854"
+          },
+          {
+            "label": "Månad",
+            "state": "read",
+            "raw": "Nov.",
+            "note": "Anges tidigare i samma fortlöpande månadsavsnitt, inte omtryckt på målrad."
+          },
+          {
+            "label": "Dag",
+            "state": "read",
+            "raw": "–",
+            "inherited_raw": "5",
+            "note": "Föregående rad Torparesonen Lars Johan Rylander har5; därefter Henrikrad med streck, pigrad med streck och nästa uttryckliga dag6. Läsningen är därför5november1854 genom dateringskedjan."
+          },
+          {
+            "label": "Namn, titel och hushåll",
+            "state": "read",
+            "raw": "Drängen Henrik Henriksson med hushåll",
+            "note": "Ingen hustru eller något barn namnges i denna post."
+          },
+          {
+            "label": "Hvarifrån",
+            "state": "read",
+            "raw": "Lagforss By"
+          },
+          {
+            "label": "Hvarthän",
+            "state": "read",
+            "raw": "Lagforss Bruks förs.",
+            "note": "Samma ortnamnsstam, men By och Bruks förs. är olika angivna lokaliseringar. Behåll båda råformerna."
+          },
+          {
+            "label": "Mankön (rubrikens exakta förkortning osäker)",
+            "state": "read",
+            "raw": "2"
+          },
+          {
+            "label": "Qvinkön (rubrikens exakta förkortning osäker)",
+            "state": "read",
+            "raw": "1"
+          }
+        ],
+        "household": "Tre registrerade personer:2 i mankolumnen,1 i kvinnkolumnen. Henrik är den enda namngivna; antal får inte ensamt fördelas på bestämd hustru/son/dotter eller användas till familjekorrelation.",
+        "marginal_and_crossout": "Ingen överstrykning eller särskild marginalanteckning på Henrikraden. Långt streck efter hushåll är radutfyllnad. Överstrukna drängraden högre upp är annan post.",
+        "not_present_in_record": [
+          "Individuella hushållsmedlemmars namn",
+          "Födelsedatum eller ålder",
+          "Vigsel- eller relationsroller för övriga hushållsmedlemmar",
+          "Attestnummer",
+          "Dödsuppgift",
+          "Fysisk resdag skild från kyrkobokens utflyttningsdatum"
+        ],
+        "uncertainties": [
+          "Exakt ortstavning har dubbel-s-liknande skrivning: Lagforss; ingen ändrad modern ortnormalisering görs i förstaläsningen.",
+          "Könskolumnrubrikernas grafiska förkortningar är trånga; själva antalen2 och1 är tydliga.",
+          "Dag/månad är en uttryckligen dokumenterad ditto-/datumkedja, inte upprepade datumord på Henriks rad."
+        ],
+        "unread_relevant_fields": []
+      },
+      "duration_seconds_since_logged_start": 92.550432
+    }
+  ],
+  "saved_at": "2026-09-18T09:52:35.912745+00:00",
+  "status": "blind_first_readings_saved_before_old_transcriptions_or_current_person_data",
+  "comparison_started": false,
+  "images_read_only": true,
+  "lock_files": {
+    "pilot.json": "4accee80ce722d2e89a4875c8df849f7770eae3d1265cdb5cbb474d505107218",
+    "method.md": "fa85dab150b73a4e701b013f4dc4cede7b70fe805e3935fee251f615367a71c6",
+    "lock.json": "bf1ef46e4543e8f12dc0ff971e4f7006c420ea2a76ccecd03cfe1b5e90b7d394"
+  }
+}

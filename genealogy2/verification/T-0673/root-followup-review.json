@@ -1,0 +1,1846 @@
+{
+  "task": "T-0673",
+  "operation_reviewed": "T-0673/root-pilot-v1",
+  "scope": "55 pending requests, each current payload+caveat+dependencies read and individually assessed. Reads reuse pilot first/second reading and new transcription; no third original reading claimed.",
+  "count": 55,
+  "new_revisions_needed": 0,
+  "free_text_scan": {
+    "tables": [
+      "transcription",
+      "observation",
+      "assessment",
+      "narrative",
+      "question",
+      "fact",
+      "mention",
+      "search"
+    ],
+    "query": "current payload contains Hildur Charlotta and (1900 or C-0402), then each context read",
+    "result": "No remaining false exact transcription of Charlotta as1900 name. Existing ASSESSMENT-P0070 title and PATH-P0072 forbidden-name key concern person; BIO-P0071 comparison concerns earlier household page. Corrected texts carry explicit new variant. Unrelated Hildur persons excluded.",
+    "limitations": "Exact-string scan plus known dependency review; not proof against arbitrary paraphrases."
+  },
+  "reviews": [
+    {
+      "request_id": "d1f4bf641701b01c96dbcaa602a0e9f2bb89559359422e40a00e40e834961dfe",
+      "object_id": "F-P-0065-household_membership-1900-1909",
+      "revision_id": "F-P-0065-household_membership-1900-1909@1",
+      "kind": "fact",
+      "payload_sha256": "cd5e2482f101f83e85ed4d087b419c643ed92fd62218d74a8e366243ea777e17",
+      "reviewed_payload": {
+        "revision_id": "F-P-0065-household_membership-1900-1909@1",
+        "subject_id": "P-0065",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"book\":\"A II a/3 s.1088\",\"book_period\":\"1900–1909\",\"census_year\":1900,\"children_in_census\":[\"P-0068\",\"P-0069\",\"P-0070\",\"P-0071\",\"P-0072\",\"P-0073\"],\"later_changes\":\"Barn omförs till egna familjer eller flyttar; sex namn betyder inte kvarboende hela perioden.\",\"place\":\"Buberget\"}"
+      },
+      "reviewed_caveat": "Sammanställning av registerhushåll och bevarad text om senare bokföringsändringar; C-0483:s post avgränsar endast faderns rad 1.",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0065-household_membership-1900-1909@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0065-household_membership-1900-1909@1",
+          "basis_revision_id": "R-dfafef960e902e156c050110@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0065-household_membership-1900-1909@1 efter R-126171c8899cd464e47c503b@2: Anders Jonssons familj har fortfarande exakt sex barnrader 71,76,78,80,82,85. Barn-id-listan och Buberget1900 stöds även efter Hildurs mellanledsrättelse. Uppgifterna om AIIa/3 1900–1909 och senare omföringar är andra underlag, inte en ny slutsats från1900-utdraget; reservationen mot obrutet kvarboende består. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "68b2c9faceba87390240990d0ff6fd6636a19dd6955b4d69e107a0e9b28f4b40",
+      "object_id": "F-P-0066-source_dependence-census1890-1900",
+      "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+      "kind": "fact",
+      "payload_sha256": "672f6a30db82512fe5ec1755f482c11befe9046cfb10ba21af4e52fae86f7942",
+      "reviewed_payload": {
+        "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+        "subject_id": "P-0066",
+        "property": "source_dependence",
+        "value_type": "structured",
+        "value_json": "{\"census1890_header\":\"Utdrag ur Husförhörslängden\",\"census1900_header\":\"Utdrag ur Församlingsboken\",\"interpretation\":\"Härledda ur samma kyrkliga bokföring som de använts att bekräfta.\"}"
+      },
+      "reviewed_caveat": "Huvudläsningen 1900 redovisas i akten, inte som ett nytt självständigt original. Senare motsägande filnärvarotext i C-0060 påverkar inte postens beroende.",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0066-source_dependence-census1890-1900@1",
+          "basis_revision_id": "R-80d5e6f523c2f4d74621621c@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0066-source_dependence-census1890-1900@1 efter R-126171c8899cd464e47c503b@2: Rubriken Utdrag ur Församlingsboken är explicit läst av båda läsarna. Det stöder fortsatt källberoende mot samma kyrkobokföring. Namnrättelsen gör varken1900 eller1890 till oberoende vittnen, och C0060:s separat historiska filnärvarotext berörs inte. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "fa3442a92773911969dd12dbd5c313330b4d9644f9d5c842df293a0a01835bc2",
+      "object_id": "F-P-0067-family_context-Oskar-Rudolf-later-household",
+      "revision_id": "F-P-0067-family_context-Oskar-Rudolf-later-household@1",
+      "kind": "fact",
+      "payload_sha256": "80627c6a85fe8475d33820a501aadac7f0905938affc220e396eae7fef4e6275",
+      "reviewed_payload": {
+        "revision_id": "F-P-0067-family_context-Oskar-Rudolf-later-household@1",
+        "subject_id": "P-0067",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"later_relative_context\":\"Brodern är kvar i Buberget 1900. Detta är inte en egen vistelseuppgift för Maria Augusta efter hennes utflyttning 1898.\",\"relative\":\"P-0073\",\"shared_household_until\":\"1898\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0067-family_context-Oskar-Rudolf-later-household@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0067-family_context-Oskar-Rudolf-later-household@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0067-family_context-Oskar-Rudolf-later-household@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0067-family_context-Oskar-Rudolf-later-household@1 efter R-126171c8899cd464e47c503b@2: Oskar Rudolf har en egen kvarvarande barnrad85 i Buberget1900. Faktat gäller uttryckligen Maria Augustas bror, inte hennes egen vistelse efter utflyttningen1898. Inget om systerns bortflyttning ändras eller nybeläggs av Hildurs mellanled. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "cdcd451d2a01937cc4b17715fc4e8806a03d7f84ea73f5288b0c4d8eae7db0a3",
+      "object_id": "F-P-0068-civil_status-unmarried1900",
+      "revision_id": "F-P-0068-civil_status-unmarried1900@1",
+      "kind": "fact",
+      "payload_sha256": "9d4cea5df92f29f688259259a0f16245b428b9174d61ce0b6792c3e9062dd36c",
+      "reviewed_payload": {
+        "revision_id": "F-P-0068-civil_status-unmarried1900@1",
+        "subject_id": "P-0068",
+        "property": "civil_status",
+        "value_type": "structured",
+        "value_json": "{\"limit\":\"Ingen livslång slutsats; tiden efter 1900 är obelagd.\",\"status\":\"ogift\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0068-civil_status-unmarried1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0068-civil_status-unmarried1900@1 efter R-126171c8899cd464e47c503b@2: Jonas Edvard71 står i Ogift m-kolumnen i båda läsningarna. Den avgränsade civilståndsuppgiften1900 behålls; ingen slutsats om livslångt civilstånd tillkommer. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "1393f4a4b71af4b2c2be3e4965deaebe53019d7f8e2e1c2425381ed561c734a7",
+      "object_id": "F-P-0068-household_membership-Buberget1871-1900",
+      "revision_id": "F-P-0068-household_membership-Buberget1871-1900@1",
+      "kind": "fact",
+      "payload_sha256": "b1832c38c685f4a320a468df1f9a5753ff8dba08ec1efd5e753d13c5dcd24752",
+      "reviewed_payload": {
+        "revision_id": "F-P-0068-household_membership-Buberget1871-1900@1",
+        "subject_id": "P-0068",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"after_mother_death\":\"Kvar hos änklingfadern år 1900.\",\"limit\":\"Volymperioden 1866–1876 är inte hans levnadstid; hans egen rad börjar som barn fött 1871.\",\"parents\":[\"P-0065\",\"P-0066\"],\"period\":\"1871–1900\",\"place\":\"Buberget, Degerfors\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0068-household_membership-Buberget1871-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0068-household_membership-Buberget1871-1900@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0068-household_membership-Buberget1871-1900@1",
+          "basis_revision_id": "R-5ca54d7a95c1ca2c480ee7e0@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0068-household_membership-Buberget1871-1900@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0068-household_membership-Buberget1871-1900@1 efter R-126171c8899cd464e47c503b@2: Jonas Edvard71 står kvar som son i Anders Jonssons klammerhushåll. Slutpunkten1900 i den längre hushållsperioden stöds; tidigare1871-rad och moderns identitet är äldre separata belägg, inte härledda ur hennes frånvaro1900. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "160183b612fae84924f1f71e994bc4f9f985c6e5ac7e77c3be48cabcb4354984",
+      "object_id": "F-P-0068-last_known_alive-1900",
+      "revision_id": "F-P-0068-last_known_alive-1900@1",
+      "kind": "fact",
+      "payload_sha256": "d1a1650b61605f71ca049582640b3852a16ed207c86b1644e264a4d992cab487",
+      "reviewed_payload": {
+        "revision_id": "F-P-0068-last_known_alive-1900@1",
+        "subject_id": "P-0068",
+        "property": "last_known_alive",
+        "value_type": "structured",
+        "value_json": "{\"basis\":\"Egen rad i faderns hushåll.\",\"place\":\"Buberget\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0068-last_known_alive-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0068-last_known_alive-1900@1 efter R-126171c8899cd464e47c503b@2: Jonas Edvards egen rad71 finns på utdraget daterat31dec1900. Han är därmed fortsatt belagd levande vid detta tidsläge; namnrättelsen gäller systerns rad och tillför inget senare levnadsår. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "956969202f6c3ddae6f51e5b7e874871652304dc4c8f8c947821720ac9dcdb9b",
+      "object_id": "F-P-0068-name_form-own-forenames",
+      "revision_id": "F-P-0068-name_form-own-forenames@1",
+      "kind": "fact",
+      "payload_sha256": "0fa8b34357afb4655a9f87c0de3d51e3b08c7f0d2a0d288a8270a747beb76092",
+      "reviewed_payload": {
+        "revision_id": "F-P-0068-name_form-own-forenames@1",
+        "subject_id": "P-0068",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"display_patronymic\":\"Andersson\",\"limit\":\"Andersson är inte utskrivet på hans egen rad. Jonsson och kombinationer är forskningsvarianter, inte accepterade egna namnformer.\",\"observed\":\"Jonas Edvard\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0068-name_form-own-forenames@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0068-name_form-own-forenames@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0068-name_form-own-forenames@1",
+          "basis_revision_id": "R-5ca54d7a95c1ca2c480ee7e0@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0068-name_form-own-forenames@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0068-name_form-own-forenames@1 efter R-126171c8899cd464e47c503b@2: Originalformen Jonas Edvard71 är oförändrad. Barnets patronymikon står inte på raden, vilket även nya fullavskriften anger; Andersson/Jonsson uppgraderas därför inte till nytt originalnamn. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "9c751d8bfd0134e98833405775031f779442bc398ca9ff24ca24f7f5ec2b8023",
+      "object_id": "F-P-0069-civil_status-unmarried1900",
+      "revision_id": "F-P-0069-civil_status-unmarried1900@1",
+      "kind": "fact",
+      "payload_sha256": "6209b754c3d52b47870b38756ec6f8355d4463aaec13761380587204aa8d02b0",
+      "reviewed_payload": {
+        "revision_id": "F-P-0069-civil_status-unmarried1900@1",
+        "subject_id": "P-0069",
+        "property": "civil_status",
+        "value_type": "structured",
+        "value_json": "{\"limit\":\"Tiden efter 1900 oprövad.\",\"status\":\"ogift\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0069-civil_status-unmarried1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0069-civil_status-unmarried1900@1 efter R-126171c8899cd464e47c503b@2: Anders76 har Ogift m-markering, skild från Anders Jonsson39 och angränsande hushållets Anders71. Hans civilstånd1900 behålls utan senare livsslutsats. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "75477b17e0ffd18d349c321b86410b35921ceeb08d3e664166f2988fc1cff75d",
+      "object_id": "F-P-0069-household_membership-Buberget1876-1900",
+      "revision_id": "F-P-0069-household_membership-Buberget1876-1900@1",
+      "kind": "fact",
+      "payload_sha256": "1218c164a149146be4dcccb8ff6a552423b07897a99a956288153e24cd3a0f9d",
+      "reviewed_payload": {
+        "revision_id": "F-P-0069-household_membership-Buberget1876-1900@1",
+        "subject_id": "P-0069",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"after_mother_death\":\"Kvar hos änklingfadern 1900.\",\"own_early_row\":\"Marginalinförd senare rad i A I/9c.\",\"parents\":[\"P-0065\",\"P-0066\"],\"period\":\"1876–1900\",\"place\":\"Buberget, Degerfors\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0069-household_membership-Buberget1876-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0069-household_membership-Buberget1876-1900@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0069-household_membership-Buberget1876-1900@1",
+          "basis_revision_id": "R-5ca54d7a95c1ca2c480ee7e0@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0069-household_membership-Buberget1876-1900@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0069-household_membership-Buberget1876-1900@1 efter R-126171c8899cd464e47c503b@2: Anders76 står i rätt Bubergethushåll under fadern39. Detta fortsätter bära1900-ankaret; den tidigare marginalraden och1876-starten får inget nytt oberoende belägg genom denna läsning. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "d49741b500d679659b908dc151f17e63a4e0eb7f3c8cb5f2899107413a7f1625",
+      "object_id": "F-P-0069-last_known_alive-1900",
+      "revision_id": "F-P-0069-last_known_alive-1900@1",
+      "kind": "fact",
+      "payload_sha256": "28023d9ce59e9f4b9510059a302cb7b07536985f81cd8374875317a01f7f33c3",
+      "reviewed_payload": {
+        "revision_id": "F-P-0069-last_known_alive-1900@1",
+        "subject_id": "P-0069",
+        "property": "last_known_alive",
+        "value_type": "structured",
+        "value_json": "{\"place\":\"Buberget\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0069-last_known_alive-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0069-last_known_alive-1900@1 efter R-126171c8899cd464e47c503b@2: Anders76 återfinns på den daterade1900-listan och är inte grannhushållets Anders71. Årtalet för senaste bevarade livsuppgift kan behållas; inget dödsdatum antas. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "a95110a184839910267a526812fcd065707144708ef27f2c6c6915a9147dd521",
+      "object_id": "F-P-0070-civil_status-unmarried1900",
+      "revision_id": "F-P-0070-civil_status-unmarried1900@1",
+      "kind": "fact",
+      "payload_sha256": "d3fc4ab5bd8c0d9df7af498dbdce2f269a59a90b91fed80585ffcc73dc9049d6",
+      "reviewed_payload": {
+        "revision_id": "F-P-0070-civil_status-unmarried1900@1",
+        "subject_id": "P-0070",
+        "property": "civil_status",
+        "value_type": "structured",
+        "value_json": "{\"limit\":\"Endast detta tidsläge; senare liv oprövat.\",\"status\":\"ogift\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0070-civil_status-unmarried1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0070-civil_status-unmarried1900@1 efter R-126171c8899cd464e47c503b@2: Dotterraden Hildur Elisabetta78 har Ogift q-markering. Hushåll, år och åtskillnaden från Hanna82 kvarstår. Rättelsen berör andra namnledet, inte civilståndet; frågan om variant/skrivfel hålls öppen i den nya noten. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "a31969f7248ba51cb1d5b3cd26e12ce54ae898365dce10b0b4f6b2604bbc53a4",
+      "object_id": "F-P-0070-family_context-after-mother-and-sister",
+      "revision_id": "F-P-0070-family_context-after-mother-and-sister@1",
+      "kind": "fact",
+      "payload_sha256": "2c63711d08e3624ab83e656d45431c1f8c7207e393434ced69c1eacd28fb064e",
+      "reviewed_payload": {
+        "revision_id": "F-P-0070-family_context-after-mother-and-sister@1",
+        "subject_id": "P-0070",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"household_work\":\"Inte belagt vem som skötte hushållet.\",\"mother_death\":\"1898-05-25\",\"position\":\"Äldsta kvarvarande dottern efter Maria Augustas utflyttning.\",\"sister_departure\":\"1898-06-28\"}"
+      },
+      "reviewed_caveat": "Äldsta dotter omvandlas inte till yrket hushållerska. Textens fem hemmavarande barn är inte ett nytt familjetotal; C-0402 listar sex barn.",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0070-family_context-after-mother-and-sister@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0070-family_context-after-mother-and-sister@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0070-family_context-after-mother-and-sister@1 efter R-126171c8899cd464e47c503b@2: Hildurs rad78 är fortfarande den äldre av hushållets två dotterrader78 och82; detta rubbar inte den relativa positionen efter Maria Augustas utflyttning. Moderns dödsdatum och systerns avresedatum kommer från andra bokposter, inte1900. Hushållerskeroll förblir uttryckligen obelagd och sex barn är inget nytt fem-barns-total. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "97b79084217bcb3ab05be9f7a53c14110e8a6f95cb962b1b19431ef34a353352",
+      "object_id": "F-P-0070-household_membership-Buberget1878-1900",
+      "revision_id": "F-P-0070-household_membership-Buberget1878-1900@1",
+      "kind": "fact",
+      "payload_sha256": "90cb11ebd9cf6f1c4cc6335f24ced117e1e4bf121c07f1be32c245039652fdc1",
+      "reviewed_payload": {
+        "revision_id": "F-P-0070-household_membership-Buberget1878-1900@1",
+        "subject_id": "P-0070",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"after_mother_death\":\"Kvar hos änklingfadern 1900.\",\"parents\":[\"P-0065\",\"P-0066\"],\"period\":\"1878–1900\",\"place\":\"Buberget, Degerfors\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0070-household_membership-Buberget1878-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0070-household_membership-Buberget1878-1900@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0070-household_membership-Buberget1878-1900@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0070-household_membership-Buberget1878-1900@1 efter R-126171c8899cd464e47c503b@2: Hildur78 finns i faderns Bubergethushåll1900 även med mellanledet Elisabetta. De två äldre husförhörsraderna bär fortsatt personnamnet Charlotta. Den längre periodens tidigare led ersätts inte, och någon ny person skapas inte ur namnvarianten. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "b7e77667308689717ca2463253599409ae380c678cacff8a18120b2ccea85b71",
+      "object_id": "F-P-0070-last_known_alive-1900",
+      "revision_id": "F-P-0070-last_known_alive-1900@1",
+      "kind": "fact",
+      "payload_sha256": "36213f954fc7496e60c88fac0fd74cef18f6b82ca46d8657d1ae5920e768b5bb",
+      "reviewed_payload": {
+        "revision_id": "F-P-0070-last_known_alive-1900@1",
+        "subject_id": "P-0070",
+        "property": "last_known_alive",
+        "value_type": "structured",
+        "value_json": "{\"place\":\"Buberget\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0070-last_known_alive-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0070-last_known_alive-1900@1 efter R-126171c8899cd464e47c503b@2: Hildurs särskilda78-rad finns kvar i1900-listan. Årtalet för senaste livsbelägg påverkas inte av mellanledsrättelsen, medan variantens orsak och senare liv förblir oprövade. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "73a95dc101143184f963d2e44ff4d2c36060adb96e3386c3e9198473b5a26677",
+      "object_id": "F-P-0071-civil_status-unmarried1900",
+      "revision_id": "F-P-0071-civil_status-unmarried1900@1",
+      "kind": "fact",
+      "payload_sha256": "54d92fee3e1681c28e30a1379058cc6270e149dccde25f8c20338161ac791e40",
+      "reviewed_payload": {
+        "revision_id": "F-P-0071-civil_status-unmarried1900@1",
+        "subject_id": "P-0071",
+        "property": "civil_status",
+        "value_type": "structured",
+        "value_json": "{\"limit\":\"Senare familjebildning oprövad.\",\"status\":\"ogift\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0071-civil_status-unmarried1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0071-civil_status-unmarried1900@1 efter R-126171c8899cd464e47c503b@2: Karl Magnus80 står i Ogift m-kolumnen. Han är skild från nästa hushålls Karl Johan Jonsson43; framtida familjebildning antas inte. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "c229980b4f1f54ccf37b14cdc8e5e3d5b9a9322dd52579f62b7b90691b5af3eb",
+      "object_id": "F-P-0071-household_membership-Buberget1880-1900",
+      "revision_id": "F-P-0071-household_membership-Buberget1880-1900@1",
+      "kind": "fact",
+      "payload_sha256": "d0cb3a8a5bd99c0227452435eb527e08cede3030e32c67f499f7795a0b0f83d5",
+      "reviewed_payload": {
+        "revision_id": "F-P-0071-household_membership-Buberget1880-1900@1",
+        "subject_id": "P-0071",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"after_mother_death\":\"Kvar hos änklingfadern 1900.\",\"parents\":[\"P-0065\",\"P-0066\"],\"period\":\"1880–1900\",\"place\":\"Buberget, Degerfors\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0071-household_membership-Buberget1880-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0071-household_membership-Buberget1880-1900@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0071-household_membership-Buberget1880-1900@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0071-household_membership-Buberget1880-1900@1 efter R-126171c8899cd464e47c503b@2: Karl Magnus80 hör till Anders Jonssons klammerhushåll och bär fortsatt1900-slutpunkten. Tidigare1880–1890-talsled och föräldrarna är andra bevarade bokuppgifter, som inte blir nykontrollerade av detta utdrag. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "cd78aff85cf1e7441c1eccbe1cb44169896a217e2b9e6ac764f6b506814ae491",
+      "object_id": "F-P-0071-last_known_alive-1900",
+      "revision_id": "F-P-0071-last_known_alive-1900@1",
+      "kind": "fact",
+      "payload_sha256": "487ef68c37665685023a71037b526791698d24b3c18c1e8c7d826e6bf6d6f4e4",
+      "reviewed_payload": {
+        "revision_id": "F-P-0071-last_known_alive-1900@1",
+        "subject_id": "P-0071",
+        "property": "last_known_alive",
+        "value_type": "structured",
+        "value_json": "{\"place\":\"Buberget\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0071-last_known_alive-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0071-last_known_alive-1900@1 efter R-126171c8899cd464e47c503b@2: Karl Magnus80 har egen rad i1900-utdraget. Faktats år och Buberget kvarstår; exakt födelsedag/dödsdag hämtas inte från detta årtalsutdrag. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "59ce9a1af02746c86f83d6413a4d5610ff699f981e2d1261af5b2162573938d5",
+      "object_id": "F-P-0072-civil_status-unmarried1900",
+      "revision_id": "F-P-0072-civil_status-unmarried1900@1",
+      "kind": "fact",
+      "payload_sha256": "12a0abd7ccaeb90c40544e1b4e90e2061e10bfb72f72fc6e2b9d3a7036e6eeaa",
+      "reviewed_payload": {
+        "revision_id": "F-P-0072-civil_status-unmarried1900@1",
+        "subject_id": "P-0072",
+        "property": "civil_status",
+        "value_type": "structured",
+        "value_json": "{\"limit\":\"Ingen slutsats om senare familjebildning.\",\"status\":\"ogift\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0072-civil_status-unmarried1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0072-civil_status-unmarried1900@1 efter R-126171c8899cd464e47c503b@2: Hanna Matilda82 har Ogift q-markering på sin egen rad. Den är inte Hildurs78-rad. Avgränsningen till1900 och reservationen om senare familjebildning består. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "750bbfe85b7917ab15ba3810f773d0978c57d3a1771eb7380ed08ef2a3ad40b3",
+      "object_id": "F-P-0072-household_membership-Buberget1882-1900",
+      "revision_id": "F-P-0072-household_membership-Buberget1882-1900@1",
+      "kind": "fact",
+      "payload_sha256": "2887e9ed54ac807b29c3a2210bc7d1a0f10b50704ed89366e1caad5d4accacab",
+      "reviewed_payload": {
+        "revision_id": "F-P-0072-household_membership-Buberget1882-1900@1",
+        "subject_id": "P-0072",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"after_mother_death\":\"Kvar hos änklingfadern 1900.\",\"parents\":[\"P-0065\",\"P-0066\"],\"period\":\"1882–1900\",\"place\":\"Buberget, Degerfors\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0072-household_membership-Buberget1882-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0072-household_membership-Buberget1882-1900@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0072-household_membership-Buberget1882-1900@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0072-household_membership-Buberget1882-1900@1 efter R-126171c8899cd464e47c503b@2: Hanna82 kvarstår i faderns Bubergethushåll på egen rad. Namnrättelsen på systerns78-rad förändrar inte hennes1900-närvaro eller äldre1882-start från husförhörsunderlagen. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "3030fe17bb6a9791e4bfc89f1adaf0376113bd6c50d68786d23bfc63b4e62203",
+      "object_id": "F-P-0072-last_known_alive-1900",
+      "revision_id": "F-P-0072-last_known_alive-1900@1",
+      "kind": "fact",
+      "payload_sha256": "74a7a694931ff0151ee9b5a891920e0a8f3d9c60eddc3ff7517fd384709ec93e",
+      "reviewed_payload": {
+        "revision_id": "F-P-0072-last_known_alive-1900@1",
+        "subject_id": "P-0072",
+        "property": "last_known_alive",
+        "value_type": "structured",
+        "value_json": "{\"place\":\"Buberget\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0072-last_known_alive-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0072-last_known_alive-1900@1 efter R-126171c8899cd464e47c503b@2: Hanna Matilda82 är upptagen1900 och förblir en annan person än Hildur78. Senaste livsår1900 behålls utan antaget senare dödsår. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "2b386c8b3533dc56b85060aca36ac93d4b8d9d35853ef155d657c210db7ea02b",
+      "object_id": "F-P-0072-name_form-Hanna-Mathilda-Matilda",
+      "revision_id": "F-P-0072-name_form-Hanna-Mathilda-Matilda@1",
+      "kind": "fact",
+      "payload_sha256": "f0ed662de3694ad84b9c45a2b174781f44635a3094c808f3c9401fd45b03c15b",
+      "reviewed_payload": {
+        "revision_id": "F-P-0072-name_form-Hanna-Mathilda-Matilda@1",
+        "subject_id": "P-0072",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"display_patronymic\":\"Andersdotter\",\"forms\":[\"Hanna Mathilda\",\"Hanna Matilda\"],\"limit\":\"Patronymikonet är inte belagt på egen rad; Andersson och okänt gift namn är oprövade sökvarianter.\"}"
+      },
+      "reviewed_caveat": "Stavningsskillnaden visar inte ett namnbyte.",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0072-name_form-Hanna-Mathilda-Matilda@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0072-name_form-Hanna-Mathilda-Matilda@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0072-name_form-Hanna-Mathilda-Matilda@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0072-name_form-Hanna-Mathilda-Matilda@1 efter R-126171c8899cd464e47c503b@2: 1900-raden läses Hanna Matilda av kontrolläsaren och hålls skild från Hildur Elisabetta78. Mathilda tillhör den andra bevarade bokformen; variationen är inget nytt namnbyte och patronymikon saknas fortfarande på egen1900-rad. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "e2187d44612f441cf2bd19e5399de920c4d76d4c4e0dee23741fe3d9812e8eb1",
+      "object_id": "F-P-0073-household_membership-Buberget1885-1900",
+      "revision_id": "F-P-0073-household_membership-Buberget1885-1900@1",
+      "kind": "fact",
+      "payload_sha256": "5e82f60d8c67b3cbd01030c495afff8d75473dde0c7a27a1df3aee83c9613de9",
+      "reviewed_payload": {
+        "revision_id": "F-P-0073-household_membership-Buberget1885-1900@1",
+        "subject_id": "P-0073",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"after_mother_death\":\"Kvar hos änklingfadern 1900.\",\"parents\":[\"P-0065\",\"P-0066\"],\"period\":\"1885–1900\",\"place\":\"Buberget, Degerfors\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0073-household_membership-Buberget1885-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0073-household_membership-Buberget1885-1900@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0073-household_membership-Buberget1885-1900@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0073-household_membership-Buberget1885-1900@1 efter R-126171c8899cd464e47c503b@2: Oskar Rudolf85 står som sista son inom målklammern, före nästa hushåll.1900-närvaron och hushållstillhörigheten kvarstår; äldre periodled och föräldrauppgifter omprövas inte genom en systers namnvariant. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "4b3101e3efef145407f2f2a3bdcb49f575e69c32943103085c63225ba45a82a4",
+      "object_id": "F-P-0073-last_known_alive-1900",
+      "revision_id": "F-P-0073-last_known_alive-1900@1",
+      "kind": "fact",
+      "payload_sha256": "6a1d17ddcc11f64e289407dbc894613f3107798e60582c226ec236fb34347610",
+      "reviewed_payload": {
+        "revision_id": "F-P-0073-last_known_alive-1900@1",
+        "subject_id": "P-0073",
+        "property": "last_known_alive",
+        "value_type": "structured",
+        "value_json": "{\"place\":\"Buberget\",\"year\":1900}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0073-last_known_alive-1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0073-last_known_alive-1900@1 efter R-126171c8899cd464e47c503b@2: Oskar Rudolf85 har egen daterad1900-rad. Faktats senaste livsår och Buberget bekräftas inom detta omfång; möjlig tidigare exakt datumöverföring avgörs inte av årtalsutdraget. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "f65c66ced7a48683361d3b8142487e0cf520c5c78ec4418715a8acd511347ac5",
+      "object_id": "F-P-0073-name_form-Oskar-Rudolf",
+      "revision_id": "F-P-0073-name_form-Oskar-Rudolf@1",
+      "kind": "fact",
+      "payload_sha256": "1cc3387392ac621c28019b30863cbcc6e8cb968b2e5b4123544ec3e433beee44",
+      "reviewed_payload": {
+        "revision_id": "F-P-0073-name_form-Oskar-Rudolf@1",
+        "subject_id": "P-0073",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"display_patronymic\":\"Andersson\",\"limit\":\"Oscar är uttryckligen obelagt; patronymikonet saknas på egen rad.\",\"own_form\":\"Oskar Rudolf\",\"unattested_variants\":[\"Oscar Rudolf\",\"Jonsson\"]}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "F-P-0073-name_form-Oskar-Rudolf@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0073-name_form-Oskar-Rudolf@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0073-name_form-Oskar-Rudolf@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av F-P-0073-name_form-Oskar-Rudolf@1 efter R-126171c8899cd464e47c503b@2: Läsningarna ger Oskar Rudolf, råår85, utan eget patronymikon. Oscar/Jonsson förblir oprövade varianter och ska inte införas som avläst eget namn. Befintlig disposition accepted och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "ba9be207299d8dd1acb4232f9ba8ee2c2f876872ec4b03ce1782cc4dc5327dbf",
+      "object_id": "ID-M-P-0072-census1900",
+      "revision_id": "ID-M-P-0072-census1900@1",
+      "kind": "identity",
+      "payload_sha256": "0659108f18ea8c2efe604b025062ca9f5e129aefa94975c8ca7e368ccf8605c3",
+      "reviewed_payload": {
+        "revision_id": "ID-M-P-0072-census1900@1",
+        "mention_id": "M-P-0072-census1900",
+        "person_id": "P-0072",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "ID-M-P-0072-census1900@1",
+          "basis_revision_id": "M-P-0072-census1900@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av ID-M-P-0072-census1900@1 efter R-126171c8899cd464e47c503b@2: Hanna Matilda-omnämnandet avser fortfarande dotterraden82. År, hushåll, systerns separata78-rad och personens andra bokrader ger ingen anledning att flytta kopplingen till P0070 eller ny person. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "9d9601bce2c8dd6cd0530fea031286421a87ca2066508aadb36055b0324c4798",
+      "object_id": "ID-M-P-0073-census1900",
+      "revision_id": "ID-M-P-0073-census1900@1",
+      "kind": "identity",
+      "payload_sha256": "8496e49cce7b3af3efdb32f718575182c205ea01ec9014e7ab4ff21d3f304d5e",
+      "reviewed_payload": {
+        "revision_id": "ID-M-P-0073-census1900@1",
+        "mention_id": "M-P-0073-census1900",
+        "person_id": "P-0073",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "ID-M-P-0073-census1900@1",
+          "basis_revision_id": "M-P-0073-census1900@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av ID-M-P-0073-census1900@1 efter R-126171c8899cd464e47c503b@2: Oskar Rudolf-omnämnandet hör fortfarande till son85 i Anders Jonssons hushåll. Hildurs rättade mellanled ändrar varken omnämnandets rad eller kopplingen till P0073. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "d3ab0a4b604e9cfdb1d843b9a51be281bad1b521347446457720453d3fca22d2",
+      "object_id": "IDENTITY-P-0070-P-0072",
+      "revision_id": "IDENTITY-P-0070-P-0072@1",
+      "kind": "identity_resolution",
+      "payload_sha256": "9c70d5152832d3dc45da622bcb1734d2b675a2c922d564617444e79920ffcd26",
+      "reviewed_payload": {
+        "revision_id": "IDENTITY-P-0070-P-0072@1",
+        "person_a": "P-0070",
+        "person_b": "P-0072",
+        "decision": "different_people"
+      },
+      "reviewed_caveat": "Två namngivna rader och födelseår 1878 respektive 1882. Hanna Matilda är ingen variant av Hildur Charlottas namn.",
+      "dependencies": [
+        {
+          "revision_id": "IDENTITY-P-0070-P-0072@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av IDENTITY-P-0070-P-0072@1 efter R-126171c8899cd464e47c503b@2: Två skilda dotterrader78 respektive82 finns kvar. Identitetsbeslutet different_people är därför fortsatt riktigt: Hildur Elisabetta i utdraget/Hildur Charlotta i andra böcker är inte systern Hanna Matilda82. Caveatens Charlotta är personnamnet, inte ett påstående om utdragets exakta bokstäver. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "9d0ab3ffc4e19dc84f0b201ba07250c030b4a8fb2ffc8a43235c19171198d449",
+      "object_id": "M-P-0072-census1900",
+      "revision_id": "M-P-0072-census1900@1",
+      "kind": "mention",
+      "payload_sha256": "b455d4b66a2d4459bc1240802679dc3167bdeb794d698cf14f0ae758281ea938",
+      "reviewed_payload": {
+        "revision_id": "M-P-0072-census1900@1",
+        "record_id": "R-126171c8899cd464e47c503b",
+        "name_literal": "Hanna Matilda",
+        "role_literal": ""
+      },
+      "reviewed_caveat": " Ingen separat råroll har utvunnits för denna namnrad; det obligatoriska role_literal-fältet är därför en tom sträng och innebär ingen tillskriven roll.",
+      "dependencies": [
+        {
+          "revision_id": "M-P-0072-census1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av M-P-0072-census1900@1 efter R-126171c8899cd464e47c503b@2: Hanna Matilda är korrekt namn_literal på82-raden. role_literal är fortfarande en uttryckligen ej strukturerad roll, inte ett påstående att originalet saknar d.; hela nya avskriften bevarar d.-markeringen. Ingen felaktig namn- eller personuppgift behöver ändras. Befintlig disposition recorded och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "c77d4e74523547705f8c34d4b07c57277b8f5f5d5ce3de841767fcee66229dd6",
+      "object_id": "M-P-0073-census1900",
+      "revision_id": "M-P-0073-census1900@1",
+      "kind": "mention",
+      "payload_sha256": "50e9fb050a6d53298747aea12213c50ed982d0b2a496224ed8413642d4964e99",
+      "reviewed_payload": {
+        "revision_id": "M-P-0073-census1900@1",
+        "record_id": "R-126171c8899cd464e47c503b",
+        "name_literal": "Oskar Rudolf",
+        "role_literal": ""
+      },
+      "reviewed_caveat": " Ingen separat råroll har utvunnits för denna namnrad; det obligatoriska role_literal-fältet är därför en tom sträng och innebär ingen tillskriven roll.",
+      "dependencies": [
+        {
+          "revision_id": "M-P-0073-census1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av M-P-0073-census1900@1 efter R-126171c8899cd464e47c503b@2: Oskar Rudolf är korrekt namn_literal på85-raden. Tom role_literal beskriver tidigare utebliven strukturerad utvinning; s.-markeringen finns nu i fullavskriften och får inte förväxlas med tom originalruta. Namnposten kan behållas. Befintlig disposition recorded och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "661ad62275aa9655d8343b7e46d8548219fcc0f198cd016ec15d650d94971d9f",
+      "object_id": "O-P-0068-census1900",
+      "revision_id": "O-P-0068-census1900@1",
+      "kind": "observation",
+      "payload_sha256": "1ef9cb17e3c96303e071d9ea7391a2e4e09aa45b5dbe54a206f2ccde6d938712",
+      "reviewed_payload": {
+        "revision_id": "O-P-0068-census1900@1",
+        "record_id": "R-126171c8899cd464e47c503b",
+        "mention_id": null,
+        "property": "census_entry",
+        "value_literal": "Jonas Edvard; 1871",
+        "value_json": "{\"birth_year\":1871,\"civil_status\":\"ogift\",\"household\":\"Änklingen Anders Jonssons familj nr 1 i Buberget\",\"name\":\"Jonas Edvard\",\"occupation\":\"read_blank\"}"
+      },
+      "reviewed_caveat": "Utdrag ur församlingsboken; ingen oberoende bekräftelse av den föregående längdserien.",
+      "dependencies": [
+        {
+          "revision_id": "O-P-0068-census1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av O-P-0068-census1900@1 efter R-126171c8899cd464e47c503b@2: Observationens Jonas Edvard, normaliserat1871, ogift och tom yrkesruta överensstämmer med rå71-raden. Den nya avskriften bevarar rååret; observationen påstår inget exakt datum och behåller beroendereservationen. Befintlig disposition recorded och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "966f31527150a44251f3175e2a45139835a6046fdbacca748c14077e15574dfd",
+      "object_id": "O-P-0069-census1900",
+      "revision_id": "O-P-0069-census1900@1",
+      "kind": "observation",
+      "payload_sha256": "96da3ec26d68c3c879ce4ea3538e05328e61a1fe085d8e20892f70f19b892098",
+      "reviewed_payload": {
+        "revision_id": "O-P-0069-census1900@1",
+        "record_id": "R-126171c8899cd464e47c503b",
+        "mention_id": null,
+        "property": "census_entry",
+        "value_literal": "Anders, född 1876",
+        "value_json": "{\"birth_year\":1876,\"civil_status\":\"ogift\",\"household\":\"Änklingen Anders Jonssons familj nr 1 i Buberget\",\"name\":\"Anders\",\"occupation\":\"read_blank\"}"
+      },
+      "reviewed_caveat": "Beroende utdrag ur församlingsboken; ger inte födelsedagen.",
+      "dependencies": [
+        {
+          "revision_id": "O-P-0069-census1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av O-P-0069-census1900@1 efter R-126171c8899cd464e47c503b@2: Observationens Anders,1876, ogift och tom yrkesruta motsvarar målradens Anders76, inte föregående hushålls Anders71. Dag/månad saknas alltjämt och normaliseringen till1876 ändras inte. Befintlig disposition recorded och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "cbad39fbda8838431f0bc2e1cec3a0b0b505e74394be38f8eaadef989813dc2f",
+      "object_id": "O-P-0071-census1900",
+      "revision_id": "O-P-0071-census1900@1",
+      "kind": "observation",
+      "payload_sha256": "ff98052f2c13e399bd86c46bf270c037bbd0bdfbbb04d4ee1dfedae7ab9816b0",
+      "reviewed_payload": {
+        "revision_id": "O-P-0071-census1900@1",
+        "record_id": "R-126171c8899cd464e47c503b",
+        "mention_id": null,
+        "property": "census_entry",
+        "value_literal": "Karl Magnus, född 1880",
+        "value_json": "{\"birth_year\":1880,\"civil_status\":\"ogift\",\"household\":\"Anders Jonssons änklinghushåll nr 1, Buberget\",\"name\":\"Karl Magnus\",\"occupation\":\"read_blank\"}"
+      },
+      "reviewed_caveat": "Beroende utdrag ur församlingsboken.",
+      "dependencies": [
+        {
+          "revision_id": "O-P-0071-census1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av O-P-0071-census1900@1 efter R-126171c8899cd464e47c503b@2: Observationens Karl Magnus,1880, ogift och tom yrkesruta motsvarar80-raden inom rätt klammer. Den blandas inte ihop med nästa hushålls Karl Johan43; beroende utdrag förblir rätt källklass. Befintlig disposition recorded och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "a8b8f784220ec347523ad40eb03cf6076e1041b43c2461a9cc5887f52c716c41",
+      "object_id": "O-P-0072-census1900",
+      "revision_id": "O-P-0072-census1900@1",
+      "kind": "observation",
+      "payload_sha256": "34ee2104fe16ffdda5b4871ad4cdfd9dade47d8d78c2bb76ff1c5955df5ad271",
+      "reviewed_payload": {
+        "revision_id": "O-P-0072-census1900@1",
+        "record_id": "R-126171c8899cd464e47c503b",
+        "mention_id": "M-P-0072-census1900",
+        "property": "census_entry",
+        "value_literal": "Hanna Matilda, född 1882",
+        "value_json": "{\"birth_year\":1882,\"civil_status\":\"ogift\",\"household\":\"Anders Jonssons änklinghushåll nr 1, Buberget\",\"name\":\"Hanna Matilda\",\"occupation\":\"read_blank\"}"
+      },
+      "reviewed_caveat": "Beroende utdrag ur församlingsboken, ingen exakt födelsedag.",
+      "dependencies": [
+        {
+          "revision_id": "O-P-0072-census1900@1",
+          "basis_revision_id": "M-P-0072-census1900@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0072-census1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av O-P-0072-census1900@1 efter R-126171c8899cd464e47c503b@2: Observationens Hanna Matilda,1882, ogift, tom yrkesruta och M-P0072-koppling gäller den separata82-raden. Hildurs mellanledsrättelse påverkar inte dessa fält; exakt födelsedag påstås inte. Befintlig disposition recorded och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "c2317418130daaf3a48b5141dd721e0cb0ab4dfbc2f2ac529158caf8323a00a3",
+      "object_id": "O-P-0073-census1900",
+      "revision_id": "O-P-0073-census1900@1",
+      "kind": "observation",
+      "payload_sha256": "0012e15d31c6916e82001394dcbd7460dd27c6e45fb41d47364bb386294374a7",
+      "reviewed_payload": {
+        "revision_id": "O-P-0073-census1900@1",
+        "record_id": "R-126171c8899cd464e47c503b",
+        "mention_id": "M-P-0073-census1900",
+        "property": "census_entry",
+        "value_literal": "Oskar Rudolf, född 1885",
+        "value_json": "{\"birth_year\":1885,\"household\":\"Anders Jonssons änklinghushåll nr 1, Buberget\",\"name\":\"Oskar Rudolf\",\"occupation\":\"read_blank\"}"
+      },
+      "reviewed_caveat": "Beroende utdrag ur församlingsboken; ger inte hans exakta födelsedag.",
+      "dependencies": [
+        {
+          "revision_id": "O-P-0073-census1900@1",
+          "basis_revision_id": "M-P-0073-census1900@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0073-census1900@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av O-P-0073-census1900@1 efter R-126171c8899cd464e47c503b@2: Observationens Oskar Rudolf,1885, tom yrkesruta och rätt omnämnande står kvar på85-raden. Civilstånd är inte strukturerat i just denna observation men Ogift m bevaras i den nya fullavskriften; ingen felaktig uppgift behöver ny revision. Befintlig disposition recorded och evidensstatus TRANSCRIBED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "81b2fd7249ce0f3630d893899f48f849f7387606a1f42c89d3e0f40016064ae4",
+      "object_id": "P-0068",
+      "revision_id": "P-0068@2",
+      "kind": "person",
+      "payload_sha256": "0c744960a961c4abd1fc56220ec31ed47c28c1b7ca7daf3213d8115371783560",
+      "reviewed_payload": {
+        "revision_id": "P-0068@2",
+        "display_name": "Jonas Edvard Andersson",
+        "sex": "male",
+        "legacy_state": "active"
+      },
+      "reviewed_caveat": "Uttryckligen beskriven som ung man; personidentiteten prövas oberoende av kontraktets fullständighetsnivå.",
+      "dependencies": [
+        {
+          "revision_id": "P-0068@2",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0068@2",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0068@2",
+          "basis_revision_id": "R-5ca54d7a95c1ca2c480ee7e0@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0068@2",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av P-0068@2 efter R-126171c8899cd464e47c503b@2: Personkärnan Jonas Edvard Andersson avser fortsatt son71 i samma hushåll och tidigare husförhör. Ingen originalpatronymikonsläsning eller ny köns-/kontraktsprövning görs genom att behålla redan accepterad person. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "7a49bb6b795526c5a303015a292abeebefbc3a83a6933c7a1d980e69f059462e",
+      "object_id": "P-0069",
+      "revision_id": "P-0069@2",
+      "kind": "person",
+      "payload_sha256": "4939bfac3d0edee30c18abf5ac21f359b44e2b707af5626e05ba0e9b4982fc6d",
+      "reviewed_payload": {
+        "revision_id": "P-0069@2",
+        "display_name": "Anders Andersson, Degerfors",
+        "sex": "male",
+        "legacy_state": "active"
+      },
+      "reviewed_caveat": "Profil P-0071 beskriver uttryckligen de tre samordnade brödernas årsklasser som tre män. Ingen könsslutsats dras enbart ur namn, roll eller militärplikt.",
+      "dependencies": [
+        {
+          "revision_id": "P-0069@2",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0069@2",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0069@2",
+          "basis_revision_id": "R-5ca54d7a95c1ca2c480ee7e0@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0069@2",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av P-0069@2 efter R-126171c8899cd464e47c503b@2: Personkärnan Anders Andersson, Degerfors avser son76. Varken huvudmannen Anders39 eller grannen Anders71 sammanblandas med honom; personens befintliga könsunderlag och kontraktsavgränsning är andra uppgifter. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "439cf8257858731a201e227f5886c366f69157ac609a3f91fbde85e9275038fe",
+      "object_id": "P-0070",
+      "revision_id": "P-0070@2",
+      "kind": "person",
+      "payload_sha256": "b5cee01abc5157df47e1f5ab5f573765b5f86b2059bd55727c0003ebfc84ce11",
+      "reviewed_payload": {
+        "revision_id": "P-0070@2",
+        "display_name": "Hildur Charlotta Andersdotter",
+        "sex": "female",
+        "legacy_state": "active"
+      },
+      "reviewed_caveat": "Uttryckligen kvinna i akten. Egen personidentitet, ingen ny kontraktsprövning.",
+      "dependencies": [
+        {
+          "revision_id": "P-0070@2",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0070@2",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0070@2",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av P-0070@2 efter R-126171c8899cd464e47c503b@2: Personnamnet Hildur Charlotta behålls: TR-376b7055ebcee875d81cf2f4@1 anger Hildur Charlotta1878 21/6 och TR-4feafd32a4cd9ba155d9b3ea@1 hennes särskilda1878-rad. R-126171@2:s Elisabetta är källspecifik variant i samma hushåll; F-name_form@2 och forskningsnoterna redovisar den. Ingen harmonisering av originaltext eller ny person motiveras. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "399017acc9992ac6c107e8b273122bd8fc46292e026589112dd3f3d4d5cda003",
+      "object_id": "P-0071",
+      "revision_id": "P-0071@2",
+      "kind": "person",
+      "payload_sha256": "1fc446ff6c12fc90c2d40eb5ef8469799320b1ed1f4d90c8d8c61ba8d87458ce",
+      "reviewed_payload": {
+        "revision_id": "P-0071@2",
+        "display_name": "Karl Magnus Andersson",
+        "sex": "male",
+        "legacy_state": "active"
+      },
+      "reviewed_caveat": "Profilens samordnade årsklasser beskriver uttryckligen tre män; personidentiteten är särskild och kontraktsnivån ändras inte.",
+      "dependencies": [
+        {
+          "revision_id": "P-0071@2",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0071@2",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0071@2",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av P-0071@2 efter R-126171c8899cd464e47c503b@2: Karl Magnus Andersson kvarstår som son80, skild från grannhushållets Karl Johan43. Rättelsen gäller systerns mellanled; datumfrågor och kontraktsnivå är inte nyavgjorda. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "0cd3162d1ab1e9c0c35db80fb83c7580110cff00bed639947be5e5f8551eac09",
+      "object_id": "P-0072",
+      "revision_id": "P-0072@2",
+      "kind": "person",
+      "payload_sha256": "7ebc0489f0e01cc224ce2a917888ba0179c8ade28edb82952043458b01cc3543",
+      "reviewed_payload": {
+        "revision_id": "P-0072@2",
+        "display_name": "Hanna Mathilda Andersdotter",
+        "sex": "female",
+        "legacy_state": "active"
+      },
+      "reviewed_caveat": "Uttryckligen kvinna i akten; egna rader och rättad födelsedag bär en särskild personidentitet. Kontraktsnivån ändras inte.",
+      "dependencies": [
+        {
+          "revision_id": "P-0072@2",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0072@2",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0072@2",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av P-0072@2 efter R-126171c8899cd464e47c503b@2: Hanna Mathilda Andersdotter kvarstår som särskild dotter82. Utdragets Matilda och husförhörens Mathilda är redan särredovisade stavningsformer; Hildur78 är en annan rad/person. Ingen ny födelsedags- eller kontraktsprövning görs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "2e6d24dbedffab057a4d65d7680eb41c9ee2825f5d52381a6d4e031a38eb12b8",
+      "object_id": "P-0073",
+      "revision_id": "P-0073@2",
+      "kind": "person",
+      "payload_sha256": "aa864adfb1159b05e66352c7b116e75d3248e187d6fc971e7d5b87cddee7d722",
+      "reviewed_payload": {
+        "revision_id": "P-0073@2",
+        "display_name": "Oskar Rudolf Andersson",
+        "sex": "male",
+        "legacy_state": "active"
+      },
+      "reviewed_caveat": "Uttryckligen pojke i biografin. En möjlig datumöverföring rör datumet, inte den särskilda personen; kontraktsnivån ändras inte.",
+      "dependencies": [
+        {
+          "revision_id": "P-0073@2",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0073@2",
+          "basis_revision_id": "R-2dccc2e86bea25bef526f55d@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0073@2",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "P-0073@2",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av P-0073@2 efter R-126171c8899cd464e47c503b@2: Oskar Rudolf Andersson kvarstår som son85. Den omtalade risken för överfört exakt datum rubbas inte eftersom utdraget endast ger rå85. Personkärnan och befintlig granskning ändras inte. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "29c9229cd30fe2d1b4df3992487677ce86ebf28680285f75d161f9d3101c580b",
+      "object_id": "REL-sibling-P-0068-P-0069",
+      "revision_id": "REL-sibling-P-0068-P-0069@1",
+      "kind": "relation",
+      "payload_sha256": "ffee94a70edf9cd8d7b0bd7221444526411a212dec612565d313f31030d1cffd",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0068-P-0069@1",
+        "from_person": "P-0068",
+        "to_person": "P-0069",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0068-P-0069@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0069@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0069@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0068-P-0069@1 efter R-126171c8899cd464e47c503b@2: P-0068 Jonas Edvard, råår71, och P-0069 Anders, råår76, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "ca13a988dbf38a9e25e28ceebe6b78f5b2e76b80affe5d967e47d11c45a5eecc",
+      "object_id": "REL-sibling-P-0068-P-0070",
+      "revision_id": "REL-sibling-P-0068-P-0070@1",
+      "kind": "relation",
+      "payload_sha256": "ced1936de5cea89bc213973364c9ecfb93903a3ac7114e557d9ae902c2f3906f",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0068-P-0070@1",
+        "from_person": "P-0068",
+        "to_person": "P-0070",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0068-P-0070@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0070@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0070@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0068-P-0070@1 efter R-126171c8899cd464e47c503b@2: P-0068 Jonas Edvard, råår71, och P-0070 Hildur Elisabetta, råår78, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Hildurs Elisabetta är källvariant på78-raden; Charlotta från äldre böcker/personnamnet hålls kvar och förväxlas inte med Hanna82. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "e3925cb10eb1eb8e5cad46f43894fb57001ce87dcfedf8201538dfd4fa65a26f",
+      "object_id": "REL-sibling-P-0068-P-0071",
+      "revision_id": "REL-sibling-P-0068-P-0071@1",
+      "kind": "relation",
+      "payload_sha256": "44a953a69b61ad888ad6aafe2faf81d60a550ba32c20569db0fb667d863f9af1",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0068-P-0071@1",
+        "from_person": "P-0068",
+        "to_person": "P-0071",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0068-P-0071@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0071@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0071@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0068-P-0071@1 efter R-126171c8899cd464e47c503b@2: P-0068 Jonas Edvard, råår71, och P-0071 Karl Magnus, råår80, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "2077fc7e31f5c76d0b0e1164a9afbc14f40e727b593e03c085819634d70add1a",
+      "object_id": "REL-sibling-P-0068-P-0072",
+      "revision_id": "REL-sibling-P-0068-P-0072@1",
+      "kind": "relation",
+      "payload_sha256": "5fea1c8cea139a3ddcfe0f3ff7938613818af224b2dbc39dba87976631bee5ef",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0068-P-0072@1",
+        "from_person": "P-0068",
+        "to_person": "P-0072",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0068-P-0072@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0072@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0072@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0068-P-0072@1 efter R-126171c8899cd464e47c503b@2: P-0068 Jonas Edvard, råår71, och P-0072 Hanna Matilda, råår82, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "dd4a93b98bb1a3fd9961ad588c01c9505ff1a532307c0b676228136b2bebbce8",
+      "object_id": "REL-sibling-P-0068-P-0073",
+      "revision_id": "REL-sibling-P-0068-P-0073@1",
+      "kind": "relation",
+      "payload_sha256": "16f715421deec21fb10d4b2d610beb42438c87904186c485778e0bd57cb46b43",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0068-P-0073@1",
+        "from_person": "P-0068",
+        "to_person": "P-0073",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": " P-0073:s egen aktuella relationsrad är CORROBORATED; den äldre syskonaktens TRANSCRIBED-ursprung bevaras separat.",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0068-P-0073@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0073@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0068-P-0073@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0068-P-0073@1 efter R-126171c8899cd464e47c503b@2: P-0068 Jonas Edvard, råår71, och P-0073 Oskar Rudolf, råår85, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. P0073:s tidigare CORROBORATED/TRANSCRIBED-proveniensförbehåll bevaras; ingen datumrisk löses av syskonkopplingen. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "6ec3d28e6b3ccae0f0d00b4b3994cc561dfc127f02ef805922c9458e424cb88a",
+      "object_id": "REL-sibling-P-0069-P-0070",
+      "revision_id": "REL-sibling-P-0069-P-0070@1",
+      "kind": "relation",
+      "payload_sha256": "91767b55bdcb431e59e91afb8c2e957e96919b06e4efe95cc6fac5f839f0de10",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0069-P-0070@1",
+        "from_person": "P-0069",
+        "to_person": "P-0070",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0069-P-0070@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0069-P-0070@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0069-P-0070@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0069-P-0070@1 efter R-126171c8899cd464e47c503b@2: P-0069 Anders, råår76, och P-0070 Hildur Elisabetta, råår78, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Hildurs Elisabetta är källvariant på78-raden; Charlotta från äldre böcker/personnamnet hålls kvar och förväxlas inte med Hanna82. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "672572e399b95dfe148ef07b53487c2f8ea7a17c9fb0b97190a2bf68cb61cad0",
+      "object_id": "REL-sibling-P-0069-P-0071",
+      "revision_id": "REL-sibling-P-0069-P-0071@1",
+      "kind": "relation",
+      "payload_sha256": "969a891a5840690d77a457e27a2ff864af200f78e07e13787045e02f2dc6aec1",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0069-P-0071@1",
+        "from_person": "P-0069",
+        "to_person": "P-0071",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0069-P-0071@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0069-P-0071@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0069-P-0071@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0069-P-0071@1 efter R-126171c8899cd464e47c503b@2: P-0069 Anders, råår76, och P-0071 Karl Magnus, råår80, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "855224e0d00559c29f98d754387115b596e0a611e02cc3787b8a1c961aab608b",
+      "object_id": "REL-sibling-P-0069-P-0072",
+      "revision_id": "REL-sibling-P-0069-P-0072@1",
+      "kind": "relation",
+      "payload_sha256": "2eece89521e9fb83025da80e3ff874dfd178b2e8983b71c351cf57a35b610df3",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0069-P-0072@1",
+        "from_person": "P-0069",
+        "to_person": "P-0072",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0069-P-0072@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0069-P-0072@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0069-P-0072@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0069-P-0072@1 efter R-126171c8899cd464e47c503b@2: P-0069 Anders, råår76, och P-0072 Hanna Matilda, råår82, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "ed367a0484ba5c55bdd243a5bd92b242a9ba1516c37e18829d0d1d499498e96c",
+      "object_id": "REL-sibling-P-0069-P-0073",
+      "revision_id": "REL-sibling-P-0069-P-0073@1",
+      "kind": "relation",
+      "payload_sha256": "1993934cc57de19945fb83c4d83f940275653046340e568db67e3971d1136ddb",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0069-P-0073@1",
+        "from_person": "P-0069",
+        "to_person": "P-0073",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": " P-0073:s egen aktuella relationsrad är CORROBORATED; den äldre syskonaktens TRANSCRIBED-ursprung bevaras separat.",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0069-P-0073@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0069-P-0073@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0069-P-0073@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0069-P-0073@1 efter R-126171c8899cd464e47c503b@2: P-0069 Anders, råår76, och P-0073 Oskar Rudolf, råår85, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. P0073:s tidigare CORROBORATED/TRANSCRIBED-proveniensförbehåll bevaras; ingen datumrisk löses av syskonkopplingen. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "109a714bf7069969cb4097f6cbe072ffe681437ea07c2765e9a192732f2b6c13",
+      "object_id": "REL-sibling-P-0070-P-0071",
+      "revision_id": "REL-sibling-P-0070-P-0071@1",
+      "kind": "relation",
+      "payload_sha256": "02a88f48cbfcbbda5a1fada6e98af184f6cec879f36fd5c9c367994bad9d0001",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0070-P-0071@1",
+        "from_person": "P-0070",
+        "to_person": "P-0071",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0070-P-0071@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0070-P-0071@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0070-P-0071@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0070-P-0071@1 efter R-126171c8899cd464e47c503b@2: P-0070 Hildur Elisabetta, råår78, och P-0071 Karl Magnus, råår80, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Hildurs Elisabetta är källvariant på78-raden; Charlotta från äldre böcker/personnamnet hålls kvar och förväxlas inte med Hanna82. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "a873cfa244eea59e2e0fe73f6fcb626da2efe1924dbd30829468d05f03852e3a",
+      "object_id": "REL-sibling-P-0070-P-0072",
+      "revision_id": "REL-sibling-P-0070-P-0072@1",
+      "kind": "relation",
+      "payload_sha256": "049d3f40fb21dd2ccda97c597d9d9e74cd39bc79334680074fae0e600ba8861b",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0070-P-0072@1",
+        "from_person": "P-0070",
+        "to_person": "P-0072",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0070-P-0072@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0070-P-0072@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0070-P-0072@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0070-P-0072@1 efter R-126171c8899cd464e47c503b@2: P-0070 Hildur Elisabetta, råår78, och P-0072 Hanna Matilda, råår82, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Hildurs Elisabetta är källvariant på78-raden; Charlotta från äldre böcker/personnamnet hålls kvar och förväxlas inte med Hanna82. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "abf91dc4551bd19b2ed0c3efdd4313deb4a487e3a15050b29ca67323c524c3d8",
+      "object_id": "REL-sibling-P-0070-P-0073",
+      "revision_id": "REL-sibling-P-0070-P-0073@1",
+      "kind": "relation",
+      "payload_sha256": "fad008adbee9cd82efb072fe0c9ea2d5ca71e621c38bdb623606ae0129199941",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0070-P-0073@1",
+        "from_person": "P-0070",
+        "to_person": "P-0073",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": " P-0073:s egen aktuella relationsrad är CORROBORATED; den äldre syskonaktens TRANSCRIBED-ursprung bevaras separat.",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0070-P-0073@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0070-P-0073@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0070-P-0073@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0070-P-0073@1 efter R-126171c8899cd464e47c503b@2: P-0070 Hildur Elisabetta, råår78, och P-0073 Oskar Rudolf, råår85, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Hildurs Elisabetta är källvariant på78-raden; Charlotta från äldre böcker/personnamnet hålls kvar och förväxlas inte med Hanna82. P0073:s tidigare CORROBORATED/TRANSCRIBED-proveniensförbehåll bevaras; ingen datumrisk löses av syskonkopplingen. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "fd2054d7d68fe10f2929cc7d3ef0a0a2e14a83577dc8f67227ecdcfa4e3fbf55",
+      "object_id": "REL-sibling-P-0071-P-0072",
+      "revision_id": "REL-sibling-P-0071-P-0072@1",
+      "kind": "relation",
+      "payload_sha256": "8b03d49272ecb9c70cf96b3ff366e860dbe210d2ae7e6684839b40d716353d1a",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0071-P-0072@1",
+        "from_person": "P-0071",
+        "to_person": "P-0072",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0071-P-0072@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0071-P-0072@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0071-P-0072@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0071-P-0072@1 efter R-126171c8899cd464e47c503b@2: P-0071 Karl Magnus, råår80, och P-0072 Hanna Matilda, råår82, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "e7b794fd46820c17dff310a379311fff444d98b76fbbf0536ec6f3a3dad119cb",
+      "object_id": "REL-sibling-P-0071-P-0073",
+      "revision_id": "REL-sibling-P-0071-P-0073@1",
+      "kind": "relation",
+      "payload_sha256": "586c5b8f39ed4a6eedfe1e444ade4338d40b1934ff1393d5856a422dca723d24",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0071-P-0073@1",
+        "from_person": "P-0071",
+        "to_person": "P-0073",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": " P-0073:s egen aktuella relationsrad är CORROBORATED; den äldre syskonaktens TRANSCRIBED-ursprung bevaras separat.",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0071-P-0073@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0071-P-0073@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0071-P-0073@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0071-P-0073@1 efter R-126171c8899cd464e47c503b@2: P-0071 Karl Magnus, råår80, och P-0073 Oskar Rudolf, råår85, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. P0073:s tidigare CORROBORATED/TRANSCRIBED-proveniensförbehåll bevaras; ingen datumrisk löses av syskonkopplingen. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    },
+    {
+      "request_id": "80313a2bbd945ffb86664cfd4094a365355cc825c71a9e29a42d68677525c7fa",
+      "object_id": "REL-sibling-P-0072-P-0073",
+      "revision_id": "REL-sibling-P-0072-P-0073@1",
+      "kind": "relation",
+      "payload_sha256": "97557bb7c95e2cf8e11e6028e98b3b69875d3de6761263cd2c6e2d6a4ecec23b",
+      "reviewed_payload": {
+        "revision_id": "REL-sibling-P-0072-P-0073@1",
+        "from_person": "P-0072",
+        "to_person": "P-0073",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": " P-0073:s egen aktuella relationsrad är CORROBORATED; den äldre syskonaktens TRANSCRIBED-ursprung bevaras separat.",
+      "dependencies": [
+        {
+          "revision_id": "REL-sibling-P-0072-P-0073@1",
+          "basis_revision_id": "R-126171c8899cd464e47c503b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0072-P-0073@1",
+          "basis_revision_id": "R-58cb76e43f33980519f6feee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "REL-sibling-P-0072-P-0073@1",
+          "basis_revision_id": "R-e9984591d76613952a3ca03b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain",
+      "rationale": "T-0673 AC3 individuell följdprövning av REL-sibling-P-0072-P-0073@1 efter R-126171c8899cd464e47c503b@2: P-0072 Hanna Matilda, råår82, och P-0073 Oskar Rudolf, råår85, har två skilda barnrader inom Anders Jonssons hushåll. Den redan accepterade recorded_sibling-relationen har dessutom de två äldre husförhörsposterna R-58cb76e43f33980519f6feee@1 och R-e9984591d76613952a3ca03b@1 som explicita underlag. Ingen flytt av rad, familjeklammer eller födelseår sker i P06. P0073:s tidigare CORROBORATED/TRANSCRIBED-proveniensförbehåll bevaras; ingen datumrisk löses av syskonkopplingen. Befintlig okänd relationsdatering kvarstår; ingen biologisk precisering tillförs. Befintlig disposition accepted och evidensstatus CORROBORATED behålls. Avgränsat till denna rättelses påverkan, inte full person-/livsbildsgranskning."
+    }
+  ]
+}
