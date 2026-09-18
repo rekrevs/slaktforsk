@@ -1,0 +1,66 @@
+{
+  "verify": {
+    "ok": true,
+    "errors": []
+  },
+  "assets": {
+    "ok": true,
+    "errors": []
+  },
+  "source": {
+    "ok": true,
+    "mediaVerified": true,
+    "problems": []
+  },
+  "inventory": {
+    "format": "genealogy2-research-inventory/1",
+    "note": "Registrerade aktuella bedömningar, inte ny sakgranskning eller utförandekö. Identitetsgrind och livsbild är separata. Äldre helkontraktsutfall behåller sitt ursprungliga omfång och sina kvalificeringar.",
+    "active": {
+      "persons": 511,
+      "identityPassed": 199,
+      "treeSupporting": 51,
+      "identityGatePassed": 51,
+      "explicitNativeLifePassed": 0,
+      "legacyContractPassed": 0
+    },
+    "all": {
+      "persons": 536,
+      "identityPassed": 199,
+      "treeSupporting": 51,
+      "identityGatePassed": 51,
+      "explicitNativeLifePassed": 0,
+      "legacyContractPassed": 0
+    },
+    "detail": "inventory --full visar personer och använda bedömningsrevisioner."
+  },
+  "pedigree": {
+    "person_positions": 20,
+    "paths_unchanged": true,
+    "edge_ids_unchanged": true
+  },
+  "source_audit_regression": {
+    "ok": true,
+    "draw": 30,
+    "outcomes": {
+      "corrected": 7,
+      "confirmed": 18,
+      "not_fully_testable": 2,
+      "ineligible": 3
+    },
+    "owner_objects_unchanged": 41,
+    "persons": 536,
+    "pending_reviews": 0
+  },
+  "operations": 53,
+  "pending_reviews": 0,
+  "tests": {
+    "passed": 40,
+    "failed": 0,
+    "command": "node --test genealogy2/test/consolidation.test.mjs genealogy2/test/domain.test.mjs genealogy2/test/pedigree.test.mjs genealogy2/test/workflow.test.mjs genealogy2/test/review.test.mjs genealogy2/test/inventory.test.mjs genealogy2/test/overview.test.mjs",
+    "before_patch_full_native_passed": 121,
+    "unchanged_legacy_tests_passed": 67
+  },
+  "legacy_validator": "PASS after DONE and successor updates",
+  "legacy_media_manifest": "PASS",
+  "git_diff_check": "PASS"
+}

@@ -72,6 +72,17 @@ async function checkOperationMedia(db,request,root) {
 // If the process dies between them, SQLite is authoritative; repeating apply or
 // running journal regenerates the missing receipt, without executing twice.
 export async function writeOperation(db,request,{root,journal,legacy=false,afterCommit}={}) {
+  if(!legacy&&!Object.hasOwn(request,'dependencyReviewVersion')) {
+    const previous=db.prepare(`SELECT p.request_json FROM operation o
+      LEFT JOIN operation_payload p ON p.operation_id=o.id WHERE o.id=?`).get(request.id);
+    // Preserve old unversioned requests and their hashes on idempotent retries.
+    // A retry of a newly annotated request inherits only its stored policy; all
+    // other submitted fields must still match applyOperation's content hash.
+    const stored=previous?.request_json?JSON.parse(previous.request_json):null;
+    if(!previous)request={...request,dependencyReviewVersion:2};
+    else if(stored&&Object.hasOwn(stored,'dependencyReviewVersion'))
+      request={...request,dependencyReviewVersion:stored.dependencyReviewVersion};
+  }
   await checkOperationMedia(db,request,root);
   fs.mkdirSync(journal,{recursive:true});
   const result=applyOperation(db,request,{legacy});

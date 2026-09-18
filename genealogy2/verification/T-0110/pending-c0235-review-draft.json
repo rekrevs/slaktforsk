@@ -1,0 +1,70 @@
+{
+  "task": "T-0110",
+  "status": "DRAFT read-only review; no resolve applied",
+  "scratch": "/tmp/T0110-final-review.sqlite",
+  "operation_scope": [
+    "T-0110-C0235-correction-v1"
+  ],
+  "object_count": 2,
+  "request_count": 4,
+  "objects": [
+    {
+      "object": "F-P-0239-source_report-missionary-physician",
+      "current_revision": "F-P-0239-source_report-missionary-physician@1",
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Uppgiften återger uttryckligen Equmeniakyrkans missionshistorik och Långareds historik, inte en ny LIBRIS-utsaga om Ivars examen. book_read=false och caveat spärrar examen/legitimation och oläst bokinnehåll. Den äldre bibliografiska titeln kan bevaras som tidigare rapporterad titel: dess frånvaro i nu hämtad auktoritetsgraf visar inte att boken eller tidigare boklänk saknas. S0185@2/R8027@2 och F-P0240-source_reference-Libris-biographies@2 redovisar omverifieringsgränsen. Ingen aktuell person-/yrkesfaktauppgradering följer. Behåll denna avgränsade source_report; dess titlefält får inte beskrivas som en i T0110 omverifierad bibliografisk länk.",
+      "requests": [
+        {
+          "id": "059952497b31295de8ae213a2764cae55f72191015be73c329698d57a74a6466",
+          "operation": "T-0110-C0235-correction-v1",
+          "affected_revision": "F-P-0239-source_report-missionary-physician@1",
+          "changed_basis": "S-0185@2"
+        },
+        {
+          "id": "ed9b05f95b6b68c31f9fa5aaed7562a6f94c52ada4b23019b26ab9aa14e5aa4f",
+          "operation": "T-0110-C0235-correction-v1",
+          "affected_revision": "F-P-0239-source_report-missionary-physician@1",
+          "changed_basis": "R-8027bcedb8bc1d0397c72d88@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0239-source_report-missionary-physician@1",
+        "subject_id": "P-0239",
+        "property": "source_report",
+        "value_type": "structured",
+        "value_json": "{\"book_read\":false,\"catalogue_title\":\"Called to the heart of Asia: Elisabeth & Ivar Höök — their life and medical work in Yarkand and Kashgar\",\"claim\":\"missionärsläkare från1931, stationerad i Kashgar under revolutionen\",\"other_source\":\"Långareds historik: Elisabeth och Ivar verksamma i Östturkestan på1930-talet\",\"source\":\"Equmeniakyrkans missionshistorik\"}"
+      },
+      "reviewed_caveat": "Läkartiteln är uttryckligen nedgraderad till vad en webbkälla säger. Ingen examen, legitimationsstatus eller faktiskt oläst bokinnehåll skapas."
+    },
+    {
+      "object": "F-P-0240-occupation-nurse-missionary",
+      "current_revision": "F-P-0240-occupation-nurse-missionary@1",
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Den nya LIBRIS-grafen anger fortfarande yrkesetiketterna Missionärer och Sjuksköterskor för Elisabeth. Sakuppgiftens katalogled är därför oförändrat. Fälten1930operationssköterska,1931sjuksköterskan och1946missionär/änkefru återger andra daterade kyrkoboksuppgifter; dessa blir inte omdaterade av auktoritetens exakta birthDate/deathDate. Fält institution_and_degree=null samt okänd arbetsgivare/aktiv tjänst1946 kvarstår. Ingen oberoende evidensröst eller examen tillskrivs katalogen.",
+      "requests": [
+        {
+          "id": "62c4fce4c5bac5c33205c2aa48dd220410f65edcad07c63cfdba1fb1ec648feb",
+          "operation": "T-0110-C0235-correction-v1",
+          "affected_revision": "F-P-0240-occupation-nurse-missionary@1",
+          "changed_basis": "S-0185@2"
+        },
+        {
+          "id": "7c7f558da274498b1d15a53e5ad561f26948234a1f117bf075541efcb7df965c",
+          "operation": "T-0110-C0235-correction-v1",
+          "affected_revision": "F-P-0240-occupation-nurse-missionary@1",
+          "changed_basis": "R-8027bcedb8bc1d0397c72d88@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0240-occupation-nurse-missionary@1",
+        "subject_id": "P-0240",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": "{\"1930\":\"operationssköterska vid Centrallasarettet, Danderyd\",\"1931_husband_book\":\"sjuksköterskan\",\"1946_book\":\"missionär / änkefru\",\"catalogue\":\"Missionärer, Sjuksköterskor\",\"employer_or_active_service_1946_known\":false,\"institution_and_degree\":null}"
+      },
+      "reviewed_caveat": "Kolumntitel/biblioteksauktoritet ger ingen egen läst elevmatrikel eller anställningsperiod."
+    }
+  ]
+}

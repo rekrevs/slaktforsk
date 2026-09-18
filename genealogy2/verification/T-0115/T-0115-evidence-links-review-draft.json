@@ -1,0 +1,35 @@
+{
+  "schema": "T-0115-bounded-evidence-review/1",
+  "status": "Completed bounded evidence review; four revisions applied as T-0115/evidence-link-repairs-v1",
+  "operation_file": "genealogy2/operations/T-0115-evidence-links.json",
+  "operations": 4,
+  "source_basis": {
+    "citation": "genealogy/citations/C-0851-mortorp-C2-johanna-bokelund-1809.md",
+    "citation_sha256": "d7f398ac1520217f656ef2bafb4e44c27a3be7384abcb307199de130b53e850e",
+    "record": "R-f70518686d7a7c98d9d5bb80@1",
+    "basis": "Existing corrected transcription and parent/child observations read; the original image was not newly opened."
+  },
+  "P0082": {
+    "disposition": "no_change_justified",
+    "event": "E-birth-P-0082@1",
+    "date": "1796-09-03",
+    "actual_dependencies": [
+      "O-P-0082-AI9-own-row@1",
+      "O-P-0082-birth1796@1"
+    ],
+    "household_chain": "O-P-0082-AI9-own-row@1 → R-6be04582ec19e700c612f06c@1 (övre Jonasgruppen)",
+    "birth_chain": "O-P-0082-birth1796@1 → R-39caab98a0367ead6bf02d4f@1",
+    "raw_source": "C-0064 T-0163-tillägget anger Jonas egen 3/9 1796 i förs.; native datumhändelsen pekar redan på rätt egna observationer. Ingen lägre hushållsgrupp i dessa dependencies.",
+    "search_key": "KEY-P-0082-3c099ef28de3@1 har textkällhänvisningar men ingen dependency; det är en annan kunskapsobjekttyp än datumhändelsen och ingen särskild rättelse krävs här."
+  },
+  "P0275_P0276_independence": {
+    "scope": "Current payloads for P-0275/P-0276 inspected for C0257/C0353, oberoende, självständig and corroboration wording, including identity syntheses, narrative passages, source keys, themes and contract text. Preserved citation additions read; no original images opened.",
+    "finding": "No active synthetic-independence contradiction found in the bounded current text. P0275 research and PK09 explicitly say five repeated dates are not five independent voices; P0276 research explicitly excludes later repetitions as independent birth records. C0257/C0353 headings identify extracts; later text does not turn them into new independent source chains.",
+    "separate_stale_text": {
+      "object": "PATH-P-0275-KP-05@1",
+      "body": "Faderns dödsdag behöver dock fastställas först ... projektet registrerat1911-11-16.",
+      "current_caveat": "C0260/0460 T0156 avgör faderns död till16januari1911.",
+      "disposition": "Included as fourth revision after bounded root authorization. E-death-P-0276@1 and O-P-0276-C0460-own@1 explicitly give1911-01-16; C-0460 T-0156 addition confirms that the older November reading is historical."
+    }
+  }
+}

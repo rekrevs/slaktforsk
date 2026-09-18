@@ -1,0 +1,54 @@
+{
+  "verify": {
+    "ok": true,
+    "errors": []
+  },
+  "assets": {
+    "ok": true,
+    "errors": []
+  },
+  "source": {
+    "ok": true,
+    "mediaVerified": true,
+    "problems": []
+  },
+  "inventory": {
+    "format": "genealogy2-research-inventory/1",
+    "note": "Registrerade aktuella bedömningar, inte ny sakgranskning eller utförandekö. Identitetsgrind och livsbild är separata. Äldre helkontraktsutfall behåller sitt ursprungliga omfång och sina kvalificeringar.",
+    "active": {
+      "persons": 511,
+      "identityPassed": 199,
+      "treeSupporting": 51,
+      "identityGatePassed": 51,
+      "explicitNativeLifePassed": 0,
+      "legacyContractPassed": 5
+    },
+    "all": {
+      "persons": 536,
+      "identityPassed": 199,
+      "treeSupporting": 51,
+      "identityGatePassed": 51,
+      "explicitNativeLifePassed": 0,
+      "legacyContractPassed": 5
+    },
+    "detail": "inventory --full visar personer och använda bedömningsrevisioner."
+  },
+  "pedigree": {
+    "person_positions": 20,
+    "paths_unchanged": true,
+    "edge_ids_unchanged": true
+  },
+  "tests": {
+    "native": {
+      "passed": 121,
+      "failed": 0,
+      "command": "node --test --test-concurrency=4 genealogy2/test/*.test.mjs"
+    },
+    "legacy": {
+      "passed": 67,
+      "failed": 0
+    },
+    "legacy_validator": "PASS",
+    "legacy_media_manifest": "PASS"
+  }
+}

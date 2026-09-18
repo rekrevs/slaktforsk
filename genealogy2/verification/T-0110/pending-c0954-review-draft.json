@@ -1,0 +1,549 @@
+{
+  "task": "T-0110",
+  "status": "DRAFT read-only individual pending review; root owns resolution/apply",
+  "scratch": "/tmp/T0110-final-review.sqlite",
+  "operation_scope": [
+    "T-0110/source-audit-results-v1"
+  ],
+  "request_count": 21,
+  "object_count": 21,
+  "retained": 21,
+  "requires_revision": 0,
+  "review_basis": {
+    "changed_record": "R-8dbc2cebc0b43d681dbd941d@2",
+    "new_original_reading": "AUDIT-T0110-C-0954@1",
+    "source": "S-0745",
+    "new_evidence": "S162 Kvart.Kettingen N:o36 o37; no intervening heading on163–165. S165 household2123 AxelVilhelm/h.HuldaAmalia/s.AxelIvar; s166 firstrow d.IngridAmalia10Stockholm before2124. Rawbirthyear81 unchanged. No marriageyear or ownexactbirthdate in this extract.",
+    "verified_media": [
+      {
+        "path": "genealogy/media/C-0954-riksarkivet-folk_101023-165.jpg",
+        "sha256": "989dfc0aba1b572bf45947098facba1ded3b3b953f9b443fbf3a6c870cf92990"
+      },
+      {
+        "path": "genealogy2/media/objects/56cdef5a14da61f4f8fa69b8de5389ede1f314370e1ab9c90b8ffad34bffbc77",
+        "sha256": "56cdef5a14da61f4f8fa69b8de5389ede1f314370e1ab9c90b8ffad34bffbc77"
+      },
+      {
+        "path": "genealogy2/media/objects/92db894b3bfc0870a38fe05dab2b5c775a3e0b7c4d1f71c8bd4b1febd84d20ba",
+        "sha256": "92db894b3bfc0870a38fe05dab2b5c775a3e0b7c4d1f71c8bd4b1febd84d20ba"
+      },
+      {
+        "path": "genealogy2/media/objects/4932c09f2fa980ed40b863935624cd52cba6dceb0716a6204d76b0d6878431f7",
+        "sha256": "4932c09f2fa980ed40b863935624cd52cba6dceb0716a6204d76b0d6878431f7"
+      },
+      {
+        "path": "genealogy2/media/objects/c50ab9c59f0a60fac0e0fcecfe1efe107685b4e0d6f1c575cac8731c43c5f68c",
+        "sha256": "c50ab9c59f0a60fac0e0fcecfe1efe107685b4e0d6f1c575cac8731c43c5f68c"
+      }
+    ],
+    "limits": "Index family number and postid were not re-fetched. Historical index/fragment objects retain their explicitly bounded text; current new extraction is separate. No new other-source research or ancestry conclusions."
+  },
+  "objects": [
+    {
+      "object": "E-birth-P-0532",
+      "current_revision": "E-birth-P-0532@1",
+      "version": 1,
+      "kind": "event",
+      "action": "retain",
+      "rationale": "Födelsehändelsen väljer alltjämt ingen exakt uppgift: precision unknown och de tre rapporterade åren1878/1881/1887 hålls isär. Omläsningen bekräftar rååret81 på sidan165; fortsättningsraden och adressrubriken ger inget nytt eget födelsebelägg eller skäl att välja ett år.",
+      "requests": [
+        {
+          "id": "531eda5074c8d375b3ecbb57274da41c1e434a3c2ea0d13cd5479f7057dfc918",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "E-birth-P-0532@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "E-birth-P-0532@1",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1878-02-17 enligt senare poster; 1881 på1910blad och1887 iindex; ingen uppgift vald\",\"precision\":\"unknown\"}",
+        "place_id": null,
+        "place_role": "place_of_event"
+      },
+      "reviewed_caveat": "Säker vuxenidentitet, olöst födelseår och oläst egen födelse."
+    },
+    {
+      "object": "EP-E-birth-P-0532-P-0532-principal",
+      "current_revision": "EP-E-birth-P-0532-P-0532-principal@1",
+      "version": 1,
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet binder samma vuxenperson P0532 till hans abstrakta födelsehändelse utan att ange datum eller födelsepost. Händelsens okända precision och konflikt1878/1881/1887 består; Ingridrad och Kettingenrubrik ändrar inte huvudpersonens identitet.",
+      "requests": [
+        {
+          "id": "c7aa1389611488ef358275a90a0c90af3c32a59de69a9c1d98b5d6d2ddeb8db6",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "EP-E-birth-P-0532-P-0532-principal@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-birth-P-0532-P-0532-principal@1",
+        "event_id": "E-birth-P-0532",
+        "person_id": "P-0532",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "reviewed_caveat": "Säker vuxenidentitet, olöst födelseår och oläst egen födelse."
+    },
+    {
+      "object": "F-P-0016-household_membership-Kungsholm1910",
+      "current_revision": "F-P-0016-household_membership-Kungsholm1910@1",
+      "version": 1,
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Huldas egen roll h., giftmarkeringen och hennes plats i Ekholmhushållet bekräftas på sidan165. Axel Ivar står där som s.; Ingrid står på fortsättningssidan166 som d. Adressens Kettingen36/37 bekräftas nu på sidan162. Indexmetadata family1 återanvänds från tidigare dokumentation och påstås inte nyverifierad; row49/page165 avser Huldas egen rad, inte att alla barn står på165. Inget exakt vigsel- eller flyttdatum härleds ur utdraget.",
+      "requests": [
+        {
+          "id": "9e482240ce753cded2da1eb550b49f9acfb0277a40ebbeee52ff48de28e80174",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "F-P-0016-household_membership-Kungsholm1910@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0016-household_membership-Kungsholm1910@1",
+        "subject_id": "P-0016",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"children\":[\"P-0533\",\"P-0534\"],\"civil_status\":\"gift\",\"family\":1,\"own_role\":\"h.\",\"page\":165,\"place\":\"Kungsholms församling, rote 23, Kettingen N:o 36 och 37\",\"row\":49,\"spouse\":\"P-0532\"}"
+      },
+      "reviewed_caveat": "Mantalsutdragets eget ankare; exakta vigsel- och flyttdatum kommer från andra poster."
+    },
+    {
+      "object": "F-P-0532-birth_assessment-three-years",
+      "current_revision": "F-P-0532-birth_assessment-three-years@1",
+      "version": 1,
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Konfliktbedömningen redovisar uttryckligen census_original_year1881, index1887 och rapporterat1878-02-17 utan chosen_birth. Omläsningen ger samma81 och Åsbo. Den nya dotterraden avgör inte faderns födelseår eller föräldrar; own_birth_record_unread och beroendeförbehållet kvarstår.",
+      "requests": [
+        {
+          "id": "58bfeced4aab90883901d39cd8982579235bc994e342a5e4a6dbca50f91673e7",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "F-P-0532-birth_assessment-three-years@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0532-birth_assessment-three-years@1",
+        "subject_id": "P-0532",
+        "property": "birth_assessment",
+        "value_type": "structured",
+        "value_json": "{\"Katarina_not_birthplace\":true,\"census_index_year\":1887,\"census_original_year\":1881,\"chosen_birth\":null,\"no_parents_known\":true,\"old_resolution_revoked\":true,\"other_search_years\":[1881,1887],\"own_birth_record_unread\":true,\"registers_may_share_information_source\":true,\"reported_date\":\"1878-02-17\",\"reported_parish\":\"Åsbo, Östergötlands län\",\"work_key\":\"1878-02-17 Åsbo\"}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "F-P-0532-occupation-locomotive-fireman",
+      "current_revision": "F-P-0532-occupation-locomotive-fireman@1",
+      "version": 1,
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Yrkesankaret1910 är exakt Lokomotiveld., vilket står på Axel Vilhelms egen rad. Nya sidor162–164/166 ändrar varken detta eller andra källors1903/1910–1913ankare. Arbetsgivare, SJ, obruten anställning och examen lämnas uttryckligen obestyrkta.",
+      "requests": [
+        {
+          "id": "97b4b69078ee46154a59714af122b0a60e969a3c53cc617a098d02bba72ed59b",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "F-P-0532-occupation-locomotive-fireman@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0532-occupation-locomotive-fireman@1",
+        "subject_id": "P-0532",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": "{\"SJ_not_proven\":true,\"anchors\":[{\"literals\":[\"Lokomotiveldaren\",\"eldare\"],\"year\":1903},{\"literal\":\"Lokomotiveld.\",\"year\":1910},{\"literal\":\"Lokeldare\",\"period\":\"1910–1913\"}],\"continuous_ten_years_work_not_proven\":true,\"employer_unknown\":true,\"no_school_degree_proven\":true,\"own_education_only_knowledge_mark\":\"godkänd\"}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "F-P-0533-family_context-birth-household",
+      "current_revision": "F-P-0533-family_context-birth-household@1",
+      "version": 1,
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Axel Ivar står fortfarande som s. efter Axel Vilhelm och h.Hulda. Ingrid på nästa sida bekräftar syskonkontexten; det är ingen ny identitet. Uppgifterna om faderns1913död, senare halvsyskon och Majs1920not är andra källors separata ankare och påverkas inte av denna komplettering. Ingen fader överförs till halvsyskon.",
+      "requests": [
+        {
+          "id": "faf4f8f5e419454cc07b8784006d4dfb201e3b640b1c57ff8723fdc6742f77d7",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "F-P-0533-family_context-birth-household@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0533-family_context-birth-household@1",
+        "subject_id": "P-0533",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"Maj_birth_place\":\"Hyltinge\",\"Maj_father\":\"P-0015\",\"Maj_note_literal\":\"Erkännande inför pastor\",\"Maj_reported_birth\":\"1920-05-11\",\"Maj_status_literal\":\"d. u.ä.\",\"death_not_Stockholm_from_timeline\":true,\"father\":\"P-0532\",\"father_death\":\"1913-03-11\",\"father_death_place\":\"Helgesta\",\"father_not_propagated_to_half_sisters\":true,\"maternal_half_sisters\":[\"P-0007\",\"P-0017\"],\"mother\":\"P-0016\",\"own_parents_spouse_relation_source_report_not_DNA\":true,\"sibling\":\"P-0534\"}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "F-P-0533-residence-recorded-anchors",
+      "current_revision": "F-P-0533-residence-recorded-anchors@1",
+      "version": 1,
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Axel Ivars censusankare Kungsholm rote23, Kettingen36/37 bekräftas i hushållsraden och den nu säkrade rubrikkedjan162–165. Familj1 är bevarad indexmetadata, inte en nyskapad numrering från bildens2123. De senare1913/1933/1936/1949ortspunkterna och uttryckliga gränserna för fysiska flyttar är opåverkade.",
+      "requests": [
+        {
+          "id": "dca60b6d877ccccc53127bb24f3b8734627b5eb9d8913fd9da551b4d649f7624",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "F-P-0533-residence-recorded-anchors@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0533-residence-recorded-anchors@1",
+        "subject_id": "P-0533",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"Hyltinge_book_context\":\"Banvaktstugan70, AIIa5 (1918–1927), egna rader i moderns hushåll\",\"Lyckedal1933_from1041\":true,\"adult_first_folio\":932,\"adult_folio497\":\"Hjärpen35C, Hagagatan8, Flen\",\"adult_folio83\":\"Hjärpen2, Hagagatan7, Flen\",\"arrival1949_from976_reading_reserved\":true,\"census1910\":\"Kungsholm rote23, Kettingen36/37, familj1\",\"departure1913\":{\"date\":\"1913-09-12\",\"to\":\"Helgesta\",\"with_mother_and_sibling\":true},\"departure1936_to687\":\"1936-12-08\",\"new_address_not_automatically_physical_move\":true,\"next_reference\":\"nb96\",\"next_transfer_year_unknown\":true}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "F-P-0534-family_context-birth-household",
+      "current_revision": "F-P-0534-family_context-birth-household@1",
+      "version": 1,
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Ingrids d.IngridAmalia10Stockholm i fortsättningen till hushåll2123 ger direkt bildstöd åt redan redovisad familjekontext. Axel Ivar förblir hennes syskon i samma grupp. Senare fadersdöd och halvsyskonuppgifter har egna ankare; den nya bildraden ger varken biologiskt bevis eller ny fader till halvsyskon.",
+      "requests": [
+        {
+          "id": "738542886620abb37b117b52f8088891d063dad8b2096295bd886db9ae0d8ff5",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "F-P-0534-family_context-birth-household@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0534-family_context-birth-household@1",
+        "subject_id": "P-0534",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"Maj_birth_place\":\"Hyltinge\",\"Maj_father\":\"P-0015\",\"Maj_note_literal\":\"Erkännande inför pastor\",\"Maj_reported_birth\":\"1920-05-11\",\"Maj_status_literal\":\"d. u.ä.\",\"death_not_Stockholm_from_timeline\":true,\"father\":\"P-0532\",\"father_death\":\"1913-03-11\",\"father_death_place\":\"Helgesta\",\"father_not_propagated_to_half_sisters\":true,\"maternal_half_sisters\":[\"P-0007\",\"P-0017\"],\"mother\":\"P-0016\",\"own_parents_spouse_relation_source_report_not_DNA\":true,\"sibling\":\"P-0533\"}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "ID-P-0532-C0954-original",
+      "current_revision": "ID-P-0532-C0954-original@1",
+      "version": 1,
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet avser Ekholm Axel Vilhelm med yrketLokomotiveld. och familjen, inte vilket av födelseåren som ska väljas. Namn, yrke och samma familjerader bekräftas; caveat skiljer fortsatt original81 från index1887. Ingen konkurrerande vuxenperson införs av fortsättningssidan.",
+      "requests": [
+        {
+          "id": "fcf5f1a8ec9e8c0a99e579b419181c34874aa04d04d1f26b36a825bf6ed81d50",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "ID-P-0532-C0954-original@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0532-C0954-original@1",
+        "mention_id": "M-P-0532-C0954-original",
+        "person_id": "P-0532",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Originalbladets81 hålls skilt från register1887."
+    },
+    {
+      "object": "ID-P-0533-C0954-own",
+      "current_revision": "ID-P-0533-C0954-own@1",
+      "version": 1,
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identiteten avser Axel Ivars egen s.AxelIvar07Stockholm-rad, som är oförändrad. Caveat saknat efternamn gäller hans egen namnrad; meningen om Ingrids saknade roll är uttryckligen begränsad till den äldre återgivna registerraden. Den är inget påstående att originalets nu lästa d.-roll saknas. Behåll indexgränsen; använd AUDIT-T0110-C-0954@1 för den nya originalavläsningen.",
+      "requests": [
+        {
+          "id": "d1c11c3defad345846fda394f1d0e4dc29e0ce5c764d8996843dc9379c1fe5bc",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "ID-P-0533-C0954-own@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0533-C0954-own@1",
+        "mention_id": "M-P-0533-C0954-own",
+        "person_id": "P-0533",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Egen namnrad saknar efternamn. Ingrids roll saknas i återgiven registerrad och fylls inte med redaktionellt dotter."
+    },
+    {
+      "object": "M-P-0532-C0954-original",
+      "current_revision": "M-P-0532-C0954-original@1",
+      "version": 1,
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandets namn Ekholm, Axel Vilhelm och råroll Lokomotiveld. återfinns i samma post2123 på sidan165. Den utvidgade postens162–166material flyttar inte namnet till en annan person eller rad.",
+      "requests": [
+        {
+          "id": "03624834ba5ab73879f9f83168a99e1646eacdfe708272c517009d1d33538813",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "M-P-0532-C0954-original@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0532-C0954-original@1",
+        "record_id": "R-8dbc2cebc0b43d681dbd941d",
+        "name_literal": "Ekholm, Axel Vilhelm",
+        "role_literal": "Lokomotiveld."
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0533-C0954-own",
+      "current_revision": "M-P-0533-C0954-own@1",
+      "version": 1,
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Axel Ivar med råroll s. är exakt den sista familjeraden på sidan165. Att systerns d.-rad återfanns på166 ändrar inte hans namnform, avsaknad av eget efternamn eller roll.",
+      "requests": [
+        {
+          "id": "b3eac3711d0391f25f3cfb7883c847baf3ca68e2a266ab04b86a159867eb36ab",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "M-P-0533-C0954-own@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0533-C0954-own@1",
+        "record_id": "R-8dbc2cebc0b43d681dbd941d",
+        "name_literal": "Axel Ivar",
+        "role_literal": "s."
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "O-P-0016-husband-birth1910-original",
+      "current_revision": "O-P-0016-husband-birth1910-original@1",
+      "version": 1,
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationen bevarar makens rapporterade1881 och Åsbo som konfliktuppgift från själva mantalsutdraget. År81 och Åsbo står kvar vid omläsningen. Nytt adress- och barnmaterial motiverar ingen rösträkning mot1878 eller1887.",
+      "requests": [
+        {
+          "id": "f16ba31eb28de27030feb1f0f684b5d92fac79f6e9d77a7bb9d29642a3244ad6",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "O-P-0016-husband-birth1910-original@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0016-husband-birth1910-original@1",
+        "record_id": "R-8dbc2cebc0b43d681dbd941d",
+        "mention_id": null,
+        "property": "spouse_birth_year",
+        "value_literal": "1881",
+        "value_json": "{\"person\":\"P-0532\",\"place\":\"Åsbo, Östergötlands län\",\"year\":1881}"
+      },
+      "reviewed_caveat": "Avvikelse på själva mantalsutdraget, ingen avvisning genom rösträkning."
+    },
+    {
+      "object": "O-P-0532-C0954-original",
+      "current_revision": "O-P-0532-C0954-original@1",
+      "version": 1,
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationens råår81, råortÅsbo Östergötl., post2123 och år1910 är oförändrade i originalet. Kettingen36/37 har nu dessutom direkt rubrikstöd. family1 är äldre indexmetadata, vars omhämtning inte ingick; den nya posten säger detta explicit. Inga råvärden rättas eller blandas med index1887.",
+      "requests": [
+        {
+          "id": "9745a809b378680d421a20ce9b13e554cbd0643dfd4af84bff3dcb7f42f6bae6",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "O-P-0532-C0954-original@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0532-C0954-original@1",
+        "record_id": "R-8dbc2cebc0b43d681dbd941d",
+        "mention_id": "M-P-0532-C0954-original",
+        "property": "person_fields",
+        "value_literal": "{\"birth_year_literal\":\"81\",\"birth_place_literal\":\"Åsbo Östergötl.\",\"entry\":2123,\"family\":1,\"year\":1910,\"place\":\"Kungsholm rote23, Kettingen36/37\"}",
+        "value_json": "{\"birth_place_literal\":\"Åsbo Östergötl.\",\"birth_year_literal\":\"81\",\"entry\":2123,\"family\":1,\"place\":\"Kungsholm rote23, Kettingen36/37\",\"year\":1910}"
+      },
+      "reviewed_caveat": "Originalbladets81 hålls skilt från register1887."
+    },
+    {
+      "object": "O-P-0533-C0954-own",
+      "current_revision": "O-P-0533-C0954-own@1",
+      "version": 1,
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Axel Ivars egna1907/Stockholm och avsaknad av efternamn på hans egen rad bekräftas. Ekholm är hushållsnamn och family1 bevarad indexmetadata. Caveat om Ingrids frånvarande roll gäller uttryckligen den äldre återgivna registerraden och gör inte hennes nu lästa originalroll d. till redaktionell text. Observationen innehåller ingen Ingrid-råroll att korrigera.",
+      "requests": [
+        {
+          "id": "5e73d40730b7bb0b8fe33a6afdab6eaf4d7a0a6150dc737b531dc70ea91a1f45",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "O-P-0533-C0954-own@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0533-C0954-own@1",
+        "record_id": "R-8dbc2cebc0b43d681dbd941d",
+        "mention_id": "M-P-0533-C0954-own",
+        "property": "person_fields",
+        "value_literal": "{\"birth_year\":1907,\"birth_place_literal\":\"Stockholm\",\"family\":1,\"household_surname\":\"Ekholm\",\"own_surname_not_written\":true}",
+        "value_json": "{\"birth_place_literal\":\"Stockholm\",\"birth_year\":1907,\"family\":1,\"household_surname\":\"Ekholm\",\"own_surname_not_written\":true}"
+      },
+      "reviewed_caveat": "Egen namnrad saknar efternamn. Ingrids roll saknas i återgiven registerrad och fylls inte med redaktionellt dotter."
+    },
+    {
+      "object": "READ-79cf41424bbd732cdf9d70bb",
+      "current_revision": "READ-79cf41424bbd732cdf9d70bb@1",
+      "version": 1,
+      "kind": "assessment",
+      "action": "retain",
+      "rationale": "Bedömningens criteria är legacy_record_boundary och den dokumenterar den äldre återgivna originaltextens avgränsning. Den äldre fragmenttexten omfattar fortfarande endast Axel, Hulda och Axel Ivar; ett indexfält ska fortsatt inte smygas in i den som bildavskrift. Nya AUDIT-T0110-C-0954@1 dokumenterar i stället d.Ingrid på166 och adressrubriken162. Kungsholm som hemförsamling, oläst egen Matteusfödelse och beroendet mantalsutdrag/index är oförändrade. Behåll läshistoriken med explicit historisk omfattning, inte som dagens fullständiga extraktion.",
+      "requests": [
+        {
+          "id": "0349f10e31a728e15e8f84870b2479097250155056bbf828def6571563fb2e38",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "READ-79cf41424bbd732cdf9d70bb@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "READ-79cf41424bbd732cdf9d70bb@1",
+        "subject_id": "R-8dbc2cebc0b43d681dbd941d",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "C-0954: Index och återgiven originaltext hålls skilda. Äldre försök att rösta bort födelseårskonflikten är återtaget i C0955. Kungsholm är hemförsamling vid censusdagen; Matteus födelsesökning för Ingrid kommer från senare Rotemanpost och har inte genomförts här.\nUtdrag ur mantalsbok; index och blad räknas inte som oberoende informationskällor."
+      },
+      "reviewed_caveat": "Originalfragmentets år81 för Axel Vilhelm skiljer sig från index1887 och senare arbetsnyckel1878. Här återges bara Axel, Hulda och Axel Ivar. Ingrids indexuppgift får inte fyllas in som avskriven bildtext. Barnets ålder räknad från senare födelsedatum är en projektslutledning."
+    },
+    {
+      "object": "REL-parent-P-0016-P-0533",
+      "current_revision": "REL-parent-P-0016-P-0533@1",
+      "version": 1,
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Modersrelationen P0016→P0533 har natur recorded_parent och okända tidsgränser. Huldas h.-rad och Axel Ivars s.-rad i samma familj står kvar. Utvidgningen med systern och kvartersrubriken motsäger inte relationen eller dess övriga belägg och förvandlar den inte till genetisk utsaga.",
+      "requests": [
+        {
+          "id": "c3cd2d7cc13e9c15ef1c0996ea882bd455067a7a025cd1110e595f39cbbcb91f",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "REL-parent-P-0016-P-0533@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0016-P-0533@1",
+        "from_person": "P-0016",
+        "to_person": "P-0533",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "REL-parent-P-0016-P-0534",
+      "current_revision": "REL-parent-P-0016-P-0534@1",
+      "version": 1,
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Modersrelationen P0016→P0534 har redan natur recorded_parent och okända tidsgränser. Sidan166 bekräftar att d.IngridAmalia hör till samma familj med h.Hulda på165. Detta stödjer det tidigare källangivna sammanhanget utan att ge exakt relationsstart eller genetiskt bevis.",
+      "requests": [
+        {
+          "id": "19f81faa7fa02046be7d97cc1414a4388705bed04c66235d118bddba087bb258",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "REL-parent-P-0016-P-0534@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0016-P-0534@1",
+        "from_person": "P-0016",
+        "to_person": "P-0534",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "REL-parent-P-0532-P-0533",
+      "current_revision": "REL-parent-P-0532-P-0533@1",
+      "version": 1,
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Fadersrelationen P0532→P0533 är recorded_parent. Axel Vilhelm och s.AxelIvar står fortfarande i samma post2123; faderns födelseårskonflikt gäller hans datum, inte valet av vuxen i denna familjerad. Inget exakt relationsdatum eller biologisk natur läggs till.",
+      "requests": [
+        {
+          "id": "1475fae5414f4b2c13b06380f70d1548f7b3bb254d3f8f6f151d5286538df0b3",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "REL-parent-P-0532-P-0533@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0532-P-0533@1",
+        "from_person": "P-0532",
+        "to_person": "P-0533",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Källangiven relation, ingen ospecificerad biologisk art eller tidsgräns fylls i."
+    },
+    {
+      "object": "REL-parent-P-0532-P-0534",
+      "current_revision": "REL-parent-P-0532-P-0534@1",
+      "version": 1,
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Fadersrelationen P0532→P0534 är recorded_parent. Fortsättningsradens d.IngridAmalia10Stockholm tillhör samma post2123, före nästa familj2124. Den stärker den dokumenterade familjegruppen; födelseårskonflikten hos Axel Vilhelm och frånvaron av biologiskt bevis består.",
+      "requests": [
+        {
+          "id": "6e331fd5f79884f530bc69d2045849ee894838c7686d05eace7db83d86422718",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "REL-parent-P-0532-P-0534@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0532-P-0534@1",
+        "from_person": "P-0532",
+        "to_person": "P-0534",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Källangiven relation, ingen ospecificerad biologisk art eller tidsgräns fylls i."
+    },
+    {
+      "object": "TR-7c006d0f9eb3030a39cf0faf",
+      "current_revision": "TR-7c006d0f9eb3030a39cf0faf@1",
+      "version": 1,
+      "kind": "transcription",
+      "action": "retain",
+      "rationale": "Avskriften är uttryckligen ordagrant bevarad äldre avskrift/sammanfattning och dess text återger tre rader från sidan165. Alla tre namn-, yrkes-, års- och ortsuppgifter bekräftas. Att denna historiska fragmenttext inte innehåller Ingrid är fortsatt sant; den nya fullrelevanta extraktionen ligger i AUDIT-T0110-C-0954@1. Ändra därför inte fragmenttexten eller dess historiska index/bild-gräns; den får inte presenteras som full162–166avskrift.",
+      "requests": [
+        {
+          "id": "2d6c4747cbe0881d23fa3a4f1848fe4b0b26cb2872487c99375a2947f6f9a635",
+          "operation": "T-0110/source-audit-results-v1",
+          "affected_revision": "TR-7c006d0f9eb3030a39cf0faf@1",
+          "changed_basis": "R-8dbc2cebc0b43d681dbd941d@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "TR-7c006d0f9eb3030a39cf0faf@1",
+        "record_id": "R-8dbc2cebc0b43d681dbd941d",
+        "text": "> 2123 | **Ekholm, Axel Vilhelm** | Lokomotiveld. | **81** | Åsbo Östergötl.\n> · h. **Hulda Amalia** | 77 | Gryt Södm. · s. **Axel Ivar** | 07 | Stockholm\n",
+        "reading_note": "Index och återgiven originaltext hålls skilda. Äldre försök att rösta bort födelseårskonflikten är återtaget i C0955. Kungsholm är hemförsamling vid censusdagen; Matteus födelsesökning för Ingrid kommer från senare Rotemanpost och har inte genomförts här.\nOriginalfragmentets år81 för Axel Vilhelm skiljer sig från index1887 och senare arbetsnyckel1878. Här återges bara Axel, Hulda och Axel Ivar. Ingrids indexuppgift får inte fyllas in som avskriven bildtext. Barnets ålder räknad från senare födelsedatum är en projektslutledning."
+      },
+      "reviewed_caveat": "Originalfragmentets år81 för Axel Vilhelm skiljer sig från index1887 och senare arbetsnyckel1878. Här återges bara Axel, Hulda och Axel Ivar. Ingrids indexuppgift får inte fyllas in som avskriven bildtext. Barnets ålder räknad från senare födelsedatum är en projektslutledning."
+    }
+  ]
+}

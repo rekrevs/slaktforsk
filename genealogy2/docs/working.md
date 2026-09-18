@@ -59,7 +59,9 @@ bevaras; tomfält eller utebliven träff får aldrig bli en obegränsad nolla.
 
 Nya mediefiler införs med `stage-media` och knyts till rätt post. Ange
 proveniens och spara full relevant utvinning från varje post som faktiskt
-öppnats. Versionsbind källposter, omnämnanden och händelser med `evidence`
+öppnats. För tabellposter anges relevanta tryckta kolumner och om varje
+berört fält är läst, tomt, osäkert eller ännu oläst; avsaknad i avskriften
+får inte tolkas som tom originalcell. Versionsbind källposter, omnämnanden och händelser med `evidence`
 eller `bindings`. Beställningar, publicering och annan extern åtgärd kräver
 sitt vanliga mandat. Följ [Riksarkivets åtkomstordning](../../docs/research/riksarkivet-access.md)
 och [mediebevarandet](../../MEDIA-PRESERVATION.md).
@@ -89,6 +91,25 @@ bindas till det nya underlaget, eller stå kvar efter en uttrycklig
 individuell motivering. `resolve` anger det exakta gransknings-id:t och
 skälet; en ny revision stänger inte automatiskt en väntande omprövning.
 Om källposten ändras behövs även prövning av dess avskrifter och omnämnanden.
+
+Nya nativeoperationer genom CLI får `dependencyReviewVersion: 2` i den
+journalförda begäran. Om en slutsats behållit ett äldre versionsbundet
+underlag efter en tidigare prövning ska även nästa ändring av underlaget
+utlösa en ny prövning. Policyn följer direkta och transitiva beroenden men
+flaggar inte en aktuell revision som verkligen frikopplats från underlaget.
+Äldre oversionerade journaloperationer behåller policy 1 så att historiska
+requests, beslut och hashvärden kan återspelas exakt. Skriv inte om gamla
+operationsfiler för att uppgradera policyn. Bibliotekets `applyOperation`
+behåller av kompatibilitetsskäl standarden 1; nya vanliga forskningsbatcher
+använder CLI:s `apply`.
+
+Noll väntande omprövningar bevisar inte fullständig saklig konsolidering.
+Sök också efter rättade uppgifter och relevanta namn/datum i berörda
+aktuella fakta, berättelser, frågor, söknycklar och källvägar. Migrerad text
+kan sakna explicita sakberoenden. Skilj faktiskt stöd från proveniens,
+historiska formuleringar och möjliga textkopior; en C-id-träff är inte i sig
+belägg. Dokumentera följdbeslut och kvarvarande begränsningar innan Wotan
+sätts DONE. Den avgränsade förbättringen av detta sökstöd ägs av T-0672.
 
 Nya bedömningar använder det dokumenterade ordförrådet för identitetsnivå,
 trädverkan och livsbild. Varje utfall behöver sakliga skäl och belägg;

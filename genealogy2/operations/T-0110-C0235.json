@@ -1,0 +1,786 @@
+{
+  "id": "T-0110-C0235-correction-v1",
+  "actor": "Codex",
+  "reason": "T-0110 AC 2–4: Rättar C-0235:s aktuella LIBRIS-omfång mot bevarad full JSON-LD: exakta rapporterade datum finns; namngivna konsulterade källor utesluter generell oberoendeutsaga. Bevarar tidigare bibliografiska hänvisningar med tydlig omverifieringsgräns. Ingen automatisk ny personhändelse, identitet, läkarexamen eller granskningsstatus införs. Förberett utkast för rootens granskning och scratch-prov, ej applicerat.",
+  "media": [
+    {
+      "id": "M-55f98d1ac72b5342b9164ee14c2dcebee5232724081c20b1da1dcda08163afbb",
+      "storagePath": "genealogy2/media/objects/55f98d1ac72b5342b9164ee14c2dcebee5232724081c20b1da1dcda08163afbb",
+      "sha256": "55f98d1ac72b5342b9164ee14c2dcebee5232724081c20b1da1dcda08163afbb",
+      "bytes": 7411,
+      "originalName": "C-0235-libris.jsonld",
+      "provenance": "T-0110 originalprov: KB LIBRIS auktoritet 410645, https://libris.kb.se/mkz2bcf519bmjhj/data.jsonld, hämtad 2026-09-18; komplett digital auktoritetspost, beroende av angivna consulted sources."
+    }
+  ],
+  "changes": [
+    {
+      "id": "S-0185",
+      "kind": "source",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Källbeskrivningen rättar generell oberoendeutsaga och beskriver uttryckligen den 2026-09-18 bevarade fulla auktoritetsgrafen. Tidigare revision och importursprung bevaras.",
+      "caveat": "Sekundär auktoritet med namngivna konsulterade källor. Katalog- och institutionsauktoritet innebär inte oberoende från dess underlag. Ingen läsning av biografiernas innehåll.",
+      "data": {
+        "title": "S-0185: LIBRIS — auktoritetspost för Elisabeth Höök 1902–1991",
+        "archive_reference": null,
+        "source_class": null,
+        "description": "# S-0185: LIBRIS — auktoritetspost för Elisabeth Höök 1902–1991\n\nUtgivare Kungliga biblioteket, LIBRIS. Kontrollnummer 410645; permanent ID mkz2bcf519bmjhj; https://libris.kb.se/mkz2bcf519bmjhj. Äldre läsning 2026-08-22; T-0110 hämtar och bevarar komplett JSON-LD från https://libris.kb.se/mkz2bcf519bmjhj/data.jsonld 2026-09-18.\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa.\n\nPersonposten anger Elisabeth Höök, lifeSpan 1902-1991, Sverige som nationalitet samt de två yrkesetiketterna. Inga föräldrar eller födelseort anges i personobjektet. Record skapad 2018-04-10T13:40:44+02:00, modifierad 2018-04-10T13:41:09+02:00; generationDate 2025-03-06T17:52:36.939+01:00. Dessa metadata daterar katalogposten, inte personens händelser.\n\nDet tidigare påståendet att LIBRIS inte anger exakta datum är rättat. De maskinläsbara rådatumen normaliseras som rapporterade 1902-04-09 och 1991-09-18 utan ny händelse- eller identitetsuppgradering. HTML-vyn kunde inte omverifieras vid detta stickprov; ingen boktext öppnades. Hela payloaden inklusive språk-/biblioteks-/ordlistekontext bevaras som medium med SHA-256 55f98d1ac72b5342b9164ee14c2dcebee5232724081c20b1da1dcda08163afbb."
+      },
+      "origins": [
+        {
+          "unit": "deecdb4b7b6c480c57c18ed446447fa5a9f7fcf7d71c8c740fa06831419ba9b5",
+          "coverage": "complete",
+          "note": "Återanvändning av äldre forskningsunderlag; inte ett nytt oberoende belägg."
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "id": "R-8027bcedb8bc1d0397c72d88",
+      "kind": "record",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Den aktuella auktoritetspostens tidigare caveat ”Inga exakta datum” är fel mot bevarad rågraf. Full ny representation knyts till samma auktoritetspost med daterad hämtning. Tidigare revision och importursprung bevaras.",
+      "caveat": "Exakta rapporterade rådatum finns: 19020409 och 19910918. Inga föräldrar eller födelseort i personobjektet. Ivar och Called to the heart of Asia finns inte i den hämtade grafen; detta är en verifieringsgräns och avvisar inte tidigare dokumenterad bibliografisk hänvisning. Ingen ny personhändelse skapas.",
+      "data": {
+        "source_id": "S-0185",
+        "record_type": "authority_record",
+        "locator": "KB LIBRIS auktoritet 410645 / mkz2bcf519bmjhj, https://libris.kb.se/mkz2bcf519bmjhj/data.jsonld, komplett JSON-LD hämtad 2026-09-18; huvudpost och Person #it",
+        "dependence_note": "sourceConsulted: Sveriges dödbok 1901-2009; Kvinnan som red över Himalaya, 2017. Sekundär sammanställning, inte oberoende från dessa. Konsulterade källor och tidigare biografihänvisningar är inte lästa som egna innehållsposter här."
+      },
+      "origins": [
+        {
+          "unit": "165b7b6914f35a770eabc5a151b68e1b870b35edc49e2a391a82bcc7cfb574ce",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "a1834550fef9231e84496c456f3ef0b3841617d575e20ffe475ac89f720d48d0",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "S-0185",
+          "version": 2,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ],
+      "assets": [],
+      "media": [
+        {
+          "id": "M-55f98d1ac72b5342b9164ee14c2dcebee5232724081c20b1da1dcda08163afbb",
+          "region": "hel digital JSON-LD-payload, 2026-09-18"
+        }
+      ],
+      "bindings": {
+        "S-0185": 2
+      }
+    },
+    {
+      "id": "TR-T0110-C0235-LIBRIS",
+      "kind": "transcription",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0110 AC 2 och 4: Bevarar hela relevanta huvudposten och Person-objektet exakt som hämtade; full utökad JSON-LD finns i media.",
+      "caveat": "Digital auktoritetstext, sekundärt till konsulterade källor. Datum i Record avser kataloghantering.",
+      "data": {
+        "record_id": "R-8027bcedb8bc1d0397c72d88",
+        "text": "{\n  \"Record\": {\n    \"@id\": \"https://libris.kb.se/mkz2bcf519bmjhj\",\n    \"@type\": \"Record\",\n    \"sameAs\": [\n      {\n        \"@id\": \"http://libris.kb.se/auth/410645\"\n      }\n    ],\n    \"created\": \"2018-04-10T13:40:44+02:00\",\n    \"modified\": \"2018-04-10T13:41:09+02:00\",\n    \"mainEntity\": {\n      \"@id\": \"https://libris.kb.se/mkz2bcf519bmjhj#it\"\n    },\n    \"recordStatus\": \"marc:CorrectedOrRevised\",\n    \"controlNumber\": \"410645\",\n    \"generationDate\": \"2025-03-06T17:52:36.939+01:00\",\n    \"cataloguersNote\": [\n      \"2018-04-10 S/NB/parobe\"\n    ],\n    \"sourceConsulted\": [\n      {\n        \"@type\": \"SourceData\",\n        \"label\": \"Sveriges dödbok 1901-2009\"\n      },\n      {\n        \"@type\": \"SourceData\",\n        \"label\": \"Kvinnan som red över Himalaya, 2017\"\n      }\n    ],\n    \"generationProcess\": {\n      \"@id\": \"https://libris.kb.se/sys/globalchanges/cleanups/2025/02/lxl-3651-link-rda-descriptionconventions.groovy\"\n    },\n    \"marc:romanization\": {\n      \"@id\": \"https://id.kb.se/marc/NationalStandard\"\n    },\n    \"descriptionCreator\": {\n      \"@id\": \"https://libris.kb.se/library/S\"\n    },\n    \"descriptionLanguage\": {\n      \"@id\": \"https://id.kb.se/language/swe\"\n    },\n    \"descriptionConventions\": [\n      {\n        \"code\": \"z\"\n      },\n      {\n        \"@id\": \"https://id.kb.se/term/enum/Rda\"\n      }\n    ]\n  },\n  \"Person\": {\n    \"@id\": \"https://libris.kb.se/mkz2bcf519bmjhj#it\",\n    \"@type\": \"Person\",\n    \"sameAs\": [\n      {\n        \"@id\": \"http://libris.kb.se/resource/auth/410645\"\n      }\n    ],\n    \"lifeSpan\": \"1902-1991\",\n    \"birthDate\": \"19020409\",\n    \"deathDate\": \"19910918\",\n    \"givenName\": \"Elisabeth\",\n    \"familyName\": \"Höök\",\n    \"nationality\": [\n      {\n        \"@id\": \"https://id.kb.se/nationality/e-sw---\"\n      }\n    ],\n    \"hasOccupation\": [\n      {\n        \"@type\": \"Occupation\",\n        \"label\": [\n          \"Missionärer\"\n        ],\n        \"source\": {\n          \"code\": \"sao\",\n          \"@type\": \"Source\"\n        }\n      },\n      {\n        \"@type\": \"Occupation\",\n        \"label\": [\n          \"Sjuksköterskor\"\n        ],\n        \"source\": {\n          \"code\": \"sao\",\n          \"@type\": \"Source\"\n        }\n      }\n    ]\n  }\n}",
+        "reading_note": "Hämtad 2026-09-18 från exakt KB LIBRIS data.jsonld-URL. Ingen OCR. Hela payloaden inklusive utökad resurskontext bevaras med SHA-256 55f98d1ac72b5342b9164ee14c2dcebee5232724081c20b1da1dcda08163afbb. Inga boktexter öppnade."
+      },
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "derived_from",
+          "note": "Exakt revision av den digitala auktoritetspostens bevarade payload."
+        }
+      ],
+      "bindings": {
+        "R-8027bcedb8bc1d0397c72d88": 2
+      }
+    },
+    {
+      "id": "M-T0110-C0235-Elisabeth-Hook",
+      "kind": "mention",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0110: Namn i LIBRIS Person #it återges som källbundet omnämnande. Inget nytt identitetsbeslut skapas.",
+      "caveat": "Personidentitet med P-0240 prövas redan genom andra poster; nytt omnämnande medför inget automatiskt godkännande.",
+      "data": {
+        "record_id": "R-8027bcedb8bc1d0397c72d88",
+        "name_literal": "Elisabeth Höök",
+        "role_literal": "Person; yrkesetiketter Missionärer och Sjuksköterskor"
+      },
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "derived_from",
+          "note": "Källbundet omnämnande i huvudpersonobjektet."
+        }
+      ],
+      "bindings": {
+        "R-8027bcedb8bc1d0397c72d88": 2
+      }
+    },
+    {
+      "id": "O-T0110-C0235-authority-fields",
+      "kind": "observation",
+      "expectedVersion": null,
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0110: Exakta datum och yrken bevaras som rapporterade auktoritetsfält med explicit källberoende, inte nya accepterade personhändelser.",
+      "caveat": "Exakta rapporterade rådatum finns: 19020409 och 19910918. Inga föräldrar eller födelseort i personobjektet. Ivar och Called to the heart of Asia finns inte i den hämtade grafen; detta är en verifieringsgräns och avvisar inte tidigare dokumenterad bibliografisk hänvisning. Ingen ny personhändelse skapas.",
+      "data": {
+        "record_id": "R-8027bcedb8bc1d0397c72d88",
+        "mention_id": "M-T0110-C0235-Elisabeth-Hook",
+        "property": "authority_person_fields",
+        "value_literal": "{\"person_id_uri\":\"https://libris.kb.se/mkz2bcf519bmjhj#it\",\"givenName\":\"Elisabeth\",\"familyName\":\"Höök\",\"lifeSpan\":\"1902-1991\",\"birthDate_literal\":\"19020409\",\"birthDate_reported_normalized\":\"1902-04-09\",\"deathDate_literal\":\"19910918\",\"deathDate_reported_normalized\":\"1991-09-18\",\"nationality_uri\":\"https://id.kb.se/nationality/e-sw---\",\"nationality_context_label\":\"Sverige\",\"occupation_labels\":[\"Missionärer\",\"Sjuksköterskor\"],\"sourceConsulted\":[\"Sveriges dödbok 1901-2009\",\"Kvinnan som red över Himalaya, 2017\"],\"birthplace_and_parents_not_in_person_object\":true,\"reported_secondary_not_new_person_events\":true}",
+        "value_json": {
+          "person_id_uri": "https://libris.kb.se/mkz2bcf519bmjhj#it",
+          "givenName": "Elisabeth",
+          "familyName": "Höök",
+          "lifeSpan": "1902-1991",
+          "birthDate_literal": "19020409",
+          "birthDate_reported_normalized": "1902-04-09",
+          "deathDate_literal": "19910918",
+          "deathDate_reported_normalized": "1991-09-18",
+          "nationality_uri": "https://id.kb.se/nationality/e-sw---",
+          "nationality_context_label": "Sverige",
+          "occupation_labels": [
+            "Missionärer",
+            "Sjuksköterskor"
+          ],
+          "sourceConsulted": [
+            "Sveriges dödbok 1901-2009",
+            "Kvinnan som red över Himalaya, 2017"
+          ],
+          "birthplace_and_parents_not_in_person_object": true,
+          "reported_secondary_not_new_person_events": true
+        }
+      },
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "Samma authority-källa som rågrafen."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Maskinläsbara relevanta fält utan antagna bokuppgifter."
+        },
+        {
+          "object": "M-T0110-C0235-Elisabeth-Hook",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Avser Elisabeth Höök i detta Person-objekt."
+        }
+      ],
+      "bindings": {
+        "R-8027bcedb8bc1d0397c72d88": 2,
+        "M-T0110-C0235-Elisabeth-Hook": 1
+      }
+    },
+    {
+      "id": "READ-c3e9ba431a31f7d3a005b045",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Aktuell läsavgränsning skiljer full authority-JSON från ej omhämtad HTML-vy och olästa biografier. Tidigare revision och importursprung bevaras.",
+      "caveat": "Exakta rapporterade rådatum finns: 19020409 och 19910918. Inga föräldrar eller födelseort i personobjektet. Ivar och Called to the heart of Asia finns inte i den hämtade grafen; detta är en verifieringsgräns och avvisar inte tidigare dokumenterad bibliografisk hänvisning. Ingen ny personhändelse skapas.",
+      "data": {
+        "subject_id": "R-8027bcedb8bc1d0397c72d88",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "T-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa.\n\nHela huvudpostens metadata och personens sakfält är lästa. Utökade grafens bibliotek/språk/nationalitetsordlista är kontext, inte ytterligare personpåståenden. Full payload bevaras lokalt. HTML-rendering gav internt öppningsfel och senare curl-försök DNS-fel enligt rootens åtkomstlogg. Detta begränsar kontrollen av äldre två-boktitelrelationer; inga olästa texter tillskrivs innehåll."
+      },
+      "origins": [
+        {
+          "unit": "165b7b6914f35a770eabc5a151b68e1b870b35edc49e2a391a82bcc7cfb574ce",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "a1834550fef9231e84496c456f3ef0b3841617d575e20ffe475ac89f720d48d0",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "derived_from",
+          "note": "Avser denna version av den återbrukade källposten."
+        },
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "F-P-0240-source_reference-Libris-biographies",
+      "kind": "fact",
+      "expectedVersion": 1,
+      "disposition": "accepted",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0110 AC 2–4: Bibliografiska titlar bevaras, men egen källa/ämnesrelation och verifieringsgrad skiljs från vad den omhämtade authority-grafen faktiskt säger. Tidigare revision och importursprung bevaras.",
+      "caveat": "Titlarna bevaras som tidigare bibliografiska hänvisningar. Den nya grafen verifierar Kvinnan som red över Himalaya som konsulterad källa, inte båda tidigare ämneslänkarna. Inget oläst bokinnehåll eller ny personhändelse tillgodoräknas.",
+      "data": {
+        "subject_id": "P-0240",
+        "property": "source_reference",
+        "value_type": "structured",
+        "value_json": {
+          "authority": "Elisabeth Höök1902–1991",
+          "books_read": false,
+          "occupations": [
+            "Missionärer",
+            "Sjuksköterskor"
+          ],
+          "titles": [
+            "Kvinnan som red över Himalaya",
+            "Called to the heart of Asia: Elisabeth & Ivar Höök — their life and medical work in Yarkand and Kashgar"
+          ],
+          "authority_record_control_number": "410645",
+          "authority_json_retrieved": "2026-09-18",
+          "authority_sourceConsulted": [
+            "Sveriges dödbok 1901-2009",
+            "Kvinnan som red över Himalaya, 2017"
+          ],
+          "authority_reported_birthDate_literal": "19020409",
+          "authority_reported_deathDate_literal": "19910918",
+          "authority_dates_are_secondary_reports": true,
+          "authority_independent_of_consulted_sources": false,
+          "bibliographic_verification": {
+            "Kvinnan som red över Himalaya": "Namngiven som konsulterad källa (2017) i authority-grafen. Boktext inte läst.",
+            "Called to the heart of Asia: Elisabeth & Ivar Höök — their life and medical work in Yarkand and Kashgar": "Äldre C-0235-hänvisning bevaras. Titeln/Ivar saknas i nu hämtad authority-graf; HTML-/bibliografisk relationskontroll kunde inte slutföras. Ingen slutsats att boken eller den äldre länken saknas."
+          }
+        }
+      },
+      "origins": [
+        {
+          "unit": "098d919b381f653acd7d228dfbf13c84e20470d69e906dfd6a1df6dc48531ae2",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "60ba1bd202c1c71605c33689f804c2922d8022229142ef02f97d6f7b00d81185",
+          "coverage": "partial",
+          "note": "Hela sakraden, inklusive förbehåll, representeras av de samverkande målen."
+        },
+        {
+          "unit": "a1834550fef9231e84496c456f3ef0b3841617d575e20ffe475ac89f720d48d0",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "KEY-P-0239-31f2891695a9",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt482/profil285 och relevanta citationer inklusive sena tillägg lästa. Dödsdag14augusti1944 ersätter19; sjutton dagar till sonens födelse är beräkning. Värnplikt488 ⁶²/₂₃ och båda27/7 gäller efter rättelse. Morfar1911-01-16 gäller enligt senaC0260; tidigare november är avskriftshistorik. Vigselort okänd trots Danderyds handlingar, bokförd utflyttning inte fysisk avresa. Läkartitel sekundär utan säkrad svensk examen. Ägarfastställt faderskap bevaras skilt från tomma fadersfält. Profilens äldre uppgift att rättelsetillägg återstår är inaktuell: C0886/C0903 innehåller dem nu.",
+      "data": {
+        "subject_id": "P-0239",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "| Biografin *Called to the heart of Asia: Elisabeth & Ivar Höök* | Biografiskt tryck om paret och deras medicinska arbete. | [C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md) | LIBRIS-post; innehållet oläst. |\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\n"
+      },
+      "origins": [
+        {
+          "unit": "31f2891695a950ab21cfa379eaf918dd16f22b4a10bc9fe17d12e7b985e3068b",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0239-ARB",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt482/profil285 och relevanta citationer inklusive sena tillägg lästa. Dödsdag14augusti1944 ersätter19; sjutton dagar till sonens födelse är beräkning. Värnplikt488 ⁶²/₂₃ och båda27/7 gäller efter rättelse. Morfar1911-01-16 gäller enligt senaC0260; tidigare november är avskriftshistorik. Vigselort okänd trots Danderyds handlingar, bokförd utflyttning inte fysisk avresa. Läkartitel sekundär utan säkrad svensk examen. Ägarfastställt faderskap bevaras skilt från tomma fadersfält. Profilens äldre uppgift att rättelsetillägg återstår är inaktuell: C0886/C0903 innehåller dem nu.",
+      "data": {
+        "subject_id": "P-0239",
+        "criteria": "legacy_theme/ARB",
+        "outcome": "ÖPPET",
+        "body": "| ARB | ÖPPET | Nytt 2026-09-08: kyrkobokförd yrkesföljd `Kontorsbiträde` → `Missionär`, med ett oläsligt mellanled. Läkartiteln finns bara i publicerad missionshistorik och i en boktitel. Lärosäte, examen, legitimation, arbetsgivare och anställningsvillkor är obelagda. | [C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md), [C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md), [C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md); KP-03, KP-04 |\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\n"
+      },
+      "origins": [
+        {
+          "unit": "11e5f59340caf8e8999907e87e154dbfbc64ea0b1cc4af324276fb0ec3c050c8",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0239-PER",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt482/profil285 och relevanta citationer inklusive sena tillägg lästa. Dödsdag14augusti1944 ersätter19; sjutton dagar till sonens födelse är beräkning. Värnplikt488 ⁶²/₂₃ och båda27/7 gäller efter rättelse. Morfar1911-01-16 gäller enligt senaC0260; tidigare november är avskriftshistorik. Vigselort okänd trots Danderyds handlingar, bokförd utflyttning inte fysisk avresa. Läkartitel sekundär utan säkrad svensk examen. Ägarfastställt faderskap bevaras skilt från tomma fadersfält. Profilens äldre uppgift att rättelsetillägg återstår är inaktuell: C0886/C0903 innehåller dem nu.",
+      "data": {
+        "subject_id": "P-0239",
+        "criteria": "legacy_theme/PER",
+        "outcome": "ÖPPET",
+        "body": "| PER | ÖPPET | Inga fotografier, brev eller egenhändiga texter är identifierade. En biografi om paret och två missionshistoriker finns; boken är oläst och missionsarkivets brev- och fotomaterial är inte efterfrågat. Dottern Margareta har lämnat muntliga uppgifter om hans far, inte om honom själv. | [C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md), [C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md); KP-04 |\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\n"
+      },
+      "origins": [
+        {
+          "unit": "c2a9ed203983bc61ddd4588656dd2be41dbeed1bb5d1ef705f9117f05096acc5",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "P-0239/Q-03",
+      "kind": "question",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt482/profil285 och relevanta citationer inklusive sena tillägg lästa. Dödsdag14augusti1944 ersätter19; sjutton dagar till sonens födelse är beräkning. Värnplikt488 ⁶²/₂₃ och båda27/7 gäller efter rättelse. Morfar1911-01-16 gäller enligt senaC0260; tidigare november är avskriftshistorik. Vigselort okänd trots Danderyds handlingar, bokförd utflyttning inte fysisk avresa. Läkartitel sekundär utan säkrad svensk examen. Ägarfastställt faderskap bevaras skilt från tomma fadersfält. Profilens äldre uppgift att rättelsetillägg återstår är inaktuell: C0886/C0903 innehåller dem nu.",
+      "data": {
+        "subject_id": "P-0239",
+        "title": "Q-03: Var och när skaffade sig Ivar sin medicinska utbildning, och var han läkare?",
+        "outcome": "ÖPPEN.",
+        "body": "### Q-03: Var och när skaffade sig Ivar sin medicinska utbildning, och var han läkare?\n\n- Fråga och betydelse: frågan är omformulerad 2026-09-08. Tidigare antogs en svensk läkarexamen före 1931; kyrkobokföringen ger i stället `Kontorsbiträde` som hans yrke före missionärskallet och nämner aldrig läkare. Svaret avgör hur A-1453 ska stå och fyller tidsluckan 1913–1930.\n- Känt underlag: yrkesföljden i församlingsboken ([C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md)); missionär 1930 ([C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md)); missionärsläkare enligt Equmeniakyrkans historik ([C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md)); boktiteln om parets `medical work` ([C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md)).\n- Alternativ och motprövning: medicine licentiat vid Uppsala, Karolinska eller Lund före 1931; kortare medicinsk eller sjukvårdsutbildning inom missionens egen ordning; ingen formell utbildning alls, där titeln missionärsläkare är en efterhandsbeteckning för den som skötte stationens sjukvård. En läkarmatrikelpost med födelsedatum 1903-05-13 Hudiksvall skulle avgöra det första alternativet; frånvaro i Medicinalstyrelsens legitimationsregister skulle tala för de senare.\n- Källvägar: KP-03.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: yrkesföljden kontorsbiträde → missionär är svårförenlig med en avslutad medicine licentiatexamen strax före 1931, men kyrkobokens yrkeskolumn är ingen fullständig meritförteckning och kan ligga efter verkligheten. Motsättningen ska prövas, inte avgöras här.\n- Påverkade personer/påståenden: A-1453, A-4930; nya ARB-påståenden.\n\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\n"
+      },
+      "origins": [
+        {
+          "unit": "8a8759bbf2187fb448682d9c4aa8ccece5e03f84b7c55c9f1d6cd53540c8a82d",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0239-KP-04",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt482/profil285 och relevanta citationer inklusive sena tillägg lästa. Dödsdag14augusti1944 ersätter19; sjutton dagar till sonens födelse är beräkning. Värnplikt488 ⁶²/₂₃ och båda27/7 gäller efter rättelse. Morfar1911-01-16 gäller enligt senaC0260; tidigare november är avskriftshistorik. Vigselort okänd trots Danderyds handlingar, bokförd utflyttning inte fysisk avresa. Läkartitel sekundär utan säkrad svensk examen. Ägarfastställt faderskap bevaras skilt från tomma fadersfält. Profilens äldre uppgift att rättelsetillägg återstår är inaktuell: C0886/C0903 innehåller dem nu.",
+      "data": {
+        "subject_id": "P-0239",
+        "criteria": "legacy_source_path",
+        "outcome": "EJ UNDERSÖKT utöver de två webbhistorikerna i [C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md).",
+        "body": "### KP-04: Missionsförbundets arkiv, missionärsmatrikel och biografin om paret\n\n- Frågor/teman: Q-03, Q-04, ARB, SAM, HAL, PER, BO, EKO.\n- Källklass: K-37, K-39, K-32.\n- Tid/plats och arkivbildare: Svenska Missionsförbundets arkiv i Riksarkivet, missionärsmatrikel samt Östturkestanmissionens och Indienmissionens handlingar 1931–1944; biografierna *Called to the heart of Asia* och *Kvinnan som red över Himalaya*; missionstidskrifter.\n- Förväntad information: antagning, utbildning, stationeringar, brev, rapporter, fotografier, flytten till Indien, dödsomständigheter 1944 och ett eventuellt minnesord.\n- Ingång och söknycklar: arkivbildaren; LIBRIS-posterna i [C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md); orterna Kashgar, Yarkand och Poona; dödsdagen 1944-08-14.\n- Beroenden: arkivets digitala åtkomst och böckernas tillgänglighet är okända; katalogkontroll kan göras nu, medan läsning kan kräva fjärrlån eller läsesal, vilket ligger utanför agentens mandat att beställa.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet (katalog), LIBRIS, KB, Equmeniakyrkans historiska webb (använd i S-0176). Digital originalåtkomst EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT utöver de två webbhistorikerna i [C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md).\n- Bedömning och återaktivering: högst kunskapsvärde för 1931–1944 och den enda rimliga vägen till dödsomständigheterna. Katalogkontroll är genomförbar nu.\n- Wotan: EJ BESLUTAT UTFÖRANDE; egen avgränsad uppgift föreslås.\n\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\nAuktoritetsmetadata har omhämtats; bokinnehåll och missionsarkiv är alltjämt oprövade. Utförandet av ytterligare bibliografisk kontroll hör till Wotan.\n"
+      },
+      "origins": [
+        {
+          "unit": "c9964a1a093300bb8b013b499d992a77693b43d1459d3db1a48390902da044cc",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0240-PER",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt502/profil293 och relevanta citationer med sena rättelser lästa.1901 är avvisat, änkedagen är14augusti1944,104 är avgjord läsning men otolkad kod. Fyra odaterade adressrader daterar inte Kyrkovägen10 till inflyttningen och bevisar inte tre fysiska flyttar. Blankt dödsfält är källgräns; framåthänvisningen1951 återges separat. Gravplats anger inte dödsort. Föräldrahushållets1909flytt/barnorter får ingen automatisk egen reskedja. Danderyds noll gäller poster25–44, inte hela pastoratet. Påståendet om fysisk Indienresväg och avresadag skiljs från utflyttningsbokens registrerade destination/adress. P0530 kvarstår LEAD; inga nyaP för fem namngivna hushållsbarn.",
+      "data": {
+        "subject_id": "P-0240",
+        "criteria": "legacy_theme/PER",
+        "outcome": "ÖPPET",
+        "body": "| PER | ÖPPET | Två biografier som enligt LIBRIS handlar om henne och paret är helt olästa, och missionsarkiv brukar bära brev och fotografier från fältet. Inget eget fotografi, brev eller minnesnedteckning är identifierat i projektet. | [C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md), [C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md); KP-03 |\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\n"
+      },
+      "origins": [
+        {
+          "unit": "1c8190cacf699829cbb0647335ddc50e134cbc908be682b2613340f45026def0",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "P-0240/Q-03",
+      "kind": "question",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt502/profil293 och relevanta citationer med sena rättelser lästa.1901 är avvisat, änkedagen är14augusti1944,104 är avgjord läsning men otolkad kod. Fyra odaterade adressrader daterar inte Kyrkovägen10 till inflyttningen och bevisar inte tre fysiska flyttar. Blankt dödsfält är källgräns; framåthänvisningen1951 återges separat. Gravplats anger inte dödsort. Föräldrahushållets1909flytt/barnorter får ingen automatisk egen reskedja. Danderyds noll gäller poster25–44, inte hela pastoratet. Påståendet om fysisk Indienresväg och avresadag skiljs från utflyttningsbokens registrerade destination/adress. P0530 kvarstår LEAD; inga nyaP för fem namngivna hushållsbarn.",
+      "data": {
+        "subject_id": "P-0240",
+        "title": "Q-03: Vad dokumenterar missionsarkiven och biografierna om hennes tjänst, änketid och senare liv?",
+        "outcome": "ÖPPEN.",
+        "body": "### Q-03: Vad dokumenterar missionsarkiven och biografierna om hennes tjänst, änketid och senare liv?\n\n- Fråga och betydelse: 1931–1991 är sextio år, varav fyrtio helt obelagda; missionens arkiv och de två biografierna är den enda källfamilj som kan ge en sammanhängande livsbild och personliga spår.\n- Känt underlag: LIBRIS knyter *Kvinnan som red över Himalaya* och *Called to the heart of Asia* till henne ([C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md)); missionshistoriken placerar paret i Yarkand och Kashgar ([C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md)); församlingsboken skriver henne själv `missionär` (A-4950).\n- Alternativ och motprövning: biografierna kan vara skrivna av eller om henne och måste prövas mot arkivhandlingar innan deras uppgifter förs in som fakta. Sändande samfund är inte fastställt, så arkivet måste identifieras innan sökning. Levande barns uppgifter minimeras.\n- Källvägar: KP-03.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: publicerad missionshistorik är sekundär och får inte ensam datera hennes tjänsteår.\n- Påverkade personer/påståenden: A-1457, A-1470, A-4950; [P-0239](P-0239.md) Q-04.\n\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\n"
+      },
+      "origins": [
+        {
+          "unit": "9ea3d19e20c3b6486ab4a0730c2f4ab1a5e3dd3bddc2180ec7cc13b3dd307a3f",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0240-KP-03",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt502/profil293 och relevanta citationer med sena rättelser lästa.1901 är avvisat, änkedagen är14augusti1944,104 är avgjord läsning men otolkad kod. Fyra odaterade adressrader daterar inte Kyrkovägen10 till inflyttningen och bevisar inte tre fysiska flyttar. Blankt dödsfält är källgräns; framåthänvisningen1951 återges separat. Gravplats anger inte dödsort. Föräldrahushållets1909flytt/barnorter får ingen automatisk egen reskedja. Danderyds noll gäller poster25–44, inte hela pastoratet. Påståendet om fysisk Indienresväg och avresadag skiljs från utflyttningsbokens registrerade destination/adress. P0530 kvarstår LEAD; inga nyaP för fem namngivna hushållsbarn.",
+      "data": {
+        "subject_id": "P-0240",
+        "criteria": "legacy_source_path",
+        "outcome": "EJ UNDERSÖKT.",
+        "body": "### KP-03: Missionssamfundets arkiv och de två biografierna om paret\n\n- Frågor/teman: Q-03, ARB, SAM, PER, BO.\n- Källklass: K-37, K-39.\n- Tid/plats och arkivbildare: samma passage som [P-0239](P-0239.md)/KP-04; sändande samfunds arkiv (Svenska Missionsförbundet är en hypotes, inte ett belägg) samt biografierna *Kvinnan som red över Himalaya* och *Called to the heart of Asia*.\n- Förväntad information: antagning, utsändningsår, stationer, brev, fotografier, änketidens försörjning och eventuell senare tjänst. Vägen kan inte ensam datera vigseln.\n- Ingång och söknycklar: LIBRIS-posterna i [C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md); namnformen Elisabeth Höök; åren 1931–1946.\n- Beroenden: samfundet måste identifieras innan rätt arkivbildare kan sökas; en katalogkontroll är möjlig omedelbart.\n- Föregående källvägar: P-0239/KP-04\n- Leverantörer och åtkomst: Riksarkivet, LIBRIS och Kungliga biblioteket; EJ KONTROLLERAD.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: högst kunskapsvärde för livsbilden och utförs gemensamt med maken. Återaktiveras när en samfundsidentitet eller ett bokexemplar finns.\n- Wotan: EJ BESLUTAT UTFÖRANDE — samordnas med P-0239/KP-04 i en gemensam avgränsad uppgift.\n\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\nAuktoritetsmetadata har omhämtats; bokinnehåll och missionsarkiv är alltjämt oprövade. Utförandet av ytterligare bibliografisk kontroll hör till Wotan.\n"
+      },
+      "origins": [
+        {
+          "unit": "6eee3b918299593f1c9d9b3652fb2d0a0863a3c248a0f1a39ea3a348e27d826c",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "BIO-P-0239",
+      "kind": "narrative",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt482/profil285 och relevanta citationer inklusive sena tillägg lästa. Dödsdag14augusti1944 ersätter19; sjutton dagar till sonens födelse är beräkning. Värnplikt488 ⁶²/₂₃ och båda27/7 gäller efter rättelse. Morfar1911-01-16 gäller enligt senaC0260; tidigare november är avskriftshistorik. Vigselort okänd trots Danderyds handlingar, bokförd utflyttning inte fysisk avresa. Läkartitel sekundär utan säkrad svensk examen. Ägarfastställt faderskap bevaras skilt från tomma fadersfält. Profilens äldre uppgift att rättelsetillägg återstår är inaktuell: C0886/C0903 innehåller dem nu.",
+      "data": {
+        "subject_id": "P-0239",
+        "title": "Biografisk sammanfattning",
+        "markdown": "## Biografisk sammanfattning\n\nAnders Ivar föddes 1903-05-13 i Hudiksvall som son utom äktenskapet till pigan\nAnna Matilda Hök och döptes 14 juli samma år utan faddrar, med två gifta\nkvinnor som vittnen. Födelseboken namnger ingen far, och prästen antecknade i\naugusti att modern begärt att barnet skulle antecknas som hennes.\n[C-0880](../citations/C-0880-anders-ivar-fodelsenotis-hudiksvall-1903.md)\n\nHan växte upp i moderns föräldrahem hos gårdsägaren Anders Gustaf Hök och Anna\nGreta Hillberg. Folkräkningen 1910 och församlingsboken 1913–1931 för honom i\nsamma hushåll, och 1930 bor han fortfarande med modern och den sedan 1911\nänkeblivna mormodern på Fridhem, den fastighet mormodern ägde. Hushållet stod\n`icke döpt` genomgående, vilket pekar mot en frikyrklig miljö; medlemskapet är\nen tolkning och inte belagt.\n[C-0255](../citations/C-0255-anders-ivar-hudiksvall-1910-index.md),\n[C-0256](../citations/C-0256-hook-hushall-hudiksvall-1910.md),\n[C-0258](../citations/C-0258-anders-ivar-missionar-hudiksvall-1930.md),\n[C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md),\n[C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md)\n\nHans egen rad i församlingsboken visar en yrkesbana: först `Kontorsbiträde`,\nsedan ett överstruket oläsligt ord, och överst `Missionär`. Där står också ett\nvärnpliktsnummer, `488 ⁶²/₂₃`, som följer med honom ut ur landet 1931. Kallet\nlåg i släkten: moderns bror Knut Bertil Hök var missionär i Kongo och hade\n1935–1936 två döttrar boende hos mormodern på Fridhem.\n[C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md),\n[C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md),\n[C-0942](../citations/C-0942-hok-hudiksvall-folio-591-1931-1949.md)\n\nVåren 1931 gick ett hinderslöshetsbetyg från Hudiksvall till Danderyd för\näktenskap med sjuksköterskan Anna Elisabet Carlman. Den 27 juli skrevs han ut\ntill Kashgar i Öst-Turkestan, den 8 augusti vigdes paret, och den 24 augusti\nkom vigselbeviset tillbaka från Danderyd. Hustrun var kyrkobokförd i Danderyd\ntill den 13 augusti, så vigseln ägde sannolikt rum i Sverige; vigselorten är\nändå inte belagd, och Danderyds egen vigselbok saknar dem i det lästa\navsnittet. Att han skrevs ut ensam och som ogift är en bokföringsuppgift från\njuli, inte ett bevis om resan.\n[C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md),\n[C-0886](../citations/C-0886-anders-ivar-hook-utflyttning-kashgar-1931.md),\n[C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md)\n\nMissionsåren är svagast belagda. Equmeniakyrkans historik beskriver honom som\nmissionärsläkare i Kashgar från 1931 och under revolutionen där, och LIBRIS\nkopplar paret till en biografi om deras medicinska arbete i Yarkand och\nKashgar. Ingen läst svensk källa ger honom läkarexamen eller legitimation, och\nkyrkobokföringen kallar honom aldrig läkare — hur och var han skaffade sin\nmedicinska kunskap är en öppen fråga. Familjens rörelser syns däremot i\nbarnens födelseorter: Gunnar föddes 1933 i Stockholm medan familjen var\nkyrkobokförd i Öst-Turkestan, Marianne i Kashgar, Margareta åter i Stockholm\noch Anders Gustav i Poona.\n[C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md),\n[C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md),\n[C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md),\n[C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md)\n\nHan dog 1944-08-14 i Poona i Indien, 41 år gammal. Hemförsamlingen förde in\ndödsbudet på hans gamla rad i Hudiksvall, och Lidingö antecknade två år senare\nhustrun som `Änka e. missionären Anders Ivar Höök, död: Poona, Indien`.\nSjutton dagar efter hans död föddes den yngste sonen i samma stad. Dödsorsak,\nbegravning och grav är okända, och ingen indisk handling är läst.\n[C-0260](../citations/C-0260-anders-ivar-fodelsedatum-hudiksvall-AIIa3b.md),\n[C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md)\n\nFadern namnges inte i någon läst kyrkobok. Familjens dokumentation pekar ut\nJohannes Ivar Fredberg, och Ivars dotter Margareta kallar honom sin farfar och\nförklarar sonens namn Ivar genom honom. Projektägaren har fastställt\nfaderskapet i PCD-2026-08-29-001; den separata originalverifieringen av\nJohannes identitet fortsätter utan att relationen demoteras.\n[C-0259](../citations/C-0259-familjeuppgift-johannes-ivar-fredberg.md),\n[C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md),\n[C-0545](../citations/C-0545-agarens-uppgift-johannes-ivar-fredberg-ar-ivars-far.md)\n\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\n"
+      },
+      "origins": [
+        {
+          "unit": "23da75076bddd141e91388a686d35c0a7ea713ac4adf8509421609e8618dd73d",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "BIO-P-0240",
+      "kind": "narrative",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Det aktuella bibliografiska LIBRIS-hänvisningsledet förtydligas med omverifieringens gräns; tidigare bokhänvisning och övriga redan kvalificerade personpåståenden står kvar. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt502/profil293 och relevanta citationer med sena rättelser lästa.1901 är avvisat, änkedagen är14augusti1944,104 är avgjord läsning men otolkad kod. Fyra odaterade adressrader daterar inte Kyrkovägen10 till inflyttningen och bevisar inte tre fysiska flyttar. Blankt dödsfält är källgräns; framåthänvisningen1951 återges separat. Gravplats anger inte dödsort. Föräldrahushållets1909flytt/barnorter får ingen automatisk egen reskedja. Danderyds noll gäller poster25–44, inte hela pastoratet. Påståendet om fysisk Indienresväg och avresadag skiljs från utflyttningsbokens registrerade destination/adress. P0530 kvarstår LEAD; inga nyaP för fem namngivna hushållsbarn.",
+      "data": {
+        "subject_id": "P-0240",
+        "title": "Biografisk sammanfattning",
+        "markdown": "## Biografisk sammanfattning\n\nAnna Elisabeth Carlman föddes 9 april 1902 i Ljungby i Kalmar län som tredje\nkända barnet till lantbrukaren Johan Fredrik Villehad Carlman och Elin\nAndersson på Lilla Tomteby. Två äldre syskon fanns redan i hushållet 1900, och\nfamiljen fick därefter minst sex barn till, de flesta födda i Kalmar. Vägen\nfrån Ljungby till Stockholm är obelagd: familjen lämnade Ljungby någon gång\nefter 1904, och var hon växte upp, gick i skola och utbildade sig till\nsjuksköterska är inte känt.\n[C-0232](../citations/C-0232-anna-elisabeth-carlman-fodd-1902-04-09.md),\n[C-0234](../citations/C-0234-carlman-hushallet-lilla-tomteby-1900.md),\n[C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md)\n\nFörst 1930 träder hon fram i egen rätt: 28 år, ogift operationssköterska vid\nDanderyds centrallasarett, nyss inflyttad från Gustav Vasa i Stockholm. Ett\ndrygt år senare, 8 augusti 1931, vigdes hon med missionären Anders Ivar Höök.\nFem dagar efter vigseln, 13 augusti, skrevs hon ut ur Danderyd som `Höök, Anna\nElisabet, f. Carlman, fru` med destinationen Kaschgar i Öst-Turkestan och\nIndien i adresskolumnen. Att hon var kyrkobokförd i Sverige på själva\nvigseldagen upphäver den tidigare slutsatsen att paret måste ha vigts\nutomlands; vigselorten är åter okänd, men Danderyd är uteslutet genom\nförsamlingens egen lysnings- och vigselbok, och en anteckning om Kalmar den\n18 juni 1934 pekar mot hennes eget hemlän som nästa ort att pröva.\n[C-0233](../citations/C-0233-anna-elisabet-carlman-danderyd-1930.md),\n[C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md),\n[C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md)\n\nDe femton missionsåren kan i dag bara följas punktvis, genom barnens\nfödelseorter och två svenska poster. Sonen Gunnar föddes i Engelbrekts\nförsamling i Stockholm 26 mars 1933, medan hon fortfarande var kyrkobokförd i\nÖst-Turkestan — hon hade alltså rest hem inför nedkomsten. Dottern Marianne\nföddes i Kashgar, Astrid Margareta åter i Engelbrekt 1938 och Anders Gustav i\nPoona i Indien 31 augusti 1944, sjutton dagar efter att fadern dött på samma ort.\nPublicerad missionshistorik placerar paret i Yarkand och Kashgar under\n1930-talet, men ingen missionsadministrativ handling och ingen utländsk\nbokföring är läst, så vare sig sändande organisation, tjänstetid eller\nfamiljens rörelser däremellan är belagda.\n[C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md),\n[C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md),\n[C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md)\n\nDen 13 september 1946, två år efter makens död, inflyttade hon från Indien\ntill Lidingö med alla fyra barnen. Församlingsboken skriver henne `missionär`\noch `änkefru` och antecknar att hon är änka efter missionären Anders Ivar\nHöök, död i Poona. Hushållet flyttade minst tre gånger inom församlingen under\nde fem åren och överfördes 1951 till uppslag 1718 i nästa församlingsbok; den\nvolymen är inte lokaliserad. Därmed slutar den belagda kunskapen om henne. De\nfyrtio åren fram till döden 18 september 1991 är helt obelagda utom genom\ngraven på Lidingö kyrkogård, där hon ligger under sitt fulla namn Anna\nElisabeth Höök. Att hennes mor Elin skrevs som stockholmsbo när hon dog 1962\när förenligt med att modern flyttade nära dottern, men det är inte belagt.\n[C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md),\n[C-0226](../citations/C-0226-anna-elisabeth-hook-gravpost.md),\n[C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md)\n\nAtt sekundäruppgiften om födelseåret 1901 är avvisad och att LIBRIS knyter två\nbiografier till henne hör till det som är avgjort respektive helt outnyttjat.\nBöckerna, missionens arkiv och Lidingös församlingsbok efter 1951 är de tre\nvägar som skulle kunna göra hennes vuxenliv till en berättelse i stället för\nen punktlista.\n[C-0231](../citations/C-0231-elisabeth-fodelsearskonflikt-dodsannons-myheritage.md),\n[C-0235](../citations/C-0235-libris-elisabeth-hook-missionar-sjukskoterska.md)\n\n\n\n### T-0110: bibliografisk verifieringsgräns 2026-09-18\n\nT-0110 2026-09-18: Den bevarade LIBRIS JSON-LD-posten har exakta rapporterade datum birthDate 19020409 och deathDate 19910918, samt Missionärer/Sjuksköterskor. sourceConsulted anger Sveriges dödbok 1901-2009 och Kvinnan som red över Himalaya, 2017. Auktoriteten är sekundär och inte en oberoende röst i förhållande till dessa källor. Grafen innehåller inte Ivar eller Called to the heart of Asia; de äldre bibliografiska hänvisningarna bevaras men kunde inte omverifieras i denna graf. Detta är en avgränsning av den nu hämtade representationen, inte ett belägg för att den äldre boklänken eller boken saknas. Böckerna är fortsatt olästa. LIBRIS-grafen används inte som nytt stöd för Ivars läkarexamen, legitimation eller yrkestitel. Tidigare särskilda förbehåll om hans medicinska utbildning kvarstår.\n"
+      },
+      "origins": [
+        {
+          "unit": "5d5ca24df904719592705e2197dd13db7b7328d960c732871588149bfcd17af6",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    },
+    {
+      "id": "CONTRACT-P-0240-PK-11",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0110 AC 2–4: Källkopians faktiska bevarande uppdateras: C-0235 har nu full JSON-LD i native media; det bevisar inte läsning av biografier eller kompletterar andra källkopior. Tidigare revision och importursprung bevaras.",
+      "caveat": "Hela akt502/profil293 och relevanta citationer med sena rättelser lästa.1901 är avvisat, änkedagen är14augusti1944,104 är avgjord läsning men otolkad kod. Fyra odaterade adressrader daterar inte Kyrkovägen10 till inflyttningen och bevisar inte tre fysiska flyttar. Blankt dödsfält är källgräns; framåthänvisningen1951 återges separat. Gravplats anger inte dödsort. Föräldrahushållets1909flytt/barnorter får ingen automatisk egen reskedja. Danderyds noll gäller poster25–44, inte hela pastoratet. Påståendet om fysisk Indienresväg och avresadag skiljs från utflyttningsbokens registrerade destination/adress. P0530 kvarstår LEAD; inga nyaP för fem namngivna hushållsbarn.",
+      "data": {
+        "subject_id": "P-0240",
+        "criteria": "legacy_person_contract/PK-11",
+        "outcome": "STYRKT",
+        "body": "| PK-11 | STYRKT | Varje identitetsbärande påstående har arkivbildare, volym, uppslag, bild-id och läsdatum, och fyra av de fem bärande posterna finns som lokala helbilder med kontrollsumma: C-0232 via [S-0182](../sources/S-0182-riksarkivet-ljungby-scb-fodda-1902.md), C-0902, C-0903 och C-0937. C-0903:s SHA-256 är omkontrollerad 2026-09-08. Rättelserna är länkade och spårbara — 1901 avvisat, vigseln utomlands upphävd, änkedagen 1944-08-19 → 1944-08-14, ”yngsta barnet” ersatt, syskonbelägget C-0232 → C-0234 — och den fullständiga tidigare akten är bevarad. Provenansbristen i [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md) består och ägs av [T-0230](../../wotan/dev-log/T-0230.md), men den citationen bär inget av hennes identitetsbärande påståenden, bara den uttryckligt LEAD-märkta brodersledtråden; C-0235:s fulla authority-JSON har bevarats lokalt i T-0110 (2026-09-18), med redovisade källberoenden och begränsad boklänksverifiering. C-0226:s separata kopieringsläge ändras inte av denna åtgärd; inget nytt person- eller helkontraktsgodkännande görs. [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0937](../citations/C-0937-hook-carlman-utflyttning-danderyd-1931.md), [aktens historik](../people/P-0240-anna-elisabeth-hook.md#historik-och-rättelser) |\n"
+      },
+      "origins": [
+        {
+          "unit": "feec2ad04688da51c5b723170d8969293c854def27f57a78e80bfe8cffd00dca",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0110:s bevarade authority-payload och dess faktiska omfång."
+        },
+        {
+          "object": "O-T0110-C0235-authority-fields",
+          "version": 1,
+          "role": "supports",
+          "note": "Rapporterade sekundära personfält och angivna källberoenden."
+        },
+        {
+          "object": "TR-T0110-C0235-LIBRIS",
+          "version": 1,
+          "role": "context",
+          "note": "Full relevant Record/Person-text; ingen boktext."
+        }
+      ]
+    }
+  ]
+}

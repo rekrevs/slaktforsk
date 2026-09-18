@@ -67,6 +67,8 @@ function validatePayload(db,m) {
 export function applyOperation(db,request,{legacy=false,recordedAt=new Date().toISOString()}={}) {
   if(!request.id||!request.actor||!request.reason||!Array.isArray(request.changes))throw Error('Operation kräver id, actor, reason och changes');
   if(request.changes.length===0&&!request.resolve?.length&&!request.mappings?.length&&!request.unitDecisions?.length)throw Error('Tom operation');
+  const dependencyReviewVersion=Object.hasOwn(request,'dependencyReviewVersion')?request.dependencyReviewVersion:1;
+  if(![1,2].includes(dependencyReviewVersion))throw Error('Okänd dependencyReviewVersion; stöder 1 eller 2');
   const requestHash=sha(canonical(request));
   return transaction(db,()=> {
     const previous=db.prepare('SELECT request_hash FROM operation WHERE id=?').get(request.id);
@@ -167,7 +169,16 @@ export function applyOperation(db,request,{legacy=false,recordedAt=new Date().to
     }
     // Follow evidence dependencies transitively. Changing an observation never silently rewrites conclusions.
     for(const c of changed) {
-      const affected=db.prepare(`WITH RECURSIVE dependents(id) AS (
+      // Version 1 must retain its original semantics for byte-equivalent journal replay.
+      // Version 2 also reaches retained conclusions still bound to older source versions.
+      // Match current revisions themselves: a now-detached revision is not a dependent.
+      const affected=dependencyReviewVersion===2?db.prepare(`WITH RECURSIVE dependents(id) AS (
+        SELECT d.revision_id FROM dependency d JOIN revision basis ON basis.id=d.basis_revision_id
+        WHERE basis.object_id=(SELECT object_id FROM revision WHERE id=?)
+          AND basis.version<=(SELECT version FROM revision WHERE id=?)
+        UNION SELECT d.revision_id FROM dependency d JOIN dependents p ON d.basis_revision_id=p.id
+      ) SELECT DISTINCT current.id FROM dependents d JOIN current_revision current ON current.id=d.id
+        WHERE current.operation_id!=?`).all(c.before,c.before,request.id):db.prepare(`WITH RECURSIVE dependents(id) AS (
         SELECT revision_id FROM dependency WHERE basis_revision_id=?
         UNION SELECT d.revision_id FROM dependency d JOIN dependents p ON d.basis_revision_id=p.id
       ) SELECT DISTINCT current.id FROM dependents d JOIN revision old ON old.id=d.id

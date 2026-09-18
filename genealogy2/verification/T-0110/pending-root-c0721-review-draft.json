@@ -1,0 +1,2832 @@
+{
+  "task": "T-0110",
+  "status": "DRAFT read-only triage; root must approve exact resolve and followup revisions",
+  "scratch": "/tmp/T0110-review.sqlite",
+  "operation_scope": [
+    "T-0110/root-date-corrections-v1",
+    "T-0110-C0721-correction-v1"
+  ],
+  "request_count": 162,
+  "object_count": 110,
+  "objects": [
+    {
+      "object": "F-P-0272-residence-bounded-Hogsjo",
+      "current_revision": "F-P-0272-residence-bounded-Hogsjo@1",
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Bostadsslutsatsen gäller Högsjö, dess redovisade bokperioder och uttryckliga luckgränser. O-P-0272-C0457-own@2 ändrar Anna Stinas födelsedag7→4december, inte Högsjö eller perioden1892–1900. Ingen livslång kontinuitet påstås; sakuppgiften består.",
+      "requests": [
+        {
+          "id": "2f41b2572c0eea3de4c9f11b005c65fe0ba7cae4ed06ac6ecf29b6756813b61f",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "F-P-0272-residence-bounded-Hogsjo@1",
+          "changed_basis": "O-P-0272-C0457-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0272-residence-bounded-Hogsjo@1",
+        "subject_id": "P-0272",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"adult_periods\":[\"1862–1871\",\"1872–1881\",\"1882–1891\",\"1892–1900\",\"efter1900 till1904\"],\"early\":[\"födelse1844\",\"barndom A I/6,1836–1846 efter födelsen1844\",\"barndomA I/7,1847–1854\"],\"interparish_move_proven\":false,\"lifetime_continuity\":false,\"place\":\"Högsjö, Indal\"}"
+      },
+      "reviewed_caveat": "Inga exakta flyttdatum eller livslång obruten byvistelse antas."
+    },
+    {
+      "object": "EP-birth-M-C0925-Ture-Attilio-mother",
+      "current_revision": "EP-birth-M-C0925-Ture-Attilio-mother@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagaren P-0257 är mor till det namnlösa källbarns-id:t genom uttryckliga Hennes son i samma inskjutna rad. Barnets födelsedag korrigeras till17september1912 i händelsen; modersrollen eller moderns omnämnande ändras inte.",
+      "requests": [
+        {
+          "id": "39c2f05d2073d8d3e09b450bb374fe9b0799f73a11eb2d7af22181fdb1458d78",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-birth-M-C0925-Ture-Attilio-mother@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        },
+        {
+          "id": "d820ab7f2b657692c014fa1680a5d12a586387f6ac79d46b57fe91fab9038e90",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-birth-M-C0925-Ture-Attilio-mother@1",
+          "changed_basis": "O-C0925-Ture-Attilio-r4b@2"
+        },
+        {
+          "id": "0fab6795458e96f0d4242b7922c327650d7164614fa97cd32999520d31c73125",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-birth-M-C0925-Ture-Attilio-mother@1",
+          "changed_basis": "E-birth-M-C0925-Ture-Attilio@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-birth-M-C0925-Ture-Attilio-mother@1",
+        "event_id": "E-birth-M-C0925-Ture-Attilio",
+        "person_id": "P-0257",
+        "mention_id": "M-P-0257-C0925-own",
+        "role": "mother"
+      },
+      "reviewed_caveat": "Moderskap enligt uttryckliga Hennes son; ingen partner/far konstrueras."
+    },
+    {
+      "object": "EP-birth-M-C0925-Ture-Attilio-principal",
+      "current_revision": "EP-birth-M-C0925-Ture-Attilio-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Källomnämnandet M-C0925-Ture-Attilio-r4b förblir huvudperson i sin födelsehändelse. Födelsedagen rättad till17september ligger i händelsen, inte här; ingen ny P-person eller fader införs.",
+      "requests": [
+        {
+          "id": "5ce05a974d01f44705e8e22d77943c7a5d1f3ce9c8d470392636fdeb717b2b71",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-birth-M-C0925-Ture-Attilio-principal@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        },
+        {
+          "id": "727e66bcc4300c7cdee8d9c9e799458fef947b6ed5de4b63d9e85c62d943f92b",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-birth-M-C0925-Ture-Attilio-principal@1",
+          "changed_basis": "O-C0925-Ture-Attilio-r4b@2"
+        },
+        {
+          "id": "90805acca0bfe7e36109d2c14fc79c8d73860f1d512ed8db9784b4c7ad49980c",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-birth-M-C0925-Ture-Attilio-principal@1",
+          "changed_basis": "E-birth-M-C0925-Ture-Attilio@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-birth-M-C0925-Ture-Attilio-principal@1",
+        "event_id": "E-birth-M-C0925-Ture-Attilio",
+        "person_id": null,
+        "mention_id": "M-C0925-Ture-Attilio-r4b",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Källbarnet utan ny P-identitet."
+    },
+    {
+      "object": "EP-departure1924-M-C0925-Ture-Attilio",
+      "current_revision": "EP-departure1924-M-C0925-Ture-Attilio@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Barnrollen gäller avgången till Indal1924-09-16 tillsammans med Märta, vilken nya avskriften fortfarande anger. Födelsedagsrättelsen17september1912 ändrar inte avgångsdeltagandet.",
+      "requests": [
+        {
+          "id": "9201e9c9f8f4b5e93b4d9da2541045d5ad4462d8756ec434470721f4a6224245",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-departure1924-M-C0925-Ture-Attilio@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        },
+        {
+          "id": "3ad603cd34f05394d7fde2eabdabc00dbe700e5dcc7d549bbbcbee110aa50496",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-departure1924-M-C0925-Ture-Attilio@1",
+          "changed_basis": "O-C0925-Ture-Attilio-r4b@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-departure1924-M-C0925-Ture-Attilio@1",
+        "event_id": "E-registered_departure-P-0257-1924",
+        "person_id": null,
+        "mention_id": "M-C0925-Ture-Attilio-r4b",
+        "role": "child"
+      },
+      "reviewed_caveat": "Samma antecknade avgång som modern, inte ny person."
+    },
+    {
+      "object": "F-M-C0925-Ture-Attilio-birth-place",
+      "current_revision": "F-M-C0925-Ture-Attilio-birth-place@1",
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Sakuppgiften är endast födelseförsamlingSättna med fysisk platsnull. Nya barnobservationen ändrar dagen till17september1912 men behåller Sättna; uppgiften består som senare hushållsrapport.",
+      "requests": [
+        {
+          "id": "5ab236c2ba2a349f95fce7e3e2b37a89dca29fbd3185a8a5c95633ad4421d5a5",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "F-M-C0925-Ture-Attilio-birth-place@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        },
+        {
+          "id": "8a9604098dfe7407292b955e890611491825a5eeb35994e5b1910b9c95a72891",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "F-M-C0925-Ture-Attilio-birth-place@1",
+          "changed_basis": "O-C0925-Ture-Attilio-r4b@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-M-C0925-Ture-Attilio-birth-place@1",
+        "subject_id": "E-birth-M-C0925-Ture-Attilio",
+        "property": "event_place",
+        "value_type": "structured",
+        "value_json": "{\"parish\":\"Sättna\",\"physical_place\":null}"
+      },
+      "reviewed_caveat": "Senare hushållsuppgift."
+    },
+    {
+      "object": "ID-M-C0925-Emma-Petronella-child-row-P-0246",
+      "current_revision": "ID-M-C0925-Emma-Petronella-child-row-P-0246@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet accepted avser Emma Petronella Eugenia i R-aa4da015d3f7e2a9c3e2f67a → P-0246. Namn, familjegrupp och roll är oförändrade i omprövningen. Rättade närståendes datum och källans titel-/omfångsbeskrivning ändrar inte detta avgränsade identitetsbeslut.",
+      "requests": [
+        {
+          "id": "019f1e1f416bfb478317f2aa6deaf1dc1ca92641c2e4dda0bcdd5cd812f7a71b",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "ID-M-C0925-Emma-Petronella-child-row-P-0246@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-M-C0925-Emma-Petronella-child-row-P-0246@1",
+        "mention_id": "M-C0925-Emma-Petronella-child-row",
+        "person_id": "P-0246",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Överstruken rad flyttas till hustruraden,inte bevis för dop."
+    },
+    {
+      "object": "ID-P-0254-C0925-own",
+      "current_revision": "ID-P-0254-C0925-own@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet accepted avser Anders Niklas Larsson i R-aa4da015d3f7e2a9c3e2f67a → P-0254. Namn, familjegrupp och roll är oförändrade i omprövningen. Rättade närståendes datum och källans titel-/omfångsbeskrivning ändrar inte detta avgränsade identitetsbeslut.",
+      "requests": [
+        {
+          "id": "4437bc3d59836df0817d3208c6d33b38692c4768af3ad3e56495427aec8ccaa3",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "ID-P-0254-C0925-own@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0254-C0925-own@1",
+        "mention_id": "M-P-0254-C0925-own",
+        "person_id": "P-0254",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Namn, egna datum och namngiven familj bär samma avgränsade person; ingen ny oberoende evidensröst."
+    },
+    {
+      "object": "ID-P-0255-C0925-own",
+      "current_revision": "ID-P-0255-C0925-own@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet accepted avser Ingrid Kristina Vidusina Höglund i R-aa4da015d3f7e2a9c3e2f67a → P-0255. Namn, familjegrupp och roll är oförändrade i omprövningen. 4→11december är rättelse av Ingrids dödsdag på samma rad, inte ett nytt dödsfall eller en annan person.",
+      "requests": [
+        {
+          "id": "79b339666d49f3cf33b68664c07a2fb8a23f2776c828c0c1cd269b325eaf1235",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "ID-P-0255-C0925-own@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0255-C0925-own@1",
+        "mention_id": "M-P-0255-C0925-own",
+        "person_id": "P-0255",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Namn, egna datum och namngiven familj bär samma avgränsade person; ingen ny oberoende evidensröst."
+    },
+    {
+      "object": "ID-P-0257-C0925-own",
+      "current_revision": "ID-P-0257-C0925-own@1",
+      "kind": "identity",
+      "action": "requires_revision",
+      "rationale": "Identiteten Märta Viktoria i familjen består. Caveat säger kolumn9 oläst, men nya avskriften registrerar en o-liknande markering utan säker normalisering. Rätta utvinningsläget, inte identitetsbeslutet eller samfundstolkningen.",
+      "requests": [
+        {
+          "id": "7a8f7b7cc6aa8d97dcc0dd59b5c58625dcd05bf30efe1d820cdf0e529550bbdd",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "ID-P-0257-C0925-own@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0257-C0925-own@1",
+        "mention_id": "M-P-0257-C0925-own",
+        "person_id": "P-0257",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Familjen, födelseår och Indal bär identiteten; andranamnet förblir konflikt. Dito tolkas som Indal i slutsatsen. Icke döpt ger inget bestämt samfund. Kolumn9 är oläst, kolumn13 läst tom."
+    },
+    {
+      "object": "M-C0925-Emma-Petronella-child-row",
+      "current_revision": "M-C0925-Emma-Petronella-child-row@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Emma Petronella Eugenia har rårollen (ingen separat råroll) i R-aa4da015d3f7e2a9c3e2f67a. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "562041fa82ec4ef889d4c9ef8a219ad1720d76a495ff4d4eac603709e31b85a9",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-C0925-Emma-Petronella-child-row@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-C0925-Emma-Petronella-child-row@1",
+        "record_id": "R-aa4da015d3f7e2a9c3e2f67a",
+        "name_literal": "Emma Petronella Eugenia",
+        "role_literal": ""
+      },
+      "reviewed_caveat": "Överstruken rad flyttas till hustruraden,inte bevis för dop. Ingen separat rå rollform är utvunnen; rårollfältet lämnas tomt."
+    },
+    {
+      "object": "M-C0925-Ture-Attilio-r4b",
+      "current_revision": "M-C0925-Ture-Attilio-r4b@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Ture Attilio(?) har rårollen Hennes son i R-aa4da015d3f7e2a9c3e2f67a. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "6283856b5d029e33c56fc5a7450b2e4ec82e5de5b41ee80ce17f5f36ab77360f",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-C0925-Ture-Attilio-r4b@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-C0925-Ture-Attilio-r4b@1",
+        "record_id": "R-aa4da015d3f7e2a9c3e2f67a",
+        "name_literal": "Ture Attilio(?)",
+        "role_literal": "Hennes son"
+      },
+      "reviewed_caveat": "Frågetecknet markerar läsosäkerhet; ingen separat personidentitet upprättas."
+    },
+    {
+      "object": "M-P-0254-C0925-own",
+      "current_revision": "M-P-0254-C0925-own@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Anders Niklas Larsson har rårollen Torpare i R-aa4da015d3f7e2a9c3e2f67a. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "7d4d9ea0ff41c809b056a31f9f9de002bd42f9c73a1bb9007f94c3c1adfc0647",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-P-0254-C0925-own@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0254-C0925-own@1",
+        "record_id": "R-aa4da015d3f7e2a9c3e2f67a",
+        "name_literal": "Anders Niklas Larsson",
+        "role_literal": "Torpare"
+      },
+      "reviewed_caveat": "Råroll enligt just denna posts bevarade avskrift."
+    },
+    {
+      "object": "M-P-0255-C0925-own",
+      "current_revision": "M-P-0255-C0925-own@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Ingrid Kristina Vidusina Höglund har rårollen h. i R-aa4da015d3f7e2a9c3e2f67a. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "2e68031795597eb91a94917c307b939680938ed17f03965f0e69dbb8f71be0dc",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-P-0255-C0925-own@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0255-C0925-own@1",
+        "record_id": "R-aa4da015d3f7e2a9c3e2f67a",
+        "name_literal": "Ingrid Kristina Vidusina Höglund",
+        "role_literal": "h."
+      },
+      "reviewed_caveat": "Råroll enligt just denna posts bevarade avskrift."
+    },
+    {
+      "object": "M-P-0257-C0925-own",
+      "current_revision": "M-P-0257-C0925-own@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Märta Viktoria har rårollen d. i R-aa4da015d3f7e2a9c3e2f67a. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "8f54c30cdabc92ef500001b2a89ba6580b601e9fa8303d1951ded01baf8136e1",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-P-0257-C0925-own@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0257-C0925-own@1",
+        "record_id": "R-aa4da015d3f7e2a9c3e2f67a",
+        "name_literal": "Märta Viktoria",
+        "role_literal": "d."
+      },
+      "reviewed_caveat": "Råroll enligt citationens bevarade avskrift/sammandrag."
+    },
+    {
+      "object": "O-P-0246-C0925-own-child-row",
+      "current_revision": "O-P-0246-C0925-own-child-row@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationens egna råfält är {\"birth\":\"1900-07-23 Sättna\",\"home\":\"Storbränna fol393\",\"note\":\"icke döpt,överstruket på dotterraden\",\"transfer\":\"Se nedan\",\"vaccination\":\"v\"}. De har jämförts med ändringens avgränsade datumfält och ligger kvar i samma post R-aa4da015d3f7e2a9c3e2f67a. Emmas dotterrad har samma1900-07-23 och Se nedan; överstruken icke döpt är inte ett nytt dop.",
+      "requests": [
+        {
+          "id": "fd617de1971fb0b97f36a26b2eca15195b78c66555d8c5bb7e5b75f9a6e66b77",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "O-P-0246-C0925-own-child-row@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0246-C0925-own-child-row@1",
+        "record_id": "R-aa4da015d3f7e2a9c3e2f67a",
+        "mention_id": "M-C0925-Emma-Petronella-child-row",
+        "property": "source_fields",
+        "value_literal": "",
+        "value_json": "{\"birth\":\"1900-07-23 Sättna\",\"home\":\"Storbränna fol393\",\"note\":\"icke döpt,överstruket på dotterraden\",\"transfer\":\"Se nedan\",\"vaccination\":\"v\"}"
+      },
+      "reviewed_caveat": "Överstruken rad flyttas till hustruraden,inte bevis för dop."
+    },
+    {
+      "object": "O-P-0254-C0925-own",
+      "current_revision": "O-P-0254-C0925-own@1",
+      "kind": "observation",
+      "action": "requires_revision",
+      "rationale": "Anders Niklas egna värden är oförändrade, men caveat säger ännu att Ingrids rådag är 4 december. Originalomläsningen rättar även hushållsboken till 11 december. Ta bort den falska sidouppgiften; behåll v- och bokperiodsgränserna.",
+      "requests": [
+        {
+          "id": "5cef52e04e3c799e98ce5e4f8061f8deb922e9e26e7441f39b341bdf343182d0",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "O-P-0254-C0925-own@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0254-C0925-own@1",
+        "record_id": "R-aa4da015d3f7e2a9c3e2f67a",
+        "mention_id": "M-P-0254-C0925-own",
+        "property": "personal_fields",
+        "value_literal": "{\"birth\":\"1862-06-15\",\"birth_parish\":\"Sättna\",\"home\":\"Storbränna (Gärdtjärn)\",\"folio\":393,\"from\":\"G.B.394\",\"marriage\":\"1888-06-25\",\"marriage_kind\":\"civilt\",\"v\":\"v\",\"death\":\"1915-08-12\"}",
+        "value_json": "{\"birth\":\"1862-06-15\",\"birth_parish\":\"Sättna\",\"death\":\"1915-08-12\",\"folio\":393,\"from\":\"G.B.394\",\"home\":\"Storbränna (Gärdtjärn)\",\"marriage\":\"1888-06-25\",\"marriage_kind\":\"civilt\",\"v\":\"v\"}"
+      },
+      "reviewed_caveat": "Den äldre rådagen4december bevaras förIngrid; den ändras inte till dödbokens11december i denna observation. v är råmarkering, ingen säker vaccinationsdag. Bokperiod1911–27är inte personens livstid."
+    },
+    {
+      "object": "O-P-0257-C0925-own",
+      "current_revision": "O-P-0257-C0925-own@1",
+      "kind": "observation",
+      "action": "requires_revision",
+      "rationale": "Födelse1892-02-04, dito, icke döpt och avgång1924-09-16 består. value_json.column9_not_transcribed=true och caveat kolumn9 oläst är överspelade av dokumenterat o-liknande tecken. Registrera råtecknet med kvarstående tolkningsosäkerhet.",
+      "requests": [
+        {
+          "id": "bf69cec8c28b1f0335da19fc94e4b403561a0541c7c7c35333fe421b71c78659",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "O-P-0257-C0925-own@1",
+          "changed_basis": "R-aa4da015d3f7e2a9c3e2f67a@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0257-C0925-own@1",
+        "record_id": "R-aa4da015d3f7e2a9c3e2f67a",
+        "mention_id": "M-P-0257-C0925-own",
+        "property": "personal_fields",
+        "value_literal": "{\"birth\":\"1892-02-04\",\"birth_parish_literal\":\"d:o\",\"not_baptized\":\"icke döpt\",\"v\":\"v\",\"departure_to\":\"Indal\",\"departure\":\"1924-09-16\",\"column9_not_transcribed\":true,\"household_examination_column13_empty\":true}",
+        "value_json": "{\"birth\":\"1892-02-04\",\"birth_parish_literal\":\"d:o\",\"column9_not_transcribed\":true,\"departure\":\"1924-09-16\",\"departure_to\":\"Indal\",\"household_examination_column13_empty\":true,\"not_baptized\":\"icke döpt\",\"v\":\"v\"}"
+      },
+      "reviewed_caveat": "Familjen, födelseår och Indal bär identiteten; andranamnet förblir konflikt. Dito tolkas som Indal i slutsatsen. Icke döpt ger inget bestämt samfund. Kolumn9 är oläst, kolumn13 läst tom."
+    },
+    {
+      "object": "E-birth-P-0259",
+      "current_revision": "E-birth-P-0259@1",
+      "kind": "event",
+      "action": "retain",
+      "rationale": "Alvy Kristinas födelsehändelse återger1925-05-19. Den nya fullposten anger25 19/5 oförändrat; det är broderns Villys dag som ändras17→19januari1922. Egen födelsebok påstås fortfarande inte läst.",
+      "requests": [
+        {
+          "id": "015d7cb58e0d1a3d5f43bea81b22e07049f2e8fb6190f456e87d2cb911b43777",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "E-birth-P-0259@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "E-birth-P-0259@1",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1925-05-19\",\"precision\":\"exact\",\"value\":\"1925-05-19\"}",
+        "place_id": null,
+        "place_role": "place_of_event"
+      },
+      "reviewed_caveat": "Födelseuppgift upprepad i administrativa böcker; egen födelsepost oläst."
+    },
+    {
+      "object": "E-registered_arrival-Henriksson-family-book1924",
+      "current_revision": "E-registered_arrival-Henriksson-family-book1924@1",
+      "kind": "event",
+      "action": "retain",
+      "rationale": "Bokankomst1924-10-15 från fol384 till393 står kvar i den nya Axel/Emma-avskriften. Rättelserna av barnens födelsedagar och Ingrids död ändrar inte denna internt administrativa överföring.",
+      "requests": [
+        {
+          "id": "86a1938a1d026608753cf0825949a799c8ac7f9106ae54afa10c9abbbd949cc2",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "E-registered_arrival-Henriksson-family-book1924@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "c192c2ddf3b957548cbac8829a5215964dc092efd3f396052aa9f36b2ec96de8",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "E-registered_arrival-Henriksson-family-book1924@1",
+          "changed_basis": "O-P-0241-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "E-registered_arrival-Henriksson-family-book1924@1",
+        "event_type": "registered_arrival",
+        "date_json": "{\"literal\":\"1924-10-15\",\"precision\":\"exact\",\"value\":\"1924-10-15\"}",
+        "place_id": null,
+        "place_role": "registered_destination"
+      },
+      "reviewed_caveat": "Intern boköverföring från fol.384; ingen separat fysisk flytt säkrad."
+    },
+    {
+      "object": "EP-E-birth-P-0258-P-0258-principal",
+      "current_revision": "EP-E-birth-P-0258-P-0258-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "P-0258 förblir huvudperson i sin födelsehändelse. Händelsen har redan rättats till uttryckliga datumalternativ17/19januari1922; deltaganderaden innehåller inget eget datum och ingen annan person väljs.",
+      "requests": [
+        {
+          "id": "338e4a2e9d7ad1a0ecb58585937b50ac4e06192eb9b4b8fff916a1c6845295f5",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-birth-P-0258-P-0258-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "d64133871694ea73efe089cc9a0830960ffd52566db040a4482fd13838f5dd16",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-birth-P-0258-P-0258-principal@1",
+          "changed_basis": "O-P-0258-C0925-own@2"
+        },
+        {
+          "id": "c3ab88aea9826b39686b6510bacd229d984c4649404ca71d3d67d9f827dcd984",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-birth-P-0258-P-0258-principal@1",
+          "changed_basis": "E-birth-P-0258@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-birth-P-0258-P-0258-principal@1",
+        "event_id": "E-birth-P-0258",
+        "person_id": "P-0258",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "reviewed_caveat": "Födelseuppgift upprepad i administrativa böcker; egen födelsepost oläst."
+    },
+    {
+      "object": "EP-E-birth-P-0259-P-0259-principal",
+      "current_revision": "EP-E-birth-P-0259-P-0259-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "P-0259 förblir huvudperson i födelsehändelsen1925-05-19, samma Alvy i den rättade hushållsgruppen. Ingen korrigerad siffra avser hennes dag.",
+      "requests": [
+        {
+          "id": "efeef98db16b0d1a100b0ae5ad863779bef09a74de3cb25781855f4bed534249",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-birth-P-0259-P-0259-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-birth-P-0259-P-0259-principal@1",
+        "event_id": "E-birth-P-0259",
+        "person_id": "P-0259",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "reviewed_caveat": "Födelseuppgift upprepad i administrativa böcker; egen födelsepost oläst."
+    },
+    {
+      "object": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0258-principal",
+      "current_revision": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0258-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0258 har rollen principal i E-registered_arrival-Henriksson-family-arrival1928, vars aktuella datering är {\"literal\": \"1928-09-29\", \"precision\": \"exact\", \"value\": \"1928-09-29\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "fff9a3ced8c92dc769897b6df77b9648d90d6dc25a4153b94bfeec358cc59dea",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0258-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "b824bed460fb86f6bd6247a18ed356731582ca3fd71c3b143e990b9c9008f30f",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0258-principal@1",
+          "changed_basis": "O-P-0258-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0258-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1928",
+        "person_id": "P-0258",
+        "mention_id": "M-P-0258-C0933-own",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag."
+    },
+    {
+      "object": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal",
+      "current_revision": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0259 har rollen principal i E-registered_arrival-Henriksson-family-arrival1928, vars aktuella datering är {\"literal\": \"1928-09-29\", \"precision\": \"exact\", \"value\": \"1928-09-29\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "00fabb06e4c0ed277ffacc9c17456635c8124c0a393baec3e7c580dce48e30a3",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1928",
+        "person_id": "P-0259",
+        "mention_id": "M-P-0259-C0933-own",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag."
+    },
+    {
+      "object": "EP-E-registered_arrival-Henriksson-family-book1924-P-0241-principal",
+      "current_revision": "EP-E-registered_arrival-Henriksson-family-book1924-P-0241-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0241 har rollen principal i E-registered_arrival-Henriksson-family-book1924, vars aktuella datering är {\"literal\": \"1924-10-15\", \"precision\": \"exact\", \"value\": \"1924-10-15\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "5c1e769563accb94a9b3a3b3eed2ed040833e99b6d066faec99524e4969fb0d3",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-book1924-P-0241-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "9990bacce434b9f9d36d9e1a181a757504ebd2c8709e94e6320e878fbfec36dd",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-book1924-P-0241-principal@1",
+          "changed_basis": "O-P-0241-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-book1924-P-0241-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-book1924",
+        "person_id": "P-0241",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "reviewed_caveat": "Intern boköverföring från fol.384; ingen separat fysisk flytt säkrad."
+    },
+    {
+      "object": "EP-E-registered_arrival-Henriksson-family-book1924-P-0246-principal",
+      "current_revision": "EP-E-registered_arrival-Henriksson-family-book1924-P-0246-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0246 har rollen principal i E-registered_arrival-Henriksson-family-book1924, vars aktuella datering är {\"literal\": \"1924-10-15\", \"precision\": \"exact\", \"value\": \"1924-10-15\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "364104d7e85f309fd84d00524875cfee935c03d26a97733c05840cc0f1a774b7",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-book1924-P-0246-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "7ba1d5fa82fd3f39cee798b100e26aa935cd4dd2581d49e558a6d64653e80383",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-book1924-P-0246-principal@1",
+          "changed_basis": "O-P-0241-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-book1924-P-0246-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-book1924",
+        "person_id": "P-0246",
+        "mention_id": "M-C0925-Emma-Petronella",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Delad familjehändelse; administrativ registrering eller boköverföring är inte en separat fysisk resdag."
+    },
+    {
+      "object": "EP-E-registered_arrival-Henriksson-family-book1927-P-0258-principal",
+      "current_revision": "EP-E-registered_arrival-Henriksson-family-book1927-P-0258-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0258 har rollen principal i E-registered_arrival-Henriksson-family-book1927, vars aktuella datering är {\"literal\": \"1927-02-23\", \"precision\": \"exact\", \"value\": \"1927-02-23\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "966c8cbb5a3caece04ff724ced9f6bb92502ce3caf7d936ac736c998840160de",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-book1927-P-0258-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "e731e8788684fbf3e0f68164bc7dc320d2939949b22fe95aec6ce05cdcfcb5a1",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-book1927-P-0258-principal@1",
+          "changed_basis": "O-P-0258-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0258-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-book1927",
+        "person_id": "P-0258",
+        "mention_id": "M-P-0258-C0930-own",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag."
+    },
+    {
+      "object": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal",
+      "current_revision": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0259 har rollen principal i E-registered_arrival-Henriksson-family-book1927, vars aktuella datering är {\"literal\": \"1927-02-23\", \"precision\": \"exact\", \"value\": \"1927-02-23\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "d62901c818053ce8c3dfad5da176c9b5849400b6a8aeae2f68862b72d75e58da",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-book1927",
+        "person_id": "P-0259",
+        "mention_id": "M-P-0259-C0930-own",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag."
+    },
+    {
+      "object": "EP-E-registered_departure-Henriksson-family-1928-P-0258-principal",
+      "current_revision": "EP-E-registered_departure-Henriksson-family-1928-P-0258-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0258 har rollen principal i E-registered_departure-Henriksson-family-1928, vars aktuella datering är {\"literal\": \"Utflyttningsbok 14 september; församlingsbok 29 september 1928.\", \"precision\": \"alternatives\", \"values\": [\"1928-09-14\", \"1928-09-29\"]}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "30e4651c3fab4c766c978c17e0c51cf1c86b7eb894ae4c1ecedd7db256728bfb",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_departure-Henriksson-family-1928-P-0258-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "49a39056154b665717fa9e2d6eab756950fa1cd489ed99164ecd68e83f27489e",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_departure-Henriksson-family-1928-P-0258-principal@1",
+          "changed_basis": "O-P-0258-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0258-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1928",
+        "person_id": "P-0258",
+        "mention_id": "M-P-0258-C0930-own",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag."
+    },
+    {
+      "object": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal",
+      "current_revision": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0259 har rollen principal i E-registered_departure-Henriksson-family-1928, vars aktuella datering är {\"literal\": \"Utflyttningsbok 14 september; församlingsbok 29 september 1928.\", \"precision\": \"alternatives\", \"values\": [\"1928-09-14\", \"1928-09-29\"]}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "b349fca10df686b3fdda279d26d8b79d11afa6ac6701ec58f803cf8d95965fed",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1928",
+        "person_id": "P-0259",
+        "mention_id": "M-P-0259-C0930-own",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag."
+    },
+    {
+      "object": "EP-E-registered_departure-Henriksson-family-1936-P-0258-principal",
+      "current_revision": "EP-E-registered_departure-Henriksson-family-1936-P-0258-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0258 har rollen principal i E-registered_departure-Henriksson-family-1936, vars aktuella datering är {\"literal\": \"1936-11-14\", \"precision\": \"exact\", \"value\": \"1936-11-14\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "6eb414a0f2701a9106925839f3fa4329bd27ecda219690a66866bff3a1b3259f",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_departure-Henriksson-family-1936-P-0258-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "f5a73f52cf161b63ae0592694ccff79be61a82db515c9e885532968e094fd670",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_departure-Henriksson-family-1936-P-0258-principal@1",
+          "changed_basis": "O-P-0258-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0258-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1936",
+        "person_id": "P-0258",
+        "mention_id": "M-P-0258-C0933-own",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag."
+    },
+    {
+      "object": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal",
+      "current_revision": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0259 har rollen principal i E-registered_departure-Henriksson-family-1936, vars aktuella datering är {\"literal\": \"1936-11-14\", \"precision\": \"exact\", \"value\": \"1936-11-14\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "ac7e55c02844a3a30a3cfd622a586a44e1c22d770e92ce241c41e7a59ee44721",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1936",
+        "person_id": "P-0259",
+        "mention_id": "M-P-0259-C0933-own",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag."
+    },
+    {
+      "object": "F-P-0241-event_place-registered_arrival-Henriksson-family-book1924",
+      "current_revision": "F-P-0241-event_place-registered_arrival-Henriksson-family-book1924@1",
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Destinationen Storbränna fol393 och rollen registrerad destination kvarstår; den omlästa postens15oktober1924 ändras inte av Villys födelsedag. Sakuppgiften gör ingen fysisk resdag av boköverföringen.",
+      "requests": [
+        {
+          "id": "41db9f91016824d18504249dc6810dd257cee35e9c56f6239efbf8480f3ef612",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "F-P-0241-event_place-registered_arrival-Henriksson-family-book1924@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "83a2925c49b28ae0d37858648e66e1917b299cdc640083bec3c094998186c12f",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "F-P-0241-event_place-registered_arrival-Henriksson-family-book1924@1",
+          "changed_basis": "O-P-0241-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0241-event_place-registered_arrival-Henriksson-family-book1924@1",
+        "subject_id": "E-registered_arrival-Henriksson-family-book1924",
+        "property": "event_place",
+        "value_type": "structured",
+        "value_json": "{\"place\":\"Storbränna fol.393\",\"role\":\"registered_destination\"}"
+      },
+      "reviewed_caveat": "Intern boköverföring från fol.384; ingen separat fysisk flytt säkrad."
+    },
+    {
+      "object": "F-P-0241-occupation-source-sequence",
+      "current_revision": "F-P-0241-occupation-source-sequence@1",
+      "kind": "fact",
+      "action": "retain",
+      "rationale": "Yrkesföljdens torpare i Storbränna återfinns på Axels egen rad i omläsningen. Senare arbetare/chaufför/skogsarbetare är andra angivna källors uppgifter; barn- och svärmoderdatum ändrar inte någon titel, anställningstid eller ägandegräns.",
+      "requests": [
+        {
+          "id": "3d67f8dd2f04a6303408714593c9a9d7357c6fc530932d22c3869caae274ef47",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "F-P-0241-occupation-source-sequence@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        },
+        {
+          "id": "9079fd7bd6b050e42763fa1583b04f2e507fff9f62b4a0ee15d0d0dc43cfae86",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "F-P-0241-occupation-source-sequence@1",
+          "changed_basis": "O-P-0241-C0925-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0241-occupation-source-sequence@1",
+        "subject_id": "P-0241",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": "{\"ownership\":\"Torpare bevisar varken äganderätt eller att egen fastighet saknades.\",\"records\":[\"1924 arbetare vid vigseln\",\"torpare i Storbränna 1924–1928-posterna\",\"arbetare vid inflyttning Sundsvall 1928\",\"senare Chaufför på samma uppslag, ändringsdag okänd\",\"chaufför i Storbränna från registreringen 1936\",\"skogsarbetare[?] i Evys födelseutdrag 1938\"]}"
+      },
+      "reviewed_caveat": "Yrkesföljden är källbunden och fastställer inga obrutna anställningsperioder."
+    },
+    {
+      "object": "ID-M-C0925-Axel-Edvin-P-0241",
+      "current_revision": "ID-M-C0925-Axel-Edvin-P-0241@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet accepted avser Axel Edvin Henriksson i R-fccd3a415ee3cbc285ac855c → P-0241. Namn, familjegrupp och roll är oförändrade i omprövningen. Rättade närståendes datum och källans titel-/omfångsbeskrivning ändrar inte detta avgränsade identitetsbeslut.",
+      "requests": [
+        {
+          "id": "5abc4cace01d22e6396e9e6198c4f90d0aa78dbfcaea8e552ab927202363821e",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "ID-M-C0925-Axel-Edvin-P-0241@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-M-C0925-Axel-Edvin-P-0241@1",
+        "mention_id": "M-C0925-Axel-Edvin",
+        "person_id": "P-0241",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Senare C0925:97–101 rättar 25 till 15 oktober och äktenskapsdatum till 13 september. Axel är okonfirmerad här, inte odöpt; hans eget dop 1901 är belagt."
+    },
+    {
+      "object": "ID-M-C0925-Emma-Petronella-P-0246",
+      "current_revision": "ID-M-C0925-Emma-Petronella-P-0246@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet accepted avser Emma Petronella Eugenia i R-fccd3a415ee3cbc285ac855c → P-0246. Namn, familjegrupp och roll är oförändrade i omprövningen. Rättade närståendes datum och källans titel-/omfångsbeskrivning ändrar inte detta avgränsade identitetsbeslut.",
+      "requests": [
+        {
+          "id": "b6ccfa22852356e69046ea7cdcc7e5f0112223a6c663cf9262855ba543bb7abe",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "ID-M-C0925-Emma-Petronella-P-0246@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-M-C0925-Emma-Petronella-P-0246@1",
+        "mention_id": "M-C0925-Emma-Petronella",
+        "person_id": "P-0246",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Senare rättad vigsel13september gäller; ingen slutsats om obruten vistelse fram till1938."
+    },
+    {
+      "object": "ID-P-0258-C0925-own",
+      "current_revision": "ID-P-0258-C0925-own@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet accepted avser Villy Anders Erik i R-fccd3a415ee3cbc285ac855c → P-0258. Namn, familjegrupp och roll är oförändrade i omprövningen. 17/19januari är skilda rapporterade födelsedagar för sammeVilly; de skapar ingen konkurrerande hushållsperson.",
+      "requests": [
+        {
+          "id": "371cf8a00af6bea35ce91b312723a34905f8e879112b27af61bd0651937762be",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "ID-P-0258-C0925-own@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0258-C0925-own@1",
+        "mention_id": "M-P-0258-C0925-own",
+        "person_id": "P-0258",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Föräldrar, syskonföljd och födelseprofil bär avgränsad hushållsidentitet; ingen namnbyteshändelse."
+    },
+    {
+      "object": "ID-P-0259-C0925-own",
+      "current_revision": "ID-P-0259-C0925-own@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet accepted avser Alvy Kristina i R-fccd3a415ee3cbc285ac855c → P-0259. Namn, familjegrupp och roll är oförändrade i omprövningen. Rättade närståendes datum och källans titel-/omfångsbeskrivning ändrar inte detta avgränsade identitetsbeslut.",
+      "requests": [
+        {
+          "id": "da18f4a43f1b472b1c0662ea765f0dae7b69839b04cf429d22f55887d9d7d771",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "ID-P-0259-C0925-own@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0259-C0925-own@1",
+        "mention_id": "M-P-0259-C0925-own",
+        "person_id": "P-0259",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Föräldrar, syskonföljd och födelseprofil bär avgränsad hushållsidentitet; ingen namnbyteshändelse."
+    },
+    {
+      "object": "M-C0925-Axel-Edvin",
+      "current_revision": "M-C0925-Axel-Edvin@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Axel Edvin Henriksson har rårollen Torpare i R-fccd3a415ee3cbc285ac855c. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "7810c7a6a1181101a9340cc3a7c935f438d0a59930698383f632f3b27322ed77",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-C0925-Axel-Edvin@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-C0925-Axel-Edvin@1",
+        "record_id": "R-fccd3a415ee3cbc285ac855c",
+        "name_literal": "Axel Edvin Henriksson",
+        "role_literal": "Torpare"
+      },
+      "reviewed_caveat": "Senare C0925:97–101 rättar 25 till 15 oktober och äktenskapsdatum till 13 september. Axel är okonfirmerad här, inte odöpt; hans eget dop 1901 är belagt."
+    },
+    {
+      "object": "M-C0925-Emma-Petronella",
+      "current_revision": "M-C0925-Emma-Petronella@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Emma Petronella Eugenia har rårollen H:u i R-fccd3a415ee3cbc285ac855c. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "0deda01595a630a05ea78b8edf3d1f058894e9b664163c646653388ada38043e",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-C0925-Emma-Petronella@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-C0925-Emma-Petronella@1",
+        "record_id": "R-fccd3a415ee3cbc285ac855c",
+        "name_literal": "Emma Petronella Eugenia",
+        "role_literal": "H:u"
+      },
+      "reviewed_caveat": "Senare rättad vigsel13september gäller; ingen slutsats om obruten vistelse fram till1938."
+    },
+    {
+      "object": "M-P-0258-C0925-own",
+      "current_revision": "M-P-0258-C0925-own@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Villy Anders Erik har rårollen Son i R-fccd3a415ee3cbc285ac855c. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "b3dc2f5b95eccd01a5ec7b3ff41cc7c9bb06322a06152b4df8870fe51b292a8e",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-P-0258-C0925-own@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0258-C0925-own@1",
+        "record_id": "R-fccd3a415ee3cbc285ac855c",
+        "name_literal": "Villy Anders Erik",
+        "role_literal": "Son"
+      },
+      "reviewed_caveat": "Bokstavlig namn-/rollform i den specifika källposten; expanderade hakparenteser är avskriftens."
+    },
+    {
+      "object": "M-P-0259-C0925-own",
+      "current_revision": "M-P-0259-C0925-own@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Alvy Kristina har rårollen D:r i R-fccd3a415ee3cbc285ac855c. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "1b5028f04a1cf4ac178bb0262a2c5676fc1feed72604a991db120a106b737211",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "M-P-0259-C0925-own@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0259-C0925-own@1",
+        "record_id": "R-fccd3a415ee3cbc285ac855c",
+        "name_literal": "Alvy Kristina",
+        "role_literal": "D:r"
+      },
+      "reviewed_caveat": "Bokstavlig namn-/rollform i den specifika källposten; expanderade hakparenteser är avskriftens."
+    },
+    {
+      "object": "O-P-0259-C0925-own",
+      "current_revision": "O-P-0259-C0925-own@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationens egna råfält är {\"baptism_literal\":\"icke döpt\",\"birth\":\"1925-05-19\",\"birth_parish\":\"Sättna\",\"household_folio\":393}. De har jämförts med ändringens avgränsade datumfält och ligger kvar i samma post R-fccd3a415ee3cbc285ac855c. Alvys dag19maj1925 är oförändrad; den rättade januaritäljaren gällerVilly på annan rad.",
+      "requests": [
+        {
+          "id": "ae4250aaad1b0a01d7c5e18f5a002277cc4ab9a68d15b49a1b0edde4c7d0c63c",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "O-P-0259-C0925-own@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0259-C0925-own@1",
+        "record_id": "R-fccd3a415ee3cbc285ac855c",
+        "mention_id": "M-P-0259-C0925-own",
+        "property": "personal_fields",
+        "value_literal": "{\"birth\":\"1925-05-19\",\"birth_parish\":\"Sättna\",\"baptism_literal\":\"icke döpt\",\"household_folio\":393}",
+        "value_json": "{\"baptism_literal\":\"icke döpt\",\"birth\":\"1925-05-19\",\"birth_parish\":\"Sättna\",\"household_folio\":393}"
+      },
+      "reviewed_caveat": "Enbart barnraden i familjens folio393post, ingen egen födelsekontroll."
+    },
+    {
+      "object": "READ-039804998451e17f09ad3837",
+      "current_revision": "READ-039804998451e17f09ad3837@1",
+      "kind": "assessment",
+      "action": "retain",
+      "rationale": "Läsgränsbedömningen gäller C0929:s separata avgränsade söknoll och familjens tomma ut-/överföringskolumner. Omläsningen av C0925 fyller inte dessa kolumner och vidgar inte det äldre nollet; inga ändrade födelse-/dödsdagar anges i bedömningen.",
+      "requests": [
+        {
+          "id": "5ea5137fe8f113c1ffeb2f1785c9acf6588ba769e5bd7efe5980606b07649e1f",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "READ-039804998451e17f09ad3837@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "READ-039804998451e17f09ad3837@1",
+        "subject_id": "R-fccd3a415ee3cbc285ac855c",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "C-0929: Noll för På församlingen skrivna är avgränsat till fol600:s två personer. Övriga fem sidkontroller och volymslut295 är separata. Analog A III/1 eller C/9 är åtkomstläge, inte innehållsnoll. Obefintlighet var redan här en oprövad hypotes och ersätts i C0930 av positiv flyttkedja.\nSamma registreringskedja och frysta läshistorik; källposterna skapar inga nya självständiga personslutsatser eller evidensröster genom upprepning."
+      },
+      "reviewed_caveat": "Utflyttad/överförd kolumner16–17 är tomma i denna målgrupp; ingen påhittad N.B.-hänvisning. Det betyder inte att personerna aldrig överfördes."
+    },
+    {
+      "object": "REL-parent-P-0241-P-0258",
+      "current_revision": "REL-parent-P-0241-P-0258@1",
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Föräldrarelationen P-0241→P-0258 har naturen recorded_parent och okänd början/slut. De ändrade observationerna avser födelsedagsläsning, svärmoderns död eller ett närståendes kontextfält, inte vem som är namngiven förälder. De uttryckliga familjeraderna och relationens övriga bevarade belägg kvarstår; inget nytt biologiskt antagande eller exakt relationsdatum införs.",
+      "requests": [
+        {
+          "id": "12ab66e1f9e2c5a77c88af89c6592c17c4b35c2c8c3d9f17af3b9e4613570c0c",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "REL-parent-P-0241-P-0258@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0241-P-0258@1",
+        "from_person": "P-0241",
+        "to_person": "P-0258",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Uttryckliga familjerader; källnamnen och ägarens namnvarianter hålls åtskilda."
+    },
+    {
+      "object": "REL-parent-P-0241-P-0259",
+      "current_revision": "REL-parent-P-0241-P-0259@1",
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Föräldrarelationen P-0241→P-0259 har naturen recorded_parent och okänd början/slut. De ändrade observationerna avser födelsedagsläsning, svärmoderns död eller ett närståendes kontextfält, inte vem som är namngiven förälder. De uttryckliga familjeraderna och relationens övriga bevarade belägg kvarstår; inget nytt biologiskt antagande eller exakt relationsdatum införs.",
+      "requests": [
+        {
+          "id": "ea95eefd225583abdf8a6a780b5c67373a64bb88e1ac785f89d0439ba9037c85",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "REL-parent-P-0241-P-0259@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0241-P-0259@1",
+        "from_person": "P-0241",
+        "to_person": "P-0259",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Uttryckliga familjerader; källnamnen och ägarens namnvarianter hålls åtskilda."
+    },
+    {
+      "object": "REL-parent-P-0246-P-0258",
+      "current_revision": "REL-parent-P-0246-P-0258@1",
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Föräldrarelationen P-0246→P-0258 har naturen recorded_parent och okänd början/slut. De ändrade observationerna avser födelsedagsläsning, svärmoderns död eller ett närståendes kontextfält, inte vem som är namngiven förälder. De uttryckliga familjeraderna och relationens övriga bevarade belägg kvarstår; inget nytt biologiskt antagande eller exakt relationsdatum införs.",
+      "requests": [
+        {
+          "id": "3fc6962d23f8b44284e284204d9bcb0477cfb2cce565ed90b8c5f0484694dc66",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "REL-parent-P-0246-P-0258@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0246-P-0258@1",
+        "from_person": "P-0246",
+        "to_person": "P-0258",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Explicita barnrader med korrelerad familj. Ingen egen födelsepost påstås läst."
+    },
+    {
+      "object": "REL-parent-P-0246-P-0259",
+      "current_revision": "REL-parent-P-0246-P-0259@1",
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Föräldrarelationen P-0246→P-0259 har naturen recorded_parent och okänd början/slut. De ändrade observationerna avser födelsedagsläsning, svärmoderns död eller ett närståendes kontextfält, inte vem som är namngiven förälder. De uttryckliga familjeraderna och relationens övriga bevarade belägg kvarstår; inget nytt biologiskt antagande eller exakt relationsdatum införs.",
+      "requests": [
+        {
+          "id": "ec2c30772fe71a799d903318aff55229c756a8b0c913b04db361fda359ee19e4",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "REL-parent-P-0246-P-0259@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0246-P-0259@1",
+        "from_person": "P-0246",
+        "to_person": "P-0259",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Explicita barnrader med korrelerad familj. Ingen egen födelsepost påstås läst."
+    },
+    {
+      "object": "REL-parent-P-0246-P-0260",
+      "current_revision": "REL-parent-P-0246-P-0260@1",
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Föräldrarelationen P-0246→P-0260 har naturen recorded_parent och okänd början/slut. De ändrade observationerna avser födelsedagsläsning, svärmoderns död eller ett närståendes kontextfält, inte vem som är namngiven förälder. De uttryckliga familjeraderna och relationens övriga bevarade belägg kvarstår; inget nytt biologiskt antagande eller exakt relationsdatum införs.",
+      "requests": [
+        {
+          "id": "d65532b0ca1dcbc2907c5f552b06aa3edf3bc1377ba8d6a3e9244f4624180715",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "REL-parent-P-0246-P-0260@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0246-P-0260@1",
+        "from_person": "P-0246",
+        "to_person": "P-0260",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Explicita barnrader med korrelerad familj. Ingen egen födelsepost påstås läst."
+    },
+    {
+      "object": "REL-parent-P-0246-P-0261",
+      "current_revision": "REL-parent-P-0246-P-0261@1",
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Föräldrarelationen P-0246→P-0261 har naturen recorded_parent och okänd början/slut. De ändrade observationerna avser födelsedagsläsning, svärmoderns död eller ett närståendes kontextfält, inte vem som är namngiven förälder. De uttryckliga familjeraderna och relationens övriga bevarade belägg kvarstår; inget nytt biologiskt antagande eller exakt relationsdatum införs.",
+      "requests": [
+        {
+          "id": "5ca7a52d48a12ee95f79cd40a399c38ed43434bcb441b71e546b4f2844c696c1",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "REL-parent-P-0246-P-0261@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0246-P-0261@1",
+        "from_person": "P-0246",
+        "to_person": "P-0261",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Explicita barnrader med korrelerad familj. Ingen egen födelsepost påstås läst."
+    },
+    {
+      "object": "REL-parent-P-0246-P-0262",
+      "current_revision": "REL-parent-P-0246-P-0262@1",
+      "kind": "relation",
+      "action": "retain",
+      "rationale": "Föräldrarelationen P-0246→P-0262 har naturen recorded_parent och okänd början/slut. De ändrade observationerna avser födelsedagsläsning, svärmoderns död eller ett närståendes kontextfält, inte vem som är namngiven förälder. De uttryckliga familjeraderna och relationens övriga bevarade belägg kvarstår; inget nytt biologiskt antagande eller exakt relationsdatum införs.",
+      "requests": [
+        {
+          "id": "40da892e3395df696eef497405777bfc0ef161237d29fc09f729d047d2940f7f",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "REL-parent-P-0246-P-0262@1",
+          "changed_basis": "R-fccd3a415ee3cbc285ac855c@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "REL-parent-P-0246-P-0262@1",
+        "from_person": "P-0246",
+        "to_person": "P-0262",
+        "relation_type": "parent",
+        "nature": "recorded_parent",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "reviewed_caveat": "Explicita barnrader med korrelerad familj. Ingen egen födelsepost påstås läst."
+    },
+    {
+      "object": "F-P-0275-residence-documented-chain",
+      "current_revision": "F-P-0275-residence-documented-chain@1",
+      "kind": "fact",
+      "action": "requires_revision",
+      "rationale": "Bostadspunkten Hudiksvall1880 består. Caveat ställer den mot födelse Hälsingtuna utan att skilja originalets tomma födelseort från äldre indexuppgift. Avgränsa C0352 till hemvist; säg inget generellt om födelseorten enligt andra källor.",
+      "requests": [
+        {
+          "id": "8b1f5f0c902df41f9fb9f669e299fec399998ecd09dfdaeacb10f4678216dabb",
+          "operation": "T-0110/root-date-corrections-v1",
+          "affected_revision": "F-P-0275-residence-documented-chain@1",
+          "changed_basis": "O-P-0275-C0352-own@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "F-P-0275-residence-documented-chain@1",
+        "subject_id": "P-0275",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"gaps\":[\"1897–1899: sidan 774 oläst\",\"1899–1910: ingen egen kyrkoboksrad; 1900 och 1903 punktbelägg\",\"efter 1949-07-16\"],\"points\":[{\"place\":\"Hudiksvall\",\"source\":\"folkräkning\",\"year\":1880},{\"place\":\"Håsta, Hälsingtuna\",\"year\":1890},{\"date\":\"1891-11-18\",\"place\":\"2:dra kvarteret ss 143, Hudiksvall\",\"type\":\"registrering från Hels. Tuna, attest 125\"},{\"date\":\"1897-11-15\",\"page\":774},{\"context\":\"återföringsnot s.284 på s.285\",\"date\":\"1899-11-20\"},{\"place\":\"2:a kv. ss.143, Hudiksvall\",\"year\":1900},{\"occupation\":\"piga\",\"page\":341,\"place\":\"Hudiksvall\",\"year\":1903},{\"date\":\"1910-12-31\",\"from\":\"Helsingtuna\",\"page\":484},{\"book_period\":\"1913–1931\",\"page\":593},{\"place\":\"Fridhem, Hudiksvall\",\"role\":\"hemmadotter\",\"year\":1930},{\"book_period\":\"1931–1949\",\"folio\":591},{\"date\":\"1949-07-16\",\"to\":\"N:o 250\"}],\"property_not_hers\":true}"
+      },
+      "reviewed_caveat": "Bokperioder och folkräkningspunkter innebär inte obruten fysisk vistelse. Sidor 284/285/422 olösta; 1880 Hudiksvall kontra födelse Hälsingtuna ännu oförklarat."
+    },
+    {
+      "object": "AS-P-0132-Braten_identity_chain",
+      "current_revision": "AS-P-0132-Braten_identity_chain@1",
+      "kind": "assessment",
+      "action": "retain",
+      "rationale": "Bråten-bedömningen gäller kandidatkedjan för Eva Lotta1832–1850, två församlingar och ännu ej styrkt koppling till vuxenhustrun. S0556:s nya Lena/Johanna-datum gäller andra personposter; B1:s1849omfång och kedjans konkreta lucka består.",
+      "requests": [
+        {
+          "id": "20d3ff2a5fb3d10de827ddc17fa72902bb4a83ec6bb8a7ea66e9cd0d6d0ccd32",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "AS-P-0132-Braten_identity_chain@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "AS-P-0132-Braten_identity_chain@1",
+        "subject_id": "P-0132",
+        "criteria": "Braten_identity_chain",
+        "outcome": "unresolved",
+        "body": "Bråtenbarnet i post 62 korreleras internt med Bråten s.155, Björkvik B/2 1847 post 11, Jernbol s.36, återkomst till Berthilstorp november 1849 och Berthilstorp s.201 till Sörgölsstugan 1850. Sex poster i TVÅ församlingar, inte tre, med gap 1832–1846 och möjlig avskriftskedja för födelsedatum. Kandidaten var cirka 17, inte 27, år 1849. Ingen av dessa poster binder henne till Adolf Fredrik. Gemensamt sockennamn eller fler kopierade datum kan varken sluta eller avvisa vuxenidentiteten. Den underkända prognosen destination Mellösa/Bettna/Vrena kontra annan ort bevaras som historik, inte regel."
+      },
+      "reviewed_caveat": "Forskningsbedömning, ingen accepterad ungdomshemvist eller släktrelation till vuxenhustrun."
+    },
+    {
+      "object": "E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival",
+      "current_revision": "E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival@1",
+      "kind": "event",
+      "action": "retain",
+      "rationale": "Ankomsthändelsen gäller november1849, dagokänd, Björkvik→Berthilstorp för kandidatens omnämnande. S0556-rättelsen gäller Walla1819 och förändrar inte denna separata B1-rad eller dess månadsintervall.",
+      "requests": [
+        {
+          "id": "7140c769bb201858e10fe0bb7f7ae83438bfb93a921b82987f04d473847a84c0",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival@1",
+        "event_type": "registered_arrival",
+        "date_json": "{\"from\":\"1849-11-01\",\"literal\":\"november 1849, exakt dag inte läst\",\"precision\":\"range\",\"to\":\"1849-11-30\"}",
+        "place_id": null,
+        "place_role": "recorded_location"
+      },
+      "reviewed_caveat": "Björkvik → Berthilstorp, Stora Malm. Händelsen gäller kandidatens källomnämnande, inte identifierad vuxenhustru P-0132."
+    },
+    {
+      "object": "EP-E-baptism-P-0475-CarlEricErsson-witness",
+      "current_revision": "EP-E-baptism-P-0475-CarlEricErsson-witness@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet M-P-0475-CarlEricErsson har rollen witness i E-baptism-P-0475, vars aktuella datering är {\"literal\": \"1819-05-31\", \"precision\": \"exact\", \"value\": \"1819-05-31\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Vittnets osäkra ort avgör inte deltaganderollen; inget släktskap till barnet följer.",
+      "requests": [
+        {
+          "id": "cd20a1e92147ef499279acc062d9e4e384a03f06968c4d39dfeac53eef9640e3",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-CarlEricErsson-witness@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "0fa10ae644e5e8f2e2d907526128c6cd02a432295b550f7ad95f10abeb435ddf",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-CarlEricErsson-witness@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-baptism-P-0475-CarlEricErsson-witness@1",
+        "event_id": "E-baptism-P-0475",
+        "person_id": null,
+        "mention_id": "M-P-0475-CarlEricErsson",
+        "role": "witness"
+      },
+      "reviewed_caveat": "Namngiven deltagare utan ny person."
+    },
+    {
+      "object": "EP-E-baptism-P-0475-GretaLenaLarsdotter-witness",
+      "current_revision": "EP-E-baptism-P-0475-GretaLenaLarsdotter-witness@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet M-P-0475-GretaLenaLarsdotter har rollen witness i E-baptism-P-0475, vars aktuella datering är {\"literal\": \"1819-05-31\", \"precision\": \"exact\", \"value\": \"1819-05-31\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Vittnets osäkra ort avgör inte deltaganderollen; inget släktskap till barnet följer.",
+      "requests": [
+        {
+          "id": "9be6a93d4c9bfe084c0f80b7a03a8c081d4b759a8bc85ac4f05266f5eea56711",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-GretaLenaLarsdotter-witness@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "665e465a3f683222910caa6c404eb6d085d7e686623b5a68194a955928805c9e",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-GretaLenaLarsdotter-witness@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-baptism-P-0475-GretaLenaLarsdotter-witness@1",
+        "event_id": "E-baptism-P-0475",
+        "person_id": null,
+        "mention_id": "M-P-0475-GretaLenaLarsdotter",
+        "role": "witness"
+      },
+      "reviewed_caveat": "Namngiven deltagare utan ny person."
+    },
+    {
+      "object": "EP-E-baptism-P-0475-MajaJonsdotter-witness",
+      "current_revision": "EP-E-baptism-P-0475-MajaJonsdotter-witness@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet M-P-0475-MajaJonsdotter har rollen witness i E-baptism-P-0475, vars aktuella datering är {\"literal\": \"1819-05-31\", \"precision\": \"exact\", \"value\": \"1819-05-31\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Vittnets osäkra ort avgör inte deltaganderollen; inget släktskap till barnet följer.",
+      "requests": [
+        {
+          "id": "2db3f89ef164d99ae6e145717d3b854b4b6af457c702177f5bd42e1dc96c1395",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-MajaJonsdotter-witness@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "5518bc229e98b3b70da441e156b9d872c086d36c7b852850e355d5ed5d6caec0",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-MajaJonsdotter-witness@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-baptism-P-0475-MajaJonsdotter-witness@1",
+        "event_id": "E-baptism-P-0475",
+        "person_id": null,
+        "mention_id": "M-P-0475-MajaJonsdotter",
+        "role": "witness"
+      },
+      "reviewed_caveat": "Namngiven deltagare utan ny person."
+    },
+    {
+      "object": "EP-E-baptism-P-0475-P-0475-principal",
+      "current_revision": "EP-E-baptism-P-0475-P-0475-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0475 har rollen principal i E-baptism-P-0475, vars aktuella datering är {\"literal\": \"1819-05-31\", \"precision\": \"exact\", \"value\": \"1819-05-31\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "05a91036bffca1c3bbfc1538f7be91eaf6259cf98a2983ca7ccfd3af15017248",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-P-0475-principal@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "89f802f799f19143fa0c7871c7973105861acc169003cbdf566c110ee114b9ac",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-P-0475-principal@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-baptism-P-0475-P-0475-principal@1",
+        "event_id": "E-baptism-P-0475",
+        "person_id": "P-0475",
+        "mention_id": "M-P-0475-child-birth",
+        "role": "principal"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "EP-E-baptism-P-0475-PehrLarsson-witness",
+      "current_revision": "EP-E-baptism-P-0475-PehrLarsson-witness@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet M-P-0475-PehrLarsson har rollen witness i E-baptism-P-0475, vars aktuella datering är {\"literal\": \"1819-05-31\", \"precision\": \"exact\", \"value\": \"1819-05-31\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Vittnets osäkra ort avgör inte deltaganderollen; inget släktskap till barnet följer.",
+      "requests": [
+        {
+          "id": "c8ce6872564b3039f964815c8e6b593f9c4a274da767d5079e871dbba85c0f1d",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-PehrLarsson-witness@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "63a674b8c4690cfe738026ebaf4b7ec4739afa32dcaa7aef49fed1a2f27cd008",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-baptism-P-0475-PehrLarsson-witness@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-baptism-P-0475-PehrLarsson-witness@1",
+        "event_id": "E-baptism-P-0475",
+        "person_id": null,
+        "mention_id": "M-P-0475-PehrLarsson",
+        "role": "witness"
+      },
+      "reviewed_caveat": "Namngiven deltagare utan ny person."
+    },
+    {
+      "object": "EP-E-birth-P-0475-P-0475-principal",
+      "current_revision": "EP-E-birth-P-0475-P-0475-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0475 har rollen principal i E-birth-P-0475, vars aktuella datering är {\"literal\": \"1819-05-30\", \"precision\": \"exact\", \"value\": \"1819-05-30\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "e030dfd2bf63d43340ee1342296f563dd5cfa99f1b3d8ca04b26675a11402be0",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-birth-P-0475-P-0475-principal@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "173347fb7bd8969567f37f398622d5a3233d41f6d6bd7365ed6fb6bc744b44b7",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-birth-P-0475-P-0475-principal@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-birth-P-0475-P-0475-principal@1",
+        "event_id": "E-birth-P-0475",
+        "person_id": "P-0475",
+        "mention_id": "M-P-0475-child-birth",
+        "role": "principal"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "EP-E-departure-P-0475-Bettna1841-P-0475-principal",
+      "current_revision": "EP-E-departure-P-0475-Bettna1841-P-0475-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet P-0475 har rollen principal i E-departure-P-0475-Bettna1841, vars aktuella datering är {\"literal\": \"1841\", \"precision\": \"year\", \"value\": \"1841\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "a15df8a0fc7422e912d3a7688094fee3dc14fc4a9a107529c9e84edb1018dc3f",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-departure-P-0475-Bettna1841-P-0475-principal@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-departure-P-0475-Bettna1841-P-0475-principal@1",
+        "event_id": "E-departure-P-0475-Bettna1841",
+        "person_id": "P-0475",
+        "mention_id": "M-P-0475-departure1841",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Bokförd utflyttning utan dag, obrutenWalla–Backstugankedja saknas."
+    },
+    {
+      "object": "EP-E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival-M-P-0132-candidate-Berthilstorp-arrival-principal",
+      "current_revision": "EP-E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival-M-P-0132-candidate-Berthilstorp-arrival-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet M-P-0132-candidate-Berthilstorp-arrival har rollen principal i E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival, vars aktuella datering är {\"from\": \"1849-11-01\", \"literal\": \"november 1849, exakt dag inte läst\", \"precision\": \"range\", \"to\": \"1849-11-30\"}. Rollen eller person-/omnämnandekopplingen innehåller inget av de rättade födelse-/dödsdatumfälten och stöds fortsatt av samma explicit namngivna familje-/vittnesrad. Registrering/flytt förblir samma särskilda händelse och görs inte till obruten vistelse eller säker fysisk resdag.",
+      "requests": [
+        {
+          "id": "3d5ece587740fa49eaca288f386bb219f1022cd35d866abf95e4e8091497cb59",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival-M-P-0132-candidate-Berthilstorp-arrival-principal@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival-M-P-0132-candidate-Berthilstorp-arrival-principal@1",
+        "event_id": "E-registered_arrival-Braten-Eva-Lotta-Berthilstorp-arrival",
+        "person_id": null,
+        "mention_id": "M-P-0132-candidate-Berthilstorp-arrival",
+        "role": "principal"
+      },
+      "reviewed_caveat": "Källperson utan accepterat P-id."
+    },
+    {
+      "object": "ID-M-P-0132-candidate-Abol1849",
+      "current_revision": "ID-M-P-0132-candidate-Abol1849@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet candidate avser Eva Lotta Jansdr i R-ee18d72a1f9b24a41b76b279 → P-0132. Namn, familjegrupp och roll är oförändrade i omprövningen. 1849-kandidaten förblir åtskild från den vuxna P0132-identiteten; ingen ny accepterad livskedja.",
+      "requests": [
+        {
+          "id": "91bbcffacc963fde7407c93e765a72042106516380dced583ca363c7679e308f",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-M-P-0132-candidate-Abol1849@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-M-P-0132-candidate-Abol1849@1",
+        "mention_id": "M-P-0132-candidate-Abol1849",
+        "person_id": "P-0132",
+        "decision": "candidate"
+      },
+      "reviewed_caveat": "Källpersonen hålls separat från vuxenhustrun. Annan flytthändelse än Björkvik–Berthilstorp. Hålls separat; endast riktning/namnvariant avgör inte hela livstidsidentiteten och ingen numrerad total av kvinnor fastställs."
+    },
+    {
+      "object": "ID-M-P-0132-candidate-Berthilstorp-arrival",
+      "current_revision": "ID-M-P-0132-candidate-Berthilstorp-arrival@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Identitetsbeslutet candidate avser Eva Lotta Jonsdr i R-e826ae7f5d5facfd95eda6ea → P-0132. Namn, familjegrupp och roll är oförändrade i omprövningen. 1849-kandidaten förblir åtskild från den vuxna P0132-identiteten; ingen ny accepterad livskedja.",
+      "requests": [
+        {
+          "id": "d72e746853b50a4b2f8c8588f23d93eb1ea77ac35bfc06b6f9b510594732c112",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-M-P-0132-candidate-Berthilstorp-arrival@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-M-P-0132-candidate-Berthilstorp-arrival@1",
+        "mention_id": "M-P-0132-candidate-Berthilstorp-arrival",
+        "person_id": "P-0132",
+        "decision": "candidate"
+      },
+      "reviewed_caveat": "Källpersonen hålls separat från vuxenhustrun. En inflyttningspost, exakt ankomstdag ej läst; avsändarditto från Per Johan Janssons separata kontrollrad."
+    },
+    {
+      "object": "ID-P-0475-Walla-child",
+      "current_revision": "ID-P-0475-Walla-child@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Walla-barnet Johanna länkas fortsatt till P0475 genom namn, föräldrarJan/Lena och familjekedjan. Omläst30/4[?] gör hushållsdagen osäker och får inte vara fristående datumbevis för30maj; den egna födelseposten ger30maj. Identiteten kräver inte att osäker hushållsmånad väljs.",
+      "requests": [
+        {
+          "id": "e2cd8a044bf63f30096b82d9e33c0c1f0d3432bffde19fc0bb17b943b3729c23",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0475-Walla-child@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "b826cf04e0414a8095cd777e045ffe0e23b4897e7452bcac26970b14bb85f155",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0475-Walla-child@1",
+          "changed_basis": "R-5785656ae35a013a260b39b3@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0475-Walla-child@1",
+        "mention_id": "M-P-0475-Walla-child",
+        "person_id": "P-0475",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Ingen vaccinationsdag eller modernskolgrad. Föräldrars närvaro-/flytttecken intebarnets."
+    },
+    {
+      "object": "ID-P-0475-child-birth",
+      "current_revision": "ID-P-0475-child-birth@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Johanna i den egna födelseposten är samma P0475 genom oförändrad post39 med födelse30/dop31maj1819 och Jan/Lena. Moderns rättade hushållsdatum är ingen ändring av barnets egen födelsepost.",
+      "requests": [
+        {
+          "id": "6c6b56efc5e5c331ee84d3f54563980f4f015bf0296585109171bca76e094abc",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0475-child-birth@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "dbbf3e725b4c64675ee75defe50df38063657d2b545c292dfcdf6949b3c1f9b5",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0475-child-birth@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0475-child-birth@1",
+        "mention_id": "M-P-0475-child-birth",
+        "person_id": "P-0475",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "ID-P-0475-departure1841",
+      "current_revision": "ID-P-0475-departure1841@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Pigan Johanna Jansd:r i utflyttning1841post27 behåller sin avgränsade identitetskoppling; ingen exakt dag eller obruten Walla–Backstugan-vistelse läggs till av S0556:s dateringsrättelse.",
+      "requests": [
+        {
+          "id": "339c776c717697c5063777ec952aee774be19bcc3d489e0f256780642d2f6eb1",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0475-departure1841@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0475-departure1841@1",
+        "mention_id": "M-P-0475-departure1841",
+        "person_id": "P-0475",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "ID-P-0476-C0721-Walla",
+      "current_revision": "ID-P-0476-C0721-Walla@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Jan Ericson på Walla-raden bär fortfarande1791 5/9Björkvik, rollenbrukare och familjen. Rättelsen av Lenas datum och Johannas månad väljer ingen ny Jan; hans egen kandidatlänk kvarstår separat och osäker.",
+      "requests": [
+        {
+          "id": "0e58dcdb5e2a6f6658643f95ebf77e9123ca6c98cd4771a6fc29b166fcae2fbb",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0476-C0721-Walla@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "e2f6e64d813950615f4a5940c2c051bcbe9e3fab010c33bcf81a837e29a262ae",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0476-C0721-Walla@1",
+          "changed_basis": "R-5785656ae35a013a260b39b3@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0476-C0721-Walla@1",
+        "mention_id": "M-P-0476-C0721-Walla",
+        "person_id": "P-0476",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Egna fullprövade T0141-fält. Barnensv överförs inte; tomt fält bevisar inte hälsa eller död."
+    },
+    {
+      "object": "ID-P-0476-C0721-parent",
+      "current_revision": "ID-P-0476-C0721-parent@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Jan Ericson är uttryckligen hemmansbrukaren/fadern i Johannas post39. Vuxenradens födelseuppgifter ingår inte i detta identitetsbeslut och föräldrarollen står kvar i nya avskriften.",
+      "requests": [
+        {
+          "id": "fde2cbf0bb510d3a1cc6ee0d01c3481077da6c4ece41a32745486815a3f0fca1",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0476-C0721-parent@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "6ea191b753d3e47956767aec4f958cd104b5ef22eb41e70b7f2eb4cc01c36d2e",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0476-C0721-parent@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0476-C0721-parent@1",
+        "mention_id": "M-P-0476-C0721-parent",
+        "person_id": "P-0476",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Egen namngiven föräldraroll i dotterns avgränsade födelsepost; inga vuxenradens födelsedata i denna observation."
+    },
+    {
+      "object": "ID-P-0477-C0721-Walla",
+      "current_revision": "ID-P-0477-C0721-Walla@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Lena Jonsdotter på Walla-raden är samma namngivna hustru/moder efter korrigering1783→1785. Beslutet länkar en vuxenrad till P0477, inte Helena-kandidaten till henne. Hennes nu lästa egna råtecken måste användas; makens markeringar överförs inte.",
+      "requests": [
+        {
+          "id": "1333e985a535e5974b99b62998bbe24173a75501567e1f6bbd802b38190e5e75",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0477-C0721-Walla@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "a66848ab602410392b64a14977f4c9ee9bd0e72aaa8f41f6a635f820bc484380",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0477-C0721-Walla@1",
+          "changed_basis": "R-5785656ae35a013a260b39b3@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0477-C0721-Walla@1",
+        "mention_id": "M-P-0477-C0721-Walla",
+        "person_id": "P-0477",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Senaste lästa namn-/datumrad. Makens fullprövning ger inga egna tomma kunskaps-/års-/kopporfält."
+    },
+    {
+      "object": "ID-P-0477-C0721-parent",
+      "current_revision": "ID-P-0477-C0721-parent@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Lena Jonsdotter är uttryckligen mor i Johannas post39 och rååldern34 kvarstår där. Korrigeringen av hennes senare hushållsdatum väljer inte ett annat föräldraomnämnande.",
+      "requests": [
+        {
+          "id": "74c599996c6a6871621827ee558a46895f5c15327814d433bfb84f71ab87e3e6",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0477-C0721-parent@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "181243915b21597cc8623bc5f78cd1d6fca7e9724cdf06d2c7405a3e30755de0",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0477-C0721-parent@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0477-C0721-parent@1",
+        "mention_id": "M-P-0477-C0721-parent",
+        "person_id": "P-0477",
+        "decision": "accepted"
+      },
+      "reviewed_caveat": "Egen namngiven föräldraroll i dotterns avgränsade födelsepost; inga vuxenradens födelsedata i denna observation."
+    },
+    {
+      "object": "M-P-0132-candidate-Abol1849",
+      "current_revision": "M-P-0132-candidate-Abol1849@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Eva Lotta Jansdr har rårollen pig. i R-ee18d72a1f9b24a41b76b279. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "4e862e0e537bd5d3611018fd23af058c43b1c4a61220473c33712b6f9a37713d",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0132-candidate-Abol1849@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0132-candidate-Abol1849@1",
+        "record_id": "R-ee18d72a1f9b24a41b76b279",
+        "name_literal": "Eva Lotta Jansdr",
+        "role_literal": "pig."
+      },
+      "reviewed_caveat": "Annan flytthändelse än Björkvik–Berthilstorp. Hålls separat; endast riktning/namnvariant avgör inte hela livstidsidentiteten och ingen numrerad total av kvinnor fastställs."
+    },
+    {
+      "object": "M-P-0132-candidate-Berthilstorp-arrival",
+      "current_revision": "M-P-0132-candidate-Berthilstorp-arrival@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Eva Lotta Jonsdr har rårollen pig. i R-e826ae7f5d5facfd95eda6ea. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "49930f85de0529aa90386be34c937d899d0c42aa9dab5cda95396277c416ee12",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0132-candidate-Berthilstorp-arrival@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0132-candidate-Berthilstorp-arrival@1",
+        "record_id": "R-e826ae7f5d5facfd95eda6ea",
+        "name_literal": "Eva Lotta Jonsdr",
+        "role_literal": "pig."
+      },
+      "reviewed_caveat": "En inflyttningspost, exakt ankomstdag ej läst; avsändarditto från Per Johan Janssons separata kontrollrad."
+    },
+    {
+      "object": "M-P-0475-CarlEricErsson",
+      "current_revision": "M-P-0475-CarlEricErsson@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Carl Eric Ersson har rårollen brukaren i R-a2a8fc78bdeaaae25c917e7f. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "7f6faa0fc758d4dc6c0f9b2a37c62a6caa49387c25f16529f7faa7584cc9a0a3",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-CarlEricErsson@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "577180f09f4e74ccf42c0fe505b2e839bf6cc2704d1e75a65c61c7097ac937cc",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-CarlEricErsson@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0475-CarlEricErsson@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "name_literal": "Carl Eric Ersson",
+        "role_literal": "brukaren"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0475-GretaLenaLarsdotter",
+      "current_revision": "M-P-0475-GretaLenaLarsdotter@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Greta Lena Larsdotter har rårollen pigan i R-a2a8fc78bdeaaae25c917e7f. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "9e5c2d532e86120cf3ee73a2c181979f073ff1076a5e989e494663a42a2db9ea",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-GretaLenaLarsdotter@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "ae2d7c11c7a9397a0c401aac100d144155ae377f2661ceadd25e8e7dbc758b37",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-GretaLenaLarsdotter@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0475-GretaLenaLarsdotter@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "name_literal": "Greta Lena Larsdotter",
+        "role_literal": "pigan"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0475-MajaJonsdotter",
+      "current_revision": "M-P-0475-MajaJonsdotter@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Maja Jonsdotter har rårollen hustru i R-a2a8fc78bdeaaae25c917e7f. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "09a6bdbd12b01104d4b63b103cc5e88bfb5df5a00cc52aa8006047cc92b4a4d9",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-MajaJonsdotter@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "143581b756aae90775190cf8a39b08e8743735ab9e23b204f2ed9f4087211f52",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-MajaJonsdotter@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0475-MajaJonsdotter@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "name_literal": "Maja Jonsdotter",
+        "role_literal": "hustru"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0475-PehrLarsson",
+      "current_revision": "M-P-0475-PehrLarsson@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Pehr Larsson har rårollen sonen i R-a2a8fc78bdeaaae25c917e7f. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "e684ade67508f5772912fe61c25ee4ff826dfa5e851d711b9f8e525fe5c495fe",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-PehrLarsson@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "7b440108618025d72ce9b746e430eb639e0162040b1abb934fb9dcfcd9e00704",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-PehrLarsson@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0475-PehrLarsson@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "name_literal": "Pehr Larsson",
+        "role_literal": "sonen"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0475-Walla-child",
+      "current_revision": "M-P-0475-Walla-child@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Johanna Jansdotter har rårollen (ingen separat råroll) i R-5785656ae35a013a260b39b3. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "b0d8824b4187b41da5a43460401d867b5841a914c01d7e2c022959beb7f93c4c",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-Walla-child@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "712ee25c652bb9036d3287a320cc20fcf39f6bf86f967a55db95107f49764754",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-Walla-child@1",
+          "changed_basis": "R-5785656ae35a013a260b39b3@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0475-Walla-child@1",
+        "record_id": "R-5785656ae35a013a260b39b3",
+        "name_literal": "Johanna Jansdotter",
+        "role_literal": ""
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0475-child-birth",
+      "current_revision": "M-P-0475-child-birth@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Johanna har rårollen (ingen separat råroll) i R-a2a8fc78bdeaaae25c917e7f. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "4c33436ba4a41b25b15609d84075fb688e757a7393db74528238d1a7c7c92309",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-child-birth@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "66121243aed69b9f68597c3f29b59381240ca7fe44855ea43834637e1fa73003",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-child-birth@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0475-child-birth@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "name_literal": "Johanna",
+        "role_literal": ""
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0475-departure1841",
+      "current_revision": "M-P-0475-departure1841@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Johanna Jansd:r har rårollen Pigan i R-394b795d8105de8cd7e79e64. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "1a4e1da6d184f2e438d6932e1e34b970545d49f1d5ae5876cf62842972458077",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0475-departure1841@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0475-departure1841@1",
+        "record_id": "R-394b795d8105de8cd7e79e64",
+        "name_literal": "Johanna Jansd:r",
+        "role_literal": "Pigan"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0476-C0721-Walla",
+      "current_revision": "M-P-0476-C0721-Walla@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Jan Ericson har rårollen brukaren i R-5785656ae35a013a260b39b3. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "fb2e3c2b8f569413b6be6bb6ec9408dba61da46fc88335a029ece090e4db8d83",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0476-C0721-Walla@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "b2720399c37686ae2b3268557360bce217f38fbe17d10522c33160984f27c0ab",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0476-C0721-Walla@1",
+          "changed_basis": "R-5785656ae35a013a260b39b3@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0476-C0721-Walla@1",
+        "record_id": "R-5785656ae35a013a260b39b3",
+        "name_literal": "Jan Ericson",
+        "role_literal": "brukaren"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0476-C0721-parent",
+      "current_revision": "M-P-0476-C0721-parent@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Jan Ericson har rårollen hemmansbrukaren i R-a2a8fc78bdeaaae25c917e7f. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "968a30843b6d89fb7ff483571d7552977ea02c4d1cb7cf30337e77dd25290d39",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0476-C0721-parent@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "df1729059e84a2e59989938c773c96972af92618bde723d0c296e7b48f4886a5",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0476-C0721-parent@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0476-C0721-parent@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "name_literal": "Jan Ericson",
+        "role_literal": "hemmansbrukaren"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0477-C0721-Walla",
+      "current_revision": "M-P-0477-C0721-Walla@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Lena Jonsdotter har rårollen hustrun i R-5785656ae35a013a260b39b3. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "058610d0add5d72a2b3b349164618bd98fa6c0787f3fe3bbd393586555f3f81e",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0477-C0721-Walla@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "296e2c9f48de1ae5fe78621a03e218ceea3681de40973f92befe5de566239155",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0477-C0721-Walla@1",
+          "changed_basis": "R-5785656ae35a013a260b39b3@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0477-C0721-Walla@1",
+        "record_id": "R-5785656ae35a013a260b39b3",
+        "name_literal": "Lena Jonsdotter",
+        "role_literal": "hustrun"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0477-C0721-parent",
+      "current_revision": "M-P-0477-C0721-parent@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Lena Jonsdotter har rårollen hustrun i R-a2a8fc78bdeaaae25c917e7f. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "8d3b74a4bf335a26fa303017145b705d273aafe0b2a0cb5ddade40a74250d5d0",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0477-C0721-parent@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "fc969637324eb6d49d60f48e7e6e2926716137baae2c25065bb744cf7db251e3",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0477-C0721-parent@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0477-C0721-parent@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "name_literal": "Lena Jonsdotter",
+        "role_literal": "hustrun"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "O-P-0132-candidate-Abol1849",
+      "current_revision": "O-P-0132-candidate-Abol1849@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationens egna råfält är {\"from\":\"Lerbo\",\"month\":\"1849-11\",\"to\":\"Abol\"}. De har jämförts med ändringens avgränsade datumfält och ligger kvar i samma post R-ee18d72a1f9b24a41b76b279. Den ändrade källbeskrivningen av Lena/Johanna ger ingen förändring av denna separata1849flyttpost; kandidatstatus och råditto kvarstår.",
+      "requests": [
+        {
+          "id": "c2c718caca32597df01c811f8b4a87816c9d6d347b394f751df66e952adc997d",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0132-candidate-Abol1849@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0132-candidate-Abol1849@1",
+        "record_id": "R-ee18d72a1f9b24a41b76b279",
+        "mention_id": "M-P-0132-candidate-Abol1849",
+        "property": "candidate_record",
+        "value_literal": "Eva Lotta Jansdr; {\"month\":\"1849-11\",\"from\":\"Lerbo\",\"to\":\"Abol\"}",
+        "value_json": "{\"from\":\"Lerbo\",\"month\":\"1849-11\",\"to\":\"Abol\"}"
+      },
+      "reviewed_caveat": "Annan flytthändelse än Björkvik–Berthilstorp. Hålls separat; endast riktning/namnvariant avgör inte hela livstidsidentiteten och ingen numrerad total av kvinnor fastställs. Detta är endast denna källpost, ingen syntes av fler poster."
+    },
+    {
+      "object": "O-P-0132-candidate-Berthilstorp-arrival",
+      "current_revision": "O-P-0132-candidate-Berthilstorp-arrival@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationens egna råfält är {\"arrival_day\":null,\"arrival_month\":\"1849-11\",\"count\":\"1 kvinna\",\"from\":\"Björkvik via d:o från föregående post\",\"to\":\"Berthilstorp\"}. De har jämförts med ändringens avgränsade datumfält och ligger kvar i samma post R-e826ae7f5d5facfd95eda6ea. Den ändrade källbeskrivningen av Lena/Johanna ger ingen förändring av denna separata1849flyttpost; kandidatstatus och råditto kvarstår.",
+      "requests": [
+        {
+          "id": "62076ab4f40c9634655ae6e31f40b502f51210cc65d033a3d979494f5fa88fcd",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0132-candidate-Berthilstorp-arrival@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0132-candidate-Berthilstorp-arrival@1",
+        "record_id": "R-e826ae7f5d5facfd95eda6ea",
+        "mention_id": "M-P-0132-candidate-Berthilstorp-arrival",
+        "property": "candidate_record",
+        "value_literal": "Eva Lotta Jonsdr; {\"arrival_month\":\"1849-11\",\"arrival_day\":null,\"from\":\"Björkvik via d:o från föregående post\",\"to\":\"Berthilstorp\",\"count\":\"1 kvinna\"}",
+        "value_json": "{\"arrival_day\":null,\"arrival_month\":\"1849-11\",\"count\":\"1 kvinna\",\"from\":\"Björkvik via d:o från föregående post\",\"to\":\"Berthilstorp\"}"
+      },
+      "reviewed_caveat": "En inflyttningspost, exakt ankomstdag ej läst; avsändarditto från Per Johan Janssons separata kontrollrad. Detta är endast denna källpost, ingen syntes av fler poster."
+    },
+    {
+      "object": "O-P-0475-CarlEricErsson",
+      "current_revision": "O-P-0475-CarlEricErsson@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationens egna råfält är {\"place\":\"Hindricstorp[?]\"}. De har jämförts med ändringens avgränsade datumfält och ligger kvar i samma post R-a2a8fc78bdeaaae25c917e7f. Vittnesorten är uttryckligen reserverad; Lenas födelsedagsrättelse och GretaLenas separat rättade ort gör inte denna ort säker eller felaktig.",
+      "requests": [
+        {
+          "id": "07e10be4e1de7e1a05f6be9dddb5ae95906e2ef564eac86b7d272add32b1171a",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-CarlEricErsson@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "8a5836fdee5430a4cec8d64b8357c8b464abfa606925977758505d8d0114f4a7",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-CarlEricErsson@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0475-CarlEricErsson@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "mention_id": "M-P-0475-CarlEricErsson",
+        "property": "person_fields",
+        "value_literal": "{\"place\":\"Hindricstorp[?]\"}",
+        "value_json": "{\"place\":\"Hindricstorp[?]\"}"
+      },
+      "reviewed_caveat": "Vittnes-/utfärdarroll, inget automatiskt släktskap."
+    },
+    {
+      "object": "O-P-0475-MajaJonsdotter",
+      "current_revision": "O-P-0475-MajaJonsdotter@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationens egna råfält är {\"place\":\"Hindricstorp[?]\"}. De har jämförts med ändringens avgränsade datumfält och ligger kvar i samma post R-a2a8fc78bdeaaae25c917e7f. Vittnesorten är uttryckligen reserverad; Lenas födelsedagsrättelse och GretaLenas separat rättade ort gör inte denna ort säker eller felaktig.",
+      "requests": [
+        {
+          "id": "10a4ad4b5b07c2eadfeb879c3063b49a29e8955037e027f1c771fc9b88a83774",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-MajaJonsdotter@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "b896a9de49ec5e731c40fed761329735b8519fb01931ed253854521be3398ea6",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-MajaJonsdotter@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0475-MajaJonsdotter@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "mention_id": "M-P-0475-MajaJonsdotter",
+        "property": "person_fields",
+        "value_literal": "{\"place\":\"Hindricstorp[?]\"}",
+        "value_json": "{\"place\":\"Hindricstorp[?]\"}"
+      },
+      "reviewed_caveat": "Vittnes-/utfärdarroll, inget automatiskt släktskap."
+    },
+    {
+      "object": "O-P-0475-PehrLarsson",
+      "current_revision": "O-P-0475-PehrLarsson@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Observationens egna råfält är {\"place\":\"Maglinge[?]\"}. De har jämförts med ändringens avgränsade datumfält och ligger kvar i samma post R-a2a8fc78bdeaaae25c917e7f. Vittnesorten är uttryckligen reserverad; Lenas födelsedagsrättelse och GretaLenas separat rättade ort gör inte denna ort säker eller felaktig.",
+      "requests": [
+        {
+          "id": "2b8c0042ef15c38d0374b419f321736264409d53c7334323d6dc0bcddadc363c",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-PehrLarsson@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "ab0f9a6373ca335b3c10bc97a7857086251024b91b7da858b8babac8a0387ec8",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-PehrLarsson@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0475-PehrLarsson@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "mention_id": "M-P-0475-PehrLarsson",
+        "property": "person_fields",
+        "value_literal": "{\"place\":\"Maglinge[?]\"}",
+        "value_json": "{\"place\":\"Maglinge[?]\"}"
+      },
+      "reviewed_caveat": "Vittnes-/utfärdarroll, inget automatiskt släktskap."
+    },
+    {
+      "object": "O-P-0475-child-birth",
+      "current_revision": "O-P-0475-child-birth@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Johannas egen födelsepost har fortfarande födelse1819-05-30,dop31maj,JanEricson/LenaJonsdotter,Walla och mor34. Den nya hushållsmånaden4[?] får inte flyttas in i denna andra, självständigt avgränsade observationspost.",
+      "requests": [
+        {
+          "id": "4b747de75a2af5a9fa1243d29f1195ff6c7cc08922be76d53cce447674652e7e",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-child-birth@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "55a501853211f740781c00f1d02d45f0d094d102b41fcc6c804953de65b5d670",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-child-birth@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0475-child-birth@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "mention_id": "M-P-0475-child-birth",
+        "property": "person_fields",
+        "value_literal": "{\"born\":\"1819-05-30\",\"baptised\":\"1819-05-31\",\"father\":\"Jan Ericson\",\"father_title\":\"hemmansbrukaren\",\"mother\":\"Lena Jonsdotter\",\"mother_age\":34,\"home\":\"Walla\",\"churching_date_and_officiant_absent\":true}",
+        "value_json": "{\"baptised\":\"1819-05-31\",\"born\":\"1819-05-30\",\"churching_date_and_officiant_absent\":true,\"father\":\"Jan Ericson\",\"father_title\":\"hemmansbrukaren\",\"home\":\"Walla\",\"mother\":\"Lena Jonsdotter\",\"mother_age\":34}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "O-P-0475-departure1841",
+      "current_revision": "O-P-0475-departure1841@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Utflyttningsobservationen harår1841,post27,Backstugan→Bettna,en kvinna,mansstreck och blank dag/månad. Allt bekräftades i T0110; Lenas/Johannas födelsedateringar avser andra poster.",
+      "requests": [
+        {
+          "id": "646709d51bd3e890c0178ba253971c5685f6cbf2474026d700f8fa5e942f37d4",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0475-departure1841@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0475-departure1841@1",
+        "record_id": "R-394b795d8105de8cd7e79e64",
+        "mention_id": "M-P-0475-departure1841",
+        "property": "person_fields",
+        "value_literal": "{\"year\":1841,\"post\":27,\"from\":\"Backstugan\",\"to\":\"Bettna\",\"women\":1,\"men\":\"streck\",\"day_month_blank\":true}",
+        "value_json": "{\"day_month_blank\":true,\"from\":\"Backstugan\",\"men\":\"streck\",\"post\":27,\"to\":\"Bettna\",\"women\":1,\"year\":1841}"
+      },
+      "reviewed_caveat": ""
+    },
+    {
+      "object": "O-P-0476-C0721-Walla",
+      "current_revision": "O-P-0476-C0721-Walla@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Jans egen Walla-rad behåller1791 5/9Björkvik, inflytt1815medreserveradfrånort och synliga kunskaps-/årstecken. Rättelserna1785 31/10 och30/4[?] gäller andra familjemedlemmar; de överförs inte till hans egen observation.",
+      "requests": [
+        {
+          "id": "0b2087395d33be6db32b2106e8707d8e6a6087020f2e289f9c6e93389b1c8999",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0476-C0721-Walla@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "5db1be609682408ce5d7e4d66da27609232cd8db96470d53dbc896bcd89d6262",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0476-C0721-Walla@1",
+          "changed_basis": "R-5785656ae35a013a260b39b3@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0476-C0721-Walla@1",
+        "record_id": "R-5785656ae35a013a260b39b3",
+        "mention_id": "M-P-0476-C0721-Walla",
+        "property": "person_fields",
+        "value_literal": "{\"birth_literal\":\"1791 5/9 Björkvik\",\"arrival_year\":1815,\"arrival_phrase\":\"Laffinge/Läffinge[?] L.M.[?]\",\"smallpox_cell\":\"tom\",\"reading_signs\":\"K-liknande markeringar och ett streck\",\"church_signs\":{\"1819\":\"två bokstavsliknande nattvardstecken och förhörstecken\",\"1820\":\"små nattvardstecken och förhör\",\"1821\":\"g-liknande nattvard och förhör\"},\"year_fields1822_1823\":\"tomma\",\"departure_fields\":\"tomma\",\"disability_and_life_circumstances\":\"tomt\",\"own_death_note\":null}",
+        "value_json": "{\"arrival_phrase\":\"Laffinge/Läffinge[?] L.M.[?]\",\"arrival_year\":1815,\"birth_literal\":\"1791 5/9 Björkvik\",\"church_signs\":{\"1819\":\"två bokstavsliknande nattvardstecken och förhörstecken\",\"1820\":\"små nattvardstecken och förhör\",\"1821\":\"g-liknande nattvard och förhör\"},\"departure_fields\":\"tomma\",\"disability_and_life_circumstances\":\"tomt\",\"own_death_note\":null,\"reading_signs\":\"K-liknande markeringar och ett streck\",\"smallpox_cell\":\"tom\",\"year_fields1822_1823\":\"tomma\"}"
+      },
+      "reviewed_caveat": "Egna fullprövade T0141-fält. Barnensv överförs inte; tomt fält bevisar inte hälsa eller död."
+    },
+    {
+      "object": "O-P-0476-C0721-parent",
+      "current_revision": "O-P-0476-C0721-parent@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Fadersobservationen återger Johannas födelse30maj/dop31maj,Walla och hustrunLena. Alla fält bekräftas i post39; dess data innehåller inte fel1783datumet från Walla.",
+      "requests": [
+        {
+          "id": "d5c493d87b0e51cd5250b4642bbb724fa04e51727fcbf80544864265764cdb5a",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0476-C0721-parent@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "3ef21fa6014179d70f8dea090bfdee64e2aa4f89784ec00e819d7e6b5b3ed4f9",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0476-C0721-parent@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0476-C0721-parent@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "mention_id": "M-P-0476-C0721-parent",
+        "property": "person_fields",
+        "value_literal": "{\"child\":\"Johanna\",\"child_birth\":\"1819-05-30\",\"child_baptism\":\"1819-05-31\",\"home\":\"Walla\",\"spouse\":\"Lena Jonsdotter\"}",
+        "value_json": "{\"child\":\"Johanna\",\"child_baptism\":\"1819-05-31\",\"child_birth\":\"1819-05-30\",\"home\":\"Walla\",\"spouse\":\"Lena Jonsdotter\"}"
+      },
+      "reviewed_caveat": "Egen namngiven föräldraroll i dotterns avgränsade födelsepost; inga vuxenradens födelsedata i denna observation."
+    },
+    {
+      "object": "O-P-0477-C0721-parent",
+      "current_revision": "O-P-0477-C0721-parent@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Modersobservationen återger Johannas födelse30maj/dop31maj,Walla,JanEricson och egen uppgiven ålder34. Ålder34 är ett separat råfält och ändras inte till33 genom beräkning från hushållets1785datum.",
+      "requests": [
+        {
+          "id": "6047c17ce8a18fe02fa851497991d84ee18a7975eeb75dad12e6c0642fb913e2",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0477-C0721-parent@1",
+          "changed_basis": "S-0556@2"
+        },
+        {
+          "id": "3c5483535bd71c4fb04f99423183f97c496bff590635982139e042aa6815881d",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0477-C0721-parent@1",
+          "changed_basis": "R-a2a8fc78bdeaaae25c917e7f@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0477-C0721-parent@1",
+        "record_id": "R-a2a8fc78bdeaaae25c917e7f",
+        "mention_id": "M-P-0477-C0721-parent",
+        "property": "person_fields",
+        "value_literal": "{\"child\":\"Johanna\",\"child_birth\":\"1819-05-30\",\"child_baptism\":\"1819-05-31\",\"home\":\"Walla\",\"spouse\":\"Jan Ericson\",\"own_age_reported\":34}",
+        "value_json": "{\"child\":\"Johanna\",\"child_baptism\":\"1819-05-31\",\"child_birth\":\"1819-05-30\",\"home\":\"Walla\",\"own_age_reported\":34,\"spouse\":\"Jan Ericson\"}"
+      },
+      "reviewed_caveat": "Egen namngiven föräldraroll i dotterns avgränsade födelsepost; inga vuxenradens födelsedata i denna observation."
+    },
+    {
+      "object": "R-394b795d8105de8cd7e79e64",
+      "current_revision": "R-394b795d8105de8cd7e79e64@1",
+      "kind": "record",
+      "action": "requires_revision",
+      "rationale": "Utflyttningspost27år1841, Backstugan→Bettna, dag/månadblankt, består. Caveat har en kopierad aktuell utsaga att Lenas egna Walla-kolumner ännu är outvunna. De är nu avlästa med teckenreservationer; stryk just den överspelade metauppgiften.",
+      "requests": [
+        {
+          "id": "bc9bedf28d8a06fc33927c17685d767832d48e8bcdeadbe074219eb3fd846829",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "R-394b795d8105de8cd7e79e64@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "R-394b795d8105de8cd7e79e64@1",
+        "source_id": "S-0556",
+        "record_type": "departure",
+        "locator": "Stora Malm B/1, utflyttade 1841 post 27, Johanna Jansdotter från Backstugan till Bettna, C0007583_00018",
+        "dependence_note": "Reciprok uppgift till Bettna A I/11a:s 41 St. Malm, inte en oberoende födelseuppgift."
+      },
+      "reviewed_caveat": "Dag och månad tomma; en kvinna och streck i manskolumnen. Ingen exakt fysisk flyttdag eller full Walla–Backstugan-kedja följer.\nC-0721: Alla tillägg bevaras. Projektets åldersargument och hypotetiska äldre Anders-äktenskap hålls skilda från observerade rader; en beräknad ålder ensam avgör inte biologiskt faderskap. Tre senare modersåldrar skiljer inte 30 april från 30 maj och kan bygga på samma kyrkoboksuppgift. Lena har en uttryckligen outvunnen egen kolumngrupp, inte ett läst noll."
+    },
+    {
+      "object": "R-d9811794608e4b0350acfd66",
+      "current_revision": "R-d9811794608e4b0350acfd66@1",
+      "kind": "record",
+      "action": "retain",
+      "rationale": "Posten är exakt avgränsad som Stora Malm B/1, inflyttade november 1849, Per Johan Jansson från Björkvik till Elgsjötorp, C0007583_00044 vänstersidan. S0556:s rättade Lena-/Johanna-uppgifter hör till Walla/födelse1819, medan denna avgränsade B1-post fortfarande har samma år, personer, från/till och identitetsbegränsning. Volymdefinitionen omfattar alltjämt B1; ingen arkivpost flyttas eller får bredare räckvidd.",
+      "requests": [
+        {
+          "id": "a81ef8b4cd187e7ab0b1104f7544434c7a6d7cd2ddd4b99cb921590890d6e81d",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "R-d9811794608e4b0350acfd66@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "R-d9811794608e4b0350acfd66@1",
+        "source_id": "S-0556",
+        "record_type": "migration_entry",
+        "locator": "Stora Malm B/1, inflyttade november 1849, Per Johan Jansson från Björkvik till Elgsjötorp, C0007583_00044 vänstersidan",
+        "dependence_note": "Styrande avsändarrad för Eva Lottas ditto, inte självständigt stöd för hennes födelse."
+      },
+      "reviewed_caveat": "Endast den uttryckliga dräng-, namn-, avsändar- och destinationsformen är återgiven. Ingen dag eller födelseuppgift läggs till.\nC-1088: Tre särskilda flyttrader och återbruk av ortregisterraden hålls åtskilda. T-0137 rättar antalet församlingar och påståendet om obruten levnadskedja. Årets utflyttningssida och andra sidor lästes inte sakligt. S-0556 återbrukas eftersom dess explicita volymdefinition omfattar hela B/1, trots äldre personinriktad titel."
+    },
+    {
+      "object": "R-e826ae7f5d5facfd95eda6ea",
+      "current_revision": "R-e826ae7f5d5facfd95eda6ea@1",
+      "kind": "record",
+      "action": "retain",
+      "rationale": "Posten är exakt avgränsad som Stora Malm B/1, inflyttade november 1849, Eva Lotta Jonsdr till Berthilstorp, C0007583_00044 vänstersidan. S0556:s rättade Lena-/Johanna-uppgifter hör till Walla/födelse1819, medan denna avgränsade B1-post fortfarande har samma år, personer, från/till och identitetsbegränsning. Volymdefinitionen omfattar alltjämt B1; ingen arkivpost flyttas eller får bredare räckvidd.",
+      "requests": [
+        {
+          "id": "925ddbb5ceea330bcda3cc0da00498e04b2e80523274d0152c0d3cc5f8b12312",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "R-e826ae7f5d5facfd95eda6ea@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "R-e826ae7f5d5facfd95eda6ea@1",
+        "source_id": "S-0556",
+        "record_type": "migration_entry",
+        "locator": "Stora Malm B/1, inflyttade november 1849, Eva Lotta Jonsdr till Berthilstorp, C0007583_00044 vänstersidan",
+        "dependence_note": "Korrelerad återflyttning; ditto delar informationsankare med föregående rad. Två församlingar och ingen obruten kedja från 1832."
+      },
+      "reviewed_caveat": "Avsändaren är ett ditto till Per Johan Janssons föregående Björkvikrad. Ingen exakt dag eller födelseuppgift tilldelas.\nC-1088: Tre särskilda flyttrader och återbruk av ortregisterraden hålls åtskilda. T-0137 rättar antalet församlingar och påståendet om obruten levnadskedja. Årets utflyttningssida och andra sidor lästes inte sakligt. S-0556 återbrukas eftersom dess explicita volymdefinition omfattar hela B/1, trots äldre personinriktad titel."
+    },
+    {
+      "object": "R-ee18d72a1f9b24a41b76b279",
+      "current_revision": "R-ee18d72a1f9b24a41b76b279@1",
+      "kind": "record",
+      "action": "retain",
+      "rationale": "Posten är exakt avgränsad som Stora Malm B/1, inflyttade november 1849, Eva Lotta Jansdr från Lerbo till Abol, C0007583_00044 vänstersidan. S0556:s rättade Lena-/Johanna-uppgifter hör till Walla/födelse1819, medan denna avgränsade B1-post fortfarande har samma år, personer, från/till och identitetsbegränsning. Volymdefinitionen omfattar alltjämt B1; ingen arkivpost flyttas eller får bredare räckvidd.",
+      "requests": [
+        {
+          "id": "ad2048f0876574d6638156967f61bbb05d3ecc32202c06b24cad6edf5a38b380",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "R-ee18d72a1f9b24a41b76b279@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "R-ee18d72a1f9b24a41b76b279@1",
+        "source_id": "S-0556",
+        "record_type": "migration_entry",
+        "locator": "Stora Malm B/1, inflyttade november 1849, Eva Lotta Jansdr från Lerbo till Abol, C0007583_00044 vänstersidan",
+        "dependence_note": "Positiv kontrollrad i samma namnsökning, inte septemberkandidatens återflyttning."
+      },
+      "reviewed_caveat": "Separat namnlik kvinna på samma sida. Patronymikon ensamt avgör inte identitet; ett obelagt totalantal liknamniga kvinnor används inte.\nC-1088: Tre särskilda flyttrader och återbruk av ortregisterraden hålls åtskilda. T-0137 rättar antalet församlingar och påståendet om obruten levnadskedja. Årets utflyttningssida och andra sidor lästes inte sakligt. S-0556 återbrukas eftersom dess explicita volymdefinition omfattar hela B/1, trots äldre personinriktad titel."
+    },
+    {
+      "object": "READ-2647663ba6762b949d1f6508",
+      "current_revision": "READ-2647663ba6762b949d1f6508@1",
+      "kind": "assessment",
+      "action": "retain",
+      "rationale": "Bedömningen legacy_record_boundary för R-ee18d72a1f9b24a41b76b279 avgränsar den separata1849kontroll-/inflyttningsraden och håller namnlikhet, ditto och tvåförsamlingsgräns uttryckliga. S0556:s nya Lena-datering omprövar inte den radens observerade namn, riktning eller öppna identitetsfråga.",
+      "requests": [
+        {
+          "id": "79bed366f50b8c7363e35f58893e31089b49ab909d70175421e4a3e696de5cb0",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "READ-2647663ba6762b949d1f6508@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "READ-2647663ba6762b949d1f6508@1",
+        "subject_id": "R-ee18d72a1f9b24a41b76b279",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "C-1088: Tre särskilda flyttrader och återbruk av ortregisterraden hålls åtskilda. T-0137 rättar antalet församlingar och påståendet om obruten levnadskedja. Årets utflyttningssida och andra sidor lästes inte sakligt. S-0556 återbrukas eftersom dess explicita volymdefinition omfattar hela B/1, trots äldre personinriktad titel.\nPositiv kontrollrad i samma namnsökning, inte septemberkandidatens återflyttning."
+      },
+      "reviewed_caveat": "Separat namnlik kvinna på samma sida. Patronymikon ensamt avgör inte identitet; ett obelagt totalantal liknamniga kvinnor används inte."
+    },
+    {
+      "object": "READ-8478c8a0b228ab7fd350e525",
+      "current_revision": "READ-8478c8a0b228ab7fd350e525@1",
+      "kind": "assessment",
+      "action": "retain",
+      "rationale": "Bedömningen legacy_record_boundary för R-e826ae7f5d5facfd95eda6ea avgränsar den separata1849kontroll-/inflyttningsraden och håller namnlikhet, ditto och tvåförsamlingsgräns uttryckliga. S0556:s nya Lena-datering omprövar inte den radens observerade namn, riktning eller öppna identitetsfråga.",
+      "requests": [
+        {
+          "id": "78bb599bdde8206cbaa35adb8aefe07f6db0eff21611fe223c05cb3665949e07",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "READ-8478c8a0b228ab7fd350e525@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "READ-8478c8a0b228ab7fd350e525@1",
+        "subject_id": "R-e826ae7f5d5facfd95eda6ea",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "C-1088: Tre särskilda flyttrader och återbruk av ortregisterraden hålls åtskilda. T-0137 rättar antalet församlingar och påståendet om obruten levnadskedja. Årets utflyttningssida och andra sidor lästes inte sakligt. S-0556 återbrukas eftersom dess explicita volymdefinition omfattar hela B/1, trots äldre personinriktad titel.\nKorrelerad återflyttning; ditto delar informationsankare med föregående rad. Två församlingar och ingen obruten kedja från 1832."
+      },
+      "reviewed_caveat": "Avsändaren är ett ditto till Per Johan Janssons föregående Björkvikrad. Ingen exakt dag eller födelseuppgift tilldelas."
+    },
+    {
+      "object": "READ-b3773a92c622dec32e30bce7",
+      "current_revision": "READ-b3773a92c622dec32e30bce7@1",
+      "kind": "assessment",
+      "action": "retain",
+      "rationale": "Bedömningen legacy_record_boundary för R-d9811794608e4b0350acfd66 avgränsar den separata1849kontroll-/inflyttningsraden och håller namnlikhet, ditto och tvåförsamlingsgräns uttryckliga. S0556:s nya Lena-datering omprövar inte den radens observerade namn, riktning eller öppna identitetsfråga.",
+      "requests": [
+        {
+          "id": "48d452c655ccec90059db16cf5ce204034d9aa3ee41f1d919862c3cf99ce6092",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "READ-b3773a92c622dec32e30bce7@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "READ-b3773a92c622dec32e30bce7@1",
+        "subject_id": "R-d9811794608e4b0350acfd66",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "C-1088: Tre särskilda flyttrader och återbruk av ortregisterraden hålls åtskilda. T-0137 rättar antalet församlingar och påståendet om obruten levnadskedja. Årets utflyttningssida och andra sidor lästes inte sakligt. S-0556 återbrukas eftersom dess explicita volymdefinition omfattar hela B/1, trots äldre personinriktad titel.\nStyrande avsändarrad för Eva Lottas ditto, inte självständigt stöd för hennes födelse."
+      },
+      "reviewed_caveat": "Endast den uttryckliga dräng-, namn-, avsändar- och destinationsformen är återgiven. Ingen dag eller födelseuppgift läggs till."
+    },
+    {
+      "object": "TR-7640a23260bcdaa07adfaced",
+      "current_revision": "TR-7640a23260bcdaa07adfaced@1",
+      "kind": "transcription",
+      "action": "requires_revision",
+      "rationale": "Själva utflyttningsavskriften är fortsatt korrekt. reading_note hävdar däremot aktuell outvunnen Lena-kolumngrupp; byt mot att dessa fält nu lästs och råtecken dokumenterats, utan att göra tomfält till säkra hälso-/vistelseslutsatser.",
+      "requests": [
+        {
+          "id": "40b1d78e4e440f13032d83c01ef5aca4e90e3392a64942901218499257af2870",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "TR-7640a23260bcdaa07adfaced@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "TR-7640a23260bcdaa07adfaced@1",
+        "record_id": "R-394b795d8105de8cd7e79e64",
+        "text": "- `Pigan Johanna Jansd:r`;\n- från `Backstugan`;\n- till `Bettna`;\n- dagfältet är tomt.\n",
+        "reading_note": "Alla tillägg bevaras. Projektets åldersargument och hypotetiska äldre Anders-äktenskap hålls skilda från observerade rader; en beräknad ålder ensam avgör inte biologiskt faderskap. Tre senare modersåldrar skiljer inte 30 april från 30 maj och kan bygga på samma kyrkoboksuppgift. Lena har en uttryckligen outvunnen egen kolumngrupp, inte ett läst noll.\nDag och månad tomma; en kvinna och streck i manskolumnen. Ingen exakt fysisk flyttdag eller full Walla–Backstugan-kedja följer."
+      },
+      "reviewed_caveat": "Dag och månad tomma; en kvinna och streck i manskolumnen. Ingen exakt fysisk flyttdag eller full Walla–Backstugan-kedja följer."
+    },
+    {
+      "object": "TR-8aad8339811b6301fbee8621",
+      "current_revision": "TR-8aad8339811b6301fbee8621@1",
+      "kind": "transcription",
+      "action": "retain",
+      "rationale": "Den avgränsade texten > `pig. **Eva Lotta Jonsdr** | d:o | **Berthilstorp** | – | 1` gäller samma1849inflyttningsrad och separata namnvariant/destination. S0556:s ändring avser andra personer1819. Ditto kopplas fortsatt till sin särskilda föregående rad och ingen exakt dag eller vuxenidentitet läggs till.",
+      "requests": [
+        {
+          "id": "925a864e53e2e75395e804d8f89ef46cb3bb313289c7891ba57cc7a434f40c7f",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "TR-8aad8339811b6301fbee8621@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "TR-8aad8339811b6301fbee8621@1",
+        "record_id": "R-e826ae7f5d5facfd95eda6ea",
+        "text": "> `pig. **Eva Lotta Jonsdr** | d:o | **Berthilstorp** | – | 1`\n",
+        "reading_note": "Tre särskilda flyttrader och återbruk av ortregisterraden hålls åtskilda. T-0137 rättar antalet församlingar och påståendet om obruten levnadskedja. Årets utflyttningssida och andra sidor lästes inte sakligt. S-0556 återbrukas eftersom dess explicita volymdefinition omfattar hela B/1, trots äldre personinriktad titel.\nAvsändaren är ett ditto till Per Johan Janssons föregående Björkvikrad. Ingen exakt dag eller födelseuppgift tilldelas."
+      },
+      "reviewed_caveat": "Avsändaren är ett ditto till Per Johan Janssons föregående Björkvikrad. Ingen exakt dag eller födelseuppgift tilldelas."
+    },
+    {
+      "object": "TR-af4fee6b9c2203f012ad4b6d",
+      "current_revision": "TR-af4fee6b9c2203f012ad4b6d@1",
+      "kind": "transcription",
+      "action": "retain",
+      "rationale": "Den avgränsade texten > `pig. **Eva Lotta Jansdr** | **Lerbo** | Abol` gäller samma1849inflyttningsrad och separata namnvariant/destination. S0556:s ändring avser andra personer1819. Ditto kopplas fortsatt till sin särskilda föregående rad och ingen exakt dag eller vuxenidentitet läggs till.",
+      "requests": [
+        {
+          "id": "990f522e0031602f6d319879e76566aeb7664fe46ad074640973f62fea364785",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "TR-af4fee6b9c2203f012ad4b6d@1",
+          "changed_basis": "S-0556@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "TR-af4fee6b9c2203f012ad4b6d@1",
+        "record_id": "R-ee18d72a1f9b24a41b76b279",
+        "text": "> `pig. **Eva Lotta Jansdr** | **Lerbo** | Abol`\n",
+        "reading_note": "Tre särskilda flyttrader och återbruk av ortregisterraden hålls åtskilda. T-0137 rättar antalet församlingar och påståendet om obruten levnadskedja. Årets utflyttningssida och andra sidor lästes inte sakligt. S-0556 återbrukas eftersom dess explicita volymdefinition omfattar hela B/1, trots äldre personinriktad titel.\nSeparat namnlik kvinna på samma sida. Patronymikon ensamt avgör inte identitet; ett obelagt totalantal liknamniga kvinnor används inte."
+      },
+      "reviewed_caveat": "Separat namnlik kvinna på samma sida. Patronymikon ensamt avgör inte identitet; ett obelagt totalantal liknamniga kvinnor används inte."
+    },
+    {
+      "object": "ID-P-0476-Jan1791-candidate",
+      "current_revision": "ID-P-0476-Jan1791-candidate@1",
+      "kind": "identity",
+      "action": "retain",
+      "rationale": "Jan1791 förblir en candidate/LEAD: eget födelsedatum5september i Björkvik är positivt men personlig brygga till Walla saknas. Lenas återställda datumöverensstämmelse är inget ytterligare stöd för Jans identitet.",
+      "requests": [
+        {
+          "id": "d0cd37c5c48b81ae7324f7283a1c541b174afa5b582fab580e85911301933a12",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0476-Jan1791-candidate@1",
+          "changed_basis": "S-0564@2"
+        },
+        {
+          "id": "d6de444ba64d57e6e266e21cffb7cbbd1d4a32e646cf164123118e05bdf93f32",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0476-Jan1791-candidate@1",
+          "changed_basis": "R-de8eeb46e6961ce1353920c1@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0476-Jan1791-candidate@1",
+        "mention_id": "M-P-0476-Jan1791-candidate",
+        "person_id": "P-0476",
+        "decision": "candidate"
+      },
+      "reviewed_caveat": "Samtida post, men uttrycklig personlig brygga till Walla saknas. Bokföringsförsamling, hemvist och dopplats skiljs."
+    },
+    {
+      "object": "ID-P-0477-Helena1785-candidate",
+      "current_revision": "ID-P-0477-Helena1785-candidate@1",
+      "kind": "identity",
+      "action": "requires_revision",
+      "rationale": "Candidate/LEAD består eftersom identitetsbrygga saknas. Caveat dubbelt försvagad bygger på den nu upphävda exakta datumavvikelsen; datum1785-10-31 sammanfaller åter med Walla, medan ålder34 och namn/kedja måste hållas separata.",
+      "requests": [
+        {
+          "id": "6eac69c48fb98179d13dfda8f44f6604316989361d08366a7c6941e8769058ff",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0477-Helena1785-candidate@1",
+          "changed_basis": "S-0564@2"
+        },
+        {
+          "id": "0b82a73b7e4ad3a8f095b148f921a6560cc3eb758bd8ba52e08c4f872eb8057b",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "ID-P-0477-Helena1785-candidate@1",
+          "changed_basis": "R-fefeb168036077305470ad63@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "ID-P-0477-Helena1785-candidate@1",
+        "mention_id": "M-P-0477-Helena1785-candidate",
+        "person_id": "P-0477",
+        "decision": "candidate"
+      },
+      "reviewed_caveat": "Ingen separat råroll utvunnen. Kandidaten är dubbelt försvagad men kvar som LEAD; ingen identitets- eller föräldrapropagation."
+    },
+    {
+      "object": "M-P-0476-Jan1791-candidate",
+      "current_revision": "M-P-0476-Jan1791-candidate@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Jan har rårollen Son i R-de8eeb46e6961ce1353920c1. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "8e3592bb3f4b408425038b7a9a49ec4845ce77a58d46753467811849bf37f8c2",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0476-Jan1791-candidate@1",
+          "changed_basis": "S-0564@2"
+        },
+        {
+          "id": "2774a8b5735e933a5948f6f205fb2bc580c8c08e3e3960e628f714b46c1a08bf",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0476-Jan1791-candidate@1",
+          "changed_basis": "R-de8eeb46e6961ce1353920c1@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0476-Jan1791-candidate@1",
+        "record_id": "R-de8eeb46e6961ce1353920c1",
+        "name_literal": "Jan",
+        "role_literal": "Son"
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "M-P-0477-Helena1785-candidate",
+      "current_revision": "M-P-0477-Helena1785-candidate@1",
+      "kind": "mention",
+      "action": "retain",
+      "rationale": "Omnämnandet Helena har rårollen (ingen separat råroll) i R-fefeb168036077305470ad63. Den nya avskriften/källavgränsningen förändrar datum- eller jämförelsefält, inte just detta namn eller denna roll. Rånamn och postbindning kvarstår; ingen identitet eller ort härleds ur namnformen.",
+      "requests": [
+        {
+          "id": "ef7a6213694fbb487192c592b9a0c86687ba1328ad42440d57114babf5b876d4",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0477-Helena1785-candidate@1",
+          "changed_basis": "S-0564@2"
+        },
+        {
+          "id": "5e70beae2745ad652181106284a0070c1b0c1584e820614998a5cd264f288361",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "M-P-0477-Helena1785-candidate@1",
+          "changed_basis": "R-fefeb168036077305470ad63@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "M-P-0477-Helena1785-candidate@1",
+        "record_id": "R-fefeb168036077305470ad63",
+        "name_literal": "Helena",
+        "role_literal": ""
+      },
+      "reviewed_caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält."
+    },
+    {
+      "object": "O-P-0476-Jan1791-candidate",
+      "current_revision": "O-P-0476-Jan1791-candidate@1",
+      "kind": "observation",
+      "action": "retain",
+      "rationale": "Jan-kandidatens egen födelse/dop1791-09-05/06, reserveradeÅtorp och namngivnaföräldrar/vittnen är rådata från hans egen post. S0564-rättelsen av Lenas datum och äldre majnoll ändrar inte dessa fält eller den uttryckligt saknade Walla-bryggan.",
+      "requests": [
+        {
+          "id": "e8fedaf148f2bc6146bd5188099ec3c32e42ffcd7e726b516d0674bf5385e1ac",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0476-Jan1791-candidate@1",
+          "changed_basis": "S-0564@2"
+        },
+        {
+          "id": "7f7785b99200ba9d8a2cd341305d76269410394a448d8504d4da20353d73663a",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0476-Jan1791-candidate@1",
+          "changed_basis": "R-de8eeb46e6961ce1353920c1@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0476-Jan1791-candidate@1",
+        "record_id": "R-de8eeb46e6961ce1353920c1",
+        "mention_id": "M-P-0476-Jan1791-candidate",
+        "property": "person_fields",
+        "value_literal": "{\"birth\":\"1791-09-05\",\"baptism\":\"1791-09-06\",\"home\":\"Åtorp[?]\",\"father_literal\":\"Arb. Eric Anderssons\",\"mother_literal\":\"dess Hust. Anna Andersdotters\",\"baptism_place\":\"St. Malms [kyrka?]\",\"mother_churched\":\"St. Malm\",\"mother_age_not_stated\":true,\"mother_churching_exact_date_not_stated\":true,\"witnesses\":[{\"name\":\"Carl Andersson\",\"wife\":\"Anna Andersdotter\",\"place\":\"Åbol[?] i St. Malm\"},{\"name\":\"Eric Ersson\",\"role\":\"dr.\",\"place\":\"Åtorp[?] i St. Malm\"},{\"name\":\"Anna Stina Carlsdr\",\"role\":\"dottern\",\"place\":\"ib.\"}],\"parents_phrase_literal\":\"Arb. Eric Anderssons och dess Hust. Anna Andersdotters\"}",
+        "value_json": "{\"baptism\":\"1791-09-06\",\"baptism_place\":\"St. Malms [kyrka?]\",\"birth\":\"1791-09-05\",\"father_literal\":\"Arb. Eric Anderssons\",\"home\":\"Åtorp[?]\",\"mother_age_not_stated\":true,\"mother_churched\":\"St. Malm\",\"mother_churching_exact_date_not_stated\":true,\"mother_literal\":\"dess Hust. Anna Andersdotters\",\"parents_phrase_literal\":\"Arb. Eric Anderssons och dess Hust. Anna Andersdotters\",\"witnesses\":[{\"name\":\"Carl Andersson\",\"place\":\"Åbol[?] i St. Malm\",\"wife\":\"Anna Andersdotter\"},{\"name\":\"Eric Ersson\",\"place\":\"Åtorp[?] i St. Malm\",\"role\":\"dr.\"},{\"name\":\"Anna Stina Carlsdr\",\"place\":\"ib.\",\"role\":\"dottern\"}]}"
+      },
+      "reviewed_caveat": "Samtida post, men uttrycklig personlig brygga till Walla saknas. Bokföringsförsamling, hemvist och dopplats skiljs."
+    },
+    {
+      "object": "O-P-0477-Helena1785-candidate",
+      "current_revision": "O-P-0477-Helena1785-candidate@1",
+      "kind": "observation",
+      "action": "requires_revision",
+      "rationale": "Helena-postens egna råfält1785-10-31/1785-11-06,Walla och reserverade föräldranamn består. Caveat dubbelt försvagad är överspelat jämförelseomdöme efter återställd datumöverensstämmelse; separera observation från fortsatt oidentifierad kandidat.",
+      "requests": [
+        {
+          "id": "b2e6fa3883c51f4f09a7570ea8d0d7927b5ef2b655d4605c7853c1c82826522c",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0477-Helena1785-candidate@1",
+          "changed_basis": "S-0564@2"
+        },
+        {
+          "id": "fe2e6ce3d85899ddda8990d671d85dbff3f616a7e7c6d42c36b6f4518634102c",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "O-P-0477-Helena1785-candidate@1",
+          "changed_basis": "R-fefeb168036077305470ad63@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "O-P-0477-Helena1785-candidate@1",
+        "record_id": "R-fefeb168036077305470ad63",
+        "mention_id": "M-P-0477-Helena1785-candidate",
+        "property": "person_fields",
+        "value_literal": "{\"birth\":\"1785-10-31\",\"baptism\":\"1785-11-06\",\"home\":\"Walla\",\"father_reading_reserved\":\"Jonas Ersson\",\"mother_reading_reserved\":\"Cajsa Persdotter\"}",
+        "value_json": "{\"baptism\":\"1785-11-06\",\"birth\":\"1785-10-31\",\"father_reading_reserved\":\"Jonas Ersson\",\"home\":\"Walla\",\"mother_reading_reserved\":\"Cajsa Persdotter\"}"
+      },
+      "reviewed_caveat": "Ingen separat råroll utvunnen. Kandidaten är dubbelt försvagad men kvar som LEAD; ingen identitets- eller föräldrapropagation."
+    },
+    {
+      "object": "EP-E-birth-P-0477-P-0477-principal",
+      "current_revision": "EP-E-birth-P-0477-P-0477-principal@1",
+      "kind": "participation",
+      "action": "retain",
+      "rationale": "Deltagandet kopplar vuxnaP0477 till hennes abstrakta födelsehändelse utan källomnämnande. E-birth-P0477@2 har unknown precision och skiljer hushåll1785-10-31 från ålder34 och den oidentifierade Helena-posten. Deltaganderaden väljer inget exakt datum och förbehållet spärrar kandidatens identitetspropagation.",
+      "requests": [
+        {
+          "id": "47649c4d015139a22404c9d12c370ec1156a23701a06dbe6e19344dc98e94f16",
+          "operation": "T-0110-C0721-correction-v1",
+          "affected_revision": "EP-E-birth-P-0477-P-0477-principal@1",
+          "changed_basis": "E-birth-P-0477@2"
+        }
+      ],
+      "reviewed_payload": {
+        "revision_id": "EP-E-birth-P-0477-P-0477-principal@1",
+        "event_id": "E-birth-P-0477",
+        "person_id": "P-0477",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "reviewed_caveat": "Ingen av de olika kunskapsgrunderna väljs. Kandidatposten är inte en accepterad egen födelse."
+    }
+  ]
+}

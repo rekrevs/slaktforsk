@@ -1,0 +1,2684 @@
+{
+  "schema": "T-0110-pending-review-draft/1",
+  "source_db": "/tmp/T0110-final-review.sqlite",
+  "operation": "T-0110/c0277-source-corrections-v1",
+  "status": "DRAFT: root reviews and resolves; no DB mutations",
+  "request_count": 128,
+  "object_count": 118,
+  "decision_counts_objects": {
+    "retain": 111,
+    "revise": 7
+  },
+  "decision_counts_requests": {
+    "retain": 119,
+    "revise": 9
+  },
+  "review_scope": "Every pending request from this operation was compared with current payload and actual changed source fields; retention is bounded to these deltas, not a new person review. Global current-payload text scan found only the listed five remaining day6/19October copies. The additional Hulda copy error and Frans participation caveat are repaired separately.",
+  "objects": [
+    {
+      "object": "E-birth-P-0317",
+      "current_revision": "E-birth-P-0317@1",
+      "decision": "retain",
+      "rationale": "Edlas4juni1844 bekräftas; endast utflyttningsdagen har rättats. Händelsen behåller hushållsuppgiftens begränsning; eget ministerialoriginal har inte tillkommit.",
+      "current_payload": {
+        "revision_id": "E-birth-P-0317@1",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1844-06-04\",\"precision\":\"exact\",\"value\":\"1844-06-04\"}",
+        "place_id": null,
+        "place_role": "recording_context"
+      },
+      "current_caveat": "Västra Vingåker enligt egen husförhörsrad; egen födelsepost oläst. Böckerna är en beroende kedja.",
+      "requests": [
+        {
+          "request": "f331355856bace399ea92ac7faa81b629df249b905c262ca424bd70d8780e11a",
+          "affected_revision": "E-birth-P-0317@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "04e216643350485fd2aa9252fc1b6f00bb9921f80e4547fa2be9ff35e8a4fcf9",
+          "affected_revision": "E-birth-P-0317@1",
+          "changed_revision": "O-P-0317-C0277-own@2",
+          "actual_delta": "Edlas egen observation ändrar enbart utflyttningsdagen från19till10oktober1861."
+        }
+      ]
+    },
+    {
+      "object": "E-birth-P-0320",
+      "current_revision": "E-birth-P-0320@1",
+      "decision": "retain",
+      "rationale": "Maria Christinas20april1858 bekräftas oförändrat. Händelsen behåller hushållsuppgiftens begränsning; eget ministerialoriginal har inte tillkommit.",
+      "current_payload": {
+        "revision_id": "E-birth-P-0320@1",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1858-04-20\",\"precision\":\"exact\",\"value\":\"1858-04-20\"}",
+        "place_id": null,
+        "place_role": "recording_context"
+      },
+      "current_caveat": "Bettna församling. Touluse är hushållsrubrik; egen födelsenotis oläst.",
+      "requests": [
+        {
+          "request": "ddff84a694ba47f7831d50b3ecf59a67e94db134f6275bc4911b0dc42f90a488",
+          "affected_revision": "E-birth-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "E-death-P-0320",
+      "current_revision": "E-death-P-0320@1",
+      "decision": "retain",
+      "rationale": "Maria Christinas16november1861 står kvar i egen dödkolumn. Händelsen behåller hushållsuppgiftens begränsning; eget ministerialoriginal har inte tillkommit.",
+      "current_payload": {
+        "revision_id": "E-death-P-0320@1",
+        "event_type": "death",
+        "date_json": "{\"literal\":\"1861-11-16\",\"precision\":\"exact\",\"value\":\"1861-11-16\"}",
+        "place_id": null,
+        "place_role": "recording_context"
+      },
+      "current_caveat": "Husby-Oppunda enligt hushållsboken; dödbok oläst, ingen preciserad fysisk dödsplats.",
+      "requests": [
+        {
+          "request": "92dde936b442e877bf7856402763dfddf09b925df21dec686baab9c591f4d5b0",
+          "affected_revision": "E-death-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "E-death-P-0321",
+      "current_revision": "E-death-P-0321@1",
+      "decision": "retain",
+      "rationale": "Frans13oktober1863 står kvar trots reserverat födelsedatum. Händelsen behåller hushållsuppgiftens begränsning; eget ministerialoriginal har inte tillkommit.",
+      "current_payload": {
+        "revision_id": "E-death-P-0321@1",
+        "event_type": "death",
+        "date_json": "{\"literal\":\"1863-10-13\",\"precision\":\"exact\",\"value\":\"1863-10-13\"}",
+        "place_id": null,
+        "place_role": "recording_context"
+      },
+      "current_caveat": "En hushållsboksuppgift i Husby-Oppunda; dödbok oläst, fysisk plats och begravning okända.",
+      "requests": [
+        {
+          "request": "3f4f2fd7289269b72d15e18e840e63bc5a66241adb245bb1e2b2d40320e84b66",
+          "affected_revision": "E-death-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "2ae0ffdc4fdec0f2ca4cbe4ef30896877df9f7927fd8225c69fa201322b9b0b3",
+          "affected_revision": "E-death-P-0321@1",
+          "changed_revision": "O-P-0321-C0277-own@2",
+          "actual_delta": "Frans egen födelsedag blir osäker; år1862, namn, hemvist och död13oktober1863 består."
+        }
+      ]
+    },
+    {
+      "object": "E-registered_departure-P-0318-Blacksta1862",
+      "current_revision": "E-registered_departure-P-0318-Blacksta1862@1",
+      "decision": "retain",
+      "rationale": "Huldas24oktober1862 till Blacksta står kvar, separat från Edlas rättade datum. Händelsen behåller hushållsuppgiftens begränsning; eget ministerialoriginal har inte tillkommit.",
+      "current_payload": {
+        "revision_id": "E-registered_departure-P-0318-Blacksta1862@1",
+        "event_type": "registered_departure",
+        "date_json": "{\"literal\":\"1862-10-24\",\"precision\":\"exact\",\"value\":\"1862-10-24\"}",
+        "place_id": null,
+        "place_role": "recording_context"
+      },
+      "current_caveat": "Hjulfabriken till Blacksta; mottagarpost oläst.",
+      "requests": [
+        {
+          "request": "67a038f7d6ed8e5de26fc9324f631ab57d60c966c49a4fd23be7e7a3c720e4ce",
+          "affected_revision": "E-registered_departure-P-0318-Blacksta1862@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-birth-P-0317-P-0317-principal",
+      "current_revision": "EP-E-birth-P-0317-P-0317-principal@1",
+      "decision": "retain",
+      "rationale": "P-0317 kvarstår som principal i E-birth-P-0317. Edlas4juni1844 bekräftas; endast utflyttningsdagen har rättats. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-birth-P-0317-P-0317-principal@1",
+        "event_id": "E-birth-P-0317",
+        "person_id": "P-0317",
+        "mention_id": "M-C0275-Edla-Gustafva",
+        "role": "principal"
+      },
+      "current_caveat": "Västra Vingåker enligt egen husförhörsrad; egen födelsepost oläst. Böckerna är en beroende kedja.",
+      "requests": [
+        {
+          "request": "f11951a84d0be5c06fd81767c6cb915a0a21e84aece20612d1f014df878a37da",
+          "affected_revision": "EP-E-birth-P-0317-P-0317-principal@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "611bead400772aefb7c0e199be8c73416653b01d087adffa839cb614634c4fc5",
+          "affected_revision": "EP-E-birth-P-0317-P-0317-principal@1",
+          "changed_revision": "O-P-0317-C0277-own@2",
+          "actual_delta": "Edlas egen observation ändrar enbart utflyttningsdagen från19till10oktober1861."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-birth-P-0320-P-0320-principal",
+      "current_revision": "EP-E-birth-P-0320-P-0320-principal@1",
+      "decision": "retain",
+      "rationale": "P-0320 kvarstår som principal i E-birth-P-0320. Maria Christinas20april1858 bekräftas oförändrat. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-birth-P-0320-P-0320-principal@1",
+        "event_id": "E-birth-P-0320",
+        "person_id": "P-0320",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "current_caveat": "Bettna församling. Touluse är hushållsrubrik; egen födelsenotis oläst.",
+      "requests": [
+        {
+          "request": "ef8805124041fd6fbe8aa701a0a600fa94d3172c973aae3e64239943245b5479",
+          "affected_revision": "EP-E-birth-P-0320-P-0320-principal@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-birth-P-0321-P-0321-principal",
+      "current_revision": "EP-E-birth-P-0321-P-0321-principal@1",
+      "decision": "revise",
+      "rationale": "Deltagaren är fortfarande Frans, men caveat beskriver bara månadsreservation. Bind det korrigerade födelseeventet @2 och skriv uttryckligen både dag och månad reserverade. Ingen ny person eller händelse skapas.",
+      "current_payload": {
+        "revision_id": "EP-E-birth-P-0321-P-0321-principal@1",
+        "event_id": "E-birth-P-0321",
+        "person_id": "P-0321",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "current_caveat": "Husby-Oppunda är angiven socken. Hjulfabriken är familjens hemvist, inte en separat säker födelseplats. Månaden är reserverad.",
+      "requests": [
+        {
+          "request": "f5234c86c00e384216646519233fca8f2dccbf170d7dcae6e260537ac48143bf",
+          "affected_revision": "EP-E-birth-P-0321-P-0321-principal@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "2a5602968dbf9cf67fb78e120e8e29f3d52e632d75c8e9a35e99bef03e878f7e",
+          "affected_revision": "EP-E-birth-P-0321-P-0321-principal@1",
+          "changed_revision": "O-P-0321-C0277-own@2",
+          "actual_delta": "Frans egen födelsedag blir osäker; år1862, namn, hemvist och död13oktober1863 består."
+        },
+        {
+          "request": "a203e44fd3af510f69dd69c4d7f9ce3890fef57f310ee8d27938dc36f49fcdc3",
+          "affected_revision": "EP-E-birth-P-0321-P-0321-principal@1",
+          "changed_revision": "E-birth-P-0321@2",
+          "actual_delta": "Födelseeventets årsprecision1862 består; literal rättas till både dag och månad reserverade."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-death-P-0320-P-0320-principal",
+      "current_revision": "EP-E-death-P-0320-P-0320-principal@1",
+      "decision": "retain",
+      "rationale": "P-0320 kvarstår som principal i E-death-P-0320. Maria Christinas16november1861 står kvar i egen dödkolumn. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-death-P-0320-P-0320-principal@1",
+        "event_id": "E-death-P-0320",
+        "person_id": "P-0320",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "current_caveat": "Husby-Oppunda enligt hushållsboken; dödbok oläst, ingen preciserad fysisk dödsplats.",
+      "requests": [
+        {
+          "request": "cd38cdc876add7c4f01cf9402418fbf71970f03aa887adc96a963b31b3add243",
+          "affected_revision": "EP-E-death-P-0320-P-0320-principal@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-death-P-0321-P-0321-principal",
+      "current_revision": "EP-E-death-P-0321-P-0321-principal@1",
+      "decision": "retain",
+      "rationale": "P-0321 kvarstår som principal i E-death-P-0321. Frans13oktober1863 står kvar trots reserverat födelsedatum. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-death-P-0321-P-0321-principal@1",
+        "event_id": "E-death-P-0321",
+        "person_id": "P-0321",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "current_caveat": "En hushållsboksuppgift i Husby-Oppunda; dödbok oläst, fysisk plats och begravning okända.",
+      "requests": [
+        {
+          "request": "d508c273a21002b710b08417330711f68e5588d84c033a2f5ae085cd20ba62e6",
+          "affected_revision": "EP-E-death-P-0321-P-0321-principal@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "80f835c100d403d23cd6d5c340f53847db154998d2737b3660bbcb847e5a9bb9",
+          "affected_revision": "EP-E-death-P-0321-P-0321-principal@1",
+          "changed_revision": "O-P-0321-C0277-own@2",
+          "actual_delta": "Frans egen födelsedag blir osäker; år1862, namn, hemvist och död13oktober1863 består."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0111-household_member",
+      "current_revision": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0111-household_member@1",
+      "decision": "retain",
+      "rationale": "P-0111 kvarstår som household_member i E-registered_arrival-Urbom-Ajax-Husby1859. Familjens bokföringsövergång1859 består och innebär ingen exakt resdag. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0111-household_member@1",
+        "event_id": "E-registered_arrival-Urbom-Ajax-Husby1859",
+        "person_id": "P-0111",
+        "mention_id": "M-P-0111-Hjulfabriken1861",
+        "role": "household_member"
+      },
+      "current_caveat": "Egen ankomstditto i mottagande hushållsrad: Bettna 1859. Ingen exakt fysisk resdag.",
+      "requests": [
+        {
+          "request": "924807a71982112d7ec005ff9260782ecff8f5f4c23c43630816957fc5e6d258",
+          "affected_revision": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0111-household_member@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0124-household_member",
+      "current_revision": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0124-household_member@1",
+      "decision": "retain",
+      "rationale": "P-0124 kvarstår som household_member i E-registered_arrival-Urbom-Ajax-Husby1859. Familjens bokföringsövergång1859 består och innebär ingen exakt resdag. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0124-household_member@1",
+        "event_id": "E-registered_arrival-Urbom-Ajax-Husby1859",
+        "person_id": "P-0124",
+        "mention_id": null,
+        "role": "household_member"
+      },
+      "current_caveat": "Familjeankomst från Bettna 1859 enligt den granskade hushållsraden. Exakt dag saknas.",
+      "requests": [
+        {
+          "request": "2c290b374dc4d43b6ca526da55bbafda05e568c4a4d2b05705f22f1589da02ed",
+          "affected_revision": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0124-household_member@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0318-household_member",
+      "current_revision": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0318-household_member@1",
+      "decision": "retain",
+      "rationale": "P-0318 kvarstår som household_member i E-registered_arrival-Urbom-Ajax-Husby1859. Familjens bokföringsövergång1859 består och innebär ingen exakt resdag. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0318-household_member@1",
+        "event_id": "E-registered_arrival-Urbom-Ajax-Husby1859",
+        "person_id": "P-0318",
+        "mention_id": null,
+        "role": "household_member"
+      },
+      "current_caveat": "Familjehändelse återbrukas; egen Blackstaavgång1862 och senare Årdalaankomst är separata.",
+      "requests": [
+        {
+          "request": "02e240f1014069000d98bce9db6765882643a811ec268392428c7402f4a51185",
+          "affected_revision": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0318-household_member@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0320-household_member",
+      "current_revision": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0320-household_member@1",
+      "decision": "retain",
+      "rationale": "P-0320 kvarstår som household_member i E-registered_arrival-Urbom-Ajax-Husby1859. Familjens bokföringsövergång1859 består och innebär ingen exakt resdag. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0320-household_member@1",
+        "event_id": "E-registered_arrival-Urbom-Ajax-Husby1859",
+        "person_id": "P-0320",
+        "mention_id": null,
+        "role": "household_member"
+      },
+      "current_caveat": "Familjeöverföring med egen utcell tom.",
+      "requests": [
+        {
+          "request": "62e4f4af068b8b000214f3fd76acbccba9b3f6fcd715fafa1bda1242ddb2c9e9",
+          "affected_revision": "EP-E-registered_arrival-Urbom-Ajax-Husby1859-P-0320-household_member@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-registered_departure-P-0318-Blacksta1862-P-0318-principal",
+      "current_revision": "EP-E-registered_departure-P-0318-Blacksta1862-P-0318-principal@1",
+      "decision": "retain",
+      "rationale": "P-0318 kvarstår som principal i E-registered_departure-P-0318-Blacksta1862. Huldas24oktober1862 till Blacksta står kvar, separat från Edlas rättade datum. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-registered_departure-P-0318-Blacksta1862-P-0318-principal@1",
+        "event_id": "E-registered_departure-P-0318-Blacksta1862",
+        "person_id": "P-0318",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "current_caveat": "Hjulfabriken till Blacksta; mottagarpost oläst.",
+      "requests": [
+        {
+          "request": "f4d63f1457409d7a54cc11a8a2e6b4e82dd30f685e7e4cb72e5bd72df50fc53d",
+          "affected_revision": "EP-E-registered_departure-P-0318-Blacksta1862-P-0318-principal@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "EP-E-registered_departure-Urbom-Ajax-Husby1859-P-0320-household_member",
+      "current_revision": "EP-E-registered_departure-Urbom-Ajax-Husby1859-P-0320-household_member@1",
+      "decision": "retain",
+      "rationale": "P-0320 kvarstår som household_member i E-registered_departure-Urbom-Ajax-Husby1859. Familjens bokföringsövergång1859 består och innebär ingen exakt resdag. Deltagarens personbindning och eventuella egen mention har inte flyttats av Adelas, Edlas eller Frans datumrättelse.",
+      "current_payload": {
+        "revision_id": "EP-E-registered_departure-Urbom-Ajax-Husby1859-P-0320-household_member@1",
+        "event_id": "E-registered_departure-Urbom-Ajax-Husby1859",
+        "person_id": "P-0320",
+        "mention_id": null,
+        "role": "household_member"
+      },
+      "current_caveat": "Familjeöverföring med egen utcell tom.",
+      "requests": [
+        {
+          "request": "33b3382c7be16fc69a04032d3499727495c358224b7a541e0a9e11fde6b7f780",
+          "affected_revision": "EP-E-registered_departure-Urbom-Ajax-Husby1859-P-0320-household_member@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0109-family-P-0320",
+      "current_revision": "F-P-0109-family-P-0320@1",
+      "decision": "retain",
+      "rationale": "Maria Christinas 1858-04-20 och död1861-11-16 kvarstår i fullposten; datumet avser syskonet och inte Carolina.",
+      "current_payload": {
+        "revision_id": "F-P-0109-family-P-0320@1",
+        "subject_id": "REL-sibling-P-0109-P-0320",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"birth_reported\":\"1858-04-20\",\"death_reported\":\"1861-11-16\",\"person\":\"P-0320\",\"source_summary\":\"syskon | Yngre syster, hushållsuppgift född 1858-04-20, död 1861-11-16 | CORROBORATED | [C-0276](../citations/C-0276-urbom-ajax-touluse-1856-1860.md), [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md)\"}"
+      },
+      "current_caveat": "Syskonets källdata är kontext, inte Carolinas egna födelse-/dödsdata. Familjerader kan vara överförda mellan längder. Sammanställningen kan förena flera poster och utgör inte en oberoende observation. Angivet föräldrahemvist är inte en säkrad fysisk födelseplats.",
+      "requests": [
+        {
+          "request": "fa7fe6b4186b3881abae49409c39b7c21173be5f376c2ca36ae96ba4820510e8",
+          "affected_revision": "F-P-0109-family-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0109-family-P-0321",
+      "current_revision": "F-P-0109-family-P-0321@1",
+      "decision": "retain",
+      "rationale": "Frans uppgivna födelseår1862, familjehemmet Hjulfabriken och födelse efter Carolinas tidigare hushållstid består. Fältet hävdar ingen säker dag eller fysisk födelsebyggnad.",
+      "current_payload": {
+        "revision_id": "F-P-0109-family-P-0321@1",
+        "subject_id": "REL-sibling-P-0109-P-0321",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"birth_year_reported\":1862,\"parental_home\":\"Hjulfabriken\",\"person\":\"P-0321\",\"physical_birthplace\":null,\"qualifier\":\"Född efter Carolinas tid i hushållet.\",\"source_summary\":\"syskon | Yngre bror, född 1862 vid Hjulfabriken, efter hennes tid i hushållet | TRANSCRIBED | [C-0277](../citations/C-0277-urbom-ajax-hjulfabriken-1861-1865.md)\"}"
+      },
+      "current_caveat": "Syskonets källdata är kontext, inte Carolinas egna födelse-/dödsdata. Familjerader kan vara överförda mellan längder. Sammanställningen kan förena flera poster och utgör inte en oberoende observation. Angivet föräldrahemvist är inte en säkrad fysisk födelseplats.",
+      "requests": [
+        {
+          "request": "accac748f2ccb56282757d9b863897444804218c72f9724c50cadea140d5b646",
+          "affected_revision": "F-P-0109-family-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0111-family_environment-childhood",
+      "current_revision": "F-P-0111-family_environment-childhood@1",
+      "decision": "retain",
+      "rationale": "Hjulfabriken är fortfarande familjens bokföringsmiljö1861–1865. Ingen egen fabriksanställning eller obruten fysisk vistelse påstås.",
+      "current_payload": {
+        "revision_id": "F-P-0111-family_environment-childhood@1",
+        "subject_id": "P-0111",
+        "property": "family_environment",
+        "value_type": "structured",
+        "value_json": "{\"locations\":[{\"context\":\"Faderns manufaktursmide och föräldrahem\",\"name\":\"Spånga bruk\",\"year\":1849},{\"context\":\"Bokfört föräldrahushåll\",\"name\":\"Touluse, Bettna\",\"years\":\"1851–1859\"},{\"context\":\"Föräldrahushållets ort\",\"name\":\"Hjulfabriken, Husby-Oppunda\",\"years\":\"1861–1865\"}],\"own_factory_work\":null}"
+      },
+      "current_caveat": "Miljösammanställning, inte egen anställning, förmögenhet eller obruten fysisk vistelse.",
+      "requests": [
+        {
+          "request": "c2623986ffa3a6f0bbdfbf9f4ee7cb277e369bba20c5ef88fbbe68f7352ecfe8",
+          "affected_revision": "F-P-0111-family_environment-childhood@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0111-family_identity_context-mother_names",
+      "current_revision": "F-P-0111-family_identity_context-mother_names@1",
+      "decision": "retain",
+      "rationale": "Namnkedjan Anna Gustava/Nora Gust./Eleonora Gustafva Ajax och bevarad moderns4/4-variant påverkas inte av barnens nya datumrättelser.",
+      "current_payload": {
+        "revision_id": "F-P-0111-family_identity_context-mother_names@1",
+        "subject_id": "P-0111",
+        "property": "family_identity_context",
+        "value_type": "structured",
+        "value_json": "{\"forms\":[\"Anna Gustava Ajax\",\"Nora Gust. Ajax\",\"Eleonora Gustafva Ajax\"],\"person\":\"P-0124\",\"same_mother\":true}"
+      },
+      "current_caveat": "Familjekedjan bär identifikationen; moderns 4/4-avvikelse och faderns omprövade datum utjämnas inte till exakt överensstämmelse.",
+      "requests": [
+        {
+          "request": "3e0febb8eab5f64adb2c718f3a5453e92618aad3d053b6b31493ef35e15741a4",
+          "affected_revision": "F-P-0111-family_identity_context-mother_names@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0111-family_member_context-P-0318",
+      "current_revision": "F-P-0111-family_member_context-P-0318@1",
+      "decision": "retain",
+      "rationale": "Huldas egna födelse2september1847, Bettna1859 och Blacksta24oktober1862 bekräftas oförändrade; Edlas datum överförs inte till henne.",
+      "current_payload": {
+        "revision_id": "F-P-0111-family_member_context-P-0318@1",
+        "subject_id": "P-0111",
+        "property": "family_member_context",
+        "value_type": "structured",
+        "value_json": "{\"arrival\":\"Bettna 1859\",\"birth\":\"1847-09-02\",\"departure\":\"Blacksta 1862-10-24\",\"parish_ditto\":\"W. Wingåker\",\"person\":\"P-0318\"}"
+      },
+      "current_caveat": "Indirekta uppgifter om syskonet inom P-0111:s familjesammanhang; egna vitalhändelser kurateras hos syskonet. Två Maria Christina är skilda barn, sena rättelser gäller.",
+      "requests": [
+        {
+          "request": "cd4de61e14eeb5daf2080736692b3dd58d3ff68fbf7b8266eca1b2cc41692d0b",
+          "affected_revision": "F-P-0111-family_member_context-P-0318@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0111-family_member_context-P-0320",
+      "current_revision": "F-P-0111-family_member_context-P-0320@1",
+      "decision": "retain",
+      "rationale": "Maria Christinas födelse20april1858 och död16november1861 bekräftas; äldre4/5 står uttryckligen som felhistorik.",
+      "current_payload": {
+        "revision_id": "F-P-0111-family_member_context-P-0320@1",
+        "subject_id": "P-0111",
+        "property": "family_member_context",
+        "value_type": "structured",
+        "value_json": "{\"birth\":\"1858-04-20\",\"death\":\"1861-11-16\",\"older_wrong_birth\":\"1858 4/5\",\"parish_ditto\":\"Bettna\",\"person\":\"P-0320\"}"
+      },
+      "current_caveat": "Indirekta uppgifter om syskonet inom P-0111:s familjesammanhang; egna vitalhändelser kurateras hos syskonet. Två Maria Christina är skilda barn, sena rättelser gäller.",
+      "requests": [
+        {
+          "request": "baf43569e99cf0600b1d603a4de0053939ff5e212f3aa76a3cde3b80a9421c0c",
+          "affected_revision": "F-P-0111-family_member_context-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0111-household_membership-childhood",
+      "current_revision": "F-P-0111-household_membership-childhood@1",
+      "decision": "retain",
+      "rationale": "Samma föräldrahushåll och syskonföljd kvarstår trots Adelas dagvariant. Syskonantalet avser flera perioder och ingen kollektiv avresa för alla påstås.",
+      "current_payload": {
+        "revision_id": "F-P-0111-household_membership-childhood@1",
+        "subject_id": "P-0111",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"books\":[\"Bettna A I/13b s.9\",\"Bettna A I/14b s.8\",\"Husby-Oppunda A I/16 s.101\"],\"individual_departures_not_collective\":true,\"parents\":[\"P-0123\",\"P-0124\"],\"sibling_count_across_family\":8,\"sibling_count_in_Bettna_books\":7}"
+      },
+      "current_caveat": "Äldre systrars egna avflyttningar ersätts inte av familjens 1859-uppgift. Åtta syskon avser flera bokperioder, inte åtta samtidiga barn i varje hushåll.",
+      "requests": [
+        {
+          "request": "1d53e62fee708da8990e49318a9e441699f599b3de8b97ddcac830f9b73ce672",
+          "affected_revision": "F-P-0111-household_membership-childhood@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0111-place_context-marriage_and_family",
+      "current_revision": "F-P-0111-place_context-marriage_and_family@1",
+      "decision": "retain",
+      "rationale": "Husby-Oppunda kvarstår som tidigare föräldrahemvist. Senare vigselsocken och den uttryckligen okända orsaken till valet har inte ändrats av datumrättelserna.",
+      "current_payload": {
+        "revision_id": "F-P-0111-place_context-marriage_and_family@1",
+        "subject_id": "P-0111",
+        "property": "place_context",
+        "value_type": "structured",
+        "value_json": "{\"earlier_parental_household\":\"Hjulfabriken, Husby-Oppunda 1861–1865\",\"marriage_parish\":\"Husby-Oppunda\",\"negative_birth_parish_search\":\"Västra Vingåker 1876\",\"reason_for_choice\":null}"
+      },
+      "current_caveat": "Orten återkommer i familjens källkedja; detta bevisar inte brudparets motiv eller föräldrarnas närvaro vid vigseln.",
+      "requests": [
+        {
+          "request": "a6b8cec85f60635637508e08a973418931b1a1a1d6842a729daa2981d53f3657",
+          "affected_revision": "F-P-0111-place_context-marriage_and_family@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0111-source_reference-Dymmelsta",
+      "current_revision": "F-P-0111-source_reference-Dymmelsta@1",
+      "decision": "retain",
+      "rationale": "Adelas interna Dymmelsta68 står kvar. Fältet är redan korrekt folio68, inte år1868 eller genomförd uppföljning.",
+      "current_payload": {
+        "revision_id": "F-P-0111-source_reference-Dymmelsta@1",
+        "subject_id": "P-0111",
+        "property": "source_reference",
+        "value_type": "structured",
+        "value_json": "{\"folio\":68,\"followed\":false,\"place\":\"Dymmelsta\",\"year\":null}"
+      },
+      "current_caveat": "Ingen flytthändelse 1868; foliohänvisningen saknar år.",
+      "requests": [
+        {
+          "request": "153d95deaa2e4c50584826cf3157ef4d9a1c1b94dc59bc4ce8589c8f1ab633e1",
+          "affected_revision": "F-P-0111-source_reference-Dymmelsta@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0123-occupation-curated",
+      "current_revision": "F-P-0123-occupation-curated@1",
+      "decision": "retain",
+      "rationale": "Faderns egen titel Smed vid Hjulfabriken bekräftas. Den daterade yrkesföljden i andra poster påverkas inte; oavbruten anställning hävdas inte.",
+      "current_payload": {
+        "revision_id": "F-P-0123-occupation-curated@1",
+        "subject_id": "P-0123",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": "{\"attestations\":[{\"date\":\"1841-10-03\",\"home\":\"Motala\",\"title\":\"Smeddräng\"},{\"date\":\"1849-08-03\",\"home\":\"Spånga bruk\",\"title\":\"Manufactur-Smeden\"},{\"date\":\"1852-02-20\",\"home\":\"Touluse\",\"title\":\"Smed.\"},{\"book\":\"1861–1865\",\"home\":\"Hjulfabriken\",\"title\":\"Smed\"},{\"books\":[\"1871–1875\",\"1876–1880\",\"1881–1885\"],\"home\":\"Ternö\",\"title\":\"smed\"},{\"date\":\"1896-01-30\",\"home\":\"Ektorp\",\"title\":\"Inhyseshjon\"}]}"
+      },
+      "current_caveat": "Källbundna beläggstillfällen, inte oavbruten anställning. Inhyses anger hushållsställning; fattigvård och viss arbetsgivare är inte belagda.",
+      "requests": [
+        {
+          "request": "9fad7c69efa6e68ee9cb99036409c1c830a3167012ce0d1f06a4b604773170f2",
+          "affected_revision": "F-P-0123-occupation-curated@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0123-reported_birth_data-curated",
+      "current_revision": "F-P-0123-reported_birth_data-curated@1",
+      "decision": "retain",
+      "rationale": "Faderns C-0277-råform1818 2/4[?] och Wist kvarstår reserverade. Björsäterbarnets3juni är fortsatt separat kandidat; ingen ny identitetsbro skapas.",
+      "current_payload": {
+        "revision_id": "F-P-0123-reported_birth_data-curated@1",
+        "subject_id": "P-0123",
+        "property": "reported_birth_data",
+        "value_type": "structured",
+        "value_json": "{\"adult_month_day\":[{\"date\":\"03-02\",\"sources\":[\"C0276\",\"C0278\",\"C0281\",\"C1110\"]},{\"literal\":\"2/4[?]\",\"source\":\"C0277\"},{\"literal\":\"2/[oläst]\",\"source\":\"C0275\"}],\"adult_place\":\"Wist\",\"adult_year\":1818,\"candidate\":\"1818-06-03,Björsäter\",\"previous_June_reading\":\"avförd felläsning\"}"
+      },
+      "current_caveat": "Vuxenhushållens födelseuppgifter och kandidatens skiljs åt; inget antal kopior sluter identiteten.",
+      "requests": [
+        {
+          "request": "41724eaa4cf5983db89ab512aa439c4d9c98384948bcf92f1eadf881f11fba93",
+          "affected_revision": "F-P-0123-reported_birth_data-curated@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0123-residence-curated",
+      "current_revision": "F-P-0123-residence-curated@1",
+      "decision": "retain",
+      "rationale": "Hjulfabrikenankaret1861–1865 för fadern kvarstår. Övriga daterade ortankare ligger i andra poster och ingen obruten fysisk vistelse hävdas.",
+      "current_payload": {
+        "revision_id": "F-P-0123-residence-curated@1",
+        "subject_id": "P-0123",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"snapshots\":[{\"at\":1841,\"place\":\"Motala\"},{\"at\":1849,\"place\":\"Spånga bruk,Västra Vingåker\"},{\"books\":[\"1851–1855\",\"1856–1860\"],\"place\":\"Touluse,Bettna\"},{\"book\":\"1861–1865\",\"place\":\"Hjulfabriken,Husby-Oppunda\"},{\"books\":[\"1871–1875\",\"1876–1880\",\"1881–1885\"],\"place\":\"Ternö,Husby-Oppunda\"},{\"from_bookkeeping_year\":1885,\"place\":\"Ektorp på Tranviks ägor,Husby-Oppunda\",\"through_death\":\"1896-01-30\"}]}"
+      },
+      "current_caveat": "Bokankare och egna rader, ingen obruten fysisk närvaro mellan alla tidpunkter.",
+      "requests": [
+        {
+          "request": "54ba62d61ab531008d1b69257333c7f6e1f9ad65a3b4c749148e711e85ccb3a9",
+          "affected_revision": "F-P-0123-residence-curated@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0124-name_form-curated",
+      "current_revision": "F-P-0124-name_form-curated@1",
+      "decision": "retain",
+      "rationale": "Eleonora Gustafva Ajax på hustruraden bekräftas. Övriga familjebundna namnformer förändras inte av barnens datumrättelser.",
+      "current_payload": {
+        "revision_id": "F-P-0124-name_form-curated@1",
+        "subject_id": "P-0124",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"primary\":[{\"form\":\"Eleonora Gustava\",\"use\":\"egen födelse1817/vigsel1841\"},{\"form\":\"Anna Gustava Ajax\",\"use\":\"Medevi/barn1849/1852\"},{\"form\":\"Nora Gustafva / Nora Gust. Ajax\",\"use\":\"Stordalen/Touluse\"},{\"form\":\"El. Gust. Ajax / Eleonora Gustafva Ajax\",\"use\":\"barn1854/senarefamilj\"},{\"form\":\"Urbom[?]\",\"use\":\"död1877,ejnamnbytesdag\"}],\"secondary\":\"Gustava Eleonora (Nora) Ajax\"}"
+      },
+      "current_caveat": "Namnformer inom samma familjekedja, inte enbart efternamnslikhet.",
+      "requests": [
+        {
+          "request": "e5c6983af439ed1bd1ad64123baea30712478305edd359df1ab6fe7ef082b6f5",
+          "affected_revision": "F-P-0124-name_form-curated@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0124-reported_birth_conflict-curated",
+      "current_revision": "F-P-0124-reported_birth_conflict-curated@1",
+      "decision": "retain",
+      "rationale": "Moderns hushållsdatum1817-04-04/W.Ny kvarstår som verklig avvikelse från eget original1817-03-04. Konflikten är redan explicit och jämnas inte bort.",
+      "current_payload": {
+        "revision_id": "F-P-0124-reported_birth_conflict-curated@1",
+        "subject_id": "P-0124",
+        "property": "reported_birth_conflict",
+        "value_type": "structured",
+        "value_json": "{\"adult_household_place\":\"W. Ny\",\"extra_later_mark\":\"2/3-liknande,innebörd olöst\",\"household_date\":\"1817-04-04\",\"identity_basis\":\"Föräldrar och make/barn genom sammanhängande familjer, inte falsk exakt datumöverensstämmelse\",\"preferred\":{\"date\":\"1817-03-04\",\"home\":\"Stordalen\",\"parish\":\"Hammar\"}}"
+      },
+      "current_caveat": "4april/W.Ny är verkliga källuppgifter som prioriteras lägre, ingen ytterligare kvinna skapas.",
+      "requests": [
+        {
+          "request": "4afba5fb5867860407ba213d510b9f268b4eb9f830fb4e7b7bf15df9625973fd",
+          "affected_revision": "F-P-0124-reported_birth_conflict-curated@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0124-residence-curated",
+      "current_revision": "F-P-0124-residence-curated@1",
+      "decision": "retain",
+      "rationale": "Hustruns Hjulfabrikenankare och familjeankomst1859 bekräftas; uttryckliga vistelseluckor och avsaknad av exakt flyttdag består.",
+      "current_payload": {
+        "revision_id": "F-P-0124-residence-curated@1",
+        "subject_id": "P-0124",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"anchors\":[[\"1817\",\"Stordalen,Hammar\"],[\"1820–1837bok\",\"Medevi Brunn\"],[\"1838\",\"tillMotala,att33\"],[\"1841-10-03\",\"Prästgården,Västra Ny\"],[\"1849\",\"Spånga bruk\"],[\"1851–1859\",\"Touluse\"],[\"1859–1865bok\",\"Hjulfabriken\"],[\"1870bokankare–1877\",\"Ternö\"]],\"open_gaps\":[\"1838–1841\",\"1866–1870\"]}"
+      },
+      "current_caveat": "Tidsankare inte obruten fysisk vistelse eller exakt flyttdag.",
+      "requests": [
+        {
+          "request": "7c8048194178d53636eeffad79d6a1f62623dd5d527700f5ea57eb0a1ba89c3c",
+          "affected_revision": "F-P-0124-residence-curated@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0263-family_context-bounded-siblings",
+      "current_revision": "F-P-0263-family_context-bounded-siblings@2",
+      "decision": "revise",
+      "rationale": "Syskonfältet för Edla har next_departure.date 1861-10-19. Egen rad är nu läst 1861-10-10; ändra endast detta datum och behåll hennes individuella frånvaro 1859–1860.",
+      "current_payload": {
+        "revision_id": "F-P-0263-family_context-bounded-siblings@2",
+        "subject_id": "P-0263",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"parental_household\":\"egna familjerader fram till1865\",\"parents\":[\"P-0123\",\"P-0124\"],\"siblings\":[{\"birth_year\":1854,\"person\":\"P-0268\",\"shared_household\":\"1854–1865\"},{\"birth_year\":1849,\"person\":\"P-0111\",\"shared_household\":\"1852–1865\"},{\"birth_year\":1847,\"person\":\"P-0318\",\"shared_household\":\"1852–1862 och åter i Ternö\"},{\"birth_year\":1844,\"individual_gap\":{\"departure_literal\":\"Fogelst.[?] torp\",\"end_year\":1860,\"next_departure\":{\"date\":\"1861-10-19\",\"destination\":\"Lerbo\"},\"return_from\":\"Blacksta\",\"start_year\":1859},\"person\":\"P-0317\",\"shared_household\":\"1852–1859 samt1860–1861\"},{\"birth_year\":1842,\"person\":\"P-0109\",\"shared_household\":\"1852–1857\"},{\"birth_year\":1857,\"death_year\":1857,\"home\":\"Touluse\",\"person\":\"P-0319\"},{\"birth_year\":1858,\"death_year\":1861,\"person\":\"P-0320\"},{\"birth_year\":1862,\"death_year\":1863,\"home\":\"Hjulfabriken\",\"person\":\"P-0321\"}]}"
+      },
+      "current_caveat": "Syskonskap består. Edlas1859–1860-frånvaro är explicit i hennes eget tidsfält; övriga syskons tider är oförändrade. Bokperioder är inte bevis för obruten vistelse.",
+      "requests": [
+        {
+          "request": "209966a1a8a2230deef8bd127ec931ecca153152c3ff016576e715d928b22f08",
+          "affected_revision": "F-P-0263-family_context-bounded-siblings@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0263-identity_assessment-own-row-chain",
+      "current_revision": "F-P-0263-identity_assessment-own-row-chain@1",
+      "decision": "retain",
+      "rationale": "Ernsts namn,1852-02-20 och Bettna i egen rad står kvar. Sammanställningen beskriver beroende hushållskedja, inte oberoende datumröster.",
+      "current_payload": {
+        "revision_id": "F-P-0263-identity_assessment-own-row-chain@1",
+        "subject_id": "P-0263",
+        "property": "identity_assessment",
+        "value_type": "structured",
+        "value_json": "{\"baptism_corroboration\":\"C0276 upprepar1852-02-22 från församlingsbokföringen\",\"birth\":\"1852-02-20\",\"folios\":[\"Touluse9\",\"Touluse8\",\"Hjulfabriken101\",\"Ternö112 rad30\",\"Ternö112 rad20\",\"Ternö118 rad29\",\"Ternö119 rad15\"],\"internal_links\":[\"112→118\",\"118→119\"],\"known_end\":\"1878-10-24\",\"parish\":\"Bettna\"}"
+      },
+      "current_caveat": "Administrativt beroende datumöverföring är en kontinuitetskedja, inte sex oberoende röster. Två olästa bostadsperioder kvarstår; identitet efter1878 inte prövad.",
+      "requests": [
+        {
+          "request": "4829908e8e0be931bc909545baab3e9e5da0b6e8df15cbbf77b34f98398f7a55",
+          "affected_revision": "F-P-0263-identity_assessment-own-row-chain@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0263-residence-bounded-contexts",
+      "current_revision": "F-P-0263-residence-bounded-contexts@1",
+      "decision": "retain",
+      "rationale": "Ernsts egen rad och familjeankomst1859 vid Hjulfabriken kvarstår; Walla/Hyltinge-luckorna är uttryckligen olästa.",
+      "current_payload": {
+        "revision_id": "F-P-0263-residence-bounded-contexts@1",
+        "subject_id": "P-0263",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"contexts\":[{\"kind\":\"egna hushållsrader\",\"period\":\"1852–1859\",\"place\":\"Touluse, Bettna\"},{\"kind\":\"familjeankomst1859 och egen rad i boken1861–1865\",\"period\":\"1859–1865\",\"place\":\"Hjulfabriken, Husby-Oppunda\"},{\"kind\":\"oläst mellanled; endast ingången Walla70\",\"period\":\"1866–1870\",\"place\":\"Walla\"},{\"kind\":\"egen tjänsterad\",\"period\":\"1871–1873-10-24\",\"place\":\"Ternö\"},{\"kind\":\"registrerade ändpunkter, mottagarhushåll oläst\",\"period\":\"1873-10-24–1875-11-02\",\"place\":\"Hyltinge\"},{\"kind\":\"egna tjänste-/familjerader\",\"period\":\"1875-11-02–1878-10-24\",\"place\":\"Ternö\"}],\"physical_continuity_proven\":false}"
+      },
+      "current_caveat": "Bokperiod och administrativa ändpunkter bevisar inte oavbruten fysisk vistelse. Walla/Hyltinge-luckorna och Nykyrka efter1878 saknar egna mottagarrader.",
+      "requests": [
+        {
+          "request": "664331a0cdcb3594cd2bd5729567c9c1fa944ef64dbe25f6ca25994bc161c867",
+          "affected_revision": "F-P-0263-residence-bounded-contexts@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0263-source_assessment-church-fields",
+      "current_revision": "F-P-0263-source_assessment-church-fields@1",
+      "decision": "retain",
+      "rationale": "Ernsts vaccinationstecken och förhörsfält är kvar i samma kolumner. Nya fullpostens årsfält ger kompletterande utvinning men upphäver inte den avgränsade bedömningen eller dess reservationsgränser.",
+      "current_payload": {
+        "revision_id": "F-P-0263-source_assessment-church-fields@1",
+        "subject_id": "P-0263",
+        "property": "source_assessment",
+        "value_type": "structured",
+        "value_json": "{\"C0276_uniform_all_twelve_rows\":true,\"copied_between_books\":true,\"examinations\":\"Hjulfabriken1861–1865; Ternötecken utan översatt skala\",\"individual_vaccination_event\":false,\"own_disability_illness_notes\":\"inga identifierade i de prövade kolumnerna\",\"vaccination_literal\":\"v\"}"
+      },
+      "current_caveat": "Kolumnbunden frånvaro av sjukdomsnot är inget friskhetsbevis. C0276:s likformiga tecken får inte uppgraderas till en egen vaccination.",
+      "requests": [
+        {
+          "request": "1156a36a674356d40799a086499c2d68cec43dde683c1c1d0c9c98edbecf1c35",
+          "affected_revision": "F-P-0263-source_assessment-church-fields@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0268-family_context-siblings-and-parents",
+      "current_revision": "F-P-0268-family_context-siblings-and-parents@2",
+      "decision": "revise",
+      "rationale": "Syskonfältet för Edla har next_departure.date 1861-10-19. Egen rad är nu läst 1861-10-10; ändra endast detta datum och behåll hennes individuella frånvaro 1859–1860.",
+      "current_payload": {
+        "revision_id": "F-P-0268-family_context-siblings-and-parents@2",
+        "subject_id": "P-0268",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"father\":\"P-0123\",\"known_own_spouse_or_child\":false,\"mother\":\"P-0124\",\"mother_death\":\"1877-12-21\",\"siblings\":[{\"birth_year\":1852,\"person\":\"P-0263\",\"shared\":\"1854–1865; senare sammaTernörote\"},{\"birth_year\":1849,\"person\":\"P-0111\",\"shared\":\"1854–1865\"},{\"birth_year\":1847,\"person\":\"P-0318\",\"shared\":\"1854–1862 och återTernö\"},{\"birth_year\":1844,\"individual_gap\":{\"departure_literal\":\"Fogelst.[?] torp\",\"end_year\":1860,\"next_departure\":{\"date\":\"1861-10-19\",\"destination\":\"Lerbo\"},\"return_from\":\"Blacksta\",\"start_year\":1859},\"person\":\"P-0317\",\"shared\":\"1854–1859 samt1860–1861\"},{\"birth_year\":1842,\"person\":\"P-0109\",\"shared\":\"1854–1857\"},{\"birth_year\":1857,\"death_year\":1857,\"person\":\"P-0319\",\"place\":\"Touluse\"},{\"birth_year\":1858,\"death_year\":1861,\"person\":\"P-0320\"},{\"birth_year\":1862,\"death_year\":1863,\"person\":\"P-0321\",\"place\":\"Hjulfabriken\"}]}"
+      },
+      "current_caveat": "Syskonskap består. Edlas1859–1860-frånvaro är explicit i hennes eget tidsfält; övriga syskons tider är oförändrade. Bokperioder är inte bevis för obruten vistelse.",
+      "requests": [
+        {
+          "request": "e92603bc5af82c261058b517087e01f0ca226d4180bb75bb153a9c547133efe5",
+          "affected_revision": "F-P-0268-family_context-siblings-and-parents@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0268-identity_assessment-own-row-chain",
+      "current_revision": "F-P-0268-identity_assessment-own-row-chain@1",
+      "decision": "retain",
+      "rationale": "Carl Johan Edvards1854-06-20/Bettna och samma föräldrahushåll står kvar. Vuxenidentitetens andra led har inte omprövats av detta datumstickprov.",
+      "current_payload": {
+        "revision_id": "F-P-0268-identity_assessment-own-row-chain@1",
+        "subject_id": "P-0268",
+        "property": "identity_assessment",
+        "value_type": "structured",
+        "value_json": "{\"after1878_unread\":true,\"discriminators\":[\"1854-06-20\",\"Bettna\",\"samma föräldrahushåll\",\"tidsföljd\",\"egen ut/inrad\"],\"independent_HFL_birth_voices\":false,\"same_adult\":true}"
+      },
+      "current_caveat": "Identitet genom korrelation; inget automatiskt antaget liv efter1878.",
+      "requests": [
+        {
+          "request": "abf53e8f1858600687f5595b5a50f8920ae00b170aa9805aa447168253ffae63",
+          "affected_revision": "F-P-0268-identity_assessment-own-row-chain@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0268-name_form-bounded",
+      "current_revision": "F-P-0268-name_form-bounded@1",
+      "decision": "retain",
+      "rationale": "Carl Johan Edvard står på egen rad; Urbom kommer från fadern. Fältet fyller inte in ett obelagt eget efternamn.",
+      "current_payload": {
+        "revision_id": "F-P-0268-name_form-bounded@1",
+        "subject_id": "P-0268",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"abbreviated\":\"Carl Joh. Edvard\",\"father_surname\":\"Urbom\",\"given\":\"Carl Johan Edvard\",\"h_form_seen\":false,\"own_contemporary_surname\":false,\"secondary_surname\":\"Urbom\"}"
+      },
+      "current_caveat": "Familjenamnet på egna samtida rader saknas; det fylls inte i deras M.",
+      "requests": [
+        {
+          "request": "3d74b5f2b5da2a80155b745cb9ca063815d28d57657ab98656dde24b3839f02e",
+          "affected_revision": "F-P-0268-name_form-bounded@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0268-residence-bounded-sequence",
+      "current_revision": "F-P-0268-residence-bounded-sequence@1",
+      "decision": "retain",
+      "rationale": "Carl Johans familjeankomst1859 och egen rad1861–1865 kvarstår. Senare Ternöankare och olästa mellanled ändras inte.",
+      "current_payload": {
+        "revision_id": "F-P-0268-residence-bounded-sequence@1",
+        "subject_id": "P-0268",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"contexts\":[{\"period\":\"1854–1859\",\"place\":\"Touluse, Bettna\"},{\"period\":\"1859ankare och1861–1865bok\",\"place\":\"Hjulfabriken, Husby-Oppunda\"},{\"period\":\"1871–1875 och återkomst1876 till intern överföring1878\",\"place\":\"Ternö\"}],\"continuous_physical_presence_proven\":false,\"unread\":[\"Walla1866–1870\",\"Stockholms mottagarposter1875–1876\",\"Prästgård folio17från1878\"]}"
+      },
+      "current_caveat": "Bokförda datum och volymperioder är avgränsade ankare. Mottagarens församling1875 är inte känd.",
+      "requests": [
+        {
+          "request": "7dcc77fa4aefe8ef46388ec29773a6696399446ffc97ca0faf278baebd838ee9",
+          "affected_revision": "F-P-0268-residence-bounded-sequence@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0268-source_assessment-church-fields",
+      "current_revision": "F-P-0268-source_assessment-church-fields@1",
+      "decision": "retain",
+      "rationale": "Kyrkliga grafiska tecken och kopierat v är skilda från modern betygsskala och vaccinationsdatum. Datumrättelserna ger ingen ny jämförelse av senare betyg.",
+      "current_payload": {
+        "revision_id": "F-P-0268-source_assessment-church-fields@1",
+        "subject_id": "P-0268",
+        "property": "source_assessment",
+        "value_type": "structured",
+        "value_json": "{\"individual_vaccination_date\":null,\"knowledge_earlier\":[\"b\",\"b\",\"b\",\"b\"],\"knowledge_later\":[\"a\",\"a\",\"a\",\"b\"],\"legacy_relative_rank\":\"högre än tidigare och familjens andra rader\",\"modern_grade_scale\":null,\"vaccination_independent_events\":false,\"vaccination_mark_copied\":true}"
+      },
+      "current_caveat": "Särskilt C0276:s alla tolv v kan inte dateras som individuella vaccinationshändelser; råtecken och äldre aktbenämning koppympning bevaras.",
+      "requests": [
+        {
+          "request": "70cdb584ac2c15bc88406b9e4a4454a6d47709ca759d07cb35250367c4624f0d",
+          "affected_revision": "F-P-0268-source_assessment-church-fields@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0317-church_record_fields-bounded-comparison",
+      "current_revision": "F-P-0317-church_record_fields-bounded-comparison@1",
+      "decision": "retain",
+      "rationale": "Edlas21juli1861 i nattvardskolumnen, grafiska kunskapstecken och v består i egen rad. Ändringen10oktober gäller utflyttningsfältet och rubbar inte dessa fält.",
+      "current_payload": {
+        "revision_id": "F-P-0317-church_record_fields-bounded-comparison@1",
+        "subject_id": "P-0317",
+        "property": "church_record_fields",
+        "value_type": "structured",
+        "value_json": "{\"Bettna_knowledge\":\"egna fält tomma medan föräldrar/äldsta systern har tecken\",\"C0276_caveat\":\"likformigt v även på spädbarnsrad är inte individuellt vaccinationsbevis\",\"Husby_knowledge\":\"grafiska tecken utan tolkad skala\",\"communion\":\"1861-07-21 samma dag i Edlas och båda föräldrarnas kolumner\",\"vaccine\":\"v i C0276/C0277; inget år/datum; C0275 för blekt\"}"
+      },
+      "current_caveat": "Kyrkliga observationer, ingen säker skolgång, religiös tillhörighet eller vaccinationshändelse.",
+      "requests": [
+        {
+          "request": "0f9ee8538f90714804c03330aca05cd8bb0ac6cd0ba64856d96418b78f15599e",
+          "affected_revision": "F-P-0317-church_record_fields-bounded-comparison@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "2faf5c7f5626bd7ad74b13359919e237f0d77452deb37d8c369418eb51eae5bd",
+          "affected_revision": "F-P-0317-church_record_fields-bounded-comparison@1",
+          "changed_revision": "O-P-0317-C0277-own@2",
+          "actual_delta": "Edlas egen observation ändrar enbart utflyttningsdagen från19till10oktober1861."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0317-family_context-bounded-relatives",
+      "current_revision": "F-P-0317-family_context-bounded-relatives@1",
+      "decision": "retain",
+      "rationale": "Familjemedlemmarna kvarstår. Adelas3augusti är den kuraterade uppgiften från eget original, inte ett påstående att C-0277 har3/8. Frans född1862 efter Edlas avresa1861 är fortfarande förenligt med reserverad dag/månad.",
+      "current_payload": {
+        "revision_id": "F-P-0317-family_context-bounded-relatives@1",
+        "subject_id": "P-0317",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"parent_context\":\"Touluse1851–1859; Hjulfabriken1860–1861\",\"parents\":[{\"name\":\"Johan Petter Urbom\",\"person\":\"P-0123\",\"role\":\"smed\"},{\"names\":[\"Nora Gust. Ajax\",\"Eleonora Gustafva Ajax\"],\"person\":\"P-0124\"}],\"siblings\":[{\"birth\":\"1842-08-27\",\"person\":\"P-0109\",\"place\":\"Motala\",\"shared\":\"Touluse till hennes egen afflyttning1857\",\"witness_identity_unresolved\":true},{\"birth\":\"1847-09-02\",\"person\":\"P-0318\",\"shared\":\"Touluse och Hjulfabriken\"},{\"birth\":\"1849-08-03\",\"person\":\"P-0111\",\"place\":\"Spånga bruk\",\"shared\":\"Touluse och Hjulfabriken\"},{\"birth\":\"1852-02-20\",\"person\":\"P-0263\",\"place\":\"Touluse\",\"shared\":\"till1861 med Edlas avbrott1859–1860\"},{\"birth\":\"1854-06-20\",\"person\":\"P-0268\",\"place\":\"Touluse\",\"shared\":\"till1861 med Edlas avbrott1859–1860\"},{\"birth\":\"1857-03-21\",\"death\":\"1857-04-04\",\"person\":\"P-0319\",\"place\":\"Touluse\"},{\"birth\":\"1858-04-20\",\"death\":\"1861-11-16\",\"person\":\"P-0320\",\"place\":\"Touluse\"},{\"birth_year\":1862,\"born_after_own_departure\":true,\"person\":\"P-0321\",\"place\":\"Hjulfabriken\"}]}"
+      },
+      "current_caveat": "Flerpostssyntes. Systern P0109:s barndomsidentitet är skild från kandidatkopplingen till dopvittnet Caroline Lundqvist; föräldrarnas egna födelsekonflikter löses inte här.",
+      "requests": [
+        {
+          "request": "b1ea6875b78417dcf51896c35ea35688a59ec6bd53c5b538a2c32dfc51cdaa13",
+          "affected_revision": "F-P-0317-family_context-bounded-relatives@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0317-name_form-Urbom-unattested",
+      "current_revision": "F-P-0317-name_form-Urbom-unattested@1",
+      "decision": "retain",
+      "rationale": "Edla Gustafva står på egen rad, Urbom endast hos fadern. Korrigerad utflyttningsdag ändrar inte namnbevisningen.",
+      "current_payload": {
+        "revision_id": "F-P-0317-name_form-Urbom-unattested@1",
+        "subject_id": "P-0317",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"own_raw\":\"Edla Gustafva\",\"project_display\":\"Edla Gustafva Urbom\",\"surname_on_father_only\":true}"
+      },
+      "current_caveat": "Ingen juridisk namnändring eller säkert eget efternamn införs.",
+      "requests": [
+        {
+          "request": "624b304865877f1c038aa12095395574687661ac094ca151f12fec48c6146e7b",
+          "affected_revision": "F-P-0317-name_form-Urbom-unattested@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "4756fe614266204c24ab85fd497b885e6d4e638c5b72d7c4e49c17b4bec846d7",
+          "affected_revision": "F-P-0317-name_form-Urbom-unattested@1",
+          "changed_revision": "O-P-0317-C0277-own@2",
+          "actual_delta": "Edlas egen observation ändrar enbart utflyttningsdagen från19till10oktober1861."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0318-family_context-bounded-relatives",
+      "current_revision": "F-P-0318-family_context-bounded-relatives@1",
+      "decision": "revise",
+      "rationale": "Sammanställningen har ärvt Edlas perspektiv: Hulda P-0318 står som sitt eget syskon, medan Edla saknas. Dessutom påstår Fransfältet born_after_own_departure trots Huldas avresa 24 oktober1862 och nu helt reserverad födelsedag/månad för Frans. Ersätt självposten med Edla, skilj individernas frånvaro och lämna tidsordningen mellan Frans födelse och Huldas avresa olöst.",
+      "current_payload": {
+        "revision_id": "F-P-0318-family_context-bounded-relatives@1",
+        "subject_id": "P-0318",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"mother_death\":\"1877-12-21, Nyköpings lasarett\",\"own_parents_context\":\"Touluse1851–1859; Hjulfabriken1859–1862; senare Ternö vid återkomster\",\"own_person\":\"P-0318\",\"parent_context\":\"Touluse1851–1859; Hjulfabriken1860–1861\",\"parents\":[{\"name\":\"Johan Petter Urbom\",\"person\":\"P-0123\",\"role\":\"smed\"},{\"names\":[\"Nora Gust. Ajax\",\"Eleonora Gustafva Ajax\"],\"person\":\"P-0124\"}],\"siblings\":[{\"birth\":\"1842-08-27\",\"person\":\"P-0109\",\"place\":\"Motala\",\"shared\":\"Touluse till hennes egen afflyttning1857\",\"witness_identity_unresolved\":true},{\"birth\":\"1847-09-02\",\"person\":\"P-0318\",\"shared\":\"Touluse och Hjulfabriken\"},{\"birth\":\"1849-08-03\",\"person\":\"P-0111\",\"place\":\"Spånga bruk\",\"shared\":\"Touluse och Hjulfabriken\"},{\"birth\":\"1852-02-20\",\"person\":\"P-0263\",\"place\":\"Touluse\",\"shared\":\"till1861 med Edlas avbrott1859–1860\"},{\"birth\":\"1854-06-20\",\"person\":\"P-0268\",\"place\":\"Touluse\",\"shared\":\"till1861 med Edlas avbrott1859–1860\"},{\"birth\":\"1857-03-21\",\"death\":\"1857-04-04\",\"person\":\"P-0319\",\"place\":\"Touluse\"},{\"birth\":\"1858-04-20\",\"death\":\"1861-11-16\",\"person\":\"P-0320\",\"place\":\"Touluse\"},{\"birth_year\":1862,\"born_after_own_departure\":true,\"person\":\"P-0321\",\"place\":\"Hjulfabriken\"}]}"
+      },
+      "current_caveat": "Sammanställning av flera familjeposter. Egna avresor skiljs från familjen. Moderns död belägger ingen närvaro eller omsorgsroll för Hulda.",
+      "requests": [
+        {
+          "request": "06bea3437fb3300ba235db1dbcd77e52146b23252a6b88ffeef75bc6ee394cf4",
+          "affected_revision": "F-P-0318-family_context-bounded-relatives@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0318-residence-bounded-sequence",
+      "current_revision": "F-P-0318-residence-bounded-sequence@1",
+      "decision": "retain",
+      "rationale": "Huldas Blackstadestination24oktober1862 bekräftas oförändrad. Senare egna ortankare påverkas inte av Edlas10oktober1861.",
+      "current_payload": {
+        "revision_id": "F-P-0318-residence-bounded-sequence@1",
+        "subject_id": "P-0318",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"later_destination_unread\":true,\"sequence\":[\"Touluse 1851–1859\",\"Hjulfabriken 1859–1862\",\"Blacksta som destination 1862-10-24\",\"mellanled 1862–1870 olästa\",\"Årdala som avsändare till Ternö 1870-11-07\",\"Ternö familjefolio113 till tjänstefolio111 år1873\",\"Wadsbro som destination1873 och avsändare1875\",\"Ternö familjefolio119 till tjänstefolio116 år1876\",\"Stockholm som destination1877 och avsändare1878\",\"Ternö till Söderköping1881\"]}"
+      },
+      "current_caveat": "Administrativ hushålls-/flyttkedja; luckor ger inte sammanhängande fysisk vistelse.",
+      "requests": [
+        {
+          "request": "07df4c76ca24ada02a50dd49e397fb518efa0a988e0736947971511eb29886c1",
+          "affected_revision": "F-P-0318-residence-bounded-sequence@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0319-family_context-bounded-siblings",
+      "current_revision": "F-P-0319-family_context-bounded-siblings@1",
+      "decision": "revise",
+      "rationale": "Frans syskonfält påstår födelse 1862, dag6, månaden reserverad. Den nya originalavläsningen reserverar både dag och månad; år och dödsdatum består.",
+      "current_payload": {
+        "revision_id": "F-P-0319-family_context-bounded-siblings@1",
+        "subject_id": "P-0319",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"context\":\"Föräldrahushåll i Touluse före Husby-Oppunda; individuella avgångar och barn födda efter syskons död hålls åtskilda.\",\"parents\":[{\"occupation\":\"smed\",\"person\":\"P-0123\"},{\"person\":\"P-0124\"}],\"siblings\":[{\"birth\":\"1842-08-27\",\"birth_place\":\"Motala\",\"home\":\"Touluse\",\"own_departure\":\"1857 Rofhult[?]\",\"person\":\"P-0109\",\"witness_identity\":\"Caroline Lundqvist separat LEAD\"},{\"birth\":\"1844-06-04\",\"birth_place\":\"Västra Vingåker\",\"home\":\"Touluse till egen avgång1859; eget avbrott1859–1860; Hjulfabriken1860–1861\",\"person\":\"P-0317\"},{\"birth\":\"1847-09-02\",\"birth_place\":\"Västra Vingåker enligt familjeböcker\",\"home\":\"Touluse; Hjulfabriken till egen avgång1862\",\"person\":\"P-0318\"},{\"birth\":\"1849-08-03\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0111\"},{\"birth\":\"1852-02-20\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0263\"},{\"birth\":\"1854-06-20\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0268\"},{\"baptism\":\"1858-05-02\",\"birth\":\"1858-04-20\",\"death\":\"1861-11-16\",\"home\":\"Touluse1858–1859; Hjulfabriken1859–1861\",\"person\":\"P-0320\"},{\"birth\":\"1862, dag6, månaden reserverad\",\"death\":\"1863-10-13\",\"home\":\"Hjulfabriken i Husby-Oppunda\",\"person\":\"P-0321\"}]}"
+      },
+      "current_caveat": "Sammanställning av två poster, inte en observation. Familjens ort är inte en preciserad fysisk födelseplats. Dödsorsaker och egen ekonomi kan inte härledas ur familjemönstret.",
+      "requests": [
+        {
+          "request": "b52f06a7ea91f0acbaac5ac309a234bf6446dc3c4867439d58418bab3065fd2b",
+          "affected_revision": "F-P-0319-family_context-bounded-siblings@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0319-source_assessment-two-Maria-rows",
+      "current_revision": "F-P-0319-source_assessment-two-Maria-rows@1",
+      "decision": "retain",
+      "rationale": "Endast den yngre Maria Christina1858 finns i C-0277; den äldre1857 är ett separat barn i tidigare post. Nya Frans/Edla/Adela-datum rubbar inte denna särskiljning.",
+      "current_payload": {
+        "revision_id": "F-P-0319-source_assessment-two-Maria-rows@1",
+        "subject_id": "P-0319",
+        "property": "source_assessment",
+        "value_type": "structured",
+        "value_json": "{\"absence_scope\":\"detta namngivna familjehushåll\",\"later_household\":\"Endast den yngre finns i C0277,1861–1865\",\"older\":{\"baptism\":\"1857-03-25\",\"birth\":\"1857-03-21\",\"death\":\"1857-04-04\",\"person\":\"P-0319\",\"row\":9},\"younger\":{\"baptism\":\"1858-05-02\",\"birth\":\"1858-04-20\",\"later_death\":\"1861-11-16\",\"person\":\"P-0320\",\"row\":\"direkt följande\"}}"
+      },
+      "current_caveat": "Fyra särskiljande uppgifter i samma post är inte fyra oberoende källor. Ingen bred negativ sökning och ingen dödsslutsats ur namnsed.",
+      "requests": [
+        {
+          "request": "cb55195e36c09f11663a3e75bc8facac46fe7a27433104d4ca204497332da423",
+          "affected_revision": "F-P-0319-source_assessment-two-Maria-rows@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0320-family_context-bounded-siblings",
+      "current_revision": "F-P-0320-family_context-bounded-siblings@1",
+      "decision": "revise",
+      "rationale": "Frans syskonfält påstår födelse 1862, dag6, månaden reserverad. Den nya originalavläsningen reserverar både dag och månad; år och dödsdatum består.",
+      "current_payload": {
+        "revision_id": "F-P-0320-family_context-bounded-siblings@1",
+        "subject_id": "P-0320",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"context\":\"Föräldrahushåll i Touluse före Husby-Oppunda; individuella avgångar och barn födda efter syskons död hålls åtskilda.\",\"parents\":[{\"occupation\":\"smed\",\"person\":\"P-0123\"},{\"person\":\"P-0124\"}],\"siblings\":[{\"birth\":\"1842-08-27\",\"birth_place\":\"Motala\",\"home\":\"Touluse\",\"own_departure\":\"1857 Rofhult[?]\",\"person\":\"P-0109\",\"witness_identity\":\"Caroline Lundqvist separat LEAD\"},{\"birth\":\"1844-06-04\",\"birth_place\":\"Västra Vingåker\",\"home\":\"Touluse till egen avgång1859; eget avbrott1859–1860; Hjulfabriken1860–1861\",\"person\":\"P-0317\"},{\"birth\":\"1847-09-02\",\"birth_place\":\"Västra Vingåker enligt familjeböcker\",\"home\":\"Touluse; Hjulfabriken till egen avgång1862\",\"person\":\"P-0318\"},{\"birth\":\"1849-08-03\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0111\"},{\"birth\":\"1852-02-20\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0263\"},{\"birth\":\"1854-06-20\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0268\"},{\"baptism\":\"1857-03-25\",\"birth\":\"1857-03-21\",\"calculated_age\":\"14 dagar\",\"death\":\"1857-04-04\",\"home\":\"Touluse i Bettna\",\"person\":\"P-0319\"},{\"birth\":\"1862, dag6, månaden reserverad\",\"death\":\"1863-10-13\",\"home\":\"Hjulfabriken i Husby-Oppunda\",\"person\":\"P-0321\"}]}"
+      },
+      "current_caveat": "Sammanställning av två poster, inte en observation. Familjens ort är inte en preciserad fysisk födelseplats. Dödsorsaker och egen ekonomi kan inte härledas ur familjemönstret.",
+      "requests": [
+        {
+          "request": "f5186137910b56a47f00f8138ecf258dff4a683ff4ed7fd45230e40207f20fda",
+          "affected_revision": "F-P-0320-family_context-bounded-siblings@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0320-family_context-three-child-deaths",
+      "current_revision": "F-P-0320-family_context-three-child-deaths@1",
+      "decision": "retain",
+      "rationale": "De tre dödsuppgifterna1857-04-04,1861-11-16 och1863-10-13 står kvar. Gemensam orsak anges redan som okänd.",
+      "current_payload": {
+        "revision_id": "F-P-0320-family_context-three-child-deaths@1",
+        "subject_id": "P-0320",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"children\":[{\"death\":\"1857-04-04\",\"person\":\"P-0319\"},{\"death\":\"1861-11-16\",\"person\":\"P-0320\"},{\"death\":\"1863-10-13\",\"person\":\"P-0321\"}],\"shared_cause\":null}"
+      },
+      "current_caveat": "Observation över två hushållsposter. Gemensam dödsorsak eller ekonomi följer inte av mönstret.",
+      "requests": [
+        {
+          "request": "2780a87ea0258a14c850cc1a05978a376ea41a1658625c1f9e12da7badcb3a40",
+          "affected_revision": "F-P-0320-family_context-three-child-deaths@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0320-name_form-source-versus-search",
+      "current_revision": "F-P-0320-name_form-source-versus-search@1",
+      "decision": "retain",
+      "rationale": "Maria Christina är egen källform; Urbom/Johansdotter/Uhrbom är uttryckligen sökformer. Födelsedatumets tidigare rättelse kvarstår.",
+      "current_payload": {
+        "revision_id": "F-P-0320-name_form-source-versus-search@1",
+        "subject_id": "P-0320",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"attested\":\"Maria Christina\",\"unattested_search_forms\":[\"Maria Christina Urbom\",\"Maria Christina Johansdotter\",\"Uhrbom\"]}"
+      },
+      "current_caveat": "Familjenamn och patronymikon är sökformer/visningsnamn, inte egna källbelägg.",
+      "requests": [
+        {
+          "request": "e150ca9181aedf395c040d2ab03743b0daec61db86a55dbc32e37f0620894708",
+          "affected_revision": "F-P-0320-name_form-source-versus-search@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0320-residence-Touluse-Hjulfabriken",
+      "current_revision": "F-P-0320-residence-Touluse-Hjulfabriken@1",
+      "decision": "retain",
+      "rationale": "Familjeövergången1859 och Hjulfabriken till döden1861 kvarstår; egen tom utcell och ej preciserad fysisk födelseplats är redan avgränsade.",
+      "current_payload": {
+        "revision_id": "F-P-0320-residence-Touluse-Hjulfabriken@1",
+        "subject_id": "P-0320",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"periods\":[{\"period\":\"1858–1859\",\"place\":\"Touluse, Bettna\"},{\"period\":\"1859–1861\",\"place\":\"Hjulfabriken, Husby-Oppunda\"}]}"
+      },
+      "current_caveat": "Familjens flytt; egen Afflyttad-cell tom. Boställe från rubrik/faderns not, inte eget födelseboställe.",
+      "requests": [
+        {
+          "request": "2eff6fc8872a23c75c30f32bdc4e000ac51babc6ccb8597608d1f469622f9542",
+          "affected_revision": "F-P-0320-residence-Touluse-Hjulfabriken@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0320-source_assessment-corrected-birth-boundaries",
+      "current_revision": "F-P-0320-source_assessment-corrected-birth-boundaries@1",
+      "decision": "retain",
+      "rationale": "1858-04-20 bekräftas i C-0277; äldre4/5 är uttryckligen återtaget. Dopdatum från annat hushåll återanvänds utan att egen födelsebok påstås läst.",
+      "current_payload": {
+        "revision_id": "F-P-0320-source_assessment-corrected-birth-boundaries@1",
+        "subject_id": "P-0320",
+        "property": "source_assessment",
+        "value_type": "structured",
+        "value_json": "{\"baptism\":\"1858-05-02\",\"correct_birth\":\"1858-04-20\",\"family_departure\":\"faderns59 Husby\",\"ministerial_record_read\":false,\"old_transcription\":\"58[18]4/5\",\"old_value_current\":false,\"own_departure_cell\":\"tom\",\"record_count\":2}"
+      },
+      "current_caveat": "Append-only kärnavskrift kvarstår som historik. Migrationsbeslut om separat person höjer inte profilens UNDERKÄND kontraktsnivå.",
+      "requests": [
+        {
+          "request": "2f6588710b57750ef7d47ef4b0f090d6a07a6b423e772d38f63b35e3f573d059",
+          "affected_revision": "F-P-0320-source_assessment-corrected-birth-boundaries@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0321-family_context-bounded-siblings",
+      "current_revision": "F-P-0321-family_context-bounded-siblings@1",
+      "decision": "retain",
+      "rationale": "Syskonlistan här gäller Frans syskon och anger inte hans egen födelsedag. Adelas3augusti är kuraterat eget originaldatum; övriga syskonankare och separata barn före/efter död består.",
+      "current_payload": {
+        "revision_id": "F-P-0321-family_context-bounded-siblings@1",
+        "subject_id": "P-0321",
+        "property": "family_context",
+        "value_type": "structured",
+        "value_json": "{\"context\":\"Föräldrahushåll i Touluse före Husby-Oppunda; individuella avgångar och barn födda efter syskons död hålls åtskilda.\",\"parents\":[{\"occupation\":\"smed\",\"person\":\"P-0123\"},{\"person\":\"P-0124\"}],\"siblings\":[{\"birth\":\"1842-08-27\",\"birth_place\":\"Motala\",\"home\":\"Touluse\",\"own_departure\":\"1857 Rofhult[?]\",\"person\":\"P-0109\",\"witness_identity\":\"Caroline Lundqvist separat LEAD\"},{\"birth\":\"1844-06-04\",\"birth_place\":\"Västra Vingåker\",\"home\":\"Touluse till egen avgång1859; eget avbrott1859–1860; Hjulfabriken1860–1861\",\"person\":\"P-0317\"},{\"birth\":\"1847-09-02\",\"birth_place\":\"Västra Vingåker enligt familjeböcker\",\"home\":\"Touluse; Hjulfabriken till egen avgång1862\",\"person\":\"P-0318\"},{\"birth\":\"1849-08-03\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0111\"},{\"birth\":\"1852-02-20\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0263\"},{\"birth\":\"1854-06-20\",\"home\":\"Touluse; Hjulfabriken\",\"person\":\"P-0268\"},{\"baptism\":\"1857-03-25\",\"birth\":\"1857-03-21\",\"calculated_age\":\"14 dagar\",\"death\":\"1857-04-04\",\"home\":\"Touluse i Bettna\",\"person\":\"P-0319\"},{\"baptism\":\"1858-05-02\",\"birth\":\"1858-04-20\",\"death\":\"1861-11-16\",\"home\":\"Touluse1858–1859; Hjulfabriken1859–1861\",\"person\":\"P-0320\"}]}"
+      },
+      "current_caveat": "Sammanställning av två poster, inte en observation. Familjens ort är inte en preciserad fysisk födelseplats. Dödsorsaker och egen ekonomi kan inte härledas ur familjemönstret.",
+      "requests": [
+        {
+          "request": "96baeed29a19097ea0e22c3a030a6a1ff8bc5a8634ae65892845ac8b6b428b68",
+          "affected_revision": "F-P-0321-family_context-bounded-siblings@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0321-name_form-display-and-search",
+      "current_revision": "F-P-0321-name_form-display-and-search@1",
+      "decision": "retain",
+      "rationale": "Frans Ludwig Gotthard står oförändrat på egen rad. Urbom/Uhrbom och Ludwig/Ludvig hålls skilda som projekt-/sökformer.",
+      "current_payload": {
+        "revision_id": "F-P-0321-name_form-display-and-search@1",
+        "subject_id": "P-0321",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"attested\":\"Frans Ludwig Gotthard\",\"unattested_own_forms\":[\"Frans Ludwig Gotthard Urbom\",\"Frans Ludvig\",\"Uhrbom\"]}"
+      },
+      "current_caveat": "Eget efternamn saknas i läst rad; övriga former är projekt-/sökformer.",
+      "requests": [
+        {
+          "request": "76b5b57ba48361e2c191eed86379875cfea8d39dd8b09f5fad5277d8953367e8",
+          "affected_revision": "F-P-0321-name_form-display-and-search@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "e61baa3ea695c9f801c9662617c3887266011cac8542c30b6bd4eb0bcce8214f",
+          "affected_revision": "F-P-0321-name_form-display-and-search@1",
+          "changed_revision": "O-P-0321-C0277-own@2",
+          "actual_delta": "Frans egen födelsedag blir osäker; år1862, namn, hemvist och död13oktober1863 består."
+        }
+      ]
+    },
+    {
+      "object": "F-P-0321-residence-Hjulfabriken1862-1863",
+      "current_revision": "F-P-0321-residence-Hjulfabriken1862-1863@1",
+      "decision": "retain",
+      "rationale": "Frans tillhör fortfarande den bokförda Hjulfabrikenraden1862–1863; tomma flyttfält görs inte till en bred negativ sökning. Ingen exakt födelsedag används.",
+      "current_payload": {
+        "revision_id": "F-P-0321-residence-Hjulfabriken1862-1863@1",
+        "subject_id": "P-0321",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"own_movement_fields\":\"tomma\",\"period\":\"1862–1863\",\"place\":\"Hjulfabriken i Husby-Oppunda\"}"
+      },
+      "current_caveat": "Hushållskontext från en bok; tomma celler ger inte en bred negativ sökning.",
+      "requests": [
+        {
+          "request": "4da883247da218abfe92d079288f7748e095842ee94548ed542d6e7104f7bc2a",
+          "affected_revision": "F-P-0321-residence-Hjulfabriken1862-1863@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        },
+        {
+          "request": "545916b02974eba4f990f8c1450fb3b37c463802aac2cb78f29a32b99fc125c9",
+          "affected_revision": "F-P-0321-residence-Hjulfabriken1862-1863@1",
+          "changed_revision": "O-P-0321-C0277-own@2",
+          "actual_delta": "Frans egen födelsedag blir osäker; år1862, namn, hemvist och död13oktober1863 består."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-C0277-Edla-Gustafva",
+      "current_revision": "ID-M-C0277-Edla-Gustafva@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-C0277-Edla-Gustafva till P-0317 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-C0277-Edla-Gustafva@1",
+        "mention_id": "M-C0277-Edla-Gustafva",
+        "person_id": "P-0317",
+        "decision": "accepted"
+      },
+      "current_caveat": "Källpersonens identitet hålls skild från eventuellt olöst eget ursprung.",
+      "requests": [
+        {
+          "request": "1df9209534995e309edd736350112a639b5a1f859496b4192f6c041a5cfa8e29",
+          "affected_revision": "ID-M-C0277-Edla-Gustafva@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-C0277-Eleonora-Gustafva-Ajax-P-0124",
+      "current_revision": "ID-M-C0277-Eleonora-Gustafva-Ajax-P-0124@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-C0277-Eleonora-Gustafva-Ajax till P-0124 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-C0277-Eleonora-Gustafva-Ajax-P-0124@1",
+        "mention_id": "M-C0277-Eleonora-Gustafva-Ajax",
+        "person_id": "P-0124",
+        "decision": "accepted"
+      },
+      "current_caveat": "Ingen separat råroll utvunnen här; hustru/släktskap hör till källbedömningen.",
+      "requests": [
+        {
+          "request": "4cd69fa80f2a584ceb5d6800d3dc4e0fcf9220f2db57810ff94cd831b92aaaa7",
+          "affected_revision": "ID-M-C0277-Eleonora-Gustafva-Ajax-P-0124@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-C0277-Frans-Ludwig-Gotthard",
+      "current_revision": "ID-M-C0277-Frans-Ludwig-Gotthard@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-C0277-Frans-Ludwig-Gotthard till P-0321 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-C0277-Frans-Ludwig-Gotthard@1",
+        "mention_id": "M-C0277-Frans-Ludwig-Gotthard",
+        "person_id": "P-0321",
+        "decision": "accepted"
+      },
+      "current_caveat": "Källpersonens identitet hålls skild från eventuellt olöst eget ursprung.",
+      "requests": [
+        {
+          "request": "198846b9ec95bbb3a0f81adb42165d9ff211a00025e021ce775d301b5c35732a",
+          "affected_revision": "ID-M-C0277-Frans-Ludwig-Gotthard@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-C0277-Hulda-Amanda",
+      "current_revision": "ID-M-C0277-Hulda-Amanda@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-C0277-Hulda-Amanda till P-0318 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-C0277-Hulda-Amanda@1",
+        "mention_id": "M-C0277-Hulda-Amanda",
+        "person_id": "P-0318",
+        "decision": "accepted"
+      },
+      "current_caveat": "Källpersonens identitet hålls skild från eventuellt olöst eget ursprung.",
+      "requests": [
+        {
+          "request": "80d5c55e52c9fc8c04090ae004524706072a30fb6e5140a9e73755dcd563ffb3",
+          "affected_revision": "ID-M-C0277-Hulda-Amanda@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-C0277-Johan-Petter-Urbom-P-0123",
+      "current_revision": "ID-M-C0277-Johan-Petter-Urbom-P-0123@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-C0277-Johan-Petter-Urbom till P-0123 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-C0277-Johan-Petter-Urbom-P-0123@1",
+        "mention_id": "M-C0277-Johan-Petter-Urbom",
+        "person_id": "P-0123",
+        "decision": "accepted"
+      },
+      "current_caveat": "Vuxenfamiljens personbindning enligt bevarade namn-, hushålls-, flytt- och datumargument.",
+      "requests": [
+        {
+          "request": "5df531ffd1fea1a57b7db52efbcbdfd246d603ba64bf35c1a561a863a522ff65",
+          "affected_revision": "ID-M-C0277-Johan-Petter-Urbom-P-0123@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-C0277-Maria-Christina-1858",
+      "current_revision": "ID-M-C0277-Maria-Christina-1858@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-C0277-Maria-Christina-1858 till P-0320 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-C0277-Maria-Christina-1858@1",
+        "mention_id": "M-C0277-Maria-Christina-1858",
+        "person_id": "P-0320",
+        "decision": "accepted"
+      },
+      "current_caveat": "Källpersonens identitet hålls skild från eventuellt olöst eget ursprung.",
+      "requests": [
+        {
+          "request": "653416dc75046cc20df5b6ea333f04cc764d36f9219e9ff93b3c1c2706584544",
+          "affected_revision": "ID-M-C0277-Maria-Christina-1858@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-C277-Carl-Johan-Edvard",
+      "current_revision": "ID-M-C277-Carl-Johan-Edvard@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-C277-Carl-Johan-Edvard till P-0268 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-C277-Carl-Johan-Edvard@1",
+        "mention_id": "M-C277-Carl-Johan-Edvard",
+        "person_id": "P-0268",
+        "decision": "accepted"
+      },
+      "current_caveat": "Källpersonens identitet hålls skild från eventuellt olöst eget ursprung.",
+      "requests": [
+        {
+          "request": "bdf2fa83d8f06c29356fa9144462e2f782988a6be683a83e07d9f35e3b68944c",
+          "affected_revision": "ID-M-C277-Carl-Johan-Edvard@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-P-0111-Hjulfabriken1861",
+      "current_revision": "ID-M-P-0111-Hjulfabriken1861@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-P-0111-Hjulfabriken1861 till P-0111 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-P-0111-Hjulfabriken1861@1",
+        "mention_id": "M-P-0111-Hjulfabriken1861",
+        "person_id": "P-0111",
+        "decision": "accepted"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "0e25f0014e5bc64dce9a19dbfbb79d63bc8c086ebf32c5ea7873687f3d8a7b4a",
+          "affected_revision": "ID-M-P-0111-Hjulfabriken1861@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "ID-M-P-0263-C0277-own",
+      "current_revision": "ID-M-P-0263-C0277-own@1",
+      "decision": "retain",
+      "rationale": "Bindningen M-P-0263-C0277-own till P-0263 bärs fortsatt av egen namngiven rad och familjeföljd. Datumrättelsen flyttar inte raden eller skapar en annan person. Adelas eventuella4/8-variant hanteras separat mot eget3/8-original; detta är inget nytt personkontraktsgodkännande.",
+      "current_payload": {
+        "revision_id": "ID-M-P-0263-C0277-own@1",
+        "mention_id": "M-P-0263-C0277-own",
+        "person_id": "P-0263",
+        "decision": "accepted"
+      },
+      "current_caveat": "Källpersonens identitet hålls skild från eventuellt olöst eget ursprung.",
+      "requests": [
+        {
+          "request": "ccbb360e4f6f35dc2cd436f6b1c1b1b6464fc87d09eebc673ef545d32fae620b",
+          "affected_revision": "ID-M-P-0263-C0277-own@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "IDENTITY-P-0319-P-0320",
+      "current_revision": "IDENTITY-P-0319-P-0320@1",
+      "decision": "retain",
+      "rationale": "P-0319 och P-0320 förblir skilda barn med olika födelse-/dopår och den äldres egen dödsuppgift1857. Den yngre ensam i C-0277 står kvar; Frans datumosäkerhet rubbar inte särskiljningen.",
+      "current_payload": {
+        "revision_id": "IDENTITY-P-0319-P-0320@1",
+        "person_a": "P-0319",
+        "person_b": "P-0320",
+        "decision": "different_people"
+      },
+      "current_caveat": "Skilda egna rader med födelse- och dopdatum; den äldres egen dödsuppgift1857. Senare längdens enda yngre barn är förenligt med detta, inte ett självständigt dödsbevis.",
+      "requests": [
+        {
+          "request": "acbe856f605a51280d287f61978d45e898658ed8411ff114ee5dcb38e8a49f12",
+          "affected_revision": "IDENTITY-P-0319-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-C0277-Edla-Gustafva",
+      "current_revision": "M-C0277-Edla-Gustafva@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Edla Gustafva' och rårollen 'Doter' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-C0277-Edla-Gustafva@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Edla Gustafva",
+        "role_literal": "Doter"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "1b6eab58353c6185f0c680bd6c4ea83495a9d002bac0a729a7ffe83032c1aa33",
+          "affected_revision": "M-C0277-Edla-Gustafva@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-C0277-Eleonora-Gustafva-Ajax",
+      "current_revision": "M-C0277-Eleonora-Gustafva-Ajax@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Eleonora Gustafva Ajax' och rårollen '' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-C0277-Eleonora-Gustafva-Ajax@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Eleonora Gustafva Ajax",
+        "role_literal": ""
+      },
+      "current_caveat": "Ingen separat råroll utvunnen här; hustru/släktskap hör till källbedömningen.",
+      "requests": [
+        {
+          "request": "5d3eee7ebeeb12d7316da1bd5616be5937c6eed67d00535e5eb839fede09e7ab",
+          "affected_revision": "M-C0277-Eleonora-Gustafva-Ajax@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-C0277-Frans-Ludwig-Gotthard",
+      "current_revision": "M-C0277-Frans-Ludwig-Gotthard@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Frans Ludwig Gotthard' och rårollen 'Son' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-C0277-Frans-Ludwig-Gotthard@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Frans Ludwig Gotthard",
+        "role_literal": "Son"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "6a1918b29f4aa2bb37d4833652dd74db203e7be92f3ddd42dd3825bc3e93020f",
+          "affected_revision": "M-C0277-Frans-Ludwig-Gotthard@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-C0277-Hulda-Amanda",
+      "current_revision": "M-C0277-Hulda-Amanda@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Hulda Amanda' och rårollen '' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-C0277-Hulda-Amanda@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Hulda Amanda",
+        "role_literal": ""
+      },
+      "current_caveat": "Ingen separat råroll är utvunnen; tom sträng är inte en uppgift om avsaknad av roll.",
+      "requests": [
+        {
+          "request": "62cc7680127a6e684a4f2bd8c7dcb81623ca3f79f6749b2e10091fe045f96f28",
+          "affected_revision": "M-C0277-Hulda-Amanda@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-C0277-Johan-Petter-Urbom",
+      "current_revision": "M-C0277-Johan-Petter-Urbom@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Urbom Johan Petter' och rårollen 'Smed' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-C0277-Johan-Petter-Urbom@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Urbom Johan Petter",
+        "role_literal": "Smed"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "a68aef83119fbe5ddb209e0c8cd9dca0024796eb708758b92ea94e6e1030fe56",
+          "affected_revision": "M-C0277-Johan-Petter-Urbom@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-C0277-Maria-Christina-1858",
+      "current_revision": "M-C0277-Maria-Christina-1858@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Maria Christina' och rårollen 'Doter' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-C0277-Maria-Christina-1858@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Maria Christina",
+        "role_literal": "Doter"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "3ef064314dac403443e9757d3712055960575488a1aab9e1c6d7c88da7cd5f5e",
+          "affected_revision": "M-C0277-Maria-Christina-1858@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-C277-Carl-Johan-Edvard",
+      "current_revision": "M-C277-Carl-Johan-Edvard@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Carl Johan Edvard' och rårollen '' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-C277-Carl-Johan-Edvard@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Carl Johan Edvard",
+        "role_literal": ""
+      },
+      "current_caveat": "Ingen separat råroll är utvunnen; tom sträng är inte en uppgift om avsaknad av roll.",
+      "requests": [
+        {
+          "request": "4f303be79f15adb11a583cbff7552f910b2522fef81ce5947a3ee96deef2cbce",
+          "affected_revision": "M-C277-Carl-Johan-Edvard@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-P-0111-Hjulfabriken1861",
+      "current_revision": "M-P-0111-Hjulfabriken1861@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Adela Amalia' och rårollen '' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-P-0111-Hjulfabriken1861@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Adela Amalia",
+        "role_literal": ""
+      },
+      "current_caveat": "Ingen separat råroll har utvunnits; tom sträng innebär ingen tillskriven roll.",
+      "requests": [
+        {
+          "request": "1fd16eb3c4622dfc8fb6ece22ddd8606f7e84cebbfb416bd20e46b62dd9392fe",
+          "affected_revision": "M-P-0111-Hjulfabriken1861@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "M-P-0263-C0277-own",
+      "current_revision": "M-P-0263-C0277-own@1",
+      "decision": "retain",
+      "rationale": "Rånamnet 'Ernst Helge Petrus' och rårollen 'Son' avser samma rad efter datumrättelsen. Tom råroll är uttryckligen outvunnet, inte ett förnekande av hushållsrollen. Den nya fullposten ändrar ingen namnbindning.",
+      "current_payload": {
+        "revision_id": "M-P-0263-C0277-own@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "name_literal": "Ernst Helge Petrus",
+        "role_literal": "Son"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "da716863b82ae3f99d7f436c311ba4d6dd98b844a2f7b4998d80a2672e1225b2",
+          "affected_revision": "M-P-0263-C0277-own@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "O-P-0109-C0277-absent",
+      "current_revision": "O-P-0109-C0277-absent@1",
+      "decision": "retain",
+      "rationale": "Carolina Wilhelmina saknas fortfarande i just denna familjepost; avgränsningen hävdar varken död eller annan hemvist.",
+      "current_payload": {
+        "revision_id": "O-P-0109-C0277-absent@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "mention_id": null,
+        "property": "bounded_absence",
+        "value_literal": "Carolina Wilhelmina saknas i den lästa familjeposten Hjulfabriken s101,1861–1865",
+        "value_json": "{\"book_period\":\"1861–1865\",\"household\":\"Urbom–Ajax\",\"not_found\":\"Carolina Wilhelmina\",\"page\":101,\"person\":\"P-0109\"}"
+      },
+      "current_caveat": "Sidbunden frånvaro, inget dödsbevis, flyttdatum eller uppgift om annat hemvist. Egen utgång1857 finns separat i C0276.",
+      "requests": [
+        {
+          "request": "02066dfede0b160c75c287286f4b12230ca4d32701fbb04ac5a6e246971faeef",
+          "affected_revision": "O-P-0109-C0277-absent@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "O-P-0123-C0277-own-row",
+      "current_revision": "O-P-0123-C0277-own-row@1",
+      "decision": "retain",
+      "rationale": "Faderns egen rad1818 2/4[?], Wist, Smed, Bettna1859 och kyrkliga fält bekräftas; osäkert datum och inga moderna betyg kvarstår.",
+      "current_payload": {
+        "revision_id": "O-P-0123-C0277-own-row@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "mention_id": "M-C0277-Johan-Petter-Urbom",
+        "property": "household_row",
+        "value_literal": "Egen rad 2: Urbom Johan Petter, 1818 2/4[?], Wist; gift-/vaccintecken, från Bettna 1859, och egen anteckning vid Hjulfabriken. Nämnarens fyrform jämförd med hustruns datum direkt under; 2 april är starkare läsning än 2 mars här, men reserveras. Kunskapsstreck, förhörs- och nattvardstecken under 1861–1865 är prövade; egna årsfält innehåller bland annat 21/7, 7/12, 26/9, 1/10 och 17/9. Inget nytt eget döds-/utflyttningsdatum. Gamla 3 juni återtas.",
+        "value_json": "{\"arrival_year\":1859,\"birth_literal\":\"1818 2/4[?]\",\"birth_place\":\"Wist\",\"book\":\"1861–1865\",\"church_fields\":\"21/7,7/12,26/9,1/10,17/9; förhörs-/nattvardstecken prövade\",\"communion_1861\":\"21/7 gemensamt datum med hustru/Edla, inte exklusivt egen information\",\"death_note\":null,\"departure_note\":null,\"from\":\"Bettna\",\"home\":\"Hjulfabriken\",\"knowledge\":\"streck\",\"marriage_mark\":true,\"own_note\":\"vid Hjulfabriken\",\"vaccination_literal\":\"v\"}"
+      },
+      "current_caveat": "Bokföringskedjan kan kopiera födelseuppgifter. Gamla3juni är en avförd felläsning, inte ännu en likvärdig datering. Råtecken ger inga moderna betyg/vaccinationsdatum.",
+      "requests": [
+        {
+          "request": "bd1eaf79d09f72577b0430bc54fbfd2d1d23e1a4b83b713f972ec6c9a3df3a02",
+          "affected_revision": "O-P-0123-C0277-own-row@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "O-P-0124-C-0277-own-row",
+      "current_revision": "O-P-0124-C-0277-own-row@1",
+      "decision": "retain",
+      "rationale": "Moderns typade datum är1817-04-04. Den äldre4/3-texten är redan uttryckligen rättad senare i samma literal; hustru, v, nattvard och förhör motsvarar fullposten.",
+      "current_payload": {
+        "revision_id": "O-P-0124-C-0277-own-row@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "mention_id": "M-C0277-Eleonora-Gustafva-Ajax",
+        "property": "household_row",
+        "value_literal": "Fullbildens egna rader 3 och 5 har prövats med hela rubrikraden. Eleonora Gustafva Ajax, hustru, 1817 4/3, W. Ny; Hulda Amanda, dotter, 1847 2/9, W. Wingåker genom ditto. Familjeankomsten Bettna 1859 tillgodoräknas. Modern har giftmarkering och vaccin v; Hulda v men inga egna gift-/änklinge-/dödsuppgifter. Kunskapsfälten har grafiska b-liknande markeringar, utan översättning av skalan.\n\nModerns nattvard: 21/7 1861, 7/12 1862, 26/9 1863, 1/10 1864 och 17/9 1865; förhörsdatum 14/11 1861 och 11/11 1864. Hulda: förhör 14/11 1861 samt 14/[11?] 1862, nattvard 1/6[?] 1862. Övriga årsfält för Hulda efter utflyttningen saknar uppgift. Utflyttning **Blacksta 1862 24/10**, utan eget tydligt attestnummer. Frejd och enskilda anteckningar är tomma på deras rader; faderns ”vid Hjulfabriken” är en separat egen not.\nBåde den äldre avskriften och mitt första T-0135-tillägg återgav felaktigt moderns datum som 4/3. Förstorade egna datumfält och oberoende läsning visar **1817 4/4**. Det är denna råform som gäller; det mindre tilläggstecknets innebörd normaliseras inte. Hennes eget födelseoriginal C-0289 ger 4 mars 1817, men datumavvikelsen finns också i den senare familjekedjan, inte enbart i barndomens längder. Namn, make, barn, ålder och de tidigare föräldrahushållen måste bära personargumentet tillsammans, inte ett felaktigt påstående om exakt datumöverensstämmelse.",
+        "value_json": "{\"birth\":\"1817-04-04\",\"birth_place\":\"W. Ny\",\"blank\":[\"frejd\",\"enskild anteckning\"],\"book\":\"1861–1865\",\"communion\":[\"21/7 1861\",\"7/12 1862\",\"26/9 1863\",\"1/10 1864\",\"17/9 1865\"],\"examinations\":[\"14/11 1861\",\"11/11 1864\"],\"family_arrival\":\"Bettna1859\",\"home\":\"Hjulfabriken\",\"knowledge\":\"grafiska b-liknande markeringar\",\"married_mark\":true,\"spouse\":\"P-0123\",\"vaccine\":\"v\"}"
+      },
+      "current_caveat": "Rådatum bevaras, källkopior är inte oberoende födelsebevis. Bokperiod är inte individuell vistelselängd; tomma fält bevisar ingen livshändelse.",
+      "requests": [
+        {
+          "request": "802d6e23f84ce656a514fc2e6667eb4f339c47c64b9333288aae292e0862a746",
+          "affected_revision": "O-P-0124-C-0277-own-row@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "O-P-0263-C0277-own",
+      "current_revision": "O-P-0263-C0277-own@1",
+      "decision": "retain",
+      "rationale": "Ernsts1852-02-20, Bettna, v och rad7 bekräftas. Enskilda förhörsdagar var uttryckligen inte utvunna i denna persontext; ny fullpost ger tillägg utan att den äldre avgränsade observationen blir falsk.",
+      "current_payload": {
+        "revision_id": "O-P-0263-C0277-own@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "mention_id": "M-P-0263-C0277-own",
+        "property": "household_row",
+        "value_literal": "{\"home\":\"Hjulfabriken, Husby-Oppunda\",\"page\":101,\"row\":7,\"book_period\":\"1861–1865\",\"birth\":\"1852-02-20\",\"birth_parish\":\"Bettna\",\"vaccination_literal\":\"v\",\"examinations\":\"förhörsdatum1861–1865 lästa; enskilda dagar inte utvunna i denna persontext\"}",
+        "value_json": "{\"birth\":\"1852-02-20\",\"birth_parish\":\"Bettna\",\"book_period\":\"1861–1865\",\"examinations\":\"förhörsdatum1861–1865 lästa; enskilda dagar inte utvunna i denna persontext\",\"home\":\"Hjulfabriken, Husby-Oppunda\",\"page\":101,\"row\":7,\"vaccination_literal\":\"v\"}"
+      },
+      "current_caveat": "Förhör är kyrkobokföring, inte belagd skolgång. Förälderns gemensamma nattvardsdatum tillskrivs inte barnet.",
+      "requests": [
+        {
+          "request": "e7af2980e790f421a4d31e7898593775f583ea5b2605260e23994aa927bb719e",
+          "affected_revision": "O-P-0263-C0277-own@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "O-P-0268-C277-own",
+      "current_revision": "O-P-0268-C277-own@1",
+      "decision": "retain",
+      "rationale": "Carl Johans1854-06-20, Bettna genom dito, v och råförhör20/11 samt11/11 bekräftas. Årsfördelning saknades uttryckligen i denna observation; den nya fullpostens fördelning är kompletterande.",
+      "current_payload": {
+        "revision_id": "O-P-0268-C277-own@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "mention_id": "M-C277-Carl-Johan-Edvard",
+        "property": "household_row",
+        "value_literal": "{\"home\":\"Hjulfabriken\",\"page\":101,\"row\":8,\"book_period\":\"1861–1865\",\"birth\":\"1854-06-20\",\"birth_parish\":\"Bettna via dito\",\"vaccination_literal\":\"v\",\"examination_dates_raw\":[\"20/11\",\"11/11\"],\"examination_years_unallocated\":true}",
+        "value_json": "{\"birth\":\"1854-06-20\",\"birth_parish\":\"Bettna via dito\",\"book_period\":\"1861–1865\",\"examination_dates_raw\":[\"20/11\",\"11/11\"],\"examination_years_unallocated\":true,\"home\":\"Hjulfabriken\",\"page\":101,\"row\":8,\"vaccination_literal\":\"v\"}"
+      },
+      "current_caveat": "Son står redaktionellt inom hakparentes i citationens råavskrift; ingen säker separat råroll utvunnen. Förhörsdatumen får inte gissade år.",
+      "requests": [
+        {
+          "request": "cbb18e5d27b7923a91ba1e23887f245862d830506a2c01f947198f38aa1d35df",
+          "affected_revision": "O-P-0268-C277-own@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "O-P-0318-C0277-own",
+      "current_revision": "O-P-0318-C0277-own@1",
+      "decision": "retain",
+      "rationale": "Huldas2september1847, Bettna1859, Blacksta24oktober1862 och reserverade kyrkliga fraktioner motsvarar egen rad.",
+      "current_payload": {
+        "revision_id": "O-P-0318-C0277-own@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "mention_id": "M-C0277-Hulda-Amanda",
+        "property": "own_row",
+        "value_literal": "{\"home\":\"Hjulfabriken\",\"period\":\"1861–1862 inom bok 1861–1865\",\"normalized_role\":\"dotter\",\"birth\":\"47 2/9\",\"birth_place\":\"W. Wingåker via ditto\",\"from\":\"Bettna 1859\",\"departure\":\"Blacksta 1862 24/10\",\"vaccination\":\"v\",\"knowledge\":\"b-liknande, ingen betygsskala\",\"examinations\":[\"1861 14/11\",\"1862 14/[11?]\"],\"communion\":\"1862 1/6[?]\",\"gift_widow_death\":\"tomma\"}",
+        "value_json": "{\"birth\":\"47 2/9\",\"birth_place\":\"W. Wingåker via ditto\",\"communion\":\"1862 1/6[?]\",\"departure\":\"Blacksta 1862 24/10\",\"examinations\":[\"1861 14/11\",\"1862 14/[11?]\"],\"from\":\"Bettna 1859\",\"gift_widow_death\":\"tomma\",\"home\":\"Hjulfabriken\",\"knowledge\":\"b-liknande, ingen betygsskala\",\"normalized_role\":\"dotter\",\"period\":\"1861–1862 inom bok 1861–1865\",\"vaccination\":\"v\"}"
+      },
+      "current_caveat": "Endast denna egen rad. Senare korrigerad läsning anges där sådan finns; tomma kolumner är inte livslånga negationer. Kyrkliga råtecken ger ingen modern betygsskala eller exakt vaccinationsdag.",
+      "requests": [
+        {
+          "request": "a82e01ce1acc3f343c0b3f0f5c91789cfd38a7b66c6f51a6034dec7d0b138eff",
+          "affected_revision": "O-P-0318-C0277-own@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "O-P-0320-C0277-own",
+      "current_revision": "O-P-0320-C0277-own@1",
+      "decision": "retain",
+      "rationale": "Maria Christinas1858 20/4 och1861 16/11 bekräftas; hushållet och egna tomma kunskaps-/gift-/fräjdfält består.",
+      "current_payload": {
+        "revision_id": "O-P-0320-C0277-own@1",
+        "record_id": "R-9b65e989ea7512c17bdf70ad",
+        "mention_id": "M-C0277-Maria-Christina-1858",
+        "property": "own_row",
+        "value_literal": "{\"birth\":\"1858 20/4\",\"death\":\"1861 16/11\",\"household\":\"Hjulfabriken\",\"parish\":\"Husby-Oppunda\",\"knowledge_gift_frejd_notes\":\"tomma\"}",
+        "value_json": "{\"birth\":\"1858 20/4\",\"death\":\"1861 16/11\",\"household\":\"Hjulfabriken\",\"knowledge_gift_frejd_notes\":\"tomma\",\"parish\":\"Husby-Oppunda\"}"
+      },
+      "current_caveat": "Samma barn i nästa hushållsbok; dödsorsak/begravning saknas.",
+      "requests": [
+        {
+          "request": "d14702b29c5f7dcf3768aeb27273e0f56afa64fa6b6f61b2a319505cfbc05885",
+          "affected_revision": "O-P-0320-C0277-own@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "P-0263",
+      "current_revision": "P-0263@2",
+      "decision": "retain",
+      "rationale": "Personobjektet Ernst Helge Petrus Urbom innehåller existens, visningsnamn och kön 'male', inte de ändrade exakta datumen. Namngiven egen familjerad kvarstår; tidigare könsunderlag och kontraktsgräns tillförs inte nytt godkännande.",
+      "current_payload": {
+        "revision_id": "P-0263@2",
+        "display_name": "Ernst Helge Petrus Urbom",
+        "sex": "male",
+        "legacy_state": "active"
+      },
+      "current_caveat": "Personens existens och dokumenterade identitet till1878 är accepterade; ingen ny kontraktsnivå eller fortsatt livskedja. Kön stöds uttryckligen av akt45.",
+      "requests": [
+        {
+          "request": "d6887a22ee5b819f88f0b54d6713bad11dc0ed6f3ecbc0ff234156f1e5c1e33d",
+          "affected_revision": "P-0263@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "P-0268",
+      "current_revision": "P-0268@2",
+      "decision": "retain",
+      "rationale": "Personobjektet Carl Johan Edvard Urbom innehåller existens, visningsnamn och kön 'male', inte de ändrade exakta datumen. Namngiven egen familjerad kvarstår; tidigare könsunderlag och kontraktsgräns tillförs inte nytt godkännande.",
+      "current_payload": {
+        "revision_id": "P-0268@2",
+        "display_name": "Carl Johan Edvard Urbom",
+        "sex": "male",
+        "legacy_state": "active"
+      },
+      "current_caveat": "Personens existens skiljs från fortsatt identitetskedja, släktkoppling och kontraktsnivå. Kön härleds inte ur namn eller roll.",
+      "requests": [
+        {
+          "request": "71b51c6ba1ff721f67d519db7cef4be63a5063c19c6274469fc51163b0e6f2b1",
+          "affected_revision": "P-0268@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "P-0317",
+      "current_revision": "P-0317@2",
+      "decision": "retain",
+      "rationale": "Personobjektet Edla Gustafva Urbom innehåller existens, visningsnamn och kön 'female', inte de ändrade exakta datumen. Namngiven egen familjerad kvarstår; tidigare könsunderlag och kontraktsgräns tillförs inte nytt godkännande.",
+      "current_payload": {
+        "revision_id": "P-0317@2",
+        "display_name": "Edla Gustafva Urbom",
+        "sex": "female",
+        "legacy_state": "active"
+      },
+      "current_caveat": "Personens existens skiljs från fortsatt identitetskedja, släktkoppling och kontraktsnivå. Kön härleds inte ur namn eller roll.",
+      "requests": [
+        {
+          "request": "bf8560d760c5497470d0d7758aed957bf1abe6057059911d41e155f8477c82f4",
+          "affected_revision": "P-0317@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "P-0318",
+      "current_revision": "P-0318@2",
+      "decision": "retain",
+      "rationale": "Personobjektet Hulda Amanda Urbom innehåller existens, visningsnamn och kön 'female', inte de ändrade exakta datumen. Namngiven egen familjerad kvarstår; tidigare könsunderlag och kontraktsgräns tillförs inte nytt godkännande.",
+      "current_payload": {
+        "revision_id": "P-0318@2",
+        "display_name": "Hulda Amanda Urbom",
+        "sex": "female",
+        "legacy_state": "active"
+      },
+      "current_caveat": "Personens existens skiljs från fortsatt identitetskedja, släktkoppling och kontraktsnivå. Kön härleds inte ur namn eller roll.",
+      "requests": [
+        {
+          "request": "b4872440474f95bbf53e99c7a559a8fa51a865b04283915771ab6ae87c10dd68",
+          "affected_revision": "P-0318@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "P-0319",
+      "current_revision": "P-0319@2",
+      "decision": "retain",
+      "rationale": "Personobjektet Maria Christina Urbom (1857) innehåller existens, visningsnamn och kön None, inte de ändrade exakta datumen. Namngiven egen familjerad kvarstår; tidigare könsunderlag och kontraktsgräns tillförs inte nytt godkännande.",
+      "current_payload": {
+        "revision_id": "P-0319@2",
+        "display_name": "Maria Christina Urbom (1857)",
+        "sex": null,
+        "legacy_state": "active"
+      },
+      "current_caveat": "Personens existens skiljs från fortsatt identitetskedja, släktkoppling och kontraktsnivå. Kön härleds inte ur namn eller roll.",
+      "requests": [
+        {
+          "request": "8a7723d2adc887631c7f3e8a7d210a23aec06edc6d1a5942d949bda00c9ea3cd",
+          "affected_revision": "P-0319@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "P-0320",
+      "current_revision": "P-0320@2",
+      "decision": "retain",
+      "rationale": "Personobjektet Maria Christina Urbom (1858–1861) innehåller existens, visningsnamn och kön 'female', inte de ändrade exakta datumen. Namngiven egen familjerad kvarstår; tidigare könsunderlag och kontraktsgräns tillförs inte nytt godkännande.",
+      "current_payload": {
+        "revision_id": "P-0320@2",
+        "display_name": "Maria Christina Urbom (1858–1861)",
+        "sex": "female",
+        "legacy_state": "active"
+      },
+      "current_caveat": "Personens existens skiljs från fortsatt identitetskedja, släktkoppling och kontraktsnivå. Kön härleds inte ur namn eller roll.",
+      "requests": [
+        {
+          "request": "e0d7a67c26c20de4a6269b3b619db07ab16f8bca1d69056a1949d17a736866ff",
+          "affected_revision": "P-0320@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "P-0321",
+      "current_revision": "P-0321@2",
+      "decision": "retain",
+      "rationale": "Personobjektet Frans Ludwig Gotthard Urbom (1862–1863) innehåller existens, visningsnamn och kön None, inte de ändrade exakta datumen. Namngiven egen familjerad kvarstår; tidigare könsunderlag och kontraktsgräns tillförs inte nytt godkännande.",
+      "current_payload": {
+        "revision_id": "P-0321@2",
+        "display_name": "Frans Ludwig Gotthard Urbom (1862–1863)",
+        "sex": null,
+        "legacy_state": "active"
+      },
+      "current_caveat": "Personens existens skiljs från fortsatt identitetskedja, släktkoppling och kontraktsnivå. Kön härleds inte ur namn eller roll.",
+      "requests": [
+        {
+          "request": "ed09c5b0be13458ae87edc01a7fde35a671ea602412d643499d6ce247193cc23",
+          "affected_revision": "P-0321@2",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "Q-P-0123-child-adult-identity",
+      "current_revision": "Q-P-0123-child-adult-identity@1",
+      "decision": "retain",
+      "rationale": "Faderns vuxenrad2/4[?]/Wist och Björsäterbarnets3juni förblir motstridiga. Frågan är redan öppen och ingen barn-vuxen-identitet har antagits; de nya barnrättelserna sluter inte den bron.",
+      "current_payload": {
+        "revision_id": "Q-P-0123-child-adult-identity@1",
+        "subject_id": "P-0123",
+        "title": "Är Björsäterbarnet Johan Petter1818-06-03 samme man som Johan Petter Urbom i vuxenhushållen1841–1896?",
+        "outcome": "open",
+        "body": "Tidigare exakt datumöverensstämmelse var en felläsning. Vuxenraderna har2mars/2april[?] ochWist; barnet3juni/Björsäter. Sekundärens Backgården1839/brodern CarlFredrik är en hypotes. Föräldrar/vittnesnätverk får inte föras över till vuxenmannen innan en egen kontinuitetsbrygga finns."
+      },
+      "current_caveat": "Öppen identitet, ingen automatisk avvisning av det dokumenterade vuxenlivet.",
+      "requests": [
+        {
+          "request": "ecbebe5c2d0e2208c03d829e3d85d101f997a00b482cda4b86af86dac828a830",
+          "affected_revision": "Q-P-0123-child-adult-identity@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "READ-90d3e348b06368dd5a3a734a",
+      "current_revision": "READ-90d3e348b06368dd5a3a734a@1",
+      "decision": "revise",
+      "rationale": "Läsbedömningens caveat påstår säker dag6 för Frans trots den nya originalkontrollen. Behåll postgräns och tidigare föräldradatumrättelser men reservera dag och månad samt ange de nya Adela/Edla-rättelserna.",
+      "current_payload": {
+        "revision_id": "READ-90d3e348b06368dd5a3a734a@1",
+        "subject_id": "R-9b65e989ea7512c17bdf70ad",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "C-0277: Familjens flera läsomgångar bevaras; tidig identitetsbrygga till faderns födelsebarn är fortsatt kandidat.\nBarnens dödsdatum är hushållsuppgifter. Kyrklig dag21/7/1861 återkommer hos flera hushållsmedlemmar och är inte exklusivt faderns uppgift."
+      },
+      "current_caveat": "Far3/6 rättas2/4[?]; mor4/3 rättas4/4. Maria Christina rättas20/4/1858. Frans har säker dag6 men olöst månad. Dymmelsta68 är folio, inte år1868.",
+      "requests": [
+        {
+          "request": "d09de1dc47e2b9068ec95c0d916a59d3d5932889f4fc2258e390aa007b9dba73",
+          "affected_revision": "READ-90d3e348b06368dd5a3a734a@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0111-P-0263",
+      "current_revision": "REL-sibling-P-0111-P-0263@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0111–P-0263 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0111-P-0263@1",
+        "from_person": "P-0111",
+        "to_person": "P-0263",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "63460faad6d1ee1cd7781050e82dd056d71af57754e48e0a7ce2db5b37cabd9b",
+          "affected_revision": "REL-sibling-P-0111-P-0263@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0111-P-0268",
+      "current_revision": "REL-sibling-P-0111-P-0268@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0111–P-0268 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0111-P-0268@1",
+        "from_person": "P-0111",
+        "to_person": "P-0268",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "3da608a092074b89a00bcd97085d66d5a5b08bd9271c89902b9c50d743c7c4b4",
+          "affected_revision": "REL-sibling-P-0111-P-0268@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0111-P-0317",
+      "current_revision": "REL-sibling-P-0111-P-0317@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0111–P-0317 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0111-P-0317@1",
+        "from_person": "P-0111",
+        "to_person": "P-0317",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "31607861ba91a3fc2f86f5b5424621d0f60ca5a39607b2d461fc3d31c5f6122d",
+          "affected_revision": "REL-sibling-P-0111-P-0317@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0111-P-0318",
+      "current_revision": "REL-sibling-P-0111-P-0318@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0111–P-0318 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0111-P-0318@1",
+        "from_person": "P-0111",
+        "to_person": "P-0318",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "567739a4c150d61c910d131356bc8ac2b3154f1c7e36fda272ff2b7da7927975",
+          "affected_revision": "REL-sibling-P-0111-P-0318@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0111-P-0319",
+      "current_revision": "REL-sibling-P-0111-P-0319@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0111–P-0319 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0111-P-0319@1",
+        "from_person": "P-0111",
+        "to_person": "P-0319",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "21d8dc1847c7fbdac19cbc66703522e392811c816199e8e37919d8b33e06eebe",
+          "affected_revision": "REL-sibling-P-0111-P-0319@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0111-P-0320",
+      "current_revision": "REL-sibling-P-0111-P-0320@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0111–P-0320 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0111-P-0320@1",
+        "from_person": "P-0111",
+        "to_person": "P-0320",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "6da8b1b20218c26fffb5e66d28fdfb4e1284fd7a8f5633cb48f4c44b2938b4fb",
+          "affected_revision": "REL-sibling-P-0111-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0111-P-0321",
+      "current_revision": "REL-sibling-P-0111-P-0321@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0111–P-0321 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0111-P-0321@1",
+        "from_person": "P-0111",
+        "to_person": "P-0321",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "5944c5b666681623c0f511a1e2fbb47ec9f8ef57fe5c7bb7edcf328402f56ee5",
+          "affected_revision": "REL-sibling-P-0111-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0263-P-0268",
+      "current_revision": "REL-sibling-P-0263-P-0268@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0263–P-0268 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0263-P-0268@1",
+        "from_person": "P-0263",
+        "to_person": "P-0268",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttryckligt syskonförhållande i granskad familjegrupp; två Maria Christina är skilda barn.",
+      "requests": [
+        {
+          "request": "3a80de6abbd125b9c334253b9c22a972d260bc386446869dfea154214f2c5e68",
+          "affected_revision": "REL-sibling-P-0263-P-0268@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0263-P-0317",
+      "current_revision": "REL-sibling-P-0263-P-0317@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0263–P-0317 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0263-P-0317@1",
+        "from_person": "P-0263",
+        "to_person": "P-0317",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttryckligt syskonförhållande i granskad familjegrupp; två Maria Christina är skilda barn.",
+      "requests": [
+        {
+          "request": "2efe0ba596e046b2c8b8cb14cfc22313dce260980f05481654efaf800d1e6bb0",
+          "affected_revision": "REL-sibling-P-0263-P-0317@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0263-P-0318",
+      "current_revision": "REL-sibling-P-0263-P-0318@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0263–P-0318 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0263-P-0318@1",
+        "from_person": "P-0263",
+        "to_person": "P-0318",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttryckligt syskonförhållande i granskad familjegrupp; två Maria Christina är skilda barn.",
+      "requests": [
+        {
+          "request": "7c1dcdbc4a29716cd6ea1febf8941922935d2beed164e8f20524733820d4a9f3",
+          "affected_revision": "REL-sibling-P-0263-P-0318@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0263-P-0319",
+      "current_revision": "REL-sibling-P-0263-P-0319@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0263–P-0319 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0263-P-0319@1",
+        "from_person": "P-0263",
+        "to_person": "P-0319",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttryckligt syskonförhållande i granskad familjegrupp; två Maria Christina är skilda barn.",
+      "requests": [
+        {
+          "request": "bfa4562602be3b5077aaed59d7159c65089caded6dabaad34e49f7aa9faa3318",
+          "affected_revision": "REL-sibling-P-0263-P-0319@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0263-P-0320",
+      "current_revision": "REL-sibling-P-0263-P-0320@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0263–P-0320 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0263-P-0320@1",
+        "from_person": "P-0263",
+        "to_person": "P-0320",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttryckligt syskonförhållande i granskad familjegrupp; två Maria Christina är skilda barn.",
+      "requests": [
+        {
+          "request": "fed3002186d0da3f22a2304ca6bdfda818e33250a9a4052cdfa9cd3161b8ea89",
+          "affected_revision": "REL-sibling-P-0263-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0263-P-0321",
+      "current_revision": "REL-sibling-P-0263-P-0321@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0263–P-0321 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0263-P-0321@1",
+        "from_person": "P-0263",
+        "to_person": "P-0321",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttryckligt syskonförhållande i granskad familjegrupp; två Maria Christina är skilda barn.",
+      "requests": [
+        {
+          "request": "8844b1a27ad78c60a129aab078b84db9be65dc715ef0d8632defa6835d827900",
+          "affected_revision": "REL-sibling-P-0263-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0268-P-0317",
+      "current_revision": "REL-sibling-P-0268-P-0317@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0268–P-0317 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0268-P-0317@1",
+        "from_person": "P-0268",
+        "to_person": "P-0317",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "28d12fee1a6c1a1949470030e3241b7e31758a618263d871abaeb4e0341930d6",
+          "affected_revision": "REL-sibling-P-0268-P-0317@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0268-P-0318",
+      "current_revision": "REL-sibling-P-0268-P-0318@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0268–P-0318 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0268-P-0318@1",
+        "from_person": "P-0268",
+        "to_person": "P-0318",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "e92a2eb61ff8408ed7231c8781f89748f777810707bb5c281e91fd7262b20c11",
+          "affected_revision": "REL-sibling-P-0268-P-0318@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0268-P-0319",
+      "current_revision": "REL-sibling-P-0268-P-0319@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0268–P-0319 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0268-P-0319@1",
+        "from_person": "P-0268",
+        "to_person": "P-0319",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "719ed175d4b8970816c176bb9f808c045a099dc3e771a197d772dd636537efc5",
+          "affected_revision": "REL-sibling-P-0268-P-0319@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0268-P-0320",
+      "current_revision": "REL-sibling-P-0268-P-0320@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0268–P-0320 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0268-P-0320@1",
+        "from_person": "P-0268",
+        "to_person": "P-0320",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "6d7cc71575108fef0d146d88e650a8fcbf5acf935b05bf084b7f4ec0ff4fa57c",
+          "affected_revision": "REL-sibling-P-0268-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0268-P-0321",
+      "current_revision": "REL-sibling-P-0268-P-0321@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0268–P-0321 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0268-P-0321@1",
+        "from_person": "P-0268",
+        "to_person": "P-0321",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "753a2f66532efc651b76e7a2cbde0b49516cc86cec190a03226c80701d1f7059",
+          "affected_revision": "REL-sibling-P-0268-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0317-P-0318",
+      "current_revision": "REL-sibling-P-0317-P-0318@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0317–P-0318 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0317-P-0318@1",
+        "from_person": "P-0317",
+        "to_person": "P-0318",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "fc2bc9821de2f522b71fd418576085f7568803bd6b9d3285170d8594f8fd42b1",
+          "affected_revision": "REL-sibling-P-0317-P-0318@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0317-P-0319",
+      "current_revision": "REL-sibling-P-0317-P-0319@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0317–P-0319 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0317-P-0319@1",
+        "from_person": "P-0317",
+        "to_person": "P-0319",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "86c5e4aa635261837b4200dab6ea9e9e6617b096928bae0fc00e04d5f9386075",
+          "affected_revision": "REL-sibling-P-0317-P-0319@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0317-P-0320",
+      "current_revision": "REL-sibling-P-0317-P-0320@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0317–P-0320 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0317-P-0320@1",
+        "from_person": "P-0317",
+        "to_person": "P-0320",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "b81064f7f51441fb93dfb37c58eabff9ed04d5534cd921cc652f116da373a843",
+          "affected_revision": "REL-sibling-P-0317-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0317-P-0321",
+      "current_revision": "REL-sibling-P-0317-P-0321@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0317–P-0321 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0317-P-0321@1",
+        "from_person": "P-0317",
+        "to_person": "P-0321",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "546043718664ca1075259099770d578ae11296dbdf56e24e4eb3f1b69a1bef9e",
+          "affected_revision": "REL-sibling-P-0317-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0318-P-0319",
+      "current_revision": "REL-sibling-P-0318-P-0319@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0318–P-0319 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0318-P-0319@1",
+        "from_person": "P-0318",
+        "to_person": "P-0319",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "f95303579f658bb795ca7f01da07f932363e3af492501d10f49230bbcaa4dbfb",
+          "affected_revision": "REL-sibling-P-0318-P-0319@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0318-P-0320",
+      "current_revision": "REL-sibling-P-0318-P-0320@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0318–P-0320 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0318-P-0320@1",
+        "from_person": "P-0318",
+        "to_person": "P-0320",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "aab398c339ed5e220fc4145117845410d32547c33b59fc4975e0f52b8d8f332a",
+          "affected_revision": "REL-sibling-P-0318-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0318-P-0321",
+      "current_revision": "REL-sibling-P-0318-P-0321@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0318–P-0321 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0318-P-0321@1",
+        "from_person": "P-0318",
+        "to_person": "P-0321",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "",
+      "requests": [
+        {
+          "request": "7645637086fab5c9f4e6c8bae413e7d41d9fc187ae6c945ebf267276bb3582ed",
+          "affected_revision": "REL-sibling-P-0318-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0319-P-0320",
+      "current_revision": "REL-sibling-P-0319-P-0320@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0319–P-0320 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0319-P-0320@1",
+        "from_person": "P-0319",
+        "to_person": "P-0320",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttalad syskonrelation enligt den granskade akten; spädbarn födda efter äldre syskons död antas inte ha delat levande hushåll.",
+      "requests": [
+        {
+          "request": "7276f2e76274284828901f58fc649d4d3ab339084141761101f3c8e17f7f4d4d",
+          "affected_revision": "REL-sibling-P-0319-P-0320@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0319-P-0321",
+      "current_revision": "REL-sibling-P-0319-P-0321@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0319–P-0321 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0319-P-0321@1",
+        "from_person": "P-0319",
+        "to_person": "P-0321",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttalad syskonrelation enligt den granskade akten; spädbarn födda efter äldre syskons död antas inte ha delat levande hushåll.",
+      "requests": [
+        {
+          "request": "fbeef0c5e0308f8f99f4746eef2c9e38eae3022444bdfa3b8ce46a13bb3fcd10",
+          "affected_revision": "REL-sibling-P-0319-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    },
+    {
+      "object": "REL-sibling-P-0320-P-0321",
+      "current_revision": "REL-sibling-P-0320-P-0321@1",
+      "decision": "retain",
+      "rationale": "Relationen P-0320–P-0321 gäller recorded_sibling med okänd relationstid. Samma namngivna familjerader och föräldrakontext består efter de tre datumrättelserna; ingen samlevnadstid eller exakt födelsedag är del av denna relation.",
+      "current_payload": {
+        "revision_id": "REL-sibling-P-0320-P-0321@1",
+        "from_person": "P-0320",
+        "to_person": "P-0321",
+        "relation_type": "sibling",
+        "nature": "recorded_sibling",
+        "date_json": "{\"literal\":\"Ingen säker datering av relationens början/slut.\",\"precision\":\"unknown\"}"
+      },
+      "current_caveat": "Uttalad syskonrelation enligt den granskade akten; spädbarn födda efter äldre syskons död antas inte ha delat levande hushåll.",
+      "requests": [
+        {
+          "request": "ba210053daa7c3720b4630668fc93ce47a8b1a981add976387aa4a2adad28f22",
+          "affected_revision": "REL-sibling-P-0320-P-0321@1",
+          "changed_revision": "R-9b65e989ea7512c17bdf70ad@2",
+          "actual_delta": "Samma post och bild; caveat rättar Adelas4/8, Edlas10/10 och Frans reserverade dag/månad."
+        }
+      ]
+    }
+  ]
+}
