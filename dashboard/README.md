@@ -21,15 +21,24 @@ npm test
 npm run build
 ```
 
-Efter en uttrycklig beställning om att uppdatera dashboarden, kör från denna
-katalog i huvudprojektet:
+## Nästa uttryckligen beställda uppdatering
+
+Nuvarande databygge läser den frysta genealogy-modellen. Det kan därför inte
+återge Genealogy2:s aktuella forskningsläge. Innan en beställd uppdatering
+av aktuell forskning levereras måste byggaren anpassas och verifieras mot
+Genealogy2:s läsvyer, med korrekta separata granskningsnivåer. Avgränsa det
+arbetet i Wotan då; denna instruktion startar ingen uppdatering.
+
+Följande kommandon hör till den äldre byggaren och är endast relevanta om
+beställningen uttryckligen gäller att återskapa en historisk genealogy-vy:
 
 ```bash
 npm run data
 npm run test:current
 ```
 
-Det första kommandot bygger om `public/data/project.json` från `genealogy/`
-och `wotan/backlog.json`. Det andra jämför ögonblicksbilden med aktuella filer,
+Det första äldre kommandot bygger om `public/data/project.json` från `genealogy/`
+och `wotan/backlog.json`. Det andra jämför ögonblicksbilden med den
+äldre byggarens indata,
 utan att skriva något. Vanliga tester kräver bara intern konsistens och tillåter
 att projektet har gått vidare. Ett fristående bygge använder versionssparad data.

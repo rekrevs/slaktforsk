@@ -1,12 +1,19 @@
 # Relaterade arbeten
 
+Aktualitetsnot 2026-09-18 (T-0670): datamodellens pilot, migration och
+skifte är genomförda enligt [T-0643](wotan/dev-log/T-0643.md).
+Diskussionerna och bedömningarna nedan är daterat beslutsunderlag, inte
+aktuellt migrationsläge eller nya startorder. Se [ansvarskartan](README.md#var-informationen-hör-hemma)
+och Wotan för dagens styrning och utförande. Tidigare osäkerheter är
+bevarade med dåtidens omfång; slutverifieringen anger vad som faktiskt prövats.
+
 - Protocol: `project-control-related-work/v0.1`
 - Storage mode: `lightweight`
 - Last synthesized: `2026-09-16`
 - Scope: modeller och arbetssätt för datamodellfrågan i
   [IDEA-0001](ideas/IDEA-0001.md), på ägarens begäran.
 
-## Aktuell syntes
+## Daterad syntes, 2026-09-16
 
 De granskade arbetena ger användbara förebilder för källbundna
 personbeskrivningar, gemensamma händelser, provenans och kontrollerade
@@ -45,7 +52,7 @@ tydligt bättre ändringsflöde med SQLite eller informationsförlust i en
 föreslagen textmodell skulle ändra rekommendationen.
 
 Filen infördes 2026-09-14. Äldre genealogiska metodkällor i
-[källstrategin](genealogy/source-strategy.md), dess pilotunderlag och
+[källstrategin](docs/research/source-strategy.md), dess pilotunderlag och
 `genealogy/citations/` ligger kvar; detta register ersätter inte
 projektets S-/C-register eller dess källvärdering.
 

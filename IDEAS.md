@@ -1,12 +1,19 @@
 # Idéer
 
+Aktualitetsnot 2026-09-18 (T-0670): datamodellens pilot, migration och
+skifte är genomförda enligt [T-0643](wotan/dev-log/T-0643.md).
+Diskussionerna och bedömningarna nedan är daterat beslutsunderlag, inte
+aktuellt migrationsläge eller nya startorder. Se [ansvarskartan](README.md#var-informationen-hör-hemma)
+och Wotan för dagens styrning och utförande. Tidigare osäkerheter är
+bevarade med dåtidens omfång; slutverifieringen anger vad som faktiskt prövats.
+
 - Protocol: `ideation/v0.2`
 - Next id: `2`
 - Last reviewed: `2026-09-16`
 - Scope: Bevarade möjligheter och öppna vägval för projektet. Infört på
   ägarens begäran att spara datamodelldiskussionerna; inget nytt forskningsprogram.
 
-## Aktuell portfölj
+## Portfölj vid styrbeslutet 2026-09-16
 
 | Idé | Typ | Omfång | Uppmärksamhet | Mognad | Styrbeslut | Uppdaterad | Avgörande osäkerhet |
 |---|---|---|---|---|---|---|---|
@@ -39,6 +46,7 @@ kvar på sina befintliga platser.
 - [Wotan](wotan/README.md) äger allt beslutat utförande och återupptagning.
   Befintliga Wotan-IDEA-poster är inte migrerade eller omprioriterade.
 
-Ingen variant, databasövergång eller pilot är beslutad genom denna
-registrering. Återkom till jämförelsen när ägaren vill fördjupa ett alternativ,
-när verkliga ändringsfall prövats eller när nya fel ändrar problembilden.
+Själva idéregistreringen gav inget genomförandemandat. Det senare mandatet
+gavs i PCD-2026-09-16-001 och migrationen avslutades i T-0643. Återkom till
+jämförelsen om nya erfarenheter ger skäl till ett nytt styrbeslut; den
+återöppnar inte den avslutade migrationen.

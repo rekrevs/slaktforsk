@@ -5,10 +5,11 @@
 
 ## Context och mandat
 
-PCD-2026-09-07-026; läs wotan/README.md, genealogy/person-standard.md och
-personkontraktet samt genealogy2/docs/working.md. Detta är granskning av
-befintlig kunskap. Aktstandardens sakkrav gäller; dess gamla Markdownformat
-och skrivplatser ersätts av genealogy2:s aktuella vyer och operationer.
+Läs wotan/README.md, docs/research/person-contract.md och
+genealogy2/docs/working.md. Ange aktuellt mandat; PCD-2026-09-07-026
+är den äldre granskningsmodellens bakgrund, ingen automatisk ny startorder.
+Granskningen gäller befintlig kunskap i aktuella vyer och forskningsobjekt.
+Ange nivån: identitet, livsbild eller full personbehandling.
 
 ## Scope och underlag
 
@@ -22,10 +23,11 @@ och skrivplatser ersätts av genealogy2:s aktuella vyer och operationer.
 
 - [ ] Alla namngivna akter har lästs tillsammans med relevant befintligt
   underlag, även senare rättelser som inte nått sammanfattningen.
-- [ ] Varje akt och profil följer den pilotprövade standarden, med aktuella
+- [ ] Personvy och forskningsobjekt har konsoliderats enligt kontraktet, med aktuella
   namn, datum, relationer, tidslinje, berättelse och kunskapsbedömningar.
-- [ ] PK-01–12 och tio teman är individuellt motiverade; båda färdignivåerna
-  behåller rätt innebörd. Kandidater och OWNER_CONFIRMED respekteras.
+- [ ] Tillämpliga PK-krav är individuellt motiverade på vald nivå; vid
+  livsbildsgranskning bedöms även alla tio teman. Båda nivåerna behåller rätt innebörd.
+  Kandidater och OWNER_CONFIRMED respekteras.
 - [ ] Alla berörda anhöriga och beroenden har avstämts; avgränsat följdarbete
   utanför kohorten har namngiven Wotan-ägare före DONE.
 - [ ] Varje person har ett granskningsutfall enligt tabellen nedan;
@@ -45,7 +47,7 @@ och skrivplatser ersätts av genealogy2:s aktuella vyer och operationer.
 
 ## Granskningsutfall
 
-| Person | Datum/version | Granskat underlag | Format | Konsolidering | Identitetsbedömning | Livsbildsbedömning | Rättelser/luckor och följduppgift |
+| Person | Datum/version | Granskat underlag | Representation | Konsolidering | Identitetsbedömning | Livsbildsbedömning | Rättelser/luckor och följduppgift |
 |---|---|---|---|---|---|---|---|
 
 Fyll individuellt. Tabellen visar utfall och hänvisar till profilen; den

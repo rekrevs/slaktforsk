@@ -5409,3 +5409,31 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   forsknings-, omorganisations- eller backupimplementationskörning.
 - Revisit when: T-0666/T-0667 har resultat, eller ägaren uttryckligen
   aktiverar någon av de parkerade möjligheterna.
+
+## PCD-2026-09-18-002
+
+- Record type: decision
+- Date: 2026-09-18
+- Owner: Sverker Adam Janson
+- Decision: Efter T-0668 begär ägaren att organisation, instruktioner och
+  styrfiler konsolideras och stabiliseras och blir entydigt beskrivna så att
+  projektet kan byggas vidare. Fysisk omflyttning behöver inte ske.
+- Disposition: accepted
+- Scope: Avgränsad konsolidering med befintliga källsökvägar. T-0670
+  genomför beställningen genom aktuella normer i docs/research, ansvarskarta
+  i README, samstämmiga läsingångar/mallar och mediebevarande. Detta är
+  implementationen av beställningen, inte ett nytt forskningsprogram.
+- Supersedes decision: Sakkraven och åtkomstreglerna består. De adopterade
+  aktiva normerna ersätter äldre instruktioner om filformat och skrivplatser;
+  frysta original och tidigare beslut bevaras. T-0643:s skrivskifte gäller
+  fortsatt. T-0668:s ännu ej genomförda fysiska alternativ är inte startorder.
+- Resulting Wotan tasks: T-0670. Ingen ordinarie forskning, ny databasbyggnad,
+  dashboarduppdatering, fysisk källflytt, resticinstallation eller push ingår.
+- Related records: PCD-2026-09-17-001, PCD-2026-09-18-001,
+  wotan/dev-log/T-0668.md, wotan/dev-log/T-0670.md,
+  genealogy2/docs/project-organization.md och README.md.
+- Portfolio signal: Stabil grund för fortsatt arbete med tydligt ansvar för
+  normer, kunskap, utförande och historik. Arbeta direkt på main enligt
+  ägarens instruktion 2026-09-18; skapa inga arbetsgrenar utan ny beställning.
+- Revisit when: En konkret normkonflikt, ett nytt arbetsfall eller en faktisk
+  återställningslucka visar behov av en avgränsad ändring.

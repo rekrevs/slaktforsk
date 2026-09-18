@@ -4,7 +4,11 @@ Auktoritativ kunskapsmodell efter T-0643:s verifierade skifte 2026-09-17,
 enligt PCD-2026-09-16-001 och PCD-2026-09-17-001. All ny forskning och alla
 rättelser skrivs här genom kontrollerade operationer. `genealogy/` är ett
 bevarat, skrivskyddat forskningsarkiv. Wotan äger fortsatt utförandet.
-Läs [arbetsvägen](docs/working.md) och [slutverifieringen](verification/T-0643-report.md).
+Läs [ansvarskartan](../README.md#var-informationen-hör-hemma), de aktuella
+[normerna](../docs/research/person-contract.md) och [arbetsvägen](docs/working.md).
+[Slutverifieringen](verification/T-0643-report.md) bevarar övergångens bevis.
+Migrationsavsnitten nedan är daterad historik; kommandon som redan körts
+ska inte upprepas vid vanlig återupptagning.
 
 SQLite är huvudlagring för strukturerad kunskap. Ursprungliga
 dokument och versioner bevaras. Personakten blir en läsvy över personer,

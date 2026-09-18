@@ -9,8 +9,9 @@ cutover (PCD-2026-09-16-001 and PCD-2026-09-17-001). Read
 `genealogy2/README.md`, its local instructions and `genealogy2/docs/working.md`.
 Use the controlled versioned write path for all new research and corrections.
 `genealogy/` is a preserved, read-only research archive; do not resume writing
-its dossiers, profiles, logs or derived inventories. Its retained quality and
-access requirements still apply as adopted below. The dashboard remains an
+its dossiers, profiles, logs or derived inventories. Current research and access
+norms live in `docs/research/`; archived instructions in genealogy are historical,
+including its README. The dashboard remains an
 older snapshot until the owner explicitly requests an update.
 
 Read the project's durable context before doing work:
@@ -19,11 +20,11 @@ Read the project's durable context before doing work:
 2. `NORTH-STAR.md` for the permanent objective and quality contract.
 3. `genealogy2/README.md` and `genealogy2/docs/working.md` for the current
    evidence model, reading commands and controlled writing workflow.
-4. The substantive requirements in `genealogy/research-plan.md`,
-   `genealogy/person-contract.md` and `genealogy/source-strategy.md` remain
-   binding: balanced generations, PK-01–12, source selection and full extraction.
-   Their old file-format and update instructions are superseded by the native
-   workflow. Read the selected persons through `person`, `inspect` and their
+4. Read `docs/research/research-program.md`, `docs/research/person-contract.md`
+   and `docs/research/source-strategy.md` for balanced generations, PK-01–12,
+   source selection and full extraction. These are the current normative texts;
+   their frozen originals are provenance, not alternative instructions.
+   Read the selected persons through `person`, `inspect` and their
    current `research` objects. Use `context` for archived front, coverage and
    source-path history; those frozen texts are not current execution state.
 5. `PROJECT-CONTROL.md` for approved owner decisions and exceptions.
@@ -63,7 +64,7 @@ and acceptance criterion, and link that operation from Wotan.
 
 Apply the person contract to new, partial, disordered, disputed, previously
 closed and side-person dossiers, **at the level the task works on**. The
-contract has two completion levels (`person-contract.md`, "Två färdignivåer"):
+contract has two completion levels (`docs/research/person-contract.md`, "Två färdignivåer"):
 the identity level (PK-01, 02, 05, 07, 09, 11, 12) is the pedigree's gate and
 uses `identity_review/1` and `tree_effect/1`; the life-picture level
 (PK-03, 04, 06, 08, 10), including the ten themes, may lag and uses
@@ -103,7 +104,7 @@ merely because an archival original is absent; preserve any later conflict and
 bring it back to the owner instead of silently overriding the decision.
 
 Follow the repository's provenance rules and the Riksarkivet access order in
-`genealogy/method-riksarkivet.md`. Run the
+`docs/research/riksarkivet-access.md`. Run the
 relevant validators and regression tests after changes. Preserve unrelated user
 changes. Do not order archival material, publish or deploy, create a PDF, or
 commit and push unless the user has authorized that action.

@@ -21,8 +21,10 @@
 - En personkärna ska avse en verklig person. Håll konkurrerande identiteter
   åtskilda. Bevara OWNER_CONFIRMED utan tyst nedgradering. Härled inte kön
   ur namn eller deltagarroll och gör inte vittnen till föräldrar.
-- Sakkraven i NORTH-STAR, PK-01–12, generationsprogrammet och källstrategin
-  består. De gamla dokumentformaten är inte krav på nya forskningsobjekt.
+- Läs de aktuella normerna i `../docs/research/`: person-contract.md,
+  research-program.md, source-strategy.md och riksarkivet-access.md.
+  Rootens README äger ansvarskartan; NORTH-STAR äger sakmålet.
+  De gamla dokumentformaten är inte krav på nya forskningsobjekt.
   Identitetsnivå och livsbild granskas separat. `pedigree` använder den
   verifierade identitetsgrinden som standard; `--mode typed` gör inte det.
   Accepterad person, färdig task och äldre KLAR är inga granskningsgodkännanden.

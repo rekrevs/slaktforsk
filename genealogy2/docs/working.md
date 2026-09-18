@@ -31,8 +31,9 @@ node genealogy2/cli.mjs context genealogy/source-coverage.md --format markdown
 ```
 
 NORTH-STAR och uttryckliga ägarbeslut fortsätter att gälla. De sakliga
-kraven i det bevarade personkontraktet, forskningsprogrammet och
-källstrategin gäller även i den nya representationen. De kräver inte nya
+kraven i det aktuella [personkontraktet](../../docs/research/person-contract.md),
+[forskningsprogrammet](../../docs/research/research-program.md) och
+[källstrategin](../../docs/research/source-strategy.md) gäller. De kräver inte nya
 Markdownprofiler. Identitetsnivå och livsbild hålls separata; accepterad
 person eller relation är inget nytt kontraktsgodkännande. Den verifierade
 antavlan kräver godkänd identitetsgranskning och bärande trädverkan för
@@ -60,7 +61,8 @@ Nya mediefiler införs med `stage-media` och knyts till rätt post. Ange
 proveniens och spara full relevant utvinning från varje post som faktiskt
 öppnats. Versionsbind källposter, omnämnanden och händelser med `evidence`
 eller `bindings`. Beställningar, publicering och annan extern åtgärd kräver
-sitt vanliga mandat. Riksarkivets dokumenterade åtkomstordning består.
+sitt vanliga mandat. Följ [Riksarkivets åtkomstordning](../../docs/research/riksarkivet-access.md)
+och [mediebevarandet](../../MEDIA-PRESERVATION.md).
 
 ```sh
 node genealogy2/cli.mjs stage-media /sökväg/till/fil --provenance "Källa, åtkomst och läsning"

@@ -6,15 +6,15 @@
 ## Context och mandat
 
 Ägar-/Project Control-beslut, varför uppgiften behövs och aktuellt kontrakt.
-Läs wotan/README.md och genealogy2/docs/working.md samt de bevarade sakkraven
-i research-plan, person-contract och source-strategy. Läs och skriv aktuell
+Läs wotan/README.md och genealogy2/docs/working.md samt normerna
+i docs/research/person-contract.md, research-program.md och source-strategy.md. Läs och skriv aktuell
 kunskap i genealogy2; gamla profil-/aktfiler är arkivunderlag.
 
 ## Scope och befintligt underlag
 
 - Personer/hushåll: fast urval av P-id:n, djup/sidor och motiverad balans.
 - Utgångsläge: ny, partiell, rörig, kandidat, äldre avslut eller hinder.
-- Resultatkrav: berörda PK-01–12; vilka delar som återstår utanför uppgiften.
+- Resultatkrav: identitetsnivå eller livsbild; berörda PK-01–12 och avgränsningar.
 - Frågor och källvägar: profilernas Q-/KP-id:n och materiell betydelse.
 - Återanvändning: befintliga original, citationer, sökomfång och källkontexter.
 - Avgränsning: tid, plats, serie/volym eller bestämd katalog-/källfråga.
@@ -23,7 +23,7 @@ kunskap i genealogy2; gamla profil-/aktfiler är arkivunderlag.
 
 ## Acceptance Criteria
 
-- [ ] Varje berörd akt har en individuellt bedömd profil och beläggslänkad
+- [ ] Varje berörd person har individuella forskningsobjekt och beläggslänkad
   disposition för tillämpliga PK-krav; mallfyllnad är inte saklig granskning.
 - [ ] Fråga, alternativ och motiv för källval är prövade inom exakt omfång.
 - [ ] Hela relevanta målposter och relationssammanhang är utvunna eller

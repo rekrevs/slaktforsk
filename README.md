@@ -12,9 +12,37 @@ Varje agent läser först [AGENTS.md](AGENTS.md), projektets styrdokument och
 [backloggen](wotan/backlog.json) och den valda uppgiftens senaste
 återupptagningspunkt. Ingen separat handover-fil används.
 
-[Projektets ansvarskarta och organisationsanalys](genealogy2/docs/project-organization.md)
-skiljer aktuell kunskap, bevarade källor, fryst historik och gällande metoder.
-Dokumentets omorganisationsförslag är ännu inte genomförda.
+## Var informationen hör hemma
+
+| Ansvar | Auktoritativ plats | Ändringsregel |
+|---|---|---|
+| Mål och kvalitetskontrakt | [NORTH-STAR.md](NORTH-STAR.md) | Ändras genom uttryckliga projektbeslut |
+| Mandat, vägval och undantag | [PROJECT-CONTROL.md](PROJECT-CONTROL.md) | Daterade beslut; tidigare beslut bevaras |
+| Agenternas startväg | [AGENTS.md](AGENTS.md) | Gemensam ingång; CLAUDE hänvisar hit |
+| Aktuella forskningsnormer | [Personkontrakt](docs/research/person-contract.md), [program](docs/research/research-program.md), [källstrategi](docs/research/source-strategy.md), [åtkomstmetod](docs/research/riksarkivet-access.md) | Sakkrav underhålls här; frysta original ändras inte |
+| Aktuell kunskap och evidenshistorik | Genealogy2:s huvuddatabas och versionsbundna objekt | Skriv genom `apply` enligt [arbetsvägen](genealogy2/docs/working.md); läsvyer redigeras inte |
+| Uppgifter och återupptagning | [Wotan](wotan/README.md), backlog och aktuell dev-log | Enda utförandekön; återuppta ONGOING före READY |
+| Källunderlag och gamla forskningsdokument | `genealogy/`, exakt importbas | Fryst och fortsatt nödvändigt; gamla README, mallar och instruktioner är historik |
+| Nya källmedier | `genealogy2/media/objects/` | Registrera med `stage-media`, provenans och Git LFS |
+| Återställningsunderlag | Kod/schema, importbas, migrationsbeslut, operationer, journal och verkliga medier | Bevara enligt [återställningsbeskrivningen](genealogy2/docs/reconstruction.md) och [mediereglerna](MEDIA-PRESERVATION.md) |
+| Presentationer och idéunderlag | Dashboard, utgåvor, IDEAS och RELATED-WORK | Daterade vyer/förslag; äger varken personfakta eller utförande |
+
+**Vid motstridiga besked:** utgå från gällande ägarbeslut och deras uttryckliga
+omfång, NORTH-STAR:s sakkrav och dessa aktuella normer. En äldre instruktion i
+det frysta arkivet eller en avslutad task återaktiverar aldrig gammal skrivning.
+Genealogy2:s aktuella revisioner gäller framför ersatta slutsatser; ursprungliga
+observationer finns kvar. Skilj verkliga beläggskonflikter från inaktuella texter.
+En verklig normkonflikt ska preciseras i aktuell Wotan-uppgift och lyftas för
+styrbeslut om den inte redan avgjorts; skapa inte en lokal specialregel.
+
+Nya metodlärdomar förs in i ansvarig aktiv norm. Nya sakfynd och
+åtkomstkontroller hör i Genealogy2. Arbetsläge hör i Wotan. Vägval och ändrat
+mandat hör i Project Control. Historiska beslut och underlag skrivs inte om.
+Arbeta direkt på main enligt ägarens instruktion.
+
+[T-0668:s organisationsanalys](genealogy2/docs/project-organization.md) är daterat
+beslutsunderlag. T-0670 inför denna ansvarskarta och aktuella normer med
+befintliga källsökvägar. Ingen fysisk omorganisation behövs för arbetsvägen.
 
 ## Läs aktuell forskning
 
@@ -44,15 +72,15 @@ hålls isär. Historik och ägarbekräftad kunskap bevaras.
 
 [NORTH-STAR.md](NORTH-STAR.md) anger det långsiktiga målet: balanserad
 anutvidgning och fullständiga livsbilder i återkommande genomgångar.
-De sakliga kraven i det bevarade [personkontraktet](genealogy/person-contract.md),
-[forskningsprogrammet](genealogy/research-plan.md) och
-[källstrategin](genealogy/source-strategy.md) består. Deras äldre filformat
-ersätts av den nya arbetsvägen. Aktuella frågor, teman, söknycklar och
+[Personkontraktet](docs/research/person-contract.md),
+[forskningsprogrammet](docs/research/research-program.md) och
+[källstrategin](docs/research/source-strategy.md) anger de aktuella sakkraven.
+Aktuella frågor, teman, söknycklar och
 källvägar finns i genealogy2:s versionerade forskningsobjekt; äldre front,
 täckning och loggar kan läsas med `context` som historiskt underlag.
 
 [PROJECT-CONTROL.md](PROJECT-CONTROL.md) bevarar ägarbeslut och styrbedömningar.
-[Riksarkivets åtkomstordning](genealogy/method-riksarkivet.md) gäller fortsatt.
+[Riksarkivets åtkomstordning](docs/research/riksarkivet-access.md) gäller fortsatt.
 Öppna idéer finns i [IDEAS.md](IDEAS.md) och bedömt externt underlag i
 [RELATED-WORK.md](RELATED-WORK.md). Dessa är ingen parallell utförandekö.
 
@@ -68,7 +96,7 @@ Migrationens avslut betyder inte att släktforskningen är färdig.
 
 Säkerhetskopiering och återställning beskrivs i
 [genealogy2/README.md](genealogy2/README.md#backup-och-återställning).
-[MEDIA-PRESERVATION.md](MEDIA-PRESERVATION.md) beskriver äldre källmediers
+[MEDIA-PRESERVATION.md](MEDIA-PRESERVATION.md) beskriver gamla och nya källmediers
 bevarande med Git LFS och SHA-256-inventering. Genealogy2 återbrukar dessa
 medier och kontrollerar deras faktiska innehåll.
 

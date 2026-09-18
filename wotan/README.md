@@ -11,7 +11,8 @@ Läs [den aktuella arbetsvägen](../genealogy2/docs/working.md). Orden akt,
 profil, front och täckning nedan avser nu läsvyer och versionerade
 kunskapsobjekt. Äldre mallars filsökvägar och gamla taskplaner är historiskt
 underlag; de ger inte tillstånd till dubbelskrivning i det frysta genealogy.
-De sakliga kraven i personkontraktet, programmet och källstrategin består.
+De aktuella normerna finns i docs/research, se länkarna nedan.
+Begreppet profil avser personens samlade versionerade forskningsobjekt.
 
 ## Ansvar och läsordning
 
@@ -24,9 +25,9 @@ De sakliga kraven i personkontraktet, programmet och källstrategin består.
 - Genealogy2:s aktuella person-, relations- och forskningsobjekt äger
   sak- och kunskapsläge. Personvyer och inventering härleds därifrån.
   De ersätter inte en uppgift för beslutat utförbart arbete.
-- [Personkontraktet](../genealogy/person-contract.md),
-  [programmet](../genealogy/research-plan.md) och
-  [källstrategin](../genealogy/source-strategy.md) styr utförandet.
+- [Personkontraktet](../docs/research/person-contract.md),
+  [programmet](../docs/research/research-program.md) och
+  [källstrategin](../docs/research/source-strategy.md) styr utförandet.
   Personprofiler äger frågor, söknycklar, teman och källvägsbedömningar;
   den härledda inventeringen visar alla P-id:n utan att vara en andra kö.
 - Ingen separat HANDOVER.md, sessionsstartuppgift eller parallell
@@ -265,15 +266,19 @@ eller program, för sökning, katalogkontroll eller originalåtkomst. Ägaren ka
 själv lämna utdrag för jämförelse med projektets källor. Ett sådant utdrag
 medger inte åtkomst till tjänsten. Se PCD-2026-09-05-011.
 
-## Prioriterad personaktsgranskning
+## Personaktsgranskning och äldre program
 
-Enligt PCD-2026-09-07-026 går programmet T-0112–T-0115 med dess
-kohortuppgifter före fortsatt frontforskning. T-0083:s batch 519 bevaras;
-READY betyder här körbar men lägre prioriterad. Följ programordningen i
-backloggen och beakta T-0110 före slutrevisionen.
+PCD-2026-09-07-026 prioriterar kvarvarande personaktsgranskning före
+frontforskning. T-0112–T-0114 är DONE; T-0115:s slutrevision och dess
+beroenden avgörs av aktuell backlog, inklusive T-0110. T-0083:s READY är
+inte en rätt att gå förbi den prioriteten; dess sparade batch 519 består.
+Migrationens avslut slutför inte forskningsgranskningen. Repetera inte DONE-
+införandet; läs äldre underlag vid behov och skriv nya resultat i Genealogy2.
 
 Använd [granskningsmallen](templates/person-review-task.md) och
-[aktstandarden](../genealogy/person-standard.md) vid konsolidering. Granska
+[personkontraktet](../docs/research/person-contract.md) vid konsolidering.
+Dess avsnitt om precision och full avskrift bevarar aktstandardens sakkrav.
+Den gamla standardens rubrikordning och tabellformat är arkivhistoria. Granska
 format, innehållskonsistens och personkontrakt separat. Ett materiellt fynd
 kräver avstämning av berörda aktuella texter och profiler före DONE;
 registrera avgränsat beslutat följdarbete i Wotan. Äldre sakligt tillräckliga

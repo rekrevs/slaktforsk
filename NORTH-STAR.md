@@ -34,7 +34,7 @@ Nya fynd ska omsättas i omprövade källvägar, inte enbart fler anteckningar.
 
 ## Resultatkontrakt för varje person
 
-[PK-01–12 i personkontraktet](genealogy/person-contract.md) konkretiserar
+[PK-01–12 i personkontraktet](docs/research/person-contract.md) konkretiserar
 kraven och gäller oavsett utgångsläge: ny kandidat, ofullständig eller rörig
 akt, sammanblandad identitet, äldre KLAR, sidoperson och återöppnat fall.
 Varje person ska efter behandling ha:

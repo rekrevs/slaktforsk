@@ -1,7 +1,11 @@
 # Projektets organisation efter Genealogy2
 
-Analys 2026-09-18, T-0668. Detta dokument beskriver nuläge och ett förslag.
-Ingen fysisk omorganisation eller ändring av skrivansvar har genomförts.
+Analys 2026-09-18, T-0668. Tabellen och förslagen nedan bevarar läget vid
+analysen. T-0670 har därefter infört aktuella normer i docs/research, rättat
+läsingångar och kompletterat mediebevarandet. Gällande
+[ansvarskarta](../../README.md#var-informationen-hör-hemma) finns i rootens README.
+Ingen fysisk flytt av källmaterial har gjorts. Övriga alternativ nedan
+är fortsatt förslag, inte uppgifter som ska startas.
 
 ## Bedömning
 
