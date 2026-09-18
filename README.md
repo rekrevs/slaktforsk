@@ -12,6 +12,10 @@ Varje agent läser först [AGENTS.md](AGENTS.md), projektets styrdokument och
 [backloggen](wotan/backlog.json) och den valda uppgiftens senaste
 återupptagningspunkt. Ingen separat handover-fil används.
 
+[Projektets ansvarskarta och organisationsanalys](genealogy2/docs/project-organization.md)
+skiljer aktuell kunskap, bevarade källor, fryst historik och gällande metoder.
+Dokumentets omorganisationsförslag är ännu inte genomförda.
+
 ## Läs aktuell forskning
 
 Kräver Node 26 med `node:sqlite`, utan npm-beroenden:
