@@ -4,20 +4,18 @@
   "tasks": [
     {
       "id": "T-0666",
-      "status": "ONGOING",
+      "status": "DONE",
       "size": "M",
       "summary": "Säkra Genealogy2:s beständiga underlag och migrationsarbete i Git",
-      "note": "PCD-2026-09-18-001. Först säkra kod, importbas, operationspaket, journal, beslut och återställningsunderlag; redovisa commit och extern Git/LFS-status separat. SQLite och experimentella dumpar ska inte följa med av misstag. Denna planering startar ingen kontinuerlig körning.",
-      "phase": "IMPLEMENTING"
+      "note": "PCD-2026-09-18-001. Först säkra kod, importbas, operationspaket, journal, beslut och återställningsunderlag; redovisa commit och extern Git/LFS-status separat. SQLite och experimentella dumpar ska inte följa med av misstag. Denna planering startar ingen kontinuerlig körning."
     },
     {
       "id": "T-0667",
-      "status": "BLOCKED",
+      "status": "DONE",
       "size": "M",
       "after": [
         "T-0666"
       ],
-      "blocker": "Inväntar T-0666:s Git-säkring av det underlag som ska prövas.",
       "summary": "Pröva återuppbyggnad genom riktade stickprov och analysera migrations- och återställningskostnad",
       "note": "PCD-2026-09-18-001. Återbruk av tidigare stora prov; fullständig billig filkontroll och riktade beroendekedjor. Skilj ursprunglig semantisk migration, mekanisk replay och testkostnad. Ingen full ombyggnad eller bred optimering som standard."
     },

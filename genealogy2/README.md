@@ -358,8 +358,10 @@ Den tidigare dumpimplementationen i T-0665 är parkerad. Lokala filer under
 som ordinarie rutin. Ingen uppdelad SQL-dump eller resticinstallation är
 beslutad backupstrategi. Historiska provresultat bevaras som historik.
 
-T-0666 säkrar filunderlaget; T-0667 prövar återuppbyggnad från dessa filer
-med riktade prover och redovisar kvarvarande begränsningar. En fullständig
+T-0666 har säkrat filunderlaget i en lokal Git-commit. T-0667 har prövat
+startkedjan och ett avgränsat urval ur senare operationer; se
+[återuppbyggnad, provresultat och kostnadsanalys](docs/reconstruction.md).
+En fullständig
 nybyggnad av slutläget från en ren Git-klon är ännu inte verifierad.
 Git-säkringen gör inte journalen till en alternativ redigeringsyta och
 innebär inte att varje historiskt använd originalkälla har sparats.
