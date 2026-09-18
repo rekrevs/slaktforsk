@@ -1,5 +1,9 @@
 # Repository instructions
 
+Work directly on `main`; do not create work branches unless the owner
+explicitly requests one. Owner instruction, 2026-09-18. Commit and push
+still require authorization as stated below.
+
 Genealogy2 is the authoritative knowledge model after T-0643's verified
 cutover (PCD-2026-09-16-001 and PCD-2026-09-17-001). Read
 `genealogy2/README.md`, its local instructions and `genealogy2/docs/working.md`.
