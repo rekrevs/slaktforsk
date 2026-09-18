@@ -144,3 +144,58 @@ JSON-exporter är läsbara, men enbart en rapport är ingen full säkerhetskopia
 
 Dashboarden behåller sin äldre ögonblicksbild tills ägaren ber om en
 uppdatering. Byggen, validering och avslut av forskning uppdaterar den inte.
+
+## Hitta följder av en rättelse
+
+`impact` är en skrivskyddad påverkansvy för ett objekt eller en äldre citation:
+
+```sh
+node genealogy2/cli.mjs impact C-0721
+node genealogy2/cli.mjs impact C-0721 --query '1783-10-21'
+node genealogy2/cli.mjs impact C-0721 --query '1783 21/10'
+node genealogy2/cli.mjs impact R-5785656ae35a013a260b39b3 --query 'Lena Jonsdotter'
+```
+
+JSON-resultatet håller tre lager åtskilda:
+
+- `dependencies`: registrerade direkta och transitiva revisionsberoenden.
+  Äldre bindningar finns kvar även efter ett retain-beslut. `path` ger en
+  kortaste kedja; `reached_dependencies` visar samtliga omedelbara länkar
+  till nådda revisioner, med faktisk roll (`supports`, `context` etc.).
+  Aktuella och ersatta revisioner redovisas separat. Att en kedja finns
+  betyder inte att den granskade rättelsen påverkar varje uppgift i den.
+- `provenance`: importerade ursprungs- och representationsmål med
+  dokumenthash, radspann, version och typ. Detta är inte beläggsrelationer.
+  Ett C-id leder via sådana representationer till avgränsade källposter i
+  `seeds`. Saknas postmappning uppfinner vyn ingen stödgraf.
+- `text_candidates`: fält, exakt version, sökterm, första träffens position/
+  rad, antal förekomster och textutsnitt. En aktuell text kan återge äldre
+  återtagen information. Namnlika personer kan vara helt orelaterade.
+  Ingendera blir automatiskt ett sakfel eller stöd för samma person.
+
+Utan `--query` söks identifierarna. Ange dessutom relevanta gamla och nya
+namn-/datumformer för textkopior som saknar id. Frasen är bokstavlig och
+skiftlägeskänslig; ingen datumomvandling, normalisering eller semantisk
+sökning görs. C-id matchar även kanoniska filnamn, men C-0721 matchar inte
+C-07210. Träffar uteblir vid andra stavningar eller omskrivningar.
+
+`review.items` är ett kompakt beslutsunderlag med aktuell revision,
+anledning till träff och befintliga väntande gransknings-id:n. Tomma
+`decision`/`rationale` betyder **oprövat**. Resultatet är en ögonblicksbild,
+inte en ny utförandekö eller en färdig apply-operation.
+
+1. Läs hela objektet med `inspect`, dess person-/forskningssammanhang och
+   relevant original. Skilj verklig följd från historik, namne och kontext.
+2. Dokumentera den individuella sakdispositionen i uppgiftens underlag eller
+   en auktoriserad operation: rätta, behåll med skäl, historik, irrelevant
+   träff eller konkret olöst fråga. Koppla belägg bara efter sakprövning.
+3. För faktisk rättelse, skapa en vanlig `apply`-operation med aktuell
+   `expectedVersion` och rätt versionsbundet underlag. Använd `resolve`
+   endast för ett verkligt väntande request-id och med individuell motivering.
+   En textträff utan request-id kräver inte ett påhittat resolve.
+4. Kör om vyn efter revisionerna och kontrollera även relevanta fria texter.
+   Wotan äger fortsatt utförande. Noll träffar eller noll väntande requests
+   bevisar inte att samtliga semantiska följder är funna.
+
+Vyn ändrar varken databas, stödgraf, journal eller granskningsbeslut och
+ändrar inte den historiska återspelningspolicyn.

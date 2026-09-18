@@ -14,6 +14,7 @@ import {identityGate} from './lib/review.mjs';
 import {researchInventory} from './lib/inventory.mjs';
 import {renderPersonOverview} from './lib/overview.mjs';
 import {findParticipations} from './lib/vocabulary.mjs';
+import {impact} from './lib/impact.mjs';
 import {bootstrapFromFiles} from './lib/rebuild.mjs';
 
 const root=path.resolve(fileURLToPath(new URL('..',import.meta.url)));
@@ -47,7 +48,7 @@ try {
     else if(command==='restore')result=restore(JSON.parse(fs.readFileSync(args[0],'utf8')),dbPath);
     else if(command==='restore-bundle')result=await restoreBundle(args[0],args[1]);
     else if(command==='stage-media')result=await stageMedia(source,args[0],provenance);
-    else if(['import','migrate','apply','apply-legacy','person','pedigree','inventory','participations','inspect','coverage','status','verify','verify-assets','search','show','context','export','backup','backup-bundle','journal','replay'].includes(command)) {
+    else if(['import','migrate','apply','apply-legacy','person','pedigree','inventory','participations','impact','inspect','coverage','status','verify','verify-assets','search','show','context','export','backup','backup-bundle','journal','replay'].includes(command)) {
       db=openDB(dbPath,{create:command==='import',migrate:command==='migrate',readOnly:!['import','migrate','apply','apply-legacy','replay'].includes(command)});
       if(command==='import')result=importBaseline(db,baseline);
       if(command==='migrate')result={schema:SCHEMA_VERSION};
@@ -65,6 +66,7 @@ try {
         result=full?inventory:{format:inventory.format,note:inventory.note,active:inventory.active,all:inventory.all,detail:'inventory --full visar personer och använda bedömningsrevisioner.'};
       }
       if(command==='participations')result=findParticipations(db,{role,eventType,personId});
+      if(command==='impact')result=impact(db,args[0],{query});
       if(command==='inspect')result=inspect(db,args[0]);
       if(command==='coverage') {
         const report=migrationReport(db);
@@ -87,7 +89,7 @@ try {
       }
       if(command==='backup') {if(!args[0])throw Error('Ange en ny backupfil');result=await backupDB(db,args[0]);}
       if(command==='backup-bundle') {if(!args[0])throw Error('Ange en ny backupkatalog');result=await backupBundle(db,args[0],{root:source,baseline});}
-    }else throw Error('Kommandon: snapshot | bootstrap <ny.sqlite> | import | migrate | apply <operation.json> | apply-legacy <äldre importpaket> | stage-media <fil> --provenance <text> | person <P-id> [--full --format markdown|json] | pedigree <P-id> [--mode verified|typed] | inventory [--full] | participations [--role witness --event baptism --person P-id] | inspect <objekt/A-id> | status | verify | verify-assets | verify-source | search <text> | show <P/S/C-id> | context [importsökväg] [--group grupp --query text --format markdown] | export <ny.json> | restore <export.json> | backup <ny.sqlite> | backup-bundle <ny katalog> | restore-bundle <backup> <ny rot> | journal | replay <journal>. Val: --db --baseline --source --journal.');
+    }else throw Error('Kommandon: snapshot | bootstrap <ny.sqlite> | import | migrate | apply <operation.json> | apply-legacy <äldre importpaket> | stage-media <fil> --provenance <text> | person <P-id> [--full --format markdown|json] | pedigree <P-id> [--mode verified|typed] | inventory [--full] | participations [--role witness --event baptism --person P-id] | impact <objekt/C-id> [--query exakt-fras] | inspect <objekt/A-id> | status | verify | verify-assets | verify-source | search <text> | show <P/S/C-id> | context [importsökväg] [--group grupp --query text --format markdown] | export <ny.json> | restore <export.json> | backup <ny.sqlite> | backup-bundle <ny katalog> | restore-bundle <backup> <ny rot> | journal | replay <journal>. Val: --db --baseline --source --journal.');
     if(format==='markdown'&&command==='person')console.log(full?renderPerson(result):renderPersonOverview(result,{gate}));
     else if(format==='markdown'&&command==='context')process.stdout.write(renderContextDocument(result));
     else if(format==='json')console.log(JSON.stringify(result,null,2));

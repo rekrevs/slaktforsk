@@ -32,6 +32,7 @@ node genealogy2/cli.mjs participations --role witness --event baptism
 node genealogy2/cli.mjs context --group research-context
 node genealogy2/cli.mjs inspect E-P0016-baptism
 node genealogy2/cli.mjs inspect A-3652
+node genealogy2/cli.mjs impact C-0721 --query '1783-10-21'
 node genealogy2/cli.mjs coverage
 node genealogy2/cli.mjs verify
 node genealogy2/cli.mjs verify-source
@@ -56,6 +57,11 @@ frågan fortfarande ingår i forskningsmodellen, medan `outcome_code` anger
 dess slutsatsläge. Uppgifter som preciserar en relation visas från båda
 personerna under relationens `qualifications`, med samma revision och
 egna förbehåll.
+
+`impact <objekt/C-id>` visar registrerade revisionsberoenden, importproveniens
+och möjliga textkopior i separata lager. `--query` söker en exakt namn-/datumfras;
+träffar blir aldrig automatiskt belägg eller rättelser. Se
+[arbetsvägen för individuell prövning](docs/working.md#hitta-följder-av-en-rättelse).
 
 `search` söker både i aktuella domänobjekt och i det bevarade arkivet.
 Träffarna anger vilket lager de tillhör. Personvyn och dess Markdownform
