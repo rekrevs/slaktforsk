@@ -1,0 +1,249 @@
+# T-0075: Nyöppnade inloggningsberoende källvägar, Sverkers sida
+
+**Status**: DONE | **Size**: M
+**Phase**: DONE
+
+## Context och mandat
+
+PCD-2026-09-06-002. Speglingsvägen i batch 304 och den inloggade sessionen
+hävde det hinder som pausade ett dussin källvägar. Denna uppgift tar Sverkers
+sida; T-0076 tar Kristinas, så att balanskravet i north star hålls.
+
+## Scope och befintligt underlag
+
+Källvägar vars enda dokumenterade beroende var inloggning:
+
+- P-0009 Ada Wilhelmina: Floda/Flen efter 1915, utflyttning och vigsel
+  Bergman (KP-01); rotemansarkivet är fritt och prövas i samma pass.
+  Indexnollet i folkräkningen 1930 (C-0900) är ingång, inte slutsats.
+- P-0010 Bernhard Natanael: Värsås utflyttning efter 1910, Floda/Ökna
+  1911–1916 (KP-01) och Oskarshamn med vigseln 1923 (KP-02).
+- P-0015 Axel Edvard: Hyltinge 1918–1927 (401 tidigare); P-0016 Hulda
+  Amalia: SCB 1921 och den namnlöse lokomotiveldaren Ekholm.
+- P-0028/P-0029: Umeå landsförsamling 1917–1925 och Umeå stads uppslag 1839
+  1925–1935/1944, som C-0899 pekade ut; dödsfallen 1935 och 1944.
+- P-0048/P-0049: Robertsfors A II/5c fol 703 (1942–1955). Volymen saknar
+  digital bild enligt katalogen — bekräfta eller avfärda det innan
+  alternativ väg väljs; SCB dbu Västerbotten 1947/1948 är alternativet.
+
+Utanför: Kristinas sida (T-0076), djup 5 (T-0070), analoga läsesalsvolymer,
+nya anor. Ingen ArkivDigital, beställning, PDF, publicering eller commit/push.
+
+## Acceptance Criteria
+
+- [ ] Varje listad källväg har exakt undersökt omfång och utfall i profilens
+  KP-fält: träff, avgränsat noll eller kvarstående hinder med skäl.
+- [ ] Positiva poster utvunna som C-poster med provenans, bild-id, SHA-256
+  och lokal källbild speglad enligt method-riksarkivet.md.
+- [ ] Nya nycklar prövade mot beroenden; akter, tidslinjer och källbreddsrader
+  konsoliderade; levande personer minimerade.
+- [ ] En batchlogg per passage; kontroller enligt wotan/README.md passerar.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-06 vid registrering.
+- Nästa ej utförda steg: Umeå landsförsamling A II a 1917–1925 för P-0028/
+  P-0029, eftersom hemförsamlingen redan är känd och passagen är billigast.
+- Hinder: inga; kräver inloggad session.
+
+## Verification
+
+Läs originalen, pröva namnalternativ, kör kontrollerna i wotan/README.md.
+
+## Outcome
+
+Ej utförd.
+
+## Återupptagning — start 2026-09-06
+
+- Efter T-0078 registrerar goal-state gemensamt djup 2. Nästa skiva är djup 3,
+  där P-0001, P-0002, P-0003 och P-0007 på Sverkers sida saknar matrisrad i
+  source-coverage.md. Denna uppgift ska därför både läsa de nyöppnade
+  källvägarna och avsluta med matrisrader som speglar faktiskt källäge.
+- Nästa ej utförda steg: Umeå landsförsamlings församlingsbok 1917–1925 för
+  P-0028/P-0029, som är billigast eftersom hemförsamlingen är känd; därefter
+  P-0009 (Floda/Flen efter 1915) och P-0010 (Värsås/Oskarshamn).
+- Hinder: inga; kräver inloggad session.
+
+## Passage 1 utförd 2026-09-06: Umeå landsförsamling 1917–1925 (P-0028/P-0029)
+
+Loggad i [batch 308](../../genealogy/research-log/2026-09-06.md#batch-308--t-0075-zingmarks-hushåll-i-umeå-landsförsamling-19171925).
+
+- **Träff.** `B I/11` 1917 s. 53 posterna 208–213 gav uppslaget (S-0715,
+  C-0908); `A II a/23` uppslag 2284, Ytterhiske N:o 2, raderna 12–23 gav hela
+  hushållet 1917-11-15 till överföringen till Umeå stad 1925-01-01 (S-0714,
+  C-0907). Båda fulloriginalen speglade och SHA-256-verifierade.
+- **Nya påståenden.** A-3400–A-3418 över tolv personakter; ny oavgjord person
+  P-0529 Hildur Aleksandra Zingmark med bevarad konflikt mot P-0030.
+- **Sidoutfall för P-0001.** Seminarieelev, betyg för inträde i Luleå
+  seminarium, utflyttning till Norsjö 1924-11-01. Luckan 1917–1928 i A-3346
+  krymper till 1924–1928, och KP-03 får ett namngivet arkiv.
+- **Kvarstående hinder i denna källväg.** Umeå **stadsförsamlings**
+  församlingsböcker är digitaliserade endast till 1912. Uppslag 1839
+  (1925–1935) och dödsfallen 1935/1944 kan därför inte nås på bild; det är en
+  konkret åtkomstspärr, inte en oprövad väg. Alternativen är SCB:s
+  dödsutdrag för Västerbottens län 1935 respektive 1944, gravregister och
+  bouppteckning — de tillhör P-0028/KP-02 och P-0029, inte denna passage.
+- **Metod.** IIIF-samlingsändpunkten och NAD-volymlistan är införda i
+  `genealogy/method-riksarkivet.md`, liksom fallgropen att läsa hela uppslaget
+  innan ett nollresultat skrivs.
+
+## Passage 2 utförd 2026-09-06: P-0009 Floda/Flen efter 1915
+
+Loggad i [batch 309](../../genealogy/research-log/2026-09-06.md#batch-309--t-0075-ada-wilhelminas-utflyttning-till-norge-och-arnes-fosterhem).
+
+- **Träff.** Floda `A II a/11` uppslag 608 (S-0716, C-0909) visar Ada med
+  sonen Arne 1915–1918 och utflyttning till Flen 1918-10-28. Flens
+  `A II a/4 c` uppslag 914, Ljungbacka (S-0717, C-0910), visar ankomsten och
+  **utflyttningen till Norge 1918-10-29** samt Arne som fosterbarn hos
+  morföräldrarna. Mellanledet Mineberg → Ljungbacka 1914-10-30 är belagt i
+  C-0911. Tre fulloriginal och två registerbilder speglade och
+  SHA-256-verifierade.
+- **Nya påståenden.** A-3419–A-3429 över sex personakter.
+- **Metodvinst.** Ortregistret i A II a/4 b (bild 3–5) gav uppslaget direkt;
+  den tidigare planerade genomsökningen av två volymer utan sidnyckel
+  behövdes inte. Björkhem N:o 1 prövades först och gav ett avgränsat noll.
+- **Konsekvens för P-0003.** Barndomsluckan krymper från 1915–1930 till
+  1923–1930; kvar är enbart det saknade uppslaget 638 (C-0896).
+- **Kvarstående hinder.** Flens serier `B`, `C`, `E I` och `F` är
+  digitaliserade endast till 1910 respektive 1915, så inflyttningslängden
+  1918 och vigselboken kan inte läsas på bild. Adas fortsättning ligger i
+  norska källor — utanför denna uppgifts avgränsning; den ska bli en egen
+  bedömd källväg, inte en obestämd väntan.
+
+## Passage 3 utförd 2026-09-06: P-0010 Värsås/Floda och Öknatjänsten
+
+Loggad i [batch 310](../../genealogy/research-log/2026-09-06.md#batch-310--t-0075-bernhard-natanael-som-bokhållare-vid-ökna-19161917).
+
+- **Träff.** Floda `A II a/11` uppslag 592 rad 12 (C-0912): bokhållare vid
+  Ökna säteri, inflyttad från Värsås 1916-11-22, utflyttad till Oskarshamns
+  stadsförsamling nr 98 den 1917-11-03 med betyg 1917-10-27; värnpliktsnummer
+  239 ⁵⁷/₀₆. Första arkivbelägget för honom efter folkräkningen 1910.
+- **Avgränsat noll.** `A II a/8` uppslag 591–611 (C-0913) saknar honom;
+  bokhållare 1910–1914 var Gustaf Sigfrid Pettersson.
+- **Bevarad konflikt, ägarfråga.** Familjekrönikans `1911–1916` motsägs för
+  sin tidiga del, och sonen föddes 1915-02-21 — före den kyrkobokförda
+  tjänsteperioden. Faderskapet är ägarfastställt och demoteras inte.
+  Konflikten är bevarad i A-3433 och lyft i
+  [PCR-2026-09-06-003](../../PROJECT-CONTROL.md#pcr-2026-09-06-003).
+- **Spärr.** Värsås `A II a` är digitaliserad endast till 1907, så Värsåsledet
+  1910–1916 kan inte läsas på bild.
+- **Vinst för KP-02.** Oskarshamn har nu en exakt ingång: inflyttningsnummer
+  98, 1917-11-03.
+
+## Passage 4 utförd 2026-09-06: Oskarshamn, Umeå stad, Värsås och Flen — samt en rättelse
+
+Loggad i [batch 311](../../genealogy/research-log/2026-09-06.md#batch-311--t-0075-oskarshamn-umeå-stad-och-värsås-rättad-tillgänglighetsbedömning).
+
+- **Metodfel rättat.** Passagerna 1–3 avgjorde digital tillgänglighet med
+  IIIF-ändpunkten `collection/arkiv/<id>`, som visade sig ofullständig. Tre
+  skrivna spärrar föll: Umeå stadsförsamling `A II a` (påstod t.o.m. 1912,
+  verkligt t.o.m. 1952), Värsås `A II a` (1907 → 1943) och Flens `B`/`E I`
+  (1910/1915 → 1947/1935). Rättat i S-0714, S-0717, C-0907, batch 308–309
+  och `method-riksarkivet.md`, som nu varnar för ändpunkten och beskriver
+  NAD:s `Bild`-länkar och batchvalssidan.
+- **P-0010 KP-02 utförd.** Oskarshamn `E I/4` 1923 nr 35 ger vigseln
+  1923-11-11 med Katy Leonie Nilsson (S-0718, C-0914); `A II a/6` uppslag
+  1208 ger hela Oskarshamnstiden och utflyttningen till Limhamn 1923-11-21
+  (S-0719, C-0915). A-3434–A-3437.
+- **P-0010 KP-01 avslutad.** Värsås `A II a/2` folio 134 (S-0721, C-0917):
+  kyrkobokförd hemma till 1916-11-22, reciprokt med Floda. Konflikten mot
+  familjekrönikans `1911–1916` är därmed skärpt och tillagd i
+  [PCR-2026-09-06-003](../../PROJECT-CONTROL.md#pcr-2026-09-06-003).
+  A-3447–A-3450.
+- **P-0028/P-0029 avslutade i tid.** Umeå stad `A II a/5 e` uppslag 1839
+  (S-0720, C-0916): **Johan Oskar dog 1935-04-09**, hushållet överfördes
+  1925-01-01 från landsförsamlingens fol 2284, gården fick stadsägonummer
+  1258, och Ida Sofia fördes 1941-08-23 till uppslag 1704. A-3438–A-3446.
+- **P-0009 preciserad.** Flen `B/6 b` 1918 post 106 (S-0722, C-0918):
+  destinationen är **Norge, östra Aker, Kristiania**, yrket barnsköterska,
+  och hon fördes som emigrant. A-3451–A-3452.
+- Sju fulloriginal och två registerbilder speglade och SHA-256-verifierade i
+  denna passage.
+
+## Passage 5 utförd 2026-09-06: P-0015/P-0016 Hyltinge 1918–1927
+
+Loggad i [batch 312](../../genealogy/research-log/2026-09-06.md#batch-312--t-0075-banvaktstugan-70-i-hyltinge).
+
+- **Träff.** Hyltinge `A II a/5` uppslag 13, Banvaktstugan N:o 70 (S-0723,
+  C-0919). Första hustrun dog **1917-05-01**; faderskapet till Maj Amalia är
+  antecknat i församlingsboken; åtta barn med exakta födelsedagar inklusive
+  tvillingarna 1914-05-10; hushållet utflyttade till **Helgesta 1920-10-26**.
+  A-3453–A-3459.
+- **Nyckel.** Uppslaget kom ur födelsebokens redan lästa hänvisning `II 13`
+  (C-0028) — del II är municipalsamhällets volym, där banvaktstugorna ligger.
+- **Bevarad konflikt.** Födelseorten skrivs Björkvik mot födelsenotisens
+  Forssa; identiteten är inte i fråga (A-3459).
+- **Avgränsat noll.** `fol 16` för Maj Amalias sida leder till ett tomt
+  uppslag; Hulda Amalias och Maj Amalias egen sida i Hyltinge är inte
+  lokaliserad, och Skarvnäs ägor 39–47 saknar dem.
+
+## Passage 6 utförd 2026-09-06: P-0048/P-0049 Robertsfors fol 703
+
+Loggad i [batch 313](../../genealogy/research-log/2026-09-06.md#batch-313--t-0075-jomark-fol-703-och-flytten-till-burträsk-1946).
+
+- Rättelse: `A II/5 c` (1942–1955) **har bild** — fjärde instansen av
+  IIIF-felet. Rättat i S-0703 och S-0724.
+- Träff: folio 703, `Jomark N:o 2`, ⁷/₁₆ mantal, 10 hektar; paret överfört
+  från gamla bokens folio 750 år 1942 och **utflyttat till Burträsk
+  1946-11-16** (C-0920, A-3460–A-3463). Det förklarar den gemensamma
+  gravplatsen med dottern och svärsonen.
+
+## Passage 7 utförd 2026-09-06: matrisraderna för djup 3
+
+Loggad i [batch 314](../../genealogy/research-log/2026-09-06.md#batch-314--t-0075-djup-3-matrisen-och-seminariefynden).
+
+- **P-0001:s lärarutbildning originalbelagd.** Luleå folkskoleseminariums
+  examenslängd 1923 (S-0725, C-0921): inskriven 1919-06-12, examen 1923 efter
+  åtta terminer. A-3464–A-3466.
+- **Fyra dödsdatum ur svenskagravar.se** (C-0923, A-3468–A-3472): P-0003
+  1993-07-31, P-0007 2006-10-04 i samma grav och registrerad som
+  `Ekholm-Jansson`, P-0015 1969-12-19 och P-0016 1964-03-15. Tre materiella
+  luckor slutna.
+- **Avgränsat noll för P-0002:s seminarium** (S-0726, C-0922, A-3467) och ett
+  katalogprov för de spärrade yrkes-, militär- och bouppteckningskällorna
+  (S-0727, C-0924).
+- **Matrisrader upprättade** för P-0001, P-0002, P-0003 och P-0007 med
+  motivering per kolumn i `source-coverage.md`. `goal-state` rapporterar nu
+  **Sverkers sida på djup 3 som källbredd-klar, 4 av 4**.
+
+## Utfall
+
+Uppgiften är genomförd. Samtliga källvägar i scope har ett dokumenterat
+undersökt omfång och utfall, alla positiva poster har C-post med provenans,
+bild-id, SHA-256 och lokal källbild, och de fyra matrisraderna är upprättade.
+
+- **Lästa passager:** P-0028/P-0029 Umeå landsförsamling och Umeå stad,
+  P-0009/P-0003 Floda–Flen och Norge, P-0010 Ökna, Oskarshamn och Värsås,
+  P-0015/P-0016 Hyltinge, P-0048/P-0049 Robertsfors, samt seminarie- och
+  gravpassagen.
+- **Nya källor och citeringar:** S-0714–S-0727, C-0907–C-0924.
+- **Nya påståenden:** A-3400–A-3472 över drygt tjugo personakter, plus en ny
+  oavgjord person P-0529.
+- **Speglade fulloriginal:** fjorton bilder och två registerbilder, samtliga
+  SHA-256-verifierade mot värdena beräknade i den inloggade sessionen.
+- **Måluppfyllelse:** Sverkers sida på djup 3 är källbredd-klar. Registrerat
+  gemensamt djup står kvar på 2 eftersom Kristinas fyra positioner saknar
+  matrisrad; det arbetet ligger i T-0076.
+- **Metodutfall:** IIIF-samlingsändpunkten underkändes som nollbevis efter
+  fyra felaktiga spärrar. `method-riksarkivet.md` är rättad.
+- **Ägarfråga kvar:** PCR-2026-09-06-003 om Öknatjänstens tidsangivelse.
+
+## Verification
+
+- `node scripts/research-inventory.mjs --write` — 0 strukturfel
+- `node scripts/validate-genealogy.mjs` — OK, 2953 påståenden, 2244 poster
+- `node scripts/media-manifest.mjs --write` — 4803 poster
+- `node scripts/goal-state.mjs` — Sverkers djup 3: källbredd-klara 4 av 4
+- `node --test scripts/` — 29 test, 0 fel
+- `git diff --check` — rent
+
+## Återupptagning — avslutad
+
+- Uppdaterat: 2026-09-06 vid avslut.
+- Uppgiften är DONE. Ingen kvarvarande delåtgärd inom dess omfång.
+- Följdarbete som hör hemma i andra uppgifter: T-0076 för Kristinas fyra
+  matrisrader; Helgesta församlingsbok 1913–1929 för P-0015/P-0016/P-0007;
+  norska källor för P-0009; Umeå stads uppslag 1704 för P-0029; dödboken
+  1935 för P-0028; Norsjö 1924–1928 för P-0001; uppslag 638 för P-0003.
+- Metodkrav framåt: avgör aldrig digital tillgänglighet på IIIF-samlingen.

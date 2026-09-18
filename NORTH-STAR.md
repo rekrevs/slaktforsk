@@ -203,6 +203,20 @@ får inte göras till en påhittad person eller relation.
 
 ## Framstegsmått och deras begränsning
 
+Efter det verifierade skiftet i T-0643 är genealogy2 auktoritativt.
+`node genealogy2/cli.mjs inventory` visar aktuella, separata granskningsnivåer;
+`node genealogy2/cli.mjs pedigree <P-id>` tillämpar identitetsgrinden och
+redovisar stopp. Aktuella frågor, källvägar, teman och arkivfrontsbedömningar
+läses i personens versionerade forskningsobjekt. Sakkraven ovan består.
+
+Beskrivningen nedan dokumenterar de äldre indikatorernas betydelse. Deras
+skript läser nu det frysta arkivet och får inte användas som aktuellt
+forskningsläge eller skriva nya härledningar i genealogy. En gammal tabell,
+rubrik eller filsökväg kräver inte dubbelskrivning: samma sakliga innehåll
+underhålls genom [den nya arbetsvägen](genealogy2/docs/working.md).
+
+### Bevarad definition av äldre indikatorer
+
 Trädets registrerade omfattning, identitetsprövning, biografisk täckning och
 källstrategins täckning ska redovisas separat. En ny biografisk lucka gör
 inte automatiskt ett etablerat föräldraled osäkert, och ett etablerat

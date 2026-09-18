@@ -1,0 +1,159 @@
+# T-0008: Restore pedigree audit integrity and close the depth-5 wave
+
+**Status**: DONE | **Size**: M | **Phase**: COMPLETE
+
+## Context
+
+Each generational wave ends with a bounded audit. T-0007 was initially closed
+after `ancestor-audit.mjs` reported zero unresolved tips, but a Unicode parser
+bug was then found: `\w` did not recognize Swedish letters in `Föräldrar:` and
+could attach parents in the wrong direction. The owner has therefore set a
+continuous goal to restore audit integrity, close all ancestry through depth 5
+strictly breadth-first, and register (but not research) the resulting depth-6
+frontier.
+
+## Acceptance Criteria
+
+- [x] Add regression coverage for Swedish prose labels and verify the derived pedigree against an independently reviewed expected structure.
+- [x] Complete P-0095 from the located 1840 Bygdeå birth entry before working at depth 5.
+- [x] Give every open depth-5 tip verified parents or a valid terminal status after relevant lawful online sources and identified providers have been checked.
+- [x] Preserve all named people and relevant biographical facts in target records with full citations, images and checksums.
+- [x] Register the resulting depth-6 frontier without researching it in this task.
+- [x] Reconcile `genealogy/frontier.md`, the research log, the person records and Wotan with the same verified state.
+- [x] Pass the corrected audit, the independent structural check and the full genealogy validator.
+
+## Approach
+
+Repair and regression-test the graph derivation first. Continue strictly at the
+lowest unresolved depth: P-0095, then all depth-5 tips including any parents her
+birth entry opens. Treat a provider-specific access failure as evidence about
+that provider, not as proof that the record is unavailable everywhere. Stop the
+research wave after registering depth 6.
+
+## Log
+
+- 2026-08-19: Task created blocked on completion of T-0007.
+- 2026-08-20: Started after the owner supplied the continuous depth-5 goal.
+  The corrected audit currently reports five unresolved tips: P-0095 at depth
+  4, followed by P-0102, P-0103, P-0125 and P-0126 at depth 5.
+- 2026-08-20: Extracted the relationship parser to
+  `scripts/lib/genealogy-relations.mjs`. Three Node regression tests now cover
+  Swedish prose labels, table exclusions and directionality. A separate,
+  manually reviewed structural baseline in `scripts/verify-pedigree.mjs`
+  matches all 41 ancestors currently derived from the person dossiers.
+- 2026-08-20: Located P-0095's birth entry in Bygdeå C/4. An initial
+  transcription wrongly read the date as 27 October and mistook the first
+  witness, Peter Pehrsson, for the father. Full-form review resolves both:
+  Maria was born 1840-10-17, and the parent block names Hans Nilsson and Anna
+  Stina Jonsdotter. Their records P-0158–P-0159 are now linked at depth 5;
+  C-0121 preserves the full image and explicit column analysis. Reported two live access
+  barriers to the owner: Bygdeå AI:13a-b return HTTP 403 and the 1860 census
+  search is diverted to captcha/login (the birth API is blocked by WAF). Added
+  a repository rule forbidding silent treatment of plausible open-data access
+  failures; each must be surfaced, logged and given a reactivation route.
+- 2026-08-20: The signed-in Riksarkivet image viewer proved that AI:13a-b are
+  available through the ordinary web UI even though direct IIIF requests
+  return 403. The owner completed the census CAPTCHA. A 1870 database search
+  independently confirmed Maria Hansdotter in Jakob Andersson's Ultervattnet
+  household. SCB's complete Bygdeå marriage extract for 1862 (A0035600_00204)
+  and the parish original both lack the couple; this is a true negative source
+  result, preserved as C-0122, and the marriage must be sought elsewhere.
+- 2026-08-20: P-0102 Maria Jacobsdotter and P-0103 Andreas Olofsson were
+  completed from their own birth entries and marriage: their parents
+  P-0160–P-0163 are registered at depth 6. C-0123–C-0125 preserve the
+  originals.
+- 2026-08-20: Lerbo A I/19 identified P-0125 Lars Andersson as born
+  1820-08-21 in Västra Vingåker and P-0126 Brita Kajsa Pehrsdotter as born
+  1829-10-21 in Sköldinge. Brita's own birth entry names the unmarried mother
+  Anna Lisa Jansdotter, now P-0164, and no father. Lars's exact date has no
+  corresponding entry in Västra Vingåker C/7, and five plausible marriage
+  series lack the couple on the household's stated wedding date. He therefore
+  closes as `IDENTITET OLÖST`, with no invented parents.
+- 2026-08-20: P-0158 Hans Nilsson's own birth entry in Bygdeå C/3 identified
+  P-0165 Nils Nathanaelsson and P-0166 Lisa Caisa Abrahamsdotter. P-0159 Anna
+  Stina Jonsdotter's 1820 marriage establishes her origin in Degerfors, but
+  Degerfors C/1 has the 1792–1795 leaves torn out according to Riksarkivet's
+  catalog note. Her birth and parents therefore close as `ARKIVLUCKA`.
+- 2026-08-20: Access failures remained explicit throughout: two direct IIIF
+  manifests returned 403; a 40-tile capture attempt failed for every resource;
+  the census required CAPTCHA; and automated fetches of Genvägar and pchemma
+  failed with Unicode/cache errors although browser access worked. Each event,
+  its distinction from a negative search, and a reactivation route are in the
+  research log and source notes.
+- 2026-08-20: Added `--through-depth=N` to the audit so a completed wave can be
+  validated without falsely marking the newly registered next depth as done.
+  The depth-5 run reports zero invalid tips and lists eight open depth-6
+  ancestors: P-0149 and P-0160–P-0166.
+- 2026-08-21: Completion audit reopened the task. The pedigree checks pass,
+  but the acceptance criterion for opportunistic person preservation was not
+  yet met: C-0127 names two additional sons and C-0121, C-0124–C-0126 and
+  C-0128–C-0129 name witnesses who lack dossiers. The earlier DONE state and
+  its validation count are therefore superseded pending correction and a new
+  full verification.
+- 2026-08-21: Added P-0167–P-0190 for the two sons and all 22 named witnesses,
+  expanded the diplomatic transcriptions, and preserved uncertain titles,
+  places, name forms and Carl August's conflicting maternal-name reading
+  without inventing identities. The correction adds no direct ancestors and
+  leaves the depth-6 boundary unchanged. All checks then passed and the task
+  returned to DONE.
+- 2026-08-21: Requirement-by-requirement completion audit reopened the task a
+  second time. The validator only checks checksums for citations that already
+  link media; it did not reveal that C-0133 and C-0134 lacked source images.
+  Full-page captures show additional named relatives and godparents, and show
+  that the secondary page places Anna Christina's reported Ytteråträsk birth
+  in Sävar rather than Degerfors. The previous transcription and DONE state
+  are superseded pending source-complete correction.
+- 2026-08-21: A final structural audit found a graph blind spot: P-0126 is not
+  a tip because her mother is known, so the unknown paternal branch escaped
+  the generic terminal-status check. The birth record was reread as
+  Säfstugan. The expected Säfstugan pages in Sköldinge A I/9 and A I/10 and
+  every incoming and outgoing row for 1829–1830 in B/1 contain neither Anna
+  Lisa Jansdotter nor Brita Kajsa and give no father. C-0137–C-0139 preserve
+  the exact scope and nine source images. P-0126 now has an explicit
+  `IDENTITET OLÖST` paternal-branch status and a reactivation path; P-0164's
+  own ancestry remains outside the wave.
+
+## Verification
+
+- `node --test scripts/ancestor-audit.test.mjs` — 3/3 passed.
+- `node scripts/verify-pedigree.mjs` — independently reviewed structure
+  matches 50 derived ancestors.
+- `node scripts/ancestor-audit.mjs --through-depth=5` — zero tips without a
+  valid terminal status; eight depth-6 frontier people listed outside scope.
+- `node scripts/verify-depth5-wave.mjs` — 25 source images and 43 named
+  side-person dossiers have complete provenance; P-0126's otherwise masked
+  paternal branch has an explicit sourced terminal status.
+- `node scripts/validate-genealogy.mjs` — OK: 794 assertions, 464 Markdown
+  records, 135 media files and valid Wotan JSON; links, IDs and every listed
+  checksum pass.
+- `jq empty wotan/backlog.json` — passed.
+
+## Requirement matrix
+
+| Requirement | Completion evidence |
+|---|---|
+| Correct Unicode relationship parsing | Three Swedish-label regressions plus `verify-pedigree.mjs` against the manually reviewed 50-person baseline. |
+| Breadth-first wave | P-0095 opened P-0158–P-0159 before P-0102, P-0103, P-0125 and P-0126 were closed; the dated research log preserves the order. |
+| Parents or valid terminal at depth 5 | Corrected audit has zero invalid tips; P-0126's non-tip paternal branch is separately guarded and sourced by C-0137–C-0139. |
+| Full target-person and source preservation | P-0167–P-0209 cover every named target-record person; C-0121–C-0139 carry 25 checksum-verified source images, including all seven pages of the final migration search. |
+| Register but do not pursue depth 6 | Frontier remains exactly P-0149 and P-0160–P-0166; P-0164 received only the bounded search needed to close P-0126's father branch, not research into her ancestry. |
+| Surface open-data failures | IIIF 403, CAPTCHA/WAF, automated pchemma/Genvägar failures and the 2026-08-21 Riksarkivet robots block are logged with time/scope, classified as access incidents and paired with browser/provider reactivation paths. |
+| Synchronize durable state | `tree.md`, `frontier.md`, `research-plan.md`, person/citation/source dossiers, the 2026-08-21 research log, Wotan and both automated audits now describe the same boundary. |
+
+## Outcome
+
+The repaired audit and independent baseline agree on a 50-person pedigree.
+Depth 5 is closed breadth-first: P-0102, P-0103, P-0126 and P-0158 opened
+seven verified depth-6 ancestors; P-0125 ends on an original-source
+contradiction, P-0159 on a physical archive gap, and P-0126's unnamed paternal
+branch on an exact household-and-migration search with no invented father.
+Together with the existing P-0149, eight depth-6 ancestors form the next open
+wave.
+
+The repeated manual source audits close the opportunistic-person and image
+gaps. P-0167–P-0209 preserve every named son, witness, secondary relative,
+child and godparent visible in the target records. The original/secondary
+godparent conflict is explicit, the private antavla is excluded from the
+verified depth-7 graph, and all 25 wave images are locally preserved and
+checksum-verified. Every access failure encountered remains visible with a
+workaround or reactivation route.

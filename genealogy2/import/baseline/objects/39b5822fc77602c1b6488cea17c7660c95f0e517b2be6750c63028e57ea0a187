@@ -1,0 +1,429 @@
+# T-0070: Inför personkontraktet i djup 5-kohorten, 32 personer
+
+**Status**: BLOCKED | **Size**: L
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-05-019 och programmets kohortregel. Nästa ändliga
+införandegrupp efter djup 4 (T-0068). Läs T-0063 och T-0068 som förebild.
+
+## Scope och befintligt underlag
+
+- Personer: alla kända personer på djup 5 räknat från sönerna enligt
+  `node scripts/goal-state.mjs --json` vid start (16 per sida, 30 av 32
+  registrerade källbredd-klara enligt äldre KLAR).
+- Samma metod som T-0068; sidopersoner ur djup 2–4-hushållen grupperas i
+  utfallsbedömningen.
+- Utanför: ny extern forskning, djup 6+, PDF, commit/push.
+- Beroenden: T-0069 (fritt svep) enligt närhetsregeln; T-0064–T-0066 när
+  åtkomst finns har företräde före T-0070:s följdarbete.
+
+## Acceptance Criteria
+
+- [ ] 32 individuella profiler; tidslinje/sammanfattning i akten; Källbredd
+  omprövad med historik; inventering och kontroller gröna.
+- [ ] Utfallsbedömning med nästa grupp (djup 6) och sidopersonsgrupper.
+
+## Utförandelogg
+
+### 2026-09-06 — batch 372: par 1 av 16, P-0422 och P-0423
+
+Kohorten bekräftad med `node scripts/goal-state.mjs --json`: **samtliga 32
+personer på djup 5 saknade profil** vid start. Paren arbetas i tur och
+ordning; par 1 är Johan Peter Zingmark och Sara Sophia Pehrsdotter i
+Botsmark, valda för att de är föräldrar till den samma dag godkända P-0028.
+
+Utfört: tidslinje och biografisk sammanfattning i båda personakterna, samt
+första kontraktsgranskning för båda. Båda landar i `UNDERKÄND` med tre
+EJ STYRKT var. Två sakfynd, båda dokumenterade i research-log batch 372:
+
+1. **C-0983/A-3659:** maken skrivs `Sold.` i tre säkert lästa födelsenotiser
+   1853–1858 och `landbonden` från 1864. Husförhörslängden A I/5b s. 470
+   lästes om i full upplösning och har **ingen ståndsuppgift alls**;
+   hushållsrubriken är överstruken och oläsbar. Öppnade ARB, MIL och SYN i
+   P-0422 samt frågan Q-03 och källvägen KP-04.
+2. **Metodfel i dödsforskningen 1868:** sex kontroller över 27
+   församlingsranger har alla förutsatt att dödsdagen 1868-08-14 är riktig
+   och aldrig prövat att den är felskriven. Nästa läsning ska ske i Degerfors
+   dödbok 1868–1870 mot namn och ålder, utan datumfilter.
+
+Kontroller gröna: inventering 0 strukturfel (34 profiler, 12 GODKÄNDA),
+validering OK (3137 påståenden), media-manifest OK, 29/29 tester,
+`git diff --check` ren.
+
+### 2026-09-06 — batch 373: par 2 av 16, P-0020 och P-0021
+
+Per Wilhelm Eliasson och Augusta Viktoria Johansson på Djursätra Västergård.
+Tidslinje och biografisk sammanfattning i båda akterna; **P-0021:s
+relationslista kompletterades** med de sex barn som saknades trots att sju är
+belagda. Båda profilerna `UNDERKÄND`; P-0021 får `Identitetsläge: OLÖST` och
+fyra EJ STYRKT — flest hittills.
+
+Fyndet: **vigseln 1885 har sökts i fel församling.** Den enda negativa
+vigselkontrollen gäller Värsås, brudgummens socken; brudens egen församling
+Kyrkefalla är aldrig läst. En vigselnotis namnger normalt brudens far och
+skulle kunna lösa P-0021:s `IDENTITET OLÖST`. Två ytterligare vägar visade
+sig ohindrade: bouppteckningen 1949, vars villkor uppfylldes av C-0962, och
+Våmbs dödbok 1949, som aldrig katalogkontrollerats.
+
+De fem ohindrade vägarna från batch 372–373 är registrerade som
+[T-0089](T-0089.md), eftersom T-0070 inte omfattar ny forskning.
+
+### 2026-09-06 — batch 374: par 3 av 16, P-0042 och P-0043
+
+Karl Fredrik Jansson och Charlotta Wilhelmina Larsson, Arne Godvigs
+morföräldrar. Tidslinje och biografisk sammanfattning i båda akterna. Båda
+`UNDERKÄND` med två EJ STYRKT var — trots att de hör till de bäst
+dokumenterade i kohorten, med egen födelsenotis, hel vigselpost och dödbok
+med orsak för båda.
+
+Två fynd. **(1)** Flyttkedjan Lerbo → Vadsbro → Blacksta → Skedevi → Flen låg
+outskriven i barnens födelseorter; den är **härledd, inte läst**, och ingen
+hushållsrad mellan 1886 och 1914 finns i original. Samma läsning skulle ge
+fyra av fem barns exakta födelsedatum och avgöra `Spånga`/`Gånga`.
+**(2)** Dödsplatsen `Sjukhemmet` 1940 har aldrig ställts som katalogfråga.
+
+### 2026-09-06 — batch 375: par 4 av 16, P-0050 och P-0051
+
+Anders Andersson och Barbro Christina Olofsdotter i Jomark, Bygdeå. Tidslinje
+och biografisk sammanfattning i båda akterna. P-0050 `UNDERKÄND` med tre
+EJ STYRKT; P-0051 `UNDERKÄND` med fyra och `Identitetsläge: OLÖST`.
+
+**Fyndet är systematiskt, inte lokalt.** Fyra negativa kontroller i paret är
+alla bundna till ett uppgivet datum i stället för mot namn och ålder över
+årgången: Anders födelse (Nysätra C/4, sex veckor), Anders död (Bygdeå F/1,
+**sex dagar**), och Barbros födelse i både Bygdeå C/4 och Lövånger C/5. Varje
+citat anger själv sin avgränsning; uppföljningen gjordes aldrig. Samma fel
+fann batch 372 för P-0423 och batch 373 för P-0021 — nu i tre nya instanser,
+alltså sex sammanlagt.
+
+För Barbro är årgångsläsningen dessutom **den enda som prövar rätt hypotes**:
+hon är antecknad som `oäkta`, och ett utomäktenskapligt barn kan vara bokfört
+under moderns namn. Alla hennes övriga vägar är verifierat hinderbundna
+(`Läsesal` efter fem tekniska prövningar plus inloggat omprov).
+
+De tre nya instanserna är registrerade som [T-0090](T-0090.md).
+
+### 2026-09-06 — batch 376: par 5 av 16, P-0065 och P-0066
+
+Anders Jonsson och Lotta Sofia Andersdotter i Buberget, Degerfors — den gren
+som möter Zingmarksidan genom mågen Johan Oskar 1888. Tidslinje och
+biografisk sammanfattning i båda akterna. Båda `UNDERKÄND`, men **P-0066 har
+kohortens minsta återstod: elva av tolv krav styrkta.**
+
+**Fyndet är inte en fråga utan en oläst handling.** Bouppteckningen efter
+Lotta Sofia — Degerfors tingslag A II a/37 nr 20, bild `A0033199_00234` —
+är en `A0`-batch med fri åtkomst och **redan hämtad och speglad lokalt**.
+Endast första sidan är transkriberad; citatet säger det rakt ut. Akten gäller
+**det gemensamma boet** och är därmed den enda ohindrade vägen till gårdens
+ekonomi: P-0065 var hemmansägare i fyrtiotvå år och hans tema **EKO är helt
+tomt**, eftersom hans egen bouppteckning är läsesalsbunden och
+mantalsvolymerna saknar bildlänk.
+
+Övrigt: P-0065 bär en av projektets tydligaste rättelser — ett negativt
+födelseresultat upphävt genom omläsning av samma bildfil med kontrollerad
+SHA. En söknyckel som är lätt att missa: rättsliga källor skriver honom
+`Anders Jansson`, kyrkliga `Anders Jonsson`. Ny lucka: husförhörslängden för
+Buberget 1857–1861 är aldrig lokaliserad.
+
+De fyra ohindrade vägarna från batch 374 och 376 är registrerade som
+[T-0091](T-0091.md).
+
+### 2026-09-06 — batch 377: par 6 av 16, P-0094 och P-0095
+
+Jakob Andersson och Maria Christina Hansdotter i Ultervattnet, Bygdeå.
+Tidslinje och biografisk sammanfattning i båda akterna. P-0094 `UNDERKÄND`
+med fyra EJ STYRKT, P-0095 med två.
+
+**Paret rymmer kohortens sämsta och bästa negativa kontroll i samma akt.**
+Födelsefrågan är prövad på **två uppgivna dagar** och sedan lämnad — sjunde
+instansen av det datumbundna mönstret, och konsekvensen är att föräldralänken
+bara är hushållsbelagd. Vigselfrågan är däremot prövad mönstergillt: **båda
+årgångarna 1861 och 1862 genomlästa i sin helhet** med utskrivna postantal
+och uttryckligt förbud mot att anta annan vigselort. Skillnaden är att den
+andra **bevisar något** — vigseln skedde inte i Bygdeå trots att båda hörde
+hemma där — och därmed pekar ut nästa läsning.
+
+Två köade läsningar visade sig vara **en enda**: Bygdeå C/4:s årgång 1830
+besvarar både Barbro Christinas och Jakobs födelsefråga. T-0090 uppdaterad.
+Vigselvägen tillagd som väg 6 i T-0089.
+
+### 2026-09-06 — batch 378: par 7 av 16, P-0110 och P-0111
+
+Per Albert Ålund och Adela Amalia Urbom i Hyltinge — Hulda Amalias föräldrar.
+Tidslinje och biografisk sammanfattning i båda akterna. P-0110 `UNDERKÄND`
+med tre EJ STYRKT, P-0111 med två.
+
+**Ett andra systematiskt mönster.** Tre uppföljningar som alla noterades
+korrekt i akterna och sedan aldrig gjordes: (1) en **uttryckligen ofärdig
+årgång** — B/4:s utflyttade 1915, seriens sista, medan paret försvinner efter
+1910 och dödboken 1911–1934 är tom; (2) ett **daterat åtkomstbesked** för
+Gryts C- och E-serier från 2026-08-20, där samma slutsats redan rivits upp
+tre gånger i projektet när volymer öppnades inloggat; (3) två hänvisningar
+utan följd, Dymmelsta s. 68 och Helgesta folio 58.
+
+Inget av detta är metodfel i det tidigare arbetet. Beskeden var riktiga när
+de skrevs; det som saknas är omprövningen.
+
+Vägarna registrerade som [T-0091](T-0091.md) väg 5–7 och den nya
+[T-0092](T-0092.md), som samlar de daterade åtkomstbeskeden för fyra personer.
+
+### 2026-09-06 — batch 379: par 8 av 16, P-0133 och P-0134 — halva kohorten
+
+Erik Karlsson och Anna Christina Larsdotter vid Svartgjölstorp i Forssa.
+Tidslinje och biografisk sammanfattning i båda akterna; båda `UNDERKÄND` med
+två EJ STYRKT var.
+
+**P-0133 är kohortens mest fullständigt dokumenterade liv** — femton
+hushållsuppslag över fyra socknar och åttiofyra år — och dess metodiskt
+starkaste akt: fem påståenden tillbakadragna som `REJECTED`, varav tre är
+nollresultat upphävda genom omläsning. Ett av dem visar varför: han bar **två
+namnformer**, `Grill` som ung och `Karlsson` som vuxen, och ett scope-korrekt
+noll missade därför hela hans ungdom.
+
+Tre fynd. **(1)** Söknyckelns namnform kan dölja halva ett liv. **(2)**
+*Screening är inte läsning*: SCB:s 31 Helgestabilder 1920 är OCR-screenade,
+inte lästa — citaten säger själva att handskrifts-OCR kan missa text — och
+det är P-0133:s **enda kvarvarande ohindrade åtgärd**; allt annat för honom
+är verifierat hinderbundet. **(3)** Det datumbundna mönstret, **åttonde
+instansen**, hos P-0134 — men här är föräldranamnen kända och säkra, vilket
+gör årgångsläsningen billigare och mer träffsäker än i tidigare fall.
+
+Vägarna tillagda som instans 4 i [T-0090](T-0090.md) och väg 8 i
+[T-0091](T-0091.md).
+
+### 2026-09-06 — batch 380: par 9 av 16, P-0250 och P-0251
+
+Abraham Jönsson och Stina Kajsa Nordlund i Storbränna, Sättna. Tidslinje och
+biografisk sammanfattning i båda akterna. P-0250 `UNDERKÄND` med två
+EJ STYRKT, P-0251 med tre.
+
+**Vigselmönstret för tredje gången.** Paret uppges ha vigts 1872-07-08.
+Stödes fullständiga SCB-utdrag och Holms E I/1 är båda genomlästa utan dem —
+korrekta årgångsnoll — men de två valdes efter brudgummens hemvist och
+brudens födelseförsamling. **Sättna, där brudens föräldrar bodde, där hon
+skrivs `kolardotter` vid flytten 1871 och dit paret flyttade 1873, är aldrig
+prövad.** Samma sak som hos P-0021 och P-0094.
+
+Två fler datum-/årsbundna kontroller: P-0250:s dödsdag är prövad i ett
+tvåmånadersintervall, och P-0251:s födelsepost i **ett** år trots att
+grannåren är olästa.
+
+**Två mönster åt rätt håll** i samma par förtjänar att noteras: akten
+redovisar uttryckligen att **SCB-utdraget är en beroende avskrift** och
+avvisar därför inte dödsdatumet på skenbart dubbla belägg; och en flicka född
+**exakt ett av de två uppgivna datumen** i rätt födelsebok hålls utanför
+eftersom hon heter Stina Brita, inte Stina Kajsa.
+
+Vägarna tillagda som väg 7 i [T-0089](T-0089.md) och instans 5–6 i
+[T-0090](T-0090.md).
+
+### 2026-09-06 — batch 381: par 10 av 16, P-0271 och P-0272
+
+Nils Petter Pehrsson/Höglund och Anna Stina Strandlund i Högsjö, Indal.
+Tidslinje och biografisk sammanfattning i båda akterna; båda `UNDERKÄND` med
+tre EJ STYRKT var. Paret har en av kohortens **mest slutna livskedjor** —
+egen födelsenotis för båda, egen vigselpost, fem husförhörsvolymer, två
+folkräkningar och egna dödsposter, allt inom en enda by.
+
+**Fyndet är av ett nytt slag: det som fattas är inte en läsning utan en
+koppling.** Tre anteckningar står registrerade var för sig och var och en
+korrekt otolkad — ett `oäkta` barn 1868 vars mor i samma post kallas
+`torparhustrun`, **fem barn markerade `odöpta`** 1872–1881, och SCB:s
+`Ej vigda` 1888. Lagda bredvid varandra tecknar de ett hushåll utanför
+kyrkans ordningar. Mot det står parets egen vigselpost 1863, som inte
+avvisas. Ingen källa har sökts för att pröva saken; registrerat som
+[T-0093](T-0093.md).
+
+Två metodfynd på köpet: **översiktsläsning är inte läsning** — vigselposten
+1863 missades i en första genomgång av hela årsföljden och registrerades
+kortvarigt som noll, precis som OCR-screeningen i batch 379 — och
+namnövergången **Pehrsson → Höglund** 1892 gör att en sökning på enbart det
+äldre namnet missar hans sista fjorton år.
+
+### 2026-09-06 — batch 382: par 11 av 16, P-0276 och P-0277
+
+Anders Gustaf Hök och Anna Greta Hillberg i Hudiksvall. Tidslinje och
+biografisk sammanfattning i båda akterna. P-0276 `UNDERKÄND` med tre
+EJ STYRKT, P-0277 med två.
+
+**Mönstret från batch 381 uppträder en andra gång.** Hudiksvalls
+församlingsbok markerar Hökfamiljens **tio barn återkommande som `icke
+döpt`**; dottersonen döptes 1903 **utan faddrar** och blev **missionär**. Att
+samma sorts markering finns i ett andra, **obesläktat** hushåll i samma
+anlinje gör tolkningen starkare — men den måste rymma att **Hökparet gifte
+sig kyrkligt 1880**. [T-0093](T-0093.md) utvidgad till båda hushållen.
+
+Fynd 2: **tre dödskontroller som pekar utanför staden.** P-0276:s dödsdag
+står i församlingsboken, men F I/3, SCB:s novemberutdrag och länssjukhusets
+hela årsutdrag saknar honom alla. Slutsatsen är att han dog någon annanstans
+— och ingen grannförsamling är prövad. Tillagt som väg 9 i [T-0091](T-0091.md).
+
+Metodiskt förtjänstfullt: **P-0277:s dödspost hittades genom att sex hela
+årgångar lästes som avgränsat noll först**, 1931–1936, innan 1937 gav svaret.
+Det är precis det årgångsarbete som saknas i T-0090:s instanser — och det
+fungerade.
+
+### 2026-09-06 — batch 383: par 12 av 16, P-0310 och P-0311
+
+Karl August Carlman och Christina Gustafva Ringberg i Högby på Öland.
+Tidslinje och biografisk sammanfattning i båda akterna; båda `UNDERKÄND` med
+två EJ STYRKT var — **P-0311 är nära ett godkännande**.
+
+**Kohortens enda ämbetsmannafamilj:** kronolänsman gift med komministerdotter,
+`Högädla Jungfrun` vid lysningen, faderns egenhändiga samtycke, prost och
+vice häradshövding som vittnen, tre pigor i hushållet och **fyra söner
+kallade `studerande`** 1880.
+
+Metodiskt är paret kohortens tydligaste exempel på hur avgränsade
+nollresultat ska sluta: **fyra negativa resultat, tre av dem upplösta** —
+två vigselnoll förklarade av att vigslarna skedde i **brudarnas
+hemförsamlingar**, och ett `401`-besked på dödboken upphävt av den inloggade
+reservvisaren. Läxan är densamma som i batch 380 och 382, men här gjordes den
+rätt.
+
+Två fynd: `SE/VALA/02632`, **kronolänsmannens eget ämbetsarkiv**, är
+kohortens **enda konkreta PER-väg** — möjligheten att se en anas handstil.
+Och bouppteckningen efter Christina Gustafva är kohortens **bäst underbyggda
+oläsna akt**: prästen i Kalmar antecknade 1882 att den uppvisades, och
+volymen F II/75 är exakt identifierad.
+
+Vägarna tillagda som väg 10 i [T-0091](T-0091.md) och två instanser i
+[T-0092](T-0092.md).
+
+### 2026-09-06 — batch 384: par 13 av 16, P-0312 och P-0313
+
+Anders Magnus Carlsson och Carolina (Charlotta) Larsdotter i Gäddestad,
+Östra Husby. Tidslinje och biografisk sammanfattning i båda akterna; båda
+`UNDERKÄND` med två EJ STYRKT var.
+
+**Kohortens metodiskt starkaste par.** Tre olika källkritiska problem är
+lösta, alla på rätt sätt: en felaktig födelsemånad rättad genom att **båda**
+parallella födelseböcker lästes; en vigsel funnen i en **tredje** församling
+via hustruns inflyttningsattest efter två genomlästa vigselavsnitt; och en
+namnkonflikt — `Charlotta` mot `Carolina` — **sammanförd till en person**
+genom fem sammanfallande fält i stället för att bli två.
+
+Tre fynd. **(1)** En lasarettsnotis i dödsposten hanteras riktigt som **icke
+bevisande** — men lasarettets egen dödsserie är aldrig prövad, trots
+precedens från Hudiksvalls länssjukhus. **(2)** Bouppteckningens
+efterträdarserie efter 1903 är **en ren katalogfråga** som NAD kan svara på.
+**(3)** Ett noll som **pekar ut sin egen uppföljning**: Jonsbergs
+utflyttningsföljd 1868–1872 saknar henne, och citatet skriver självt att en
+tidigare avresa inte förnekas.
+
+Vägarna tillagda som 11–12 i [T-0091](T-0091.md) och en instans i
+[T-0092](T-0092.md).
+
+### 2026-09-06 — batch 385: par 14 av 16, P-0315 och P-0316
+
+Lars Petter Nilsson och Cajsa Märta Dahlsten i Högsjö, Indal. Tidslinje och
+biografisk sammanfattning i båda akterna; båda `UNDERKÄND` med två EJ STYRKT
+var.
+
+**Fyndet är den tydligaste enskilda konsekvensen av ALTCHA-lyftet.** Båda
+makarnas SCB-dödsutdrag har **tomma dödsorsakskolumner**, och SCB-utdragen är
+samtidiga **avskrifter**. Källan som kan ge orsakerna är **Indals dödbok
+F/2** — exakt identifierad, men **katalogsidan stannade vid en orörd
+människeverifiering**. Ägaren hävde precis den sortens hinder 2026-09-06, och
+beskedet är inte omprövat. **En kontroll ger dödsorsakerna för två personer.**
+Tillagt i [T-0092](T-0092.md) med hög prioritet.
+
+Fynd 2: hänvisningen `Byn fol. 35` går inte att pröva eftersom **sidan saknas
+fysiskt i skanningen** — riktigt hanterat som skanningslucka, men
+flyttlängderna är aldrig prövade och sidan inte eftersökt i original.
+
+Metodiskt starkt: ett **felaktigt årgångsnoll upphävt genom omläsning**, en
+styvmor skild från modern, **tre namnformer förenade av en enda källa** utan
+att familjenamnet blir födelsenamn, och **två bröder med samma namn** åtskilda
+av sina dödsposter.
+
+### 2026-09-06 — batch 386: par 15 av 16, P-0336 och P-0337
+
+Olaus Fredberg och Britta Stina Svensdotter. Tidslinje och biografisk
+sammanfattning i båda akterna. P-0336 `UNDERKÄND` med fyra EJ STYRKT och
+`Identitetsläge: OLÖST`; P-0337 med ett EJ STYRKT utöver PK-12 — hon hör
+till kohortens mest kompletta.
+
+**Paret är kohortens tydligaste kontrast.** Olaus akt är projektets mest
+genomarbetade — **155 påståenden** — och samtidigt den minst lösta: ett
+yrkesliv belagt ända in i fackpressen, men **tre konkurrerande
+födelseuppgifter**, ingen födelsenotis, okända föräldrar och en obekräftad
+gardistuppgift. Hustrun har egen post för varje skede av sitt liv.
+
+**Fyndet gäller T-0051**, som redan står READY: dess två kvarvarande steg är
+sannolikt inte längre hindrade. **Hela mantalsårgången 1877 visade sig vara
+digitaliserad**, och **självdeklarationens hinder var en orörd ALTCHA** — av
+precis det slag ägaren hävde samma dag.
+
+Fem rättelser i en och samma akt: två felidentifieringar, en felaktig
+sockenrouting, en felläsning, och en OCR-screening som uttryckligen inte görs
+till volymnoll.
+
+### 2026-09-06 — batch 387: par 16 av 16, P-0338 och P-0339 — kohorten klar
+
+Henrik Henriksson och Margareta Charlotta Schölin i Lagfors, Ljustorp.
+P-0338 `UNDERKÄND` med tre EJ STYRKT, P-0339 med fyra.
+
+**P-0339 är kohortens enda barnhusbarn.** Hennes ursprung kommer ur
+**Allmänna barnhusets rulla 2532** — antagen 1831, ympad, placerad hos en
+torpare i Löfberg, far bara ett namn på ett papper. Hennes bana är kohortens
+tydligaste: utomäktenskapligt barn → barnhusbarn → fosterbarn → piga →
+torparhustru → änka → **inhyseshjon**.
+
+Två metodiskt starka drag: **en felläsning avslöjades som projektets egen** —
+datumvarianten `1825-05-12` fanns aldrig i någon källa, och den negativa
+Stockholmskontroll som byggde på den är därför ogiltigförklarad **som
+prövning**; och **en rättelse räddade en hel källa** — vigselboken 1854
+saknade inte paret, det var fel uppslag som lästes.
+
+## Avslut — 2026-09-06
+
+**Kohorten är genomgången: 32 personer, 16 par, batcherna 372–387.**
+Utfallsbedömningen i sin helhet finns i
+[batch 387](../../genealogy/research-log/2026-09-06.md#utfallsbedömning-djup-5-kohorten-32-personer).
+
+- **Profilerna i projektet gick från 32 till 64.** Samtliga 32 i kohorten har
+  nu tidslinje, biografisk sammanfattning och en första kontraktsgranskning.
+- **Ingen blev GODKÄND** — det väntade utfallet av en förstagångsgranskning
+  av en oprövad kohort. **Ingen legacy-`KLAR` eller `GRANSKAD` konverterades.**
+- **Källbredd är omprövad genom profilernas KP-avsnitt**, medan de äldre
+  Källbredd-noterna i personakterna står kvar **oförändrade som historik**.
+- **Cirka 37 ohindrade forskningsvägar** är identifierade och registrerade i
+  [T-0089](T-0089.md)–[T-0093](T-0093.md).
+- Kontroller gröna i varje batch: inventering 0 strukturfel, validering OK,
+  media-manifest OK, 29/29 tester, `git diff --check` ren.
+
+**Rekommendation:** utför T-0089–T-0093 **före** djup 6. Flera vägar kan
+omedelbart lösa en `OLÖST` identitet, och några kostar en enda uppslagning.
+Att gå vidare till djup 6 skulle lägga 64 nya personer ovanpå en kö som just
+har fyllts.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-06, uppgiften avslutad.
+- Utfört: **samtliga 16 par, 32 av 32 personer**
+  (P-0422, P-0423, P-0020, P-0021, P-0042, P-0043, P-0050, P-0051,
+  P-0065, P-0066, P-0094, P-0095, P-0110, P-0111, P-0133, P-0134,
+  P-0250, P-0251, P-0271, P-0272, P-0276, P-0277, P-0310, P-0311,
+  P-0312, P-0313, P-0315, P-0316, P-0336, P-0337, P-0338, P-0339).
+- Nästa ej utförda steg: inga inom denna uppgift. Fortsättningen ligger i
+  [T-0089](T-0089.md)–[T-0093](T-0093.md) och därefter djup 6.
+- Kvarvarande par: inga.
+- Ohindrade forskningsåtgärder som granskningarna lagt till kön ligger
+  **utanför** T-0070:s scope och är registrerade som [T-0089](T-0089.md)
+  (fem läsvägar), [T-0090](T-0090.md) (tre datumbundna nollresultat) och
+  [T-0091](T-0091.md) (åtta ohindrade läsvägar), [T-0092](T-0092.md)
+  (ett daterat åtkomstbesked efter rättelse) och [T-0093](T-0093.md)
+  (odöpta barn i **två** hushåll) — **trettiosju vägar sammanlagt**, varav två
+  visat sig vara samma läsning. Därtill är **T-0051 omprövad**: dess två
+  kvarvarande steg är sannolikt inte längre hindrade.
+  Generalmönsterrullorna för P-0422 kräver en egen NAD-katalogfråga och hör
+  till ännu en uppgift.
+- Hinder: inga.
+
+## Outcome
+
+**Utförd.** Samtliga 16 par och 32 personer granskade; profilerna i projektet
+gick från 32 till 64, och cirka 37 ohindrade forskningsvägar identifierades.

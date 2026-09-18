@@ -1,0 +1,301 @@
+# T-0142: Konsolidera konfliktsignal, fristående sidopersoner/kandidater från P-0014
+
+**Status**: DONE | **Size**: M
+**Phase**: DONE
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0014, P-0058, P-0059, P-0060, P-0424
+
+## Scope och underlag
+
+Exakt dessa 5 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 94 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0018, C-0027, C-0050, C-0051, C-0053, C-0054, C-0055, C-0057, C-0058, C-0059, C-0108, C-0113, C-0115, C-0146, C-0186, C-0187, C-0188, C-0189, C-0190, C-0191, C-0192, C-0203, C-0204, C-0205, C-0206, C-0207, C-0208, C-0210, C-0211, C-0212, C-0213, C-0214, C-0215, C-0216, C-0217, C-0218, C-0219, C-0220, C-0221, C-0222, C-0223, C-0224, C-0263, C-0264, C-0313, C-0314, C-0377, C-0378, C-0379, C-0488, C-0489, C-0490, C-0491, C-0492, C-0493, C-0494, C-0506, C-0507, C-0508, C-0546, C-0547, C-0550, C-0819.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+2026-09-08, person-dossier/v1 och person-research/v1. Alla fem hela akter,
+relevanta C/S och egna bevarade poster lästa; root har efterläst färdig text
+med oberoende andraläsningar av materiella fynd. Inga nya arkivöppningar.
+
+| Person | Underlag och konsolidering | Identitetsnivå / träd | Full nivå och kvarstående arbete |
+|---|---|---|---|
+| P-0014 Maj-Grete | C-0018/C-0027/C-0263/C-0264/C-0819 med S och ägarbeslut. Egen full SCB-rad 1930 anger 1927 mot familjens 1925; faderns flytt/inkomst inte dotterns. Julfoto 1944 och DOCX-bildtext prövade, identisk inbäddad bild. Sex äldre A kvar, A-4701–4702 nya. | PRÖVAT; GODKÄND/BÄRANDE. OWNER_CONFIRMED far består; egen exakt födelsedag är separat. | Tio teman; UNDERKÄND endast PK-08. T-0331 två fasta födelseår. Dödsår 2007 fortsatt sekundärt LEAD. |
+| P-0058 Johan | C-0050–0055/C-0108/C-0115, C-0187–0191/C-0204–0221/C-0313/C-0377/C-0488/C-0506–0508 och Zingmarkrättelsen, med S. Sida 366 positiv med Emma Johanna/405, vigseln namnger Pehr Ersson och 9 mars; 1847-brygga avvisad. Familjedatum, åtta kända barnrader över två skeden, fjorton dopvittnen och egen död fullprövade. 42 äldre A kvar, A-4677–4678 nya. | PRÖVAT vuxenavgränsning; UNDERKÄND/AVVAKTAR på PK-11. Bergvallbarn/föräldrar fortsatt kandidat, 9/19 mars kvar. | Tio teman; UNDERKÄND också PK-08. T-0335 första familj, T-0336 två ursprungsändar, T-0337 fast kopie-/metadatarest. Ekonomi öppet med Riksarkivets lokala åtkomstgräns tillgodoräknad. |
+| P-0059 Cajsa Lotta | Delade familjekällor samt C-0146/C-0186/C-0188/C-0206/C-0222–0224/C-0314/C-0378–0379/C-0489–0494 med S. Vuxenkedjan omfattar två egna 339-rader. Separat kandidat Cathrina Charlotta 21/dop 23 oktober 1825, Jon/Anna Maja i Hissjön[?]. Vigselns fadersnyckel positiv, ingen fusion. Alnömodern och död/begravning fullprövade; Alvik hemvist. 37 gamla A kvar, A-4685–4686 nya. | OLÖST ursprung, vuxenavgränsning styrkt; UNDERKÄND/AVVAKTAR på PK-11. | Tio teman; UNDERKÄND också PK-08. T-0334 två kandidatfolier, T-0332 äldre Alnöfamiljefolio, T-0337 tre svarskopior och exakt avgränsad metadata. |
+| P-0060 Jonas Petter | C-0051/C-0053–0055/C-0192/C-0203/C-0489–0493 med S. Johan Peter var felläsning, ingen namnbyteshändelse. 9/19 oktober prövas separat från äldre septembernoll; Degerforsbildens gamla intervall fel. Egen avgång 1875, vigseluppgift 1887-07-17, Alnöfolier 1471/2574 och egna fält fullprövade. Sex gamla A kvar, A-4693–4694 nya. | PRÖVAT; GODKÄND/BÄRANDE. Föräldrarnas äldre sökskuld överförs inte. | Tio teman; UNDERKÄND endast PK-08. T-0332 oktober och två Alnöfolier, T-0338 egen Sävarfolio 252 och högst en fortsättning. |
+| P-0424 Johan August | C-0050–0059/C-0207 och C-0546–0547/C-0550 med S. Födelse 16/dop 17 maj 1861, Östanträsk hemvist; sex dopvittnen och förrättare. Egna tjänsterader och markeringar till 1884 prövade. Avsändarens decemberrådag 1878 mot mottagarens 21 maj reserveras. Tre gamla A kvar. | PRÖVAT; GODKÄND/BÄRANDE. Skild från Johan Oskar Zingmark P-0028. | Tio teman; UNDERKÄND endast PK-08. T-0333 fast nästa bokfolio efter 1884. |
+
+Root har läst P-0010–0013 som familjeföljd och rättat P-0012:s saknade
+Maj-Grete-relation; full adoption i T-0147/T-0151. P-0061–0064/P-0238 samt
+P-0398–0401 har minimala följdrättelser med full adoption i T-0177/T-0178/
+T-0191/T-0195/T-0196. P-0146/P-0147 kandidatföljder i T-0184; P-0402 läst och
+oförändrad. P-0060/P-0424 har faderns tidigare dotter som äldre halvsyster,
+utan antaget gemensamt boende. Front och täckning konsoliderade med äldre
+formuleringar bevarade.
+
+Kopieaudit: 181 direkta medielänkar finns, 177 direkt verifierade SHA och
+fyra via manifest. Alla 550 mediefiler knutna till kohortens 63 grundcitationer
+finns med rätt SHA. Fem faktiskt saknade Bergvall-/registerbilder, tio gamla
+registersvar och fasta metadatarester skiljs från tillräckligt återfunna
+S-0542 OAI/S-0524 API-katalogposter. T-0337 äger den slutliga fasta listan;
+inget återstående kataloginnehåll påstås saknat när det finns som XML-hierarki.
+
+
+## Verification och Outcome
+
+Format 5/0, täckning 538/0, 50/50 tester, validator 3789 A/2657 Markdown/
+5065 media och giltig Wotan. Inventering write/check: 162 profiler,
+33 identitetsgodkända, 32 BÄRANDE, åtta fullgodkända och noll strukturfel.
+Mediemanifest write/check: 5064 poster, 3140 exakta, 1879 källbundna,
+28 citationsbundna, 17 olänkade. Alla 94 äldre A-id kvar i 102 aktuella.
+Diffkontroll godkänd. Goal-state fortsatt gemensamt djup 4/nästa skiva 5;
+ingen ny säker föräldralänk skapad. Batch 546 i forskningsloggen 2026-09-08.
+121/538 individuellt granskade. DONE gäller konsolideringen, inte fulla liv.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Återupptagning — start efter T-0141
+
+2026-09-08: föregångaren verifierad DONE; 116/538 individuellt granskade.
+Nästa ej utförda steg: läs fem hela akter och relevanta C/S, fördela
+avgränsade deluppgifter. Inga nya arkivöppningar. next_id 331, nästa fria A-4677.
+
+### Fast arbetsfördelning
+
+Root har läst fem hela akter. Parents äger P-0058 och gemensamma familjecitationer;
+varied P-0059 och hennes egna citationer; private P-0060/P-0424 och deras egna
+citationer. Delade källfynd samordnas med respektive ensam skrivägare. Root äger
+P-0014, gemensam kopieaudit, Wotan och följdavstämning. A-4677–4684 reserverade
+P-0058, 4685–4692 P-0059, 4693–4700 P-0060/P-0424; root från 4701.
+Baslinjer /private/tmp/t142-{14,58,59,60,424}-old.md. Inga nya arkivöppningar.
+
+## Återupptagning — materiella delresultat under arbete
+
+2026-09-08: P-0014 har färdig akt/profil och egen fullradsläsning C-0027,
+gruppbild C-0264 införd. Sex äldre A kvar, nya A-4701–4702. T-0331 registrerad
+för två fasta födelseår efter programmet. Format 0; länkrättelse i profilen
+följs av ny inventering. Familjens följdavstämning återstår.
+
+Parents arbetar P-0058 och gemensamma familjekällor: C-0205:s utelämnade
+föräldrarader, egen 9/3 1824 och C-0207:s positiva sida366 med dotter
+Emma Johanna1851 och änke-/dödsnot1853 är under oberoende prövning.
+Varied arbetar P-0059: verkligt mellanled339→366→339 och positiv separat
+CathrinaCharlotta född21/dop23okt1825, JonJonsson/AnnaMajaPehrsd:rHissjön[?]
+i redan sparad C-0146. Inga kandidatfusioner eller nya arkivbilder.
+Private arbetar P-0060/P-0424: sena Alnöfältens9/10 mot äldre19/10 behöver
+källspecifika datum; gamla septembernoll är felriktade. C-0203:s bild47 har
+annan, icke kronologiskt obruten passage än tidigare angivet16aug–11sept.
+
+Root har själv läst fyra C-0212/C-0219-helbilder och egna nativecrops;
+rapport /private/tmp/t142-independent-212-219.md. C-0219:s kärnfakta bekräftade,
+intygs-/kyrkoherdenot reserverad. C-0212:s Bastuträsk63 har två namnlika:
+övre1814-01-10[?]→Umeå48, nedre1821[?]13/9[?]→Wännäs48; ingen säker
+1824-03-19 kan bekräftas. Parents andraläser innan gammal1847brygga korrigeras.
+
+Kopieaudit: 181 direkta länkade filer finns; 550 filer knutna till kohortens
+63 grundcitationer finns och matchar mediemanifestets SHA-256. Fasta
+öppningsintervall/metadata och alternativa filnamn återstår att avstämma;
+/private/tmp/t142-copy-audit.json är arbetsunderlag, inte slutintyg.
+Nästa ej utförda steg: slutför individuella sakgranskningar, granska färdiga
+texter, hantera anhöriga och avgränsade följdägare, därefter hårda kontroller.
+Ingen batch546 ännu, T-0142 är fortsatt ONGOING;116/538 verifierade. next_id332.
+
+## Återupptagning — verifierat avslut
+
+2026-09-08: T-0142 verifierad DONE, batch 546 bevarad en gång.
+121/538 individuellt granskade. Alla fem färdiga texter efterlästa,
+anhörigföljder och T-0331–0338 registrerade. Nästa kohort T-0143;
+fortsätt den sammanhängande körningen. next_id 339. Inget forskningsföljduppdrag
+startas före programslutet. Inga hinder, dashboard eller commit/push.
+
+## Rapport från T-0177, 2026-09-09: Lundströmsyskonens fulla adoption, med en rättelse och en avgjord reservation
+
+Din begränsade följdavstämning angav att `Explicit full införandeadoption
+ligger i T-0177`. **Den är utförd** för
+[P-0061](../../genealogy/people/P-0061-emma-maria-lundstrom.md) och
+[P-0062](../../genealogy/people/P-0062-carl-erik-lundstrom.md): båda är förda
+till `person-dossier/v1` med profil, 0 formatfel, och **samtliga fyra
+ursprungliga assertioner står kvar med oförändrad lydelse**. Dina
+avstämningstexter och de blockciterade äldre tabellerna är bevarade som
+H4-historik.
+
+**En av dina läsreservationer är avgjord.** Du angav Carl Erics dödsnot
+`1885 9/7[?]`. Vid 430–800 % i den redan sparade helbilden `C0034439_00027` är
+täljaren en `9` med sluten ögla och nedgående svans och nämnaren en `7`, och
+**kontrollen är kolumnens x-läge**: uppgiften står i samma kolumn som faderns
+`85 ¹⁷/₁₁` två rader ovanför, mätt i **ett** utsnitt. **Han dog 1885-07-09**,
+tjugotvå år gammal, fyra månader före sin far. Frågetecknet kan tas bort, och
+dödboksposten är därmed exakt adresserad i stället för utspridd över en
+årgång. Sidnumret `395` och året `1883` är däremot **fortfarande reserverade**
+och förs så.
+
+**En av dina läsningar är felaktig.** Du angav Emma Marias son som `Carl
+Waldemar`. Raden läses vid 1200 % `[A?]lex **Bernhard**`: det andra
+namnledet har en **loopad `B`**, ett **högt `h`** mitt i ordet och ett
+avslutande **loopat `d`** — `Waldemar` saknar `W` och slutar inte på `d` och är
+**uteslutet**. Förnamnet är delvis övertäckt av hushållets krysstrykning och
+läses mest sannolikt `Alex`, men är **inte avgjort**. Rättelsen är förd som
+tillägg till C-0218 och C-0378 och som A-7738 i P-0061; den är också anmäld i
+P-0059, vars akt bär samma namn.
+
+**Tre uppgifter på Emma Marias egen rad var outvunna.** Kopporkolumnens `v` på
+hennes **egen** rad, inflyttningen **`Umeå stad` 1884-10-28** och
+utflyttningen **`Sundsvall` 1887-07-25**. Din avstämning kände bara hennes
+utflyttning till sida 398 år 1876 och hennes återkomst med ett barn 1886.
+
+**Två uppgifter till, båda ur samma utsnitt.** Ordet före `son` är `oä.` —
+alltså **oäkta** — och sonens dödskolumn bär `¹⁰/₉ 86`: **han levde fyra
+dagar.** Och bortflyttningskolumnen för raderna 6–10, läst i ett utsnitt, ger
+familjens flyttordning: **Emma Maria till Sundsvall 1887, systern Charlotta
+till Skön/Sundsvall 1889-05-20, modern och Albert till Alnö 1889-05-21.**
+Familjens flytt till sågverksdistriktet var alltså inte en samlad
+utflyttning — hon gick två år före de andra.
+
+**Din iakttagelse om de negativa kontrollerna i Sävars C-serie är förd som
+beroende** i båda profilernas födelsebokskällvägar: att räckvidden är
+avgränsad och delvis felbeskriven är ett skäl att läsa serien noga snarare än
+att lita på tidigare nollresultat.
+
+## Rapport från T-0178, 2026-09-09: `Skön` är rätt, `Alnö` är moderns församling
+
+Din avstämning angav Charlotta Lundströms destination som `Alnö och därefter
+Sundsvall`. A I/8b sida 460 rad 9 är omläst i den sparade helbilden
+(`C0034439_00027`, 8 028 × 6 460 px) vid 300 och 900 %.
+
+**Ordet på den övre raden är `Skön`.** Det bär tydliga umlautprickar över `ö`
+och ett inledande `S` — inte det `A` som `Alnö` skulle kräva. På radlinjen
+står `Sundsvall` med `89 ²⁰/₅`. A-7745.
+
+**Rättelsen bekräftar ditt eget förbehåll.** Du skrev att moderns
+slutdestination eller exakta flyttdag inte automatiskt görs till Charlottas,
+och det visar sig vara precis riktigt: **modern och Albert gick till `Alnö`,
+en annan församling, och dagen därpå.** Just den rimligheten är det som gjorde
+felläsningen svår att upptäcka — `Alnö` passade sammanhanget, och en
+felläsning som passar sammanhanget kontrolleras inte.
+
+**Arkivkonsekvensen är verklig.** Skön är en **ny** arkivbildare för
+projektet; Alnö är redan i bruk genom moderns underlag (C-0491, C-0492). En
+sökning i Alnö på Charlottas namn skulle leta i **hennes mors** församling.
+`Alnö` är därför fört som **spärrad söknyckel** i hennes profil, och `Skön`
+som ny.
+
+**Cellens inre ordning kan inte fastställas.** Dagen `²⁰/₅` sitter på den
+nedre raden och kan höra antingen till `Sundsvall` enbart eller till hela
+cellen. Q-01 i hennes profil står som `OLÖST INOM PRÖVAT OMFÅNG` med omfånget
+angivet, och **båda** församlingarnas inflyttningslängder 1889 måste läsas
+innan ett noll får redovisas. Något flyttningsbetygsnummer står inte i cellen.
+
+**Din iakttagelse om Sävars C-serie är förd vidare** som beroende i
+födelsebokskällvägarna för både P-0063 och P-0064.
+
+**Avgränsning.** P-0063 och P-0064 är adopterade till full akt och profil i
+T-0178. Emma Marias och Albert Lundströms akter rörs inte här utöver bundna
+avsnitt; C-0218 har fått ett daterat tillägg.
+
+## Rapport från T-0179, 2026-09-09: bladets familjeställningskolumn var outvunnen
+
+Kohorten P-0073–P-0080 är konsoliderad, och sex av personerna är dina
+sidpersoner på folkräkningsbladet C-0059. **Din avstämning 2026-09-08 höll i
+allt väsentligt, och tre av dess led är nu belagda i stället för bedömda** —
+men en tryckt kolumn hade aldrig utvunnits, och den bär släktskap.
+
+**Bekräftat ordagrant.** Du skrev att utdraget är kyrkoboksbaserat och inte
+oberoende. Dokumenthuvudet lyder `Utdrag ur Husförhörslängden för Säfvar
+Moder församl. i Westerbottens l:s prosteri, Westerbottens län, d. ³¹/₁₂ 1880.
+18 ark.` **Bladet pekar därmed självt ut den bok som bär resten**, och det är
+nu förd som avgörande källväg i alla sex akterna.
+
+**Nytt: kolumn 2 bär familjeställningsprefix.** Blankettens eget huvud
+förklarar systemet — `h = hustru, s = son, d = dotter o. s. v.` — och raderna
+lyder `h. Anna Magdalena Jonsdotter`, `d. Anna Kajsa Bäckström`,
+`oä. d. Anna Johanna` och `oä. s. Johan Alfred`. **Evald Bäckström är alltså
+belagd som gift och far**, och hustruns och dotterns akter kan lämna
+formuleringen `redovisas med`. Din läsning `Anna Kajsa Bäckström och hennes
+barn` visar sig ha varit en riktig prefixläsning.
+
+**Preciserat: hushållskolumnen delar bladet annorlunda än databasen.**
+Siffran i kolumn 1 **sluter** ett hushåll — belagt på tre andra hushåll,
+avgörande fallet är att siffran någon gång står på en rad med prefixet `d.`,
+som inte kan vara en föreståndare. Följden är att Evald Bäckströms hushåll
+sluts på `oä. d. Anna Johanna`s rad, medan **de tre sista raderna — Johan
+August, Fredrika Antonia Fällman och `oä. s. Johan Alfred` — saknar avslutande
+siffra och alltså tillhör ett hushåll som fortsätter på nästa ark.**
+
+Det ger din formulering `Fredrika Antonia Fällman och hennes son Johan Alfred
+står separat` en precisering: de står skilda från **Bäckströms** hushåll, men
+**inte** skilda från Johan Augusts rad i hushållskolumnens mening. **Din
+slutsats att ingen av sidpersonerna får ges en släktrelation till Johan
+August är oförändrat bindande och är införd i alla sex akterna** — samboende i
+ett oavslutat hushållsblock är en samboendeuppgift, och namnlikheten
+`Johan Alfred` mot `Johan August` gör förbudet mer angeläget, inte mindre.
+**Databasens familjenummer 1–4 är spärrade som hushållsuppgift** i alla sex
+akterna.
+
+**Där T-0179 stannar kortare än du.** Två gånger skrev avstämningen ett
+moderskap som prefixet inte ger: `Anna Kajsa Bäckström och hennes barn` och
+`Fredrika Antonia Fällman och hennes son`. Prefixen `oä. d.` och `oä. s.` är
+ställda mot den **prefixlösa** föreståndarraden — vilket syns på ditt eget
+blad, där ett `oä. s. Gustaf Ferdinand 1880` följer pigan `Kajsa Johanna
+Nordström` och inte husbondens rad — och blanketten har **ingen kolumn** som
+knyter ett barn till en förälders rad. **Båda moderskapen förs därför som
+bevarade konflikter**, med de tre stödjande leden utskrivna: ålder, civilstånd
+och radordning. För Johan Alfred tillkommer ett skäl att hålla frågan öppen:
+hans grupp fortsätter på nästa ark, så en förälder kan stå där.
+
+**En tredje öppen fråga du inte ställde:** vem är **Anna Kajsas** mor?
+Prefixet `d.` ställs mot fadern, och Evald var femtiofyra år 1880 — ett
+tidigare äktenskap är oprövat, och husförhörslängdens vigselkolumn avgör det
+billigt.
+
+**Ur C-0050, samma dag.** O. Dahls boställe läses `Da[…]fors Nybygge`, och
+**samma ortnamn står på Erik Dahls rad** — de bodde på samma ort. Två
+sakuppgifter är utvunna: **yrket `Nybygg.`** och att han hade en **hustru**.
+Din läsning `Drakfors[?]` är **avvisad**: ordet börjar `Da`, inte `Dra`, och
+har inget `k`. Din `Gunnmark[?]` **förblir oavgjord** mellan `Gunnismark` —
+attesterad Sävarort med 122 förekomster i projektet — och `Bullmark`, som
+också är en Sävarby; initialen och minimerna är inte upplösta. Din
+kyrktagningsreservation `29/6[?]` är **prövad och bekräftad som en bildgräns**:
+numeratorn förblir oavgjord mellan `24` och `29` vid 450 %, och frågan bör
+inte återupptas i samma bild. **Bilden är skarp — det är handen som är
+tvetydig**, och rätt åtgärd är en annan skriftbärare.
+
+**Avgränsning.** P-0073–P-0080 är färdigadopterade i T-0179. P-0424 har bara
+fått ett bundet avsnitt och ägs fortsatt av dig. Sex nya avgränsade uppgifter,
+T-0552–T-0557, bär följdarbetet.

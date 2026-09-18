@@ -1,0 +1,202 @@
+# T-0151: Konsolidera befintliga akter, djup 4 sida S från P-0010
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0010, P-0027, P-0295, P-0296
+
+## Scope och underlag
+
+Exakt dessa 4 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 51 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0008, C-0010, C-0018, C-0023, C-0024, C-0025, C-0026, C-0027, C-0029, C-0086, C-0261, C-0263, C-0264, C-0266, C-0417, C-0819, C-0870, C-0871, C-0912, C-0913, C-0914, C-0915, C-0917, C-0960.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Genomfört 2026-09-08, person-dossier/v1 och person-research/v1. Fyra akter i
+Eliasson- och Lundkvistkretsen; tre av dem saknade profil. Passagen är loggad en
+gång som
+[batch 556](../../genealogy/research-log/2026-09-08.md#batch-556--t-0151-eliassonkretsen-och-ett-beläggsfel-i-en-avskrift).
+Ingen ny arkivåtkomst; redan sparade helbilder har lästs om.
+
+| Person | Datum/version | Granskat underlag | Format | Konsolidering | Identitetsbedömning | Livsbildsbedömning | Rättelser/luckor och följduppgift |
+|---|---|---|---|---|---|---|---|
+| P-0010 | 2026-09-08 | C-0023, C-0027, C-0912–C-0917, C-0961 | godkänd | 40 → 53 A; A-3449:s påstående att hela föräldrahemmet bröts upp samtidigt rättat mot citationens egen avstämning, sex överspelade lydelser om olästa källor rättade, dopdag och föräldrarnas åldrar samt Limhamnsadressen och folio utvunna, inkomstnormaliseringen 6 900 återförd till råvärdet `69 —` | GODKÄND/BÄRANDE | UNDERKÄND, PK-03/06/08 | Limhamn 1923–1930 och beväringsmaterialet saknade källväg helt; T-0383 |
+| P-0027 | 2026-09-08 | C-0417, C-0868, C-0870, C-0871, C-0873, C-0917 | godkänd | 6 → 19 A; födelsedagen 1904-09-12 fanns i fem församlingsböcker men akten sade `Exakt datum återstår`; namnrättelsen Alma→Alva daterades till 1930 men står i hennes egen rad redan 1907; vigseln 1926-11-21 med lysning 63/1926 var aldrig införd; ett sparat fulloriginal var utvunnet bara för moderns rad | GODKÄND/BÄRANDE | UNDERKÄND, PK-08 | Värsås 1904 är enda oberoende kontrollen; T-0381, T-0382 |
+| P-0295 | 2026-09-08 | C-0871 och familjekällorna | godkänd | 3 → 3 A; A-1659 höjd till CORROBORATED mot barnens rader i moderns eget hushåll, C-0871 införd som tredje belägg för Tibro trots att den funnits sedan T-0056, en överspelad lydelse om overifierade familjeuppgifter ersatt | GODKÄND/EJ BÄRANDE | GODKÄND | Kandidatposten är avgjord; anlinjen ska passera P-0027, aldrig denna post |
+| P-0296 | 2026-09-08 | C-0417, C-0871 | godkänd | 2 → 8 A; bruten påståendetabell och fyrkolumnig relationstabell rättade, sex uppgifter ur källor som funnits sedan T-0056 utvunna, moder- och systerrader uppgraderade i linje med ett CORROBORATED-påstående i samma akt, familjeuppgiftens tvåbarnsbild rättad till minst fyra bokförda barn | GODKÄND/BÄRANDE | UNDERKÄND, PK-03/08 | Levandefrågan är oprövad och delas med P-0297 och P-0528; T-0380 |
+
+## Ett beläggsfel i en avskrift
+
+Kohortens tyngsta fynd rör inte de granskade personerna själva. C-0917 binder
+värnpliktstalen till fel rader: i originalet står `376 ³⁷/₁₉₁₂` på rad 5, Johan
+Martin Gabriel, och `372 ³⁷/₁₉₁₄` på rad 6, Ragnar, medan rad 7, Rut, bär en
+**överstruken upprepning** av det senare. Avskriften placerar det första talet
+hos Rut och nämner ingen överstrykning. Felet berör P-0023, P-0024 och P-0025 i
+en kommande kohort och är rättat i ett daterat tillägg.
+
+## Ett systematiskt formatfel
+
+Sexton personakter har en blankrad mitt i påståendetabellen, vilket i CommonMark
+ger två tabeller där den andra saknar tabellhuvud. `person-format.mjs` fångar det
+inte. P-0027 och P-0296 är rättade här; de övriga fjorton ligger i ännu ej
+arbetade kohorter och är förda till T-0115 tillsammans med rekommendationen att
+utöka formatkontrollen. Kontrollen är under tiden tillagd i kohortverifieringen.
+
+## Följdrättelser i andra akter och citationer
+
+- `C-0917`: värnpliktstalens radbindning, en överspelad tolkningspunkt och en
+  läsosäker flyttdag.
+- `C-0027`: inkomstnormaliseringen `69 —` → 6 900 saknar dokumenterad enhet och
+  berör även P-0014; hemortsrubriken omfattar två hushåll, inte ett.
+- `C-0868`: hushållets rader 1–5 är outvunna på ett redan sparat fulloriginal.
+- `C-0873`: rubrikläsningen är löst av C-1050 men rättelsen hade inte propagerats.
+- `C-0417`: huvudyrkeskoden är läsosäker mellan två läsningar och avgörs av
+  P-0021:s ägare.
+- `C-0961`: motiveringen `kassör i hyrd bostad` är inte belagd.
+- `C-0263`: årskonflikten för Maj Grete ska bevaras som konflikt i P-0014.
+- `P-0296`: en integritetsavgränsning var formulerad som en källbrist.
+- `P-0373`, `P-0374` och `P-0528` har överspelade lydelser som är förda till
+  T-0194.
+
+## Verification och Outcome
+
+Kört och läst efter samtliga ändringar: `person-format.mjs` för kohorten
+4 personer/0 formatfel; `person-review-coverage.mjs` 538/0; inventering `--write`
+och `--check` 0 strukturfel; `validate-genealogy.mjs` 3971 assertioner,
+2694 Markdown-poster, 5065 mediefiler; `node --test scripts/` 50 av 50;
+`media-manifest.mjs --check` 5064 poster. Egen kohortkontroll, nu utökad med
+brutna tabeller och relationstabellens kolumnuppsättning: inga förlorade A-id,
+korrekt rubrikordning, inga dubbletter bland A-5180–A-5235 och ingen kvarvarande
+malltext.
+
+Kunskapsresultatet är ett beläggsfel i en avskrift som berör tre personer utanför
+kohorten, en födelsedag som stått som `återstår` trots att den fanns i fem
+källor, en namnrättelse som daterats tolv år för sent, en odokumenterad
+inkomstnormalisering som återförts till råvärdet, och ett systematiskt formatfel
+som nu är kartlagt. Uppgiften är klar inom sitt omfång. Beslutat resterande
+arbete ligger i T-0381–T-0384.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Följdfynd från T-0121
+
+C-0023namn/ålders/doprättelse, C-0917helahemmetbrötsuppöverdrivet. Alva/Alma och namnets egna kedja behöveravstämmas. T-0223ägerfullpostutvinning; OWNER_CONFIRMEDpåBernhardsbarnoförändrat.
+
+## Familjeavstämning från T-0127, 2026-09-08
+
+Modern P-0021 och Agnes P-0022 är fullkonsoliderade i T-0127. C-0917:s
+föräldradatum har rättats mot original: far 1850-03-18, mor 1863-06-24,
+vigsel 1885-06-19. Gravens 27 juni för modern är fortsatt avvikande.
+Agnes egen rad 4 har lysning nr 3 år 1913 och intern överföring till
+sida 162 den 1913-09-22; inget genomfört gifte kan härledas enbart därav.
+T-0250 äger Agnes fortsättning. T-0223 tillgodoräknar moderns och Agnes
+utvunna egna rader. Övriga barnnamn, datum och radbundna militära fält
+prövas i denna kohorts redan beslutade personomfång, utan att föräldrarnas
+eller Agnes händelser förs över. T-0251 äger moderns tillkommande fasta
+kopior; familjens andra öppnade målposter samordnas med T-0223.
+
+## Följdavstämning från T-0142 — Maj-Grete
+
+2026-09-08: hela P-0010 har lästs för anhörigföljd. Dess relation och
+familjebildens text överensstämmer redan med P-0014:s konsolidering.
+Maj-Gretes egna SCB-fält i C-0027 är personbundna; faderns 1923-flytt,
+yrke, skolbildning och inkomst överförs inte. Bildpositioner är fortsatt
+okända. Tillgodoräkna C-0027/C-0264:s nya personbundna tillägg vid denna
+kohorts fulla adoption; inga ändrade egna Bernhardfakta eller PK-omdömen
+har gjorts i T-0142. Tidigare oläst-/obelagtsformuleringar för faderns
+redan sparade senare belägg återstår i den fulla egna konsolideringen här.
+
+## Inkommen observation från T-0147, 2026-09-08
+
+Två fynd i `genealogy/people/P-0010-bernard-natanael-eliasson.md` som hör till
+denna kohort:
+
+- Avsnittet *Följdavstämning T-0121* saknar genomgående mellanslag mellan ord och
+  siffror: `målpost14har`, `född1886-04-19`, `dopanteckning1maj`,
+  `Johansson/22år`, `fadern36år`, `avskriftens30`. Det bryter mot aktstandardens
+  språkregel och ska putsas utan att röra råcitat eller id.
+- Relationstabellen använder sekundärträdets stavning `KATY Leonie Nilssoon` som
+  visningsnamn för P-0011, trots att A-0081 uttryckligen föredrar Riksarkivets
+  form `Nilsson`. Källvarianten bevaras i Namnformer, men visningsnamnet i
+  relationsraden ska följa hennes egen akt.
+
+## Återupptagning — avslutad
+
+- Uppdaterat: 2026-09-08, vid avslut.
+- Utfört: fyra akter, tre nya och en uppdaterad profil, sju citationstillägg,
+  batch 556, följduppgifterna T-0381–T-0384, observationer till T-0115 och T-0194.
+- Delvis utfört: inget.
+- Aktuella frågor och beroenden: levandefrågan för P-0296 delas med P-0297 och
+  P-0528 och bör avgöras gemensamt; fjorton akter med bruten påståendetabell
+  rättas i sina egna kohorter.
+- Nästa ej utförda steg: inget inom T-0151. Nästa kohort är T-0152.
+- Verifiering: se avsnittet ovan.
+- Hinder: inga.
+
+## Rapport från T-0176, 2026-09-09: Alma Viktorias två nollor är lästa och åldersförklarade
+
+Avgränsad anmälan från personaktsprogrammets kohort T-0176, som läste om de
+sparade helbilderna av C-0025 och C-0026 vid 250–350 % för syskonens skull.
+Ingen ny arkivpassage öppnades och ingen uppgift är förd in i P-0027.
+
+**Hennes frånvaro i folkräkningen 1900 är förklarad av bladets eget tryckta
+dokumenthuvud**, som daterar räkningen till `d. ³¹/₁₂ 1900`; hon föddes 1904.
+Frånvaron är förväntad och ingen svaghet i hennes identitet. Brodern Sven
+Assar Elias (P-0026), född 1901, delar den, och hans akt bär den nu som ett
+eget `NEGATIVE`-påstående, A-7700. De två är de enda av syskonen med bara
+**ett** Värsåsblad.
+
+**Hennes tomma cell i nattvardskolumnen 1910 är ett läst noll.** Bladet har
+en tryckt kolumn `Inom Sv. kyrkan begått nattv.` som är ifylld för samtliga
+hushållsmedlemmar från femtonåriga Rut 1895 och uppåt men saknas för henne,
+sex år, och för Sven Assar, nio år. Hennes tomhet är alltså **den nedre
+halvan av kolumnens interna ålderskontroll** och får inte skrivas som en
+outvunnen kolumn.
+
+**Och de två Värsåsbladen är inte självständiga** — båda bär tryckta
+dokumenthuvuden som gör dem utdrag ur samma församlingsbok. För henne betyder
+det att bladet 1910 är hennes enda Värsåskälla i mer än formell mening.
+Värsås ministerialböcker är den väg som ger henne en självständig röst;
+serien är **inte identifierad i projektet** och katalogfrågan delas med hela
+syskonskaran.
+
+Uppgifterna är utpekade, inte tillskrivna. Anmälan går även till T-0384, som
+äger hennes övriga läsosäkerheter i Skövde- och Tibrocitationerna.

@@ -1,0 +1,343 @@
+# T-0084: Kontraktsomprövning av djup 4-kohorten på Sverkers sida
+
+**Status**: ONGOING | **Size**: M
+**Phase**: DOING
+
+## Context och mandat
+
+Skapad genom **PCD-2026-09-06-003**, som verkställer rekommendationen i
+PCR-2026-09-06-004: **livsbildsskivan ska löpa parallellt med
+generationsskivan, inte efter den.**
+
+Lägesrevisionen visade att **villkor 2 i north star är den bindande
+grinden**, och inventeringen ger skälet i klartext: av de 32 personakter
+som har en kontraktsprofil är **7 GODKÄNDA — och samtliga sju är
+`INTEGRITETSMINIMERAD`**. Alla 25 övriga har `Livsbildsläge: PÅGÅR` och
+`Kontraktsgranskning: UNDERKÄND`. **Ingen avliden person i projektet har
+ännu passerat livsbildskravet.**
+
+North star är uttrycklig: *"Biografiska luckor får inte skjutas undan på
+obestämd tid av nya anor"* och *"Både träd och livsbilder ingår i varje
+våg"*. T-0083 pausas därför som READY med sin återupptagningspunkt intakt.
+
+## Scope
+
+Åtta personer, samtliga med `UNDERKÄND` kontraktsgranskning från
+2026-09-05, samtliga berörda av T-0081 och T-0082:
+
+**P-0009**, **P-0010**, **P-0015**, **P-0016**, **P-0028**, **P-0029**,
+**P-0048**, **P-0049**.
+
+För varje person:
+
+1. Uppdatera profilens **livsteman**, **söknycklar**, **forskningsfrågor**
+   och **källvägar** mot det material som tillkommit i batch 337–352.
+2. Gör om **kontraktsgranskningen PK-01–12** ärligt: en fråga som är
+   besvarad blir STYRKT, en som kvarstår blir EJ STYRKT med skäl.
+3. Sätt `Livsbildsläge` och `Kontraktsgranskning` efter utfallet, med nytt
+   granskningsdatum och granskningsbelägg.
+
+- Utanför: nya personer, djup 5 och 6, beställning, captcha, ArkivDigital,
+  PDF, publicering, commit/push utan ägarens beslut. Profiler för personer
+  utanför de åtta skapas inte här.
+
+## Acceptance Criteria
+
+- [ ] Alla åtta profiler är omprövade mot batch 337–352 och bär nytt
+      granskningsdatum.
+- [ ] Varje PK-krav har en motivering som pekar på belägg, inte på form.
+- [ ] `node scripts/research-inventory.mjs --write` visar det nya
+      granskningsläget, och andelen GODKÄNDA är mätt om.
+- [ ] En batchlogg per passage; kontrollerna passerar.
+
+## Verification
+
+Kontroller enligt `wotan/README.md` efter varje passage, samt
+`node scripts/research-inventory.mjs` för det omräknade granskningsläget.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-06 vid skapandet.
+- Nästa ej utförda steg: börja med **P-0016**, där avståndet till GODKÄND
+  är minst: granskningen 2026-09-05 fällde PK-03, PK-04, PK-08, PK-10 och
+  PK-12, alla bundna till Q-01 och Q-02. Sedan dess är maken identifierad
+  (Axel Vilhelm Ekholm, född 1878-02-17 i Åsbo, död 1913-03-11), hennes död
+  belagd (1964-03-15) och luckan 1900–1913 till stor del sluten.
+- Hinder: inga för denna uppgift. ALTCHA berör villkor 4, inte villkor 2.
+
+## Återupptagning — efter batch 353
+
+- Utfört: **P-0016 omprövad** mot batch 337–352. Q-02 FASTSTÄLLD, Q-01
+  STÖDD, ny Q-03 öppnad för 1938–1964. KP-01 och KP-02 avslutade med
+  positivt utfall; KP-03 (vigseln 1900–1906) och KP-04 (1938–1964) skrivna
+  som nya med arkivbildare, beroenden och återaktiveringsvillkor.
+- **Utfall: fem EJ STYRKT blir tre.** PK-04 och PK-10 → STYRKT. Profilen
+  förblir **UNDERKÄND**, vilket är rätt: KP-03 och KP-04:s fria del är
+  materiella och genomförbara.
+- Fyra teman flyttade: REL, BO och HAL till GENOMGÅNGET, SYN till
+  AVGRÄNSAT.
+- Strukturgrinden passerar; `research-inventory` visar oförändrat aggregat
+  (7 GODKÄNDA, 25 PÅGÅR), vilket är väntat efter en enda omprövad person.
+- **Nästa ej utförda steg:** **P-0009** och **P-0010**, där T-0081 gav mest
+  nytt — vigseln i Kristiania 1922 respektive gravnollan i Malmö och det
+  namngivna åtkomsthindret för döden 1978. Därefter P-0015, P-0028,
+  P-0029, P-0048, P-0049.
+- Schemanot: profilens fält är strikt validerade. Temarader kräver fyra
+  fält med bar bedömning ur `THEME_STATES`; PK-rader tre fält med bar
+  bedömning; frågeblock alla sju fälten med `Slutsatsläge` ur
+  `ÖPPEN|STÖDD|FASTSTÄLLD|OMSTRIDD|AVVISAD|OLÖST INOM PRÖVAT OMFÅNG`;
+  källvägsblock alla elva fälten, och `Föregående källvägar` utan avslutande
+  punkt.
+
+## Återupptagning — efter batch 354
+
+- Utfört: **P-0009** och **P-0010** omprövade.
+  - P-0009: Q-01 → **FASTSTÄLLD** (vigseln i Kristiania 1922), Q-02 →
+    **OLÖST INOM PRÖVAT OMFÅNG** med tre namngivna hinder, ny Q-03 för
+    1922–1961. Fyra källvägar, varav KP-03 norska källor är ny och positiv.
+    **Fem EJ STYRKT blir fyra**; PK-04 → STYRKT.
+  - P-0010: Q-01 och Q-02 → **FASTSTÄLLDA**, Q-03 omformad med namngivna
+    hinder och en omriktad KP-03 (sök bolaget, inte mannen). **Fyra EJ
+    STYRKT blir tre**; PK-08 → STYRKT.
+- Aggregat oförändrat: 7 GODKÄNDA, 25 PÅGÅR. Tre av åtta i uppgiftens
+  omfång är omprövade.
+- **Nästa ej utförda steg:** **P-0015 Axel Edvard Eriksson**, där T-0081 gav
+  JUDA-posten `HYLTINGE 1:1 DEL AV` och gravposten 1969-12-19, därefter
+  P-0028, P-0029, P-0048 och P-0049.
+
+## Återupptagning — efter batch 355
+
+- Utfört: **P-0015** omprövad. Döden belagd (1969-12-19), järnvägsmarken
+  identifierad (A-3622), och **det antagna andra äktenskapet 1917 omprövat
+  till en trolig felläsning** (A-3621) — folkräkningens fält anger
+  upplösningsår, och första hustrun dog 1917-05-01. Q-01 står som
+  **OMSTRIDD** med båda läsningarna bevarade. Ny KP-04 för bouppteckningen.
+  **Fem EJ STYRKT blir tre**; PK-04 och PK-08 → STYRKT.
+- Ställning efter fyra av åtta: P-0016 5→3, P-0009 5→4, P-0010 4→3,
+  P-0015 5→3. Aggregatet oförändrat 7 GODKÄNDA / 25 PÅGÅR.
+- **Nästa ej utförda steg:** **P-0028** och **P-0029**, paret Zingmark, där
+  T-0081 gav Ida Sofias dödsdag 1944-07-11, jordinnehavet ⅛ mtl nr 2 och
+  ¹¹/₆₄ mtl nr 1 samt Umeå stads inskrivningsdomararkiv. Därefter P-0048
+  och P-0049.
+
+## Återupptagning — efter batch 356
+
+- Utfört: **P-0029** och **P-0028** omprövade.
+  - P-0029: Q-01 → **FASTSTÄLLD**, ny Q-02 för jordinnehavet, fyra teman
+    till GENOMGÅNGET, biografin omskriven. **Fyra EJ STYRKT blir ett** —
+    elva av tolv krav styrkta.
+  - P-0028: Q-01 → **FASTSTÄLLD**, ny Q-03 för gården, biografin omskriven.
+    **Tre EJ STYRKT blir ett**; PK-08 och PK-10 → STYRKT.
+- **Ny källserie hittad vid omprövningen:** Umeå stadsförsamlings
+  fastighetslängder **`A II b` 1922–1946** är digitaliserade (batcherna
+  `00177469`, `00178889`, `00178891`, `00178895`, `00178897`) och olästa.
+  De gäller Ytterhiskegården, stadsägonummer 1258, och delas av makarna.
+  **Det är den enda kvarvarande genomförbara åtgärden för båda** och därför
+  det som håller PK-12 öppen.
+- Två åtkomstgränser fastställda: Umeå stadsförsamlings död- och
+  begravningsböcker 1930–1950 saknas bland de digitaliserade volymerna, och
+  bouppteckningsregistret för Västerbottens län ligger bakom ALTCHA.
+- Ställning efter sex av åtta: P-0016 5→3, P-0009 5→4, P-0010 4→3,
+  P-0015 5→3, P-0029 4→1, P-0028 3→1.
+- **Nästa ej utförda steg:** **P-0048** och **P-0049**, paret Andersson i
+  Jomark, och därefter en passage som läser `A II b` för Ytterhiske, vilket
+  skulle kunna föra P-0028 och P-0029 till GODKÄND.
+
+## Återupptagning — efter batch 357
+
+- Utfört: **hela `A II b`-serien kartlagd** — volymerna 1–14 är
+  digitaliserade, batchkartan står i S-0755, och uppslagens form är
+  fastställd (gårdsägare, hushåll med födelseort och civilstånd,
+  flyttanteckningar och **församlingsbokens sidnummer**).
+- **Ytterhiske ännu inte lokaliserat.** Innerstaden står under
+  kvartersnamn, ytterområdena under bara ett stadsägonummer; `A II b/12`
+  visar 1041–1057, och gårdens nummer **1258** ligger därför längre fram i
+  `A II b/12` eller i `A II b/13`. Routing, inte noll (C-0967).
+- KP-04 (P-0028) och KP-02 (P-0029) går från EJ UNDERSÖKT till **PÅBÖRJAD
+  ROUTING** med exakt nästa åtgärd.
+- **Nästa ej utförda steg:** slå upp **stadsäga 1258** i `00178896`:s
+  senare del och i `00178897`. Träffen skulle sannolikt föra både P-0028
+  och P-0029 till GODKÄND, eftersom PK-12 är deras enda kvarvarande
+  EJ STYRKT.
+- Därefter: **P-0048** och **P-0049**, de två sista profilerna i uppgiften.
+
+## Återupptagning — efter batch 358
+
+- Utfört: **rubrikmontage-tekniken** utvecklad och dokumenterad i
+  `method-riksarkivet.md` — sex uppslagsrubriker per skärmavtryck via
+  IIIF-regionhämtning. `pct:` ger `501`; använd absoluta pixlar ur
+  `info.json`.
+- **Ytterhiskes avdelning lokaliserad** till `A II b/13`, batch
+  `00178897`, uppslagen ~77–95. Femton rubriker lästa; stadsägorna 1265,
+  1270, 1274, 1276, 1282, 1304, 1307, 1333 och 1338 under `Ytterhiske`,
+  blandade med Sandaktern och Östermalm. **Numreringen är inte strikt
+  stigande**, så binärsökning på numret fungerar inte.
+- **1258 finns inte bland de lästa rubrikerna** — avgränsat noll för dessa
+  uppslag, inte för volymen (406 uppslag).
+- **Nästa ej utförda steg:** rubrikerna **91–130** i `00178897` med samma
+  teknik, därefter `A II b/12`:s senare del. Träffen skulle sannolikt föra
+  både P-0028 och P-0029 till GODKÄND.
+- Därefter: **P-0048** och **P-0049**, de två sista profilerna i uppgiften.
+
+## Återupptagning — efter batch 360
+
+- Utfört: **P-0048** och **P-0049** omprövade. Båda: fyra EJ STYRKT blir
+  ett. Hemmanet namngivet och mätt (**Jomark N:o 2, ⅛ → ¹⁄₁₆ mantal, 1942
+  ⁷/₁₆ mtl och tio hektar**), fyrtiotvå år på gården och utflyttningen till
+  **Burträsk 1946-11-16** belagd. Q-01 och Q-02 → STÖDD; PK-03, PK-08 och
+  PK-10 → STYRKT för båda.
+- **Uppgiftens omfång är genomgånget: alla åtta profiler är omprövade.**
+  Trettiofyra ej styrkta krav har blivit sjutton. Fyra profiler — P-0028,
+  P-0029, P-0048, P-0049 — står på ett enda kvarvarande krav.
+- **Aggregatet oförändrat: 7 GODKÄNDA, 25 PÅGÅR.** Ingen profil passerar så
+  länge en materiell genomförbar åtgärd återstår.
+- **Nästa ej utförda steg, i kostnadsordning:**
+  1. **Burträsks församlingsbok 1946–1948** — samma volymer som redan lästs
+     för P-0001; skulle sannolikt föra **P-0048 och P-0049 till GODKÄND**.
+  2. Svepning av `A II b/12`–`/13` efter gårdsägarnamnet **Zingmark**;
+     skulle sannolikt föra **P-0028 och P-0029 till GODKÄND**.
+  3. Matteus eller Adolf Fredriks vigselbok 1900–1906 för P-0016.
+- Uppgiften kan avslutas som DONE när dessa är gjorda, eller tidigare med
+  de fyra kvarvarande åtgärderna redovisade som nästa skiva.
+
+## Återupptagning — efter batch 361
+
+- Utfört: **Burträsks församlingsbok 1946–1948 är läst**, och P-0048 och
+  P-0049 är **GODKÄNDA**. Vägen gick via `B/6` inflyttningsbok 1946 nr 154
+  (uppslagshänvisning `5/I`) → `A II a/4 a` folio 5, rubriken **avs.
+  Gammelbyn 14¹⁸**, raderna 22–23 → `F/5` dödbok 1947 nr 59.
+  Nya poster: S-0756, S-0757, foliokartan i S-0701, C-0968, C-0969, C-0970,
+  påståendena A-3625–A-3632.
+- **Två fynd som ändrar bilden:** paret fick ett **eget uppslag** på
+  dotterns fastighet i stället för en rad på svärsonens folio 275 — därför
+  fanns de inte där; och **båda dödsdatumen står nu i församlingsbokens egen
+  dödskolumn** (1947-06-27 och 1948-12-21), inte bara i gravregistret.
+- **Namngivna hinder, inte uttömt sökande:** Anders Alfreds dödsorsak ligger
+  i `F/6` (1948–1986), som saknar bildlänk; `F/5` slutar i april 1948.
+  Bouppteckningen efter hustrun har fått en daterad ingång, `Bou. 47 ³/₉`,
+  men registret ligger bakom ALTCHA.
+- **Aggregatet rör sig för första gången för en avliden person: 7 → 9
+  GODKÄNDA, 25 → 23 PÅGÅR.** De sju tidigare godkända är alla levande och
+  integritetsminimerade; P-0048 och P-0049 är de **första avlidna som
+  passerar personkontraktet**.
+- Kontroller efter ändringen: `research-inventory --write` (strukturfel 0),
+  `validate-genealogy` (3110 påståenden, 2323 poster), `media-manifest
+  --check`, `goal-state` (registrerat gemensamt djup 5), `node --test
+  scripts/` 29/29, `git diff --check`.
+- **Nästa ej utförda steg, i kostnadsordning:**
+  1. Svepning av `00178897` uppslagen **91–130** efter gårdsägarnamnet
+     **Zingmark**; skulle sannolikt föra **P-0028 och P-0029 till GODKÄND**.
+  2. Matteus eller Adolf Fredriks vigselbok 1900–1906 för P-0016 (KP-03).
+  3. Flens församlingsbok 1938–1947 för P-0016 (KP-04, fri del).
+- Uppgiften kan avslutas som DONE när punkt 1 är gjord, eller tidigare med
+  de tre kvarvarande åtgärderna redovisade som nästa skiva.
+
+## Återupptagning — efter batch 362
+
+- Utfört: **Ytterhiskesvepningen i `A II b/13`**. Uppslagen 71–108 lästa
+  som rubrikmontage; Ytterhiskeblocket är uppslagen **77–102** och är
+  genomläst i sin helhet. **Ingen träff på stadsäga 1258 och inget
+  gårdsägarnamn Zingmark.** Ny post: C-0971, plus tillägg i S-0755.
+- **Två vägar uteslutna:** `A II b/12` slutar med kvarteren Tyr, Haga,
+  Uller, Urd och Utgård, inte i Ytterhiske; och `A II b/14` är ett
+  **gatunamnsregister från senare tid** utan hänvisning till uppslagen —
+  **serien har inget uppslagsregister**.
+- **P-0028 och P-0029 står kvar på PK-12**, men med skarpare
+  återaktiveringsvillkor: kontraktet prövas om när gårdens uppslag är funnet
+  eller när `A II b/13` uppslag 1–70 och volymerna 2–11 är genomgångna och
+  avslutade som avgränsat noll. Kostnaden är uppskattad till **cirka sextio
+  rubrikmontage** och bör vägas mot annan öppen forskning.
+- Aggregat oförändrat sedan batch 361: **9 GODKÄNDA, 23 PÅGÅR**.
+- Kontroller: `research-inventory --write` (strukturfel 0),
+  `validate-genealogy` (3110 påståenden, 2324 poster), `media-manifest
+  --check`, `git diff --check`.
+- **Nästa ej utförda steg, i kostnadsordning:**
+  1. Matteus eller Adolf Fredriks vigselbok 1900–1906 för P-0016 (KP-03).
+  2. Flens församlingsbok 1938–1947 för P-0016 (KP-04, fri del).
+  3. Den systematiska `A II b`-genomgången för P-0028/P-0029 — stor, och
+     lämpar sig bättre som egen avgränsad uppgift än som svans på denna.
+
+## Återupptagning — efter batch 363
+
+- Utfört: **P-0016:s Flenår 1933–1955**, KP-04:s boendedel. Vägen började i
+  en bild som redan låg speglad i repot: `C-0033`:s uppslag, Flens
+  `A II a/6 c` s. 932, där **moderns egen rad aldrig var utvunnen**. Den gav
+  inflyttningen 1933-04-24, överföringen `N.B. 744` och änkedatumet
+  `13 ¹¹/₃` med makens namn utskrivet.
+- **Identifikationen av Axel Vilhelm Ekholm är inte längre ett indicium.**
+  `Änka efter lok. eld. Ax. Vilh. Ekholm` med änkedatum 1913-03-11 står i
+  fyra Flenvolymer i följd. A-3633 ersätter treuppgiftsindiciet i A-3575.
+- Kedjan: s. 932 → fol 744 → fol 736 → fol 497 (1949-01-14) → fol 83 →
+  nya bokens fol 96 (1955). Sonen Axel Ivars familj flyttade in 1949 och
+  dottern Ingrid Amalias 1950 — de två barn som föddes i Matteus 1907 och
+  1910 bodde med modern igen fyrtio år senare.
+- **Serien slutar 1955.** Ingen `A II a/10`; batchnumren efter `00154012`
+  svarar inte. Åren 1955–1964 är hinderbundna.
+- Nya poster: S-0758, C-0972, C-0973, påståendena A-3633–A-3644.
+- **P-0016 går från tre EJ STYRKT till två.** Q-03 stängs som STÖDD, PK-03
+  har en enda kvarvarande lucka. **Hela kontraktet står nu på vigseln
+  1900–1906.**
+- Aggregat oförändrat: **9 GODKÄNDA, 23 PÅGÅR**.
+- Kontroller: `research-inventory --write` (strukturfel 0),
+  `validate-genealogy` (3122 påståenden, 2327 poster), `media-manifest
+  --write` + `--check`, `node --test scripts/` 29/29, `git diff --check`.
+- **Nästa ej utförda steg:**
+  1. **Vigseln 1900–1906** — Matteus `C I/1` (`00050993`) posterna 183–870
+     efter sonens födelse 1907-03-09, och Adolf Fredriks vigselbok
+     1900–1906. Det är den **enda** kvarvarande materiella åtgärden för
+     P-0016 och skulle sannolikt föra profilen till GODKÄND.
+  2. Den systematiska `A II b`-genomgången för P-0028/P-0029 (stor; egen
+     uppgift).
+
+## Avslut — 2026-09-06
+
+**Uppgiftens omfång är utfört.** Samtliga åtta profiler i djup 4-kohorten på
+Sverkers sida är omprövade, sex av dem två gånger, och de billigaste
+återstående åtgärderna är utförda eller kostnadsbestämda.
+
+| Profil | 2026-09-05 | Efter batch 360 | Vid avslut |
+|---|---|---|---|
+| P-0016 | 5 EJ STYRKT | 3 | **2** |
+| P-0009 | 5 | 4 | 4 |
+| P-0010 | 4 | 3 | 3 |
+| P-0015 | 5 | 3 | 3 |
+| P-0028 | 3 | 1 | 1 |
+| P-0029 | 4 | 1 | 1 |
+| P-0048 | 4 | 1 | **0 — GODKÄND** |
+| P-0049 | 4 | 1 | **0 — GODKÄND** |
+
+**Trettiofyra ej styrkta krav har blivit nio**, och **aggregatet har rört sig
+för första gången för en avliden person: 7 → 9 GODKÄNDA, 25 → 23 PÅGÅR.**
+De sju tidigare godkända är alla levande och integritetsminimerade;
+**P-0048 och P-0049 är projektets första avlidna som uppfyller
+livsbildskravet i north star, villkor 2.**
+
+**Vad som gjordes utöver omprövningarna:** Burträsks inflyttningsbok,
+församlingsbok och dödbok 1946–1948 (batch 361), Ytterhiskeblocket i Umeås
+fastighetslängder (batch 362), Flens församlingsböcker 1933–1955 (batch 363)
+och kartläggningen av Matteus vigselbok (batch 364). Nya poster: S-0756,
+S-0757, S-0758, S-0759, C-0968–C-0974, foliokartor i S-0701 och S-0755,
+påståendena A-3625–A-3644.
+
+**Vad som lämnas kvar, med namn och kostnad:**
+
+1. **Vigseln 1900–1906 för P-0016** — Matteus `E II/1` bilderna 5–15 plus
+   januari–mars 1907, därefter Adolf Fredriks vigselbok, och som tredje
+   ingång rote 27. Genomförbart utan hinder. Skulle sannolikt föra P-0016
+   till GODKÄND.
+2. **Umeås fastighetslängder `A II b` för P-0028 och P-0029** — `A II b/13`
+   uppslagen 1–70 och volymerna 2–11, cirka sextio rubrikmontage.
+   Genomförbart utan hinder. Skulle sannolikt föra båda till GODKÄND.
+3. **P-0009, P-0010 och P-0015** står på tre till fyra krav var och kräver
+   nya läsningar som inte ryms här.
+
+Alla tre är för stora för svansen på denna uppgift och hör hemma i egna
+avgränsade uppgifter, i enlighet med AGENTS.md:s krav att splittra hellre än
+att låta en uppgift växa obegränsat.
+
+**Verifiering vid avslut:** `node scripts/research-inventory.mjs --write`
+(strukturfel 0; 9 GODKÄNDA, 23 PÅGÅR, 503 utan profil),
+`node scripts/validate-genealogy.mjs` (3122 påståenden, 2329 poster, 4836
+mediafiler, Wotan JSON giltig), `node scripts/media-manifest.mjs --check`,
+`node scripts/goal-state.mjs` (registrerat gemensamt djup 5),
+`node --test scripts/` 29/29, `git diff --check`.

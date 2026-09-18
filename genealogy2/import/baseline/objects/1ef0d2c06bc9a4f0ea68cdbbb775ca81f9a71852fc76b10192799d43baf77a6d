@@ -1,0 +1,30 @@
+# T-0296: Återställ Hullsjöns tidigare lästa förberedelsebilder
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+PCD-2026-09-07-026; avgränsad följd från T-0136 efter programmet.
+
+## Scope
+
+P-0447/P-0448, PK-11: återställ exakt 22 tidigare lästa titel-/registerbilder, AI/8 C0033554_00003–00013 och AI/9 C0033555_00002–00012. Pröva befintliga alias och metadata först; bevara läsbara fulla uppslag och SHA. C-1024:s vigselbild ägs redan av T-0242 och dupliceras inte. Inga nya personuppslag.
+
+## Acceptance Criteria
+
+- Fasta passager får positivt, avgränsat negativt eller olöst utfall.
+- Hela relevanta egna poster utvinns; oläsliga tecken reserveras.
+- Exakta referenser, läsbara kopior och hashes bevaras. Åtkomstfel är inget personresultat.
+- Båda kontraktsnivåerna och berörda anhöriga avstäms. Beslutat ytterligare arbete får egen ändlig uppgift.
+- Oberoende sakläsning och relevanta validator-, format-, inventerings-, test-, media- och diffkontroller passerar.
+
+## Approach
+
+Läs T-0136 och aktuella akter/profiler. Följ Riksarkivets åtkomstordning.
+Ingen ArkivDigital, beställning, kontakt, publicering, PDF-skapande,
+dashboarduppdatering eller commit/push. DONE gäller endast fast omfång.
+
+## Återupptagning
+
+2026-09-08: registrerad, ingen ny arkivpassage utförd. Nästa ej utförda
+steg är första fasta kontroll efter T-0136/T-0115. Logga passagen en gång.

@@ -1,0 +1,84 @@
+# T-0068: Inför personkontraktet i djup 4-kohorten, sexton personer på båda sidor
+
+**Status**: DONE | **Size**: L
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-05-013, programmets kohortregel (research-plan.md) och T-0063:s
+utfallsbedömning (batch 292). Nästa ändliga införandegrupp är djup 4
+räknat från sönerna: åtta personer per sida. Läs wotan/README.md,
+research-plan, person-contract, source-strategy och T-0063 som förebild.
+
+## Scope och befintligt underlag
+
+- Personer: Sverkers sida P-0028, P-0029, P-0048, P-0049, P-0009, P-0010,
+  P-0015, P-0016; Kristinas sida P-0275, P-0287, P-0242, P-0243, P-0253,
+  P-0247, P-0254, P-0255. Bekräfta kohorten mot goal-state --json vid start.
+- Utgångsläge: alla har äldre GRANSKAD/KLAR från T-0022/T-0023 och saknar
+  profil. Samma metod som T-0063: individuell profil ur befintligt underlag,
+  tio teman, PK-01–12, konkreta KP-vägar, tidslinje och sammanfattning i
+  akten, Källbredd omprövad där genomförbara vägar finns.
+- Utanför: ny extern forskning, djup 5+, nya släktkanter, sidopersoner
+  utanför de sexton (de grupperas i utfallsbedömningen), PDF, commit/push.
+- Beroenden: T-0065, T-0066, T-0067 enligt närhetsregeln; kan omprövas av
+  Project Control om dessa blockeras externt.
+
+## Acceptance Criteria
+
+- [x] Sexton individuella profiler med motiverade teman, frågor och källvägar;
+  ingen GODKÄND utan sakligt stöd.
+- [x] Tidslinje och sammanfattning i varje akt; Källbredd omprövad med historik.
+- [x] Nya närmare behov får avgränsade tasks; nästa införandegrupp (djup 5)
+  och sidopersonsgrupper beslutade i utfallsbedömningen.
+- [x] Batchlogg, inventering och kontroller enligt wotan/README.md.
+
+## Approach
+
+Två hushållspar åt gången, balanserat. Återanvänd T-0063:s profilstruktur.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-05 vid registrering.
+- Utfört: inget.
+- Nästa ej utförda steg: efter föregångarna, läs inventeringen och börja med
+  P-0028/P-0029 och P-0275/P-0287.
+- Hinder: föregångarna T-0065–T-0067 (ordningsberoende).
+
+## Verification
+
+Som T-0063.
+
+## Outcome
+
+DONE 2026-09-05. Sexton profiler för djup 4 (åtta per sida), alla PRÖVAT/
+PÅGÅR/UNDERKÄND med daterad PK-01–12-tabell, tidslinje, sammanfattning och
+konkreta källvägar; sexton äldre KLAR omprövade till PÅGÅR med historik.
+Inga identiteter, relationer eller observationer ändrade. Följdarbete:
+T-0069 (fritt svep djup 2–4) READY, T-0070 (djup 5-införande) efter T-0069.
+Kohorten är införd och luckplanerad, inte färdigforskad.
+
+## Verification Evidence
+
+- `node scripts/research-inventory.mjs --write/--check`: 528 akter, 32
+  profiler, 7 GODKÄND, 0 strukturfel efter rättelse av tio temaceller utan
+  källhänvisning, en felstavad citationslänk (C-0395) och batchankaret.
+- Validator, `node --test scripts/`, media-manifest och `git diff --check`:
+  se batch 297 och slutkörningen nedan.
+- Sakgranskning: varje profil lästes mot aktens påståenden; GODKÄND gavs
+  ingen; OWNER_CONFIRMED oförändrat.
+
+## Återupptagning — slutläge
+
+- Uppdaterat: 2026-09-05 vid DONE.
+- Nästa ej utförda steg i uppgiften: inget. Kön fortsätter med T-0069.
+- Hinder: inga.
+
+## Återupptagning — start 2026-09-05 enligt PCD-2026-09-05-018
+
+- Beroendet ändrat till enbart T-0063: T-0065–T-0067 är externt blockerade
+  (inloggad bildåtkomst), och detta införande är lokalt arbete utan
+  källpassager. När åtkomsten finns återupptas T-0064–T-0066 före T-0068:s
+  följdarbete.
+- Nästa ej utförda steg: bekräfta kohorten mot goal-state, läs de sexton
+  akterna, skriv profiler parvis per sida med samma struktur som T-0063.

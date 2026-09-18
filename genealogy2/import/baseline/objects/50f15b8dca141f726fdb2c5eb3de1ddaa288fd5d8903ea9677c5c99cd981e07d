@@ -1,0 +1,120 @@
+# T-0003: Verify Arne Godvig Jansson and his wife
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+The user identified paternal grandfather Arne Godvig Jansson, born 1915-02-21,
+and paternal grandmother Maj Amalia Ekholm, born 1920-05-11. Primary records
+now establish both births, Arne's maternal line, Maj's parents, childhood
+households and the exact marriage. The remaining historical-evidence gap is
+the user's high-confidence statement that Bernhard Natanael Eliasson was
+Arne's father; likely-living descendant links remain deliberately minimal.
+
+## Acceptance Criteria
+
+- [x] Establish Arne Godvig Jansson's complete identity from cited records.
+- [x] Establish his wife's complete identity from cited records.
+- [x] Verify both birth events, parents, childhood households, and marriage.
+- [x] Preserve exact source provenance and resolve discrepancies.
+
+## Approach
+
+Obtain a complete seed fact or reliable source lead, then work backward from a
+known event while avoiding same-name conflation.
+
+## Log
+
+- 2026-08-19: Task created and blocked pending a sufficiently complete seed.
+- 2026-08-19: User supplied Arne's date of birth as 1915-02-21 and May's as
+  1920-05-11. Created source/citation records and a provisional P-0007 for May.
+  Task moved to READY; birthplaces and May's full name remain unknown but no
+  longer prevent an initial targeted search.
+- 2026-08-19: Riksarkivet 1930 census yielded a unique Arne Godvig Jansson in
+  Flen (Folk_129814120), a polisher at Björkhem no. 1, recorded as a daughter's
+  son. The linked image B0001059_00329 requires login and remains pending.
+- 2026-08-19: Located and saved Arne's original birth entry in Flen C/8,
+  00154051_00185, page 181, entry 10. The father field is blank and the record
+  labels the birth with the historical term `oäkta`. The first reading of the
+  mother as Ottilia, born 1886-08-08, was later retracted.
+- 2026-08-19: Investigated Ottilia Albertina Vilhelmina Jansson in the 1910
+  census and saved Folk_104084-013. This is now a documented negative control,
+  not Arne's maternal line.
+- 2026-08-19: Corrected the mother to Ada Wilhelmina Jansson. The 1910 Flen
+  census places her with Karl Fredrik Jansson and Charlotta Wilhelmina Larsson,
+  the same couple whose household lists Arne as a daughter's son in 1930.
+- 2026-08-19: Followed Ada in 1890, 1900 and 1910 and saved all three census
+  images with checksums. Her SCB birth extract, A0037287_00190, verifies birth
+  on 1886-08-19 in Lerbo and names the parents. Saved the 5152x3144 image.
+- 2026-08-19: Located the church original in Lerbo C/8, F0003287_00069,
+  entry 20. It confirms birth, parents and Gånga residence and adds baptism on
+  1886-09-12. Saved the full 7328x5568 image with checksum.
+- 2026-08-19: Ancestry supplied secondary leads: May Amalia Ekholm (1920-2006),
+  Bernard Natanael Eliasson as possible father, and Arne's 1993 death. All are
+  retained as leads pending primary evidence.
+- 2026-08-19: Located a strong 1930 candidate for May: Maj Amalia Eriksson,
+  born 1920 in Hyltinge, in family no. 2 with Hulda Amalia Ekholm Ålund. The
+  1920 SCB image A0031513_00232 and census image B0001059_00038 both require a
+  free Riksarkivet login. Verification target is the user-supplied date
+  1920-05-11.
+- 2026-08-19: Repository integrity checkpoint passed: Wotan backlog parses as
+  valid JSON, all relative Markdown links resolve, and SHA-256 checksums were
+  recomputed for the ten preserved source images. The directory is not yet a
+  Git repository, so no Git diff check is available.
+- 2026-08-19: After login, downloaded Hyltinge birth images 232 and 233. The
+  continuation page contains entry 15, Maj Amalia, born 1920-05-11, naming
+  Axel Edvard Eriksson and Hulda Amalia Ekholm née Ålund. Downloaded the 1930
+  household image and created records for every named relative in both family
+  groups.
+- 2026-08-19: Downloaded Arne's pending 1930 household image. It confirms the
+  indexed relationship to his maternal grandparents.
+- 2026-08-19: Recorded the user's MyHeritage extract for Bernhard and every
+  listed spouse/child, preserving the private child as private. Riksarkivet
+  then verified Bernhard's 1886-04-19 birth, parents, seven-child childhood
+  household, occupations, and his 1930 Limhamn household with Katy, Lucy and
+  Maj-Grete. Saved six additional source images. Bernhard's identity is now
+  verified; his paternity of Arne is not, because Arne's birth record leaves
+  the father blank.
+- 2026-08-19: Located Maj's church original in Hyltinge C/8, page 34, image
+  00154522_00037, entry 15. It confirms all SCB birth details and adds baptism
+  on 1921-01-13. Saved the 5711x4065 original image with checksum.
+- 2026-08-19: Preserved the user's explicit family assertion that Bernhard was
+  Arne's father as S/C-0025/0029. This raises the relation from a generic lead
+  to a high-confidence family statement while keeping the historical-proof
+  question open.
+- 2026-08-19: Followed Arne through Flen A II a/6 b–c, pages 563, 948 and
+  1084. The last page cross-references Maj Amalia Ekholm and lysning 16/1938.
+- 2026-08-19: Located Maj at Lyckedal, page 932. Her row gives marriage on
+  1938-05-15 and states that Axel Edvard Eriksson acknowledged paternity.
+- 2026-08-19: Located Flen E I/4, page 14, entry 16. It confirms the couple's
+  exact names and birth dates, banns on 1, 8 and 15 May, and marriage on
+  1938-05-15. Saved all four full-resolution church-book images.
+- 2026-08-19: Corrected Ada's 1911 destination after image enlargement:
+  Flen B/5 b entry 118 says Floda, not the initially tested Årdala or Solna.
+  Floda B/5 entry 138 and A II a/8 page 609 form a continuous chain to Ada as
+  an unmarried service girl at Ökna säteri. Saved both exact images and kept
+  the Årdala page as a documented negative control.
+- 2026-08-19: Re-read Arne's 1915 birth entry. It identifies Ada with Ökna in
+  Floda and says the delivery occurred in Flen, but still names no father.
+  Ökna pages 608–611 contain no Bernhard. An initial Värsås parish-book and
+  moving-register search did not yet establish his location in 1914–1915.
+
+## Verification
+
+Arne's identity, birth, maternal identity, 1930 household and exact marriage
+are verified. Maj's identity, birth, parents, 1930 household and exact marriage
+are verified. Axel's acknowledged paternity of Maj is explicit. Bernhard's
+identity and family are independently verified and the user supplies a strong
+family-provenance statement of paternity, but the searched contemporary church
+records do not prove that relationship.
+
+## Outcome
+
+Completed with 39 citation records in the repository at this checkpoint. Arne
+and Maj are uniquely identified and their 1938-05-15 marriage is verified in
+three mutually linking church-book entries. Maj's two parents and Arne's mother
+are primary-record verified. Bernhard's identity is independently verified and
+his paternity is preserved as a high-confidence family assertion, not silently
+promoted to historical proof. The unresolved search for a contemporary
+filiation record is intentionally continued as T-0010 rather than holding this
+identity-and-marriage task open indefinitely.

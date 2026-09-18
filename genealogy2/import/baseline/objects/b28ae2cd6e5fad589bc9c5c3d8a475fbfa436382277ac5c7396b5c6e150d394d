@@ -1,0 +1,77 @@
+# T-0041: Treat the first balanced depth-7 archive-front slice
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+T-0040 completed shared depth 6. `PCR-2026-09-04-013` and delegated owner
+decision `PCD-2026-09-04-015` select the first balanced depth-7 slice:
+
+- Sverker: P-0149 Anna Catharina Andersdotter, P-0160 Jakob Isaksson in
+  Ultervattnet, P-0161 Anna Stina Andersdotter in Ultervattnet and P-0162
+  Olof Larsson in Storbäcken.
+- Kristina: P-0417 Olof Stefansson, P-0418 Sigrid Jonsdotter, P-0502 Lars
+  Larsson in Gårdtjärn and P-0503 Anna Jonsdotter in Gårdtjärn.
+
+New parents may be registered as minimal depth-8 people but are not
+researched further. T-0034 remains a separate parked living-person
+corroboration pass.
+
+## Acceptance Criteria
+
+- [x] Each fixed person has verified parent relation(s) or a valid
+  `## Slutstatus` with reproducible scope and exact reactivation condition.
+- [x] No uncertain identity or relation propagates.
+- [x] New depth-8 parents remain minimal and unresearched in this task.
+- [x] All eight dossiers are `GRANSKAD`, `Källbredd: KLAR` and have no
+  priority-1 source-family cell.
+- [x] The target-front delta is visible in `goal-state`, with unchanged
+  positions explained by an exact blocker.
+- [x] One research-log batch, standard validators, tests, media check,
+  dashboard build and balanced audit are complete.
+
+## Approach
+
+Audit existing evidence and no-repeat controls before opening any source.
+Alternate branches, prefer the nearest parent-bearing original and stop at a
+reproducible archive front when the available identity key cannot safely
+reach the parent generation.
+
+## Log
+
+- 2026-09-04: Created and started from the verified post-T-0040 goal-state.
+- 2026-09-04: Read the complete Umeå C/2 birth year 1783 and the complete
+  Bygdeå A I/6 Ultervattnet section. Both yielded reproducible negative
+  controls without candidate propagation.
+- 2026-09-04: Located the target families in Stöde A I/5 page 159 and
+  Burträsk A I/5 page 160. The households corroborate identity but name no
+  parents. Read the complete Sättna A I/4 Gårdtjärn section without a secure
+  target row.
+- 2026-09-04: Consolidated all eight dossiers and source-family rows as
+  `GRANSKAD`/`KLAR`; batch 266 is the sole research-log entry.
+
+## Verification
+
+`node scripts/goal-state.mjs` shows the fixed delta at depth 7: reviewed
+people rise from 2 to 10, coverage-ready people from 0 to 8 and invalid
+fronts fall from 41 to 33. No depth-8 parent was created.
+
+`node scripts/validate-genealogy.mjs` passes with 2,731 assertions, 2,072
+Markdown records and 4,480 media files including `.gitkeep`.
+`node scripts/verify-pedigree.mjs` passes with 87 independently reviewed
+ancestors. All 11 script tests pass. The media manifest passes with 4,479
+substantive files: 2,603 exact, 1,848 source-scoped and 28 citation-scoped,
+none unlinked. Dashboard test and production build pass with 518 people,
+2,731 assertions and 547 parent links.
+
+The two depth-6 bounded ancestor audits remain non-zero because later
+depth-7 fronts are deliberately outside this fixed slice; all eight T-0041
+targets are explicitly reported with valid `IDENTITET OLÖST` terminals.
+`git diff --check` passes.
+
+## Outcome
+
+Completed as research-log batch 266. The task preserved complete Umeå,
+Ultervattnet and Gårdtjärn controls plus positive Hullsjö and Storbäcken
+households. All eight target fronts are now reproducible and coverage-ready;
+no uncertain person or parent relation was propagated.

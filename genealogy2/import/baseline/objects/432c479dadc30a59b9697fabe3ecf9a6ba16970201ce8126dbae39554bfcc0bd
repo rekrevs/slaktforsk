@@ -1,0 +1,57 @@
+# T-0488: Nysätras husförhörslängd efter A I/9a — Nils Anderssons familj
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0167 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+P-0236 Nils Andersson, född 1823-10-05, med hustrun Johanna Carlsdotter och
+barnen Anders 1857-04-17 och Magdal. Johanna 1858-12-31.
+
+**Utgångsläget.** I Nysätra A I/9a sida 85 är hans och hustruns rader
+överstrukna **utan uppgift i `Hvarthän.`**, som är läst och tom, medan
+barnraderna inte är överstrukna. Systerns överstrukna rad i föregående längd
+bär ett uttryckligt dödsmärke och moderns bär `död ²³/₄ 1862`; att hans rad
+saknar båda är ett argument för att familjen fortsätter i nästa längd. Efter
+1861 är han helt okänd, 38 år gammal.
+
+**Passagen.** Nysätras husförhörslängd efter A I/9a, Risvattnet nr 3 och den
+sida familjen förs till. Fastställ volymens signum först — det är en
+katalogfråga. Läs familjens rader fullständigt med kolumnredovisning: hans
+ståndsbeteckning som vuxen, hustruns och barnens fortsättning, eventuella nya
+barn, dödsfall och flyttningar. Om familjen inte finns där, pröva Nysätras
+flyttningslängd för åren närmast efter 1861 och redovisa nollet med exakt
+omfång.
+
+Utanför: vigselboken 1856 och de fyra dopnotiserna (T-0487), föräldrarnas
+egna passager, nya generationer och varje identitetssammanslagning utan
+original.
+
+## Acceptance Criteria
+
+- Passagen har positivt, exakt negativt eller olöst utfall med angiven volym,
+  sida, bildintervall och läsdatum.
+- Hela familjens rader utvinns med kolumnredovisning, sparad kopia och hash.
+- P-0236:s akt, profil, tio teman och båda kontraktsnivåerna avstäms.
+  **Q-01 avgörs eller preciseras.** Hustru och barn får egna person-id först
+  när ett belägg bär det.
+- Identitetsnivån prövas om ifall raden `Nils Andersson` följs upp av en annan
+  person eller familjen delas.
+- En batchlogg; format-, validator-, inventerings-, test- och mediekontroller
+  passerar.
+
+## Approach
+
+Läs P-0236:s profil och C-0196:s tillägg T-0167 först. Fastställ volymsignum
+via Riksarkivets arkivförteckning innan bildläsning. Inga beställningar,
+kontakter, dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0167:s granskningsutfall.
+- Nästa ej utförda steg: fastställ volymsignum för längden efter A I/9a.
+- Hinder: BLOCKED bakom T-0115.

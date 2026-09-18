@@ -1,0 +1,55 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import {DatabaseSync} from 'node:sqlite';
+import {snapshot,verifySource,sha,canonical} from '../lib/archive.mjs';
+import {extract,cells} from '../lib/extract.mjs';
+import {openDB,importBaseline,exportData,restore,verifyDB,backupDB,search} from '../lib/store.mjs';
+
+const dossier='# P-0001: Åsa\n\n## Påståenden\n\n| ID | Påstående | Status | Tillförlitlighet | Belägg | Kommentar |\n|---|---|---|---|---|---|\n| A-0001 | född 1900; `a|b` | TRANSCRIBED | hög | [C-0001](../citations/C-0001.md) | 27/28; ingen läsning väljs. |\n\n## Historik och rättelser\n\n> | A-0001 | gammal felaktig text |\n\n```md\n| A-0099 | exempel |\n```\n';
+test('exakta UTF-8-spann och citerad historik; bevarade Markdown-celler',()=> {
+  const e=extract({path:'genealogy/people/P-0001-asa.md',sha256:sha(dossier)},dossier);
+  assert.equal(e.units.filter(u=>u.kind==='assertion').length,1);
+  for(const u of e.units)assert.equal(Buffer.from(dossier).subarray(u.start_byte,u.end_byte).toString(),u.raw);
+  assert.deepEqual(cells('| Åsa \\| B | `x|y` | z |'),['Åsa \\| B','`x|y`','z']);
+});
+
+test('förlustfri import, atomärt avbrott, omimport, drift, backup och export/restore',async t=> {
+  const dir=fs.mkdtempSync(path.join(os.tmpdir(),'genealogy2-test-'));
+  t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
+  for(const sub of ['people','citations','research-profiles','media'])fs.mkdirSync(path.join(dir,'genealogy',sub),{recursive:true});
+  const original=path.join(dir,'genealogy/people/P-0001-asa.md');
+  fs.writeFileSync(original,dossier);
+  fs.writeFileSync(path.join(dir,'genealogy/citations/C-0001.md'),'# C-0001: Källa\n\n## Avskrift\n\n27/28[?]\n');
+  fs.writeFileSync(path.join(dir,'genealogy/research-profiles/P-0001.md'),'# Profil\n\n## Frågor\n\n### Q-01: Vilken ålder?\n\n- Slutsatsläge: ÖPPEN\n');
+  fs.writeFileSync(path.join(dir,'genealogy/media/bild.jpg'),Buffer.from([0,255,2,3]));
+  const base=path.join(dir,'baseline');await snapshot(dir,base);
+  const db=openDB(path.join(dir,'test.sqlite'),{create:true});t.after(()=>db.close());
+  assert.throws(()=>importBaseline(db,base,{failAfter:2}),/avbrott/);
+  assert.equal(db.prepare('SELECT count(*) n FROM document').get().n,0);
+  assert.equal(db.prepare('SELECT count(*) n FROM import_batch').get().n,0);
+  const imported=importBaseline(db,base);
+  assert.equal(imported.assertions,1);assert.equal(imported.assets,1);
+  assert.equal(db.prepare("SELECT legacy_id FROM unit WHERE kind='question'").get().legacy_id,'P-0001/Q-01');
+  assert.equal(search(db,'Åsa').length,1);
+  assert.equal(verifyDB(db).ok,true);
+  const before=canonical(exportData(db));
+  assert.equal(importBaseline(db,base).unchanged,true);
+  assert.equal(canonical(exportData(db)),before);
+  assert.throws(()=>db.exec("UPDATE document SET text='tyst rättelse'"),/oföränderligt/);
+  assert.throws(()=>db.exec('DELETE FROM unit'),/oföränderligt/);
+  assert.equal((await verifySource(dir,base)).ok,true);
+  fs.appendFileSync(original,'Förändring\n');
+  assert.equal((await verifySource(dir,base)).ok,false);
+  const changedBase=path.join(dir,'changed');await snapshot(dir,changedBase);
+  assert.throws(()=>importBaseline(db,changedBase),/skillnadsimport/);
+  const restored=path.join(dir,'restored.sqlite');restore(exportData(db),restored);
+  const other=openDB(restored);assert.equal(canonical(exportData(other)),before);other.close();
+  const copy=path.join(dir,'backup.sqlite');await backupDB(db,copy);
+  const backupCopy=openDB(copy);assert.equal(canonical(exportData(backupCopy)),before);backupCopy.close();
+  assert.throws(()=>restore(exportData(db),restored),/ny databasfil/);
+  const unknown=path.join(dir,'unknown.sqlite');const x=new DatabaseSync(unknown);x.exec('PRAGMA user_version=999');x.close();
+  assert.throws(()=>openDB(unknown),/Okänd schemaversion/);
+});

@@ -1,0 +1,130 @@
+{
+  "task": "T-0658",
+  "people": 50,
+  "documents": 100,
+  "assertions": 699,
+  "relationRows": 446,
+  "operations": [
+    {
+      "id": "T-0658/persons-07-v1",
+      "request_hash": "bae3c91d437bcaaf96216b52eb7a36709869054f55deee91088b45c68526d228"
+    },
+    {
+      "id": "T-0658/review-v1",
+      "request_hash": "47c511baa1ef5b2852c9355c762eea1de2603ebf514524e52814c0360e4e850c"
+    },
+    {
+      "id": "T-0658/source-precision-review-v1",
+      "request_hash": "a143c59bf7721299c0d4d251f1b239373bf24fa79a64c04bbdf4b02cdaa6f4ad"
+    },
+    {
+      "id": "T-0658/source-precision-v1",
+      "request_hash": "ed1b9b3960d35e25f0c77a1274c8022276c0e33e526136af624a68bd661bef7d"
+    }
+  ],
+  "reviews": {
+    "a": "b582d9bc78e9d4a4e7850a974192bfe6f3af256e32d3da633b23d2d61b69489c",
+    "b": "4cd9b731e0f3eb59fe010c9074d4365a8e6abf7697b6b3cc6faae67feab50271",
+    "c": "6095fd76c1bd4108c4495caef40517cfdcac0d5a082e4b843aa0c9083a9eff14",
+    "d": "3229f0c5e231a7c60931566e426d6ae240779b1b0e74b3080ee3d97f5b6028d7"
+  },
+  "changes": 3944,
+  "spans": 728,
+  "decisions": {
+    "mapped_complete": 3026,
+    "pending_interpretation": 70,
+    "preserved_history": 61,
+    "preserved_text": 2870
+  },
+  "prior": {
+    "unchangedPriorRows": {
+      "meta": 1,
+      "import_batch": 1,
+      "document": 3717,
+      "asset": 5067,
+      "legacy_entity": 2992,
+      "unit": 97047,
+      "legacy_assertion": 5130,
+      "operation": 32,
+      "object": 27255,
+      "revision": 27608,
+      "origin": 56975,
+      "dependency": 19933,
+      "review_request": 81,
+      "review_resolution": 81,
+      "person": 829,
+      "source": 827,
+      "record": 1965,
+      "record_asset": 1447,
+      "transcription": 847,
+      "mention": 1250,
+      "observation": 1900,
+      "identity": 914,
+      "identity_resolution": 8,
+      "place": 21,
+      "event": 814,
+      "participation": 1378,
+      "relation": 1081,
+      "fact": 2072,
+      "question": 716,
+      "search": 247,
+      "assessment": 12437,
+      "narrative": 302,
+      "legacy_mapping": 539,
+      "native_asset": 0,
+      "record_media": 0,
+      "operation_payload": 31,
+      "unit_decision": 60480,
+      "unit_decision_target": 41619
+    },
+    "priorDigest": "d62ca21e1d4f14153cf63f306bbe17734e1d154b0134c998338e6986f0ceae5d"
+  },
+  "replay": {
+    "applied": 2,
+    "entries": 33
+  },
+  "results": [
+    {
+      "path": "genealogy2/data/research.sqlite",
+      "digest": "7652c0944cffa43e09472ec965575a32382ea6b9eec0d2ec73716d10ed8c23d0",
+      "verification": {
+        "ok": true,
+        "errors": []
+      },
+      "riskChecks": {
+        "groups": 20,
+        "ok": true
+      },
+      "pending": 0
+    },
+    {
+      "path": "genealogy2/verification/T-0644-restored-root/genealogy2/data/research.sqlite",
+      "digest": "7652c0944cffa43e09472ec965575a32382ea6b9eec0d2ec73716d10ed8c23d0",
+      "verification": {
+        "ok": true,
+        "errors": []
+      },
+      "riskChecks": {
+        "groups": 20,
+        "ok": true
+      },
+      "pending": 0
+    }
+  ],
+  "verification": {
+    "existingModelTests": 77,
+    "newFullCohortTest": 1,
+    "riskGroups": 20,
+    "legacyTests": 67,
+    "sourceCheck": {
+      "ok": true,
+      "mediaVerified": true,
+      "problems": []
+    },
+    "assetCheck": {
+      "ok": true,
+      "errors": []
+    },
+    "fullCohortTestLog": "/private/tmp/genealogy2-T0658-cohort-test.log"
+  }
+}

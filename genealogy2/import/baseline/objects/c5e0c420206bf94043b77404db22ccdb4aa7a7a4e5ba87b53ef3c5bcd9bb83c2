@@ -1,0 +1,78 @@
+# T-0514: Herdaminnet för kyrkoherden Bökelund, prästgårdens rad och namnbytet för P-0518
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0172 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0517](../../genealogy/people/P-0517-samuel-bokelund-mortorp.md) och
+[P-0518](../../genealogy/people/P-0518-gustava-maria-kylenstjerna-mortorp.md),
+båda anspetsar, med följdpåverkan på
+[P-0389](../../genealogy/people/P-0389-johanna-christina-bokelund.md), som
+ägs av **T-0164** och har fått fynden rapporterade.
+**Fyra passager, i denna ordning:**
+
+1. **Kalmar stifts herdaminne och prästmatriklar för Mortorps pastorat
+   omkring 1800–1820.** T-0172 förde in ämbetet `Kyrkoherdens i Mortorp` som
+   sakuppgift (A-7620); dess följd är att en kyrkoherde har en **publicerad
+   biografi** med födelsedatum, föräldrar, studier, prästvigning, tjänstegång,
+   äktenskap och död — och att hustrun normalt namnges med föräldrar och
+   vigselår. **Herdaminnen är sekundärkällor:** uppgifterna förs som `LEAD`
+   till dess de bekräftas i matrikel eller kyrkobok.
+2. **Mortorps husförhörslängd för prästgården omkring 1809.** Ger båda
+   makarnas **ålder och födelseort** ur en primärkälla, och prövar samtidigt
+   vem `Jungfru Gustava Christina Bökelund` är — kandidat som kyrkoherdens
+   dotter eller syster.
+3. **Vittneskretsen:** `Hustru Johanna Ryberg`, gift med sergeanten `Jonas
+   Sjöström i Mortorps ägor`, bär **hustruns** familjenamn och är hennes enda
+   namnburna släktspår. Läs sergeantsbostället och komministerhushållet i
+   samma längd.
+4. **Namnbytet för P-0518.** Aktens titel är ändrad till `Gustava Maria
+   Rybergsdotter i Mortorp` enligt T-0164:s rättelse, men **filnamnet är
+   oförändrat**, `P-0518-gustava-maria-kylenstjerna-mortorp.md`. **Byt
+   filnamn och uppdatera samtliga länkar** i samma pass, med validatorn som
+   kontroll.
+
+Utanför: att välja kandidat på familjenamnet `Bökelund` eller `Ryberg`
+ensamt — aktens uttryckliga förbud, som står kvar och som den fallna
+`Kylenstjerna`-hypotesen illustrerar; att välja något av åren 1774–1776 för
+hustrun utan ett original; att göra herdaminnets uppgifter till lästa
+originaluppgifter; P-0389:s fulla granskning, som ägs av T-0164.
+
+## Acceptance Criteria
+
+- Passage 1 har ett utfall med **verk, utgåva, sida och läsdatum**, och varje
+  uppgift förs som `LEAD` med angiven sekundärkaraktär till dess den
+  bekräftas.
+- Passage 2 ger **båda makarnas ålder och födelseort** eller redovisar
+  uttryckligen att prästgårdsraden saknas, med volym, sida, avsnitt,
+  bildintervall och läsdatum.
+- Hela öppnade poster utvinns med kolumnredovisning enligt
+  `person-standard.md`, sparad kopia och hash.
+- Passage 3 redovisar vittnenas åldrar och hushåll; **en syskonkandidatur
+  kräver ett original som binder personerna**.
+- **Passage 4 är klar när filnamnet är bytt, alla inlänkande akter är
+  uppdaterade och validatorn passerar utan brutna länkar.**
+- Båda akterna, profilerna, temana och kontraktsnivåerna avstäms; fynden om
+  P-0389 rapporteras till T-0164.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0851:s båda daterade tillägg och de två profilerna först. **Detta är
+kohortens enda uppgift där en publicerad biografisk serie kan ge en hel
+identitet på en gång** — men ordningen är herdaminne som ingång, primärkälla
+som belägg. Inga beställningar, kontakter, dashboardändringar, PDF-skapande
+eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0172:s granskningsutfall.
+- Nästa ej utförda steg: identifiera vilken utgåva av Kalmar stifts
+  herdaminne som täcker Mortorps pastorat omkring 1809.
+- Hinder: BLOCKED bakom T-0115.

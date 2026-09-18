@@ -1,0 +1,102 @@
+# T-0031: Redesign the depth-5 family edition for efficient paper use and clearer pedigree trees
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context
+
+The owner found the verified version 2 wasteful of paper: decorative cards,
+colour fields and excess whitespace displaced content, while its ancestry
+overviews were not clear enough as family trees. `PCR-2026-09-04-004` and
+`PCD-2026-09-04-004` therefore redirect the edition work before depth-6
+research resumes.
+
+Versions 1 and 2 are immutable reference editions. Version 3 reuses the
+verified version-2 content but changes the page architecture and tree drawing.
+
+## Acceptance Criteria
+
+- [x] Version 1 and version 2 remain byte-for-byte unchanged.
+- [x] A separate, stably named version-3 PDF removes decorative cards,
+  coloured panel backgrounds and unjustified whitespace while remaining
+  comfortable to read rather than extremely compressed.
+- [x] The 31-page version-2 content is reduced to a materially smaller page
+  count without dropping any of its 32 depth-5 people, evidence distinctions,
+  feature stories, map/place material, timeline, source close readings,
+  research fronts or exact references.
+- [x] Two connected pedigree diagrams, one for each parent side, show five
+  generations with unambiguous parent-child lines and readable names.
+- [x] A version-3 manifest, deterministic builder and structural verifier make
+  the edition reproducible and confirm the promised content and invariants.
+- [x] Every rendered page is visually inspected at readable scale; no text,
+  line, image or footer clips or overlaps.
+
+## Verification Plan
+
+Record SHA-256 for versions 1 and 2 before and after. Build version 3, run its
+structural verifier, inspect PDF metadata and extracted text, render every page
+to PNG, build contact sheets and inspect individual pages where density is
+highest. Then run the repository genealogy validators and tests.
+
+## Approach
+
+Use a restrained black-and-white editorial system with typographic hierarchy,
+thin functional rules and compact continuous text. Use portrait pages for
+narrative material and A4 landscape only where it improves the two connected
+pedigree diagrams. Consolidate related content onto fewer pages, but keep body
+text and tree labels readable.
+
+## Implementation Notes
+
+- 2026-09-04: Task created and started directly from the owner's visual
+  evaluation. T-0013 yielded before producing a research batch.
+- 2026-09-04: The first render exposed tree depth labels and top nodes too
+  close to the header. The tree field was lowered, rebuilt and visually
+  rechecked before acceptance.
+- 2026-09-04: Completed as a 16-page edition, down from version 2's 31 pages,
+  without removing the frozen content categories or shrinking body text to an
+  extreme display size.
+
+## Obstacles
+
+None. The local `uv` cache required approved access outside the workspace;
+the build and verifier then ran normally.
+
+## Verification Evidence
+
+- Version-3 structural verifier:
+  `uv run --with reportlab --with pillow --with pypdf --with pdfplumber --with geopandas --with matplotlib --with shapely python scripts/verify-family-edition-v3.py`
+  - 16 A4 pages: 13 portrait and 3 landscape
+  - 32 unique depth-5 positions, balanced 16/16
+  - frozen version-2 content, pedigree geometry, grayscale graphics, page
+    bounds and metadata valid
+  - versions 1 and 2 match their pinned SHA-256 checksums
+- Visual QA: all 16 pages rendered at 130 dpi to
+  `tmp/pdfs/family-edition-v3/rendered/`; a final 4 x 4 contact sheet and
+  individual dense/tree pages were inspected. No clipping, collision or
+  unintended colour remained after the tree-header correction.
+- PDF metadata check: 16 pages, PDF 1.4, unencrypted, mixed A4 portrait and
+  landscape as declared.
+- Final SHA-256:
+  `d283602d92acbe6c0886260902ef68620ed7ce4d891b2d6c1351b2712500f70a`.
+- Preserved checksums:
+  - v1: `fbb9e906ae2a20093e502e38bf5dcb2d8f0b9d3651536c64e1d6de5336870803`
+  - v2: `a56b5701fc74ab3da8249068ee13e170e29bfa6f9032e7570607fa38a6efdba8`
+- Repository checks:
+  - `node scripts/goal-state.mjs`: shared depth 5, next slice depth 6
+  - `node scripts/validate-genealogy.mjs`: OK, 2,672 assertions and valid
+    Wotan JSON
+  - `node --test scripts/`: 11/11 passed
+  - `node scripts/media-manifest.mjs --check`: OK, 4,346 linked media files
+  - dashboard `npm test && npm run build`: passed
+
+## Outcome
+
+Created the separate monochrome family edition at
+`output/pdf/adam-och-axel-janson-fem-generationer-v3.pdf`, backed by
+`genealogy/editions/adam-axel-depth5-v3.json`,
+`scripts/build-family-edition-v3.py` and
+`scripts/verify-family-edition-v3.py`. The design is based on continuous text,
+functional rules and two connected five-generation trees; all previous
+edition files remain unchanged. T-0013 remains the next approved research
+task and is `READY`.

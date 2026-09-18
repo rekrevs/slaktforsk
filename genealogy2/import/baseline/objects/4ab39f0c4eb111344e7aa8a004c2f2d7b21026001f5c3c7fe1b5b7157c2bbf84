@@ -1,0 +1,118 @@
+# T-0130: Konsolidera konfliktsignal, djup 5 sida K från P-0338
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0338, P-0339, P-0461, P-0462
+
+## Scope och underlag
+
+Exakt dessa 4 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 79 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0330, C-0372, C-0373, C-0374, C-0375, C-0376, C-0448, C-0449, C-0450, C-0451, C-0469, C-0470, C-0471, C-0472, C-0515, C-0519, C-0520, C-0524, C-0525, C-0526, C-0527, C-0543, C-0592, C-0593, C-0594, C-0595, C-0596, C-0597, C-0598, C-0599, C-0602, C-0605, C-0606, C-0607, C-0612, C-0613, C-0614, C-0621, C-0623, C-0624, C-0625, C-0626, C-0652, C-0678, C-0704, C-0710, C-0753, C-0828, C-0829.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+2026-09-08, person-dossier/v1 och person-research/v1. Samtliga egna
+aktuella belägg och senare rättelser prövade. Individuella utfall:
+
+| Person | Underlag och bevarande | Format/konsolidering | Identitetsnivå | Full nivå och gräns |
+|---|---|---|---|---|
+| P-0338 | 41 äldre A; egna 32 C och källposter, kritiska fulloriginal; 4 nya A | Godkända | UNDERKÄND, AVVAKTAR; PK-05/11 | UNDERKÄND även PK-03/08; barndom, kopior, egna postfält, källvägar |
+| P-0339 | 32 äldre A; egna C/S, barnhusrulla, hushåll/vigsel/barn och negativa omfång; 3 nya A | Godkända | UNDERKÄND, AVVAKTAR; PK-11 | UNDERKÄND även PK-08; kopior, ursprung och livskällor |
+| P-0461 | 4 äldre A; full familj 98/förord, C-0678 och 41 filer/hash; 1 nytt A | Godkända | GODKÄND för avgränsad OLÖST, AVVAKTAR | UNDERKÄND PK-03/04/08; positiv personidentifiering saknas |
+| P-0462 | 2 äldre A; samma egenregisterfält och avgränsade originalkontroller; 1 nytt A | Godkända | GODKÄND för avgränsad OLÖST, AVVAKTAR | UNDERKÄND PK-03/04/08; positiv personidentifiering saknas |
+
+Rättelser, bevarande och konkret eftergranskning dokumenteras i
+[batch 534](../../genealogy/research-log/2026-09-08.md#batch-534--t-0130-henrikfamiljen-och-två-olösta-registerpersoner).
+Följder: T-0263–0265. Minimala anhörigändringar har fulla ägare
+T-0193/T-0195/T-0138; P-0253:s C-0330-del tillgodoräknad i T-0231.
+Inga nya P-id eller säkra äldre generationer.
+
+## Verification och Outcome
+
+Format 5 akter: 0 fel; fryst täckning 538: 0 fel. Validator 3677
+assertions/2632 Markdown/5010 media, giltig Wotan. Tester 50/50.
+Mediamanifest 5009 filer giltigt; inventering 137 profiler, 30
+identitetsgodkända varav 28 BÄRANDE, 8 fullgodkända; struktur/hash giltiga.
+Saklig efterläsning prövade familje-/tidsgränser och verkliga PK-brister.
+Två tomma slutrader rättade; slutlig diffkontroll passerar utan fel.
+Kohorten bidrar med fyra individuella fullgranskningar, 71/538 i
+programmet när uppgiften avslutas; personernas forskningskrav kvarstår.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Återupptagning — start efter T-0129
+
+2026-09-08: T-0129 verifierad DONE,67/538 individuellt fullgranskade.
+Den fasta kohorten här är P-0338/P-0339/P-0461/P-0462,79baslinje-A.
+Next_id263, nästa fria A4312, nästa batch534. Nästa ej utförda steg:
+läs individuella akter/profiler och egna belägg med senare rättelser,
+fördela fasta personägare. Root äger delade källor/Wotan/logg.
+Ingen ny arkivsökning ingår; inga hinder.
+
+## Återupptagning — individuell fördelning
+
+2026-09-08: pilot_parents äger P-0338 akt/profil, A-4312–4319;
+pilot_private_candidate äger P-0339 akt/profil, A-4320–4327;
+pilot_varied äger P-0461/P-0462 akter och nya profiler, A-4328–4335.
+Root äger delade citationer, följdpersoner, Wotan och logg, A från4336.
+
+Första sakgränser: C-0626:s Rundbacken1860-noll kan inte motbevisa
+föräldralänken för Henrik som flyttade1850. C-0606:s barnhusrulla
+namnger faktiskt James Schölin som far; detta ska inte beskrivas som
+bara en oläst indexuppgift. Mantalets namnkandidater är separat fråga.
+C-0469 har även Henrik Peter1857, varför minst tre barn är för snävt.
+Nästa steg: fulla egna källfält, bevarande och exakt källkritik. Inga
+nya arkivsökningar, inga hinder. Batch534 ännu ej loggad.
+
+## Återupptagning — verifierat avslut
+
+2026-09-08: T-0130 DONE, batch 534, 71/538 individuellt fullgranskade.
+Alla sex kriterier uppfyllda inom konsolideringsomfånget. Ingen extern
+forskning eller ny person-id har tillkommit. Följdbehov har fasta ägare.
+Nästa kohort T-0131, P-0094/P-0095; nästa batch 535, nästa fria A-4338,
+backlog next_id 266. Sammanhängande körning fortsätter utan avbrott.
+
+## Historisk komplettering från T-0138, 2026-09-08
+
+P-0461/P-0462 har fått en avgränsad följdomprövning, ingen ny full konsolidering. T-0130 kontrollerade korrekt samtliga 41 länkade filer i C-0678. T-0138:s genomläsning av S-0517 identifierade ytterligare tidigare öppnade passager utanför filtabellen: 71000675_00236, en senare 1798-gräns och Laxsjönsregister i A I/1 samt A I/2. Efter lokalt alias- och metadataeftersök saknas kopia till 236 samt exakta referenser/kopior för de tre andra passagerna. T-0313 äger återbevarande och avgränsad proveniensidentifiering efter T-0138/T-0115.
+
+Aktuella akter/profiler ändrar därför PK-11 till EJ STYRKT och identitetsgranskning till UNDERKÄND. Sakligt OLÖST, trädverkan AVVAKTAR och full kontraktsgranskning UNDERKÄND består. Tidigare GODKÄND-bedömning och dess motivering bevaras i personernas historik. Inga A-id, sakuppgifter eller släktrelationer ändras; T-0130:s historiska avslut skrivs inte om.

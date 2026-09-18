@@ -1,0 +1,67 @@
+# T-0513: Hossmos husförhörslängder och högerkolumnens anteckning
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0172 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0515](../../genealogy/people/P-0515-olof-nilsson-rinkaby.md) och
+[P-0516](../../genealogy/people/P-0516-maja-jonsdotter-rinkaby.md), båda
+anspetsar, med följdpåverkan på
+[P-0388](../../genealogy/people/P-0388-anders-ringberg.md), som ägs av
+**T-0162** och har fått fynden rapporterade.
+**Fyra passager, i denna ordning:**
+
+1. **Högerkolumnens anteckning på sida 156 i högre upplösning.**
+   Hushållsblocket är **överstruket**, och den smala kolumnen bär ett tal-
+   eller förkortningsliknande `705.[?]` och därunder ett par ord vars två
+   första läses `Kom intet`. **Innebörden är oläst**; den är familjens enda
+   ledtråd bort från sidan. Bilden är lokalt bevarad, så första försöket
+   kräver ingen ny åtkomst.
+2. **Hossmos husförhörslängd före A I/3** för Södra Rinkaby, som skulle ge
+   **Olof Nilssons födelseort** — hans åldrar `49.`/`50.` ger födelse omkring
+   1760–1761 — och **Maja Jonsdotters** motsvarande, född omkring 1769–1770.
+3. **Längden efter A I/3 och flyttningslängderna omkring 1810–1815**, som
+   skulle visa vart hushållet gick.
+4. **Hossmos födelsebok omkring 1794–1800** för barnaluckan mellan dottern
+   Cajsa, född omkring 1793–1794, och sonen Anders, född omkring 1800–1801;
+   samt Cajsas egen dopnotis, som skulle namnge föräldrarna i ett andra
+   original.
+
+Utanför: att välja en `Olof Nilsson` eller `Maja Jonsdotter` ur namn och
+Rinkaby — aktens uttryckliga förbud, som står kvar; att föra in barn i
+luckan som antaganden; nya person-id för dottern Cajsa utan egna belägg;
+P-0388:s fulla granskning, som ägs av T-0162.
+
+## Acceptance Criteria
+
+- Passage 1 har ett **daterat läsutfall** med angiven upplösning och metod.
+  Ett fortsatt olöst utfall redovisas som **prövad oläslighet** — en
+  källgräns — och inte som en brist.
+- Varje passage har volym, sida, avsnitt, bildintervall och läsdatum. Ett
+  noll är avsnitts- och årgångsbundet.
+- Hela öppnade poster utvinns med kolumnredovisning enligt
+  `person-standard.md`, sparad kopia och hash. **Åldrar redovisas för varje
+  rad i hushållet**, inte bara för den person passagen gäller.
+- Båda akterna, profilerna, temana och kontraktsnivåerna avstäms; fynden om
+  P-0388 rapporteras till T-0162.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0849:s daterade tillägg och de två profilerna först. **Gårdsnumret
+`N:o 1` är en fastighetsbunden nyckel** och gör både jordebok och senare
+längder sökbara oberoende av namnen. Inga beställningar, kontakter,
+dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0172:s granskningsutfall.
+- Nästa ej utförda steg: läs högerkolumnens anteckning i högre upplösning ur
+  den sparade bilden av Hossmo A I/3 sida 156.
+- Hinder: BLOCKED bakom T-0115.

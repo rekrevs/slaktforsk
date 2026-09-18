@@ -5091,3 +5091,321 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   tills ägaren begär en uppdatering.
 - Revisit when: kontraktet behöver ett eget fält för sidopersoners
   identitetsstyrka, eller en sidoperson visar sig ligga i anlinjen.
+
+## PCR-2026-09-14-001
+
+**Pröva informationsansvar och ändringsflöde före val av ny lagring**
+
+- Record type: review
+- Date: 2026-09-14
+- Mode: direction-review
+- Trigger: ägaren ber att datamodelldiskussionerna bevaras och beskriver
+  villrådighet inför överfulla akter, ad hoc-struktur och möjligt överlapp
+  med forskningsprofiler. Ägaren efterfrågar även etablerade arbetssätt.
+- Control judgement: evaluate, preserve
+- Current gate: det är inte visat vilken minsta modelländring som minskar
+  dubbelt underhåll och tolkningsfel utan att förlora nyans, läsbarhet eller
+  spårbarhet. Detta är datamodellfrågans begränsning; north stars sakliga
+  forskningskrav och befintliga källrevisioner består.
+- Recommendation: en avgränsad modellrefaktorering är motiverad.
+  Börja med tydligt informationsansvar och pröva vanliga samt svåra
+  ändringsoperationer på samma fasta fallmängd. Jämför en mindre ändring
+  inom dagens arbetsform med en strukturerad textkärna; behåll SQLite som
+  möjligt huvudlager eller frågeindex beroende på arbetsflödets resultat.
+  Behåll akternas läsvärde och profilernas forskningsanalys. Inför inte
+  flera självständigt redigerade aktuella versioner av samma bedömning.
+- Owner decision required: om den föreslagna avgränsade modellprövningen
+  ska beställas som en Wotan-uppgift. Val av huvudlagring kan lämnas öppet
+  under prövningen. Ingen omedelbar databasövergång behöver beslutas.
+- Owner position: bevarande och fördjupad undersökning är beställda;
+  ägaren är uttryckligen osäker om riktningen. Ingen arkitektur, pilot,
+  migration eller ändring av gällande kontrakt är godkänd i detta samtal.
+  Den ofullständiga raden ”ja, gör ett pr” ingår i ett inklistrat äldre
+  Claude-utdrag och används inte som aktuellt utförandemandat.
+- Evidence:
+  - [Samtalsunderlag](ideas/discussions/2026-09-14-datamodell.md) och
+    [IDEA-0001](ideas/IDEA-0001.md), med skillnad mellan observation och tolkning.
+  - `genealogy/person-contract.md`, Ansvar, och
+    `genealogy/person-standard.md`, Filernas ansvar: delvis överlappande
+    placering av identitets- och temabedömningar.
+  - `scripts/lib/genealogy-relations.mjs`, `T-0634` och `T-0639`:
+    fritexttolkning gav 35 felkanter; förtydligad Trädverkan krävde
+    73 profilrättelser och 67 aktuella akttexter.
+  - Riktade exempel P-0016, P-0114 och P-0336 visar återkommande innehåll
+    i akt och profil. Textstorleken är dokumenterad i idédossiern;
+    ingen fullständig mätning av onödig dubblering har utförts.
+  - `node scripts/goal-state.mjs` och `node scripts/research-inventory.mjs`,
+    körda utan skrivflaggor 2026-09-14 vid HEAD `d1e4a8bc`: 511 aktiva,
+    27 avvecklade, 199 identitetsgodkända, 51 BÄRANDE, fem fulla
+    godkännanden med giltig struktur och noll strukturfel. Registrerat
+    gemensamt djup 4 är inte sakligt uppfyllt personkontrakt.
+- Related work: [RELATED-WORK.md](RELATED-WORK.md),
+  SR-2026-09-14-001/002 och RA-2026-09-14-001–009. Genealogiska förebilder,
+  provenans och stegvis övergång ger stöd; komplexitet och oprövad
+  arbetsflödesnytta är viktiga motargument mot en större lösning.
+- Uncertainty: ingen implementerad jämförelse, ingen uppmätt tidsvinst och
+  ingen prövad förlustfri migration. Profilerna har eget analytiskt värde.
+  En gemensam faktarad uppdaterar inte automatiskt handskrivna argument.
+- Proposed actions: idédossiern innehåller en föreslagen ansvarskarta,
+  åtta ändringsfall och kriterier för att underkänna en lösning.
+  De är beslutsunderlag, inte en separat utförandekö.
+- Resulting Wotan tasks: none. `T-0110`, `T-0115` och befintliga
+  Wotan-IDEA om export/mått är inte omprioriterade eller omtolkade.
+- Portfolio signal: en fokuserad, grundad men obeslutad systemidé är
+  bevarad som `IDEA-0001`. Forskningsdata, granskningsbeslut, normer och
+  dashboard har inte ändrats av denna bevaranderunda.
+- Revisit when: ägaren vill beställa den avgränsade prövningen; samma
+  ändringsfall har jämförts mellan alternativen; eller nya konkreta
+  rättelseproblem ändrar bedömningen av vad som behöver byggas om.
+
+## PCR-2026-09-16-001
+
+- Record type: review
+- Date: 2026-09-16
+- Mode: direction-review
+- Trigger: IDEA-0001 har utvecklats till en målmodell från grunden och
+  ett konkret återanvändningsförslag för genealogy2.
+- Control judgement: redirect, evaluate
+- Current gate: modellen och den förlustfria övergången är ännu inte
+  implementerade och verifierade på verkligt material.
+- Recommendation: bygg genealogy2 med SQLite som strukturerad huvudlagring,
+  bevarad importbas, explicit observation/slutsats och kontrollerad skrivväg.
+  Pröva svåra fall innan bred semantisk konvertering och skifte av skrivansvar.
+- Owner decision required: none; beslutet nedan ger genomförandemandat.
+- Evidence: IDEA-0001, avsnitten Bedömning från grunden och Återanvändning;
+  RELATED-WORK.md, RA-2026-09-16-001–007; lokal inventering och rättningsfall.
+- Revisit when: pilotens verifiering visar förlust, otillräckligt ändringsflöde
+  eller ett modellval som inte hanterar ett verkligt fall.
+
+## PCD-2026-09-16-001
+
+**Bygg genealogy2 och pausa ordinarie forskning i genealogy under tiden**
+
+- Record type: decision
+- Date: 2026-09-16
+- Decides review: PCR-2026-09-14-001, PCR-2026-09-16-001
+- Owner: Sverker Adam Janson
+- Decision: ägaren godkänner förslaget med ”vi kör så, kör igång!” och
+  anger ”jag kommer inte att driva vidare ordinarie forskning i genealogy
+  under tiden.” Genealogy2 byggs separat enligt den diskuterade målmodellen
+  och övergången genomförs stegvis med återbruk av befintlig forskning.
+- Disposition: approved
+- Scope: säkra importbas, implementera modell/import/skrivväg, pröva pilot,
+  avgränsa och genomför återstående konvertering samt verifiera ett tydligt
+  skifte av skrivansvar. Detta startar inte ny arkivforskning eller den
+  befintliga forskningskön. Genealogy lämnas oförändrat som importunderlag.
+- Design boundary: dagens dokumentkontrakt och tabellformat är inte krav
+  på genealogy2:s representation. Tidigare fakta, förbehåll, bedömningar
+  och deras kriterier bevaras; formatbyte är varken ny forskning eller
+  automatiskt sakligt godkännande. Wotan äger fortsatt utförandet.
+- Resulting Wotan tasks: T-0640, T-0641, T-0642, T-0643; T-0642 får skapa
+  ändliga konverteringsuppgifter inom denna godkända övergång.
+- Portfolio signal: IDEA-0001 går till advance. Arbetet prioriteras framför
+  ordinarie forskning under införandet. Äldre uppgifter och deras resultat
+  står kvar; inga massändringar av deras status behövs.
+- Revisit when: en faktisk förlust-/modellrisk kräver ändrad design, eller
+  den verifierade övergången är färdig och forskningsarbetet kan återupptas.
+
+## PCR-2026-09-16-002
+
+- Record type: review
+- Date: 2026-09-16
+- Mode: checkpoint
+- Trigger: ägaren frågar ”är du nöjd med vad piloten indikerar?” efter
+  genomgången av verkliga databasexempel.
+- Control judgement: continue, evaluate
+- Current gate: hela arbetsflödets enkelhet och semantiska trohet i
+  läsvyerna är ännu oprövade. Full strukturerad konvertering är inte visad.
+- Recommendation: behåll riktningen med skilda källuppgifter, identiteter,
+  slutsatser och forskningsfrågor. Använd T-0644 för att pröva en sammanhängande
+  arbetscykel på befintligt underlag: registrera en uppgift, revidera den,
+  följ berörda slutsatser och läs resultatet i person-/forskningsvyerna.
+  Pröva därefter ett ytterligare varierat urval utanför pilotens handkuraterade
+  fall innan bred konvertering. Låt utfallet förenkla eller ändra detaljerna
+  i schemat och migrationsplanen; antalet färdiga tasks är inget nyttobevis.
+- Owner decision required: none för denna bedömning och befintlig T-0644.
+  Ingen ny ägarinstruktion eller ändring av kön tillskrivs frågan.
+- Evidence:
+  - `wotan/dev-log/T-0640.md`, `T-0641.md`, `T-0642.md`: bevarad importbas,
+    avgränsad pilot, omimport och återställning verifierade; fem nya
+    integrationstester och 67 befintliga regressioner passerade.
+  - `genealogy2/import/pilot.mjs` och `genealogy2/test/pilot.test.mjs`:
+    utvalda svåra fall bevarar dopets roller, avvisad identitet, dubblett,
+    datumalternativ, källnoll och skillnaden mellan råläsning och ortslutsats.
+  - Skrivskyddad databasfråga: 138 objekt; bland frågornas utfall finns
+    både `ÖPPEN` och `ÖPPEN.` samt motsvarande varianter av FASTSTÄLLD.
+    Råtexten är bevarad, men de operativa begreppen är ännu inte enhetliga.
+  - Konkreta presentationsfyndet: `E-P0016-birth` har förbehållet
+    ”Djupnäs är föräldrahemvist; fysisk förlossningsplats inte säkert
+    utskriven.” i `current_revision.caveat`. Samma händelse i
+    `personView(db,'P-0016').events` har tomt `caveat`, eftersom vyn
+    tar deltagarpostens förbehåll och inte händelsens. Innehållet är bevarat
+    men visas inte fullständigt. Detta omfattas av T-0644:s befintliga
+    kriterium om relevanta förbehåll i vyerna; ingen sakrättelse görs här.
+  - `genealogy2/README.md`, `wotan/dev-log/T-0644.md`: nya media, sökning i
+    nya domäntexter och fullständiga beroenderegler återstår före ordinarie bruk.
+- Uncertainty: handkuraterade fall visar modellens uttrycksförmåga, inte
+  migrationshastighet eller kostnad över hela materialet. Ingen uppmätt
+  minskning av forskarens arbete finns. Tekniska tester visar inte i sig
+  att användaren får en lättare arbetsform. Mängden infrastruktur och fria
+  begreppsfält behöver prövas mot den ursprungliga risken för ad hoc-struktur.
+- Related work: befintlig bedömning i `RELATED-WORK.md` består. Ingen ny
+  extern sökning behövdes för denna avgränsade kontroll av vår egen pilot.
+- Resulting Wotan tasks: none; rekommendationen anknyter till befintlig
+  T-0644. Ingen ordinarie forskning eller fortsatt implementation startas
+  av denna bedömningsfråga.
+- Portfolio signal: IDEA-0001:s riktning har stärkts av konkreta sakfall;
+  exakt schema och arbetsflöde ska fortsatt betraktas som prövbara.
+- Revisit when: en hel arbetscykel och ett ytterligare varierat urval visar
+  färre manuella dubbelskrivningar och bevarade förbehåll i läsvyerna,
+  eller i stället visar att modellen behöver förenklas eller ändras.
+
+## PCR-2026-09-17-001
+
+- Record type: review
+- Date: 2026-09-17
+- Mode: checkpoint
+- Trigger: Ägaren begär kontinuerligt arbete tills överföringen till
+  genealogy2 är slutförd; samtliga konverteringskohorter och slutgrinden
+  T-0643 har nu verifierats.
+- Control judgement: operate, preserve, evaluate
+- Current gate: none för det beslutade migrationsomfånget. Genealogiska
+  sakfrågor och fortsatta identitets-/livsbildsgranskningar består.
+- Recommendation: Verkställ det redan godkända skiftet av skrivansvar.
+  Använd genealogy2 för aktuell forskning, bevara genealogy som fryst arkiv
+  och behåll Wotan som enda utförandekö. Utvärdera arbetsformen genom
+  ordinarie avgränsat arbete när det återupptas; bygg inte mer infrastruktur
+  utan ett konkret behov. Migreringsbeställningen startar inte forskningskön.
+- Owner decision required: none; PCD-2026-09-16-001 och ägarens uttryckliga
+  fortsättningsinstruktion omfattar den verifierade övergången.
+- Evidence:
+  - `genealogy2/verification/T-0663-report.md`: varje importenhet redovisad,
+    motiverade versionsrättelser, bevarade äldre rader och öppna frågor.
+  - `genealogy2/verification/T-0643-report.md` och T-0643-result.json:
+    korta personvyer, gemensamt frågeordförråd, verifierad identitetsgrind,
+    kontrollerad skrivcykel och identisk full återställning med verkliga medier.
+  - `wotan/dev-log/T-0643.md`: samlad regression och skifteskriterier.
+- Uncertainty: Synliga öppna sakfrågor och textbevarande är inte full
+  semantisk typning eller färdig forskning. Kortare personvyer är uppmätta;
+  tidsbesparing vid framtida forskning är ännu inte uppmätt.
+- Related work: Befintliga bedömningar i RELATED-WORK.md består. Ingen
+  extern horisontsökning behövdes för denna lokala verifieringsgrind.
+- Resulting Wotan tasks: none; befintlig T-0643 slutför övergången.
+- Portfolio signal: Det beslutade migrationsprogrammet är avslutat.
+  Projektet kan användas; dess långsiktiga forskningsmål är inte avslutat.
+- Revisit when: Ett verkligt forskningspass visar förlorad information,
+  dubbelskrivning eller otillräcklig ändrings-/läsväg, eller när ett senare
+  forskningsprogram kräver en ny strategisk prövning.
+
+## PCD-2026-09-17-001
+
+- Record type: decision
+- Date: 2026-09-17
+- Decides review: PCR-2026-09-16-001; anknyter till slutkontrollen
+  PCR-2026-09-17-001 inom redan godkänt mandat.
+- Owner: Sverker Adam Janson
+- Decision: Ägaren anger ”arbeta kontinuerligt för att slutföra överföringen
+  till genealogy2”. Detta bekräftar genomförandet av PCD-2026-09-16-001,
+  inklusive dess verifierade skifte av skrivansvar. Det är inget separat
+  ägargodkännande av agentens senare testresultat eller nya släktfakta.
+- Disposition: approved
+- Execution: T-0643 har verifierat övergången. Genealogy2 är auktoritativt
+  för nya fynd och rättelser; genealogy bevaras som läsbart forskningsarkiv.
+  De sakliga kvalitets- och åtkomstkraven består. Äldre profil-/loggformat
+  ersätts av versionerade kunskapsobjekt och operationsjournal.
+- Scope: Slutför migrationen utan ny arkivforskning, dashboarduppdatering,
+  publicering, PDF eller commit/push. Den ordinarie forskningskön startas
+  inte som en bieffekt av denna beställning.
+- Resulting Wotan tasks: Befintliga återstående migrationsuppgifter till
+  och med T-0663 och slutgrinden T-0643; inga nya uppgifter behövdes vid skiftet.
+- Related records: PCD-2026-09-16-001, wotan/dev-log/T-0643.md och
+  genealogy2/docs/working.md.
+- Portfolio signal: Migrationsmandatet är fullgjort; fortsatt forskning
+  har sin enda utförande- och återupptagningsplats i Wotan.
+- Revisit when: Senare konkreta forsknings- eller återställningsresultat
+  visar behov av en avgränsad rättelse eller ändrad arbetsform.
+
+## PCR-2026-09-18-001
+
+- Record type: review
+- Date: 2026-09-18
+- Mode: checkpoint
+- Trigger: Efter diskussion om dump, Git/LFS, restic och backupmål vill
+  ägaren samla inriktningen: säkra Genealogy2 i Git, pröva återuppbyggnad
+  proportionerligt och bevara analys/plan inför kontextkompaktering.
+- Control judgement: redirect, preserve, evaluate
+- Current gate: Genealogy2:s beständiga kod, importbas, migrationsbeslut
+  och journal är ännu ocommittade. Återställning från backup är verifierad,
+  men exakt återuppbyggnad av slutläget ur enbart Git-underlag är inte det.
+- Recommendation: Säkra det redan utförda arbetets filer först. Återbruka
+  tidigare omfattande tester och komplettera med fullständiga billiga
+  filkontroller, särskilt prov av startkedjan och ett litet urval hela
+  beroendekedjor. Analysera både första migrationens arbetskostnad och
+  mekanisk återspelning. Bevara organisationsfrågan som senare arbete.
+- Owner decision required: none för att bevara denna uttryckligt begärda
+  inriktning och plan. Denna speglingsrunda genomför inte automatiskt hela
+  kön eller någon push; redovisa faktiskt utförande separat.
+- Evidence:
+  - Read-only Git-/databaskontroll 2026-09-18: noll Git-spårade filer under
+    genealogy2, 40 operationsunderlag bevarade lokalt, 39 journalposter
+    matchar databasen och separat pilotpaket har rätt begäranshash.
+  - `genealogy2/cli.mjs verify-assets`: alla 5 067 refererade medie- och
+    artefaktfiler passerade. Detta är inte verifiering av extern LFS-kopia.
+  - `genealogy2/test/person-cohort-11.test.mjs` och `wotan/dev-log/T-0662.md`:
+    tom databas, importbas, pilot och operationer 1–36 samt sista kohorten
+    har provats; hela testet tog cirka 17 minuter. Testet går direkt via
+    applyOperation och bevisar inte vanlig replayJournal från noll.
+  - `genealogy2/lib/domain.mjs`, `genealogy2/lib/recovery.mjs`: övergången
+    från pilot utan journalkvittens till sekvensnumrerad journal behöver
+    prövas särskilt, även om innehållspaketen finns.
+  - `genealogy2/verification/T-0643-report.md`: verifierad fullbackup/restore
+    med medier, men detta förutsätter databasbackupen.
+- Uncertainty: Ursprunglig migrationskostnad är inte kvantifierad per
+  tolkningsarbete, kodutveckling, maskinell införsel och tester. Det tidigare
+  17-minutersprovet är inte ett mått på hela migreringen eller ren replay.
+  Stickprov ger inte någon välgrundad procentsiffra för total återställning.
+  Att alla refererade filer finns betyder inte att varje historiskt läst
+  källsvar sparats; C-1017 dokumenterar en sådan tidigare lucka.
+- Related work: Ingen ny extern sökning behövdes för denna lokala styrning.
+  Resticdiskussionen parkeras utan införande; tidigare backupbedömningar
+  ersätter inte prov av projektets faktiska återställningskedja.
+- Resulting Wotan tasks: T-0666, T-0667; T-0668/T-0669 som IDEA.
+- Portfolio signal: Prioritera bevarande och begränsad verifiering efter
+  migrationen. Ordinarie forskning och större infrastrukturbyggande startas
+  inte av denna planering.
+- Revisit when: Git-säkringen och provresultaten finns, en konkret lucka
+  kräver ändrat bevarande, eller ägaren aktiverar organisations-/backupfrågan.
+
+## PCD-2026-09-18-001
+
+- Record type: decision
+- Date: 2026-09-18
+- Decides review: PCR-2026-09-18-001
+- Owner: Sverker Adam Janson
+- Decision: Ägaren parkerar inkrementell backup med restic eller liknande
+  som en möjlig framtida förbättring och anger ordningen ”säkra att
+  genealogy2 är i git och sedan genomföra kontrollen ovan”. Kontrollen ska
+  också undersöka om arbetet att bygga databasen ur bas-genealogy kan göras
+  effektivare. Projektets organisation mellan genealogy och genealogy2
+  ska behandlas som ett senare steg. Analyser och planer ska vara
+  beständiga och agenten ska nu spegla sin förståelse utförligt.
+- Disposition: modified
+- Scope: Bevara inriktning, underlag, osäkerheter och nästa steg nu.
+  Git-säkring och riktad återställnings-/kostnadsprövning blir avgränsade
+  uppgifter i denna ordning. Organisationsanalysen ska skilja pensionerad
+  arbetsform från alltjämt centrala källdokument, medier, historik och
+  giltiga normer. Ingen flytt/radering eller ny informationsarkitektur
+  beslutas genom att frågan sparas.
+- Supersedes decision: Den tidigare dumpinriktningen i T-0665 är parkerad;
+  sex SQL-delar var inte godkända av ägaren. T-0664:s historiska resultat
+  består som historik och är inte aktuell backupstrategi.
+- Resulting Wotan tasks: T-0666 READY; T-0667 BLOCKED efter T-0666;
+  T-0668 IDEA för organisation; T-0669 IDEA för framtida inkrementell backup;
+  T-0665 flyttas till IDEA med bevarad logg och korrigerad återupptagning.
+- Related records: `wotan/dev-log/T-0666.md`, `wotan/dev-log/T-0667.md`,
+  PCD-2026-09-16-001, PCD-2026-09-17-001.
+- Portfolio signal: Det gjorda migrationsarbetet ska säkras och dess
+  reproducerbarhet prövas proportionerligt. Detta är ingen ny obegränsad
+  forsknings-, omorganisations- eller backupimplementationskörning.
+- Revisit when: T-0666/T-0667 har resultat, eller ägaren uttryckligen
+  aktiverar någon av de parkerade möjligheterna.

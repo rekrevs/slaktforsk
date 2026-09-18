@@ -1,0 +1,69 @@
+# T-0486: Byt namn på P-0332 till Hedda Lovisa och pröva lysningen 1864
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0167 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+P-0332 ensam, med berörda länkar. **Förnamnet är rättat från `Charlotta` till
+`Hedda`** — versalen på rad 4 i Helgesta A I/15 sida 179 är identisk med `H.`
+framför moderns namn på raden ovanför och saknar helt det `C` som skrivs i
+`Carl` och `Carlsd:r` på samma uppslag; följden efter versalen är `e-d-d` med
+två öglade `d`. Formen stöds av att faderns mor heter Hedda Molander. Läst vid
+250–450 % förstoring 2026-09-09. Tre saker följer.
+
+**Namnbytet.** Akten heter `P-0332-charlotta-lovisa-alund.md` och har titeln
+`Charlotta Lovisa Ålund`. Byt filnamn och titel och uppdatera samtliga länkar,
+inklusive P-0329, P-0330, P-0331, P-0333, `genealogy/frontier.md`,
+`genealogy/tree.md` och dashboardens datasnapshot enligt ägarens regler.
+**Rör inte forskningsloggarna, som är append-only.** Bevara `Charlotta` som
+eftersökbar variant i namnformstabellen. Formerna `Hedda` och `Hedvig` ska
+båda prövas vid varje sökning.
+
+**Lysningen.** `Fräjd`-kolumnen på hennes rad har `Lysn. d. 21 Nov. 1864.`
+Läs Helgestas lysnings- och vigselbok från 21 november 1864 till slutet av
+1865 och avgör om vigseln fullföljdes och med vem. **En lysning är inte en
+vigsel**; ingen make eller familj införs utan läst post. Att
+`Äktenskap: Gift.`-kolumnen är tom är inget belägg för att vigseln uteblev —
+hennes rad var redan överstruken 1863.
+
+**Ortnamnet.** `Utflyttad`-kolumnen har `Gisselbro[?] 63`, med
+alternativläsningen `Giselbro`. Ortnamnet är inte lokaliserat. Börja med
+Helgesta A I/15:s **ortregister**, som redan ligger sparat lokalt som
+`genealogy/media/C-0317-riksarkivet-helgesta-AI15-bild-8-register.jpg` och
+kräver ingen ny åtkomst; gå därefter till Helgesta B/2 utflyttade 1863. Avgör
+om flyttningen gick inom eller ut ur församlingen.
+
+Utanför: Grytens dopnotiser (T-0489), Helgestas längd efter A I/15 för de
+övriga familjemedlemmarna (T-0490), nya generationer och varje
+identitetssammanslagning utan original.
+
+## Acceptance Criteria
+
+- Titel, filnamn och samtliga inkommande länkar bär `Hedda Lovisa`; `Charlotta`
+  är bevarad som eftersökbar variant och forskningsloggarna är orörda.
+- Varje passage har positivt, exakt negativt eller olöst utfall med angiven
+  volym, bildintervall och läsdatum; ett åtkomsthinder blir inte ett negativt
+  personfynd.
+- Hela relevanta öppnade poster utvinns med kolumnredovisning enligt
+  aktstandarden, sparad kopia och hash.
+- Akt, profil, tio teman och båda kontraktsnivåerna avstäms; en namngiven make
+  får egen bedömning och eget id först när belägget bär det.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs P-0332:s profil och C-0317:s tillägg T-0167 först. Ortregistret är
+billigast och tas först. Inga beställningar, kontakter, dashboardändringar,
+PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0167:s granskningsutfall.
+- Nästa ej utförda steg: ortregistret ur den lokalt sparade bilden.
+- Hinder: BLOCKED bakom T-0115.

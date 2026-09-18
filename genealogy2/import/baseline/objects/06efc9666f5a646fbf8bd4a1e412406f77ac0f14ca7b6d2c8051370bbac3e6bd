@@ -1,0 +1,217 @@
+# T-0184: Konsolidera befintliga akter, fristående sidopersoner/kandidater från P-0139
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0139, P-0140, P-0141, P-0142, P-0144, P-0146, P-0147, P-0402
+
+## Scope och underlag
+
+Exakt dessa 8 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 33 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0104, C-0105, C-0108, C-0148, C-0149, C-0152, C-0506, C-0507, C-0508, C-0780, C-0781, C-0782.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Samtliga åtta akter granskade 2026-09-10 mot `person-dossier/v1` och
+`person-research/v1`. **Ingen ny arkivsökning; all läsning gjord i fem redan
+sparade helbilder.** Batch 589 i `genealogy/research-log/2026-09-10.md`.
+
+| Person | Läge | Granskat underlag | Identitetsnivå | Trädverkan | Full nivå | Rättelser och luckor |
+|---|---|---|---|---|---|---|
+| P-0139 | minimiläge | C-0104 | UNDERKÄND, `PRÖVAT` | EJ BÄRANDE | UNDERKÄND | Ingen ålder finns i dopvittneskolumnen — källgräns, inte läsosäkerhet. Öppen passage ägs av T-0581. |
+| P-0140 | minimiläge | C-0104, C-0149 | UNDERKÄND, `PRÖVAT` | EJ BÄRANDE | UNDERKÄND | Namngiven kandidat lokaliserad i sparad bild; **ingen sammanslagning.** Ägs av T-0584. |
+| P-0141 | minimiläge | C-0104, C-0149 | UNDERKÄND, `OLÖST` | EJ BÄRANDE | UNDERKÄND | `dotter` namnger ingen förälder. **Drängens förnamn rättat `Ivan`→`Johan` samma dag** (A-7837); A-7820 oförändrad. |
+| P-0142 | full behandling | C-0152, C-0148, C-0149, C-0105, C-0780, C-0781, C-0782 | **GODKÄND**, `PRÖVAT` | EJ BÄRANDE | UNDERKÄND | **Två fel i C-0780 rättade:** attest `26` inte `16`, och dagen `²²/₁₀ 92` står på husförhörssidan. Hela vuxenlivet öppet; ägs av T-0585. |
+| P-0144 | minimiläge | C-0149, C-0105, C-0104 | **GODKÄND**, `PRÖVAT` | EJ BÄRANDE | UNDERKÄND | **`Trädverkan` rättad `BÄRANDE`→`EJ BÄRANDE`** med daterad motivering. Ursprung och fortsättning öppna. |
+| P-0146 | full behandling | C-0506, C-0108, C-0205, C-0507, C-0508 | UNDERKÄND, `PRÖVAT` | **AVVAKTAR** | UNDERKÄND | Hushållet läst i sin helhet: **fem rader, två oregistrerade söner**; dagfältet tomt, så 9/19 mars kan **inte** avgöras här; nattvard april och oktober 1824; `Anteckningar` oanvänd på hela uppslaget. **Ny invändning:** Johannes står inte på sidan. |
+| P-0147 | full behandling | C-0506, C-0108, C-0205, C-0507 | UNDERKÄND, `PRÖVAT` | **AVVAKTAR** | UNDERKÄND | **Födelseåret preciserat till 1784** ur två källled; `39` 1824 avviker med ett år. **Hennes led är svagare än makens** — vigselposten 1854 namnger inte modern. |
+| P-0402 | full behandling | C-0506, C-0108 | **GODKÄND**, `PRÖVAT` | EJ BÄRANDE | UNDERKÄND | **Ortcellen 1821 läses inte `Bergvall`** — olöst ord, ingen kandidatläsning; hemvisten bärs av hushållssidan. **Hela `Testes`-blocket läst för första gången.** |
+
+**Tre av åtta når identitetsnivån.** Ingen av dem bär en anlinje: en syster,
+en dräng och en dotter i en kandidatfamilj. **Full kontraktsgranskning är
+underkänd för samtliga åtta.**
+
+**Följdägare:** T-0584 (kandidaturen P-0140/P-0144), **T-0585** (Anna Erika i
+Sköldinge), **T-0586** (de två oregistrerade Bergvallssönerna), T-0336
+(Bergvallsfamiljens ursprungs- och fortsättningsprövning), T-0581 (uppslaget
+för Näfverkärr).
+
+**Avgränsade anmälningar** förda i T-0132, T-0153, T-0336 och T-0581,
+inklusive **en uppgift utanför kohorten**: faderns rad i `A I/18` bär `sjuk`
+i en av de senare årskolumnerna och är inte förd i P-0133:s akt.
+
+## Verification och Outcome
+
+Kört 2026-09-10, samtliga gröna:
+
+- `node scripts/person-format.mjs P-0139 P-0140 P-0141 P-0142 P-0144 P-0146 P-0147 P-0402`
+  → **8 personer, 0 formatfel.**
+- `node scripts/research-inventory.mjs --write` följt av `--check`
+  → **Strukturfel: 0.** Åtta nya profiler; `EJ INFÖRT` 150 → **145**.
+- `node scripts/validate-genealogy.mjs`
+  → **OK: 4 978 assertions; 2 890 Markdown-poster; 5 065 mediefiler; Wotan-JSON giltig.**
+- `node --test scripts/` → **50 tester, 0 fel.**
+- `node scripts/media-manifest.mjs --check` → **OK: 5 064 mediefiler.**
+- `node scripts/goal-state.mjs` → **oförändrat gemensamt djup 4.** Ingen av
+  kohortens personer bär en anposition, så måttet ska inte röra sig — och det
+  gör det inte.
+
+**A-id-retention:** baslinjen 33 assertioner är intakt; **samtliga 33 står
+kvar med oförändrad lydelse**, med preciseringar och rättelser förda i
+kommentarskolumnen och i daterade H4-avsnitt. **20 nya assertioner**
+A-7818–A-7837.
+
+**Uppgifts-DONE är inte personernas fullständighet.** Åtta akter är
+konsoliderade och format- och kontraktsgranskade; **fem av dem har en öppen
+materiell fråga med namngiven Wotan-ägare**, och **ingen av de åtta har
+passerat full kontraktsnivå.** Bergvallsfamiljens kandidatur mot P-0058 är
+oavgjord och **har fått en ny invändning**, inte en lösning.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-10, vid avslut.
+- Utfört: **hela kohorten om åtta akter och åtta profiler**, batch 589, fem
+  citationstillägg, fyra avgränsade anmälningar och tre följduppgifter.
+- Delvis utfört: inget.
+- Aktuella frågor och beroenden: P-0146/Q-01–Q-04 och P-0147/Q-01–Q-03 ägs av
+  T-0336; P-0142/Q-01–Q-02 av T-0585; P-0140/P-0144:s kandidatur av T-0584;
+  P-0139:s ålder av T-0581; de två oregistrerade sönerna av T-0586.
+- Nästa ej utförda steg: inget inom denna uppgift. **Nästa kohort är T-0185.**
+- Verifiering: full svit körd och läst, samtliga gröna; se ovan.
+- Hinder: inga.
+
+## Checkpoint 2026-09-10: kohorten halvvägs, läget sparat inför sessionsbyte
+
+> **Historisk.** Checkpointen skrevs mitt i uppgiften och är **inte en
+> startinstruktion.** Samtliga sex punkter under `Nästa ej utförda steg`
+> nedan är utförda senare samma dag; se `Granskningsutfall` och
+> `Verification och Outcome` ovan för det avslutade läget. Avsnittet bevaras
+> som utförandehistorik.
+
+**Uppgiften var ONGOING och avsiktligt avbruten mitt i.** Ingenting nedan är
+verifierat som en avslutad kohort; detta är en sparad delleverans.
+
+### Utfört
+
+**Läsning av redan sparat bildmaterial** — inga nya arkivsökningar, inga nya
+person-id, inga sammanslagningar:
+
+- `C-0506` A I/2 sida 169 (Bergvall): hela det överstrukna hushållet läst.
+  **Fem rader:** Pehr Ersson 1790, hustrun 1784, **son Eric 1816**, **son
+  Anders 1818**, dotter Brita Greta 1821. **De två sönerna var oregistrerade.**
+  Födelse-dag-fältet är **läst tomt för hela hushållet** medan raderna två steg
+  ned bär dagar — därför kan 9/19-marskonflikten inte avgöras på denna sida.
+  `År 1824 Nattvardsgång` bär **två datumbråk med nämnarna 4 och 10** för båda
+  makarna: paret fanns kvar i Degerfors i april och oktober 1824, alltså efter
+  Johannes födelse. `Anteckningar`-kolumnen är **oanvänd på hela uppslaget**,
+  så den saknade destinationen är ingen läst negation om denna familj.
+  1815–1823 års förhörs- och nattvardskolumner är lästa tomma.
+- `C-0506` Degerfors C/2 sida 377, Brita Gretas födelsenotis 1821: föräldrarna
+  skrivs `Inhys: Pehr Ersson h:tru Brit: Lena Jsaksd:r`, moderns ålder `37`.
+  **Ortcellen läses inte `Bergvall`** — registrets `Bergvall` har annan form —
+  utan ett olöst ortnamn. Hela `Testes`-blocket är läst för första gången.
+- `C-0780` A I/18 sida 83: Anna Erikas egen rad. `Koppor: v`; gift-, inflyttnings-,
+  döds- och fräjdfälten lästa tomma; **`Bevistat Förhör` 1892 bär `²⁴/₁`**;
+  **utflyttningen står `Sköldinge`, `²²/₁₀ 92`, attest `26`.** Citationen anger
+  attest `16` och säger att det exakta datumet bara finns i utflyttningslängden;
+  **båda leden är fel och ska rättas.**
+- `C-0149` A I/16 sida 83, drängraderna 10–13: `Dr. Carl Johan Pettersson`
+  **1862-03-27 Årdala**, från sida 91 år 1879, till sida 112 år 1882 — alltså
+  boende i dopbarnets hushåll på dopdagen 1881-04-07. `Dr. Ivan Wilhelm
+  Svalberg` **1864-06-03 Forssa**. T-0132:s drängförteckning i citationen har
+  **tre fel**: Svalbergs år (1862 mot 1864), rad 12 (`Fredrik Vilhelm Eriksson
+  1853` mot `Claës Melcher Carlsson` 1863 Lerbo) och rad 13:s år (1863 mot 1865).
+- `C-0105` folkräkningsbladet 1880: bladets konvention utskriven — släkt får
+  familjeställningsförled, tjänstefolk får yrke. **Carl Johan Pettersson har
+  varken**, men räknas i hushållets fem: **två lästa nollor**, inte olästa celler.
+
+**Skrivet och formatrent (0 formatfel):**
+
+- Akter: `P-0139`, `P-0140`, `P-0141`, `P-0144` — samtliga i **minimiläge**
+  enligt PCD-2026-09-09-030.
+- Profiler: `P-0139`, `P-0140`, `P-0141`.
+- Nya assertioner: **A-7818–A-7823** (baslinjen var A-7817).
+- Ny uppgift **T-0584** med dev-log: avgör om P-0140 är P-0144. `next_id` 585.
+- Formatfel i `P-0140`/`P-0141`-akterna rättade: **tom rad inuti
+  `## Relationer`-tabellen** bröt tabellen i två i båda.
+
+### Känt brutet läge vid checkpointen — åtgärdat
+
+- **`P-0144`-profilen saknades.** **Skriven 2026-09-10; formatfelet och den brutna länken är borta.** Det ger **1 formatfel** och **1 bruten länk**
+  från akten. Detta är det enda kända felet och det är avsiktligt avbrutet
+  arbete, inte en förlorad uppgift.
+- Forskningsinventeringen var inte omskriven. **`--write` och `--check` körda vid avslut; Strukturfel: 0.**
+
+### Nästa ej utförda steg vid checkpointen, i ordning — samtliga utförda
+
+1. Skriv `research-profiles/P-0144.md` — minimiläge, `Identitetsläge: PRÖVAT`,
+   `Identitetsgranskning: GODKÄND`, `Trädverkan: BÄRANDE`, Q-01 kandidaturen
+   mot P-0140 med KP-01 = Forssas husförhörsbok sida 112 från 1882.
+2. Skriv akterna och profilerna för **P-0142, P-0146, P-0147, P-0402** i full
+   behandling, med de planerade assertionerna **A-7824–A-7838** enligt
+   läsningarna ovan.
+3. Daterade tillägg till **C-0104, C-0105, C-0149, C-0506, C-0780** med
+   uppslagens tryckta kolumner redovisade enligt person-standard.md.
+4. Avgränsade rapporter till **T-0132** (tre drängfel och C-0780:s attest),
+   **T-0153**, **T-0336** (Bergvallhushållets fem rader och 1824 års nattvard)
+   och **T-0581** (passagen betjänar även P-0139).
+5. Forskningslogg: **batch 589** i `genealogy/research-log/2026-09-10.md`.
+6. Full verifieringssvit och A-id-retention, därefter DONE.
+
+### Hinder
+
+Inga. Avbrottet är planerat och ägarbeslutat inför sessionsbyte.
+
+## Införandesteg från T-0132
+
+2026-09-08: P-0142 A-4390 tillför dop4februari1877, sakristian,
+första barnet och moderns kyrktagning11mars från fullprövad C-0152.
+Vittnesinitialer och ortformer är prövade reservationer. Full akt-/
+profilgranskning ägs här; rååldrar25/24 är en moderskolumn, inte två
+säkra föräldraåldrar. Biträdeskolumnen är inte religion.
+
+
+## Begränsat införandesteg från T-0142
+
+2026-09-08: P-0146/P-0147 har endast följdavstämts mot C-0205:s
+namngivna far Pehr Ersson och födelsetid 9 mars 1824, samt C-0207:s positiva
+Rosindahl 366/405 och C-0212:s avvisade 1847-brygga. Ingen mor namnges
+i vigselposten och ingen föräldrafusion görs. P-0146:s helårsanspråk
+begränsas till C-0108:s bevarade marsbild. Alla äldre A-rader och fulltext
+är bevarade, inga nya A-id. T-0336 äger den fasta framtida ursprungsvägen.
+
+Full individuell standardisering, profiler och PK-granskning för båda
+personerna återstår här. Detta steg tillgodoräknas som materiell
+följdrättelse, inte som två nya fullgranskade personer.

@@ -1,0 +1,84 @@
+# T-0037: Treat the fifth balanced depth-6 archive-front slice for eight people
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+T-0036 reduced invalid archive fronts through depth 6 from 15 to 11 and left
+no executable task. `PCR-2026-09-04-009` and delegated owner decision
+`PCD-2026-09-04-011` select the next finite slice.
+
+The fixed cohort is:
+
+- Sverker: P-0148 Sofia Magdalena Jonsdotter, P-0158 Hans Nilsson i
+  Åkullsjön, P-0159 Anna Stina Jonsdotter i Åkullsjön and P-0215 Brita
+  Christina Ersdotter i Carlberg.
+- Kristina: P-0386 Carl Fredric Andersson, P-0387 Anna Greta Danielsdotter,
+  P-0388 Anders Ringberg and P-0389 Johanna Christina Bökelund.
+
+New parents may be registered as minimal depth-7 people but are not researched
+further. T-0034 remains a separate parked living-person corroboration pass.
+
+## Acceptance Criteria
+
+- [x] Each fixed person has verified parent relation(s) or a valid
+  `## Slutstatus` with reproducible scope and exact reactivation condition.
+- [x] No uncertain identity or relation propagates.
+- [x] New depth-7 parents remain minimal and unresearched in this task.
+- [x] All eight dossiers are `GRANSKAD`, `Källbredd: KLAR` and have no
+  priority-1 source-family cell.
+- [x] The target-front delta is visible in `goal-state`, with unchanged
+  positions explained by an exact blocker.
+- [x] One research-log batch, standard validators, tests, media check,
+  dashboard build and balanced audit are complete.
+
+## Approach
+
+Audit all existing sources, conflicts and no-repeat controls first. Alternate
+sides, prefer the nearest parent-bearing original and stop at an honest
+reproducible archive front when the available key cannot safely identify a
+person.
+
+## Log
+
+- 2026-09-04: Created and started from the verified post-T-0036 goal-state.
+- 2026-09-04: The existing Sverker-side evidence was audited first. P-0158
+  and P-0215 already have parent-bearing birth originals; P-0148 and P-0159
+  retain reproducible terminal fronts. All four are now reviewed and
+  coverage-ready without repeating documented searches. The Kristina-side
+  Målilla/Bäckebo/Hossmo/Mortorp routes remain the active half of the task.
+- 2026-09-04: Målilla A I/5 gives terminal identity fronts for P-0386–
+  P-0387. Hossmo A I/3 plus the nominative Ringberg key resolve P-0388 to
+  P-0515–P-0516, while the complete 1801 birth-year control rejects the
+  other Anders candidate. Mortorp C/2 resolves P-0389 to P-0517–P-0518.
+  Research-log batch 262 records the single batch account.
+
+## Verification
+
+`node scripts/goal-state.mjs` shows all eight targets reviewed and
+coverage-ready, raises the depth-6 reviewed/ready counts from 32 to 40 and
+reduces invalid archive fronts through depth 6 from 11 to 7. The Kristina
+dashboard branch rises from 68 to 72 known ancestors; Sverker remains 87.
+
+`node scripts/validate-genealogy.mjs` passes with 2,721 assertions, 2,060
+Markdown records and 4,421 media files including `.gitkeep`. All 11 script
+tests pass. `scripts/verify-pedigree.mjs` passes with 87 independently
+reviewed ancestors on P-0004's branch. The media manifest passes with 4,420
+substantive files: 2,590 exact, 1,802 source-scoped and 28 citation-scoped,
+with none unlinked. Dashboard test and production build pass with 518 people,
+2,721 assertions and 547 parent links.
+
+Both bounded depth-5 ancestor audits were read. Their expected non-zero
+results concern later cohorts; every T-0037 target has verified parents or a
+valid terminal status. `git diff --check` passes. The Riksarkivet browser
+session was finalized without a CAPTCHA, order or submission.
+
+## Outcome
+
+Completed as research-log batch 262. P-0158 and P-0215 are consolidated as
+already parent-verified; P-0148 and P-0159 retain their reproducible fronts.
+P-0386–P-0387 receive exact Målilla household fronts without speculative
+origins. P-0388 Anders Ringberg now has P-0515 Olof Nilsson and P-0516 Maja
+Jonsdotter as verified parents, and P-0389 Johanna Christina Bökelund has
+P-0517 Samuel Bökelund and P-0518 Gustava Maria Kylenstjerna. The four new
+depth-7 people remain minimal and unresearched.

@@ -1,7 +1,392 @@
 {
   "version": "2.1.0",
-  "next_id": 640,
+  "next_id": 670,
   "tasks": [
+    {
+      "id": "T-0666",
+      "status": "ONGOING",
+      "size": "M",
+      "summary": "Säkra Genealogy2:s beständiga underlag och migrationsarbete i Git",
+      "note": "PCD-2026-09-18-001. Först säkra kod, importbas, operationspaket, journal, beslut och återställningsunderlag; redovisa commit och extern Git/LFS-status separat. SQLite och experimentella dumpar ska inte följa med av misstag. Denna planering startar ingen kontinuerlig körning.",
+      "phase": "IMPLEMENTING"
+    },
+    {
+      "id": "T-0667",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0666"
+      ],
+      "blocker": "Inväntar T-0666:s Git-säkring av det underlag som ska prövas.",
+      "summary": "Pröva återuppbyggnad genom riktade stickprov och analysera migrations- och återställningskostnad",
+      "note": "PCD-2026-09-18-001. Återbruk av tidigare stora prov; fullständig billig filkontroll och riktade beroendekedjor. Skilj ursprunglig semantisk migration, mekanisk replay och testkostnad. Ingen full ombyggnad eller bred optimering som standard."
+    },
+    {
+      "id": "T-0668",
+      "status": "IDEA",
+      "size": "M",
+      "summary": "Analysera projektets organisation efter övergången till Genealogy2",
+      "note": "PCD-2026-09-18-001. Senare steg efter Git-säkring och återställningsbedömning: kartlägg aktuella källor, fryst forskningshistorik, giltiga styrdokument, operativ modell och härledda artefakter mellan genealogy och genealogy2. Föreslå informationsansvar och vägar före flytt/radering; deprecated arbetsform betyder inte oviktiga källdokument. Kräver uttrycklig aktivering."
+    },
+    {
+      "id": "T-0669",
+      "status": "IDEA",
+      "size": "M",
+      "summary": "Ompröva framtida inkrementell extern backup, exempelvis restic",
+      "note": "PCD-2026-09-18-001. Uttryckligen parkerad, inte förkastad. Inget installerat eller konfigurerat. mapg/MAPGXYT764H6G nåddes read-only via etablerad Tailscale/SSH 2026-09-18 och hade cirka 493 GB ledigt; detta är daterad kapacitet, ingen reservation. ../unifi beskriver åtkomsten. Ompröva vid ägaraktivering eller när datamängd/återställningskostnad motiverar det."
+    },
+    {
+      "id": "T-0665",
+      "status": "IDEA",
+      "size": "M",
+      "after": [
+        "T-0664"
+      ],
+      "summary": "Vanlig SQLite SQL-dump i Git; ersätt tidigare specialformat",
+      "note": "Parkerad 2026-09-18 enligt PCD-2026-09-18-001. Ägaren godkände inte sex SQL-delar; återuppta inte detta försök automatiskt. Historik och lokala artefakter bevaras. T-0666/T-0667 prioriterar Git-säkrat underlag och prövad rekonstruktion."
+    },
+    {
+      "id": "T-0664",
+      "status": "DONE",
+      "size": "M",
+      "after": [],
+      "summary": "Databasdump i Git: komprimerad export, kontroll och verifierad återställning",
+      "note": "Ägarbeställning 2026-09-17. SQLite förblir ignorerad. Ingen ny forskning eller dashboarduppdatering."
+    },
+    {
+      "id": "T-0640",
+      "status": "DONE",
+      "size": "L",
+      "after": [],
+      "summary": "Genealogy2: verifierbar importbas och förlustfri SQLite-import av befintlig forskning",
+      "note": "PCD-2026-09-16-001. Ordinarie forskning i genealogy pausad. Ingen dashboard, publicering eller commit."
+    },
+    {
+      "id": "T-0641",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0640"
+      ],
+      "summary": "Genealogy2: typad kunskapsmodell, kontrollerade skrivoperationer och granskad pilot",
+      "note": "Hulda med berörda familje-/vittnesroller, noll, dubblett, avvisad identitet och ägarkunskap."
+    },
+    {
+      "id": "T-0642",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0641"
+      ],
+      "summary": "Genealogy2: inventera och fördela återstående semantisk konvertering från den fasta importbasen",
+      "note": "Leverans: full täckningsredovisning och ändliga konverteringsuppgifter per återstående objektsgrupp. Ingen dold omgranskning av all forskning."
+    },
+    {
+      "id": "T-0643",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0642",
+        "T-0644",
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651",
+        "T-0652",
+        "T-0653",
+        "T-0654",
+        "T-0655",
+        "T-0656",
+        "T-0657",
+        "T-0658",
+        "T-0659",
+        "T-0660",
+        "T-0661",
+        "T-0662",
+        "T-0663"
+      ],
+      "summary": "Genealogy2: slutlig migreringsavstämning, återställningsprov och skifte av skrivansvar",
+      "note": "Skiftet kräver fungerande strukturerad kärna och spårbar hantering av varje importenhet; fulltextsökning ensam räcker inte."
+    },
+    {
+      "id": "T-0644",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0642"
+      ],
+      "summary": "Genealogy2: färdigställ skrivflöden, återställning och läsverktyg för ordinarie bruk",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0645",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0644"
+      ],
+      "summary": "Genealogy2: fullständigt person- och källregister med granskade avvecklingsmappningar",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0646",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645"
+      ],
+      "summary": "Genealogy2: källposter och evidensgränser evidence-01",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0647",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645"
+      ],
+      "summary": "Genealogy2: källposter och evidensgränser evidence-02",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0648",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645"
+      ],
+      "summary": "Genealogy2: källposter och evidensgränser evidence-03",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0649",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645"
+      ],
+      "summary": "Genealogy2: källposter och evidensgränser evidence-04",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0650",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645"
+      ],
+      "summary": "Genealogy2: källposter och evidensgränser evidence-05",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0651",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645"
+      ],
+      "summary": "Genealogy2: källposter och evidensgränser evidence-06",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0652",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-01 (P-0001–P-0050)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0653",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-02 (P-0051–P-0100)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0654",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-03 (P-0101–P-0150)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0655",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-04 (P-0151–P-0200)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0656",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-05 (P-0201–P-0250)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0657",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-06 (P-0251–P-0300)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0658",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-07 (P-0301–P-0350)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0659",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-08 (P-0351–P-0400)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0660",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-09 (P-0401–P-0450)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0661",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-10 (P-0451–P-0500)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0662",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0645",
+        "T-0646",
+        "T-0647",
+        "T-0648",
+        "T-0649",
+        "T-0650",
+        "T-0651"
+      ],
+      "summary": "Genealogy2: kunskapskärna persons-11 (P-0501–P-0538)",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
+    {
+      "id": "T-0663",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0652",
+        "T-0653",
+        "T-0654",
+        "T-0655",
+        "T-0656",
+        "T-0657",
+        "T-0658",
+        "T-0659",
+        "T-0660",
+        "T-0661",
+        "T-0662"
+      ],
+      "summary": "Genealogy2: källvägar, forskningssammanhang och restavstämning",
+      "note": "PCD-2026-09-16-001; ingen ny arkivforskning. "
+    },
     {
       "id": "T-0112",
       "status": "DONE",

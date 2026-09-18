@@ -1,0 +1,32 @@
+✖ åttonde kohorten bevarar källrättelser och avgränsningar med full radtäckning, omkörning och återställning (422816.563792ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 422953.027833
+
+✖ failing tests:
+
+test at genealogy2/test/person-cohort-08.test.mjs:16:1
+✖ åttonde kohorten bevarar källrättelser och avgränsningar med full radtäckning, omkörning och återställning (422816.563792ms)
+  AssertionError [ERR_ASSERTION]: A-5643
+  + actual - expected
+  
+  + 'pending_interpretation'
+  - 'mapped_complete'
+  
+      at TestContext.<anonymous> (file:///Users/sverker/repos/slaktforsk/genealogy2/test/person-cohort-08.test.mjs:51:218)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 'pending_interpretation',
+    expected: 'mapped_complete',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

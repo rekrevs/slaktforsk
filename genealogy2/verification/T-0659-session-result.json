@@ -1,0 +1,51 @@
+{
+  "task": "T-0659",
+  "purpose": "Session preservation; no new person conversion",
+  "date": "2026-09-17",
+  "databases": [
+    {
+      "path": "genealogy2/data/research.sqlite",
+      "digest": "7652c0944cffa43e09472ec965575a32382ea6b9eec0d2ec73716d10ed8c23d0",
+      "journalEntries": 33,
+      "unchangedSince": "T-0658"
+    },
+    {
+      "path": "genealogy2/verification/T-0644-restored-root/genealogy2/data/research.sqlite",
+      "digest": "7652c0944cffa43e09472ec965575a32382ea6b9eec0d2ec73716d10ed8c23d0",
+      "journalEntries": 33,
+      "unchangedSince": "T-0658"
+    }
+  ],
+  "prepared": {
+    "people": 37,
+    "first": "P-0351",
+    "last": "P-0387",
+    "package": "genealogy2/migration/persons-08-a.json",
+    "packageHash": "17706d50253f7aa14bdc8b1cfe33fe6b5146ae433d364a683aa721d37893d260",
+    "requestHash": "9feff1f769d70ee33a2aa6e1cd37f92d20f262bf95c7cac4519edd6d9b751be0",
+    "changes": 2596,
+    "spans": 134,
+    "unitDecisions": 3917,
+    "requestMatchesPassedProbe": true,
+    "riskChecks": {
+      "groups": 33,
+      "ok": true
+    },
+    "pendingProbe": 0,
+    "pendingMain": 0
+  },
+  "preservedFilesVerified": 30,
+  "mainVerification": {
+    "ok": true,
+    "errors": []
+  },
+  "sourceVerification": {
+    "ok": true,
+    "mediaVerified": true,
+    "problems": []
+  },
+  "evidenceFiles": [
+    "genealogy2/migration/persons-08-support/logs/genealogy2-T0659-first37-probe.log",
+    "genealogy2/verification/persons-08-risk-checks.mjs"
+  ]
+}

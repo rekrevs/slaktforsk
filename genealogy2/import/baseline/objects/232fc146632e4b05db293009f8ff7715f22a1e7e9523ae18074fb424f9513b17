@@ -1,0 +1,237 @@
+# T-0163: Konsolidera befintliga akter, djup 6 sida S från P-0082
+
+**Status**: DONE | **Size**: M
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0082, P-0088, P-0520, P-0521, P-0522, P-0523, P-0524, P-0525
+
+## Scope och underlag
+
+Exakt dessa 8 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 24 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0062, C-0064, C-0066, C-0869, C-0872, C-0964, C-1055, C-1071, C-1072.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+| Person | Datum/version | Granskat underlag | Format | Konsolidering | Identitetsbedömning | Livsbildsbedömning | Rättelser/luckor och följduppgift |
+|---|---|---|---|---|---|---|---|
+| P-0082 Jonas Andersson | 2026-09-09, person-dossier/v1 | 10 äldre A samt C-0062, C-0064, C-0066, C-0869, C-0964 | 0 fel | A 10→16, nya A-6600–A-6605, första profilen | UNDERKÄND / AVVAKTAR | UNDERKÄND | Bruten påståendetabell lagad. **A-0335 bar en positiv släktslutsats under status `REJECTED`** — lydelsen var fel, inte statusen; relationen bärs nu av A-3276 plus sonens födelsenotis. A-4016 ändrad `NEGATIVE`→`TRANSCRIBED`: ett tomt Hvarifrån-fält är en källgräns, inte ett negativt fynd. **A-3616 höjd `LEAD`→`CORROBORATED`** sedan hans egen rad utvunnits. T-0467, T-0468 |
+| P-0088 Jonas Andersson, dopvittne | 2026-09-09, person-dossier/v1 | 2 äldre A samt C-0062 | 0 fel | A 2→4, nya A-6610–A-6611, första profilen | **GODKÄND / EJ BÄRANDE** | UNDERKÄND | **Identiteten med P-0082 är avgjord.** Fadderraden skriver `Jon` — kortformen han bär i fyra husförhörsböcker — medan A I/9c skriver `Jonas` överst i barnets egen hushållsgrupp. Posterna är **inte** sammanslagna; `EJ BÄRANDE` sätts på samma grund som dubbelposten P-0295. T-0467 |
+| P-0520 Anna Johanna | 2026-09-09, person-dossier/v1 | 2 äldre A samt C-0869, C-0872, C-1055, C-1072 | 0 fel | A 2→8, nya A-6650–A-6655, första profilen | UNDERKÄND / AVVAKTAR | UNDERKÄND | A-3280 omformulerad: den påstådda konflikten "1832 mot 1833" är två läsningar av **samma** överskrivna och överstrukna cell. A-3281 hålls `TRANSCRIBED` — A I/3 → A I/4 → A I/5b → A I/6b är **en** informationsväg. Nytt: födelsedag `5/2`, `Hvarthän 478`, egna nattvardsnoteringar 1848–1852. Hela syskonskaran införd i Relationer. T-0464, T-0465 |
+| P-0521 Lisa Catharina | 2026-09-09, person-dossier/v1 | 2 äldre A samt C-0869, C-0872, C-1055, C-1072 | 0 fel | A 2→9, nya A-6660–A-6666, första profilen | UNDERKÄND / AVVAKTAR | UNDERKÄND | **Namnfrågan Lisa/Eva är avgjord.** Hennes egen rad i `A0001436_00022` skriver `Lisa Catharina`; `Eva` står på ingen originalrad och är satt till `REJECTED`. Filnamnet bär fortfarande den felaktiga formen och är länkat från fyra akter. Nytt: månadskonflikten `6/12` mot `6/3`, `Hvarthän 44[4/7?]`, nattvardsnotering med `f.g.` 1851. T-0465, T-0469 |
+| P-0522 Jonas | 2026-09-09, person-dossier/v1 | 2 äldre A samt C-0869, C-0872, C-1055, C-1072 | 0 fel | A 2→10, nya A-6700–A-6707, första profilen | UNDERKÄND / AVVAKTAR | UNDERKÄND | Den äldre 26/8-läsningen preciserad till två volymer och nedgraderad: A I/4:s dagtal är överarbetat i bevarad fullbild och A I/3:s bild saknas lokalt. Överstrykning och **utflyttningshänvisning 464** i A I/8b införda. `27/5` utvunnet ur A I/5b. T-0464, T-0465, T-0466 |
+| P-0523 Eva Lovisa | 2026-09-09, person-dossier/v1 | 2 äldre A samt C-0869, C-0872, C-1055, C-1072 | 0 fel | A 2→9, nya A-6720–A-6726, första profilen | UNDERKÄND / AVVAKTAR | UNDERKÄND | Hela namnraden i A I/9c är överstruken och `Flyttat till` bär `41,4` med tomt datum- och attestfält. Dagsiffran `24` utvunnen ur A I/4 s. 310, som citationen lämnade utan dag och månad. Födelseortsdittot till faderns `i förs.` infört. T-0464, T-0465, T-0466 |
+| P-0524 Ulrika Carolina | 2026-09-09, person-dossier/v1 | 2 äldre A samt C-0064, C-0869, C-0872, C-1055, C-1072 | 0 fel | A 2→8, nya A-6750–A-6755, första profilen | UNDERKÄND / AVVAKTAR | UNDERKÄND | **A-3288 från `CONFLICT` till `CORROBORATED`:** den påstådda avvikelsen `10/6` finns inte i bilden — täljaren är formad exakt som broderns `16/4 1839` på raden ovanför, alltså `16/6 1841`. Fyra böcker är samstämmiga men redovisas som **en** kopierad kedja. **Utflyttningstalet är `4[8?]3`, inte `403`.** T-0464, T-0465, T-0466 |
+| P-0525 Carl Johan | 2026-09-09, person-dossier/v1 | 2 äldre A samt C-0110, C-0869, C-0872, C-1055 | 0 fel | A 2→8, nya A-6760–A-6765, första profilen | UNDERKÄND / AVVAKTAR | UNDERKÄND | A-3290 vidgad från en hushållsuppgift till fyra lästa egna rader, alla `20/9 1843`, med uttrycklig oberoendereservation. Egna nattvardsnoteringar varje år 1861–1865. **C-0110:s oktoberuppslag innehåller honom inte** — det avgränsar hans födelsenotis till bild 77 och är inget årsnoll. T-0464, T-0465, T-0466 |
+
+### Vad kohorten faktiskt visade
+
+**Sex akter med identiska mått var sex kopior av samma mall.** P-0520–P-0525
+hade var för sig exakt 62 rader och exakt två påståenden — skrivna vid ett
+tillfälle ur ett enda uppslag, utan att någon av dem sedan fått sin egen rad
+utvunnen. Efter granskningen har de 8–10 påståenden var, alla ur bilder som
+redan låg sparade. **Ingen av de sex identitetsnivåerna faller på en
+sakuppgift:** alla sex faller på samma två bilder — A I/7b s. 400, där bara
+namn och år är avskrivna för barnen och bilden saknas lokalt, och A I/3 s. 262,
+som saknar känd ägare för återbevarande.
+
+**En identitetsfråga avgjord av en bortnormaliserad namnform.** P-0088 hölls
+åtskild från P-0082 som `LEAD` sedan länge. Dopfadderraden skriver
+`Nämndemannen **Jon** Andersson`; citationens avskrift normaliserade det till
+`Jonas`. `Jon` är exakt den form P-0082 bär i A I/3, A I/4, A I/5b och A I/7b,
+medan A I/9c skriver `Jonas` överst i barnets **egen hushållsgrupp**, alltså
+som dess farfar. Normaliseringen tog bort just det drag som band ihop
+posterna. Läsningen är kontrollerad centralt och bekräftades dessutom
+oberoende av en annan agent, som läste `Gode Mannen Jon Andersson 1796` i en
+tredje volym.
+
+**Antavlebaslinjen är sakligt avgjord för en av de sex avvikelserna.**
+Föräldrarelationen P-0082 → P-0065 håller, med en beläggskedja i femton
+punkter: sonens samtida födelsenotis 1839 namnger båda föräldrarna och byn,
+husförhörsboken året före födelsen har familjen med sonens exakta datum, fyra
+följande böcker upprepar samma par och datum, och A I/9c folio 85 visar sonen
+både som son överst och som bonde i egen familj längre ned på **samma
+uppslag**, med fadern som undantagsman. Rätt åtgärd är att **lägga till**
+P-0082 och P-0519 på djup 5 i `scripts/verify-pedigree.mjs`, inte att ta bort
+kanten. Fyra av de sex avvikelserna är fortfarande oprövade.
+
+**En citation åberopad som belägg för något den inte innehåller.** Åtta
+syskonrader i P-0065 förde C-1055 som belägg med status `CORROBORATED`.
+Uppslaget nämner ingen av syskonen. Deras frånvaro där är en iakttagelse om det
+uppslaget, inte ett belägg **för** syskonskapet. Beläggen är strukna och
+statusen sänkt. Detta är en annan felklass än de tre tidigare fallen av
+uppgift utan spår: här finns beläggslänken, men den pekar på ett dokument som
+inte säger saken.
+
+**Ett `REJECTED` påstående som bar en positiv slutsats.** A-0335 stod
+`REJECTED` men innehöll formuleringen "Jonas är hennes farfar genom Anders
+Jonsson". Ett avvisat påstående kan inte samtidigt vara det som bär en
+relation. Lydelsen var fel, inte statusen.
+
+**Två felläsningar med praktisk verkan.** Utflyttningstalet `403` är `4[8?]3` —
+sidans egna nollor är runda ovaler, detta tecken är smalt och tvålyftat — och
+folio 483 är den enda kända vägen till kvinnans vuxna liv, så en uppslagning på
+403 hade lett fel. Och `Eva Catharina` är `Lisa Catharina`; formen `Eva` står
+på ingen originalrad, men den sitter i ett filnamn som är länkat från fyra
+akter.
+
+**En konflikt som inte fanns.** A-3288 stod `CONFLICT` på att en volym skulle
+skriva `10/6`. Bilden visar `16/6`, med täljaren formad exakt som broderns
+`16/4` på raden ovanför. Fyra böcker är samstämmiga — men de är fyra folier i
+en kopierad kedja, inte fyra röster, och det redovisas nu.
+
+## Verification och Outcome
+
+Kört 2026-09-09:
+
+- `node scripts/person-format.mjs` för kohortens åtta — **0 formatfel**.
+- Kohortkontroll — **OK** för alla åtta.
+- `node scripts/validate-genealogy.mjs` — **OK: 4528 assertions; 2746
+  Markdown-poster; 5065 mediefiler; Wotan-JSON giltig.**
+- `node scripts/research-inventory.mjs --check` — **Strukturfel: 0.**
+  Identitetsgranskning GODKÄND 94. Trädverkan BÄRANDE 91, EJ BÄRANDE 2.
+- `node --test scripts/` — **50 av 50 passerar.**
+- Falska släktkanter, båda klasserna — **0 kvarstående**.
+- A-id-behållning mot HEAD — **inget A-id förlorat.**
+
+Tre läsningar är oberoende kontrollerade centralt mot originalbilderna, och
+alla tre bekräftades: namnformen `Jon Andersson` i två skilda volymer,
+utflyttningstalets mittensiffra som inte är en nolla, och husållsraden
+`Lisa Catharina`. I två av de tre fallen hade två agenter oberoende av varandra
+kommit till samma läsning innan den centrala kontrollen gjordes.
+
+**Outcome.** Kohortens åtta akter följer person-dossier/v1 och har var sin
+profil — samtliga åtta profiler är nyskapade. En person når identitetsnivån och
+får `EJ BÄRANDE` som dubbelpost; sju gör det inte, och för sex av dem faller
+nivån på **samma två bilder**, inte på någon sakuppgift. Ingen av de sju bär
+anlinje, så `AVVAKTAR` håller inte tillbaka antavlan. **Uppgiften är klar;
+personerna är det inte.** Sex avgränsade följduppgifter T-0464–T-0469 är
+skapade, samtliga BLOCKED bakom T-0115, varav T-0464 ensam kan stänga sex
+identitetsnivåer. Begränsad följdrättelse i P-0065, rapporterad till T-0129.
+Fem citationstillägg. Antavlebaslinjens avvikelse är sakligt avgjord för
+P-0082/P-0519 och förd till T-0115.
+
+## Återupptagning — avslutad
+
+- Uppdaterat: 2026-09-09.
+- Utfört: samtliga åtta akter och profiler konsoliderade och verifierade;
+  sex följduppgifter skapade; batch 568 loggad; uppgiften DONE.
+- Nästa ej utförda steg: inget inom denna uppgift. T-0464 stänger sex
+  identitetsnivåer med två bildhämtningar och bör tas först.
+- Hinder: inga.
+
+## Följdavstämning från T-0140
+
+T-0140 har minimalt avstämt P-0082/P-0520–P-0525; full äldre text och A är bevarade. Läs nya appender i C-0064/C-0869/C-0872/C-1072: hustruns död1867-11-23, Lisa Catharina rättad från Eva, barnens rådatumavvikelser och upphävd tomfältsslutsats. Full individuell adoption/profil förblir denna uppgifts ansvar.
+
+## Rapport från T-0180, 2026-09-09: två av fadderradens led prövade
+
+Du läste om C-0062:s fadderkolumn vid konsolideringen av P-0088 och rättade
+`Jonas Andersson` till **`Jon Andersson`** — med iakttagelsen att
+normaliseringen hade raderat just den diskriminerande uppgiften.
+**Två av radens övriga led hör till T-0180:s kohort och är nu prövade.**
+
+**`Forsberg`: bläckfläcken sitter före namnet, inte över orten.** Din läsning
+skrev `... Forsberg i [ort skymd av bläckfläck]`. Vid 260 % lyder ledet
+`och [■ fläck ■] Forsberg i [kort förkortad ort]`: **fläcken täcker ordet före
+efternamnet** — hans titel eller förnamn, med sista bokstäverna möjligen
+`-sen` eller `-ssn` — **medan ortangivelsen efter `i` är skriven och inte
+dold**, men kort förkortad och **inte upplöst**.
+
+**Preciseringen är praktisk.** Den delar
+[P-0089](../../genealogy/people/P-0089-forsberg-dopvittne-1867.md)s läsuppdrag
+`Förnamn, relation och ort är inte säkert lästa` i tre led med **olika utfall**:
+förnamnet är **dolt** — en källgräns; relationen står **inte i källan alls**,
+eftersom fadderraden inte anger relationer till barnet för något vittne — också
+en källgräns; och **orten är det enda ledet en omläsning kan hjälpa.** Att veta
+det innan någon läser om samma cell en tredje gång är hela vinsten.
+**Aktens enda återstående passage** är den alternativa skanningen
+`A0001457_00205`, som är sparad men **oprövad för just detta led**.
+
+**`Bond. J. A. Lundgren o h:u i Risliden[?]`: säkerheten är nu fördelad led
+för led.** **Ståndsbeteckningen, initialerna, efternamnet och `o h:u` är
+säkert lästa**; **ortnamnets slut är inte upplöst**, och din reservation står
+kvar. Två led tillkommer i
+[P-0090](../../genealogy/people/P-0090-ja-lundgren-dopvittne-1867.md): **en
+namnlös hustru** och **orten som söknyckel**. Aktens formulering `Initialer och
+namnform är preliminära` är preciserad: **namnet och ståndet är säkra, och att
+initialerna bara är initialer är en källgräns och inte en läsosäkerhet.**
+
+**Orten är hans egentliga värde**, och den kom ur din omläsning: `Risliden`
+gör honom sökbar i ett husförhörsuppslag på ett sätt de två andra vittnena
+inte är, och en husförhörsrad skulle ge både förnamn och ålder. **Han är den
+bäst belagde av de tre oidentifierade vittnena** — ett stånd, ett civilstånd
+och en läsbar ort — medan Forsberg bara har ett efternamn under en fläck.
+
+**Avgränsning.** P-0089 och P-0090 är färdigadopterade i T-0180, båda i
+minimiläge enligt PCD-2026-09-09-030. **Dina övriga led i fadderraden rörs
+inte** — `Jon Andersson`, `Bolltjern[?] Jonas Högberg` och `Bonden Ol.
+Andersson` tillhör P-0088, P-0091 och P-0093, och dina två avvikelser mot
+avskriften om P-0091 och P-0093 är oprövade här.
+
+## Inkommen observation från T-0181, 2026-09-09
+
+Denna uppgift begärde uttryckligen att dess omläsning av C-0062:s
+fadderkolumn skulle kontrolleras mot originalet innan något ändrades i
+**P-0091** och **P-0093**. **Kontrollen är nu utförd i båda sparade
+skanningarna** — huvudbilden `C0034078_00209` vid 190 % och den alternativa
+`A0001457_00205` vid 230 %, post 139 — och **T-0163 hade rätt i varje led som
+går att läsa.**
+
+- **`Maria Andersd:r`, inte `Maria Olofsd:r`.** Patronymikonet är säkert läst.
+  **Avskriftens läsning är avvisad**, och P-0093:s rubriknamn följer nu
+  källan; filnamnet bär den äldre formen och en omdöpning är uppskjuten. Se
+  A-7786.
+- **`B:m`, inte `H:ru`.** Titeln är **två tecken**. Avskriftens `hustru` har
+  därmed inget stöd, och **P-0093 är inte längre belagd som gift** — akten är
+  fattigare än den var, vilket är rätt utfall.
+- **`Bonden Ol. Andersson` och orten `i Rodå`.** Båda bekräftade; ortens
+  vokaltecken är osäkert i **båda** skanningarna. **Att förnamnet står `Ol.`
+  och inte bara `O.` är ett led mer än avskriften hade.** Se A-7785.
+- **P-0091 är inte piga.** Ordet före hennes namn är fem till sju bokstäver,
+  **för långt för `pig.`**, och hon står bunden till `Jonas Högberg`.
+  **Men T-0163:s läsning `[dess] hustru` fastställs inte**: ordet är oläsligt
+  i båda skanningarna. **Vad som faller är `pigan`; vad som står kvar är
+  bindningen.** Se A-7784.
+
+**Två läsgränser sitter på papperet, inte i skanningen.** Titeln före
+`Jonas Högberg` — T-0163:s `Bolltjern[?]` — ligger delvis under **en
+bläckellips som syns i båda skanningarna**, och relationsordet är oläsligt i
+båda. **Den alternativa skanningen är därmed prövad för dessa led och ger
+ingenting mer**, och en tredje omläsning är utesluten. Det stänger en väg som
+annars hade stått som oprövad.
+
+**T-0180:s iakttagelse om samma bläckfläckars läge bekräftas i sak:** fläckar
+och ellipser i denna fadderkolumn sitter på papperet och syns i båda
+skanningarna. **T-0180 lämnade den alternativa skanningen oprövad för
+P-0089:s led** — den frågan är oförändrad och rörs inte här.

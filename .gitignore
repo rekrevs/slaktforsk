@@ -20,3 +20,18 @@ __pycache__/
 .ruff_cache/
 node_modules/
 .venv/
+
+# Genealogy2 runtime database and disposable verification copies.
+# Durable exports and the exact import baseline remain versionable.
+genealogy2/data/*.sqlite
+genealogy2/data/*.sqlite-*
+# Parked dump experiments (T-0665); retained locally, not recovery inputs.
+genealogy2/backups/
+genealogy2/backup.sh
+genealogy2/verification/*
+# Keep verification code and compact results; disposable databases, exports
+# and restored trees remain ignored.
+!genealogy2/verification/*.mjs
+!genealogy2/verification/*-result.json
+!genealogy2/verification/T-*.md
+genealogy2/migration/pilot-coverage.json

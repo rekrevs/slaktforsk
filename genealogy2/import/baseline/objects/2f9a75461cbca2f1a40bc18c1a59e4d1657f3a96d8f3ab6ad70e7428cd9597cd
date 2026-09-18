@@ -1,0 +1,119 @@
+# T-0189: Konsolidera befintliga akter, fristående sidopersoner/kandidater från P-0193
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0193, P-0194, P-0196, P-0195, P-0198, P-0199, P-0200, P-0201
+
+## Scope och underlag
+
+Exakt dessa 8 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 8 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0133, C-0134.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Samtliga åtta akter granskade 2026-09-10. **Ingen ny arkivsökning och ingen
+ny läsning.** Batch 594.
+
+**Kohorten är programmets första som helt saknar originalkälla.** Samtliga
+åtta finns bara i en privat antavla på internet, i två visningar ur samma
+databas — C-0133 och C-0134 — **som uttryckligen inte räknas som två källor.**
+**Samtliga fick minimiläge enligt PCD-2026-09-09-030.**
+
+| Person | Vad sammanställningen ger | Identitetsläge | Trädverkan | Prövbar? |
+|---|---|---|---|---|
+| P-0193 Gudmund Nilsson | **två led, inga datum** | `OLÖST` | AVVAKTAR | **nej** — bara genom P-0196:s födelsepost |
+| P-0194 Märta NN | **ett förnamn, `NN` som efternamn** | `OLÖST` | AVVAKTAR | **nej** — projektets tunnaste akt |
+| P-0195 Nathanael Hansson | född 1737 Bjännfors, **död 1803-05-28** | `OLÖST` | AVVAKTAR | **ja** — dödbok 1803 |
+| P-0196 Cecilia Gudmundsdotter | född 1736 Bjännsjön, **död 1821-05-29** | `OLÖST` | AVVAKTAR | **ja** — dödbok 1821 |
+| P-0198 Carl Johan Hansson | **född 1822-06-01**, död 1902 | `OLÖST` | EJ BÄRANDE | **ja** — födelsebok 1822 |
+| P-0199 Jonas Fredrik Hansson | **född och död 1823**, tre veckor | `OLÖST` | EJ BÄRANDE | **ja** — båda i årgång 1823 |
+| P-0200 Lisa Caisa Hansdotter | **född 1824-08-31 i Sjöbäck** | `OLÖST` | EJ BÄRANDE | **ja** — födelsebok 1824 |
+| P-0201 Anna Maja Hansdotter | **född 1825, död 1827** | `OLÖST` | EJ BÄRANDE | **ja** — 1825 och 1827 |
+
+**Kohortens huvudfynd är källkritiskt:** samma sida är **falsifierad** på
+fadderlistan för Hans Nilsson och **verifierad** på dotterns födelse
+1840-10-17 — exakt vad originalnotisen C-0121 ger för antavlans P-0095.
+**En källa som är fel på en punkt och rätt på en annan måste prövas post för
+post**, och sex av åtta uppgifter är prövbara i en volymserie projektet redan
+läser.
+
+**Ingen assertion har uppgraderats från `LEAD`.**
+
+**Följdägare:** [T-0594](T-0594.md), som prövar sex akter i en volymserie.
+P-0193 och P-0194 har ingen egen väg och står `EJ BESLUTAT UTFÖRANDE` med
+utskrivet beroende.
+
+## Verification och Outcome
+
+Kört 2026-09-10, samtliga gröna:
+
+- `node scripts/person-format.mjs P-0193 … P-0201` → **8 personer, 0 formatfel.**
+- `node scripts/research-inventory.mjs --write` följt av `--check`
+  → **Strukturfel: 0.**
+- `node scripts/validate-genealogy.mjs` → **OK.**
+- `node --test scripts/` → **50 tester, 0 fel.**
+- `node scripts/media-manifest.mjs --check` → **OK.**
+- `node scripts/goal-state.mjs` → **oförändrat gemensamt djup 4.**
+
+**A-id-retention:** baslinjen 8 assertioner är intakt; **samtliga 8 står kvar
+med oförändrad lydelse och oförändrad status `LEAD`.** **8 nya assertioner**
+A-7872–A-7879, samtliga `LEAD` med tillförlitlighet `låg`.
+
+**Uppgifts-DONE är inte personernas fullständighet** — och för denna kohort
+inte ens att personerna är belagda. **Åtta akter dokumenterar åtta uppgifter,
+inte åtta personer.**
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-10, vid avslut.
+- Utfört: **hela kohorten om åtta akter och åtta profiler**, batch 594, ett
+  citationstillägg och en följduppgift.
+- Delvis utfört: inget.
+- Aktuella frågor och beroenden: sex akters Q-01 ägs av T-0594; P-0193 och
+  P-0194 har ett utskrivet beroende till P-0196:s uppgivna födelsepost 1736.
+- Nästa ej utförda steg: inget inom denna uppgift. **Nästa kohort är T-0190.**
+- Verifiering: full svit körd och läst, samtliga gröna; se ovan.
+- Hinder: inga.
+
+
+## Införandesteg från T-0139 — P-0198
+
+2026-09-08: sekundär dödsortsavskrift rättad Olsiden, Degerfors → Olsiden, Bygdeå mot C-0133:s lokala bild. LEAD kvarstår, äldre A-rad bevarad. Full akt-/profiladoption ägs här.
+
+
+## Införandesteg från T-0139 — P-0200
+
+2026-09-08: sekundär dödsortsavskrift rättad Olsiden, Degerfors → Olsiden, Bygdeå mot C-0133:s lokala bild. LEAD kvarstår, äldre A-rad bevarad. Full akt-/profiladoption ägs här.

@@ -1,0 +1,92 @@
+# T-0053: Följ Anders Bubergetshushåll bakåt före 1867
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+Beslutad genom PCD-2026-09-05-004 i [Project Control](../../PROJECT-CONTROL.md)
+inom ägarens kontinuerliga mandat. Granskningsorsaken finns i
+[batch 272](../../genealogy/research-log/2026-09-05.md).
+Berörd front: P-0065, djup 5 från Adam och Axel.
+
+## Scope
+
+C-0106/C-0064: Anders Jonsson, april 1839, Lotta Sofia och Buberget 1867; C-0115 visar fel i tidigare bysökning.
+
+Jämför det redan bevarade A I/9c-hushållets folio med vigselhänvisningen och lokalisera Bubergets avsnitt i A I/8a–b 1861–1865 och A I/6a–b 1848–1857 via originalregister. Läs dessa avsnitt och högst ett direkt hänvisat tidigare hushåll.
+
+Förväntat kunskapsresultat: Säkra eller avgränsa en bakåtbrygga för samma Anders genom datumvarianter, maka, yrke och kontinuitet. Redovisa när han först återfinns i de lästa Bubergetsavsnitten utan att inferera födelseort ur vistelse.
+
+Utanför: Ingen sockenomfattande namnsökning, omkörning av C-0107:s födelseår eller jord-/bouppteckningsundersökning. Inga föräldrar av patronymikon ensamt. Inga beställningar, kontoköp, meddelanden, PDF:er,
+publicering, commit eller push ingår. Nya materiella fortsättningar får
+separata uppgifter; omfånget utökas inte automatiskt.
+
+## Acceptance Criteria
+
+- [x] Exakt katalog-/volym-/bildrouting och laglig åtkomst är dokumenterade.
+- [x] Målavsnittet är läst i original, alternativt har ett konkret hinder
+  verifierats och relevanta identifierade alternativ prövats. Om hindret
+  förhindrar själva kunskapsresultatet förblir uppgiften BLOCKED.
+- [x] Säkra eller avgränsa en bakåtbrygga för samma Anders genom datumvarianter, maka, yrke och kontinuitet. Redovisa när han först återfinns i de lästa Bubergetsavsnitten utan att inferera födelseort ur vistelse.
+- [x] Original, checksumma, avskrift och negativa omfång är bevarade;
+  personakt, frontier och matris är konsoliderade utan osäker propagation.
+- [x] Relevanta Wotan-kontroller och kohortkontroll är körda; fortsatt
+  motiverat arbete är registrerat innan uppgiften avslutas.
+
+## Approach
+
+Tidigare missad by motiverar riktad originalkontroll. Riksarkivet först; vid bildhinder bedöm relevant alternativ volymtäckning. De analoga mantals-/bouppteckningshindren blockerar inte denna routing.
+
+Läs befintliga belägg först och återanvänd verifierad routing. Sök sedan
+bara den här avgränsade källpassagen enligt method-riksarkivet.md. En
+nollträff eller åtkomstspärr får inte vidgas till person- eller källslut.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-05 vid avslut efter batch284.
+- Utfört: hela den avgränsade passagen och personkonsolideringen enligt
+  C-0869 och batch283–284. Föräldrar P-0082/P-0519 säkrade; åtta syskon.
+- Nästa steg: T-0055. Den separata födelsefrågan finns i T-0057 och
+  ska inte återöppna denna avslutade passage. G.B.400 är bevarad oanvänd;
+  ingen ytterligare äldre post krävdes för bakåtbryggan.
+- Hinder: inga för slutförd passage. Sida537 är ett glapp i båda
+  manifesten, inte påstått blank, och påverkar inte den positiva familjen.
+
+## Verification
+
+Godkänd validator: 2776 påståenden, 2100 Markdownposter, Wotan JSON giltig.
+Dashboarddata ombyggda; 15/15 tester passerar. Den fasta förväntade
+anräkningen i dashboardtestet ändrad 87→89 efter oberoende kohortkontroll
+av de två nya föräldrarna, inga testvillkor borttagna.
+Media-manifest: 4590 poster, 2665 exakt citerade; kontroll godkänd.
+Diffkontroll utan fel. Anspetsrevision med P-0269 genom djup5 ger
+0 formellt ogiltiga fronter i kohorten; djup6 har 57 kända mot tidigare55.
+Gemensamt registrerat djup fortsatt4, källbredd på djup5 fortsatt29/32.
+De nya föräldrarna är öppna fronter och bevisar inget källslut.
+
+## Outcome
+
+Bakåtbryggan är säkrad från känt vuxenhushåll till samma Anders som son
+under Jonas och Ulrika Lovisa i 1861–1865 och 1848–1857 års böcker.
+Äldsta nu lästa positiva bok är1848–1857; ingen exakt inflyttning eller
+födelseby infereras. Äldre barndomsnoll är rättat append-only och
+födelsekonflikten bevaras i separat godkända T-0057. T-0053 DONE.
+
+Tidigare delverifieringar:
+
+Delverifiering batch 281: validator godkänd med 2750 påståenden och
+2091 Markdownposter; 15/15 tester och uppdaterat media-manifest godkända.
+Personresultatet i T-0053 återstår; status ONGOING.
+
+Delverifiering batch 282: validator godkänd (2750 påståenden, 2091
+Markdownposter), 15/15 tester, media-manifest godkänt (4575 filer)
+och diffkontroll utan fel. Registrerat djup fortsatt 4; T-0053 ONGOING.
+
+
+Delverifiering batch 283: validator godkänd med 2754 påståenden,
+2091 Markdownposter och 4590 mediafiler inklusive manifestfilen.
+Dashboarddata ombyggda efter nya påståenden; därefter 15/15 tester
+godkända. Media-manifest godkänt med 4589 poster, varav 2664 exakt
+citerade; diffkontroll utan fel. Registrerat gemensamt djup fortsatt 4,
+källbredd på djup 5 fortsatt 29/32. Uppgiften är ONGOING eftersom
+personkonsolidering och omfångskontroll enligt checkpoint återstår.

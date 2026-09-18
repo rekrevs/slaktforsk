@@ -1,0 +1,65 @@
+# T-0278: Återställ och revidera den avgränsade bouppteckningskontrollen
+
+**Status**: BLOCKED | **Size**: L
+
+## Context och mandat
+
+PCD-2026-09-07-026; avgränsad följd från T-0133 efter personaktsprogrammet.
+
+## Scope och underlag
+
+P-0423, PK-08/09/11. Umeå F II a/13, A0071108_01163–01724,
+exakt562bilders befintlig kontrollsekvens. C-0699/S-0528 dokumenterar
+endast högersidesrektum följt av identifieringsstycket i funna aktstarter,
+inte en redovisad kontroll av varje möjlig vänstersidesstart. Sekvensen
+är dessutom delvis ombunden och inte strikt kronologisk. Den äldre
+absoluta slutsatsen om alla aktstarter avgränsas till faktiskt prövat
+omfång; ingen egen positiv målakt är funnen.
+
+Den frysta listan T-0278-media-scope.json innehåller536 faktiskt saknade
+bild-id och26 redan befintliga (inklusive C-0691-alias). Lokal filename-,
+metadata-, källtext- och tillfällig filsökning återfann inga övriga kopior;
+S-0528/C-0699 beskriver att endast kontrollbilder bevarades. Kontrollera
+aktuella alias/hash först och återställ endast saknade bilder.
+
+Utför som L med explicit planering, begränsade arbetspass och hållbara
+checkpoints i denna logg. Högst100 kopie-/visningskontroller per arbetspass,
+med exakt slutförda bild-id och nästa ej utförda steg. Efter återställning
+prövas båda sidor och alla faktiska aktstarter inom samma fasta562bilder.
+Redan tillräckligt lästa identifieringsstycken återbrukas; nya träffar
+får hela relevanta aktutvinningen inom den fasta sekvensen. Fortsätter
+målakten utanför intervallet blir det en separat preciserad följd,
+inte automatisk expansion. Materialet före1163, efter1724 och andra
+volymer ingår inte. Bibliografisk ordning bevisar inte dödstid.
+
+Slututfallet ska kunna granskas mot ett register över funna aktstarter,
+identitetsstycken och fysisk täckning. Noll gäller endast detta omfång;
+1868-08-14 blir inte verifierat och ingen generell bouppteckningssaknad
+följer. Inga nya jurisdiktions-/församlingssvep eller beställningar.
+
+## Acceptance Criteria
+
+- Varje fast passage får positivt, avgränsat negativt eller olöst utfall.
+  Åtkomstfel, otestade sidor och svaga tecken är inte person-/årgångsnoll.
+- Relevanta hela egna öppnade poster utvinns och bevaras med exakt
+  referens, läsbar kopia och hash. Tillräckliga tidigare resultat återbrukas.
+- Akter/profiler, anhöriga och nya nyckelberoenden avstäms individuellt;
+  kontraktsnivåer och kandidatgränser hålls isär.
+- En batch per passage, samstämmigt Wotan/sakläge. Beslutad fortsatt
+  genomförbar uppgift får egen ändlig ägare före DONE.
+- Oberoende efterläsning samt relevanta format-, validator-, inventerings-,
+  test-, medie- och diffkontroller passerar.
+
+## Approach
+
+Läs aktuella akter/profiler och T-0133. Följ Riksarkivets åtkomstordning.
+Ingen ArkivDigital, beställning, kontakt, publicering, PDF-skapande,
+dashboarduppdatering eller commit/push. DONE gäller fast uppgiftsomfång.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-08.
+- Utfört: fast omfång och stoppgräns registrerade.
+- Nästa ej utförda steg: efter beroendena, planera och pröva första passage.
+- Verifiering: ingen ny arkivpassage utförd.
+- Hinder: T-0133 och T-0115; faktisk källåtkomst prövas då.

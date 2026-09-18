@@ -1,0 +1,506 @@
+{
+  "task": "T-0643",
+  "date": "2026-09-17",
+  "ok": true,
+  "authority": "genealogy2",
+  "canonicalDigest": "1fc97543096073e048136e12bcb0d26cca357f60bb962a248b1cb0ca9366ecba",
+  "modelTests": {
+    "files": 28,
+    "tests": 119,
+    "passed": 119,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "durationMs": 1942133.699125
+  },
+  "legacyTests": {
+    "passed": 67,
+    "failed": 0
+  },
+  "backup": {
+    "directory": "genealogy2/verification/T-0643-backup",
+    "restored": "genealogy2/verification/T-0643-restored-root",
+    "files": 8786,
+    "bytes": 6935580706,
+    "journalEntries": 39,
+    "replayChanges": 0
+  },
+  "note": "Leveransens filversioner. Senare avsiktlig utveckling av kod, instruktioner och Wotan är tillåten; manifestet bevarar detta verifierade skifte.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "46c0fb3fab771dbed4cabea0f413c05fb972f493b2da2a73e6b0c22972b06bb9",
+      "bytes": 6876
+    },
+    {
+      "path": "NORTH-STAR.md",
+      "sha256": "7f12981b2cf349f177b6946304a2dc619e74ea06502339666a3b05881c51e949",
+      "bytes": 18951
+    },
+    {
+      "path": "PROJECT-CONTROL.md",
+      "sha256": "8c3b2697ee76fa9e369b912bf942e117871187276dcf7a3c79bf74031cfb613e",
+      "bytes": 288159
+    },
+    {
+      "path": "README.md",
+      "sha256": "97437547fba9742897651d25887d679e0d0d722ea6502d22e564809dd718aeb7",
+      "bytes": 3925
+    },
+    {
+      "path": "genealogy2/AGENTS.md",
+      "sha256": "d345fd34ad9db05e26d290b8cababfa719dec08b38a4ac7c045b86cb728f07e5",
+      "bytes": 2980
+    },
+    {
+      "path": "genealogy2/README.md",
+      "sha256": "a6f1eab0dd6e4edd14cb4b35d011050ac8a1bf1a57122ecc1e7011931b626bbe",
+      "bytes": 24405
+    },
+    {
+      "path": "genealogy2/cli.mjs",
+      "sha256": "0666be4e2192114b84dc580d8a5030073a33facb1fdcbbeb125c69bd94ef12e5",
+      "bytes": 7061
+    },
+    {
+      "path": "genealogy2/docs/relation-nature-review.md",
+      "sha256": "09b225f328895c9176319fe15709fe374cd459f0bc6d59df15a47b6e7a86cb72",
+      "bytes": 12385
+    },
+    {
+      "path": "genealogy2/docs/vocabulary.md",
+      "sha256": "3dd0da69b877b9c39ff779cd63eb20f694746295f8ef8a54a078ee8531eece83",
+      "bytes": 5802
+    },
+    {
+      "path": "genealogy2/docs/working.md",
+      "sha256": "8a61b8be0a88dad151190914cb10d34ede748a703b9d8cb45295f138c48c5350",
+      "bytes": 6493
+    },
+    {
+      "path": "genealogy2/lib/archive.mjs",
+      "sha256": "d20d564ae62cf5fbf3dee2925e2c11715ebc546db56a106c3349fee28aec9450",
+      "bytes": 5421
+    },
+    {
+      "path": "genealogy2/lib/context.mjs",
+      "sha256": "704517994aa656288fd16cda9d108835cc2451ab3d0312462884cf881cb8fb29",
+      "bytes": 12756
+    },
+    {
+      "path": "genealogy2/lib/domain.mjs",
+      "sha256": "fa943376167816614a9f6d38422eedd481a5817ce8c262e2eaf387f5c8eba55b",
+      "bytes": 27311
+    },
+    {
+      "path": "genealogy2/lib/extract.mjs",
+      "sha256": "e3fd2b7a8551eb01b70b477324972fa7e478e64e9ff988e9385d0629d1545ee8",
+      "bytes": 3424
+    },
+    {
+      "path": "genealogy2/lib/inventory.mjs",
+      "sha256": "5a198d77a864995dde5aa8519055695e796d76bccc4ca03180828daf090b79c7",
+      "bytes": 2248
+    },
+    {
+      "path": "genealogy2/lib/migration.mjs",
+      "sha256": "675f0036f29107098b6db3b2055fae64645fb1e2f7b8b22f3c29a49f32c24e38",
+      "bytes": 4543
+    },
+    {
+      "path": "genealogy2/lib/overview.mjs",
+      "sha256": "5d0e1f6c014605ac2d9c252f1ced22a0829b67fecfb8ed70dbc45f42358f0930",
+      "bytes": 17906
+    },
+    {
+      "path": "genealogy2/lib/pedigree.mjs",
+      "sha256": "edaef77381b6beaf53f33d33a4c2e9de5cfcc8e93203e093df6b7977195cb309",
+      "bytes": 4791
+    },
+    {
+      "path": "genealogy2/lib/recovery.mjs",
+      "sha256": "561dc90f922d9c7f9bce7a4b3360325d6d023faa319e19ce8de664b0a4d99193",
+      "bytes": 10565
+    },
+    {
+      "path": "genealogy2/lib/render.mjs",
+      "sha256": "cb64e79b57de33b0e971cfb3755d636e45f9becd47ce8ca15157abe89dfac887",
+      "bytes": 3310
+    },
+    {
+      "path": "genealogy2/lib/review.mjs",
+      "sha256": "b3c97a56fd4d2c2efe7cca80d476637dd93acb16fa142690077bebd12fc0892f",
+      "bytes": 9562
+    },
+    {
+      "path": "genealogy2/lib/store.mjs",
+      "sha256": "a0a4b318c7c8b2ddb5a86b476a7a05dc43f375ff8f786b0b60fe596089c8c6b0",
+      "bytes": 14225
+    },
+    {
+      "path": "genealogy2/lib/vocabulary.mjs",
+      "sha256": "90336c131ce339c95a85bee5557ae4f677347099e7d2f6f3c1455d1e388c2d2e",
+      "bytes": 5413
+    },
+    {
+      "path": "genealogy2/migration/README.md",
+      "sha256": "77f70cb7d2c1ca2415865b1a180aa4b9c2be738621134749ccb295f60a1fe88a",
+      "bytes": 3300
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/backup-manifest.json",
+      "sha256": "d36a162eff34a45fbc781e3930903f44f77960999c548032a5ad3a0a5b4e4d99",
+      "bytes": 1581365
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/code-manifest.json",
+      "sha256": "db3d036939780513807cc208e5569e85b72470338fc67e78bdc84b3949a7f7fd",
+      "bytes": 8389
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-archived-goal-state.log",
+      "sha256": "165b0325894fc8b27f231f68fc20402a74cfd4dc311e8b975eb1d46b10838cc2",
+      "bytes": 1702
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-archived-inventory.log",
+      "sha256": "ca4a7b87b58d8c8938a4a01c8307cd63fdebcf5bfc3a5d8d9e1c5945ecfd016a",
+      "bytes": 1201
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-backup.log",
+      "sha256": "6c923e8aecde3dd5689c810fda09970a569330ba54638e30d17b7a0c5ef78417",
+      "bytes": 99
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-completion-validator.log",
+      "sha256": "04853dc294cc1647d65c7745a249e0bb8b3dbb3467468128188ead19ead82b3d",
+      "bytes": 80
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-draft-links.log",
+      "sha256": "10dfcaa651505c09f94bcf1078eceb256e3e425d2eaf7aa7404a3ddbda9f8758",
+      "bytes": 118
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-final-links.json",
+      "sha256": "d52d3e1dd086d6e436ff0e5b5c8d6a10330ecb3bf7bce134990eb508ca8d48ed",
+      "bytes": 85
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-final-source.log",
+      "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+      "bytes": 60
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-final-validator.log",
+      "sha256": "04853dc294cc1647d65c7745a249e0bb8b3dbb3467468128188ead19ead82b3d",
+      "bytes": 80
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-full-model-suite.log",
+      "sha256": "20bf51b1d5d6de15fed8ebd252825bb0da734483e4743e3b0614e85206c09c7a",
+      "bytes": 14652
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-interface-test.log",
+      "sha256": "125d1dcaa692d6291d289865cd2219f7c3912fc8df78ec6f04214a149a9ce3ab",
+      "bytes": 5072
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-legacy-suite.log",
+      "sha256": "91cd97adb40479b311949047e26448275e93b76216a378f05086d53c383d2b5d",
+      "bytes": 5708
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-media-manifest.log",
+      "sha256": "d1f28e8a077a39436deaede0e51a077b9d0cd42cb5e9f42b5b596bb9b870cda4",
+      "bytes": 86
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-overview-final-test.log",
+      "sha256": "baf2e597b880bf545e0c59f6dd09dc937aa27c02ef3b97e3e61986c6416141d8",
+      "bytes": 848
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-parent-nature-test.log",
+      "sha256": "5d95c649232ec76cfb6f143f26831b73b25d9724c821fdee7c658a3cd4459aef",
+      "bytes": 1025
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-replay-restored.log",
+      "sha256": "1fc120ad37d3f18444a8424fce2f87571ed8f930ad17710f6b81ae586ed6b37d",
+      "bytes": 36
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-restore.log",
+      "sha256": "14cc9707e94d054caba0bd7fa13cf05e7d7cd70b410120f4f30698cebe3b4460",
+      "bytes": 80
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-restored-proof.log",
+      "sha256": "d359564e97f690d2fa487098a41cb1fb7b0f759ced87b1284f2c8b233d4ee8cd",
+      "bytes": 458
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-review-inventory-test.log",
+      "sha256": "13f987ceca2471b3cdbde67fdd81e0cd4a46071097c50e94b604d079906b89c9",
+      "bytes": 1511
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/logs/T0643-usability.log",
+      "sha256": "17bbc5f87d47f7b42974c1509d2d83d338be45eb3b19c4c805caaaf1c15dafba",
+      "bytes": 17350
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/views/P-0059-overview.md",
+      "sha256": "88d9473162a09517f8486feb01074be7081f34ee908b3c187f64335a75aec8fc",
+      "bytes": 20529
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/views/P-0412-overview.md",
+      "sha256": "8b626f8aaa0ff2b18bbb606132ffe01d92f17953a988051a03d096a3379bfdbc",
+      "bytes": 4240
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/views/P-0424-overview.md",
+      "sha256": "24b2066e039efc5addb0e93e64681235d83125b76ef0c729de339692fa3e247a",
+      "bytes": 18841
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/views/P-0434-overview.md",
+      "sha256": "68b16f4af10d7336f3cee34f50415d9aeeb1fd9f4c1ad71565d82c5d47e92e95",
+      "bytes": 8676
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/views/restored-result.json",
+      "sha256": "dfd3e656f71a4e6f3c95a5e91ea613a0d08f99a797a232c42c0122647a7b10f4",
+      "bytes": 41167
+    },
+    {
+      "path": "genealogy2/migration/T-0643-support/views/usability-result.json",
+      "sha256": "17bbc5f87d47f7b42974c1509d2d83d338be45eb3b19c4c805caaaf1c15dafba",
+      "bytes": 17350
+    },
+    {
+      "path": "genealogy2/migration/T-0663-support/verification-manifest.json",
+      "sha256": "0824c5726de09bcfce2c8f36cfbf48b072527b70138acd08f43e5cdd027675e7",
+      "bytes": 10241
+    },
+    {
+      "path": "genealogy2/schema/001.sql",
+      "sha256": "b6136db0c1a577dc4eb8437ba9ce955d0bb267bf79534bc406accaa1f09ce89b",
+      "bytes": 1816
+    },
+    {
+      "path": "genealogy2/schema/002.sql",
+      "sha256": "eb8784b41723ed27eb12a3ce67d2b4304459909480b9adfcc5dba28fc1e10568",
+      "bytes": 7273
+    },
+    {
+      "path": "genealogy2/schema/003.sql",
+      "sha256": "228bbd6968620f19973defa01044b91eba41763dbb3628ec1dc3a3810040db8c",
+      "bytes": 612
+    },
+    {
+      "path": "genealogy2/schema/004.sql",
+      "sha256": "7c723deb6e6ad28dbf77f92f17cd5043c0a4219a4634b016b23db9bb98f9e273",
+      "bytes": 963
+    },
+    {
+      "path": "genealogy2/schema/005.sql",
+      "sha256": "5e2146e69fc360b2056574ce4ed885c462d4934f8f6302b82551b4864051edb6",
+      "bytes": 1014
+    },
+    {
+      "path": "genealogy2/schema/006.sql",
+      "sha256": "a86e85ff8b95c4abf944dfec05f0ba365b7c3b0fdbc56d060d041eebab3cf1e7",
+      "bytes": 637
+    },
+    {
+      "path": "genealogy2/test/context.test.mjs",
+      "sha256": "d2136c1206da7295a9be229ce1c7564332ee2934e9ba6df608ffa18e66fecc91",
+      "bytes": 7929
+    },
+    {
+      "path": "genealogy2/test/conversion.test.mjs",
+      "sha256": "889700bf8ca3a75a51976491de72c2fcfa5967dfadf2bbe37d1205395957e63b",
+      "bytes": 5256
+    },
+    {
+      "path": "genealogy2/test/domain.test.mjs",
+      "sha256": "efb508097b5a84506111577b04e5e92e04908f92e563ba54afc539e7dac1cd23",
+      "bytes": 10324
+    },
+    {
+      "path": "genealogy2/test/evidence-cohort.test.mjs",
+      "sha256": "1df10cd1d88f77c5c347380992814c45d3a872ec10911f4d6bed450601a9e9fe",
+      "bytes": 27284
+    },
+    {
+      "path": "genealogy2/test/evidence.test.mjs",
+      "sha256": "10b4e76981d20af138d69ec81c3c4d4bd481b25af9ab60350715f5e9597ec8f9",
+      "bytes": 7459
+    },
+    {
+      "path": "genealogy2/test/import.test.mjs",
+      "sha256": "42316be4fd3551de86794b84592099f0893267b110816a320c9dd0a761aca854",
+      "bytes": 3977
+    },
+    {
+      "path": "genealogy2/test/inventory.test.mjs",
+      "sha256": "f0472e8ecc1f3ca74bd42af80557daab0d0678d411e46c17340dda82459ad897",
+      "bytes": 2310
+    },
+    {
+      "path": "genealogy2/test/overview.test.mjs",
+      "sha256": "91cc5a76678887887b7d9a7b9ef4599a0305418e8ffedb39c51dd5d4c704c116",
+      "bytes": 8626
+    },
+    {
+      "path": "genealogy2/test/pedigree.test.mjs",
+      "sha256": "528e32ae21dd2065f7de91701d4204be3be1eb05485fa55e73263554dfa08d9c",
+      "bytes": 13838
+    },
+    {
+      "path": "genealogy2/test/person-cohort-02.test.mjs",
+      "sha256": "f6820dcccead9f80eff191a4abafed94f5e3b23b92f995caa102bed52ff66da7",
+      "bytes": 8143
+    },
+    {
+      "path": "genealogy2/test/person-cohort-03.test.mjs",
+      "sha256": "ff7d6d6506ea9123a71d75ab890b6a22ef1f0ab2e52344224da625ff387a979a",
+      "bytes": 12461
+    },
+    {
+      "path": "genealogy2/test/person-cohort-04.test.mjs",
+      "sha256": "5deb7a77edc71567d675dadfc4118b6b269bc04d59ebe8ddaaa34abfe6763afb",
+      "bytes": 11499
+    },
+    {
+      "path": "genealogy2/test/person-cohort-05.test.mjs",
+      "sha256": "69bed8bb58fcc50a1bce2a7c7bc163e42ff7937c9fbd967ed538129d367d540d",
+      "bytes": 17176
+    },
+    {
+      "path": "genealogy2/test/person-cohort-06.test.mjs",
+      "sha256": "340b0995f920450f522d3c4905c49f8df6e1d79a7ffb7ccc2476b7d2e60d8cbf",
+      "bytes": 14168
+    },
+    {
+      "path": "genealogy2/test/person-cohort-07.test.mjs",
+      "sha256": "753c3e330a0fb1022c454fbea7ee2da6cc608625e085d68985bfaf773d82013e",
+      "bytes": 4685
+    },
+    {
+      "path": "genealogy2/test/person-cohort-08.test.mjs",
+      "sha256": "81e20dfcaa801a7f19f09ba5a47d10427570246708693df685a08856829de756",
+      "bytes": 6350
+    },
+    {
+      "path": "genealogy2/test/person-cohort-09.test.mjs",
+      "sha256": "bde38b4c34e461d1db8557b6d78a8efdda5cd142d70aa3472f3c675f5b6c2e80",
+      "bytes": 6469
+    },
+    {
+      "path": "genealogy2/test/person-cohort-10.test.mjs",
+      "sha256": "0f9fd6a8751715f59855b444b38e47c6ddc5dbce24fe927030bd172aeb27a272",
+      "bytes": 5939
+    },
+    {
+      "path": "genealogy2/test/person-cohort-11.test.mjs",
+      "sha256": "6ff030b04e32fe187e9028e9c839ea6407a0eb05206c20aedf52fc61dabe2ba5",
+      "bytes": 5953
+    },
+    {
+      "path": "genealogy2/test/person-cohort.test.mjs",
+      "sha256": "0240a5cf07ce1091030f260c1a7269f359549684da25baecad2fd0860e26c403",
+      "bytes": 7796
+    },
+    {
+      "path": "genealogy2/test/persons.test.mjs",
+      "sha256": "413497b98d4104fb0b659f0c0a1a340bdd72b18560b4963be09e2bb8e319a967",
+      "bytes": 21974
+    },
+    {
+      "path": "genealogy2/test/pilot.test.mjs",
+      "sha256": "d66786301cf6b448e8957be950c68ad48b5ac535a7f2beeb192bfb4f9795943d",
+      "bytes": 5692
+    },
+    {
+      "path": "genealogy2/test/registry.test.mjs",
+      "sha256": "195c79181c08e275426b70265dfbcb90207bc64d33b531a927f36842e2d9a217",
+      "bytes": 4233
+    },
+    {
+      "path": "genealogy2/test/review.test.mjs",
+      "sha256": "f2623e1a85e9c1cf501562a6cd77c3377c935845e1ab595ca4ddd9775ba78d17",
+      "bytes": 12144
+    },
+    {
+      "path": "genealogy2/test/source-precision-07.test.mjs",
+      "sha256": "5eab9d8d70ebea8b8f0bedc2a827e386fdd8fe3755717642c3470fb2622326cd",
+      "bytes": 4603
+    },
+    {
+      "path": "genealogy2/test/versions.test.mjs",
+      "sha256": "b6905aa48a2e7e7a8b3bd85c9b85c9499f803ecf71e8b11f447e6e64510d063f",
+      "bytes": 3945
+    },
+    {
+      "path": "genealogy2/test/vocabulary.test.mjs",
+      "sha256": "13ba8516b5767ac627cf64dd53b81236dafe47171595b3e72eb662d558706997",
+      "bytes": 11552
+    },
+    {
+      "path": "genealogy2/test/workflow.test.mjs",
+      "sha256": "b62c044f621ce669a41745d0f45a262f521fe2ffa48eabbfada7aa73a9ee446b",
+      "bytes": 10025
+    },
+    {
+      "path": "genealogy2/verification/T-0643-proof.mjs",
+      "sha256": "8149d792bb48ee0fe2a616dc8b721c5901348fb7cf2a2c2be55d88c965d28547",
+      "bytes": 8084
+    },
+    {
+      "path": "genealogy2/verification/T-0643-report.md",
+      "sha256": "ce90e5fcac701da7ce21fb4130a8aedb5ba88e659ced888cec234a8890133628",
+      "bytes": 7130
+    },
+    {
+      "path": "genealogy2/verification/T-0643-result.json",
+      "sha256": "dfd3e656f71a4e6f3c95a5e91ea613a0d08f99a797a232c42c0122647a7b10f4",
+      "bytes": 41167
+    },
+    {
+      "path": "genealogy2/verification/T-0663-report.md",
+      "sha256": "1b6abb282003ee3ccdf531981d13ce0f34e86a66ae08266400a16bce2088f1c4",
+      "bytes": 4491
+    },
+    {
+      "path": "wotan/README.md",
+      "sha256": "24d230d1bb1f3da54fbd3756f8fa5afca19c9eecd605fe79e774697cb8553321",
+      "bytes": 15982
+    },
+    {
+      "path": "wotan/backlog.json",
+      "sha256": "014dedec79712c3a968462e27c253eda7dadeb88f155903a768f436e08400210",
+      "bytes": 308100
+    },
+    {
+      "path": "wotan/dev-log/T-0643.md",
+      "sha256": "4bdff92d3e58f4fce9f8fee62e1117014ca22ee1b13b1e8abda1e670f44cea5a",
+      "bytes": 12026
+    },
+    {
+      "path": "wotan/templates/person-review-task.md",
+      "sha256": "429529711c08b4400218f0c5c765789054fb9c9cef2bf43b25cc8403679795e9",
+      "bytes": 2968
+    },
+    {
+      "path": "wotan/templates/research-task.md",
+      "sha256": "cd6d3c74c56dc0b80dc78f5727bc249892a0e33db74a1820ee92bba9ee41f633",
+      "bytes": 3090
+    }
+  ]
+}

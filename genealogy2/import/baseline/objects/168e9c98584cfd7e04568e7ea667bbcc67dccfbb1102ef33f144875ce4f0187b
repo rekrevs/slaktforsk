@@ -1,0 +1,334 @@
+# T-0143: Konsolidera konfliktsignal, fristående sidopersoner/kandidater från P-0113
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0113, P-0117, P-0135, P-0137, P-0143, P-0213, P-0223, P-0225
+
+## Scope och underlag
+
+Exakt dessa 8 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 54 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0075, C-0079, C-0082, C-0083, C-0084, C-0089, C-0090, C-0093, C-0094, C-0096, C-0097, C-0103, C-0105, C-0148, C-0149, C-0169, C-0170, C-0172, C-0175, C-0176, C-0317, C-0499, C-0500, C-0501, C-0502, C-0504, C-0576, C-0577, C-0579, C-0580, C-0582, C-0761, C-0767, C-0768, C-0773, C-0783, C-0784, C-0788, C-0789, C-0790, C-0791, C-0796.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Delresultat 2026-09-08, person-dossier/v1 och person-research/v1. Alla åtta
+akter/profiler är skrivna; slutlig samlad sakrevision återstår. Se
+[batch547](../../genealogy/research-log/2026-09-08.md#batch-547--t-0143-konsolidering-av-åtta-akter-sparad-före-slutrevision).
+
+| Person | Bevarade A, tidigare → aktuella | Registrerad identitetsnivå | Full nivå / materiell rest |
+|---|---|---|---|
+| P-0113 | 9 →10 | GODKÄND/BÄRANDE | UNDERKÄND, PK-08; T-0342–0343 |
+| P-0117 | 7 →9 | UNDERKÄND/AVVAKTAR, PK-11 | UNDERKÄND, PK-08/11; T-0344–0345/0347 |
+| P-0135 | 12 →12 | UNDERKÄND/AVVAKTAR, PK-11 | UNDERKÄND, PK-08/11; T-0347/0349/0350, återbruk T-0271 |
+| P-0137 | 5 →5 | GODKÄND/BÄRANDE | UNDERKÄND, PK-08; T-0348 |
+| P-0143 | 7 →7 | GODKÄND/BÄRANDE | UNDERKÄND, PK-08; T-0346 |
+| P-0213 | 11 →11 | GODKÄND/BÄRANDE | UNDERKÄND, PK-08; T-0341 |
+| P-0223 | 4 →5 | UNDERKÄND/AVVAKTAR, PK-11 | UNDERKÄND, PK-08/11; T-0339, återbruk T-0327 |
+| P-0225 | 1 →1 | UNDERKÄND/AVVAKTAR, PK-11 | UNDERKÄND, PK-08/11; T-0339–0340, återbruk T-0327 |
+
+54 A avsåg programmets äldre frysta baslinje; faktisk kohortstart hade56
+på grund av tidigare införandesteg. Samtliga56 är kvar; nya A-4719 och
+A-4727–4729. Inga andra reserverade A-id:n har använts.
+
+## Verification och Outcome
+
+2026-09-08 före ägarbeställd paus: format8/0, täckning538/0, validator
+3793 A/2665 Markdown/5065media;50/50 tester. Inventering write/check:
+170profiler,37identitetsgodkända/36BÄRANDE,8fullgodkända,0strukturfel.
+Mediecheck5064poster:3140exakta,1879källbundna,28citationsbundna,
+17olänkade. Diff utan fel. Alla56 tidigare A kvar i60 aktuella.
+[Beständigt granskningsunderlag](T-0143-review-evidence.json) innehåller
+assertionsmängder, akt-/profilhashar och de två genomförda medieauditerna.
+
+Root har kontrollerat materiella original genom andraläsning. Varied har
+sakligt eftergranskat P-0223/P-0225 utan materiella fel. Parents har gjort
+avgränsad P-0113-efterläsning; två små fynd (vuxen son, inte bevisad uppväxt;
+Gästekvarn[?] som nyckel) är rättade. Root har ännu inte gjort full samlad
+slutläsning av samtliga åtta färdiga akt-/profilpar, och P-0117:s senast
+införda Segerslundled har inte eftergranskats oberoende. Uppgiften är inte
+DONE och de åtta räknas inte som slutligt granskade i programmet ännu.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Införandesteg från T-0132
+
+2026-09-08: P-0213: Dott. felläst som Elli; nöddop9juli1883/bekräftelse12juli. P-0137: 27juli1898 rättar7juli. P-0135: C-0502:s änkedatum31januari1920 rättar3april; egen C-0773 samstämmig.
+Minimala anhörigrättelser och relevanta källtillägg är gjorda inom
+föräldrarnas konsolidering; full individuell akt-/profiladoption ägs
+av denna befintliga kohort. Tillgodoräkna rättelser och råreservationer,
+bevara äldre A och fyll inte luckor med namnlikhet eller sidfrånvaro.
+
+## Återupptagning — start efter T-0142
+
+2026-09-08: T-0142 verifierad DONE, 121/538 individuellt granskade.
+Nästa ej utförda steg: läs åtta hela akter, egna profiler och befintliga C/S;
+fördela avgränsade deluppgifter. Inga nya arkivsökningar. next_id 339.
+
+### Fast arbetsfördelning
+
+Root har läst alla åtta hela baslinjeakter. Parents äger P-0135/P-0137 och
+delade C-0103/C-0579/C-0796; varied P-0143/P-0213 och egna syskonkällor;
+private P-0223/P-0225 och deras Sannerbykällor. Root äger P-0113/P-0117,
+gemensam kopieaudit, Wotan och front/täckning. Baslinjer finns i
+/private/tmp/t143-{P-nummer}-old.md. A-4703–4710 parents, A-4711–4718 varied,
+A-4719–4726 private; root från A-4727. Inga nya arkivöppningar.
+
+
+## Återupptagning — säker ägarbeställd paus 2026-09-08
+
+- **Mandat:** ägaren bad pausa och därefter uttryckligen slutföra säker paus
+  med persistent projektläge. Återuppta inte den kontinuerliga körningen
+  förrän ägaren ber om det. T-0143 kvarstår ONGOING/VERIFYING; pausen är
+  inte ett externt hinder och uppgiften markeras därför inte BLOCKED.
+- **Utfört:** åtta individuella akter/profiler, relevanta C/S-tillägg,
+  minimala anhörigrättelser P-0015/P-0221/P-0224 och införandesteg
+  T-0153/T-0171. Batch547 är registrerad en gång. T-0339–0350 är skapade
+  med beroenden T-0143/T-0115; next_id351. Ursprungstexter finns som
+  citerad historik i akterna. Ingen återstart behöver tillfälliga filer.
+- **Delvis utfört:** format och registrerade PK-omdömen passerar kontroller,
+  men samlad sakrevision och avslutsavstämning återstår. Profilernas aktuella
+  omdömen är inte en utförd slutrevision av kohorten. 121/538 gäller
+  fortsatt avslutade personkohorter, inte129/538.
+- **Aktuella frågor:** P-0113 Q-01–03/KP-01–03; P-0117 Q-01–04/KP-01–04
+  och övriga personers individuella frågor i profilerna. C-0796:s sparade
+  Segerslund185 är positivt prövad för P-0117 och ska INTE forskas på nytt;
+  T-0345 har korrigerats till två nya egna poster. T-0340 gäller Årdala,
+  inte Lerbo; T-0346 gäller Bergatorp281, inte381. Sex Matildakopior och
+  fem Charlottakopior ägs T-0347; sju Sannerbyvigselbilder T-0339.
+- **Nästa ej utförda steg vid beställd återstart:** jämför akt-/profilhashar
+  och assertionsmängder i T-0143-review-evidence.json med arbetsytan;
+  gör därefter full saklig slutläsning av de åtta färdiga akt-/profilparen,
+  särskilt P-0117:s Segerslundled och indirekta familjeslutsatser. Stäm av
+  rootföljder mot anhörigakter och uppgifternas avgränsningar. Putsa kvarvarande
+  sammantryckta ord/datum i aktuell prosa utan att ändra råcitat eller id:n.
+  C-0580:s konkurrerande födelseidentitet får inte sammanfogas automatiskt.
+- **Kvar före DONE:** sammanställ full personbunden eftergranskning och
+  eventuella ytterligare redan belagda anhörigföljder; uppdatera aktuella
+  relevanta rader i genealogy/frontier.md och genealogy/source-coverage.md
+  (inte dashboarden). De gemensamma filerna är ännu inte avstämda för T-0143.
+  Revidera per-personutfall och acceptanskryss först när sakrevisionen är
+  gjord; kör då kontroller mot eventuella nya ändringar och markera DONE.
+  Duplicera inte batch547; en ny faktisk passage får en ny batch.
+- **Verifiering:** resultaten ovan är lästa och godkända före paus. Alla
+  tre underagenter är avslutade; inga bakgrundsverktyg eller arkivhämtningar
+  återstår. Tillfälliga beskärningar kan återskapas från de bevarade
+  helbilderna, och mediernas granskningshashar är sparade projektnära.
+- **Hinder:** inga tekniska hinder. Ägarbeställd paus. Ingen ny arkivforskning,
+  dashboarduppdatering, commit/push eller extern publicering har gjorts.
+
+### Commitförberedelse efter pausen, 2026-09-08
+
+Ägaren har uttryckligen beställt commit och push av det sparade projektläget.
+Forskningspausen och ONGOING/VERIFYING består. Kontroll av hela Git-index,
+inklusive tidigare ospårade filer, hittade tre avslutande blanksteg i
+P-0260–0262:s profiler och extra slutblankrader i T-0288–0291/T-0293–0295;
+dessa rent redaktionella fel är rättade. Inventeringen har återskapats och
+validator/inventeringskontroll passerar. Källkopior i genealogy/media behåller
+ursprungliga byte, inklusive CRLF/blanksteg, för att bevara registrerade SHA.
+Git-whitespacekontrollen för projekttexter exkluderar därför råa mediefiler.
+
+## Slutrevision 2026-09-08 — per-personutfall enligt granskningsmallen
+
+Arbetsytan stämdes först av mot [granskningsunderlaget](T-0143-review-evidence.json):
+alla sexton akt-/profilhashar och alla åtta assertionsmängder var oförändrade
+sedan pausen. Därefter lästes samtliga åtta akt-/profilpar i sin helhet mot sina
+citationer. Passagen är loggad en gång som
+[batch 548](../../genealogy/research-log/2026-09-08.md#batch-548--t-0143-samlad-slutrevision-av-de-åtta-akterna).
+Inga nya arkivposter har öppnats.
+
+| Person | Datum/version | Granskat underlag | Format | Konsolidering | Identitetsbedömning | Livsbildsbedömning | Rättelser/luckor och följduppgift |
+|---|---|---|---|---|---|---|---|
+| P-0113 | 2026-09-08, dossier/v1 + research/v1 | C-0317, C-0075, C-0079, C-0093, C-0094, C-0096, C-0097 | godkänd | 9 → 10 A; 1848 och samma-by-slutsatsen upphävda, exercisnoten utvunnen | GODKÄND/BÄRANDE | UNDERKÄND, PK-08 | Egen födelsepost, två fasta 1874-folier och beväringen öppna; T-0342, T-0343 |
+| P-0117 | 2026-09-08, dossier/v1 + research/v1 | C-0084, C-0083, C-0100–C-0102, C-0082, C-0089, C-0090, C-0796, C-0919 | godkänd | 7 → 9 A; Segerslund 185 positivt läst, dödsdagen 1917-05-01 indirekt belagd, Helgestanollet avgränsat till bild 96 | UNDERKÄND/AVVAKTAR, PK-11 | UNDERKÄND, PK-08/11 | Egen födelse-/vigsel-/dödspost och de tre yngstas moderskap öppna; fem saknade kopior; T-0344, T-0345, T-0347 |
+| P-0135 | 2026-09-08, dossier/v1 + research/v1 | C-0576, C-0577, C-0579, C-0580, C-0499, C-0500, C-0502, C-0504, C-0761, C-0773, C-0796, C-0582 | godkänd | 12 → 12 A; Stenkulla/20 år rättar Bokulla/30, sonens födelsepost åter kandidat, änkedatum 31 januari bekräftat | UNDERKÄND/AVVAKTAR, PK-11 | UNDERKÄND, PK-08/11 | Barndomskedjan, sonens brygga och Rosenhäll öppna; sex saknade kopior; T-0347, T-0349, T-0350, återbruk T-0271 |
+| P-0137 | 2026-09-08, dossier/v1 + research/v1 | C-0103, C-0499, C-0500, C-0579, C-0796, C-0799 | godkänd | 5 → 5 A; bokdatum 27 juli 1898 rättar 7 juli, Arne/Arvid bevaras som namnkonflikt | GODKÄND/BÄRANDE | UNDERKÄND, PK-08 | Egen födelsepost, folio 233 och vuxenlivet öppna; ingen egen kopierest; T-0348 |
+| P-0143 | 2026-09-08, dossier/v1 + research/v1 | C-0105, C-0148, C-0149, C-0398, C-0401, C-0579, C-0767, C-0783, C-0784 | godkänd | 7 → 7 A; februari–mars-konflikten bevarad, nio Stockholmsnollor behåller sitt exakta omfång | GODKÄND/BÄRANDE | UNDERKÄND, PK-08 | Mottagarpost och `K. Lifgard. t. häst förs.[?]` öppna; T-0346 |
+| P-0213 | 2026-09-08, dossier/v1 + research/v1 | C-0149, C-0398, C-0401, C-0579, C-0768, C-0788–C-0791 | godkänd | 11 → 11 A; destinationen rättad till Vadsbro, Elli bekräftat som felläst Dott. | GODKÄND/BÄRANDE | UNDERKÄND, PK-08 | Mottagarposten i Vadsbro och vuxenlivet öppna; T-0341 |
+| P-0223 | 2026-09-08, dossier/v1 + research/v1 | C-0169, C-0170, C-0172, C-0175, C-0176, C-0177 | godkänd | 4 → 5 A; Persdotter var kolumnsammanblandning med dopvittnet, två junidagar bevarade som konflikt | UNDERKÄND/AVVAKTAR, PK-11 | UNDERKÄND, PK-08/11 | Egen födelse och vigsel öppna; sju saknade vigselbilder; T-0339, återbruk T-0327 |
+| P-0225 | 2026-09-08, dossier/v1 + research/v1 | C-0169, C-0170, C-0172, C-0175, C-0176, C-0177 | godkänd | 1 → 1 A; hushållsdatum 1804-04-16 bevarat, tjänstepigan hålls som separat person | UNDERKÄND/AVVAKTAR, PK-11 | UNDERKÄND, PK-08/11 | Biologiska föräldrar, nästa Sannerbyhushåll och vuxenlivet öppna; samma sju kopior; T-0339, T-0340, återbruk T-0327 |
+
+Slutläsningen fann inga felaktiga aktuella slutsatser i de åtta akterna eller
+profilerna. P-0117:s senast införda Segerslundled prövades oberoende mot
+C-0796:s sparade bild `F0003350_00208` och mot C-0100 och står kvar, liksom den
+indirekta dödsdagen efter kontroll mot C-0919:s kolumn för äktenskapets
+upplösning och mot P-0015:s A-3453/A-3621. Erik Axels 1902-06-22 i C-0084 och
+C-0796 mot hushållsdatumet 1902-09-27 i C-0919 hör till P-0118 och är redan
+bevarat i P-0015:s A-3456; det förs inte in som ett nytt fynd här.
+Anhörigrättelserna i P-0015, P-0221 och P-0224 håller sig inom sina mandat.
+
+Rättelser i de gemensamma filerna: fyra aktuella rader i
+[källtäckningen](../../genealogy/source-coverage.md) bar fortfarande upphävda
+läsningar (Fredrik Wilhelms 1848, Matildas Bokulla/30, Maria Sofias Mellösa och
+Carl Augusts 11 november med jungfrun Matilda Sjöberg). De är rättade med de
+gamla lydelserna bevarade i filens T-0143-avsnitt, och kopieresterna är förda in
+på källvägsraderna. [Frontens](../../genealogy/frontier.md) P-0117-rad är
+uppdaterad och den gamla bevarad. Redaktionellt är sammantryckta ord och datum i
+de åtta akternas och profilernas aktuella prosa åtgärdade och förkortade
+källreferenser skrivna som C-/S-id; råcitat, arkivsignum, bild-id och
+assertions-id är oförändrade.
+
+## Verifiering vid avslut 2026-09-08
+
+Kört och läst efter samtliga ändringar:
+
+- `node scripts/person-format.mjs` för kohorten: 8 personer, 0 formatfel.
+- `node scripts/person-review-coverage.mjs`: 538 baslinjepersoner, 0 täckningsfel.
+- `node scripts/research-inventory.mjs --write` och `--check`: 538 akter,
+  170 profiler, 37 identitetsgodkända varav 36 BÄRANDE, 8 fullgodkända,
+  0 strukturfel.
+- `node scripts/validate-genealogy.mjs`: 3793 assertioner, 2665 Markdown-poster,
+  5065 mediefiler, Wotan-JSON giltig.
+- `node --test scripts/`: 50 av 50 tester godkända.
+- `node scripts/media-manifest.mjs --check`: 5064 poster, 3140 exakta,
+  1879 källbundna, 28 citationsbundna, 17 olänkade.
+- `node scripts/goal-state.mjs`: oförändrat djup 4; ingen av de åtta bär en
+  anlinje och måtten påverkas därför inte av denna granskning.
+- Egen assertionskontroll mot granskningsunderlaget: alla 56 tidigare A-id:n
+  finns kvar bland de 60 aktuella, utan extra eller saknade id.
+
+`T-0143-review-evidence.json` har fått ett `final_review`-block med hasharna
+efter slutrevisionen; pausens hashar står kvar oförändrade bredvid.
+Dashboarden har inte uppdaterats (PCD-2026-09-05-014).
+
+## Outcome
+
+De åtta akterna och profilerna är individuellt slutgranskade mot befintligt
+material. Fyra personer har identitetsnivån GODKÄND/BÄRANDE (P-0113, P-0137,
+P-0143, P-0213) och fyra är UNDERKÄND/AVVAKTAR på den konkreta
+bevarandeskulden PK-11 (P-0117, P-0135, P-0223, P-0225). Livsbildsnivån är
+UNDERKÄND för samtliga åtta på PK-08. Ingen anlinje går genom någon av dem, så
+ingen pedigree-kedja passerar en icke-BÄRANDE person genom detta beslut.
+
+Kunskapsvinsten är främst att fyra tidigare upphävda läsningar inte längre står
+kvar någonstans som aktuella slutsatser, att Charlottas Segerslundled och
+indirekta dödsdag är oberoende prövade, och att alla kopie- och källrester har
+en namngiven ändlig ägare. Uppgiften är därmed klar inom sitt omfång; den gör
+inte personerna källuttömda. Beslutat resterande arbete ligger i T-0339–T-0350,
+som förblir BLOCKED till dess T-0115 är klar. Antalet slutligt individuellt
+granskade personer i avslutade kohorter går från 121 till 129 av 538.
+
+## Återupptagning — avslutad
+
+- **Uppdaterat:** 2026-09-08, vid avslut.
+- **Utfört:** samlad slutläsning av åtta akt-/profilpar, per-personutfall,
+  rättelser i front och källtäckning, batch 548, samtliga kontroller.
+- **Delvis utfört:** inget. Uppgiftens omfång är fullgjort.
+- **Aktuella frågor och beroenden:** personernas egna Q-/KP-id ligger kvar i
+  profilerna och ägs av T-0339–T-0350; ingen av dem startas här.
+- **Nästa ej utförda steg:** inget inom T-0143. Nästa körbara uppgift i
+  personaktsprogrammet är T-0144.
+- **Verifiering:** se avsnittet ovan; alla kontroller lästa och godkända.
+- **Hinder:** inga.
+
+## Inkommande följdfynd från T-0171 — 2026-09-09
+
+Avgränsad rapport. T-0143 äger P-0223 och P-0225; T-0171 har konsoliderat
+P-0221 och P-0224 och läst om samma material. **Inget A-id är ändrat**, och
+P-0223 har fått en avgränsad `### Inkommande följdfynd från T-0171` i sin
+akt.
+
+1. **P-0223:s åldersuppgift är omräknad:** `39 år` i sonens födelsepost mars
+   1814 ger födelsetid **mars 1774–mars 1775**, hennes enda datering. Åren
+   1774, 1775 och möjligen 1773 måste alla prövas.
+2. **C-0177:s noll har fått ett daterat tillägg om sina premisser och sin
+   volymgräns.** Intervallet 1797–1809 valdes på det **rättade** födelseåret
+   1781 och på antagandet att Anna Stina var makens dotter — det senare
+   håller citationen självt öppet. `C/2` slutar 1809; `C/3` börjar 1810 och
+   bär redan makens andra vigsel och sonens födelse. **Årgångarna 1810–1813
+   är osökta** för den första vigseln.
+3. **P-0225:s ställning berörs indirekt:** om hon **inte** är makens dotter
+   faller den undre gräns 1804 gav, och vigselfönstret blir 1810–1813. Frågan
+   avgörs inte här; T-0143 äger hennes akt, och C-0176:s noll för hennes
+   födelseår är oförändrat.
+4. **P-0221:s `Slutstatus` är ändrad** från `EJ DIGITALISERAD` till
+   `IDENTITET OLÖST`, eftersom en terminal status kräver uttömda framkomliga
+   vägar och vigselåren 1810–1813 är framkomliga. Kopieresten i C-0177 ägs
+   fortsatt av T-0339.
+5. **Sonens fyra dopvittnen**, utvunna i T-0143, är nu förda till P-0224:s
+   akt med det utfallet att ett faddre bär faderns patronymikon och att
+   `Stina Pehrsd:r` står i vittneslistan där hon hör.
+
+Ingen ny arkivåtkomst har skett.
+
+## Inkommen observation från T-0182, 2026-09-09
+
+Fyra citationer som denna uppgift prövade har fått tillägg vid
+konsolideringen av kohorten P-0105–P-0120. **Ingen av T-0143:s egna läsningar
+är kullkastad utom en reserverad**, och tre nya led är utvunna ur bilder som
+redan var sparade.
+
+- **C-0083: dopfadderns efternamn är `Nilsson`, inte `Skilfors[?]`.**
+  T-0143:s fullfältsgranskning reserverade namnet uttryckligen. Vid 600 % är
+  ordet `Nilsson` — **det finns inget `S`, inget `k` och inget `f` i
+  handstilen**, så `Skilfors` är uteslutet. Byn `Bergatorp` står kvar.
+  **Att dopförrättaren `Past. adjunkten D. Nilsson` bar samma efternamn är ett
+  sammanträffande**; de hålls åtskilda genom ståndet. Se A-7800 hos P-0119.
+- **C-0097: kolumnen `Qvinkön.` bär `1` på post 48.** Kolumnrubrikerna är
+  lästa i samma utsnitt som cellerna, och kolumnerna är belagt i bruk på
+  samma uppslag. **En kvinna flyttade ut med Fredrik Wilhelm den 26 oktober
+  1874, räknad men namnlös** — vilket tillsammans med C-0094:s `med hu`
+  belägger att **P-0114 var hans hustru senast då**, tre år före hennes
+  hittills tidigaste belägg. Se A-7793.
+- **C-0097: boställsnamnet läses `Gräslöten`, inte `Gästekvarn[?]`.**
+  Ordets fyra första bokstäver är otvetydigt `Gräs`. **Ortnamnet är inte
+  tidigare belagt i projektet.** Se A-7794.
+- **C-0079: bladet bär dokumenthuvudet `Utdrag ur Husförhörslängden`.**
+  Uppgiften stod inte i citationen trots att den avgör oberoendefrågan:
+  **födelseåren och födelseorterna för P-0114, P-0115 och P-0116 vilar på en
+  enda bokuppgift.** Hela Brostugans fyra rader har fått en
+  kolumnredovisning. Se A-7796, A-7798 och A-7799.
+
+**Ett fynd bör denna uppgift känna till, eftersom det rör dess egen princip.**
+**Kolumn 4 i C-0079 bär en markering på sonens rad** och är läst och tom på
+de tre övriga. Kolumnens tryckta rubrik buntar **fyra** kategorier — `Lyte;
+främmande nationalitet el. religionsbekännelse; frånvarande` — och tecknet
+skiljer inte mellan dem. **Markeringen är registrerad utan tolkning**, i
+enlighet med T-0143:s egen princip att inga hälsouppgifter härleds ur
+grafiska tecken utan rubrikstöd. **Samma markering står på ett stort antal
+andra rader på uppslaget, samtliga personer födda omkring 1870–1890 och ingen
+äldre**, vilket gör en individuell lyteanteckning osannolik men inte säger vad
+tecknet i stället betyder. **Frågan berör hela projektets bruk av 1890 års
+folkräkningsutdrag** och är större än de enskilda akterna.
+
+**P-0113, som denna uppgift äger, har fått ett bundet tillägg** med de tre
+nya leden. **Ingen uppgift i hans akt är rättad**, och hans identitetsnivå och
+kontraktsgranskning är oförändrade.

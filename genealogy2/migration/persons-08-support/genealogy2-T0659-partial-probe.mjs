@@ -1,0 +1,8 @@
+import fs from 'node:fs';import os from 'node:os';import path from 'node:path';import assert from 'node:assert/strict';import{backup}from'node:sqlite';
+import{openDB,verifyDB}from'/Users/sverker/repos/slaktforsk/genealogy2/lib/store.mjs';
+import{buildPersons}from'/Users/sverker/repos/slaktforsk/genealogy2/import/persons.mjs';
+import{applyOperation}from'/Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs';
+import{checkPersons08Risks}from'/Users/sverker/repos/slaktforsk/genealogy2/verification/persons-08-risk-checks.mjs';
+const base='/Users/sverker/repos/slaktforsk/genealogy2/',reviews=['a','b','c','d'].flatMap(k=>{const f=base+'migration/persons-08-'+k+'.json';return fs.existsSync(f)?JSON.parse(fs.readFileSync(f)):[];}).sort((a,b)=>a.person.localeCompare(b.person)),cohorts=JSON.parse(fs.readFileSync(base+'migration/cohorts.json'));const g=cohorts.groups.find(g=>g.id==='persons-08');g.persons=reviews.map(r=>r.person);g.documents=reviews.flatMap(r=>r.documents.map(d=>d.path));
+const dir=fs.mkdtempSync(path.join(os.tmpdir(),'genealogy2-T0659-probe-')),source=openDB(base+'data/research.sqlite',{readOnly:true});await backup(source,path.join(dir,'db.sqlite'));source.close();const db=openDB(path.join(dir,'db.sqlite'));
+console.log('DB',dir);const op=buildPersons(db,reviews,{group:'persons-08',cohorts});console.log('Build',reviews.length,op.changes.length,op.spans.length,op.unitDecisions.length);console.log(applyOperation(db,op));assert.equal(applyOperation(db,op).unchanged,true);assert.equal(verifyDB(db).ok,true);console.log(checkPersons08Risks(db));console.log('Delkohort PASS');db.close();

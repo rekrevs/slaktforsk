@@ -1,0 +1,67 @@
+# T-0506: Hemsjös husförhörslängd för Bodarne och identifieringen av nämndemannen
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0170 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0513](../../genealogy/people/P-0513-olof-hansson-bodarne.md), anspets, med
+följdpåverkan på [P-0514](../../genealogy/people/P-0514-britta-andersdotter-bodarne.md),
+vars egen granskning ägs av **T-0172** och som har fått fynden rapporterade,
+och på [P-0383](../../genealogy/people/P-0383-sven-olofsson.md).
+**Tre passager, i denna ordning:**
+
+1. **Bodarne i Hemsjös husförhörslängder omkring 1810–1820**, `A I/4` och
+   föregående längd. Uppgiftens viktigaste utfall är **Olof Hanssons ålder**:
+   sonens födelsepost 1815 bär exakt en ålder, `33 åhr`, och den gäller
+   **modern** — uppslagets samtliga tretton poster följer samma mönster. Han
+   har alltså ingen åldersuppgift alls och ingen sökbar födelseårgång. En
+   hushållsrad ger dessutom jordnatur, hemmansdel och hela barnaskaran, och
+   **skiljer honom från byns andra Olof** (A-7503). Serien är åtkomlig:
+   sonens sida 98 är redan läst ur A I/4.
+2. **Nämndemannen.** Ett av sonens fem faddrar är namngivet enbart med ämbete
+   och ort, `Nämndeman i Hattholt[?]`. Samma uppslag har i posten av den 9/10
+   november 1814 fadern `Johannes Andersson` med `Willkor och Hemwist` ifylld
+   `Nemdeman i Hagtoftad[?]` — samma ämbete och ortform. Bekräfta
+   identifieringen i socknens husförhörslängd eller i häradets domböcker; en
+   ämbetsman är ovanligt följbar.
+3. **Faddrarnas fyra övriga orter:** `Mjöstan[?]`, `Kjerrbogärda`,
+   `Kåsegl[?]` och `Wässenbo`. Tre ortformer bär läsreservation och bör
+   bekräftas mot socknens ortregister. Utfallet för **hans** patronymikon är
+   redan negativt, så passagen gynnar i första hand hustruns akt.
+
+Utanför: att identifiera en `Olof Hansson` ur namn och by — byn hade minst
+två Olof; nya generationer utan original; P-0514:s fulla granskning, som ägs
+av T-0172; P-0383:s granskning, som ägs av T-0162. Frågan om **Catharina
+Andersdotters** datum, som C-0848 och C-1016 behandlar, hör inte hit.
+
+## Acceptance Criteria
+
+- Passage 1 har ett utfall med volym, sida, avsnitt, bildintervall och
+  läsdatum, och **Olof Hanssons ålder är antingen läst eller uttryckligen
+  redovisad som saknad i den lästa längden**.
+- Hela öppnade poster utvinns med kolumnredovisning enligt
+  `person-standard.md`, sparad kopia och hash. Byns Olof-rader redovisas var
+  för sig så att de går att hålla åtskilda.
+- Passage 2 bekräftar eller avvisar identifieringen med angiven källa;
+  **ingen relation skapas** ur ett faddreskap.
+- P-0513:s akt, profil, teman och båda kontraktsnivåerna avstäms; fynden om
+  P-0514 rapporteras till T-0172 och de om P-0383 till T-0162.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0848:s daterade tillägg, C-0446 och P-0513:s profil först. A I/4 är
+redan öppnad för sonens sida 98, vilket gör passage 1 billig. Inga
+beställningar, kontakter, dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0170:s granskningsutfall.
+- Nästa ej utförda steg: lokalisera Bodarne-avsnittet i Hemsjö A I/4.
+- Hinder: BLOCKED bakom T-0115.

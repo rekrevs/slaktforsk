@@ -1,0 +1,72 @@
+# T-0078: P-0212 kolumn O — yrkes- och föreningsutlösta källor för Gunnar Höök
+
+**Status**: DONE | **Size**: S
+**Phase**: DONE
+
+## Context och mandat
+
+Efter T-0072 (batch 306) är P-0212:s födelse, föräldrar, barndom, återkomst
+1946, död och grav belagda. `goal-state` visar nu att han är den enda person
+som saknas för registrerat gemensamt djup 2, och att exakt en källfamilj är
+oprövad: kolumn `O`, yrkes- och föreningsutlösta källor. Uppgiften är alltså
+projektets minsta återstående steg mot nästa djup.
+
+## Scope och befintligt underlag
+
+Nycklar ur minnesorden (C-0901) och gravposten (C-0904):
+
+- Lärarbanan: studierektor på **Flobyskolan**, rektor på
+  **Fredriksbergskolan** i Falköping från 1967; lärarutbildning på 1950-talet.
+  Källfamiljer: lärarmatriklar (K-33), skolarkiv och kommunala arkiv.
+- **Ibra radio** i Stockholm, där han arbetade eller vistades omkring 1962.
+- **Liberalerna** och **FN-föreningen**: förtroendeuppdrag; partiets och
+  föreningens arkiv, samt **Karl Staaff-medaljen i silver 2008** som
+  namngiven utmärkelse med sannolik publicerad motivering.
+- **Kulturnämnden i Västra Götalands län**: protokoll och ledamotsförteckning.
+
+Utanför: ägarens familjekunskap (KP-03, egen grind), Lidingö uppslag
+1718–1719, dödsannons i lokalpress. Ingen ArkivDigital, beställning, PDF,
+publicering eller commit/push.
+
+## Acceptance Criteria
+
+- [x] Varje listad källfamilj har prövats med exakt omfång och utfall: träff,
+  avgränsat noll eller dokumenterat åtkomsthinder.
+- [x] Positiva fynd som C-poster med provenans; nya påståenden i P-0212 och
+  tidslinjen konsoliderad.
+- [x] Matrisraden för P-0212 i source-coverage.md uppdateras med utfallet, så
+  att `goal-state` kan avgöra djup 2 på faktiskt underlag.
+- [x] Om kolumn O stängs: pröva om P-0212 uppfyller källbredd och redovisa
+  vad ett registrerat djup 2 då vilar på.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-06 vid registrering.
+- Nästa ej utförda steg: sök Karl Staaff-medaljen 2008 och Liberalernas
+  förtroendemannaförteckningar, samt lärarmatrikel för rektorer i Falköping.
+- Hinder: inga kända.
+
+## Verification
+
+Kontroller enligt wotan/README.md; kör goal-state efter matrisuppdateringen.
+
+## Outcome
+
+DONE 2026-09-06 (batch 307). Kolumn `O` prövad i katalogled och satt till `S`:
+Värnpliktsverkets arkiv börjar 1968, kommunala skolarkiv saknas i NAD,
+lagfartsböckerna slutar 1933 och ingen lärarmatrikel efter 1889 finns
+(C-0906, A-3399). Ägaren lämnade dessutom flyttsekvensen till Floby
+(C-0905, A-3398), vilket öppnade KP-03. Matrisraden för P-0212 är uppdaterad
+och **`goal-state` registrerar nu gemensamt djup 2**.
+
+Vad DONE inte avslutar: de kvarvarande vägarna är analoga eller kommunala —
+inskrivningsmyndighetens handlingar, Falköpings kommunarkiv, Lantmäteriet,
+Liberalernas och FN-föreningens arkiv samt Lidingö uppslag 1718–1719. De är
+villkorliga och kräver ägarbeslut om läsesal eller kontakt.
+
+## Återupptagning — DONE 2026-09-06
+
+- Utfört: katalogprov (S-0713, C-0906), ägaruppgift (S-0712, C-0905),
+  matrisrad uppdaterad, goal-state kört: gemensamt djup 2 registrerat.
+- Nästa: djup 3 saknar matrisrader för åtta personer; arbetet ligger i
+  T-0075 och T-0076.

@@ -1,0 +1,77 @@
+# T-0042: Treat the second balanced depth-7 archive-front slice
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+T-0041 treated the first balanced depth-7 slice. `PCR-2026-09-04-014` and
+delegated owner decision `PCD-2026-09-04-016` select the next fixed cohort:
+
+- Sverker: P-0163 Margareta Hansdotter in Storbäcken, P-0164 Anna Lisa
+  Jansdotter in Sköldinge, P-0165 Nils Nathanaelsson in Åkullsjön and
+  P-0166 Lisa Caisa Abrahamsdotter in Åkullsjön.
+- Kristina: P-0504 Måns Håkansson in Östra Husby, P-0505 Anna Jonsdotter in
+  Östra Husby, P-0508 Brita Hillberg and P-0513 Olof Hansson in Bodarne.
+
+New parents may be registered as minimal depth-8 people but are not
+researched further. T-0034 remains a separate parked living-person
+corroboration pass.
+
+## Acceptance Criteria
+
+- [x] Each fixed person has verified parent relation(s) or a valid
+  `## Slutstatus` with reproducible scope and exact reactivation condition.
+- [x] No uncertain identity or relation propagates.
+- [x] New depth-8 parents remain minimal and unresearched in this task.
+- [x] All eight dossiers are `GRANSKAD`, `Källbredd: KLAR` and have no
+  priority-1 source-family cell.
+- [x] The target-front delta is visible in `goal-state`, with unchanged
+  positions explained by an exact blocker.
+- [x] One research-log batch, standard validators, tests, media check,
+  dashboard build and balanced audit are complete.
+
+## Approach
+
+Audit existing evidence and no-repeat controls before opening any source.
+Alternate branches, prefer the nearest parent-bearing original and stop at a
+reproducible archive front when the available identity key cannot safely
+reach the parent generation.
+
+## Log
+
+- 2026-09-04: Created and started from the verified post-T-0041 goal-state.
+- 2026-09-04: Reused the closed Burträsk Storbäcken household and the
+  existing Sköldinge, Östra Husby, Hälsingtuna and Hemsjö controls rather
+  than reopening them.
+- 2026-09-04: Read Umeå landsförsamling C/3's complete birth years 1764 and
+  1768. The privately claimed dates for Nils and Lisa Caisa were absent;
+  nearby name candidates had incompatible dates, names or places and were
+  rejected.
+- 2026-09-04: Consolidated all eight dossiers and source-family rows as
+  `GRANSKAD`/`KLAR`; batch 267 is the sole research-log entry.
+
+## Verification
+
+`node scripts/goal-state.mjs` shows the fixed delta at depth 7: reviewed
+people rise from 10 to 18, coverage-ready people from 8 to 16 and invalid
+fronts fall from 33 to 25. No depth-8 parent was created.
+
+`node scripts/validate-genealogy.mjs` passes with 2,734 assertions, 2,074
+Markdown records and 4,501 media files including `.gitkeep`.
+`node scripts/verify-pedigree.mjs` passes with 87 independently reviewed
+ancestors. All 11 script tests pass. The media manifest passes with 4,500
+substantive files: 2,603 exact, 1,869 source-scoped and 28 citation-scoped,
+none unlinked. Dashboard test and production build pass with 518 people,
+2,734 assertions and 547 parent links.
+
+The two depth-6 bounded ancestor audits remain non-zero because later
+depth-7 fronts are deliberately outside this fixed slice; all eight T-0042
+targets are explicitly reported with valid `IDENTITET OLÖST` terminals.
+`git diff --check` passes.
+
+## Outcome
+
+Completed as research-log batch 267. The task rejected two unsupported
+private birth-date profiles in complete original years and consolidated six
+other source-bound fronts. All eight target fronts are now reproducible and
+coverage-ready; no uncertain person or parent relation was propagated.

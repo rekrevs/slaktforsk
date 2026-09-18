@@ -1,0 +1,74 @@
+# T-0510: Generalmönsterrullor för soldaten Eric Sik i rote 63
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0171 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0234](../../genealogy/people/P-0234-erik-eriksson-nysatra.md) — vars titel
+nu är **`Eric Sik i Nysätra`** — och
+[P-0235](../../genealogy/people/P-0235-britta-thomsdotter-nysatra.md), båda
+anspetsar, med följdpåverkan på
+[P-0231](../../genealogy/people/P-0231-magdalena-eriksdotter-risvattnet.md),
+vars akt ägs av **T-0167** och har fått fynden rapporterade.
+**Fyra passager, i denna ordning:**
+
+1. **Generalmönsterrullor för Västerbottens regemente omkring 1790–1810.**
+   T-0171 rättade dotterns dopnotis 1798 från `Christ. Bonden Eric Erik[ss.]`
+   till **`Chd: Soldaten[?] Eric Sik`** vid 450 % förstoring, med
+   jämförelserad i samma hand två rader längre ned. `Sik` är ett
+   **soldatnamn**, och faderns patronymikon är därmed **okänt**. Rullor ger
+   normalt soldatens rote, **ålder**, ofta **födelseort**, tjänsteår och
+   avgång — allt akten saknar — och namnger ofta hustrun. Kompanitillhörighet
+   för Nysätra är inte fastställd.
+2. **Roteförteckning för `N:o 63`.** Platsangivelsen är sannolikt hans
+   rotenummer: uppslagets övriga poster bär bynamn i samma kolumn medan hans
+   bär ett nummer. Tolkningen är **sannolik, inte fastställd** (A-7551) och
+   ska bekräftas. Fastställ rotens by och soldattorp.
+3. **Nysätras husförhörslängd för rotens soldattorp omkring 1798.** Ger
+   Britta Thomsdotters **ålder**, som helt saknas, och hushållets omfattning.
+4. **Filnamnsbyte för P-0234.** Aktens titel är ändrad till `Eric Sik i
+   Nysätra`, men filnamnet är oförändrat, `P-0234-erik-eriksson-nysatra.md`,
+   eftersom en omdöpning berör alla inlänkande akter. **Byt filnamn och
+   uppdatera samtliga länkar** i samma pass som passagerna ovan, med
+   validatorn som kontroll.
+
+Utanför: att välja en kandidat på soldatnamnet ensamt utan rote eller år;
+att göra `Eriksson` till hans patronymikon — formen är en **upphävd
+läsning**; P-0231:s fulla granskning och hennes åldersfältkonflikt A-4136,
+som ägs av T-0167; nya generationer.
+
+## Acceptance Criteria
+
+- Passage 1 har positivt, exakt negativt eller olöst utfall med rulla, år,
+  kompani, rote, sida och läsdatum. Ett noll redovisas som rulle- och
+  årgångsbundet.
+- Passage 2 bekräftar eller avvisar rotetolkningen med angiven källa;
+  **A-7551 skrivs om efter utfallet**, inte före.
+- Hela öppnade poster utvinns med kolumnredovisning enligt
+  `person-standard.md`, sparad kopia och hash. En rullas ålders- och
+  födelseortsfält utvinns i sin helhet.
+- Om soldatens hustru namnges i rullan förs uppgiften till P-0235 med belägg;
+  fynden rapporteras till T-0167.
+- **Passage 4 är klar när filnamnet är bytt, alla inlänkande akter är
+  uppdaterade och validatorn passerar utan brutna länkar.**
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0199:s daterade tillägg och de två profilerna först. Rullor har egna
+register och är i regel digitaliserade; kompanifrågan avgörs innan sökning.
+Inga beställningar, kontakter, dashboardändringar, PDF-skapande eller
+commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0171:s granskningsutfall.
+- Nästa ej utförda steg: fastställ vilket kompani i Västerbottens regemente
+  som omfattade Nysätra.
+- Hinder: BLOCKED bakom T-0115.

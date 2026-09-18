@@ -1,0 +1,77 @@
+# T-0498: Burträsk A I/5 fol. 160 i full upplösning — de tre högra årskolumnerna
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0169 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+En enda redan sparad sida:
+[C-0859](../../genealogy/citations/C-0859-burtrask-AI5-olof-larsson-storbacken.md),
+Burträsk `A I/5` fol. 160, Storbäcken gård N:o 1. Berör
+[P-0162](../../genealogy/people/P-0162-olof-larsson-storbacken.md),
+[P-0163](../../genealogy/people/P-0163-margareta-hansdotter-storbacken.md) och
+[P-0103](../../genealogy/people/P-0103-anders-olofsson-ultervattnet.md).
+**Passagen kräver ingen ny arkivåtkomst** om den lokala filen räcker; annars
+hämtas samma uppslag i full upplösning ur `C0033958_00156`.
+
+**Vad som ska avgöras:**
+
+1. **Kolumnhemvisten för barnradernas senare årtal.** C-0859:s tillägg
+   redovisar `Flyttad ifrån Församlingen, år`, `Kommit til Församlingen, år`
+   och `1sta gången begådt Nattvarden, år` som **delvis olästa**: linjerna
+   löper tätt, flera anteckningar är skrivna på tvären och fyra barnrader är
+   överstrukna. Årtalen `1803`, `1802/1803`, `1792` och `1810` är lästa som
+   siffror men **inte placerade i rätt kolumn**.
+2. **Vad de fyra överstrukna raderna betyder.** Överstrykning kan spegla
+   dödsfall, utflyttning eller vigsel; åtskillnaden ligger just i de tre
+   kolumnerna ovan. Rör `Maria` 1784, `Lars` 1781, `Hans` 1782 och
+   `Johannes[?]` 1796.
+3. **Den bleka `1810[?]` på Anders egen rad** (A-7062 i P-0103). Om den ligger
+   i `1sta gången begådt Nattvarden` är den hans första nattvardsgång vid 19
+   år; om den ligger i en flyttkolumn är den hans utflyttning, och då är den
+   **en ny hållpunkt i en kedja som i dag har ett gap mellan Storbäcken och
+   Häggnäs**.
+4. **Förnamnsläsningarna** `Lars` 1781, `Johannes` 1796 och den interlinjära
+   noten `gift i Bygdeå`, som två uppgifter oberoende har läst som **inte
+   bindbar** till en av de två äldsta sönerna. Bekräfta eller precisera.
+5. **Katekes- och kunskapskolumnerna**, som i dag är förda som olästa med
+   observationen att kryss och bockar finns.
+
+Utanför: nya person-id för de åtta syskonen; nya generationer; sökning i
+andra volymer. Detta är en ren utvinningsuppgift på ett känt uppslag.
+
+## Acceptance Criteria
+
+- Rubrikraden är läst i **samma utsnitt** som varje datacell, och varje tryckt
+  kolumn på uppslaget redovisas som **avskriven, tom eller oläst** enligt
+  `person-standard.md`. De tre årskolumnerna får ett entydigt utfall eller ett
+  redovisat, prövat oläslighetsbesked — vilket är en källgräns och ingen brist.
+- Varje årtal på barnraderna binds till en namngiven kolumn eller redovisas
+  uttryckligen som obundet.
+- `1810[?]` på Anders rad får kolumnhemvist eller redovisad oläslighet, och
+  utfallet rapporteras till T-0165 med belägg.
+- C-0859 får ett daterat tillägg; ingen tidigare avskrift stryks. Berörda
+  akter, profiler och teman avstäms.
+- En batchlogg; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Använd den lokalt sparade helbilden
+`C-0859-riksarkivet-burtrask-AI5-C0033958_00156-s160-storbacken.jpg` och
+arbeta med utsnitt: rubrikrad plus datacell i samma bild, 400–900 %
+förstoring, vid behov `-normalize` som komplement men aldrig som enda
+underlag. Full upplösning ur bildvisaren hämtas bara om utsnitten inte räcker.
+Inga beställningar, kontakter, dashboardändringar, PDF-skapande eller
+commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0169:s granskningsutfall.
+- Nästa ej utförda steg: utsnitt med rubrikrad och Lars-radens första årtal i
+  samma bild.
+- Hinder: BLOCKED bakom T-0115.

@@ -1,0 +1,117 @@
+# T-0495: Beata Jonsdotters datum, föräldrakonflikten och Anna Johanna-frågan
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0168 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0473](../../genealogy/people/P-0473-beata-jonsdotter.md), med
+följdpåverkan på P-0478, P-0479 och P-0470. **Fyra passager, i denna
+ordning:**
+
+1. **De tre redan sparade bilderna.** Degerfors A I/5a sida 335 och A I/6b
+   sidorna 399 och 402 ligger lokalt under `genealogy/media/` via C-0727 och
+   är lästa **endast** för Sara Sophias rader. Läs där: **(a)** hennes
+   föräldrars rader, som avgör vilket födelseår som är skrivfel — A I/2 och
+   A I/3 ger `1777` för både Jan Larsson och Sara Lisa **Jonsdotter**, medan
+   A I/4 sida 262 ger `¹⁴/₁₀ 1768` och patronymikonet `A[nders?]dotter`;
+   **(b)** eventuella ytterligare barn i luckan 1829–1835; **(c)**
+   födelsetiden för **`Anna Johanna Zingmark`**, sonen Jonas hustru på sida
+   402. Passagen kräver **ingen ny åtkomst**.
+2. **Degerfors födelsebok 1808.** Vigselposten 1826 anger hennes ålder `17`,
+   vilket ger mars 1808 till mars 1809. C/2:s årgång **1809** är genomsökt
+   utan träff; **1808 har aldrig prövats i original.** Sök på `Beata` och
+   `Beatha` med föräldraparet som diskriminerande nyckel.
+3. **En dödbokskälla som täcker 1852.** A-2864 fastställde ett kataloggap:
+   C/3:s döddel slutar 1847, F/1 slutar 1800 och F/2 börjar 1862. Detta är i
+   första hand en **katalogfråga** — finns någon serie, bilaga eller
+   räkenskap som täcker 1852? Om inte är dagen otillgänglig, och det är ett
+   arkivförhållande och inget personnoll.
+4. **Anna Johanna-frågan avgjord eller preciserad.**
+   [C-0727](../../genealogy/citations/C-0727-degerfors-anaset-sara-sophia-foraldrahem.md)
+   avvisade uttryckligen efternamnslikheten mellan `Anna Johanna Zingmark` och
+   Sara Sophias make som belägg. Sedan 2026-09-09 har
+   [P-0470](../../genealogy/people/P-0470-carl-jonas-zingmark.md) en dotter
+   `Anna Johanna` född 1823-07-08 i Botsmark. **Ingen sammanslagning görs utan
+   ett original** som ger hustruns födelsetid eller hennes föräldrar; passage
+   1c är det billigaste steget.
+
+Utanför: P-0478:s och P-0479:s fulla granskning, som ägs av T-0173 och som
+ska få fynden rapporterade; Zingmarkhushållets dopnotiser (T-0493); nya
+generationer.
+
+## Acceptance Criteria
+
+- Varje passage har positivt, exakt negativt eller olöst utfall med angiven
+  volym, sida, årgång, bildintervall och läsdatum. Kataloggapet i passage 3
+  redovisas som arkivförhållande om det består.
+- Hela relevanta öppnade poster utvinns med kolumnredovisning, sparad kopia
+  och hash; de tre lokala bilderna utvinns för föräldrarna, barnen och
+  Anna Johanna.
+- P-0473:s akt, profil, teman och båda kontraktsnivåerna avstäms.
+  **Föräldrakonflikten A-7343 avgörs eller preciseras**, och fynden om P-0478
+  och P-0479 rapporteras till T-0173 med belägg.
+- Om Anna Johanna Zingmark kan förenas med P-0470:s dotter skapas relationen
+  med belägg i **båda** akterna; om inte bevaras hon som åtskild person.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0727:s och C-0733:s tillägg T-0168 och P-0473:s profil först. Passage 1
+kräver ingen åtkomst och tas först — den kan besvara tre frågor på tre
+bilder som redan finns. Inga beställningar, kontakter, dashboardändringar,
+PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0168:s granskningsutfall.
+- Nästa ej utförda steg: A I/6b sida 402 i den lokalt sparade bilden —
+  Anna Johanna Zingmarks födelsetid.
+- Hinder: BLOCKED bakom T-0115.
+
+## Inkommande underrättelse från T-0173, 2026-09-09
+
+**Denna uppgifts första passage är nu bättre riktad, och dess omfång är
+oförändrat.** T-0173 har läst de två helbilder som **inte** ingår här —
+Degerfors A I/2 sida 179 och A I/3 sida 221 — vid 240–1200 % förstoring, utan
+ny arkivåtkomst. **De tre bilder som denna uppgift äger (A I/5a sida 335 och
+A I/6b sidorna 399 och 402) är inte lästa.**
+
+Tre saker att bära med in i passagen:
+
+**1. Frågan är årtalet, inte dagen.** Jan Larssons födelsedag anges i **två**
+längder: A I/3 har `[1?]⁴/₁₀` till höger om årtalskolumnens linje, och A I/4
+har `¹⁴/₁₀`. Dagen är alltså samstämmig. Det som strider är årtalet.
+
+**2. `1777` i A I/3 var en felläsning.** Hans årtalscell där är **överskriven**
+— två sifferformer ovanpå varandra, minst en sluten — och kan inte läsas
+`1777`. Kontrollen är hustruns rena `1777` en rad längre ned i samma hand,
+tre tunna streck utan en enda ögla. Vad som står under överskrivningen är
+inte läsbart. **Utgå inte från att A I/3 stöder `1777`.**
+
+**3. Dagen `14/10` är en ny sökkontroll.** Om A I/5a sida 335 eller A I/6b
+sidorna 399 eller 402 ger honom en dag, jämför den mot `14/10` innan årtalet
+jämförs. Samma dag med ett tredje årtal **stärker personidentiteten** och gör
+årtalsserien till det som ska förklaras; en annan dag pekar i stället mot
+förklaringen *andra personer med samma namn*.
+
+**Hustruns halva av konflikten är delvis avklarad.** A I/4:s `17[9?]7` kan
+inte vara 1797 — hon hade en dotter 1798 och Beata 1809 — så för henne
+återstår **bara patronymikonet** `Jonsdotter`/`A[nders?]dotter`.
+
+**Fyra nya uppgifter om hushållet** kan ge en radkontroll i de tre bilderna:
+paret hade **minst fem döttrar**, varav en född **1798** (hustrun till den
+överstrukna `Mågen Olof [Nils?]son` f. 1787 i A I/2), `Beata` 1809, `Sophia
+Magdalena` 1810, `Anna Britta` 1815 och `[Sara] Lisa` 1819. De två sista har
+`+` i A I/2:s marginal och saknas i A I/3, sannolikt döda som barn. **Om
+någon av dessa systrar står i A I/5a eller A I/6b är det ett direkt argument
+om vilket hushåll raderna gäller.**
+
+Metoden och hela redovisningen ligger i C-0733:s tillägg 2026-09-09.
+Konfliktens ägande är oförändrat: [T-0168](T-0168.md) genom P-0473 A-7343.
+**Denna uppgifts status, omfång och stoppgränser är oförändrade.**

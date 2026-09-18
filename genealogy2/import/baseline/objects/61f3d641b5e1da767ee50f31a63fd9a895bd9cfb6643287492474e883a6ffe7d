@@ -1,0 +1,261 @@
+# T-0014: Establish the wife's proband and initial source-broad ancestral wave
+
+**Status**: DONE | **Size**: L
+**Phase**: —
+
+## Context
+
+The north star requires balanced research across Sverker Adam Jansons and his
+wife's families. On 2026-08-21 the owner supplied the minimum starting cohort:
+his wife Kristina Elisabeth Petronella Höök, married Janson, and her parents
+Evy Höök and Gunnar Höök. This task creates the second privacy-conscious
+proband and applies the same central-spine and complementary-source model to a
+finite wave through her parents, then registers their parents as the next
+frontier without pursuing them further here.
+
+## Acceptance Criteria
+
+- [x] Register Kristina, Evy and Gunnar with only the minimum identifying
+  information needed for research, using a source/citation record for the
+  owner's 2026-08-21 family statement.
+- [x] Establish Kristina's separate depth-0 frontier and her owner-supplied
+  parent relations to Evy and Gunnar at depth 1 without overstating them as
+  independent archival proof.
+- [x] Complete the depth-1 wave through the central source spine: identify
+  Evy and Gunnar securely and give each verified parents or an exact research
+  or access gap.
+- [x] Apply relevant complementary source families for biography, identity
+  and discovery of additional relatives during the same wave.
+- [x] Preserve named relatives and relationship-bearing persons, while
+  minimizing living-person data and retaining full provenance for historical
+  sources.
+- [x] Register the resulting depth-2 frontier without researching it further
+  in this task, add a wife-side bounded audit/frontier representation and pass
+  the full genealogy validator.
+
+## Verification Plan
+
+### Hard Endpoints
+
+- [x] `node scripts/validate-genealogy.mjs` - verifies repository invariants
+  and privacy-compatible record structure.
+- [x] Wife-side bounded pedigree audit - exact command or extension to be
+  designed after the proband is registered.
+
+### Manual Checks
+
+- [x] Confirm the recorded living-person data is the minimum necessary.
+- [x] Confirm that wife-side research receives an explicit balanced frontier
+  rather than being merged invisibly into the existing proband's tree.
+
+### Risks
+
+- Living-person privacy requires deliberate minimization and may limit saved
+  source detail.
+- Public-source coverage for people born in the 1930s may be restricted;
+  distinguish legal/privacy limits from missing data and move backward through
+  documented parent links without collecting unnecessary living-person detail.
+
+## Approach
+
+Preserve the owner's statement first, then use the exact dates and places only
+as private research identifiers for distinguishing records. Seek the nearest
+lawfully accessible sources that can identify Evy's and Gunnar's parents. Use
+the complementary-source matrix when church/registration sources are closed
+or when another source supplies materially better identity or family context.
+
+## Implementation Notes
+
+- 2026-08-21: Task started in continuous Wotan mode. Execution order is (1)
+  preserve the owner's statement with privacy-minimal person records, (2) use
+  the supplied dates and places only to locate lawful parent-bearing sources,
+  (3) register the resulting depth-2 frontier without pursuing it in this
+  task, and (4) audit the separate wife-side pedigree and repository.
+- 2026-08-21: Registered P-0210 Kristina, P-0211 Evy and P-0212 Gunnar,
+  together with S-0108/C-0140 for the owner's statement. Kristina is a
+  separate depth-0 proband and her parent links are explicitly
+  `TRANSCRIBED`, not represented as independent archival proof. Living-person
+  records contain only the supplied names, the two parent-bearing research
+  identifiers, and the relationships needed for the pedigree.
+- 2026-08-21: Checked the fully released SCB extracts in the signed-in
+  Riksarkivet viewer. C-0141 documents that neither Sundsvall parish nor its
+  maternity hospital sheet has Evy on 1938-01-12. C-0142 documents that
+  Lidingö's ordinary sequence has no Gunnar or entry on 1934-03-26. These are
+  scoped negative controls only: physical birth place and reporting home
+  parish can differ.
+- 2026-08-21: The shortest household-register alternatives were tested.
+  ArkivDigital required a subscription login and FamilySearch required an
+  account login; neither session was authenticated. Both access gaps were
+  surfaced to the owner and preserved in the research log.
+- 2026-08-21: Audited Riksarkivet's downloadable birth register. The first
+  web fetch timed out, but a direct download succeeded, proving a transient
+  tool failure rather than a data-access denial. S-0111 records its actual
+  coverage: parent-bearing fields but a hard endpoint at 1914, including
+  `1914-12-31` as the latest date in the Västernorrland CSV.
+- 2026-08-21: Confirmed that the complete 1940 parish extracts are scanned but
+  indexed only by parish, while Riksarkivet's searchable census is still the
+  1930 census and suppresses people born within the last 100 years. Neither is
+  a practical nationwide name lookup for the supplied 1934/1938 cohort.
+- 2026-08-21: Tested Ancestry's nationwide indexed birth collection
+  1859-1947. It has the needed parish and parent fields, but submitting an
+  exact Gunnar/1934-03-26 search redirected to account creation before any
+  hits were shown. This is a third authentication gap, not a zero result.
+  KB's remote newspaper search separately withholds material under 100 years,
+  so 1934/1938 birth notices cannot be tested remotely yet.
+- 2026-08-21: Investigated a one-year-conflict candidate from an IFK Lidingö
+  historical result list. The candidate was Gunnar Höök, born 26 March 1933
+  and representing Lidingö. The actual Lidingö SCB entry on that date names
+  the child Henrik, not Gunnar; C-0143 rejects the candidate without changing
+  the owner-supplied 1934 date or excluding other home parishes.
+- 2026-08-21: The owner supplied Kristina Elisabeth Petronella Höök, married
+  Janson, as the wife-side proband. He identified her mother as Evy Höök, born
+  1938-01-12 in Sundsvall, and her father as Gunnar Höök, born 1934-03-26 in
+  Lidingö. These exact dates are retained as necessary research identifiers;
+  broader information about likely living persons remains out of scope.
+- 2026-08-21: The external blocker was removed and the task promoted to
+  `READY`. T-0012 now waits for both T-0011 and this wife-side wave so that the
+  project does not postpone one spouse's ancestry behind easier work on the
+  other.
+- 2026-08-21: Performed only the owner's requested bounded check, not a new
+  research wave. The owner corrected Gunnar's birth year from 1934 to 1933
+  and identified Gunnar's parents as Ivar Höök (born 1903, died 1944 during
+  mission work in India) and Elisabeth Höök (born 1902, died 1991-09-18).
+  Gravar.se independently gives her full name Anna Elisabeth Höök and exact
+  dates 1902-04-09–1991-09-18. Two mission histories independently confirm
+  Ivar and Elisabeth as a missionary couple and Ivar as a missionary doctor,
+  but do not yet verify his life dates, death in India or Gunnar's sonship.
+  IFK Lidingö's historical table is now compatible with the corrected year:
+  Gunnar Höök, born 1933, competed at Lidingö in 1948. It remains a lead,
+  because the exact birth date and parents are absent.
+- 2026-08-21: The owner identified Evy's father as Axel Henriksson with a
+  general Sundsvall association. The initially suggested Tuna grave belongs
+  to an Axel born 1867 and sharing a grave with Alma Birgitta Margareta
+  Henriksson. The owner explicitly withdrew that candidate; neither the man
+  nor Alma has been connected to the pedigree. P-0241 preserves only the
+  family-supplied name and regional association.
+- 2026-08-21: Performed a narrowly scoped, authenticated Riksarkivet census
+  check after the owner's direct question. The 1930 index returned no match
+  for Ivar Höök born 1903, Anders Ivar Höök, or Anna Elisabeth/Elisabeth Höök
+  born 1902. A broader Ivar Höök query returned only Johan Ivar Höök, born
+  1900 in Halland, and was rejected as a different person. These are exact
+  negative index results, not evidence of absence: Riksarkivet states that
+  1930 registration is ongoing, and Elisabeth's maiden surname was not yet
+  known at the time of that search.
+  No access failure occurred.
+- 2026-08-22: The owner supplied Carlman as Elisabeth's name before marriage.
+  Registered it as a family-sourced assertion on P-0240 and as the next
+  relevant historical search key. This also narrows the interpretation of the
+  prior Riksarkivet negative control: it tested Höök, not Carlman. No new
+  external search was started.
+- 2026-08-22: The owner reported an explicit birth-year conflict for
+  Elisabeth: her death notice says 1902, while an unspecified MyHeritage item
+  says 1901. The existing Gravar.se record also gives 1902-04-09, so 1902 is
+  the stronger working hypothesis, but P-0240 now marks the birth claim
+  `CONFLICT`. The exact MyHeritage record and the death notice have not been
+  inspected directly; an original Carlman birth/baptism record from 1901–1902
+  is the decisive next source.
+- 2026-08-22: The owner explicitly asked to continue on Elisabeth Carlman,
+  authorizing a narrow exception to the breadth-first hold. Riksarkivet's 1930
+  census found Anna Elisabet Carlman, born 1902 in Ljungby, as an unmarried
+  operating-room nurse at Danderyd Central Hospital. Ljungby's contemporary
+  SCB birth extract, image `A0030582_00473`, then established 1902-04-09 and
+  parents Johan Fredrik Vilhelm Carlman and Elin Andersson. The 1900 census
+  placed that couple at Lilla Tomteby and supplied their birth years/parishes
+  plus older children Naëmi Gustafva and Karl Emanuel. P-0242–P-0243 open the
+  direct depth-3 line; P-0244–P-0245 preserve the sibling branch.
+- 2026-08-22: LIBRIS independently identifies Elisabeth Höök 1902–1991 as a
+  missionary and nurse, completing a strong identity chain from the 1930
+  operating-room nurse to the later missionary. Ancestry's public page also
+  supplies Ivar Gunnar Emanuel Höök and Anders Ivar Höök and agrees on the
+  parent pair, but its linked indexed birth record requires account creation.
+  MyHeritage's page was blocked by hCaptcha; its public search excerpt says
+  born 1902. The browser could not resolve `bild.riksarkivet.se`, while the
+  normal authenticated viewer and documented `lbiiif.riksarkivet.se` image
+  endpoint worked. These access differences were preserved rather than
+  treated as negative results.
+- 2026-08-22: The owner reported that Axel Henriksson was father to Willy,
+  Elsy, Henry, Sally, Berit and Evy in that exact oldest-to-youngest order,
+  with Evy born in 1938 and all five named siblings older. The newly
+  authenticated sessions and this six-child fingerprint remove the previous
+  external blocker. T-0014 resumed for a substantial Axel identification
+  attempt plus continued Carlman/Andersson work.
+- 2026-08-22: The owner's Storbränna/Kovland birthplace clue unlocked Sättna
+  SCB image `A0032883_00053`. It names Evy Åsa Kristina and parents Axel
+  Edvin Henriksson (1901-01-31) and Emma Petronella Henriksson (1900-07-23).
+  Matching Sättna grave records establish their life ends. The 1900 and 1910
+  census images `Folk_022016-027` and `Folk_122002-026` then recovered both
+  childhood households, including every named household member. P-0246–P-0262
+  preserve the direct ancestors and side persons. The next research phase is
+  the two exact Sättna birth records, with Erik Jonas kept as candidate rather
+  than asserted father until Axel's record is read.
+- 2026-08-22: Read Sättna C/7 and the parallel SCB extracts. Axel's entries
+  `F0014219_00062` and `A0030570_00017` establish Erik Jonas Henriksson and
+  Gertrud Kristina Jönsson as his parents, supply their exact birth dates,
+  and record Axel's baptism with his parents as witnesses. Emma's entries
+  `F0014219_00056` and `A0030540_00016` confirm Niklas Larsson and Ingrid
+  Kristina Vidusina Höglund, their exact birth dates and Storbränna. The
+  original's `Dop vägradt` explains the two census annotations `icke döpt`.
+  Four full-resolution images, three source records and four citations were
+  preserved as S-0194–S-0196 and C-0244–C-0247.
+
+## Obstacles
+
+The task is complete rather than blocked. Gunnar's exact birth record remains
+an explicit access/research gap, while his parent leads and Elisabeth's
+original line are preserved. Evy's parent question is archivally resolved.
+The resulting frontier is now one or more generations deeper:
+
+1. P-0253 Erik Jonas's own Ljustorp birth record 1860-02-28,
+2. P-0247 Gertrud's own Sättna birth record 1874-02-23,
+3. P-0254 Anders Niklas's Sättna birth record 1862-06-15,
+4. P-0255 Ingrid's Indal birth record 1866-03-10, and
+5. Gertrud's contradictory civil states in 1900/1910 require a
+   marriage/death/divorce-sensitive church-book chain.
+
+This is not a claim that public records are exhausted. The exact open-source
+negative controls, documented coverage limits and three authentication gaps are logged in
+`genealogy/research-log/2026-08-21.md`.
+
+## Verification Evidence
+
+- `node scripts/validate-genealogy.mjs` passed after the privacy-minimal cohort
+  was registered; final verification awaits the depth-2 frontier.
+- `PROBAND=P-0210 node scripts/ancestor-audit.mjs --through-depth=1` correctly
+  reports only P-0211 and P-0212 as the unresolved depth-1 frontier.
+- After the bounded grandparent and Riksarkivet checks,
+  `node scripts/validate-genealogy.mjs` passed with 947 assertions, 657
+  Markdown records, 688 media files and valid Wotan JSON; `jq empty
+  wotan/backlog.json` also passed.
+- `PROBAND=P-0210 node scripts/ancestor-audit.mjs --through-depth=2` reports 5
+  of 6 known ancestors and exits nonzero as expected because P-0239, P-0240
+  and P-0241 remain open depth-2 frontier persons without final statuses.
+- After registering Carlman, `node scripts/validate-genealogy.mjs` passed with
+  948 assertions, 660 Markdown records, 688 media files and valid Wotan JSON;
+  `jq empty wotan/backlog.json` also passed.
+- After the targeted Carlman research, `node scripts/validate-genealogy.mjs`
+  passed with 969 assertions, 678 Markdown records, 689 media files and valid
+  Wotan JSON; `jq empty wotan/backlog.json` also passed. The depth-3 audit for
+  P-0210 reports 7 known ancestors and exits nonzero as expected because Ivar,
+  Axel and the two newly opened Carlman/Andersson depth-3 tips remain active.
+- After the Storbränna household registration,
+  `node scripts/validate-genealogy.mjs` passed with 1,013 assertions, 707
+  Markdown records, 689 media files and valid Wotan JSON. T-0014 is the sole
+  `ONGOING` task; T-0012 is preserved as `READY`.
+- Final verification after the two birth-record pairs passed with 1,021
+  assertions, 714 Markdown records, 693 media files and valid Wotan JSON.
+  `PROBAND=P-0210 node scripts/ancestor-audit.mjs --through-depth=1` passed
+  with zero unresolved tips inside the bounded wife-side wave and 14 known
+  ancestors through depth 4. The depth-2 audit exits nonzero only for the
+  explicitly open Ivar Höök tip P-0239. Manual inspection confirms that the
+  living cohort remains limited to names, necessary identifiers and pedigree
+  links; all newly added detail concerns historical persons.
+
+## Outcome
+
+Completed initial wife-side source-broad wave. Gunnar remains linked to
+P-0239–P-0240 with his exact original birth record preserved as an access gap;
+Elisabeth is independently continued to P-0242–P-0243. Evy is archivally
+linked to P-0241 and P-0246. Axel is continued to P-0253 and P-0247; Emma is
+continued to P-0254 and P-0255; Gertrud exposes P-0250–P-0251 at depth 4.
+The wife-side frontier is explicit and separately auditable, complementary
+sources have enriched both identities and biographies, and T-0014 is DONE.

@@ -1,0 +1,6 @@
+Captured stderr from exec session50853 (exit1):
+multiple ONGOING Wotan tasks: T-0661, T-0662
+Wotan har flera ONGOING
+research inventory missing/stale: review changes, then node scripts/research-inventory.mjs --write
+
+Cause: preparatory0662work was markedONGOING before0661closed. Wotan allows only one ONGOING.0661is now verifiedDONE;0662is soleONGOING. No legacy inventory is rewritten during migration. Rerun validates current state.

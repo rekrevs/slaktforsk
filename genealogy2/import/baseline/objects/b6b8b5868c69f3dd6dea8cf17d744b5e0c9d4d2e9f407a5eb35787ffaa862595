@@ -1,0 +1,72 @@
+# T-0496: Umeå stadsförsamlings A I-serie omprövad och P-0149 efter 1865
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0169 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0149](../../genealogy/people/P-0149-anna-catharina-andersdotter.md), med
+följdpåverkan på [P-0145](../../genealogy/people/P-0145-anders-olofsson-namndeman-roda.md).
+**Tre passager, i denna ordning:**
+
+1. **En ny daterad åtkomstkontroll av Umeå stadsförsamlings `A I/4`
+   (1773–1790) och `A I/5` (1790–1807),** `SE/HLA/1010220`. A-0704 säger att
+   volymerna inte kunde nås 2026-08-20. Samma kontroll gav samma utfall för
+   arkivets `C/2` (A-0703) — och **C/2 blev åtkomlig dagen därpå**, med `Bild`
+   i inloggad katalog och batch `C0034473` i bildvisaren. A I-serien är
+   aldrig omprövad. Följ åtkomstordningen i
+   `genealogy/method-riksarkivet.md`; **inloggad katalog och bildvisare före
+   direkt IIIF**, som ger 403 och inte är källslut.
+2. **Om volymerna kan nås: sök henne i föräldrahemmet.** Hon uppges född 1783
+   i församlingen, så en rad i `A I/4` eller `A I/5` skulle ge **fadern
+   Anders**, moderns namn, hennes ålder och hushållets ort. Sök samtliga
+   namnformer `Anna Catharina`, `Anna Cajsa`, `Anna Caisa`, `Anna Karin` och
+   patronymikonet `Andersdotter`/`Andersd:r`. Årtalet 1783 används som
+   åldersfilter, inte som villkor: uppgiften kommer från en husförhörsrad 78
+   år senare.
+3. **Degerfors nästa husförhörslängd efter `A I/8b` och dödboken från 1865.**
+   A-7351 visar att hennes egna kyrkliga årsfält har nattvardsdateringar
+   samtliga åren 1861–1865 och **ingen dödsnot**: hon levde vid bokens slut,
+   omkring 82 år. En dödspost ger dödsdag och **uppgiven ålder**, som prövar
+   födelseåret 1783 oberoende av födelseboken.
+
+Utanför: omsökning av Umeå stadsförsamling C/2:s årgång 1783, som är
+**komplett läst och uttömd** (A-3243); val av en namnlik kandidat utan
+personbindande mellanlänk; införande av en make ur änkestatus och sonens
+patronymikon; P-0145:s egen fulla granskning, som ägs av T-0165:s systerled
+och ska få fynden rapporterade.
+
+## Acceptance Criteria
+
+- Passage 1 har ett **daterat** utfall med metod, träffad tjänst och exakt
+  volymbeteckning. Ett fortsatt nekande utfall redovisas som tidsbunden
+  åtkomstobservation med omprövningsvillkor, **inte som källslut**, och
+  ersätter A-0704:s räckvidd utan att stryka den.
+- Varje läst passage har volym, sida, årgång, bildintervall och läsdatum, och
+  hela den öppnade posten utvinns med kolumnredovisning enligt
+  `person-standard.md`, sparad kopia och hash.
+- P-0149:s akt, profil, teman och båda kontraktsnivåerna avstäms.
+  `Källbredd` och `Slutstatus` skrivs om med utfallet, och `Identitetsläge`
+  prövas om endast mot ett original.
+- Om en föräldrarad hittas skapas relationerna med belägg och egna P-id, och
+  fynden rapporteras till P-0145:s ägande uppgift.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0120:s och C-0855:s daterade tillägg och P-0149:s profil först.
+Passage 1 är en ren åtkomstfråga och kostar nästan ingenting; passage 3 är
+billigare än passage 2 och kan lösa födelseåret indirekt. Inga beställningar,
+kontakter, dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0169:s granskningsutfall.
+- Nästa ej utförda steg: den nya daterade åtkomstkontrollen av `A I/4` och
+  `A I/5` i inloggad katalog.
+- Hinder: BLOCKED bakom T-0115.

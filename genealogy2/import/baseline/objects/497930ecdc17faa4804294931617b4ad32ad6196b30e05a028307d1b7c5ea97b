@@ -1,0 +1,117 @@
+# T-0121: Korsberga–Värsås, närmare familjebrygga
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+C-0261/C-0262/C-0418/C-0820/C-0840/C-0841; Gabriel–Stina-hushåll och registrerade föräldrar ska nå aktuella texter. Fem akter, med stor P-0020.
+
+## Kohortmedlemmar
+
+P-0020, P-0289, P-0290, P-0506, P-0507
+
+## Scope och underlag
+
+Exakt dessa 5 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 31 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0023, C-0024, C-0025, C-0026, C-0109, C-0262, C-0417, C-0418, C-0419, C-0420, C-0820, C-0825, C-0826, C-0840, C-0841, C-0868, C-0870, C-0873, C-0917, C-0962, C-0990.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+2026-09-07, person-dossier/v1 och person-research/v1. Per-personunderlag,
+rättelser och gränser i [batch525](../../genealogy/research-log/2026-09-07.md#batch-525--t-0121-närmare-värsåsfamilj-konsoliderad).
+
+| Person | Format/konsolidering | Identitet/full nivå | Kvarstående beslutad ägare |
+|---|---|---|---|
+| P-0020 | granskad | UNDERKÄND/UNDERKÄND, PK-05/11 | T-0221/0223–0225 |
+| P-0289 | granskad | UNDERKÄND/UNDERKÄND, PK-05 | T-0221/0222 |
+| P-0290 | granskad | UNDERKÄND/UNDERKÄND, PK-05 | T-0221 |
+| P-0506 | granskad | UNDERKÄND/UNDERKÄND, PK-01/05 | T-0221 |
+| P-0507 | granskad | UNDERKÄND/UNDERKÄND, PK-05 | T-0221 |
+
+Båda nivåer individuellt motiverade i profilerna. Äldre led återstår i
+T-0122, ingen osäker Lars Månsson-brygga godkänd.
+
+## Verification och Outcome
+
+Verifierat: format5personer/0fel; coverage538/0; validator3623assertioner,
+2617Markdown,5010media;50tester passerar; media-manifest5009/OK;
+inventering123profiler/0strukturfel och --check0; git diff --check0.
+Goal-state registrerat djup5, giltig Stinafront återställd; inget
+sakligt kontraktsgodkännande infereras ur indikatorn.
+
+Oberoende eftergranskning: varied läste P-0020, private_candidate
+P-0289/P-0290, parents P-0506/P-0507. Root läste sluttexter och
+källrättelser; rapporterade små profil-/klassningsfel rättade.
+39 av538akter individuellt granskade i programmet. Alla fem kvarstår
+med öppna livskrav, utan att hindra denna konsolideringsuppgifts DONE.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Körstart 2026-09-07
+
+T-0120 verifierad DONE; 34 av538akter nu individuellt granskade i
+programmet. Fortsätter fem Korsberga–Värsåsakter utan paus. Root äger
+sharedcitationer, batch525, Wotan och härledningar; persondelar fördelas
+avgränsat med separat saklig eftergranskning.
+
+## Avgränsad följdpåverkan på närstående
+
+P-0010/P-0021 får enbart C-0023:s rättade namn-/ålders-/dopuppgifter och
+samordnad källväg; deras profiler finns redan. Full konsolidering återstår
+T-0151 respektive T-0127. P-0022–P-0027:s C-0917-namn-/datum-/lysnings-
+frågor lämnas till fasta ägare T-0127/T-0151/T-0176, med T-0223 som
+beslutad fullpostutvinning. Ingen av dessa räknas som fullgranskad nu.
+
+## Återupptagning 2026-09-07 — eftergranskning klar
+
+Fem akter och profiler färdiga och oberoende eftergranskade. Root läst
+sluttexter och relevanta källor; små rättelser av Gretas gamla profiltext,
+Gabriels födelsereferens och P-0020:s K-klasser införda. P-0289:s aktiva
+ursprungsfront återställd med ny datumprövning, utan gammalt passivt nyckelkrav.
+Citationsrättelser, source-coverage och minimala P-0010/P-0021-följder finns.
+T-0221–T-0225 allokerade efter programmet. Endast nytt A-id A-4202;
+31 baslinjeassertioner kvar, nu32. Nästa ej utförda steg: logga batch525
+och per-personutfall, slutavstäm härledningen efter sista fronttexten,
+sätt DONE och fortsätt T-0122. Inga hinder. Tester50/50, media5009,
+format5/0, coverage538/0, validator3623A/2617MD/5010media passerade;
+inventering123profiler/0 efter omskrivning. En tidigare inaktuell
+inventering rättades; dashboarden är orörd.
+
+## Återupptagning 2026-09-07 — avslutad
+
+T-0121 DONE med batch525 och verifierade personutfall. Inget återstår
+inom omfånget. Följdarbete T-0221–0225 efter programmet; fortsätt T-0122
+med dess fem fasta medlemmar. Inget nytt arkivsök i den här uppgiften.

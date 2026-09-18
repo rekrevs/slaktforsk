@@ -1,0 +1,123 @@
+# T-0122: Korsberga–Värsås, sekundära äldre led
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+C-0262 och relaterade äldre led; pilotens P-0293 tillgodoräknas. Bevara LEAD och skilj belagda mellanled från hypotetisk äldre brygga.
+
+## Kohortmedlemmar
+
+P-0288, P-0291, P-0292, P-0294, P-0501
+
+## Scope och underlag
+
+Exakt dessa 5 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 11 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0261, C-0262, C-0820.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+2026-09-07, person-dossier/v1/person-research/v1; detaljerat underlag och
+personutfall i [batch526](../../genealogy/research-log/2026-09-07.md#batch-526--t-0122-äldre-sekundärled-och-margaretha-sofia).
+
+| Person | Format/konsolidering | Identitetsgrind/full nivå | Följdägare |
+|---|---|---|---|
+| P-0288 | granskad | UNDERKÄND/UNDERKÄND; PK-01/09 | T-0222 |
+| P-0291 | granskad | UNDERKÄND/UNDERKÄND; PK-01 | T-0222 |
+| P-0292 | granskad | UNDERKÄND/UNDERKÄND; PK-01 | T-0222 |
+| P-0294 | granskad | UNDERKÄND/UNDERKÄND; PK-01/09 | T-0226 |
+| P-0501 | granskad | UNDERKÄND/UNDERKÄND; PK-05 | T-0221 |
+
+13aktuellaA mot11baslinje, inga gamlaID förlorade. Nya4212/4213.
+P-0293 smal följd räknas inte igen.
+
+## Verification och Outcome
+
+Oberoende eftergranskning: private_candidate läste P-0291/P-0292;
+parents läste P-0501; varied läste P-0288/P-0294 och P-0293:s smala följd.
+Root läste samtliga slutakter/profiler och lokalt källunderlag.
+Sista tidsöverprecisionen i P-0294:s Q-02 rättad:1840daterar flytten,
+inte hela flygelverkstadens verksamhet. Små språk-/källklassfel rättade.
+
+Kontroller:50tester, media5009/OK, format6/0 inklusive P-0293,
+coverage538/0; validator3625A/2622MD/5010media. Inventering128profiler/0
+strukturfel och --check0; goal-state djup5 som separat indikator; diff0.
+Sista profilrättelsen följs av ny härledning/validator innan DONE.
+44 av538akter individuellt granskade när denna kohort avslutas,
+inte44fullständiga livsbilder. Dashboard orörd.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Körstart 2026-09-07
+
+T-0121 verifierad DONE,39/538akter granskade. Den närmare bryggan
+C-0262/C-0820 är korroborerad, äldre Lars Månsson-relationen LEAD.
+T-0221 äger redan C-0820:s fullutvinning efter programmet; Margaretha
+Sofias individuella bedömning här återanvänder detta och undviker dubbla
+uppgifter. Nästa: läs fem akter, källor och befintliga rättelser, konsolidera
+med individuella profiler och oberoende eftergranskning. Root äger
+sharedcitationer/logg/backlog, inga nya arkivsökningar.
+
+## Avgränsad följdpåverkan
+
+P-0293:s redan pilotgranskade akt/profil får C-0820/C-0840:s rättade
+datumomfång och aktuell följdägare T-0222. C-0262:s hela PDF nu läst
+inklusive bilder: hennes sekundära namnpar är fullt utvunnet; saknade
+underliggande original är PK-01/08/09-fråga, inte utebliven utvinning
+av en redan öppnad post i PK-05. Detta smala följdomdöme bevaras med
+äldre rad; ingen extra fullgranskad person räknas.
+
+## Återupptagning 2026-09-07 — delresultat
+
+Root har läst samtliga fem ursprungsakter, C-0261/C-0262, S-0206/S-0207,
+hela PDF-texten och visuellt diagrammet/objektannonsen. C-0261/C-0262
+kompletterade append-only med fullare sekundär kontext och bildnyckel.
+T-0226 avgränsad för bibliografi/objektprovenans efter programmet.
+P-0293 liten datum-/PK-05/källvägsföljd och frontier rättade.
+P-0291/P-0292 och P-0501 akter/profiler stabila; de två första oberoende
+eftergranskade utan sakfel. Root läst samtliga tre slutakter/profiler.
+P-0288/P-0294 akter skrivna, profiler ännu under arbete. Nästa ej
+utförda steg: läs deras färdiga profiler/akter, oberoende eftergranskning
+och P-0501 efterkontroll; batch526/per-personutfall, obligatoriska
+härledningar/kontroller innan DONE. Inga hinder. Aktuellt Amax4213;
+A4208–4211 ännu ej rapporterat använda, A4216–4219 oanvända.
+
+## Återupptagning 2026-09-07 — avslutad
+
+T-0122 DONE med batch526 och samtliga verifierade kriterier. Sista
+profilrättelsen följdes av --write och validator3625A/2622MD/5010media,
+diff0. Inget inom omfånget kvar. Fortsätt T-0123, P-0003, utan paus.
+T-0226 lägre prioriterad efter programmet; inga kontakter beställda.

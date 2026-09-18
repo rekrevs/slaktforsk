@@ -1,0 +1,164 @@
+# T-0081: Matrisrader och kvarvarande källvägar, Sverkers sida djup 4
+
+**Status**: ONGOING | **Size**: M
+**Phase**: DOING
+
+## Context och mandat
+
+Motsvarigheten till T-0076 på Sverkers sida. T-0076 lämnade Kristinas åtta
+positioner på djup 4 källbredd-klara; `goal-state` står därför på **8 av 16**
+och **registrerat gemensamt djup 3**. Djup 4 kräver alla sexton, och de åtta
+som återstår är Sverkers.
+
+Uppgiften skapas inom north star-mandatet som en avgränsad motsvarighet, inte
+som en utvidgning av T-0073 eller T-0074, vilka behåller sina egna omfång.
+
+## Scope
+
+- Personer: **P-0009** Ada Wilhelmina Jansson, **P-0010** Bernhard Natanael
+  Eliasson, **P-0015** Axel Edvard Eriksson, **P-0016** Hulda Amalia Ekholm
+  född Ålund, **P-0028** Johan Oskar Zingmark, **P-0029** Ida Sofia
+  Andersdotter, **P-0048** Anders Alfred Andersson, **P-0049** Anna Fredrika
+  Jakobsdotter.
+- Kända luckor som blockerar matrisrader:
+  - `V` för P-0009 (vigseln med Knut Bergman) och P-0016 (vigseln med
+    lokomotiveldaren Ekholm före 1913).
+  - `D` för P-0009 (1961), P-0010 (1978), P-0029 (1944) — samtliga bara
+    sekundärträdsuppgifter.
+  - `D` för P-0028 ska kontrolleras mot C-0916.
+- Ett katalogprov för `B`, `T`, `J` och `O` motsvarande C-0936 och C-0950.
+- Utanför: djup 5, nya personer, beställning, captcha, ArkivDigital, PDF,
+  publicering, commit/push utan ägarens beslut.
+
+## Acceptance Criteria
+
+- [ ] Varje prövad källväg har exakt undersökt omfång och utfall, positivt
+  eller avgränsat noll.
+- [ ] Positiva poster blir C-poster med bild-id och SHA där bild finns;
+  administrativa register redovisas som andrahandskällor.
+- [ ] `B`, `T`, `J` och `O` har en dokumenterad disposition per person.
+- [ ] Åtta matrisrader i `genealogy/source-coverage.md` med motivering per
+  kolumn, utan någon `1`-cell.
+- [ ] En batchlogg per passage; kontrollerna passerar.
+
+## Verification
+
+Kontroller enligt `wotan/README.md` efter varje passage.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-06 vid skapandet.
+- Nästa ej utförda steg: gravregistersökningar för P-0009, P-0010, P-0028
+  och P-0029, eftersom SvenskaGravar.se omfattar både Stockholms
+  Kyrkogårdsförvaltning och Malmö pastorat.
+- Hinder: inga kända.
+
+## Återupptagning — efter batch 337
+
+- Utfört (batch 337, S-0743, C-0951, C-0952): **Ida Sofia Zingmark död
+  1944-07-11** på Umeå stads uppslag 1704, skriven `Hem.äg. änka` med
+  jordinnehavet ⅛ mtl nr 2 och ¹¹/₆₄ mtl nr 1; **Axel Vilhelm Ekholm,
+  lokomotiveldare född 1878-02-17 och skriven i Katarina förs. i Stockholm,
+  död 1913-03-11 av lungsot i Helgesta** — Huldas make, identifierad genom
+  tre sammanfallande uppgifter. A-3571–A-3578, ny personakt P-0532.
+- Volymnot: Umeå stadsförs. `A II a/6 f` har uppslag = bild + 1689.
+- Kvar av de kända luckorna: `V` för P-0009 (Knut Bergman) och P-0016
+  (vigseln Ekholm–Ålund, troligast Katarina i Stockholm); `D` för P-0009
+  (1961) och P-0010 (1978). Gravregistren saknar samtliga fyra.
+- **Nästa ej utförda steg:** Hyltinges `E I/2` 1900–1913 (bild 11–28,
+  ~2 bilder per år; 1903 = bild 16 och 1906 = bild 22 är stickprovslästa)
+  eller Katarina förs. i Stockholm för vigseln; därefter katalogprov för
+  `B`, `T`, `J` och `O` och de åtta matrisraderna.
+- Hinder: inga i den digitala vägen.
+
+## Återupptagning — efter batch 338
+
+- Utfört (batch 338, S-0744, C-0953): Hyltinges `E I/2` läst rad för rad för
+  **samtliga årgångar 1899–1912**, tjugoen uppslag. **Ingen Ekholm och ingen
+  Ålund.** Vigseln skedde inte i Hyltinge. A-3579.
+- Följd: hon måste ha flyttat till Stockholm efter 1900 och vigts i makens
+  församling, **Katarina**.
+- **Nästa ej utförda steg:** Hyltinges utflyttningslängd `B/4` (1895–1918,
+  S-0343) för hennes utflyttning till Stockholm; därefter Katarinas
+  vigselbok. Sedan P-0009:s och P-0010:s dödsuppgifter, katalogprovet för
+  `B`, `T`, `J` och `O` och de åtta matrisraderna.
+- Hinder: inga i den digitala vägen.
+
+## Återupptagning — efter batch 339
+
+- Utfört (batch 339, S-0745, C-0954): folkräkningen 1910 via söktjänsten,
+  **utan captcha**. **Hulda Amalia gift och bosatt i Kungsholm rote 23,
+  kv. Kettingen 36–37, Stockholm**, med maken lokomotiveldaren Axel Vilhelm
+  Ekholm och **två tidigare okända barn, Axel Ivar 1907 och Ingrid Amalia
+  1910**. A-3580–A-3586; nya personakter P-0533 och P-0534.
+- Vigselfönstret är nu **1900–1907** och vigselorten sannolikt Stockholm.
+- Bevarad konflikt: makens födelseår 1881 (bladet) / 1887 (registret) /
+  1878-02-17 (dödboken); födelseorten **Åsbo i Östergötland** är ny söknyckel.
+- Metodnot: folkräkningsbilder är max 795 × 1219 px och hämtas via
+  `lbiiif.riksarkivet.se/v2/folk!<batch>-<sida>/full/full/0/default.jpg`.
+- **Nästa ej utförda steg:** Kungsholms lysnings- och vigselbok 1900–1907
+  för vigseln; därefter samma söktjänst för **Ada Wilhelmina 1910** och
+  **Bernhard Eliasson**, sedan katalogprovet och de åtta matrisraderna.
+- Hinder: inga i den digitala vägen.
+
+## Återupptagning — efter batch 340
+
+- Utfört (batch 340, S-0746, C-0955, C-0956): **Stockholms stadsarkivs
+  Rotemansarkiv** (4,3 miljoner poster 1878–1926, fritt och utan captcha)
+  läst för familjen Ekholm–Ålund. Sex poster sluter Stockholmsperioden:
+  hennes första vistelse som **sömmerska 1899-10-24–1900-08-08** på
+  Krukmakaregatan 4, familjens fyra adresser 1910–1913, makens död
+  registrerad **1913-03-11** och hennes **utflyttning till Helgesta
+  1913-09-12**. A-3587–A-3593 (P-0016), A-3594–A-3595 (P-0532),
+  A-3596 (P-0533), A-3597 (P-0534).
+- **Två konflikter avgjorda respektive skärpta.** Makens födelseuppgift är
+  avgjord till **1878-02-17 i Åsbo** (A-3583/A-3584 upplösta). Vigselorten
+  är **inte** Katarina: A-3577 är överspelad, fönstret är **1900–1906** och
+  paret bodde i **Matteus**, där båda barnen föddes.
+- **Avgränsade nollor:** paret saknas i registret före 1910-10-07;
+  **Ada Wilhelmina saknas helt 1878–1926**, vilket flyttar en eventuell
+  Stockholmsvigsel med Knut Bergman till efter 1926 och gör **Norge** till
+  den troligare platsen (A-3598–A-3599); ingen Bergman med titeln
+  `Rörmokare` (A-3600).
+- Metodnot: träfflistan avkortas vid 200 rader; `tbBirthday` kräver fullt
+  datum; namnfältens kryssrutor betyder *Exakt fras*; `tbTitle` matchar hela
+  titeln.
+- **Nästa ej utförda steg:** Matteus församlings lysnings- och vigselbok
+  1903–1906 (Adolf Fredrik 1900–1903) för vigseln Ekholm–Ålund; därefter
+  `D` för P-0009 och P-0010, katalogprovet för `B`, `T`, `J` och `O` och de
+  åtta matrisraderna.
+- Hinder: inga i den digitala vägen.
+
+## Återupptagning — efter batch 341–345 (avslutad)
+
+- Utfört (batch 341): **positivkontroll av Rotemansarkivets sökformulär**
+  avslöjade falska nollor — `tbBirthday` ensamt och kombinationerna
+  förnamn + födelsedatum respektive förnamn + födelseort svarar `NoResult`
+  också på personer som bevisligen står i registret. Endast namnfälten är
+  tillförlitliga. Batch 340:s tre nollor omprövades: två står kvar på
+  giltiga namnsökningar, den tredje nedgraderades till oprövad. Regeln är
+  nu skriven i `genealogy/method-riksarkivet.md`.
+- Utfört (batch 342): vigseln Ekholm–Ålund prövad på **tre oberoende
+  vägar** — Matteus födelsebok 1907 posterna 129–182, DDS vigselregister
+  och Stockholms stadsarkivs register — alla noll, alla avgränsade.
+  Vigselförsamlingen är **Matteus eller Adolf Fredrik**, inte Katarina.
+- Utfört (batch 343): **Ada Wilhelmina återfunnen i Norge.** Folkräkningen
+  1920 ger henne som ogift tjänsteflicka på Hafrsfjordsgaten 5 i
+  Kristiania, och Jakobs församlings vigselbok ger **vigseln 1922-01-05
+  med Knut Sigfrid Bergersen**, med hennes far `carl Fredrik Jansson`
+  namngiven. Det infriade batch 341:s förutsägelse. Ny personakt P-0535;
+  efternamnskonflikten Bergman/Bergersen bevarad.
+- Utfört (batch 344): P-0010:s död 1978 är ett **konkret åtkomsthinder** —
+  Malmö pastorat ingår i SvenskaGravar.se med 231 303 gravsatta men saknar
+  både honom och hustrun, och svenska dödsuppgifter efter 1949 finns bara i
+  köpprodukten Sveriges Dödbok.
+- Utfört (batch 345): **katalogprovet** för `B`, `T`, `J` och `O` (S-0750,
+  C-0961) och **de åtta matrisraderna** i `genealogy/source-coverage.md`,
+  med motivering per kolumn och **utan någon `1`-cell**.
+- **Utfall: `node scripts/goal-state.mjs` visar registrerat gemensamt djup
+  4**, mot 3 vid uppgiftens början. Djup 4 är 16 av 16 källbredd-klara.
+- **Kvarstående hinder, ägarhävbart:** Riksarkivets bouppteckningsregister
+  och dödregister täcker både Södermanland och Västerbotten men ligger
+  bakom **ALTCHA**. Öppnas de faller `B` för sex av de åtta personerna
+  samman till en enda arbetspassage.
+- Uppgiften är därmed **DONE**.

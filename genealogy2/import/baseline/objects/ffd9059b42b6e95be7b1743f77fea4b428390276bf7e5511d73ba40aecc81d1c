@@ -1,0 +1,84 @@
+# T-0036: Treat the fourth balanced depth-6 archive-front slice for eight people
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+T-0035 reduced invalid archive fronts through depth 6 from 23 to 15 and left
+no executable task in the Wotan queue. `PCR-2026-09-04-008` and delegated
+owner decision `PCD-2026-09-04-010` select the next finite slice under the
+north-star steering rule.
+
+The fixed cohort is:
+
+- Sverker: P-0102 Maria Jacobsdotter i Ultervattnet, P-0103 Anders Olofsson i
+  Ultervattnet, P-0124 Anna Gustava Ajax and P-0125 Lars Andersson i
+  Anderslund.
+- Kristina: P-0375 Anders Dahlsten, P-0376 Anna Cajsa Larsdotter, P-0383 Sven
+  Olofsson and P-0384 Catharina Andersdotter.
+
+Any newly discovered parents are registered as minimal depth-7 frontier
+people but are not researched further in this task. T-0034 remains a separate
+parked living-person corroboration pass.
+
+## Acceptance Criteria
+
+- [x] Each of the eight fixed depth-6 people has verified parent relation(s)
+  or a valid `## Slutstatus` with expected source, searched scope, C-linked
+  negative control and exact reactivation condition.
+- [x] No uncertain identity or relation propagates; competing candidates
+  remain separate and explicitly non-propagating.
+- [x] New depth-7 parents are registered with minimum dossiers and provenance
+  but are not researched beyond the parent-bearing target source.
+- [x] All eight dossiers receive a consolidation pass and current
+  `## Arbetsläge`; their source-coverage rows leave no priority-1 cell.
+- [x] The depth-6 invalid-front count decreases for all eight target positions,
+  or any unchanged position has an exact blocker backed by a documented
+  lawful-access attempt.
+- [x] Research is logged once in the dated research log and the standard
+  validators, tests, media check and balanced goal-state review pass.
+
+## Approach
+
+Audit the existing evidence and no-repeat controls for all eight people before
+opening new archive routes. Follow Riksarkivet's access order and alternate
+sides. Prefer the nearest parent-bearing original; classify an honest front
+after applicable lawful online routes are exhausted or blocked. Do not open
+enrichment or depth-7 ancestry outside the fixed cohort.
+
+## Log
+
+- 2026-09-04: Created from the verified post-T-0035 goal-state and started.
+  The first pass is a dossier, citation and source-route audit for the fixed
+  cohort.
+- 2026-09-04: Existing parent originals close P-0102, P-0103 and P-0124;
+  P-0125 retains its exact earlier identity front. Complete Indal birth years
+  conflict with P-0375–P-0376's later dates. Hemsjö C/4 resolves P-0383 to
+  P-0513–P-0514 while giving an exact date null for P-0384.
+
+## Verification
+
+`node scripts/goal-state.mjs --depth=6` shows all eight targets reviewed and
+coverage-ready and reduces invalid archive fronts through depth 6 from 15 to
+11. `node scripts/validate-genealogy.mjs` passes with 2,715 assertions, 2,047
+Markdown records and 4,407 media files including `.gitkeep`. All 11 script
+tests pass. `scripts/verify-pedigree.mjs` still passes with 87 independently
+reviewed ancestors on P-0004's branch; the dashboard independently increases
+P-0210's known ancestors from 66 to 68.
+
+The media manifest passes with 4,406 substantive files: 2,580 exact, 1,798
+source-scoped and 28 citation-scoped, with none unlinked. Dashboard test and
+production build pass with 514 people, 2,715 assertions and 543 parent links.
+The bounded audits were read: every T-0036 target has parents or a valid
+terminal status; the listed invalid fronts belong to later cohorts. `git diff
+--check` passes.
+
+## Outcome
+
+Completed as research-log batch 261. P-0102, P-0103 and P-0124 are
+consolidated as already parent-verified; P-0125 retains its reproducible
+identity front. Indal C/3 prevents propagation of P-0375–P-0376's later dates
+to arbitrary birth candidates. P-0383 Sven Olofsson now has P-0513 Olof
+Hansson and P-0514 Britta Andersdotter as verified parents, while P-0384 has
+an exact Hemsjö date null and person-bound reactivation condition. Two new
+depth-7 people remain minimal and unresearched.

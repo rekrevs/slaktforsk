@@ -1,0 +1,107 @@
+# T-0011: Revalidate authenticated archive access and map source-family coverage
+
+**Status**: DONE | **Size**: M
+**Phase**: COMPLETE
+
+## Context
+
+The depth-5 wave ended with eleven direct ancestral tips marked
+`EJ DIGITALISERAD`, one similarly marked depth-6 tip, five unresolved
+identities, one physical archive gap and P-0126's separately unresolved
+paternal branch. Subsequent review established that the project has primarily
+exhausted a church-book workflow, not the relevant online source universe.
+It also established that some Riksarkivet API/IIIF failures may differ from
+what an authenticated web session can access.
+
+This task is the finite first milestone under the owner's 2026-08-21 program
+decision. It must establish trustworthy access classifications and a
+person-by-source map before the research waves begin.
+
+## Acceptance Criteria
+
+- [x] Re-test every `EJ DIGITALISERAD` direct-ancestor status through depth 5
+  and P-0149 in a signed-in Riksarkivet web session, distinguishing catalog
+  presence, web-viewer access, image visibility and API/IIIF access.
+- [x] Reclassify any status disproved by authenticated access; preserve every
+  CAPTCHA, login, WAF, robots, provider or image-service failure as an access
+  incident rather than a negative source result.
+- [x] Create a person-by-source coverage matrix for all open and blocked direct
+  ancestral tips and include the newly supplied wife-side depth-0/depth-1
+  starting cohort, marking relevance and prior use for the central spine and
+  the complementary source families.
+- [x] Prioritize the finite T-0012 cohort and document why each source family
+  is relevant or irrelevant to each target; do not require every source type
+  for every person.
+- [x] Reconcile the matrix, person dossiers, `genealogy/frontier.md` and the
+  research log, then pass JSON and genealogy validation.
+
+## Approach
+
+Begin with authenticated UI checks because direct endpoint failures are not
+reliable evidence of web-viewer unavailability. Build the coverage matrix from
+the project's actual citation/source inventory, then compare each direct tip
+with the periods, places, occupations and unresolved questions that determine
+which source families can change the pedigree or biography.
+
+The central-spine columns comprise birth/baptism, household/parish books,
+migration, marriage/banns, death/burial, censuses, parish extracts and SCB
+extracts. Complementary columns comprise probate, tax/mantals, court,
+parish/poor-relief and—where triggered—military, property and seamen's-house
+material.
+
+## Log
+
+- 2026-08-21: Task created from `PCR-2026-08-21-001` and
+  `PCD-2026-08-21-001`. The owner's standing rule forbids silent failure when
+  plausibly open material cannot be accessed.
+- 2026-08-21: A browser check confirmed an authenticated Riksarkivet session.
+  The first attempted exact-reference search for Värsås
+  `SE/GLA/13639/C/- [H0003]` triggered human verification. No prior
+  `EJ DIGITALISERAD` status has therefore been changed yet; the CAPTCHA is an
+  explicit access incident and the signed-in re-test remains open.
+- 2026-08-21: Continuous execution started. PyREPL restored the ephemeral
+  program state and confirmed that `wotan/backlog.json` and the task logs are
+  the durable source of truth. The task will first derive the coverage matrix
+  from existing dossiers and citations, then use the signed-in UI for the
+  classifications that APIs cannot decide.
+- 2026-08-21: The open records API was blocked by Riksarkivet's WAF, Event ID
+  `110000003`, type `signature`. The signed-in catalog succeeded after human
+  verification. Ten depth-4/5 tips and P-0149 at depth 6 had `Bild` links and
+  working titled viewers. The eleven corresponding direct IIIF manifests all
+  returned 403, proving that direct-endpoint failure and signed-in web access
+  are separate layers.
+- 2026-08-21: P-0050, P-0051, P-0059, P-0110, P-0123, P-0124, P-0131,
+  P-0132, P-0133 and P-0134 were changed from terminal access statuses to open
+  research fronts. P-0149 was likewise reopened within depth 6. P-0020's
+  Värsås catalog post still had no `Bild` link and was corrected to the more
+  precise `ÅTKOMSTSPÄRR`.
+- 2026-08-21: `genealogy/source-coverage.md` now covers all 26 existing
+  open/blocked direct targets plus the three-person wife-side starting cohort.
+  It marks prior use, bounded negatives, newly open volumes, high-priority
+  complementary families and conditionally triggered source types.
+
+## Verification
+
+- Signed-in viewer checks opened the exact titled volumes and batches listed
+  in `genealogy/source-coverage.md`; Värsås H0003 alone lacked `Bild`.
+- Direct manifest check: all eleven newly discovered `C0…` batches returned
+  HTTP 403 outside the viewer, matching the documented access-layer split.
+- PyREPL matrix audit: 26/26 expected existing target IDs present; wife-side
+  cohort present; zero missing targets.
+- `node scripts/validate-genealogy.mjs` — OK: 794 assertions, 465 Markdown
+  records, 135 media files and valid Wotan JSON.
+- `node scripts/ancestor-audit.mjs --through-depth=5` — exactly ten tips lack
+  terminal status, matching the ten deliberately reopened depth-4/5 people;
+  P-0020 is valid `ÅTKOMSTSPÄRR` and six other older terminal cases remain
+  explicit.
+- `jq empty wotan/backlog.json` — passed.
+
+## Outcome
+
+The access model is corrected and the source-family gate is explicit. Direct
+IIIF 403 no longer closes a branch when the signed-in viewer works. Ten nearer
+ancestral tips and one depth-6 tip are reopened with exact viewers, while the
+only remaining signed-in access block is Värsås H0003 for P-0020. The durable
+coverage matrix orders the wife-side wave, newly accessible central sources
+and complementary-source recovery without treating every source family as
+relevant to every person.

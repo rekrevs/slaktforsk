@@ -1,0 +1,70 @@
+# T-0493: Zingmarkhushållets sju dopnotiser, Holmströmspåret och vigseln före 1814
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0168 enligt PCD-2026-09-07-026, efter T-0115.
+Samtliga nycklar blev kända 2026-09-09, när Sävar A I/1 sida 157 och
+C/1 sida 91 utvanns fullständigt.
+
+## Scope, underlag och stoppgräns
+
+[P-0470](../../genealogy/people/P-0470-carl-jonas-zingmark.md) och
+[P-0471](../../genealogy/people/P-0471-anna-sophia-holmstrom.md).
+**Tre passager:**
+
+1. **Sävars födelsebok för sju dagar:** 1814-03-07, 1815-04-26,
+   1816-04-[2]4[?], 1819 (dagbråket oläsligt), 1821-04-17[?], 1823-07-08 och
+   1825-02-01. C/1 är redan använd för den sista. Varje notis ger faddrar och
+   **moderns uppgivna ålder** — sju oberoende prövningar av hennes födelseår
+   1792 — och de fyra reserverade dagbråken avgörs. Läs hela årgången kring
+   varje datum efter **ytterligare barn**: A I/1 börjar 1823, så barn som dog
+   före dess start syns inte där.
+2. **Holmströmspåret.** `Såg-Drängen Anders Holmström` och
+   `Bonden Joh. Petter Holmström` står i Sävar 1825 på samma uppslag som
+   sonens dop. Sök dem i Sävars husförhörslängder och pröva om Anna Sophia
+   Holmström, född 1792, hör till någon av familjerna. **Ingen sammanslagning
+   utan ett original som namnger henne**; efternamnslikhet är inget belägg.
+   Pröva samtidigt om Sävars längder före A I/1 finns — C-0681 anger A I/1 som
+   arkivets första, och om äldre saknas är det ett **arkivförhållande** och
+   inget personnoll.
+3. **Vigseln före mars 1814.** `Gifto-år`-kolumnen är läst och tom på båda
+   makarnas rader i A I/1. Sök Sävars vigselbok omkring 1810–1814, därefter
+   Bygdeå, som är makens födelseförsamling. Ett noll redovisas som årgångs-
+   och församlingsbundet.
+
+Utanför: Bygdeås födelsebok 1785, Sävars dödbok 1870 och sida 582 (T-0492);
+`Anna Johanna Zingmark`-frågan, som ägs av T-0495; nya generationer.
+
+Stoppgräns: de tre passagerna. De sex nyfunna barnen får egna person-id
+**endast** när en dopnotis eller annan post bär dem individuellt; i dag är de
+namngivna relationer utan id.
+
+## Acceptance Criteria
+
+- Varje passage har positivt, exakt negativt eller olöst utfall med angiven
+  församling, volym, årgång, bildintervall och läsdatum.
+- Hela relevanta öppnade poster utvinns med faddrar och kolumnredovisning,
+  sparad kopia och hash.
+- P-0470:s och P-0471:s akter, profiler, teman och båda kontraktsnivåerna
+  avstäms; **P-0471:s `Identitetsläge` prövas om** om moderåldrarna inte kan
+  förenas med 1792.
+- Varje nytt barn som får en egen originalpost får eget person-id och egen
+  bedömning; ingen sammanslagning med befintlig person utan original.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0681:s tillägg T-0168 och de två profilerna först. Ta dopnotiserna
+före Holmströmspåret: moderåldrarna kan begränsa hennes födelseintervall och
+göra spåret mer träffsäkert. Inga beställningar, kontakter,
+dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0168:s granskningsutfall.
+- Nästa ej utförda steg: Sävars födelsebok 1814, omkring den 7 mars.
+- Hinder: BLOCKED bakom T-0115.

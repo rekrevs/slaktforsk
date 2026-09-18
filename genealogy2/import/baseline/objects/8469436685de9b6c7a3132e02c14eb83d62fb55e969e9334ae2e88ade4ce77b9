@@ -1,0 +1,247 @@
+# T-0129: Konsolidera konfliktsignal, djup 5 sida S från P-0042
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0042, P-0065
+
+## Scope och underlag
+
+Exakt dessa 2 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 106 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0007, C-0011, C-0012, C-0013, C-0014, C-0016, C-0030, C-0032, C-0060, C-0062, C-0064, C-0066, C-0099, C-0106, C-0107, C-0115, C-0267, C-0402, C-0404, C-0405, C-0421, C-0483, C-0484, C-0485, C-0486, C-0487, C-0535, C-0536, C-0549, C-0823, C-0825, C-0826, C-0869, C-0872, C-0877, C-0910, C-0911, C-1054, C-1055, C-1056, C-1057, C-1058, C-1059, C-1060, C-1061, C-1062, C-1064, C-1065, C-1066, C-1067, C-1068, C-1069, C-1070.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Granskat 2026-09-08, person-dossier/v1 och person-research/v1.
+
+| Person | Granskat underlag | Format och A-id | Två nivåer | Resultat och kvarstående gränser |
+|---|---|---|---|---|
+| P-0042 Karl Fredrik | Alla 64 äldre egna A-rader och senare C-1093–C-1099; egna vital- och Flensoriginal lokalt prövade, C-0266/C-0267 samt relevanta källnoter | 0 formatfel; 64→69 A, äldre text bevarad | Identitet UNDERKÄND/AVVAKTAR; full UNDERKÄND | Dop, barndom, foto och militärnyckel tillgodoräknade. Döddag 24/29 december1937 bevarad som konflikt. PK-05/11 äldre egna fält/kopior; full även PK-03/04/08. T-0237/T-0227/T-0260/T-0261. |
+| P-0065 Anders | Alla 42 äldre egna A-rader, C-1054/C-1055/C-1072 och relevanta S; egna C-0064/C-0404/C-0483–C-0485/C-0549/C-0872 original prövade | 0 formatfel; 42→43 A, äldre text bevarad | Identitet UNDERKÄND/AVVAKTAR; full UNDERKÄND | Mellanbok återanvänd, namn/datum/testamente och barnräkning rättade. Kopiebrist och1,40kr-konflikt synliga. PK-05/11 samt full PK-08 kvar. T-0258/T-0259/T-0262. |
+
+Personidentiteterna förblir PRÖVAT. Följdpersoner och fulladoptionsägare
+redovisas i batch533; de räknas inte som ytterligare fullgranskade här.
+
+## Verification och Outcome
+
+[Batch 533](../../genealogy/research-log/2026-09-08.md#batch-533--t-0129-karl-fredrik-jansson-och-anders-jonsson)
+är den enda forskningsloggen för passagen. Saklig efterläsning och
+oberoende originalkontroller utförda; A-3940:s felplacerade beläggscell
+rättad. Format0, täckning538/0, inventering135 profiler/0strukturfel,
+28 identitetsgodkända/BÄRANDE,8fullgodkända. Validator3666A/2630MD/
+5010media, giltig Wotan;50/50tester. Mediamanifest5009filer giltigt,
+diffkontroll ren. Slutlig inventeringshash --write/--check passerade
+liksom validator efter sista personändringarna. Dashboard orörd.
+
+T-0129 är verifierad DONE inom tvåpersonsomfånget. Totalt67/538
+individuellt fullgranskade i programmet; detta betyder inte att deras
+materiella kontraktskrav är uppfyllda. Sammanhängande körning fortsätter.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Följdpåverkan från T-0123, 2026-09-07
+
+P-0042 har fått en begränsad rättelse i akt och befintlig profil: C-0909/C-0910:s bokföring 1915–1918 skiljs från faktisk omsorg och överlämningsdag. C-0030–0032/C-1047:s sena adresskedja har tillgodoräknats; endast Arne flyttas till 860 år 1938, inte morföräldrarna. Positivt 6 b/638 ersätter äldre fel 5 b/638; 1923–1930 förblir olokaliserat. Tre namngivna fosterbarn ersätter felräkningen fyra. Pröva fullpostutvinning och C-1047:s lokala provenans individuellt i PK-05/PK-11. Full adoption, samtliga äldre sakceller och senare rättelser, standardformat samt individuell PK-omprövning återstår här. Ingen extra person räknas som slutgranskad genom T-0123; befintliga A-id och redaktionell historik bevarades.
+
+## Avgränsad följdpåverkan T-0125, 2026-09-07
+
+P-0042 har begränsat fått C-0016-Spånga, rättat 1887-11-09 i aktuella celler, C-1070:s redan funna fortsättning samt källberoenden och fem socknar avstämda. Tures äktenskap1914-12-31 tillgodoräknat utan KarlHarryfaderskap. Sex saknade äldre fullbilder ger PK-11 EJ STYRKT och identitetsnivå UNDERKÄND/AVVAKTAR; övriga krav inte fullgranskade. Fullägaren är fortsatt denna kohort, källkopior T-0237.
+
+
+## Återupptagning — start efter T-0128
+
+2026-09-08: T-0128 verifierad DONE,65/538 fullgranskade. Nästa fasta
+kohort P-0042/P-0065,106baslinjeA. Äldre minimala följder ovan läses
+som utförda delar, inte fullgranskning. Next_id258, nästaA4286,
+nästa batch533. Nästa ej utförda steg: läs aktuella akter/profiler och
+samtliga egna belägg, fördela personägarskap; root äger delade filer/Wotan.
+Ingen ny arkivsökning ingår, inga hinder.
+
+
+## Återupptagning — fördelning av individuell granskning
+
+2026-09-08: pilot_parents äger endast P-0042 akt/profil, A-4286–4293.
+pilot_private_candidate äger endast P-0065 akt/profil, A-4294–4299.
+pilot_varied gör läsande oberoende ekonomi-/bouppteckningsgranskning
+C-0485/C-1054 för Anders. Root äger delade citationer/Wotan/log och
+övriga A-id från4300; granskar Karl Fredriks egna original. T-0128
+är verifierad DONE, inga återstående effekter att återupprepa.
+Nästa steg: faktiska fullfält och avstämning av senare rättelser.
+Ingen ny arkivsökning, inga hinder.
+
+## Återupptagning — bevarade delresultat 2026-09-08
+
+Root har kompletterat C-0099, C-0535 och C-1062 samt därefter C-0421,
+C-0030–C-0032, C-0021 och C-0911 med lokalt prövade personfält och
+rättelsegränser. C-0421 ger död 24 december 1937, C-0032 ger 29 december;
+konflikten kvarstår. C-0910:s Torvald-/Ture-/Astridfamiljer är visuellt
+prövade men deras samlade tillägg och minimala personföljder återstår.
+Torvalds födelsedag ska inte normaliseras till 31 augusti på grund av en
+preliminär förstoring; 3 augusti och handstilens avslut prövas fortfarande.
+
+pilot_parents arbetar fortsatt P-0042/A-4286–4293, private P-0065/
+A-4294–4299. Private har nu även rätt att append C-0483/C-0484/C-0872
+samt C-0064/C-0549/C-0404 med sina faktiskt lästa fullfält.
+Varied äger C-0485/C-1054 och minimala P-0066/P-0067/P-0028/P-0029,
+A-4300–4305; inga andra delade filer. Root använder nästa A från 4306.
+T-0258 är skapad för exakt tjugo saknade bouppteckningsbilder efter
+programmet. Backlog next_id är 259. T-0237 har fått Karl Fredriks egna
+fält i samma sex hushållsbilder och tre fasta flyttkopior tillagda.
+
+P-0046 var fullgranskad i T-0125. P-0043/P-0044/P-0047/P-0066 ägs
+fortsatt av T-0157; P-0045 av T-0177; de är inte tidigare fullgranskade.
+P-0067:s saknade profil får explicit adoption i T-0178; P-0028/P-0029
+hör T-0154 till. Minimala följdrättelser räknas inte som nya fulla akter.
+
+Nästa ej utförda steg: slutför C-0910 och familjeföljder, kontrollera
+personägarnas sluttexter, avgränsa Karl Fredriks återstående 1877–1886-
+led och militära nyckel samt egen döddagskonflikt. C-1093–C-1099 har
+redan löst hans barndom till utflyttningen Råby Rönö 1877-11-24.
+Batch 533 är ännu inte loggad. Inventering och full verifiering återstår;
+diffkontroll hittills utan fel. T-0129 förblir ONGOING/DOING, inga hinder.
+
+## Återupptagning — verifierat avslut
+
+2026-09-08: T-0129 DONE, batch533. Samtliga kriterier uppfyllda inom
+konsolideringsomfånget; materiella forskningsrester har fasta ägare.
+Inget återstående arbete att upprepa här. Nästa kohort är T-0130,
+P-0338/P-0339/P-0461/P-0462. Backlog next_id263, nästa fria A4312,
+nästa batch534. Sammanhängande körning fortsätter utan avbrott.
+
+## Inkommet från T-0163, 2026-09-09
+
+**P-0065 åberopade en citation som belägg för något den inte innehåller.**
+Åtta syskonrader förde `C-1055` som ett av två belägg med status
+`CORROBORATED`. C-1055:s uppslag — Degerfors A I/7b s. 400, 1858–1860 —
+nämner **ingen** av syskonen. Deras frånvaro där är en iakttagelse om det
+uppslaget, inte ett belägg **för** syskonskapet.
+
+Begränsad rättelse gjord 2026-09-09: C-1055 struken ur de åtta raderna,
+kvalificeringen `Syskon enligt följd familjegrupp` flyttad från
+relationskolumnen till `Tid/plats`, relationstermen satt till `syskon`, och
+statusen sänkt till `TRANSCRIBED` eftersom A I/3 → A I/4 → A I/5b → A I/6b är
+**en** informationsväg. Ingen sakuppgift ändrad; syskonskapet står kvar.
+
+Vid den individuella granskningen här: kontrollera om fler påståenden i P-0065
+åberopar C-1055 utanför dess faktiska innehåll. De kvarvarande hänvisningarna
+gäller Anders egen rad på uppslaget och är riktiga.
+
+## Rapport från T-0177, 2026-09-09: P-0045:s fulla adoption är utförd
+
+Din begränsade följdavstämning angav att `Full adoption inklusive saknad
+profil ägs av T-0177`. **Den är utförd.**
+[P-0045](../../genealogy/people/P-0045-torvald-stefanus-jansson.md) är förd
+till `person-dossier/v1` med profil, 0 formatfel, och **samtliga sex
+ursprungliga assertioner står kvar med oförändrad lydelse** — A-0194 med två
+led utmärkta i saktexten, de fem övriga oförändrade. Din avstämningstext och
+den blockciterade äldre A-3428 är bevarade som H4-historik.
+
+**Två nya påståenden tillkommer, båda ur en citation du redan använde.**
+
+**A-7742: hans egen rad bär inget efternamn i barndomskällan.** C-1056:s
+hushållstabell skriver honom `S:n **Thorvald** Stefanus` — med `h` och **utan
+efternamn** — medan föräldrarnas rader bär `Jansson` respektive `Larsson`.
+Detta är samma iakttagelse som A-5710 gjorde för brodern P-0044 över åtta
+källor: `Jansson` är projektets familjebundna visningsnamn ur hushållets
+överrad, inte en belagd egen form. **Men för honom finns ett undantag som du
+själv utvann:** C-0911 skriver `Torvald Stefanus **Jaensson**` på hans **egen**
+rad (A-4308). Det är den enda efternamnsform som är hans, och den stavas med
+`ae`. **Både `Jaensson` och `Thorvald` måste därför prövas som söknycklar**,
+och P-0044:s nolla får **inte** överföras till honom.
+
+**A-7743: två barndomsdatum var opropagerade.** C-1056 ger hushållets
+inflyttning till Blacksta **1890-11-18 med attest nr 51** och överföringen
+inom församlingen till **sida 139 den 1891-11-09**. Uppgifterna stod i
+citationen men hade inte nått hans akt. Attestnumret är en exakt ingång i
+Vadsbros utflyttningslängd 1890, och citationens **kolumnrättelse** är
+bevarad i påståendet: talet är ett attestnummer och inte en folio, och sida 51
+i Vadsbro A I/21 är blank.
+
+**Dina två reservationer står kvar och är utpekade som aktens viktigaste
+gränser.** `Värnamo[?]` i utflyttningskolumnen 1920 bär **hela hans vuxna
+liv** — han har inte ens ett sekundärt dödsår att pröva — och `Darby[?]`
+gäller andra hustruns gårdsnamn. Aktens profil pekar ut **Flens
+utflyttningslängd 1920** som en bättre väg än en omläsning av kyrkobokens
+trånga anteckningscell, eftersom destinationen där står i egen kolumn med
+attestnummer. Din rättelse av `staden Jönköping` till **länet** är förd som
+spärrad söknyckel.
+
+**Och en fråga du inte ställde är nu utskriven:** dottern Maggi Carola
+Elisabet föddes 1918-12-23, **tre månader efter det andra äktenskapet**, och
+**vilken hustru som var hennes mor är inte belagt**. Alternativet att hon var
+första hustruns barn faller på tid — hustrun dog 1915 — men det gör inte
+andra hustrun belagd. Ingen moder tillskrivs.
+
+## Rapport från T-0178, 2026-09-09: P-0067 adopterad, och ett attestnummer du inte hade
+
+Din avgränsade följdavstämning i P-0067 utsåg T-0178 till ägare för adoption
+till full profil och individuell prövning. **Adoptionen är utförd**: Maria
+Augusta har nu akt i `person-dossier/v1` och profil i `person-research/v1`,
+med identitetsnivå `GODKÄND` och `Trädverkan: EJ BÄRANDE`.
+
+**Din bouppteckningsläsning är aktens enda självständiga belägg**, och det är
+utskrivet som sådant. En bouppteckning är ingen avskrift ur kyrkoboksserien,
+och den binder namn, födelseår, föräldraskap, yrke och ny hemort i **en**
+handling åtta veckor efter utflyttningen. Det är den som gör identitetsnivån
+godkänd, inte de tre husförhörsvolymerna — de är en kopiekedja, och
+granskningen fann att **två av aktens övriga belägg är utdrag ur just den
+kedjan** (C-0060 och C-0402 bär tryckta `Utdrag ur …`-huvuden).
+
+**Attestnummer `39`.** A I/11c rad 4 bär i den **sista** tryckta kolumnen
+utflyttningsattestens nummer intill `Anundsjö 98 ²⁸/₆`. Numret var outvunnet
+och pekar på **en** post i Degerfors utflyttningslängd 1898 — en serie
+projektet redan brukar — vilket gör det till hennes billigaste väg vidare,
+före Anundsjös böcker. A-7746.
+
+**En av dina uppgifter kunde inte bekräftas.** C-0404:s T-0129-tillägg anger
+att hon är `markerad som barnmorska` i boken. Vid läsningen 2026-09-09 vid
+250–420 %, med rubrikraden i samma utsnitt, fanns inget stöd för det. Det är
+**inte** avfört som fel: uppgiften är förd som en **öppen läsfråga** i akten
+och i C-0404, eftersom den, om den står där, skulle belägga yrket redan före
+flytten. Yrket självt är säkert belagt genom din bouppteckningsläsning.
+
+**Din rättelse `åtta arvingar ≠ åtta barn` är förd vidare** i samtliga sex
+syskons akter, med `minst tio kända barn` och tre syskon utan person-id som
+uttrycklig kohortavgränsning.
+
+**Avgränsning.** P-0067 är färdigadopterad. P-0065 och P-0066 ägs inte här
+och har bara fått bundna avsnitt; moderns tre konkurrerande
+födelsedagsvarianter är rapporterade till P-0066 och avgörs inte i T-0178.

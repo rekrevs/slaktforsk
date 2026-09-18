@@ -1,0 +1,92 @@
+# T-0032: Add life years and places to the pedigree trees and a complete person catalogue
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+The owner wants a version-4 checkpoint that keeps version 3's restrained,
+paper-efficient design while making the family trees and person section more
+informative. `PCR-2026-09-04-005` and `PCD-2026-09-04-005` define the scope.
+
+Versions 1–3 are immutable reference editions. T-0013 has yielded back to
+`READY`; its already collected archive evidence remains in the workspace and
+will be resumed after this bounded edition task.
+
+## Acceptance Criteria
+
+- [x] Versions 1–3 remain byte-for-byte unchanged.
+- [x] Both connected pedigree trees show each person's name, known life years
+  and a relevant place, without depth-position codes or evidence-status prose
+  inside the person nodes.
+- [x] A complete catalogue contains all 62 unique people shown as nodes in the
+  two trees, in tree order, with exactly one primary entry per tree position.
+- [x] Every catalogue entry shows person ID, name, life years, place, branch
+  and depth, plus named person-ID references to known parents, partner(s) and
+  children. Non-propagating uncertain relations are not presented as known.
+- [x] Every catalogue entry includes an evidence-grounded synthesis of the
+  most relevant known life information and readable C-references; unknown
+  information remains explicit rather than inferred.
+- [x] The catalogue uses two people per portrait page and may increase the
+  page count for substantive content, while retaining version 3's monochrome,
+  undecorated typographic design.
+- [x] A version-4 manifest, deterministic builder and structural verifier make
+  the edition reproducible and check the catalogue/tree invariants.
+- [x] Every rendered page is visually inspected; no text, connector, footer or
+  catalogue field clips or overlaps.
+
+## Approach
+
+Reuse version 3's frozen narrative, maps, stories, source close readings and
+references. Replace only the tree metadata and portrait-page sequence. Freeze
+the 30 nearer-generation tree positions and their display metadata in the
+version-4 manifest; reuse the 32 depth-5 position records from the version-2
+content manifest. Build relationships from the current canonical project data
+with the same non-propagation statuses as the ancestry model.
+
+## Log
+
+- 2026-09-04: Created and started directly from the owner's checkpoint and
+  clarifications. Project Control records both the redirection and the approved
+  content contract.
+- 2026-09-04: Froze the 30 nearer tree positions in the version-4 manifest and
+  reused the 32 depth-5 positions from the version-2 content manifest. Built
+  two connected 31-node pedigrees and a 62-entry catalogue at two people per
+  page. The first visual pass exposed one catalogue spacing collision and an
+  over-broad partner classifier; both were corrected before the final build.
+- 2026-09-04: The current depth-6 work had added two valid frontier people,
+  making the dashboard baseline 503 people and 63 known ancestors on
+  P-0210's branch. Updated the stale regression constant without changing the
+  generated genealogy or the edition content.
+
+## Verification
+
+- `scripts/verify-family-edition-v4.py`: OK; 43 A4 pages (40 portrait, three
+  landscape), two complete 31-node pedigrees, 62 unique catalogue entries,
+  named relations, sourced summaries, grayscale, bounds, metadata, frozen
+  content and preserved-edition checksums.
+- Rendered all 43 pages at 120 dpi and reviewed them in contact sheets, with
+  the two tree pages, the first/densest catalogue pages and pages 37–43 also
+  inspected at original render size. No clipping or overlap remains.
+- Version hashes are preserved: v1
+  `fbb9e906ae2a20093e502e38bf5dcb2d8f0b9d3651536c64e1d6de5336870803`,
+  v2 `a56b5701fc74ab3da8249068ee13e170e29bfa6f9032e7570607fa38a6efdba8`,
+  v3 `d283602d92acbe6c0886260902ef68620ed7ce4d891b2d6c1351b2712500f70a`.
+  Final v4 SHA-256:
+  `5d9dfabda85c7c4c3e1c4171068961931a4f3caa9b8dfa6933f48faf75a47259`.
+- `node scripts/goal-state.mjs`, `node scripts/validate-genealogy.mjs`,
+  `node --test scripts/`, `node scripts/media-manifest.mjs --check`, dashboard
+  `npm test`, dashboard `npm run build` and `git diff --check` pass. The
+  genealogy validator reports 2,678 assertions, 2,003 Markdown records and
+  4,348 media files; the manifest check reports no unlinked media.
+
+## Outcome
+
+Created the requested version-4 checkpoint at
+`output/pdf/adam-och-axel-janson-fem-generationer-v4.pdf`, backed by
+`genealogy/editions/adam-axel-depth5-v4.json`,
+`scripts/build-family-edition-v4.py` and
+`scripts/verify-family-edition-v4.py`. The 43-page edition retains version
+3's restrained monochrome form, gives each tree node name/life years/place,
+and supplies a complete sourced catalogue for every person in the trees.
+Versions 1–3 remain unchanged. T-0013 is the next READY research task, with
+its collected evidence preserved.

@@ -1,0 +1,406 @@
+# T-0090: Datumbundna nollresultat — läs hela årgångar i stället för enskilda dagar
+
+- Status: READY
+- Storlek: M
+- Beroende: inga
+- Skapad: 2026-09-06
+
+## Varför
+
+Kontraktsgranskningen i [T-0070](T-0070.md) har nu funnit **samma metodfel sex
+gånger** — två i batch 372–373 och fyra i batch 375, varav tre i ett enda par:
+
+> En negativ kontroll utförs troget mot den uppgivna nyckeln — ett datum ur en
+> hushållslängd — och hypotesen att **nyckeln själv är fel** prövas aldrig.
+
+Varje citat anger korrekt sin egen avgränsning. Det som saknas är
+uppföljningen. Konsekvensen är att fyra öppna frågor har beskrivits som
+uttömda när de i själva verket bara är prövade i ett fönster på sex dagar till
+sex veckor.
+
+Denna uppgift utför de tre instanser som batch 375 blottlade. Volymerna är
+**redan öppnade och lästa på enskilda sidor**, så vägen är helt ohindrad.
+
+## Omfång
+
+1. **Nysätra C/4, reproduktion `C0034274`** — hela födelseåret **1835** samt
+   1834 och 1836. Läs mot **namn och föräldrar**: en Anders, son till bonden
+   Anders Nilsson och Magdalena Eriksdotter i Risvattnet nr 3. Endast
+   14 juli–28 augusti 1835 är läst ([C-0144](../../genealogy/citations/C-0144-nysatra-1835-negativ-kontroll-anders-andersson.md)).
+   För [P-0050](../../genealogy/research-profiles/P-0050.md), fråga Q-01.
+2. **Bygdeå F/1, reproduktion `00194435`** — hela dödsåren **1899 och 1900**.
+   Läs mot **namn och ålder**: Anders Andersson, hemmansägare i Jomark, omkring
+   64 år. Endast 17–22 juni 1899 är läst — sex dagar
+   ([C-0433](../../genealogy/citations/C-0433-bygdea-F1-1899-06-22-negativ-anders-andersson.md)).
+   För P-0050, fråga Q-02. Det säkra dödsfönstret är 1899-06-22 – 1913-05-23.
+3. **Lövånger C/5 och Bygdeå C/4** — hela födelseåret **1830** samt 1829 och
+   1831. Läs mot **namnformerna** Barbro/Barbru/Cajsa/Catharina/Christina
+   **och mot oäktaposter förda under moderns namn**. Endast dagarna kring 14
+   och 24 februari är lästa ([C-0145](../../genealogy/citations/C-0145-lovanger-1830-negativ-kontroll-barbro.md),
+   [C-0306](../../genealogy/citations/C-0306-bygdea-C4-fodda-1830-02-24-negativ-kontroll.md)).
+   För [P-0051](../../genealogy/research-profiles/P-0051.md), fråga Q-01.
+   Detta är den **enda ohindrade vägen** som återstår för henne, och den enda
+   som prövar rätt hypotes: hon är antecknad som `oäkta`.
+
+   **Tillägg 2026-09-06 (batch 377):** samma årgång i Bygdeå C/4 besvarar
+   **också** [P-0094](../../genealogy/research-profiles/P-0094.md) Jakob
+   Anderssons födelsefråga. Han uppges född 1830-04-16 eller 1830-07-16, och
+   volymen är kontrollerad **endast på de två dagarna**
+   ([C-0424](../../genealogy/citations/C-0424-bygdea-C4-jakob-andersson-fodelsedatum-konflikt-1830.md)).
+   Läs årgången även på föräldranamnen **Anders Olofsson och Maria
+   Jakobsdotter i Ultervattnet**. De två läsningarna är i praktiken **en
+   enda**, och utfallet ska ompröva både P-0051 och P-0094.
+
+4. **Årdala C/4 och C/5** — hela födelseåret **1852** samt 1851 och 1853, läst
+   på **föräldranamnen Lars Erik Jansson och Brita Christina Ersdotter i
+   Carlberg**, inte på dagen 1852-03-21. Båda volymerna är kontrollerade
+   **runt** den uppgivna dagen utan träff
+   ([C-0151](../../genealogy/citations/C-0151-ardala-1852-negativ-kontroll-anna-christina.md))
+   och är redan öppnade i inloggad katalog (batcherna `C0005633`, `C0005634`).
+   För [P-0134](../../genealogy/research-profiles/P-0134.md), fråga Q-01.
+   **Skillnaden mot instans 1–3:** här är föräldranamnen kända och säkra, vilket
+   gör läsningen billigare och mer träffsäker. Dödboken 1887 anger åldern
+   35 år 7 månader 6 dagar, vilket räknat bakåt ger exakt 1852-03-21 — en
+   oberoende indikation, men ingen födelsepost.
+   *Tillagd 2026-09-06 ur batch 379.*
+
+5. **Sättna F/1** — hela dödsåren **1922 och 1923**, lästa mot namn och ålder.
+   Församlingsboken anger [P-0250](../../genealogy/research-profiles/P-0250.md)
+   Abraham Jönssons dödsdag till 1922-07-16, men F/1 och dess SCB-utdrag går
+   båda från dödpost 21 den 6 juni till post 22 den 3 augusti utan post den
+   dagen ([C-0455](../../genealogy/citations/C-0455-sattna-F1-scb-abraham-dod-1922-konflikt.md))
+   — ett korrekt avgränsat **tvåmånadersintervall**, men hela årgångarna är
+   olästa. **Observera:** SCB-utdraget är en **beroende avskrift** av samma
+   bok, så de två kontrollerna är inte oberoende.
+6. **Holm C/1** — födelseåren **1843 och 1845**, lästa på **föräldranamnen
+   Jonas Nordlund och Gertrud Olofsdotter**. Hela årgången 1844 är redan
+   genomläst utan namnet Stina Kajsa Nordlund — korrekt gjort — men grannåren
+   är olästa. För [P-0251](../../genealogy/research-profiles/P-0251.md).
+   **Varning:** flickan född exakt 1844-02-13 i Holm heter **Stina Brita** och
+   får **inte** antas vara målpersonen utan en oberoende identitetsbrygga.
+   *Instanserna 5–6 tillagda 2026-09-06 ur batch 380.*
+
+## Uteslutet
+
+[T-0089](T-0089.md):s fem vägar. Degerfors dödbok 1868–1870 för P-0423 hör
+till samma mönster och bör utföras i samma svep, men den är redan registrerad
+där och dubbelbokförs inte. Nya personer, djup 6, läsesal, beställning, PDF,
+dashboard, publicering och push.
+
+## Verifierbart utfall
+
+- [x] Varje årgång läst med träff eller som **uttryckligt avgränsat
+  årgångsnoll** med utskrivet bildomfång.
+- [x] Citat skrivna och påståenden införda; de äldre datumbundna nollen
+  bevaras och supersederas uttryckligen i stället för att raderas.
+- [x] Profilerna P-0050, P-0051, P-0094, P-0134, P-0250 och P-0251 omprövade
+  mot det nya underlaget.
+- [x] Batchen loggad en gång i `genealogy/research-log/` (batcherna 452–458).
+- [x] Kontroller gröna.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-06 vid registrering.
+- Nästa ej utförda steg: instans 3, Barbros födelseår 1830 — högst värde,
+  eftersom den kan lösa en `IDENTITET OLÖST`.
+- Hinder: inga.
+
+## Outcome
+
+Se avsnittet **Slutresultat** sist i loggen.
+
+## Återupptagning — uppgiften påbörjad
+
+- Uppdaterat: 2026-09-07, satt till ONGOING efter att T-0102 avslutats.
+- **Ny förutsättning sedan registreringen:** IIIF-manifestets `structures`
+  ger ett maskinläsbart årsindex per avsnitt (avsnitt → år → bild), infört i
+  `genealogy/method-riksarkivet.md` 2026-09-07. Det är precis det verktyg den
+  här uppgiften behöver: att läsa **hela årgångar** i stället för enskilda
+  dagar var tidigare dyrt och är nu billigt. Pröva manifestet först för varje
+  volym; fall tillbaka på bildetiketterna (`Bild N / Sida M`) när `structures`
+  saknas.
+- **Ny förutsättning för instans 6:** paret Jonas Nordlund × Gertrud
+  Olofsdotter är sedan 2026-09-07 daterat — vigda **1842-04-10 i Holm**
+  (C-1030). Ett barn före april 1842 är därmed inte att vänta, och 1843 och
+  1845 är rätt grannår att läsa.
+- Nästa ej utförda steg: instans 3, Barbros födelseår 1830.
+
+## Återupptagning — instans 3, första halvan utförd
+
+- Utfört: **Bygdeå C/4:s hela födelseår 1830 läst** (bilderna 14–22, omkring
+  nittio dop). Nya belägg **C-1035** och **C-1036**, påståenden
+  **A-3837–A-3840**, tillägg i **S-0093**, forskningslogg batch 452.
+- **Huvudresultat, P-0094:** födelsenotisen är funnen — `April 16. 17. Jacob.
+  Bond: Anders Olofson och dess Hustru Maria Jacobsd:r 31. Häggnäs.`
+  A-0364:s konflikt upphör; föräldralänken är oberoende bekräftad.
+  Juliuppgiften avvisad: enda Jacob i juli är född 29 juli i Ultervattnet med
+  andra föräldrar — en trolig förväxlingsförklaring.
+- **Varför den missades:** C-0424 läste bilderna 18 och 20; posten står på
+  **bild 17**. Postföljden är inte strikt kronologisk över uppslagen.
+  Tredje varianten av samma felfamilj efter fel årgång (C-1023) och fel sida
+  (C-1013). Regel införd i S-0093: **läs hela årgången ur manifestets index,
+  välj inte uppslag efter gissad datumposition.**
+- **Delresultat, P-0051:** årgångsnoll för namnet `Barbro` i Bygdeå 1830.
+  Fyra `Cajsa`/`Christina`-poster förtecknade som uteslutna med namngivna
+  föräldrar. C-0306:s dagbundna noll bevarat och supersederat.
+- **Nytt spår, ej i denna uppgift:** familjen bodde vid födelsen i **Häggnäs**,
+  inte Ultervattnet. Vägen mellan byarna är oprövad.
+- **Nästa ej utförda steg:** instans 3:s andra halva — **Bygdeå C/4 årgångarna
+  1829 (bild 9–13) och 1831 (från bild 23)** samt **Lövångers C/5 1829–1831**
+  (`C0034183`, årsindex 1829:8, 1830:12, 1831:17), lästa mot namnformerna
+  Barbro/Barbru/Cajsa/Catharina/Christina och mot oäktaposter förda under
+  moderns namn.
+
+## Återupptagning — instans 3, andra halvan påbörjad
+
+- Utfört: **Lövånger C/5:s hela födelseår 1830 läst** (bilderna 12–17). Nytt
+  belägg **C-1037**, påståenden **A-3841–A-3843**, forskningslogg batch 453.
+- **Huvudresultat:** årgången rymmer **exakt en** Barbro —
+  `Barbru Catharina`, född och döpt **24 januari 1830**, dotter till
+  **torparen Olof Pehrsson Westman i Bodan** och **Brita Stina Johansdotter**,
+  39 år. Fem drag sammanfaller med P-0051; **månaden skiljer** (januari mot
+  hushållskällornas februari).
+- **Ingen identifiering gjord.** Fört som `LEAD`; inga föräldrar registrerade,
+  ingen relation skapad, den verifierade anlinjen orörd. P-0051 är direkt ana.
+- **Varför den missades:** C-0145 prövade två dagar i februari; S-0573:s
+  OCR-screening sökte på `Cajsa` och `02-24` — alltså på de uppgifter som
+  skulle prövas. Screeningens eget återstartvillkor krävde en ny by- eller
+  hushållsnyckel; **den finns nu: Bodan, Olof Pehrsson Westman, 24 jan 1830.**
+- **Påbörjat, ej avslutat:** Lövånger `A I/7` (`C0034164`) har ortregister på
+  bild 8 med `Bodan 57`. Byn löper över **minst sidorna 57–60** (bilderna
+  71–74) — registret är ofullständigt, som Målillas. Torparen finns inte på de
+  fyra lästa sidorna; **detta är inte en nolla**.
+- **Uppföljningen sökte där han borde stå, utan träff:** `A I/7` Bodan
+  sidorna 57–62, `A I/7` `Krigsfolk` sidorna 345–350 (tjugoen soldatnamn,
+  inget `Westman`) och `A I/8a` Bodan sidorna 70–73. **Ingen av dessa är en
+  nolla** — alla tre sviterna fortsätter. Förtecknat i C-1037.
+- **Nästa ej utförda steg:** (1) `A I/8a`/`A I/8b` (`C0034165`/`C0034166`)
+  Bodan **från sida 74**, där dottern ska stå med utskrivet födelsedatum —
+  den avgörande uppgiften; (2) `A I/7` Bodan från sida 63 och `Krigsfolk`
+  från sida 351; (3) Lövångers utflyttningslängd kring 1846 mot Bygdeå;
+  alternativt (4) bakåt: Lövångers vigselbok för `Olof Pehrsson Westman` ×
+  `Brita Stina Johansdotter` omkring 1810–1829, med hustruns födelseår
+  omkring 1791 som kontrollpunkt. Därefter återstår **Bygdeå C/4 årgångarna
+  1829 och 1831** och **Lövånger C/5 1829 och 1831** innan instans 3 är
+  stängd.
+
+## Återupptagning — hushållet funnet
+
+- Utfört: **Lövånger `A I/7` folio 68 funnen** — hushållet `Olof Pehrsson
+  1786` med `Brita Christina Johansdotter 1791` och raden
+  **`Dotter Barbru Catharina — 1830 24/1`**. Nytt belägg **C-1038**,
+  påståenden **A-3844–A-3848**, forskningslogg batch 454.
+- **Tre bekräftelser:** (1) husförhörslängden och dopboken ger **samma
+  födelsedag**, oberoende av varandra; (2) moderns födelseår 1791 ger exakt
+  de `39 år` dopboken anger; (3) soldatnamnet `Westman` används i dopboken
+  men **inte** i husförhörsraden — därför gav sökningarna på `Westman` inget.
+- **Ortregistret var ofullständigt igen:** `Bodan 57`, men byn löper till
+  folio 68.
+- **Fullständig bynivåkontroll:** `A I/8a` Bodan folio 70–83, alla fjorton
+  sidor lästa utan lucka. Hushållet finns inte där — familjen lämnade Bodan
+  mellan 1830 och 1836.
+- **Ny tråd:** halvsysterraden `Anna Greta 1803` bär `aflagt fr Bygdeå 1827`
+  — en dokumenterad Bygdeåförbindelse i samma hushåll. `LEAD`.
+- **Ställning:** sju drag sammanfaller, ett skiljer (månaden).
+  **Identifieringen görs inte.**
+- **Nästa ej utförda steg:** (1) Lövångers utflyttningslängd 1830–1836 eller
+  den by dit hushållet flyttade; (2) Lövångers dödbok 1830–1846 — dör hon som
+  barn faller kandidaten; (3) Bygdeås inflyttningslängd kring 1846 mot
+  `Barbru Catharina Olofsdotter`, född 1830-01-24. Därefter kvarstår
+  **Bygdeå C/4 1829 och 1831** och **Lövånger C/5 1829 och 1831** innan
+  instans 3 är stängd.
+
+## Arbetsordning fastställd 2026-09-07
+
+Ägarbeslutet PCD-2026-09-07-022 ger denna uppgift **företräde ett av fyra**:
+den landas först, eftersom den är mitt i flykten och just har funnit hushållet
+i Bodan. När den är DONE tas **`T-0103`**, som sätter `Identitetsgranskning`
+och `Trädverkan` på de 96 profilerna och därmed gör de två färdignivåerna
+verkliga. Därefter frontuppgifterna med `T-0097` först.
+
+**Om uppgiften växer bortom sin registrerade omfattning ska den checkpointas
+och T-0103 tas i stället** — ordningen tänjs inte.
+
+## Återupptagning — instans 3 stängd
+
+- Uppdaterat: 2026-09-07.
+- **Utfört:** instans 3:s återstående fyra årgångar lästa — **Lövånger C/5
+  1829 (bilderna 8–12) och 1831 (17–22)** samt **Bygdeå C/4 1829 (9–14) och
+  1831 (23–28)**. Nya belägg **C-1039** och **C-1040**, påståenden
+  **A-3849–A-3856**, forskningslogg **batch 455**, uppdaterade källor S-0093
+  och S-0114.
+- **Resultat:** sex årgångar rymmer fyra Barbro. **Tre faller på
+  patronymikonet** (Emanuelsdotter, Ericsdotter, Pehrsdotter). Kvar står
+  **en enda** — Bodanflickan `Barbru Catharina` 24/1 1830. Kandidaten är
+  ensam i sitt slag inom ett uttömt treårsfönster i båda församlingarna.
+  **Ingen identifiering görs**; månadskonflikten står kvar.
+- **Avgränsningar som står i beläggen:** Bygdeå `C/4` börjar 23 maj 1829, så
+  januari–maj 1829 (i `C/3`) är oläst; 1832 är inte en prövad årgång.
+- **Metodfynd:** bild 21 och 22 i `C0034183` är dubblettskanningar av samma
+  uppslag; Bygdeå `C/4`:s postföljd är inte kronologisk över uppslagen.
+- **Beslut om omfångsdisciplin:** uppföljningen av Bodanhushållet
+  (utflyttningslängd, dödbok 1830–1846, Bygdeås inflyttning kring 1846) är
+  **inte** en årgångsläsning och ligger utanför denna uppgifts registrerade
+  omfång. Den läggs i en egen ändlig uppgift i stället för att växa här,
+  enligt `wotan/README.md` och arbetsordningen i PCD-2026-09-07-022.
+- **Nästa ej utförda steg:** instans 4 (Årdala `C/4` och `C/5`, födelseåren
+  1851–1853 på föräldranamnen — billigast och mest träffsäker), därefter
+  instans 6 (Holm `C/1` 1843 och 1845), instans 5 (Sättna `F/1` 1922–1923),
+  instans 2 (Bygdeå `F/1` 1899–1900) och instans 1 (Nysätra `C/4` 1834–1835;
+  1836 ligger i nästa volym och måste routas).
+- **Verifiering:** kontroller körs när uppgiftens läsningar är klara.
+- **Hinder:** inga. IIIF-manifest och bildhämtning fungerar i den anslutna
+  Chrome-fliken; `curl` mot `lbiiif`/`data.riksarkivet.se` svarar däremot
+  **403** i denna session, så all hämtning sker i fliken.
+
+### Årsindex hämtade 2026-09-07 (sparade för återupptagning)
+
+| Volym | Reproduktion | Årgångarnas startbilder |
+|---|---|---|
+| Nysätra `C/4` | `C0034274` | 1834:354, 1835:360 (volymen slutar 1835) |
+| Bygdeå `F/1` | `00194435` | 1899:38, 1900:51, 1901:62 |
+| Årdala `C/4` | `C0005633` | 1851–1852:13, 1853:14, 1854:15 |
+| Årdala `C/5` | `C0005634` | 1851:11, 1852:12, 1853:14, 1854:15 |
+| Sättna `F/1` | `00205415` | 1922:118, 1923:122, 1924:125 |
+| Holm `C/1` | `C0032930` | hämtas vid instans 6 |
+
+## Återupptagning — instanserna 4 och 6 stängda
+
+- Uppdaterat: 2026-09-07.
+- **Instans 4 (Årdala), batch 456:** **födelsenotisen är funnen.**
+  `Anna Christina`, född 21 mars 1852, döpt 25 mars, dotter till statdrängen
+  Lars Eric Jansson och Brita Christina Ersdotter **i Kallvik** — i **båda**
+  de parallella volymerna, `C0005633_00013` och `C0005634_00013`. Moderns
+  ålder 33 år bekräftar självständigt hennes egen födelsenotis 1819-02-22.
+  Konflikten i A-0583/A-0812/A-0813 upphör. Grannåren 1851 och 1853 lästa,
+  tomma. Belägg **C-1041**, påståenden **A-3857–A-3865**.
+  **C-0151 var fel i sak** — dess uppgivna läsomfång motsvarade inte sidans
+  innehåll; bevarad och supersederad.
+- **Instans 6 (Holm), batch 457:** grannåren 1843 och 1845 tomma, men
+  **årgången 1844 post nr 17** bär `[S]tina Cajsa`, född 19 december 1844 i
+  **Hulsjön**, dotter till `Torp. Jonas Nordlund och Hustru Gertrud
+  Olofsd:r`, 30–35 år. Rätt föräldrar, rätt socken, rätt år, dagen `19` —
+  **fel månad**, och förnamnet bär ett diagonalt streck (`Stina` eller
+  `Anna`). Fört som `LEAD`; ingen identifiering. Holms dödbok 1844 och 1845
+  lästa i sin helhet utan Nordlundpost, så strecket är inte ett dödsmärke.
+  Belägg **C-1042**, påståenden **A-3866–A-3873**. **C-0336 rättas i två
+  delar** (årgången har 19 poster, inte 17; kontrollen gjordes mot barnets
+  namn i stället för mot föräldranamnen).
+- **Nästa ej utförda steg:** instans 5 (Sättna `F/1` dödsåren 1922 och 1923,
+  bilderna 118–124), instans 2 (Bygdeå `F/1` dödsåren 1899 och 1900,
+  bilderna 38–61) och instans 1 (Nysätra `C/4` 1834–1835, bilderna 354–366;
+  1836 ligger i nästa volym och måste routas).
+- **Följdarbete som inte hör hemma här:** identitetsbryggan för P-0251 —
+  Holms husförhörslängd för Hulsjön på 1840-talet, där dottern ska stå med
+  utskrivet födelsedatum. Läggs i egen uppgift, inte i T-0090.
+- **Verifiering:** kontroller körs när uppgiftens läsningar är klara.
+- **Hinder:** inga.
+
+## Slutresultat — DONE 2026-09-07
+
+Samtliga sex instanser är utförda. Uppgiften prövade en hypotes: att
+negativa kontroller görs troget mot en uppgiven nyckel och att nyckeln
+själv aldrig ifrågasätts. **Hypotesen höll, och utfallet var större än
+väntat.**
+
+### Fyra öppna frågor stängda eller väsentligt skärpta
+
+| Instans | Person | Utfall |
+|---|---|---|
+| 1 | P-0050 | **Födelsenotisen funnen** — `Andreas`, 19 juli 1835, Risvattnet (C-1045) |
+| 2 | P-0050 | **Dödposten funnen** — 23 juni 1899, begravd 2 juli (C-1044) |
+| 3 | P-0051, P-0094 | P-0094:s födelsenotis funnen (C-1035); P-0051 får **en enda oavgjord kandidat** i ett uttömt treårsfönster (C-1036, C-1037, C-1039, C-1040) — hushållet bekräftat i A I/7 fol. 68 (C-1038) |
+| 4 | P-0134 | **Födelsenotisen funnen** — 21 mars 1852, Kallvik (C-1041) |
+| 5 | P-0250 | **Årgångsnoll** 1922 och 1923; förklaringen *dog på annan ort* avvisad (C-1043) |
+| 6 | P-0251 | **Stark oavgjord kandidat** — 19 december 1844, Hulsjön (C-1042) |
+
+Fyra födelse-/dödsposter som legat på **redan lästa sidor** är nu funna.
+
+### Felfamiljen har sju varianter, inte en
+
+| Variant | Superseder at citat |
+|---|---|
+| För snäv dag | C-0145, C-0306 |
+| Fel årgång | C-1023 |
+| Fel uppslag | C-0424 |
+| Fel läsomfång — uppgivet ≠ faktiskt | C-0151 |
+| Rätt sida, fel nyckel (barnets namn i stället för föräldrarnas) | C-0336 |
+| Gränsen slutar en dag för tidigt | C-0433 |
+| Rätt sida, fel namnform (`Andreas` för `Anders`) | C-0144 |
+
+De tre första redovisar korrekt sin egen avgränsning. **De fyra sista gör
+det inte** — de uppger ett omfång eller ett utfall som inte stämmer mot
+bilden, och kan därför inte upptäckas genom att läsa citatet. Endast genom
+att läsa om sidan.
+
+Samtliga sju bevaras oförändrade och supersederas.
+
+### Metodkunskap som förts in i källfilerna
+
+- `S-0113`: prästen E. A. Häggström **latiniserar namn** (`Andreas`,
+  `Erici dotter`) — namnbundna sökningar måste pröva båda formerna.
+- `S-0093`: Bygdeå `C/4`:s postföljd är **inte kronologisk** över uppslagen.
+- `S-0114`: bild 21 och 22 är **dubblettskanningar** av samma uppslag.
+- `S-0357`: Sättna `F/1` för in dödsfall som inträffat **utanför**
+  församlingen — ett årgångsnoll kan inte förklaras med annan dödsort.
+- `S-0264`: avlidna barn markeras med `+`; ett diagonalt streck genom ett
+  förnamn är något annat och kräver kontroll mot dödboken.
+
+### Beslutat följdarbete, i egna uppgifter
+
+- **[T-0105](T-0105.md)** — Bodanhushållet: är `Barbru Catharina` 1830
+  samma person som P-0051?
+- **[T-0106](T-0106.md)** — Hulsjön i Holm: är decemberflickan 1844
+  Stina Kajsa Nordlund?
+
+Båda är identitetsprövningar, inte årgångsläsningar, och hör därför inte
+hemma i denna uppgift.
+
+### Vad som uttryckligen **inte** gjordes, och varför
+
+- **Bygdeå `F/1` 1899 efter post 100 och hela 1900:** frågan besvarades av
+  en positiv post med fem sammanfallande fält. Fortsatt läsning kan inte
+  ändra svaret.
+- **Nysätra `C/4` 1834:** samma skäl. Volymen slutar dessutom med 1835, så
+  något 1836 finns inte i den.
+- **Bygdeå `C/3`:s januari–maj 1829:** `C/4` börjar 23 maj 1829; den delen
+  ligger i föregående volym och är inte läst. Avgränsningen står i C-1040.
+- **Lövånger `C/5` 1832:** inte en prövad årgång. En `Barbru Catharina`
+  född 2 april 1832 noterades under läsningen av 1831 och avvisades på
+  patronymikonet, men årgången är inte genomgången.
+- **Identitetsgranskning/Trädverkan** sattes inte på de berörda profilerna.
+  Det ägs av [T-0103](T-0103.md), som tar hela beståndet på en gång.
+
+### Verifiering
+
+`node scripts/goal-state.mjs`, `node scripts/research-inventory.mjs --write`
+och `--check`, `node scripts/validate-genealogy.mjs`, `node --test scripts/`
+samt `node scripts/media-manifest.mjs --check` — utfall redovisas i
+avsnittet nedan.
+
+### Kvarstående person- och projektkrav
+
+P-0050 har fått ett `EJ STYRKT` kvar i stället för tre, och de återstående
+grunderna är livsbildsnivåns `PER` samt hinderbunden bouppteckning. P-0051,
+P-0134, P-0250 och P-0251 har fått nya, snävare återaktiveringsvillkor.
+**Ingen av dem är därmed färdig**, och T-0090:s DONE säger ingenting om
+personernas eller grenens fullständighet.
+
+### Verifieringsutfall 2026-09-07
+
+```
+node scripts/goal-state.mjs             → oförändrat: gemensamt djup 5, nästa skiva djup 6
+node scripts/research-inventory.mjs --write → Strukturfel: 0
+node scripts/research-inventory.mjs --check → rent
+node scripts/validate-genealogy.mjs     → OK: 3365 assertions; 2486 poster; 4836 mediefiler; Wotan JSON valid
+node --test scripts/                    → 36 pass, 0 fail
+node scripts/media-manifest.mjs --check → OK: 4835 mediefiler
+```
+
+**Måttdelta: noll.** Uppgiften flyttade inget djup, ingen arkivfront och
+ingen källbreddsrad — den rättade fyra felaktiga nollresultat och fann fyra
+originalposter. Det är precis den skillnad north star pekar på mellan
+registrerat framsteg och sakligt kunskapsresultat.
+
+Dashboarden är **inte** uppdaterad; ägaren har inte begärt det
+(PCD-2026-09-05-014).

@@ -1,0 +1,262 @@
+# T-0157: Konsolidera befintliga akter, djup 5 sida S från P-0043
+
+**Status**: DONE | **Size**: M
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0043, P-0044, P-0047, P-0167, P-0168, P-0066
+
+## Scope och underlag
+
+Exakt dessa 6 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 79 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0011, C-0012, C-0013, C-0014, C-0016, C-0030, C-0032, C-0060, C-0062, C-0064, C-0066, C-0098, C-0106, C-0110, C-0111, C-0127, C-0128, C-0266, C-0267, C-0403, C-0404, C-0405, C-0421, C-0422, C-0423, C-0485, C-0535, C-0536, C-0823, C-0825, C-0910, C-0911, C-1047, C-1054, C-1056, C-1059, C-1060, C-1061, C-1062, C-1063, C-1065, C-1066, C-1068, C-1069, C-1070.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+| Person | Datum/version | Granskat underlag | Format | Konsolidering | Identitetsbedömning | Livsbildsbedömning | Rättelser/luckor och följduppgift |
+|---|---|---|---|---|---|---|---|
+| P-0043 Charlotta Wilhelmina | 2026-09-08, person-dossier/v1 | 33 äldre A samt C-0011–C-0032, C-0421–C-0423, C-0535, C-0909–C-0911, C-1047, C-1056–C-1070 | 0 fel | A 33→40, nya A-5700–A-5706 | UNDERKÄND / AVVAKTAR (oförändrat sedan T-0125) | UNDERKÄND | `Erikslund` → `Eriksland[?]` propagerad till tidslinje och berättelse; A-3969:s stödargument struket; dödsintervallet ersatt av exakt 1874-02-05; tre falska korroboreringar rättade; relationerna fick tabell med `Tid/plats` i stället för prosa; PK-05 sänkt STYRKT → EJ STYRKT; saknade fullbilder räknade om från sex till elva. T-0410 (prioriterad), T-0411, T-0412 |
+| P-0044 Sven Edvin Severus | 2026-09-08, person-dossier/v1 | 14 äldre A samt C-1057–C-1070, C-0012, C-0013 | 0 fel | A 14→18, nya A-5710–A-5713, första profilen | UNDERKÄND / AVVAKTAR | UNDERKÄND | Två överspelade lydelser rättade; inget efternamn är belagt på hans egen rad i åtta lästa källor; A-3967 REFUTED → NEGATIVE med begränsad räckvidd; fyra påstådda oberoende led nyanserade till fyra ställen i samma bokföringskedja; ny lucka: han saknas i familjens hushåll 1910. T-0413, T-0414, T-0415 |
+| P-0047 Astrid Charlotta | 2026-09-08, person-dossier/v1 | 5 äldre A samt C-0030, C-0035, C-0896, C-1069, C-1070 | 0 fel | A 5→17, nya A-5740–A-5751, första profilen | UNDERKÄND / AVVAKTAR (sidoperson, spärrar ingen anlinje) | UNDERKÄND | Akten hade bara rubriken `Påståenden`; helt omskriven. Livslinjen förlängd från 1919 till 1932 ur redan sparade bilder: konfirmation 1912-05-15, yrket `polererska`, skilsmässa 1925-12-23, dottern `Gunvor Solveig Charlotta` i stället för `Gunnvor Borg Elisabet[?]`, och en tidigare helt okänd son Karl Yngve född 1921-02-11. T-0417 |
+| P-0066 Lotta Sofia | 2026-09-08, person-dossier/v1 | 24 äldre A samt C-0060, C-0064–C-0066, C-0106, C-0110, C-0111, C-0116, C-0402–C-0405, C-0549, C-0825 | 0 fel | A 24→34, nya A-5730–A-5739 | UNDERKÄND / AVVAKTAR | UNDERKÄND | Bruten påståendetabell lagad; C-0060 identifierad som utdrag, tre påståenden nedgraderade; fyra källor som bär hennes egna rader saknades i akten; C-0549 ger en fjärde bråkform `1843 30/10` som förklarar oktobervarianterna och stänger boendeluckan 1877–1889; två obelagda berättelsepåståenden strukna; källbredd KLAR → PÅGÅR. T-0416 |
+| P-0167 Carl August | 2026-09-08, person-dossier/v1 | 3 äldre A samt C-0098, C-0127, C-0128 | 0 fel | A 3→8, nya A-5760–A-5764 | UNDERKÄND / AVVAKTAR | UNDERKÄND | Egen inflyttningsrad `Skölding[e] 66 14/11[?]` utvunnen — han är den ende på uppslaget med ifyllt fält; hemvisten `i Walla` utvunnen; fjärde dopvittnet rättat till `Stina Cajsa`; falsk moderskant borttagen (`mor i hushållet` → `husmoder`); inget belagt efternamn. T-0418 |
+| P-0168 Anders Gustaf | 2026-09-08, person-dossier/v1 | 2 äldre A samt C-0127 | 0 fel | A 2→7, nya A-5765–A-5769 | UNDERKÄND / AVVAKTAR | UNDERKÄND | Födelsedagen rättad från 1852-11-11 till 1852-11-01[?]; den enda omnämnda Bettna-kontrollen visad vara oprövad, inte negativ; inget belagt efternamn. T-0419 |
+
+### Vad kohorten faktiskt visade
+
+**Två fynd flyttar sak, inte bara form.** Det ena är dagbråket på Anders
+Gustafs rad i Lerbo A I/19. Täljaren är en ensam uppstapel, medan faderns och
+husmoderns rader på samma uppslag och i samma hand har den tvåsiffriga formen
+`21` och systerns `26`. Raden läses `1/11`. Läsningen är oberoende kontrollerad
+centralt mot den sparade bilden vid tolvfaldig förstoring. Konsekvensen är
+större än en dag: den enda kontroll som någonsin omnämnts i Bettna födelsebok
+gällde 11 november, saknar citation, bildintervall och sparad bild, och
+S-0116:s tio bevarade bilder ur `C0005882` täcker inte november 1852 alls.
+Passagen är alltså **oprövad, inte negativ** — ett femte felriktat nollresultat
+i programmet, och det första som visar sig sakna varje spår av att ha utförts.
+
+Det andra är C-0549:s uppslag. Det bär Lotta Sofias egen rad med födelsen
+`1843 30/10` — en fjärde bråkform vid sidan av de tre som redan stod som en
+olöst konflikt. Den nya formen är den enda som står på hennes egen rad i ett
+hushåll hon själv är förd i, och den förklarar oktobervarianterna i stället för
+att bara lägga till brus. Samma uppslag bär sonen Karl Magnus rad med `1880
+27/7` mot `21/7` i hans akt, en konflikt som ingen hade registrerat.
+
+**Propageringsluckorna är fortfarande kohortens vanligaste fel.** Carl Augusts
+inflyttningsrad var noterad i förbigående redan i T-0137 men hade aldrig nått
+någon akt; Astrid Charlottas rad 6 i C-0035 bar hennes konfirmation 1912 och
+var aldrig transkriberad trots lokal fullbild; fyra källor som bär Lotta Sofias
+egna rader saknades helt i hennes akt; och Sven Edvins första flytt 1885 fanns
+bara i moderns akt. I samtliga fall låg materialet redan sparat på disken.
+
+**Två av tre akter i kohorten översteg sina belägg i formuleringar.** P-0043
+lät en SCB-avskrift och originalet korroborera varandra, räknade en åttonde
+bekräftelse som redan var upphävd, och beskrev ett dödsintervall trots att den
+exakta dagen fanns. P-0044 skrev att kyrkan "aldrig tillskrev honom" ett
+efternamn och pekade ut "just den präst som lyste för och vigde paret" — båda
+starkare än underlaget bär. Rättelserna sänker ingen sakuppgift; de tar bort
+argument som inte fanns.
+
+**Relationsterminologin har fått en verklig lösning, inte en normalisering.**
+P-0046 skrev `halvbror på moderns sida` om P-0044. Termen förutsätter att
+fadern var en annan, vilket ingen läst källa visar: C-1060 och C-1062 lämnar
+faderskapet både obelagt och icke uteslutet. Termen är rättad till
+`syskon genom modern`, densamma som P-0009 och P-0044 använder.
+
+**En falsk släktkant är borttagen.** P-0167:s relationsrad förde P-0126 som
+`mor i hushållet`. Ordet matchade relationsparserns `\bmor\b` och skapade en
+biologisk moderskant trots att akten själv förnekar den. Raden lyder nu
+`husmoder`; kontroll efteråt visar att P-0167 och P-0168 bara har P-0125 som
+förälder, och att korpusen har noll falska kanter ur prosa i relationskolumnen.
+
+**En ny felklass är dokumenterad till slutrevisionen.** `buildParentMap`
+kräver att en relationsrads länk följs direkt av kolumnavgränsaren. Tio akter
+skriver personnamnet utanför länken, och fyrtiotvå sådana rader bär ett
+förälder- eller barnord utan att synas för antavlan. Kontrollen visar att
+ingen verklig anfaderskant saknas i dag, men skyddet är en tillfällighet:
+samma stavning döljer lika gärna en sann kant som en falsk. Observationen är
+förd till T-0115 tillsammans med iakttagelsen att tre akttitlar och filnamn
+bär namnformer som senare rättelser har upphävt.
+
+## Verification och Outcome
+
+Kört 2026-09-08 efter att samtliga sex akter, sex profiler och de centrala
+följdrättelserna var på plats:
+
+- `node scripts/person-format.mjs P-0043 P-0044 P-0047 P-0066 P-0167 P-0168` —
+  6 personer, **0 formatfel**.
+- Kohortkontroll (A-id-behållning mot HEAD, H2-ordning, profilfält, kvarvarande
+  `EJ BEDÖMT`/`EJ GRANSKAT`, sammantryckt text, bruten påståendetabell,
+  relationstabell utan `Tid/plats`) — **OK** för alla sex.
+- `node scripts/validate-genealogy.mjs` — **OK: 4242 assertions; 2717
+  Markdown-poster; 5065 mediefiler; Wotan-JSON giltig.**
+- `node scripts/research-inventory.mjs --check` — **Strukturfel: 0.**
+  Identitetsgranskning GODKÄND 70, UNDERKÄND 151. Trädverkan BÄRANDE 68.
+- `node --test scripts/` — **50 av 50 passerar.**
+- `node scripts/media-manifest.mjs --check` — **OK**, 5064 mediefiler.
+- Falska släktkanter ur prosa i relationskolumnen — **0** i hela korpusen.
+- `node scripts/goal-state.mjs` — registrerat gemensamt djup **4** oförändrat;
+  inga nya ogranskade eller icke källbredd-klara anspetsar på djup 1–5.
+- A-id-behållning i hela `genealogy/people` mot HEAD — **inget A-id förlorat.**
+
+Två läsningar är dessutom oberoende kontrollerade centralt mot originalbilderna
+i stället för att tas på agentens ord: dagbråket `1/11` på Anders Gustafs rad
+och Carl Augusts inflyttningsfält i C-0127, samt vittnesnamnet `Stina Cajsa`
+i C-0128. Båda bekräftades.
+
+**Outcome.** Kohortens sex akter följer person-dossier/v1 och har var sin
+profil enligt person-research/v1. Ingen av de sex når identitetsnivån:
+samtliga står `UNDERKÄND`/`AVVAKTAR`, i fem fall på PK-05 och PK-11, som båda
+är utvinnings- och bevarandeskuld i redan öppnat material. **Uppgiften är
+klar; personerna är det inte.** P-0043 står på en anlinje, och hennes spärr är
+den enda i kohorten som direkt håller antavlan bruten — den är därför lagd i
+T-0410 med uttrycklig prioritet. Tio avgränsade följduppgifter T-0410–T-0419
+är skapade, samtliga BLOCKED bakom T-0115. Följdrättelser i andra kohorters
+akter är gjorda minimalt och rapporterade till T-0165, T-0178, T-0188 och
+T-0237. Två nya iakttagelser är förda till slutrevisionen T-0115.
+
+## Återupptagning — avslutad
+
+- Uppdaterat: 2026-09-08.
+- Utfört: samtliga sex akter och profiler konsoliderade och verifierade;
+  tio följduppgifter skapade; batch 562 loggad; uppgiften DONE.
+- Nästa ej utförda steg: inget inom denna uppgift. Programmet fortsätter med
+  nästa kohort; T-0410 bör tas före bredare källarbete när T-0115 är klar.
+- Hinder: inga.
+
+## Följdpåverkan från T-0123, 2026-09-07
+
+P-0043 har fått en begränsad rättelse i akt och befintlig profil: C-0909/C-0910:s bokföring 1915–1918 skiljs från faktisk omsorg och överlämningsdag. C-0030–0032/C-1047:s sena adresskedja har tillgodoräknats; endast Arne flyttas till 860 år 1938, inte morföräldrarna. Positivt 6 b/638 ersätter äldre fel 5 b/638; 1923–1930 förblir olokaliserat. Tre namngivna fosterbarn ersätter felräkningen fyra. Pröva fullpostutvinning och C-1047:s lokala provenans individuellt i PK-05/PK-11. Full adoption, samtliga äldre sakceller och senare rättelser, standardformat samt individuell PK-omprövning återstår här. Ingen extra person räknas som slutgranskad genom T-0123; befintliga A-id och redaktionell historik bevarades.
+
+## Avgränsad följdpåverkan T-0125, 2026-09-07
+
+P-0043 har begränsat fått hushållskällors beroenden, datum och Tures äktenskap1914-12-31 avstämda. Sex saknade äldre fullbilder ger PK-11 EJ STYRKT och identitetsnivå UNDERKÄND/AVVAKTAR; övriga krav inte fullgranskade. P-0044:s maternella syskonrelation till Ada och Ture bevaras utan nytt faderskap; C-1062:s gemens./hennes oä. får inte överföras mellan rader. Fullgranskning fortsatt här; källkopior T-0237.
+
+## Begränsad följdpåverkan från T-0129, 2026-09-08
+
+P-0066 har i T-0129 fått korrigerad förrättningsdag23augusti1898, åtta efterlämnade barn och testamentet10maj1898. Ingen säker ersättningsbehållning anges före kontroll av fortsättningen i T-0258. Full adoption av henne ägs fortsatt här.
+
+## Ytterligare begränsad familjeföljd från T-0129
+
+P-0047 har i T-0129 fått tidigare utelämnad dotterrad1919 och Sundbybergsdestination. E I/3 är positivt katalogfunnen enligt S-0717, trots äldre negativt påstående. Full adoption inklusive saknad profil ägs här.
+
+## Införingssteg och följdpåverkan från T-0137
+
+2026-09-08: P-0043/P-0044/P-0167 har avgränsade aktuella följdrättelser. Inför profiler för P-0044/P-0167/P-0168 här; P-0168 är avstämd utan textändring eftersom hushålls-/biologigränsen redan är riktig. C-0128: dop 8 oktober, mor Brita Stina Jansdotter[?], rå 27 år. C-0098: fyra namngivna dopvittnen, moderns ålder/kyrktagning/ex. C-1063:s egna fält och saknade fullbild prövas personbundet; T-0307 bevarande. Kopierade bokuppgifter är inte oberoende röster. Återbruka hela T-0137-prövningen, ingen extra slutgranskad person räknad.
+
+
+## Införandesteg från T-0139 — P-0066
+
+Brudfolion 14/3[?] i C-0106, föräldrarnas åldrar 22/18 i C-0116 och bokperioden 1861–1865 i C-0111 är avstämda. Äldre påståenden om oberoende belägg eller obrutet boende från 1843 får inte återtas; hennes egen födelse 1843 består. Full berättelse-/profiladoption ägs här, inklusive obestyrkt jämförd levnadsstandard.
+
+## Rapport från T-0178, 2026-09-09: din anmälda dagkonflikt för P-0071 finns inte
+
+Din iakttagelse i C-0549:s T-0157-tillägg — att A I/10c skriver Karl Magnus
+födelse `1880 27/7` mot `21/7` i C-0060 och C-0404 — är prövad i **båda** de
+sparade helbilderna vid 600 respektive 900 %.
+
+**Räknarens andra siffra är en `1`, inte en `7`.** Den är ett rakt streck med
+liten ingångsserif; skrivarens `7` har i denna hand en **vågrät topplinje**.
+Kontrollen kan göras på samma uppslag, dels mot `²¹/₆` på systern Hildur
+Charlottas rad direkt ovanför, dels mot **nämnaren `7`** på Karl Magnus egen
+rad, som har topplinjen. **Båda volymerna läser `1880 ²¹/₇`.**
+
+A-5793 är satt till `REJECTED` med **bevarad ursprungslydelse** som
+avskriftshistorik, och prövningen är förd som A-7751. Iakttagelsen var
+noggrann och korrekt registrerad med läsreservation — det var premissen som
+inte höll, och den kunde bara prövas i bilden.
+
+**Din andra iakttagelse i samma tillägg står däremot kvar och har vidgats.**
+Att C-0060 enligt sitt eget dokumenthuvud är ett utdrag ur samma längdserie
+som C-0404 gäller, och nedgraderingen av A-0312 till `TRANSCRIBED`/`medel`
+var riktig och är **behållen**. Granskningen fann att **C-0402 bär samma
+slags huvud**, `Utdrag ur Församlingsboken för Degerfors`, och att förhållandet
+därför gäller **alla sex syskonens** grundpåståenden: A-0304–A-0315 och
+A-2100–A-2104. Nedgraderingarna är införda i akterna med ursprungslydelserna
+bevarade, och båda folkräkningarna har fått daterade tillägg.
+
+**Det som faller är alltså den ena av A-0312:s två nedgraderingsgrunder, inte
+nedgraderingen.** Dagen bär inte längre någon läsreservation; oberoende­förbehållet
+står oförändrat.
+
+**Avgränsning.** P-0071 är adopterad till full akt och profil i T-0178.
+Moderns akt P-0066 ägs fortsatt av dig; dess tre konkurrerande
+födelsedagsvarianter — `20/10`, `30/10` och `1843-03-30` — är rapporterade
+till henne som en bunden avsnitt och avgörs **inte** här.
+
+## Rapport från T-0180, 2026-09-09: P-0066:s Q-02 har fått sin diskriminerande uppgift
+
+Du äger full adoption av P-0066, och hennes Q-02 frågar om `pigan Maria
+Johanna Andersdotter i 1870 års hushållsvy` är hennes syster.
+**Husförhörsuppslaget A I/9c sida 85 ger pigan en full födelsedag**, och den
+sammanfaller med systerns på varje läsbar punkt.
+
+**Pigan:** `Piga Maria Johanna Andersd:r`, **`1849 ²/₈`**, ort som dittotecken
+för församlingen — läst 2026-09-09 vid 210–400 % i den redan sparade
+helbilden. **Systern:** barnraden `Maria Johanna` hos
+[P-0145](../../genealogy/people/P-0145-anders-olofsson-namndeman-roda.md) med
+uppgiven födelse **1849-08-02** enligt C-0111. **Dag, månad, år, patronymikon
+och födelseförsamling stämmer alla**, och att en ogift syster tjänade i sin
+gifta systers hushåll var det vanligaste av arrangemang.
+
+**T-0180 gjorde inte identifieringen, och skälen är tre regler:**
+kohortomfånget utesluter osäkra identitetssammanslagningar; **systern har
+inget eget person-id** att slås samman med; och en identifiering skulle föra
+**en ny mosterrelation in i antavlans närhet**, där en osäker relation aldrig
+får propageras. Fyndet är fört som **bevarad konflikt** i
+[P-0084](../../genealogy/people/P-0084-maria-johanna-andersdotter-buberget.md)
+mot både P-0066 och P-0145.
+
+**En saklig invändning som gäller oavsett vem som avgör:** båda de
+sammanfallande dagarna är **senare uppgifter** — en husförhörslängd och en
+hushållsbok — och ingen av dem är en födelsenotis. **Två avskrifter som stämmer
+med varandra kan ha samma fel.** Det är därför födelseboken och inte
+jämförelsen som avgör.
+
+**Två billiga vägar, båda utan katalogfråga.** **Degerfors födelsebok `C/4`,
+1851–1869**, är identifierad som `S-0051` och i bruk genom C-0062; notisen för
+1849 namnger föräldrarna och avgör frågan. **Rödås husförhörsuppslag** i
+C-0111 är **redan sparat** och kan visa om systern har en utflyttning till
+Buberget i sin egen kolumn.
+
+**Två uppgifter till ur samma granskning.** **Tvillingarnas dödsdagar är
+fastställda** ur den tryckta `Död.`-kolumnen — Anders 1874-12-31, Carl
+1875-05-07 — vilket gör P-0066:s formulering `tvillingarna dog före dess`
+belagd i stället för härledd. Och **födelseboken `C/5` bär i kolumnen
+`Modrens ålder` talen `34.` och `29.` i höjd med tvillingposterna med
+attributionen ofastställd**; **ingen av dem ger hennes beräknade 30 år i maj
+1873**. Det förs som en **öppen läsfråga** och rör **inte** marsdatumet.
+
+**Avgränsning.** P-0084, P-0086 och P-0087 är färdigadopterade i T-0180.
+P-0066 och P-0145 har bara fått bundna avsnitt och ägs fortsatt av dig
+respektive sin egen uppgift.

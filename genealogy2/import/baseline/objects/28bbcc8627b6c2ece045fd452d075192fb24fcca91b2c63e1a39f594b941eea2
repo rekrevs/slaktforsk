@@ -1,0 +1,96 @@
+# T-0047: Gör Wotan ensamt ansvarigt för arbetskontinuitet
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context
+
+Ägaren vill avskaffa separat handover och återuppta avbrutet arbete via
+vanlig uppgiftsstatus. Godkännande 2026-09-05: ”läser projektet
+wotan/README.md? förtydliga. och lös resten så att det fungerar bra.”
+Beslutet bevaras i PCD-2026-09-05-003 i [Project Control](../../PROJECT-CONTROL.md).
+
+## Scope
+
+Projektets styrfiler, Wotan-konvention och konkreta kvarstående arbeten från
+denna session. Inga globala skilländringar, ny släktforskning, nya PDF:er,
+publicering, commit eller push. Befintlig stor smutsig arbetsyta bevaras.
+Ingen generell migration eller ny arkivering av HANDOVER-innehåll.
+
+## Acceptance Criteria
+
+- [x] AGENTS kräver att wotan/README läses före uppgiftsval och återupptagning.
+- [x] Uppgifter har ändligt omfång, verifierbart resultat och eget sparat arbetsläge.
+- [x] Sessionsavbrott, hinder, återläsning och upprepningsrisk hanteras uttryckligen.
+- [x] Tom kö hanteras olika vid kökörning respektive kontinuerligt north-star-mål.
+- [x] HANDOVER.md och aktiva läsinstruktioner till den är borttagna; historik består.
+- [x] Aktuella kvarstående arbeten finns som avgränsade uppgifter, inte startprosa.
+- [x] Uppgiftsval, referenser, backlog och relevanta regressioner är verifierade.
+
+## Approach
+
+1. Granska kanoniska styrfiler, beslutslogg och backlog utan att rekonstruera
+   all gammal handover-prosa.
+2. Förtydliga läsordning, ansvar, avgränsning och återupptagningskontrakt.
+3. Bevara avslutsrevision och kända kodluckor i separata uppgifter.
+4. Ta bort redundant handover, kontrollera startvägen och kör kontroller.
+
+## Log
+
+- 2026-09-05: AGENTS pekar redan på wotan/README men använder också HANDOVER.
+  Wotan-konventionen kräver ändliga uppgifter men saknar avbrottskontrakt
+  och binder DONE alltför hårt till administrativa mått. Två metodfiler
+  pekar ännu ut avslutade T-0012 som aktuell uppgift. Dessa är konkreta
+  risker för dubbelt arbete, inte skäl att återköra tidigare forskning.
+- 2026-09-05: NORTH-STAR.md är redan skärpt genom PCD-2026-09-05-002.
+  Det arbetet ska inte upprepas. Tidigare complete-besked är inte sakligt
+  styrkt enligt PCD-2026-09-05-001. Nuvarande mått anger fortfarande djup 8;
+  det är ett administrativt utgångsläge, inte bevis på måluppfyllelse.
+- 2026-09-05: Läsordning, avgränsning, checkpoint, ONGOING vid sessionsavbrott
+  och skillens tom-kö-regel för kontinuerliga mål förtydligade repo-lokalt.
+  Globala skills är oförändrade. Äldre T-0012-utgåveinstruktioner har ersatts
+  med beständiga metodregler och hänvisningar till beslutade leveranser.
+- 2026-09-05: HANDOVER.md borttagen utan ny arkivkopia. Historiska referenser
+  i besluts- och forskningsloggar består. Sessionens fortsättning är T-0048
+  och T-0049, med omfång, kriterier och arbetsläge i respektive dev-log.
+  Det kopierbara målet i granskningsunderlaget är nu deklarativt, inte en
+  instruktion att återstarta tidigare arbete.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-05.
+- Utfört: samtliga acceptanskriterier; se Verification och Outcome.
+- Delvis utfört: inget inom denna uppgift. Hela sessionens befintliga
+  ändringar är sparade lokalt men inte committade/pushade här.
+- Nästa ej utförda steg: inget inom denna avslutade uppgift. Välj fortsatt
+  arbete från backloggen när ägaren återupptar forsknings-/målkörningen.
+- Verifiering: kontrollerna nedan godkända; kända måttfel ligger i T-0049.
+- Hinder: inga för denna leverans.
+
+## Verification
+
+- `node scripts/goal-state.mjs`: körd och läst; registrerat djup 8 är
+  oförändrat eftersom inga genealogiska slutsatser ändrats i denna task.
+- `node scripts/validate-genealogy.mjs`: OK, 2739 påståenden, 2079
+  Markdown-poster, 4523 mediefiler och giltig Wotan-JSON.
+- `npm test` i dashboard: härledda data uppdaterade och verifierade.
+- `node --test scripts/`: 11 tester godkända, inga fel.
+- `node scripts/media-manifest.mjs --check`: 4522 inventerade original,
+  inga olänkade; ingen ändring av original eller manifest behövdes.
+- Anspetsrevision med `--through-depth=4` för P-0004 respektive P-0210
+  bekräftar de tre respektive en närmaste fronter som T-0048 omfattar.
+  De gröna formella slutstatusarna och skriptets avslutsfras bevisar inte
+  saklig uppfyllelse; den konkreta formuleringen har lagts till T-0049.
+- Manuell kontraktsgranskning samt en läsande Node-kontroll: 49 unika
+  uppgifts-ID:n, giltiga beroenden, 40 lokala länkar i ändrade dokument,
+  ingen HANDOVER-fil, och upptäckbar läskedja till Wotan/dev-log.
+- `git diff --check`: inga whitespacefel. Sökning i aktiva styrfiler
+  visar inga kvarvarande krav att läsa HANDOVER eller återköra T-0012.
+
+## Outcome
+
+Kontinuitetsändringen är genomförd. T-0048 och T-0049 blir READY när denna
+uppgift avslutas och hittas genom normalt uppgiftsval. Ingen handover-task,
+ingen ny forskningsbatch och ingen ny målkörning har startats. Tidigare
+forskningsresultat, dirty-worktree-ändringar och historiska beslut är bevarade.
+North star är fortsatt inte visad uppfylld. Ingen commit eller push gjord.

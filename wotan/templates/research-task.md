@@ -6,7 +6,9 @@
 ## Context och mandat
 
 Ägar-/Project Control-beslut, varför uppgiften behövs och aktuellt kontrakt.
-Läs wotan/README.md, research-plan, person-contract och source-strategy.
+Läs wotan/README.md och genealogy2/docs/working.md samt de bevarade sakkraven
+i research-plan, person-contract och source-strategy. Läs och skriv aktuell
+kunskap i genealogy2; gamla profil-/aktfiler är arkivunderlag.
 
 ## Scope och befintligt underlag
 
@@ -30,8 +32,8 @@ Läs wotan/README.md, research-plan, person-contract och source-strategy.
   aktuella slutsatser, tidslinje och berättelse är konsoliderade.
 - [ ] Positiva/negativa utfall och hinder har rätt räckvidd; ingen osäker
   identitet propagerar och OWNER_CONFIRMED bevaras.
-- [ ] En batchlogg per passage; person/profil/front/täckning och Wotan är
-  samstämmiga. Beslutat följdarbete har egna avgränsade tasks före DONE.
+- [ ] En versionerad operation/journalpost per batch; aktuella person-,
+  forsknings- och täckningsbedömningar samt Wotan är samstämmiga. Beslutat följdarbete har egna avgränsade tasks före DONE.
 - [ ] Relevanta sak- och strukturkontroller passerar; kunskapsresultat,
   begränsningar och vad task-DONE inte avslutar är uttryckliga.
 

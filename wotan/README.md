@@ -6,6 +6,13 @@ obligatorisk del av startvägen i [AGENTS.md](../AGENTS.md).
 Datamodell, statusar och storlekar följer Wotan-skillen. Denna repo-lokala
 konvention kompletterar den och preciserar särskilt kontinuerliga mål.
 
+Efter T-0643:s verifierade skifte skrivs all ny forskning i genealogy2.
+Läs [den aktuella arbetsvägen](../genealogy2/docs/working.md). Orden akt,
+profil, front och täckning nedan avser nu läsvyer och versionerade
+kunskapsobjekt. Äldre mallars filsökvägar och gamla taskplaner är historiskt
+underlag; de ger inte tillstånd till dubbelskrivning i det frysta genealogy.
+De sakliga kraven i personkontraktet, programmet och källstrategin består.
+
 ## Ansvar och läsordning
 
 - [NORTH-STAR.md](../NORTH-STAR.md) äger målet och uppfyllelsekraven.
@@ -14,7 +21,8 @@ konvention kompletterar den och preciserar särskilt kontinuerliga mål.
 - [backlog.json](backlog.json) äger uppgiftsordning, status och beroenden.
   `dev-log/T-NNNN.md` äger uppgiftens omfång, resultat, verifiering och
   återupptagningsläge. Eventuella statusrader där hålls synkade med backloggen.
-- Personakter, forskningsfront och täckningsmatris äger sak- och kunskapsläge.
+- Genealogy2:s aktuella person-, relations- och forskningsobjekt äger
+  sak- och kunskapsläge. Personvyer och inventering härleds därifrån.
   De ersätter inte en uppgift för beslutat utförbart arbete.
 - [Personkontraktet](../genealogy/person-contract.md),
   [programmet](../genealogy/research-plan.md) och
@@ -33,8 +41,8 @@ Vid start av taskarbete:
 3. Läs den valda uppgiftens dev-log och dess senaste `Återupptagning`.
    Läs äldre uppgiftsloggar eller forskningsbatchar bara när det behövs
    för en konkret referens, ett belägg eller en avvikelse.
-4. Kör `git status --short`, `node scripts/goal-state.mjs` och
-   `node scripts/research-inventory.mjs`.
+4. Kör `git status --short`, `node genealogy2/cli.mjs inventory` och
+   `node genealogy2/cli.mjs pedigree <P-id>` för berörda probander/personer.
    Stäm av delvis utförda ändringar mot arbetsytan innan nästa åtgärd.
    Sakkraven i north star gäller framför missvisande måttutdata.
 5. Fortsätt från kvarvarande arbete i aktuell fas, inte från planens början.
@@ -68,8 +76,9 @@ för en hel fortlöpande verksamhet. Dölj inte ofärdiga kriterier genom att
 sänka dem efteråt.
 
 Forskningsuppgifter följer närmaste sakligt obehandlade generation,
-balanserat mellan Sverkers och Kristinas sida. Använd goal-state som
-indikator, och väg in dokumenterade granskningsfel även där måttet visar
+balanserat mellan Sverkers och Kristinas sida. Använd den verifierade
+antavlan, inventeringen och aktuella källvägsbedömningar som underlag.
+Väg in dokumenterade granskningsfel även där en äldre indikator visar
 ”behandlad”. När ingen generationsskiva återstår prövar Project Control
 övriga uppfyllelsekrav, däribland livsbilder och relevant källtäckning.
 Styrning och nödvändiga kodrättningar får egna avgränsade leveranser;
@@ -118,13 +127,15 @@ sig en obegränsad forskningskörning.
 
 ## Spara arbete där det hör hemma
 
-Forskningsloggen `genealogy/research-log/YYYY-MM-DD.md` är den enda
-batchloggen och är append-only. Dev-loggen länkar till datum och batch,
-inte en kopia av samma innehåll. Personakter, frontier och källtäckning
-uppdateras med relevanta fynd; metodfiler ska inte bära aktuell uppgift.
+Genealogy2:s operation och beständiga journal är batchens enda
+utförandelogg. Ange uppgift och acceptanskriterium i operationens skäl eller
+forskningsanteckning. Dev-loggen länkar till operations-id och resultat,
+inte en kopia av samma innehåll. Aktuella person-, fråge-, sök- och
+bedömningsobjekt uppdateras med relevanta fynd. Det gamla forskningsarkivets
+loggar, frontier, profiler och täckningsfiler ska inte skrivas vidare.
 
-**Varje batch namnger vilket acceptanskriterium den för framåt.** En rad i
-batchloggen räcker: kriteriets nummer eller kortnamn i den aktiva uppgiften.
+**Varje batch namnger vilket acceptanskriterium den för framåt.** En mening i
+operationens skäl räcker: kriteriets nummer eller kortnamn i den aktiva uppgiften.
 Kan batchen inte namnge ett kriterium är arbetet inte en del av uppgiften,
 hur värdefullt det än är — dela ut det i en egen uppgift enligt regeln ovan
 och lämna checkpointen som pekar dit. Detta är kontrollen som gör
@@ -184,17 +195,22 @@ döljas för att förbättra måttet.
 Verifieringskommandon efter ändringar:
 
 ```sh
-node scripts/goal-state.mjs
-node scripts/research-inventory.mjs --write
-node scripts/research-inventory.mjs --check
+node genealogy2/cli.mjs inventory
+node genealogy2/cli.mjs pedigree <P-id>
+node genealogy2/cli.mjs verify
+node genealogy2/cli.mjs verify-assets
+node genealogy2/cli.mjs verify-source
+# Vid modell-/kodändringar: relevanta tester, hela sviten vid brett genomslag.
+node --test --test-concurrency=4 genealogy2/test/*.test.mjs
+# Arkivets struktur och äldre regressioner kontrolleras utan uppdatering.
 node scripts/validate-genealogy.mjs
 node --test scripts/
 node scripts/media-manifest.mjs --check
 ```
 
-Komplettera med uppgiftsspecifika kontroller och anspetsrevision för
-berörda forskningskohorter. Uppdatera forskningsinventering och andra obligatoriska
-härledningar före kontroller som jämför dem med kanoniska filer. Dashboarden är
+Komplettera med uppgiftsspecifika sak- och anspetskontroller för berörda
+forskningskohorter. Inventering och personvyer härleds från aktuella revisioner;
+skriv inga motsvarande snapshotfiler i genealogy. Dashboarden är
 ett uttryckligt undantag: den får bara uppdateras på ägarens uttryckliga begäran
 (PCD-2026-09-05-014). Task-DONE, forskning, tester, byggen, sessionsbevarande och
 commit/push medför ingen sådan begäran. Vanliga tester kontrollerar dashboardens

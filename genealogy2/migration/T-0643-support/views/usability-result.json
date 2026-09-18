@@ -1,0 +1,691 @@
+{
+  "ok": true,
+  "task": "T-0643",
+  "coverage": {
+    "documents": 3717,
+    "assets": 5067,
+    "units": 97854,
+    "unitStates": {
+      "preserved_text": 47734,
+      "mapped_complete": 35109,
+      "pending_interpretation": 8214,
+      "preserved_history": 6797
+    },
+    "domainObjects": 43366
+  },
+  "inventory": {
+    "active": {
+      "persons": 511,
+      "identityPassed": 199,
+      "treeSupporting": 51,
+      "identityGatePassed": 51,
+      "explicitNativeLifePassed": 0,
+      "legacyContractPassed": 5
+    },
+    "all": {
+      "persons": 536,
+      "identityPassed": 199,
+      "treeSupporting": 51,
+      "identityGatePassed": 51,
+      "explicitNativeLifePassed": 0,
+      "legacyContractPassed": 5
+    }
+  },
+  "gates": {
+    "P-0004": {
+      "passed": true,
+      "identity": "passed",
+      "tree": "supporting",
+      "life": "failed",
+      "reasons": [],
+      "used": [
+        {
+          "object_id": "P-0004",
+          "revision_id": "P-0004@1",
+          "version": 1,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0004",
+          "revision_id": "ASSESSMENT-P-0004@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0269": {
+      "passed": true,
+      "identity": "passed",
+      "tree": "supporting",
+      "life": "passed",
+      "reasons": [],
+      "used": [
+        {
+          "object_id": "P-0269",
+          "revision_id": "P-0269@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0269",
+          "revision_id": "ASSESSMENT-P-0269@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0453": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "waiting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0453@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0453@1"
+          ],
+          "message": "Trädverkan är waiting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0453",
+          "revision_id": "P-0453@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0453",
+          "revision_id": "ASSESSMENT-P-0453@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0481": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "non_supporting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0481@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0481@1"
+          ],
+          "message": "Trädverkan är non_supporting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0481",
+          "revision_id": "P-0481@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0481",
+          "revision_id": "ASSESSMENT-P-0481@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0482": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "non_supporting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0482@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0482@1"
+          ],
+          "message": "Trädverkan är non_supporting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0482",
+          "revision_id": "P-0482@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0482",
+          "revision_id": "ASSESSMENT-P-0482@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0483": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "non_supporting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0483@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0483@1"
+          ],
+          "message": "Trädverkan är non_supporting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0483",
+          "revision_id": "P-0483@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0483",
+          "revision_id": "ASSESSMENT-P-0483@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0484": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "non_supporting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0484@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0484@1"
+          ],
+          "message": "Trädverkan är non_supporting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0484",
+          "revision_id": "P-0484@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0484",
+          "revision_id": "ASSESSMENT-P-0484@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0485": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "non_supporting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0485@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0485@1"
+          ],
+          "message": "Trädverkan är non_supporting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0485",
+          "revision_id": "P-0485@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0485",
+          "revision_id": "ASSESSMENT-P-0485@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0486": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "non_supporting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0486@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0486@1"
+          ],
+          "message": "Trädverkan är non_supporting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0486",
+          "revision_id": "P-0486@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0486",
+          "revision_id": "ASSESSMENT-P-0486@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0487": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "non_supporting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0487@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0487@1"
+          ],
+          "message": "Trädverkan är non_supporting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0487",
+          "revision_id": "P-0487@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0487",
+          "revision_id": "ASSESSMENT-P-0487@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    },
+    "P-0488": {
+      "passed": false,
+      "identity": "failed",
+      "tree": "non_supporting",
+      "life": "failed",
+      "reasons": [
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "identity_review",
+          "revision_ids": [
+            "ASSESSMENT-P-0488@1"
+          ],
+          "message": "Identitetsgranskning är failed; grinden kräver passed."
+        },
+        {
+          "code": "gate_outcome_not_supporting",
+          "axis": "tree_effect",
+          "revision_ids": [
+            "ASSESSMENT-P-0488@1"
+          ],
+          "message": "Trädverkan är non_supporting; grinden kräver supporting."
+        }
+      ],
+      "used": [
+        {
+          "object_id": "P-0488",
+          "revision_id": "P-0488@2",
+          "version": 2,
+          "roles": [
+            "person"
+          ]
+        },
+        {
+          "object_id": "ASSESSMENT-P-0488",
+          "revision_id": "ASSESSMENT-P-0488@1",
+          "version": 1,
+          "roles": [
+            "identity_review",
+            "tree_effect",
+            "life_picture_review"
+          ]
+        }
+      ]
+    }
+  },
+  "pedigree": {
+    "verified": {
+      "paths": 20,
+      "edges": 19,
+      "stops": 14,
+      "hash": "fdc18945ae2033b519dc8c42fdb82148a463a90e2f2d238959ba18f860ba8ce5"
+    },
+    "typed": {
+      "paths": 161,
+      "edges": 160,
+      "hash": "8001f6d0e1dea8373c96df5713c6570a9e9dc9c56517c669b1fbefb81f4caaf2"
+    }
+  },
+  "witnesses": {
+    "total": 479,
+    "legacySpelling": 8,
+    "hash": "5e363cae3f65df60bd76a0c7d8b5459fbf771c47f168c5f433876ef6110dbf5c"
+  },
+  "questions": {
+    "total": 1306,
+    "retired": 76,
+    "knownOutcomes": 1158,
+    "hash": "ebccd052ddd9947ed51eb21a092efd339dfae92b1c705c603989b3b0e7040734"
+  },
+  "contextDocuments": 51,
+  "views": [
+    {
+      "id": "P-0059",
+      "jsonHash": "f487b5eaff8d33f7b9dcc55015cd22798146fa0cc35affeeafc5346f3544ef0a",
+      "shortHash": "9ed941825a485821dfd2d32e523167ed9a52437f56d5dcb34e5f994d111f9112",
+      "fullHash": "277f1bafac244013a1a87036ad1c3f1815e33523389b600c1f1f3c23cb7f9a9b",
+      "shortChars": 19942,
+      "fullChars": 199121,
+      "shortLines": 144,
+      "fullLines": 3081
+    },
+    {
+      "id": "P-0412",
+      "jsonHash": "83a06e2f9e6739339df743c0259d2bc42728cd2c759b184bad94583a22540ef0",
+      "shortHash": "007dedb6222f263ea96f3c68fc3afd2aba4f346e64355db8e44917cb27f9dc45",
+      "fullHash": "3a4487f6870cdef59101bbac67267ca67abfc8ce862542235588fe5429fff6cb",
+      "shortChars": 4090,
+      "fullChars": 47239,
+      "shortLines": 52,
+      "fullLines": 875
+    },
+    {
+      "id": "P-0424",
+      "jsonHash": "1fcc3a10b94a46f95edbeb4014ab26a30d4481a5fdf7b48ad150ca93564c7d74",
+      "shortHash": "be3b6769d0ae258e23676bab9f767d5efeae6ad2b4e9c84f9ac9e083016192bf",
+      "fullHash": "3a19fcb6fdb8ac3ebda9979ea0ab82697dda3b498382ad8814887567eb4a262d",
+      "shortChars": 18320,
+      "fullChars": 147230,
+      "shortLines": 129,
+      "fullLines": 2408
+    },
+    {
+      "id": "P-0434",
+      "jsonHash": "b595539cf564cdbf90b7e93f3c9c66bdb763eedf9acaa9eb3e155e58604c6be5",
+      "shortHash": "fc96c1ed11a64db886e7e11d7c729754a34abac87aa53fd778accc8ac4a81358",
+      "fullHash": "825ebdac7cf8778cc5912facfdc9437d683ac018f0e23b16ac89f5c9db8bfe1d",
+      "shortChars": 8417,
+      "fullChars": 74831,
+      "shortLines": 76,
+      "fullLines": 1517
+    }
+  ],
+  "risks": {
+    "ok": true,
+    "groups": 35,
+    "components": [
+      {
+        "ok": true,
+        "groups": 13
+      },
+      {
+        "ok": true,
+        "groups": 12,
+        "changes": 22,
+        "dependencyPairsResolved": 25
+      },
+      {
+        "ok": true,
+        "groups": 7,
+        "changed": 44,
+        "retained": 7
+      }
+    ],
+    "banns": 3,
+    "participations": 6,
+    "resolvedPairs": 25
+  },
+  "domain": {
+    "objects": [
+      {
+        "kind": "assessment",
+        "n": 20491
+      },
+      {
+        "kind": "event",
+        "n": 1469
+      },
+      {
+        "kind": "fact",
+        "n": 3424
+      },
+      {
+        "kind": "identity",
+        "n": 1777
+      },
+      {
+        "kind": "identity_resolution",
+        "n": 11
+      },
+      {
+        "kind": "mention",
+        "n": 2427
+      },
+      {
+        "kind": "narrative",
+        "n": 538
+      },
+      {
+        "kind": "observation",
+        "n": 3116
+      },
+      {
+        "kind": "participation",
+        "n": 2501
+      },
+      {
+        "kind": "person",
+        "n": 536
+      },
+      {
+        "kind": "place",
+        "n": 21
+      },
+      {
+        "kind": "question",
+        "n": 1306
+      },
+      {
+        "kind": "record",
+        "n": 1954
+      },
+      {
+        "kind": "relation",
+        "n": 1669
+      },
+      {
+        "kind": "search",
+        "n": 452
+      },
+      {
+        "kind": "source",
+        "n": 828
+      },
+      {
+        "kind": "transcription",
+        "n": 846
+      }
+    ],
+    "pendingReviews": 0,
+    "mappedUnits": [
+      {
+        "coverage": "complete",
+        "n": 21644
+      },
+      {
+        "coverage": "context",
+        "n": 860
+      },
+      {
+        "coverage": "partial",
+        "n": 18755
+      }
+    ]
+  },
+  "cliProbes": [
+    {
+      "person": "P-0059",
+      "short": "88d9473162a09517f8486feb01074be7081f34ee908b3c187f64335a75aec8fc",
+      "full": "069254425d4315c4bb5c807fd333338dad07dcd8a2e25ae00e300dff4d767df6",
+      "json": "f487b5eaff8d33f7b9dcc55015cd22798146fa0cc35affeeafc5346f3544ef0a"
+    },
+    {
+      "person": "P-0412",
+      "short": "8b626f8aaa0ff2b18bbb606132ffe01d92f17953a988051a03d096a3379bfdbc",
+      "full": "fda407d91c55a503a98d1429689ff7bef9259696b3c6bce1a9f6bb5e2dbd279e",
+      "json": "83a06e2f9e6739339df743c0259d2bc42728cd2c759b184bad94583a22540ef0"
+    },
+    {
+      "person": "P-0424",
+      "short": "24b2066e039efc5addb0e93e64681235d83125b76ef0c729de339692fa3e247a",
+      "full": "3bf7c961dffe08c0d18da6d5063b9db4376dec0c1434f02851f3900ee915bf44",
+      "json": "1fcc3a10b94a46f95edbeb4014ab26a30d4481a5fdf7b48ad150ca93564c7d74"
+    },
+    {
+      "person": "P-0434",
+      "short": "68b16f4af10d7336f3cee34f50415d9aeeb1fd9f4c1ad71565d82c5d47e92e95",
+      "full": "5431502da35fd3e342e146d632cb913d6b05b695859ca8ebf29bd81b9e88d62e",
+      "json": "b595539cf564cdbf90b7e93f3c9c66bdb763eedf9acaa9eb3e155e58604c6be5"
+    }
+  ]
+}

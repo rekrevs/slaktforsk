@@ -1,0 +1,87 @@
+# T-0052: Identifiera eller avgränsa Porsnäskandidatens barnhushåll
+
+**Status**: DONE | **Size**: M
+**Phase**: —
+
+## Context
+
+Beslutad genom PCD-2026-09-05-004 i [Project Control](../../PROJECT-CONTROL.md)
+inom ägarens kontinuerliga mandat. Granskningsorsaken finns i
+[batch 272](../../genealogy/research-log/2026-09-05.md).
+Berörd front: P-0051, djup 5 från Adam och Axel.
+
+## Scope
+
+C-0756: Olof Pehrsson, död 1858-03-30 i Porsnäs; änkan Anna Lovisa Brännberg; Maria Lovisa tre år och Jonas Oscar två år.
+
+Routa och läs Piteå landsförsamlings födelseföljd 1854–1856 efter barnnamnen och båda föräldrarna. Följ en positiv hänvisning till motsvarande hushåll; vid syskonträff används båda för identitetskontroll.
+
+Förväntat kunskapsresultat: Avgör om faderns datum och hushåll identifierar eller avvisar honom mot Olaus Pehrsson född 1784-02-07. Vid fortsatt olöst läge dokumentera exakt vilka familje-/hushållsbelägg som saknas.
+
+Utanför: Ingen ny helvolymsscreening av Piteålängder eller upprepning av C-0795. Ingen föräldrakant till Barbro från kandidatmatchning ensam; 1810 års Maja Stina-vigsel är separat. Inga beställningar, kontoköp, meddelanden, PDF:er,
+publicering, commit eller push ingår. Nya materiella fortsättningar får
+separata uppgifter; omfånget utökas inte automatiskt.
+
+## Acceptance Criteria
+
+- [x] Exakt katalog-/volym-/bildrouting och laglig åtkomst är dokumenterade.
+- [x] Målavsnittet är läst i original, alternativt har ett konkret hinder
+  verifierats och relevanta identifierade alternativ prövats. Om hindret
+  förhindrar själva kunskapsresultatet förblir uppgiften BLOCKED.
+- [x] Avgör om faderns datum och hushåll identifierar eller avvisar honom mot Olaus Pehrsson född 1784-02-07. Vid fortsatt olöst läge dokumentera exakt vilka familje-/hushållsbelägg som saknas.
+- [x] Original, checksumma, avskrift och negativa omfång är bevarade;
+  personakt, frontier och matris är konsoliderade utan osäker propagation.
+- [x] Relevanta Wotan-kontroller och kohortkontroll är körda; fortsatt
+  motiverat arbete är registrerat innan uppgiften avslutas.
+
+## Approach
+
+Riksarkivet först; vid relevant hinder pröva ArkivDigital/FamilySearchs katalogtäckning för födelsevolymen. Åldrarna är intervallnycklar, inte verifierade födelseår.
+
+Läs befintliga belägg först och återanvänd verifierad routing. Sök sedan
+bara den här avgränsade källpassagen enligt method-riksarkivet.md. En
+nollträff eller åtkomstspärr får inte vidgas till person- eller källslut.
+
+## Justerad ordning 2026-09-05
+
+Originalrevision av C-0756 visar dödsdag **23 mars**, inte tidigare avskrivna
+30 mars, och fastighetsnyckeln **1/32 mantal under nr 15 i Porsnäs**.
+Samma avlidne och barnhushåll är fortsatt omfånget. Kontrollera först den
+exakta dödraden och gård 15 för att få familjens datum; använd dem sedan i
+1854–1856 års födelseföljd. Detta ersätter inte syskonkontrollen eller
+identitetskravet. C-0766:s tidigare OCR-screening och två avvisade namnar
+ska inte upprepas.
+
+Hushållet återfanns på sida 213, bild C0035024_00231: båda barnen och
+Anna Lovisa Eriksdotter, med avlidne mannens överlagrade rad samt en senare
+make. Maria Lovisas datum är 17 januari 1855; Jonas Oscars 14 januari 1857.
+Den exakta januari 1857-notisen ingår nu i syskonkontrollen: åldern ”Tu år”
+var en intervallnyckel som felaktigt avgränsats till högst 1856. Ingen bred
+1857-screening eller forskning om den senare maken tillkommer.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-05.
+- Utfört: samtliga kriterier; se C-0867 och batch 277. Bouppteckningens familj identifierad genom hushåll och två syskonoriginal. Kandidaten avvisad mot Olaus 1784. Datum- och omfångsfel rättade med append-only-belägg.
+- Delvis utfört: inget inom uppgiftens reviderade exakta familjepassage.
+- Nästa ej utförda steg: inget i denna uppgift. T-0053 är nästa godkända passage; T-0054 äger kvarvarande strukturavstämning. Barbros analoga vägar kvarstår enligt personakten.
+- Verifiering: samtliga relevanta kontroller passerar, se nedan.
+- Hinder: inga för denna undersökning.
+
+## Verification
+
+2026-09-05: validate-genealogy OK, 2 745 påståenden, 2 087 Markdownposter;
+15/15 regressionstester; uppdaterade dashboarddata; mediamanifest 4 548
+poster kontrollerat; git diff --check passerar. Kohortkontroll: 518 personer
+och 547 föräldralänkar oförändrade, ingen ny förälder till P-0051.
+Djup 5:s källbredd går från 28/32 till 29/32 genom faktiskt identifierad
+och avvisad kandidat; gemensamt registrerat djup förblir 4. Saklig
+uppfyllelse av hela föräldrafrågan eller north star följer inte av måttet.
+
+## Outcome
+
+Porsnäsfamiljen är identifierad. Olof Pehrsson död 23 mars 1858 var enligt
+dödboken 61 år 10 månader 20 dagar och avvisas mot Olaus 1784. Maria Lovisa
+1855-01-17 och Jonas Oscar 1857-01-14 är lästa med rätt föräldrar och
+matchar hushållet på sida 213. Äldre fel i dödsdag och sökomfång bevaras
+med tydlig rättelse. Ingen relation till Barbro skapas.

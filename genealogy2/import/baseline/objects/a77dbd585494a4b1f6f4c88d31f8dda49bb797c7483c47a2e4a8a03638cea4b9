@@ -1,0 +1,195 @@
+# T-0137: Konsolidera konfliktsignal, djup 6 sida S från P-0126
+
+**Status**: DONE | **Size**: M
+**Phase**: DONE
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0126, P-0132
+
+## Scope och underlag
+
+Exakt dessa 2 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 90 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0098, C-0099, C-0117, C-0126, C-0127, C-0137, C-0138, C-0139, C-0535, C-0541, C-0834, C-0835, C-0965, C-0966, C-1008, C-1009, C-1011, C-1063, C-1073, C-1074, C-1075, C-1077, C-1078, C-1081, C-1082, C-1083, C-1084, C-1085, C-1086, C-1087, C-1088, C-1089, C-1090, C-1091, C-1092, C-1093, C-1094, C-1095, C-1096, C-1097, C-1098, C-1099, C-1100, C-1101, C-1102, C-1103, C-1104.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Båda granskade 2026-09-08 mot person-dossier/v1 och person-research/v1.
+
+| Person | Granskat underlag | Format/konsolidering | Identitetsnivå | Full nivå | Rättelser/luckor och följdägare |
+|---|---|---|---|---|---|
+| P-0126 | C-0098/0126/0127/0128/0137–0139/0535/0541/1063 och S; tidigare referenslogg | godkänt; ny individuell profil | PRÖVAT, UNDERKÄND/AVVAKTAR på PK-05/11 | UNDERKÄND även på PK-08 | Säfvesta[?], inget fadersnamn, ålder, sonpostens annan mor, källberoende; T-0307–0310. |
+| P-0132 | Hela aktens C/S-index, senare C-1079/1080 och C-1107–1109; fulla befintliga egna vuxenposter och exakt kopieaudit | godkänt; befintlig profil konsoliderad | PRÖVAT, UNDERKÄND/AVVAKTAR på PK-05/11 | UNDERKÄND även på PK-08 | 1860–1902 återbruk, projektfel/källkonflikt/kandidat åtskilda, fullfält, kolumnnoll, B/T och 77+1 kopior; T-0111/T-0311/T-0312. |
+
+## Verification och Outcome
+
+[Batch 541](../../genealogy/research-log/2026-09-08.md#batch-541--t-0137-brita-kajsa-och-eva-lotta-konsoliderade) loggad en gång.
+Alla 90 äldre A bevarade, åtta nya. Format 2/0, coverage 538/0,
+50/50 tester, validator 3757 A/2640 MD/5065 media, inventory 145/0,
+media 5064/check0, diff0. Oberoende sakläsning och anhörigkontroll
+redovisade nedan och i batchen; samtliga fynd åtgärdade före DONE.
+Sex anhörigakter och två befintliga profiler begränsat rättade,
+fulladoption hos T-0157/T-0165/T-0169; inga extra täckningspoäng.
+102/538 individuellt granskade. Nästa T-0138.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Återupptagning — start efter verifierad T-0136
+
+2026-09-08:100/538 individuellt granskade. T-0137 aktiv med exakt
+P-0126/P-0132,90 äldre baslinje-A. Nästa fria A-4552, next_id307,
+batch541 ej loggad. Läs båda akter/profiler och relevanta senare
+rättelser före fördelning; inga nya arkivsökningar.
+
+## Återupptagning — fast fördelning och läst underlag
+
+2026-09-08: båda akter fulltextlästa av root, liksom befintlig P-0132-
+profil. P-0126 saknar profil och får explicit individuell införing här.
+Backups /tmp/t137-0126-people-old.md och motsvarande P-0132-akt/profil.
+Root äger P-0126 akt/profil och alla Wotan/front/täckning/log/anhörigföljder.
+Parents prövar/appendför dess C-0098/0126/0127/0137/0138/0139/0535/0541/
+1063 plus relevanta S. Root har fulltextläst alla nio C och återbrukar
+C-0535:s T-0129-prövning; inga nya arkivsökningar.
+Private äger P-0132 akt/profil och relevanta C/S från index inklusive
+senare C-1107–1109. A-4552–4575 reserverade. Varied gör separat skrivfri
+kopie-/hash-/aliasaudit för detta P-0132-underlag och rapporterar till
+private/root. Root A från4576. next_id307, batch541 ej loggad.
+Tyngsta initiala P-0132-fynd: gamla källuppgifter blandade med rättade
+Mellösa/StoraMalm- och1856/1860-läsningar; kandidatens27år1849 ska17;
+framåtkedjan till1902död behöver ersätta löpande äldre olästpåståenden.
+P-0126: egna dopet skriver Brita Cajsa utan Pehrsdotter; äldre fyra
+oberoende namn-/änkedatumbekräftelser överdriver källornas oberoende.
+Ingen ny far skapas från senare patronymikon. Nästa: egna fält-/kopie-
+resultat, P-0126profil och konsolidering, samt oberoende efterläsning.
+
+## Återupptagning — akter, bildbevarande och avgränsade följder
+
+2026-09-08: P-0126 har konsoliderad akt (19 äldre + A-4576–4579) och
+individuellt införd profil. Parents gör oberoende efterläsning. Råort
+Säfvesta[?], födelsefält Oäkta, inga fadersnamn; C-0128:s sonpost har dop
+8 oktober och annan mor/ålder. Root har appendfört C-0128/S-0099;
+parents har appendfört nio egna C/S-prövningar. Egna hushållsfält och
+kopierester hindrar PK-05/11. P-0132:s akt första utkast (71 äldre +
+A-4552–4555) finns; private arbetar vidare med profil och C/S.
+Varied har faktiskt bevarat 32 återfunna äldre bilder, SHA-verifierat dem
+och lämnat /tmp/t137-recovered-media.json och .md till private för
+C/S-proveniens. C0007558_00294 återfanns inte och ägs redan av T-0111 B.
+T-0307–0312 registrerade som ändliga följder efter T-0115; next_id313.
+Inga nya arkivsökningar. Batch541 är ännu inte loggad. Nästa ej utförda
+steg: anhörigföljder och deras kohortägare, färdig P-0132/proveniens,
+oberoende sakgranskning, validatorer och en samlad batch före DONE.
+
+## Återupptagning — oberoende revision och anhörigfynd
+
+P-0126:s oberoende efterläsning klar: kollektivt onamngivna hustru/barn
+i C-0139 begränsar namnnollet; rättslig källväg har K-21. P-0132:s
+aktuella akt och profil har efterlästs av root; varied granskade separat
+kandidat-/kopiegränser. PK-06 har bedömts mot faktisk tematäckning;
+oprövad ny forskning ligger i PK-08. Tolv respektive fyra egna/familje-
+dopvittnen bevarade och kandidatsyskon individuellt namngivna.
+T-0137:s anhörigavstämning fann dessutom redan lästa C-1079/C-1080:
+Stora Malm 1853–1855, endast brudgummarnas namnled, inte fulla poster.
+Private tillgodoräknar dem i P-0132 och appendför C/S. Varieds oberoende
+audit gav ytterligare fjorton saknade bilder: C0007593_00111–00121 och
+00100/00129/00140. Bild00079 finns genom C-0763. T-0311 är därför
+preciserad till77 fasta kopior, två registerprovenienser; med00294 hos
+T-0111 B är P-0132:s fasta rest78. Tidigare checkpoint63 är historisk.
+Preliminära hårda kontroller: format2/0, coverage538/0,50tester, validator
+3757A/2640MD/5065media, inventory145/0, media5064/check0 och diff0
+före dessa sista referensjusteringar. Slutlig smal kontroll återstår.
+P-0131:s60A följdrättas av parents, egen profil har begränsat avstämda
+beroenden hos root. Full egen granskning i T-0165. P-0043/P-0044/P-0125/
+P-0164/P-0167 också minimalt rättade; P-0168 avstämd utan ändring.
+Batch541 EJ loggad. Nästa: stabila sista C/profil/anhörigtexter,
+slutkontroller, logga en gång, per-personutfall och DONE. Fortsätt T-0138.
+
+## Återupptagning — verifierad DONE
+
+Samtliga kriterier uppfyllda inom fast omfång. Slutliga fjorton extra
+kopior ingår i T-0311:s77; inget nytt arkivpass. Batch541 loggad en gång,
+102/538 granskade. Nästa uppgift T-0138. next_id313, nästa fria A-4580.
+Ingen dashboarduppdatering, commit/push eller publicering gjord.
+
+## Inkommen observation från T-0183, 2026-09-10
+
+Denna uppgifts avstämning av C-0098 post 17 står oförändrad, och **tre av dess
+uttryckliga avgränsningar har visat sig vara precis de bindningar
+vittnesakterna behövde.** Fyra akter — P-0127, P-0128, P-0129 och P-0130 — är
+konsoliderade i minimiläge enligt PCD-2026-09-09-030.
+
+- **`Alb.` väljs inte — och en akt hade valt.** T-0137 skrev att
+  förkortningen bevaras **utan att posten ensam väljer `Albert`** framför
+  andra möjliga expansioner. **P-0129:s akt hette ändå `Albert
+  Lindqvist`**, alltså med ett val beläggen vägrar. **Aktens rubrik följer nu
+  källans form**; filnamnet bär den äldre och en omdöpning är uppskjuten.
+  **Den praktiska innebörden är utskriven:** en sökning på ett valt förnamn
+  ger **inget svar alls** om valet är fel, vilket är svårare att upptäcka än
+  ett felaktigt svar. Se A-7815.
+- **`son ibm` är inte en föräldrabrygga — och relationen är nedgraderad.**
+  T-0137:s formulering är grunden för att **P-0128:s och P-0129:s inbördes
+  relation nu förs som `LEAD`:** att P-0129 var **faderns** son är källans
+  ord, men **att han var hustruns son är inte separat belagt.** Ett hushåll
+  kunde bära barn ur ett tidigare äktenskap, och **kohorten har i samma vecka
+  ett fall där en präst uttryckligen skiljer `hennes o. ä.` från `gemens.` i
+  marginalen** — skillnaden gjordes aktivt och ska inte antas bort.
+- **Inga vittnen görs till släkt med modern utan ytterligare belägg.**
+  **Ingen släkthypotes är registrerad för något av de fyra vittnena**, och
+  skälet är utskrivet: patronymikonen `Jonsd:r` och `Ersd:r` har **ingen
+  motsvarighet** i dopbarnets kända familj, och **en hypotes utan
+  anknytningspunkt är inte en hypotes utan en gissning.**
+
+**Ett nytt led är utvunnet ur samma läsning: postens struktur.**
+**Tre av de fyra dopvittnena är ett och samma hushåll** — `Lindqvist J. E.,
+Torp. i Hultstuga Skog`, `Jonsd:r Brita, dess hustru, ibm` och
+`Lindqvist Alb., son ibm` — **och det fjärde, `Ersd:r Hedda`, kommer från
+`Skogstorpsstugan`.** **Iakttagelsen stod inte i någon av de fyra akterna**,
+trots att den är postens mest talande drag: ett helt torparhushåll bar dopet.
+**Den skrivs ut och tolkas inte** — närhet är inte släktskap.
+
+**Strukturen har en praktisk följd för källstrategin.** **Ett uppslag för
+`Hultstuga` med dess torp besvarar tre akters huvudfråga** — P-0127:s förnamn
+och ålder, P-0128:s ålder och patronymikonets riktighet, och P-0129:s förnamn
+och födelseår. **P-0130 delar inget uppslag med någon** och kräver uppslaget
+för `Skogstorp`, vilket gör hennes akt den dyraste av de fyra **trots att
+hennes boställsnamn är det snävaste.**
+
+**`ibm` och `dott. fr.` är namngivna som hemvistformer**, inte som
+läsosäkerheter: P-0128:s och P-0129:s ort är därmed **lika säker som
+P-0127:s**, medan P-0130:s föräldrar **inte** följer av hennes `dott. fr.`
+Fyra källvägar och fyra källgränser är utskrivna i C-0098:s tillägg.

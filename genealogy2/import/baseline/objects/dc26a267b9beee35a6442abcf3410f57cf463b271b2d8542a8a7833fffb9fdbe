@@ -1,0 +1,66 @@
+# T-0501: Anna Lisa Jansdotters födelsetid och ortformen Säfsta i Sköldinge
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0169 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0164](../../genealogy/people/P-0164-anna-lisa-jansdotter-skoldinge.md), med
+följdpåverkan på hennes dotter Brita Kajsa.
+**Tre passager, i denna ordning:**
+
+1. **Ortformen.** Dotterns dopnotis 1829 anger hennes hemvist
+   **`Säfvesta[?]`** och namnger vittnet **`Bonden Eric Jansson i Säfsta`**
+   ([C-0126](../../genealogy/citations/C-0126-brita-kajsa-fodelse-1829.md),
+   A-7400 och A-7401). Två oprövade nycklar mot samma plats. Fastställ platsen
+   i Sköldinges ortregister eller jordebok. **Detta är avgörande**, eftersom
+   projektets tre negativa kontroller — C-0137, C-0138 och C-0139 — samtliga
+   gällde den **upphävda** ortläsningen `Säfstugan` och därför inte
+   avgränsar hennes hemvist.
+2. **Husförhörslängden för den fastställda orten omkring 1829**, som kan ge
+   både hennes tjänstehushåll och Eric Janssons gård, med hennes ålder,
+   hemvist och inflyttningsuppgift.
+3. **Hennes egen födelsepost i intervallet oktober 1808–oktober 1809.**
+   Dopnotisens ålder `20 år` är hennes **enda** datumnyckel. Sök i den
+   församling som passage 2 pekar ut, inte i Sköldinge på förhand.
+
+Utanför: att läsa dopvittnena som föräldrar — posten har uttryckligen **inget
+ifyllt fadersfält** för barnet, och A-7402 bevarar den varningen; att tolka
+den svaga strukna `af…`-noten under barnets namn, som är prövad och lämnad
+otolkad; att göra patronymikonlikheten mellan `Eric Jansson` och
+`Jansdotter` till en släktrelation utan original; en bred kandidatkoppling på
+åldern 20 år ensam.
+
+## Acceptance Criteria
+
+- Passage 1 avgörs mot **ortregister eller jordebok** med angiven källa. De
+  tre befintliga negativa kontrollerna **stryks inte** — deras räckvidd
+  redovisas som bunden till den upphävda ortläsningen.
+- Varje passage har volym, sida, årgång, bildintervall och läsdatum; ett noll
+  är årgångs-, församlings- och ortbundet.
+- Hela öppnade poster utvinns med kolumnredovisning enligt
+  `person-standard.md`, inklusive ålders-, hemvist- och vittnesfält, med
+  sparad kopia och hash.
+- Akten, profilen, temana och båda kontraktsnivåerna avstäms.
+  `Identitetsläge` prövas om endast mot original, och det utomäktenskapliga
+  förhållandet i dotterns post behålls oförvanskat.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0126:s daterade tillägg och P-0164:s profil först. Passage 1 är en
+katalog- och ortfråga som avgör om passage 2 och 3 söker i rätt socken alls.
+Inga beställningar, kontakter, dashboardändringar, PDF-skapande eller
+commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0169:s granskningsutfall.
+- Nästa ej utförda steg: fastställ `Säfsta`/`Säfvesta` i Sköldinges
+  ortregister.
+- Hinder: BLOCKED bakom T-0115.

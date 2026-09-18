@@ -1,0 +1,144 @@
+# T-0095: Djup 6, Kristinas sida — tjugotre anspetsar utan giltig arkivfront
+
+- Status: DONE
+- Storlek: M
+- Beroende: inga
+- Skapad: 2026-09-07 (PCD-2026-09-07-014)
+
+## Varför
+
+Systeruppgift till [T-0094](T-0094.md). Samma grind, andra sidan av antavlan.
+Uppdelningen efter sida är avsiktlig: north star kräver att balansen mellan
+föräldrarnas släkter kan mätas, och en gemensam uppgift om trettioåtta
+personer vore ett obegränsat omfång.
+
+Kristinas sida på djup 6 är i övrigt helt i ordning — **29 kända, 29
+granskade, 29 källbredd-klara**. Det enda som återstår är fronterna.
+
+## Omfångsändring 2026-09-07 (batch 410, PCR-2026-09-07-015)
+
+**Uppgiftens karaktär ändras från att skriva till att verifiera.** Samtliga
+tjugotre akter hade redan sina återaktiveringsvillkor; kontrollen krävde
+etiketten `Återaktivera när` medan akterna skriver `Återaktivering`. Efter
+rättelsen visar `goal-state.mjs` **noll** ogiltiga fronter på Kristinas sida.
+
+**Uppgiften får inte stängas på den grunden ensam.** Ett mätfel är inte ett
+avslut. Det som ska göras är att **läsa de tjugotre villkoren och pröva om de
+håller sakligt**: är de personspecifika, namnger de en källa eller
+omständighet, och är statusklassen riktig för det som faktiskt genomsökts?
+De som inte håller skrivs om.
+
+Nya acceptanskriterier: (1) samtliga tjugotre villkor är lästa och bedömda,
+med utfallet redovisat per person; (2) de som skrivits om har en daterad
+loggrad; (3) `goal-state.mjs` visar fortsatt noll ogiltiga fronter.
+
+## Ursprungligt omfång
+
+Tjugotre personer. Tjugotvå bär `IDENTITET OLÖST` och saknar enbart
+återaktiveringsvillkor; en avviker:
+
+| Person | Nuvarande brist |
+|---|---|
+| P-0341 Pehr Ersson i Högsjö | saknar återaktiveringsvillkor |
+| P-0342 Ingeborg Nilsdotter i Högsjö | saknar återaktiveringsvillkor |
+| P-0343 Johan Gustaf Strandlund | saknar återaktiveringsvillkor |
+| P-0350 Per Hillberg vid Håsta Udde | saknar återaktiveringsvillkor |
+| P-0351 Greta Björkqvist vid Håsta Udde | **`ARKIVLUCKA`**: saknar återaktiveringsvillkor |
+| P-0361 Inga Nilsdotter i Gäddestad | saknar återaktiveringsvillkor |
+| P-0362 Lars Svensson i Jonsberg | saknar återaktiveringsvillkor |
+| P-0363 Maja Lena Jonsdotter i Jonsberg | saknar återaktiveringsvillkor |
+| P-0371 C. J. Jansson Hök | saknar återaktiveringsvillkor |
+| P-0372 Carolina Magnusdotter | saknar återaktiveringsvillkor |
+| P-0375 Anders Dahlsten | saknar återaktiveringsvillkor |
+| P-0376 Anna Cajsa Larsdotter | saknar återaktiveringsvillkor |
+| P-0384 Catharina Andersdotter | saknar återaktiveringsvillkor |
+| P-0386 Carl Fredric Andersson | saknar återaktiveringsvillkor |
+| P-0387 Anna Greta Danielsdotter | saknar återaktiveringsvillkor |
+| P-0403 Nils Pehrsson | saknar återaktiveringsvillkor |
+| P-0404 Lisa Stina Larsdotter | saknar återaktiveringsvillkor |
+| P-0415 Jonas Nordlund | saknar återaktiveringsvillkor |
+| P-0447 Jöns Abrahamsson | saknar återaktiveringsvillkor |
+| P-0448 Brita Jonsdotter | saknar återaktiveringsvillkor |
+| P-0451 Hindric Henriksson/Vinroth | saknar återaktiveringsvillkor |
+| P-0452 Brita Flinkberg | saknar återaktiveringsvillkor |
+| P-0454 James Schölin | **`EJ DIGITALISERAD`**: saknar återaktiveringsvillkor |
+
+De två avvikande är de intressantaste. **`ARKIVLUCKA`** och
+**`EJ DIGITALISERAD`** är påståenden om materialet självt, och north star
+kräver att de skiljs från varandra och från åtkomsthinder. Deras
+återaktiveringsvillkor ska därför säga något konkret: vilken volym som skulle
+behöva digitaliseras, eller vilket alternativ som ännu inte prövats.
+
+## Kunskapsresultat
+
+Samma som [T-0094](T-0094.md): en saklig frontprövning per person och en
+`## Slutstatus` med north stars fyra obligatoriska fält.
+
+## Uttryckligt utanför omfånget
+
+- Ingen ny arkivforskning bakåt om föräldrarna.
+- Ingen ändring av statusklass utan nytt belägg.
+- **Ingen mallformulering.** Tjugotvå likadana återaktiveringsvillkor är ett
+  underkänt resultat, särskilt eftersom tjugotvå av tjugotre delar
+  statusklass.
+- Sverkers sida ägs av `T-0094`.
+
+## Acceptanskriterier
+
+1. `node scripts/goal-state.mjs` visar **noll anspetsar utan giltig arkivfront
+   på Kristinas sida på djup 6**.
+2. Varje ändrad akt har en daterad rad i forskningsloggen som visar vad som
+   prövades.
+3. `node scripts/validate-genealogy.mjs`, `node scripts/research-inventory.mjs`
+   och `node --test scripts/` är gröna.
+4. **P-0351 och P-0454 har återaktiveringsvillkor som namnger konkret
+   material**, inte en allmän hänvisning till framtida digitalisering.
+
+## Faser
+
+- **F1** Läs de tjugotre akternas `## Slutstatus` och sammanställ vad var och
+  en faktiskt har genomsökt.
+- **F2** Pröva statusklassen och formulera återaktiveringsvillkoret per person.
+  Behandla P-0351 och P-0454 först, eftersom de kräver mest.
+- **F3** Skriv in fronterna, logga passet och kör kontrollerna.
+
+## Återupptagning
+
+Ingen. Uppgiften är inte påbörjad.
+
+## Avslut 2026-09-07 — tjugotre villkor lästa, två omskrivna
+
+### Utfört
+
+Samtliga tjugotre återaktiveringsvillkor lästa och sakligt prövade mot tre
+frågor: är villkoret personspecifikt, namnger det en källa eller omständighet,
+och ger det en diskriminerande regel?
+
+**Tjugoen godkändes utan ändring.** De är skrivna som regler, inte som
+avsiktsförklaringar, och flera namnger uttryckligen den sammanblandning de
+skyddar mot — P-0454:s två J Schölin-kandidater, P-0403:s 2-augusti-barn,
+P-0451:s P-0461–P-0462 ur Nybergs familj 98.
+
+**Två höll inte: P-0341 och P-0342.** De bar ordagrant samma lydelse och sade
+vilken sorts nyckel som saknades men inte var den skulle sökas. Prövningen
+fann tre konkreta oprövade ingångar — Indals vigselbok `E I` omkring
+1820–1834 med giftomannen som fadersnyckel, Indals flyttningslängd `B` kring
+1834, och för P-0342 dessutom Indals födelseböcker omkring 1799 utifrån
+åldersuppgiften 35 år 1834. Båda villkoren skrevs om; de tidigare lydelserna
+bevaras i akterna som historik.
+
+### Varför uppgiften inte stängdes på mäträttelsen ensam
+
+Batch 410 fick måttet att visa noll ogiltiga fronter på denna sida. Det var
+ett rättat mätfel, inte ett utfört arbete. Uppgiftens värde ligger i att
+tjugotre villkor nu är **lästa av en människa eller agent och bedömda**, och
+att de två svagaste är ersatta med namngivna serier.
+
+### Verifiering
+
+`node scripts/goal-state.mjs`: Kristinas sida djup 6 har noll anspetsar utan
+giltig arkivfront, noll ogranskade och noll ej källbredd-klara.
+`validate-genealogy.mjs` OK; `research-inventory.mjs` strukturfel 0;
+`node --test scripts/` 29 gröna; `git diff --check` rent.
+
+Status: **DONE**.

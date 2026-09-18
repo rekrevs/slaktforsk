@@ -1,0 +1,53 @@
+# T-0006: Close depth 2 and establish the verified depth-3 frontier
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+Depth 2 contains the four grandparents. Research must consolidate their
+identities, relationships and remaining explicit gaps before the project opens
+all depth-3 lines as a single wave.
+
+## Acceptance Criteria
+
+- [x] Reconcile the outcomes of T-0002, T-0003 and T-0005.
+- [x] Give every grandparent-to-parent and grandparent-pair relation a cited status or explicit research gap.
+- [x] List every verified and conditional depth-3 parent in `genealogy/frontier.md` with a P-id or a backfill action.
+- [x] Confirm that all encountered people, citations and relevant source images are preserved with provenance.
+- [x] Record conflicts, privacy restrictions, access barriers and archive gaps without silently resolving them.
+- [x] Run repository integrity checks and make T-0007 executable from a stable frontier.
+
+## Approach
+
+Perform a cross-branch evidence audit rather than new deep research. Treat
+Bernhard–Arne as conditional until historical evidence supports the relation,
+and do not let a difficult branch prevent other explicitly documented lines
+from being represented on the frontier.
+
+## Log
+
+- 2026-08-19: Task created blocked on T-0002, T-0003 and T-0005.
+- 2026-08-19: T-0002, T-0003 and T-0005 are complete. Began the cross-branch
+  relation, provenance, privacy and frontier audit.
+- 2026-08-19: Added a cited depth-2 relation audit. Arne–Maj and Oskar–Ebba are
+  verified couples. Jan-Christer's links to Arne and Maj are high-confidence
+  family testimony with the lack of an independent historical child record
+  explicit. Hillevi's links to Oskar and Ebba remain high-confidence leads
+  constrained by living-person minimization.
+- 2026-08-19: Confirmed that every depth-3 parent has a P-id: P-0028/P-0029,
+  P-0048/P-0049, P-0009 plus conditional P-0010, and P-0015/P-0016. The
+  Bernhard–Arne conflict remains isolated for T-0010 and does not block the
+  other seven verified lines.
+
+## Verification
+
+`node scripts/validate-genealogy.mjs` passed: 238 unique assertions, 146
+Markdown records, 39 media files, all relative links and declared image
+checksums valid, and Wotan JSON valid.
+
+## Outcome
+
+Depth 2 is closed as a research wave: every relationship is either cited and
+graded or explicitly left as a documented gap. The verified depth-3 frontier
+is stable and T-0007 can run without silently promoting the conditional
+Bernhard line.

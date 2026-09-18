@@ -1,0 +1,109 @@
+# T-0049: Rätta källtäckningsprioritet och slutstatuskontroller
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context
+
+Det skärpta målkontraktet är antaget genom PCD-2026-09-05-002.
+PCD-2026-09-05-003 i [Project Control](../../PROJECT-CONTROL.md) förankrar
+denna ändliga koduppgift. Konkreta fel beskrivs i
+[granskningsunderlaget](../../NORTH-STAR-REVIEW-2026-09-05.md).
+Kodens formella kontroller får inte utge sig för att avgöra saklig källuttömning.
+
+## Scope
+
+Tre identifierade brister och deras direkta konsumenter/tester:
+
+1. `scripts/goal-state.mjs`: KLAR i personakten får inte åsidosätta en
+   befintlig matrisrad med prioritet 1.
+2. `scripts/lib/terminal-status.mjs`: krav på återaktiveringsvillkor och
+   särskild prövning av den okontrollerade VERIFIERAD-genvägen.
+3. CLI-/dashboardpresentation som använder dessa mått: skilj registrerad
+   behandling/formell giltighet från bevisad north-star-uppfyllelse.
+
+Inga nya forskningsfynd, masspåhittade metadata för att få kontroller gröna,
+automatisk semantisk källrevision, ny statusmodell för hela arkivet,
+global skilländring, PDF eller publicering ingår. Ändra bara direkt
+berörda konsumenter, dokumentation och regressionstester.
+
+## Acceptance Criteria
+
+- [x] Reproducerande tester täcker KLAR + befintlig prioritet-1-rad,
+  saknat/tomt återaktiveringsvillkor och VERIFIERAD utan bärande underlag.
+- [x] Befintlig matrisrad har företräde; integritetsminimerade personer
+  och motiverad fallback utan matrisrad har dokumenterade, testade regler.
+- [x] Formell slutstatuskontroll kräver avtalade struktur-/referensfält,
+  inklusive återaktivering; VERIFIERAD går inte igenom enbart på etiketten.
+  Reglerna är förenliga med bevarad OWNER_CONFIRMED-kunskap.
+- [x] Utdata beskriver administrativa indikatorer och deras begränsning;
+  gröna kontroller, ingen prioritet 1 eller enbart `2` bevisar inte uppfyllelse.
+- [x] Relevanta konsumenter och regressioner är verifierade. Befintliga
+  data som inte klarar striktare kontroll redovisas exakt och blir
+  avgränsat följdarbete; ingen evidens fabriceras eller historik skrivs om.
+
+## Approach
+
+Reproducera först med små testfall. Läs parser, goal-state, anspetsrevision,
+validator och deras dashboardkonsumenter. Bestäm ett minimalt strukturellt
+kontrakt i överensstämmelse med NORTH-STAR.md; saklig tillräcklighet förblir
+mänskligt/agentmässigt evidensbedömd. Implementera, testa och inventera
+påverkade befintliga akter. Samordna konkreta datafynd med T-0048 eller
+dess efterföljare utan att utöka koduppgiften till hela forskningen.
+
+## Log
+
+- 2026-09-05: Kodluckorna identifierade men inte rättade. Aktuell parser
+  kontrollerar att negativ kontroll pekar på en existerande C-referens,
+  inte dess sakliga räckvidd. VERIFIERAD returnerar ok direkt och
+  återaktiveringsfältet kontrolleras inte. Goal-state anger djup 8 enligt
+  befintliga klassificeringar; detta är ingen skyddad målnivå för nya tester.
+- T-0047:s avgränsningskontroll bekräftade även det konkreta missvisande
+  CLI-beskedet i `scripts/ancestor-audit.mjs`: ”målets avslutskriterium är
+  uppfyllt” skrivs när formellt ogiltiga slutstatusar är noll. Detta ingår
+  i presentationsrättningen ovan, inte som bevis för att sakrevision utförts.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-05, efter slutverifiering.
+- Utfört: parser, matrisprioritet, motiverad fallback, CLI- och dashboard-
+  presentation samt kontraktet i genealogy/README.md rättade. Alla
+  acceptanskriterier verifierade. Testerna reproducerade felen före rättning.
+- Delvis utfört: inget inom koduppgiften. Exakta dataluckor finns i
+  [inventeringen](T-0049-structural-gaps.md) och beslutade T-0054.
+- Nästa ej utförda steg: T-0050 enligt backloggen.
+- Verifiering: 15 tester, genealogyvalidator, mediemanifest och diff-check
+  godkända. Dashboardens produktionsbygge avslutat med exit 0; logg i
+  /tmp/slaktforsk-t49-build.log. Ingen publicering eller ny bildproduktion
+  ingår enligt uppgiftens och ägarens avgränsning. Ingen browser-QA begärd.
+- Hinder: inga.
+
+## Verification
+
+Kör relevanta nya tester, Wotan-konventionens fyra kommandon och
+dashboardens datatest. Kontrollera representativ CLI-utdata manuellt.
+Skilj tekniska testfel från avsiktligt upptäckta evidens-/dokumentationsluckor.
+
+## Delresultat 2026-09-05
+
+Den skärpta kontrollen finner 96 formellt bristfälliga Slutstatus-sektioner,
+varav 79 aktiva fronter i måttet. 78 sektioner saknar enbart återaktivering;
+övriga gäller bland annat äldre VERIFIERAD-etiketter hos personer med redan
+kända föräldrar. Exakta akter och orsaker finns i den länkade inventeringen.
+Detta är inga nya negativa genealogiska observationer. Gemensamt djup
+kvarstår 4 efter T-0048, med djup 5 som nästa skiva. På djup 6 ändras
+källbreddsklara 55 → 51 när matrisen får företräde; ogiltiga aktiva fronter
+är 36 till djup 6, 77 till djup 7 och 79 till djup 8.
+
+## Outcome
+
+Samtliga avgränsade rättningar är genomförda och verifierade. Den
+striktare kontrollen fabricerar inga källvillkor och ändrar inga
+OWNER_CONFIRMED-relationer. T-0054 hanterar exakt de 96 inventerade
+sektionerna och de fyra dolda matrisraderna efter T-0050–T-0053 enligt
+PCD-2026-09-05-005. CLI:s formellt gröna djup-5-kontroll beskriver nu
+uttryckligen sin begränsning. Historiska PDF-verifierare använder även
+fortsättningsvis aktuell sharedDepth som utgåvegrind; de kan därför neka
+ny utgåva utan att äldre levererade PDF:er ändras eller förklaras olästa.
+
+

@@ -1,0 +1,77 @@
+# T-0509: Nysätra C/4:s rubriksida och Risvattnets husförhörslängd
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0171 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0232](../../genealogy/people/P-0232-nils-nilsson-risvattnet.md) och
+[P-0233](../../genealogy/people/P-0233-magdalena-andersdotter-risvattnet.md),
+båda anspetsar, med följdpåverkan på
+[P-0230](../../genealogy/people/P-0230-anders-nilsson-risvattnet.md), vars
+akt ägs av **T-0165** och har fått fynden rapporterade.
+**Tre passager, i denna ordning:**
+
+1. **Volymens rubriksida.** Nysätra C/4:s uppslag 68 och 86 bär en smal
+   **orubricerad** nummerkolumn med tal 23–39. Posterna för samma föräldrapar
+   bär `24.` (1797) och `29.` (1798) — **fem års skillnad på fjorton
+   månader**, vilket ingen ålder kan vara. Kolumnens funktion är oläst, och
+   frågan avgör om `Johannes` 1798 är samma pars son eller om Risvattnet
+   rymde **två par med samma namn**. Sök volymens rubrik- eller titelsida och
+   andra uppslag där ett par återkommer. **De två aktuella bilderna är redan
+   sparade.**
+2. **Nysätras husförhörslängd för Risvattnet omkring 1790–1800.** Ger Nils
+   Nilssons **ålder** — han har ingen — Magdalena Andersdotters ålder ur en
+   andra bok, gårdsbeteckningen bakom ortledet `[N?]yboo` och hela
+   barnaskaran. Projektet har redan A I/8a och A I/9a ur samma arkiv för
+   nästa generation, men den längd som täcker 1790-talet är inte
+   katalogidentifierad.
+3. **Vigselposten före 1797 och vittnenas rader.** Vigseln är odaterad och
+   osökt och är den handling som normalt namnger **hennes** hemvist.
+   Vittnena: `Olof Gabrielsson` med hustru `Maria Johansdotter` i Risvattnet,
+   `Sold: Johan Jacob Trygger`, `Pijga[?] Stina Stephansdotter` (1797) samt
+   `Bond: Johan Johansson` med hustru **`Stina Andersdotter`** i Risvattnet,
+   `Dräng: Pehr Ersson i Brände` och `Pig: Stina Johansdot i Brände` (1798).
+   `Stina Andersdotter` bär moderns patronymikon och är **kandidat som
+   syster**.
+
+Utanför: att skapa person-id för `Johannes` eller för något vittne utan egna
+belägg; att göra `Stina Andersdotter` till syster på patronymikonet; att välja
+en `Nils Nilsson` eller `Magdalena Andersdotter` ur namn och by — passage 1
+finns just därför att byn kan ha rymt en namne; P-0230:s fulla granskning,
+som ägs av T-0165.
+
+## Acceptance Criteria
+
+- Passage 1 ger ett utfall om kolumnens funktion, eller redovisar
+  uttryckligen att volymen saknar rubrik och att frågan därmed måste avgöras
+  ur hushållslängden i passage 2.
+- Varje passage har volym, sida, årgång, bildintervall och läsdatum. Hela
+  öppnade poster utvinns med kolumnredovisning enligt `person-standard.md`,
+  sparad kopia och hash.
+- Passage 2 ska ge **Nils Nilssons ålder** eller uttryckligen redovisa att
+  längden inte har hans hushåll — det är uppgiftens viktigaste enskilda
+  utfall.
+- Om två par med samma namn framträder i byn **hålls identiteterna
+  åtskilda**, och `Johannes` tillskrivs ingen av dem utan personbindande
+  belägg.
+- Båda akterna, profilerna, temana och kontraktsnivåerna avstäms; fynden om
+  P-0230 rapporteras till T-0165.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0198:s och C-0199:s daterade tillägg och de två profilerna först.
+Passage 1 kan påbörjas i de två redan sparade bilderna. Inga beställningar,
+kontakter, dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0171:s granskningsutfall.
+- Nästa ej utförda steg: sök volymens rubriksida i Nysätra C/4.
+- Hinder: BLOCKED bakom T-0115.

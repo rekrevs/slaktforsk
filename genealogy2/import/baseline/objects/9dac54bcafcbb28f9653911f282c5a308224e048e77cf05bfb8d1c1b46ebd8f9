@@ -1,0 +1,75 @@
+# Forskningslogg 2026-08-26
+
+## Åtkomstcheckpoint: Indal C/4 väntar på fungerande Chrome-koppling
+
+T-0012 återupptogs utan ny uppgift och med den fasta breddrotationens exakta
+nästa punkt kvar vid P-0315 Lars Petter Nilsson och P-0316 Cajsa Märta
+Andersdotter/Dahlsten i Indal C/4 (`SE/HLA/1010090/C/4`, bildserie
+`C0033077`). Ägaren uppgav att Riksarkivet var inloggat och gav klartecken
+att fortsätta i Chrome.
+
+Chrome var igång i profil `Default`. Den avsedda webbläsartillägget var
+installerat och aktiverat, och den lokala kommunikationsmanifestkontrollen
+var giltig. Själva styrkopplingen kunde trots två kontrollerade
+återanslutningsförsök inte upptäcka någon Chrome-instans. Den alternativa
+lokala UI-kopplingen startade inte heller. Därför kunde den synliga
+inloggningsstatusen i Riksarkivet eller en enda sida i Indal C/4 inte läsas
+i denna session.
+
+Detta är ett tekniskt åtkomsthinder, inte ett källnoll och inte en ny
+genealogisk uppgift. Ingen annan leverantör eller källa användes, inga
+person- eller källakter ändrades, och ingen bild laddades ned. Den exakta
+återaktiveringsvägen är att med ägarens tillstånd öppna ett nytt
+Chrome-fönster i samma profil, återansluta till det, kontrollera att
+Riksarkivets sida uttryckligen är inloggad och därefter fortsätta vid
+`C0033077_00125` för att avgränsa hela 1834 innan 1836 följs.
+
+T-0012 förblir `ONGOING`/`DOING`. Ingen PDF har påbörjats och den
+obligatoriska ägardiskussionen före nästa utgåva kvarstår.
+
+## Kontroll efter åtkomstcheckpointen
+
+- `node scripts/validate-genealogy.mjs`: godkänd med 1 647 påståenden,
+  1 163 Markdownposter och 1 037 mediefiler.
+- `jq empty wotan/backlog.json`: godkänd.
+- Huvudrevisionen genom djup 5: förväntad icke-nollstatus med 66 kända
+  anor, 16 anspetsar och tio utan giltig slutstatus.
+- P-0210-revisionen genom djup 4: förväntad icke-nollstatus med 42 kända
+  anor, tio öppna anspetsar inom djup 4 och tolv registrerade
+  gränspersoner på djup 5.
+
+## Prövad återaktivering
+
+Ägaren gav därefter uttryckligt tillstånd att öppna ett nytt
+Chrome-fönster. Pluginens dokumenterade återställningssteg öppnade
+`about:blank` i samma `Default`-profil och styrkopplingen prövades igen efter
+föreskriven väntan. Den rapporterade fortfarande att Chrome inte var
+tillgängligt. Riksarkivets faktiska inloggningsstatus kunde därför inte
+kontrolleras och ingen Indal-bild lästes.
+
+Den tidigare återaktiveringsvägen är nu uttömd. Nästa säkra steg är att
+ägaren ominstallerar Browser-pluginen från ChatGPT/Codex plugin-gränssnitt
+och meddelar när Chrome-kopplingen är klar. Riksarkivets egen inloggning
+behöver inte antas vara förlorad. T-0012 ska sedan fortsätta på samma
+Indal-checkpoint utan källbyte.
+
+## Sandboxhypotesen prövad
+
+På ägarens invändning verifierades gränsen uttryckligen. Det nya
+Chrome-fönstret hade redan öppnats med ett upphöjt kommando utanför
+sandboxen. Därefter kördes även kontrollerna av installerade webbläsare,
+Chrome-tillägget och native-host-manifestet utanför sandboxen. Samtliga
+godkändes: Chrome 151 fanns och kördes, tillägg
+`hehggadaopoacecdllhhajmbjkdcmajg` var installerat och aktiverat i
+`Default`, och manifestet pekade på rätt host med korrekta origins.
+
+Hostprogrammet kontrollerades också utanför sandboxen. Det fanns på den
+manifesterade sökvägen, var körbart, var ett arm64 Mach-O-program och hade
+en giltig Developer ID-signatur från OpenAI OpCo, LLC. Browser-brokern
+rapporterade ändå en tom lista över anslutna browserinstanser.
+
+Sandboxen är därmed inte en belagd orsak. Det avgränsade felet ligger i
+handskakningen mellan det aktiverade Chrome-tillägget/native host och
+browser-brokern. Ominstallation är pluginens dokumenterade nästa
+återställningsåtgärd, inte bevis för att installationsfilerna är felaktiga.
+Ingen Riksarkivsida eller annan källa lästes under diagnosen.

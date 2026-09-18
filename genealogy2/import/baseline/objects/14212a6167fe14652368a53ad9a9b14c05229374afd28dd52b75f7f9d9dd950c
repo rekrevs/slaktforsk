@@ -1,0 +1,299 @@
+# T-0060: Identifiera Augustas familj i föregående Kyrkefallabok före1922
+
+**Status**: ONGOING | **Size**: M
+**Phase**: DOING
+
+## Context
+
+PCD-2026-09-05-010, [Project Control](../../PROJECT-CONTROL.md).
+P-0021 på närmaste öppna djup5. Redan lästa poster upprepas inte.
+
+## Scope
+
+Utgå från C-0873, A II a/12 sida623, namngiven PerVilhelm/Augusta/
+Alva/Svenfamilj. Identifiera den närmast föregående boken före1922
+med bevarad fond-OAI, originalregister och samma hushållsnycklar.
+Första ortledet i[…]haga måste läsas säkert innan normalisering;
+anta inte att sidnummer623 är konstant. Läs högst ett positivt
+föregående familjehushåll och högst en explicit bakåthänvisning för
+Augusta till ytterligare originalpost. Ingen blind födelsebokssökning.
+Kunskapsresultat: tidigare bostad/inflyttning, patronymikon eller
+ursprungsbrygga som kan skilja Mofallakandidaten; annars exakt avgränsning.
+
+Utanför: obegränsade kedjor, Mofallakandidatens vidare anor, orelaterade
+familjer, beställningar, meddelanden, kontoköp, PDF, publicering, commit/push.
+Sidopersoner bevaras endast inom relevanta målgrupper och med dataminimering.
+
+## Acceptance Criteria
+
+- [ ] Exakt metadata-/register-/bildrouting och faktiskt läst omfång bevarade.
+- [ ] Högst två positiva direktposter lästa, eller konkret åtkomst-/källhinder
+  med relevanta alternativ och exakt återstart dokumenterat.
+- [ ] Identitet, kunskapsresultat och kvarstående konflikt redovisade;
+  ingen osäker föräldrakant propagerar.
+- [ ] Original/avskrift/SHA, personakt/frontier/matris och en enda batch konsoliderade.
+- [ ] Relevanta validatorer, regressioner och mediekontroller godkända;
+  fortsatt saklig passage avgränsad före avslut.
+
+## Approach
+
+Återanvänd bevarade källor. MCP först vid ny metadata, därefter exakt
+original enligt method-riksarkivet.md. Vid utloggning: spara exakt
+bild/syfte/nästa steg, meddela ägaren och fortsätt annat godkänt arbete
+som inte beror på sessionen. Policyblockerad downloads-sida får inte kringgås.
+
+## Omfångsändring 2026-09-06, motiverad av ny evidens
+
+Uppgiften hette `Identifiera Augustas familj i föregående Kyrkefallabok före
+1922`. Batch 392 visar att **premissen inte håller**: Augusta kom till
+Kyrkefalla först 1930 och växte upp vid **¼ mtl Bjerg i Mofalla**. Den
+föregående Kyrkefallaboken kan alltså inte identifiera **hennes** familj —
+den gäller familjen Eliassons bostad, vilket är en annan och fortsatt giltig
+fråga.
+
+Det avgörande steget är i stället **Mofalla `A I/4`**, infört som KP-05 hos
+P-0021. Det är det som utförts här. Det äldre Kyrkefallasteget kvarstår som
+ett separat delmoment.
+
+## Utfört — Mofalla A I/4, 2026-09-06
+
+`SE/GLA/13373/A I/4`, husförhörslängd 1862–1876, reproduktion `C0051781`,
+bild `_00024`, **sida 18, `1 Roten. Bjerg`** — samma sidnummer som i A I/5.
+
+**Första hustrun:** `H:u Larsdotter Maja Greta`, född **1824-03-28**,
+överstruken. Johannes Eriksson gifte om sig **1870-12-01**.
+
+**Och därmed föll födelsenotisen på plats.** Mofallas födelsebok 1863,
+**post 10** den 24 juni, anger modern `Larsdotter Maja Greta`, **39 år**, och
+**folio 18**. Maja Greta var 39 år den dagen, och folio 18 är Bjerg.
+
+**Augusta Victoria föddes 1863-06-24 i Mofalla.** Datumet är för första
+gången belagt i en födelsebok, och identitetsläget går från `OLÖST` till
+`OMSTRITT`.
+
+**Kvar står en enda konflikt:** notisen skriver fadern `Rotte, Eric, Soldat i
+Atteby`, hushållsboken `Eriksson Johannes`. Samma mor, samma folio, samma
+hushåll. Ett soldatnamn förklarar det utan svårighet men är **inte belagt**
+och infereras inte.
+
+**Två egna rättelser samma dag.** A-3687 är upphävd — Christina Andersdotter
+var inte Johannes Erikssons hustru, och Mofallas post 9 har folio 32, ett
+annat hushåll. Och dittohypotesen i C-0992 dras tillbaka: A I/4 ger systern
+Anna Sofias dag som `²/₆ 1857`.
+
+**Ny syster:** `Thilda Augusta, född 1861-10-12`.
+
+Bokfört i
+[C-0999](../../genealogy/citations/C-0999-mofalla-AI4-sida18-bjerg-forsta-hustrun.md),
+A-3708–A-3712, A-3687 → `REJECTED`,
+[batch 399](../../genealogy/research-log/2026-09-06.md#batch-399--t-0060-första-hustrun-funnen-och-augusta-victorias-födelsenotis-identifierad).
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07 efter att nästa generation införts i modellen.
+- Utfört: **Mofalla A I/4 sida 18** — första hustrun funnen och
+  födelsenotisen identifierad. Identitetsläget `OLÖST` → `OMSTRITT`.
+- Nästa ej utförda steg, i prioritetsordning:
+  1. ~~Soldatnamnshypotesen.~~ **Prövad och motbevisad 2026-09-06** (batch
+     400, C-1000). A I/3:s soldatförteckning gav `Roth, pag. 306`, och sida
+     306 visar `W.G. N:o 100 Soldat Erik Jansson Roth`, född 1825-09-20,
+     **gift med Cajsa Lisa Svensdotter**. Två skilda män. Omgifte före juni
+     1863 är också uteslutet: Mofallas vigselbok 1862–1864 saknar dem, och
+     Cajsa Lisa lever genom hela A I/3.
+  2. ~~Bjerg i Mofalla `A I/3`.~~ **Sidan kunde inte lokaliseras** och
+     **steget behövs inte längre** (A-3719, A-3718). Folionumret 18 i
+     födelseboken kan bara avse A I/4, som börjar 1862 och numrerar från 1;
+     A I/3:s sidor ligger i 290-talet. Maja Greta står som `h.` i A I/4:s
+     hushåll före strykningen, och moderns ålder i födelseposten stämmer.
+     **1863 års hushållstillhörighet är därmed besvarad.**
+  3. ~~Äktenskapets ramar.~~ **Vigseln funnen 2026-09-06** (batch 401,
+     C-1001): Kyrkefalla `E/1`, som omfattar även Mofalla 1807–1850, sida
+     109, `Vigde År 1848` post 8 — `Drängen Johannes Ericsson, 28,
+     hemmanson fr. Bjerg` och `Pigan Maria Greta Larsdotter, 24`, **vigda
+     1848-06-23**. Augusta Victoria föddes femton år in i äktenskapet, och
+     födelseposten bär ingen oäkta-markering. Konflikten står därmed i sin
+     skarpaste form.
+  4. ~~Maja Greta Larsdotters dödspost.~~ **Läst 2026-09-06** (batch 402,
+     C-1002). Mofalla har en egen `F`-serie; `F/2` sida 6, 1868 post 8:
+     `Larsdotter Maria Greta, Hustru till Kyrkovärden Johannes Ericson i
+     Bjerg`, **död 1868-09-27**, 44 år 5 mån 29 dgr, gift, folio 18.
+     Äktenskapets ramar är därmed slutna och **moderskapet belagt i tre
+     oberoende poster**. Fadersfrågan är oförändrad.
+  5. ~~Personakt för Maria Greta Larsdotter.~~ **Utfört 2026-09-07**
+     (batch 405). [P-0536](../../genealogy/people/P-0536-maja-greta-larsdotter.md)
+     med [full profil](../../genealogy/research-profiles/P-0536.md):
+     kontraktsgranskning **UNDERKÄND**, fem EJ STYRKT, därför att ursprunget
+     saknas. Mofallas och Kyrkefallas hela årgångar 1824 är genomsökta på
+     **dag och namn**: en noll och en kandidat med sex dagars avvikelse
+     (`Maria Greta` f. 22 mars, far rusthållaren Lars Pettersson).
+     Kandidaten görs **inte** till identifiering.
+  5b. ~~Slå upp orten `Wolebäck`.~~ **Utfört 2026-09-07** (batch 406,
+     C-1006), med ett annat resultat än väntat: orten finns inte, och
+     **avskriften var fel**. Vigselposten lästes om i närbild och lyder
+     `Rusth. D. fr. **Årebolet**` — rusthållardotter från Årebolet i
+     Kyrkefalla. Kontrollen är `Wallbäcken` i post 7 på samma sida. Därmed
+     sammanfaller **sex** uppgifter med kandidaten och **en** avviker
+     (dagen). Slutsatsen är **`STÖDD`, inte fastställd**; ingen anlinje förs
+     vidare och inga föräldraakter skapas.
+  5c. **Sista steget för P-0536, påbörjat 2026-09-07** (batch 407).
+     Årebolet är **inte funnet**, men `A I/6` är kartlagd (S-0766):
+     Kyrkefallas rote 1 ligger på **bilderna 1–39 och är inte genomsökt**,
+     rote 2–5 på 40–167 med ett trettiotal orter lästa, Mofalla på 168–205.
+     Därtill öppnades **Kyrkefalla `B/3`** (1836–1850, `C0052880`, S-0767),
+     som omfattar även Mofalla och är **enda flyttningskällan för Mofalla
+     före 1861**; 1848 ligger på bilderna 36–38 och utflyttade posterna
+     47–74 är lästa utan träff.
+     **Avslutat 2026-09-07** (batch 408, C-1007). Ingen av de två planerade
+     vägarna behövdes: `A I/6` har ett **maskinskrivet ortregister på
+     bilderna 10–12** som ger `Årebolet 282`. Hushållet på sida 283 är
+     `Lars Pettersson` f. 1791, änkan `Stina Jansdotter` f. 1799 i Varola,
+     och dottern `Maja Greta` f. mars 1824 med avgången **`48. Bjerg`**.
+     **Ursprunget är fastställt**, födelsedatumet rättat till **1824-03-22**,
+     och P-0536 går till `VERIFIERAD`.
+  5d. ~~Personakter för föräldrarna.~~ **Utfört 2026-09-07** (batch 409).
+     [P-0537](../../genealogy/people/P-0537-lars-pettersson-arebolet.md) och
+     [P-0538](../../genealogy/people/P-0538-stina-jansdotter-varola.md) med
+     profiler; båda `UNDERKÄND`, båda **utan `## Slutstatus`** eftersom deras
+     fronter aldrig prövats. P-0536 fick `Arbetsläge` i indikatorns format
+     och är inte längre en anspets. Måttdelta: djup 6 granskade 57→58,
+     osökta fronter 39→38, djup 7 kända 42→44.
+  5e. **Kvar för tråden, i värdeordning:** **(1) Varolas födelsebok omkring
+     1799** (`P-0538/KP-01`) — födelseförsamlingen står utskriven och datumet
+     är exakt; arkivet är ännu inte lokaliserat. **(2)** Kyrkefallas
+     födelsebok omkring 1791 för Lars Pettersson (`P-0537/KP-01`).
+     **(3)** Vigseln omkring 1820. **(4)** Bouppteckningar i Kåkinds härad
+     efter 1847 och efter 1868. **(5)** Personakt för maken Johannes
+     Eriksson. **(6)** Mofallas kyrkorådsprotokoll kring 1863.
+  6. ~~Fadersuppgiften mot Roths egna källor.~~ **Delvis utfört 2026-09-07**
+     (batch 403, C-1003). Födelseposten lästes som blankett: `C/4` har ingen
+     äkta/oäkta-kolumn, och hemvistkolumnen bär i post 9 och post 10 **två**
+     värden. Båda sidhänvisningarna slogs upp och träffade rätt på moderns
+     rad — pag 18 = Bjerg där Augusta Victoria står, pag 32 = Svebråta
+     Sörgården där grannpostens barn står. Konventionen är därmed belagd:
+     siffran anger moderns och barnets sida, ortnamnet **den namngivne
+     faderns egen hemvist**. Roth fanns i Atteby i april 1863 (dopvittne,
+     post 7). Fyra läsningar uppräknade, ingen vald.
+  6b. **Kvar av samma steg.** Roths egen sida i `A I/4` är **inte
+     lokaliserad** — rote 1:s båda soldattorp (sida 3 `Dunkebackens` och
+     sida 20 `Bjergs`) innehas av andra män och volymen slutar utan register.
+     **Flyttningsvägen är prövad och gav noll** (batch 404, C-1004): Mofallas
+     `B`-serie hittades, `B/1` 1861–1894 är digitaliserad och ger folio i
+     husförhörsboken, och hela 1862 och hela 1863 års utflyttningar är lästa
+     utan träff. Kvar i tur och ordning: **(1)** `F/2` 1862–1876 läst på
+     namnet Roth, **(2)** resten av `B/1` 1864–1876, **(3)**
+     **generalmönsterrullan för Västgöta regemente n:o 100**.
+  7. Det äldre Kyrkefallasteget: **A II a/8 sida 531, bild
+     `00081266_00261`**, valt före avbrottet 2026-09-05 men aldrig läst.
+     Det gäller familjen Eliassons bostad, inte Augustas ursprung.
+- Hinder: inga.
+
+## Verification
+
+Delverifiering efter sparat avbrott:2791 påståenden,2113 Markdownposter,
+giltig Wotan; media4667 poster,2743 exakta och14 ärvda olänkade;
+diff utan fel. Inga nya genealogiska påståenden. Slutverifiering och
+båda positiva personpassagerna återstår.
+
+Sessionskontroll: dashboard ombyggd,15/15 regressionstester godkända,
+validator och mediemanifest godkända, git diff --check utan fel.
+Målindikatorer körda: registrerat djup4, djup5 källbredd30/32; detta
+bevisar inte fullständighet, särskilt inte efter Arne-stickprovet.
+Arbetsfilerna är sparade lokalt; ingen commit eller push utförd.
+
+## Outcome
+
+Pågående.
+
+Ägarstyrning PCD-2026-09-05-012: T-0061 har uttryckligt företräde för
+det begränsade metodtestet. T-0060 förblir ONGOING med sparad531-punkt;
+ingen ny Kyrkefallaforskning inom testet.
+
+
+T-0061-verifiering: validatorn tillåter endast en ONGOING-uppgift.
+T-0060 står därför tillfälligt READY under pilotens slutkontroll enligt
+ägarens företrädesbeslut. Checkpoint sida 531/bild 261 är oförändrad.
+Efter T-0061 DONE återställs pågående återupptagningsläge utan att någon
+ny bild läses innan pilotresultatet har redovisats.
+
+
+Efter T-0061 DONE: ONGOING/DOING återställt. Pilotresultatet ska redovisas
+innan fortsatt arbete. Kyrkefalla sida 531/bild 261 är fortfarande exakt
+nästa olästa bild i denna uppgift; inga original lästes under metodtestet.
+Arnes omprövade källbredd på djup 3 tas med vid senare styrbedömning,
+men denna uppgifts godkända avgränsning och checkpoint bevaras.
+
+
+## Ägarstyrd ordning 2026-09-05 — T-0062
+
+Ägarens implementation av hela forskningsprogrammet har företräde. T-0060
+är READY under T-0062, inte blockerad av sessionsslut. Checkpointen för
+A II a/8 sida 531, bild 261 är oförändrad och oläst. Ny uppgiftsordning
+fastställs inom T-0062; inget Kyrkefallaarbete utfört genom denna ändring.
+
+
+## Återupptagning — programinförande PCD-2026-09-05-013
+
+- Uppdaterat: 2026-09-05 under T-0062.
+- Utfört: äldre C-0875/batch 290 och exakt checkpoint består; inga nya original lästa.
+- Delvis utfört: lokaliserat Karlshaga Sörgård, familjen ännu inte identifierad.
+- Nästa ej utförda steg: efter T-0063/T-0064 och avstämning av närmare krav,
+  inför P-0021:s forskningsprofil från aktuell akt/belägg; återuppta sedan
+  visuell läsning av A II a/8 sida 531, bild 261,
+  https://sok.riksarkivet.se/bildvisning/00081266_00261. Ingen omstart av routingen.
+- Aktuella frågor: äldre familjehushåll och ursprungsbrygga; skapa Q-/KP-id:n
+  inom befintligt sakomfång, och bedöm hur eventuell ny nyckel öppnar andra vägar.
+- Hinder: BLOCKED av de uttryckligt prioriterade T-0063/T-0064, inte av sessionsslut.
+  Originalets tidigare direktbild-401 och inloggade reserv kontrolleras vid återstart.
+- Verifiering: äldre delkontroller består; nya slutkontroller återstår.
+
+Före DONE ska även personkontraktets berörda krav, full relevant utvinning,
+nya söknycklar och omprövade beroenden redovisas. Profilinförande innebär
+inte att uppgiftens begränsade familjepassage blir hela Augustas livsprojekt.
+
+## Avslut 2026-09-07 — kunskapsresultatet levererat, resterna omfördelade
+
+Uppgiftens fråga var Augustas familj i den föregående Kyrkefallaboken. Under
+2026-09-06 och 2026-09-07 flyttade den sig längre än så, och den är nu
+besvarad så långt uppgiftens omfång räcker.
+
+### Vad uppgiften åstadkom
+
+- **Augusta Viktorias identitet är löst** som person: född 1863-06-24 i
+  Mofalla, dotter till Maja Greta Larsdotter vid ¼ mantal Bjerg. Kvar är en
+  enda konflikt, fadersuppgiften, och den är uttömt formulerad och
+  uttryckligen olöst.
+- **Födelsepostens blankett är dechiffrerad** (C-1003): hemvistkolumnens
+  konvention är belagd på två poster, och blanketten har ingen oäkta-kolumn.
+- **Modern fick egen akt och fastställd härkomst** (P-0536, C-1005–C-1007):
+  född 1824-03-22 i Kyrkefalla, dotter till rusthållaren Lars Pettersson och
+  Stina Jansdotter vid Årebolet, utflyttad `48. Bjerg`.
+- **Två nya generationspositioner** infördes i modellen (P-0537, P-0538).
+- **Fyra tidigare okända serier öppnades:** Mofalla `B/1` och `C/2`,
+  Kyrkefalla `A I/6` och `B/3`, samtliga med källakt.
+- **Åtta forskningsbatchar**, 402–409, samtliga loggade en gång.
+
+### Måttdelta
+
+Djup 6 granskade 57 → 58 av 58; osökta fronter på djup 6 39 → 38; djup 7
+kända 42 → 44. Gemensamt djup står kvar på 5, blockerat av djup 6:s fronter
+och inte av denna gren.
+
+### Rester, omfördelade och inte kvarhållna
+
+Uppgiften växer inte vidare. Två efterföljare skapas i stället:
+
+- **T-0096** — fadersfrågan för P-0021: Roths egna källor och det äldre
+  Kyrkefallasteget `A II a/8` sida 531, bild `00081266_00261`, som stått som
+  checkpoint sedan 2026-09-05 och fortfarande är oläst.
+- **T-0097** — generationen bakom Årebolet: Varolas födelsebok 1799,
+  Kyrkefallas 1791, vigseln omkring 1820 och bouppteckningarna i Kåkinds
+  härad.
+
+### Verifiering vid avslut
+
+`node scripts/validate-genealogy.mjs` OK (3 236 påståenden, 2 410
+markdownposter, 4 836 mediefiler); `research-inventory.mjs` strukturfel 0;
+`media-manifest.mjs --check` OK; `node --test scripts/` 29 gröna;
+`git diff --check` rent.
+
+Status: **DONE**.

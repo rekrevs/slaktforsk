@@ -1,24 +1,39 @@
 # Repository instructions
 
+Genealogy2 is the authoritative knowledge model after T-0643's verified
+cutover (PCD-2026-09-16-001 and PCD-2026-09-17-001). Read
+`genealogy2/README.md`, its local instructions and `genealogy2/docs/working.md`.
+Use the controlled versioned write path for all new research and corrections.
+`genealogy/` is a preserved, read-only research archive; do not resume writing
+its dossiers, profiles, logs or derived inventories. Its retained quality and
+access requirements still apply as adopted below. The dashboard remains an
+older snapshot until the owner explicitly requests an update.
+
 Read the project's durable context before doing work:
 
 1. `README.md` for orientation.
 2. `NORTH-STAR.md` for the permanent objective and quality contract.
-3. `genealogy/README.md` for the evidence and knowledge model.
-4. `genealogy/research-plan.md`, `genealogy/person-contract.md` and
-   `genealogy/source-strategy.md` for the binding program, PK-01–12 outcome
-   requirements and source selection. Then `genealogy/frontier.md` and
-   `genealogy/source-coverage.md` for current research gates; read the selected
-   persons' dossiers and `genealogy/research-profiles/P-NNNN.md` when working them.
+3. `genealogy2/README.md` and `genealogy2/docs/working.md` for the current
+   evidence model, reading commands and controlled writing workflow.
+4. The substantive requirements in `genealogy/research-plan.md`,
+   `genealogy/person-contract.md` and `genealogy/source-strategy.md` remain
+   binding: balanced generations, PK-01–12, source selection and full extraction.
+   Their old file-format and update instructions are superseded by the native
+   workflow. Read the selected persons through `person`, `inspect` and their
+   current `research` objects. Use `context` for archived front, coverage and
+   source-path history; those frozen texts are not current execution state.
 5. `PROJECT-CONTROL.md` for approved owner decisions and exceptions.
 6. For task work, always read `wotan/README.md` before selecting, creating
    or resuming a task. Then read `wotan/backlog.json` and the selected
    `wotan/dev-log/T-NNNN.md`, including its latest `Återupptagning` section.
    Reading the skill alone does not replace this repository-local convention.
 
-Run `node scripts/goal-state.mjs` and `node scripts/research-inventory.mjs`
-for the separate pedigree and all-dossier review indicators.
-These do not prove the substantive fulfillment requirements in NORTH-STAR.md.
+Run `node genealogy2/cli.mjs inventory` and the default verified
+`node genealogy2/cli.mjs pedigree <P-id>` for current review and pedigree views.
+Read full person details and source-path assessments for substantive coverage.
+The old goal-state and research-inventory scripts describe only the frozen
+archive; never run their write modes to refresh it. No indicator proves the
+substantive fulfillment requirements in NORTH-STAR.md.
 Use canonical evidence and decisions, not chat history, to resolve discrepancies.
 
 Update the dashboard (including its data snapshot) only when the owner explicitly
@@ -38,26 +53,31 @@ Do not start research outside an active, approved, bounded Wotan task. Research
 tasks follow the nearest substantively untreated generation, balanced between
 both sides, including disputed closures before deeper or already well-documented
 branches. Give each task explicit scope, exclusions and verifiable outcomes;
-split new work instead of growing an unlimited task. Log each research batch
-once, in `genealogy/research-log/`.
+split new work instead of growing an unlimited task. Record each research batch
+once through its genealogy2 operation and durable journal; include the task id
+and acceptance criterion, and link that operation from Wotan.
 
 Apply the person contract to new, partial, disordered, disputed, previously
 closed and side-person dossiers, **at the level the task works on**. The
 contract has two completion levels (`person-contract.md`, "Två färdignivåer"):
 the identity level (PK-01, 02, 05, 07, 09, 11, 12) is the pedigree's gate and
-is recorded in `Identitetsgranskning` and `Trädverkan`; the life-picture level
-(PK-03, 04, 06, 08, 10) including the ten themes may lag and is recorded in
-`Kontraktsgranskning`. A front task that ends with the identity level approved
+uses `identity_review/1` and `tree_effect/1`; the life-picture level
+(PK-03, 04, 06, 08, 10), including the ten themes, may lag and uses
+`life_picture_review/1`. Older explicit Identitetsgranskning/Trädverkan
+headers remain readable without new approval. Legacy Kontraktsgranskning
+retains its original full-contract scope; it is not a new native life review.
+A front task that ends with the identity level approved
 and the life picture untouched is complete, not half-done. Never let a line of
 descent pass a person whose `Trädverkan` is not `BÄRANDE`, and never merge the
 two levels into one measure. Reuse sufficient existing research; never
 auto-convert legacy GRANSKAD/KLAR to a passed contract review. Every touched
 research dossier gets a profile or an explicit bounded adoption step in the
-current task. Assess the ten life themes at the life-picture level, preserve
+current task, represented in native research objects rather than new Markdown
+files. Assess the ten life themes at the life-picture level, preserve
 full relevant extraction from every record actually opened, track source paths
 by time/place/coverage, and use new search keys to reassess dependencies across
-affected people. Profiles and the derived inventory hold
-knowledge/review state only; Wotan alone schedules and resumes execution.
+affected people. Native research objects, their profile views and the derived
+inventory hold knowledge/review state only; Wotan alone schedules and resumes execution.
 Task DONE, accepted ancestry, rich biography and source exhaustion are distinct.
 
 During an explicitly continuous north-star run, an empty or blocked queue calls

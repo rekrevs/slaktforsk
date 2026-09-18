@@ -1,0 +1,73 @@
+# T-0046: Treat the Sannerby depth-8 couple
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+T-0045 made depth 7 fully treated. `PCR-2026-09-04-018` and delegated owner
+decision `PCD-2026-09-04-020` select the only known depth-8 front:
+
+- P-0226 Erik Larsson and P-0227 Brita Andersdotter in Sannerby.
+
+The exact first route is Årdala A I/3's older Sannerby section. New parents
+may be registered as minimal depth-9 people but are not researched further.
+T-0034 remains a separate parked living-person corroboration pass.
+
+## Acceptance Criteria
+
+- [x] The older Sannerby household is read or its exact access boundary is
+  documented.
+- [x] Each target has verified parent relation(s) or a valid `## Slutstatus`
+  with reproducible scope and exact reactivation condition.
+- [x] No uncertain identity, approximate year or relation propagates.
+- [x] New depth-9 parents remain minimal and unresearched in this task.
+- [x] Both dossiers are `GRANSKAD`, `Källbredd: KLAR` and have no
+  priority-1 source-family cell.
+- [x] One research-log batch, standard validators, tests, media check,
+  dashboard build and balanced audit are complete.
+
+## Approach
+
+Read the exact A I/3 Sannerby route first, then follow only person-bound keys.
+Keep the couple together and stop before broad birth-year searches or
+unverified depth-9 propagation.
+
+## Log
+
+- 2026-09-04: Created and started from the verified post-T-0045 goal-state.
+- 2026-09-04: Read the complete older Sannerby section, pages 166–172, with
+  page 173 as the next-place boundary. Preserved the manifest and nine
+  fulloriginals under C-0863.
+- 2026-09-04: Kept Erik born 1770 in Lars Jonsson's household as an
+  unpropagated candidate. The target couple is absent from the complete
+  section; DDS returned no usable marriage hit and C/2 access returned 403.
+- 2026-09-04: Closed both dossiers with reproducible identity terminals and
+  completed research-log batch 271. Verification started.
+
+## Verification
+
+`node scripts/goal-state.mjs` shows the fixed depth-8 delta: both known
+people are now reviewed and coverage-ready, invalid fronts fall from two to
+zero and common treated depth rises from 7 to 8. No parent or person was
+created.
+
+`node scripts/validate-genealogy.mjs` passes with 2,739 assertions, 2,079
+Markdown records and 4,523 media files including `.gitkeep`.
+`node scripts/verify-pedigree.mjs` passes with 87 independently reviewed
+ancestors. All 11 script tests pass. The media manifest passes with 4,522
+substantive files: 2,612 exact, 1,882 source-scoped and 28 citation-scoped,
+none unlinked. Dashboard test and production build pass with 518 people,
+2,739 assertions and 547 parent links.
+
+Both bounded ancestor audits through depth 8 exit zero: P-0004 has 43
+archive-front tips and P-0210 has 36, all with valid terminal status.
+`git diff --check` passes.
+
+## Outcome
+
+Completed as research-log batch 271. The complete older Sannerby section
+does not bridge the target couple backward. Erik born 1770 to a household
+headed by Lars Jonsson remains an explicit unpropagated candidate; both
+targets have reproducible identity terminals. Project Control checkpoint
+`PCR-2026-09-04-019` closes the reachable ancestry wave without inventing a
+new task.

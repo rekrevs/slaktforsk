@@ -1,0 +1,135 @@
+# T-0117: Jomarkfamiljen efter korrigerade dödsbelägg
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Pilotföljd: C-1044/C-1045 död/födelse, C-0049 barn, C-0072 hushåll1910 och C-0044 sidhänvisning. Håll familjen samman utan ny forskning.
+
+## Kohortmedlemmar
+
+P-0050, P-0048, P-0052, P-0053, P-0057
+
+## Scope och underlag
+
+Exakt dessa 5 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 63 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0043, C-0044, C-0046, C-0048, C-0049, C-0112, C-0144, C-0184, C-0185, C-0193, C-0194, C-0195, C-0196, C-0197, C-0413, C-0433, C-0569, C-0825, C-0826, C-0878, C-0889, C-0891, C-0920, C-0968, C-0969, C-0970, C-1044, C-1045.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+2026-09-07, `person-dossier/v1`/`person-research/v1`; underlag och
+saklig eftergranskning per person i [batch521](../../genealogy/research-log/2026-09-07.md#batch-521--t-0117-jomarkfamiljens-konsolidering).
+
+| Person | Format/konsolidering | Identitetsnivå / full nivå | Rättelser och gränser |
+|---|---|---|---|
+| P-0050 | granskad | UNDERKÄND/AVVAKTAR / UNDERKÄND | Födelse/dödpositiva; moderns27/36årkonflikt. C-1045/C-0049 utvinningslucka; T-0205/T-0207. |
+| P-0048 | granskad | UNDERKÄND/AVVAKTAR / UNDERKÄND | Vigsel3maj, mantal¹/₁₆, militärnyckel, ungdomslucka och gammalt åtkomsthinder rättade; T-0205/T-0207/T-0208. |
+| P-0052 | granskad | UNDERKÄND/AVVAKTAR / UNDERKÄND | Positivt1910familj2, avgränsatsektionsnoll; C-0049 utvinningslucka och egenfödelse/livskedja; T-0205/T-0206. |
+| P-0053 | granskad | UNDERKÄND/AVVAKTAR / UNDERKÄND | Folio8521905synligt; målpost/födelse/livskedja återstår; T-0205/T-0206. |
+| P-0057 | granskad | UNDERKÄND/AVVAKTAR / UNDERKÄND | Härlett patronymikon, inga falska vuxenfakta; C-0049utvinning/egenfödelse; T-0205/T-0206. |
+
+## Verification och Outcome
+
+Verifierat: format5/5, täckning538/538 utan fel, validator3617assertions/2598Markdown,
+inventering104profiler0strukturfel, tester50/50, media5009, diffcheck utan fel.
+Saklig separat efterkontroll och rättelser dokumenterade i batch521.
+P-0049:s fullnivå underkänd på konkret ekonomisk originalväg; identitetsnivån
+oförändrad tills T-0155. Totalt54identitetsgodkända och10fullgodkända.
+Registrerat gemensamt djup5 är en indikator och godkänner inte dessa
+nyupptäckta kontraktsluckor. Fem akter färdiggranskade inom omfånget;
+personerna är inte fullständigt utforskade.
+
+## Återupptagning
+
+- Uppdaterat:2026-09-07.
+- Utfört: samtliga kriterier verifierade, batch521, boundedföljder T-0205–T-0208.
+- Nästa ej utförda steg: T-0118, Årebolets P-0536/P-0537.
+- Hinder: inga.
+
+## Körstart 2026-09-07
+
+T-0114 verifierad DONE. Börjar individuell konsolidering mot befintliga belägg.
+
+## Avgränsad följdpåverkan inom sakgranskningen
+
+För att inte lämna kända fel aktiva omfattar denna uppgift även minimala
+följdrättelser i P-0049 (vigsel, fastighetsomfång, dödsort och hinderbeskrivning)
+och P-0230/P-0231 (moderns källbundna ålderskonflikt). Deras fullständiga
+format-/PK-granskning ligger kvar iT-0155/T-0165/T-0167. P-0230/P-0231 får
+profilinförande där om profil saknas. Detta utökar inte arkivsökningarna.
+Följdfynd till dottern P-0002 ligger namngivet iT-0149; ingen ny person skapas.
+
+## Inkommen observation från T-0155, 2026-09-08
+
+**Ett registrerat nollresultat för P-0051 och P-0052 är felaktigt.** C-0414 och
+P-0051:s A-2126 säger att Barbro Kristina Olofsdotter inte står på folio 1130.
+Den lokalt sparade helbilden till C-0413, `00203749_00082`, visar henne på
+**rad 11**: `Anders Anderssons änka / Barbro Kristina Olofsdotter, f. hem.äg.,
+30 ²⁴/₂, Löfånger, v, gift 60 ⁵/₇, änka 99 ²³/₆`, med dödskolumnen `²³/₅ 13` —
+identisk med dödbokens 1913-05-23 i C-0569. Rad 12 bär `d. Katarina Johanna,
+65 ¹¹/₅` med dödskolumnen `²⁷/₁₀ 18`.
+
+Orsaken är att C-0413:s avskrift bara täcker raderna 1–3; nollet prövade alltså
+avskriften och inte uppslaget. Båda citationerna har fått daterade tillägg.
+Kontrollera när kohorten arbetas att ingen slutsats i P-0051:s eller P-0052:s
+akter vilar på frånvaron, och utvinn de två raderna för respektive person.
+
+## Inkommet från T-0165, 2026-09-09
+
+**P-0050 Anders Anderssons flyttdag står i källan, inte bara året.**
+Bygdeå A I/9a ger `Bygdeå ⁸/₆ 1860` i kolumnen `Hvarthän.`; akten och C-0196
+bär i dag bara året 1860. Åttan har samma dubbelögleform som åttan i `1860` på
+samma rad, alltså samma hand och samma cell.
+
+Uppgiften kommer ur en bild som redan ligger under `genealogy/media/` och är
+inte införd i akten — den kräver den individuella granskningen här.
+
+## Inkommande följdfynd från T-0167, 2026-09-09
+
+**P-0050 har fått ett avgränsat tillägg:** hans utflyttningsdag står i
+föräldrahushållets längd. Kolumnen `Hvarthän.` på hans barnrad i Nysätra
+A I/9a sida 85 har `Bygdeå ⁸/₆ 1860.` C-0196:s avskrift återgav bara
+`anteckningen Bygdeå och 1860`; dagen var oläst. A-7307 tillkommer och A-0249:s
+kommentar är preciserad.
+
+**Den 8 juni 1860 ligger knappt en månad före vigseln med Barbro Olofsdotter
+den 5 juli 1860 i Bygdeå** — en oberoende bekräftelse av flyttkedjan. Uppgiften
+är avlämnande församlings egen; Bygdeås inflyttningsdatum och attestnummer
+återstår, och A-1390:s avgränsade noll i Bygdeå B/2 1860 gäller fortfarande.
+
+Samma uppslag gav modern P-0231 hennes **dödsdatum** `död ²³/₄ 1862`, som var
+oläst och som akten helt saknade, och brodern P-0236 hans **hustru och två
+barn**. Båda är införda i respektive akt, som är konsoliderade i T-0167.
+
+Moderns ålderskonflikt i C-1045 är oförändrad och ägs fortfarande av
+[T-0205](T-0205.md). Det nya underlaget är att A I/9a upprepar hennes
+födelsetid `23/9 1798` på hennes egen rad — men de två längderna är en
+bokkedja och inte två oberoende röster, vilket är utskrivet i P-0231:s
+A-7222 och i profilens Q-01.

@@ -1,0 +1,128 @@
+# T-0197: Konsolidera befintliga akter, fristående sidopersoner/kandidater från P-0409
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0409, P-0412, P-0414, P-0421, P-0432, P-0433, P-0434, P-0435
+
+## Scope och underlag
+
+Exakt dessa 8 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 13 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0322, C-0323, C-0388, C-0512, C-0521, C-0530, C-0552, C-0561, C-0562, C-0571, C-0573, C-0574, C-0600, C-0645.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Utfört 2026-09-10, `person-dossier/v1` och `person-research/v1`.
+**Ingen ny arkivåtkomst.** **Samtliga tolv ursprungliga assertioner står kvar
+med oförändrad lydelse**; åtta nya förda, **A-7938–A-7945**.
+
+| Person | Format | Konsolidering | Identitetsnivå | Full nivå | Rättelser och gränser | Följdägare |
+|---|---|---|---|---|---|---|
+| P-0409 Katarina Petronella | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Överstruken rad — men heuristiken får inte överföras hit**, se P-0432. **Två citationer, en informationsväg.** A-7938. | T-0615 |
+| P-0412 Andreas Jacobsson | v1, 0 fel | **AVSKRIVEN UPPGIFT** | UNDERKÄND, `OLÖST`, `EJ BÄRANDE` | UNDERKÄND | **PCD-2026-09-10-031 tillämpad i alla tre lägen.** **Det avvisade var en läsning, inte en person.** **`Relationer` saknades helt — infört.** A-7939. | ingen — vägen stängd av ägarbeslut |
+| P-0414 Anna Lovisa Andersdotter | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **`ingift faster` om en man är en omöjlig släktskapsutsaga — rättad till `svåger[?]`.** **Dottern införd i tabellen.** **`Korroborerar` nedtonat: tre hushållsböcker kan ha övertagit uppgiften.** A-7940. | T-0616 |
+| P-0421 Ingrid Brita Nordlund | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **C-0530 saknar bevarad fullbild** — varje omläsning kräver ny arkivåtkomst. **Flyttuppgiften Stöde→Sättna utskriven.** A-7941. | T-0616 |
+| P-0432 Jonas Eugen Zingmark | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Motexemplet i renaste form: överstruken utan någon anteckning alls.** **Heuristiken falsifierad.** A-7942. | T-0616 |
+| P-0433 Olof Konrad Zingmark | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Överspelad `Forskningsstatus` avförd.** **`Frikallad` och emigrationen 1904 lästa mot varandra.** A-7943. T-0161:s uppskjutning infriad. | T-0616 |
+| P-0434 Nanny Olivia Zingmark | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Överstruken rad med ett dödsdatum i stället för en destination** — en av observationerna som falsifierar heuristiken. **Död vid 3½ år.** A-7944. | T-0616 |
+| P-0435 Carl Reinhold Zingmark | v1, 0 fel | full | **GODKÄND**, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Egen födelsenotis.** **Faderns barnaskara spänner 34 år**; fadern `Sold.` 1853 och `Bonde` 1884. A-7945. | T-0616 |
+
+### Metodresultatet: en läshjälp faller i sin fjärde socken
+
+**Överstrykningsheuristiken från T-0191 (Årdala) och T-0194 (Helgesta) är
+falsifierad som allmän regel.** Sävar `A I/8b` sida 756 har **två rader med
+avgångsanteckning utan strykning**, **en struken utan anteckning**, och **en
+struken med ett dödsdatum.**
+
+**Den avförs inte som läshjälp** — den höll i två socknar — **men den måste
+fastställas per volym och hand.** **Det är samma lärdom som T-0195 drog om
+åldersräkning**, och **två oberoende bekräftelser gör det till en
+metodregel: skrivarkonventioner är lokala.**
+
+**Följden slog omedelbart tillbaka inom kohorten:** P-0409:s och P-0407:s
+strukna rader i Indal `A I/12` **får inte längre tolkas med heuristiken.**
+
+### Ett andra mönster: formuleringar som inte följer med rättelsen
+
+**P-0433:s `Forskningsstatus` sade att en fråga var öppen som A-6403 i samma
+akt uttryckligen förklarat besvarad.** **Samma slags fel som C-0945 rättade
+internt i T-0144.** **Två fall i två akttyper:** **när en ny uppgift upphäver
+en gammal formulering måste formuleringen ändras, inte bara uppgiften läggas
+till.**
+
+### Ägarbeslut tillämpat
+
+**PCD-2026-09-10-031 är tillämpat på [P-0412](../../genealogy/people/P-0412-andreas-jacobsson.md)**
+i alla tre lägen som beslutet föreskriver. **Kontraktsfältens värden är
+oförändrade**, eftersom märkningen beskriver arbetsprioritet och inte
+kunskapsläge.
+
+### Citationstillägg
+
+Daterade och append-only, utan att någon avskrift skrivits om:
+**C-0552, C-0574, C-0600.**
+
+### Ny avgränsad uppgift
+
+**T-0616**, `BLOCKED` bakom T-0115. `next_id` är 617.
+
+## Verification och Outcome
+
+**Uppgifts-DONE beskriver inte någon persons fullständighet.** **En akt når
+godkänd identitetsnivå** — P-0435, med egen födelsenotis — och **samtliga åtta
+står `Kontraktsgranskning: UNDERKÄND`.**
+
+- `node scripts/person-format.mjs` för kohorten: **0 formatfel.**
+- `node scripts/research-inventory.mjs --write` och `--check`: **Strukturfel 0.**
+- `node scripts/validate-genealogy.mjs`, `node --test scripts/`,
+  `node scripts/media-manifest.mjs --check`, `node scripts/goal-state.mjs`:
+  körda vid uppgiftens avslut.
+- Batchen är loggad **en gång**, som batch 603 i
+  `genealogy/research-log/2026-09-10.md`.
+
+**Kvarstående gränser.** **Sju av åtta akter saknar egen originalhandling.**
+**Överstrykningsheuristiken är falsifierad** och får inte tillämpas utan att
+prövas per volym. **C-0530 saknar bevarad bild**, så P-0421:s varje omläsning
+kräver ny arkivåtkomst. **P-0414:s `svåger[?]` bär reservation** — den exakta
+släktledningen är inte läst.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-10.
+- Utfört: kohorten konsoliderad, åtta assertioner förda, tre citationstillägg,
+  ett ägarbeslut tillämpat och en ny uppgift skapad.
+- Nästa ej utförda steg: inga — uppgiften är DONE. Programmet fortsätter med
+  T-0198.
+- Hinder: inga.

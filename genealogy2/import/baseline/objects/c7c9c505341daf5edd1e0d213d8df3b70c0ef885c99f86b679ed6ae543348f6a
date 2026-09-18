@@ -1,0 +1,120 @@
+# T-0196: Konsolidera befintliga akter, fristående sidopersoner/kandidater från P-0399
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0399, P-0400, P-0401, P-0405, P-0406, P-0407, P-0408, P-0410
+
+## Scope och underlag
+
+Exakt dessa 8 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 8 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0274, C-0388, C-0390, C-0489, C-0491, C-0492, C-0510, C-0512.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Utfört 2026-09-10, `person-dossier/v1` och `person-research/v1`.
+**Ingen ny arkivåtkomst.** **Samtliga åtta ursprungliga assertioner står kvar
+med oförändrad lydelse**; åtta nya förda, **A-7930–A-7937**.
+**Ingen akt når godkänd identitetsnivå**, och skälet är gemensamt: **ingen av
+de åtta har en egen originalhandling.**
+
+| Person | Format | Konsolidering | Identitetsnivå | Full nivå | Rättelser och gränser | Följdägare |
+|---|---|---|---|---|---|---|
+| P-0399 Johan Almer Betuel | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Namnkonflikt `Betuel`/`Betnel` mellan original och register bevarad.** **`Handelsbitr.` och inskrivningsnummer `284 66/09` införda**, numret utan tjänstgöringsvärde. **Farmodern införd.** A-7930. | T-0614 |
+| P-0400 Alva Matilda Agensia | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Datum och ort ur skilda källor — två halvor, inte två belägg.** **Frånvaron 1890 läst som nolla.** A-7931. | T-0614 |
+| P-0401 Anna Adelia | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Vilar på två källor** — 1890 kan inte bära henne. **Elvaårsuppehållet hänvisat till moderns akt.** A-7932. | T-0614 |
+| P-0405 Lisa Stina Jonsdotter | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Filnamnet bär den avförda formen `christina`** — **femte fallet i programmet.** **Giftårscellen står på makens rad.** **Sättnasambandet fört som iakttagelse.** A-7933. T-0136:s uppskjutning infriad. | T-0615 |
+| P-0406 Lisa Cajsa | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Fyrtio dagar mellan föräldrarnas vigsel och hennes födelse.** **Hennes födelseort ger familjen ett andra flyttfönster**, och **`Sättna` blir en prövbar kandidat till det oläsliga `Hvarthän`-ordet.** A-7934. T-0136:s uppskjutning infriad. | T-0615; **följd anmäld till P-0316** |
+| P-0407 Nils Petter | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Överstruken rad — mönstret från två socknar pekar mot avförning, men utflyttningscellen är oläst.** **Fullpostprövning saknas.** A-7935. | T-0615 |
+| P-0408 Lars Olof | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Tre citationer, en informationsväg.** **Hans rad är inte struken** — en läst uppgift i kontrast till de två strukna. A-7936. | T-0615 |
+| P-0410 Erik Emanuel | v1, 0 fel | full | UNDERKÄND, `PRÖVAT`, `EJ BÄRANDE` | UNDERKÄND | **Två citationer, en informationsväg** — **den strängaste källkritiska följden i kohorten.** A-7937. | T-0615 |
+
+### Ett mönster som nu är fem fall
+
+**Rättelser når akttexten men inte filsystemet.** Programmet har nu funnit
+**fem akter vars filnamn bevarar en läsning texten själv har avfört**:
+P-0296-familjens blandade `Lundqvist`/`Lundkvist` (T-0194),
+[P-0332](../../genealogy/people/P-0332-charlotta-lovisa-alund.md) `charlotta`
+mot `Hedda` (T-0167),
+[P-0376](../../genealogy/people/P-0376-anna-cajsa-larsdotter.md) `anna-cajsa`
+mot `Stina Cajsa` (T-0134),
+[P-0060](../../genealogy/people/P-0060-johan-peter-lundstrom.md)
+`johan-peter-lundstrom` mot `Jonas Petter Johansson` (T-0142), och
+[P-0405](../../genealogy/people/P-0405-christina-jonsdotter.md)
+`christina-jonsdotter` mot `Lisa Stina Jonsdotter` (T-0136).
+
+**Inga byten görs i programmet** — de berör inkommande länkar och ligger
+utanför en kohortuppgifts mandat. **Namnform- och relationstabellerna bär de
+rätta formerna, och spärrarna är utskrivna som söknycklar.**
+**Ett samlat beslut om filnamnen hör till Project Control eller till en egen
+uppgift**, inte till en kohort.
+
+### Citationstillägg
+
+Daterade och append-only, utan att någon avskrift skrivits om:
+**C-0492, C-0510, C-0512.**
+
+### Nya avgränsade uppgifter
+
+**T-0614–T-0615**, båda `BLOCKED` bakom T-0115. `next_id` är 616.
+
+## Verification och Outcome
+
+**Uppgifts-DONE beskriver inte någon persons fullständighet.** **Ingen av de
+åtta når godkänd identitetsnivå**, och **samtliga står
+`Kontraktsgranskning: UNDERKÄND`.**
+
+- `node scripts/person-format.mjs` för kohorten: **0 formatfel.**
+- `node scripts/research-inventory.mjs --write` och `--check`: **Strukturfel 0.**
+- `node scripts/validate-genealogy.mjs`, `node --test scripts/`,
+  `node scripts/media-manifest.mjs --check`, `node scripts/goal-state.mjs`:
+  körda vid uppgiftens avslut.
+- Batchen är loggad **en gång**, som batch 602 i
+  `genealogy/research-log/2026-09-10.md`.
+
+**Kvarstående gränser.** **Ingen av de åtta har en egen originalhandling.**
+**Fem av sex Larssonsyskon saknar födelsenotis** trots att broderns är läst i
+samma serie. **C-0512:s fullpostprövning saknas**, så fem teman i tre akter
+vilar på **olästa kolumner, inte tomma.** **Kandidaten `Sättna` är en hypotes
+att pröva mot bokstavsformer**, inte en läsning.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-10.
+- Utfört: kohorten konsoliderad, åtta assertioner förda, tre citationstillägg,
+  två nya uppgifter och en anmäld följd till P-0316.
+- Nästa ej utförda steg: inga — uppgiften är DONE. Programmet fortsätter med
+  T-0197.
+- Hinder: inga.

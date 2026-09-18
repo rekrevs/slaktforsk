@@ -1,0 +1,64 @@
+# T-0524: Outvunna egna kolumnvärden i redan sparade bilder för P-0477, P-0478 och P-0479
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0173 enligt PCD-2026-09-07-026, efter T-0115.
+Ingen ny arkivåtkomst har gjorts vid registreringen.
+
+## Scope, underlag och stoppgräns
+
+[P-0477](../../genealogy/people/P-0477-lena-jonsdotter-walla.md),
+[P-0478](../../genealogy/people/P-0478-jan-larsson-anaset.md) och
+[P-0479](../../genealogy/people/P-0479-sara-lisa-jonsdotter-anaset.md).
+**Ingen arkivåtkomst behövs: samtliga bilder finns redan lokalt.** Uppgiften
+sluter namngivna luckor på livsbildsnivån, inte på identitetsnivån.
+
+T-0173 fann tre uppsättningar tryckta kolumner som är **outvunna, inte lästa
+och tomma**:
+
+1. **P-0477, Walla sida 80** i `C0007542_00090`. T-0141 fullprövade
+   **makens** egna fält på samma bild — kopporcell, inflyttningsfält,
+   läserkolumner, årsvisa tecken. Motsvarande kolumner på **hennes** rad är
+   inte utvunna: läskunskap, kunskapstecken, koppor och de årsvisa förhörs-
+   och nattvardstecknen.
+2. **P-0479, tre Degerfors-längder**: hennes rader i A I/2 sida 179, A I/3
+   sida 221 och A I/4 sida 262 — kolumnerna `Läser och förstår`,
+   `Naturs-gåfvor och Flit`, `Seder`, `Koppor` och årsblockens förhörs- och
+   nattvardstal.
+3. **P-0478, samma tre längder**: hans försvarstecken i A I/2:s
+   kunskapsgrupp och hans `Antekningar`-cell, samt hans `Hvarifrån`-cell i
+   A I/3.
+
+**Fasta gränser.** Läs **endast** dessa tre personers egna rader i de
+namngivna, redan sparade bilderna. Värdena är **råvärden** och normaliseras
+inte till betyg, datum, skolgång eller trosuppfattning. Redovisa varje tryckt
+kolumn som **avskriven, tom eller oläst** enligt person-standard.md, med
+rubrikraden läst i samma utsnitt som datacellen. Ett tomt fält som är läst
+skrivs ut som läst och tomt — inte som `—`.
+
+Utanför: årtalskonflikten, som ägs av T-0168 genom P-0473 A-7343; de tre
+bilder T-0495 äger; nya arkivsökningar; nya generationer; och alla passager i
+T-0519, T-0520 och T-0521.
+
+## Acceptance Criteria
+
+- [ ] Alla tre uppsättningar kolumner utvunna, med kolumnredovisning enligt
+      person-standard.md per uppslag och person.
+- [ ] Varje tidigare outvunnen kolumn nu antingen avskriven eller uttryckligen
+      **läst och tom**; inget kvarstående `—` för dessa celler.
+- [ ] Temana ARB och där tillämpligt HAL omprövade i de tre profilerna, med
+      `PK-05`-formuleringarna uppdaterade.
+- [ ] Inga råvärden normaliserade till betyg, datum eller omdömen.
+- [ ] Ingen ny arkivåtkomst; mediemanifestet oförändrat i antal filer.
+- [ ] Validator, inventering, formatkontroll och mediekontroll passerar.
+
+## Nästa ej utförda steg
+
+P-0477:s rad i den redan sparade `C0007542_00090`. Ingen hämtning behövs.
+
+## Blocker
+
+Inväntar personaktsprogrammets slutrevision **T-0115**. Uppgiften får inte
+startas före den, eftersom personaktsprogrammet äger de akter den rör.

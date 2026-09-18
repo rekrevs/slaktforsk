@@ -1,0 +1,338 @@
+# T-0007: Research the complete depth-3 ancestral wave and all encountered kin
+
+**Status**: ONGOING | **Phase**: DOING | **Size**: L
+
+## Context
+
+After depth 2 is closed, research all verified depth-3 ancestors in a balanced
+wave. Conditional lines may be investigated for identity and relationship
+evidence but must remain visibly conditional.
+
+## Acceptance Criteria
+
+- [ ] For every verified depth-3 ancestor, locate and cite birth/baptism, parents and relevant childhood household, or document the search gap.
+- [ ] Establish each forward parent-child relation independently of same-name similarity.
+- [ ] Capture spouses, every child, siblings, witnesses, sponsors and other explicitly related named people encountered in target records.
+- [ ] Preserve relevant full source images locally with stable names and checksums.
+- [ ] Record biographies, occupations, residences, migrations and name variants supported by the searched sources.
+- [ ] Update the frontier with every candidate depth-4 ancestor and mark conditional or ended lines.
+- [ ] Verify JSON, links, identifiers, image manifests/checksums and claim-to-citation coverage.
+
+## Approach
+
+Work one person to a documented checkpoint, then move across the generation so
+that no easy line outruns a closer unresolved line without an explicit reason.
+Use original church records as the core evidence and census/index/secondary
+trees as finding aids and corroboration.
+
+## Verification Plan
+
+- Validate `wotan/backlog.json` as JSON and enforce dependency/status consistency.
+- Check that every relative Markdown link resolves and every referenced P-, S- and C-id exists.
+- Recompute checksums for locally preserved images and compare them with citation metadata.
+- Manually audit each new parent-child link against the cited original record.
+- Confirm that negative searches and unresolved identity conflicts are recorded.
+
+## Log
+
+- 2026-08-19: Task created blocked on the depth-2 closure audit.
+- 2026-08-19: T-0006 completed and this task started. The seven verified
+  ancestors are P-0028, P-0029, P-0048, P-0049, P-0009, P-0015 and P-0016.
+  P-0010 remains a conditional identity/relationship line owned by T-0010.
+- 2026-08-19: Wave order begins with P-0048 Anders Alfred because his exact
+  birth date, parish, parents and childhood household are already tightly
+  localized. Next checkpoints will rotate across the other branches rather
+  than extending his line multiple generations ahead.
+- 2026-08-19: Located P-0048's birth entry in Bygdeå C/5, page 70, image
+  A0027066_00076, entry 78. The full image was saved; birth, baptism, parents,
+  Jomark residence, household reference and three named/initialed sponsors were
+  captured. P-0054–P-0056 preserve the sponsors with explicit paleographic
+  uncertainty. The `Cath.` versus `Christina` maternal name variant is recorded
+  as a conflict rather than silently normalized.
+- 2026-08-19: Followed the birth record's reference to Bygdeå A I/14b, page
+  591, image C0034028_00235. The childhood household independently confirms
+  P-0048's parents and adds sisters Margareta Euphrosyne (new P-0057),
+  Catharina Johanna and Anna Albertina. It also records the parents' marriage
+  on `60 5/7` (then normalized as 1860-05-07; corrected under T-0012 to
+  1860-07-05 from the original marriage entry), the father's move from
+  Nysätra in 1860, and the maternal name
+  form `Barbru Catharina`. The full image is preserved as C-0049. P-0048 now
+  has the required birth, parent and childhood-household checkpoint, so the
+  wave rotates to P-0028 Johan Oskar Zingmark.
+- 2026-08-19: P-0028 was traced backward through an exact identity chain.
+  Sävar C/3 records Johan August born 1861-05-19 to Johan Pettersson and
+  Lotta Jonsdotter; A I/5b, A I/6b and A I/7b independently preserve the
+  childhood family. A I/7a follows him as the unmarried servant Johan August
+  Johansson from page 243 to page 237, and the 1880 census gives the same
+  name, year and parish. Degerfors E I/2 then records the snickare Johan Oskar
+  Zingmark, born 1861-05-19, marrying Ida Sofia Andersdotter on 1888-07-01;
+  the 1890 census confirms the married Buberget household. This resolves the
+  name transition and corrects the earlier paleographic reading `25/5` to
+  `19/5`.
+- 2026-08-19: P-0058–P-0064 were created for Johan Oskar's parents and all
+  siblings in the followed household. P-0065–P-0073 preserve Ida Sofia's
+  likely parents and siblings from the 1890 household pending her own birth
+  and childhood checkpoint. P-0074–P-0079 preserve all persons named in the
+  1880 database household view without asserting kinship, and P-0080–P-0081
+  preserve the two legible but partly uncertain Dahl sponsors. Twelve full
+  source images C-0050–C-0061, including two transparent negative controls,
+  are now local with checksums. The balanced wave next rotates to P-0029.
+- 2026-08-19: P-0029 was located in her own birth entry, Degerfors C/4 nr 139,
+  born 1867-12-15 and baptized 1867-12-16 in Buberget to Anders Jonsson and
+  Lotta Sofia Andersdotter. Two independent scans are preserved. Degerfors
+  A I/9c page 83 then supplies her childhood household, the parents' exact
+  recorded birth dates and five siblings, including twins Anders and Carl;
+  their original paired birth entries in C/5 confirm both births on
+  1873-05-09. The 1870 census independently corroborates the family and adds
+  four named household-context persons. P-0082–P-0093 preserve all newly
+  encountered household persons and readable sponsors, with uncertainty and
+  possible identity collisions kept explicit. One negative-control page from
+  the wrong volume is also preserved. P-0029's checkpoint is complete and the
+  balanced wave rotates to P-0049 Anna Fredrika Jakobsdotter.
+- 2026-08-20: P-0049 was located in Bygdeå C/5 nr 15: born 1872-02-08 in
+  Ultervattnet, baptized 1872-02-11, to Jakob Andersson and Maria Christina
+  Hansdotter. The initially read household reference 367 was disproved and
+  preserved as negative control C-0068; the correct folio 567 in A I/14b
+  verifies both parents, three older siblings and paternal grandparents.
+  Census households from 1880, 1890, 1900 and 1910 corroborate the identity,
+  add three younger siblings, occupations and the transition from unmarried
+  daughter in Ultervattnet to married wife and mother in Jomark. P-0094–P-0107
+  preserve every newly encountered relative and readable witness, including
+  an unnamed but individually referenced sponsor. Seven full images C-0067–
+  C-0073 are local with checksums. P-0049's checkpoint is complete; the next
+  balanced branch is P-0009 Ada Wilhelmina Jansson.
+- 2026-08-20: P-0009's existing original birth entry in Lerbo C/8 was
+  detail-read again. The witnesses are arrendator Carl Lundqvist and his wife
+  Caroline from Lugnet in Sköldinge; both now have P-0108–P-0109. A local
+  history database independently places Karolina Wilhelmina Lundqvist, born
+  Urbom, at Lugnet, but this fuller identity remains a clearly marked lead
+  pending church-record verification. Ada's original birth/baptism and
+  parents, together with her 1890 childhood census household, satisfy the
+  depth-3 checkpoint. P-0042–P-0043 move to the depth-4 frontier, while the
+  distinct 1914–1915 paternity question remains under T-0010. The balanced
+  wave now rotates to P-0015 Axel Edvard Eriksson.
+- 2026-08-20: P-0015 preparation established the exact anchor
+  1881-05-30 in Björkvik from Maj's original 1920 birth entry and the 1930
+  census. A source-surface audit corrected an earlier overstatement: the
+  indexed 1930 household view names P-0017 Hulda Margareta, but her row is not
+  visible on the saved page image. Her record remains preserved with C-0015,
+  its confidence reduced pending an original row; C-0019 now supports only
+  the people actually visible on that image. The next source action is
+  Björkvik's original birth/baptism book for 1881-05-30, followed by its
+  household reference and every named sponsor and household member.
+
+- 2026-08-20: A reproducible Riksarkivet access path was established and
+  documented in `genealogy/method-riksarkivet.md`. The NAD search is
+  captcha-guarded, but the open `data.riksarkivet.se/api/records` endpoint
+  resolves archives, series and volumes, and IIIF delivers full-resolution
+  images. The method was proven by re-downloading C-0067 and obtaining a
+  byte-identical SHA-256. Material younger than roughly 1900, including the
+  Hyltinge parish books and the SCB/census images behind C-0015, C-0019,
+  C-0020 and C-0028, returns 401 without a Riksarkivet login; that limit is
+  now recorded as an access condition rather than an archival gap.
+- 2026-08-20: P-0015 produced a documented null result. Björkvik C/9 holds the
+  complete 1881 birth series nr 1-89 and C/10 resumes at nr 90 on 1881-10-28;
+  both volumes are freely accessible and were read entry by entry. No birth on
+  1881-05-30 and no boy christened Axel Edvard appears anywhere in the year.
+  C-0076 and C-0080 preserve the controls with full images. A detail re-read of
+  the 1930 household row also yielded two new leads: he is marked a widower and
+  the marriage year is given as 1917. The branch stays open, and the next
+  sources are the Hyltinge parish book volume II folio 13 named in C-0028,
+  which needs a login, and the marriage around 1917.
+- 2026-08-20: P-0016 reached a complete checkpoint. Gryt C/6 nr 29/1877 gives
+  birth 1877-09-25 in Djupnäs, baptism 1877-09-30, the parents Per Albert Ålund
+  and Adela Amalia Urbom married about 1½ years, and the sponsors Fredrik
+  Wilhelm Ålund and Anna Fredrika Blom. All 36 pages of the Gryt 1890 census
+  were searched without a hit, and Gryt's out-migration book explains why: in
+  1879 the family left Djupnäs for Hyltinge. The Hyltinge 1890 census then
+  shows them in Valsund with Hulda Amalia and the new brother Karl Albert, and
+  the sponsor couple in Brostugan. P-0110-P-0116 were created, S-0061-S-0066
+  and C-0075-C-0081 record the evidence, and P-0110-P-0111 move to the depth-4
+  frontier. Three of the seven new citations are negative controls.
+
+- 2026-08-20: The P-0015 line was reopened with free sources and produced a
+  correction to a previously CORROBORATED claim. The Hyltinge 1910 census shows
+  Axel Edvard Eriksson as a track worker in Banvaktsstugan nr 71 with a wife and
+  five children, an attestation of the birth year and the claimed birth parish
+  independent of 1930. His son Ture Edvard's 1904 birth entry in Flen C/8 names
+  him explicitly and gives his birth data as `81 20/3`. Re-reading the 1920
+  Hyltinge original at full resolution shows the same cell, so the birth date is
+  1881-03-20, not 1881-05-30. The day-before-month reading is proven by the
+  mother's cell `77 25/9` in the same entry, which matches Hulda Amalia's
+  original Gryt entry exactly. A-0098 is now REJECTED and replaced by A-0434,
+  and C-0028 carries a dated correction section.
+- 2026-08-20: Björkvik 1881 was then re-checked entry by entry on both birth
+  date and christening name for all 89 entries. There is no 20 March birth named
+  Axel Edvard; the year's only 20 March birth is nr 15 Oscar Theodor. The
+  contradiction between two censuses naming Björkvik and the church book is
+  recorded as A-0439 with status CONFLICT rather than being resolved by
+  assumption.
+- 2026-08-20: The same pass captured Axel Edvard's family: wife Charlotta
+  Cecilia Elisabet Gustafsson born 1883-01-14, Erik Axel 1902 with father
+  recorded as unknown, Ture Edvard 1904, and the daughters Astrid Elisabet,
+  Ruth Charlotta and Elsa Cecilia. P-0117-P-0122 were created. The 1920 entry
+  also dates Hulda Amalia's widowhood to 1913-03-11, and the Hyltinge 1910
+  census keeps the Ålund family together in Valsta with birth years identical to
+  1890. S-0067-S-0068 and C-0082-C-0085 record the evidence with four preserved
+  images and checksums.
+
+- 2026-08-20: The informant supplied a fuller account of Arne's paternity, now
+  preserved as S-0069 and C-0086 with three named grounds. A-0075 and A-0150 are
+  CORROBORATED on the family-testimony line and the Eliasson branch is treated
+  as an open ancestral line; the search for a contemporary document continues
+  under T-0010 and is no longer a precondition. A-0471 states explicitly that a
+  blank father field in 1915 is the normal form when paternity was not
+  established before the pastor.
+- 2026-08-20: Depth 5 opened on the Ålund branch. Adela Amalia Urbom's own birth
+  entry was found in Västra Vingåker C/12, the parish's 1849 annual volume: born
+  1849-08-03 at Spånga bruk, baptised 1849-08-05, to the manufacture smith Johan
+  Petter Urbom and his wife Anna Gustava Ajax (P-0123-P-0124). The entry also
+  settles the earlier Urbom/Ulbom reading in favour of Urbom. The Hyltinge 1900
+  census adds the Rudstugan household and completes an unbroken residence chain
+  Valsund 1890 - Rudstugan 1900 - Valsta 1910 with identical birth years in all
+  three, and shows Hulda Amalia still unmarried at home aged 23.
+- 2026-08-20: Per Albert Ålund's own birth entry is blocked remotely. Gryt's
+  birth books C/1-C/4 covering 1695-1857 carry no image link at Riksarkivet
+  while C/5 onward are digitised, and Gryt's household books for 1876-1895 are
+  likewise undigitised. This is recorded as a digitisation and access gap, not
+  an archival gap. The remaining remote route is Hyltinge A I/22 (1896-1900),
+  which is digitised and carries exact birth dates.
+
+- 2026-08-20: Karl Albert Ålund's own birth entry was found in Hyltinge C/6,
+  1890 nr 15: born 1890-06-22 in Valsund, baptised 1890-07-20, folio 102. It
+  independently dates the parents' marriage to about 1876 through the note
+  "Gift 14 år", matching "gifta 1½ år" in September 1877. The entry also carries
+  a scribal error: the mother is written "Urbom Hulda Amalia", which is the
+  daughter's name, while the stated age of 40 matches Adela Amalia born 1849.
+  The error is preserved as A-0493 with status CONFLICT rather than normalised.
+- 2026-08-20: Charlotta Cecilia Elisabet Gustafsson produced a second null
+  result in the same household. Her birth date 1883-01-14 is securely read, but
+  Flen's complete 1883 series, nr 1-31, contains no 14 January birth and no such
+  name, and Helgesta 1883 does not either. Both spouses' census-stated birth
+  parishes therefore fail against those parishes' own birth books, which points
+  at the census entry rather than at two independent church books.
+- 2026-08-20: An access audit established the actual limit. Riksarkivet's
+  restriction follows a volume's end date, not a page's age: Helgesta E I/2
+  (1895-1948) is closed in full while Flen E I/2 (1905-1915) is open. That
+  places three lines behind access rather than behind missing records - Per
+  Albert Ålund's 1850 birth, the two disputed birth parishes whose deciding
+  document is the 1902-03 marriage, and the Hyltinge parish-book page named in
+  C-0028. The audit, the tested volumes and the planning rule are recorded in
+  genealogy/method-riksarkivet.md and marked on the frontier.
+
+- 2026-08-20: A breakthrough on the Ålund line. Gryt's in-migration register,
+  which is digitised, shows three 1874 entries: P. Alb. Ålund from Helgesta to
+  Jordanstorp on folio 162, Pig Adela Amalia Urbom from Helgesta to Högtorp,
+  and Dräng Fredr. Wilh. Ålund with wife from Helgesta to Högtorp on folio 170.
+  Helgesta's out-migration register carries the matching entries with folio
+  numbers: Urbom Adela Amalia at Bergastugan folio 58, Ålund Pehr Albert at
+  Sund folio 8, and Ålund Fredr. Wilhelm folio 51 attested 26 October.
+  Consequences: Per Albert did not live in Gryt before 1874 despite three
+  censuses naming Gryt as his birth parish; Adela Amalia's chain is now
+  unbroken from her 1849 birth to 1910; and the brother hypothesis for Fredrik
+  Wilhelm is materially strengthened while still held as a LEAD. The folios
+  identify the exact remaining document, Helgesta A I/17 (1871-1875) folios 8,
+  51 and 58, which is not digitised. S-0076 and C-0093-C-0097 record this with
+  five preserved images.
+- 2026-08-20: Negative controls in the same pass. Västra Vingåker's 1876 banns
+  and marriage book was read in full with no Ålund-Urbom entry, so the marriage
+  was elsewhere, most likely Gryt whose pre-1895 marriage books are not
+  digitised. The Västra Vingåker 1880 census was sampled, including the whole
+  Spånga area, with no Urbom remaining; that sweep was not exhaustive and is
+  logged as a note rather than as an established null result.
+
+- 2026-08-20: The owner asked whether every branch had really been driven as far
+  as the sources allow. It had not. `scripts/ancestor-audit.mjs` was written so
+  the question can be answered from the data: it counts ancestors per generation
+  and lists every ancestor without known parents. The audit showed depth 3
+  complete, depth 4 at 14 of 16, depth 5 at 2 of 32, and ten of fourteen tips
+  never searched at all. The session had driven the Ekholm-Ålund branch hard and
+  left six other parent couples untouched, which breaks the balanced-wave rule
+  in the research programme. Two were closed the same day: Charlotta Wilhelmina
+  Larsson, born 1867-05-26 at Anderslund in Lerbo to the crofter Lars Andersson
+  and Brita Kajsa Pehrsdotter (P-0125-P-0130, C-0098), and Karl Fredrik Jansson,
+  the only Carl Fredrik in Lilla Mellösa's complete 1861 series, born 1861-09-24
+  at Nytorp to the statdräng Adolf Fredrik Jansson and Eva Lotta Jonsdotter
+  (P-0131-P-0132, C-0099). The latter identification rests on name, year and
+  parish only and is therefore recorded at medium reliability. Depth 5 rose from
+  two to six known ancestors; eight untouched tips remain.
+
+- 2026-08-20: The owner replaced the goal with a breadth-first one that requires
+  a documented terminal status per ancestral tip and makes the audit script the
+  completion criterion. `scripts/ancestor-audit.mjs` was extended to read a
+  `## Slutstatus` block, validate the six-value vocabulary, and reject any
+  non-VERIFIERAD status lacking expected source, searched years and a preserved
+  negative control. It also prints the next permitted working depth and exits
+  non-zero while any tip is unresolved.
+- 2026-08-20: The script pointed at depth 3 and P-0015, and exhausting the freely
+  accessible sources first resolved the Björkvik conflict completely. Flen's
+  parish book A II a/2 a opens with an alphabetical village register giving
+  Wäsby folio 212. That page yielded the marriage date 1902-10-25 and a
+  reference to the previous book, and the chain was followed backwards page by
+  page: Wäsby 347, Karsätter 345, and finally Brosätter 349, the household of
+  the crofter Erik Karlsson born 1851-01-30 in Bettna and his wife Matilda
+  Charlotta Sjöberg born 1860-08-08 in Björkvik. Axel Edvard appears there as
+  "m.s. i 1:a g.", the husband's son from his first marriage, born 81 20/3 in
+  Forssa. Björkvik was therefore the stepmother's birth parish, mis-copied onto
+  his own row and then repeated by both censuses, which were never independent.
+  The birth entry was then found in Forssa C/6 1881 nr 3: born 1881-03-20 at
+  Svartgjölstorp, baptised 1881-04-07, third child of the crofter Erik Carlsson
+  and Anna Christina Larsdotter. A-0439 moved from CONFLICT to REJECTED with an
+  explanation, and P-0015 is now VERIFIERAD. Depth 3 and depth 4 are both
+  complete at 8 of 8 and 16 of 16. S-0079-S-0081, C-0100-C-0104 and
+  P-0133-P-0141 record it with five preserved images.
+
+- 2026-08-20: The breadth-first goal reached its termination criterion.
+  `scripts/ancestor-audit.mjs` reports **zero tips without a valid terminal
+  status**. Depths 1-4 are complete at 2/2, 4/4, 8/8 and 16/16; depth 5 holds 8
+  known ancestors and depth 6 one. Sixteen tips close the pedigree: eleven on
+  access and four on contradiction. No branch ended because records are missing
+  - they exist but cannot be reached remotely, or they contradict each other.
+  Every tip names the exact volume and page that would hold the answer, lists
+  the years and images actually searched, and carries a preserved control image.
+  Eleven branches are immediately continuable with a Riksarkivet login, a
+  reading-room visit, or a commercial provider.
+- 2026-08-20: Five method findings were recorded in genealogy/method-riksarkivet.md:
+  the day-over-month fraction that caused three wrong dates in the existing
+  material; the village registers in Degerfors household books, without which
+  browsing produced a false absence claim; the page references in parish books
+  that can be followed backwards spread by spread, which solved the Björkvik
+  conflict; the marriage and death sections inside C-volumes even where the
+  E-series starts much later; and the finding that neither the search API's
+  _links.image nor the RDF schema:image can distinguish an undigitised volume
+  from a digitised but non-public one, which required correcting the wording of
+  three statuses set earlier the same day.
+
+## Verification
+
+- `node scripts/validate-genealogy.mjs` — OK: 701 assertions; 377 Markdown
+  records; 110 media files; Wotan JSON valid. Every relative link resolves,
+  every P-, S- and C-id exists, no assertion id is duplicated, and every
+  citation's stored SHA-256 matches the file on disk.
+- `node scripts/ancestor-audit.mjs` — zero tips without a valid terminal
+  status; exit code 0. The script independently re-derives the pedigree from
+  the person records, so the count is not taken on trust.
+- Source images were re-downloaded from Riksarkivet and compared byte for byte
+  against the stored checksums at each stage of the work, most recently
+  C-0120. All matched.
+- Every non-VERIFIERAD status was checked to carry the three mandatory parts:
+  expected volume and page, years and images actually searched, and a preserved
+  negative control. The audit script enforces this and rejects a status that
+  lacks any of them.
+
+## Outcome
+
+The depth-3 wave that this task began with is complete, and the work carried on
+through depth 4 and into depths 5 and 6 under the owner's later breadth-first
+goal. Depths 1-4 are fully mapped. Sixteen ancestral tips close the pedigree,
+eleven blocked by access and four by contradiction, each with a documented
+terminal status.
+
+Three corrections were made to previously CORROBORATED material: Axel Edvard
+Eriksson's birth date and birth parish, Anders Jonsson's birth date, and the
+claim that Buberget did not exist in 1861-65. Two of the three came from the
+same cause, a misread day-over-month fraction.
+
+The Eliasson paternity moved from a conditional line to an open ancestral one
+after the owner supplied a named account with three grounds, recorded as S-0069
+and C-0086 without overstating what the contemporary records show.

@@ -1,0 +1,20 @@
+{
+  people: 50,
+  changes: 3088,
+  spans: 162,
+  decisions: 5501,
+  requestHash: 'cafae8ae32158b9d6658a82a67ce037f984acee97e2419758714db2403c8973c',
+  dir: '/var/folders/m9/vh359xh12xv4d28_6sd260x80000gq/T/genealogy2-T0661-preflight-ntA4Y7'
+}
+file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:47
+  if(m.kind==='event'&&!['birth','baptism','confirmation','banns','marriage','divorce','death','burial','registered_arrival','registered_departure','residence','other'].includes(m.data.event_type))throw Error(`Okänd händelsetyp: ${m.id}/${m.data.event_type}`);
+                                                                                                                                                                                                           ^
+
+Error: Okänd händelsetyp: E-permission-P-0474-1840/permission
+    at validatePayload (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:47:204)
+    at file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:115:21
+    at transaction (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/store.mjs:95:22)
+    at applyOperation (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:71:10)
+    at file:///Users/sverker/repos/slaktforsk/genealogy2/migration/persons-10-support/preflight.mjs:28:15
+
+Node.js v26.8.1

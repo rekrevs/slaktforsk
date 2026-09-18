@@ -1,0 +1,14 @@
+DB /var/folders/m9/vh359xh12xv4d28_6sd260x80000gq/T/genealogy2-T0659-probe-sKnKVT
+Build 24 1705 89 2567
+file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:39
+  for(const k of Object.keys(m.data))if(!columns.some(c=>c.name===k))throw Error(`Okänt fält ${m.kind}.${k}`);
+                                                                           ^
+
+Error: Okänt fält search.subject_id
+    at validatePayload (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:39:76)
+    at file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:115:21
+    at transaction (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/store.mjs:95:22)
+    at applyOperation (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:71:10)
+    at file:///private/tmp/genealogy2-T0659-partial-probe.mjs:8:192
+
+Node.js v26.8.1

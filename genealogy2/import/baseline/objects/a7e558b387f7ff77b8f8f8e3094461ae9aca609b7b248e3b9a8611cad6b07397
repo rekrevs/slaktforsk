@@ -1,0 +1,231 @@
+# T-0015: Complete the balanced depth-4 family-edition cohort for Adam and Axel
+
+**Status**: DONE | **Size**: L
+**Phase**: COMPLETE
+
+## Context
+
+`PCR-2026-08-22-001` and `PCD-2026-08-22-001` establish a finite first
+delivery inside the longer continuous research program: a shared sibling-root
+edition for Adam Jan Gunnar and Axel Ivar Malte, balanced through depth 4 from
+the brothers. The existing two-proband archive already supplies all ancestors
+through their depth 3 and 14 of 16 theoretical positions at depth 4. Ivar
+Höök's parents are the only missing pair, with an owner-supplied but explicitly
+uncertain lead that he may have been born outside marriage.
+
+## Acceptance Criteria
+
+- [x] Register Adam and Axel as privacy-minimal sibling roots, with the owner's
+  statement preserved verbatim and their links to Sverker and Kristina explicit.
+- [x] Represent the shared pedigree uniformly through depth 4: identify each
+  position or preserve an exact source-backed terminal gap without inventing a
+  parent.
+- [x] Resolve or tightly delimit Ivar Höök's birth, parents and possible
+  non-marital birth through the nearest lawful original and complementary
+  sources.
+- [x] Complete the remaining wife-side depth-4 backbone, beginning with Ingrid
+  Kristina Vidusina Höglund's 1866 Indal record and its parent-bearing household
+  chain.
+- [x] Audit every deceased edition-cohort person for a source-backed core
+  biography: names, birth/dop and parents, childhood household where accessible,
+  residence/occupation, marriage/partner and children, death/burial, distinctive
+  details, conflicts and explicit gaps.
+- [x] Audit the edition cohort's sibling context: preserve a compact sourced
+  sibling list or an explicit gap for each portrait, distinguish proved sibling
+  relations from mere co-residence, and select only genuinely informative
+  sibling stories for expansion.
+- [x] Preserve every consequential citation, source description, original image,
+  checksum, named relative and scoped negative/access result under the repository
+  model.
+- [x] Provide a stable edition input or manifest from which the PDF can be built
+  without silently promoting `LEAD` or `CONFLICT` material.
+- [x] Give every place displayed on the edition map a normalized locality,
+  source-backed person/event link, dated or bounded period, coordinates with
+  provenance, and an explicit approximation flag where only a parish or area
+  centroid is defensible.
+- [x] Give every displayed timeline event a source link and a precision field;
+  do not manufacture an exact date from a year-only or period-only source.
+- [x] Pass genealogy validation, Wotan JSON validation, privacy review and
+  bounded audits for both parental pedigrees through their depth 3 (the sons'
+  depth 4).
+
+## Verification Plan
+
+### Hard Endpoints
+
+- [x] `node scripts/validate-genealogy.mjs` - verifies identifiers, links,
+  citations, media provenance and Wotan JSON.
+- [x] `node scripts/ancestor-audit.mjs --through-depth=3` - verifies Sverker's
+  contribution through the sons' depth 4.
+- [x] `PROBAND=P-0210 node scripts/ancestor-audit.mjs --through-depth=3` -
+  verifies Kristina's contribution through the sons' depth 4, including valid
+  terminal treatment when a parent is not source-identifiable.
+- [x] `jq empty wotan/backlog.json` - verifies the execution queue.
+
+### Manual Checks
+
+- [x] Check every displayed parent link against its citation and evidentiary
+  status; family knowledge remains visibly distinct from archival proof.
+- [x] Confirm that living-person data is limited to the owner-approved names,
+  dates and relations required by the private edition.
+- [x] Confirm that the edition manifest contains no unsupported harmonization
+  of names, dates, relationships or unknown parent slots.
+
+### Risks
+
+- Equal depth can be confused with fabricated completeness. A documented
+  unknown parent counts as an honest terminal slot; a name guess never does.
+- Rich biography can become unbounded. Establish a complete core biography for
+  the finite edition cohort before optional embellishment.
+- The two living sibling roots and their parents require privacy-conscious
+  presentation even in a private family artifact.
+
+## Approach
+
+Work breadth-first across the missing or weak wife-side slots first, because
+Sverker's contribution already passes the matching bounded audit. Synchronize
+the sibling-root representation and evidence model as each parent-bearing
+record is secured. Then run a finite person-by-person biography audit and
+produce an explicit edition manifest for T-0016.
+
+## Implementation Notes
+
+- 2026-08-22: Task created and started from the approved Project Control
+  decision. T-0012 was returned to `READY` at its latest validated checkpoint.
+- 2026-08-22: Indal C/5 (`SE/HLA/1010090/C/5`), image
+  `A0010767_00025`, has yielded the parent-bearing Ingrid Christina Vidusina
+  entry for 1866-03-10; household-page verification is in progress before the
+  parents are promoted.
+- 2026-08-22: The owner requested two additional evidence-bearing presentation
+  layers: a Sweden map of documented residence and movement, and a family
+  timeline. Their place/event provenance is part of this task's manifest rather
+  than an unsourced design inference.
+- 2026-08-22: C-0253–C-0254 now preserve Ingrid's own 1866 birth/dop entry and
+  the matching Högsjö household. Nils Petter Pehrsson and Anna Stina Strömlund
+  are promoted as her corroborated parents; Johan Petter and Erica Lydia are
+  registered as named household children without premature parent assignment.
+  The two living sibling roots and their owner-approved privacy-minimal dates
+  and parent links are registered in P-0269–P-0270 and C-0252.
+- 2026-08-22: At the owner's request the portrait audit now includes siblings
+  and childhood-family context. This enriches the edition without turning every
+  collateral branch into a full biography requirement.
+- 2026-08-22: Riksarkivet's 1910 census has produced a strong Hudiksvall
+  candidate for P-0239: Anders Ivar, born 1903, appears as Anna Matilda's
+  `dennas oä. s.` in her parental household under Anders Gustaf Hök and Anna
+  Greta Hillberg. Five maternal siblings are preserved in P-0278–P-0282. The
+  candidate remains a `LEAD` until the birth entry and a later source bridge
+  the boy to the adult missionary; S-0202 and C-0255–C-0256 preserve the
+  checkpoint and original image.
+- 2026-08-22: The same Hök–Hillberg household was recovered in the 1900
+  census. It adds Anna Matilda's four older brothers Gustaf, Anders Emanuel,
+  Karl Petrus and Johan Erik to the five younger siblings seen in 1910, and
+  preserves the family's repeated `icke döpt` notation as sourced childhood
+  context. S-0203, C-0257 and P-0283–P-0286 hold the second timed checkpoint.
+- 2026-08-22: A broad 1930 first-name search recovered `Folk_131974316`, which
+  the earlier exact-surname search missed because the post prints no surname.
+  Anders Ivar is again in Hudiksvall with Anna Matilda and Anna Greta, is
+  still marked as Anna Matilda's son outside marriage (`h. s. u. ä.`), and is
+  now explicitly a missionary. This creates the required later bridge from
+  the 1910 boy to P-0239 and upgrades both identity and maternal relation to
+  `CORROBORATED`. S-0204/C-0258 hold the index, exact transcription and
+  full-resolution original `B0001195_00465`; the father remains unrecorded
+  rather than guessed.
+- 2026-08-22: Hudiksvall A II a/3 b page 593 (`F0010365_00283`) now gives
+  Anders Ivar's exact birth date, 1903-05-13, and Anna Matilda's 1880-12-23.
+  S-0205/C-0260 hold the full-resolution page. This sharply retargets the
+  birth-book search.
+- 2026-08-22: The owner supplied a precise secondary-genealogy lead for the
+  previously unnamed father: P-0287 Johannes Ivar Fredberg, born 1880-06-24,
+  said to be a butcher or butcher's son from Kungsholmen who moved to
+  Hudiksvall at about 15 and stayed with an uncle/aunt Fredberg. The same
+  tradition says Anna Matilda was not allowed to marry him. C-0259 preserves
+  the wording and provenance; all components remain `LEAD` pending separate
+  primary-source tests.
+- 2026-08-22: A separate Jan-Christer Janson/Ulla Göthberg chart was preserved
+  in S-0206/C-0261 without diverting the current wife-side work. It opens
+  P-0288 Lars Månsson (born 1764) as an unverified distant Korsberga ancestor
+  through omitted generations and records the claimed DNA research limits.
+  The owner's direct clarification identifies P-0013 as Anki Jonasson,
+  Bernhard Eliasson's daughter; no additional living-person details were
+  introduced.
+- 2026-08-22: The full two-page Ulla Göthberg PDF now supplies the explicit
+  secondary chain Lars Månsson–Stina Larsdotter–Gabriel Eliaeson–Per Wilhelm
+  Eliasson–Bernhard–Arne–Jan-Christer. S-0207/C-0262 and P-0289–P-0294
+  preserve it as an auditable `LEAD`; no older link was promoted without a
+  primary source or usable DNA metrics.
+- 2026-08-22: The owner then supplied Jan-Christer family notes and two rich
+  Word family archives. S-0208/C-0263 preserves Ann-Catherine (Anki), the
+  unresolved Alva-versus-Alma identity, Maj-Britt/Jegenstam and related
+  collateral facts. S-0209/C-0264 preserves six Bernhard portraits including
+  the named 1944 family group. S-0211/C-0266 preserves Jan-Christer's dated
+  2011 Arne chronicle and eleven original images; S-0212/C-0267 preserves a
+  complementary first-person Flen/Södertälje memoir. The Arne/Ada/
+  Vilhelmina/Fredrik group, Bernhard-at-Ökna 1914 image and Arne's documented
+  furniture-restoration path are strong candidates for proportionate edition
+  use.
+- 2026-08-22: Owner decision: this new collateral/family richness is durable
+  future input, not a mandate to expand one branch disproportionately in the
+  first PDF. The edition manifest must retain equal generational and visual
+  treatment across branches; family archives may contribute a brief sibling
+  band or one evidence-bearing image only where they improve that balanced
+  story. The post-checkpoint validator passes with 1,197 assertions, 794
+  Markdown records and 722 media files.
+
+- 2026-08-22: The owner corrected P-0212's name order to Gunnar Ivar Emanuel
+  Höök and supplied three siblings with dates: Marianne, Astrid Margareta
+  (Margareta) Höök Wennfors, and Anders Gustav (Gustav) Höök. S-0213/C-0268
+  and P-0307–P-0309 preserve the direct family report. It may enrich the same
+  short sibling band as other branches, but does not expand the pedigree or
+  justify asymmetric biography coverage. The validator passes at 1,205
+  assertions, 799 Markdown records and 722 media files.
+- 2026-08-22: The owner then explicitly clarified that Gunnar, Marianne,
+  Margareta and Gustav were full siblings, all children of Elisabeth and Ivar
+  Höök. C-0268 and the reciprocal person records now preserve that parentage
+  without extending the pedigree depth or the first edition's branch balance.
+- 2026-08-22: The four remaining wife-side depth-3 endpoints are now closed
+  for the edition. C-0269 corrects Johan Fredrik's third name from the later
+  `Vilhelm` to birth-record `Willehad`/normalized `Villehad` and names his
+  parents. C-0270–C-0271 give Elin's parents and sister in Gäddelstad.
+  C-0274 gives Anders Niklas's parents. Ljustorp C/3 contains no Erik Jonas on
+  1860-02-28; C-0272 preserves the exact negative control and P-0253 now has a
+  valid `IDENTITET OLÖST` terminal status rather than invented parents. Five
+  original images are preserved. Both bounded ancestor audits pass.
+- 2026-08-22: The stable machine-readable edition input is now locked in
+  `genealogy/editions/adam-axel-depth4-v1.json`. It contains the two sibling
+  roots, 32 displayed positions (including one explicit unknown-father slot),
+  32 sourced parent links, equal depth-4 profile coverage, sibling context,
+  18 coordinate-provenanced map places, 19 precision-labelled timeline events,
+  a source-close-reading specification and reader-facing source explanations.
+  `P-0287` Fredberg is explicitly excluded from the pedigree as a `LEAD`, the
+  Hillevi parent links remain visibly `LEAD`, and Villehad/Vilhelm remains a
+  displayed `CONFLICT`. `scripts/validate-edition-manifest.mjs` enforces these
+  structural and provenance rules.
+
+## Obstacles
+
+None at task start. Ivar's exact birth date is now resolved to 1903-05-13;
+his own birth entry and the Fredberg paternity lead remain active evidence
+questions, not blockers.
+
+## Verification Evidence
+
+- `node scripts/validate-edition-manifest.mjs`: OK; 32 positions, 32 parent
+  links, 18 map places and 19 timeline events.
+- `node scripts/validate-genealogy.mjs`: OK; 1,227 assertions, 818 Markdown
+  records, 727 media files and valid Wotan JSON.
+- `node scripts/ancestor-audit.mjs --through-depth=3`: OK; Sverker's pedigree
+  complete through the sons' depth 4, with zero invalid terminal statuses.
+- `PROBAND=P-0210 node scripts/ancestor-audit.mjs --through-depth=3`: OK;
+  Kristina's pedigree has the documented Erik Jonas terminal and zero invalid
+  terminal statuses.
+- `node --test scripts/ancestor-audit.test.mjs`: 3/3 regression tests pass.
+- Manual privacy/evidence audit: both sons are Janson; living relatives have
+  only edition-required owner-approved details; Fredberg is not promoted; the
+  unknown father and the Villehad/Vilhelm conflict remain explicit.
+
+## Outcome
+
+The balanced shared depth-4 cohort is complete as an edition input. Every one
+of the 16 theoretical depth-4 positions is either represented by a person or
+by an explicit terminal unknown. The PDF task may now render the cohort without
+performing genealogical inference in layout code.

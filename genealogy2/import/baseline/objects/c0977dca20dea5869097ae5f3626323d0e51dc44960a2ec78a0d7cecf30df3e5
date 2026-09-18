@@ -1,0 +1,61 @@
+# T-0485: Dotterns dopnotis 1825-08-13 och Ljustorps barnhusanteckning
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0166 enligt PCD-2026-09-07-026, efter T-0115.
+Motsvarar [KP-01 i P-0454:s profil](../../genealogy/research-profiles/P-0454.md#källvägar).
+
+## Scope, underlag och stoppgräns
+
+P-0454 och P-0339. Två passager, i denna ordning:
+
+1. **Ljustorps barnhus- eller inflyttningsanteckning för flickan.** Hon har en
+   egen rad i A I/4 Löfberg sida 86 (C-0606). En barnhus- eller
+   inflyttningsanteckning i församlingens material anger ofta
+   ursprungsförsamlingen. Syftet är att slippa gissa dopnotisens socken.
+2. **Dotterns dopnotis 1825-08-13.** Sök på efternamnet `Schölin` och det
+   exakta datumet i den församling passage 1 pekar ut; i annat fall i
+   Stockholms digitaliserade och indexerade födelseböcker. Notisen namnger
+   normalt **modern**, anger om barnet var fött utom äktenskapet och ger
+   faderns yrke och adress 1825 — sex år före den enda kända uppgiften om
+   honom.
+
+**Att hon föddes i Stockholm är en arbetshypotes, inte ett belägg.** Ett
+indexnoll ska redovisas som församlings- och årgångsbundet, aldrig som
+personnoll. Sökningen görs på det rättade förnamnet `Jonas` där faderns namn
+används; `James` behålls bara som eftersökbar variant.
+
+Utanför: Allmänna barnhusets E 5-handling (T-0265), mantalsregistret och de två
+`J Schölin`-kandidaterna (T-0484), Henrikfamiljens folier (T-0264), nya
+generationer och varje identitetssammanslagning utan original.
+
+Stoppgräns: de två passagerna ovan. En träff på modern skapar ingen ny person
+utan egen bedömning; ett noll avslutar passagen med exakt omfång.
+
+## Acceptance Criteria
+
+- Båda passagerna har positivt, exakt negativt eller olöst utfall med angiven
+  församling, volym, bildintervall och läsdatum. Ett åtkomsthinder blir inte
+  ett negativt personfynd.
+- Hela relevanta öppnade poster utvinns med kolumnredovisning enligt
+  aktstandarden, sparad kopia och SHA-256.
+- P-0454:s och P-0339:s akter, profiler, teman och båda kontraktsnivåerna
+  avstäms individuellt; en namngiven mor får egen bedömning och eget id först
+  när belägget bär det.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0606 med båda tilläggen och P-0454:s profil först. Följ källstrategin och
+Riksarkivets åtkomstordning. Inga beställningar, kontakter, dashboardändringar,
+PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0166:s granskningsutfall.
+- Nästa ej utförda steg: passage 1, Ljustorps anteckning för flickan.
+- Hinder: BLOCKED bakom T-0115.

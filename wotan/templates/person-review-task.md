@@ -6,7 +6,9 @@
 ## Context och mandat
 
 PCD-2026-09-07-026; läs wotan/README.md, genealogy/person-standard.md och
-personkontraktet. Detta är granskning av befintlig kunskap.
+personkontraktet samt genealogy2/docs/working.md. Detta är granskning av
+befintlig kunskap. Aktstandardens sakkrav gäller; dess gamla Markdownformat
+och skrivplatser ersätts av genealogy2:s aktuella vyer och operationer.
 
 ## Scope och underlag
 
@@ -37,8 +39,9 @@ personkontraktet. Detta är granskning av befintlig kunskap.
    kontraktet; redovisa exakt oläst del om den inte går att kontrollera här.
 3. Läs den färdiga akten igen mot beläggen och profilens slutsatser. Kontrollera
    särskilt påståenden om okänt/oläst, rättade datum, namn och anhöriga.
-4. Spara passage en gång i forskningsloggen, med uppgiftens kriterium.
-   Uppdatera inventeringen och verifiera. Registrera konkret följdarbete.
+4. Spara batchen en gång i genealogy2:s operation/journal, med uppgiftens
+   kriterium. Läs den härledda inventeringen och verifiera. Registrera
+   konkret följdarbete i Wotan.
 
 ## Granskningsutfall
 

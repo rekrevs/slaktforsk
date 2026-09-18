@@ -1,0 +1,179 @@
+# T-0199: Konsolidera befintliga akter, fristående sidopersoner/kandidater från P-0438
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0438, P-0439, P-0440, P-0441, P-0442, P-0443, P-0444, P-0445
+
+## Scope och underlag
+
+Exakt dessa 8 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 10 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0563, C-0564, C-0565, C-0566, C-0567, C-0574, C-0576.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [ ] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [ ] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [ ] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [ ] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [ ] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [ ] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+Utfört 2026-09-10. **Kohorten består av tre grupper:** tre Zingmarkbarn i
+Botsmark 1851–1868, en utvandrad familj i Rosinedahl 1904–1907, och ett
+drängpar i Björkvik 1860. **Samtliga åtta akter saknade profil.**
+**10 assertioner vid baslinjen, 18 efter tilläggen** (A-7956–A-7963).
+
+**Ingen ny arkivsökning och ingen ny läsning.** Alla åtta nya assertioner är
+räknade eller sammanställda ur uppgifter som redan stod skrivna i citationer
+och anhörigakter.
+
+| Person | Format | Identitetsnivå | Full nivå | Ny assertion |
+|---|---|---|---|---|
+| P-0438 Sara Rebecka Zingmark | v1 | UNDERKÄND | UNDERKÄND | A-7956 |
+| P-0439 Axel Zingmark | v1 | **GODKÄND** | UNDERKÄND | A-7957 |
+| P-0440 Sophia Beata Zingmark | v1 | UNDERKÄND | UNDERKÄND | A-7958 |
+| P-0441 Hilda Charlotta Andersson | v1 | UNDERKÄND | UNDERKÄND | A-7959 |
+| P-0442 Alvar Rudolf Zingmark | v1 | UNDERKÄND | UNDERKÄND | A-7960 |
+| P-0443 Anders Gideon Nikanor Zingmark | v1 | UNDERKÄND | UNDERKÄND | A-7961 |
+| P-0444 Gustaf Sjöberg | v1 | UNDERKÄND | UNDERKÄND | A-7962 |
+| P-0445 Stina Lotta | v1 | UNDERKÄND | UNDERKÄND | A-7963 |
+
+**Samtliga åtta står `Trädverkan: EJ BÄRANDE`.** **Ingen ursprunglig assertion
+är omskriven.**
+
+### Vad kohorten fann
+
+**En oanvänd siffra avgränsade en av projektets äldsta frågor.** T-0133 förde
+in `moderns ålder 22 år` i P-0440 som en fullpostuppgift bland andra.
+**Tre syskons födelseposter bar samma slags uppgift.** Räknade mot varandra ger
+de fyra **ett fönster om sextiosex dagar: 24 mars – 28 maj 1829.**
+**Hushållsböckernas 1829-05-21 ligger inuti det**, och **Rusele-kandidaten
+född 1829-08-06 faller.** **A-7958**, anmält till T-0275.
+
+**En dödspost räknar fel på en dag, och felet pekar på fel tvilling.** Axels
+post anger `10 månader 25 dagar` där intervallet är 26; **räknat från
+tvillingbroderns dag stämmer siffran exakt.** **Två läsningar, ingen kan
+väljas** — Indals bruk avgör inte Sävars. **A-7957.**
+
+**En varning fick ett skäl.** T-0133 slog fast att 16 februari inte utan
+vidare får bli Sara Rebeckas nöddopsdag. **Skälet är nu utskrivet**, och
+**varningen är därmed prövbar i stället för att bara vara försiktig.**
+**A-7956.**
+
+**Föregående kohorts uppräkning var ofullständig.** **T-0198 räknade fyra
+Zingmarkar till Degerfors; de var fem.** **A-7946 skrivs inte om**, och
+**slutsatsen blir starkare.** **A-7959.**
+
+**Tre söner utvandrade över femton år** — 1892, 1904 och 1907 — och **ingen akt
+hade fört dem samman.** **Räkningen rättade samtidigt två avrundningar av
+barnens åldrar vid avresan.** **A-7960, A-7961**, anmält till T-0452.
+
+**Två rättelser hade stannat i en akt.** T-0143 rättade `Bokulla` till
+`Stenkulla` och `30 år` till `20` i C-0576 den 2026-09-08; **rättelsen nådde
+P-0135 men inte föräldrarnas akter.** **A-7962, A-7963.**
+
+### Två mönster som återkom
+
+**Det första är metodiskt:** **en åldersserie är bevisning bara när den är
+förenlig med sig själv.** **T-0195:s Dahlstenserie var motstridig och kunde
+inte bära något; denna är förenlig och avgränsar nio veckor.** **Skillnaden kan
+bara avgöras genom att räkna.**
+
+**Det andra är ett fel programmet nu mött fyra gånger:** **en formulering som
+inte följer med rättelsen.** T-0144 i C-0945, T-0197 i P-0433, och här i två
+akter samtidigt. **Skillnaden denna gång är att de felaktiga uppgifterna är
+sökparametrar** — **de styr var nästa läsare letar.**
+
+### Citationstillägg
+
+Daterade och append-only, utan att någon avskrift skrivits om: **C-0564,
+C-0565, C-0566, C-0567, C-0574** och **C-0576.**
+
+### Nya och befintliga uppgifter
+
+**Två nya, båda `BLOCKED` bakom T-0115:** **T-0621** (Sävars dödböcker —
+åldersräkningens bruk, Sara Rebeckas dödspost, folio 599) och **T-0622**
+(Björkviks `A I/17 a–b` för Sjöbergsfamiljen). `next_id` är 623.
+
+**Två befintliga uppgifter fick inkommande underlag i stället för nya:**
+**T-0275** (moderns födelsefönster) och **T-0452** (de tre utvandringarna).
+
+## Verification och Outcome
+
+**Uppgifts-DONE beskriver inte någon persons fullständighet.** **En akt når
+godkänd identitetsnivå** — P-0439, på två egna original i skilda serier — och
+**samtliga åtta står `Kontraktsgranskning: UNDERKÄND`.**
+
+- `node scripts/person-format.mjs` för kohorten: **0 formatfel.**
+- `node scripts/research-inventory.mjs --write` och `--check`: **Strukturfel 0.**
+- `node scripts/validate-genealogy.mjs`, `node --test scripts/`,
+  `node scripts/media-manifest.mjs --check`, `node scripts/goal-state.mjs`:
+  körda vid uppgiftens avslut.
+- Batchen är loggad **en gång**, som batch 605 i
+  `genealogy/research-log/2026-09-10.md`.
+
+**Kvarstående gränser.** **Fem av åtta akter vilar på en enda källa.**
+**Sävars åldersräkning är oprövad**, så **A-7957 kan inte avgöras.**
+**Åldersserien i A-7958 bygger på fyra uppgifter som inte är oberoende
+källor.** **Björkviksvägen är blockerad, inte prövad** — S-0457:s `403` gäller
+bildlänkarna. **Stina Lotta saknar efternamn**, och **inget får konstrueras.**
+**De tre utvandringarna är belagda enbart i kyrkoboksanteckningar.**
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-10.
+- Utfört: kohorten konsoliderad, åtta assertioner förda, sex citationstillägg,
+  en rättelse till föregående kohorts uppräkning, två nya uppgifter och
+  underlag till två befintliga.
+- Nästa ej utförda steg: inga — uppgiften är DONE. Programmet fortsätter med
+  T-0200.
+- Hinder: inga.
+
+## Införandesteg från T-0133
+
+2026-09-08: P-0438: dog efter nöddop, exakt dag okänd. P-0439: tomt dödsorsaksfält och hemvist, inte dödsort. P-0440: modern 22 och fulla reserverade dopvittnen. C-0564–0567 fullprövade.
+Full individuell akt-/profilgranskning ägs av denna befintliga kohort.
+Tillgodoräkna redan prövade fullposter och minimala anhörigrättelser.
+
+## Inkommet från T-0161, 2026-09-09
+
+**Kohortens tre Zingmark-personer utvandrade och det stod i en sparad bild.**
+Degerfors A II a/3 folio 963, fullbilden `F0013102_00192`, har i kolumnen
+`Utflyttad eller öfverförd` en klammer som omsluter raderna 17–20 med texten
+`Nordamerikas Förenta Stater` och datum **`8/4 07`**. Klammern gäller Nikanor
+Zingmark (P-0430) och **P-0441 Hilda Charlotta Andersson, P-0442 Alvar Rudolf
+och P-0443 Anders Gideon Nikanor**. Ingen av de tre hade uppgiften i sin akt;
+C-0574 beskrev anteckningen som olöst.
+
+Uppgiften är begränsat införd som A-6400, A-6401 och A-6402, läst 2026-09-09
+och kontrollerad centralt vid förstoring. Vid den individuella granskningen
+här: familjen lämnar Sverige när sönerna är två år respektive ett halvår, så
+allt svenskt material efter april 1907 saknas av ett skäl, inte av en lucka.
+Emigrant- och passagerarkällor är nästa väg och ligger i T-0430:s närhet;
+avgränsa den till en egen uppgift.

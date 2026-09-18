@@ -1,0 +1,147 @@
+# T-0094: Djup 6, Sverkers sida — femton anspetsar utan giltig arkivfront
+
+- Status: DONE
+- Storlek: M
+- Beroende: inga
+- Skapad: 2026-09-07 (PCD-2026-09-07-014)
+
+## Varför
+
+`node scripts/goal-state.mjs` visar att **djup 6 är den enda skiva som håller
+gemensamt djup kvar på 5**, och att blockeringen inte är ny arkivforskning
+utan frontprövning. Djup 6 är i övrigt i gott skick: 58 av 58 kända personer
+är granskade, och 51 av 58 är källbredd-klara.
+
+Av djupets 38 anspetsar utan giltig arkivfront ligger **femton på Sverkers
+sida**. Fjorton av dem faller på ett enda saknat fält.
+
+## Omfångsändring 2026-09-07 (batch 410, PCR-2026-09-07-015)
+
+**Uppgiften krympte från femton personer till sex.** Trettiotvå av de
+trettioåtta anspetsarna på djup 6 var aldrig ogiltiga; kontrollen krävde
+etiketten `Återaktivera när` medan akterna skriver `Återaktivering`.
+Substansen fanns. Kontrollen godtar nu alla tre etiketterna.
+
+Kvar på Sverkers sida:
+
+| Person | Brist | Åtgärdas här? |
+|---|---|---|
+| P-0125 Lars Andersson i Anderslund | villkor saknas helt | ja |
+| P-0148 Sofia Magdalena Jonsdotter | villkor saknas; har `Kvarstående motsägelse` | ja |
+| P-0159 Anna Stina Jonsdotter i Åkullsjön | villkor saknas; har `Kvarstående lucka` | ja |
+| P-0474 Carl Fredrik Grill | hela fronten saknas utom statusraden | ja, om akten bär underlaget |
+| P-0082 Jonas Andersson i Buberget | inget `## Slutstatus` | **nej — överlämnas till `T-0083`** |
+| P-0519 Ulrika Lovisa Jonsdotter | inget `## Slutstatus` | **nej — överlämnas till `T-0083`** |
+
+P-0082 och P-0519 skriver uttryckligen i sitt arbetsläge att **ingen arkivfront
+påstås** och att ursprunget är oprövat. Att ge dem en statusklass för att få
+måttet att gå jämnt upp vore att hitta på ett avslut.
+
+**Acceptanskriterium 1 ändras** därför till: noll anspetsar utan giltig
+arkivfront på Sverkers sida djup 6 **utom P-0082 och P-0519**, vilkas
+överlämning till `T-0083` är dokumenterad.
+
+## Ursprungligt omfång
+
+Femton personer, var och en behandlad var för sig:
+
+| Person | Nuvarande brist |
+|---|---|
+| P-0082 Jonas Andersson i Buberget | saknar hela `## Slutstatus` |
+| P-0125 Lars Andersson i Anderslund | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0126 Brita Kajsa Pehrsdotter | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0131 Adolf Fredrik Jansson | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0132 Eva Lotta Jonsdotter | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0145 Anders Olofsson, nämndeman i Rödå | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0148 Sofia Magdalena Jonsdotter | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0159 Anna Stina Jonsdotter i Åkullsjön | `ARKIVLUCKA`: saknar återaktiveringsvillkor |
+| P-0214 Lars Erik Jansson i Carlberg | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0289 Stina Larsdotter i Värsås | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0470 Carl Jonas Zingmark i Botsmark | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0471 Anna Sophia Holmström i Botsmark | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0472 Petter Reinhold Pehrsson i Ånäset | `IDENTITET OLÖST`: saknar återaktiveringsvillkor |
+| P-0474 Carl Fredrik Grill | `VERIFIERAD`: saknar förväntad källa, genomsökt, återaktiveringsvillkor och belägg med giltig C-referens |
+| P-0519 Ulrika Lovisa Jonsdotter i Buberget | saknar hela `## Slutstatus` |
+
+## Kunskapsresultat
+
+För varje person: **en saklig prövning av om den redovisade avgränsningen
+håller**, och därefter en `## Slutstatus` med north stars fyra obligatoriska
+fält — förväntad källa, genomsökt omfång, bevarad negativ kontroll och
+återaktiveringsvillkor.
+
+Prövningen ska besvara två frågor per person:
+
+1. Är statusklassen sakligt riktig för det som faktiskt är genomsökt?
+2. **Vad skulle öppna fronten igen?** Svaret ska vara en namngiven källa,
+   serie eller omständighet — inte en allmän formulering.
+
+## Uttryckligt utanför omfånget
+
+- **Ingen ny arkivforskning bakåt om föräldrarna.** Uppgiften prövar fronter,
+  den flyttar dem inte.
+- **Ingen ändring av statusklass utan nytt belägg.** Om prövningen visar att
+  en klass är sakligt fel skapas det som eget arbete och ändras inte i
+  förbigående.
+- **Ingen mallformulering.** North star förbjuder uttryckligen att en
+  generell standardmotivering kopieras över många personer. Fjorton likadana
+  återaktiveringsvillkor är ett underkänt resultat.
+- Källbreddsfrågorna för P-0082, P-0123, P-0126, P-0131, P-0132 och P-0519
+  ägs av `T-0083` och rörs inte här.
+
+## Acceptanskriterier
+
+1. `node scripts/goal-state.mjs` visar **noll anspetsar utan giltig arkivfront
+   på Sverkers sida på djup 6**.
+2. Varje ändrad akt har en daterad rad i forskningsloggen som visar **vad som
+   prövades** och varför återaktiveringsvillkoret ser ut som det gör.
+3. `node scripts/validate-genealogy.mjs`, `node scripts/research-inventory.mjs`
+   och `node --test scripts/` är gröna.
+4. Ingen av de femton motiveringarna är ordagrant lika någon annan.
+
+## Faser
+
+- **F1** Läs de femton akternas `## Slutstatus` och deras profiler där sådana
+  finns; sammanställ vad var och en faktiskt har genomsökt.
+- **F2** Pröva statusklassen och formulera återaktiveringsvillkoret per person.
+- **F3** Skriv in fronterna, logga passet och kör kontrollerna.
+
+## Återupptagning
+
+Ingen. Uppgiften är inte påbörjad.
+
+## Avslut 2026-09-07 — fyra fronter skrivna, två överlämnade
+
+### Utfört
+
+Fyra fronter prövade och kompletterade (batch 411): **P-0125**, **P-0148**,
+**P-0159** och **P-0474**. Varje villkor namnger en källa, serie eller
+omständighet, och inget är ordagrant likt något annat.
+
+P-0474 fick hela fronten skriven — den bar bara en statusrad — plus en
+uttrycklig **anmärkning om statusklassen**: `VERIFIERAD` avser att den källa
+som bär föräldrafrågan är läst, och klassen bör prövas om ifall
+häradsrättsvägen eller bouppteckningen öppnas. Klassen ändrades inte.
+
+### Överlämnat till T-0083
+
+**P-0082** och **P-0519** kan inte få en giltig arkivfront inom detta omfång.
+Båda skriver uttryckligen att ingen arkivfront påstås och att ursprunget är
+oprövat; P-0082:s Degerforskandidat 1796 står som `LEAD`, inte sluten. En
+statusklass som sätts för att få måttet att gå jämnt upp vore ett påhittat
+avslut. `T-0083` äger deras källbredd och kan skriva fronterna när den
+prövningen är gjord.
+
+### Måttdelta
+
+Sverkers sida, djup 6: anspetsar utan giltig arkivfront **15 → 2**, varav
+32 av de ursprungliga 38 aldrig var ogiltiga (batch 410, etikettfelet).
+
+### Verifiering
+
+`node scripts/goal-state.mjs` visar två kvarvarande, båda namngivna ovan;
+`validate-genealogy.mjs` OK; `research-inventory.mjs` strukturfel 0;
+`node --test scripts/` 29 gröna; `git diff --check` rent.
+
+Status: **DONE**, med acceptanskriterium 1 uppfyllt i sin ändrade lydelse
+(noll utom P-0082 och P-0519, vilkas överlämning är dokumenterad).

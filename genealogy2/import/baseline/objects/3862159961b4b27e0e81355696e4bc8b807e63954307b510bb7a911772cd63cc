@@ -1,0 +1,50 @@
+# T-0001: Initialize provenance-first genealogy workspace
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context
+
+The repository is empty. The user wants conventional genealogical organization,
+Wotan task continuity, and full provenance for every recorded claim.
+
+## Acceptance Criteria
+
+- [x] Define stable identifiers and evidence states for people, relationships,
+      assertions, sources, citations, and media.
+- [x] Create research-log, person, source, citation, and media locations.
+- [x] Record the supplied Zingmark information as leads, not verified facts.
+- [x] Document the exact citation fields required for Riksarkivet material.
+- [x] Provide a reusable full-biography person template.
+- [x] Verify that the initial files are internally linked and machine-readable
+      where applicable.
+
+## Approach
+
+Use Markdown research files as the evidence-bearing source of truth. Record every
+claim in an assertion table and point it to a citation record. Keep unverified
+online-tree data explicitly separate from primary-source conclusions. Export a
+GEDCOM only from verified assertions after the first evidence round.
+
+## Log
+
+- 2026-08-19: Created as the first Wotan task after explicit user request.
+- 2026-08-19: User expanded scope from vital events to all discoverable
+  biographical data. Added a broad but assertion-level capture model and a
+  reusable person-dossier template.
+
+## Verification
+
+- `jq empty wotan/backlog.json` succeeded.
+- Required person, source, citation, template, media, export, and research-log
+  locations exist.
+- `rg` confirmed evidence states, the identified archive reference, citation
+  rules, and biography coverage are present and cross-referenced.
+
+## Outcome
+
+Initialized a provenance-first genealogy workspace. Online-tree data is retained
+as searchable `LEAD` evidence, while primary-source citations require exact
+archive, series, volume, page/image, image-id, access date, transcription,
+interpretation, uncertainty, and optional media checksum. Added a reusable full
+biographical dossier template and privacy rule for living people.

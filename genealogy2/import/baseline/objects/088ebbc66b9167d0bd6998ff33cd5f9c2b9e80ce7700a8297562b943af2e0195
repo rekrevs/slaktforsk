@@ -1,0 +1,111 @@
+# T-0123: Konsolidera konfliktsignal, djup 3 sida S från P-0003
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0003
+
+## Scope och underlag
+
+Exakt dessa 1 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 54 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0001, C-0005, C-0006, C-0007, C-0008, C-0010, C-0011, C-0014, C-0016, C-0029, C-0030, C-0031, C-0032, C-0033, C-0034, C-0039, C-0086, C-0261, C-0262, C-0263, C-0266, C-0267, C-0876, C-0882, C-0883, C-0884, C-0885, C-0894, C-0895, C-0896, C-0897, C-0909, C-0910, C-0923, C-1047.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+P-0003,2026-09-07, person-dossier/v1 och person-research/v1.
+Samtliga54baslinjeassertioner, deras källor och senare rättelser lästa;
+C-0924/S-0727 tillkom genom täckningsavstämningen. Format godkänt,
+saklig konsolidering genomförd med56A och individuell profil.
+IdentitetPRÖVAT/farOWNER_CONFIRMED består; identitetsnivåUNDERKÄND/
+AVVAKTAR påPK05/11; full nivåUNDERKÄND på individuella rester.
+Dop/förstaäktenskap/adresser/omsorg/register-/gravräckvidd rättade.
+T0227fullöppnadpost/provenans, T0228hushåll1923–30 och T0229två
+katalogvägar äger rester efter T0115. Batch527 är enda batchlogg.
+P0005/7/9/15/16/42/43 har smal följdavstämning; P1/2 dessutom
+begränsad katalogkvalificering. Fullägare T0125/T0129/T0147/T0149/
+T0150/T0153/T0157 har adoption; ingen extra slutgranskadperson räknas.
+
+## Verification och Outcome
+
+Root har läst slutakt/profil och alla rapporterade följder; oberoende
+efterläsningar av kyrkobokskedja respektive vuxen-/familjedel sakligt
+godkända. Metadata-/länkrättelser genomförda. Kontroller: validator
+3627assertions/2622MD/5010media; inventering128profiler/0strukturfel,
+45identitetsgodkända/BÄRANDE och8fullgodkända; --check0.
+50tester passerar, mediemanifest5009OK, kohortformat1/0, coverage538/0.
+Goal-state registreratdjup5 är separatindikator. Diffkontroll fann
+en extra slutblankrad som togs bort; omkörning ren. Inget dashboard
+uppdaterat, inget commit/push.45/538 individuellt granskade, inte
+45kontraktsgodkända. Alla kriterier i uppgiftens omfång uppfyllda.
+
+## Återupptagning
+
+- Uppdaterat:2026-09-07, efter individuell källgranskning och första aktimplementation.
+- Utfört: root och tre skrivfria källgranskningar har läst Arnes befintliga
+  underlag. Root har append-only rättat räckvidd i C-0008/C-0030–34/
+  C-0909/C-0910/C-0882/C-0884/C-0885/C-0923/C-1047/C-0896/
+  C-0266/C-0029/C-0086. Dop1916-10-22/Torsten Petri, första
+  äktenskapet för båda1938, adresser och faktisk omsorg kontra bokföring
+  är avstämda. PK05-rest C8faddrar/C34kol7-förrättare/C1047målpost;
+  PK11-rest C1047/C923lokaloriginal. C30–32/894–95 Arnes egna
+  kristendomsfält redan prövade.
+- Delvis utfört: P-0003 akt56A (54bevarade+A4220/A4221) och profil
+  omskrivna; ännu inte rotens slutliga sak-/formatgranskning.
+  P0009/P0042/P0043 och P0005/P0007/P0015/P0016 har minimal
+  följdrättelse med befintliga profiler/fullägarnas devloggar, räknas inte
+  som extra slutgranskade. T0227/T0228 skapade efter T0115.
+- Nästa ej utförda steg: oberoende efterläsning av färdig P3akt/profil,
+  kontrollera anhörigändringarna, avstäm source-coverage/frontier samt
+  gamla T0074IDEA, logga batch527 en gång och kör alla kontroller.
+- Verifiering: föregående kohort3625A/128profiler/49BÄRANDE var grön;
+  aktuella ändringar ännu inte fullverifierade. Aktuell batch527ej loggad.
+- Hinder: inga. Backlog nästa id229.
+
+## Körstart 2026-09-07
+
+T-0122 verifierad DONE,44/538akter granskade. P-0003:s54assertioner
+skall konsolideras individuellt mot alla befintliga citationer och
+OWNER_CONFIRMED, inte ny ursprungsforskning. Root läser hela akt/profil
+och äger deras ändringar, delade belägg, logg och Wotan. Oberoende
+bundna källgranskningar kan delegeras skrivfritt. Nästa: läs akten och
+profilen, inventera alla sakpåståenden/senare rättelser.
+
+## Återupptagning 2026-09-07 — avslutad
+
+T-0123 verifierad DONE, batch527,45/538. T0227–0229 är avgränsade
+och väntar påT0115. C0924personbundenräckvidd har omprövats och
+andra berörda fullägare fått adoption. Inget inomkohorten återstår.
+Fortsätt T-0124 utan paus enligt sammanhängande körning. NästaA4222,
+backlognext_id230; ingen nyA-allokering gjord.

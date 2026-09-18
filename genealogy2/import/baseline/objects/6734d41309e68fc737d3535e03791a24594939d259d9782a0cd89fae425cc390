@@ -1,0 +1,56 @@
+# T-0508: Anders Erikssons spår efter 1834
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0171 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0224](../../genealogy/people/P-0224-anders-eriksson-sannerby.md),
+sidoperson. **Fyra passager, i denna ordning:**
+
+1. **A I/6:s egna flyttkolumner på hans rad.** Hans rad i faderns hushåll
+   1830–1834 är **överstruken**, och ingen utflyttning eller död är belagd.
+   Bilden är lokalt bevarad, så passagen kräver **ingen ny åtkomst**.
+   Överstrykningen kan betyda tjänst, flyttning, vigsel eller död, och boken
+   har egna kolumner som skiljer fallen.
+2. **A I/7 och kringliggande gårdar i Årdala**, sökt på datumet `23/3 1814`.
+   Han var 16–20 år, alltså i den ålder då söner togs i tjänst i socknen.
+3. **Årdalas flyttningslängder omkring 1830–1836 och dödböckerna samma tid.**
+4. **Beväringslängder och regementsrullor från omkring 1835.** Han nådde
+   beväringsålder **strax efter** att raden ströks, vilket är den enda
+   personbundna militära ingång kohorten har.
+
+Utanför: hans föräldrars fulla granskning, som är gjord i T-0171; en
+kandidatidentifiering på namn och socken utan datumet `23/3 1814` — `Anders
+Eriksson` är informationssvagt i Södermanland; nya generationer.
+
+## Acceptance Criteria
+
+- Passage 1 redovisar **varje** kolumn på hans rad som avskriven, tom eller
+  oläst enligt `person-standard.md`, och överstrykningens innebörd avgörs
+  eller redovisas uttryckligen som olöst.
+- Varje passage har positivt, exakt negativt eller olöst utfall med volym,
+  sida, årgång, bildintervall och läsdatum.
+- Hela öppnade poster utvinns med sparad kopia och hash. En identifiering
+  kräver **datumet `23/3 1814`** eller en annan personbindande uppgift.
+- P-0224:s akt, profil, teman och kontraktsnivåerna avstäms; `Trädverkan`
+  förblir `EJ BÄRANDE` av sakskäl, inte av brist.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0168:s tillägg och P-0224:s profil först. Passage 1 är gratis: bilden
+finns lokalt och kolumnerna på hans rad är olästa. Inga beställningar,
+kontakter, dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0171:s granskningsutfall.
+- Nästa ej utförda steg: läs flyttkolumnerna på hans rad i den sparade bilden
+  av Årdala A I/6 sida 157.
+- Hinder: BLOCKED bakom T-0115.

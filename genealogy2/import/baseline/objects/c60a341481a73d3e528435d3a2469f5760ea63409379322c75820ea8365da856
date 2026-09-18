@@ -1,0 +1,97 @@
+# T-0114: Inventera samtliga personakter och fördela fasta granskningskohorter
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+Ägaren godkände föreslaget program 2026-09-07: ”vi gör precis som du föreslår”. Se PCD-2026-09-07-026. Programmet prioriteras före fortsatt frontforskning. Beroenden: T-0113.
+
+## Scope och plan
+
+Omfång: samtliga befintliga personakter (utgångsläge 538), profiler och överlappande Wotan-uppgifter. Ingen massgodkänning eller ny arkivforskning.
+
+## Acceptance Criteria
+
+- [x] En daterad, reproducerbar P-id-lista omfattar varje befintlig akt exakt en gång, inklusive pilotens nio; inga kandidater eller sidopersoner faller utanför.
+- [x] Profilbrist, formatavvikelse, känd motsägelse och behov av sakgranskning är registrerade per person. Automatisk signal är inte sakligt friande utfall.
+- [x] Namngivna ändliga M-kohorter skapas i backlog/dev-log enligt pilotens arbetsmängd, med fasta P-id:n, underlag, stoppgräns och acceptanskriterier. Pilotpersoner tillgodoräknas och räknas inte som ogranskade igen.
+- [x] Kända motsägelser/identitetsrisker får företräde, därefter närmaste generation balanserat på båda sidor och sammanhållna hushåll; fristående sidopersoner/kandidater får explicita kohorter.
+- [x] T-0054, T-0099, T-0083 och övrig överlappande kö stäms av per faktiskt resultat. Kvarvarande forskning behåller tydlig ägare. Ingen uppgift blir DONE enbart för att en profil skapats.
+- [x] T-0115:s after-lista utökas med samtliga kohortuppgifter innan denna uppgift avslutas. T-0110 behåller sitt separata fördefinierade slumpurval.
+- [x] Regel för nytillkomna akter och kontroll mot totalmängden före slutrevision är införd; utförande ligger endast i Wotan.
+
+## Approach
+
+Frys medlemslistan vid start, läs piloten, inventera struktur maskinellt och för in kända sakfynd. Fördelningen finns i kohorternas dev-loggar och verifieras mot hela people-katalogen. Inventeringen gör inte anspråk på att redan ha sakgranskat alla akter.
+
+## Log
+
+- 2026-09-07: skapad enligt ägarbeslutet. Tidigare ocommittad forskning bevaras.
+
+## Verification
+
+Täckningskontroll:538 personer,0 fel. Tester:50/50. Validator, inventering och mediekontroll godkända. Pilotformat:9/9. git diff --check utan fel. Slutstatusrubriken för P-0051 återställd efter upptäckt parserregression; personformat0fel och registrerat gemensamt djup åter5, utan ändrad sakbedömning.
+
+## Outcome
+
+538 akter fördelade exakt en gång, nio pilotutfall tillgodoräknade,529 kvar till87 namngivna kohorter. Överlappande uppgifter och slutrevisionens verkliga beroenden avstämda. Ingen automatisk saklig frikännande bedömning.
+
+## Återupptagning
+
+- Uppdaterat:2026-09-07.
+- Utfört: samtliga kriterier verifierade; uppgiften DONE.
+- Nästa ej utförda steg: T-0117, Jomarkfamiljens fem akter.
+- Hinder: inga.
+
+## Körstart 2026-09-07
+
+T-0113 verifierad DONE, batch520. Fryser nu aktuella538 P-id:n,101 profiler och pilotens nio godkända formatutfall. Inventeringen granskar fördelning och kända risker, inte ännu alla personers sakliga innehåll.
+
+## Fördelning och samordning
+
+Fryst baslinje: [T-0114-inventory.json](T-0114-inventory.json),538 unika
+P-id:n,101 profiler,437 profilbrister,91 maskinella CONFLICT-signaler.
+529 akter har formatavvikelse före sin kohort. Nio pilotakter tillgodoräknas
+som T-0113. Återstående529 fördelade till87 fasta kohorter T-0117–T-0203;
+varje dev-log anger namngivna medlemmar, initialt citationsindex, omfång,
+exklusioner och individuella acceptanskrav. Små slutrester på1–3 personer
+beror på risk/djup/sida och hushållsgräns, inte en task-per-person-princip.
+
+Först: Jomark(T-0117), Årebolet(T-0118), Storbränna(T-0119), Högsjö(T-0120)
+och Korsberga/Värsås(T-0121/T-0122). Därefter risksignaler, sedan närmaste
+registrerade generation med växling mellan sidor; fristående akter har
+explicita restkohorter. Registrerat djup är planeringssignal och upphäver
+inte profilernas identitetsgrind. Alla får sakgranskning även utan signal.
+
+T-0115:s verkliga after-lista innehåller samtliga87 kohorter samt T-0110
+och T-0114. Inga forskningstasks görs till falska blockerande prioriteringar.
+
+- T-0054 behåller96 frysta strukturdispositioner och4 täckningsrader.
+  Kohortresultat tillgodoräknas exakt; den separata mantalsuppgiften T-0051
+  blockerar bara T-0054. P-0123 granskas i T-0135, P-0126/P-0132 i T-0137,
+  P-0131 i T-0165. Profilförekomst ensam uppfyller inte struktursakprövningen.
+- T-0099 har3 redan införda profiler och25 saknade av28. Kriteriet är nu
+  28/28 individuellt bedömda, med nya/uppdaterade/tillgodoräknade perid.
+  Inget krav på nya fakta eller tio teman har sänkts. Efter kohorterna
+  prövas dess kriterier mot verifierade personutfall före eventuell DONE.
+- T-0083 behåller checkpoint519. Redan införda slutstatusar och C-1092:s
+  flytt1860 ska tillgodoräknas; ekonomi och öppna källceller kvarstår.
+- T-0093 behåller båda hushållens kyrkliga frågor; pilotens korrigeringar
+  och T-0116:s senare utvinning får inte upprepas.
+- T-0105:s premisser uppdaterade med pilotens noll-/täckningsrättelser;
+  själva Bodanbryggan återstår. T-0204 äger Lars/Stinas vigselankare1819–1821,
+  en annan källfamilj före eventuellt fler födelseår. T-0108 äger Lars föräldrar.
+- T-0116 äger pilotens exakta utvinningsluckor. Övriga ursprungs-/livsbilds-
+  frågor ligger öppna med individuella Q/KP; konkret beslutat följdarbete
+  avgränsas av berörd kohort före DONE, med återbruk av existerande tasks.
+
+### Nytillkomna akter och ändrat underlag
+
+Baslinjens medlemskap skrivs inte om när akterna redigeras. En ny person
+ska före programavslut tilldelas en separat ändlig kohort och bli ett
+verkligt after-beroende för T-0115. Saknade nytillkomna akter är ett
+slutrevisionsfel. Rättelser efter en kohorts DONE prövas i en namngiven
+avgränsad följduppgift eller dokumenterad omprövning; inget tyst godkännande.
+Wotan äger all utförandestatus. Baslinjens reviewTask är endast en fryst
+täckningshänvisning, inte en andra kö.

@@ -1,0 +1,138 @@
+# T-0128: Konsolidera konfliktsignal, djup 5 sida K från P-0336
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0336, P-0364
+
+## Scope och underlag
+
+Exakt dessa 2 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 156 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0322, C-0323, C-0326, C-0366, C-0367, C-0368, C-0369, C-0370, C-0371, C-0382, C-0383, C-0386, C-0387, C-0441, C-0442, C-0443, C-0444, C-0445, C-0473, C-0474, C-0475, C-0476, C-0477, C-0480, C-0481, C-0482, C-0521, C-0588, C-0601, C-0604, C-0609, C-0610, C-0611, C-0615, C-0616, C-0617, C-0618, C-0619, C-0620, C-0622, C-0627, C-0628, C-0629, C-0630, C-0631, C-0632, C-0633, C-0634, C-0635, C-0636, C-0637, C-0638, C-0639, C-0640, C-0641, C-0642, C-0643, C-0644, C-0647, C-0648, C-0649, C-0650, C-0651, C-0672, C-0673, C-0679, C-0680, C-0688, C-0693, C-0697, C-0701, C-0703, C-0709, C-0714, C-0719, C-0722, C-0726, C-0730, C-0738, C-0742, C-0747, C-0762, C-0770, C-0774, C-0792, C-0797, C-0800, C-0803, C-0806, C-0809, C-0812, C-0815, C-0827, C-0828, C-0866, C-0945, C-0963.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+| Person | Datum/standard | Granskat underlag | Format/konsolidering | Identitetsnivå | Full nivå | Gränser och följdägare |
+|---|---|---|---|---|---|---|
+| P-0336 | 2026-09-08, person-dossier/v1 och person-research/v1 | Samtliga155A, egna citationer/rättelser och originalfält; källa-/metodgränser | GRANSKAD,0formatfel; datum/adress/civilstånd/routing rättade | UNDERKÄND/AVVAKTAR, PK-05/11 | UNDERKÄND även PK-03/04/08 | Egen födelse/föräldrar olösta; originalfortsättning/kopior T-0255, folio587 T-0256, avvittring T-0257; T-0051/T-0232 återanvänds |
+| P-0364 | 2026-09-08, samma standarder | A-2041, C-0367–0370 samt vuxna motposter C-0382/383; fulla familjefält,15bildhashar | GRANSKAD,0formatfel, ny individuell profil | GODKÄND/BÄRANDE för Eric, ingenP-0336-länk | UNDERKÄND PK-03/08 | Eget ursprung/livsslut öppna, Brattåsbryggor och hustrudöd T-0254 |
+
+## Verification och Outcome
+
+[Batch532](../../genealogy/research-log/2026-09-08.md#batch-532--t-0128-olaus-fredberg-och-den-separata-brattåsfamiljen)
+äger forskningspassagen. Root efterläste båda akterna, prövade avgörande
+originalfält oberoende och fick generiska barnperioder samt C-0800:s
+outvunna familjefortsättning rättade före slutstatus.
+
+Format2/0, täckning538/0; inventory--write/--check135profiler/0fel,
+30identitetsgodkända och8fullgodkända. Validator3650A/2630MD/5010media,
+Wotan giltig.50/50regressionstester. Media--write/--check5009poster,
+3083exact/1882source/28citation/16unlinked; diff--check rent. Goal-state
+registrerat djup4, P-0250:s egen död fortsatt D1. Dashboard orörd.
+
+Uppgiften är klar inom fast konsolideringsomfång; **65/538** personer
+fullgranskade i programmet. Varken alla personer eller projektmål är klara.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Återupptagning — start efter T-0127
+
+2026-09-08: Föregångaren verifierad DONE, 63/538 fullgranskade.
+P-0336/P-0364 är fast nästa kohort, 156 baslinje-A. Nästa lediga A-id
+4272, backlog next_id 254 och nästa batch 532. Root äger delade filer,
+Wotan och logg. Nästa ej utförda steg: läs båda personerna och profilerna
+mot samtliga egna citationer och senare familjerättelser. Ingen ny
+arkivsökning ingår, inga hinder.
+
+## Återupptagning — personbunden originalgranskning
+
+2026-09-08: pilot_parents äger P-0336 akt/profil, A-4272–4279.
+pilot_private_candidate äger P-0364 akt/ny profil, A-4280–4283.
+pilot_varied gör läsande eftergranskning av P-0336:s vuxenliv. Root
+äger delade citationer, Wotan/log och övriga A-id från 4284.
+
+C-0963/S-0752 har fått rättelse: mantalsvolymen var redan hittad i
+C-0866/S-0679, G 1 BA:76/35 bild 86, nr 1217/stort 3553. T-0051:s
+exakta mantalsuppgift G 1 BB:44/20 är oläst, men dess katalog visades
+redan utan ALTCHA som Läsesal. Root har sett fulla längdbilder 85–86;
+fulla egna noteringar prövas, ingen ny volymsökning.
+
+C-0601 fullattest läst av root/parents: `1852 Femtio två den 4 September`,
+inte `eller` eller två dateringsalternativ. Rättelse och egna fält finns
+appendade. C-0475 dödpost läst av root/varied: födelse 52 4/9, kategori
+änkling eller frånskild (inte gift), folio 587, Arterioskleros + Pneumonia
+acuta och dödsortskolumn tom. Rättande tillägg finns. C-0474:s egen
+födelsefält 18 24/9 52 är oberoende prövat men ännu inte appendat;
+vittnes-/avvittrings-/dopfält utvinns av varied och följer därefter.
+
+P-0364:s familjefält, dopvittnen och hustruns maj 1859-död prövas;
+root har sett datum-/fadder-/mågnärbilder, hela dödkolumnen återstår.
+T-0254 reserveras för fast maj 1859 och närmaste hushållsbryggor,
+men är ännu inte skapad; next_id fortfarande 254. Batch 532 ej loggad.
+Nästa steg: slutför originalfält/citationer, båda personerna/profilerna,
+minimala anhörigföljder och fasta följdägare före slutkontroller. Inga hinder.
+
+
+## Återupptagning — rättelser och följdägare registrerade
+
+2026-09-08: C-0367/368,382/383,474,475,601,644,649,800,866,945,963
+har rootens tillägg (475/601/963 från tidigare delpass). Motsvarande
+S-0305/0306/0377/0378/0468/0495/0679/0752 stämda av. C-0644 hela
+raden nu faktiskt prövad med råreservation; PK-05-rest där bortfaller.
+Fyra oberoende egna original har felavskrifter rättade; C-0474:s24 september
+är verklig avvikelse från4 september. Alnö/Upplandsgatan korrigerar
+Maria/Kungsholmsgatan. C-0866 redan hittad; T-0051 exakt mantalsuppgift.
+
+T-0254–0257 skapade efter T-0115; next_id258. Minimal P-0365 A-4284,
+P-0397 A-4285, P-0367/P-0395 kommentarer rättade; fulladoption T-0144,
+T-0195 respektive T-0160. RootnästaA4286. P-0364 färdig och efterläst;
+P-0336 akt/profil slutjusteras av parents. Batch532 ännu ej loggad.
+Nästa steg: slutläs P-0336, kontrollera följduppgifter/omfång, generera
+inventering/media, kör samtliga ändamålsenliga kontroller och logga532.
+Inga hinder; ingen ny arkivsökning, inga ändringar av dashboard.
+
+
+## Återupptagning — verifierad avslutning
+
+2026-09-08: DONE efter egen eftergranskning och lästa kontroller ovan.
+Inget kvar i T-0128. T-0254–0257 ligger efter T-0115; next_id258,
+rootnästaA4286, nästa batch533. Fortsätt sammanhängande till T-0129
+(P-0042/P-0065), utan att återupprepa denna batch. Inga hinder.

@@ -1,0 +1,82 @@
+# T-0020: Rewrite HANDOVER as a short state page and move per-person state out of the research plan
+
+## Context
+
+`HANDOVER.md` (3,565 lines) and the `Aktuell front` section of
+`genealogy/research-plan.md` (about 840 lines) carry batch-by-batch state
+that the research log already preserves. Under `PCD-2026-09-04-001` the
+handover becomes a short page that is rewritten, and the research plan
+becomes method only.
+
+## Acceptance Criteria
+
+- [x] `HANDOVER.md` is at most about 100 lines: start order, current Wotan
+  slice, the goal-state command, workspace rules, and pointers. No batch
+  history.
+- [x] Every section removed from `HANDOVER.md` is preserved verbatim in
+  `genealogy/research-log/handover-archive-2026-09-04.md`.
+- [x] `genealogy/research-plan.md` keeps goal, method, consolidation pass,
+  done-definition, edition gate, privacy and review; the per-person
+  `Aktuell front` notes are moved verbatim to
+  `genealogy/research-log/front-notes-archive-2026-09-04.md` and the
+  summary table to `genealogy/frontier.md`.
+- [x] All links still resolve.
+
+## Verification Plan
+
+### Hard Endpoints
+
+- [x] `node scripts/validate-genealogy.mjs`
+- [x] `wc -l HANDOVER.md genealogy/research-plan.md`
+- [x] `diff` of removed text against the archive files shows no loss
+
+### Manual Checks
+
+- [x] A new agent can start from HANDOVER without reading batch history.
+
+### Risks
+
+- Losing a still-current instruction buried in the handover; scan the
+  rules sections (`Riksarkivet`, `Dashboard`, `Arbetsyta`) and keep them.
+
+## Approach
+
+Move, do not delete. Extract sections with line ranges, write archives,
+then rewrite the two files.
+
+## Implementation Notes
+
+- 2026-09-04: Copied the entire 3,565-line `HANDOVER.md` verbatim to
+  `genealogy/research-log/handover-archive-2026-09-04.md` (diff-verified),
+  then rewrote `HANDOVER.md` as a 71-line state page: start order, current
+  state under `PCD-2026-09-04-001`, always-valid working rules (Riksarkivet
+  order by pointer, no orders/PDF/commit/push, dashboard identity, git
+  hygiene) and the verification command list. Per-source "do not repeat"
+  notes were not carried; they live in dossiers, citations and the coverage
+  matrix.
+- Moved `research-plan.md` lines 148–1005 (`Aktuell front` and
+  `CAPTCHA-återaktivering 2026-09-01`) verbatim to
+  `genealogy/research-log/front-notes-archive-2026-09-04.md` (diff-verified)
+  and replaced them with a pointer section. The research plan is now 174
+  lines of method. The per-depth summary table moved to `frontier.md` under
+  its own heading with a note that it counts from P-0004/P-0210 while
+  `goal-state` counts from Adam and Axel.
+- Corrected `frontier.md`'s "sönernas djup 4" to "sönernas djup 5, det vill
+  säga djup 4 från P-0004 och P-0210".
+
+## Obstacles
+
+## Verification Evidence
+
+- `tail -n +10 handover-archive | diff - HANDOVER.md(old)`: identical.
+- `diff` of the moved research-plan range against the archive: identical
+  apart from one leading blank line in the archive header.
+- `wc -l`: HANDOVER.md 71, research-plan.md 174, frontier.md 988.
+- `node scripts/validate-genealogy.mjs`: OK, 1983 Markdown records, no
+  broken links. `node --test scripts/`: 11 pass.
+
+## Outcome
+
+Done 2026-09-04. A new session starts from a 71-line handover plus the
+goal-state command. Nothing was deleted; both archives are in the research
+log. No commit made.

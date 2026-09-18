@@ -1,0 +1,20 @@
+{
+  people: 8,
+  changes: 469,
+  spans: 39,
+  decisions: 792,
+  requestHash: '81d191b1a143d03fb66f8ba833d51a919d85fffb00bee42ac64c71029857e046',
+  dir: '/var/folders/m9/vh359xh12xv4d28_6sd260x80000gq/T/genealogy2-T0662-preflight-TV6M4u'
+}
+file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:47
+  if(m.kind==='event'&&!['birth','baptism','confirmation','banns','marriage','divorce','death','burial','registered_arrival','registered_departure','residence','other'].includes(m.data.event_type))throw Error(`Okänd händelsetyp: ${m.id}/${m.data.event_type}`);
+                                                                                                                                                                                                           ^
+
+Error: Okänd händelsetyp: E-migration-P-0529/migration
+    at validatePayload (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:47:204)
+    at file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:115:21
+    at transaction (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/store.mjs:95:22)
+    at applyOperation (file:///Users/sverker/repos/slaktforsk/genealogy2/lib/domain.mjs:71:10)
+    at file:///Users/sverker/repos/slaktforsk/genealogy2/migration/persons-11-support/preflight.mjs:28:15
+
+Node.js v26.8.1

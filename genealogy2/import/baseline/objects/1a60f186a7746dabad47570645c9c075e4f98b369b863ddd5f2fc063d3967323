@@ -1,0 +1,68 @@
+# T-0504: Östra Husbys ortregister för `Wiiklo[?]` och byns husförhörslängd
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0170 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0504](../../genealogy/people/P-0504-mans-hakansson-ostra-husby.md) och
+[P-0505](../../genealogy/people/P-0505-anna-jonsdotter-ostra-husby.md), båda
+anspetsar, med följdpåverkan på
+[P-0360](../../genealogy/people/P-0360-carl-mansson-gaddestad.md).
+**Fyra passager, i denna ordning:**
+
+1. **Ortfrågan.** Sonens födelsepost 1796 anger `Bond. Måns Håkansson i
+   Wiiklo[?]`. Citationen lämnade ordet oläst; T-0170 läste bokstavsföljden
+   **`W-i-i-k-l-o`** med möjlig avslutande `ö` vid 500 %, men
+   **identifieringen mot socknens byar är inte gjord.** Detta är en
+   katalogfråga: Östra Husbys ortregister eller jordebok. Jämförelsematerial
+   finns på samma uppslag, där byar som `Smedstorp`, `Fyllinge`,
+   `Gladingsta[?]`, `Oklunda[?]` och `Malby[?]` skrivs i samma bok.
+2. **Byns husförhörslängd omkring 1790–1800**, som skulle ge **Måns
+   Håkanssons ålder** — han har i dag ingen åldersuppgift alls — hemmansdel,
+   hustruns ålder ur en andra bok och hela barnaskaran. Hon var omkring 38 år
+   1796, så äldre syskon till Carl är sannolika men obelagda.
+3. **Vigselposten**, som normalt namnger hustruns hemvist före äktenskapet.
+   Med hennes ålder kan vigseln ligga långt före 1796.
+4. **Vittnesbyarna `Fyllinge` och `Smedstorp`** för dopets fyra vittnen, som
+   samtliga bär `Andersson`/`Andersdotter`. Utfallet för föräldrarnas egna
+   patronymikon är redan **negativt**, så passagen är svag och tas sist.
+
+Utanför: att välja en by ur ett register enbart på namnlikhet — formen måste
+stämma med den lästa bokstavsföljden; att välja en namne på patronymikon och
+barnets ort; nya generationer utan original; P-0360:s egen granskning, som
+ägs av T-0162.
+
+## Acceptance Criteria
+
+- Passage 1 avgörs mot **ortregister eller jordebok** med angiven källa, eller
+  redovisas uttryckligen som olöst med de kandidater som prövats mot
+  bokstavsföljden.
+- Östra Husbys A I-serie för 1790-talet är **katalogidentifierad**.
+- Varje passage har volym, sida, årgång, bildintervall och läsdatum; ett noll
+  är avsnitts- och årgångsbundet.
+- Hela öppnade poster utvinns med kolumnredovisning enligt
+  `person-standard.md`, sparad kopia och hash. **En hushållsrad ska ge Måns
+  Håkanssons ålder** — det är uppgiftens viktigaste enskilda utfall.
+- Båda akterna, profilerna, temana och kontraktsnivåerna avstäms; fynden om
+  P-0360 rapporteras till T-0162.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0838:s daterade tillägg och de två profilerna först. Ortfrågan är
+billig och avgör passage 2–4. Patronymikonet `Håkansson` är **ovanligt i
+Östergötland** och är den starkaste sökbara nyckeln. Inga beställningar,
+kontakter, dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0170:s granskningsutfall.
+- Nästa ej utförda steg: slå upp bokstavsföljden `Wiiklo[?]` i Östra Husbys
+  ortregister.
+- Hinder: BLOCKED bakom T-0115.

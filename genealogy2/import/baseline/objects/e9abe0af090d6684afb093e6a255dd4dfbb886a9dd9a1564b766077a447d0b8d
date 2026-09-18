@@ -1,0 +1,230 @@
+# T-0132: Konsolidera konfliktsignal, djup 5 sida S från P-0133
+
+**Status**: DONE | **Size**: M
+**Phase**: DONE
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0133, P-0134
+
+## Scope och underlag
+
+Exakt dessa 2 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 136 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0103, C-0104, C-0105, C-0147, C-0148, C-0149, C-0150, C-0151, C-0152, C-0153, C-0154, C-0155, C-0156, C-0157, C-0158, C-0159, C-0162, C-0318, C-0319, C-0398, C-0399, C-0400, C-0401, C-0499, C-0500, C-0501, C-0502, C-0503, C-0505, C-0577, C-0578, C-0579, C-0581, C-0683, C-0689, C-0694, C-0698, C-0702, C-0708, C-0713, C-0718, C-0721, C-0725, C-0729, C-0732, C-0737, C-0741, C-0746, C-0749, C-0752, C-0757, C-0758, C-0763, C-0767, C-0768, C-0769, C-0771, C-0773, C-0775, C-0794, C-0796, C-0798, C-0799, C-0802, C-0805, C-0808, C-0811, C-0814, C-0817, C-0825, C-1041.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+2026-09-08, person-dossier/v1 och person-research/v1. Båda akter och
+profiler individuellt lästa mot egna citationer/källnoter och bevarade
+original. 136 äldre A bevarade, sju nya för Erik och tre för Anna;
+sex nya påståenden i minimalt berörda anhörigakter. Ingen personfusion.
+
+| Person | Konsolidering och sakutfall | Identitetsnivå | Full nivå och följd |
+|---|---|---|---|
+| P-0133 Erik Karlsson/Grill | 110 äldre A avstämda, A-4362–4368 tillagda. Glippsta födelse, eget militärbetyg1870, Grundägare1907–1908, arbetskarl1910, G.B.190/Torvesta, änkedatum31januari1920, sinnessjuk och Landstingets vårdhem konsoliderade. Påstådd klassresa/ensamomsorg avvisade; foster-/styvbarn och faderns militärroll hålls isär. | PRÖVAT personidentitet; UNDERKÄND/AVVAKTAR enbart på PK-11:s saknade öppnade Malstanäskarta. | UNDERKÄND, PK-03/08 återstående bostads-/fastighets-/militärvägar. PK-05/04 styrkta på fulla prövade egna poster och bevarat nätverk. T-0271–0274. |
+| P-0134 Anna Christina Larsdotter | 26 äldre A avstämda, A-4374–4376 tillagda. Födelse21mars1852/dop25mars Kallvik återbrukad, felaktigt noll avvisat. Carlberg/Sannerbyriktningar, egna kyrktagningar, dödsålder35/7/3 och familjens nöddop konsoliderade. Ingen social uppgång eller medicinsk kausalitet antas. | PRÖVAT personidentitet; UNDERKÄND/AVVAKTAR på PK-11:s två saknade öppnade Årdalabilder. | UNDERKÄND även PK-03/08 för verkliga tidiga bostadsled. PK-05/04 styrkta efter fulla relevanta egna poster och statusmarkerat nätverk. T-0269–0270. |
+
+Samtliga tio teman och PK-01–12 har individuella beläggsmotiveringar.
+PK-12 gäller daterad prövning och kan styrkas trots underkänt slututfall.
+Prövade bleka tal, tomma fält och nya oöppnade folier är inte automatiska
+PK-05-fel. De tre faktiskt saknade kopiorna är preciserade under PK-11.
+
+Minimala följdrättelser i P-0015/P-0135/P-0136/P-0137/P-0142/P-0213/
+P-0214/P-0215/P-0369, med full adoption i T-0139/T-0143/T-0153/T-0183/
+T-0184/T-0194. Dott. rättar Elli; 27juli rättar7juli; egen Gustaf Vasa-
+flytt gäller Karl Oskar ensam; äldre överföringsförklaring för Björkvik
+är bara hypotes. Front/källtäckning och berörda källnoter är avstämda
+med äldre texter bevarade. Forskningsföljderna sker efter T-0115.
+
+## Verification och Outcome
+
+Oberoende sakläsning fångade bland annat fel kolumntolkning (examinerat
+förlossningsbiträde, inte religion), rååldrar i en gemensam moderskolumn,
+utelämnat militärbetyg i akt och fel källklassreferenser. Dessa är rättade.
+Root läste aktuella slutsatser och kontrollerade betydelsefulla original.
+Format2/0fel, fryst täckning538/0fel,50/50tester. Validator3706assertions,
+2632Markdown,5010media, giltig Wotan; inventering/check0strukturfel,
+137profiler,27identitetsgodkända/25BÄRANDE,8fullgodkända. Mediamanifestet
+härlett om efter citationstillägg,5009filer,3083exact,1882source-scoped,
+28citation-scoped,16unlinked; checkpass. Diffcheck0. Två gamla brutna
+länkar rättade före godkända slutkontroller. Batch536 registrerad en gång.
+T-0132 DONE betyder avslutad konsolideringskohort, inte fullständiga
+personer eller källuttömning. 75/538 individuellt fullgranskade.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-07.
+- Utfört: avgränsad kohort och baslinje registrerade.
+- Nästa ej utförda steg: läs föregångarens verifierade fördelning och
+  samtliga kohortakter/profiler; börja med den första konkreta avvikelsen.
+- Hinder: inga; T-0114 verifierad DONE.
+
+## Återupptagning — start efter T-0131
+
+2026-09-08: T-0131 verifierad DONE, 73/538 individuellt fullgranskade.
+Fast kohort P-0133/P-0134,136baslinjeA. Nästa ej utförda steg: läs
+båda egna akter/profiler och personbundna källor inklusive C-1041;
+fördela därefter fasta person-/källägare. Root äger delade citationer,
+följdpersoner och Wotan/logg. Nästa fria A-4362, batch536, next_id269.
+Ingen ny arkivforskning ingår. Inga hinder.
+
+## Återupptagning — fördelad individuell läsning
+
+2026-09-08: pilot_parents äger P-0133 akt/profil, A-4362–4373;
+pilot_private_candidate äger P-0134 akt/profil och C-0157–C-0159,
+A-4374–4385. pilot_varied läser C-1041/C-0151 original och lokala
+alias. Root äger gemensamma familjecitationer, anhöriga och Wotan,
+nya A från4386. Externa arkivsökningar ingår inte.
+Första avvikelse: C-1041 har redan funnit AnnaChristinas födelsepost
+21mars1852 i Kallvik, men äldre akt/profil negerar detta. Kallt
+statdräng→torpare är inte bevis för social uppgång. Full granskning
+pågår; inga nya källtillägg/batch536 ännu. Inga hinder.
+
+## Återupptagning — sakutkast och efterkontroll
+
+2026-09-08: båda akter/profiler omskrivna, individuell efterläsning pågår.
+P-0133: 110 äldre A och sex nya A-4362–4367. P-0134: 26 äldre A och
+A-4374–4376. Root: minimala följdrättelser i P-0015/P-0135/P-0136/
+P-0137/P-0142/P-0213/P-0214/P-0215/P-0369; sex nya A-4386–4391.
+Nästa fria root-A är4392. Full adoption ägs av T-0139/T-0143/T-0153/
+T-0183/T-0184/T-0194. T-0269–0274 äger exakt avgränsade forskningsföljder
+för två Årdalakopior, tre Årdalafolier, G.B.190, Segerslunds grundägar-
+uppgift, eget militärt betyg1870 och Malstanäskartan. Backlog next_id275.
+Samtliga följer efter T-0115; ingen extern forskning här.
+
+Egna relevanta kolumner i lokala familje-, födelse-, vigsel-, död- och
+SCB-poster är nu prövade och sparade i citationstillägg. Svaga råtecken
+är reserverade, inte påhittade utvinningsrester. Första globala kontroll:
+fryst täckning538/0fel och50/50tester. En gammal P-0133-ankarlänk kvarstår
+för personägaren; root rättade en C-0499-fellänk. Inventering ska skrivas
+om först efter stabila sista personändringar. Nästa ej utförda steg:
+oberoende P-0133-slutläsning, avstämning av kvarvarande fynd, sedan slutliga
+validator-/inventerings-/mediekontroller och batch536 en gång. T-0132
+är fortfarande ONGOING, ännu inte75/538. Ingen dashboard/commit/push.
+
+## Återupptagning — verifierat avslut
+
+2026-09-08: T-0132 DONE, batch536 loggad en gång,75/538 individuellt
+fullgranskade. Nästa fasta kohort T-0133 P-0423/P-0436. Nästa fria A4392,
+backlog next_id275, nästa batch537. Inga hinder eller externa sökningar.
+Dashboard, commit/push och ny arkivforskning ingår inte. Nästa ej utförda
+steg är T-0133:s individuella underlagsläsning, inte omtag på denna kohort.
+
+
+## Följdavstämning från T-0139 — P-0133/P-0134
+
+2026-09-08: Begränsade nya syskon- och föräldrakällrättelser; egna nivåer består. Se personernas aktuella texter och bevarad äldre ordalydelse. Ingen ny arkivåtkomst.
+
+## Inkommen observation från T-0183, 2026-09-10
+
+Denna uppgift överlämnade full akt- och profilgranskning av
+[P-0136](../../genealogy/people/P-0136-karl-oskar-eriksson.md) till T-0183.
+**Överlämnandet är nu utfört**, och T-0132:s egna läsningar står oförändrade.
+Tre saker bör denna uppgift känna till.
+
+- **En åldersräkning omformulerar aktens huvudfråga.** A-3017 registrerade
+  utflyttningen till `Kungl. Lifgard. t. häst` 1903-10-22 utan att räkna hans
+  ålder. **Han var 17 år och 10 månader.** Inskrivningsåldern var 21, och
+  **hans eget värnpliktsnummer `N:o 335 ⁴⁴/₀₆` har årsgruppen 06** — det år
+  han fyllde 21. **Flyttningen 1903 kan alltså inte ha varit
+  värnpliktstjänst.** Se A-7812.
+  **Slutsatsen förklarar A-3019:s noll:** en sjuttonårig anställd förs inte i
+  ett värnpliktsregister, så de exakt lästa `Eriksson`- och
+  `Ersson`-avsnitten **kunde inte** innehålla honom. **Nollet var förväntat**,
+  och skälet att läsa avsnitten igen faller därmed bort. **Vad anknytningen
+  var förblir obelagt**, och ingen anställningsform väljs.
+- **Numrets läsning är säkrad strukturellt av broderns.** Samma uppslag —
+  Flens `A II a/2 a` sida 185 — bär P-0015:s nummer `N:o 354 ⁴⁴/₀₂`, med
+  **samma mellangrupp `44`** och årsgruppen `02`, det år **han** fyllde 21.
+  **Två bröder ur samma inskrivningsområde med årsgrupper som båda pekar på
+  tjugoettårsåret gör läsningen av `06` otvetydig.** **Belägget kom inte ur en
+  bättre förstoring utan ur en jämförelse.**
+- **A-4389:s läsning är bekräftad kolumn för kolumn.** Hans rad 19 är omläst
+  vid 210–900 % med de tryckta rubrikerna och den tryckta radnumreringen i
+  samma utsnitt: `85` `⁸/₁₂`, `Forssa`, `N:o 335 ⁴⁴/₀₆`,
+  `Gustaf Vasa förs. Stockholm`, `07 ²⁸/₁₁`. **Födelsedagen är därmed belagd
+  en fjärde gång.** Se A-7811.
+
+**Denna uppgifts avgränsningar i C-0104 gäller oförändrade** och styr
+[P-0138](../../genealogy/people/P-0138-johan-peter-pehrsson-dopvittne-1881.md):
+råtecknet i förlossningsbiträdeskolumnen, att åldersfältets dubbeltal `30/29`
+inte jämkas, och att de senare kyrkoböckerna **inte** automatiskt är fyra
+oberoende vittnesmål om födelsedagen. **Boställsnamnet står i två former** —
+avskriftens `Nafverkärr` och denna uppgifts `Näfverkärr` — och **båda
+bevaras** som två läsningar av samma ord.
+
+**P-0136:s Q-01 står `OLÖST INOM PRÖVAT OMFÅNG`**, vilket är det riktiga
+läget: frågan är omformulerad, dess prövade omfång är slutläst, och de två
+utpekade personalvolymerna `SE/KrA/0161/019:Ö/D I/5` och
+`SE/KrA/0161/020:Ö/D IV/4` är **åtkomstspärrade** — bildlänkar saknas, och
+**ingen läsesals- eller kopiebeställning görs.** **Nästa öppna passage är
+Gustaf Vasa församling omkring 1907–1908**, och den positiva ortnyckeln ska
+användas före ett obundet destinationssvep.
+
+## Inkommen observation från T-0184, 2026-09-10
+
+Fem avgränsade uppgifter ur T-0184:s konsolidering av kohorten
+P-0139–P-0402. **Ingen ny arkivsökning; all läsning är gjord i redan sparade
+helbilder.** Uppgiften är DONE och återöppnas inte — detta är en anmälan.
+
+1. **T-0132:s drängförteckning i
+   [C-0149](../../genealogy/citations/C-0149-erik-anna-forssa-AI16-sida-83.md)
+   har fyra fel.** Listan skriver
+   `CarlJohanPettersson1862, IvanWilhelmSvalberg1862, FredrikVilhelmEriksson1853
+   och CarlAlfredLarsson1863`. Raderna 10–13 läses i stället
+   `Dr. Carl Johan Pettersson` `62 ²⁷/₃` Årdala, **`Dr. Johan Wilhelm
+   Svalberg` `64 ³/₆` Forssa**, **`Dr. Claës Melcher Carlsson` `63 ³⁰/₁`
+   Lerbo** och **`Dr. Karl Alfred Larsson` `65 ²/₇` Årdala.** Rättelserna är
+   förda som daterat tillägg i citationen; **den äldre listan är bevarad.**
+   **Torparfamiljens sju rader berörs inte.**
+2. **Drängraderna bar sakuppgifter som aldrig utvanns.** T-0132 noterade att
+   de fanns men tilldelade dem inga uppgifter. Rad 10 gav
+   [P-0144](../../genealogy/people/P-0144-carl-johan-pettersson-svartgjotorp-1880.md)
+   hans ståndsbeteckning `Dr.`, exakt födelsedatum, födelseförsamling och två
+   daterade flyttningar — **och besvarade därmed aktens enda öppna fråga.**
+   Se A-7822.
+3. **`C-0780` har två fel som T-0132:s eget tillägg inte fångade.**
+   Attestnumret är **`26`, inte `16`**, och **det exakta utflyttningsdatumet
+   `²²/₁₀ 92` står på husförhörssidan själv** — inte bara i
+   utflyttningslängden. Se A-7824–A-7825.
+4. **Attestnumret 26 är samma tal som utflyttningslängdens postnummer 26**,
+   vilket gör bindningen mellan `A I/18` sida 83 och `B/4` post 26 dubbel.
+   **Det är en korsreferens, inte två oberoende belägg.**
+5. **Faderns rad 1 i `A I/18` sida 83 bär `sjuk`** i en av de senare
+   årskolumnerna under `Bevistat Förhör och begått H. H. Nattvard.`
+   **Uppgiften gäller [P-0133](../../genealogy/people/P-0133-erik-karlsson-svartgjolstorp.md)**
+   och är inte förd i hans akt. **Kolumnåret är prövat men reserveras**, och
+   T-0184 har inte fört in uppgiften — den ligger utanför dess kohort.
+
+**Punkt 5 är den enda som kräver åtgärd av någon annan**, och den kräver att
+kolumnåret fastställs innan den förs in.

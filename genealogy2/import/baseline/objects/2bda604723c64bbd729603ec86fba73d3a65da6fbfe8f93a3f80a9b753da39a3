@@ -1,0 +1,1192 @@
+# Forskningslogg 2026-09-02
+
+## Batch 220 — P-0336, SCB:s församlingsboksutdrag Sollentuna 1920
+
+En tidigare oprövad, personförande källa i Olaus Fredbergs hushållslucka
+1915–1925 öppnades i Riksarkivets inloggade Chrome utan ny CAPTCHA/ALTCHA.
+Sökresultatet gav SCB:s församlingsboksutdrag 1920 för Sollentuna. Ett
+direkt records-anrop svarade med Riksarkivets WAF-HTML och manifestets
+annonserade JSON-LD-route gav HTTP 403; dessa är åtkomsthinder, inte
+sökresultat. De två officiella IIIF Presentation 3-manifesten fungerade och
+identifierar samma post `SE/RA/420401/10/H 1 AA/13`, permanent id
+`oteW3OgRrH6d0G02H087k3`.
+
+Manifestet för `A0056304` har 489 canvaser och placerar Sollentuna på
+`_00294`, före Lovö på `_00340`. Den alternativa reproduktionen
+`C0301345` har 977 canvaser och motsvarande startpunkter `_00589` och
+`_00681`. Fulloriginalen i den uppslagsbaserade reproduktionen visar
+Sollentuna sida 1 på bild 294, sista förda sida 90 på bild 339 och Lovö sida
+1 på bild 340. Hela den kontrollerade Sollentuna-följden är därmed exakt 46
+källbilder, `A0056304_00294`–`_00339`.
+
+Alla 46 fulloriginal hämtades genom den signerade visaren. Lokal Apple
+Vision-OCR kördes på observerad Apple M4 Max/arm64, först över hela uppslag
+och därefter över 276 separata namn-/yrkesfält. Fem rimliga Olaus-,
+Fredberg- eller yrkesliknande nomineringar lästes i fulloriginal. Bild 317
+visar i stället Olof Alfred Edvard Johansson, född 1880 och bagagemästare;
+bild 313:s Olaus-rader har andra namn och födelseprofiler; bild 334:s form
+är Nicolaus-liknande. Bilderna 300 och 311 ger inte heller målprofilen.
+Ingen visuellt kontrollerad nominering är Olaus Fredberg.
+
+S-0625/C-0809/A-3094–A-3095, båda manifesten, OCR-kandidatfilen,
+observationen, fem kandidatkopior, tre gränskopior och hela den
+sammanhängande serien med 46 fulloriginal är beständigt bevarade i
+projektet. Nästa session behöver därför inte Chrome-fliken, `Downloads`
+eller chattens historik för att kontrollera batchen. Handskrifts-OCR kan
+missa text och de 90 sidorna lästes inte namn för namn. Resultatet är inte
+ett person-, vistelse-, församlings-, årgångs- eller helreproduktionsnoll.
+Ingen person eller relation skapades. Upprepa inte blind OCR utan en ny
+adress-, gårds-, sida-, familjemedlems- eller yrkesnyckel. T-0012 förblir
+`ONGOING`/`DOING`; nästa breddrotation är P-0051. Ingen läsesals- eller
+kopiebeställning, PDF, deployment, commit eller push skapades.
+
+### Verifiering
+
+Efter full beständighetskopiering och regenerering verifierades 500
+personer, 2 576 påståenden, 525 föräldralänkar, 1 951 Markdownposter och
+4 321 mediafiler inklusive `.gitkeep`. Mediamanifestet innehåller 4 320
+sakmedier: 2 521 exakt, 1 771 källavgränsade och 28
+citationsavgränsade, utan olänkade filer. Parser-/datatester 5/5, pedigree
+77, djup-5-paket, utgåvemanifest, projekt-/Wotan-/manifest-/observations-/
+dashboard-JSON, dashboardtest, produktionsbygge, den oförändrade 20-sidiga
+utgåvan och `git diff --check` passerade. De väntat icke-nollande auditerna
+visar fortsatt tio ogiltiga slutstatusar genom P-0004:s djup 5 med P-0051
+som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## Batch 219 — P-0133, SCB:s församlingsboksutdrag Helgesta 1920
+
+Den tidigare oprövade digitala 1920-källan i luckan mellan folkräkningen
+1910 och Helgestas senare församlingsbokskedja 1927–1935 öppnades i
+Riksarkivets inloggade visare utan ny CAPTCHA/ALTCHA. Det officiella IIIF
+Presentation 3-manifestet för `SE/RA/420401/10/H 1 AA/20` omfattar 1 400
+canvaser. Manifestets ranges och fulloriginalen avgränsar Helgesta sida
+1–31 till `A0056311_00782`–`_00812`; bild 813 börjar Hyltinge sida 1 bakom
+församlingsmarkering 51. Ingen sessionsdata lästes och ingen läsesals- eller
+kopiebeställning skapades.
+
+De 31 Helgestabilderna screenades som halvupplösta navigationskopior med tre
+Apple Vision-OCR-pass på observerad Apple M4 Max/arm64: generell sidtext,
+förstärkta namnkolumner och separat nominering av `51`-liknande former.
+Tre namnträffar på bilderna 782, 783 och 794 samt två årtalsliknande träffar
+på 807 och 809 lästes i fulloriginal. De gäller andra hushåll respektive
+bokförings-/belopps- eller anmärkningsformer, inte en säker Erik
+Karlsson/Carlsson eller Erik Grill född 1851.
+
+S-0624/C-0808/A-3092–A-3093 samt manifest, strukturerad observation,
+31-radig navigationsfil, fem kandidatoriginal och två gränsoriginal bevarar
+utfallet. Handskrifts-OCR kan missa text och de 31 sidorna är inte visuellt
+lästa namn för namn. Resultatet är därför inte ett person-, vistelse-,
+församlings-, årgångs- eller helreproduktionsnoll och belägger inte att Erik
+saknades i Helgesta 1920. Ingen person eller relation skapades. Upprepa inte
+blind OCR utan en ny gårds-, hushålls-, sida- eller yrkesnyckel. T-0012
+förblir `ONGOING`/`DOING`; nästa breddrotation är P-0336. Ingen PDF,
+deployment, commit eller push skapades.
+
+### Verifiering
+
+Efter regenerering verifierades 500 personer, 2 574 påståenden, 525
+föräldralänkar, 1 949 Markdownposter och 4 263 mediafiler inklusive
+`.gitkeep`. Mediamanifestet innehåller 4 262 sakmedier: 2 508 exakt, 1 726
+källavgränsade och 28 citationsavgränsade, utan olänkade filer.
+Parser-/datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest,
+projekt-/Wotan-/manifest-/observations-/dashboard-JSON, dashboardtest,
+produktionsbygge, den oförändrade 20-sidiga utgåvan, samtliga tio nya
+mediekontrollsummor och `git diff --check` passerade. De väntat
+icke-nollande auditerna visar fortsatt tio ogiltiga slutstatusar genom
+P-0004:s djup 5 med P-0051 som nästa tillåtna arbetsdjup och exakt P-0336
+öppen genom P-0210:s djup 4.
+
+## Batch 218 — P-0051, Bygdeå sockenstämmas fattigbarnslistor
+
+Den tidigare oprövade sociala källfamiljen Bygdeå K I/2,
+sockenstämmoprotokoll, följdes för att söka en barndomsnära väg efter den
+saknade födelseposten. Records-API och OAI gav Riksarkivets WAF-sida med
+HTTP 403. Den redan inloggade Chrome-katalogen öppnade därefter volymen utan
+ny CAPTCHA/ALTCHA och identifierade reproduktion `A0017300`. Publikt IIIF
+gav ett manifest med 393 bildytor utan interna strukturer. Ingen kontroll
+eller sessionsdata rördes och ingen läsesals- eller kopiebeställning
+skapades.
+
+Nio årsvis rubricerade förteckningar över fattiga barn lästes visuellt i
+maximaloriginal: 1838 på bild 139, 1839 på 121, 1840 på 123, 1841 på 125,
+1842 på 127, 1843 på 130, 1845 på 132, 1846 på 133 och 1847 på 135. Någon
+motsvarande exponerad lista för 1844 identifierades inte. Ingen namnkolumn
+skriver uttryckligen Barbro/Barbru Cajsa Olofsdotter eller ger en entydig
+kombination med målprofilen 1830-02-24. Andra barn födda 1830 och rader med
+Jomark avviker eller saknar tillräcklig identitet och kopplas inte till
+P-0051.
+
+Alla 393 bilder screenades dessutom som 1 600-pixlars navigationskopior med
+lokal Apple Vision-OCR på observerad Apple M4 Max/arm64. De fyra övriga
+Cajsa-/Christina-liknande nomineringarna på bilderna 113, 158, 303 och 351
+avvisades i maximaloriginal. OCR användes endast för navigation och kan
+missa handskrift; några listposter namnger också barnet indirekt. Resultatet
+är därför ett strikt visuellt namn-/profilnoll i de nio listorna och fyra
+konkret avvisade nomineringar, inte ett person-, vistelse-, understöds-,
+föräldra- eller helvolymsnoll.
+
+S-0623/C-0807/A-3089–A-3091 samt manifest, strukturerad observation,
+393-radig navigationsfil och tretton maximaloriginal bevarar resultatet.
+Ingen person eller relation skapades. Blind OCR av K I/2 ska inte upprepas
+utan ny person-, hushålls-, ärende-, datum- eller sidnyckel. H III/1, H I/1
+och L III/1 förblir direkta analoga återstarter; J/4 följs först från en
+faktisk bilagehänvisning. T-0012 förblir `ONGOING`/`DOING`; nästa
+breddrotation är P-0133. Ingen PDF, deployment, commit eller push skapades.
+
+### Verifiering
+
+Efter regenerering verifierades 500 personer, 2 572 påståenden, 525
+föräldralänkar, 1 947 Markdownposter och 4 253 mediafiler inklusive
+`.gitkeep`. Mediamanifestet innehåller 4 252 sakmedier: 2 498 exakt, 1 726
+källavgränsade och 28 citationsavgränsade, utan olänkade filer.
+Parser-/datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest,
+projekt-/Wotan-/manifest-/observations-/dashboard-JSON, dashboardtest,
+produktionsbygge, den oförändrade 20-sidiga utgåvan, samtliga sexton nya
+mediekontrollsummor och `git diff --check` passerade. De väntat icke-nollande
+auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup 5 med P-0051
+som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## Batch 217 — P-0336, folkräkningen 1900 på Kungsholmen
+
+Den tidigare förbisedda centrala folkräkningsluckan mellan 1890 och 1910
+lästes om i den nu inloggade Riksarkivet-sessionen. En exakt sökning på
+`Olaus Fredberg` gav åtta synliga folkräkningsträffar. Post
+`Folk_117700509` och de sex sammanlänkade posterna `Folk_117700510`–
+`Folk_117700515` placerar familj nummer 1 på sida 43, raderna 44–50, i
+Jordgubben N:o 11, Kungsholm rote 17.
+
+Olaus står som gift stationskarlsförman och far/man, Johanna Charlotta som
+hustru och mor/fru samt Frida Elisabeth, Augusta Gerda Charlotta, Ester
+Olivia Johanna, Edit Maria Justina och Oskar Fredrik som barn. Barnens
+efternamn står inte i blocket och konstrueras inte. Frida är Olaus dotter
+enligt källan och äldre belägg, men 1900-posten ensam gör inte Johanna till
+hennes biologiska mor.
+
+Den länkade originalbilden `Folk_001017-164` lästes genom Riksarkivets
+publika IIIF-lager. Namn, ställning och yrke överensstämmer med
+registerposterna, och födelseårskolumnen visar i radordning 1852, 1866,
+1883, 1890, 1891, 1894 och 1895. Därmed står Edit född 1894 både i 1900 års
+register och original, medan 1910 anger 1895. Oskar står född 1895 redan
+1900, så något tvillingpåstående stöds inte. Edits årtal bevaras som konflikt
+tills hennes egen födelsenotis läses.
+
+Fyra records-API-frågor gav Riksarkivets WAF-sida med HTTP 403. Den
+inloggade katalogen öppnade därefter samtliga sju personposter utan ny
+CAPTCHA, och publikt IIIF-manifest, `info.json` och originalbild svarade med
+HTTP 200. Ingen kontroll eller sessionsdata rördes och ingen läsesals- eller
+kopiebeställning skapades.
+
+S-0622/C-0806/A-2999–A-3002/A-3085–A-3088 bevarar resultatet. Ingen person
+eller relation skapades; de fyra yngre barnrelationerna uppgraderades genom
+oberoende samstämmighet mellan 1900 och 1910. Olaus föräldrar och hans egen
+konflikt mellan 1852-05-24 och 1852-09-04 är oförändrat öppna. T-0012
+förblir `ONGOING`/`DOING`; nästa breddrotation är P-0051. Ingen PDF,
+deployment, commit eller push skapades.
+
+### Verifiering
+
+Efter regenerering verifierades 500 personer, 2 569 påståenden, 525
+föräldralänkar, 1 945 Markdownposter och 4 237 mediafiler inklusive
+`.gitkeep`. Mediamanifestet innehåller 4 236 sakmedier: 2 482 exakt,
+1 726 källavgränsade och 28 citationsavgränsade, utan olänkade filer.
+Parser-/datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest,
+projekt-/Wotan-/manifest-/observations-/dashboard-JSON, dashboardtest,
+produktionsbygge, alla fyra nya kontrollsummor och `git diff --check`
+passerade. De väntat icke-nollande auditerna visar tio ogiltiga
+slutstatusar genom P-0004:s djup 5 med P-0051 som nästa tillåtna
+arbetsdjup och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## Batch 216 — P-0133, kommunala mantals- och uppbördsvägar
+
+P-0133:s kvarvarande biografiska källfamiljer inventerades utan att redan
+slutna kyrkoboks-, folkräknings-, flytt-, vigsel-, döds-, boupptecknings-
+eller fattigvårdsvägar lästes om. Den starkaste nya vägen var kommunala
+mantals-, debiterings- och uppbördslängder över de säkra Forssa- och
+Helgestaperioderna.
+
+Riksarkivets inloggade katalog identifierar Forssa kommunalnämnds arkiv
+`SE/D002/FKG_147-1` hos Flens kommunarkiv. G 4/1, 1863–1893, och G 4/2,
+1894–1909, är två exakt itemiserade *Debiterings- och uppbördslängder* som
+katalogmässigt täcker Eriks kända Forssaperiod 1876–1895. Ingen Erik-rad,
+skatt eller betalning är läst och katalogens yttre period garanterar inte
+att varje målår finns bevarat i volymen.
+
+Helgesta kommunalnämnds arkiv `SE/D002/FKG_159-1` har D 2:1,
+*Mantalslängder*, vars sex häften preciseras till 1910, 1916–1917 och
+1948–1950. De tre första överlappar Erik. G 4 B/2 täcker 1910–1920,
+G 4 B/3 1921–1927 och G 4 B/4–11 de enskilda åren 1928–1935. Detta bildar
+en exakt katalogroute över hela den kända Helgestaperioden, med 1920, 1930
+och 1935 som händelseankrade första kontrollår, men ingen personrad är läst.
+
+Den avgränsade Flen-kontrollen gav G 2:1:s allmänna räkenskaper 1894–1912,
+inklusive magasins- och fattigvårdsräkenskaper, samt en fyrktalslängd
+1907–1908 i det separat avgränsade municipalsamhället. Samma
+municipalsamhälles taxerings- och inkomstserier börjar 1938 respektive 1943
+och mantalsserien 1935; Flens kyrkoarkivs blandvolym P IV/2 namnger en
+förteckning över mantalsskrivna personer endast för 1883. Inget av detta
+blir ett person-, Flen- eller vistelsenoll, och municipalsamhällets gräns har
+inte bundits till Eriks gårdar.
+
+Sex records-API-frågor samt fyra OAI- och fyra JSON-LD-omprov gav HTTP 403.
+Den inloggade, synliga katalogen öppnade samtidigt Forssa G 4/1–2,
+Helgesta D 2:1 och Helgesta G 4 B/2–11 utan ny CAPTCHA. Ingen av de tretton
+exakta målposterna hade synlig `Bild`- eller `Läsesal`-länk. Ingen kontroll
+eller sessionsdata rördes och ingen läsesals- eller kopiebeställning skapades.
+
+S-0621/C-0805/A-3082–A-3084 och en strukturerad observation bevarar
+resultatet. Ingen person eller relation skapades. T-0012 förblir
+`ONGOING`/`DOING`; nästa breddrotation är P-0336. Ingen PDF, deployment,
+commit eller push skapades.
+
+### Verifiering
+
+Efter regenerering verifierades 500 personer, 2 565 påståenden, 525
+föräldralänkar, 1 943 Markdownposter och 4 233 mediafiler inklusive
+`.gitkeep`. Mediamanifestet innehåller 4 232 sakmedier: 2 478 exakt,
+1 726 källavgränsade och 28 citationsavgränsade, utan olänkade filer.
+Parser-/datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest,
+projekt-/Wotan-/manifest-/observations-/dashboard-JSON, dashboardtest,
+produktionsbygge, kontrollsumman och `git diff --check` passerade. De väntat
+icke-nollande auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup
+5 med P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom
+P-0210:s djup 4.
+
+## Batch 215 — P-0051, Bygdeå domstolskällor 1830
+
+P-0051:s återstående källfamiljer auditerades utan att redan slutna
+kyrkoboks-, flytt-, fattigvårds-, mantals- eller Piteåintervall lästes om.
+Den starkaste oprövade vägen var rättsliga handlingar kring den i A I/12b
+antecknade utomäktenskapliga börden.
+
+Riksarkivets records-API, JSON-LD och OAI-EAD identifierar Bygdeå tingslags
+häradsrätts direkta målårsleder: A I a/41, dombok vid ordinarie ting 1830;
+A I b/5, domböcker och protokoll vid urtima ting 1819–1830; samt A II/10,
+småprotokoll 1830–1834. F I/1, inneliggande handlingar 1805–1865, har
+spridda år men den detaljerade anmärkningen namnger inget särskilt
+1830-block. Samtliga fyra JSON-LD-poster anger analog representation.
+
+Riksarkivets officiella hierarki ledde vidare till Svea hovrätts renoverade
+kopior. E XI e/4118 och /4119 är de två volymerna för Västerbottens län
+1830, nummer 154 och 155; katalogen mappar inte Bygdeå till en av dem.
+E XII b/384–390 är sju delar med renoverade småprotokoll 1830. Varje del
+anger `Register saknas`. Seriembeskrivningen visar att denna källfamilj kan
+omfatta bland annat förmynderskapsprotokoll, men alla nio målårsvolymer har
+endast analog representation. Bygdeå häradsrätts särskilda
+förmynderskapsserie C II börjar först 1867; detta utesluter inte äldre
+ärenden i dombok eller småprotokoll.
+
+De exakta direkta posterna, båda Västerbottenvolymerna och en
+småprotokollsdel kontrollerades i ägarens inloggade Chrome-session. Ingen ny
+CAPTCHA/ALTCHA visades. Alla synliga poster visade endast `Läsesal` utan
+bildlänk. Ingen kontroll eller sessionsdata rördes och ingen läsesals- eller
+kopiebeställning skapades.
+
+S-0620/C-0804/A-3079–A-3081 och nio metadata-/observationsfiler bevarar
+resultatet. Ingen rättshandling eller personrad lästes, ingen person eller
+relation skapades och inget mål-, person-, faderskaps-, underhålls- eller
+förmynderskapsnoll påstås. Rutten återtas endast vid ändrad digital åtkomst
+eller en ny akt-, tings- eller ärendenyckel. T-0012 förblir
+`ONGOING`/`DOING`; nästa breddrotation är P-0133. Ingen PDF, deployment,
+commit eller push skapades.
+
+### Verifiering
+
+Efter regenerering verifierades 500 personer, 2 562 påståenden, 525
+föräldralänkar, 1 941 Markdownposter och 4 232 mediafiler inklusive
+`.gitkeep`. Mediamanifestet innehåller 4 231 sakmedier: 2 477 exakt,
+1 726 källavgränsade och 28 citationsavgränsade, utan olänkade filer.
+Parser-/datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest,
+projekt-/Wotan-/manifest-/observations-/dashboard-JSON, dashboardtest,
+produktionsbygge, kontrollsummor och `git diff --check` passerade. De väntat
+icke-nollande auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup
+5 med P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom
+P-0210:s djup 4.
+
+## Batch 214 — P-0336, Karlskrona-sjöman och Torhamn C I/5
+
+Efter ägarens besked om aktiv Riksarkivet-inloggning och egen löst kontroll
+kördes den rikstäckande Olaus-vägen om i den befintliga Chrome-sessionen.
+Globalsökningen `Olaus Fredriksson` gav 153 synliga träffar, varav 122
+registerträffar. Två poster under företag och arbetsliv ledde till
+Karlskrona sjömanshus. Ingen ny CAPTCHA/ALTCHA visades; ingen kontroll eller
+sessionsdata berördes och ingen beställning skapades.
+
+Riksarkivets officiellt nedladdningsbara sjömanshusdata innehåller två rader
+för samma Olaus Fredriksson: född 1852, födelse- och hemförsamling Torhamn
+i Blekinge, ogift jungman nr 272 vid Karlskrona sjömanshus. Han mönstrade på
+*Gustaf Wasa* 1874-07-20 och *Frithiof* 1875-04-16. Det första
+originalankaret är D I a/1 sidorna 75–76 respektive 27–28; D I d/14 är ett
+inskrivningsnummerordnat register. Båda katalogposterna visar endast
+`Läsesal`. E VI:s inskrivningshandlingar och E VII:s prästbetyg är enligt
+katalogen gallrade i sin helhet genom beslut 1964. Ingen analog personrad
+lästes eller beställdes.
+
+Torhamns kyrkoarkiv C I/5 routades därefter genom Riksarkivets årsposter och
+publika IIIF. Bild 324 öppnar 1852, det kompletta årets födelseposter finns
+på bilderna `C0058822_00325`–`_00331` och bild 331 öppnar 1853 på
+högersidan. Alla sju 1852-bildytor lästes visuellt i 2 000 pixlars bredd.
+Året har Olaus-poster på andra datum men ingen Olaus född 1852-05-24 och
+ingen född 1852-09-04. Riksarkivets separata nedladdningsbara födelseregister
+saknar hela Torhamns arkivreferens och kan inte bära slutsatsen.
+
+Karlskrona-sjömannen avvisas som P-0336. Hans två samtida registerrader
+anger både födelse- och hemförsamling Torhamn, medan P-0336:s attest anger
+Lundby i Älvsborgs län och hans positiva kyrkobokskedja placerar honom i
+Rökland på Alnö från december 1873 till flyttbetyget mot Stockholm i januari
+1876. Torhamns kompletta födelseår saknar dessutom båda P-0336:s källburna
+datum. Avvisningen gäller exakt inskrivningsnummer 272 och bevisar inte att
+P-0336 aldrig arbetade till sjöss.
+
+S-0619/C-0803/A-3075–A-3078, två filtrerade registerrader, ett
+IIIF-manifest, åtta originalbilder och en strukturerad observation bevarar
+resultatet. Ingen person eller relation skapades. Olaus föräldrar och
+födelsedatumskonflikt är fortsatt öppna. T-0012 förblir `ONGOING`/`DOING`;
+nästa breddrotation är P-0051. Ingen PDF, deployment, commit eller push
+skapades.
+
+### Verifiering
+
+Efter regenerering verifierades 500 personer, 2 559 påståenden, 525
+föräldralänkar, 1 939 Markdownposter och 4 223 mediafiler inklusive
+`.gitkeep`. Mediamanifestet innehåller 4 222 sakmedier: 2 468 exakt,
+1 726 källavgränsade och 28 citationsavgränsade, utan olänkade filer.
+Parser-/datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest,
+projekt-/Wotan-/manifest-/observations-/dashboard-JSON, dashboardtest,
+produktionsbygge, kontrollsummor och `git diff --check` passerade. De väntat
+icke-nollande auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup
+5 med P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom
+P-0210:s djup 4.
+
+## Batch 213 — P-0133, Helgesta fattigvård och ålderdomshem
+
+P-0133:s kvarvarande biografiska källfamiljer auditerades utan att de redan
+slutna kyrkoboks-, folkräknings-, flytt-, vigsel-, död- eller
+bouppteckningsvägarna lästes om. Den starkaste oprövade vägen var Helgesta
+kommuns fattigvård kring Eriks kända överföring till ålderdomshemmet 1930.
+
+Riksarkivets globalsökning gav 0 träffar för den för snäva frågan
+`Helgesta landskommun fattigvård` och fem irrelevanta träffar för
+`Helgesta landskommun`. Den källspråksnära trunkeringen `Helgesta fattig*`
+öppnade däremot arkivbildaren och arkivet *HELGESTA KOMMUN (1863–1951).
+FATTIGVÅRDSNÄMNDEN*, `SE/D002/FKG_162-1`, 1808–1951, 38 volymer, förvarat
+hos Flens kommunarkiv.
+
+Förteckningen lokaliserar tre periodtäckande volymer. D 2:1,
+*Förteckning över fattigvårdsunderstöd*, omfattar 1923–1936 och är första
+personförda originalroute över Eriks sena understöds- och institutionsperiod.
+A 1:1, *Protokoll*, omfattar 1909–1936 till den 5 maj och G 5:1,
+*Understödsjournal*, är ett häfte från 1929. De två senare är
+hänvisningsstyrda komplement efter en faktisk D 2:1-post.
+
+Tre närliggande serier avgränsades. D 3:1:s förteckning över personer som
+intagits vid ålderdomshem omfattar endast 1950–1952; D 1:1:s socialregister
+börjar 1937. F 1:1 innehåller enligt katalogen fattigliggare 1896–1904 och
+1906–1916, inventarier 1944/1949, ritningar 1927 och resolution 1928, men
+ingen beskriven personförd följd för 1927–1935. Dessa tidsomfång är inte
+person-, intagnings-, understöds- eller anhörignoll.
+
+Records-API-frågan på D 2:1 och OAI-försök på arkivet och volymen gav HTTP
+403. De inloggade katalogposterna exponerade ingen digital bildlänk eller
+reproduktion, så inget original kunde fjärrläsas via Riksarkivets API/OAI/
+IIIF. Ingen ny CAPTCHA visades; ingen kontroll, sessionsdata eller
+beställning rördes. S-0618/C-0802/A-3073–A-3074 och en strukturerad
+observation bevarar resultatet. T-0012 förblir `ONGOING`/`DOING`; nästa
+breddrotation är P-0336. Ingen PDF, deployment, commit eller push skapades.
+
+### Verifiering
+
+Efter regenerering verifierades 500 personer, 2 555 påståenden, 525
+föräldralänkar, 1 937 Markdownposter och 4 212 mediafiler inklusive
+`.gitkeep`. Mediamanifestet innehåller 4 211 sakmedier: 2 457 exakt,
+1 726 källavgränsade och 28 citationsavgränsade, utan olänkade filer.
+Parser-/datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest,
+projekt-/Wotan-/manifest-/observations-/dashboard-JSON, dashboardtest,
+produktionsbygge, kontrollsumman och `git diff --check` passerade. De väntat
+icke-nollande auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup
+5 med P-0051 som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom
+P-0210:s djup 4.
+
+## Batch 212 — P-0051, Bygdeå mantalslängder 1830–1850
+
+Den öppna P-0051-fronten granskades källfamilj för källfamilj utan att de
+redan slutna kyrkoboks-, flytt-, fattigvårds- eller Piteåintervallen lästes
+om. Fondens fullständiga OAI-EAD identifierade en tidigare oprövad
+kompletterande väg: Häradsskrivarens i Umeå fögderi Vol/38, 1830–1842, och
+Vol/39, 1843–1850, båda uttryckligen `för Bygdeå socken.` Intervallet
+omfattar Barbros två konfliktsatta födelsedagar och tiden fram till hennes
+första säkra Jomarksrad 1846–1852.
+
+Direkta publika records-API- och volym-OAI-försök gav HTTP 403. I ägarens
+inloggade Chrome-session öppnade däremot fonden och volymförteckningen utan
+ny CAPTCHA. Vol/38 har Arkis-id `10ad7fd8-a9e6-457e-9a8e-48756c5cb349`
+och Vol/39 `b53738b9-6974-499c-a6d0-aebcc9551243`. Båda visar endast
+`Läsesal`, ingen bildlänk; de exakta publika `Tree/SubTree`-vägarna gav
+tom kropp utan bildfilsbarn eller reproduktions-id. Ingen kontroll eller
+sessionsdata rördes och ingen läsesals- eller kopiebeställning skapades.
+
+En fokuserad globalsökning på `Bygdeå mantalslängder` med filtret
+`Endast digitaliserat material` gav 196 träffar. De 195 registerträffarna
+tillhör uttryckligen *Mantalslängder 1642–1820*; den synliga första
+100-träffssidan sträcker sig från 1642 till 1820 och innehåller inget målår.
+Den enda arkivträffen gäller Häradsskrivaren i Burträsks fögderi, inte
+målperiodens redan exakt identifierade Umeå-volymer.
+
+S-0617/C-0801/A-3072 och en strukturerad observation bevarar katalog-,
+åtkomst- och sökresultatet. Ingen mantalsrad, person eller relation lästes;
+det finns därför inget person-, hushålls-, vistelse-, födelse- eller
+föräldranoll. H III/1 förblir den första födelsenära analoga vägen.
+Vol/38–39 är kompletterande hushålls-/skatterutter som återtas med analog
+originalläsning eller en ny gårds-, hushålls- eller personnyckel. T-0012
+förblir `ONGOING`/`DOING`; nästa breddrotation är P-0133. Ingen PDF,
+deployment, commit eller push skapades.
+
+Kontroll efter regenererat mediamanifest och dashboarddata: 500 personer,
+2 553 påståenden, 525 föräldralänkar, 1 935 Markdownposter och 4 211
+mediafiler inklusive `.gitkeep`. Manifestet har 4 210 poster: 2 456 exakt,
+1 726 källavgränsade, 28 citationsavgränsade och 0 olänkade. Parser-/
+datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest, projekt-/Wotan-/
+manifest-/observations-JSON, dashboardtest, produktionsbygge,
+kontrollsumman och `git diff --check` passerade. De väntat icke-nollande
+auditerna visar tio ogiltiga slutstatusar genom P-0004:s djup 5 med P-0051
+som nästa tillåtna arbetsdjup och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## Batch 211 — omprov efter inloggning och rättelser i original
+
+Efter ägarens besked att Riksarkivet var inloggat och den tidigare
+kontrollen besvarad kördes de tidigare spärrade vägarna om i den befintliga
+Chrome-sessionen. Ingen ny CAPTCHA visades och ingen cookie, token, profil
+eller annan sessionsdata lästes. Indelningsverkets exakta fält Hagby +
+Bettna gav 0 träffar; detta bevaras endast som frågefältsbundet registernoll.
+Globalsökningen `Olof Pehrsson Bygdeå` gav 22 träffar, främst sena
+folkräkningar, och kan inte avvisa Olaus/Olof född 1784. S-0616/C-0800
+bevarar båda omproven.
+
+Samma omprov öppnade folkräkningen 1890 post `Folk_111631011`. Den placerar
+stationskarlsförmannen Olaus Fredberg i Jordgubben nummer 1–5 på Kungsholm
+med Johanna Charlotta Janson samt Robert Nikolaus, Johannes Ivar, Frida
+Elisabeth, Ruth Fredrika och Augusta Gerda Charlotta. Det länkade
+800×635-originalet är bevarat; barnens efternamn konstrueras inte.
+
+Helgesta B/4:s originalreproduktion `00154377` öppnades och bilderna 62–66
+hämtades. Post 1 på bild 62 visar Erik Karlsson med hustru och ett barn från
+Flen, registrerade 1909-01-22 till sida 313. Därmed rättas Flen A II a/3 c
+till utflyttning 1909-01-18 och Helgesta A II a/2 till ankomst 1909-01-22:
+fyra dagar, inte november och inte samma dag. S-0615/C-0799 bevarar
+originalet, manifestet och rättelsen.
+
+En förnyad läsning av Halla C/2 bild 82 rättar dessutom det tidigare
+helårsnollet. Carl Fredrik föddes 1822-04-09 och döptes 12 april i Lilla
+Wättstugan som pigan Ella Ersdotters utomäktenskaplige son. P-0500 skapas
+som säker mor; ingen far skapas ur Pehrsson. A I/4:s Lilla
+Linväfvarstugan-route sida 119 är tom och A I/5 sida 3 saknar en säker
+mor/son-rad, men dessa är endast sidresultat. S-0614/C-0798 bevarar
+originalen och rättelsen.
+
+Livkompaniets D 2/2-bilagor bilderna 28–30 och Björkvik A I/13 b sida 121
+lästes samtidigt. De namnger Carl Fredric/Fredrik Pehrsson vid Jernbol,
+född 1822-07-09 Halla, i tjänst sedan hösten 1837 och frisk/tjänlig vid
+besiktning 1840. Julidatumet bevaras i konflikt med den samtida
+födelsenotisens 9 april. Ingen beställning, PDF, deployment, commit eller
+push skapades.
+
+Kontroll efter regenererat mediamanifest och dashboarddata: 500 personer,
+2 552 påståenden, 525 föräldralänkar, 1 933 Markdownposter och 4 210
+mediafiler inklusive `.gitkeep`. Manifestet har 4 209 poster, 2 454 exakt,
+1 727 källavgränsade, 28 citationsavgränsade och 0 olänkade. Parser-/
+datatester 5/5, pedigree 77, djup-5-paket, utgåvemanifest, JSON,
+dashboardtest, produktionsbygge och `git diff --check` passerade. P-0004-
+auditen har väntat tio ogiltiga slutstatusar med P-0051 som nästa tillåtna
+arbetsdjup; P-0210-auditen har exakt P-0336 öppen på djup 4.
+
+## P-0336 — Stora Lundby H II/1, full reproduktionsscreening
+
+Batch 210 roterade breddförst till Olaus Fredberg och använde endast
+Riksarkivet. Stora Lundby H II/1, `SE/GLA/13505/H II/1`, är katalogiserad
+som `Kartong. Spridda år.` Reproduktionen `A0062259` omfattar 908
+bildytor. Samtliga hämtades från Riksarkivets officiella IIIF som
+1 600-pixlars navigationskopior och screenades lokalt med Apple Vision-OCR
+efter direkta och fellästa former av Olaus/Olof, Fredric/Fredrik,
+Jacobson/Jakobsson, Anna Britta, Olofsdotter, Fredriksson/Fredberg samt
+Hjällsnäs, Stannum och Gategård. OCR-texten användes enbart för
+kandidatnavigation och är varken original eller transkription.
+
+Sex verkliga namnkandidater lästes därefter i fullupplösta IIIF-original.
+De är Olaus Larsson född 1824-03-05, Olaus Olofsson född 1824-07-08 med
+familj, Olaus Andersson född 1820-08-19, Anna Britta Svensdotter född
+1825-02-23, Olaus Larsson född 1843-12-13 och Carl Fredrik Ögren född
+1842. Patronymikon, namnprofil och/eller födelsedatum avviker från
+målpersonen och Fredric–Anna Britta-hypotesen. Samtliga sex avvisas; ingen
+person eller relation skapas.
+
+Resultatet är strikt en fullreproduktionsomfattande maskinassisterad
+namnformsscreening. Den kan missa handskrift, skadade namn och
+familjemedlemmar som OCR inte nominerade och får därför inte göras till
+visuell fullvolymsläsning eller person-, familje-, årgångs-, vistelse- eller
+församlingsnoll. Upprepa inte blind OCR av `A0062259` utan en ny dokument-,
+datum-, gårds- eller flyttnyckel. Den direkta Olaus-återstarten är fortsatt
+Östra Fågelvik H II/5, inflyttade post 4 den 1873-04-25.
+
+Ägarens verkliga Chrome-session visade aktiv Riksarkivet-inloggning. En
+omladdning av den tidigare Olaus-rutten ledde ändå till en ny ALTCHA.
+Agenten rörde inte kontrollen, läste inga sessionsdata och gjorde ingen
+läsesals- eller kopiebeställning; originalarbetet gick via publik IIIF.
+S-0613, C-0797 och A-3060 samt sex fulloriginal och en härledd OCR-fil
+bevarar screeningen. T-0012 förblir `ONGOING`/`DOING`; nästa
+breddrotation är P-0474–P-0475. Ingen beställning, PDF, deployment, commit
+eller push skapades.
+
+Efter regenerering verifierades 499 personer, 2 541 påståenden, 524
+föräldralänkar, 1 926 Markdownposter och 4 190 mediafiler inklusive
+`.gitkeep`. Mediamanifestet har 4 189 poster: 2 449 exakt, 1 712
+källavgränsade, 28 citationsavgränsade och 0 olänkade. Parser-/datatester
+5/5, pedigree 76, djup-5-paketet, utgåvemanifestet, projekt-/Wotan-/
+manifest-JSON, dashboardens produktionsbygge och `git diff --check`
+passerade. Ingen PDF skapades eller verifierades. De två avsiktligt
+icke-nollande auditerna visar fortsatt elva ogiltiga slutstatusar genom
+P-0004:s djup 5 med P-0051 som nästa tillåtna arbetsdjup, och exakt P-0336
+öppen genom P-0210:s djup 4.
+
+## P-0133 — Flen till Helgesta 1907–1909
+
+Batch 209 roterade breddförst till Erik Karlsson och använde endast
+Riksarkivet. Flen A II a-seriens JSON-LD skilde församlingsvolymerna från
+municipalsamhällets parallella böcker och gav A II a/2 a, reproduktion
+`F0003350`, samt A II a/3 c, reproduktion `F0003354`. Helgesta A II a/2
+identifierades som `SE/ULA/10394/A II a/2`, permanent id
+`div9jjX9rH6cxG02H087k3` och reproduktion `F0003387`.
+
+Flen A II a/2 a:s register hänvisar Brosätter till sida 216. Där står Erik
+Karlsson, Matilda Charlotta Sjöberg, fostersonen Sven Arvid Eriksson och
+sonen Karl Oskar; hela hushållet flyttas till Segerslund sida 185 den
+1907-11-13. Sida 185 återger samma fyra personer och markerar `forts.
+församlingsboken` med datumet 1907-11-28.
+
+A II a/3 c:s register hänvisar Segerslund till sida 224. Där följs Erik,
+Matilda och Sven Arvid vidare till Wäsby sida 255 den 1908-10-30. Karl
+Oskar ingår inte i det senare trepersonshushållet; detta bevaras endast som
+sid- och hushållsbunden frånvaro. Sida 255 anger utflyttning till Helgesta
+1909-01-18. Den senare B/4-omläsningen rättar den äldre novemberläsningen.
+
+Helgesta A II a/2 sida 313 ger den reciproka ankomsten från Flen exakt
+1909-01-22 och för samma tre personer vidare till sida 315 under 1909.
+Datumen bildar en fyradagarskedja, inte ett reciprokpar samma dag.
+Sida 315 är rubricerad Vilhelmsro, och sida 327 anger uttryckligen
+`Fortsättning Vilhelmsro fol. 315`. Originalkedjan Brosätter → Segerslund
+→ Wäsby → Helgesta → Vilhelmsro fyller därmed luckan till folkräkningen
+1910. Den äldre Helgesta A II a/3 sida 346 förblir ett senare
+sidavgränsat noll och är inte en motsägelse.
+
+Två preliminära sidroutningar rättades under läsningen: Flen A II a/3 c
+sida 266 är Rosenlund, inte Segerslund, och sida 235 är Westerlund; den
+säkra övergången är sida 224 → 255. De felprövade sidorna bär inga
+personresultat och bevaras inte som noll.
+
+Helgesta B/4 identifierades exakt som `SE/ULA/10394/B/4`, permanent id
+`lCv9jjX9rH6cxG02H087k3`. OAI-EAD anger utflyttningslängd 1895–1915 och
+inflyttningslängd 1895–1918 samt åtkomstbegränsningen `Delvis`; JSON-LD
+saknar bild-URI och OAI:s `dsc` är tom. Efter ägarens besked om inloggning
+och egen CAPTCHA-lösning kördes den exakta Helgesta-arkivvägen om från en
+fungerande Riksarkivet-flik i Chrome. Riksarkivet skapade ändå en ny
+ALTCHA före resultatet. Agenten rörde inte kontrollen, läste inga
+sessionsdata och gjorde ingen läsesals- eller kopiebeställning. Händelsen
+är åtkomstprovenans, inte ett käll-, post- eller personnoll.
+
+S-0612, C-0796 och A-3053–A-3059 samt tio maximaloriginal, åtta
+metadataoriginal och ett strukturerat observationsoriginal bevarar
+resultatet. P-0135, P-0136 och P-0137 har synkroniserats med den nya
+hushållskedjan utan ny biologisk relation. Ingen person, beställning, PDF,
+deployment, commit eller push skapades. T-0012 förblir `ONGOING`/`DOING`;
+nästa breddrotation är P-0336. Läs inte om Helgesta A II a/3 sida 346 som
+ankomstväg och upprepa inte de slutna Flen-sidorna utan en ny
+person-, flytt- eller hushållsnyckel.
+
+Efter regenerering verifierades 499 personer, 2 540 påståenden, 524
+föräldralänkar, 1 924 Markdownposter och 4 183 mediafiler inklusive
+`.gitkeep`. Mediamanifestet har 4 182 poster: 2 442 exakt, 1 712
+källavgränsade, 28 citationsavgränsade och 0 olänkade. Parser-/datatester
+5/5, pedigree 76, djup-5-paketet, utgåvemanifestet, projekt-/Wotan-/
+manifest-/observations-JSON, dashboardens produktionsbygge och
+`git diff --check` passerade. Ingen PDF skapades eller verifierades. De två
+avsiktligt icke-nollande auditerna visar fortsatt elva ogiltiga
+slutstatusar genom P-0004:s djup 5 med P-0051 som nästa tillåtna arbetsdjup,
+och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## P-0051 — Bygdeå C/3 efter vigseln 1810
+
+Batch 208 roterade breddförst till Barbro Christina/Cajsa/Catharina
+Olofsdotters öppna ursprungsspår och använde endast Riksarkivet. Ägaren
+meddelade att Riksarkivet var inloggat och att den tidigare captchan var
+besvarad. Den synliga Chrome-vyn bekräftade aktiv inloggning, men en ny,
+snäv fråga på `Olof Pehrsson` och `Bygdeå` omdirigerades omedelbart till en
+ny ALTCHA före resultat. Agenten rörde inte kontrollen, läste inga
+sessionsdata och lämnade fliken till ägarens egen hantering. Händelsen är
+åtkomstprovenans, inte ett sökresultat.
+
+Den sedan tidigare exakt routade Bygdeå C/3-volymen,
+`SE/HLA/1010025/C/3`, reproduktion `C0034039`, kunde samtidigt läsas genom
+Riksarkivets publika officiella IIIF. Manifestets fulla kronologiska
+födelseföljd 1811–1820 omfattar bilderna `_00166`–`_00214`, 49 bildytor.
+Alla lästes visuellt utan en säker barnpost med Olof Pehrsson och Maja
+Stina Pehrsdotter som föräldrar. Bilderna `_00212` och `_00213` bär båda
+sidetiketten 384 men är två separata originalexponeringar med olika
+checksummor och bevaras båda.
+
+Den fulla exponerade död- och begravningsföljden 1811–1829 omfattar
+`_00345`–`_00360`, 16 bildytor. Ingen säker rad identifierar vigselparets
+Olof Pehrsson eller Maja Stina Pehrsdotter. Bild `_00352` har i december
+1820 en nybyggare Olof Pehrsson, 76 år. Det svårlästa ortnamnet lämnas
+oavskrivet. Åldern motsvarar ungefär födelseår 1744 och avvisar honom som
+Olaus i Överklinten, född 1784-02-07.
+
+Båda nollen är strikt volym-, serie-, tids-, bildintervall-, namn- och
+profilbundna. C/3 är katalogmärkt `Defekt`; resultaten bevisar inte
+barnlöshet, vistelse, överlevnad, död i annan församling eller identitet
+mellan Olaus och 1810 års brudgum. S-0611, C-0795 och A-3050–A-3052 samt
+65 maximaloriginal och ett observationsoriginal bevarar läsningen. Ingen
+person, sammanslagning, relation, beställning, PDF, deployment, commit eller
+push skapades. T-0012 förblir `ONGOING`/`DOING`; nästa breddrotation är
+P-0133. Följderna ska inte läsas om utan ny barn-, flytt-, hushålls- eller
+dödsnyckel.
+
+Efter regenerering verifierades 499 personer, 2 533 påståenden, 524
+föräldralänkar, 1 922 Markdownposter och 4 164 mediafiler inklusive
+`.gitkeep`. Mediamanifestet har 4 163 poster: 2 423 exakt, 1 712
+källavgränsade, 28 citationsavgränsade och 0 olänkade. Parser-/datatester
+5/5, pedigree 76, djup-5-paketet, utgåvemanifestet, projekt-/Wotan-/
+manifest-/observations-JSON, dashboardens produktionsbygge och
+`git diff --check` passerade. Ingen PDF skapades eller verifierades. De två
+avsiktligt icke-nollande auditerna visar fortsatt elva ogiltiga
+slutstatusar genom P-0004:s djup 5 med P-0051 som nästa tillåtna arbetsdjup,
+och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## P-0475 — Grillfamiljens fulla barnkrets i Bettna
+
+Batch 207 roterade breddförst till Johanna Jansdotter/Jonsdotter och
+använde endast Riksarkivet. Ägaren hade meddelat att Riksarkivet var
+inloggat och den tidigare captchan besvarad. Den offentliga IIIF-vägen
+fungerade denna gång direkt med Riksarkivets bildvisare som `Referer`, så
+Chrome-sessionen behövde inte öppnas och inga sessionsdata eller nya
+verifieringsytor berördes.
+
+Bettna C/5 identifierades som `SE/ULA/10110/C/5`, permanent id
+`l5X7hjX9rH6cxG02H087k3` och reproduktion `C0005882`. Det officiella
+IIIF-manifestet har 89 bildytor. Bettna C/6 var sedan tidigare exakt
+identifierad som `SE/ULA/10110/C/6`, permanent id
+`lLX7hjX9rH6cxG02H087k3` och reproduktion `A0012299`.
+
+C/5 bild `C0005882_00035`, 1846 post 3, visar Anna Lotta född 14 januari
+och döpt 18 januari i Glippsta soldattorp. Föräldrafältet skriver soldaten
+Carl Eric Grill och hustrun Johanna Jonsdotter; modern är 26 år. C/6 bild
+`A0012299_00009`, 1863 post 14, visar Maria Sofia född 27 mars som dotter
+till soldaten Carl Fredric Drill och Johanna Jonsdotter; modern är 43 år.
+Båda posterna sammanfaller med de tidigare hushållslängdernas namn, datum
+och familjeplacering.
+
+Tre förväntade C/5-poster saknades däremot i de exakta kronologiska
+fönstren. Lovisa står i A I/12 a–A I/13 a som dotter född 1849-02-27;
+bild 44:s följd över dagen saknar henne och målparets profil. SCB 1860:s
+svårlästa 1848-ledtråd gjorde också bild 41:s följd över 1848-02-27
+relevant, men även den saknar en säker målpost. Bild 60:s aprilföljd
+saknar Johanna Mathilda på den uppgivna dagen 1854-04-21. Bild 74:s
+novemberföljd går från den 11:e till den 30:e utan Hedda på
+1858-11-22; SCB 1880:s 1859 står kvar som separat årskonflikt. Alla tre
+resultaten är strikt bild-, datumfönster-, namn- och
+familjeprofilbundna. De upphäver inte hushållens uttryckliga
+dotterrelationer och blir inte person-, vistelse- eller föräldranoll.
+
+P-0494–P-0499 skapades för samtliga sex namngivna historiska barn:
+Carl Johan, Anna Lotta, Lovisa, Johanna Mathilda, Hedda Carlsdotter och
+Maria Sofia. Carl Johans redan säkrade C/5-post anger honom `oäkta` med
+Johanna som mor och tomt fadersfält. Carl Fredrik registreras därför bara
+som styv-/hushållsfar, aldrig som biologisk far. De fem döttrarnas
+uttryckliga relationer förs från födelseoriginal och/eller sammanhängande
+hushållsled med konflikterna intakta.
+
+S-0116, S-0565, C-0794 och A-3041–A-3049 samt sex fulloriginal och ett
+IIIF-manifest bevarar batchen. T-0012 förblir `ONGOING`/`DOING`; nästa
+breddrotation är P-0051. De lästa C/5-fönstren ska inte upprepas utan ny
+flytt-, attest-, namn- eller hushållsnyckel. Ingen beställning, PDF,
+deployment, commit eller push skapades.
+
+Efter regenerering verifierades 499 personer, 2 530 påståenden, 524
+föräldralänkar, 1 920 Markdownposter och 4 098 mediafiler inklusive
+`.gitkeep`. Mediamanifestet har 4 097 poster: 2 415 exakt, 1 654
+källavgränsade, 28 citationsavgränsade och 0 olänkade. Parser-/datatester
+5/5, pedigree 76, djup-5-paketet, utgåvemanifestet, projekt-/Wotan-/
+manifest-JSON, dashboardens produktionsbygge och `git diff --check`
+passerade. Ingen PDF skapades eller verifierades. De två avsiktligt
+icke-nollande auditerna visar fortsatt elva ogiltiga slutstatusar genom
+P-0004:s djup 5 och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## P-0474 — rekryteringsrullan 1840 och Bokulla
+
+Batch 206 roterade breddförst till Carl Fredrik Grill/Drill och använde
+endast Riksarkivet. Efter ägarens besked att inloggning och den tidigare
+kontrollen var klara kördes den förberedda Indelningsverket-frågan ort
+`Hagby`, socken `Bettna` om. En ny synlig verifiering visades före
+resultat. Arkivposterna omdirigerade också till samma yta. Agenten rörde
+ingen CAPTCHA/ALTCHA, läste inga sessionsdata och registrerar inget
+registerresultat från dessa vägar.
+
+Riksarkivets records-API och JSON-LD kartlade i stället Livkompaniet vid
+Södermanlands regemente. Serien D 2/2, rekryteringsrullor och
+soldatkontrakt, har referenskod `SE/KrA/0108/A/021:Ö/D 2/2`, records-id
+`Ym9bUtGLjKwRF8BkTyytxD` och reproduktion `C0300558`. Publikt trädsvar och
+officiellt IIIF-manifest gav 681 bildytor.
+
+Rekryteringsrullan daterad 1840-12-31 visar på bilderna
+`C0300558_00024` och `_00026` samma blad. Vid nr 36/36 Glippsta står
+`Carl Fredrik Drill`, `Lejd af Roten N:o 142 Bokulla`, Sörmland, det
+överskrivna/rättade årsfältet 1822, 5 fot 10 tum och ogift. Anmärkningen
+börjar säkert `Approberas` och har den säkra dateringen
+`den 15 Febr. 1841`; mellanliggande ord används inte. GMR 1842:s
+1841-02-18 bevaras som separat antagnings-/ersättningsdatum utan
+harmonisering.
+
+En tillhörande lapp på `C0300558_00027`, daterad 1840-12-22, namnger
+`Drängen Carl Drill` och är undertecknad Anders Andersson. Resten är
+delvis oläslig och bär inga påståenden om bostad, arbetsgivare eller
+kontraktsvillkor. Rullan föregår och korsbelägger GMR 1842:s nummer, rote,
+födelselän, åldersläge, längd och civilstånd.
+
+Bokulla routades genom Björkviks husförhör. A I/14 b:s ortregister på
+`C0005912_00008` hänvisar till sida 90, bild `C0005912_00106`.
+Föregående A I/13 b har samma plats på sida 90, `C0005910_00100`.
+Ingen av sidorna innehåller en säker Carl Fredrik Drill-rad eller den
+kända målprofilen. De är två separata arkiv-/volym-/period-/platsrubrik-/
+sidbundna noll, inte person-, vistelse-, församlings- eller
+helvolymsnoll. Rullans Bokulla behandlas därför som rekryteringsrote, inte
+som bostadsort; Bettnas positiva Björkvik-ursprung 1841 står kvar utan
+konstruerad gård.
+
+S-0610/C-0793/A-3037–A-3040, sex maximaloriginal, fjorton
+metadataoriginal och en strukturerad observation bevarar batchen. Ingen
+person, relation, beställning, PDF, deployment, commit eller push
+skapades. T-0012 förblir `ONGOING`/`DOING`; nästa breddrotation är P-0475
+Johanna Jansdotter/Jonsdotter. Rullan, Bokulla-sidorna och den omkörda
+frågan ska inte upprepas utan ny saklig nyckel eller nytt åtkomstläge.
+
+Efter regenerering verifierades 493 personer, 2 521 påståenden, 513
+föräldralänkar, 1 913 Markdownposter och 4 091 mediafiler inklusive
+`.gitkeep`. Mediamanifestet har 4 090 poster: 2 409 exakt, 1 653
+källavgränsade, 28 citationsavgränsade och 0 olänkade. Parser-/datatester
+5/5, pedigree 76, djup-5-paketet, utgåvemanifestet, projekt-/Wotan-/
+manifest-JSON, dashboardens produktionsbygge och `git diff --check`
+passerade. Ingen PDF skapades eller verifierades. De två avsiktligt
+icke-nollande auditerna visar fortsatt elva ogiltiga slutstatusar genom
+P-0004:s djup 5 och exakt P-0336 öppen genom P-0210:s djup 4.
+
+## P-0336 — Sollentunas Tureberg-följd 1921–1928
+
+Batch 205 roterade breddförst till Olaus Fredberg och använde endast
+Riksarkivet. En preliminär omläsning av hans dödspost i Sollentuna
+F I/7 tog siffergruppen `1338` under raden som en möjlig
+församlingsbokshänvisning. Kolumnrubrikerna visar i stället att siffran
+ligger i de statistiska räknekolumnernas slutsummering. Den är inte en
+sidreferens, och A II a/12 sida 1338 får därför varken käll- eller
+påståendestatus.
+
+Riksarkivets records-API identifierade Sollentuna A II a/8,
+`SE/SSA/1563/A II a/8`, reproduktion `00001633`, och A II a/9,
+`SE/SSA/1563/A II a/9`, reproduktion `00001634`. Officiella
+IIIF-manifest bevarar 238 respektive 250 bildytor. A II a/8:s
+kataloganmärkning anger att dess ortregister även gäller A II a/9,
+och registerbild `00001633_00005` routar Turebergsgård, Tureberg 1–6,
+järnvägsstationen, banvaktsstugan och skolhuset till A II a/9.
+
+Den fullständiga registerstyrda Tureberg-följden omfattar de 33 exponerade
+bilderna `00001634_00157`–`_00189`, märkta uppslag 406–423 och
+425–439. Uppslag 424 exponeras inte separat; bild 174 markerar den
+angränsande ytan `TOMMA SIDOR`. Uppslag 440 börjar Viby gård och
+kontrollerades som yttre gräns. Samtliga Tureberg-bilder lästes visuellt
+utan en säker Olaus/Olof Fredberg/Fredriksson-, Johanna Charlotta
+Jansson-, Fredberg-hushålls- eller målprofilsrad för mannen född 1852 i
+Lundby med järnvägsyrke.
+
+Resultatet är strikt käll-, volym-, tids-, ortregister-, bildintervall-,
+namnforms- och profilbundet. Det är inte ett person-, vistelse-,
+dödsorts-, hela Sollentuna- eller helperiodsnoll och säger inget om
+Olaus föräldrar eller den öppna födelsedatumskonflikten. Bilderna ska
+inte läsas om utan en ny adress-, fastighets-, flytt- eller
+hushållsnyckel.
+
+Volymmetadata och bildidentifierare kom från records-API och officiella
+IIIF-manifest; bilderna lästes i ägarens redan inloggade Chrome. Ingen
+CAPTCHA visades eller hanterades och inga kakor, token eller andra
+sessionsdata lästes. Ingen läsesals- eller kopiebeställning skapades.
+Riksarkivets fullbildsknapp gav ingen fångbar filhändelse, så de fyra
+bevarade JPG-filerna är uttryckligen 1200×810-läskopior från
+bildvisaren, inte maximaloriginal.
+
+S-0609/C-0792/A-3036, fyra läskopior, två IIIF-manifest, ett
+records-API-resultat och en strukturerad observation bevarar batchen.
+Ingen person, relation, beställning, PDF, deployment, commit eller push
+skapades. T-0012 förblir `ONGOING`/`DOING`; nästa breddrotation är
+P-0474 Carl Fredrik Grill.
+
+Efter regenerering verifierades 493 personer, 2 517 påståenden, 513
+föräldralänkar, 1 911 Markdownposter och 4 070 mediafiler inklusive
+`.gitkeep`. Mediamanifestet har 4 069 poster: 2 403 exakt, 1 638
+källavgränsade, 28 citationsavgränsade och 0 olänkade. Parser-/
+datatester 5/5, pedigree 76, djup-5-paket, utgåvemanifest,
+projekt-/Wotan-JSON, batchens kontrollsummor, manifestkontroll,
+dashboardens produktionsbygge och den oförändrade 20-sidors-PDF:en
+passerade. De två avsiktligt icke-nollande auditerna visar fortsatt elva
+ogiltiga slutstatusar genom P-0004:s djup 5 och exakt P-0336 öppen genom
+P-0210:s djup 4. `git diff --check` passerade.
+
+## P-0213 — från Flen mot Mellösa 1899–1900
+
+Batch 204 roterade breddförst till Elli Maria Sofia och använde endast
+Riksarkivet. Den redan bevarade Bergatorpssidan i Flen A I/26 omlästes
+mot den samtidiga utflyttningsboken. Flen B/4 bild `F0003360_00038`,
+tryckt sida 29, post 115 skriver `Dottern Maria Sofia Eriksson`, från
+Bergatorp, folio 281, till `Mellösa`. Datumet är ett dittotecken efter
+föregående posts `10/11`, alltså 1899-11-10. Namn, familjeställning,
+gård och folio binder posten säkert till P-0213 och tillför
+efternamnsformen `Eriksson` vid sidan av `Elli Maria Sofia`, `Maria
+Sofia` och projektets normaliserade `Eriksdotter`.
+
+Destinationen är bara skriven `Mellösa`. Mellösa kyrkoarkiv B/3,
+`SE/ULA/10835/B/3`, reproduktion `F0003333`, kontrollerades därför som
+Lilla Mellösa. Hela inflyttningsföljden 1899, posterna 1–150 på bilderna
+38–44, och hela utflyttningsföljden 1900, posterna 1–149 på bilderna
+45–50, lästes i maxoriginal utan målprofil.
+
+Riksarkivets officiella manifest för `Folkräkning 1900 - Lilla Mellösa
+församling, Södermanlands län` har 55 bilder, `004051-001`–`-055`.
+Samtliga lästes. Ingen person kombinerar Maria Sofia Eriksson,
+födelseåret 1883 och födelseorten Forssa; namnlika personer med annat år
+eller annan ort avvisades.
+
+Stora Mellösa prövades separat genom det officiella IIIF-manifestet för
+B/6, `SE/ULA/11458/B/6`, reproduktion `00170442`. Hela
+inflyttningsföljden 1899, posterna 1–126 på bilderna 31–36 följda av tom
+inflyttningssida på bild 37, saknar också målprofilen. De fyra negativa
+resultaten är strikt volym-/folkräkningsår-/post- eller
+bildföljd-/namn-/profilbundna. De är inte person-, vistelse-,
+destinations- eller generella församlingsnoll och upphäver inte Flens
+positiva post.
+
+Efter ägarens besked kördes de tidigare missade webbrutterna om i den
+redan inloggade externa Chrome-sessionen. Exakt folkräkningsfråga, Stora
+Mellösa-arkivvägen och en normal namnfråga från en öppen registerpost gav
+tre nya ALTCHA-verifieringar. Agenten rörde dem inte eller sessionsdata.
+Nya direkta `data.riksarkivet.se`-anrop mötte dessutom Riksarkivets Web
+Application Firewall; detta är åtkomstprovenans, inte källresultat.
+Publik JSON-LD/IIIF gav metadata och original. Ingen läsesals- eller
+kopiebeställning gjordes.
+
+S-0608, C-0788–C-0791 och A-3030–A-3035 bevarar den positiva flytten,
+namnkonflikten, fyra snäva noll, 76 lästa originalbilder, tio
+metadata-/observationsfiler och återstartsleder. Ingen person, relation,
+beställning, PDF, deployment, commit eller push skapades. T-0012 förblir
+`ONGOING`/`DOING`; nästa breddrotation är P-0336 Olaus Fredberg. Maria
+Sofia återtas endast med senare flyttpost, hushållssida, registerträff
+eller ny samtidig namnform; de slutna följderna ska inte upprepas utan en
+sådan brygga.
+
+### Verifiering
+
+Datavalideringen räknar 2 516 påståenden, 1 909 Markdownposter och 4 062
+mediafiler inklusive `.gitkeep`. Mediamanifestet innehåller 4 061
+sakmedier: 2 399 exakt, 1 634 källavgränsade och 28
+citationsavgränsade, utan olänkade filer. Dashboarden verifierades och
+byggdes med 493 personer, 2 516 påståenden och 513 föräldralänkar.
+Parser-/datatesterna (5/5), pedigree-baslinjen 76, djup-5-paketet,
+utgåvemanifestet, projekt-/Wotan-JSON, mediamanifest/checksummor,
+produktionsbygget och den oförändrade PDF:ens 20-sidorskontroll passerade.
+De avsiktligt icke-nollande anspetsauditerna visar fortsatt elva ogiltiga
+slutstatusar genom P-0004:s djup 5 och exakt P-0336 öppen genom P-0210:s
+djup 4. `git diff --check` passerade.
+
+## P-0015 — Flen, Sköldinge och Hyltinge 1897–1898
+
+Batch 203 roterade breddförst till Axel Edvard och använde endast
+Riksarkivet. Sköldinge B/6 identifierades genom arkiv-JSON-LD som
+`SE/ULA/11355/B/6`, permanent id `dvEerDX9rH6cxG02H087k3` och
+reproduktion `F0003256`. Det officiella IIIF-manifestet avgränsar 1897
+till bilderna `_00027`–`_00035`. Hela inflyttningsföljden lästes i
+maxoriginal: posterna 1–175 löper utan lucka över bilderna 27–34 och
+bild 35 har tom inflyttningssida. Ingen post matchar Axel Edvard Eriksson,
+född 1881-03-20 i Forssa och kommen från Flen/Bergatorp.
+
+Hyltinge B/4, `SE/ULA/10422/B/4`, öppnades i ägarens redan inloggade
+externa Chrome-session. Riksarkivets fulloriginal för bilderna
+`00154512_00014`–`_00022` hämtades genom bildvisarens egen nedladdning.
+Inflyttade 1897 är komplett från post 1 till 81 och utflyttade 1898 från
+post 1 till 75. Ingen av de två följderna har Axel Edvards målprofil.
+
+Flens egen samtidiga inflyttningsbok löser ändå återkomsten. B/4 bild
+`F0003360_00031`, tryckt sida 22, post 85 skriver sonen Axel Edvard
+Eriksson från Hyltinge till Bergatorp, folio 281, den 9 november 1898.
+Fullständigt namn, familjeställning, destination och folio gör identiteten
+säker. En ny högupplöst omläsning av Flen A I/26 sida 281 visar därmed
+fältföljden `Hyltinge`, `98`, `9/11`, `85`. Den äldre avskriften
+`1898-11-21` rättades i C-0579, A-2513 och P-0015.
+
+Sköldinge-nollet och de två Hyltinge-nollen är strikt volym-, år-,
+postföljd-, namn- och identitetsprofilbundna. De upphäver inte Flens
+positiva ut- och inflyttningsposter och bevisar inte att Axel aldrig
+vistades på orterna. Hyltinges saknade motsvarighet är en synlig
+källucka: Flens post belägger Hyltinge som angiven avsändar-/attestort,
+men inte en specifik Hyltinge-hushållssida.
+
+Direkt Sköldinge-NAD och den exakta globala sökvägen visade nya ALTCHA
+trots aktiv inloggning; agenten rörde inte verifieringarna eller
+sessionsdata. Publik JSON-LD/IIIF och den inloggade Hyltinge-bildvisaren
+gav underlaget. S-0607, C-0785–C-0787 och A-3027–A-3029 bevarar resultat,
+scope, rättelse, fulloriginal och återstartsleder. Ingen person, relation,
+beställning, PDF, deployment, commit eller push skapades. T-0012 förblir
+`ONGOING`/`DOING`; nästa breddrotation är P-0213 Elli Maria Sofia.
+
+### Verifiering
+
+Datavalideringen räknar 2 510 påståenden, 1 904 Markdownposter och 3 976
+mediafiler inklusive `.gitkeep`. Mediamanifestet innehåller 3 975
+sakmedier: 2 377 exakt, 1 570 källavgränsade och 28
+citationsavgränsade, utan olänkade filer. Dashboarden verifierades och
+byggdes med 493 personer, 2 510 påståenden och 513 föräldralänkar.
+Parser-/datatesterna (5/5), pedigree-baslinjen 76, djup-5-paketet,
+utgåvemanifestet, projekt-/Wotan-JSON, mediamanifest/checksummor,
+produktionsbygget, den oförändrade PDF:ens 20-sidorskontroll och
+`git diff --check` passerade. De avsiktligt icke-nollande anspetsauditerna
+visar fortsatt elva ogiltiga slutstatusar genom P-0004:s djup 5 och exakt
+P-0336 öppen genom P-0210:s djup 4.
+
+## P-0143 — från Flen till Stockholm 1897
+
+Batch 202 roterade breddförst till Erik Arvid och använde endast
+Riksarkivet. Flen B/4, `SE/ULA/10257/B/4`, bild `F0003360_00023`, tryckt
+sida 14, har den samtida utflyttningsposten 38. Erik Arvid Eriksson
+lämnade Bergatorp, folio 281, för Stockholm 1897-10-20. Posten
+korsbelägger hushållsraden i Flen A I/26 sida 281, inklusive datum,
+destination och attestnummer.
+
+Följande post 39 använder samma datum och anger Axel Edvard Eriksson från
+Bergatorp, folio 281, till Sköldinge. Namn, hushållsfolio och placering
+direkt efter brodern gör även den identiteten säker. Uppgiften fyller en
+tidigare lucka i Axel Edvards biografi och öppnar nästa exakta route mot
+Sköldinges inflyttnings- och hushållslängder före den kända återkomsten
+från Hyltinge 1898.
+
+Riksarkivets records-API och officiella IIIF-manifest användes därefter
+för att läsa avgränsade E/Eriksson-sekvenser kring utflyttningsdagen i
+Hedvig Eleonora, Klara, Storkyrko-, Adolf Fredriks, Maria Magdalena,
+Kungsholms, Katarina, Johannes och Jakobs församlingar. Hedvig Eleonoras
+registerkontroll omfattar hela den manliga Eriksson-sekvensen 1897; de
+övriga åtta är bild- och datumintervall kring 20 oktober och närmast
+följande registreringsdagar. Ingen målprofil för Erik Arvid, född
+1879-02-13 i Forssa, återfanns.
+
+Resultatet är nio separata volym-, namnsekvens-, datumintervall- och
+identitetsprofilbundna noll. Det är inte ett Stockholm-, person-,
+vistelse- eller folkräkningsnoll och motsäger inte den positiva
+utflyttningen. Finska församlingen, hov- och garnisonsförsamlingar,
+odigitaliserade volymer och eventuell senare vidareflyttning är inte
+täckta.
+
+Den exakta globala Riksarkivssökningen på `"Erik Arvid Eriksson"`
+öppnades i ägarens externa, redan inloggade Chrome-session. Den visade en
+ny ALTCHA trots aktiv inloggning. Agenten rörde inte kontrollen eller
+sessionsdata. S-0606, C-0783–C-0784 och A-3024–A-3026 bevarar den
+positiva flytten, varje snävt nollscope, källmetadata, fulloriginal och
+återstartsleder. Ingen person, beställning, PDF, deployment, commit eller
+push skapades. T-0012 förblir `ONGOING`/`DOING`; nästa breddrotation är
+P-0015 Axel Edvard via Sköldingeflytten 1897.
+
+### Verifiering
+
+Datavalideringen räknar 2 507 påståenden, 1 900 Markdownposter och 3 943
+mediafiler inklusive `.gitkeep`. Mediamanifestet innehåller 3 942
+sakmedier: 2 348 exakt, 1 566 källavgränsade och 28
+citationsavgränsade, utan olänkade filer. Dashboarden verifierades och
+byggdes med 493 personer, 2 507 påståenden och 513 föräldralänkar.
+Parser-/datatesterna (5/5), pedigree-baslinjen 76, djup-5-paketet,
+utgåvemanifestet, projekt-/Wotan-JSON, mediamanifest/checksummor,
+produktionsbygget, den oförändrade PDF:ens 20-sidorskontroll och
+`git diff --check` passerade. De avsiktligt icke-nollande anspetsauditerna
+visar fortsatt elva ogiltiga slutstatusar genom P-0004:s djup 5 och exakt
+P-0336 öppen genom P-0210:s djup 4.
+
+## P-0051 — kandidathushåll i Överklinten och Umeå C/5
+
+Efter användarens besked att Riksarkivet var inloggat och CAPTCHA:n
+besvarad återupptogs batch 195:s nya familjenyckel kring Maja Stina
+Pehrsdotter. Endast Riksarkivet användes. Den exakta Umeå-NAD-sidan visade
+trots aktiv inloggning en ny CAPTCHA vid omladdning; agenten rörde inte
+kontrollen eller sessionsdata. Riksarkivets publika OAI-, arkivträds- och
+IIIF-rutter gav samtidigt de relevanta originalen.
+
+Bygdeå A I/6:s egna register avgränsar Överklinten till sidorna 69–80.
+Hela avsnittet lästes visuellt. På sida 80, bild `C0034014_00093`, står
+hushåll nummer 12 med Nils Jonsson/Jönsson född 1775, hustrun Maja Stina
+född 1779 samt döttrarna Anna Cajsa född 1800 och Maja Stina född 1802.
+Namn, ungefärliga åldrar, ort och barnens födelseår gör hushållet till en
+stark kandidat för Nils Jonsson från Umeå och Maja Stina Pehrsdotter i
+Överklinten, vigda 1799-09-29. Hustruns patronymikon saknas dock, den
+klamrade marginalanteckningen är inte säkert läst och ingen fortsatt
+hushållsbrygga är funnen. Direktläsningen och kandidatidentiteten hålls
+därför isär.
+
+A I/7a:s hela registrerade Överklintensavsnitt sidorna 114–131 lästes med
+Åkullsjön sida 132 som yttre gränskontroll. Det saknar ett säkert fortsatt
+hushåll med paret och döttrarna. Bygdeå C/3:s kompletta
+manifestavgränsade födelseföljder 1800 och 1802 saknar säkra dotterposter
+med föräldrarna Nils Jonsson och Maja Stina. Samma volyms hela
+manifestavgränsade död- och begravningsföljd 1799–1810 saknar en säkert
+identifierbar vuxen Nils Jonsson som förklarar omgifte 1810. C/3 är
+katalogmärkt `Defekt` och dödföljden delvis gles; resultaten förblir
+strikt serie-, års- och bildintervallbundna.
+
+Umeå landsförsamling C/5 identifierades som `SE/HLA/1010219/C/5`,
+records-id `8kkFfS20T4AyCG6CjWm7e5`, Arkis-UUID
+`a58feb22-80c0-4274-bc62-03196c180f45` och reproduktion `C0034535`.
+IIIF-manifestet har 394 bildytor. Alla 17 bilder för födda 1800 och alla
+21 bilder för födda 1802 lästes visuellt. De saknar en säker Anna
+Cajsa/Anna Catharina respektive Maja Stina/Maria Christina med paret som
+föräldrar. Namnlikheter med andra föräldrar eller platser räknades inte
+som träffar. Resultatet är två fulla födelseårsföljdsnoll i just denna
+volym, inte ett person-, vistelse-, föräldra-, hela Umeå- eller
+helvolymsnoll.
+
+S-0602, C-0776 och A-3009–A-3016 bevarar direktavskriften, kandidaten,
+de avgränsade nollresultaten och åtkomstprovenansen. Samtliga 112 lästa
+bilder samt sex metadata-/observationsoriginal bevaras lokalt med
+kontrollsummor. Ingen person, sammanslagning eller relation skapades.
+T-0012 förblir `ONGOING`/`DOING`. De lästa Bygdeå- och Umeåintervallen ska
+inte upprepas utan en ny patronymikon-, marginal-, barn-, flytt- eller
+hushållsnyckel. Ingen beställning, PDF, deployment, commit eller push
+skapades.
+
+### Verifiering
+
+Datavalideringen räknar 2 497 påståenden, 1 888 Markdownposter och 3 846
+mediafiler inklusive `.gitkeep`. Mediamanifestet innehåller 3 845
+sakmedier: 2 300 exakt, 1 517 källavgränsade och 28
+citationsavgränsade, utan olänkade filer. Dashboarden verifierades och
+byggdes med 493 personer, 2 497 påståenden och 513 föräldralänkar.
+Parser-/datatesterna (5/5), pedigree-baslinjen 76, djup-5-paketet,
+utgåvemanifestet, projekt-JSON, Wotan-JSON, mediamanifest/checksummor,
+produktionsbygget, den oförändrade PDF:ens 20-sidorskontroll och
+`git diff --check` passerade. De avsiktligt icke-nollande anspetsauditerna
+visar fortsatt elva ogiltiga slutstatusar genom P-0004:s djup 5 och exakt
+P-0336 öppen genom P-0210:s djup 4.
+
+## P-0142 — från Svartgjötorp till Sköldinge 1892
+
+Batch 201 roterade breddförst till Anna Erika och använde endast
+Riksarkivet. Forssa A I/18 identifierades som `SE/ULA/10279/A I/18`,
+1891–1895, records-id `WyfzRBOITKHfkq00aG21xB` och reproduktion
+`C0006408`. Direktbildvisaren öppnades i ägarens redan inloggade Chrome,
+utan agenthanterad CAPTCHA eller sessionsdata. Fulloriginalet
+`C0006408_00088`, sida 83, rättade den preliminära översiktsläsningen:
+Anna Erika saknas inte utan står direkt under fadern Erik Karlsson, född
+1877-01-23 i Forssa. På hennes rad står Sköldinge, år 1892 och
+attestnummer 16.
+
+Forssa B/4 identifierades som `SE/ULA/10279/B/4`, 1880–1894,
+reproduktion `F0002780`. Utflyttade 1892 post 26 på bild
+`F0002780_00037` skriver `Eriksson, Anna Erika, dotter`. Datumet
+1892-10-22, folio 83 och ursprungsstället Svartgjötorp upprepas med
+dittotecken från post 25; destinationen är Sköldinge. Folio, namn,
+familjeställning och ort gör identiteten säker och korsbelägger A I/18.
+
+Sköldinge B/5 identifierades genom Riksarkivets records-API och verifierades
+mot det publika IIIF-manifestet som `SE/ULA/11355/B/5`, 1885–1894,
+records-id `dfEerDX9rH6cxG02H087k3` och reproduktion `F0003255`.
+Inflyttningskolumnen på alla 1892-bilder `F0003255_00058`–`_00063`
+lästes i maximal originalupplösning. Den fotograferade följden börjar
+med post 6 och slutar med post 243; ingen exponerad post är en säker Anna
+Erika Eriksson från Forssa. Posterna 1–5 exponeras inte. Resultatet är
+därför endast ett volym-, år-, exponerad postföljd-, namn- och
+ursprungsbundet noll. Det motsäger inte Forssas positiva flyttnotis och
+är inte ett komplett årsnoll, ankomstnoll, vistelsenoll eller personnoll.
+
+De exakta Sköldinge-NAD-, kyrkoarkiv- och folkräkningsrutterna genererade
+nya synliga ALTCHA-rutor trots aktiv inloggning. Agenten rörde dem inte.
+S-0605, C-0780–C-0782 och A-3021–A-3023 bevarar den positiva kedjan,
+det snäva nollresultatet, källmetadata, fulloriginal och återstartsleder.
+Ingen person, relation, beställning, PDF, deployment, commit eller push
+skapades. T-0012 förblir `ONGOING`/`DOING`. Återta Anna Erika endast
+genom en ny Sköldinge-hushållssida, senare flytt-/folkräkningspost eller
+ändrat lagligt internetläge. Nästa breddrotation är P-0143 Erik Arvid.
+
+### Verifiering
+
+Datavalideringen räknar 2 504 påståenden, 1 897 Markdownposter och 3 879
+mediafiler inklusive `.gitkeep`. Mediamanifestet innehåller 3 878
+sakmedier: 2 325 exakt, 1 525 källavgränsade och 28
+citationsavgränsade, utan olänkade filer. Dashboarden verifierades och
+byggdes med 493 personer, 2 504 påståenden och 513 föräldralänkar.
+Parser-/datatesterna (5/5), pedigree-baslinjen 76, djup-5-paketet,
+utgåvemanifestet, projekt-/Wotan-JSON, mediamanifest/checksummor,
+produktionsbygget, den oförändrade PDF:ens 20-sidorskontroll och
+`git diff --check` passerade. De avsiktligt icke-nollande anspetsauditerna
+visar fortsatt elva ogiltiga slutstatusar genom P-0004:s djup 5 och exakt
+P-0336 öppen genom P-0210:s djup 4.
+
+## P-0136 — Kungliga Livgardet till häst 1903
+
+Batch 200 roterade breddförst från P-0133 till sonen Karl Oskar och använde
+endast Riksarkivet. En högupplöst omläsning av det redan bevarade Flen A II
+a/1-originalet, sida 349 och bild `F0003349_00386`, löste den tidigare
+olästa destinationskolumnen. På Karl Oskars rad står diplomatiskt
+`Kungl. Lifgard. t. häst` och `Stockholm`; datumkolumnen anger `03 22/10`.
+Normaliserat antecknades han lämna hushållet för Kungliga Livgardet till
+häst i Stockholm 1903-10-22. Skvadron och tjänstetid framgår inte.
+
+Records-API:t identifierade därefter Flens in- och utflyttningslängd
+`SE/ULA/10257/B/4`, 1895–1910, med reproduktionerna `00154035` och
+`F0003360`. Fulloriginalen `F0003360_00090`–`_00091` omfattar det
+daterade 22-oktoberblocket på tryckt sida 78 och den följande
+23-oktobergränsen på sida 79. Ingen säker Karl/Carl Oskar Eriksson med
+1885-12-08/Forssa-profilen finns där. Resultatet är bara ett
+serie-, datumblock-, sid-, namnforms- och profilbundet noll, inte ett
+person-, militärtjänst-, helårs- eller helvolymsnoll.
+
+Riksarkivets metadata identifierade Livgardet till hästs församling
+`018001984`, regementsarkivet `SE/KrA/0161` och det digitaliserade
+A–K-personregistret `SE/RA/870001/2/1/67`, reproduktion `C0055484`.
+Registrets egen anmärkning täcker husförhörslängder 1832–1927,
+församlingsbok 1898–1927 och in-/utflyttade 1832–1927. Direktbildvisaren
+öppnades i ägarens inloggade Chrome utan ny kontroll. Fulloriginalen
+`C0055484_00106`, `_00107` och `_00110` lästes: Eriksson Karl/Carl på
+tryckta sidor 198–201 samt alternativformen Ersson Karl/Carl på sidor
+206–207. Den enda utskrivna Karl Oscar-posten är född 1900-11-03 i Bro och
+är en annan person. Målprofilen saknas, men endast inom exakt detta
+register och de lästa namn-/förnamnsavsnitten; underliggande kyrkoböcker
+och militära rullor är inte uteslutna.
+
+Records-API:t pekar vidare på
+`SE/KrA/0161/019:Ö/D I/5`, 4:e skvadronens rullor och
+personalförteckningar 1885–1903, samt
+`SE/KrA/0161/020:Ö/D IV/4`, 5:e skvadronens strödda rullor och journaler
+1903–1915. De saknar publik bildlänk. Ingen läsesals- eller
+kopiebeställning gjordes. Den exakta topografisidan och Karl Oskars
+1910/1930-folkräkningsfråga gav nya synliga ALTCHA-rutor trots aktiv
+inloggning; agenten rörde dem inte. Grill-frågan Hagby/Bettna kördes också
+om på användarens begäran men fick på nytt en orörd ALTCHA-dialog före
+resultat. Dessa är åtkomsthinder, inte källnoll.
+
+S-0603–S-0604, C-0777–C-0779 och A-3017–A-3020 bevarar den positiva
+flyttnotisen, de två snäva nollresultaten, metadata, återstartsleder och
+åtkomstprovenans. T-0012 förblir `ONGOING`/`DOING`. Nästa breddrotation är
+P-0142 Anna Erika. De lästa intervallen ska inte göras om utan ny namnform,
+registerhänvisning, militär brygga eller ändrat lagligt internetläge.
+Ingen person, relation, beställning, PDF, deployment, commit eller push
+skapades.
+
+### Verifiering
+
+Datavalideringen räknar 2 501 påståenden, 1 893 Markdownposter och 3 863
+mediafiler inklusive `.gitkeep`. Mediamanifestet innehåller 3 862
+sakmedier: 2 317 exakt, 1 517 källavgränsade och 28
+citationsavgränsade, utan olänkade filer. Dashboarden verifierades och
+byggdes med 493 personer, 2 501 påståenden och 513 föräldralänkar.
+Parser-/datatesterna (5/5), pedigree-baslinjen 76, djup-5-paketet,
+utgåvemanifestet, projekt-JSON, Wotan-JSON, mediamanifest/checksummor,
+produktionsbygget, den oförändrade PDF:ens 20-sidorskontroll och
+`git diff --check` passerade. De avsiktligt icke-nollande anspetsauditerna
+visar fortsatt elva ogiltiga slutstatusar genom P-0004:s djup 5 och exakt
+P-0336 öppen genom P-0210:s djup 4.

@@ -1,0 +1,339 @@
+# T-0092: Ompröva daterade åtkomstbesked i inloggad katalog
+
+- Status: DONE
+- Storlek: S
+- Beroende: inga
+- Skapad: 2026-09-06
+
+## Varför
+
+Kontraktsgranskningen i [T-0070](T-0070.md) har blottlagt ett **andra
+systematiskt mönster**, skilt från det datumbundna i [T-0090](T-0090.md):
+
+> Ett åtkomstbesked formuleras korrekt vid sin tidpunkt — `saknar bildlänk`,
+> `ej fjärråtkomlig`, `stannade vid orörd ALTCHA` — och blir sedan stående
+> som om det vore permanent, **även när förutsättningarna ändras**.
+
+Beskeden är inte fel. Repots egen metodnot säger uttryckligen att avsaknad av
+bildlänk visar att volymen inte kan nås på distans, **men inte varför**. Det
+som saknas är omprövningen.
+
+Samma slutsats har redan rivits upp **tre gånger**:
+
+| Person | Volym | Äldre besked | Utfall |
+|---|---|---|---|
+| [P-0020](../../genealogy/research-profiles/P-0020.md) | Värsås A I/7–A I/8 | ej digitaliserad | öppnades inloggat 2026-09-03; A-0622 → `REJECTED` |
+| [P-0050](../../genealogy/research-profiles/P-0050.md) | Nysätra C/4, E I/1 | ej digitaliserad | öppnades inloggat 2026-08-21; A-0662, A-0663 → `REJECTED` |
+| [P-0253](../../genealogy/people/P-0253-erik-jonas-henriksson.md) | Sättna F/1, Holm B/2, Ljustorp E I/3 | `401` på bildnivå | upplösta 2026-09-05; A-3515, A-3518, A-3524 |
+
+## Rättelse 2026-09-06, samma dag
+
+Den första versionen av denna uppgift räknade **tre** volymgrupper. Vid
+granskningen av par 8 visade det sig att **två av dem redan var omprövade** —
+felet var mitt: jag läste det äldre påståendet i personakten och missade det
+senare som upphäver det. Mönstret är verkligt, men dess omfattning var
+mindre än den först beskrevs. Efter kontroll återstår **en** volymgrupp.
+
+Detta gör uppgiftens **andra** utfall lika viktigt som dess första: en
+förteckning över vilka åtkomstbesked som är aktuella och vilka som är
+daterade, så att ingen upprepar en redan gjord kontroll.
+
+## Omfång
+
+1. **Gryts kyrkoarkiv `SE/ULA/10335`** — födelseböckerna C/3 och C/4 för
+   1850 och lysnings- och vigselboken för 1876. Beskedet är daterat
+   **2026-08-20** och aldrig omprövat (A-0489). Kan ge **två** av
+   [P-0110](../../genealogy/research-profiles/P-0110.md):s tre saknade
+   hörnstenar — hans egen födelsenotis och parets vigsel — och besvarar samma
+   vigselfråga för [P-0111](../../genealogy/research-profiles/P-0111.md).
+2. **Ölands norra mots häradsrätt `F II`** — serien är rätt identifierad men
+   **katalogen exponerade ingen årsvolym för 1901**. Det är ett katalog- och
+   inte ett åtkomsthinder; en **NAD-kontroll** kan visa om volymen finns men
+   saknas i den prövade vyn. Samma sak för **Häradsskrivarens i Ölands norra
+   mots fögderi fond `SE/VALA/01959`**, där tre riktade frågor inte
+   exponerade någon årsvolym. För
+   [P-0310](../../genealogy/research-profiles/P-0310.md) och
+   [P-0311](../../genealogy/research-profiles/P-0311.md).
+   *Tillagd 2026-09-06 ur batch 383.*
+3. **Bouppteckningen efter [P-0312](../../genealogy/research-profiles/P-0312.md),
+   död 1920-09-10 i Östra Husby.** De riktade katalogfrågorna nådde bara
+   Björkekinds och Östkinds domsagas `F III a`-volymer **till 1903** och
+   identifierade **ingen efterträdarserie för 1920**
+   ([C-0827](../../genealogy/citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md)).
+   Frågan är rent arkivorganisatorisk: **vilken domstol hade jurisdiktion över
+   Östra Husby 1920, och vad heter dess bouppteckningsserie?** NAD-trädet
+   svarar. *Tillagd 2026-09-06 ur batch 384.*
+4. **Indals kyrkoarkiv `F/2`** — död- och begravningsbok som täcker **både
+   1901 och 1904**. Volymen är **exakt identifierad** men saknade publik
+   bildpekare, och **katalogsidan stannade vid orörd människeverifiering**
+   ([C-0671](../../genealogy/citations/C-0671-indal-F2-api-och-kataloghinder.md)).
+   Det är precis den sortens hinder ägaren hävde 2026-09-06
+   (PCD-2026-09-06-005), och beskedet är **inte omprövat sedan dess**.
+   **En enda kontroll ger dödsorsakerna för två personer:**
+   [P-0316](../../genealogy/research-profiles/P-0316.md) död 1901-03-05 och
+   [P-0315](../../genealogy/research-profiles/P-0315.md) död 1904-09-25 —
+   båda med **tomma** dödsorsakskolumner i SCB-utdragen, som är samtidiga
+   avskrifter och inte kan fylla i vad originalet utelämnar.
+   **Detta är den tydligaste enskilda konsekvensen av ALTCHA-lyftet som
+   granskningen har hittat, och bör göras direkt efter Gryt.**
+   *Tillagd 2026-09-06 ur batch 385.*
+5. **Stockholms rådhusrätts bouppteckningar för 1886.** Tre riktade frågor
+   identifierade **ingen relevant serie eller volym** för
+   [P-0337](../../genealogy/research-profiles/P-0337.md), död 1886-10-01 med
+   fyra minderåriga barn
+   ([C-0827](../../genealogy/citations/C-0827-riksarkivet-bouppteckningsrutter-kristina-djup5.md)).
+   Ett katalog- och frågebundet noll, inte en aktfrånvaro — samma sorts fråga
+   som Östra Husbys efterträdarserie. Självdeklarationen `G 1 BB:44/20` för
+   [P-0336](../../genealogy/research-profiles/P-0336.md) visade **ALTCHA,
+   orörd**, och hör till [T-0051](T-0051.md) men är samma mönster.
+   *Tillagd 2026-09-06 ur batch 386.*
+6. **Sammanställ förteckningen** över åtkomstbesked per volym med datum och
+   utfall, så att den kan läsas i stället för att kontrollen görs om.
+   **Ta med det fjärde exemplet på ett besked som inte höll:** Högby F/2
+   svarade `401` på bildnivå 2026-08-29 men **öppnades sedan i den inloggade
+   reservvisaren** och gav dödsorsak och begravningsdag
+   ([C-0560](../../genealogy/citations/C-0560-hogby-F2-carl-august-carlman-dod-1901.md)).
+
+## Uteslutet — redan omprövade, upprepa inte
+
+| Volymer | Person | Omprövat | Utfall |
+|---|---|---|---|
+| Forssa H II/1, Villåttinge C II b/5 och F II/59, Flen P I/1, D14/10 | [P-0133](../../genealogy/people/P-0133-erik-karlsson-svartgjolstorp.md) | 2026-09-05, inloggat utan CAPTCHA | samtliga fortsatt `Läsesal` (A-2954, C-0757) |
+| Bygdeå H I/1, H III/1, L III/1 | [P-0051](../../genealogy/research-profiles/P-0051.md) | 2026-09-05, inloggat | fortsatt `Läsesal` (A-2953) |
+| Göta livgardes 198, 240, 241 och åtta Olaus-rutter | [P-0336](../../genealogy/people/P-0336-olaus-fredberg.md) | efter ägarens egen CAPTCHA-lösning | samtliga elva `Läsesal` (A-2963, C-0762) |
+
+Själva läsningen av volymer som visar sig vara öppna hör till respektive
+persons källväg och till [T-0091](T-0091.md), inte hit. Läsesal, beställning,
+PDF, dashboard, publicering och push.
+
+## Utfört 1 — Indal F/2, 2026-09-06
+
+**Beskedet höll inte.** [C-0671](../../genealogy/citations/C-0671-indal-F2-api-och-kataloghinder.md)
+slog 2026-08-30 fast att katalogsidan omdirigerades till en människeverifiering.
+Vid förnyad kontroll 2026-09-06 öppnas samma beständiga länk **utan
+verifiering**. Ingen verifiering har lösts.
+
+Volymen `SE/HLA/1010090/F/2` visas i två omgångar: `00199095`, 127 bilder,
+Original, och `F0014119`, 140 bilder, Mikrofilm. Båda målposterna lästa i
+originalomgången: post 10 år 1901 på bild `00199095_00032` och post 36 år
+1904 på bild `00199095_00050`, med kolumnrubrikerna avlästa i förstoring
+först.
+
+**Utfallet är inte det väntade, och det är en poäng i sig.**
+Dödsorsakskolumnen är **tom i originalet** för båda makarna. Tomheten i
+SCB-utdragen var alltså inte en avskriftsförlust. Kolumnen används på andra
+rader i samma volym, så tomheten är ett faktiskt val för ordinära dödsfall.
+Dödsorsakerna finns inte att hämta, och HAL-temat är därmed genomgånget i
+den enda källa som kunde bära uppgiften — inte lämnat öppet.
+
+Läsningen gav i stället tre nya uppgifter för båda: **båda dog på hemorten i
+Högsjö** (tom kolumn `Dödsort (om annan än hemorten)`), begravningsdagarna
+**1901-03-17** och **1904-12-18**, och en oberoende bekräftelse av
+församlingsbokssidan **130**.
+
+Bokfört i [C-0984](../../genealogy/citations/C-0984-indal-F2-doda-1901-1904-lars-petter-cajsa-marta.md),
+A-3660–A-3665, [batch 388](../../genealogy/research-log/2026-09-06.md#batch-388--t-0092-indal-f2-läst-i-original-sedan-hindret-upphört),
+med profilerna P-0315 och P-0316 omprövade. C-0671 bevaras oförändrad som
+daterad åtkomsthistorik.
+
+## Utfört 2 — Gryts C-serie, 2026-09-06
+
+**Beskedet höll inte, och det var fel på två skilda sätt.**
+
+**Fel 1, metadatafel.** Bildlänken saknas i **sökträffen** för
+`SE/ULA/10335/C/3`, men katalogpostens **detaljvy** anger `Reproducerad på:
+C0006497` — 234 bilder, manifestet svarar `200`. Volymen har varit
+digitaliserad hela tiden. Detta rättar också personaktens metodnot från
+2026-08-20, som generaliserade att `C0…`-batcher svarar `403`.
+
+**Fel 2, seriestrukturfel — det allvarligare.** Arbetet hade avfärdat Gryts
+vigselböcker före 1895 som odigitaliserade. De **finns inte**: serien `E I`
+börjar 1895, och vigslarna 1861–1894 ligger inuti den kombinerade
+ministerialboken **C/5**, som varit publikt bildlänkad hela tiden.
+Katalogposten säger det ordagrant: `Innehåller även: 1) Lysning- och
+vigselbok 1861-1894`. Arbetet letade efter en volym som aldrig har existerat.
+
+**Utdelningen blev båda hörnstenarna.**
+
+- **Födelsenotisen**, bild `C0006497_00125`, sida 114: `Per Albert`, född
+  **6 september 1850** vid **Hornet**, döpt **15 september**, son till
+  `Bond. Carl Fr. Ålund` och `Maja C. Carlsdr`. Fadern skrivs **bonde**, inte
+  torpare. Bland faddrarna står `Per Gustaf Persson i **Gålund**` och ett par
+  i **Hyltinge** — båda orter familjen senare knyts till.
+- **Lysning och vigsel**, bild `A0012148_00132`, N:o 5 år 1876:
+  lysningsdagarna 28 maj, 4 juni och 11 juni, och **vigsel 24 juni 1876**.
+
+**Det oväntade fyndet är var vigseln skedde.** Vigselbokens anteckning lyder
+`Vigseln skedde i Husby i Oppunda Härad`. Alltså **inte i Gryt** — och inte
+heller i Västra Vingåker, där hela årgången 1876 en gång lästes utan träff.
+Västra Vingåker var **brudens födelseförsamling**; Husby-Oppunda var den
+socken där hennes **föräldrar** bodde vid Hjulfabriken 1861–1865 (C-0277).
+
+Det är exakt det andra av kohortgranskningens fem metodmönster — *vigseln
+söks i födelseförsamlingarna men aldrig där brudens föräldrar bodde* — och
+mönstret är därmed belagt, inte längre en hypotes. Det gamla nollet i Västra
+Vingåker står kvar oförändrat och är nu **förklarat i stället för
+bortförklarat**.
+
+Bokfört i S-0761, S-0762,
+[C-0985](../../genealogy/citations/C-0985-gryt-C3-per-albert-alund-fodd-1850.md),
+[C-0986](../../genealogy/citations/C-0986-gryt-C5-lysning-vigsel-alund-urbom-1876.md),
+A-3666–A-3674, [batch 389](../../genealogy/research-log/2026-09-06.md#batch-389--t-0092-gryts-två-hörnstenar-en-felläst-serie-och-en-vigsel-i-fel-socken).
+**A-0489 satt till `REJECTED`** med bevarad historik. En ny exakt källväg är
+införd: **Husby-Oppundas egen vigselbok 1876**, oläst.
+
+## Utfört 3 — Öland och Östra Husby, 2026-09-06
+
+Tre daterade besked prövades. **Alla tre var frågebundna noll, och alla tre
+föll av samma skäl: arkivförteckningen lästes för snävt.**
+
+**Öland, bouppteckningen.** `SE/VALA/01647/F II` har 116 katalogförda poster
+men bara 77 egna volymer; de sista är `77, 1879–1881`. Resten är
+hänvisningsrader `Se: SE/VALA/01647/A II c/N`, vars årsintervall sammanfaller
+exakt med `A II c`:s egna. För Karl Augusts dödsår gäller **`A II c/17`,
+1900–1901**. Om serien rymmer akterna eller bara protokollen framgår inte av
+katalograden och lämnas öppet.
+
+**Öland, mantalet.** `SE/VALA/01959/F I a`, Mantalslängder, har **årliga**
+volymer från 1845. Karl Augusts Högbyperiod täcks utan lucka: volym **40**
+(1861) till volym **75** (1901). Ett tredje serieskifte: fögderiets `F II`
+har bara 1820–1821, och taxeringsmaterialet ligger enligt seriens egen
+anmärkning i `H I b`.
+
+**Östra Husby, bouppteckningen 1920.** Björkekinds och Östkinds `F III a`
+slutar med volym 8 (1899–1903) — därför att **tingslaget upphörde 1903**.
+NAD:s myndighetsposter säger det rakt ut: Björkekinds och Östkinds tingslag
+`1874–1903`, **Bråbygdens domsaga `1904–1947`**. Bråbygdens domsagas arkiv
+`SE/VALA/01529` har serien `F II`, Bouppteckningar, i 24 inbundna volymer,
+och **volym 10 täcker 1920–1921**.
+
+**Ett besked bekräftades i stället för att falla.** F II:s volymer 1–72 till
+och med 1863 är digitaliserade, 73 och framåt `Läsesal`. P-0311:s `F II/75`
+är alltså fortsatt `Läsesal` — förnyat, inte upphävt.
+
+**En ny källväg dök upp:** `SE/VALA/01647/F III/2`, Uppgifter om dödsfall
+1878–1915 — domstolens egen dödsfallsanmälan, alltså handlingen som utlöser
+bouppteckningsskyldigheten, och den täcker Karl Augusts död 1901-11-21.
+
+Bokfört i
+[C-0987](../../genealogy/citations/C-0987-oland-norra-mot-serieskiften-och-mantalslangder.md),
+[C-0988](../../genealogy/citations/C-0988-ostra-husby-1920-brabygdens-domsaga-bouppteckningar.md),
+A-3675–A-3680, [batch 390](../../genealogy/research-log/2026-09-06.md#batch-390--t-0092-tre-serieskiften-och-en-domstol-som-upphörde).
+**A-3162, A-3176 och A-3164 satta till `REJECTED`.** Ingen akt är beställd
+och ingen personrad är läst.
+
+## Utfört 4 — Stockholms bouppteckningar 1886, 2026-09-06
+
+Bouppteckningar från Stockholm 1850–1924 ligger inte i `SE/SSA/0140`,
+`Stockholms rådhusrätt 1850-1947` — dess Avdelning 1 har bara `E 6`,
+`Bouppteckningar efter hemskillnad och äktenskapsskillnad`. Arkivet
+`SE/SSA/0145C` heter `Bouppteckningsavdelningen` men täcker 1925–1947.
+
+Rätt arkiv är **`SE/SSA/0145A` — Justitiekollegium 1637-1856,
+Förmyndarkammaren 1667-1924, Rådhusrättens 1:a avdelning 1850-1924.**
+Namnet innehåller inte ordet bouppteckning, vilket är precis varför tre
+frågor formulerade på handlingstyp plus myndighet inte kunde träffa.
+
+Serien är **`F 1 A`, Bouppteckningar**, 974 volymer från 1598. **År 1886 är
+delat på fyra volymer med var sitt register: 700–703.** Registreras akten
+året efter dödsfallet gäller 704–707. Ingångarna är `D 1 B`, Kortregister
+över bouppteckningar 1801–1936, och `D 1 C`, Bouppteckningsregister,
+original 1667–1926.
+
+Bokfört i
+[C-0989](../../genealogy/citations/C-0989-stockholm-bouppteckningar-1886-ssa-0145A.md),
+A-3681, [batch 391](../../genealogy/research-log/2026-09-06.md#batch-391--t-0092-stockholms-bouppteckningar-och-åtkomstregistret).
+**A-3169 satt till `REJECTED`.**
+
+## Utfört 5 — förteckningen
+
+`genealogy/access-register.md` är skriven och länkad från
+`method-riksarkivet.md` och `source-coverage.md`. Den har fyra avsnitt:
+
+1. **Besked som inte höll** — sju rader, från Värsås 2026-08-20 till Gryt
+   och Indal 2026-09-06.
+2. **Besked som var strukturfel, inte åtkomsthinder** — fem rader, samtliga
+   upplösta 2026-09-06.
+3. **Besked som står kvar, bekräftade med datum** — fyra rader.
+4. **De fem kontroller som ska vara gjorda innan ett nytt negativt besked
+   skrivs.**
+
+Ett upphävt besked raderas inte utan flyttas till avsnitt 1 med sitt
+ursprungliga datum bevarat.
+
+## Verifierbart utfall
+
+- [x] Ett **aktuellt, daterat** åtkomstbesked för Gryts C- och E-serier.
+- [x] Upphävda besked markerade `REJECTED` med bevarad historik: **A-0489,
+  A-3162, A-3176, A-3164, A-3169**. A-3163 är i stället **bekräftad med nytt
+  datum** (A-3679). C-0671 bevarad oförändrad, upphävd i C-0984.
+- [x] **Förteckning över samtliga kända åtkomstbesked**:
+  [`genealogy/access-register.md`](../../genealogy/access-register.md).
+- [x] Profilerna **P-0110, P-0111, P-0310, P-0311, P-0312, P-0315 och
+  P-0316** omprövade; P-0337 kompletterad.
+- [x] Varje batch loggad en gång: 388, 389, 390, 391.
+- [x] Kontroller gröna: 3159 påståenden, 29 tester, strukturfel 0.
+
+## Lärdom att generalisera
+
+**Fem antagna åtkomsthinder föll samma dag, och inget av dem var ett
+åtkomsthinder.** Alla fem var strukturfel i läsningen av
+arkivförteckningen, i fem olika varianter:
+
+1. **Sökträffen saknar bildlänk men detaljvyn har reproduktionen.**
+   Gryt `C/3` hade 234 bilder hela tiden (`Reproducerad på: C0006497`).
+2. **En serie börjar sent därför att den inte finns tidigare.** Gryts
+   vigslar 1861–1894 ligger i `C/5`, inte i `E I`.
+3. **En serie slutar och hänvisar vidare i sina egna rader.** Ölands
+   bouppteckningar efter 1881 pekas till `A II c`; taxeringslängderna till
+   `H I b`.
+4. **En serie slutar därför att myndigheten upphörde.** Björkekinds och
+   Östkinds tingslag `1874–1903`; Bråbygdens domsaga `1904–1947`.
+5. **Arkivbildarens namn motsvarar inte handlingstypen.** Stockholms
+   bouppteckningar ligger i `Justitiekollegium … Förmyndarkammaren …
+   Rådhusrättens 1:a avdelning`.
+
+Den sjätte lärdomen är genealogisk och kom ur samma dag: **sök brudens
+vigsel där hennes föräldrar var skrivna, inte bara där hon föddes.** Den
+regeln löste Ålundparets vigsel efter att en hel årgång lästs i fel socken.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-06, vid avslut.
+- Utfört: samtliga fem sakmoment plus förteckningen.
+- Nästa ej utförda steg: inga inom denna uppgift.
+- Hinder: inga.
+
+## Avslut — 2026-09-06
+
+Uppgiften var formulerad som en omprövning av **ett** daterat åtkomstbesked
+efter att rättelsen samma dag hade visat att två av tre redan var
+omprövade. Den växte till fem sakmoment, och utfallet blev större än
+uppgiftens egen ansats.
+
+**Två hörnstenar hemma.** Per Albert Ålunds egen födelsenotis 1850 och
+parets vigsel 1876 — båda hade bedömts som otillgängliga, ingen av dem var
+det.
+
+**En fråga avgjord genom att svaret inte finns.** Indals dödbok har tomma
+dödsorsakskolumner även i originalet. Det är inget nollresultat att lämna
+öppet utan ett avslut: orsakerna registrerades aldrig, och HAL-temat är
+genomgånget för både P-0315 och P-0316.
+
+**Ett gammalt nollresultat förklarat i stället för bortförklarat.** Västra
+Vingåkers hela årgång 1876 lästes en gång utan träff. Läsningen var korrekt
+— den letade bara i brudens födelseförsamling i stället för i den socken där
+hennes familj hörde hemma.
+
+**Fyra exakta volymer där det tidigare stod att ingen kunde identifieras:**
+`A II c/17`, `SE/VALA/01959/F I a/40–75`, `SE/VALA/01529/F II/10` och
+`SE/SSA/0145A/F 1 A/700–703`.
+
+Och **en varaktig sak**: `access-register.md`, som gör att nästa negativa
+besked måste passera fem kontroller innan det skrivs.
+
+## Outcome
+
+Utförd. Fem sakmoment och förteckningen klara, samtliga med positivt utfall.
+Fem påståenden upphävda, ett bekräftat med nytt datum, tjugotvå nya
+tillagda.

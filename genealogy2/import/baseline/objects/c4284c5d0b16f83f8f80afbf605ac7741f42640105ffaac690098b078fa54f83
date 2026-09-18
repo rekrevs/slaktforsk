@@ -1,0 +1,176 @@
+# T-0166: Konsolidera befintliga akter, djup 6 sida K från P-0454
+
+**Status**: DONE | **Size**: M
+
+## Context och mandat
+
+PCD-2026-09-07-026, T-0114. Sammanhängande ägarbeställd granskning av
+befintliga akter; person-dossier/v1 och person-research/v1 gäller.
+Maskinell risk-/djupsignal styr urval, inte sakligt utfall. Närliggande hushåll prioriteras inom samma nivå; därefter explicit restkohort. Alla personerna ska läsas individuellt mot sina befintliga källor.
+
+## Kohortmedlemmar
+
+P-0454
+
+## Scope och underlag
+
+Exakt dessa 1 akter och deras profiler, med befintliga personbundna
+citationer, källnoter och senare rättelser. 3 assertioner vid baslinjen.
+Baslinje: T-0114-inventory.json; den anger inledande profiler, formatfel och
+maskinella risksignaler. Frånvaro av signal är inget friande resultat.
+
+Första citationsindex: C-0606, C-0608.
+Följ relevanta befintliga rättelser och familjehänvisningar. Beroenden: T-0114.
+Utanför: nya arkivsökningar, nya generationer och osäkra identitetssammanslagningar.
+Följdfel i annan kohort rapporteras till dess befintliga Wotan-ägare.
+
+## Acceptance Criteria
+
+- [x] Varje akt/profil följer pilotprövat format; individuell text och länkar, inga förlorade A-id:n eller historiska observationer.
+- [x] Alla personbundna aktuella slutsatser är avstämda mot relevanta befintliga belägg/rättelser, särskilt namn, datum, relationer, tidslinje och berättelse.
+- [x] Varje profil har tio individuella teman och PK-01–12 med beläggsmotivering; båda färdignivåerna hålls åtskilda och verkliga luckor syns.
+- [x] Personbunden eftergranskning samt följdpåverkan på anhöriga utförd. Beslutat konkret följdarbete får en avgränsad Wotan-ägare före DONE; inga tomma mallar godkänns.
+- [x] Per-personutfall enligt granskningsmallen dokumenterat med granskat underlag, rättelser och kvarstående gränser.
+- [x] Formatkontroll för kohorten, validator, inventering, tester och mediekontroll passerar; saklig efterkontroll redovisad separat.
+
+## Approach
+
+Läs wotan/templates/person-review-task.md. Inventera aktens samtliga
+sakuppgifter och senare citationer; konsolidera, därefter läs färdig text
+mot underlaget. Bevara kandidatgränser och OWNER_CONFIRMED. En källbunden
+oläslighet är inte samma sak som aldrig utvunnen kolumn. Logga passagen en
+gång med dess kriterium. Tillgodoräkna tidigare tillräckligt arbete.
+
+## Granskningsutfall
+
+| Person | Datum/version | Granskat underlag | Format | Konsolidering | Identitetsbedömning | Livsbildsbedömning | Rättelser/luckor och följduppgift |
+|---|---|---|---|---|---|---|---|
+| P-0454 James/**Jonas** Schölin | 2026-09-09, person-dossier/v1 | 4 äldre A samt C-0606 med båda tilläggen, C-0608 och den lokalt sparade rullan 2532 omläst vid 150 och 400 dpi | 18 fel → **0 fel** | A 4→6, nya A-7201–A-7202; befintlig profil från T-0103 omprövad | UNDERKÄND / AVVAKTAR (enbart PK-01) | UNDERKÄND (PK-03, PK-04, PK-08) | **Förnamnet är `Jonas`, inte `James`** — hela den digitala efterforskningen ställdes mot ett namn som inte står i källan. A-2566 `REJECTED`, A-2567 omvärderad, `Källbredd` KLAR→PÅGÅR. **Rullans fyra tryckta kolumner redovisade** (A-7201) och formuläret har inget faderfält utöver namn/yrke (A-7202) → PK-05 STYRKT. Konsoliderad tidslinje och berättelse → PK-10 STYRKT. Profilens namnargument och miljöhypotes upphävda. **Slutnotens år är `1849`, inte `1839`** → A-7210 i P-0339. T-0484, T-0485 |
+
+### Följdpåverkan på anhöriga
+
+**P-0339 Margareta Charlotta (dottern, konsoliderad i T-0130)** — avgränsad
+rättelse utan ny arkivsökning, ur samma rullrad: A-2559 `James`→`Jonas`,
+A-2561:s årsläsning `1839`→`1849`, nytt A-7210 med den kontrollerade läsningen
+och kolumnläget i A-4320. Sex aktuella textställen — Identitet, Relationer,
+Tidslinje, Yrke/ekonomi, berättelsen och Slutstatus kandidatgräns — bar
+`James` eller `1839` och är rättade. Äldre lydelser bevarade i hennes historik.
+`Trädverkan` och identitetsgranskningen är oförändrade. Hennes egna kvarstående
+passager ligger kvar hos T-0264 och T-0265.
+
+**T-0265** citerade `James Schölin` i sin omfångstext och hade skickat nästa
+agent med fel söknyckel; rättat i dess dev-log.
+
+Inga övriga anhöriga finns: modern är okänd, hans egna föräldrar okända, och de
+två `J Schölin`-kandidaterna är uttryckligen inte förenade med honom.
+
+## Verification och Outcome
+
+Kört 2026-09-09 — utfall under `## Verifieringsutfall` nedan.
+
+**Outcome.** Kohortens enda akt följer `person-dossier/v1` och har sin profil
+omprövad. Personen når **inte** identitetsnivån och faller **enbart på PK-01**:
+han har inget eget ankare i något original. Han bär ingen anlinje.
+
+Det sakliga resultatet är att **frågan mot nästa källa var fel ställd.**
+Faderns förnamn är `Jonas`. Fullnamnsfrågan i Stockholms mantalsregister
+1800–1884 och 1829 års S-register lästes mot `James`, en form ingen källa
+skriver. Nollet är upphävt som negativt resultat, registret är formellt
+oprövat, och de två `J Schölin` från 1830 är inte längre uteslutna av namnet —
+men inte heller utpekade av det, eftersom `J` täcker Jan, Johan, Jacob och
+Jöns. Skillnaden mot förut är att de nu är **prövbara mot ett utskrivet
+förnamn**. Profilens namnargument, som byggde på att `James` var ett sällsynt
+utländskt namn, är upphävt med den historiska lydelsen bevarad; miljöhypotesen
+om brittiska manufakturer faller med det.
+
+Åt andra sidan är den lästa källan nu **uttömd på ett kontrollerbart sätt**:
+uppslagets fyra tryckta kolumner är redovisade med rubrikraden i samma utsnitt
+som cellerna, det tryckta `18` är identifierat som `Afmönstrade.`s årsprefix
+och inte ett belopp, och formuläret visar sig sakna varje fält för faderns
+ålder, hemvist eller föräldrar. Hans tomhet i modellen är därmed **källans
+egenskap, inte en outvunnen kolumn** — motsatsen till programmets vanligaste
+fynd. Det gör PK-05 styrkt och flyttar hela fortsättningen till fyra namngivna
+vägar, varav tre är digitala.
+
+En rättelse träffade dottern: rullans slutnot har året **1849**, inte 1839.
+
+**Uppgiften är klar; personen är det inte.** Beslutat kvarstående arbete ligger
+i T-0484 (namnbyte och registerprövning på rätt förnamn) och det nya T-0485
+(dopnotisen 1825-08-13 och Ljustorps barnhusanteckning). `E 5`-handlingen är
+läsesalsbunden och kräver ägarens beslut; den ligger kvar i T-0265.
+Batch 571 i `genealogy/research-log/2026-09-09.md`.
+
+## Verifieringsutfall
+
+Kört 2026-09-09:
+
+- `node scripts/person-format.mjs P-0454` — **0 formatfel** (18 vid baslinjen).
+  `P-0339` kontrollerad efter den avgränsade rättelsen — **0 formatfel**.
+- `node scripts/validate-genealogy.mjs` — **OK: 4633 assertions; 2760
+  Markdown-poster; 5065 mediefiler; Wotan-JSON giltig.**
+- `node scripts/research-inventory.mjs --write` följt av `--check` —
+  **Strukturfel: 0.** Identitetsgranskning GODKÄND 103, Trädverkan BÄRANDE 100,
+  oförändrade: personen når inte grinden.
+- `node --test scripts/` — **50 av 50 passerar.**
+- `node scripts/media-manifest.mjs --check` — **OK: 5064 mediefiler.**
+- `node scripts/goal-state.mjs` — registrerat gemensamt djup **4**, oförändrat.
+- A-id-behållning mot HEAD — **inget A-id förlorat**; nya A-7201, A-7202 i
+  P-0454 och A-7210 i P-0339.
+- Programindikator: `person-format.mjs --all` går från 5114 till **5096**
+  formatfel och från 275 till **274** akter med formatfel.
+
+**Saklig efterkontroll**, skild från maskinkontrollerna: faderradens förnamn är
+läst på nytt i den lokalt sparade rullan `C-0606-stockholms-stadsarkiv-
+barnhusrulla-2532.pdf` renderad till PNG vid 400 dpi och beskuren över
+faderraden — `J-o-n-a-s`, utan `m` och utan avslutande `e`. Slutnotens årtal är
+läst i samma rendering och jämfört sida vid sida med `1831` högst upp i samma
+kolumn och samma hand: `1849`. Kolumnrubrikerna är lästa i samma utsnitt som
+datacellerna, och `20` respektive `18` är positionsbestämda mot kolumnlinjerna.
+Ingen ny arkivåtkomst har använts.
+
+## Återupptagning — avslutad
+
+- Uppdaterat: 2026-09-09.
+- Utfört: P-0454 konsoliderad till `person-dossier/v1` (0 formatfel), profilen
+  omprövad med upphävt namnargument, C-0606 andra tillägg, avgränsad rättelse i
+  P-0339, batch 571 loggad, T-0485 skapad, T-0265 och T-0484 informerade.
+- Nästa ej utförda steg: inget inom denna uppgift. T-0484 ställer den fråga som
+  nu äntligen har rätt förnamn.
+- Verifiering: se `## Verifieringsutfall`.
+- Hinder: inga.
+
+## Avbrott 2026-09-09
+
+Granskningen av P-0454 avbröts av ägaren innan någon fil skrevs. Arbetsträdet
+är oförändrat: `genealogy/people/P-0454-james-scholin.md` och
+`genealogy/research-profiles/P-0454.md` är orörda, och `validate-genealogy.mjs`
+går igenom. De 18 formatfelen på akten är de som fanns före uppgiften — den är
+ännu inte konsoliderad till `person-dossier/v1`.
+
+**Iakttagelsen är följd upp centralt samma dag.** Agenten hann rapportera att
+en **namnläsning ändrar söknyckeln** utan att ange vilken. Frågan är nu
+avgjord genom läsning av den lokalt sparade barnhusrullan vid förstoring:
+
+**Fadern heter `Jonas Schölin`, inte `James`.** Bokstavsföljden är `J-o-n-a-s`
+med skrivarens öglade `J`, och formen saknar helt det `m` och det avslutande
+`e` som `James` skulle kräva. Efternamnet står oförändrat.
+
+Följden är en söknyckel, inte bara en namnform:
+
+- **A-2566** var ett `NEGATIVE` på att Stockholms mantalsregister 1800–1884
+  saknar träff på "den exakta fullnamnsfrågan James Schölin". Frågan ställdes
+  mot ett namn som inte står i källan. Nollet är nedgraderat och bärs inte
+  längre som negativt resultat; registret är **oprövat** på `Jonas Schölin`.
+- **A-2567** höll två `J Schölin` från 1830 utanför relationsträdet med
+  motiveringen att initial, efternamn och yrke inte räcker för att förena
+  någon med `James`. Med `Jonas` är initialen inte längre enda
+  beröringspunkten, och båda kandidaterna är direkt prövbara mot ett utskrivet
+  förnamn. Ingen sammanslagning görs; det kräver fortfarande ett original.
+
+Rättelsen är införd i P-0454 som A-7200 med de gamla lydelserna bevarade, och
+i C-0606 som daterat tillägg. Aktens titel och filnamn bär fortfarande
+`james`; namnbytet ligger i T-0484.
+
+**Kvar att göra i uppgiften:** P-0454 är fortfarande inte omskriven till
+`person-dossier/v1` och saknar de fjorton H2-avsnitten — `person-format.mjs`
+ger 18 formatfel, samma som före avbrottet. Uppgiften står kvar som `ONGOING`.

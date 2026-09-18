@@ -1,0 +1,59 @@
+# T-0005: Backfill dossiers for all already-discovered relatives
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+The research program now requires opportunistic capture of every named person
+in target entries, households and relationship-bearing annotations. Earlier
+work captured many such people, but several named parents, siblings and other
+relations still occur only inside claims or citations and lack their own
+person dossier.
+
+## Acceptance Criteria
+
+- [x] Inventory existing sources, citations and person claims for named people without P-ids.
+- [x] Create or reconcile one dossier per distinct named person, avoiding duplicate identities.
+- [x] Preserve private or probably living people with only the minimum necessary data.
+- [x] Link every backfilled fact to its exact source/citation and evidence status.
+- [x] Update the tree, frontier and research log with the resulting side branches and unresolved identities.
+- [x] Verify all Markdown links and the consistency of P-id references.
+
+## Approach
+
+Audit the existing evidence from oldest citation to newest. Extract people in
+the target entry, target household or explicit relational annotation; do not
+profile unrelated entries that merely share a scanned page. Create provisional
+records when identity is incomplete and record conflicts rather than merging
+on name alone.
+
+## Log
+
+- 2026-08-19: Task created from the approved open-ended research program.
+- 2026-08-19: Started automatically after T-0003 under continuous Wotan
+  execution. Initial audit targets the named Zingmark and Jansson parents and
+  siblings already present in C-0001–C-0039 but lacking P-ids.
+- 2026-08-19: Expanded C-0001 to preserve every named sibling and child in the
+  user-supplied Geni extract, including source spellings and life-year leads.
+  Reused P-0006 for Hillevi instead of creating a duplicate living-person
+  profile.
+- 2026-08-19: Created P-0028–P-0041 for the Zingmark parents, siblings and
+  children, and P-0042–P-0047 for Ada's parents and siblings. Linked all facts
+  to the exact existing citation and kept historical records distinct from
+  secondary-tree leads.
+- 2026-08-19: Added `scripts/validate-genealogy.mjs`. It passed with 199 unique
+  declared assertions, 125 Markdown records, 32 media files, valid relative
+  links and matching media checksums, and valid Wotan JSON.
+
+## Verification
+
+The reusable validator completed successfully. The evidence audit found no
+remaining named relative in C-0001–C-0039 without a person dossier, excluding
+unrelated people on negative-control multi-entry pages under the documented
+scope rule.
+
+## Outcome
+
+Completed. The repository now has 47 person dossiers. Existing living/private
+records remain minimized, and all backfilled historical or secondary facts
+retain their exact citation and evidence grade.

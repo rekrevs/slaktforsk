@@ -1,0 +1,69 @@
+# T-0505: Brita Hillbergs sockencell i högre upplösning, samt Njutånger 1826 och Hudiksvall 1832
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0170 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0508](../../genealogy/people/P-0508-brita-hillberg.md), anspets, med
+följdpåverkan på [P-0350](../../genealogy/people/P-0350-per-hillberg-hasta-udde.md).
+**Tre passager, i denna ordning:**
+
+1. **Samma sida i högre upplösning.** Hälsingtuna A I/13 sida 218, bild
+   `C0031386_00240`. Hennes födelsesockencell är förstorad till 700–900 % ur
+   den bevarade filen (6 080 × 5 136 px) och läses **förenlig med `Forsa`** —
+   en trolig men **inte fastställd** läsning. Ordet är oförenligt med sidans
+   fyra andra sockennamn i samma hand: `Njutånger`, `Hudiksvall`, `Stockholm`
+   och `Mo`. Detta är en **läsning, inte en sökning**, och den ska göras
+   först. Pröva `Norrala`, `Högsjö` och `Tuna` mot bokstavsföljden innan
+   Forsa väljs. Bekräfta i samma omläsning T-0156:s läsning `Njutånger` på
+   **sonens** rad.
+2. **Njutångers födelse- och dopbok den 25 februari 1826** för sonen Per.
+   Posten bör namnge **båda föräldrarna** och är därmed den starkaste kända
+   vägen till hennes make — alltså till sonens far, som projektet
+   uttryckligen saknar — och till hennes eget namn i vigt skick, möjligen
+   med patronymikon. **Hon har inget patronymikon i något belägg.**
+3. **Hudiksvalls födelse- och dopbok den 6 januari 1832** för
+   `Bruksarbet. Olof Hillberg`, som står i eget hushåll på samma sida och i
+   samma rote som sonen Per, med samma familjenamn och yrke. Passagen prövar
+   om han är hennes andra son och ger i så fall en andra föräldrapost.
+
+Utanför: bred sökning på datumet `13/5 1805` utan avgjord socken — aktens
+uttryckliga förbud, som står kvar; sökning i Forsa innan passage 1 är
+gjord; att göra `Olof Hillberg` till hennes son ur namn, rote och yrke; att
+skapa en far till P-0350 utan post.
+
+## Acceptance Criteria
+
+- Passage 1 har ett **daterat läsutfall** med angiven upplösning och metod,
+  och med de prövade alternativa sockennamnen redovisade. Ett fortsatt olöst
+  utfall redovisas som **prövad oläslighet** — en källgräns — och inte som en
+  brist.
+- Varje läst passage har volym, sida, årgång, bildintervall och läsdatum;
+  hela öppnade poster utvinns med kolumnredovisning enligt
+  `person-standard.md`, sparad kopia och hash.
+- Om passage 2 eller 3 namnger hennes make skapas **ingen** far till P-0350
+  utan att posten uttryckligen binder honom till sonen; utfallet rapporteras
+  till T-0162 med belägg.
+- P-0508:s akt, profil, teman och båda kontraktsnivåerna avstäms.
+  `Identitetsläge` prövas om endast mot original.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0842:s daterade tillägg och P-0508:s profil först. **Ordningen är
+läsning före sökning** — passage 1 avgör om passage 2 och 3 ens behöver
+sockennyckeln. Inga beställningar, kontakter, dashboardändringar,
+PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0170:s granskningsutfall.
+- Nästa ej utförda steg: hämta samma sida i högre upplösning och läsa
+  sockencellen.
+- Hinder: BLOCKED bakom T-0115.

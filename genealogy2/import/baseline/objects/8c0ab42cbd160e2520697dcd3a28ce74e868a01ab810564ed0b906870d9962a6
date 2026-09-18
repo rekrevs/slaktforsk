@@ -1,0 +1,69 @@
+# T-0017: Preserve the genealogy workspace in a private GitHub repository
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+The project contains durable source-led genealogy records and 1.1 GB of retained
+source media but has no version control or off-machine repository. The owner
+approved a private GitHub repository with Git LFS for the source images. Working
+state, cookies, caches, and reproducible intermediate output must not be pushed.
+
+## Acceptance Criteria
+
+- [x] Initialize Git with explicit privacy and generated-file exclusions.
+- [x] Track durable source media and retained final artifacts through Git LFS.
+- [x] Generate a machine-readable media manifest that records every retained
+      media file's citation identity, size, and SHA-256 without inventing
+      missing source metadata.
+- [x] Verify genealogy integrity, media coverage, secret hygiene, Git/LFS state,
+      and a clean reproducible initial commit.
+- [x] Create `rekrevs/slaktforsk` as a private GitHub repository and push the
+      verified branch.
+- [x] Restore T-0012 as the single active research task after preservation.
+
+## Approach
+
+Keep human-readable project memory, provenance records, Wotan state, scripts,
+and source media together. Use ordinary Git for text and small structured data,
+Git LFS for binary source artifacts, and an ignored local `tmp/` boundary. Add
+a generated manifest and a verifier so exact artifact integrity can be checked
+even when some older batch images have only range-level citation metadata.
+
+## Log
+
+- 2026-08-26: Owner approved the private GitHub and Git LFS preservation path.
+  T-0012 was temporarily returned to READY at its durable checkpoint.
+- 2026-08-26: Initialized the repository on `main`, installed local Git LFS,
+  excluded cookies, caches, generated page renders, and rebuildable edition
+  assets, and staged the durable project state.
+- 2026-08-26: Generated `genealogy/media-manifest.json` for 1,036 retained
+  artifacts: 600 exact citation links, 408 source-scoped links, 28
+  citation-scoped links, and no unlinked files.
+- 2026-08-26: Committed the 2,237-path preservation baseline as `8deaa80`,
+  created `rekrevs/slaktforsk` with private visibility, and pushed 1,033 unique
+  LFS objects (1.2 GB) plus `main`.
+
+## Verification
+
+- `node scripts/media-manifest.mjs --check`
+- `node scripts/validate-genealogy.mjs`
+- `node scripts/verify-depth5-wave.mjs`
+- Scoped staged-diff whitespace check for preservation files
+- Refined staged-content credential-pattern scan
+- Staged binary pointer audit and `git lfs fsck`
+- Private remote visibility, branch synchronization, and LFS dry-run after push
+
+All checks passed. The genealogy validator reported 1,647 assertions, 1,162
+Markdown records, 1,037 media files, and valid Wotan JSON. The staged audit
+found 1,034 of 1,034 binary paths represented by LFS pointers, no tracked
+ignored paths, and no credential patterns. GitHub reported `PRIVATE`; local and
+remote `main` differed by `0 0`; the post-push LFS dry-run was empty.
+
+## Outcome
+
+The complete durable genealogy workspace is now preserved in the private
+GitHub repository <https://github.com/rekrevs/slaktforsk>. Source media remain
+versioned through Git LFS, while cookies, caches, temporary downloads, rendered
+pages, and rebuildable intermediate edition assets remain local. T-0012 is once
+again the sole active task at its recorded research checkpoint.

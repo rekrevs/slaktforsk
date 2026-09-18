@@ -1,0 +1,10 @@
+import fs from'node:fs';import{fact,all,cs,origins}from'./part-c-common.mjs';
+const file='genealogy2/migration/persons-09-c.json',ps=JSON.parse(fs.readFileSync(file));
+for(const p of ps)for(const c of p.changes){if(c.kind!=='event')continue;if(c.data.event_type==='communion')c.data.event_type='other';if(c.data.event_type==='reported_drowning')c.data.event_type='death';if(c.data.event_type==='registered_transfer')c.data.event_type='registered_departure';}
+const p=ps.find(p=>p.person==='P-0434'),d=p.changes.find(c=>c.id==='E-death-P-0434');
+d.data.date_json={precision:'exact',value:'1891-01-11',literal:'91 11/1 i tryckt Död.-kolumn enligt C0552T0161'};d.evidenceStatus='TRANSCRIBED';d.caveat='Positiv rapporterad dödsdag i hushållsbokens uttryckliga Död.-kolumn. Egen akt A2443 reserverar sannolikt; egen dödbok, orsak och begravningsdag är olästa. Ingen ny kontraktsgranskning.';
+const os=[...all(p),cs('C-0552'),origins('P-0427','person',49,49),origins('P-0423','person',90,90)];
+for(const o of os)if(!d.origins.some(x=>JSON.stringify(x)===JSON.stringify(o)))d.origins.push(o);
+const key='F-P-0434-source_interpretation-reported-death';if(!p.changes.some(c=>c.id===key))fact(p,'source_interpretation','reported-death',{raw:'91 11/1',reported_date:'1891-01-11',column:'Död.',basis:'C0552T0161 kontrollerar Nannys och Anders celler mot tryckt rubrik; A6270 och P0423s relation med P0427 bevarar samma kolumnkoppling.',older_person_reservation:'A2443 och tidslinjen säger sannolikt; reservationen bevaras.',own_death_register_read:false,cause:null,burial:null,contract_review_changed:false,interpretation:'Typat positivt rapporterat datum ersätter enbartunknown; ingen självständig dödpost, faktisk dödsplats eller ny kontraktsnivå påstås.'},os);
+const a=p.assertions.find(a=>a.id==='A-2443');if(!a.targets.includes(key))a.targets.push(key);p.readingNote+=' Avslutande tvärkontroll: C0552T0161/A6270/P0423s relationsrad binder91 11/1 till tryckt Död.-kolumn; rapporterad1891-01-11 typas med äldre sannoliktreservation och oläst egen dödbok kvar.';
+fs.writeFileSync(file+'.tmp',JSON.stringify(ps,null,2)+'\n');fs.renameSync(file+'.tmp',file);

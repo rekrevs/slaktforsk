@@ -1,0 +1,75 @@
+# T-0018: Steering layer: north-star measure and rule, repo-local Wotan convention, CLAUDE.md, agent-neutral routing
+
+## Context
+
+`PCD-2026-09-04-001` approved making the north star usable as the goal of
+continuous work and using Wotan as a finite queue cut from a computed goal
+state. This task delivers the steering layer only: the text that tells any
+agent how the project is steered. The measure itself is computed by T-0019.
+
+## Acceptance Criteria
+
+- [x] `NORTH-STAR.md` has a `Mått` section defining the computed state per
+  ancestor position counted from Adam and Axel, and a `Styrregel` section
+  holding the selection rule for continuous work; the goal and quality
+  contract are otherwise unchanged.
+- [x] `wotan/README.md` states the repo-local Wotan convention: finite tasks
+  cut from the goal state, batch logged once in the research log, dev-log
+  holds decisions/obstacles/verification, HANDOVER rewritten not appended,
+  no open-ended program task.
+- [x] `CLAUDE.md` imports `AGENTS.md`; `AGENTS.md` routes to
+  `wotan/README.md` and the goal-state command.
+- [x] `README.md`, `AGENTS.md` and `HANDOVER.md` entry text are agent-neutral
+  and the Riksarkivet access order is stated once, in
+  `genealogy/method-riksarkivet.md`, with the other files referring to it.
+
+## Verification Plan
+
+### Hard Endpoints
+
+- [x] `node scripts/validate-genealogy.mjs`
+- [x] `jq empty wotan/backlog.json`
+- [x] `grep -n Codex AGENTS.md README.md CLAUDE.md wotan/README.md` returns nothing
+
+### Manual Checks
+
+- [x] Read `AGENTS.md` → `wotan/README.md` → `NORTH-STAR.md` as a new agent
+  and confirm the steering loop is complete without HANDOVER history.
+
+### Risks
+
+- Over-editing the north star; keep the approved goal and quality text.
+
+## Approach
+
+Edit the four steering files; add the convention file; keep all changes
+textual.
+
+## Implementation Notes
+
+- 2026-09-04: `NORTH-STAR.md` gained `## Mått` (five-part measure per
+  ancestor position counted from Adam and Axel; definitions of *behandlad*
+  and *gemensamt djup*) and `## Styrregel` (the former closing paragraph,
+  now tied to the goal-state next slice and `wotan/README.md`). Goal and
+  quality text unchanged.
+- Added `wotan/README.md` (repo-local Wotan convention), `CLAUDE.md`
+  (imports `AGENTS.md`), routed `AGENTS.md` to the convention and the
+  goal-state command, made `README.md` and `genealogy/method-riksarkivet.md`
+  agent-neutral, and left the Riksarkivet access order stated once in the
+  method document. `HANDOVER.md` entry text is rewritten by T-0020.
+
+## Obstacles
+
+## Verification Evidence
+
+- `node scripts/validate-genealogy.mjs`: OK, 2617 assertions, 1981 Markdown
+  records, Wotan JSON valid.
+- `grep -n Codex AGENTS.md README.md CLAUDE.md wotan/README.md NORTH-STAR.md`:
+  no matches. Historic Project Control records keep their wording.
+
+## Outcome
+
+Done 2026-09-04. The steering loop is now: `AGENTS.md` → `wotan/README.md`
+→ `NORTH-STAR.md` measure and rule → `scripts/goal-state.mjs` (T-0019).
+Recorded under `PCD-2026-09-04-001`. No commit was made; the owner has not
+authorized one.

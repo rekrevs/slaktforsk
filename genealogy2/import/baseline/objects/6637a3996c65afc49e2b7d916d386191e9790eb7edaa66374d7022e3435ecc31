@@ -1,0 +1,55 @@
+# T-0523: Byt filnamn och länkar för P-0500 från ella till ulla
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0173 enligt PCD-2026-09-07-026, efter T-0115.
+Ingen ny arkivåtkomst har gjorts vid registreringen.
+
+## Scope, underlag och stoppgräns
+
+[P-0500](../../genealogy/people/P-0500-ella-ersdotter.md). **Rent redaktionell
+uppgift utan sakprövning och utan arkivåtkomst.**
+
+T-0173 rättade hennes förnamn: postens ord är `Ulla`, inte `Ella`, med
+kontrollen i samma ordpar — `E`:et i `Ersdotters` är i samma hand oförenligt
+med förnamnets `U`. Aktens **titel** är ändrad till `Ulla Ersdotter i Lilla
+Wättstugan`, men **filnamnet är oförändrat**,
+`genealogy/people/P-0500-ella-ersdotter.md`, eftersom bytet rör länkmål i
+andra filer.
+
+**Ett pass:**
+
+1. Byt filnamn till `P-0500-ulla-ersdotter.md` med `git mv`.
+2. Uppdatera **samtliga** länkar som pekar på det gamla filnamnet — sök i
+   `genealogy/`, `wotan/` och styrfilerna, inklusive citationer,
+   forskningsprofiler, forskningslogg och dev-loggar.
+3. Låt den felaktiga namnformen `Ella` stå kvar som `REJECTED` namnform i
+   akten och i citationens tillägg. **Historiken skrivs inte om.**
+4. Kontrollera med validatorn, som fångar brutna länkar.
+
+**Fasta gränser.** Inget sakinnehåll ändras, inget A-id och ingen status rörs,
+och inga andra akters filnamn byts. Länkar i **append-only**-avsnitt —
+citationstillägg, forskningslogg, dev-loggar — uppdateras enbart så att de
+fortsätter peka rätt; **ingen text i dem omformuleras**. Om ett gammalt
+filnamn förekommer i en blockciterad historisk lydelse lämnas det orört, och
+skälet skrivs ut.
+
+## Acceptance Criteria
+
+- [ ] Filen omdöpt med bevarad git-historik.
+- [ ] Noll förekomster av det gamla filnamnet utanför uttryckligt bevarad
+      historisk citering, och varje sådan kvarvarande förekomst motiverad.
+- [ ] `node scripts/validate-genealogy.mjs` rapporterar noll brutna länkar.
+- [ ] Formatkontroll, inventering och mediekontroll passerar.
+- [ ] Inget sakinnehåll och ingen bedömning ändrad.
+
+## Nästa ej utförda steg
+
+Inventera samtliga förekomster av `P-0500-ella-ersdotter` i repot.
+
+## Blocker
+
+Inväntar personaktsprogrammets slutrevision **T-0115**. Uppgiften får inte
+startas före den, eftersom personaktsprogrammet äger de akter den rör.

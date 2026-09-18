@@ -1,0 +1,33 @@
+# T-0391: Skapa personposter för fyra källbelagda personer utan P-id
+
+## Context och mandat
+
+Avgränsad följd från T-0152 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+Fyra personer har källbelagd identitet men saknar personpost och står som namn utan länk i relationstabeller: Nina Gertrud Maria Höök, född 1913-05-19 i Söderhamn, dotter till P-0283; Sara Kristina Bergqvist, gift med P-0282; samt döttrarna Birgit Margareta, född 1928-07-16 i La Madzia, Kongo, och Märta Elisabet. Skapa personposter enligt person-dossier/v1 med de belägg som redan finns, utan att tillskriva uppgifter som källorna inte bär. Ingen ny arkivåtkomst. Utanför: att forska vidare på dem — nya frågor blir egna uppgifter.
+
+## Acceptance Criteria
+
+- Varje fast passage har positivt, exakt negativt eller olöst utfall; ett
+  åtkomsthinder eller oläslig uppgift blir inte ett negativt personfynd.
+- Hela relevanta öppnade poster bevaras med exakt lokalisering, kopia och
+  hash. Tidigare tillräckliga belägg tillgodoräknas och äldre observationer består.
+- Akter, profiler, tio teman och båda kontraktsnivåerna avstäms individuellt.
+  Anhörigföljder och återstående beslutade behov har avgränsade ägare.
+- En batchlogg per passage, oberoende sakprövning och relevanta format-,
+  validator-, inventerings-, test-, medie- och diffkontroller passerar.
+
+## Approach
+
+Läs aktuella profiler och källtillägg först. Följ projektets källstrategi
+samt Riksarkivets åtkomstordning. Inga nya generationer, ArkivDigital,
+beställningar, kontakter, dashboardändringar, PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-08.
+- Utfört: avgränsat följdarbete registrerat, inget arkivarbete utfört.
+- Nästa ej utförda steg: stäm av aktuella underlag och pröva första fasta passagen.
+- Hinder: T-0115.

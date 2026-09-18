@@ -1,0 +1,27 @@
+persons-09: bas, pilot och journalposter 1–34 återspelade
+✖ nionde kohorten bevarar källrättelser och avgränsningar med full radtäckning, omkörning och återställning (314154.192917ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 314243.907125
+
+✖ failing tests:
+
+test at genealogy2/test/person-cohort-09.test.mjs:15:1
+✖ nionde kohorten bevarar källrättelser och avgränsningar med full radtäckning, omkörning och återställning (314154.192917ms)
+  Error: ENOENT: no such file or directory, open '/Users/sverker/repos/slaktforsk/genealogy2/operations/T-0660-persons-09-v1.json'
+      at Object.openSync (node:fs:779:18)
+      at Object.readFileSync (node:fs:625:35)
+      at read (file:///Users/sverker/repos/slaktforsk/genealogy2/test/person-cohort-09.test.mjs:13:32)
+      at TestContext.<anonymous> (file:///Users/sverker/repos/slaktforsk/genealogy2/test/person-cohort-09.test.mjs:36:47)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'open',
+    path: '/Users/sverker/repos/slaktforsk/genealogy2/operations/T-0660-persons-09-v1.json'
+  }

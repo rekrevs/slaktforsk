@@ -1,0 +1,69 @@
+# T-0002: Verify Oskar Alfred Zingmark and Ebba Alfrida Andersson
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+The user supplied an excerpt from a Geni profile naming maternal grandfather
+Oskar Alfred Zingmark and wife Ebba Alfrida Andersson. Online-tree statements
+are leads until checked against original or near-original records.
+
+## Acceptance Criteria
+
+- [x] Locate and cite Oskar Alfred's birth entry and childhood household.
+- [x] Locate and cite Ebba Alfrida's birth entry and childhood household.
+- [x] Locate and cite the couple's marriage entry or equivalent authoritative
+      record.
+- [x] Reconcile names, dates, places, parents, and discrepancies.
+- [x] Preserve exact Riksarkivet image identifiers and page/image locators.
+
+## Approach
+
+Start with the claimed birth events, then follow household books and movement
+records forward to the marriage. Use independent records for identity linkage.
+
+## Log
+
+- 2026-08-19: Riksarkivet human verification completed in the user's Chrome
+  session. A search for Degerfors returned the historical archive
+  "Vindelns kyrkoarkiv (Degerfors kyrkoarkiv)", reference SE/HLA/1010028.
+- 2026-08-19: T-0001 completed and this task unblocked and started.
+- 2026-08-19: Located Oskar Alfred's birth entry in SE/HLA/1010028/C/7,
+  original batch 00206849, image 85/page 82, entry 86. Saved the full 5108 x
+  3940 image with SHA-256 and created source/citation records. Name, birth date,
+  sex, father, occupation, mother, residence, and baptism date were transcribed;
+  uncertain handwriting remains marked for corroboration.
+- 2026-08-19: Located the complete household in Riksarkivet's 1900 census
+  extract, Degerfors page 127, image Folk_024008-127. Saved the original image
+  with SHA-256, transcribed parents, six children, Rosinedahl residence, and
+  Johan Oskar's occupation. A check of A I/11c page 103 was preserved as
+  negative evidence; the family was not listed there in the 1890–1899 volume.
+- 2026-08-19: Returned to READY at a verified checkpoint while iterative
+  deepening continues on the paternal T-0003 branch. No findings were undone.
+- 2026-08-19: Located Oskar and Ebba separately as unmarried teachers in
+  Gammelbyn, Burträsk, in the 1930 census. Saved images B0001213_00180 and
+  B0001213_00177 with checksums and preserved education, income and migration
+  details.
+- 2026-08-19: Located marriage entry 19 in Burträsk E I/7, image
+  00194400_00084/page 80. The couple married 1932-06-19; the returned
+  marriage certificate names Degerfors. A preliminary Öregrund reading was
+  tested against Öregrund E I/2 for 1932 and rejected, with the negative
+  control preserved.
+- 2026-08-19: Located Ebba's birth entry in Bygdeå C/7, image
+  00194429_00039/page 35, entry 135, and her childhood household in Bygdeå
+  A II a/2b, image 00194409_00054/page 853. Six newly encountered relatives
+  received P-0048–P-0053 dossiers. The Jomark household was independently
+  checked in the 1900 census and image Folk_024009-089 was saved.
+
+## Verification
+
+`node scripts/validate-genealogy.mjs` passed after the additions: 237 unique
+assertions, 144 Markdown records, 39 media files, all relative links and image
+checksums valid, and Wotan JSON valid.
+
+## Outcome
+
+Oskar Alfred and Ebba Alfrida are now identified from birth through childhood,
+their 1930 adult circumstances and their 1932 marriage. All acceptance
+criteria are met; remaining later-life research and the link to Hillevi are
+explicit depth-2/frontier gaps rather than omissions from this task.

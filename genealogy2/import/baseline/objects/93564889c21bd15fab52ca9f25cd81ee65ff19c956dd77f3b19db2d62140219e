@@ -1,0 +1,72 @@
+# T-0507: Årdala C/3:s vigselår 1810–1813, katalogkontroll av Gryt och dödboken efter 1855
+
+**Status**: BLOCKED | **Size**: M
+
+## Context och mandat
+
+Avgränsad följd från T-0171 enligt PCD-2026-09-07-026, efter T-0115.
+
+## Scope, underlag och stoppgräns
+
+[P-0221](../../genealogy/people/P-0221-erik-andersson-carlberg.md), med
+följdpåverkan på [P-0223](../../genealogy/people/P-0223-stina-andersdotter-sannerby.md)
+och [P-0225](../../genealogy/people/P-0225-anna-stina-sannerby.md), vars
+akter ägs av **T-0143** och har fått fynden rapporterade.
+**Tre passager, i denna ordning:**
+
+1. **Årdala C/3:s vigselavdelning 1810–1813.** C-0177 läste `C/2` 1797–1809,
+   alltså till volymens slut; `C/3` börjar 1810 och bär redan Eriks andra
+   vigsel 1818 (bild 56) och sonen Anders födelse 1814 (bild 32).
+   Intervallvalet i C-0177 byggde på att Erik uppgavs född **1781** — rättat
+   i T-0141 till 1784-12-25, vilket gör honom 12–17 år 1797–1802 — och på att
+   hushållsdottern Anna Stina från 1804 var hans dotter, vilket citationen
+   **självt** håller öppet. Under den möjligheten är sonen Anders födelse i
+   mars 1814 den enda undre gränsen, och **1810–1813 är osökt.**
+2. **En daterad katalogkontroll av Gryts kyrkoböcker `C/1–C/4`.** Aktens
+   `Slutstatus` har stått `EJ DIGITALISERAD` på uppgiften att volymerna inte
+   är digitaliserade — **utan kontrolldatum i akten** och utan omprövning
+   efter datumrättelsen. Kontrollen är en **katalogfråga**, inte en
+   arkivsökning. Fastställ samtidigt ortformen `Gryth`/`Grytt` mot ett
+   ortregister: `Gryt` i Södermanland är den närliggande kandidaten men är
+   inte katalogbestämd.
+3. **Årdalas dödböcker efter 1855 och husförhörslängden efter A I/9.** Parets
+   egna markeringar går till omkring 1855; en dödspost ger dödsdag och
+   **uppgiven ålder** — den enda oberoende prövningen av födelseåret, eftersom
+   de fyra hushållsbeläggen är **en** administrativ kedja (A-7510) och
+   vigselposten 1818 inte ger någon ålder.
+
+Utanför: att göra en namne i Gryt till hans far på namn och år; att beställa
+arkivmaterial utan aktuellt ägarmandat; P-0223:s och P-0225:s fulla
+granskning, som ägs av T-0143; C-0177:s sju saknade fullkopior, som ägs av
+T-0339; S-0138:s registerproveniens, som ägs av T-0327.
+
+## Acceptance Criteria
+
+- Passage 1 har positivt, exakt negativt eller olöst utfall med volym, sida,
+  årgång, bildintervall och läsdatum. **C-0177 stryks inte**; ett noll i
+  1810–1813 redovisas som ett andra, volym- och årgångsbundet noll.
+- Passage 2 ger ett **daterat** katalogutfall med metod och träffad tjänst.
+  Ett fortsatt nekande utfall redovisas som tidsbunden observation med
+  omprövningsvillkor, inte som permanent källslut, och ortformen får ett
+  bestämt eller uttryckligen obestämt svar.
+- Hela öppnade poster utvinns med kolumnredovisning enligt
+  `person-standard.md`, sparad kopia och hash. En vigselposts ålders- och
+  hemvistfält utvinns för **båda** kontrahenterna.
+- P-0221:s akt, profil, teman och båda kontraktsnivåerna avstäms.
+  `Slutstatus` prövas om mot utfallet, och fynden rapporteras till T-0143.
+- En batchlogg per passage; format-, validator-, inventerings-, test- och
+  mediekontroller passerar.
+
+## Approach
+
+Läs C-0177:s och C-0168:s daterade tillägg och P-0221:s profil först.
+Passage 1 kräver **ingen ny åtkomst** — volymen är öppnad två gånger för
+samma familj. Inga beställningar, kontakter, dashboardändringar,
+PDF-skapande eller commit/push.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-09.
+- Utfört: uppgiften skapad ur T-0171:s granskningsutfall.
+- Nästa ej utförda steg: lokalisera vigselavdelningen 1810–1813 i Årdala C/3.
+- Hinder: BLOCKED bakom T-0115.

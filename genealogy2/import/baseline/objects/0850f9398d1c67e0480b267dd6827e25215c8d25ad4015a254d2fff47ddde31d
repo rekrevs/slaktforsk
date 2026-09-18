@@ -1,0 +1,73 @@
+# T-0044: Treat the fourth depth-7 archive-front slice
+
+**Status**: DONE | **Size**: M
+
+## Context
+
+T-0043 left one untreated depth-7 person on Kristina's side and seventeen
+invalid fronts on Sverker's. `PCR-2026-09-04-016` and delegated owner
+decision `PCD-2026-09-04-018` select the next fixed cohort:
+
+- Kristina: P-0518 Gustava Maria Kylenstjerna.
+- Sverker: P-0234 Erik Eriksson, P-0235 Britta Thomsdotter, P-0264 Lorens
+  Urbom, P-0265 Anna Maja Eriksdotter, P-0266 Petter Ajax, P-0267 Catharina
+  Jonsdotter and P-0476 Jan Ericson.
+
+New parents may be registered as minimal depth-8 people but are not
+researched further. T-0034 remains a separate parked living-person
+corroboration pass.
+
+## Acceptance Criteria
+
+- [x] Each fixed person has verified parent relation(s) or a valid
+  `## Slutstatus` with reproducible scope and exact reactivation condition.
+- [x] No uncertain identity or relation propagates.
+- [x] New depth-8 parents remain minimal and unresearched in this task.
+- [x] All eight dossiers are `GRANSKAD`, `Källbredd: KLAR` and have no
+  priority-1 source-family cell.
+- [x] The target-front delta is visible in `goal-state`, with unchanged
+  positions explained by an exact blocker.
+- [x] One research-log batch, standard validators, tests, media check,
+  dashboard build and balanced audit are complete.
+
+## Approach
+
+Audit existing evidence and no-repeat controls before opening any source.
+Keep the Nysätra, Urbom and Ajax couples together, test only exact
+person-bound keys and stop before any unverified depth-8 propagation.
+
+## Log
+
+- 2026-09-04: Created and started from the verified post-T-0043 goal-state.
+- 2026-09-04: Reused six person-bound source chains and opened only the two
+  exact remaining birth-year keys: Västra Ny 1792 and Motala 1791.
+- 2026-09-04: Preserved ten fulloriginals and two manifests, rejected all
+  unsafe parent propagation and completed batch 269.
+
+## Verification
+
+`node scripts/goal-state.mjs` shows the fixed depth-7 delta: reviewed people
+rise from 26 to 32, coverage-ready people from 24 to 32 and invalid fronts
+fall from 18 to 10. Kristina's depth-7 queue falls from one to zero; all ten
+remaining invalid fronts are on Sverker's side. No depth-8 person was
+created.
+
+`node scripts/validate-genealogy.mjs` passes with 2,736 assertions, 2,078
+Markdown records and 4,513 media files including `.gitkeep`.
+`node scripts/verify-pedigree.mjs` passes with 87 independently reviewed
+ancestors. All 11 script tests pass. The media manifest passes with 4,512
+substantive files: 2,603 exact, 1,881 source-scoped and 28 citation-scoped,
+none unlinked. Dashboard test and production build pass with 518 people,
+2,736 assertions and 547 parent links.
+
+Kristina's depth-6 bounded ancestor audit now exits zero. The Adam/Sverker
+audit remains non-zero only for the ten later depth-7 fronts deliberately
+outside this fixed slice; every T-0044 target has valid `IDENTITET OLÖST`,
+`GRANSKAD` and källbreddsklar status. `git diff --check` passes.
+
+## Outcome
+
+Completed as research-log batch 269. The task preserved one unlinked Motala
+birth candidate, established one complete Västra Ny year/profile negative
+and gave six other people reproducible identity terminals. No uncertain
+person, corrected date or parent relation was propagated.

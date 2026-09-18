@@ -1,0 +1,43 @@
+# T-0639: Trädverkan BÄRANDE bara i anlinjen
+
+**Status**: DONE | **Size**: M
+**Phase**: -
+
+## Context
+
+Ägarbeslut 2026-09-11, PCD-2026-09-11-035. `T-0637` visade att 73 profiler
+stod `Trädverkan: BÄRANDE` utan att personen ligger i anlinjen till Adam och
+Axel. Kontraktet definierar fältet som svaret på "får antavlan passera denna
+person?"; tidigare konsolideringar hade läst det som "identiteten håller".
+
+## Utfall
+
+| Del | Ändring |
+|---|---:|
+| Profilernas fält `Trädverkan` | 73 till `EJ BÄRANDE`, var och en med daterad not |
+| Aktuell identitetsbedömning i profilerna | 12 formuleringar rättade |
+| Motiveringar för den äldre läsningen | 5 stycken med tilläggsmening, inte omskrivna |
+| Akternas `## Arbetsläge` och identitetsavsnitt | 67 formuleringar rättade |
+| Daterade utlåtanden och Historik | orörda |
+
+**Antalet bärande i inventeringen går från 124 till 51** — nu detsamma som
+antalet identitetsgodkända anor.
+
+`research-inventory.mjs` rapporterar `BÄRANDE` utanför anlinjen som
+strukturfel via `lineageErrors`, prövat mot `goal-state.mjs`:s härledda anor.
+Ett negativt prov — P-0022 tillfälligt satt till `BÄRANDE` — fångades.
+
+Rättelsen omfattar de avvecklade P-0424 och P-0060, trots att `T-0637`
+lämnade deras profiler orörda: ett `BÄRANDE` för en avvisad identifiering är
+just det fel avvecklingen ska hindra.
+
+## Verification och Outcome
+
+- `node --test scripts/`: **67/67**, varav ett nytt för kontrollen.
+- `research-inventory --check`: Strukturfel 0.
+- Full svit vid commit: se commitmeddelandet.
+
+## Återupptagning
+
+- Uppdaterat: 2026-09-11.
+- Nästa ej utförda steg: inga — DONE.
