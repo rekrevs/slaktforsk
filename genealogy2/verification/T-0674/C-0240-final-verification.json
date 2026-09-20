@@ -1,0 +1,145 @@
+{
+  "task": "T-0674",
+  "scope": "C-0240 correction and dependency review",
+  "checks": [
+    {
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "verify"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "verify-assets"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "verify-source"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"mediaVerified\": true,\n  \"problems\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "inventory"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout_sha256": "847e7585d9c99edf2a4a1c4902edfe9bebd131d5f9c43403affb4e8bf62936bb",
+      "summary": {
+        "format": "genealogy2-research-inventory/1",
+        "note": "Registrerade aktuella bedömningar, inte ny sakgranskning eller utförandekö. Identitetsgrind och livsbild är separata. Äldre helkontraktsutfall behåller sitt ursprungliga omfång och sina kvalificeringar.",
+        "active": {
+          "persons": 511,
+          "identityPassed": 199,
+          "treeSupporting": 51,
+          "identityGatePassed": 51,
+          "explicitNativeLifePassed": 0,
+          "legacyContractPassed": 0
+        },
+        "all": {
+          "persons": 536,
+          "identityPassed": 199,
+          "treeSupporting": 51,
+          "identityGatePassed": 51,
+          "explicitNativeLifePassed": 0,
+          "legacyContractPassed": 0
+        }
+      }
+    },
+    {
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "pedigree",
+        "P-0269"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout_sha256": "f0d8b9b7342cef142aedb48c6935bc2ed98cb1879076b8897b71f2ddcf56f8bb",
+      "summary": {
+        "root": "P-0269",
+        "mode": "verified",
+        "maxDepth": 20,
+        "maxPaths": 10000,
+        "truncated": false,
+        "paths": 20,
+        "edges": 19,
+        "excluded": 14
+      }
+    },
+    {
+      "command": [
+        "node",
+        "scripts/validate-genealogy.mjs"
+      ],
+      "exit_code": 0,
+      "stdout": "OK: 5130 assertions; 3035 Markdown records; 5065 media files; Wotan JSON valid.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "scripts/media-manifest.mjs",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "OK: 5064 media files; 3140 exact, 1879 source-scoped, 28 citation-scoped, 17 unlinked\n",
+      "stderr": ""
+    }
+  ],
+  "test_runs": [
+    {
+      "suite": "genealogy2",
+      "exit_code": 0,
+      "log": "genealogy2/verification/T-0674/C-0240-genealogy2-tests.log",
+      "sha256": "39e10023a14ccb56be99e5c0dfd6fe36eb4a3acb270b42e6f3e5f3237534800f",
+      "summary": [
+        "ℹ tests 133",
+        "ℹ suites 0",
+        "ℹ pass 133",
+        "ℹ fail 0",
+        "ℹ cancelled 0",
+        "ℹ skipped 0",
+        "ℹ todo 0",
+        "ℹ duration_ms 1902290.738125"
+      ]
+    },
+    {
+      "suite": "legacy-scripts",
+      "exit_code": 0,
+      "log": "genealogy2/verification/T-0674/C-0240-legacy-scripts-tests.log",
+      "sha256": "637f740ea650482959a1a84661a63f36aaf13061ff20d19d8234189f8fe66668",
+      "summary": [
+        "ℹ tests 67",
+        "ℹ suites 0",
+        "ℹ pass 67",
+        "ℹ fail 0",
+        "ℹ cancelled 0",
+        "ℹ skipped 0",
+        "ℹ todo 0",
+        "ℹ duration_ms 223.538667"
+      ]
+    }
+  ],
+  "completed_at": "2026-09-18T17:30:23+02:00",
+  "applied_changes_verified": 60,
+  "objects_dispositioned": 69,
+  "resolved_reviews": 21,
+  "remaining_reviews": 0
+}

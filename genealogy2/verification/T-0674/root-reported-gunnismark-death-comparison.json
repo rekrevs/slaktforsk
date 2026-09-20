@@ -1,0 +1,61 @@
+{
+  "task": "T-0674",
+  "kind": "reported_targeted_nonblind_original_comparison",
+  "reported_by": "root",
+  "preserved_by": "census_second",
+  "saved_at": "2026-09-18T16:26:02.305092+00:00",
+  "independence": "Root comparison was explicitly nonblind and does not replace a blinded second reading. census_second did not inspect this crop or any new image.",
+  "image": "C0034439_00027",
+  "source_dimensions": [
+    8028,
+    6460
+  ],
+  "crop": "/tmp/T0674-Gunnismark-death-comparison.jpg",
+  "reported_crop_command": "sips crop1300x1000 offset2350,3450",
+  "scope": "Only already scoped Gunnismark s460 death column: CarlErik row7 and Emma son row11; no other rows or new years.",
+  "root_report_verbatim": "Barnets månad är tydligt enkel9 med sluten ögla +nedåtgående svans, inget tvåsiffrigt12. Bästa jämförda10/9 86 stöder äldre normalisering; första10/12 bevaras historiskt men bör inte ligga som jämnstarkt datumalternativ. Carl85 9/[1/7?] är däremot fortsatt olöst förroot: enkel diagonal, bråkstrecket kan göra7formen svåratt skilja.",
+  "root_date_correction_verbatim": "barnets datum ska vara 1886-09-10 (10 september; rå10/9 86). Inte9 oktober.",
+  "child_result": {
+    "raw": "10/9 86",
+    "normalised": "1886-09-10",
+    "prior_first_reading": "10/12 86",
+    "prior_first_disposition": "superseded by targeted comparison;not equal-weight alternative",
+    "limit": "Support for existing death reading,not a new independent historical source."
+  },
+  "Carl_result": {
+    "older_raw": "85 9/7",
+    "T0674_first_raw": "85 9/1",
+    "root_compared_raw": "85 9/[1/7?]",
+    "resolution": "month remains unresolved after targeted nonblind comparison;no verified January",
+    "recommended_event_precision": "year1885"
+  },
+  "earlier_Carl_support": [
+    {
+      "path": "genealogy/citations/C-0218-savar-AI7b-AI8b-johan-gunnismark-1880-1885.md",
+      "lines": "53,61–67",
+      "content": "T-0142 reserved1885 9/7[?];T-0177 reread same original at430–800%,described numerator9 and denominator7,checked death-column x-position."
+    },
+    {
+      "path": "genealogy/people/P-0062-carl-erik-lundstrom.md",
+      "lines": "60,128–129",
+      "content": "A-7740 and life narrative repeat same C-0218 interpretation. Own death register1885 explicitly unread;not independent corroboration."
+    },
+    {
+      "path": "wotan/dev-log/T-0177.md",
+      "lines": "156–166",
+      "content": "Same-image rereading and certainty recorded;no independent historical record."
+    }
+  ],
+  "saved_second_reading_check": {
+    "files": [
+      "second-a.json",
+      "second-b.json",
+      "second-root.json",
+      "census-second-reading.json",
+      "census-carlman-second-reading.json"
+    ],
+    "result": "No separate blinded reading of R-790ac5479e5318c5820162e8 row7 in these saved second-reading artifacts. second-a covers only records6,16,33,41,47; other second readings concern other records.",
+    "consequence": "Do not characterize first9/1 as verified new date or pretend this root comparison was blind."
+  },
+  "crop_sha256": "e6613c0a9e028853536f8011671e17519e79d25b3abd55c58db8c6eae1a7b779"
+}

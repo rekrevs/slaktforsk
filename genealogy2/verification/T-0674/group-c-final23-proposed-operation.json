@@ -1,0 +1,332 @@
+{
+  "id": "T-0674/group-c-final23-review-v1",
+  "actor": "Codex",
+  "reason": "T-0674:23 individuella beroendeprövningar efter tillämpad gruppC-följd;tre sakliga följdkvalificeringar och tre läsbarhets-/alternativpreciseringar. Ingen ny bildläsning,personfusion eller statusändring.",
+  "changes": [
+    {
+      "id": "F-P-0062-age_at_death-1885",
+      "kind": "fact",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0062",
+        "property": "age_at_death",
+        "value_type": "structured",
+        "value_json": {
+          "basis": "Villkorlig beräkning från tidigare födelsedag1863-05-15 och olöst råmånad i85 9/[1/7?];inte avläst dödboksålder",
+          "previous_years": 22,
+          "possible_years": [
+            21,
+            22
+          ],
+          "conditional_alternatives": [
+            {
+              "death_reading": "85 9/1",
+              "years": 21
+            },
+            {
+              "death_reading": "85 9/7",
+              "years": 22
+            }
+          ],
+          "resolution": "month unresolved;no selected exact age;January not verified"
+        }
+      },
+      "disposition": "accepted",
+      "evidenceStatus": "INFERRED",
+      "rationale": "T-0674 sista individuella följdprövning: Exakt years=22 följer inte längre av E-death@2. Föreslagen revision tar bort ensamt years och ger villkorligt21år vid9januari respektive22år vid9juli,beräknat från15maj1863. Ingendera månaden väljs; ingen dödboksålder har lästs.",
+      "caveat": "Exakt years=22 följer inte längre av E-death@2. Föreslagen revision tar bort ensamt years och ger villkorligt21år vid9januari respektive22år vid9juli,beräknat från15maj1863. Ingendera månaden väljs; ingen dödboksålder har lästs. Kvarvarande riktade råfält ägs av T-0766 inom dess33 exakta poster; ingen ny personforskningspassage startas.",
+      "origins": [
+        {
+          "unit": "0aca933f7156d26560a5c21348bb2bf5e3d4f52c9d2c9793bb7c912952cc0ab9",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "E-birth-P-0062",
+          "version": 1,
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        },
+        {
+          "object": "E-death-P-0062",
+          "version": 2,
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        },
+        {
+          "object": "AS-T0674-Gunnismark-death-comparison",
+          "version": 1,
+          "role": "context",
+          "note": "Aktuell uttrycklig källreservation;jämförelse är ingen ytterligare historisk källa."
+        },
+        {
+          "object": "O-P-0062-Gunnismark-row7",
+          "version": 2,
+          "role": "context",
+          "note": "Aktuell uttrycklig källreservation;jämförelse är ingen ytterligare historisk källa."
+        }
+      ]
+    },
+    {
+      "id": "EP-E-death-P-0062-P-0062-principal",
+      "kind": "participation",
+      "expectedVersion": 1,
+      "data": {
+        "event_id": "E-death-P-0062",
+        "person_id": "P-0062",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "disposition": "accepted",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0674 sista individuella följdprövning: Carl förblir principal i egen död1885,men deltagandets gamla caveat att dagreservationen återtagits är nu fel. Föreslagen revision bevarar rollen och anger olöst januari/juli enligt E-death@2 och den riktade jämförelsen; dödsorsaken är fortsatt okänd.",
+      "caveat": "Carl förblir principal i egen död1885,men deltagandets gamla caveat att dagreservationen återtagits är nu fel. Föreslagen revision bevarar rollen och anger olöst januari/juli enligt E-death@2 och den riktade jämförelsen; dödsorsaken är fortsatt okänd. Kvarvarande riktade råfält ägs av T-0766 inom dess33 exakta poster; ingen ny personforskningspassage startas.",
+      "origins": [
+        {
+          "unit": "0aca933f7156d26560a5c21348bb2bf5e3d4f52c9d2c9793bb7c912952cc0ab9",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "E-death-P-0062",
+          "version": 2,
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        },
+        {
+          "object": "AS-T0674-Gunnismark-death-comparison",
+          "version": 1,
+          "role": "context",
+          "note": "Aktuell uttrycklig källreservation;jämförelse är ingen ytterligare historisk källa."
+        }
+      ],
+      "bindings": {
+        "E-death-P-0062": 2
+      }
+    },
+    {
+      "id": "EP-E-death-P-0473-P-0473-principal",
+      "kind": "participation",
+      "expectedVersion": 1,
+      "data": {
+        "event_id": "E-death-P-0473",
+        "person_id": "P-0473",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "disposition": "accepted",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0674 sista individuella följdprövning: Beata förblir principal i dödsåret1852. E-death@2 behåller årsprecision och lägger bara första21/3 som oavgjord rånyckel; deltagandets förbehåll preciseras så det inte döljer denna lästa men obekräftade dag. Ingen exakt marsdag typas.",
+      "caveat": "Beata förblir principal i dödsåret1852. E-death@2 behåller årsprecision och lägger bara första21/3 som oavgjord rånyckel; deltagandets förbehåll preciseras så det inte döljer denna lästa men obekräftade dag. Ingen exakt marsdag typas. Kvarvarande riktade råfält ägs av T-0766 inom dess33 exakta poster; ingen ny personforskningspassage startas.",
+      "origins": [
+        {
+          "unit": "11035853ffa6f73a217ad0cbe4bc11a41a512f7e27dd112f5c2245f0590dcd81",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "E-death-P-0473",
+          "version": 2,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "object": "O-P-0473-C0727-AI6b-wife",
+          "version": 2,
+          "role": "context",
+          "note": "Aktuell uttrycklig källreservation;jämförelse är ingen ytterligare historisk källa."
+        }
+      ],
+      "bindings": {
+        "E-death-P-0473": 2
+      }
+    },
+    {
+      "id": "BIO-P-0061",
+      "kind": "narrative",
+      "expectedVersion": 2,
+      "data": {
+        "subject_id": "P-0061",
+        "title": "Biografisk sammanfattning",
+        "markdown": "## Biografisk sammanfattning\n\nEmma Maria är i hushållskedjan uppgiven född 10 augusti 1859 i Östanträsk i Sävar. Fem husförhörsuppslag förbinder hennes egna rader genom sidhänvisningar; detta är en beroende bokkedja. Äldre slutsatser om hennes ordningsnummer bland barnen används inte.\n\nHon lämnade familjeraden 1876 för sida 398. Mellanleden är olästa. Gunnismarksraden anger ankomst från Umeå stad 84 28[?]/10. Någon egen tjänst eller arbetsgivare är inte därigenom belagd.\n\nRaden under henne anger hennes oä. son, född 6 september 1886. Namnledet Bernhard är tidigare läst; förnamnet är olöst mellan äldre [A?]lex och första T-0674-förslaget Carl. Carl Waldemar återinförs inte. Ingen far namnges. Barnets död 10 september 1886 stöds av den riktade icke-blinda jämförelsen i T-0674 av rå 10/9 86. Första T-0674-förslaget 10/12 är avfört som aktuellt alternativ. Födelse 6 september och död 10 september ger fyra kalenderdagar.\n\nHennes bror Carl Erik dog enligt hushållsraden 1885, med månaden januari eller juli olöst, och fadern samma år. Underlaget ger inte stöd för att beskriva dessa år som hennes livs svåraste eller räkna säkra intervall mellan dödsfallen.\n\nEmma bokfördes till Sundsvall i juli 1887; äldre 25/7 står mot första 23/7. Hon lämnade före familjens noterade destinationer 1889, men exakt flyttdag och systerns 20 eller 21 maj 1889 är reserverade. Återförening med familjen är inte belagd. Emmas egen dödsuppgift saknas i denna rad och hennes fortsatta liv är inte utrett här.\n\nForskningen om sidogrenen förblir avvecklad. T-0674 kvalificerar redan befintligt källunderlag utan att återaktivera dess personprogram.\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0674 sista individuella följdprövning: Samma datum-/namnreservationer och jämförda barnsdöd bevaras. Språkprecisering gör januari/juli och systerns20eller21maj entydiga; inga datum ändras.",
+      "caveat": "Äldre proveniensnot, läses med nedanstående aktuella precisering: Hela akten/profilen och C-0218/C-0378 inklusive sena rättelser lästa. Emma och sonen hör till egen R för rader10–11, skild från modern/syskonen rader5–9. Födelsedag 10 augusti rättar 8 oktober; fem bokled är en kopiekedja. Sonens Bernhard är säker läsning, [A?]lex reserverad och Carl Waldemar avvisad. Flyttdag 25/7 reserveras. Äldre uppgift andra barnet/äldsta dottern strider mot angiven äldre syster P238; ingen sådan ordningsslutsats typas. Avveckling gäller forskning, inte personens existens.\n\nBiografin rättas för förnamn,flyttdag och Carls olösta dödsmånad. Barnets jämförda död10september och fyra kalenderdagar återges utan retoriska svåraste-årspåståenden.\nT-0674 aktuell jämförelse: Sonens förnamn är olöst mellan äldre [A?]lex och första Carl-förslag; Carl Waldemar förblir avvisat. Root har därefter gjort riktad icke-blind jämförelse av dödkolumnen: rå 10/9 86 stöder tidigare 1886-09-10. Första 10/12 86 bevaras som avfört läsförslag, inte jämnstarkt datumalternativ. Emma87 25/7 står mot första87 23/7; exakt avresedag är olöst. Umeåstad84 28[?]/10 är en svaghetsreservation, inte ett annat datum. Se root-reported-gunnismark-death-comparison.json; ingen ny bild har lästs av denna följdgranskare.\nSpråkprecisering utan ny läsning: Samma datum-/namnreservationer och jämförda barnsdöd bevaras. Språkprecisering gör januari/juli och systerns20eller21maj entydiga; inga datum ändras.",
+      "origins": [
+        {
+          "unit": "899ac509cbd4fd334b9c3fb4ec55dd2a199db701f323ec343409714036b0bdfb",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "AUDIT-T0674-C-11",
+          "version": 1,
+          "role": "context",
+          "note": "Redan tillämpad T-0674-audit bevarar råkonflikt/läsgräns; inte ny oberoende historisk källa."
+        }
+      ]
+    },
+    {
+      "id": "BIO-P-0062",
+      "kind": "narrative",
+      "expectedVersion": 2,
+      "data": {
+        "subject_id": "P-0062",
+        "title": "Biografisk sammanfattning",
+        "markdown": "## Biografisk sammanfattning\n\nCarl Eric/Karl Erik är i hushållskedjan uppgiven född 15 maj 1863 i Östanträsk i Sävar. Namnvarianterna och fem bokled avser den tidigare identifierade separata personen; bokleden är en kopiekedja, inte fem oberoende födelsebelägg. Äldre uppgift om barnordning förs inte vidare.\n\nDen egna sidhänvisningen till 401 år 1879 och återkomsten från 395[?] omkring 1883[?] skiljer hans passage från familjens. Exakt avresedag och svaga hänvisningar behåller sina tidigare reservationer. Mellanliggande sidor är olästa och ger här inga belägg för yrke, husbonde eller egen familj.\n\nGunnismarks rad7 har en dödsnot 1885. Äldre läsning 85 9/7 står mot första T-0674-läsningen 85 9/1; den riktade icke-blinda jämförelsen i T-0674 av samma dödkolumn lämnade månaden januari eller juli olöst. T-0177:s äldre omläsning angav uttryckligen 7; ingen separat dödbok eller sparad blind andraläsning av cellen har hittats. Månad och därmed dödsålder 21 eller 22 är olösta. Dödsorsak och fysisk dödsplats är inte fastställda här. Tomma äktenskaps-/änkeceller bevisar inte livslång avsaknad av familj.\n\nFaderns död samma år innebär inte gemensam dödsorsak. Varken ett säkert fyramånadersintervall eller den tidigare fjortonmånadersberättelsen kan behållas eftersom Carls dödsmånad förblir omtvistad. Systersonens död 10 september 1886 stöds däremot av roots riktade jämförelse. Sidogrenens forskning förblir avvecklad; inga nya kyrkoboksårgångar öppnas genom denna konsolidering.\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0674 sista individuella följdprövning: Samma olösta dödsmånad och ålder21eller22 bevaras. Januari/juli skrivs i ord så1/7 inte misstolkas som ett datum; läsbarhet rättas utan sakändring.",
+      "caveat": "Äldre proveniensnot, läses med nedanstående aktuella precisering: Hela akten och profilen inklusive sena rättelser lästa. Död 1885-07-09 är uttryckligen rättad utan dagreservation; egna flyttleden 1879 19/12[?] och 395[?]/1883[?] förblir reserverade. Fem bokled är samma kopiekedja, inte fem röster. Fjärde barnet och oföränderlig namnform i samtliga böcker motsägs av annan text; dessa normaliseras inte. Avvecklad forskning innebär inte avvisad personidentitet.\n\nBiografin rättas för fortsatt olöst månad och21/22år efter riktad jämförelse. Fjortonmånadersintervallet förblir osäkert på grund av Carls datum; systersonens10september1886 stöds nu.\nT-0674 aktuell jämförelse: Äldre T-0142 läste85 9/7[?]; T-0177 läste samma original som85 9/7 med explicit nämnare7 vid430–800% och kolumnkontroll. Ingen separat dödbok är läst. Första T-0674 gav85 9/1; roots senare riktade icke-blinda jämförelse kunde inte avgöra1/7. Därför föreslås årsprecision1885 med bevarade råförslag. Detta verifierar inte januari. Månad, dödsålder21/22 och intervallet till fadern förblir olösta. Ingen sparad blind andraläsning av cellen har hittats. Se root-reported-gunnismark-death-comparison.json.\nSpråkprecisering utan ny läsning: Samma olösta dödsmånad och ålder21eller22 bevaras. Januari/juli skrivs i ord så1/7 inte misstolkas som ett datum; läsbarhet rättas utan sakändring.",
+      "origins": [
+        {
+          "unit": "e3a690c4e0f51f922c977e0756dcd75cff5ab71c916c6d8fc6feadd9fa922637",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "AUDIT-T0674-C-25",
+          "version": 1,
+          "role": "context",
+          "note": "Redan tillämpad T-0674-audit bevarar råkonflikt/läsgräns; inte ny oberoende historisk källa."
+        }
+      ]
+    },
+    {
+      "id": "BIO-P-0473",
+      "kind": "narrative",
+      "expectedVersion": 2,
+      "data": {
+        "subject_id": "P-0473",
+        "title": "Biografisk sammanfattning",
+        "markdown": "## Biografisk sammanfattning\n\nBeata Jonsdotters hushållsrader anger födelseår 1809. Den tidigare identifierade föräldralänken till Jan Larsson och Sara Lisa vilar på hennes uttryckliga barnrad. Exakt födelsedag är okänd. Åldern 17 i vigselposten i mars 1826 ger villkorligt intervallmars 1808–mars 1809, inte ett tredje oberoende belägg för exakt 1809. Det tidigare nollresultatet gäller avgränsade bilder för 1809;1808 har inte undersökts här.\n\nVigselunderlaget 1826 förbinder henne med Petter Reinhold Pehrsson och Ånäset. Ånäset är återkommande bokföringsort i den kända kedjan; den bevisar inte att hon aldrig flyttade eller säkert föddes i byn.\n\nMinst fem tidiga barn är identifierade i hushållskontexten: Jonas, Sara Sophia, Cathrina Magdalena, Pehr och Anders. Senare hushåll omfattar fler barn och fem är inte livslångt totalantal. De sparade första T-0674-läsningarna på s 335/399 skiljer sig från tidigare modell om Jonas den 2 eller 9 februari, Saras maj/september, Cathrinas januari/december och Pehrs 24 eller 28 december. Inget av dessa alternativ avgörs utan separat avgörande läsning. Beatas egen föräldralänk omidentifieras inte av datumkonflikterna.\n\nFöräldrarnas tidigare noterade år- och patronymikonkonflikter består. Äldre syntes som gav säkert 1777 för fadern i A I/3 används inte: det året är reserverat/oläsligt;4 eller 14 oktober och moderns patronymikon är olösta.\n\nBeatas dödsår är 1852. Hushållsraden A I/6 b s 399 har förstläst 21/3 1852, men separat avgörande andraläsning saknas och exakt datum fastställs inte. Det dokumenterade kataloggapet för dödböcker är inte bevis att alla primärkällor eller all information om dödsdagen saknas. Dödsorsak och begravning är inte utredda här. Täta förhörs-/nattvardsceller på s 335/399 är delvis olästa; visuell kontroll av sidytan är inte full utvinning.\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0674 sista individuella följdprövning: Jonas2/9februari skrivs entydigt2eller9februari,Pehr24eller28december och förälderns4eller14oktober. Detta är råalternativ,inte datum2september. Födelse-/dödsår och föräldralänk ändras inte.",
+      "caveat": "Hela akt/profil och sena T0173-tillägg samt hela C0727/33/34 lästa. Beatas kedja och föräldrar består; aldrig-flyttat, säker födelseby och tre oberoende årtal övertolkas inte. A7343 får senaste konfliktform: A I/3 fadersår oläsligt, dagnyckel4/14okt, moderns patronymikon olöst.\nBiografin rättas: kända Ånäsetankare ersätter aldrigflyttat,17år är inte exakt årsstöd,21/3 är preliminärt och kataloggap är inte källornas totala frånvaro.\nT-0674: Beatas hushållsrad på A I/6b s399 har förstläst död21/3 1852, ännu utan separat avgörande andraläsning. Endast1852 normaliseras. Kataloggapet är inte frånvaro av all möjlig originalinformation. Åldern17 i mars1826 ger villkorligt intervallmars1808–mars1809, inte ett tredje oberoende exakt årsbelägg. Kända Ånäsetankare bevisar inte att hon aldrig flyttade.\nSpråkprecisering utan ny läsning: Jonas2/9februari skrivs entydigt2eller9februari,Pehr24eller28december och förälderns4eller14oktober. Detta är råalternativ,inte datum2september. Födelse-/dödsår och föräldralänk ändras inte.",
+      "origins": [
+        {
+          "unit": "f8b8188318b704d6ea5eef9afbc5dc3cb77d9fee339bee9d4428ad8b49ab2fea",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "AUDIT-T0674-C-39",
+          "version": 1,
+          "role": "context",
+          "note": "Redan tillämpad T-0674-audit bevarar råkonflikt/läsgräns; inte ny oberoende historisk källa."
+        }
+      ]
+    }
+  ],
+  "resolve": [
+    {
+      "request": "14cc56587b652ba39ba62cbb32fc9ff4ec60ed1501df2f934d487982d98b5922",
+      "rationale": "E-registered_arrival-P-0061-Gunnismark1884@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Ankomsthändelsen behåller tidigare1884-10-28 från Umeåstad till Gunnismark. O-row10@2 återställde uttryckligen samma arrival_date;28[?]/10 är en svaghetsreservation,inte ett annat datum. Inga nya mellanled eller fysisk ankomstdag härleds."
+    },
+    {
+      "request": "03ec0deca6146091894914452786609bbf8822f5d4c614cb518b71a2cfc90797",
+      "rationale": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Emma är fortfarande principal i samma registrerade ankomst. Row10:s flyttdags-/namnreservationer byter inte person eller roll; tidigare ankomstdatum har bevarats."
+    },
+    {
+      "request": "c464fc76f492a730fdd9648372ac8492fa5da3b9660c44b2ee06001de940917b",
+      "rationale": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Emma är fortfarande principal i registrerad avgång till Sundsvall. E-departure@2 behåller juli1887 som range och reserverar25/23; deltagandet anger ingen egen exakt dag och dess befintliga caveat reserverar redan dagen."
+    },
+    {
+      "request": "0716dd29ffc456da177ab220e70cf0bf74dcf4eff168cd64418e6b61678ca5f9",
+      "rationale": "F-P-0061-residence-known-anchors@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Hemvistfaktumet anger Östanträsk,Brännmark,Gunnismark och uttrycklig oläst lucka1876–1884; efter1887 är fortsatt obelagt med Sundsvall endast registrerad destination. Det innehåller ingen omtvistad exakt flyttdag och ändras inte av25/23-läsningen."
+    },
+    {
+      "request": "ae84070e5483bbf93bae5b6dceeb96d12f81a40d6212a7c7f079d2182eecaa1c",
+      "rationale": "F-P-0061-vaccination-own-row@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Observationen behåller v på Emmas egen rad; faktumet anger vaccinated=true men okänd vaccinationsdag. Ändrade flytt-/barnsdatum ger ingen förändring av detta eget-rad-fält."
+    },
+    {
+      "request": "3c2fb9cb5044e40fc022198ef1f89d0a6007230caf7ec48e4683fe4992d6daf8",
+      "rationale": "E-birth-M-C0218-Alex-Bernhard-row11@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Barnets källbundna födelse1886-09-06 är densamma i O-son@2. Förnamnets osäkerhet förändrar inte den radbundna händelsen eller skapar ett person-id; ingen dopdag läggs till."
+    },
+    {
+      "request": "6b40676e6e4bf8fc4fe5f58023bdd1695b4f0c47c360a755395ef05b9a92c169",
+      "rationale": "E-death-M-C0218-Alex-Bernhard-row11@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Dödshändelsens1886-09-10 överensstämmer med O-son@2 och AS-T0674-Gunnismark-death-comparison@1.10/12 är avfört förstaförslag. Förnamnet förblir olöst utan byte av radbunden händelse; ingen dödsorsak eller begravningsdag tillkommer."
+    },
+    {
+      "request": "532a868442e150ba7342893c3ece4cd8008293ab836304224a414139f30703b8",
+      "rationale": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Principal avser samma rad11-omnämnande utan P-id,inte ett fastställt förnamn. Födelse6september är oförändrad i aktuell observation;[A?]lex/Carl-konflikten tillför ingen ny person."
+    },
+    {
+      "request": "29a263b49b3902a0e2674bc7b3849dc6a5c2004fa930776dfa6dd285eba91716",
+      "rationale": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Hennes oä. son är fortsatt uttrycklig modersrelation mellan rad10och11. O-son@2 behåller mother=P0061 och födelse6september; barnets osäkra förnamn påverkar inte rollen mother och ger inget faderskap."
+    },
+    {
+      "request": "010c34083bda478fa421708704258ca6bf39aa839f1b9e74bd674aaf570e0202",
+      "rationale": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Principal i döden är samma rad11-omnämnande utan P-id. Döden10september stöds av aktuell observation och riktad jämförelse; osäkert förnamn innebär ingen deltagarändring."
+    },
+    {
+      "request": "198849333712f3ed1565b082eb0c14215731c1b8d3abbf0e72e557bf713ed352",
+      "rationale": "EP-E-death-P-0062-P-0062-principal@1 prövat särskilt mot O-P-0062-Gunnismark-row7@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Carl förblir principal i egen död1885,men deltagandets gamla caveat att dagreservationen återtagits är nu fel. Föreslagen revision bevarar rollen och anger olöst januari/juli enligt E-death@2 och den riktade jämförelsen; dödsorsaken är fortsatt okänd."
+    },
+    {
+      "request": "d5d3662893b3bcdfd6d7d8a01a81aed09d5e85ec35a5d58bf3e635709a1dd0ed",
+      "rationale": "F-P-0062-age_at_death-1885@1 prövat särskilt mot O-P-0062-Gunnismark-row7@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Exakt years=22 följer inte längre av E-death@2. Föreslagen revision tar bort ensamt years och ger villkorligt21år vid9januari respektive22år vid9juli,beräknat från15maj1863. Ingendera månaden väljs; ingen dödboksålder har lästs."
+    },
+    {
+      "request": "98b83f653e734bde730ca7acfa2f3ccf77dd5038768be9dd548fb68412220c79",
+      "rationale": "F-P-0062-civil_status_assessment-Gunnismark@1 prövat särskilt mot O-P-0062-Gunnismark-row7@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Faktumet är redan begränsat till tomma äktenskaps-/änkefält och ogift så långt uppslaget visar;ingen egen familj känd är kunskapsläge,inte livslång barnlöshet. Row7@2 bevarar samma tomfält; dödsmånad och ålder ändrar inte denna avgränsning."
+    },
+    {
+      "request": "d27f47c7b67a1e3186ad7f72aa9952208021d7d087b088baec3f4903bd83cf15",
+      "rationale": "F-P-0062-name_form-book_variants@1 prövat särskilt mot O-P-0062-Gunnismark-row7@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Faktumet skiljer Carl Eric/Karl Erik från hushållets Lundström och sökalternativetJohansson. Row7@2 ändrade dödsnormalisering,inte namnvarianter. Ingen ny arbetsnot eller namnbytesidentitet tillkommer; befintlig varianthistorik består."
+    },
+    {
+      "request": "cb4931f76363cb7deead35c7b1c502fb14186d83bf18270d4c962252a9287138",
+      "rationale": "EP-E-death-P-0473-P-0473-principal@1 prövat särskilt mot E-death-P-0473@2. Den ändrade händelseversionens datumprecision har jämförts med just detta objekts värde/roll. Beata förblir principal i dödsåret1852. E-death@2 behåller årsprecision och lägger bara första21/3 som oavgjord rånyckel; deltagandets förbehåll preciseras så det inte döljer denna lästa men obekräftade dag. Ingen exakt marsdag typas."
+    },
+    {
+      "request": "1dfb5df1e074f790a566f0be6163df1a46b015cc55efdf16d7864078c87c0dfb",
+      "rationale": "E-birth-M-C0218-Alex-Bernhard-row11@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Barnets källbundna födelse1886-09-06 är densamma i O-son@2. Förnamnets osäkerhet förändrar inte den radbundna händelsen eller skapar ett person-id; ingen dopdag läggs till."
+    },
+    {
+      "request": "43de00c85360680928aba09a371f761dcb065db35d7c15c0dce0111f62195944",
+      "rationale": "E-death-M-C0218-Alex-Bernhard-row11@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Dödshändelsens1886-09-10 överensstämmer med O-son@2 och AS-T0674-Gunnismark-death-comparison@1.10/12 är avfört förstaförslag. Förnamnet förblir olöst utan byte av radbunden händelse; ingen dödsorsak eller begravningsdag tillkommer."
+    },
+    {
+      "request": "a3c3bc1b5c62e7824c216badf5312107a4543b193dbe7a472115874412a3da7e",
+      "rationale": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Principal avser samma rad11-omnämnande utan P-id,inte ett fastställt förnamn. Födelse6september är oförändrad i aktuell observation;[A?]lex/Carl-konflikten tillför ingen ny person."
+    },
+    {
+      "request": "1f275565247a4d30300bc3d3d9314ec6754fd65c85f94ad83f691a89a66dc4a1",
+      "rationale": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Hennes oä. son är fortsatt uttrycklig modersrelation mellan rad10och11. O-son@2 behåller mother=P0061 och födelse6september; barnets osäkra förnamn påverkar inte rollen mother och ger inget faderskap."
+    },
+    {
+      "request": "40f82badcd2c0e6027c86b4c9eb5807b93efaf51c2e8866d64ecea6a7440e7ca",
+      "rationale": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Principal i döden är samma rad11-omnämnande utan P-id. Döden10september stöds av aktuell observation och riktad jämförelse; osäkert förnamn innebär ingen deltagarändring."
+    },
+    {
+      "request": "b88c059b3a52081fca4682b3887d11dbe3a2389f45a7f2cf09772620c05ec57e",
+      "rationale": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1 prövat särskilt mot E-registered_departure-P-0061-Sundsvall1887@2. Den ändrade händelseversionens datumprecision har jämförts med just detta objekts värde/roll. Emma är fortfarande principal i registrerad avgång till Sundsvall. E-departure@2 behåller juli1887 som range och reserverar25/23; deltagandet anger ingen egen exakt dag och dess befintliga caveat reserverar redan dagen."
+    },
+    {
+      "request": "884799649a354103ec1c65986b7d7cb0c3233e2b09eddca4b80b809a069ede86",
+      "rationale": "EP-E-death-P-0062-P-0062-principal@1 prövat särskilt mot E-death-P-0062@2. Den ändrade händelseversionens datumprecision har jämförts med just detta objekts värde/roll. Carl förblir principal i egen död1885,men deltagandets gamla caveat att dagreservationen återtagits är nu fel. Föreslagen revision bevarar rollen och anger olöst januari/juli enligt E-death@2 och den riktade jämförelsen; dödsorsaken är fortsatt okänd."
+    },
+    {
+      "request": "85c2eca19a043977a0b8077097a837d8d8ab49c47a2c2de50842b442f755f35e",
+      "rationale": "F-P-0062-age_at_death-1885@1 prövat särskilt mot E-death-P-0062@2. Den ändrade händelseversionens datumprecision har jämförts med just detta objekts värde/roll. Exakt years=22 följer inte längre av E-death@2. Föreslagen revision tar bort ensamt years och ger villkorligt21år vid9januari respektive22år vid9juli,beräknat från15maj1863. Ingendera månaden väljs; ingen dödboksålder har lästs."
+    }
+  ]
+}

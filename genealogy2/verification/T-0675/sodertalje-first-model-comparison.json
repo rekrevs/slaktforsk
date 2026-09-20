@@ -1,0 +1,424 @@
+{
+  "schema": "t0675_model_comparison/1",
+  "task": "T-0675",
+  "scope": "Tre Södertäljehushåll, G023",
+  "first_reading_sha256": "ea774e7a901044079c938423ef4f9c2df0290a4d44977109f473b46b055ee042",
+  "model_state": {
+    "operations": 119,
+    "revisions": 45668,
+    "last_operation": {
+      "sequence": 118,
+      "operation_id": "T-0766/post41-final-followup-v1"
+    }
+  },
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0675/start-records.json",
+      "sha256": "f174005efa16fe1527b7746390a9d3f9a50cc3335a004989463ce9c998155fa0"
+    },
+    {
+      "path": "genealogy2/verification/T-0675/start-persons.json",
+      "sha256": "8a6105e9d8865866647a607af54f1d747f85f7c5045f9f346b2fdaf6746ff94c"
+    }
+  ],
+  "method": "Jämförelse först efter FIRST-lås. Aktuella records, TR, personers O/F/berättelser och relevanta researchobjekt lästa. impact C-0884 ger versionsberoenden; historisk text har inte gjorts till aktuell rättelse. Andraläsarens resultat ännu inte öppnat. Ingen apply.",
+  "field_comparison": [
+    {
+      "scope": "Alla tre",
+      "confirmed": "Hushållsradantal 4/5/5, vuxnas födelsedata, namn/roller, barnens år/födelseorter, inflyttningsår och hushållskedja. Kolumn5 har faktiskt civilståndsmarkeringar även där trycket säger Sida i församlingsbok.",
+      "added": "Råkolumner, strykningar, tecken/radbindningar och exakt bildkoordinat; barnens utelämnade råfält är intern fullkontroll.",
+      "reserved": "Blyertsnotens ord/personbindning, fastighetskoder, parentesadress, marginalsigler och n.r."
+    },
+    {
+      "scope": "Tranbärets sonrad",
+      "finding": "FIRST läser månadsform 2 där de två andra bilderna har 7. Den äldre TR utelämnar dag, varför detta inte bevisar tidigare datumfelläsning. Invänta separat blindläsning; bevara eventuell bildintern variant, ändra inte persondatum/ägarkunskap."
+    }
+  ],
+  "definite_correction": "BIO-P-0007@1: tredje dotter → tredje barnet (andra dottern), och undvik fysisk födelseplats i bostadshuset.",
+  "object_decisions": [
+    {
+      "object_id": "R-1a9591a2a920048c557b7634",
+      "version": 1,
+      "revision": "R-1a9591a2a920048c557b7634@1",
+      "action": "retain_record_scope_add_new_audit",
+      "reason": "Lokaliserat hushåll och bildhash matchar. Ursprunglig avgränsning kvarstår. Inga negativa sidkontroller utanför fyra målbilders hushåll återverifierade. Svåra fält reserveras i ny audit; historik bevaras."
+    },
+    {
+      "object_id": "R-3666fc0e94a9226b6675609a",
+      "version": 1,
+      "revision": "R-3666fc0e94a9226b6675609a@1",
+      "action": "retain_record_scope_add_new_audit",
+      "reason": "Lokaliserat hushåll och bildhash matchar. Ursprunglig avgränsning kvarstår. Inga negativa sidkontroller utanför fyra målbilders hushåll återverifierade. Svåra fält reserveras i ny audit; historik bevaras."
+    },
+    {
+      "object_id": "R-fce881f658da1429150bf74c",
+      "version": 1,
+      "revision": "R-fce881f658da1429150bf74c@1",
+      "action": "retain_record_scope_add_new_audit",
+      "reason": "Lokaliserat hushåll och bildhash matchar. Ursprunglig avgränsning kvarstår. Inga negativa sidkontroller utanför fyra målbilders hushåll återverifierade. Svåra fält reserveras i ny audit; historik bevaras."
+    },
+    {
+      "object_id": "TR-970ce8352745e97755553834",
+      "version": 1,
+      "revision": "TR-970ce8352745e97755553834@1",
+      "action": "supplement_after_second_reading",
+      "reason": "Låst FIRST bekräftar huvuddelen av egna namn-, års-, roll- och ortsfält samt vuxendatum. Ny fullkolumnsavläsning ska versionsbevaras med råfält, tryckta rubriker, marginaler och överstrykningar. Barnens dagar var uttryckligen integritetsutelämnade, inte fellästa/tomma original. För inte automatiskt exakta dagar till personhändelser."
+    },
+    {
+      "object_id": "TR-593dcfcfbc1a5598729e2045",
+      "version": 1,
+      "revision": "TR-593dcfcfbc1a5598729e2045@1",
+      "action": "supplement_after_second_reading",
+      "reason": "Låst FIRST bekräftar huvuddelen av egna namn-, års-, roll- och ortsfält samt vuxendatum. Ny fullkolumnsavläsning ska versionsbevaras med råfält, tryckta rubriker, marginaler och överstrykningar. Barnens dagar var uttryckligen integritetsutelämnade, inte fellästa/tomma original. För inte automatiskt exakta dagar till personhändelser."
+    },
+    {
+      "object_id": "TR-fc535419a3dca0ad3e1afd17",
+      "version": 1,
+      "revision": "TR-fc535419a3dca0ad3e1afd17@1",
+      "action": "supplement_after_second_reading",
+      "reason": "Låst FIRST bekräftar huvuddelen av egna namn-, års-, roll- och ortsfält samt vuxendatum. Ny fullkolumnsavläsning ska versionsbevaras med råfält, tryckta rubriker, marginaler och överstrykningar. Barnens dagar var uttryckligen integritetsutelämnade, inte fellästa/tomma original. För inte automatiskt exakta dagar till personhändelser."
+    },
+    {
+      "object_id": "O-P-0003-C0884-pencil-business",
+      "version": 1,
+      "revision": "O-P-0003-C0884-pencil-business@1",
+      "action": "reserve_pending_second_reader",
+      "reason": "Modellen läser affär och binder subjekt till Arne. FIRST såg oläst/överstruken liten not mellan vuxenrader. Kontrollera både ordform och radbindning innan detta räknas originalverifierat. Det kan inte datera firma eller ange arbetsgivare."
+    },
+    {
+      "object_id": "O-P-0003-C0884-youngest-birth",
+      "version": 1,
+      "revision": "O-P-0003-C0884-youngest-birth@1",
+      "action": "retain_with_bounded_audit",
+      "reason": "Aktuella namn/roll/år/födelseförsamlingar matchar egna rader. Dagutelämning för barn är uttrycklig dataminimering; födelseförsamling säger inte nedkomst i huset."
+    },
+    {
+      "object_id": "O-P-0005-gondolen-sonrow",
+      "version": 1,
+      "revision": "O-P-0005-gondolen-sonrow@1",
+      "action": "retain_with_bounded_audit",
+      "reason": "Aktuella namn/roll/år/födelseförsamlingar matchar egna rader. Dagutelämning för barn är uttrycklig dataminimering; födelseförsamling säger inte nedkomst i huset."
+    },
+    {
+      "object_id": "O-P-0005-mejseln-sonrow",
+      "version": 1,
+      "revision": "O-P-0005-mejseln-sonrow@1",
+      "action": "retain_supported_fields_reserve_land_code",
+      "reason": "Namn/roll/år/födelseort och familj stöds. Flen 43 24/11 läses i FIRST. Hänvisningskod V/N och bokstav efter 518 kräver andra läsaren; år 44 stöds."
+    },
+    {
+      "object_id": "O-P-0005-next-register",
+      "version": 1,
+      "revision": "O-P-0005-next-register@1",
+      "action": "reserve_graphic_reading_retain_access_boundary",
+      "reason": "Modellen läser n.r. och tolkar nästa serie 1948–1970; FIRST m.m.[?]. Ingen säker rättelse följer av den ensamma osäkra FIRST. Andraläs och separera faktisk sigel från katalogstödd serieidentifiering; nästa personpost förblir oläst."
+    },
+    {
+      "object_id": "O-P-0005-sibling-P-0303",
+      "version": 1,
+      "revision": "O-P-0005-sibling-P-0303@1",
+      "action": "retain_with_bounded_audit",
+      "reason": "Aktuella namn/roll/år/födelseförsamlingar matchar egna rader. Dagutelämning för barn är uttrycklig dataminimering; födelseförsamling säger inte nedkomst i huset."
+    },
+    {
+      "object_id": "O-P-0005-sibling-P-0304",
+      "version": 1,
+      "revision": "O-P-0005-sibling-P-0304@1",
+      "action": "retain_with_bounded_audit",
+      "reason": "Aktuella namn/roll/år/födelseförsamlingar matchar egna rader. Dagutelämning för barn är uttrycklig dataminimering; födelseförsamling säger inte nedkomst i huset."
+    },
+    {
+      "object_id": "O-P-0005-tranbaret-sonrow",
+      "version": 1,
+      "revision": "O-P-0005-tranbaret-sonrow@1",
+      "action": "retain_supported_fields_reserve_forward_sigil",
+      "reason": "Namn/roll/år/födelseort samt hushåll stöds; n.r.-råformen inväntar andra läsaren. Uteslutna barnfödelsedagar utgör dataminimering. Ann-Christines oktober kan nu stödjas av intern bildläsning utan att hävda födelse i huset."
+    },
+    {
+      "object_id": "O-P-0303-C-0884-gondolen",
+      "version": 1,
+      "revision": "O-P-0303-C-0884-gondolen@1",
+      "action": "retain_with_bounded_audit",
+      "reason": "Aktuella namn/roll/år/födelseförsamlingar matchar egna rader. Dagutelämning för barn är uttrycklig dataminimering; födelseförsamling säger inte nedkomst i huset."
+    },
+    {
+      "object_id": "O-P-0303-C-0884-mejseln",
+      "version": 1,
+      "revision": "O-P-0303-C-0884-mejseln@1",
+      "action": "retain_supported_fields_reserve_land_code",
+      "reason": "Namn/roll/år/födelseort och familj stöds. Flen 43 24/11 läses i FIRST. Hänvisningskod V/N och bokstav efter 518 kräver andra läsaren; år 44 stöds."
+    },
+    {
+      "object_id": "O-P-0303-C-0884-tranbaret",
+      "version": 1,
+      "revision": "O-P-0303-C-0884-tranbaret@1",
+      "action": "retain_supported_fields_reserve_forward_sigil",
+      "reason": "Namn/roll/år/födelseort samt hushåll stöds; n.r.-råformen inväntar andra läsaren. Uteslutna barnfödelsedagar utgör dataminimering. Ann-Christines oktober kan nu stödjas av intern bildläsning utan att hävda födelse i huset."
+    },
+    {
+      "object_id": "O-P-0304-C-0884-gondolen",
+      "version": 1,
+      "revision": "O-P-0304-C-0884-gondolen@1",
+      "action": "retain_with_bounded_audit",
+      "reason": "Aktuella namn/roll/år/födelseförsamlingar matchar egna rader. Dagutelämning för barn är uttrycklig dataminimering; födelseförsamling säger inte nedkomst i huset."
+    },
+    {
+      "object_id": "O-P-0304-C-0884-tranbaret",
+      "version": 1,
+      "revision": "O-P-0304-C-0884-tranbaret@1",
+      "action": "retain_supported_fields_reserve_forward_sigil",
+      "reason": "Namn/roll/år/födelseort samt hushåll stöds; n.r.-råformen inväntar andra läsaren. Uteslutna barnfödelsedagar utgör dataminimering. Ann-Christines oktober kan nu stödjas av intern bildläsning utan att hävda födelse i huset."
+    },
+    {
+      "object_id": "E-birth-P-0005",
+      "version": 1,
+      "revision": "E-birth-P-0005@1",
+      "action": "retain_year_precision",
+      "reason": "Årsnivån stöds. Lägg inte in exakt dag genom denna granskning. Tranbärets sons månad är råfältsreservation, inte skäl att ändra ägarkunskap, identitet eller uppgift från eget minne."
+    },
+    {
+      "object_id": "E-birth-P-0304",
+      "version": 1,
+      "revision": "E-birth-P-0304@1",
+      "action": "retain_year_precision",
+      "reason": "Årsnivån stöds. Lägg inte in exakt dag genom denna granskning. Tranbärets sons månad är råfältsreservation, inte skäl att ändra ägarkunskap, identitet eller uppgift från eget minne."
+    },
+    {
+      "object_id": "F-P-0003-household_membership-Mejseln1943-1944",
+      "version": 1,
+      "revision": "F-P-0003-household_membership-Mejseln1943-1944@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0003-residence-Gondolen1944-1947",
+      "version": 1,
+      "revision": "F-P-0003-residence-Gondolen1944-1947@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0003-residence-Frodingsvagen1947",
+      "version": 1,
+      "revision": "F-P-0003-residence-Frodingsvagen1947@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0007-residence-mejseln",
+      "version": 1,
+      "revision": "F-P-0007-residence-mejseln@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0007-residence-gondolen",
+      "version": 1,
+      "revision": "F-P-0007-residence-gondolen@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0007-residence-tranbaret",
+      "version": 1,
+      "revision": "F-P-0007-residence-tranbaret@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0005-residence-mejseln",
+      "version": 1,
+      "revision": "F-P-0005-residence-mejseln@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0005-residence-gondolen",
+      "version": 1,
+      "revision": "F-P-0005-residence-gondolen@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0005-residence-tranbaret",
+      "version": 1,
+      "revision": "F-P-0005-residence-tranbaret@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0303-residence-registered-childhood",
+      "version": 1,
+      "revision": "F-P-0303-residence-registered-childhood@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0304-residence-registered-childhood",
+      "version": 1,
+      "revision": "F-P-0304-residence-registered-childhood@1",
+      "action": "retain_main_chain_reserve_difficult_labels",
+      "reason": "Hushållens Mejseln→Gondolen→Tranbäret och 1943/44/47 stöds av synliga fält. Exakta äldre fastighetsbeteckningar/parentesgata/n.r.-sigel inväntar andraläsning. Adressminnets 42 bevaras vid sidan av registeradress 40; ingen belagd omnumrering och ingen 1948–1951-originalverifikation."
+    },
+    {
+      "object_id": "F-P-0003-register_report-Svbef1950",
+      "version": 1,
+      "revision": "F-P-0003-register_report-Svbef1950@1",
+      "action": "retain_outside_original_scope",
+      "reason": "Ett användarförmedlat utdrag, explicit originalRead=false. Kvartersregistret kan inte ersätta oläst mantalsoriginal; inga år efter 1947 verifieras här."
+    },
+    {
+      "object_id": "F-P-0304-chronology-birth-move",
+      "version": 1,
+      "revision": "F-P-0304-chronology-birth-move@1",
+      "action": "retain_chronology_update_source_qualification_if_needed",
+      "reason": "1945→1947 stöds och behöver inte vara omedelbar flytt. Birth_month_reported=1945-10 är korrekt attribuerat familjeminne, men caveat Månaden är familjeuppgift kan kompletteras eftersom båda nu lästa egna rader också visar månaden 10. Behåll dagminimering."
+    },
+    {
+      "object_id": "BIO-P-0007",
+      "version": 1,
+      "revision": "BIO-P-0007@1",
+      "action": "revise_concrete_household_count_and_place_claim",
+      "reason": "Skrivningen där en tredje dotter föddes 1945 är fel: raderna visar son + två döttrar, alltså tredje barnet/andra dottern. Samtidigt ska där inte påstå fysisk födelse inne i huset. Förslag: Hushållet flyttade 1944 till Gondolen 2 vid Hertig Karls väg 40. Där registreras också tredje barnet, Ann-Christine, född 1945 i Stadsf.; 1947 fördes hushållet till Frödingsvägen 15. Utsagan om inget yrke för Maj måste kvalificeras om andra läsaren knyter blyertsnoten till henne.",
+      "fields": [
+        "markdown"
+      ]
+    },
+    {
+      "object_id": "BIO-P-0003",
+      "version": 1,
+      "revision": "BIO-P-0003@1",
+      "action": "retain_main_narrative_qualify_only_affected_fields",
+      "reason": "Hushållskedja/år och födelseförsamling stöds. Vuxenliv och andra källor utanför granskningen omprövas inte. n.r./Oxelbärsvägen och registerdagarnas reservation följer andra läsning. BIO-P-0304 kan få månadens källstöd preciserat, utan full födelsedag eller ny senarelivsforskning."
+    },
+    {
+      "object_id": "BIO-P-0005",
+      "version": 1,
+      "revision": "BIO-P-0005@1",
+      "action": "retain_main_narrative_qualify_only_affected_fields",
+      "reason": "Hushållskedja/år och födelseförsamling stöds. Vuxenliv och andra källor utanför granskningen omprövas inte. n.r./Oxelbärsvägen och registerdagarnas reservation följer andra läsning. BIO-P-0304 kan få månadens källstöd preciserat, utan full födelsedag eller ny senarelivsforskning."
+    },
+    {
+      "object_id": "BIO-P-0303",
+      "version": 1,
+      "revision": "BIO-P-0303@1",
+      "action": "retain_main_narrative_qualify_only_affected_fields",
+      "reason": "Hushållskedja/år och födelseförsamling stöds. Vuxenliv och andra källor utanför granskningen omprövas inte. n.r./Oxelbärsvägen och registerdagarnas reservation följer andra läsning. BIO-P-0304 kan få månadens källstöd preciserat, utan full födelsedag eller ny senarelivsforskning."
+    },
+    {
+      "object_id": "BIO-P-0304",
+      "version": 1,
+      "revision": "BIO-P-0304@1",
+      "action": "retain_main_narrative_qualify_only_affected_fields",
+      "reason": "Hushållskedja/år och födelseförsamling stöds. Vuxenliv och andra källor utanför granskningen omprövas inte. n.r./Oxelbärsvägen och registerdagarnas reservation följer andra läsning. BIO-P-0304 kan få månadens källstöd preciserat, utan full födelsedag eller ny senarelivsforskning."
+    },
+    {
+      "object_id": "P-0003/Q-01",
+      "version": 1,
+      "revision": "P-0003/Q-01@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "P-0003/Q-02",
+      "version": 1,
+      "revision": "P-0003/Q-02@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "P-0003/Q-05",
+      "version": 1,
+      "revision": "P-0003/Q-05@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "P-0005/Q-01",
+      "version": 1,
+      "revision": "P-0005/Q-01@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Husnummerfrågan 42/40 förblir olöst. Registerbilden ger 40; minnet är ett separat attribuerat belägg och får inte skrivas bort eller göras till säker omnumrering."
+    },
+    {
+      "object_id": "PATH-P-0003-KP-01",
+      "version": 1,
+      "revision": "PATH-P-0003-KP-01@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "PATH-P-0003-KP-02",
+      "version": 1,
+      "revision": "PATH-P-0003-KP-02@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Affär och dess subjekt är reserverade i FIRST. Dessa objekt tillskriver anteckningen fadern; måste individuellt kvalificeras vid utebliven bekräftelse. Yrket polerare står kvar, ingen firma eller verksamhetsdatering har tillkommit."
+    },
+    {
+      "object_id": "PATH-P-0007-KP-02",
+      "version": 1,
+      "revision": "PATH-P-0007-KP-02@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "PATH-P-0005-KP-01",
+      "version": 1,
+      "revision": "PATH-P-0005-KP-01@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "PATH-P-0303-KP-01",
+      "version": 1,
+      "revision": "PATH-P-0303-KP-01@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "PATH-P-0304-KP-01",
+      "version": 1,
+      "revision": "PATH-P-0304-KP-01@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "PATH-P-0304-KP-04",
+      "version": 1,
+      "revision": "PATH-P-0304-KP-04@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Bevara att nytt födelseoriginal inte hämtas. Befintligt hushållsblad ger internt dag/månad; hänvisningen till broderns månadsuppgift kan kompletteras med befintligt bildstöd utan vidare insamling eller exakt persondatum."
+    },
+    {
+      "object_id": "KEY-P-0005-3077bb89e1be",
+      "version": 1,
+      "revision": "KEY-P-0005-3077bb89e1be@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Husnummerfrågan 42/40 förblir olöst. Registerbilden ger 40; minnet är ett separat attribuerat belägg och får inte skrivas bort eller göras till säker omnumrering."
+    },
+    {
+      "object_id": "KEY-P-0005-56f99ebdb938",
+      "version": 1,
+      "revision": "KEY-P-0005-56f99ebdb938@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "KEY-P-0005-b1ebed5a2a9a",
+      "version": 1,
+      "revision": "KEY-P-0005-b1ebed5a2a9a@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Aktuell fråge-/källvägsgräns består; ingen ny arkivåtkomst, firmaidentifiering eller senare personpost har tillkommit. Svåra råbeteckningar ska markeras som reserverade om andra läsningen inte löser dem."
+    },
+    {
+      "object_id": "THEME-P-0005-EKO",
+      "version": 1,
+      "revision": "THEME-P-0005-EKO@1",
+      "action": "retain_or_qualify_after_second_reading",
+      "reason": "Affär och dess subjekt är reserverade i FIRST. Dessa objekt tillskriver anteckningen fadern; måste individuellt kvalificeras vid utebliven bekräftelse. Yrket polerare står kvar, ingen firma eller verksamhetsdatering har tillkommit."
+    }
+  ],
+  "dependency_boundary": "Revisionsberoenden finns i impact C-0884; vid faktisk revision ska root kontrollera utlöst resolve-lista och individuellt avgöra om nytt underlag behövs. Detta dokument stänger inga request-id:n. Ej bekräftade svåra fält får inte markeras fullt originalverifierade.",
+  "owner_information": "OWNER_CONFIRMED, namngivna familjeuppgifter och adressminnets 42 bevaras. Ingen identitets-/trädgrind ändrad.",
+  "privacy": "Exakta barnfält finns i intern FIRST enligt uppdragets fulläsning; föreslår bevarad årsnoggrannhet i personhändelser och inga nya senare livsuppgifter."
+}

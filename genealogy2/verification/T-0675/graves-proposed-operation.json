@@ -1,0 +1,814 @@
+{
+  "id": "T-0675/two-grave-html-revision-v1",
+  "actor": "codex",
+  "reason": "T-0675 AK1–4: Två hela bevarade HTMLregisterposter: komplettera utelämnadUppsalaDk, reservera omärkt ortsemantik och odaterad registertitel, skilj medgravsättning från relationsbelägg; bevara alla äldre avskrifter/ursprung.",
+  "changes": [
+    {
+      "id": "E-death-P-0002",
+      "kind": "event",
+      "expectedVersion": 1,
+      "data": {
+        "event_type": "death",
+        "date_json": {
+          "literal": "1997-02-12",
+          "precision": "exact",
+          "value": "1997-02-12"
+        },
+        "place_id": null,
+        "place_role": "Fysisk dödsort ej fastställd; råtext Uppsala Dk finns i omärkt registerfält och fastställer inte hemförsamling."
+      },
+      "disposition": "accepted",
+      "evidenceStatus": "CORROBORATED",
+      "rationale": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nFöregående förbehåll ordagrant bevarat som historik:\nAdministrativ efterhandskälla, inte dödbok eller dödsbevis.",
+      "origins": [
+        {
+          "unit": "64d6306ce5f5f2d2b8bc603dcc851283c0a38e5db77ed0ce1a4a161f33acb11b",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "da9dd91f12a027fbcdbf0480769a4091be4f5b452f2e94e4dd02eab9c4c9c507",
+          "coverage": "partial",
+          "note": "Hela den aktuella uppgiften representeras med uttryckliga förbehåll."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-0d13f1e0e6bc75acbf8426e2",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0001-C0878-death-parish",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-e7d485f210b9d3a322c3b56f",
+        "mention_id": null,
+        "property": "unlabelled_parish_text",
+        "value_literal": "Umeå Stadsförsamling",
+        "value_json": {
+          "conflictUnresolved": true,
+          "contrastingReport": "Umeå landsförsamling",
+          "parish": "Umeå stadsförsamling",
+          "previous_property": "home_parish_at_death",
+          "field_semantics": "unlabelled HTMLspan; no assured at-death home parish or physical death location",
+          "conflict_limit": "Råortsnamnen skiljer sig men samma semantiska fält är inte visat."
+        }
+      },
+      "disposition": "recorded",
+      "evidenceStatus": "CONFLICT",
+      "rationale": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHemförsamling är inte fysisk dödsplats. Territoriell överföring 1925 avgör inte uppgiften för 1963.",
+      "origins": [
+        {
+          "unit": "16a05af724c475d8cc380282ea6b8cd90e8f086d57b1549b8a64d07e3e87cd4a",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "820fd6fa2b516fa50d0fee9a5bc38fa877121503552e23f215775ceb1e941621",
+          "coverage": "partial",
+          "note": "Hela den aktuella uppgiften representeras med uttryckliga förbehåll."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-e7d485f210b9d3a322c3b56f",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0001-C0878-title",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-e7d485f210b9d3a322c3b56f",
+        "mention_id": null,
+        "property": "occupation",
+        "value_literal": "Folkskollär.",
+        "value_json": {
+          "title": "folkskollärare",
+          "previous_time_interpretation": "vid gravsättningen 1963",
+          "time": "ej daterad av titelfältet",
+          "title_literal": "Folkskollär.",
+          "limit": "Titel i administrativ gravpost; inget självständigt stöd för aktivt arbete1963."
+        }
+      },
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nTiteln anger inte tjänsteort eller fortlöpande undervisning fram till döden.",
+      "origins": [
+        {
+          "unit": "078fa0b996a2349ea10f74e4c315c9af55479896f38de23b7282ad76b779a388",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-e7d485f210b9d3a322c3b56f",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0048-A-3320-shared_grave",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-e7d485f210b9d3a322c3b56f",
+        "mention_id": null,
+        "property": "shared_grave",
+        "value_literal": "GravplatsBT08 13 delas enligt registerkorten med Anna Fredrika Andersson, Ebba Alfrida Zingmark och Oskar Alfred Zingmark.",
+        "value_json": {
+          "source_relation": "co-interred only",
+          "kinship_limit": "Släktorden i äldre text är projektets koppling från andra belägg, inte en relation uttryckt i gravkortet."
+        }
+      },
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind.\n\nFöregående förbehåll ordagrant bevarat som historik:\nDelad gravplats, inte relationsbevis i sig.",
+      "origins": [
+        {
+          "unit": "ce1e5cef872fcadedbc2b2f25eabc29cd9f31905f3b2594fcaf67fd6e1d2a4fb",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-e7d485f210b9d3a322c3b56f",
+          "version": 1,
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0049-A-3322-shared_grave",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-e7d485f210b9d3a322c3b56f",
+        "mention_id": null,
+        "property": "shared_grave",
+        "value_literal": "GravplatsBT08 13 delas enligt registerkorten med Anders Alfred Andersson, Ebba Alfrida Zingmark och Oskar Alfred Zingmark.",
+        "value_json": {
+          "source_relation": "co-interred only",
+          "kinship_limit": "Släktorden i äldre text är projektets koppling från andra belägg, inte en relation uttryckt i gravkortet."
+        }
+      },
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind.\n\nFöregående förbehåll ordagrant bevarat som historik:\nDelad gravplats, inte relationsbevis i sig.",
+      "origins": [
+        {
+          "unit": "6ca9b5a351c149377435c63e049b45cc1dc3b6c8e18cd2d023d67083e2591f65",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-e7d485f210b9d3a322c3b56f",
+          "version": 1,
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        }
+      ]
+    },
+    {
+      "id": "TR-23272b54cf084172527c7993",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-e7d485f210b9d3a322c3b56f",
+        "text": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nLåst egen råpassage, fulla textlinjer och SHA256:\n{\n  \"record\": \"R-e7d485f210b9d3a322c3b56f\",\n  \"main_subject_literal\": \"Oskar Alfred Zingmark\",\n  \"path\": \"genealogy/media/S-0691-gravar-oskar-alfred-zingmark.html\",\n  \"sha256\": \"1f98cd27e5e587aa9552c0fe7f075d2f22f0100a019547c6ccd5853624d24074\",\n  \"visible_text_lines\": [\n    \"Gravar.se\",\n    \"Gravar.se\",\n    \"Svenska\",\n    \"Suomi\",\n    \"English\",\n    \"app.Start\",\n    \"Sverige\",\n    \"Västerbotten\",\n    \"BURTRÄSK-LÖVÅNGERS PASTORAT\",\n    \"Burträsks Kyrkogård\",\n    \"08\",\n    \"Oskar Alfred Zingmark\",\n    \"Oskar Alfred Zingmark\",\n    \"Folkskollär.\\n                            \\n                                                            |\",\n    \"Umeå Stadsförsamling\",\n    \"1897-05-22\",\n    \"Födelsedatum\",\n    \"1963-07-15\",\n    \"Dödsdatum\",\n    \"Gravsatt:\",\n    \"1963-07-26\",\n    \"BT 08   13\",\n    \"Burträsks Kyrkogård\",\n    \"BURTRÄSK-LÖVÅNGERS PASTORAT\",\n    \"Sverige,\\n                                    \\n                                    Västerbotten\",\n    \"BURTRÄSK-LÖVÅNGERS PASTORAT\",\n    \"0914-43701\",\n    \"burtrask.forsamling@svenskakyrkan.se\",\n    \"Kyrkogatan 1\",\n    \"937 31 BURTRÄSK\",\n    \"Burträsks Kyrkogård\",\n    \"Kyrkogatan 1\",\n    \"937 31 Burträsk\",\n    \"Gravsatta inom samma gravplats\",\n    \"BT 08   13\",\n    \"Anders Alfred Andersson\",\n    \",\",\n    \"Hem.äg\",\n    \"Burträsk\",\n    \"1869-07-24\",\n    \"1948-12-21\",\n    \"Gravsatt:\",\n    \"1949-01-03\",\n    \"Mer information\",\n    \"BT 08   13\",\n    \"Ebba Alfrida Zingmark\",\n    \"Uppsala Dk\",\n    \"1907-08-18\",\n    \"1997-02-12\",\n    \"Gravsatt:\",\n    \"1997-07-02\",\n    \"Mer information\",\n    \"BT 08   13\",\n    \"Anna Fredrika Andersson\",\n    \",\",\n    \"Hustru\",\n    \"Burträsk\",\n    \"1872-02-08\",\n    \"1947-06-27\",\n    \"Gravsatt:\",\n    \"1947-07-06\",\n    \"Mer information\",\n    \"Gravar.se är Nordens största söktjänst för gravplatser och gravsatta på nordiska kyrkogårdar.\",\n    \"Användarvillkor\",\n    \"Copyright Vitec Software 2026\"\n  ],\n  \"scope\": \"Entire retained person page including the three same-grave cards. Footer/provider contacts are site metadata, not person observation.\",\n  \"source_limits\": \"Administrative grave register. Shared grave does not prove kinship. Parish-name span is unlabelled in saved HTML: no death location inferred. No current remote-page check claimed.\",\n  \"reading_method\": \"Direct source HTML extraction, no OCR or handwriting. Names and date labels crosschecked in raw HTML. No difficult decisive glyph requires blind second reading.\"\n}\n\nFöregående avskrift ordagrant bevarad som läshistorik:\n- Namn: `Oskar Alfred Zingmark`\n- Titel: `Folkskollär.`\n- Församling: `Umeå Stadsförsamling`\n- Född: `1897-05-22`\n- Död: `1963-07-15`\n- Gravsatt: `1963-07-26`\n- Kyrkogård och gravplats: `Burträsks Kyrkogård`, `BT 08 13`\n- Gravsatta inom samma gravplats: Anders Alfred Andersson 1869-07-24 –\n  1948-12-21, gravsatt 1949-01-03; Ebba Alfrida Zingmark 1907-08-18 –\n  1997-02-12, gravsatt 1997-07-02; Anna Fredrika Andersson 1872-02-08 –\n  1947-06-27, gravsatt 1947-07-06.\n",
+        "reading_note": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består."
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nTitel och hemförsamling återger gravregistret; Umeå stadsförsamling skiljer sig från sekundärträdets landsförsamling. Delad grav namnger ingen släktrelation.",
+      "origins": [
+        {
+          "unit": "d3d0b187a52161327509975bc777dd75495427c9721d42f9fb40616e848f03d1",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "f3f71c8de6cd399da44bdf3118f1951f1f88b36a68a48af1e1ebbc15c27c8e2b",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-e7d485f210b9d3a322c3b56f",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id"
+        }
+      ]
+    },
+    {
+      "id": "TR-5c80aa9cb72022f9f43a2801",
+      "kind": "transcription",
+      "expectedVersion": 1,
+      "data": {
+        "record_id": "R-0d13f1e0e6bc75acbf8426e2",
+        "text": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nLåst egen råpassage, fulla textlinjer och SHA256:\n{\n  \"record\": \"R-0d13f1e0e6bc75acbf8426e2\",\n  \"main_subject_literal\": \"Ebba Alfrida Zingmark\",\n  \"path\": \"genealogy/media/S-0691-gravar-ebba-alfrida-zingmark.html\",\n  \"sha256\": \"e279faae4e2bb7fcb9f26a8e5e962e470555f282dd617dd9b0cd4e494928447c\",\n  \"visible_text_lines\": [\n    \"Gravar.se\",\n    \"Gravar.se\",\n    \"Svenska\",\n    \"Suomi\",\n    \"English\",\n    \"app.Start\",\n    \"Sverige\",\n    \"Västerbotten\",\n    \"BURTRÄSK-LÖVÅNGERS PASTORAT\",\n    \"Burträsks Kyrkogård\",\n    \"08\",\n    \"Ebba Alfrida Zingmark\",\n    \"Ebba Alfrida Zingmark\",\n    \"Uppsala Dk\",\n    \"1907-08-18\",\n    \"Födelsedatum\",\n    \"1997-02-12\",\n    \"Dödsdatum\",\n    \"Gravsatt:\",\n    \"1997-07-02\",\n    \"BT 08   13\",\n    \"Burträsks Kyrkogård\",\n    \"BURTRÄSK-LÖVÅNGERS PASTORAT\",\n    \"Sverige,\\n                                    \\n                                    Västerbotten\",\n    \"BURTRÄSK-LÖVÅNGERS PASTORAT\",\n    \"0914-43701\",\n    \"burtrask.forsamling@svenskakyrkan.se\",\n    \"Kyrkogatan 1\",\n    \"937 31 BURTRÄSK\",\n    \"Burträsks Kyrkogård\",\n    \"Kyrkogatan 1\",\n    \"937 31 Burträsk\",\n    \"Gravsatta inom samma gravplats\",\n    \"BT 08   13\",\n    \"Anders Alfred Andersson\",\n    \",\",\n    \"Hem.äg\",\n    \"Burträsk\",\n    \"1869-07-24\",\n    \"1948-12-21\",\n    \"Gravsatt:\",\n    \"1949-01-03\",\n    \"Mer information\",\n    \"BT 08   13\",\n    \"Anna Fredrika Andersson\",\n    \",\",\n    \"Hustru\",\n    \"Burträsk\",\n    \"1872-02-08\",\n    \"1947-06-27\",\n    \"Gravsatt:\",\n    \"1947-07-06\",\n    \"Mer information\",\n    \"BT 08   13\",\n    \"Oskar Alfred Zingmark\",\n    \",\",\n    \"Folkskollär.\",\n    \"Umeå Stadsförsamling\",\n    \"1897-05-22\",\n    \"1963-07-15\",\n    \"Gravsatt:\",\n    \"1963-07-26\",\n    \"Mer information\",\n    \"Gravar.se är Nordens största söktjänst för gravplatser och gravsatta på nordiska kyrkogårdar.\",\n    \"Användarvillkor\",\n    \"Copyright Vitec Software 2026\"\n  ],\n  \"scope\": \"Entire retained person page including the three same-grave cards. Footer/provider contacts are site metadata, not person observation.\",\n  \"source_limits\": \"Administrative grave register. Shared grave does not prove kinship. Parish-name span is unlabelled in saved HTML: no death location inferred. No current remote-page check claimed.\",\n  \"reading_method\": \"Direct source HTML extraction, no OCR or handwriting. Names and date labels crosschecked in raw HTML. No difficult decisive glyph requires blind second reading.\"\n}\n\nFöregående avskrift ordagrant bevarad som läshistorik:\n- Namn: `Ebba Alfrida Zingmark`\n- Född: `1907-08-18`\n- Död: `1997-02-12`\n- Gravsatt: `1997-07-02`\n- Kyrkogård och gravplats: `Burträsks Kyrkogård`, `BT 08 13`\n- Gravsatta inom samma gravplats: Anders Alfred Andersson 1869-07-24 –\n  1948-12-21, gravsatt 1949-01-03; Anna Fredrika Andersson 1872-02-08 –\n  1947-06-27, gravsatt 1947-07-06; Oskar Alfred Zingmark 1897-05-22 –\n  1963-07-15, gravsatt 1963-07-26, `Folkskollär.`, `Umeå Stadsförsamling`.\n",
+        "reading_note": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte."
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nFöregående förbehåll ordagrant bevarat som historik:\nIngen egen titel eller hemförsamling anges. Orsaken till intervallet mellan död och gravsättning är okänd; urnsättning är endast en möjlig förklaring.",
+      "origins": [
+        {
+          "unit": "95510087c2014eba616a56df2506b33bb6ace41d87526e5f7df7dd8ae6e8dec3",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "e63e2b42d91f89bc955b94490a8377b078e81d1f93dd67c300ec369df1dc3bf0",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-0d13f1e0e6bc75acbf8426e2",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id"
+        }
+      ]
+    },
+    {
+      "id": "AUDIT-T0675-C-0878",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "R-e7d485f210b9d3a322c3b56f",
+        "criteria": "original_revision/1",
+        "outcome": "corrected_with_scope_limits",
+        "body": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\nAK1: Hela bevarade huvudkortet ochtre medgravsattakort, datumetiketter och uppslagets rubriker utvunna; kontakt/footer separatmetadata.\nAK2: Förstläsning låst före modelljämförelse i root-graves-first-initial.json. DirektHTML, ingen OCR/handskrift; inga svåraavgörande glyfer som kräver separat blindandra.\nAK3: Egna råfält och faktiska textkopior prövade individuellt i graves-comparison-ledger.json. Ingen fullpersonsgrind.\nAK4: Lokala exakta HTMLhashar bevarade; ingen fjärrkontroll eller ny åtkomstlucka för dessa två. Saknade andra gravkopior hör befintliga ägareT0230/T0232 och ingår inte i dessa två poster."
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind.",
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-e7d485f210b9d3a322c3b56f",
+          "version": 1,
+          "role": "supports",
+          "note": "Samma bevarade registerpost."
+        },
+        {
+          "object": "TR-23272b54cf084172527c7993",
+          "version": 2,
+          "role": "supports",
+          "note": "Full låst HTMLutvinning och jämförelse; ingen ny källröst."
+        }
+      ]
+    },
+    {
+      "id": "AUDIT-T0675-C-0879",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "R-0d13f1e0e6bc75acbf8426e2",
+        "criteria": "original_revision/1",
+        "outcome": "corrected_with_scope_limits",
+        "body": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\nAK1: Hela bevarade huvudkortet ochtre medgravsattakort, datumetiketter och uppslagets rubriker utvunna; kontakt/footer separatmetadata.\nAK2: Förstläsning låst före modelljämförelse i root-graves-first-initial.json. DirektHTML, ingen OCR/handskrift; inga svåraavgörande glyfer som kräver separat blindandra.\nAK3: Egna råfält och faktiska textkopior prövade individuellt i graves-comparison-ledger.json. Ingen fullpersonsgrind.\nAK4: Lokala exakta HTMLhashar bevarade; ingen fjärrkontroll eller ny åtkomstlucka för dessa två. Saknade andra gravkopior hör befintliga ägareT0230/T0232 och ingår inte i dessa två poster."
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind.",
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-0d13f1e0e6bc75acbf8426e2",
+          "version": 1,
+          "role": "supports",
+          "note": "Samma bevarade registerpost."
+        },
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Full låst HTMLutvinning och jämförelse; ingen ny källröst."
+        }
+      ]
+    },
+    {
+      "id": "BIO-P-0001",
+      "kind": "narrative",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0001",
+        "title": "Biografisk sammanfattning",
+        "markdown": "T-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n## Biografisk sammanfattning\n\nOskar Alfred Zingmark föddes 22 maj 1897 i Degerfors som son till arbetaren,\nsenare sågställaren, Johan Oskar Zingmark och hans hustru Ida Sofia\nAndersdotter. Han döptes 9 juni med åtta antecknade faddrar från byarna kring\nförsamlingen — Westerliden, Ekträsk och Buberget — och modern kyrktogs 26\njuli. Födelsenotisen anger bara församlingen som hemvist och hänvisar till\nsida 93, hushåll 3, i husförhörslängden; Geni-uppgiften att han föddes i\nRosinedal är alltså inte belagd, även om familjen bodde där när folkräkningen\ntogs upp tre år senare\n([C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md),\n[C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md)).\n\nHan växte upp på Rosinedahl i ett hushåll som till 1909 fyllde tolv rader i\nförsamlingsboken: föräldrarna och tio barn\n([C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)).\nI november 1917 skrevs hela hushållet ut till Ytterhiske N:o 2 i Umeå\nlandsförsamling, och Oskar Alfred fick en egen post i inflyttningslängden.\nFörsamlingsboken där kallar honom seminarieelev och antecknar att han tagit\nbetyg för inträde i Luleå seminarium\n([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md),\n[C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md)).\nExamenslängden i Luleå daterar utbildningen: inskriven 12 juni 1919, examen\n1923 efter åtta terminer på den fyraåriga linjen, med genomgående goda betyg\n([C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md)).\nHan stod kvar skriven i föräldrahemmet till 1 november 1924, då han flyttade\ntill Norsjö. Vad han gjorde de följande sex åren är inte belagt; nästa\nsäkra hållpunkt är flyttningsbetyget 4 juli 1930, som skriver honom som\nlärare i Bastuträsk\n([C-0893](../citations/C-0893-oskar-alfred-bastutrask-utflyttning-1930.md)).\n\nDen 7 juli 1930 skrevs han in i Gammelbyn i Burträsk som ordinarie\nfolkskollärare med 3 100 kronor i inkomst\n([C-0042](../citations/C-0042-oskar-alfred-folkrakning-1930.md)). Samma höst\nkom folkskollärarinnan Ebba Alfrida Andersson dit från Östhammar, och 19 juni\n1932 vigdes de i hans hemförsamling Degerfors\n([C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md)). Enligt ägaren fick\nde barnen Torgny, Jan Oskar, Hillevi och Urban; församlingsboken bekräftar\nfyra barn födda 1933, 1936, 1938 och 1942\n([PCD-2026-09-03-003](../../PROJECT-CONTROL.md#pcd-2026-09-03-003),\n[PCD-2026-09-03-004](../../PROJECT-CONTROL.md#pcd-2026-09-03-004),\n[C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md)).\nFamiljen bodde tjugo år på samma fastighet i Gammelbyn. Brodern Birger,\npoliskonstapel, flyttade dit med egen familj 1943, och hustruns föräldrar kom\nfrån Robertsfors 1946 och fick ett eget uppslag på avsöndringen Gammelbyn\n14¹⁸; svärmodern dog där 1947 och svärfadern 1948\n([C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md)). Den 2\nseptember 1950 flyttade familjen till Umeå stad, dit fadern hade hört sedan\ngårdens inkorporering 1925 och där fadern dött 1935\n([C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)).\n\nDe sista tretton åren är obelagda. Gravregistret visar att han dog 15 juli\n1963, då skriven i Umeå stadsförsamling och alltjämt folkskollärare, och att\nhan gravsattes 26 juli på Burträsks kyrkogård i samma grav som hustruns\nföräldrar; Geni skriver i stället Umeå landsförsamling, och dödboken är oläst\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)). Att makarna och hennes\nföräldrar delar gravplats är ett faktum ur gravregistret; varför just den\ngraven valdes framgår inte.\n\nHistorisk kontext, inte personbelägg: Rosinedahl var ett sågverkssamhälle vid\nVindelälven, och folkskoleseminarierna var på 1910-talet en av få vägar till\ntjänstemannayrke för en sågverksarbetarson i Västerbotten. Ingen sådan\nallmän uppgift tillskrivs honom utan eget belägg.\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen är lästa, inklusive historiken och sena rättelser. 28/5 ersätter faderns äldre 25/5 och 19/5; hänvisningen är 93.3, inte 263.3. Degerfors är födelseförsamling och Rosinedahl belagt först 1900. Kyrkobokföring 1917–1924 är inte liktydig med fysisk vistelse under Luleåstudierna. Norsjö/Bastuträsk 1924–1930 och Umeå 1950–1963 saknar lästa hushållsrader. Dödsförsamlingens två former hålls isär. Äldre biografisk uppgift om bestämd bouppteckningsjurisdiktion kvalificeras av profilens aktuella KP-06: behörigt arkiv är ännu inte fastställt. Faddrarnas åtta textposter omfattar dessutom två uttryckligen omnämnda men namnlösa hustrur; inget säkert totalantal åtta personer härleds. Aktens uppgift om 17 dagar mellan födelse och dop används inte; de uttryckliga datumen bevaras. Historiska bedömningar ger inga nya aktuella fakta.",
+      "origins": [
+        {
+          "unit": "7cf6d905863e29344b5be43dc2d53aed1d7a9e0108c69c481991e27c25775191",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-23272b54cf084172527c7993",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "BIO-P-0002",
+      "kind": "narrative",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0002",
+        "title": "Biografisk sammanfattning",
+        "markdown": "T-0675 aktuell egenfältsprecisering: Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n## Biografisk sammanfattning\n\nEbba Alfrida föddes 1907-08-18 som enda redovisade barn till hemmansägaren\nAnders Alfred Andersson och hans hustru Anna Fredrika Jakobsdotter i Jomark\ni Bygdeå och döptes nio dagar senare med två fadderpar, varav det ena skrevs\ni Ultervattnet — moderns barndomsby (C-0043, C-0044). Familjen följs på\nsamma hemman genom tre församlingsböcker: Bygdeå s. 853, Robertsfors s. 1130\noch Robertsfors fol 658 (C-0044, C-0413, C-0891).\n\nHennes utbildningsväg är den enda större luckan i ungdomen. Folkräkningen\n1930 anger att hon var seminarieelev 1925 (C-0041), men hon står skriven i\nföräldrahemmet hela tiden fram till 1928, och examen finns varken i Umeå\nfolkskoleseminariums längder för 1928 och 1929 eller i Luleås 1928 års längd,\nsom bara upptar män (C-0922). Var hon läste är alltså inte känt; nollresultatet\ngäller de två prövade seminarierna och åren, inte hela landet.\n\nDen 15 december 1928 tog hon flyttningsbetyg nr 57 från Jomark och flyttade\ntill Östhammar i Stockholms län, där hon i knappt två läsår var extra ordinarie\nfolkskollärarinna skriven på Kyrkokvarteret n:o 13 (C-0891, C-0892). I oktober\n1930 återvände hon till Västerbotten som **ordinarie** folkskollärarinna i\nGammelbyn i Burträsk (C-0892, C-0889); folkräkningen samma år ger inkomsten\n2 400 kronor (C-0041). Där mötte hon kollegan Oskar Alfred Zingmark, som kommit\ntill samma by 1930-07-07. De vigdes 1932-06-19, med vigseln förrättad i\nDegerfors och attesten åter i Burträsk dagen efter (C-0040).\n\nFamiljen bodde kvar i Gammelbyn i tjugo år. Fyra barn föddes 1933, 1936, 1938\noch 1942 i Burträsk, hushållet fördes 1943 över till den nya bokens fol 275\n(Gammelbyn 14), och makens bror Birger, poliskonstapel, bodde med sin familj\npå samma fastighet från 1943 (C-0889). Hennes föräldrar lämnade Jomark\n1946-11-16 och flyttade in på avsöndringen Gammelbyn 14¹⁸ med eget uppslag;\nmodern dog där 1947-06-27 och fadern 1948-12-21 (C-0920, C-0970). Att de\nsenare vilar i samma gravplats som dottern och svärsonen är belagt, men\ngravvalets orsak är det inte (C-0878, C-0879).\n\nDen 2 september 1950 flyttade familjen till Umeå stad (C-0889). Därefter är\nhennes liv obelagt i projektets material: hemvist, fortsatt yrkesverksamhet\noch änketiden efter makens död 1963 saknar samtida källa, och Umeå stads\nförsamlingsbok är oläst. Hon dog 1997-02-12 och gravsattes 1997-07-02 på\nBurträsks kyrkogård, gravplats BT 08 13 (C-0879). Gravposten anger varken\nhemförsamling eller dödsort.\n\nÖppna materiella frågor och källvägar finns i\n[forskningsprofilen](../research-profiles/P-0002.md).\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen inklusive historik och rättelser är lästa. Andersson är egen belagd namnform, Zingmark belagt i efterhandskällor utan säker startdag. Födelseförsamling Bygdeå skiljs från föräldrahemmet Jomark. Föräldrarnas vigsel är rättad till 1904-05-03; den äldre 1904-03-05 används inte. Faderns Hem.äg. är senare rättelse av den äldre avskriftens arb. hem.äg. Volymstart 1918 får inte flyttas till 1917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på hennes Robertsforsrad är läsosäker, kyrkliga betyg är inte skolbetyg, och årtalskolumnernas rubriker är inte säkrade. Fyra hushåll utan syskon bevisar inte att inget ytterligare barn föddes. Gravsättning långt efter döden görs inte till fastställd kremering.",
+      "origins": [
+        {
+          "unit": "3e022aae7b0a97b6a0a3ee7a7892ebbdb23085ecc420fc370ed2f40fb469b34d",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "KEY-P-0001-5348b50b00c1",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0001",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "T-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n| Död 1963-07-15; gravplats BT 08 13, Burträsks kyrkogård; hemförsamling Umeå stadsförsamling enligt gravregistret | Dödbok 1963, bouppteckning, dödsannons. | [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md) | Församlingsformen är omstridd mot [C-0001](../citations/C-0001-geni-utdrag.md). |\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen är lästa, inklusive historiken och sena rättelser. 28/5 ersätter faderns äldre 25/5 och 19/5; hänvisningen är 93.3, inte 263.3. Degerfors är födelseförsamling och Rosinedahl belagt först 1900. Kyrkobokföring 1917–1924 är inte liktydig med fysisk vistelse under Luleåstudierna. Norsjö/Bastuträsk 1924–1930 och Umeå 1950–1963 saknar lästa hushållsrader. Dödsförsamlingens två former hålls isär. Äldre biografisk uppgift om bestämd bouppteckningsjurisdiktion kvalificeras av profilens aktuella KP-06: behörigt arkiv är ännu inte fastställt. Faddrarnas åtta textposter omfattar dessutom två uttryckligen omnämnda men namnlösa hustrur; inget säkert totalantal åtta personer härleds. Aktens uppgift om 17 dagar mellan födelse och dop används inte; de uttryckliga datumen bevaras. Historiska bedömningar ger inga nya aktuella fakta.",
+      "origins": [
+        {
+          "unit": "5348b50b00c16acb5e075329e69851196485ef7627aed5496e7ce0ba9b242ba4",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-23272b54cf084172527c7993",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "KEY-P-0002-86a6e1084f5c",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0002",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "T-0675 aktuell egenfältsprecisering: Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n| Död 1997-02-12; gravsatt 1997-07-02, Burträsks kyrkogård BT 08 13 | Dödsnyckel för dödbok, folkbokföringsregister och dödsbo. | [C-0879](../citations/C-0879-ebba-alfrida-zingmark-grav-burtrask-1997.md) | Dag och gravplats är belagda; hemförsamling och dödsort är det inte. |\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen inklusive historik och rättelser är lästa. Andersson är egen belagd namnform, Zingmark belagt i efterhandskällor utan säker startdag. Födelseförsamling Bygdeå skiljs från föräldrahemmet Jomark. Föräldrarnas vigsel är rättad till 1904-05-03; den äldre 1904-03-05 används inte. Faderns Hem.äg. är senare rättelse av den äldre avskriftens arb. hem.äg. Volymstart 1918 får inte flyttas till 1917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på hennes Robertsforsrad är läsosäker, kyrkliga betyg är inte skolbetyg, och årtalskolumnernas rubriker är inte säkrade. Fyra hushåll utan syskon bevisar inte att inget ytterligare barn föddes. Gravsättning långt efter döden görs inte till fastställd kremering.",
+      "origins": [
+        {
+          "unit": "86a6e1084f5c6136d1edf3b59ee3b0c3f5af4af03ac16656e37493a24b6150da",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "O-P-0002-C0879-unlabelled-parish",
+      "kind": "observation",
+      "expectedVersion": null,
+      "data": {
+        "record_id": "R-0d13f1e0e6bc75acbf8426e2",
+        "mention_id": null,
+        "property": "unlabelled_parish_text",
+        "value_literal": "Uppsala Dk",
+        "value_json": {
+          "literal": "Uppsala Dk",
+          "field_semantics": "unlabelled span",
+          "limit": "Ingen säker fysisk dödsort eller hemförsamling; råsöknyckel utan ny personkoppling."
+        }
+      },
+      "disposition": "recorded",
+      "evidenceStatus": "TRANSCRIBED",
+      "rationale": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "origins": [],
+      "evidence": [
+        {
+          "object": "R-0d13f1e0e6bc75acbf8426e2",
+          "version": 1,
+          "role": "supports",
+          "note": "Egen huvudkortsspan."
+        },
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Tidigare utelämnad egen råtext ur låst HTMLutvinning."
+        }
+      ]
+    },
+    {
+      "id": "P-0001/Q-02",
+      "kind": "question",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0001",
+        "title": "Q-02: Var bodde familjen i Umeå stad 1950–1963, och vad säger dödboken 1963?",
+        "outcome": "ÖPPEN.",
+        "body": "T-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n### Q-02: Var bodde familjen i Umeå stad 1950–1963, och vad säger dödboken 1963?\n\n- Fråga och betydelse: de sista tretton åren, den sista tjänsten, bostaden och dödens omständigheter. Dödboken avgör dessutom den bevarade konflikten om hemförsamlingen.\n- Känt underlag: utflyttning från Burträsk till Umeå stad 1950-09-02 med betyg 1950-08-30 ([C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md)); gravregistret ger död 1963-07-15, gravsättning 1963-07-26 och hemförsamlingen Umeå stadsförsamling ([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md)); Geni skriver landsförsamlingen ([C-0001](../citations/C-0001-geni-utdrag.md)).\n- Alternativ och motprövning: Umeå stadsförsamling eller Umeå landsförsamling som hemförsamling; stadens församlingsbok efter 1950 och dödboken 1963 skiljer dem. Föräldragårdens överföring till staden 1925 gör stadsformen rimligare men är inte bevis ([C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)).\n- Källvägar: KP-02.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: gravregistret är en administrativ avskrift som kan bära kyrkobokföringsförsamlingen vid dödsfallet; Geni är en sekundär sammanställning. Ingen av dem är originalet.\n- Påverkade personer/påståenden: A-0003, A-3313, A-3316; P-0002, som levde till 1997 och vars hemvist efter 1950 också är okänd.\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen är lästa, inklusive historiken och sena rättelser. 28/5 ersätter faderns äldre 25/5 och 19/5; hänvisningen är 93.3, inte 263.3. Degerfors är födelseförsamling och Rosinedahl belagt först 1900. Kyrkobokföring 1917–1924 är inte liktydig med fysisk vistelse under Luleåstudierna. Norsjö/Bastuträsk 1924–1930 och Umeå 1950–1963 saknar lästa hushållsrader. Dödsförsamlingens två former hålls isär. Äldre biografisk uppgift om bestämd bouppteckningsjurisdiktion kvalificeras av profilens aktuella KP-06: behörigt arkiv är ännu inte fastställt. Faddrarnas åtta textposter omfattar dessutom två uttryckligen omnämnda men namnlösa hustrur; inget säkert totalantal åtta personer härleds. Aktens uppgift om 17 dagar mellan födelse och dop används inte; de uttryckliga datumen bevaras. Historiska bedömningar ger inga nya aktuella fakta.",
+      "origins": [
+        {
+          "unit": "efa30651fba7d7b5fbb9afd3bdaa6c5ee17bf1ec30b89d90ca88501c6b133d26",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-23272b54cf084172527c7993",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "P-0002/Q-02",
+      "kind": "question",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0002",
+        "title": "Q-02: Var bodde och arbetade Ebba 1950–1997, och var dog hon?",
+        "outcome": "ÖPPEN.",
+        "body": "T-0675 aktuell egenfältsprecisering: Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n### Q-02: Var bodde och arbetade Ebba 1950–1997, och var dog hon?\n\n- Fråga och betydelse: BO, ARB, HAL och EKO för 47 av hennes 89 år, varav 34\n  som änka. Hemvist vid döden avgör också vilken dödbok och vilket dödsbo som\n  är behörigt.\n- Känt underlag: familjen utflyttade till Umeå stad 1950-09-02 med\n  flyttningsbetyg 1950-08-30 ([C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md));\n  maken dog 1963-07-15 skriven i Umeå stadsförsamling enligt gravregistret\n  ([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md));\n  hon dog 1997-02-12 och gravsattes 1997-07-02 i Burträsk\n  ([C-0879](../citations/C-0879-ebba-alfrida-zingmark-grav-burtrask-1997.md)).\n- Alternativ och motprövning: hon kan ha bott kvar i Umeå hela änketiden,\n  flyttat tillbaka till Burträsk, eller flyttat till ett barn. Gravplatsen i\n  Burträsk skiljer inte alternativen — den var redan familjegrav sedan\n  föräldrarna och maken, och gravvalet bevisar inte hemort. Umeå stads\n  församlingsbok 1950–1991 är den diskriminerande källan.\n- Källvägar: KP-02 för hushållskedjan, KP-05 för dödsboet.\n- Slutsatsläge: ÖPPEN.\n- Delfrågornas läge: dödsdag och gravsättning är fastställda genom\n  [C-0879](../citations/C-0879-ebba-alfrida-zingmark-grav-burtrask-1997.md);\n  hemvist, yrke och änketid 1950–1997 är obesvarade och bär frågans läge.\n- Argument och konflikter: gravregistret anger hemförsamling för maken men\n  inte för henne, vilket är en källgräns i posten och inte ett tecken på att\n  hon saknade församling. Geni anger Umeå landsförsamling för maken där\n  gravregistret anger stadsförsamlingen; den konflikten (A-3316 i P-0001) rör\n  även vilken bok hennes egen fortsättning ska sökas i.\n- Påverkade personer/påståenden: A-0008, A-3317, A-3318, A-3350; P-0001 och\n  de fyra barnens akter.\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen inklusive historik och rättelser är lästa. Andersson är egen belagd namnform, Zingmark belagt i efterhandskällor utan säker startdag. Födelseförsamling Bygdeå skiljs från föräldrahemmet Jomark. Föräldrarnas vigsel är rättad till 1904-05-03; den äldre 1904-03-05 används inte. Faderns Hem.äg. är senare rättelse av den äldre avskriftens arb. hem.äg. Volymstart 1918 får inte flyttas till 1917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på hennes Robertsforsrad är läsosäker, kyrkliga betyg är inte skolbetyg, och årtalskolumnernas rubriker är inte säkrade. Fyra hushåll utan syskon bevisar inte att inget ytterligare barn föddes. Gravsättning långt efter döden görs inte till fastställd kremering.",
+      "origins": [
+        {
+          "unit": "f0775687a50d7d74e3bcaad6b6a835c4c7322c46aa88d519d00b00429b1fc454",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0001-KP-02",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0001",
+        "criteria": "legacy_source_path",
+        "outcome": "`EJ UNDERSÖKT` för både församlingsboken efter 1950 och dödboken 1963. Gravregistret är `POSITIVT` men är en avskrift, inte originalet.",
+        "body": "T-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n### KP-02: Umeå stads församlingsbok efter 1950 och dödboken 1963\n\n- Frågor/teman: Q-02, BO, REL, HAL, ARB.\n- Källklass: K-01, K-04.\n- Tid/plats och arkivbildare: Umeå stadsförsamlings kyrkoarkiv `SE/HLA/1010220`, församlingsbok efter 1950; dödbok 1963 för Umeå stadsförsamling, i andra hand Umeå landsförsamling.\n- Förväntad information: adress, hushållets sammansättning, tjänst, hustruns och barnens vidare vägar, dödsdatum och dödsplats med prästens anteckning. Dödboken avgör hemförsamlingens form; den ger inte nödvändigtvis dödsorsak.\n- Ingång och söknycklar: utflyttningen 1950-09-02 med betyg 1950-08-30, namn och `97 ²²/₅`; hemförsamlingen enligt gravregistret. Källa: [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md), [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md).\n- Beroenden: inga för församlingsboken. Uppgifter om de två sannolikt levande barnen minimeras när sidan läses.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet. Samma arkivbildare är läst för perioden 1925–1941 ([C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)), vilket visar att serien är åtkomlig; volymerna efter 1950 är EJ KONTROLLERAD, och material yngre än sekretessgränsen kan vara spärrat.\n- Undersökt omfång och utfall: `EJ UNDERSÖKT` för både församlingsboken efter 1950 och dödboken 1963. Gravregistret är `POSITIVT` men är en avskrift, inte originalet.\n- Bedömning och återaktivering: personens andra materiella lucka, tretton år lång, med den enda kända vägen till dödens omständigheter och till församlingskonflikten. Ändras av en läst hushållsrad eller dödboksnotis.\n- Wotan: [T-0066](../../wotan/dev-log/T-0066.md) utfört för Burträskledet; fortsättningen är EJ BESLUTAT UTFÖRANDE (kandidat T-0073, läget IDEA).\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen är lästa, inklusive historiken och sena rättelser. 28/5 ersätter faderns äldre 25/5 och 19/5; hänvisningen är 93.3, inte 263.3. Degerfors är födelseförsamling och Rosinedahl belagt först 1900. Kyrkobokföring 1917–1924 är inte liktydig med fysisk vistelse under Luleåstudierna. Norsjö/Bastuträsk 1924–1930 och Umeå 1950–1963 saknar lästa hushållsrader. Dödsförsamlingens två former hålls isär. Äldre biografisk uppgift om bestämd bouppteckningsjurisdiktion kvalificeras av profilens aktuella KP-06: behörigt arkiv är ännu inte fastställt. Faddrarnas åtta textposter omfattar dessutom två uttryckligen omnämnda men namnlösa hustrur; inget säkert totalantal åtta personer härleds. Aktens uppgift om 17 dagar mellan födelse och dop används inte; de uttryckliga datumen bevaras. Historiska bedömningar ger inga nya aktuella fakta.",
+      "origins": [
+        {
+          "unit": "bd8870519a7ac2954e3b6541b4b9d00a09aa8c16e8c869ae13b898835814b949",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-23272b54cf084172527c7993",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0001-KP-06",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0001",
+        "criteria": "legacy_source_path",
+        "outcome": "`EJ UNDERSÖKT`. Ingen personbunden katalogträff och inget nollresultat finns.",
+        "body": "T-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n### KP-06: Personbunden lokalisering av bouppteckningen efter Oskar Alfred 1963\n\n- Frågor/teman: EKO, REL, HAL.\n- Källklass: K-14.\n- Tid/plats och arkivbildare: behörig domsaga eller rådhusrätt för dödsboet 1963 med hemvist i Umeå; Västerbottens västra domsagas arkiv (1866–1970) är den ena kandidaten, Umeå rådhusrätt/domsaga den andra beroende på hemförsamlingens form.\n- Förväntad information: dödsbodelägare, alltså hustru och fyra barn med namn och hemvist 1963, samt tillgångar, skulder och eventuell fastighet. Vägen kan inte ge yrkesuppgifter eller dödsorsak.\n- Ingång och söknycklar: namn, `1897-05-22`, dödsdag 1963-07-15, hemförsamling enligt gravregistret. Källa: [C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md).\n- Beroenden: rätt jurisdiktion beror på hemvisten 1963, som Q-02 avgör. Vägen kan ändå påbörjas som katalogfråga för båda kandidaterna.\n- Föregående källvägar: KP-02\n- Leverantörer och åtkomst: Riksarkivet, EJ KONTROLLERAD för denna person. Katalogprovet i [C-0924](../citations/C-0924-katalogprov-yrkeskallor-djup-3-2026-09-06.md) konstaterade att Västerbottens västra domsaga saknar digitaliserade volymer, men dess generella meningar om digitaliseringsgränsen och om Skatteverkets förvaring gäller enligt räckviddsrättelsen 2026-09-07 inte som personbunden spärr; behörigt arkiv och bestånd för just detta dödsbo är inte fastställt.\n- Undersökt omfång och utfall: `EJ UNDERSÖKT`. Ingen personbunden katalogträff och inget nollresultat finns.\n- Bedömning och återaktivering: en avgränsad katalogkontroll är genomförbar nu och avgör om vägen är öppen, spärrad eller obefintlig. Först därefter kan EKO bedömas som avgränsat.\n- Wotan: EJ BESLUTAT UTFÖRANDE — katalogkontroll, ingen beställning.\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen är lästa, inklusive historiken och sena rättelser. 28/5 ersätter faderns äldre 25/5 och 19/5; hänvisningen är 93.3, inte 263.3. Degerfors är födelseförsamling och Rosinedahl belagt först 1900. Kyrkobokföring 1917–1924 är inte liktydig med fysisk vistelse under Luleåstudierna. Norsjö/Bastuträsk 1924–1930 och Umeå 1950–1963 saknar lästa hushållsrader. Dödsförsamlingens två former hålls isär. Äldre biografisk uppgift om bestämd bouppteckningsjurisdiktion kvalificeras av profilens aktuella KP-06: behörigt arkiv är ännu inte fastställt. Faddrarnas åtta textposter omfattar dessutom två uttryckligen omnämnda men namnlösa hustrur; inget säkert totalantal åtta personer härleds. Aktens uppgift om 17 dagar mellan födelse och dop används inte; de uttryckliga datumen bevaras. Historiska bedömningar ger inga nya aktuella fakta.",
+      "origins": [
+        {
+          "unit": "5f0d64be7d5fd2fefe65a6d821f29b95073a14c583c414b6a95f75b3aca9d877",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-23272b54cf084172527c7993",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "PATH-P-0002-KP-05",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0002",
+        "criteria": "legacy_source_path",
+        "outcome": "EJ UNDERSÖKT.",
+        "body": "T-0675 aktuell egenfältsprecisering: Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n### KP-05: Dödsbo 1997 och faddernätverket i Ultervattnet 1907\n\n- Frågor/teman: Q-02, Q-03, EKO, REL.\n- Källklass: K-04, K-01.\n- Tid/plats och arkivbildare: bouppteckning efter Ebba Alfrida Zingmark 1997\n  hos den tingsrätt eller myndighet som var behörig där hon var folkbokförd\n  vid döden; Bygdeå kyrkoarkiv A II a för Ultervattnet omkring 1900–1910.\n- Förväntad information: dödsboet ger arvingar, hemvist, tillgångar och\n  bekräftar dödsdatum; Ultervattnets hushållsbok ger faddrarnas identitet och\n  eventuellt släktskap till modern.\n- Ingång och söknycklar: dödsdag 1997-02-12; `Jak. Burman` i Ultervattnet;\n  moderns föräldrar Jakob Andersson och Maria Christina Hansdotter. Källa:\n  [C-0879](../citations/C-0879-ebba-alfrida-zingmark-grav-burtrask-1997.md),\n  [C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md).\n- Beroenden: dödsbodelen är beroende av KP-02 — utan hemvist vid döden kan\n  behörigt arkiv inte pekas ut. Fadderdelen har ingen beroende och kan göras\n  direkt. C-0924:s generella mening om Skatteverket är **inte** ett\n  personbundet åtkomsthinder för henne och får inte användas som spärr; jämför\n  räckviddsrättelsen i T-0123 för P-0003.\n- Föregående källvägar: KP-02\n- Leverantörer och åtkomst: Riksarkivet för Bygdeåvolymen; behörigt arkiv för\n  dödsboet är inte fastställt. EJ KONTROLLERAD för båda delarna.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: fadderdelen är billig och kan tas i en liten\n  avgränsad passage; dödsbodelen väntar på KP-02. Ingen beställning är\n  beslutad och ingen ska göras utan ägarens uttryckliga besked.\n- Wotan: EJ BESLUTAT UTFÖRANDE.\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen inklusive historik och rättelser är lästa. Andersson är egen belagd namnform, Zingmark belagt i efterhandskällor utan säker startdag. Födelseförsamling Bygdeå skiljs från föräldrahemmet Jomark. Föräldrarnas vigsel är rättad till 1904-05-03; den äldre 1904-03-05 används inte. Faderns Hem.äg. är senare rättelse av den äldre avskriftens arb. hem.äg. Volymstart 1918 får inte flyttas till 1917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på hennes Robertsforsrad är läsosäker, kyrkliga betyg är inte skolbetyg, och årtalskolumnernas rubriker är inte säkrade. Fyra hushåll utan syskon bevisar inte att inget ytterligare barn föddes. Gravsättning långt efter döden görs inte till fastställd kremering.",
+      "origins": [
+        {
+          "unit": "eba85db7dd73a28fb37a7d8cdb547c25823bc6c7bef4b660f6ccaabf6a933ed4",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "READ-2224e74763b01fb32861edb9",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "R-e7d485f210b9d3a322c3b56f",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nTidigare läsgräns ordagrant bevarad:\nC-0878: Tillägget rättar Burträsk från enbart tjänst 1930–1932 till kyrkobokföring 1930–1950. Titeln bevisar inte ett obrutet yrkesförlopp.\nSamma grav och andra gravsatta återkommer i C-0879; inga oberoende upprepade dödsbelägg för dessa. C-0889 rättar den snäva Burträskperioden."
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nTitel och hemförsamling återger gravregistret; Umeå stadsförsamling skiljer sig från sekundärträdets landsförsamling. Delad grav namnger ingen släktrelation.",
+      "origins": [
+        {
+          "unit": "0d8e52d58595e89792ff43ac88c7ca04e9484b33e2a1094a22398efa7943edb3",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "55bdd4504d459636c87ca9152660416e0a17c0ed1211eeb3e4e2883682a4e872",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "f3f71c8de6cd399da44bdf3118f1951f1f88b36a68a48af1e1ebbc15c27c8e2b",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-e7d485f210b9d3a322c3b56f",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Avser denna version av den återbrukade källposten."
+        },
+        {
+          "object": "TR-23272b54cf084172527c7993",
+          "version": 2,
+          "role": "supports",
+          "note": "Egen registerpost, låst fullHTMLutvinning."
+        }
+      ]
+    },
+    {
+      "id": "READ-381a69010de1889800f70489",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "R-0d13f1e0e6bc75acbf8426e2",
+        "criteria": "legacy_record_boundary",
+        "outcome": "record_located",
+        "body": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nTidigare läsgräns ordagrant bevarad:\nC-0879: Dödsdatum och gravsättningsdatum hålls åtskilda. Hemvist vid döden förblir okänd.\nSamma gravplats och medgravsatta som C-0878, inte en andra oberoende röst för deras datum."
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "T-0675 avgränsad prövning av två bevarade Gravar.se-HTML: huvudkort och samtliga tre medgravsattakort är utvunna med filhash. Samma gravBT08 13 visar administrativ medgravsättning, inte släktskap eller gravvalets orsak. Kyrkogården är gravplats, inte dödsort. De båda sidorna återger samma register och är inte oberoende datumkällor. Ingen ny fjärrkontroll, personidentitet eller persongrind. Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nFöregående förbehåll ordagrant bevarat som historik:\nIngen egen titel eller hemförsamling anges. Orsaken till intervallet mellan död och gravsättning är okänd; urnsättning är endast en möjlig förklaring.",
+      "origins": [
+        {
+          "unit": "55c0a01062514b0bacb5fb2532486eed437e91c743c109df0eed46f8f421e2b5",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit": "95510087c2014eba616a56df2506b33bb6ace41d87526e5f7df7dd8ae6e8dec3",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-0d13f1e0e6bc75acbf8426e2",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Avser denna version av den återbrukade källposten."
+        },
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Egen registerpost, låst fullHTMLutvinning."
+        }
+      ]
+    },
+    {
+      "id": "RESEARCH-P-0001-9d76f0343410",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0001",
+        "criteria": "legacy_profile_section/Identitetsbedömning",
+        "outcome": "recorded",
+        "body": "T-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n## Identitetsbedömning\n\nOskar Alfred föddes 1897-05-22 i Degerfors som son till arbetaren Johan Oskar\nZingmark, född `61 ²⁸/₅`, och hustrun Ida Sofia Andersdotter, född\n`67 ¹⁵/₁₂` ([C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md)).\nFaderns dag lästes ursprungligen 25/5 och i en mellanrättelse 19/5; båda är\nupphävda av omläsningen i\n[C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md)\noch av faderns egen födelsenotis\n[C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md).\nSamma pojke står som son i samma föräldrapars hushåll i Rosinedahl 1900 och\n1900–1909 med samma exakta födelsedatum\n([C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)),\noch 1910–1917 på folio 1064 med värnpliktsnummer 174, årsklass 1917\n([C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md)).\n\nKedjan därefter är oberoende bunden i tre led. Umeå landsförsamlings\nförsamlingsbok för samma värnpliktsnummer `174 ⁷⁰/₁₇` vidare på uppslag 2284\noch kallar honom seminarieelev\n([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md)),\nmed en reciprok egen inflyttningspost nr 211 i B I/11\n([C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md)).\nLuleå folkskoleseminariums examenslängd 1923 skriver `Zingmark, Oskar Alfred`\nmed `1897 ²²/₅` och `Degerfors`, vilket binder utbildningen till exakt denna\nperson ([C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md)).\nBurträsks församlingsbok fol 1006 upprepar `97 ²²/₅ Degerfors` och samma\nvärnpliktsnummer, och vigselboken 1932 hänvisar till samma sida 1006\n([C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md),\n[C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md)). Sammanföringen vilar\nalltså på exakt datum, födelseförsamling, värnpliktsnummer, yrke och\nsidhänvisning, inte på namnlikhet.\n\nGeni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) anger samma\nföräldrar, hustru, syskon och barn och tillförde död 1963-07-15 som `LEAD`.\nGravregistret bekräftar dagen men skriver Umeå **stads**församling\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md));\nkonflikten bevaras och avgörs av dödboken. Att föräldragården Ytterhiske N:o 2\nterritoriellt fördes över till Umeå stad 1925-01-01 gör stadsformen rimligare\nmen avgör den inte\n([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md),\n[C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)).\nBarnen P-0006 och P-0039–P-0041 är `OWNER_CONFIRMED`\n([PCD-2026-09-03-003](../../PROJECT-CONTROL.md#pcd-2026-09-03-003),\n[PCD-2026-09-03-004](../../PROJECT-CONTROL.md#pcd-2026-09-03-004)).\n\nIngen konkurrerande identitet för Oskar Alfred är känd. Nikanor och Olof\nKonrad Zingmark i samma by är egna personer med egna födelseår och hushåll\n([C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)).\nÖregrund som vigselort var en felläsning som prövats och avvisats\n([C-0045](../citations/C-0045-oregrund-negativ-kontroll-1932.md)). Den enda\nöppna identitetsfrågan i hushållet gäller P-0529 Hildur Aleksandra\nZingmark, som står `d.` på samma uppslag 1917–1918 men är född 1888-03-18,\nsex månader före Livia Sofia; hon hålls separat och propageras inte\n(C-0907). Identiteten för P-0001 är prövad, och antavlan får passera\npositionen.\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.",
+      "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen är lästa, inklusive historiken och sena rättelser. 28/5 ersätter faderns äldre 25/5 och 19/5; hänvisningen är 93.3, inte 263.3. Degerfors är födelseförsamling och Rosinedahl belagt först 1900. Kyrkobokföring 1917–1924 är inte liktydig med fysisk vistelse under Luleåstudierna. Norsjö/Bastuträsk 1924–1930 och Umeå 1950–1963 saknar lästa hushållsrader. Dödsförsamlingens två former hålls isär. Äldre biografisk uppgift om bestämd bouppteckningsjurisdiktion kvalificeras av profilens aktuella KP-06: behörigt arkiv är ännu inte fastställt. Faddrarnas åtta textposter omfattar dessutom två uttryckligen omnämnda men namnlösa hustrur; inget säkert totalantal åtta personer härleds. Aktens uppgift om 17 dagar mellan födelse och dop används inte; de uttryckliga datumen bevaras. Historiska bedömningar ger inga nya aktuella fakta.",
+      "origins": [
+        {
+          "unit": "e1b03fc44c65fb7dbb1d875d62277cdad9455badf981de468b6cbb09bfaec335",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-23272b54cf084172527c7993",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "RESEARCH-P-0002-9d76f0343410",
+      "kind": "assessment",
+      "expectedVersion": 2,
+      "data": {
+        "subject_id": "P-0002",
+        "criteria": "legacy_profile_section/Identitetsbedömning",
+        "outcome": "recorded",
+        "body": "T-0675 aktuell egenfältsprecisering: Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\nT-0675 aktuell C0889precisering: kol13 är Bevistat husförhör år, inte en okänd årtalskolumn eller nattvardsdatum. På1006 tillhör32,35/36,41 Ebba, men41,42 sonens följande rad. På275 tillhör43[?] Ebba, medan43,44[?] står på sonens följande rad och44[?] på nästa barnrad. Äldre motsvarande formuleringar nedan är historik. Betygs-/nattvardssymboler hålls grafiska, inga tros- eller närvarohändelser härleds. Övriga källor, profilgrindar och öppna livsluckor ändras inte.\n\n## Identitetsbedömning\n\nEbba Alfrida föddes 1907-08-18 i Bygdeå med föräldrarna Anders Alfred\nAndersson och Anna Fredrika Jakobsdotter och döptes 1907-08-27\n([C-0043](../citations/C-0043-ebba-alfrida-fodelse-1907.md)). Födelsebokens\nsidhänvisning 853 leder till samma hushåll i Jomark\n([C-0044](../citations/C-0044-ebba-barndom-jomark-sida-853.md)), som\nfortsätter på Robertsfors A II/2 a s. 1130 för 1910–1917 med exakt\nfödelsedatum och reciprok sidhänvisning\n([C-0413](../citations/C-0413-robertsfors-AII2a-jomark-sida-1130.md)) och\ndärefter på A II/3 c fol 658 till utflyttningen 1928-12-15\n([C-0891](../citations/C-0891-andersson-jomark-robertsfors-1918-1941.md)).\nFlyttningsbetyget nr 57/1928 möts av Östhammars inflyttningsbok nr 64/1928\noch församlingsbokens uppslag 19, som upprepar 1907-08-18 och Bygdeå\n([C-0892](../citations/C-0892-ebba-alfrida-osthammar-1928-1930.md)).\nUtflyttningen därifrån möts i sin tur av Burträsks fol 959 med noteringen\n`Östhammar 30 ²²/₁₀` ([C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md)).\nFolkräkningen 1930 och vigselboken 1932 upprepar datum, födelseförsamling och\nyrke ([C-0041](../citations/C-0041-ebba-alfrida-folkrakning-1930.md),\n[C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md)).\n\nKedjan är alltså sluten dokument för dokument från födelsen till 1950, med\nömsesidiga hänvisningar i varje skarv och inte enbart namnlikhet. Det\navgörande är att exakt födelsedag, födelseförsamling och yrke följer med\ngenom varje skarv, och att varje avgång har en motsvarande ankomst.\n\nKällberoenden och begränsningar: Robertsfors- och Burträskböckerna är\nadministrativt sammanlänkade och kopierar uppgifter framåt, så de är inte\nsju oberoende röster om födelsedagen; det oberoende belägget är födelseboken\n1907. Gravregistret 1997 ([C-0879](../citations/C-0879-ebba-alfrida-zingmark-grav-burtrask-1997.md))\när en administrativ efterhandskälla som binds till samma person genom exakt\nfödelsedatum, men det anger varken hemförsamling eller dödsort, och dödboken\när inte läst. Geni ([C-0001](../citations/C-0001-geni-utdrag.md)) ger samma\nmake och barn samt året 1997 som `LEAD`; barnrelationerna är\n`OWNER_CONFIRMED` (PCD-2026-09-03-003/004,\n[C-0818](../citations/C-0818-agarens-bekraftelse-zingmark-syskon.md)) och\nbekräftas i original som fyra barnrader på fol 1006 och fol 275.\n\nIngen konkurrerande identitet är känd, och ingen har behövt hållas isär.\nKvar att pröva på identitetsnivån: ingenting materiellt. Kvar som\nläsosäkerheter: dopförrättarens och förste fadderns efternamn i C-0043,\nkolumn 6 på hennes rad i C-0891 samt årtalskolumnernas innebörd i C-0889.\nIdentiteten är prövad och antavlan får passera positionen.\n\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nFöregående förbehåll:\nHela akten och profilen inklusive historik och rättelser är lästa. Andersson är egen belagd namnform, Zingmark belagt i efterhandskällor utan säker startdag. Födelseförsamling Bygdeå skiljs från föräldrahemmet Jomark. Föräldrarnas vigsel är rättad till 1904-05-03; den äldre 1904-03-05 används inte. Faderns Hem.äg. är senare rättelse av den äldre avskriftens arb. hem.äg. Volymstart 1918 får inte flyttas till 1917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på hennes Robertsforsrad är läsosäker, kyrkliga betyg är inte skolbetyg, och årtalskolumnernas rubriker är inte säkrade. Fyra hushåll utan syskon bevisar inte att inget ytterligare barn föddes. Gravsättning långt efter döden görs inte till fastställd kremering.\nT-0675 aktuell precisering: T-0675 aktuell C0889precisering: kol13 är Bevistat husförhör år, inte en okänd årtalskolumn eller nattvardsdatum. På1006 tillhör32,35/36,41 Ebba, men41,42 sonens följande rad. På275 tillhör43[?] Ebba, medan43,44[?] står på sonens följande rad och44[?] på nästa barnrad. Äldre motsvarande formuleringar nedan är historik. Betygs-/nattvardssymboler hålls grafiska, inga tros- eller närvarohändelser härleds. Övriga källor, profilgrindar och öppna livsluckor ändras inte.",
+      "origins": [
+        {
+          "unit": "fe3c9352e7b6ee46149673c2abbc654b66b094931c90acea3deb01f6a5a55d08",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-T0675-38",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad aktuell rad-/rubrikprövning."
+        },
+        {
+          "object": "TR-T0675-45",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad aktuell rad-/rubrikprövning."
+        },
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast gravpostens eget UppsalaDk-fält; nyare hushållsprövning bevarad."
+        }
+      ]
+    },
+    {
+      "id": "THEME-P-0002-HAL",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "data": {
+        "subject_id": "P-0002",
+        "criteria": "legacy_theme/HAL",
+        "outcome": "ÖPPET",
+        "body": "T-0675 aktuell egenfältsprecisering: Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n| HAL | ÖPPET | Dödsdag 1997-02-12 och gravsättning 1997-07-02 är belagda i gravregistret, som dock varken anger hemförsamling, dödsort eller orsak. Enda hälsospår under livet är vaccinationskolumnens `v` i fyra församlingsböcker, med uttrycklig läsosäkerhet i C-0891. Dödbok och dödsbevis 1997 ligger utanför Riksarkivets nätåtkomliga material och är inte prövade för hennes räkning; den vägen är namngiven men inte utredd. | [C-0879](../citations/C-0879-ebba-alfrida-zingmark-grav-burtrask-1997.md), [C-0891](../citations/C-0891-andersson-jomark-robertsfors-1918-1941.md), [C-0892](../citations/C-0892-ebba-alfrida-osthammar-1928-1930.md), [C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md); KP-02 |\n"
+      },
+      "disposition": "recorded",
+      "evidenceStatus": null,
+      "rationale": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.",
+      "caveat": "Ebbas huvudkort har den tidigare utelämnade råtexten Uppsala Dk i en omärkt span. Den förs som avgränsad registernyckel, utan expansion till säker hemvist, hemförsamling vid döden eller fysisk dödsort. Ingen egen titel är synlig på huvudkortet. Egna datum1907-08-18/1997-02-12/gravsatt1997-07-02 består; gravsättningsintervallets orsak fastställs inte.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen inklusive historik och rättelser är lästa. Andersson är egen belagd namnform, Zingmark belagt i efterhandskällor utan säker startdag. Födelseförsamling Bygdeå skiljs från föräldrahemmet Jomark. Föräldrarnas vigsel är rättad till 1904-05-03; den äldre 1904-03-05 används inte. Faderns Hem.äg. är senare rättelse av den äldre avskriftens arb. hem.äg. Volymstart 1918 får inte flyttas till 1917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på hennes Robertsforsrad är läsosäker, kyrkliga betyg är inte skolbetyg, och årtalskolumnernas rubriker är inte säkrade. Fyra hushåll utan syskon bevisar inte att inget ytterligare barn föddes. Gravsättning långt efter döden görs inte till fastställd kremering.",
+      "origins": [
+        {
+          "unit": "e0cab5f4cea3310f4867d5ad8e295b47f2be6356c75e02b28160dfb7ef27172e",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "TR-5c80aa9cb72022f9f43a2801",
+          "version": 2,
+          "role": "supports",
+          "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+        }
+      ]
+    }
+  ]
+}

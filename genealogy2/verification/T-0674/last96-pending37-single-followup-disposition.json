@@ -1,0 +1,53 @@
+{
+  "task": "T-0674",
+  "status": "proposed_not_applied",
+  "request": {
+    "id": "c4cc4d3093bb6e5c82e481e37d7a0fd2ec1ac22162bb43d7b029e11b6b2026e3",
+    "operation_id": "T-0674/last96-pending37-v1",
+    "affected_revision_id": "F-P-0064-family_context-older-Johanna-Charlotta@1",
+    "changed_revision_id": "O-P-0064-Johanna-Charlotta-fields@2",
+    "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+  },
+  "target_head": {
+    "id": "F-P-0064-family_context-older-Johanna-Charlotta@1",
+    "object_id": "F-P-0064-family_context-older-Johanna-Charlotta",
+    "version": 1,
+    "operation_id": "T-0653/persons-02-v1",
+    "disposition": "accepted",
+    "evidence_status": "TRANSCRIBED",
+    "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+    "caveat": "Systern är skild från Charlotta född 1870. Familjesambandet är en sammanställning, inte P-0064:s närvaro i den äldre posten. Föräldraaktens aktuella rad identifierar henne som P-0238; den äldre avsaknaden av länk är ingen avsaknad av personkärna.",
+    "previous_id": null,
+    "kind": "fact"
+  },
+  "target_data": {
+    "revision_id": "F-P-0064-family_context-older-Johanna-Charlotta@1",
+    "subject_id": "P-0064",
+    "property": "family_context",
+    "value_type": "structured",
+    "value_json": "{\"mention\":\"M-P-0064-Johanna-Charlotta\",\"name\":\"Johanna Charlotta\",\"person\":\"P-0238\",\"place\":\"Degerfors\",\"relation\":\"äldre syster\",\"reported_birth_year\":1854,\"reported_death_year\":1857}"
+  },
+  "basis_head": {
+    "id": "O-P-0064-Johanna-Charlotta-fields@2",
+    "object_id": "O-P-0064-Johanna-Charlotta-fields",
+    "version": 2,
+    "operation_id": "T-0674/last96-pending37-v1",
+    "disposition": "recorded",
+    "evidence_status": "TRANSCRIBED",
+    "rationale": "Observationens 4/7, födelseår 1854 och död 31/7 1857 behålls. Reservationen skiljer nu äldre 2/7 i C0207 från den första T-0674-läsningens 4/7, eftersom 2/7 inte är den enda aktuella Degerforsläsningen.",
+    "caveat": "Den egna råuppgiften 4/7 1854 behålls. C0207:s äldre avskrifter gav 2/7, medan den första T-0674-läsningen gav 4/7 på både sida 396 och sida 327. Avskriftsjämförelsen är olöst och fastställer varken ett nytt säkert födelsedatum eller en ny person. Kvarstående råtecken ligger inom T-0766; ingen ny bildläsning har gjorts här.",
+    "previous_id": "O-P-0064-Johanna-Charlotta-fields@1",
+    "kind": "observation"
+  },
+  "basis_data": {
+    "revision_id": "O-P-0064-Johanna-Charlotta-fields@2",
+    "record_id": "R-9e0093483311c2103e42886c",
+    "mention_id": "M-P-0064-Johanna-Charlotta",
+    "property": "reported_birth_and_death",
+    "value_literal": "1854 4/7; död 1857 31/7; Degerfors",
+    "value_json": "{\"birth_day_month_literal\":\"4/7\",\"birth_parish\":\"Degerfors\",\"birth_year\":1854,\"death\":\"1857-07-31\"}"
+  },
+  "decision": "retain_and_resolve",
+  "rationale": "Faktumet anger Johanna Charlotta som Charlottas äldre syster P-0238, född 1854 och död 1857, med Degerfors som platsuppgift. Det väljer ingen födelsedag i juli. O-P-0064-Johanna-Charlotta-fields@2 behåller observationens egna 4/7 1854 och 31/7 1857 men skiljer nu äldre 2/7 i C0207 från den första T-0674-läsningens 4/7. Den olösta dagjämförelsen ändrar varken faktumets årtal, systeridentitet eller platsuppgift. Dess befintliga reservation skiljer dessutom systern från Charlotta född 1870 och gör inte Charlotta närvarande i den äldre posten. Faktumet behålls oförändrat efter denna individuella prövning.",
+  "scope": "Endast den nya följden till F-P-0064-family_context-older-Johanna-Charlotta från O-P-0064-Johanna-Charlotta-fields@2. Ingen bildläsning eller apply."
+}

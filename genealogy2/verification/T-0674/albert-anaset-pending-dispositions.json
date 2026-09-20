@@ -1,0 +1,113 @@
+{
+  "task": "T-0674",
+  "scope": [
+    "T-0674/albert-charlotta-followup-v1",
+    "T-0674/anaset-impact-completion-v1"
+  ],
+  "counts": {
+    "albert_charlotta_requests": 9,
+    "anaset_requests": 0,
+    "reviewed": 9,
+    "retain_resolve": 9,
+    "revisions": 0
+  },
+  "basis_snapshot": "albert-anaset-pending-current.json",
+  "basis_snapshot_sha256": "739a7e504641ef3391c0c8feddd0c742670262a324e9b6f414ccf0b2b788bbca",
+  "application_evidence": [
+    "albert-charlotta-apply-result.json",
+    "anaset-impact-apply-result.json"
+  ],
+  "exclusions": "Inga requests från last96 eller andra operationer har tagits med. T0766:s råfältsreservationer och övriga fortsättningsägare ändras inte.",
+  "dispositions": [
+    {
+      "request": "22468b805092d5247e6b6d840975d8e9bff44f3ef57380a4915162428c4707a8",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "E-birth-P-0063",
+      "currentVersion": 1,
+      "changed_basis": "O-P-0063-Gunnismark-row8@2",
+      "fields_checked": "event_type, date_json, place_role, caveat",
+      "decision": "retain_resolve",
+      "rationale": "Födelsehändelsen avser 1865-12-04. O-row8@1 och @2 har samma birth_date; ändringen gäller endast namn- och yrkesläsning. Händelsens Sävar/Östanträsk-avgränsning ändras inte. Förbehållet om oläst originalpost avser födelseposten, inte frånvaro av husförhörsoriginal; kopiekedjan görs inte oberoende."
+    },
+    {
+      "request": "4b1b8f7bea69c645cdc43269372ad9ae7a9b01cd82bbb9a1f922f341c9895db7",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "E-registered_departure-P-0063-Alno1889",
+      "currentVersion": 1,
+      "changed_basis": "O-P-0063-Gunnismark-row8@2",
+      "fields_checked": "date_json, place_role, caveat",
+      "decision": "retain_resolve",
+      "rationale": "O-row8@2 behåller registered_departure 1889-05-21 och destination Alnö. Aktuell händelse har samma datum/ort och uttryckliga gränser: registrering, ingen reciprok ankomst och ingen slutsats om gemensam resa eller senare hushåll. Charlottas osäkra dag är inte Alberts dag och ändrar inte detta fält."
+    },
+    {
+      "request": "f18aa7b9282dd0730442a270b374201d87bca4f08d980db591d762b33865defd",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "EP-E-birth-P-0063-P-0063-principal",
+      "currentVersion": 1,
+      "changed_basis": "O-P-0063-Gunnismark-row8@2",
+      "fields_checked": "event_id, person_id, role, caveat",
+      "decision": "retain_resolve",
+      "rationale": "Deltagandet knyter P-0063 som principal till hans födelsehändelse, utan eget namn-/yrkesfält. Den bibehållna födelsedagen påverkas inte av de reserverade tilläggen Johansson/Arb. Radens Albert och personkopplingen har inte ersatts av en annan identitet; födelseoriginalets tidigare begränsning består."
+    },
+    {
+      "request": "f694555402b7b9d51488e2b883a1883e78d3c08afcdc6a6c96f311b003f8b10d",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "EP-E-registered_departure-P-0063-Alno1889-P-0063-principal",
+      "currentVersion": 1,
+      "changed_basis": "O-P-0063-Gunnismark-row8@2",
+      "fields_checked": "event_id, person_id, role, caveat",
+      "decision": "retain_resolve",
+      "rationale": "Deltagandet är P-0063 som principal i hans registrerade Alnöavgång. O-row8@2 behåller denna avgång och dess datum. Deltagandet påstår varken nytt efternamn/yrke eller fysisk resa; dess befintliga förbehåll om moderns hushåll och resa kvarstår."
+    },
+    {
+      "request": "ad042ff3a81e42ac07a20759d256340c89a631247e08749b0e32669cef4a9fef",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "F-P-0063-age_at_registered_departure-1889",
+      "currentVersion": 1,
+      "changed_basis": "O-P-0063-Gunnismark-row8@2",
+      "fields_checked": "property, value_json, evidence_status, caveat",
+      "decision": "retain_resolve",
+      "rationale": "Värdet 23 år är uttryckligen beräknat, inte avläst. Från oförändrad födelse 1865-12-04 till oförändrad registrerad avgång 1889-05-21 är fylld ålder 23. Namn- och yrkesreservationerna ändrar ingen beräkningspremiss."
+    },
+    {
+      "request": "6aed5b00d73e4d77683fa7e1c56d98467e507cb68e927346d20a8b261156cf49",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "F-P-0063-civil_status_assessment-Savar1889",
+      "currentVersion": 1,
+      "changed_basis": "O-P-0063-Gunnismark-row8@2",
+      "fields_checked": "value_json.basis, family, limit, caveat",
+      "decision": "retain_resolve",
+      "rationale": "Aktuell text gäller tomma äktenskaps- och änkedatumfält samt ingen egen familj känd till 1889; den säger uttryckligen att frånvaron är oprövad och ger ingen livslång ogiftes-/barnlöshetsslutsats. O-row8@2 behåller just äktenskapsdatum/änkedatum i empty_columns; endast yrke togs bort. Uppgiften om fyra bokled är tidigare bedömning och utökas inte genom denna omprövning."
+    },
+    {
+      "request": "615bad201a76039d11a4b2f332510ea7b4b62284280033c5dacbacc7f09516e7",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "F-P-0063-residence-book_anchors",
+      "currentVersion": 1,
+      "changed_basis": "O-P-0063-Gunnismark-row8@2",
+      "fields_checked": "value_json.places, destination, after_departure, caveat",
+      "decision": "retain_resolve",
+      "rationale": "Aktuella bokankare Östanträsk, Brännmark och Gunnismark till registrerad avgång 1889-05-21 innehåller inget yrkes- eller efternamnspåstående. O-row8@2 behåller avgången till Alnö; inflyttning dit förblir obelagd och livet därefter okänt. Nuvarande förbehåll utesluter oavbruten fysisk närvaro och automatisk placering i moderns senare hushåll."
+    },
+    {
+      "request": "e18f4d7252226c8efe9d702119adcdc1e963525a6ae259953e6686f374b86730",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "F-P-0063-vaccination-undated",
+      "currentVersion": 1,
+      "changed_basis": "O-P-0063-Gunnismark-row8@2",
+      "fields_checked": "value_json, caveat",
+      "decision": "retain_resolve",
+      "rationale": "O-row8@1 och @2 har identiskt vaccination v. Målfältet återger v utan daterad vaccination och bevarar tidigare dittouppgifter. Ingen del av namn-/yrkesändringen berör vaccinationskolumnen."
+    },
+    {
+      "request": "eacec2a2221efaddca08cbc3e1b8367339c4fa5c2e952f12d3b8a10cdd6686b4",
+      "operation": "T-0674/albert-charlotta-followup-v1",
+      "object": "EP-E-registered_departure-P-0064-1889-Sundsvall-P-0064-migrant",
+      "currentVersion": 1,
+      "changed_basis": "E-registered_departure-P-0064-1889-Sundsvall@2",
+      "fields_checked": "event_id, person_id, role, caveat",
+      "decision": "retain_resolve",
+      "rationale": "Deltagandet knyter P-0064 som migrant till den registrerade avgången, utan eget datumfält eller påstående om dagen före modern/Albert. Händelse@2 reserverar nu dag 20/5 kontra 21[?]/5 inom maj 1889. Deltagandets redan befintliga förbehåll om cellordning, eventuell Skön-flytt och faktisk resa är förenligt med denna rättelse; rollen och personkopplingen påverkas inte. Historisk evidens till @1 bevaras, och denna resolve dokumenterar uttrycklig sakprövning mot @2."
+    }
+  ]
+}

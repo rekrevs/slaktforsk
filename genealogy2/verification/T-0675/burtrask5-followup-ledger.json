@@ -1,0 +1,214 @@
+{
+  "task": "T-0675",
+  "pending_count": 7,
+  "no_apply": true,
+  "ledger": [
+    {
+      "request": "3938b9e7e1468645081a23c016e4bb7112f40daf25208a166534b7d24c157d50",
+      "operation": "T-0675/burtrask5-full-two-reader-v1",
+      "affected": "E-death-P-0048@1",
+      "changed": "R-cdf6dfbaf37df0385ca2016f@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "E-death-P-0048@1",
+        "event_type": "death",
+        "date_json": "{\"literal\":\"1948-12-21\",\"precision\":\"exact\",\"value\":\"1948-12-21\"}",
+        "place_id": null,
+        "place_role": "place_of_event"
+      },
+      "currentCaveat": "Församlingsbok och gravregister; egen dödpost, dödsorsak och plats olästa.",
+      "evidence": [
+        {
+          "revision_id": "E-death-P-0048@1",
+          "basis_revision_id": "R-cdf6dfbaf37df0385ca2016f@1",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Eget date_json1948-12-21 och place_idnull prövat. R@2 ändrar säkerheten i vigsel-/småtals-/blånotfält, inte dödsåret48 eller månaden12; FIRST läser21 och SECOND föredrar21 med teckenreservation. Bäststödd dödcell21/12 kvarstår enligt jämförelsen, liksom separat gravregisterdatum. Det finns inget nytt motsatt dödsdatum som motiverar omdatering. Behåll eventet med befintlig gräns: egen dödpost/orsak/plats olästa. Ingen ny säker dödsplats."
+    },
+    {
+      "request": "ac488092d99d05c168e1c9adca82a28698acf9ba20f65999d370ba27a9e3133f",
+      "operation": "T-0675/burtrask5-full-two-reader-v1",
+      "affected": "EP-E-death-P-0048-P-0048-principal@1",
+      "changed": "R-cdf6dfbaf37df0385ca2016f@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-death-P-0048-P-0048-principal@1",
+        "event_id": "E-death-P-0048",
+        "person_id": "P-0048",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "currentCaveat": "Församlingsbok och gravregister; egen dödpost, dödsorsak och plats olästa.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-death-P-0048-P-0048-principal@1",
+          "basis_revision_id": "E-death-P-0048@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Aktuell deltagareP0048 och roleprincipal avser E-death-P0048@1. NamnetAndersAlfredAndersson är läst på rad22 som bär egen dödcell. Ingen ändring av subjekt eller deltagarroll följer av blåvigseln,653/853 eller makans blånot. Eventet bibehålls på sakliga grunder enligt separat review; ingen automatisk person-/grindhöjning."
+    },
+    {
+      "request": "013f00703d42b33924ca8ce66b41b886b868eba150d12265d37d9cd3b8d4dcdb",
+      "operation": "T-0675/burtrask5-full-two-reader-v1",
+      "affected": "F-P-0002-residence-parents-nearby@1",
+      "changed": "R-cdf6dfbaf37df0385ca2016f@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "F-P-0002-residence-parents-nearby@1",
+        "subject_id": "P-0002",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"ownDeparture\":\"1950-09-02\",\"ownFolio\":\"275, Gammelbyn 14\",\"parentsArrival\":\"1946-11-16\",\"parentsFolio\":\"5, avsöndringen Gammelbyn 14¹⁸\"}"
+      },
+      "currentCaveat": "Avsöndringen är formellt en avskild del. C-0970 kallar det samma fastighet; föräldrarna hade eget uppslag, inte hennes hushåll.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0002-residence-parents-nearby@1",
+          "basis_revision_id": "R-be79528ab3b3975b16bb514b@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0002-residence-parents-nearby@1",
+          "basis_revision_id": "R-cdf6dfbaf37df0385ca2016f@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        },
+        {
+          "revision_id": "F-P-0002-residence-parents-nearby@1",
+          "basis_revision_id": "R-f42593630a33262d1bd6854d@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "JSONfältenparentsArrival1946-11-16 ochparentsFolio5,avs.Gammelbyn14¹⁸ stöds av rader22–23/kol9–10 och hushållsrubrik. Den extraFöre4/11 ersätter inte den egna inflyttningsdagen. ownDeparture1950-09-02 ochownFolio275 kommer från andra angivna källposter och ändras inte av denna passage. Caveat håller föräldrarnas eget uppslag skilt från dotterns hushåll; inga nya äganderättsanspråk följer av rånoterna."
+    },
+    {
+      "request": "18c09b717f45df0ab13f18414dd746d0bff11acbb45ef8c65acfd9a96ffa50d6",
+      "operation": "T-0675/burtrask5-full-two-reader-v1",
+      "affected": "O-P-0001-C0970-inlaws@1",
+      "changed": "R-cdf6dfbaf37df0385ca2016f@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "O-P-0001-C0970-inlaws@1",
+        "record_id": "R-cdf6dfbaf37df0385ca2016f",
+        "mention_id": null,
+        "property": "household_person_fields",
+        "value_literal": "Anders Alfred och Anna Fredrika, från Robertsfors 1946-11-16; Anna död 1947-06-27, Anders död 1948-12-21",
+        "value_json": "{\"arrival\":\"1946-11-16\",\"deaths\":{\"P-0048\":\"1948-12-21\",\"P-0049\":\"1947-06-27\"},\"folio\":\"5\",\"from\":\"Robertsfors\",\"persons\":[\"P-0048\",\"P-0049\"],\"property\":\"avsöndringen Gammelbyn 14¹⁸\"}"
+      },
+      "currentCaveat": "Eget hushållsuppslag på samma fastighet. Varken ägare eller skäl till gravvalet följer av närheten.",
+      "evidence": [
+        {
+          "revision_id": "O-P-0001-C0970-inlaws@1",
+          "basis_revision_id": "R-cdf6dfbaf37df0385ca2016f@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Observationens namngivna två personer, Robertsfors16nov1946, folio5/14¹⁸ och död1947-06-27 respektive1948-12-21 är de rätta egna fälten. K04dag3/31,653/853 och den blå noten används inte i literal/JSON. Död21dec är bäststödd i låst jämförelse med SECONDreservation synlig iTR. Varken ägande eller gravvalets orsak tillförs."
+    },
+    {
+      "request": "0db83e00d7ab27224d8fc703839580b0b27539211d63096c042f6a845208d0c8",
+      "operation": "T-0675/burtrask5-full-two-reader-v1",
+      "affected": "O-P-0048-A-3629-separate_household_same_property@1",
+      "changed": "R-cdf6dfbaf37df0385ca2016f@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "O-P-0048-A-3629-separate_household_same_property@1",
+        "record_id": "R-cdf6dfbaf37df0385ca2016f",
+        "mention_id": null,
+        "property": "separate_household_same_property",
+        "value_literal": "Paret skrevs på avsöndringen Gammelbyn 14¹⁸, folio 5 i `A II a/4 a` — ett eget uppslag med samma fastighetsbeteckning som dotterns hushåll, inte en rad på svärsonens folio 275.",
+        "value_json": null
+      },
+      "currentCaveat": "Fastighetsbeteckningen är densamma som Zingmarks; hushållen fördes åtskilda.",
+      "evidence": [
+        {
+          "revision_id": "O-P-0048-A-3629-separate_household_same_property@1",
+          "basis_revision_id": "R-cdf6dfbaf37df0385ca2016f@1",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Sakpåståendet gäller eget folio5 och samma fastighetsbeteckning jämfört med dotterns folio275. Det nytillgängliga fotot visar det egna paret under avs.Gammelbyn14¹⁸. Uppgiften säger inte att paret ingår i svärsonens hushåll eller att äganderätten är bevisad. Osäkert personaktsnummer/vigsel/blånot är inte grund för fastighetsjämförelsen."
+    },
+    {
+      "request": "cdf74efaa93a2f910ea360342c979b133b989f7c5f09b7ef8ea9e3c7e58ca169",
+      "operation": "T-0675/burtrask5-full-two-reader-v1",
+      "affected": "O-P-0048-A-3631-death@1",
+      "changed": "R-cdf6dfbaf37df0385ca2016f@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "O-P-0048-A-3631-death@1",
+        "record_id": "R-cdf6dfbaf37df0385ca2016f",
+        "mention_id": null,
+        "property": "death",
+        "value_literal": "Hans död 1948-12-21 är förd i församlingsbokens dödskolumn på folio 5.",
+        "value_json": null
+      },
+      "currentCaveat": "Första originalbelägget för dödsdatumet; dödboken `F/5` slutar i april 1948 och `F/6` saknar bild ([C-0969](../citations/C-0969-anna-fredrika-dodbok-1947.md)).",
+      "evidence": [
+        {
+          "revision_id": "O-P-0048-A-3631-death@1",
+          "basis_revision_id": "R-cdf6dfbaf37df0385ca2016f@1",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Literal anger döddatum i församlingsbokens egen dödskolumn. FIRST48 21/12 och SECOND48 21?/12 ger bäststödd21dec med bevarad grafisk reservation, ingen ny rivaliserande döddag. Församlingsboksbelägget och gravregisterhistoriken behålls, medan caveat omF5/F6 och saknad egen dödpost/orsak/plats fortsatt gäller. Ingen råvigsel eller blånot används."
+    },
+    {
+      "request": "c907e42bb5cc5eac0e9ffdc6aa7340b9740b7b916e7bad5866b8f1fbafaf9fb0",
+      "operation": "T-0675/burtrask5-full-two-reader-v1",
+      "affected": "O-P-0048-A-3632-widower@1",
+      "changed": "R-cdf6dfbaf37df0385ca2016f@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "O-P-0048-A-3632-widower@1",
+        "record_id": "R-cdf6dfbaf37df0385ca2016f",
+        "mention_id": null,
+        "property": "widower",
+        "value_literal": "Han levde nästan arton månader som änkling på samma fastighetsbeteckning som dotterns hushåll efter hustruns död 1947-06-27, alltjämt skriven som hemmansägare.",
+        "value_json": null
+      },
+      "currentCaveat": "Änklingsdatumet står i egen kolumn på hans rad.",
+      "evidence": [
+        {
+          "revision_id": "O-P-0048-A-3632-widower@1",
+          "basis_revision_id": "R-cdf6dfbaf37df0385ca2016f@1",
+          "role": "supports",
+          "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Egen änklingskolumn8 på Andersrad22 läses47 27/6 och yrkeskolumn2Hem.äg; makans egen dödcell ger samma27juni. Nästanartonmånader är befintlig beräkning fram till bäststödda21dec1948, inte ett ordagrant källfält. De nya reservationerna gäller andra kolumner och ändrar varken änklingsstart eller yrkestitel. Fastighetsbeteckning bevaras utan nytt ägandepåstående."
+    }
+  ],
+  "followup_owners": [
+    {
+      "field": "Anna blånot, möjlig dödsboväg",
+      "task": "T-0207",
+      "task_status": "READY",
+      "scope": "Katalogrouting1947–1948 och högst en direkt namnregisterkontroll; äger möjlig dödsbopassage, inte säker blånotstolkning.",
+      "qualification": "Nya Pens./Pm./Bou./Bev.-alternativ och datumreservation ska tillgodoräknas. Använd dödsår/hemvist, inte säker3septnyckel. Ingen ny uppgift skapas här."
+    },
+    {
+      "field": "K04[3/31]/5, småtal653/853 och notens grafiska detaljer",
+      "task": null,
+      "scope": "Aktuell post36 färdigprövad över18kolumner iT0675; olöst rågrafik är dokumenterad metodgräns.",
+      "qualification": "T0205 kontrollerad: dess faktiska scopeC0049/C0044/C1045/C1044 omfattar inte ny Burträsk5omläsning eller egen vigselpost. T0205 ska inte automatiskt utvidgas. Övriga källors vigseldatum består; eventuell separat materiell vigseloriginalpassage kräver befintlig/ny uttrycklig avgränsning av root."
+    }
+  ],
+  "research_review": "De20 införda journal134revisionerna och current P0048/P0049 research har jämförts i föregående40objektledger; deras datum-/blånotkvalifikationer tillgodoräknas. Faktisk ny pending avser enbart ovan7, inga nya grindärenden. P0048 UNDERKÄND/AVVAKTAR ochP0049 GODKÄND/BÄRANDE är oförändrade."
+}

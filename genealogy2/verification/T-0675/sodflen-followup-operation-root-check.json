@@ -1,0 +1,52 @@
+{
+  "operation": "T-0675/Sodertalje-Flen-followup-v1",
+  "changes": 6,
+  "created": 0,
+  "errors": [],
+  "rows": [
+    {
+      "id": "O-P-0007-departure-struck",
+      "fields": [
+        "value_literal",
+        "value_json"
+      ],
+      "rationale": "Bilden visar horisontell strykning genom Majs namn, inte genom hela tabellraden. Utflyttningsdagen står separat som ditto till1943-11-24. Rätta hela raden/vid-datum till namnstrykning plus separat registreringsfält; exakt strykningsdag är inte belagd."
+    },
+    {
+      "id": "O-P-0007-flen-wife",
+      "fields": [
+        "value_literal",
+        "value_json"
+      ],
+      "rationale": "Namn, födelseuppgifter, h.-roll och tomt yrke består. Äldre value_literal v1938-05-15 sammanför tecken och giftdatum utan kolumnskilje. Särskriv vaccinations-/kopporfältets v och gemensamma giftdatumet38 15/5; ändra inte de redan korrekta normaliserade datumen."
+    },
+    {
+      "id": "F-P-0003-household_membership-Johansborg860",
+      "fields": [
+        "value_json"
+      ],
+      "rationale": "Eget poleraryrke, familj, adress och N.B.720 består. Äldre text överföring1940 kan uppfattas som ett läst årtal trots tom utflyttningsdatumcell; ersätt med överföring till efterföljande bok och explicit okänt år i denna cell."
+    },
+    {
+      "id": "F-P-0003-household_membership-Johansborg720",
+      "fields": [
+        "value_json"
+      ],
+      "rationale": "Hushåll, barnår och dopdatum består. Period1940–1943 preciseras som volymens start1940 fram till egenutflytt1943; det finns inget eget inflyttningsdatum på14–17. Lägg till period_basis utan att göra1940 till en ny flytthändelse."
+    },
+    {
+      "id": "F-P-0007-residence-johansborg1938",
+      "fields": [
+        "value_json"
+      ],
+      "rationale": "Majs egen860-rad21 har fol932 och1938 via ditto; adressen består. to_year1940 saknar egen utskriven överföringsårscell. Byt till uttrycklig bokperiodgräns1940 och okänt eget överföringsår, för att inte normalisera en odaterad hänvisning till flyttdatum."
+    },
+    {
+      "id": "F-P-0007-residence-johansborg1940",
+      "fields": [
+        "value_json"
+      ],
+      "rationale": "Majs egen720-rad15 har tomma inflyttningsfält och utflyttningsditto till1943-11-24. from_year1940 kommer från volymperioden, inte egen ankomstcell; byt till volume_start_year1940 och null registered_arrival_year. Adress, rad och slutdag består."
+    }
+  ]
+}

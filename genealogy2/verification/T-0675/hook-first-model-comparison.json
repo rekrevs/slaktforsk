@@ -1,0 +1,642 @@
+{
+  "task": "T-0675",
+  "stage": "POST_LOCK_MODEL_COMPARISON_PENDING_SECOND",
+  "created_utc": "2026-09-18T18:22:31.510080+00:00",
+  "first_file": "genealogy2/verification/T-0675/hook-first-initial.json",
+  "first_sha256": "4bda12ee80600881f7fcee6fd64f818eb36eebabca42bf182bad2f58195b5319",
+  "authority": "Endast jämförelse och följdförslag. Inga DB-/Wotanwrites. Ingen ändring av låst FIRST.",
+  "read_basis": [
+    "Fyra fulla record/current/origin-texter i start-records.json; aktuella TR/O från read-only SQLite; transitiva aktuella F; berörda P/current och specifika researchobjekt i start-persons.json.",
+    "Ingen T0110/T0673-audit återbrukad. Oberoende SECOND ännu inte läst av FIRST."
+  ],
+  "units": [
+    {
+      "record": "R-cf8b90afd03e96bea7d40104",
+      "confirmed": [
+        "post60/struket59;1903/Hudiksvall/s171;Maj13;AndersIvar(oäkta);levande mankön1;AnnaMatilda/piga;80 23/12;ogiftmarkering;341;Juli14;Inga faddrar;0.50."
+      ],
+      "first_differences": [
+        {
+          "field": "moderns efternamn",
+          "first": "Höök",
+          "current": "Hök",
+          "disposition": "läsarkonflikt; ändra inte aktuell råform utan teckenjämförelse/SECOND"
+        },
+        {
+          "field": "moders anteckningsdag",
+          "first": "23/8",
+          "current": "25/8",
+          "disposition": "avgörande läskonflikt; nuvarande25 får inte märkas nyverifierat av FIRST"
+        },
+        {
+          "field": "vittnen/förrättare/plats",
+          "first": "stora reservationer och andra namnfragment",
+          "current": "Aug. Emil Höks h:u; arbet. Anders Jakobssons h:u; Hudiksvall;K.A.Ehren[gren]",
+          "disposition": "SECOND måste bedöma hela egna fältet, inga nya mansvittnen/relationskanter från FIRST"
+        },
+        {
+          "field": "rubrik i FIRST",
+          "first": "annan trosbekännelse",
+          "current": "änka/frånskild enligt tryckt moderskolumn",
+          "disposition": "FIRSTs rubriketikett är inte säker och får inte föras in; tryckt kontroll behövs"
+        }
+      ],
+      "model_review": "TR och records reserverar flera svåra delar, medan O-P-0239-C0880-own samt O-P-0275-C0880-own ger exakt request_date25. Följder till datumhändelse och F-event_place-maternal-request1903 bör prövas efter SECOND. Övriga stora datum/relationer stöds; ingen far anges och OWNER_CONFIRMED-fadersgrund påverkas inte.",
+      "dependent_people": [
+        "P-0239",
+        "P-0275"
+      ],
+      "disposition": "delvis bekräftad; svår smånot/vittnesfält reserverade"
+    },
+    {
+      "record": "R-9cd7dffe239c5989bb3a93ee",
+      "confirmed": [
+        "1931/Hudiksvall/s25;post127;båda27/7;Höök Anders I[?]/missionär;Fridhem;en man;kvinnofält tomt;ÖstTurkestan/blåunderstrykning."
+      ],
+      "first_differences": [
+        {
+          "field": "uppslag",
+          "first": "393[?]",
+          "current": "593",
+          "disposition": "SECOND/teckenjämförelse behövs;FIRST osäker är inte rättelse"
+        },
+        {
+          "field": "destination",
+          "first": "Neriga[?]",
+          "current": "Kashgar",
+          "disposition": "FIRST fragment osäkert, ingen ortsrättelse"
+        },
+        {
+          "field": "värnpliktsnot",
+          "first": "188 62/27[?] Q[?]",
+          "current": "488 62/23 R.",
+          "disposition": "aktuella O/F redan rättade från äldre27; bevara historisk rättelse, kontrollera SECOND"
+        },
+        {
+          "field": "födelsedatum",
+          "first": "03[?]13[?]/5",
+          "current": "1903-05-13",
+          "disposition": "förenliga men FIRST reserverar råtecken"
+        }
+      ],
+      "model_review": "TRs historiska text har62/27 men reading_note/caveat, O och F har62/23. Inte nyfunnet aktuellt datumfel. En man/tom kvinnokolumn är inte civilstånd; denna övertolkning är redan avgränsad i nuvarande TR/F. Rutt är registrering inte säker fysisk resa.",
+      "dependent_people": [
+        "P-0239",
+        "P-0240"
+      ],
+      "disposition": "delvis bekräftad; ingen föreslagen exakt ändring föreSECOND"
+    },
+    {
+      "record": "R-f854ebc2980025f8b6efddae",
+      "confirmed": [
+        "post54/Mars26;Odöptgossebarn;HöökAndersIvar/missionär;AnnaElisabeth;ÖstTurkestan;31 8/8;9/4 02;Att.t.Stat.Centralbyrån;strykningar;post55B.B.-not ej överförd."
+      ],
+      "first_differences": [
+        {
+          "field": "modern efternamn",
+          "first": "Backman",
+          "current": "Carlman",
+          "disposition": "FIRST misstolkning möjlig; separatSECOND och teckenjämförelse före någon namnändring"
+        },
+        {
+          "field": "antal1",
+          "first": "oläst under strykning",
+          "current": "levande mankön1",
+          "disposition": "FIRST kan inte bekräfta exakt antal, men gossebarn läses; reserv ingen ny negativuppgift"
+        },
+        {
+          "field": "år",
+          "first": "1933 endast locator",
+          "current": "1933",
+          "disposition": "nu metadatafastställt i sparat manifest; visuell rubrik återstår"
+        }
+      ],
+      "model_review": "Utdrag är härlett originalunderlag och barnet namnlöst; födelseort hålls åtskild från fysisk förlossningsplats. Aktuella O ger datum/namn exakt; efternamn och strukna tecken behöver jämförd läsning. Bevarade föräldralänkar och identiteten får inte ändras av FIRSTs osäkra bokstavsform ensam.",
+      "dependent_people": [
+        "P-0212",
+        "P-0239",
+        "P-0240"
+      ],
+      "disposition": "delvis bekräftad, metadata1933 säkrad, visuellt år och svåra strykningar reserverade"
+    },
+    {
+      "record": "R-21569b8078e7b2d2a74b3c82",
+      "confirmed": [
+        "1341/r12–16;modern02 9/4/LjungbyKalm;litet104;31 8/8;Indien46 13/9;N/streck/v;makeAndersIvarHöök dödPoonaIndien;Vasa8;1718/1719 fördelning och51;barnens33 26/3,36 1/5,38 26/7,44 31/8;105,102,104,103;dopnoter och v/tomfördelning."
+      ],
+      "first_differences": [
+        {
+          "field": "änkeår",
+          "first": "45 14/8",
+          "current": "44 14/8",
+          "disposition": "FIRST avvikande råår,SECOND krävs; inte nytt belägg för1945"
+        },
+        {
+          "field": "flicknamn/yrke/sonnamn",
+          "first": "Backman/hush[?]/AndersGösta[?]",
+          "current": "Carlman/änkefru/AndersGustav",
+          "disposition": "läsarkonflikter, ingen modelländring föreSECOND"
+        },
+        {
+          "field": "adresser",
+          "first": "strukna namn osäkra;Kyrkvägen10",
+          "current": "oläslig;Odlingsv44;Vasa8;Kyrkovägen10",
+          "disposition": "odaterad natur stöds, bokstavsdetaljer reserverade"
+        },
+        {
+          "field": "rad13kolumn9",
+          "first": "Obs!B.",
+          "current": "oläst;LidingöfsB endast hypotes",
+          "disposition": "möjlig nytillförd läsning, får stå osäker tillsSECOND; skapar ingen flytthändelse"
+        }
+      ],
+      "model_review": "Äldre19aug och12dagar kvar i TR men explicit rättade i reading_note/O/F: historisk rättelse redan riktigt införd. Marianne1936-05-01 mot familj1935-07-09 är källkonflikt som består. Aktuella sidreferenser är redan1719 för13–14 och1718 för12,15,16. Påvisat separat tomkolumnfel i O-P-0309-C0903-additional-fields@1, se följdlista.",
+      "dependent_people": [
+        "P-0212",
+        "P-0239",
+        "P-0240",
+        "P-0307",
+        "P-0308",
+        "P-0309"
+      ],
+      "disposition": "delvis bekräftad; en konkret aktuell struktureringsrättelse och forskningskopior behöver hanteras"
+    }
+  ],
+  "scb_header_check": {
+    "manifest": "genealogy/media/S-0698-manifest-A0032607.json",
+    "sha256": "e5dee23e9a0f0dbe226dcd252d89c5d03391017d9400feefd6cb380095f6f345",
+    "volume_reference": "SE/RA/420401/01/H 1 AA/2768 (1933)",
+    "canvas292_year": "Canvas A0032607_00292 metadata Källhänvisning anger samma volym1933",
+    "range": "structures r4 → Engelbrekt / r4-1 Födelse / r4-1-1 1933 → A0032607_00286/canvas",
+    "status": "1933 är nu belagt genom bevarad katalog/manifestmetadata; ingen direkt visuellt läst årsrubrik. Stämpeln Engelbrekt är visuellt läst på292.",
+    "exact_header_locator": "https://sok.riksarkivet.se/bildvisning/A0032607_00286",
+    "exact_header_image": "https://lbiiif.riksarkivet.se/arkis!A0032607_00286/full/max/0/default.jpg",
+    "header_image_local": false,
+    "retrieved": false,
+    "need": "Endast om visuellt bekräftad rubrik krävs: komplettera med bild286, inte bred ny sökning. Metadata kan precisera årstillhörighet men ersätter inte avläst originalrubrik.",
+    "metadata_correction": "C0902 fryst citation anger6740×4980; faktisk hashmatchad fil och manifestcanvas292 är6246×4032. Historisk citation skrivs inte om."
+  },
+  "current_evidence_snapshot": [
+    {
+      "revision_id": "TR-2a9a9eaaf00710070fabfac1@1",
+      "record_id": "R-cf8b90afd03e96bea7d40104",
+      "text": "> 60 [59] | Maj 13 | 1 [levande född, mankön] | Anders Ivar (oäkta) |\n> Moder: Hök Anna Matilda, piga, fr. 5[?]/[?] som hos mig anhållit att få\n> detta barn antecknadt såsom [sitt?]. Hudiksvall 25/8 1903. K. A. Ehren[gren] |\n> 80 23/12 | 1 | 341 |\n> [Döpt] Juli 14 | K. A. Ehren-gren | Inga faddrar. Vittnen: [Masög.?]\n> Aug. Emil Höks h:u och arbet. Anders Jakobssons h:u, både i Hudiksvall |\n> 0.50\n",
+      "reading_note": "Den normaliserade tolkningen får inte ersätta de uttryckliga reservationerna i den diplomatiska texten.\nFr.-hänvisning, anmälningsmeningens slut, yrkesord och prästens namn har reservationer. Ingen far anges. Inga faddrar, men två vittnen; deras makar är inte automatiskt egna vittnen.",
+      "object_id": "TR-2a9a9eaaf00710070fabfac1",
+      "version": 1,
+      "caveat": "Fr.-hänvisning, anmälningsmeningens slut, yrkesord och prästens namn har reservationer. Ingen far anges. Inga faddrar, men två vittnen; deras makar är inte automatiskt egna vittnen."
+    },
+    {
+      "revision_id": "TR-bd9b114a8effec4a26553621@1",
+      "record_id": "R-9cd7dffe239c5989bb3a93ee",
+      "text": "> 127 | 27/7 | 27/7 | Höök Anders Ivar, missionär | 03 ¹³/₅ | 1 | Fridhem | 593 |\n> Kashgar, Öst-Turkestan | 488 ⁶²/₂₇ R.\n",
+      "reading_note": "Den äldre slutsatsen ogift vid utresan/vigsel därefter är projektresonemang som måste prövas mot separat vigselunderlag; hushållssumman är inte ett civilståndsfält.\nSenare rättelse: båda datum 27 juli, inte 21/7; värnplikt 488 62/23, inte 62/27. En man och ingen kvinna är flyttningssummering och styrker inte ensamt civilstånd.",
+      "object_id": "TR-bd9b114a8effec4a26553621",
+      "version": 1,
+      "caveat": "Senare rättelse: båda datum 27 juli, inte 21/7; värnplikt 488 62/23, inte 62/27. En man och ingen kvinna är flyttningssummering och styrker inte ensamt civilstånd."
+    },
+    {
+      "revision_id": "TR-c8c51f067b241f8f861dc7e9@1",
+      "record_id": "R-f854ebc2980025f8b6efddae",
+      "text": "> 54 | Mars 26 | 1 [levande född, mankön] | **Odöpt gossebarn** |\n> Fader: **Höök, Anders Ivar, missionär** | ¹³/₅ 03 |\n> h. h. Moder: **Anna Elisabeth Carlman**, [bostad:] `Öst Turkestan` |\n> g[ift] 31 ⁸/₈ | ⁹/₄ 02 | 1 [gift]\n> [anteckningskolumn:] `Att. t. Stat. Centralbyrån`\n",
+      "reading_note": "Registrerad födelseförsamling hålls skild från exakt fysisk förlossningsplats. Moderns hemresa från missionsfältet är projekttolkning; postens födelse- och föräldrafält bevaras.\nBarnet namnges inte; senare identifiering går genom familjekedjan. Allm. B.B.-anteckningen kan höra till post 55 och tilldelas inte 54. Marginalnot är osäker; strykningens exakta innebörd behöver hållas skild från observationen.",
+      "object_id": "TR-c8c51f067b241f8f861dc7e9",
+      "version": 1,
+      "caveat": "Barnet namnges inte; senare identifiering går genom familjekedjan. Allm. B.B.-anteckningen kan höra till post 55 och tilldelas inte 54. Marginalnot är osäker; strykningens exakta innebörd behöver hållas skild från observationen."
+    },
+    {
+      "revision_id": "TR-4dbe1b45b76946977eb28d89@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "text": "> 12 | **Höök, Anna Elisabeth f. Carlman** | missionär / änkefru | 02 | ⁹/₄ |\n> Ljungby, Kalm. l. | v | B. 31 ⁸/₈ | å 44 ¹⁹/₈ | **Indien** | 46 ¹³/₉ |\n> [anteckning:] `Änka e. missionären Anders Ivar Höök, död: Poona, Indien`;\n> adress `Vasa 8` / `Kyrkovägen 10` | [nästa bok:] 1718 n.b. 51\n> 13 | s. **Ivar Gunnar Emanuel**, `icke döpt av sv. kyrkan` | 33 | ²⁶/₃ |\n> **Engelbrekt St.** | ” | 1719 n.b. 51\n> 14 | d. **Elisabeth Marianne**, `icke döpt av sv. kyrkan` | 36 | [dag/månad\n> läsosäker] | **Kashgar, Öst-Turkestan** | ” | 1719 n.b. 51\n> 15 | d. **Astrid Margareta**, `icke döpt av sv. kyrkan` | 38 | [dag/månad\n> läsosäker] | **Engelbrekt St.** | ” | 1718 n.b. 51\n> 16 | s. **Anders Gustav**, `icke döpt` | 44 | ³¹/₈ | **Poona, Indien** | v |\n> ” | 1718 n.b. 51\n",
+      "reading_note": "Sen läsning skiljer framåthänvisningarna: Gunnar/Marianne till 1719, modern/Astrid/Anders till 1718. Tresiffriga tal 104,105,102,104,103 är lästa men funktionen oprövad. Kopporfältets tomhet är ingen säker vaccinationsnegation.\nÄnkedag rättad till 14 augusti 1944, inte 19; sjutton dagar till sonens födelse är beräkning. Mariannes 1936-05-01 avviker från familjeuppgift 1935-07-09. Astrid 1938-07-26 läses säkert senare. Adresser är odaterade; Kyrkovägen 10 är ingen säker inflyttningsadress.",
+      "object_id": "TR-4dbe1b45b76946977eb28d89",
+      "version": 1,
+      "caveat": "Änkedag rättad till 14 augusti 1944, inte 19; sjutton dagar till sonens födelse är beräkning. Mariannes 1936-05-01 avviker från familjeuppgift 1935-07-09. Astrid 1938-07-26 läses säkert senare. Adresser är odaterade; Kyrkovägen 10 är ingen säker inflyttningsadress."
+    },
+    {
+      "revision_id": "O-P-0212-C0902-child@1",
+      "record_id": "R-f854ebc2980025f8b6efddae",
+      "mention_id": "M-P-0212-C0902-child",
+      "property": "birth_record_fields",
+      "value_literal": "Odöpt gossebarn,levande mankön,26mars1933; namngivna föräldrar i ÖstTurkestan.",
+      "value_json": "{\"annotation\":\"Att. t. Stat. Centralbyrån\",\"birth_date\":{\"literal\":\"1933-03-26\",\"precision\":\"exact\",\"value\":\"1933-03-26\"},\"child_description\":\"Odöpt gossebarn\",\"father_birth\":{\"literal\":\"1903-05-13\",\"precision\":\"exact\",\"value\":\"1903-05-13\"},\"father_name\":\"Höök, Anders Ivar\",\"father_occupation\":\"missionär\",\"left_margin_reading\":\"utl. eller ntl., osäkert och överstruket\",\"live_birth\":true,\"marital_column\":\"1 [gift]\",\"mother_birth\":{\"literal\":\"1902-04-09\",\"precision\":\"exact\",\"value\":\"1902-04-09\"},\"mother_name\":\"Anna Elisabeth Carlman\",\"name_entered\":false,\"next_row_Allm_BB_attestation_applied\":false,\"parents_crossed\":true,\"parents_marriage\":{\"literal\":\"1931-08-08\",\"precision\":\"exact\",\"value\":\"1931-08-08\"},\"parents_registered_home\":\"Öst Turkestan\",\"sex_column\":\"mankön\"}",
+      "object_id": "O-P-0212-C0902-child",
+      "version": 1,
+      "caveat": "Barnets namn saknas; Odöpt gossebarn är beskrivning, inte personnamn. Att.fr.Allm.B.B. på nästa radhöjd knyts inte till post54. Inget förlossningshus eller dop tillförs."
+    },
+    {
+      "revision_id": "O-P-0212-C0903-child@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-P-0212-C0903-child",
+      "property": "household_child_fields",
+      "value_literal": "s. Ivar Gunnar Emanuel,icke döpt av sv.kyrkan,33 26/3,Engelbrekt St.,1719n.b.51",
+      "value_json": "{\"birth_date\":{\"literal\":\"1933-03-26\",\"precision\":\"exact\",\"value\":\"1933-03-26\"},\"birth_parish_literal\":\"Engelbrekt St.\",\"church_note\":\"icke döpt av sv. kyrkan\",\"column9\":\"handskriven notis utpekad men oläst\",\"next_book_folio\":1719,\"next_book_year\":1951,\"number_above_birth\":\"105\",\"row\":13,\"vaccination_column\":\"tom\"}",
+      "object_id": "O-P-0212-C0903-child",
+      "version": 1,
+      "caveat": "Tom vaccinationskolumn ger inget negativt vaccinationsfaktum. Kolumn9 är inte utvunnen; LidingöfsB är bara en hypotes om dess innehåll."
+    },
+    {
+      "revision_id": "O-P-0239-C0880-own@1",
+      "record_id": "R-cf8b90afd03e96bea7d40104",
+      "mention_id": "M-C0880-Anders-Ivar",
+      "property": "person_record_fields",
+      "value_literal": "",
+      "value_json": "{\"baptism\":\"1903-07-14\",\"birth\":\"1903-05-13\",\"father_named\":false,\"godparents\":\"Inga faddrar\",\"last_raw_number\":\"0.50\",\"mother\":\"Hök Anna Matilda\",\"mother_birth\":\"1880-12-23\",\"mother_folio\":341,\"mother_occupation\":\"piga\",\"mother_request_note_date\":\"1903-08-25\",\"mother_request_text\":\"antecknadt såsom [sitt?]\",\"officiant\":\"K. A. Ehren[gren]\",\"register_parish\":\"Hudiksvall\",\"sex_column\":\"mankön\"}",
+      "object_id": "O-P-0239-C0880-own",
+      "version": 1,
+      "caveat": "Enbart denna källpost. 1910-index och bild är samma underlag; sena uttryckliga rättelser bevaras före äldre avskrift. 1946 års änkefält och Hudiksvalls dödsnot återger samma dödsbud, inte två oberoende dödsbevis."
+    },
+    {
+      "revision_id": "O-P-0239-C0886-own@1",
+      "record_id": "R-9cd7dffe239c5989bb3a93ee",
+      "mention_id": "M-C0886-Anders-Ivar-Hook",
+      "property": "person_record_fields",
+      "value_literal": "",
+      "value_json": "{\"birth\":\"1903-05-13\",\"certificate_date\":\"1931-07-27\",\"departure_date\":\"1931-07-27\",\"folio\":593,\"from\":\"Fridhem, Hudiksvall\",\"men\":1,\"military_literal\":\"488 ⁶²/₂₃ R.\",\"occupation\":\"missionär\",\"to\":\"Kashgar, Öst-Turkestan\",\"women\":0}",
+      "object_id": "O-P-0239-C0886-own",
+      "version": 1,
+      "caveat": "Enbart denna källpost. 1910-index och bild är samma underlag; sena uttryckliga rättelser bevaras före äldre avskrift. 1946 års änkefält och Hudiksvalls dödsnot återger samma dödsbud, inte två oberoende dödsbevis."
+    },
+    {
+      "revision_id": "O-P-0239-C0902-own@1",
+      "record_id": "R-f854ebc2980025f8b6efddae",
+      "mention_id": "M-C0902-Anders-Ivar-Hook",
+      "property": "person_record_fields",
+      "value_literal": "",
+      "value_json": "{\"birth\":\"1903-05-13\",\"birth_register_parish\":\"Engelbrekt, Stockholm\",\"child\":\"Odöpt gossebarn\",\"child_birth\":\"1933-03-26\",\"marriage\":\"1931-08-08\",\"occupation\":\"missionär\",\"registered_family_place\":\"Öst Turkestan\",\"wife\":\"Anna Elisabeth Carlman\"}",
+      "object_id": "O-P-0239-C0902-own",
+      "version": 1,
+      "caveat": "Enbart denna källpost. 1910-index och bild är samma underlag; sena uttryckliga rättelser bevaras före äldre avskrift. 1946 års änkefält och Hudiksvalls dödsnot återger samma dödsbud, inte två oberoende dödsbevis."
+    },
+    {
+      "revision_id": "O-P-0239-C0903-own@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Anders-Ivar-Hook",
+      "property": "person_record_fields",
+      "value_literal": "",
+      "value_json": "{\"death_place\":\"Poona, Indien\",\"deceased_husband_named\":\"Anders Ivar Höök\",\"occupation\":\"missionären\",\"widow\":\"Höök, Anna Elisabeth f. Carlman\",\"widow_date_literal\":\"44 ¹⁴/₈\"}",
+      "object_id": "O-P-0239-C0903-own",
+      "version": 1,
+      "caveat": "Enbart denna källpost. 1910-index och bild är samma underlag; sena uttryckliga rättelser bevaras före äldre avskrift. 1946 års änkefält och Hudiksvalls dödsnot återger samma dödsbud, inte två oberoende dödsbevis."
+    },
+    {
+      "revision_id": "O-C0880-witness-Aug-Emil-wife@1",
+      "record_id": "R-cf8b90afd03e96bea7d40104",
+      "mention_id": "M-C0880-witness-Aug-Emil-wife",
+      "property": "witness_description",
+      "value_literal": "",
+      "value_json": "{\"Aug_Emil_title_reading\":\"[Masög.?]\",\"description\":\"Aug. Emil Höks h:u\",\"home\":\"Hudiksvall\"}",
+      "object_id": "O-C0880-witness-Aug-Emil-wife",
+      "version": 1,
+      "caveat": "Yrkesordet före Aug. Emil är osäkert; släktskap till modern obelagt."
+    },
+    {
+      "revision_id": "O-C0880-witness-Anders-Jakobsson-wife@1",
+      "record_id": "R-cf8b90afd03e96bea7d40104",
+      "mention_id": "M-C0880-witness-Anders-Jakobsson-wife",
+      "property": "witness_description",
+      "value_literal": "",
+      "value_json": "{\"Aug_Emil_title_reading\":null,\"description\":\"arbet. Anders Jakobssons h:u\",\"home\":\"Hudiksvall\"}",
+      "object_id": "O-C0880-witness-Anders-Jakobsson-wife",
+      "version": 1,
+      "caveat": "Yrkesordet före Aug. Emil är osäkert; släktskap till modern obelagt."
+    },
+    {
+      "revision_id": "O-P-0240-C0902-own@1",
+      "record_id": "R-f854ebc2980025f8b6efddae",
+      "mention_id": "M-C0902-Anna-Elisabeth-Carlman",
+      "property": "person_record_fields",
+      "value_literal": "",
+      "value_json": "{\"annotation\":\"Att. t. Stat. Centralbyrån\",\"birth\":\"1902-04-09\",\"child\":\"Odöpt gossebarn\",\"child_birth\":\"1933-03-26\",\"husband\":\"Höök, Anders Ivar\",\"marital_column\":\"1 [gift]\",\"marriage\":\"1931-08-08\",\"register_parish\":\"Engelbrekt, Stockholm\",\"registered_home\":\"Öst Turkestan\"}",
+      "object_id": "O-P-0240-C0902-own",
+      "version": 1,
+      "caveat": "Endast denna avgränsade post. Kodfält och tomma celler ger inga nya livsslutsatser. SCB-utdrag är härlett, inte oberoende från den ej lästa originalboken."
+    },
+    {
+      "revision_id": "O-P-0240-C0903-own@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Anna-Elisabeth-Hook",
+      "property": "person_record_fields",
+      "value_literal": "",
+      "value_json": "{\"addresses\":[{\"crossed_out\":true,\"literal\":\"oläslig\"},{\"crossed_out\":true,\"literal\":\"Odlingsv.44\"},{\"crossed_out\":false,\"literal\":\"Vasa8\"},{\"crossed_out\":false,\"literal\":\"Kyrkovägen10\"}],\"addresses_dated\":false,\"arrival\":\"1946-09-13\",\"arrival_from\":\"Indien\",\"birth\":\"1902-04-09\",\"birth_parish\":\"Ljungby, Kalm. l.\",\"civil_status\":\"änkefru\",\"column11\":\"–\",\"column12\":\"N\",\"column15\":\"tom\",\"column18\":\"tom\",\"husband_note\":\"Änka e. missionären Anders Ivar Höök, död: Poona, Indien\",\"marriage_literal\":\"B.31 ⁸/₈\",\"next_book_reference\":\"1718 n.b.51\",\"number_above_birth\":\"104\",\"occupation\":\"missionär\",\"row\":12,\"vaccination_or_smallpox\":\"v\",\"widow_literal\":\"44 ¹⁴/₈\"}",
+      "object_id": "O-P-0240-C0903-own",
+      "version": 1,
+      "caveat": "Endast denna avgränsade post. Kodfält och tomma celler ger inga nya livsslutsatser. SCB-utdrag är härlett, inte oberoende från den ej lästa originalboken."
+    },
+    {
+      "revision_id": "O-P-0307-C0903-child@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Elisabeth-Marianne",
+      "property": "household_child",
+      "value_literal": "",
+      "value_json": "{\"birth\":\"1936-05-01\",\"birth_place\":\"Kashgar, Öst-Turkestan\",\"next_folio\":1719,\"next_year\":1951,\"number\":\"102\",\"religion_literal\":\"icke döpt av sv. kyrkan\",\"v_cell\":\"tom\"}",
+      "object_id": "O-P-0307-C0903-child",
+      "version": 1,
+      "caveat": "Egen bokrad; Mariannes motuppgift1935-07-09 ligger separat i familjefaktum, inte i denna observationsrådata. Tomt vaccinationsfält är inte negativ hälsoslutsats."
+    },
+    {
+      "revision_id": "O-P-0308-C0903-child@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Astrid-Margareta",
+      "property": "household_child",
+      "value_literal": "",
+      "value_json": "{\"birth\":\"1938-07-26\",\"birth_place\":\"Engelbrekt St.\",\"next_folio\":1718,\"next_year\":1951,\"number\":\"104\",\"religion_literal\":\"icke döpt av sv. kyrkan\",\"v_cell\":\"tom\"}",
+      "object_id": "O-P-0308-C0903-child",
+      "version": 1,
+      "caveat": "Egen bokrad; Mariannes motuppgift1935-07-09 ligger separat i familjefaktum, inte i denna observationsrådata. Tomt vaccinationsfält är inte negativ hälsoslutsats."
+    },
+    {
+      "revision_id": "O-P-0309-C0903-child@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Anders-Gustav",
+      "property": "household_child",
+      "value_literal": "",
+      "value_json": "{\"birth\":\"1944-08-31\",\"birth_place\":\"Poona, Indien\",\"next_folio\":1718,\"next_year\":1951,\"number\":\"103\",\"religion_literal\":\"icke döpt\",\"v_cell\":\"v\"}",
+      "object_id": "O-P-0309-C0903-child",
+      "version": 1,
+      "caveat": "Egen bokrad; Mariannes motuppgift1935-07-09 ligger separat i familjefaktum, inte i denna observationsrådata. Tomt vaccinationsfält är inte negativ hälsoslutsats."
+    },
+    {
+      "revision_id": "O-P-0275-C0880-own@1",
+      "record_id": "R-cf8b90afd03e96bea7d40104",
+      "mention_id": "M-C0880-P-0275",
+      "property": "person_fields",
+      "value_literal": "Källuppgifter i den avgränsade posten",
+      "value_json": "{\"betrothed_blank\":true,\"birth_literal\":\"80 23/12\",\"child\":\"Anders Ivar\",\"child_baptism\":\"1903-07-14\",\"child_birth\":\"1903-05-13\",\"civil_status_column\":\"Ogift.\",\"column_after_witnesses\":\"—\",\"father_not_named\":true,\"godparents\":\"Inga faddrar\",\"mark_in_unmarried_column\":1,\"married_blank\":true,\"occupation\":\"piga\",\"parish_book_page\":341,\"reference_literal\":\"fr. 5[?]/[?]\",\"request_date\":\"1903-08-25\",\"request_ending\":\"[sitt?]\",\"widowed_divorced_blank\":true,\"witnesses\":[\"Aug. Emil Höks h:u\",\"arbet. Anders Jakobssons h:u\"]}",
+      "object_id": "O-P-0275-C0880-own",
+      "version": 1,
+      "caveat": "Prästens slutord och fr.-hänvisningen reserveras; de två kvinnorna är vittnen, inte deras makar. Civilståndets fälttolkning kommer från senare aktutvinning."
+    },
+    {
+      "revision_id": "O-P-0307-C0903-additional-fields@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Elisabeth-Marianne",
+      "property": "additional_household_fields",
+      "value_literal": "",
+      "value_json": "{\"arrival_ditto\":\"Indien, 1946-09-13\",\"blank_columns\":[6,7,14,15,18],\"health_column_header\":\"Vaccinerats eller haft koppor\",\"row\":14,\"v_cell\":\"tom\"}",
+      "object_id": "O-P-0307-C0903-additional-fields",
+      "version": 1,
+      "caveat": "Tomma fält gäller denna bok, inga livstida negativa slutsatser. v skiljer inte vaccination från genomgångna koppor och ger ingen dag. Uppgiftstecken återger registreringskedjan, inte säker fysisk resdag."
+    },
+    {
+      "revision_id": "O-P-0308-C0903-additional-fields@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Astrid-Margareta",
+      "property": "additional_household_fields",
+      "value_literal": "",
+      "value_json": "{\"arrival_ditto\":\"Indien, 1946-09-13\",\"blank_columns\":[6,7,8,14,18],\"health_column_header\":\"Vaccinerats eller haft koppor\",\"row\":15,\"v_cell\":\"tom\"}",
+      "object_id": "O-P-0308-C0903-additional-fields",
+      "version": 1,
+      "caveat": "Tomma fält gäller denna bok, inga livstida negativa slutsatser. v skiljer inte vaccination från genomgångna koppor och ger ingen dag. Uppgiftstecken återger registreringskedjan, inte säker fysisk resdag."
+    },
+    {
+      "revision_id": "O-P-0308-C0903-numbers@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Astrid-Margareta",
+      "property": "household_number_fields",
+      "value_literal": "",
+      "value_json": "{\"meaning\":\"oprövad\",\"own\":\"104 över38\",\"rows12to16\":[\"104\",\"105\",\"102\",\"104\",\"103\"]}",
+      "object_id": "O-P-0308-C0903-numbers",
+      "version": 1,
+      "caveat": "Äldre kommentar107 på moderns rad är rättad till104. Ingen födelseortskod eller säker inflyttningsnyckel."
+    },
+    {
+      "revision_id": "O-P-0309-C0903-additional-fields@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Anders-Gustav",
+      "property": "additional_household_fields",
+      "value_literal": "",
+      "value_json": "{\"arrival_ditto\":\"Indien, 1946-09-13\",\"blank_columns\":[7,8,10,11,12,13,14,15,17,18],\"health_column_header\":\"Vaccinerats eller haft koppor\",\"row\":16,\"v_cell\":\"v\"}",
+      "object_id": "O-P-0309-C0903-additional-fields",
+      "version": 1,
+      "caveat": "Tomma fält gäller denna bok, inga livstida negativa slutsatser. v skiljer inte vaccination från genomgångna koppor och ger ingen dag. Uppgiftstecken återger registreringskedjan, inte säker fysisk resdag."
+    },
+    {
+      "revision_id": "O-P-0309-C0903-sibling-column-comparison@1",
+      "record_id": "R-21569b8078e7b2d2a74b3c82",
+      "mention_id": "M-C0903-Anders-Gustav",
+      "property": "household_columns_comparison",
+      "value_literal": "",
+      "value_json": "{\"numbers\":{\"row12\":\"104\",\"row13\":\"105\",\"row14\":\"102\",\"row15\":\"104\",\"row16\":\"103\"},\"other_households_same_numbers\":\"inte antecknade\",\"own_and_mother_column6\":\"v\",\"own_dop\":\"icke döpt\",\"three_older_siblings_column6\":\"tom\",\"three_older_siblings_dop\":\"icke döpt av sv. kyrkan\"}",
+      "object_id": "O-P-0309-C0903-sibling-column-comparison",
+      "version": 1,
+      "caveat": "Samma avgränsade hushållsuppslag. Talen är otolkade och duplicerat104 försvagar en unik löpnummerhypotes; dopordalydelsen bevisar inte senare dop eller trosuppfattning."
+    }
+  ],
+  "current_fact_revision_refs": [
+    "F-P-0212-event_place-birth@1",
+    "F-P-0212-name_form-source_comparison@1",
+    "F-P-0212-rejected_claim-birth1934Lidingo@1",
+    "F-P-0212-rejected_claim-A1479@1",
+    "F-P-0212-family_context-parents1933@1",
+    "F-P-0212-church_note-1933-1946@1",
+    "F-P-0239-event_place-birth-P-0239@1",
+    "F-P-0239-event_place-baptism-P-0239@1",
+    "F-P-0239-event_place-death-P-0239@1",
+    "F-P-0239-event_place-registered_departure-P-0239@1",
+    "F-P-0239-parent_context-owner-father@1",
+    "F-P-0239-family_children-four@1",
+    "F-P-0239-child_context-P-0212@1",
+    "F-P-0239-child_context-P-0307@1",
+    "F-P-0239-child_context-P-0308@1",
+    "F-P-0239-child_context-P-0309@1",
+    "F-P-0239-identity_assessment-child-to-missionary@1",
+    "F-P-0239-occupation-office-to-mission@1",
+    "F-P-0239-residence-source-points@1",
+    "F-P-0239-source_assessment-marriage-route@1",
+    "F-P-0239-military_registration-raw-number@1",
+    "F-P-0239-name_form-Hok-Hook@1",
+    "F-P-0239-event_place-other-P-0239-maternal-request1903@1",
+    "F-P-0240-event_place-birth-P-0240@1",
+    "F-P-0240-event_place-registered_arrival-Hook-family-Lidingo1946@1",
+    "F-P-0240-household_membership-Lidingo-family@1",
+    "F-P-0240-occupation-nurse-missionary@1",
+    "F-P-0240-civil_status-widow1944@1",
+    "F-P-0212-source_reference-Lidingo1951@1",
+    "F-P-0212-athletic_activity-candidate1948@1",
+    "F-P-0212-rejected_claim-foreign_birth@1",
+    "F-P-0239-relationship_dates-marriage-end@1",
+    "F-P-0275-birth_place@1",
+    "F-P-0275-name_forms-own@1",
+    "F-P-0275-occupation-recorded@1",
+    "F-P-0277-grandson-P-0239@1",
+    "F-P-0287-coparent_context-Anna-Matilda@1",
+    "F-P-0307-name_form-household-family@1",
+    "F-P-0307-family_context-parents-siblings@1",
+    "F-P-0307-birth_date_conflict-family-household@1",
+    "F-P-0307-event_place-birth-P-0307@1",
+    "F-P-0308-name_form-household-family@1",
+    "F-P-0308-family_context-parents-siblings@1",
+    "F-P-0308-event_place-birth-P-0308@1",
+    "F-P-0308-travel_inference-maternal-return1938@1",
+    "F-P-0309-name_form-household-family@1",
+    "F-P-0309-family_context-parents-siblings@1",
+    "F-P-0309-event_place-birth-P-0309@1",
+    "F-P-0309-chronology-posthumous-child@1",
+    "F-P-0275-residence-documented-chain@2",
+    "F-P-0240-name_form-Carlman-Hook@2"
+  ],
+  "followup_candidates": [
+    {
+      "object": "O-P-0309-C0903-additional-fields",
+      "revision": "O-P-0309-C0903-additional-fields@1",
+      "finding": "blank_columns innehåller10 och17, men r16 har inflyttningsdittotecken i10 och51 i17. Egen child-observation har redan next_year1951.",
+      "action": "Efter SECOND:s kontroll ta bort10/17 ur blank_columns och bevara råtecken. Ingen ändring av faktisk registrerad ankomst/överföringshändelse.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "O-P-0309-C0903-additional-fields@1",
+        "record_id": "R-21569b8078e7b2d2a74b3c82",
+        "mention_id": "M-C0903-Anders-Gustav",
+        "property": "additional_household_fields",
+        "value_literal": "",
+        "value_json": "{\"arrival_ditto\":\"Indien, 1946-09-13\",\"blank_columns\":[7,8,10,11,12,13,14,15,17,18],\"health_column_header\":\"Vaccinerats eller haft koppor\",\"row\":16,\"v_cell\":\"v\"}"
+      }
+    },
+    {
+      "object": "RESEARCH-P-0309-9d76f0343410",
+      "revision": "RESEARCH-P-0309-9d76f0343410@2",
+      "finding": "@2 säger fortfarande födelsen1944-08-31 ligger inom äktenskapet1931-08-08–1944-08-14, trots samma styckes efterdödsdatum.",
+      "action": "Rätta kronologisk mening till efter faderns död; behåll familjeuppgift/änkekontext och åtskillnaden slutsats/råpost.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "RESEARCH-P-0309-9d76f0343410@2",
+        "subject_id": "P-0309",
+        "criteria": "legacy_profile_section/Identitetsbedömning",
+        "outcome": "recorded",
+        "body": "## Identitetsbedömning\n\nFamiljeuppgiften i [C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md) namnger Anders Gustav Höök, kallad Gustav, född 1944-08-31, som helbror till Gunnar och barn till Anders Ivar Höök och Anna Elisabeth Carlman. Lidingös församlingsbok, uppslag 1341 rad 16, för `s. Anders Gustav`, född 44 ³¹/₈ i Poona, Indien, som yngste barnet i änkan Anna Elisabeth Hööks hushåll, inflyttat från Indien 1946-09-13 ([C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md)). Sammanförandet bärs av fyra samtidiga överensstämmelser: exakt samma dopnamn, exakt samma födelsedag, samma moder och samma syskonkonstellation om fyra barn i rätt åldersordning. Namnlikhet ensam gör inte arbetet; det är kombinationen med den ovanliga missionärsfamiljen i Öst-Turkestan och Indien som utesluter en namne.\n\nIngen konkurrerande kandidat är känd eller rimlig: kombinationen svensk missionärsänka med fyra barn, hemkomst från Indien 1946 och ett barn fött i Poona sjutton dagar efter faderns död är unik i det granskade underlaget.\n\n**Faderskapet är en slutsats, inte en avskrift.** Barnraden namnger ingen far. Slutsatsen vilar på att födelsen 1944-08-31 ligger inom det i samma bok redovisade äktenskapet 1931-08-08–1944-08-14, på hushållsanteckningen `Änka e. missionären Anders Ivar Höök, död: Poona, Indien` och på ägarens uttryckliga precisering att de fyra syskonen är helsyskon. Hushållsroll är inte biologiskt släktskap, och den kyrkobokförda modersraden bevisar direkt bara moderskapet; den samlade kedjan bedöms ändå bära `CORROBORATED` för A-1720 och A-1725. En indisk födelsehandling eller en svensk utlandsregistrering av födelsen skulle vara det första verkligt oberoende faderskapsbelägget och är inte läst.\n\nDe två källorna är sakligt oberoende av varandra: en sentida familjeuppgift 2026 och en samtida svensk myndighetspost 1946. De är däremot inte oberoende av *varandras* uppgiftslämnarled i den meningen att båda ytterst bygger på familjens egen kunskap om barnets födelse i Indien; ingen indisk primärhandling ligger under någon av dem.\n\nHan är född 1944 och kan vara nu levande. Identitetsprövningen bygger därför enbart på det historiska barndomsomfånget 1944–1951; ingen uppgift om vuxenlivet har inhämtats. Han bär ingen anlinje uppåt — antavlan går genom brodern P-0212 — men hans identitet är prövad och skulle inte hindra en linje som passerade honom.\n\n"
+      }
+    },
+    {
+      "object": "P-0212/Q-01",
+      "revision": "P-0212/Q-01@1",
+      "finding": "Lidingö1946 kallas den oberoende kontrollen; senare kyrkoboksuppgift kan återge samma familje-/registreringskedja.",
+      "action": "Precisera separat källa, ej styrkt oberoende uppgiftsled; födelsefrågans stödda sakutfall behöver inte ändras.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "P-0212/Q-01@1",
+        "subject_id": "P-0212",
+        "title": "Q-01: Var registrerades Gunnars födelse 1933 och bekräftar posten datum och föräldrar?",
+        "outcome": "FASTSTÄLLD.",
+        "body": "### Q-01: Var registrerades Gunnars födelse 1933 och bekräftar posten datum och föräldrar?\n\n- Fråga och betydelse: originalbekräftelse av födelse, rapporterande församling och föräldrar för Kristinas far; löser den negativa Lidingökontrollen och fastställer var familjen fanns 1933.\n- Känt underlag: [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md) Engelbrekt 1933 post 54; [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) Lidingös församlingsbok; [C-0887](../citations/C-0887-hook-scb-1933-och-hudiksvall-1944-noll.md) de avgränsade nollen; [C-0143](../citations/C-0143-lidingo-negativ-kandidatkontroll-1933.md) annat barn i Lidingös utdrag den dagen.\n- Alternativ och motprövning: de prövade alternativen var rapportering i förälders hemförsamling (Hudiksvall, Danderyd eller Gustav Vasa), rapportering i Lidingö på annan sida, och födelse utomlands med efterhandsinförande. Föräldrarnas namn och födelsedata i posten skiljer rätt barn från en namne; födelseförsamlingen `Engelbrekt St.` i församlingsboken 1946 är den oberoende kontrollen.\n- Källvägar: KP-01.\n- Slutsatsläge: FASTSTÄLLD.\n- Argument och konflikter: Avgjord 2026-09-06. Posten ger datum, kön, föräldrar med födelsedata, vigseldatum och kyrkobokföring i Öst-Turkestan; församlingsboken 1946 knyter samme person till samma födelsedatum och födelseförsamling. Familjens och sekundärsidans Lidingö faller; datumet består. Ingen ny konflikt kvarstår i denna fråga — namnordningen har flyttats till Q-03.\n- Påverkade personer/påståenden: A-1449, A-1479, A-1481, A-3339, A-3373, A-3380–A-3382; [P-0239](../people/P-0239-ivar-hook.md) och [P-0240](../people/P-0240-anna-elisabeth-hook.md) om var familjen fanns 1933; [P-0210](../people/P-0210-kristina-elisabeth-petronella-hook.md):s föräldraled berörs inte.\n\n"
+      }
+    },
+    {
+      "object": "THEME-P-0212-BO",
+      "revision": "THEME-P-0212-BO@1",
+      "finding": "Säger Kyrkovägen10 påLidingö1946–1951 och Indien/ÖstTurkestan till1946, vilket kan läsas som obrutet boende; adressen är odaterad.",
+      "action": "Precisera hushållsregistrering1946–1951, adressodaterad; inget löfte om fysisk vistelse hela perioden.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "THEME-P-0212-BO@1",
+        "subject_id": "P-0212",
+        "criteria": "legacy_theme/BO",
+        "outcome": "ÖPPET",
+        "body": "| BO | ÖPPET | Belagt: Engelbrekt 1933, Indien/Öst-Turkestan till 1946, Kyrkovägen 10 på Lidingö 1946–1951, Floby från mitten av 1960-talet och Falköping vid döden. Obelagt: var han bodde 1951–1962, adress i Floby och när hushållet flyttade till Falköping. | [C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md), [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md), [C-0901](../citations/C-0901-dn-minnesord-gunnar-hook-2017.md), [C-0905](../citations/C-0905-anvandarens-uppgift-floby-flytten.md); KP-04, KP-05 |\n"
+      }
+    },
+    {
+      "object": "KEY-P-0212-045df6eef4e9",
+      "revision": "KEY-P-0212-045df6eef4e9@1",
+      "finding": "1718/1719 står läsosäkra generellt; egen rad13 pekar1719.",
+      "action": "Ange egen1719 och övriga familjens1718–1719; fortsättningsvolym oläst.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "KEY-P-0212-045df6eef4e9@1",
+        "subject_id": "P-0212",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "| Lidingö A II a/29, uppslag 1341 → uppslag 1718–1719 | Egen hushållsrad 1946–1951 och den namngivna fortsättningen 1951 och framåt. | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Uppslagstalen 1718/1719 är läsosäkra i citationen. |\n"
+      }
+    },
+    {
+      "object": "PATH-P-0308-KP-02",
+      "revision": "PATH-P-0308-KP-02@1",
+      "finding": "102–107 kvar som familjens tal och1718/1719 läsosäkert.",
+      "action": "Ange102,103,104,104,105 och egen1718; funktion oprövad och inget löpnummerantagande.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "PATH-P-0308-KP-02@1",
+        "subject_id": "P-0308",
+        "criteria": "legacy_source_path",
+        "outcome": "EJ UNDERSÖKT.",
+        "body": "### KP-02: Lidingös nästa församlingsbok från 1951, uppslag 1718\n\n- Frågor/teman: Q-02, BO, REL, SAM, SYN.\n- Källklass: K-01; sidoingången inflyttningslängd 1946 är K-05.\n- Tid/plats och arkivbildare: Lidingö kyrkoarkiv, `SE/SSA/1529`,\n  församlingsbok efter `A II a/29`, från 1951; personperioden är hennes\n  tonårstid.\n- Förväntad information: hushållets fortsättning, adress, syskonens och hennes\n  egen eventuella utflyttning samt anteckningar som församlingsboken 1946–1951\n  lämnade tomma. Vägen kan inte ge något om tiden efter att hon lämnade\n  föräldrahemmet, och sådan uppföljning görs inte.\n- Ingång och söknycklar: `1718 n.b.` och året 51 i hennes egen rad ur\n  [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md);\n  seriebeskrivningen och uppslagsformeln i\n  [S-0710](../sources/S-0710-lidingo-AIIa29-forsamlingsbok-1941-1950.md);\n  hushållet änkan Höök med fyra barn födda 33, 36, 38 och 44. En sidoingång är\n  Lidingös inflyttningslängd 1946 (K-05), där de understrukna talen 102–107 i\n  kolumn 3 kan visa sig vara löpnummer; hennes är 104 (A-4837). Hypotesen är\n  okontrollerad och är en ingång att pröva, inte en uppgift att återge.\n- Beroenden: rätt efterföljande volym i serien måste identifieras i katalogen,\n  och uppslagstalet 1718/1719 är läsosäkert. Båda kan lösas med\n  hushållssammansättningen som kontroll. Åtkomsten kräver inloggad session\n  enligt S-0710.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst: Riksarkivet/Stockholms stadsarkiv, inloggad\n  session. EJ KONTROLLERAD inom denna konsolidering.\n- Undersökt omfång och utfall: EJ UNDERSÖKT.\n- Bedömning och återaktivering: vägen är gemensam för hela syskonskaran och bör\n  utföras en gång för hushållet, inte fyra gånger per person. Den bör avgränsas\n  till barndomshushållets uppslag.\n- Wotan: EJ BESLUTAT UTFÖRANDE — förslaget lämnas i T-0146 och bör ägas\n  gemensamt med P-0212, P-0307, P-0309 och P-0240.\n\n"
+      }
+    },
+    {
+      "object": "KEY-P-0308-0f62105e8a5e",
+      "revision": "KEY-P-0308-0f62105e8a5e@1",
+      "finding": "Familjens tal ligger i102–107.",
+      "action": "Rätta till102–105 med dubbel104; betydelse fortfarande okänd.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "KEY-P-0308-0f62105e8a5e@1",
+        "subject_id": "P-0308",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "| Talet 104 över födelseåret | Lidingö 1946, hennes rad; möjlig ingång till inflyttningslängden | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Betydelsen är okänd och står inte i boken. Familjens tal ligger i 102–107. Får inte användas som belagt löpnummer. |\n"
+      }
+    },
+    {
+      "object": "KEY-P-0308-1fa36207ad1d",
+      "revision": "KEY-P-0308-1fa36207ad1d@1",
+      "finding": "Eget1718/1719 läsosäkert.",
+      "action": "Egen1718,51; oläst fortsättningsbok kvar.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "KEY-P-0308-1fa36207ad1d@1",
+        "subject_id": "P-0308",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "| Lidingö nästa församlingsbok, uppslag 1718, år 51 | Fortsättningen efter 1951 | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Uppslagstalet 1718/1719 är läsosäkert i citationen; volymen är oidentifierad. |\n"
+      }
+    },
+    {
+      "object": "RESEARCH-P-0308-9d76f0343410",
+      "revision": "RESEARCH-P-0308-9d76f0343410@1",
+      "finding": "Talintervall102–107 kvar som hypotesunderlag.",
+      "action": "Precisera aktuell mängd102,103,104,104,105; unik-löpnummerhypotes försvagas av dubblett.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "RESEARCH-P-0308-9d76f0343410@1",
+        "subject_id": "P-0308",
+        "criteria": "legacy_profile_section/Identitetsbedömning",
+        "outcome": "recorded",
+        "body": "## Identitetsbedömning\n\nAnkaret är en samtida myndighetspost: Lidingö kyrkoarkiv `SE/SSA/1529`,\n`A II a/29`, uppslag 1341, rad 15, där `d. Astrid Margareta` står som dotter i\nänkan Anna Elisabeth Hööks hushåll, inflyttat från Indien 1946-09-13\n([C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md)). Raden ger\nfödelseår 38, födelseort Engelbrekt i Stockholm och anteckningen\n`icke döpt av sv. kyrkan`. Vid granskningen 2026-09-08 lästes den lokalt\nbevarade helbilden `00054023_00234` om i full upplösning. Födelsekolumnen på\nrad 15 läses ²⁶/₇. Läsningen är kalibrerad mot två rader i samma kolumn vars\ndatum är kända oberoende av bilden: rad 13 (Ivar Gunnar Emanuel, 33) läses\n²⁶/₃ och stämmer med Engelbrekts födelsepost nr 54 1933-03-26\n([C-0902](../citations/C-0902-engelbrekt-1933-fodelsepost-54-hook.md)), och rad\n16 (Anders Gustav, 44) läses ³¹/₈ och stämmer med familjeuppgiften 1944-08-31\n([C-0268](../citations/C-0268-gunnar-hook-namn-dod-och-syskon.md)). Täljare och\nnämnare ligger i båda kontrollfallen symmetriskt kring årtalet i årskolumnen,\noch rad 15 följer samma geometri. Samma omläsning gjordes oberoende inom\nT-0146 av granskningen av P-0309, med samma resultat. C-0903 lämnade dag och\nmånad som läsosäkra; läsningen ersätter den läsosäkerheten för rad 15 och\nbehöver ett daterat tillägg i citationen. Rad 14 (Elisabeth Marianne) ägs av\nP-0307:s granskning, som läser den som 1936-05-01 mot familjens 1935-07-09;\nden konflikten rör inte rad 15 och ändrar inte syskonföljden, eftersom Marianne\ni båda alternativen är född före Astrid Margareta.\n\nTvå ytterligare förhållanden i samma bild utvanns vid omläsningen. Kolumn 6 har\nrubriken `Vaccinerats eller haft koppor` — tecknet `v` skiljer alltså inte\nvaccination från genomgången sjukdom, och hennes egen cell är tom medan modern\noch yngste brodern har `v`. I kolumn 3 står dessutom ett understruket\ntresiffrigt tal över födelseåret på alla fem Höökrader; hennes är 104 (A-4837).\nTalet saknas i C-0903:s avskrift och dess betydelse står inte i boken. Det är\ninte en födelseortskod, eftersom rad 13 och rad 15 har samma födelseort men\nolika tal. Talen ligger samlade i intervallet 102–107, vilket gör löpnummer i\nLidingös inflyttningslängd 1946 till en prövbar hypotes; den är inte\nkontrollerad och används här bara som söknyckel.\n\nSammanförningen av församlingsbokens rad med familjens Margareta bärs därmed\nav fem oberoende villkor som alla sammanfaller: rätt förnamnspar (Astrid\nMargareta), rätt födelseår, rätt födelsedag och månad (26/7), rätt födelseort i\nförhållande till moderns kända hemresor och rätt plats i syskonföljden mellan\nMarianne och Gustav. Namnlikhet ensam bär inte, men fem samverkande villkor gör\ndet. Två ytterligare led pekar åt samma håll utan att vara arkivkällor:\nLångareds missionshistorik namnger Margareta Höök Wennfors som Ivar och\nElisabeths dotter\n([C-0227](../citations/C-0227-ivar-och-elisabeth-hook-missionsparet.md)), och\nhon har själv i skrift kallat Anders Ivar Höök `pappa`\n([C-0320](../citations/C-0320-margareta-hook-om-farfar-johannes-fredberg.md)).\n\nKällberoenden och begränsningar. C-0268 och C-0903 är verkligt oberoende: den\nena är en familjeuppgift 2026, den andra en samtida kyrkobokföring 1946. C-0227\nbygger på S-0177, en lokalhistorisk sammanställning, och är ingen primärhandling.\nC-0320 är hennes egen röst men förmedlad genom ägaren. Föräldraskapet står\ndirekt i församlingsboken bara på modersidan — barnen är skrivna `s.` och `d.` i\nmoderns hushåll — medan faderskapet följer av hushållsanteckningen `Änka e.\nmissionären Anders Ivar Höök`, vigseldatumet 1931-08-08 och syskonens\nfödelseordning. Ingen konkurrerande Astrid Margareta Höök har uppstått i det\nlästa materialet, och ingen kandidatgräns behöver skyddas.\n\nDet som återstår att pröva är primärposten: Engelbrekts födelse- och dopbok\n1938 är oläst, liksom Lidingös nästa församlingsbok från 1951. Ingendera behövs\nför identiteten, men båda skulle stärka den och fylla barndomsluckan.\nNamnformen Wennfors är obelagd som namnbyte och prövas inte, eftersom frågan\ngäller en levande persons civilstånd.\n\n"
+      }
+    },
+    {
+      "object": "P-0309/Q-03",
+      "revision": "P-0309/Q-03@1",
+      "finding": "Eget uppslag kan vara1718 eller1719 enligt citation; äldre läsreserv kvar.",
+      "action": "Egen1718 säkert avläst; orsaken till familjens två uppslag fortsatt okänd.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "P-0309/Q-03@1",
+        "subject_id": "P-0309",
+        "title": "Q-03: Vad visar hushållets fortsättning på uppslag 1718 från 1951 inom barndomsomfånget?",
+        "outcome": "ÖPPEN.",
+        "body": "### Q-03: Vad visar hushållets fortsättning på uppslag 1718 från 1951 inom barndomsomfånget?\n\n- Fråga och betydelse: Hans rad förs 1951 vidare till Lidingös nästa församlingsbok, uppslag 1718, tillsammans med moderns och Astrid Margaretas. Den boken bär skolår, eventuellt dop och hushållets fortsatta adress — de sista uppgifter som ligger inom en rimlig historisk avgränsning innan integritetsgränsen tar vid.\n- Känt underlag: [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) och [S-0710](../sources/S-0710-lidingo-AIIa29-forsamlingsbok-1941-1950.md); volymsignum för efterföljaren är inte fastställt.\n- Alternativ och motprövning: uppslagstalet kan vara 1718 eller 1719 (citationen anger läsosäkerhet); båda uppslagen måste prövas innan ett noll formuleras. Att modern och två av fyra barn förs till ett annat uppslag än de andra två är inte förklarat och får inte tolkas som en hushållsdelning utan belägg.\n- Källvägar: KP-01.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: Uppgifter efter barndomen omfattas av aktens integritetsgräns; vägen ska därför avgränsas till hushållsraden och inte utvidgas till hans vuxna liv.\n- Påverkade personer/påståenden: P-0309/A-4840, A-4842, A-4843; P-0240/A-3391; P-0212/A-3385.\n\n"
+      }
+    },
+    {
+      "object": "KEY-P-0309-9817b9998322",
+      "revision": "KEY-P-0309-9817b9998322@1",
+      "finding": "Talet1718 anges ännu läsosäkert.",
+      "action": "Ange egen1718 och1951; volymsignum/fortsättningsbok inte lästa.",
+      "status": "root review / pending SECOND where image-specific",
+      "current_payload": {
+        "revision_id": "KEY-P-0309-9817b9998322@1",
+        "subject_id": "P-0309",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "| Uppslag 1718, nästa församlingsbok från 1951 | Direkt hänvisning till fortsättningen | [C-0903](../citations/C-0903-hook-lidingo-AIIa29-uppslag-1341.md) | Talet anges som läsosäkert i citationen; volymsignum är ännu inte fastställt. |\n"
+      }
+    }
+  ],
+  "non_changes": [
+    "Ingen generell person-/identitetsomprövning från läsarosäkerhet ensam.",
+    "Ingen ny källoberoenderöst från FIRST/SECOND på samma bild.",
+    "Ingen ny information om levande familjemedlemmars vuxenliv.",
+    "Följdlistan är konkreta granskningsförslag; root avgör tillämpning och slutlig disposition."
+  ]
+}

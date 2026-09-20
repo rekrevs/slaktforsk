@@ -1,0 +1,369 @@
+{
+  "id": "x_terra_1",
+  "task": "x",
+  "model": "gpt-5.6-terra",
+  "replicate": 1,
+  "reasoning_effort": "medium",
+  "order": 7,
+  "thread_id": "01a0b8e3-b79a-74b1-87d4-2c6e06fc394f",
+  "start": "2026-09-19T08:58:46.576Z",
+  "end": "2026-09-19T09:01:31.554Z",
+  "seconds": 164.978,
+  "actual_models": [
+    {
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1040627,
+    "cached_input_tokens": 973952,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6491,
+    "reasoning_output_tokens": 3789,
+    "total_tokens": 1047118
+  },
+  "tool_calls": 19,
+  "answer_exists": true,
+  "answer_sha256": "c8c998db730c6f149501f2ced36004ebfa4da20ded42cfcf302d17874d488d4e",
+  "source_log": "/Users/sverker/.codex/sessions/2026/09/19/rollout-2026-09-19T10-58-46-01a0b8e3-b79a-74b1-87d4-2c6e06fc394f.jsonl",
+  "calls": [
+    {
+      "timestamp": "2026-09-19T08:58:52.780Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sed -n '1,240p' evaluations/T-0769/runs/x_terra_1/RUN.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":12000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T08:58:55.964Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sed -n '1,260p' evaluations/T-0769/runs/x_terra_1/TASK.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":12000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T08:58:58.455Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"rg --files evaluations/T-0769/runs/x_terra_1\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":12000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T08:59:05.435Z",
+      "name": "exec",
+      "arguments": "const imgs = await Promise.all([\n  tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/A-full.jpg\",detail:\"original\"}),\n  tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/A-detail.jpg\",detail:\"original\"}),\n  tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/B-full.jpg\",detail:\"original\"}),\n  tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/B-left-detail.jpg\",detail:\"original\"}),\n  tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/B-right-detail.jpg\",detail:\"original\"})\n]);\nfor (const i of imgs) image(i.image_url,\"original\");\n"
+    },
+    {
+      "timestamp": "2026-09-19T08:59:38.729Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sips -g pixelWidth -g pixelHeight evaluations/T-0769/runs/x_terra_1/B-left-detail.jpg evaluations/T-0769/runs/x_terra_1/B-full.jpg evaluations/T-0769/runs/x_terra_1/B-right-detail.jpg\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":4000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T08:59:48.188Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sips -c 180 950 --cropOffset 80 0 evaluations/T-0769/runs/x_terra_1/B-left-detail.jpg --out evaluations/T-0769/runs/x_terra_1/B-left-r8-zoom.jpg\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":4000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T08:59:51.624Z",
+      "name": "exec",
+      "arguments": "const r = await tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/B-left-r8-zoom.jpg\",detail:\"original\"}); image(r.image_url,\"original\");\n"
+    },
+    {
+      "timestamp": "2026-09-19T08:59:57.492Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sips -c 620 1100 --cropOffset 80 0 evaluations/T-0769/runs/x_terra_1/B-left-detail.jpg --out evaluations/T-0769/runs/x_terra_1/B-left-r8-r12-zoom.jpg\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":4000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:00:00.027Z",
+      "name": "exec",
+      "arguments": "const r = await tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/B-left-r8-r12-zoom.jpg\",detail:\"original\"}); image(r.image_url,\"original\");\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:00:05.299Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sips -g pixelWidth -g pixelHeight evaluations/T-0769/runs/x_terra_1/A-detail.jpg\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":2000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:00:09.968Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sips -c 450 1700 --cropOffset 280 0 evaluations/T-0769/runs/x_terra_1/A-detail.jpg --out evaluations/T-0769/runs/x_terra_1/A-r2-r3-zoom.jpg\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":4000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:00:14.403Z",
+      "name": "exec",
+      "arguments": "const r = await tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/A-r2-r3-zoom.jpg\",detail:\"original\"}); image(r.image_url,\"original\");\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:00:19.220Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sips -c 180 800 --cropOffset 560 230 evaluations/T-0769/runs/x_terra_1/A-detail.jpg --out evaluations/T-0769/runs/x_terra_1/A-r3-name-zoom.jpg\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":4000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:00:22.681Z",
+      "name": "exec",
+      "arguments": "const r = await tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/A-r3-name-zoom.jpg\",detail:\"original\"}); image(r.image_url,\"original\");\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:00:28.295Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"sips -c 140 350 --cropOffset 390 900 evaluations/T-0769/runs/x_terra_1/A-detail.jpg --out evaluations/T-0769/runs/x_terra_1/A-r2-occupation-zoom.jpg\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":4000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:00:32.257Z",
+      "name": "exec",
+      "arguments": "const r = await tools.view_image({path:\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/A-r2-occupation-zoom.jpg\",detail:\"original\"}); image(r.image_url,\"original\");\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:01:13.327Z",
+      "name": "exec",
+      "arguments": "const patch = \"*** Begin Patch\\n*** Add File: /Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_terra_1/answer.json\\n+{\\n+  \\\"fields\\\": [\\n+    {\\\"id\\\":\\\"A.r2.name\\\",\\\"raw\\\":\\\"Anders Alfred Andersson\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r2.occupation\\\",\\\"raw\\\":\\\"Hem.äg.\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r2.birth\\\",\\\"raw\\\":\\\"69 24/7\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r2.birthplace\\\",\\\"raw\\\":\\\"\\\",\\\"state\\\":\\\"blank\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r2.marriage\\\",\\\"raw\\\":\\\"04 3/5\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r3.name\\\",\\\"raw\\\":\\\"h. Anna Fredrika Jakobsdotter\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r3.occupation\\\",\\\"raw\\\":\\\"\\\",\\\"state\\\":\\\"blank\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r3.birth\\\",\\\"raw\\\":\\\"72 8/2\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r3.birthplace\\\",\\\"raw\\\":\\\"\\\",\\\"state\\\":\\\"blank\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"A.r3.marriage\\\",\\\"raw\\\":\\\"\\\",\\\"state\\\":\\\"blank\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r8.name\\\",\\\"raw\\\":\\\"s. Petrus Michaelson\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r8.birth\\\",\\\"raw\\\":\\\"1899 6/8\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r8.husforhor\\\",\\\"raw\\\":\\\"\\\",\\\"state\\\":\\\"blank\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r9.name\\\",\\\"raw\\\":\\\"d. Ludvig Emanuel\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r9.birth\\\",\\\"raw\\\":\\\"1901 5/3\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r9.husforhor\\\",\\\"raw\\\":\\\"16\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r10.name\\\",\\\"raw\\\":\\\"d. Birger\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r10.birth\\\",\\\"raw\\\":\\\"1905 13/8\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r10.husforhor\\\",\\\"raw\\\":\\\"16\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r11.name\\\",\\\"raw\\\":\\\"d. Tyra Charlotta\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r11.birth\\\",\\\"raw\\\":\\\"1907 12/7\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r11.husforhor\\\",\\\"raw\\\":\\\"\\\",\\\"state\\\":\\\"blank\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r12.name\\\",\\\"raw\\\":\\\"d. Gerda Helena\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r12.birth\\\",\\\"raw\\\":\\\"1909 17/9\\\",\\\"state\\\":\\\"read\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"},\\n+    {\\\"id\\\":\\\"B.r12.husforhor\\\",\\\"raw\\\":\\\"\\\",\\\"state\\\":\\\"blank\\\",\\\"alternatives\\\":[],\\\"note\\\":\\\"\\\"}\\n+  ]\\n+}\\n*** End Patch\";\nconst r = await tools.apply_patch(patch);\ntext(typeof r === \"string\" ? r : JSON.stringify(r));\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:01:22.484Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"jq -e '(.fields | length == 25) and (all(.[]; has(\\\"id\\\") and has(\\\"raw\\\") and has(\\\"state\\\") and has(\\\"alternatives\\\") and has(\\\"note\\\")))' evaluations/T-0769/runs/x_terra_1/answer.json\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":2000});\ntext(r.output);\n"
+    },
+    {
+      "timestamp": "2026-09-19T09:01:26.247Z",
+      "name": "exec",
+      "arguments": "const r = await tools.exec_command({\"cmd\":\"jq empty evaluations/T-0769/runs/x_terra_1/answer.json && jq '.fields | length' evaluations/T-0769/runs/x_terra_1/answer.json\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":2000});\ntext(r.output);\n"
+    }
+  ],
+  "usage_records": [
+    {
+      "timestamp": "2026-09-19T08:58:52.822Z",
+      "response_id": "resp_02b028771714fa9f016aae4ec8577487d2afa3c71655ac37b4",
+      "usage": {
+        "input_tokens": 24012,
+        "cached_input_tokens": 6912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 186,
+        "reasoning_output_tokens": 72,
+        "total_tokens": 24198
+      }
+    },
+    {
+      "timestamp": "2026-09-19T08:58:56.000Z",
+      "response_id": "resp_02b028771714fa9f016aae4ecd611887d2b047145dd41c7cbf",
+      "usage": {
+        "input_tokens": 24451,
+        "cached_input_tokens": 23296,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 94,
+        "reasoning_output_tokens": 15,
+        "total_tokens": 24545
+      }
+    },
+    {
+      "timestamp": "2026-09-19T08:58:58.507Z",
+      "response_id": "resp_02b028771714fa9f016aae4ed0802487d29f9bb71c2e1cbe71",
+      "usage": {
+        "input_tokens": 25360,
+        "cached_input_tokens": 24320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 81,
+        "reasoning_output_tokens": 11,
+        "total_tokens": 25441
+      }
+    },
+    {
+      "timestamp": "2026-09-19T08:59:05.626Z",
+      "response_id": "resp_02b028771714fa9f016aae4ed2f55487d286fea8e750147d9b",
+      "usage": {
+        "input_tokens": 25585,
+        "cached_input_tokens": 24320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 311,
+        "reasoning_output_tokens": 80,
+        "total_tokens": 25896
+      }
+    },
+    {
+      "timestamp": "2026-09-19T08:59:38.788Z",
+      "response_id": "resp_02b028771714fa9f016aae4edb30c887d285c2609d0e13d40e",
+      "usage": {
+        "input_tokens": 53990,
+        "cached_input_tokens": 25344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1619,
+        "reasoning_output_tokens": 1507,
+        "total_tokens": 55609
+      }
+    },
+    {
+      "timestamp": "2026-09-19T08:59:48.236Z",
+      "response_id": "resp_02b028771714fa9f016aae4efb633c87d28e34dda6f57cf6e4",
+      "usage": {
+        "input_tokens": 55762,
+        "cached_input_tokens": 53504,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 426,
+        "reasoning_output_tokens": 319,
+        "total_tokens": 56188
+      }
+    },
+    {
+      "timestamp": "2026-09-19T08:59:51.720Z",
+      "response_id": "resp_02b028771714fa9f016aae4f04d12087d28b3b2341c75ba697",
+      "usage": {
+        "input_tokens": 56289,
+        "cached_input_tokens": 55680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 73,
+        "reasoning_output_tokens": 7,
+        "total_tokens": 56362
+      }
+    },
+    {
+      "timestamp": "2026-09-19T08:59:57.549Z",
+      "response_id": "resp_02b028771714fa9f016aae4f08178887d28265877af6227437",
+      "usage": {
+        "input_tokens": 56602,
+        "cached_input_tokens": 55680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 252,
+        "reasoning_output_tokens": 142,
+        "total_tokens": 56854
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:00:00.106Z",
+      "response_id": "resp_02b028771714fa9f016aae4f0e2df087d2bf9b43cbcb926113",
+      "usage": {
+        "input_tokens": 56957,
+        "cached_input_tokens": 55680,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 66,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 57023
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:00:05.356Z",
+      "response_id": "resp_02b028771714fa9f016aae4f1265b087d2bbbec6bea663496a",
+      "usage": {
+        "input_tokens": 57887,
+        "cached_input_tokens": 56704,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 100,
+        "reasoning_output_tokens": 20,
+        "total_tokens": 57987
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:00:10.073Z",
+      "response_id": "resp_02b028771714fa9f016aae4f15edac87d29b82dc0cc7a13331",
+      "usage": {
+        "input_tokens": 58052,
+        "cached_input_tokens": 56704,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 120,
+        "reasoning_output_tokens": 12,
+        "total_tokens": 58172
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:00:14.551Z",
+      "response_id": "resp_02b028771714fa9f016aae4f1ac27087d281b42ee26690ea13",
+      "usage": {
+        "input_tokens": 58273,
+        "cached_input_tokens": 57856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 65,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 58338
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:00:19.309Z",
+      "response_id": "resp_02b028771714fa9f016aae4f1f158887d28990117e6822551c",
+      "usage": {
+        "input_tokens": 59334,
+        "cached_input_tokens": 57856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 147,
+        "reasoning_output_tokens": 41,
+        "total_tokens": 59481
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:00:22.752Z",
+      "response_id": "resp_02b028771714fa9f016aae4f23db7487d2a9d70be0d10bb484",
+      "usage": {
+        "input_tokens": 59581,
+        "cached_input_tokens": 58880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 64,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 59645
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:00:28.350Z",
+      "response_id": "resp_02b028771714fa9f016aae4f272e1087d28571ba9eca0c0cec",
+      "usage": {
+        "input_tokens": 59849,
+        "cached_input_tokens": 58880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 206,
+        "reasoning_output_tokens": 99,
+        "total_tokens": 60055
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:00:32.326Z",
+      "response_id": "resp_02b028771714fa9f016aae4f2ceb4487d283a70802589f0d69",
+      "usage": {
+        "input_tokens": 60156,
+        "cached_input_tokens": 58880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 65,
+        "reasoning_output_tokens": 0,
+        "total_tokens": 60221
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:01:13.387Z",
+      "response_id": "resp_02b028771714fa9f016aae4f30b35487d2b5fd9c44781c0811",
+      "usage": {
+        "input_tokens": 60311,
+        "cached_input_tokens": 58880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2209,
+        "reasoning_output_tokens": 1274,
+        "total_tokens": 62520
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:01:22.554Z",
+      "response_id": "resp_02b028771714fa9f016aae4f5a1d3087d2a514769d79613cee",
+      "usage": {
+        "input_tokens": 62544,
+        "cached_input_tokens": 60160,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 134,
+        "reasoning_output_tokens": 19,
+        "total_tokens": 62678
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:01:26.296Z",
+      "response_id": "resp_02b028771714fa9f016aae4f63041c87d28c4ecf31640a043f",
+      "usage": {
+        "input_tokens": 62733,
+        "cached_input_tokens": 62208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 141,
+        "reasoning_output_tokens": 47,
+        "total_tokens": 62874
+      }
+    },
+    {
+      "timestamp": "2026-09-19T09:01:31.595Z",
+      "response_id": "resp_02b028771714fa9f016aae4f66be2c87d29e29b235eb8d07d1",
+      "usage": {
+        "input_tokens": 62899,
+        "cached_input_tokens": 62208,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 132,
+        "reasoning_output_tokens": 124,
+        "total_tokens": 63031
+      }
+    }
+  ]
+}

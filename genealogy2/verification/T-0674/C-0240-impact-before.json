@@ -1,0 +1,2788 @@
+{
+  "format": "genealogy2-impact/1",
+  "input": "C-0240",
+  "query": null,
+  "database_state": {
+    "operations": 59,
+    "revisions": 44554,
+    "last_operation": {
+      "sequence": 58,
+      "operation_id": "T-0673/a-pilot-v1"
+    }
+  },
+  "seeds": [
+    {
+      "object_id": "R-1138987dabd5eebe69232f2c",
+      "revision_id": "R-1138987dabd5eebe69232f2c@1",
+      "version": 1,
+      "kind": "record",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "current": true,
+      "routes": [
+        {
+          "type": "citation_representation",
+          "via_object": "M-C0240-Axel-Edvin"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "M-C0240-Emma-Petronella"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "M-P-0211-C0240-child"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "O-P-0211-C0240-child"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "O-P-0241-C0240-own"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "O-P-0246-C0240-own"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "R-1138987dabd5eebe69232f2c"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "READ-e722eeec76f1ddc4988de29d"
+        },
+        {
+          "type": "citation_representation",
+          "via_object": "TR-614bc4a80513645992b9beda"
+        }
+      ]
+    }
+  ],
+  "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+  "dependencies": {
+    "current": [
+      {
+        "object_id": "E-birth-P-0211",
+        "revision_id": "E-birth-P-0211@1",
+        "version": 1,
+        "kind": "event",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "E-birth-P-0211@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "E-birth-P-0211@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "EP-E-birth-P-0211-P-0211-principal",
+        "revision_id": "EP-E-birth-P-0211-P-0211-principal@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "M-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "EP-E-birth-P-0211-P-0211-principal@1",
+            "basis_revision_id": "M-P-0211-C0240-child@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "EP-E-birth-P-0211-P-0211-principal@1",
+            "basis_revision_id": "E-birth-P-0211@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: event_id"
+          },
+          {
+            "revision_id": "EP-E-birth-P-0211-P-0211-principal@1",
+            "basis_revision_id": "M-P-0211-C0240-child@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "EP-E-birth-P-0211-P-0211-principal@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0211-event_place-birth",
+        "revision_id": "F-P-0211-event_place-birth@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "F-P-0211-event_place-birth@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0211-event_place-birth@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0211-household_membership-Storbranna1938",
+        "revision_id": "F-P-0211-household_membership-Storbranna1938@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "F-P-0211-household_membership-Storbranna1938@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0211-household_membership-Storbranna1938@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0211-name_form-owner-archive",
+        "revision_id": "F-P-0211-name_form-owner-archive@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "F-P-0211-name_form-owner-archive@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0211-name_form-owner-archive@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "F-P-0241-occupation-source-sequence",
+        "revision_id": "F-P-0241-occupation-source-sequence@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0241-C0240-own@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0241-occupation-source-sequence@1",
+            "basis_revision_id": "O-P-0241-C0240-own@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "F-P-0241-occupation-source-sequence@1",
+            "basis_revision_id": "O-P-0241-C0240-own@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ID-M-C0240-Axel-Edvin-P-0241",
+        "revision_id": "ID-M-C0240-Axel-Edvin-P-0241@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "M-C0240-Axel-Edvin@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "ID-M-C0240-Axel-Edvin-P-0241@1",
+            "basis_revision_id": "M-C0240-Axel-Edvin@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ID-M-C0240-Axel-Edvin-P-0241@1",
+            "basis_revision_id": "M-C0240-Axel-Edvin@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ID-M-C0240-Emma-Petronella-P-0246",
+        "revision_id": "ID-M-C0240-Emma-Petronella-P-0246@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "M-C0240-Emma-Petronella@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "ID-M-C0240-Emma-Petronella-P-0246@1",
+            "basis_revision_id": "M-C0240-Emma-Petronella@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ID-M-C0240-Emma-Petronella-P-0246@1",
+            "basis_revision_id": "M-C0240-Emma-Petronella@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "ID-P-0211-C0240-child",
+        "revision_id": "ID-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "M-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "ID-P-0211-C0240-child@1",
+            "basis_revision_id": "M-P-0211-C0240-child@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "ID-P-0211-C0240-child@1",
+            "basis_revision_id": "M-P-0211-C0240-child@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "M-C0240-Axel-Edvin",
+        "revision_id": "M-C0240-Axel-Edvin@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "M-C0240-Axel-Edvin@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "M-C0240-Axel-Edvin@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "M-C0240-Emma-Petronella",
+        "revision_id": "M-C0240-Emma-Petronella@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "M-C0240-Emma-Petronella@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "M-C0240-Emma-Petronella@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "M-P-0211-C0240-child",
+        "revision_id": "M-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "M-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "M-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0211-C0240-child",
+        "revision_id": "O-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "M-P-0211-C0240-child@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0241-C0240-own",
+        "revision_id": "O-P-0241-C0240-own@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0241-C0240-own@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0241-C0240-own@1",
+            "basis_revision_id": "M-C0240-Axel-Edvin@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0241-C0240-own@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "O-P-0246-C0240-own",
+        "revision_id": "O-P-0246-C0240-own@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "O-P-0246-C0240-own@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "O-P-0246-C0240-own@1",
+            "basis_revision_id": "M-C0240-Emma-Petronella@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0246-C0240-own@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "READ-e722eeec76f1ddc4988de29d",
+        "revision_id": "READ-e722eeec76f1ddc4988de29d@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "READ-e722eeec76f1ddc4988de29d@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "READ-e722eeec76f1ddc4988de29d@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "REL-parent-P-0241-P-0211",
+        "revision_id": "REL-parent-P-0241-P-0211@1",
+        "version": 1,
+        "kind": "relation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "REL-parent-P-0241-P-0211@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "REL-parent-P-0241-P-0211@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "REL-parent-P-0246-P-0211",
+        "revision_id": "REL-parent-P-0246-P-0211@1",
+        "version": 1,
+        "kind": "relation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 2,
+        "path": [
+          {
+            "revision_id": "O-P-0211-C0240-child@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "revision_id": "REL-parent-P-0246-P-0211@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "REL-parent-P-0246-P-0211@1",
+            "basis_revision_id": "O-P-0211-C0240-child@1",
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      },
+      {
+        "object_id": "TR-614bc4a80513645992b9beda",
+        "revision_id": "TR-614bc4a80513645992b9beda@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "registered_version_dependency",
+        "distance": 1,
+        "path": [
+          {
+            "revision_id": "TR-614bc4a80513645992b9beda@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ],
+        "reached_dependencies": [
+          {
+            "revision_id": "TR-614bc4a80513645992b9beda@1",
+            "basis_revision_id": "R-1138987dabd5eebe69232f2c@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ],
+        "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+      }
+    ],
+    "historical": []
+  },
+  "provenance": {
+    "classification": "import_provenance_not_evidence",
+    "origins": [
+      {
+        "revision_id": "ID-M-C0240-Axel-Edvin-P-0241@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-C0240-Axel-Edvin-P-0241",
+        "version": 1,
+        "kind": "identity",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "ID-M-C0240-Emma-Petronella-P-0246@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-M-C0240-Emma-Petronella-P-0246",
+        "version": 1,
+        "kind": "identity",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "ID-P-0211-C0240-child@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "ID-P-0211-C0240-child",
+        "version": 1,
+        "kind": "identity",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "M-C0240-Axel-Edvin@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "M-C0240-Axel-Edvin",
+        "version": 1,
+        "kind": "mention",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "M-C0240-Emma-Petronella@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "M-C0240-Emma-Petronella",
+        "version": 1,
+        "kind": "mention",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "M-P-0211-C0240-child@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "M-P-0211-C0240-child",
+        "version": 1,
+        "kind": "mention",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "O-P-0211-C0240-child@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "O-P-0211-C0240-child",
+        "version": 1,
+        "kind": "observation",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "O-P-0241-C0240-own@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "O-P-0241-C0240-own",
+        "version": 1,
+        "kind": "observation",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "O-P-0246-C0240-own@1",
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "coverage": "partial",
+        "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+        "object_id": "O-P-0246-C0240-own",
+        "version": 1,
+        "kind": "observation",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "R-1138987dabd5eebe69232f2c@1",
+        "unit_id": "4065ca2a982ec6fed1594187c45ddb7b27723ad95f242f2388e442ef3424a79e",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-1138987dabd5eebe69232f2c",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 9,
+        "end_line": 28,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "R-1138987dabd5eebe69232f2c@1",
+        "unit_id": "5367d89643fb1d475302fcdea4175426ec4da253ab8a9331bc76ff3eba929ded",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "R-1138987dabd5eebe69232f2c",
+        "version": 1,
+        "kind": "record",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 1,
+        "end_line": 32,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "READ-e722eeec76f1ddc4988de29d@1",
+        "unit_id": "4065ca2a982ec6fed1594187c45ddb7b27723ad95f242f2388e442ef3424a79e",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-e722eeec76f1ddc4988de29d",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 9,
+        "end_line": 28,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "READ-e722eeec76f1ddc4988de29d@1",
+        "unit_id": "5367d89643fb1d475302fcdea4175426ec4da253ab8a9331bc76ff3eba929ded",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "READ-e722eeec76f1ddc4988de29d",
+        "version": 1,
+        "kind": "assessment",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 1,
+        "end_line": 32,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "TR-614bc4a80513645992b9beda@1",
+        "unit_id": "2d2849c675cab2b30697b60fc4def016277019f209ff73870fcb2e2f4a89cb37",
+        "coverage": "complete",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "TR-614bc4a80513645992b9beda",
+        "version": 1,
+        "kind": "transcription",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 19,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      },
+      {
+        "revision_id": "TR-614bc4a80513645992b9beda@1",
+        "unit_id": "5367d89643fb1d475302fcdea4175426ec4da253ab8a9331bc76ff3eba929ded",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "object_id": "TR-614bc4a80513645992b9beda",
+        "version": 1,
+        "kind": "transcription",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 1,
+        "end_line": 32,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc"
+      }
+    ],
+    "targets": [
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "ID-M-C0240-Axel-Edvin-P-0241",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "ID-M-C0240-Axel-Edvin-P-0241",
+        "revision_id": "ID-M-C0240-Axel-Edvin-P-0241@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true
+      },
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "ID-M-C0240-Emma-Petronella-P-0246",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "ID-M-C0240-Emma-Petronella-P-0246",
+        "revision_id": "ID-M-C0240-Emma-Petronella-P-0246@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true
+      },
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "ID-P-0211-C0240-child",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "ID-P-0211-C0240-child",
+        "revision_id": "ID-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true
+      },
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "M-C0240-Axel-Edvin",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "M-C0240-Axel-Edvin",
+        "revision_id": "M-C0240-Axel-Edvin@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "M-C0240-Emma-Petronella",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "M-C0240-Emma-Petronella",
+        "revision_id": "M-C0240-Emma-Petronella@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "M-P-0211-C0240-child",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "M-P-0211-C0240-child",
+        "revision_id": "M-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "O-P-0211-C0240-child",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "O-P-0211-C0240-child",
+        "revision_id": "O-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "O-P-0241-C0240-own",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "O-P-0241-C0240-own",
+        "revision_id": "O-P-0241-C0240-own@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2",
+        "decision_id": "UD-0d1e06c9a1792f46bab07b916e90f7ee3a082ac7a254495a36030eed586f10a2@1",
+        "target_id": "O-P-0246-C0240-own",
+        "state": "preserved_text",
+        "rationale": "Senare tillagt överlappande ursprungsspann. Originaldokumentets tidigare enhetsbeslut och mål består; denna text finns ordagrant och de uttryckliga nativeanknytningarna redovisas. Spannets hela bredd upphöjs inte till en ny semantisk uppgift eller en ny oläst källa.",
+        "question": "",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 21,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "O-P-0246-C0240-own",
+        "revision_id": "O-P-0246-C0240-own@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true
+      },
+      {
+        "unit_id": "2d2849c675cab2b30697b60fc4def016277019f209ff73870fcb2e2f4a89cb37",
+        "decision_id": "UD-2d2849c675cab2b30697b60fc4def016277019f209ff73870fcb2e2f4a89cb37@1",
+        "target_id": "TR-614bc4a80513645992b9beda",
+        "state": "pending_interpretation",
+        "rationale": "C-0240: Texten finns kvar i den fullständiga frysta citationen. Boställe Storbränna och föräldrar är lästa; fysisk förlossningsplats är inte automatiskt samma sak.",
+        "question": "Behåll yrkesreservation och skilj ägarens ortsutsaga från utdragets boställesfält; åtkomstfelet i S-0190 är inte negativ källa.",
+        "document_path": "genealogy/citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md",
+        "start_line": 15,
+        "end_line": 19,
+        "historical": 0,
+        "sha256": "e71d6fe331fca8bce6f59455324d7b375ff8ef26d80cbf55de87c33b06e0d6bc",
+        "object_id": "TR-614bc4a80513645992b9beda",
+        "revision_id": "TR-614bc4a80513645992b9beda@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true
+      }
+    ]
+  },
+  "search": {
+    "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+    "terms": [
+      {
+        "value": "C-0240",
+        "source": "identifier",
+        "boundary": true
+      },
+      {
+        "value": "R-1138987dabd5eebe69232f2c",
+        "source": "identifier",
+        "boundary": true
+      }
+    ]
+  },
+  "text_candidates": {
+    "current": [
+      {
+        "object_id": "ASSESSMENT-P-0211",
+        "revision_id": "ASSESSMENT-P-0211@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 574,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "n-barn-willy-elsy-henry-sally-berit-evy.md), [C-0239](../citations/C-0239-evy-fodd-i-storbranna-kovland.md), [C-0240](../citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md), [C-0935](../citations/C-0935-henriksson-aterf",
+            "excerpt_start": 464
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0241",
+        "revision_id": "ASSESSMENT-P-0241@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 333,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "rädverkan: `AVVAKTAR`\n- Kontraktsgranskning: `UNDERKÄND`\n- Granskningsdatum: 2026-09-07\n- Granskningsbelägg: [C-0240](../citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md), [C-0241](../citations/C-0241-axel-emma-henrik",
+            "excerpt_start": 223
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "ASSESSMENT-P-0246",
+        "revision_id": "ASSESSMENT-P-0246@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 360,
+            "line": 12,
+            "occurrences": 2,
+            "excerpt": "rädverkan: `AVVAKTAR`\n- Kontraktsgranskning: `UNDERKÄND`\n- Granskningsdatum: 2026-09-07\n- Granskningsbelägg: [C-0240](../citations/C-0240-evy-asa-kristina-fodd-1938-storbranna.md), [C-0241](../citations/C-0241-axel-emma-henrik",
+            "excerpt_start": 250
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0211",
+        "revision_id": "BIO-P-0211@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 192,
+            "line": 3,
+            "occurrences": 1,
+            "excerpt": " och föräldrahushåll. Föräldrarna är Axel Edvin Henriksson och Emma Petronella Eugenia, född Larsson (C-0140, C-0240, C-0935). Föräldrarnas återflytt till Sättna 1936 är belagd, så det äldre antagandet om kyrkobokföring i Sund",
+            "excerpt_start": 82
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0259",
+        "revision_id": "BIO-P-0259@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 805,
+            "line": 5,
+            "occurrences": 1,
+            "excerpt": "nna. Med den yngre systern Evy, född 1938, är sex barn namngivna i de redan bevarade familjekällorna (C-0238, C-0240, C-0935). Uppgiften om systern utvidgar inte denna persons privatliv efter 1936. Senare liv, död och personli",
+            "excerpt_start": 695
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0260",
+        "revision_id": "BIO-P-0260@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 628,
+            "line": 5,
+            "occurrences": 1,
+            "excerpt": "nna. Med den yngre systern Evy, född 1938, är sex barn namngivna i de redan bevarade familjekällorna (C-0238, C-0240, C-0935). Uppgiften om systern utvidgar inte denna persons privatliv efter 1936. Senare liv, död och personli",
+            "excerpt_start": 518
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0261",
+        "revision_id": "BIO-P-0261@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 614,
+            "line": 5,
+            "occurrences": 1,
+            "excerpt": "nna. Med den yngre systern Evy, född 1938, är sex barn namngivna i de redan bevarade familjekällorna (C-0238, C-0240, C-0935). Uppgiften om systern utvidgar inte denna persons privatliv efter 1936. Senare liv, död och personli",
+            "excerpt_start": 504
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "BIO-P-0262",
+        "revision_id": "BIO-P-0262@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "markdown",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 614,
+            "line": 5,
+            "occurrences": 1,
+            "excerpt": "nna. Med den yngre systern Evy, född 1938, är sex barn namngivna i de redan bevarade familjekällorna (C-0238, C-0240, C-0935). Uppgiften om systern utvidgar inte denna persons privatliv efter 1936. Senare liv, död och personli",
+            "excerpt_start": 504
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0211-PK-01",
+        "revision_id": "CONTRACT-P-0211-PK-01@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 110,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| PK-01 | STYRKT | Datum, föräldrar, Storbränna och familjens koppling till Kristina bär samma person; C-0140/C-0240/C-0935. |\n",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0211-PK-05",
+        "revision_id": "CONTRACT-P-0211-PK-05@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 19,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| PK-05 | STYRKT | C-0240:s nödvändiga parentbärande uppgifter är bevarade, inklusive dokumenterat läsosäkert yrke. C-0935 tillför känt",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0211-PK-11",
+        "revision_id": "CONTRACT-P-0211-PK-11@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 22,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| PK-11 | EJ STYRKT | C-0240/S-0190 saknar lokalt fulloriginal och SHA-256. Exakt bild-id ensamt uppfyller inte PK-11; T-0214. |\n",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0241-PK-11",
+        "revision_id": "CONTRACT-P-0241-PK-11@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 99,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| PK-11 | EJ STYRKT | C-0244/C-0245 och senare hushåll har lokala original och SHA; men gemensamma C-0240/S-0190 saknar fullbild. Rättelser bevarade; T-0214. |\n",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "CONTRACT-P-0246-PK-11",
+        "revision_id": "CONTRACT-P-0246-PK-11@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 99,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| PK-11 | EJ STYRKT | C-0246/C-0247 och senare hushåll har lokala original och SHA; men gemensamma C-0240/S-0190 saknar fullbild. Rättelser bevarade; T-0214. |\n",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0211-14ecb0ef97be",
+        "revision_id": "KEY-P-0211-14ecb0ef97be@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 81,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| Evy Åsa Kristina, 1938-01-12 | Historisk identifikation i Sättnas SCB-utdrag | C-0240 | Säker ankarkombination, ingen nutida adressökning. |\n",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "KEY-P-0211-d9e8f9410bfe",
+        "revision_id": "KEY-P-0211-d9e8f9410bfe@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 96,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| Axel Edvin 1901-01-31 och Emma Petronella 1900-07-23 | Föräldrahushåll Storbränna folio 388 | C-0240, C-0935 | Fortsatt historisk forskning sker i föräldrarnas profiler. |\n",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "M-C0240-Axel-Edvin",
+        "revision_id": "M-C0240-Axel-Edvin@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-1138987dabd5eebe69232f2c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-1138987dabd5eebe69232f2c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "M-C0240-Emma-Petronella",
+        "revision_id": "M-C0240-Emma-Petronella@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-1138987dabd5eebe69232f2c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-1138987dabd5eebe69232f2c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "M-P-0211-C0240-child",
+        "revision_id": "M-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-1138987dabd5eebe69232f2c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-1138987dabd5eebe69232f2c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0211-C0240-child",
+        "revision_id": "O-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-1138987dabd5eebe69232f2c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-1138987dabd5eebe69232f2c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0241-C0240-own",
+        "revision_id": "O-P-0241-C0240-own@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-1138987dabd5eebe69232f2c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-1138987dabd5eebe69232f2c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "O-P-0246-C0240-own",
+        "revision_id": "O-P-0246-C0240-own@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-1138987dabd5eebe69232f2c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-1138987dabd5eebe69232f2c",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "PATH-P-0211-KP-01",
+        "revision_id": "PATH-P-0211-KP-01@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "outcome",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0240 bevarar barn, datum, boställe, föräldrar och läsosäkert yrke; S-0190 saknar fullbild.",
+            "excerpt_start": 0
+          },
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 310,
+            "line": 7,
+            "occurrences": 2,
+            "excerpt": "d information: kontrollerbar reproduktion av den redan använda parentbärande posten.\n- Ingång och söknycklar: C-0240/S-0190; samma datum och föräldrar.\n- Beroenden: inga.\n- Föregående källvägar: INGA\n- Leverantörer och åtkomst",
+            "excerpt_start": 200
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "PATH-P-0241-KP-02",
+        "revision_id": "PATH-P-0241-KP-02@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 427,
+            "line": 7,
+            "occurrences": 2,
+            "excerpt": "nformation: redan känd familj, datum, titlar, fulla sidofält och exakt fortsättning.\n- Ingång och söknycklar: C-0240/C-0244/C-0246, C-0925–C-0927, C-0930/C-0933/C-0935; 3011, Fl.897/36, N:o 392–43.\n- Beroenden: delad personpas",
+            "excerpt_start": 317
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "PATH-P-0246-KP-02",
+        "revision_id": "PATH-P-0246-KP-02@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 427,
+            "line": 7,
+            "occurrences": 2,
+            "excerpt": "nformation: redan känd familj, datum, titlar, fulla sidofält och exakt fortsättning.\n- Ingång och söknycklar: C-0240/C-0244/C-0246, C-0925–C-0927, C-0930/C-0933/C-0935; 3011, Fl.897/36, N:o 392–43.\n- Beroenden: delad personpas",
+            "excerpt_start": 317
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "R-1138987dabd5eebe69232f2c",
+        "revision_id": "R-1138987dabd5eebe69232f2c@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": true,
+        "hits": [
+          {
+            "field": "rationale",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 21,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Källpost avgränsad i C-0240. SCB-årsutdrag ur födelseboken.",
+            "excerpt_start": 0
+          },
+          {
+            "field": "caveat",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 85,
+            "line": 2,
+            "occurrences": 1,
+            "excerpt": "Faderns skogsarbetare är läsosäkert. S-0190 anger att ingen lokal fullbild sparades.\nC-0240: Boställe Storbränna och föräldrar är lästa; fysisk förlossningsplats är inte automatiskt samma sak.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "READ-e722eeec76f1ddc4988de29d",
+        "revision_id": "READ-e722eeec76f1ddc4988de29d@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "subject_id",
+            "term": "R-1138987dabd5eebe69232f2c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-1138987dabd5eebe69232f2c",
+            "excerpt_start": 0
+          },
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "C-0240: Boställe Storbränna och föräldrar är lästa; fysisk förlossningsplats är inte automatiskt samma sak.\nSCB-årsu",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 43,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Dokumenterad avgränsning och läshistorik i C-0240; ingen ny oberoende evidensröst.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "RESEARCH-P-0211-9d76f0343410",
+        "revision_id": "RESEARCH-P-0211-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 162,
+            "line": 3,
+            "occurrences": 2,
+            "excerpt": "enom familjens exakta datum och Storbränna/Kovland samt SCB-utdragets föräldranamn och datum (C-0140, C-0239, C-0240). C-0935 ger dessutom föräldrahushållet på Storbränna folio 388 och bekräftar att familjen återkom till Sättn",
+            "excerpt_start": 52
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "S-0191",
+        "revision_id": "S-0191@1",
+        "version": 1,
+        "kind": "source",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "description",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 609,
+            "line": 16,
+            "occurrences": 1,
+            "excerpt": "avsättningsdatum. Den\ngemensamma gravplatsen och de födelsedatum som exakt överensstämmer med\nfödelseutdraget C-0240 ger ett starkt kompletterande identitetsstöd. Registret\nanger inte uttryckligen släktskap eller Emmas födelse",
+            "excerpt_start": 499
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0211-BO",
+        "revision_id": "THEME-P-0211-BO@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 100,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| BO | INTEGRITETSMINIMERAT | Endast Storbränna vid födelsen som historisk familjenyckel. | C-0239, C-0240 |\n",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0211-ID",
+        "revision_id": "THEME-P-0211-ID@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 104,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| ID | INTEGRITETSMINIMERAT | Identitet och föräldrar säkrade; bevarande av födelseutdraget återstår. | C-0240, KP-01 |\n",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0259-REL",
+        "revision_id": "THEME-P-0259-REL@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 198,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "em namngivna syskon finns i relationstabellen. Senare partner och egna barn eftersöks inte. | C-0238, C-0933, C-0240 |\n",
+            "excerpt_start": 88
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0260-REL",
+        "revision_id": "THEME-P-0260-REL@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 194,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "em namngivna syskon finns i relationstabellen. Senare partner och egna barn eftersöks inte. | C-0238, C-0933, C-0240 |\n",
+            "excerpt_start": 84
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0261-REL",
+        "revision_id": "THEME-P-0261-REL@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 194,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "em namngivna syskon finns i relationstabellen. Senare partner och egna barn eftersöks inte. | C-0238, C-0933, C-0240 |\n",
+            "excerpt_start": 84
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "THEME-P-0262-REL",
+        "revision_id": "THEME-P-0262-REL@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": false,
+        "seed": false,
+        "hits": [
+          {
+            "field": "body",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 193,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "em namngivna syskon finns i relationstabellen. Senare partner och egna barn eftersöks inte. | C-0238, C-0933, C-0240 |\n",
+            "excerpt_start": 83
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      },
+      {
+        "object_id": "TR-614bc4a80513645992b9beda",
+        "revision_id": "TR-614bc4a80513645992b9beda@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "classification": "possible_current_text_copy",
+        "registered_dependency": true,
+        "seed": false,
+        "hits": [
+          {
+            "field": "record_id",
+            "term": "R-1138987dabd5eebe69232f2c",
+            "term_source": "identifier",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "R-1138987dabd5eebe69232f2c",
+            "excerpt_start": 0
+          },
+          {
+            "field": "rationale",
+            "term": "C-0240",
+            "term_source": "identifier",
+            "offset": 51,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0240; ingen ny originalavläsning.",
+            "excerpt_start": 0
+          }
+        ],
+        "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+      }
+    ],
+    "historical": []
+  },
+  "review": {
+    "items": [
+      {
+        "object_id": "ASSESSMENT-P-0211",
+        "revision_id": "ASSESSMENT-P-0211@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0241",
+        "revision_id": "ASSESSMENT-P-0241@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ASSESSMENT-P-0246",
+        "revision_id": "ASSESSMENT-P-0246@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0211",
+        "revision_id": "BIO-P-0211@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0259",
+        "revision_id": "BIO-P-0259@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0260",
+        "revision_id": "BIO-P-0260@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0261",
+        "revision_id": "BIO-P-0261@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "BIO-P-0262",
+        "revision_id": "BIO-P-0262@1",
+        "version": 1,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0211-PK-01",
+        "revision_id": "CONTRACT-P-0211-PK-01@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0211-PK-05",
+        "revision_id": "CONTRACT-P-0211-PK-05@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0211-PK-11",
+        "revision_id": "CONTRACT-P-0211-PK-11@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0241-PK-11",
+        "revision_id": "CONTRACT-P-0241-PK-11@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "CONTRACT-P-0246-PK-11",
+        "revision_id": "CONTRACT-P-0246-PK-11@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "E-birth-P-0211",
+        "revision_id": "E-birth-P-0211@1",
+        "version": 1,
+        "kind": "event",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "EP-E-birth-P-0211-P-0211-principal",
+        "revision_id": "EP-E-birth-P-0211-P-0211-principal@1",
+        "version": 1,
+        "kind": "participation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0211-event_place-birth",
+        "revision_id": "F-P-0211-event_place-birth@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0211-household_membership-Storbranna1938",
+        "revision_id": "F-P-0211-household_membership-Storbranna1938@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0211-name_form-owner-archive",
+        "revision_id": "F-P-0211-name_form-owner-archive@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "F-P-0241-occupation-source-sequence",
+        "revision_id": "F-P-0241-occupation-source-sequence@1",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ID-M-C0240-Axel-Edvin-P-0241",
+        "revision_id": "ID-M-C0240-Axel-Edvin-P-0241@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ID-M-C0240-Emma-Petronella-P-0246",
+        "revision_id": "ID-M-C0240-Emma-Petronella-P-0246@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "ID-P-0211-C0240-child",
+        "revision_id": "ID-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "identity",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0211-14ecb0ef97be",
+        "revision_id": "KEY-P-0211-14ecb0ef97be@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "KEY-P-0211-d9e8f9410bfe",
+        "revision_id": "KEY-P-0211-d9e8f9410bfe@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "M-C0240-Axel-Edvin",
+        "revision_id": "M-C0240-Axel-Edvin@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "M-C0240-Emma-Petronella",
+        "revision_id": "M-C0240-Emma-Petronella@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "M-P-0211-C0240-child",
+        "revision_id": "M-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0211-C0240-child",
+        "revision_id": "O-P-0211-C0240-child@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0241-C0240-own",
+        "revision_id": "O-P-0241-C0240-own@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "O-P-0246-C0240-own",
+        "revision_id": "O-P-0246-C0240-own@1",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "PATH-P-0211-KP-01",
+        "revision_id": "PATH-P-0211-KP-01@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "PATH-P-0241-KP-02",
+        "revision_id": "PATH-P-0241-KP-02@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "PATH-P-0246-KP-02",
+        "revision_id": "PATH-P-0246-KP-02@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "R-1138987dabd5eebe69232f2c",
+        "revision_id": "R-1138987dabd5eebe69232f2c@1",
+        "version": 1,
+        "kind": "record",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "import_origin_not_evidence"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "READ-e722eeec76f1ddc4988de29d",
+        "revision_id": "READ-e722eeec76f1ddc4988de29d@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "REL-parent-P-0241-P-0211",
+        "revision_id": "REL-parent-P-0241-P-0211@1",
+        "version": 1,
+        "kind": "relation",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "REL-parent-P-0246-P-0211",
+        "revision_id": "REL-parent-P-0246-P-0211@1",
+        "version": 1,
+        "kind": "relation",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "reasons": [
+          "registered_version_dependency"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "RESEARCH-P-0211-9d76f0343410",
+        "revision_id": "RESEARCH-P-0211-9d76f0343410@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "S-0191",
+        "revision_id": "S-0191@1",
+        "version": 1,
+        "kind": "source",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0211-BO",
+        "revision_id": "THEME-P-0211-BO@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0211-ID",
+        "revision_id": "THEME-P-0211-ID@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0259-REL",
+        "revision_id": "THEME-P-0259-REL@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0260-REL",
+        "revision_id": "THEME-P-0260-REL@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0261-REL",
+        "revision_id": "THEME-P-0261-REL@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "THEME-P-0262-REL",
+        "revision_id": "THEME-P-0262-REL@1",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      },
+      {
+        "object_id": "TR-614bc4a80513645992b9beda",
+        "revision_id": "TR-614bc4a80513645992b9beda@1",
+        "version": 1,
+        "kind": "transcription",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "current": true,
+        "reasons": [
+          "registered_version_dependency",
+          "import_origin_not_evidence",
+          "import_target_not_evidence",
+          "possible_current_text_copy"
+        ],
+        "pending_requests": [],
+        "decision": null,
+        "rationale": null
+      }
+    ],
+    "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+  },
+  "limitations": [
+    "Read-only snapshot, not an execution queue. Re-run after revisions.",
+    "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+    "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+    "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "task": "T-0674",
+  "status": "proposal_not_applied",
+  "saved_at": "2026-09-18T17:56:52.281569+02:00",
+  "changes": 16,
+  "resolutions_proposed": 2,
+  "held_requests": [
+    {
+      "request": "e99487b72242e391cb1fba4b1bdefe2e573cfa194eb2c2f5289c36bec3634279",
+      "object_id": "O-P-0050-A-1388-household_report",
+      "reason": "O-P0050-A1388 blandar hushållspost med separat vigseldatum1860-07-05. Dess aktuella rå-vs-korrelationsprövning är reserverad; request stängs inte i detta förslag."
+    }
+  ],
+  "limitations": [
+    {
+      "objects": [
+        "BIO-P-0231",
+        "CONTRACT-P-0231-PK-05",
+        "THEME-P-0231-ID"
+      ],
+      "fields": [
+        "C0199 fadersnamn/yrke",
+        "C0199 dopvittnen"
+      ],
+      "status": "explicit_version_scope_reservation",
+      "restart": "Läs aktuell C0199-transkription/observation och T0171s exakt tillgodoräknade originalomfång; samordna med ansvarig kohort. Inga nya fakta om fader eller vittnen fastställs i detta förslag."
+    },
+    {
+      "objects": [
+        "CONTRACT-P-0236-PK-05"
+      ],
+      "fields": [
+        "outcome"
+      ],
+      "status": "proposed_EJ_STYRKT",
+      "restart": "Efter avstämning av reserverat vigselbråk/hustrufödelsefält och småårsbråk kan PK05 prövas igen; ingen personidentitetsgrind ändras automatiskt."
+    }
+  ],
+  "verification": {
+    "json_parse": "PASS",
+    "unique_ids": true,
+    "original_proposal_untouched": true,
+    "operation_sha256": "c5786da7a30e329541bffc3d9c27985525383c183d79d7c33be4923a85716fe0",
+    "apply": "NOT RUN",
+    "current_versions_and_sequential_evidence": "PASS",
+    "actual_resolve_ids": "PASS"
+  }
+}

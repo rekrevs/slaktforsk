@@ -1,0 +1,447 @@
+{
+  "schema": "blind_initial_reading/1",
+  "task": "T-0675",
+  "pass": "FIRST",
+  "reader": "/root/t0675_first_second",
+  "locked_at": "2026-09-18T19:01:41.790001+00:00",
+  "scope": [
+    4,
+    22,
+    15,
+    47
+  ],
+  "blindness": {
+    "before_lock": "Endast angivna fullbilder och egna oförändrade utsnitt; ur scope endast number, record, locator, media. Inga aktuella modeller eller andra läsarens förslag för dessa poster öppnade.",
+    "prior_knowledge": "Har tidigare läst andra Södertäljeblad och Flenanknutna personuppgifter för familjen i denna task. Därför avskriftsblind, inte personblind. Locator öppnades efter egna bildläsningar och kan innehålla namn/ortsbenämning.",
+    "method": "Fullbild och rubrik först, därefter originalpixlars utsnitt med sips utan kontraständring. Bbox är [x,y,width,height] i fullbild. Ingen OCR, extern hämtning, datumharmonisering eller identitetsprövning.",
+    "limits": "Råa tecken återges. Osäkra småfält förblir osäkra. Ditto utvecklas inte automatiskt. Detta är låst läsarbetsmaterial, inte publicering eller normaliserad personmodell. Barnens rådatum finns endast här för källgranskning."
+  },
+  "records": [
+    {
+      "scope_number": 4,
+      "record": "R-18122baf2db2f6c17eda5082",
+      "locator": "Södertälje B I/11, J-avdelningen 1943 s. 279 post 132, Arne Godvig Jansson, 00023828_00148",
+      "full_image_path": "/Users/sverker/repos/slaktforsk/genealogy/media/C-0882-riksarkivet-00023828_00148.jpg",
+      "full_image_sha256": "c7932280efd7edbd73cc6158155cb5c0b9fbf46032460ee04f85e88c85650cc6",
+      "bbox": [
+        230,
+        1515,
+        3100,
+        245
+      ],
+      "full_image_dimensions": [
+        6752,
+        4604
+      ],
+      "header": {
+        "page": "279",
+        "year": "1943",
+        "title": "Inflyttningsbok",
+        "parish_field": "[tomt]",
+        "adjacent_page": "280 har år 1944, gäller inte egna poster"
+      },
+      "columns": {
+        "1 Inflyttningens årsnummer": "132",
+        "2 dag och månad": "24/11",
+        "3 namn yrke": "--- Arne Godvig, poler.[?]",
+        "3 liten undre not": "husförest.[?]",
+        "4 födelseår dag månad": "15 21/2; över huvuduppgiften: 38 [litet v-liknande tecken] 40 [litet v-liknande tecken]",
+        "5 Mankön": "2",
+        "6 Kvinnkön": "2",
+        "7 Varifrån inflyttad": "Flen",
+        "8 Varthän i församlingen inflyttad": "Mejseln 3",
+        "9 Uppslag i församlingsboken": "15",
+        "10 Särskilda anteckningar": "av. 22 44/35"
+      },
+      "small_marks": "Liten kontrollbock i vänstermarginalen vid 132, och liten bock längst till höger. Namnets inledande streck återges som streck, inte ett utskrivet släktnamn.",
+      "uncertainties": [
+        {
+          "field": "yrke",
+          "bbox": [
+            1170,
+            1560,
+            380,
+            145
+          ],
+          "reading": "poler.[?]",
+          "reason": "förkortningen tätt skriven; rå teckenföljd, ingen yrkesnormalisering"
+        },
+        {
+          "field": "liten not under yrket",
+          "bbox": [
+            1330,
+            1650,
+            280,
+            140
+          ],
+          "reading": "husförest.[?]",
+          "reason": "mycket tät svart skrift, särskilt första och sista tecken; ingen säkert läst diagnos eller annan expansion"
+        },
+        {
+          "field": "överskrivna årtal",
+          "reading": "38 och 40 säkra; små följdetecken v-liknande, ej utvecklade till personuppgifter"
+        }
+      ],
+      "foot": "Ingen egen fotnot. Sidans nedre summeringar gäller hela sidan, inte bara post 132."
+    },
+    {
+      "scope_number": 22,
+      "record": "R-6868088be7ddf40ad617888d",
+      "locator": "Södertälje B I/11, J-avdelningen 1943 s. 279 post 131, Margit Eleonora Jansson, 00023828_00148",
+      "full_image_path": "/Users/sverker/repos/slaktforsk/genealogy/media/C-0882-riksarkivet-00023828_00148.jpg",
+      "full_image_sha256": "c7932280efd7edbd73cc6158155cb5c0b9fbf46032460ee04f85e88c85650cc6",
+      "bbox": [
+        230,
+        1400,
+        3100,
+        160
+      ],
+      "full_image_dimensions": [
+        6752,
+        4604
+      ],
+      "header": {
+        "page": "279",
+        "year": "1943",
+        "title": "Inflyttningsbok",
+        "parish_field": "[tomt]"
+      },
+      "columns": {
+        "1 Inflyttningens årsnummer": "131",
+        "2 dag och månad": "23/11",
+        "3 namn yrke": "Jansson, Margit Eleonora. Trädg.arb.",
+        "4 födelseår dag månad": "23 3/12",
+        "5 Mankön": "[tomt]",
+        "6 Kvinnkön": "1",
+        "7 Varifrån inflyttad": "Botkyrka",
+        "8 Varthän i församlingen inflyttad": "Brunnsäng gård / Ö. 1",
+        "9 Uppslag i församlingsboken": "23",
+        "10 Särskilda anteckningar": "av"
+      },
+      "small_marks": "Ingen säker separat marginalbock vid 131. Ö i bostadsfältet har tydliga två punkter; gårdtexten står över Ö. 1 inom egen bostadscell.",
+      "uncertainties": [],
+      "foot": "Ingen egen fotnot; sidans totalsummeringar inte hänförda till personen."
+    },
+    {
+      "scope_number": 15,
+      "record": "R-487694b835f9266119aadde8",
+      "locator": "Flen A II a/6c, Johansborg Storgatan 24 uppslag 860 rader 20–22, Arne Godvig Janssons hushåll, 00154000_00066",
+      "full_image_path": "/Users/sverker/repos/slaktforsk/genealogy/media/C-0894-riksarkivet-00154000_00066.jpg",
+      "full_image_sha256": "eea32bc1d1bd8b4153d7e81aedad2f92643794ff9cfbddf7d5af596a41723bd7",
+      "bbox": [
+        65,
+        3060,
+        5510,
+        485
+      ],
+      "full_image_dimensions": [
+        5663,
+        4052
+      ],
+      "header": {
+        "page_both_sides": "860",
+        "place": "Johansborg [sista vokalen o/e svag]",
+        "address": "Storgatan 24",
+        "year_header": "[ingen särskild årsheader]"
+      },
+      "column_headers": [
+        "Namn och familjeställning",
+        "Yrke/Stam/Lyte",
+        "Född år",
+        "Född dag/månad",
+        "Födelseort",
+        "Vaccinerad eller haft koppor",
+        "Gift år dag månad",
+        "Änkling/änka/frånskild år dag månad",
+        "Inflyttad eller överförd från",
+        "Inflyttad år dag månad",
+        "Kristendomskunskap",
+        "Inom svenska kyrkan begått H. Nattvarden",
+        "Bevistat husförhör år",
+        "Anteckningar",
+        "Värnpliktsförhållanden",
+        "Utflyttad/överförd till",
+        "Utflyttad år dag månad",
+        "Död år dag månad"
+      ],
+      "rows": [
+        {
+          "row": "20",
+          "cells": {
+            "Namn och familjeställning": "Jansson Arne Godvig",
+            "Yrke/Stam/Lyte": "polerare",
+            "Född år": "15",
+            "Född dag/månad": "21/2",
+            "Födelseort": "Flen",
+            "Vaccinerad eller haft koppor": "v",
+            "Gift år dag månad": "K / 38 15/5 [datum löper ned i mellanrummet mot r21]",
+            "Änkling/änka/frånskild år dag månad": "[tomt]",
+            "Inflyttad eller överförd från": "fol. 1084",
+            "Inflyttad år dag månad": "38",
+            "Kristendomskunskap": "—",
+            "Inom svenska kyrkan begått H. Nattvarden": "—",
+            "Bevistat husförhör år": "[tomt]",
+            "Anteckningar": "[tomt]",
+            "Värnpliktsförhållanden": "22 44/35",
+            "Utflyttad/överförd till": "N. B. 720",
+            "Utflyttad år dag månad": "[tomt]",
+            "Död år dag månad": "[tomt]"
+          },
+          "marks": "Ingen namnstrykning; röd kontrollmarkering vid vänster radnummer. Svag halvcirkel inom höger sidans död/marginalområde, ej datum."
+        },
+        {
+          "row": "21",
+          "cells": {
+            "Namn och familjeställning": "h. Maj Amalia f. Ekholm",
+            "Yrke/Stam/Lyte": "[tomt]",
+            "Född år": "20",
+            "Född dag/månad": "11/5",
+            "Födelseort": "Hyltinge",
+            "Vaccinerad eller haft koppor": "v",
+            "Gift år dag månad": "[se datum mellan r20 och r21]",
+            "Änkling/änka/frånskild år dag månad": "[tomt]",
+            "Inflyttad eller överförd från": "fol. 932",
+            "Inflyttad år dag månad": "〃",
+            "Kristendomskunskap": "k[?]",
+            "Inom svenska kyrkan begått H. Nattvarden": "n[?]",
+            "Bevistat husförhör år": "[tomt]",
+            "Anteckningar": "[tomt]",
+            "Värnpliktsförhållanden": "[tomt]",
+            "Utflyttad/överförd till": "[tomt]",
+            "Utflyttad år dag månad": "[tomt]",
+            "Död år dag månad": "[tomt]"
+          },
+          "marks": "Röd kontrollmarkering vid vänster radnummer."
+        },
+        {
+          "row": "22",
+          "cells": {
+            "Namn och familjeställning": "s. Jan Christer; icke döpt [svag ljus/blå text]",
+            "Yrke/Stam/Lyte": "[tomt]",
+            "Född år": "38",
+            "Född dag/månad": "16/7",
+            "Födelseort": "Flen",
+            "Vaccinerad eller haft koppor": "[tomt]",
+            "Gift år dag månad": "[tomt]",
+            "Änkling/änka/frånskild år dag månad": "[tomt]",
+            "Inflyttad eller överförd från": "〃",
+            "Inflyttad år dag månad": "〃",
+            "Kristendomskunskap": "[tomt]",
+            "Inom svenska kyrkan begått H. Nattvarden": "[tomt]",
+            "Bevistat husförhör år": "[tomt]",
+            "Anteckningar": "[tomt]",
+            "Värnpliktsförhållanden": "[tomt]",
+            "Utflyttad/överförd till": "[tomt]",
+            "Utflyttad år dag månad": "[tomt]",
+            "Död år dag månad": "[tomt]"
+          },
+          "marks": "Röd kontrollmarkering vid vänster radnummer; inget eget döds-, utflyttnings- eller yrkesvärde. Namnet ej struket."
+        }
+      ],
+      "uncertainties": [
+        {
+          "field": "r21 kol11/12",
+          "bbox": [
+            2970,
+            3150,
+            320,
+            340
+          ],
+          "reading": "k[?] respektive n[?]",
+          "reason": "kol11 har k-lik tvåarmad form; kol12 v/n-lik svag liten form, inte ett sammansatt betyg"
+        },
+        {
+          "field": "höger r20",
+          "reading": "N. B. 720",
+          "reason": "bokstäver cursiva; inga egna datum på följande hushållsrader"
+        },
+        {
+          "field": "äktenskapsdatum",
+          "reading": "38 15/5",
+          "reason": "skrivet i gemensamt vertikalt utrymme vid r20–21; inte två separata identiska utskrifter"
+        }
+      ],
+      "foot": "Ingen individuell fotnot. Liten tryckt formulär-/förlagsrad nederst på högersidan; ingen personnot."
+    },
+    {
+      "scope_number": 47,
+      "record": "R-f814a16e8b5aefb27170f5c4",
+      "locator": "Flen A II a/7c, Johansborg Storgatan 24 uppslag 720 rader 14–17, Arne Godvig Janssons hushåll, 00154003_00117",
+      "full_image_path": "/Users/sverker/repos/slaktforsk/genealogy/media/C-0895-riksarkivet-00154003_00117.jpg",
+      "full_image_sha256": "55df0f249ac63864d6fdbac38a3007bc176dacef6f252b030a74badf2fc7c455",
+      "bbox": [
+        65,
+        2240,
+        5500,
+        610
+      ],
+      "full_image_dimensions": [
+        5669,
+        4070
+      ],
+      "header": {
+        "page_both_sides": "720",
+        "quarter": "Kv. Penseln (östra), N:o 4",
+        "place": "Johansborg [sista vokalen o/e svag]",
+        "address": "Storgat. 24.",
+        "year_header": "[ingen särskild årsheader]"
+      },
+      "column_headers": [
+        "Namn och familjeställning",
+        "Yrke/Stam/Lyte",
+        "Född år",
+        "Född dag/månad",
+        "Födelseort",
+        "Vaccinerad eller haft koppor",
+        "Gift år dag månad",
+        "Änkling/änka/frånskild år dag månad",
+        "Inflyttad eller överförd från",
+        "Inflyttad år dag månad",
+        "Kristendomskunskap",
+        "Inom svenska kyrkan begått H. Nattvarden",
+        "Bevistat husförhör år",
+        "Anteckningar",
+        "Värnpliktsförhållanden",
+        "Utflyttad/överförd till",
+        "Utflyttad år dag månad",
+        "Död år dag månad"
+      ],
+      "extra_headers": "Mellan Värnpliktsförhållanden och Utflyttad/överförd finns Flyttningsbetyg: år, dag och månad; nr.",
+      "rows": [
+        {
+          "row": "14",
+          "cells": {
+            "Namn och familjeställning": "Jansson Arne Godvig [struket]",
+            "Yrke/Stam/Lyte": "Polerare",
+            "Född år": "15 [blå kontrollstreck över siffrorna]",
+            "Född dag/månad": "21/2",
+            "Födelseort": "Flen",
+            "Vaccinerad eller haft koppor": "v.",
+            "Gift år dag månad": "K / 1938 / 15/5 [datum fortsätter mot r15]",
+            "Änkling/änka/frånskild år dag månad": "[tomt]",
+            "Inflyttad eller överförd från": "G. B. 860.",
+            "Inflyttad år dag månad": "[tomt]",
+            "Kristendomskunskap": "—",
+            "Inom svenska kyrkan begått H. Nattvarden": "—",
+            "Bevistat husförhör år": "[F-lik initial/förkortning oläst] 43 [A-lik övre bokstav]/11 ; 41, 42",
+            "Anteckningar": "Mejseln 3",
+            "Värnpliktsförhållanden": "22 44/35",
+            "Utflyttad/överförd till": "Södertälje / stad",
+            "Utflyttad år dag månad": "1943 / 24/11",
+            "Död år dag månad": "[tomt]"
+          },
+          "flyttningsbetyg_date": "[tomt]",
+          "flyttningsbetyg_nr": "[tomt]",
+          "marks": "Horisontellt överstruket namn. Blå kontrollstreck i födelseåret. Svaga blyertstecken i vänstermarginalen och klammer över familjeraderna: olästa, inte bokförda som årtal."
+        },
+        {
+          "row": "15",
+          "cells": {
+            "Namn och familjeställning": "h. Maj Amalia f. Ekholm [struket]",
+            "Yrke/Stam/Lyte": "[tomt]",
+            "Född år": "20 [blå kontrollstreck]",
+            "Född dag/månad": "11/5",
+            "Födelseort": "Hyltinge",
+            "Vaccinerad eller haft koppor": "v.",
+            "Gift år dag månad": "[se r14, 15/5 står på denna höjd]",
+            "Änkling/änka/frånskild år dag månad": "[tomt]",
+            "Inflyttad eller överförd från": "[tomt]",
+            "Inflyttad år dag månad": "[tomt]",
+            "Kristendomskunskap": "b.[?]",
+            "Inom svenska kyrkan begått H. Nattvarden": "n.",
+            "Bevistat husförhör år": "〃",
+            "Anteckningar": "〃 [under Mejseln 3]",
+            "Värnpliktsförhållanden": "[tomt]",
+            "Utflyttad/överförd till": "〃",
+            "Utflyttad år dag månad": "〃",
+            "Död år dag månad": "[tomt]"
+          },
+          "flyttningsbetyg_date": "[tomt]",
+          "flyttningsbetyg_nr": "[tomt]",
+          "marks": "Överstruket namn, svag blå markering över födelseåret."
+        },
+        {
+          "row": "16",
+          "cells": {
+            "Namn och familjeställning": "s. Jan Christer [struket]; icke döpt [separat struket/understruket]",
+            "Yrke/Stam/Lyte": "[tomt]",
+            "Född år": "38 [blå kontrollstreck]",
+            "Född dag/månad": "16/7",
+            "Födelseort": "Flen",
+            "Vaccinerad eller haft koppor": "v[?]",
+            "Gift år dag månad": "[tomt]",
+            "Änkling/änka/frånskild år dag månad": "[tomt]",
+            "Inflyttad eller överförd från": "[tomt]",
+            "Inflyttad år dag månad": "[tomt]",
+            "Kristendomskunskap": "[tomt]",
+            "Inom svenska kyrkan begått H. Nattvarden": "[tomt]",
+            "Bevistat husförhör år": "〃",
+            "Anteckningar": "Döpt 16.11.1941 ; 〃 [under Mejseln 3]",
+            "Värnpliktsförhållanden": "[tomt]",
+            "Utflyttad/överförd till": "〃",
+            "Utflyttad år dag månad": "〃",
+            "Död år dag månad": "[tomt]"
+          },
+          "flyttningsbetyg_date": "[tomt]",
+          "flyttningsbetyg_nr": "[tomt]",
+          "marks": "Födelsedagen visuellt 16, månaden 7; avläst från detta blad. icke döpt har särskild horisontell strykning förutom namnlinjen."
+        },
+        {
+          "row": "17",
+          "cells": {
+            "Namn och familjeställning": "d. May Anita [struket]; icke döpt [överstruket]",
+            "Yrke/Stam/Lyte": "[tomt]",
+            "Född år": "40 [blå kontrollstreck]",
+            "Född dag/månad": "23/9",
+            "Födelseort": "D:o-lik dittoform",
+            "Vaccinerad eller haft koppor": "v.",
+            "Gift år dag månad": "[tomt]",
+            "Änkling/änka/frånskild år dag månad": "[tomt]",
+            "Inflyttad eller överförd från": "[tomt]",
+            "Inflyttad år dag månad": "[tomt]",
+            "Kristendomskunskap": "[tomt]",
+            "Inom svenska kyrkan begått H. Nattvarden": "[tomt]",
+            "Bevistat husförhör år": "〃",
+            "Anteckningar": "〃 〃 〃 〃 [under dopnotens delar] ; 〃 [under Mejseln 3]",
+            "Värnpliktsförhållanden": "[tomt]",
+            "Utflyttad/överförd till": "〃",
+            "Utflyttad år dag månad": "〃",
+            "Död år dag månad": "[tomt]"
+          },
+          "flyttningsbetyg_date": "[tomt]",
+          "flyttningsbetyg_nr": "[tomt]",
+          "marks": "Egen dopdag inte utskriven: endast dittotecken under r16. Rådatum bevarat här, ej normaliserat."
+        }
+      ],
+      "uncertainties": [
+        {
+          "field": "r14 kol13 hela smånoten",
+          "bbox": [
+            3090,
+            2250,
+            330,
+            630
+          ],
+          "reading": "[F-lik initial/förkortning oläst] 43 [A-lik övre bokstav]/11; 41, 42",
+          "reason": "ett äldre lager och en tät överlagrad not; inte säkert separerbara tecken. 41,42 ligger under radlinjen mot r15 före dennas ditto. Ingen säker full årscellstranskription och ingen expansion till kyrkohändelse"
+        },
+        {
+          "field": "r15 kol11",
+          "reading": "b.[?]",
+          "reason": "krullig vänstersväng, inte säkert samma tecken som kol11 på det andra bladet"
+        },
+        {
+          "field": "r16 vaccin",
+          "reading": "v[?]",
+          "reason": "streck nära cellgränsen"
+        },
+        {
+          "field": "marginal r14–17",
+          "reading": "[olästa svaga blyertstecken] och sammanbindande klammer",
+          "reason": "särskilt kontrollerat med separat crop; inget säkert siffervärde"
+        }
+      ],
+      "foot": "Ingen individuell fotnot. Nederst högersida tryckt Normal I. / Håkan Ohlssons boktr., Lund. Hela egna dödskolumnen tom."
+    }
+  ]
+}

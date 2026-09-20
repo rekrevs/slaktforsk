@@ -4,6 +4,25 @@ Work directly on `main`; do not create work branches unless the owner
 explicitly requests one. Owner instruction, 2026-09-18. Commit and push
 still require authorization as stated below.
 
+## Model allocation
+
+Owner-approved working rule, 2026-09-19, based on the
+[T-0769 evaluation](evaluations/T-0769/report.md):
+
+- Use **Astra** for source interpretation, identity and evidence judgements,
+  conflicts, and final assessment of how corrections affect existing knowledge.
+- Use **Sol** for bounded implementation of already-settled decisions with
+  explicit inputs, expected changes and verifiable acceptance criteria. Run
+  the applicable validators; return unresolved interpretation or evidence
+  questions to Astra before applying dependent changes.
+- Do not use **Terra or Luna** for project work unless the owner changes this
+  rule. When the boundary between Astra and Sol is unclear, choose Astra.
+
+This is a practical allocation rule from a small benchmark, not a guarantee
+of correctness. Existing source checks and review requirements still apply.
+
+## Research workflow
+
 Genealogy2 is the authoritative knowledge model after T-0643's verified
 cutover (PCD-2026-09-16-001 and PCD-2026-09-17-001). Read
 `genealogy2/README.md`, its local instructions and `genealogy2/docs/working.md`.

@@ -1,0 +1,319 @@
+{
+  "task": "T-0769",
+  "workload": "X",
+  "visibility": "PRIVATE; never provide to scored agents",
+  "status": "FROZEN_BEFORE_TRIALS",
+  "basis": "Prepared from actual preserved images, re-viewed full/crops by packet builder. Historical T-0675 double readings consulted only to identify reservations; they are not infallible truth. Root must visually review especially B.r9.birth, B.r12.birth and right-page row alignment before freeze.",
+  "schema": {
+    "top_level": "fields",
+    "count": 25,
+    "keys": [
+      "id",
+      "raw",
+      "state",
+      "alternatives",
+      "note"
+    ],
+    "states": [
+      "read",
+      "blank",
+      "uncertain"
+    ]
+  },
+  "grading": {
+    "content_points_per_field": 2,
+    "state_points_per_field": 1,
+    "maximum": 75,
+    "normalization": "Ignore whitespace, capitalization, punctuation and equivalent slash/fraction layout. Do not silently normalize a different date, a supplied full century, ditto, copied surname or other substituted content. State points refer to own-cell status. Content2=correct diplomatic raw;1=correct semantic reading but expanded century/name or incomplete role;0=wrong/omitted. For uncertainty reserve full credit when preference plus concrete alternative is reasonable. Generic everything-uncertain cannot earn all state points.",
+    "manual_review": "Blind to model/trial. Review unmatched spellings/glyph readings and critical errors against images; alternatives list is not exhaustive truth. Separate 5 crossout observations from75fieldscore; report count0–5, do not double-penalize per field.",
+    "pass_proposal": "At least68/75 and no confirmed critical error; frozen before trials."
+  },
+  "hard_errors_global": [
+    "Claims a crossing proves death or derives a canonical birthdate beyond source reading.",
+    "Uses outside project transcriptions or private rubric.",
+    "Mutates live research model."
+  ],
+  "fields": [
+    {
+      "id": "A.r2.name",
+      "preferred_raw": "Anders Alfred Andersson",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": []
+    },
+    {
+      "id": "A.r2.occupation",
+      "preferred_raw": "Hem.äg.",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [
+        "Hem. äg.",
+        "Hemäg."
+      ],
+      "review_note": "",
+      "critical_errors": []
+    },
+    {
+      "id": "A.r2.birth",
+      "preferred_raw": "69 24/7",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "69 is the written year. Expanded 1869 is content-correct but not fully diplomatic.",
+      "critical_errors": []
+    },
+    {
+      "id": "A.r2.birthplace",
+      "preferred_raw": "",
+      "acceptable_states": [
+        "blank"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": [
+        "Inventing Bygdeå or another birthplace from outside this own cell."
+      ]
+    },
+    {
+      "id": "A.r2.marriage",
+      "preferred_raw": "04 3/5",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": [
+        "Confident inversion to 04 5/3."
+      ]
+    },
+    {
+      "id": "A.r3.name",
+      "preferred_raw": "h. Anna Fredrika Jakobsdotter",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [
+        "h. Anna Fredrika Jakobsdtr"
+      ],
+      "review_note": "",
+      "critical_errors": []
+    },
+    {
+      "id": "A.r3.occupation",
+      "preferred_raw": "",
+      "acceptable_states": [
+        "blank"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": []
+    },
+    {
+      "id": "A.r3.birth",
+      "preferred_raw": "72 8/2",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "72 is written year; 1872 expands source.",
+      "critical_errors": []
+    },
+    {
+      "id": "A.r3.birthplace",
+      "preferred_raw": "",
+      "acceptable_states": [
+        "blank"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": [
+        "Invented birthplace or ditto."
+      ]
+    },
+    {
+      "id": "A.r3.marriage",
+      "preferred_raw": "",
+      "acceptable_states": [
+        "blank"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": [
+        "Copying 04 3/5 or inventing a ditto in own empty cell."
+      ]
+    },
+    {
+      "id": "B.r8.name",
+      "preferred_raw": "s. Petrus Nicolaus",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [
+        "s. Petrus Nikolaus"
+      ],
+      "review_note": "Names are crossed by a large diagonal cross. Observe crossing; it proves no death.",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r8.birth",
+      "preferred_raw": "1899 6/8",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r8.husforhor",
+      "preferred_raw": "13,14",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [
+        "13, 14",
+        "13 14"
+      ],
+      "review_note": "Use ruled row boundaries, not vertical position of printed row label.",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r9.name",
+      "preferred_raw": "s. Ludvig Emanuel",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "Names are crossed by a large diagonal cross. Observe crossing; it proves no death.",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r9.birth",
+      "preferred_raw": "1901 31/3",
+      "acceptable_states": [
+        "read",
+        "uncertain"
+      ],
+      "acceptable_raw_alternatives": [
+        "1901 5/3"
+      ],
+      "review_note": "31/3 preferred from visible 3 + narrow rising stroke. 5/3 is an older plausible reservation, accepted only as uncertain with 31/3 as alternative or a specific glyph explanation. This is an unresolved source-reading reservation, not a known true birthdate.",
+      "critical_errors": [
+        "Confident 1901 5/3 without any reservation/evidence."
+      ]
+    },
+    {
+      "id": "B.r9.husforhor",
+      "preferred_raw": "",
+      "acceptable_states": [
+        "blank"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "Use ruled row boundaries, not vertical position of printed row label.",
+      "critical_errors": [
+        "Assigning16 to row9; the next row10 starts above its printed row number."
+      ]
+    },
+    {
+      "id": "B.r10.name",
+      "preferred_raw": "s. Birger",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "Names are crossed by a large diagonal cross. Observe crossing; it proves no death.",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r10.birth",
+      "preferred_raw": "1905 13/8",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": [
+        "Confident 1905 31/8 (imports other record)."
+      ]
+    },
+    {
+      "id": "B.r10.husforhor",
+      "preferred_raw": "16",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "Use ruled row boundaries, not vertical position of printed row label.",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r11.name",
+      "preferred_raw": "d. Tyra Charlotta",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "Names are crossed by a large diagonal cross. Observe crossing; it proves no death.",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r11.birth",
+      "preferred_raw": "1907 12/7",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r11.husforhor",
+      "preferred_raw": "16",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "Use ruled row boundaries, not vertical position of printed row label.",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r12.name",
+      "preferred_raw": "d. Gerda Helena",
+      "acceptable_states": [
+        "read"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "Names are crossed by a large diagonal cross. Observe crossing; it proves no death.",
+      "critical_errors": []
+    },
+    {
+      "id": "B.r12.birth",
+      "preferred_raw": "1909 17/9",
+      "acceptable_states": [
+        "read",
+        "uncertain"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "17/9 visible: first digit vertical +7 horizontal; lower9 has loop/downstroke. Uncertain17/9 acceptable;12/7 wrong row/date.",
+      "critical_errors": [
+        "Confident1909 12/7 (copies preceding row)."
+      ]
+    },
+    {
+      "id": "B.r12.husforhor",
+      "preferred_raw": "",
+      "acceptable_states": [
+        "blank"
+      ],
+      "acceptable_raw_alternatives": [],
+      "review_note": "Use ruled row boundaries, not vertical position of printed row label.",
+      "critical_errors": []
+    }
+  ],
+  "root_image_review": "Root visually checked all three crops before trials; own cells/rows confirmed. Ludvig31/3 preferred,5/3 reservation retained. AI-reviewed reference, not independently certified human truth."
+}

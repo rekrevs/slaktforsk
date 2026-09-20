@@ -1,0 +1,140 @@
+{
+  "decisions": [
+    {
+      "id": "O1",
+      "action": "revise",
+      "rationale": "Den fastställda nya avskriften anger 23 oktober 1930, inte 22 oktober.",
+      "replacement": "Ebbas utflyttningsdatum i R1 anges 1930-10-23.",
+      "evidence": ["R1@2"],
+      "resolve": "q1"
+    },
+    {
+      "id": "F1",
+      "action": "revise",
+      "rationale": "Faktapåståendet bygger på den äldre felläsningen; den nya avskriften fastställer den 23 oktober.",
+      "replacement": "Ebba flyttade 23 oktober 1930 enligt R1.",
+      "evidence": ["R1@2"],
+      "resolve": "q2"
+    },
+    {
+      "id": "Q1",
+      "action": "revise",
+      "rationale": "Frågan är besvarad av den nya avskriften av R1.",
+      "replacement": "Ebba flyttade 23 oktober 1930 enligt R1.",
+      "evidence": ["R1@2"],
+      "resolve": null
+    },
+    {
+      "id": "K1",
+      "action": "revise",
+      "rationale": "Ett eventuellt inflyttningssök bör utgå från det korrigerade utflyttningsdatumet.",
+      "replacement": "Sök inflyttningspost efter 23 oktober 1930; utflyttningsdatumet är fastställt till 23 oktober.",
+      "evidence": ["R1@2"],
+      "resolve": null
+    },
+    {
+      "id": "H1",
+      "action": "historical",
+      "rationale": "Detta är en uttrycklig historisk logg över den tidigare preliminära läsningen och ska bevaras som historik.",
+      "replacement": null,
+      "evidence": [],
+      "resolve": null
+    },
+    {
+      "id": "N1",
+      "action": "irrelevant",
+      "rationale": "Träffen gäller en annan Ebba i Kalmar och rör inte den aktuella personkärnan.",
+      "replacement": null,
+      "evidence": [],
+      "resolve": null
+    },
+    {
+      "id": "F2",
+      "action": "retain",
+      "rationale": "Ägarens uttryckliga bekräftelse är OWNER_CONFIRMED och ska bevaras.",
+      "replacement": null,
+      "evidence": [],
+      "resolve": "q3"
+    },
+    {
+      "id": "P1",
+      "action": "retain",
+      "rationale": "Den nya evidensen rör inte Ebbas egen födelsepost eller den befintliga personkärnans stöd.",
+      "replacement": null,
+      "evidence": [],
+      "resolve": null
+    },
+    {
+      "id": "O2",
+      "action": "revise",
+      "rationale": "Den nya bildprövningen föredrar dag 31 men utesluter inte dag 5; observationen ska återge denna osäkerhet.",
+      "replacement": "Ludvigs födelseår är 1901 och månaden mars; dag 31 föredras i R2 men dag 5 kan inte uteslutas.",
+      "evidence": ["R2@2"],
+      "resolve": "q4"
+    },
+    {
+      "id": "F3",
+      "action": "revise",
+      "rationale": "I2 är avskrivet direkt från R2 och är därför inte ett oberoende belägg; dessutom föreligger uttrycklig dagkonflikt.",
+      "replacement": "R2 och I2 utgör inte två oberoende belägg för Ludvigs födelse 1901-03-05; R2 föredrar 1901-03-31 men 1901-03-05 kan inte uteslutas.",
+      "evidence": ["R2@2", "I2@1"],
+      "resolve": "q5"
+    },
+    {
+      "id": "Q2",
+      "action": "revise",
+      "rationale": "Födelsedagen är inte säkert avgjord eftersom R2 föredrar dag 31 och dag 5 fortfarande kan vara möjlig.",
+      "replacement": "Ludvigs födelsedag är inte säkert avgjord; sök och läs den egna födelseposten.",
+      "evidence": ["R2@2", "I2@1"],
+      "resolve": null
+    },
+    {
+      "id": "P2",
+      "action": "revise",
+      "rationale": "Personkärnans datum ska kvarstå under uttrycklig konflikt tills den egna födelseposten prövats; det osäkra nya datumet får inte göras kanoniskt.",
+      "replacement": "Ludvigs kanoniska födelsedatum kvarstår tills vidare som 1901-03-05 under uttrycklig konflikt. R2 föredrar 1901-03-31, men 1901-03-05 kan inte uteslutas; egen födelsepost är oläst.",
+      "evidence": ["R2@2", "I2@1"],
+      "resolve": "q6"
+    },
+    {
+      "id": "O3",
+      "action": "retain",
+      "rationale": "Den nya bildprövningen bekräftar att hälsokolumnen på Ludvigs egen rad är läst och tom.",
+      "replacement": null,
+      "evidence": ["R2@2"],
+      "resolve": "q7"
+    },
+    {
+      "id": "F4",
+      "action": "revise",
+      "rationale": "En tom hälsokolumn visar endast att ingen uppgift noterats där och stödjer inte ett påstående om hälsa under hela livet.",
+      "replacement": "Hälsokolumnen på Ludvigs egen rad i R2 är tom; detta visar endast att ingen hälsouppgift noterats där och fastställer inte hans livslånga hälsa.",
+      "evidence": ["R2@2"],
+      "resolve": "q8"
+    },
+    {
+      "id": "A1",
+      "action": "retain",
+      "rationale": "Identiteten är fortsatt säker via hushållskedjan och inget nytt motbelägg finns till R7; livsbilden är fortfarande inte bedömd.",
+      "replacement": null,
+      "evidence": ["R2@2"],
+      "resolve": "q9"
+    },
+    {
+      "id": "F5",
+      "action": "revise",
+      "rationale": "G1 anger hemort Östra Husby men ger ingen uppgift om fysisk dödsort eller familjens boende i övrigt.",
+      "replacement": "Gravkort G1 anger hemort Östra Husby; fysisk dödsort och familjens övriga boende är inte uppgivna.",
+      "evidence": ["G1@2"],
+      "resolve": null
+    }
+  ],
+  "followups": [
+    "Sök och läs Ludvigs egen födelsepost för att pröva dag 31 mot dag 5 i mars 1901."
+  ],
+  "canonical_changes": {
+    "persons": [],
+    "relations": [],
+    "owner_confirmed": []
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "task": "T-0675",
+  "request": {
+    "id": "624f65ae79a1b056f48f61d36e1a6a65661d31b65b8dd951fd2210f712a205c9",
+    "operation_id": "T-0675/two-grave-html-revision-v1",
+    "affected_revision_id": "EP-E-death-P-0002-P-0002-deceased@1",
+    "changed_revision_id": "E-death-P-0002@2",
+    "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+  },
+  "reason": "Ebbas deltagarroll deceased i E-death-P0002 består. Journal120 ändrade endast händelsens place_role från ospecificerad fältavsaknad till explicit okänd fysisk dödsort med omärkt råtextUppsalaDk; event_type death, datum1997-02-12, place_idnull och personP0002 är oförändrade. Råorttexten ger ingen ny person eller säker dödsplats. Deltagarrollen behålls med äldre versionsbelägg; ingen automatisk rebind.",
+  "current_affected_payload": {
+    "revision_id": "EP-E-death-P-0002-P-0002-deceased@1",
+    "event_id": "E-death-P-0002",
+    "person_id": "P-0002",
+    "mention_id": null,
+    "role": "deceased"
+  },
+  "current_basis_payload": {
+    "revision_id": "E-death-P-0002@2",
+    "event_type": "death",
+    "date_json": "{\"literal\":\"1997-02-12\",\"precision\":\"exact\",\"value\":\"1997-02-12\"}",
+    "place_id": null,
+    "place_role": "Fysisk dödsort ej fastställd; råtext Uppsala Dk finns i omärkt registerfält och fastställer inte hemförsamling."
+  },
+  "text_scan_count": 52,
+  "text_findings": {
+    "journal120_current_qualifications": "TR/AUDIT, BIO,HAL,Q02,deathkey,PATH05,READ ochRESEARCH har aktuellUppsalaDk/omärktfält-kvalifikation; äldre felavsaknad bevaras uttryckligen som historik.",
+    "other_current_mentions": "ASSESSMENT-P0002 citerar endast gravposten; KEY1158bcdcb19d gäller oförändrad namnform; PATHKP02 beskriver hemförsamling som väntad information, inte redan avgjord uppgift; PK09 anger korrekt efterhandskälla/gemensamgrav utan orsaksantagande.",
+    "remaining_person_facts": "Namn, gravmedlemskap, gravsättningsdag och övriga egna hushålls-/yrkes-/samfundsfält ändras inte av omärkt orttext.",
+    "shared_research": "RESEARCH-P0002@3 behåller root119Burträskprecisering under journal120gravprefix. Ingen revision föreslås."
+  },
+  "no_apply": true
+}

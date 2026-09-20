@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 766,
+  "next_id": 770,
   "tasks": [
     {
       "id": "T-0673",
@@ -25,7 +25,7 @@
     },
     {
       "id": "T-0674",
-      "status": "READY",
+      "status": "DONE",
       "size": "L",
       "after": [
         "T-0673"
@@ -34,24 +34,47 @@
       "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering."
     },
     {
+      "id": "T-0766",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0674"
+      ],
+      "summary": "Slutför G007:s fasta kvarvarande råfält och separata avgörande kontrolläsningar",
+      "note": "Explicit avgränsad rest från G007;33 redan namngivna målposter, endast kvarstående celler. Ingen ny förstläsning eller generation."
+    },
+    {
+      "id": "T-0767",
+      "status": "BLOCKED",
+      "size": "S",
+      "after": [
+        "T-0674"
+      ],
+      "summary": "Ompröva exakt C0236/C0237 efter återställd webbåtkomst",
+      "blocker": "Dokumenterat webböppningsfel/Chrome-tilläggsruta; återstart endast efter ändrad åtkomstförutsättning. T-0674 är slutförd.",
+      "note": "Två exakta offentliga historiska källadresser; nytt innehåll hålls skilt från äldre sökutdrag. Ingen CAPTCHA-bypass."
+    },
+    {
       "id": "T-0675",
-      "status": "READY",
+      "status": "BLOCKED",
       "size": "L",
       "after": [
         "T-0673"
       ],
       "summary": "Originalrevision G023: originalposter",
-      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering."
+      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering. Ägarbegärd paus; återuppta från senaste Återupptagning i dev-log efter ny instruktion.",
+      "blocker": "Ägarbegärd paus 2026-09-18; inväntar uttrycklig instruktion att återuppta ordinarie forskning. Sparad fas: VERIFYING."
     },
     {
       "id": "T-0676",
-      "status": "READY",
+      "status": "BLOCKED",
       "size": "L",
       "after": [
         "T-0673"
       ],
       "summary": "Originalrevision G024: originalposter",
-      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering."
+      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering. Ägarbegärd paus; återuppta från senaste Återupptagning i dev-log efter ny instruktion.",
+      "blocker": "Ägarbegärd paus 2026-09-18; inväntar uttrycklig instruktion att återuppta ordinarie forskning. Sparad fas: PLANNING."
     },
     {
       "id": "T-0677",
@@ -1040,9 +1063,11 @@
         "T-0763",
         "T-0764",
         "T-0671",
-        "T-0672"
+        "T-0672",
+        "T-0766",
+        "T-0767"
       ],
-      "blocker": "Samtliga originalrevisionskohorter och stöduppgifternas dispositioner.",
+      "blocker": "Samtliga originalrevisionskohorter, uttryckliga restdelningar och stöduppgifternas dispositioner.",
       "summary": "Slutrevision av hela originalgranskningen och oberoende kontrollprov"
     },
     {
@@ -7989,6 +8014,24 @@
       "after": [],
       "summary": "Trädverkan BÄRANDE bara i anlinjen: 73 profiler rättade och kontroll införd",
       "note": "Ägarbeslut 2026-09-11, PCD-2026-09-11-035."
+    },
+    {
+      "id": "T-0768",
+      "status": "BLOCKED",
+      "size": "M",
+      "after": [
+        "T-0675"
+      ],
+      "summary": "Villy Anders Eriks födelsetid: egen post mot 1922- och 1927-uppgifter",
+      "blocker": "T-0675 slutför och låser källkonfliktens underlag.",
+      "note": "Avgränsad följd av G023/C0935: P0258, högst januari1922 och november1927 i Sättnas födelseunderlag; ingen senare livsforskning eller tyst personändring."
+    },
+    {
+      "id": "T-0769",
+      "status": "DONE",
+      "size": "L",
+      "summary": "Kontrollerat modelltest: 60 oberoende försök för källäsning, följdprövning och ändringspaket",
+      "note": "60/60 isolerade försök avslutade; blind sakgranskning, native tester och kostnadsproxy bevarade i evaluations/T-0769/report.md. Begränsningar och känslighetsanalyser redovisade. Ordinarie forskning T-0675/T-0676 fortsatt pausad."
     }
   ]
 }

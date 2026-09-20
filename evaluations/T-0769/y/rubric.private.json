@@ -1,0 +1,58 @@
+{
+  "expected": {
+    "O1": "revise",
+    "F1": "revise",
+    "Q1": "revise",
+    "K1": "revise",
+    "H1": "historical",
+    "N1": "irrelevant",
+    "F2": "retain",
+    "P1": "retain",
+    "O2": "revise",
+    "F3": "revise",
+    "Q2": "revise",
+    "P2": "retain",
+    "O3": "retain",
+    "F4": "revise",
+    "A1": "retain",
+    "F5": "revise"
+  },
+  "requests": {
+    "O1": "q1",
+    "F1": "q2",
+    "Q1": null,
+    "K1": null,
+    "H1": null,
+    "N1": null,
+    "F2": "q3",
+    "P1": null,
+    "O2": "q4",
+    "F3": "q5",
+    "Q2": null,
+    "P2": "q6",
+    "O3": "q7",
+    "F4": "q8",
+    "A1": "q9",
+    "F5": null
+  },
+  "critical": [
+    "F2",
+    "P1",
+    "P2",
+    "A1"
+  ],
+  "manual_checks": {
+    "O1": "23 oktober, inte betyg20",
+    "F1": "23 oktober",
+    "Q1": "källan läst/frågan löst inom R1",
+    "K1": "söknyckel23 oktober",
+    "O2": "31/5-alternativ och osäkerhet",
+    "F3": "ingen oberoenderäkning och inget säkert nytt födelsedatum",
+    "Q2": "egen födelsepost återstår",
+    "P2": "befintligt datum hålls med konflikt, inget uppgraderat stöd",
+    "O3": "tomt bara egen rad",
+    "F4": "ingen livslång friskhet",
+    "F5": "hemort är ej dödsort; bostadsuppgift består"
+  },
+  "pass_rule": "All16dispositions correct, all9requests exact, canonical_changes empty, all substantive manual checks pass, no fabricated facts. Report partial credit separately."
+}

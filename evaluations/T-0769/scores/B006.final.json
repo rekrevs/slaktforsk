@@ -1,0 +1,171 @@
+{
+  "task": "y",
+  "passed": false,
+  "score": 15,
+  "maxScore": 16,
+  "critical_errors": [
+    "F5: opåverkad bostadsuppgift för familjen försvinner ur ersättningstexten.",
+    "Individuell requesthantering fel: F1 ska ha q2 men har None, Q1 ska ha None men har q1, F2 ska ha q3 men har None, O2 ska ha q4 men har None, F3 ska ha q5 men har None, P2 ska ha q6 men har None, O3 ska ha q7 men har None, F4 ska ha q8 men har None, A1 ska ha q9 men har None."
+  ],
+  "object_reviews": [
+    {
+      "id": "O1",
+      "accepted": true,
+      "reason": "Rättar till 1930-10-23 enligt R1@2; inget förväxlat betygsnummer."
+    },
+    {
+      "id": "F1",
+      "accepted": true,
+      "reason": "Den beroende sakuppgiften följer rättelsen till 23 oktober 1930."
+    },
+    {
+      "id": "Q1",
+      "accepted": true,
+      "reason": "Tar bort den inaktuella oläst-/öppenmarkeringen och besvarar dagen med R1."
+    },
+    {
+      "id": "K1",
+      "accepted": true,
+      "reason": "Korrigerar fortsatt söknyckel till 23 oktober; hittar inte på inflyttningsdatum."
+    },
+    {
+      "id": "H1",
+      "accepted": true,
+      "reason": "Bevarar uttrycklig tidigare preliminär läsning som historik."
+    },
+    {
+      "id": "N1",
+      "accepted": true,
+      "reason": "Avgränsar korrekt en annan Ebba från den aktuella rättelsen."
+    },
+    {
+      "id": "F2",
+      "accepted": true,
+      "reason": "Bevarar ägarbekräftat faderskap med sakligt tillräcklig motivering."
+    },
+    {
+      "id": "P1",
+      "accepted": true,
+      "reason": "Bevarar Ebbas separata födelsedatum och opåverkade personkärna."
+    },
+    {
+      "id": "O2",
+      "accepted": true,
+      "reason": "Återger 31 mars som föredragen läsning och 5 mars som ej utesluten; inget säkert nytt datum."
+    },
+    {
+      "id": "F3",
+      "accepted": true,
+      "reason": "Avvisar oberoende dubbelräkning av R2/I2 utan att fastställa ett nytt säkert datum."
+    },
+    {
+      "id": "Q2",
+      "accepted": true,
+      "reason": "Återöppnar den faktiska datumfrågan och anger egen födelsepost som återstående källsteg."
+    },
+    {
+      "id": "P2",
+      "accepted": true,
+      "reason": "Semantiskt godtagbar revise trots facit retain: ersättningstexten behåller uttryckligen 1901-03-05 under konflikt och väntar på egen födelsepost. Den reviderar kunskapsbeskrivningen, inte datumvärdet."
+    },
+    {
+      "id": "O3",
+      "accepted": true,
+      "reason": "Behåller den bekräftade, avgränsade observationen om tom hälsokolumn på egen rad."
+    },
+    {
+      "id": "F4",
+      "accepted": true,
+      "reason": "Tar bort livslång friskhetsslutsats och begränsar underlaget till den tomma egna raden."
+    },
+    {
+      "id": "A1",
+      "accepted": true,
+      "reason": "Bevarar identitetsgrindens hushållskedjegrund; inget nytt livsbildsgodkännande."
+    },
+    {
+      "id": "F5",
+      "accepted": false,
+      "reason": "Ersättningen skiljer korrekt hemort från dödsort men tappar den opåverkade befintliga sakuppgiften att familjen bodde i Östra Husby. Att G1 inte ger nya boendeuppgifter motiverar inte att stryka denna del av F5."
+    }
+  ],
+  "global_checks": {
+    "all_16_objects": true,
+    "all_9_requests_exact": false,
+    "request_mismatches": [
+      {
+        "id": "F1",
+        "expected": "q2",
+        "actual": null
+      },
+      {
+        "id": "Q1",
+        "expected": null,
+        "actual": "q1"
+      },
+      {
+        "id": "F2",
+        "expected": "q3",
+        "actual": null
+      },
+      {
+        "id": "O2",
+        "expected": "q4",
+        "actual": null
+      },
+      {
+        "id": "F3",
+        "expected": "q5",
+        "actual": null
+      },
+      {
+        "id": "P2",
+        "expected": "q6",
+        "actual": null
+      },
+      {
+        "id": "O3",
+        "expected": "q7",
+        "actual": null
+      },
+      {
+        "id": "F4",
+        "expected": "q8",
+        "actual": null
+      },
+      {
+        "id": "A1",
+        "expected": "q9",
+        "actual": null
+      }
+    ],
+    "canonical_changes_empty": true,
+    "owner_confirmed_preserved": true,
+    "no_new_person_or_relation": true,
+    "identity_gate_preserved_no_new_life_approval": true,
+    "existing_ludvig_date_explicitly_retained": true,
+    "no_fabricated_archival_findings": true,
+    "evidence_relevant": true,
+    "bounded_followups": true,
+    "full_answer_read": true,
+    "automatic_failed_checks": [
+      "F1.resolve",
+      "Q1.resolve",
+      "F2.resolve",
+      "O2.resolve",
+      "F3.resolve",
+      "P2.action",
+      "P2.resolve",
+      "O3.resolve",
+      "F4.resolve",
+      "A1.resolve"
+    ],
+    "canonical_substantively_protected": true,
+    "automatic_canonical_schema_deviation": false
+  },
+  "notes": [
+    "Invändning mot automatisk P2.action-match: revise är sakligt likvärdigt med retain när texten uttryckligen bevarar 1901-03-05 under konflikt. Begär efterprövning av root; råsvaret och fryst facit är oförändrade.",
+    "F5-känslighet: input anger endast G1 som explicit stöd för hela objektet och ger inget separat boendebelägg. Huvudbedömningen bevarar ändå den opåverkade bostadsdelen enligt fryst rubric. sensitivity_pass_without_F5 bortser från denna gränsdragning och tillåter datumbevarande konfliktannotering."
+  ],
+  "sensitivity_pass_without_F5": false
+}

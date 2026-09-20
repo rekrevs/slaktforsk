@@ -1,0 +1,18 @@
+import fs from 'node:fs';
+import {openDB} from '../../lib/store.mjs';
+import {inspect,personView} from '../../lib/domain.mjs';
+const dir='genealogy2/verification/T-0675/';
+const db=openDB('genealogy2/data/research.sqlite',{readOnly:true});
+const groups=JSON.parse(fs.readFileSync('genealogy2/verification/T-0673/cohorts-draft.json'));
+const group=groups.cohorts.find(x=>x.cohort_key==='G023');
+const priority=JSON.parse(fs.readFileSync('genealogy2/verification/T-0673/priority.json'));
+const claims=priority.claims.filter(x=>x.cohort_keys.includes('G023'));
+const people=new Set(claims.flatMap(x=>x.person_ids));
+const records=group.members.records.map((id,i)=>{const x=inspect(db,id),r=x.revisions.at(-1);return {number:i+1,record:id,version:x.currentVersion,kind:x.current.record_type,locator:x.current.locator,source:x.current.source_id,media:x.current.media||[],origins:r.origins.map(o=>({document_path:o.document_path,unit:o.id})),verified_priority_claims:claims.filter(c=>c.record_object_ids.includes(id)&&c.scope==='verified_pedigree').map(c=>c.object_id)};});
+const full=group.members.records.map(id=>inspect(db,id));
+const personRecords=[...people].sort().map(id=>personView(db,id));
+fs.writeFileSync(dir+'scope.json',JSON.stringify({task:'T-0675',cohort:'G023',members:group.members,cross_references:group.cross_references,records},null,2)+'\n');
+fs.writeFileSync(dir+'start-records.json',JSON.stringify(full,null,2)+'\n');
+fs.writeFileSync(dir+'start-persons.json',JSON.stringify(personRecords,null,2)+'\n');
+fs.writeFileSync(dir+'person-research-index.json',JSON.stringify(personRecords.map(p=>({person:p.id,name:p.person?.display_name,questions:p.research.questions.map(q=>({id:q.object_id,title:q.title,outcome:q.outcome,active:q.active})),paths:p.research.paths.map(q=>({id:q.object_id,body:q.body})),keys:p.research.keys.map(q=>({id:q.object_id,body:q.body}))})),null,2)+'\n');
+console.log({records:records.length,people:people.size,types:[...new Set(records.map(x=>x.kind))]});

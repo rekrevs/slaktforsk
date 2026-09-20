@@ -1,0 +1,707 @@
+{
+  "frozen_issues": [],
+  "runs": [
+    {
+      "id": "x_sol_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_astra_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_astra_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_astra_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_astra_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_luna_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_terra_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_luna_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T08:59:48.578Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"pwd && sed -n '1,240p' evaluations/T-0769/runs/y_luna_2/RUN.md && printf '\\\\n--- agent principles ---\\\\n' && sed -n '1,220p' ~/.agents/agent-principles.md && printf '\\\\n--- repo orientation ---\\\\n' && sed -n '1,160p' README.md && printf '\\\\n--- north star ---\\\\n' && sed -n '1,200p' NORTH-STAR.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":30000});\ntext(r.output);"
+          }
+        },
+        {
+          "term": "README.md",
+          "call": {
+            "timestamp": "2026-09-19T08:59:48.578Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"pwd && sed -n '1,240p' evaluations/T-0769/runs/y_luna_2/RUN.md && printf '\\\\n--- agent principles ---\\\\n' && sed -n '1,220p' ~/.agents/agent-principles.md && printf '\\\\n--- repo orientation ---\\\\n' && sed -n '1,160p' README.md && printf '\\\\n--- north star ---\\\\n' && sed -n '1,200p' NORTH-STAR.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":30000});\ntext(r.output);"
+          }
+        },
+        {
+          "term": "NORTH-STAR.md",
+          "call": {
+            "timestamp": "2026-09-19T08:59:48.578Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"pwd && sed -n '1,240p' evaluations/T-0769/runs/y_luna_2/RUN.md && printf '\\\\n--- agent principles ---\\\\n' && sed -n '1,220p' ~/.agents/agent-principles.md && printf '\\\\n--- repo orientation ---\\\\n' && sed -n '1,160p' README.md && printf '\\\\n--- north star ---\\\\n' && sed -n '1,200p' NORTH-STAR.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":30000});\ntext(r.output);"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_astra_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_luna_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:00:52.318Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:12000}),\n  tools.exec_command({cmd:\"sed -n '1,260p' evaluations/T-0769/runs/y_luna_5/RUN.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:12000}),\n  tools.exec_command({cmd:\"sed -n '1,180p' README.md; sed -n '1,160p' NORTH-STAR.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:16000})\n]); r.forEach(x=>text(x.status===\"fulfilled\"?x.value.output:x.reason));\n"
+          }
+        },
+        {
+          "term": "README.md",
+          "call": {
+            "timestamp": "2026-09-19T09:00:52.318Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:12000}),\n  tools.exec_command({cmd:\"sed -n '1,260p' evaluations/T-0769/runs/y_luna_5/RUN.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:12000}),\n  tools.exec_command({cmd:\"sed -n '1,180p' README.md; sed -n '1,160p' NORTH-STAR.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:16000})\n]); r.forEach(x=>text(x.status===\"fulfilled\"?x.value.output:x.reason));\n"
+          }
+        },
+        {
+          "term": "NORTH-STAR.md",
+          "call": {
+            "timestamp": "2026-09-19T09:00:52.318Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:12000}),\n  tools.exec_command({cmd:\"sed -n '1,260p' evaluations/T-0769/runs/y_luna_5/RUN.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:12000}),\n  tools.exec_command({cmd:\"sed -n '1,180p' README.md; sed -n '1,160p' NORTH-STAR.md\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:16000})\n]); r.forEach(x=>text(x.status===\"fulfilled\"?x.value.output:x.reason));\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_luna_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:01:30.750Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"pwd && sed -n '1,240p' /Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/z_luna_2/RUN.md && printf '\\\\n--- principles ---\\\\n' && sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",workdir:\"/Users/sverker/repos/slaktforsk\",yield_time_ms:10000,max_output_tokens:20000}); text(r.output);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_sol_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_astra_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_astra_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_sol_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_sol_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_sol_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_terra_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:04:19.974Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({\"cmd\":\"pwd && sed -n '1,240p' /Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/y_terra_2/RUN.md && sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000});\ntext(r.output);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_luna_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:05:27.585Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"pwd && sed -n '1,240p' evaluations/T-0769/runs/z_luna_3/RUN.md && printf '\\\\n--- principles ---\\\\n' && sed -n '1,240p' ~/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"max_output_tokens\":20000,\"yield_time_ms\":10000}); text(r.output);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_luna_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_terra_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_sol_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_sol_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_sol_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:07:59.940Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({\"cmd\":\"convert B-right-detail.jpg -colorspace Gray -contrast-stretch 1%x1% -resize 300% /tmp/x_sol_5_Bright_enh.png\",\"workdir\":\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_sol_5\",\"yield_time_ms\":10000,\"max_output_tokens\":2000}); text(r.output);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:08:03.068Z",
+            "name": "exec",
+            "arguments": "const r=await tools.view_image({path:\"/tmp/x_sol_5_Bright_enh.png\",detail:\"original\"}); image(r.image_url);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:08:22.112Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({\"cmd\":\"magick B-left-detail.jpg -colorspace Gray -contrast-stretch 0.5%x0.5% -resize 200% /tmp/x_sol_5_Bleft_enh.png && magick A-detail.jpg -colorspace Gray -contrast-stretch 0.5%x0.5% -resize 200% /tmp/x_sol_5_A_enh.png\",\"workdir\":\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_sol_5\",\"yield_time_ms\":10000,\"max_output_tokens\":2000}); text(r.output);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:08:27.461Z",
+            "name": "exec",
+            "arguments": "const paths=[\"/tmp/x_sol_5_Bleft_enh.png\",\"/tmp/x_sol_5_A_enh.png\"]; for (const p of paths){const r=await tools.view_image({path:p,detail:\"original\"}); image(r.image_url);}\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:08:48.175Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({\"cmd\":\"magick B-full.jpg -crop 650x1850+2860+250 -colorspace Gray -contrast-stretch 0.5%x0.5% -resize 180% /tmp/x_sol_5_Bcols_full.png\",\"workdir\":\"/Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_sol_5\",\"yield_time_ms\":10000,\"max_output_tokens\":2000}); text(r.output);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:08:53.425Z",
+            "name": "exec",
+            "arguments": "const r=await tools.view_image({path:\"/tmp/x_sol_5_Bcols_full.png\",detail:\"original\"}); image(r.image_url);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_terra_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:07:43.512Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.all([\n  tools.exec_command({\"cmd\":\"sed -n '1,240p' /Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/y_terra_4/RUN.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":12000}),\n  tools.exec_command({\"cmd\":\"sed -n '1,220p' /Users/sverker/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":12000})\n]);\ntext(r.map(x=>x.output).join(\"\\n\\n\"));"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_sol_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:08:38.975Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.allSettled([\n  tools.exec_command({cmd:\"sed -n '1,240p' evaluations/T-0769/runs/z_sol_1/RUN.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000}),\n  tools.exec_command({cmd:\"sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000})\n]); for (const x of r) text(x);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_terra_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:09:08.888Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.all([\n  tools.exec_command({\"cmd\":\"sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000}),\n  tools.exec_command({\"cmd\":\"sed -n '1,260p' evaluations/T-0769/runs/x_terra_3/RUN.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000})\n]);\ntext(r.map(x=>x.output).join(\"\\n\\n\"));"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_terra_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:09:41.508Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.allSettled([\n  tools.exec_command({\"cmd\":\"sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000}),\n  tools.exec_command({\"cmd\":\"sed -n '1,260p' evaluations/T-0769/runs/z_terra_4/RUN.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000})\n]);\ntext(r.map(x=>x.status===\"fulfilled\"?x.value.output:String(x.reason)).join(\"\\n\"));"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_astra_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_luna_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:10:26.322Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"pwd; sed -n '1,240p' /Users/sverker/repos/slaktforsk/evaluations/T-0769/runs/x_luna_5/RUN.md; printf '\\\\n--- agent principles ---\\\\n'; sed -n '1,240p' /Users/sverker/.agents/agent-principles.md; printf '\\\\n--- repo status ---\\\\n'; git status --short\",workdir:\"/Users/sverker/repos/slaktforsk\",yield_time_ms:10000,max_output_tokens:20000}); text(r.output);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_terra_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:10:37.078Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({\"cmd\":\"sed -n '1,240p' evaluations/T-0769/runs/x_terra_2/RUN.md && sed -n '1,220p' ~/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000});\ntext(r.output);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_sol_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_luna_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_astra_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_luna_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:12:39.789Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"pwd && sed -n '1,240p' /Users/sverker/.agents/agent-principles.md && printf '\\\\n--- RUN ---\\\\n' && sed -n '1,260p' evaluations/T-0769/runs/y_luna_3/RUN.md && printf '\\\\n--- files ---\\\\n' && rg --files evaluations/T-0769/runs/y_luna_3\",workdir:\"/Users/sverker/repos/slaktforsk\",yield_time_ms:10000,max_output_tokens:20000}); text(r.output);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_terra_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:12:56.456Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.all([\n  tools.exec_command({\"cmd\":\"sed -n '1,240p' /Users/sverker/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":12000}),\n  tools.exec_command({\"cmd\":\"sed -n '1,260p' evaluations/T-0769/runs/y_terra_3/RUN.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":12000})\n]);\ntext(r.map(x=>x.output).join(\"\\n\"));"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_luna_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_sol_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_sol_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_luna_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:14:45.649Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"pwd && sed -n '1,240p' /Users/sverker/.agents/agent-principles.md && printf '\\\\n--- RUN ---\\\\n' && sed -n '1,260p' evaluations/T-0769/runs/x_luna_1/RUN.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000}); text(r.output);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_luna_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:16:38.289Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"mkdir -p /private/tmp/xluna && sips -c 260 700 --cropOffset 250 1200 evaluations/T-0769/runs/x_luna_2/A-full.jpg --out /private/tmp/xluna/a-crop.jpg >/dev/null && sips -z 800 1800 /private/tmp/xluna/a-crop.jpg --out /private/tmp/xluna/a-zoom.jpg >/dev/null\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:2000}); text(r.output);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:16:47.336Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"sips -c 700 2600 --cropOffset 700 100 evaluations/T-0769/runs/x_luna_2/A-full.jpg --out /private/tmp/xluna/a-rows.jpg >/dev/null && sips -z 1200 4500 /private/tmp/xluna/a-rows.jpg --out /private/tmp/xluna/a-rows-z.jpg >/dev/null\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:2000}); text(r.output);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:16:49.658Z",
+            "name": "exec",
+            "arguments": "const r=await tools.view_image({path:\"/private/tmp/xluna/a-rows-z.jpg\",detail:\"original\"}); image(r.image_url);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:17:02.664Z",
+            "name": "exec",
+            "arguments": "const r=await tools.exec_command({cmd:\"sips -c 300 1900 --cropOffset 1080 150 evaluations/T-0769/runs/x_luna_2/A-full.jpg --out /private/tmp/xluna/a-name.jpg >/dev/null && sips -z 900 5200 /private/tmp/xluna/a-name.jpg --out /private/tmp/xluna/a-name-z.jpg >/dev/null\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:2000}); text(r.output);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:17:04.830Z",
+            "name": "exec",
+            "arguments": "const r=await tools.view_image({path:\"/private/tmp/xluna/a-name-z.jpg\",detail:\"original\"}); image(r.image_url);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:17:13.524Z",
+            "name": "exec",
+            "arguments": "const r=await tools.exec_command({cmd:\"sips -c 1200 1800 --cropOffset 650 100 evaluations/T-0769/runs/x_luna_2/B-full.jpg --out /private/tmp/xluna/b-left.jpg >/dev/null && sips -z 1600 2400 /private/tmp/xluna/b-left.jpg --out /private/tmp/xluna/b-left-z.jpg >/dev/null && sips -c 1200 1500 --cropOffset 700 2800 evaluations/T-0769/runs/x_luna_2/B-full.jpg --out /private/tmp/xluna/b-right.jpg >/dev/null && sips -z 1600 2000 /private/tmp/xluna/b-right.jpg --out /private/tmp/xluna/b-right-z.jpg >/dev/null\",workdir:\"/Users/sverker/repos/slaktforsk\",max_output_tokens:2000}); text(r.output);\n"
+          }
+        },
+        {
+          "term": "/tmp/",
+          "call": {
+            "timestamp": "2026-09-19T09:17:16.462Z",
+            "name": "exec",
+            "arguments": "const rs=await Promise.all([tools.view_image({path:\"/private/tmp/xluna/b-left-z.jpg\",detail:\"original\"}),tools.view_image({path:\"/private/tmp/xluna/b-right-z.jpg\",detail:\"original\"})]); rs.forEach(r=>image(r.image_url));\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_terra_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:16:34.821Z",
+            "name": "exec",
+            "arguments": "const r = await Promise.all([\n  tools.exec_command({\"cmd\":\"sed -n '1,240p' /Users/sverker/repos/slaktforsk/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000}),\n  tools.exec_command({\"cmd\":\"sed -n '1,260p' evaluations/T-0769/runs/x_terra_4/RUN.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"yield_time_ms\":10000,\"max_output_tokens\":20000})\n]);\ntext(r.map(x=>x.output).join(\"\\n\"));"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_sol_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_sol_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_luna_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_astra_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_sol_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_astra_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_astra_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_terra_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_astra_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_terra_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_luna_5",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_terra_2",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_terra_3",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_terra_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "y_astra_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_luna_4",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [
+        {
+          "term": "agent-principles",
+          "call": {
+            "timestamp": "2026-09-19T09:24:31.713Z",
+            "name": "exec",
+            "arguments": "const r = await tools.exec_command({cmd:\"sed -n '1,240p' evaluations/T-0769/runs/x_luna_4/RUN.md && printf '\\\\n--- PRINCIPLES ---\\\\n' && sed -n '1,220p' ~/.agents/agent-principles.md\",\"workdir\":\"/Users/sverker/repos/slaktforsk\",\"max_output_tokens\":20000}); text(r.output);\n"
+          }
+        }
+      ],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "z_terra_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    },
+    {
+      "id": "x_astra_1",
+      "input_unchanged": true,
+      "model_matches": true,
+      "suspicious_calls": [],
+      "note": "Automatisk triage; faktisk läs-/skrivomfattning granskas även i sparade verktygsanrop."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "task": "T-0769",
+  "purpose": "Read-only benchmark reuse; not new research",
+  "sources": [
+    {
+      "case": "A",
+      "original_path": "genealogy/media/C-0891-riksarkivet-00203753_00054.jpg",
+      "packet_file": "A-full.jpg",
+      "dimensions": [
+        5702,
+        4049
+      ],
+      "locator": "C-0891; Robertsfors A II/3c (1918–1929), Jomark fol658 rows2–3",
+      "url": "https://sok.riksarkivet.se/bildvisning/00203753_00054",
+      "sha256": "01d9ebc9f8fa9536938550b295c3e168b1f1c964cdd5562fbc22b4702f20572b"
+    },
+    {
+      "case": "B",
+      "original_path": "genealogy/media/C-0890-riksarkivet-00206819_00317.jpg",
+      "packet_file": "B-full.jpg",
+      "dimensions": [
+        5597,
+        3985
+      ],
+      "locator": "C-0890; Degerfors A II a/6 (1910–1920), Rosinedahl fol1064 rows8–12",
+      "url": "https://sok.riksarkivet.se/bildvisning/00206819_00317",
+      "sha256": "d0f809c0ce7a40066007ed2ebc1f095510fb5dd327a78b72a614cf8ff9a450e4"
+    }
+  ],
+  "crops": [
+    {
+      "file": "A-detail.jpg",
+      "source": "A-full.jpg",
+      "xywh": [
+        140,
+        270,
+        2180,
+        800
+      ]
+    },
+    {
+      "file": "B-left-detail.jpg",
+      "source": "B-full.jpg",
+      "xywh": [
+        80,
+        1480,
+        1900,
+        760
+      ]
+    },
+    {
+      "file": "B-right-detail.jpg",
+      "source": "B-full.jpg",
+      "xywh": [
+        2800,
+        1480,
+        490,
+        780
+      ]
+    }
+  ],
+  "transform": "sips crop only; no rescaling/retouching. Full files copied byte-identically; crops JPEG-reencoded by sips.",
+  "public_files": [
+    {
+      "file": "A-detail.jpg",
+      "bytes": 296438,
+      "sha256": "797c72b6876498072e27220ea508a8fed5369df96376376a98ee168b8e274a10"
+    },
+    {
+      "file": "A-full.jpg",
+      "bytes": 1089735,
+      "sha256": "01d9ebc9f8fa9536938550b295c3e168b1f1c964cdd5562fbc22b4702f20572b"
+    },
+    {
+      "file": "B-full.jpg",
+      "bytes": 1213808,
+      "sha256": "d0f809c0ce7a40066007ed2ebc1f095510fb5dd327a78b72a614cf8ff9a450e4"
+    },
+    {
+      "file": "B-left-detail.jpg",
+      "bytes": 134689,
+      "sha256": "dcf758b8cebf6aa1550e096a96d2592ee42f8054053962fff1bd7f76ae87354e"
+    },
+    {
+      "file": "B-right-detail.jpg",
+      "bytes": 35725,
+      "sha256": "595d8b193c5b911b242feaf2ebf1254166a870f0f8ce2964b49d842832034968"
+    },
+    {
+      "file": "TASK.md",
+      "bytes": 2512,
+      "sha256": "affa7aaaffd3bb3601f526e08add5111df012fb64d24a9e22fd5547a507bbde2"
+    }
+  ]
+}

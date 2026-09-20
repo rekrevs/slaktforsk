@@ -1,0 +1,55 @@
+{
+  "task": "z",
+  "passed": false,
+  "score": 15,
+  "maxScore": 15,
+  "critical_errors": [
+    "Motiveringen anger endast R-B:s rättelse och O-B:s underlagsprövning/versionsuppdatering. Den dokumenterar inte att den berörda slutsatsen F-B har omprövats eller dess datum rättats."
+  ],
+  "manual_pass": false,
+  "manual_checks": [
+    {
+      "object": "operation.reason",
+      "accepted": true,
+      "reason": "Sammanfattar titelrättelse och källpostens datumföljder inom det fastställda beslutet."
+    },
+    {
+      "object": "S-A.rationale",
+      "accepted": true,
+      "reason": "Motiveringen gäller den beslutade rättelsen av källtiteln."
+    },
+    {
+      "object": "R-B.rationale",
+      "accepted": true,
+      "reason": "Motiveringen gäller precisering av lokaliseringen och komplettering med helbild."
+    },
+    {
+      "object": "O-B.rationale",
+      "accepted": true,
+      "reason": "Motiveringen gäller rättelse av observerat utflyttningsdatum med den rättade källposten som underlag."
+    },
+    {
+      "object": "F-B.rationale",
+      "accepted": true,
+      "reason": "Motiveringen gäller slutsatsens rättade utflyttningsdatum; det bevarade förbehållet begränsar uppgiften till registrerad utflyttning."
+    },
+    {
+      "object": "resolve:F-B:bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad",
+      "accepted": false,
+      "reason": "Motiveringen anger endast R-B:s rättelse och O-B:s underlagsprövning/versionsuppdatering. Den dokumenterar inte att den berörda slutsatsen F-B har omprövats eller dess datum rättats."
+    },
+    {
+      "object": "resolve:O-B:b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5",
+      "accepted": true,
+      "reason": "Motiveringen gäller O-B:s datumrättelse eller dess uppdaterade versionsbundna underlag i samma rättelsepaket."
+    },
+    {
+      "object": "package.semantics",
+      "accepted": true,
+      "reason": "De fyra ändringsobjekten, datum, underlag, medier och bevarade fält följer beslutet; inga nya fakta eller ändringar av personkärnan eller F-OWNER."
+    }
+  ],
+  "notes": [],
+  "material_pass": false,
+  "formatting_only_failure": false
+}

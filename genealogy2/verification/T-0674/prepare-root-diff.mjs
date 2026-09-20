@@ -1,0 +1,5 @@
+import fs from 'node:fs';import {openDB} from '../../lib/store.mjs';import {inspect} from '../../lib/domain.mjs';
+const base='genealogy2/verification/T-0674/',file=process.argv[2];if(!file?.endsWith('-proposed-operation.json'))throw Error('Expected proposal filename');
+const db=openDB('genealogy2/data/research.sqlite',{readOnly:true});const op=JSON.parse(fs.readFileSync(base+file));const errors=[],evidenceChanges=[],diffs=[];
+for(const c of op.changes){const x=inspect(db,c.id),r=x.revisions.at(-1);if(x.currentVersion!==c.expectedVersion)errors.push(c.id+':version');for(const o of r.origins??[])if(!c.origins?.some(n=>n.unit===o.id))errors.push(c.id+':origin '+o.id);for(const e of r.evidence??[])if(!c.evidence?.some(n=>`${n.object}@${n.version}`===e.basis_revision_id))evidenceChanges.push(c.id+': '+e.basis_revision_id);diffs.push({id:c.id,old:r.data,new:c.data,oldCaveat:r.caveat,caveat:c.caveat});}
+fs.writeFileSync(base+file.replace('-proposed-operation.json','-root-diff.json'),JSON.stringify(diffs,null,2));console.log(JSON.stringify({changes:diffs.length,errors,evidenceChanges}));db.close();process.exitCode=errors.length?1:0;

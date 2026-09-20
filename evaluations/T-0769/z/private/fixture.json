@@ -1,0 +1,403 @@
+{
+  "format": "genealogy2-export/5",
+  "schemaHash": "a92604579940917e8a52be4c1e2a34ebb9be025f47b742bd253b4f720249ae41",
+  "tables": {
+    "meta": [
+      {
+        "key": "schema_hash",
+        "value": "a92604579940917e8a52be4c1e2a34ebb9be025f47b742bd253b4f720249ae41"
+      }
+    ],
+    "import_batch": [
+      {
+        "id": "186942b2eb8c02f1e374bbca0390281079ee7f5fb8c27eb065403eb5ee1abda4",
+        "manifest_json": "{\"files\":[{\"bytes\":62,\"encoding\":\"utf-8\",\"frozen\":true,\"path\":\"genealogy/README.md\",\"sha256\":\"75f5d6dc30f7f997d94be6a79c53ffa2d3b2ccca01424d6c63222ef645b1a874\",\"storage\":\"object\"}],\"format\":\"genealogy2-baseline/1\",\"id\":\"186942b2eb8c02f1e374bbca0390281079ee7f5fb8c27eb065403eb5ee1abda4\"}",
+        "extractor": "markdown-verbatim/1"
+      }
+    ],
+    "document": [
+      {
+        "path": "genealogy/README.md",
+        "batch_id": "186942b2eb8c02f1e374bbca0390281079ee7f5fb8c27eb065403eb5ee1abda4",
+        "sha256": "75f5d6dc30f7f997d94be6a79c53ffa2d3b2ccca01424d6c63222ef645b1a874",
+        "bytes": 62,
+        "text": "# Syntetiskt underlag\n\nRättelseprov. Inga verkliga personer.\n",
+        "frozen": 1
+      }
+    ],
+    "asset": [],
+    "legacy_entity": [],
+    "unit": [
+      {
+        "id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "document_path": "genealogy/README.md",
+        "kind": "curated_span",
+        "legacy_id": null,
+        "owner_id": null,
+        "section": "",
+        "start_byte": 0,
+        "end_byte": 62,
+        "start_line": 1,
+        "end_line": 3,
+        "raw": "# Syntetiskt underlag\n\nRättelseprov. Inga verkliga personer.\n",
+        "parsed_json": "{\"extractor\":\"curation-span/1\",\"operation\":\"fixture-seed\"}",
+        "historical": 0
+      }
+    ],
+    "legacy_assertion": [],
+    "operation": [
+      {
+        "id": "fixture-record-correction",
+        "request_hash": "b46f8865e1689dd74e6c1d4f2691a79d8943eba698a24c9324412e38a311c359",
+        "actor": "fixture",
+        "recorded_at": "2026-09-19T08:53:49.589Z",
+        "reason": "Tidigare metadataändring; individuella följdprövningar väntar."
+      },
+      {
+        "id": "fixture-seed",
+        "request_hash": "35f343198b2ef2f90c136178e2aca48467a60f32a07d78c228a519d921cdcde2",
+        "actor": "fixture",
+        "recorded_at": "2026-09-19T08:53:49.584Z",
+        "reason": "Syntetiskt startläge"
+      }
+    ],
+    "object": [
+      {
+        "id": "F-B",
+        "kind": "fact"
+      },
+      {
+        "id": "F-OWNER",
+        "kind": "fact"
+      },
+      {
+        "id": "O-B",
+        "kind": "observation"
+      },
+      {
+        "id": "P-A",
+        "kind": "person"
+      },
+      {
+        "id": "R-B",
+        "kind": "record"
+      },
+      {
+        "id": "S-A",
+        "kind": "source"
+      },
+      {
+        "id": "S-B",
+        "kind": "source"
+      }
+    ],
+    "revision": [
+      {
+        "id": "F-B@1",
+        "object_id": "F-B",
+        "version": 1,
+        "operation_id": "fixture-seed",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Syntetiskt startläge",
+        "caveat": "Registrerad utflyttning, inte bevis för faktisk resdag.",
+        "previous_id": null
+      },
+      {
+        "id": "F-OWNER@1",
+        "object_id": "F-OWNER",
+        "version": 1,
+        "operation_id": "fixture-seed",
+        "disposition": "recorded",
+        "evidence_status": "OWNER_CONFIRMED",
+        "rationale": "Ägaren har bekräftat bostadsorten.",
+        "caveat": "",
+        "previous_id": null
+      },
+      {
+        "id": "O-B@1",
+        "object_id": "O-B",
+        "version": 1,
+        "operation_id": "fixture-seed",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Syntetiskt startläge",
+        "caveat": "",
+        "previous_id": null
+      },
+      {
+        "id": "P-A@1",
+        "object_id": "P-A",
+        "version": 1,
+        "operation_id": "fixture-seed",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Syntetiskt startläge",
+        "caveat": "",
+        "previous_id": null
+      },
+      {
+        "id": "R-B@1",
+        "object_id": "R-B",
+        "version": 1,
+        "operation_id": "fixture-seed",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Syntetiskt startläge",
+        "caveat": "",
+        "previous_id": null
+      },
+      {
+        "id": "R-B@2",
+        "object_id": "R-B",
+        "version": 2,
+        "operation_id": "fixture-record-correction",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Syntetiskt startläge",
+        "caveat": "",
+        "previous_id": "R-B@1"
+      },
+      {
+        "id": "S-A@1",
+        "object_id": "S-A",
+        "version": 1,
+        "operation_id": "fixture-seed",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Syntetiskt startläge",
+        "caveat": "",
+        "previous_id": null
+      },
+      {
+        "id": "S-B@1",
+        "object_id": "S-B",
+        "version": 1,
+        "operation_id": "fixture-seed",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Syntetiskt startläge",
+        "caveat": "",
+        "previous_id": null
+      }
+    ],
+    "origin": [
+      {
+        "revision_id": "F-B@1",
+        "unit_id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "coverage": "complete",
+        "note": "Syntetisk proveniens som ska bevaras."
+      },
+      {
+        "revision_id": "F-OWNER@1",
+        "unit_id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "coverage": "complete",
+        "note": "Syntetisk proveniens som ska bevaras."
+      },
+      {
+        "revision_id": "O-B@1",
+        "unit_id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "coverage": "complete",
+        "note": "Syntetisk proveniens som ska bevaras."
+      },
+      {
+        "revision_id": "P-A@1",
+        "unit_id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "coverage": "complete",
+        "note": "Syntetisk proveniens som ska bevaras."
+      },
+      {
+        "revision_id": "R-B@1",
+        "unit_id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "coverage": "complete",
+        "note": "Syntetisk proveniens som ska bevaras."
+      },
+      {
+        "revision_id": "R-B@2",
+        "unit_id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "coverage": "complete",
+        "note": "Syntetisk proveniens som ska bevaras."
+      },
+      {
+        "revision_id": "S-A@1",
+        "unit_id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "coverage": "complete",
+        "note": "Syntetisk proveniens som ska bevaras."
+      },
+      {
+        "revision_id": "S-B@1",
+        "unit_id": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+        "coverage": "complete",
+        "note": "Syntetisk proveniens som ska bevaras."
+      }
+    ],
+    "dependency": [
+      {
+        "revision_id": "F-B@1",
+        "basis_revision_id": "O-B@1",
+        "role": "supports",
+        "note": ""
+      },
+      {
+        "revision_id": "F-OWNER@1",
+        "basis_revision_id": "S-B@1",
+        "role": "supports",
+        "note": ""
+      },
+      {
+        "revision_id": "O-B@1",
+        "basis_revision_id": "R-B@1",
+        "role": "supports",
+        "note": ""
+      },
+      {
+        "revision_id": "R-B@1",
+        "basis_revision_id": "S-B@1",
+        "role": "supports",
+        "note": ""
+      },
+      {
+        "revision_id": "R-B@2",
+        "basis_revision_id": "S-B@1",
+        "role": "supports",
+        "note": ""
+      }
+    ],
+    "review_request": [
+      {
+        "id": "b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5",
+        "operation_id": "fixture-record-correction",
+        "affected_revision_id": "O-B@1",
+        "changed_revision_id": "R-B@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      },
+      {
+        "id": "bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad",
+        "operation_id": "fixture-record-correction",
+        "affected_revision_id": "F-B@1",
+        "changed_revision_id": "R-B@2",
+        "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+      }
+    ],
+    "review_resolution": [],
+    "person": [
+      {
+        "revision_id": "P-A@1",
+        "display_name": "Testperson A",
+        "sex": null,
+        "legacy_state": null
+      }
+    ],
+    "source": [
+      {
+        "revision_id": "S-A@1",
+        "title": "Provförsammlingen",
+        "archive_reference": null,
+        "source_class": null,
+        "description": "Syntetisk källa A"
+      },
+      {
+        "revision_id": "S-B@1",
+        "title": "Provförsamlingen B",
+        "archive_reference": null,
+        "source_class": null,
+        "description": "Syntetisk källa B"
+      }
+    ],
+    "record": [
+      {
+        "revision_id": "R-B@1",
+        "source_id": "S-B",
+        "record_type": "departure",
+        "locator": "folio 20",
+        "dependence_note": "Samma registreringskedja som observationen."
+      },
+      {
+        "revision_id": "R-B@2",
+        "source_id": "S-B",
+        "record_type": "departure",
+        "locator": "folio 20, rad 3",
+        "dependence_note": "Samma registreringskedja som observationen."
+      }
+    ],
+    "record_asset": [],
+    "transcription": [],
+    "mention": [],
+    "observation": [
+      {
+        "revision_id": "O-B@1",
+        "record_id": "R-B",
+        "mention_id": null,
+        "property": "departure_date",
+        "value_literal": "22/10 1930",
+        "value_json": "{\"precision\":\"exact\",\"value\":\"1930-10-22\"}"
+      }
+    ],
+    "identity": [],
+    "identity_resolution": [],
+    "place": [],
+    "event": [],
+    "participation": [],
+    "relation": [],
+    "fact": [
+      {
+        "revision_id": "F-B@1",
+        "subject_id": "P-A",
+        "property": "departure_date",
+        "value_type": "date",
+        "value_json": "{\"literal\":\"22/10 1930\",\"precision\":\"exact\",\"value\":\"1930-10-22\"}"
+      },
+      {
+        "revision_id": "F-OWNER@1",
+        "subject_id": "P-A",
+        "property": "residence",
+        "value_type": "text",
+        "value_json": "\"Testbyn\""
+      }
+    ],
+    "question": [],
+    "search": [],
+    "assessment": [],
+    "narrative": [],
+    "legacy_mapping": [],
+    "native_asset": [
+      {
+        "id": "MED-old",
+        "storage_path": "genealogy2/media/objects/259e8f0a0c3ec4e94df6b990e36f76a33224b8623f3dcde609c972729b3ba0d5",
+        "sha256": "259e8f0a0c3ec4e94df6b990e36f76a33224b8623f3dcde609c972729b3ba0d5",
+        "bytes": 9,
+        "original_name": "old.txt",
+        "provenance": "Syntetiskt medieinnehåll för test; ingen arkivbild.",
+        "operation_id": "fixture-seed"
+      }
+    ],
+    "record_media": [
+      {
+        "revision_id": "R-B@1",
+        "asset_id": "MED-old",
+        "region": "utsnitt"
+      },
+      {
+        "revision_id": "R-B@2",
+        "asset_id": "MED-old",
+        "region": "utsnitt"
+      }
+    ],
+    "operation_payload": [
+      {
+        "sequence": 1,
+        "operation_id": "fixture-seed",
+        "policy": "native/2",
+        "request_json": "{\"actor\":\"fixture\",\"changes\":[{\"data\":{\"description\":\"Syntetisk källa A\",\"title\":\"Provförsammlingen\"},\"disposition\":\"recorded\",\"expectedVersion\":null,\"id\":\"S-A\",\"kind\":\"source\",\"origins\":[{\"coverage\":\"complete\",\"note\":\"Syntetisk proveniens som ska bevaras.\",\"unit\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\"}],\"rationale\":\"Syntetiskt startläge\"},{\"data\":{\"description\":\"Syntetisk källa B\",\"title\":\"Provförsamlingen B\"},\"disposition\":\"recorded\",\"expectedVersion\":null,\"id\":\"S-B\",\"kind\":\"source\",\"origins\":[{\"coverage\":\"complete\",\"note\":\"Syntetisk proveniens som ska bevaras.\",\"unit\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\"}],\"rationale\":\"Syntetiskt startläge\"},{\"data\":{\"display_name\":\"Testperson A\"},\"disposition\":\"recorded\",\"expectedVersion\":null,\"id\":\"P-A\",\"kind\":\"person\",\"origins\":[{\"coverage\":\"complete\",\"note\":\"Syntetisk proveniens som ska bevaras.\",\"unit\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\"}],\"rationale\":\"Syntetiskt startläge\"},{\"data\":{\"dependence_note\":\"Samma registreringskedja som observationen.\",\"locator\":\"folio 20\",\"record_type\":\"departure\",\"source_id\":\"S-B\"},\"disposition\":\"recorded\",\"evidence\":[{\"object\":\"S-B\",\"role\":\"supports\",\"version\":1}],\"expectedVersion\":null,\"id\":\"R-B\",\"kind\":\"record\",\"media\":[{\"id\":\"MED-old\",\"region\":\"utsnitt\"}],\"origins\":[{\"coverage\":\"complete\",\"note\":\"Syntetisk proveniens som ska bevaras.\",\"unit\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\"}],\"rationale\":\"Syntetiskt startläge\"},{\"data\":{\"mention_id\":null,\"property\":\"departure_date\",\"record_id\":\"R-B\",\"value_json\":{\"precision\":\"exact\",\"value\":\"1930-10-22\"},\"value_literal\":\"22/10 1930\"},\"disposition\":\"recorded\",\"evidence\":[{\"object\":\"R-B\",\"role\":\"supports\",\"version\":1}],\"expectedVersion\":null,\"id\":\"O-B\",\"kind\":\"observation\",\"origins\":[{\"coverage\":\"complete\",\"note\":\"Syntetisk proveniens som ska bevaras.\",\"unit\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\"}],\"rationale\":\"Syntetiskt startläge\"},{\"caveat\":\"Registrerad utflyttning, inte bevis för faktisk resdag.\",\"data\":{\"property\":\"departure_date\",\"subject_id\":\"P-A\",\"value_json\":{\"literal\":\"22/10 1930\",\"precision\":\"exact\",\"value\":\"1930-10-22\"},\"value_type\":\"date\"},\"disposition\":\"recorded\",\"evidence\":[{\"object\":\"O-B\",\"role\":\"supports\",\"version\":1}],\"evidenceStatus\":\"TRANSCRIBED\",\"expectedVersion\":null,\"id\":\"F-B\",\"kind\":\"fact\",\"origins\":[{\"coverage\":\"complete\",\"note\":\"Syntetisk proveniens som ska bevaras.\",\"unit\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\"}],\"rationale\":\"Syntetiskt startläge\"},{\"data\":{\"property\":\"residence\",\"subject_id\":\"P-A\",\"value_json\":\"Testbyn\",\"value_type\":\"text\"},\"disposition\":\"recorded\",\"evidence\":[{\"object\":\"S-B\",\"role\":\"supports\",\"version\":1}],\"evidenceStatus\":\"OWNER_CONFIRMED\",\"expectedVersion\":null,\"id\":\"F-OWNER\",\"kind\":\"fact\",\"origins\":[{\"coverage\":\"complete\",\"note\":\"Syntetisk proveniens som ska bevaras.\",\"unit\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\"}],\"rationale\":\"Ägaren har bekräftat bostadsorten.\"}],\"id\":\"fixture-seed\",\"media\":[{\"bytes\":9,\"id\":\"MED-old\",\"originalName\":\"old.txt\",\"provenance\":\"Syntetiskt medieinnehåll för test; ingen arkivbild.\",\"sha256\":\"259e8f0a0c3ec4e94df6b990e36f76a33224b8623f3dcde609c972729b3ba0d5\",\"storagePath\":\"genealogy2/media/objects/259e8f0a0c3ec4e94df6b990e36f76a33224b8623f3dcde609c972729b3ba0d5\"}],\"reason\":\"Syntetiskt startläge\",\"spans\":[{\"end\":62,\"id\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\",\"path\":\"genealogy/README.md\",\"sha256\":\"75f5d6dc30f7f997d94be6a79c53ffa2d3b2ccca01424d6c63222ef645b1a874\",\"start\":0}]}"
+      },
+      {
+        "sequence": 2,
+        "operation_id": "fixture-record-correction",
+        "policy": "native/2",
+        "request_json": "{\"actor\":\"fixture\",\"changes\":[{\"data\":{\"dependence_note\":\"Samma registreringskedja som observationen.\",\"locator\":\"folio 20, rad 3\",\"record_type\":\"departure\",\"source_id\":\"S-B\"},\"disposition\":\"recorded\",\"evidence\":[{\"object\":\"S-B\",\"role\":\"supports\",\"version\":1}],\"expectedVersion\":1,\"id\":\"R-B\",\"kind\":\"record\",\"media\":[{\"id\":\"MED-old\",\"region\":\"utsnitt\"}],\"origins\":[{\"coverage\":\"complete\",\"note\":\"Syntetisk proveniens som ska bevaras.\",\"unit\":\"e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff\"}],\"rationale\":\"Syntetiskt startläge\"}],\"dependencyReviewVersion\":2,\"id\":\"fixture-record-correction\",\"reason\":\"Tidigare metadataändring; individuella följdprövningar väntar.\"}"
+      }
+    ],
+    "unit_decision": [],
+    "unit_decision_target": []
+  }
+}

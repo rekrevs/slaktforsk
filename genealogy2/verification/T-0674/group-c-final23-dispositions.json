@@ -1,0 +1,915 @@
+{
+  "task": "T-0674",
+  "status": "proposed_not_applied",
+  "prepared_at": "2026-09-18T16:31:29.743314+00:00",
+  "pending_request_count": 23,
+  "unique_affected_objects": 15,
+  "decisions": [
+    {
+      "request": "14cc56587b652ba39ba62cbb32fc9ff4ec60ed1501df2f934d487982d98b5922",
+      "affected_revision": "E-registered_arrival-P-0061-Gunnismark1884@1",
+      "current_revision": "E-registered_arrival-P-0061-Gunnismark1884@1",
+      "changed_revision": "O-P-0061-Gunnismark-row10@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "E-registered_arrival-P-0061-Gunnismark1884@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Ankomsthändelsen behåller tidigare1884-10-28 från Umeåstad till Gunnismark. O-row10@2 återställde uttryckligen samma arrival_date;28[?]/10 är en svaghetsreservation,inte ett annat datum. Inga nya mellanled eller fysisk ankomstdag härleds.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "03ec0deca6146091894914452786609bbf8822f5d4c614cb518b71a2cfc90797",
+      "affected_revision": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal@1",
+      "current_revision": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal@1",
+      "changed_revision": "O-P-0061-Gunnismark-row10@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Emma är fortfarande principal i samma registrerade ankomst. Row10:s flyttdags-/namnreservationer byter inte person eller roll; tidigare ankomstdatum har bevarats.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "c464fc76f492a730fdd9648372ac8492fa5da3b9660c44b2ee06001de940917b",
+      "affected_revision": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1",
+      "current_revision": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1",
+      "changed_revision": "O-P-0061-Gunnismark-row10@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Emma är fortfarande principal i registrerad avgång till Sundsvall. E-departure@2 behåller juli1887 som range och reserverar25/23; deltagandet anger ingen egen exakt dag och dess befintliga caveat reserverar redan dagen.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "0716dd29ffc456da177ab220e70cf0bf74dcf4eff168cd64418e6b61678ca5f9",
+      "affected_revision": "F-P-0061-residence-known-anchors@1",
+      "current_revision": "F-P-0061-residence-known-anchors@1",
+      "changed_revision": "O-P-0061-Gunnismark-row10@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "F-P-0061-residence-known-anchors@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Hemvistfaktumet anger Östanträsk,Brännmark,Gunnismark och uttrycklig oläst lucka1876–1884; efter1887 är fortsatt obelagt med Sundsvall endast registrerad destination. Det innehåller ingen omtvistad exakt flyttdag och ändras inte av25/23-läsningen.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "ae84070e5483bbf93bae5b6dceeb96d12f81a40d6212a7c7f079d2182eecaa1c",
+      "affected_revision": "F-P-0061-vaccination-own-row@1",
+      "current_revision": "F-P-0061-vaccination-own-row@1",
+      "changed_revision": "O-P-0061-Gunnismark-row10@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "F-P-0061-vaccination-own-row@1 prövat särskilt mot O-P-0061-Gunnismark-row10@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Observationen behåller v på Emmas egen rad; faktumet anger vaccinated=true men okänd vaccinationsdag. Ändrade flytt-/barnsdatum ger ingen förändring av detta eget-rad-fält.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "3c2fb9cb5044e40fc022198ef1f89d0a6007230caf7ec48e4683fe4992d6daf8",
+      "affected_revision": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+      "current_revision": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+      "changed_revision": "M-C0218-Alex-Bernhard-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "E-birth-M-C0218-Alex-Bernhard-row11@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Barnets källbundna födelse1886-09-06 är densamma i O-son@2. Förnamnets osäkerhet förändrar inte den radbundna händelsen eller skapar ett person-id; ingen dopdag läggs till.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "6b40676e6e4bf8fc4fe5f58023bdd1695b4f0c47c360a755395ef05b9a92c169",
+      "affected_revision": "E-death-M-C0218-Alex-Bernhard-row11@1",
+      "current_revision": "E-death-M-C0218-Alex-Bernhard-row11@1",
+      "changed_revision": "M-C0218-Alex-Bernhard-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "E-death-M-C0218-Alex-Bernhard-row11@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Dödshändelsens1886-09-10 överensstämmer med O-son@2 och AS-T0674-Gunnismark-death-comparison@1.10/12 är avfört förstaförslag. Förnamnet förblir olöst utan byte av radbunden händelse; ingen dödsorsak eller begravningsdag tillkommer.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "532a868442e150ba7342893c3ece4cd8008293ab836304224a414139f30703b8",
+      "affected_revision": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+      "current_revision": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+      "changed_revision": "M-C0218-Alex-Bernhard-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Principal avser samma rad11-omnämnande utan P-id,inte ett fastställt förnamn. Födelse6september är oförändrad i aktuell observation;[A?]lex/Carl-konflikten tillför ingen ny person.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "29a263b49b3902a0e2674bc7b3849dc6a5c2004fa930776dfa6dd285eba91716",
+      "affected_revision": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+      "current_revision": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+      "changed_revision": "M-C0218-Alex-Bernhard-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Hennes oä. son är fortsatt uttrycklig modersrelation mellan rad10och11. O-son@2 behåller mother=P0061 och födelse6september; barnets osäkra förnamn påverkar inte rollen mother och ger inget faderskap.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "010c34083bda478fa421708704258ca6bf39aa839f1b9e74bd674aaf570e0202",
+      "affected_revision": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+      "current_revision": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+      "changed_revision": "M-C0218-Alex-Bernhard-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1 prövat särskilt mot M-C0218-Alex-Bernhard-row11@2. Den ändrade mentionversionen gäller osäkert förnamn och samma radbindning. Principal i döden är samma rad11-omnämnande utan P-id. Döden10september stöds av aktuell observation och riktad jämförelse; osäkert förnamn innebär ingen deltagarändring.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "198849333712f3ed1565b082eb0c14215731c1b8d3abbf0e72e557bf713ed352",
+      "affected_revision": "EP-E-death-P-0062-P-0062-principal@1",
+      "current_revision": "EP-E-death-P-0062-P-0062-principal@1",
+      "changed_revision": "O-P-0062-Gunnismark-row7@2",
+      "decision": "revise_and_resolve",
+      "individual_reason": "EP-E-death-P-0062-P-0062-principal@1 prövat särskilt mot O-P-0062-Gunnismark-row7@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Carl förblir principal i egen död1885,men deltagandets gamla caveat att dagreservationen återtagits är nu fel. Föreslagen revision bevarar rollen och anger olöst januari/juli enligt E-death@2 och den riktade jämförelsen; dödsorsaken är fortsatt okänd.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "d5d3662893b3bcdfd6d7d8a01a81aed09d5e85ec35a5d58bf3e635709a1dd0ed",
+      "affected_revision": "F-P-0062-age_at_death-1885@1",
+      "current_revision": "F-P-0062-age_at_death-1885@1",
+      "changed_revision": "O-P-0062-Gunnismark-row7@2",
+      "decision": "revise_and_resolve",
+      "individual_reason": "F-P-0062-age_at_death-1885@1 prövat särskilt mot O-P-0062-Gunnismark-row7@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Exakt years=22 följer inte längre av E-death@2. Föreslagen revision tar bort ensamt years och ger villkorligt21år vid9januari respektive22år vid9juli,beräknat från15maj1863. Ingendera månaden väljs; ingen dödboksålder har lästs.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "98b83f653e734bde730ca7acfa2f3ccf77dd5038768be9dd548fb68412220c79",
+      "affected_revision": "F-P-0062-civil_status_assessment-Gunnismark@1",
+      "current_revision": "F-P-0062-civil_status_assessment-Gunnismark@1",
+      "changed_revision": "O-P-0062-Gunnismark-row7@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "F-P-0062-civil_status_assessment-Gunnismark@1 prövat särskilt mot O-P-0062-Gunnismark-row7@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Faktumet är redan begränsat till tomma äktenskaps-/änkefält och ogift så långt uppslaget visar;ingen egen familj känd är kunskapsläge,inte livslång barnlöshet. Row7@2 bevarar samma tomfält; dödsmånad och ålder ändrar inte denna avgränsning.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "d27f47c7b67a1e3186ad7f72aa9952208021d7d087b088baec3f4903bd83cf15",
+      "affected_revision": "F-P-0062-name_form-book_variants@1",
+      "current_revision": "F-P-0062-name_form-book_variants@1",
+      "changed_revision": "O-P-0062-Gunnismark-row7@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "F-P-0062-name_form-book_variants@1 prövat särskilt mot O-P-0062-Gunnismark-row7@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Faktumet skiljer Carl Eric/Karl Erik från hushållets Lundström och sökalternativetJohansson. Row7@2 ändrade dödsnormalisering,inte namnvarianter. Ingen ny arbetsnot eller namnbytesidentitet tillkommer; befintlig varianthistorik består.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "cb4931f76363cb7deead35c7b1c502fb14186d83bf18270d4c962252a9287138",
+      "affected_revision": "EP-E-death-P-0473-P-0473-principal@1",
+      "current_revision": "EP-E-death-P-0473-P-0473-principal@1",
+      "changed_revision": "E-death-P-0473@2",
+      "decision": "revise_and_resolve",
+      "individual_reason": "EP-E-death-P-0473-P-0473-principal@1 prövat särskilt mot E-death-P-0473@2. Den ändrade händelseversionens datumprecision har jämförts med just detta objekts värde/roll. Beata förblir principal i dödsåret1852. E-death@2 behåller årsprecision och lägger bara första21/3 som oavgjord rånyckel; deltagandets förbehåll preciseras så det inte döljer denna lästa men obekräftade dag. Ingen exakt marsdag typas.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "1dfb5df1e074f790a566f0be6163df1a46b015cc55efdf16d7864078c87c0dfb",
+      "affected_revision": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+      "current_revision": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+      "changed_revision": "O-P-0061-Gunnismark-son-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "E-birth-M-C0218-Alex-Bernhard-row11@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Barnets källbundna födelse1886-09-06 är densamma i O-son@2. Förnamnets osäkerhet förändrar inte den radbundna händelsen eller skapar ett person-id; ingen dopdag läggs till.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "43de00c85360680928aba09a371f761dcb065db35d7c15c0dce0111f62195944",
+      "affected_revision": "E-death-M-C0218-Alex-Bernhard-row11@1",
+      "current_revision": "E-death-M-C0218-Alex-Bernhard-row11@1",
+      "changed_revision": "O-P-0061-Gunnismark-son-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "E-death-M-C0218-Alex-Bernhard-row11@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Dödshändelsens1886-09-10 överensstämmer med O-son@2 och AS-T0674-Gunnismark-death-comparison@1.10/12 är avfört förstaförslag. Förnamnet förblir olöst utan byte av radbunden händelse; ingen dödsorsak eller begravningsdag tillkommer.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "a3c3bc1b5c62e7824c216badf5312107a4543b193dbe7a472115874412a3da7e",
+      "affected_revision": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+      "current_revision": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+      "changed_revision": "O-P-0061-Gunnismark-son-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Principal avser samma rad11-omnämnande utan P-id,inte ett fastställt förnamn. Födelse6september är oförändrad i aktuell observation;[A?]lex/Carl-konflikten tillför ingen ny person.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "1f275565247a4d30300bc3d3d9314ec6754fd65c85f94ad83f691a89a66dc4a1",
+      "affected_revision": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+      "current_revision": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+      "changed_revision": "O-P-0061-Gunnismark-son-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Hennes oä. son är fortsatt uttrycklig modersrelation mellan rad10och11. O-son@2 behåller mother=P0061 och födelse6september; barnets osäkra förnamn påverkar inte rollen mother och ger inget faderskap.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "40f82badcd2c0e6027c86b4c9eb5807b93efaf51c2e8866d64ecea6a7440e7ca",
+      "affected_revision": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+      "current_revision": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+      "changed_revision": "O-P-0061-Gunnismark-son-row11@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1 prövat särskilt mot O-P-0061-Gunnismark-son-row11@2. Den ändrade observationsversionens aktuella råfält har jämförts med just detta objekts värde/roll. Principal i döden är samma rad11-omnämnande utan P-id. Döden10september stöds av aktuell observation och riktad jämförelse; osäkert förnamn innebär ingen deltagarändring.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "b88c059b3a52081fca4682b3887d11dbe3a2389f45a7f2cf09772620c05ec57e",
+      "affected_revision": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1",
+      "current_revision": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1",
+      "changed_revision": "E-registered_departure-P-0061-Sundsvall1887@2",
+      "decision": "retain_and_resolve_this_effect",
+      "individual_reason": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1 prövat särskilt mot E-registered_departure-P-0061-Sundsvall1887@2. Den ändrade händelseversionens datumprecision har jämförts med just detta objekts värde/roll. Emma är fortfarande principal i registrerad avgång till Sundsvall. E-departure@2 behåller juli1887 som range och reserverar25/23; deltagandet anger ingen egen exakt dag och dess befintliga caveat reserverar redan dagen.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "884799649a354103ec1c65986b7d7cb0c3233e2b09eddca4b80b809a069ede86",
+      "affected_revision": "EP-E-death-P-0062-P-0062-principal@1",
+      "current_revision": "EP-E-death-P-0062-P-0062-principal@1",
+      "changed_revision": "E-death-P-0062@2",
+      "decision": "revise_and_resolve",
+      "individual_reason": "EP-E-death-P-0062-P-0062-principal@1 prövat särskilt mot E-death-P-0062@2. Den ändrade händelseversionens datumprecision har jämförts med just detta objekts värde/roll. Carl förblir principal i egen död1885,men deltagandets gamla caveat att dagreservationen återtagits är nu fel. Föreslagen revision bevarar rollen och anger olöst januari/juli enligt E-death@2 och den riktade jämförelsen; dödsorsaken är fortsatt okänd.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    },
+    {
+      "request": "85c2eca19a043977a0b8077097a837d8d8ab49c47a2c2de50842b442f755f35e",
+      "affected_revision": "F-P-0062-age_at_death-1885@1",
+      "current_revision": "F-P-0062-age_at_death-1885@1",
+      "changed_revision": "E-death-P-0062@2",
+      "decision": "revise_and_resolve",
+      "individual_reason": "F-P-0062-age_at_death-1885@1 prövat särskilt mot E-death-P-0062@2. Den ändrade händelseversionens datumprecision har jämförts med just detta objekts värde/roll. Exakt years=22 följer inte längre av E-death@2. Föreslagen revision tar bort ensamt years och ger villkorligt21år vid9januari respektive22år vid9juli,beräknat från15maj1863. Ingendera månaden väljs; ingen dödboksålder har lästs.",
+      "remaining_raw_owner": "T-0766",
+      "scope": "Endast den konkreta beroendeföljden;inte hela personkontraktet eller all originalläsning."
+    }
+  ],
+  "free_text_checks": [
+    {
+      "object": "BIO-P-0061",
+      "current_version": 2,
+      "decision": "proposed_prose_clarification",
+      "reason": "Samma datum-/namnreservationer och jämförda barnsdöd bevaras. Språkprecisering gör januari/juli och systerns20eller21maj entydiga; inga datum ändras.",
+      "before": "## Biografisk sammanfattning\n\nEmma Maria är i hushållskedjan uppgiven född10 augusti1859 i Östanträsk i Sävar. Fem husförhörsuppslag förbinder hennes egna rader genom sidhänvisningar; detta är en beroende bokkedja. Äldre slutsatser om hennes ordningsnummer bland barnen används inte.\n\nHon lämnade familjeraden1876 för sida398. Mellanleden är olästa. Gunnismarksraden anger ankomst från Umeåstad84 28[?]/10. Någon egen tjänst eller arbetsgivare är inte därigenom belagd.\n\nRaden under henne anger hennes oä. son, född6 september1886. Namnledet Bernhard är tidigare läst; förnamnet är olöst mellan äldre [A?]lex och första T-0674-förslaget Carl. Carl Waldemar återinförs inte. Ingen far namnges. Barnets död10 september1886 stöds av roots riktade icke-blinda jämförelse av rå10/9 86. Första T-0674-förslaget10/12 är avfört som aktuellt alternativ. Födelse6september och död10september ger fyra kalenderdagar.\n\nHennes bror Carl Erik dog enligt hushållsraden1885, med månad1/7 olöst, och fadern samma år. Underlaget ger inte stöd för att beskriva dessa år som hennes livs svåraste eller räkna säkra intervall mellan dödsfallen.\n\nEmma bokfördes till Sundsvall i juli1887; äldre25/7 står mot första23/7. Hon lämnade före familjens noterade destinationer1889, men exakt flyttdag och systerns20/21maj1889 är reserverade. Återförening med familjen är inte belagd. Emmas egen dödsuppgift saknas i denna rad och hennes fortsatta liv är inte utrett här.\n\nForskningen om sidogrenen förblir avvecklad. T-0674 kvalificerar redan befintligt källunderlag utan att återaktivera dess personprogram.\n",
+      "after": "## Biografisk sammanfattning\n\nEmma Maria är i hushållskedjan uppgiven född 10 augusti 1859 i Östanträsk i Sävar. Fem husförhörsuppslag förbinder hennes egna rader genom sidhänvisningar; detta är en beroende bokkedja. Äldre slutsatser om hennes ordningsnummer bland barnen används inte.\n\nHon lämnade familjeraden 1876 för sida 398. Mellanleden är olästa. Gunnismarksraden anger ankomst från Umeå stad 84 28[?]/10. Någon egen tjänst eller arbetsgivare är inte därigenom belagd.\n\nRaden under henne anger hennes oä. son, född 6 september 1886. Namnledet Bernhard är tidigare läst; förnamnet är olöst mellan äldre [A?]lex och första T-0674-förslaget Carl. Carl Waldemar återinförs inte. Ingen far namnges. Barnets död 10 september 1886 stöds av den riktade icke-blinda jämförelsen i T-0674 av rå 10/9 86. Första T-0674-förslaget 10/12 är avfört som aktuellt alternativ. Födelse 6 september och död 10 september ger fyra kalenderdagar.\n\nHennes bror Carl Erik dog enligt hushållsraden 1885, med månaden januari eller juli olöst, och fadern samma år. Underlaget ger inte stöd för att beskriva dessa år som hennes livs svåraste eller räkna säkra intervall mellan dödsfallen.\n\nEmma bokfördes till Sundsvall i juli 1887; äldre 25/7 står mot första 23/7. Hon lämnade före familjens noterade destinationer 1889, men exakt flyttdag och systerns 20 eller 21 maj 1889 är reserverade. Återförening med familjen är inte belagd. Emmas egen dödsuppgift saknas i denna rad och hennes fortsatta liv är inte utrett här.\n\nForskningen om sidogrenen förblir avvecklad. T-0674 kvalificerar redan befintligt källunderlag utan att återaktivera dess personprogram.\n"
+    },
+    {
+      "object": "BIO-P-0062",
+      "current_version": 2,
+      "decision": "proposed_prose_clarification",
+      "reason": "Samma olösta dödsmånad och ålder21eller22 bevaras. Januari/juli skrivs i ord så1/7 inte misstolkas som ett datum; läsbarhet rättas utan sakändring.",
+      "before": "## Biografisk sammanfattning\n\nCarl Eric/Karl Erik är i hushållskedjan uppgiven född15 maj1863 i Östanträsk i Sävar. Namnvarianterna och fem bokled avser den tidigare identifierade separata personen; bokleden är en kopiekedja, inte fem oberoende födelsebelägg. Äldre uppgift om barnordning förs inte vidare.\n\nDen egna sidhänvisningen till401 år1879 och återkomsten från395[?] omkring1883[?] skiljer hans passage från familjens. Exakt avresedag och svaga hänvisningar behåller sina tidigare reservationer. Mellanliggande sidor är olästa och ger här inga belägg för yrke, husbonde eller egen familj.\n\nGunnismarksrad7 har en dödsnot1885. Äldre läsning85 9/7 står mot första T-0674-läsningen85 9/1; roots riktade icke-blinda jämförelse av samma dödkolumn lämnade månad1/7 olöst. T-0177:s äldre omläsning angav uttryckligen7; ingen separat dödbok eller sparad blind andraläsning av cellen har hittats. Månad och därmed dödsålder21eller22 är olösta. Dödsorsak och fysisk dödsplats är inte fastställda här. Tomma äktenskaps-/änkeceller bevisar inte livslång avsaknad av familj.\n\nFaderns död samma år innebär inte gemensam dödsorsak. Varken ett säkert fyramånadersintervall eller den tidigare fjortonmånadersberättelsen kan behållas eftersom Carls dödsmånad förblir omtvistad. Systersonens död10september1886 stöds däremot av roots riktade jämförelse. Sidogrenens forskning förblir avvecklad; inga nya kyrkoboksårgångar öppnas genom denna konsolidering.\n",
+      "after": "## Biografisk sammanfattning\n\nCarl Eric/Karl Erik är i hushållskedjan uppgiven född 15 maj 1863 i Östanträsk i Sävar. Namnvarianterna och fem bokled avser den tidigare identifierade separata personen; bokleden är en kopiekedja, inte fem oberoende födelsebelägg. Äldre uppgift om barnordning förs inte vidare.\n\nDen egna sidhänvisningen till 401 år 1879 och återkomsten från 395[?] omkring 1883[?] skiljer hans passage från familjens. Exakt avresedag och svaga hänvisningar behåller sina tidigare reservationer. Mellanliggande sidor är olästa och ger här inga belägg för yrke, husbonde eller egen familj.\n\nGunnismarks rad7 har en dödsnot 1885. Äldre läsning 85 9/7 står mot första T-0674-läsningen 85 9/1; den riktade icke-blinda jämförelsen i T-0674 av samma dödkolumn lämnade månaden januari eller juli olöst. T-0177:s äldre omläsning angav uttryckligen 7; ingen separat dödbok eller sparad blind andraläsning av cellen har hittats. Månad och därmed dödsålder 21 eller 22 är olösta. Dödsorsak och fysisk dödsplats är inte fastställda här. Tomma äktenskaps-/änkeceller bevisar inte livslång avsaknad av familj.\n\nFaderns död samma år innebär inte gemensam dödsorsak. Varken ett säkert fyramånadersintervall eller den tidigare fjortonmånadersberättelsen kan behållas eftersom Carls dödsmånad förblir omtvistad. Systersonens död 10 september 1886 stöds däremot av roots riktade jämförelse. Sidogrenens forskning förblir avvecklad; inga nya kyrkoboksårgångar öppnas genom denna konsolidering.\n"
+    },
+    {
+      "object": "BIO-P-0473",
+      "current_version": 2,
+      "decision": "proposed_prose_clarification",
+      "reason": "Jonas2/9februari skrivs entydigt2eller9februari,Pehr24eller28december och förälderns4eller14oktober. Detta är råalternativ,inte datum2september. Födelse-/dödsår och föräldralänk ändras inte.",
+      "before": "## Biografisk sammanfattning\n\nBeata Jonsdotters hushållsrader anger födelseår1809. Den tidigare identifierade föräldralänken till Jan Larsson och Sara Lisa vilar på hennes uttryckliga barnrad. Exakt födelsedag är okänd. Åldern17 i vigselposten i mars1826 ger villkorligt intervallmars1808–mars1809, inte ett tredje oberoende belägg för exakt1809. Det tidigare nollresultatet gäller avgränsade bilder för1809;1808 har inte undersökts här.\n\nVigselunderlaget1826 förbinder henne med Petter Reinhold Pehrsson och Ånäset. Ånäset är återkommande bokföringsort i den kända kedjan; den bevisar inte att hon aldrig flyttade eller säkert föddes i byn.\n\nMinst fem tidiga barn är identifierade i hushållskontexten: Jonas,Sara Sophia,Cathrina Magdalena,Pehr och Anders. Senare hushåll omfattar fler barn och fem är inte livslångt totalantal. De sparade första T-0674-läsningarna på s335/399 skiljer sig från tidigare modell om Jonas2/9 februari,Saras maj/september,Cathrinas januari/december och Pehrs24/28december. Inget av dessa alternativ avgörs utan separat avgörande läsning. Beatas egen föräldralänk omidentifieras inte av datumkonflikterna.\n\nFöräldrarnas tidigare noterade år- och patronymikonkonflikter består. Äldre syntes som gav säkert1777 för fadern i A I/3 används inte: det året är reserverat/oläsligt;4/14oktober och moderns patronymikon är olösta.\n\nBeatas dödsår är1852. Hushållsraden A I/6b s399 har förstläst21/3 1852, men separat avgörande andraläsning saknas och exakt datum fastställs inte. Det dokumenterade kataloggapet för dödböcker är inte bevis att alla primärkällor eller all information om dödsdagen saknas. Dödsorsak och begravning är inte utredda här. Täta förhörs-/nattvardsceller på s335/399 är delvis olästa; visuell kontroll av sidytan är inte full utvinning.\n",
+      "after": "## Biografisk sammanfattning\n\nBeata Jonsdotters hushållsrader anger födelseår 1809. Den tidigare identifierade föräldralänken till Jan Larsson och Sara Lisa vilar på hennes uttryckliga barnrad. Exakt födelsedag är okänd. Åldern 17 i vigselposten i mars 1826 ger villkorligt intervallmars 1808–mars 1809, inte ett tredje oberoende belägg för exakt 1809. Det tidigare nollresultatet gäller avgränsade bilder för 1809;1808 har inte undersökts här.\n\nVigselunderlaget 1826 förbinder henne med Petter Reinhold Pehrsson och Ånäset. Ånäset är återkommande bokföringsort i den kända kedjan; den bevisar inte att hon aldrig flyttade eller säkert föddes i byn.\n\nMinst fem tidiga barn är identifierade i hushållskontexten: Jonas, Sara Sophia, Cathrina Magdalena, Pehr och Anders. Senare hushåll omfattar fler barn och fem är inte livslångt totalantal. De sparade första T-0674-läsningarna på s 335/399 skiljer sig från tidigare modell om Jonas den 2 eller 9 februari, Saras maj/september, Cathrinas januari/december och Pehrs 24 eller 28 december. Inget av dessa alternativ avgörs utan separat avgörande läsning. Beatas egen föräldralänk omidentifieras inte av datumkonflikterna.\n\nFöräldrarnas tidigare noterade år- och patronymikonkonflikter består. Äldre syntes som gav säkert 1777 för fadern i A I/3 används inte: det året är reserverat/oläsligt;4 eller 14 oktober och moderns patronymikon är olösta.\n\nBeatas dödsår är 1852. Hushållsraden A I/6 b s 399 har förstläst 21/3 1852, men separat avgörande andraläsning saknas och exakt datum fastställs inte. Det dokumenterade kataloggapet för dödböcker är inte bevis att alla primärkällor eller all information om dödsdagen saknas. Dödsorsak och begravning är inte utredda här. Täta förhörs-/nattvardsceller på s 335/399 är delvis olästa; visuell kontroll av sidytan är inte full utvinning.\n"
+    }
+  ],
+  "current_affected_snapshots": [
+    {
+      "revision": {
+        "id": "E-registered_arrival-P-0061-Gunnismark1884@1",
+        "object_id": "E-registered_arrival-P-0061-Gunnismark1884",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Mellanperioden före ankomsten oläst.",
+        "previous_id": null,
+        "kind": "event"
+      },
+      "data": {
+        "revision_id": "E-registered_arrival-P-0061-Gunnismark1884@1",
+        "event_type": "registered_arrival",
+        "date_json": "{\"literal\":\"1884-10-28\",\"precision\":\"exact\",\"value\":\"1884-10-28\"}",
+        "place_id": null,
+        "place_role": "Gunnismark, Sävar; registrerad från Umeå stad."
+      },
+      "origins": [
+        {
+          "revision_id": "E-registered_arrival-P-0061-Gunnismark1884@1",
+          "unit_id": "731f78c23d0a7b7f474a8975dfe5ca5896baf711aff3e4c607a55292a9a1ad41",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "E-registered_arrival-P-0061-Gunnismark1884@1",
+          "basis_revision_id": "O-P-0061-Gunnismark-row10@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal@1",
+        "object_id": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Mellanperioden före ankomsten oläst.",
+        "previous_id": null,
+        "kind": "participation"
+      },
+      "data": {
+        "revision_id": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal@1",
+        "event_id": "E-registered_arrival-P-0061-Gunnismark1884",
+        "person_id": "P-0061",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "origins": [
+        {
+          "revision_id": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal@1",
+          "unit_id": "731f78c23d0a7b7f474a8975dfe5ca5896baf711aff3e4c607a55292a9a1ad41",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-P-0061-Gunnismark1884-P-0061-principal@1",
+          "basis_revision_id": "E-registered_arrival-P-0061-Gunnismark1884@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1",
+        "object_id": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Ingen funnen reciprok ankomst; datumets dag reserverad.",
+        "previous_id": null,
+        "kind": "participation"
+      },
+      "data": {
+        "revision_id": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1",
+        "event_id": "E-registered_departure-P-0061-Sundsvall1887",
+        "person_id": "P-0061",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "origins": [
+        {
+          "revision_id": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1",
+          "unit_id": "731f78c23d0a7b7f474a8975dfe5ca5896baf711aff3e4c607a55292a9a1ad41",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_departure-P-0061-Sundsvall1887-P-0061-principal@1",
+          "basis_revision_id": "E-registered_departure-P-0061-Sundsvall1887@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "F-P-0061-residence-known-anchors@1",
+        "object_id": "F-P-0061-residence-known-anchors",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Ingen obruten fysisk vistelse eller återförening med modern i Alnö.",
+        "previous_id": null,
+        "kind": "fact"
+      },
+      "data": {
+        "revision_id": "F-P-0061-residence-known-anchors@1",
+        "subject_id": "P-0061",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"after1887\":\"obelagt; registrerad destination Sundsvall\",\"places\":[\"Östanträsk, Sävar\",\"Brännmark, Sävar\",\"Gunnismark, Sävar\"],\"unread_gap\":\"1876–1884 via sida398/Umeå stad\"}"
+      },
+      "origins": [
+        {
+          "revision_id": "F-P-0061-residence-known-anchors@1",
+          "unit_id": "dd4ad601c9c409a95de4484dc000c49fdf4880ce1304836923f72e806805c82a",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "F-P-0061-residence-known-anchors@1",
+          "basis_revision_id": "O-P-0061-Gunnismark-row10@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "F-P-0061-vaccination-own-row@1",
+        "object_id": "F-P-0061-vaccination-own-row",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Ingen vaccinationsdag.",
+        "previous_id": null,
+        "kind": "fact"
+      },
+      "data": {
+        "revision_id": "F-P-0061-vaccination-own-row@1",
+        "subject_id": "P-0061",
+        "property": "vaccination",
+        "value_type": "structured",
+        "value_json": "{\"date\":\"okänd; v på egen rad\",\"vaccinated\":true}"
+      },
+      "origins": [
+        {
+          "revision_id": "F-P-0061-vaccination-own-row@1",
+          "unit_id": "731f78c23d0a7b7f474a8975dfe5ca5896baf711aff3e4c607a55292a9a1ad41",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "F-P-0061-vaccination-own-row@1",
+          "basis_revision_id": "O-P-0061-Gunnismark-row10@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+        "object_id": "E-birth-M-C0218-Alex-Bernhard-row11",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Barnet saknar P-id; en källbunden födelse, ingen dopdag.",
+        "previous_id": null,
+        "kind": "event"
+      },
+      "data": {
+        "revision_id": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1886-09-06\",\"precision\":\"exact\",\"value\":\"1886-09-06\"}",
+        "place_id": null,
+        "place_role": "Gunnismark, Sävar enligt senare hushållsuppgift."
+      },
+      "origins": [
+        {
+          "revision_id": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+          "unit_id": "18f78c856e9942156617e8bc3690bda943be5091047206e2b96e967297343798",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+          "unit_id": "2a698e12751fece5f4ac82da7605724451a1100effb4dc8c0109aeb7000ae300",
+          "coverage": "partial",
+          "note": "Den uttryckliga relationen och dess gränser bevaras."
+        },
+        {
+          "revision_id": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+          "unit_id": "ba08462fc790a0ae251a4c9046f4930b7fea9c102f9eb1bd4c4f458bc45b2a80",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+          "basis_revision_id": "O-P-0061-Gunnismark-son-row11@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "E-death-M-C0218-Alex-Bernhard-row11@1",
+        "object_id": "E-death-M-C0218-Alex-Bernhard-row11",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Dödskolumn med positionell kontroll; ingen dödsorsak eller begravningsdag.",
+        "previous_id": null,
+        "kind": "event"
+      },
+      "data": {
+        "revision_id": "E-death-M-C0218-Alex-Bernhard-row11@1",
+        "event_type": "death",
+        "date_json": "{\"literal\":\"1886-09-10\",\"precision\":\"exact\",\"value\":\"1886-09-10\"}",
+        "place_id": null,
+        "place_role": "Bokförd i Gunnismark, Sävar; fysisk dödsplats inte separat läst."
+      },
+      "origins": [
+        {
+          "revision_id": "E-death-M-C0218-Alex-Bernhard-row11@1",
+          "unit_id": "18f78c856e9942156617e8bc3690bda943be5091047206e2b96e967297343798",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "E-death-M-C0218-Alex-Bernhard-row11@1",
+          "unit_id": "2a698e12751fece5f4ac82da7605724451a1100effb4dc8c0109aeb7000ae300",
+          "coverage": "partial",
+          "note": "Den uttryckliga relationen och dess gränser bevaras."
+        },
+        {
+          "revision_id": "E-death-M-C0218-Alex-Bernhard-row11@1",
+          "unit_id": "3a69b868471608961dd880235cdb4f4f93589b1e3f2d3d205af55ee5a7d587c6",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "E-death-M-C0218-Alex-Bernhard-row11@1",
+          "basis_revision_id": "O-P-0061-Gunnismark-son-row11@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+        "object_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Samma avgränsade barnomnämnande utan ny personidentitet.",
+        "previous_id": null,
+        "kind": "participation"
+      },
+      "data": {
+        "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+        "event_id": "E-birth-M-C0218-Alex-Bernhard-row11",
+        "person_id": null,
+        "mention_id": "M-C0218-Alex-Bernhard-row11",
+        "role": "principal"
+      },
+      "origins": [
+        {
+          "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+          "unit_id": "18f78c856e9942156617e8bc3690bda943be5091047206e2b96e967297343798",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+          "basis_revision_id": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+          "basis_revision_id": "M-C0218-Alex-Bernhard-row11@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+        "object_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Hennes oä. son är uttrycklig relation; inget faderskap härlett.",
+        "previous_id": null,
+        "kind": "participation"
+      },
+      "data": {
+        "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+        "event_id": "E-birth-M-C0218-Alex-Bernhard-row11",
+        "person_id": "P-0061",
+        "mention_id": "M-C0218-Emma-Maria-row10",
+        "role": "mother"
+      },
+      "origins": [
+        {
+          "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+          "unit_id": "18f78c856e9942156617e8bc3690bda943be5091047206e2b96e967297343798",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+          "basis_revision_id": "E-birth-M-C0218-Alex-Bernhard-row11@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+          "basis_revision_id": "M-C0218-Emma-Maria-row10@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-birth-M-C0218-Alex-Bernhard-row11-P-0061-mother@1",
+          "basis_revision_id": "O-P-0061-Gunnismark-son-row11@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+        "object_id": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Samma avgränsade barnomnämnande utan ny personidentitet.",
+        "previous_id": null,
+        "kind": "participation"
+      },
+      "data": {
+        "revision_id": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+        "event_id": "E-death-M-C0218-Alex-Bernhard-row11",
+        "person_id": null,
+        "mention_id": "M-C0218-Alex-Bernhard-row11",
+        "role": "principal"
+      },
+      "origins": [
+        {
+          "revision_id": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+          "unit_id": "18f78c856e9942156617e8bc3690bda943be5091047206e2b96e967297343798",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+          "basis_revision_id": "E-death-M-C0218-Alex-Bernhard-row11@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-death-M-C0218-Alex-Bernhard-row11-M-C0218-Alex-Bernhard-row11-principal@1",
+          "basis_revision_id": "M-C0218-Alex-Bernhard-row11@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "EP-E-death-P-0062-P-0062-principal@1",
+        "object_id": "EP-E-death-P-0062-P-0062-principal",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Den äldre dagreservationen är uttryckligen återtagen; dödsorsaken är okänd.",
+        "previous_id": null,
+        "kind": "participation"
+      },
+      "data": {
+        "revision_id": "EP-E-death-P-0062-P-0062-principal@1",
+        "event_id": "E-death-P-0062",
+        "person_id": "P-0062",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "origins": [
+        {
+          "revision_id": "EP-E-death-P-0062-P-0062-principal@1",
+          "unit_id": "0aca933f7156d26560a5c21348bb2bf5e3d4f52c9d2c9793bb7c912952cc0ab9",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "EP-E-death-P-0062-P-0062-principal@1",
+          "basis_revision_id": "E-death-P-0062@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "F-P-0062-age_at_death-1885@1",
+        "object_id": "F-P-0062-age_at_death-1885",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "INFERRED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Ålder härledd från datum, inte ny avläst dödsboksålder.",
+        "previous_id": null,
+        "kind": "fact"
+      },
+      "data": {
+        "revision_id": "F-P-0062-age_at_death-1885@1",
+        "subject_id": "P-0062",
+        "property": "age_at_death",
+        "value_type": "structured",
+        "value_json": "{\"basis\":\"beräknat från accepterad senare födelsedag och dödsnot\",\"years\":22}"
+      },
+      "origins": [
+        {
+          "revision_id": "F-P-0062-age_at_death-1885@1",
+          "unit_id": "0aca933f7156d26560a5c21348bb2bf5e3d4f52c9d2c9793bb7c912952cc0ab9",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "F-P-0062-age_at_death-1885@1",
+          "basis_revision_id": "E-birth-P-0062@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0062-age_at_death-1885@1",
+          "basis_revision_id": "E-death-P-0062@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "F-P-0062-civil_status_assessment-Gunnismark@1",
+        "object_id": "F-P-0062-civil_status_assessment-Gunnismark",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Ingen accepterad livslång barnlöshet eller fullständig civilregisterkontroll.",
+        "previous_id": null,
+        "kind": "fact"
+      },
+      "data": {
+        "revision_id": "F-P-0062-civil_status_assessment-Gunnismark@1",
+        "subject_id": "P-0062",
+        "property": "civil_status_assessment",
+        "value_type": "structured",
+        "value_json": "{\"basis\":\"äktenskaps- och änkedatumfält tomma\",\"children\":\"ingen egen familj känd\",\"conclusion\":\"ogift så långt det lästa uppslaget visar\"}"
+      },
+      "origins": [
+        {
+          "revision_id": "F-P-0062-civil_status_assessment-Gunnismark@1",
+          "unit_id": "ac1a832e71f6d52c8d2532d3d6de2cdc85c72f2a4cddeb0d8e10b62cc0a1aab5",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "F-P-0062-civil_status_assessment-Gunnismark@1",
+          "basis_revision_id": "O-P-0062-Gunnismark-row7@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "F-P-0062-name_form-book_variants@1",
+        "object_id": "F-P-0062-name_form-book_variants",
+        "version": 1,
+        "operation_id": "T-0653/persons-02-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Textens samtidiga påståenden om Carl Eric i alla fem och Karl Erik i sista boken bevaras som motsägelse; inget namnbyte.",
+        "previous_id": null,
+        "kind": "fact"
+      },
+      "data": {
+        "revision_id": "F-P-0062-name_form-book_variants@1",
+        "subject_id": "P-0062",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"attested_given_names\":[\"Carl Eric\",\"Karl Erik\"],\"display_name\":\"Carl Erik Lundström\",\"search_only\":\"Johansson, ej belagt för honom\",\"surname_basis\":\"hushållets överrad; inte hans egna rader\"}"
+      },
+      "origins": [
+        {
+          "revision_id": "F-P-0062-name_form-book_variants@1",
+          "unit_id": "1a534285a9954dfd89ba38ed8d67bf0b99a23253f8492692da30bfc12fe181f0",
+          "coverage": "partial",
+          "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+        },
+        {
+          "revision_id": "F-P-0062-name_form-book_variants@1",
+          "unit_id": "1b6b278f1695afcbf1283076df62f473ba61639523ee7a0aceb8f85db428fab2",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "F-P-0062-name_form-book_variants@1",
+          "basis_revision_id": "O-P-0062-Gunnismark-row7@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0062-name_form-book_variants@1",
+          "basis_revision_id": "O-P-0062-child461@1",
+          "role": "supports",
+          "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+        }
+      ]
+    },
+    {
+      "revision": {
+        "id": "EP-E-death-P-0473-P-0473-principal@1",
+        "object_id": "EP-E-death-P-0473-P-0473-principal",
+        "version": 1,
+        "operation_id": "T-0661/persons-10-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Retrospektivt eget hushållsår, dag/orsak/begravning/fysisk plats okända.",
+        "previous_id": null,
+        "kind": "participation"
+      },
+      "data": {
+        "revision_id": "EP-E-death-P-0473-P-0473-principal@1",
+        "event_id": "E-death-P-0473",
+        "person_id": "P-0473",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "origins": [
+        {
+          "revision_id": "EP-E-death-P-0473-P-0473-principal@1",
+          "unit_id": "11035853ffa6f73a217ad0cbe4bc11a41a512f7e27dd112f5c2245f0590dcd81",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "revision_id": "EP-E-death-P-0473-P-0473-principal@1",
+          "basis_revision_id": "E-death-P-0473@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        }
+      ]
+    }
+  ],
+  "leaf_dependency_checks": {
+    "F-P-0062-age_at_death-1885": [],
+    "EP-E-death-P-0062-P-0062-principal": [],
+    "EP-E-death-P-0473-P-0473-principal": [],
+    "BIO-P-0061": [],
+    "BIO-P-0062": [],
+    "BIO-P-0473": []
+  },
+  "remaining_ownership": {
+    "T-0766": "33exakta befintliga originalposter;osäkra råfält inklusiveCarlmånad och barnetsförnamn. Ingen ny originalläsning utförd här.",
+    "T-0725": "C0216 avgränsat årgångssvep;inte genomfört genom denna följdprövning.",
+    "T-0767": "Webbföljder;inte genomfört genom denna följdprövning."
+  },
+  "validation": {
+    "method": "ReadonlySQLite currentversions/schema/evidenceversions;23exactpendingrequestIDs;perobjectsemanticreview;no active dependents of sixchangedobjects. No apply.",
+    "expected_pending_after_apply_if_no_concurrent_changes": 0,
+    "changes": 6,
+    "new_person_states": 0,
+    "new_image_reads": 0,
+    "historical_ownership_text_rewritten": false
+  },
+  "limits": [
+    "Resolve är förslag till de23 faktiskt öppna requests,ingen fabricerad efterföljande review.",
+    "Historiska T0674-ägarreferenser ändras inte enbart för nyägare. Nya sakförbehåll nämnerT0766.",
+    "Inga råtecken avgörs;barnets10september hämtas ur redan tillämpad jämförelse.",
+    "NativeAS-jämförelsen är uttryckligenicke-blind och ingenextra historisk källa."
+  ]
+}

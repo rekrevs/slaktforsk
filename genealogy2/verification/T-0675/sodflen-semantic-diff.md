@@ -1,0 +1,67 @@
+# Semantisk diff för 32 befintliga revisioner
+
+Inga normaliserade F-, E-, EP-, REL-, ID- eller personobjekt ändras. Fem källbundna observationer ändras. Samtliga äldre ursprung och evidensroller bevaras; beroenden till ändrade objekt binds till operationens slutversion. R-assets består.
+
+- **R-18122baf2db2f6c17eda5082** (record): före: R:s datafält och assets består. Äldre förbehåll: Ankomst132; poler./[h?]usförest., blyerts38↓40↓; hushållsgräns redan reserverad. Efter: R:s caveat/rationale får aktuell precisering; datafält oförändrade. Full egen rad; poler.[?],husförest.[?], osäkra v/piltecken, alla kolumner och marginalbockar. Namnlösa hushållsmedlemmar fortsatt inte identifierade från summorna.
+
+- **TR-c82b438915584b9d9ca567ac** (transcription): före: Ankomst132; poler./[h?]usförest., blyerts38↓40↓; hushållsgräns redan reserverad. Efter: Full aktuell text och reading_note; äldre avskrift klart historikmärkt. Full egen rad; poler.[?],husförest.[?], osäkra v/piltecken, alla kolumner och marginalbockar. Namnlösa hushållsmedlemmar fortsatt inte identifierade från summorna.
+
+- **READ-5db43a8d7f7d7bded795648f** (assessment): före: Äldre läshistorik/avgränsning; Ankomst132; poler./[h?]usförest., blyerts38↓40↓; hushållsgräns redan reserverad. Efter: Aktuell avgränsning först, äldre body historikmärkt. Full egen rad; poler.[?],husförest.[?], osäkra v/piltecken, alla kolumner och marginalbockar. Namnlösa hushållsmedlemmar fortsatt inte identifierade från summorna.
+
+- **R-6868088be7ddf40ad617888d** (record): före: R:s datafält och assets består. Äldre förbehåll: Ankomst131;23/12 och tvätt.arb.; destinationsfält utelämnat. Efter: R:s caveat/rationale får aktuell precisering; datafält oförändrade. 23/11,trädg.arb.;Brunnsäng gård/Ö.1,uppslag23,av. Egen post, skild från132.
+
+- **TR-5e418e7473c2d573ef5ea1b2** (transcription): före: Ankomst131;23/12 och tvätt.arb.; destinationsfält utelämnat. Efter: Full aktuell text och reading_note; äldre avskrift klart historikmärkt. 23/11,trädg.arb.;Brunnsäng gård/Ö.1,uppslag23,av. Egen post, skild från132.
+
+- **READ-e0e5d657e4f6dbf5f2b33a7d** (assessment): före: Äldre läshistorik/avgränsning; Ankomst131;23/12 och tvätt.arb.; destinationsfält utelämnat. Efter: Aktuell avgränsning först, äldre body historikmärkt. 23/11,trädg.arb.;Brunnsäng gård/Ö.1,uppslag23,av. Egen post, skild från132.
+
+- **R-487694b835f9266119aadde8** (record): före: R:s datafält och assets består. Äldre förbehåll: Kort860-avskrift; v,k N utan full rubrikutvinning; kol13 och marginalbåge ej tydligt särredovisade. Efter: R:s caveat/rationale får aktuell precisering; datafält oförändrade. Hela r20–22 med rubriker;v i vaccin/koppor,a/k[?] i kol11,n/v-likt i kol12; blankfält, gemensamt vigseldatum,N.B.720 och marginalbåge separat.
+
+- **TR-bd156a2627a87db06628621f** (transcription): före: Kort860-avskrift; v,k N utan full rubrikutvinning; kol13 och marginalbåge ej tydligt särredovisade. Efter: Full aktuell text och reading_note; äldre avskrift klart historikmärkt. Hela r20–22 med rubriker;v i vaccin/koppor,a/k[?] i kol11,n/v-likt i kol12; blankfält, gemensamt vigseldatum,N.B.720 och marginalbåge separat.
+
+- **READ-81857793dfa60d6f009c911d** (assessment): före: Äldre läshistorik/avgränsning; Kort860-avskrift; v,k N utan full rubrikutvinning; kol13 och marginalbåge ej tydligt särredovisade. Efter: Aktuell avgränsning först, äldre body historikmärkt. Hela r20–22 med rubriker;v i vaccin/koppor,a/k[?] i kol11,n/v-likt i kol12; blankfält, gemensamt vigseldatum,N.B.720 och marginalbåge separat.
+
+- **R-f814a16e8b5aefb27170f5c4** (record): före: R:s datafält och assets består. Äldre förbehåll: 720 med40–42 och flyttningsbetygets osäkra dag; äldre från-dittotecken och (Åsta). Efter: R:s caveat/rationale får aktuell precisering; datafält oförändrade. Hela r14–17;Kv.Penseln(östra),N:o4; rå överlagrad kol13, tomma betygsfält;41,42 läsbart,40 ej säkert separerbart; frånfält tomma utomG.B.860 pår14; strykningar/dittotecken separat.
+
+- **TR-717e9c73524962d14b10314c** (transcription): före: 720 med40–42 och flyttningsbetygets osäkra dag; äldre från-dittotecken och (Åsta). Efter: Full aktuell text och reading_note; äldre avskrift klart historikmärkt. Hela r14–17;Kv.Penseln(östra),N:o4; rå överlagrad kol13, tomma betygsfält;41,42 läsbart,40 ej säkert separerbart; frånfält tomma utomG.B.860 pår14; strykningar/dittotecken separat.
+
+- **READ-4f5a47f7a462a31110305012** (assessment): före: Äldre läshistorik/avgränsning; 720 med40–42 och flyttningsbetygets osäkra dag; äldre från-dittotecken och (Åsta). Efter: Aktuell avgränsning först, äldre body historikmärkt. Hela r14–17;Kv.Penseln(östra),N:o4; rå överlagrad kol13, tomma betygsfält;41,42 läsbart,40 ej säkert separerbart; frånfält tomma utomG.B.860 pår14; strykningar/dittotecken separat.
+
+- **O-P-0003-C0882-arrival-fields** (observation): före: {"value_literal": "polerare; 2 män, 2 kvinnor; uppslag 15; 22 44/35", "value_json": "{\"destination\":\"Mejseln 3\",\"folio\":\"15\",\"householdCount\":{\"female\":2,\"male\":2},\"occupation\":\"polerare\",\"otherTitle\":\"…förest.\",\"otherTitleSubject\":null}"} Efter: {"value_literal": "poler.[?]; 2 män, 2 kvinnor; uppslag15;22 44/35", "value_json": {"destination": "Mejseln 3", "folio": "15", "householdCount": {"female": 2, "male": 2}, "occupation": "polerare [tolkningsform; förkortning reserverad i denna post]", "otherTitle": "husförest.[?]", "otherTitleSubject": null, "occupation_raw": "poler.[?]", "pencil_years_raw": "38/40 med v-/pil-liknande osäkra sluttecken"}}
+
+- **O-P-0007-marks-860** (observation): före: {"property": "unresolved_column_marks", "value_literal": "v / k N", "value_json": "{\"marks\":[\"v\",\"k N\"],\"military_column\":\"\",\"row\":21}"} Efter: {"property": "vaccination_and_church_columns", "value_literal": "kol6 v; kol11 a/k[?]; kol12 n-/v-liknande; kol13 tom", "value_json": {"row": 21, "vaccination_or_smallpox_raw": "v", "christian_knowledge_raw": "a/k[?]", "communion_raw": "n-/v-liknande", "examination_year_raw": null, "military_column": null}}
+
+- **O-P-0007-marks-720** (observation): före: {"property": "unresolved_column_marks", "value_literal": "v / k n", "value_json": "{\"marks\":[\"v\",\"k n\"],\"military_column\":\"\",\"row\":15}"} Efter: {"property": "vaccination_and_church_columns", "value_literal": "kol6 v; kol11 b/k[?]; kol12 n-liknande; kol13 ditto till reserverad not på r14", "value_json": {"row": 15, "vaccination_or_smallpox_raw": "v", "christian_knowledge_raw": "b/k[?]", "communion_raw": "n-liknande", "examination_raw": "ditto till r14:s reserverade Fl.[?]43 A/11[?];41,42", "military_column": null}}
+
+- **O-P-0003-C0895-religious-fields** (observation): före: {"value_literal": "40–42; reserverad attestdag 1943", "value_json": "{\"attestationDay\":\"reserverad läsning 1943\",\"years\":[\"40\",\"41\",\"42\"]}"} Efter: {"value_literal": "kol13 Fl.[?]43 A/11[?];41,42, överlagrat; flyttningsbetygets datum/nr tomma", "value_json": {"column": "13 Bevistat husförhör år", "raw": "Fl.[?]43 A/11[?];41,42", "prior40": "inte säkert separerbart i överlagringen", "certificate_date": null, "certificate_number": null, "attestation_event_proved": false}}
+
+- **O-P-0303-C-0895-flen** (observation): före: {"value_json": "{\"baptism_ditto\":\"1941-11-16\",\"baptism_initial\":\"icke döpt, överstruket\",\"birth_day\":\"utelämnad i bevarad text\",\"birth_parish_expansion\":\"Flen\",\"birth_parish_literal\":\"d:o\",\"birth_year\":\"1940\",\"departure_ditto\":\"Södertälje stadsf. 1943-11-24\",\"destination\":\"Mejseln 3\",\"folio\":\"720\",\"home\":\"Kv. Penseln (Åsta), Johansborg, Storgat. 24\",\"name\":\"May Anita\",\"row_crossed_out\":true}"} Efter: {"value_json": {"baptism_ditto": "1941-11-16", "baptism_initial": "icke döpt, överstruket", "birth_day": "redaktionellt utelämnad; råfält bevarat i låst FIRST", "birth_parish_expansion": "Flen", "birth_parish_literal": "d:o", "birth_year": "1940", "departure_ditto": "Södertälje stadsf. 1943-11-24", "destination": "Mejseln 3", "folio": "720", "home": "Kv. Penseln (östra), N:o4, Johansborg [vokalgrafi något reserverad], Storgat.24", "name": "May Anita", "row_crossed_out": true}}
+
+- **CONTRACT-P-0003-PK-05** (assessment): före: C-0895:s husförhörsmarkeringar och reserverade attestdag räknas redan prövade. Efter: Arnes del om C-0895 preciseras: kol13 är prövad men delvis oläst;41,42 tydliga medan äldre40 och attesttolkning inte säkert kan bekräftas. De separata flyttningsbetygsfälten är tomma. Övriga PK-05-brister och utfall ändras inte.
+
+- **PATH-P-0003-KP-07** (assessment): före: Säkra husförhörsår40–42 och reserverad attestdag1943 i outcome och body. Efter: Källvägens C-0895-del preciseras: överlagrad kol13 har Fl.[?]43 A/11[?];41,42 och ingen säker separat40; inte en fastställd attesthändelse. Flyttningsbetygets egna fält är tomma. Den lokalt prövade oläsbarheten skiljs från tidigare utvinningsskuld; övriga namngivna poster kvarstår.
+
+- **CONTRACT-P-0007-PK-05** (assessment): före: Rubriker bakom v och k N/k n på860/720 räknas fortfarande outvunna. Efter: Majs kolumnrubriker på860/720 och hela egna rader har nu prövats. v har rubriken Vaccinerad eller haft koppor; kristendom/nattvard är egna kolumner med a/k respektive b/k och n/v-liknande råreservationer. Dessa två blad är inte längre outvunna;932 och övriga namngivna hänvisningar bedöms inte avslutade här. PK-05-utgången ändras inte.
+
+- **P-0007/Q-04** (question): före: Tre egna Flenrader delvis utvunna; v och k N/k n behandlas som outvunna märken. Efter: Delutfall för Majs egen rad21 på860 och rad15 på720: samtliga egna fält och rubriker prövade, kvarstående bokstavsreservationer i kol11/12 och ditto i kol13 bevarade. Frågan om932 och1920–1929 är fortfarande öppen; det är inte tre obehandlade Flenrader längre.
+
+- **PATH-P-0007-KP-04** (assessment): före: Läsosäkerhet/utvinningsskuld för samtliga tre egna rader; rubriker efterfrågas. Efter: Delutfall:860 r21 och720 r15 fullständigt prövade till läsbarhetsgränsen, rubriker fastställda; råreservationer och tomfält skilda från utvinningsskuld.932 och Helgesta ej behandlade i detta pass. Ofullständig normalisering är inte i sig outvunnen råkälla.
+
+- **PATH-P-0007-KP-01** (assessment): före: Kvarstående egna kolumnmärken hänvisas till KP-04 för utvinning. Efter: Den tidigare angivna resten av Majs egna kolumnmärken på860/720 är nu prövad med lästa rubriker och kvarstående råreservationer. Hushåll, boköverföring och1943-11-24 består; ingen ny exakt överföringsdag1940 eller fysisk kontinuitet.
+
+- **KEY-P-0007-b6e7a6cfd00e** (assessment): före: Alla tre radernas kolumner anges bara delvis utvunna. Efter: Söknycklarna till tre egna rader består. Utvinningsstatus preciseras:860 r21 och720 r15 är fullprövade med råreservationer;932 r2 ligger utanför denna passage.
+
+- **P-0007/Q-01** (question): före: Inledningen kallar860 oläst; senare anges båda blad lästa men hennes märken outvunna. Efter: Hushålls- och bokföringsfrågan består som fastställd. Formuleringen att860 inte lästs och att hennes860/720-märken är outvunna är äldre status; båda egna rader är nu fullprövade med läsreservationer. Den registrerade kedjan avgör inte varje fysisk vistelse.
+
+- **THEME-P-0007-HAL** (assessment): före: v saknar läst rubrik och får inte tolkas som vaccination. Efter: Majs v på860/720 står under läst rubrik Vaccinerad eller haft koppor. Kolumnmarkeringen är råbelagd, men ingen vaccinationsdag, sjukdomshistoria eller förklaring av v utöver rubriken sluts. Övriga döds-/grav- och hälsofrågor ändras inte.
+
+- **THEME-P-0007-SAM** (assessment): före: Hennes kristendomskunskapskolumn anges outvunnen. Efter: Majs kristendomskolumn på860/720 är nu prövad: a/k[?] respektive b/k[?], med skild nattvardskolumn och reserverade tecken. Inget exakt betyg eller särskild kyrkohändelse fastställs. SIF och namnärendet är fortsatt oprövade.
+
+- **THEME-P-0303-HAL** (assessment): före: v-kolumnen kallas onamngiven och hälsoinformation utvinns inte. Efter: Kolumnrubriken för v på720 är nu läst som Vaccinerad eller haft koppor. Detta undanröjer äldre påstående om okänd rubrik; ingen personnormaliserad hälsoobservation, vaccinationsdag eller ny levande persons livsuppgift förs.
+
+- **CONTRACT-P-0303-PK-05** (assessment): före: v-kolumnen kallas onamngiven; personprecision minimeras. Efter: Rubriken för v på720 är nu känd, men dataminimering av dotterns födelsedag och hälsonormalisering består. Råtecken finns endast i låst läsunderlag. Utfall och identitetsgrind omprövas inte.
+
+- **KEY-P-0303-57f406bd3f70** (assessment): före: Flyttningsbetygets dag läsosäker; utflytt24/11 säker. Efter: Flyttnyckeln1943-11-24 består. Äldre säker benämning flyttningsbetygets anteckning återtas: noten står i kol13 Bevistat husförhör år och är delvis oläst; själva betygsfälten är tomma.
+
+- **THEME-P-0303-SAM** (assessment): före: Dop1941 och hushållets flyttbetyg1943 anges som samhällsspår. Efter: Dotterns dopnot/ditto och registrerade utflyttning1943 består. Äldre hushållets flyttbetyg1943 är en tolkning som inte kan hämtas ur de tomma betygsfälten; den överlagrade kol13-noten förblir råreservation.
+
+- **RESEARCH-P-0303-9d76f0343410** (assessment): före: Blyerts återges som säkra nedåtpilar38 ↓ 40 ↓; dottern inte namngiven i ankomstposten. Efter: Den egna identitetsbedömningen behålls: ankomst132 namnger inte dottern. Blyerts38/40 har v-/pil-liknande osäkra sluttecken, inte säkerställda nedåtpilar. Ingen ny namnbindning, moderskapsart eller full födelsedag sluts.

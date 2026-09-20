@@ -1,0 +1,993 @@
+{
+  "task": "T-0675",
+  "phase": "comparison_after_FIRST_before_SECOND",
+  "generated_at": "2026-09-18T18:38:44.248935+00:00",
+  "applied": false,
+  "first_inputs": {
+    "ebbamoves-first-initial.json": "89f0d269939733121977f40df1ee16abe09f59e8b58dc934abef198a7d7bfd3d",
+    "root-ebba-two-first-initial.json": "3f7c5467a029e837d0e54fc42e5e30d74901ed306fac3d222a9c7a9d57212e17"
+  },
+  "snapshot_files": [
+    "ebbamoves-comparison-current-snapshot.json",
+    "ebbamoves-current-record-fields.json"
+  ],
+  "findings": [
+    {
+      "id": "EM01",
+      "numbers": [
+        18
+      ],
+      "type": "date_misreading_candidate",
+      "old": "TR-f7dd262f6e9a711930631cd6@1: Östhammar30 22/10",
+      "first": "rootFIRST: 30 23/10",
+      "impact": "E-arrival-P-0002-Burtrask-1930@1 exact22; corresponding participation; F-P-0002-occupation-Gammelbyn1930@1 from22; RESEARCH-P-0002-9d76f0343410@3; Q01, ARB, PATH-KP04 and biography retain22",
+      "disposition": "Await SECOND; preserve source-specific date, do not harmonize to departure."
+    },
+    {
+      "id": "EM02",
+      "numbers": [
+        23,
+        12
+      ],
+      "type": "date_misreading_candidate",
+      "old": "TR-e18a381baf194880b84db958@1 exit22/10; R23 caveat agrees; R12/TR12 caveat repeats22 in flyttbok",
+      "first": "rootFIRST23 exit20/10 and certificate20/10; FIRST12 own exit23/10 and Fl30 20/10",
+      "impact": "E-departure-P-0002-Burtrask-1930@1 alternatives22/23 with false supporting arrival22 caveat; participation; F-P-0002-residence-Osthammar1928-1930@1 endReadings22/23; shared research caveats",
+      "disposition": "Await SECOND. Distinguish certificate, departure register, departure household row and arrival household row as separate fields."
+    },
+    {
+      "id": "EM03",
+      "numbers": [
+        23,
+        40
+      ],
+      "type": "place_code_misreading_candidate",
+      "old": "TR-e18a381baf194880b84db958@1 and TR-eb0abe38a4c30c696e67719f@1 N.13; R40 caveat N.13",
+      "first": "FIRST40 K.13; rootFIRST23 K.13 [possibly R]; FIRST12 header Kyrkokvarteret n:o13",
+      "impact": "Record/TR raw locator code. Existing normalized address Kyrkokvarteret n:o13 agrees with header; not a new residence.",
+      "disposition": "Await SECOND; preserve uncertainty on23 letter separately."
+    },
+    {
+      "id": "EM04",
+      "numbers": [
+        46
+      ],
+      "type": "date_misreading_candidate",
+      "old": "TR-c836b616fbb3e0c2df08eb0f@1 and R46 caveat two4/7 dates",
+      "first": "certificate4/7, departure7/7",
+      "impact": "Source date distinction. O-P-0001-C0893-certificate1930@1 certificate4/7 remains supported. P0001 existing arrival7/7 not automatically changed.",
+      "disposition": "Await SECOND; no physical travel inference."
+    },
+    {
+      "id": "EM05",
+      "numbers": [
+        46
+      ],
+      "type": "folio_misreading_candidate",
+      "old": "TR46 and O-P-0001-C0893-certificate1930@1 folio73",
+      "first": "79[?]",
+      "impact": "P-0001/Q-01@1, THEME-P-0001-BO@1, PATH-P-0001-KP-01@1, KEY-P-0001-fd46364cd459@1 repeat73; research reviews and possible narrative copies",
+      "disposition": "Await SECOND and glyph comparison; FIRST alone does not establish79. Existing destinationhousehold remains unread."
+    },
+    {
+      "id": "EM06",
+      "numbers": [
+        12
+      ],
+      "type": "column_semantics",
+      "old": "O-P-0002-C0892-columns@1 value_json religiousKnowledge=a N; vaccination=v",
+      "first": "col11 kristendom=a; col12 nattvard separate v/wavy symbol; col13 husförhör blank",
+      "impact": "Observation has merged distinct columns; TR may preserve raw a N but must label placement and graphic uncertainty.",
+      "disposition": "Await SECOND for symbol, but header separation is structural; no religious behavior inference."
+    },
+    {
+      "id": "EM07",
+      "numbers": [
+        18
+      ],
+      "type": "omitted_fields",
+      "old": "TR18 collapses middle columns to ellipsis, omits vaccination, a, nattvard symbol, husförhör30",
+      "first": "v; a; n[graphic uncertain]; husförhör30 weak",
+      "impact": "Complete source transcription needed; no new fact asserting physical attendance.",
+      "disposition": "Await SECOND especially year30 and row binding."
+    },
+    {
+      "id": "EM08",
+      "numbers": [
+        12,
+        18,
+        23,
+        40,
+        46
+      ],
+      "type": "preserved_limits",
+      "old": "R12/R23/R40 already qualify titles not exact service/education years; O46 certificate not physical departure; R18 transfer1006 in1932",
+      "first": "same limited printed fields; E.o./ord. preserved; no school, service contract or training span; R18 transfer1006 32",
+      "impact": "Retain these caveats. F-P-0002-occupation-Gammelbyn1930 must avoid equating registration date with appointment start; old ARB/Q01/KP04 wording overstates exact work start.",
+      "disposition": "No broader historical inference; unresolved life questions remain open."
+    },
+    {
+      "id": "EM09",
+      "numbers": [
+        46
+      ],
+      "type": "uncertainty_not_correction",
+      "old": "birth97 22/5",
+      "first": "97 22[?]/5; glyph concern44 appearance",
+      "impact": "No normalized birthday change supported. Other earlier read records carry22 but are not substitute for local glyph proof.",
+      "disposition": "Await SECOND; retain raw uncertainty if unresolved."
+    },
+    {
+      "id": "EM10",
+      "numbers": [
+        12,
+        18,
+        23,
+        40
+      ],
+      "type": "matching_fields",
+      "old": "Ebba Alfrida Andersson; birth07 18/8 Bygdeå on householdrows; Robertsfors arrival28 15/12; destinations Burträsk/Gammelbyn; certificate20/10; transfer1006 32",
+      "first": "These fields agree within each source; move lists23 and40 have blank birth fields, not repeated birth dates",
+      "impact": "No identity or parent relation change; preserve name form Alfrida as read here, do not import Segrida from other row.",
+      "disposition": "Confirm bounded fields after SECOND, not whole records automatically."
+    }
+  ],
+  "current_transcriptions_observations": {
+    "12": {
+      "transcription": [
+        {
+          "revision_id": "TR-00dd6048e373102ed42aafd2@1",
+          "record_id": "R-378e8823984cf81f5a1308a8",
+          "text": "> Ebba Alfrida Andersson, e.o. folkskoll. | 07 ¹⁸/₈ | Bygdeå | v | | V. Bott. l.\n> Robertsfors 28 ¹⁵/₁₂ | 64 | a N | Fl 30 ²⁰/₁₀ | V. Bott. l. Burträsk 30 ²³/₁₀ | 34\n",
+          "reading_note": "Titlar och kyrkobokföring ger inte ensamma exakta tjänsteläsår eller seminarieår. Den äldre seminarieuppgiften är uttryckligen obelagd.\nUtflyttningsdag läses 23/10 här, mot 22/10 i flyttboken. Betyg 20/10 är ett annat datum.",
+          "object_id": "TR-00dd6048e373102ed42aafd2",
+          "version": 1,
+          "caveat": "Utflyttningsdag läses 23/10 här, mot 22/10 i flyttboken. Betyg 20/10 är ett annat datum."
+        }
+      ],
+      "observation": [
+        {
+          "revision_id": "O-P-0002-C0892-columns@1",
+          "record_id": "R-378e8823984cf81f5a1308a8",
+          "mention_id": null,
+          "property": "vaccination_and_religious_knowledge",
+          "value_literal": "v, a N",
+          "value_json": "{\"religiousKnowledge\":\"a N\",\"vaccination\":\"v\"}",
+          "object_id": "O-P-0002-C0892-columns",
+          "version": 1,
+          "caveat": "V betyder vaccinationsnotering; ingen sjukdom härleds. Prästens kristendomskunskapsbetyg är inte en skolexamen."
+        }
+      ]
+    },
+    "18": {
+      "transcription": [
+        {
+          "revision_id": "TR-f7dd262f6e9a711930631cd6@1",
+          "record_id": "R-63eba0b1614be4d75d2df9b3",
+          "text": "> Ebba Alfrida Andersson | ord. folkskoll. | 07 ¹⁸/₈ | Bygdeå | | Östhammar 30 ²²/₁₀ |\n> … | 1006 | 32\n",
+          "reading_note": "Sena tillägg rättar barnens födelseortslokalisering, preciserar namnen Jan Oskar och osäkert Frithiof/Fritjof samt reserverar marginalnumren. Integritetsminimering är skild från olästa fält.\nÖverstruken egen rad; överföring till 1006 år 1932.",
+          "object_id": "TR-f7dd262f6e9a711930631cd6",
+          "version": 1,
+          "caveat": "Överstruken egen rad; överföring till 1006 år 1932."
+        }
+      ],
+      "observation": []
+    },
+    "23": {
+      "transcription": [
+        {
+          "revision_id": "TR-e18a381baf194880b84db958@1",
+          "record_id": "R-6b0aad99eff480f9320a6ba3",
+          "text": "> 34 | ²⁰/₁₀ | ²²/₁₀ | Andersson Ebba Alfrida, e.o. folkskoll. | | 1 | N. 13 | 19 |\n> Burträsk | Gammelbyn\n",
+          "reading_note": "Titlar och kyrkobokföring ger inte ensamma exakta tjänsteläsår eller seminarieår. Den äldre seminarieuppgiften är uttryckligen obelagd.\nBetyg 20 oktober, utflyttning läst 22 oktober med avvikande 23 i hushållsboken.",
+          "object_id": "TR-e18a381baf194880b84db958",
+          "version": 1,
+          "caveat": "Betyg 20 oktober, utflyttning läst 22 oktober med avvikande 23 i hushållsboken."
+        }
+      ],
+      "observation": [
+        {
+          "revision_id": "O-P-0002-C0892-certificate1930@1",
+          "record_id": "R-6b0aad99eff480f9320a6ba3",
+          "mention_id": null,
+          "property": "departure_certificate",
+          "value_literal": "1930-10-20",
+          "value_json": "{\"date\":\"1930-10-20\",\"entry\":\"34/1930\"}",
+          "object_id": "O-P-0002-C0892-certificate1930",
+          "version": 1,
+          "caveat": ""
+        }
+      ]
+    },
+    "40": {
+      "transcription": [
+        {
+          "revision_id": "TR-eb0abe38a4c30c696e67719f@1",
+          "record_id": "R-e194b18be8ca5fa716397f38",
+          "text": "> 64 | ¹⁵/₁₂ | Andersson Ebba Alfrida, folkskoll. | | 1 | V. Bott. l. Robertsfors | N. 13 | 19\n",
+          "reading_note": "Titlar och kyrkobokföring ger inte ensamma exakta tjänsteläsår eller seminarieår. Den äldre seminarieuppgiften är uttryckligen obelagd.\nEgen ankomstpost från Robertsfors; boställe N. 13 och folio 19.",
+          "object_id": "TR-eb0abe38a4c30c696e67719f",
+          "version": 1,
+          "caveat": "Egen ankomstpost från Robertsfors; boställe N. 13 och folio 19."
+        }
+      ],
+      "observation": []
+    },
+    "46": {
+      "transcription": [
+        {
+          "revision_id": "TR-c836b616fbb3e0c2df08eb0f@1",
+          "record_id": "R-f4c2910ea488225bd2ab6f03",
+          "text": "> 18 | ⁴/₇ | ⁴/₇ | Oskar Alfred Zingmark, lär. | 97 ²²/₅ | 1 | ” [Bastuträsk] | 73 | Burträsk\n",
+          "reading_note": "Negativ kontroll avser Norsjö B/4 1930 s. 69–70 nr 1–48, januari–oktober, bilder 73–74. Dessa är inga positiva Zingmarkposter.\nTvå 4/7-datum i flyttposten; lärare och Bastuträsk är bokförda uppgifter, inte separat tjänstematrikel.",
+          "object_id": "TR-c836b616fbb3e0c2df08eb0f",
+          "version": 1,
+          "caveat": "Två 4/7-datum i flyttposten; lärare och Bastuträsk är bokförda uppgifter, inte separat tjänstematrikel."
+        }
+      ],
+      "observation": [
+        {
+          "revision_id": "O-P-0001-C0893-certificate1930@1",
+          "record_id": "R-f4c2910ea488225bd2ab6f03",
+          "mention_id": null,
+          "property": "departure_certificate",
+          "value_literal": "1930-07-04, lärare, Bastuträsk, uppslag 73, till Burträsk",
+          "value_json": "{\"date\":\"1930-07-04\",\"entry\":18,\"folio\":\"73\",\"folioRead\":false,\"from\":\"Bastuträsk, Norsjö östra kyrkobokföringsdistrikt\",\"role\":\"lärare\",\"to\":\"Burträsk\"}",
+          "object_id": "O-P-0001-C0893-certificate1930",
+          "version": 1,
+          "caveat": "Betygsdatum är inte säkert fysisk resdag."
+        }
+      ]
+    }
+  },
+  "impact_candidates": {
+    "P-0001": [
+      {
+        "revision": "P-0001/Q-01@1",
+        "field": "body",
+        "pattern": "oskarfolio",
+        "contexts": [
+          "ndsforsamling-1917-1925.md)) och tog 1930-07-04 betyg som `lär.` från Bastuträsk, uppslag 73 ([C-0893](../citations/C-0893-oskar-alfred-bastutrask-utflyttning-1930.md)). Utbildningen är avslutad 1923 ([",
+          "ttningslängd 1924 och församlingsbokens uppslag skiljer alternativen; Bastuträsks uppslag 73 visar när han skrevs in där. Namnet skiljs av `97 ²²/₅ Degerfors`.\n- Källvägar: KP-01.\n- Slutsatsläge: ÖPPEN."
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "P-0001/Q-01@1",
+        "field": "body",
+        "pattern": "departure4",
+        "contexts": [
+          "-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md)) och tog 1930-07-04 betyg som `lär.` från Bastuträsk, uppslag 73 ([C-0893](../citations/C-0893-oskar-alfred-bastutrask-utflyttnin"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0001-ARB@1",
+        "field": "body",
+        "pattern": "departure4",
+        "contexts": [
+          "12 till examen 1923 med betyg. Tjänsten i Bastuträsk är belagd senast 1930-07-04, i Burträsk 1930–1950, och titeln folkskollärare gällde vid döden 1963. Öppet: tjänstens början och skolan i "
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0001-BO@1",
+        "field": "body",
+        "pattern": "oskarfolio",
+        "contexts": [
+          "nnu olästa och åtkomliga volymer: Norsjö församlingsbok från 1924 med Bastuträsks uppslag 73, och Umeå stads församlingsbok efter 1950. Boställe vid födelsen är inte utpekat närmare än församlingen. | K"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0001-PK-03@1",
+        "field": "body",
+        "pattern": "departure4",
+        "contexts": [
+          "K-03 | EJ STYRKT | Kronologin är originalbelagd 1897 – 1924-11-01 och 1930-07-04 – 1950-09-02, men två materiella perioder om sammanlagt nitton år saknar läst hushållsrad: Norsjö/Bastuträsk "
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "PATH-P-0001-KP-01@1",
+        "field": "body",
+        "pattern": "oskarfolio",
+        "contexts": [
+          "### KP-01: Norsjö församlingsbok från 1924-11-01 och Bastuträsks uppslag 73\n\n- Frågor/teman: Q-01, BO, ARB, SAM.\n- Källklass: K-01, K-05.\n- Tid/plats och arkivbildare: Norsjö kyrkoarkiv",
+          "4 och framåt; Bastuträsks kyrkoarkiv `SE/HLA/1010010`, församlingsbok uppslag 73 (1928–1930) och inflyttningslängd `B/1`.\n- Förväntad information: mottagarhushållet 1924, tjänstgöringsort oc",
+          " namn och `97 ²²/₅`, destination Norsjö 1924-11-01, betyg 1924-10-29, uppslag 73. Källa: [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0893](../cita"
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0001-fd46364cd459@1",
+        "field": "body",
+        "pattern": "oskarfolio",
+        "contexts": [
+          "963/1064 → Umeå lfg uppslag 2284 (1917-11-15) → Norsjö (1924-11-01) → Bastuträsk uppslag 73 → Burträsk fol 1006/275 (1930-07-07) → Umeå stad (1950-09-02) | Hushållsböcker för hela livet; de två olästa "
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "ASSESSMENT-P-0001@1",
+        "field": "body",
+        "pattern": "departure4",
+        "contexts": [
+          "gmark.md#tidslinje) 1897–1963 med två materiella luckor, 1924-11-01 – 1930-07-04 och 1950-09-02 – 1963-07-15\n- Livsberättelse: [biografisk sammanfattning](../people/P-0001-oskar-alfred-zingm"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "O-P-0001-C0893-certificate1930@1",
+        "field": "value_json",
+        "pattern": "departure4",
+        "contexts": [
+          "{\"date\":\"1930-07-04\",\"entry\":18,\"folio\":\"73\",\"folioRead\":false,\"from\":\"Bastuträsk, Norsjö östra kyrkobokföringsdistrikt\",\"role\":\""
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "O-P-0001-C0893-certificate1930@1",
+        "field": "value_literal",
+        "pattern": "oskarfolio",
+        "contexts": [
+          "1930-07-04, lärare, Bastuträsk, uppslag 73, till Burträsk"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "O-P-0001-C0893-certificate1930@1",
+        "field": "value_literal",
+        "pattern": "departure4",
+        "contexts": [
+          "1930-07-04, lärare, Bastuträsk, uppslag 73, till Burträsk"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      }
+    ],
+    "P-0002": [
+      {
+        "revision": "P-0002/Q-01@1",
+        "field": "body",
+        "pattern": "ebba22",
+        "contexts": [
+          ", är avgjort. Hon var e.o. folkskollärarinna i\n  Östhammar 1928-12-15–1930-10-22, skriven på Kyrkokvarteret n:o 13\n  (C-0892). Östhammar var alltså tjänsteort, inte seminarieort.\n- Alternati"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "P-0002/Q-01@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "P-0002/Q-02@2",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "P-0002/Q-03@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-ARB@1",
+        "field": "body",
+        "pattern": "ebba22",
+        "contexts": [
+          "Östhammar 1928–1930, till ordinarie folkskollärarinna i Burträsk från 1930-10-22 och kvarstående titel i böckerna till 1950. Två luckor består: var hon utbildades 1925–1928 och om hon tjänst"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-ARB@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-BO@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-EKO@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-HAL@2",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-ID@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-MIL@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-PER@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-REL@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-SAM@2",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "THEME-P-0002-SYN@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-01@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-02@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-03@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-04@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-05@2",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-06@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-07@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-08@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-09@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-10@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-11@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "CONTRACT-P-0002-PK-12@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "PATH-P-0002-KP-01@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "PATH-P-0002-KP-02@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "PATH-P-0002-KP-03@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "PATH-P-0002-KP-04@1",
+        "field": "body",
+        "pattern": "ebba22",
+        "contexts": [
+          "Ingång och söknycklar: e.o. folkskollärarinna Östhammar 1928-12-15–\n  1930-10-22; ordinarie folkskollärarinna Gammelbyn, Burträsk, från\n  1930-10-22. Källa: [C-0892](../citations/C-0892-ebba",
+          "  1930-10-22; ordinarie folkskollärarinna Gammelbyn, Burträsk, från\n  1930-10-22. Källa: [C-0892](../citations/C-0892-ebba-alfrida-osthammar-1928-1930.md),\n  [C-0889](../citations/C-0889-zin"
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "PATH-P-0002-KP-04@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "PATH-P-0002-KP-05@2",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-1158bcdcb19d@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-1999545cedd2@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-3d0cc3437917@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-5aa26f96912e@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-6a64e23b6aa5@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-86a6e1084f5c@2",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-9f8c76531e69@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-a7c2eb5c6247@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "KEY-P-0002-bc56d3d9a34f@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "ASSESSMENT-P-0002@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "RESEARCH-P-0002-9d76f0343410@3",
+        "field": "body",
+        "pattern": "ebba22",
+        "contexts": [
+          "från möts i sin tur av Burträsks fol 959 med noteringen\n`Östhammar 30 ²²/₁₀` ([C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md)).\nFolkräkningen 1930 och vigselboken"
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "RESEARCH-P-0002-9d76f0343410@3",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "F-P-0002-occupation-Gammelbyn1930@1",
+        "field": "value_json",
+        "pattern": "ebba22",
+        "contexts": [
+          "{\"from\":\"1930-10-22\",\"occupation\":\"ordinarie folkskollärarinna\",\"place\":\"Gammelbyn, Burträsk\"}"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "F-P-0002-residence-Osthammar1928-1930@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "Utflyttningslängden skriver 22 oktober, hushållsboken 23 oktober. Skola eller skoldistrikt namnges inte."
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "F-P-0002-residence-Osthammar1928-1930@1",
+        "field": "value_json",
+        "pattern": "ebba22",
+        "contexts": [
+          "{\"address\":\"Kyrkokvarteret n:o 13\",\"endReadings\":[\"1930-10-22\",\"1930-10-23\"],\"folio\":\"19\",\"from\":\"1928-12-15\",\"occupation\":\"extra ordinarie folkskollärarinna\",\"place\":\"Öst"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "E-arrival-P-0002-Burtrask-1930@1",
+        "field": "date_json",
+        "pattern": "ebba22",
+        "contexts": [
+          "{\"literal\":\"1930-10-22\",\"precision\":\"exact\",\"value\":\"1930-10-22\"}",
+          "{\"literal\":\"1930-10-22\",\"precision\":\"exact\",\"value\":\"1930-10-22\"}"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "E-departure-P-0002-Burtrask-1930@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "Burträsks egen ankomst 22 oktober stöder den dagen; konflikten utplånas inte."
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "E-departure-P-0002-Burtrask-1930@1",
+        "field": "date_json",
+        "pattern": "ebba22",
+        "contexts": [
+          "{\"literal\":\"22 oktober i utflyttningslängden; 23 oktober på församlingsuppslaget\",\"precision\":\"alternatives\",\"values\":[\"1930-10-22\",",
+          "ktober på församlingsuppslaget\",\"precision\":\"alternatives\",\"values\":[\"1930-10-22\",\"1930-10-23\"]}"
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "EP-E-departure-P-0002-Burtrask-1930-P-0002-migrant@1",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "Burträsks egen ankomst 22 oktober stöder den dagen; konflikten utplånas inte."
+        ],
+        "historical_prefix_present": false,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      },
+      {
+        "revision": "BIO-P-0002@2",
+        "field": "caveat",
+        "pattern": "ebba22",
+        "contexts": [
+          "917 eller bli bevisad fysisk närvaro. Utflyttningsdagen 1930 behåller 22/23 oktober. Noll för seminarierna är lokalt; hemvist 1950–1997 och seminarieort är fortsatt olösta. Kolumn 6 på "
+        ],
+        "historical_prefix_present": true,
+        "note": "Candidate occurrence; header qualifiers/history must be respected, not blindly replaced."
+      }
+    ]
+  },
+  "versions_changed_since_start": [
+    {
+      "object": "P-0001/Q-02",
+      "start_revision": "P-0001/Q-02@1",
+      "current_revision": "P-0001/Q-02@2"
+    },
+    {
+      "object": "PATH-P-0001-KP-02",
+      "start_revision": "PATH-P-0001-KP-02@1",
+      "current_revision": "PATH-P-0001-KP-02@2"
+    },
+    {
+      "object": "PATH-P-0001-KP-06",
+      "start_revision": "PATH-P-0001-KP-06@1",
+      "current_revision": "PATH-P-0001-KP-06@2"
+    },
+    {
+      "object": "KEY-P-0001-5348b50b00c1",
+      "start_revision": "KEY-P-0001-5348b50b00c1@1",
+      "current_revision": "KEY-P-0001-5348b50b00c1@2"
+    },
+    {
+      "object": "RESEARCH-P-0001-9d76f0343410",
+      "start_revision": "RESEARCH-P-0001-9d76f0343410@1",
+      "current_revision": "RESEARCH-P-0001-9d76f0343410@2"
+    },
+    {
+      "object": "O-P-0001-C0878-death-parish",
+      "start_revision": "O-P-0001-C0878-death-parish@1",
+      "current_revision": "O-P-0001-C0878-death-parish@2"
+    },
+    {
+      "object": "O-P-0001-C0878-title",
+      "start_revision": "O-P-0001-C0878-title@1",
+      "current_revision": "O-P-0001-C0878-title@2"
+    },
+    {
+      "object": "BIO-P-0001",
+      "start_revision": "BIO-P-0001@1",
+      "current_revision": "BIO-P-0001@2"
+    },
+    {
+      "object": "P-0002/Q-02",
+      "start_revision": "P-0002/Q-02@1",
+      "current_revision": "P-0002/Q-02@2"
+    },
+    {
+      "object": "THEME-P-0002-HAL",
+      "start_revision": "THEME-P-0002-HAL@1",
+      "current_revision": "THEME-P-0002-HAL@2"
+    },
+    {
+      "object": "THEME-P-0002-SAM",
+      "start_revision": "THEME-P-0002-SAM@1",
+      "current_revision": "THEME-P-0002-SAM@2"
+    },
+    {
+      "object": "CONTRACT-P-0002-PK-05",
+      "start_revision": "CONTRACT-P-0002-PK-05@1",
+      "current_revision": "CONTRACT-P-0002-PK-05@2"
+    },
+    {
+      "object": "PATH-P-0002-KP-05",
+      "start_revision": "PATH-P-0002-KP-05@1",
+      "current_revision": "PATH-P-0002-KP-05@2"
+    },
+    {
+      "object": "KEY-P-0002-86a6e1084f5c",
+      "start_revision": "KEY-P-0002-86a6e1084f5c@1",
+      "current_revision": "KEY-P-0002-86a6e1084f5c@2"
+    },
+    {
+      "object": "RESEARCH-P-0002-9d76f0343410",
+      "start_revision": "RESEARCH-P-0002-9d76f0343410@1",
+      "current_revision": "RESEARCH-P-0002-9d76f0343410@3"
+    },
+    {
+      "object": "O-P-0002-C0889-years1006",
+      "start_revision": "O-P-0002-C0889-years1006@1",
+      "current_revision": "O-P-0002-C0889-years1006@2"
+    },
+    {
+      "object": "O-P-0002-C0889-years275",
+      "start_revision": "O-P-0002-C0889-years275@1",
+      "current_revision": "O-P-0002-C0889-years275@2"
+    },
+    {
+      "object": "E-death-P-0002",
+      "start_revision": "E-death-P-0002@1",
+      "current_revision": "E-death-P-0002@2"
+    },
+    {
+      "object": "BIO-P-0002",
+      "start_revision": "BIO-P-0002@1",
+      "current_revision": "BIO-P-0002@2"
+    }
+  ],
+  "write_coordination": "No native proposal before SECOND. Re-read all current heads before drafting. RESEARCH-P-0002-9d76f0343410 is currently@3, carries prior119/120 changes; preserve those and gravregister qualifications. No Wotan or DB write performed."
+}

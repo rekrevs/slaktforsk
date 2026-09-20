@@ -1,0 +1,1907 @@
+{
+  "task": "T-0675",
+  "pending_scope": 50,
+  "other_agents_pending_excluded": 56,
+  "ledger": [
+    {
+      "request": "3b526a671e7c4bb3cc919234bf57e80e708f43f73a4a6f93e540d59ae34a5799",
+      "affected": "E-birth-P-0211@2",
+      "changed": "M-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "E-birth-P-0211@2",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1938-01-12\",\"precision\":\"exact\",\"value\":\"1938-01-12\"}",
+        "place_id": null,
+        "place_role": "delivery_place_in_SCB_note"
+      },
+      "caveat": "Sundsvalls lasaretts B.B. enligt SCB:s nedkomstortsnot; Storbränna är föräldrarnas boställe, Sättna registerförsamling. Ägarens förtydligande är reserverat.",
+      "evidence": [
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "O-P-0211-C0140-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "O-P-0211-C0239-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "TR-T0674-owner-clarification-20260918@1",
+          "role": "supports",
+          "note": "Versionsbundet underlag."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "C0240fulloriginal ger12januari1938 och egen nedkomstortsnot. C0935s namnreservation och20[12?]/1 är en annan källas konflikt; eventets exakta12januari ochdelivery_place_in_SCB_note behålls utan att harmonisera C0935."
+    },
+    {
+      "request": "f599addb534f8d0fa22dab6006bd049a6103e4d89475c5ec234d4d31ea32e97f",
+      "affected": "EP-E-birth-P-0211-P-0211-principal@2",
+      "changed": "M-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "EP-E-birth-P-0211-P-0211-principal@2",
+        "event_id": "E-birth-P-0211",
+        "person_id": "P-0211",
+        "mention_id": "M-P-0211-C0240-child",
+        "role": "principal"
+      },
+      "caveat": "Ortuppgifternas roller framgår av händelsen och dess ortslutsats.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-birth-P-0211-P-0211-principal@2",
+          "basis_revision_id": "E-birth-P-0211@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-birth-P-0211-P-0211-principal@2",
+          "basis_revision_id": "M-P-0211-C0240-child@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-birth-P-0211-P-0211-principal@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Födelsedeltagaren ärP0211 medmentionM-P0211-C0240-child, inte den ändradeC0935mentionen. Dessprincipalroll och egenSCB-koppling påverkas inte avC0935namnformen."
+    },
+    {
+      "request": "7476d81b9d0f17e57f6db337fc15979aa9a51cf3acb57cb9397307384cd1796d",
+      "affected": "F-P-0211-church_note-C0935@1",
+      "changed": "M-P-0211-C0935-child@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "F-P-0211-church_note-C0935@1",
+        "subject_id": "P-0211",
+        "property": "church_note",
+        "value_type": "structured",
+        "value_json": "{\"does_not_prove\":\"dopvägran, hushållets gemensamma dopstatus eller nutida kyrkotillhörighet\",\"literal\":\"icke döpt\",\"scope\":\"egen rad13 i Sättna folio388\"}"
+      },
+      "caveat": "Personbunden historisk notering.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0211-church_note-C0935@1",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "C0935r13 har fortfarandeicke döpt på sin egen rad. Namn/dagreservation ändrar inte denna skrivna not; begränsningarna mot dopvägran, gemensam dopstatus och nutida medlemskap består."
+    },
+    {
+      "request": "ca850360000e35d9a340fc3b48f95ac23db6c35bf8d8bc6e7e7e8990da1034ae",
+      "affected": "F-P-0211-event_place-birth@2",
+      "changed": "M-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "F-P-0211-event_place-birth@2",
+        "subject_id": "E-birth-P-0211",
+        "property": "event_place",
+        "value_type": "structured",
+        "value_json": "{\"SCB_home\":\"Storbränna\",\"delivery_institution\":\"Sundsvalls lasaretts B.B.\",\"delivery_place\":\"Sundsvall\",\"earlier_family_form\":\"Sundsvall\",\"family_reported_birth_village_historical\":\"Storbränna\",\"local_orientation\":\"Kovland\",\"owner_clarification\":\"jag kan ha sagt det men menat att hon bodde där. kör på.\",\"physical_birth_building\":null,\"register_parish\":\"Sättna\"}"
+      },
+      "caveat": "Institutionen anges i källan; ingen exakt byggnadsadress är fastställd. Den äldre formuleringen i C-0239 är historik, inte längre ett säkert belägg för fysisk födsel i byn.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "O-P-0211-C0140-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "O-P-0211-C0239-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "TR-T0674-owner-clarification-20260918@1",
+          "role": "supports",
+          "note": "Versionsbundet underlag."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Ortobjektet grundas påC0240:s nedkomstSundsvallslasarettsBB och hemStorbränna samt ägarens reserveradeförtydligande. C0935:sBB. är inte dessgrund och får inte vare sig bekräfta eller upphäva exaktinstitution."
+    },
+    {
+      "request": "26a44aec1394e32f06a174436b893c20312db0a893711f3b3efbae1b6c365cd7",
+      "affected": "F-P-0211-household_membership-Storbranna1938@2",
+      "changed": "M-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "F-P-0211-household_membership-Storbranna1938@2",
+        "subject_id": "P-0211",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"folio\":388,\"home\":\"Storbränna\",\"later_residence\":null,\"parents\":[\"P-0241\",\"P-0246\"],\"parish\":\"Sättna\",\"year\":1938}"
+      },
+      "caveat": "Ingen ny persongrind eller utökad privatlivsforskning. Bostället anger föräldrahemmet; nedkomstorten återges separat i födelsehändelsen.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0211-household_membership-Storbranna1938@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-household_membership-Storbranna1938@2",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Hushållsobjektet gällerbarnet påföräldraradenStorbrännafol388 år1938. R13står under sammaföräldrar medd.-roll. Osäkert namn/dag skapar ingen annan föräldrahemort, ochlater_residencenull bevaras."
+    },
+    {
+      "request": "07cfc947943486f3623eb8682294990d9cfe761f44166cf06ab37b8ddf4f0aaf",
+      "affected": "F-P-0211-name_form-owner-archive@2",
+      "changed": "M-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "F-P-0211-name_form-owner-archive@2",
+        "subject_id": "P-0211",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"archive_forenames\":\"Evy Åsa Kristina\",\"family_name\":\"Evy Höök\",\"surname_change_date\":null}"
+      },
+      "caveat": "Ingen ny persongrind eller utökad privatlivsforskning. Bostället anger föräldrahemmet; nedkomstorten återges separat i födelsehändelsen.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0211-name_form-owner-archive@2",
+          "basis_revision_id": "O-P-0211-C0140-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-name_form-owner-archive@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-name_form-owner-archive@2",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "NamnformenEvyÅsaKristina stöds avC0140/C0240 som egna bevaradebaser, family_nameEvyHöök avfamilj. C0935 är inte längre ordagrannnamnbekräftelse. Behåll aggregerat namn medkällgränsen i denna resolution, ingen namnbytesdag."
+    },
+    {
+      "request": "a68b7c254f049b475178c040a499366df31187c6d2593db34e1c9ef115fdfc84",
+      "affected": "ID-P-0211-C0935-child@1",
+      "changed": "M-P-0211-C0935-child@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "ID-P-0211-C0935-child@1",
+        "mention_id": "M-P-0211-C0935-child",
+        "person_id": "P-0211",
+        "decision": "accepted"
+      },
+      "caveat": "Avgränsad identitet i den bevarade källposten.",
+      "evidence": [
+        {
+          "revision_id": "ID-P-0211-C0935-child@1",
+          "basis_revision_id": "M-P-0211-C0935-child@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Bunden mentionr13 identifieras fortsattinom samma föräldrahushåll,1938ochd.-roll medstöd avC0240/familjekontext. OsäkerC0935namn/dag ensam avgörinteidentitet; ingen motpersonframkommen och ingen nygrind."
+    },
+    {
+      "request": "a1dc422beaeb4ea513cf44e2edffd173b666b415df1c1c0a092334b0e8a47284",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+      "changed": "M-C0935-Emma-Petronella@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0246",
+        "mention_id": "M-C0935-Emma-Petronella",
+        "role": "principal"
+      },
+      "caveat": "Delad familjehändelse; administrativ registrering eller boköverföring är inte en separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "M-C0935-Emma-Petronella@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "O-P-0246-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Emmahu.r7 har samma förnamn,Larsson föredras och egna inflyttditton till36 14/11. Hennesprincipalroll i1936ankomst består;Fl19/42hör dotterr8 ochpåverkarinte ankomsten."
+    },
+    {
+      "request": "f83a5409e2772bdc8fdefd0dce120fc7d82bcd3f892c3b56d2344c90bd2ff642",
+      "affected": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+      "changed": "M-C0935-Emma-Petronella@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1936",
+        "person_id": "P-0246",
+        "mention_id": "M-C0935-Emma-Petronella",
+        "role": "principal"
+      },
+      "caveat": "Delad familjehändelse; administrativ registrering eller boköverföring är inte en separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+          "basis_revision_id": "E-registered_departure-Henriksson-family-1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+          "basis_revision_id": "M-C0935-Emma-Petronella@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+          "basis_revision_id": "O-P-0246-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Emmas1936avgångskoppling ärdel i redanprövadfamiljehändelse, inte hennes nuavfördaFl1942not. NamnformenLarsson kvarstårbäststödd, ingen deltagaresubstitution."
+    },
+    {
+      "request": "a5a1085f77650b582d966749fbf874e4fb714d81cc47b7a6fb0ff0ee4786bb73",
+      "affected": "F-P-0246-religious_registration-bounded@1",
+      "changed": "M-C0935-Emma-Petronella@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "F-P-0246-religious_registration-bounded@1",
+        "subject_id": "P-0246",
+        "property": "religious_registration",
+        "value_type": "structured",
+        "value_json": "{\"birth_note\":\"Dop vägradt\",\"later_notes\":\"icke döpt för Emma1900/1910och senarehushåll\",\"limits\":\"Ingen aktör/motiv för dopvägran angiven,inget bestämt samfund. Makens eget dop1901står fast; barnens odöptnoter är individuella och kan vara traderade.\",\"marriage\":\"kyrklig1924-09-13\"}"
+      },
+      "caveat": "",
+      "evidence": [
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0242-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0243-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0246-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0927-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Emmasicke döpt kvarstår påegenrad7;Dopvägradtkommer från annanegenskälla. Kyrklig1924-09-13 bygger påC0927vigselunderlaget, inte säkertC0935giftår24/27. Makensdop ochindividuella barnnoter oförändrade."
+    },
+    {
+      "request": "acfc5510ec4b339b254d3f6e41715fd15e325caa12090b2b68769f2568d39041",
+      "affected": "ID-M-C0935-Emma-Petronella-P-0246@1",
+      "changed": "M-C0935-Emma-Petronella@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "ID-M-C0935-Emma-Petronella-P-0246@1",
+        "mention_id": "M-C0935-Emma-Petronella",
+        "person_id": "P-0246",
+        "decision": "accepted"
+      },
+      "caveat": "Notens innebörd/räckvidd ej säkrad; ingen gissad flytt1942. Fem barn vid1936ankomsten,Evytillkommer1938.",
+      "evidence": [
+        {
+          "revision_id": "ID-M-C0935-Emma-Petronella-P-0246@1",
+          "basis_revision_id": "M-C0935-Emma-Petronella@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Emmaförnamnen/hu.-rollen/familjekontexten ochföredragnaLarsson binder sammaP0246. AvvikandeFIRSTNorén? avförs inte genommajoritet men stödjer ingen konkret annanperson efterriktadjämförelse. Ingenflytt1942härleds."
+    },
+    {
+      "request": "3beb0cf938a760597eb57518ed7b85a7418a75b281f15cc21329e7f2720854b0",
+      "affected": "E-birth-P-0259@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "E-birth-P-0259@1",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1925-05-19\",\"precision\":\"exact\",\"value\":\"1925-05-19\"}",
+        "place_id": null,
+        "place_role": "place_of_event"
+      },
+      "caveat": "Födelseuppgift upprepad i administrativa böcker; egen födelsepost oläst.",
+      "evidence": [
+        {
+          "revision_id": "E-birth-P-0259@1",
+          "basis_revision_id": "O-P-0259-C0925-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "E-birth-P-0259@1",
+          "basis_revision_id": "O-P-0259-C0930-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "E-birth-P-0259@1",
+          "basis_revision_id": "O-P-0259-C0933-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "E-birth-P-0259@1",
+          "basis_revision_id": "O-P-0259-C0935-child@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Alvys egenfödelse25 19/5 är oförändratläst. NamnAlvy? ochsärskild1942utflytt ändrarinteevent1925-05-19;place_idnull ocholästfödelsebok kvar."
+    },
+    {
+      "request": "053fabe57401f0ee49680acf1ce1c208601264796a37022ea7e57f44e3ab6c06",
+      "affected": "EP-E-birth-P-0259-P-0259-principal@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-birth-P-0259-P-0259-principal@1",
+        "event_id": "E-birth-P-0259",
+        "person_id": "P-0259",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "caveat": "Födelseuppgift upprepad i administrativa böcker; egen födelsepost oläst.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-birth-P-0259-P-0259-principal@1",
+          "basis_revision_id": "E-birth-P-0259@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-birth-P-0259-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0925-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0259-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0930-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0259-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0933-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0259-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0935-child@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "P0259principal i egenfödelseevent består genom sammaföräldrafamilj. Mentionnamnreservation ärinte en nyfödelseperson; eventetsdatum oförändrat."
+    },
+    {
+      "request": "d739c0952b1f015ae220a43c9921a22edf1f2ad12e6344d8d3bb4ce43ebd09ae",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1928",
+        "person_id": "P-0259",
+        "mention_id": "M-P-0259-C0933-own",
+        "role": "principal"
+      },
+      "caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1928@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+          "basis_revision_id": "M-P-0259-C0933-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0925-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0930-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0933-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1928-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "1928ankomstdeltagande binderP0259 viaM-P0259-C0933-own, en annansidas tidigarefält. Alvy? påC0935r8 ändrar inte1928administrativroll; fysiskresdagintetillagd."
+    },
+    {
+      "request": "b67a6ccdecd28ef406d37c69f96fcc674ff3a91d622789c3b0770a5b2d41a697",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0259",
+        "mention_id": "M-C0935-P-0259",
+        "role": "principal"
+      },
+      "caveat": "Fem äldre barn i återinflyttande familj,sju personer totalt; Evy föds först1938.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+          "basis_revision_id": "M-C0935-P-0259@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+          "basis_revision_id": "R-27cd647d75b3fc32a86bb717@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Alvy? Kristina pår8 har egna1936inflyttditton ochsammaföräldrar. Femäldrebarn ochhennesprincipalroll består;1942dotterutflytt ärsenare separatcell."
+    },
+    {
+      "request": "6b4077cc3300afb7ea1726bb1d28fbfa82e77efe2d6e0e5ac103e1204de7abe1",
+      "affected": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-book1927",
+        "person_id": "P-0259",
+        "mention_id": "M-P-0259-C0930-own",
+        "role": "principal"
+      },
+      "caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-book1927@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+          "basis_revision_id": "M-P-0259-C0930-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0925-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0930-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0933-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-book1927-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "1927boköverföring använderM-P0259-C0930-own. C0935namnreservation skapar inte ny1927person och ändrarinte den administrativa rollen."
+    },
+    {
+      "request": "9f512a98854a6b2d7be0606d363f323fcd8816efe7b6553e8dad1995c8c12918",
+      "affected": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1928",
+        "person_id": "P-0259",
+        "mention_id": "M-P-0259-C0930-own",
+        "role": "principal"
+      },
+      "caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+          "basis_revision_id": "E-registered_departure-Henriksson-family-1928@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+          "basis_revision_id": "M-P-0259-C0930-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0925-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0930-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0933-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1928-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "1928avgångrollen använderC0930egenmention; de nyagranskade1942cellerna gäller annan händelse. Ingen omdatering av1928."
+    },
+    {
+      "request": "75f4e19bc57b5be4d333b641160856fca83dc8185836142490d2362cfca18ce7",
+      "affected": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1936",
+        "person_id": "P-0259",
+        "mention_id": "M-P-0259-C0933-own",
+        "role": "principal"
+      },
+      "caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+          "basis_revision_id": "E-registered_departure-Henriksson-family-1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+          "basis_revision_id": "M-P-0259-C0933-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0925-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0930-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0933-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0259-principal@1",
+          "basis_revision_id": "O-P-0259-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "1936avgångrollen använderC0933egenmention och kvarvarande familjekorrelation. C0935r8 ändrarinte den tidigareadministrativa avgången."
+    },
+    {
+      "request": "0f3c3df44e7af7ce65085a8fe52c1ec376f7329ce538757474fe5c1f4b7441ac",
+      "affected": "ID-M-C0935-P-0259-P-0259@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "ID-M-C0935-P-0259-P-0259@1",
+        "mention_id": "M-C0935-P-0259",
+        "person_id": "P-0259",
+        "decision": "accepted"
+      },
+      "caveat": "Barnrad i familjepost,namnformer Alvy/Solly skiljs från ägarens Elsy/Sally.",
+      "evidence": [
+        {
+          "revision_id": "ID-M-C0935-P-0259-P-0259@1",
+          "basis_revision_id": "M-C0935-P-0259@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "C0935r8Alvy?Kristina,25 19/5 ochföräldrafamilj bibehållerP0259kopplingen; ownerElsy ändrasinte och ingetnamnbyte konstrueras."
+    },
+    {
+      "request": "30335447f285a4ccdd252343232694b100815d2620675427089508774385b89c",
+      "affected": "ID-P-0259-C0925-own@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "ID-P-0259-C0925-own@1",
+        "mention_id": "M-P-0259-C0925-own",
+        "person_id": "P-0259",
+        "decision": "accepted"
+      },
+      "caveat": "Föräldrar, syskonföljd och födelseprofil bär avgränsad hushållsidentitet; ingen namnbyteshändelse.",
+      "evidence": [
+        {
+          "revision_id": "ID-P-0259-C0925-own@1",
+          "basis_revision_id": "ID-M-C0935-P-0259-P-0259@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "ID-P-0259-C0925-own@1",
+          "basis_revision_id": "M-P-0259-C0925-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "IDförC0925egenmention bygger påegenrad/föräldrar ochfödelseprofil. Villysnyaårkonflikt gör inte syskonordning tillensamtargument; Alvys1925ochföräldraankare består."
+    },
+    {
+      "request": "2026e78e32adda2516ac5639cbf65fdee77ffdb5ad8a67a25c3df28275784155",
+      "affected": "ID-P-0259-C0930-own@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "ID-P-0259-C0930-own@1",
+        "mention_id": "M-P-0259-C0930-own",
+        "person_id": "P-0259",
+        "decision": "accepted"
+      },
+      "caveat": "Föräldrar, syskonföljd och födelseprofil bär avgränsad hushållsidentitet; ingen namnbyteshändelse.",
+      "evidence": [
+        {
+          "revision_id": "ID-P-0259-C0930-own@1",
+          "basis_revision_id": "ID-M-C0935-P-0259-P-0259@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "ID-P-0259-C0930-own@1",
+          "basis_revision_id": "M-P-0259-C0930-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "IDförC0930egenmention hålls tillrätt familj och1925profil; C0935Alvy? innebäringen annan C0930person. Villyordning användsintesjälvständigt."
+    },
+    {
+      "request": "01e3eaca783279d1d920bf79949a1badc09895d75b5592c7c1e1e2667b3e858b",
+      "affected": "ID-P-0259-C0933-own@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "ID-P-0259-C0933-own@1",
+        "mention_id": "M-P-0259-C0933-own",
+        "person_id": "P-0259",
+        "decision": "accepted"
+      },
+      "caveat": "Föräldrar, syskonföljd och födelseprofil bär avgränsad hushållsidentitet; ingen namnbyteshändelse.",
+      "evidence": [
+        {
+          "revision_id": "ID-P-0259-C0933-own@1",
+          "basis_revision_id": "ID-M-C0935-P-0259-P-0259@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "ID-P-0259-C0933-own@1",
+          "basis_revision_id": "M-P-0259-C0933-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "IDförC0933egenmention gäller sammaAlvyföräldrar/födelseprofil. NyC0935strykning/reserveratnamn ärsamma individs källhistoria, ingetstyrktnamnbyte."
+    },
+    {
+      "request": "0c8b44f57c9efeda7b00183673f23a76397ba495a1ac981a27829c6070a38ee2",
+      "affected": "O-P-0259-C0935-child@1",
+      "changed": "M-C0935-P-0259@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "O-P-0259-C0935-child@1",
+        "record_id": "R-f0daaefd9c25840abc871c44",
+        "mention_id": "M-C0935-P-0259",
+        "property": "source_fields",
+        "value_literal": "",
+        "value_json": "{\"birth\":\"1925-05-19\",\"birth_parish\":\"Sättna\",\"home\":\"Storbränna388\",\"note\":\"icke döpt\"}"
+      },
+      "caveat": "Barnets registrering efter1936ankomsten; ingen ny avläsning av egen födelsepost.",
+      "evidence": [
+        {
+          "revision_id": "O-P-0259-C0935-child@1",
+          "basis_revision_id": "M-C0935-P-0259@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0259-C0935-child@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "revise_specific_field",
+      "rationale": "Observationensdatum ochicke döpt består. Desskällspecifikabirth_parish uppdateras tilldittoSättna[?] såden inte säkerställer r6sreserveradeort. Ingen generell personort ändras."
+    },
+    {
+      "request": "14b5226b1b02de2129db14f0e3c0ab3c3466d1d10cbc86021045c72b3b1dc7ec",
+      "affected": "E-birth-P-0261@1",
+      "changed": "M-C0935-P-0261@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "E-birth-P-0261@1",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1932-01-19\",\"precision\":\"exact\",\"value\":\"1932-01-19\"}",
+        "place_id": null,
+        "place_role": "place_of_event"
+      },
+      "caveat": "Födelseuppgift upprepad i administrativa böcker; egen födelsepost oläst.",
+      "evidence": [
+        {
+          "revision_id": "E-birth-P-0261@1",
+          "basis_revision_id": "O-P-0261-C0933-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "E-birth-P-0261@1",
+          "basis_revision_id": "O-P-0261-C0935-child@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Sallys egenrad11 ger32 19/1 oförändrat; Sally/Sollyläsrättelse ändrar inte födelseevent1932-01-19. Egenfödelsebok fortsattoläst."
+    },
+    {
+      "request": "7cd60ad6c8d0ac2e3564282e24251c3e7c6392bdf7021a86c7a589edd159458d",
+      "affected": "EP-E-birth-P-0261-P-0261-principal@1",
+      "changed": "M-C0935-P-0261@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-birth-P-0261-P-0261-principal@1",
+        "event_id": "E-birth-P-0261",
+        "person_id": "P-0261",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "caveat": "Födelseuppgift upprepad i administrativa böcker; egen födelsepost oläst.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-birth-P-0261-P-0261-principal@1",
+          "basis_revision_id": "E-birth-P-0261@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-birth-P-0261-P-0261-principal@1",
+          "basis_revision_id": "O-P-0261-C0933-own@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        },
+        {
+          "revision_id": "EP-E-birth-P-0261-P-0261-principal@1",
+          "basis_revision_id": "O-P-0261-C0935-child@1",
+          "role": "supports",
+          "note": "Bokuppgifter kan ha förts vidare inom samma registreringskedja."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "SammaP0261 i födelseeventprincipal, roleochdatum består. OwnerSally ochföredragenC0935Sally ärförenliga; ingen nyidentitet."
+    },
+    {
+      "request": "ffbc62d47dcef01fac703f7a8192e7dee302a84919a9f4b10c562420cae471f7",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+      "changed": "M-C0935-P-0261@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0261",
+        "mention_id": "M-C0935-P-0261",
+        "role": "principal"
+      },
+      "caveat": "Fem äldre barn i återinflyttande familj,sju personer totalt; Evy föds först1938.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+          "basis_revision_id": "M-C0935-P-0261@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+          "basis_revision_id": "R-27cd647d75b3fc32a86bb717@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Sallyr11 har egna1936inflyttditton ochsammaföräldrar;1932barnet blandfemäldrebarn består somankomstdeltagare."
+    },
+    {
+      "request": "43e3f0fd6457e77b851fb51c704b9b2871396e5d28dd21b5b37f04ceee801c42",
+      "affected": "EP-E-registered_departure-Henriksson-family-1936-P-0261-principal@1",
+      "changed": "M-C0935-P-0261@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0261-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1936",
+        "person_id": "P-0261",
+        "mention_id": "M-P-0261-C0933-own",
+        "role": "principal"
+      },
+      "caveat": "Barn i avgränsad familjeflytt. Boköverföring/registreringsdag är inte separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0261-principal@1",
+          "basis_revision_id": "E-registered_departure-Henriksson-family-1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0261-principal@1",
+          "basis_revision_id": "M-P-0261-C0933-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0261-principal@1",
+          "basis_revision_id": "O-P-0261-C0933-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0261-principal@1",
+          "basis_revision_id": "O-P-0261-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "1936avgångdelen binderP0261 viaC0933mention. ÄldreSolly? där ärinte nyomläst eller bortskriven; nyC0935Sally ändrarinteavgångsroll."
+    },
+    {
+      "request": "c132a44e624be619537ce8338f7d4d01ac5b59b1d4cbcd3e80ee25d093c0118e",
+      "affected": "ID-M-C0935-P-0261-P-0261@1",
+      "changed": "M-C0935-P-0261@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "ID-M-C0935-P-0261-P-0261@1",
+        "mention_id": "M-C0935-P-0261",
+        "person_id": "P-0261",
+        "decision": "accepted"
+      },
+      "caveat": "Barnrad i familjepost,namnformer Alvy/Solly skiljs från ägarens Elsy/Sally.",
+      "evidence": [
+        {
+          "revision_id": "ID-M-C0935-P-0261-P-0261@1",
+          "basis_revision_id": "M-C0935-P-0261@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "C0935SallyKristina32 19/1 i sammafamilj bär sammaP0261; ownerSally består. Normaliseringgällerenskildkällform, ingetnamnbyte."
+    },
+    {
+      "request": "d9a4b68d2d03490bbdf1c8dae9fc277114249c75656e62f1862fc42762fbad48",
+      "affected": "ID-P-0261-C0933-own@1",
+      "changed": "M-C0935-P-0261@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "ID-P-0261-C0933-own@1",
+        "mention_id": "M-P-0261-C0933-own",
+        "person_id": "P-0261",
+        "decision": "accepted"
+      },
+      "caveat": "Föräldrar, syskonföljd och födelseprofil bär avgränsad hushållsidentitet; ingen namnbyteshändelse.",
+      "evidence": [
+        {
+          "revision_id": "ID-P-0261-C0933-own@1",
+          "basis_revision_id": "ID-M-C0935-P-0261-P-0261@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "ID-P-0261-C0933-own@1",
+          "basis_revision_id": "M-P-0261-C0933-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "C0933egenmention medäldreSolly? binderfortsatt sammaföräldrar och1932profil. C0935Sally ärkällspecifikrättelse, inte revisionsbevis förC0933bokstäver."
+    },
+    {
+      "request": "ebf464cb62dd64eeec571921368165d3fcb5cf59730a6e28e3a657c863a52d1d",
+      "affected": "O-P-0261-C0935-child@1",
+      "changed": "M-C0935-P-0261@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "O-P-0261-C0935-child@1",
+        "record_id": "R-f0daaefd9c25840abc871c44",
+        "mention_id": "M-C0935-P-0261",
+        "property": "source_fields",
+        "value_literal": "",
+        "value_json": "{\"birth\":\"1932-01-19\",\"birth_parish\":\"Sundsvall\",\"home\":\"Storbränna388\",\"note\":\"icke döpt\"}"
+      },
+      "caveat": "Barnets registrering efter1936ankomsten; ingen ny avläsning av egen födelsepost.",
+      "evidence": [
+        {
+          "revision_id": "O-P-0261-C0935-child@1",
+          "basis_revision_id": "M-C0935-P-0261@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "O-P-0261-C0935-child@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Observationr11anger1932-01-19,Sundsvall,Storbränna388,icke döpt. Dessa celler oförändrade i bådaråpass; namn ligger i revideradmention. BBtolkningupphöjsinte."
+    },
+    {
+      "request": "ce107491f87cabaa7baead2d55af65484ed06aa675ddfc9c1714e374dc752524",
+      "affected": "E-birth-P-0211@2",
+      "changed": "O-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "E-birth-P-0211@2",
+        "event_type": "birth",
+        "date_json": "{\"literal\":\"1938-01-12\",\"precision\":\"exact\",\"value\":\"1938-01-12\"}",
+        "place_id": null,
+        "place_role": "delivery_place_in_SCB_note"
+      },
+      "caveat": "Sundsvalls lasaretts B.B. enligt SCB:s nedkomstortsnot; Storbränna är föräldrarnas boställe, Sättna registerförsamling. Ägarens förtydligande är reserverat.",
+      "evidence": [
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "O-P-0211-C0140-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "O-P-0211-C0239-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "E-birth-P-0211@2",
+          "basis_revision_id": "TR-T0674-owner-clarification-20260918@1",
+          "role": "supports",
+          "note": "Versionsbundet underlag."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "ÄndradO-P0211-C0935@2 reserverar20[12?]/1. Eventets12januari1938 behålls frånC0240egenoriginal; ingen medelvärdes-/majoritetsdatering."
+    },
+    {
+      "request": "0bd1be0cc980799f7232152db4e3b8e56f0cfc90bae8c1dfcc4fd0ce525352ba",
+      "affected": "EP-E-birth-P-0211-P-0211-principal@2",
+      "changed": "O-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "EP-E-birth-P-0211-P-0211-principal@2",
+        "event_id": "E-birth-P-0211",
+        "person_id": "P-0211",
+        "mention_id": "M-P-0211-C0240-child",
+        "role": "principal"
+      },
+      "caveat": "Ortuppgifternas roller framgår av händelsen och dess ortslutsats.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-birth-P-0211-P-0211-principal@2",
+          "basis_revision_id": "E-birth-P-0211@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-birth-P-0211-P-0211-principal@2",
+          "basis_revision_id": "M-P-0211-C0240-child@2",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-birth-P-0211-P-0211-principal@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "O-C0935ändringen ändrarinteC0240mentionen som faktiskt ligger iP0211födelsedeltagandet. Person/event/principal består."
+    },
+    {
+      "request": "30961ba6fc6f17540ba127e1ba430615893b25f966aa62ffa64ae39ba6f09e13",
+      "affected": "F-P-0211-church_note-C0935@1",
+      "changed": "O-P-0211-C0935-child@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "F-P-0211-church_note-C0935@1",
+        "subject_id": "P-0211",
+        "property": "church_note",
+        "value_type": "structured",
+        "value_json": "{\"does_not_prove\":\"dopvägran, hushållets gemensamma dopstatus eller nutida kyrkotillhörighet\",\"literal\":\"icke döpt\",\"scope\":\"egen rad13 i Sättna folio388\"}"
+      },
+      "caveat": "Personbunden historisk notering.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0211-church_note-C0935@1",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "ÄndradC0935observation bevarar exakticke döpt pår13. Factchurch_note ärpersonbunden och har redaneffektiva begränsningar; behåll."
+    },
+    {
+      "request": "6995144001d53f19f56b4c57eb868674998a2aa367c6bd89163383e38dfdfbeb",
+      "affected": "F-P-0211-event_place-birth@2",
+      "changed": "O-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "F-P-0211-event_place-birth@2",
+        "subject_id": "E-birth-P-0211",
+        "property": "event_place",
+        "value_type": "structured",
+        "value_json": "{\"SCB_home\":\"Storbränna\",\"delivery_institution\":\"Sundsvalls lasaretts B.B.\",\"delivery_place\":\"Sundsvall\",\"earlier_family_form\":\"Sundsvall\",\"family_reported_birth_village_historical\":\"Storbränna\",\"local_orientation\":\"Kovland\",\"owner_clarification\":\"jag kan ha sagt det men menat att hon bodde där. kör på.\",\"physical_birth_building\":null,\"register_parish\":\"Sättna\"}"
+      },
+      "caveat": "Institutionen anges i källan; ingen exakt byggnadsadress är fastställd. Den äldre formuleringen i C-0239 är historik, inte längre ett säkert belägg för fysisk födsel i byn.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "O-P-0211-C0140-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "O-P-0211-C0239-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-event_place-birth@2",
+          "basis_revision_id": "TR-T0674-owner-clarification-20260918@1",
+          "role": "supports",
+          "note": "Versionsbundet underlag."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "O-C0935BB.ochditto ärreserverat; ortfaktatsSundsvallsinstitution kommer frånC0240nedkomstortsnot. Hem/reservägartolkning/byggnadsnull består."
+    },
+    {
+      "request": "6e31b1cd0e046382d4ebf30259c22b8d3439fbbba47085261a0991c68f085166",
+      "affected": "F-P-0211-household_membership-Storbranna1938@2",
+      "changed": "O-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "F-P-0211-household_membership-Storbranna1938@2",
+        "subject_id": "P-0211",
+        "property": "household_membership",
+        "value_type": "structured",
+        "value_json": "{\"folio\":388,\"home\":\"Storbränna\",\"later_residence\":null,\"parents\":[\"P-0241\",\"P-0246\"],\"parish\":\"Sättna\",\"year\":1938}"
+      },
+      "caveat": "Ingen ny persongrind eller utökad privatlivsforskning. Bostället anger föräldrahemmet; nedkomstorten återges separat i födelsehändelsen.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0211-household_membership-Storbranna1938@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-household_membership-Storbranna1938@2",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "C0935r13finns inomStorbrännahushållet1938 trotsläsosäkertnamn/dag. Householdmembership sägeringet omfysiskfödsel där ochbehållerlater_residencenull."
+    },
+    {
+      "request": "8d5df7362dcfd8e943c7c34463b10c4026ecb3b1f2e9563216782a365791acaf",
+      "affected": "F-P-0211-name_form-owner-archive@2",
+      "changed": "O-P-0211-C0935-child@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "F-P-0211-name_form-owner-archive@2",
+        "subject_id": "P-0211",
+        "property": "name_form",
+        "value_type": "structured",
+        "value_json": "{\"archive_forenames\":\"Evy Åsa Kristina\",\"family_name\":\"Evy Höök\",\"surname_change_date\":null}"
+      },
+      "caveat": "Ingen ny persongrind eller utökad privatlivsforskning. Bostället anger föräldrahemmet; nedkomstorten återges separat i födelsehändelsen.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0211-name_form-owner-archive@2",
+          "basis_revision_id": "O-P-0211-C0140-own@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-name_form-owner-archive@2",
+          "basis_revision_id": "O-P-0211-C0240-child@2",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        },
+        {
+          "revision_id": "F-P-0211-name_form-owner-archive@2",
+          "basis_revision_id": "O-P-0211-C0935-child@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "O-C0935reserveratförnamn upphäverintearchive_forenames frånC0240/C0140. Familynameochokändnamnbytesdag står påannanbas; C0935räknasinte somexakt ytterligarenamnvittne."
+    },
+    {
+      "request": "24be5c7ff61ef6ff8e42ca6e994c8df6b36c3f2fa5791028f4a8f93949e902f4",
+      "affected": "E-registered_arrival-Henriksson-family-arrival1936@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+        "event_type": "registered_arrival",
+        "date_json": "{\"literal\":\"1936-11-14\",\"precision\":\"exact\",\"value\":\"1936-11-14\"}",
+        "place_id": null,
+        "place_role": "registered_destination"
+      },
+      "caveat": "Familjeankomst från Sundsvall, sju personer (tre män, fyra kvinnor).",
+      "evidence": [
+        {
+          "revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "basis_revision_id": "O-P-0241-C0935-own-arr1936@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "basis_revision_id": "O-P-0241-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "FadernsO@2 bevarar36 14/11frånSundsvall. Eventetsregistered_arrival1936-11-14 ochregistreradortroll består; nygiftårs-/födelseortsreserv gällerandra kolumner."
+    },
+    {
+      "request": "10a252941b24bf8add13e41c4cbdea40a3b9d6be281f974397d9701dfc163b30",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0241-principal@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0241-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0241",
+        "mention_id": null,
+        "role": "principal"
+      },
+      "caveat": "Familjeankomst från Sundsvall, sju personer (tre män, fyra kvinnor).",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0241-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0241-principal@1",
+          "basis_revision_id": "O-P-0241-C0935-own-arr1936@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0241-principal@1",
+          "basis_revision_id": "O-P-0241-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "AxelEdvin ärfadernr6 medegenankomst36 14/11;principalroll i1936händelsen oförändrad. Lastbils-tillägg ändrarintepersonen."
+    },
+    {
+      "request": "620ad317213d69e0e766193ef655faff79608f91469275b0b96c65fceb2967f5",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0246",
+        "mention_id": "M-C0935-Emma-Petronella",
+        "role": "principal"
+      },
+      "caveat": "Delad familjehändelse; administrativ registrering eller boköverföring är inte en separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "M-C0935-Emma-Petronella@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "O-P-0246-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Emmaankomst kopplad tillhu.r7 medegna ditton, inte blanka1943överföringar. Fadernsnya råreserver ändrarinte hennes1936roll."
+    },
+    {
+      "request": "d89c35a71707794e5fc692b900049d77dd2d7cded53d2353b4205f8ec9eb54c6",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0258-principal@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0258-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0258",
+        "mention_id": "M-C0935-P-0258",
+        "role": "principal"
+      },
+      "caveat": "Fem äldre barn i återinflyttande familj,sju personer totalt; Evy föds först1938.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0258-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0258-principal@1",
+          "basis_revision_id": "M-C0935-P-0258@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0258-principal@1",
+          "basis_revision_id": "R-27cd647d75b3fc32a86bb717@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0258-principal@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Villyr9har namn ochegna ankomstditton; födelse27 19/11kontraäldre1922 äröppen men bådaalternativ föregår1936. Deltagandet kräver inte ordningsargumentförevigsel ochbehålls."
+    },
+    {
+      "request": "a4854f3afce858872229f7c3ecc227e6eb468c11a6f967ca60969a06c199434f",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0259",
+        "mention_id": "M-C0935-P-0259",
+        "role": "principal"
+      },
+      "caveat": "Fem äldre barn i återinflyttande familj,sju personer totalt; Evy föds först1938.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+          "basis_revision_id": "M-C0935-P-0259@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+          "basis_revision_id": "R-27cd647d75b3fc32a86bb717@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0259-principal@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Alvyr8ärföräldrahushållets dotter med1936ditton; namnreservation påverkarinteidentifieradankomstdeltagare. Senare1942fält hållsskilt."
+    },
+    {
+      "request": "9425a0f4d54e93ed1024d350f974d35bd85c804b8faf90faa7747d11e0f28091",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0260-principal@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0260-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0260",
+        "mention_id": "M-C0935-P-0260",
+        "role": "principal"
+      },
+      "caveat": "Fem äldre barn i återinflyttande familj,sju personer totalt; Evy föds först1938.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0260-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0260-principal@1",
+          "basis_revision_id": "M-C0935-P-0260@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0260-principal@1",
+          "basis_revision_id": "R-27cd647d75b3fc32a86bb717@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0260-principal@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "NilsAxelHenryr10 med30 9/12ochegna1936ditton förblirsamma ankombarn. BB.ovanSundsvall ärinte exaktinstitutionsslutsats ochändrarinteankomstroll."
+    },
+    {
+      "request": "8319fa7f435e5ce67ba105cc474630da15617e4482439135b827bf4469e81aea",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0261",
+        "mention_id": "M-C0935-P-0261",
+        "role": "principal"
+      },
+      "caveat": "Fem äldre barn i återinflyttande familj,sju personer totalt; Evy föds först1938.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+          "basis_revision_id": "M-C0935-P-0261@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+          "basis_revision_id": "R-27cd647d75b3fc32a86bb717@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0261-principal@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Sallyr11 med32 19/1 ochdittonförankrad i1936ankomsten. KällnamnSally/Solly skapar ingenextra person ochändrarinteantalet."
+    },
+    {
+      "request": "2fbcedfb624a5cfdcf0b1c25612d3359fc591eab347383287aab03514fd172b4",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0262-principal@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0262-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0262",
+        "mention_id": "M-C0935-P-0262",
+        "role": "principal"
+      },
+      "caveat": "Fem äldre barn i återinflyttande familj,sju personer totalt; Evy föds först1938.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0262-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0262-principal@1",
+          "basis_revision_id": "M-C0935-P-0262@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0262-principal@1",
+          "basis_revision_id": "R-27cd647d75b3fc32a86bb717@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0262-principal@1",
+          "basis_revision_id": "R-f0daaefd9c25840abc871c44@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "BeritKristinar12 med33 19/8ochegna1936ditton ärsammaankomstdeltagare. Marginalbågen har inte getts nyfunktion eller flyttdag."
+    },
+    {
+      "request": "654988837ed83bdd6c4aff51fd12b9579bac6fbefadc5107d83bbf497bfd2cf5",
+      "affected": "F-P-0241-event_place-registered_arrival-Henriksson-family-arrival1936@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "F-P-0241-event_place-registered_arrival-Henriksson-family-arrival1936@1",
+        "subject_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "property": "event_place",
+        "value_type": "structured",
+        "value_json": "{\"place\":\"Storbränna fol.388, Sättna\",\"role\":\"registered_destination\"}"
+      },
+      "caveat": "Familjeankomst från Sundsvall, sju personer (tre män, fyra kvinnor).",
+      "evidence": [
+        {
+          "revision_id": "F-P-0241-event_place-registered_arrival-Henriksson-family-arrival1936@1",
+          "basis_revision_id": "O-P-0241-C0935-own-arr1936@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0241-event_place-registered_arrival-Henriksson-family-arrival1936@1",
+          "basis_revision_id": "O-P-0241-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "RegistreradankomstortStorbrännafol388Sättna fastställs avsidhuvud ochhemvist, inte fadernsreserveradefödelseort. Place_role registered_destinationförblir korrekt."
+    },
+    {
+      "request": "0ce18d0ade5bb7b69f7f055e4e7993a2a27189b47bc5c0ffac606f5e6f7a1a02",
+      "affected": "F-P-0241-occupation-source-sequence@2",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 2,
+      "currentPayload": {
+        "revision_id": "F-P-0241-occupation-source-sequence@2",
+        "subject_id": "P-0241",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": "{\"ownership\":\"Torpare bevisar varken äganderätt eller att egen fastighet saknades.\",\"records\":[\"1924 arbetare vid vigseln\",\"torpare i Storbränna 1924–1928-posterna\",\"arbetare vid inflyttning Sundsvall 1928\",\"senare Chaufför på samma uppslag, ändringsdag okänd\",\"chaufför i Storbränna från registreringen 1936\",\"chaufför[?] i Evys födelseutdrag1938; bästa nya läsning, sammanflytande detaljer reserverade, ersätter äldre skogsarbetare[?]\"]}"
+      },
+      "caveat": "Yrkesföljden är källbunden och fastställer inga obrutna anställningsperioder.",
+      "evidence": [
+        {
+          "revision_id": "F-P-0241-occupation-source-sequence@2",
+          "basis_revision_id": "O-P-0241-C0240-own@2",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0241-occupation-source-sequence@2",
+          "basis_revision_id": "O-P-0241-C0925-own@2",
+          "role": "supports",
+          "note": "T-0110:s revision2 rättar barnets dag och vigselråmånad; dessa ändrar inte yrkesföljdens tidsbundna tolkning. Båda revisioner sakjämförda i T-0674."
+        },
+        {
+          "revision_id": "F-P-0241-occupation-source-sequence@2",
+          "basis_revision_id": "O-P-0241-C0927-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0241-occupation-source-sequence@2",
+          "basis_revision_id": "O-P-0241-C0933-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0241-occupation-source-sequence@2",
+          "basis_revision_id": "O-P-0241-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "revise_specific_field",
+      "rationale": "Yrkesföljden kompletteras endastmedodateratLastbils-[?]ovanChaufför ir6. C0240chauﬀör? ochäldrearbetare/torpare bevaras, ingen yrkesstart/obrutenanställning härleds."
+    },
+    {
+      "request": "ee6daa61b7f551b9b98910e993b83123ed1a7f842cd7ab1ec27fccda4d5cca3d",
+      "affected": "F-P-0241-residence-registered-family-sequence@1",
+      "changed": "O-P-0241-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "F-P-0241-residence-registered-family-sequence@1",
+        "subject_id": "P-0241",
+        "property": "residence",
+        "value_type": "structured",
+        "value_json": "{\"limits\":[\"Bokperioderna bevisar inte obruten fysisk vistelse.\",\"3011, Fl.9?/42 och N:o392–43 är inte färdigföljda.\",\"1938 års Storbränna är inte ett obelagt tillfälligt besök hos en levande mormor; äldre resonemang rättat.\"],\"places\":[\"Storbränna från födelseposten 1901 och senare hushållsböcker\",\"Sundsvall Storgatan 24 från registreringen 1928-09-29\",\"Storbränna fol.388 från registreringen 1936-11-14\"]}"
+      },
+      "caveat": "",
+      "evidence": [
+        {
+          "revision_id": "F-P-0241-residence-registered-family-sequence@1",
+          "basis_revision_id": "O-P-0241-C0244-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0241-residence-registered-family-sequence@1",
+          "basis_revision_id": "O-P-0241-C0926-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0241-residence-registered-family-sequence@1",
+          "basis_revision_id": "O-P-0241-C0933-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0241-residence-registered-family-sequence@1",
+          "basis_revision_id": "O-P-0241-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "revise_specific_field",
+      "rationale": "AktivFresidence innehöllFl9?/42ochgammalN:o392form. Följdrevision för inFl19/42pådotterr8 ochfadernsN.b.392/-43;1936ankomst ochäldreboendeankare består."
+    },
+    {
+      "request": "cad67bc92deeddb73e09f53199c2753883028fe81ae1307cab52636b52d9115e",
+      "affected": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+      "changed": "O-P-0246-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+        "event_id": "E-registered_arrival-Henriksson-family-arrival1936",
+        "person_id": "P-0246",
+        "mention_id": "M-C0935-Emma-Petronella",
+        "role": "principal"
+      },
+      "caveat": "Delad familjehändelse; administrativ registrering eller boköverföring är inte en separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "E-registered_arrival-Henriksson-family-arrival1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "M-C0935-Emma-Petronella@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-Henriksson-family-arrival1936-P-0246-principal@1",
+          "basis_revision_id": "O-P-0246-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "EmmasO@2 gerfortfarandearrival1936-11-14 medhemStorbränna. Egenkol14tom ochFlr8 rättelse avser1942, inte hennesprincipalroll1936."
+    },
+    {
+      "request": "42667ff85036c8c37e6820115fe250cad50e1d063bf391e067c7586b5495d16b",
+      "affected": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+      "changed": "O-P-0246-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+        "event_id": "E-registered_departure-Henriksson-family-1936",
+        "person_id": "P-0246",
+        "mention_id": "M-C0935-Emma-Petronella",
+        "role": "principal"
+      },
+      "caveat": "Delad familjehändelse; administrativ registrering eller boköverföring är inte en separat fysisk resdag.",
+      "evidence": [
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+          "basis_revision_id": "E-registered_departure-Henriksson-family-1936@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+          "basis_revision_id": "M-C0935-Emma-Petronella@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-registered_departure-Henriksson-family-1936-P-0246-principal@1",
+          "basis_revision_id": "O-P-0246-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "Emmas1936avgång tillfamiljeankomststöds avandra flyttkällor ochfamiljekontext; borttagen1942referens innebäringen ändring av1936avgångsroll."
+    },
+    {
+      "request": "340ee44a39b7653f601cf42643e1aa35118e0f207b708bbbba7c684d4307a9f4",
+      "affected": "F-P-0246-religious_registration-bounded@1",
+      "changed": "O-P-0246-C0935-own@2",
+      "currentVersion": 1,
+      "currentPayload": {
+        "revision_id": "F-P-0246-religious_registration-bounded@1",
+        "subject_id": "P-0246",
+        "property": "religious_registration",
+        "value_type": "structured",
+        "value_json": "{\"birth_note\":\"Dop vägradt\",\"later_notes\":\"icke döpt för Emma1900/1910och senarehushåll\",\"limits\":\"Ingen aktör/motiv för dopvägran angiven,inget bestämt samfund. Makens eget dop1901står fast; barnens odöptnoter är individuella och kan vara traderade.\",\"marriage\":\"kyrklig1924-09-13\"}"
+      },
+      "caveat": "",
+      "evidence": [
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0242-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0243-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0246-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0927-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "revision_id": "F-P-0246-religious_registration-bounded@1",
+          "basis_revision_id": "O-P-0246-C0935-own@1",
+          "role": "supports",
+          "note": "Samma bevarade källunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "decision": "retain_without_rebind",
+      "rationale": "EmmasO@2 behållericke döpt. Religionsfact bygger ävenpåC0246Dopvägradt ochC0927kyrkligvigsel1924; C0935giftår24/27 ärinte endaäktenskapskälla. Ingetsamfund elleraktör härlett."
+    }
+  ],
+  "extra_field_correction": "F-P0241children_source_context-six notationB→BB.ochditto; specifikaktuell rest, inga andra childvärden ändrade.",
+  "owners": [
+    {
+      "task": "T-0214",
+      "scope": "Befintligfol388fullutvinning nuutförd, ska tillgodoräknas;C0933/3011ochövrigaegnaavgränsadeposter återstår enligtlogg."
+    },
+    {
+      "task": "T-0216",
+      "scope": "FadernsN.b.392/-43,högstenhänvisadfolio;ingenautomatiskEmma/barn1943flytt."
+    },
+    {
+      "task": null,
+      "scope": "Villys egen födelsepost för1922mot1927ärinte uttryckligen med iT0214;root kan avgränsa materiellföljd,ingennykälla/taskskapad."
+    }
+  ],
+  "no_apply": true
+}

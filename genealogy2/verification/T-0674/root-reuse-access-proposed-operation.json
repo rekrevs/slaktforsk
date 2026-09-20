@@ -1,0 +1,79 @@
+{
+  "id": "T-0674/root-reuse-access-v1",
+  "actor": "Codex",
+  "reason": "T-0674: exakt återbruk av C0235 och transparenta åtkomstgränser för C0236/C0237.",
+  "changes": [
+    {
+      "id": "AUDIT-T0674-ROOT-C0235",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "R-8027bcedb8bc1d0397c72d88",
+        "criteria": "source_reread/1",
+        "outcome": "reused_prior_review",
+        "body": "T-0110:s bevarade kompletta LIBRIS JSON-LD och AUDIT-T0110-C-0235@1 återbrukas. Root har kontrollerat SHA-256 och person-/Record-fälten mot samma sparade payload: Elisabeth Höök;19020409;19910918;Missionärer/Sjuksköterskor;sourceConsulted Sveriges dödbok1901–2009 och Kvinnan som red över Himalaya2017. Sakligt omfång överensstämmer. Ingen ny hämtning eller oberoende historisk röst. HTML-vyns äldre två bokrelationer och böckerna förblir ej omverifierade här."
+      },
+      "disposition": "recorded",
+      "rationale": "T-0674 AK1/4: skilj tillgodoräknad tidigare prövning från oprövad/åtkomstbegränsad källa. Wotan äger fortsättning.",
+      "caveat": "Inget personkontraktsgodkännande och ingen ny genealogisk sakuppgift.",
+      "evidence": [
+        {
+          "object": "R-8027bcedb8bc1d0397c72d88",
+          "version": 2,
+          "role": "context",
+          "note": "Avgränsad källpost vars granskningsläge bedöms; ingen ny källa genom denna bedömning."
+        },
+        {
+          "object": "AUDIT-T0110-C-0235",
+          "version": 1,
+          "role": "supports",
+          "note": "Exakt tidigare prövning återbrukas."
+        }
+      ]
+    },
+    {
+      "id": "AUDIT-T0674-ROOT-C0236",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "R-774537611bd02c4a5d7ee4cf",
+        "criteria": "source_reread/1",
+        "outcome": "not_reverified",
+        "body": "Direkt öppning av exakt sparad Ancestry-URL via webbverktyget gav internt åtkomstfel. Chrome skapade flik1944357103 med rätt URL och titel Ivar Gunnar Emanuel Höök - Ancestry, men innehållsläsningen stoppades eftersom annan extensionUI var öppen. Titel är inte full källäsning. Ingen källa eller personuppgift omverifierad; gammal sekundärprofil bevaras som tidigare rapport, underliggande dbid2262/pid37926745 ännu oläst. Inget nollresultat och ingen bypass."
+      },
+      "disposition": "recorded",
+      "rationale": "T-0674 AK1/4: skilj tillgodoräknad tidigare prövning från oprövad/åtkomstbegränsad källa. Wotan äger fortsättning.",
+      "caveat": "Inget personkontraktsgodkännande och ingen ny genealogisk sakuppgift.",
+      "evidence": [
+        {
+          "object": "R-774537611bd02c4a5d7ee4cf",
+          "version": 1,
+          "role": "context",
+          "note": "Avgränsad källpost vars granskningsläge bedöms; ingen ny källa genom denna bedömning."
+        }
+      ]
+    },
+    {
+      "id": "AUDIT-T0674-ROOT-C0237",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "data": {
+        "subject_id": "R-ac38f0236154995e8904f9f0",
+        "criteria": "source_reread/1",
+        "outcome": "not_reverified",
+        "body": "Webbverktygets direktöppning av https://www.myheritage.se/names/elisabeth_carlman gav internt åtkomstfel. Inget nytt sidinnehåll eller sökutdrag läst. Den gamla2026-08-22-träffen är en daterad sökmotorrepresentation som en dagens sökning inte skulle reproducera som samma version. Tidigare hCaptcha och användarens1901-uppgift kvarstår separat; åtkomstfel är inte nollträff. Ingen CAPTCHA löst och inga gamla personfakta omgraderade."
+      },
+      "disposition": "recorded",
+      "rationale": "T-0674 AK1/4: skilj tillgodoräknad tidigare prövning från oprövad/åtkomstbegränsad källa. Wotan äger fortsättning.",
+      "caveat": "Inget personkontraktsgodkännande och ingen ny genealogisk sakuppgift.",
+      "evidence": [
+        {
+          "object": "R-ac38f0236154995e8904f9f0",
+          "version": 1,
+          "role": "context",
+          "note": "Avgränsad källpost vars granskningsläge bedöms; ingen ny källa genom denna bedömning."
+        }
+      ]
+    }
+  ]
+}

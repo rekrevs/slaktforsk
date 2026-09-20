@@ -1,0 +1,117 @@
+{
+  "task": "y",
+  "passed": false,
+  "score": 14,
+  "maxScore": 16,
+  "critical_errors": [
+    "P2: befintligt kanoniskt 1901-03-05 bevaras inte uttryckligen; endast konfliktalternativ återges.",
+    "F5: opåverkad bostadsuppgift för familjen försvinner ur ersättningstexten.",
+    "canonical_changes.persons är inte tom: svaret föreslår personkärneändring/konfliktannotering trots kravet på skyddad canonical. Inget nytt säkert datum har dock införts."
+  ],
+  "object_reviews": [
+    {
+      "id": "O1",
+      "accepted": true,
+      "reason": "Rättar till 1930-10-23 enligt R1@2; inget förväxlat betygsnummer."
+    },
+    {
+      "id": "F1",
+      "accepted": true,
+      "reason": "Den beroende sakuppgiften följer rättelsen till 23 oktober 1930."
+    },
+    {
+      "id": "Q1",
+      "accepted": true,
+      "reason": "Tar bort den inaktuella oläst-/öppenmarkeringen och besvarar dagen med R1."
+    },
+    {
+      "id": "K1",
+      "accepted": true,
+      "reason": "Korrigerar fortsatt söknyckel till 23 oktober; hittar inte på inflyttningsdatum."
+    },
+    {
+      "id": "H1",
+      "accepted": true,
+      "reason": "Bevarar uttrycklig tidigare preliminär läsning som historik."
+    },
+    {
+      "id": "N1",
+      "accepted": true,
+      "reason": "Avgränsar korrekt en annan Ebba från den aktuella rättelsen."
+    },
+    {
+      "id": "F2",
+      "accepted": true,
+      "reason": "Bevarar ägarbekräftat faderskap med sakligt tillräcklig motivering."
+    },
+    {
+      "id": "P1",
+      "accepted": true,
+      "reason": "Bevarar Ebbas separata födelsedatum och opåverkade personkärna."
+    },
+    {
+      "id": "O2",
+      "accepted": true,
+      "reason": "Återger 31 mars som föredragen läsning och 5 mars som ej utesluten; inget säkert nytt datum."
+    },
+    {
+      "id": "F3",
+      "accepted": true,
+      "reason": "Avvisar oberoende dubbelräkning av R2/I2 utan att fastställa ett nytt säkert datum."
+    },
+    {
+      "id": "Q2",
+      "accepted": true,
+      "reason": "Återöppnar den faktiska datumfrågan och anger egen födelsepost som återstående källsteg."
+    },
+    {
+      "id": "P2",
+      "accepted": false,
+      "reason": "Anger datumkonflikt men behåller inte uttryckligen befintligt kanoniskt 1901-03-05: texten ersätts av två läsalternativ och canonical_changes föreslår en personändring med samma otydlighet."
+    },
+    {
+      "id": "O3",
+      "accepted": true,
+      "reason": "Behåller den bekräftade, avgränsade observationen om tom hälsokolumn på egen rad."
+    },
+    {
+      "id": "F4",
+      "accepted": true,
+      "reason": "Tar bort livslång friskhetsslutsats och begränsar underlaget till den tomma egna raden."
+    },
+    {
+      "id": "A1",
+      "accepted": true,
+      "reason": "Bevarar identitetsgrindens hushållskedjegrund; inget nytt livsbildsgodkännande."
+    },
+    {
+      "id": "F5",
+      "accepted": false,
+      "reason": "Ersättningen skiljer korrekt hemort från dödsort men tappar den opåverkade befintliga sakuppgiften att familjen bodde i Östra Husby. Att G1 inte ger nya boendeuppgifter motiverar inte att stryka denna del av F5."
+    }
+  ],
+  "global_checks": {
+    "all_16_objects": true,
+    "all_9_requests_exact": true,
+    "request_mismatches": [],
+    "canonical_changes_empty": false,
+    "owner_confirmed_preserved": true,
+    "no_new_person_or_relation": true,
+    "identity_gate_preserved_no_new_life_approval": true,
+    "existing_ludvig_date_explicitly_retained": false,
+    "no_fabricated_archival_findings": true,
+    "evidence_relevant": true,
+    "bounded_followups": true,
+    "full_answer_read": true,
+    "automatic_failed_checks": [
+      "P2.action",
+      "canonical_protected"
+    ],
+    "canonical_substantively_protected": false,
+    "automatic_canonical_schema_deviation": true
+  },
+  "notes": [
+    "F5-känslighet: input anger endast G1 som explicit stöd för hela objektet och ger inget separat boendebelägg. Huvudbedömningen bevarar ändå den opåverkade bostadsdelen enligt fryst rubric. sensitivity_pass_without_F5 bortser från denna gränsdragning och tillåter datumbevarande konfliktannotering."
+  ],
+  "sensitivity_pass_without_F5": false
+}
