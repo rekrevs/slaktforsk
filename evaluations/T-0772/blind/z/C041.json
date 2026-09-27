@@ -1,0 +1,147 @@
+{
+  "id": "T-0769-Z-answer",
+  "actor": "benchmark",
+  "reason": "T-0769: rättar S-A:s titel, preciserar R-B och tillför helbild, rättar O-B och F-B till 23/10 1930 med aktuella underlagsversioner samt stänger deras individuella följdprövningar.",
+  "dependencyReviewVersion": 2,
+  "media": [
+    {
+      "id": "MED-full",
+      "sha256": "4278820bde38974242a8df03906de52b5fdd6046725ab20929d90cc80a1a4ba8",
+      "storagePath": "genealogy2/media/objects/4278820bde38974242a8df03906de52b5fdd6046725ab20929d90cc80a1a4ba8",
+      "bytes": 10,
+      "originalName": "full.txt",
+      "provenance": "Syntetiskt medieinnehåll för test; ingen arkivbild."
+    }
+  ],
+  "changes": [
+    {
+      "id": "S-A",
+      "kind": "source",
+      "data": {
+        "title": "Provförsamlingen",
+        "description": "Syntetisk källa A"
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Rättar stavningen i källans titel enligt fastställt beslut.",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ]
+    },
+    {
+      "id": "R-B",
+      "kind": "record",
+      "data": {
+        "source_id": "S-B",
+        "record_type": "departure",
+        "locator": "folio 20, rad 3, utflyttning nr 17",
+        "dependence_note": "Samma registreringskedja som observationen."
+      },
+      "expectedVersion": 2,
+      "disposition": "recorded",
+      "rationale": "Preciserar lokaliseringen med utflyttning nr 17 och tillför helbilden med bevarat utsnitt.",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ],
+      "media": [
+        {
+          "id": "MED-old",
+          "region": "utsnitt"
+        },
+        {
+          "id": "MED-full",
+          "region": "helbild"
+        }
+      ],
+      "evidence": [
+        {
+          "object": "S-B",
+          "version": 1,
+          "role": "supports"
+        }
+      ]
+    },
+    {
+      "id": "O-B",
+      "kind": "observation",
+      "data": {
+        "record_id": "R-B",
+        "mention_id": null,
+        "property": "departure_date",
+        "value_literal": "23/10 1930",
+        "value_json": {
+          "precision": "exact",
+          "value": "1930-10-23"
+        }
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Rättar observerat utflyttningsdatum till 23/10 1930 och binder observationen till den rättade källposten R-B version 3.",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-B",
+          "version": 3,
+          "role": "supports"
+        }
+      ]
+    },
+    {
+      "id": "F-B",
+      "kind": "fact",
+      "data": {
+        "subject_id": "P-A",
+        "property": "departure_date",
+        "value_type": "date",
+        "value_json": {
+          "precision": "exact",
+          "value": "1930-10-23",
+          "literal": "23/10 1930"
+        }
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Rättar slutsatsen om registrerad utflyttning till 23/10 1930 med stöd av O-B version 2 och bevarar förbehållet om faktisk resdag.",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "O-B",
+          "version": 2,
+          "role": "supports"
+        }
+      ],
+      "evidenceStatus": "TRANSCRIBED",
+      "caveat": "Registrerad utflyttning, inte bevis för faktisk resdag."
+    }
+  ],
+  "resolve": [
+    {
+      "request": "bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad",
+      "rationale": "Slutsatsen har omprövats mot den rättade observationen O-B version 2 och anger nu registrerad utflyttning 23/10 1930; förbehållet om faktisk resdag kvarstår."
+    },
+    {
+      "request": "b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5",
+      "rationale": "Observationen har omprövats mot den preciserade källposten R-B version 3 med helbild och anger nu rådatum 23/10 1930 och normaliserat datum 1930-10-23."
+    }
+  ]
+}

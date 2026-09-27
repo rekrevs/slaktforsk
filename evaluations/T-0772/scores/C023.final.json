@@ -1,0 +1,119 @@
+{
+  "task": "y",
+  "passed": false,
+  "score": 15,
+  "maxScore": 16,
+  "critical_errors": [
+    "F5: ersättningstexten tappar den opåverkade befintliga uppgiften att familjen bodde i Östra Husby."
+  ],
+  "object_reviews": [
+    {
+      "id": "O1",
+      "accepted": true,
+      "reason": "Rättar den aktuella observationen till 23 oktober 1930 enligt R1@2; inget datum tas från betygsnummer 20. Granskat replacement: \"Ebbas utflyttningsdatum i R1 anges 1930-10-23 (fastställd avskrift R1@2). Betygsnummer 20 står i separat kolumn och är inte en del av datumet.\". Evidence [\"R1@2\"] är relevant. Resolve \"q1\" motsvarar objektets request."
+    },
+    {
+      "id": "F1",
+      "accepted": true,
+      "reason": "Följer rättelsen till 23 oktober 1930 och knyter utflyttningen till R1. Granskat replacement: \"Ebba flyttade ut 23 oktober 1930 enligt R1 (fastställd avskrift R1@2).\". Evidence [\"R1@2\"] är relevant. Resolve \"q2\" motsvarar objektets request."
+    },
+    {
+      "id": "Q1",
+      "accepted": true,
+      "reason": "Ersätter den inaktuella oläst-premissen med ett besvarat datum inom R1; kräver inget nytt fynd. Granskat replacement: \"Besvarad: Ebbas utflyttningsdag är 23 oktober 1930 enligt fastställd avskrift av R1 (R1@2).\". Evidence [\"R1@2\"] är relevant. Resolve null motsvarar objektets request."
+    },
+    {
+      "id": "K1",
+      "accepted": true,
+      "reason": "Använder 23 oktober 1930 som korrigerad söknyckel och lämnar inflyttningsposten att söka. Granskat replacement: \"Sök Ebbas inflyttningspost i mottagande församling från och med 23 oktober 1930 (utflyttningsdatum enligt R1@2, betyg nr 20).\". Evidence [\"R1@2\"] är relevant. Resolve null motsvarar objektets request."
+    },
+    {
+      "id": "H1",
+      "accepted": true,
+      "reason": "Bevarar den preliminära 22-oktoberläsningen som uttrycklig historik, inte som gällande datum. Granskat rationale: \"Objektet är en uttrycklig historisk logg över den preliminära läsningen 22 oktober. Loggen anger själv att senare läsning ersätter den. Enligt policyn bevaras historiska avskrifter oförändrade.\". Evidence [] är relevant (tom lista godtas för detta opåverkade/historiska objekt). Resolve null motsvarar objektets request."
+    },
+    {
+      "id": "N1",
+      "accepted": true,
+      "reason": "Skiljer den andra Ebba i Kalmar från den aktuella utflyttningen och lämnar träffen orörd. Granskat rationale: \"Objektet gäller en annan Ebba, född 1880 och bosatt i Kalmar, som dog 1930-10-22 enligt R9. Träffen beror bara på samma namn och datum och har ingen koppling till vår Ebbas utflyttning. Objektet ska inte ändras.\". Evidence [] är relevant (tom lista godtas för detta opåverkade/historiska objekt). Resolve null motsvarar objektets request."
+    },
+    {
+      "id": "F2",
+      "accepted": true,
+      "reason": "Behåller Johan som ägarbekräftad far; den nya utflyttningsläsningen ändrar inte OWNER_CONFIRMED. Granskat rationale: \"Faderskapet vilar på ägarens uttryckliga bekräftelse (OWNER_CONFIRMED). Den nya avskriften av R1 säger inget om faderskap och ger alltså varken stöd för eller emot. Ägarbekräftelsen bevaras oförändrad.\". Evidence [\"R1@2\"] är relevant. Resolve \"q3\" motsvarar objektets request."
+    },
+    {
+      "id": "P1",
+      "accepted": true,
+      "reason": "Behåller Ebbas personkärna och hennes R8-stödda 1901-05-03 utan sammanblandning med Ludvig. Granskat rationale: \"Ebbas födelsedatum 1901-05-03 stöds av hennes egen födelsepost R8. Ingen ny evidens rör Ebbas födelse. Datumet ska inte förväxlas med Ludvigs omstridda 1901-03-05/31.\". Evidence [] är relevant (tom lista godtas för detta opåverkade/historiska objekt). Resolve null motsvarar objektets request."
+    },
+    {
+      "id": "O2",
+      "accepted": true,
+      "reason": "Återger mars 1901 med 31 som föredragen läsning och 5 fortfarande möjligt; fastställer ingen säker ny dag. Granskat replacement: \"Ludvigs födelse i R2 läses som år 1901, månad 3 (mars). Dagen läses företrädesvis som 31, men 5 kan inte uteslutas (bildprövning R2@2). Den tidigare återgivningen var 1901-03-05.\". Evidence [\"R2@2\"] är relevant. Resolve \"q4\" motsvarar objektets request."
+    },
+    {
+      "id": "F3",
+      "accepted": true,
+      "reason": "Tar bort oberoende dubbelräkning av R2 och dess avskrift I2 samt det säkra datumanspråket. Granskat replacement: \"Ludvigs födelse har ett enda belägg, R2: år 1901, mars; dagen läses företrädesvis 31, men 5 kan inte uteslutas. Registerutdraget I2 (1901-03-05) är avskrivet direkt från R2 och är inte ett oberoende belägg.\". Evidence [\"I2@1\", \"R2@2\"] är relevant. Resolve \"q5\" motsvarar objektets request."
+    },
+    {
+      "id": "Q2",
+      "accepted": true,
+      "reason": "Återöppnar födelsedagsfrågan och anger att Ludvigs egen födelsepost återstår att söka/pröva. Granskat replacement: \"Ludvigs födelsedag är inte avgjord. R2 ger 1901-03 med dag 31 (föredragen) eller 5, och I2 är avskrift av R2, inte oberoende. Sök Ludvigs egen födelsepost för att avgöra dagen.\". Evidence [\"R2@2\", \"I2@1\"] är relevant. Resolve null motsvarar objektets request."
+    },
+    {
+      "id": "P2",
+      "accepted": true,
+      "reason": "Trots action revise behålls uttryckligen 1901-03-05 som kanoniskt datum under konflikt, med egen födelsepost oläst. Detta är sakligt likvärdigt med retain enligt STANDARD-Y; stödet uppgraderas inte. Granskat replacement: \"Ludvigs kanoniska födelsedatum behålls tills vidare som 1901-03-05 under uttrycklig konflikt: den nya bildprövningen av R2 föredrar dag 31, men 5 kan inte uteslutas. I2 är avskrift av R2 och inte oberoende. Egen födelsepost är oläst och ska avgöra dagen.\". Evidence [\"R2@2\", \"I2@1\"] är relevant. Resolve \"q6\" motsvarar objektets request."
+    },
+    {
+      "id": "O3",
+      "accepted": true,
+      "reason": "Behåller endast den bekräftade tomma hälsokolumnen på Ludvigs egen rad. Granskat rationale: \"Den nya bildprövningen bekräftar att hälsokolumnen på Ludvigs egen rad i R2 är läst och tom. Observationen är korrekt och avgränsad.\". Evidence [\"R2@2\"] är relevant. Resolve \"q7\" motsvarar objektets request."
+    },
+    {
+      "id": "F4",
+      "accepted": true,
+      "reason": "Ersätter livslång friskhet med den avgränsade observationen och dess begränsade hälsotäckning. Granskat replacement: \"R2 har ingen hälsoanmärkning för Ludvig (tom hälsokolumn på hans egen rad). Ingen annan hälsotäckning finns, så ingen slutsats kan dras om hans hälsa under livet i övrigt.\". Evidence [\"R2@2\"] är relevant. Resolve \"q8\" motsvarar objektets request."
+    },
+    {
+      "id": "A1",
+      "accepted": true,
+      "reason": "Behåller den redan gällande identitetsgrinden på hushållskedjan R7; utfärdar inget nytt livsbildsgodkännande. Granskat rationale: \"Identitetsgrinden vilar på den obrutna hushållskedjan R7, inte på exakt födelsedag. Den nya prövningen anger att identiteten fortsatt är säker via hushållskedjan och att inget nytt motbelägg mot R7 finns. Grinden är sakligt opåverkad. Livsbild förblir ej bedömd, och inget nytt livsbildsgodkännande ges.\". Evidence [\"R2@2\"] är relevant. Resolve \"q9\" motsvarar objektets request."
+    },
+    {
+      "id": "F5",
+      "accepted": false,
+      "reason": "Skiljer hemort från fysisk dödsort men ersättningstexten tappar den opåverkade uppgiften att familjen bodde i Östra Husby. Gravkortets begränsning ersätter inte denna bostadsuppgift. Kritiskt fel enligt STANDARD-Y. Granskat replacement: \"Gravkortet G1 anger hemort Östra Husby. Fysisk dödsort anges inte, så var modern dog är inte belagt av G1. G1 ger ingen uppgift om familjens boende i övrigt.\". Evidence [\"G1@2\"] är relevant. Resolve null motsvarar objektets request."
+    }
+  ],
+  "global_checks": {
+    "all_16_objects": true,
+    "all_9_requests_exact": true,
+    "request_mismatches": [],
+    "canonical_changes_empty": true,
+    "canonical_substantively_protected": true,
+    "automatic_canonical_schema_deviation": false,
+    "owner_confirmed_preserved": true,
+    "no_new_person_or_relation": true,
+    "identity_gate_preserved_no_new_life_approval": true,
+    "existing_ludvig_date_explicitly_retained": true,
+    "f5_residence_preserved": false,
+    "no_fabricated_archival_findings": true,
+    "evidence_relevant": true,
+    "bounded_followups": true,
+    "full_answer_read": true,
+    "automatic_failed_checks": [
+      "P2.action"
+    ]
+  },
+  "notes": [
+    "AI-granskning av hela svaret, inte mänskligt certifierat facit.",
+    "F5:s ingen uppgift om familjens boende i övrigt är endast en begränsning av G1, inte ett bevarande av familjens bostadsuppgift. Övriga objekt skiljer historik, aktuell läsning och öppen research.",
+    "Samtliga nio requests är exakt q1–q9 på rätt objekt; alla sju övriga resolve är null. canonical_changes är helt tomt.",
+    "Automatikens P2.action-fel är ingen saklig underkännandegrund: uttryckligt datumbevarande uppfyller standardens likvärdighetsregel.",
+    "De 3 följdstegen har lästs som avgränsade sökanvisningar; inget nytt arkivfynd rapporteras."
+  ],
+  "sensitivity_pass_without_F5": true
+}

@@ -1,0 +1,699 @@
+{
+  "frozen_changed": [],
+  "frozen_missing": [],
+  "runs": [
+    {
+      "id": "y_opus55-medium_5",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-medium_5/input.json; ls /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-medium_5",
+        "cat > answer.json <<'EOF'\n{\"decisions\":[\n{\"id\":\"O1\",\"action\":\"revise\",\"rationale\":\"Den fastställda nya avskriften R1@2 läser utflyttningen som 1930 23/10, inte 22/10. Betygsnummer 20 står i en separat kolumn och är inte en del av datumet.\",\"replacement\":\"Ebbas utflyttningsdatum i R1 anges 1930-10-23 (fastställd avskrift R1@2). Betygsnummer 20 står i separat kolumn och hör inte till datumet.\",\"evidence\":[\"R1@2\"],\"resolve\":\"q1\"},\n{\"id\":\"F1\",\"action\":\"revise\",\"rationale\":\"Faktumet vilar på O1@2, som ersätts av den fastställda läsningen i R1@2. Därför ska datumet vara 23 oktober.\",\"replacement\":\"Ebba flyttade ut 23 oktober 1930 enligt R1 (fastställd avskrift R1@2).\",\"evidence\":[\"R1@2\"],\"resolve\":\"q2\"},\n{\"id\":\"Q1\",\"action\":\"revise\",\"rationale\":\"R1 är nu läst och avskriften fastställd, så påståendet att källan är oläst stämmer inte längre. Frågan om dagen är besvarad av R1@2.\",\"replacement\":\"Besvarad: R1@2 (fastställd avskrift) anger Ebbas utflyttning 1930-10-23.\",\"evidence\":[\"R1@2\"],\"resolve\":null},\n{\"id\":\"K1\",\"action\":\"revise\",\"rationale\":\"Sökuppdraget att hitta inflyttningsposten består, men det bygger på det felaktiga datumet 22 oktober och på att utflyttningsdatumet är okänt. Båda premisserna ersätts av R1@2.\",\"replacement\":\"Sök Ebbas inflyttningspost efter utflyttningen 1930-10-23 (R1@2), med betygsnummer 20 som matchningsstöd.\",\"evidence\":[\"R1@2\"],\"resolve\":null},\n{\"id\":\"H1\",\"action\":\"historical\",\"rationale\":\"Uttrycklig historisk logg över den preliminära läsningen 22 oktober. Den bevaras som historik och ersätts i sak av R1@2.\",\"replacement\":null,\"evidence\":[\"R1@2\"],\"resolve\":null},\n{\"id\":\"N1\",\"action\":\"irrelevant\",\"rationale\":\"Gäller en annan Ebba (född 1880, Kalmar, R9). Den delar bara datumet 1930-10-22 och är en orelaterad träff för utflyttningsfrågan.\",\"replacement\":null,\"evidence\":[],\"resolve\":null},\n{\"id\":\"F2\",\"action\":\"retain\",\"rationale\":\"OWNER_CONFIRMED ska bevaras. R1@2 säger uttryckligen inget om faderskap, så det finns inget nytt underlag som påverkar beslutet.\",\"replacement\":null,\"evidence\":[\"R1@2\"],\"resolve\":\"q3\"},\n{\"id\":\"P1\",\"action\":\"retain\",\"rationale\":\"Ebbas personkärna (född 1901-05-03) stöds av egen födelsepost R8. Ingen ny evidens rör hennes födelse. Ludvigs osäkra datum 1901-03-05 gäller en annan person och ska inte blandas ihop med detta.\",\"replacement\":null,\"evidence\":[],\"resolve\":null},\n{\"id\":\"O2\",\"action\":\"revise\",\"rationale\":\"Ny bildprövning R2@2 visar att dagen inte kan läsas säkert: 31 föredras, men 5 kan inte uteslutas. Observationen ska återge den osäkra läsningen och inte 1901-03-05 som säker.\",\"replacement\":\"Ludvigs födelse återges i R2 som år 1901, månad 3. Dagen läses företrädesvis som 31, men 5 kan inte uteslutas (R2@2).\",\"evidence\":[\"R2@2\"],\"resolve\":\"q4\"},\n{\"id\":\"F3\",\"action\":\"revise\",\"rationale\":\"I2@1 är avskrivet direkt från R2 och alltså inte oberoende. Dessutom är R2:s dag osäker enligt R2@2. Påståendet om två oberoende belägg för 1901-03-05 är fel.\",\"replacement\":\"Ludvig föddes i mars 1901 enligt R2. Dagen är osäker (31 föredras, 5 kan inte uteslutas; R2@2). Indexet I2 anger 1901-03-05 men är avskrivet från R2 och är inget oberoende belägg.\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":\"q5\"},\n{\"id\":\"Q2\",\"action\":\"revise\",\"rationale\":\"Födelsedagen är inte säkert avgjord: R2@2 lämnar dagen öppen mellan 31 och 5, och I2 är beroende av R2. Den egna födelseposten återstår och behöver sökas.\",\"replacement\":\"Ludvigs födelsedag är inte avgjord: R2 ger mars 1901, dag 31 (föredras) eller 5 (R2@2), och I2 är avskrift av R2. Sök och läs Ludvigs egen födelsepost för att avgöra dagen.\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":null},\n{\"id\":\"P2\",\"action\":\"revise\",\"rationale\":\"Enligt policyn får ett osäkert nytt datum (31 mars) inte bli kanoniskt, och personkärnans datum behålls under uttrycklig konflikt så länge egen födelsepost återstår. Det kanoniska värdet ändras alltså inte, men texten ska redovisa konflikten och att I2 inte är oberoende.\",\"replacement\":\"Ludvigs kanoniska födelsedatum behålls tills vidare som 1901-03-05 under uttrycklig konflikt: ny bildprövning av R2 (R2@2) föredrar dag 31 men kan inte utesluta 5, och I2 är avskrift av R2, inte oberoende. Egen födelsepost är oläst och ska avgöra.\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":\"q6\"},\n{\"id\":\"O3\",\"action\":\"retain\",\"rationale\":\"R2@2 bekräftar att hälsokolumnen på Ludvigs egen rad är läst och tom. Observationen står sig.\",\"replacement\":null,\"evidence\":[\"R2@2\"],\"resolve\":\"q7\"},\n{\"id\":\"F4\",\"action\":\"revise\",\"rationale\":\"En tom hälsokolumn på en rad i R2 visar bara att ingen anteckning gjordes där. Den bär inte slutsatsen att han var frisk hela livet, och det finns ingen annan hälsotäckning (R2@2). Observation och slutsats ska skiljas åt.\",\"replacement\":\"Hälsokolumnen på Ludvigs egen rad i R2 är tom (R2@2). Det visar endast att ingen hälsoanteckning finns där. Någon annan hälsotäckning finns inte, och hälsan i övrigt är obelagd.\",\"evidence\":[\"R2@2\",\"O3@1\"],\"resolve\":\"q8\"},\n{\"id\":\"A1\",\"action\":\"retain\",\"rationale\":\"R2@2 anger att identiteten fortsatt är säker via hushållskedjan och att det inte finns något nytt motbelägg till R7. Identitetsgrinden vilar inte på exakt födelsedag och påverkas därför inte i sak. Livsbilden förblir ej bedömd, och inget nytt godkännande ges.\",\"replacement\":null,\"evidence\":[\"R2@2\"],\"resolve\":\"q9\"},\n{\"id\":\"F5\",\"action\":\"revise\",\"rationale\":\"Enligt det fullständiga gravkortet G1@2 anges bara hemort Östra Husby. Fysisk dödsort anges inte, och familjens boende i övrigt belyses inte. Slutsatserna om dödsort och familjens boende går därför utöver underlaget.\",\"replacement\":\"Gravkortet G1 anger hemort Östra Husby. Fysisk dödsort anges inte, och G1 belägger inte familjens boende i övrigt.\",\"evidence\":[\"G1@2\"],\"resolve\":null}\n],\n\"followups\":[\n\"Sök och läs Ludvigs egen födelsepost (födelsebok för mars 1901 i den församling som R2 anger) för att avgöra om dagen är 31 eller 5.\",\n\"Sök Ebbas inflyttningspost efter utflyttningen 1930-10-23 (R1@2), med betygsnummer 20 som matchningsstöd.\",\n\"Sök moderns död- och begravningsbok för att fastställa fysisk dödsort, eftersom gravkortet G1 bara anger hemort Östra Husby.\"\n],\n\"canonical_changes\":{\"persons\":[],\"relations\":[],\"owner_confirmed\":[]}}\nEOF\npython -m json.tool answer.json >/dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "y_opus55-xhigh_4",
+      "tool_calls": 5,
+      "findings": [],
+      "bash_commands": [
+        "ls -la /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_4/; cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_4/input.json",
+        "python -c \"import json;d=json.load(open('/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_4/answer.json'));print(len(d['decisions']))\""
+      ]
+    },
+    {
+      "id": "z_opus55-medium_3",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-medium_3/input.json",
+        "python - <<'EOF'\nimport json,copy\ninp=json.load(open('input.json'))\nc={o['id']:copy.deepcopy(o) for o in inp['currentChanges']}\nsa=c['S-A']; sa['data']['title']='Provförsamlingen'; sa['rationale']='Titelrättelse: stavfel Provförsammlingen rättat till Provförsamlingen; övriga uppgifter oförändrade.'\nrb=c['R-B']; rb['data']['locator']='folio 20, rad 3, utflyttning nr 17'\nrb['media'].append({\"id\":\"MED-full\",\"region\":\"helbild\"})\nrb['rationale']='Källposträttelse: lokaliseringen preciserad till utflyttning nr 17 efter granskning av ny helbild (MED-full); utsnittet MED-old behålls.'\nob=c['O-B']; ob['data']['value_literal']='23/10 1930'; ob['data']['value_json']['value']='1930-10-23'\nob['evidence'][0]['version']=3\nob['rationale']='Datumrättelse: helbilden av rättad källpost R-B (version 3) visar utflyttningsdatum 23/10 1930, inte 22/10.'\nfb=c['F-B']; fb['data']['value_json']['value']='1930-10-23'; fb['data']['value_json']['literal']='23/10 1930'\nfb['evidence'][0]['version']=2\nfb['rationale']='Slutsatsen rättad till 1930-10-23 i enlighet med rättad observation O-B (version 2); förbehållet om registrerad utflyttning kvarstår.'\nop={\"id\":\"T-0769-Z-answer\",\"actor\":\"benchmark\",\n\"reason\":\"T-0769: rätta titeln på S-A till Provförsamlingen; rätta R-B:s lokalisering till utflyttning nr 17 med ny helbild och följdrätta O-B och F-B till utflyttningsdatum 1930-10-23 samt stäng båda följdprövningarna\",\n\"dependencyReviewVersion\":2,\"media\":[inp['newMedia']],\n\"changes\":[sa,rb,ob,fb],\n\"resolve\":[\n{\"request\":\"bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad\",\"rationale\":\"F-B prövad mot rättad R-B: slutsatsen rättas i samma operation till 1930-10-23 (rådatum 23/10 1930) via O-B version 2; förbehållet bevaras.\"},\n{\"request\":\"b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5\",\"rationale\":\"O-B prövad mot rättad R-B: observationen rättas i samma operation till 23/10 1930 (1930-10-23) och pekar på R-B version 3.\"}]}\njson.dump(op,open('answer.json','w'),ensure_ascii=False,indent=2)\njson.load(open('answer.json'))\nEOF"
+      ]
+    },
+    {
+      "id": "z_opus55-xhigh_5",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_5/input.json; ls /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_5",
+        "python - <<'EOF'\nimport json, copy\ninp = json.load(open(\"input.json\"))\ncur = {c[\"id\"]: c for c in inp[\"currentChanges\"]}\n\nsa = copy.deepcopy(cur[\"S-A\"])\nsa[\"data\"][\"title\"] = \"Provförsamlingen\"\nsa[\"rationale\"] = \"Titelrättelse: stavningen rättas från Provförsammlingen till Provförsamlingen; övriga uppgifter oförändrade.\"\n\nrb = copy.deepcopy(cur[\"R-B\"])\nrb[\"data\"][\"locator\"] = \"folio 20, rad 3, utflyttning nr 17\"\nrb[\"media\"] = rb[\"media\"] + [{\"id\": \"MED-full\", \"region\": \"helbild\"}]\nrb[\"rationale\"] = \"Källpostsrättelse: locator preciseras med utflyttning nr 17 och ny helbild (MED-full) läggs till; befintligt utsnitt MED-old behålls.\"\n\nob = copy.deepcopy(cur[\"O-B\"])\nob[\"data\"][\"value_literal\"] = \"23/10 1930\"\nob[\"data\"][\"value_json\"] = {\"precision\": \"exact\", \"value\": \"1930-10-23\"}\nob[\"evidence\"] = [{\"object\": \"R-B\", \"version\": 3, \"role\": \"supports\"}]\nob[\"rationale\"] = \"Datumrättelse efter granskning av rättad källpost R-B v3 med helbild: utflyttningsdatum avläses 23/10 1930 (1930-10-23).\"\n\nfb = copy.deepcopy(cur[\"F-B\"])\nfb[\"data\"][\"value_json\"] = {\"precision\": \"exact\", \"value\": \"1930-10-23\", \"literal\": \"23/10 1930\"}\nfb[\"evidence\"] = [{\"object\": \"O-B\", \"version\": 2, \"role\": \"supports\"}]\nfb[\"rationale\"] = \"Slutsatsen följer rättad observation O-B v2: registrerat utflyttningsdatum 1930-10-23 (23/10 1930); förbehållet om faktisk resdag kvarstår.\"\n\nop = {\n  \"id\": \"T-0769-Z-answer\",\n  \"actor\": \"benchmark\",\n  \"reason\": \"T-0769: rätta S-A:s titel till Provförsamlingen samt rätta R-B:s locator (utflyttning nr 17) med ny helbild och följdrätta O-B och F-B till utflyttningsdatum 1930-10-23\",\n  \"dependencyReviewVersion\": 2,\n  \"media\": [inp[\"newMedia\"]],\n  \"changes\": [sa, rb, ob, fb],\n  \"resolve\": [\n    {\"request\": \"b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5\",\n     \"rationale\": \"O-B har prövats mot rättad R-B v3 med helbild: datumet rättas till 23/10 1930 (1930-10-23) i O-B v2, som nu åberopar R-B v3.\"},\n    {\"request\": \"bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad\",\n     \"rationale\": \"F-B har prövats mot rättad källpost och observation: utflyttningsdatumet rättas till 1930-10-23 i F-B v2, som åberopar O-B v2; förbehållet om faktisk resdag bevaras.\"}\n  ]\n}\njson.dump(op, open(\"answer.json\",\"w\"), ensure_ascii=False, indent=2)\nEOF\npython -m json.tool answer.json >/dev/null && echo ok && cat answer.json"
+      ]
+    },
+    {
+      "id": "z_opus55-xhigh_3",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_3/input.json; ls /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_3",
+        "python - <<'EOF'\nimport json, copy\ninp = json.load(open(\"input.json\"))\ncur = {c[\"id\"]: c for c in inp[\"currentChanges\"]}\n\nsa = copy.deepcopy(cur[\"S-A\"])\nsa[\"data\"][\"title\"] = \"Provförsamlingen\"\nsa[\"rationale\"] = \"Rättar stavfel i titeln till Provförsamlingen; övriga uppgifter oförändrade.\"\n\nrb = copy.deepcopy(cur[\"R-B\"])\nrb[\"data\"][\"locator\"] = \"folio 20, rad 3, utflyttning nr 17\"\nrb[\"media\"].append({\"id\": \"MED-full\", \"region\": \"helbild\"})\nrb[\"rationale\"] = \"Preciserar lokaliseringen till utflyttning nr 17 och lägger till helbild (MED-full) jämte befintligt utsnitt.\"\n\nob = copy.deepcopy(cur[\"O-B\"])\nob[\"data\"][\"value_literal\"] = \"23/10 1930\"\nob[\"data\"][\"value_json\"][\"value\"] = \"1930-10-23\"\nob[\"evidence\"] = [{\"object\": \"R-B\", \"version\": 3, \"role\": \"supports\"}]\nob[\"rationale\"] = \"Rättad avläsning av utflyttningsdatum enligt rättad källpost R-B v3: 23/10 1930.\"\n\nfb = copy.deepcopy(cur[\"F-B\"])\nfb[\"data\"][\"value_json\"][\"value\"] = \"1930-10-23\"\nfb[\"data\"][\"value_json\"][\"literal\"] = \"23/10 1930\"\nfb[\"evidence\"] = [{\"object\": \"O-B\", \"version\": 2, \"role\": \"supports\"}]\nfb[\"rationale\"] = \"Registrerat utflyttningsdatum rättat till 1930-10-23 enligt O-B v2; förbehållet om faktisk resdag kvarstår.\"\n\nrev = {r[\"affected_revision_id\"]: r[\"id\"] for r in inp[\"pendingReviews\"]}\nans = {\n  \"id\": \"T-0769-Z-answer\",\n  \"actor\": \"benchmark\",\n  \"reason\": \"T-0769: rättar S-A-titeln till Provförsamlingen och R-B-lokaliseringen (utflyttning nr 17, ny helbild), samt utflyttningsdatum i O-B och F-B till 1930-10-23\",\n  \"dependencyReviewVersion\": 2,\n  \"media\": [inp[\"newMedia\"]],\n  \"changes\": [sa, rb, ob, fb],\n  \"resolve\": [\n    {\"request\": rev[\"O-B@1\"], \"rationale\": \"O-B omprövad mot R-B v3: datumavläsningen rättas till 23/10 1930 (1930-10-23) och evidensen pekar nu på R-B v3.\"},\n    {\"request\": rev[\"F-B@1\"], \"rationale\": \"F-B omprövad: slutsatsens datum rättas till 1930-10-23 via O-B v2; förbehållet om registrerad utflyttning bevaras.\"},\n  ],\n}\njson.dump(ans, open(\"answer.json\", \"w\"), ensure_ascii=False, indent=2)\nEOF\npython -m json.tool answer.json >/dev/null && echo ok && cat answer.json"
+      ]
+    },
+    {
+      "id": "x_opus55-xhigh_5",
+      "tool_calls": 26,
+      "findings": [
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/x5",
+            "/tmp/x5/A-full-small.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && mkdir -p /tmp/x5 && sips -Z 2000 A-full.jpg --out /tmp/x5/A-full-small.jpg >/dev/null && echo ok",
+            "description": "Create downscaled view of A full image"
+          }
+        },
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/x5;"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "rm -rf /tmp/x5; cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && mkdir -p work && sips -Z 2000 A-full.jpg --out work/A-full-small.jpg >/dev/null && echo ok",
+            "description": "Move working crops into run directory"
+          }
+        }
+      ],
+      "bash_commands": [
+        "ls -la /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/; cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && sips -g pixelWidth -g pixelHeight *.jpg",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && mkdir -p /tmp/x5 && sips -Z 2000 A-full.jpg --out /tmp/x5/A-full-small.jpg >/dev/null && echo ok",
+        "rm -rf /tmp/x5; cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && mkdir -p work && sips -Z 2000 A-full.jpg --out work/A-full-small.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && python -c \"\nfrom PIL import Image\nim=Image.open('A-full.jpg')\nim.crop((200,760,1450,1060)).save('work/A-r23-left.jpg')\nim.crop((1400,760,2750,1060)).save('work/A-r23-mid.jpg')\n\"",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && sips -c 300 1250 --cropOffset 760 200 A-full.jpg --out work/A-r23-left.jpg >/dev/null && sips -c 300 1350 --cropOffset 760 1400 A-full.jpg --out work/A-r23-mid.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && sips -Z 2000 B-full.jpg --out work/B-full-small.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && sips -c 900 650 --cropOffset 1350 2780 B-full.jpg --out work/B-col13.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && sips -c 650 330 --cropOffset 1530 1360 B-full.jpg --out work/B-birth.jpg >/dev/null && sips -Z 900 work/B-birth.jpg --out work/B-birth-big.jpg >/dev/null; sips -c 180 330 --cropOffset 1650 1360 B-full.jpg --out work/B-birth9.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && sips -c 110 110 --cropOffset 1660 1480 B-full.jpg --out work/B-b9.jpg >/dev/null && sips -z 440 440 work/B-b9.jpg --out work/B-b9-big.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && sips -c 640 950 --cropOffset 1530 150 B-full.jpg --out work/B-names.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_5/ && python -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\""
+      ]
+    },
+    {
+      "id": "x_opus55-medium_1",
+      "tool_calls": 7,
+      "findings": [],
+      "bash_commands": [
+        "cat > answer.json <<'EOF'\n{\"fields\":[\n{\"id\":\"A.r2.name\",\"raw\":\"Anders Alfred Andersson\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.occupation\",\"raw\":\"Hem. äg.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Liten extra krok under 'äg.'\"},\n{\"id\":\"A.r2.birth\",\"raw\":\"69 24/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"År 69, dag/mån 24/7\"},\n{\"id\":\"A.r2.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.marriage\",\"raw\":\"04 3/5\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.name\",\"raw\":\"h. Anna Fredrika Jakobsdotter\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.occupation\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.birth\",\"raw\":\"72 8/2\",\"state\":\"read\",\"alternatives\":[],\"note\":\"År 72, dag/mån 8/2\"},\n{\"id\":\"A.r3.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.marriage\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Ingen ditto\"},\n{\"id\":\"B.r8.name\",\"raw\":\"s. Petrus Nikolaus\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort X över raderna 5–12\"},\n{\"id\":\"B.r8.birth\",\"raw\":\"1899 6/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.husforhor\",\"raw\":\"12, 14\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Blek skrift högt i cellen strax under rad 7:s linje; tolkad som rad 8\"},\n{\"id\":\"B.r9.name\",\"raw\":\"s. Ludvig Emanuel\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort X\"},\n{\"id\":\"B.r9.birth\",\"raw\":\"1901 5/3\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r9.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"'16' strax under rad 9:s linje hänförs till rad 10\"},\n{\"id\":\"B.r10.name\",\"raw\":\"s. Birger\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort X\"},\n{\"id\":\"B.r10.birth\",\"raw\":\"1905 13/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r10.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"Blek '16' högt i cellen strax under rad 9:s linje; radtillhörighet (rad 10 vs 9) något osäker\"},\n{\"id\":\"B.r11.name\",\"raw\":\"d. Tyra Charlotta\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort X\"},\n{\"id\":\"B.r11.birth\",\"raw\":\"1907 12/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Punkt efter 7\"},\n{\"id\":\"B.r11.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"Blek '16' högt i cellen strax under rad 10:s linje; radtillhörighet (rad 11 vs 10) något osäker\"},\n{\"id\":\"B.r12.name\",\"raw\":\"d. Gerda Helena\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort X\"},\n{\"id\":\"B.r12.birth\",\"raw\":\"1909 17/9\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r12.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"}\n]}\nEOF\npython -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\""
+      ]
+    },
+    {
+      "id": "y_opus55-medium_4",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-medium_4/input.json",
+        "cat > answer.json <<'EOF'\n{\"decisions\":[\n{\"id\":\"O1\",\"action\":\"revise\",\"rationale\":\"Fastställd ny avskrift av R1 läser utflyttningen 23/10 1930, inte 22/10. Betygsnummer 20 står i separat kolumn och är inte en del av datumet.\",\"replacement\":\"Ebbas utflyttningsdatum i R1 anges 1930-10-23 (fastställd avskrift R1@2; betygsnummer 20 står i separat kolumn).\",\"evidence\":[\"R1@2\"],\"resolve\":\"q1\"},\n{\"id\":\"F1\",\"action\":\"revise\",\"rationale\":\"Faktumet vilar på O1 som nu rättas till 23 oktober enligt R1@2.\",\"replacement\":\"Ebba flyttade ut 23 oktober 1930 enligt R1.\",\"evidence\":[\"R1@2\"],\"resolve\":\"q2\"},\n{\"id\":\"Q1\",\"action\":\"revise\",\"rationale\":\"Påståendet att R1 är oläst är inaktuellt; dagen är nu läst som 23 oktober. Forskningsfrågan om själva dagen är besvarad; kvarstår bara ev. motkontroll mot inflyttningsorten.\",\"replacement\":\"Utflyttningsdagen i R1 är läst som 1930-10-23 (R1@2). Eventuell motkontroll: inflyttningsdatum i mottagande församling.\",\"evidence\":[\"R1@2\"],\"resolve\":null},\n{\"id\":\"K1\",\"action\":\"revise\",\"rationale\":\"Sökinstruktionen utgår från fel datum och påstår att utflyttningsdatum är okänt; det är nu känt från R1@2.\",\"replacement\":\"Sök inflyttningspost från och med 23 oktober 1930; utflyttningsdatum enligt R1 är 1930-10-23.\",\"evidence\":[\"R1@2\"],\"resolve\":null},\n{\"id\":\"H1\",\"action\":\"historical\",\"rationale\":\"Uttrycklig historisk logg över den preliminära läsningen; bevaras oförändrad som proveniens enligt policy.\",\"replacement\":null,\"evidence\":[],\"resolve\":null},\n{\"id\":\"N1\",\"action\":\"irrelevant\",\"rationale\":\"Avser en annan Ebba (född 1880, Kalmar); datumlikheten 1930-10-22 är en orelaterad träff och påverkas inte av ny evidens.\",\"replacement\":null,\"evidence\":[],\"resolve\":null},\n{\"id\":\"F2\",\"action\":\"retain\",\"rationale\":\"OWNER_CONFIRMED bevaras; den nya avskriften R1@2 säger uttryckligen inget om faderskap och utgör inget motbelägg.\",\"replacement\":null,\"evidence\":[\"R1@2\"],\"resolve\":\"q3\"},\n{\"id\":\"P1\",\"action\":\"retain\",\"rationale\":\"Ebbas födelsedatum stöds av egen födelsepost R8; ingen ny evidens berör det. Ingen ändring av personkärnan.\",\"replacement\":null,\"evidence\":[],\"resolve\":null},\n{\"id\":\"O2\",\"action\":\"revise\",\"rationale\":\"Ny bildprövning av R2 visar att dagen är osäker: 31 föredras men 5 kan inte uteslutas. Observationen ska återge läsningen med osäkerhet, inte ett säkert datum.\",\"replacement\":\"Ludvigs födelsedag i R2 läses 1901-03 med osäker dag: 31 föredras, 5 kan inte uteslutas (R2@2).\",\"evidence\":[\"R2@2\"],\"resolve\":\"q4\"},\n{\"id\":\"F3\",\"action\":\"revise\",\"rationale\":\"I2 är avskrivet direkt från R2 och är därför inte ett oberoende belägg. Dessutom är R2:s dag nu osäker.\",\"replacement\":\"Ludvigs födelse i mars 1901 är belagd i R2 (dag osäker: 31 föredras, 5 ej utesluten). Registerutdraget I2 anger 1901-03-05 men är avskrivet från R2 och utgör inget oberoende belägg.\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":\"q5\"},\n{\"id\":\"Q2\",\"action\":\"revise\",\"rationale\":\"Påståendet att födelsedagen är säkert avgjord motsägs av R2@2 och I2@1; egen födelsepost behövs.\",\"replacement\":\"Ludvigs födelsedag är inte avgjord: R2 ger mars 1901 med dag 31 eller 5, och I2 är beroende av R2. Sök Ludvigs egen födelsepost (födelsebok 1901).\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":null},\n{\"id\":\"P2\",\"action\":\"revise\",\"rationale\":\"Enligt policy behålls personkärnans datum 1901-03-05 under uttrycklig konflikt medan egen födelsepost återstår; det osäkra nya läsalternativet 31 görs inte kanoniskt. Texten ska dock redovisa konflikten och att I2 inte är oberoende.\",\"replacement\":\"Ludvigs kanoniska födelsedatum är tills vidare 1901-03-05, under uttrycklig konflikt: ny läsning av R2 föredrar dag 31 men 5 kan inte uteslutas; I2 är avskrift av R2 och inget oberoende stöd. Egen födelsepost är oläst och avgör.\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":\"q6\"},\n{\"id\":\"O3\",\"action\":\"retain\",\"rationale\":\"R2@2 bekräftar att hälsokolumnen på Ludvigs egen rad är läst och tom; observationen står sig.\",\"replacement\":null,\"evidence\":[\"R2@2\"],\"resolve\":\"q7\"},\n{\"id\":\"F4\",\"action\":\"revise\",\"rationale\":\"En tom hälsokolumn i en enda post belägger inte hälsa under hela livet; det finns ingen annan hälsotäckning. Slutsatsen går utöver observationen.\",\"replacement\":\"Hälsokolumnen på Ludvigs rad i R2 är tom; det finns ingen annan hälsouppgift, och ingen slutsats om hans hälsa under livet kan dras.\",\"evidence\":[\"R2@2\"],\"resolve\":\"q8\"},\n{\"id\":\"A1\",\"action\":\"retain\",\"rationale\":\"Identitetsgrinden vilar på hushållskedjan R7, inte på exakt födelsedag; R2@2 anger identiteten fortsatt säker och inget nytt motbelägg mot R7. Livsbild förblir ej bedömd; inget nytt godkännande.\",\"replacement\":null,\"evidence\":[\"R2@2\"],\"resolve\":\"q9\"},\n{\"id\":\"F5\",\"action\":\"revise\",\"rationale\":\"Fullt gravkort anger endast hemort Östra Husby; ingen fysisk dödsort och ingen uppgift om familjens boende i övrigt. Slutsatserna om dödsort och familjens boende saknar stöd.\",\"replacement\":\"Gravkortet G1 anger hemort Östra Husby för modern. Kortet anger ingen fysisk dödsort och belägger inte familjens boende i övrigt.\",\"evidence\":[\"G1@2\"],\"resolve\":null}\n],\n\"followups\":[\n\"Sök Ludvigs egen födelsepost i födelseboken för mars 1901 för att avgöra dag 5 eller 31.\",\n\"Sök Ebbas inflyttningspost i mottagande församling från och med 1930-10-23.\",\n\"Sök moderns död- och begravningsbok för fysisk dödsort.\",\n\"Belägg familjens boende i Östra Husby via husförhörslängd/församlingsbok.\"\n],\n\"canonical_changes\":{\"persons\":[],\"relations\":[],\"owner_confirmed\":[]}}\nEOF\npython -m json.tool answer.json >/dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "x_opus55-xhigh_3",
+      "tool_calls": 35,
+      "findings": [],
+      "bash_commands": [
+        "ls -la && python -c \"\nfrom PIL import Image\nimport glob\nfor f in sorted(glob.glob('*.jpg')):\n    print(f, Image.open(f).size)\n\"",
+        "for f in *.jpg; do sips -g pixelWidth -g pixelHeight \"$f\"; done",
+        "mkdir -p crops && sips -c 300 1000 --cropOffset 500 0 A-detail.jpg --out crops/a_name.jpg >/dev/null && sips -c 300 1200 --cropOffset 500 900 A-detail.jpg --out crops/a_right.jpg >/dev/null && ls crops",
+        "which magick convert ffmpeg 2>/dev/null; python3 -c \"import PIL; print(PIL.__version__)\" 2>&1 | head -1",
+        "magick A-full.jpg -crop 1500x420+150+740 +repage crops/a_full_names.jpg && magick A-full.jpg -crop 1300x420+1050+740 +repage crops/a_full_mid.jpg && magick A-full.jpg -crop 1700x420+1400+740 +repage crops/a_full_right.jpg",
+        "magick A-full.jpg -crop 1150x170+200+900 +repage -resize 150% crops/a_r3name.jpg && magick A-full.jpg -crop 400x300+1400+780 +repage -resize 200% crops/a_birth.jpg && magick A-full.jpg -crop 400x160+1050+780 +repage -resize 200% crops/a_occ.jpg",
+        "magick B-full.jpg -crop 700x900+2780+1380 +repage crops/b_right.jpg && magick B-full.jpg -crop 450x500+2950+1420 +repage -resize 200% crops/b_right_zoom1.jpg && magick B-full.jpg -crop 450x500+2950+1700 +repage -resize 200% crops/b_right_zoom2.jpg",
+        "magick B-left-detail.jpg -crop 950x300+100+60 +repage -resize 160% crops/b_names1.jpg && magick B-left-detail.jpg -crop 950x300+100+340 +repage -resize 160% crops/b_names2.jpg && magick B-left-detail.jpg -crop 420x720+1250+40 +repage -resize 150% crops/b_birth.jpg",
+        "magick B-left-detail.jpg -crop 320x110+170+80 +repage -resize 400% crops/b_petrus.jpg && magick B-left-detail.jpg -crop 180x110+1400+210 +repage -resize 400% crops/b_53.jpg",
+        "magick B-left-detail.jpg -crop 480x110+320+460 +repage -resize 300% crops/b_charl.jpg && magick B-left-detail.jpg -crop 700x120+120+590 +repage -resize 250% crops/b_gerda.jpg",
+        "cat > answer.json <<'EOF'\n{\n  \"fields\": [\n    {\"id\":\"A.r2.name\",\"raw\":\"Anders Alfred Andersson\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"A.r2.occupation\",\"raw\":\"Hem. äg.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Förkortning; g:s nedstapel liknar en fyra under raden.\"},\n    {\"id\":\"A.r2.birth\",\"raw\":\"69 24/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"År 69 i kol. 3; 24/7 som bråk i kol. 4.\"},\n    {\"id\":\"A.r2.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kolumn 5 tom på raden.\"},\n    {\"id\":\"A.r2.marriage\",\"raw\":\"04 3/5\",\"state\":\"read\",\"alternatives\":[],\"note\":\"År 04 och 3/5 som bråk.\"},\n    {\"id\":\"A.r3.name\",\"raw\":\"h. Anna Fredrika Jakobsdotter\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"A.r3.occupation\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kolumn 2 tom; inget dittotecken.\"},\n    {\"id\":\"A.r3.birth\",\"raw\":\"72 8/2\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Tvåorna skrivna med ögla nedtill (samma form i år och månad).\"},\n    {\"id\":\"A.r3.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kolumn 5 tom på raden.\"},\n    {\"id\":\"A.r3.marriage\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kolumn 7 tom på raden; inget dittotecken.\"},\n    {\"id\":\"B.r8.name\",\"raw\":\"s. Petrus Nikolaus\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Överkorsad av stort diagonalt kryss över namnen rad 5–12; texten läsbar.\"},\n    {\"id\":\"B.r8.birth\",\"raw\":\"1899 6/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"B.r8.husforhor\",\"raw\":\"12, 14\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Blek blyerts, placerad högt i rad 8:s cell direkt under rad 7:s punktlinje.\"},\n    {\"id\":\"B.r9.name\",\"raw\":\"s. Ludvig Emanuel\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Överkorsad av stort diagonalt kryss över namnen rad 5–12; texten läsbar.\"},\n    {\"id\":\"B.r9.birth\",\"raw\":\"1901 5/3\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Snett skrivet bråk; en liten prick står före 3:an.\"},\n    {\"id\":\"B.r9.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Cellen tom ovanför rad 9:s punktlinje; blyertstalet 16 står under linjen, dvs. i rad 10:s cell.\"},\n    {\"id\":\"B.r10.name\",\"raw\":\"s. Birger\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Överkorsad av stort diagonalt kryss över namnen rad 5–12; texten läsbar.\"},\n    {\"id\":\"B.r10.birth\",\"raw\":\"1905 13/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"B.r10.husforhor\",\"raw\":\"16\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Blek blyerts, högt i rad 10:s cell direkt under rad 9:s punktlinje; 6:an svagt sluten.\"},\n    {\"id\":\"B.r11.name\",\"raw\":\"d. Tyra Charlotta\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Överkorsad av stort diagonalt kryss över namnen rad 5–12; o i Charlotta skrivet a-likt.\"},\n    {\"id\":\"B.r11.birth\",\"raw\":\"1907 12/7.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Punkt efter 7 i källan.\"},\n    {\"id\":\"B.r11.husforhor\",\"raw\":\"16\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Blek blyerts, högt i rad 11:s cell direkt under rad 10:s punktlinje.\"},\n    {\"id\":\"B.r12.name\",\"raw\":\"d. Gerda Helena\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Krysslinjen (rad 5–12) slutar vid radens början; texten läsbar.\"},\n    {\"id\":\"B.r12.birth\",\"raw\":\"1909 17/9\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"B.r12.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kolumn 13 tom på raden.\"}\n  ]\n}\nEOF\npython3 -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\""
+      ]
+    },
+    {
+      "id": "y_opus55-xhigh_5",
+      "tool_calls": 4,
+      "findings": [],
+      "bash_commands": [
+        "ls -la /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_5/; cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_5/input.json",
+        "python -c \"import json;d=json.load(open('answer.json'));print(len(d['decisions']),[x['id'] for x in d['decisions']])\""
+      ]
+    },
+    {
+      "id": "y_opus55-medium_3",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-medium_3/input.json; ls /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-medium_3",
+        "cat > answer.json <<'EOF'\n{\"decisions\":[\n{\"id\":\"O1\",\"action\":\"revise\",\"rationale\":\"Fastställd ny avskrift R1@2 läser utflyttningen 1930 23/10, inte 22/10. Observationen ska återge den nya läsningen; betygsnummer 20 står i separat kolumn och är inte en del av datumet.\",\"replacement\":\"Ebbas utflyttningsdatum i R1 anges 1930-10-23 (fastställd avskrift). Betygsnummer 20 står i separat kolumn.\",\"evidence\":[\"R1@2\"],\"resolve\":\"q1\"},\n{\"id\":\"F1\",\"action\":\"revise\",\"rationale\":\"Faktumet vilade på O1@2 med 22 oktober; den fastställda avskriften ger 23 oktober.\",\"replacement\":\"Ebba flyttade ut 23 oktober 1930 enligt R1.\",\"evidence\":[\"R1@2\"],\"resolve\":\"q2\"},\n{\"id\":\"Q1\",\"action\":\"revise\",\"rationale\":\"Påståendet att R1 är oläst är inte längre sant; frågan om dagen besvaras av den fastställda avskriften. Forskningsnoten uppdateras till avslutad status med svaret.\",\"replacement\":\"Besvarad: R1 är läst; Ebbas utflyttning anges 1930-10-23 (R1@2).\",\"evidence\":[\"R1@2\"],\"resolve\":null},\n{\"id\":\"K1\",\"action\":\"revise\",\"rationale\":\"Sökuppdraget byggde på 22 oktober och påstod att datumet var okänt; utflyttningsdatumet är nu fastställt till 23 oktober. Sökningen efter inflyttningspost kvarstår som öppen sakfråga.\",\"replacement\":\"Sök inflyttningspost för Ebba efter utflyttningen 23 oktober 1930 (R1@2).\",\"evidence\":[\"R1@2\"],\"resolve\":null},\n{\"id\":\"H1\",\"action\":\"historical\",\"rationale\":\"Uttrycklig historisk logg om den preliminära läsningen 22 oktober; den anger själv att senare läsning ersätter den. Bevaras oförändrad som proveniens.\",\"replacement\":null,\"evidence\":[\"R1@2\"],\"resolve\":null},\n{\"id\":\"N1\",\"action\":\"irrelevant\",\"rationale\":\"Avser en annan Ebba (född 1880, Kalmar, död) i källa R9; sammanfallande datum 1930-10-22 är en orelaterad träff och påverkas inte av R1@2.\",\"replacement\":null,\"evidence\":[],\"resolve\":null},\n{\"id\":\"F2\",\"action\":\"retain\",\"rationale\":\"OWNER_CONFIRMED faderskap. R1@2 innehåller uttryckligen inget om faderskap, så inget underlag påverkar bekräftelsen.\",\"replacement\":null,\"evidence\":[\"R1@2\"],\"resolve\":\"q3\"},\n{\"id\":\"P1\",\"action\":\"retain\",\"rationale\":\"Ebbas personkärna (född 1901-05-03, egen födelsepost R8) berörs inte av någon ny evidens; ska inte förväxlas med Ludvigs omvända datum 1901-03-05.\",\"replacement\":null,\"evidence\":[],\"resolve\":null},\n{\"id\":\"O2\",\"action\":\"revise\",\"rationale\":\"Ny bildprövning av R2: år 1901 och månad 3 säkra, dag läses företrädesvis 31 men 5 kan inte uteslutas. Observationen ska återge osäkerheten i stället för en entydig 05.\",\"replacement\":\"Ludvigs födelsedag i R2 läses 1901-03-31 (föredragen läsning); dag 5 (1901-03-05) kan inte uteslutas. År och månad är säkra.\",\"evidence\":[\"R2@2\"],\"resolve\":\"q4\"},\n{\"id\":\"F3\",\"action\":\"revise\",\"rationale\":\"I2 är direkt avskrivet från R2 och därmed inte oberoende; R2:s dag är dessutom osäker. Påståendet om två oberoende belägg för 1901-03-05 håller inte.\",\"replacement\":\"R2 är enda primära belägget för Ludvigs födelse: 1901, mars, dag osäker (31 föredras, 5 ej uteslutet). Registerutdraget I2 (1901-03-05) är avskrivet från R2 och är inget oberoende belägg.\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":\"q5\"},\n{\"id\":\"Q2\",\"action\":\"revise\",\"rationale\":\"Födelsedagen är inte säkert avgjord: R2 är osäker på dagen och I2 är inte oberoende. Egen födelsepost behöver därför sökas.\",\"replacement\":\"Ludvigs födelsedag är inte avgjord (R2: 31 föredras, 5 kan ej uteslutas; I2 avskrift av R2). Sök Ludvigs egen födelsepost i födelsebok för mars 1901.\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":null},\n{\"id\":\"P2\",\"action\":\"revise\",\"rationale\":\"Enligt policy behålls personkärnans datum medan egen födelsepost återstår, men konflikten ska göras uttrycklig. Det osäkra nya datumet 1901-03-31 får inte bli kanoniskt, och I2 ger inget oberoende stöd.\",\"replacement\":\"Ludvigs kanoniska födelsedatum behålls tills vidare som 1901-03-05 under uttrycklig konflikt: ny bildprövning av R2 föredrar dag 31 men 5 kan inte uteslutas; I2 är avskrift av R2 och inte oberoende. Egen födelsepost är oläst och avgör frågan.\",\"evidence\":[\"R2@2\",\"I2@1\"],\"resolve\":\"q6\"},\n{\"id\":\"O3\",\"action\":\"retain\",\"rationale\":\"Ny bildprövning bekräftar att hälsokolumnen på Ludvigs egen rad i R2 är läst och tom; observationen står sig.\",\"replacement\":null,\"evidence\":[\"R2@2\"],\"resolve\":\"q7\"},\n{\"id\":\"F4\",\"action\":\"revise\",\"rationale\":\"En tom hälsokolumn i en enda post är en observation, inte belägg för hälsa under hela livet; ingen annan hälsotäckning finns. Slutsatsen saknar stöd.\",\"replacement\":\"Hälsokolumnen på Ludvigs rad i R2 är tom; ingen annan hälsotäckning finns, så inget kan slutas om hans hälsa under livet.\",\"evidence\":[\"R2@2\"],\"resolve\":\"q8\"},\n{\"id\":\"A1\",\"action\":\"retain\",\"rationale\":\"Identitetsgrinden vilar på obruten hushållskedja R7, inte exakt födelsedag; R2@2 bekräftar att identiteten fortsatt är säker och att inget nytt motbelägg mot R7 finns. Livsbild förblir ej bedömd; inget nytt godkännande.\",\"replacement\":null,\"evidence\":[\"R2@2\"],\"resolve\":\"q9\"},\n{\"id\":\"F5\",\"action\":\"revise\",\"rationale\":\"Fullt gravkort anger bara hemort Östra Husby; fysisk dödsort saknas och inget om familjens boende i övrigt. Slutsatserna om dödsort och familjens boende saknar stöd.\",\"replacement\":\"Gravkort G1 anger moderns hemort som Östra Husby. Fysisk dödsort anges inte, och gravkortet säger inget om familjens boende i övrigt.\",\"evidence\":[\"G1@2\"],\"resolve\":null}\n],\n\"followups\":[\n\"Sök och läs Ludvigs egen födelsepost i födelsebok för mars 1901 för att avgöra dag 31 eller 5.\",\n\"Sök Ebbas inflyttningspost i mottagande församling efter utflyttning 1930-10-23 (R1, betyg nr 20).\",\n\"Sök moderns fysiska dödsort i död- och begravningsbok för hemorten Östra Husby.\"\n],\n\"canonical_changes\":{\"persons\":[],\"relations\":[],\"owner_confirmed\":[]}}\nEOF\npython -m json.tool answer.json >/dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "y_opus55-medium_2",
+      "tool_calls": 4,
+      "findings": [],
+      "bash_commands": [
+        "python -m json.tool /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-medium_2/answer.json >/dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "z_opus55-medium_1",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-medium_1/input.json",
+        "python - <<'EOF'\nimport json,copy\ninp=json.load(open('input.json'))\nc={o['id']:copy.deepcopy(o) for o in inp['currentChanges']}\nsa=c['S-A']; sa['data']['title']='Provförsamlingen'; sa['rationale']='Titelrättelse: stavfel Provförsammlingen rättat till Provförsamlingen; övriga uppgifter oförändrade.'\nrb=c['R-B']; rb['data']['locator']='folio 20, rad 3, utflyttning nr 17'\nrb['media'].append({\"id\":\"MED-full\",\"region\":\"helbild\"})\nrb['rationale']='Källposträttelse: locator preciserad till utflyttning nr 17; nytt helbildsmedium MED-full tillagt, befintligt utsnitt MED-old behålls.'\nob=c['O-B']; ob['data']['value_literal']='23/10 1930'; ob['data']['value_json']['value']='1930-10-23'\nob['evidence']=[{\"object\":\"R-B\",\"version\":3,\"role\":\"supports\"}]\nob['rationale']='Utflyttningsdatum rättat efter omprövning mot rättad källpost R-B v3 med helbild: rådatum 23/10 1930 = 1930-10-23.'\nfb=c['F-B']; fb['data']['value_json']['value']='1930-10-23'; fb['data']['value_json']['literal']='23/10 1930'\nfb['evidence']=[{\"object\":\"O-B\",\"version\":2,\"role\":\"supports\"}]\nfb['rationale']='Registrerat utflyttningsdatum rättat till 1930-10-23 (23/10 1930) enligt rättad observation O-B v2; förbehållet om faktisk resdag kvarstår.'\nfor o in (sa,rb,ob,fb): assert 'bindings' not in o\nop={\"id\":\"T-0769-Z-answer\",\"actor\":\"benchmark\",\n\"reason\":\"T-0769: rätta S-A:s titel till Provförsamlingen samt rätta R-B:s locator med nytt helbildsmedium och följdrätta O-B och F-B till utflyttningsdatum 1930-10-23\",\n\"dependencyReviewVersion\":2,\"media\":[inp['newMedia']],\"changes\":[sa,rb,ob,fb],\n\"resolve\":[\n{\"request\":\"bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad\",\"rationale\":\"F-B omprövad mot rättad R-B via O-B v2: slutsatsens utflyttningsdatum rättas till 1930-10-23 med bevarat förbehåll.\"},\n{\"request\":\"b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5\",\"rationale\":\"O-B omprövad mot rättad R-B v3 och helbild: observerat rådatum rättas till 23/10 1930 (1930-10-23).\"}]}\njson.dump(op,open('answer.json','w'),ensure_ascii=False,indent=2)\nEOF\npython -m json.tool answer.json >/dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "z_opus55-medium_5",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-medium_5/input.json",
+        "python - <<'EOF'\nimport json,copy\ninp=json.load(open('input.json'))\nc={o['id']:copy.deepcopy(o) for o in inp['currentChanges']}\nsa=c['S-A']; sa['data']['title']='Provförsamlingen'; sa['rationale']='Titelrättelse: stavningen Provförsamlingen rättad; övriga uppgifter oförändrade.'\nrb=c['R-B']; rb['data']['locator']='folio 20, rad 3, utflyttning nr 17'\nrb['media'].append({\"id\":\"MED-full\",\"region\":\"helbild\"})\nrb['rationale']='Källposträttelse: locator preciserad till utflyttning nr 17; nytt helbildsmedium MED-full tillagt, befintligt utsnitt MED-old behålls.'\nob=c['O-B']; ob['data']['value_literal']='23/10 1930'; ob['data']['value_json']['value']='1930-10-23'\nob['evidence'][0]['version']=3\nob['rationale']='Datum rättat till 1930-10-23 (rådatum 23/10 1930) enligt rättad källpost R-B version 3.'\nfb=c['F-B']; fb['data']['value_json']['value']='1930-10-23'; fb['data']['value_json']['literal']='23/10 1930'\nfb['evidence'][0]['version']=2\nfb['rationale']='Utflyttningsdatum rättat till 1930-10-23 (rådatum 23/10 1930) enligt rättad observation O-B version 2; förbehållet om registrerad utflyttning kvarstår.'\nop={\"id\":\"T-0769-Z-answer\",\"actor\":\"benchmark\",\n\"reason\":\"T-0769: Rätta S-A:s titel till Provförsamlingen samt rätta R-B:s locator (utflyttning nr 17) med nytt helbildsmedium och följdrätta O-B och F-B till utflyttningsdatum 1930-10-23.\",\n\"dependencyReviewVersion\":2,\"media\":[inp['newMedia']],\n\"changes\":[sa,rb,ob,fb],\n\"resolve\":[\n{\"request\":\"b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5\",\"rationale\":\"O-B har prövats mot rättad R-B och rättats till 23/10 1930 (1930-10-23) med evidens mot R-B version 3.\"},\n{\"request\":\"bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad\",\"rationale\":\"F-B har prövats efter källposträttelsen och rättats till 1930-10-23 via O-B version 2; förbehållet om registrerad utflyttning bevaras.\"}]}\njson.dump(op,open('answer.json','w'),ensure_ascii=False,indent=2)\nEOF\npython -m json.tool answer.json >/dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "y_opus55-xhigh_2",
+      "tool_calls": 4,
+      "findings": [],
+      "bash_commands": [
+        "python -c \"import json;d=json.load(open('/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_2/answer.json'));print(len(d['decisions']))\""
+      ]
+    },
+    {
+      "id": "x_opus55-medium_3",
+      "tool_calls": 12,
+      "findings": [
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/x3",
+            "/tmp/x3/a1.jpg",
+            "/tmp/x3/a2.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "mkdir -p /tmp/x3 && sips -c 260 700 --cropOffset 540 1150 A-detail.jpg --out /tmp/x3/a1.jpg >/dev/null && sips -c 330 2000 --cropOffset 460 0 A-detail.jpg --out /tmp/x3/a2.jpg >/dev/null"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [
+            "/tmp/x3/a1.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/tmp/x3/a1.jpg"
+          }
+        },
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/x3/b1.jpg",
+            "/tmp/x3/b1.jpg",
+            "/tmp/x3/b1.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "sips -c 780 250 --cropOffset 0 240 B-right-detail.jpg --out /tmp/x3/b1.jpg >/dev/null && sips -Z 1400 /tmp/x3/b1.jpg --out /tmp/x3/b1.jpg >/dev/null"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [
+            "/tmp/x3/b1.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/tmp/x3/b1.jpg"
+          }
+        }
+      ],
+      "bash_commands": [
+        "ls -la && sips -g pixelWidth -g pixelHeight *.jpg",
+        "mkdir -p /tmp/x3 && sips -c 260 700 --cropOffset 540 1150 A-detail.jpg --out /tmp/x3/a1.jpg >/dev/null && sips -c 330 2000 --cropOffset 460 0 A-detail.jpg --out /tmp/x3/a2.jpg >/dev/null",
+        "sips -c 780 250 --cropOffset 0 240 B-right-detail.jpg --out /tmp/x3/b1.jpg >/dev/null && sips -Z 1400 /tmp/x3/b1.jpg --out /tmp/x3/b1.jpg >/dev/null",
+        "cat > answer.json <<'EOF'\n{\"fields\":[\n{\"id\":\"A.r2.name\",\"raw\":\"Anders Alfred Andersson\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.occupation\",\"raw\":\"Hem. äg.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Förkortning (hemmansägare) bevarad; liten bock under 'äg'.\"},\n{\"id\":\"A.r2.birth\",\"raw\":\"69 24/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.marriage\",\"raw\":\"04 3/5\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.name\",\"raw\":\"h. Anna Fredrika Jakobsdotter\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.occupation\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.birth\",\"raw\":\"72 8/2\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.marriage\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.name\",\"raw\":\"s. Petrus Nikolaus\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalkryss över raderna 5–12.\"},\n{\"id\":\"B.r8.birth\",\"raw\":\"1899 6/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.husforhor\",\"raw\":\"12, 14\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"Svag blyerts högt upp i cellen, strax under rad 7:s linje; placerad i rad 8:s radband men radtillhörighet något osäker.\"},\n{\"id\":\"B.r9.name\",\"raw\":\"s. Ludvig Emanuel\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalkryss över raderna 5–12.\"},\n{\"id\":\"B.r9.birth\",\"raw\":\"1901 5/3\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r9.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Blyerts '16' står strax under rad 9:s linje, dvs. i rad 10:s radband; ej tillskriven rad 9.\"},\n{\"id\":\"B.r10.name\",\"raw\":\"s. Birger\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalkryss över raderna 5–12.\"},\n{\"id\":\"B.r10.birth\",\"raw\":\"1905 13/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r10.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"Svag blyerts högt i cellen strax under rad 9:s linje; kan avse rad 9 om den skrivits under egen rad.\"},\n{\"id\":\"B.r11.name\",\"raw\":\"d. Tyra Charlotta\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalkryss över raderna 5–12.\"},\n{\"id\":\"B.r11.birth\",\"raw\":\"1907 12/7.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r11.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"Svag blyerts högt i cellen strax under rad 10:s linje; kan avse rad 10 om den skrivits under egen rad.\"},\n{\"id\":\"B.r12.name\",\"raw\":\"d. Gerda Helena\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalkryss över raderna 5–12.\"},\n{\"id\":\"B.r12.birth\",\"raw\":\"1909 17/9\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r12.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"}\n]}\nEOF\npython -c \"import json;print(len(json.load(open('answer.json'))['fields']))\""
+      ]
+    },
+    {
+      "id": "x_opus55-xhigh_1",
+      "tool_calls": 21,
+      "findings": [],
+      "bash_commands": [
+        "ls -la /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_1/; cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_1/ && sips -g pixelWidth -g pixelHeight *.jpg",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_1/ && mkdir -p work && sips -c 300 1100 --cropOffset 520 60 A-detail.jpg --out work/a_name.jpg >/dev/null && sips -c 300 1100 --cropOffset 520 1060 A-detail.jpg --out work/a_right.jpg >/dev/null && ls work",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_1/ && sips -c 800 700 --cropOffset 1400 2800 B-full.jpg --out work/b_col13.jpg >/dev/null && sips -c 820 1300 --cropOffset 1400 3450 B-full.jpg --out work/b_col14.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_1/ && sips -c 700 230 --cropOffset 1450 3040 B-full.jpg --out work/b_c13t.jpg >/dev/null && sips -z 1400 460 work/b_c13t.jpg --out work/b_c13z.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_1/ && sips -c 700 300 --cropOffset 60 1290 B-left-detail.jpg --out work/b_birth.jpg >/dev/null && sips -z 1400 600 work/b_birth.jpg --out work/b_birthz.jpg >/dev/null && sips -c 620 860 --cropOffset 90 120 B-left-detail.jpg --out work/b_names.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_1/ && sips -c 90 260 --cropOffset 480 390 B-left-detail.jpg --out work/b_charl.jpg >/dev/null && sips -z 270 780 work/b_charl.jpg --out work/b_charlz.jpg >/dev/null && echo ok",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_1/ && python -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\""
+      ]
+    },
+    {
+      "id": "z_opus55-medium_4",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-medium_4/input.json",
+        "python - <<'EOF'\nimport json,copy\ninp=json.load(open('input.json'))\nc={o['id']:copy.deepcopy(o) for o in inp['currentChanges']}\nsa=c['S-A']; sa['data']['title']='Provförsamlingen'; sa['rationale']='Rättar stavfel i titeln: Provförsamlingen.'\nrb=c['R-B']; rb['data']['locator']='folio 20, rad 3, utflyttning nr 17'\nrb['media'].append({\"id\":\"MED-full\",\"region\":\"helbild\"})\nrb['rationale']='Preciserar locator till utflyttning nr 17 och lägger till helbildsmedium; utsnittet behålls.'\nob=c['O-B']; ob['data']['value_literal']='23/10 1930'; ob['data']['value_json']['value']='1930-10-23'\nob['evidence']=[{\"object\":\"R-B\",\"version\":3,\"role\":\"supports\"}]\nob['rationale']='Rättad avläsning enligt helbild av källposten: utflyttningsdatum 23/10 1930.'\nfb=c['F-B']; fb['data']['value_json'].update(value='1930-10-23',literal='23/10 1930')\nfb['evidence']=[{\"object\":\"O-B\",\"version\":2,\"role\":\"supports\"}]\nfb['rationale']='Följer den rättade observationen: registrerad utflyttning 1930-10-23; förbehållet kvarstår.'\nans={\"id\":\"T-0769-Z-answer\",\"actor\":\"benchmark\",\n\"reason\":\"T-0769: rättar S-A:s titel samt R-B:s locator med nytt helbildsmedium och utflyttningsdatum 1930-10-23 i O-B och F-B\",\n\"dependencyReviewVersion\":2,\"media\":[inp['newMedia']],\n\"changes\":[sa,rb,ob,fb],\n\"resolve\":[\n{\"request\":\"bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad\",\"rationale\":\"F-B omprövad: slutsatsen rättas till 1930-10-23 och bygger nu på O-B version 2; förbehållet bevaras.\"},\n{\"request\":\"b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5\",\"rationale\":\"O-B omprövad mot R-B version 3 med helbild: datumet rättas till 23/10 1930 (1930-10-23).\"}]}\njson.dump(ans,open('answer.json','w'),ensure_ascii=False,indent=2)\nEOF\npython -m json.tool answer.json >/dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "x_opus55-xhigh_4",
+      "tool_calls": 33,
+      "findings": [
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/a_names.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/a_right.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/a_right.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/a_names.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/b_col13.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/b_col13_top.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/b_1214.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/b_16a.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/b_16b.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/bl_names1.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/bl_names2.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/bl_birth.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/charl.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/eman.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/hem.png"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_4/tmp/anna.png"
+          }
+        }
+      ],
+      "bash_commands": [
+        "ls -la && sips -g pixelWidth -g pixelHeight *.jpg",
+        "mkdir -p tmp && python -c \"\nfrom PIL import Image\nim=Image.open('A-detail.jpg')\nim.crop((60,500,1000,780)).save('tmp/a_names.png')\nim.crop((930,500,2180,780)).resize((1875,420)).save('tmp/a_right.png')\n\"",
+        "sips -c 280 1250 --cropOffset 500 930 A-detail.jpg --out tmp/a_right.png -s format png >/dev/null && sips -c 280 940 --cropOffset 500 60 A-detail.jpg --out tmp/a_names.png -s format png >/dev/null && ls tmp",
+        "sips -c 800 700 --cropOffset 1380 2800 B-full.jpg --out tmp/b_col13.png -s format png >/dev/null && sips -c 900 1500 --cropOffset 1500 100 B-full.jpg --out tmp/b_left.png -s format png >/dev/null && echo ok",
+        "sips -c 1500 900 --cropOffset 550 2750 B-full.jpg --out tmp/b_col13_top.png -s format png >/dev/null && echo ok",
+        "sips -c 120 260 --cropOffset 1490 3040 B-full.jpg --out tmp/b_1214.png -s format png >/dev/null && sips -z 360 780 tmp/b_1214.png >/dev/null && sips -c 110 200 --cropOffset 1750 3030 B-full.jpg --out tmp/b_16a.png -s format png >/dev/null && sips -z 330 600 tmp/b_16a.png >/dev/null && sips -c 110 200 --cropOffset 1880 3030 B-full.jpg --out tmp/b_16b.png -s format png >/dev/null && sips -z 330 600 tmp/b_16b.png >/dev/null && echo ok",
+        "sips -c 440 900 --cropOffset 60 150 B-left-detail.jpg --out tmp/bl_names1.png -s format png >/dev/null && sips -c 330 900 --cropOffset 420 150 B-left-detail.jpg --out tmp/bl_names2.png -s format png >/dev/null && sips -c 700 260 --cropOffset 60 1290 B-left-detail.jpg --out tmp/bl_birth.png -s format png >/dev/null && echo ok",
+        "sips -c 90 330 --cropOffset 460 450 B-left-detail.jpg --out tmp/charl.png -s format png >/dev/null && sips -z 270 990 tmp/charl.png >/dev/null && sips -c 90 330 --cropOffset 215 460 B-left-detail.jpg --out tmp/eman.png -s format png >/dev/null && sips -z 270 990 tmp/eman.png >/dev/null && echo ok",
+        "sips -c 140 260 --cropOffset 530 940 A-detail.jpg --out tmp/hem.png -s format png >/dev/null && sips -z 420 780 tmp/hem.png >/dev/null && sips -c 130 800 --cropOffset 640 80 A-detail.jpg --out tmp/anna.png -s format png >/dev/null && sips -z 260 1600 tmp/anna.png >/dev/null && echo ok",
+        "python -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\" && rm -r tmp"
+      ]
+    },
+    {
+      "id": "y_opus55-xhigh_1",
+      "tool_calls": 4,
+      "findings": [],
+      "bash_commands": [
+        "ls -la /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_1/; cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_1/input.json",
+        "python -c \"import json;d=json.load(open('/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_1/answer.json'));print(len(d['decisions']))\""
+      ]
+    },
+    {
+      "id": "z_opus55-xhigh_1",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_1/input.json; ls -la /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_1",
+        "python - <<'EOF'\nimport json, copy\ninp = json.load(open(\"input.json\"))\ncur = {c[\"id\"]: c for c in inp[\"currentChanges\"]}\n\nsa = copy.deepcopy(cur[\"S-A\"])\nsa[\"data\"][\"title\"] = \"Provförsamlingen\"\nsa[\"rationale\"] = \"Titelrättelse: stavfelet Provförsammlingen rättas till Provförsamlingen; övriga uppgifter oförändrade.\"\n\nrb = copy.deepcopy(cur[\"R-B\"])\nrb[\"data\"][\"locator\"] = \"folio 20, rad 3, utflyttning nr 17\"\nrb[\"media\"].append({\"id\": \"MED-full\", \"region\": \"helbild\"})\nrb[\"rationale\"] = (\"Källposträttelse: lokaliseringen preciseras till folio 20, rad 3, utflyttning nr 17. \"\n                   \"Nytt helbildsmedium MED-full kopplas med region helbild; befintligt utsnitt MED-old behålls.\")\nrb_new = rb[\"expectedVersion\"] + 1\n\nob = copy.deepcopy(cur[\"O-B\"])\nob[\"data\"][\"value_literal\"] = \"23/10 1930\"\nob[\"data\"][\"value_json\"][\"value\"] = \"1930-10-23\"\nfor e in ob[\"evidence\"]:\n    if e[\"object\"] == \"R-B\":\n        e[\"version\"] = rb_new\nob[\"rationale\"] = (\"Rättad avläsning av den rättade källposten R-B: utflyttningsdatum är 23/10 1930 (1930-10-23), \"\n                   \"inte 22/10 1930. Evidensen pekar nu på R-B version %d.\" % rb_new)\nob_new = ob[\"expectedVersion\"] + 1\n\nfb = copy.deepcopy(cur[\"F-B\"])\nfb[\"data\"][\"value_json\"][\"value\"] = \"1930-10-23\"\nfb[\"data\"][\"value_json\"][\"literal\"] = \"23/10 1930\"\nfor e in fb[\"evidence\"]:\n    if e[\"object\"] == \"O-B\":\n        e[\"version\"] = ob_new\nfb[\"rationale\"] = (\"Slutsatsen följer den rättade observationen O-B: registrerat utflyttningsdatum 1930-10-23 \"\n                   \"(rådatum 23/10 1930). Evidensstatus och förbehållet om att detta inte bevisar faktisk resdag bevaras.\")\n\nreviews = {r[\"affected_revision_id\"]: r[\"id\"] for r in inp[\"pendingReviews\"]}\nop = {\n    \"id\": \"T-0769-Z-answer\",\n    \"actor\": \"benchmark\",\n    \"reason\": (\"T-0769: rätta S-A:s titel till Provförsamlingen; rätta R-B:s lokalisering till utflyttning nr 17 \"\n               \"med nytt helbildsmedium, samt utflyttningsdatum i O-B och F-B till 1930-10-23 och stäng båda följdprövningarna.\"),\n    \"dependencyReviewVersion\": 2,\n    \"media\": [inp[\"newMedia\"]],\n    \"changes\": [sa, rb, ob, fb],\n    \"resolve\": [\n        {\"request\": reviews[\"O-B@1\"],\n         \"rationale\": (\"O-B har prövats mot rättade R-B version %d: observationens datum rättas till 23/10 1930 \"\n                       \"(1930-10-23) och evidensen pekar på den nya källpostversionen.\" % rb_new)},\n        {\"request\": reviews[\"F-B@1\"],\n         \"rationale\": (\"F-B har prövats efter R-B-rättelsen: slutsatsen rättas till 1930-10-23 (23/10 1930) via O-B version %d; \"\n                       \"förbehållet om registrerad utflyttning kontra faktisk resdag kvarstår.\" % ob_new)},\n    ],\n}\njson.dump(op, open(\"answer.json\", \"w\"), ensure_ascii=False, indent=2)\nprint(json.dumps(op, ensure_ascii=False, indent=2))\nEOF\npython -c \"import json;json.load(open('/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_1/answer.json'));print('ok')\""
+      ]
+    },
+    {
+      "id": "x_opus55-medium_5",
+      "tool_calls": 11,
+      "findings": [],
+      "bash_commands": [
+        "sips -c 260 450 --cropOffset 540 1250 A-detail.jpg --out a3.jpg >/dev/null && ls",
+        "sips -g pixelWidth -g pixelHeight B-full.jpg && sips -c 700 700 --cropOffset 1400 2900 B-full.jpg --out b13.jpg >/dev/null",
+        "rm a3.jpg b13.jpg && cat > answer.json <<'EOF'\n{\"fields\":[\n{\"id\":\"A.r2.name\",\"raw\":\"Anders Alfred Andersson\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.occupation\",\"raw\":\"Hem. äg.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"förkortning för hemmansägare; 'g' under raden\"},\n{\"id\":\"A.r2.birth\",\"raw\":\"69 24/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.marriage\",\"raw\":\"04 3/5\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.name\",\"raw\":\"h. Anna Fredrika Jakobsdotter\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.occupation\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.birth\",\"raw\":\"72 8/2\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.marriage\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.name\",\"raw\":\"s. Petrus Nikolaus\",\"state\":\"read\",\"alternatives\":[],\"note\":\"överkorsad av stort diagonalkryss över raderna 5–12\"},\n{\"id\":\"B.r8.birth\",\"raw\":\"1899 6/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.husforhor\",\"raw\":\"12, 14\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"svag blyerts överst i radens fält strax under rad 7:s linje; texten tydlig men radtillhörighet (rad 8 eller rad 7) osäker\"},\n{\"id\":\"B.r9.name\",\"raw\":\"s. Ludvig Emanuel\",\"state\":\"read\",\"alternatives\":[],\"note\":\"överkorsad av diagonalkryss\"},\n{\"id\":\"B.r9.birth\",\"raw\":\"1901 5/3\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r9.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"inget i radens fält; blyerts '16' strax under radlinjen står i rad 10:s fält men kan avse denna rad\"},\n{\"id\":\"B.r10.name\",\"raw\":\"s. Birger\",\"state\":\"read\",\"alternatives\":[],\"note\":\"överkorsad av diagonalkryss\"},\n{\"id\":\"B.r10.birth\",\"raw\":\"1905 13/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r10.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"svag blyerts överst i fältet strax under rad 9:s linje; kan avse rad 9\"},\n{\"id\":\"B.r11.name\",\"raw\":\"d. Tyra Charlotta\",\"state\":\"read\",\"alternatives\":[],\"note\":\"överkorsad av diagonalkryss\"},\n{\"id\":\"B.r11.birth\",\"raw\":\"1907 12/7.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r11.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"svag blyerts överst i fältet strax under rad 10:s linje; kan avse rad 10\"},\n{\"id\":\"B.r12.name\",\"raw\":\"d. Gerda Helena\",\"state\":\"read\",\"alternatives\":[],\"note\":\"överkorsad av diagonalkryss (krysset slutar vid denna rad)\"},\n{\"id\":\"B.r12.birth\",\"raw\":\"1909 17/9\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r12.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"}\n]}\nEOF\npython -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\""
+      ]
+    },
+    {
+      "id": "x_opus55-xhigh_2",
+      "tool_calls": 27,
+      "findings": [],
+      "bash_commands": [
+        "ls -la /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/; cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && sips -g pixelWidth -g pixelHeight *.jpg",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && python -c \"\nfrom PIL import Image\nim=Image.open('A-detail.jpg')\nim.crop((60,500,1500,780)).resize((2880,560)).save('crop_A_rows.png')\nim.crop((1150,500,2180,780)).resize((2060,560)).save('crop_A_right.png')\n\"",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && sips -c 300 1000 --cropOffset 500 60 A-detail.jpg --out crop_A_name.png >/dev/null && sips -c 300 1100 --cropOffset 500 1100 A-detail.jpg --out crop_A_right.png >/dev/null && ls",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && sips -c 260 260 --cropOffset 520 1280 A-detail.jpg --out crop_A_date.jpg >/dev/null && sips -z 780 780 crop_A_date.jpg >/dev/null && sips -c 180 400 --cropOffset 520 930 A-detail.jpg --out crop_A_occ.jpg >/dev/null && sips -z 540 1200 crop_A_occ.jpg >/dev/null && sips -c 140 700 --cropOffset 640 480 A-detail.jpg --out crop_A_r3name.jpg >/dev/null && sips -z 420 2100 crop_A_r3name.jpg >/dev/null",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && sips -c 900 700 --cropOffset 1350 2800 B-full.jpg --out crop_B_col13.jpg >/dev/null && sips -z 1350 1050 crop_B_col13.jpg >/dev/null",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && sips -c 700 260 --cropOffset 1500 1370 B-full.jpg --out crop_B_birth.jpg >/dev/null && sips -z 1400 520 crop_B_birth.jpg >/dev/null && sips -c 700 900 --cropOffset 1500 250 B-full.jpg --out crop_B_names.jpg >/dev/null && sips -z 1400 1800 crop_B_names.jpg >/dev/null",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && sips -c 110 110 --cropOffset 1690 1500 B-full.jpg --out crop_B_r9d.jpg >/dev/null && sips -z 660 660 crop_B_r9d.jpg >/dev/null",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && sips -c 110 300 --cropOffset 1960 520 B-full.jpg --out crop_B_tyra.jpg >/dev/null && sips -z 440 1200 crop_B_tyra.jpg >/dev/null",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && sips -c 110 330 --cropOffset 1580 580 B-full.jpg --out crop_B_nik.jpg >/dev/null && sips -z 440 1320 crop_B_nik.jpg >/dev/null",
+        "cd /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-xhigh_2/ && rm -f crop_*.jpg crop_*.png && cat > answer.json <<'EOF'\n{\n  \"fields\": [\n    {\"id\":\"A.r2.name\",\"raw\":\"Anders Alfred Andersson\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"A.r2.occupation\",\"raw\":\"Hem. äg.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Förkortning; prickarna över a skrivna som ett streck.\"},\n    {\"id\":\"A.r2.birth\",\"raw\":\"69 24/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"År 69 i kol. 3; 24/7 som bråk i kol. 4.\"},\n    {\"id\":\"A.r2.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kol. 5 tom, inget dittotecken.\"},\n    {\"id\":\"A.r2.marriage\",\"raw\":\"04 3/5\",\"state\":\"read\",\"alternatives\":[],\"note\":\"3/5 skrivet som bråk.\"},\n    {\"id\":\"A.r3.name\",\"raw\":\"h. Anna Fredrika Jakobsdotter\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Slutet på -dotter hopdraget men läsbart.\"},\n    {\"id\":\"A.r3.occupation\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kol. 2 tom, inget dittotecken.\"},\n    {\"id\":\"A.r3.birth\",\"raw\":\"72 8/2\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Nämnaren har samma öglade 2-form som i 72, inte samma form som 9 i 69 på rad 2.\"},\n    {\"id\":\"A.r3.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kol. 5 tom, inget dittotecken.\"},\n    {\"id\":\"A.r3.marriage\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Kol. 7 tom, inget dittotecken.\"},\n    {\"id\":\"B.r8.name\",\"raw\":\"s. Petrus Nikolaus\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av ett stort diagonalt kryss över namnkolumnen (ungefär rad 5–12); texten fullt läsbar.\"},\n    {\"id\":\"B.r8.birth\",\"raw\":\"1899 6/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"B.r8.husforhor\",\"raw\":\"12, 14\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Blyerts, skrivet högt upp i rad 8:s fält strax under rad 7:s prickade linje; räknat till rad 8.\"},\n    {\"id\":\"B.r9.name\",\"raw\":\"s. Ludvig Emanuel\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av samma stora diagonala kryss; texten läsbar.\"},\n    {\"id\":\"B.r9.birth\",\"raw\":\"1901 5/3\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Snett bråkstreck; 5:ans flagga kan likna en 4; punkt före 3.\"},\n    {\"id\":\"B.r9.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Tom cell. Blyertssiffran '16' strax under rad 9:s linje ligger i rad 10:s fält.\"},\n    {\"id\":\"B.r10.name\",\"raw\":\"s. Birger\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av samma stora diagonala kryss; texten läsbar.\"},\n    {\"id\":\"B.r10.birth\",\"raw\":\"1905 13/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"B.r10.husforhor\",\"raw\":\"16\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Blyerts, högt upp i rad 10:s fält strax under rad 9:s linje.\"},\n    {\"id\":\"B.r11.name\",\"raw\":\"d. Tyra Charlotta\",\"state\":\"uncertain\",\"alternatives\":[\"d. Tyra Charlatta\"],\"note\":\"Bokstaven efter l i Charlotta liknar ett a till formen; namnet genomkorsat av samma stora kryss.\"},\n    {\"id\":\"B.r11.birth\",\"raw\":\"1907 12/7.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Punkt efter 7 i källan.\"},\n    {\"id\":\"B.r11.husforhor\",\"raw\":\"16\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Blyerts, högt upp i rad 11:s fält strax under rad 10:s linje.\"},\n    {\"id\":\"B.r12.name\",\"raw\":\"d. Gerda Helena\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Krysslinjen slutar vid radens vänsterkant/före d.; texten läsbar.\"},\n    {\"id\":\"B.r12.birth\",\"raw\":\"1909 17/9\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n    {\"id\":\"B.r12.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Tom cell.\"}\n  ]\n}\nEOF\npython -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\"; ls"
+      ]
+    },
+    {
+      "id": "x_opus55-medium_2",
+      "tool_calls": 14,
+      "findings": [
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/x2",
+            "/tmp/x2/a1.jpg",
+            "/tmp/x2/a2.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "mkdir -p /tmp/x2 && sips -c 260 900 --cropOffset 560 150 A-detail.jpg --out /tmp/x2/a1.jpg >/dev/null && sips -c 260 500 --cropOffset 540 1250 A-detail.jpg --out /tmp/x2/a2.jpg >/dev/null"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [
+            "/tmp/x2/a2.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/tmp/x2/a2.jpg"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [
+            "/tmp/x2/a1.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/tmp/x2/a1.jpg"
+          }
+        },
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/x2/b.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "sips -Z 2000 B-full.jpg --out /tmp/x2/b.jpg >/dev/null"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [
+            "/tmp/x2/b.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/tmp/x2/b.jpg"
+          }
+        },
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/x2"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "cd /tmp/x2 && sips -z 1560 980 /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-medium_2/B-right-detail.jpg --out r.jpg >/dev/null"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [
+            "/tmp/x2/r.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/tmp/x2/r.jpg"
+          }
+        }
+      ],
+      "bash_commands": [
+        "ls -la && sips -g pixelWidth -g pixelHeight *.jpg",
+        "mkdir -p /tmp/x2 && sips -c 260 900 --cropOffset 560 150 A-detail.jpg --out /tmp/x2/a1.jpg >/dev/null && sips -c 260 500 --cropOffset 540 1250 A-detail.jpg --out /tmp/x2/a2.jpg >/dev/null",
+        "sips -Z 2000 B-full.jpg --out /tmp/x2/b.jpg >/dev/null",
+        "cd /tmp/x2 && sips -z 1560 980 /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/x_opus55-medium_2/B-right-detail.jpg --out r.jpg >/dev/null",
+        "cat > answer.json <<'EOF'\n{\"fields\":[\n{\"id\":\"A.r2.name\",\"raw\":\"Anders Alfred Andersson\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.occupation\",\"raw\":\"Hem. äg.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"förkortning bevarad\"},\n{\"id\":\"A.r2.birth\",\"raw\":\"69 24/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"år 69, dag/mån 24/7\"},\n{\"id\":\"A.r2.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.marriage\",\"raw\":\"04 3/5\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.name\",\"raw\":\"h. Anna Fredrika Jakobsdotter\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.occupation\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.birth\",\"raw\":\"72 8/2\",\"state\":\"read\",\"alternatives\":[],\"note\":\"2 skriven med ögla, samma form som i 72\"},\n{\"id\":\"A.r3.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.marriage\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.name\",\"raw\":\"s. Petrus Nikolaus\",\"state\":\"read\",\"alternatives\":[],\"note\":\"raderna 5–12 genomstrukna med stort kryss\"},\n{\"id\":\"B.r8.birth\",\"raw\":\"1899 6/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.husforhor\",\"raw\":\"12, 14\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"svag blyerts högt i rad 8:s cell, strax under linjen för rad 7; radtillhörighet ej helt säker (kan avse rad 7)\"},\n{\"id\":\"B.r9.name\",\"raw\":\"s. Ludvig Emanuel\",\"state\":\"read\",\"alternatives\":[],\"note\":\"genomstruken med stort kryss (rad 5–12)\"},\n{\"id\":\"B.r9.birth\",\"raw\":\"1901 5/3\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r9.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"inget inom rad 9:s band; '16' står under rad 9:s linje, i rad 10:s cell\"},\n{\"id\":\"B.r10.name\",\"raw\":\"s. Birger\",\"state\":\"read\",\"alternatives\":[],\"note\":\"genomstruken med stort kryss (rad 5–12)\"},\n{\"id\":\"B.r10.birth\",\"raw\":\"1905 13/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r10.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"svag blyerts högt i cellen strax under rad 9:s linje; radtillhörighet ej helt säker (kan avse rad 9)\"},\n{\"id\":\"B.r11.name\",\"raw\":\"d. Tyra Charlotta\",\"state\":\"read\",\"alternatives\":[],\"note\":\"genomstruken med stort kryss (rad 5–12)\"},\n{\"id\":\"B.r11.birth\",\"raw\":\"1907 12/7.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"punkt efter 7 i källan\"},\n{\"id\":\"B.r11.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"svag blyerts högt i cellen strax under rad 10:s linje; radtillhörighet ej helt säker (kan avse rad 10)\"},\n{\"id\":\"B.r12.name\",\"raw\":\"d. Gerda Helena\",\"state\":\"read\",\"alternatives\":[],\"note\":\"genomstruken med stort kryss (rad 5–12)\"},\n{\"id\":\"B.r12.birth\",\"raw\":\"1909 17/9\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r12.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"}\n]}\nEOF\npython -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\""
+      ]
+    },
+    {
+      "id": "z_opus55-medium_2",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-medium_2/input.json",
+        "python - <<'EOF'\nimport json,copy\ninp=json.load(open('input.json'))\nc={o['id']:copy.deepcopy(o) for o in inp['currentChanges']}\nsa=c['S-A']; sa['data']['title']='Provförsamlingen'; sa['rationale']='Titelrättelse: stavningen rättas till Provförsamlingen; övriga uppgifter oförändrade.'\nrb=c['R-B']; rb['data']['locator']='folio 20, rad 3, utflyttning nr 17'; rb['media'].append({\"id\":\"MED-full\",\"region\":\"helbild\"})\nrb['rationale']='Källposträttelse: locator preciseras med utflyttning nr 17; nytt helbildsmedium MED-full läggs till och befintligt utsnitt MED-old behålls.'\nob=c['O-B']; ob['data']['value_literal']='23/10 1930'; ob['data']['value_json']={\"precision\":\"exact\",\"value\":\"1930-10-23\"}\nob['evidence']=[{\"object\":\"R-B\",\"version\":3,\"role\":\"supports\"}]\nob['rationale']='Datumrättelse efter granskning av rättad källpost R-B (helbild): utflyttningsdatum är 23/10 1930, inte 22/10.'\nfb=c['F-B']; fb['data']['value_json']={\"precision\":\"exact\",\"value\":\"1930-10-23\",\"literal\":\"23/10 1930\"}\nfb['evidence']=[{\"object\":\"O-B\",\"version\":2,\"role\":\"supports\"}]\nfb['rationale']='Slutsatsen följer den rättade observationen O-B: registrerat utflyttningsdatum 1930-10-23; förbehållet om faktisk resdag kvarstår.'\nop={\"id\":\"T-0769-Z-answer\",\"actor\":\"benchmark\",\n\"reason\":\"T-0769: rätta S-A:s titel till Provförsamlingen samt rätta R-B:s locator (utflyttning nr 17) med nytt helbildsmedium och följdrätta O-B och F-B till utflyttningsdatum 1930-10-23\",\n\"dependencyReviewVersion\":2,\"media\":[inp['newMedia']],\n\"changes\":[sa,rb,ob,fb],\n\"resolve\":[\n{\"request\":\"bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad\",\"rationale\":\"F-B har prövats mot rättade R-B och O-B: slutsatsens datum rättas till 1930-10-23 (rådatum 23/10 1930) och åberopar nu O-B version 2; förbehållet bevaras.\"},\n{\"request\":\"b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5\",\"rationale\":\"O-B har prövats mot rättade R-B version 3 med helbild: observerat utflyttningsdatum rättas till 23/10 1930 (1930-10-23).\"}]}\njson.dump(op,open('answer.json','w'),ensure_ascii=False,indent=2)\nEOF\npython -m json.tool answer.json >/dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "y_opus55-medium_1",
+      "tool_calls": 4,
+      "findings": [],
+      "bash_commands": [
+        "python -m json.tool /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-medium_1/answer.json > /dev/null && echo ok"
+      ]
+    },
+    {
+      "id": "y_opus55-xhigh_3",
+      "tool_calls": 4,
+      "findings": [],
+      "bash_commands": [
+        "python -c \"import json;d=json.load(open('/Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/y_opus55-xhigh_3/answer.json'));print(len(d['decisions']))\""
+      ]
+    },
+    {
+      "id": "z_opus55-xhigh_2",
+      "tool_calls": 3,
+      "findings": [],
+      "bash_commands": [
+        "ls -la /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_2/; cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_2/input.json",
+        "python - <<'EOF'\nimport json, copy\ninp = json.load(open(\"input.json\"))\ncur = {c[\"id\"]: c for c in inp[\"currentChanges\"]}\n\nsa = copy.deepcopy(cur[\"S-A\"])\nsa[\"data\"][\"title\"] = \"Provförsamlingen\"\nsa[\"rationale\"] = \"Titelrättelse: stavningen rättas från Provförsammlingen till Provförsamlingen; övriga uppgifter oförändrade.\"\n\nrb = copy.deepcopy(cur[\"R-B\"])\nrb[\"data\"][\"locator\"] = \"folio 20, rad 3, utflyttning nr 17\"\nrb[\"media\"] = rb[\"media\"] + [{\"id\": \"MED-full\", \"region\": \"helbild\"}]\nrb[\"rationale\"] = \"Källposträttelse: lokaliseringen preciseras till utflyttning nr 17 och helbild (MED-full) läggs till; befintligt utsnitt MED-old behålls.\"\n\nob = copy.deepcopy(cur[\"O-B\"])\nob[\"data\"][\"value_literal\"] = \"23/10 1930\"\nob[\"data\"][\"value_json\"][\"value\"] = \"1930-10-23\"\nob[\"evidence\"] = [{\"object\": \"R-B\", \"version\": 3, \"role\": \"supports\"}]\nob[\"rationale\"] = \"Datumrättelse: den rättade källposten R-B (version 3, med helbild) anger utflyttningsdatum 23/10 1930, inte 22/10 1930.\"\n\nfb = copy.deepcopy(cur[\"F-B\"])\nfb[\"data\"][\"value_json\"][\"value\"] = \"1930-10-23\"\nfb[\"data\"][\"value_json\"][\"literal\"] = \"23/10 1930\"\nfb[\"evidence\"] = [{\"object\": \"O-B\", \"version\": 2, \"role\": \"supports\"}]\nfb[\"rationale\"] = \"Slutsatsen följer den rättade observationen O-B (version 2): registrerat utflyttningsdatum 1930-10-23; förbehållet om faktisk resdag kvarstår.\"\n\nrev = {r[\"affected_revision_id\"]: r[\"id\"] for r in inp[\"pendingReviews\"]}\nop = {\n  \"id\": \"T-0769-Z-answer\",\n  \"actor\": \"benchmark\",\n  \"reason\": \"T-0769: rätta S-A:s titel till Provförsamlingen; rätta R-B:s lokalisering till utflyttning nr 17 med ny helbild, och följ upp O-B och F-B med utflyttningsdatum 1930-10-23 (rådatum 23/10 1930)\",\n  \"dependencyReviewVersion\": 2,\n  \"media\": [inp[\"newMedia\"]],\n  \"changes\": [sa, rb, ob, fb],\n  \"resolve\": [\n    {\"request\": rev[\"O-B@1\"], \"rationale\": \"O-B omprövad mot rättad R-B: observationens datum rättas till 23/10 1930 (1930-10-23) och evidensen pekar nu på R-B version 3.\"},\n    {\"request\": rev[\"F-B@1\"], \"rationale\": \"F-B omprövad efter rättelsen av R-B: slutsatsen rättas till 1930-10-23 via O-B version 2; förbehållet om faktisk resdag bevaras.\"},\n  ],\n}\njson.dump(op, open(\"answer.json\", \"w\"), ensure_ascii=False, indent=2)\nEOF\npython -m json.tool answer.json >/dev/null && echo OK && cat answer.json"
+      ]
+    },
+    {
+      "id": "z_opus55-xhigh_4",
+      "tool_calls": 5,
+      "findings": [],
+      "bash_commands": [
+        "cat /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_4/input.json; ls /Users/sverker/repos/slaktforsk/evaluations/T-0772/runs/z_opus55-xhigh_4",
+        "python - <<'EOF'\nimport json, copy\ninp = json.load(open(\"input.json\"))\ncur = {c[\"id\"]: c for c in inp[\"currentChanges\"]}\n\nsa = copy.deepcopy(cur[\"S-A\"])\nsa[\"data\"][\"title\"] = \"Provförsamlingen\"\nsa[\"rationale\"] = \"Titelrättelse: stavningen rättas från Provförsamlingen med felaktigt dubbelt r till Provförsamlingen; övriga uppgifter oförändrade.\"\n\nrb = copy.deepcopy(cur[\"R-B\"])\nrb[\"data\"][\"locator\"] = \"folio 20, rad 3, utflyttning nr 17\"\nrb[\"media\"].append({\"id\": \"MED-full\", \"region\": \"helbild\"})\nrb[\"rationale\"] = \"Källpostsrättelse: lokaliseringen preciseras till utflyttning nr 17 och ett nytt helbildsmedium läggs till; befintligt utsnitt behålls.\"\n\nob = copy.deepcopy(cur[\"O-B\"])\nob[\"data\"][\"value_literal\"] = \"23/10 1930\"\nob[\"data\"][\"value_json\"][\"value\"] = \"1930-10-23\"\nob[\"evidence\"] = [{\"object\": \"R-B\", \"version\": 3, \"role\": \"supports\"}]\nob[\"rationale\"] = \"Omprövad mot rättad källpost R-B version 3: utflyttningsdatum avläses som 23/10 1930 (1930-10-23).\"\n\nfb = copy.deepcopy(cur[\"F-B\"])\nfb[\"data\"][\"value_json\"][\"value\"] = \"1930-10-23\"\nfb[\"data\"][\"value_json\"][\"literal\"] = \"23/10 1930\"\nfb[\"evidence\"] = [{\"object\": \"O-B\", \"version\": 2, \"role\": \"supports\"}]\nfb[\"rationale\"] = \"Omprövad efter rättad observation O-B version 2: registrerat utflyttningsdatum rättas till 1930-10-23; förbehållet om faktisk resdag kvarstår.\"\n\nans = {\n  \"id\": \"T-0769-Z-answer\",\n  \"actor\": \"benchmark\",\n  \"reason\": \"T-0769: rättar S-A:s titel till Provförsamlingen samt R-B:s lokalisering med nytt helbildsmedium och följdrättar O-B och F-B till utflyttningsdatum 1930-10-23 (23/10 1930).\",\n  \"dependencyReviewVersion\": 2,\n  \"media\": [inp[\"newMedia\"]],\n  \"changes\": [sa, rb, ob, fb],\n  \"resolve\": [\n    {\"request\": \"b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5\",\n     \"rationale\": \"O-B omprövad mot R-B version 3: observationens datum rättas till 23/10 1930 (1930-10-23) och underlaget pekar nu på den nya källpostsversionen.\"},\n    {\"request\": \"bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad\",\n     \"rationale\": \"F-B omprövad efter rättad källpost och observation: slutsatsens utflyttningsdatum rättas till 1930-10-23 med stöd av O-B version 2; förbehållet bevaras.\"}\n  ]\n}\njson.dump(ans, open(\"answer.json\", \"w\"), ensure_ascii=False, indent=2)\njson.load(open(\"answer.json\"))\nprint(json.dumps(ans, ensure_ascii=False, indent=1)[:4000])\nEOF",
+        "python -c \"\nimport json;i=json.load(open('input.json'));a=json.load(open('answer.json'))\nprint(repr(i['currentChanges'][0]['data']['title']), repr(a['changes'][0]['data']['title']), i['currentChanges'][0]['data']['title']==a['changes'][0]['data']['title'])\"",
+        "python -c \"\nimport json;a=json.load(open('answer.json'))\na['changes'][0]['rationale']='Titelrättelse: felstavningen Provförsammlingen (dubbelt m) rättas till Provförsamlingen; övriga uppgifter oförändrade.'\njson.dump(a,open('answer.json','w'),ensure_ascii=False,indent=2)\njson.load(open('answer.json'));print(a['changes'][0]['rationale'])\""
+      ]
+    },
+    {
+      "id": "x_opus55-medium_4",
+      "tool_calls": 11,
+      "findings": [
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/a1.jpg",
+            "/tmp/a2.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "ls && sips -c 300 700 --cropOffset 500 900 A-detail.jpg --out /tmp/a1.jpg >/dev/null && sips -c 250 320 --cropOffset 520 1270 A-detail.jpg --out /tmp/a2.jpg >/dev/null"
+          }
+        },
+        {
+          "tool": "Bash",
+          "outside_paths": [
+            "/tmp/b1.jpg",
+            "/tmp/a1.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "command": "sips -c 700 700 --cropOffset 1400 2900 B-full.jpg --out /tmp/b1.jpg >/dev/null && sips -c 260 500 --cropOffset 460 1150 A-detail.jpg --out /tmp/a1.jpg >/dev/null"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [
+            "/tmp/b1.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/tmp/b1.jpg"
+          }
+        },
+        {
+          "tool": "Read",
+          "outside_paths": [
+            "/tmp/a1.jpg"
+          ],
+          "terms": [
+            "/tmp/"
+          ],
+          "input": {
+            "file_path": "/tmp/a1.jpg"
+          }
+        }
+      ],
+      "bash_commands": [
+        "ls && sips -c 300 700 --cropOffset 500 900 A-detail.jpg --out /tmp/a1.jpg >/dev/null && sips -c 250 320 --cropOffset 520 1270 A-detail.jpg --out /tmp/a2.jpg >/dev/null",
+        "sips -c 700 700 --cropOffset 1400 2900 B-full.jpg --out /tmp/b1.jpg >/dev/null && sips -c 260 500 --cropOffset 460 1150 A-detail.jpg --out /tmp/a1.jpg >/dev/null",
+        "cat > answer.json <<'EOF'\n{\"fields\":[\n{\"id\":\"A.r2.name\",\"raw\":\"Anders Alfred Andersson\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.occupation\",\"raw\":\"Hem.äg.\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Litet tecken (liknar 4) under 'äg'; troligen understrykning/förkortningsmärke\"},\n{\"id\":\"A.r2.birth\",\"raw\":\"69 24/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r2.marriage\",\"raw\":\"04 3/5\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.name\",\"raw\":\"h. Anna Fredrika Jakobsdotter\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.occupation\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.birth\",\"raw\":\"72 8/2\",\"state\":\"read\",\"alternatives\":[],\"note\":\"2:orna skrivna med slinga\"},\n{\"id\":\"A.r3.birthplace\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"A.r3.marriage\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.name\",\"raw\":\"s. Petrus Nikolaus\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalt kryss över raderna 5–12\"},\n{\"id\":\"B.r8.birth\",\"raw\":\"1899 6/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r8.husforhor\",\"raw\":\"12, 14\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"Blyerts; står strax under rad 7:s linje, alltså i rad 8:s fält, men kan vara avsett för rad 7\"},\n{\"id\":\"B.r9.name\",\"raw\":\"s. Ludvig Emanuel\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalt kryss\"},\n{\"id\":\"B.r9.birth\",\"raw\":\"1901 5/3\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r9.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"Cellen tom; blyerts '16' strax under radens linje hör geometriskt till rad 10\"},\n{\"id\":\"B.r10.name\",\"raw\":\"s. Birger\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalt kryss\"},\n{\"id\":\"B.r10.birth\",\"raw\":\"1905 13/8\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r10.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"Blyerts; står strax under rad 9:s linje (i rad 10:s fält), kan vara avsett för rad 9\"},\n{\"id\":\"B.r11.name\",\"raw\":\"d. Tyra Charlotta\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalt kryss\"},\n{\"id\":\"B.r11.birth\",\"raw\":\"1907 12/7\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r11.husforhor\",\"raw\":\"16\",\"state\":\"uncertain\",\"alternatives\":[],\"note\":\"Blyerts; står strax under rad 10:s linje (i rad 11:s fält), kan vara avsett för rad 10\"},\n{\"id\":\"B.r12.name\",\"raw\":\"d. Gerda Helena\",\"state\":\"read\",\"alternatives\":[],\"note\":\"Genomkorsad av stort diagonalt kryss\"},\n{\"id\":\"B.r12.birth\",\"raw\":\"1909 17/9\",\"state\":\"read\",\"alternatives\":[],\"note\":\"\"},\n{\"id\":\"B.r12.husforhor\",\"raw\":\"\",\"state\":\"blank\",\"alternatives\":[],\"note\":\"\"}\n]}\nEOF\npython -c \"import json;d=json.load(open('answer.json'));print(len(d['fields']))\""
+      ]
+    }
+  ]
+}

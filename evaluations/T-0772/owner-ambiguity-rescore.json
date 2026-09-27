@@ -1,0 +1,843 @@
+{
+  "summary": {
+    "astra": {
+      "n": 5,
+      "frozen": 5,
+      "mild": 5,
+      "strict": 0,
+      "flagged": 0
+    },
+    "luna": {
+      "n": 5,
+      "frozen": 0,
+      "mild": 0,
+      "strict": 0,
+      "flagged": 0
+    },
+    "sol": {
+      "n": 5,
+      "frozen": 0,
+      "mild": 0,
+      "strict": 0,
+      "flagged": 0
+    },
+    "terra": {
+      "n": 5,
+      "frozen": 0,
+      "mild": 0,
+      "strict": 0,
+      "flagged": 0
+    },
+    "opus55-xhigh": {
+      "n": 5,
+      "frozen": 0,
+      "mild": 5,
+      "strict": 0,
+      "flagged": 0
+    },
+    "opus55-medium": {
+      "n": 5,
+      "frozen": 0,
+      "mild": 5,
+      "strict": 0,
+      "flagged": 0
+    }
+  },
+  "runs": [
+    {
+      "study": "T-0769",
+      "run": "x_astra_2",
+      "model": "astra",
+      "blind_id": "B009",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": true,
+        "score": 75
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_luna_1",
+      "model": "luna",
+      "blind_id": "B014",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 60
+      },
+      "mild": {
+        "passed": false,
+        "score": 62,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 62,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_astra_1",
+      "model": "astra",
+      "blind_id": "B015",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": true,
+        "score": 75
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_sol_3",
+      "model": "sol",
+      "blind_id": "B019",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 66
+      },
+      "mild": {
+        "passed": false,
+        "score": 65,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 65,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_astra_3",
+      "model": "astra",
+      "blind_id": "B023",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": true,
+        "score": 75
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_sol_2",
+      "model": "sol",
+      "blind_id": "B024",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 64
+      },
+      "mild": {
+        "passed": false,
+        "score": 63,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 63,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_terra_5",
+      "model": "terra",
+      "blind_id": "B025",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 58
+      },
+      "mild": {
+        "passed": false,
+        "score": 60,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 60,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_terra_1",
+      "model": "terra",
+      "blind_id": "B026",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 59
+      },
+      "mild": {
+        "passed": false,
+        "score": 61,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 61,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_terra_3",
+      "model": "terra",
+      "blind_id": "B028",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 56
+      },
+      "mild": {
+        "passed": false,
+        "score": 58,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 58,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_sol_5",
+      "model": "sol",
+      "blind_id": "B029",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 66
+      },
+      "mild": {
+        "passed": false,
+        "score": 65,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 65,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_luna_2",
+      "model": "luna",
+      "blind_id": "B030",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 61
+      },
+      "mild": {
+        "passed": false,
+        "score": 63,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 63,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_astra_4",
+      "model": "astra",
+      "blind_id": "B038",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": true,
+        "score": 75
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_sol_1",
+      "model": "sol",
+      "blind_id": "B039",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 68
+      },
+      "mild": {
+        "passed": false,
+        "score": 67,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 67,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_luna_4",
+      "model": "luna",
+      "blind_id": "B043",
+      "raw": "1911 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 62
+      },
+      "mild": {
+        "passed": false,
+        "score": 62,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 62,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_sol_4",
+      "model": "sol",
+      "blind_id": "B044",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 66
+      },
+      "mild": {
+        "passed": false,
+        "score": 65,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 65,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_terra_2",
+      "model": "terra",
+      "blind_id": "B045",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 59
+      },
+      "mild": {
+        "passed": false,
+        "score": 61,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 61,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_terra_4",
+      "model": "terra",
+      "blind_id": "B047",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 61
+      },
+      "mild": {
+        "passed": false,
+        "score": 63,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 63,
+        "critical_errors": [
+          "B.r9.husforhor: 16 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_luna_5",
+      "model": "luna",
+      "blind_id": "B054",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 61
+      },
+      "mild": {
+        "passed": false,
+        "score": 63,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 63,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_luna_3",
+      "model": "luna",
+      "blind_id": "B055",
+      "raw": "1911 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 61
+      },
+      "mild": {
+        "passed": false,
+        "score": 61,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11."
+        ]
+      },
+      "strict": {
+        "passed": false,
+        "score": 61,
+        "critical_errors": [
+          "B.r9.husforhor: 10 flyttas in i en tom cell. Det första 16 ligger under radens nederlinje och tillhör r10; andra 16 tillhör r11.",
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0769",
+      "run": "x_astra_5",
+      "model": "astra",
+      "blind_id": "B057",
+      "raw": "1901 31/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": true,
+        "score": 75
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-xhigh_1",
+      "model": "opus55-xhigh",
+      "blind_id": "C003",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 72
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-xhigh_2",
+      "model": "opus55-xhigh",
+      "blind_id": "C006",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 72
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-medium_4",
+      "model": "opus55-medium",
+      "blind_id": "C011",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 69
+      },
+      "mild": {
+        "passed": true,
+        "score": 71,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 71,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-medium_5",
+      "model": "opus55-medium",
+      "blind_id": "C014",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 69
+      },
+      "mild": {
+        "passed": true,
+        "score": 71,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 71,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-xhigh_3",
+      "model": "opus55-xhigh",
+      "blind_id": "C017",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 72
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-xhigh_5",
+      "model": "opus55-xhigh",
+      "blind_id": "C019",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 72
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-xhigh_4",
+      "model": "opus55-xhigh",
+      "blind_id": "C020",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 72
+      },
+      "mild": {
+        "passed": true,
+        "score": 74,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 74,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-medium_2",
+      "model": "opus55-medium",
+      "blind_id": "C026",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 69
+      },
+      "mild": {
+        "passed": true,
+        "score": 71,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 71,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-medium_3",
+      "model": "opus55-medium",
+      "blind_id": "C029",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 69
+      },
+      "mild": {
+        "passed": true,
+        "score": 71,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 71,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    },
+    {
+      "study": "T-0772",
+      "run": "x_opus55-medium_1",
+      "model": "opus55-medium",
+      "blind_id": "C038",
+      "raw": "1901 5/3",
+      "state": "read",
+      "alternatives": [],
+      "frozen": {
+        "passed": false,
+        "score": 70
+      },
+      "mild": {
+        "passed": true,
+        "score": 72,
+        "critical_errors": []
+      },
+      "strict": {
+        "passed": false,
+        "score": 72,
+        "critical_errors": [
+          "B.r9.birth: säker läsning utan tvetydighetsmarkering"
+        ]
+      }
+    }
+  ]
+}

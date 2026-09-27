@@ -1,0 +1,211 @@
+{
+  "format": "T-0769-Z-input/1",
+  "currentChanges": [
+    {
+      "id": "S-A",
+      "kind": "source",
+      "data": {
+        "title": "Provförsammlingen",
+        "description": "Syntetisk källa A"
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Syntetiskt startläge",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ]
+    },
+    {
+      "id": "S-B",
+      "kind": "source",
+      "data": {
+        "title": "Provförsamlingen B",
+        "description": "Syntetisk källa B"
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Syntetiskt startläge",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ]
+    },
+    {
+      "id": "P-A",
+      "kind": "person",
+      "data": {
+        "display_name": "Testperson A"
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Syntetiskt startläge",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ]
+    },
+    {
+      "id": "R-B",
+      "kind": "record",
+      "data": {
+        "source_id": "S-B",
+        "record_type": "departure",
+        "locator": "folio 20, rad 3",
+        "dependence_note": "Samma registreringskedja som observationen."
+      },
+      "expectedVersion": 2,
+      "disposition": "recorded",
+      "rationale": "Syntetiskt startläge",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ],
+      "media": [
+        {
+          "id": "MED-old",
+          "region": "utsnitt"
+        }
+      ],
+      "evidence": [
+        {
+          "object": "S-B",
+          "version": 1,
+          "role": "supports"
+        }
+      ]
+    },
+    {
+      "id": "O-B",
+      "kind": "observation",
+      "data": {
+        "record_id": "R-B",
+        "mention_id": null,
+        "property": "departure_date",
+        "value_literal": "22/10 1930",
+        "value_json": {
+          "precision": "exact",
+          "value": "1930-10-22"
+        }
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Syntetiskt startläge",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "R-B",
+          "version": 1,
+          "role": "supports"
+        }
+      ]
+    },
+    {
+      "id": "F-B",
+      "kind": "fact",
+      "data": {
+        "subject_id": "P-A",
+        "property": "departure_date",
+        "value_type": "date",
+        "value_json": {
+          "precision": "exact",
+          "value": "1930-10-22",
+          "literal": "22/10 1930"
+        }
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Syntetiskt startläge",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ],
+      "evidence": [
+        {
+          "object": "O-B",
+          "version": 1,
+          "role": "supports"
+        }
+      ],
+      "evidenceStatus": "TRANSCRIBED",
+      "caveat": "Registrerad utflyttning, inte bevis för faktisk resdag."
+    },
+    {
+      "id": "F-OWNER",
+      "kind": "fact",
+      "data": {
+        "subject_id": "P-A",
+        "property": "residence",
+        "value_type": "text",
+        "value_json": "Testbyn"
+      },
+      "expectedVersion": 1,
+      "disposition": "recorded",
+      "rationale": "Ägaren har bekräftat bostadsorten.",
+      "origins": [
+        {
+          "unit": "e6b1518fc587a4359e885d950a5e07e7b87e5b887c779cc6db3b829c1a47bdff",
+          "coverage": "complete",
+          "note": "Syntetisk proveniens som ska bevaras."
+        }
+      ],
+      "evidenceStatus": "OWNER_CONFIRMED",
+      "evidence": [
+        {
+          "object": "S-B",
+          "version": 1,
+          "role": "supports"
+        }
+      ]
+    }
+  ],
+  "pendingReviews": [
+    {
+      "id": "bf476e304a25fa029274e93a327cfd8a597e934def1d4eff4d298823e055b6ad",
+      "operation_id": "fixture-record-correction",
+      "affected_revision_id": "F-B@1",
+      "changed_revision_id": "R-B@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+    },
+    {
+      "id": "b3da6902cddbc4f94a8293738023a321b51e05725c3f3d21787190532a1ff0b5",
+      "operation_id": "fixture-record-correction",
+      "affected_revision_id": "O-B@1",
+      "changed_revision_id": "R-B@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats."
+    }
+  ],
+  "newMedia": {
+    "id": "MED-full",
+    "sha256": "4278820bde38974242a8df03906de52b5fdd6046725ab20929d90cc80a1a4ba8",
+    "storagePath": "genealogy2/media/objects/4278820bde38974242a8df03906de52b5fdd6046725ab20929d90cc80a1a4ba8",
+    "bytes": 10,
+    "originalName": "full.txt",
+    "provenance": "Syntetiskt medieinnehåll för test; ingen arkivbild."
+  },
+  "decision": {
+    "simple": "Rätta endast S-A.title till Provförsamlingen.",
+    "complex": "R-B.locator ska bli folio 20, rad 3, utflyttning nr 17. Lägg till nytt helbildsmedium med region helbild och behåll utsnittet. O-B och F-B ska ange 1930-10-23, rådatum 23/10 1930. Bevara alla andra uppgifter och F-B-förbehållet. Pröva och stäng båda väntande följdprövningarna individuellt eftersom respektive sakuppgift nu rättas. F-OWNER och personkärnan får inte ändras."
+  }
+}

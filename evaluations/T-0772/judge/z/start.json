@@ -1,0 +1,20 @@
+{
+  "task": "z",
+  "argv": [
+    "codex",
+    "exec",
+    "-m",
+    "gpt-6-astra",
+    "-c",
+    "model_reasoning_effort=\"medium\"",
+    "-s",
+    "workspace-write",
+    "-C",
+    "/Users/sverker/repos/slaktforsk/evaluations/T-0772/judge/z",
+    "--json",
+    "-o",
+    "/Users/sverker/repos/slaktforsk/evaluations/T-0772/judge/z/last-message.txt",
+    "Du är en blind sakgranskare i ett fryst modelltest (T-0772, samma uppgift och\nrubrik som T-0769). Du bedömer anonymiserade svar med slump-ID `Cnnn`. Du vet\ninte vilken modell, inställning eller körning ett svar kommer från och ska\ninte försöka ta reda på det.\n\nLäs endast filerna som listas nedan. Läs inte `runs/`, `logs/`,\n`runs-telemetry/`, `schedule.json`, `measurements.json`, `audit.json`,\n`blind-map.private.json`, `blind-manifest.json`, andra uppgifters\nblindkataloger, någon fil under `evaluations/T-0769/` utöver de listade,\ngit-historik, sessionsloggar eller projektets forskningsdata. Använd inte nätverk\neller subagenter. Ändra inga befintliga filer; skriv endast i din\narbetskatalogs `out/`.\n\nAutomatiska förkontroller (`scores/Cnnn.auto.json`) är schema- och\navvikelselistor, inte facit. Alternativa giltiga svar får inte underkännas\nav strängmatchning. Bedömningsstandarden avgör redan prövade gränsfall;\nden ersätter inte din egen prövning av varje svar. Bedöm varje svar\nindividuellt och i sin helhet, med konkret motivering per objekt/fält.\n\nDetta är AI-granskning, inte mänskligt certifierat facit. Avsluta med att\nprogrammatiskt kontrollera dina utfiler (alla ID finns, giltig JSON, rätt\nantal poster, poängsumma och pass-regel konsekventa) och svara sedan endast\n`Klart` eller ett kort konkret hinder.\n\n## Uppgift Z – blind sakgranskning av ändringspaket\n\nLäs:\n- `/Users/sverker/repos/slaktforsk/evaluations/T-0769/z/public/TASK.md` och `/Users/sverker/repos/slaktforsk/evaluations/T-0769/z/public/input.json` (särskilt\n  `pendingReviews`),\n- `/Users/sverker/repos/slaktforsk/evaluations/T-0769/z/private/RUBRIC.md` (fryst rubrik; kör inte evaluatorn själv,\n  resultatet finns i auto-filerna),\n- `/Users/sverker/repos/slaktforsk/evaluations/T-0772/judge/STANDARD-Z.md` (fastställd bedömningsstandard),\n- varje `/Users/sverker/repos/slaktforsk/evaluations/T-0772/blind/z/Cnnn.json` i sin helhet och motsvarande\n  `/Users/sverker/repos/slaktforsk/evaluations/T-0772/scores/Cnnn.auto.json` (verklig införsel i engångsdatabas).\n\nSkriv för varje svar `out/Cnnn.final.json`:\n\n```json\n{\"task\":\"z\",\"passed\":true,\"score\":15,\"maxScore\":15,\"critical_errors\":[],\n \"manual_pass\":true,\n \"manual_checks\":[{\"object\":\"operation.reason\",\"accepted\":true,\"reason\":\"...\"}],\n \"notes\":[\"...\"],\"material_pass\":true,\"formatting_only_failure\":false}\n```\n\n`manual_checks` omfattar operation.reason, rationale för S-A, R-B, O-B, F-B,\nvarje resolve (`resolve:<objekt>:<request>`) och `package.semantics`.\n`score`/`maxScore` kopieras från auto-filen. `passed` = automatisk 15/15 och\nmanual_pass. `material_pass` och `formatting_only_failure` enligt standarden.\n\nSkriv sist `out/judge-report.md`: vad du läste, sakfel som automatiken inte\nfångade, gränsfall och en tabell Cnnn | auto/15 | manuellt | godkänd |\nmateriellt.\n"
+  ],
+  "start": "2026-09-27T17:37:09.659958+00:00"
+}

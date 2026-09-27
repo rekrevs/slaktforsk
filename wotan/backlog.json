@@ -1,6 +1,6 @@
 {
   "version": "2.1.0",
-  "next_id": 770,
+  "next_id": 773,
   "tasks": [
     {
       "id": "T-0673",
@@ -8032,6 +8032,16 @@
       "size": "L",
       "summary": "Kontrollerat modelltest: 60 oberoende försök för källäsning, följdprövning och ändringspaket",
       "note": "60/60 isolerade försök avslutade; blind sakgranskning, native tester och kostnadsproxy bevarade i evaluations/T-0769/report.md. Begränsningar och känslighetsanalyser redovisade. Ordinarie forskning T-0675/T-0676 fortsatt pausad."
+    },
+    {
+      "id": "T-0772",
+      "status": "DONE",
+      "size": "L",
+      "after": [
+        "T-0769"
+      ],
+      "summary": "Opus 5.5-replikering av T-0769:s modelltest (X/Y/Z, medium och xhigh)",
+      "note": "30/30 Opus 5.5-försök (medium/xhigh × X/Y/Z × 5) på T-0769:s frysta paket, blind Astra-granskning med 11/11 exakt kalibrering. Strikt X 0/5+0/5 (alla på säker 1901 5/3 utan reservation, inga radfel), Y 0/5+0/5 (F5; utan F5 5/5+5/5), Z 5/5+5/5. Rapport evaluations/T-0772/report.md. Ingen modellregel ändrad (ägarbeslut: ingen policyändring); ingen forskningsändring, dashboard eller push."
     }
   ]
 }

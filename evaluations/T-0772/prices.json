@@ -1,0 +1,16 @@
+{
+  "checked": "2026-09-27",
+  "unit": "USD per million tokens, Anthropic first-party standard list price",
+  "sources": [
+    "Claude API skill model table (cached 2026-06-24): claude-opus-5-5 $4 input, $20 output, cache reads $0.20",
+    "Cache write multipliers 1.25x (5 min) and 2x (1 h) of input; pilot 2026-09-27 reproduced Claude Code total_cost_usd 0.1242166 exactly with these rates"
+  ],
+  "claude-opus-5-5": {
+    "input": 4.0,
+    "output": 20.0,
+    "cache_read": 0.2,
+    "cache_write_5m": 5.0,
+    "cache_write_1h": 8.0
+  },
+  "note": "Proxy, not actual subscription billing. T-0769 OpenAI rates are in evaluations/T-0769/prices.json."
+}

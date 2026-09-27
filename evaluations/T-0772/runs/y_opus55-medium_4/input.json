@@ -1,0 +1,152 @@
+{
+  "nature": "Fryst syntetiserat mikrofall baserat på verkliga feltyper i T-0675. Identifierarna är lokala test-ID, inga liveobjekt.",
+  "new_evidence": [
+    {
+      "id": "R1@2",
+      "text": "Fastställd ny avskrift: Ebba, utflyttning 1930 23/10. Betygsnummer 20 står i separat kolumn. Inget om faderskap."
+    },
+    {
+      "id": "R2@2",
+      "text": "Ny bildprövning: Ludvig födelseår 1901, månad 3, dag föredras 31 men 5 kan inte uteslutas. Hälsokolumnen på hans egen rad är läst och tom. Ingen annan hälsotäckning. Identiteten är fortsatt säker via hushållskedjan; inget nytt motbelägg till R7."
+    },
+    {
+      "id": "I2@1",
+      "text": "Indexet anger 1901-03-05 och är avskrivet direkt från samma R2; alltså inte en oberoende registreringskedja."
+    },
+    {
+      "id": "G1@2",
+      "text": "Fullt gravkort: hemort Östra Husby. Ingen uppgift om fysisk dödsort. Ingen ny uppgift om familjens boende i övrigt."
+    }
+  ],
+  "policy": "Bevara historiska avskrifter och OWNER_CONFIRMED. Skilj observation från slutsats. Ett osäkert nytt datum får inte bli säkert kanoniskt datum. Behåll personkärnans datum under uttrycklig konflikt medan egen födelsepost återstår; skapa ingen ny person och ändra inga relationer. Sakligt opåverkad identitetsgrind behålls, inget nytt livsbildsgodkännande. Pröva varje request individuellt. Även fri text behöver sakprövning. För detta uppdrag ska alla listade requests avslutas med motiverat beslut; den öppna sakfrågan kan bevaras i research.",
+  "objects": [
+    {
+      "id": "O1",
+      "type": "observation",
+      "version": 2,
+      "text": "Ebbas utflyttningsdatum i R1 anges 1930-10-22.",
+      "support": "R1@1",
+      "request": "q1"
+    },
+    {
+      "id": "F1",
+      "type": "fact",
+      "version": 3,
+      "text": "Ebba flyttade 22 oktober 1930 enligt R1.",
+      "support": "O1@2",
+      "request": "q2"
+    },
+    {
+      "id": "Q1",
+      "type": "research",
+      "version": 4,
+      "text": "Vilken dag i oktober flyttade Ebba? Källan R1 är ännu oläst.",
+      "support": "text_only",
+      "request": null
+    },
+    {
+      "id": "K1",
+      "type": "research",
+      "version": 1,
+      "text": "Sök inflyttningspost efter 22 oktober 1930; utflyttningsdatum okänt.",
+      "support": "text_only",
+      "request": null
+    },
+    {
+      "id": "H1",
+      "type": "historical",
+      "version": 1,
+      "text": "Historisk logg: 22 oktober lästes preliminärt i den första granskningen. Senare läsning ersätter detta.",
+      "support": "provenance_only",
+      "request": null
+    },
+    {
+      "id": "N1",
+      "type": "fact",
+      "version": 1,
+      "text": "En annan Ebba, född 1880 och bosatt i Kalmar, avled 1930-10-22 enligt R9.",
+      "support": "R9@1",
+      "request": null
+    },
+    {
+      "id": "F2",
+      "type": "fact",
+      "version": 2,
+      "text": "Enligt ägarens uttryckliga bekräftelse var Ebbas far Johan. OWNER_CONFIRMED.",
+      "support": "OWNER_DECISION@1",
+      "request": "q3"
+    },
+    {
+      "id": "P1",
+      "type": "person",
+      "version": 1,
+      "text": "Ebbas personkärna: född 1901-05-03. Detta beslut stöds av egen födelsepost R8.",
+      "support": "R8@1",
+      "request": null
+    },
+    {
+      "id": "O2",
+      "type": "observation",
+      "version": 1,
+      "text": "Ludvigs födelsedag återges som 1901-03-05 i R2.",
+      "support": "R2@1",
+      "request": "q4"
+    },
+    {
+      "id": "F3",
+      "type": "fact",
+      "version": 1,
+      "text": "R2 och dess senare registerutdrag I2 är två oberoende belägg för Ludvigs födelse 1901-03-05.",
+      "support": "R2@1,I2@1",
+      "request": "q5"
+    },
+    {
+      "id": "Q2",
+      "type": "research",
+      "version": 1,
+      "text": "Ludvigs födelsedag är säkert avgjord, egen födelsebok behöver inte sökas.",
+      "support": "text_only",
+      "request": null
+    },
+    {
+      "id": "P2",
+      "type": "person",
+      "version": 3,
+      "text": "Ludvigs kanoniska födelsedatum är 1901-03-05. R2 är stöd; egen födelsepost är oläst.",
+      "support": "R2@1",
+      "request": "q6"
+    },
+    {
+      "id": "O3",
+      "type": "observation",
+      "version": 1,
+      "text": "Hälsokolumnen på Ludvigs egen rad i R2 är tom.",
+      "support": "R2@1",
+      "request": "q7"
+    },
+    {
+      "id": "F4",
+      "type": "fact",
+      "version": 1,
+      "text": "Ludvig var frisk under hela livet eftersom hälsokolumnen i R2 är tom.",
+      "support": "O3@1",
+      "request": "q8"
+    },
+    {
+      "id": "A1",
+      "type": "assessment",
+      "version": 1,
+      "text": "Identitetsgranskning passed och tree_effect supporting är motiverade av obruten hushållskedja R7, inte exakt födelsedag. Livsbild är ej bedömd.",
+      "support": "R7@1",
+      "request": "q9"
+    },
+    {
+      "id": "F5",
+      "type": "fact",
+      "version": 1,
+      "text": "Familjen bodde i Östra Husby. Hemort på gravkort G1 visar också att modern dog fysiskt där.",
+      "support": "G1@1",
+      "request": null
+    }
+  ]
+}
