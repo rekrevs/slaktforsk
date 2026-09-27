@@ -1,0 +1,30 @@
+{
+  "task": "T-0677",
+  "reviewer": "root/Astra",
+  "state": "CANONICAL_APPLY_AUTHORIZED_EXACT_HASH",
+  "operation_path": "genealogy2/verification/T-0677/c0002-combined-preliminary-operation-20260924.json",
+  "operation_sha256": "c04c29a0d97570e61dffe37cbf78694b3a331ab309205befac7aeddd67576932",
+  "basis": [
+    "c0002-root-combined-fieldcheck-20260924.json",
+    "c0002-root-source-followup-acceptance-20260924.json",
+    "c0002-root-evidence-rebase-decision-20260924.json",
+    "c0002-preliminary-temp-preflight-summary-20260924.json"
+  ],
+  "final_review": {
+    "objects": 86,
+    "creates": 7,
+    "revisions": 79,
+    "approved_followup_fields_checked": 68,
+    "followup_field_mismatches": 0,
+    "source_data_exceptions": "Only two approved audit/adoption knowledge-text corrections; all other approved source typed fields exact.",
+    "evidence": "All delta patterns reviewed;10 M raw updates,10 O exact M@2bindings,EP2/4 structuralbindings,16 exactTRreuse supports,only2 explicitly scoped residenceR rebases. All origins preserved.",
+    "temp_validation": "verify,verify-assets,verify-source pass before final two nonstructural body text corrections; exact delta reviewed.",
+    "unchanged": "No person, identity, relation, event or review gate update."
+  },
+  "conditions": [
+    "Before apply exact byte hash, canonical j180 and pending0 must still match.",
+    "Preserve full apply result and actual pending payloads.",
+    "No resolve until actual request/object/version/data matched to root individual decisions."
+  ],
+  "pending_decision_file": "c0002-root-pending-substantive-decisions-20260924.json"
+}

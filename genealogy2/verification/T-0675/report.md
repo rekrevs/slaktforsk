@@ -1,6 +1,6 @@
 # T-0675: avgränsad originalrevision G023
 
-Sakgranskad slutrapport under verifiering, 2026-09-18. Journal119–156 omfattar38operationer,577ändringar och547individuella följdbeslut. Kunskaps- och omfångsavstämningen är klar; full regressionssvit kör fortfarande, varför Wotan ännu stårVERIFYING.
+Sakgranskad slutrapport, slutförd 2026-09-20. Journal119–156 omfattar38operationer,577ändringar och547individuella följdbeslut. Kunskaps- och omfångsavstämningen är klar; AK1–5 är uppfyllda och Wotan står DONE.
 
 ## Fast omfattning och resultatets räckvidd
 
@@ -97,7 +97,7 @@ Tabellen använder de införda auditernas egna utfallsord. `partial` och motsvar
 
 ## Journal och individuell följdprövning
 
-Journal119–154 är förtecknade med operation-id i coverage.json. Införandena är skilda från efterföljande individuella beroendebeslut. Exempelvis avser149 DN,150 gravarnas första följder,151 index,152 gravarnas andra följder och154 Kalmars första följder. Ett ändrat underlag har inte automatiskt inneburit omskrivning av alla beroenden; bibehållna påståenden har sakliga, objektspecifika motiv i respektive resolve och ledger.
+Journal119–156 är förtecknade med operation-id i coverage.json. Införandena är skilda från efterföljande individuella beroendebeslut. Exempelvis avser149 DN,150 gravarnas första följder,151 index,152 gravarnas andra följder och154 Kalmars första följder. Ett ändrat underlag har inte automatiskt inneburit omskrivning av alla beroenden; bibehållna påståenden har sakliga, objektspecifika motiv i respektive resolve och ledger.
 
 Journal155 `T-0675/Kalmar1930-followup2-v1` införde1bevarandecaveat och12individuella resolve. Journal156 `T-0675/degerfors1064-fiftyeight-followup-v1` införde24rättelser och58resolve. Aktuellt pending0 är kontrollerat i databasen. Rooten granskade paketen mot egna råfält och bevaradT0177anmälan; Gerdas17september1909antogs som källrapporterad dag efter avskriftsrättelse, med egen födelsepost fortsattoläst. Militärnummer/år som inte längre bärs säkert är null med bevarade råalternativ. Exakta paket/ledgers och bindningar framgår av journal och coverage.
 
@@ -109,4 +109,30 @@ Senaste körning genom156 gav50/50 med strukturell täckning, pending0 och inga 
 
 KontrollerPASS: verify,verify-assets,verify-source; äldre67tester; arkivvalidator5130assertions/3035Markdown/5065medier; manifest5064filer;git diff--check. Inventeringen oförändrad511aktiva/536totala,199identitetsgodkända,51bärande/51grindpasserade. Verifierade pedigreevägar/kanter och grindutfall är oförändrade; bedömningstexternas revisioner har uppdaterats. final-model-guard.json visar40personkärnor oförändrade, inga person- eller relationsrevisioner och inga OWNER_CONFIRMEDändringar.
 
-Återstår: den redan pågående fulla native-regressionssvitens slututfall före WotanDONE. Ingen testkörning kallas godkänd i förväg.
+Den fulla native-regressionssviten passerade 133/133 tester med exitkod0. Full logg finns i [native-tests-20260920T063415Z.log](native-tests-20260920T063415Z.log) och det lästa slutresultatet i [native-tests-20260920T063415Z-result.json](native-tests-20260920T063415Z-result.json). Pausens ursprungliga `native-tests.log` förblir en bevarad dellogg och räknas inte som slutresultat.
+
+## Slutavstämning vid återstart 2026-09-20
+
+Astra har stämt av den sparade sakgranskningen mot aktuella auditutfall,
+reservationer, manifesttäckning, journal och följduppgifter. Ingen ny
+originalpassage eller omprövning av de 547 avslutade följdbesluten har gjorts.
+
+| Acceptanskriterium | Avstämning |
+|---|---|
+| AK1: alla tilldelade enheter och stödyta | Uppfyllt inom det låsta omfånget: 50 poster, 24 citationer och 35 importerade assets. Alla har införda audit-/avskriftsobjekt och bevarade ursprungsmedier. Reservationer och lästa omfång kvarstår enligt de individuella utfallen ovan. |
+| AK2: delade bilder och egna påståenden | Uppfyllt: coverage binder egna målposter och korsreferensägare; ingen bildlänk räknas som godkännande av en annan rad eller hel citation. Kontroll av 38 bevarade läslås gav inga hashfel. |
+| AK3: rättelser och individuella följder | Uppfyllt enligt bevarad sak- och följdgranskning i journal 119–156: 38 operationer, 577 ändringar och 547 individuella resolve. Inga väntande requests. Personkärnor, relationer och OWNER_CONFIRMED har inte reviderats inom uppgiften. |
+| AK4: rester med ändliga ägare | Uppfyllt inom revisionsomfånget. Följdägartabellen ovan är avstämd mot Wotan; bland annat T-0768 äger Villys födelsekonflikt, T-0230/T-0232 egna gravkort utöver redan bevarade listor och de angivna syskonuppgifterna Degerforsföljderna. Ingen person eller gren kallas färdig därigenom. |
+| AK5: slutverifiering | Uppfyllt: verify, verify-assets, verify-source, arkivvalidator, 67 äldre tester och mediemanifest passerar även vid återstart. Nativefullsviten passerade 133/133 med exitkod0; full logg och separat resultat finns i `native-tests-20260920T063415Z.log` respektive `native-tests-20260920T063415Z-result.json`. |
+
+Inventeringens separata mått och P-0269:s fulla verifierade pedigree-JSON
+är identiska med sparade slutvyer. Coverage är återkörd genom journal 156
+utan fel; den redan bedömda historiska TR–R-bindningen är oförändrad.
+Vissa införda audittexter återger förslagsstadiets formulering att apply/
+följdgranskning återstod. De är daterat underlag från respektive operation;
+den genomförda effekten och aktuellt utförandeläge framgår av senare journal,
+resolve och Wotan. Formuleringarna återaktiverar inte avslutade passager.
+
+Nya loggar: `legacy-validator-resume-20260920.log`,
+`legacy-tests-resume-20260920.log`, `media-check-resume-20260920.log`.
+Pausens ursprungliga native-dellogg är bevarad och räknas inte som PASS.

@@ -1,0 +1,666 @@
+{
+  "task": "T-0676",
+  "date": "2026-09-24",
+  "kind": "Astra minimal P0212 owner-name follow-up decisions; no apply",
+  "decision": "APPROVE_BOUNDED_OWNER_NAME_WITH_EXPLICIT_FOLLOWUPS",
+  "basis_sha256": {
+    "graves-six-followup-decisions-v2-20260924.json": "93d581cc19827ce4f89646b0cd790f43b37d747afd8f2b71ca63787f920e71b7"
+  },
+  "decision_authority": "PROJECT-CONTROL.md#PCD-2026-09-24-001",
+  "scope": "Namnet Gunnar Ivar Emanuel Höök och dess aktuella tolkningskopior. V2:s övriga gravkort, syskon och livsdata är inte omprövade i denna review.",
+  "new_fact": {
+    "object_id": "F-P-0212-name-owner-confirmed",
+    "expected_version": null,
+    "kind": "fact",
+    "data": {
+      "subject_id": "P-0212",
+      "property": "name",
+      "value_type": "text",
+      "value_json": "\"Gunnar Ivar Emanuel Höök\""
+    },
+    "metadata": {
+      "disposition": "accepted",
+      "evidence_status": "OWNER_CONFIRMED",
+      "rationale": "PCD-2026-09-24-001 tillämpar ägarens stående regel på den uttryckliga rättelsen 2026-08-22 bevarad i S-0213/C-0268 och tidigare A-1721. Endast namnuppgiften antas som sann projektinformation.",
+      "caveat": "Avgränsat namn-faktum. Källornas Ivar Gunnar Emanuel bevaras i jämförelsefaktumet med CONFLICT; avvikelsens uppkomst och gravregistrets administrativa beroende förblir öppna. Beslutet är inget nytt ägarbesked 2026-09-24 och ändrar inte andra livsdata, syskon, personidentitet eller PK-/trädstatus."
+    },
+    "evidence": [
+      {
+        "basis_revision_id": "O-P-0212-C0268-own@1",
+        "role": "supports",
+        "note": "Enbart den uttryckliga namnuppgiften i den sammansatta ägarobservationen; övriga livsdata och syskon får ingen ny bedömning."
+      }
+    ],
+    "implementation": "Översätt till giltig fact-schema enligt befintlig apply-väg; kontrollera frånvaro av id före skapande. PCD är beslutsproveniens i rationale, inte en påhittad native evidensrevision. Behåll relevant befintlig namnproveniens från C0268/A1721 utan att tillskriva ny bedömning åt övriga observationer."
+  },
+  "changes": [
+    {
+      "object_id": "BIO-P-0212",
+      "expected_version": 4,
+      "revision": "BIO-P-0212@4",
+      "field": "markdown",
+      "base": "current native field",
+      "before": "Tilltalsnamnet Gunnar är ostridigt, och ordningsfrågan bevaras olöst; hur oberoende de två leden är prövas i profilens Q-03.",
+      "after": "Gunnar Ivar Emanuel Höök är OWNER_CONFIRMED projektuppgift enligt ägarens uttryckliga rättelse 2026-08-22, bevarad i C-0268/S-0213 och tillämpad genom PCD-2026-09-24-001. Tilltalsnamnet Gunnar är ostridigt. Källornas Ivar Gunnar Emanuel bevaras ordagrant; avvikelsens historiska uppkomst och de två ledens administrativa beroende är fortsatt öppna i Q-03.",
+      "match_count": 1,
+      "reason": "Projektets namnuppgift är inte längre oavgjord, men dokumentär avvikelse består.",
+      "retain_all_other_fields_and_metadata": true
+    },
+    {
+      "object_id": "RESEARCH-P-0212-9d76f0343410",
+      "expected_version": 2,
+      "revision": "RESEARCH-P-0212-9d76f0343410@2",
+      "field": "body",
+      "base": "current native field",
+      "before": "Konflikten är inte identitetsbärande — tilltalsnamnet Gunnar, datumet,\nföräldrarna och dödsdatumet är gemensamma i alla led — men den är inte\navgjord och registreras som Q-03.",
+      "after": "Ägarens namnuppgift Gunnar Ivar Emanuel Höök är OWNER_CONFIRMED enligt\nPCD-2026-09-24-001; beslutet tillämpar den bevarade rättelsen från\n2026-08-22 och är inget nytt ägarbesked. Den dokumentära avvikelsen är\ninte identitetsbärande — tilltalsnamnet Gunnar, datumet, föräldrarna och\ndödsdatumet är gemensamma i alla led. Dess uppkomst och källberoenden\när fortsatt öppna och registreras som Q-03.",
+      "match_count": 1,
+      "reason": "Konsoliderad identitetsbedömning ska uttryckligen skilja accepterad ägarkunskap från dokumentärt olöst namnordning.",
+      "retain_all_other_fields_and_metadata": true
+    },
+    {
+      "object_id": "THEME-P-0212-ID",
+      "expected_version": 1,
+      "revision": "THEME-P-0212-ID@1",
+      "field": "body",
+      "base": "current native field",
+      "before": "Kvar är enbart namnordningen som bevarad konflikt, inte som identitetsosäkerhet.",
+      "after": "Gunnar Ivar Emanuel Höök är OWNER_CONFIRMED projektuppgift enligt PCD-2026-09-24-001. Källornas Ivar Gunnar Emanuel kvarstår som dokumentär avvikelse med oprövad uppkomst och administrativa beroenden, inte som identitetsosäkerhet.",
+      "match_count": 1,
+      "reason": "ID-temats GENOMGÅNGET och personidentiteten består; namnuppgiftens nya kunskapsmärkning ska synas.",
+      "retain_all_other_fields_and_metadata": true
+    },
+    {
+      "object_id": "KEY-P-0212-ec3ace4eea5f",
+      "expected_version": 1,
+      "revision": "KEY-P-0212-ec3ace4eea5f@1",
+      "field": "body",
+      "base": "current native field",
+      "before": "Källornas namnordning; sök alltid även på familjens `Gunnar Ivar Emanuel`.",
+      "after": "Källornas namnordning bevaras som register- och indexnyckel. Sök även på `Gunnar Ivar Emanuel`, som är OWNER_CONFIRMED projektuppgift enligt PCD-2026-09-24-001. Båda formerna behövs för återfinning; källberoendet och avvikelsens uppkomst är fortsatt oprövade.",
+      "match_count": 1,
+      "reason": "Ägarbekräftad form är mer än en obestämd familjevariant; motstridig råform är fortsatt användbar söknyckel.",
+      "retain_all_other_fields_and_metadata": true
+    },
+    {
+      "object_id": "F-P-0212-name_form-source_comparison",
+      "expected_version": 1,
+      "revision": "F-P-0212-name_form-source_comparison@1",
+      "field": "caveat",
+      "base": "current native field",
+      "before": "Visningsnamn enligt familjen; ordningsfrågan avgörs inte genom antal källor. Gravregistrets administrativa beroende är oprövat.",
+      "after": "Gunnar Ivar Emanuel Höök är OWNER_CONFIRMED projektuppgift enligt PCD-2026-09-24-001 och det separata namn-faktumet. Detta jämförelsefaktums CONFLICT och order_conflict_unresolved avser den kvarstående dokumentära avvikelsen, dess uppkomst och oprövade administrativa beroende; de ifrågasätter inte ägarbeslutets giltighet. Källornas råformer bevaras. Ingen ordningsfråga avgörs genom antal källor.",
+      "match_count": 1,
+      "reason": "Behåll hela value_json, CONFLICT och befintlig evidens. Precisera endast den olösta flaggans omfång.",
+      "retain_all_other_fields_and_metadata": true
+    },
+    {
+      "object_id": "F-P-0212-rejected_claim-A1479",
+      "expected_version": 1,
+      "revision": "F-P-0212-rejected_claim-A1479@1",
+      "field": "caveat",
+      "base": "current native field",
+      "before": "Avvisandet gäller hela gamla påståendet, inte en radering av namnets verkliga källförekomst.",
+      "after": "Avvisandet gäller hela gamla påståendet, inte en radering av namnets verkliga källförekomst. name_order_still_unresolved återger den historiska/dokumentära ordningsfrågan i det avvisade sammansatta påståendet; den upphäver inte OWNER_CONFIRMED Gunnar Ivar Emanuel Höök enligt PCD-2026-09-24-001. Den accepterade födelsedagen och avvisandet av den gamla Lidingöuppgiften ändras inte av namnbeslutet.",
+      "match_count": 1,
+      "reason": "Det enda registrerade beroendet av jämförelsefaktumet är ett avvisat sammansatt påstående. Dess historiska data och REJECTED bevaras med preciserad flaggbetydelse.",
+      "retain_all_other_fields_and_metadata": true
+    },
+    {
+      "object_id": "P-0212/Q-03",
+      "expected_version": 1,
+      "revision": "P-0212/Q-03@1",
+      "field": "body",
+      "base": "v2 afterData",
+      "before": "namnordningen styr sökning i register och index och avgör hur personen ska skrivas i antavlan.",
+      "after": "namnformerna styr sökning i register och index. Projektets namn är Gunnar Ivar Emanuel Höök enligt OWNER_CONFIRMED och PCD-2026-09-24-001; denna fråga gäller den dokumentära avvikelsens uppkomst och källornas beroende.",
+      "match_count": 1,
+      "reason": "V2 rättar ägarförnekandet men första stycket lämnar ännu projektets antavlenamn beroende av den öppna dokumentära frågan.",
+      "retain_all_other_fields_and_metadata": true
+    },
+    {
+      "object_id": "P-0212/Q-03",
+      "expected_version": 1,
+      "revision": "P-0212/Q-03@1",
+      "field": "body",
+      "base": "v2 afterData",
+      "before": "Det som skulle avgöra frågan är en handling där namnet förts in av honom själv eller på hans egen anmälan:",
+      "after": "En handling där namnet förts in av honom själv eller på hans egen anmälan kan belysa den dokumentära avvikelsen och dess uppkomst:",
+      "match_count": 1,
+      "reason": "En framtida handling är inte villkor för att godta redan ägarbekräftad projektkunskap.",
+      "retain_all_other_fields_and_metadata": true
+    }
+  ],
+  "retains": [
+    {
+      "revision": "P-0212@2",
+      "object_id": "P-0212",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Visningsnamnet är redan Gunnar Ivar Emanuel Höök. Personens CORROBORATED, kön, identitet och separata namnkonflikt ska inte heluppgraderas till OWNER_CONFIRMED."
+    },
+    {
+      "revision": "O-P-0212-C0268-own@1",
+      "object_id": "O-P-0212-C0268-own",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Råobservationen innehåller namn tillsammans med livsdata och syskon. Behåll TRANSCRIBED och hela råvärdet; enbart namnet får stödja det nya avgränsade ägarfaktumet."
+    },
+    {
+      "revision": "M-P-0212-C0268-own@1",
+      "object_id": "M-P-0212-C0268-own",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Ägaruppgiftens egna rånamn och befintliga personkoppling är redan riktiga; inget nytt omnämnande behövs."
+    },
+    {
+      "revision": "P-0212/Q-01@2",
+      "object_id": "P-0212/Q-01",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Födelsefrågan är uttryckligen skild från Q03. Namnbeslutet ändrar inga datum, föräldrar eller platsutfall."
+    },
+    {
+      "revision": "P-0212/Q-02@1",
+      "object_id": "P-0212/Q-02",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Frågan om fortsatt liv/yrkesväg avgörs inte av namnordningens ägarklassning; inga nya livsdata tillkommer."
+    },
+    {
+      "revision": "PATH-P-0212-KP-04@1",
+      "object_id": "PATH-P-0212-KP-04",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Den olästa fortsättningsraden kan fortfarande belysa namnformens dokumentära historia och livsluckan. Båda namnformer som ingång består; ingen åtkomst eller utförandestatus ändras."
+    },
+    {
+      "revision": "PATH-P-0212-KP-05@1",
+      "object_id": "PATH-P-0212-KP-05",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Analoga yrkes-/kommunkällors livsfrågor och åtkomstgränser avgörs inte av ägarens namn. Dubbel namnnyckel kan fortsatt användas."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-01@1",
+      "object_id": "CONTRACT-P-0212-PK-01",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "En person och åtskilda kandidater påverkas inte; STYRKT är tidigare bedömning, inte nytt helgodkännande."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-07@1",
+      "object_id": "CONTRACT-P-0212-PK-07",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Dubbla namnordningen är korrekt söknyckel även efter ägarbekräftelsen; PK-utfallet ändras inte."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-09@1",
+      "object_id": "CONTRACT-P-0212-PK-09",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Analys utan rösträkning och bevarade beroenden är förenliga med ägarbeslutet. Varken familjeuppgift eller register blir oberoende extra röster."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-11@1",
+      "object_id": "CONTRACT-P-0212-PK-11",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Historiska namn-/datumrättelsers spårbarhet består; namnbeslutet raderar inga ursprung."
+    },
+    {
+      "revision": "ASSESSMENT-P-0212@1",
+      "object_id": "ASSESSMENT-P-0212",
+      "fields": "alla oförändrade utöver ovan uttryckliga ändringar",
+      "decision": "retain",
+      "reason": "Profilens rubrik har redan rätt namn. Identitets-/träd-/kontraktsutfallen ska inte ändras genom det avgränsade ägarbeslutet."
+    },
+    {
+      "revision": "P-0212/Q-01@2",
+      "object_id": "P-0212/Q-01",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga.\nT-0675 AK3: specifik textkopia preciserad efter avgränsad original- och modelljämförelse. Ingen ny identitets-/livsbildsgranskning."
+    },
+    {
+      "revision": "P-0212/Q-02@1",
+      "object_id": "P-0212/Q-02",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "P-0212/Q-03@1",
+      "object_id": "P-0212/Q-03",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-ARB@1",
+      "object_id": "THEME-P-0212-ARB",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-BO@2",
+      "object_id": "THEME-P-0212-BO",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga.\nT-0675 AK3: specifik textkopia preciserad efter avgränsad original- och modelljämförelse. Ingen ny identitets-/livsbildsgranskning."
+    },
+    {
+      "revision": "THEME-P-0212-EKO@1",
+      "object_id": "THEME-P-0212-EKO",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-HAL@1",
+      "object_id": "THEME-P-0212-HAL",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-ID@1",
+      "object_id": "THEME-P-0212-ID",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-MIL@1",
+      "object_id": "THEME-P-0212-MIL",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-PER@2",
+      "object_id": "THEME-P-0212-PER",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-REL@1",
+      "object_id": "THEME-P-0212-REL",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-SAM@1",
+      "object_id": "THEME-P-0212-SAM",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "THEME-P-0212-SYN@1",
+      "object_id": "THEME-P-0212-SYN",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-01@1",
+      "object_id": "CONTRACT-P-0212-PK-01",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-02@1",
+      "object_id": "CONTRACT-P-0212-PK-02",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-03@1",
+      "object_id": "CONTRACT-P-0212-PK-03",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-04@1",
+      "object_id": "CONTRACT-P-0212-PK-04",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-05@1",
+      "object_id": "CONTRACT-P-0212-PK-05",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-06@1",
+      "object_id": "CONTRACT-P-0212-PK-06",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-07@1",
+      "object_id": "CONTRACT-P-0212-PK-07",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-08@1",
+      "object_id": "CONTRACT-P-0212-PK-08",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-09@1",
+      "object_id": "CONTRACT-P-0212-PK-09",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-10@1",
+      "object_id": "CONTRACT-P-0212-PK-10",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-11@1",
+      "object_id": "CONTRACT-P-0212-PK-11",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "CONTRACT-P-0212-PK-12@1",
+      "object_id": "CONTRACT-P-0212-PK-12",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "PATH-P-0212-KP-01@1",
+      "object_id": "PATH-P-0212-KP-01",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "PATH-P-0212-KP-02@1",
+      "object_id": "PATH-P-0212-KP-02",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "PATH-P-0212-KP-03@1",
+      "object_id": "PATH-P-0212-KP-03",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "PATH-P-0212-KP-04@1",
+      "object_id": "PATH-P-0212-KP-04",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "PATH-P-0212-KP-05@1",
+      "object_id": "PATH-P-0212-KP-05",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "KEY-P-0212-045df6eef4e9@2",
+      "object_id": "KEY-P-0212-045df6eef4e9",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga.\nT-0675 AK3: specifik textkopia preciserad efter avgränsad original- och modelljämförelse. Ingen ny identitets-/livsbildsgranskning."
+    },
+    {
+      "revision": "KEY-P-0212-0767ee81003f@1",
+      "object_id": "KEY-P-0212-0767ee81003f",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "KEY-P-0212-3bf344f73ec9@1",
+      "object_id": "KEY-P-0212-3bf344f73ec9",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "KEY-P-0212-3f8a3c1da18e@1",
+      "object_id": "KEY-P-0212-3f8a3c1da18e",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "KEY-P-0212-475e845a848f@1",
+      "object_id": "KEY-P-0212-475e845a848f",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "KEY-P-0212-7757971504a6@1",
+      "object_id": "KEY-P-0212-7757971504a6",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "KEY-P-0212-931ae664cadb@1",
+      "object_id": "KEY-P-0212-931ae664cadb",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "KEY-P-0212-a4b74eedf631@1",
+      "object_id": "KEY-P-0212-a4b74eedf631",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "KEY-P-0212-ec3ace4eea5f@1",
+      "object_id": "KEY-P-0212-ec3ace4eea5f",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "ASSESSMENT-P-0212@1",
+      "object_id": "ASSESSMENT-P-0212",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga."
+    },
+    {
+      "revision": "RESEARCH-P-0212-9d76f0343410@2",
+      "object_id": "RESEARCH-P-0212-9d76f0343410",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga.\nT-0675: Kyrkobok/gravregister kan återge samma administrativa namnled; namnordningskonflikten och ägarens form bevaras utan rösträkning."
+    },
+    {
+      "revision": "BIO-P-0212@4",
+      "object_id": "BIO-P-0212",
+      "fields": [
+        "caveat"
+      ],
+      "decision": "retain_unless_explicit_update_above_or_existing_v2",
+      "reason": "Denna aktuella caveat beskriver bevarad råkonflikt och oprövat gravregisterberoende, inte ett förnekande av OWNER_CONFIRMED. Behåll dess övriga personbundna begränsningar; den kompletterande namnklassningen ligger i eget faktum och de uttryckligen namntolkande texterna.",
+      "reviewed_caveat": "Hela akten351r/profilen259r och samtliga aktuella C0140/142/143/225/228/236/268/886/887/901–906 är lästa inklusive sena rättelser. En accepterad person, mankön explicitC0902, men IFKidrottsraden är kandidat. Namnordningskonflikten består utan rösträkning; gravregistrets beroende av folkbokföringen är oprövat. Kyrkovägen10 är odaterad, Ivars död14aug1944 gäller före kvarliggande19aug, Gunnars1951hänvisning1719 före samlingsintervallet. BostadsortFalköping är inte fysisk dödsplats; möteIbraStockholm inte vigselort/anställning. Ingen ny forskning eller insamling om levande anhöriga.\nT-0675: SCBregistreringEngelbrektförväxlasinte medpåvisad fysiskhemresa. Familjensövrigadatapunkter,minnesordochgravuppgifter omprövasinte avdennarättelse."
+    }
+  ],
+  "status_limits": [
+    "F-name-source_comparison CONFLICT och hela råjämförelsen bevaras; ingen heluppgradering till OWNER_CONFIRMED.",
+    "Q03:s OMSTRIDD behålls för dokumentär avvikelse, enligt v2; befintligt ägarförnekande ersätts redan i v2.",
+    "Övriga identitets-, relations-, PK-, träd- och livsstatusar står kvar."
+  ],
+  "verification": {
+    "current_person_read": true,
+    "native_inspect_read": "F-P-0212-name_form-source_comparison@1",
+    "impact_inputs": [
+      "F-P-0212-name_form-source_comparison --query OWNER_CONFIRMED",
+      "C-0268 --query Gunnar Ivar Emanuel"
+    ],
+    "registered_comparison_dependents": [
+      "F-P-0212-rejected_claim-A1479@1"
+    ],
+    "exact_change_anchors_checked": 8,
+    "native_apply": false,
+    "original_openings": 0,
+    "new_fact_id_absent_by_inspect": true
+  },
+  "implementation_notes": [
+    "Slå samman Q03-följderna med v2:s befintliga update och skapa endast en ny revision. Övriga sex ändrade objekt kan behöva flyttas från v2 retains till updates.",
+    "Revidera i samma operation eller bind alla nya korsreferenser till faktiska aktuella versioner; individuella pendingreviews ska prövas med sina verkliga id efter apply.",
+    "Bevara befintlig evidens/origins. Namntolkande research-/BIO-revisioner kompletteras med det nya namn-faktumets revisionsbundna stöd utan att rösträkna samma ägarrättelse.",
+    "Behåll ordningen och alla övriga stycken i originalfälten: dessa är exakta delsträngsersättningar, inte heltextrensning."
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "task": "T-0677",
+  "status": "LOCKED_INDEPENDENT_GAPS_BEFORE_COMPARISON",
+  "reader": "Astra /root/c0004_control",
+  "prior_documentary_knowledge": "Egen TR/READ- och stage1förberedelse samt accepterad gapmask kända. Root gaputfall inte läst. Inte avskriftsblind.",
+  "authorization": {
+    "file": "c0033-root-gapmask-acceptance-20260925.json",
+    "sha256": "13f088f833342c26d34530288b7c1a31cfb80d7141eb34439f7ebbd8c7147e48"
+  },
+  "record": "R-86e25c6dd1c2141e8454c02e@1",
+  "row": 2,
+  "asset": {
+    "path": "genealogy/media/C-0033-riksarkivet-SE-ULA-10257-AIIa6c-bild-136-sida-932.jpg",
+    "sha256": "ebcd0c380c4dd63a85c7d1f92541aede6f582c94aeaf0532a66916400eb853d1"
+  },
+  "controlled_units": [
+    {
+      "column": 1,
+      "scope": "partial",
+      "state": "text_and_strike_with_reservations",
+      "raw": "[prefix: fl.[?]]; Eriksson [struket]; [Ekholm återbrukas, struket?]; Jansson [tillagt ovanför]",
+      "reservation": "Prefixets tecken osäkra och oexpanderade. Eriksson föredragen råform. Jansson är ovanför baslinjen som ändrad namnform; exakt streckfördelning mellan efternamnen reserveras eftersom överstrykning och slängar överlappar. Kända Maj Amalia [Ekholm] och hela radens överstrykning återbrukas, inte ny upptäckt."
+    },
+    {
+      "column": 2,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": "Genomgående överstrykningslinje fortsätter från namnkolumnen; ingen självständig yrkes-/stam-/lytesuppgift läst."
+    },
+    {
+      "column": 6,
+      "scope": "whole",
+      "state": "mark",
+      "raw": "v",
+      "reservation": null
+    },
+    {
+      "column": 8,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 9,
+      "scope": "whole",
+      "state": "ditto_mark",
+      "raw": "[litet upprepningstecken, bågformigt/dubbelt kort drag]",
+      "reservation": "Eget tecken dokumenterat. Ingen ny läsning av moderns rad; dokumentär referens där är Hyltinge."
+    },
+    {
+      "column": 10,
+      "scope": "whole",
+      "state": "ditto_mark",
+      "raw": "[litet upprepningstecken, bågformigt/dubbelt kort drag]",
+      "reservation": "Eget tecken dokumenterat. Ingen ny läsning av moderns rad; dokumentär referens där är 33 24/4. Normalisering kräver efterföljande jämförelse, inte ny självständig datumkälla."
+    },
+    {
+      "column": 11,
+      "scope": "whole",
+      "state": "mark",
+      "raw": "k",
+      "reservation": null
+    },
+    {
+      "column": 12,
+      "scope": "whole",
+      "state": "mark",
+      "raw": "n",
+      "reservation": null
+    },
+    {
+      "column": 13,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 15,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": "Skriftspill vid vänstergränsen från kolumn14 uteslutet; ingen självständig värnpliktsanteckning."
+    },
+    {
+      "column": 16,
+      "scope": "partial",
+      "state": "text_residual",
+      "raw": "fol.",
+      "reservation": "Befintligt 860 återbrukas; fol. är prefix till samma bokhänvisning, inte fysisk resdag."
+    },
+    {
+      "column": 17,
+      "scope": "partial",
+      "state": "blank_residual",
+      "raw": null,
+      "reservation": "Inget ytterligare dag-/månadsvärde eller kvalifikator läst utöver återbrukat 38; årsvärdet inte omprövat."
+    },
+    {
+      "column": 18,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    }
+  ],
+  "accounting": {
+    "whole_reused": [
+      3,
+      4,
+      5,
+      7,
+      14
+    ],
+    "whole_controlled": 10,
+    "partial_controlled": 3,
+    "total": 18
+  },
+  "method": "Avgränsade crops av rad2segment. Prefixet förstorat separat inom samma rad. Ingen ny kolumn14-residual eller annan personrads värdeutvinning.",
+  "documentary_ditto_comparison": {
+    "basis": [
+      "TR-75f69bac3ee9872c84f62c92@1",
+      "O-P-0007-mother-arrival1933@1"
+    ],
+    "known_row1_from": "Hyltinge",
+    "known_row1_date": "1933-04-24",
+    "qualification": "Endast tidigare dokumenterade referensvärden; inga oberoende nya röster. Egen mark och eventuell härledd tolkning hålls isär."
+  },
+  "stop_condition_triggered": false,
+  "limits": [
+    "Otydligt prefix och överlappande streck bevaras reserverade utan identitets-/släktskapstolkning.",
+    "Ingen ny personsex-, identitets-, föräldra- eller annan semantisk personändring.",
+    "Inga andra originalbilder, inga externa källor, ingen canonicalmutation."
+  ]
+}

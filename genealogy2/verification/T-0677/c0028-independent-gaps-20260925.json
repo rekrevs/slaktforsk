@@ -1,0 +1,111 @@
+{
+  "task": "T-0677",
+  "status": "LOCKED_INDEPENDENT_GAPS_BEFORE_COMPARISON",
+  "authorization": {
+    "file": "c0028-root-gapmask-acceptance-20260925.json",
+    "sha256": "64e5df90d5e6638e53dc22d6d2becaffaca1d504ba7db15a36db949cb566223e"
+  },
+  "reader": "Astra /root/c0004_control",
+  "prior_knowledge": "Dokumentär återbrukskunskap, egen rubrik-/gränskontroll och kolumn5-mapping kända. Rootens gaputfall inte läst. Ej avskriftsblind.",
+  "image": "genealogy/media/C-0028-riksarkivet-SE-ULA-10422-C8-bild-37-sida-34.jpg",
+  "image_sha256": "d01488e2690492835c2dbb0f6f1a8a8f63111a00dcc57b9de3f23d2fa53426b0",
+  "record": "R-C0028-15@1, nr15 band",
+  "controlled_units": [
+    {
+      "column": 4,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 5,
+      "scope": "partial_only_below_reused_1",
+      "state": "uncertain_trace",
+      "raw": "[kort svagt snett/vågrätt streck under återbrukad 1]",
+      "reservation": "Åtskilt från den återbrukade uppåtsträckta markeringen, i samma kolumn. Ej nytt tal, korrigering, summa eller normaliserad betydelse. Orsak ej avgjord."
+    },
+    {
+      "column": 6,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 7,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 11,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 12,
+      "scope": "whole",
+      "state": "mark",
+      "raw": "/",
+      "reservation": "En ensam nära lodrät sned räknemarkering; ingen separat siffra 1 normaliseras i råfältet."
+    },
+    {
+      "column": 13,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 14,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 18,
+      "scope": "whole",
+      "state": "text_with_reservation",
+      "raw": "v. pastor[?] / [initial?] Sandberg[?]",
+      "reservation": "Titel föredragen v. pastor; stor slängad signatur med osäker initial och namnändelse. Sandberg föredragen, inte personidentifiering. Signaturens slutdrag går något över kolumngränsen åt höger inom samma nr15-band; ingen annan post eller fadderuppgift utvunnen."
+    },
+    {
+      "column": 20,
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "column": 21,
+      "scope": "whole",
+      "state": "uncertain_trace",
+      "raw": "[svagt kort streck/spår åt höger; ingen läsbar anteckning]",
+      "reservation": "Mycket svaga grå spår synliga, inklusive ett kort mörkare litet spår i högerdelen. Ingen bokstav, datum eller ursprungsförklaring fastställs. Ej positivt textvärde och inte ovillkorligt rent blank klassificerat."
+    }
+  ],
+  "accounting": {
+    "whole_controlled": 10,
+    "partial_controlled": 1,
+    "whole_reused_not_reread": 12,
+    "total_physical_units": 23
+  },
+  "method": "Enbart lokala crop av godkända kolumnsegment inom nr15-bandet. Kolumn18 crop breddades inom samma band för signaturens slutdrag över höger kolumngräns; inga andra cellers innehåll extraherades.",
+  "uncertainty_policy": "Reservationer låsta utan bredare kontextläsning. Otydlig namnsignatur blir ingen ny P eller personsammanföring. Svaga spår ges ingen materiell/teknisk ursprungsförklaring.",
+  "stop_conditions": {
+    "unexpected_reuse_conflict": false,
+    "crosses_target_record_band": false,
+    "needs_other_record": false,
+    "note": "Ingen vidare läsning för att avgöra signaturens exakta initial/ändelse eller svaga spårs natur. Kolumngränsöverskridande namnslinga är inom samma postband, inte fortsatt post."
+  },
+  "limits": [
+    "Ingen fadderblank omprövad; kolumn19 återbrukas.",
+    "Inga positiva föräldrafält eller andra återbrukade värden omlästa.",
+    "Ingen extern originalåtkomst, inga andra källbilder, ingen canonicalmutation."
+  ]
+}

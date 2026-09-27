@@ -1,0 +1,79 @@
+{
+  "schema": "t0676-citation-outside-record-routing/1",
+  "date": "2026-09-24",
+  "mode": "read_only",
+  "basis": [
+    "genealogy2/verification/T-0676/citation-scope-crosswalk-20260924.json",
+    "genealogy2/verification/T-0673/manifest.json",
+    "genealogy2/verification/T-0673/cohorts-draft.json",
+    "genealogy2/verification/T-0673/ownership.json",
+    "wotan/backlog.json",
+    "wotan/dev-log/T-0701.md",
+    "wotan/dev-log/T-0724.md"
+  ],
+  "items": [
+    {
+      "question": "C-0907 predecessor volume and surrounding folio zero claims",
+      "primary_citation_and_record": {
+        "citation": "C-0907",
+        "record": "R-340d89b7be8bb89cf4a63828@1",
+        "source": "S-0714",
+        "owned_by": "T-0676/G024",
+        "bounded_record": "Umeå landsförsamling A II a/23 folio 2284 r12–23, 00206295_00175"
+      },
+      "other_claimed_scope": [
+        "preceding A II a/15 image 00206287_00164",
+        "A II a/23 folios 2280–2283 and 2285–2328"
+      ],
+      "manifest_match": "The negative scope is carried in the current R-340d89b7be8bb89cf4a63828@1 caveat and frozen C-0907 text. No separately mapped native R, SEARCH, imported asset, or exact READY owner for these other folios was found in the T-0673 manifest/cohorts/ownership and current backlog.",
+      "routing_result": "unmatched_as_independent_scope; C-0907/T-0676 covers the cited claim text, but its one R must not be counted as a reading of those separate images or folios"
+    },
+    {
+      "question": "C-0923 historic SvenskaGravar zero searches",
+      "primary_citation": "C-0923",
+      "positive_grave_records": "Four positive cards are in T-0676/G024; none is a negative search.",
+      "native_search_matches": [
+        {
+          "revision": "SEARCH-P-0009-SvenskaGravar-names@1",
+          "source": "S-0711",
+          "owned_by": "T-0724/G051",
+          "status": "READY",
+          "exact_queries": ["Ada Wilhelmina Jansson", "Ada Wilhelmina Bergman"],
+          "outcome": "negative"
+        },
+        {
+          "revision": "SEARCH-P-0010-graves@1",
+          "source": "S-0711",
+          "owned_by": "T-0724/G051",
+          "status": "READY",
+          "exact_queries": ["Bernhard Natanael Eliasson", "Bernhard Eliasson", "Katy Eliasson", "Katy Leonie"],
+          "outcome": "negative",
+          "bound": "2026-09-06 positively controlled SvenskaGravar query; current object records 20 Bernhard name hits checked and an untried Eliaesson spelling"
+        }
+      ],
+      "prompt_name_correction": "Root corrected the request's Eriksson typo to Bergman. Frozen C-0923 line 69 and SEARCH-P-0009 both name Ada Wilhelmina Bergman alongside Jansson.",
+      "historical_date_and_limit": "C-0923's zero queries are dated 2026-09-06. The Malmö register issue is explicitly a coverage question, not a person-negative conclusion; this report does not rerun a live query.",
+      "routing_result": "Two native SEARCH objects for the three named zero queries: Ada's two queries are one search object and Bernhard's query is part of another. G051/T-0724 owns their bounded search-negative review."
+    },
+    {
+      "question": "C-0971/C-0980 zero and series-coverage claims referenced in C-0981",
+      "citation_scope": ["C-0971", "C-0980"],
+      "native_record": "R-36c69f2873ef467a195d60f6@1",
+      "native_source": "S-0755",
+      "record_locator": "Umeå stadsförsamling A II b/13 folio 77, Ytterhiske property heading, 00178897_00077",
+      "owned_by": "T-0701/G026",
+      "status": "READY",
+      "scope": "G026 has both whole citations and the one shared native property-register-heading R; T-0701 covers 19 citations, one imported asset and 50 records under record_substantive review.",
+      "qualification": "R's current caveat carries the limited heading montage, specified spot checks, negative bounds and later C-0981 qualification. Neither the zero nor whole-series conclusion is a separate native SEARCH in the T-0673 manifest. R is a shared control heading, not a record for each sampled page or a full-series person inventory.",
+      "routing_result": "C-0971/C-0980 whole-citation review routes to READY T-0701/G026; no separate native SEARCH owner for the historical zero/series conclusions was found. C-0981's own property-register records R-e445f96b83125c478c8b1af8 and R-fa685dc0f1a3a1defbd354ae also route to G026/T-0701, outside T-0676's 50 R."
+    }
+  ],
+  "acceptance_for_ready_owners": "T-0701 and T-0724 require a reasoned outcome for every assigned primary unit and support surface, including exact read/unread bounds, current version and provenance; individual review of triggered dependency and free-text copies after substantive correction; bounded Wotan ownership for remaining concrete questions; validation and full manifest reconciliation before DONE.",
+  "unmatched": [
+    "No independent T-0673 native R, SEARCH or exact READY task assignment was found for C-0907's predecessor image 00206287_00164 or surrounding folios 2280–2283/2285–2328.",
+    "No separate native SEARCH object was found for C-0971/C-0980's historical zero/series conclusions; their whole citations and shared R are assigned to T-0701."
+  ],
+  "limits": "Routing from existing text and locked allocation only. No original image or external service was opened, and no citation or claim was adjudicated or marked complete.",
+  "canonicalApply": false,
+  "wotanChange": false
+}

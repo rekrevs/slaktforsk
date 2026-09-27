@@ -1,0 +1,1195 @@
+{
+  "schema": "T0676-journal-counts/1",
+  "task": "T-0676",
+  "date": "2026-09-24",
+  "scope": "actual canonical journal entries 157–180 inclusive; no future proposal counted",
+  "method": "Counts derive solely from each journal JSON request.changes and request.resolve. Missing expectedVersion means create; an explicit version means revision. Apply/check files are linked by exact operation id and apply-result filename stem. No SQLite rowid or prospective pending used for totals.",
+  "summary": {
+    "journal_count": 24,
+    "changes": 783,
+    "creates": 146,
+    "revisions": 637,
+    "native_resolve": 229,
+    "native_resolve_decision_field": {
+      "not_specified": 228,
+      "revised": 1
+    },
+    "apply_results_found": 24,
+    "complete_saved_three_check_sets": 23,
+    "missing_saved_three_check_sets": [
+      157
+    ]
+  },
+  "per_journal": [
+    {
+      "sequence": 157,
+      "operation_id": "T-0676/reuse-3-44-v1",
+      "journal_file": "genealogy2/journal/000000157-d46f8fa27ee196d3de99892c68f71db7953569f9723c04c23959dee04230631c.json",
+      "journal_sha256": "e2eecabacbdf68533b79c259b1b0e2339407f44d62bdaba6119d43181be2fa47",
+      "request_hash": "d46f8fa27ee196d3de99892c68f71db7953569f9723c04c23959dee04230631c",
+      "changes": 3,
+      "creates": 3,
+      "revisions": 0,
+      "change_kinds": {
+        "assessment": 2,
+        "transcription": 1
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/reuse-3-44-apply-result.json",
+        "sha256": "f85f9ee95ca2a904be4923f43cd7e66e45ee55859cbf18c041d9ebbc57d7a590",
+        "operation_id": "T-0676/reuse-3-44-v1",
+        "changes": 3,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": null,
+          "status": "saved_result_not_found_by_exact_apply_prefix"
+        },
+        "verify-assets": {
+          "path": null,
+          "status": "saved_result_not_found_by_exact_apply_prefix"
+        },
+        "verify-source": {
+          "path": null,
+          "status": "saved_result_not_found_by_exact_apply_prefix"
+        }
+      },
+      "saved_three_check_set_found": false
+    },
+    {
+      "sequence": 158,
+      "operation_id": "T-0676/umea-bi11-six-v1",
+      "journal_file": "genealogy2/journal/000000158-888158ad76753aff310d27070d803c4b0e3dc3b6ef1f83fa8730a4ba4b2e0fbd.json",
+      "journal_sha256": "28a231853ebbd53f9cf9b952bca4839c18df89328c5e93816fa9474f053b28fe",
+      "request_hash": "888158ad76753aff310d27070d803c4b0e3dc3b6ef1f83fa8730a4ba4b2e0fbd",
+      "changes": 14,
+      "creates": 14,
+      "revisions": 0,
+      "change_kinds": {
+        "assessment": 6,
+        "mention": 1,
+        "observation": 1,
+        "transcription": 6
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/umea-bi11-apply-result.json",
+        "sha256": "6cbc23353ac96be4976784c71934da05bd65652a07191d2edd41879cc311f06b",
+        "operation_id": "T-0676/umea-bi11-six-v1",
+        "changes": 14,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-verify-result.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-verify-assets-result.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-verify-source-result.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 159,
+      "operation_id": "T-0676/umea-bi11-followup-v1",
+      "journal_file": "genealogy2/journal/000000159-ec6a673c0262d8135b25021e59de547c46dc54ce15aa9abd698c79e3c766ecc3.json",
+      "journal_sha256": "911b8da549e606cbf0ee46b3e2e91c28f08f90575544a5def2ee931427d859b2",
+      "request_hash": "ec6a673c0262d8135b25021e59de547c46dc54ce15aa9abd698c79e3c766ecc3",
+      "changes": 17,
+      "creates": 0,
+      "revisions": 17,
+      "change_kinds": {
+        "assessment": 4,
+        "event": 1,
+        "fact": 1,
+        "narrative": 7,
+        "observation": 1,
+        "question": 3
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/umea-bi11-followup-apply-result.json",
+        "sha256": "b3d011c60cf0d50c3abd850b3af586e16daa005378e8557616926bdb7301ccd3",
+        "operation_id": "T-0676/umea-bi11-followup-v1",
+        "changes": 17,
+        "pending_reviews_after_apply": 1,
+        "journal_written": 1,
+        "exit_code": 0
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-followup-verify-result.json",
+          "sha256": "a045911b62ab2405c9f6b1a99ae7afde071ed8f55634f3e77ef1f1000bc175e1",
+          "ok": true,
+          "exit_code": 0
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-followup-verify-assets-result.json",
+          "sha256": "472b940450c5abf124a59f4ba1fe3c438fdc2179eeb252c0751638561c8071b2",
+          "ok": true,
+          "exit_code": 0
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-followup-verify-source-result.json",
+          "sha256": "352457a1b94b9678b9a6dc658806497761b8dd73a962d2b2af8e2fc0fbb60ebb",
+          "ok": true,
+          "exit_code": 0
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 160,
+      "operation_id": "T-0676/umea-bi11-participation-resolution-v1",
+      "journal_file": "genealogy2/journal/000000160-a513cb7693068255fd64c1b70840a922f8f9578f5254d5191a9693994a163893.json",
+      "journal_sha256": "20854a93f141ac39fe580626a7d11952e58522f1023dcccffe4dc6498b6b3f24",
+      "request_hash": "a513cb7693068255fd64c1b70840a922f8f9578f5254d5191a9693994a163893",
+      "changes": 1,
+      "creates": 0,
+      "revisions": 1,
+      "change_kinds": {
+        "participation": 1
+      },
+      "native_resolve": 1,
+      "native_resolve_decision_field": {
+        "revised": 1
+      },
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/umea-bi11-participation-resolution-apply-result.json",
+        "sha256": "5a5a5c40826f83ee6c515d03ba58e968799bca821c4a66f142928af616467b83",
+        "operation_id": "T-0676/umea-bi11-participation-resolution-v1",
+        "changes": 1,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": 0
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-participation-resolution-verify-result.json",
+          "sha256": "a045911b62ab2405c9f6b1a99ae7afde071ed8f55634f3e77ef1f1000bc175e1",
+          "ok": true,
+          "exit_code": 0
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-participation-resolution-verify-assets-result.json",
+          "sha256": "472b940450c5abf124a59f4ba1fe3c438fdc2179eeb252c0751638561c8071b2",
+          "ok": true,
+          "exit_code": 0
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/umea-bi11-participation-resolution-verify-source-result.json",
+          "sha256": "352457a1b94b9678b9a6dc658806497761b8dd73a962d2b2af8e2fc0fbb60ebb",
+          "ok": true,
+          "exit_code": 0
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 161,
+      "operation_id": "T-0676/varsas-full-fields-v1",
+      "journal_file": "genealogy2/journal/000000161-1fde05919b4f75c583433701c0c212b8c43427e40ebe0b86bc048699bfd15489.json",
+      "journal_sha256": "2859c25d396a5a4a141e7a3065c79a629b34e9a4110b7c8ab538f058ba5817e6",
+      "request_hash": "1fde05919b4f75c583433701c0c212b8c43427e40ebe0b86bc048699bfd15489",
+      "changes": 11,
+      "creates": 11,
+      "revisions": 0,
+      "change_kinds": {
+        "assessment": 3,
+        "transcription": 8
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/varsas-apply-result.json",
+        "sha256": "0d198fcaa0b9fa4ba977399cdd0a428dfc2af681438d1e40ddebcc3ba1a9474f",
+        "operation_id": "T-0676/varsas-full-fields-v1",
+        "changes": 11,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": 0
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/varsas-verify-result.json",
+          "sha256": "a045911b62ab2405c9f6b1a99ae7afde071ed8f55634f3e77ef1f1000bc175e1",
+          "ok": true,
+          "exit_code": 0
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/varsas-verify-assets-result.json",
+          "sha256": "472b940450c5abf124a59f4ba1fe3c438fdc2179eeb252c0751638561c8071b2",
+          "ok": true,
+          "exit_code": 0
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/varsas-verify-source-result.json",
+          "sha256": "352457a1b94b9678b9a6dc658806497761b8dd73a962d2b2af8e2fc0fbb60ebb",
+          "ok": true,
+          "exit_code": 0
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 162,
+      "operation_id": "T-0676/graves-own-thirteen-v2",
+      "journal_file": "genealogy2/journal/000000162-55b300fcba894bbf707ef6ce6258d8c9096e6bc5d0aabb00148269919b242c98.json",
+      "journal_sha256": "8258ac0647ae38ce2e64f8c39622dce815b84cd972ca7ac47bdc7e89650c384f",
+      "request_hash": "55b300fcba894bbf707ef6ce6258d8c9096e6bc5d0aabb00148269919b242c98",
+      "changes": 135,
+      "creates": 13,
+      "revisions": 122,
+      "change_kinds": {
+        "assessment": 78,
+        "event": 1,
+        "fact": 6,
+        "identity": 8,
+        "mention": 2,
+        "narrative": 1,
+        "observation": 8,
+        "participation": 1,
+        "question": 4,
+        "record": 13,
+        "transcription": 13
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/graves-own-thirteen-v2-apply-result-20260924.json",
+        "sha256": "73a9e8f7614fe98c3d49f6df81826f64f5d8c6cbdc0a9cb816c240cab7507c6d",
+        "operation_id": "T-0676/graves-own-thirteen-v2",
+        "changes": 135,
+        "pending_reviews_after_apply": 65,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/graves-own-thirteen-v2-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/graves-own-thirteen-v2-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/graves-own-thirteen-v2-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 163,
+      "operation_id": "T-0676/graves-own-thirteen-retain-v1",
+      "journal_file": "genealogy2/journal/000000163-e0463ef61617ee7aac54beaf14106d8f34d6aba788062e234a782f9e04518391.json",
+      "journal_sha256": "d119c40053fd617e1993906f1ed3fac10d158552d94eb1b22bf80cf6d670b934",
+      "request_hash": "e0463ef61617ee7aac54beaf14106d8f34d6aba788062e234a782f9e04518391",
+      "changes": 0,
+      "creates": 0,
+      "revisions": 0,
+      "change_kinds": {},
+      "native_resolve": 65,
+      "native_resolve_decision_field": {
+        "not_specified": 65
+      },
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/graves-own-thirteen-retain-apply-result-20260924.json",
+        "sha256": "e005bde1a066d9721843aa20c220d47b25e6891bfd65a35a1b00e5f92213e525",
+        "operation_id": "T-0676/graves-own-thirteen-retain-v1",
+        "changes": 0,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/graves-own-thirteen-retain-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/graves-own-thirteen-retain-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/graves-own-thirteen-retain-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 164,
+      "operation_id": "T-0676/umea-2284-full-fields-followup-v1",
+      "journal_file": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json",
+      "journal_sha256": "7be042b1d05660b129da87d804cb51f2922a2ae4bba6f5a6a963a8e645b67c63",
+      "request_hash": "6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93",
+      "changes": 24,
+      "creates": 13,
+      "revisions": 11,
+      "change_kinds": {
+        "assessment": 6,
+        "fact": 1,
+        "identity": 1,
+        "observation": 3,
+        "question": 1,
+        "transcription": 12
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/umea-2284-apply-result-20260924.json",
+        "sha256": "ab26b5f40e8f143f806b6e7c973b16bb6868096748de876e0586c43941f005ab",
+        "operation_id": "T-0676/umea-2284-full-fields-followup-v1",
+        "changes": 24,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/umea-2284-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/umea-2284-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/umea-2284-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 165,
+      "operation_id": "T-0676/varsas-followup-v2-proposed-revised",
+      "journal_file": "genealogy2/journal/000000165-096c91eeb3bed1117e5d7cf69dde771712762e818eb0996062c8f23bb32a47ae.json",
+      "journal_sha256": "d39bc2a3a887e7fa3a96dda046978fd16edfb96c8bc2bc300ee7bf3a262e4198",
+      "request_hash": "096c91eeb3bed1117e5d7cf69dde771712762e818eb0996062c8f23bb32a47ae",
+      "changes": 169,
+      "creates": 15,
+      "revisions": 154,
+      "change_kinds": {
+        "assessment": 137,
+        "mention": 8,
+        "narrative": 5,
+        "observation": 8,
+        "person": 2,
+        "question": 9
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/varsas-followup-v2-apply-result-20260924.json",
+        "sha256": "2075995e97443eaf7400629367c1b06efbe90b1e48a5bf8c2b0c6df011e8a0b0",
+        "operation_id": "T-0676/varsas-followup-v2-proposed-revised",
+        "changes": 169,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/varsas-followup-v2-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/varsas-followup-v2-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/varsas-followup-v2-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 166,
+      "operation_id": "T-0676/graves-six-approved-v2-proposed",
+      "journal_file": "genealogy2/journal/000000166-4ca25d971c828f95dc9da3569325e5758a90c8b1da083663958980c3ffdf3288.json",
+      "journal_sha256": "003f0a634e03bb2d0312cf93a5011100e744be87cf9abd8c7fb96ece4f795a2d",
+      "request_hash": "4ca25d971c828f95dc9da3569325e5758a90c8b1da083663958980c3ffdf3288",
+      "changes": 81,
+      "creates": 19,
+      "revisions": 62,
+      "change_kinds": {
+        "assessment": 32,
+        "event": 8,
+        "fact": 5,
+        "mention": 6,
+        "narrative": 1,
+        "observation": 7,
+        "participation": 6,
+        "question": 4,
+        "record": 6,
+        "transcription": 6
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/graves-six-v2-apply-result-20260924.json",
+        "sha256": "578d7ccc66704ff691166aa592d97cc957006e10bade225dbf6a4db96255dcf6",
+        "operation_id": "T-0676/graves-six-approved-v2-proposed",
+        "changes": 81,
+        "pending_reviews_after_apply": 30,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/graves-six-v2-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/graves-six-v2-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/graves-six-v2-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 167,
+      "operation_id": "T-0676/graves-six-retain-v1",
+      "journal_file": "genealogy2/journal/000000167-73fdf3258d99bb7218ef0369635c1e32191a33d871fd655ac0aef76a17655d2b.json",
+      "journal_sha256": "c5ca753be71fd2a52a34891514fc3e36feda7d55ed017cc983b17d29c358d90a",
+      "request_hash": "73fdf3258d99bb7218ef0369635c1e32191a33d871fd655ac0aef76a17655d2b",
+      "changes": 0,
+      "creates": 0,
+      "revisions": 0,
+      "change_kinds": {},
+      "native_resolve": 30,
+      "native_resolve_decision_field": {
+        "not_specified": 30
+      },
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/graves-six-retain-apply-result-20260924.json",
+        "sha256": "77877bd92621761b5aa804054db433100441aebfce0e4b5fb689ef4eaff08a5e",
+        "operation_id": "T-0676/graves-six-retain-v1",
+        "changes": 0,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/graves-six-retain-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/graves-six-retain-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/graves-six-retain-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 168,
+      "operation_id": "T-0676/oskarshamn-marriage-scope8-v2-proposed",
+      "journal_file": "genealogy2/journal/000000168-66955afa220cf7d69bd472e6a3a9fa05191b4e14113cf3b41bbcc9b5ea13021f.json",
+      "journal_sha256": "44c059a900fb9ba97ec62d8b3f988016de3d5900872bea2a1702d31473764165",
+      "request_hash": "66955afa220cf7d69bd472e6a3a9fa05191b4e14113cf3b41bbcc9b5ea13021f",
+      "changes": 13,
+      "creates": 2,
+      "revisions": 11,
+      "change_kinds": {
+        "assessment": 6,
+        "event": 1,
+        "fact": 1,
+        "narrative": 2,
+        "question": 1,
+        "record": 1,
+        "transcription": 1
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/oskarshamn-marriage-v2-apply-result-20260924.json",
+        "sha256": "b17ecad5f413b9e0d16f2325f71baeef877a473348250ea72edf183267057547",
+        "operation_id": "T-0676/oskarshamn-marriage-scope8-v2-proposed",
+        "changes": 13,
+        "pending_reviews_after_apply": 30,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/oskarshamn-marriage-v2-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/oskarshamn-marriage-v2-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/oskarshamn-marriage-v2-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 169,
+      "operation_id": "T-0676/oskarshamn-marriage-scope8-retain-v1",
+      "journal_file": "genealogy2/journal/000000169-af931d0012f5e6485a88b2f5f827b1af96ae0be215047fdecc087f9807d88037.json",
+      "journal_sha256": "5d89b1a13deb98716cb3f83eea3732176373e86ecc165497c378ff70d8918418",
+      "request_hash": "af931d0012f5e6485a88b2f5f827b1af96ae0be215047fdecc087f9807d88037",
+      "changes": 0,
+      "creates": 0,
+      "revisions": 0,
+      "change_kinds": {},
+      "native_resolve": 30,
+      "native_resolve_decision_field": {
+        "not_specified": 30
+      },
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/oskarshamn-marriage-retain-apply-result-20260924.json",
+        "sha256": "33b4bf46b4e3f3ed1afbb328401baf4f259ab0646ddbe7e97cca4afcb436b283",
+        "operation_id": "T-0676/oskarshamn-marriage-scope8-retain-v1",
+        "changes": 0,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/oskarshamn-marriage-retain-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/oskarshamn-marriage-retain-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/oskarshamn-marriage-retain-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 170,
+      "operation_id": "T-0676/umea-2284-additional-followup-v2",
+      "journal_file": "genealogy2/journal/000000170-b11fef0a2f4d28b73407bde76e7bfece4384f390a7a6f26191d6c17ec3a01889.json",
+      "journal_sha256": "517702e822a402391c5a7472c96e62c7df79918c2c380332bf1e4c726656f96b",
+      "request_hash": "b11fef0a2f4d28b73407bde76e7bfece4384f390a7a6f26191d6c17ec3a01889",
+      "changes": 52,
+      "creates": 0,
+      "revisions": 52,
+      "change_kinds": {
+        "assessment": 35,
+        "event": 1,
+        "fact": 2,
+        "mention": 1,
+        "narrative": 3,
+        "observation": 6,
+        "participation": 1,
+        "question": 3
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/umea-2284-additional-v2-apply-result-20260924.json",
+        "sha256": "3deada8a3ab6888a802161a059b06c3dc6d2f6950eb94617d0b468d912a30ccd",
+        "operation_id": "T-0676/umea-2284-additional-followup-v2",
+        "changes": 52,
+        "pending_reviews_after_apply": 2,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/umea-2284-additional-v2-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/umea-2284-additional-v2-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/umea-2284-additional-v2-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 171,
+      "operation_id": "T-0676/umea-2284-additional-v2-retain",
+      "journal_file": "genealogy2/journal/000000171-f61f6a354515dd25a5f8c5ab0eed18d09c610fe51e969b68d8330f8ee467e70c.json",
+      "journal_sha256": "77a0262afb0ba6d5ce42a3647e8471afd9a6f7501819ea0343b3d5def1ed98dc",
+      "request_hash": "f61f6a354515dd25a5f8c5ab0eed18d09c610fe51e969b68d8330f8ee467e70c",
+      "changes": 0,
+      "creates": 0,
+      "revisions": 0,
+      "change_kinds": {},
+      "native_resolve": 2,
+      "native_resolve_decision_field": {
+        "not_specified": 2
+      },
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/umea-2284-additional-v2-retain-apply-result-20260924.json",
+        "sha256": "af038c413bbaf7922fc3b72e62e7aaebddf8c6344461ec3af1ac7347c6e26703",
+        "operation_id": "T-0676/umea-2284-additional-v2-retain",
+        "changes": 0,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/umea-2284-additional-v2-retain-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/umea-2284-additional-v2-retain-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/umea-2284-additional-v2-retain-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 172,
+      "operation_id": "T-0676/flen914-scopes25-26-49-proposed",
+      "journal_file": "genealogy2/journal/000000172-ce697e887350a8ef8531d26c03bf176320927748c177048aa853f4b5bbb49e2b.json",
+      "journal_sha256": "ffa8d69301ed14678cb5f74bf5d4f82293a3a2b8ba36cc60f8e5c3292f940ba5",
+      "request_hash": "ce697e887350a8ef8531d26c03bf176320927748c177048aa853f4b5bbb49e2b",
+      "changes": 15,
+      "creates": 6,
+      "revisions": 9,
+      "change_kinds": {
+        "assessment": 8,
+        "narrative": 1,
+        "observation": 3,
+        "transcription": 3
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/flen914-followup-apply-result-20260924.json",
+        "sha256": "c55dc93fe38b278a861a65bc5bb3ecd07c977424378951c34586c9bc270c71cd",
+        "operation_id": "T-0676/flen914-scopes25-26-49-proposed",
+        "changes": 15,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/flen914-followup-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/flen914-followup-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/flen914-followup-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 173,
+      "operation_id": "T-0676/oskarshamn1208-scope38-v2",
+      "journal_file": "genealogy2/journal/000000173-fa9228088243dec7816f9f6789319d4dba7013245287961b5696eb1d18f5e280.json",
+      "journal_sha256": "b48c7b15ddf6544b2c377c551eb766456ea5919eb4b05dcfe378381ad5a8300a",
+      "request_hash": "fa9228088243dec7816f9f6789319d4dba7013245287961b5696eb1d18f5e280",
+      "changes": 25,
+      "creates": 3,
+      "revisions": 22,
+      "change_kinds": {
+        "assessment": 14,
+        "fact": 2,
+        "narrative": 1,
+        "observation": 3,
+        "question": 3,
+        "record": 1,
+        "transcription": 1
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/oskarshamn1208-scope38-v2-apply-result-20260924.json",
+        "sha256": "a43ce0aa0368b85bbb6c1bc13921e447e554e1bd50c252e27dc5d1cd5a1e58bd",
+        "operation_id": "T-0676/oskarshamn1208-scope38-v2",
+        "changes": 25,
+        "pending_reviews_after_apply": 12,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/oskarshamn1208-scope38-v2-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/oskarshamn1208-scope38-v2-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/oskarshamn1208-scope38-v2-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 174,
+      "operation_id": "T-0676/oskarshamn1208-scope38-v2-retain",
+      "journal_file": "genealogy2/journal/000000174-e94f69dedff45f087f8c794dc62c64b07c6e56c6c8334f7c6c91b5c79c450c87.json",
+      "journal_sha256": "9c91870033be98ac73f621ab1f9f01c58a5f76fc1282641509444ab1b681394c",
+      "request_hash": "e94f69dedff45f087f8c794dc62c64b07c6e56c6c8334f7c6c91b5c79c450c87",
+      "changes": 0,
+      "creates": 0,
+      "revisions": 0,
+      "change_kinds": {},
+      "native_resolve": 12,
+      "native_resolve_decision_field": {
+        "not_specified": 12
+      },
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/oskarshamn1208-scope38-v2-retain-apply-result-20260924.json",
+        "sha256": "9bd8953729208e858d1eb658fff11237e2f9cba384cfbdfe727eccfd747373e3",
+        "operation_id": "T-0676/oskarshamn1208-scope38-v2-retain",
+        "changes": 0,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/oskarshamn1208-scope38-v2-retain-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/oskarshamn1208-scope38-v2-retain-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/oskarshamn1208-scope38-v2-retain-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 175,
+      "operation_id": "T-0676/flen914-upper-scope45-v3-proposed",
+      "journal_file": "genealogy2/journal/000000175-c70c124e384f5960897c467cabcac65e475eb03c639322cb9afdad40c80cd52f.json",
+      "journal_sha256": "3583bba31e7a89e4344fc7ef5702ba0d509e74afb86016cc309bfd064f216ce1",
+      "request_hash": "c70c124e384f5960897c467cabcac65e475eb03c639322cb9afdad40c80cd52f",
+      "changes": 21,
+      "creates": 5,
+      "revisions": 16,
+      "change_kinds": {
+        "assessment": 7,
+        "fact": 4,
+        "mention": 1,
+        "narrative": 1,
+        "observation": 7,
+        "transcription": 1
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/flen914-upper-v3-apply-result-20260924.json",
+        "sha256": "4a3fa6859100ba37f0b9544d3381f0caeb1cee63e26ca92af4afa27062dc5423",
+        "operation_id": "T-0676/flen914-upper-scope45-v3-proposed",
+        "changes": 21,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/flen914-upper-v3-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/flen914-upper-v3-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/flen914-upper-v3-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 176,
+      "operation_id": "T-0676/floda592-scopes4-12-28-47-v2",
+      "journal_file": "genealogy2/journal/000000176-fe281281d383ac3fa64f7bd935d59ef0abaf7ceec668809c4aa0446542fcf248.json",
+      "journal_sha256": "e5f12cf8bfdd6f78ae6b3379aef16150c7917d4efdf3e4e29416a4269b491721",
+      "request_hash": "fe281281d383ac3fa64f7bd935d59ef0abaf7ceec668809c4aa0446542fcf248",
+      "changes": 12,
+      "creates": 10,
+      "revisions": 2,
+      "change_kinds": {
+        "assessment": 7,
+        "observation": 1,
+        "transcription": 4
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/floda592-four-scopes-v2-apply-result-20260924.json",
+        "sha256": "9feef342ac1dce0a89e9b18ce853674fe778448137e4d17b67319fe2d560785a",
+        "operation_id": "T-0676/floda592-scopes4-12-28-47-v2",
+        "changes": 12,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/floda592-four-scopes-v2-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/floda592-four-scopes-v2-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/floda592-four-scopes-v2-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 177,
+      "operation_id": "T-0676/floda608-scopes15-17-v2-proposed",
+      "journal_file": "genealogy2/journal/000000177-d86c261fe64f3fda80a9b5491a13e82e7599caefafe8eb4e655dbbbb6ea78b04.json",
+      "journal_sha256": "867a7763f92137edc85febc192b3f214d141cbbe327318a7058890157f8a7c37",
+      "request_hash": "d86c261fe64f3fda80a9b5491a13e82e7599caefafe8eb4e655dbbbb6ea78b04",
+      "changes": 13,
+      "creates": 7,
+      "revisions": 6,
+      "change_kinds": {
+        "assessment": 4,
+        "event": 2,
+        "fact": 1,
+        "narrative": 1,
+        "observation": 2,
+        "participation": 1,
+        "transcription": 2
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/floda608-v2-apply-result-20260924.json",
+        "sha256": "843286e592500a30e98cf33250bac4c67072d586070367bf40ca6fc15062d3d6",
+        "operation_id": "T-0676/floda608-scopes15-17-v2-proposed",
+        "changes": 13,
+        "pending_reviews_after_apply": 3,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/floda608-v2-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/floda608-v2-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/floda608-v2-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 178,
+      "operation_id": "T-0676/floda608-scopes15-17-v2-retain-proposed",
+      "journal_file": "genealogy2/journal/000000178-cc0508ed98bbca27155e44e5bad6c85477b34c3ef53dd45df655254a24580b34.json",
+      "journal_sha256": "e755f44584ce59f359797e91c2acc9657fed3710735536eae9de28949ab22086",
+      "request_hash": "cc0508ed98bbca27155e44e5bad6c85477b34c3ef53dd45df655254a24580b34",
+      "changes": 0,
+      "creates": 0,
+      "revisions": 0,
+      "change_kinds": {},
+      "native_resolve": 3,
+      "native_resolve_decision_field": {
+        "not_specified": 3
+      },
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/floda608-v2-retain-apply-result-20260924.json",
+        "sha256": "104dc5991061a8473b2cd7a61985a83d0829f511e47423f58ae1e4fa9c0d5f81",
+        "operation_id": "T-0676/floda608-scopes15-17-v2-retain-proposed",
+        "changes": 0,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/floda608-v2-retain-verify-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/floda608-v2-retain-verify-assets-result-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/floda608-v2-retain-verify-source-result-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 179,
+      "operation_id": "T-0676/umea1839-combined-proposed-v4",
+      "journal_file": "genealogy2/journal/000000179-905e80c7ccd67c2f43e0a83359643f7c3ce27aecf4b74bb3b636ff1bb3c0ff47.json",
+      "journal_sha256": "e44e24eeeb1c2fb15853ee60dd9837b6ae7353d58883f13a044d0166c38d3833",
+      "request_hash": "905e80c7ccd67c2f43e0a83359643f7c3ce27aecf4b74bb3b636ff1bb3c0ff47",
+      "changes": 177,
+      "creates": 25,
+      "revisions": 152,
+      "change_kinds": {
+        "assessment": 132,
+        "event": 1,
+        "fact": 1,
+        "mention": 2,
+        "narrative": 4,
+        "observation": 7,
+        "participation": 2,
+        "question": 15,
+        "record": 3,
+        "transcription": 10
+      },
+      "native_resolve": 0,
+      "native_resolve_decision_field": {},
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/umea1839-v4-canonical-apply-result-20260924.json",
+        "sha256": "e697818d5623ce60d39d8dab877dcbd92e21003339e700f7f6afa8dca66c8d03",
+        "operation_id": "T-0676/umea1839-combined-proposed-v4",
+        "changes": 177,
+        "pending_reviews_after_apply": 86,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/umea1839-v4-canonical-verify-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/umea1839-v4-canonical-verify-assets-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/umea1839-v4-canonical-verify-source-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    },
+    {
+      "sequence": 180,
+      "operation_id": "T-0676/umea1839-v4-individual-retains-proposed",
+      "journal_file": "genealogy2/journal/000000180-ca0534f2dac13fcd7333775d888f6b7d467381660fa304cfbcfa7b264b8dd3d9.json",
+      "journal_sha256": "357d4d1b7271981aff35719e4fc1b59bab55ceb51ef19eaa550aadf7ae2b505c",
+      "request_hash": "ca0534f2dac13fcd7333775d888f6b7d467381660fa304cfbcfa7b264b8dd3d9",
+      "changes": 0,
+      "creates": 0,
+      "revisions": 0,
+      "change_kinds": {},
+      "native_resolve": 86,
+      "native_resolve_decision_field": {
+        "not_specified": 86
+      },
+      "apply_result": {
+        "path": "genealogy2/verification/T-0676/umea1839-v4-retain-canonical-apply-result-20260924.json",
+        "sha256": "0893d353e06466cff424cef356e41bf15dbe81bbb5927090f434688acb28d92f",
+        "operation_id": "T-0676/umea1839-v4-individual-retains-proposed",
+        "changes": 0,
+        "pending_reviews_after_apply": 0,
+        "journal_written": 1,
+        "exit_code": null
+      },
+      "saved_checks": {
+        "verify": {
+          "path": "genealogy2/verification/T-0676/umea1839-v4-retain-canonical-verify-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-assets": {
+          "path": "genealogy2/verification/T-0676/umea1839-v4-retain-canonical-verify-assets-20260924.json",
+          "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581",
+          "ok": true,
+          "exit_code": null
+        },
+        "verify-source": {
+          "path": "genealogy2/verification/T-0676/umea1839-v4-retain-canonical-verify-source-20260924.json",
+          "sha256": "b39b92c4bd8d4268ea8077fc392295b7f663d2edf912ed59dcd8f54109e5e91a",
+          "ok": true,
+          "exit_code": null
+        }
+      },
+      "saved_three_check_set_found": true
+    }
+  ],
+  "separation_note": "Documentary substantive reviews, comparison approvals, and content-retain decisions are not counted as native resolve. Only request.resolve entries actually present in journal JSON count as native resolution; 228 omit a decision field, one explicitly says revised. No resolution count implies an independent source or a substantive approval.",
+  "journal_157_check_evidence": {
+    "dev_log": "wotan/dev-log/T-0676.md:204",
+    "log_statement": "The first native-batch checkpoint identifies operation T-0676/reuse-3-44-v1, journal 157, then reports verify, verify-assets and verify-source PASS with pending 0 at lines 204–210.",
+    "saved_individual_results": "not_found",
+    "temporal_boundary": "The next checkpoint at lines 236–245 identifies journal 158 apply before reporting its own PASS checks. The saved umea-bi11 verify files therefore support the later j158 state, not a separate j157 result.",
+    "later_current_head": "Journal 180 has its own saved apply and three ok=true checks; those are later-head validation and do not backfill individual j157 artifacts."
+  },
+  "check_caveat": "Journal 157 has a dev-log PASS statement but no individually saved verify, verify-assets, or verify-source result located for that post-apply state. This is a saved-artifact gap, not a claim that checks failed or never ran. All other 23 journal entries have saved three-check results reporting ok=true. No later result is attributed to j157. No new checks were run for this report.",
+  "canonical_change": false,
+  "wotan_change": false
+}

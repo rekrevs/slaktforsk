@@ -1,0 +1,30 @@
+{
+  "task": "T-0677",
+  "reviewer": "root/Astra",
+  "state": "SOURCE_PROPOSAL_ACCEPTED_FOR_COMBINED_BUILD_NOT_APPLY",
+  "source_proposal_sha256": "914f51cde112763290b0d7136bbd0eb7dca24457da3b75f4a63b033a80979fe5",
+  "changes": 5,
+  "matrix": {
+    "units": 23,
+    "headers": 21,
+    "embedded_TR_and_AUDIT_match": true,
+    "selected_readings_match_root": true
+  },
+  "v1_v2_independent_deep_comparison": "Only outcome and auditmedia fields changed; expected amendments exact.",
+  "approved_existing_rebase": {
+    "target": "M-P-0003-C0008-witness1@2",
+    "from": "R-70eeff109bc651dce649a0ee@1",
+    "to": "R-70eeff109bc651dce649a0ee@2",
+    "reason": "Own witness cell remains same post; corrected occupation and reserved preferred name now supported by new consolidatedTR. Old revision preserves prior reading. No inference to personidentity."
+  },
+  "builder_constraints": [
+    "Convert origins unit_id to operation unit without changingvalues.",
+    "Decode typed value_json to nativeoperation JSON structure, no semantic change.",
+    "Topological ordering R before TR, TR before M and newO, AUDIT afterTR.",
+    "Keep existing Rmedia association exact.",
+    "Operation reason must name T0677 acceptanskriterium1and3 source scope and individual consequences.",
+    "Await personproposal approval and exact evidence decisions before combined build/prov. No automatic rebase."
+  ],
+  "source_dependency_preassessment": "c0008-root-source-dependency-preassessment-20260925.json",
+  "no_canonical_apply": true
+}

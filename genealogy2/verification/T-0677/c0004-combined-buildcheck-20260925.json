@@ -1,0 +1,196 @@
+{
+  "task": "T-0677",
+  "state": "PROPOSED_FOR_TEMP_VALIDATION_NOT_CANONICAL_APPLY",
+  "operation_path": "genealogy2/verification/T-0677/c0004-combined-proposed-operation-20260925.json",
+  "operation_sha256": "d24841720fc5f2a0f37f275d8ab9edad31c4fbe8c6a3a773ff6335ed33a7b2ad",
+  "inputs": {
+    "genealogy2/verification/T-0677/c0004-native-source-decisions-proposed-v2-20260924.json": "6f1331f9a22198857eae7fb5400a6275b8b39c2c28742ec2fa87d0705ac4361f",
+    "genealogy2/verification/T-0677/c0004-current-impact-proposed-v4-20260925.json": "0ab717e42105dd10a8baa98f4577b4be42aee4b229ad64d09e810a2cc44ee33e",
+    "genealogy2/verification/T-0677/c0004-root-substantive-acceptance-20260925.json": "a26989689f1ca99423a65472a63473878b3d5edfc0c6862a7f955bff839a3e51",
+    "genealogy2/verification/T-0677/c0004-root-evidence-amendment-20260925.json": "f4728ae6427f2657ea0cb519359d6e7e0554b92c5c10d9b3e3c923193dcfa21e",
+    "genealogy2/verification/T-0677/c0004-package-currentheads-pre-v4-20260925.json": "38745244a1611fb8fa92134785ccc9bc6aceefd2dfc5372abf1f0756091b5eeb"
+  },
+  "counts": {
+    "objects": 22,
+    "creates": 10,
+    "revisions": 12,
+    "source_changes": 3,
+    "impact_objects": 11,
+    "impact_fields": 14,
+    "bounded_adoptions": 8
+  },
+  "source_checks": [
+    {
+      "id": "TR-T0677-C0004-consolidated-control",
+      "absent": true
+    },
+    {
+      "id": "AUDIT-T0677-C0004",
+      "absent": true
+    },
+    {
+      "id": "O-P-0001-C0004-household",
+      "head": "O-P-0001-C0004-household@1",
+      "current_data": {
+        "record_id": "R-31970be0126dcd188cd61fd1",
+        "mention_id": null,
+        "property": "household_membership",
+        "value_literal": "Föräldrarna och sex barn 1900",
+        "value_json": {
+          "children": [
+            "P-0030",
+            "P-0031",
+            "P-0032",
+            "P-0033",
+            "P-0001",
+            "P-0034"
+          ],
+          "laterFourChildren": "1901–1909 enligt C-0574",
+          "parents": [
+            "P-0028",
+            "P-0029"
+          ],
+          "total": 8
+        }
+      },
+      "approved_after_data": {
+        "record_id": "R-31970be0126dcd188cd61fd1",
+        "mention_id": null,
+        "property": "household_membership",
+        "value_literal": "Föräldrarna och sex barn 1900",
+        "value_json": {
+          "children": [
+            "P-0030",
+            "P-0031",
+            "P-0032",
+            "P-0033",
+            "P-0001",
+            "P-0034"
+          ],
+          "parents": [
+            "P-0028",
+            "P-0029"
+          ],
+          "total": 8
+        }
+      },
+      "current_caveat": "",
+      "approved_after_caveat": "Extern tidigare hänvisning, inte belägg ur denna post: ytterligare fyra barn 1901–1909 enligt C-0574. Uppgiften bevaras i O@1 och här som korshänvisning; sakuppgiften kvarstår i BIO-P-0001, BIO-P-0028 och de åtta föräldrarelationerna till P-0035–P-0038. C4 visar åtta rader och sex barn totalt; inga födelsedatum fastställs i denna observation."
+    }
+  ],
+  "impact_field_diff": [
+    {
+      "id": "BIO-P-0030",
+      "current_revision": "BIO-P-0030@3",
+      "field": "caveat",
+      "before": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena. T0675: IndividuellLiviaföljd: egen yrkesförkortning/nummer och r13fadersnamn reserverade. Möjliga äldre expansioner bevaras; inga nya familjeidentiteter.",
+      "after": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena. T0675: IndividuellLiviaföljd: egen yrkesförkortning/nummer och r13fadersnamn reserverade. Möjliga äldre expansioner bevaras; inga nya familjeidentiteter. T-0677: C-0004:s egen födelseårscell på rad 3 har föredragen råläsning 89; 8 som sista siffra kan inte helt uteslutas i den lågupplösta bilden. Äldre avskrift 88 bevaras som läshistorik. Cellen saknar sekel, månad och dag och ger inte ett nytt fastställt födelsedatum. Föredraget 1888-09-10 kvarstår från de andra bokposterna; egen födelsenotis är fortfarande oläst."
+    },
+    {
+      "id": "CONTRACT-P-0030-PK-01",
+      "current_revision": "CONTRACT-P-0030-PK-01@2",
+      "field": "body",
+      "before": "| PK-01 | STYRKT | En akt avser en person. Namn, födelsedag 1888-09-10, föräldrapar, syskonföljd och egen rad binder fem lästa uppslag 1888–1917, och den konkurrerande dotterposten P-0529 hålls separat. [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |\n",
+      "after": "| PK-01 | STYRKT | En akt avser en person. Namn, föräldrapar, syskonföljd och egen rad binder fem lästa uppslag 1888–1917; föredraget födelsedatum 1888-09-10 kommer från bokposterna C-0549, C-0574 och C-0890. C-0004 har endast rååret 89 med kvarstående 8-reservation, inte ett exakt födelsedatum, och den konkurrerande dotterposten P-0529 hålls separat. [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md) |\n"
+    },
+    {
+      "id": "CONTRACT-P-0030-PK-05",
+      "current_revision": "CONTRACT-P-0030-PK-05@2",
+      "field": "body",
+      "before": "| PK-05 | STYRKT | Hennes egna rader är nu utvunna i sin helhet: yrke, kolumn 11–12, anteckningen `L[N?]B[?] 9/1916[?; äldre5/1916]`, utflyttningsnummer, destination och sonens hela rad 13, inklusive den nu fortsatt reserverade faderstiteln och namnformen. Kvarvarande råreservationer efter riktad prövning gäller yrkesförkortningen, notförkortningen/numret samt faderstiteln och fulla namnformen samt ännu oöppnade böcker, vilket är KP-01/KP-02 och inte utvinningsskuld. [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) |\n",
+      "after": "| PK-05 | STYRKT | Hennes egna rader är nu utvunna i sin helhet: yrke, kolumn 11–12, anteckningen `L[N?]B[?] 9/1916[?; äldre5/1916]`, utflyttningsnummer, destination och sonens hela rad 13, inklusive den nu fortsatt reserverade faderstiteln och namnformen. Kvarvarande råreservationer efter riktad prövning gäller yrkesförkortningen, notförkortningen/numret samt faderstiteln och fulla namnformen samt ännu oöppnade böcker, vilket är KP-01/KP-02 och inte utvinningsskuld. [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md) |\n\nT-0677 tillägg: C-0004:s egen rad ingår nu i den avgränsade 104-cellsutvinningen av sista åttaradiga hushållsklammern. C-0004:s egen födelseårscell på rad 3 har föredragen råläsning 89; 8 som sista siffra kan inte helt uteslutas i den lågupplösta bilden. Äldre avskrift 88 bevaras som läshistorik. Cellen saknar sekel, månad och dag och ger inte ett nytt fastställt födelsedatum. Föredraget 1888-09-10 kvarstår från de andra bokposterna; egen födelsenotis är fortfarande oläst. De tidigare C-0890-reservationerna ovan består.\n"
+    },
+    {
+      "id": "CONTRACT-P-0030-PK-05",
+      "current_revision": "CONTRACT-P-0030-PK-05@2",
+      "field": "caveat",
+      "before": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena. T0675: IndividuellLiviaföljd: egen yrkesförkortning/nummer och r13fadersnamn reserverade. Möjliga äldre expansioner bevaras; inga nya familjeidentiteter.",
+      "after": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena. T0675: IndividuellLiviaföljd: egen yrkesförkortning/nummer och r13fadersnamn reserverade. Möjliga äldre expansioner bevaras; inga nya familjeidentiteter."
+    },
+    {
+      "id": "E-birth-P-0030",
+      "current_revision": "E-birth-P-0030@1",
+      "field": "caveat",
+      "before": "Hushållsböcker bär dagen; egen födelsenotis är oläst. Samma administrativa kedja, inte oberoende datumröster. Ingen föräktenskaplig anteckning finns på tidiga raden.",
+      "after": "Hushållsböcker bär dagen; egen födelsenotis är oläst. Samma administrativa kedja, inte oberoende datumröster. Ingen föräktenskaplig anteckning finns på tidiga raden. T-0677: C-0004:s egen födelseårscell på rad 3 har föredragen råläsning 89; 8 som sista siffra kan inte helt uteslutas i den lågupplösta bilden. Äldre avskrift 88 bevaras som läshistorik. Cellen saknar sekel, månad och dag och ger inte ett nytt fastställt födelsedatum. Föredraget 1888-09-10 kvarstår från de andra bokposterna; egen födelsenotis är fortfarande oläst."
+    },
+    {
+      "id": "F-P-0001-residence-Rosinedahl-1900-1909",
+      "current_revision": "F-P-0001-residence-Rosinedahl-1900-1909@1",
+      "field": "caveat",
+      "before": "Ger inte födelseorten 1897.",
+      "after": "Ger inte födelseorten 1897. C-0004 ger hushållshållpunkten år 1900. Perioden 1900–1909 och folio 963 återbrukas från C-0574 (R-6c6fe5c29cf040561d4e5324@1), inte från folkräkningsbladet ensamt. Bokföringsintervallet är inte bevis för obruten fysisk närvaro."
+    },
+    {
+      "id": "KEY-P-0030-74f8d1ba6394",
+      "current_revision": "KEY-P-0030-74f8d1ba6394@1",
+      "field": "body",
+      "before": "| Livia Sofia Zingmark, född 1888-09-10 i Degerfors | Genomgående identitetsnyckel 1888–1916 | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Samma dag i alla lästa böcker; egen födelsenotis oläst. |\n",
+      "after": "| Livia Sofia Zingmark, född 1888-09-10 i Degerfors | Genomgående identitetsnyckel 1888–1916 | [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md), [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) | Samma föredragna dag i de här angivna bokposterna C-0549, C-0574 och C-0890; egen födelsenotis oläst. C-0004:s tvåsiffriga råår 89 med 8-reservation är en separat källuppgift. |\n"
+    },
+    {
+      "id": "KEY-P-0030-74f8d1ba6394",
+      "current_revision": "KEY-P-0030-74f8d1ba6394@1",
+      "field": "caveat",
+      "before": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena.",
+      "after": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena."
+    },
+    {
+      "id": "O-P-0001-C0574-sibling-birthfields",
+      "current_revision": "O-P-0001-C0574-sibling-birthfields@1",
+      "field": "caveat",
+      "before": "Folkräkningen ger födelseår, dagarna kommer från den preciserande församlingsboken. Råfält ger inga dubbla födelsehändelser.",
+      "after": "Folkräkningen ger födelseår, dagarna kommer från den preciserande församlingsboken. Råfält ger inga dubbla födelsehändelser. För Livia kommer datumet 1888-09-10 från C-0574; C-0004:s föredragna råår 89 med kvarstående 8-reservation får inte räknas som säker överensstämmelse med 1888. Äldre C-0004-avskrift 88 är läshistorik."
+    },
+    {
+      "id": "P-0030/Q-01",
+      "current_revision": "P-0030/Q-01@2",
+      "field": "caveat",
+      "before": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena. T0675: IndividuellLiviaföljd: egen yrkesförkortning/nummer och r13fadersnamn reserverade. Möjliga äldre expansioner bevaras; inga nya familjeidentiteter.",
+      "after": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena. T0675: IndividuellLiviaföljd: egen yrkesförkortning/nummer och r13fadersnamn reserverade. Möjliga äldre expansioner bevaras; inga nya familjeidentiteter."
+    },
+    {
+      "id": "P-0030/Q-01",
+      "current_revision": "P-0030/Q-01@2",
+      "field": "body",
+      "before": "### Q-01: Vart tog Livia Sofia och sonen vägen i Malå 1916?\n\n- Fråga och betydelse: identifiera hennes mottagande hushåll i Malå efter\n  1916-08-08. Svaret ger makens hemvist och yrke, sonens fortsättning och det\n  ankare som hela tiden 1916–1977 hänger på.\n- Känt underlag: egen rad och sonens rad i\n  [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) med\n  destination Malå, datum 1916-08-08 och utflyttningsnummer 35/1916; makens\n  namn Karl [övriga namn reserverade; äldre Gotthard Hällsten] ur samma anteckning.\n- Alternativ och motprövning: en Hällstenfamilj i Malå med hustru född\n  1888-09-10 i Degerfors och son född 1916-06-24 är den diskriminerande\n  kombinationen. Enbart efternamnet Hällsten räcker inte, och en kvinna med\n  rätt förnamn men annan födelsedag är en annan person.\n- Källvägar: KP-02 och KP-03.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: frånvaron i Umeå landsförsamlings uppslag 2284 och\n  inflyttningsposterna 208–213 är förenlig med Malåflytten men bevisar inte\n  var hon bodde. Ingen Malåkälla är öppnad.\n- Påverkade personer/påståenden: P-0030 och A-5072–A-5074; makens och sonens\n  eventuella egna akter; P-0028 och P-0029:s barnbild efter 1916.\n\n",
+      "after": "### Q-01: Vart tog Livia Sofia och sonen vägen i Malå 1916?\n\n- Fråga och betydelse: identifiera hennes mottagande hushåll i Malå efter\n  1916-08-08. Svaret ger makens hemvist och yrke, sonens fortsättning och det\n  ankare som hela tiden 1916–1977 hänger på.\n- Känt underlag: egen rad och sonens rad i\n  [C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md) med\n  destination Malå, datum 1916-08-08 och utflyttningsnummer 35/1916; makens\n  namn Karl [övriga namn reserverade; äldre Gotthard Hällsten] ur samma anteckning.\n- Alternativ och motprövning: ett hushåll i Malå med Livia Sofia,\n  föredraget födelsedatum 1888-09-10 i Degerfors, och son född 1916-06-24\n  prövas mot flyttkedjan och de samlade personuppgifterna. Hällstenfamilj\n  är en sökhypotes utifrån en äldre efternamnstolkning, inte ett krav på\n  makens namn. Enbart efternamnet räcker inte. En avvikande födelsedag\n  kräver en separat identitetsprövning mot oberoende underlag och\n  samtidiga personuppgifter; den avgör inte ensam att kvinnan är en annan person.\n- Källvägar: KP-02 och KP-03.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: frånvaron i Umeå landsförsamlings uppslag 2284 och\n  inflyttningsposterna 208–213 är förenlig med Malåflytten men bevisar inte\n  var hon bodde. Ingen Malåkälla är öppnad.\n- Påverkade personer/påståenden: P-0030 och A-5072–A-5074; makens och sonens\n  eventuella egna akter; P-0028 och P-0029:s barnbild efter 1916.\n\n"
+    },
+    {
+      "id": "P-0030/Q-02",
+      "current_revision": "P-0030/Q-02@2",
+      "field": "caveat",
+      "before": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena. T0675: IndividuellLiviaföljd: egen yrkesförkortning/nummer och r13fadersnamn reserverade. Möjliga äldre expansioner bevaras; inga nya familjeidentiteter.",
+      "after": "Hela akten och profilen inklusive trädverkansrättelsen 2026-09-11 är lästa. Säker hushållsidentitet skiljs från oläst egen födelsenotis och oprövad fortsättning efter Malå 1916. Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd. Dödsåret 1977 förblir LEAD. LNB och sonens förnamn reserveras; inga nya personer skapas av omnämnandena. T0675: IndividuellLiviaföljd: egen yrkesförkortning/nummer och r13fadersnamn reserverade. Möjliga äldre expansioner bevaras; inga nya familjeidentiteter."
+    },
+    {
+      "id": "RESEARCH-P-0001-9d76f0343410",
+      "current_revision": "RESEARCH-P-0001-9d76f0343410@4",
+      "field": "body",
+      "before": "T-0676 precisering av C-0908: egen inflyttningspost 211 och den reciproka hushållsposten hör till samma administrativa flyttkedja; de utgör inte två oberoende vittnesmål. Den separata examenslängdens personbundna utbildningsbelägg kvarstår. Post 211 har ett yrkesditto till föregående rads osäkra Stud[?], inte ett säkert utbildnings- eller ortbelägg. Den äldre formuleringen ”oberoende bunden i tre led” nedan får inte tolkas som tre oberoende ursprung för kopierade personuppgifter.\n\nT-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n## Identitetsbedömning\n\nOskar Alfred föddes 1897-05-22 i Degerfors som son till arbetaren Johan Oskar\nZingmark, född `61 ²⁸/₅`, och hustrun Ida Sofia Andersdotter, född\n`67 ¹⁵/₁₂` ([C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md)).\nFaderns dag lästes ursprungligen 25/5 och i en mellanrättelse 19/5; båda är\nupphävda av omläsningen i\n[C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md)\noch av faderns egen födelsenotis\n[C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md).\nSamma pojke står som son i samma föräldrapars hushåll i Rosinedahl 1900 och\n1900–1909 med samma exakta födelsedatum\n([C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)),\noch 1910–1917 på folio 1064 med värnpliktsnummer 174, årsklass 1917\n([C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md)).\n\nKedjan därefter är oberoende bunden i tre led. Umeå landsförsamlings\nförsamlingsbok för samma värnpliktsnummer `174 ⁷⁰/₁₇` vidare på uppslag 2284\noch kallar honom seminarieelev\n([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md)),\nmed en reciprok egen inflyttningspost nr 211 i B I/11\n([C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md)).\nLuleå folkskoleseminariums examenslängd 1923 skriver `Zingmark, Oskar Alfred`\nmed `1897 ²²/₅` och `Degerfors`, vilket binder utbildningen till exakt denna\nperson ([C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md)).\nBurträsks församlingsbok fol 1006 upprepar `97 ²²/₅ Degerfors` och samma\nvärnpliktsnummer, och vigselboken 1932 hänvisar till samma sida 1006\n([C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md),\n[C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md)). Sammanföringen vilar\nalltså på exakt datum, födelseförsamling, värnpliktsnummer, yrke och\nsidhänvisning, inte på namnlikhet.\n\nGeni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) anger samma\nföräldrar, hustru, syskon och barn och tillförde död 1963-07-15 som `LEAD`.\nGravregistret bekräftar dagen men skriver Umeå **stads**församling\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md));\nkonflikten bevaras och avgörs av dödboken. Att föräldragården Ytterhiske N:o 2\nterritoriellt fördes över till Umeå stad 1925-01-01 gör stadsformen rimligare\nmen avgör den inte\n([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md),\n[C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)).\nBarnen P-0006 och P-0039–P-0041 är `OWNER_CONFIRMED`\n([PCD-2026-09-03-003](../../PROJECT-CONTROL.md#pcd-2026-09-03-003),\n[PCD-2026-09-03-004](../../PROJECT-CONTROL.md#pcd-2026-09-03-004)).\n\nIngen konkurrerande identitet för Oskar Alfred är känd. Nikanor och Olof\nKonrad Zingmark i samma by är egna personer med egna födelseår och hushåll\n([C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)).\nÖregrund som vigselort var en felläsning som prövats och avvisats\n([C-0045](../citations/C-0045-oregrund-negativ-kontroll-1932.md)). Den enda\nöppna identitetsfrågan i hushållet gäller P-0529 Hildur Aleksandra\nZingmark, som står `d.` på samma uppslag 1917–1918 men är född 1888-03-18,\nsex månader före Livia Sofia; hon hålls separat och propageras inte\n(C-0907). Identiteten för P-0001 är prövad, och antavlan får passera\npositionen.\n\n",
+      "after": "T-0677 precisering av C-0004: folkräkningsbladet anger Oskar Alfreds råår 97, inte månad och dag. Den historiska formuleringen nedan om samma exakta födelsedatum i C-0004 och C-0574 gäller därför inte C-0004; exakt 1897-05-22 återbrukas från födelsenotisen och de preciserande bokposterna. Hushållsidentiteten och föräldrarelationerna består.\n\nT-0676 precisering av C-0908: egen inflyttningspost 211 och den reciproka hushållsposten hör till samma administrativa flyttkedja; de utgör inte två oberoende vittnesmål. Den separata examenslängdens personbundna utbildningsbelägg kvarstår. Post 211 har ett yrkesditto till föregående rads osäkra Stud[?], inte ett säkert utbildnings- eller ortbelägg. Den äldre formuleringen ”oberoende bunden i tre led” nedan får inte tolkas som tre oberoende ursprung för kopierade personuppgifter.\n\nT-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n## Identitetsbedömning\n\nOskar Alfred föddes 1897-05-22 i Degerfors som son till arbetaren Johan Oskar\nZingmark, född `61 ²⁸/₅`, och hustrun Ida Sofia Andersdotter, född\n`67 ¹⁵/₁₂` ([C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md)).\nFaderns dag lästes ursprungligen 25/5 och i en mellanrättelse 19/5; båda är\nupphävda av omläsningen i\n[C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md)\noch av faderns egen födelsenotis\n[C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md).\nSamma pojke står som son i samma föräldrapars hushåll i Rosinedahl 1900 och\n1900–1909 med samma exakta födelsedatum\n([C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)),\noch 1910–1917 på folio 1064 med värnpliktsnummer 174, årsklass 1917\n([C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md)).\n\nKedjan därefter är oberoende bunden i tre led. Umeå landsförsamlings\nförsamlingsbok för samma värnpliktsnummer `174 ⁷⁰/₁₇` vidare på uppslag 2284\noch kallar honom seminarieelev\n([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md)),\nmed en reciprok egen inflyttningspost nr 211 i B I/11\n([C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md)).\nLuleå folkskoleseminariums examenslängd 1923 skriver `Zingmark, Oskar Alfred`\nmed `1897 ²²/₅` och `Degerfors`, vilket binder utbildningen till exakt denna\nperson ([C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md)).\nBurträsks församlingsbok fol 1006 upprepar `97 ²²/₅ Degerfors` och samma\nvärnpliktsnummer, och vigselboken 1932 hänvisar till samma sida 1006\n([C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md),\n[C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md)). Sammanföringen vilar\nalltså på exakt datum, födelseförsamling, värnpliktsnummer, yrke och\nsidhänvisning, inte på namnlikhet.\n\nGeni-utdraget [C-0001](../citations/C-0001-geni-utdrag.md) anger samma\nföräldrar, hustru, syskon och barn och tillförde död 1963-07-15 som `LEAD`.\nGravregistret bekräftar dagen men skriver Umeå **stads**församling\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md));\nkonflikten bevaras och avgörs av dödboken. Att föräldragården Ytterhiske N:o 2\nterritoriellt fördes över till Umeå stad 1925-01-01 gör stadsformen rimligare\nmen avgör den inte\n([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md),\n[C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)).\nBarnen P-0006 och P-0039–P-0041 är `OWNER_CONFIRMED`\n([PCD-2026-09-03-003](../../PROJECT-CONTROL.md#pcd-2026-09-03-003),\n[PCD-2026-09-03-004](../../PROJECT-CONTROL.md#pcd-2026-09-03-004)).\n\nIngen konkurrerande identitet för Oskar Alfred är känd. Nikanor och Olof\nKonrad Zingmark i samma by är egna personer med egna födelseår och hushåll\n([C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)).\nÖregrund som vigselort var en felläsning som prövats och avvisats\n([C-0045](../citations/C-0045-oregrund-negativ-kontroll-1932.md)). Den enda\nöppna identitetsfrågan i hushållet gäller P-0529 Hildur Aleksandra\nZingmark, som står `d.` på samma uppslag 1917–1918 men är född 1888-03-18,\nsex månader före Livia Sofia; hon hålls separat och propageras inte\n(C-0907). Identiteten för P-0001 är prövad, och antavlan får passera\npositionen.\n\n"
+    },
+    {
+      "id": "RESEARCH-P-0030-9d76f0343410",
+      "current_revision": "RESEARCH-P-0030-9d76f0343410@3",
+      "field": "body",
+      "before": "## Identitetsbedömning\n\nLivia Sofia är förankrad i fem lästa hushållsuppslag mellan 1888 och 1917:\nföräldrarnas nybildade hushåll i Buberget, folkräkningarna 1890 och 1900,\nDegerfors A II a/3 folio 963 och A II a/6 folio 1064. Namn, födelsedag\n1888-09-10, födelseförsamling, föräldrapar och syskonföljd är desamma i\nsamtliga. Hon är entydigt äldsta barnet, och hennes egen rad i den sista boken\nbär både yrke, utflyttningsnummer och destination. Ankaret är prövat.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md),\n[C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md)\n\nDe fem uppslagen är inte fem oberoende röster. Husförhörslängd,\nförsamlingsböcker och folkräkning tillhör samma administrativa kedja och\nkan ha fört födelsedagen vidare från samma första uppteckning; egen födelsenotis\ni Degerfors födelsebok 1888 är oläst. Sekundärträdet C-0001 är en familjeuppgift\noch räknas inte som självständigt belägg för datum.\n\nDen enda konkurrerande posten är [P-0529 Hildur Aleksandra Zingmark](../people/P-0529-hildur-aleksandra-zingmark.md),\nen dotter född 1888-03-18 som Umeå landsförsamling för i samma faderhushåll\n1917. De rapporterade datumen och hushållsrollerna bildar en olöst identitets-/moderskapsfråga. Kalenderintervallet ensamt bevisar inte vem modern är eller att datum och identiteter är korrekt återgivna. Personerna hålls separata; konflikten bevaras i P-0529:s aktuella forskningsobjekt utan att föras in som säker familjerelation.\n[C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md)\n\nEfter 1916-08-08 är identiteten framåt oprövad. Det gifta namnet Hällsten är\ntidigare tolkat från makens namn i sonens anteckning, men efternamnet är nu olöst efter riktad prövning och hennes egen lästa namnform är Zingmark; någon Malåpost, vigselnotis eller dödsnotis har inte\nöppnats. Ingen anlinje uppåt går genom henne, men hennes egen identitet i\nföräldrahushållet är bärande för syskonföljden.\n\n",
+      "after": "## Identitetsbedömning\n\nLivia Sofia är förankrad i fem lästa hushållsuppslag mellan 1888 och 1917:\nföräldrarnas nybildade hushåll i Buberget, folkräkningarna 1890 och 1900,\nDegerfors A II a/3 folio 963 och A II a/6 folio 1064. Namn, föräldrapar och syskonföljd binder hushållsposterna. Föredraget\nfödelsedatum 1888-09-10 återbrukas från C-0549, C-0574 och C-0890;\nfolkräkningsbladet C-0004 har endast ett tvåsiffrigt födelseår, inte samma\nexakta datum. C-0004:s egen födelseårscell på rad 3 har föredragen råläsning 89; 8 som sista siffra kan inte helt uteslutas i den lågupplösta bilden. Äldre avskrift 88 bevaras som läshistorik. Cellen saknar sekel, månad och dag och ger inte ett nytt fastställt födelsedatum. Föredraget 1888-09-10 kvarstår från de andra bokposterna; egen födelsenotis är fortfarande oläst. Hon är entydigt äldsta barnet, och hennes egen rad i den sista boken\nbär både yrke, utflyttningsnummer och destination. Ankaret är prövat.\n[C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md),\n[C-0060](../citations/C-0060-johan-oskar-zingmark-folkrakning-1890.md),\n[C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md),\n[C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md),\n[C-0890](../citations/C-0890-zingmark-rosinedahl-degerfors-1910-1920.md)\n\nDe fem uppslagen är inte fem oberoende röster. Husförhörslängd,\nförsamlingsböcker och folkräkning tillhör samma administrativa kedja och\nkan ha fört födelsedagen vidare från samma första uppteckning; egen födelsenotis\ni Degerfors födelsebok 1888 är oläst. Sekundärträdet C-0001 är en familjeuppgift\noch räknas inte som självständigt belägg för datum.\n\nDen enda konkurrerande posten är [P-0529 Hildur Aleksandra Zingmark](../people/P-0529-hildur-aleksandra-zingmark.md),\nen dotter född 1888-03-18 som Umeå landsförsamling för i samma faderhushåll\n1917. De rapporterade datumen och hushållsrollerna bildar en olöst identitets-/moderskapsfråga. Kalenderintervallet ensamt bevisar inte vem modern är eller att datum och identiteter är korrekt återgivna. Personerna hålls separata; konflikten bevaras i P-0529:s aktuella forskningsobjekt utan att föras in som säker familjerelation.\n[C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md)\n\nEfter 1916-08-08 är identiteten framåt oprövad. Det gifta namnet Hällsten är\ntidigare tolkat från makens namn i sonens anteckning, men efternamnet är nu olöst efter riktad prövning och hennes egen lästa namnform är Zingmark; någon Malåpost, vigselnotis eller dödsnotis har inte\nöppnats. Ingen anlinje uppåt går genom henne, men hennes egen identitet i\nföräldrahushållet är bärande för syskonföljden.\n\n"
+    }
+  ],
+  "approved_evidence_amendments": {
+    "research_rebase_targets": [
+      "CONTRACT-P-0030-PK-05",
+      "KEY-P-0030-74f8d1ba6394",
+      "P-0030/Q-01",
+      "P-0030/Q-02"
+    ],
+    "research_rebase_from": "RESEARCH-P-0030-9d76f0343410@3",
+    "research_rebase_to": "RESEARCH-P-0030-9d76f0343410@4",
+    "research_rebase_note": "Endast oförändrad reservation för makens efternamn i RESEARCH-P-0030@4; ingen ny namnidentifiering eller oberoende källröst.",
+    "C0574_TR_edge_role": "context",
+    "other_rebases": 0
+  },
+  "no_canonical_apply": true,
+  "no_pending_resolution": true
+}

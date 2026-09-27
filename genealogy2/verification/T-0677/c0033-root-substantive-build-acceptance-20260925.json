@@ -1,0 +1,33 @@
+{
+  "task": "T-0677",
+  "state": "ACCEPTED_SUBSTANTIVE_PACKAGE_FOR_ISOLATED_BUILD_ONLY",
+  "baseline": "journal189 pending0",
+  "inputs": {
+    "source": {
+      "file": "c0033-native-source-proposed-v2-20260925.json",
+      "sha256": "7eccb47b67978a569d87c75d57c2f1bb262b6d9fa56d021ce02c8da599ab074d"
+    },
+    "person": {
+      "file": "c0033-person-impact-proposed-20260925.json",
+      "sha256": "38cf19e95d003b94d6fef571285dea141b211c761e0e02197c31f8c2b586a234"
+    }
+  },
+  "root_checks": [
+    "All6 source objects read; full18matrix/header/rawprovenance and exactly3v2amendments independently reconstructed; locks matched.",
+    "All20personfields/rationales read; all13fullcurrent typed payload/revisions matched DB and exact replacements replayed; unchanged fields must remain.",
+    "Bothadoptionbodies read;29individualretainrationalesread. CurrentPK05/Q04/KP04 and affectedbio/BO/KEY/assessment/research context read.",
+    "AUDIT-T0676-20@1 capture/preservation/limits read to support strictly priornewcapture vs historicalmissingcopy precision. No graveoriginalreopened."
+  ],
+  "build_spec": {
+    "source_creates": 6,
+    "person_revisions": 13,
+    "person_fields": 20,
+    "adoption_creates": 2,
+    "total_objects": 21,
+    "adoption_criteria": "bounded_source_adoption/1",
+    "adoption_outcome": "adopted_with_limits",
+    "person_revision_metadata": "Preserve disposition/evidenceStatus/origins and previous evidence; exactchangedcaveats. Rationale compose approved individualfieldreasons plus T0677acceptance criterion reference. Add only approved prospectivesupport targets.",
+    "adoption_metadata": "recorded,null evidenceStatus,no origins; full approvedbody; basis supports exactlylisted, no automaticversionshift."
+  },
+  "limits": "No canonical apply yet. Full isolated actualdiff including typed/revision/origin/evidence and fullactualpending required. No automatic resolution from29retaincandidates. PreserveR@1 andallotherheads. Unexpected errors/questions returnAstra. C0034currentlygeometryonlyindependentwork; noC0034write."
+}

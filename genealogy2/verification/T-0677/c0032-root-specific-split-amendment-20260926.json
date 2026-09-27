@@ -1,0 +1,43 @@
+{
+  "task": "T-0677",
+  "date": "2026-09-26",
+  "state": "ROOT_SPECIFIC_EVIDENCE_AND_SPLIT_AMENDMENT_FOR_TEMP",
+  "input_person": {
+    "file": "c0032-person-impact-proposal-v3-20260926.json",
+    "sha256": "97eb792bdd83b6b3cebdb786b08b0a2b1db71ddc80f44ad001872d9a2a265e99"
+  },
+  "input_source": {
+    "file": "c0032-native-source-proposal-v2-20260926.json",
+    "sha256": "86a8f1a5d86349e2fddd724026f7efae2ec7ce304e3054be11d4eaadfa241e18"
+  },
+  "specific_edge_change": {
+    "dependent": "E-death-P-0042",
+    "basis": "R-05055c1adb1f17278c7a5ec6",
+    "old_version": 1,
+    "new_version": 2,
+    "role": "supports",
+    "old_note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen.",
+    "new_note": "Sakligt omprövad C-0032-post: Karl Fredriks egen dödscell på rad 16 anger 29/12 och Charlottas änkecell på rad 17 anger rå24/12 med reserverade årstecken. Samma hushållsbok; datumalternativen i dödshändelsen kvarstår.",
+    "rationale": "Händelsens nya literal preciserar båda personernas celler enligt R@2 och nya TR/O. R@2 bevarar samma original, media och Karls29/12, men tillför Charlottas24/12 med reservation. Den uttryckligt omprövade händelsen ska därför åberopa just den nya källavgränsningen. Datumalternativ, andra belägg och händelsestatus är oförändrade. Detta är ett specifikt sakbeslut för en enda kant, inte automatisk rebase."
+  },
+  "partition": [
+    {
+      "operation": "T-0677/C0032-source-v1",
+      "changes": 6,
+      "description": "Oförändrad godkänd sourceoperation."
+    },
+    {
+      "operation": "T-0677/C0032-person-v2",
+      "changes": 50,
+      "description": "Alla51 personförslagsändringar utom O-P-0042-death1937-death_entry, med enbart ovan beslutade E-death-kantändring. Adoptionsobjektet behåller den historiska O@1-referensen."
+    },
+    {
+      "operation": "T-0677/C0032-death-observation-caveat-v1",
+      "changes": 1,
+      "description": "Sist exakt O-P-0042-death1937-death_entry-förslagets caveatprecision. Sakdata och gamla kanter oförändrade. Eventuella beroendebegäranden från detta steg bedöms individuellt."
+    }
+  ],
+  "historical_edge_decision": "ADOPT-T0677-C0032-P-0042 använder Odeath@1 som tidigare läst separat dödbokspost, med samma24/12-värde som kommande@2. @2 preciserar bara hänvisningen till annan posts rad16 i caveat. Historiskt@1 bevaras i adoptionens versionsbundna stöd; ingen ny originaltolkning eller ombindning till@2 behövs.",
+  "checks": "Root har själv inventerat alla explicita personkanter mot aktuella/planderade heads och hittat exakt dessa två hinder, i överensstämmelse med Solrapport.",
+  "limits": "Endast ny TEMP-körning godkänd. Ingen canonicalapply eller resolution. Spara samtliga57fullobjekt och samtliga faktiska pending efter tre steg för rootprövning."
+}

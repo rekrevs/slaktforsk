@@ -1,0 +1,172 @@
+{
+  "task": "T-0677",
+  "status": "LOCKED_INDEPENDENT_STAGE1_MAPPING_CONFLICT_FLAGGED",
+  "reader": "Astra /root/c0004_control",
+  "prior_knowledge": "Dokumentär TR/READ och T0123-citation kända; root stage1-karta inte läst. Inte avskriftsblind.",
+  "authorization": {
+    "file": "c0034-root-stage1-plan-acceptance-20260925.json",
+    "sha256": "e3faf5379db83b48b1d9b97acabb8c545173285678db7835b05ea105f4c008ad"
+  },
+  "asset": {
+    "path": "genealogy/media/C-0034-riksarkivet-SE-ULA-10257-EI4-bild-17-sida-14.jpg",
+    "sha256": "a2c08811c1a8a4dcde11521c3ed96b4def26b0d31056c1cd318ab5f301731868",
+    "hash_verified_before_display": true,
+    "dimensions": [
+      5237,
+      4076
+    ]
+  },
+  "title": {
+    "left": "1938 års Lysningsbok för Flens",
+    "right": "församling och dess Vigselbok för år1938",
+    "printed_page_left": "14",
+    "printed_page_right": "14",
+    "reservation": "Årstal kombinerar förtryckta19 och handskrivna38. Flens handskrivet."
+  },
+  "headers": [
+    {
+      "number": 1,
+      "parent": null,
+      "raw": "Inskrivningens löpande årsnummer.",
+      "reservation": null
+    },
+    {
+      "number": 2,
+      "parent": null,
+      "raw": "Lysningsdagar.",
+      "reservation": null
+    },
+    {
+      "number": 3,
+      "parent": null,
+      "raw": "För- och tillnamn, yrke, bostad, nationalitet och religionsbekännelse (om främmande).",
+      "reservation": null
+    },
+    {
+      "number": 4,
+      "parent": "Född",
+      "raw": "år.",
+      "reservation": null
+    },
+    {
+      "number": 5,
+      "parent": "Född",
+      "raw": "dag o. månad.",
+      "reservation": null
+    },
+    {
+      "number": 6,
+      "parent": null,
+      "raw": "Uppslag i församlingsboken.",
+      "reservation": null
+    },
+    {
+      "number": 7,
+      "parent": null,
+      "raw": "Anteckningar om vederbörandes samtycke; äktenskapsbetyg eller äktenskapscertifikat; åldersdispens m. m.",
+      "reservation": null
+    },
+    {
+      "number": 8,
+      "parent": null,
+      "raw": "Fakultativ eller obligatorisk borgerlig vigsel.",
+      "reservation": null
+    },
+    {
+      "number": 9,
+      "parent": "Vigde",
+      "raw": "månad.",
+      "reservation": null
+    },
+    {
+      "number": 10,
+      "parent": "Vigde",
+      "raw": "dag.",
+      "reservation": null
+    },
+    {
+      "number": 11,
+      "parent": null,
+      "raw": "Vilket äktenskap i ordningen.",
+      "reservation": null
+    },
+    {
+      "number": 12,
+      "parent": null,
+      "raw": "Vigselförrättare.",
+      "reservation": null
+    },
+    {
+      "number": 13,
+      "parent": null,
+      "raw": "Särskilda anteckningar, såsom om avsända eller mottagna attester, om avtal angående barns uppfostran i viss troslära, hänvisning till ett föregående års lysningsbok eller ett senare års vigselbok, m. m.",
+      "reservation": null
+    }
+  ],
+  "typography": "Radslutsavstavning sammanfogad, spärrning normaliserad till ord.",
+  "geometry": {
+    "target": "nr16, nedersta postbandet över båda sidorna",
+    "left_columns": [
+      1,
+      7
+    ],
+    "right_columns": [
+      8,
+      13
+    ],
+    "printed_numbered_columns": 13,
+    "approx_source_pixel_bounds": {
+      "left": [
+        220,
+        3440,
+        2520,
+        3855
+      ],
+      "right": [
+        2740,
+        3450,
+        5060,
+        3855
+      ]
+    },
+    "coordinate_limit": "Visuellt ungefärliga koordinater; sneda linjer och skriftslängar behöver beaktas, inte pixelprecis mask.",
+    "party_allocation": "Kolumn3 har tryckt M. för övre part och Kv. för nedre part; kolumn4–6 följer samma två höjdnivåer. Kolumn11 har också två partnivåer.",
+    "common_fields": "Kolumn1/2 är postens nummer respektive lysningsdagar; kolumn7 gemensamt flerlinjigt anteckningsfält vars sakliga aktörsfördelning inte lästs här. Kolumn8–10 och12–13 gemensamma postfält.",
+    "margin": "Posten slutar vid tabellens bottenram; ingen fortsättning till annan bild påvisad. Inga andra poster utvunna.",
+    "physical_units_candidate": 18,
+    "unit_count_note": "13 numrerade kolumner med fem partdelade kolumner3,4,5,6,11 ger18 enheter; kolumn7 behålls gemensam tills sakläsningen visar annan struktur."
+  },
+  "concrete_conflict": {
+    "triggered": true,
+    "issue": "Sista tryckta kolumnen avläses 13, inte14 som äldre uttrycklig blankreferens i T0123/citation/KP07.",
+    "action": "Stoppar beroende remapping av det tidigare blankpåståendet; ingen ny blankkontroll utförd. Root behöver jämföra separat rubrikkarta och besluta om den äldre blankheten semantiskt avser detta anteckningsfält trots fel nummer.",
+    "raw_value_conflict": false
+  },
+  "method": "Helbild endast för rubrik-/bandgeometri, två headercrops; ingen datacell nyavläst.",
+  "crops": [
+    {
+      "path": "/tmp/c0034-independent-header-left.png",
+      "xywh": [
+        205,
+        290,
+        2370,
+        350
+      ]
+    },
+    {
+      "path": "/tmp/c0034-independent-header-right.png",
+      "xywh": [
+        2720,
+        310,
+        2360,
+        350
+      ]
+    }
+  ],
+  "limits": [
+    "Ingen kolumn13/äldre14blankkontroll.",
+    "Ingen samtyckes- eller förrättartext nyavläst; inga positiva namn/datum/orter omlästa.",
+    "Ingen annan bild eller post, ingen canonicalmutation.",
+    "Ingen gapaktivering genom detta lås."
+  ]
+}

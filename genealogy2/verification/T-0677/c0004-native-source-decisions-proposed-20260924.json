@@ -1,0 +1,1501 @@
+{
+  "task": "T-0677",
+  "state": "ASTRA_SOURCE_PROPOSAL_NOT_APPLY",
+  "scope": "C4 source-only; no image reopened for this proposal, no canonical/Wotan mutation.",
+  "locks": [
+    {
+      "path": "genealogy2/verification/T-0677/c0004-documentary-reuse-candidate-20260924.json",
+      "sha256": "5534d9d523a7f3f69d35770d0063bdd1970bd336dff07e759b9834be535f56ed"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0004-root-stage1-header-gapmask-20260924.json",
+      "sha256": "b842c36242e59374a9e4086c7d8cf8b08137b15a5e6e082e6a65d918920ef1be"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0004-root-gap-control-20260924.json",
+      "sha256": "a3ae697a5262f60c2e13086cc201767aa6dee53d15612390ec144cef265a91a4"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0004-root-row3-year-control-20260924.json",
+      "sha256": "ca093acc8aa44d26b135376f9137aecc3d7713c527b2b738bb5bb9e0d2e97082"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0004-independent-gap-control-20260924.json",
+      "sha256": "7d4fac16c4ccb1f76989d0abb6ad2edeb7dd96682721095fc9a3c54386669a0b"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0004-independent-row3-year-20260924.json",
+      "sha256": "8d3ba0f49f6fdd0a37d7f304aa097100a82ed2054c5af0431c462ad959d39163"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0004-independent-comparison-20260924.json",
+      "sha256": "eaf1a4b24ffd1a847e94e6c012d3bd9795aa9507f2a3d014c4216d24d83b5782"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0004-root-comparison-acceptance-20260924.json",
+      "sha256": "76d50a396711d20885d012053b55e76aa9f22eca232e7f6b2f795c1c7ee389de"
+    }
+  ],
+  "retained_record": {
+    "id": "R-31970be0126dcd188cd61fd1@1",
+    "reason": "Samma avgränsade post, källa, locator och mediehash. Ny läsning motiverar inte ny R-version och bred omprövningskaskad."
+  },
+  "historical_preservation": [
+    "TR-a8032582dc1ddfcd8e94d243@1 unchanged",
+    "All FIRST/SECOND locks unchanged",
+    "O-P-0001-C0004-household@1 remains append-only",
+    "READ-1b6b3b4126358da6e0912cd7@1 remains historical"
+  ],
+  "proposed_changes": [
+    {
+      "id": "TR-T0677-C0004-consolidated-control",
+      "kind": "transcription",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "record_id": "R-31970be0126dcd188cd61fd1",
+          "text": "C-0004: konsoliderad källavskrift, dokumentärt återbruk plus avgränsad kontroll.\nSista sammanhängande hushållsklammern före Summa, exakt åtta rader: Johan Oskar Zingmark till Petrus Nikolaus. Föregående person och sidans totalsumma ligger utanför. Vänstermarkeringen hör till Hushåll eller matlag och fastställer inget globalt familjeordningsnummer; äldre locator familj 1 återbrukas som locator.\n24 fysiska celler dokumentärt återbrukade och 80 kontrollerade, därav 79 gapceller och riktat r3-år. Detta är inte 104 nyavlästa celler. Tomma celler ger inga negativa personfakta; inga nya köns-, samfunds-, nationalitets-, hälsopåståenden eller identitetsbeslut. Födelseårsavvikelsen avser källan, inte en fastställd ändring av P-0030:s födelsedatum. Utdrag och grundbok/index är samma möjliga bokföringskedja.\nTryckta rubriker och underkolumner:\n1 | name_role | By eller lägenhet (qvarter eller rote i stad). (bynsnamnet skrifves på särskild rad och understrykes.) Namn (fullständigt) å hvarje person; familjeställning (h.=hustru, s.=son, d.=dotter o.s.v.); titel (om annan än den i kol2angifna); icke döpt.\n2[?] | occupation_tribe_impairment | Yrke (tjenst, näringsfång). Stam (främmande). Lyte (fallandesot, sinnessjuk, idiot [föredragen lågupplöst läsning], blind, döfstum).\n3 | birth_year | Födelse-år.\n6 [föredragen, lågupplöst] | birthplace | Födelse-ort (församling i län eller i stad).\ngemensamt 7–[oläst slut] | unmarried_m | Ogift/m.\ngemensamt 7–[oläst slut] | unmarried_q | Ogift/q.\ngemensamt 7–[oläst slut] | married_m | Gift/m.\ngemensamt 7–[oläst slut] | married_q | Gift/q.\ngemensamt 7–[oläst slut] | widower | Enkling.\ngemensamt 7–[oläst slut] | widow | Enka.\ngemensamt 7–[oläst slut] | divorced_m | Frånskild/m.\ngemensamt 7–[oläst slut] | divorced_q | Frånskild/q.\n14 | belief_nationality_absence | Trosbekännelse (främmande). Utträde ur svenska kyrkan. Nationalitet (främmande). Frånvarande.\nCellmatris (blank = läst tom, inte oläst):\nr1 | name_role | read | Johan Oskar Zingmark | documentary_reuse | \nr1 | occupation_tribe_impairment | read | Sågställare | documentary_reuse | \nr1 | birth_year | read | 61 | documentary_reuse | \nr1 | birthplace | read | Säfvar, Vbttn | documentary_reuse | \nr1 | unmarried_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr1 | unmarried_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr1 | married_m | read | / | locked_gap_controls_and_accepted_comparison | Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\nr1 | married_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr1 | widower | blank |  | locked_gap_controls_and_accepted_comparison | \nr1 | widow | blank |  | locked_gap_controls_and_accepted_comparison | \nr1 | divorced_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr1 | divorced_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr1 | belief_nationality_absence | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | name_role | read | h. Ida Sofia Andersd:r | documentary_reuse | \nr2 | occupation_tribe_impairment | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | birth_year | read | 67 | documentary_reuse | \nr2 | birthplace | read | Förs. | documentary_reuse | \nr2 | unmarried_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | unmarried_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | married_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | married_q | read | / | locked_gap_controls_and_accepted_comparison | Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\nr2 | widower | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | widow | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | divorced_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | divorced_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr2 | belief_nationality_absence | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | name_role | read | d. Livia Sofia | documentary_reuse | \nr3 | occupation_tribe_impairment | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | birth_year | uncertain | 89 | locked_targeted_control_and_accepted_comparison | 89 föredras av båda låsta kontroller; lågupplöst 8/9-reservation kvarstår. Ingen sekelsiffra i cellen; ingen ändring av persondatum.\nr3 | birthplace | read | dito | documentary_reuse | dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\nr3 | unmarried_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | unmarried_q | read | / | locked_gap_controls_and_accepted_comparison | Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\nr3 | married_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | married_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | widower | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | widow | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | divorced_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | divorced_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr3 | belief_nationality_absence | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | name_role | read | d. Astrid Maria | documentary_reuse | \nr4 | occupation_tribe_impairment | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | birth_year | read | 90 | documentary_reuse | \nr4 | birthplace | read | dito | documentary_reuse | dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\nr4 | unmarried_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | unmarried_q | read | / | locked_gap_controls_and_accepted_comparison | Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\nr4 | married_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | married_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | widower | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | widow | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | divorced_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | divorced_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr4 | belief_nationality_absence | uncertain | [en liten isolerad prick] | locked_gap_controls_and_accepted_comparison | Synligt otytt spår; ursprung och betydelse oavgjorda. Varken brus, pappersspår eller registrerad uppgift fastställs.\nr5 | name_role | read | s. Anders Valdemar | documentary_reuse | \nr5 | occupation_tribe_impairment | blank |  | locked_gap_controls_and_accepted_comparison | \nr5 | birth_year | read | 92 | documentary_reuse | \nr5 | birthplace | read | dito | documentary_reuse | dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\nr5 | unmarried_m | read | / | locked_gap_controls_and_accepted_comparison | Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\nr5 | unmarried_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr5 | married_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr5 | married_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr5 | widower | blank |  | locked_gap_controls_and_accepted_comparison | \nr5 | widow | blank |  | locked_gap_controls_and_accepted_comparison | \nr5 | divorced_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr5 | divorced_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr5 | belief_nationality_absence | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | name_role | read | s. Johan Magnus | documentary_reuse | \nr6 | occupation_tribe_impairment | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | birth_year | read | 94 | documentary_reuse | \nr6 | birthplace | read | dito | documentary_reuse | dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\nr6 | unmarried_m | read | / | locked_gap_controls_and_accepted_comparison | Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\nr6 | unmarried_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | married_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | married_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | widower | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | widow | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | divorced_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | divorced_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr6 | belief_nationality_absence | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | name_role | read | s. Oskar Alfred | documentary_reuse | \nr7 | occupation_tribe_impairment | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | birth_year | read | 97 | documentary_reuse | \nr7 | birthplace | read | dito | documentary_reuse | dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\nr7 | unmarried_m | read | / | locked_gap_controls_and_accepted_comparison | Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\nr7 | unmarried_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | married_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | married_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | widower | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | widow | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | divorced_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | divorced_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr7 | belief_nationality_absence | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | name_role | read | s. Petrus Nikolaus | documentary_reuse | \nr8 | occupation_tribe_impairment | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | birth_year | read | 99 | documentary_reuse | \nr8 | birthplace | read | dito | documentary_reuse | dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\nr8 | unmarried_m | read | / | locked_gap_controls_and_accepted_comparison | Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\nr8 | unmarried_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | married_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | married_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | widower | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | widow | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | divorced_m | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | divorced_q | blank |  | locked_gap_controls_and_accepted_comparison | \nr8 | belief_nationality_absence | blank |  | locked_gap_controls_and_accepted_comparison | ",
+          "reading_note": "24 fysiska celler dokumentärt återbrukade och 80 kontrollerade, därav 79 gapceller och riktat r3-år. Detta är inte 104 nyavlästa celler. Tomma celler ger inga negativa personfakta; inga nya köns-, samfunds-, nationalitets-, hälsopåståenden eller identitetsbeslut. Födelseårsavvikelsen avser källan, inte en fastställd ändring av P-0030:s födelsedatum. Utdrag och grundbok/index är samma möjliga bokföringskedja. Versionsbundet återbruk per cell samt låsta FIRST/SECOND-artifacts och jämförelse i AUDIT-T0677-C0004. Historisk TR-a8032582dc1ddfcd8e94d243@1 bevaras."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: full egenpoststäckning genom tillräckligt återbruk och avgränsad ny kontroll.",
+        "caveat": "År r3 reserverat; dito återbrukat semantiskt; högerfält r4 med otydd prick; tryckt numrering reserverad.",
+        "evidence": [
+          {
+            "object": "R-31970be0126dcd188cd61fd1",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma avgränsade källa och mediehash, ingen oberoende röst."
+          },
+          {
+            "object": "TR-a8032582dc1ddfcd8e94d243",
+            "version": 1,
+            "role": "derived_from",
+            "note": "24 celler återbrukas uttryckligen; övriga gamla värden blir inte facit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "AUDIT-T0677-C0004",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "subject_id": "R-31970be0126dcd188cd61fd1",
+          "criteria": "original_revision/1",
+          "outcome": "reviewed_with_reservations",
+          "body": "{\"scope\": \"Sista sammanhängande hushållsklammern före Summa, exakt åtta rader: Johan Oskar Zingmark till Petrus Nikolaus. Föregående person och sidans totalsumma ligger utanför. Vänstermarkeringen hör till Hushåll eller matlag och fastställer inget globalt familjeordningsnummer; äldre locator familj 1 återbrukas som locator.\", \"coverage_counts\": {\"physical_cells\": 104, \"documentary_reuse\": 24, \"controlled\": 80, \"initial_gap\": 79, \"targeted_year\": 1}, \"coverage\": [{\"row\": 1, \"column\": \"name_role\", \"raw_or_reused\": \"Johan Oskar Zingmark\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 1, \"column\": \"name_role\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 1, \"column\": \"occupation_tribe_impairment\", \"raw_or_reused\": \"Sågställare\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 1, \"column\": \"occupation_tribe_impairment\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 1, \"column\": \"birth_year\", \"raw_or_reused\": \"61\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 1, \"column\": \"birth_year\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 1, \"column\": \"birthplace\", \"raw_or_reused\": \"Säfvar, Vbttn\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 1, \"column\": \"birthplace\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 1, \"column\": \"unmarried_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 1, \"column\": \"unmarried_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 1, \"column\": \"married_m\", \"raw_or_reused\": \"/\", \"status\": \"read\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\"}, {\"row\": 1, \"column\": \"married_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 1, \"column\": \"widower\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 1, \"column\": \"widow\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 1, \"column\": \"divorced_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 1, \"column\": \"divorced_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 1, \"column\": \"belief_nationality_absence\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"name_role\", \"raw_or_reused\": \"h. Ida Sofia Andersd:r\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 2, \"column\": \"name_role\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 2, \"column\": \"occupation_tribe_impairment\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"birth_year\", \"raw_or_reused\": \"67\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 2, \"column\": \"birth_year\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 2, \"column\": \"birthplace\", \"raw_or_reused\": \"Förs.\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 2, \"column\": \"birthplace\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 2, \"column\": \"unmarried_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"unmarried_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"married_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"married_q\", \"raw_or_reused\": \"/\", \"status\": \"read\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\"}, {\"row\": 2, \"column\": \"widower\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"widow\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"divorced_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"divorced_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 2, \"column\": \"belief_nationality_absence\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"name_role\", \"raw_or_reused\": \"d. Livia Sofia\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 3, \"column\": \"name_role\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 3, \"column\": \"occupation_tribe_impairment\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"birth_year\", \"raw_or_reused\": \"89\", \"status\": \"uncertain\", \"basis\": \"locked_targeted_control_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"89 föredras av båda låsta kontroller; lågupplöst 8/9-reservation kvarstår. Ingen sekelsiffra i cellen; ingen ändring av persondatum.\", \"prior_reading\": {\"value\": \"88\", \"revision\": \"TR-a8032582dc1ddfcd8e94d243@1\"}}, {\"row\": 3, \"column\": \"birthplace\", \"raw_or_reused\": \"dito\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 3, \"column\": \"birthplace\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\"}, {\"row\": 3, \"column\": \"unmarried_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"unmarried_q\", \"raw_or_reused\": \"/\", \"status\": \"read\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\"}, {\"row\": 3, \"column\": \"married_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"married_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"widower\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"widow\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"divorced_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"divorced_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 3, \"column\": \"belief_nationality_absence\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"name_role\", \"raw_or_reused\": \"d. Astrid Maria\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 4, \"column\": \"name_role\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 4, \"column\": \"occupation_tribe_impairment\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"birth_year\", \"raw_or_reused\": \"90\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 4, \"column\": \"birth_year\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 4, \"column\": \"birthplace\", \"raw_or_reused\": \"dito\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 4, \"column\": \"birthplace\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\"}, {\"row\": 4, \"column\": \"unmarried_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"unmarried_q\", \"raw_or_reused\": \"/\", \"status\": \"read\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\"}, {\"row\": 4, \"column\": \"married_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"married_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"widower\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"widow\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"divorced_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"divorced_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 4, \"column\": \"belief_nationality_absence\", \"raw_or_reused\": \"[en liten isolerad prick]\", \"status\": \"uncertain\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt otytt spår; ursprung och betydelse oavgjorda. Varken brus, pappersspår eller registrerad uppgift fastställs.\"}, {\"row\": 5, \"column\": \"name_role\", \"raw_or_reused\": \"s. Anders Valdemar\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 5, \"column\": \"name_role\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 5, \"column\": \"occupation_tribe_impairment\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 5, \"column\": \"birth_year\", \"raw_or_reused\": \"92\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 5, \"column\": \"birth_year\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 5, \"column\": \"birthplace\", \"raw_or_reused\": \"dito\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 5, \"column\": \"birthplace\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\"}, {\"row\": 5, \"column\": \"unmarried_m\", \"raw_or_reused\": \"/\", \"status\": \"read\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\"}, {\"row\": 5, \"column\": \"unmarried_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 5, \"column\": \"married_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 5, \"column\": \"married_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 5, \"column\": \"widower\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 5, \"column\": \"widow\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 5, \"column\": \"divorced_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 5, \"column\": \"divorced_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 5, \"column\": \"belief_nationality_absence\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"name_role\", \"raw_or_reused\": \"s. Johan Magnus\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 6, \"column\": \"name_role\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 6, \"column\": \"occupation_tribe_impairment\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"birth_year\", \"raw_or_reused\": \"94\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 6, \"column\": \"birth_year\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 6, \"column\": \"birthplace\", \"raw_or_reused\": \"dito\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 6, \"column\": \"birthplace\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\"}, {\"row\": 6, \"column\": \"unmarried_m\", \"raw_or_reused\": \"/\", \"status\": \"read\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\"}, {\"row\": 6, \"column\": \"unmarried_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"married_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"married_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"widower\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"widow\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"divorced_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"divorced_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 6, \"column\": \"belief_nationality_absence\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"name_role\", \"raw_or_reused\": \"s. Oskar Alfred\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 7, \"column\": \"name_role\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 7, \"column\": \"occupation_tribe_impairment\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"birth_year\", \"raw_or_reused\": \"97\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 7, \"column\": \"birth_year\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 7, \"column\": \"birthplace\", \"raw_or_reused\": \"dito\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 7, \"column\": \"birthplace\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\"}, {\"row\": 7, \"column\": \"unmarried_m\", \"raw_or_reused\": \"/\", \"status\": \"read\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\"}, {\"row\": 7, \"column\": \"unmarried_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"married_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"married_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"widower\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"widow\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"divorced_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"divorced_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 7, \"column\": \"belief_nationality_absence\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"name_role\", \"raw_or_reused\": \"s. Petrus Nikolaus\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 8, \"column\": \"name_role\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 8, \"column\": \"occupation_tribe_impairment\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"birth_year\", \"raw_or_reused\": \"99\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 8, \"column\": \"birth_year\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"\"}, {\"row\": 8, \"column\": \"birthplace\", \"raw_or_reused\": \"dito\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-a8032582dc1ddfcd8e94d243@1\"], \"exact_reuse_location\": {\"field\": \"text\", \"nonempty_household_line\": 8, \"column\": \"birthplace\", \"legacy_unit\": \"84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3\", \"document\": \"genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md\", \"lines\": [28, 42]}, \"reservation\": \"dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito.\"}, {\"row\": 8, \"column\": \"unmarried_m\", \"raw_or_reused\": \"/\", \"status\": \"read\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs.\"}, {\"row\": 8, \"column\": \"unmarried_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"married_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"married_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"widower\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"widow\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"divorced_m\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"divorced_q\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}, {\"row\": 8, \"column\": \"belief_nationality_absence\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"locked_gap_controls_and_accepted_comparison\", \"exact_reuse_refs\": [], \"reservation\": \"\"}], \"headers\": [{\"key\": \"name_role\", \"printed_number\": \"1\", \"heading\": \"By eller lägenhet (qvarter eller rote i stad). (bynsnamnet skrifves på särskild rad och understrykes.) Namn (fullständigt) å hvarje person; familjeställning (h.=hustru, s.=son, d.=dotter o.s.v.); titel (om annan än den i kol2angifna); icke döpt.\", \"x_native\": [27, 280]}, {\"key\": \"occupation_tribe_impairment\", \"printed_number\": \"2[?]\", \"heading\": \"Yrke (tjenst, näringsfång). Stam (främmande). Lyte (fallandesot, sinnessjuk, idiot [föredragen lågupplöst läsning], blind, döfstum).\", \"x_native\": [280, 402]}, {\"key\": \"birth_year\", \"printed_number\": \"3\", \"heading\": \"Födelse-år.\", \"x_native\": [402, 433]}, {\"key\": \"birthplace\", \"printed_number\": \"6 [föredragen, lågupplöst]\", \"heading\": \"Födelse-ort (församling i län eller i stad).\", \"x_native\": [433, 549]}, {\"key\": \"unmarried_m\", \"printed_number\": \"gemensamt 7–[oläst slut]\", \"heading\": \"Ogift/m.\", \"x_native\": [549, 568]}, {\"key\": \"unmarried_q\", \"printed_number\": \"gemensamt 7–[oläst slut]\", \"heading\": \"Ogift/q.\", \"x_native\": [568, 584]}, {\"key\": \"married_m\", \"printed_number\": \"gemensamt 7–[oläst slut]\", \"heading\": \"Gift/m.\", \"x_native\": [584, 600]}, {\"key\": \"married_q\", \"printed_number\": \"gemensamt 7–[oläst slut]\", \"heading\": \"Gift/q.\", \"x_native\": [600, 616]}, {\"key\": \"widower\", \"printed_number\": \"gemensamt 7–[oläst slut]\", \"heading\": \"Enkling.\", \"x_native\": [616, 634]}, {\"key\": \"widow\", \"printed_number\": \"gemensamt 7–[oläst slut]\", \"heading\": \"Enka.\", \"x_native\": [634, 651]}, {\"key\": \"divorced_m\", \"printed_number\": \"gemensamt 7–[oläst slut]\", \"heading\": \"Frånskild/m.\", \"x_native\": [651, 664]}, {\"key\": \"divorced_q\", \"printed_number\": \"gemensamt 7–[oläst slut]\", \"heading\": \"Frånskild/q.\", \"x_native\": [664, 677]}, {\"key\": \"belief_nationality_absence\", \"printed_number\": \"14\", \"heading\": \"Trosbekännelse (främmande). Utträde ur svenska kyrkan. Nationalitet (främmande). Frånvarande.\", \"x_native\": [677, 780]}], \"locks\": [{\"path\": \"genealogy2/verification/T-0677/c0004-documentary-reuse-candidate-20260924.json\", \"sha256\": \"5534d9d523a7f3f69d35770d0063bdd1970bd336dff07e759b9834be535f56ed\"}, {\"path\": \"genealogy2/verification/T-0677/c0004-root-stage1-header-gapmask-20260924.json\", \"sha256\": \"b842c36242e59374a9e4086c7d8cf8b08137b15a5e6e082e6a65d918920ef1be\"}, {\"path\": \"genealogy2/verification/T-0677/c0004-root-gap-control-20260924.json\", \"sha256\": \"a3ae697a5262f60c2e13086cc201767aa6dee53d15612390ec144cef265a91a4\"}, {\"path\": \"genealogy2/verification/T-0677/c0004-root-row3-year-control-20260924.json\", \"sha256\": \"ca093acc8aa44d26b135376f9137aecc3d7713c527b2b738bb5bb9e0d2e97082\"}, {\"path\": \"genealogy2/verification/T-0677/c0004-independent-gap-control-20260924.json\", \"sha256\": \"7d4fac16c4ccb1f76989d0abb6ad2edeb7dd96682721095fc9a3c54386669a0b\"}, {\"path\": \"genealogy2/verification/T-0677/c0004-independent-row3-year-20260924.json\", \"sha256\": \"8d3ba0f49f6fdd0a37d7f304aa097100a82ed2054c5af0431c462ad959d39163\"}, {\"path\": \"genealogy2/verification/T-0677/c0004-independent-comparison-20260924.json\", \"sha256\": \"eaf1a4b24ffd1a847e94e6c012d3bd9795aa9507f2a3d014c4216d24d83b5782\"}, {\"path\": \"genealogy2/verification/T-0677/c0004-root-comparison-acceptance-20260924.json\", \"sha256\": \"76d50a396711d20885d012053b55e76aa9f22eca232e7f6b2f795c1c7ee389de\"}], \"source_sha256\": \"f5052aeb1042aa29cda002060057133f0fc2ef76d20975b69a42b8871938bce1\", \"legacy_preservation\": \"TR-a8032582dc1ddfcd8e94d243@1 behålls oförändrad som historisk transkription; ny TR är aktuell konsoliderad läsning. Äldre 88 bevaras, föredraget 89 är reserverat.\", \"limitations\": \"24 fysiska celler dokumentärt återbrukade och 80 kontrollerade, därav 79 gapceller och riktat r3-år. Detta är inte 104 nyavlästa celler. Tomma celler ger inga negativa personfakta; inga nya köns-, samfunds-, nationalitets-, hälsopåståenden eller identitetsbeslut. Födelseårsavvikelsen avser källan, inte en fastställd ändring av P-0030:s födelsedatum. Utdrag och grundbok/index är samma möjliga bokföringskedja.\", \"person_impact\": \"Separat varsas_review/root-bedömning; ingen automatisk personändring.\", \"task_acceptance\": \"T-0677 C4 egenpostens fulla celltäckning och kontrollerade reservationer, inte hela uppgiftens eller personkontraktets godkännande.\"}"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: cellvis källrevision med 24 återbrukade och 80 kontrollerade celler.",
+        "caveat": "24 fysiska celler dokumentärt återbrukade och 80 kontrollerade, därav 79 gapceller och riktat r3-år. Detta är inte 104 nyavlästa celler. Tomma celler ger inga negativa personfakta; inga nya köns-, samfunds-, nationalitets-, hälsopåståenden eller identitetsbeslut. Födelseårsavvikelsen avser källan, inte en fastställd ändring av P-0030:s födelsedatum. Utdrag och grundbok/index är samma möjliga bokföringskedja.",
+        "evidence": [
+          {
+            "object": "TR-T0677-C0004-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell konsoliderad källaudit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "READ-1b6b3b4126358da6e0912cd7",
+      "kind": "assessment",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "subject_id": "R-31970be0126dcd188cd61fd1",
+          "criteria": "original_revision/1",
+          "outcome": "reviewed_with_reservations",
+          "body": "Sista sammanhängande hushållsklammern före Summa, exakt åtta rader: Johan Oskar Zingmark till Petrus Nikolaus. Föregående person och sidans totalsumma ligger utanför. Vänstermarkeringen hör till Hushåll eller matlag och fastställer inget globalt familjeordningsnummer; äldre locator familj 1 återbrukas som locator.\n24 fysiska celler dokumentärt återbrukade och 80 kontrollerade, därav 79 gapceller och riktat r3-år. Detta är inte 104 nyavlästa celler. Tomma celler ger inga negativa personfakta; inga nya köns-, samfunds-, nationalitets-, hälsopåståenden eller identitetsbeslut. Födelseårsavvikelsen avser källan, inte en fastställd ändring av P-0030:s födelsedatum. Utdrag och grundbok/index är samma möjliga bokföringskedja.\nHistorisk READ@1 och TR@1 bevaras. Aktuell konsoliderad läsning: TR-T0677-C0004-consolidated-control@1; cellvis audit: AUDIT-T0677-C0004@1. Sex registrerade barn inklusive Oskar innebär fem syskon på just sidan, inte sex syskon eller hela föräldrarnas barnaskara."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: komplettera den återbrukade läsgränsen med explicit kontrollerad celltäckning och reservationer.",
+        "caveat": "Ingen personkontraktsbedömning eller T-0732-negativ slutning.",
+        "evidence": [
+          {
+            "object": "R-31970be0126dcd188cd61fd1",
+            "version": 1,
+            "role": "derived_from",
+            "note": ""
+          },
+          {
+            "object": "TR-T0677-C0004-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": ""
+          },
+          {
+            "object": "AUDIT-T0677-C0004",
+            "version": 1,
+            "role": "derived_from",
+            "note": ""
+          }
+        ],
+        "origins": [
+          {
+            "unit_id": "807940f57ccb6410bf077490c313682c141ac95312332af355fb409b038919f7",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "c58a6527399d486364d7b8e837b0f57d744f64af4443acb34c5675e0cc3f52b7",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "2d4262df6d030edb26969d4f3ad093e01c4139395a2f3db4425aa96c0e98aa62",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "852f26686506462b5085afa673f1d84aac7d99bd2bbee11f5fbec8fbbaa3e760",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0004-household",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-31970be0126dcd188cd61fd1",
+          "mention_id": null,
+          "property": "household_membership",
+          "value_literal": "Föräldrarna och sex barn 1900",
+          "value_json": "{\"children\":[\"P-0030\",\"P-0031\",\"P-0032\",\"P-0033\",\"P-0001\",\"P-0034\"],\"parents\":[\"P-0028\",\"P-0029\"],\"total\":8}"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: observationen avgränsas till den registrerade C-0004-hushållsposten; barnantal och befintliga personreferenser återbrukas. Det senare C-0574-fältet hör inte till C-0004:s observation.",
+        "caveat": "Extern tidigare hänvisning, inte belägg ur denna post: ytterligare fyra barn 1901–1909 enligt C-0574. Uppgiften bevaras i O@1 och här som korshänvisning; dess sakliga bärare granskas separat. C4 visar åtta rader och sex barn totalt; inga födelsedatum fastställs i denna observation.",
+        "evidence": [
+          {
+            "object": "R-31970be0126dcd188cd61fd1",
+            "version": 1,
+            "role": "supports",
+            "note": ""
+          },
+          {
+            "object": "TR-T0677-C0004-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Råpostens klammer och registrerade roller; befintliga personkopplingar återbrukas."
+          }
+        ],
+        "origins": [
+          {
+            "unit_id": "37ab40d2d2b1d241f201469f66ca66d8e281d531ec9099a6d049d6555f94ff9f",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "224c090fa569958704f882d884739f7b28e5f62cc51c29a91c887b790954bc0d",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "9cada4e08e0b265a436d054de3f0b9c018fd217262ab29677dce9e60fe9cc816",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "7831a300ce1cf7548794e02356d2dcc2ce58ee7501d6417a642f8dbf3d7891c4",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ]
+      }
+    }
+  ],
+  "fieldcoverage": [
+    {
+      "row": 1,
+      "column": "name_role",
+      "raw_or_reused": "Johan Oskar Zingmark",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 1,
+        "column": "name_role",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "occupation_tribe_impairment",
+      "raw_or_reused": "Sågställare",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 1,
+        "column": "occupation_tribe_impairment",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "birth_year",
+      "raw_or_reused": "61",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 1,
+        "column": "birth_year",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "birthplace",
+      "raw_or_reused": "Säfvar, Vbttn",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 1,
+        "column": "birthplace",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "unmarried_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "unmarried_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "married_m",
+      "raw_or_reused": "/",
+      "status": "read",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs."
+    },
+    {
+      "row": 1,
+      "column": "married_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "widower",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "widow",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "divorced_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "divorced_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 1,
+      "column": "belief_nationality_absence",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "name_role",
+      "raw_or_reused": "h. Ida Sofia Andersd:r",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 2,
+        "column": "name_role",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "occupation_tribe_impairment",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "birth_year",
+      "raw_or_reused": "67",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 2,
+        "column": "birth_year",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "birthplace",
+      "raw_or_reused": "Förs.",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 2,
+        "column": "birthplace",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "unmarried_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "unmarried_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "married_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "married_q",
+      "raw_or_reused": "/",
+      "status": "read",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs."
+    },
+    {
+      "row": 2,
+      "column": "widower",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "widow",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "divorced_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "divorced_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 2,
+      "column": "belief_nationality_absence",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "name_role",
+      "raw_or_reused": "d. Livia Sofia",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 3,
+        "column": "name_role",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "occupation_tribe_impairment",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "birth_year",
+      "raw_or_reused": "89",
+      "status": "uncertain",
+      "basis": "locked_targeted_control_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "89 föredras av båda låsta kontroller; lågupplöst 8/9-reservation kvarstår. Ingen sekelsiffra i cellen; ingen ändring av persondatum.",
+      "prior_reading": {
+        "value": "88",
+        "revision": "TR-a8032582dc1ddfcd8e94d243@1"
+      }
+    },
+    {
+      "row": 3,
+      "column": "birthplace",
+      "raw_or_reused": "dito",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 3,
+        "column": "birthplace",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": "dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito."
+    },
+    {
+      "row": 3,
+      "column": "unmarried_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "unmarried_q",
+      "raw_or_reused": "/",
+      "status": "read",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs."
+    },
+    {
+      "row": 3,
+      "column": "married_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "married_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "widower",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "widow",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "divorced_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "divorced_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 3,
+      "column": "belief_nationality_absence",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "name_role",
+      "raw_or_reused": "d. Astrid Maria",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 4,
+        "column": "name_role",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "occupation_tribe_impairment",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "birth_year",
+      "raw_or_reused": "90",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 4,
+        "column": "birth_year",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "birthplace",
+      "raw_or_reused": "dito",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 4,
+        "column": "birthplace",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": "dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito."
+    },
+    {
+      "row": 4,
+      "column": "unmarried_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "unmarried_q",
+      "raw_or_reused": "/",
+      "status": "read",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs."
+    },
+    {
+      "row": 4,
+      "column": "married_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "married_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "widower",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "widow",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "divorced_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "divorced_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 4,
+      "column": "belief_nationality_absence",
+      "raw_or_reused": "[en liten isolerad prick]",
+      "status": "uncertain",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt otytt spår; ursprung och betydelse oavgjorda. Varken brus, pappersspår eller registrerad uppgift fastställs."
+    },
+    {
+      "row": 5,
+      "column": "name_role",
+      "raw_or_reused": "s. Anders Valdemar",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 5,
+        "column": "name_role",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "occupation_tribe_impairment",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "birth_year",
+      "raw_or_reused": "92",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 5,
+        "column": "birth_year",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "birthplace",
+      "raw_or_reused": "dito",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 5,
+        "column": "birthplace",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": "dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito."
+    },
+    {
+      "row": 5,
+      "column": "unmarried_m",
+      "raw_or_reused": "/",
+      "status": "read",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs."
+    },
+    {
+      "row": 5,
+      "column": "unmarried_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "married_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "married_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "widower",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "widow",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "divorced_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "divorced_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 5,
+      "column": "belief_nationality_absence",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "name_role",
+      "raw_or_reused": "s. Johan Magnus",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 6,
+        "column": "name_role",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "occupation_tribe_impairment",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "birth_year",
+      "raw_or_reused": "94",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 6,
+        "column": "birth_year",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "birthplace",
+      "raw_or_reused": "dito",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 6,
+        "column": "birthplace",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": "dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito."
+    },
+    {
+      "row": 6,
+      "column": "unmarried_m",
+      "raw_or_reused": "/",
+      "status": "read",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs."
+    },
+    {
+      "row": 6,
+      "column": "unmarried_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "married_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "married_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "widower",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "widow",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "divorced_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "divorced_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 6,
+      "column": "belief_nationality_absence",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "name_role",
+      "raw_or_reused": "s. Oskar Alfred",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 7,
+        "column": "name_role",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "occupation_tribe_impairment",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "birth_year",
+      "raw_or_reused": "97",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 7,
+        "column": "birth_year",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "birthplace",
+      "raw_or_reused": "dito",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 7,
+        "column": "birthplace",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": "dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito."
+    },
+    {
+      "row": 7,
+      "column": "unmarried_m",
+      "raw_or_reused": "/",
+      "status": "read",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs."
+    },
+    {
+      "row": 7,
+      "column": "unmarried_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "married_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "married_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "widower",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "widow",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "divorced_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "divorced_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 7,
+      "column": "belief_nationality_absence",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "name_role",
+      "raw_or_reused": "s. Petrus Nikolaus",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 8,
+        "column": "name_role",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "occupation_tribe_impairment",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "birth_year",
+      "raw_or_reused": "99",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 8,
+        "column": "birth_year",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "birthplace",
+      "raw_or_reused": "dito",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-a8032582dc1ddfcd8e94d243@1"
+      ],
+      "exact_reuse_location": {
+        "field": "text",
+        "nonempty_household_line": 8,
+        "column": "birthplace",
+        "legacy_unit": "84353a17136aabbc3ec21ac157502e4b7f4838c508ad7b8d19d013f823359ec3",
+        "document": "genealogy/citations/C-0004-zingmark-hushall-folkrakning-1900.md",
+        "lines": [
+          28,
+          42
+        ]
+      },
+      "reservation": "dito återbrukas som den äldre avskriftens semantiska beteckning; originalets ditotecken har inte nyavlästs eller omvandlats till ordet dito."
+    },
+    {
+      "row": 8,
+      "column": "unmarried_m",
+      "raw_or_reused": "/",
+      "status": "read",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": "Synligt diagonalt räkningsstreck, avskrivet /; ingen bokstavlig siffra 1 fastställs."
+    },
+    {
+      "row": 8,
+      "column": "unmarried_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "married_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "married_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "widower",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "widow",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "divorced_m",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "divorced_q",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    },
+    {
+      "row": 8,
+      "column": "belief_nationality_absence",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "locked_gap_controls_and_accepted_comparison",
+      "exact_reuse_refs": [],
+      "reservation": ""
+    }
+  ],
+  "counts": {
+    "physical_cells": 104,
+    "documentary_reuse": 24,
+    "controlled": 80,
+    "initial_gap": 79,
+    "targeted_year": 1
+  },
+  "cross_source_separation": {
+    "observation": "O-P-0001-C0004-household",
+    "removed_data_key": "laterFourChildren",
+    "previous_value": "1901–1909 enligt C-0574",
+    "ownpost_current": "Föräldrar och sex registrerade barn 1900; befintliga person-id:n återbrukas.",
+    "external_claim_preservation": "Tidigare värde kvar i O@1 och O@2-caveat som uttrycklig C0574-korshänvisning; detta förslag skapar ingen ny C0574-observation.",
+    "coordination_owner": "varsas_review prövar aktuell C0574-bärare och personpåverkan. O-P-0001-C0574-sibling-birthfields@1 innehåller INTE senare-fyra-fältet; får inte felaktigt uppges bära det."
+  },
+  "retained_own_observations": [
+    "O-P-0001-C0004-father@1",
+    "O-P-0001-C0004-mother@1",
+    "O-P-0028-1900_header@1"
+  ],
+  "required_followup_before_apply": [
+    "Root substantive review, including R retention and separate historical TR/new consolidated TR.",
+    "Merge varsas_review currentimpact and eight-person adoption; never claim source-only proposal completes identity/life-picture review.",
+    "Packaging: reread expected versions, preserve origins/evidence, use native schema field conventions and run validators. Proposal is not an executable operation.",
+    "Check generated pending requests individually; do not fabricate request ids or blanket retain.",
+    "No T-0732 negative closure; SEARCH-P-0529-C-0004-household@1 remains outside this source correction."
+  ],
+  "limits": "24 fysiska celler dokumentärt återbrukade och 80 kontrollerade, därav 79 gapceller och riktat r3-år. Detta är inte 104 nyavlästa celler. Tomma celler ger inga negativa personfakta; inga nya köns-, samfunds-, nationalitets-, hälsopåståenden eller identitetsbeslut. Födelseårsavvikelsen avser källan, inte en fastställd ändring av P-0030:s födelsedatum. Utdrag och grundbok/index är samma möjliga bokföringskedja."
+}

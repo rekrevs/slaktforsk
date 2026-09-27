@@ -5512,3 +5512,88 @@ Gemensam struktur gäller alla akter, med individuellt innehåll och motiverad i
   Fortsatta arkivfronter väntar i prioritet medan befintliga belägg prövas.
 - Revisit when: T-0673:s pilot och fullständiga fördelning är verifierade,
   eller materiellt motbelägg kräver ett nytt ägarbeslut om familjeuppgift.
+
+## PCR-2026-09-20-001
+
+- Record type: review
+- Date: 2026-09-20
+- Mode: re-entry-review
+- Trigger: Ägaren återupptar det pausade kontinuerliga forskningsarbetet
+  och anger T-0675:s slutverifiering före T-0676:s sparade förberedelse.
+- Control judgement: continue, operate
+- Current gate: T-0675:s avbrutna nativefullsvit saknar slutresultat.
+  Sak- och följdgranskningen är enligt checkpointen slutförd. T-0676:s
+  personkontext och återbrukstriage ska färdigprövas före originalpassagen.
+- Recommendation: Slutför T-0675:s fullsvit med ny logg och gör
+  kriterie-/rapportavstämningen före DONE. Fortsätt därefter T-0676 från
+  sparad PLANNING. Behåll originalrevisionens prioritet och återbruka
+  redan verifierat arbete inom exakt omfång.
+- Owner decision required: none; ägarens uttryckliga återstart och
+  körordning ger mandat.
+- Evidence:
+  - `PCD-2026-09-18-003`
+  - `AGENTS.md`
+  - `wotan/README.md`
+  - `wotan/backlog.json`
+  - `wotan/dev-log/T-0675.md`
+  - `wotan/dev-log/T-0676.md`
+  - `wotan/dev-log/T-0769.md`
+- Uncertainty: Avbrottet är inte ett konstaterat testfel. Den nya svitens
+  resultat avgörs först när den avslutats och utfallet lästs. Sparad
+  återbrukstriage är underlag för sakprövning, inte granskningsgodkännande.
+- Revisit when: Ett faktiskt verifieringsfel, materiellt motbelägg,
+  åtkomsthinder eller avslutad revisionsvåg motiverar ny styrbedömning.
+
+## PCD-2026-09-20-001
+
+- Record type: decision
+- Date: 2026-09-20
+- Decides review: PCR-2026-09-20-001
+- Owner: Sverker Adam Janson
+- Decision: Återuppta kontinuerligt utförande genom Wotan. Slutför först
+  T-0675:s avbrutna nativefullsvit med ny logg, därefter slutavstämning
+  och DONE om kriterierna passerar. Upprepa inte dess 50 originalpassager
+  eller 547 följdbeslut. Fortsätt sedan T-0676 från sparad förberedelse.
+  Kontrollera befintliga Chromeflikar utan att återöppna avslutade passager.
+- Disposition: approved
+- Supersedes decision: Ägarpausen 2026-09-18, bevarad och förtydligad i
+  T-0675/T-0676:s checkpoints 2026-09-19, är hävd. Originalrevisionens
+  omfång och prioritet enligt PCD-2026-09-18-003 består.
+- Resulting Wotan tasks: Befintliga T-0675 och T-0676 återupptas i angiven
+  ordning; inga nya uppgifter skapas för återstarten.
+- Related records: PCD-2026-09-18-003, wotan/dev-log/T-0675.md,
+  wotan/dev-log/T-0676.md, wotan/dev-log/T-0769.md.
+- Portfolio signal: Projektet är åter aktivt i kontinuerligt utförande.
+  North star är ofullbordad; Wotan äger fortsatt ordning och återupptagning.
+- Revisit when: Ny ägarinstruktion, materiell konflikt, faktisk extern
+  grind eller revisionsprogrammets slutgranskning.
+
+## PCD-2026-09-24-001
+
+**Spårbar tillämpning av ägarregeln på Gunnar Hööks namnordning**
+
+- Record type: decision
+- Date: 2026-09-24
+- Decides review: avgränsad följdgranskning av T-0676 scope 40; ingen ny strategisk riktning
+- Owner: Sverker Adam Janson
+- Decision: den uttryckliga ägarrättelsen från 2026-08-22, bevarad i
+  S-0213/C-0268 och tidigare A-1721, anger Gunnar Ivar Emanuel Höök.
+  Denna namnuppgift behandlas som sann projektinformation och märks
+  `OWNER_CONFIRMED` i ett eget avgränsat native faktum. Beslutet tillämpar
+  ägarens stående regel i AGENTS.md och PCD-2026-09-03-003; det påstår inte
+  att ett nytt ägarbesked lämnats 2026-09-24.
+- Disposition: approved under standing owner instruction
+- Supersedes decision: ingen tidigare Project Control-decision;
+  äldre forskningsformulering att denna uttryckliga ägarrättelse inte kan
+  behandlas som ägarbekräftad ersätts inom T-0676.
+- Evidence limits: källornas Ivar Gunnar Emanuel bevaras ordagrant.
+  Namnordningens dokumentära avvikelse, dess uppkomst och gravregistrets
+  administrativa beroende förblir öppna. Visningsnamnet ändras inte.
+  Beslutet omfattar enbart ägarens namnuppgift; andra livsdata, syskon,
+  personidentitet och PK-/trädstatus får inget automatiskt nytt utfall.
+- Related records: P-0212, S-0213, C-0268, A-1721,
+  F-P-0212-name_form-source_comparison, P-0212/Q-03, T-0676 scope 40
+- Resulting Wotan tasks: införande och beroendeprövning ingår i den
+  aktuella avgränsade följdgranskningen i T-0676; ingen ny originalpassage.
+- Revisit when: nytt belägg tillkommer om namnordningsavvikelsens uppkomst;
+  ägaruppgiften får inte tyst nedgraderas, och konfliktens råkällor bevaras.

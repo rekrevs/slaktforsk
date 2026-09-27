@@ -1,0 +1,34 @@
+{
+  "task": "T-0676",
+  "decision_date": "2026-09-24",
+  "decision_maker": "Root Astra",
+  "approval": "CANONICAL_APPLY_EXACT_OPERATION_ONLY",
+  "operation": "genealogy2/verification/T-0676/umea1839-combined-proposed-operation-v4-20260924.json",
+  "operation_sha256": "b5fb7ccbbaeda09dde736d40183a720f6b86ba4290762bc8f4eecb6aa2457c8d",
+  "baseline_journal_sequence": 178,
+  "preconditions_verified": {
+    "head_operation": "T-0676/floda608-scopes15-17-v2-retain-proposed",
+    "pending_reviews": 0,
+    "expected_versions_mismatch": 0
+  },
+  "approved_scope": {
+    "changes": 177,
+    "revisions": 152,
+    "new_objects": 25,
+    "exact_after_fields": 191,
+    "own_source_positions": 288,
+    "source_record_groups": 7,
+    "accepted_same_packet_rebindings": 9
+  },
+  "preflight": {
+    "verify": true,
+    "verify_assets": true,
+    "verify_source": true,
+    "prospective_pending": 86,
+    "matched_v3_requests": 76,
+    "matched_affected_current_exact": 76,
+    "new_requests": 10,
+    "removed_due_to_affected_revisions": 4
+  },
+  "next_step": "Canonical apply, three standard validators, actual pending full and exact comparison; no resolution until separate root review; native full suite after pending zero."
+}

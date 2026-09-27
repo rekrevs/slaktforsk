@@ -1,0 +1,75 @@
+{
+  "schema": "T0677-G001-baseline-lock/1",
+  "task": "T-0677",
+  "cohort": "G001",
+  "date": "2026-09-24",
+  "state": "BASELINE_LOCKED_FOR_BOUNDED_EXECUTION",
+  "authority": "Root/Astra final approval of exact proposal and independent input-hash, union, file-SHA and 456 current-head checks",
+  "approved_proposal": {
+    "path": "genealogy2/verification/T-0677/scope-proposed-j180-20260924.json",
+    "sha256": "23da49a3ea997869baab9c905b6854015e87679e25d5a044c2afb0291110e036",
+    "as_written_state": "PROPOSED_NOT_LOCKED",
+    "byte_identical_proposal_retained": true
+  },
+  "input_hashes": {
+    "genealogy2/verification/T-0677/pre-start-scope-review-proposed-20260924.json": "81b3828a1dcfc9b47626a1d4477dbddcc80ed45c8dbb9dc2d6e0078b55f25a3c",
+    "genealogy2/verification/T-0677/citation-crosswalk-prestart-review-20260924.json": "11dce4f3d40781d4c8abc60b4ea3d90d8a2392dbff67ec8826fafaf96c7326f8",
+    "genealogy2/verification/T-0677/c1047-c1060-local-media-routing-20260924.json": "36ee41fd38b62d5617af0b6e87c07bce49b1ccd71309a9f6421fceea174bfefb",
+    "genealogy2/verification/T-0673/manifest.json": "2ee5610c1bf1290e6cac9a7c6a67fa9169021de6386da2a29bb02377d8cb34b7",
+    "genealogy2/verification/T-0673/ownership.json": "7a7df052f14d561537ee55834e01edff4dae14234b5f39eb0a943091857e18bb",
+    "genealogy2/verification/T-0673/cohorts-draft.json": "14e7216d1e07e9d0b42373912d4fcf62f6c2749afa5cf0a6bf35e918a2c30df2"
+  },
+  "canonical_anchor": {
+    "journal_head": {
+      "sequence": 180,
+      "path": "genealogy2/journal/000000180-ca0534f2dac13fcd7333775d888f6b7d467381660fa304cfbcfa7b264b8dd3d9.json",
+      "sha256": "357d4d1b7271981aff35719e4fc1b59bab55ceb51ef19eaa550aadf7ae2b505c"
+    },
+    "pending_reviews": 0
+  },
+  "locked_counts": {
+    "records": 48,
+    "direct_citation_records": 47,
+    "explicit_page_context_records": 1,
+    "citations": 40,
+    "owned_assets": 33,
+    "cross_reference_media": 11,
+    "priority_claims": 59,
+    "persons": 45,
+    "Q_KP_metadata": 304
+  },
+  "checks": {
+    "proposal_checks_passed": 13,
+    "proposal_mismatches": 0,
+    "historical_bindings_separate_from_current": true
+  },
+  "scope_limitations": [
+    "The lock fixes cohort membership and j180 metadata; it is not a claim that entire citation texts or physical originals have been read.",
+    "Prior C-0002 field reading is reusable only at exact documented scope; missing independent second reading, printed header map and blank-cell inventory remain bounded checks.",
+    "No original access, canonical apply, research conclusion or full-contract approval is made by this lock."
+  ],
+  "next_execution_boundary": {
+    "first_citations": [
+      "C-0002",
+      "C-0004"
+    ],
+    "first_records": [
+      "R-510e9de3e16243afcce92e2e",
+      "R-31970be0126dcd188cd61fd1"
+    ],
+    "people": [
+      "P-0001",
+      "P-0028",
+      "P-0029"
+    ],
+    "initial_reviews": [
+      "P-0001/Q-03@1",
+      "CONTRACT-P-0001-PK-05@1",
+      "CONTRACT-P-0028-PK-05@1"
+    ],
+    "C0002_copy_carrier": "O-P-0028-folio263@1",
+    "instruction": "Reuse exact adequate C-0002 reading; root to plan bounded header/second-reading gap and assess 14 C-0002 copy fields before any dependent apply. No automatic full reread."
+  },
+  "no_canonical_change": true,
+  "no_original_opened": true
+}

@@ -1,0 +1,94 @@
+{
+  "task": "T-0677",
+  "mode": "LOCAL_METADATA_ROUTING_ONLY",
+  "checks": {
+    "file_name_match_under_genealogy_media_and_genealogy2_media": 0,
+    "legacy_media_manifest_metadata_matches": 0,
+    "native_asset_metadata_matches": 0,
+    "imported_asset_metadata_matches": 0,
+    "record_asset_metadata_matches": 0,
+    "record_media_metadata_matches": 0,
+    "local_media_json_manifest_locator_matches": 0,
+    "terms": [
+      "00153999_00231",
+      "F0003287_00058",
+      "C-1047",
+      "C-1060"
+    ],
+    "limitation": "No images or content-addressed binary assets opened. No matching named/provenance-indexed asset found; not proof against an unidentified arbitrary binary alias."
+  },
+  "routes": [
+    {
+      "citation": "C-1047",
+      "locator": "00153999_00231",
+      "records": [
+        "R-33b612f0da2f3aa6fc2addc7@1",
+        "R-c81e3c93931ef93d3beb7c4a@1"
+      ],
+      "source_scope": "Flen A II a/6b, sida638, bild231",
+      "result": "KNOWN_PRESERVATION_GAP_WITH_EXISTING_OWNER",
+      "existing_copy_execution_owner": {
+        "task": "T-0227",
+        "status": "READY",
+        "evidence": "wotan/dev-log/T-0227.md:16",
+        "scope_quote": "C-1047 A II a/6 b638 full målpost och lokaloriginal"
+      },
+      "overlap_owner": {
+        "task": "T-0410",
+        "status": "READY",
+        "role": "P0043 full extraction/preservation consumer; coordinate without duplicate acquisition"
+      },
+      "provenance": [
+        {
+          "path": "genealogy/citations/C-1047-flen-AIIa6b-uppslag-638-eriksro-funnet.md",
+          "line": 94,
+          "finding": "Exact locator exists; local full image/hash not shown preserved; explicit preservation debt."
+        },
+        {
+          "path": "wotan/dev-log/T-0237.md",
+          "line": 65,
+          "finding": "Explicitly preserves T0227 ownership of separate C1047 copy scope."
+        }
+      ]
+    },
+    {
+      "citation": "C-1060",
+      "locator": "F0003287_00058",
+      "records": [
+        "R-beaee87a400dd929753d190d@1"
+      ],
+      "source_scope": "Lerbo C/8,1884 post33, image58; documentary citation also mentions already read image57 as separate scope",
+      "result": "KNOWN_PRESERVATION_GAP_WITH_EXISTING_OWNER",
+      "existing_copy_execution_owner": {
+        "task": "T-0237",
+        "status": "READY",
+        "evidence": "wotan/dev-log/T-0237.md:60",
+        "scope_quote": "C-1060, F0003287_00057 och F0003287_00058 ... exakt dessa saknade kopior, full relevant post och hash"
+      },
+      "overlap_owner": {
+        "task": "T-0410",
+        "status": "READY",
+        "role": "P0043 full extraction/preservation consumer; log explicitly says do not duplicate T0237 image scope"
+      },
+      "provenance": [
+        {
+          "path": "genealogy/citations/C-1060-lerbo-C8-1884-post-33-sven-edvin-severus-oakta.md",
+          "line": 7,
+          "finding": "Explicit original locator F0003287_00058,1884post33; documentary description, not saved image proof."
+        },
+        {
+          "path": "genealogy/citations/C-1060-lerbo-C8-1884-post-33-sven-edvin-severus-oakta.md",
+          "line": 105,
+          "finding": "Already read image57 is a separate documentary scope; no additional read performed now."
+        },
+        {
+          "path": "wotan/dev-log/T-0237.md",
+          "line": 93,
+          "finding": "Log explicitly says Ingen av C1047 och C1056–C1070 har en lokal fullbild; apparent isolated search excerpt har en lokal fullbild must not reverse the negation."
+        }
+      ]
+    }
+  ],
+  "responsibility": "T0677 retains substantive cohort/citation accountability. Existing copy tasks perform bounded preservation work; do not create duplicate reacquisition task or silently close scope. No status changes or permission for external access granted here.",
+  "next_step": "At active T0677 start reconcile these existing owners and exact locators in baseline. If copy retrieval is necessary, execute under authorized bounded task/access workflow; log read/preserved/access-limited separately."
+}

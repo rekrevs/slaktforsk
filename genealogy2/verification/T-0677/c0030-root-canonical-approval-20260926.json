@@ -1,0 +1,65 @@
+{
+  "task": "T-0677",
+  "date": "2026-09-26",
+  "state": "ROOT_CANONICAL_TWO_STEP_APPROVED",
+  "canonical_before": {
+    "journal": 192,
+    "pending": 0
+  },
+  "inputs": [
+    {
+      "file": "c0030-source-split-proposed-operation-20260925.json",
+      "sha256": "5ba48d4a1ef09d2033966b9bb8102303164dfec5d9ca08a53c1c4a4a8b626027"
+    },
+    {
+      "file": "c0030-person-split-proposed-operation-20260925.json",
+      "sha256": "eaf85a71bb256dd231f6c8692d801a5ac0d0a2afb63a06e6f8c0d9f2703fe7a3"
+    },
+    {
+      "file": "c0030-split-temp-full-diffcheck-20260925.json",
+      "sha256": "3b2948df35f18cd05d1801e18494dc6d52bf9060670ff00345f9ac1de6dd3a2a"
+    },
+    {
+      "file": "c0030-split-temp-pending-individual-review-proposed-20260925.json",
+      "sha256": "57ab2379da78b08b7f9ec77db7ed177e57601c1158777d6caf3d76f0cd2f14ab"
+    }
+  ],
+  "checks": "Root läste de båda operationerna, fulla sakdata och sex före/efterfält, kontrollerade READ-5b033c3348e5dc9b286965c7 genom inspect samt körde den lästa mekaniska kontrollen själv:63/63 PASS. Därutöver egen SQL-kontroll av samtliga12 föreheads/nyobjektsfrånvaro och pending0. All full tempdata matchar godkända nyttolaster.",
+  "decision": "Inför exakt källoperation följt av personoperation. De historiska a/n-värdena består; tidigare O@1 är rätt återbruksproveniens. Ingen automatisk ombindning till O@2 som självt stöder sig på nya kontrollresultat. Rå v, Bef.[?], blankceller, osäkra spår och hushållssemantik behåller sina gränser. Inga person-, identitets- eller trädutfall höjs.",
+  "dependency_judgements": [
+    {
+      "request_id": "73f135e6735d15c1f343f16a4fcd00ba4cb351d52051991fed073075d2a3ed43",
+      "affected_revision": "O-T0677-C0030-row10-control@1",
+      "changed_from": "O-P-0043-A-5704-source_marks@1",
+      "changed_to": "O-P-0043-A-5704-source_marks@2",
+      "decision": "RETAIN",
+      "rationale": "Nej. Begäran är transitiv via TR-T0677-C0030-consolidated-control@1; O-row10 har endast R@1 och TR@1 som evidens. Den egna radens v, tomma inkommande 9–10, reserverade utgående former i 16–17 och otydda spår i14 är avgränsade originalkontroller. A5704 avser Charlottas a/n i rad9 och dess nya caveat förändrar inte dessa Arnefält. Rad10-objektet tillskriver honom ingen Bef-not eller institutionsuppgift. Att behålla O-row10@1 kräver varken ny läsning eller ombindning till grannradens O@2."
+    },
+    {
+      "request_id": "760f1809d59a8380baa7e1c68d624ca33e4a174b3b1748651f7c58992fd7c131",
+      "affected_revision": "AUDIT-T0677-C0030@1",
+      "changed_from": "O-P-0043-A-5704-source_marks@1",
+      "changed_to": "O-P-0043-A-5704-source_marks@2",
+      "decision": "RETAIN",
+      "rationale": "Nej. Auditen anger exakt36 detaljerade enheter för rad9–10, fördelat10 hela återbruk,18 hela luckor och8 partiella kontroller, samt separat fullpoståterbruk8/12–14 utan konstruerade råceller. R9c11 och r9c12 anger a respektive n som dokumentärt återbruk från O-A5704@1, inte dess dåvarande bristformulering som aktuellt slutsatsläge. O@2 bevarar just dessa a/n-data och preciserar att resten nu är täckt, i överensstämmelse med auditens befintliga matris. AUDIT→TR@1-kanten och de låsta kontrollreferenserna ska därför behållas."
+    },
+    {
+      "request_id": "7d0658c2422fe365663292f6d63cfb7f8a74f135651ae3940ee8d5cad7b65aa8",
+      "affected_revision": "O-T0677-C0030-row9-control@1",
+      "changed_from": "O-P-0043-A-5704-source_marks@1",
+      "changed_to": "O-P-0043-A-5704-source_marks@2",
+      "decision": "RETAIN",
+      "rationale": "Nej. O-row9 redovisar de nytillkomna egna kontrollfälten: rå67/26/5/Lerbo,86 26/4,v,Bef.[?], blankfält, spår och reserverade upprepningsformer. De tidigare a/n-cellerna återbrukas genom TR, medan O-A5704@2 har exakt samma a/n-sakvärde som@1 och stöder sin nya täckningscaveat på O-row9@1/TR@1. Ingen återbrukad a/n-läsning återtas. O-row9@1 behålls med sina R@1/TR@1-kanter; att lägga till O-A5704@2 som nytt stöd vore en omotiverad återkoppling, inte en ny källa."
+    },
+    {
+      "request_id": "dbd8669de24d5ac8c4d2d0547cd6d87e5e2c4173a496838327b761978f99d33a",
+      "affected_revision": "TR-T0677-C0030-consolidated-control@1",
+      "changed_from": "O-P-0043-A-5704-source_marks@1",
+      "changed_to": "O-P-0043-A-5704-source_marks@2",
+      "decision": "RETAIN",
+      "rationale": "Nej. TR-textens r9c11/r9c12 har dokumentärt a/n-återbruk från exakt O-A5704@1. Context-kanten är uttryckligen märkt tidigare källresultat, inte oberoende ny evidens. O@2 ändrar varken a/n, record_id, mention_id, property eller value_json; den uppdaterar den tidigare återstående utvinningsskulden med resultat från denna TR och O-row9. Historisk@1 är därför fortfarande rätt referens för återbruket. Att byta till@2 skulle sudda ut återbrukets tidsordning och skapa en cirkulär beläggning. TR:s36celler, fyra fullradsåterbruk, origins och övriga kanter behålls."
+    }
+  ],
+  "resolution_boundary": "De fyra sakliga RETAIN-skälens innehåll godtas. Ingen resolution i dessa två operationer. Faktiska requests/fullpayloads måste först matcha temp; root godkänner sedan separat resolutionsoperation för de faktiska begärandena.",
+  "verification_required": "Faktisk full12objektsdiff, pendingpayloads, exakta resolutioner och verify/verify-assets/verify-source efter genomförandet."
+}

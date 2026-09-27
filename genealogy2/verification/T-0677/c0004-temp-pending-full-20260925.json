@@ -1,0 +1,117 @@
+{
+  "task": "T-0677",
+  "state": "TEMP_ACTUAL_PENDING_NOT_RESOLVED",
+  "operation_sha256": "d24841720fc5f2a0f37f275d8ab9edad31c4fbe8c6a3a773ff6335ed33a7b2ad",
+  "count": 1,
+  "requests": [
+    {
+      "id": "800d580bad557a69a3c48ba477526c99b1606d268a02b24ddb84b4597c4c7246",
+      "operation_id": "T-0677/C0004-source-impact-adoptions-v1",
+      "affected_revision_id": "EP-E-birth-P-0030-P-0030-principal@1",
+      "changed_revision_id": "E-birth-P-0030@2",
+      "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+      "affected_full": {
+        "kind": "participation",
+        "revision": {
+          "id": "EP-E-birth-P-0030-P-0030-principal@1",
+          "object_id": "EP-E-birth-P-0030-P-0030-principal",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+          "caveat": "Hushållsböcker bär dagen; egen födelsenotis är oläst. Samma administrativa kedja, inte oberoende datumröster. Ingen föräktenskaplig anteckning finns på tidiga raden.",
+          "previous_id": null
+        },
+        "data": {
+          "event_id": "E-birth-P-0030",
+          "person_id": "P-0030",
+          "mention_id": null,
+          "role": "principal"
+        },
+        "origins": [
+          {
+            "unit": "369d49cbb13b555d13a0992c703e6ee24a4128d0489e4c15187850513a7de80f",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "E-birth-P-0030",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "event",
+        "revision": {
+          "id": "E-birth-P-0030@2",
+          "object_id": "E-birth-P-0030",
+          "version": 2,
+          "operation_id": "T-0677/C0004-source-impact-adoptions-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.\nT-0677: Bevarar datum/berättelse och tidigare förbehåll men gör den nyprövade avvikelsen synlig där datumet används.",
+          "caveat": "Hushållsböcker bär dagen; egen födelsenotis är oläst. Samma administrativa kedja, inte oberoende datumröster. Ingen föräktenskaplig anteckning finns på tidiga raden. T-0677: C-0004:s egen födelseårscell på rad 3 har föredragen råläsning 89; 8 som sista siffra kan inte helt uteslutas i den lågupplösta bilden. Äldre avskrift 88 bevaras som läshistorik. Cellen saknar sekel, månad och dag och ger inte ett nytt fastställt födelsedatum. Föredraget 1888-09-10 kvarstår från de andra bokposterna; egen födelsenotis är fortfarande oläst.",
+          "previous_id": "E-birth-P-0030@1"
+        },
+        "data": {
+          "event_type": "birth",
+          "date_json": {
+            "literal": "1888-09-10",
+            "precision": "exact",
+            "value": "1888-09-10"
+          },
+          "place_id": null,
+          "place_role": "Degerfors; föräldrarnas hemvist Buberget"
+        },
+        "origins": [
+          {
+            "unit": "369d49cbb13b555d13a0992c703e6ee24a4128d0489e4c15187850513a7de80f",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "4d5c781eba1000550005515dd641daba6a0fb9b8a462f4e6a94d6a945bc8ab6a",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+          },
+          {
+            "unit": "a29adcfa8c58693ae2a4b426f4517e2579bb8617593f59d7348ecdd70eef541a",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+          },
+          {
+            "unit": "b4587505f6ccf9f4bc50668bcd9e8cdb3dca0d28ca8e2372679541fb1ef17410",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-6c6fe5c29cf040561d4e5324",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "object": "R-db739e8d39cdcea4f02b730b",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "object": "TR-T0677-C0004-consolidated-control",
+            "version": 1,
+            "role": "supports",
+            "note": "C4:s egna fält och källgräns; samma utdrag, ingen ny oberoende datumröst."
+          }
+        ]
+      }
+    }
+  ],
+  "no_resolution": true
+}

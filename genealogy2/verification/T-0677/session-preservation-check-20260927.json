@@ -1,0 +1,39 @@
+{
+  "task": "T-0677",
+  "date": "2026-09-27",
+  "purpose": "Owner-requested session preservation only; no new research",
+  "branch": "main",
+  "task_status": "ONGOING",
+  "phase": "IMPLEMENTING",
+  "journal_head": "000000202-fd38aeb00da8254711f086f3e3dac0395b93f57f2c16d8b31f3a265aeeba6a86.json",
+  "journal_files": 202,
+  "journal_head_sha256": "e8e583ce6b6373a2577906e064fd1ceb02d3e955f6cf90adf26674edca80a4da",
+  "pending": 0,
+  "completion_artifacts": [
+    {
+      "path": "genealogy2/verification/T-0677/c0030-root-postapply-completion-20260926.json",
+      "sha256": "98c4879d9fa319025615e153181bc1c7c4050d2745b2c51208482804afa2141d"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0031-root-postapply-completion-20260926.json",
+      "sha256": "e771f885cc1fb8c11328046f71d370344942e5ea6359d9926a19badbd1ae4dc7"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0032-root-postapply-completion-20260926.json",
+      "sha256": "ac4e5c64cfad7eb8ae4b715ac8ecae833e8b90144a0ee1404b7e66974b3cc3e1"
+    }
+  ],
+  "checks": {
+    "completion_referenced_artifact_hashes": "PASS C0030/C0031/C0032",
+    "journal_sequence_and_json": "PASS 1 through202",
+    "current_full_57_and_exact_45_resolutions": "PASS root rerun on2026-09-27"
+  },
+  "git_state": {
+    "committed_this_session": false,
+    "pushed_this_session": false,
+    "status_file": "session-preservation-git-status-20260927.txt",
+    "status_sha256": "ba4d6cc688a734871d3c38d865b1e7e63473acc58058b302dd28c667aaf07cbf"
+  },
+  "temporary_dependencies": "No temp DB or live agent required to resume. Current database, journals, operations, source comparisons, full payload snapshots and final receipts are stored in project. Temp preflight scripts are historical checks, not next actions.",
+  "execution_state_owner": "wotan/backlog.json and latest Återupptagning in wotan/dev-log/T-0677.md"
+}

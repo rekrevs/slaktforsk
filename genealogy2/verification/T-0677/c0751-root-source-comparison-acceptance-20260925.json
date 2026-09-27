@@ -1,0 +1,83 @@
+{
+  "task": "T-0677",
+  "reviewer": "root/Astra",
+  "state": "SOURCE_COMPARISON_ACCEPTED_WITH_EXPLICIT_RESERVATIONS",
+  "locks": {
+    "c0751-root-stage1-20260925.json": "a1eb47a10a2f7879ffbca01122b714ce3e87f9f25daaae68a0b0d213487d1060",
+    "c0751-independent-stage1-20260925.json": "fdc096efda28a89ed56ebd029317a255803e57414a204c3185f1001285b9ef71",
+    "c0751-root-row7-20260925.json": "132af3e95f2729646fc373bce7ebc2d9d4027088e7b1873d2d9fb71955033e6b",
+    "c0751-independent-row7-20260925.json": "de3e4564763641a366bb7a1323a522ba3545936d395728bc7285e7188e106bb6",
+    "c0751-root-gaps-20260925.json": "445d7df79e5635fed1ddc08ae1d5b62951a294b8ac25b75adbe5d5900d323eb7",
+    "c0751-independent-gaps-20260925.json": "a0cf013395f43c29b119b9f266c906729ac143753ebddf381a40ebe60d5d42a3"
+  },
+  "gap_comparison": {
+    "exact_cells": 117,
+    "different_notation_or_state": [
+      {
+        "key": [
+          "78",
+          "5",
+          "birthplace"
+        ],
+        "root": {
+          "column": "birthplace",
+          "raw": "”[ditto?]",
+          "state": "uncertain"
+        },
+        "independent": {
+          "column": "birthplace",
+          "raw": "[ditoliknande tecken]",
+          "state": "uncertain",
+          "reservation": "Litet mörkt tecken med två korta delar/punkter i ortfältet, föredras som ditotecken. Inte blankt och inte utskrivet ortnamn. Föregående positiva ortceller har inte nyavlästs; ingen antecedent/ort normaliseras här."
+        }
+      },
+      {
+        "key": [
+          "78",
+          "5",
+          "belief_nationality_absence"
+        ],
+        "root": {
+          "column": "belief_nationality_absence",
+          "raw": "",
+          "state": "blank"
+        },
+        "independent": {
+          "column": "belief_nationality_absence",
+          "raw": "[litet mörkt snett spår vid nedre högra cellgränsen]",
+          "state": "uncertain",
+          "reservation": "Spåret ligger vid högra tabellgränsen nära rad5/6-linjen. Inget läsbart ord eller kod; ursprung och eventuell betydelse oavgjorda. Inte en registrerad trosbekännelse/nationalitet/frånvaro. Kan vara gränsspår gemensamt med raden nedan; ingen dubbel sakobservation."
+        }
+      },
+      {
+        "key": [
+          "78",
+          "6",
+          "belief_nationality_absence"
+        ],
+        "root": {
+          "column": "belief_nationality_absence",
+          "raw": "",
+          "state": "blank"
+        },
+        "independent": {
+          "column": "belief_nationality_absence",
+          "raw": "[små svaga streck vid högra tabellkanten]",
+          "state": "uncertain",
+          "reservation": "Korta svaga streck/avbrott kring högra gränslinjen; även rad5/6-gränsens mörka spår berör överkanten. Inget läsbart ord eller kod. Ursprung och betydelse oavgjorda; inte fastställd personuppgift."
+        }
+      }
+    ],
+    "decision": "Use independent rawreservation for Sara ditto and bothright-edgecells. Root labellededgeartifacttooassertively; originunknown, notproven tear. No enteredword/code readable. Retain105blank+12civilmarks+3uncertain120cells; the2edgecells mayoneboundarytrace nottwoobservations."
+  },
+  "row7_decision": "Bothread Olof Reinhold Lindberg, Förmånstagare, raw14, Förs., Enkling/;8blanks. Preserve prefix far:/fad:[?] and noautomaticparentlink, newP orcenturynormalization. Boundaryendsafter7.",
+  "boundary_decision": "Visible hushåll/matlag bracketcovers6last77+7first78; oldindexfamily3/ownfamily isdifferentrepresentation. No visiblebracket dividesSara orJohanfromgroup. Do not infer kinship or sharedphysicalroof frombracketalone.",
+  "sara_birthplace_decision": "Ditto-like rawmark retained. Documentaryprevious4childplacesDegerfors provide likelysameparishreference, but no newlyread antecedentchain; do not createunqualified birthplacescalar.",
+  "coverage": {
+    "physical_cells": 169,
+    "documentary_reuse": 36,
+    "controlled_gap": 120,
+    "controlled_contextrow": 13
+  },
+  "next": "Buildsourceproposal and evaluatecurrentimpact; no furtheroriginalreadingrequired. Canonical modifications requireversion-boundproposalreview."
+}

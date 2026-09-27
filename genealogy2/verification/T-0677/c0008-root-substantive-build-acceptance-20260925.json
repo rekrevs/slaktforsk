@@ -1,0 +1,118 @@
+{
+  "task": "T-0677",
+  "state": "ACCEPTED_FOR_BUILD_AND_ISOLATED_TEMP_ONLY",
+  "canonical_baseline": "journal186 pending0",
+  "inputs": [
+    {
+      "file": "c0008-native-source-proposed-v2-20260925.json",
+      "sha256": "914f51cde112763290b0d7136bbd0eb7dca24457da3b75f4a63b033a80979fe5"
+    },
+    {
+      "file": "c0008-person-copy-impact-proposed-20260925.json",
+      "sha256": "53059b2b911461f412578d534172be9a6a571fea04ef77ec3c0db1ebf0774188"
+    },
+    {
+      "file": "c0008-person-E-EP-evidence-addendum-proposed-20260925.json",
+      "sha256": "a8b7125fd9695117a1889302b3796c30dbb3a9f5b3ebc49cef65d18a9cc79f5c"
+    }
+  ],
+  "source_acceptance": "c0008-root-source-proposal-acceptance-20260925.json",
+  "review": "Root read all10 proposed fields,41 individual dispositions,8 contexts,2 adoptions and receiver text. Before fields match current database, all8 heads current, all10 exact replacement replays match. All4 E/EP before evidence sets independently match database. Independent Astra review agrees subject to same amendments.",
+  "explicit_rebases_accepted": [
+    {
+      "object_id": "E-baptism-P-0003",
+      "rebases": [
+        {
+          "from": "R-70eeff109bc651dce649a0ee@1",
+          "to": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "rationale": "Samma doppost och samma återbrukade dopdatum; R@2 preciserar fadderläsningen och källgränsen utan annan händelse. R@1 bevaras i föregående E-revision. Denna explicita ombindning är sakligt motiverad, inte en generell latest-regel."
+        }
+      ]
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness",
+      "rebases": [
+        {
+          "from": "E-baptism-P-0003@1",
+          "to": "E-baptism-P-0003@2",
+          "role": "derived_from",
+          "rationale": "Deltagaren är fortsatt ett oidentifierat omnämnande. M@2 bär just första vittnets korrigerade råtitel och reserverade namn; E@2 bevarar samma dop. R@2 är samma post och stödjer den nu kvalificerade deltagartexten."
+        },
+        {
+          "from": "M-P-0003-C0008-witness1@1",
+          "to": "M-P-0003-C0008-witness1@2",
+          "role": "derived_from",
+          "rationale": "Deltagaren är fortsatt ett oidentifierat omnämnande. M@2 bär just första vittnets korrigerade råtitel och reserverade namn; E@2 bevarar samma dop. R@2 är samma post och stödjer den nu kvalificerade deltagartexten."
+        },
+        {
+          "from": "R-70eeff109bc651dce649a0ee@1",
+          "to": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "rationale": "Deltagaren är fortsatt ett oidentifierat omnämnande. M@2 bär just första vittnets korrigerade råtitel och reserverade namn; E@2 bevarar samma dop. R@2 är samma post och stödjer den nu kvalificerade deltagartexten."
+        }
+      ]
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness",
+      "rebases": [
+        {
+          "from": "E-baptism-P-0003@1",
+          "to": "E-baptism-P-0003@2",
+          "role": "derived_from",
+          "rationale": "Andra vittnets M@1 är oförändrad och behålls exakt. Endast E och R får explicit ombindning till samma dop/post med uppdaterad fältprövningsgräns; ingen koppling från vittne 1:s titel eller ny personidentitet."
+        },
+        {
+          "from": "R-70eeff109bc651dce649a0ee@1",
+          "to": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "rationale": "Andra vittnets M@1 är oförändrad och behålls exakt. Endast E och R får explicit ombindning till samma dop/post med uppdaterad fältprövningsgräns; ingen koppling från vittne 1:s titel eller ny personidentitet."
+        }
+      ]
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-P-0003-baptized",
+      "rebases": [
+        {
+          "from": "E-baptism-P-0003@1",
+          "to": "E-baptism-P-0003@2",
+          "role": "supports",
+          "rationale": "Arnes roll baptized och person_id består. E@2 är samma händelse med kvalificerad fadderkontroll, inte ändrat datum eller dopplats. Befintlig supports-roll bevaras vid explicit E-ombindning."
+        }
+      ]
+    }
+  ],
+  "amendments": [
+    {
+      "object_ids": [
+        "ADOPT-T0677-C0008-P-0003",
+        "ADOPT-T0677-C0008-P-0009"
+      ],
+      "field": "outcome",
+      "before": "bounded_adoption",
+      "after": "adopted_with_limits",
+      "rationale": "Use established bounded adoption outcome; no gate approval."
+    },
+    {
+      "object_id": "CONTRACT-P-0003-PK-05",
+      "field": "body",
+      "replace_prefix_before": "T-0675 aktuell precisering:",
+      "replace_prefix_after": "Aktuell precisering, T-0675 och T-0677:",
+      "rationale": "Attribute current C0008 completion to correct task while preserving C0895 prior correction."
+    },
+    {
+      "object_ids": [
+        "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness",
+        "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness"
+      ],
+      "evidence_amendment": "Remove newly added supports edge to own M, retain explicitly approved derived_from edge to M1@2 / M2@1. Other addendum edges exactly as proposed.",
+      "rationale": "One structural link sufficiently represents this same mention. No extra independent testimony."
+    }
+  ],
+  "limits": [
+    "15 objects expected:5 source,8 person,2 adoption. Preserve all unmodified fields, origins and evidence except explicitly named amendments/rebases.",
+    "No identity, relation, person or gate changes. No further image access.",
+    "No canonical apply. Return full operation, exact before/after comparison, actual temp pending payloads, three validators. Root separately reviews operation and individual requests.",
+    "T0227 receiver checkpoint only after verified canonical implementation."
+  ]
+}

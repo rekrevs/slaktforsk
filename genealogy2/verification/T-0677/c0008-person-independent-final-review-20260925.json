@@ -1,0 +1,96 @@
+{
+  "task": "T-0677",
+  "scope": "C-0008 independent documentary final review of person impact and four E/EP evidence sets",
+  "reviewer": "Astra /root/c0004_control",
+  "date": "2026-09-25",
+  "status": "ACCEPTABLE_WITH_EXACT_AMENDMENTS",
+  "inputs": [
+    {
+      "file": "c0008-person-copy-impact-proposed-20260925.json",
+      "sha256": "53059b2b911461f412578d534172be9a6a571fea04ef77ec3c0db1ebf0774188"
+    },
+    {
+      "file": "c0008-person-E-EP-evidence-addendum-proposed-20260925.json",
+      "sha256": "a8b7125fd9695117a1889302b3796c30dbb3a9f5b3ebc49cef65d18a9cc79f5c"
+    },
+    {
+      "file": "c0008-native-source-proposed-v2-20260925.json",
+      "sha256": "914f51cde112763290b0d7136bbd0eb7dca24457da3b75f4a63b033a80979fe5"
+    },
+    {
+      "file": "c0008-root-source-comparison-acceptance-20260925.json",
+      "sha256": "a1b7ea0a8b32ce5333ce08b262f1a7a4a31e950f5193b160e731bb999cbcb153"
+    }
+  ],
+  "method": {
+    "original_access": false,
+    "canonical_mutation": false,
+    "prior_source_knowledge": true,
+    "review": "Proposed after text and individual dispositions compared with accepted source limits; no new source interpretation or witness identification. Current-head and exact-before replay validation is separately owned and reported PASS by root."
+  },
+  "coverage": {
+    "changed_fields": 10,
+    "changed_objects": 8,
+    "adoptions": 2,
+    "individual_dispositions": 41,
+    "additional_context_dispositions": 8,
+    "E_EP_exact_evidence_sets": 4,
+    "search_classification_counts": {
+      "OUTSIDE_C0008_SOURCE_CONTEXT": 151,
+      "IN_41_REVIEWED": 29,
+      "UNCHANGED_RELATED_CONTEXT": 4
+    }
+  },
+  "findings": [
+    {
+      "id": "C0008-PERSON-01",
+      "severity": "required_convention_correction",
+      "objects": [
+        "ADOPT-T0677-C0008-P-0003",
+        "ADOPT-T0677-C0008-P-0009"
+      ],
+      "field": "outcome",
+      "before": "bounded_adoption",
+      "after": "adopted_with_limits",
+      "reason": "Both bodies adopt only a bounded source result with explicit remaining limits; use established adoption outcome."
+    },
+    {
+      "id": "C0008-PERSON-02",
+      "severity": "required_precision_correction",
+      "object": "CONTRACT-P-0003-PK-05",
+      "field": "body prefix",
+      "before": "T-0675 aktuell precisering:",
+      "after": "Aktuell precisering, T-0675 och T-0677:",
+      "reason": "The current paragraph combines preserved T-0675 correction with T-0677 C-0008 result. This labels provenance accurately without changing knowledge."
+    },
+    {
+      "id": "C0008-PERSON-03",
+      "severity": "optional_redundancy_cleanup",
+      "objects": [
+        "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness",
+        "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness"
+      ],
+      "field": "evidence_after_proposed",
+      "recommendation": "Remove newly added supports edge to the same M revision while retaining derived_from to M, R supports and TR supports.",
+      "reason": "Both roles are semantically compatible, but they point to one source mention and supply no independent corroboration. This is not an identity or factual defect."
+    }
+  ],
+  "accepted_boundaries": [
+    "Ten updated fields preserve dates, persons, typed participation roles and statuses; no source term becomes a new person identification.",
+    "First witness remains C.F. Jaensson[?], with Jansson alternative and reserved lägenhetsäg[?]; Maskinisten is explicitly historical and withdrawn. No ownership or grandfather relation is inferred.",
+    "Second witness keeps reused Olga Wilh:a Lundin and reserved Skarpdal[?]; f.[?] is not expanded.",
+    "Mother qualifier remains reserved and separate from independently supported occupational history. Her own 1886-08-19/Lerbo is not claimed as newly read from this record.",
+    "Ten blank cells and column 20 uncertain trace are preserved as scoped source results; no readable churching date or lifelong negative is inferred.",
+    "OWNER_CONFIRMED father remains intact; source blank father cell does not decide biological paternity. Physical baptism place remains unestablished.",
+    "PK-04/05 and life themes retain other outstanding debts and existing statuses; C-0008 field completion is distinguished from unresolved witness identity.",
+    "Historical TR/READ and explicitly labeled historical prose remain historical, with no general automatic rebasing.",
+    "Forty-one individual dispositions and eight context dispositions remain bounded. Generic Jaensson matches and reproduction identifiers do not establish C-0008 copy dependence or authorize new identity research. No excluded search result lists exact C-0008/C0008, Maskinisten or Skarpdal as a matched term.",
+    "Grandparent targeted review does not identify a C-0008 witness with P-0042 or P-0043. No new adoption for those people follows from mere name similarity."
+  ],
+  "evidence_assessment": {
+    "individual_E_EP_rebindings": "Acceptable: same event/mentions and precise corrected field limits; unchanged witness2 M@1 deliberately retained. No global latest-version rule.",
+    "source_package_binding": "Use accepted source v2 SHA 914f51cde112763290b0d7136bbd0eb7dca24457da3b75f4a63b033a80979fe5, explicitly pinned by evidence addendum. Person proposal earlier source-v1 dependency metadata is preparation provenance, not the build target.",
+    "independence": "R, M, TR and AUDIT represent related layers of the same source, not independent witnesses."
+  },
+  "conclusion": "No further factual contradiction found within the decided C-0008 domain. Accept after the two exact convention/provenance amendments; redundant M supports cleanup is recommended and semantically safe. Actual operation validation, pending-review comparison and canonical authorization remain with root."
+}

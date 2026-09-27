@@ -1,0 +1,43 @@
+{
+  "task": "T-0676",
+  "decisionDate": "2026-09-20",
+  "proposalBuildDate": "2026-09-24",
+  "originalOperation": "genealogy2/verification/T-0676/graves-own-thirteen-proposed-operation.json",
+  "originalSha256": "9d7d9a907c147556d1289f34b597fe01a06e29f16c2c87a2d8478bbad026923b",
+  "operation": "genealogy2/verification/T-0676/graves-own-thirteen-proposed-operation-v2.json",
+  "operationSha256": "b35a19fe56866549465863bdaa40af19434346f97234f7b119db27b3c2d8f5e9",
+  "scope9AssetsFinding": "Alla 13 R@1 hade noll äldre assets och noll native assets; assetsPreserved:false var en rapportetikett som testade om den gamla listan var icke-tom.",
+  "rawFieldCorrections": {
+    "R-31841e54a960c1d066ce0486": [
+      "gravsättningsdatum är tomt",
+      "gravsättningsfältet visar streck (-), utan datum"
+    ],
+    "R-bb35194c8e5226cab4d0a8bd": [
+      "födelse-/dödsdatum tomma",
+      "födelse-/dödsfälten visar streck (-), utan datum"
+    ],
+    "R-c780069a70fe332c281db67b": [
+      "födelse-/dödsdatum tomma",
+      "födelse-/dödsfälten visar streck (-), utan datum"
+    ]
+  },
+  "metadataCorrections": [
+    {
+      "object": "F-P-0287-sibling_context-separate-households",
+      "expectedVersion": 1,
+      "old": "gravregistret saknar lokal kopia.",
+      "new": "Den exakta äldre registerkopian från 2026-09-06 saknas; egna kort för de tio Fredbergposterna är bevarade med URL/hash 2026-09-20 och Götas eget kort är bevarat genom T-0675. Nya fångster innebär ingen gemensam familjeflytt eller ny släktkant.",
+      "newEvidence": "tio egna TR@2 plus Götas TR/AUDIT@1"
+    },
+    {
+      "object": "F-P-0240-family_context-Carlman",
+      "expectedVersion": 2,
+      "old": "Elins egen fullpost/hemortskort är inte bevarat genom dessa andra kort; att hon nämns i samma gravlista löser inte hennes egenpostsprovenans.",
+      "new": "Elins egen fullpost med hemort Stockholm är nu bevarad med URL/hash 2026-09-20; detta är en ny daterad fångst, inte den saknade äldre registerkopian. De andra kortens medgravsrader ersätter fortfarande inte hennes eget hemortsfält.",
+      "newEvidence": "Elins TR@2 och AUDIT37@1"
+    }
+  ],
+  "approvedNormativeV2Decisions": "graves-own-followup-decisions-v2-20260920.json, 107 exakta afterData/afterMetadata bevarade",
+  "canonicalApply": false,
+  "dependencyResolutions": 0
+}

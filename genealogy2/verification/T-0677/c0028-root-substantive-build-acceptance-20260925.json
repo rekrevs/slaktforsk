@@ -1,0 +1,62 @@
+{
+  "task": "T-0677",
+  "state": "ACCEPTED_FOR_ISOLATED_BUILD_AND_TEMP_ONLY",
+  "baseline": "journal188 pending0",
+  "inputs": [
+    {
+      "file": "c0028-native-source-proposed-v2-20260925.json",
+      "sha256": "7f5559cf440b44928bc70a037b3bcbc03620e79cb6d0cd70939d4ab8c14bf9b5"
+    },
+    {
+      "file": "c0028-person-impact-proposed-v2-20260925.json",
+      "sha256": "0db319b2fe062a74202a6a1699da30c26f6232b4e39dbbb52b36f589d45aefc0"
+    }
+  ],
+  "root_checks": [
+    "4source objects and23matrix read; rawlock hashes and embedded matrices verified.",
+    "Exact sourcev1→v2 independent comparison confirms only4 authorized refinements.",
+    "7person beforefields match currentDB;6 earlier texts/rationales unchanged, new supports map read.",
+    "P0007sexfemale supported expressly by reused1 bound by2readers to lefv.född.kv., not by name/familyrole.",
+    "3adoptions,34retain rationales and4full QKP read. No C0028-specific debt there to remove.",
+    "C0919 discrepancies routed to T0679."
+  ],
+  "amendments": [
+    {
+      "objects": [
+        "ADOPT-T0677-C0028-P-0007",
+        "ADOPT-T0677-C0028-P-0015",
+        "ADOPT-T0677-C0028-P-0016"
+      ],
+      "field": "body",
+      "before": "12 dokumentärt återbrukade positiva enheter",
+      "after": "12 dokumentärt återbrukade hela enheter",
+      "rationale": "Column19 is reused blank."
+    },
+    {
+      "object": "ADOPT-T0677-C0028-P-0007",
+      "field": "body",
+      "before": "Fadderfältet är blankt;",
+      "after": "Fadderfältets tidigare dokumenterade blankhet återbrukas;",
+      "rationale": "No new witness-field reading."
+    },
+    {
+      "object": "ADOPT-T0677-C0028-P-0015",
+      "evidence_add": {
+        "object": "O-P-0015-father-occupation1920",
+        "version": 2,
+        "role": "supports",
+        "note": "Individuellt korrigerad egen yrkesobservation, järnvägsarb. skilt från stugnummer."
+      },
+      "rationale": "Exact corrected native observation in sameoperation."
+    }
+  ],
+  "build_instructions": [
+    "12objects:4sourcecreates+5personrevisions+3adoptioncreates.",
+    "Sourcev2 pinned here supersedes personproposal preparation metadata referencing sourcev1.",
+    "Decode Ovalue_json. Preserve origins/evidence/unmodified fields; only named new supports, no automatic rebase.",
+    "R-C0028-15 remains@1. ADOPTcriteria bounded_source_adoption/1,outcome adopted_with_limits.",
+    "Use P0007 revision_rationale_after; other metadata preserved unless explicit fielddecision.",
+    "Return full before/afterdiff, actual temp pending fullpayloads and3validators."
+  ],
+  "limits": "No canonicalapply. Astra142dependency preassessment ongoing; actual temprequests need separate rootreview/authorization. No further original access."
+}

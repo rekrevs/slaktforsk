@@ -1,0 +1,485 @@
+{
+  "task": "T-0677",
+  "state": "READ_ONLY_CURRENT_HEAD_SEARCH_NO_IDENTITY_DECISION",
+  "canonical_journal_head": 184,
+  "canonical_pending_at_capture": 0,
+  "search_scope": {
+    "kinds": [
+      "person",
+      "mention",
+      "record",
+      "observation",
+      "fact",
+      "assessment",
+      "narrative",
+      "transcription"
+    ],
+    "current_heads_scanned_by_kind": {
+      "person": 536,
+      "mention": 2473,
+      "record": 1960,
+      "observation": 3170,
+      "fact": 3426,
+      "assessment": 20719,
+      "narrative": 538,
+      "transcription": 998
+    },
+    "exact_pattern": "\\bOlof Reinhold(?: Lindberg)?\\b (case-insensitive)",
+    "near_pattern": "\\b(?:Olof|Olov|Olaf)\\s+Rein\\w+\\b with Lindberg or Ekträsk in same current payload",
+    "context_rule": "only direct subject/row context and the existing C-0751 Johan Reinhold Lindberg/Ekträsk household; no global Reinhold dump"
+  },
+  "exact_current_matches": [
+    {
+      "object_id": "F-P-0422-household_context-Olof-Reinhold",
+      "revision_id": "F-P-0422-household_context-Olof-Reinhold@1",
+      "kind": "fact",
+      "matched_text": "Olof Reinhold Lindberg"
+    },
+    {
+      "object_id": "CONTRACT-P-0422-PK-04",
+      "revision_id": "CONTRACT-P-0422-PK-04@1",
+      "kind": "assessment",
+      "matched_text": "Olof Reinhold Lindberg"
+    },
+    {
+      "object_id": "BIO-P-0422",
+      "revision_id": "BIO-P-0422@1",
+      "kind": "narrative",
+      "matched_text": "Olof Reinhold Lindberg"
+    }
+  ],
+  "near_variant_current_matches": [],
+  "current_record_locator_s78_row7_matches": [],
+  "selected_context_ids_and_limits": {
+    "P-0422": "subject of exact-name fact, not an Olof person identity",
+    "R-59d82d4780e5951f47a4fc15": "folio 601 row 24 record, explicitly not row 25",
+    "R-a562da850d1352c7634aa1ca": "C-0751 Lindberg/Ekträsk household record",
+    "TR-0ba53795cef5612374e768d3": "C-0751 household historical transcription",
+    "M-P-0481-C0751-own": "Johan Reinhold child-row mention, different first name",
+    "O-P-0481-C0751-own": "Johan Reinhold child-row observation, different first name",
+    "P-0481": "Johan Reinhold person, different first name",
+    "RESEARCH-P-0481-9d76f0343410": "Johan Reinhold research carrier, different first name"
+  },
+  "selected_full_current_payloads": {
+    "BIO-P-0422": {
+      "kind": "narrative",
+      "revision": {
+        "id": "BIO-P-0422@1",
+        "object_id": "BIO-P-0422",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Tidigare berättelse versionsbevarad; inte en ny oberoende faktakälla.",
+        "caveat": "Hela715radiga akt/profil och senare tillägg i C-0681/C-0563/C-0552 m.fl. lästa. Två giften, minst10+6barn, separata råtitlar, folioföljd och egna kolumner. Senare fadersrad1869/27dec rättar äldre1867/22dec; sexsyskon/sixdopvittnen tillkommer ur bevarat C0681. Änkedagen1895 olöst; såg. arb. saknar f.d. och är bara dödbokens titel. C0553postgräns inte avgjord.",
+        "previous_id": null
+      },
+      "data": {
+        "subject_id": "P-0422",
+        "title": "Biografisk sammanfattning",
+        "markdown": "## Biografisk sammanfattning\n\nJohan Petter Zingmark föddes 1825-02-01 i Botsmark i Sävar som son till\nbonden Carl Jonas Zingmark och Anna Sophia Holmström och döptes den 15\nfebruari. Både födelsenotisen i C/1 s. 91 och barndomshushållet i A I/1\ns. 157 namnger föräldrarna, och de två posterna är oberoende av varandra\n([C-0681](../citations/C-0681-savar-C1-AI1-johan-petter-zingmark-foraldrar.md)).\nOm de tjugo åren mellan barndomshushållet och giftermålet finns ingen läst\negen rad. Sävar A I/4 b:s hela Botsmarkavsnitt är läst utan att ett säkert\nZingmark–Pehrsdotter-hushåll framträder, vilket är väntat eftersom han\nvar ogift till slutet av 1850, men det betyder också att hans ungdomsår\nsaknar källa ([C-0686](../citations/C-0686-savar-flytt-och-AI4-sara-sophia-avgransning.md)).\n\nDen 24 november 1850 vigdes han i **Degerfors** med Sara Sophia\nPehrsdotter från Ånäset. Vigselposten kallar honom `Landbonden Joh. Pett.\nZingmark` från Botsmark, namnger hans far och brudens föräldrar och\nantecknar att brudens far var närvarande som giftoman. Lysningsdagen läses\n`3/11[?]`, och en not om ett avvittringsbetyg står i posten utan att någon\navvittringshandling är läst ([C-0997](../citations/C-0997-degerfors-EI1-vigsel-zingmark-pehrsdotter-1850.md)).\nDe tidigare nollresultaten i Sävars och Lyckseles vigselböcker står kvar\ninom sina egna årgångar och är nu förklarade: vigseln skedde i brudens\nhemförsamling ([C-0684](../citations/C-0684-savar-lycksele-vigslar-1850-negativ.md)).\n\nTitelföljden under de följande åren är inte enhetlig. Egen vigsel 1850 ger\nlandbonde, tre av barnens födelsenotiser 1853, 1854 och 1858 sätter `Sold.`\nframför hans namn, 1856 läses `B:d[?]` och 1851 är svårläst, medan 1864 och\n1868 ger `f. Landb.` respektive `landbonden`. På husförhörssidan A I/5 b\ns. 470 är ståndskolumnen tom och raden ovanför hushållet överstruken och\noläsbar. Från A I/6 b s. 603 och framåt skriver böckerna genomgående\n`Bonde`. Följden fastställer varken ett militärt tjänsteförlopp eller ett\ndaterat jordförvärv; rote, kompani och soldatnummer är okända\n([C-0983](../citations/C-0983-johan-peter-zingmark-soldatbeteckning-1853-1858.md),\n[C-0562](../citations/C-0562-savar-C2-zingmark-barn-fodda-1853-1858.md),\n[C-0685](../citations/C-0685-savar-AI5b-sida470-zingmark.md)).\n\nI det första äktenskapet föddes **minst tio barn** mellan 1851 och 1868,\ndäribland två tvillingpar. Sonen Axel dog tio månader gammal i februari\n1865, och tvillingen Sara Rebecka dog enligt sin egen födelsenotis efter\nundfånget nöddop utan att någon dödsdag anges där\n([C-0566](../citations/C-0566-savar-EI1-axel-zingmark-dod-1865.md),\n[C-0564](../citations/C-0564-savar-C3-sara-rebecka-ester-amalia-tvillingar-1868.md)).\nHushållssidan A I/6 b s. 603 antecknar Sara Sophias död 1868-08-14, men\nSävars dödböcker är fullständigt kontrollerade för hela intervallet utan\natt en säker post för henne kunde förenas; dagen står därför kvar som en\npositiv hushållsuppgift i konflikt med ett avgränsat tvåvolymsnoll\n([C-0563](../citations/C-0563-savar-AI6b-botsmark-sida-603-zingmark.md),\n[C-0555](../citations/C-0555-savar-dodbocker-sara-sophia-1868-1870-negativ.md)).\nPå samma sida skrivs hans far Carl Jonas in i hushållet 1867 och dör där\n1870; faderns rådatum hör till hans egen rad och inte till sonens.\n\nKnappt två år efter Sara Sophias död gifte han om sig. Lysningen togs ut\nden **19 juni 1870** och vigseln förrättades den 2 juli 1870 av\nH. L. Strinnholm. Bruden Kajsa Greta Nilsdotter skrivs `dersammastädes`\nmed samma husförhörsfolio 603 som brudgummen — hon var alltså redan\nbokförd i hans eget hushåll, dit hon kommit som piga från Umeå\nlandsförsamling. Hennes far Nils Peter Ericsson i Tafvelsjö[?] av Umeå\nförsamling gav skriftligt bifall, uppvisat som avskrift av den 14 juni\n([C-0553](../citations/C-0553-savar-EI1-zingmark-nilsdotter-vigsel-1870.md)).\nI det andra äktenskapet föddes sex barn mellan 1871 och 1887. År 1892 gav\nhan skriftligt medgivande till att den artonårige sonen Emanuel utvandrade\ntill Nordamerika ([C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md)).\n\nHushållet följs obrutet genom Sävars husförhörslängder från s. 470 till\ns. 670, med reciproka hänvisningar i båda riktningarna: 470 → 603 → 672 →\n756 → 670. Gårdsbeteckningen **Botsmark N:o 7** är först belagd 1884, och\ngårdens storlek är okänd; bråktalet `3/128` vid hushållets ingång 1894 är\nen rå söknyckel mot mantalslängderna, inte ett styrkt mantal. Sävars\nmantalsvolymer är katalogidentifierade men olästa\n([C-0554](../citations/C-0554-savar-AI9b-zingmark-hushall-1894-1898.md),\n[C-0825](../citations/C-0825-riksarkivet-skatterutter-sverker-djup5.md)).\n\nKajsa Greta dog 1895 och han blev änkling. Dagen är omstridd: den äldre\navskriften anger 1895-07-02, men omläsningen 2026-09-09 av båda\nhushållsböckernas råform ger `95 27/2`, alltså 27 februari. Hennes egen\ndödbokspost är oläst och skulle avgöra frågan (A-6200).\n\nDen 28 november 1898 lämnade han Botsmark för Degerfors med attest 14.\nDegerfors inflyttningslängd för hela treårsperioden 1898–1900 är läst utan\nhans post, men församlingsboken tar emot honom på **Ekträsk sida 601**, i\nhushållet hos dottern Maria Elina och hennes man Erik August Lindberg med\nåtta barn. Där skrivs han helt enkelt `Svärfar`, och yrkeskolumnen på hans\nrad är tom; folkräkningen 1900 använder samma ord. På samma sida står också\nen annan gammal man, Olof Reinhold Lindberg, född 1814, utan att någon\nsläktrelation framgår ([C-0585](../citations/C-0585-degerfors-AIIa2-ektrask-sida-601-johan-peter-zingmark.md),\n[C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md)).\n\nHan dog i Ekträsk den **24 juli 1903**, sjuttioåtta år gammal, och\nbegravdes den 2 augusti. Dödboken kallar honom `såg. arb.` — utan\nförkortningen `f.d.` — och dess kolumner för dödsorsak, läkarintyg och\navvikande dödsort är prövade och tomma. Att bonden från Botsmark slutade\nsom sågverksarbetare i Ekträsk vilar alltså på dödbokens enda ord;\nförsamlingsboken ger honom ingen yrkesuppgift alls, och den tidigare\nformuleringen om en `före detta sågverksarbetare` som blivit\nindustriarbetare på ålderdomen är rättad\n([C-0584](../citations/C-0584-degerfors-F3-johan-peter-zingmark-dod-1903.md)).\nIngen bouppteckning har kunnat identifieras i registret för hans namn och\nförsamling 1903–1904 ([C-0823](../citations/C-0823-bouppteckningsregister-sverker-djup5.md)).\n\nÖppna materiella frågor och källvägar finns i\n[forskningsprofilen](../research-profiles/P-0422.md).\n\n"
+      },
+      "origins": [
+        {
+          "unit_id": "091b4d11ec0e66e5d840dbb1236617454db0053725b5b34d7905c4c5b3b1d5d1",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": []
+    },
+    "CONTRACT-P-0422-PK-04": {
+      "kind": "assessment",
+      "revision": {
+        "id": "CONTRACT-P-0422-PK-04@1",
+        "object_id": "CONTRACT-P-0422-PK-04",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela715radiga akt/profil och senare tillägg i C-0681/C-0563/C-0552 m.fl. lästa. Två giften, minst10+6barn, separata råtitlar, folioföljd och egna kolumner. Senare fadersrad1869/27dec rättar äldre1867/22dec; sexsyskon/sixdopvittnen tillkommer ur bevarat C0681. Änkedagen1895 olöst; såg. arb. saknar f.d. och är bara dödbokens titel. C0553postgräns inte avgjord.",
+        "previous_id": null
+      },
+      "data": {
+        "subject_id": "P-0422",
+        "criteria": "legacy_person_contract/PK-04",
+        "outcome": "STYRKT",
+        "body": "| PK-04 | STYRKT | Föräldrar, två hustrur, sexton barn, mågen och de åtta dotterbarnen i det lästa hushållet är individuellt redovisade med tid, plats och belägg; andra hustruns far är namngiven ur vigselposten. Hushållsroll skiljs från släktskap: `Svärfar`, `måg` och den medboende Olof Reinhold Lindberg står som det källorna säger. [Relationer](../people/P-0422-j-p-zingmark.md#relationer), [C-0553](../citations/C-0553-savar-EI1-zingmark-nilsdotter-vigsel-1870.md), [C-0751](../citations/C-0751-folkrakning-1900-ektrask-zingmark-lindberg.md) |\n"
+      },
+      "origins": [
+        {
+          "unit_id": "a7283199a73901f43f8754f0190308248f2bcbfbbf903ed57a595c37b8eea34f",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": []
+    },
+    "F-P-0422-household_context-Olof-Reinhold": {
+      "kind": "fact",
+      "revision": {
+        "id": "F-P-0422-household_context-Olof-Reinhold@1",
+        "object_id": "F-P-0422-household_context-Olof-Reinhold",
+        "version": 1,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "R25 ligger utanför befintlig R för Johan Petters rad24; därför bevarad personanknuten kontext med exakt eget A-origin, ingen observation på fel R.",
+        "previous_id": null
+      },
+      "data": {
+        "subject_id": "P-0422",
+        "property": "household_context",
+        "value_type": "structured",
+        "value_json": {
+          "birth": "1814-07-06",
+          "birthplace": "Degerfors",
+          "death": "1904-05-29",
+          "kinship_to_Erik_August_unexamined": true,
+          "kinship_to_P0422_proven": false,
+          "name": "Olof Reinhold Lindberg",
+          "record_folio": 601,
+          "row": 25,
+          "widower_entry": true
+        }
+      },
+      "origins": [
+        {
+          "unit_id": "a70af076b7bdef799a4864f552145fb1cbe5a360459cbd1e29441dcd6b8b52c7",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": []
+    },
+    "M-P-0481-C0751-own": {
+      "kind": "mention",
+      "revision": {
+        "id": "M-P-0481-C0751-own@1",
+        "object_id": "M-P-0481-C0751-own",
+        "version": 1,
+        "operation_id": "T-0661/persons-10-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Bokstavlig form från denna post; tolkningar hålls i egna fält.",
+        "previous_id": null
+      },
+      "data": {
+        "record_id": "R-a562da850d1352c7634aa1ca",
+        "name_literal": "Johan Reinhold",
+        "role_literal": "son"
+      },
+      "origins": [
+        {
+          "unit_id": "61c4321cf0380d29a9b9345110019a50ddbb907b9308af7bf2fbc0f5efe6806c",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "935a7c5993ffdd0e3c229b405f61bc689779c6cfe921a745956fc27b80177d22",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "e6bb599c666ce14b5350f2b8f502a2b61085fd18f2a5489b6929fe547f5a64b1",
+          "coverage": "partial",
+          "note": "Egen födelseår/socken och familjerad bevaras utan tillagt efternamn, födelseby eller senare liv."
+        }
+      ],
+      "evidence": [
+        {
+          "basis_revision_id": "R-a562da850d1352c7634aa1ca@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ]
+    },
+    "O-P-0481-C0751-own": {
+      "kind": "observation",
+      "revision": {
+        "id": "O-P-0481-C0751-own@1",
+        "object_id": "O-P-0481-C0751-own",
+        "version": 1,
+        "operation_id": "T-0661/persons-10-v1",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+        "caveat": "Barnets egen rad inom klammern över s77–78. För de fyra sista barnen återger citationen släktrollen i löptext, inte separat citerad råroll; role_literal lämnas därför tom. Efternamn och exakt födelsedag saknas.",
+        "previous_id": null
+      },
+      "data": {
+        "record_id": "R-a562da850d1352c7634aa1ca",
+        "mention_id": "M-P-0481-C0751-own",
+        "property": "person_fields",
+        "value_literal": "{\"name\":\"Johan Reinhold\",\"birth_year\":1881,\"birth_parish\":\"Degerfors\",\"residence\":\"Ekträsk\",\"census_year\":1900,\"surname\":null,\"kinship\":\"son\"}",
+        "value_json": {
+          "birth_parish": "Degerfors",
+          "birth_year": 1881,
+          "census_year": 1900,
+          "kinship": "son",
+          "name": "Johan Reinhold",
+          "residence": "Ekträsk",
+          "surname": null
+        }
+      },
+      "origins": [
+        {
+          "unit_id": "61c4321cf0380d29a9b9345110019a50ddbb907b9308af7bf2fbc0f5efe6806c",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "935a7c5993ffdd0e3c229b405f61bc689779c6cfe921a745956fc27b80177d22",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "e6bb599c666ce14b5350f2b8f502a2b61085fd18f2a5489b6929fe547f5a64b1",
+          "coverage": "partial",
+          "note": "Egen födelseår/socken och familjerad bevaras utan tillagt efternamn, födelseby eller senare liv."
+        }
+      ],
+      "evidence": [
+        {
+          "basis_revision_id": "M-P-0481-C0751-own@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "basis_revision_id": "R-a562da850d1352c7634aa1ca@1",
+          "role": "supports",
+          "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+        }
+      ]
+    },
+    "P-0422": {
+      "kind": "person",
+      "revision": {
+        "id": "P-0422@2",
+        "object_id": "P-0422",
+        "version": 2,
+        "operation_id": "T-0660/persons-09-v1",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Den individuellt granskade avgränsade personidentiteten består; forskningskontraktets utfall hålls separat.",
+        "caveat": "Födelse-/föräldraankare och reciprok hushållsföljd bär denna individuella identitet. Ingen ny kontraktsuppgradering.",
+        "previous_id": "P-0422@1"
+      },
+      "data": {
+        "display_name": "Johan Peter Zingmark, bonde i Botsmark",
+        "sex": "male",
+        "legacy_state": "active"
+      },
+      "origins": [
+        {
+          "unit_id": "9258e8e8a6dc57919abe4e59cd4eba2f2b7f268ec8b10f4028838974ffe6d42d",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": []
+    },
+    "P-0481": {
+      "kind": "person",
+      "revision": {
+        "id": "P-0481@2",
+        "object_id": "P-0481",
+        "version": 2,
+        "operation_id": "T-0661/persons-10-v1",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Den individuellt granskade avgränsade personidentiteten består; forskningskontraktets utfall hålls separat.",
+        "caveat": "En avgränsad barnrad i en enda folkräkning stöder denna person. Återberättande och släktnamnsmatchning ger inte oberoende korroboration; profilens underkända identitets-/kontraktsgranskningar ändras inte.",
+        "previous_id": "P-0481@1"
+      },
+      "data": {
+        "display_name": "Johan Reinhold i Ekträsk, den äldste",
+        "sex": null,
+        "legacy_state": "active"
+      },
+      "origins": [
+        {
+          "unit_id": "61c4321cf0380d29a9b9345110019a50ddbb907b9308af7bf2fbc0f5efe6806c",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": []
+    },
+    "R-59d82d4780e5951f47a4fc15": {
+      "kind": "record",
+      "revision": {
+        "id": "R-59d82d4780e5951f47a4fc15@1",
+        "object_id": "R-59d82d4780e5951f47a4fc15",
+        "version": 1,
+        "operation_id": "T-0648/evidence-03-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Källpost avgränsad i C-0585. Jämförs med Sävar A I/9b s 670 C-0554 och dödspost C-0584. Överförd änkedag är inte självklart oberoende bara för att texten kallar platserna oberoende. Såg. arb. kommer från dödboken, inte denna tomma kolumn.",
+        "caveat": "Namnraden Svärfar Johan Petter Zingmark; yrkeskolumnen tom. Före detta sågverksarbetare är uttryckligen återtagen övertolkning. Änkedag rättas råmässigt 95 2/7 till 95 27/2, men äldre projektbedömning behåller CONFLICT tills hustruns egen dödspost prövas. Ingen föräldrarad.\nC-0585: Senare råläsning ger 27 februari 1895 medan den uttryckliga CONFLICT-bedömningen bevaras. Yrkesrättelsen får inte tappas: hushållsraden säger Svärfar och tom yrkeskolumn, inte f.d. sågverksarbetare.",
+        "previous_id": null
+      },
+      "data": {
+        "source_id": "S-0459",
+        "record_type": "household_row",
+        "locator": "Degerfors A II a/2, Ekträsk s.601, Johan Petter Zingmark rad 24, F0013101_00237",
+        "dependence_note": "Jämförs med Sävar A I/9b s 670 C-0554 och dödspost C-0584. Överförd änkedag är inte självklart oberoende bara för att texten kallar platserna oberoende. Såg. arb. kommer från dödboken, inte denna tomma kolumn."
+      },
+      "origins": [
+        {
+          "unit_id": "0e73094f6ec010278735a153c4b3812c17362ce7945c18c5a2c476455455569d",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "6ca530728a3a36050229e3ce256e7981325cce948a813be1d7469c4ff014fc6b",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "a58bf31ef5e5842cf9400324022a672adbcbfa3c174f111d0aad55d704160b9a",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "basis_revision_id": "S-0459@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "R-a562da850d1352c7634aa1ca": {
+      "kind": "record",
+      "revision": {
+        "id": "R-a562da850d1352c7634aa1ca@1",
+        "object_id": "R-a562da850d1352c7634aa1ca",
+        "version": 1,
+        "operation_id": "T-0649/evidence-04-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Källpost avgränsad i C-0751. SCButdrag över två bildytor;800px är högsta erbjudna upplösningen i det dokumenterade underlaget. Senare jämförelser med andra familjer ger inte statistik eller nya källobservationer.",
+        "caveat": "Föräldrar och fyra barn på77 samt fyra barn på78 måste läsas tillsammans. Barnraderna saknar efternamn; varken Zingmark eller Lindberg tilldelas automatiskt. Senare intervall-/namnmönster är äldre analys utan bevis för full barnskara eller uppkallningsavsikt. Faderns härkomst är outforskad.\nC-0751: Familj över sidgräns, separat Sara Josefina och Johan Petter med eget index skiljs åt. Senare namnmönster, differenser mellan födelseår (inte exakta födelseintervall) och morbror/systerson med namnet Olof Konrad är äldre analys med kontrollbrister. De åtta synliga barnen är inte bevis för samtliga födda barn; moderns årsålder43 är en beräkning, inte ett exakt källfält.",
+        "previous_id": null
+      },
+      "data": {
+        "source_id": "S-0005",
+        "record_type": "census_household_extract",
+        "locator": "Folkräkning1900 Degerfors,Ekträsk Lindberg/Maria Elina med åtta barn över s77–78,Folk_024008-077 och Folk_024008-078",
+        "dependence_note": "SCButdrag över två bildytor;800px är högsta erbjudna upplösningen i det dokumenterade underlaget. Senare jämförelser med andra familjer ger inte statistik eller nya källobservationer."
+      },
+      "origins": [
+        {
+          "unit_id": "18ec70188c3ecfa36a8fc4af9850ecc6f1fd3e8a8051e85ac2602c29647447bb",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "35cbe64e3d4ef9fd620df91e3dd124f566d0f6c70e9bfda0a027c840488d6ba7",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "935a7c5993ffdd0e3c229b405f61bc689779c6cfe921a745956fc27b80177d22",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "e601d12b50a7dc91d7206719011b7ca00c4ebed1a2ac0f7e725589f7b70db282",
+          "coverage": "partial",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "basis_revision_id": "S-0005@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ]
+    },
+    "RESEARCH-P-0481-9d76f0343410": {
+      "kind": "assessment",
+      "revision": {
+        "id": "RESEARCH-P-0481-9d76f0343410@1",
+        "object_id": "RESEARCH-P-0481-9d76f0343410",
+        "version": 1,
+        "operation_id": "T-0661/persons-10-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akten och forskningsprofilen inklusive sena analytiska påståenden lästa. Hela C0751 med samtliga tillägg kontrollerad mot de frysta och tidigare granskade Zingmark-familjefakta som återbrukas. Ingen ny bild- eller arkivläsning.",
+        "previous_id": null
+      },
+      "data": {
+        "subject_id": "P-0481",
+        "criteria": "legacy_profile_section/Identitetsbedömning",
+        "outcome": "recorded",
+        "body": "## Identitetsbedömning\n\n**En enda rad i en enda källa bär Johan Reinhold.** Folkräkningen 1900 ger\n`son Johan Reinhold | född 1881 i Degerfors` inom hushållsklammern för bonden\n[Erik August Lindberg](P-0480.md) och hustrun\n[Maria Elina Zingmark](P-0437.md) i Ekträsk.\n\n**Hushållets identitet vilar inte på klammern ensam.** Ordet `svärfar` på\n[Johan Petter Zingmarks](P-0422.md) rad binder föräldraparet, eftersom\nmoderns dotterrelation till honom är säkrad ur andra källor.\n\n**Tre gränser är källägen och inte luckor.** Efternamnet står inte i\noriginalet och konstrueras inte; hushållet är läsbart bara över sidgränsen\n77/78; och bildernas 800 bildpunkter är Riksarkivets högsta erbjudna\nupplösning, så ingen omläsning kan ge mer. Se A-7948 i faderns akt.\n\n**Hans namnled bär morfaderns `Johan` och morbroderns `Reinhold`** — han är\nden förste av sju syskon med Zingmarksnamn och fick dem båda.\n\n**Hans födelseår gör mer än att datera honom själv.** Modern skrevs in i\nDegerfors 1875-10-15; vigseln är oläst; hans födelse 1881 är den övre\ngränsen för den. Sex år ligger obelagda däremellan, och ingen annan\nhandling fyller dem.\n\nHan är också kohortens ende med en källväg utanför kyrkoböckerna vid känd\ntidpunkt: värnpliktsålder omkring 1902. Åldersgränsen är räknad på\nfödelseåret ensamt, eftersom ingen dag är känd, så året kan förskjutas.\n\n`Trädverkan: EJ BÄRANDE`: ingen anlinje passerar Johan Reinhold. Antavlans person i\nmoderns syskonskara är [P-0028](P-0028.md).\n\n"
+      },
+      "origins": [
+        {
+          "unit_id": "c6027521ac2b7e0d718192cfdc1439de51709a4a2aed8c95d4857f23bac80cd7",
+          "coverage": "complete",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": []
+    },
+    "TR-0ba53795cef5612374e768d3": {
+      "kind": "transcription",
+      "revision": {
+        "id": "TR-0ba53795cef5612374e768d3@1",
+        "object_id": "TR-0ba53795cef5612374e768d3",
+        "version": 1,
+        "operation_id": "T-0649/evidence-04-v1",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0751; ingen ny originalavläsning.",
+        "caveat": "Föräldrar och fyra barn på77 samt fyra barn på78 måste läsas tillsammans. Barnraderna saknar efternamn; varken Zingmark eller Lindberg tilldelas automatiskt. Senare intervall-/namnmönster är äldre analys utan bevis för full barnskara eller uppkallningsavsikt. Faderns härkomst är outforskad.",
+        "previous_id": null
+      },
+      "data": {
+        "record_id": "R-a562da850d1352c7634aa1ca",
+        "text": "> Erik August Lindberg | bonde | född 1856 i Degerfors\n>\n> hustru Maria Elina Zingmark | född 1856 i Sävar\n>\n> son Johan Reinhold | född 1881 i Degerfors\n>\n> son Karl Erik | född 1884 i Degerfors\n>\n> dotter Sofia Evelina | född 1887 i Degerfors\n>\n> son Per August | född 1889 i Degerfors\n",
+        "reading_note": "Familj över sidgräns, separat Sara Josefina och Johan Petter med eget index skiljs åt. Senare namnmönster, differenser mellan födelseår (inte exakta födelseintervall) och morbror/systerson med namnet Olof Konrad är äldre analys med kontrollbrister. De åtta synliga barnen är inte bevis för samtliga födda barn; moderns årsålder43 är en beräkning, inte ett exakt källfält.\nFöräldrar och fyra barn på77 samt fyra barn på78 måste läsas tillsammans. Barnraderna saknar efternamn; varken Zingmark eller Lindberg tilldelas automatiskt. Senare intervall-/namnmönster är äldre analys utan bevis för full barnskara eller uppkallningsavsikt. Faderns härkomst är outforskad."
+      },
+      "origins": [
+        {
+          "unit_id": "3fafa57c9d3d5608664673a8c2a7421d3ad9d6c19e189c408813a1e1e8f891eb",
+          "coverage": "complete",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        },
+        {
+          "unit_id": "935a7c5993ffdd0e3c229b405f61bc689779c6cfe921a745956fc27b80177d22",
+          "coverage": "context",
+          "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+        }
+      ],
+      "evidence": [
+        {
+          "basis_revision_id": "R-a562da850d1352c7634aa1ca@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: record_id"
+        }
+      ]
+    }
+  },
+  "negative_findings": {
+    "current_person_named_Olof_Reinhold_Lindberg": false,
+    "current_mention_named_Olof_Reinhold_Lindberg": false,
+    "current_record_or_observation_with_exact_name": false,
+    "current_record_locator_s78_row7": true,
+    "near_Olov_Olaf_Reinhold_variant_in_Lindberg_Ektrask_context": true
+  },
+  "limits": [
+    "F-P-0422:s folio 601 rad25 är personanknuten kontext med eget A-origin; R för rad24 är uttryckligen inte stöd för rad25.",
+    "C-0751:s befintliga Lindberg/Ekträsk-objekt gäller Johan Reinhold. Ingen koppling till nygranskad sida 78 rad 7 fastställs här.",
+    "Inga historiska revisioner eller originalbilder omprövades. Ingen identitets- eller släktskapsbedömning."
+  ],
+  "no_native_write": true
+}

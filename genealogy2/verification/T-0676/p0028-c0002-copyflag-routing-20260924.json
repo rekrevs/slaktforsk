@@ -1,0 +1,71 @@
+{
+  "schema": "t0676-copyflag-routing/1",
+  "date": "2026-09-24",
+  "mode": "read_only_routing_review",
+  "status": "underlag_for_astra_no_disposition",
+  "flag": "P-0028 current BIO, residence fact and BO theme carry an older C-0002 folio reading while P-0001 current caveat states 93.3 rather than 263.3",
+  "current_payloads_read_via_cli_inspect": [
+    {
+      "revision_id": "BIO-P-0028@4",
+      "field": "markdown",
+      "exact_excerpt": "Var de bodde 1897 är inte utrett — sonen Oskar Alfreds födelsenotis hänvisar bara till församlingsbokens sida 263",
+      "citation_in_same_paragraph": "C-0002"
+    },
+    {
+      "revision_id": "F-P-0028-residence-documented_chain@1",
+      "field": "caveat",
+      "exact_excerpt": "1890-talets hushållshänvisning 263.3 är oläst; flytten till Rosinedahl är inte exakt daterad.",
+      "value_json_note": "Den strukturerade bostadskedjan innehåller ingen 263.3-post."
+    },
+    {
+      "revision_id": "THEME-P-0028-BO@1",
+      "field": "body",
+      "exact_excerpt": "Sonens födelsenotis 1897 hänvisar till församlingsbokens `263.3`, en oläst hushållsfolio mellan Buberget och Rosinedahl",
+      "citation_in_same_row": "C-0002"
+    },
+    {
+      "revision_id": "BIO-P-0001@3",
+      "field": "caveat",
+      "exact_excerpt": "hänvisningen är 93.3, inte 263.3"
+    },
+    {
+      "revision_id": "THEME-P-0001-BO@2",
+      "field": "caveat, preserved earlier qualification",
+      "exact_excerpt": "hänvisningen är 93.3, inte 263.3"
+    }
+  ],
+  "source_unit_and_record": {
+    "citation_id": "C-0002",
+    "citation_title": "Oskar Alfred Zingmarks födelse- och dopnotis 1897",
+    "frozen_citation_path": "genealogy/citations/C-0002-oskar-alfred-fodelse-1897.md",
+    "frozen_citation_sha256_in_T0673_manifest": "287d180f55dca1dc7c704a887e768a0d7452ded343558ab13991e712bd721970",
+    "source_revision_id": "S-0002@1",
+    "source_title": "Vindelns kyrkoarkiv C:7, födelse- och dopbok 1895–1903",
+    "record_revision_id": "R-510e9de3e16243afcce92e2e@1",
+    "record_type": "birth_baptism",
+    "record_locator": "Vindeln (Degerfors) C/7, 1897 nr 86, tryckt s.82, bild 85, 00206849_00085",
+    "older_transcription_revision_id": "TR-d53dad7fd2161f53b6aab1c4@1",
+    "older_transcription_field_excerpt": "[hänvisning] 263.3",
+    "older_transcription_rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0002; ingen ny originalavläsning."
+  },
+  "existing_ready_ownership": {
+    "primary_citation_and_record_task": "T-0677",
+    "status": "READY",
+    "cohort": "G001",
+    "assignment_evidence": "T-0673/cohorts-draft.json G001 members contains citation C-0002 and record R-510e9de3e16243afcce92e2e; T-0673/ownership.json maps G001 to T-0677.",
+    "scope": "40 citations, 33 imported_assets and 48 records; record_substantive; full relevant posts/columns, raw values and uncertainties, separate second reading of difficult or decisive fields, previous readings reused only after exact scope/version reconciliation.",
+    "acceptance": "Each assigned unit and support surface gets a reasoned read/unread and version/provenance outcome; shared media has one primary reading owner; substantive corrections go through apply and individually assess triggered dependencies and free-text copies in facts, narratives, questions, keys and source paths; unresolved matters receive a bounded Wotan owner; validation and full manifest reconciliation precede DONE.",
+    "task_log": "wotan/dev-log/T-0677.md"
+  },
+  "related_media_ownership": {
+    "task": "T-0758",
+    "status": "READY",
+    "cohort": "G085",
+    "relationship": "G001 cross-reference labels this asset media_provenance_only; G085 separately owns the imported asset. This is a media-scope assignment, not a second owner of C-0002 or its record.",
+    "asset": "genealogy/media/C-0002-riksarkivet-SE-HLA-1010028-C7-bild-85-sida-82.jpg",
+    "asset_sha256_in_T0673_manifest": "b5a72041a7e7b93a98394bac57d9d861bc8c049824aed95582d7337031cb2ae4",
+    "manifest_link_state": "has_current_record_link=false",
+    "task_log": "wotan/dev-log/T-0758.md"
+  },
+  "boundary": "No original opened, no correction or genealogical adjudication made, and no canonical or Wotan execution state changed. Astra determines whether and when the copy flag is handled."
+}

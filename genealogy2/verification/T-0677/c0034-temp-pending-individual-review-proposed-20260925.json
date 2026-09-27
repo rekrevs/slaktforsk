@@ -1,0 +1,1387 @@
+{
+  "task": "T-0677",
+  "state": "PROPOSED_ACTUAL_TEMP_REQUEST_DISPOSITIONS_NO_RESOLUTION",
+  "input_file": "c0034-temp-pending-full-20260925.json",
+  "input_sha256": "57dd8fd815c5f2ced2b96bff3d49373e4c05804ee985b6713b5e5cac3ff8a6f3",
+  "operation_sha256": "e1b885d9edf29be0fbbdc6b4b4a7ec2eaba30aca31743abf4e17909d674f3513",
+  "canonical_base_journal": 190,
+  "isolated_temp_journal": 191,
+  "counts": {
+    "actual_requests": 11,
+    "retain": 11,
+    "revision_required": 0
+  },
+  "changed_basis_previous_full": {
+    "object_id": "R-bbe424c723e313d730a6f028",
+    "kind": "record",
+    "revision": {
+      "id": "R-bbe424c723e313d730a6f028@1",
+      "object_id": "R-bbe424c723e313d730a6f028",
+      "version": 1,
+      "operation_id": "T-0646/evidence-01-v1",
+      "disposition": "recorded",
+      "evidence_status": null,
+      "rationale": "Källpost avgränsad i C-0034. Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser.",
+      "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Samtyckesförkortningar och förrättarens efternamn är ännu inte fullt utvunna.\nC-0034: Senare läsning fastställer Tulefors och 1 i varderas äktenskapsordningskolumn. Äldre reservation om boställe är därmed överspelad, men inte om förrättarens efternamn.",
+      "previous_id": null
+    },
+    "data": {
+      "source_id": "S-0028",
+      "record_type": "banns_marriage_entry",
+      "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+      "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+    },
+    "origins": [
+      {
+        "revision_id": "R-bbe424c723e313d730a6f028@1",
+        "unit_id": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "document_path": "genealogy/citations/C-0034-arne-maj-vigsel-1938.md",
+        "start_line": 19,
+        "end_line": 24,
+        "document_sha256": "51f86271193dd0e6b119e3cc24c5e7ee12e489e0b699b6065c4e4135a967d116"
+      },
+      {
+        "revision_id": "R-bbe424c723e313d730a6f028@1",
+        "unit_id": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "document_path": "genealogy/citations/C-0034-arne-maj-vigsel-1938.md",
+        "start_line": 9,
+        "end_line": 15,
+        "document_sha256": "51f86271193dd0e6b119e3cc24c5e7ee12e489e0b699b6065c4e4135a967d116"
+      },
+      {
+        "revision_id": "R-bbe424c723e313d730a6f028@1",
+        "unit_id": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+        "coverage": "context",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "document_path": "genealogy/citations/C-0034-arne-maj-vigsel-1938.md",
+        "start_line": 1,
+        "end_line": 52,
+        "document_sha256": "51f86271193dd0e6b119e3cc24c5e7ee12e489e0b699b6065c4e4135a967d116"
+      },
+      {
+        "revision_id": "R-bbe424c723e313d730a6f028@1",
+        "unit_id": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+        "coverage": "partial",
+        "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst.",
+        "document_path": "genealogy/citations/C-0034-arne-maj-vigsel-1938.md",
+        "start_line": 44,
+        "end_line": 50,
+        "document_sha256": "51f86271193dd0e6b119e3cc24c5e7ee12e489e0b699b6065c4e4135a967d116"
+      }
+    ],
+    "evidence": [
+      {
+        "revision_id": "R-bbe424c723e313d730a6f028@1",
+        "basis_revision_id": "S-0028@1",
+        "role": "derived_from",
+        "note": "Versionsbunden strukturreferens: source_id"
+      }
+    ],
+    "imported_media_bindings": [
+      {
+        "asset_path": "genealogy/media/C-0034-riksarkivet-SE-ULA-10257-EI4-bild-17-sida-14.jpg",
+        "region": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+        "sha256": "a2c08811c1a8a4dcde11521c3ed96b4def26b0d31056c1cd318ab5f301731868",
+        "bytes": 1387118,
+        "frozen": 1,
+        "batch_id": "a97081f666ca46e2b692ebdb2fcb98cf0a57d5412e1a35007af8fb18046a04c0"
+      }
+    ],
+    "native_media_bindings": []
+  },
+  "changed_basis_assessment": "Alla elva requests har exakt samma fulla changed R@2. Locator, data, fyra origins och S-only-kant är oförändrade; caveaten ersätter olästskuld med prövade reservationer och rättar sista kolumnens nummer. Dessa förändringar prövas mot respektive målobjekt nedan.",
+  "dispositions": [
+    {
+      "index": 1,
+      "request_id": "0a371df067f392971493ef14efad42cbf7e4768f58dc411e39a76d5c7ffcb231",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "E-birth-P-0003@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Ändrar den nya källreservationen Arnes födelsedatum eller födelseplats?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Datumet 1915-02-21 i vigselns födelsefält är ett uttryckligt positivt återbruk. R@2 ändrar samtyckes-/förrättarcaveaten och blankkolumnens numrering, inte detta datum. Eventet har även R-70eeff109bc651dce649a0ee@1 och R-769a6225a4869399e047bd50@1 som stöd; den särskilda födelseplatsen Flen kontra moderns hemförsamling Floda härleds inte ur den nya samtyckesläsningen.",
+      "affected_full": {
+        "kind": "event",
+        "revision": {
+          "id": "E-birth-P-0003@1",
+          "object_id": "E-birth-P-0003",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "event_type": "birth",
+          "date_json": {
+            "literal": "1915-02-21",
+            "precision": "exact",
+            "value": "1915-02-21"
+          },
+          "place_id": null,
+          "place_role": "Flen, nedkomstort uttryckligt skild från moderns hemförsamling Floda"
+        },
+        "origins": [
+          {
+            "unit": "11050f2d9738f3a9849fce75c07e4b0755b1b5dbbe498eb02f5144536ccccf67",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "16037f7ce8a768acf5cb41e26cfbde71c248d946e9035e62e7b2a7b6c492d47e",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "17822918de5e3f1ff95c7817e1244c6f47d6e5039920de318c710efa6826156e",
+            "coverage": "partial",
+            "note": "Relation och angiven tids-/ortkontext hålls isär."
+          },
+          {
+            "unit": "18e98b182d43208e93cb36e426b6125dfbb50cf43e10739d58914078102a3ceb",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "7b9e09452b8625e4de55d5886c58f753417d81bffc976a8429f3b3f810c800fb",
+            "coverage": "partial",
+            "note": "Hela den aktuella uppgiften representeras med uttryckliga förbehåll."
+          },
+          {
+            "unit": "b873ffc6f4c6e084df95d4ea0f768c1254696471e02719e625260abbb5b51cb7",
+            "coverage": "partial",
+            "note": "Relation och angiven tids-/ortkontext hålls isär."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-70eeff109bc651dce649a0ee",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-769a6225a4869399e047bd50",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 2,
+      "request_id": "3a974d86ed15accf1206d662ebc6e4ae82639ebac16e599e13bb70a971f60a77",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "REL-spouse-P-0003-P-0007@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Ändrar de reserverade samtyckesorden makrelationen eller vigseldatumet?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Relationens P-0003/P-0007, marriage och 1938-05-15 stöds av den oförändrade vigseluppgiften och den redan bevarade hushållskedjan R-05055c1adb1f17278c7a5ec6@1/R-86e25c6dd1c2141e8454c02e@1. Reservationerna får inte normaliseras till nya rättsliga sakuppgifter, men skapar inte en konflikt med själva registrerade vigseln. Caveaten är tom och innehåller ingen kvarstående utvinningsskuld.",
+      "affected_full": {
+        "kind": "relation",
+        "revision": {
+          "id": "REL-spouse-P-0003-P-0007@1",
+          "object_id": "REL-spouse-P-0003-P-0007",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "from_person": "P-0003",
+          "to_person": "P-0007",
+          "relation_type": "spouse",
+          "nature": "marriage",
+          "date_json": {
+            "literal": "1938-05-15",
+            "precision": "exact",
+            "value": "1938-05-15"
+          }
+        },
+        "origins": [
+          {
+            "unit": "20566e9adf052889481ea40e13f8977303b96365c45a6aa74302d3211c573f78",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "22f63f58d8edae4c0f830431631c612e3b65a9c0d26226fdc8e492ded049e239",
+            "coverage": "partial",
+            "note": "Hustru samt farmor genom explicit tvåstegskedja."
+          },
+          {
+            "unit": "3856df5b4ffe253a261fb62ac927cce2482053fbcdc19251145c13d0e04dac0d",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "3e9c9e9be02caa7656f5545f24ac13eebc2721d9a4475ed540c51ea7a8384a6b",
+            "coverage": "partial",
+            "note": "Hela1943–47kedjan med namngivna barn och födelseuppgift; inga minimerade dagar återförs."
+          },
+          {
+            "unit": "4881f68f3b18876f3e5a6de01af9e0362e485115bbadde8fc69ba653723db169",
+            "coverage": "partial",
+            "note": "Gemensam vigsel, förstaäktenskap och lysningar, inga vittnen konstruerade."
+          },
+          {
+            "unit": "4e10dfde9c6ab4b28d0687fe25b73b8741b0c7024f5fe1b7964d288823d0d1e5",
+            "coverage": "partial",
+            "note": "Relation och angiven tids-/ortkontext hålls isär."
+          },
+          {
+            "unit": "9c93bc1ef86c8bfcdc9e7a16445012a541cde32ace94d18cc545ca949fdd8806",
+            "coverage": "partial",
+            "note": "Vigsel och relationsradens slut vid makens död1993 bevaras."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-05055c1adb1f17278c7a5ec6",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-86e25c6dd1c2141e8454c02e",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 3,
+      "request_id": "3f53998cc98afc141d046c25bb206dbad5125e6e758ca68399725f298c4da2e1",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "EP-E-birth-P-0003-P-0003-child@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Påverkar R@2 indirekt Arnes barnroll i den befintliga födelsehändelsen?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Den faktiska extra begäran utöver de tio direkta oförändrade R-beroendena är transitiv via E-birth-P-0003@1. EP:s enda evidenskant går till denna födelsehändelse; person P-0003 och rollen child består när födelsedatumets C-0034-fält återbrukas. Inga samtyckesord, förrättarnamn eller moderidentifieringar finns i EP:s data/caveat. Ingen ny R-kant eller ombindning behövs.",
+      "affected_full": {
+        "kind": "participation",
+        "revision": {
+          "id": "EP-E-birth-P-0003-P-0003-child@1",
+          "object_id": "EP-E-birth-P-0003-P-0003-child",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "event_id": "E-birth-P-0003",
+          "person_id": "P-0003",
+          "mention_id": null,
+          "role": "child"
+        },
+        "origins": [
+          {
+            "unit": "11050f2d9738f3a9849fce75c07e4b0755b1b5dbbe498eb02f5144536ccccf67",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "16037f7ce8a768acf5cb41e26cfbde71c248d946e9035e62e7b2a7b6c492d47e",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "18e98b182d43208e93cb36e426b6125dfbb50cf43e10739d58914078102a3ceb",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "E-birth-P-0003",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 4,
+      "request_id": "59772502e1c8d6b9d52a3602cde8b7d39ebede56149195622e314e2b3dfb15a3",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "P-0003@2",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Ger C-0034:s fullprövning skäl att ändra Arnes accepterade identitet eller persondata?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Arne Godvig Jansson i vigselposten är oförändrat återbruk, inte förrättarens reserverade namn. R@2 ger varken konkurrerande person eller ny namngiven mor. Personens accepted/CORROBORATED samt caveatens åtskillnad mellan personidentitet och PK-05/11/livsbild/trädverkan består. sex:null omprövas inte på grund av den nu ändrade caveaten.",
+      "affected_full": {
+        "kind": "person",
+        "revision": {
+          "id": "P-0003@2",
+          "object_id": "P-0003",
+          "version": 2,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+          "caveat": "Den enskilda personidentiteten accepteras uttryckligen; PK-05/11, livsbild och trädverkan ändras inte.",
+          "previous_id": "P-0003@1"
+        },
+        "data": {
+          "display_name": "Arne Godvig Jansson",
+          "sex": null,
+          "legacy_state": "active"
+        },
+        "origins": [
+          {
+            "unit": "9780b612c03cf5dc3d0c15ebb8692719e4c2cb983530f28990c2b36764bb64c5",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "ea5379cfa40e7aea36544609c12c4e9f90228e4640def7f3f91723d5b191a0ea",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-01d7f3c0b9efbd24ee39cf7c",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-70eeff109bc651dce649a0ee",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-79718825d117bf31d16b4fe7",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 5,
+      "request_id": "625d6a1e08a8759163f28af9c1c51a03a523c8b60fe4b5b9d9eb4cb39b114e00",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "READ-0b795a5d9e1663f7d6e458c3@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Måste den äldre läshistorikens dåvarande utvinningsförbehåll skrivas om efter R@2?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. criteria legacy_record_boundary, ursprung och rationale anger dokumenterad äldre avgränsning/läshistorik; dess derived_from-kant säger uttryckligen att den avser denna version av den återbrukade posten, R@1. Noten om samma registreringspost och 16/38 som icke oberoende händelser är fortsatt riktig. Den äldre uppgiften om outvunna fält bevaras som läshistorik, medan nya TR-T0677-C0034-consolidated-control@1 och AUDIT-T0677-C0034@1 bär aktuell fullprövning. Ingen retroaktiv rebase.",
+      "affected_full": {
+        "kind": "assessment",
+        "revision": {
+          "id": "READ-0b795a5d9e1663f7d6e458c3@1",
+          "object_id": "READ-0b795a5d9e1663f7d6e458c3",
+          "version": 1,
+          "operation_id": "T-0646/evidence-01-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Dokumenterad avgränsning och läshistorik i C-0034; ingen ny oberoende evidensröst.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Samtyckesförkortningar och förrättarens efternamn är ännu inte fullt utvunna.",
+          "previous_id": null
+        },
+        "data": {
+          "subject_id": "R-bbe424c723e313d730a6f028",
+          "criteria": "legacy_record_boundary",
+          "outcome": "record_located",
+          "body": "C-0034: Senare läsning fastställer Tulefors och 1 i varderas äktenskapsordningskolumn. Äldre reservation om boställe är därmed överspelad, men inte om förrättarens efternamn.\nLysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 6,
+      "request_id": "6ee0a1288feb643132125744ba79ec259a1c5542f2737ad2864c0c52eddeac82",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "O-P-0003-C0034-banns@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Ändras lysningsdagarnas rå- eller normaliserade värden av R@2?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Observationen är begränsad till 1, 8 och 15 maj 1938 och samma tre ISO-datum. Dessa är dokumentärt återbrukade positiva fält; R@2:s kolumn 7/12-reservationer eller sista kolumn 13 korrigerar ingen av de tre dagarna. Ingen caveat om ännu outvunna fält förekommer.",
+      "affected_full": {
+        "kind": "observation",
+        "revision": {
+          "id": "O-P-0003-C0034-banns@1",
+          "object_id": "O-P-0003-C0034-banns",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-bbe424c723e313d730a6f028",
+          "mention_id": null,
+          "property": "banns_dates",
+          "value_literal": "1, 8, 15 maj 1938",
+          "value_json": {
+            "dates": [
+              "1938-05-01",
+              "1938-05-08",
+              "1938-05-15"
+            ]
+          }
+        },
+        "origins": [
+          {
+            "unit": "39efa6048047ecf613324ae63aebdb856e12bb25a0f2d32d3dbf90f9bede9e54",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 7,
+      "request_id": "a3c55255a1972982274a765932e979a1667e0093d823a4baa58cf1785a41267a",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "F-P-0007-name_form-marriage1938@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Ändrar Lundin/Lind-reservationen Majs egen vigselnamnform eller daterar den hennes namnbyte?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Maj Amalia Ekholm i egen rad återbrukas oförändrat. Lundin/Lind avser förrättaren. Factens caveat skiljer redan moderns familjenamn och systerns överstrykning från dateringen av Majs eget namnbyte; R@2:s moders-förkortning identifierar ingen namngiven mor och utvidgar inte detta faktums belägg.",
+      "affected_full": {
+        "kind": "fact",
+        "revision": {
+          "id": "F-P-0007-name_form-marriage1938@1",
+          "object_id": "F-P-0007-name_form-marriage1938",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+          "caveat": "Moderns familjenamn; systerns överstrukna namn daterar inte hennes eget namnbyte.",
+          "previous_id": null
+        },
+        "data": {
+          "subject_id": "P-0007",
+          "property": "name_form",
+          "value_type": "text",
+          "value_json": "Maj Amalia Ekholm"
+        },
+        "origins": [
+          {
+            "unit": "203605644935cb117439f83414b4e7df483b1dd40ddda8e1666808b9d98d5f16",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "a1459f608324b62ded7410e74e42eddb3cd1ed307f19ca1a2eb9e8139aa63ecc",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-86e25c6dd1c2141e8454c02e",
+            "version": 1,
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          },
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "supports",
+            "note": "Tidigare bevarat underlag, inte en extra oberoende röst."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 8,
+      "request_id": "d3d9c493884d59dc2a7a757bc80a2d97911afcd3f5a345f8c9bc2b9afba3684e",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "O-P-0003-C0034-wife-birth@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Ändrar fullprövningen det indirekta födelsedatumet för Maj?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Observationens person P-0007 och 1920-05-11 är positivt dokumentärt återbruk. Caveaten anger redan att detta är hustruns indirekta födelsefält, skilt från hennes egen födelsepost. Varken blanknumreringen eller de reserverade gemensamma textfälten ändrar datumet eller gör posten oberoende.",
+      "affected_full": {
+        "kind": "observation",
+        "revision": {
+          "id": "O-P-0003-C0034-wife-birth@1",
+          "object_id": "O-P-0003-C0034-wife-birth",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+          "caveat": "Indirekt födelsefält för hustrun, vars egen födelsepost och pilotobjekt behandlas i hennes akt.",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-bbe424c723e313d730a6f028",
+          "mention_id": null,
+          "property": "birth_date_report",
+          "value_literal": "Maj Amalia Ekholm, 1920-05-11",
+          "value_json": {
+            "date": "1920-05-11",
+            "person": "P-0007"
+          }
+        },
+        "origins": [
+          {
+            "unit": "3856df5b4ffe253a261fb62ac927cce2482053fbcdc19251145c13d0e04dac0d",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 9,
+      "request_id": "dfd20760b8965a43826af2831c1ce4daba0360d0b71f7e20b8554e4dd313d3b3",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "TR-84780c9813e29e82d97084cd@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Ska äldre avskrift och läsnot ersättas eller bindas om till den nya R-versionen?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Rationale och ursprung visar en ordagrant bevarad äldre avskrift/sammanfattning, inte en aktuell fullutvinningsdeklaration. Den korta transkriptionen med datum, namn och folier behålls liksom dåvarande läsreservationer. Ny konsoliderad TR bevarar det aktuella resultatet separat. Att ersätta eller ombinda denna historiska läsnot skulle sudda ut vilket underlag den faktiskt återgav.",
+      "affected_full": {
+        "kind": "transcription",
+        "revision": {
+          "id": "TR-84780c9813e29e82d97084cd@1",
+          "object_id": "TR-84780c9813e29e82d97084cd",
+          "version": 1,
+          "operation_id": "T-0646/evidence-01-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0034; ingen ny originalavläsning.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Samtyckesförkortningar och förrättarens efternamn är ännu inte fullt utvunna.",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-bbe424c723e313d730a6f028",
+          "text": "> 16 | Arne Godvig Jansson, polerare, f. 1915 21/2, fol. 1084 |  \n> Maj Amalia Ekholm, Lyckedal, f. 1920 11/5, fol. 932 |  \n> lysning 1/5, 8/5, 15/5 | vigda 15/5 1938.\n",
+          "reading_note": "Senare läsning fastställer Tulefors och 1 i varderas äktenskapsordningskolumn. Äldre reservation om boställe är därmed överspelad, men inte om förrättarens efternamn.\nEn avgränsad post innehåller tre lysningsdagar och vigsel. Samtyckesförkortningar och förrättarens efternamn är ännu inte fullt utvunna."
+        },
+        "origins": [
+          {
+            "unit": "2802b92ef5b54a056cbf25885c3351aa8829e7cf4cc6b8ef1a370556881cb79c",
+            "coverage": "complete",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 10,
+      "request_id": "e44b2980e8106bde5d6b40098ce246b65549fea2472bb7f3d9a848b5b708d0ce",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "F-P-0003-name_form-identity@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Påverkar den osäkra förrättarens efternamn Arnes eget namnbruk med två s?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. Arne Godvig Jansson är oförändrad egen namnrad. ownUseReported Arne Jansson med två s och caveaten om familjens senare Janson hör till personens separata namnbruk och ursprung; de är inte avledda ur kolumn 12. De befintliga R-2989c302482c679b7fa007d7@1/R-70eeff109bc651dce649a0ee@1 samt C-0034-kanten bevaras utan nytt namn- eller identitetsbeslut.",
+      "affected_full": {
+        "kind": "fact",
+        "revision": {
+          "id": "F-P-0003-name_form-identity@1",
+          "object_id": "F-P-0003-name_form-identity",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+          "caveat": "Familjens senare stavning Janson görs inte automatiskt till hans eget namnbruk.",
+          "previous_id": null
+        },
+        "data": {
+          "subject_id": "P-0003",
+          "property": "name_form",
+          "value_type": "structured",
+          "value_json": {
+            "display": "Arne Godvig Jansson",
+            "ownUseReported": "Arne Jansson med två s"
+          }
+        },
+        "origins": [
+          {
+            "unit": "224ad8ddb15cf44b9c00394cbe4d7176cd7652378bb7b51e3b8610f362e6d82b",
+            "coverage": "partial",
+            "note": "Hela den aktuella uppgiften representeras med uttryckliga förbehåll."
+          },
+          {
+            "unit": "cbf80a1150dad87f966903850f197f748271f2ca6f12911a36f3578598ec215d",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "ea5379cfa40e7aea36544609c12c4e9f90228e4640def7f3f91723d5b191a0ea",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-2989c302482c679b7fa007d7",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-70eeff109bc651dce649a0ee",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          },
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    },
+    {
+      "index": 11,
+      "request_id": "e9374cd91fe87aa68de34465d83e393d75485afcc74a1531f075b617ff64636e",
+      "request_operation": "T-0677/C0034-source-person-adoption-v1",
+      "affected_revision": "O-P-0007-wedding-order@1",
+      "changed_from": "R-bbe424c723e313d730a6f028@1",
+      "changed_to": "R-bbe424c723e313d730a6f028@2",
+      "question": "Ändrar samtyckesreservationerna uppgiften om bådas första äktenskap och lysningar?",
+      "proposed_disposition": "RETAIN",
+      "rationale": "Nej. R@2 återbrukar uttryckligen 1 i varderas äktenskapsordningskolumn. Observationens order [1,1], parter P-0003/P-0007 och lysningsdatum 1/8/15 maj 1938 ligger i de oförändrade positiva fälten. Observationen innehåller ingen minoritets-, samtyckes- eller förrättaridentifikation. Den versionsbundna record_id-kanten kan kvarstå utan automatisk uppdatering.",
+      "affected_full": {
+        "kind": "observation",
+        "revision": {
+          "id": "O-P-0007-wedding-order@1",
+          "object_id": "O-P-0007-wedding-order",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-bbe424c723e313d730a6f028",
+          "mention_id": null,
+          "property": "marriage_order",
+          "value_literal": "Första äktenskapet för båda makarna; lysning1,8,15maj1938",
+          "value_json": {
+            "banns": [
+              "1938-05-01",
+              "1938-05-08",
+              "1938-05-15"
+            ],
+            "order": [
+              1,
+              1
+            ],
+            "spouses": [
+              "P-0003",
+              "P-0007"
+            ]
+          }
+        },
+        "origins": [
+          {
+            "unit": "4881f68f3b18876f3e5a6de01af9e0362e485115bbadde8fc69ba653723db169",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "83e8a618e7011f4a66a0ee0527fc91a706b54d2e083e8ea58753b0ff3aeb1443",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "R-bbe424c723e313d730a6f028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ]
+      },
+      "changed_full": {
+        "kind": "record",
+        "revision": {
+          "id": "R-bbe424c723e313d730a6f028@2",
+          "object_id": "R-bbe424c723e313d730a6f028",
+          "version": 2,
+          "operation_id": "T-0677/C0034-source-person-adoption-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "T-0677: materiellt inaktuellt förbehåll om outvunna samtyckes-/förrättarfält ersätts med prövade läsreservationer och rätt kolumnnummer; lokator, beroenden och ursprung bevaras.",
+          "caveat": "En avgränsad post innehåller tre lysningsdagar och vigsel. Tulefors och 1 i varderas äktenskapsordningskolumn återbrukas. Samtyckeskolumnen och förrättarens efternamn är prövade till läsbarhetsgränsen med kvarstående alternativa råformer, inte längre outvunna fält. Kolumn7:s Brud.[?]/Brid.[?]/Båd.[?], min.[?] och samt.[?]/samty.[?] normaliseras inte till rättsliga sakuppgifter eller identifierad moder. David återbrukas; Lundin[?]/Lind[?] är konkurrerande efternamnsläsningar utan personidentifikation. Sista tryckta kolumnen är13 och prövad tom; äldre14angivelse är historiskt mappningsfel.",
+          "previous_id": "R-bbe424c723e313d730a6f028@1"
+        },
+        "data": {
+          "source_id": "S-0028",
+          "record_type": "banns_marriage_entry",
+          "locator": "Flen E I/4, 1938 nr 16, s.14, bild 17, 00154061_00017",
+          "dependence_note": "Lysning och vigsel här är delar av samma registreringspost; kyrkobokens hänvisningar 16/38 är inte oberoende händelser."
+        },
+        "origins": [
+          {
+            "unit": "05e656c195296c6941699e96c7ccd17bb898990a616e9a7ed4904cecba2bf05b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "b7a4ef9b083daa933f814e0f5a4396701abe1ab46e0adb0f43f6a88d2616ca6b",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "deb6f4a056b5a8a1f63ccbf9105bbc7a39b7d9fdd5102d0cfedbb64346eb8426",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit": "e590d6fdd690ef62d90e8f98cafd5c6dcdee90f70227810917af82c53b640f99",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "object": "S-0028",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: source_id"
+          }
+        ]
+      },
+      "evidence_action": "BEVARA BEFINTLIGA KANTER; INGEN AUTOMATISK REBASE",
+      "boundary": "Endast denna R-caveat-/kolumnmappningsändring; inga status-, person- eller relationsuppgraderingar."
+    }
+  ],
+  "surprise": "EP-E-birth-P-0003-P-0003-child@1 tillkommer transitivt via födelsehändelsen och fanns inte bland de tio direkta R-kandidaterna. Det är sakprövat individuellt, inte en antagen extra retain.",
+  "no_resolution": true,
+  "no_native_write": true,
+  "no_images": true
+}

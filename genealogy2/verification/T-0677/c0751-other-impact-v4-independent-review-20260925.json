@@ -1,0 +1,90 @@
+{
+  "task": "T-0677",
+  "reviewer": "Astra /root/c0004_control",
+  "status": "SUBSTANTIVE_PASS_WITH_TWO_LOCAL_PRECISIONS",
+  "input": "c0751-other-current-impact-proposed-v4-20260925.json",
+  "sha256": "223b8218373fa1b0ca96199a266b192f9d9d88aa68ffdaa86d50a9ae4fb875ce",
+  "scope": {
+    "all_after_fields_read": 101,
+    "evidence_add_sets_read": 101,
+    "previous_findings_groups": 11,
+    "images_opened": false,
+    "canonical_write": false
+  },
+  "previous_findings": [
+    {
+      "id": "F01",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F02",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F03",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F04",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F05",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F06",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F07",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F08",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F09",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F10",
+      "result": "resolved_in_v4"
+    },
+    {
+      "id": "F11",
+      "result": "resolved_in_v4"
+    }
+  ],
+  "checks": {
+    "civil_eight_rows": "PASS: P0481–484 last6 rows3–6 page77; P0485–488 rows1–4 page78; q for P0483/P0488, m for other six; raw slash retained, reported1900 separated from later events.",
+    "blank_occupation_nine_rows": "PASS: wife and eight children: blank own occupation cell without inference of no actual work.",
+    "nine_place_keys": "PASS: 1900 evidence distinguished from1881–1900 search window.",
+    "adoptions": "All11 row mappings remain correct; no status upgrade.",
+    "new_key": "Candidate-only C0585row25 / C0751row7; no P merge, father relation or new century inference.",
+    "marriage_dispositions": "Four formerly retained Q/KEY fields explicitly delegated to marriage_v2; build must include that delta.",
+    "evidence_precision": "C0751 raw source supports own fields and bracket; typed F supports existing interpretation restrictions; audit supports coverage, not identity.",
+    "exact_replacement_replay_errors": [],
+    "adoptions_unchanged_from_v3": false,
+    "new_key_unchanged_from_v3": false
+  },
+  "remaining_local_findings": [
+    {
+      "object_id": "RESEARCH-P-0437-9d76f0343410",
+      "field": "body",
+      "quote": "Familjens Degerforsförbindelse föregår varje barns flytt med tjugofem år.",
+      "issue": "Den egna tabellen visar olika flyttår1875/1880/1898/1899/1900. Samma25år kan inte gälla varje flytt.",
+      "requested_precision": "Säg att anknytningen är dokumenterad före Maria Elinas flytt1875; eller kvalificera25som skillnad mellanår1850och1875."
+    },
+    {
+      "object_id": "BIO-P-0483",
+      "field": "markdown",
+      "quote": "föräldrahem låg i Ånäset i Degerfors, och där hade hennes egen vigsel stått1850",
+      "issue": "Där har två möjliga ortsantecedenter. Befintlig typed F skiljer hemvistÅnäset från vigselförsamlingDegerfors.",
+      "requested_precision": "Skriv uttryckligen vigsel i Degerfors församling1850; ingen fysisk plats inomförsamlingen härleds."
+    }
+  ],
+  "domain_limit": "Hela eftertexterna lästa. Äldre BIO0422-fraser om1867fadersrad, pigans egna hushåll och yrkesbana har rapporterats tillroot som utanför denna C0751följddomän. Detta är inte ett generellt godkännande av alla andra källors äldre sakpåståenden. Inga nya original eller identitetsprövningar gjorda.",
+  "recommendation": "Godkänn C0751-följdändringarna efter de två lokala preciseringarna och roots slutliga samordning med vigseldeltan; ingen ny bildläsning behövs."
+}

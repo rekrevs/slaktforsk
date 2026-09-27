@@ -1,0 +1,73 @@
+{
+  "task": "T-0676",
+  "decision": "ROOT_ASTRA_FINAL_DONE",
+  "date": "2026-09-24",
+  "purpose": "Separate final acceptance of an immutable j180 manifest whose own state was proposal before root review.",
+  "approved_manifest": {
+    "path": "genealogy2/verification/T-0676/final-manifest-20260924.json",
+    "sha256": "3fe8e682e736279e8af6190c42497f099cdda739ea4193b9042954154c079af9",
+    "as_written_state": "FINAL_MANIFEST_PROPOSED_AT_J180_NOT_TASK_DONE"
+  },
+  "final_report": {
+    "path": "genealogy2/verification/T-0676/report.md",
+    "sha256": "c2a4667173f7678a4257964701a28f09ae1fb810cf569bb175889b49fec60415"
+  },
+  "canonical": {
+    "journal_sequence": 180,
+    "journal_file": "genealogy2/journal/000000180-ca0534f2dac13fcd7333775d888f6b7d467381660fa304cfbcfa7b264b8dd3d9.json",
+    "pending_reviews": 0,
+    "fixed_scope_records": 50,
+    "current_transcriptions": 50,
+    "current_source_record_reviews": 50,
+    "citation_dispositions": 13,
+    "original_assets_sha256_matched": 11,
+    "new_grave_native_media": 19,
+    "cross_references": 24,
+    "priority_claim_revisions_retained": 3
+  },
+  "operation_totals_j157_to_j180": {
+    "journal_operations": 24,
+    "changes": 783,
+    "creates": 146,
+    "revisions": 637,
+    "native_resolve": 229
+  },
+  "verification": {
+    "native_fullsuite_result": {
+      "path": "genealogy2/verification/T-0676/native-fullsuite-20260924T102647Z.result.json",
+      "sha256": "e52472ed179b6658d5c11315bda10eb6e63b5ba4831662d4128bc6a11a5e076f"
+    },
+    "native_fullsuite_log": {
+      "path": "genealogy2/verification/T-0676/native-fullsuite-20260924T102647Z.log",
+      "sha256": "a378201b0a95903bc54555d27206c84ff73d55abf9b132fd4d0315ceba0d053f"
+    },
+    "exit_code": 0,
+    "tests": 133,
+    "passed": 133,
+    "failed": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "duration_ms": 1885852.672375,
+    "legacy_checks": "PASS after last archive/code change",
+    "journal_157_caveat": "PASS logged in Wotan, separate saved result files absent; later checks do not backfill j157",
+    "independent_j180_endpoints": [
+      "verify",
+      "verify-assets",
+      "verify-source"
+    ]
+  },
+  "acceptance_criteria": {
+    "AK1": "APPROVED",
+    "AK2": "APPROVED",
+    "AK3": "APPROVED",
+    "AK4": "APPROVED_WITH_BOUNDED_RECEIVERS",
+    "AK5": "PASS"
+  },
+  "scope_limit": "Task DONE is not approval of every original cited in 13 citation texts, every negative search, full life pictures, or the north star.",
+  "successors_released": [
+    "T-0770",
+    "T-0771"
+  ],
+  "no_canonical_change_in_this_acceptance": true
+}

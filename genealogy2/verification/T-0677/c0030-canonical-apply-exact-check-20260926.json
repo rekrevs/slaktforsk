@@ -1,0 +1,41 @@
+{
+  "task": "T-0677",
+  "state": "CANONICAL_TWO_STEP_APPLIED_PENDING_UNRESOLVED",
+  "canonical_before": {
+    "journal": 192,
+    "pending": 0
+  },
+  "source_apply": {
+    "operation": "T-0677/C0030-source-v1",
+    "changes": 4,
+    "pending_after": 0,
+    "journal": "000000193-aa7fb0682de1cceab14e5c2a7f18b66956c637e78cac6db9990852960ff5ece3.json"
+  },
+  "person_apply": {
+    "operation": "T-0677/C0030-person-v1",
+    "changes": 8,
+    "pending_after": 4,
+    "journal": "000000194-a2fff3136bc026a8880e57fc4d55d2e72a3a89486bdb2da6b28c4b05f6143c23.json"
+  },
+  "canonical_after": {
+    "journal": 194,
+    "pending": 4
+  },
+  "full_actual_diff": {
+    "file": "c0030-actual-full-diffcheck-20260926.json",
+    "sha256": "bd2ee83ceb1220aad00d96b93310aae587ce38f2bb54660f1b02711dbe7b9b7a",
+    "objects": 12,
+    "exactly_matches_temp": true
+  },
+  "actual_pending": {
+    "file": "c0030-actual-pending-full-20260926.json",
+    "sha256": "67d1d9d9e19ec9bcae966ffa44091b8c4464d75eaa7ebd818e9b5d1465f5de52",
+    "requests": 4,
+    "exactly_matches_temp": true
+  },
+  "resolution_proposal": {
+    "file": "c0030-4-actual-retains-proposed-operation-20260926.json",
+    "sha256": "d791c260de81a489608b456583c966d60d179307595e0e478bd0c60995b8de04",
+    "applied": false
+  }
+}

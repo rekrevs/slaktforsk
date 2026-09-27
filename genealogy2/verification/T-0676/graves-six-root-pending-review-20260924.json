@@ -1,0 +1,40 @@
+{
+  "task": "T-0676",
+  "status": "ROOT_REVIEW_REQUIRES_V2_NO_APPLY",
+  "input_sha256": "3cc8d3e87230e5ef8e60eaa001856b46895b1ac0b2a55d50c6a845e51ff30f1f",
+  "finding": {
+    "id": "F-P-0310-grave_context-Hogby",
+    "expectedVersion": 2,
+    "decision": "REVISE",
+    "exact_json_path": "preservation_scope.P0310_own_card",
+    "exact_after": "2026-09-20: Carl Augusts egen synliga sökresultatsektion bevarad som lokal DOM-text med sök-URL och SHA-256; ingen egen detaljlänk eller medgravslista visad.",
+    "caveat_append": " T-0676: Carl Augusts egen sökresultatsektion bekräftar hans datum, Högby/E och återgången gravrätt. Ingen visad medgravslista innebär varken nytt stöd eller motbevis för äldre tvåpersonerssammanställning.",
+    "preserve": "All other data, old origins/evidence/metadata; append version-bound scope14R@2 and own TR@2 support."
+  },
+  "retains_not_yet_executed": [
+    "E-burial-P-0212",
+    "E-burial-P-0310",
+    "E-death-P-0212",
+    "EP-E-burial-P-0007-P-0007-principal",
+    "EP-E-burial-P-0212-P-0212-principal",
+    "EP-E-burial-P-0310-P-0310-principal",
+    "EP-E-death-P-0007-P-0007-principal",
+    "EP-E-death-P-0212-P-0212-principal",
+    "F-P-0003-grave_membership-1060238",
+    "F-P-0007-burial_plot-2006",
+    "F-P-0015-burial_place-HY150008",
+    "F-P-0212-event_place-burial",
+    "F-P-0212-event_place-death",
+    "F-P-0242-family_context-parents-siblings",
+    "F-P-0310-event_place-life",
+    "F-P-0310-residence-bounded-anchors",
+    "ID-P-0212-C0904-own",
+    "ID-P-0310-C0944-grave",
+    "M-P-0212-C0904-own",
+    "M-P-0310-C0944-grave",
+    "O-P-0016-grave-fields",
+    "O-P-0212-C0904-own",
+    "P-0003"
+  ],
+  "limits": "All displayed prospective affected_data+caveat read by root. Individual retain rationale file still needed; no blanket authority over other v2 retain candidates."
+}

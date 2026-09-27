@@ -1,0 +1,77 @@
+{
+  "task": "T-0677",
+  "status": "LOCKED_INDEPENDENT_GAPS_BEFORE_COMPARISON",
+  "reader": "Astra /root/c0004_control",
+  "prior_knowledge": "Dokumentär tidigare sammanfattning, återbrukade positiva fält och egen stage1 kända. Rootens gapvärden inte lästa. Inte avskriftsblind.",
+  "authorization": {
+    "file": "c0034-root-gapmask-acceptance-20260925.json",
+    "sha256": "0763e00a2ac58dd5a30927eb46203d16050e05c377811dd466c3840d17a88f81"
+  },
+  "record": "R-bbe424c723e313d730a6f028@1",
+  "post": 16,
+  "asset": {
+    "path": "genealogy/media/C-0034-riksarkivet-SE-ULA-10257-EI4-bild-17-sida-14.jpg",
+    "sha256": "a2c08811c1a8a4dcde11521c3ed96b4def26b0d31056c1cd318ab5f301731868"
+  },
+  "controlled_units": [
+    {
+      "unit": "3m",
+      "scope": "partial",
+      "state": "blank_residual",
+      "raw": null,
+      "reservation": "Ingen ytterligare handskriven kvalifikation utöver återbrukade namn, polerare och Tulefors. Tryckt partprefix M. hör till formuläret, inte ny personuppgift."
+    },
+    {
+      "unit": "3kv",
+      "scope": "partial",
+      "state": "blank_residual",
+      "raw": null,
+      "reservation": "Ingen egen yrkes-/nationalitets-/religionsfras läst utöver återbrukade namn och Lyckedal. Tryckt Kv. är formulärprefix. Ingen livslång negativ slutsats."
+    },
+    {
+      "unit": "7",
+      "scope": "whole",
+      "state": "text_with_reservations",
+      "raw_lines": [
+        "Båd.[?] min.[?]",
+        "Förs. enl. lag",
+        "moders samt.[?] för kv."
+      ],
+      "reservation": "Första radens förkortningar och tredje radens samtyckesförkortning reserverade. moders är föredragen men ingen identifierad moder tilldelas. Raderna återges rått, utan juridisk expansion eller antagen form för samtycket."
+    },
+    {
+      "unit": "8",
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": null
+    },
+    {
+      "unit": "12",
+      "scope": "partial",
+      "state": "text_with_reservation",
+      "raw": "Lind[?]",
+      "reservation": "Efternamnet föredras börja Lind-, slutet är svårläst och kan inte låsas oreserverat. David är återbrukat, inte ny förnamnsavläsning. Ingen ytterligare titel läst. Ingen jämförelse med andra signaturer/poster och ingen förrättaridentitet avgjord."
+    },
+    {
+      "unit": "13",
+      "scope": "whole",
+      "state": "blank",
+      "raw": null,
+      "reservation": "Egen ny kontroll av tryckta kolumn13 efter konkret äldre kolumn14-mappningsfel. Ingen läsbar eller säkert självständig notering; svaga bakgrundsvariationer ger ingen uppgift. Äldre14blankhistorik omnumreras inte tyst."
+    }
+  ],
+  "coverage": {
+    "whole_reuse": 12,
+    "whole_controlled": 3,
+    "partial_controlled": 3,
+    "total": 18
+  },
+  "method": "Avgränsade egna nr16crops för kolumn3parterna,7,8,12residual och13. Ingen annan post eller förrättarsignatur jämförd.",
+  "stop_condition_triggered": false,
+  "limits": [
+    "Otydliga förkortningar och namnslut bevaras reserverade, inte personidentifiering.",
+    "Inga nya positiva namn/datum/orter ur återbruksceller extraherade.",
+    "Ingen canonicalmutation, externa original eller andra bilder."
+  ]
+}

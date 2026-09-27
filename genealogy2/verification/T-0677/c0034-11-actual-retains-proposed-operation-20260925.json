@@ -1,0 +1,53 @@
+{
+  "id": "T-0677/C0034-11-actual-retains-v1",
+  "actor": "Codex Sol; prepared from Astra individual decisions for root actual approval",
+  "reason": "T-0677 C-0034: 11 faktiska beroenden har individuellt prövats mot fulla payloads. Förberett separat retainpaket utan objektändringar; kräver roots faktiska godkännande före apply.",
+  "dependencyReviewVersion": 2,
+  "changes": [],
+  "resolve": [
+    {
+      "request": "0a371df067f392971493ef14efad42cbf7e4768f58dc411e39a76d5c7ffcb231",
+      "rationale": "Nej. Datumet 1915-02-21 i vigselns födelsefält är ett uttryckligt positivt återbruk. R@2 ändrar samtyckes-/förrättarcaveaten och blankkolumnens numrering, inte detta datum. Eventet har även R-70eeff109bc651dce649a0ee@1 och R-769a6225a4869399e047bd50@1 som stöd; den särskilda födelseplatsen Flen kontra moderns hemförsamling Floda härleds inte ur den nya samtyckesläsningen."
+    },
+    {
+      "request": "3a974d86ed15accf1206d662ebc6e4ae82639ebac16e599e13bb70a971f60a77",
+      "rationale": "Nej. Relationens P-0003/P-0007, marriage och 1938-05-15 stöds av den oförändrade vigseluppgiften och den redan bevarade hushållskedjan R-05055c1adb1f17278c7a5ec6@1/R-86e25c6dd1c2141e8454c02e@1. Reservationerna får inte normaliseras till nya rättsliga sakuppgifter, men skapar inte en konflikt med själva registrerade vigseln. Caveaten är tom och innehåller ingen kvarstående utvinningsskuld."
+    },
+    {
+      "request": "3f53998cc98afc141d046c25bb206dbad5125e6e758ca68399725f298c4da2e1",
+      "rationale": "Nej. Den faktiska extra begäran utöver de tio direkta oförändrade R-beroendena är transitiv via E-birth-P-0003@1. EP:s enda evidenskant går till denna födelsehändelse; person P-0003 och rollen child består när födelsedatumets C-0034-fält återbrukas. Inga samtyckesord, förrättarnamn eller moderidentifieringar finns i EP:s data/caveat. Ingen ny R-kant eller ombindning behövs."
+    },
+    {
+      "request": "59772502e1c8d6b9d52a3602cde8b7d39ebede56149195622e314e2b3dfb15a3",
+      "rationale": "Nej. Arne Godvig Jansson i vigselposten är oförändrat återbruk, inte förrättarens reserverade namn. R@2 ger varken konkurrerande person eller ny namngiven mor. Personens accepted/CORROBORATED samt caveatens åtskillnad mellan personidentitet och PK-05/11/livsbild/trädverkan består. sex:null omprövas inte på grund av den nu ändrade caveaten."
+    },
+    {
+      "request": "625d6a1e08a8759163f28af9c1c51a03a523c8b60fe4b5b9d9eb4cb39b114e00",
+      "rationale": "Nej. criteria legacy_record_boundary, ursprung och rationale anger dokumenterad äldre avgränsning/läshistorik; dess derived_from-kant säger uttryckligen att den avser denna version av den återbrukade posten, R@1. Noten om samma registreringspost och 16/38 som icke oberoende händelser är fortsatt riktig. Den äldre uppgiften om outvunna fält bevaras som läshistorik, medan nya TR-T0677-C0034-consolidated-control@1 och AUDIT-T0677-C0034@1 bär aktuell fullprövning. Ingen retroaktiv rebase."
+    },
+    {
+      "request": "6ee0a1288feb643132125744ba79ec259a1c5542f2737ad2864c0c52eddeac82",
+      "rationale": "Nej. Observationen är begränsad till 1, 8 och 15 maj 1938 och samma tre ISO-datum. Dessa är dokumentärt återbrukade positiva fält; R@2:s kolumn 7/12-reservationer eller sista kolumn 13 korrigerar ingen av de tre dagarna. Ingen caveat om ännu outvunna fält förekommer."
+    },
+    {
+      "request": "a3c55255a1972982274a765932e979a1667e0093d823a4baa58cf1785a41267a",
+      "rationale": "Nej. Maj Amalia Ekholm i egen rad återbrukas oförändrat. Lundin/Lind avser förrättaren. Factens caveat skiljer redan moderns familjenamn och systerns överstrykning från dateringen av Majs eget namnbyte; R@2:s moders-förkortning identifierar ingen namngiven mor och utvidgar inte detta faktums belägg."
+    },
+    {
+      "request": "d3d9c493884d59dc2a7a757bc80a2d97911afcd3f5a345f8c9bc2b9afba3684e",
+      "rationale": "Nej. Observationens person P-0007 och 1920-05-11 är positivt dokumentärt återbruk. Caveaten anger redan att detta är hustruns indirekta födelsefält, skilt från hennes egen födelsepost. Varken blanknumreringen eller de reserverade gemensamma textfälten ändrar datumet eller gör posten oberoende."
+    },
+    {
+      "request": "dfd20760b8965a43826af2831c1ce4daba0360d0b71f7e20b8554e4dd313d3b3",
+      "rationale": "Nej. Rationale och ursprung visar en ordagrant bevarad äldre avskrift/sammanfattning, inte en aktuell fullutvinningsdeklaration. Den korta transkriptionen med datum, namn och folier behålls liksom dåvarande läsreservationer. Ny konsoliderad TR bevarar det aktuella resultatet separat. Att ersätta eller ombinda denna historiska läsnot skulle sudda ut vilket underlag den faktiskt återgav."
+    },
+    {
+      "request": "e44b2980e8106bde5d6b40098ce246b65549fea2472bb7f3d9a848b5b708d0ce",
+      "rationale": "Nej. Arne Godvig Jansson är oförändrad egen namnrad. ownUseReported Arne Jansson med två s och caveaten om familjens senare Janson hör till personens separata namnbruk och ursprung; de är inte avledda ur kolumn 12. De befintliga R-2989c302482c679b7fa007d7@1/R-70eeff109bc651dce649a0ee@1 samt C-0034-kanten bevaras utan nytt namn- eller identitetsbeslut."
+    },
+    {
+      "request": "e9374cd91fe87aa68de34465d83e393d75485afcc74a1531f075b617ff64636e",
+      "rationale": "Nej. R@2 återbrukar uttryckligen 1 i varderas äktenskapsordningskolumn. Observationens order [1,1], parter P-0003/P-0007 och lysningsdatum 1/8/15 maj 1938 ligger i de oförändrade positiva fälten. Observationen innehåller ingen minoritets-, samtyckes- eller förrättaridentifikation. Den versionsbundna record_id-kanten kan kvarstå utan automatisk uppdatering."
+    }
+  ]
+}

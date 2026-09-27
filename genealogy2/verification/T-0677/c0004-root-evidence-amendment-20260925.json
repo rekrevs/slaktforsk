@@ -1,0 +1,27 @@
+{
+  "task": "T-0677",
+  "reviewer": "root/Astra",
+  "state": "EXPLICIT_BOUNDED_EVIDENCE_AMENDMENT",
+  "operation_before_sha256": "6273ab6507adffa0c223e029a33bf0970ba051b4169c5dc96d498ed170cc7fbd",
+  "decisions": [
+    {
+      "targets": [
+        "CONTRACT-P-0030-PK-05",
+        "KEY-P-0030-74f8d1ba6394",
+        "P-0030/Q-01",
+        "P-0030/Q-02"
+      ],
+      "basis_before": "RESEARCH-P-0030-9d76f0343410@3",
+      "basis_after": "RESEARCH-P-0030-9d76f0343410@4",
+      "rationale": "Root read both bodies and caveat. Husband surname remains reserved verbatim in @4; new revision adds C4birthyear/date precision only. Each target qualification reuses unchanged surname reservation, not new identity evidence.",
+      "note": "Endast oförändrad reservation för makens efternamn i RESEARCH-P-0030@4; ingen ny namnidentifiering eller oberoende källröst."
+    },
+    {
+      "target": "O-P-0001-C0574-sibling-birthfields",
+      "basis": "TR-T0677-C0004-consolidated-control@1",
+      "role": "context",
+      "note": "Separat C0004-årreservation kvalificerar korshänvisningen; C0574:s egna råfält oförändrade, inget C0004-fält införs som observation ur C0574."
+    }
+  ],
+  "implementation": "Order revisedRESEARCHP30 before4dependents; otheredges unchanged. Newisolatedtempcheck beforecanonicalapproval."
+}

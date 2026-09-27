@@ -1,0 +1,2313 @@
+{
+  "task": "T-0676",
+  "reading": "FIRST initial egna 13 SvenskaGravar-kort",
+  "reader": "Astra subagent umea_bi11_first",
+  "captureManifest": "genealogy2/verification/T-0676/capture-manifest-20260920.json",
+  "captureManifestSha256": "9afa19409bd963324b4431db43c42888b100a1f38b986884fc0c20acd4225fe3",
+  "exposure": {
+    "locatorManifestRead": true,
+    "manifestExposedNamesRecordIdsUrlsAndCaptureMetadata": true,
+    "priorGraveCardContextTriageRead": false,
+    "otherReaderRead": false,
+    "claim": "Avskriftsblind gentemot tidigare gravkortsläsningar; inte fullständigt blind då locator innehöll namn. Tidigare separat uppdrag i denna agent avsåg en kyrkoboksbild, inte gravkorten."
+  },
+  "method": [
+    "Lokal råHTML läst; scripts/style separerades från HTMLtext. Ingen extern öppning.",
+    "Hela sidstrukturen kontrollerad med medgravssektionen bortfiltrerad före textexponering. Egna kortet avgränsat från h1 till före medgravsrubriken; förvaltningsblocket därefter läst separat.",
+    "Synlig här betyder serverlevererad HTMLs textnoder, inte en skärmbild eller en JS-hydrerad webbläsarkontroll. Inbäddad kartas innehåll ej läst.",
+    "__NEXT_DATA__ användes separat för idkontroll och råmetadata, inte som ersättning för visade fält.",
+    "Alla 13 råfilhashar matchade manifestet. Synliga tomfält, streck och ofullständiga datum bevarade exakt."
+  ],
+  "cards": [
+    {
+      "scopeNumber": 7,
+      "recordLocator": "R-2b56b83450e8f50b3098a67a",
+      "requestedId": "18552b8f-7a49-400b-8add-8c496c7d1f18",
+      "url": "https://www.svenskagravar.se/gravsatt/18552b8f-7a49-400b-8add-8c496c7d1f18",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-07-18552b8f-7a49-400b-8add-8c496c7d1f18.html",
+      "sha256": "f7c385141ce245f8f5fee585580572f9abf25fd2e9eccf10065b3d5387211b78",
+      "id_check": {
+        "nextDataBuriedId": "18552b8f-7a49-400b-8add-8c496c7d1f18",
+        "nextDataQueryBuriedId": "18552b8f-7a49-400b-8add-8c496c7d1f18",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Göran Olof",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1938-10-21",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "2021-09-04",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "2021-11-03",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Österåker-Östra Ryds församling",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Göran Olof",
+        "Född:",
+        "1938-10-21",
+        "Avliden:",
+        "2021-09-04",
+        "Gravsatt:",
+        "2021-11-03",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Österåker-Östra Ryds församling",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "18552b8f-7a49-400b-8add-8c496c7d1f18",
+          "graveId": 2354785,
+          "name": "Fredberg, Göran Olof",
+          "birthDate": "1938-10-21",
+          "deathDate": "2021-09-04",
+          "burialDate": "2021-11-03",
+          "homeTown": "Österåker-Östra Ryds församling",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 9,
+      "recordLocator": "R-31841e54a960c1d066ce0486",
+      "requestedId": "b4ed9d62-2a2b-4062-ad7a-172cdeb14b51",
+      "url": "https://www.svenskagravar.se/gravsatt/b4ed9d62-2a2b-4062-ad7a-172cdeb14b51",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-09-b4ed9d62-2a2b-4062-ad7a-172cdeb14b51.html",
+      "sha256": "d23f66c3d9adf31407ac9e45bb5fbf2554120745688b9021e8a8a4d85e11dd77",
+      "id_check": {
+        "nextDataBuriedId": "b4ed9d62-2a2b-4062-ad7a-172cdeb14b51",
+        "nextDataQueryBuriedId": "b4ed9d62-2a2b-4062-ad7a-172cdeb14b51",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Ester Olivia Johanna",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1891-12-21",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1967-11-09",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "-",
+          "status": "streck"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Sollentuna",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Ester Olivia Johanna",
+        "Född:",
+        "1891-12-21",
+        "Avliden:",
+        "1967-11-09",
+        "Gravsatt:",
+        "-",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Sollentuna",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "b4ed9d62-2a2b-4062-ad7a-172cdeb14b51",
+          "graveId": 2354785,
+          "name": "Fredberg, Ester Olivia Johanna",
+          "birthDate": "1891-12-21",
+          "deathDate": "1967-11-09",
+          "burialDate": "-",
+          "homeTown": "Sollentuna",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 18,
+      "recordLocator": "R-64cd876ae85dc6ed0135d56f",
+      "requestedId": "65730cf3-788c-49ef-9fb6-cdfc63a0f6a4",
+      "url": "https://www.svenskagravar.se/gravsatt/65730cf3-788c-49ef-9fb6-cdfc63a0f6a4",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-18-65730cf3-788c-49ef-9fb6-cdfc63a0f6a4.html",
+      "sha256": "f3eeb0c7ea23c838936eb4f95e2794a32149cc13162ef3b3d3733e78fb15a003",
+      "id_check": {
+        "nextDataBuriedId": "65730cf3-788c-49ef-9fb6-cdfc63a0f6a4",
+        "nextDataQueryBuriedId": "65730cf3-788c-49ef-9fb6-cdfc63a0f6a4",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Frida Elisabet",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1883-01-29",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1966-02-03",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1966-02-24",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Sollentuna",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Frida Elisabet",
+        "Född:",
+        "1883-01-29",
+        "Avliden:",
+        "1966-02-03",
+        "Gravsatt:",
+        "1966-02-24",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Sollentuna",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "65730cf3-788c-49ef-9fb6-cdfc63a0f6a4",
+          "graveId": 2354785,
+          "name": "Fredberg, Frida Elisabet",
+          "birthDate": "1883-01-29",
+          "deathDate": "1966-02-03",
+          "burialDate": "1966-02-24",
+          "homeTown": "Sollentuna",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 23,
+      "recordLocator": "R-99214b6ba2248c598ba56519",
+      "requestedId": "3f62bc1e-eaf1-4b2d-9b6e-9a1128c64f4d",
+      "url": "https://www.svenskagravar.se/gravsatt/3f62bc1e-eaf1-4b2d-9b6e-9a1128c64f4d",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-23-3f62bc1e-eaf1-4b2d-9b6e-9a1128c64f4d.html",
+      "sha256": "c3db560e91634ca19b618edeab18db5b8fd043892ed5f13b3d8861744a08a092",
+      "id_check": {
+        "nextDataBuriedId": "3f62bc1e-eaf1-4b2d-9b6e-9a1128c64f4d",
+        "nextDataQueryBuriedId": "3f62bc1e-eaf1-4b2d-9b6e-9a1128c64f4d",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Oscar Fredrik",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1895-10-16",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1966-10-30",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1966-11-19",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Sollentuna",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Oscar Fredrik",
+        "Född:",
+        "1895-10-16",
+        "Avliden:",
+        "1966-10-30",
+        "Gravsatt:",
+        "1966-11-19",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Sollentuna",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "3f62bc1e-eaf1-4b2d-9b6e-9a1128c64f4d",
+          "graveId": 2354785,
+          "name": "Fredberg, Oscar Fredrik",
+          "birthDate": "1895-10-16",
+          "deathDate": "1966-10-30",
+          "burialDate": "1966-11-19",
+          "homeTown": "Sollentuna",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 27,
+      "recordLocator": "R-a191df5fbb8167b10d8fa66d",
+      "requestedId": "4006f953-a706-42b9-a890-6f74498f320d",
+      "url": "https://www.svenskagravar.se/gravsatt/4006f953-a706-42b9-a890-6f74498f320d",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-27-4006f953-a706-42b9-a890-6f74498f320d.html",
+      "sha256": "ee290dbfc93b72f07454abb8aba1d4c8d9291a462b04f1fb42168e89eb2b4118",
+      "id_check": {
+        "nextDataBuriedId": "4006f953-a706-42b9-a890-6f74498f320d",
+        "nextDataQueryBuriedId": "4006f953-a706-42b9-a890-6f74498f320d",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Augusta Gerda Charlotta",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1890-09-05",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1975-05-31",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1975-06-18",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Sollentuna",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Augusta Gerda Charlotta",
+        "Född:",
+        "1890-09-05",
+        "Avliden:",
+        "1975-05-31",
+        "Gravsatt:",
+        "1975-06-18",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Sollentuna",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "4006f953-a706-42b9-a890-6f74498f320d",
+          "graveId": 2354785,
+          "name": "Fredberg, Augusta Gerda Charlotta",
+          "birthDate": "1890-09-05",
+          "deathDate": "1975-05-31",
+          "burialDate": "1975-06-18",
+          "homeTown": "Sollentuna",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 29,
+      "recordLocator": "R-a3507f603883fb4a32d00ddd",
+      "requestedId": "dc9a5bb5-94b0-43b2-93b5-b697ab9af945",
+      "url": "https://www.svenskagravar.se/gravsatt/dc9a5bb5-94b0-43b2-93b5-b697ab9af945",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-29-dc9a5bb5-94b0-43b2-93b5-b697ab9af945.html",
+      "sha256": "d05856f6015bba4877be2efc7b221b6177c0b26c1cd2059556240b8ab53f99a5",
+      "id_check": {
+        "nextDataBuriedId": "dc9a5bb5-94b0-43b2-93b5-b697ab9af945",
+        "nextDataQueryBuriedId": "dc9a5bb5-94b0-43b2-93b5-b697ab9af945",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Johan Daniel",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1967-05-06",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "2008-12-01",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "2009-04-23",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Aspås",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Johan Daniel",
+        "Född:",
+        "1967-05-06",
+        "Avliden:",
+        "2008-12-01",
+        "Gravsatt:",
+        "2009-04-23",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Aspås",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "dc9a5bb5-94b0-43b2-93b5-b697ab9af945",
+          "graveId": 2354785,
+          "name": "Fredberg, Johan Daniel",
+          "birthDate": "1967-05-06",
+          "deathDate": "2008-12-01",
+          "burialDate": "2009-04-23",
+          "homeTown": "Aspås",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 32,
+      "recordLocator": "R-a8370dbf4e1405f70f6bb851",
+      "requestedId": "44da68b1-28de-4d5a-89a9-7743847daa35",
+      "url": "https://www.svenskagravar.se/gravsatt/44da68b1-28de-4d5a-89a9-7743847daa35",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-32-44da68b1-28de-4d5a-89a9-7743847daa35.html",
+      "sha256": "a93e42600073f4728c186025ced93d5ac64353098bdc4571439b983a26d4734b",
+      "id_check": {
+        "nextDataBuriedId": "44da68b1-28de-4d5a-89a9-7743847daa35",
+        "nextDataQueryBuriedId": "44da68b1-28de-4d5a-89a9-7743847daa35",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Kalmar,gravplatsnr=202 0056B"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Carlman, Amelie Karolina",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Norra kyrkogården",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Kalmar Pastorat",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1912-09-07",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1997-04",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1997-06-02",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "kvarter 02",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "01, S:t Göran",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "0056B",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "202 0056B",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1927-03-03 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Carlman, Amelie Karolina",
+        "Född:",
+        "1912-09-07",
+        "Avliden:",
+        "1997-04",
+        "Gravsatt:",
+        "1997-06-02",
+        "Norra kyrkogården",
+        "Kvarter:",
+        "kvarter 02",
+        "Hemort:",
+        "01, S:t Göran",
+        "Gravplats:",
+        "0056B",
+        "Gravplatsnummer:",
+        "202 0056B",
+        "Gravrättstid:",
+        "1927-03-03 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Kalmar Pastorat",
+        "Telefontid måndag-torsdag 9-12",
+        "0480-42 14 08",
+        "kalmar.begravningsverksamheten@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "44da68b1-28de-4d5a-89a9-7743847daa35",
+          "graveId": 1758111,
+          "name": "Carlman, Amelie Karolina",
+          "birthDate": "1912-09-07",
+          "deathDate": "1997-04",
+          "burialDate": "1997-06-02",
+          "homeTown": "01, S:t Göran",
+          "cemeteryName": "Norra kyrkogården",
+          "quarter": "02",
+          "graveNumber": "0056B",
+          "graveFullNumber": "202 0056B",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "2",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "02",
+          "quarterName": "kvarter 02",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1927-03-03 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "Telefontid måndag-torsdag 9-12",
+            "namn": "Kalmar Pastorat",
+            "telefon": "0480-42 14 08",
+            "epost": "kalmar.begravningsverksamheten@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/kalmar/kyrkogarden",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Kalmar",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Kalmar,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 35,
+      "recordLocator": "R-b5b65047ac9871c85bd8831a",
+      "requestedId": "ef64e027-142d-46ea-b959-71d580231990",
+      "url": "https://www.svenskagravar.se/gravsatt/ef64e027-142d-46ea-b959-71d580231990",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-35-ef64e027-142d-46ea-b959-71d580231990.html",
+      "sha256": "815091a5a22083ea679f6578d2632ddd6df503b20fd43a3b080348cb840861d2",
+      "id_check": {
+        "nextDataBuriedId": "ef64e027-142d-46ea-b959-71d580231990",
+        "nextDataQueryBuriedId": "ef64e027-142d-46ea-b959-71d580231990",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Edit Maria Justina",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1894-04-13",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1979-02-20",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1979-03-15",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Sollentuna",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Edit Maria Justina",
+        "Född:",
+        "1894-04-13",
+        "Avliden:",
+        "1979-02-20",
+        "Gravsatt:",
+        "1979-03-15",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Sollentuna",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "ef64e027-142d-46ea-b959-71d580231990",
+          "graveId": 2354785,
+          "name": "Fredberg, Edit Maria Justina",
+          "birthDate": "1894-04-13",
+          "deathDate": "1979-02-20",
+          "burialDate": "1979-03-15",
+          "homeTown": "Sollentuna",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 36,
+      "recordLocator": "R-bb35194c8e5226cab4d0a8bd",
+      "requestedId": "5442c81d-51cf-4b67-ae8a-30d0be894638",
+      "url": "https://www.svenskagravar.se/gravsatt/5442c81d-51cf-4b67-ae8a-30d0be894638",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-36-5442c81d-51cf-4b67-ae8a-30d0be894638.html",
+      "sha256": "b7511dc683a60643c4ae366a15347734696cd9dbd43c15f95b3ad616648115e0",
+      "id_check": {
+        "nextDataBuriedId": "5442c81d-51cf-4b67-ae8a-30d0be894638",
+        "nextDataQueryBuriedId": "5442c81d-51cf-4b67-ae8a-30d0be894638",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Johannes",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "-",
+          "status": "streck"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "-",
+          "status": "streck"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1949-02-16",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "",
+          "status": "tom"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Johannes",
+        "Född:",
+        "-",
+        "Avliden:",
+        "-",
+        "Gravsatt:",
+        "1949-02-16",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "5442c81d-51cf-4b67-ae8a-30d0be894638",
+          "graveId": 2354785,
+          "name": "Fredberg, Johannes",
+          "birthDate": "-",
+          "deathDate": "-",
+          "burialDate": "1949-02-16",
+          "homeTown": "",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 37,
+      "recordLocator": "R-bb93853c1ba9f447f242c62d",
+      "requestedId": "988632f4-7eac-45b9-977e-008e7ae64163",
+      "url": "https://www.svenskagravar.se/gravsatt/988632f4-7eac-45b9-977e-008e7ae64163",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-37-988632f4-7eac-45b9-977e-008e7ae64163.html",
+      "sha256": "bb6c1fe2003c7743074bf3ba85259359c8313fd2ed928a17222eb1a9b63105aa",
+      "id_check": {
+        "nextDataBuriedId": "988632f4-7eac-45b9-977e-008e7ae64163",
+        "nextDataQueryBuriedId": "988632f4-7eac-45b9-977e-008e7ae64163",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Kalmar,gravplatsnr=202 0056B"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Carlman, Elin",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Norra kyrkogården",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Kalmar Pastorat",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1873-01-15",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1962-11-10",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1962-12-01",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "kvarter 02",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Stockholm",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "0056B",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "202 0056B",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1927-03-03 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Carlman, Elin",
+        "Född:",
+        "1873-01-15",
+        "Avliden:",
+        "1962-11-10",
+        "Gravsatt:",
+        "1962-12-01",
+        "Norra kyrkogården",
+        "Kvarter:",
+        "kvarter 02",
+        "Hemort:",
+        "Stockholm",
+        "Gravplats:",
+        "0056B",
+        "Gravplatsnummer:",
+        "202 0056B",
+        "Gravrättstid:",
+        "1927-03-03 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Kalmar Pastorat",
+        "Telefontid måndag-torsdag 9-12",
+        "0480-42 14 08",
+        "kalmar.begravningsverksamheten@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "988632f4-7eac-45b9-977e-008e7ae64163",
+          "graveId": 1758111,
+          "name": "Carlman, Elin",
+          "birthDate": "1873-01-15",
+          "deathDate": "1962-11-10",
+          "burialDate": "1962-12-01",
+          "homeTown": "Stockholm",
+          "cemeteryName": "Norra kyrkogården",
+          "quarter": "02",
+          "graveNumber": "0056B",
+          "graveFullNumber": "202 0056B",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "2",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "02",
+          "quarterName": "kvarter 02",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1927-03-03 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "Telefontid måndag-torsdag 9-12",
+            "namn": "Kalmar Pastorat",
+            "telefon": "0480-42 14 08",
+            "epost": "kalmar.begravningsverksamheten@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/kalmar/kyrkogarden",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Kalmar",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Kalmar,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 39,
+      "recordLocator": "R-c780069a70fe332c281db67b",
+      "requestedId": "5593cf00-a85e-488f-8130-96fae08df4b2",
+      "url": "https://www.svenskagravar.se/gravsatt/5593cf00-a85e-488f-8130-96fae08df4b2",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-39-5593cf00-a85e-488f-8130-96fae08df4b2.html",
+      "sha256": "83184fd17bcaef37fa8accbb8b5dd6717128a16dfc927b83eef008e1bf1781d0",
+      "id_check": {
+        "nextDataBuriedId": "5593cf00-a85e-488f-8130-96fae08df4b2",
+        "nextDataQueryBuriedId": "5593cf00-a85e-488f-8130-96fae08df4b2",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Olaus",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "-",
+          "status": "streck"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "-",
+          "status": "streck"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1925-08-12",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "",
+          "status": "tom"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Olaus",
+        "Född:",
+        "-",
+        "Avliden:",
+        "-",
+        "Gravsatt:",
+        "1925-08-12",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "5593cf00-a85e-488f-8130-96fae08df4b2",
+          "graveId": 2354785,
+          "name": "Fredberg, Olaus",
+          "birthDate": "-",
+          "deathDate": "-",
+          "burialDate": "1925-08-12",
+          "homeTown": "",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 48,
+      "recordLocator": "R-f4d105360ebbe9d50156ac10",
+      "requestedId": "5df73c20-f623-477e-8cb8-7659c68b96f3",
+      "url": "https://www.svenskagravar.se/gravsatt/5df73c20-f623-477e-8cb8-7659c68b96f3",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-48-5df73c20-f623-477e-8cb8-7659c68b96f3.html",
+      "sha256": "1d633f5f497e732aa8dc49ffde0c9a7a9333b0b27dcfc5d9a5a5188c28ca0697",
+      "id_check": {
+        "nextDataBuriedId": "5df73c20-f623-477e-8cb8-7659c68b96f3",
+        "nextDataQueryBuriedId": "5df73c20-f623-477e-8cb8-7659c68b96f3",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Kalmar,gravplatsnr=202 0056B"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Carlman, Gunnar August Villehard",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Norra kyrkogården",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Kalmar Pastorat",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1911-04-28",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1927-02-27",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1927-03-06",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "kvarter 02",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Kalmar",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "0056B",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "202 0056B",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1927-03-03 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Carlman, Gunnar August Villehard",
+        "Född:",
+        "1911-04-28",
+        "Avliden:",
+        "1927-02-27",
+        "Gravsatt:",
+        "1927-03-06",
+        "Norra kyrkogården",
+        "Kvarter:",
+        "kvarter 02",
+        "Hemort:",
+        "Kalmar",
+        "Gravplats:",
+        "0056B",
+        "Gravplatsnummer:",
+        "202 0056B",
+        "Gravrättstid:",
+        "1927-03-03 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Kalmar Pastorat",
+        "Telefontid måndag-torsdag 9-12",
+        "0480-42 14 08",
+        "kalmar.begravningsverksamheten@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "5df73c20-f623-477e-8cb8-7659c68b96f3",
+          "graveId": 1758111,
+          "name": "Carlman, Gunnar August Villehard",
+          "birthDate": "1911-04-28",
+          "deathDate": "1927-02-27",
+          "burialDate": "1927-03-06",
+          "homeTown": "Kalmar",
+          "cemeteryName": "Norra kyrkogården",
+          "quarter": "02",
+          "graveNumber": "0056B",
+          "graveFullNumber": "202 0056B",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "2",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "02",
+          "quarterName": "kvarter 02",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1927-03-03 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "Telefontid måndag-torsdag 9-12",
+            "namn": "Kalmar Pastorat",
+            "telefon": "0480-42 14 08",
+            "epost": "kalmar.begravningsverksamheten@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/kalmar/kyrkogarden",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Kalmar",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Kalmar,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    },
+    {
+      "scopeNumber": 50,
+      "recordLocator": "R-fdf124306928cbcdf474f786",
+      "requestedId": "4ad5115b-7b46-4257-98c8-da2d59ea2282",
+      "url": "https://www.svenskagravar.se/gravsatt/4ad5115b-7b46-4257-98c8-da2d59ea2282",
+      "rawHtmlFile": "genealogy2/verification/T-0676/captures/scope-50-4ad5115b-7b46-4257-98c8-da2d59ea2282.html",
+      "sha256": "8780241d15162ad6fe2aaac2ee6fb98bb61d44b89a3c0fa9a01d5ab565a435f7",
+      "id_check": {
+        "nextDataBuriedId": "4ad5115b-7b46-4257-98c8-da2d59ea2282",
+        "nextDataQueryBuriedId": "4ad5115b-7b46-4257-98c8-da2d59ea2282",
+        "matchesRequested": true,
+        "ownH1MatchesOwnJsonName": true
+      },
+      "postBoundary": {
+        "start": "Unik h1 med kortets eget namn",
+        "end": "Före h2 Övriga gravsatta i denna grav:",
+        "fullPageStructureReviewedWithOtherBuriedSuppressed": true,
+        "ownIframeSrc": [
+          "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=0107 012"
+        ],
+        "iframeContent": "oläst; inte hämtad"
+      },
+      "visibleHtmlFields": {
+        "name": {
+          "label": "h1",
+          "raw": "Fredberg, Elvira Fredina Gully",
+          "status": "avskriven"
+        },
+        "cemetery": {
+          "label": "Kyrkogårdsnamn (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna kyrkogård",
+          "status": "avskriven"
+        },
+        "administration": {
+          "label": "Förvaltnings-/kontaktblock (utan uttrycklig fältrubrik)",
+          "raw": "Sollentuna församling",
+          "status": "avskriven"
+        },
+        "birth": {
+          "label": "Född:",
+          "raw": "1902-11-28",
+          "status": "avskriven"
+        },
+        "death": {
+          "label": "Avliden:",
+          "raw": "1988-10-10",
+          "status": "avskriven"
+        },
+        "burial": {
+          "label": "Gravsatt:",
+          "raw": "1988-11-24",
+          "status": "avskriven"
+        },
+        "quarter": {
+          "label": "Kvarter:",
+          "raw": "07",
+          "status": "avskriven"
+        },
+        "homeTown": {
+          "label": "Hemort:",
+          "raw": "Sollentuna",
+          "status": "avskriven"
+        },
+        "graveNumber": {
+          "label": "Gravplats:",
+          "raw": "012",
+          "status": "avskriven"
+        },
+        "graveFullNumber": {
+          "label": "Gravplatsnummer:",
+          "raw": "0107 012",
+          "status": "avskriven"
+        },
+        "graveRightTime": {
+          "label": "Gravrättstid:",
+          "raw": "1925-08-12 - för all framtid",
+          "status": "avskriven"
+        },
+        "graveRightStatus": {
+          "label": "Separat statusfält",
+          "status": "ej visat",
+          "raw": null,
+          "note": "Ingen separat synlig statusrubrik/statussträng i eget HTML-kort. Gravrättstidens text bevarad; active/type/ownerless i råJSON är separat metadata."
+        }
+      },
+      "visibleOwnTextInOrder": [
+        "Fredberg, Elvira Fredina Gully",
+        "Född:",
+        "1902-11-28",
+        "Avliden:",
+        "1988-10-10",
+        "Gravsatt:",
+        "1988-11-24",
+        "Sollentuna kyrkogård",
+        "Kvarter:",
+        "07",
+        "Hemort:",
+        "Sollentuna",
+        "Gravplats:",
+        "012",
+        "Gravplatsnummer:",
+        "0107 012",
+        "Gravrättstid:",
+        "1925-08-12 - för all framtid"
+      ],
+      "visibleAdministrationContext": [
+        "Sollentuna församling",
+        "08-505 513 16",
+        "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+        "Länk till hemsida"
+      ],
+      "visiblePageContext": {
+        "header": [
+          "Sök gravsatt på SvenskaGravar.se",
+          "Svenskagravar",
+          "om",
+          "förvaltningar",
+          "Avancerad sökning"
+        ],
+        "footer": "\n2026\n-\nEniac\nVersion: 3.1"
+      },
+      "separateRawNextData": {
+        "buried": {
+          "id": "4ad5115b-7b46-4257-98c8-da2d59ea2282",
+          "graveId": 2354785,
+          "name": "Fredberg, Elvira Fredina Gully",
+          "birthDate": "1902-11-28",
+          "deathDate": "1988-10-10",
+          "burialDate": "1988-11-24",
+          "homeTown": "Sollentuna",
+          "cemeteryName": "Sollentuna kyrkogård",
+          "quarter": "07",
+          "graveNumber": "012",
+          "graveFullNumber": "0107 012",
+          "active": true,
+          "type": "UPPLATEN",
+          "images": [],
+          "__typename": "BuriedViewModel"
+        },
+        "grave": {
+          "ownerless": false,
+          "cemetery": {
+            "kgard": "01",
+            "info": "",
+            "telefon": "",
+            "epost": ""
+          },
+          "quarter": "07",
+          "quarterName": "",
+          "avdelning": "",
+          "avdelningBenamning": "",
+          "gravratt": "1925-08-12 - för all framtid",
+          "hasNewOrders": false,
+          "parish": {
+            "info": "",
+            "namn": "Sollentuna församling",
+            "telefon": "08-505 513 16",
+            "epost": "sollentuna.kyrkogardsexpedition@svenskakyrkan.se",
+            "url": "https://www.svenskakyrkan.se/sollentuna",
+            "reportOwnerEnabled": false,
+            "reportOwnerUrl": "",
+            "mapName": "Sollentuna",
+            "mapUrl": "https://kartor-test.svenskagravar.se/webmap/#m=Sollentuna,gravplatsnr=[graveFullNumber]",
+            "orderSettings": {
+              "enabled": false
+            }
+          },
+          "category": null
+        },
+        "note": "Metadata bevarad separat; får inte beskrivas som visad text om den saknas ovan."
+      },
+      "scopeExclusions": [
+        "Medgravslistans innehåll/antal/poster ej lästa eller omprövade; T-0675-omfång enligt uppdraget.",
+        "Ingen identitets-, relations- eller beroendeprövning mot gammalt material."
+      ]
+    }
+  ],
+  "lockPolicy": "Initial avskrift låses före andra lässvar och gammal avskrift. Omprövningar ska skrivas separat."
+}

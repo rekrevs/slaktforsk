@@ -1,0 +1,38 @@
+{
+  "task": "T-0677",
+  "state": "C0032_EXPLICIT_PERSON_EVIDENCE_EDGE_INVENTORY_AFTER_SOURCE_ONLY",
+  "canonical_journal": 198,
+  "source_temp_journal": 199,
+  "person_operation_sha256": "ff4e546e6cff2fe433793cb90357f74cf31a0ce98547909fe55b9d44de345a22",
+  "scanned_changes": 51,
+  "issues": [
+    {
+      "type": "preexisting_stale_after_source",
+      "change_index": 5,
+      "change_id": "E-death-P-0042",
+      "edge": {
+        "object": "R-05055c1adb1f17278c7a5ec6",
+        "version": 1,
+        "role": "supports",
+        "note": "Samma redan införda källpost; inget extra oberoende vittnesmål genom personmigreringen."
+      },
+      "basis_current_in_source_temp": 2
+    },
+    {
+      "type": "same_operation_superseded",
+      "change_index": 50,
+      "change_id": "ADOPT-T0677-C0032-P-0042",
+      "edge": {
+        "object": "O-P-0042-death1937-death_entry",
+        "version": 1,
+        "role": "supports",
+        "note": "Historiskt återbruk av den separata dödboksposten C-0421, där 24 december 1937 tidigare lästs och rättats. Ingen ny läsning; de två C-0032-cellerna räknas inte som oberoende röster eller som omröstning mot dödboken."
+      },
+      "basis_current_in_source_temp": 1,
+      "basis_change_index": 47,
+      "basis_future_version": 2
+    }
+  ],
+  "no_payload_change": true,
+  "no_canonical_apply": true
+}

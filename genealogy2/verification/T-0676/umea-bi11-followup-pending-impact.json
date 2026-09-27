@@ -1,0 +1,470 @@
+{
+  "command": "node genealogy2/cli.mjs impact E-registered_arrival-P-0033-1917",
+  "exitCode": 0,
+  "result": {
+    "format": "genealogy2-impact/1",
+    "input": "E-registered_arrival-P-0033-1917",
+    "query": null,
+    "database_state": {
+      "operations": 160,
+      "revisions": 46279,
+      "last_operation": {
+        "sequence": 159,
+        "operation_id": "T-0676/umea-bi11-followup-v1"
+      }
+    },
+    "seeds": [
+      {
+        "object_id": "E-registered_arrival-P-0033-1917",
+        "revision_id": "E-registered_arrival-P-0033-1917@2",
+        "version": 2,
+        "kind": "event",
+        "disposition": "accepted",
+        "evidence_status": "TRANSCRIBED",
+        "current": true,
+        "routes": [
+          {
+            "type": "explicit_object"
+          }
+        ]
+      }
+    ],
+    "routing_limit": "C-id maps to bounded records through import representations; this routing is provenance, not source support. No record mapping means no inferred dependency graph.",
+    "dependencies": {
+      "current": [
+        {
+          "object_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal",
+          "revision_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "registered_version_dependency",
+          "distance": 1,
+          "path": [
+            {
+              "revision_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal@1",
+              "basis_revision_id": "E-registered_arrival-P-0033-1917@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            }
+          ],
+          "reached_dependencies": [
+            {
+              "revision_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal@1",
+              "basis_revision_id": "E-registered_arrival-P-0033-1917@1",
+              "role": "supports",
+              "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+            }
+          ],
+          "limit": "Registered dependency, not proof that the correction changes this claim. Roles remain explicit; path is one shortest witness, not every route."
+        }
+      ],
+      "historical": []
+    },
+    "provenance": {
+      "classification": "import_provenance_not_evidence",
+      "origins": [
+        {
+          "revision_id": "E-birth-P-0033@1",
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "coverage": "partial",
+          "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+          "object_id": "E-birth-P-0033",
+          "version": 1,
+          "kind": "event",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8"
+        },
+        {
+          "revision_id": "E-registered_arrival-P-0033-1917@2",
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "coverage": "partial",
+          "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+          "object_id": "E-registered_arrival-P-0033-1917",
+          "version": 2,
+          "kind": "event",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8"
+        },
+        {
+          "revision_id": "E-registered_arrival-P-0033-1917@2",
+          "unit_id": "5c31b9a93ff6d5d59a8b90492b6bdb599790a00153313ce9eb8792e1fb2c4677",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+          "object_id": "E-registered_arrival-P-0033-1917",
+          "version": 2,
+          "kind": "event",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8"
+        },
+        {
+          "revision_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal@1",
+          "unit_id": "5c31b9a93ff6d5d59a8b90492b6bdb599790a00153313ce9eb8792e1fb2c4677",
+          "coverage": "partial",
+          "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+          "object_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal",
+          "version": 1,
+          "kind": "participation",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8"
+        },
+        {
+          "revision_id": "F-P-0033-education-private_elementary_school@3",
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "coverage": "partial",
+          "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+          "object_id": "F-P-0033-education-private_elementary_school",
+          "version": 3,
+          "kind": "fact",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8"
+        },
+        {
+          "revision_id": "F-P-0033-military_registration-737@2",
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "coverage": "partial",
+          "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+          "object_id": "F-P-0033-military_registration-737",
+          "version": 2,
+          "kind": "fact",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8"
+        },
+        {
+          "revision_id": "O-P-0033-own_household1930@2",
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "coverage": "partial",
+          "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+          "object_id": "O-P-0033-own_household1930",
+          "version": 2,
+          "kind": "observation",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8"
+        }
+      ],
+      "targets": [
+        {
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "decision_id": "UD-2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94@1",
+          "target_id": "E-birth-P-0033",
+          "state": "mapped_complete",
+          "rationale": "Hela den aktuella raden inklusive förbehåll representeras av målen. Samverkande mål: E-birth-P-0033, E-registered_arrival-P-0033-1917, F-P-0033-education-private_elementary_school, F-P-0033-military_registration-737, O-P-0033-own_household1930.",
+          "question": "",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8",
+          "object_id": "E-birth-P-0033",
+          "revision_id": "E-birth-P-0033@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true
+        },
+        {
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "decision_id": "UD-2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94@1",
+          "target_id": "E-registered_arrival-P-0033-1917",
+          "state": "mapped_complete",
+          "rationale": "Hela den aktuella raden inklusive förbehåll representeras av målen. Samverkande mål: E-birth-P-0033, E-registered_arrival-P-0033-1917, F-P-0033-education-private_elementary_school, F-P-0033-military_registration-737, O-P-0033-own_household1930.",
+          "question": "",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8",
+          "object_id": "E-registered_arrival-P-0033-1917",
+          "revision_id": "E-registered_arrival-P-0033-1917@2",
+          "version": 2,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true
+        },
+        {
+          "unit_id": "5c31b9a93ff6d5d59a8b90492b6bdb599790a00153313ce9eb8792e1fb2c4677",
+          "decision_id": "UD-5c31b9a93ff6d5d59a8b90492b6bdb599790a00153313ce9eb8792e1fb2c4677@1",
+          "target_id": "E-registered_arrival-P-0033-1917",
+          "state": "preserved_text",
+          "rationale": "Textenheten finns kvar i det frysta underlaget; typade deluppgifter har egna ursprung och beslut. Samverkande mål: E-registered_arrival-P-0033-1917, EP-E-registered_arrival-P-0033-1917-P-0033-principal.",
+          "question": "",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8",
+          "object_id": "E-registered_arrival-P-0033-1917",
+          "revision_id": "E-registered_arrival-P-0033-1917@2",
+          "version": 2,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true
+        },
+        {
+          "unit_id": "5c31b9a93ff6d5d59a8b90492b6bdb599790a00153313ce9eb8792e1fb2c4677",
+          "decision_id": "UD-5c31b9a93ff6d5d59a8b90492b6bdb599790a00153313ce9eb8792e1fb2c4677@1",
+          "target_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal",
+          "state": "preserved_text",
+          "rationale": "Textenheten finns kvar i det frysta underlaget; typade deluppgifter har egna ursprung och beslut. Samverkande mål: E-registered_arrival-P-0033-1917, EP-E-registered_arrival-P-0033-1917-P-0033-principal.",
+          "question": "",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8",
+          "object_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal",
+          "revision_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true
+        },
+        {
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "decision_id": "UD-2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94@1",
+          "target_id": "F-P-0033-education-private_elementary_school",
+          "state": "mapped_complete",
+          "rationale": "Hela den aktuella raden inklusive förbehåll representeras av målen. Samverkande mål: E-birth-P-0033, E-registered_arrival-P-0033-1917, F-P-0033-education-private_elementary_school, F-P-0033-military_registration-737, O-P-0033-own_household1930.",
+          "question": "",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8",
+          "object_id": "F-P-0033-education-private_elementary_school",
+          "revision_id": "F-P-0033-education-private_elementary_school@3",
+          "version": 3,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true
+        },
+        {
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "decision_id": "UD-2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94@1",
+          "target_id": "F-P-0033-military_registration-737",
+          "state": "mapped_complete",
+          "rationale": "Hela den aktuella raden inklusive förbehåll representeras av målen. Samverkande mål: E-birth-P-0033, E-registered_arrival-P-0033-1917, F-P-0033-education-private_elementary_school, F-P-0033-military_registration-737, O-P-0033-own_household1930.",
+          "question": "",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8",
+          "object_id": "F-P-0033-military_registration-737",
+          "revision_id": "F-P-0033-military_registration-737@2",
+          "version": 2,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true
+        },
+        {
+          "unit_id": "2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94",
+          "decision_id": "UD-2579ef734b7a7b3222b5af97bfa3ca834e0202b53ed2bda86a55622df8740a94@1",
+          "target_id": "O-P-0033-own_household1930",
+          "state": "mapped_complete",
+          "rationale": "Hela den aktuella raden inklusive förbehåll representeras av målen. Samverkande mål: E-birth-P-0033, E-registered_arrival-P-0033-1917, F-P-0033-education-private_elementary_school, F-P-0033-military_registration-737, O-P-0033-own_household1930.",
+          "question": "",
+          "document_path": "genealogy/people/P-0033-johan-magnus-zingmark.md",
+          "start_line": 55,
+          "end_line": 55,
+          "historical": 0,
+          "sha256": "38a077d37a973380c17978bae5a5192a5bb91b2ede84521cd12b319563b543d8",
+          "object_id": "O-P-0033-own_household1930",
+          "revision_id": "O-P-0033-own_household1930@2",
+          "version": 2,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true
+        }
+      ]
+    },
+    "search": {
+      "matching": "Case-sensitive literal phrase; identifiers require boundaries. No stemming, date normalization or semantic matching.",
+      "terms": [
+        {
+          "value": "E-registered_arrival-P-0033-1917",
+          "source": "identifier",
+          "boundary": true
+        }
+      ]
+    },
+    "text_candidates": {
+      "current": [
+        {
+          "object_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal",
+          "revision_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "classification": "possible_current_text_copy",
+          "registered_dependency": true,
+          "seed": false,
+          "hits": [
+            {
+              "field": "event_id",
+              "term": "E-registered_arrival-P-0033-1917",
+              "term_source": "identifier",
+              "offset": 0,
+              "line": 1,
+              "occurrences": 1,
+              "excerpt": "E-registered_arrival-P-0033-1917",
+              "excerpt_start": 0
+            }
+          ],
+          "limit": "Candidate only: may be quotation, retraction, namesake or unrelated context. Read the full field."
+        }
+      ],
+      "historical": []
+    },
+    "review": {
+      "items": [
+        {
+          "object_id": "E-birth-P-0033",
+          "revision_id": "E-birth-P-0033@1",
+          "version": 1,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "CORROBORATED",
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence",
+            "import_target_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "E-registered_arrival-P-0033-1917",
+          "revision_id": "E-registered_arrival-P-0033-1917@2",
+          "version": 2,
+          "kind": "event",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence",
+            "import_target_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal",
+          "revision_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal@1",
+          "version": 1,
+          "kind": "participation",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "registered_version_dependency",
+            "import_origin_not_evidence",
+            "import_target_not_evidence",
+            "possible_current_text_copy"
+          ],
+          "pending_requests": [
+            {
+              "id": "d553118c45225350f8d9791a2beb045ec4f336792d44743f68af83e6d95a89c3",
+              "operation_id": "T-0676/umea-bi11-followup-v1",
+              "affected_revision_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal@1",
+              "changed_revision_id": "E-registered_arrival-P-0033-1917@2",
+              "reason": "Ett åberopat underlag har fått en ny version. Tidigare slutsats bevaras tills omprövningen dokumenterats.",
+              "object_id": "EP-E-registered_arrival-P-0033-1917-P-0033-principal"
+            }
+          ],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0033-education-private_elementary_school",
+          "revision_id": "F-P-0033-education-private_elementary_school@3",
+          "version": 3,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence",
+            "import_target_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "F-P-0033-military_registration-737",
+          "revision_id": "F-P-0033-military_registration-737@2",
+          "version": 2,
+          "kind": "fact",
+          "disposition": "accepted",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence",
+            "import_target_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        },
+        {
+          "object_id": "O-P-0033-own_household1930",
+          "revision_id": "O-P-0033-own_household1930@2",
+          "version": 2,
+          "kind": "observation",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "current": true,
+          "reasons": [
+            "import_origin_not_evidence",
+            "import_target_not_evidence"
+          ],
+          "pending_requests": [],
+          "decision": null,
+          "rationale": null
+        }
+      ],
+      "instructions": "Read inspect for each current object and its evidence. Record a reasoned decision in the active Wotan task / authorized operation. Revise through apply only when warranted; resolve only the exact existing pending request after individual review. Text/provenance candidates do not create requests. Null decisions are unreviewed, never approvals."
+    },
+    "limitations": [
+      "Read-only snapshot, not an execution queue. Re-run after revisions.",
+      "Text matches cannot establish copied facts, identity, error, relevance or support. Current text may contain historical retractions.",
+      "Unlinked paraphrases or different date/name spellings may be missed; supply relevant --query variants and inspect affected person profiles.",
+      "No query mutates data, adds evidence, opens/closes reviews or certifies complete semantic coverage."
+    ]
+  }
+}

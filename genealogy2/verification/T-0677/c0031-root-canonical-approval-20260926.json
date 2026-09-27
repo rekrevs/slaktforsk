@@ -1,0 +1,64 @@
+{
+  "task": "T-0677",
+  "date": "2026-09-26",
+  "state": "ROOT_CANONICAL_TWO_STEP_APPROVED",
+  "canonical_before": {
+    "journal": 195,
+    "pending": 0
+  },
+  "inputs": [
+    {
+      "file": "c0031-source-proposed-operation-20260926.json",
+      "sha256": "2536d5c9802c9d3ce34ed411ca854a7c0a4bfeea5e396faa3cf4553905c94e6f"
+    },
+    {
+      "file": "c0031-person-proposed-operation-20260926.json",
+      "sha256": "fab9081df49613976278b06feddec192389b28b12aa74e656956db69e0089b6e"
+    },
+    {
+      "file": "c0031-temp-full-diffcheck-20260926.json",
+      "sha256": "f9abfb6937f34fdf7b0a614972223e51e28c58ef2bd11d72f93031b3b82408ff"
+    },
+    {
+      "file": "c0031-temp-pending-full-20260926.json",
+      "sha256": "4b52404ea638c3cfead50f35b91015430ea5d2b7bc4b87bb53b42d4637954bc2"
+    }
+  ],
+  "checks": "Root läste fulla käll-/personändringar,30 dispositionsskäl samt fyra faktiska tempbegäranden med full affected och gemensam R före/efter. Körde själv läst check-c0031-temp-preflight: samtliga15 fulla objekt exakt match,4pending,3tempvalidatorerPASS. Alla föregående origins bevaras; READ binds med sakskäl till uppdaterad R@2, övriga tidigare evidenskanter bevaras. Rbildens path/region/hash bibehålls.",
+  "decision": "Inför exakt source följt av person. Ingen ytterligare sakändring, rebase eller upplösning av reservationer. Inga person-/PK-/trädstatusändringar.",
+  "dependency_judgements": [
+    {
+      "request_id": "36d35542ec9354b473d4048c83b6decce650fcc71b08f3eebf8e28e9f38cce12",
+      "affected_revision": "O-P-0003-C0031-own-religious-empty@1",
+      "changed_from": "R-f7b975eed6e93d7888aaf47a@1",
+      "changed_to": "R-f7b975eed6e93d7888aaf47a@2",
+      "decision": "retain",
+      "rationale": "R@2 utvidgar postens uttryckliga union med Charlottas rad23 och redovisar kompletterade råfält, men återbrukar Arnes egna11–13 utan ny tolkning. O@1 avser just rad24 och gruppen streck/tomfält, inte Charlottas a/n. Dessa sakvärden och förbehållet mot trostolkning står kvar. Historisk R@1-kant bevarar när observationen gjordes; ingen ombindning eller ny observation behövs."
+    },
+    {
+      "request_id": "58936d0c1f2662ea06c1a85bb81d823b255c91e516fc8c06500fa92bf397019e",
+      "affected_revision": "F-P-0003-residence-Flen1930-1938@1",
+      "changed_from": "R-f7b975eed6e93d7888aaf47a@1",
+      "changed_to": "R-f7b975eed6e93d7888aaf47a@2",
+      "decision": "retain",
+      "rationale": "Den strukturerade följden563/Björkhem,948/Norraberg1932,1084/Tulefors1935 och endast Arnes860/1938 återger samma dokumentära kedja som före revisionen. R@2 preciserar egna upprepningsformer som skilda från utskrivna hushållssiffror, vilket inte motsäger kedjetolkningen. Inga exakta resdagar finns i factdata. Morföräldrarnas kvarvaro och dödsår påverkas inte av Charlottas reserverade ort-/n-tecken på948. Faktum, caveat och äldre källkanter behålls."
+    },
+    {
+      "request_id": "591667f490d8a003abf0ff4524fe4332fee8fa814a850544abc1c19a784e53b7",
+      "affected_revision": "F-P-0003-military_registration-22-44-35@1",
+      "changed_from": "R-f7b975eed6e93d7888aaf47a@1",
+      "changed_to": "R-f7b975eed6e93d7888aaf47a@2",
+      "decision": "retain",
+      "rationale": "Faktum anger rå22 44/35, serviceProved=false och systemInterpretation=null. C0031 rad24 kol15 har dokumentärt återbruk; R@2 ändrar varken numret eller personanknytningen och behåller uttryckligen gränsen mot tjänstgöringsbevis. De andra namngivna posterna och befintliga versionskanterna består. Ingen ny systemtolkning eller versionsombindning är motiverad."
+    },
+    {
+      "request_id": "74132c12c1c3c3d8314a83a8a44871d9b453ac2750bda5f1b63891a5764860a4",
+      "affected_revision": "F-P-0003-household_membership-maternal-grandparents@1",
+      "changed_from": "R-f7b975eed6e93d7888aaf47a@1",
+      "changed_to": "R-f7b975eed6e93d7888aaf47a@2",
+      "decision": "retain",
+      "rationale": "Faktum anger Arne som dotterson i hushållskontexten Björkhem/Norraberg/Tulefors, med morföräldrarna P0042/P0043 och släktled genom separata föräldravägar. R@2 gör Charlottas rad23 explicit i samma befintliga hushållspost; hennes reserverade råort/n och egna ditoformer ändrar inte hushållstillhörigheten eller de separata föräldralänkarna. Historiska belägg bevaras utan nytt omsorgsstartdatum eller ny släktrelation."
+    }
+  ],
+  "resolution_limit": "De fyra individuella retainbedömningarna gäller under förutsättning att faktiskt utfall matchar dessa fullpayloads. Ingen resolve får köras förrän faktisk match har granskats och separat exakt resolutionsoperation är rootgodkänd."
+}

@@ -1,0 +1,2137 @@
+{
+  "task": "T-0677",
+  "stage": "READ_ONLY_C0002_WITNESS_IMPACT_CANDIDATE",
+  "date": "2026-09-24",
+  "journal_head": 180,
+  "record_id": "R-510e9de3e16243afcce92e2e",
+  "scope": "Own 10 witness mentions, own 10 witness-place observations, and variant-bearing current person/research carriers P-0001/P-0028/P-0029 with explicit C-0002 text or record basis. Similar names elsewhere excluded.",
+  "inputs": {
+    "documentary_reuse": {
+      "path": "genealogy2/verification/T-0677/c0002-documentary-reuse-candidate-20260924.json",
+      "sha256": "8e193ccc0fdbcc17e694d1270447da44ab67096cb48eec6db029c8a6e842103e"
+    },
+    "first_control": {
+      "path": "genealogy2/verification/T-0677/c0002-first-control-20260924.json",
+      "sha256": "6b5c7bf76a365e777218414b290349cfaf68847c791284b59445a09382b4fc0f"
+    },
+    "second_control": {
+      "path": "genealogy2/verification/T-0677/c0002-root-second-control-20260924.json",
+      "sha256": "e6ac1bea21e8a3adcb4bca216c321f8b925e5536fd506f2eabc0d9e54aa1a837"
+    }
+  },
+  "commands": {
+    "impact_base": "node genealogy2/cli.mjs impact R-510e9de3e16243afcce92e2e",
+    "impact_queries": [
+      "node genealogy2/cli.mjs impact R-510e9de3e16243afcce92e2e --query Forsberg",
+      "node genealogy2/cli.mjs impact R-510e9de3e16243afcce92e2e --query Karlss",
+      "node genealogy2/cli.mjs impact R-510e9de3e16243afcce92e2e --query Karlsd",
+      "node genealogy2/cli.mjs impact R-510e9de3e16243afcce92e2e --query Wahlund",
+      "node genealogy2/cli.mjs impact R-510e9de3e16243afcce92e2e --query Ekträsk",
+      "node genealogy2/cli.mjs impact R-510e9de3e16243afcce92e2e --query Buberget"
+    ],
+    "inspect_pattern": "node genealogy2/cli.mjs inspect <object_id>"
+  },
+  "query_terms": [
+    "Forsberg",
+    "Karlss",
+    "Karlsd",
+    "Wahlund",
+    "Ekträsk",
+    "Buberget"
+  ],
+  "own_witness_mentions": [
+    {
+      "object_id": "M-P-0001-C0002-witness1",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness1@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "Jon. P. Hansson",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness1",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness1@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness1@1",
+            "unit_id": "87c67aeb3d25968cb589e205c222d2ea2ce042400c2cef5c3cac4fcae73386dd",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 117,
+            "end_line": 117
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness1@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness2",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness2@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "hans hustru",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness2",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness2@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness2@1",
+            "unit_id": "87c67aeb3d25968cb589e205c222d2ea2ce042400c2cef5c3cac4fcae73386dd",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 117,
+            "end_line": 117
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness2@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness3",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness3@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "Nils Nilsson",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness3",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness3@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness3@1",
+            "unit_id": "43d83c1420fc60efed075238dc3c2bf892b66ccff0954113a179727c090812c4",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 118,
+            "end_line": 118
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness3@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness4",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness4@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "hans hustru",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness4",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness4@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness4@1",
+            "unit_id": "43d83c1420fc60efed075238dc3c2bf892b66ccff0954113a179727c090812c4",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 118,
+            "end_line": 118
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness4@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness5",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness5@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "Alb. Wahlund",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness5",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness5@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness5@1",
+            "unit_id": "f8ad01463e687dc214a37638e2efcb5c80b50cba4e4f0d4934d5a094a32ddb58",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 119,
+            "end_line": 119
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness5@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Wahlund": [
+          {
+            "field": "name_literal",
+            "term": "Wahlund",
+            "term_source": "user_phrase",
+            "offset": 5,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Alb. Wahlund",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness6",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness6@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "Erika Eriksd.",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness6",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness6@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness6@1",
+            "unit_id": "5d4fa0e0b257dbfee51c225dfe016028a554b0d85862da69756a32f3787c9071",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 120,
+            "end_line": 120
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness6@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness7",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness7@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "Joh. Lindberg",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness7",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness7@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness7@1",
+            "unit_id": "ebc7f032572b8a0ee0d0b063d37a9b5e9500879c06c776e9f2b0971e5eb13a40",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 121,
+            "end_line": 121
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness7@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness8",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness8@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "Alma Forsberg[?]",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness8",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness8@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness8@1",
+            "unit_id": "102af7cc10d3dcd10f9dd7700af1e12cde9dfcf4b74b0b92138d34342568625c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 122,
+            "end_line": 122
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness8@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Forsberg": [
+          {
+            "field": "name_literal",
+            "term": "Forsberg",
+            "term_source": "user_phrase",
+            "offset": 5,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Alma Forsberg[?]",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness9",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness9@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "K. M. Andersson",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness9",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness9@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness9@1",
+            "unit_id": "b355dcd8399d6b5f37299c17aaccefcd59f2c13c43c755aa72bd2b906aa3fa32",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 123,
+            "end_line": 123
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness9@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "M-P-0001-C0002-witness10",
+      "kind": "mention",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "M-P-0001-C0002-witness10@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "name_literal": "Lia[?] Karlss[on?]",
+        "role_literal": "fadder",
+        "object_id": "M-P-0001-C0002-witness10",
+        "version": 1,
+        "kind": "mention",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Överför den uttryckliga, individuellt bedömda uppgiften med dess befintliga belägg och begränsningar.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "M-P-0001-C0002-witness10@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "M-P-0001-C0002-witness10@1",
+            "unit_id": "710d09a568932a2f21475936eb0e80a94fc4d8cc203efa31cb355f04b0c7b013",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 124,
+            "end_line": 124
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "M-P-0001-C0002-witness10@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Karlss": [
+          {
+            "field": "name_literal",
+            "term": "Karlss",
+            "term_source": "user_phrase",
+            "offset": 7,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Lia[?] Karlss[on?]",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    }
+  ],
+  "own_witness_place_observations": [
+    {
+      "object_id": "O-P-0001-C0002-witness1-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness1-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness1",
+        "property": "residence",
+        "value_literal": "Degerfors",
+        "value_json": "{\"place\":\"Degerfors\"}",
+        "object_id": "O-P-0001-C0002-witness1-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness1-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness1-place@1",
+            "unit_id": "87c67aeb3d25968cb589e205c222d2ea2ce042400c2cef5c3cac4fcae73386dd",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 117,
+            "end_line": 117
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness1-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness1@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness1-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness2-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness2-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness2",
+        "property": "residence",
+        "value_literal": "Degerfors",
+        "value_json": "{\"place\":\"Degerfors\"}",
+        "object_id": "O-P-0001-C0002-witness2-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness2-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness2-place@1",
+            "unit_id": "87c67aeb3d25968cb589e205c222d2ea2ce042400c2cef5c3cac4fcae73386dd",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 117,
+            "end_line": 117
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness2-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness2@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness2-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness3-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness3-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness3",
+        "property": "residence",
+        "value_literal": "Degerfors",
+        "value_json": "{\"place\":\"Degerfors\"}",
+        "object_id": "O-P-0001-C0002-witness3-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness3-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness3-place@1",
+            "unit_id": "43d83c1420fc60efed075238dc3c2bf892b66ccff0954113a179727c090812c4",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 118,
+            "end_line": 118
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness3-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness3@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness3-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness4-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness4-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness4",
+        "property": "residence",
+        "value_literal": "Degerfors",
+        "value_json": "{\"place\":\"Degerfors\"}",
+        "object_id": "O-P-0001-C0002-witness4-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness4-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness4-place@1",
+            "unit_id": "43d83c1420fc60efed075238dc3c2bf892b66ccff0954113a179727c090812c4",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 118,
+            "end_line": 118
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness4-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness4@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness4-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness5-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness5-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness5",
+        "property": "residence",
+        "value_literal": "Westerliden",
+        "value_json": "{\"place\":\"Westerliden\"}",
+        "object_id": "O-P-0001-C0002-witness5-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness5-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness5-place@1",
+            "unit_id": "f8ad01463e687dc214a37638e2efcb5c80b50cba4e4f0d4934d5a094a32ddb58",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 119,
+            "end_line": 119
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness5-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness5@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness5-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness6-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness6-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness6",
+        "property": "residence",
+        "value_literal": "Degerfors",
+        "value_json": "{\"place\":\"Degerfors\"}",
+        "object_id": "O-P-0001-C0002-witness6-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness6-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness6-place@1",
+            "unit_id": "5d4fa0e0b257dbfee51c225dfe016028a554b0d85862da69756a32f3787c9071",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 120,
+            "end_line": 120
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness6-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness6@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness6-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness7-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness7-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness7",
+        "property": "residence",
+        "value_literal": "Ekträsk",
+        "value_json": "{\"place\":\"Ekträsk\"}",
+        "object_id": "O-P-0001-C0002-witness7-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness7-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness7-place@1",
+            "unit_id": "ebc7f032572b8a0ee0d0b063d37a9b5e9500879c06c776e9f2b0971e5eb13a40",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 121,
+            "end_line": 121
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness7-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness7@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness7-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Ekträsk": [
+          {
+            "field": "value_literal",
+            "term": "Ekträsk",
+            "term_source": "user_phrase",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Ekträsk",
+            "excerpt_start": 0
+          },
+          {
+            "field": "value_json",
+            "term": "Ekträsk",
+            "term_source": "user_phrase",
+            "offset": 10,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "{\"place\":\"Ekträsk\"}",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness8-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness8-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness8",
+        "property": "residence",
+        "value_literal": "Degerfors",
+        "value_json": "{\"place\":\"Degerfors\"}",
+        "object_id": "O-P-0001-C0002-witness8-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness8-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness8-place@1",
+            "unit_id": "102af7cc10d3dcd10f9dd7700af1e12cde9dfcf4b74b0b92138d34342568625c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 122,
+            "end_line": 122
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness8-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness8@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness8-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {},
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness9-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness9-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness9",
+        "property": "residence",
+        "value_literal": "Buberget[?]",
+        "value_json": "{\"place\":\"Buberget[?]\"}",
+        "object_id": "O-P-0001-C0002-witness9-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness9-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness9-place@1",
+            "unit_id": "b355dcd8399d6b5f37299c17aaccefcd59f2c13c43c755aa72bd2b906aa3fa32",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 123,
+            "end_line": 123
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness9-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness9@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness9-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Buberget": [
+          {
+            "field": "value_literal",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 0,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Buberget[?]",
+            "excerpt_start": 0
+          },
+          {
+            "field": "value_json",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 10,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "{\"place\":\"Buberget[?]\"}",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "O-P-0001-C0002-witness10-place",
+      "kind": "observation",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "O-P-0001-C0002-witness10-place@1",
+        "record_id": "R-510e9de3e16243afcce92e2e",
+        "mention_id": "M-P-0001-C0002-witness10",
+        "property": "residence",
+        "value_literal": "sammastädes (Buberget[?])",
+        "value_json": "{\"place\":\"sammastädes (Buberget[?])\"}",
+        "object_id": "O-P-0001-C0002-witness10-place",
+        "version": 1,
+        "kind": "observation",
+        "disposition": "recorded",
+        "evidence_status": "TRANSCRIBED",
+        "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+        "caveat": "Namnlösa hustrur identifieras bara genom respektive föregående mans textpost; inga nya personidentiteter eller släktband.",
+        "origins": [
+          {
+            "revision_id": "O-P-0001-C0002-witness10-place@1",
+            "unit_id": "7ec4f2f6f60ae43e835ecfc0d089582fd914760eba2a5c53781c4b311f15d955",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 90,
+            "end_line": 90
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness10-place@1",
+            "unit_id": "710d09a568932a2f21475936eb0e80a94fc4d8cc203efa31cb355f04b0c7b013",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 124,
+            "end_line": 124
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "O-P-0001-C0002-witness10-place@1",
+            "basis_revision_id": "M-P-0001-C0002-witness10@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: mention_id"
+          },
+          {
+            "revision_id": "O-P-0001-C0002-witness10-place@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Buberget": [
+          {
+            "field": "value_literal",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 13,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "sammastädes (Buberget[?])",
+            "excerpt_start": 0
+          },
+          {
+            "field": "value_json",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 23,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "{\"place\":\"sammastädes (Buberget[?])\"}",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    }
+  ],
+  "related_current_person_research_carriers": [
+    {
+      "object_id": "BIO-P-0001",
+      "kind": "narrative",
+      "current_version": 3,
+      "current_fields": {
+        "revision_id": "BIO-P-0001@3",
+        "subject_id": "P-0001",
+        "title": "Biografisk sammanfattning",
+        "markdown": "T-0675 aktuell egenfältsprecisering: Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består. Befintliga frågor/källvägar förblir sina tidigare utfall; ingen ny uppgift startas.\n\nFöregående text ordagrant bevarad som historik; motsvarande fältsemantik/avsaknad kvalificeras ovan:\n## Biografisk sammanfattning\n\nOskar Alfred Zingmark föddes 22 maj 1897 i Degerfors som son till arbetaren,\nsenare sågställaren, Johan Oskar Zingmark och hans hustru Ida Sofia\nAndersdotter. Han döptes 9 juni med åtta antecknade faddrar från byarna kring\nförsamlingen — Westerliden, Ekträsk och Buberget — och modern kyrktogs 26\njuli. Födelsenotisen anger bara församlingen som hemvist och hänvisar till\nsida 93, hushåll 3, i husförhörslängden; Geni-uppgiften att han föddes i\nRosinedal är alltså inte belagd, även om familjen bodde där när folkräkningen\ntogs upp tre år senare\n([C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md),\n[C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md)).\n\nHan växte upp på Rosinedahl i ett hushåll som till 1909 fyllde tolv rader i\nförsamlingsboken: föräldrarna och tio barn\n([C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)).\nDen 15 november 1917 registrerades Oskar Alfred i en egen inflyttningspost, nr 211, från Degerfors till Ytterhiske. Datum, orter och folio anges genom ditto. De sex posterna 208–213 är inte en namngiven förteckning över hela familjen. Yrkesdelen på hans rad har också ett dittotecken, med föregående rads osäkra Stud[?] som antecedent; detta ger ingen säker utbildningsuppgift.\nFörsamlingsboken där kallar honom seminarieelev och antecknar att han tagit\nbetyg för inträde i Luleå seminarium\n([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md),\n[C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md)).\nExamenslängden i Luleå daterar utbildningen: inskriven 12 juni 1919, examen\n1923 efter åtta terminer på den fyraåriga linjen, med genomgående goda betyg\n([C-0921](../citations/C-0921-oskar-alfred-folkskollararexamen-lulea-1923.md)).\nHan stod kvar skriven i föräldrahemmet till 1 november 1924, då han flyttade\ntill Norsjö. Vad han gjorde de följande sex åren är inte belagt; nästa\nsäkra hållpunkt är flyttningsbetyget 4 juli 1930, som skriver honom som\nlärare i Bastuträsk\n([C-0893](../citations/C-0893-oskar-alfred-bastutrask-utflyttning-1930.md)).\n\nDen 7 juli 1930 skrevs han in i Gammelbyn i Burträsk som ordinarie\nfolkskollärare med 3 100 kronor i inkomst\n([C-0042](../citations/C-0042-oskar-alfred-folkrakning-1930.md)). Samma höst\nkom folkskollärarinnan Ebba Alfrida Andersson dit från Östhammar, och 19 juni\n1932 vigdes de i hans hemförsamling Degerfors\n([C-0040](../citations/C-0040-oskar-ebba-vigsel-1932.md)). Enligt ägaren fick\nde barnen Torgny, Jan Oskar, Hillevi och Urban; församlingsboken bekräftar\nfyra barn födda 1933, 1936, 1938 och 1942\n([PCD-2026-09-03-003](../../PROJECT-CONTROL.md#pcd-2026-09-03-003),\n[PCD-2026-09-03-004](../../PROJECT-CONTROL.md#pcd-2026-09-03-004),\n[C-0889](../citations/C-0889-zingmark-burtrask-gammelbyn-1930-1950.md)).\nFamiljen bodde tjugo år på samma fastighet i Gammelbyn. Brodern Birger,\npoliskonstapel, flyttade dit med egen familj 1943, och hustruns föräldrar kom\nfrån Robertsfors 1946 och fick ett eget uppslag på avsöndringen Gammelbyn\n14¹⁸; svärmodern dog där 1947 och svärfadern 1948\n([C-0970](../citations/C-0970-andersson-burtrask-AIIa4a-fol5.md)). Den 2\nseptember 1950 flyttade familjen till Umeå stad, dit fadern hade hört sedan\ngårdens inkorporering 1925 och där fadern dött 1935\n([C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)).\n\nDe sista tretton åren är obelagda. Gravregistret visar att han dog 15 juli\n1963, då skriven i Umeå stadsförsamling och alltjämt folkskollärare, och att\nhan gravsattes 26 juli på Burträsks kyrkogård i samma grav som hustruns\nföräldrar; Geni skriver i stället Umeå landsförsamling, och dödboken är oläst\n([C-0878](../citations/C-0878-oskar-alfred-zingmark-grav-burtrask-1963.md),\n[C-0001](../citations/C-0001-geni-utdrag.md)). Att makarna och hennes\nföräldrar delar gravplats är ett faktum ur gravregistret; varför just den\ngraven valdes framgår inte.\n\nHistorisk kontext, inte personbelägg: Rosinedahl var ett sågverkssamhälle vid\nVindelälven, och folkskoleseminarierna var på 1910-talet en av få vägar till\ntjänstemannayrke för en sågverksarbetarson i Västerbotten. Ingen sådan\nallmän uppgift tillskrivs honom utan eget belägg.\n\n",
+        "object_id": "BIO-P-0001",
+        "version": 3,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Egen211 är bekräftad men hela hushållet överdriver denna passages personomfång. Separat seminarie- och examensunderlag i följande meningar bevaras.",
+        "caveat": "Oskars egen råtext Folkskollär. har ingen uttrycklig tidsbindning till arbete vid död eller gravsättning1963. Umeå Stadsförsamling står i en omärkt span; ingen synlig etikett fastställer hemförsamling vid döden eller fysisk dödsort. Rånamnet är en söknyckel med oklar fältsemantik, inte i sig en avgjord semantisk konflikt mot sekundärträdets landsförsamling. Tidigare egna datum1897-05-22/1963-07-15/gravsatt1963-07-26 består.\n\nFöregående förbehåll ordagrant bevarat som historik:\nHela akten och profilen är lästa, inklusive historiken och sena rättelser. 28/5 ersätter faderns äldre 25/5 och 19/5; hänvisningen är 93.3, inte 263.3. Degerfors är födelseförsamling och Rosinedahl belagt först 1900. Kyrkobokföring 1917–1924 är inte liktydig med fysisk vistelse under Luleåstudierna. Norsjö/Bastuträsk 1924–1930 och Umeå 1950–1963 saknar lästa hushållsrader. Dödsförsamlingens två former hålls isär. Äldre biografisk uppgift om bestämd bouppteckningsjurisdiktion kvalificeras av profilens aktuella KP-06: behörigt arkiv är ännu inte fastställt. Faddrarnas åtta textposter omfattar dessutom två uttryckligen omnämnda men namnlösa hustrur; inget säkert totalantal åtta personer härleds. Aktens uppgift om 17 dagar mellan födelse och dop används inte; de uttryckliga datumen bevaras. Historiska bedömningar ger inga nya aktuella fakta.",
+        "origins": [
+          {
+            "revision_id": "BIO-P-0001@3",
+            "unit_id": "7cf6d905863e29344b5be43dc2d53aed1d7a9e0108c69c481991e27c25775191",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0001-oskar-alfred-zingmark.md",
+            "start_line": 239,
+            "end_line": 303
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "BIO-P-0001@3",
+            "basis_revision_id": "AUDIT-T0676-1@1",
+            "role": "supports",
+            "note": "T-0676 versionsbunden källpostgranskning med uttryckliga reservationer för den relevanta BI/11-posten."
+          },
+          {
+            "revision_id": "BIO-P-0001@3",
+            "basis_revision_id": "TR-23272b54cf084172527c7993@2",
+            "role": "supports",
+            "note": "Endast den egna gravregistertextens fältsemantik och tidigare missat ord; annan biografi återbrukas."
+          },
+          {
+            "revision_id": "BIO-P-0001@3",
+            "basis_revision_id": "TR-T0676-BI11-1@1",
+            "role": "supports",
+            "note": "T-0676 full tiofältsavskrift för den relevanta BI/11-posten; samma historiska källa, inte en ny oberoende evidensröst."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Ekträsk": [
+          {
+            "field": "markdown",
+            "term": "Ekträsk",
+            "term_source": "user_phrase",
+            "offset": 932,
+            "line": 9,
+            "occurrences": 1,
+            "excerpt": "fia\nAndersdotter. Han döptes 9 juni med åtta antecknade faddrar från byarna kring\nförsamlingen — Westerliden, Ekträsk och Buberget — och modern kyrktogs 26\njuli. Födelsenotisen anger bara församlingen som hemvist och hänvisar t",
+            "excerpt_start": 822
+          }
+        ],
+        "Buberget": [
+          {
+            "field": "markdown",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 944,
+            "line": 9,
+            "occurrences": 1,
+            "excerpt": "tter. Han döptes 9 juni med åtta antecknade faddrar från byarna kring\nförsamlingen — Westerliden, Ekträsk och Buberget — och modern kyrktogs 26\njuli. Födelsenotisen anger bara församlingen som hemvist och hänvisar till\nsida 93, ",
+            "excerpt_start": 834
+          }
+        ]
+      },
+      "registered_current_dependency": false,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "BIO-P-0028",
+      "kind": "narrative",
+      "current_version": 4,
+      "current_fields": {
+        "revision_id": "BIO-P-0028@4",
+        "subject_id": "P-0028",
+        "title": "Biografisk sammanfattning",
+        "markdown": "## Biografisk sammanfattning\n\nJohan Oscar Zingmark föddes 1861-05-28 i Botsmark i Sävar som son till landbonden Johan Peter Zingmark och hans första hustru Sara Sophia Pehrsdotter. Han döptes 4 juni med åtta namngivna vittnen ur byns bonde- och nybyggarfamiljer, och moderns ålder skrevs 32 år. Modern dog före faderns omgifte 1870, och Johan Oskar växte upp i en stor syskonskara: nio helsyskon, av dem två tvillingpar, och sex halvsyskon i faderns andra äktenskap ([C-0546](../citations/C-0546-savar-C3-johan-oscar-zingmark-fodd-1861.md), [C-0561](../citations/C-0561-savar-AI7b-botsmark-sida-672-zingmark.md), [C-0552](../citations/C-0552-savar-AI8b-botsmark-7-johan-peter-zingmark.md)).\n\nNitton år gammal lämnade han hemmet. Attesten skrevs i Sävar 7 oktober 1880 och han skrevs in som dräng i Ekträsk i Degerfors den 24 oktober. Han kom inte till en främmande socken: hans äldre syster Maria Elina var redan bokförd på samma sida, gift sedan året innan ([C-0547](../citations/C-0547-savar-B3-1880-johan-oskar-zingmark-till-degerfors.md), [C-0548](../citations/C-0548-degerfors-AI10b-ektrask-171-och-petistrask-163-zingmark.md)). Efter tre år flyttade han till Petisträsk, och den 1 juli 1888 gifte han sig med bonddottern Ida Sofia Andersdotter och skrevs samma dag som måg och snickare i hennes fars hushåll i Buberget. Det första barnet föddes i september ([C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md), [C-0549](../citations/C-0549-degerfors-AI10c-buberget-207-zingmark-mag.md)).\n\nUnder 1890-talet lämnade familjen svärfaderns gård. Var de bodde 1897 är inte utrett — sonen Oskar Alfreds födelsenotis hänvisar bara till församlingsbokens sida 263 — men i svärmoderns bouppteckning i augusti 1898 kallas han **sågverksförman**, och vid sekelskiftet var han sågställare i sågverkssamhället Rosinedahl, en nyckelbefattning vid en ångsåg. Där växte familjen till tio barn födda mellan 1888 och 1909 ([C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md), [C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md), [C-0004](../citations/C-0004-zingmark-hushall-folkrakning-1900.md), [C-0574](../citations/C-0574-degerfors-AIIa3-rosinedahl-zingmark-1900-1909.md)). Vilket bolag som ägde sågen går inte att avgöra: ingen arkivbildare med det ortnamnet är registrerad i den nationella arkivdatabasen ([C-0982](../citations/C-0982-rosinedal-katalogkontroll.md)).\n\nDen 15 november 1917 registrerades Johan Oskar i post 208 från Degerfors till Ytterhiske, med två i manköns- och tre i kvinnkönskolumnen. Fem följande namngivna poster 209–213 har vardera en mankönsmarkering: totalt sju och tre i dessa sex poster. Endast Johan Oskar namnges i 208; medföljarnas identifikation kräver hushållsboken. Där redovisas han som **hemmansägare**, men inflyttningspostens förkortning h.äg.m.f[?] är reserverad och fastställer inte exakt när yrkesbytet skedde ([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0908](../citations/C-0908-zingmark-inflyttning-umea-landsforsamling-1917.md)). Den 1 januari 1925 fördes gården och hushållet över till Umeå stad när staden utvidgades — en gränsändring, inte en flytt, vilket förklarar folkräkningens uppgift om inflyttning 1925 ([C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)). Vid folkräkningen1930 står ekonomiråtalen28[26?]—43 på hans rad, med reservation för första talet och utan fastställd skala. Indexet hade tidigare utvecklat dem till2 800 respektive43 000kronor. Han registreras med hustrun, sex hemmavarande barn och en dräng i hushållet ([C-0899](../citations/C-0899-folkrakning-1930-zingmark-umea-och-carlman-kalmar.md)). Gården var ett fungerande jordbruk med lejd arbetskraft: jordbrukselev och drängar skrevs på samma uppslag ännu på 1930-talet, och stadens eget stadsägeregister visar att innehavet omfattade sju stadsägor i Ytterhiske ([C-0981](../citations/C-0981-zingmarks-stadsagor-ytterhiske.md)). Stadens bok från 1925 redovisar enligt tidigare läsning ⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1 vid hans rad. I landsförsamlingens bok 1917–1925 placerar T-0676 den bleka, odaterade blyertsen `⅛ mtl[?] …` vid hans rad 12 och `11/64 mtl[?] … N:r 1[?]` på Idas rad 13. Dessa anteckningar daterar inte förvärv eller arv och fastställer inte personligt ägande ([C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md)). En avvikelse består: kyrkoboken skriver `Stad äg. 1258`, ett nummer som inte finns bland registrets sju. Siffran är omläst i full upplösning och är en entydig femma, så avvikelsen bevaras i stället för att skrivas bort — de två bokförda uppgifterna kommer dessutom från samma pastorsämbete och är inte oberoende av varandra.\n\nHan dog den 9 april 1935, sjuttiotre år gammal, enligt dödskolumnen på uppslag 1839 i Umeå stads församlingsbok. Dödsorsak, begravning och gravplats är inte kända; dödboken för dessa år saknar digital bild. Gården gick inte ur släkten: hustrun Ida Sofia skrevs därefter `Hem.äg. änka` med samma jordinnehav till sin död 1944, och sonen Ludvig Emanuel stod kvar som hemmansägare på samma uppslag ([C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md), [C-0951](../citations/C-0951-ida-sofia-zingmark-dod-1944.md)).\n\nTvå källkritiska förhållanden bär hela bilden. För det första: den tidigare sammanblandningen med Lundström-sonen Johan August Johansson är avvisad; den mannen stod kvar i Sävar när Johan Oskar redan var i Degerfors ([C-0550](../citations/C-0550-omlasning-johan-oskar-zingmark-identitet-avvisad.md)). För det andra: folkräkningsbladen 1890, 1900 och 1930 bär tryckta huvuden som säger `Utdrag ur Husförhörslängden` respektive `Utdrag ur Församlingsboken`. De är alltså utdrag ur just de kyrkoböcker som i övrigt läses här, och deras överensstämmelse med dem är kontinuitet, inte oberoende bekräftelse. Deras eget värde ligger i sina egna kolumner — yrke, inkomst, förmögenhet — som kyrkoboken saknar (A-5446).\n\nÖppna materiella frågor och källvägar finns i [forskningsprofilen](../research-profiles/P-0028.md).\n\n",
+        "object_id": "BIO-P-0028",
+        "version": 4,
+        "kind": "narrative",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "T-0676 rootgodkänd individuell följdrättelse av Umeå 2284: Tar bort felaktig tid-/äganderättsslutsats ur just C-0907; C-0916:s äldre egna läsning bevaras som separat underlag.",
+        "caveat": "\nT-0675 exaktaktuell textkopia rättad,samma källgrupp;äldreversion bevarad.",
+        "origins": [
+          {
+            "revision_id": "BIO-P-0028@4",
+            "unit_id": "426b68cdbaa7e034af529ecb288ff9cb0f7069ef500a4321fab5b8a31b5d804d",
+            "coverage": "complete",
+            "note": "Återanvänt underlag, inte ett nytt oberoende vittnesmål.",
+            "document_path": "genealogy/people/P-0028-johan-oskar-zingmark.md",
+            "start_line": 241,
+            "end_line": 256
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "AUDIT-T0675-UMEA-31@1",
+            "role": "derived_from",
+            "note": "Egen källpost omprövad,samma historiska evidensröst."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "AUDIT-T0676-10@1",
+            "role": "supports",
+            "note": "Versionsbunden granskning av Umeå 2284 med reservationer; ingen extra oberoende röst."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "AUDIT-T0676-11@1",
+            "role": "supports",
+            "note": "T-0676 versionsbunden källpostgranskning med uttryckliga reservationer för den relevanta BI/11-posten."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "AUDIT-T0676-16@1",
+            "role": "supports",
+            "note": "T-0676 versionsbunden källpostgranskning med uttryckliga reservationer för den relevanta BI/11-posten."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "AUDIT-T0676-1@1",
+            "role": "supports",
+            "note": "T-0676 versionsbunden källpostgranskning med uttryckliga reservationer för den relevanta BI/11-posten."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "AUDIT-T0676-2@1",
+            "role": "supports",
+            "note": "T-0676 versionsbunden källpostgranskning med uttryckliga reservationer för den relevanta BI/11-posten."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "AUDIT-T0676-34@1",
+            "role": "supports",
+            "note": "T-0676 versionsbunden källpostgranskning med uttryckliga reservationer för den relevanta BI/11-posten."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "AUDIT-T0676-43@1",
+            "role": "supports",
+            "note": "T-0676 versionsbunden källpostgranskning med uttryckliga reservationer för den relevanta BI/11-posten."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "TR-T0676-BI11-11@1",
+            "role": "supports",
+            "note": "T-0676 full tiofältsavskrift för den relevanta BI/11-posten; samma historiska källa, inte en ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "TR-T0676-BI11-16@1",
+            "role": "supports",
+            "note": "T-0676 full tiofältsavskrift för den relevanta BI/11-posten; samma historiska källa, inte en ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "TR-T0676-BI11-1@1",
+            "role": "supports",
+            "note": "T-0676 full tiofältsavskrift för den relevanta BI/11-posten; samma historiska källa, inte en ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "TR-T0676-BI11-2@1",
+            "role": "supports",
+            "note": "T-0676 full tiofältsavskrift för den relevanta BI/11-posten; samma historiska källa, inte en ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "TR-T0676-BI11-34@1",
+            "role": "supports",
+            "note": "T-0676 full tiofältsavskrift för den relevanta BI/11-posten; samma historiska källa, inte en ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "TR-T0676-BI11-43@1",
+            "role": "supports",
+            "note": "T-0676 full tiofältsavskrift för den relevanta BI/11-posten; samma historiska källa, inte en ny oberoende evidensröst."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "TR-T0676-UMEA2284-r12@1",
+            "role": "supports",
+            "note": "Precist versionsbundet underlag för godkänd fälträttelse; samma historiska källa där bokkedjan återbrukas."
+          },
+          {
+            "revision_id": "BIO-P-0028@4",
+            "basis_revision_id": "TR-T0676-UMEA2284-r13@1",
+            "role": "supports",
+            "note": "Precist versionsbundet underlag för godkänd fälträttelse; samma historiska källa där bokkedjan återbrukas."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Ekträsk": [
+          {
+            "field": "markdown",
+            "term": "Ekträsk",
+            "term_source": "user_phrase",
+            "offset": 798,
+            "line": 5,
+            "occurrences": 1,
+            "excerpt": ").\n\nNitton år gammal lämnade han hemmet. Attesten skrevs i Sävar 7 oktober 1880 och han skrevs in som dräng i Ekträsk i Degerfors den 24 oktober. Han kom inte till en främmande socken: hans äldre syster Maria Elina var redan bo",
+            "excerpt_start": 688
+          }
+        ],
+        "Buberget": [
+          {
+            "field": "markdown",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 1316,
+            "line": 5,
+            "occurrences": 1,
+            "excerpt": " sig med bonddottern Ida Sofia Andersdotter och skrevs samma dag som måg och snickare i hennes fars hushåll i Buberget. Det första barnet föddes i september ([C-0061](../citations/C-0061-johan-oskar-ida-sofia-vigsel-1888.md), [C",
+            "excerpt_start": 1206
+          }
+        ]
+      },
+      "registered_current_dependency": false,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "F-P-0028-occupation-documented_chain",
+      "kind": "fact",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "F-P-0028-occupation-documented_chain@1",
+        "subject_id": "P-0028",
+        "property": "occupation",
+        "value_type": "structured",
+        "value_json": "[{\"context\":\"Ekträsk och Petisträsk 1880–1888\",\"role\":\"dräng\"},{\"context\":\"vigsel 1888 och Buberget 1890\",\"role\":\"snickare\"},{\"context\":\"sonens födelsepost 1897\",\"role\":\"arbetare\"},{\"context\":\"bouppteckning 1898-08-23\",\"role\":\"sågverksförman\"},{\"context\":\"Rosinedahl 1900–1917\",\"role\":\"sågställare\"},{\"context\":\"Ytterhiske från inskrivningen 1917 till döden 1935\",\"role\":\"hemmansägare\"}]",
+        "object_id": "F-P-0028-occupation-documented_chain",
+        "version": 1,
+        "kind": "fact",
+        "disposition": "accepted",
+        "evidence_status": "CORROBORATED",
+        "rationale": "Uttryckligt befintligt personunderlag förs över med samma sakliga gränser.",
+        "caveat": "Källbundna titlar, inga automatiska obrutna anställningar eller arbetsgivare. Bondeson 1880 är familjeställning. Titeln sågverksförman dateras enbart till handlingen 1898.",
+        "origins": [
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "unit_id": "07e46dbf8909ee0a0aaa9657179a4e1c452433ea69406124863302e9e2865cca",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/people/P-0028-johan-oskar-zingmark.md",
+            "start_line": 45,
+            "end_line": 45
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "unit_id": "aad14c01bb4175f463037161e748b96851abd7fd7eda82a4c2b803843b9f4d1c",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+            "document_path": "genealogy/people/P-0028-johan-oskar-zingmark.md",
+            "start_line": 45,
+            "end_line": 45
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "unit_id": "bcb94666a795cc5cb5706bde97f664e8ff59a4230cbc1e7d7e8cb2b85eaf9c77",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+            "document_path": "genealogy/people/P-0028-johan-oskar-zingmark.md",
+            "start_line": 56,
+            "end_line": 56
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "unit_id": "5b06e4f734e8b37ccbdf8e72042d833a4e29fa2d8fd1da3b9871a2584ff69e9c",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+            "document_path": "genealogy/people/P-0028-johan-oskar-zingmark.md",
+            "start_line": 67,
+            "end_line": 67
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "unit_id": "4611918b93fd6c91918b8adb66a695bfaf0e40ec1d0f56654598ba4fb02c8c87",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+            "document_path": "genealogy/people/P-0028-johan-oskar-zingmark.md",
+            "start_line": 68,
+            "end_line": 68
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "unit_id": "e4764301baaf104f5b8e84cbf36c7acee39d35950242926c51fc8d9b2ce6cec4",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+            "document_path": "genealogy/people/P-0028-johan-oskar-zingmark.md",
+            "start_line": 71,
+            "end_line": 71
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "unit_id": "df2ac489bf4af5711acb67467965b1425a26382ddda525a8307415333d3bf5da",
+            "coverage": "partial",
+            "note": "Hela den aktuella raden inklusive förbehåll representeras av målen.",
+            "document_path": "genealogy/people/P-0028-johan-oskar-zingmark.md",
+            "start_line": 80,
+            "end_line": 80
+          }
+        ],
+        "evidence": [
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "basis_revision_id": "R-1eeca656bbb02a43d4c6f6ca@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "basis_revision_id": "R-2dccc2e86bea25bef526f55d@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "basis_revision_id": "R-340d89b7be8bb89cf4a63828@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "basis_revision_id": "R-510e9de3e16243afcce92e2e@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "basis_revision_id": "R-6c6fe5c29cf040561d4e5324@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "basis_revision_id": "R-ac9bd9bbd4cf62fd811703f3@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "basis_revision_id": "R-b179a3e6573cc425584d2dfd@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          },
+          {
+            "revision_id": "F-P-0028-occupation-documented_chain@1",
+            "basis_revision_id": "R-b36ce03d2be43bc358db373a@1",
+            "role": "supports",
+            "note": "Samma bevarade underlag; ingen extra oberoende evidensröst."
+          }
+        ],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Ekträsk": [
+          {
+            "field": "value_json",
+            "term": "Ekträsk",
+            "term_source": "user_phrase",
+            "offset": 13,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "[{\"context\":\"Ekträsk och Petisträsk 1880–1888\",\"role\":\"dräng\"},{\"context\":\"vigsel 1888 och Buberget 1890\",\"role\":\"snickare\"},{\"con",
+            "excerpt_start": 0
+          }
+        ],
+        "Buberget": [
+          {
+            "field": "value_json",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 91,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "[{\"context\":\"Ekträsk och Petisträsk 1880–1888\",\"role\":\"dräng\"},{\"context\":\"vigsel 1888 och Buberget 1890\",\"role\":\"snickare\"},{\"context\":\"sonens födelsepost 1897\",\"role\":\"arbetare\"},{\"context\":\"bouppteckning 18",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": true,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "KEY-P-0001-6dd7c7c2f78e",
+      "kind": "assessment",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "KEY-P-0001-6dd7c7c2f78e@1",
+        "subject_id": "P-0001",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "| Faddrarna 1897: Jon. P. Hansson, Nils Nilsson, Alb. Wahlund (Westerliden), Erika Eriksdotter, Joh. Lindberg (Ekträsk), Alma Forsberg[?], K. M. Andersson (Buberget[?]), Lia[?] Karlsson[?] | Föräldrarnas sociala nätverk i Degerfors 1897; ingång till grannhushåll och möjliga släktband. | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Tre namn- eller ortformer är läsosäkra. Fadderskap är inte belagt släktskap. |\n",
+        "object_id": "KEY-P-0001-6dd7c7c2f78e",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akten och profilen är lästa, inklusive historiken och sena rättelser. 28/5 ersätter faderns äldre 25/5 och 19/5; hänvisningen är 93.3, inte 263.3. Degerfors är födelseförsamling och Rosinedahl belagt först 1900. Kyrkobokföring 1917–1924 är inte liktydig med fysisk vistelse under Luleåstudierna. Norsjö/Bastuträsk 1924–1930 och Umeå 1950–1963 saknar lästa hushållsrader. Dödsförsamlingens två former hålls isär. Äldre biografisk uppgift om bestämd bouppteckningsjurisdiktion kvalificeras av profilens aktuella KP-06: behörigt arkiv är ännu inte fastställt. Faddrarnas åtta textposter omfattar dessutom två uttryckligen omnämnda men namnlösa hustrur; inget säkert totalantal åtta personer härleds. Aktens uppgift om 17 dagar mellan födelse och dop används inte; de uttryckliga datumen bevaras. Historiska bedömningar ger inga nya aktuella fakta.",
+        "origins": [
+          {
+            "revision_id": "KEY-P-0001-6dd7c7c2f78e@1",
+            "unit_id": "6dd7c7c2f78e4e907f144a9d1cd2a7c3a31cffd8539fbf156003e011eb125954",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/research-profiles/P-0001.md",
+            "start_line": 86,
+            "end_line": 86
+          }
+        ],
+        "evidence": [],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Forsberg": [
+          {
+            "field": "body",
+            "term": "Forsberg",
+            "term_source": "user_phrase",
+            "offset": 126,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": ": Jon. P. Hansson, Nils Nilsson, Alb. Wahlund (Westerliden), Erika Eriksdotter, Joh. Lindberg (Ekträsk), Alma Forsberg[?], K. M. Andersson (Buberget[?]), Lia[?] Karlsson[?] | Föräldrarnas sociala nätverk i Degerfors 1897; ingång",
+            "excerpt_start": 16
+          }
+        ],
+        "Karlss": [
+          {
+            "field": "body",
+            "term": "Karlss",
+            "term_source": "user_phrase",
+            "offset": 177,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "erliden), Erika Eriksdotter, Joh. Lindberg (Ekträsk), Alma Forsberg[?], K. M. Andersson (Buberget[?]), Lia[?] Karlsson[?] | Föräldrarnas sociala nätverk i Degerfors 1897; ingång till grannhushåll och möjliga släktband. | [C-00",
+            "excerpt_start": 67
+          }
+        ],
+        "Wahlund": [
+          {
+            "field": "body",
+            "term": "Wahlund",
+            "term_source": "user_phrase",
+            "offset": 54,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| Faddrarna 1897: Jon. P. Hansson, Nils Nilsson, Alb. Wahlund (Westerliden), Erika Eriksdotter, Joh. Lindberg (Ekträsk), Alma Forsberg[?], K. M. Andersson (Buberget[?]), L",
+            "excerpt_start": 0
+          }
+        ],
+        "Ekträsk": [
+          {
+            "field": "body",
+            "term": "Ekträsk",
+            "term_source": "user_phrase",
+            "offset": 111,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": " Faddrarna 1897: Jon. P. Hansson, Nils Nilsson, Alb. Wahlund (Westerliden), Erika Eriksdotter, Joh. Lindberg (Ekträsk), Alma Forsberg[?], K. M. Andersson (Buberget[?]), Lia[?] Karlsson[?] | Föräldrarnas sociala nätverk i Degerf",
+            "excerpt_start": 1
+          }
+        ],
+        "Buberget": [
+          {
+            "field": "body",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 156,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "n, Alb. Wahlund (Westerliden), Erika Eriksdotter, Joh. Lindberg (Ekträsk), Alma Forsberg[?], K. M. Andersson (Buberget[?]), Lia[?] Karlsson[?] | Föräldrarnas sociala nätverk i Degerfors 1897; ingång till grannhushåll och möjliga",
+            "excerpt_start": 46
+          }
+        ]
+      },
+      "registered_current_dependency": false,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "KEY-P-0028-3c9802a9d632",
+      "kind": "assessment",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "KEY-P-0028-3c9802a9d632@1",
+        "subject_id": "P-0028",
+        "criteria": "legacy_search_key",
+        "outcome": "recorded",
+        "body": "| Församlingsbokens hänvisning `263.3`, 1897 | Oläst hushållsfolio mellan Buberget och Rosinedahl; skulle datera flytten och yrkesbytet. | [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md) | Uppdelningen i sida 263 och hushåll 3 följer seriens vanliga form men är inte verifierad. |\n",
+        "object_id": "KEY-P-0028-3c9802a9d632",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akten och profilen är lästa, inklusive T-0154 och senare rättelser. Pilotens accepterade personidentitet och särskiljandet från P-0424 återbrukas. Förd vidare födelse-/vigseluppgift och folkräkningsutdrag ger inte nya oberoende röster. 1258 mot registrets 1268, barnens datumvarianter, Hildurs uppgivna dotterskap och äldre läsningar bevaras. Livsbildens underkända PK-08 ändrar inte personidentiteten.",
+        "origins": [
+          {
+            "revision_id": "KEY-P-0028-3c9802a9d632@1",
+            "unit_id": "3c9802a9d632f4ee7a7fca71f29fb8afdfdbed429de2db784dcecb1847e411d3",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/research-profiles/P-0028.md",
+            "start_line": 76,
+            "end_line": 76
+          }
+        ],
+        "evidence": [],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Buberget": [
+          {
+            "field": "body",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 74,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| Församlingsbokens hänvisning `263.3`, 1897 | Oläst hushållsfolio mellan Buberget och Rosinedahl; skulle datera flytten och yrkesbytet. | [C-0002](../citations/C-0002-oskar-alfred-fodelse-189",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": false,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "P-0028/Q-04",
+      "kind": "question",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "P-0028/Q-04@1",
+        "subject_id": "P-0028",
+        "title": "Q-04: Var bodde familjen mellan Buberget och Rosinedahl, och när skedde övergången till sågverksarbetet?",
+        "outcome": "ÖPPEN.",
+        "body": "### Q-04: Var bodde familjen mellan Buberget och Rosinedahl, och när skedde övergången till sågverksarbetet?\n\n- Fråga och betydelse: BO/ARB/EKO. Ny fråga 2026-09-08. Mellan folkräkningen 1890, där han är snickare och måg i svärfaderns hushåll i Buberget, och folkräkningen 1900, där han är sågställare i Rosinedahl, ligger tio år utan läst hushållsrad. Övergången från måg på en bondgård till kvalificerad sågverksbefattning är den enskilt största förändringen i hans yrkesliv och saknar datum.\n- Känt underlag: sonen Oskar Alfreds födelsenotis 1897 hänvisar familjen till församlingsbokens `263.3` (A-5445), och han skrivs där `arbetare` ([C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md)). I augusti 1898 kallas han **sågverksförman** ([C-0485](../citations/C-0485-degerfors-AIIa37-lotta-sofia-bouppteckning.md)). Svärmodern dog 1898-05-25, vilket kan ha utlöst en flytt från gården.\n- Alternativ och motprövning: familjen kan ha bott kvar i Buberget till svärmoderns död, ha flyttat till Rosinedahl redan på 1890-talet, eller ha bott på en tredje plats. Hushållsfolion 263 avgör; utflyttningen från s. 207 ska också synas i A I/10c:s egen flyttkolumn.\n- Källvägar: KP-05.\n- Slutsatsläge: ÖPPEN.\n- Argument och konflikter: uppgiften `263.3` är avläst men inte tolkad mot uppslaget; sida och hushållsnummer följer seriens vanliga form men är inte verifierade. Ingen slutsats om bostadsort 1890–1900 dras utan den lästa folion.\n- Påverkade personer/påståenden: A-0162, A-2495, A-5445; barnen födda 1892, 1894, 1897 och 1899 ([P-0032](../people/P-0032-anders-valdemar-zingmark.md), [P-0033](../people/P-0033-johan-magnus-zingmark.md), [P-0001](../people/P-0001-oskar-alfred-zingmark.md), [P-0034](../people/P-0034-petrus-nikolaus-zingmark.md)) och [P-0029](../people/P-0029-ida-sofia-andersdotter.md).\n\n",
+        "object_id": "P-0028/Q-04",
+        "version": 1,
+        "kind": "question",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Frågan och dess befintliga utfall återanvänds. Ingen ny körplan skapas i datamodellen.",
+        "caveat": "",
+        "origins": [
+          {
+            "revision_id": "P-0028/Q-04@1",
+            "unit_id": "81813c1ac8568f0cf936391708c3379551f44b7d0e370aa7d8422d9b3f52da13",
+            "coverage": "complete",
+            "note": "Återanvänt underlag, inte ett nytt oberoende vittnesmål.",
+            "document_path": "genealogy/research-profiles/P-0028.md",
+            "start_line": 134,
+            "end_line": 143
+          }
+        ],
+        "evidence": [],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Buberget": [
+          {
+            "field": "title",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 32,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "Q-04: Var bodde familjen mellan Buberget och Rosinedahl, och när skedde övergången till sågverksarbetet?",
+            "excerpt_start": 0
+          },
+          {
+            "field": "body",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 36,
+            "line": 1,
+            "occurrences": 3,
+            "excerpt": "### Q-04: Var bodde familjen mellan Buberget och Rosinedahl, och när skedde övergången till sågverksarbetet?\n\n- Fråga och betydelse: BO/ARB/EKO. Ny fråga ",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": false,
+      "c0002_literal_or_basis_in_current": true
+    },
+    {
+      "object_id": "THEME-P-0028-BO",
+      "kind": "assessment",
+      "current_version": 1,
+      "current_fields": {
+        "revision_id": "THEME-P-0028-BO@1",
+        "subject_id": "P-0028",
+        "criteria": "legacy_theme/BO",
+        "outcome": "ÖPPET",
+        "body": "| BO | ÖPPET | Botsmark → Ekträsk 1880 → Petisträsk 1883 → Buberget 1888 → Rosinedahl senast 1900 → Ytterhiske N:o 2 1917-11-15 → Umeå stad 1925-01-01 → uppslag 1839 till döden 1935-04-09, allt reciprokt belagt. Kvarstående lucka: 1890-talet. Sonens födelsenotis 1897 hänvisar till församlingsbokens `263.3`, en oläst hushållsfolio mellan Buberget och Rosinedahl; när familjen lämnade svärfaderns gård är därför inte daterat. Den tidigare bedömningen \"ingen materiell lucka återstår\" gällde 1909–1935 och tog inte hänsyn till 1890-talet. | KP-01, KP-05, [C-0002](../citations/C-0002-oskar-alfred-fodelse-1897.md), [C-0907](../citations/C-0907-zingmark-ytterhiske-umea-landsforsamling-1917-1925.md), [C-0916](../citations/C-0916-zingmark-ytterhiske-umea-stad-1925-1941.md) |\n",
+        "object_id": "THEME-P-0028-BO",
+        "version": 1,
+        "kind": "assessment",
+        "disposition": "recorded",
+        "evidence_status": null,
+        "rationale": "Befintlig personbunden forskningskunskap med ordagranna kriterier, omfång och begränsningar; Wotan äger utförandet.",
+        "caveat": "Hela akten och profilen är lästa, inklusive T-0154 och senare rättelser. Pilotens accepterade personidentitet och särskiljandet från P-0424 återbrukas. Förd vidare födelse-/vigseluppgift och folkräkningsutdrag ger inte nya oberoende röster. 1258 mot registrets 1268, barnens datumvarianter, Hildurs uppgivna dotterskap och äldre läsningar bevaras. Livsbildens underkända PK-08 ändrar inte personidentiteten.",
+        "origins": [
+          {
+            "revision_id": "THEME-P-0028-BO@1",
+            "unit_id": "71eff3eebfefeac35be5fae905a695e1be08ddb0f805473f0219aa152b69416e",
+            "coverage": "complete",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst.",
+            "document_path": "genealogy/research-profiles/P-0028.md",
+            "start_line": 92,
+            "end_line": 92
+          }
+        ],
+        "evidence": [],
+        "pending_reviews": []
+      },
+      "variant_hits": {
+        "Ekträsk": [
+          {
+            "field": "body",
+            "term": "Ekträsk",
+            "term_source": "user_phrase",
+            "offset": 26,
+            "line": 1,
+            "occurrences": 1,
+            "excerpt": "| BO | ÖPPET | Botsmark → Ekträsk 1880 → Petisträsk 1883 → Buberget 1888 → Rosinedahl senast 1900 → Ytterhiske N:o 2 1917-11-15 → Umeå stad 192",
+            "excerpt_start": 0
+          }
+        ],
+        "Buberget": [
+          {
+            "field": "body",
+            "term": "Buberget",
+            "term_source": "user_phrase",
+            "offset": 59,
+            "line": 1,
+            "occurrences": 2,
+            "excerpt": "| BO | ÖPPET | Botsmark → Ekträsk 1880 → Petisträsk 1883 → Buberget 1888 → Rosinedahl senast 1900 → Ytterhiske N:o 2 1917-11-15 → Umeå stad 1925-01-01 → uppslag 1839 till döden ",
+            "excerpt_start": 0
+          }
+        ]
+      },
+      "registered_current_dependency": false,
+      "c0002_literal_or_basis_in_current": true
+    }
+  ],
+  "screened_out_person_id_variant_hits": [
+    {
+      "object_id": "EP-E-baptism-P-0029-P-0089-witness",
+      "variants": [
+        "Forsberg"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "E-registered_arrival-P-0028-1880",
+      "variants": [
+        "Ekträsk"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "E-registered_arrival-P-0028-Petistrask1883",
+      "variants": [
+        "Ekträsk"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "F-P-0028-residence-documented_chain",
+      "variants": [
+        "Buberget",
+        "Ekträsk"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0028-P-0437",
+      "variants": [
+        "Ekträsk"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "RESEARCH-P-0028-9d76f0343410",
+      "variants": [
+        "Buberget",
+        "Ekträsk"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "THEME-P-0028-REL",
+      "variants": [
+        "Ekträsk"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "BIO-P-0029",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "E-birth-P-0029",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "E-registered_arrival-P-0028-Buberget1888",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "EP-E-registered_arrival-P-0028-Buberget1888-P-0028-principal",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "F-P-0029-occupation-documented",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "F-P-0029-reported_family_context-children",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "F-P-0029-residence-documented_chain",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "KEY-P-0029-ac31125a209c",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "O-P-0028-children_report",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "O-P-0029-census1870",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "O-P-0029-family1890",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-parent-P-0065-P-0029",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0029-P-0067",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0029-P-0068",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0029-P-0070",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0029-P-0071",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0029-P-0072",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0029-P-0073",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0029-P-0086",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "REL-sibling-P-0029-P-0087",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "RESEARCH-P-0029-9d76f0343410",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "THEME-P-0028-MIL",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "THEME-P-0029-BO",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    },
+    {
+      "object_id": "THEME-P-0029-EKO",
+      "variants": [
+        "Buberget"
+      ],
+      "reason": "Person-ID match and variant, but no C-0002 identifier, record basis or registered dependency in full current payload"
+    }
+  ],
+  "counts": {
+    "own_witness_mentions": 10,
+    "own_witness_places": 10,
+    "related_current_carriers": 7,
+    "screened_out_person_id_variant_hits": 31,
+    "query_hits_by_term_included": {
+      "Forsberg": 2,
+      "Karlss": 2,
+      "Karlsd": 0,
+      "Wahlund": 2,
+      "Ekträsk": 6,
+      "Buberget": 9
+    }
+  },
+  "gaps": [
+    "Literal Karlsd has no current query hit among the scoped P-0001/P-0028/P-0029 carriers; this does not decide the new reading.",
+    "Variant-bearing multi-source current prose is only a candidate when it carries explicit C-0002 linkage; its individual sentence still needs field-level adjudication.",
+    "No identity, place, witness order or source interpretation is made here."
+  ],
+  "no_original_access": true,
+  "no_canonical_mutation": true
+}

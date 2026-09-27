@@ -1,0 +1,194 @@
+{
+  "task": "T-0677",
+  "reviewer": "Astra /root/c0004_control",
+  "status": "V3_REQUIRES_REVISION_DOCUMENTARY_ONLY",
+  "input": "genealogy2/verification/T-0677/c0751-other-current-impact-proposed-v3-20260925.json",
+  "input_sha256": "d448dfa893aabd330772ea7c03af1e2b96f2e2c7b17eaecb2b50821d3da752be",
+  "scope": {
+    "after_fields_read": 71,
+    "individual_dispositions_reviewed": 188,
+    "adoptions_reviewed": 11,
+    "new_keys_reviewed": 1,
+    "original_images_opened": false,
+    "canonical_mutation": false,
+    "new_identity_or_parentage_decision": false
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "objects": [
+        "RESEARCH-P-0481-9d76f0343410"
+      ],
+      "field": "body",
+      "finding": "Kvarvarande påståenden om kohortens enda icke-kyrkliga källväg och att året för fyllda 21 kan förskjutas av okänd födelsedag.",
+      "basis": "F-P-0481-source_interpretation-individual-limits: 1881 ger 1902 för fyllda 21; ingen faktisk inskrivning eller exklusiv källväg belagd.",
+      "recommendation": "Ersätt med aritmetisk sökprioritering utan faktisk inskrivning eller exklusivitet.",
+      "priority": "required"
+    },
+    {
+      "id": "F02",
+      "objects": [
+        "BIO-P-0482",
+        "RESEARCH-P-0482-9d76f0343410",
+        "RESEARCH-P-0480-9d76f0343410"
+      ],
+      "field": "markdown/body",
+      "finding": "BIO0482 säger efter tillägget om Per August fortfarande ett enda namn. RESEARCH0480 anger Karl Erik som ende barn med faderns namnled och hela uppkallningsunderlaget som ett namn. RESEARCH0482 behåller sju matchningar.",
+      "basis": "F-P-0482-source_interpretation-individual-limits; F-P-0437-family_hypothesis-naming.",
+      "recommendation": "Bevara möjliga Erik och August samt åtta möjliga namnledsmotsvarigheter; ingen uppkallningsavsikt.",
+      "priority": "required"
+    },
+    {
+      "id": "F03",
+      "objects": [
+        "RESEARCH-P-0483-9d76f0343410",
+        "ASSESSMENT-P-0483"
+      ],
+      "field": "body",
+      "finding": "RESEARCH behåller moderns 13/14-årsålder vid mormors död, sjutton år senare och namngiverskas hemsocken; ASSESSMENT-titeln anger uppkallad.",
+      "basis": "F-P-0483-source_interpretation-individual-limits@1: dödsintervallet/reserverad 1868-08-14 kan ge modern 12 år; inga exakta 17 år eller belagd uppkallning.",
+      "recommendation": "Återför samma dateringsreservation och namnlikhetsnivå även i titel och slutprosa.",
+      "priority": "required"
+    },
+    {
+      "id": "F04",
+      "objects": [
+        "RESEARCH-P-0486-9d76f0343410"
+      ],
+      "field": "body",
+      "finding": "Syskonens namngivare och den ende av namngivarna förutsätter uppkallning, medan samma text nekar belagd avsikt. Rudolf saknar motsvarighet i moderns släkt är bredare än äldre förebild.",
+      "basis": "F-P-0486-source_interpretation-individual-limits@1 har senare halvkusin Alvar Rudolf 1905 men ingen identifierad äldre förebild.",
+      "recommendation": "Använd möjliga namnmotsvarigheter; precisera att Rudolf saknar identifierad äldre förebild.",
+      "priority": "required"
+    },
+    {
+      "id": "F05",
+      "objects": [
+        "P-0485/Q-03"
+      ],
+      "field": "body",
+      "finding": "Retain lämnar utvandringen 1904 som automatisk uteslutning ur senare svenska källor och framtida Zingmark-namn som säker morbroderidentifikation.",
+      "basis": "F-P-0485-source_interpretation-individual-limits@1 motsäger båda slutsatserna uttryckligen.",
+      "recommendation": "Kräv individuell positiv personbrygga; varken utvandringsdatum eller efternamn avgör ensamt.",
+      "priority": "required"
+    },
+    {
+      "id": "F06",
+      "objects": [
+        "KEY-P-0480-c062789d705c"
+      ],
+      "field": "body",
+      "finding": "Retain behåller Spärrad/omläsning ger inget nytt trots den genomförda avgränsade kontrollen.",
+      "basis": "Låst C0751-utvinning och F-P-0480-source_assessment-available-renditions@1.",
+      "recommendation": "Bevara historisk upplösningsgräns utan generell omöjlighetsutsaga.",
+      "priority": "required"
+    },
+    {
+      "id": "F07",
+      "objects": [
+        "KEY-P-0437-fc39f1503715",
+        "KEY-P-0484-93a7c414ffee",
+        "KEY-P-0487-4d9edc5e19e7",
+        "KEY-P-0483-2827fc760608",
+        "KEY-P-0482-11d21a3924ec",
+        "KEY-P-0486-6ca70eefb98b",
+        "KEY-P-0481-83a1a1428889",
+        "KEY-P-0485-36ee794e035a",
+        "KEY-P-0488-35d897368fea"
+      ],
+      "field": "body",
+      "finding": "Ekträsk dateras 1881–1900 och nyckeln anges gemensam för elva personer; det kan läsas som belagd sammanhängande vistelse.",
+      "basis": "F-P-0437-family_context-degerfors-network och C0751 år 1900.",
+      "recommendation": "Precisera beläggår 1900; behåll eventuellt 1881–1900 endast uttryckligt sökfönster.",
+      "priority": "required"
+    },
+    {
+      "id": "F08",
+      "objects": [
+        "F-P-0484-identity_limits-ektrask1900",
+        "F-P-0487-identity_limits-ektrask1900",
+        "F-P-0483-identity_limits-ektrask1900",
+        "F-P-0482-identity_limits-ektrask1900",
+        "F-P-0486-identity_limits-ektrask1900",
+        "F-P-0481-identity_limits-ektrask1900",
+        "F-P-0485-identity_limits-ektrask1900",
+        "F-P-0488-identity_limits-ektrask1900"
+      ],
+      "field": "value_json.limitations/civil_status/access_limit",
+      "finding": "Ingen egen civilståndsuppgift och inga nya bilder öppnade är okvalificerade kvarvarande uppgifter efter egen civilkolumnkontroll.",
+      "basis": "Låst C0751 gapmatris: barnens Ogifta-kolumner har markeringar; rå markering är skild från ny normaliserad livshändelse.",
+      "recommendation": "Återge kolumn/markering eller kvalificera null; tidsbind äldre inga nya bilder till dess ursprungliga granskning.",
+      "priority": "required"
+    },
+    {
+      "id": "F09",
+      "objects": [
+        "KEY-P-0437-dc8259c33962",
+        "KEY-P-0480-db8b4ab8d60f",
+        "P-0437/Q-01",
+        "P-0480/Q-02"
+      ],
+      "field": "body/disposition",
+      "finding": "Äldre vigselfönster står bland retain-dispositioner trots separat vigselkandidat.",
+      "basis": "C0548 dokumentärt återbruk och marriage_input.",
+      "recommendation": "Ange delegerat till den separata vigseldeltan och kontrollera att merge faktiskt ersätter dessa fält; inget automatiskt retain.",
+      "priority": "required"
+    },
+    {
+      "id": "F10",
+      "objects": [
+        "THEME-P-0437-ARB",
+        "THEME-P-0484-ARB",
+        "THEME-P-0487-ARB",
+        "THEME-P-0483-ARB",
+        "THEME-P-0482-ARB",
+        "THEME-P-0486-ARB",
+        "THEME-P-0481-ARB",
+        "THEME-P-0485-ARB",
+        "THEME-P-0488-ARB"
+      ],
+      "field": "body",
+      "finding": "Inget eget yrke / läst nolla kan uttrycka mer än blank egen yrkescell.",
+      "basis": "Låst C0751 matris avser observerad blankhet.",
+      "recommendation": "Precisera ingen yrkesuppgift i egen cell, utan slutsats om faktiskt arbete.",
+      "priority": "precision"
+    },
+    {
+      "id": "F11",
+      "objects": [
+        "BIO-P-0437",
+        "RESEARCH-P-0437-9d76f0343410",
+        "BIO-P-0422"
+      ],
+      "field": "markdown/body",
+      "finding": "Kända kvarvarande fyra/fem-, fadern sist- och fysisk dödsplatsfraser behöver kontrolleras i v4 även i RESEARCH437, inte bara BIO.",
+      "basis": "F-P-0437-family_context-degerfors-network och ID-P-0422-C0584-death: hemort skild från faktisk dödsplats.",
+      "recommendation": "Kontrollera v4 som root redan begärt; gör ingen ny källprövning.",
+      "priority": "required"
+    }
+  ],
+  "adoption_review": {
+    "result": "PASS bounded source adoption and all eleven row mappings",
+    "row_map": {
+      "P-0480": "77:last6-1",
+      "P-0437": "77:last6-2",
+      "P-0481": "77:last6-3",
+      "P-0482": "77:last6-4",
+      "P-0483": "77:last6-5",
+      "P-0484": "77:last6-6",
+      "P-0485": "78:1",
+      "P-0486": "78:2",
+      "P-0487": "78:3",
+      "P-0488": "78:4",
+      "P-0422": "78:6"
+    },
+    "evidence": "TR-T0677-C0751-consolidated-control@1; own row limited in each note; 169=36 reuse+133 controlled; other rows context",
+    "limits": "No new contract/identity/life status approval."
+  },
+  "new_key_review": {
+    "object_id": "KEY-T0677-P0480-Olof-Reinhold-context",
+    "result": "PASS candidate only",
+    "basis": "F-P-0422-household_context-Olof-Reinhold@1 C0585 folio601 row25 and C0751 page78 row7 separately referenced with context role. Raw14 is not independently normalized; no P creation or father relation. T0619 existing owner preserved."
+  },
+  "conclusion": "V3 cannot be approved as a contradiction-free final state. Findings are documentary reconciliations within already-decided domain; no additional source reading required. Review v4 final after texts and explicitly resolved retain dispositions."
+}

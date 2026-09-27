@@ -1,0 +1,119 @@
+{
+  "task": "T-0677",
+  "stage": "post-lock Astra comparison proposal",
+  "at": "2026-09-24T11:17:19.709822+00:00",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0677/c0002-first-control-20260924.json",
+      "sha256": "6b5c7bf76a365e777218414b290349cfaf68847c791284b59445a09382b4fc0f"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0002-root-second-control-20260924.json",
+      "sha256": "e6ac1bea21e8a3adcb4bca216c321f8b925e5536fd506f2eabc0d9e54aa1a837"
+    }
+  ],
+  "image": {
+    "path": "genealogy/media/C-0002-riksarkivet-SE-HLA-1010028-C7-bild-85-sida-82.jpg",
+    "sha256": "b5a72041a7e7b93a98394bac57d9d861bc8c049824aed95582d7337031cb2ae4"
+  },
+  "method": "FIRST and SECOND read only after their locks; comparison is not a third independent reading. Same original and derived crops only. Both locked files unchanged. No other original, canonical model, identity normalization or relationship assignment.",
+  "headers": [
+    {
+      "column": 1,
+      "proposed": "Inskrifningens löpande årsnummer.",
+      "basis": "Rotated enlarged original shows års directly before nummer. FIRST omitted års; SECOND correct."
+    },
+    {
+      "column": 15,
+      "proposed": "Sida i förs. boken el. i boken öfver obefintl.",
+      "basis": "Rotated enlarged original visibly has öfver, with separate e and r before next word, no abbreviation dot after v. FIRST öfver supported; SECOND öfv. should be corrected."
+    },
+    {
+      "column": 21,
+      "proposed": "Särskilda anteckningar, såsom om modrens nedkomstort (om annan än församlingen), inkomna och afsända attester m. m.",
+      "basis": "Original enlarged header clearly nedkomstort. FIRST medkonstort and församligen are transcription errors; SECOND supported."
+    }
+  ],
+  "agreed_fields": {
+    "father_birth_raw": "61 28/5",
+    "reference_raw": "93.3",
+    "boundary": "Own nr 86 between 85 and 87 on both halves; the small insertion and bottom line belong to own post."
+  },
+  "reference_interpretation": {
+    "supported": "Printed field is a page reference: Sida i förs. boken el. i boken öfver obefintl. Raw 93.3 is preserved.",
+    "unsupported": [
+      "The heading does not establish .3 as household 3.",
+      "The heading does not itself identify a particular volume."
+    ],
+    "decision": "Do not normalize to household number or infer a volume from the suffix."
+  },
+  "witness_comparison": [
+    {
+      "segment": "Jon. P. Hansson / Nils Nilsson / spouse-like abbreviation",
+      "proposal": "Jon.[?] P. Hansson [å hu?] Dfs, Nils Nilsson [terminal y.-like mark?]; [å hu?] ib.",
+      "basis": "First o/a remains compressed; abbreviation between Hansson and Dfs visibly has separate initial small stroke and high h-like stroke but no secure expanded wording. Tiny terminal mark after Nilsson retained rather than removed.",
+      "certainty": "reserved"
+    },
+    {
+      "segment": "Alb./Ab. Wahlund Westerliden Erika Eriksd:r",
+      "proposal": "Alb.[?] Wahlund Westerliden Erika Eriksd:r Dfs",
+      "basis": "Two tall strokes after initial A favour Alb. over FIRST Ab.; stroke attachment remains compressed. Westerliden shows tall l after Wester and dotted short i before d-like loop; FIRST alternative was already only reserved. Erika and Eriksd:r are consistent across readings; colon/abbreviation preserved.",
+      "certainty": "Alb. reserved; Westerliden supported"
+    },
+    {
+      "segment": "Joh. Lindberg / Ekträsk",
+      "proposal": "Joh. Lindberg Ekträsk[?]",
+      "basis": "After initial Ek the visible tall crossed stroke can be t immediately; a separate intervening e in FIRST Eketräsk is not established. Retain reservation rather than assert a normalized place.",
+      "certainty": "reserved"
+    },
+    {
+      "segment": "Anna versus Alma",
+      "proposal": "Alma",
+      "basis": "After initial A is a distinctly high ascending stroke with lower return, supporting l; following group forms m then final a. Two equally low n groups expected for Anna are not visible. SECOND Alma preferable.",
+      "certainty": "supported"
+    },
+    {
+      "segment": "Svensson versus Forsberg",
+      "proposal": "Forsberg",
+      "basis": "Initial has F-like high loop/cross-stroke; after o/r/s group a b-like rising loop appears and end has long descending g. This is incompatible with FIRST provisional Svensson ending -sson. SECOND Forsberg preferable.",
+      "certainty": "supported"
+    },
+    {
+      "segment": "H. M. versus K. M.",
+      "proposal": "K.[?] M. Andersson",
+      "basis": "First capital has angled right strokes more consistent with K than H horizontal joining bar, but cramped letter is crossed by nearby descending strokes. SECOND K preferred with retained reservation. M and Andersson unchanged.",
+      "certainty": "initial K reserved"
+    },
+    {
+      "segment": "Luberget versus Buberget",
+      "proposal": "Buberget[?]",
+      "basis": "Large initial shows upper loop and returning lower sweep, favouring B over FIRST L; rest of string resembles uberget. Same-position attachment to descending insertion stroke hampers certainty. No external place knowledge used.",
+      "certainty": "reserved"
+    },
+    {
+      "segment": "Inserted small line: Lisa Kurey... versus L:a/E:a Karlsd:r",
+      "proposal": "[L:a/E:a?] Karlsd:r[?] ib.",
+      "basis": "First group consists of one high initial plus short a and a dot-like mark; a full separate Lisa sequence is not established. In next word, initial K-like tall stroke followed by ar, tall l, s-like join and terminal d:r is more plausible than FIRST approximate Kurey. Because descender from Lindberg and lower-line tall strokes overlap, retain SECOND reservations.",
+      "certainty": "reserved; FIRST Lisa Kurey proposal not retained"
+    },
+    {
+      "segment": "Reading order of small insertion",
+      "proposal": "Preserve geometric placement; do not join Lisa to Alma or create a fixed person count.",
+      "basis": "Small line begins around centre of cell beneath Lindberg and above bottom baseline. It can be a continuation from end of bottom line, as SECOND notes, but geometry alone cannot establish every attachment. FIRST listed geometric order without reliable logical ordering.",
+      "certainty": "attachment not established"
+    }
+  ],
+  "proposed_geometric_transcription": [
+    "Jon.[?] P. Hansson [å hu?] Dfs, Nils Nilsson [y.-like mark?]",
+    "[å hu?] ib. Alb.[?] Wahlund Westerliden Erika",
+    "Eriksd:r Dfs, Joh. Lindberg Ekträsk[?] Alma",
+    "[small inserted line above bottom baseline] [L:a/E:a?] Karlsd:r[?] ib.",
+    "Forsberg Dfs K.[?] M. Andersson Buberget[?] Dfs[?]"
+  ],
+  "residuals": "Several witness raw forms, abbreviations and insertion attachment remain reserved. Shared-original agreement is quality control, not additional historical testimony. No identity claims may be built from reserved names or inferred couples.",
+  "new_work_crops": [
+    "/tmp/c0002-compare-header.png",
+    "/tmp/c0002-compare-numberheading.png",
+    "/tmp/c0002-compare-refheading.png"
+  ]
+}

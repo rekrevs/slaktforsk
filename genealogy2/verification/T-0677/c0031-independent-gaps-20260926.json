@@ -1,0 +1,479 @@
+{
+  "task": "T-0677",
+  "state": "INDEPENDENT_GAP_READ_LOCKED_BEFORE_COMPARISON",
+  "date": "2026-09-26",
+  "source_asset": "genealogy/media/C-0031-riksarkivet-SE-ULA-10257-AIIa6c-bild-149-sida-948.jpg",
+  "source_sha256": "182b6c2b87de29224629de41a1bb984603b85446c4feac6e727e2f6e32daf9c3",
+  "dimensions": [
+    5660,
+    4045
+  ],
+  "authorization": "c0031-root-gapmask-acceptance-20260926.json",
+  "independence": "Endast tilldelad locator, accepterad mask, stage1-rubriker och geometri lästa. Inga personfakta, tidigare cellavskrifter eller root-resultat konsulterade. Ingen jämförelse före detta lås.",
+  "scope": {
+    "row23": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "row24": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      14,
+      16,
+      17,
+      18
+    ],
+    "controls": 30,
+    "partial_columns": [
+      9,
+      10,
+      16,
+      17
+    ]
+  },
+  "method": "Lokala oförbättrade pixelcrops med tryckt rubrik och cellband sammanfogade vertikalt. Hela målcellens synliga bläck och lokala pricklinjer styr. Ingen OCR, ImageGen, kontraständring eller semantisk normalisering.",
+  "limits": "Ingen person- eller hushållstolkning, inga infererade nummer/datum. Första geometriöversikterna började y3380 och råkade visa överliggande rad22; ingen sådan cell extraherades eller användes. Därefter snävare målband y3442–3575 och y3575–3710. De första högeröversikterna maskerade rad24:s förbjudna kolumner; namn/adress aldrig visade. Översikterna bevaras som metodproveniens.",
+  "geometry": {
+    "header_y": [
+      285,
+      615
+    ],
+    "target_rows_y": {
+      "23": [
+        3442,
+        3575
+      ],
+      "24": [
+        3575,
+        3710
+      ]
+    },
+    "x_spans": {
+      "c02-05": [
+        1035,
+        1925
+      ],
+      "c06-10": [
+        1920,
+        2725
+      ],
+      "c11-15": [
+        2940,
+        4890
+      ],
+      "c14": [
+        3315,
+        4560
+      ],
+      "c16-18": [
+        4890,
+        5480
+      ]
+    },
+    "note": "Kolumnkanter lutar något mellan rubrik och målrader; svansar från rad ovan skiljs från egen text. Ingen markerad strykning genom målradernas kontrollerade celler."
+  },
+  "cells": [
+    {
+      "row": 23,
+      "column": 2,
+      "header": "Yrke (tjänst, näringsfång) Stam (främmande). Lyte (sinnessjukdom, sinnesslöhet, blindhet, dövstumhet, fallandesot).",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen yrkes-/stam-/lytesanteckning. Överkantens lodräta rest nära vänsterkant hör till bläck ovanifrån.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c02-05.png"
+    },
+    {
+      "row": 23,
+      "column": 3,
+      "header": "Född: år",
+      "check_scope": "whole_gap_cell",
+      "status": "read",
+      "raw": "67",
+      "observation": "Tvåsiffrigt råår; seklet fylls inte i.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c02-05.png"
+    },
+    {
+      "row": 23,
+      "column": 4,
+      "header": "Född: dag och mån.",
+      "check_scope": "whole_gap_cell",
+      "status": "read",
+      "raw": "26/5",
+      "observation": "Dag över/sneddelad mot månad; ingen normalisering.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c02-05.png"
+    },
+    {
+      "row": 23,
+      "column": 5,
+      "header": "Födelseort (församling i län eller i stad).",
+      "check_scope": "whole_gap_cell",
+      "status": "uncertain",
+      "raw": "L[a/e]bo",
+      "observation": "Läsförslag Labo; andra bokstaven kan vara e. Ingen församlingsidentifiering.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c02-05.png"
+    },
+    {
+      "row": 23,
+      "column": 6,
+      "header": "Vaccinerats eller haft koppor.",
+      "check_scope": "whole_gap_cell",
+      "status": "mark",
+      "raw": "v-lik bock",
+      "observation": "Kort vinklad bock; ingen vidare medicinsk slutsats.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c06-10.png"
+    },
+    {
+      "row": 23,
+      "column": 7,
+      "header": "Gift, år, dag och månad",
+      "check_scope": "whole_gap_cell",
+      "status": "read",
+      "raw": "86 26/4",
+      "observation": "Råår och dag/månad; tydligt 86 och 26/4.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c06-10.png"
+    },
+    {
+      "row": 23,
+      "column": 8,
+      "header": "Änkling, änka eller frånskild år, dag och månad",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen anteckning synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c06-10.png"
+    },
+    {
+      "row": 23,
+      "column": 9,
+      "header": "Inflyttad eller överförd: Från förs. i län eller i stad, eller uppslag i församlingsbok eller boken över obefintl.",
+      "check_scope": "partial_raw_form_residual_only",
+      "status": "mark",
+      "raw": "två korta ditto-liknande streck",
+      "observation": "Två små sneda tecken. Långt streck i överkant går ned från föregående rad. Ingen utveckling till ort/uppslag.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c06-10.png"
+    },
+    {
+      "row": 23,
+      "column": 10,
+      "header": "Inflyttad eller överförd: År, dag och månad",
+      "check_scope": "partial_raw_form_residual_only",
+      "status": "mark",
+      "raw": "ditto-liknande krok",
+      "observation": "Liten sammanhängande vinklad/krokig form. Ingen utveckling till datum.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c06-10.png"
+    },
+    {
+      "row": 23,
+      "column": 11,
+      "header": "Kristendomskunskap.",
+      "check_scope": "whole_gap_cell",
+      "status": "read",
+      "raw": "a",
+      "observation": "Litet a med sluten ögla och högersvans; ingen skala tolkad.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c11-15.png"
+    },
+    {
+      "row": 23,
+      "column": 12,
+      "header": "Inom sv. kyrkan begått H. Nattv.",
+      "check_scope": "whole_gap_cell",
+      "status": "uncertain",
+      "raw": "n-liknande tecken",
+      "observation": "Tecknet liknar ett litet n med inledande krok; semantik ej härledd.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c11-15.png"
+    },
+    {
+      "row": 23,
+      "column": 13,
+      "header": "Bevistat husförhör år",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen anteckning synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c11-15.png"
+    },
+    {
+      "row": 23,
+      "column": 14,
+      "header": "Anteckning om minderårigs föräldrar; omyndigförklaring; äktenskapsbetyg, äktenskapscertifikat och lysning; avtal om barns uppfostran i viss troslära; frånvaro; utträde ur eller inträde i svenska kyrkan; främmande trosbekännelse eller nationalitet; på grund av ådömd straffpåföljd utestängda från behörighet och rättigheter, som omförmälas i 2 kap. 19 § strafflagen; nattvardshinder; uttaget flyttningsbetyg; m. m.",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen text eller tydlig avsiktlig markering synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c11-15.png"
+    },
+    {
+      "row": 23,
+      "column": 15,
+      "header": "Värnpliktsförhållanden.",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen anteckning synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c11-15.png"
+    },
+    {
+      "row": 23,
+      "column": 16,
+      "header": "Utflyttad eller överförd: Till förs. i län eller i stad, eller uppslag i församlingsbok eller boken över obefintl.",
+      "check_scope": "partial_raw_form_residual_only",
+      "status": "mark",
+      "raw": "två bleka ditto-liknande streck",
+      "observation": "Svagt par korta snedstreck; långt streck från ovan nära vänsterkant. Ingen sifferutveckling.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c16-18.png"
+    },
+    {
+      "row": 23,
+      "column": 17,
+      "header": "Utflyttad eller överförd: År, dag och månad.",
+      "check_scope": "partial_raw_form_residual_only",
+      "status": "mark",
+      "raw": "blekt ditto-liknande tecken",
+      "observation": "Litet blekt par/krok. Ingen årsutveckling.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c16-18.png"
+    },
+    {
+      "row": 23,
+      "column": 18,
+      "header": "Död, år, dag och månad.",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen anteckning synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r23-c16-18.png"
+    },
+    {
+      "row": 24,
+      "column": 2,
+      "header": "Yrke (tjänst, näringsfång) Stam (främmande). Lyte (sinnessjukdom, sinnesslöhet, blindhet, dövstumhet, fallandesot).",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen yrkes-/stam-/lytesanteckning synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c02-05.png"
+    },
+    {
+      "row": 24,
+      "column": 3,
+      "header": "Född: år",
+      "check_scope": "whole_gap_cell",
+      "status": "read",
+      "raw": "15",
+      "observation": "Tvåsiffrigt råår; svag rest i överkant från rad ovan. Inget sekel tillagt.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c02-05.png"
+    },
+    {
+      "row": 24,
+      "column": 4,
+      "header": "Född: dag och mån.",
+      "check_scope": "whole_gap_cell",
+      "status": "read",
+      "raw": "21/2",
+      "observation": "Rå dag/månad.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c02-05.png"
+    },
+    {
+      "row": 24,
+      "column": 5,
+      "header": "Födelseort (församling i län eller i stad).",
+      "check_scope": "whole_gap_cell",
+      "status": "read",
+      "raw": "Flen",
+      "observation": "Sammanhängande ortnamn, slutstreck efter n.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c02-05.png"
+    },
+    {
+      "row": 24,
+      "column": 6,
+      "header": "Vaccinerats eller haft koppor.",
+      "check_scope": "whole_gap_cell",
+      "status": "mark",
+      "raw": "v-lik bock",
+      "observation": "Vinklad bock, ingen vidare medicinsk slutsats.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c06-10.png"
+    },
+    {
+      "row": 24,
+      "column": 7,
+      "header": "Gift, år, dag och månad",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen anteckning synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c06-10.png"
+    },
+    {
+      "row": 24,
+      "column": 8,
+      "header": "Änkling, änka eller frånskild år, dag och månad",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen anteckning synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c06-10.png"
+    },
+    {
+      "row": 24,
+      "column": 9,
+      "header": "Inflyttad eller överförd: Från förs. i län eller i stad, eller uppslag i församlingsbok eller boken över obefintl.",
+      "check_scope": "partial_raw_form_residual_only",
+      "status": "mark",
+      "raw": "böjt ditto-liknande streck",
+      "observation": "Kort böjt/snett tecken, ingen utveckling till ort/uppslag.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c06-10.png"
+    },
+    {
+      "row": 24,
+      "column": 10,
+      "header": "Inflyttad eller överförd: År, dag och månad",
+      "check_scope": "partial_raw_form_residual_only",
+      "status": "mark",
+      "raw": "mörk krok/ditto-liknande tecken",
+      "observation": "Kort mörk sned/krokig figur; ingen datumutveckling.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c06-10.png"
+    },
+    {
+      "row": 24,
+      "column": 14,
+      "header": "Anteckning om minderårigs föräldrar; omyndigförklaring; äktenskapsbetyg, äktenskapscertifikat och lysning; avtal om barns uppfostran i viss troslära; frånvaro; utträde ur eller inträde i svenska kyrkan; främmande trosbekännelse eller nationalitet; på grund av ådömd straffpåföljd utestängda från behörighet och rättigheter, som omförmälas i 2 kap. 19 § strafflagen; nattvardshinder; uttaget flyttningsbetyg; m. m.",
+      "check_scope": "whole_gap_cell",
+      "status": "blank_with_uncertain_trace",
+      "raw": null,
+      "observation": "Ingen läsbar text. Liten isolerad mörk punkt nära cellens högra del strax över baslinjen samt svaga fläckar; kan inte säkert klassas som avsiktlig anteckning.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c14.png"
+    },
+    {
+      "row": 24,
+      "column": 16,
+      "header": "Utflyttad eller överförd: Till förs. i län eller i stad, eller uppslag i församlingsbok eller boken över obefintl.",
+      "check_scope": "partial_raw_form_residual_only",
+      "status": "mark",
+      "raw": "blekt snett ditto-liknande streck",
+      "observation": "Kort blekt tecken, ingen sifferutveckling.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c16-18.png"
+    },
+    {
+      "row": 24,
+      "column": 17,
+      "header": "Utflyttad eller överförd: År, dag och månad.",
+      "check_scope": "partial_raw_form_residual_only",
+      "status": "mark",
+      "raw": "u-liknande dittoform",
+      "observation": "Kort blek böjd form; ingen årsutveckling.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c16-18.png"
+    },
+    {
+      "row": 24,
+      "column": 18,
+      "header": "Död, år, dag och månad.",
+      "check_scope": "whole_gap_cell",
+      "status": "blank",
+      "raw": null,
+      "observation": "Ingen egen anteckning synlig.",
+      "cancellation": "Ingen säker egen överstrykning synlig i målcellen.",
+      "crop": "captures/c0031-independent-20260926/r24-c16-18.png"
+    }
+  ],
+  "captures": [
+    {
+      "file": "captures/c0031-independent-20260926/c02-05.png",
+      "sha256": "95ec9c721df34439707e61432a8311842dfcaa88691c2234da35ab16d4079510"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/c06-10.png",
+      "sha256": "c73c7c5d8f889939110d12d6e3fcce0661cdcb75d11c31224b431fee81ac1cde"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/c11-15.png",
+      "sha256": "9d958a5bd12e70f9727b160e874e0f39d8b089d437e585b9476feb118d876c35"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/c16-18.png",
+      "sha256": "20d3eeb2532bbad750beb6f9bd94dec50a8deefe5938de2954a25f682bf5b6fb"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/r23-c02-05.png",
+      "sha256": "1c67d5431ca88c8db86f9a43833cfa4185228aad40097d147baaf97d617a2dab"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/r23-c06-10.png",
+      "sha256": "f26050376f46ce1a0b6cf7823e9b0840dba7d10a1726e9e035868868abe426a5"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/r23-c11-15.png",
+      "sha256": "16b45fb6383df785fd754adc027e7e06f66b31bc437205d0d3f3b8d4c24edff3"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/r23-c16-18.png",
+      "sha256": "b7b9d9e53aa3c2c20094041b840c9f8a34dcf1d6f6a2ad794034fe7365094070"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/r24-c02-05.png",
+      "sha256": "bbe26cec2440f359aafe583a72b647a3ec16c559ba04a9716ba0b28bafc4095f"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/r24-c06-10.png",
+      "sha256": "0b610e5961c207902277dea9fa46e7306447317eba12e56aafe5bcdf8978823d"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/r24-c14.png",
+      "sha256": "3a7786e2e61b0869f2e2bf0c2bbc447974bdf88bf2a91ef65c75e67bdb983ef1"
+    },
+    {
+      "file": "captures/c0031-independent-20260926/r24-c16-18.png",
+      "sha256": "7aa003d251e0152f4fb45330c2381055cc80d394a4aa985e72aa8e32441ae3a4"
+    }
+  ]
+}

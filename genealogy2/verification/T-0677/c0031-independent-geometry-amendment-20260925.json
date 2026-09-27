@@ -1,0 +1,30 @@
+{
+  "task": "T-0677",
+  "state": "BOUNDED_GEOMETRY_AMENDMENT",
+  "prior_lock": {
+    "file": "c0031-independent-stage1-20260925.json",
+    "sha256": "3a49161404891a939af6e4acc0a917a267b720a4f8174f2340892bc06ba6dd16"
+  },
+  "method": "En enda lokal crop 1050x500+60+3320 av radnummer och kolumn1. Kända namn endast positionsankare. Ingen cellstatus eller ny namnform utvunnen.",
+  "finding": "Ursprungskartans intervall uppskattades symmetriskt kring marginalens radnummer. De prickade linjerna fungerar som skrivradernas baslinjer, inte som intervallens mitt. Därför låg den uppskattade överkanten för långt ned. Root har rätt om säkrare band mellan föregående och egen pricklinje.",
+  "corrected_geometry": {
+    "row22_dotted_baseline_y_approx": 3439,
+    "row23_dotted_baseline_y_approx": 3567,
+    "row24_dotted_baseline_y_approx": 3696,
+    "row23_base_band_y": [
+      3439,
+      3567
+    ],
+    "row24_base_band_y": [
+      3567,
+      3696
+    ],
+    "ink_limit": "Nedstaplar kan gå under egen pricklinje; Arnes ankarnamn har sådana mot cirka3750. Radnummercentrering får inte skära bläck.",
+    "safe_combined_crop_y": [
+      3430,
+      3760
+    ],
+    "reservation": "Ungefärliga koordinater för kolumn1. Pricklinjer kan luta över uppslaget; framtida målcellscrops måste omfatta dess synliga bläck med marginal och får inte likställa en pricklinje med bläckets nedre gräns."
+  },
+  "limits": "Originallåset orört. Ingen ny sakutvinning eller ändring i rubrikmappning, tidigare återbruk eller personkunskap."
+}

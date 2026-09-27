@@ -1,0 +1,590 @@
+{
+  "schema": "independent-bounded-source-control/1",
+  "task": "T-0677",
+  "reader": "Astra independent subagent c0004_control",
+  "date": "2026-09-24",
+  "status": "LOCKED_BEFORE_COMPARISON",
+  "source": {
+    "path": "genealogy/media/C-0004-riksarkivet-folkrakning-1900-degerfors-bild-127.jpg",
+    "sha256": "f5052aeb1042aa29cda002060057133f0fc2ef76d20975b69a42b8871938bce1",
+    "dimensions": [
+      800,
+      1387
+    ]
+  },
+  "scope": {
+    "household": "Sista klammergruppen före Summa, Johan Oskar Zingmark först och Petrus Nikolaus sist",
+    "rows": 8,
+    "cells": 79,
+    "excluded": "Ingen ny avskrift av namn, födelseår, födelseort/dito eller r1 yrke. Ingen sakutvinning ur andra hushåll, ingen extern åtkomst eller nativeändring. Separat auktoriserat r3-årstillägg i egen fil."
+  },
+  "method": {
+    "blindness": "Ingen tidigare C-0004-avskrift, personslutsats, root stage1/gap eller rootkontroll läst. Angivna rowlocators återbrukas endast för avgränsning. Egna originalutdata låses med SHA före jämförelse. Generella normer lästa.",
+    "visual": "Hela originalbilden med rubrik och målhushåll i samma bild; temporära lokala sips-utsnitt för förstoring. Originalfilens hash verifierad. Ingen bildförbättring/OCR.",
+    "mark_convention": "/ är avskriftsnotation för synligt enkelt snett räkningsstreck, inte numeriskt noll eller särskild civilståndssymbol. blank betyder läst tom i just denna bild, aldrig sakförhållandets frånvaro.",
+    "group_boundary": "Sammanhängande vänsterklammer börjar på r1 och slutar efter r8 före sidans Summa; åtta rader. Närmast föregående rad står utanför klammern.",
+    "unexpected_scope_diff": false
+  },
+  "header": {
+    "printed_title": "Utdrag ur Församlingsboken för … förs. i … kontrakt, … län, d. 31/12 1900.",
+    "page": "Sida 127",
+    "filled_title": "Degerfors; Vesterbottens 1:sta [ordningstilläggets lilla ändelse osäker]; Vesterbottens",
+    "columns": [
+      {
+        "number": "1",
+        "text": "By eller lägenhet (qvarter eller rote i stad). (Bynamnet skrifves på särskild rad och understrykes.) Namn (fullständigt) å hvarje person; familjeställning (h. = hustru, s. = son, d. = dotter o. s. v.); titel (om annan än den i kol. 2 angifna); icke döpt.",
+        "status": "Återbrukas, ej ny cellutvinning"
+      },
+      {
+        "number": "2",
+        "text": "Yrke (tjenst, näringsfång). Stam (främmande). Lyte (fallandesot, sinnessjuk, fånig, blind, döfstum).",
+        "status": "r2–8 avlästa tomma; r1 återbrukas",
+        "reservation": "Liten tryckt parentes efter Yrke och Lyte lågupplöst; ordalydelsens små bokstäver mindre säkra än huvudrubrikerna."
+      },
+      {
+        "number": "3,4",
+        "text": "Födelse- år. ort (församling i län eller i stad).",
+        "status": "Återbrukas, separat tillägg endast r3 år"
+      },
+      {
+        "number": "5–12",
+        "text": "Ogift. m. q.; Gift. m. q.; Enkling.; Enka.; Frånskild. m. q.",
+        "status": "64 celler avlästa",
+        "order": [
+          "ogift_m",
+          "ogift_q",
+          "gift_m",
+          "gift_q",
+          "enkling",
+          "enka",
+          "franskild_m",
+          "franskild_q"
+        ]
+      },
+      {
+        "number": "14",
+        "text": "Trosbekännelse (främmande). Utträde ur svenska kyrkan. Nationalitet (främmande). Frånvarande.",
+        "status": "Ett gemensamt osubdelat cellfält per rad, åtta avlästa",
+        "reservation": "Rubrikens tryckta nummer ser ut som 14; ingen separat tryckt 13-kolumn eller ytterligare cellgräns påvisad i denna bild."
+      }
+    ],
+    "left_margin": "Hushåll eller matlag."
+  },
+  "rows": [
+    {
+      "row": 1,
+      "cells": [
+        {
+          "column": "ogift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_m",
+          "raw": "/",
+          "state": "mark",
+          "reservation": null
+        },
+        {
+          "column": "gift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enkling",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enka",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "trosbekannelse_uttrade_nationalitet_franvarande",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        }
+      ]
+    },
+    {
+      "row": 2,
+      "cells": [
+        {
+          "column": "yrke_stam_lyte",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_q",
+          "raw": "/",
+          "state": "mark",
+          "reservation": null
+        },
+        {
+          "column": "enkling",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enka",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "trosbekannelse_uttrade_nationalitet_franvarande",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        }
+      ]
+    },
+    {
+      "row": 3,
+      "cells": [
+        {
+          "column": "yrke_stam_lyte",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_q",
+          "raw": "/",
+          "state": "mark",
+          "reservation": null
+        },
+        {
+          "column": "gift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enkling",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enka",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "trosbekannelse_uttrade_nationalitet_franvarande",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "cells": [
+        {
+          "column": "yrke_stam_lyte",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_q",
+          "raw": "/",
+          "state": "mark",
+          "reservation": null
+        },
+        {
+          "column": "gift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enkling",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enka",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "trosbekannelse_uttrade_nationalitet_franvarande",
+          "raw": "",
+          "state": "blank",
+          "reservation": "En liten punkt syns i högra fältet omkring denna rad; ingen läsbar bokstav, siffra eller ord. Behandlas som bild-/pappersspår, inte registrerad trosbekännelse eller frånvaro."
+        }
+      ]
+    },
+    {
+      "row": 5,
+      "cells": [
+        {
+          "column": "yrke_stam_lyte",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_m",
+          "raw": "/",
+          "state": "mark",
+          "reservation": null
+        },
+        {
+          "column": "ogift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enkling",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enka",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "trosbekannelse_uttrade_nationalitet_franvarande",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        }
+      ]
+    },
+    {
+      "row": 6,
+      "cells": [
+        {
+          "column": "yrke_stam_lyte",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_m",
+          "raw": "/",
+          "state": "mark",
+          "reservation": null
+        },
+        {
+          "column": "ogift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enkling",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enka",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "trosbekannelse_uttrade_nationalitet_franvarande",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        }
+      ]
+    },
+    {
+      "row": 7,
+      "cells": [
+        {
+          "column": "yrke_stam_lyte",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_m",
+          "raw": "/",
+          "state": "mark",
+          "reservation": null
+        },
+        {
+          "column": "ogift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enkling",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enka",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "trosbekannelse_uttrade_nationalitet_franvarande",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        }
+      ]
+    },
+    {
+      "row": 8,
+      "cells": [
+        {
+          "column": "yrke_stam_lyte",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "ogift_m",
+          "raw": "/",
+          "state": "mark",
+          "reservation": null
+        },
+        {
+          "column": "ogift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "gift_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enkling",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "enka",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_m",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "franskild_q",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        },
+        {
+          "column": "trosbekannelse_uttrade_nationalitet_franvarande",
+          "raw": "",
+          "state": "blank",
+          "reservation": null
+        }
+      ]
+    }
+  ],
+  "interpretation_limit": "Ingen personidentitet, normaliserat kön, civilståndspåstående, samfundstillhörighet, nationalitet eller närvaro härleds utöver råmarkernas tryckta kolumnläge."
+}

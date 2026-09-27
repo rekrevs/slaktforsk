@@ -1,0 +1,36 @@
+{
+  "task": "T-0677",
+  "state": "DOCUMENTARY_PREASSESSMENT_NO_IMAGE_AUTHORIZATION",
+  "input": "c0028-documentary-inventory-proposed-j186-20260925.json",
+  "input_sha256": "89110e5e9ae9401abdf10425a2a81ca39c9dcc863ee94cfd86a04dca2797391e",
+  "read_scope": [
+    "source",
+    "source_record",
+    "all7linked_record_objects",
+    "all14direct_current_dependents",
+    "16 matching own current research data/caveats; not claim full evidence review"
+  ],
+  "findings": [
+    {
+      "object": "O-P-0015-father-occupation1920@1",
+      "issue": "Current banvakt occupation conflicts with preserved TR/READ distinction: järnvägsarb. is occupation; banvakt70 is dwelling reference. Astra documentary impact review requested before correction. No original rereading authorized."
+    },
+    {
+      "object": "F-P-0016-civil_status-widow1913@1",
+      "boundary": "Existing 11 March versus C0919 4 March conflict remains. Reused C0028 widow date cannot resolve independent competing record."
+    },
+    {
+      "object": "REL-P-0015-P0007@1 / REL-P-0016-P0007@1",
+      "boundary": "Recorded parents do not establish marriage between them."
+    },
+    {
+      "object": "BIO-P-0007@current",
+      "issue": "Explicit attribution of banvakt occupation to birthbook also conflicts with documentary raw/interpretive distinction; assigned exact-copy correction review."
+    },
+    {
+      "object": "BIO-P-0007 / RESEARCH-P-0007-9d76f0343410 / related profiles",
+      "issue": "Unrelated C0919 fol16/tompost historical claim remains in some current body texts while caveats and P0015 path correct it to rad16/same uppslag13. Keep as separately scoped discrepancy; C0028 does not independently settle it."
+    }
+  ],
+  "next": "Finish C0008 implementation and actual reviews first; then assess C0028 remaining finite geometry/gaps from documentary reuse. No C0020/C0083 image access."
+}

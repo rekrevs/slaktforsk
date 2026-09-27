@@ -1,0 +1,236 @@
+{
+  "task": "T-0677",
+  "reader": "root/Astra",
+  "state": "LOCKED_STAGE1_HEADER_BOUNDARY_BEFORE_GAP_VALUES",
+  "at": "2026-09-24T11:37:21.246750+00:00",
+  "source": "genealogy/media/C-0004-riksarkivet-folkrakning-1900-degerfors-bild-127.jpg",
+  "source_sha256": "f5052aeb1042aa29cda002060057133f0fc2ef76d20975b69a42b8871938bce1",
+  "method": "Prior-aware of historical32semanticitems, no other new C4 control reading seen. Whole-image orientation exposes surrounding content incidentally; intentional reading limited to printed headers, own boundary and row mapping. No surrounding household extraction.",
+  "title": "Utdrag ur Församlingsboken för Degerfors förs. i Westerbottens1sta[?] kontrakt, Westerbottens län, d.[31/12?]1900. Sida127.",
+  "shared_household_heading": "Hushåll eller matlag.",
+  "own_boundary": "Last eight person-lines before Summa för denna sida; bracket1 begins JohanOskar and endsPetrusNikolaus. Previous person JohanAlbinWahlund is outside own bracket. Rosinedahl heading above applies as documentarycontext. Pagefooter totals not ownhouseholdvalues.",
+  "native_row_y_intervals": [
+    [
+      1144,
+      1168
+    ],
+    [
+      1168,
+      1192
+    ],
+    [
+      1192,
+      1216
+    ],
+    [
+      1216,
+      1240
+    ],
+    [
+      1240,
+      1264
+    ],
+    [
+      1264,
+      1288
+    ],
+    [
+      1288,
+      1312
+    ],
+    [
+      1312,
+      1335
+    ]
+  ],
+  "columns": [
+    {
+      "key": "name_role",
+      "printed_number": "1",
+      "heading": "By eller lägenhet (qvarter eller rote i stad). (bynsnamnet skrifves på särskild rad och understrykes.) Namn (fullständigt) å hvarje person; familjeställning (h.=hustru, s.=son, d.=dotter o.s.v.); titel (om annan än den i kol2angifna); icke döpt.",
+      "x_native": [
+        27,
+        280
+      ]
+    },
+    {
+      "key": "occupation_tribe_impairment",
+      "printed_number": "2[?]",
+      "heading": "Yrke (tjänst, näringsfång). Stam (främmande). Lyte (fallandesot, sinnessjuk, [idiot?], blind, döfstum).",
+      "x_native": [
+        280,
+        402
+      ]
+    },
+    {
+      "key": "birth_year",
+      "printed_number": "3",
+      "heading": "Födelse-år.",
+      "x_native": [
+        402,
+        433
+      ]
+    },
+    {
+      "key": "birthplace",
+      "printed_number": "6[?]",
+      "heading": "Födelse-ort (församling i län eller i stad).",
+      "x_native": [
+        433,
+        549
+      ]
+    },
+    {
+      "key": "unmarried_m",
+      "printed_number": "shared7–[?]",
+      "heading": "Ogift/m.",
+      "x_native": [
+        549,
+        568
+      ]
+    },
+    {
+      "key": "unmarried_q",
+      "printed_number": "shared7–[?]",
+      "heading": "Ogift/q.",
+      "x_native": [
+        568,
+        584
+      ]
+    },
+    {
+      "key": "married_m",
+      "printed_number": "shared7–[?]",
+      "heading": "Gift/m.",
+      "x_native": [
+        584,
+        600
+      ]
+    },
+    {
+      "key": "married_q",
+      "printed_number": "shared7–[?]",
+      "heading": "Gift/q.",
+      "x_native": [
+        600,
+        616
+      ]
+    },
+    {
+      "key": "widower",
+      "printed_number": "shared7–[?]",
+      "heading": "Enkling.",
+      "x_native": [
+        616,
+        634
+      ]
+    },
+    {
+      "key": "widow",
+      "printed_number": "shared7–[?]",
+      "heading": "Enka.",
+      "x_native": [
+        634,
+        651
+      ]
+    },
+    {
+      "key": "divorced_m",
+      "printed_number": "shared7–[?]",
+      "heading": "Frånskild/m.",
+      "x_native": [
+        651,
+        664
+      ]
+    },
+    {
+      "key": "divorced_q",
+      "printed_number": "shared7–[?]",
+      "heading": "Frånskild/q.",
+      "x_native": [
+        664,
+        677
+      ]
+    },
+    {
+      "key": "belief_nationality_absence",
+      "printed_number": "14",
+      "heading": "Trosbekännelse (främmande). Utträde ur svenska kyrkan. Nationalitet (främmande). Frånvarande.",
+      "x_native": [
+        677,
+        780
+      ]
+    }
+  ],
+  "numbering_limit": "Physical keys and geometry govern mask; uncertain printed numerals not invented or made contiguous. Independentheadercontrol needed.",
+  "reuse_mapping": {
+    "semantic_items": 32,
+    "physical_cells": 25,
+    "formula": "name/rolecombined8 +birthyear8 +birthplace/ditto8 +fatheroccupation1; historical dito is semantic label not necessarily original writtenword"
+  },
+  "gap_mask": {
+    "row_fields": 13,
+    "rows": 8,
+    "all_physical_cells": 104,
+    "reused_physical_cells": 25,
+    "gap_cells": 79,
+    "exact_groups": [
+      {
+        "rows": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "columns": [
+          "occupation_tribe_impairment"
+        ],
+        "count": 7
+      },
+      {
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "columns": [
+          "unmarried_m",
+          "unmarried_q",
+          "married_m",
+          "married_q",
+          "widower",
+          "widow",
+          "divorced_m",
+          "divorced_q"
+        ],
+        "count": 64
+      },
+      {
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "columns": [
+          "belief_nationality_absence"
+        ],
+        "count": 8
+      }
+    ]
+  },
+  "next": "Readonly79own gapcells with rawmark/blank/reserved classification. Independently locksecond for decisive headers/boundaries/nonblankfields; preserve first beforecomparison. No currentpatch or newpersonsexclaim authorized by mask.",
+  "no_canonical_mutation": true
+}

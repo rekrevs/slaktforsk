@@ -1,0 +1,93 @@
+{
+  "schema": "T0677-C0002-bounded-control-gap-plan/1",
+  "task": "T-0677",
+  "status": "PLAN_LOCK_BEFORE_ORIGINAL_CONTROL",
+  "date": "2026-09-24",
+  "no_original_opened_by_this_plan": true,
+  "no_canonical_apply": true,
+  "baseline": {
+    "path": "genealogy2/verification/T-0677/baseline-lock-20260924.json",
+    "sha256": "e17f6044bf4546dc28b8a9e5927fece48be8dc5c0fd524e11184399d5e78997f",
+    "journal_head": 180
+  },
+  "record": "R-510e9de3e16243afcce92e2e@1",
+  "source_unit": {
+    "citation": "C-0002",
+    "media_path": "genealogy/media/C-0002-riksarkivet-SE-HLA-1010028-C7-bild-85-sida-82.jpg",
+    "media_sha256": "b5a72041a7e7b93a98394bac57d9d861bc8c049824aed95582d7337031cb2ae4",
+    "locator": "post 86, sida 82, bild 85",
+    "access": "existing local bound media only; no external access or adjacent household page"
+  },
+  "documentary_reuse": {
+    "path": "genealogy2/verification/T-0677/c0002-documentary-reuse-candidate-20260924.json",
+    "sha256": "8e193ccc0fdbcc17e694d1270447da44ab67096cb48eec6db029c8a6e842103e",
+    "own_observations": 21,
+    "own_mentions": 13,
+    "other_current_material": [
+      "birth event",
+      "baptism event",
+      "CONTRACT-P-0001-PK-05@1 full relevant post extraction"
+    ],
+    "specific_prior_readings": [
+      "C-0550 own father-birth field 28/5",
+      "T-0149 own reference-field 93.3 with adjacent glyph comparisons"
+    ],
+    "rule": "Retain all exactly sufficient documented fields without automatic full reread; older text-copy disagreement alone is not reason to reopen whole post."
+  },
+  "new_control_only": {
+    "physical_extent": "C-0002 own post 86 on already bound local image; inspect only as needed to determine its printed/written header and column map and own post boundaries",
+    "map": [
+      "printed and written header/column labels and order",
+      "which cells belong to post 86 rather than adjacent rows",
+      "relevant blank cells and explicit unread or uncertain boundaries"
+    ],
+    "targeted_independent_readings": [
+      "father birth date field",
+      "reference/folio field",
+      "entire baptism-witness column, retaining each uncertain name/place/role glyph and blank boundary"
+    ],
+    "if_other_unmapped_cells_found": "Record exact column and uncertainty for later bounded assessment; do not expand automatically to full image/page rereading, adjacent household folio or new generation."
+  },
+  "reader_protocol": {
+    "FIRST": {
+      "reader": "new Astra c0002_control",
+      "prior_material_visibility": "Must not see older transcriptions, current documentary conclusions or SECOND reading before locking output; only scoped image/locator and neutral field grid instructions.",
+      "output": "full independent raw map and targeted readings with positions and uncertainty, hash-locked before comparison"
+    },
+    "SECOND": {
+      "reader": "root/Astra",
+      "prior_material_visibility": "Knows older documentary text, but must not see FIRST output before locking own reading; label PRIOR_AWARE_INDEPENDENT_CONTROL, not blind to old data.",
+      "output": "own raw map and targeted readings with positions and uncertainty, independently hash-locked before comparison"
+    },
+    "comparison_gate": "Compare only after both FIRST and SECOND outputs are saved and SHA-locked; preserve disagreements and decide any further narrow read explicitly."
+  },
+  "copy_impact": {
+    "current_proposal_v2": {
+      "path": "genealogy2/verification/T-0677/c0002-currentimpact-decisions-proposed-v2-20260924.json",
+      "sha256": "4defb1cbd0f58ca11e73ac10f1ff60a1bd608d07cb554567a540661200f2bd26",
+      "status": "PENDING_ROOT_REVIEW",
+      "objects": 12,
+      "fields": 14
+    },
+    "additional_review": [
+      "P-0001 volume metadata precision",
+      "Edlund retain rationale"
+    ],
+    "rule": "No dependent operation/apply until root adjudication and source-control comparison; later proposal versions are not approved by this plan."
+  },
+  "person_adoption": {
+    "people": [
+      "P-0001",
+      "P-0028",
+      "P-0029"
+    ],
+    "scope": "exact bounded adoption step during later source audit for this record and direct copy impacts",
+    "not_implied": "No automatic whole-person or PK-level approval."
+  },
+  "exclusions": [
+    "No new household page or adjacent image opening.",
+    "No external access.",
+    "No repeat of completed T-0675/T-0676 passages.",
+    "No native apply or Wotan completion."
+  ]
+}

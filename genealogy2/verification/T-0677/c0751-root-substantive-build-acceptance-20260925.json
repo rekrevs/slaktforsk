@@ -1,0 +1,46 @@
+{
+  "task": "T-0677",
+  "state": "SUBSTANTIVELY_ACCEPTED_FOR_COMBINED_BUILD_AND_ISOLATED_TEMP_ONLY",
+  "canonical_baseline": {
+    "journal": 184,
+    "pending": 0
+  },
+  "inputs": {
+    "c0751-native-source-decisions-proposed-v3-20260925.json": "a7d597bfa3a3c8d0c705dd29a4b27973e7b8233aea084242f64c7089399394f0",
+    "c0751-marriage-copy-followup-proposed-v2-20260925.json": "6d44287d28660784505d2ba7e35537e763885fc30b0a86706d3835ca7dddafe9",
+    "c0751-other-current-impact-proposed-v4-20260925.json": "223b8218373fa1b0ca96199a266b192f9d9d88aa68ffdaa86d50a9ae4fb875ce",
+    "c0751-root-v4-final-text-amendments-20260925.json": "f8f85e0271fea83eae144786a9c646a4f483280416153ff39650f3e04e601a00",
+    "c0751-combined-build-plan-proposed-v2-20260925.json": "3a81067e468e4a6edee737b6eb1ae960707ef2f0ea6dd98d2a11bca47341345d",
+    "c0751-other-impact-final-independent-review-20260925.json": "156a8fa45e8e4c5852c8c0cbf624866ade61b66dad77fb08058d666ee14f28e5"
+  },
+  "root_review": "All source decisions, person change sets, relevant current typed facts and v3→v4 deltas read; 101 replacement replays independently PASS; eleven own-row adoptions reviewed. Independent Astra final review concurs subject to two exact text amendments.",
+  "composition": [
+    "Source v3 exact ten changes, including its two explicitly approved O→R@2 edges.",
+    "Marriage v2 nineteen fields; other v4 composed after wins on seven overlapping fields. Apply eight format deltas only to marriage-only fields not superseded by other-v4. Never overwrite final composed fields with the older format-only text.",
+    "Other v4 101 fields plus eleven adoptions and one candidate key, preserving current origins, evidence, status and all unrelated fields.",
+    "Apply exactly the two text amendments to composed fields. Parse value_json strings into model-required structured value; preserve semantic payload."
+  ],
+  "extra_evidence_rebases": [
+    {
+      "target": "BIO-P-0481",
+      "from": "F-P-0481-source_interpretation-individual-limits@1",
+      "to": "F-P-0481-source_interpretation-individual-limits@2",
+      "role": "supports",
+      "rationale": "Den personbundna namnreservationen och äldst-bland-redovisade-gränsen består. Version 2 preciserar samma föräldrars rapporterade vigsel till 1879-11-21 utan att bekräfta egen vigselpost; biografin återger just detta och inget nytt identitetsutfall."
+    },
+    {
+      "target": "RESEARCH-P-0481-9d76f0343410",
+      "from": "F-P-0481-source_interpretation-individual-limits@1",
+      "to": "F-P-0481-source_interpretation-individual-limits@2",
+      "role": "supports",
+      "rationale": "Version 2 bevarar namnbegränsningen och aritmetiken fyllda21 år1902 utan inskrivningspåstående och preciserar vigselnyckeln från befintlig C0548. Den korrigerade forskningsbedömningen tillämpar exakt dessa begränsningar."
+    }
+  ],
+  "verification_required": [
+    "Isolated copy at j184, exact full before/after diff, no unrelated payload differences.",
+    "verify, verify-assets, verify-source pass.",
+    "Capture all actual temporary pending full payloads, target and changed basis, no automatic resolution.",
+    "Return operation hash and artifacts for root independent assessment before canonical apply."
+  ],
+  "canonical_apply_authorized": false
+}

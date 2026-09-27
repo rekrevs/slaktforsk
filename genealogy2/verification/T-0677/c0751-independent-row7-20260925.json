@@ -1,0 +1,127 @@
+{
+  "schema": "independent-bounded-source-control/1",
+  "task": "T-0677",
+  "date": "2026-09-25",
+  "reader": "Astra c0004_control",
+  "state": "LOCKED_ROW7_BEFORE_COMPARISON",
+  "authority": {
+    "path": "genealogy2/verification/T-0677/c0751-root-stage1-comparison-extension-20260925.json",
+    "sha256": "a533a2a45aa841745c642e55d9224ce79ffbbcfd5da6ba65fd0f4a42f87db3b9"
+  },
+  "source": {
+    "path": "genealogy/media/C-0751-riksarkivet-folkrakning1900-Folk_024008-078-zingmark-lindberg.jpg",
+    "sha256": "73f54dcc59a62a5032eb9a79e6090bed33ae8ff0d3a3c5c6f3d3cd5cb60c875f"
+  },
+  "scope": "Endast fysisk rad7 på s78, 13 personceller och avslutande vänstermarginal. Ingen ny person/record skapad. Övriga12 rader och deras gapceller ingår inte.",
+  "method": {
+    "prior_knowledge": "Dokumentär förkunskap för ursprungliga12rader och låst STAGE1. Inget root-row7-utfall läst; ingen identitets- eller avskriftsuppgift om nytillåtna rad7 erhållen. Självständig men inte generellt blind läsning.",
+    "visual": "Lokalt original beskuret rad7 x1..800/y272..300, förstorat6x; delutsnitt y275..300 för tydlighet. Stage1-låsets tryckta rubriker och geometri används för kolumnplacering. Ingen OCR, extern åtkomst eller läsning av annat hushåll.",
+    "header_reference": {
+      "path": "genealogy2/verification/T-0677/c0751-independent-stage1-20260925.json",
+      "sha256": "fdc096efda28a89ed56ebd029317a255803e57414a204c3185f1001285b9ef71"
+    },
+    "scope_leakage": "Enstaka överhäng från raden ovan råkar synas i övre cropkant; inga sådana sakfält har avskrivits eller omprövats."
+  },
+  "page": 78,
+  "physical_row": 7,
+  "cells": [
+    {
+      "column": "name_role",
+      "raw": "fad:[?] Olof Reinhold Lindberg",
+      "state": "uncertain",
+      "reservation": "Kort inledande släktroll föredras fad:; sista bokstav och interpunktion är små och kan läsas far: eller fad. Ingen expansion till en säker relation/personidentitet. Olof Reinhold Lindberg är föredragen namnläsning."
+    },
+    {
+      "column": "occupation_tribe_impairment",
+      "raw": "Förmånstagare",
+      "state": "read",
+      "reservation": "Sammanhängande ord Förmånstagare föredras. Inga separat läsbara ytterligare stam/lyte-anteckningar i detta gemensamma fält."
+    },
+    {
+      "column": "birth_year",
+      "raw": "14",
+      "state": "read",
+      "reservation": "Råtvåsiffrigt 14; inget sekel tillagt."
+    },
+    {
+      "column": "birthplace",
+      "raw": "Förs.",
+      "state": "read",
+      "reservation": "Förs. föredras som förkortning; inte expanderad här till viss ort. Streck vid cellens övre vänstra kant hör till föregående radens överhäng och tillskrivs inte denna rad."
+    },
+    {
+      "column": "unmarried_m",
+      "raw": "",
+      "state": "blank",
+      "reservation": null
+    },
+    {
+      "column": "unmarried_q",
+      "raw": "",
+      "state": "blank",
+      "reservation": null
+    },
+    {
+      "column": "married_m",
+      "raw": "",
+      "state": "blank",
+      "reservation": null
+    },
+    {
+      "column": "married_q",
+      "raw": "",
+      "state": "blank",
+      "reservation": null
+    },
+    {
+      "column": "widower",
+      "raw": "/",
+      "state": "mark",
+      "reservation": "Synligt diagonalt streck i tryckta Enkling.-fältet; / är rånotation, inte fastställd siffra 1."
+    },
+    {
+      "column": "widow",
+      "raw": "",
+      "state": "blank",
+      "reservation": null
+    },
+    {
+      "column": "divorced_m",
+      "raw": "",
+      "state": "blank",
+      "reservation": null
+    },
+    {
+      "column": "divorced_q",
+      "raw": "",
+      "state": "blank",
+      "reservation": null
+    },
+    {
+      "column": "belief_nationality_absence",
+      "raw": "",
+      "state": "blank",
+      "reservation": null
+    }
+  ],
+  "closing_margin": {
+    "raw": "Den långa klammerns vertikal slutar nedtill till vänster om denna rad, omkring y294–297. Separat efterföljande ansats börjar nedanför gränsen.",
+    "conclusion": "Sedd klammer slutar efter sjunde raden; ingen ytterligare rad påvisad som tillhörande samma klammer.",
+    "reservation": "Klammern är hushåll/matlag-geometri. Detta är inte en automatisk familje-, släktskaps- eller personkoppling och ersätter inte jämförelse med indexets separata grupper."
+  },
+  "counts": {
+    "physical_cells": 13,
+    "nonblank_read_or_uncertain": 4,
+    "counting_marks": 1,
+    "blank": 8
+  },
+  "interpretation_limits": [
+    "Ingen årnormalisering till1814.",
+    "Ingen normalisering av Förs. till ort.",
+    "Ingen koppling av rollen till en viss huvudperson eller skapande av fadersrelation.",
+    "Rånamnet identifieras inte med en existerande person utan separat evidensprövning.",
+    "Blank stam/lyte/trosbekännelse är inga negativa livsfakta."
+  ],
+  "stop_triggered": false,
+  "no_canonical_change": true
+}

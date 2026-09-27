@@ -1,0 +1,1276 @@
+{
+  "task": "T-0677",
+  "state": "ASTRA_DECISION_PROPOSAL_NOT_APPLY",
+  "created_at": "2026-09-24T11:21:52.015502+00:00",
+  "scope": "C2 source/mention/observation audit only; root v4 copyimpact separate; no canonical mutation",
+  "locks": [
+    {
+      "path": "genealogy2/verification/T-0677/c0002-documentary-reuse-candidate-20260924.json",
+      "sha256": "8e193ccc0fdbcc17e694d1270447da44ab67096cb48eec6db029c8a6e842103e"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0002-first-control-20260924.json",
+      "sha256": "6b5c7bf76a365e777218414b290349cfaf68847c791284b59445a09382b4fc0f"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0002-root-second-control-20260924.json",
+      "sha256": "e6ac1bea21e8a3adcb4bca216c321f8b925e5536fd506f2eabc0d9e54aa1a837"
+    },
+    {
+      "path": "genealogy2/verification/T-0677/c0002-control-comparison-20260924.json",
+      "sha256": "9d8cd4c4f881798a28eca68e5bbb926cbf983381ab83b4f6aa8d87038a18d220"
+    }
+  ],
+  "historical_preservation": [
+    "TR-d53dad7fd2161f53b6aab1c4@1 unchanged",
+    "FIRST/SECOND/comparison locks unchanged",
+    "No R revision needed merely to attach a new reading; keep R@1 as same bounded post and avoid unnecessary broad dependency cascade."
+  ],
+  "fieldcoverage": [
+    {
+      "column": 1,
+      "heading": "Inskrifningens löpande årsnummer.",
+      "raw_or_reused": "86",
+      "status": "read",
+      "basis": "root_SECOND_direct_control",
+      "exact_reuse_refs": [
+        "R-510e9de3e16243afcce92e2e@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 2,
+      "heading": "Född / år och månad.",
+      "raw_or_reused": "1897 / Maj [år i sidrubrik; månad återbrukad]",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-d53dad7fd2161f53b6aab1c4@1",
+        "E-birth-P-0001@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 3,
+      "heading": "Född / dag.",
+      "raw_or_reused": "22",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-d53dad7fd2161f53b6aab1c4@1",
+        "E-birth-P-0001@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 4,
+      "heading": "Räknad till församlingen. / Lefv. född. / m.",
+      "raw_or_reused": "1",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "O-P-0001-C0002-sex@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 5,
+      "heading": "Räknad till församlingen. / Lefv. född. / q.",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "O-P-0001-C0002-sex@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 6,
+      "heading": "Räknad till församlingen. / Död-född. / m.",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "O-P-0001-C0002-sex@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 7,
+      "heading": "Räknad till församlingen. / Död-född. / q.",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "O-P-0001-C0002-sex@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 8,
+      "heading": "Dopnamn (förnamn).",
+      "raw_or_reused": "Oskar Alfred",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "M-P-0001-C0002-child@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 9,
+      "heading": "Föräldrar. / Namn, yrke, nationalitet och religionsbekännelse (om främmande) samt bostad.",
+      "raw_or_reused": "Arb. Johan Oskar Zingmark; Degerfors; h. h. Ida Sofia Andersd:r",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "M-P-0001-C0002-father@1",
+        "M-P-0001-C0002-mother@1",
+        "O-P-0001-C0002-father-occupation@1",
+        "O-P-0001-C0002-mother-name@1",
+        "O-P-0001-C0002-residence@1"
+      ],
+      "limit": "Ingen slutsats om specifikt boställe eller tysta nationalitets/religionsuppgifter; hela normtextfältets bevarade sakutvinning återbrukad."
+    },
+    {
+      "column": 10,
+      "heading": "Föräldrar. / Födde år, dag och månad.",
+      "raw_or_reused": "fader 61 28/5; moder 67 15/12",
+      "status": "read",
+      "basis": "father_locked_FIRST_SECOND; mother_documentary_reuse",
+      "exact_reuse_refs": [
+        "O-P-0001-C0002-father-birth@1",
+        "O-P-0028-birth_copy1897@1",
+        "O-P-0001-C0002-mother-birth@1",
+        "TR-d53dad7fd2161f53b6aab1c4@1"
+      ],
+      "limit": "Moderns normaliserade 1867-12-15 återbrukas; råår 67 15/12 återfinns i historiska TR. Fadern indirekt födelseuppgift, ej egen födelsepost."
+    },
+    {
+      "column": 11,
+      "heading": "Modren. / Gift.",
+      "raw_or_reused": "1",
+      "status": "read",
+      "basis": "root_SECOND_direct_control",
+      "exact_reuse_refs": [],
+      "limit": "Markering i Gift, inte antal vigslar eller barn."
+    },
+    {
+      "column": 12,
+      "heading": "Modren. / Enka el. frånskild.",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "root_SECOND_direct_control",
+      "exact_reuse_refs": [],
+      "limit": ""
+    },
+    {
+      "column": 13,
+      "heading": "Modren. / Trolofvad.",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "root_SECOND_direct_control",
+      "exact_reuse_refs": [],
+      "limit": ""
+    },
+    {
+      "column": 14,
+      "heading": "Modren. / Ogift.",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "root_SECOND_direct_control",
+      "exact_reuse_refs": [],
+      "limit": ""
+    },
+    {
+      "column": 15,
+      "heading": "Sida i förs. boken el. i boken öfver obefintl.",
+      "raw_or_reused": "93.3",
+      "status": "read",
+      "basis": "locked_FIRST_SECOND_and_comparison",
+      "exact_reuse_refs": [],
+      "limit": "Endast sidhänvisning; .3 oavgjord, målpost oläst, volym ej härledd."
+    },
+    {
+      "column": 16,
+      "heading": "Döpt / år och månad.",
+      "raw_or_reused": "1897 / Juni [år i sidrubrik]",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "TR-d53dad7fd2161f53b6aab1c4@1",
+        "E-baptism-P-0001@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 17,
+      "heading": "Döpt / dag.",
+      "raw_or_reused": "9",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "E-baptism-P-0001@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 18,
+      "heading": "Döpt / af",
+      "raw_or_reused": "P.P.",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "O-P-0001-C0002-officiant@1"
+      ],
+      "limit": ""
+    },
+    {
+      "column": 19,
+      "heading": "Faddrar.",
+      "raw_or_reused": "Jon.[?] P. Hansson [å hu?] Dfs, Nils Nilsson [y.-like mark?]\n[å hu?] ib. Alb.[?] Wahlund Westerliden Erika\nEriksd:r Dfs, Joh. Lindberg Ekträsk[?] Alma\n[small inserted line above bottom baseline] [L:a/E:a?] Karlsd:r[?] ib.\nForsberg[?] Dfs K.[?] M. Andersson Buberget[?] Dfs[?]",
+      "status": "uncertain",
+      "basis": "locked_FIRST_SECOND_and_comparison",
+      "exact_reuse_refs": [],
+      "limit": "Alla fem geometriska skrivrader; insetens logiska anknytning inte fastställd; inget fast totalantal personer."
+    },
+    {
+      "column": 20,
+      "heading": "Modren kyrkotagen år, dag och månad.",
+      "raw_or_reused": "26 ⁷",
+      "status": "read",
+      "basis": "documentary_reuse",
+      "exact_reuse_refs": [
+        "O-P-0001-C0002-churching@1"
+      ],
+      "limit": "Återbrukad kyrktagning, 1897-07-26 i O; ingen ny bildläsning av sakvärdet."
+    },
+    {
+      "column": 21,
+      "heading": "Särskilda anteckningar, såsom om modrens nedkomstort (om annan än församlingen), inkomna och afsända attester m. m.",
+      "raw_or_reused": "",
+      "status": "blank",
+      "basis": "root_SECOND_direct_control",
+      "exact_reuse_refs": [],
+      "limit": "Tom egen cell; ingen obegränsad negativ slutsats eller positiv fysisk födelseplats."
+    }
+  ],
+  "proposed_changes": [
+    {
+      "id": "TR-T0677-C0002-consolidated-control",
+      "kind": "transcription",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "text": "C-0002, Degerfors C/7 1897 nr 86, sida 82. Konsoliderad avskrift med uttryckligt dokumentärt återbruk och ny kontroll; inte en ny full originalpassage.\n1. Inskrifningens löpande årsnummer. | read | 86 | root_SECOND_direct_control | \n2. Född / år och månad. | read | 1897 / Maj [år i sidrubrik; månad återbrukad] | documentary_reuse | \n3. Född / dag. | read | 22 | documentary_reuse | \n4. Räknad till församlingen. / Lefv. född. / m. | read | 1 | documentary_reuse | \n5. Räknad till församlingen. / Lefv. född. / q. | blank |  | documentary_reuse | \n6. Räknad till församlingen. / Död-född. / m. | blank |  | documentary_reuse | \n7. Räknad till församlingen. / Död-född. / q. | blank |  | documentary_reuse | \n8. Dopnamn (förnamn). | read | Oskar Alfred | documentary_reuse | \n9. Föräldrar. / Namn, yrke, nationalitet och religionsbekännelse (om främmande) samt bostad. | read | Arb. Johan Oskar Zingmark; Degerfors; h. h. Ida Sofia Andersd:r | documentary_reuse | Ingen slutsats om specifikt boställe eller tysta nationalitets/religionsuppgifter; hela normtextfältets bevarade sakutvinning återbrukad.\n10. Föräldrar. / Födde år, dag och månad. | read | fader 61 28/5; moder 67 15/12 | father_locked_FIRST_SECOND; mother_documentary_reuse | Moderns normaliserade 1867-12-15 återbrukas; råår 67 15/12 återfinns i historiska TR. Fadern indirekt födelseuppgift, ej egen födelsepost.\n11. Modren. / Gift. | read | 1 | root_SECOND_direct_control | Markering i Gift, inte antal vigslar eller barn.\n12. Modren. / Enka el. frånskild. | blank |  | root_SECOND_direct_control | \n13. Modren. / Trolofvad. | blank |  | root_SECOND_direct_control | \n14. Modren. / Ogift. | blank |  | root_SECOND_direct_control | \n15. Sida i förs. boken el. i boken öfver obefintl. | read | 93.3 | locked_FIRST_SECOND_and_comparison | Endast sidhänvisning; .3 oavgjord, målpost oläst, volym ej härledd.\n16. Döpt / år och månad. | read | 1897 / Juni [år i sidrubrik] | documentary_reuse | \n17. Döpt / dag. | read | 9 | documentary_reuse | \n18. Döpt / af | read | P.P. | documentary_reuse | \n19. Faddrar. | uncertain | Jon.[?] P. Hansson [å hu?] Dfs, Nils Nilsson [y.-like mark?]\n[å hu?] ib. Alb.[?] Wahlund Westerliden Erika\nEriksd:r Dfs, Joh. Lindberg Ekträsk[?] Alma\n[small inserted line above bottom baseline] [L:a/E:a?] Karlsd:r[?] ib.\nForsberg[?] Dfs K.[?] M. Andersson Buberget[?] Dfs[?] | locked_FIRST_SECOND_and_comparison | Alla fem geometriska skrivrader; insetens logiska anknytning inte fastställd; inget fast totalantal personer.\n20. Modren kyrkotagen år, dag och månad. | read | 26 ⁷ | documentary_reuse | Återbrukad kyrktagning, 1897-07-26 i O; ingen ny bildläsning av sakvärdet.\n21. Särskilda anteckningar, såsom om modrens nedkomstort (om annan än församlingen), inkomna och afsända attester m. m. | blank |  | root_SECOND_direct_control | Tom egen cell; ingen obegränsad negativ slutsats eller positiv fysisk födelseplats.",
+          "reading_note": "FIRST avskriftsblind med känd locator; root SECOND prior-aware men blind för FIRST. Båda låsta före jämförelse. Dokumentärt återbruk: T-0149/T-0154/C-0550 och versionsbundna native bärare i reuse-underlaget. Historiska TR-d53dad7fd2161f53b6aab1c4@1 bevaras oförändrad. Exakta lockfiler/hashar i beslutsunderlaget och audit."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677 C2: förena adekvat äldre fullpostutvinning med den uttryckligt avgränsade kontrolluckan.",
+        "caveat": "Namnosäkerheter och blandad läsmetod synliga. Ingen volyminferens eller personkoppling.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma avgränsade C-0002-post; ingen extra oberoende röst."
+          }
+        ]
+      }
+    },
+    {
+      "id": "AUDIT-T0677-C0002",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "subject_id": "R-510e9de3e16243afcce92e2e",
+          "criteria": "original_revision/1",
+          "outcome": "reviewed_with_reservations",
+          "body": "{\"scope\": \"C2 hela egenpostens 21 tryckta kolumner täckta genom versionsbundet återbruk plus definierad rubrik/blankcell/fader/hänvisning/fadderkontroll. Ingen ny fullpassage.\", \"coverage\": [{\"column\": 1, \"heading\": \"Inskrifningens löpande årsnummer.\", \"raw_or_reused\": \"86\", \"status\": \"read\", \"basis\": \"root_SECOND_direct_control\", \"exact_reuse_refs\": [\"R-510e9de3e16243afcce92e2e@1\"], \"limit\": \"\"}, {\"column\": 2, \"heading\": \"Född / år och månad.\", \"raw_or_reused\": \"1897 / Maj [år i sidrubrik; månad återbrukad]\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-d53dad7fd2161f53b6aab1c4@1\", \"E-birth-P-0001@1\"], \"limit\": \"\"}, {\"column\": 3, \"heading\": \"Född / dag.\", \"raw_or_reused\": \"22\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-d53dad7fd2161f53b6aab1c4@1\", \"E-birth-P-0001@1\"], \"limit\": \"\"}, {\"column\": 4, \"heading\": \"Räknad till församlingen. / Lefv. född. / m.\", \"raw_or_reused\": \"1\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"O-P-0001-C0002-sex@1\"], \"limit\": \"\"}, {\"column\": 5, \"heading\": \"Räknad till församlingen. / Lefv. född. / q.\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"O-P-0001-C0002-sex@1\"], \"limit\": \"\"}, {\"column\": 6, \"heading\": \"Räknad till församlingen. / Död-född. / m.\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"O-P-0001-C0002-sex@1\"], \"limit\": \"\"}, {\"column\": 7, \"heading\": \"Räknad till församlingen. / Död-född. / q.\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"O-P-0001-C0002-sex@1\"], \"limit\": \"\"}, {\"column\": 8, \"heading\": \"Dopnamn (förnamn).\", \"raw_or_reused\": \"Oskar Alfred\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"M-P-0001-C0002-child@1\"], \"limit\": \"\"}, {\"column\": 9, \"heading\": \"Föräldrar. / Namn, yrke, nationalitet och religionsbekännelse (om främmande) samt bostad.\", \"raw_or_reused\": \"Arb. Johan Oskar Zingmark; Degerfors; h. h. Ida Sofia Andersd:r\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"M-P-0001-C0002-father@1\", \"M-P-0001-C0002-mother@1\", \"O-P-0001-C0002-father-occupation@1\", \"O-P-0001-C0002-mother-name@1\", \"O-P-0001-C0002-residence@1\"], \"limit\": \"Ingen slutsats om specifikt boställe eller tysta nationalitets/religionsuppgifter; hela normtextfältets bevarade sakutvinning återbrukad.\"}, {\"column\": 10, \"heading\": \"Föräldrar. / Födde år, dag och månad.\", \"raw_or_reused\": \"fader 61 28/5; moder 67 15/12\", \"status\": \"read\", \"basis\": \"father_locked_FIRST_SECOND; mother_documentary_reuse\", \"exact_reuse_refs\": [\"O-P-0001-C0002-father-birth@1\", \"O-P-0028-birth_copy1897@1\", \"O-P-0001-C0002-mother-birth@1\", \"TR-d53dad7fd2161f53b6aab1c4@1\"], \"limit\": \"Moderns normaliserade 1867-12-15 återbrukas; råår 67 15/12 återfinns i historiska TR. Fadern indirekt födelseuppgift, ej egen födelsepost.\"}, {\"column\": 11, \"heading\": \"Modren. / Gift.\", \"raw_or_reused\": \"1\", \"status\": \"read\", \"basis\": \"root_SECOND_direct_control\", \"exact_reuse_refs\": [], \"limit\": \"Markering i Gift, inte antal vigslar eller barn.\"}, {\"column\": 12, \"heading\": \"Modren. / Enka el. frånskild.\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"root_SECOND_direct_control\", \"exact_reuse_refs\": [], \"limit\": \"\"}, {\"column\": 13, \"heading\": \"Modren. / Trolofvad.\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"root_SECOND_direct_control\", \"exact_reuse_refs\": [], \"limit\": \"\"}, {\"column\": 14, \"heading\": \"Modren. / Ogift.\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"root_SECOND_direct_control\", \"exact_reuse_refs\": [], \"limit\": \"\"}, {\"column\": 15, \"heading\": \"Sida i förs. boken el. i boken öfver obefintl.\", \"raw_or_reused\": \"93.3\", \"status\": \"read\", \"basis\": \"locked_FIRST_SECOND_and_comparison\", \"exact_reuse_refs\": [], \"limit\": \"Endast sidhänvisning; .3 oavgjord, målpost oläst, volym ej härledd.\"}, {\"column\": 16, \"heading\": \"Döpt / år och månad.\", \"raw_or_reused\": \"1897 / Juni [år i sidrubrik]\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"TR-d53dad7fd2161f53b6aab1c4@1\", \"E-baptism-P-0001@1\"], \"limit\": \"\"}, {\"column\": 17, \"heading\": \"Döpt / dag.\", \"raw_or_reused\": \"9\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"E-baptism-P-0001@1\"], \"limit\": \"\"}, {\"column\": 18, \"heading\": \"Döpt / af\", \"raw_or_reused\": \"P.P.\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"O-P-0001-C0002-officiant@1\"], \"limit\": \"\"}, {\"column\": 19, \"heading\": \"Faddrar.\", \"raw_or_reused\": \"Jon.[?] P. Hansson [å hu?] Dfs, Nils Nilsson [y.-like mark?]\\n[å hu?] ib. Alb.[?] Wahlund Westerliden Erika\\nEriksd:r Dfs, Joh. Lindberg Ekträsk[?] Alma\\n[small inserted line above bottom baseline] [L:a/E:a?] Karlsd:r[?] ib.\\nForsberg[?] Dfs K.[?] M. Andersson Buberget[?] Dfs[?]\", \"status\": \"uncertain\", \"basis\": \"locked_FIRST_SECOND_and_comparison\", \"exact_reuse_refs\": [], \"limit\": \"Alla fem geometriska skrivrader; insetens logiska anknytning inte fastställd; inget fast totalantal personer.\"}, {\"column\": 20, \"heading\": \"Modren kyrkotagen år, dag och månad.\", \"raw_or_reused\": \"26 ⁷\", \"status\": \"read\", \"basis\": \"documentary_reuse\", \"exact_reuse_refs\": [\"O-P-0001-C0002-churching@1\"], \"limit\": \"Återbrukad kyrktagning, 1897-07-26 i O; ingen ny bildläsning av sakvärdet.\"}, {\"column\": 21, \"heading\": \"Särskilda anteckningar, såsom om modrens nedkomstort (om annan än församlingen), inkomna och afsända attester m. m.\", \"raw_or_reused\": \"\", \"status\": \"blank\", \"basis\": \"root_SECOND_direct_control\", \"exact_reuse_refs\": [], \"limit\": \"Tom egen cell; ingen obegränsad negativ slutsats eller positiv fysisk födelseplats.\"}], \"locks\": [{\"path\": \"genealogy2/verification/T-0677/c0002-documentary-reuse-candidate-20260924.json\", \"sha256\": \"8e193ccc0fdbcc17e694d1270447da44ab67096cb48eec6db029c8a6e842103e\"}, {\"path\": \"genealogy2/verification/T-0677/c0002-first-control-20260924.json\", \"sha256\": \"6b5c7bf76a365e777218414b290349cfaf68847c791284b59445a09382b4fc0f\"}, {\"path\": \"genealogy2/verification/T-0677/c0002-root-second-control-20260924.json\", \"sha256\": \"e6ac1bea21e8a3adcb4bca216c321f8b925e5536fd506f2eabc0d9e54aa1a837\"}, {\"path\": \"genealogy2/verification/T-0677/c0002-control-comparison-20260924.json\", \"sha256\": \"9d8cd4c4f881798a28eca68e5bbb926cbf983381ab83b4f6aa8d87038a18d220\"}], \"source_sha256\": \"b5a72041a7e7b93a98394bac57d9d861bc8c049824aed95582d7337031cb2ae4\", \"corrections\": \"61 28/5 och 93.3 bekräftade; 25/5, 19/5 och 263.3 är historiska återtagna läsningar. .3 inte fastställt hushåll. Vittnesnamn/abbreviationer och inskjuten rad reserverade.\", \"remaining\": \"Hänvisad post oläst; C-0004 inte prövad i denna del. Root v4-copyimpact hanteras separat. Noll olästa egna kolumner är inte identitetskontrakt/livbild eller alla relaterade källor godkända.\"}"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: bevara metod, provenans och aktuella reservationer i ny native audit.",
+        "caveat": "",
+        "evidence": [
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Konsoliderad källutvinning."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness1",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "Jon.[?] P. Hansson",
+          "role_literal": "fadder"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness2",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "[å hu?]",
+          "role_literal": "textsegment i fadderkolumnen; möjlig hustruangivelse"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg. Tidigare ”hans hustru” är osäker expansion av [å hu?], inte säkert utskrivet namn eller fastställd makekoppling. Befintligt objekt behålls som textsegment; ingen säker separat personräkning.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness3",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "Nils Nilsson [y.-liknande sluttecken?]",
+          "role_literal": "fadder"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness4",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "[å hu?]",
+          "role_literal": "textsegment i fadderkolumnen; möjlig hustruangivelse"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg. Tidigare ”hans hustru” är osäker expansion av [å hu?], inte säkert utskrivet namn eller fastställd makekoppling. Befintligt objekt behålls som textsegment; ingen säker separat personräkning.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness5",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "Alb.[?] Wahlund",
+          "role_literal": "fadder"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness6",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "Erika Eriksd:r",
+          "role_literal": "fadder"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness7",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "Joh. Lindberg",
+          "role_literal": "fadder"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness8",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "Alma Forsberg[?]",
+          "role_literal": "fadder"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness9",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "K.[?] M. Andersson",
+          "role_literal": "fadder"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg. Ortsuttryck Buberget[?] följs av Dfs[?], vars anknytning inte normaliseras.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "M-P-0001-C0002-witness10",
+      "kind": "mention",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "name_literal": "[L:a/E:a?] Karlsd:r[?]",
+          "role_literal": "fadder"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: råform från samma post och låst jämförelse; samma textomnämnande bevaras, ingen ny identitet.",
+        "caveat": "Inga nya identiteter, par eller släktband. Fadderkolumnen är kontext, inte identitetsbelägg. Liten inskjuten rad; anknytning till föregående/slutraden och ib:s antecedent oavgjord. Äldre Lia/Karlsson inte facit.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma källa."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform och reservation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness1-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness1",
+          "property": "source_place_expression",
+          "value_literal": "Dfs",
+          "value_json": {
+            "raw": "Dfs",
+            "normalizedPlace": null,
+            "attachment": "adjacent_in_source",
+            "antecedentResolved": null
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness1",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness2-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness2",
+          "property": "source_place_expression",
+          "value_literal": "Dfs [gemensamt efter [å hu?]-segmentet]",
+          "value_json": {
+            "raw": "Dfs [gemensamt efter [å hu?]-segmentet]",
+            "normalizedPlace": null,
+            "attachment": "uncertain",
+            "antecedentResolved": null
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness2",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness3-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness3",
+          "property": "source_place_expression",
+          "value_literal": "ib.",
+          "value_json": {
+            "raw": "ib.",
+            "normalizedPlace": null,
+            "attachment": "uncertain",
+            "antecedentResolved": false
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness3",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness4-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness4",
+          "property": "source_place_expression",
+          "value_literal": "ib. [efter [å hu?]-segmentet]",
+          "value_json": {
+            "raw": "ib. [efter [å hu?]-segmentet]",
+            "normalizedPlace": null,
+            "attachment": "uncertain",
+            "antecedentResolved": false
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness4",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness5-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness5",
+          "property": "source_place_expression",
+          "value_literal": "Westerliden",
+          "value_json": {
+            "raw": "Westerliden",
+            "normalizedPlace": null,
+            "attachment": "adjacent_in_source",
+            "antecedentResolved": null
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness5",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness6-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness6",
+          "property": "source_place_expression",
+          "value_literal": "Dfs",
+          "value_json": {
+            "raw": "Dfs",
+            "normalizedPlace": null,
+            "attachment": "adjacent_in_source",
+            "antecedentResolved": null
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness6",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness7-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness7",
+          "property": "source_place_expression",
+          "value_literal": "Ekträsk[?]",
+          "value_json": {
+            "raw": "Ekträsk[?]",
+            "normalizedPlace": null,
+            "attachment": "adjacent_in_source",
+            "antecedentResolved": null
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness7",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness8-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness8",
+          "property": "source_place_expression",
+          "value_literal": "Dfs",
+          "value_json": {
+            "raw": "Dfs",
+            "normalizedPlace": null,
+            "attachment": "adjacent_in_source",
+            "antecedentResolved": null
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness8",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness9-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness9",
+          "property": "source_place_expression",
+          "value_literal": "Buberget[?] Dfs[?]",
+          "value_json": {
+            "raw": "Buberget[?] Dfs[?]",
+            "normalizedPlace": null,
+            "attachment": "uncertain",
+            "antecedentResolved": null
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness9",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-P-0001-C0002-witness10-place",
+      "kind": "observation",
+      "expectedVersion": 1,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-witness10",
+          "property": "source_place_expression",
+          "value_literal": "ib.",
+          "value_json": {
+            "raw": "ib.",
+            "normalizedPlace": null,
+            "attachment": "uncertain",
+            "antecedentResolved": false
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: bevara eget råortsuttryck; avstå säker bostadsortsöverföring eller identitetsnormalisering.",
+        "caveat": "Textnära platsuttryck, inte ny personbostad. ib. expanderas inte till säker ort; inskjutna radens anknytning oavgjord. Dfs bevaras rått.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Egen källa."
+          },
+          {
+            "object": "M-P-0001-C0002-witness10",
+            "version": 2,
+            "role": "context",
+            "note": "Textsegment, inte ny identitet."
+          },
+          {
+            "object": "TR-T0677-C0002-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": "Aktuell råform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-T0677-C0002-mother-marital-column",
+      "kind": "observation",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": "M-P-0001-C0002-mother",
+          "property": "marital_status_mark",
+          "value_literal": "1 i Gift; Enka el. frånskild, Trolofvad, Ogift tomma",
+          "value_json": {
+            "giftMark": "1",
+            "otherThreeBlank": true
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677 root SECOND: nytillförd uttrycklig cellkontroll.",
+        "caveat": "Ingen händelse eller obegränsad frånvaroslutsats härleds.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma avgränsade C-0002-post; ingen extra oberoende röst."
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-T0677-C0002-particular-notes-cell",
+      "kind": "observation",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "record_id": "R-510e9de3e16243afcce92e2e",
+          "mention_id": null,
+          "property": "source_cell_blank",
+          "value_literal": "Kolumn 21 tom i egen post",
+          "value_json": {
+            "column": 21,
+            "blank": true,
+            "scope": "nr 86 egen cell"
+          }
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677 root SECOND: nytillförd uttrycklig cellkontroll.",
+        "caveat": "Ingen händelse eller obegränsad frånvaroslutsats härleds.",
+        "evidence": [
+          {
+            "object": "R-510e9de3e16243afcce92e2e",
+            "version": 1,
+            "role": "supports",
+            "note": "Samma avgränsade C-0002-post; ingen extra oberoende röst."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADOPT-T0677-C0002-P-0001",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "subject_id": "P-0001",
+          "criteria": "bounded_source_adoption/1",
+          "outcome": "adopted_with_limits",
+          "body": "C2 egen födelse- och doppost: rubrikkarta/blankceller och svåra fält kompletterade, återbrukad könsmarkering, födelse/dop, föräldrar och kyrktagning. Vittnen textnära med osäkerhet, ingen fast personräkning. PK-05 C2-del förbättrad; Q-03/hänvisad post fortfarande oläst. Befintlig profil/native forskningsstruktur återbrukas. Endast C2-del; C4 och övriga G001-omfång ej avslutade. Ingen ny identity_review/tree_effect/life_picture_review eller automatisk kontraktsgrind."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: avgränsad adoption på den nivå som källrevisionen berör.",
+        "caveat": "",
+        "evidence": [
+          {
+            "object": "AUDIT-T0677-C0002",
+            "version": 1,
+            "role": "derived_from",
+            "note": "C2-del, inte full personrevision."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADOPT-T0677-C0002-P-0028",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "subject_id": "P-0028",
+          "criteria": "bounded_source_adoption/1",
+          "outcome": "adopted_with_limits",
+          "body": "C2 som fadersomnämnande i sonens post: 61 28/5 kontrollerat, råhänvisning 93.3; ingen säker volym eller hushåll 3. Aktuella kopior rättas enligt root v4. Ingen ny läsning av faderns egen födelsepost eller utökad livbild. Befintlig profil/native forskningsstruktur återbrukas. Endast C2-del; C4 och övriga G001-omfång ej avslutade. Ingen ny identity_review/tree_effect/life_picture_review eller automatisk kontraktsgrind."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: avgränsad adoption på den nivå som källrevisionen berör.",
+        "caveat": "",
+        "evidence": [
+          {
+            "object": "AUDIT-T0677-C0002",
+            "version": 1,
+            "role": "derived_from",
+            "note": "C2-del, inte full personrevision."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ADOPT-T0677-C0002-P-0029",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "subject_id": "P-0029",
+          "criteria": "bounded_source_adoption/1",
+          "outcome": "adopted_with_limits",
+          "body": "C2 som modersomnämnande: namn/födelsedatum/kyrktagning dokumentärt återbrukade, Gift=1 och övriga moderskategorier tomma enligt root kontroll. Ingen extra vigsel, ny livshändelse eller ny personidentitet. Befintlig profil/native forskningsstruktur återbrukas. Endast C2-del; C4 och övriga G001-omfång ej avslutade. Ingen ny identity_review/tree_effect/life_picture_review eller automatisk kontraktsgrind."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: avgränsad adoption på den nivå som källrevisionen berör.",
+        "caveat": "",
+        "evidence": [
+          {
+            "object": "AUDIT-T0677-C0002",
+            "version": 1,
+            "role": "derived_from",
+            "note": "C2-del, inte full personrevision."
+          }
+        ]
+      }
+    }
+  ],
+  "priority_claim_dispositions": [
+    {
+      "id": "ID-M-P-0001-C0002-child",
+      "expectedVersion": 1,
+      "decision": "retain_current_C2_component",
+      "rationale": "Barnets Oskar Alfred och födelse/doppostens datum/roll återbrukas; inga ändrade vittnesråformer eller sidhänvisning påverkar barnidentifieringen.",
+      "limit": "Ingen ny identitetsprövning eller heltäckande relationsaudit; C4 återstår."
+    },
+    {
+      "id": "ID-M-P-0001-C0002-father",
+      "expectedVersion": 1,
+      "decision": "retain_current_C2_component",
+      "rationale": "Namngiven fader Johan Oskar Zingmark med indirekt 61 28/5 bekräftad. Äldre felaktig koppling till Johan August är fortsatt avvisad; namngivna faddrar ger inga nya familjeband.",
+      "limit": "Ingen ny identitetsprövning eller heltäckande relationsaudit; C4 återstår."
+    },
+    {
+      "id": "ID-M-P-0001-C0002-mother",
+      "expectedVersion": 1,
+      "decision": "retain_current_C2_component",
+      "rationale": "Namngiven moder Ida Sofia Andersd:r och dokumentärt återbrukat födelsedatum bibehålls. Giftmarkering och kyrktagning hålls åtskilda från personidentitet.",
+      "limit": "Ingen ny identitetsprövning eller heltäckande relationsaudit; C4 återstår."
+    },
+    {
+      "id": "REL-parent-P-0028-P-0001",
+      "expectedVersion": 1,
+      "decision": "retain_current_C2_component",
+      "rationale": "Namngiven fader Johan Oskar Zingmark med indirekt 61 28/5 bekräftad. Äldre felaktig koppling till Johan August är fortsatt avvisad; namngivna faddrar ger inga nya familjeband. C2:s föräldrarubrik stödjer registrerat föräldraskap till Oskar Alfred. Övriga stöd inkl C4 ej originalprövade här; inget påstående om hela relationens stödkedja nyverifierad.",
+      "limit": "Ingen ny identitetsprövning eller heltäckande relationsaudit; C4 återstår."
+    },
+    {
+      "id": "REL-parent-P-0029-P-0001",
+      "expectedVersion": 1,
+      "decision": "retain_current_C2_component",
+      "rationale": "Namngiven moder Ida Sofia Andersd:r och dokumentärt återbrukat födelsedatum bibehålls. Giftmarkering och kyrktagning hålls åtskilda från personidentitet. C2:s föräldrarubrik stödjer registrerat föräldraskap till Oskar Alfred. Övriga stöd inkl C4 ej originalprövade här; inget påstående om hela relationens stödkedja nyverifierad.",
+      "limit": "Ingen ny identitetsprövning eller heltäckande relationsaudit; C4 återstår."
+    }
+  ],
+  "retained_documentary_objects": {
+    "observation_refs": [
+      "O-P-0001-C0002-sex@1",
+      "O-P-0001-C0002-father-occupation@1",
+      "O-P-0001-C0002-mother-name@1",
+      "O-P-0001-C0002-father-birth@1",
+      "O-P-0001-C0002-mother-birth@1",
+      "O-P-0001-C0002-residence@1",
+      "O-P-0001-C0002-officiant@1",
+      "O-P-0001-C0002-household-reference@1",
+      "O-P-0001-C0002-witness1-place@1",
+      "O-P-0001-C0002-witness2-place@1",
+      "O-P-0001-C0002-witness3-place@1",
+      "O-P-0001-C0002-witness4-place@1",
+      "O-P-0001-C0002-witness5-place@1",
+      "O-P-0001-C0002-witness6-place@1",
+      "O-P-0001-C0002-witness7-place@1",
+      "O-P-0001-C0002-witness8-place@1",
+      "O-P-0001-C0002-witness9-place@1",
+      "O-P-0001-C0002-witness10-place@1",
+      "O-P-0001-C0002-churching@1",
+      "O-P-0028-folio263@1",
+      "O-P-0028-birth_copy1897@1"
+    ],
+    "mention_refs": [
+      "M-P-0001-C0002-child@1",
+      "M-P-0001-C0002-father@1",
+      "M-P-0001-C0002-mother@1",
+      "M-P-0001-C0002-witness1@1",
+      "M-P-0001-C0002-witness2@1",
+      "M-P-0001-C0002-witness3@1",
+      "M-P-0001-C0002-witness4@1",
+      "M-P-0001-C0002-witness5@1",
+      "M-P-0001-C0002-witness6@1",
+      "M-P-0001-C0002-witness7@1",
+      "M-P-0001-C0002-witness8@1",
+      "M-P-0001-C0002-witness9@1",
+      "M-P-0001-C0002-witness10@1"
+    ],
+    "events": [
+      "E-birth-P-0001@1",
+      "E-baptism-P-0001@1"
+    ],
+    "qualification": "List is provenance inventory, not blanket unchanged: witness O/M revisions above and root v4 reference revisions take precedence."
+  },
+  "coordination_with_v4": {
+    "reference_objects": "Root v4 owns O-P-0001-C0002-household-reference and O-P-0028-folio263 correction, plus narrative/research copies. Do not duplicate those changes.",
+    "same_revision_merge": "New witness rationale may also require tightening current PK05 prose about explicitly named wives; root must merge with v4 if same object already revised.",
+    "source_raw_replacements": "Historical quotations stay historical; all current certainty claims about wives/ib/person count must match this proposal."
+  },
+  "required_followup_before_apply": [
+    "Root final semantic review of this proposal including conservative Forsberg[?] and K.[?].",
+    "Check native outcome vocabulary/structural validator when packaging; proposal labels are not silently approved operational vocabulary.",
+    "Re-read expected versions at packaging; preserve origins/evidence not explicitly superseded.",
+    "Inspect any current EP links of witness2/witness4: retain only qualified textsegment participation, never certainty of two wives/new people; no fixed participant count.",
+    "Review EP witness10 and place dependencies with inset uncertainty.",
+    "Use actual generated dependency request IDs only; individually justify retain/correction.",
+    "Run validators and focused regression after authorized apply; no apply by this agent."
+  ],
+  "limitations": [
+    "Consolidated coverage is reuse plus bounded controls, not new full-post reading.",
+    "Mother churching value retained from documented earlier extraction, not newly re-read.",
+    "Dfs remains raw and ib unresolved wherever antecedent unclear.",
+    "No new persons, gender, spouse edges, pair grouping or witness identities.",
+    "C4 remains unread; no complete G001/task or person-contract conclusion."
+  ]
+}

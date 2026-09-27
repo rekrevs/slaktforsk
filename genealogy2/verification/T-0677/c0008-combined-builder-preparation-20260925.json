@@ -1,0 +1,560 @@
+{
+  "task": "T-0677",
+  "state": "READ_ONLY_COMBINED_BUILDER_PREPARATION_NOT_OPERATION",
+  "canonical_head": "000000186-f874c2301c53934c73d14d42646aa355aac2f0a8766d645d1fe36c8adff1ea33.json",
+  "pending": 0,
+  "inputs": {
+    "source": {
+      "path": "genealogy2/verification/T-0677/c0008-native-source-proposed-v2-20260925.json",
+      "sha256": "914f51cde112763290b0d7136bbd0eb7dca24457da3b75f4a63b033a80979fe5"
+    },
+    "person": {
+      "path": "genealogy2/verification/T-0677/c0008-person-copy-impact-proposed-20260925.json",
+      "sha256": "53059b2b911461f412578d534172be9a6a571fea04ef77ec3c0db1ebf0774188"
+    },
+    "addendum": {
+      "path": "genealogy2/verification/T-0677/c0008-person-E-EP-evidence-addendum-proposed-20260925.json",
+      "sha256": "a8b7125fd9695117a1889302b3796c30dbb3a9f5b3ebc49cef65d18a9cc79f5c"
+    },
+    "source_acceptance": {
+      "path": "genealogy2/verification/T-0677/c0008-root-source-proposal-acceptance-20260925.json",
+      "sha256": "da882bba04e379aa8a0f6ebf6fa59d9a56d4b230ec041bb28ad096d28a0427ff"
+    }
+  },
+  "counts": {
+    "objects": 15,
+    "source": 5,
+    "person_revision_objects": 8,
+    "person_fields": 10,
+    "adoptions": 2,
+    "revisions": 10,
+    "creates": 5,
+    "explicit_person_evidence_addenda": 4,
+    "stale_old_basis_edges": 0
+  },
+  "source_checks": [
+    {
+      "object_id": "R-70eeff109bc651dce649a0ee",
+      "action": "revise",
+      "current_revision": "R-70eeff109bc651dce649a0ee@1",
+      "changed_typed_fields": [],
+      "before_evidence": [
+        {
+          "object": "S-0008",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ],
+      "proposed_evidence": [
+        {
+          "object": "S-0008",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: source_id"
+        }
+      ],
+      "origins_preserved": true,
+      "before_caveat": "Tomt fadersfält. Senare läsning anger dop 1916-10-22, inte samma år som födelsen; arbetsgivartolkningen har avvisats.\nC-0008: Senaste fadderläsningen ger Maskinisten C.F. Jaensson/Jansson[?] Ljungbacka och fru Olga Wilh:a Lundin Skarpdal[?]. Dessa namn är vittnesläsningar, inte färdiga identitetskopplingar. Födelse i Flen och dopets anteckning måste hållas isär; faktisk dopplats är inte säkert belagd här.",
+      "proposed_caveat": "Tomt fadersfält. Senare läsning anger dop 1916-10-22, inte samma år som födelsen; arbetsgivartolkningen har avvisats.\nC-0008: Den låsta fadderläsningen ger lägenhetsäg[?] C.F. Jaensson[?] (Jansson är alternativ), Ljungbacka och fru Olga Wilh:a Lundin Skarpdal[?]. Dessa namn är vittnesläsningar, inte färdiga identitetskopplingar. Födelse i Flen och dopets anteckning måste hållas isär; faktisk dopplats är inte säkert belagd här. Yrkesordets slut och interpunktion är reserverade. Maskinisten bevaras som tidigare avvisad läsning; ingen faktisk fastighetsanknytning eller vittnesidentitet härleds."
+    },
+    {
+      "object_id": "M-P-0003-C0008-witness1",
+      "action": "revise",
+      "current_revision": "M-P-0003-C0008-witness1@1",
+      "changed_typed_fields": [
+        "name_literal",
+        "role_literal"
+      ],
+      "before_evidence": [
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "proposed_evidence": [
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 2,
+          "role": "supports",
+          "note": "Samma avgränsade post med korrigerad yrkesläsning; föreslagen individuell versionskant för rootprövning."
+        },
+        {
+          "object": "TR-T0677-C0008-consolidated-control",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Reserverad råform i kolumn 19."
+        }
+      ],
+      "origins_preserved": true,
+      "before_caveat": "",
+      "proposed_caveat": "Jansson är alternativ läsning. lägenhetsäg[?] är förkortad råform; lägenhetsägare är möjlig expansion, inte säker utskriven text eller bevis om fastighetsinnehav. Ingen personidentitet tilldelas. Äldre maskinist-läsning bevaras i föregående revision."
+    },
+    {
+      "object_id": "O-T0677-C0008-mother-qualifier",
+      "action": "create",
+      "absent": true,
+      "typed_data_keys": [
+        "mention_id",
+        "property",
+        "record_id",
+        "value_json",
+        "value_literal"
+      ],
+      "origin_count": 0,
+      "evidence": [
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 2,
+          "role": "supports",
+          "note": ""
+        },
+        {
+          "object": "M-P-0003-C0008-mother",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Samma tidigare identifierade moderomnämnande; namn och identitet inte omprövade."
+        },
+        {
+          "object": "TR-T0677-C0008-consolidated-control",
+          "version": 1,
+          "role": "derived_from",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "object_id": "TR-T0677-C0008-consolidated-control",
+      "action": "create",
+      "absent": true,
+      "typed_data_keys": [
+        "reading_note",
+        "record_id",
+        "text"
+      ],
+      "origin_count": 0,
+      "evidence": [
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 2,
+          "role": "derived_from",
+          "note": ""
+        },
+        {
+          "object": "TR-3fbcededa793c7d3068934e6",
+          "version": 1,
+          "role": "context",
+          "note": "Historisk avskrift; senare T-0123-rättelser och exakta återbruksreferenser redovisas i matrisen."
+        }
+      ]
+    },
+    {
+      "object_id": "AUDIT-T0677-C0008",
+      "action": "create",
+      "absent": true,
+      "typed_data_keys": [
+        "body",
+        "criteria",
+        "outcome",
+        "subject_id"
+      ],
+      "origin_count": 0,
+      "evidence": [
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 2,
+          "role": "supports",
+          "note": ""
+        },
+        {
+          "object": "TR-T0677-C0008-consolidated-control",
+          "version": 1,
+          "role": "supports",
+          "note": ""
+        },
+        {
+          "object": "READ-ac25a39f81a0aa2a42e74d04",
+          "version": 1,
+          "role": "context",
+          "note": "Historisk postavgränsning; inte en tidigare fullkolumnskontroll."
+        }
+      ]
+    }
+  ],
+  "person_checks": [
+    {
+      "object_id": "CONTRACT-P-0003-PK-04",
+      "current_revision": "CONTRACT-P-0003-PK-04@1",
+      "fields": [
+        "body"
+      ],
+      "origins_preserved": true,
+      "before_evidence": [],
+      "proposed_evidence": [
+        {
+          "object": "AUDIT-T0677-C0008",
+          "version": 1,
+          "role": "supports",
+          "note": "Fadderfältets avgränsade kontroll är klar; inga personidentiteter avgjorda."
+        }
+      ],
+      "explicit_addendum": false
+    },
+    {
+      "object_id": "CONTRACT-P-0003-PK-05",
+      "current_revision": "CONTRACT-P-0003-PK-05@2",
+      "fields": [
+        "body",
+        "caveat"
+      ],
+      "origins_preserved": true,
+      "before_evidence": [
+        {
+          "object": "TR-T0675-SF-47",
+          "version": 1,
+          "role": "supports",
+          "note": "Full egen post med explicita råreservationer och två låsta läsningar."
+        }
+      ],
+      "proposed_evidence": [
+        {
+          "object": "TR-T0675-SF-47",
+          "version": 1,
+          "role": "supports",
+          "note": "Full egen post med explicita råreservationer och två låsta läsningar."
+        },
+        {
+          "object": "AUDIT-T0677-C0008",
+          "version": 1,
+          "role": "supports",
+          "note": "C-0008 nr 10: 23 enheter, nio helt återbrukade, elva hela luckenheter och tre partiella kontroller."
+        }
+      ],
+      "explicit_addendum": false
+    },
+    {
+      "object_id": "E-baptism-P-0003",
+      "current_revision": "E-baptism-P-0003@1",
+      "fields": [
+        "caveat"
+      ],
+      "origins_preserved": true,
+      "before_evidence": [
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "proposed_evidence": [
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "object": "TR-T0677-C0008-consolidated-control",
+          "version": 1,
+          "role": "supports",
+          "note": "Dopdatum återbrukat och fadderfält prövat med reserverade läsningar; fysisk dopplats ej belagd."
+        },
+        {
+          "object": "AUDIT-T0677-C0008",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad relevant utvinning, inte identitetsgodkännande för vittnen."
+        }
+      ],
+      "explicit_addendum": true
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness",
+      "current_revision": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness@1",
+      "fields": [
+        "caveat"
+      ],
+      "origins_preserved": true,
+      "before_evidence": [
+        {
+          "object": "E-baptism-P-0003",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "object": "M-P-0003-C0008-witness1",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "proposed_evidence": [
+        {
+          "object": "E-baptism-P-0003",
+          "version": 2,
+          "role": "derived_from",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "object": "M-P-0003-C0008-witness1",
+          "version": 2,
+          "role": "derived_from",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "object": "M-P-0003-C0008-witness1",
+          "version": 2,
+          "role": "supports",
+          "note": "Just detta källomnämnande, utan ny P- eller ID-koppling."
+        },
+        {
+          "object": "TR-T0677-C0008-consolidated-control",
+          "version": 1,
+          "role": "supports",
+          "note": "Fadderkolumnens omnämnande 1, egen ord-/ortreservation."
+        }
+      ],
+      "explicit_addendum": true
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness",
+      "current_revision": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness@1",
+      "fields": [
+        "caveat"
+      ],
+      "origins_preserved": true,
+      "before_evidence": [
+        {
+          "object": "E-baptism-P-0003",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "object": "M-P-0003-C0008-witness2",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "proposed_evidence": [
+        {
+          "object": "E-baptism-P-0003",
+          "version": 2,
+          "role": "derived_from",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "object": "M-P-0003-C0008-witness2",
+          "version": 1,
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "object": "R-70eeff109bc651dce649a0ee",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "object": "M-P-0003-C0008-witness2",
+          "version": 1,
+          "role": "supports",
+          "note": "Just detta källomnämnande, utan ny P- eller ID-koppling."
+        },
+        {
+          "object": "TR-T0677-C0008-consolidated-control",
+          "version": 1,
+          "role": "supports",
+          "note": "Fadderkolumnens omnämnande 2, egen ord-/ortreservation."
+        }
+      ],
+      "explicit_addendum": true
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-P-0003-baptized",
+      "current_revision": "EP-E-baptism-P-0003-P-0003-baptized@1",
+      "fields": [
+        "caveat"
+      ],
+      "origins_preserved": true,
+      "before_evidence": [
+        {
+          "object": "E-baptism-P-0003",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "proposed_evidence": [
+        {
+          "object": "E-baptism-P-0003",
+          "version": 2,
+          "role": "supports",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "object": "TR-T0677-C0008-consolidated-control",
+          "version": 1,
+          "role": "supports",
+          "note": "Dopdatum återbrukat och fadderfält prövat med reserverade läsningar; fysisk dopplats ej belagd."
+        },
+        {
+          "object": "AUDIT-T0677-C0008",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad relevant utvinning, inte identitetsgodkännande för vittnen."
+        }
+      ],
+      "explicit_addendum": true
+    },
+    {
+      "object_id": "PATH-P-0003-KP-07",
+      "current_revision": "PATH-P-0003-KP-07@3",
+      "fields": [
+        "body",
+        "caveat"
+      ],
+      "origins_preserved": true,
+      "before_evidence": [
+        {
+          "object": "AUDIT-T0676-19",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad egenkortsaudit med fulla fält och reservationer."
+        },
+        {
+          "object": "R-79718825d117bf31d16b4fe7",
+          "version": 2,
+          "role": "supports",
+          "note": "Egen daterad registerfångst, inte oberoende historisk röst."
+        },
+        {
+          "object": "TR-T0675-SF-47",
+          "version": 1,
+          "role": "supports",
+          "note": "Full egen post med explicita råreservationer och två låsta läsningar."
+        },
+        {
+          "object": "TR-f8452336291854e1b3447ada",
+          "version": 2,
+          "role": "supports",
+          "note": "Egen full avskrift för samma administrativa registerpost."
+        }
+      ],
+      "proposed_evidence": [
+        {
+          "object": "AUDIT-T0676-19",
+          "version": 1,
+          "role": "supports",
+          "note": "Avgränsad egenkortsaudit med fulla fält och reservationer."
+        },
+        {
+          "object": "R-79718825d117bf31d16b4fe7",
+          "version": 2,
+          "role": "supports",
+          "note": "Egen daterad registerfångst, inte oberoende historisk röst."
+        },
+        {
+          "object": "TR-T0675-SF-47",
+          "version": 1,
+          "role": "supports",
+          "note": "Full egen post med explicita råreservationer och två låsta läsningar."
+        },
+        {
+          "object": "TR-f8452336291854e1b3447ada",
+          "version": 2,
+          "role": "supports",
+          "note": "Egen full avskrift för samma administrativa registerpost."
+        },
+        {
+          "object": "TR-T0677-C0008-consolidated-control",
+          "version": 1,
+          "role": "supports",
+          "note": "Reserverade aktuella sökformer och full avgränsad cellkontroll."
+        },
+        {
+          "object": "AUDIT-T0677-C0008",
+          "version": 1,
+          "role": "supports",
+          "note": "C-0008:s utvinningsskuld dispositionerad med reservationer."
+        }
+      ],
+      "explicit_addendum": false
+    },
+    {
+      "object_id": "THEME-P-0003-SAM",
+      "current_revision": "THEME-P-0003-SAM@1",
+      "fields": [
+        "body"
+      ],
+      "origins_preserved": true,
+      "before_evidence": [],
+      "proposed_evidence": [
+        {
+          "object": "AUDIT-T0677-C0008",
+          "version": 1,
+          "role": "supports",
+          "note": "Prövat fadderfält med kvarstående läsreservationer, inte ny vittnesidentitet."
+        }
+      ],
+      "explicit_addendum": false
+    }
+  ],
+  "prepared_change_order": [
+    "R-70eeff109bc651dce649a0ee",
+    "TR-T0677-C0008-consolidated-control",
+    "M-P-0003-C0008-witness1",
+    "O-T0677-C0008-mother-qualifier",
+    "AUDIT-T0677-C0008",
+    "CONTRACT-P-0003-PK-04",
+    "CONTRACT-P-0003-PK-05",
+    "E-baptism-P-0003",
+    "PATH-P-0003-KP-07",
+    "THEME-P-0003-SAM",
+    "ADOPT-T0677-C0008-P-0003",
+    "ADOPT-T0677-C0008-P-0009",
+    "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness",
+    "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness",
+    "EP-E-baptism-P-0003-P-0003-baptized"
+  ],
+  "approved_rebase_targets": [
+    "M-P-0003-C0008-witness1",
+    "E-baptism-P-0003",
+    "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness",
+    "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness",
+    "EP-E-baptism-P-0003-P-0003-baptized"
+  ],
+  "adoption_outcome_planned": "adopted_with_limits",
+  "builder_ready_but_not_emitted": true,
+  "operation_emitted": false,
+  "temp_apply_run": false,
+  "awaits_root_final_substantive_acceptance": true,
+  "limits": [
+    "No canonical apply or pending resolution.",
+    "No automatic evidence rebase beyond individually reviewed M and four E/EP objects.",
+    "Person copy package and adoption outcome require root final acceptance before operation emission."
+  ]
+}

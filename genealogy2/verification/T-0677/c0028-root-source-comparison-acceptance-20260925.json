@@ -1,0 +1,69 @@
+{
+  "task": "T-0677",
+  "state": "SOURCE_RESULT_ACCEPTED_WITH_RESERVATIONS_NO_MORE_IMAGE_ACCESS",
+  "inputs": [
+    {
+      "file": "c0028-root-gaps-locked-20260925.json",
+      "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+    },
+    {
+      "file": "c0028-independent-gaps-20260925.json",
+      "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+    }
+  ],
+  "whole_blank_columns": [
+    4,
+    6,
+    7,
+    11,
+    13,
+    14,
+    20
+  ],
+  "selected_fields": [
+    {
+      "column": 5,
+      "scope": "partial",
+      "raw": "kort svagt snett/vågrätt streck under återbrukad1",
+      "decision": "Both agree, no normalized meaning or extra number."
+    },
+    {
+      "column": 12,
+      "raw": "/",
+      "decision": "Conservative raw slanted count mark; root saw1, independent slash. Single stroke under Änka el. frånskild., not numerical or standalone widow diagnosis."
+    },
+    {
+      "column": 18,
+      "raw": "v. pastor[?] / [initial?] [svårläst efternamn]",
+      "readings": {
+        "root": "P.[?] Land[berg?], alternativ Landby[?]",
+        "independent": "[initial?] Sandberg[?]"
+      },
+      "decision": "Preserve both individual raw locks and alternatives; no settled spelling, P/ID, person identification or physical baptism place. Title preferred v.pastor but retain mild uncertainty. Same-band surname flourish beyond column border belongs to officiant, not witness."
+    },
+    {
+      "column": 21,
+      "raw": "[svaga spår; ingen läsbar anteckning]",
+      "decision": "Root first classed blank, independent notes short gray trace. Select cautious unresolved_trace, no date/letter or origin inferred. No need further image access for this bounded result."
+    }
+  ],
+  "accounting": {
+    "whole_reuse": 12,
+    "whole_gaps": 10,
+    "whole_gaps_blank": 7,
+    "whole_gaps_count_mark": 1,
+    "whole_gaps_reserved_text": 1,
+    "whole_gaps_uncertain_trace": 1,
+    "partial_gap": 1,
+    "physical_units": 23,
+    "numbered_columns": 21
+  },
+  "reused_count_mapping": "Documentary1 geometrically located by both readers in column5, lefv.född.kv. This is explicit column binding, not a new rawvalue reading. Assess person effect explicitly before any sex-field revision.",
+  "documentary_occupation_correction": "Prior TR/READ separate järnvägsarb. from dwelling banvakt70. Four-object/six-field person proposal remains separate for substantive review.",
+  "limits": [
+    "No new images or crosssources needed.",
+    "No witness identity, parent relation, marriage, widowdate conflict or physical place resolved.",
+    "Prepare full23matrix TR/AUDIT and bounded per-person adoption; no canonical apply until separate rootacceptance.",
+    "No automatic gate upgrade."
+  ]
+}

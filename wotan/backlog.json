@@ -56,35 +56,34 @@
     },
     {
       "id": "T-0675",
-      "status": "BLOCKED",
+      "status": "DONE",
       "size": "L",
       "after": [
         "T-0673"
       ],
       "summary": "Originalrevision G023: originalposter",
-      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering. Ägarbegärd paus; återuppta från senaste Återupptagning i dev-log efter ny instruktion.",
-      "blocker": "Ägarbegärd paus 2026-09-18; inväntar uttrycklig instruktion att återuppta ordinarie forskning. Sparad fas: VERIFYING."
+      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Ägaren återupptar kontinuerligt utförande 2026-09-20: slutför T-0675 först, sedan T-0676 från sparad checkpoint. Ingen upprepning av avslutad forskning."
     },
     {
       "id": "T-0676",
-      "status": "BLOCKED",
+      "status": "DONE",
       "size": "L",
       "after": [
         "T-0673"
       ],
       "summary": "Originalrevision G024: originalposter",
-      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering. Ägarbegärd paus; återuppta från senaste Återupptagning i dev-log efter ny instruktion.",
-      "blocker": "Ägarbegärd paus 2026-09-18; inväntar uttrycklig instruktion att återuppta ordinarie forskning. Sparad fas: PLANNING."
+      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Ägaren återupptar kontinuerligt utförande 2026-09-20: slutför T-0675 först, sedan T-0676 från sparad checkpoint. Ingen upprepning av avslutad forskning."
     },
     {
       "id": "T-0677",
-      "status": "READY",
+      "status": "ONGOING",
       "size": "L",
       "after": [
         "T-0673"
       ],
       "summary": "Originalrevision G001: originalposter",
-      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering."
+      "note": "Ändligt originalrevisionsomfång enligt PCD-2026-09-18-003. Prioritet enligt explicit stödgraf; ingen källtolkning eller godkännande genom inventering.",
+      "phase": "IMPLEMENTING"
     },
     {
       "id": "T-0678",
@@ -5247,7 +5246,7 @@
         "T-0149",
         "T-0115"
       ],
-      "summary": "Läs Degerfors A I/11 c sida 93, hushåll 3"
+      "summary": "Pröva Degerfors hänvisning 93.3: A I/11c sida 93 som huvudalternativ"
     },
     {
       "id": "T-0374",
@@ -8017,13 +8016,12 @@
     },
     {
       "id": "T-0768",
-      "status": "BLOCKED",
+      "status": "READY",
       "size": "M",
       "after": [
         "T-0675"
       ],
       "summary": "Villy Anders Eriks födelsetid: egen post mot 1922- och 1927-uppgifter",
-      "blocker": "T-0675 slutför och låser källkonfliktens underlag.",
       "note": "Avgränsad följd av G023/C0935: P0258, högst januari1922 och november1927 i Sättnas födelseunderlag; ingen senare livsforskning eller tyst personändring."
     },
     {
@@ -8032,6 +8030,26 @@
       "size": "L",
       "summary": "Kontrollerat modelltest: 60 oberoende försök för källäsning, följdprövning och ändringspaket",
       "note": "60/60 isolerade försök avslutade; blind sakgranskning, native tester och kostnadsproxy bevarade i evaluations/T-0769/report.md. Begränsningar och känslighetsanalyser redovisade. Ordinarie forskning T-0675/T-0676 fortsatt pausad."
+    },
+    {
+      "id": "T-0770",
+      "status": "READY",
+      "size": "L",
+      "after": [
+        "T-0676"
+      ],
+      "summary": "C-0907:s avgränsade historiska nollomfång i Umeå A II a/15 och A II a/23",
+      "note": "49 folioenheter: A II a/15 föregående fol. 2284 bild 00206287_00164 samt A II a/23 fol. 2280–2283 och 2285–2328. T-0676/G024:s fol. 2284 R är en annan, redan läst post. Börja efter T-0676; exakt återanvändning före ny kontroll."
+    },
+    {
+      "id": "T-0771",
+      "status": "READY",
+      "size": "M",
+      "after": [
+        "T-0676"
+      ],
+      "summary": "Johan Magnus Zingmarks första fortsättningspost efter Umeå fol. 1839",
+      "note": "P-0033 och Sigrid Elisabet Vikner i C-0916 Umeå stad A II a/5 e fol. 1839, bild 00206417_00013 r13–14; pröva egna utflyttningsditton och första verifierade fortsättningspost från r13–14 oavsett datering inom den katalogiserade volymperioden. Brage 2 hör r13, som reserverad söknyckel. Ingen bred livsutredning eller antaget 1949-datum."
     },
     {
       "id": "T-0772",

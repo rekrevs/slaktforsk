@@ -1,0 +1,39 @@
+{
+  "task": "T-0677",
+  "state": "TEMP_C0032_PERSON_APPLY_REJECTED_NO_PERSON_CHANGES",
+  "canonical_base": {
+    "journal": 198,
+    "pending": 0
+  },
+  "temp_after_source": {
+    "journal": 199,
+    "source_changes": 6,
+    "pending": 14
+  },
+  "source_operation": {
+    "file": "c0032-source-proposed-operation-20260926.json",
+    "sha256": "bf0e10941f3708f86e2f8424524392440bee4c92221a96699611f993cb5153d8"
+  },
+  "person_operation": {
+    "file": "c0032-person-proposed-operation-20260926.json",
+    "sha256": "ff4e546e6cff2fe433793cb90357f74cf31a0ce98547909fe55b9d44de345a22"
+  },
+  "error": "Beläggsversion saknas eller är inaktuell: R-05055c1adb1f17278c7a5ec6@1",
+  "first_conflict": {
+    "change": "E-death-P-0042@2",
+    "existing_evidence": "R-05055c1adb1f17278c7a5ec6@1",
+    "new_source_head": "R-05055c1adb1f17278c7a5ec6@2",
+    "same_change_new_evidence": [
+      "TR-T0677-C0032-consolidated-control@1",
+      "O-T0677-C0032-row17-control@1"
+    ]
+  },
+  "additional_same_operation_risk": {
+    "change": "ADOPT-T0677-C0032-P-0042@1",
+    "context_evidence": "O-P-0042-death1937-death_entry@1",
+    "same_person_operation_revises": "O-P-0042-death1937-death_entry@2"
+  },
+  "required_root_decisions": "E-death cannot retain old R@1 as current evidence after R@2 and simultaneously use new TR/O that require R@2. Root must specify evidence treatment (or altered operation sequencing with explicit changes). If historical Odeath@1 context is retained, separate adoption from Odeath revision into a later operation as in C0030. No automatic rebase or splitting performed.",
+  "no_canonical_apply": true,
+  "no_person_temp_apply": true
+}

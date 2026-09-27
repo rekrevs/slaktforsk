@@ -1,0 +1,31 @@
+[
+  {
+    "name": "legacy-validate",
+    "command": [
+      "node",
+      "scripts/validate-genealogy.mjs"
+    ],
+    "exitCode": 0,
+    "log": "genealogy2/verification/T-0676/legacy-validate-20260924T094208Z.log"
+  },
+  {
+    "name": "legacy-tests",
+    "command": [
+      "node",
+      "--test",
+      "scripts/"
+    ],
+    "exitCode": 0,
+    "log": "genealogy2/verification/T-0676/legacy-tests-20260924T094208Z.log"
+  },
+  {
+    "name": "legacy-media",
+    "command": [
+      "node",
+      "scripts/media-manifest.mjs",
+      "--check"
+    ],
+    "exitCode": 0,
+    "log": "genealogy2/verification/T-0676/legacy-media-20260924T094208Z.log"
+  }
+]

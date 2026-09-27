@@ -1,0 +1,231 @@
+{
+  "schema": "independent-bounded-source-control/1",
+  "task": "T-0677",
+  "date": "2026-09-25",
+  "reader": "Astra c0004_control",
+  "state": "LOCKED_STAGE1_BEFORE_COMPARISON_STOP_BOUNDARY_EXTENSION",
+  "authority": {
+    "path": "genealogy2/verification/T-0677/c0751-root-stage1-plan-acceptance-20260925.json",
+    "sha256": "37d2c6e7ff1f2cd630e53fa2f89f6807b5a350cce386744c5719f0ddac82ee17"
+  },
+  "sources": [
+    {
+      "path": "genealogy/media/C-0751-riksarkivet-folkrakning1900-Folk_024008-077-zingmark-lindberg.jpg",
+      "sha256": "eda34d206d81879f9ad7bc4797940df05cbf9dcb168ff4a20a2ee0bbb8e52910"
+    },
+    {
+      "path": "genealogy/media/C-0751-riksarkivet-folkrakning1900-Folk_024008-078-zingmark-lindberg.jpg",
+      "sha256": "73f54dcc59a62a5032eb9a79e6090bed33ae8ff0d3a3c5c6f3d3cd5cb60c875f"
+    }
+  ],
+  "method": {
+    "prior_knowledge": "Dokumentär C0751-förkunskap, inklusive äldre gränstvist. Inte blind. Ingen root-STAGE1-läsning eller utfall läst.",
+    "scope": "Rubriker och fysisk kolumngeometri för båda sidor; vänsterklammer kring sista6rader77 och första6rader78. Inga positiva namn/år/födelseorter transkriberade, inga gapceller lästa.",
+    "visual_method": "sips-utsnitt ur två lokala original, rubriker och smal vänstermarginal; lokal förstoring utan ny information. Ingen extern åtkomst eller OCR.",
+    "crop_bounds_native": [
+      {
+        "page": 77,
+        "box_xywh": [
+          1,
+          1,
+          799,
+          145
+        ]
+      },
+      {
+        "page": 78,
+        "box_xywh": [
+          1,
+          1,
+          799,
+          145
+        ]
+      },
+      {
+        "page": 77,
+        "box_xywh": [
+          1,
+          1160,
+          40,
+          219
+        ]
+      },
+      {
+        "page": 78,
+        "box_xywh": [
+          1,
+          123,
+          40,
+          160
+        ]
+      },
+      {
+        "page": 78,
+        "box_xywh": [
+          1,
+          230,
+          34,
+          100
+        ],
+        "purpose": "Klammerns slut vid nedre scopegränsen, inga namnkolumner."
+      },
+      {
+        "page": 78,
+        "box_xywh": [
+          1,
+          124,
+          60,
+          200
+        ],
+        "purpose": "Radlinjer och klammerslut; korta prefix råkar exponeras men inga nya roller eller namn avskrivs."
+      }
+    ],
+    "unused_crop": "/tmp/c0751-independent-geometry78.jpg skapades men öppnades inte; ingår inte i läsbevis."
+  },
+  "overall_header": {
+    "printed": "Utdrag ur Församlingsboken för … förs. i … kontrakt, … län, d. 31/12 1900.",
+    "filled_both": "Degerfors; V/Westerbottens 1sta [liten ordningsändelse osäker] kontrakt; V/Westerbottens län.",
+    "pages": [
+      "77",
+      "78"
+    ],
+    "margin_heading": "Hushåll eller matlag.",
+    "reservation": "Små datumtyper, initialens V/W och kontraktstilläggets lilla ändelse lågupplösta. Huvudtyp Utdrag ur Församlingsboken tydligt på båda sidor."
+  },
+  "columns_both_pages": [
+    {
+      "key": "name_role",
+      "number": "1",
+      "heading": "By eller lägenhet (qvarter eller rote i stad). (Bynamnet skrifves på särskild rad och understrykes.) Namn (fullständigt) å hvarje person; familjeställning (h. = hustru, s. = son, d. = dotter o. s. v.); titel (om annan än den i kol. 2 angifna); icke döpt.",
+      "x_approx": [
+        35,
+        287
+      ]
+    },
+    {
+      "key": "occupation_tribe_impairment",
+      "number": "2",
+      "heading": "Yrke (tjenst, näringsfång). Stam (främmande). Lyte (fallandesot, sinnessjuk, idiot, blind, döfstum).",
+      "x_approx": [
+        287,
+        406
+      ]
+    },
+    {
+      "key": "birth_year",
+      "number": "3 [småtryck]",
+      "heading": "Födelse- / år.",
+      "x_approx": [
+        406,
+        437
+      ]
+    },
+    {
+      "key": "birthplace",
+      "number": "[osäker siffra]",
+      "heading": "Födelse- / ort (församling i län eller i stad).",
+      "x_approx": [
+        437,
+        554
+      ]
+    },
+    {
+      "key": "unmarried_m",
+      "number": "gemensamt 7–[oläst slut]",
+      "heading": "Ogift. / m.",
+      "x_approx": [
+        554,
+        570
+      ]
+    },
+    {
+      "key": "unmarried_q",
+      "number": "gemensamt 7–[oläst slut]",
+      "heading": "Ogift. / q.",
+      "x_approx": [
+        570,
+        586
+      ]
+    },
+    {
+      "key": "married_m",
+      "number": "gemensamt 7–[oläst slut]",
+      "heading": "Gift. / m.",
+      "x_approx": [
+        586,
+        603
+      ]
+    },
+    {
+      "key": "married_q",
+      "number": "gemensamt 7–[oläst slut]",
+      "heading": "Gift. / q.",
+      "x_approx": [
+        603,
+        620
+      ]
+    },
+    {
+      "key": "widower",
+      "number": "gemensamt 7–[oläst slut]",
+      "heading": "Enkling.",
+      "x_approx": [
+        620,
+        636
+      ]
+    },
+    {
+      "key": "widow",
+      "number": "gemensamt 7–[oläst slut]",
+      "heading": "Enka.",
+      "x_approx": [
+        636,
+        653
+      ]
+    },
+    {
+      "key": "divorced_m",
+      "number": "gemensamt 7–[oläst slut]",
+      "heading": "Frånskild. / m.",
+      "x_approx": [
+        653,
+        666
+      ]
+    },
+    {
+      "key": "divorced_q",
+      "number": "gemensamt 7–[oläst slut]",
+      "heading": "Frånskild. / q.",
+      "x_approx": [
+        666,
+        680
+      ]
+    },
+    {
+      "key": "belief_nationality_absence",
+      "number": "14",
+      "heading": "Trosbekännelse (främmande). Utträde ur svenska kyrkan. Nationalitet (främmande). Frånvarande.",
+      "x_approx": [
+        680,
+        784
+      ]
+    }
+  ],
+  "geometry_limit": "13 fysiska text/räkningsfält per personrad enligt rubrikerna, plus vänstermarginal hushåll/matlag. Angivna x är ungefärliga native pixelpositioner, osäkerhet ca±3px och viss skillnad mellan sidor; ingen exakt cellmask låst ännu. Födelseortssiffran och civilspannets slut är olästa, inte ifyllda genom räkning.",
+  "page77_boundary": {
+    "raw": "En lång vänsterklammer/vertikalmarkering löper längs slutgruppen och slutar med horisontell vänstervänd fot före Summa. Övre ansats syns ungefär y1185; fot ungefär y1324. Sex radintervall i den förväntade nedergruppen är förenliga med geometrin.",
+    "reservation": "Gruppmedlemmarnas namn är dokumentärt lokaliserade, inte nyavlästa; ansats nära föregående klammers slut är tätt skriven."
+  },
+  "page78_boundary": {
+    "raw": "En sammanhängande vänsterklammer börjar vid tabellens överkant omkring y125, med vänsterutbuktning i översta radområdet och långt nedåtgående streck. Strecket fortsätter genom den förväntade sexradersytan och tycks sluta först omkring y294–297, vid ytterligare en textrad efter dessa sex. Nästa avskilda marginalansats följer nedanför.",
+    "reservation": "Utökningen motsvarar preliminärt en sjunde rad. Namn och sakfält för denna rad har inte lästs. Radantal/identitet och ev familjegräns får inte normaliseras ur denna begränsade observation.",
+    "first_six_partition": "Ingen självständig klammeravslutning eller ny avskiljande vänsterklammer urskiljs vid gränsen efter första fyra eller mellan femte/sjätte raden i det sedda marginutsnittet; detta säger inte ensam vilka familjer index avser."
+  },
+  "stop": {
+    "triggered": true,
+    "reason": "Synlig klammer synes fortsätta förbi första6rader78. Auktoriserat stoppvillkor gäller; ingen kontroll av ytterligare personuppgift utförd.",
+    "next": "Jämför först med roots separat låsta STAGE1. Om bekräftat krävs rootbeslut om en precis utökad gräns-/radlokalisering; ingen automatisk fullpost- eller annan hushållsläsning."
+  },
+  "no_gap_cells_read": true,
+  "no_canonical_mutation": true
+}

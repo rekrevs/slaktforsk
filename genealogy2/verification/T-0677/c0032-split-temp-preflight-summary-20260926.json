@@ -1,0 +1,52 @@
+{
+  "task": "T-0677",
+  "state": "ISOLATED_SPLIT_TEMP_VALIDATED_FOR_ROOT_REVIEW_NOT_CANONICAL",
+  "canonical_base_journal": 198,
+  "canonical_pending": 0,
+  "operation_sha256": {
+    "source": "bf0e10941f3708f86e2f8424524392440bee4c92221a96699611f993cb5153d8",
+    "person-split": "97bfda247b8ed29be3306617382d218e37e82e82a82577227c84ceada94c8895",
+    "death-observation-split": "52b8c7d2a30c8485a4d42e37bfe9c5e601fc7b089e04eb1b0f46b72dde9b9ff5"
+  },
+  "full_diff_sha256": "1fd66bf7a0a52a585b6bf3f3004b5d429bfb291119d971babfd48373e831debe",
+  "pending_full_sha256": "4721125c1844d741adef4eaa29129abcd9d139eade64339d653bde1d5b18fcce",
+  "counts": {
+    "objects": 57,
+    "pending": 45
+  },
+  "apply_results": {
+    "source": {
+      "unchanged": false,
+      "operation": "T-0677/C0032-source-v1",
+      "changes": 6,
+      "pendingReviews": 14,
+      "journal": {
+        "written": 199
+      }
+    },
+    "person-split": {
+      "unchanged": false,
+      "operation": "T-0677/C0032-person-v2",
+      "changes": 50,
+      "pendingReviews": 44,
+      "journal": {
+        "written": 1
+      }
+    },
+    "death-observation": {
+      "unchanged": false,
+      "operation": "T-0677/C0032-death-observation-caveat-v1",
+      "changes": 1,
+      "pendingReviews": 45,
+      "journal": {
+        "written": 1
+      }
+    }
+  },
+  "validator_results": {
+    "verify": true,
+    "verify-assets": true,
+    "verify-source": true
+  },
+  "no_canonical_apply_or_resolution": true
+}

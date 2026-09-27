@@ -1,0 +1,64 @@
+{
+  "task": "T-0677",
+  "reader": "root/Astra",
+  "pass": "SECOND",
+  "date": "2026-09-24",
+  "state": "LOCK_BEFORE_FIRST_COMPARISON",
+  "blinding": "Prior-aware independent control: root had read historical/current documentary values before viewing the image, but has not seen FIRST values or its file. Not blind to older transcription. FIRST agent has reported progress only.",
+  "source": {
+    "path": "genealogy/media/C-0002-riksarkivet-SE-HLA-1010028-C7-bild-85-sida-82.jpg",
+    "sha256": "b5a72041a7e7b93a98394bac57d9d861bc8c049824aed95582d7337031cb2ae4",
+    "dimensions": [5108, 3940],
+    "locator": "Degerfors C/7, 1897, post 86, printed page 82, image 00206849_00085"
+  },
+  "scope": "Whole-image orientation, printed header map and own post boundaries; selected control of father's birth field, reference field and witness column. Remaining adequately documented fields reused, not a fresh full-post pass.",
+  "page_heading": "1897 års Födelsebok för Degerfors församling och dess Dopbok för år 1897",
+  "post_boundary": "Post 86 is between 85 and 87 on both halves, sixth entry on the spread; witness continuation/inserted line remains inside post 86 above the horizontal boundary to 87.",
+  "columns": [
+    {"number": 1, "raw": "Inskrifningens löpande årsnummer."},
+    {"number": 2, "raw": "Född / år och månad."},
+    {"number": 3, "raw": "Född / dag."},
+    {"number": 4, "raw": "Räknad till församlingen. / Lefv. född. / m."},
+    {"number": 5, "raw": "Räknad till församlingen. / Lefv. född. / q."},
+    {"number": 6, "raw": "Räknad till församlingen. / Död-född. / m."},
+    {"number": 7, "raw": "Räknad till församlingen. / Död-född. / q."},
+    {"number": 8, "raw": "Dopnamn (förnamn)."},
+    {"number": 9, "raw": "Föräldrar. / Namn, yrke, nationalitet och religionsbekännelse (om främmande) samt bostad."},
+    {"number": 10, "raw": "Föräldrar. / Födde år, dag och månad."},
+    {"number": 11, "raw": "Modren. / Gift."},
+    {"number": 12, "raw": "Modren. / Enka el. frånskild."},
+    {"number": 13, "raw": "Modren. / Trolofvad."},
+    {"number": 14, "raw": "Modren. / Ogift."},
+    {"number": 15, "raw": "Sida i förs. boken el. i boken öfv. obefintl."},
+    {"number": 16, "raw": "Döpt / år och månad."},
+    {"number": 17, "raw": "Döpt / dag."},
+    {"number": 18, "raw": "Döpt / af"},
+    {"number": 19, "raw": "Faddrar."},
+    {"number": 20, "raw": "Modren kyrkotagen år, dag och månad."},
+    {"number": 21, "raw": "Särskilda anteckningar, såsom om modrens nedkomstort (om annan än församlingen), inkomna och afsända attester m. m."}
+  ],
+  "controlled_fields": {
+    "father_birth_col10": {"raw": "61 28/5", "status": "READ", "note": "Two numerator digits 2 and 8; denominator 5. This is own post field, not father's original birth registration."},
+    "reference_col15": {"raw": "93.3", "status": "READ", "note": "Two digits before the point. Printed heading names a page reference, not an explicit household number or volume identifier; expansion of .3 is not established by this heading alone."},
+    "witness_col19_lines": [
+      "Jon. P. Hansson [å hu?] Dfs, Nils Nilsson[?]",
+      "[å hu?] ib. Alb. Wahlund Westerliden Erika",
+      "Eriksd:r Dfs, Joh. Lindberg Ekträsk Alma",
+      "Forsberg Dfs K. M. Andersson Buberget[?]",
+      "[L:a/E:a?] Karlsd:r[?] ib."
+    ],
+    "witness_layout_note": "Last listed line is a smaller insertion geometrically above the final baseline, apparently continuing the end of the entry. Preserve this placement and uncertain name reading; do not assign a new person identity. Two abbreviated spouse expressions remain separate from named witnesses. No normalized fixed witness count decided in this pass.",
+    "witness_uncertainties": ["Exact first-letter/abbreviation of inserted name [L:a/E:a?]", "Karlsd:r ending retained with reservation", "Abbreviation [å hu?] and tiny terminal mark after Nils Nilsson", "Buberget retained reserved for comparison"]
+  },
+  "additional_visible_cells_for_gap_reconciliation": [
+    {"column": 11, "raw": "1", "status": "READ_MARK_IN_GIFT_COLUMN", "limit": "Mother's categorical column, not number of marriages or children."},
+    {"column": 12, "raw": "", "status": "BLANK"},
+    {"column": 13, "raw": "", "status": "BLANK"},
+    {"column": 14, "raw": "", "status": "BLANK"},
+    {"column": 21, "raw": "", "status": "BLANK", "limit": "Own particular-notes cell blank, not proof against every circumstance or a positive physical birth-place statement."}
+  ],
+  "work_crops": ["/tmp/c0002-root-headers-left.png", "/tmp/c0002-root-headers-right.png", "/tmp/c0002-root-own-left.png", "/tmp/c0002-root-witness.png", "/tmp/c0002-root-witness-large.png"],
+  "timing": "No complete active-time interval measured. Explicit root gap plan was delegated before opening; the persisted Sol plan file may have been written after root's first image view and must not be described as a pre-view timestamp lock.",
+  "no_canonical_change": true,
+  "no_other_original_opened": true
+}

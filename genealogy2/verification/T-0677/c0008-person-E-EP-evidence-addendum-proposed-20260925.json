@@ -1,0 +1,255 @@
+{
+  "task": "T-0677",
+  "status": "PROPOSED_EXACT_E_EP_BINDINGS_NOT_APPLY",
+  "person_proposal": {
+    "file": "c0008-person-copy-impact-proposed-20260925.json",
+    "sha256": "53059b2b911461f412578d534172be9a6a571fea04ef77ec3c0db1ebf0774188"
+  },
+  "source_proposal_accepted_sha256": "914f51cde112763290b0d7136bbd0eb7dca24457da3b75f4a63b033a80979fe5",
+  "scope": "Four E/EP revisions only. Explicit after lists replace those four evidence sets; not a global automatic rebase. New TR/AUDIT and M@2 from the accepted source package remain prospective until combined operation.",
+  "objects": [
+    {
+      "object_id": "E-baptism-P-0003",
+      "from_revision": "E-baptism-P-0003@1",
+      "proposed_revision": "E-baptism-P-0003@2",
+      "field": "caveat",
+      "before": "Dopet skedde året efter födelsen. Fadderfältets reserverade namn är inte slutprövade.",
+      "after": "Dopet skedde året efter födelsen. Fadderfältet är prövat inom T-0677 med kvarstående läsreservationer; vittnenas personidentiteter är inte avgjorda. Fysisk dopplats fastställs inte av denna post.",
+      "evidence_before": [
+        {
+          "revision_id": "E-baptism-P-0003@1",
+          "basis_revision_id": "R-70eeff109bc651dce649a0ee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "evidence_after_proposed": [
+        {
+          "basis_revision_id": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "basis_revision_id": "TR-T0677-C0008-consolidated-control@1",
+          "role": "supports",
+          "note": "Dopdatum återbrukat och fadderfält prövat med reserverade läsningar; fysisk dopplats ej belagd."
+        },
+        {
+          "basis_revision_id": "AUDIT-T0677-C0008@1",
+          "role": "supports",
+          "note": "Avgränsad relevant utvinning, inte identitetsgodkännande för vittnen."
+        }
+      ],
+      "explicit_rebases_proposed": [
+        {
+          "from": "R-70eeff109bc651dce649a0ee@1",
+          "to": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "rationale": "Samma doppost och samma återbrukade dopdatum; R@2 preciserar fadderläsningen och källgränsen utan annan händelse. R@1 bevaras i föregående E-revision. Denna explicita ombindning är sakligt motiverad, inte en generell latest-regel."
+        }
+      ],
+      "rationale": "Samma doppost och samma återbrukade dopdatum; R@2 preciserar fadderläsningen och källgränsen utan annan händelse. R@1 bevaras i föregående E-revision. Denna explicita ombindning är sakligt motiverad, inte en generell latest-regel.",
+      "data_and_origins": "All existing typed data and origins preserved exactly. No person_id, date_json, role or place change."
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness",
+      "from_revision": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness@1",
+      "proposed_revision": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness@2",
+      "field": "caveat",
+      "before": "Källans reserverade omnämnande vid dopet; full fältprövning kvar.",
+      "after": "Källans första fadderomnämnande är prövat: C.F. Jaensson[?], med Jansson som alternativ, och rå titel lägenhetsäg[?]. Maskinisten är den äldre återtagna läsningen. Ljungbacka återbrukas och förbindande f.[?] lämnas oexpanderat. Deltagandet gäller omnämnandet, utan personidentitet, egendoms- eller släktinferens.",
+      "evidence_before": [
+        {
+          "revision_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness@1",
+          "basis_revision_id": "E-baptism-P-0003@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness@1",
+          "basis_revision_id": "M-P-0003-C0008-witness1@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness1-witness@1",
+          "basis_revision_id": "R-70eeff109bc651dce649a0ee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "evidence_after_proposed": [
+        {
+          "basis_revision_id": "E-baptism-P-0003@2",
+          "role": "derived_from",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "basis_revision_id": "M-P-0003-C0008-witness1@2",
+          "role": "derived_from",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "basis_revision_id": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "basis_revision_id": "M-P-0003-C0008-witness1@2",
+          "role": "supports",
+          "note": "Just detta källomnämnande, utan ny P- eller ID-koppling."
+        },
+        {
+          "basis_revision_id": "TR-T0677-C0008-consolidated-control@1",
+          "role": "supports",
+          "note": "Fadderkolumnens omnämnande 1, egen ord-/ortreservation."
+        }
+      ],
+      "explicit_rebases_proposed": [
+        {
+          "from": "E-baptism-P-0003@1",
+          "to": "E-baptism-P-0003@2",
+          "role": "derived_from",
+          "rationale": "Deltagaren är fortsatt ett oidentifierat omnämnande. M@2 bär just första vittnets korrigerade råtitel och reserverade namn; E@2 bevarar samma dop. R@2 är samma post och stödjer den nu kvalificerade deltagartexten."
+        },
+        {
+          "from": "M-P-0003-C0008-witness1@1",
+          "to": "M-P-0003-C0008-witness1@2",
+          "role": "derived_from",
+          "rationale": "Deltagaren är fortsatt ett oidentifierat omnämnande. M@2 bär just första vittnets korrigerade råtitel och reserverade namn; E@2 bevarar samma dop. R@2 är samma post och stödjer den nu kvalificerade deltagartexten."
+        },
+        {
+          "from": "R-70eeff109bc651dce649a0ee@1",
+          "to": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "rationale": "Deltagaren är fortsatt ett oidentifierat omnämnande. M@2 bär just första vittnets korrigerade råtitel och reserverade namn; E@2 bevarar samma dop. R@2 är samma post och stödjer den nu kvalificerade deltagartexten."
+        }
+      ],
+      "rationale": "Deltagaren är fortsatt ett oidentifierat omnämnande. M@2 bär just första vittnets korrigerade råtitel och reserverade namn; E@2 bevarar samma dop. R@2 är samma post och stödjer den nu kvalificerade deltagartexten.",
+      "data_and_origins": "All existing typed data and origins preserved exactly. No person_id, date_json, role or place change."
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness",
+      "from_revision": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness@1",
+      "proposed_revision": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness@2",
+      "field": "caveat",
+      "before": "Källans reserverade omnämnande vid dopet; full fältprövning kvar.",
+      "after": "Källans andra fadderomnämnande är prövat: fru Olga Wilh:a Lundin återbrukas, Skarpdal[?] behåller sin reservation och förbindande f.[?] lämnas oexpanderat. Deltagandet gäller omnämnandet utan avgjord personidentitet eller släktrelation.",
+      "evidence_before": [
+        {
+          "revision_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness@1",
+          "basis_revision_id": "E-baptism-P-0003@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: event_id"
+        },
+        {
+          "revision_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness@1",
+          "basis_revision_id": "M-P-0003-C0008-witness2@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "revision_id": "EP-E-baptism-P-0003-M-P-0003-C0008-witness2-witness@1",
+          "basis_revision_id": "R-70eeff109bc651dce649a0ee@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "evidence_after_proposed": [
+        {
+          "basis_revision_id": "E-baptism-P-0003@2",
+          "role": "derived_from",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "basis_revision_id": "M-P-0003-C0008-witness2@1",
+          "role": "derived_from",
+          "note": "Versionsbunden strukturreferens: mention_id"
+        },
+        {
+          "basis_revision_id": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "basis_revision_id": "M-P-0003-C0008-witness2@1",
+          "role": "supports",
+          "note": "Just detta källomnämnande, utan ny P- eller ID-koppling."
+        },
+        {
+          "basis_revision_id": "TR-T0677-C0008-consolidated-control@1",
+          "role": "supports",
+          "note": "Fadderkolumnens omnämnande 2, egen ord-/ortreservation."
+        }
+      ],
+      "explicit_rebases_proposed": [
+        {
+          "from": "E-baptism-P-0003@1",
+          "to": "E-baptism-P-0003@2",
+          "role": "derived_from",
+          "rationale": "Andra vittnets M@1 är oförändrad och behålls exakt. Endast E och R får explicit ombindning till samma dop/post med uppdaterad fältprövningsgräns; ingen koppling från vittne 1:s titel eller ny personidentitet."
+        },
+        {
+          "from": "R-70eeff109bc651dce649a0ee@1",
+          "to": "R-70eeff109bc651dce649a0ee@2",
+          "role": "supports",
+          "rationale": "Andra vittnets M@1 är oförändrad och behålls exakt. Endast E och R får explicit ombindning till samma dop/post med uppdaterad fältprövningsgräns; ingen koppling från vittne 1:s titel eller ny personidentitet."
+        }
+      ],
+      "rationale": "Andra vittnets M@1 är oförändrad och behålls exakt. Endast E och R får explicit ombindning till samma dop/post med uppdaterad fältprövningsgräns; ingen koppling från vittne 1:s titel eller ny personidentitet.",
+      "data_and_origins": "All existing typed data and origins preserved exactly. No person_id, date_json, role or place change."
+    },
+    {
+      "object_id": "EP-E-baptism-P-0003-P-0003-baptized",
+      "from_revision": "EP-E-baptism-P-0003-P-0003-baptized@1",
+      "proposed_revision": "EP-E-baptism-P-0003-P-0003-baptized@2",
+      "field": "caveat",
+      "before": "Dopet skedde året efter födelsen. Fadderfältets reserverade namn är inte slutprövade.",
+      "after": "Dopet skedde året efter födelsen. Fadderfältet är prövat inom T-0677 med kvarstående läsreservationer; vittnenas personidentiteter är inte avgjorda. Fysisk dopplats fastställs inte av denna post.",
+      "evidence_before": [
+        {
+          "revision_id": "EP-E-baptism-P-0003-P-0003-baptized@1",
+          "basis_revision_id": "E-baptism-P-0003@1",
+          "role": "supports",
+          "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+        }
+      ],
+      "evidence_after_proposed": [
+        {
+          "basis_revision_id": "E-baptism-P-0003@2",
+          "role": "supports",
+          "note": "T-0677: uttryckligt sakprövad ombindning till samma källpost/händelse/omnämnande efter avgränsad fadderkontroll; ingen ny identitet eller händelse."
+        },
+        {
+          "basis_revision_id": "TR-T0677-C0008-consolidated-control@1",
+          "role": "supports",
+          "note": "Dopdatum återbrukat och fadderfält prövat med reserverade läsningar; fysisk dopplats ej belagd."
+        },
+        {
+          "basis_revision_id": "AUDIT-T0677-C0008@1",
+          "role": "supports",
+          "note": "Avgränsad relevant utvinning, inte identitetsgodkännande för vittnen."
+        }
+      ],
+      "explicit_rebases_proposed": [
+        {
+          "from": "E-baptism-P-0003@1",
+          "to": "E-baptism-P-0003@2",
+          "role": "supports",
+          "rationale": "Arnes roll baptized och person_id består. E@2 är samma händelse med kvalificerad fadderkontroll, inte ändrat datum eller dopplats. Befintlig supports-roll bevaras vid explicit E-ombindning."
+        }
+      ],
+      "rationale": "Arnes roll baptized och person_id består. E@2 är samma händelse med kvalificerad fadderkontroll, inte ändrat datum eller dopplats. Befintlig supports-roll bevaras vid explicit E-ombindning.",
+      "data_and_origins": "All existing typed data and origins preserved exactly. No person_id, date_json, role or place change."
+    }
+  ],
+  "topological_order": [
+    "R-70eeff109bc651dce649a0ee@2",
+    "TR-T0677-C0008-consolidated-control@1",
+    "M-P-0003-C0008-witness1@2",
+    "AUDIT-T0677-C0008@1",
+    "E-baptism-P-0003@2",
+    "the three named EP@2"
+  ],
+  "no_canonical_mutation": true
+}

@@ -1,0 +1,22 @@
+{
+  "task": "T-0677",
+  "state": "EXACT_ONE_FIELD_AMENDMENT_NO_APPLY",
+  "before": {
+    "file": "c0030-native-source-proposed-20260925.json",
+    "sha256": "d95a83b7410f5b224908777c50e331cf3671b25f34ac256f3e5223f2803dbf4c"
+  },
+  "after": {
+    "file": "c0030-native-source-proposed-v2-20260925.json",
+    "sha256": "d8e7450f32495a997994eb1b20f657c34132105b4d02bcf2ac3f3f414df9153f"
+  },
+  "changes": [
+    {
+      "object": "O-T0677-C0030-row10-control",
+      "path": "/proposed_changes/3/after/caveat",
+      "before": "V betyder rubrikens alternativ vaccinerats eller haft koppor. Bef.[?] lämnas oexpanderat. Bokföringens hänvisningar bevisar inte fysisk flyttdag. Otydda spår ges ingen påstådd orsak.",
+      "after": "V betyder rubrikens alternativ vaccinerats eller haft koppor. Bokföringens hänvisningar bevisar inte fysisk flyttdag. Otydda spår ges ingen påstådd orsak.",
+      "reason": "Bef.[?] tillhör rad 9; meningen tas bort från rad 10 så att ingen sådan anteckning tillskrivs Arne."
+    }
+  ],
+  "verification": "Alla andra JSON-fält identiska. TR:s context-kant till O-P-0043-A-5704@1 bevarad för historisk positiv a/n-uppgift; ingen automatisk rebase. R@1-retention oförändrad. Inga bilder eller canonicaländringar."
+}

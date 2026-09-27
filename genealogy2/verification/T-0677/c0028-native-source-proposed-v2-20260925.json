@@ -1,0 +1,985 @@
+{
+  "task": "T-0677",
+  "state": "PROPOSED_SOURCE_ONLY_NOT_APPLY",
+  "journal_basis": "Root stage1 acceptance j188, 32 documentary heads matched; inventory payloads j186 retained as exact provenance. Recheck actual heads before operation.",
+  "inputs": [
+    {
+      "file": "c0028-documentary-inventory-proposed-j186-20260925.json",
+      "sha256": "89110e5e9ae9401abdf10425a2a81ca39c9dcc863ee94cfd86a04dca2797391e"
+    },
+    {
+      "file": "c0028-root-stage1-plan-acceptance-20260925.json",
+      "sha256": "958391497bdd5e124bc1a85508655dc03b581da96c0a438162018cc791d9e30a"
+    },
+    {
+      "file": "c0028-root-source-comparison-acceptance-20260925.json",
+      "sha256": "9cb26b11c37ddd28de776a0298f3025e5850f999e5a6e9039f06a67c3335194d"
+    }
+  ],
+  "coverage": {
+    "whole_reuse": 12,
+    "whole_gaps": 10,
+    "whole_gaps_blank": 7,
+    "whole_gaps_count_mark": 1,
+    "whole_gaps_reserved_text": 1,
+    "whole_gaps_uncertain_trace": 1,
+    "partial_gap": 1,
+    "physical_units": 23,
+    "numbered_columns": 21
+  },
+  "matrix": [
+    {
+      "unit": "1",
+      "column": 1,
+      "value": "15",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "2",
+      "column": 2,
+      "value": "maj; år 1920 enligt postlokalisering",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5",
+        "R-C0028-15@1"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext. Året är återbrukad metadata, inte påstådd utskriven årssiffra i cellen."
+    },
+    {
+      "unit": "3",
+      "column": 3,
+      "value": "11",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "4",
+      "column": 4,
+      "value": "[tomt]",
+      "classification": "whole_gap_blank",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": null
+    },
+    {
+      "unit": "5",
+      "column": 5,
+      "value": "[återbrukad 1]; [kort svagt snett/vågrätt streck under markeringen]",
+      "classification": "partial_reuse_and_control",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1"
+      ],
+      "control_refs": [
+        {
+          "file": "c0028-independent-count-column-mapping-20260925.json",
+          "sha256": "4b9f8a8a33e1bd4c3ebd7bdcc44676a10d89235f557fc59091cab124f1cb474c"
+        },
+        {
+          "file": "c0028-root-count-column-mapping-20260925.json",
+          "sha256": "149bafc29abcbddc58296b7940e808013ff65e8f55349d90472dcde6aebb52b1"
+        },
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": "Rå 1 återbrukas; kolumnbindning till Lefv. född. kv. är ny geometrisk kontroll. Spåret har ingen avgjord betydelse eller ursprungsförklaring."
+    },
+    {
+      "unit": "6",
+      "column": 6,
+      "value": "[tomt]",
+      "classification": "whole_gap_blank",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": null
+    },
+    {
+      "unit": "7",
+      "column": 7,
+      "value": "[tomt]",
+      "classification": "whole_gap_blank",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": null
+    },
+    {
+      "unit": "8",
+      "column": 8,
+      "value": "Maj Amalia; u.ä.",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "9father",
+      "column": 9,
+      "value": "Eriksson, Axel Edvard, järnvägsarb., banvakt 70",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext. Järnvägsarb. är yrkesord; banvakt 70 är enligt befintlig reading_note bostadsreferens. Stugnumret är inte ytterligare yrkesbelägg."
+    },
+    {
+      "unit": "9mother",
+      "column": 9,
+      "value": "änkan Ekholm, Hulda Amalia, f. Ålund, änka 13 11/3",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "10father",
+      "column": 10,
+      "value": "81 20/3",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "10mother",
+      "column": 10,
+      "value": "77 25/9",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "11",
+      "column": 11,
+      "value": "[tomt]",
+      "classification": "whole_gap_blank",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": null
+    },
+    {
+      "unit": "12",
+      "column": 12,
+      "value": "/",
+      "classification": "whole_gap_mark",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": "En sned räknemarkering i Änka el. frånskild.; inte ny normaliserad siffra eller självständig änkodiagnos. Rootens rå 1 finns kvar i låset."
+    },
+    {
+      "unit": "13",
+      "column": 13,
+      "value": "[tomt]",
+      "classification": "whole_gap_blank",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": null
+    },
+    {
+      "unit": "14",
+      "column": 14,
+      "value": "[tomt]",
+      "classification": "whole_gap_blank",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": null
+    },
+    {
+      "unit": "15",
+      "column": 15,
+      "value": "II 13",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "16",
+      "column": 16,
+      "value": "1921 jan.",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "17",
+      "column": 17,
+      "value": "13",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1",
+        "unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5"
+      ],
+      "control_refs": [],
+      "reservation": "Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext."
+    },
+    {
+      "unit": "18",
+      "column": 18,
+      "value": "v. pastor[?] / [initial?] [svårläst efternamn]",
+      "classification": "whole_gap_reserved_text",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": "Oberoende läsare: [initial?] Sandberg[?]. Root: P.[?] Land[berg?], alternativ Landby[?]. Ingen säker namnform, personidentitet eller fysisk dopplats. Slutsläng över kolumngräns inom samma post hör till signaturen, inte fadderuppgift."
+    },
+    {
+      "unit": "19",
+      "column": 19,
+      "value": "[tomt enligt tidigare uttrycklig fadderkontroll]",
+      "classification": "whole_documentary_reuse",
+      "reuse_refs": [
+        "TR-0ace51d2cd42345b92d0ffac@1 reading_note",
+        "READ-7432c7a96d5c818ad06b800e@1 caveat",
+        "unit:81d162ec000abfe6ae1e2f2210ae85641e86d4bea97196f312d564734ece1578"
+      ],
+      "control_refs": [],
+      "reservation": "Tidigare uttrycklig blankhet återbrukas; ingen ny fadderläsning och inget påstående att dopet saknade vittnen."
+    },
+    {
+      "unit": "20",
+      "column": 20,
+      "value": "[tomt]",
+      "classification": "whole_gap_blank",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": null
+    },
+    {
+      "unit": "21",
+      "column": 21,
+      "value": "[svaga spår; ingen läsbar anteckning]",
+      "classification": "whole_gap_uncertain_trace",
+      "reuse_refs": [],
+      "control_refs": [
+        {
+          "file": "c0028-independent-gaps-20260925.json",
+          "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+        },
+        {
+          "file": "c0028-root-gaps-locked-20260925.json",
+          "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+        }
+      ],
+      "reservation": "Försiktig olöst spårklassning väljs. Ingen bokstav, dag eller materiell orsak fastställs. Rootens första blankklassning bevaras i råhistoriken."
+    }
+  ],
+  "proposed_changes": [
+    {
+      "id": "TR-T0677-C0028-consolidated-control",
+      "kind": "transcription",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "record_id": "R-C0028-15",
+          "text": "C-0028: Hyltinge C/8, 1920 nr 15, sida 34.\nDokumentärt återbruk är inte ny diplomatisk avläsning. Slutresultatet bevarar reservationer och hela läshistoriken.\nRubrik: 19[20, överskrivet/slutdelen otydlig] års Födelsebok för Hyltinge / församling och dess Dopbok för år 1920.\n1 | whole_documentary_reuse | 15 | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n2 | whole_documentary_reuse | maj; år 1920 enligt postlokalisering | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext. Året är återbrukad metadata, inte påstådd utskriven årssiffra i cellen.\n3 | whole_documentary_reuse | 11 | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n4 | whole_gap_blank | [tomt]\n5 | partial_reuse_and_control | [återbrukad 1]; [kort svagt snett/vågrätt streck under markeringen] | Rå 1 återbrukas; kolumnbindning till Lefv. född. kv. är ny geometrisk kontroll. Spåret har ingen avgjord betydelse eller ursprungsförklaring.\n6 | whole_gap_blank | [tomt]\n7 | whole_gap_blank | [tomt]\n8 | whole_documentary_reuse | Maj Amalia; u.ä. | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n9father | whole_documentary_reuse | Eriksson, Axel Edvard, järnvägsarb., banvakt 70 | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext. Järnvägsarb. är yrkesord; banvakt 70 är enligt befintlig reading_note bostadsreferens. Stugnumret är inte ytterligare yrkesbelägg.\n9mother | whole_documentary_reuse | änkan Ekholm, Hulda Amalia, f. Ålund, änka 13 11/3 | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n10father | whole_documentary_reuse | 81 20/3 | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n10mother | whole_documentary_reuse | 77 25/9 | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n11 | whole_gap_blank | [tomt]\n12 | whole_gap_mark | / | En sned räknemarkering i Änka el. frånskild.; inte ny normaliserad siffra eller självständig änkodiagnos. Rootens rå 1 finns kvar i låset.\n13 | whole_gap_blank | [tomt]\n14 | whole_gap_blank | [tomt]\n15 | whole_documentary_reuse | II 13 | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n16 | whole_documentary_reuse | 1921 jan. | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n17 | whole_documentary_reuse | 13 | Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\n18 | whole_gap_reserved_text | v. pastor[?] / [initial?] [svårläst efternamn] | Oberoende läsare: [initial?] Sandberg[?]. Root: P.[?] Land[berg?], alternativ Landby[?]. Ingen säker namnform, personidentitet eller fysisk dopplats. Slutsläng över kolumngräns inom samma post hör till signaturen, inte fadderuppgift.\n19 | whole_documentary_reuse | [tomt enligt tidigare uttrycklig fadderkontroll] | Tidigare uttrycklig blankhet återbrukas; ingen ny fadderläsning och inget påstående att dopet saknade vittnen.\n20 | whole_gap_blank | [tomt]\n21 | whole_gap_uncertain_trace | [svaga spår; ingen läsbar anteckning] | Försiktig olöst spårklassning väljs. Ingen bokstav, dag eller materiell orsak fastställs. Rootens första blankklassning bevaras i råhistoriken.\nRubrikmatris:\n[{\"column\": 1, \"parent\": null, \"raw\": \"Inskrifningens löpande årsnummer.\", \"reservation\": null}, {\"column\": 2, \"parent\": \"Född\", \"raw\": \"år och månad.\", \"reservation\": null}, {\"column\": 3, \"parent\": \"Född\", \"raw\": \"dag.\", \"reservation\": null}, {\"column\": 4, \"parent\": \"Räknad till församlingen. / Lefv. född.\", \"raw\": \"m.\", \"reservation\": null}, {\"column\": 5, \"parent\": \"Räknad till församlingen. / Lefv. född.\", \"raw\": \"kv.\", \"reservation\": null}, {\"column\": 6, \"parent\": \"Räknad till församlingen. / Död-född.\", \"raw\": \"m.\", \"reservation\": null}, {\"column\": 7, \"parent\": \"Räknad till församlingen. / Död-född.\", \"raw\": \"kv.\", \"reservation\": null}, {\"column\": 8, \"parent\": null, \"raw\": \"Dopnamn (förnamn).\", \"reservation\": null}, {\"column\": 9, \"parent\": \"Föräldrar\", \"raw\": \"Namn, yrke, nationalitet och religionsbekännelse (om främmande), bostad samt tid för äktenskaps ingående.\", \"reservation\": null}, {\"column\": 10, \"parent\": \"Föräldrar\", \"raw\": \"Födde år, dag och månad.\", \"reservation\": null}, {\"column\": 11, \"parent\": \"Modren\", \"raw\": \"Gift.\", \"reservation\": null}, {\"column\": 12, \"parent\": \"Modren\", \"raw\": \"Änka el. frånskild.\", \"reservation\": null}, {\"column\": 13, \"parent\": \"Modren\", \"raw\": \"Trolofvad.\", \"reservation\": null}, {\"column\": 14, \"parent\": \"Modren\", \"raw\": \"Ogift.\", \"reservation\": null}, {\"column\": 15, \"parent\": null, \"raw\": \"Uppslag i förs.-boken, där barnet införts el. den döpte är upptagen\", \"reservation\": null}, {\"column\": 16, \"parent\": \"Döpt\", \"raw\": \"år och månad.\", \"reservation\": null}, {\"column\": 17, \"parent\": \"Döpt\", \"raw\": \"dag.\", \"reservation\": null}, {\"column\": 18, \"parent\": \"Döpt\", \"raw\": \"af\", \"reservation\": null}, {\"column\": 19, \"parent\": null, \"raw\": \"Faddrar.\", \"reservation\": null}, {\"column\": 20, \"parent\": null, \"raw\": \"Modren kyrko-tagen år, dag och månad.\", \"reservation\": null}, {\"column\": 21, \"parent\": null, \"raw\": \"Särskilda anteckningar, såsom om modrens nedkomstort (om annan än församlingen), kyrkotagning såsom fästekvinna, inkomna och afsända attester, m. m.\", \"reservation\": null}]\nExakt fältproveniens:\n[{\"unit\": \"1\", \"column\": 1, \"value\": \"15\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"2\", \"column\": 2, \"value\": \"maj; år 1920 enligt postlokalisering\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\", \"R-C0028-15@1\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext. Året är återbrukad metadata, inte påstådd utskriven årssiffra i cellen.\"}, {\"unit\": \"3\", \"column\": 3, \"value\": \"11\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"4\", \"column\": 4, \"value\": \"[tomt]\", \"classification\": \"whole_gap_blank\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": null}, {\"unit\": \"5\", \"column\": 5, \"value\": \"[återbrukad 1]; [kort svagt snett/vågrätt streck under markeringen]\", \"classification\": \"partial_reuse_and_control\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\"], \"control_refs\": [{\"file\": \"c0028-independent-count-column-mapping-20260925.json\", \"sha256\": \"4b9f8a8a33e1bd4c3ebd7bdcc44676a10d89235f557fc59091cab124f1cb474c\"}, {\"file\": \"c0028-root-count-column-mapping-20260925.json\", \"sha256\": \"149bafc29abcbddc58296b7940e808013ff65e8f55349d90472dcde6aebb52b1\"}, {\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": \"Rå 1 återbrukas; kolumnbindning till Lefv. född. kv. är ny geometrisk kontroll. Spåret har ingen avgjord betydelse eller ursprungsförklaring.\"}, {\"unit\": \"6\", \"column\": 6, \"value\": \"[tomt]\", \"classification\": \"whole_gap_blank\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": null}, {\"unit\": \"7\", \"column\": 7, \"value\": \"[tomt]\", \"classification\": \"whole_gap_blank\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": null}, {\"unit\": \"8\", \"column\": 8, \"value\": \"Maj Amalia; u.ä.\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"9father\", \"column\": 9, \"value\": \"Eriksson, Axel Edvard, järnvägsarb., banvakt 70\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext. Järnvägsarb. är yrkesord; banvakt 70 är enligt befintlig reading_note bostadsreferens. Stugnumret är inte ytterligare yrkesbelägg.\"}, {\"unit\": \"9mother\", \"column\": 9, \"value\": \"änkan Ekholm, Hulda Amalia, f. Ålund, änka 13 11/3\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"10father\", \"column\": 10, \"value\": \"81 20/3\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"10mother\", \"column\": 10, \"value\": \"77 25/9\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"11\", \"column\": 11, \"value\": \"[tomt]\", \"classification\": \"whole_gap_blank\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": null}, {\"unit\": \"12\", \"column\": 12, \"value\": \"/\", \"classification\": \"whole_gap_mark\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": \"En sned räknemarkering i Änka el. frånskild.; inte ny normaliserad siffra eller självständig änkodiagnos. Rootens rå 1 finns kvar i låset.\"}, {\"unit\": \"13\", \"column\": 13, \"value\": \"[tomt]\", \"classification\": \"whole_gap_blank\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": null}, {\"unit\": \"14\", \"column\": 14, \"value\": \"[tomt]\", \"classification\": \"whole_gap_blank\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": null}, {\"unit\": \"15\", \"column\": 15, \"value\": \"II 13\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"16\", \"column\": 16, \"value\": \"1921 jan.\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"17\", \"column\": 17, \"value\": \"13\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\", \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"], \"control_refs\": [], \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"}, {\"unit\": \"18\", \"column\": 18, \"value\": \"v. pastor[?] / [initial?] [svårläst efternamn]\", \"classification\": \"whole_gap_reserved_text\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": \"Oberoende läsare: [initial?] Sandberg[?]. Root: P.[?] Land[berg?], alternativ Landby[?]. Ingen säker namnform, personidentitet eller fysisk dopplats. Slutsläng över kolumngräns inom samma post hör till signaturen, inte fadderuppgift.\"}, {\"unit\": \"19\", \"column\": 19, \"value\": \"[tomt enligt tidigare uttrycklig fadderkontroll]\", \"classification\": \"whole_documentary_reuse\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1 reading_note\", \"READ-7432c7a96d5c818ad06b800e@1 caveat\", \"unit:81d162ec000abfe6ae1e2f2210ae85641e86d4bea97196f312d564734ece1578\"], \"control_refs\": [], \"reservation\": \"Tidigare uttrycklig blankhet återbrukas; ingen ny fadderläsning och inget påstående att dopet saknade vittnen.\"}, {\"unit\": \"20\", \"column\": 20, \"value\": \"[tomt]\", \"classification\": \"whole_gap_blank\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": null}, {\"unit\": \"21\", \"column\": 21, \"value\": \"[svaga spår; ingen läsbar anteckning]\", \"classification\": \"whole_gap_uncertain_trace\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": \"Försiktig olöst spårklassning väljs. Ingen bokstav, dag eller materiell orsak fastställs. Rootens första blankklassning bevaras i råhistoriken.\"}]",
+          "reading_note": "12 hela enheter återbrukade, 10 hela luckor kontrollerade och 1 partiell enhet. Kolumn 5:s rå 1 återbrukad med ny geometrisk kv.-bindning. Faddertomhet enbart återbrukad. Namnsignaturen förblir olöst. Tidigare TR/READ behålls som historik."
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: avgränsad källkontroll med uttryckligt dokumentärt återbruk och separat låsta råutfall.",
+        "caveat": "Ingen ny identitets-, föräldra-, äktenskaps-, änkedags- eller fysisk platsbedömning.",
+        "origins": [],
+        "evidence": [
+          {
+            "object": "R-C0028-15",
+            "version": 1,
+            "role": "derived_from",
+            "note": ""
+          },
+          {
+            "object": "TR-0ace51d2cd42345b92d0ffac",
+            "version": 1,
+            "role": "context",
+            "note": "Exakt dokumentärt återbruk; samma källa."
+          },
+          {
+            "object": "READ-7432c7a96d5c818ad06b800e",
+            "version": 1,
+            "role": "context",
+            "note": "Tidigare uttrycklig faddertomhet och läsgränser."
+          }
+        ]
+      }
+    },
+    {
+      "id": "AUDIT-T0677-C0028",
+      "kind": "assessment",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "subject_id": "R-C0028-15",
+          "criteria": "original_revision/1",
+          "outcome": "reviewed_with_reservations",
+          "body": "{\n  \"scope\": \"Endast Hyltinge C/8, 1920 nr 15, sida 34, näst nedersta postbandet över uppslaget.\",\n  \"media\": {\n    \"path\": \"genealogy/media/C-0028-riksarkivet-SE-ULA-10422-C8-bild-37-sida-34.jpg\",\n    \"sha256\": \"d01488e2690492835c2dbb0f6f1a8a8f63111a00dcc57b9de3f23d2fa53426b0\",\n    \"bytes\": 1529296,\n    \"documentary_metadata\": {\n      \"dimensions\": [\n        5711,\n        4065\n      ],\n      \"preparation_no_image_access\": true\n    },\n    \"original_visual_control\": {\n      \"performed\": true,\n      \"access\": \"Bevarad lokal bild och avgränsade rubrik-, geometri- och luckcrops.\",\n      \"external_access\": false,\n      \"proposal_opened_images\": false\n    }\n  },\n  \"title\": {\n    \"left_raw\": \"19[20, överskrivet/slutdelen otydlig] års Födelsebok för Hyltinge\",\n    \"right_raw\": \"församling och dess Dopbok för år 1920.\",\n    \"page_raw\": \"34\",\n    \"reservation\": \"Vänster årsifyllnad har överstrykning/överlagrade drag; läsning 20 föredragen men inte ren entydig teckenföljd. Höger 1920 tydligt. Hyltinge är handskriven ifyllnad.\"\n  },\n  \"headers\": [\n    {\n      \"column\": 1,\n      \"parent\": null,\n      \"raw\": \"Inskrifningens löpande årsnummer.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 2,\n      \"parent\": \"Född\",\n      \"raw\": \"år och månad.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 3,\n      \"parent\": \"Född\",\n      \"raw\": \"dag.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 4,\n      \"parent\": \"Räknad till församlingen. / Lefv. född.\",\n      \"raw\": \"m.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 5,\n      \"parent\": \"Räknad till församlingen. / Lefv. född.\",\n      \"raw\": \"kv.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 6,\n      \"parent\": \"Räknad till församlingen. / Död-född.\",\n      \"raw\": \"m.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 7,\n      \"parent\": \"Räknad till församlingen. / Död-född.\",\n      \"raw\": \"kv.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 8,\n      \"parent\": null,\n      \"raw\": \"Dopnamn (förnamn).\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 9,\n      \"parent\": \"Föräldrar\",\n      \"raw\": \"Namn, yrke, nationalitet och religionsbekännelse (om främmande), bostad samt tid för äktenskaps ingående.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 10,\n      \"parent\": \"Föräldrar\",\n      \"raw\": \"Födde år, dag och månad.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 11,\n      \"parent\": \"Modren\",\n      \"raw\": \"Gift.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 12,\n      \"parent\": \"Modren\",\n      \"raw\": \"Änka el. frånskild.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 13,\n      \"parent\": \"Modren\",\n      \"raw\": \"Trolofvad.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 14,\n      \"parent\": \"Modren\",\n      \"raw\": \"Ogift.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 15,\n      \"parent\": null,\n      \"raw\": \"Uppslag i förs.-boken, där barnet införts el. den döpte är upptagen\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 16,\n      \"parent\": \"Döpt\",\n      \"raw\": \"år och månad.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 17,\n      \"parent\": \"Döpt\",\n      \"raw\": \"dag.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 18,\n      \"parent\": \"Döpt\",\n      \"raw\": \"af\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 19,\n      \"parent\": null,\n      \"raw\": \"Faddrar.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 20,\n      \"parent\": null,\n      \"raw\": \"Modren kyrko-tagen år, dag och månad.\",\n      \"reservation\": null\n    },\n    {\n      \"column\": 21,\n      \"parent\": null,\n      \"raw\": \"Särskilda anteckningar, såsom om modrens nedkomstort (om annan än församlingen), kyrkotagning såsom fästekvinna, inkomna och afsända attester, m. m.\",\n      \"reservation\": null\n    }\n  ],\n  \"coverage\": {\n    \"whole_reuse\": 12,\n    \"whole_gaps\": 10,\n    \"whole_gaps_blank\": 7,\n    \"whole_gaps_count_mark\": 1,\n    \"whole_gaps_reserved_text\": 1,\n    \"whole_gaps_uncertain_trace\": 1,\n    \"partial_gap\": 1,\n    \"physical_units\": 23,\n    \"numbered_columns\": 21\n  },\n  \"matrix\": [\n    {\n      \"unit\": \"1\",\n      \"column\": 1,\n      \"value\": \"15\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"2\",\n      \"column\": 2,\n      \"value\": \"maj; år 1920 enligt postlokalisering\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\",\n        \"R-C0028-15@1\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext. Året är återbrukad metadata, inte påstådd utskriven årssiffra i cellen.\"\n    },\n    {\n      \"unit\": \"3\",\n      \"column\": 3,\n      \"value\": \"11\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"4\",\n      \"column\": 4,\n      \"value\": \"[tomt]\",\n      \"classification\": \"whole_gap_blank\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": null\n    },\n    {\n      \"unit\": \"5\",\n      \"column\": 5,\n      \"value\": \"[återbrukad 1]; [kort svagt snett/vågrätt streck under markeringen]\",\n      \"classification\": \"partial_reuse_and_control\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\"\n      ],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-count-column-mapping-20260925.json\",\n          \"sha256\": \"4b9f8a8a33e1bd4c3ebd7bdcc44676a10d89235f557fc59091cab124f1cb474c\"\n        },\n        {\n          \"file\": \"c0028-root-count-column-mapping-20260925.json\",\n          \"sha256\": \"149bafc29abcbddc58296b7940e808013ff65e8f55349d90472dcde6aebb52b1\"\n        },\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": \"Rå 1 återbrukas; kolumnbindning till Lefv. född. kv. är ny geometrisk kontroll. Spåret har ingen avgjord betydelse eller ursprungsförklaring.\"\n    },\n    {\n      \"unit\": \"6\",\n      \"column\": 6,\n      \"value\": \"[tomt]\",\n      \"classification\": \"whole_gap_blank\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": null\n    },\n    {\n      \"unit\": \"7\",\n      \"column\": 7,\n      \"value\": \"[tomt]\",\n      \"classification\": \"whole_gap_blank\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": null\n    },\n    {\n      \"unit\": \"8\",\n      \"column\": 8,\n      \"value\": \"Maj Amalia; u.ä.\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"9father\",\n      \"column\": 9,\n      \"value\": \"Eriksson, Axel Edvard, järnvägsarb., banvakt 70\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext. Järnvägsarb. är yrkesord; banvakt 70 är enligt befintlig reading_note bostadsreferens. Stugnumret är inte ytterligare yrkesbelägg.\"\n    },\n    {\n      \"unit\": \"9mother\",\n      \"column\": 9,\n      \"value\": \"änkan Ekholm, Hulda Amalia, f. Ålund, änka 13 11/3\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"10father\",\n      \"column\": 10,\n      \"value\": \"81 20/3\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"10mother\",\n      \"column\": 10,\n      \"value\": \"77 25/9\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"11\",\n      \"column\": 11,\n      \"value\": \"[tomt]\",\n      \"classification\": \"whole_gap_blank\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": null\n    },\n    {\n      \"unit\": \"12\",\n      \"column\": 12,\n      \"value\": \"/\",\n      \"classification\": \"whole_gap_mark\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": \"En sned räknemarkering i Änka el. frånskild.; inte ny normaliserad siffra eller självständig änkodiagnos. Rootens rå 1 finns kvar i låset.\"\n    },\n    {\n      \"unit\": \"13\",\n      \"column\": 13,\n      \"value\": \"[tomt]\",\n      \"classification\": \"whole_gap_blank\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": null\n    },\n    {\n      \"unit\": \"14\",\n      \"column\": 14,\n      \"value\": \"[tomt]\",\n      \"classification\": \"whole_gap_blank\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": null\n    },\n    {\n      \"unit\": \"15\",\n      \"column\": 15,\n      \"value\": \"II 13\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"16\",\n      \"column\": 16,\n      \"value\": \"1921 jan.\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"17\",\n      \"column\": 17,\n      \"value\": \"13\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1\",\n        \"unit:48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Dokumentärt återbruk; inte ny diplomatisk avläsning. Fältgrupperingen är semantisk och tillför ingen ny råtext.\"\n    },\n    {\n      \"unit\": \"18\",\n      \"column\": 18,\n      \"value\": \"v. pastor[?] / [initial?] [svårläst efternamn]\",\n      \"classification\": \"whole_gap_reserved_text\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": \"Oberoende läsare: [initial?] Sandberg[?]. Root: P.[?] Land[berg?], alternativ Landby[?]. Ingen säker namnform, personidentitet eller fysisk dopplats. Slutsläng över kolumngräns inom samma post hör till signaturen, inte fadderuppgift.\"\n    },\n    {\n      \"unit\": \"19\",\n      \"column\": 19,\n      \"value\": \"[tomt enligt tidigare uttrycklig fadderkontroll]\",\n      \"classification\": \"whole_documentary_reuse\",\n      \"reuse_refs\": [\n        \"TR-0ace51d2cd42345b92d0ffac@1 reading_note\",\n        \"READ-7432c7a96d5c818ad06b800e@1 caveat\",\n        \"unit:81d162ec000abfe6ae1e2f2210ae85641e86d4bea97196f312d564734ece1578\"\n      ],\n      \"control_refs\": [],\n      \"reservation\": \"Tidigare uttrycklig blankhet återbrukas; ingen ny fadderläsning och inget påstående att dopet saknade vittnen.\"\n    },\n    {\n      \"unit\": \"20\",\n      \"column\": 20,\n      \"value\": \"[tomt]\",\n      \"classification\": \"whole_gap_blank\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": null\n    },\n    {\n      \"unit\": \"21\",\n      \"column\": 21,\n      \"value\": \"[svaga spår; ingen läsbar anteckning]\",\n      \"classification\": \"whole_gap_uncertain_trace\",\n      \"reuse_refs\": [],\n      \"control_refs\": [\n        {\n          \"file\": \"c0028-independent-gaps-20260925.json\",\n          \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n        },\n        {\n          \"file\": \"c0028-root-gaps-locked-20260925.json\",\n          \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n        }\n      ],\n      \"reservation\": \"Försiktig olöst spårklassning väljs. Ingen bokstav, dag eller materiell orsak fastställs. Rootens första blankklassning bevaras i råhistoriken.\"\n    }\n  ],\n  \"raw_locks\": [\n    {\n      \"file\": \"c0028-independent-stage1-20260925.json\",\n      \"sha256\": \"7eb48be2f5e88d0a228f8916a4d33e091a31da0b723ea3540cee312ef040d58f\"\n    },\n    {\n      \"file\": \"c0028-root-stage1-locked-20260925.json\",\n      \"sha256\": \"4c187ff7c83e59e166367092e7524aae61412e155398d062d4ca8ae39398ce95\"\n    },\n    {\n      \"file\": \"c0028-independent-count-column-mapping-20260925.json\",\n      \"sha256\": \"4b9f8a8a33e1bd4c3ebd7bdcc44676a10d89235f557fc59091cab124f1cb474c\"\n    },\n    {\n      \"file\": \"c0028-root-count-column-mapping-20260925.json\",\n      \"sha256\": \"149bafc29abcbddc58296b7940e808013ff65e8f55349d90472dcde6aebb52b1\"\n    },\n    {\n      \"file\": \"c0028-independent-gaps-20260925.json\",\n      \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"\n    },\n    {\n      \"file\": \"c0028-root-gaps-locked-20260925.json\",\n      \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"\n    }\n  ],\n  \"accepted_comparison\": {\n    \"file\": \"c0028-root-source-comparison-acceptance-20260925.json\",\n    \"sha256\": \"9cb26b11c37ddd28de776a0298f3025e5850f999e5a6e9039f06a67c3335194d\"\n  },\n  \"prior_knowledge\": \"Båda läsarna hade dokumentär förkunskap och låste separata råutfall före jämförelse. Inte avskriftsblinda.\",\n  \"limits\": [\n    \"Fullständig matris för 23 avgränsade enheter genom dokumentärt återbruk och låsta luckkontroller; tidigare positiva uppgifter och faddertomhet är inte nyavlästa.\",\n    \"Läsreservationer för förrättarsignatur, titel och svaga spår kvarstår; ingen säker personidentitet, fysisk dopplats eller spårorsak fastställs.\",\n    \"Ingen ny bedömning av föräldrarelation, äktenskap eller änkedagskonflikt följer av kontrollen.\",\n    \"Ingen automatisk person- eller kontraktsgrindhöjning.\"\n  ],\n  \"historical_refs\": [\n    \"TR-0ace51d2cd42345b92d0ffac@1\",\n    \"READ-7432c7a96d5c818ad06b800e@1\"\n  ],\n  \"reuse_policy\": \"Tillräckliga tidigare positiva fält och uttrycklig faddertomhet återbrukas, inte nyavläses. Alla luckor får blank/mark/reservation. Läsningar av samma post är ingen ny oberoende evidensröst.\",\n  \"prior_stage1_geometry\": {\n    \"numbered_columns\": 21,\n    \"left_page_columns\": [\n      1,\n      15\n    ],\n    \"right_page_columns\": [\n      16,\n      21\n    ],\n    \"record\": \"nr 15, Maj Amalia endast som känt positionsankare\",\n    \"record_band\": \"Näst nedersta fulla tabellbandet, sammanhängande över båda sidorna. Övre och nedre horisontella linjer skiljer nr 15 från angränsande poster; ingen fortsättning utanför bandet noterad.\",\n    \"approx_source_pixel_bounds\": {\n      \"left\": [\n        290,\n        3045,\n        2775,\n        3450\n      ],\n      \"right\": [\n        2990,\n        3055,\n        5480,\n        3460\n      ]\n    },\n    \"coordinate_limit\": \"Ungefärliga visuella geometrikoordinater, inte pixelprecis cropmask; skanningens linjer är något sneda.\",\n    \"parent_subzones\": \"Kolumn 9 har tryckta Fader: och Moder: inom samma band. Kolumn 10 följer deras två lodräta positioner. Övriga numrerade kolumner är bandgemensamma.\",\n    \"physical_mapping_proposal\": \"21 numrerade kolumner; om kolumn 9 och 10 räknas som två föräldraceller vardera ger detta 23 kontrollenheter. Ingen cellstatus bestämd här.\",\n    \"reuse_mark_1\": \"Rubrikgeometri möjliggör senare mapping av dokumentär 1-markering, men ingen datamarkering omläst eller kolumntilldelad i detta stage1lås.\",\n    \"margins\": \"Nr 15-bandets högra gräns följer kolumn 21 och tabellens ytterram. Inga externa fortsättningsområden identifierade geometriskt.\"\n  },\n  \"current_geometry\": {\n    \"record\": \"Nr 15, näst nedersta postbandet över uppslaget.\",\n    \"numbered_columns\": 21,\n    \"physical_units\": 23,\n    \"parent_zones\": \"Kolumn 9 och 10 särredovisas för far respektive mor.\",\n    \"column5_binding\": \"Dokumentärt återbrukad rå 1 är genom båda läsarnas låsta geometrikontroll bunden till kolumn 5: Räknad till församlingen / Lefv. född. / kv.\",\n    \"field_control\": \"12 hela enheter återbrukade, 10 hela luckor och 1 partiell lucka kontrollerade; värden och reservationer framgår av matrisen.\",\n    \"approx_source_pixel_bounds\": {\n      \"left\": [\n        290,\n        3045,\n        2775,\n        3450\n      ],\n      \"right\": [\n        2990,\n        3055,\n        5480,\n        3460\n      ]\n    },\n    \"coordinate_limit\": \"Ungefärliga visuella koordinater för nr 15:s band; inte pixelprecis cropmask. Skanningens linjer är något sneda. Gränserna avser bara denna post och ger inget stöd för andra posters cellstatus.\",\n    \"continuation\": \"Ingen fortsättning utanför samma postband identifierad. Signaturens slutdrag går över kolumngräns inom bandet och är inte fadderuppgift.\"\n  }\n}"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": null,
+        "rationale": "T-0677: avgränsad källkontroll med uttryckligt dokumentärt återbruk och separat låsta råutfall.",
+        "caveat": "Avgränsad kontroll, ingen automatisk person- eller kontraktsgrindhöjning.",
+        "origins": [],
+        "evidence": [
+          {
+            "object": "R-C0028-15",
+            "version": 1,
+            "role": "supports",
+            "note": ""
+          },
+          {
+            "object": "TR-T0677-C0028-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-T0677-C0028-officiant",
+      "kind": "observation",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "record_id": "R-C0028-15",
+          "mention_id": null,
+          "property": "baptism_officiant_raw",
+          "value_literal": "v. pastor[?] / [initial?] [svårläst efternamn]",
+          "value_json": "{\"column\": 18, \"independent_reading\": \"[initial?] Sandberg[?]\", \"root_reading\": \"P.[?] Land[berg?]\", \"root_alternative\": \"Landby[?]\", \"normalized_name\": null, \"person_id\": null}"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: avgränsad källkontroll med uttryckligt dokumentärt återbruk och separat låsta råutfall.",
+        "caveat": "Titel och signatur reserverade. Ingen säker namnform, personidentitet eller fysisk dopplats. Ingen ny M/P skapas för olöst namn.",
+        "origins": [],
+        "evidence": [
+          {
+            "object": "R-C0028-15",
+            "version": 1,
+            "role": "supports",
+            "note": ""
+          },
+          {
+            "object": "TR-T0677-C0028-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "O-T0677-C0028-statistical-fields",
+      "kind": "observation",
+      "expectedVersion": null,
+      "after": {
+        "data": {
+          "record_id": "R-C0028-15",
+          "mention_id": null,
+          "property": "statistical_column_marks",
+          "value_literal": "Kolumn 5: återbrukad 1 i Lefv. född. kv.; reserverat streck nedanför. Kolumn 12: /.",
+          "value_json": "{\"column5\": {\"unit\": \"5\", \"column\": 5, \"value\": \"[återbrukad 1]; [kort svagt snett/vågrätt streck under markeringen]\", \"classification\": \"partial_reuse_and_control\", \"reuse_refs\": [\"TR-0ace51d2cd42345b92d0ffac@1\"], \"control_refs\": [{\"file\": \"c0028-independent-count-column-mapping-20260925.json\", \"sha256\": \"4b9f8a8a33e1bd4c3ebd7bdcc44676a10d89235f557fc59091cab124f1cb474c\"}, {\"file\": \"c0028-root-count-column-mapping-20260925.json\", \"sha256\": \"149bafc29abcbddc58296b7940e808013ff65e8f55349d90472dcde6aebb52b1\"}, {\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": \"Rå 1 återbrukas; kolumnbindning till Lefv. född. kv. är ny geometrisk kontroll. Spåret har ingen avgjord betydelse eller ursprungsförklaring.\"}, \"column12\": {\"unit\": \"12\", \"column\": 12, \"value\": \"/\", \"classification\": \"whole_gap_mark\", \"reuse_refs\": [], \"control_refs\": [{\"file\": \"c0028-independent-gaps-20260925.json\", \"sha256\": \"9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f\"}, {\"file\": \"c0028-root-gaps-locked-20260925.json\", \"sha256\": \"3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1\"}], \"reservation\": \"En sned räknemarkering i Änka el. frånskild.; inte ny normaliserad siffra eller självständig änkodiagnos. Rootens rå 1 finns kvar i låset.\"}, \"blank_columns\": [4, 6, 7, 11, 13, 14], \"normalized_person_sex\": null, \"normalized_mother_civil_status\": null}"
+        },
+        "disposition": "recorded",
+        "evidenceStatus": "TRANSCRIBED",
+        "rationale": "T-0677: avgränsad källkontroll med uttryckligt dokumentärt återbruk och separat låsta råutfall.",
+        "caveat": "Källbundna räknemarkeringar. Personens könsuppgift bedöms separat från denna källobservation. Ingen självständig civilståndsdiagnos. Befintlig moderänkeuppgift och datumkonflikt prövas inte genom markeringen.",
+        "origins": [],
+        "evidence": [
+          {
+            "object": "R-C0028-15",
+            "version": 1,
+            "role": "supports",
+            "note": ""
+          },
+          {
+            "object": "TR-T0677-C0028-consolidated-control",
+            "version": 1,
+            "role": "derived_from",
+            "note": ""
+          }
+        ]
+      }
+    }
+  ],
+  "individual_source_dispositions": [
+    {
+      "object_id": "S-0024",
+      "current_revision": "S-0024@1",
+      "decision": "RETAIN",
+      "rationale": "Volymbeskrivningen påverkas inte. Original och SCB hålls källkritiskt beroende; ingen ny extern åtkomst.",
+      "current_full_payload": {
+        "object_id": "S-0024",
+        "kind": "source",
+        "revision": {
+          "id": "S-0024@1",
+          "object_id": "S-0024",
+          "version": 1,
+          "operation_id": "T-0641/pilot-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Befintlig källbeskrivning återanvänds ordagrant; arkivfält som ännu inte konverterats står kvar i beskrivningen.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "title": "S-0024: Hyltinge kyrkoarkiv C/8, födelse- och dopbok 1914–1937",
+          "archive_reference": null,
+          "source_class": null,
+          "description": "# S-0024: Hyltinge kyrkoarkiv C/8, födelse- och dopbok 1914–1937\n\n## Källbeskrivning\n\n- Institution: Riksarkivet i Uppsala\n- Arkivbildare: Hyltinge kyrkoarkiv\n- Referenskod: `SE/ULA/10422`\n- Serie/volym: Födelse- och dopböcker `C/8`\n- Tidsomfång: 1914–1937\n- Originalskanningens batch: `00154522`\n- Läst: 2026-08-19\n\n## Källkritik\n\nKyrkans originalbok och huvudbelägg för Maj Amalias födelse och dop.\nSCB-utdraget S-0017 är en separat samtida avskrift som används som kontroll.\nVolymen är yngre än 110 år och blev åtkomlig efter användarens egen inloggning.\n\n"
+        },
+        "origins": [
+          {
+            "unit_id": "69d237ced6599f770cf06c7cc953026f05a5d1dd6c922717b0eb94ba607ec919",
+            "coverage": "partial",
+            "note": "Återanvänt underlag, inte ett nytt oberoende vittnesmål."
+          }
+        ],
+        "evidence": []
+      }
+    },
+    {
+      "object_id": "R-C0028-15",
+      "current_revision": "R-C0028-15@1",
+      "decision": "RETAIN",
+      "rationale": "Samma nr 15 och lokator; ingen materiellt felaktig recordmetadata påvisad. Ny audit och TR redovisar faktisk kontroll. Ingen administrativ revision för att utlösa beroendekaskad.",
+      "current_full_payload": {
+        "object_id": "R-C0028-15",
+        "kind": "record",
+        "revision": {
+          "id": "R-C0028-15@1",
+          "object_id": "R-C0028-15",
+          "version": 1,
+          "operation_id": "T-0641/pilot-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Källpost avgränsad inom den äldre citationen.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "source_id": "S-0024",
+          "record_type": "birth_baptism",
+          "locator": "Hyltinge C/8, 1920 nr 15, s.34, bild 00154522_00037",
+          "dependence_note": "Äldre citation och denna representation är samma forskningsunderlag."
+        },
+        "origins": [
+          {
+            "unit_id": "f23117f5362236481aba8aee3ddf90239e4ccfffe15c21c5d2fd141ff688cc32",
+            "coverage": "partial",
+            "note": "Återanvänt underlag, inte ett nytt oberoende vittnesmål."
+          }
+        ],
+        "evidence": [],
+        "imported_media_bindings": [
+          {
+            "asset_path": "genealogy/media/C-0028-riksarkivet-SE-ULA-10422-C8-bild-37-sida-34.jpg",
+            "region": "post 15 på helbild",
+            "sha256": "d01488e2690492835c2dbb0f6f1a8a8f63111a00dcc57b9de3f23d2fa53426b0",
+            "bytes": 1529296,
+            "frozen": 1,
+            "batch_id": "a97081f666ca46e2b692ebdb2fcb98cf0a57d5412e1a35007af8fb18046a04c0"
+          }
+        ],
+        "native_media_bindings": []
+      }
+    },
+    {
+      "object_id": "O-P-0007-birth-status",
+      "current_revision": "O-P-0007-birth-status@1",
+      "decision": "RETAIN",
+      "rationale": "Oförändrad återbrukad positiv källuppgift; den nya kontrollen ändrar inte dess sakvärde eller befintliga versionskanter.",
+      "current_full_payload": {
+        "object_id": "O-P-0007-birth-status",
+        "kind": "observation",
+        "revision": {
+          "id": "O-P-0007-birth-status@1",
+          "object_id": "O-P-0007-birth-status",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": "CORROBORATED",
+          "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+          "caveat": "Historisk källbeteckning.",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-C0028-15",
+          "mention_id": null,
+          "property": "birth_status",
+          "value_literal": "u.ä.",
+          "value_json": {
+            "meaning": "född utom äktenskapet"
+          }
+        },
+        "origins": [
+          {
+            "unit_id": "468455976db6934975affed78e5b8988957a60563a0909d76f54083b1755bc0f",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "basis_revision_id": "R-C0028-15@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ]
+      }
+    },
+    {
+      "object_id": "O-P-0007-mother-widow",
+      "current_revision": "O-P-0007-mother-widow@1",
+      "decision": "RETAIN",
+      "rationale": "Oförändrad återbrukad positiv källuppgift; den nya kontrollen ändrar inte dess sakvärde eller befintliga versionskanter.",
+      "current_full_payload": {
+        "object_id": "O-P-0007-mother-widow",
+        "kind": "observation",
+        "revision": {
+          "id": "O-P-0007-mother-widow@1",
+          "object_id": "O-P-0007-mother-widow",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Återbrukar uttrycklig befintlig kunskap; ingen ny forskning.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-C0028-15",
+          "mention_id": null,
+          "property": "parent_civil_status",
+          "value_literal": "Modern Hulda Amalia Ekholm föddÅlund, änka sedan1913-03-11",
+          "value_json": {
+            "civil_status": "änka",
+            "person": "P-0016",
+            "since": "1913-03-11"
+          }
+        },
+        "origins": [
+          {
+            "unit_id": "f374706c11be6b8177f7f1f039fb8ad717ba45ae9a4381956a363ef7d35ac87e",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "basis_revision_id": "R-C0028-15@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ]
+      }
+    },
+    {
+      "object_id": "O-P-0015-father-occupation1920",
+      "current_revision": "O-P-0015-father-occupation1920@1",
+      "decision": "DELEGATED_TO_VARSAS",
+      "rationale": "Dokumentär konflikt järnvägsarb. kontra bostadsreferens banvakt 70 har separat fyraobjekts-/sexfieldsförslag. Ingen mutation här.",
+      "current_full_payload": {
+        "object_id": "O-P-0015-father-occupation1920",
+        "kind": "observation",
+        "revision": {
+          "id": "O-P-0015-father-occupation1920@1",
+          "object_id": "O-P-0015-father-occupation1920",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-C0028-15",
+          "mention_id": null,
+          "property": "father_occupation",
+          "value_literal": "banvakt",
+          "value_json": {
+            "date_context": "1920",
+            "occupation": "banvakt",
+            "person": "P-0015"
+          }
+        },
+        "origins": [
+          {
+            "unit_id": "e0646cd56c335952533092f90b40ab15d3e8a64bf838c9821637bfc35cbcd0ea",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "basis_revision_id": "R-C0028-15@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      }
+    },
+    {
+      "object_id": "O-P-0015-rejected-birth-reading",
+      "current_revision": "O-P-0015-rejected-birth-reading@1",
+      "decision": "RETAIN",
+      "rationale": "Oförändrad återbrukad positiv källuppgift; den nya kontrollen ändrar inte dess sakvärde eller befintliga versionskanter.",
+      "current_full_payload": {
+        "object_id": "O-P-0015-rejected-birth-reading",
+        "kind": "observation",
+        "revision": {
+          "id": "O-P-0015-rejected-birth-reading@1",
+          "object_id": "O-P-0015-rejected-birth-reading",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": "REJECTED",
+          "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+          "caveat": "Äldre felläsning uttryckligen avvisad; originalfältet läses dag före månad.",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-C0028-15",
+          "mention_id": null,
+          "property": "superseded_reading",
+          "value_literal": "1881-05-30 → 81 20/3",
+          "value_json": {
+            "corrected": "1881-03-20",
+            "old": "1881-05-30"
+          }
+        },
+        "origins": [
+          {
+            "unit_id": "9e192309c9176b86a57e014fa197a25ec95187d57300dd78cd3bfe8eb26cd84c",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "basis_revision_id": "R-C0028-15@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      }
+    },
+    {
+      "object_id": "O-P-0016-mother-widow1920",
+      "current_revision": "O-P-0016-mother-widow1920@1",
+      "decision": "RETAIN",
+      "rationale": "Oförändrad återbrukad positiv källuppgift; den nya kontrollen ändrar inte dess sakvärde eller befintliga versionskanter.",
+      "current_full_payload": {
+        "object_id": "O-P-0016-mother-widow1920",
+        "kind": "observation",
+        "revision": {
+          "id": "O-P-0016-mother-widow1920@1",
+          "object_id": "O-P-0016-mother-widow1920",
+          "version": 1,
+          "operation_id": "T-0652/persons-01-v1",
+          "disposition": "recorded",
+          "evidence_status": "TRANSCRIBED",
+          "rationale": "Bevarar den lästa källuppgiften i rätt post; gör inte en ny livshändelse av ett indirekt råfält.",
+          "caveat": "",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-C0028-15",
+          "mention_id": null,
+          "property": "mother_civil_status",
+          "value_literal": "änka 13 11/3",
+          "value_json": {
+            "person": "P-0016",
+            "since": "1913-03-11",
+            "status": "änka"
+          }
+        },
+        "origins": [
+          {
+            "unit_id": "0045f09385f0c6d55812429542cba6b43d3448bbb91732924493f39a0bd856cb",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "12c3b2d3ce8863054e9ca7d2e0dd451b018da5e0c28130792d80c3c96f9e0c65",
+            "coverage": "partial",
+            "note": "Överfört befintligt underlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "basis_revision_id": "R-C0028-15@1",
+            "role": "supports",
+            "note": "Avgränsat befintligt underlag; ingen ny källläsning."
+          }
+        ]
+      }
+    },
+    {
+      "object_id": "READ-7432c7a96d5c818ad06b800e",
+      "current_revision": "READ-7432c7a96d5c818ad06b800e@1",
+      "decision": "RETAIN",
+      "rationale": "Historisk avskrift respektive avgränsad läshistorik bevaras oförändrad; ny TR/AUDIT ger kompletteringen utan att tillskriva tidigare läsning nya cellkontroller.",
+      "current_full_payload": {
+        "object_id": "READ-7432c7a96d5c818ad06b800e",
+        "kind": "assessment",
+        "revision": {
+          "id": "READ-7432c7a96d5c818ad06b800e@1",
+          "object_id": "READ-7432c7a96d5c818ad06b800e",
+          "version": 1,
+          "operation_id": "T-0646/evidence-01-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Dokumenterad avgränsning och läshistorik i C-0028; ingen ny oberoende evidensröst.",
+          "caveat": "Faderdatum 81 20/3 rättar äldre 30 maj till 20 mars 1881; SCB C-0020 var inte omläst i samma kontroll. Fadderfältet är tomt i synlig post.",
+          "previous_id": null
+        },
+        "data": {
+          "subject_id": "R-C0028-15",
+          "criteria": "legacy_record_boundary",
+          "outcome": "record_located",
+          "body": "C-0028: Återbruk av pilotens R-C0028-15. Banvakt 70 och II 13 är stugnummer respektive bokhänvisning; moderns änkedag skiljs från eget födelsedatum. Ingen äktenskapsrelation mellan föräldrarna följer.\nOriginal till SCB-utdraget C-0020. Samma pilotpost återbrukas; ny citationstext är inte en ny självständig källa."
+        },
+        "origins": [
+          {
+            "unit_id": "6a5eacc40b370e5cfd02f8a1f637063ad87b734e409555a8da5824ccdaad5ce2",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "6e7d3b1c7e21a644dedf975300126aa75706d11f4d1c5631e99e5f263f39d966",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "81d162ec000abfe6ae1e2f2210ae85641e86d4bea97196f312d564734ece1578",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "dfee85f028bf0d4a46749a46c2944d1f674d971c5fd09b95c499f0a2c072ac23",
+            "coverage": "partial",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "basis_revision_id": "R-C0028-15@1",
+            "role": "derived_from",
+            "note": "Avser denna version av den återbrukade källposten."
+          }
+        ]
+      }
+    },
+    {
+      "object_id": "TR-0ace51d2cd42345b92d0ffac",
+      "current_revision": "TR-0ace51d2cd42345b92d0ffac@1",
+      "decision": "RETAIN",
+      "rationale": "Historisk avskrift respektive avgränsad läshistorik bevaras oförändrad; ny TR/AUDIT ger kompletteringen utan att tillskriva tidigare läsning nya cellkontroller.",
+      "current_full_payload": {
+        "object_id": "TR-0ace51d2cd42345b92d0ffac",
+        "kind": "transcription",
+        "revision": {
+          "id": "TR-0ace51d2cd42345b92d0ffac@1",
+          "object_id": "TR-0ace51d2cd42345b92d0ffac",
+          "version": 1,
+          "operation_id": "T-0646/evidence-01-v1",
+          "disposition": "recorded",
+          "evidence_status": null,
+          "rationale": "Ordagrant bevarad äldre avskrift/sammanfattning ur C-0028; ingen ny originalavläsning.",
+          "caveat": "Faderdatum 81 20/3 rättar äldre 30 maj till 20 mars 1881; SCB C-0020 var inte omläst i samma kontroll. Fadderfältet är tomt i synlig post.",
+          "previous_id": null
+        },
+        "data": {
+          "record_id": "R-C0028-15",
+          "text": "> 15 | maj 11 | 1 | Maj Amalia | u.ä.\n> Fader: Eriksson, Axel Edvard, järnvägsarb., banvakt 70 | 81 20/3 | II 13\n> Moder: änkan Ekholm, Hulda Amalia, f. Ålund, änka 13 11/3 | 77 25/9\n> Döpt: 1921 jan. 13\n",
+          "reading_note": "Återbruk av pilotens R-C0028-15. Banvakt 70 och II 13 är stugnummer respektive bokhänvisning; moderns änkedag skiljs från eget födelsedatum. Ingen äktenskapsrelation mellan föräldrarna följer.\nFaderdatum 81 20/3 rättar äldre 30 maj till 20 mars 1881; SCB C-0020 var inte omläst i samma kontroll. Fadderfältet är tomt i synlig post."
+        },
+        "origins": [
+          {
+            "unit_id": "48f7c56909f03572ee79ba49959ef429e7a9ab84f45df13b94939212af5d1dd5",
+            "coverage": "complete",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          },
+          {
+            "unit_id": "6e7d3b1c7e21a644dedf975300126aa75706d11f4d1c5631e99e5f263f39d966",
+            "coverage": "context",
+            "note": "Samma tidigare forskningsunderlag; ingen ny oberoende evidensröst."
+          }
+        ],
+        "evidence": [
+          {
+            "basis_revision_id": "R-C0028-15@1",
+            "role": "derived_from",
+            "note": "Versionsbunden strukturreferens: record_id"
+          }
+        ]
+      }
+    }
+  ],
+  "historical_preservation": {
+    "TR": "TR-0ace51d2cd42345b92d0ffac@1",
+    "READ": "READ-7432c7a96d5c818ad06b800e@1",
+    "raw_locks": [
+      {
+        "file": "c0028-independent-stage1-20260925.json",
+        "sha256": "7eb48be2f5e88d0a228f8916a4d33e091a31da0b723ea3540cee312ef040d58f"
+      },
+      {
+        "file": "c0028-root-stage1-locked-20260925.json",
+        "sha256": "4c187ff7c83e59e166367092e7524aae61412e155398d062d4ca8ae39398ce95"
+      },
+      {
+        "file": "c0028-independent-count-column-mapping-20260925.json",
+        "sha256": "4b9f8a8a33e1bd4c3ebd7bdcc44676a10d89235f557fc59091cab124f1cb474c"
+      },
+      {
+        "file": "c0028-root-count-column-mapping-20260925.json",
+        "sha256": "149bafc29abcbddc58296b7940e808013ff65e8f55349d90472dcde6aebb52b1"
+      },
+      {
+        "file": "c0028-independent-gaps-20260925.json",
+        "sha256": "9f13a383b3e88746148a1b6c9637c0daa46bada638ed12f38fd7caea1f4d7f5f"
+      },
+      {
+        "file": "c0028-root-gaps-locked-20260925.json",
+        "sha256": "3ed4db6230ce052243a1a9d90b09672186f156a1e0be4b51811840a2a40844a1"
+      }
+    ],
+    "canonical_history": "Append-only. No historical revision rewritten."
+  },
+  "coordination": {
+    "varsas_owned": [
+      "O-P-0015-father-occupation1920",
+      "person copy corrections and adoptions"
+    ],
+    "source_owned_new": [
+      "TR-T0677-C0028-consolidated-control",
+      "AUDIT-T0677-C0028",
+      "O-T0677-C0028-officiant",
+      "O-T0677-C0028-statistical-fields"
+    ],
+    "no_automatic_rebases": true
+  },
+  "no_canonical_apply": true,
+  "no_image_access_for_proposal": true
+}

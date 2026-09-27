@@ -1,0 +1,191 @@
+{
+  "task": "T-0677",
+  "state": "READ_ONLY_C0034_CLI_CAPTURE_NO_ASSESSMENT",
+  "canonical_head": "000000189-9fc34bd92adec0f69405b31b5fdf9dc11a8da3fd97c272142337a077adeb372c.json",
+  "commands": [
+    {
+      "label": "person-P0003-full",
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "person",
+        "P-0003",
+        "--full",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "stderr_utf8": "",
+      "path": "genealogy2/verification/T-0677/c0034-cli-person-P0003-full-j189-20260925.json",
+      "sha256": "2d1f949034cb196f7979bd8986fed08cf28ed11dfaf40137e2486589c6cfdcfb",
+      "bytes": 591573,
+      "json_valid": true,
+      "json_top_keys": [
+        "id",
+        "person",
+        "legacy",
+        "research",
+        "conversion",
+        "interpretationQuestions",
+        "observations",
+        "mentions",
+        "searches",
+        "importAssessments",
+        "identityMappings",
+        "identities",
+        "identityResolutions",
+        "facts",
+        "contextFacts",
+        "relations",
+        "events",
+        "questions",
+        "assessments",
+        "narratives",
+        "remaining",
+        "note"
+      ]
+    },
+    {
+      "label": "inspect-P0003",
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "inspect",
+        "P-0003"
+      ],
+      "exit_code": 0,
+      "stderr_utf8": "",
+      "path": "genealogy2/verification/T-0677/c0034-cli-inspect-P0003-j189-20260925.json",
+      "sha256": "cde29fb6361940f7abb33661501b92e22858d5753cccb3d25a704d9dd8d39d9c",
+      "bytes": 11925,
+      "json_valid": true,
+      "json_top_keys": [
+        "object",
+        "kind",
+        "currentVersion",
+        "current",
+        "conversionOrigins",
+        "revisions"
+      ]
+    },
+    {
+      "label": "inspect-R-C0034",
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "inspect",
+        "R-bbe424c723e313d730a6f028"
+      ],
+      "exit_code": 0,
+      "stderr_utf8": "",
+      "path": "genealogy2/verification/T-0677/c0034-cli-inspect-R-C0034-j189-20260925.json",
+      "sha256": "737cde814cdd73acd477a350c293032d702944362a41ee8e3fe906fa00102fba",
+      "bytes": 14739,
+      "json_valid": true,
+      "json_top_keys": [
+        "object",
+        "kind",
+        "currentVersion",
+        "current",
+        "conversionOrigins",
+        "revisions"
+      ]
+    },
+    {
+      "label": "inspect-P0003-PK05",
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "inspect",
+        "CONTRACT-P-0003-PK-05"
+      ],
+      "exit_code": 0,
+      "stderr_utf8": "",
+      "path": "genealogy2/verification/T-0677/c0034-cli-inspect-P0003-PK05-j189-20260925.json",
+      "sha256": "5486f68444d5ce250e3ce87ad752662dca9cc8b6d7271249c32c66ab985b3cd9",
+      "bytes": 18227,
+      "json_valid": true,
+      "json_top_keys": [
+        "object",
+        "kind",
+        "currentVersion",
+        "current",
+        "conversionOrigins",
+        "revisions"
+      ]
+    },
+    {
+      "label": "inspect-P0003-KP07",
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "inspect",
+        "PATH-P-0003-KP-07"
+      ],
+      "exit_code": 0,
+      "stderr_utf8": "",
+      "path": "genealogy2/verification/T-0677/c0034-cli-inspect-P0003-KP07-j189-20260925.json",
+      "sha256": "3d1319f0b3c7fd162116617919a192afa8cb827b6250c8ef40c615181b7452c0",
+      "bytes": 61082,
+      "json_valid": true,
+      "json_top_keys": [
+        "object",
+        "kind",
+        "currentVersion",
+        "current",
+        "conversionOrigins",
+        "revisions"
+      ]
+    },
+    {
+      "label": "inspect-P0003-Q03",
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "inspect",
+        "P-0003/Q-03"
+      ],
+      "exit_code": 0,
+      "stderr_utf8": "",
+      "path": "genealogy2/verification/T-0677/c0034-cli-inspect-P0003-Q03-j189-20260925.json",
+      "sha256": "cad161be980513084c5b033317caf7011267d4e2914186db36f1ea432f28ed93",
+      "bytes": 10139,
+      "json_valid": true,
+      "json_top_keys": [
+        "object",
+        "kind",
+        "currentVersion",
+        "current",
+        "conversionOrigins",
+        "revisions"
+      ]
+    },
+    {
+      "label": "inspect-P0003-Q06",
+      "command": [
+        "node",
+        "genealogy2/cli.mjs",
+        "inspect",
+        "P-0003/Q-06"
+      ],
+      "exit_code": 0,
+      "stderr_utf8": "",
+      "path": "genealogy2/verification/T-0677/c0034-cli-inspect-P0003-Q06-j189-20260925.json",
+      "sha256": "d01b03a1eaa2e5e7d6e69bcadb8b4b3c8b6e6758a9063655790bfded077c5c9a",
+      "bytes": 21010,
+      "json_valid": true,
+      "json_top_keys": [
+        "object",
+        "kind",
+        "currentVersion",
+        "current",
+        "conversionOrigins",
+        "revisions"
+      ]
+    }
+  ],
+  "P0007_reuse": "Existing c0033-currentperson capture at j189; no new P-0007 CLI capture here.",
+  "no_images": true,
+  "no_native_write": true,
+  "no_Wotan_status_change": true
+}

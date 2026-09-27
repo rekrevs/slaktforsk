@@ -1,0 +1,1641 @@
+{
+  "task": "T-0676",
+  "date": "2026-09-20",
+  "phase": "READ_ONLY_CURRENT_GRAVE_REUSE_CONTEXT",
+  "reviewer_role": "Astra",
+  "method": "Sparad scope/start-persons/reuse-triage, T0676 och relevanta T0230/T0232/T0123/T0444-loggar samt aktuella native person/research/inspect. T0675 sparade läsningar/nativeutfall jämförda. Inga original öppnade, ingen fjärrhämtning, nativeapply eller Wotanändring.",
+  "baseline_files": [
+    {
+      "path": "genealogy2/verification/T-0676/scope.json",
+      "sha256": "bb2a5858ee4b7fd79f3c361a7749f9522554a4cb6fa36124160595f3707f3214"
+    },
+    {
+      "path": "genealogy2/verification/T-0676/reuse-triage.json",
+      "sha256": "87889275c6633a51d9201af4b531186d97e4f61e09a6ac83f636cc61b7c394c4"
+    },
+    {
+      "path": "genealogy2/verification/T-0676/start-persons.json",
+      "sha256": "f04af3740f0ffc1e22d4177839e6ba58f1f6333a2533c1f3aac6081641193419"
+    }
+  ],
+  "summary": {
+    "records": 19,
+    "partial_cograve_row_reuse": 13,
+    "without_exact_t0675_cograve_row_reuse": 6,
+    "unassigned_person_mentions": 2,
+    "full_person_review": false
+  },
+  "corrections_to_preserved_initial_triage": [
+    {
+      "location": "records[numbers32,37,48].partial_reuse.specific_limit",
+      "incorrect": "Amelies gravsättning1997-04 behåller månadsnivå",
+      "correct": "Amelies death_raw är1997-04 (månadsnivå); burial_raw är1997-06-02 (dagprecision).",
+      "basis": [
+        "TR-T0675-GR-8@1",
+        "TR-T0675-GR-5@1",
+        "genealogy2/verification/T-0675/root-graves-four-first-initial.json: carlman_grave_others"
+      ],
+      "action": "Initialtriage bevarad oförändrad. Jämfört nativeutfall har redan rätt fält; detta korrigerar återbrukstexten."
+    }
+  ],
+  "global_limits": [
+    "Ingen full person-, identitets-, livsbilds- eller trädgranskning. Q/KP-status ändras inte.",
+    "Samgrav ger inte ny släktrelation. Göran Olof och Johan Daniel tilldelas inget P-id; P0287/P0336 är endast kontext.",
+    "T0230/T0232 innehåller bredare kvarvarande arbete. T0444 äger inte C0945, vars kopiearbete hör till T0232. T0123 DONE återöppnas inte.",
+    "Befintlig positiv läsning/ägarinformation bevaras; ingen audit är inte bevis för oläst källa.",
+    "Framtida födelse-, dödsboks-, boupptecknings- och flyttvägar startas inte.",
+    "Återbrukade medgravsrader täcker namn/född/avliden/gravsatt och redan läst gemensam gravkontext; inga egna hemortsfält. Operation T-0675/Graves-four-v1 journal145."
+  ],
+  "records": [
+    {
+      "scope_number": 7,
+      "record": "R-2b56b83450e8f50b3098a67a",
+      "current_record_revision": "R-2b56b83450e8f50b3098a67a@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Göran Olof",
+      "person_id": null,
+      "current_person_revision": null,
+      "context_persons_without_identity_assignment": [
+        "P-0287@2",
+        "P-0336@2"
+      ],
+      "current_questions": [],
+      "current_source_paths": [],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-802d9230a50c463d194cb9b3",
+          "revision": "TR-802d9230a50c463d194cb9b3@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nIngen exakt släktlänk till övriga skapas av graven. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Göran Olof** | 1938-10-21 | 2021-09-04 | 2021-11-03 | Österåker-Östra Ryd |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Göran Olof",
+            "birth_raw": "1938-10-21",
+            "death_raw": "2021-09-04",
+            "burial_raw": "2021-11-03"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Österåker-Östra Ryd",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Ingen säker egen P-identitet/släktbindning tilldelas."
+    },
+    {
+      "scope_number": 9,
+      "record": "R-31841e54a960c1d066ce0486",
+      "current_record_revision": "R-31841e54a960c1d066ce0486@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Ester Olivia Johanna",
+      "person_id": "P-0490",
+      "current_person_revision": "P-0490@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0490/Q-01",
+          "revision_id": "P-0490/Q-01@1",
+          "title": "Q-01: Vad står i hennes egen födelsenotis i Kungsholm 1891?",
+          "outcome": "ÖPPEN"
+        },
+        {
+          "object_id": "P-0490/Q-02",
+          "revision_id": "P-0490/Q-02@1",
+          "title": "Q-02: Vad hände mellan 1910 och 1967?",
+          "outcome": "ÖPPEN"
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0490-KP-02",
+          "revision_id": "PATH-P-0490-KP-02@1",
+          "outcome": "EJ UNDERSÖKT."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-7f64ca6f6e99cb45fb220643",
+          "revision": "TR-7f64ca6f6e99cb45fb220643@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nFödd1891-12-21; gravsättningsdatum är tomt, inte likställt med dödsdagen. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Ester Olivia Johanna** | **1891-12-21** | 1967-11-09 | — | Sollentuna |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Ester Olivia Johanna",
+            "birth_raw": "1891-12-21",
+            "death_raw": "1967-11-09",
+            "burial_raw": "-"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Sollentuna",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Streck för gravsättning bevaras. Eget födelseoriginal och vuxenliv kvarstår."
+    },
+    {
+      "scope_number": 13,
+      "record": "R-3cf395a8145fddeb50de614a",
+      "current_record_revision": "R-3cf395a8145fddeb50de614a@1",
+      "locator": "SvenskaGravar, Södra kyrkogården Flen FS09 0112, Hulda Amalia Ekholm1877-09-25",
+      "person_id": "P-0016",
+      "current_person_revision": "P-0016@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0016/Q-02",
+          "revision_id": "P-0016/Q-02@1",
+          "title": "Q-02: Var och när dog Hulda?",
+          "outcome": "ÖPPEN."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0016-KP-02",
+          "revision_id": "PATH-P-0016-KP-02@1",
+          "outcome": "POSITIVT: C-0923 ger död 15 mars och gravsättning 21 mars 1964. Proveniensrest: ingen bevarad målpostkopia."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0227",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-fa87eb2656d69c1e458d5586",
+          "revision": "TR-fa87eb2656d69c1e458d5586@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Fyra personbundna registerposter hålls skilda även när två delar grav. T0123 begränsar äldre slutsatser om namnärende, dödsort, boendekedja och äktenskap. Bevarandeskulden gör inte uppgifterna okända. Sökfrågor för Ada respektive Bernhard gav endast register-/täckningsnoll.\nDöd1964-03-15, gravsatt1964-03-21. Og Ålund bevaras bokstavligt utan säkert civilstånd. Flen hemort/grav bevisar inte obrutet boende sedan1938. Exakt post-URL/hashkopia saknas.",
+          "text": "> **Ekholm, Hulda Amalia Og Ålund** — Flen, Helgesta-Hyltinge församling —\n> Född: 1877-09-25 — Avliden: **1964-03-15** — Gravsatt: **1964-03-21** —\n> **Söd. Kyrkogården Flen** — Kvarter: Kvarter 9 — Hemort: Flen —\n> Gravplats: 0112 — Gravplatsnummer: **FS09 0112**\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [],
+      "reuse_provenance": null,
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Flen",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Og Ålund är bokstavlig text, inte säker civilståndsuppgift. Hemort ger inte dödsplats."
+    },
+    {
+      "scope_number": 14,
+      "record": "R-4df06910295b8a403910f8c2",
+      "current_record_revision": "R-4df06910295b8a403910f8c2@1",
+      "locator": "SvenskaGravar Högby kyrkogård kvarterE, Carl August Carlman",
+      "person_id": "P-0310",
+      "current_person_revision": "P-0310@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0310/Q-01",
+          "revision_id": "P-0310/Q-01@1",
+          "title": "Q-01: Hur kom han från Målilla till Öland, och när blev han Carlman?",
+          "outcome": "ÖPPEN"
+        },
+        {
+          "object_id": "P-0310/Q-02",
+          "revision_id": "P-0310/Q-02@1",
+          "title": "Q-02: Vad finns i kronolänsmannens eget arkiv?",
+          "outcome": "ÖPPEN"
+        },
+        {
+          "object_id": "P-0310/Q-03",
+          "revision_id": "P-0310/Q-03@1",
+          "title": "Q-03: Vilken jord låg under Hagaby nr 6?",
+          "outcome": "ÖPPEN"
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0310-KP-01",
+          "revision_id": "PATH-P-0310-KP-01@1",
+          "outcome": "POSITIVT. Egen födelsenotis inklusive faddrar och ytterkolumn, båda vigselposterna, tre hushållssidor, tre folkräkningar, dödsposten med orsak och gravposten är lästa. Fyra avgränsade noll är genomlästa och samtliga förklarade av positiva poster. Utvinningen är fullständig sedan 2026-09-08: familjepostens nionde rad, dess dödbokspost och äktenskapskolumnerna på hans egen rad är utvunna i T-0156. Kvar inom volymen står de två hänvisande hushållssidorna 122/126, som är andra hushålls poster och därför ligger i KP-05."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0230",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-2ac4765cf7ca9a9b482c71d5",
+          "revision": "TR-2ac4765cf7ca9a9b482c71d5@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Sju personposter i två gravplatser. Senare rättelse upphäver Elins påstådda födelsekonflikt mot egen födelsepost, begränsar gravslutsatser om flytt/ägande/släktskap och markerar saknad exakt registerkopia. Amelies döduppgift behåller månadsnivå.\nFödd1825-10-02, död1901-11-21, gravsatt1901-11-27. Gravrätt återgången är registerstatus, inte släkthändelse. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Carlman, **Carl August** | **1825-10-02** | **1901-11-21** | 1901-11-27 |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [],
+      "reuse_provenance": null,
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Högby E",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Carl/Karl är skilda namnformer. T0675 Kristinas sökpost täcker inte detta kort. Återlämnad gravrätt är registerstatus."
+    },
+    {
+      "scope_number": 18,
+      "record": "R-64cd876ae85dc6ed0135d56f",
+      "current_record_revision": "R-64cd876ae85dc6ed0135d56f@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Frida Elisabet",
+      "person_id": "P-0395",
+      "current_person_revision": "P-0395@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0395/Q-03",
+          "revision_id": "P-0395/Q-03@1",
+          "title": "Q-03: Kan dödsdatumet 1966-02-03 bekräftas i en primär källa?",
+          "outcome": "ÖPPEN."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0395-KP-03",
+          "revision_id": "PATH-P-0395-KP-03@1",
+          "outcome": "EJ UNDERSÖKT. Ingen dödbok, bouppteckning eller pressökning är gjord för Frida."
+        },
+        {
+          "object_id": "PATH-P-0395-KP-04",
+          "revision_id": "PATH-P-0395-KP-04@2",
+          "outcome": "1890egenoriginalrad på följande uppslag kvar oläst. Götas detaljkort med Fridas medgravsrad bevarat journal145; Fridas eget detaljkort återstår."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-ea9c4e1ccef0a884d7011a2c",
+          "revision": "TR-ea9c4e1ccef0a884d7011a2c@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nFödd1883-01-29. Tidigare påstådd egen födelseoriginalmatchning är återtagen: dagankaret var C0474:s senare familjeförteckning. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Frida Elisabet** | **1883-01-29** | 1966-02-03 | 1966-02-24 | Sollentuna |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Frida Elisabet",
+            "birth_raw": "1883-01-29",
+            "death_raw": "1966-02-03",
+            "burial_raw": "1966-02-24"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Sollentuna",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "KP04 skiljer redan återbrukad rad från eget hemortskort. Återtagen födelsematch återinförs inte."
+    },
+    {
+      "scope_number": 19,
+      "record": "R-79718825d117bf31d16b4fe7",
+      "current_record_revision": "R-79718825d117bf31d16b4fe7@1",
+      "locator": "SvenskaGravar, Södertälje kyrkogård1060238, Arne Godvig Jansson1915-02-21",
+      "person_id": "P-0003",
+      "current_person_revision": "P-0003@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0003/Q-06",
+          "revision_id": "P-0003/Q-06@1",
+          "title": "Q-06: Vilka uppgifter om död och grav är styrkta, och vad återstår?",
+          "outcome": "STÖDD."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0003-KP-06",
+          "revision_id": "PATH-P-0003-KP-06@1",
+          "outcome": "POSITIVT i C-0923 för namn/födelsedatum, död 1993-07-31, gravsättning 1994-06-06 och gemensam grav med Maj. Den äldre tjänstens täckningsnoll var inget personnoll. Dödsplats och själva bouppteckningen EJ UNDERSÖKTA; det äldre katalogprovet räknas som genomfört men otillräckligt personbundet."
+        },
+        {
+          "object_id": "PATH-P-0003-KP-07",
+          "revision_id": "PATH-P-0003-KP-07@2",
+          "outcome": "Källvägens C-0895-del preciseras: överlagrad kol13 har Fl.[?]43 A/11[?];41,42 och ingen säker separat40; inte en fastställd attesthändelse. Flyttningsbetygets egna fält är tomma. Den lokalt prövade oläsbarheten skiljs från tidigare utvinningsskuld; övriga namngivna poster kvarstår."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0227",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-f8452336291854e1b3447ada",
+          "revision": "TR-f8452336291854e1b3447ada@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Fyra personbundna registerposter hålls skilda även när två delar grav. T0123 begränsar äldre slutsatser om namnärende, dödsort, boendekedja och äktenskap. Bevarandeskulden gör inte uppgifterna okända. Sökfrågor för Ada respektive Bernhard gav endast register-/täckningsnoll.\nDöd1993-07-31 och gravsatt1994-06-06 är skilda administrativa datum. Hemort Södertälje ger inte dödsort eller lasarett. Exakt post-URL/hashkopia saknas.",
+          "text": "> **Jansson, Arne Godvig** — Södertälje pastorat — Född: 1915-02-21 —\n> Avliden: **1993-07-31** — Gravsatt: **1994-06-06** — Södertälje kyrkogård —\n> Kvarter: Kvarter 06 — Hemort: Södertälje — Gravplats: 0238 —\n> Gravplatsnummer: **106 0238**\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [],
+      "reuse_provenance": null,
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Södertälje",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "T0123 DONE återöppnas inte. Hemort ger inte dödsplats/sjukhus/dödsorsak. Dödsbok/bouppteckning separata."
+    },
+    {
+      "scope_number": 20,
+      "record": "R-80300dbcb60e271c13fc07fb",
+      "current_record_revision": "R-80300dbcb60e271c13fc07fb@1",
+      "locator": "SvenskaGravar, Södertälje kyrkogård1060238, Maj Amalia Ekholm-Jansson1920-05-11",
+      "person_id": "P-0007",
+      "current_person_revision": "P-0007@1",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0007/Q-03",
+          "revision_id": "P-0007/Q-03@1",
+          "title": "Q-03: När och var dog Maj, och när registrerades namnet Janson?",
+          "outcome": "ÖPPEN."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0007-KP-03",
+          "revision_id": "PATH-P-0007-KP-03@1",
+          "outcome": "POSITIVT på svenskagravar.se 2026-09-06 för de fyra sökta personerna; LÄSOSÄKERHET saknas, men **bevarandeskuld kvarstår**: S-0711 anger uttryckligen att ingen lokal kopia av sidan sparas. Namnärendet EJ UNDERSÖKT."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0676",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-d38eef68ba44cf9352680923",
+          "revision": "TR-d38eef68ba44cf9352680923@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Fyra personbundna registerposter hålls skilda även när två delar grav. T0123 begränsar äldre slutsatser om namnärende, dödsort, boendekedja och äktenskap. Bevarandeskulden gör inte uppgifterna okända. Sökfrågor för Ada respektive Bernhard gav endast register-/täckningsnoll.\nDöd2006-10-04, gravsatt2006-12-12. Ekholm-Jansson är registerform, inte självständigt bevis för myndighetsärendet om antal s. Exakt post-URL/hashkopia saknas.",
+          "text": "> **Ekholm-Jansson, Maj Amalia** — Södertälje pastorat — Född: 1920-05-11 —\n> Avliden: **2006-10-04** — Gravsatt: **2006-12-12** — Södertälje kyrkogård —\n> Kvarter: Kvarter 06 — Hemort: Södertälje — Gravplats: 0238 —\n> Gravplatsnummer: **106 0238**\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [],
+      "reuse_provenance": null,
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Södertälje",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Ekholm-Jansson bevaras utan slutsats om formell namnändring eller antal s. Q03 har bredare omfång."
+    },
+    {
+      "scope_number": 23,
+      "record": "R-99214b6ba2248c598ba56519",
+      "current_record_revision": "R-99214b6ba2248c598ba56519@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Oscar Fredrik",
+      "person_id": "P-0492",
+      "current_person_revision": "P-0492@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0492/Q-01",
+          "revision_id": "P-0492/Q-01@1",
+          "title": "Q-01: Vad står i hans egen födelsenotis i Kungsholm 1895?",
+          "outcome": "ÖPPEN"
+        },
+        {
+          "object_id": "P-0492/Q-02",
+          "revision_id": "P-0492/Q-02@1",
+          "title": "Q-02: Vad hände mellan 1910 och 1966?",
+          "outcome": "ÖPPEN"
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0492-KP-02",
+          "revision_id": "PATH-P-0492-KP-02@1",
+          "outcome": "EJ UNDERSÖKT."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-d91f224e47c828058082465b",
+          "revision": "TR-d91f224e47c828058082465b@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nFödd1895-10-16; namnet Oscar/Oskar är källformer, inte en ny identitet. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Oscar Fredrik** | **1895-10-16** | 1966-10-30 | 1966-11-19 | Sollentuna |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Oscar Fredrik",
+            "birth_raw": "1895-10-16",
+            "death_raw": "1966-10-30",
+            "burial_raw": "1966-11-19"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Sollentuna",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Oscar/Oskar bevaras som källformer. Eget födelseoriginal/vuxenliv kvarstår."
+    },
+    {
+      "scope_number": 27,
+      "record": "R-a191df5fbb8167b10d8fa66d",
+      "current_record_revision": "R-a191df5fbb8167b10d8fa66d@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Augusta Gerda Charlotta",
+      "person_id": "P-0489",
+      "current_person_revision": "P-0489@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0489/Q-01",
+          "revision_id": "P-0489/Q-01@1",
+          "title": "Q-01: Vad står i hennes egen födelsenotis i Kungsholm 1890?",
+          "outcome": "ÖPPEN"
+        },
+        {
+          "object_id": "P-0489/Q-02",
+          "revision_id": "P-0489/Q-02@1",
+          "title": "Q-02: Vad hände mellan 1910 och 1975?",
+          "outcome": "ÖPPEN"
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0489-KP-02",
+          "revision_id": "PATH-P-0489-KP-02@1",
+          "outcome": "EJ UNDERSÖKT."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-34c1dbdfc9189f9099114011",
+          "revision": "TR-34c1dbdfc9189f9099114011@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nFödd1890-09-05; hemort vid död är inte obrutet kvarboende. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Augusta Gerda Charlotta** | **1890-09-05** | 1975-05-31 | 1975-06-18 | Sollentuna |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Augusta Gerda Charlotta",
+            "birth_raw": "1890-09-05",
+            "death_raw": "1975-05-31",
+            "burial_raw": "1975-06-18"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Sollentuna",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Gerda/Gärda bevaras som källformer. Eget födelseoriginal/vuxenliv kvarstår."
+    },
+    {
+      "scope_number": 29,
+      "record": "R-a3507f603883fb4a32d00ddd",
+      "current_record_revision": "R-a3507f603883fb4a32d00ddd@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Johan Daniel",
+      "person_id": null,
+      "current_person_revision": null,
+      "context_persons_without_identity_assignment": [
+        "P-0287@2",
+        "P-0336@2"
+      ],
+      "current_questions": [],
+      "current_source_paths": [],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-227b2747ab8f15a928666949",
+          "revision": "TR-227b2747ab8f15a928666949@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nIngen exakt släktlänk till övriga skapas av graven. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Johan Daniel** | 1967-05-06 | 2008-12-01 | 2009-04-23 | Aspås |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Johan Daniel",
+            "birth_raw": "1967-05-06",
+            "death_raw": "2008-12-01",
+            "burial_raw": "2009-04-23"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Aspås",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Ingen säker egen P-identitet/släktbindning tilldelas."
+    },
+    {
+      "scope_number": 32,
+      "record": "R-a8370dbf4e1405f70f6bb851",
+      "current_record_revision": "R-a8370dbf4e1405f70f6bb851@1",
+      "locator": "SvenskaGravar Kalmar Norra kyrkogården2020056B, Amelie Karolina Carlman",
+      "person_id": "P-0531",
+      "current_person_revision": "P-0531@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0531/Q-01",
+          "revision_id": "P-0531/Q-01@1",
+          "title": "Q-01: Vad hände mellan hushållsposten 1930 och dödsfallet 1997?",
+          "outcome": "ÖPPEN."
+        },
+        {
+          "object_id": "P-0531/Q-02",
+          "revision_id": "P-0531/Q-02@1",
+          "title": "Q-02: Kan födelsedagen och föräldraskapet bekräftas i egen födelsenotis?",
+          "outcome": "STÖDD."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0531-KP-03",
+          "revision_id": "PATH-P-0531-KP-03@1",
+          "outcome": "POSITIVT för uppgiftsinnehållet — hela hennes gravrad är avläst — men lokal kopia, URL och hash saknas enligt [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md):s tillägg 2026-09-07, och sifferledet 01 är otolkat."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0230",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-b0408fa7dbcc220cc7430779",
+          "revision": "TR-b0408fa7dbcc220cc7430779@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Sju personposter i två gravplatser. Senare rättelse upphäver Elins påstådda födelsekonflikt mot egen födelsepost, begränsar gravslutsatser om flytt/ägande/släktskap och markerar saknad exakt registerkopia. Amelies döduppgift behåller månadsnivå.\nFödd1912-09-07, död1997-04 med bara månad, gravsatt1997-06-02. Hemort01,S:t Göran återges; ingen påhittad dödsdag. Dotterrad finns i C0899, gemensam grav är inte ensam relationsbevis. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Carlman, **Amelie Karolina** | **1912-09-07** | **1997-04** | 1997-06-02 | 01, S:t Göran |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-8@1",
+          "source_record": "R-260f1b40b6cf4b3074602015",
+          "exact_row": {
+            "name_raw": "Carlman, Amelie Karolina",
+            "birth_raw": "1912-09-07",
+            "death_raw": "1997-04",
+            "burial_raw": "1997-06-02"
+          },
+          "preserved_media_sha256": "23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8"
+        },
+        {
+          "transcription_revision": "TR-T0675-GR-5@1",
+          "source_record": "R-1815005a5298339221e96e6d",
+          "exact_row": {
+            "name_raw": "Carlman, Amelie Karolina",
+            "birth_raw": "1912-09-07",
+            "death_raw": "1997-04",
+            "burial_raw": "1997-06-02"
+          },
+          "preserved_media_sha256": "31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5"
+        }
+      ],
+      "reuse_provenance": {
+        "source_records": [
+          "R-260f1b40b6cf4b3074602015",
+          "R-1815005a5298339221e96e6d"
+        ],
+        "audits": [
+          "AUDIT-T0675-GR-8",
+          "AUDIT-T0675-GR-5"
+        ],
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen medgravsrad i Johan/Naemis åttapersonerslista. Namn och visade datum utvunna; eget detaljkort/hemort ej därmed läst.",
+        "media": [
+          "M-23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+          "M-31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5"
+        ],
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "path": "genealogy2/media/objects/23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "sha256": "23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "hash_matches": true
+          },
+          {
+            "id": "M-31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "path": "genealogy2/media/objects/31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "sha256": "31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "01, S:t Göran",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Död1997-04 på månadsnivå, gravsättning1997-06-02 på dagnivå. Kod01 otolkad, hemort inte dödsplats/flyttmotiv. Amelie/Amelia ger inte namnbyte/civilstånd."
+    },
+    {
+      "scope_number": 35,
+      "record": "R-b5b65047ac9871c85bd8831a",
+      "current_record_revision": "R-b5b65047ac9871c85bd8831a@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Edit Maria Justina",
+      "person_id": "P-0491",
+      "current_person_revision": "P-0491@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0491/Q-01",
+          "revision_id": "P-0491/Q-01@1",
+          "title": "Q-01: Vilket är hennes födelsedatum, och var står hennes egen födelsenotis?",
+          "outcome": "ÖPPEN."
+        },
+        {
+          "object_id": "P-0491/Q-02",
+          "revision_id": "P-0491/Q-02@1",
+          "title": "Q-02: Hur såg hennes vuxna liv ut mellan 1910 och 1979, och när kom hon till Sollentuna?",
+          "outcome": "ÖPPEN."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0491-KP-01",
+          "revision_id": "PATH-P-0491-KP-01@1",
+          "outcome": "EJ UNDERSÖKT."
+        },
+        {
+          "object_id": "PATH-P-0491-KP-02",
+          "revision_id": "PATH-P-0491-KP-02@1",
+          "outcome": "EJ UNDERSÖKT. Ingen källa i luckan 1910–1979 är läst."
+        },
+        {
+          "object_id": "PATH-P-0491-KP-03",
+          "revision_id": "PATH-P-0491-KP-03@1",
+          "outcome": "gravposten är LÄST 2026-09-06 (POSITIVT) men utan bevarad lokal kopia. Dödsbo och personliga källor är EJ UNDERSÖKT."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-5869c67c1525db9819bea949",
+          "revision": "TR-5869c67c1525db9819bea949@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nFödd1894-04-13 stödjer1894 men löser inte ensamt konflikten mot1895 utan egen prövad post. Äldre slutsats löst är uttryckligen återtagen. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Edit Maria Justina** | **1894-04-13** | 1979-02-20 | 1979-03-15 | Sollentuna |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Edit Maria Justina",
+            "birth_raw": "1894-04-13",
+            "death_raw": "1979-02-20",
+            "burial_raw": "1979-03-15"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Sollentuna",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "1894-04-13 löser inte födelsekonflikt1894/1895. Eget födelseoriginal/vuxenliv kvarstår."
+    },
+    {
+      "scope_number": 36,
+      "record": "R-bb35194c8e5226cab4d0a8bd",
+      "current_record_revision": "R-bb35194c8e5226cab4d0a8bd@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Johannes",
+      "person_id": "P-0287",
+      "current_person_revision": "P-0287@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0287/Q-02",
+          "revision_id": "P-0287/Q-02@1",
+          "title": "Q-02: När dog han och stämmer gravuppgiften Sollentuna kvarter 7 plats 12?",
+          "outcome": "FASTSTÄLLD."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0287-KP-02",
+          "revision_id": "PATH-P-0287-KP-02@1",
+          "outcome": "C-0945:s elva Fredbergträffar i samma Sollentunagrav; C-0946:s egen dödspost. Dödsdag och grav är positiva fynd, inte längre olästa vägar."
+        },
+        {
+          "object_id": "PATH-P-0287-KP-03",
+          "revision_id": "PATH-P-0287-KP-03@1",
+          "outcome": "i T-0124 omläst Johannes namn, födelsefält, inflyttning 95 31/12 243 och icke konfirmerad; övriga egna mittkolumner framstår tomma. Robert/Ruth har egna datum/noter som inte får flyttas upp på Johannes. C-0946:s råa namnform och räknestreck i ogift man har omlästs; första anmärkningsordet kvarstår reserverat."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-2922a85b0edfeb246bf12e32",
+          "revision": "TR-2922a85b0edfeb246bf12e32@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nEndast gravsatt1949-02-16; födelse-/dödsdatum tomma. Senare C0946 har redan egen dödpost10februari, återöppna inte den lösta datumfrågan. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Johannes** | — | — | **1949-02-16** | — |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Johannes",
+            "birth_raw": "-",
+            "death_raw": "-",
+            "burial_raw": "1949-02-16"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "—",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Född/avliden har streck i listan. C0946 dödsbok är separat redan läst belägg. Ägarbekräftat faderskap omprövas inte."
+    },
+    {
+      "scope_number": 37,
+      "record": "R-bb93853c1ba9f447f242c62d",
+      "current_record_revision": "R-bb93853c1ba9f447f242c62d@1",
+      "locator": "SvenskaGravar Kalmar Norra kyrkogården2020056B, Elin Carlman",
+      "person_id": "P-0243",
+      "current_person_revision": "P-0243@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0243/Q-02",
+          "revision_id": "P-0243/Q-02@2",
+          "title": "Q-02: Vilka öppnade personfält och källkopior behöver slutföras?",
+          "outcome": "ÖPPEN."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0243-KP-01",
+          "revision_id": "PATH-P-0243-KP-01@1",
+          "outcome": "POSITIVT C-0948 för vigseln, C-0899 för1930hushållet med inflyttningsuppgift1909, C-0944 för död/grav. Ingen full efter 1902livskedja och ingen ny bred gravsökning utförd."
+        },
+        {
+          "object_id": "PATH-P-0243-KP-02",
+          "revision_id": "PATH-P-0243-KP-02@2",
+          "outcome": "datumfel rättade genom två omläsare. Angivna ytterfält ännu ofullständiga; C-0271:s egna tomfält är prövade, C-0948:s centrala personkolumner fullästa."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0230",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-b5dd53d6e0402272b0a0c9d6",
+          "revision": "TR-b5dd53d6e0402272b0a0c9d6@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Sju personposter i två gravplatser. Senare rättelse upphäver Elins påstådda födelsekonflikt mot egen födelsepost, begränsar gravslutsatser om flytt/ägande/släktskap och markerar saknad exakt registerkopia. Amelies döduppgift behåller månadsnivå.\nFödd1873-01-15, död1962-11-10, gravsatt1962-12-01. Egen födelsepost C0270 är omläst till15januari: gamla13/15konflikten där är upphävd, andra avskrifter prövas separat. Stockholm ger inte flyttdatum eller motiv att bo nära dottern. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Carlman, **Elin** | **1873-01-15** | **1962-11-10** | 1962-12-01 | Stockholm |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-8@1",
+          "source_record": "R-260f1b40b6cf4b3074602015",
+          "exact_row": {
+            "name_raw": "Carlman, Elin",
+            "birth_raw": "1873-01-15",
+            "death_raw": "1962-11-10",
+            "burial_raw": "1962-12-01"
+          },
+          "preserved_media_sha256": "23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8"
+        },
+        {
+          "transcription_revision": "TR-T0675-GR-5@1",
+          "source_record": "R-1815005a5298339221e96e6d",
+          "exact_row": {
+            "name_raw": "Carlman, Elin",
+            "birth_raw": "1873-01-15",
+            "death_raw": "1962-11-10",
+            "burial_raw": "1962-12-01"
+          },
+          "preserved_media_sha256": "31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5"
+        }
+      ],
+      "reuse_provenance": {
+        "source_records": [
+          "R-260f1b40b6cf4b3074602015",
+          "R-1815005a5298339221e96e6d"
+        ],
+        "audits": [
+          "AUDIT-T0675-GR-8",
+          "AUDIT-T0675-GR-5"
+        ],
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen medgravsrad i Johan/Naemis åttapersonerslista. Namn och visade datum utvunna; eget detaljkort/hemort ej därmed läst.",
+        "media": [
+          "M-23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+          "M-31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5"
+        ],
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "path": "genealogy2/media/objects/23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "sha256": "23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "hash_matches": true
+          },
+          {
+            "id": "M-31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "path": "genealogy2/media/objects/31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "sha256": "31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Stockholm",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Födelsedag15 redan avgjord mot äldre13/15-konflikt. C0899 eget1930-kort redan klart T0675. Inte nytt personomdöme."
+    },
+    {
+      "scope_number": 39,
+      "record": "R-c780069a70fe332c281db67b",
+      "current_record_revision": "R-c780069a70fe332c281db67b@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Olaus",
+      "person_id": "P-0336",
+      "current_person_revision": "P-0336@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0336/Q-03",
+          "revision_id": "P-0336/Q-03@1",
+          "title": "Q-03: Hur förenas hushållsleden och det sista civilståndet?",
+          "outcome": "ÖPPEN"
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0336-KP-01",
+          "revision_id": "PATH-P-0336-KP-01@1",
+          "outcome": "Positiva flyttnings-, vigsel- och hushållsankare, sju rotemansposter 1878–1915, folkräkningar 1880/1890/1900/1910, dödpost och press. C-0792 omfattar 33 exponerade bilder 157–189 kring Tureberg; C-0809 endast SCB 1920 bilder 294–339. Inget av dessa noll sluter den personliga kedjan. C-0644:s egna överlagrade noteringar har prövats: Fr.dberg[?], äldre otydlig ort och datum 24/[?]; dessa råreservationer tillgodoräknas som genomgångna fält."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-799b32110340474ab0103dbb",
+          "revision": "TR-799b32110340474ab0103dbb@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nEndast gravsatt1925-08-12; födelse-/dödsdatum tomma. Korrelationen till C0475:s begravningsdag är projektets identitetsgrund, inte ny döduppgift här. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Olaus** | — | — | **1925-08-12** | — |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Olaus",
+            "birth_raw": "-",
+            "death_raw": "-",
+            "burial_raw": "1925-08-12"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "—",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Född/avliden streck; C0475 dödsbelägg får inte fylla listans luckor. Ursprung/militärväg avgörs inte."
+    },
+    {
+      "scope_number": 40,
+      "record": "R-dab94140658e44bf033eb9a9",
+      "current_record_revision": "R-dab94140658e44bf033eb9a9@1",
+      "locator": "SvenskaGravar, Floby kyrkogård kvarter P gravplats FLP 330, Ivar Gunnar Emanuel Höök",
+      "person_id": "P-0212",
+      "current_person_revision": "P-0212@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0212/Q-02",
+          "revision_id": "P-0212/Q-02@1",
+          "title": "Q-02: Var och hur levde Gunnar 1933–2017?",
+          "outcome": "STÖDD."
+        },
+        {
+          "object_id": "P-0212/Q-03",
+          "revision_id": "P-0212/Q-03@1",
+          "title": "Q-03: Vilken är hans belagda namnordning, Ivar Gunnar Emanuel eller Gunnar Ivar Emanuel?",
+          "outcome": "OMSTRIDD."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0212-KP-02",
+          "revision_id": "PATH-P-0212-KP-02@1",
+          "outcome": "POSITIVT 2026-09-06 ([batch 306](../research-log/2026-09-05.md#batch-306--t-0072-gunnar-hööks-födelsepost-lidingöhushållet-och-graven)): gravsättning 2018-05-11, Floby kyrkogård, kvarter P, gravplats 330, hemort Falköping, ingen medgravsatt ([C-0904](../citations/C-0904-svenskagravar-ivar-gunnar-emanuel-hook-floby.md)). Det tidigare täckningsnollet gällde gravar.se och är upphävt för denna person. Dödsannonsdelen är EJ UNDERSÖKT."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0676",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-719cc02e0f0da401e22d7357",
+          "revision": "TR-719cc02e0f0da401e22d7357@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Positiv post i SvenskaGravar upphäver inte gravar.se:s tidigare täckningsgräns. Födelse, död och gravsättning är tre skilda datum.\nIngen medgravsatt listas. Intervall till gravsättning bevisar inte urnsättning. Namnordning avviker från familjeuppgift.",
+          "text": "> Höök, **Ivar Gunnar Emanuel** | Floby pastorat | Född: **1933-03-26** |\n> Avliden: **2017-09-22** | Gravsatt: **2018-05-11** | Floby |\n> Kvarter: Kvarter P | Hemort: Falköping | Gravplats: 330 |\n> Gravplatsnummer: FLP 330\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [],
+      "reuse_provenance": null,
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Falköping",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Ivar Gunnar Emanuel i graven skiljs från ägarens Gunnar Ivar Emanuel. Namnkonflikten kvarstår. Inga medgravsatta i äldre läsning; gravsättningsintervall bevisar inte urna."
+    },
+    {
+      "scope_number": 42,
+      "record": "R-e16c66aec9ac577e1fca875e",
+      "current_record_revision": "R-e16c66aec9ac577e1fca875e@1",
+      "locator": "SvenskaGravar, Hyltinge kyrkogård HY15 0008, Axel Edvard Eriksson1881-03-20",
+      "person_id": "P-0015",
+      "current_person_revision": "P-0015@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0015/Q-03",
+          "revision_id": "P-0015/Q-03@1",
+          "title": "Q-03: Vad hände under Helgestaåren och de sista trettionio åren?",
+          "outcome": "ÖPPEN"
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0015-KP-03",
+          "revision_id": "PATH-P-0015-KP-03@1",
+          "outcome": "POSITIVT. Han dog **1969-12-19** och gravsattes 1970-01-03 på Hyltinge kyrkogård, Övre kyrkogården kvarter 15, gravplats HY15 0008, med Hyltinge som hemort ([C-0923](../citations/C-0923-gravar-sodertalje-hyltinge-flen-2026-09-06.md))."
+        },
+        {
+          "object_id": "PATH-P-0015-KP-05",
+          "revision_id": "PATH-P-0015-KP-05@1",
+          "outcome": "EJ UNDERSÖKT. Båda posterna är lästa men ospeglade; S-0711 anger uttryckligen att ingen lokal kopia sparas och C-0973 att de fyra bilderna saknar lokal kopia."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0676",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-5aad63b69eea1a5425e87e8e",
+          "revision": "TR-5aad63b69eea1a5425e87e8e@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Fyra personbundna registerposter hålls skilda även när två delar grav. T0123 begränsar äldre slutsatser om namnärende, dödsort, boendekedja och äktenskap. Bevarandeskulden gör inte uppgifterna okända. Sökfrågor för Ada respektive Bernhard gav endast register-/täckningsnoll.\nDöd1969-12-19, gravsatt1970-01-03. Hemort/grav Hyltinge bevisar inte återflytt från Helgesta eller obrutet boende. Exakt post-URL/hashkopia saknas.",
+          "text": "> **Eriksson, Axel Edvard** — Flen, Helgesta-Hyltinge församling —\n> Född: 1881-03-20 — Avliden: **1969-12-19** — Gravsatt: **1970-01-03** —\n> **Hyltinge Kyrkogård** — Kvarter: Övre Kg - Kvarter 15 — Hemort: Hyltinge —\n> Gravplats: 0008 — Gravplatsnummer: **HY15 0008**\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [],
+      "reuse_provenance": null,
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Hyltinge",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Inte oavbruten bosättning/återflytt. C0973/T0237 separat. Kortet godkänner inte PK11/hel identitet."
+    },
+    {
+      "scope_number": 48,
+      "record": "R-f4d105360ebbe9d50156ac10",
+      "current_record_revision": "R-f4d105360ebbe9d50156ac10@1",
+      "locator": "SvenskaGravar Kalmar Norra kyrkogården2020056B, Gunnar August Villehard Carlman",
+      "person_id": "P-0530",
+      "current_person_revision": "P-0530@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0530/Q-01",
+          "revision_id": "P-0530/Q-01@1",
+          "title": "Q-01: Var Gunnar August son till Johan Fredrik Villehad Carlman och Elin Andersson?",
+          "outcome": "ÖPPEN."
+        },
+        {
+          "object_id": "P-0530/Q-02",
+          "revision_id": "P-0530/Q-02@1",
+          "title": "Q-02: Vad är känt om hans levnad och död 1911–1927?",
+          "outcome": "ÖPPEN."
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0530-KP-01",
+          "revision_id": "PATH-P-0530-KP-01@1",
+          "outcome": "EJ UNDERSÖKT. Ingen bok, volym eller bild är öppnad för honom."
+        },
+        {
+          "object_id": "PATH-P-0530-KP-02",
+          "revision_id": "PATH-P-0530-KP-02@1",
+          "outcome": "POSITIVT för uppgifterna — samtliga fem gravsatta är avlästa — men lokal kopia, URL och hash saknas enligt [C-0944](../citations/C-0944-carlman-gravplats-kalmar-och-hogby.md):s tillägg 2026-09-07."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0230",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-de685e4d7f7d199b5b3395a7",
+          "revision": "TR-de685e4d7f7d199b5b3395a7@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Sju personposter i två gravplatser. Senare rättelse upphäver Elins påstådda födelsekonflikt mot egen födelsepost, begränsar gravslutsatser om flytt/ägande/släktskap och markerar saknad exakt registerkopia. Amelies döduppgift behåller månadsnivå.\nFödd1911-04-28, död1927-02-27, gravsatt1927-03-06. Samma grav räcker inte som föräldrabelägg; egen familjepost återstår. Han kan inte automatiskt räknas bland1930års hemmavarande Kalmarbarn. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Carlman, **Gunnar August Villehard** | **1911-04-28** | **1927-02-27** | 1927-03-06 | Kalmar |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-8@1",
+          "source_record": "R-260f1b40b6cf4b3074602015",
+          "exact_row": {
+            "name_raw": "Carlman, Gunnar August Villehard",
+            "birth_raw": "1911-04-28",
+            "death_raw": "1927-02-27",
+            "burial_raw": "1927-03-06"
+          },
+          "preserved_media_sha256": "23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8"
+        },
+        {
+          "transcription_revision": "TR-T0675-GR-5@1",
+          "source_record": "R-1815005a5298339221e96e6d",
+          "exact_row": {
+            "name_raw": "Carlman, Gunnar August Villehard",
+            "birth_raw": "1911-04-28",
+            "death_raw": "1927-02-27",
+            "burial_raw": "1927-03-06"
+          },
+          "preserved_media_sha256": "31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5"
+        }
+      ],
+      "reuse_provenance": {
+        "source_records": [
+          "R-260f1b40b6cf4b3074602015",
+          "R-1815005a5298339221e96e6d"
+        ],
+        "audits": [
+          "AUDIT-T0675-GR-8",
+          "AUDIT-T0675-GR-5"
+        ],
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen medgravsrad i Johan/Naemis åttapersonerslista. Namn och visade datum utvunna; eget detaljkort/hemort ej därmed läst.",
+        "media": [
+          "M-23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+          "M-31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5"
+        ],
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "path": "genealogy2/media/objects/23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "sha256": "23952e418241dd2921020eb55872a648d100ac77bfb9086c9de59d34356ab9a8",
+            "hash_matches": true
+          },
+          {
+            "id": "M-31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "path": "genealogy2/media/objects/31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "sha256": "31b809dd07634ef32bd4f6f139cd69328d25fcc79f12db52242e9378561aa1f5",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Kalmar",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Föräldrarelation LEAD, eget födelseoriginal T0233. Inte hemmavarande barn1930. Äldre femnamnsurval ersätter inte redan bevarad full åttapersonerskontext."
+    },
+    {
+      "scope_number": 50,
+      "record": "R-fdf124306928cbcdf474f786",
+      "current_record_revision": "R-fdf124306928cbcdf474f786@1",
+      "locator": "SvenskaGravar,Sollentuna kyrkogård0107 012,Fredberg Elvira Fredina Gully",
+      "person_id": "P-0493",
+      "current_person_revision": "P-0493@2",
+      "context_persons_without_identity_assignment": [],
+      "current_questions": [
+        {
+          "object_id": "P-0493/Q-01",
+          "revision_id": "P-0493/Q-01@1",
+          "title": "Q-01: Vad står i hennes egen födelsenotis i Kungsholm 1902?",
+          "outcome": "ÖPPEN"
+        },
+        {
+          "object_id": "P-0493/Q-02",
+          "revision_id": "P-0493/Q-02@1",
+          "title": "Q-02: Vad hände mellan 1910 och 1988?",
+          "outcome": "ÖPPEN"
+        }
+      ],
+      "current_source_paths": [
+        {
+          "object_id": "PATH-P-0493-KP-02",
+          "revision_id": "PATH-P-0493-KP-02@1",
+          "outcome": "EJ UNDERSÖKT."
+        }
+      ],
+      "historical_preservation_owner_or_current_scope": "T-0232",
+      "existing_own_transcriptions": [
+        {
+          "id": "TR-58a89f840e9e0164f55523c1",
+          "revision": "TR-58a89f840e9e0164f55523c1@1",
+          "operation": "T-0650/evidence-05-v1",
+          "reading_note": "Elva gravposter hålls skilda från projektets korrelations- och familjeresonemang. Sena rättelser upphäver löst födelseår för Edit och eget födelseoriginal för Frida. Charlottas frånvaro är iakttagelse inom just listan, inte döds- eller skilsmässofynd. Tre barnserie-jämförelser är senare beräkningar med uttryckliga kontrollbrister, inte nya födelse-/dödsposter.\nFödd1902-11-28; familjeankaret är folkräkning1910, hon kan inte återfinnas i1900års utdrag. Exakt lokal registerkopia/URL/hash saknas.",
+          "text": "| Fredberg, **Elvira Fredina Gully** | **1902-11-28** | 1988-10-10 | 1988-11-24 | Sollentuna |\n"
+        }
+      ],
+      "exact_t0675_row_reuse": [
+        {
+          "transcription_revision": "TR-T0675-GR-1@1",
+          "source_record": "R-094e81e8fec42b5224863c21",
+          "exact_row": {
+            "name_raw": "Fredberg, Elvira Fredina Gully",
+            "birth_raw": "1902-11-28",
+            "death_raw": "1988-10-10",
+            "burial_raw": "1988-11-24"
+          },
+          "preserved_media_sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88"
+        }
+      ],
+      "reuse_provenance": {
+        "source_record": "R-094e81e8fec42b5224863c21",
+        "audit": "AUDIT-T0675-GR-1",
+        "operation": "T-0675/Graves-four-v1",
+        "scope": "Egen namngiven medgravsrad i Götas fulla lista, inte denna persons detaljkort. Listans namn och visade datum/streck är redan fullutvunna. Hemort och andra personspecifika kortfält får inte hämtas från Göta.",
+        "media": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+        "locks": [
+          "root-graves-four-first-initial.json",
+          "graves-four-second-initial.json"
+        ],
+        "lock_sources": [
+          {
+            "file": "genealogy2/verification/T-0675/root-graves-four-first-initial.json",
+            "sha256": "5ba2923853e443134d303a9e263a86c9ccf44b0bd645cf6e7cb67993116be61b"
+          },
+          {
+            "file": "genealogy2/verification/T-0675/graves-four-second-initial.json",
+            "sha256": "4168ceaaaa2c75135d382e658bfce7e47052cf7163b74f7e8b5bc3f46f537ad1"
+          }
+        ],
+        "preserved_media": [
+          {
+            "id": "M-e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "path": "genealogy2/media/objects/e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "sha256": "e157de4ad8b63208e4a6d0e2ba68f05e24238ab1af42c6cc728c5971c02caf88",
+            "hash_matches": true
+          }
+        ]
+      },
+      "remaining_own_card_scope": {
+        "previously_read_home_raw": "Sollentuna",
+        "status": "Äldre egen läsning finns; exakt egen kortreproduktion/fullutvinningsaudit saknas i återbruksunderlaget. Inte påstående om aldrig läst post.",
+        "fields": [
+          "Egen hemort inklusive streck/kod och exakt ordalydelse.",
+          "Egna namn- och datumfält jämförs med bevarad läsning vid återanskaffning av eget kort.",
+          "Egen kyrkogård/förvaltning, kvarter, gravplatsnummer och gravrättstid/status när de visas; rubriker, tomma fält och betydelsebärande kortkontext."
+        ],
+        "exclusion": "T0675 fulla medgravslistor/egna Göta-, Johan- och Naemikort återbrukas utan ny originalöppning.",
+        "capture_limit": "Ny daterad återanskaffning är inte återfunnen exakt äldre2026-09-06-kopia."
+      },
+      "assessment_limit": "Egen familjeanknytning1910, inte1900. Eget födelseoriginal/vuxenliv kvarstår."
+    }
+  ]
+}

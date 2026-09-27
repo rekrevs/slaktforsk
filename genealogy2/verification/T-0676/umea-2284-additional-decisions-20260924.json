@@ -1,0 +1,3417 @@
+{
+  "schema": "bounded_sakreview_decisions/1",
+  "task_id": "T-0676",
+  "date": "2026-09-24",
+  "status": "PROPOSED_FOR_ROOT_ADJUDICATION_NO_APPLY",
+  "scope": "Umeå AIIa/23 uppslag2284: individuell följdprövning av257 ytterligare påverkanskandidater mot låst jämförelse och aktuella föreobjekt. Inga original öppnade, inga canonical-/PC-/Wotan-ändringar.",
+  "inputs": [
+    {
+      "path": "genealogy2/verification/T-0676/umea-2284-comparison-20260924.json",
+      "sha256": "605536a392ad6b55ca98855aca801f8dfd27edbb35a0a22de36d61a3fc8800cc"
+    },
+    {
+      "path": "genealogy2/verification/T-0676/umea-2284-followup-decisions-20260924.json",
+      "sha256": "5abdd8b7ff659ad21fbc821414daa16f15e722d0e183591750c1bf744d09d2a1"
+    },
+    {
+      "path": "genealogy2/verification/T-0676/umea-2284-additional-current-20260924.json",
+      "sha256": "b7792d8ade6303127db5d4cc1c97a8ad77c9c0121c576886580bbe715b970be3"
+    }
+  ],
+  "rules": [
+    "Råceller rättas endast genom godkänd jämförelse; kanoniskt namn är aldrig facit.",
+    "RETAIN avser denna följdprövning, inte blanket sakgodkännande av hela person eller äldre PK-utfall.",
+    "Nya observationer/transkriptioner ersätter inte eller raderar äldre källavskrifter.",
+    "Varje ändring är exakt en företextsubstitution; sammanlägg ändringar per aktuellt objekt först efter root-adjudicering."
+  ],
+  "root_flags_outside_this_batch": [
+    {
+      "objects": [
+        "BIO-P-0028",
+        "F-P-0028-residence-documented_chain",
+        "THEME-P-0028-BO"
+      ],
+      "issue": "263/263.3-hänvisningen till C-0002 motsäger Oskars redan aktuella93.3. Separat källgrupp; inte omtolkad eller sakrättad i denna C-0907-batch."
+    }
+  ],
+  "summary": {
+    "RETAIN": 205,
+    "REVISE": 52
+  },
+  "field_change_count": 61,
+  "decisions": [
+    {
+      "input_index": 0,
+      "object_id": "ASSESSMENT-P-0001",
+      "revision_id": "ASSESSMENT-P-0001@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars header bevarar godkänd identitet och öppen livsbild. Seminarie- och militärkolumnernas kontroll avgör inte dessa grindar."
+      ],
+      "reviewed_current_sha256": "69d720975307aa79e338f86200a671dbd8fee58571b51c31506d32087196849a"
+    },
+    {
+      "input_index": 1,
+      "object_id": "ASSESSMENT-P-0028",
+      "revision_id": "ASSESSMENT-P-0028@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars header och skild livsbildsgranskning påverkas inte av mantalsnoternas läsgräns."
+      ],
+      "reviewed_current_sha256": "cff2a138a29417ab634389ef5ca850f41c1c2b58e35cbf28ebb61a3c718000db"
+    },
+    {
+      "input_index": 2,
+      "object_id": "ASSESSMENT-P-0029",
+      "revision_id": "ASSESSMENT-P-0029@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt."
+      ],
+      "reviewed_current_sha256": "f71e81ae871e9a60f26fbf732dc2e456237188d8344dee7226cb1f3682c478cf",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 3,
+      "object_id": "ASSESSMENT-P-0030",
+      "revision_id": "ASSESSMENT-P-0030@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd.",
+          "after": "Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Följdobjektet får inte återställa äldre säkert Hällsten mot redan prövad C-0890-rättelse."
+      ],
+      "reviewed_current_sha256": "3c19726a615160720cb10bb87cc736f8967b6d6f149bbb5b526ae2aa3bb6ff97",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 4,
+      "object_id": "ASSESSMENT-P-0031",
+      "revision_id": "ASSESSMENT-P-0031@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids prövade identitet och ännu öppna gifta namn påverkas inte av C-0907:s egna datum; ingen ny grindprövning."
+      ],
+      "reviewed_current_sha256": "1d1ef0896832e56b4db99afc2eab79563ff399d16b091fd1c8b1926c0fe3c236"
+    },
+    {
+      "input_index": 5,
+      "object_id": "ASSESSMENT-P-0032",
+      "revision_id": "ASSESSMENT-P-0032@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Frik. 1917 tillhör brodern",
+          "after": "C-0907:s odaterade Frik.-not på rad 17 tillhör brodern Johan Magnus",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907 har inget år till Frik.; T-0675:s reserverade C-0890-tal får inte ersättas av säkert 1917."
+      ],
+      "reviewed_current_sha256": "92f07f9d09c09468a6ba1428d9eea8b0670531fce04f2f7d538b3595a3b25a49",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 6,
+      "object_id": "ASSESSMENT-P-0033",
+      "revision_id": "ASSESSMENT-P-0033@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Frik. 1917 tillhör honom, mellanledet 20[?] reserveras.",
+          "after": "C-0907:s Frik.-not tillhör hans rad men saknar år och nummer. C-0890:s nummer/år är fortsatt reserverade efter T-0675; äldre 1917 är historisk läsning, inte säkert frikallelseår. Mellanledet 20[?] reserveras.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Säkert Frik. 1917 motsäger både prövad C-0907-rad och aktuell T-0675-bedömning."
+      ],
+      "reviewed_current_sha256": "c1d5ed24d8f93a8e200bbb22ac6a1690d91db7a18a0921ff73aff5f235687d90",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 7,
+      "object_id": "ASSESSMENT-P-0034",
+      "revision_id": "ASSESSMENT-P-0034@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus header avser redan prövad sammanföring; reserverat c/k och militärår på en råkälla ändrar inte personidentiteten."
+      ],
+      "reviewed_current_sha256": "b9cb6c3d9c1719a36cc995962ff2d425b49d4a203e9c11d000f868450725429e"
+    },
+    {
+      "input_index": 8,
+      "object_id": "ASSESSMENT-P-0035",
+      "revision_id": "ASSESSMENT-P-0035@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs identitets- och livsbildslägen hålls åtskilda; C-0907:s 5/3 avgör inte C-0890-varianten."
+      ],
+      "reviewed_current_sha256": "75986a9bebb1ac3029fdb0c3ac11210aca91cbf1d4939f93de69b11aed91b184"
+    },
+    {
+      "input_index": 9,
+      "object_id": "ASSESSMENT-P-0036",
+      "revision_id": "ASSESSMENT-P-0036@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Birgers header bär redan T-0675:s 31/8-konflikt, Distr.polis och överföringsår54. C-0907:s 13/8 ändrar inget av detta."
+      ],
+      "reviewed_current_sha256": "494c29a1b91a7412de96015812ef225595d7960568abff4f072c449d1fc8d51d"
+    },
+    {
+      "input_index": 10,
+      "object_id": "ASSESSMENT-P-0037",
+      "revision_id": "ASSESSMENT-P-0037@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Tyras egna header/caveat skiljer rättat 14/7-fel, källformen Tyra och sekundära Thyra/Tärnvik. C-0907 stöder12/7 och Charlotta."
+      ],
+      "reviewed_current_sha256": "f4932b2ff224785ed37bbf518a1220610ceda09d4ee88407a7cd93a756d6f8c9"
+    },
+    {
+      "input_index": 11,
+      "object_id": "AUDIT-T0676-10",
+      "revision_id": "AUDIT-T0676-10@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell AUDIT@1 verifierad mot journal164;216fält, låsta läsningar, samtliga reservationsgränser och ingen statusuppgradering är dokumenterade."
+      ],
+      "frozen_input_revision_id": "AUDIT-T0676-10@1",
+      "reviewed_current_sha256": "328d4743fde432d89f94b2e31204504a2a7674c3be5d9bb2a616fa454fbb6510",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 12,
+      "object_id": "BIO-P-0001",
+      "revision_id": "BIO-P-0001@3",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars BIO behöver ingen ny ändring: seminarieelev och betyg hålls från examen, och T-0675:s gravfältsprecisering måste bevaras."
+      ],
+      "reviewed_current_sha256": "6c7eb898ccfce4665664ef3846683b90c6588011f43fad5590081504a5e267b5"
+    },
+    {
+      "input_index": 13,
+      "object_id": "BIO-P-0028",
+      "revision_id": "BIO-P-0028@3",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "markdown",
+          "before": "Jordinnehavet var bokfört i hans eget namn medan han levde: marginalen vid hans egen rad bär ⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1 i stadens bok från 1925, och redan landsförsamlingens bok 1917–1925 har en blek blyertsnot `⅛ mtl` vid samma rad. Mantalstalen är alltså inte något hustrun fick vid hans död, som det tidigare såg ut när de bara var lästa på hennes rad",
+          "after": "Stadens bok från 1925 redovisar enligt tidigare läsning ⅛ mantal nr 2 och ¹¹/₆₄ mantal nr 1 vid hans rad. I landsförsamlingens bok 1917–1925 placerar T-0676 den bleka, odaterade blyertsen `⅛ mtl[?] …` vid hans rad 12 och `11/64 mtl[?] … N:r 1[?]` på Idas rad 13. Dessa anteckningar daterar inte förvärv eller arv och fastställer inte personligt ägande",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Tar bort felaktig tid-/äganderättsslutsats ur just C-0907; C-0916:s äldre egna läsning bevaras som separat underlag."
+      ],
+      "reviewed_current_sha256": "f43bade03b12ea311d5298bec97166bf40363665bbe999665315300d998215d0",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 14,
+      "object_id": "BIO-P-0029",
+      "revision_id": "BIO-P-0029@3",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "markdown",
+          "before": "På\nhennes egen rad i den boken står en blyertsnot om gårdens mantal, vilket visar\natt jordinnehavet var bokfört från början och inte först vid änketiden.",
+          "after": "På hennes egen rad i den boken står den odaterade blyertsnoten 11/64 mtl[?] … N:r 1[?]. Den geometriska placeringen är prövad, men avgör inte när noten skrevs eller vem som ägde jorden.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt.",
+        "Bokperiodens början daterar inte blyertsen och noten avgör inte förhållandet till änketiden."
+      ],
+      "reviewed_current_sha256": "945a295f18b97c759d65832550233acdc374081e283315931260df57be897bfd",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 15,
+      "object_id": "BIO-P-0030",
+      "revision_id": "BIO-P-0030@2",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd.",
+          "after": "Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Följdobjektet får inte återställa äldre säkert Hällsten mot redan prövad C-0890-rättelse.",
+        "Livias BIO har redan T-0675:s öppna Hildur-alternativ och olösta gifta namn; hon saknar egen C-0907-rad."
+      ],
+      "reviewed_current_sha256": "a396afec2d2429265042598fa0469aca6d48081c982eebca2b755f103f027a76",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 16,
+      "object_id": "BIO-P-0034",
+      "revision_id": "BIO-P-0034@3",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus BIO följer hans egen roll och fortsättning; displaynamnet är inte en ordagrann C-0907-transkription. Yrkes- och äganderättsbegränsningarna består."
+      ],
+      "reviewed_current_sha256": "b2c09f0b0a44c9100450adc5f9ee8c76637e536cdc56d2d7bd583a21d0e43a94"
+    },
+    {
+      "input_index": 17,
+      "object_id": "BIO-P-0035",
+      "revision_id": "BIO-P-0035@3",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs BIO reserverar redan C-0890-rådagen och återtar säkert gårdsövertagande. C-0907:s tydliga huvudnummer förändrar inte livsbildens öppna frågor."
+      ],
+      "reviewed_current_sha256": "073c3e38f40058395c25adb67aeba770c59d13eef9428ceea2372e88ec38800c"
+    },
+    {
+      "input_index": 18,
+      "object_id": "BIO-P-0038",
+      "revision_id": "BIO-P-0038@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Gerdas BIO har redan genomförd T-0675-rättelse till17/9 med historik. FIRST:s17/3 i nya läsningen är rättat läsfel, inget nytt datumalternativ."
+      ],
+      "reviewed_current_sha256": "80e02399a8e78bcb0e132626aa22ae32243bfa6a137c9d1eae8f217d561cb311"
+    },
+    {
+      "input_index": 19,
+      "object_id": "CONTRACT-P-0001-PK-01",
+      "revision_id": "CONTRACT-P-0001-PK-01@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars PK-01-korrelation använder egen födelsepost, namn, nummer och kedja; nya C-0907-råreservationer ändrar ingen identitetsgrind."
+      ],
+      "reviewed_current_sha256": "af5a42d0fcd20cc279bf8767983bdd1708105fb82522567d9eb3141d10955933"
+    },
+    {
+      "input_index": 20,
+      "object_id": "CONTRACT-P-0028-PK-05",
+      "revision_id": "CONTRACT-P-0028-PK-05@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars PK-05 avser tidigare källgenomgång; nya mantalsnyanser tas i observationer/följdtext, utan uppgradering av äldre kontrakt."
+      ],
+      "reviewed_current_sha256": "a54f52f407eb3982b702482673415138778d537d7fe34ca02babe6cf59049775"
+    },
+    {
+      "input_index": 21,
+      "object_id": "CONTRACT-P-0029-PK-05",
+      "revision_id": "CONTRACT-P-0029-PK-05@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt."
+      ],
+      "reviewed_current_sha256": "345effcef7beaf557b5b5cfb9bb4f44280a32f0678d7fb205c22ab2e10ba1136",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 22,
+      "object_id": "CONTRACT-P-0030-PK-01",
+      "revision_id": "CONTRACT-P-0030-PK-01@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd.",
+          "after": "Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Följdobjektet får inte återställa äldre säkert Hällsten mot redan prövad C-0890-rättelse."
+      ],
+      "reviewed_current_sha256": "1f2200dc57ba958cea3b7427e85c070f20e228e2cb822439ff11f1d5f032e43a",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 23,
+      "object_id": "CONTRACT-P-0030-PK-09",
+      "revision_id": "CONTRACT-P-0030-PK-09@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd.",
+          "after": "Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Följdobjektet får inte återställa äldre säkert Hällsten mot redan prövad C-0890-rättelse."
+      ],
+      "reviewed_current_sha256": "20edc0fe38a469a76e95e41b5a41d7c2e26b2ac26a58096836c57cc0b9a25e97",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 24,
+      "object_id": "CONTRACT-P-0031-PK-01",
+      "revision_id": "CONTRACT-P-0031-PK-01@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids PK-01 bevarar samma person med födelsedag1/9 och skilda namnfrågor; tomt yrkesfält är ingen identitetsinvändning."
+      ],
+      "reviewed_current_sha256": "e171dc26c42af8cf8df6ec0b80bce45e24c8aeef965113ef03370b6105b145bc"
+    },
+    {
+      "input_index": 25,
+      "object_id": "CONTRACT-P-0031-PK-06",
+      "revision_id": "CONTRACT-P-0031-PK-06@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids PK-06: egen militärkolumn är tom och flera bröder bär nummer; säger inte alla sex. Personbundet EJ RELEVANT kräver ingen uppgradering."
+      ],
+      "reviewed_current_sha256": "c5efa7172677f07856a4750b9d836cd561abc73b1d5170fe1701e659f93eb90a"
+    },
+    {
+      "input_index": 26,
+      "object_id": "CONTRACT-P-0031-PK-10",
+      "revision_id": "CONTRACT-P-0031-PK-10@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids PK-10 är fortsatt underkänt för livsbildsluckor efter1922; bättre cellutvinning fyller inte dessa år."
+      ],
+      "reviewed_current_sha256": "b60eb9f0de91416c1b087e25c7ed54938e2ac26ed989934c8be43961848f7262"
+    },
+    {
+      "input_index": 27,
+      "object_id": "CONTRACT-P-0031-PK-12",
+      "revision_id": "CONTRACT-P-0031-PK-12@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids PK-12 bevarar skillnaden mellan redan utfört, öppna frågor och Wotan; ingen ny källa eller uppgift startas."
+      ],
+      "reviewed_current_sha256": "d2abb7e70847d8be548e98311066a40fbcfc8234075e5116e5c1658dc54c2575"
+    },
+    {
+      "input_index": 28,
+      "object_id": "CONTRACT-P-0034-PK-01",
+      "revision_id": "CONTRACT-P-0034-PK-01@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus PK-01 använder kombinationen familj, dag, flyttkedja och nummer. C-0907-årsreservation ensam rubbar inte den befintliga sammanföringen."
+      ],
+      "reviewed_current_sha256": "8ed51ed3822038658efcc9e9b11c7ad9cc165c59e03896eccaca80a732661dfc"
+    },
+    {
+      "input_index": 29,
+      "object_id": "CONTRACT-P-0034-PK-03",
+      "revision_id": "CONTRACT-P-0034-PK-03@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus PK-03 skiljer bokföringskedja från olästa Stockholm/1704-led; C-0907 fyller inget senare tidsled."
+      ],
+      "reviewed_current_sha256": "19f7f2278624766280f87dec0d8262f0a83ed7bc17834869d06beb74efca816d"
+    },
+    {
+      "input_index": 30,
+      "object_id": "CONTRACT-P-0034-PK-05",
+      "revision_id": "CONTRACT-P-0034-PK-05@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus PK-05:s egenrad är avgränsad och råreservationerna dokumenteras i nya cellutvinningen; äldre kontraktsutfall omprövas inte."
+      ],
+      "reviewed_current_sha256": "f531c788e39292df1da2be6de7cfe475bfc9ec4ebee69aec3b00f85a25f134d4"
+    },
+    {
+      "input_index": 31,
+      "object_id": "CONTRACT-P-0034-PK-07",
+      "revision_id": "CONTRACT-P-0034-PK-07@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus PK-07 bevarar personbundna söknycklar och spärrar; källans c/k preciseras i själva namnnyckeln."
+      ],
+      "reviewed_current_sha256": "1b24879edd7bf8a5217d00c86eb1dc0105f4388021080b88bead7448fbd50106"
+    },
+    {
+      "input_index": 32,
+      "object_id": "CONTRACT-P-0034-PK-10",
+      "revision_id": "CONTRACT-P-0034-PK-10@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus PK-10:s livsberättelse är alltjämt ofullständig efter1941 och i Stockholm; inga nya livshändelser här."
+      ],
+      "reviewed_current_sha256": "1ae0d2787559bc458851148c6fef258b3b2531db56fcca25448ee76c04756dcc"
+    },
+    {
+      "input_index": 33,
+      "object_id": "CONTRACT-P-0034-PK-11",
+      "revision_id": "CONTRACT-P-0034-PK-11@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus PK-11-källgränser ändras inte: samma originalbok läses om och ger ingen ny oberoende röst."
+      ],
+      "reviewed_current_sha256": "41e363b1e22527b9aa103a5c54dbc59b8fa3940ee3ebb29b1f0ea6d89082dc9c"
+    },
+    {
+      "input_index": 34,
+      "object_id": "CONTRACT-P-0035-PK-03",
+      "revision_id": "CONTRACT-P-0035-PK-03@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs PK-03 bevarar kronologin som bokföringskedja med öppen fortsättning1703; ingen fysisk sammanhängande vistelse läggs till."
+      ],
+      "reviewed_current_sha256": "f6140cc9a90fd8dc84dff20c9a12c9d9c90f68685fc9f95946abf6f81135bcba"
+    },
+    {
+      "input_index": 35,
+      "object_id": "CONTRACT-P-0038-PK-03",
+      "revision_id": "CONTRACT-P-0038-PK-03@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Huvudtext och profil bär ännu den gamla födelsedagskonflikten, men aktens sena T-0177-anmälan r177–211 rättar C-0574 till 1909-09-17 och säger att avvikelsen var avskriftsfel. Samma anmälan anger att ändringen ännu inte förts in i huvudakten. Migrationen bevarar detta handläggningsskikt: rättad källrapporterad dag, äldre ännu inte avförd kanonisk konflikt och uttrycklig beslutsfråga, utan ny bildtolkning eller kontraktsuppgradering.",
+          "after": "T0675s ställningstagande till T0177rapporten är nu utfört: C0890r12 läses1909 17/9 i två låsta pass med egen teckenprövning. T0177s bevarade riktade kontroll av C0574r12 till17/9 tillgodoräknas; den gamla12/7finns i avskriften, inte som kvarstående motstöd efter dess rättelse. C0907senare17/9 är kopiekedja och ger ingen extra röst. Accepterad källrapporterad dag1909-09-17, egen födelsepost ännu oläst. Rapporthistoria/äldre konflikt bevarad i tidigare revision och origins; ingen P-core-/grindändring.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna Gerda-kopia får inte återöppna T-0177-handläggning som T-0675 redan avgjort; samma aktuella reservation som egen födelsehändelse används."
+      ],
+      "reviewed_current_sha256": "197db2714e9500b1a4bea83737aba487ddfcb3860f5b7e6100157a6007b84a65",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 36,
+      "object_id": "CONTRACT-P-0038-PK-05",
+      "revision_id": "CONTRACT-P-0038-PK-05@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Huvudtext och profil bär ännu den gamla födelsedagskonflikten, men aktens sena T-0177-anmälan r177–211 rättar C-0574 till 1909-09-17 och säger att avvikelsen var avskriftsfel. Samma anmälan anger att ändringen ännu inte förts in i huvudakten. Migrationen bevarar detta handläggningsskikt: rättad källrapporterad dag, äldre ännu inte avförd kanonisk konflikt och uttrycklig beslutsfråga, utan ny bildtolkning eller kontraktsuppgradering.",
+          "after": "T0675s ställningstagande till T0177rapporten är nu utfört: C0890r12 läses1909 17/9 i två låsta pass med egen teckenprövning. T0177s bevarade riktade kontroll av C0574r12 till17/9 tillgodoräknas; den gamla12/7finns i avskriften, inte som kvarstående motstöd efter dess rättelse. C0907senare17/9 är kopiekedja och ger ingen extra röst. Accepterad källrapporterad dag1909-09-17, egen födelsepost ännu oläst. Rapporthistoria/äldre konflikt bevarad i tidigare revision och origins; ingen P-core-/grindändring.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna Gerda-kopia får inte återöppna T-0177-handläggning som T-0675 redan avgjort; samma aktuella reservation som egen födelsehändelse används."
+      ],
+      "reviewed_current_sha256": "d9dce7ce111344a5fc4c7aa9b2492ee1e80e2ed6d64069e39911263a006be3aa",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 37,
+      "object_id": "CONTRACT-P-0529-PK-01",
+      "revision_id": "CONTRACT-P-0529-PK-01@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "En enda källa står mot tre, och frågan är inte källbredd utan vem raden avser. Aritmetiken utesluter att båda döttrarna är samma mors.",
+          "after": "En egen C-0907-rad står mot frånvaron i tre administrativt beroende tidigare redovisningar. Frågan är vem raden avser; kalenderintervallet ensamt avgör varken identitet eller moderskap. Fyra tidigare alternativ kvarstår öppna.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Samma bevarade försiktighet som objektets caveat och F-P-0529; EJ STYRKT lämnas orört."
+      ],
+      "reviewed_current_sha256": "a72d7c757790860cf7ef55314409a0676612730d904dfddb83162cbcd2810826",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 38,
+      "object_id": "CONTRACT-P-0529-PK-07",
+      "revision_id": "CONTRACT-P-0529-PK-07@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs PK-07 bevarar båda spärrade nycklar, däribland säker Livia-uteslutning; inga nya källvägar öppnas."
+      ],
+      "reviewed_current_sha256": "c34b10c04d5f1f72c259e714bf5aa46a731c753be31cde3069faae99428498dc"
+    },
+    {
+      "input_index": 39,
+      "object_id": "E-arrival-P-0001-Ytterhiske-1917",
+      "revision_id": "E-arrival-P-0001-Ytterhiske-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars ankomst15/11 stöds av r18ditto och egen B I/11post211; registrering är skild från fysisk resa."
+      ],
+      "reviewed_current_sha256": "a0d3d556701dc1ab556f8bd71a080fbdafaad22d982ba81ceaa811dbf78224d2"
+    },
+    {
+      "input_index": 40,
+      "object_id": "E-birth-P-0001",
+      "revision_id": "E-birth-P-0001@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars egen födelse1897-05-22 består; C-0907 kopierar datum och gör inte Rosinedahl till säker födelseplats."
+      ],
+      "reviewed_current_sha256": "54d3284f4178c0b0138b7695ae05376c65212847024b90e6f22423fe6910c5f5"
+    },
+    {
+      "input_index": 41,
+      "object_id": "E-birth-P-0031",
+      "revision_id": "E-birth-P-0031@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids1/9 är oförändrat på r15; egen födelsepost förblir oläst och kopieböcker räknas inte som oberoende röster."
+      ],
+      "reviewed_current_sha256": "5c23fd1e50bb9b960375ae2af0db70329e8b3e16acd4869a004c9bacf944b71a"
+    },
+    {
+      "input_index": 42,
+      "object_id": "E-birth-P-0035",
+      "revision_id": "E-birth-P-0035@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Datum enligt hushållsböcker; egen födelse- och dopnotis oläst, kopiekedjan är inte flera ursprungsröster.",
+          "after": "Datum enligt hushållsböcker; egen födelse- och dopnotis oläst, kopiekedjan är inte flera ursprungsröster. T-0675:s reserverade C-0890-rådag 31/3[5/3?] kvarstår mot den tidigare källrapporterade 5/3 och C-0907:s 5/3. Ingen omdatering av personen eller extra oberoende bekräftelse följer av denna bokkedja.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907:s klara 5/3 får inte dölja T-0675:s kvarstående C-0890-variant; befintligt datum behålls."
+      ],
+      "reviewed_current_sha256": "f931f69329787b19880ef5689bfb372c44729b506fef59ed550c299f88634ae5",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 43,
+      "object_id": "E-birth-P-0037",
+      "revision_id": "E-birth-P-0037@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Tyras12/7 är tydligt på r22 och redan rättat i egen händelse;14/7 återinförs inte."
+      ],
+      "reviewed_current_sha256": "6308f1f6880f8a194e009de5e8d51fd4924fc03fd421bfc195a7bcca72bfda1b"
+    },
+    {
+      "input_index": 44,
+      "object_id": "E-birth-P-0038",
+      "revision_id": "E-birth-P-0038@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Gerdas17/9 är godkänd rad23läsning; egen händelse har T-0675:s genomförda rättelse och inga nya datumkonflikter."
+      ],
+      "reviewed_current_sha256": "403c953934562ee86faded74ce7d4d85169480bdb033657d75dc9b9379b6e581"
+    },
+    {
+      "input_index": 45,
+      "object_id": "E-marriage-P-0031-1921",
+      "revision_id": "E-marriage-P-0031-1921@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids vigsel1921-04-17 finns i egen r15kolumn; maken förblir onamngiven och ingen ny person/kant skapas."
+      ],
+      "reviewed_current_sha256": "44e660c7b7d0ae6ed2b6d962a730f81442a4a248d4523960be35356ccd239cd8"
+    },
+    {
+      "input_index": 46,
+      "object_id": "E-other-P-0035-territorial-transfer-1925",
+      "revision_id": "E-other-P-0035-territorial-transfer-1925@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs1925händelse är uttryckligen territoriell, inte egen fysisk flytt eller påfyllning av tomt ut-fält."
+      ],
+      "reviewed_current_sha256": "9f592557d6054eb5370b5bec2645933d439789bb697e151bbae74e109ee95cfb"
+    },
+    {
+      "input_index": 47,
+      "object_id": "E-other-P-0036-territorial-1925",
+      "revision_id": "E-other-P-0036-territorial-1925@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Birgers1925händelse är territoriell bokföring, inte egen fysisk avgång."
+      ],
+      "reviewed_current_sha256": "2d10f2be240ac99ae896799a5bbaa9a747802b403bf2c87c6ffbd258299c20d2"
+    },
+    {
+      "input_index": 48,
+      "object_id": "E-registered_arrival-P-0029-1917",
+      "revision_id": "E-registered_arrival-P-0029-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Idas15/11 följer ankomstdittot på r13; post208:s antal är inte hennes namnbelägg."
+      ],
+      "reviewed_current_sha256": "ee66a099e3f7d728139d15c03d546f47226cd8b7d0bb581a53e605a4e6c9021d"
+    },
+    {
+      "input_index": 49,
+      "object_id": "E-registered_arrival-P-0031-1917",
+      "revision_id": "E-registered_arrival-P-0031-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids8/11 och uppgiven Örebro norra stämmer med r15; faktiskt boende där fastställs inte."
+      ],
+      "reviewed_current_sha256": "e951745868b46dab48859b93ebb21748888ad671866e906b460a73aebc1d885a"
+    },
+    {
+      "input_index": 50,
+      "object_id": "E-registered_arrival-P-0034-1917",
+      "revision_id": "E-registered_arrival-P-0034-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus15/11 stöds av r19ditto och egen post212; samma flyttkedja, ingen extra ursprungsröst."
+      ],
+      "reviewed_current_sha256": "6054fddfa53f91b31ff2fec4b6ba39703267d5acbcb2961b7abe68a3198187a2"
+    },
+    {
+      "input_index": 51,
+      "object_id": "E-registered_arrival-P-0035-1917-Ytterhiske",
+      "revision_id": "E-registered_arrival-P-0035-1917-Ytterhiske@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs15/11 är bokförd via r20ditto och egen post213; ingen ny fysisk resdag."
+      ],
+      "reviewed_current_sha256": "549aab4e942e56e107df3faa17f4966a566a83407f2c45646703522fe1c69eb0"
+    },
+    {
+      "input_index": 52,
+      "object_id": "E-registered_arrival-P-0036-1917",
+      "revision_id": "E-registered_arrival-P-0036-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Birgers familjeanknutna ankomst15/11 kvarstår; ingen särskild namngiven B I/11post påstås."
+      ],
+      "reviewed_current_sha256": "af5e5a9f37af7b1b0466feaa90aa45d40a5bcefe820ee6c74c9b0feb63055ff8"
+    },
+    {
+      "input_index": 53,
+      "object_id": "E-registered_arrival-P-0037-1917",
+      "revision_id": "E-registered_arrival-P-0037-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Tyras familjeanknutna ankomst15/11 kvarstår och får inte bli en påhittad egen flyttpost."
+      ],
+      "reviewed_current_sha256": "d074d88adbc9361c73b68d6788b31a7222d4640ec4ab0812b078debf35c047ab"
+    },
+    {
+      "input_index": 54,
+      "object_id": "E-registered_arrival-P-0038-1917",
+      "revision_id": "E-registered_arrival-P-0038-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Gerdas svaga ankomstdittotecken i r23 ryms inom tidigare familjeanknuten ankomst; post208 namnger henne inte."
+      ],
+      "reviewed_current_sha256": "3cf75264d70a23231a72d3005ce848421326c2cedba2371e10636bca989b0f1b"
+    },
+    {
+      "input_index": 55,
+      "object_id": "E-registered_departure-P-0031-1922",
+      "revision_id": "E-registered_departure-P-0031-1922@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids avgång7/4 1922 stämmer med r15; betyg6/4 hålls separat och mottagarposten är oläst."
+      ],
+      "reviewed_current_sha256": "10a49e6b894461f696793036acae3df6b7867663bd4ce7c282c14e505978707d"
+    },
+    {
+      "input_index": 56,
+      "object_id": "E-registered_departure-P-0032-1923",
+      "revision_id": "E-registered_departure-P-0032-1923@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Anders avgång14/12 1923 till Lomma stämmer med r16; betyg5/12 är separat och mellanled olästa."
+      ],
+      "reviewed_current_sha256": "c5a09726e89493f4d0d33555ff502d959d6a97926050b3229ee3504c8beddd97"
+    },
+    {
+      "input_index": 57,
+      "object_id": "EP-E-arrival-P-0001-Ytterhiske-1917-P-0001-migrant",
+      "revision_id": "EP-E-arrival-P-0001-Ytterhiske-1917-P-0001-migrant@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-arrival-P-0001-Ytterhiske-1917-P-0001-migrant behåller samma person och roll. Oskars ankomst15/11 stöds av r18ditto och egen B I/11post211; registrering är skild från fysisk resa."
+      ],
+      "reviewed_current_sha256": "a44661268e0c2cba0891a11389499504d039b354265f5c7ecfd6c8547b4b3464"
+    },
+    {
+      "input_index": 58,
+      "object_id": "EP-E-birth-P-0001-P-0001-child",
+      "revision_id": "EP-E-birth-P-0001-P-0001-child@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-birth-P-0001-P-0001-child behåller samma person och roll. Oskars egen födelse1897-05-22 består; C-0907 kopierar datum och gör inte Rosinedahl till säker födelseplats."
+      ],
+      "reviewed_current_sha256": "9bf9a96cbd0dca37a87e38dec61455a7e5aa9ee8ea8173d3af00c0b243e33148"
+    },
+    {
+      "input_index": 59,
+      "object_id": "EP-E-birth-P-0031-P-0031-principal",
+      "revision_id": "EP-E-birth-P-0031-P-0031-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-birth-P-0031-P-0031-principal behåller samma person och roll. Astrids1/9 är oförändrat på r15; egen födelsepost förblir oläst och kopieböcker räknas inte som oberoende röster."
+      ],
+      "reviewed_current_sha256": "bb0a80f2be513cea6f3bd1231f1444681db1e25b8520566057409a5c2f6468ed"
+    },
+    {
+      "input_index": 60,
+      "object_id": "EP-E-birth-P-0035-P-0035-principal",
+      "revision_id": "EP-E-birth-P-0035-P-0035-principal@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Datum enligt hushållsböcker; egen födelse- och dopnotis oläst, kopiekedjan är inte flera ursprungsröster.",
+          "after": "Datum enligt hushållsböcker; egen födelse- och dopnotis oläst, kopiekedjan är inte flera ursprungsröster. T-0675:s reserverade C-0890-rådag 31/3[5/3?] kvarstår mot den tidigare källrapporterade 5/3 och C-0907:s 5/3. Ingen omdatering av personen eller extra oberoende bekräftelse följer av denna bokkedja.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907:s klara 5/3 får inte dölja T-0675:s kvarstående C-0890-variant; befintligt datum behålls."
+      ],
+      "reviewed_current_sha256": "f26615bec6d7befab8453cf0a76906e4d5c4983bd5f85cee57820a141bf12490",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 61,
+      "object_id": "EP-E-birth-P-0037-P-0037-principal",
+      "revision_id": "EP-E-birth-P-0037-P-0037-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-birth-P-0037-P-0037-principal behåller samma person och roll. Tyras12/7 är tydligt på r22 och redan rättat i egen händelse;14/7 återinförs inte."
+      ],
+      "reviewed_current_sha256": "0fa082b1167cfa10a5a1aee25153d20877dc94cdf34fe76500fa49da35d1226f"
+    },
+    {
+      "input_index": 62,
+      "object_id": "EP-E-birth-P-0038-P-0038-principal",
+      "revision_id": "EP-E-birth-P-0038-P-0038-principal@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-birth-P-0038-P-0038-principal behåller samma person och roll. Gerdas17/9 är godkänd rad23läsning; egen händelse har T-0675:s genomförda rättelse och inga nya datumkonflikter."
+      ],
+      "reviewed_current_sha256": "f28a91358330109e01cb41026dcb349c78ff1bf298e102c631e4f6022084f5ad"
+    },
+    {
+      "input_index": 63,
+      "object_id": "EP-E-departure-P-0001-Norsjo-1924-P-0001-migrant",
+      "revision_id": "EP-E-departure-P-0001-Norsjo-1924-P-0001-migrant@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars deltagande i Norsjöavgång1/11 1924 består, skilt från betyg29/10 och oläst mottagarpost."
+      ],
+      "reviewed_current_sha256": "4669d898c2c99411aa4736e55095b69f5413c8fac4cddab52c923e998882a454"
+    },
+    {
+      "input_index": 64,
+      "object_id": "EP-E-marriage-P-0031-1921-P-0031-principal",
+      "revision_id": "EP-E-marriage-P-0031-1921-P-0031-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-marriage-P-0031-1921-P-0031-principal behåller samma person och roll. Astrids vigsel1921-04-17 finns i egen r15kolumn; maken förblir onamngiven och ingen ny person/kant skapas."
+      ],
+      "reviewed_current_sha256": "b9aade009188e6665ec701782d5b57270d4914f2d46ee9e08883f52f1521e925"
+    },
+    {
+      "input_index": 65,
+      "object_id": "EP-E-other-P-0035-territorial-transfer-1925-P-0035-principal",
+      "revision_id": "EP-E-other-P-0035-territorial-transfer-1925-P-0035-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-other-P-0035-territorial-transfer-1925-P-0035-principal behåller samma person och roll. Ludvigs1925händelse är uttryckligen territoriell, inte egen fysisk flytt eller påfyllning av tomt ut-fält."
+      ],
+      "reviewed_current_sha256": "b82cd9fd7400c46184c38ecc9db51d9b133fba7fbeab47ca1c11651ca05d6344"
+    },
+    {
+      "input_index": 66,
+      "object_id": "EP-E-other-P-0036-territorial-1925-P-0036-principal",
+      "revision_id": "EP-E-other-P-0036-territorial-1925-P-0036-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-other-P-0036-territorial-1925-P-0036-principal behåller samma person och roll. Birgers1925händelse är territoriell bokföring, inte egen fysisk avgång."
+      ],
+      "reviewed_current_sha256": "ba046b504b64712834d31704c7f7c079607cc31fea05cd70ed197ec9541bb4b1"
+    },
+    {
+      "input_index": 67,
+      "object_id": "EP-E-registered_arrival-P-0029-1917-P-0029-principal",
+      "revision_id": "EP-E-registered_arrival-P-0029-1917-P-0029-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_arrival-P-0029-1917-P-0029-principal behåller samma person och roll. Idas15/11 följer ankomstdittot på r13; post208:s antal är inte hennes namnbelägg."
+      ],
+      "reviewed_current_sha256": "ac41b4d9207217005855369dcc90aa1442c213072ee4a5911dda49a7a0c1aeea"
+    },
+    {
+      "input_index": 68,
+      "object_id": "EP-E-registered_arrival-P-0031-1917-P-0031-principal",
+      "revision_id": "EP-E-registered_arrival-P-0031-1917-P-0031-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_arrival-P-0031-1917-P-0031-principal behåller samma person och roll. Astrids8/11 och uppgiven Örebro norra stämmer med r15; faktiskt boende där fastställs inte."
+      ],
+      "reviewed_current_sha256": "7f5345258144eac503b18b464dfa73edf98e53d86f39e6d42292bfa96e0b6a7f"
+    },
+    {
+      "input_index": 69,
+      "object_id": "EP-E-registered_arrival-P-0034-1917-P-0034-principal",
+      "revision_id": "EP-E-registered_arrival-P-0034-1917-P-0034-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_arrival-P-0034-1917-P-0034-principal behåller samma person och roll. Petrus15/11 stöds av r19ditto och egen post212; samma flyttkedja, ingen extra ursprungsröst."
+      ],
+      "reviewed_current_sha256": "5b6d6d10cbddf35764bba52bcd1835c367893d468d0d377de5a56ff058ca5fdb"
+    },
+    {
+      "input_index": 70,
+      "object_id": "EP-E-registered_arrival-P-0035-1917-Ytterhiske-P-0035-principal",
+      "revision_id": "EP-E-registered_arrival-P-0035-1917-Ytterhiske-P-0035-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_arrival-P-0035-1917-Ytterhiske-P-0035-principal behåller samma person och roll. Ludvigs15/11 är bokförd via r20ditto och egen post213; ingen ny fysisk resdag."
+      ],
+      "reviewed_current_sha256": "59c300c75eebc6669a2f45146f48add040f7696479bd27adfb1843252d135ea2"
+    },
+    {
+      "input_index": 71,
+      "object_id": "EP-E-registered_arrival-P-0036-1917-P-0036-principal",
+      "revision_id": "EP-E-registered_arrival-P-0036-1917-P-0036-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_arrival-P-0036-1917-P-0036-principal behåller samma person och roll. Birgers familjeanknutna ankomst15/11 kvarstår; ingen särskild namngiven B I/11post påstås."
+      ],
+      "reviewed_current_sha256": "088f0c76356d2b95e3cc7a910a3b0f0afe660372c222273b7b8ba51f8ffe1da6"
+    },
+    {
+      "input_index": 72,
+      "object_id": "EP-E-registered_arrival-P-0037-1917-P-0037-principal",
+      "revision_id": "EP-E-registered_arrival-P-0037-1917-P-0037-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_arrival-P-0037-1917-P-0037-principal behåller samma person och roll. Tyras familjeanknutna ankomst15/11 kvarstår och får inte bli en påhittad egen flyttpost."
+      ],
+      "reviewed_current_sha256": "55e4d541303641f477b2f5665355b2f458bb11b959b9ca3cdbb8d73006596587"
+    },
+    {
+      "input_index": 73,
+      "object_id": "EP-E-registered_arrival-P-0038-1917-P-0038-principal",
+      "revision_id": "EP-E-registered_arrival-P-0038-1917-P-0038-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_arrival-P-0038-1917-P-0038-principal behåller samma person och roll. Gerdas svaga ankomstdittotecken i r23 ryms inom tidigare familjeanknuten ankomst; post208 namnger henne inte."
+      ],
+      "reviewed_current_sha256": "ae9a052d51e37f7289442b64249d41a1aa95ff240fcf810b6552abdee90dd6e0"
+    },
+    {
+      "input_index": 74,
+      "object_id": "EP-E-registered_departure-P-0031-1922-P-0031-principal",
+      "revision_id": "EP-E-registered_departure-P-0031-1922-P-0031-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_departure-P-0031-1922-P-0031-principal behåller samma person och roll. Astrids avgång7/4 1922 stämmer med r15; betyg6/4 hålls separat och mottagarposten är oläst."
+      ],
+      "reviewed_current_sha256": "b5609a47574d1a9c5e27dbe0b7785dcc14dfc26d93e8283a0366c9847b4dc248"
+    },
+    {
+      "input_index": 75,
+      "object_id": "EP-E-registered_departure-P-0032-1923-P-0032-principal",
+      "revision_id": "EP-E-registered_departure-P-0032-1923-P-0032-principal@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Deltagarlänken EP-E-registered_departure-P-0032-1923-P-0032-principal behåller samma person och roll. Anders avgång14/12 1923 till Lomma stämmer med r16; betyg5/12 är separat och mellanled olästa."
+      ],
+      "reviewed_current_sha256": "e48bbdc1615a912e0c7c876e3cedb10dbdedd55988d560a0df3385253626716e"
+    },
+    {
+      "input_index": 76,
+      "object_id": "F-P-0001-household_membership-Hildur2284",
+      "revision_id": "F-P-0001-household_membership-Hildur2284@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs hushållskontext i Oskars nätverk är inte accepterad syskon-/föräldrakant; uppgiven dag och separat kandidat består."
+      ],
+      "reviewed_current_sha256": "8e9d848be690f7bf7513bdfec09589feef9e7906d97e07d6e06e12885c7f85a8"
+    },
+    {
+      "input_index": 77,
+      "object_id": "F-P-0001-household_membership-network-P-0030",
+      "revision_id": "F-P-0001-household_membership-network-P-0030@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Livias nätverkskontext från tidigare hushåll bevaras; hennes frånvaro på C-0907 gör ingen ny relation eller identitetsuteslutning."
+      ],
+      "reviewed_current_sha256": "bcd1971c56caf481182aeb67e059143860ed75b5e291fe73052eecd1823040cd"
+    },
+    {
+      "input_index": 78,
+      "object_id": "F-P-0001-household_membership-network-P-0031",
+      "revision_id": "F-P-0001-household_membership-network-P-0031@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids nätverkskontext och födelsedag1/9 är förenliga med r15; intervallen är källkontext, inte livslängd."
+      ],
+      "reviewed_current_sha256": "07d76b64957d00479442febee75b07831fde1c652d890e97a992266dda20fc9b"
+    },
+    {
+      "input_index": 79,
+      "object_id": "F-P-0001-household_membership-network-P-0032",
+      "revision_id": "F-P-0001-household_membership-network-P-0032@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Anders nätverkskontext och10/9 är förenliga med r16; Lommautflytt skiljs från full sammanboendetid."
+      ],
+      "reviewed_current_sha256": "d2d37661ac224a098e3fa457547a1ded35d9fec39f47d3d2877b8c4c911e10de"
+    },
+    {
+      "input_index": 80,
+      "object_id": "F-P-0001-household_membership-network-P-0033",
+      "revision_id": "F-P-0001-household_membership-network-P-0033@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Magnus nätverkskontext och29/10 består; Frik.-reservationen förändrar inte syskonkontexten."
+      ],
+      "reviewed_current_sha256": "6ab82e130cca1d4cc0a1d6babd60203b7ab53242ea6ce4994fd52eec252536ec"
+    },
+    {
+      "input_index": 81,
+      "object_id": "F-P-0001-household_membership-network-P-0034",
+      "revision_id": "F-P-0001-household_membership-network-P-0034@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus nätverkskontext och6/8 består; r19c/k ändrar inte samma redan följda person."
+      ],
+      "reviewed_current_sha256": "ed2059a959eded5039dbbb73a97f12dcd0e4a10e0f656dc3e823ec89f55baf6b"
+    },
+    {
+      "input_index": 82,
+      "object_id": "F-P-0001-household_membership-network-P-0035",
+      "revision_id": "F-P-0001-household_membership-network-P-0035@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Tidsuppgifterna beskriver läst hushållskontext, inte syskonrelationens början/slut. Andra personens födelsehändelse kurateras i dennes egen akt.",
+          "after": "Tidsuppgifterna beskriver läst hushållskontext, inte syskonrelationens början/slut. Andra personens födelsehändelse kurateras i dennes egen akt. T-0675:s reserverade C-0890-rådag 31/3[5/3?] kvarstår mot den tidigare källrapporterade 5/3 och C-0907:s 5/3. Ingen omdatering av personen eller extra oberoende bekräftelse följer av denna bokkedja.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907:s klara 5/3 får inte dölja T-0675:s kvarstående C-0890-variant; befintligt datum behålls."
+      ],
+      "reviewed_current_sha256": "f0a38e45cfd683c23b75fc9c3a2205e037f113df1cf701464c8381b95863a613",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 83,
+      "object_id": "F-P-0001-household_membership-network-P-0036",
+      "revision_id": "F-P-0001-household_membership-network-P-0036@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Birgers nätverksfaktum har T-0675:s uttryckliga år54-/31/8begränsning; C-0907:s13/8 är fortsatt egen källuppgift."
+      ],
+      "reviewed_current_sha256": "748a569cb8f31809e30b9b7ddd5e2ad104d2574b3dc1ff7ab2fcb690e6ac4c1c"
+    },
+    {
+      "input_index": 84,
+      "object_id": "F-P-0001-household_membership-network-P-0037",
+      "revision_id": "F-P-0001-household_membership-network-P-0037@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "value_json",
+          "before": "syster, f. 1907-07-14 eller 1907-07-12",
+          "after": "syster, källrapporterad födelsedag 1907-07-12",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "caveat",
+          "before": "Tidsuppgifterna beskriver läst hushållskontext, inte syskonrelationens början/slut. Andra personens födelsehändelse kurateras i dennes egen akt.",
+          "after": "Tidsuppgifterna beskriver läst hushållskontext, inte syskonrelationens början/slut. Andra personens födelsehändelse kurateras i dennes egen akt. Äldre 14/7 är rättat avskriftsfel, historiskt bevarat; C-0907:s 12/7 tillhör kopiekedjan och är ingen ytterligare oberoende röst.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "14/7 är redan rättat avskriftsfel i Tyras egen modell; ingen kvarstående råkonflikt ska återinföras.",
+        "Nätverkskopian synkroniseras med redan accepterad källrapporterad dag; egen födelsepost fortsatt oläst."
+      ],
+      "reviewed_current_sha256": "f947299817defe0acc913fda2bb508c686c2b105568d0b6cdfdec72eb9293966",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 85,
+      "object_id": "F-P-0001-household_membership-network-P-0038",
+      "revision_id": "F-P-0001-household_membership-network-P-0038@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Gerdas nätverksfaktum innehåller redan genomförd17/9rättelse; äldre12/7 och ny rättad17/3 ska inte återöppnas."
+      ],
+      "reviewed_current_sha256": "e21ea2e1ff46f77c0a9e2729caa54bf288e7836d7cda9020edf62bf5c35d72e1"
+    },
+    {
+      "input_index": 86,
+      "object_id": "F-P-0001-household_membership-parents-network",
+      "revision_id": "F-P-0001-household_membership-parents-network@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Föräldrarnas nätverksdödsuppgifter härrör från deras egna senare poster; mantalsnoterna på2284 ändrar inte dödsdagarna."
+      ],
+      "reviewed_current_sha256": "42c0f445b950e1f66fc18bbe513f54e1b1d1085e8e0b7b8bb646b3c06be111a1"
+    },
+    {
+      "input_index": 87,
+      "object_id": "F-P-0001-military_registration-174-1917",
+      "revision_id": "F-P-0001-military_registration-174-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars174/1917 är samma nummerkedja; andra talets reservation inkluderar annan källas20 och kan inte raderas av C-0907:s70."
+      ],
+      "reviewed_current_sha256": "8e198bca2f5a908650870a028f6d34d102fde6697ce6e7984e062a474261e035"
+    },
+    {
+      "input_index": 88,
+      "object_id": "F-P-0028-administrative_transfer-1925",
+      "revision_id": "F-P-0028-administrative_transfer-1925@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars1925överföring är redan territoriell och förklarar SCB:s inflyttningsår utan fysisk flytt."
+      ],
+      "reviewed_current_sha256": "a5863401405681439e2578170cca1d3b968afc3c993a28e5244b90a66752ccb3"
+    },
+    {
+      "input_index": 89,
+      "object_id": "F-P-0028-occupation-documented_chain",
+      "revision_id": "F-P-0028-occupation-documented_chain@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars yrkeskedja är uttryckligen källbundna titlar, inte exakt anställningstid eller arbetsgivare; hemmansägare är tydligt på r12."
+      ],
+      "reviewed_current_sha256": "1014b4865cd366066cc5b2eb1cfd3d1f2cd2ad7d445d5957a50801efe74850e4"
+    },
+    {
+      "input_index": 90,
+      "object_id": "F-P-0028-residence-documented_chain",
+      "revision_id": "F-P-0028-residence-documented_chain@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars boendekedja påverkas inte av mantalsplacering; den separata äldre263.3-hänvisningen ligger utanför denna C-0907-prövning och flaggas till root."
+      ],
+      "reviewed_current_sha256": "828290f252f30603e0e08010850de1056e19ab6ce5af6fdeb1b32a08de3255f8"
+    },
+    {
+      "input_index": 91,
+      "object_id": "F-P-0029-administrative_transfer-1925",
+      "revision_id": "F-P-0029-administrative_transfer-1925@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Idas administrativa1925överföring är territoriell; hennes tomma ut-celler fylls inte med en egen fysisk flytt."
+      ],
+      "reviewed_current_sha256": "706c176064b1861ff366e6c49344afd88993f407ca704f1541da201e1e6c0f89"
+    },
+    {
+      "input_index": 92,
+      "object_id": "F-P-0029-residence-documented_chain",
+      "revision_id": "F-P-0029-residence-documented_chain@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Idas hemvistkedja bärs av hushållskontinuitet och följande böcker; mantalsnotens datering används inte som boendebelägg."
+      ],
+      "reviewed_current_sha256": "5f7dbc6cd8b669b67bf40d4710fbbbadc3b9357e6135d96e210de21697b6c921"
+    },
+    {
+      "input_index": 93,
+      "object_id": "F-P-0031-name_form-documented",
+      "revision_id": "F-P-0031-name_form-documented@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrid Maria och hushållsrubriken Zingmark är förenliga med r15; Hörnberg står kvar endast som sekundär ledtråd."
+      ],
+      "reviewed_current_sha256": "0d141491a25b9537627a4a00170bcc15a53ab5d60982efed43aff8771df5caec"
+    },
+    {
+      "input_index": 94,
+      "object_id": "F-P-0031-residence-documented",
+      "revision_id": "F-P-0031-residence-documented@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids boendefaktum reserverar Örebrovistelse och oläst mottagarpost1922; C-0907:s angivna frånort ändrar inte detta."
+      ],
+      "reviewed_current_sha256": "cb915cd364f94c7b025793cfb7775b6eab7cd1c5f3ca622554d08a95cf22910d"
+    },
+    {
+      "input_index": 95,
+      "object_id": "F-P-0032-military_registration-number",
+      "revision_id": "F-P-0032-military_registration-number@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Anders245 70/1913 stämmer med huvudråformen; ett litet övre tecken är inte nytt nummer eller säker tjänstgöring."
+      ],
+      "reviewed_current_sha256": "38cc986552a9185499725c9e072db2c1100966c43e3c11d64754da9cd3c256c2"
+    },
+    {
+      "input_index": 96,
+      "object_id": "F-P-0032-residence-documented",
+      "revision_id": "F-P-0032-residence-documented@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Anders boendefaktum skiljer Lommas olästa mellanled och full fysisk vistelse; r16avgången består."
+      ],
+      "reviewed_current_sha256": "c5c0841d7a7f8941958d642300ba80da7363b0d729c8fd20c075503461147dc2"
+    },
+    {
+      "input_index": 97,
+      "object_id": "F-P-0033-administrative_transfer-1925",
+      "revision_id": "F-P-0033-administrative_transfer-1925@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Magnus1925händelse är territoriell, inte fysisk flytt från hans tomma egenfält."
+      ],
+      "reviewed_current_sha256": "2d9d637cb4e99da0f54f87a956d7641b3a6d21274e50ef20c04805ccc763bce3"
+    },
+    {
+      "input_index": 98,
+      "object_id": "F-P-0033-military_registration-737",
+      "revision_id": "F-P-0033-military_registration-737@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Magnus militärfaktum är redan korrekt efter T-0675: osäkra C-0890-tal, odaterat C-0907Frik., ingen säker1917 eller treårsberäkning."
+      ],
+      "reviewed_current_sha256": "769dd1bd5c2c866c30e7c8c39c4606db3d6dfa5206635bca566b5863ba73bc1a"
+    },
+    {
+      "input_index": 99,
+      "object_id": "F-P-0033-residence-documented",
+      "revision_id": "F-P-0033-residence-documented@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Magnus boende reserverar skolort och bortavaro; studentförkortningen ger ingen stad eller examen."
+      ],
+      "reviewed_current_sha256": "a83a995fab66ac428585fd4dc4b52ac70ef135a5660ef255063b3300699c27ad"
+    },
+    {
+      "input_index": 100,
+      "object_id": "F-P-0034-administrative_transfer-1925",
+      "revision_id": "F-P-0034-administrative_transfer-1925@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus1925överföring avser oförändrad fastighet/jurisdiktion; inget eget ut-datum konstrueras."
+      ],
+      "reviewed_current_sha256": "b1a7294de853af784a99c2ef0448e3d9e686e085a436b547ce7a1442a52a975d"
+    },
+    {
+      "input_index": 101,
+      "object_id": "F-P-0034-military_registration-138",
+      "revision_id": "F-P-0034-military_registration-138@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus138/69/1919 bygger också på separat tidigare prövad C-0916. C-0907:s årsreservation omdaterar inte den andra källan eller bevisar tjänst."
+      ],
+      "reviewed_current_sha256": "d63b46ece4229d2170b7eec406426f305213e7f333c032775756057b385ab8ce"
+    },
+    {
+      "input_index": 102,
+      "object_id": "F-P-0034-occupation-documented",
+      "revision_id": "F-P-0034-occupation-documented@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus yrkesfaktum bevarar T-0675:s1930råform och uttryckliga ordningsreservation; C-0907:s jordbr.-arbet. ger ingen arbetsgivare."
+      ],
+      "reviewed_current_sha256": "ec21d1af30a571503ff99b89722532508d15226b2c5d27a73c382d72b7df8f19"
+    },
+    {
+      "input_index": 103,
+      "object_id": "F-P-0034-residence-documented",
+      "revision_id": "F-P-0034-residence-documented@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus boende och faderns1258 skiljs från sonens ägande; inga senare flyttceller öppnas här."
+      ],
+      "reviewed_current_sha256": "46e2be4b818d5aedc0e2ca9c919355d4664ab55e01d1cbc5215f0704ca1650dd"
+    },
+    {
+      "input_index": 104,
+      "object_id": "F-P-0035-birth_place-household-report",
+      "revision_id": "F-P-0035-birth_place-household-report@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs Degerfors är hushållsboksrapporterad födelseförsamling, inte egen dopnotis; datumvarianten påverkar inte orten."
+      ],
+      "reviewed_current_sha256": "74ff24b51e3d03ab435906e10016ccb2bd4b57a6cb560f3b8d1a533b6337048a"
+    },
+    {
+      "input_index": 105,
+      "object_id": "F-P-0035-name_form-reported-forms",
+      "revision_id": "F-P-0035-name_form-reported-forms@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs namnformer avser redan samma person; Emanuel tydligt på r20 ger ingen ny identitetsbedömning."
+      ],
+      "reviewed_current_sha256": "58e1a29996c14f6136cca36db488b15c73ded42f3c35c0e7ab8eb7e6fbf4e6e8"
+    },
+    {
+      "input_index": 106,
+      "object_id": "F-P-0035-residence-Ytterhiske-1917",
+      "revision_id": "F-P-0035-residence-Ytterhiske-1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs Ytterhiske1917 är bokförd hemvist med egen213post; ingen säkert kontinuerlig fysisk vistelse följer."
+      ],
+      "reviewed_current_sha256": "bae5bc9d3a156b513a34f899891b010037e9fd513b9891f93ddaebda8aef6e51"
+    },
+    {
+      "input_index": 107,
+      "object_id": "F-P-0036-household_membership-Rosinedahl",
+      "revision_id": "F-P-0036-household_membership-Rosinedahl@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Birgers hushållsfaktum har redan T-0675:s sena källvariant och familjeuppgifter; r21 tillför ingen namngiven egen inflyttpost."
+      ],
+      "reviewed_current_sha256": "5c574960ff074cc1bd8093b22474c1c227c47af02f40b86fc77d364505e31771"
+    },
+    {
+      "input_index": 108,
+      "object_id": "F-P-0037-household_membership-Rosinedahl-Ytterhiske",
+      "revision_id": "F-P-0037-household_membership-Rosinedahl-Ytterhiske@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Tyras hushållskedja är registrerad tillhörighet; r22s tomheter avgör inte senare liv."
+      ],
+      "reviewed_current_sha256": "f4e9024518420f2db0907e2bc38d04d8f5eee1920a11516e0bbee546834fc103"
+    },
+    {
+      "input_index": 109,
+      "object_id": "F-P-0037-name_form-primary",
+      "revision_id": "F-P-0037-name_form-primary@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Tyras aktuella namnform utan h och med Charlotta står kvar; FIRST Claudia är rättat läsfel, inte ny variant."
+      ],
+      "reviewed_current_sha256": "e5e8c2791d002c0e99e0bb23a4f25ba8af1e13c8a15f1024dde1eb8e303f4fec"
+    },
+    {
+      "input_index": 110,
+      "object_id": "F-P-0038-household_membership-Rosinedahl",
+      "revision_id": "F-P-0038-household_membership-Rosinedahl@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Gerdas hushållsfaktum bevarar källrapporterad17/9 och kopiekedja; ingen ny självständig datumröst."
+      ],
+      "reviewed_current_sha256": "9d5ff4c723eff486b6f07e9eea4b9750187b6508307bfa8becf5511038d5fa1e"
+    },
+    {
+      "input_index": 111,
+      "object_id": "F-P-0529-chronology_assessment-1888-and-1917",
+      "revision_id": "F-P-0529-chronology_assessment-1888-and-1917@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs kronologifaktum har redan fyraalternativ,176dagar utan moderskapsbevis, och T-0675:s rågiftvariant; allt ska bevaras."
+      ],
+      "reviewed_current_sha256": "9122375d9067c1d4105dd985d795406eb66f7e236404090e80b04e2b22b30569"
+    },
+    {
+      "input_index": 112,
+      "object_id": "F-P-0529-household_membership-Ytterhiske2284",
+      "revision_id": "F-P-0529-household_membership-Ytterhiske2284@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs medlemskap på2284 avser en källreferent och inte en avgjord livsidentitet; överföringsnyckeln2088/18 består."
+      ],
+      "reviewed_current_sha256": "d75f496360203e69414142b5a63ef911d543e9d497b4cc12a6f1fbe38a783910"
+    },
+    {
+      "input_index": 113,
+      "object_id": "F-P-0529-identity_assessment-four-alternatives",
+      "revision_id": "F-P-0529-identity_assessment-four-alternatives@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs fyra identitetsalternativ står öppna utan rangordning. Namnreservation och18kolumner väljer inget alternativ."
+      ],
+      "reviewed_current_sha256": "de9814d18f6dc05bd51979817a8c60974d84862647762d27df0bb21c66b13ac2"
+    },
+    {
+      "input_index": 114,
+      "object_id": "F-P-0529-source_comparison-Astrid-arrival",
+      "revision_id": "F-P-0529-source_comparison-Astrid-arrival@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs och Astrids gemensamma8/11 skiljs redan från antagen innebörd; frånorter hålls personbundna."
+      ],
+      "reviewed_current_sha256": "f9551523349a04871683c446ab18302b679f16be427e9f6faad342a594e20bea"
+    },
+    {
+      "input_index": 115,
+      "object_id": "ID-P-0035-C0907-r20",
+      "revision_id": "ID-P-0035-C0907-r20@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs identitetslänk till källraden gäller befintlig sammanföring; klart huvudnummer ändrar ingen bevisgrad."
+      ],
+      "reviewed_current_sha256": "ee5387c9837ddfd5110490538a2cc9793f3902d9be88458c24e6eb6ee6d3aef2"
+    },
+    {
+      "input_index": 116,
+      "object_id": "ID-P-0038-C0907-r23",
+      "revision_id": "ID-P-0038-C0907-r23@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Gerdas identitetslänk tillr23 bevarar accepterad källreferent och redan prövad datumrättelse."
+      ],
+      "reviewed_current_sha256": "592597e49ec1a726f0029c13dfec7c37061f7aee43d5f6fd4b7006414f3b9dae"
+    },
+    {
+      "input_index": 117,
+      "object_id": "IDENTITY-P-0030-P-0529",
+      "revision_id": "IDENTITY-P-0030-P-0529@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Avvisad sammanslagning Livia/Hildur bevarar öppet samma-personalternativ i caveat; skilda objekt kvarstår."
+      ],
+      "reviewed_current_sha256": "92f89987be348796dc6731ac0933e40a45296c53bd9593a833ed8f8138210716"
+    },
+    {
+      "input_index": 118,
+      "object_id": "KEY-P-0001-0a382a125afc",
+      "revision_id": "KEY-P-0001-0a382a125afc@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars174/1917nyckel skiljer andra talets70/20varianter och inskrivning från tjänst. C-0907 ändrar inte annan källas läsning."
+      ],
+      "reviewed_current_sha256": "a842b7d8444622c85fa4e307bf106614d4817bfd4ad88cc7265372ced5e82c55"
+    },
+    {
+      "input_index": 119,
+      "object_id": "KEY-P-0001-fd0002ff2190",
+      "revision_id": "KEY-P-0001-fd0002ff2190@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "Två yngsta systrarnas födelsedagar har en bevarad konflikt mellan de två böckerna.",
+          "after": "Tyra 1907-07-12 och Gerda 1909-09-17 är aktuella källrapporterade dagar; äldre avskriftsfel är rättade, inte kvarstående bokkonflikter. Böckerna tillhör samma kopiekedja och de egna födelseposterna är fortfarande olästa.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Föräldranyckeln får inte återskapa avslutade Tyra/Gerda-konflikter."
+      ],
+      "reviewed_current_sha256": "fb5f0a9b76d1de5024a449bbcde8c7071bb3b9435a4eff2752932821f11c290f",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 120,
+      "object_id": "KEY-P-0001-fd46364cd459",
+      "revision_id": "KEY-P-0001-fd46364cd459@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars flyttnyckel har redan T-0675:s73/79reservation och betyg4/7 skilt från utflytt7/7; C-0907 ger ingen ny1924–1930vistelse."
+      ],
+      "reviewed_current_sha256": "4c02f0730dc916bc6185cd7f60c12cb6a3e43ab76116b3a7a2783594d306cf19"
+    },
+    {
+      "input_index": 121,
+      "object_id": "KEY-P-0028-469306e9a9e4",
+      "revision_id": "KEY-P-0028-469306e9a9e4@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "Säkra utom två barns exakta födelsedagar, som står i konflikt mellan böckerna.",
+          "after": "Hushållsnyckeln består. De äldre Tyra/Gerda-avskriftsfelen är rättade; T-0675:s egna råreservationer för Ludvig och Birger kvarstår och prövas i deras personbundna objekt. Ingen extra oberoende röst följer av C-0907.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Ospecificerade tvåbarnskonflikten riskerar återställa gamla konflikter och dölja de verkligt aktuella."
+      ],
+      "reviewed_current_sha256": "ba91d1f15fd76565963409b34e503577a4d9b7910cd420032eb007a11d714321",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 122,
+      "object_id": "KEY-P-0028-4bfa90bb438f",
+      "revision_id": "KEY-P-0028-4bfa90bb438f@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars Ytterhiskenyckel anger bok-/titelperiod och fastighetsingång; här finns inget säkert lagfartsdatum att ändra."
+      ],
+      "reviewed_current_sha256": "c682af03042d528281ad995978fc61b6de1e6942bfaa2bf90cfdf05104d3a73c"
+    },
+    {
+      "input_index": 123,
+      "object_id": "KEY-P-0028-676e739e7314",
+      "revision_id": "KEY-P-0028-676e739e7314@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "för honom själv, från 1917 och 1925",
+          "after": "mot hushållet i böckerna 1917–1925 och 1925–1941, utan datering av förvärv",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "body",
+          "before": "Landsförsamlingens blyertsnot är blek och hemmansbeteckningen efter bråket är oläst.",
+          "after": "T-0676 placerar odaterad ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] på Idas rad 13; efterföljande led är reserverade och placeringen fastställer inte personligt ägande.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Söknyckeln får inte göra bokstarten till säkert ägandedatum.",
+        "Båda geometriska placeringarna behövs i den aktuella söknyckeln."
+      ],
+      "reviewed_current_sha256": "0e1d9c806bbb2bb812bf8722c8726c3d73f315334152de78bd06cf79faa46a3a",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 124,
+      "object_id": "KEY-P-0029-4dc9f4360eb5",
+      "revision_id": "KEY-P-0029-4dc9f4360eb5@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt."
+      ],
+      "reviewed_current_sha256": "5f222319fa1f14fd0ce51f72870a9a00622ec4924d68735502a0819289834b1a",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 125,
+      "object_id": "KEY-P-0029-9a8296631b7f",
+      "revision_id": "KEY-P-0029-9a8296631b7f@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "body",
+          "before": "Jordinnehav bokfört 1917–1944",
+          "after": "Mantals-/fastighetsnyckel i böckerna 1917–1944; förvärvsdatum ej fastställt",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "body",
+          "before": "Säker; noterat redan i landsförsamlingens bok (A-5470).",
+          "after": "C-0907:s egen rad 13 bär odaterad 11/64 mtl[?] … N:r 1[?]; T-0676 bekräftar placeringen, inte personlig äganderätt eller säker full utläsning. Senare källors egna mantalsuppgifter kvarstår separat (A-5470).",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt.",
+        "Säkert innehav från 1917 är mer än odaterad radnot visar.",
+        "Personbunden keyreservation, inte generell statusändring."
+      ],
+      "reviewed_current_sha256": "e62fcaffaac8ed0daab6f3cc483d3092ad4e322c0ecd650918638f8da8a8b76c",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 126,
+      "object_id": "KEY-P-0031-5725a136654a",
+      "revision_id": "KEY-P-0031-5725a136654a@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids återkomstnyckel7/4 1922 stämmer med r15; mottagarvolymen är fortfarande oläst."
+      ],
+      "reviewed_current_sha256": "88b78c075574f6e5e4b5ac9c774409cb68aea5b7b685ce0d81c1b52943a4bc05"
+    },
+    {
+      "input_index": 127,
+      "object_id": "KEY-P-0031-b0bb3d738a50",
+      "revision_id": "KEY-P-0031-b0bb3d738a50@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids namn-/datumnyckel1/9 består. Stark kombination betyder inte tre oberoende datumröster, vilket egen caveat redan reserverar."
+      ],
+      "reviewed_current_sha256": "986b0d96a28870250a515d738e2b2978260c431ad9b698b79ca76eb536d64742"
+    },
+    {
+      "input_index": 128,
+      "object_id": "KEY-P-0031-f8bdfb67167f",
+      "revision_id": "KEY-P-0031-f8bdfb67167f@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids Örebroflyttlängdsväg förblir oprövad; r15:s frånort ger inte själv fysisk vistelse eller ett nytt nollresultat."
+      ],
+      "reviewed_current_sha256": "aa11ede273659905456232e46b599e0fb7e4a6bdb41ab2e82fe66a01147032d7"
+    },
+    {
+      "input_index": 129,
+      "object_id": "KEY-P-0031-fd6749a96777",
+      "revision_id": "KEY-P-0031-fd6749a96777@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids Lysning27/1921 är fortsatt postnummer och söknyckel; ingen27juli eller namngiven make tillkommer."
+      ],
+      "reviewed_current_sha256": "88589a52cc1ac4c7fd8a49188801a3d7f7ffaa6361e50ab96c6410a4c890b947"
+    },
+    {
+      "input_index": 130,
+      "object_id": "KEY-P-0032-34f2f0b9c288",
+      "revision_id": "KEY-P-0032-34f2f0b9c288@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Frik. 1917 tillhör brodern",
+          "after": "C-0907:s odaterade Frik.-not på rad 17 tillhör brodern Johan Magnus",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907 har inget år till Frik.; T-0675:s reserverade C-0890-tal får inte ersättas av säkert 1917."
+      ],
+      "reviewed_current_sha256": "b348c1eea3d67733df6bc364f789d2db0501a5828e43d339d7bc3856568615d3",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 131,
+      "object_id": "KEY-P-0032-738b1de73be7",
+      "revision_id": "KEY-P-0032-738b1de73be7@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Frik. 1917 tillhör brodern",
+          "after": "C-0907:s odaterade Frik.-not på rad 17 tillhör brodern Johan Magnus",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907 har inget år till Frik.; T-0675:s reserverade C-0890-tal får inte ersättas av säkert 1917."
+      ],
+      "reviewed_current_sha256": "2329c26bbff34caf93ed5f6f2104e56cb8b220975d1793345e0294324280ba6c",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 132,
+      "object_id": "KEY-P-0032-8596a5f2ad4f",
+      "revision_id": "KEY-P-0032-8596a5f2ad4f@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Frik. 1917 tillhör brodern",
+          "after": "C-0907:s odaterade Frik.-not på rad 17 tillhör brodern Johan Magnus",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907 har inget år till Frik.; T-0675:s reserverade C-0890-tal får inte ersättas av säkert 1917."
+      ],
+      "reviewed_current_sha256": "19feff1b57198074b61302d8545d883d2a90c65b9e62562a9298fd8b2ede2faf",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 133,
+      "object_id": "KEY-P-0032-f2cd20d159bb",
+      "revision_id": "KEY-P-0032-f2cd20d159bb@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Frik. 1917 tillhör brodern",
+          "after": "C-0907:s odaterade Frik.-not på rad 17 tillhör brodern Johan Magnus",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907 har inget år till Frik.; T-0675:s reserverade C-0890-tal får inte ersättas av säkert 1917."
+      ],
+      "reviewed_current_sha256": "d3089b0417b5f8f06af33afc6d4c14311f27ad44b5b260d66922351c75e2f9fb",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 134,
+      "object_id": "KEY-P-0033-46d5830aa642",
+      "revision_id": "KEY-P-0033-46d5830aa642@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Frik. 1917 tillhör honom, mellanledet 20[?] reserveras.",
+          "after": "C-0907:s Frik.-not tillhör hans rad men saknar år och nummer. C-0890:s nummer/år är fortsatt reserverade efter T-0675; äldre 1917 är historisk läsning, inte säkert frikallelseår. Mellanledet 20[?] reserveras.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Säkert Frik. 1917 motsäger både prövad C-0907-rad och aktuell T-0675-bedömning."
+      ],
+      "reviewed_current_sha256": "3dfeae531f9075a2e5ad506fe7cf10c19b85c76209abc96d9030b528ce9abf5a",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 135,
+      "object_id": "KEY-P-0034-2f1ed7a4f69a",
+      "revision_id": "KEY-P-0034-2f1ed7a4f69a@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus uppslag2284/post212 är rätt geografisk ingång; lokal bildoffset generaliseras inte."
+      ],
+      "reviewed_current_sha256": "b5ac714020fc8a5d2d1b9a867256f8aa264201413494c3230abab8af50b47cc3"
+    },
+    {
+      "input_index": 136,
+      "object_id": "KEY-P-0034-d262644fc625",
+      "revision_id": "KEY-P-0034-d262644fc625@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus1258nyckel säger uttryckligen faderns fastighet, inte sonens ägande; mantalsrättelsen skapar ingen ny ägare."
+      ],
+      "reviewed_current_sha256": "8f4758a9bdf96c92522f9f34d17baaeb5c435ac4b8c3b4aa00ff0436894e7e92"
+    },
+    {
+      "input_index": 137,
+      "object_id": "KEY-P-0034-e7c2942dfdd2",
+      "revision_id": "KEY-P-0034-e7c2942dfdd2@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "Formen Nicolaus finns bara i sekundärträdet.",
+          "after": "C-0907:s egen namnform är Petrus Ni[c/k]olaus; Nicolaus får därför inte uteslutas som enbart sekundär form. Nyckeln Nikolaus behålls för sökning, utan avgörande av k/x-liknande bokstavsvariation genom personens kanoniska namn.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Godkänd jämförelse reserverar c/k; ingen P-core-namnändring."
+      ],
+      "reviewed_current_sha256": "9e1a82f533afa2d33ba01fff51d79f0e181a3085e5bc0c2aa362ef204d65a2cf",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 138,
+      "object_id": "KEY-P-0034-f7e57d8e2b68",
+      "revision_id": "KEY-P-0034-f7e57d8e2b68@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus138/69/19 är fortsatt användbar söknyckel till rulla med C-0916stöd; numret är inte tjänstgöringsbevis."
+      ],
+      "reviewed_current_sha256": "615d80ba344980db4ec0bd296cc883858e916f18c3fce9ad4d2e282c2d67af5c"
+    },
+    {
+      "input_index": 139,
+      "object_id": "KEY-P-0035-d4638384aa66",
+      "revision_id": "KEY-P-0035-d4638384aa66@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs143/69/1922söknyckel överensstämmer med godkänd oöverstruken huvudnot; separat oläslig undernot ger ingen ny uppgift."
+      ],
+      "reviewed_current_sha256": "9f1a4248a065d9dac876a048338f8c0aeb6f7eac75898cc25dd6ad46b2302949"
+    },
+    {
+      "input_index": 140,
+      "object_id": "KEY-P-0036-42cb988a9063",
+      "revision_id": "KEY-P-0036-42cb988a9063@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Birgers spärr mot C-0907 som självständig datumröst behålls; andra bokkedjors sena31/8konflikt står i personens egna aktuella objekt."
+      ],
+      "reviewed_current_sha256": "972358d7e5b7f5c2b59903bb001545d3a7ab16e3a8c53ec1716cd2b822a2ae98"
+    },
+    {
+      "input_index": 141,
+      "object_id": "KEY-P-0038-fba6f151cc40",
+      "revision_id": "KEY-P-0038-fba6f151cc40@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Huvudtext och profil bär ännu den gamla födelsedagskonflikten, men aktens sena T-0177-anmälan r177–211 rättar C-0574 till 1909-09-17 och säger att avvikelsen var avskriftsfel. Samma anmälan anger att ändringen ännu inte förts in i huvudakten. Migrationen bevarar detta handläggningsskikt: rättad källrapporterad dag, äldre ännu inte avförd kanonisk konflikt och uttrycklig beslutsfråga, utan ny bildtolkning eller kontraktsuppgradering.",
+          "after": "T0675s ställningstagande till T0177rapporten är nu utfört: C0890r12 läses1909 17/9 i två låsta pass med egen teckenprövning. T0177s bevarade riktade kontroll av C0574r12 till17/9 tillgodoräknas; den gamla12/7finns i avskriften, inte som kvarstående motstöd efter dess rättelse. C0907senare17/9 är kopiekedja och ger ingen extra röst. Accepterad källrapporterad dag1909-09-17, egen födelsepost ännu oläst. Rapporthistoria/äldre konflikt bevarad i tidigare revision och origins; ingen P-core-/grindändring.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna Gerda-kopia får inte återöppna T-0177-handläggning som T-0675 redan avgjort; samma aktuella reservation som egen födelsehändelse används."
+      ],
+      "reviewed_current_sha256": "2d8e25bc9ccc878ffe3bc05c44927c64ecdc4cf03e443f9e1cb7ebac8bbfdbf7",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 142,
+      "object_id": "KEY-P-0529-8765c7ae110a",
+      "revision_id": "KEY-P-0529-8765c7ae110a@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs2088/1918nyckel kvarstår; destinationsuppslaget har inte öppnats och lokal bildoffset används inte där."
+      ],
+      "reviewed_current_sha256": "5b57600889dfcdc5e14ed4905af4e11a98e8ee87833f0d48a20d5ae64e77e6e8"
+    },
+    {
+      "input_index": 143,
+      "object_id": "KEY-P-0529-a046e1df3a42",
+      "revision_id": "KEY-P-0529-a046e1df3a42@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs8/11nyckel stämmer med r14 men same-day med Astrid har ingen belagd orsak."
+      ],
+      "reviewed_current_sha256": "68d736b5f6cd7c126deb0d197181745cdf97d8d9f630a5d5727995e22fe67337"
+    },
+    {
+      "input_index": 144,
+      "object_id": "KEY-P-0529-c48c28e22de8",
+      "revision_id": "KEY-P-0529-c48c28e22de8@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs spärrade säkra Livia-uteslutning bevaras; namnreservation kan inte ersätta identitetsprövningen."
+      ],
+      "reviewed_current_sha256": "167b3781828780223dea2dbb9fc709f9562f43bf0147a800b45ec94f061b1d1d"
+    },
+    {
+      "input_index": 145,
+      "object_id": "M-P-0035-C0907-r20",
+      "revision_id": "M-P-0035-C0907-r20@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvig Emanuel är tydlig egen r20namnform; ingen ändring av roll eller kön behövs."
+      ],
+      "reviewed_current_sha256": "c42e160eb12029812271d756824cc35ac1b3e18d79070491060d98615a4658b4"
+    },
+    {
+      "input_index": 146,
+      "object_id": "M-P-0038-C0907-r23",
+      "revision_id": "M-P-0038-C0907-r23@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Gerda Helena är tydlig egenradsform; källans rollfält ska inte fyllas från en hypotetisk normalisering."
+      ],
+      "reviewed_current_sha256": "de2b1425d4ba8d0b3c3c82d5e6ab67812676f2114721982f6496ac0cf0ae1186"
+    },
+    {
+      "input_index": 147,
+      "object_id": "M-P-0529-C0907-row14",
+      "revision_id": "M-P-0529-C0907-row14@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "name_literal",
+          "before": "Hildur Aleksandra",
+          "after": "Hildur Aleksandra/Alexandra[?]",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna källa-/observationskopia utger sig för att återge radens namn; k/x-reservationen måste följa med utan identitetsändring."
+      ],
+      "reviewed_current_sha256": "8b7b0398c483d698718de8586b48cdcd975ce85252cb4af65af5ba956c411994",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 148,
+      "object_id": "O-P-0001-C0002-mother-birth",
+      "revision_id": "O-P-0001-C0002-mother-birth@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Idas födelsedag i Oskars födelsenotis är separat indirekt råuppgift; samma dag på2284 ger ingen ny livshändelse."
+      ],
+      "reviewed_current_sha256": "8bf7e88ee9c9f2e114af37cd90b3ca60eebe259d502c19a309c7c925189db0db"
+    },
+    {
+      "input_index": 149,
+      "object_id": "O-P-0001-C0907-father-occupation",
+      "revision_id": "O-P-0001-C0907-father-occupation@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars hemmansägaretitel är tydligt r12belagd; periodfältets enligt hushållslängden läses som källperiod, inte förvärvsdatum."
+      ],
+      "reviewed_current_sha256": "36004f650fb973c0056f013912c24de5daa03b9c899e690b3cf36eef39b39c4e"
+    },
+    {
+      "input_index": 150,
+      "object_id": "O-P-0028-copied_birth_marriage",
+      "revision_id": "O-P-0028-copied_birth_marriage@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "De kopierade28/5,15/12 och1/7uppgifterna stämmer med r12–13; beroendet av flyttningsbetyget står uttryckligen kvar."
+      ],
+      "reviewed_current_sha256": "569cf921b4c246806b66e65203329323573d1e4619fab9adb5e4f22c9d1bf680"
+    },
+    {
+      "input_index": 151,
+      "object_id": "O-P-0028-Hildur_unresolved",
+      "revision_id": "O-P-0028-Hildur_unresolved@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "value_literal",
+          "before": "Hildur Aleksandra",
+          "after": "Hildur Aleksandra/Alexandra[?]",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna källa-/observationskopia utger sig för att återge radens namn; k/x-reservationen måste följa med utan identitetsändring."
+      ],
+      "reviewed_current_sha256": "2141fe38d7acd7a2a97b627a9c5dd2f1380985f739f6e20e3308e7e2f7abf7e7",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 152,
+      "object_id": "O-P-0028-mantal1917",
+      "revision_id": "O-P-0028-mantal1917@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Blek blyerts, efterföljande beteckning inte säkert läsbar. Ida Sofias rad 13 saknar motsvarande not. P-0029 A-5470 säger däremot att hennes rad 13 bär 11/64 mtl N:r 1; bevara motsägelsen om radägarskap.",
+          "after": "Blek, odaterad blyerts vid Johan Oskars rad 12: ⅛ mtl[?] …; efterföljande beteckning är olöst. På Idas rad 13 finns en separat blyertsnot 11/64 mtl[?] … N:r 1[?]. T-0676 ersätter äldre uppgift att hennes rad saknar not. Geometrisk radplacering fastställer varken personligt ägande, anteckningstid eller lagfart; äldre läsningar bevaras i tidigare revisioner.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Rad-13-nollan är fel efter godkänd jämförelse; endast placeringen avgjord."
+      ],
+      "reviewed_current_sha256": "aabe41c49464cb2714cd7560b547c7d45ac65fba905a1bdb304296a5462f8336",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 153,
+      "object_id": "O-P-0029-copied_birth",
+      "revision_id": "O-P-0029-copied_birth@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Idas h./Andersd.-form och15/12 är återgivna med punktförkortning; ingen oberoende ny födelseuppgift följer."
+      ],
+      "reviewed_current_sha256": "1bcfb8e67940d0ebc2a1c380ca0ff32fefbff745cb587ce861ce66713d7009bf"
+    },
+    {
+      "input_index": 154,
+      "object_id": "O-P-0029-Hildur_unresolved",
+      "revision_id": "O-P-0029-Hildur_unresolved@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "value_literal",
+          "before": "Hildur Aleksandra",
+          "after": "Hildur Aleksandra/Alexandra[?]",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna källa-/observationskopia utger sig för att återge radens namn; k/x-reservationen måste följa med utan identitetsändring."
+      ],
+      "reviewed_current_sha256": "4c3bfa76ffa643e2579c7b03b51a575b050729ff23ae90b855c58de6b85da017",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 155,
+      "object_id": "O-P-0029-mantal1917_conflict",
+      "revision_id": "O-P-0029-mantal1917_conflict@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Aktens läsning motsägs uttryckligen av P-0028 A-5454, som anger ingen motsvarande not på hennes rad. Radägarskap och läsning förblir olösta; mantal är inte lagfart.",
+          "after": "T-0676 placerar blyertsnoten 11/64 mtl[?] … N:r 1[?] på Idas rad 13 och en separat ⅛ mtl[?] … vid Johan Oskars rad 12. Äldre uppgift i A-5454 att hennes rad saknar motsvarande not är ersatt, inte fortsatt motstöd om placeringen. Anteckningarna är odaterade och delvis läsosäkra; varken personligt ägande eller lagfart följer av mantal och radläge. Historiska läsningar bevaras.",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "value_literal",
+          "before": "11/64 mtl … N:r 1",
+          "after": "11/64 mtl[?] … N:r 1[?]",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "value_json",
+          "before": "{\"husbandMargin\":\"1/8 mtl … 2\",\"reading\":\"inledande tecken osäkert\",\"reportedOn\":\"Ida Sofias egen rad 13\"}",
+          "after": "{\"husbandMargin\":\"⅛ mtl[?] …\",\"reading\":\"blek blyerts; mtl och N:r 1 reserverade; odaterad\",\"reportedOn\":\"Ida Sofias egen rad 13\"}",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Placering preciseras; osäker råtext och juridisk innebörd kvarstår.",
+        "Råreservationer måste finnas i observationsvärdet, inte enbart i ny sidavskrift.",
+        "Maken får inte tilldelas säker efterföljande 2 när jämförelsen reserverar beteckningen."
+      ],
+      "reviewed_current_sha256": "4cd967d14c7a1bb92970ba734f091ac204d613209dd0d5c3a073c6dcba7f95ed",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 156,
+      "object_id": "O-P-0031-arrival1917_origin",
+      "revision_id": "O-P-0031-arrival1917_origin@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids uppgiven frånort Örebro norra och8/11 består med uttrycklig reservation för fysisk vistelse."
+      ],
+      "reviewed_current_sha256": "7caeea38ab757eed04a8ae1488b4b04dc3c98936016371cdc3f2693d0cae1c1f"
+    },
+    {
+      "input_index": 157,
+      "object_id": "O-P-0031-banns1921",
+      "revision_id": "O-P-0031-banns1921@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids27/1921 är läst lysningsreferens; postnummer och år bevaras utan juli-datum."
+      ],
+      "reviewed_current_sha256": "a691b1fdadc25bcdd811862369f41ad7f3622356afff6c809c3761155504952e"
+    },
+    {
+      "input_index": 158,
+      "object_id": "O-P-0031-certificate1922",
+      "revision_id": "O-P-0031-certificate1922@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids betyg6/4 1922 är uttryckligen skilt från avgång7/4 och förblir samma observation."
+      ],
+      "reviewed_current_sha256": "7dedbe02dc6e88a9e88fd7e29224e33006128849dbe8716515cb9f879333c847"
+    },
+    {
+      "input_index": 159,
+      "object_id": "O-P-0031-Umea_blank_fields",
+      "revision_id": "O-P-0031-Umea_blank_fields@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids egna yrkes-/militärfält är tomma; objektet reserverar redan sysslolöshet och negativt tjänstebevis."
+      ],
+      "reviewed_current_sha256": "5bd46779763f523fff275e4ff120a9e9f51ddca8bfa3583662bc6c041918066f"
+    },
+    {
+      "input_index": 160,
+      "object_id": "O-P-0032-certificate1923",
+      "revision_id": "O-P-0032-certificate1923@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Anders betyg5/12 1923 är skilt från avgång14/12; båda ligger i rätt kolumn på r16."
+      ],
+      "reviewed_current_sha256": "196a3f42ca7f8d4ed0ed171965dd83b15f02e8b5a63870129a13bb2abf217ce5"
+    },
+    {
+      "input_index": 161,
+      "object_id": "O-P-0032-occupation1917",
+      "revision_id": "O-P-0032-occupation1917@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Anders e.o.landskanslist[?] förblir reserverad expansion; faktisk tjänst, arbetsgivare och karriär fastställs inte."
+      ],
+      "reviewed_current_sha256": "d9bc1046f658f9ec23b2ec80ddebd4e2efd2504b3c0b8e817f7ba60ffe626154"
+    },
+    {
+      "input_index": 162,
+      "object_id": "O-P-0036-C0907-Hildur-unresolved_household_person",
+      "revision_id": "O-P-0036-C0907-Hildur-unresolved_household_person@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "value_literal",
+          "before": "Hildur Aleksandra",
+          "after": "Hildur Aleksandra/Alexandra[?]",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna källa-/observationskopia utger sig för att återge radens namn; k/x-reservationen måste följa med utan identitetsändring."
+      ],
+      "reviewed_current_sha256": "db02ed2bd312131c50700e17eb76d04db4e058d60e479083f9360cb3b551a488",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 163,
+      "object_id": "O-P-0037-C0907-Hildur-unresolved_household_person",
+      "revision_id": "O-P-0037-C0907-Hildur-unresolved_household_person@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "value_literal",
+          "before": "Hildur Aleksandra",
+          "after": "Hildur Aleksandra/Alexandra[?]",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna källa-/observationskopia utger sig för att återge radens namn; k/x-reservationen måste följa med utan identitetsändring."
+      ],
+      "reviewed_current_sha256": "f955cf9cc7ff131098a2ea2045412a7fdec0340a0f98624b0ff8c047408a80ca",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 164,
+      "object_id": "P-0001/Q-01",
+      "revision_id": "P-0001/Q-01@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars öppna1924–1930fråga har redan T-0675:s73/79 och betyg/avgångsskillnad. Seminariumfältets osäkra datum fyller inte livsluckan."
+      ],
+      "reviewed_current_sha256": "45d75e5d62a94307d4ca8fea569af494b0f04d78e9f1e6230bcc8bf62f92aa78"
+    },
+    {
+      "input_index": 165,
+      "object_id": "P-0028/Q-01",
+      "revision_id": "P-0028/Q-01@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars Q01 skiljer registrering, osäker208yrkesförkortning, hushållsbokens titel och territoriell1925överföring. Mantalsdatum används inte."
+      ],
+      "reviewed_current_sha256": "4b0cd2cb70cee088910c1864737d4ffe9a3f97b4b6c3ff74ad931ea8a39c0b6a"
+    },
+    {
+      "input_index": 166,
+      "object_id": "P-0028/Q-03",
+      "revision_id": "P-0028/Q-03@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "och mantalstalen stod bokförda i hans eget namn från 1917",
+          "after": "men C-0907:s mantalsblyerts är odaterad: ⅛ mtl[?] … vid hans rad 12 och 11/64 mtl[?] … N:r 1[?] på Idas rad 13; detta fastställer inte personligt ägande från 1917",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Frågans öppna arv-/ägandebedömning får inte innehålla ogrundat säkert startår."
+      ],
+      "reviewed_current_sha256": "81de280f8775d92354b979230c08374ad271d156e8636096e52ecbcac74524de",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 167,
+      "object_id": "P-0029/Q-01",
+      "revision_id": "P-0029/Q-01@2",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt."
+      ],
+      "reviewed_current_sha256": "20f34209033819711980065b680dea8c03642275cd70a4b74c7e64a1412b53e1",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 168,
+      "object_id": "P-0030/Q-03",
+      "revision_id": "P-0030/Q-03@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd.",
+          "after": "Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd.",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "body",
+          "before": "Livia Sofias egen födelsedag 1888-09-10\n  utesluter att de är samma person.",
+          "after": "Livia Sofias rapporterade födelsedag 1888-09-10\n  skiljer sig från Hildurs. Skillnaden ensam utesluter inte samma person när datum eller identitet kan vara felrapporterade; de fyra bevarade alternativen är fortsatt öppna.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Följdobjektet får inte återställa äldre säkert Hällsten mot redan prövad C-0890-rättelse.",
+        "Tidigare T-0675 och F-P-0529:s fyra alternativ får inte motsägas av ogrundad uteslutning."
+      ],
+      "reviewed_current_sha256": "dc909f6572f202b20d74144ce6f800f0b2d673f425889449f5de1ed8bea4a74c",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 169,
+      "object_id": "PATH-P-0001-KP-01",
+      "revision_id": "PATH-P-0001-KP-01@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars KP01 bevarar exakt positivt flyttled, lokalt noll och olästa hushållsböcker med73/79reservation. Ingen ny källöppning."
+      ],
+      "reviewed_current_sha256": "f01e570f407f4edb8a94d7027dfc336f6ceeeef292cb4986934122d0658abc73"
+    },
+    {
+      "input_index": 170,
+      "object_id": "PATH-P-0001-KP-04",
+      "revision_id": "PATH-P-0001-KP-04@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars KP04 är personbunden katalogidentifierad rullväg med åtkomsthinder. C-0907:s nummer belägger inte faktisk tjänst eller ny åtkomst."
+      ],
+      "reviewed_current_sha256": "6fe7111677a9155ee525df419087ed040f7dc413d5652503a97bc0c0645f5b37"
+    },
+    {
+      "input_index": 171,
+      "object_id": "PATH-P-0028-KP-01",
+      "revision_id": "PATH-P-0028-KP-01@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars KP01 har T-0675:s genomförda giftfältskontroll och separat kvarvarande annan bild; ingen återöppning av utfört2284pass."
+      ],
+      "reviewed_current_sha256": "a67cc351ded52f97331008d084bc853d21d62be52d9c4ef85de38ed4ea768372"
+    },
+    {
+      "input_index": 172,
+      "object_id": "PATH-P-0029-KP-01",
+      "revision_id": "PATH-P-0029-KP-01@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt."
+      ],
+      "reviewed_current_sha256": "0917585f4fb6add003189a71cf5e2b2d01b8074aafbdf5678d13108f770617ed",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 173,
+      "object_id": "PATH-P-0034-KP-06",
+      "revision_id": "PATH-P-0034-KP-06@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus KP06 förblir EJ UNDERSÖKT rullväg trots användbar138nyckel; ingen arkivbeställning eller tjänstebevis tillkommer."
+      ],
+      "reviewed_current_sha256": "cf94971ec290f18b5c05ddff6b9c9e7ed7155e33bb6038af91cdcdfb47821336"
+    },
+    {
+      "input_index": 174,
+      "object_id": "R-0d8dc5bae95dfa52117d23e7",
+      "revision_id": "R-0d8dc5bae95dfa52117d23e7@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "B I/11-post 211: Oskar Alfred. C-0907:s omprövning ändrar inte denna postgräns, ditto eller uttryckliga beroende; inga ytterligare personer skapas ur antalsceller."
+      ],
+      "reviewed_current_sha256": "f79315644a8197b538140fa888212c74a40139899cad49a4082fe56bbbcc0cce"
+    },
+    {
+      "input_index": 175,
+      "object_id": "R-0e9f8e47069a9c4c8cb21d41",
+      "revision_id": "R-0e9f8e47069a9c4c8cb21d41@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "B I/11-post 208: Johan Oskar med onamngiven familjesummering. C-0907:s omprövning ändrar inte denna postgräns, ditto eller uttryckliga beroende; inga ytterligare personer skapas ur antalsceller."
+      ],
+      "reviewed_current_sha256": "021cf8edb9caea89b84a5874068c254e0e47128983b29b0e5bd46293b7767cb8"
+    },
+    {
+      "input_index": 176,
+      "object_id": "R-35a724def05ad9ebf4ab8a0f",
+      "revision_id": "R-35a724def05ad9ebf4ab8a0f@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "B I/11-post 210: Johan Magnus, med Stud/Und reserverat. C-0907:s omprövning ändrar inte denna postgräns, ditto eller uttryckliga beroende; inga ytterligare personer skapas ur antalsceller."
+      ],
+      "reviewed_current_sha256": "66713d713d2634836aece28eeef8c2ac51ec2769e4e87b44b3b77c2e75fd6afa"
+    },
+    {
+      "input_index": 177,
+      "object_id": "R-5d9d6cd3e70a21f9e61432cc",
+      "revision_id": "R-5d9d6cd3e70a21f9e61432cc@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "B I/11-post 213: Ludvig Emanuel. C-0907:s omprövning ändrar inte denna postgräns, ditto eller uttryckliga beroende; inga ytterligare personer skapas ur antalsceller."
+      ],
+      "reviewed_current_sha256": "e3ddf8ab75ca5dd481b87050a613c36d87e5e96a4c5a2651646530c414e228fd"
+    },
+    {
+      "input_index": 178,
+      "object_id": "R-b41e862cba49605ce935ae02",
+      "revision_id": "R-b41e862cba49605ce935ae02@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "B I/11-post 212: Petrus Nikolaus. C-0907:s omprövning ändrar inte denna postgräns, ditto eller uttryckliga beroende; inga ytterligare personer skapas ur antalsceller."
+      ],
+      "reviewed_current_sha256": "ffdbd46ec78204b4e42d54370d9b31d72cdde37600c84a6b6e3a3b78bbc6c41d"
+    },
+    {
+      "input_index": 179,
+      "object_id": "R-e17f9ef5e085467189d8cd09",
+      "revision_id": "R-e17f9ef5e085467189d8cd09@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "B I/11-post 209: Anders Waldemar. C-0907:s omprövning ändrar inte denna postgräns, ditto eller uttryckliga beroende; inga ytterligare personer skapas ur antalsceller."
+      ],
+      "reviewed_current_sha256": "450c35a304572ff1553f32806d3ee20f9f8d133135963470450ba1fc140cc6a8"
+    },
+    {
+      "input_index": 180,
+      "object_id": "READ-10548612f917098beec79156",
+      "revision_id": "READ-10548612f917098beec79156@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Avgränsningsläsningen för B I/11-post 208 behåller sex faktiska poster, döttrarnas separata datum från C-0907 och samma administrativa beroende. Den är ingen ny råtolkning av2284."
+      ],
+      "reviewed_current_sha256": "28d38675ea195625f8b441925b89bbffd3f9f81d7f9fbe65eb58f09ab1dfa513"
+    },
+    {
+      "input_index": 181,
+      "object_id": "READ-179856a5bf84d82d4c289754",
+      "revision_id": "READ-179856a5bf84d82d4c289754@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Avgränsningsläsningen för B I/11-post 209 behåller sex faktiska poster, döttrarnas separata datum från C-0907 och samma administrativa beroende. Den är ingen ny råtolkning av2284."
+      ],
+      "reviewed_current_sha256": "16f1ab29f203bf9e00a26de918aa32d2d2604af478bc0805cc3532b42b3eebd0"
+    },
+    {
+      "input_index": 182,
+      "object_id": "READ-60867adda3fbbbc17ac7f03c",
+      "revision_id": "READ-60867adda3fbbbc17ac7f03c@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Avgränsningsläsningen för B I/11-post 211 behåller sex faktiska poster, döttrarnas separata datum från C-0907 och samma administrativa beroende. Den är ingen ny råtolkning av2284."
+      ],
+      "reviewed_current_sha256": "bb088a36b34e3dac623de4e00c8217ecb0d51c2b5ec2b05f5dd4f2a570e02e61"
+    },
+    {
+      "input_index": 183,
+      "object_id": "READ-71031e69fa8fca769b4f3bd3",
+      "revision_id": "READ-71031e69fa8fca769b4f3bd3@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Avgränsningsläsningen för B I/11-post 213 behåller sex faktiska poster, döttrarnas separata datum från C-0907 och samma administrativa beroende. Den är ingen ny råtolkning av2284."
+      ],
+      "reviewed_current_sha256": "daef9dd8338aa8736e060089dfe162993b158a7471bdb96d45a5e3015c7a082e"
+    },
+    {
+      "input_index": 184,
+      "object_id": "READ-8d5f2e9a6fdcd5d5bdf7d4a9",
+      "revision_id": "READ-8d5f2e9a6fdcd5d5bdf7d4a9@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Avgränsningsläsningen för B I/11-post 212 behåller sex faktiska poster, döttrarnas separata datum från C-0907 och samma administrativa beroende. Den är ingen ny råtolkning av2284."
+      ],
+      "reviewed_current_sha256": "83518703cd064074a845066a0e26535ebc36b778cb7fd62c13d5ed267b6794aa"
+    },
+    {
+      "input_index": 185,
+      "object_id": "READ-e6e8f363bec3dedd91ac2ae2",
+      "revision_id": "READ-e6e8f363bec3dedd91ac2ae2@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Avgränsningsläsningen för B I/11-post 210 behåller sex faktiska poster, döttrarnas separata datum från C-0907 och samma administrativa beroende. Den är ingen ny råtolkning av2284."
+      ],
+      "reviewed_current_sha256": "75e8d151d0d9459c5164e7130b6c5762ec86d232cdb8fbcc633d693a5dee7905"
+    },
+    {
+      "input_index": 186,
+      "object_id": "READ-f38dde513d4dde766a36e69e",
+      "revision_id": "READ-f38dde513d4dde766a36e69e@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "C-0907:s READ beskriver postgräns, negativa omfång och beroende korrekt. Äldre namnlabel är inte nytt påstående om k/x; nya TR bär råreservation."
+      ],
+      "reviewed_current_sha256": "3893b6ccc7d557c155c1920d95229d5033d343013cfb63f22e8d9a2fb43aa937"
+    },
+    {
+      "input_index": 187,
+      "object_id": "REL-parent-P-0028-P-0001",
+      "revision_id": "REL-parent-P-0028-P-0001@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga parent-relationen P-0028 → P-0001 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "092b04047d45a3e678c30efd49fcacf83ee3bcff629c3c4294a5e899a71bf3f4"
+    },
+    {
+      "input_index": 188,
+      "object_id": "REL-parent-P-0029-P-0001",
+      "revision_id": "REL-parent-P-0029-P-0001@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga parent-relationen P-0029 → P-0001 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "739eefe9e33d34dfaeae93eea90391eed79d263d9455b4af9931b2583a40ed33"
+    },
+    {
+      "input_index": 189,
+      "object_id": "REL-sibling-P-0001-P-0030",
+      "revision_id": "REL-sibling-P-0001-P-0030@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0030 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "74dab5309b71595228fb5f391cca1a7bc1ba33b5ea1c9cc9a4e866122bee8fcc"
+    },
+    {
+      "input_index": 190,
+      "object_id": "REL-sibling-P-0001-P-0031",
+      "revision_id": "REL-sibling-P-0001-P-0031@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0031 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "cfc55a1822fba5cdec950e818a7f6329c9e0de9a191b63e9296deff268215b6e"
+    },
+    {
+      "input_index": 191,
+      "object_id": "REL-sibling-P-0001-P-0032",
+      "revision_id": "REL-sibling-P-0001-P-0032@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0032 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "4e21720fc6716901c20ee1085609176a9b87edc4184cf03107a360cf03e144c5"
+    },
+    {
+      "input_index": 192,
+      "object_id": "REL-sibling-P-0001-P-0033",
+      "revision_id": "REL-sibling-P-0001-P-0033@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0033 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "dafed39a208f70000e2cec67dc728f19dc9ea49709d97bc84608412fe580651b"
+    },
+    {
+      "input_index": 193,
+      "object_id": "REL-sibling-P-0001-P-0034",
+      "revision_id": "REL-sibling-P-0001-P-0034@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0034 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "0c8db09912eaa68c3f79f15a0498f3319570e8661f26852c51c2eee16946be4d"
+    },
+    {
+      "input_index": 194,
+      "object_id": "REL-sibling-P-0001-P-0035",
+      "revision_id": "REL-sibling-P-0001-P-0035@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0035 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "f7484d4ede90184749b2a4e311f72b1a7a4bc8e22b2d63d13596eb98dfe5103d"
+    },
+    {
+      "input_index": 195,
+      "object_id": "REL-sibling-P-0001-P-0036",
+      "revision_id": "REL-sibling-P-0001-P-0036@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0036 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "5b51c578035ecc8d766ad1b03a1b51019962120a6067f3b9936820fd4821d756"
+    },
+    {
+      "input_index": 196,
+      "object_id": "REL-sibling-P-0001-P-0037",
+      "revision_id": "REL-sibling-P-0001-P-0037@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0037 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "f04d8bb3d6a373c235b8b0fd036ad624d8dafcc1baccdee141bd12be05a2b713"
+    },
+    {
+      "input_index": 197,
+      "object_id": "REL-sibling-P-0001-P-0038",
+      "revision_id": "REL-sibling-P-0001-P-0038@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0001 → P-0038 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "8abb39bf62496c14d8878f5338a64f00f5efaef2a94e7e035a76b583c8e3906a"
+    },
+    {
+      "input_index": 198,
+      "object_id": "REL-sibling-P-0031-P-0032",
+      "revision_id": "REL-sibling-P-0031-P-0032@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0031 → P-0032 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "91218ff49ab4faf47affd7f57aea0fd321123daa2f7fccc12d03bba2c7d50e01"
+    },
+    {
+      "input_index": 199,
+      "object_id": "REL-sibling-P-0031-P-0033",
+      "revision_id": "REL-sibling-P-0031-P-0033@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0031 → P-0033 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "763dc931442205dbd19c18cd70e1561abe341928a411a60bed63eccda522261f"
+    },
+    {
+      "input_index": 200,
+      "object_id": "REL-sibling-P-0031-P-0034",
+      "revision_id": "REL-sibling-P-0031-P-0034@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0031 → P-0034 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "47b77f850d2a891a2ce11fe0f0d3c02d3ab38fa1636b1c84edc8654a8a58153d"
+    },
+    {
+      "input_index": 201,
+      "object_id": "REL-sibling-P-0032-P-0033",
+      "revision_id": "REL-sibling-P-0032-P-0033@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0032 → P-0033 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "f51574578debe179894b09a8719eb931ace2980990f0c242677a1613f3bdc7d7"
+    },
+    {
+      "input_index": 202,
+      "object_id": "REL-sibling-P-0032-P-0034",
+      "revision_id": "REL-sibling-P-0032-P-0034@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0032 → P-0034 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "7332fa8780a6ac242fd530cda090c7dd3f7e9094714039f78eea8d57f670d56a"
+    },
+    {
+      "input_index": 203,
+      "object_id": "REL-sibling-P-0033-P-0034",
+      "revision_id": "REL-sibling-P-0033-P-0034@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Den befintliga sibling-relationen P-0033 → P-0034 påverkas inte av mantalsplacering, reserverat rånamn eller Frik.-år. Källkoppling och uttrycklig avsaknad av säkert relationsintervall bevaras; ingen Hildurkant tillkommer."
+      ],
+      "reviewed_current_sha256": "e6d88dcb08698de9de86d86190a7fad246a23cae16d57a8aa166156360e077b0"
+    },
+    {
+      "input_index": 204,
+      "object_id": "RESEARCH-P-0028-9d76f0343410",
+      "revision_id": "RESEARCH-P-0028-9d76f0343410@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars identitetsutlåtande skiljer kedja/beroenden från livsbild; mantalsnoterna påverkar ingen verifierad anlinje."
+      ],
+      "reviewed_current_sha256": "2727ae201138a8d5215b81bb4d697f4a5d767ef6c382a0a3a07eb16625d9b4c9"
+    },
+    {
+      "input_index": 205,
+      "object_id": "RESEARCH-P-0029-9d76f0343410",
+      "revision_id": "RESEARCH-P-0029-9d76f0343410@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt."
+      ],
+      "reviewed_current_sha256": "1944d3be301a5f9efb9001d4c0810d2c5c3e8a3272ac51e97a8cce73dadb7932",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 206,
+      "object_id": "RESEARCH-P-0030-9d76f0343410",
+      "revision_id": "RESEARCH-P-0030-9d76f0343410@2",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd.",
+          "after": "Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Följdobjektet får inte återställa äldre säkert Hällsten mot redan prövad C-0890-rättelse.",
+        "Livias identitetstext har redan T-0675:s öppna Hildurfråga och olöst makeefternamn; C-0907 gör inte Livia till en ny radperson."
+      ],
+      "reviewed_current_sha256": "66836ab4afb5587d265b5683761f287421aa2e00d84bc2fc4015a21c572fa099",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 207,
+      "object_id": "RESEARCH-P-0034-9d76f0343410",
+      "revision_id": "RESEARCH-P-0034-9d76f0343410@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus identitetstext stöder befintlig sammanföring på mer än namnstavning och behåller kopiekedja/oläst dopnotis. C-0916:s nummerkontroll omprövas inte."
+      ],
+      "reviewed_current_sha256": "645acffa431c5fb174631c8ef77e458eab3c48b09ccea1f577cf4c47ff56c7a7"
+    },
+    {
+      "input_index": 208,
+      "object_id": "RESEARCH-P-0035-9d76f0343410",
+      "revision_id": "RESEARCH-P-0035-9d76f0343410@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs identitetstext reserverar redan C-0890-dagvarianten och oberoendeprövningen; C-0907:s5/3/143 ändrar inte T-0675."
+      ],
+      "reviewed_current_sha256": "8aa384caf1588ea353c139b1150529582d90fb28bd7b54dbd3931356125c4881"
+    },
+    {
+      "input_index": 209,
+      "object_id": "RESEARCH-P-0037-9d76f0343410",
+      "revision_id": "RESEARCH-P-0037-9d76f0343410@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Tyras identitetstext har redan rättat14/7 och skiljer sekundära namnformer. Ingen nya Claudia-variant får skapas."
+      ],
+      "reviewed_current_sha256": "d31ee2ff5b4f33d0e77c5398dd02e70499f489c1c5e2b8aa0685dc85f4f826ce"
+    },
+    {
+      "input_index": 210,
+      "object_id": "THEME-P-0001-BO",
+      "revision_id": "THEME-P-0001-BO@2",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars BO bevarar T-0675:s73/79 och olästa1924–1930/efter1950. C-0907:s avgång ändrar inte dessa luckor."
+      ],
+      "reviewed_current_sha256": "789356f484d5bbe2c9474b8733931c83310d5d14439e7d6f12432abb7bacb9d7"
+    },
+    {
+      "input_index": 211,
+      "object_id": "THEME-P-0001-ID",
+      "revision_id": "THEME-P-0001-ID@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars ID avser befintlig sammanföring med egen födelse-/vigsel-/examenpost, ingen ny identitetsgrad från bokkopian."
+      ],
+      "reviewed_current_sha256": "321120934ec53564784c09dbb298b2c941d711f7dc2a6397e39938dc0f5d6296"
+    },
+    {
+      "input_index": 212,
+      "object_id": "THEME-P-0001-MIL",
+      "revision_id": "THEME-P-0001-MIL@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars MIL skiljer174/1917 från faktisk tjänst och bevarar personbundet åtkomsthinder."
+      ],
+      "reviewed_current_sha256": "8e760f9ee747116e09634269a5e93a77691aacd99406f959fd38a81666c4f46a"
+    },
+    {
+      "input_index": 213,
+      "object_id": "THEME-P-0001-REL",
+      "revision_id": "THEME-P-0001-REL@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Oskars REL behåller Hildur separat/oavgjord; displaynamnet används som objektlabel och inte diplomatisk namntranskription."
+      ],
+      "reviewed_current_sha256": "9861eb73050fc4086cc01b7f6ce58837229904f337a1aaa921a438b78804a0f6"
+    },
+    {
+      "input_index": 214,
+      "object_id": "THEME-P-0028-ARB",
+      "revision_id": "THEME-P-0028-ARB@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars ARB är öppen trots källbundna yrkeshållpunkter; C-0907hemmansägare ger ingen arbetsgivare eller egenhemsansökan."
+      ],
+      "reviewed_current_sha256": "c45d65fa07d9ceab93b0a2aed6522d42e4f47990d64042c63b7efd8f0bb6e828"
+    },
+    {
+      "input_index": 215,
+      "object_id": "THEME-P-0028-BO",
+      "revision_id": "THEME-P-0028-BO@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars BO berör samma territoriella överföring. Äldre263.3 är separat C-0002-kopia utanför denna avgränsade C-0907-läsning och flaggas till root."
+      ],
+      "reviewed_current_sha256": "81417f782b03681ae73388db79c4ded857d71bec3058f09efd04bc0b29d2f8a6"
+    },
+    {
+      "input_index": 216,
+      "object_id": "THEME-P-0028-EKO",
+      "revision_id": "THEME-P-0028-EKO@2",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "från 1917 egen jordbruksfastighet.",
+          "after": "hemmansägare i Ytterhiskes hushållsbok 1917–1925, utan säkert förvärvsdatum.",
+          "mode": "replace_exact_once"
+        },
+        {
+          "field": "body",
+          "before": "bokfört i hans eget namn — mantalsnoterna står i vänstermarginalen vid hans egen rad både 1917–1925 och 1925–1941 (A-5453, A-5454). Det är en saklig ändring av bilden: talen var förut kända enbart ur änkans rad efter hans död.",
+          "after": "enligt tidigare läsning av stadsbokens egen rad (A-5453). I C-0907 placerar T-0676 odaterad ⅛ mtl[?] … vid hans rad 12 och 11/64 mtl[?] … N:r 1[?] på Idas rad 13; placeringen visar inte personlig äganderätt eller förvärvstid (A-5454).",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Titeln består, daterad förvärvsslutsats återtas.",
+        "Båda mantalstalen får inte flyttas till hans egen C-0907-rad; T-0675:s ekonomiråtal lämnas exakt orörda."
+      ],
+      "reviewed_current_sha256": "d3015095bc9846d8142605b76cd51a477f7a7b39e303fb64ef71b1c36f8bb445",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 217,
+      "object_id": "THEME-P-0028-MIL",
+      "revision_id": "THEME-P-0028-MIL@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars MIL behåller egna tomma1917fält skilda från1888vpl.[?]; ingen nummer-/förbandsuppgift uppstår."
+      ],
+      "reviewed_current_sha256": "2e17698aa5c6ba4968fe917ce7422670341390712b9debdcc1406a98f5c37bb1"
+    },
+    {
+      "input_index": 218,
+      "object_id": "THEME-P-0028-REL",
+      "revision_id": "THEME-P-0028-REL@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Johan Oskars REL behåller Hildur oavgjord utan propagering; namnet är etikett för befintligt separat objekt."
+      ],
+      "reviewed_current_sha256": "54c88c55a78ee2db820d2a49f02f734e9c664c8bc6378497028874763ad42813"
+    },
+    {
+      "input_index": 219,
+      "object_id": "THEME-P-0029-BO",
+      "revision_id": "THEME-P-0029-BO@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt."
+      ],
+      "reviewed_current_sha256": "186a07a4f8ade50021099814c89296ce2b9395a3fac3ef4ae4164fd0c1966976",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 220,
+      "object_id": "THEME-P-0029-MIL",
+      "revision_id": "THEME-P-0029-MIL@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Motstridig mantalsläsning mellan P-0028 och P-0029 samt beroendevärderingen av stadsägeregistret lämnas öppna.",
+          "after": "T-0676 placerar den odaterade blyertsen ⅛ mtl[?] … vid rad 12 och 11/64 mtl[?] … N:r 1[?] vid rad 13. Äldre uppgift att Idas rad saknar not är ersatt; fortsatt läsosäkerhet, datering och personlig äganderätt är inte avgjorda. Beroendevärderingen av stadsägeregistret lämnas öppen.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Idas egen kopia får inte hålla den nu prövade geometriska placeringen olöst eller ge den säker äganderätt."
+      ],
+      "reviewed_current_sha256": "6ba51bbe579015bca9b3477b18d386539a86bba0c6e3925b71609d2072fd75cf",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 221,
+      "object_id": "THEME-P-0030-ID",
+      "revision_id": "THEME-P-0030-ID@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Hällsten stöds som makens namn; hennes egen användning är inte originalbelagd.",
+          "after": "Makens efternamn är olöst efter T-0675:s riktade prövning; Hällsten är äldre tolkning och hennes egen användning är inte originalbelagd.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Följdobjektet får inte återställa äldre säkert Hällsten mot redan prövad C-0890-rättelse."
+      ],
+      "reviewed_current_sha256": "35eaee95819bf1e100418a38bc79f60acbc45f4db1176bc12aeaa66ebdd81ee2",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 222,
+      "object_id": "THEME-P-0031-BO",
+      "revision_id": "THEME-P-0031-BO@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids BO behåller exakt glapp20/4–8/11 och källbokad avgång, ingen antagen Örebrohemvist."
+      ],
+      "reviewed_current_sha256": "2f92e8eab60a16ded48082e2455da3318a24cb48f641f4d8ffa357a3a5d6e32e"
+    },
+    {
+      "input_index": 223,
+      "object_id": "THEME-P-0031-ID",
+      "revision_id": "THEME-P-0031-ID@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids ID skiljer stabilt eget namn från oprövat giftnamn Hörnberg; C-0907:s egen rad ger ingen makeidentitet."
+      ],
+      "reviewed_current_sha256": "69339a4a96e17ec8ff0b9e34720fb44ec21c284bfb6ae634df93d3333241c2ce"
+    },
+    {
+      "input_index": 224,
+      "object_id": "THEME-P-0031-MIL",
+      "revision_id": "THEME-P-0031-MIL@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids MIL grundas personbundet på tom egen cell och flera närliggande bröders nummer, inte ett påstående att samtliga sex har nummer."
+      ],
+      "reviewed_current_sha256": "397508c0912d497d4a58395a866e1d5443132ef99d78f712dcfa0cb36a84541f"
+    },
+    {
+      "input_index": 225,
+      "object_id": "THEME-P-0031-REL",
+      "revision_id": "THEME-P-0031-REL@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Astrids REL skiljer egen vigseldag från okänd make och håller Hildur separat. Ingen ny familjekant."
+      ],
+      "reviewed_current_sha256": "afb20571c2198c101458f505ccebfde705ce67085549869f7c4525b6c3736ebd"
+    },
+    {
+      "input_index": 226,
+      "object_id": "THEME-P-0032-BO",
+      "revision_id": "THEME-P-0032-BO@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Frik. 1917 tillhör brodern",
+          "after": "C-0907:s odaterade Frik.-not på rad 17 tillhör brodern Johan Magnus",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "C-0907 har inget år till Frik.; T-0675:s reserverade C-0890-tal får inte ersättas av säkert 1917."
+      ],
+      "reviewed_current_sha256": "b54335da09e44fdba72bbdb9183829394cb8d31d75c7e58c01e06cfe6d1eb54c",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 227,
+      "object_id": "THEME-P-0034-BO",
+      "revision_id": "THEME-P-0034-BO@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus BO förblir öppet för Stockholm och efter1941; r19:s tomma ut-fält fyller inget av detta."
+      ],
+      "reviewed_current_sha256": "e847b686a9b8cf6f39a303019f5ae00ec5544a4ebdc53224eb9f3a94f5d1aa72"
+    },
+    {
+      "input_index": 228,
+      "object_id": "THEME-P-0034-ID",
+      "revision_id": "THEME-P-0034-ID@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Petrus ID använder kombinerat familje-/flyttankare och annan källas nummer, inte en säker diplomatisk c/k-form."
+      ],
+      "reviewed_current_sha256": "c2016d1f9c45e6e07e70cda5ad5f0f482365473a40b0dbfd1d90654516dd79ca"
+    },
+    {
+      "input_index": 229,
+      "object_id": "THEME-P-0034-MIL",
+      "revision_id": "THEME-P-0034-MIL@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "Inskrivningsnumret 138 ⁶⁹/₁₉ och årsklassen 1919 är säkrade ur två kyrkoböcker",
+          "after": "Inskrivningsnumret 138 ⁶⁹/₁₉ är tidigare läst i C-0916; C-0907:s egen form läses 138 69/19[?] med reservation för årsledet",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Temat får inte beskriva reserverad C-0907-råform som andra säker röst; annan källas rättelse kvarstår."
+      ],
+      "reviewed_current_sha256": "3421a325c73a3a803bdf47c56d0022cf989d1189b1d31716fe51b56d61e29a34",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 230,
+      "object_id": "THEME-P-0035-BO",
+      "revision_id": "THEME-P-0035-BO@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Ludvigs BO beskriver bokföringskontinuitet med öppen1703fortsättning; caveat skiljer fysisk vistelse."
+      ],
+      "reviewed_current_sha256": "e3ddd8132946c492bebcc6bd079998749b055c240c3addc3dd5535156f2f92ce"
+    },
+    {
+      "input_index": 231,
+      "object_id": "THEME-P-0035-HAL",
+      "revision_id": "THEME-P-0035-HAL@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "Dödskolumnerna är tomma fram till 1948, vilket visar att han levde när raderna lämnades.",
+          "after": "Dödskolumnerna är tomma i de lästa raderna; tomheten bevisar inte i sig överlevnad till 1948. Den daterade överföringen 1948 bedöms separat som bokföringshändelse.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Aktuell body motsäger egen caveat; tom dödscell är ingen positiv livshändelse."
+      ],
+      "reviewed_current_sha256": "8af0df3b9bdfd042b93721773088c5532b4c8811a5b19b041b599da0c2c70cb7",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 232,
+      "object_id": "THEME-P-0038-BO",
+      "revision_id": "THEME-P-0038-BO@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Huvudtext och profil bär ännu den gamla födelsedagskonflikten, men aktens sena T-0177-anmälan r177–211 rättar C-0574 till 1909-09-17 och säger att avvikelsen var avskriftsfel. Samma anmälan anger att ändringen ännu inte förts in i huvudakten. Migrationen bevarar detta handläggningsskikt: rättad källrapporterad dag, äldre ännu inte avförd kanonisk konflikt och uttrycklig beslutsfråga, utan ny bildtolkning eller kontraktsuppgradering.",
+          "after": "T0675s ställningstagande till T0177rapporten är nu utfört: C0890r12 läses1909 17/9 i två låsta pass med egen teckenprövning. T0177s bevarade riktade kontroll av C0574r12 till17/9 tillgodoräknas; den gamla12/7finns i avskriften, inte som kvarstående motstöd efter dess rättelse. C0907senare17/9 är kopiekedja och ger ingen extra röst. Accepterad källrapporterad dag1909-09-17, egen födelsepost ännu oläst. Rapporthistoria/äldre konflikt bevarad i tidigare revision och origins; ingen P-core-/grindändring.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna Gerda-kopia får inte återöppna T-0177-handläggning som T-0675 redan avgjort; samma aktuella reservation som egen födelsehändelse används."
+      ],
+      "reviewed_current_sha256": "dda93ff6e0f74aaa58754cb1a2ef1d9b7aad0ade96ff09aee39850048532b3f6",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 233,
+      "object_id": "THEME-P-0038-HAL",
+      "revision_id": "THEME-P-0038-HAL@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "caveat",
+          "before": "Huvudtext och profil bär ännu den gamla födelsedagskonflikten, men aktens sena T-0177-anmälan r177–211 rättar C-0574 till 1909-09-17 och säger att avvikelsen var avskriftsfel. Samma anmälan anger att ändringen ännu inte förts in i huvudakten. Migrationen bevarar detta handläggningsskikt: rättad källrapporterad dag, äldre ännu inte avförd kanonisk konflikt och uttrycklig beslutsfråga, utan ny bildtolkning eller kontraktsuppgradering.",
+          "after": "T0675s ställningstagande till T0177rapporten är nu utfört: C0890r12 läses1909 17/9 i två låsta pass med egen teckenprövning. T0177s bevarade riktade kontroll av C0574r12 till17/9 tillgodoräknas; den gamla12/7finns i avskriften, inte som kvarstående motstöd efter dess rättelse. C0907senare17/9 är kopiekedja och ger ingen extra röst. Accepterad källrapporterad dag1909-09-17, egen födelsepost ännu oläst. Rapporthistoria/äldre konflikt bevarad i tidigare revision och origins; ingen P-core-/grindändring.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Denna Gerda-kopia får inte återöppna T-0177-handläggning som T-0675 redan avgjort; samma aktuella reservation som egen födelsehändelse används."
+      ],
+      "reviewed_current_sha256": "00f5a5ab6a90e3a919fcdb50cd7d588112d23536886fe7168604507e27ede7f2",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 234,
+      "object_id": "THEME-P-0529-HAL",
+      "revision_id": "THEME-P-0529-HAL@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs HAL:s villkorade bokföringshållpunkt1918 och öppna utfall kvarstår; blank dödscell används inte som självständigt livsbevis."
+      ],
+      "reviewed_current_sha256": "3b48625f86f21091bd108d62c8292391485e800773d735120e84f503d0c68634"
+    },
+    {
+      "input_index": 235,
+      "object_id": "THEME-P-0529-ID",
+      "revision_id": "THEME-P-0529-ID@1",
+      "decision": "REVISE",
+      "changes": [
+        {
+          "field": "body",
+          "before": "en enda källa står mot tre, och frågan är inte källbredd utan vem raden avser.",
+          "after": "en egen C-0907-rad och tidigare hushållsfrånvaro i en beroende bok-/utdragskedja lämnar frågan om vem raden avser öppen. Fyra alternativ kvarstår utan prioritering.",
+          "mode": "replace_exact_once"
+        }
+      ],
+      "reasons": [
+        "Ingen röstmajoritet eller identitetsuppgradering; body görs förenlig med redan aktuellt förbehåll."
+      ],
+      "reviewed_current_sha256": "04e8a228f89dd7295caa9fd1c6c6ae8acd3b0475865a1d0f0630bda5ec26d650",
+      "preserve": "Alla övriga fält, evidenslänkar, origins, utfall och T-0675-korrigeringar oförändrade. Äldre version bevaras; ingen P-core-, identitets-, PK- eller trädgrindsuppgradering."
+    },
+    {
+      "input_index": 236,
+      "object_id": "THEME-P-0529-REL",
+      "revision_id": "THEME-P-0529-REL@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Hildurs REL håller d.-markering skild från bevisat föräldrapar och verifierade kanter."
+      ],
+      "reviewed_current_sha256": "913e178ae3afeff24c199aae911650301cc03adc80e9a9d698b373976b1ddfd8"
+    },
+    {
+      "input_index": 237,
+      "object_id": "TR-00223c46caf01e5827d9afbe",
+      "revision_id": "TR-00223c46caf01e5827d9afbe@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Historisk ordagrann C-0907-avskrift bevaras append-only inklusive dåtida strykning/lysning-/seminarieläsning; nya versionsbundna TR ersätter den som aktuell läsning."
+      ],
+      "reviewed_current_sha256": "ac00413b9bcf8ab0101a174c4d76ac9426a659fd67cb254dd6ced2401fe8bf69"
+    },
+    {
+      "input_index": 238,
+      "object_id": "TR-0ac08106d19c5dfb1723a6c2",
+      "revision_id": "TR-0ac08106d19c5dfb1723a6c2@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Historisk avskrift av separat B I/11-post 208 bevaras. Dess ditto/yrkesreservationer avgörs inte på nytt av C-0907 och ingen ny självständig evidensröst tillkommer."
+      ],
+      "reviewed_current_sha256": "45943f715783ac83bf6f81b001e8ab4b52cee84b4c54d036967dd531a6158672"
+    },
+    {
+      "input_index": 239,
+      "object_id": "TR-3e63c10d09d3749ecb2be7b4",
+      "revision_id": "TR-3e63c10d09d3749ecb2be7b4@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Historisk avskrift av separat B I/11-post 211 bevaras. Dess ditto/yrkesreservationer avgörs inte på nytt av C-0907 och ingen ny självständig evidensröst tillkommer."
+      ],
+      "reviewed_current_sha256": "9e98dbbd62ae8aaeddc762a98ec5895dbe8bd39339e70b4bd9b7ba6e84ab010d"
+    },
+    {
+      "input_index": 240,
+      "object_id": "TR-4fb2f57642d8908ecfccfbd8",
+      "revision_id": "TR-4fb2f57642d8908ecfccfbd8@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Historisk avskrift av separat B I/11-post 213 bevaras. Dess ditto/yrkesreservationer avgörs inte på nytt av C-0907 och ingen ny självständig evidensröst tillkommer."
+      ],
+      "reviewed_current_sha256": "570efb695564d88fde3951aa9273460cde37e4a06f2bb074748022b52fd97003"
+    },
+    {
+      "input_index": 241,
+      "object_id": "TR-827202516111c5acc073cc49",
+      "revision_id": "TR-827202516111c5acc073cc49@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Historisk vänstersidesavskrift bevaras som äldre text. Nya TR anger egna c/k-/k/x-/dittoreservationer utan att skriva om ursprungshistorien."
+      ],
+      "reviewed_current_sha256": "40dff189d8de5adf463b1274fce5ab1df76d6547a753335be4877487cbb7aff5"
+    },
+    {
+      "input_index": 242,
+      "object_id": "TR-b73f3c6e3f05dcbc0ff7fd5b",
+      "revision_id": "TR-b73f3c6e3f05dcbc0ff7fd5b@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Historisk avskrift av separat B I/11-post 212 bevaras. Dess ditto/yrkesreservationer avgörs inte på nytt av C-0907 och ingen ny självständig evidensröst tillkommer."
+      ],
+      "reviewed_current_sha256": "85187df30ac94c4c32b5984873a967f1375219f4262474f57aea82c5eadc08b8"
+    },
+    {
+      "input_index": 243,
+      "object_id": "TR-bfb8298453d383d1a52cb508",
+      "revision_id": "TR-bfb8298453d383d1a52cb508@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Historisk avskrift av separat B I/11-post 209 bevaras. Dess ditto/yrkesreservationer avgörs inte på nytt av C-0907 och ingen ny självständig evidensröst tillkommer."
+      ],
+      "reviewed_current_sha256": "e549b5d31105ba845a031316fe7f3a5308d67ea35d33a60e3e13f3ff3a0ad0e8"
+    },
+    {
+      "input_index": 244,
+      "object_id": "TR-c0e46108afbb26395fda93cd",
+      "revision_id": "TR-c0e46108afbb26395fda93cd@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Historisk avskrift av separat B I/11-post 210 bevaras. Dess ditto/yrkesreservationer avgörs inte på nytt av C-0907 och ingen ny självständig evidensröst tillkommer."
+      ],
+      "reviewed_current_sha256": "e1da57d7f18905d32e411e64a15b44c0ecb6d12a134aa09289f63793b8fdbb51"
+    },
+    {
+      "input_index": 245,
+      "object_id": "TR-T0676-UMEA2284-r12",
+      "revision_id": "TR-T0676-UMEA2284-r12@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Egen hemmansägartitel, odaterad⅛not och territoriell1925överföring med tom militärkolumn."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r12@1",
+      "reviewed_current_sha256": "430937ee2faabff66da94823b17110916e5736d428b829b0f5f937adf2c5e4e6",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 246,
+      "object_id": "TR-T0676-UMEA2284-r13",
+      "revision_id": "TR-T0676-UMEA2284-r13@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Separat mantalsblyerts på egenrad, ingen yrkesbeteckning/personlig äganderätt och tomma egna ut-fält."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r13@1",
+      "reviewed_current_sha256": "885ed35916f98959004edf45a9bf5b4ff3405a52c9fdfde8e598c9cd51719a12",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 247,
+      "object_id": "TR-T0676-UMEA2284-r14",
+      "revision_id": "TR-T0676-UMEA2284-r14@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Aleksandra/Alexandra[?], egen8/11 och2088/18, utan identitets-/relationsuppgradering."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r14@1",
+      "reviewed_current_sha256": "fbfb7f9713d66673391c7c16be110238fadac3cfb1614dc6380e5fc5d343d4a9",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 248,
+      "object_id": "TR-T0676-UMEA2284-r15",
+      "revision_id": "TR-T0676-UMEA2284-r15@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Astrids1/9,8/11,Lysning27/1921,betyg6/4 och utflytt7/4 hålls isär."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r15@1",
+      "reviewed_current_sha256": "4d5c8d31a49ce0aad4c7d3fc11160098c379bd02dc1b5c544131c89054b31220",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 249,
+      "object_id": "TR-T0676-UMEA2284-r16",
+      "revision_id": "TR-T0676-UMEA2284-r16@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Anders reserverade landskansl.,245/70/1913,betyg5/12 ochLomma14/12."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r16@1",
+      "reviewed_current_sha256": "a59bcf173b9323daaf5910e855ada8a44fb869d812e4bad176ff76b8b2ae4f4f",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 250,
+      "object_id": "TR-T0676-UMEA2284-r17",
+      "revision_id": "TR-T0676-UMEA2284-r17@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Johan Magnus29/10 och odaterad Frik.; ingen1917normalisering."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r17@1",
+      "reviewed_current_sha256": "5363203d8086a370198cf697e43b21ead6ed9540367d44a998e75c54bfc230e8",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 251,
+      "object_id": "TR-T0676-UMEA2284-r18",
+      "revision_id": "TR-T0676-UMEA2284-r18@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Oskars22/5,seminarieelev,reserverat inträdesbetygsdatum,174/70/17 ochNorsjö1/11."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r18@1",
+      "reviewed_current_sha256": "1b6db2198ea34d4a462ad2ea276a3cb24112557ba170218e74ed91eb19deaf77",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 252,
+      "object_id": "TR-T0676-UMEA2284-r19",
+      "revision_id": "TR-T0676-UMEA2284-r19@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. PetrusNi[c/k]olaus,jordbr.-arbet.,b[?] och militärårsreservation19[?]."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r19@1",
+      "reviewed_current_sha256": "773b76c8827556b84e754bee3259b731aa31ffab301e92653eded22bb321b38a",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 253,
+      "object_id": "TR-T0676-UMEA2284-r20",
+      "revision_id": "TR-T0676-UMEA2284-r20@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Ludvigs5/3 och tydligt huvudnummer143/69/1922 hålls från separat oläslig struken undernot."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r20@1",
+      "reviewed_current_sha256": "7bd516abd72e155f8fa3482c87112256f389c5e1cf29f4ceade0bd31fb62410d",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 254,
+      "object_id": "TR-T0676-UMEA2284-r21",
+      "revision_id": "TR-T0676-UMEA2284-r21@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Birgers13/8 på just denna källa och tom egen militärkolumn; sena31/8konflikten kvarstår separat."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r21@1",
+      "reviewed_current_sha256": "5d31d7217993201626303415038128520141ab7485351bfb4affe400eb8e7f03",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 255,
+      "object_id": "TR-T0676-UMEA2284-r22",
+      "revision_id": "TR-T0676-UMEA2284-r22@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. TyraCharlotta och12/7; FIRSTClaudia har inte blivit ny namnvariant."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r22@1",
+      "reviewed_current_sha256": "25862cdf4a0f8aed87ffb59c04e5db1697f25431f9c0959079116c691eb1e50b",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    },
+    {
+      "input_index": 256,
+      "object_id": "TR-T0676-UMEA2284-r23",
+      "revision_id": "TR-T0676-UMEA2284-r23@1",
+      "decision": "RETAIN",
+      "changes": [],
+      "reasons": [
+        "Aktuell @1 verifierad med inspect och exakt textidentitet mot journal164. Gerda17/9,svaga ankomstdittotecken ochbN; FIRST17/3 rättat läsfel."
+      ],
+      "frozen_input_revision_id": "TR-T0676-UMEA2284-r23@1",
+      "reviewed_current_sha256": "52ea49404207875f3865b3e542569209587c06e7dd7a1b476049add451b40829",
+      "live_recheck_journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json"
+    }
+  ],
+  "evidence_binding": [
+    {
+      "claim": "Livias makesefternamn olöst; Hällsten äldre tolkning",
+      "current_revisions": [
+        "RESEARCH-P-0030-9d76f0343410@2",
+        "BIO-P-0030@2"
+      ],
+      "journal": "genealogy2/journal/000000153-a99214265b3c413058b13eaeec3971256d3d8ee2f074e5f635e4263a5da56746.json",
+      "exact_basis": "efternamnet är nu olöst efter riktad prövning och hennes egen lästa namnform är Zingmark",
+      "scope": "T-0675-beslut redan infört. Gamla motsägande caveatfraser korrigeras i förslaget, ingen ny läsning."
+    },
+    {
+      "claim": "Tyra14/7 är rättat avskriftsfel; aktuell rapporterad dag12/7",
+      "current_revisions": [
+        "E-birth-P-0037@1",
+        "ASSESSMENT-P-0037@1",
+        "RESEARCH-P-0037-9d76f0343410@1"
+      ],
+      "journal": "genealogy2/journal/000000020-bcb8a950d162097fae85d3ebbe13d1fc0e36d5b92c54399a250ca1167d90867b.json",
+      "exact_basis": "Uttryckligen rättad avskrift. Ingen aktuell 12/14-juli-konflikt kvarstår. Kopiekedja; egen födelsenotis oläst.",
+      "scope": "Viktig precisering: detta är äldre T-0177-rättelse migrerad i journal20, inte ett nytt Tyra-beslut i journal153/T-0675. T-0675-bevaranderegeln får inte framställas som dess ursprung."
+    },
+    {
+      "claim": "Ludvig C-0890r9 rådag31/3[5/3?] bevaras",
+      "current_revisions": [
+        "O-P-0035-C0890-r9-household_row@2",
+        "RESEARCH-P-0035-9d76f0343410@2"
+      ],
+      "journal": "genealogy2/journal/000000153-a99214265b3c413058b13eaeec3971256d3d8ee2f074e5f635e4263a5da56746.json",
+      "exact_basis": "birth_literal:1901 31/3[5/3?]; C0890s rådag är nu reserverad31/3[5/3?], så identiska dagar i alla fyra får inte åberopas.",
+      "scope": "T-0675-beslut redan infört. Befintligt källrapporterat5/3 behålls; dess kopior får reservation, ingen personomdatering."
+    }
+  ],
+  "live_recheck": {
+    "superseded_review_sha256": "735b7d64a9e2daed10a4c56b784de8133666a170d6d5cae1d53f6b0f8f9fce5e",
+    "journal": "genealogy2/journal/000000164-6a8c4f9cefed94dbae89534565f32590d0b51e2e978b50c21908f7c0b2e02d93.json",
+    "scope": "13poster som saknade current i fryst input är nu verifierade @1 via inspect. Den frysta inputfilen ändras inte.61fältändringar oförändrade.",
+    "method": "Aktuella TR-textfält och AUDIT-body identiska med journal164 requestdata;12×18egna fält. Ingen bild-/källöppning."
+  }
+}

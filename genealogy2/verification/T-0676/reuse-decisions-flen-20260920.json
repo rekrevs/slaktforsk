@@ -1,0 +1,1809 @@
+{
+  "task": "T-0676",
+  "date": "2026-09-20",
+  "kind": "Astra_reuse_decision_input",
+  "scope": [
+    3,
+    8,
+    25,
+    26,
+    44,
+    49
+  ],
+  "method": "No image reading or apply. Exact preserved citation, task and batch spans compared with current read-only native record/transcription/observation rows. Earlier reading statuses are not upgraded by formatting.",
+  "status_vocabulary": {
+    "läst": "Explicitly preserved prior reading.",
+    "tom": "Explicitly empty in preserved column position or express prior full-field statement.",
+    "osäker": "Actually read with preserved uncertainty.",
+    "oläst": "No individually preserved read/empty disposition in this assessed text; not a claim that no prior researcher viewed the cell."
+  },
+  "scope44_male_column_decision": {
+    "status": "tom",
+    "already_covered": true,
+    "reason": "C0918 lines17–20 lists columns in order. Lines22–23 preserve name | [empty male] | 1 female. TR-76aac93f72ca549c87d3bb3b@1 has the identical ordered row. This is an explicit blank cell, not an omission inferred from prose. No image rereading needed to reuse this prior empty disposition.",
+    "no_new_person_fact": "The blank mankön count does not imply a source-wide absence or a sex judgement for anyone else."
+  },
+  "newly_identified_factual_errors": [],
+  "records": [
+    {
+      "number": 3,
+      "record": "R-13a391a82ab9f4c4c16175fe",
+      "expected_version": 1,
+      "locator": "Flen A II a/4b, ortregister, Ljungbacka → uppslag 914, 00153993_00004",
+      "media": [
+        {
+          "path": "genealogy/media/S-0717-riksarkivet-flen-AIIa4b-ortregister-00153993_00004.jpg",
+          "sha256": "db710019073cb0627bfbb945e86b8cf8815615f63afaaba0f0da2144da4be97d",
+          "bytes": 1369431,
+          "region": "Ortregisterraden Ljungbacka 914",
+          "origin": "legacy"
+        }
+      ],
+      "decision": "reuse_complete_exact_routing",
+      "can_apply_reuse_without_new_original": true,
+      "can_claim_full_original_column_audit_from_this_artifact": true,
+      "prior_source_spans": [
+        {
+          "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+          "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+          "lines": [
+            9,
+            16
+          ],
+          "role": "exact_routing",
+          "text": "- Flens kyrkoarkiv, `SE/ULA/10257`, `A II a/4 c` (1916–1923),\n  **uppslag 914**, ortsrubrik `Ljungbacka`, adress `Turegatan 8`,\n  raderna 1–12 och 24–25\n- Bild-id `00153994_00100`; bildvisare\n  <https://sok.riksarkivet.se/bildvisning/00153994_00100>\n- Uppslaget lokaliserat genom ortregistret i `A II a/4 b`, bild 4\n  (`Ljungbacka 914`)\n- Läst 2026-09-06 (inloggad session, T-0075)\n"
+        },
+        {
+          "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+          "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+          "lines": [
+            99,
+            105
+          ],
+          "role": "media_provenance",
+          "text": "|---|---|\n| [S-0717-riksarkivet-flen-AIIa4c-manifest.json](../media/S-0717-riksarkivet-flen-AIIa4c-manifest.json) | `0a4ae8b33ff5865a0956933dffd140c0487d6126121afea5c5b967f05efded4f` |\n| [S-0717-riksarkivet-flen-AIIa4b-ortregister-00153993_00004.jpg](../media/S-0717-riksarkivet-flen-AIIa4b-ortregister-00153993_00004.jpg) | `db710019073cb0627bfbb945e86b8cf8815615f63afaaba0f0da2144da4be97d` |\n\n## Stödda påståenden\n\nA-3420–A-3421 (P-0009), A-3423–A-3424 (P-0003), A-3429 (P-0042),\n"
+        }
+      ],
+      "reused_transcription": {
+        "format": "exact_prior_text_layers_not_new_diplomatic_reconstruction",
+        "layers": [
+          {
+            "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+            "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+            "lines": [
+              9,
+              16
+            ],
+            "role": "exact_routing",
+            "text": "- Flens kyrkoarkiv, `SE/ULA/10257`, `A II a/4 c` (1916–1923),\n  **uppslag 914**, ortsrubrik `Ljungbacka`, adress `Turegatan 8`,\n  raderna 1–12 och 24–25\n- Bild-id `00153994_00100`; bildvisare\n  <https://sok.riksarkivet.se/bildvisning/00153994_00100>\n- Uppslaget lokaliserat genom ortregistret i `A II a/4 b`, bild 4\n  (`Ljungbacka 914`)\n- Läst 2026-09-06 (inloggad session, T-0075)\n"
+          }
+        ],
+        "note": "Bevarar hela återbrukbara textmassan inklusive sena tillägg och deras ursprungliga form. Normaliserade äldre tabellvärden görs inte om till uppfunna rådatum."
+      },
+      "field_dispositions": [
+        {
+          "row": "index",
+          "field": "place_name",
+          "status": "läst",
+          "value_literal": "Ljungbacka",
+          "provenance": "C0910:14–16",
+          "note": ""
+        },
+        {
+          "row": "index",
+          "field": "target_folio",
+          "status": "läst",
+          "value_literal": "914",
+          "provenance": "C0910:14–16",
+          "note": ""
+        }
+      ],
+      "native_comparison": [
+        {
+          "object": "R-13a391a82ab9f4c4c16175fe",
+          "expected_version": 1,
+          "decision": "add_reuse_transcription_possible",
+          "rationale": "Ingen TR i nuvarande nativepost, men exakt historiskt återbruksunderlag finns. Saknad TR är inte oläst original."
+        }
+      ],
+      "existing_caveat": "Registerraden hänvisar från Ljungbacka till uppslag 914. Den är inte en egen hushållsregistrering och daterar ingen persons vistelse.\nC-0910: Sen fullare avgränsning återtar äldre felaktigt avförda barnrader och inkluderar tre separata egna familjer. Råa militär- och kunskapsfält hålls personbundna.",
+      "remaining_limits": [],
+      "root_acceptance_required": true
+    },
+    {
+      "number": 8,
+      "record": "R-301274634b1d64bcd8934ad1",
+      "expected_version": 1,
+      "locator": "Oskarshamn E I/4, lysningsbok 1923 s. 231 inskrivning 35, Eliasson–Nilsson, 00001074_00234",
+      "media": [
+        {
+          "path": "genealogy/media/C-0914-riksarkivet-00001074_00234.jpg",
+          "sha256": "19d4f8109e224a6256ee18a0105142338e2e0f38839fa21310723679a828de9c",
+          "bytes": 2493332,
+          "region": "Inskrivning 35 med de sena utvunna kolumnerna",
+          "origin": "legacy"
+        }
+      ],
+      "decision": "reuse_all_documented_fields_preserve_documentation_limits",
+      "can_apply_reuse_without_new_original": true,
+      "can_claim_full_original_column_audit_from_this_artifact": false,
+      "prior_source_spans": [
+        {
+          "path": "genealogy/citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md",
+          "sha256": "628fa9bbbef791f68999ad8e7e68afd7077f552376d64d9cbc04e78aa274206b",
+          "lines": [
+            9,
+            26
+          ],
+          "role": "initial_transcription",
+          "text": "- Oskarshamns kyrkoarkiv, `SE/VALA/00293`, `E I/4` (1895–1924),\n  **1923 års lysningsbok, sida 231, inskrivningens löpnummer 35**\n- Bild-id `00001074_00234`; bildvisare\n  <https://sok.riksarkivet.se/bildvisning/00001074_00234>\n- Läst 2026-09-06 (inloggad session, T-0075)\n\n## Diplomatisk avskrift\n\n> 35 | lysningsdagar ¹⁶/₉, ²³/₉, ³⁰/₉ |\n> M. **Eliasson, Bernhard Natanaël**, **Kassör, N:o 293** | född **86 ¹⁹/₄** |\n> sida i församlingsboken **1208**\n> Qv. **Nilsson, Katy Leonie**, **kontorsbiträde, ibm.** | född **98 ¹⁷/₁₀** |\n> sida i församlingsboken **115**\n> Anteckning: `Bådas muntl. samtycke.`\n> Vigde: **nov. 11** | inom svenska kyrkan, i ordningen 1\n\nLäsosäkerhet: kvinnans yrkesbeteckning läses `kontorsbiträde`; förkortningen\n`ibm.` betyder samma bostad som mannen, alltså N:o 293.\n"
+        },
+        {
+          "path": "genealogy/citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md",
+          "sha256": "628fa9bbbef791f68999ad8e7e68afd7077f552376d64d9cbc04e78aa274206b",
+          "lines": [
+            62,
+            76
+          ],
+          "role": "later_visual_extraction",
+          "text": "## Tillägg T-0147, 2026-09-08: två utelämnade kolumner och en sammanslagen rubrik\n\nDen lokalt sparade helbilden har lästs om inom T-0147 för inskrivning 35. Ingen\nny arkivåtkomst gjordes och avskriften ovan ändras inte; följande hörde till den.\n\n- **Kolumn 12, vigselförrättare**, saknas helt i avskriften. Originalet skriver\n  `Pastorsadjunkt Josef Wahlgren, Växiö`.\n- **Kolumn 13, vigselbevis**, saknas också. Originalet skriver `Vigselbevis\n  d. 13/… 23 fr. pastor J. Wahlgren`; dagen är läsosäker och normaliseras inte.\n- **En sammanslagen rubrik.** Avskriften återger `inom svenska kyrkan, i\n  ordningen 1` som en uppgift. Originalet har den egna kolumnrubriken\n  `Hvilket äktenskap i ordningen` med en separat `1` på vardera partens rad.\n  Det är alltså två skilda kolumnuppgifter, inte en.\n\nBerörda påståenden: A-0083 och A-4872 (P-0011).\n"
+        },
+        {
+          "path": "wotan/dev-log/T-0147.md",
+          "sha256": "3376adee5e29cf2dacaaa1926f933deb0cbab76b1962ae97932e35e43379650e",
+          "lines": [
+            54,
+            57
+          ],
+          "role": "review_scope",
+          "text": "| P-0005 | 2026-09-08 | C-0884 och familjekällorna | godkänd | 11 → 14 A; C-0884 innehöll hans egen rad i faderns hushåll utan att uppgifterna nått akten — nu aktens första arkivbelägg för födelseår och födelseförsamling; fyra relationer tillagda | GODKÄND/BÄRANDE | GODKÄND på integritetsminimerat omfång | Husnummeravvikelsen 42/40 är ny Q-01; passagen ägs av T-0366 |\n| P-0006 | 2026-09-08 | C-0889 och familjekällorna | godkänd | 5 → 7 A; profilens Q-01 om namnformen stod som OLÖST men svaret låg i repot — C-0889 skriver `d. Anna Hillevi` i det ägarfastställda föräldrahushållet; frågan är FASTSTÄLLD och A-0028 höjd från LEAD till CORROBORATED | GODKÄND/BÄRANDE | GODKÄND på integritetsminimerat omfång | Umeå stads församlingsbok 1950–1963 är regelbegränsad för hennes del |\n| P-0011 | 2026-09-08 | C-0027, C-0914, C-0960 | godkänd | 5 → 9 A; hela hennes egen SCB-rad 1930 och hennes egna vigselbokskolumner utvunna, vigselorten Oskarshamns stadsförsamling införd, moderskapet till P-0013 märkt som indirekt | GODKÄND/BÄRANDE | UNDERKÄND, PK-08 | Egen församlingsbokssida 115 i Oskarshamn oöppnad; T-0363 |\n| P-0012 | 2026-09-08 | C-0018, C-0027, C-0263 | godkänd | 6 → 8 A; inga saklydelser ändrade, men beroendet mellan C-0018 och C-0263 gjort synligt och hela hennes egen SCB-rad utvunnen | GODKÄND/BÄRANDE | UNDERKÄND, PK-08 | Egen födelse-/dopnotis i Limhamn 1924 oöppnad; T-0364 |\n"
+        },
+        {
+          "path": "wotan/dev-log/T-0147.md",
+          "sha256": "3376adee5e29cf2dacaaa1926f933deb0cbab76b1962ae97932e35e43379650e",
+          "lines": [
+            74,
+            84
+          ],
+          "role": "logged_addition",
+          "text": "## Följdrättelser i andra akter och citationer\n\n- `C-0889`: daterat tillägg om att födelseorten står i folio 275 och inte i folio\n  1006, att minimeringen var inkonsekvent, att rad 6:s namnform läses olika av två\n  granskare och att marginalens blyertsnummer är läsosäkra.\n- `C-0914`: daterat tillägg om två helt utelämnade kolumner, vigselförrättaren och\n  vigselbeviset, samt en sammanslagen kolumnrubrik.\n- `C-0261`: daterat tillägg om att uppgiftslämnaren är fars halvsyster, inte\n  syster.\n- `P-0010` och `P-0014` bär formatfel som ägs av T-0151 respektive T-0142;\n  observationerna är förda dit och till T-0115.\n"
+        },
+        {
+          "path": "genealogy/research-log/2026-09-08.md",
+          "sha256": "cb7498535be7d4d5c40ca758a7383882f2c97122fb100a3aa3d8f3de8b17ce87",
+          "lines": [
+            1142,
+            1183
+          ],
+          "role": "batch552",
+          "text": "## Batch 552 — T-0147: den närmaste familjekretsen och två propageringsluckor\n\nAcceptanskriterier som förs framåt: kriterium 1 (format), 2 (avstämda slutsatser),\n3 (tio teman och PK-01–12), 4 (eftergranskning och anhörigföljder), 5\n(per-personutfall) och 6 (kontroller). Ingen ny arkivåtkomst; redan sparade\nhelbilder har lästs om lokalt.\n\nP-0005, P-0006, P-0011, P-0012, P-0013, P-0039, P-0040 och P-0041 är omskrivna\ntill person-dossier/v1. Sex av dem saknade profil helt. Assertionerna går från 42\ntill 71, alla tidigare bevarade, de nya i A-4850–A-4912.\n\nKohortens viktigaste mönster är två propageringsluckor. C-0884 och C-0889 lästes\nbåda 2026-09-05 och innehöll målpersonernas EGNA hushållsrader, men uppgifterna\nhade aldrig förts in i akterna. P-0005 fick därmed nu aktens första arkivbelägg\nför födelseår och födelseförsamling ur faderns hushållsrader. För P-0006 låg\ndessutom svaret på en registrerad OLÖST fråga i samma källa: C-0889 skriver\n`d. Anna Hillevi`, född 1938, i det ägarfastställda föräldrahushållet, vilket\navgör namnformsfrågan och höjer A-0028 från LEAD till CORROBORATED. Samma\npropagering gav P-0039, P-0040 och P-0041 deras första samtida belägg. Fem akter\nfick alltså arkivbelägg utan en enda ny arkivpassage.\n\nÖvriga sakrättelser. P-0013: systerraderna till P-0012 och P-0014 belades med\nfolkräkningen 1930, som är upptagen åtta år före hennes födelse och inte visar\nhenne; belägget är utbytt med tidsgränsen utskriven. Upprepningar av samma\nuppgiftslämnare är nu märkta så att de inte räknas som korroborering. Hennes\nfasterrelation till P-0005 fanns bara från hans sida och är gjord reciprok.\nP-0011: hela hennes egen SCB-rad 1930 och hennes egna kolumner i vigselboken är\nutvunna, inklusive vigselorten Oskarshamns stadsförsamling. P-0040: den översatta\nformen `JANUARY Oskar` låg som en kommentar och är flyttad till Namnformer som\nuttryckligen REJECTED mot samtida belägg.\n\nTre citationer fick daterade tillägg för uppgifter deras egna avskrifter saknade.\nC-0889: födelseorten står i folio 275 och inte i folio 1006 som avskriften anger,\nminimeringen var inkonsekvent eftersom alla fyra barnnamnen är läsbara, rad 6:s\nnamnform läses olika av två granskare och bevaras läsosäker, och marginalens\nblyertsnummer är läsosäkra och tillskrivs ingen person. C-0914: kolumn 12\nvigselförrättare och kolumn 13 vigselbevis saknades helt, och en kolumnrubrik var\nsammanslagen med en annan uppgift. C-0261: uppgiftslämnaren är Jan-Christers fars\nhalvsyster, inte hans syster.\n\nAlla åtta når identitetsnivån GODKÄND/BÄRANDE. Livsbildsnivån är GODKÄND på\nintegritetsminimerat omfång för P-0005, P-0006 och P-0041 och UNDERKÄND för de\n"
+        },
+        {
+          "path": "genealogy/people/P-0010-bernard-natanael-eliasson.md",
+          "sha256": "6d75e1d83b8b81405f198dc44f721ebe4eb68792cd5679f6b09edb56af0efeaa",
+          "lines": [
+            109,
+            109
+          ],
+          "role": "preserved_certificate_alternatives",
+          "text": "| A-5186 | Vigselförrättare 1923 var pastorsadjunkten Josef Wahlgren, Växjö, som också utfärdade vigselbeviset. | TRANSCRIBED | hög | [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md) | Kolumnerna 12 och 13 saknades i den ursprungliga avskriften och tillfördes citationen i T-0147. Vigselbevisets dag är läsosäker, 13/9 eller 13/11 1923, och normaliseras inte. |\n"
+        },
+        {
+          "path": "genealogy/people/P-0011-katy-leonie-nilssoon.md",
+          "sha256": "75327da083aaa1d6f7e9a8044dfcbaa8fd0971db46ab98cc110f5b4ecb94f7d3",
+          "lines": [
+            57,
+            57
+          ],
+          "role": "preserved_certificate_alternatives",
+          "text": "| A-4872 | Lysnings- och vigselboken anger äktenskapet som det första i ordningen för henne, antecknar `Bådas muntl. samtycke` och namnger pastorsadjunkten Josef Wahlgren, Växjö, som vigselförrättare. | TRANSCRIBED | hög | [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md) | Läst i den lokalt bevarade helbilden `00001074_00234`, sida 231, inskrivning 35. Kolumnens `1` gäller båda parterna var för sig. Den särskilda anteckningen om ett vigselbevis från pastor J. Wahlgren har osäkert läst datum, 13/9 eller 13/11 1923. Muntligt samtycke är ingen uppgift om föräldrar. |\n"
+        }
+      ],
+      "reused_transcription": {
+        "format": "exact_prior_text_layers_not_new_diplomatic_reconstruction",
+        "layers": [
+          {
+            "path": "genealogy/citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md",
+            "sha256": "628fa9bbbef791f68999ad8e7e68afd7077f552376d64d9cbc04e78aa274206b",
+            "lines": [
+              9,
+              26
+            ],
+            "role": "initial_transcription",
+            "text": "- Oskarshamns kyrkoarkiv, `SE/VALA/00293`, `E I/4` (1895–1924),\n  **1923 års lysningsbok, sida 231, inskrivningens löpnummer 35**\n- Bild-id `00001074_00234`; bildvisare\n  <https://sok.riksarkivet.se/bildvisning/00001074_00234>\n- Läst 2026-09-06 (inloggad session, T-0075)\n\n## Diplomatisk avskrift\n\n> 35 | lysningsdagar ¹⁶/₉, ²³/₉, ³⁰/₉ |\n> M. **Eliasson, Bernhard Natanaël**, **Kassör, N:o 293** | född **86 ¹⁹/₄** |\n> sida i församlingsboken **1208**\n> Qv. **Nilsson, Katy Leonie**, **kontorsbiträde, ibm.** | född **98 ¹⁷/₁₀** |\n> sida i församlingsboken **115**\n> Anteckning: `Bådas muntl. samtycke.`\n> Vigde: **nov. 11** | inom svenska kyrkan, i ordningen 1\n\nLäsosäkerhet: kvinnans yrkesbeteckning läses `kontorsbiträde`; förkortningen\n`ibm.` betyder samma bostad som mannen, alltså N:o 293.\n"
+          },
+          {
+            "path": "genealogy/citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md",
+            "sha256": "628fa9bbbef791f68999ad8e7e68afd7077f552376d64d9cbc04e78aa274206b",
+            "lines": [
+              62,
+              76
+            ],
+            "role": "later_visual_extraction",
+            "text": "## Tillägg T-0147, 2026-09-08: två utelämnade kolumner och en sammanslagen rubrik\n\nDen lokalt sparade helbilden har lästs om inom T-0147 för inskrivning 35. Ingen\nny arkivåtkomst gjordes och avskriften ovan ändras inte; följande hörde till den.\n\n- **Kolumn 12, vigselförrättare**, saknas helt i avskriften. Originalet skriver\n  `Pastorsadjunkt Josef Wahlgren, Växiö`.\n- **Kolumn 13, vigselbevis**, saknas också. Originalet skriver `Vigselbevis\n  d. 13/… 23 fr. pastor J. Wahlgren`; dagen är läsosäker och normaliseras inte.\n- **En sammanslagen rubrik.** Avskriften återger `inom svenska kyrkan, i\n  ordningen 1` som en uppgift. Originalet har den egna kolumnrubriken\n  `Hvilket äktenskap i ordningen` med en separat `1` på vardera partens rad.\n  Det är alltså två skilda kolumnuppgifter, inte en.\n\nBerörda påståenden: A-0083 och A-4872 (P-0011).\n"
+          },
+          {
+            "path": "genealogy/people/P-0010-bernard-natanael-eliasson.md",
+            "sha256": "6d75e1d83b8b81405f198dc44f721ebe4eb68792cd5679f6b09edb56af0efeaa",
+            "lines": [
+              109,
+              109
+            ],
+            "role": "preserved_certificate_alternatives",
+            "text": "| A-5186 | Vigselförrättare 1923 var pastorsadjunkten Josef Wahlgren, Växjö, som också utfärdade vigselbeviset. | TRANSCRIBED | hög | [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md) | Kolumnerna 12 och 13 saknades i den ursprungliga avskriften och tillfördes citationen i T-0147. Vigselbevisets dag är läsosäker, 13/9 eller 13/11 1923, och normaliseras inte. |\n"
+          },
+          {
+            "path": "genealogy/people/P-0011-katy-leonie-nilssoon.md",
+            "sha256": "75327da083aaa1d6f7e9a8044dfcbaa8fd0971db46ab98cc110f5b4ecb94f7d3",
+            "lines": [
+              57,
+              57
+            ],
+            "role": "preserved_certificate_alternatives",
+            "text": "| A-4872 | Lysnings- och vigselboken anger äktenskapet som det första i ordningen för henne, antecknar `Bådas muntl. samtycke` och namnger pastorsadjunkten Josef Wahlgren, Växjö, som vigselförrättare. | TRANSCRIBED | hög | [C-0914](../citations/C-0914-eliasson-nilsson-lysning-vigsel-oskarshamn-1923.md) | Läst i den lokalt bevarade helbilden `00001074_00234`, sida 231, inskrivning 35. Kolumnens `1` gäller båda parterna var för sig. Den särskilda anteckningen om ett vigselbevis från pastor J. Wahlgren har osäkert läst datum, 13/9 eller 13/11 1923. Muntligt samtycke är ingen uppgift om föräldrar. |\n"
+          }
+        ],
+        "note": "Bevarar hela återbrukbara textmassan inklusive sena tillägg och deras ursprungliga form. Normaliserade äldre tabellvärden görs inte om till uppfunna rådatum."
+      },
+      "field_dispositions": [
+        {
+          "row": "35",
+          "field": "entry_number",
+          "status": "läst",
+          "value_literal": "35",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "35",
+          "field": "banns_dates",
+          "status": "läst",
+          "value_literal": "¹⁶/₉, ²³/₉, ³⁰/₉",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "M",
+          "field": "name",
+          "status": "läst",
+          "value_literal": "Eliasson, Bernhard Natanaël",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "M",
+          "field": "occupation_address",
+          "status": "läst",
+          "value_literal": "Kassör, N:o 293",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "M",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "86 ¹⁹/₄",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "M",
+          "field": "folio",
+          "status": "läst",
+          "value_literal": "1208",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "Qv",
+          "field": "name",
+          "status": "läst",
+          "value_literal": "Nilsson, Katy Leonie",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "Qv",
+          "field": "occupation_address",
+          "status": "osäker",
+          "value_literal": "kontorsbiträde, ibm.",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "Qv",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "98 ¹⁷/₁₀",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "Qv",
+          "field": "folio",
+          "status": "läst",
+          "value_literal": "115",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "35",
+          "field": "consent",
+          "status": "läst",
+          "value_literal": "Bådas muntl. samtycke.",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "35",
+          "field": "marriage_date",
+          "status": "läst",
+          "value_literal": "nov. 11",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "35",
+          "field": "church_form",
+          "status": "läst",
+          "value_literal": "inom svenska kyrkan",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "M",
+          "field": "marriage_order",
+          "status": "läst",
+          "value_literal": "1",
+          "provenance": "C0914:17–26;62–74",
+          "note": "Kolumnrubriken Hvilket äktenskap i ordningen är egen; vigselbevisets 13/9 eller13/11 är senare bevarade läsalternativ i P0010:109/P0011:57, inte avgjort datum."
+        },
+        {
+          "row": "Qv",
+          "field": "marriage_order",
+          "status": "läst",
+          "value_literal": "1",
+          "provenance": "C0914:17–26;62–74",
+          "note": "Kolumnrubriken Hvilket äktenskap i ordningen är egen; vigselbevisets 13/9 eller13/11 är senare bevarade läsalternativ i P0010:109/P0011:57, inte avgjort datum."
+        },
+        {
+          "row": "35",
+          "field": "column12_officiant",
+          "status": "läst",
+          "value_literal": "Pastorsadjunkt Josef Wahlgren, Växiö",
+          "provenance": "C0914:17–26;62–74",
+          "note": ""
+        },
+        {
+          "row": "35",
+          "field": "column13_certificate",
+          "status": "osäker",
+          "value_literal": "Vigselbevis d. 13/… 23 fr. pastor J. Wahlgren",
+          "provenance": "C0914:17–26;62–74",
+          "note": "Kolumnrubriken Hvilket äktenskap i ordningen är egen; vigselbevisets 13/9 eller13/11 är senare bevarade läsalternativ i P0010:109/P0011:57, inte avgjort datum."
+        },
+        {
+          "row": "35",
+          "field": "other_unnamed_printed_columns",
+          "status": "oläst",
+          "value_literal": null,
+          "provenance": "C0914:17–26;62–74; T0147:56",
+          "note": "T0147 anger egna vigselkolumner utvunna, men bevarad text ger inte uttömmande originalkolumninventarium eller individuella tomutfall för eventuella andra kolumner. Detta är dokumentationsgräns; skapar inte automatisk ny lässkuld."
+        }
+      ],
+      "native_comparison": [
+        {
+          "object": "TR-4798f743fce5dba515016363@1",
+          "expected_version": 1,
+          "decision": "retain_historical_reading_and_append_later_extraction",
+          "rationale": "TR-text är tidigare avskrift, med sena rättelser i caveat/reading_note/origins. Ny samlad återbruksavskrift kan bevara båda lässkikten utan att redigera historien."
+        },
+        {
+          "object": "O-P-0010-C0914-wife-birth@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Katy Leonie Nilsson, 1898-10-17",
+          "caveat": "Hustruns egen födelseslutsats bedöms i P-0011; denna post rapporterar hennes datum."
+        },
+        {
+          "object": "O-P-0010-C0914-groom-context@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "kassör; N:o 293; församlingsbokssida 1208",
+          "caveat": ""
+        },
+        {
+          "object": "O-P-0010-C0914-marriage-order@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "1; Bådas muntl. samtycke",
+          "caveat": "Egen etta i hans kolumn; hustruns etta bedöms separat. Samtycket gäller parterna, inte föräldrar."
+        },
+        {
+          "object": "O-P-0010-C0914-certificate@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Josef Wahlgren, Växjö; bevis 13/9 eller 13/11 1923",
+          "caveat": "Växjö gäller förrättarens uppgift, inte automatiskt vigselplats. Datumet normaliseras inte."
+        },
+        {
+          "object": "O-P-0011-C0914-folio@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "115",
+          "caveat": ""
+        },
+        {
+          "object": "O-P-0011-C0914-order@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "1",
+          "caveat": "Hennes egen kolumnuppgift; ingen uppgift om föräldrar."
+        }
+      ],
+      "existing_caveat": "Separat äktenskapsordning 1 på vardera partens rad. Vigselförrättare Josef Wahlgren, Växiö, är senare utvunnen; vigselbevisets dag/månad reserveras. Församling/registrering avgör inte exakt vigsellokal.\nC-0914: Lysningsdagarna 16, 23 och 30 september skiljs från vigsel 11 november. Yrkes- och bostadsuppgifter är källans fält med respektive råreservation.",
+      "remaining_limits": [
+        "Bevarad fullare läshistorik stöder alla individuellt redovisade fält, inklusive osäkerheter. Den ger inte säkra tomvärden för varje onämnd originalkolumn. Root avgör om denna dokumentationsgräns behöver särskild avslutsdisposition; artefakten intygar ingen ny fullkolumnaudit."
+      ],
+      "root_acceptance_required": true
+    },
+    {
+      "number": 25,
+      "record": "R-9ec895e7d357de6e8838f6b7",
+      "expected_version": 1,
+      "locator": "Flen A II a/4c, Ljungbacka uppslag 914 rader 24–26, Johan Fridolf och Astrid Charlottas familj, 00153994_00100",
+      "media": [
+        {
+          "path": "genealogy/media/C-0910-riksarkivet-00153994_00100.jpg",
+          "sha256": "8a5f8ac44731ffd3639eeaa56dc2774c0607df74df1f899bf6be271c179971b6",
+          "bytes": 1638018,
+          "region": "Johan Fridolf/Astrid och dotter, rader 24–26",
+          "origin": "legacy"
+        }
+      ],
+      "decision": "reuse_all_documented_fields_preserve_documentation_limits",
+      "can_apply_reuse_without_new_original": true,
+      "can_claim_full_original_column_audit_from_this_artifact": false,
+      "prior_source_spans": [
+        {
+          "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+          "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+          "lines": [
+            44,
+            48
+          ],
+          "role": "initial_transcription_or_only_preserved_later_row_extract",
+          "text": "> 24 | ~~**Johan Fridolf Lundkvist**~~ | järnvägskonduktör, maskinist | 93 |\n> ²⁹/₄ | Östra Vingåker(?) | v | K. || [anteckning:] `Se lysningsboken\n> n:o 30/1918` | [utflyttad:] Sundbyberg(?) | 19 ²⁸/₈\n> 25 | h. **Astrid Charlotta Jansson** | | 97 | ²¹/₃ | Skedevi | v |\n> 18 ²⁹/₁₀ | s. 3 | 18\n"
+        },
+        {
+          "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+          "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+          "lines": [
+            127,
+            162
+          ],
+          "role": "T0129_fuller_extraction",
+          "text": "## Fullare familjeposter och rättade gränser — T-0129, 2026-09-08\n\nHela den lokala bilden har prövats med förstoring av familjernas egna\nrader. Karl Fredriks rad 1 anger 24/9, inte tidigare avskrivet 27/9.\nHans egna kristendoms-/nattvardsfält ger C/n; övriga egna förhörs-,\nantecknings-, värnplikts-, avgångs- och dödsfält är tomma på detta uppslag.\n\nRaderna 11–12 tillhör Torvalds familj, och raderna 15–17 Tures. Den äldre\navskriftens avförande som andra hushåll var därför fel.\n\n| Rad | Person och roll | Lästa uppgifter |\n|---|---|---|\n| 9 | Torvald Stefanus Jansson | Snickeriarb., ändrat till verkmästare; Vadsbro 1888, födelsedag avskriven 3/8. Änkeanteckningens dag 2[?]/7 1915 reserveras mot C-0911:s 3/7. v, b/n, värnpliktsnummer 36 44/08. Äktenskapsbevis daterat 2/7 1918 för lysning med Maria Katarina Larsson från Darby[?], Bettna; tidigare 24/7 var en osäker avskrift. |\n| 10 | h. Maria Katarina Larsson | Född 1899-11-14 i Lerbo; gift 1918-09-01; inflyttad från Bettna 1918-09-06; v, C/n. |\n| 11 | d. Maud Karola Wilhelmina | Född 1913-08-04 i Flen; notering hans i första giftet, icke döpt. Hon är inte därmed Maria Katarinas biologiska dotter. |\n| 12 | d. Maggi Carola Elisabet | Född 1918-12-23 i Flen genom ortditto. Ytterligare svag namn-/anteckningsskrift reserveras. |\n| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |\n| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |\n| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |\n| 24 | Johan Fridolf Lundkvist | Järnvägskonduktör, maskinist; född 1893-04-29, Öster ås... [Österåsen?], Jämtl. l.[?]. Från s. 601 år 1918; lysningsbok 30/1918 och anteckning Fr. 14/8. Militärnummer 191 55/13; v, b/n. |\n| 25 | Astrid Charlotta Jansson | Född 1897-03-21 i Skedevi, Östergötlands län; gift 1918-10-29; internt från rad 3 samma år; v, a/n. |\n| 26 | d. Gunnvor Borg Elisabet[?] | Född 1919-06-03 i Flen. Namnets mellanled reserveras; ingen ny personakt skapas ur denna avskrift. |\n\nTorvaldfamiljens destination läses preliminärt Värnamo, med Jönköp. l.\novanför och utflyttningsdag 1920-02-27. Den äldre normaliseringen till\nstaden Jönköping är inte säker. Johan Fridolf/Astrid/barn har destination\nSundbyberg, Stockholms län, 1919-08-28; barnets utflyttning står genom\nditto. De egna förhörsfälten och övriga dödsfält är tomma utöver Tures\nangivna död och Elins änkestatus. Relationer, yrken och numrerade militära\nnycklar hålls personbundna. Legitimationsbevis tolkas inte automatiskt\nsom legitimering av ett biologiskt faderskap.\n\nC-0911 ger Torvalds första hustru Emma Wilhelmina och dottern Maud,\nvilket ska tillgodoräknas vid tolkningen av andra familjen. Varken den\nbokförda första vigseln 1912-06-23, hustruns död 1915-07-03 eller Tures\ndöd 1921-10-20 innebär att egna vigsel-/dödposter redan har lästs.\n"
+        },
+        {
+          "path": "wotan/dev-log/T-0129.md",
+          "sha256": "8469436685de9b6c7a3132e02c14eb83d62fb55e969e9334ae2e88ade4ce77b9",
+          "lines": [
+            110,
+            118
+          ],
+          "role": "visual_pass_before_final_addition",
+          "text": "## Återupptagning — bevarade delresultat 2026-09-08\n\nRoot har kompletterat C-0099, C-0535 och C-1062 samt därefter C-0421,\nC-0030–C-0032, C-0021 och C-0911 med lokalt prövade personfält och\nrättelsegränser. C-0421 ger död 24 december 1937, C-0032 ger 29 december;\nkonflikten kvarstår. C-0910:s Torvald-/Ture-/Astridfamiljer är visuellt\nprövade men deras samlade tillägg och minimala personföljder återstår.\nTorvalds födelsedag ska inte normaliseras till 31 augusti på grund av en\npreliminär förstoring; 3 augusti och handstilens avslut prövas fortfarande.\n"
+        },
+        {
+          "path": "wotan/dev-log/T-0129.md",
+          "sha256": "8469436685de9b6c7a3132e02c14eb83d62fb55e969e9334ae2e88ade4ce77b9",
+          "lines": [
+            141,
+            148
+          ],
+          "role": "completed_checkpoint",
+          "text": "## Återupptagning — verifierat avslut\n\n2026-09-08: T-0129 DONE, batch533. Samtliga kriterier uppfyllda inom\nkonsolideringsomfånget; materiella forskningsrester har fasta ägare.\nInget återstående arbete att upprepa här. Nästa kohort är T-0130,\nP-0338/P-0339/P-0461/P-0462. Backlog next_id263, nästa fria A4312,\nnästa batch534. Sammanhängande körning fortsätter utan avbrott.\n\n"
+        },
+        {
+          "path": "genealogy/research-log/2026-09-08.md",
+          "sha256": "cb7498535be7d4d5c40ca758a7383882f2c97122fb100a3aa3d8f3de8b17ce87",
+          "lines": [
+            117,
+            160
+          ],
+          "role": "batch533",
+          "text": "## Batch 533 — T-0129, Karl Fredrik Jansson och Anders Jonsson\n\nFör framåt T-0129:s sex kriterier: individuell konsolidering, format,\nkontrakt, följdpåverkan, per-personutfall och verifiering. Två fasta\npersoner P-0042/P-0065, 106 äldre aktiva A-id, är sakligt efterlästa.\nIngen ny arkivsökning; befintliga citationer, källnoter och lokala\noriginal har återanvänts. Dashboard, publicering och git-historik orörda.\n\n**P-0042:** 64 äldre A-id bevarade, fem nya A-4286–4290. Dopet\n1861-09-29 tillförs; C-0421:s döddag rättas från29 till24 december1937\nmed C-0032:s29 december synligt som verklig konflikt. C-1093–C-1099\nhade redan följt hans barndom till egen utflytt Råby Rönö1877-11-24.\nFöräldrarnas fortsättning är inte hans. Vuxna gårdsled, fotot i C-0266,\nVariaminne i C-0267 och militärnyckeln9 111/82 tillgodoräknas.\nSven Edvins biologiska faderskap fastställs inte; bokföring av Arne\n1918 daterar inte omsorgens början. Egna vital- och Flensfält har\nprövats, även tomma fält och råkoder. Identitetsnivå UNDERKÄND/AVVAKTAR\npå PK-05/11; fullnivå även på PK-03/04/08. Personidentitet PRÖVAT.\n\n**P-0065:** 42 äldre A-id bevarade, A-4294 tillför makarnas förordnande.\nC-1055:s mellanbok är redan positiv. C-0485:s förstasida ger förrättning\n23 augusti1898 och förordnande10 maj1898, rättar Ida Sofia och\nsågverksförmannen J.O. Zingmark samt Maria Augusta, barnmorska i\nAnundsjö. Minst tio kända barn skiljs från åtta arvingar. Den bevarade\nfortsättningsavskriften tillgodoräknas, men tjugo fullkopior saknas och\n13 998,49 − 2 872,40 blir11 126,09, inte11 127,49. Ingen råsumma rättas\nutan original. Bokägande bevisar inte prenumeration, skulder inte en\nviss köpt tjänst, en återgiven namnform inte egenhändig signatur.\nEgna födelse-/döds-/sena hushållsfält prövade; tidigare outvunna\nförhörskolumner och sida400:s kopia återstår. Identitetsnivå UNDERKÄND/\nAVVAKTAR på PK-05/11; fullnivå även PK-08. Personidentitet PRÖVAT.\n\n**Följdpåverkan:** C-0910/C-0911:s utelämnade familjeblock utvunna.\nP-0045 får A-4308–4310: första äktenskapet1912, Emma Wilhelminas\nbokförda död1915, dottern Maud i första giftet, senare Maggi,\n36 44/08 och rättat äktenskapsbevis2 juli1918/Värnamo[?]. P-0046 får\nA-4306–4307 om död1921-10-20 och Inga Ullas hushållsroll med\nfaderskapsreservation. P-0047 får dotterraden1919 i A-4311.\nP-0066/P-0067/P-0028/P-0029 får A-4300–4303 om bouppteckningens\nförordnande och personuppgifter. Charlottas P-0043 änkedatum visar\nmakens dagkonflikt. Fulla ägare för minimala följder: T-0157, T-0177,\nT-0178 och T-0154 enligt respektive dev-log. P-0046 var fullgranskad\nT-0125 och räknas inte igen. P-0066:s konkreta kopiebrist medför\nUNDERKÄND/AVVAKTAR, men ingen ny fullgranskning. P-0044:s redan bevarade\n"
+        }
+      ],
+      "reused_transcription": {
+        "format": "exact_prior_text_layers_not_new_diplomatic_reconstruction",
+        "layers": [
+          {
+            "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+            "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+            "lines": [
+              44,
+              48
+            ],
+            "role": "initial_transcription_or_only_preserved_later_row_extract",
+            "text": "> 24 | ~~**Johan Fridolf Lundkvist**~~ | järnvägskonduktör, maskinist | 93 |\n> ²⁹/₄ | Östra Vingåker(?) | v | K. || [anteckning:] `Se lysningsboken\n> n:o 30/1918` | [utflyttad:] Sundbyberg(?) | 19 ²⁸/₈\n> 25 | h. **Astrid Charlotta Jansson** | | 97 | ²¹/₃ | Skedevi | v |\n> 18 ²⁹/₁₀ | s. 3 | 18\n"
+          },
+          {
+            "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+            "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+            "lines": [
+              127,
+              162
+            ],
+            "role": "T0129_fuller_extraction",
+            "text": "## Fullare familjeposter och rättade gränser — T-0129, 2026-09-08\n\nHela den lokala bilden har prövats med förstoring av familjernas egna\nrader. Karl Fredriks rad 1 anger 24/9, inte tidigare avskrivet 27/9.\nHans egna kristendoms-/nattvardsfält ger C/n; övriga egna förhörs-,\nantecknings-, värnplikts-, avgångs- och dödsfält är tomma på detta uppslag.\n\nRaderna 11–12 tillhör Torvalds familj, och raderna 15–17 Tures. Den äldre\navskriftens avförande som andra hushåll var därför fel.\n\n| Rad | Person och roll | Lästa uppgifter |\n|---|---|---|\n| 9 | Torvald Stefanus Jansson | Snickeriarb., ändrat till verkmästare; Vadsbro 1888, födelsedag avskriven 3/8. Änkeanteckningens dag 2[?]/7 1915 reserveras mot C-0911:s 3/7. v, b/n, värnpliktsnummer 36 44/08. Äktenskapsbevis daterat 2/7 1918 för lysning med Maria Katarina Larsson från Darby[?], Bettna; tidigare 24/7 var en osäker avskrift. |\n| 10 | h. Maria Katarina Larsson | Född 1899-11-14 i Lerbo; gift 1918-09-01; inflyttad från Bettna 1918-09-06; v, C/n. |\n| 11 | d. Maud Karola Wilhelmina | Född 1913-08-04 i Flen; notering hans i första giftet, icke döpt. Hon är inte därmed Maria Katarinas biologiska dotter. |\n| 12 | d. Maggi Carola Elisabet | Född 1918-12-23 i Flen genom ortditto. Ytterligare svag namn-/anteckningsskrift reserveras. |\n| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |\n| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |\n| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |\n| 24 | Johan Fridolf Lundkvist | Järnvägskonduktör, maskinist; född 1893-04-29, Öster ås... [Österåsen?], Jämtl. l.[?]. Från s. 601 år 1918; lysningsbok 30/1918 och anteckning Fr. 14/8. Militärnummer 191 55/13; v, b/n. |\n| 25 | Astrid Charlotta Jansson | Född 1897-03-21 i Skedevi, Östergötlands län; gift 1918-10-29; internt från rad 3 samma år; v, a/n. |\n| 26 | d. Gunnvor Borg Elisabet[?] | Född 1919-06-03 i Flen. Namnets mellanled reserveras; ingen ny personakt skapas ur denna avskrift. |\n\nTorvaldfamiljens destination läses preliminärt Värnamo, med Jönköp. l.\novanför och utflyttningsdag 1920-02-27. Den äldre normaliseringen till\nstaden Jönköping är inte säker. Johan Fridolf/Astrid/barn har destination\nSundbyberg, Stockholms län, 1919-08-28; barnets utflyttning står genom\nditto. De egna förhörsfälten och övriga dödsfält är tomma utöver Tures\nangivna död och Elins änkestatus. Relationer, yrken och numrerade militära\nnycklar hålls personbundna. Legitimationsbevis tolkas inte automatiskt\nsom legitimering av ett biologiskt faderskap.\n\nC-0911 ger Torvalds första hustru Emma Wilhelmina och dottern Maud,\nvilket ska tillgodoräknas vid tolkningen av andra familjen. Varken den\nbokförda första vigseln 1912-06-23, hustruns död 1915-07-03 eller Tures\ndöd 1921-10-20 innebär att egna vigsel-/dödposter redan har lästs.\n"
+          }
+        ],
+        "note": "Bevarar hela återbrukbara textmassan inklusive sena tillägg och deras ursprungliga form. Normaliserade äldre tabellvärden görs inte om till uppfunna rådatum."
+      },
+      "field_dispositions": [
+        {
+          "row": "24",
+          "field": "name",
+          "status": "läst",
+          "value_literal": "Johan Fridolf Lundkvist",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "occupation",
+          "status": "läst",
+          "value_literal": "järnvägskonduktör, maskinist",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "93 ²⁹/₄",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "birthplace",
+          "status": "osäker",
+          "value_literal": "Öster ås... [Österåsen?], Jämtl. l.[?]",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "vaccination",
+          "status": "läst",
+          "value_literal": "v",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "knowledge_communion",
+          "status": "läst",
+          "value_literal": "b/n",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "civil_annotation",
+          "status": "läst",
+          "value_literal": "K.",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "arrival",
+          "status": "läst",
+          "value_literal": "s. 601 år 1918",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "notes",
+          "status": "läst",
+          "value_literal": "Se lysningsboken n:o 30/1918; Fr. 14/8",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "military",
+          "status": "läst",
+          "value_literal": "191 55/13",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "departure",
+          "status": "läst",
+          "value_literal": "Sundbyberg, Stockholms län, 1919-08-28",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "24",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "24",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "25",
+          "field": "name_role",
+          "status": "läst",
+          "value_literal": "h. Astrid Charlotta Jansson",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "occupation",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "97 ²¹/₃",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Skedevi, Östergötlands län",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "vaccination",
+          "status": "läst",
+          "value_literal": "v",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "knowledge_communion",
+          "status": "läst",
+          "value_literal": "a/n",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "marriage",
+          "status": "läst",
+          "value_literal": "18 ²⁹/₁₀",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "arrival",
+          "status": "läst",
+          "value_literal": "s. 3 år 1918",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "departure",
+          "status": "läst",
+          "value_literal": "Sundbyberg, Stockholms län, 1919-08-28",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "25",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "25",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "26",
+          "field": "name_role",
+          "status": "osäker",
+          "value_literal": "d. Gunnvor Borg Elisabet[?]",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "26",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "1919-06-03",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "26",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Flen",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "26",
+          "field": "departure",
+          "status": "läst",
+          "value_literal": "Sundbyberg, Stockholms län, 1919-08-28 [ditto]",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "26",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "26",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "all",
+          "field": "other_own_printed_fields_not_individually_disposed_in_preserved_extraction",
+          "status": "oläst",
+          "value_literal": null,
+          "provenance": "C0910:20–21;127–162",
+          "note": "Status betyder inte styrkt läst/tom i detta bevarade underlag; T0129 säger att hela bilden prövats. Det är dokumentationsgräns, inte bevis för att originalfält faktiskt förbisetts. Får inte fyllas med tomma värden av tystnad."
+        }
+      ],
+      "native_comparison": [
+        {
+          "object": "TR-ec4b5dbf9a3d993e9c21e7b1@1",
+          "expected_version": 1,
+          "decision": "retain_historical_reading_and_append_later_extraction",
+          "rationale": "TR-text är tidigare avskrift, med sena rättelser i caveat/reading_note/origins. Ny samlad återbruksavskrift kan bevara båda lässkikten utan att redigera historien."
+        },
+        {
+          "object": "O-P-0047-A-3427-marriage_departure@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Astrid anges gift 1918-10-29 med järnvägskonduktören och maskinisten Johan Fridolf Lundkvist efter lysning nr 30/1918; familjen utflyttade från Ljungbacka till Sundbyberg i Stockholms län 1919-08-28.",
+          "caveat": "Egen vigselpost är oläst. Äldre påstående om ej digitaliserad vigselbok är upphävt av S-0717:s positiva `E I/3`-ingång. Makens födelseort är fortsatt läsosäker, se A-5744. Äldre lydelser i historiken."
+        },
+        {
+          "object": "O-P-0047-A-5744-husband_origin_military_transfer@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Makens födelseort läses efter omläsning `Öster ås…[Österåsen?], Jämtlands län[?]`, och han fördes till uppslag 914 från `s. 601` år 1918 med militärnumret `191 55/13`.",
+          "caveat": "Rättelse från T-0129 som inte hade nått akten: den äldre läsningen `Östra Vingåker(?)` är ersatt som sökförslag. Läsningen är reserverad. Militärnumret är hans söknyckel, inte ett belagt förband eller genomförd tjänst."
+        },
+        {
+          "object": "O-P-0047-A-4311-daughter_report@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Astrids och Johan Fridolfs hushåll på Ljungbacka har en dotterrad, uppgiven född 1919-06-03 i Flen, med samma utflyttning 1919-08-28.",
+          "caveat": "Rad 26, tidigare utelämnad. Namnets mellanled var reserverat som `Gunnvor Borg Elisabet[?]`; C-0030 läser samma dotter `Gunvor Solveig Charlotta`, se A-5749. Ingen egen födelsepost är läst. Äldre lydelse i historiken."
+        }
+      ],
+      "existing_caveat": "Johan Fridolfs födelseort Öster ås…/Österåsen? Jämtland? ersätter osäker äldre Östra Vingåker. Barnnamnet Gunnvor Borg Elisabet[?] reserveras. Destination Sundbyberg 1919-08-28 genom egna/dittofält.\nC-0910: Sen fullare avgränsning återtar äldre felaktigt avförda barnrader och inkluderar tre separata egna familjer. Råa militär- och kunskapsfält hålls personbundna.",
+      "remaining_limits": [
+        "Bevarad fullare läshistorik stöder alla individuellt redovisade fält, inklusive osäkerheter. Den ger inte säkra tomvärden för varje onämnd originalkolumn. Root avgör om denna dokumentationsgräns behöver särskild avslutsdisposition; artefakten intygar ingen ny fullkolumnaudit."
+      ],
+      "root_acceptance_required": true
+    },
+    {
+      "number": 26,
+      "record": "R-a08263c57fcf29d3c4721deb",
+      "expected_version": 1,
+      "locator": "Flen A II a/4c, Ljungbacka uppslag 914 rader 15–17, Ture Alexius familj, 00153994_00100",
+      "media": [
+        {
+          "path": "genealogy/media/C-0910-riksarkivet-00153994_00100.jpg",
+          "sha256": "8a5f8ac44731ffd3639eeaa56dc2774c0607df74df1f899bf6be271c179971b6",
+          "bytes": 1638018,
+          "region": "Tures egen familj, rader 15–17",
+          "origin": "legacy"
+        }
+      ],
+      "decision": "reuse_all_documented_fields_preserve_documentation_limits",
+      "can_apply_reuse_without_new_original": true,
+      "can_claim_full_original_column_audit_from_this_artifact": false,
+      "prior_source_spans": [
+        {
+          "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+          "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+          "lines": [
+            143,
+            145
+          ],
+          "role": "initial_transcription_or_only_preserved_later_row_extract",
+          "text": "| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |\n| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |\n| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |\n"
+        },
+        {
+          "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+          "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+          "lines": [
+            127,
+            162
+          ],
+          "role": "T0129_fuller_extraction",
+          "text": "## Fullare familjeposter och rättade gränser — T-0129, 2026-09-08\n\nHela den lokala bilden har prövats med förstoring av familjernas egna\nrader. Karl Fredriks rad 1 anger 24/9, inte tidigare avskrivet 27/9.\nHans egna kristendoms-/nattvardsfält ger C/n; övriga egna förhörs-,\nantecknings-, värnplikts-, avgångs- och dödsfält är tomma på detta uppslag.\n\nRaderna 11–12 tillhör Torvalds familj, och raderna 15–17 Tures. Den äldre\navskriftens avförande som andra hushåll var därför fel.\n\n| Rad | Person och roll | Lästa uppgifter |\n|---|---|---|\n| 9 | Torvald Stefanus Jansson | Snickeriarb., ändrat till verkmästare; Vadsbro 1888, födelsedag avskriven 3/8. Änkeanteckningens dag 2[?]/7 1915 reserveras mot C-0911:s 3/7. v, b/n, värnpliktsnummer 36 44/08. Äktenskapsbevis daterat 2/7 1918 för lysning med Maria Katarina Larsson från Darby[?], Bettna; tidigare 24/7 var en osäker avskrift. |\n| 10 | h. Maria Katarina Larsson | Född 1899-11-14 i Lerbo; gift 1918-09-01; inflyttad från Bettna 1918-09-06; v, C/n. |\n| 11 | d. Maud Karola Wilhelmina | Född 1913-08-04 i Flen; notering hans i första giftet, icke döpt. Hon är inte därmed Maria Katarinas biologiska dotter. |\n| 12 | d. Maggi Carola Elisabet | Född 1918-12-23 i Flen genom ortditto. Ytterligare svag namn-/anteckningsskrift reserveras. |\n| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |\n| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |\n| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |\n| 24 | Johan Fridolf Lundkvist | Järnvägskonduktör, maskinist; född 1893-04-29, Öster ås... [Österåsen?], Jämtl. l.[?]. Från s. 601 år 1918; lysningsbok 30/1918 och anteckning Fr. 14/8. Militärnummer 191 55/13; v, b/n. |\n| 25 | Astrid Charlotta Jansson | Född 1897-03-21 i Skedevi, Östergötlands län; gift 1918-10-29; internt från rad 3 samma år; v, a/n. |\n| 26 | d. Gunnvor Borg Elisabet[?] | Född 1919-06-03 i Flen. Namnets mellanled reserveras; ingen ny personakt skapas ur denna avskrift. |\n\nTorvaldfamiljens destination läses preliminärt Värnamo, med Jönköp. l.\novanför och utflyttningsdag 1920-02-27. Den äldre normaliseringen till\nstaden Jönköping är inte säker. Johan Fridolf/Astrid/barn har destination\nSundbyberg, Stockholms län, 1919-08-28; barnets utflyttning står genom\nditto. De egna förhörsfälten och övriga dödsfält är tomma utöver Tures\nangivna död och Elins änkestatus. Relationer, yrken och numrerade militära\nnycklar hålls personbundna. Legitimationsbevis tolkas inte automatiskt\nsom legitimering av ett biologiskt faderskap.\n\nC-0911 ger Torvalds första hustru Emma Wilhelmina och dottern Maud,\nvilket ska tillgodoräknas vid tolkningen av andra familjen. Varken den\nbokförda första vigseln 1912-06-23, hustruns död 1915-07-03 eller Tures\ndöd 1921-10-20 innebär att egna vigsel-/dödposter redan har lästs.\n"
+        },
+        {
+          "path": "wotan/dev-log/T-0129.md",
+          "sha256": "8469436685de9b6c7a3132e02c14eb83d62fb55e969e9334ae2e88ade4ce77b9",
+          "lines": [
+            110,
+            118
+          ],
+          "role": "visual_pass_before_final_addition",
+          "text": "## Återupptagning — bevarade delresultat 2026-09-08\n\nRoot har kompletterat C-0099, C-0535 och C-1062 samt därefter C-0421,\nC-0030–C-0032, C-0021 och C-0911 med lokalt prövade personfält och\nrättelsegränser. C-0421 ger död 24 december 1937, C-0032 ger 29 december;\nkonflikten kvarstår. C-0910:s Torvald-/Ture-/Astridfamiljer är visuellt\nprövade men deras samlade tillägg och minimala personföljder återstår.\nTorvalds födelsedag ska inte normaliseras till 31 augusti på grund av en\npreliminär förstoring; 3 augusti och handstilens avslut prövas fortfarande.\n"
+        },
+        {
+          "path": "wotan/dev-log/T-0129.md",
+          "sha256": "8469436685de9b6c7a3132e02c14eb83d62fb55e969e9334ae2e88ade4ce77b9",
+          "lines": [
+            141,
+            148
+          ],
+          "role": "completed_checkpoint",
+          "text": "## Återupptagning — verifierat avslut\n\n2026-09-08: T-0129 DONE, batch533. Samtliga kriterier uppfyllda inom\nkonsolideringsomfånget; materiella forskningsrester har fasta ägare.\nInget återstående arbete att upprepa här. Nästa kohort är T-0130,\nP-0338/P-0339/P-0461/P-0462. Backlog next_id263, nästa fria A4312,\nnästa batch534. Sammanhängande körning fortsätter utan avbrott.\n\n"
+        },
+        {
+          "path": "genealogy/research-log/2026-09-08.md",
+          "sha256": "cb7498535be7d4d5c40ca758a7383882f2c97122fb100a3aa3d8f3de8b17ce87",
+          "lines": [
+            117,
+            160
+          ],
+          "role": "batch533",
+          "text": "## Batch 533 — T-0129, Karl Fredrik Jansson och Anders Jonsson\n\nFör framåt T-0129:s sex kriterier: individuell konsolidering, format,\nkontrakt, följdpåverkan, per-personutfall och verifiering. Två fasta\npersoner P-0042/P-0065, 106 äldre aktiva A-id, är sakligt efterlästa.\nIngen ny arkivsökning; befintliga citationer, källnoter och lokala\noriginal har återanvänts. Dashboard, publicering och git-historik orörda.\n\n**P-0042:** 64 äldre A-id bevarade, fem nya A-4286–4290. Dopet\n1861-09-29 tillförs; C-0421:s döddag rättas från29 till24 december1937\nmed C-0032:s29 december synligt som verklig konflikt. C-1093–C-1099\nhade redan följt hans barndom till egen utflytt Råby Rönö1877-11-24.\nFöräldrarnas fortsättning är inte hans. Vuxna gårdsled, fotot i C-0266,\nVariaminne i C-0267 och militärnyckeln9 111/82 tillgodoräknas.\nSven Edvins biologiska faderskap fastställs inte; bokföring av Arne\n1918 daterar inte omsorgens början. Egna vital- och Flensfält har\nprövats, även tomma fält och råkoder. Identitetsnivå UNDERKÄND/AVVAKTAR\npå PK-05/11; fullnivå även på PK-03/04/08. Personidentitet PRÖVAT.\n\n**P-0065:** 42 äldre A-id bevarade, A-4294 tillför makarnas förordnande.\nC-1055:s mellanbok är redan positiv. C-0485:s förstasida ger förrättning\n23 augusti1898 och förordnande10 maj1898, rättar Ida Sofia och\nsågverksförmannen J.O. Zingmark samt Maria Augusta, barnmorska i\nAnundsjö. Minst tio kända barn skiljs från åtta arvingar. Den bevarade\nfortsättningsavskriften tillgodoräknas, men tjugo fullkopior saknas och\n13 998,49 − 2 872,40 blir11 126,09, inte11 127,49. Ingen råsumma rättas\nutan original. Bokägande bevisar inte prenumeration, skulder inte en\nviss köpt tjänst, en återgiven namnform inte egenhändig signatur.\nEgna födelse-/döds-/sena hushållsfält prövade; tidigare outvunna\nförhörskolumner och sida400:s kopia återstår. Identitetsnivå UNDERKÄND/\nAVVAKTAR på PK-05/11; fullnivå även PK-08. Personidentitet PRÖVAT.\n\n**Följdpåverkan:** C-0910/C-0911:s utelämnade familjeblock utvunna.\nP-0045 får A-4308–4310: första äktenskapet1912, Emma Wilhelminas\nbokförda död1915, dottern Maud i första giftet, senare Maggi,\n36 44/08 och rättat äktenskapsbevis2 juli1918/Värnamo[?]. P-0046 får\nA-4306–4307 om död1921-10-20 och Inga Ullas hushållsroll med\nfaderskapsreservation. P-0047 får dotterraden1919 i A-4311.\nP-0066/P-0067/P-0028/P-0029 får A-4300–4303 om bouppteckningens\nförordnande och personuppgifter. Charlottas P-0043 änkedatum visar\nmakens dagkonflikt. Fulla ägare för minimala följder: T-0157, T-0177,\nT-0178 och T-0154 enligt respektive dev-log. P-0046 var fullgranskad\nT-0125 och räknas inte igen. P-0066:s konkreta kopiebrist medför\nUNDERKÄND/AVVAKTAR, men ingen ny fullgranskning. P-0044:s redan bevarade\n"
+        }
+      ],
+      "reused_transcription": {
+        "format": "exact_prior_text_layers_not_new_diplomatic_reconstruction",
+        "layers": [
+          {
+            "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+            "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+            "lines": [
+              143,
+              145
+            ],
+            "role": "initial_transcription_or_only_preserved_later_row_extract",
+            "text": "| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |\n| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |\n| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |\n"
+          },
+          {
+            "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+            "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+            "lines": [
+              127,
+              162
+            ],
+            "role": "T0129_fuller_extraction",
+            "text": "## Fullare familjeposter och rättade gränser — T-0129, 2026-09-08\n\nHela den lokala bilden har prövats med förstoring av familjernas egna\nrader. Karl Fredriks rad 1 anger 24/9, inte tidigare avskrivet 27/9.\nHans egna kristendoms-/nattvardsfält ger C/n; övriga egna förhörs-,\nantecknings-, värnplikts-, avgångs- och dödsfält är tomma på detta uppslag.\n\nRaderna 11–12 tillhör Torvalds familj, och raderna 15–17 Tures. Den äldre\navskriftens avförande som andra hushåll var därför fel.\n\n| Rad | Person och roll | Lästa uppgifter |\n|---|---|---|\n| 9 | Torvald Stefanus Jansson | Snickeriarb., ändrat till verkmästare; Vadsbro 1888, födelsedag avskriven 3/8. Änkeanteckningens dag 2[?]/7 1915 reserveras mot C-0911:s 3/7. v, b/n, värnpliktsnummer 36 44/08. Äktenskapsbevis daterat 2/7 1918 för lysning med Maria Katarina Larsson från Darby[?], Bettna; tidigare 24/7 var en osäker avskrift. |\n| 10 | h. Maria Katarina Larsson | Född 1899-11-14 i Lerbo; gift 1918-09-01; inflyttad från Bettna 1918-09-06; v, C/n. |\n| 11 | d. Maud Karola Wilhelmina | Född 1913-08-04 i Flen; notering hans i första giftet, icke döpt. Hon är inte därmed Maria Katarinas biologiska dotter. |\n| 12 | d. Maggi Carola Elisabet | Född 1918-12-23 i Flen genom ortditto. Ytterligare svag namn-/anteckningsskrift reserveras. |\n| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |\n| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |\n| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |\n| 24 | Johan Fridolf Lundkvist | Järnvägskonduktör, maskinist; född 1893-04-29, Öster ås... [Österåsen?], Jämtl. l.[?]. Från s. 601 år 1918; lysningsbok 30/1918 och anteckning Fr. 14/8. Militärnummer 191 55/13; v, b/n. |\n| 25 | Astrid Charlotta Jansson | Född 1897-03-21 i Skedevi, Östergötlands län; gift 1918-10-29; internt från rad 3 samma år; v, a/n. |\n| 26 | d. Gunnvor Borg Elisabet[?] | Född 1919-06-03 i Flen. Namnets mellanled reserveras; ingen ny personakt skapas ur denna avskrift. |\n\nTorvaldfamiljens destination läses preliminärt Värnamo, med Jönköp. l.\novanför och utflyttningsdag 1920-02-27. Den äldre normaliseringen till\nstaden Jönköping är inte säker. Johan Fridolf/Astrid/barn har destination\nSundbyberg, Stockholms län, 1919-08-28; barnets utflyttning står genom\nditto. De egna förhörsfälten och övriga dödsfält är tomma utöver Tures\nangivna död och Elins änkestatus. Relationer, yrken och numrerade militära\nnycklar hålls personbundna. Legitimationsbevis tolkas inte automatiskt\nsom legitimering av ett biologiskt faderskap.\n\nC-0911 ger Torvalds första hustru Emma Wilhelmina och dottern Maud,\nvilket ska tillgodoräknas vid tolkningen av andra familjen. Varken den\nbokförda första vigseln 1912-06-23, hustruns död 1915-07-03 eller Tures\ndöd 1921-10-20 innebär att egna vigsel-/dödposter redan har lästs.\n"
+          }
+        ],
+        "note": "Bevarar hela återbrukbara textmassan inklusive sena tillägg och deras ursprungliga form. Normaliserade äldre tabellvärden görs inte om till uppfunna rådatum."
+      },
+      "field_dispositions": [
+        {
+          "row": "15",
+          "field": "name_occupation",
+          "status": "läst",
+          "value_literal": "Ture Alexius Jansson, målare",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "15",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "1890-06-07",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "15",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Vadsbro",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "15",
+          "field": "marriage",
+          "status": "läst",
+          "value_literal": "1914-12-31",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "15",
+          "field": "vaccination",
+          "status": "läst",
+          "value_literal": "v",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "15",
+          "field": "knowledge_communion",
+          "status": "läst",
+          "value_literal": "a/n",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "15",
+          "field": "military",
+          "status": "läst",
+          "value_literal": "33 44/11",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "15",
+          "field": "death",
+          "status": "läst",
+          "value_literal": "1921-10-20",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "15",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "16",
+          "field": "name_role",
+          "status": "läst",
+          "value_literal": "Elin Augusta, Jansson f. Larsson, änka",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "16",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "1882-09-27",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "16",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Gåsinge",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "16",
+          "field": "widow_date",
+          "status": "läst",
+          "value_literal": "1921-10-20",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "16",
+          "field": "vaccination",
+          "status": "läst",
+          "value_literal": "v",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "16",
+          "field": "knowledge_communion",
+          "status": "läst",
+          "value_literal": "b/n",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "16",
+          "field": "notes",
+          "status": "läst",
+          "value_literal": "Bef.",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "16",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "16",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "17",
+          "field": "name_role",
+          "status": "läst",
+          "value_literal": "d. Inga Ulla",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "17",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "1914-05-27",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "17",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Flen",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "17",
+          "field": "baptism_note",
+          "status": "läst",
+          "value_literal": "icke döpt",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "17",
+          "field": "arrival",
+          "status": "läst",
+          "value_literal": "Engelbrekt, Stockholm, 1917-03-02",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "17",
+          "field": "certificate",
+          "status": "läst",
+          "value_literal": "legitimationsbevis den 4/7 1918",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "17",
+          "field": "struck_relation_note",
+          "status": "osäker",
+          "value_literal": "hennes före äkt.[?]",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "17",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "17",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "all",
+          "field": "other_own_printed_fields_not_individually_disposed_in_preserved_extraction",
+          "status": "oläst",
+          "value_literal": null,
+          "provenance": "C0910:20–21;127–162",
+          "note": "Status betyder inte styrkt läst/tom i detta bevarade underlag; T0129 säger att hela bilden prövats. Det är dokumentationsgräns, inte bevis för att originalfält faktiskt förbisetts. Får inte fyllas med tomma värden av tystnad."
+        }
+      ],
+      "native_comparison": [
+        {
+          "object": "O-P-0043-A-5705-son_death_report@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Sonen Ture Alexius dog 1921-10-20, enligt hans egen rad i Flens `A II a/4 c`; hon överlevde honom med nitton år.",
+          "caveat": "Ny 2026-09-08 i T-0157 ur T-0129:s helbildsläsning av samma uppslag. Uppgiften är bokförd i församlingsboken; sonens egen dödpost är inte läst. Tures egen rad; dödposten är inte läst."
+        },
+        {
+          "object": "O-P-0046-A-4306-death_report@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Flens A II a/4 c sida 914 rad 15 anger Ture Alexius Jansson, målare, död 1921-10-20; hustrun Elin Augusta har samma datum som änkeankare på rad 16.",
+          "caveat": "Senare hushållsuppgift; egen döds-/begravningspost är oläst och dödsort fastställs inte av hemvisten."
+        },
+        {
+          "object": "O-P-0046-A-4307-recorded_daughter_and_legitimation@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "På parets hushållsrader står d. Inga Ulla, uppgiven född 1914-05-27 i Flen, icke döpt, från Engelbrekt i Stockholm 1917-03-02; legitimationsbevis dateras 1918-07-04.",
+          "caveat": "Överstruken not läses hennes före äkt.[?]. Bokförd dotterroll och legitimationsbevis fastställer inte biologiskt faderskap för Ture."
+        },
+        {
+          "object": "R-a08263c57fcf29d3c4721deb",
+          "expected_version": 1,
+          "decision": "add_reuse_transcription_possible",
+          "rationale": "Ingen TR i nuvarande nativepost, men exakt historiskt återbruksunderlag finns. Saknad TR är inte oläst original."
+        }
+      ],
+      "existing_caveat": "Tures död och Elins änkedag 1921-10-20 är hushållsuppgifter, inte egen dödpost. Inga Ullas överstrukna hennes före äkt.[?] är osäker; legitimationsbevis ger inte automatiskt biologiskt faderskap.\nC-0910: Sen fullare avgränsning återtar äldre felaktigt avförda barnrader och inkluderar tre separata egna familjer. Råa militär- och kunskapsfält hålls personbundna.",
+      "remaining_limits": [
+        "Bevarad fullare läshistorik stöder alla individuellt redovisade fält, inklusive osäkerheter. Den ger inte säkra tomvärden för varje onämnd originalkolumn. Root avgör om denna dokumentationsgräns behöver särskild avslutsdisposition; artefakten intygar ingen ny fullkolumnaudit."
+      ],
+      "root_acceptance_required": true
+    },
+    {
+      "number": 44,
+      "record": "R-e2f5f43b1e83b1d146fb3a96",
+      "expected_version": 1,
+      "locator": "Flen B/6b,1918 s20,betyg106/utflyttning29 Ada Wilhelmina Jansson,00154039_00023",
+      "media": [
+        {
+          "path": "genealogy/media/C-0918-riksarkivet-00154039_00023.jpg",
+          "sha256": "185a539ceda2798433d333e4a69fd70b16968f05cfdb7df5e22144eff23be9e8",
+          "bytes": 1599054,
+          "region": "Flen B/6b,1918 s20,betyg106/utflyttning29 Ada Wilhelmina Jansson,00154039_00023",
+          "origin": "legacy"
+        }
+      ],
+      "decision": "reuse_complete_explicit_column_row_with_reservations",
+      "can_apply_reuse_without_new_original": true,
+      "can_claim_full_original_column_audit_from_this_artifact": true,
+      "prior_source_spans": [
+        {
+          "path": "genealogy/citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md",
+          "sha256": "b58356b1a57d01d590a6edbeadf1617ac728c74befb8ca4e5356131b1293aaba",
+          "lines": [
+            9,
+            28
+          ],
+          "role": "exact_columns_and_transcription",
+          "text": "- Flens kyrkoarkiv, `SE/ULA/10257`, `B/6 b` (1916–1940), utflyttningslängd för\n  municipalsamhället, **1918 års utflyttningsbok, sida 20, post 106**\n- Bild-id `00154039_00023`; bildvisare\n  <https://sok.riksarkivet.se/bildvisning/00154039_00023>\n- Läst 2026-09-06 (inloggad session, T-0075)\n\n## Diplomatisk avskrift\n\nKolumner: flyttningsbetygets löpnummer och dag | utflyttningens nr och dag |\nutflyttade | mankön | kvinnkön | varifrån i församlingen | uppslag i\nförsamlingsboken | församling i län eller stad | gård, gata och husnummer |\nsärskilda anteckningar.\n\n> 106 | ²⁹/₁₀ | 29 | ²⁹/₁₀ | **Jansson, Ada Wilhelmina, barnsköterska** |\n> | 1 | **Ljungbacka** | **914** | **Norge** |\n> **östra Aker, Kristiania** | **Emigrant (Beviset d. ²⁸/₁₁ 1921)**\n\nLäsosäkerhet: ordet före datumet i anmärkningen (`Beviset`/`Beviljat`) och det\nexakta datumet `²⁸/₁₁ 1921`. Grannposten 105 (Lundqvist) har adressen\n`Saltskogs station` i Södertälje östra och hör inte hit.\n"
+        },
+        {
+          "path": "genealogy/citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md",
+          "sha256": "b58356b1a57d01d590a6edbeadf1617ac728c74befb8ca4e5356131b1293aaba",
+          "lines": [
+            68,
+            78
+          ],
+          "role": "later_interpretation_review",
+          "text": "## Omprövning T-0125, 2026-09-07\n\nPostens barnsköterska och församlingsbokens hemsömmerska är två samtida\nkälluppgifter. Yrkesordet bevisar inte en bestämd anställning i Norge.\n1918-10-29 daterar utflyttningsföring och betyg, inte nödvändigtvis fysisk\nresdag eller faktisk överlämning av omsorgen om Arne. Föregående dags\ninskrivning från Floda får samma gräns. Den daterade anteckningen1921\nhar en reserverad ordläsning; den anger inte Maj-Britts födelse eller\nkoppling till ett visst ärende. Familjens födelseår1922 finns i C-0266,\nmedan A-1696 avser Adas senare namn. Ingen geografisk barnfödelseslutsats\nföljer av anteckningen eller det senare vigselindexet C-0959.\n"
+        }
+      ],
+      "reused_transcription": {
+        "format": "exact_prior_text_layers_not_new_diplomatic_reconstruction",
+        "layers": [
+          {
+            "path": "genealogy/citations/C-0918-ada-utflyttning-norge-ostre-aker-1918.md",
+            "sha256": "b58356b1a57d01d590a6edbeadf1617ac728c74befb8ca4e5356131b1293aaba",
+            "lines": [
+              9,
+              28
+            ],
+            "role": "exact_columns_and_transcription",
+            "text": "- Flens kyrkoarkiv, `SE/ULA/10257`, `B/6 b` (1916–1940), utflyttningslängd för\n  municipalsamhället, **1918 års utflyttningsbok, sida 20, post 106**\n- Bild-id `00154039_00023`; bildvisare\n  <https://sok.riksarkivet.se/bildvisning/00154039_00023>\n- Läst 2026-09-06 (inloggad session, T-0075)\n\n## Diplomatisk avskrift\n\nKolumner: flyttningsbetygets löpnummer och dag | utflyttningens nr och dag |\nutflyttade | mankön | kvinnkön | varifrån i församlingen | uppslag i\nförsamlingsboken | församling i län eller stad | gård, gata och husnummer |\nsärskilda anteckningar.\n\n> 106 | ²⁹/₁₀ | 29 | ²⁹/₁₀ | **Jansson, Ada Wilhelmina, barnsköterska** |\n> | 1 | **Ljungbacka** | **914** | **Norge** |\n> **östra Aker, Kristiania** | **Emigrant (Beviset d. ²⁸/₁₁ 1921)**\n\nLäsosäkerhet: ordet före datumet i anmärkningen (`Beviset`/`Beviljat`) och det\nexakta datumet `²⁸/₁₁ 1921`. Grannposten 105 (Lundqvist) har adressen\n`Saltskogs station` i Södertälje östra och hör inte hit.\n"
+          }
+        ],
+        "note": "Bevarar hela återbrukbara textmassan inklusive sena tillägg och deras ursprungliga form. Normaliserade äldre tabellvärden görs inte om till uppfunna rådatum."
+      },
+      "field_dispositions": [
+        {
+          "row": "106/29",
+          "field": "certificate_number",
+          "status": "läst",
+          "value_literal": "106",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "certificate_day",
+          "status": "läst",
+          "value_literal": "²⁹/₁₀",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "departure_number",
+          "status": "läst",
+          "value_literal": "29",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "departure_day",
+          "status": "läst",
+          "value_literal": "²⁹/₁₀",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "name_and_occupation",
+          "status": "läst",
+          "value_literal": "Jansson, Ada Wilhelmina, barnsköterska",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "male_count",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0918:17–28",
+          "note": "Tom mankolumn är explicit position mellan namnkolumnens avslutande | (r22) och kvinnkolumn1 (r23)."
+        },
+        {
+          "row": "106/29",
+          "field": "female_count",
+          "status": "läst",
+          "value_literal": "1",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "origin_within_parish",
+          "status": "läst",
+          "value_literal": "Ljungbacka",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "parish_book_folio",
+          "status": "läst",
+          "value_literal": "914",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "destination_parish_county_city",
+          "status": "läst",
+          "value_literal": "Norge",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "destination_farm_street_house",
+          "status": "läst",
+          "value_literal": "östra Aker, Kristiania",
+          "provenance": "C0918:17–28",
+          "note": ""
+        },
+        {
+          "row": "106/29",
+          "field": "annotation",
+          "status": "osäker",
+          "value_literal": "Emigrant (Beviset d. ²⁸/₁₁ 1921)",
+          "provenance": "C0918:17–28",
+          "note": "Beviset/Beviljat och exakt datum reserveras; ingen säker ny händelse."
+        }
+      ],
+      "native_comparison": [
+        {
+          "object": "TR-76aac93f72ca549c87d3bb3b@1",
+          "expected_version": 1,
+          "decision": "retain",
+          "rationale": "Hela egna tabellraden och ord-/datumreservationen stämmer med exakt bevarad källavskrift."
+        },
+        {
+          "object": "O-P-0009-C0918-later-note@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Beviset[?] 1921-11-28",
+          "caveat": "Ord och syfte osäkra; inte en ny flytt- eller vigselhändelse."
+        },
+        {
+          "object": "O-P-0009-C0918-job-certificate@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "barnsköterska; flyttningsbetyg 1918-10-29",
+          "caveat": "Hemsömmerska i C-0910 är en annan samtidig bokuppgift; inget belägg för norsk arbetsgivare."
+        }
+      ],
+      "existing_caveat": "Barnsköterska och samtida hemsömmerska är skilda uppgifter. Betyg/utflyttningsföring1918-10-29 är inte säkert fysisk resa. Østre Aker,Kristiania gäller henne; Saltskog105hörgrannen. Emigrantnotens Beviset/Beviljat och28nov1921reserveras; ingen Maj-Britt-födelse eller norskanställning därav.\nC-0918: Omprövningen begränsar äldre slutsatser om arbete, resa och dotterns födelse. A1696avser senare namn, medan familjens1922uppgift finns i C0266; fel hänvisning bevaras som historik.",
+      "remaining_limits": [],
+      "root_acceptance_required": true
+    },
+    {
+      "number": 49,
+      "record": "R-fadebbf807b34033b5afaea0",
+      "expected_version": 1,
+      "locator": "Flen A II a/4c, Ljungbacka uppslag 914 rader 9–12, Torvald Stefanus familj, 00153994_00100",
+      "media": [
+        {
+          "path": "genealogy/media/C-0910-riksarkivet-00153994_00100.jpg",
+          "sha256": "8a5f8ac44731ffd3639eeaa56dc2774c0607df74df1f899bf6be271c179971b6",
+          "bytes": 1638018,
+          "region": "Torvalds egen familj, rader 9–12",
+          "origin": "legacy"
+        }
+      ],
+      "decision": "reuse_all_documented_fields_preserve_documentation_limits",
+      "can_apply_reuse_without_new_original": true,
+      "can_claim_full_original_column_audit_from_this_artifact": false,
+      "prior_source_spans": [
+        {
+          "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+          "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+          "lines": [
+            38,
+            43
+          ],
+          "role": "initial_transcription_or_only_preserved_later_row_extract",
+          "text": "> 9 | ~~s. **Torvald Stefanus Jansson**~~ | ~~snickeriarb.~~ verkmästare |\n> 88 | ³/₈ | Vadsbro | v | K. 15 ²/₇ || [anteckning:] `Äktenskapsbevis d. ²⁴/₇ 18\n> för lysning till äktenskap med Maria Katarina Larsson f. Daoby, Bettna` |\n> [utflyttad:] Jönköping | 20 ²⁷/₂\n> 10 | h. **Maria Katarina Larsson** | | 99 | ¹⁴/₁₁ | Lerbo | v | 18 ¹/₉ |\n> Bettna | 18 ⁶/₉\n"
+        },
+        {
+          "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+          "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+          "lines": [
+            127,
+            162
+          ],
+          "role": "T0129_fuller_extraction",
+          "text": "## Fullare familjeposter och rättade gränser — T-0129, 2026-09-08\n\nHela den lokala bilden har prövats med förstoring av familjernas egna\nrader. Karl Fredriks rad 1 anger 24/9, inte tidigare avskrivet 27/9.\nHans egna kristendoms-/nattvardsfält ger C/n; övriga egna förhörs-,\nantecknings-, värnplikts-, avgångs- och dödsfält är tomma på detta uppslag.\n\nRaderna 11–12 tillhör Torvalds familj, och raderna 15–17 Tures. Den äldre\navskriftens avförande som andra hushåll var därför fel.\n\n| Rad | Person och roll | Lästa uppgifter |\n|---|---|---|\n| 9 | Torvald Stefanus Jansson | Snickeriarb., ändrat till verkmästare; Vadsbro 1888, födelsedag avskriven 3/8. Änkeanteckningens dag 2[?]/7 1915 reserveras mot C-0911:s 3/7. v, b/n, värnpliktsnummer 36 44/08. Äktenskapsbevis daterat 2/7 1918 för lysning med Maria Katarina Larsson från Darby[?], Bettna; tidigare 24/7 var en osäker avskrift. |\n| 10 | h. Maria Katarina Larsson | Född 1899-11-14 i Lerbo; gift 1918-09-01; inflyttad från Bettna 1918-09-06; v, C/n. |\n| 11 | d. Maud Karola Wilhelmina | Född 1913-08-04 i Flen; notering hans i första giftet, icke döpt. Hon är inte därmed Maria Katarinas biologiska dotter. |\n| 12 | d. Maggi Carola Elisabet | Född 1918-12-23 i Flen genom ortditto. Ytterligare svag namn-/anteckningsskrift reserveras. |\n| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |\n| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |\n| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |\n| 24 | Johan Fridolf Lundkvist | Järnvägskonduktör, maskinist; född 1893-04-29, Öster ås... [Österåsen?], Jämtl. l.[?]. Från s. 601 år 1918; lysningsbok 30/1918 och anteckning Fr. 14/8. Militärnummer 191 55/13; v, b/n. |\n| 25 | Astrid Charlotta Jansson | Född 1897-03-21 i Skedevi, Östergötlands län; gift 1918-10-29; internt från rad 3 samma år; v, a/n. |\n| 26 | d. Gunnvor Borg Elisabet[?] | Född 1919-06-03 i Flen. Namnets mellanled reserveras; ingen ny personakt skapas ur denna avskrift. |\n\nTorvaldfamiljens destination läses preliminärt Värnamo, med Jönköp. l.\novanför och utflyttningsdag 1920-02-27. Den äldre normaliseringen till\nstaden Jönköping är inte säker. Johan Fridolf/Astrid/barn har destination\nSundbyberg, Stockholms län, 1919-08-28; barnets utflyttning står genom\nditto. De egna förhörsfälten och övriga dödsfält är tomma utöver Tures\nangivna död och Elins änkestatus. Relationer, yrken och numrerade militära\nnycklar hålls personbundna. Legitimationsbevis tolkas inte automatiskt\nsom legitimering av ett biologiskt faderskap.\n\nC-0911 ger Torvalds första hustru Emma Wilhelmina och dottern Maud,\nvilket ska tillgodoräknas vid tolkningen av andra familjen. Varken den\nbokförda första vigseln 1912-06-23, hustruns död 1915-07-03 eller Tures\ndöd 1921-10-20 innebär att egna vigsel-/dödposter redan har lästs.\n"
+        },
+        {
+          "path": "wotan/dev-log/T-0129.md",
+          "sha256": "8469436685de9b6c7a3132e02c14eb83d62fb55e969e9334ae2e88ade4ce77b9",
+          "lines": [
+            110,
+            118
+          ],
+          "role": "visual_pass_before_final_addition",
+          "text": "## Återupptagning — bevarade delresultat 2026-09-08\n\nRoot har kompletterat C-0099, C-0535 och C-1062 samt därefter C-0421,\nC-0030–C-0032, C-0021 och C-0911 med lokalt prövade personfält och\nrättelsegränser. C-0421 ger död 24 december 1937, C-0032 ger 29 december;\nkonflikten kvarstår. C-0910:s Torvald-/Ture-/Astridfamiljer är visuellt\nprövade men deras samlade tillägg och minimala personföljder återstår.\nTorvalds födelsedag ska inte normaliseras till 31 augusti på grund av en\npreliminär förstoring; 3 augusti och handstilens avslut prövas fortfarande.\n"
+        },
+        {
+          "path": "wotan/dev-log/T-0129.md",
+          "sha256": "8469436685de9b6c7a3132e02c14eb83d62fb55e969e9334ae2e88ade4ce77b9",
+          "lines": [
+            141,
+            148
+          ],
+          "role": "completed_checkpoint",
+          "text": "## Återupptagning — verifierat avslut\n\n2026-09-08: T-0129 DONE, batch533. Samtliga kriterier uppfyllda inom\nkonsolideringsomfånget; materiella forskningsrester har fasta ägare.\nInget återstående arbete att upprepa här. Nästa kohort är T-0130,\nP-0338/P-0339/P-0461/P-0462. Backlog next_id263, nästa fria A4312,\nnästa batch534. Sammanhängande körning fortsätter utan avbrott.\n\n"
+        },
+        {
+          "path": "genealogy/research-log/2026-09-08.md",
+          "sha256": "cb7498535be7d4d5c40ca758a7383882f2c97122fb100a3aa3d8f3de8b17ce87",
+          "lines": [
+            117,
+            160
+          ],
+          "role": "batch533",
+          "text": "## Batch 533 — T-0129, Karl Fredrik Jansson och Anders Jonsson\n\nFör framåt T-0129:s sex kriterier: individuell konsolidering, format,\nkontrakt, följdpåverkan, per-personutfall och verifiering. Två fasta\npersoner P-0042/P-0065, 106 äldre aktiva A-id, är sakligt efterlästa.\nIngen ny arkivsökning; befintliga citationer, källnoter och lokala\noriginal har återanvänts. Dashboard, publicering och git-historik orörda.\n\n**P-0042:** 64 äldre A-id bevarade, fem nya A-4286–4290. Dopet\n1861-09-29 tillförs; C-0421:s döddag rättas från29 till24 december1937\nmed C-0032:s29 december synligt som verklig konflikt. C-1093–C-1099\nhade redan följt hans barndom till egen utflytt Råby Rönö1877-11-24.\nFöräldrarnas fortsättning är inte hans. Vuxna gårdsled, fotot i C-0266,\nVariaminne i C-0267 och militärnyckeln9 111/82 tillgodoräknas.\nSven Edvins biologiska faderskap fastställs inte; bokföring av Arne\n1918 daterar inte omsorgens början. Egna vital- och Flensfält har\nprövats, även tomma fält och råkoder. Identitetsnivå UNDERKÄND/AVVAKTAR\npå PK-05/11; fullnivå även på PK-03/04/08. Personidentitet PRÖVAT.\n\n**P-0065:** 42 äldre A-id bevarade, A-4294 tillför makarnas förordnande.\nC-1055:s mellanbok är redan positiv. C-0485:s förstasida ger förrättning\n23 augusti1898 och förordnande10 maj1898, rättar Ida Sofia och\nsågverksförmannen J.O. Zingmark samt Maria Augusta, barnmorska i\nAnundsjö. Minst tio kända barn skiljs från åtta arvingar. Den bevarade\nfortsättningsavskriften tillgodoräknas, men tjugo fullkopior saknas och\n13 998,49 − 2 872,40 blir11 126,09, inte11 127,49. Ingen råsumma rättas\nutan original. Bokägande bevisar inte prenumeration, skulder inte en\nviss köpt tjänst, en återgiven namnform inte egenhändig signatur.\nEgna födelse-/döds-/sena hushållsfält prövade; tidigare outvunna\nförhörskolumner och sida400:s kopia återstår. Identitetsnivå UNDERKÄND/\nAVVAKTAR på PK-05/11; fullnivå även PK-08. Personidentitet PRÖVAT.\n\n**Följdpåverkan:** C-0910/C-0911:s utelämnade familjeblock utvunna.\nP-0045 får A-4308–4310: första äktenskapet1912, Emma Wilhelminas\nbokförda död1915, dottern Maud i första giftet, senare Maggi,\n36 44/08 och rättat äktenskapsbevis2 juli1918/Värnamo[?]. P-0046 får\nA-4306–4307 om död1921-10-20 och Inga Ullas hushållsroll med\nfaderskapsreservation. P-0047 får dotterraden1919 i A-4311.\nP-0066/P-0067/P-0028/P-0029 får A-4300–4303 om bouppteckningens\nförordnande och personuppgifter. Charlottas P-0043 änkedatum visar\nmakens dagkonflikt. Fulla ägare för minimala följder: T-0157, T-0177,\nT-0178 och T-0154 enligt respektive dev-log. P-0046 var fullgranskad\nT-0125 och räknas inte igen. P-0066:s konkreta kopiebrist medför\nUNDERKÄND/AVVAKTAR, men ingen ny fullgranskning. P-0044:s redan bevarade\n"
+        }
+      ],
+      "reused_transcription": {
+        "format": "exact_prior_text_layers_not_new_diplomatic_reconstruction",
+        "layers": [
+          {
+            "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+            "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+            "lines": [
+              38,
+              43
+            ],
+            "role": "initial_transcription_or_only_preserved_later_row_extract",
+            "text": "> 9 | ~~s. **Torvald Stefanus Jansson**~~ | ~~snickeriarb.~~ verkmästare |\n> 88 | ³/₈ | Vadsbro | v | K. 15 ²/₇ || [anteckning:] `Äktenskapsbevis d. ²⁴/₇ 18\n> för lysning till äktenskap med Maria Katarina Larsson f. Daoby, Bettna` |\n> [utflyttad:] Jönköping | 20 ²⁷/₂\n> 10 | h. **Maria Katarina Larsson** | | 99 | ¹⁴/₁₁ | Lerbo | v | 18 ¹/₉ |\n> Bettna | 18 ⁶/₉\n"
+          },
+          {
+            "path": "genealogy/citations/C-0910-arne-hos-morforaldrarna-ljungbacka-flen-1918.md",
+            "sha256": "309a871d2f27ff38a146af04d28954866eef3990ae3ecb5d5e5b4022d144745e",
+            "lines": [
+              127,
+              162
+            ],
+            "role": "T0129_fuller_extraction",
+            "text": "## Fullare familjeposter och rättade gränser — T-0129, 2026-09-08\n\nHela den lokala bilden har prövats med förstoring av familjernas egna\nrader. Karl Fredriks rad 1 anger 24/9, inte tidigare avskrivet 27/9.\nHans egna kristendoms-/nattvardsfält ger C/n; övriga egna förhörs-,\nantecknings-, värnplikts-, avgångs- och dödsfält är tomma på detta uppslag.\n\nRaderna 11–12 tillhör Torvalds familj, och raderna 15–17 Tures. Den äldre\navskriftens avförande som andra hushåll var därför fel.\n\n| Rad | Person och roll | Lästa uppgifter |\n|---|---|---|\n| 9 | Torvald Stefanus Jansson | Snickeriarb., ändrat till verkmästare; Vadsbro 1888, födelsedag avskriven 3/8. Änkeanteckningens dag 2[?]/7 1915 reserveras mot C-0911:s 3/7. v, b/n, värnpliktsnummer 36 44/08. Äktenskapsbevis daterat 2/7 1918 för lysning med Maria Katarina Larsson från Darby[?], Bettna; tidigare 24/7 var en osäker avskrift. |\n| 10 | h. Maria Katarina Larsson | Född 1899-11-14 i Lerbo; gift 1918-09-01; inflyttad från Bettna 1918-09-06; v, C/n. |\n| 11 | d. Maud Karola Wilhelmina | Född 1913-08-04 i Flen; notering hans i första giftet, icke döpt. Hon är inte därmed Maria Katarinas biologiska dotter. |\n| 12 | d. Maggi Carola Elisabet | Född 1918-12-23 i Flen genom ortditto. Ytterligare svag namn-/anteckningsskrift reserveras. |\n| 15 | Ture Alexius Jansson, målare | Född 1890-06-07 i Vadsbro, gift 1914-12-31; v, a/n; värnpliktsnummer 33 44/11; död **1921-10-20**. |\n| 16 | Elin Augusta, Jansson f. Larsson, änka | Född 1882-09-27 i Gåsinge; änkeanteckning 1921-10-20; v, b/n; anteckning Bef. |\n| 17 | d. Inga Ulla | Född 1914-05-27 i Flen; icke döpt. Inflyttad från Engelbrekt, Stockholm, 1917-03-02; legitimationsbevis den 4/7 1918. En överstruken relationsnot läses hennes före äkt.[?]; ingen säker biologisk fadersrelation till Ture fastställs här. |\n| 24 | Johan Fridolf Lundkvist | Järnvägskonduktör, maskinist; född 1893-04-29, Öster ås... [Österåsen?], Jämtl. l.[?]. Från s. 601 år 1918; lysningsbok 30/1918 och anteckning Fr. 14/8. Militärnummer 191 55/13; v, b/n. |\n| 25 | Astrid Charlotta Jansson | Född 1897-03-21 i Skedevi, Östergötlands län; gift 1918-10-29; internt från rad 3 samma år; v, a/n. |\n| 26 | d. Gunnvor Borg Elisabet[?] | Född 1919-06-03 i Flen. Namnets mellanled reserveras; ingen ny personakt skapas ur denna avskrift. |\n\nTorvaldfamiljens destination läses preliminärt Värnamo, med Jönköp. l.\novanför och utflyttningsdag 1920-02-27. Den äldre normaliseringen till\nstaden Jönköping är inte säker. Johan Fridolf/Astrid/barn har destination\nSundbyberg, Stockholms län, 1919-08-28; barnets utflyttning står genom\nditto. De egna förhörsfälten och övriga dödsfält är tomma utöver Tures\nangivna död och Elins änkestatus. Relationer, yrken och numrerade militära\nnycklar hålls personbundna. Legitimationsbevis tolkas inte automatiskt\nsom legitimering av ett biologiskt faderskap.\n\nC-0911 ger Torvalds första hustru Emma Wilhelmina och dottern Maud,\nvilket ska tillgodoräknas vid tolkningen av andra familjen. Varken den\nbokförda första vigseln 1912-06-23, hustruns död 1915-07-03 eller Tures\ndöd 1921-10-20 innebär att egna vigsel-/dödposter redan har lästs.\n"
+          }
+        ],
+        "note": "Bevarar hela återbrukbara textmassan inklusive sena tillägg och deras ursprungliga form. Normaliserade äldre tabellvärden görs inte om till uppfunna rådatum."
+      },
+      "field_dispositions": [
+        {
+          "row": "9",
+          "field": "name_role",
+          "status": "läst",
+          "value_literal": "s. Torvald Stefanus Jansson",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "occupation",
+          "status": "läst",
+          "value_literal": "snickeriarb., ändrat till verkmästare",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "88 ³/₈",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Vadsbro",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "widower_date",
+          "status": "osäker",
+          "value_literal": "2[?]/7 1915",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "vaccination",
+          "status": "läst",
+          "value_literal": "v",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "knowledge_communion",
+          "status": "läst",
+          "value_literal": "b/n",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "military",
+          "status": "läst",
+          "value_literal": "36 44/08",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "marriage_certificate",
+          "status": "läst",
+          "value_literal": "2/7 1918",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "marriage_certificate_place",
+          "status": "osäker",
+          "value_literal": "Maria Katarina Larsson från Darby[?], Bettna",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "departure",
+          "status": "osäker",
+          "value_literal": "Värnamo[?], Jönköp. l., 1920-02-27",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "9",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "9",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "10",
+          "field": "name_role",
+          "status": "läst",
+          "value_literal": "h. Maria Katarina Larsson",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "10",
+          "field": "occupation",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "10",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "99 ¹⁴/₁₁",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "10",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Lerbo",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "10",
+          "field": "marriage",
+          "status": "läst",
+          "value_literal": "18 ¹/₉",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "10",
+          "field": "arrival",
+          "status": "läst",
+          "value_literal": "Bettna 18 ⁶/₉",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "10",
+          "field": "vaccination",
+          "status": "läst",
+          "value_literal": "v",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "10",
+          "field": "knowledge_communion",
+          "status": "läst",
+          "value_literal": "C/n",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "10",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "10",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "11",
+          "field": "name_role",
+          "status": "läst",
+          "value_literal": "d. Maud Karola Wilhelmina",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "11",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "1913-08-04",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "11",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Flen",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "11",
+          "field": "relation_note",
+          "status": "läst",
+          "value_literal": "hans i första giftet",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "11",
+          "field": "baptism_note",
+          "status": "läst",
+          "value_literal": "icke döpt",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "11",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "11",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "12",
+          "field": "name_role",
+          "status": "läst",
+          "value_literal": "d. Maggi Carola Elisabet",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "12",
+          "field": "birth",
+          "status": "läst",
+          "value_literal": "1918-12-23",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "12",
+          "field": "birthplace",
+          "status": "läst",
+          "value_literal": "Flen [ortditto]",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "12",
+          "field": "additional_weak_writing",
+          "status": "osäker",
+          "value_literal": "Ytterligare svag namn-/anteckningsskrift",
+          "provenance": "C0910:38–48;127–162",
+          "note": "Det sena tilläggets exakta ord/datumform bevaras; ISO-form här är äldre utvinningsform, inte ny diplomatisk rekonstruktion."
+        },
+        {
+          "row": "12",
+          "field": "own_examination_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Explicit gemensam fullare familjefältsredovisning; gäller egna förhörsfält, inte automatiskt alla kyrkliga kunskapsfält."
+        },
+        {
+          "row": "12",
+          "field": "own_death_fields",
+          "status": "tom",
+          "value_literal": "",
+          "provenance": "C0910:154–155",
+          "note": "Tures död och Elins änkestatus är uttryckliga undantag; Elins änkedatum är inte hennes död."
+        },
+        {
+          "row": "all",
+          "field": "other_own_printed_fields_not_individually_disposed_in_preserved_extraction",
+          "status": "oläst",
+          "value_literal": null,
+          "provenance": "C0910:20–21;127–162",
+          "note": "Status betyder inte styrkt läst/tom i detta bevarade underlag; T0129 säger att hela bilden prövats. Det är dokumentationsgräns, inte bevis för att originalfält faktiskt förbisetts. Får inte fyllas med tomma värden av tystnad."
+        }
+      ],
+      "native_comparison": [
+        {
+          "object": "TR-cd9f62e9ca892b586b7c0809@1",
+          "expected_version": 1,
+          "decision": "retain_historical_reading_and_append_later_extraction",
+          "rationale": "TR-text är tidigare avskrift, med sena rättelser i caveat/reading_note/origins. Ny samlad återbruksavskrift kan bevara båda lässkikten utan att redigera historien."
+        },
+        {
+          "object": "O-P-0045-A-3428-occupation_marriage_departure@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Torvald skrevs verkmästare på Ljungbacka, fick äktenskapsbevis 1918-07-02 för lysning med Maria Katarina Larsson från Darby[?], Bettna, anges gift 1918-09-01 och utflyttad 1920-02-27 till Värnamo[?], Jönköpings län.",
+          "caveat": "Lokal omläsning T-0129 rättar tidigare 24 juli och staden Jönköping; ortläsningens reservation bevaras. Två ortnamn är fortfarande läsosäkra: `Darby[?]` och `Värnamo[?]`. Det senare avgör var hans vuxna liv fortsätter och är därför aktens viktigaste läsgräns. Församlingsbokens uppgifter är källbundna, med olästa egna vigsel-/födelse-/dödposter."
+        },
+        {
+          "object": "O-P-0045-A-4309-daughters_report@1",
+          "expected_version": 1,
+          "decision": "retain_with_existing_caveats",
+          "rationale": "Aktuell observation återger det tidigare lästa sakomfånget; läst mot egna kolumn-/radtillägg. Ingen sakrättelse fastställd i detta textåterbruk.",
+          "value_literal": "Dottern Maud Karola Wilhelmina, uppgiven 1913-08-04 i Flen, finns i första hushållet och som hans dotter i första giftet i nästa bok. Där står också dottern Maggi Carola Elisabet, uppgiven 1918-12-23 i Flen.",
+          "caveat": "Maud ska inte göras till andra hustrun Maria Katarinas biologiska dotter. Ingen ny personakt skapas ur namnlistan. Församlingsbokens uppgifter är källbundna, med olästa egna vigsel-/födelse-/dödposter."
+        }
+      ],
+      "existing_caveat": "Rader 11–12 hör till Torvalds familj. Maud anges hans i första giftet och är inte därmed andra hustruns biologiska barn. Änkedag 2[?]/7 reserveras; äktenskapsbevis 2/7 1918 rättar äldre 24/7. Destination preliminärt Värnamo, inte säkert staden Jönköping.\nC-0910: Sen fullare avgränsning återtar äldre felaktigt avförda barnrader och inkluderar tre separata egna familjer. Råa militär- och kunskapsfält hålls personbundna.",
+      "remaining_limits": [
+        "Bevarad fullare läshistorik stöder alla individuellt redovisade fält, inklusive osäkerheter. Den ger inte säkra tomvärden för varje onämnd originalkolumn. Root avgör om denna dokumentationsgräns behöver särskild avslutsdisposition; artefakten intygar ingen ny fullkolumnaudit."
+      ],
+      "root_acceptance_required": true
+    }
+  ],
+  "constraints": [
+    "All reserved reading variants remain; no forced resolution by majority or chronology.",
+    "No new P cores, parent claims, full identity/life approval or activation of later source paths. OWNER_CONFIRMED Bernhard–Arne unchanged.",
+    "Single source rereadings are quality control, not independent historical witnesses.",
+    "Current original reading ownership/locks and Wotan state untouched."
+  ]
+}

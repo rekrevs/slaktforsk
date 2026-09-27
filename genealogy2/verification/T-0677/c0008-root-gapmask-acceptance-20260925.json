@@ -1,0 +1,70 @@
+{
+  "task": "T-0677",
+  "reviewer": "root/Astra",
+  "state": "STAGE1_COMPARED_EXACT_GAPMASK_AUTHORIZED",
+  "locks": {
+    "root": "f3bda7608c2fdc2bb48e3e5d1bef4d3622aa2f5f5f9ec5b5c75d833931efdaec",
+    "independent": "8807f915602d377a41f08769d1348e4169e0f82511f2b6a440dc6224b7914a1a"
+  },
+  "comparison": {
+    "agreement": "21 numbered columns; nr10 second band across both pages;1915/Flens/page181; no unexpected extension.",
+    "difference": "Only col1 spelling: independent årnummer vs root årsnummer. Targeted rotated original header crop visibly årsnummer; root selected. No person field reread."
+  },
+  "physical_geometry": "21 numbered column positions; father/mother writing zones in9and10 separately tracked.23 extraction units, not23 printed columns.",
+  "reuse_whole_fields": [
+    "1",
+    "2",
+    "3",
+    "8",
+    "9-father",
+    "10-mother",
+    "16",
+    "17",
+    "18"
+  ],
+  "new_whole_gap_fields": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "10-father",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "20"
+  ],
+  "partial_gap_fields": [
+    {
+      "field": "9-mother",
+      "reuse": "Ada Wilhelmina Jansson; Ökna i Floda; mother birth reserved separately in10",
+      "read_only": "Remaining occupation/qualifier words and connective text needed to account for entire mother field, excluding repeat judgement of name, known place and birthdata. Raw tjän.[?]/kvinna phrase unresolved."
+    },
+    {
+      "field": "19",
+      "reuse": "Maskinisten; C.F.; Ljungbacka; fru Olga Wilh:a Lundin",
+      "read_only": "Witness1 surname; witness2 place; connecting/end words not previously extracted; no identity assignment."
+    },
+    {
+      "field": "21",
+      "reuse": "Nedkomsten i Flen; extract to pastorsämbetet Floda dated22/10/16 as semantic findings",
+      "read_only": "Literal wording of extract note not fully transcribed after historical employer phrase was rejected. Record exact residual wording; reuse birthplace and known reporting semantic values. No new interpretation of employer."
+    }
+  ],
+  "counts": {
+    "extraction_units": 23,
+    "whole_documentary_reuse": 9,
+    "whole_gap_control": 11,
+    "partial_gap_control": 3
+  },
+  "reading_method": "Two Astra raw outputs locked separately before comparison, documented prior knowledge. Header and data cells viewed in same crop where practicable; reference header map retained. All blanks explicit; slash counts classified only by actual column. Crop only targetband/header.",
+  "stop_conditions": [
+    "Unexpected row continuation or unaccounted field => stop before expanding",
+    "No adjacent record extraction",
+    "No automatic sex/person/identity/relationship from statistical marks",
+    "No treating baptism register or extract recipient as physical baptism place",
+    "No mother birthdate/locale from other source inserted into this cell"
+  ],
+  "no_canonical_apply": true
+}

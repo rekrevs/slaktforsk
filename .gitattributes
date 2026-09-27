@@ -12,3 +12,7 @@ evaluations/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 evaluations/**/*.png filter=lfs diff=lfs merge=lfs -text
 # Exact import bytes: hashes and provenance spans must survive checkout.
 genealogy2/import/baseline/objects/* -filter -text
+
+# Locked T-0677 review images; full source originals remain separately preserved.
+genealogy2/verification/T-0677/**/*.png filter=lfs diff=lfs merge=lfs -text
+genealogy2/verification/T-0677/*.png filter=lfs diff=lfs merge=lfs -text

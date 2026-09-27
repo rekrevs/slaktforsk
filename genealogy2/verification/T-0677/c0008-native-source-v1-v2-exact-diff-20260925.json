@@ -1,0 +1,63 @@
+{
+  "task": "T-0677",
+  "state": "EXACT_TWO_AUDIT_FIELD_DIFF_NO_APPLY",
+  "from": {
+    "file": "c0008-native-source-proposed-20260925.json",
+    "sha256": "48fe066b9d8c3d15a06ed7b5d0a845efa9ba08bdff979a6f9f8ffd039e7e9d3c"
+  },
+  "to": {
+    "file": "c0008-native-source-proposed-v2-20260925.json",
+    "sha256": "914f51cde112763290b0d7136bbd0eb7dca24457da3b75f4a63b033a80979fe5"
+  },
+  "changes": [
+    {
+      "object_id": "AUDIT-T0677-C0008",
+      "field": "data.outcome",
+      "before": "bounded_full_record_control_with_reservations",
+      "after": "reviewed_with_reservations"
+    },
+    {
+      "object_id": "AUDIT-T0677-C0008",
+      "field": "data.body.media",
+      "before": {
+        "path": "genealogy/media/C-0008-riksarkivet-SE-ULA-10257-C8-bild-185-sida-181.jpg",
+        "actual_sha256": "786bf3a252a68f7e2b0cabd9d707e4a1680ee14f3de344ab19bded9026de2ed5",
+        "baseline_sha256": "786bf3a252a68f7e2b0cabd9d707e4a1680ee14f3de344ab19bded9026de2ed5",
+        "hash_matches": true,
+        "bytes": 1451968,
+        "displayed_or_decoded": false,
+        "documented_dimensions": "5110x4022; not newly image-inspected"
+      },
+      "after": {
+        "path": "genealogy/media/C-0008-riksarkivet-SE-ULA-10257-C8-bild-185-sida-181.jpg",
+        "sha256": "786bf3a252a68f7e2b0cabd9d707e4a1680ee14f3de344ab19bded9026de2ed5",
+        "bytes": 1451968,
+        "documentary_metadata": {
+          "baseline_sha256": "786bf3a252a68f7e2b0cabd9d707e4a1680ee14f3de344ab19bded9026de2ed5",
+          "hash_matches": true,
+          "source_dimensions_pixels": [
+            5110,
+            4022
+          ],
+          "preparation_did_not_display_or_decode": true
+        },
+        "original_visual_control": {
+          "performed": true,
+          "access": "Bevarad lokal originalbild och avgränsade lokala beskärningar i de separat låsta rubrik-, luckfälts- och tvåordskontrollerna.",
+          "external_access": false,
+          "source_dimensions_pixels": [
+            5110,
+            4022
+          ],
+          "scope": "Endast nr 10 och dess rubriker; tidigare positiva fält återbrukade enligt låst mask.",
+          "raw_locks": "Sex råutdatafiler och deras SHA-256 återges i auditens raw_locks.",
+          "proposal_preparation_opened_new_images": false
+        }
+      }
+    }
+  ],
+  "outside_authorized_fields_deep_equality": true,
+  "individual_edge_acceptance": "Root has explicitly accepted M-P-0003-C0008-witness1 R@1→@2 for the same own cell with corrected occupation/name preference supported by newTR. Proposal edge unchanged. No other automatic rebase.",
+  "no_original_access": true,
+  "no_canonical_apply": true
+}
